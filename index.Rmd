@@ -1,0 +1,11 @@
+---
+title: "An Arabic Tutorial"
+author: "Ahmad Sheikh"
+output:
+  bookdown::gitbook: default
+documentclass: book
+---
+
+# Preface {-}
+
+This is the preface.
