@@ -1,0 +1,2 @@
+#!/bin/sh
+Rscript -e "bookdown::clean_book(TRUE)"
