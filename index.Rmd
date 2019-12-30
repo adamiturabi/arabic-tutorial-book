@@ -2,10 +2,20 @@
 title: "An Arabic Tutorial"
 author: "Ahmad Sheikh"
 output:
-  bookdown::gitbook: default
+  bookdown::gitbook:
+    pandoc_args: ["--lua-filter=trn.lua"]
+  pdf_document:
+    pandoc_args: ["--lua-filter=trn.lua"]
+    latex_engine: xelatex
+    keep_tex: true
+    template: bidi_art_templ.tex
 documentclass: book
 ---
 
 # Preface {-}
 
-This is the preface.
+This is the _preface_. Test trans [Parf makAn ealayhi pcv]{.trn}
+
+<span class="trn">hihi</span>
+
+and some arabic text [أحمد ضياء!]{.ar} yes.
