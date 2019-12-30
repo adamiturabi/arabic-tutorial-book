@@ -6,15 +6,23 @@ We can use words to describe nouns. For example, we can say "a big man", "the sm
 
 In English the describing words are called adjectives. Adjectives come before the described noun, like "a big house". But in Arabic, describing words come after the described noun. For example, [كَبِيرٌ]{lang=ar dir=rtl} means "big". Here are some examples of how it can be used as a describing word
 
+| Arabic     | English
+|-------------------------------------------------------|:-----------------|
+| [بَيْتٌ كَبِيرٌ]{lang=ar}<br>[baytun kabIrun]{.trn}         | a big house      |
+| [ٱَلْبَيْتُ ٱلْكَبِيرُ]{.ar}<br>[albaytu -lkabIru]{.trn}       | the big house    |
+| [فِي بَيْتٍ كَبِيرٍ]{.ar}<br>[fI baytin kabIrin]{.trn}       | in a big house   |
+| [فِي ٱلْبَيْتِ ٱلْكَبِيرِ]{.ar}<br>[fi -lbayti -lkabIri]{.trn} | in the big house |
+
 djhrdelk ljkhrcf ljkhjklrdh
 
 ```{r echo=FALSE}
 input <- c("[بَيْتٌ كَبِيرٌ]{lang=ar}<br>[baytun kabIrun]{.trn}", "a big house",
 "[ٱَلْبَيْتُ ٱلْكَبِيرُ]{.ar}<br>[albaytu -lkabIru]{.trn}", "the big house",
 "[فِي بَيْتٍ كَبِيرٍ]{.ar}<br>[fI baytin kabIrin]{.trn}", "in a big house",
-"[فِي ٱلْبَيْتِ ٱلْكَبِيرِ]{.ar}<br>[fi -lbayti -lkabIri]{.trn}", "in the big house")
+"[فِي ٱلْبَيْتِ ٱلْكَبِيرِ]{.ar}<br>[fi -lbayti -lkabIri]{.trn}", "in the big house",
+"[فِي ٱلْبَيْتِ ٱلْكَبِيرِ]{.ar}<br>[cccccccccccccccccc]{.trn}", "in the big house")
 df <- matrix(input, ncol=2, byrow=TRUE)
-knitr::kable(df, align=c('l','l'))
+knitr::kable(df, format="markdown",col.names=c("Arabic", "English"), align=c('l','l'))
 ```
 
 <table>
