@@ -2,65 +2,10 @@
 
 Arabic is written right to left. The alphabet traditionally has 28 letters. Some of the sounds are similar to sounds in English but others are very different. Here we will attempt to describe the sounds but we recommend that you learn the correct pronunciation from an experienced Arabic or Quran teacher.
 
--------------------------------------------------------------------------------
-No Arabic letter        Transcription Name  Description
--- -------------------- ------------- ----- -----------------------------------
- 1 [ا]{lang=ar dir=rtl} aa            alif  A vowel like in English "man"
-
- 2 [ا]{lang=ar dir=rtl} b             baa   Like English b in boy
- 
- 3 [ا]{lang=ar dir=rtl} t             taa   Like English t in tall but softer
-
- 4 [ا]{lang=ar dir=rtl} th            thaa  Like English th in think but softer
-
- 5 [ا]{lang=ar dir=rtl} j             jeem  Like English j in just
-
- 6 [ا]{lang=ar dir=rtl} H             Haa   Like English h in hat but the sound comes from the bottom of the throat
-
- 7 [ا]{lang=ar dir=rtl} kh            Khaa  Not found in English. Try saying kh but from the top of the throat
-
- 8 [ا]{lang=ar dir=rtl} d             daal  Like English th in this.
-
- 9 [ا]{lang=ar dir=rtl} dh            dhaal Between this and zoo with the tip of tongue lightly touching the front teeth and keeping the mouth flat.
-
-10 [ا]{lang=ar dir=rtl} r             raa   Like English r in rat
-
-11 [ا]{lang=ar dir=rtl} z             zaa   Like English z in zoo
-
-12 [ا]{lang=ar dir=rtl} s             seen  Like English s in see
-
-13 [ا]{lang=ar dir=rtl} sh            sheen Like English sh in show
-
-14 [ا]{lang=ar dir=rtl} S             Saad  An emphatic س not found in English
-
-15 [ا]{lang=ar dir=rtl} D             Daad  An emphatic د not found in English
-
-16 [ا]{lang=ar dir=rtl} T             Taa   An emphatic ت not found in English
-
-17 [ا]{lang=ar dir=rtl} Z             Zaa   An emphatic ز not found in English
-
-18 [ا]{lang=ar dir=rtl} `             `ayn  A very peculiar sound formed in the throat
-
-19 [ا]{lang=ar dir=rtl} gh            ghayn Like between English g and a soft r.
-
-20 [ا]{lang=ar dir=rtl} f             faa 
-
-21 [ا]{lang=ar dir=rtl} q             qaaf
-
-22 [ا]{lang=ar dir=rtl} k             kaaf
-
-23 [ا]{lang=ar dir=rtl} l             laam
-
-24 [ا]{lang=ar dir=rtl} m             meem
-
-25 [ا]{lang=ar dir=rtl} n             noon
-
-26 [ا]{lang=ar dir=rtl} h             haa
-
-27 [ا]{lang=ar dir=rtl} w             waw   A letter like w in English well Or a vowel like oo in English moon
-
-28 [ا]{lang=ar dir=rtl} y             yaa   A letter like y in English yellow Or a vowel like ee in English been.
--------------------------------------------------------------------------------
+```{r script-alphabet-table, echo = FALSE}
+mytable <- read.csv("script_alphabet_table.csv")
+knitr::kable(mytable, caption = 'The Arabic alphabet')
+```
 
 thaa, dhaal, and Dhaa. Try to pronoun th as in think but bring your tongue farther out between the top and bottom front teeth and have it touch the teeth lighter. Have your lips and cheek in a wide grin.
 

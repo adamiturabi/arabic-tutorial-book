@@ -6,15 +6,14 @@ We can use words to describe nouns. For example, we can say "a big man", "the sm
 
 In English the describing words are called adjectives. Adjectives come before the described noun, like "a big house". But in Arabic, describing words come after the described noun. For example, [كَبِيرٌ]{lang=ar dir=rtl} means "big". Here are some examples of how it can be used as a describing word
 
---------------------------------------------------------  -------------------
-[كِتَابٌ كَبِيرٌ]{lang=ar dir=rtl}<br>_baytun kabeerun_         a big house  
+djhrdelk ljkhrcf ljkhjklrdh
 
-[كِتَابٌ كَبِيرٌ]{lang=ar dir=rtl}<br>_albaytu -lkabeeru_       the big house  
+djhrdelk ljkhrcf ljkhjklrdh
 
-[كِتَابٌ كَبِيرٌ]{lang=ar dir=rtl}<br>_fee baytin kabeerin_     in a big house  
-
-[كِتَابٌ كَبِيرٌ]{lang=ar dir=rtl}<br>_fi -lbayti -lkabeeri_    in the big house  
---------------------------------------------------------  -------------------
+```{r chunk-label3, echo = FALSE}
+mytable <- read.table('mytable2.txt', sep="|", quote="", dec="/", colClasses="character", fill=TRUE)
+knitr::kable(mytable, caption = 'A caption')
+```
 
 Let's note a couple of things:
 
@@ -77,4 +76,6 @@ But we can use 3aDheem by itself too. If we say
 _3an 3aDheemin_
 
 by itself, it means "about someone or something great". Only context will tell us whether "a great person" is meant or "a great thing".
+
+
 
