@@ -4,6 +4,7 @@ author: "Ahmad Sheikh"
 output:
   bookdown::gitbook:
     pandoc_args: ["--lua-filter=trn.lua"]
+    keep_md: yes
   pdf_document:
     pandoc_args: ["--lua-filter=trn.lua"]
     latex_engine: xelatex

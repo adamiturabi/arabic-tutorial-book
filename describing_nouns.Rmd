@@ -8,6 +8,35 @@ In English the describing words are called adjectives. Adjectives come before th
 
 djhrdelk ljkhrcf ljkhjklrdh
 
+```{r echo=FALSE}
+input <- c("[بَيْتٌ كَبِيرٌ]{lang=ar}<br>[baytun kabIrun]{.trn}", "a big house",
+"[ٱَلْبَيْتُ ٱلْكَبِيرُ]{.ar}<br>[albaytu -lkabIru]{.trn}", "the big house",
+"[فِي بَيْتٍ كَبِيرٍ]{.ar}<br>[fI baytin kabIrin]{.trn}", "in a big house",
+"[فِي ٱلْبَيْتِ ٱلْكَبِيرِ]{.ar}<br>[fi -lbayti -lkabIri]{.trn}", "in the big house")
+df <- matrix(input, ncol=2, byrow=TRUE)
+knitr::kable(df, align=c('l','l'))
+```
+
+<table>
+<tr>
+<td>[بَيْتٌ كَبِيرٌ]{lang=ar}<br>[baytun kabIrun]{.trn}</td>
+<td>a big house</td>
+</tr>
+<tr>
+<td>[ٱَلْبَيْتُ ٱلْكَبِيرُ]{.ar}<br>[albaytu -lkabIru]{.trn}</td>
+<td>the big house</td>
+</tr>
+<tr>
+<td>[فِي بَيْتٍ كَبِيرٍ]{.ar}<br>[fI baytin kabIrin]{.trn}</td>
+<td>in a big house</td>
+</tr>
+<tr>
+<td>[فِي ٱلْبَيْتِ ٱلْكَبِيرِ]{.ar}<br>[fi -lbayti -lkabIri]{.trn}</td>
+<td>in the big house</td>
+</tr>
+</table>
+
+
 djhrdelk ljkhrcf ljkhjklrdh
 
 ```{r chunk-label3, echo = FALSE}
