@@ -1,6 +1,8 @@
 # The Arabic script
 
-Arabic is written right to left. The alphabet traditionally has 28 letters. Some of the sounds are similar to sounds in English but others are very different. Here we will attempt to describe the sounds but we recommend that you learn the correct pronunciation from an experienced Arabic or Quran teacher.
+## The Arabic alphabet
+
+The Arabic alphabet traditionally has 28 letters. Some of the sounds are similar to sounds in English but others are very different. Here we will attempt to describe the sounds but we recommend that you learn the correct pronunciation from an experienced Arabic or Quran teacher.
 
 ```{r script-alphabet-table, echo = FALSE}
 mytable <- read.csv("script_alphabet_table.csv")
@@ -60,8 +62,6 @@ knitr::kable(mytable, caption = 'Arabic letters in different positions')
 
 You can see that each letter maintains a basic shape and is modified for each of the four positions. 
 
-
-
 ### Joining the different forms to make a word
 
 Notice that when we modified the isolated form to get to the beginning, middle, and end forms, we added a horizontal line to each or both sides. It is this horizontal line which joines to the horizontal line of the neighboring letter.
@@ -70,7 +70,7 @@ As an example, we would like to join the following letters (starting from the ri
 
 So if Arabic letters are always joined, why do we need isolated forms. Shouldn't the beginning, middle and end forms be sufficient? Here's where the no-end-join letters [ا، د، ذ، ر، ز، و]{.ar} come in. As we mentioned these letters don't have beginning and middle forms. So if one of them comes in the beginning of a word, the isolated form will be used. And if it comes in the middle of a word, the end form will be used. Unless there is another no-end-join letter before it, in which case the isolated form will be used.
 
-Even a no-end-join letter can be in the isolated form if it is the last letter in a word and there is a no-end-join letter before it.
+The letter after a no-end-join letter will be in its beginning form even though it is in the middle of a word. But if it is the last letter in the word then it will take its isolated form.
 
 Let's take a look at some examples. Join the following groups of letters:
 
@@ -84,13 +84,11 @@ Disjoint | Joined
 
 Notice that in the last example, all the letters were in the isolated form.
 
-**Replace 'join' with 'join' in this chapter**
-
 ### Taking care to tell similar letters apart.
 
 Some letters are very similar to each other and only differ in their dots or other slight differences. You should take care to distinguish between these letters. We will describe their similarities and differences here.
 
-The letters [ب]{.ar}, [ت]{.ar}, and [ث]{.ar} differ only in their dots and are otherwise identical in all positions. [ن]{.ar} and [ي]{.ar} are similar in initial and middle positions to [ت]{.ar}, and [ث]{.ar}]{.ar} but differ from them and from each other in isolated and final positions. Compare all five in he table below:
+The letters [ب]{.ar}, [ت]{.ar}, and [ث]{.ar} differ only in their dots and are otherwise identical in all positions. [ن]{.ar} and [ي]{.ar} are similar in initial and middle positions to [ب]{.ar}, [ت]{.ar}, and [ث]{.ar} but differ from them and from each other in isolated and final positions. Compare all five in the table below:
 
 Isolated | End | Middle | Beginnning
 :--------|:----|:-------|:----------
@@ -110,7 +108,7 @@ These groups of letters  differ too, only in their dots:
 + [ط]{.ar} and [ظ]{.ar}
 + [ع]{.ar} and [غ]{.ar}
 
-The letters ف and ق are similar in the initial and middle positions except for the dots. But in the isolated and final positions ق goes lower than ف.
+The letters ف and ق are similar in the initial and middle positions except for the dots. But in the isolated and final positions, the tail of ق goes lower than that of ف.
 
 Isolated | End | Middle | Beginnning
 :--------|:----|:-------|:----------
@@ -126,252 +124,84 @@ Isolated | Middle
 
 The letters alif ا and laam ل can be confused for each other. Their forms are shown here again for easy comparison:
 
+Isolated | End | Middle | Beginnning
+:--------|:----|:-------|:----------
+[ا]{.ar}| [ـا]{.ar}| none | none
+[ل]{.ar}| [ـل]{.ar}| [ـلـ]{.ar}| [لـ]{.ar}
 
-Isolated
-ل
-ا
-Initial
-لـ
+These two letters []{.ar} and []{.ar} also take a special form when [ا]{.ar} follows right after [ل]{.ar}. Instead of looking like this [لــا]{.ar}, they will be written like this [لا]{.ar}.
 
+## Vowels and pronunciation marks.
 
-End
-ـل
-ـا
-Middle
-ـلـ
+In Arabic each letter in a word will have a vowel after it unless if there is a vowel right before it in which case it may or may not have avowel after it.
 
+### Vowels
 
-Thus each letter joins to the letters before and after it through this horizontal line.
+Arabic has six vowels. There are three short vowels which don't have letters in the alphabet. Instead they are shown with pronunciation marks:
 
-When writing, words are written from right to left. Individual words are also separated by spaces just like in English. Letters in a word are joined to each other except if a word contains a no-end-join letter. A no-end-join letter is attached to the letter before it but is not joined to the letter after it.
++ [a]{.trn} like in English “mud”, written with an [a]{.trn}-mark which is a small diagonal line above the letter like [مَـ]{.ar} [ma]{.trn}.
++ [i]{.trn} like in English “bit”, written with an [a]{.trn}-mark which is a small diagonal line under the letter like [بِـ]{.ar} [bi]{.trn}.
++ [u]{.trn} like in English “put”, written with an [a]{.trn}-mark which is a tiny waw above the letter like [فُـ]{.ar} [fu]{.trn}.
 
-The no-end-join letters are ا د ذ ر ز و
+Examples of words with short vowels:
 
-Because of this, each letter can have up to four forms:
-Initial form: This form is used when the letter is in the beginning of a word when it is joined to the following letter. It is also used in the middle of the word if it follows a no-end-join letter. No-end-join letters don’t have initial forms; their isolated forms are used instead.
-End form: This is used when the letter is at the end of a word and if it can be joined to the previous letter. All letters have end forms.
-Middle form: is used when the letter is in the middle of a word when it joins to the previous letter and the next letter. No-end-join letters don’t have middle forms. Isolated or end forms are used instead depending on whether the letter before the no-end-join letter is itself a no-end-join letter.
-alone form: This is the form when the letter is written by itself. It is also used if it is the last letter of a word following a no-end-join letter. If a no-end-join letter occurs in the beginning of a word they will be written in the isolated form instead since they won’t join to the following letter. No-end-join letters will also be in the isolated form in the middle of a word if they are preceded by other no-end-join letters. Examples with isolated forms in bold: 
-ح
-جار
-دار
-قرون
++ [فَتَحَ]{.ar} [fataHa]{.trn}
++ [عَمِلَ]{.ar} [eamila]{.trn}
++ [قُتِلَ]{.ar} [qutila]{.trn}
 
-Name
-Daad
-Saad
-sheen
-seen
-zaa
-raa
-daal
-daal
-khaa
-Haa
-jeem
-thaa
-taa
-baa
-alif
-Isolated
-ض
-ص
-ش
-س
-ز
-ر
-د
-ذ
-خ
-ح
-ج
-ث
-ت
-ب
-ا
-Initial
-ضـ
-صـ
-شـ
-سـ
+There are also three long vowels which are part of the alphabet:
 
++ [A]{.trn} generally written with an unmarked [ا]{.ar} [alif]{.trn} and with the preceding letter having an [a]{.trn}-mark. Example [مَا]{.ar} [mA]{.trn}. This vowel is mostly pronounced like the vowel in English “man”. If however, it comes after these letters [خ،ر،ص،ض،ط،ظ،غ،ق]{.ar} it is pronounced like English "awe".
++ [I]{.trn} like in English “been” written with an unmarked [ي]{.ar} [yA']{.trn} with the preceding letter having an [i]{.trn}-mark. Example [فِي]{.ar} [fI]{.trn}.
++ [U]{.trn} like in English “moon” written with an unmarked [و]{.ar} [wAw]{.trn} with the preceding letter having an [u]{.trn}-mark. Example [ذُو]{.ar} [pU]{.trn}.
 
+Examples of words with long and short vowels:
 
++ [هَارُونُ]{.ar} [hArUnu]{.trn}
++ [كَذَا]{.ar} [kapA]{.trn}
++ [سَرَادِيبَ]{.ar} [sarAdIba]{.trn}
 
+There are also two short semi-vowels:
 
++ [aw]{.trn} like in English “goal” shown with a short-a before a waw like لَوْ law. (Note the small circle above the ي called a sukoon which we’ll talk about soon.)
+Ay like in English “bait” shown with a short-a before a waaw like كَيْ kay.
 
-
-
-خـ
-حـ
-جـ
-ثـ
-تـ
-بـ
-
-
-End
-ـض
-ـص
-ـش
-ـس
-ـز
-ـر
-ـذ
-ـد
-ـخ
-ـح
-ـج
-ـث
-ـت
-ـب
-ـا
-Middle
-ـضـ
-ـصـ
-ـشـ
-ـسـ
-
-
-
-
-
-
-
-
-ـخـ
-ـحـ
-ـجـ
-ـثـ
-ـتـ
-ـبـ
-
-
-
-
- 
-Isolated
-ي
-و
-ه
-ن
-م
-ل
-ك
-ق
-ف
-غ
-ع
-ظ
-ط
-Initial
-يـ
-
-
-هـ
-نـ
-مـ
-لـ
-كـ
-قـ
-قـ
-غـ
-عـ
-ظـ
-طـ
-End
-ـي
-ـو
-ـه
-ـن
-ـم
-ـل
-ـك
-ـق
-ـف
-ـغ
-ـع
-ـظ
-ـط
-Middle
-ـيـ
-
-
-ـهـ
-ـنـ
-ـمـ
-ـلـ
-ـكـ
-ـقـ
-ـفـ
-ـغـ
-ـعـ
-ـظـ
-ـظـ
-
-Take care to distinguish between these letters:
-
-The letters ب ت ث differ only in the dots and are otherwise identical in all positions. ن and ي are similar in initial and middle positions to ب ت ث but differ in isolated and final positions.
-
-The pairs of letters ج ح خ ، د ذ ، ر ز ، س ش ، ص ض ، ط ظ ، ع غ differ too, only in dots..
-
-The letters ف and ق are similar in the initial and middle positions except for the dots. But in the isolated and final positions ق goes lower than ف.
-
-Be careful also not to confuse غ and ف in their middle forms. The loop for ف is round where it is triangular and flat-topped for غ. 
-
-The letters alif ا and laam ل can be confused for each other. Their forms are shown here again for easy comparison:
-
-
-Isolated
-ل
-ا
-Initial
-لـ
-
-
-End
-ـل
-ـا
-Middle
-ـلـ
-
-
-
-Looped taa ة
-Looped taa ة is similar to regular taa ت in most respects but it is written differently as a ه with two dots above it. It only occurs at the end of a word so it has only an end form and an isolated form. The isolated form is used if the letter before it is a no-end-join letter. Looped taa ة is pronounced exactly as a ت except the end of a sentence when it is pronounced as a ه.
-Special forms of letter occurring together
-When alif follows a laam in the same word instead of writing لـا  they are written as لا.
-Vowels and pronunciation marks.
-Vowels
-Arabic has six vowels
-Three short vowels, not part of the alphabet, but shown with pronunciation marks.
-Short-a, transcribed “a” like in English  “mud”, shown with a small diagonal line above the letter like مَـ ma.
-“I” like in English “bit”, shown with a small diagonal line under the letter like بِـ bi
-“U” like in English “put”, shown with a tiny waw above the letter like فُـ fu.
-three long vowels that we’ve already seen which are part of the alphabet:
-Long-a, transcribed “aa”, like in English “man”, written with a short-a followed by an unmarked alif eg  ذَا dhaa
-“Oo” like in English “moon” written with a short-u followed by an unmarked waaw ذُو
-“Ee” like in English “been” written with a short-i followed by an unmarked yaa ذِي dhee 
-It also has two short semi-vowels:
-“Aw” like in English “goal” shown with a short-a before a waw like لَوْ law. (Note the small circle above the ي called a sukoon which we’ll talk about soon.)
-“Ay” like in English “bait” shown with a short-a before a waaw like كَيْ kay.
 And it also has two long semi-vowels:
-“Aaw” like English “now” shown with an alif before a waw with sukoon. واوْ.
-“Aay” like English “bye” shown with an alif before a yaa with sukoon شـايْ.
+Aw like English “now” shown with an alif before a waw with sukoon. واوْ.
+Ay like English “bye” shown with an alif before a yaa with sukoon شـايْ.
 These last two long semi-vowels are rare and only occur at the end of a sentence.
-Sukoon
+
+#### Long-a vowel written as yaa
+The vowel long-a is usually written with an alif. But sometimes, it is written with a yaa instead (but still pronounced as a long-a). This is only occurs for certain words and always at the end of a word. When this occurs we will write the yaa without its dots thus ى and often also put a small alif above it thus .
+
+
+### Other pronunciation marks
+
+#### Round mark
+
+As we have seen above if an Arabic letter has a vowel after it it will take one of the three pronunciation marks [ـَ ـِِ ـُ]{.ar}. If, however, there is no vowel after the letter we will put a round mark on it [ـْ]{.ar}. This mark can only occur if there is a short vowel before the letter. Examples:
+
++ [كَمْ]{.ar} [kam]{.trn}
++ [مُنْذُ]{.ar} [munpu]{.trn}
++ [مِنْهُمْ]{.ar} [minhum]{.trn}
++ [مِنْهَا]{.ar} [minhA]{.trn}
+
 In Arabic each letter is either pronounced with one of the above vowels or it is pronounced without a vowel, in which case we will put a small circle (use dotted circle instead of tatweel) ـْ, called a sukoon above it. In the word
 نِعْمَ ni3ma
 The letter ن is pronounced with a short-i, م is pronounced with a short-a, but ع is pronounced without a vowel so it is written ـعْـ.
 
 Similarly, [more examples]
-Shaddah
+
+#### Shaddah
+
 Khfjkhg
-Small alif
+
+#### Small alif
+
 Sometimes the long-a vowel is written as a small alif above the letter instead of a regular alif. For example هذا haadhaa. This is done only for a few commonly used words that we will learn later if Allah wills. One of these words is الله Allaah, the Arabic name for God.
-Long-a vowel written as yaa
-The vowel long-a is usually written with an alif. But sometimes, it is written with a yaa instead (but still pronounced as a long-a). This is only occurs for certain words and always at the end of a word. When this occurs we will write the yaa without its dots thus ى and often also put a small alif above it thus .
-Tanween
+
+#### Tanween
+
 Take a look at these words:
 سَعْدٌ sa3dun، ضَرْبًا Darban، دُعَاءً du3aa'an, سَعَةً sa3atan
 We have shown three new pronunciation marks ـٌ ـً ـٍ These are pronounced like their short vowels but with a “n” sound at the end. The “n” sound is shown, not by a ن, but by the doubled short vowel pronunciation marks. This occurs for grammatical reasons that we will learn later if Allah wills.
@@ -381,7 +211,15 @@ We will call these pronunciation marks a-tanween (a-n), i-tanween, and u-tanween
 Note that ضربًا Darban has an extra alif at the end, but this alif is not pronounced. It is added only as a spelling rule which is: a-tanween is always followed by a silent alif, except if the a-tanween is on a looped taa ة. There are also additional rules when writing a-tanween with hamza which we will explain later.
 
 Note also that it is perfectly normal to have a word that ends with a ن that has a doubled vowel mark like غَبَنٌ ghabanun.
-Hamza
+
+## Special letters
+
+### Looped taa ة
+
+Looped taa ة is called a taa ت but it is written a ه with two dots above it. It only occurs at the end of a word so it has only an end form and an isolated form (in case the letter before it is a no-end-join letter). Looped taa ة is pronounced exactly as a ت except if it is at the end of a sentence in which case it is pronounced as a ه.
+
+### Hamza
+
 Hamza ء is not traditionally considered part of the alphabet but it is very much a letter. Its called a “glottal stop” in English. You can hear it if you say “a apple” quickly. When you stop your breath momentarily between “a” and “apple” that is the sound that hamza makes. In fact it also occurs in the beginning of “a apple” when you start to say “a”. In transcribing we will represent it with ‘. Note that this is different than out representation for ع which is `.
 
 In Arabic writing hamza can either be written by itself ء or it can be written “sitting” on alif, waw or ي thus أ ؤ ئ . It can also be written under an alif إ. In this case the ا و or ي are called the seat of the hamza. Note that when sitting on ي the dots of the yaa will not be written so depending on position, it can appear ئ ئـ ـئ ـئـ.
@@ -419,8 +257,11 @@ Dhoo sa3atin BUT Dhu -lqarnayni NOT dhoo -lqarnayni NOR dhoo ‘alqarnayni
 Sometimes a connecting hamza can occurs after an n-mark. In these cases will will pronounce the n-mark and follow it with a short-i:
 
 Zaydani -lkabeeru NOT zaydan ‘alkabeera
-Pausing at the end of a sentence.
-Difference between Quranic script and Standard Arabic script.
+
+## Pausing at the end of a sentence.
+
+## Difference between Quranic script and Standard Arabic script.
+
 In printed Qurans the script will differ somewhat from the one we’ve shown here, especially in vowels. The reasons for this are beyond the scope of this tutorial. But here we’ll just give a few examples and note that these differences are only found in printed Qurans. For standard written Arabic, the script explained in this chapter is used.
 
 إبرهم ابراهم 'ibraheem
