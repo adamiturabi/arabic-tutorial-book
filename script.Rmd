@@ -17,6 +17,53 @@ Now instead of a wide grin, make your lips small and round, and try to make the 
 
 The letters ص ض ط ظ can br approximated with mouth rounded. س د ت ذ
 
+## Writing Arabic
+
+### The different forms of the letters
+
+Arabic is written from right-to-left, unlike English. When writing the letters in a word are generally connected to each other, except for six out of the 28 letters. These six letters are [ا، د، ذ، ر، ز، و]{.ar}. They are connected to the letter before them, like the rest of the letters, but they don't connect to the letter following them.
+
+When connecting the letters, each letter is modified in order to connect to the preceding and following letter. Therefore, there can be up to four shapes for each letter: when the letter is:
+
+1. by itself (isolated).
+2. in the beginning of a word,
+3. in the middle of a word,
+4. in the end of a word
+
+So does that mean that we have to remember $4 \times 28 = 112$ different shapes? Not really. Remember that six of the letters don't connect to the following letter. So they only have isolated and end forms. And also, each letter maintains its basic shape and is usually only slightly modified in a common technique to connect to the previous and following letter. So if we remember this common technique of modifying the letter shape to connect it it will be easy to connect the letters.
+
+Here is a table of all the letters all four positions:
+
+
+```{r script-alphabet-connceted-forms, echo = FALSE}
+mytable <- read.csv("script_alphabet_connected_forms.csv")
+knitr::kable(mytable, caption = 'Arabic letters in different positions')
+```
+
+You can see that each letter maintains a basic shape and is modified for each of the four positions. To explain the common technique of modifying the letters we will take [ب]{.ar} as an example and start with the isolated form:
+
+Isolated form: [ب]{.ar}
+
+To modify this into the end form, we simply connect a horizontal line to the right of the letter:
+
+End form: [ـب]{.ar}. 
+
+To get the middle form, we take the end form [ـب]{.ar} and cut off its tail which is at its left, and replace it with a horizontal line. We also move the dot slightly to get:
+
+Middle form: [ـبـ]{.ar}
+
+And finally, to get the beginning form, we take the middle form [ـبـ]{.ar} and remove the horizontal line at the right:
+
+Beginning form: [بـ]{.ar}
+
+Now most of the letters follow this common technique but a few of them are modified a little further in each form. These, more complicated, letters are [ع، غ، ك، ه، ي]{.ar} and you can review them in the table above.
+
+Notice that when we modified the isolated form to get to the beginning, middle, and end forms, we added a horizontal line to each or both sides. It is this horizontal line which connectes to the horizontal line of the neighboring letter.
+
+As an example, we would like to connect the following letters [م، ع، ش، ر]{.ar} into one word. The first letter is [م]{.ar} so we modify it to its beginning form [مـ]{.ar}. The next two letters are converted to their middle forms [ـعـ، ـشـ]{.ar}. And the last letter [ر]{.ar} is converted to its end form [ـر]{.ar}. Then we connect the horizontal lines together and get [معشد]{.ar}.
+
+Thus each letter connects to the letters before and after it through this horizontal line.
+
 When writing, words are written from right to left. Individual words are also separated by spaces just like in English. Letters in a word are joined to each other except if a word contains a no-end-join letter. A no-end-join letter is attached to the letter before it but is not joined to the letter after it.
 
 The no-end-join letters are ا د ذ ر ز و
