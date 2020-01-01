@@ -11,10 +11,6 @@ mytable <- read.csv("script_alphabet_table.csv")
 knitr::kable(mytable, caption = 'The Arabic alphabet')
 ```
 
-### Looped taa ة
-
-Looped taa ة is a special letter which is merged from two letters of the alphabet. It is a taa ت but it is written a ه with two dots above it. It only occurs at the end of a word so it has only an end form and an isolated form (in case the letter before it is a no-end-join letter). Looped taa ة is pronounced exactly as a ت except if it is at the end of a sentence in which case it is pronounced as a ه.
-
 ### Pronunciation notes
 
 Some of the sounds are similar to sounds in English but others are very different. Here we will attempt to describe the sounds but we recommend that you learn the correct pronunciation from an experienced Arabic or Quran teacher.
@@ -227,19 +223,16 @@ It is possible for a letter to have a round-mark followed by the same letter wit
 + [سَفُّودُ]{.ar} [saffUdu]{.trn}
 + [مُزَّمِّلُ]{.ar} [muzzammilu]{.trn}
 
-### N-marks
+## Special characters
 
-Take a look at these words:
-سَعْدٌ sa3dun، ضَرْبًا Darban، دُعَاءً du3aa'an, سَعَةً sa3atan
-We have shown three new pronunciation marks ـٌ ـً ـٍ These are pronounced like their short vowels but with a “n” sound at the end. The “n” sound is shown, not by a ن, but by the doubled short vowel pronunciation marks. This occurs for grammatical reasons that we will learn later if Allah wills.
+### Looped taa ة
 
-We will call these pronunciation marks a-tanween (a-n), i-tanween, and u-tanween. Collectively they are called (n-marks) and only occur at the end of a word.
+Looped taa ة is a special letter which is merged from two letters of the alphabet. It is a taa ت but it is written a ه with two dots above it. Looped taa ة is pronounced exactly as a ت except if it is at the end of a sentence in which case it is pronounced as a ه. It only occurs at the end of a word so it has only an end form and an isolated form (in case the letter before it is a no-end-join letter). 
 
-Note that ضربًا Darban has an extra alif at the end, but this alif is not pronounced. It is added only as a spelling rule which is: a-tanween is always followed by a silent alif, except if the a-tanween is on a looped taa ة. There are also additional rules when writing a-tanween with hamza which we will explain later.
+Examples:
 
-Note also that it is perfectly normal to have a word that ends with a ن that has a doubled vowel mark like غَبَنٌ ghabanun.
 
-## Hamza
+### Hamza
 
 Hamza ء is not traditionally considered part of the alphabet but it is very much a letter. Its called a “glottal stop” in English. You can hear it if you say “a apple” quickly. When you stop your breath momentarily between “a” and “apple” that is the sound that hamza makes. In fact it also occurs in the beginning of “a apple” when you start to say “a”. In transcribing we will represent it with ‘. Note that this is different than out representation for ع which is `.
 
@@ -260,7 +253,7 @@ As إِي with a long-i eg إِي
 
 Besides this we will limit the words used with hamza until we explain the rules fully so hopefully it will not be too confusing.
 
-### Connecting hamza
+#### Connecting hamza
 
 Some words in arabic begin with a sukoon. When this occurs a connecting hamza (written as a tiny صـ on an alif) is put before it. If this word comes in the beginning of the sentence the connecting alif is pronounced as a hamza. Otherwise this connecting hamza is not pronounced and the word is connected to the previous word in pronunciation.
 
@@ -280,6 +273,29 @@ Dhoo sa3atin BUT Dhu -lqarnayni NOT dhoo -lqarnayni NOR dhoo ‘alqarnayni
 Sometimes a connecting hamza can occurs after an n-mark. In these cases will will pronounce the n-mark and follow it with a short-i:
 
 Zaydani -lkabeeru NOT zaydan ‘alkabeera
+
+## [n]{.trn}-marks
+
+We will now show three new pronunciation marks, collectively called [n]{.trn}-marks.
+
+1. [an]{.trn}-mark [ًٌ]{}.
+1. [in]{.trn}-mark [ٍ]{}.
+1. [un]{.trn}-mark [ٌ]{}.
+
+These [n]{.trn}-marks may only occur on a letter at the end of a word. They are pronounced as a short vowel ([a]{.trn}, [i]{.trn}, or [u]{.trn}) followed by an [n]{.trn}. 
+
+As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally add a silent ['alif]{.trn} after it, except if the word ends with a looped [tA']{.trn} [ة]{.ar} or an ['alif]{.trn} followed by an unseated [hamzah]{.trn} [اء]{.ar}.
+
+Here are some examples of words with [n]{.trn}-marks:
+
++ [سَعْدٌ]{.ar}  [saedun]{.trn}
++ [ضَرْبًا]{.ar} [Darban]{.trn}
++ [قَاضٍ]{.ar}  [qADin]{.trn}
++ [سَعَةً]{.ar}  [saeatan]{.trn}
++ [دُعَاءً]{.ar} [dueA'an]{.trn}
++ [شَيْئًا]{.ar} [cay'an]{.trn}
++ [سُوءًا]{.ar} [sU'an]{.trn}
++ [غَبَنٌ]{.ar} [gabanun]{.trn}
 
 ## Pausing at the end of a sentence.
 
