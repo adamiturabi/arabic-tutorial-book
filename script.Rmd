@@ -2,12 +2,16 @@
 
 ## The Arabic alphabet
 
-The Arabic alphabet traditionally has 28 letters. Some of the sounds are similar to sounds in English but others are very different. Here we will attempt to describe the sounds but we recommend that you learn the correct pronunciation from an experienced Arabic or Quran teacher.
+The Arabic alphabet traditionally has 28 letters. There is also one additional letter called [hamzah]{.trn}.
+
+The following table shows all the letters in the Arabic alphabet.
 
 ```{r script-alphabet-table, echo = FALSE}
 mytable <- read.csv("script_alphabet_table.csv")
 knitr::kable(mytable, caption = 'The Arabic alphabet')
 ```
+
+Some of the sounds are similar to sounds in English but others are very different. Here we will attempt to describe the sounds but we recommend that you learn the correct pronunciation from an experienced Arabic or Quran teacher.
 
 thaa, dhaal, and Dhaa. Try to pronoun th as in think but bring your tongue farther out between the top and bottom front teeth and have it touch the teeth lighter. Have your lips and cheek in a wide grin.
 
@@ -210,9 +214,10 @@ These long semi-vowels are rare and may only occur at the end of a sentence.
 It is possible for a letter to have a round-mark followed by the same letter with a short or long vowel. For example, [qattala]{.trn}. Here the first [t]{.trn} has a round-mark and the second [t]{.trn} has an [a]{.trn} mark. We would expect this word to be written in Arabic like this [قَتْتَلَ]{.ar}. But in fact it is written with one [ت]{.ar} with a tiny doubling mark [ّ ]{.ar} above it along with the vowel mark, like this [قَتَّلَ]{.ar}. Examples with doubled letters:
 
 + [كَبَّرَ]{.ar} [kabbara]{.trn}
-+ [اَلْقِسِّيسُ]{.ar} [alqissIsu]{.trn}. Note that the [i]{.trn}-mark is below the doubling mark but above the letter [س]{.ar}. This is the most common way to write this, although having the [i]{.trn}-mark below the letter is also sometimes done. (In this case, the doubling mark will still be above the letter.)
++ [سِكِّينُ]{.ar} [sikkInu]{.trn}. Note that the [i]{.trn}-mark is below the doubling mark but above the letter [ك]{.ar}. This is the most common way to write this, although having the [i]{.trn}-mark below the letter is also sometimes done. (In this case, the doubling mark will still be above the letter.)
++ [قِسِّيسِينَ]{.ar} [qissIsIna]{.trn}. 
 + [فَعَّالَ]{.ar} [faeeAla]{.trn}
-+ [اَلْقُدُّوسُ]{.ar} [alquddUsu]{.trn}
++ [سَفُّودُ]{.ar} [saffUdu]{.trn}
 
 #### Tanween
 
