@@ -19,7 +19,7 @@ Now instead of a wide grin, make your lips small and round, and try to make the 
 
 The letters ص ض ط ظ can br approximated with mouth rounded. س د ت ذ
 
-## Writing Arabic
+## Joining Arabic letters
 
 ### The different forms of the letters
 
@@ -135,13 +135,13 @@ These two letters []{.ar} and []{.ar} also take a special form when [ا]{.ar} fo
 
 In Arabic each letter in a word will have a vowel after it unless if there is a vowel right before it in which case it may or may not have avowel after it.
 
-### Vowels
+### Short Vowels
 
 Arabic has six vowels. There are three short vowels which don't have letters in the alphabet. Instead they are shown with pronunciation marks:
 
-+ [a]{.trn} like in English “mud”, written with an [a]{.trn}-mark which is a small diagonal line above the letter like [مَـ]{.ar} [ma]{.trn}.
-+ [i]{.trn} like in English “bit”, written with an [a]{.trn}-mark which is a small diagonal line under the letter like [بِـ]{.ar} [bi]{.trn}.
-+ [u]{.trn} like in English “put”, written with an [a]{.trn}-mark which is a tiny waw above the letter like [فُـ]{.ar} [fu]{.trn}.
+1.  [a]{.trn} like in English “mud”, written with an [a]{.trn}-mark which is a small diagonal line above the letter like [مَـ]{.ar} [ma]{.trn}.
+1.  [i]{.trn} like in English “bit”, written with an [i]{.trn}-mark which is a small diagonal line under the letter like [بِـ]{.ar} [bi]{.trn}.
+1.  [u]{.trn} like in English “put”, written with an [u]{.trn}-mark which is a tiny waw above the letter like [فُـ]{.ar} [fu]{.trn}.
 
 Examples of words with short vowels:
 
@@ -149,11 +149,13 @@ Examples of words with short vowels:
 + [عَمِلَ]{.ar} [eamila]{.trn}
 + [قُتِلَ]{.ar} [qutila]{.trn}
 
+### Long Vowels
+
 There are also three long vowels which are part of the alphabet:
 
-+ [A]{.trn} generally written with an unmarked [ا]{.ar} [alif]{.trn} and with the preceding letter having an [a]{.trn}-mark. Example [مَا]{.ar} [mA]{.trn}. This vowel is mostly pronounced like the vowel in English “man”. If however, it comes after these letters [خ،ر،ص،ض،ط،ظ،غ،ق]{.ar} it is pronounced like English "awe".
-+ [I]{.trn} like in English “been” written with an unmarked [ي]{.ar} [yA']{.trn} with the preceding letter having an [i]{.trn}-mark. Example [فِي]{.ar} [fI]{.trn}.
-+ [U]{.trn} like in English “moon” written with an unmarked [و]{.ar} [wAw]{.trn} with the preceding letter having an [u]{.trn}-mark. Example [ذُو]{.ar} [pU]{.trn}.
+1.  [A]{.trn} generally written with an unmarked [ا]{.ar} [alif]{.trn} and with the preceding letter having an [a]{.trn}-mark. Example [مَا]{.ar} [mA]{.trn}. This vowel is mostly pronounced like the vowel in English “man”. If however, it comes after these letters [خ،ر،ص،ض،ط،ظ،غ،ق]{.ar} it is pronounced like English "awe".
+1.  [I]{.trn} like in English “been” written with an unmarked [ي]{.ar} [yA']{.trn} with the preceding letter having an [i]{.trn}-mark. Example [فِي]{.ar} [fI]{.trn}.
+1.  [U]{.trn} like in English “moon” written with an unmarked [و]{.ar} [wAw]{.trn} with the preceding letter having an [u]{.trn}-mark. Example [ذُو]{.ar} [pU]{.trn}.
 
 Examples of words with long and short vowels:
 
@@ -161,23 +163,21 @@ Examples of words with long and short vowels:
 + [كَذَا]{.ar} [kapA]{.trn}
 + [سَرَادِيبَ]{.ar} [sarAdIba]{.trn}
 
-There are also two short semi-vowels:
+#### [A]{.trn} vowel written with a small [alif]{.trn}
 
-+ [aw]{.trn} like in English “goal” shown with a short-a before a waw like لَوْ law. (Note the small circle above the ي called a sukoon which we’ll talk about soon.)
-Ay like in English “bait” shown with a short-a before a waaw like كَيْ kay.
+Sometimes the long-a vowel is written as a small alif above the letter instead of a regular alif after the letter. This is done only for a few commonly used words. Here are some examples:
 
-And it also has two long semi-vowels:
-Aw like English “now” shown with an alif before a waw with sukoon. واوْ.
-Ay like English “bye” shown with an alif before a yaa with sukoon شـايْ.
-These last two long semi-vowels are rare and only occur at the end of a sentence.
++ [هٰذَا]{.ar} [hApA]{.trn}
++ [ذٰلِكَ]{.ar} [pAlika]{.trn}
 
-#### Long-a vowel written as yaa
-The vowel long-a is usually written with an alif. But sometimes, it is written with a yaa instead (but still pronounced as a long-a). This is only occurs for certain words and always at the end of a word. When this occurs we will write the yaa without its dots thus ى and often also put a small alif above it thus .
+#### [A]{.trn} vowel written with a [yA']{.trn}
 
+The [A]{.trn} vowel is generally written with an [alif]{.trn} as we have seen above. But for some words, instead of an [alif]{.trn}, it is written with a [yA']{.trn}. This only occurs for certain words and even then only at the end of the word. When this happens, we will write the [yA']{.trn} without its dots and write a small [alif]{.trn} above it, like this [ىٰ]{.ar}. Here are some examples:
 
-### Other pronunciation marks
++ [عَلَىٰ]{.ar} [ealA]{.trn}
++ [رَمَىٰ]{.ar} [ramA]{.trn}
 
-#### Round mark
+### Round mark
 
 As we have seen above if an Arabic letter has a vowel after it it will take one of the three pronunciation marks [ـَ ـِِ ـُ]{.ar}. If, however, there is no vowel after the letter we will put a round mark on it [ـْ]{.ar}. This mark can only occur if there is a short vowel before the letter. Examples:
 
@@ -186,19 +186,33 @@ As we have seen above if an Arabic letter has a vowel after it it will take one 
 + [مِنْهُمْ]{.ar} [minhum]{.trn}
 + [مِنْهَا]{.ar} [minhA]{.trn}
 
-In Arabic each letter is either pronounced with one of the above vowels or it is pronounced without a vowel, in which case we will put a small circle (use dotted circle instead of tatweel) ـْ, called a sukoon above it. In the word
-نِعْمَ ni3ma
-The letter ن is pronounced with a short-i, م is pronounced with a short-a, but ع is pronounced without a vowel so it is written ـعْـ.
+### Semi-vowels
 
-Similarly, [more examples]
+Arabic has two short semi-vowels:
 
-#### Shaddah
+1. [aw]{.trn} like in English “goal”. This is written with a [wAw]{.trn} with a round-mark on it and a [A]{.trn} vowel before it. Example [لَوْ]{.ar} [law]{.trn}. 
+2. [ay]{.trn} like in English “bait”. This is written with a [yA']{.trn} with a round-mark on it and a [A]{.trn} vowel before it. Example [كَيْ]{.ar} [kay]{.trn}. 
+Examples with short semi-vowels:
 
-Khfjkhg
++ [وَيْحَكَ]{.ar} [wayHaka]{.trn}
++ [غَيْرُهُ]{.ar} [gayruhu]{.trn}
++ [قَوْلُهُ]{.ar} [qawluhu]{.trn}
 
-#### Small alif
+It also has two long semi-vowels:
 
-Sometimes the long-a vowel is written as a small alif above the letter instead of a regular alif. For example هذا haadhaa. This is done only for a few commonly used words that we will learn later if Allah wills. One of these words is الله Allaah, the Arabic name for God.
+1. [Aw]{.trn} like in English “goal”. This is written with a [wAw]{.trn} with a round-mark on it and a [A]{.trn} vowel before it. Example [وَاوْ]{.ar} [wAw]{.trn}. 
+2. [Ay]{.trn} like in English “bye”. This is written with a [yA']{.trn} with a round-mark on it and a [A]{.trn} vowel before it. Example [شَايْ]{.ar} [cAy]{.trn}.
+
+These long semi-vowels are rare and may only occur at the end of a sentence.
+
+### Doubled letters
+
+It is possible for a letter to have a round-mark followed by the same letter with a short or long vowel. For example, [qattala]{.trn}. Here the first [t]{.trn} has a round-mark and the second [t]{.trn} has an [a]{.trn} mark. We would expect this word to be written in Arabic like this [قَتْتَلَ]{.ar}. But in fact it is written with one [ت]{.ar} with a tiny doubling mark [ّ ]{.ar} above it along with the vowel mark, like this [قَتَّلَ]{.ar}. Examples with doubled letters:
+
++ [كَبَّرَ]{.ar} [kabbara]{.trn}
++ [اَلْقِسِّيسُ]{.ar} [alqissIsu]{.trn}. Note that the [i]{.trn}-mark is below the doubling mark but above the letter [س]{.ar}. This is the most common way to write this, although having the [i]{.trn}-mark below the letter is also sometimes done. (In this case, the doubling mark will still be above the letter.)
++ [فَعَّالَ]{.ar} [faeeAla]{.trn}
++ [اَلْقُدُّوسُ]{.ar} [alquddUsu]{.trn}
 
 #### Tanween
 
