@@ -11,6 +11,12 @@ mytable <- read.csv("script_alphabet_table.csv")
 knitr::kable(mytable, caption = 'The Arabic alphabet')
 ```
 
+### Looped taa ة
+
+Looped taa ة is a special letter which is merged from two letters of the alphabet. It is a taa ت but it is written a ه with two dots above it. It only occurs at the end of a word so it has only an end form and an isolated form (in case the letter before it is a no-end-join letter). Looped taa ة is pronounced exactly as a ت except if it is at the end of a sentence in which case it is pronounced as a ه.
+
+### Pronunciation notes
+
 Some of the sounds are similar to sounds in English but others are very different. Here we will attempt to describe the sounds but we recommend that you learn the correct pronunciation from an experienced Arabic or Quran teacher.
 
 thaa, dhaal, and Dhaa. Try to pronoun th as in think but bring your tongue farther out between the top and bottom front teeth and have it touch the teeth lighter. Have your lips and cheek in a wide grin.
@@ -211,15 +217,17 @@ These long semi-vowels are rare and may only occur at the end of a sentence.
 
 ### Doubled letters
 
-It is possible for a letter to have a round-mark followed by the same letter with a short or long vowel. For example, [qattala]{.trn}. Here the first [t]{.trn} has a round-mark and the second [t]{.trn} has an [a]{.trn} mark. We would expect this word to be written in Arabic like this [قَتْتَلَ]{.ar}. But in fact it is written with one [ت]{.ar} with a tiny doubling mark [ّ ]{.ar} above it along with the vowel mark, like this [قَتَّلَ]{.ar}. Examples with doubled letters:
+It is possible for a letter to have a round-mark followed by the same letter with a short or long vowel. For example, [qattala]{.trn}. Here the first [t]{.trn} has a round-mark and the second [t]{.trn} has an [a]{.trn} mark. We would expect this word to be written in Arabic like this [قَتْتَلَ]{.ar}. But in fact it is written with one [ت]{.ar} with a tiny doubling mark [ّ ]{.ar} above it along with the vowel mark, like this [قَتَّلَ]{.ar}. When pronouncing this word, stop at and stress the doubled letter [qattala]{.trn} and make sure it does not sound like the undoubled letter in [قَتَلَ]{.ar} [qatala]{.trn}. Examples with doubled letters:
 
 + [كَبَّرَ]{.ar} [kabbara]{.trn}
-+ [سِكِّينُ]{.ar} [sikkInu]{.trn}. Note that the [i]{.trn}-mark is below the doubling mark but above the letter [ك]{.ar}. This is the most common way to write this, although having the [i]{.trn}-mark below the letter is also sometimes done. (In this case, the doubling mark will still be above the letter.)
-+ [قِسِّيسِينَ]{.ar} [qissIsIna]{.trn}. 
++ [رَبِّ]{.ar} [rabbi]{.trn}
++ [حَدُّ]{.ar} [Haddu]{.trn}
 + [فَعَّالَ]{.ar} [faeeAla]{.trn}
++ [سِكِّينُ]{.ar} [sikkInu]{.trn}. Note that the [i]{.trn}-mark is below the doubling mark but above the letter [ك]{.ar}. This is the most common way to write this, although having the [i]{.trn}-mark below the letter is also sometimes done as well. (In this case, the doubling mark will still be above the letter.)
 + [سَفُّودُ]{.ar} [saffUdu]{.trn}
++ [مُزَّمِّلُ]{.ar} [muzzammilu]{.trn}
 
-#### Tanween
+### N-marks
 
 Take a look at these words:
 سَعْدٌ sa3dun، ضَرْبًا Darban، دُعَاءً du3aa'an, سَعَةً sa3atan
@@ -231,13 +239,7 @@ Note that ضربًا Darban has an extra alif at the end, but this alif is not p
 
 Note also that it is perfectly normal to have a word that ends with a ن that has a doubled vowel mark like غَبَنٌ ghabanun.
 
-## Special letters
-
-### Looped taa ة
-
-Looped taa ة is called a taa ت but it is written a ه with two dots above it. It only occurs at the end of a word so it has only an end form and an isolated form (in case the letter before it is a no-end-join letter). Looped taa ة is pronounced exactly as a ت except if it is at the end of a sentence in which case it is pronounced as a ه.
-
-### Hamza
+## Hamza
 
 Hamza ء is not traditionally considered part of the alphabet but it is very much a letter. Its called a “glottal stop” in English. You can hear it if you say “a apple” quickly. When you stop your breath momentarily between “a” and “apple” that is the sound that hamza makes. In fact it also occurs in the beginning of “a apple” when you start to say “a”. In transcribing we will represent it with ‘. Note that this is different than out representation for ع which is `.
 
@@ -257,7 +259,9 @@ As أُو with long-a, eg أُوجِرَ ‘oojira
 As إِي with a long-i eg إِي
 
 Besides this we will limit the words used with hamza until we explain the rules fully so hopefully it will not be too confusing.
-Connecting hamza
+
+### Connecting hamza
+
 Some words in arabic begin with a sukoon. When this occurs a connecting hamza (written as a tiny صـ on an alif) is put before it. If this word comes in the beginning of the sentence the connecting alif is pronounced as a hamza. Otherwise this connecting hamza is not pronounced and the word is connected to the previous word in pronunciation.
 
 In this tutorial we will transcribe the connecting hamza with a hyphen - when it is in the middle of a sentence.
