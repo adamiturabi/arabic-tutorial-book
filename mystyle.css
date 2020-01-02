@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Scheherazade);
+
 :lang(ar) {
-  font-family: "Scheherazade";
+  font-family: Scheherazade, serif;
   font-size: 2.1em;
   line-height: 115%;
 }
