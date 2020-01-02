@@ -72,7 +72,7 @@ You can see that each letter maintains a basic shape and is modified for each of
 
 Notice that when we modified the isolated form to get to the beginning, middle, and end forms, we added a horizontal line to each or both sides. It is this horizontal line which joines to the horizontal line of the neighboring letter.
 
-As an example, we would like to join the following letters (starting from the right): [م، ع، ش، ر]{.ar} into one word. The first letter is [م]{.ar} so we modify it to its beginning form [مـ]{.ar}. The next two letters are converted to their middle forms [ـعـ، ـشـ]{.ar}. And the last letter [ر]{.ar} is converted to its end form [ـر]{.ar}. Then we join the horizontal lines together and get [مــعــشــر]{.ar}. Usually, when we join letters like this we shorten the horizontal lines so you will generally see the word like this [معشر]{.ar}. (Don't worry right now about how to pronounce this word. Soon, if Allah wills, we will learn how to pronoune and read Arabic.)
+As an example, we would like to join the following letters (starting from the right): [م-ع-ش-ر]{.ar} into one word. The first letter is [م]{.ar} so we modify it to its beginning form [مـ]{.ar}. The next two letters are converted to their middle forms [ـعـ، ـشـ]{.ar}. And the last letter [ر]{.ar} is converted to its end form [ـر]{.ar}. Then we join the horizontal lines together and get [مــعــشــر]{.ar}. Usually, when we join letters like this we shorten the horizontal lines so you will generally see the word like this [معشر]{.ar}.
 
 So if Arabic letters are always joined, why do we need isolated forms. Shouldn't the beginning, middle and end forms be sufficient? Here's where the no-end-join letters [ا، د، ذ، ر، ز، و]{.ar} come in. As we mentioned these letters don't have beginning and middle forms. So if one of them comes in the beginning of a word, the isolated form will be used. And if it comes in the middle of a word, the end form will be used. Unless there is another no-end-join letter before it, in which case the isolated form will be used.
 
@@ -82,11 +82,11 @@ Let's take a look at some examples. Join the following groups of letters:
 
 Disjoint | Joined
 :------------|:---------
-[ذ،ل،ك]{.ar} | [ذلك]{.ar}
-[ا،ح،م،د]{.ar} | [احمد]{.ar}
-[ر،س،و،ل]{.ar} | [رسول]{.ar}
-[و،ز،ي،ر]{.ar} | [وزير]{.ar}
-[و،ا،د،ي]{.ar} | [وادي]{.ar}
+[ذ-ل-ك]{.ar} | [ذلك]{.ar}
+[ا-ح-م-د]{.ar} | [احمد]{.ar}
+[ر-س-و-ل]{.ar} | [رسول]{.ar}
+[و-ز-ي-ر]{.ar} | [وزير]{.ar}
+[ر-ا-ز-ق]{.ar} | [رازق]{.ar}
 
 Notice that in the last example, all the letters were in the isolated form.
 
