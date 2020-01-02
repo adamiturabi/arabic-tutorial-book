@@ -5,6 +5,7 @@ output:
   bookdown::gitbook:
     pandoc_args: ["--lua-filter=trn.lua"]
     keep_md: yes
+    css: mystyle.css
   pdf_document:
     pandoc_args: ["--lua-filter=trn.lua"]
     latex_engine: xelatex
