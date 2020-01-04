@@ -2,7 +2,7 @@
 
 // Maybe first show describing nouns and rules. Then later, (but in this same chapter) explain how they are regular nouns and give antique as an example.
 
-We can use words to describe nouns. For example, we can say "a big man", "the small book". "Big" and "small" are _describing words_, and "man" and "book" are the _described nouns_.
+We can use words to describe nouns. For example, we can say "a big man", "the small book". "Big" and "small" are _describer words_, and "man" and "book" are the _described nouns_.
 
 In English the describing words are called adjectives. Adjectives come before the described noun, like "a big house". But in Arabic, describing words come after the described noun. For example, [كَبِيرٌ]{lang=ar dir=rtl} means "big". Here are some examples of how it can be used as a describing word
 
@@ -13,71 +13,34 @@ In English the describing words are called adjectives. Adjectives come before th
 | [فِي بَيْتٍ كَبِيرٍ]{.ar}<br>[fI baytin kabIrin]{.trn}       | in a big house   |
 | [فِي ٱلْبَيْتِ ٱلْكَبِيرِ]{.ar}<br>[fi -lbayti -lkabIri]{.trn} | in the big house |
 
-djhrdelk ljkhrcf ljkhjklrdh
-
-```{r echo=FALSE}
-input <- c("[بَيْتٌ كَبِيرٌ]{lang=ar}<br>[baytun kabIrun]{.trn}", "a big house",
-"[ٱَلْبَيْتُ ٱلْكَبِيرُ]{.ar}<br>[albaytu -lkabIru]{.trn}", "the big house",
-"[فِي بَيْتٍ كَبِيرٍ]{.ar}<br>[fI baytin kabIrin]{.trn}", "in a big house",
-"[فِي ٱلْبَيْتِ ٱلْكَبِيرِ]{.ar}<br>[fi -lbayti -lkabIri]{.trn}", "in the big house",
-"[فِي ٱلْبَيْتِ ٱلْكَبِيرِ]{.ar}<br>[cccccccccccccccccc]{.trn}", "in the big house")
-df <- matrix(input, ncol=2, byrow=TRUE)
-knitr::kable(df, format="markdown",col.names=c("Arabic", "English"), align=c('l','l'))
-```
-
-<table>
-<tr>
-<td>[بَيْتٌ كَبِيرٌ]{lang=ar}<br>[baytun kabIrun]{.trn}</td>
-<td>a big house</td>
-</tr>
-<tr>
-<td>[ٱَلْبَيْتُ ٱلْكَبِيرُ]{.ar}<br>[albaytu -lkabIru]{.trn}</td>
-<td>the big house</td>
-</tr>
-<tr>
-<td>[فِي بَيْتٍ كَبِيرٍ]{.ar}<br>[fI baytin kabIrin]{.trn}</td>
-<td>in a big house</td>
-</tr>
-<tr>
-<td>[فِي ٱلْبَيْتِ ٱلْكَبِيرِ]{.ar}<br>[fi -lbayti -lkabIri]{.trn}</td>
-<td>in the big house</td>
-</tr>
-</table>
-
-
-djhrdelk ljkhrcf ljkhjklrdh
-
-```{r chunk-label3, echo = FALSE}
-mytable <- read.table('mytable2.txt', sep="|", quote="", dec="/", colClasses="character", fill=TRUE)
-knitr::kable(mytable, caption = 'A caption')
-```
 
 Let's note a couple of things:
 
-+ In Arabic, the describing word comes after the describing noun. kabeer comes after bayt.
++ In Arabic, the describer word comes after the described noun. [kabIr]{.trn} comes after [bayt]{.trn}.
 
-+ The state of the describer will match the state of the describing noun. In this case. "A big house" is baytun kabeerun. Both bayt and kabeer are in the u-state. And "in a big house" is fee beythin kabeerin. Both bayt and kabeer are in the i-state. In both cases the state of the describer kabeer matches the state of the described noun bayt.
++ The state of the describer will match the state of the described noun. "A big house" is [baytun kabIrun]{.trn}. Both [bayt]{.trn} and [kabIr]{.trn} are in the u-state. And "in a big house" is [fI baytin kabIrin]{.trn}. Both [bayt]{.trn} and [kabIr]{.trn} are in the i-state. In both cases the state of the describer [kabIr]{.trn} matches the state of the described noun [bayt]{.trn}.
 
-+ If the described noun is indefinite then the desriber will also be indefinite (baytun kabeerun, fee baytin kabeerin). Similarly, if the described noun is definite then the desriber will also be definite (albaytu lkabeeru, fi -lbayti -lkabeeri).
++ If the described noun is indefinite then the desriber will also be indefinite ([baytun kabIrun]{.trn}, [fI baytin kabIrin]{.trn}). Similarly, if the described noun is definite then the desriber will also be definite ([albaytu -lkabIru]{.trn}, [fi -lbayti -lkabIri]{.trn}).
 
-A
-But in Arabic the describing words are themselves nouns. So we use nouns to describe other nouns. This might seem a little strange but this can occur in English as well, although it is not very common. For example, the word "antique" is a noun. So we can say,
+## Describers are nouns too
+
+In Arabic the describer words are themselves nouns. So we use nouns to describe other nouns. This might seem a little strange but this can occur in English as well, although it is not very common. For example, the word "antique" is a noun. So we can say,
 
 I bought an antique.
 
 "An antique" here could be any item that is old and valuable; it may be a book, or a vase, or a car, for example. So "antique" is a noun but it is descriptive in meaning. And it could be applied to a variety of items that fit its description.
 
-But antque can also be used as a describing word. So you could say,
+But "antique" can also be used as a describer word. So you could say,
 
 I bought an antique vase.
 
-Here "antique" is a describing word, and "vase" is the described noun.
+Here "antique" is a describer word, and "vase" is the described noun.
 
-Using the same word as a describing word and a noun is uncommon is English. For example, you can't say,
+However, a describer word being a noun is uncommon is English. For example, you can't say,
 
 I bought a small.
 
-This is not a complete sentence because "small" cannot be used as a noun by itself. It can only be a describing word. So you have to say something like
+This is not a complete sentence because "small" cannot be used as a noun by itself. It can only be a describer word. So you have to say something like
 
 I bought a small book.
 
