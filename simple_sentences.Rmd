@@ -1,5 +1,7 @@
 # Simple sentences
 
+## The subject and its information
+
 Here is a simple sentence:
 
 The man is a teacher.
@@ -23,7 +25,7 @@ Let's take a look at another example:
 
 The man is big.
 
-The subject is "the man" and the information about the subject is "is big". Remeber that Arabic does not have an adjective that means "big". It has a noun [كَبِيرٌ]{.ar} [kabIrun]{.trn} which means "someone or something big". So, just like the previous sentence, we put the subject and its information together and get
+The subject is "the man" and the information about the subject is "is big". Remeber that Arabic does not technically have an adjective that means "big". It has a noun [كَبِيرٌ]{.ar} [kabIrun]{.trn} which means "someone or something big". So, just like the previous sentence, we put the subject and its information together and get
 
 
 [ٱَلرَّجُلُ كَبِيرٌ]{.ar}  
@@ -45,12 +47,77 @@ Let's try using the same technique. "The man" is [ٱَلرَّجُلُ]{.ar} [ar
 
 This is correct. So we can see that we generally put the subject and its information together to make a simple sentence.
 
-But wait! Didn't we see in the last chapter that 
-[ٱَلرَّجُلُ ٱلْكَبِيرُ]{.ar}  
-[arrajulu -lkabIru]{.trn}
-means "the big man" and that [ٱَلْكَبِيرُ]{.ar} [alkabIru]{.trn} is used as a describer? That's true. So, it turns out that
+But wait! Didn't we see in the last chapter that [ٱَلرَّجُلُ ٱلْكَبِيرُ]{.ar} [arrajulu -lkabIru]{.trn} means "the big man" and that [ٱَلْكَبِيرُ]{.ar} [alkabIru]{.trn} is used as a describer? That's true. So, it turns out that
 
 [ٱَلرَّجُلُ ٱلْكَبِيرُ]{.ar}  
 [arrajulu -lkabIru]{.trn}
 
 means both "the man is the big [person]" and "the big man". Usually we will need context to tell us which of the two is intended by the speaker. And soon, if Allah wills, we will also learn another technique to say "the man is the big [person]" to avoid confusion.
+
+Similarly, if we put "the man" [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn} and "the teacher" [ٱَلْمُعَلِّمُ]{.ar} [almueallimu]{.trn} together, we get
+
+
+[ٱَلرَّجُلُ ٱلْمُعَلِّمٌ]{.ar}  
+[arrajulu -lmueallimu]{.trn}
+
+which can mean either
+
++ The man is the teacher, or
++ The teacher man.
+
+We can summarize this in the table below:
+
+Arabic|Transcription|English
+:-----|:------------|:--------------
+[ٱَلرَّجُلُ كَبِيرٌ]{.ar}| [arrajulu kabIrun]{.trn}| "The man is a big [person]"
+[ٱَلرَّجُلُ ٱلْكَبِيرُ]{.ar}| [arrajulu -lkabIru]{.trn}| "The man is the big [person]" or "The big man"
+
+In all the sentences above the subject [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn} "the man" was definite. What if, instead, the subject was indefinite:
+
+A man is a big [person].  
+A man is a teacher.  
+A man is the big [person].  
+A man is the teacher.  
+
+It turns out that these kinds of sentences, where the subject is indefinite, are not straightforward in Arabic. If Allah wills, we will learn how to handle them later.
+
+## Adding describers to the simple sentence.
+
+We've already learned how to express a simple sentence:
+
+[ٱَلرَّجُلُ مُعَلِّمٌ]{.ar}  
+[arrajulu mueallimun]{.trn}  
+The man is a teacher
+
+And we also know how to describe nouns:
+
+[ٱَلرَّجُلُ ٱلسَّعِيدُ]{.ar}  
+[arrajulu -ssaeIdu]{.trn}  
+the happy man
+
+[رَجُلٌ سَعِيدٌ]{.ar}  
+[rajulun saeIdun]{.trn}  
+a happy man
+
+Can we try to combine these to describe nouns in a simple sentence? Yes, it's pretty straightforward. We simply put the describer word after the described noun and match it in definiteness and state.
+
+[ٱَلرَّجُلُ ٱلسَّعِيدُ مُعَلِّمٌ حَسَنٌ]{.ar}  
+[arrajulu -ssaeIdu mueallimun Hasanun]{.trn}  
+The happy man is a good teacher.
+
+Note that [ٱَلرَّجُلُ ٱلسَّعِيدُ]{.ar} [arrajulu -ssaeIdu]{.trn} in this sentence can only mean "the happy man" and it cannot mean "the man is the happy [person]". This is because we already have an unambiguous information for the subject, which is: "is a good teacher."
+
+In other words we can't say
+
+The man is a happy [person] is a good teacher.
+
+because it doesn't make much sense.
+
+Similarly, we can have a sentence where both the subject and its information are definite and both are being described with describer words.
+
+[ٱَلرَّجُلُ ٱلسَّعِيدُ ٱلْمُعَلِّمُ ٱلْحَسَنُ]{.ar}  
+[arrajulu -ssaeIdu -lmueallimu -lHasanu]{.trn}  
+The happy man is the good teacher.
+
+As we mentioned earlier we will learn a technique later, if Allah wills, where we can express this last sentence (where both the subject and its information are definite) in a different and more clear manner.
+
