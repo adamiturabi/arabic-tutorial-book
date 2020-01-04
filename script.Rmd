@@ -135,8 +135,6 @@ Isolated | End | Middle | Beginnning
 [ا]{.ar}| [ـا]{.ar}| none | none
 [ل]{.ar}| [ـل]{.ar}| [ـلـ]{.ar}| [لـ]{.ar}
 
-These two letters []{.ar} and []{.ar} also take a special form when [ا]{.ar} follows right after [ل]{.ar}. Instead of looking like this [لـا]{.ar}, they will be written like this [لا]{.ar}.
-
 ## Vowels and pronunciation marks.
 
 In Arabic each letter in a word will have a vowel after it unless if there is a vowel right before it in which case it may or may not have avowel after it.
@@ -275,21 +273,21 @@ Sometimes a connecting hamza can occurs after an n-mark. In these cases will wil
 
 Zaydani -lkabeeru NOT zaydan ‘alkabeera
 
-## Joining [lAm]{.trn} and ['alif]{.trn}
+## Joining [lAm]{.trn} and [Ealif]{.trn}
 
-When the letter ['alif]{.trn} follows [lAm]{.trn} we would expect them to be joined like this [ل-ا]{.ar} = [لـا]{.ar}. But actually, they are joined in a special way 
+When the letter [Ealif]{.trn} follows [lAm]{.trn} we would expect them to be joined like this [ل+ا]{.ar} &rarr; [لـا]{.ar}. But actually, they are joined in a special way 
 
-[ل-ا]{.ar} = [لا]{.ar}
+[ل+ا]{.ar} &rarr; [لا]{.ar}
 
-If we add [hamzah]{.trn} to the ['alif]{.trn} or add another [lAm]{.trn}, here is how they will be joined:
+If we add [hamzah]{.trn} to the [Ealif]{.trn} or add another [lAm]{.trn}, here is how they will be pronounced:
 
 Disjoint | Joined | Transcription
 :--------|:-------|:-------------
-[لَ-ا]{.ar}| [لَا]{.ar}| [lA]{.trn}
-[ٱَ-لْ-إِ]{.ar}| [ٱَلْإِ]{.ar}| [al'i]{.trn}
-[ٱَ-لْ-آ]{.ar}| [ٱَلْآ]{.ar}| [al'A]{.trn}
-[أَ-لَّ-ا]{.ar}| [أَلَّا]{.ar}| ['allA]{.trn}
-[لِ-لِ-ٱ]{.ar}| [لِلِٱ]{.ar}| [lili]{.trn}
+[لَ + ا]{.ar}| [لَا]{.ar}| [lA]{.trn}
+[ٱَ + لْ + إِ + يمَانُ]{.ar}| [ٱَلْإِيمَانُ]{.ar}| [alEImAnu]{.trn}
+[ٱَ + لْ + آ + فَةُ]{.ar}| [ٱَلْآفَةُ]{.ar}| [alEAfatu]{.trn}
+[أَ + لَّ + ا]{.ar}| [أَلَّا]{.ar}| [EallA]{.trn}
+[لِ + لِ + ٱ + نْتِقَالِ]{.ar}| [لِلِٱنْتِقَالِ]{.ar}| [lili -ntiqAli]{.trn}
 
 ## [n]{.trn}-marks
 
