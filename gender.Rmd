@@ -1,92 +1,92 @@
 # Gender
 
-All nouns in Arabic are either masculine or feminine in gender. Sometimes the nouns designate living beings, like "man", "woman", "human", "lion", "lioness", "tiger", "teacher".
+All nouns in Arabic are either masculine or feminine in gender. Sometimes the nouns designate living beings, like "man", "woman", "human", "bull", "cow", "teacher", "student", etc.
 
-In this case the gender of the nnoun matches the gender of the male or female living being they designate. 
+Other times, the nouns designate inanimate objects. 
 
-Other times, the nouns designate inanimate objects,. In this case, the noun will still be grammatically masculine or feminine but this assignment will be arbitrary. Feminine nouns are often, but not always, formed by adding a feminine marker to the masculine noun. 
+There are other nouns that are more descriptive meaning and are often used as description words, like "a big [person or thing]", "a happy [person]", etc.
 
-As we discussed earlier nouns are also used as description words, so some nouns are qualitative, like "someone happy", "someone or something big", etc.
+To deal with the gender of these different kinds of nouns, we'll classify nouns into:
 
-To explain this further we'll classify nouns into:
-
-1. _Rigid_ nouns
-2. _Flexible_ nouns
+1. _Rigid_ nouns: In rigid nouns, we generally cannot modify the masculine noun to obtain the feminine noun.
+2. _Flexible_ nouns: In flexible nouns, we can generally modify the masculine noun to obtain the feminine noun.
 
 ## Rigid nouns
 
-Rigid nouns include:
+These include:
 
-1. Nouns for living beings that are male and female.
+1. Nouns for living beings that are male and female. The grammatical gender of the noun usually matches the gender of the living being. Here are some examples:
 
-Arabic word | Transcription|Gender | Definition
-:-----------|:-----------|:---|:----------------
-[رَجُلٌ]{.ar}  |[rajulun]{.trn}   |masc.|a man
-[ٱِمْرَؤٌ]{.ar} |[imraEun]{.trn}   |masc.|a man
-[ٱِمْرَأَةٌ]{.ar}|[imraEatun]{.trn} |fem. |a woman
-[طِفْلٌ]{.ar}  |[Tiflun]{.trn}    |masc.|a male child
-[طِفْلَةٌ]{.ar} |[Tiflatun]{.trn}  |fem. |a female child
-[أَبٌ]{.ar}   |[Eabun]{.trn}     |masc.|a father
-[أُمٌّ]{.ar}   |[ِEummun]{.trn}    |fem. |a mother
-[إِنْسَانٌ]{.ar}|[EinsAnun]{.trn}  |masc.|a human
-[شَخْصٌ]{.ar}  |[caxSun]{.trn}    |masc.|a person
-[كَلْبٌ]{.ar}  |[kalb]{.trn}      |masc.|a male dog
-[كَلْبَةٌ]{.ar} |[kalbatun]{.trn}  |fem. |a female dog
-[هِرٌّ]{.ar}   |[hirrun]{.trn}    |masc.|a male cat
-[هِرَّةٌ]{.ar}  |[hirratun]{.trn}  |fem. |a female cat
-[أَسَدٌ]{.ar}  |[Easadun]{.trn}   |masc.|a lion
-[لَبْوَةٌ]{.ar} |[labwatun]{.trn}  |fem. |a lioness
-[ثَوْرٌ]{.ar}  |[vawrun]{.trn}    |masc.|a bull
-[بَقَرَةٌ]{.ar} |[baqaratun]{.trn} |fem. |a cow
-[قِرْدٌ]{.ar}  |[qirdun]{.trn}    |masc.|a monkey
-[حَمَامَةٌ]{.ar}|[HamAmatun]{.trn} |fem. |a pigeon
-[حَيَوَانٌ]{.ar}|[HayawAnun]{.trn} |masc.|an animal
-[طَيْرٌ]{.ar}  |[Tayrun]{.trn}    |masc.|a bird
+   Arabic word | Transcription|Gender | Definition
+   :-----------|:-----------|:---|:----------------
+   [رَجُلٌ]{.ar}  |[rajulun]{.trn}   |masc.|a man
+   [ٱِمْرَؤٌ]{.ar} |[imraEun]{.trn}   |masc.|a man
+   [ٱِمْرَأَةٌ]{.ar}|[imraEatun]{.trn} |fem. |a woman
+   [طِفْلٌ]{.ar}  |[Tiflun]{.trn}    |masc.|a male child
+   [طِفْلَةٌ]{.ar} |[Tiflatun]{.trn}  |fem. |a female child
+   [أَبٌ]{.ar}   |[Eabun]{.trn}     |masc.|a father
+   [أُمٌّ]{.ar}   |[ِEummun]{.trn}    |fem. |a mother
+   [إِنْسَانٌ]{.ar}|[EinsAnun]{.trn}  |masc.|a human
+   [شَخْصٌ]{.ar}  |[caxSun]{.trn}    |masc.|a person
+   [كَلْبٌ]{.ar}  |[kalb]{.trn}      |masc.|a male dog
+   [كَلْبَةٌ]{.ar} |[kalbatun]{.trn}  |fem. |a female dog
+   [هِرٌّ]{.ar}   |[hirrun]{.trn}    |masc.|a male cat
+   [هِرَّةٌ]{.ar}  |[hirratun]{.trn}  |fem. |a female cat
+   [أَسَدٌ]{.ar}  |[Easadun]{.trn}   |masc.|a lion
+   [لَبْوَةٌ]{.ar} |[labwatun]{.trn}  |fem. |a lioness
+   [ثَوْرٌ]{.ar}  |[vawrun]{.trn}    |masc.|a bull
+   [بَقَرَةٌ]{.ar} |[baqaratun]{.trn} |fem. |a cow
+   [قِرْدٌ]{.ar}  |[qirdun]{.trn}    |masc.|a monkey
+   [حَمَامَةٌ]{.ar}|[HamAmatun]{.trn} |fem. |a pigeon
+   [حَيَوَانٌ]{.ar}|[HayawAnun]{.trn} |masc.|an animal
+   [طَيْرٌ]{.ar}  |[Tayrun]{.trn}    |masc.|a bird
+
+2. Nouns for inanimate objects that are not physically male or female. However, the nouns will still be either grammatically masculine or feminine.
+
+   Arabic word | Transcription|Gender | Definition
+   :-----------|:-----------|:---|:----------------
+   [كِتَابٌ]{.ar} |[kitAbun]{.trn}   |masc.|a book
+   [بَيْتٌ]{.ar}  |[baytun]{.trn}    |masc.|a house
+   []{.ar}  |[]{.trn}    |masc.|a pen
+   []{.ar}  |[]{.trn}    |masc.|a food
+   []{.ar}  |[]{.trn}    |masc.|a water
+   []{.ar}  |[]{.trn}    |masc.|a country
+   []{.ar}  |[]{.trn}    |masc.|a thing
+   []{.ar}   |[]{.trn}     |fem. |a school
+   []{.ar}   |[]{.trn}     |fem. |a city
+   []{.ar}   |[]{.trn}     |fem. |a 
+   []{.ar}   |[]{.trn}     |fem. |a 
+   []{.ar}   |[]{.trn}     |fem. |a 
+   [رَأْسٌ]{.ar}  |[raEsun]{.trn}    |masc.|a head
+   [أَنْفٌ]{.ar}  |[Eanfun]{.trn}    |masc.|a nose
+   [بَطْنٌ]{.ar}  |[baTnun]{.trn}    |masc.|a belly
+   [يَدٌ]{.ar}   |[yadun]{.trn}     |fem. |a hand, an arm
+   [رِجْلٌ]{.ar}  |[rijlun]{.trn}    |fem. |a leg
+   [عَيْنٌ]{.ar}  |[eaynun]{.trn}    |fem. |an eye, a water spring
+   [شَمْسٌ]{.ar}  |[camsun]{.trn}    |fem. |a sun
+   [قَمَرٌ]{.ar}  |[qamarun]{.trn}   |masc.|a moon
+   [عِلْمٌ]{.ar}  |[eilmun]{.trn}    |masc.|a knowledge
+   [قُوَّةٌ]{.ar}  |[quwwatun]{.trn}  |fem. |a strength
+   [حَيَاةٌ]{.ar} |[HayAtun]{.trn}   |fem. |a life
+   [مَوْتٌ]{.ar}  |[mawtun]{.trn}    |masc.|a death
 
 Let's note a few things:
 
-+ The feminine noun usually ends with a looped [tAE]{.trn} [ة]{.ar}. This looped [tAE]{.trn} is the most common feminine marker. There are a couple other feminine markers that are not very common. We will learn those later, if Allah wills.
++ The feminine noun usually ends with a looped [tAE]{.trn} [ة]{.ar}, which is a feminine marker for singular nouns (but not for plural nouns which we'll learn in the next chapter, if Allah wills). This looped [tAE]{.trn} is the most common feminine marker. There are a couple of other feminine markers that are not very common. We will learn those later, if Allah wills.
 
 + There are a few feminine nouns that don't end with looped [tAE]{.trn}, like [أُمٌّ]{.ar} [Eummun]{.trn} "a mother", [شَمْسٌ]{.ar} [camsun]{.trn} "a sun". Only a few of these are commonly used so they will not be too hard to learn, if Allah wills. Of these are parts of the body that occur in pairs like eyes, hand, and legs. These are mostly feminine, even if they don't have a feminine marker. 
 
++ The feminine noun is sometimes fomed by adding the looped [tAE]{.trn} to the masculine noun like mar', kalb. Other times, the feminine noun is completely different, like bull, cow. Because of this, we won't assume that we can generally form a feminine to a rigid noun by adding the feminine marker.
+
 + Animals often have different words for the male animal and the female animal, like [أَسَدٌ]{.ar} [Easadun]{.trn} "a lion", [لَبْوَةٌ]{.ar} [labwatun]{.trn}"a lioness", [ثَوْرٌ]{.ar} [vawrun]{.trn} "a bull", [بَقَرَةٌ]{.ar} [baqaratun]{.trn} "a cow". This is often the case when the make and female animal are visually or agriculturally distinct.
 
-  Other times, the same noun is often used to refer to both the male and female animal, like [قِرْدٌ]{.ar} [qirdun]{.trn} "a monkey", [حَمَامَةٌ]{.ar} [HamAmatun]{.trn} "a pigeon". Even when there are different words for the male and female animal, one of them is used commonly to refer to both the male and female animal. For example, [كَلْبٌ]{.ar} [kalbun]{.trn} is "a male dog" and  [كَلْبَةٌ]{.ar} [kalbatun]{.trn} is "a female dog". But commonly, [كَلْبٌ]{.ar} [kalbun]{.trn} is used to refer to both male and female dogs. Similarly [هِرَّةٌ]{.ar} [hirratun]{.trn} is used to refer to both female and male cats.
+  Other times, the same noun is often used to refer to both the male and female animal, like [قِرْدٌ]{.ar} [qirdun]{.trn} "a monkey", [حَمَامَةٌ]{.ar} [HamAmatun]{.trn} "a pigeon". 
+  
+  Even when there are different words for the male and female animal, one of them is often commonly used to refer to both the male and female animal. For example, [كَلْبٌ]{.ar} [kalbun]{.trn} is "a male dog" and  [كَلْبَةٌ]{.ar} [kalbatun]{.trn} is "a female dog". But commonly, [كَلْبٌ]{.ar} [kalbun]{.trn} is used to refer to both a male and a female dog. Similarly [هِرَّةٌ]{.ar} [hirratun]{.trn} is commonly used to refer to both a female and a male cat.
 
++ There are generic words which can refer to both male and female living beings, like animal, human, person. The word itself will still have one grammatical gender, although it can be used to refer to both sexes.
 
-You can see that sometimes the feminine noun is formed by simply adding the looped [tAE]{.trn} feminine marker [ة]{.ar} to the masculine noun, like man, woman. Other times, the feminine noun is completely different and unrelated to the masculine noun, like lion, lioness. #Even if, the noun for the female is unrelated to the noun for the male, it will still often end with a looped [tAE]{.trn} feminine marker [ة]{.ar}. There are a few feminine nouns that end with different 
-
-We also sometimes have one noun to refer to both male and female living beings, like animal, human, person. The word itself will still have one grammatical gender, although it can be used to refer to both sexes.
-
-
-2. Nouns for inanimate objects that are not physically male or female. However, since all nouns have to be either grammatically masculine or feminine, they will be assigned a gender.
-
-Arabic word | Transcription|Gender | Definition
-:-----------|:-----------|:---|:----------------
-[كِتَابٌ]{.ar} |[kitAbun]{.trn}   |masc.|a book
-[بَيْتٌ]{.ar}  |[baytun]{.trn}    |masc.|a house
-[]{.ar}  |[]{.trn}    |masc.|a pen
-[]{.ar}  |[]{.trn}    |masc.|a food
-[]{.ar}  |[]{.trn}    |masc.|a water
-[]{.ar}  |[]{.trn}    |masc.|a country
-[]{.ar}  |[]{.trn}    |masc.|a thing
-[]{.ar}   |[]{.trn}     |fem. |a school
-[]{.ar}   |[]{.trn}     |fem. |a city
-[]{.ar}   |[]{.trn}     |fem. |a 
-[]{.ar}   |[]{.trn}     |fem. |a 
-[]{.ar}   |[]{.trn}     |fem. |a 
-[رَأْسٌ]{.ar}  |[raEsun]{.trn}    |masc.|a head
-[أَنْفٌ]{.ar}  |[Eanfun]{.trn}    |masc.|a nose
-[بَطْنٌ]{.ar}  |[baTnun]{.trn}    |masc.|a belly
-[يَدٌ]{.ar}   |[yadun]{.trn}     |fem. |a hand, an arm
-[رِجْلٌ]{.ar}  |[rijlun]{.trn}    |fem. |a leg
-[عَيْنٌ]{.ar}  |[eaynun]{.trn}    |fem. |an eye, a water spring
-[شَمْسٌ]{.ar}  |[camsun]{.trn}    |fem. |a sun
-[قَمَرٌ]{.ar}  |[qamarun]{.trn}   |masc.|a moon
-[عِلْمٌ]{.ar}  |[eilmun]{.trn}    |masc.|a knowledge
-[قُوَّةٌ]{.ar}  |[quwwatun]{.trn}  |fem. |a strength
-[حَيَاةٌ]{.ar} |[HayAtun]{.trn}   |fem. |a life
-[مَوْتٌ]{.ar}  |[mawtun]{.trn}    |masc.|a death
++ There are two words for man. Note also that wehen we make the noun by adding al...
 
 ## Some notes about rigid and flexible nouns
 
