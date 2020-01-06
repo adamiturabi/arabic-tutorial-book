@@ -8,10 +8,10 @@ There are other nouns that are more descriptive meaning and are often used as de
 
 To deal with the gender of these different kinds of nouns, we'll classify nouns into:
 
-1. _Rigid_ nouns: In rigid nouns, we generally cannot modify the masculine noun to obtain the feminine noun.
-2. _Flexible_ nouns: In flexible nouns, we can generally modify the masculine noun to obtain the feminine noun.
+1. _Fixed-ending_ nouns: In fixed-ending nouns, we generally cannot modify the masculine noun to obtain the feminine noun.
+2. _Flexible-ending_ nouns: In flexible-ending nouns, we can generally modify the masculine noun to obtain the feminine noun.
 
-## Rigid nouns
+## Fixed-ending nouns
 
 These include:
 
@@ -47,16 +47,18 @@ These include:
    :-----------|:-----------|:---|:----------------
    [كِتَابٌ]{.ar} |[kitAbun]{.trn}   |masc.|a book
    [بَيْتٌ]{.ar}  |[baytun]{.trn}    |masc.|a house
-   []{.ar}  |[]{.trn}    |masc.|a pen
-   []{.ar}  |[]{.trn}    |masc.|a food
-   []{.ar}  |[]{.trn}    |masc.|a water
-   []{.ar}  |[]{.trn}    |masc.|a country
-   []{.ar}  |[]{.trn}    |masc.|a thing
-   []{.ar}   |[]{.trn}     |fem. |a school
-   []{.ar}   |[]{.trn}     |fem. |a city
-   []{.ar}   |[]{.trn}     |fem. |a 
-   []{.ar}   |[]{.trn}     |fem. |a 
-   []{.ar}   |[]{.trn}     |fem. |a 
+   [قَلَمٌ]{.ar}  |[qalamun]{.trn}   |masc.|a pen
+   [طَعَامٌ]{.ar} |[TaeAmun]{.trn}   |masc.|a food
+   [مَاءٌ]{.ar}  |[mAEun]{.trn}     |masc.|a water
+   [بَلَدٌ]{.ar}  |[baladun]{.trn}   |masc.|a country
+   [شَيْءٌ]{.ar}  |[cayEun]{.trn}    |masc.|a thing
+   [مَدْرَسَةٌ]{.ar}|[madrasatun]{.trn}|fem. |a school
+   [مَدِينَةٌ]{.ar}|[madInatun]{.trn} |fem. |a city
+   [مَكْتَبَةٌ]{.ar}|[maktabatun]{.trn}|fem. |a library
+   [غُرْفَةٌ]{.ar} |[gurfatun]{.trn}  |fem. |a room
+   [شَجَرَةٌ]{.ar} |[cajaratun]{.trn} |fem. |a tree
+   [كَلَامٌ]{.ar} |[kalAmun]{.trn}   |fem. |a speech
+   [نَصِيحَةٌ]{.ar}|[naSIHatun]{.trn} |fem. |an advice
    [رَأْسٌ]{.ar}  |[raEsun]{.trn}    |masc.|a head
    [أَنْفٌ]{.ar}  |[Eanfun]{.trn}    |masc.|a nose
    [بَطْنٌ]{.ar}  |[baTnun]{.trn}    |masc.|a belly
@@ -76,7 +78,7 @@ Let's note a few things:
 
 + There are a few feminine nouns that don't end with looped [tAE]{.trn}, like [أُمٌّ]{.ar} [Eummun]{.trn} "a mother", [شَمْسٌ]{.ar} [camsun]{.trn} "a sun". Only a few of these are commonly used so they will not be too hard to learn, if Allah wills. Of these are parts of the body that occur in pairs like eyes, hand, and legs. These are mostly feminine, even if they don't have a feminine marker. 
 
-+ The feminine noun is sometimes fomed by adding the looped [tAE]{.trn} to the masculine noun like mar', kalb. Other times, the feminine noun is completely different, like bull, cow. Because of this, we won't assume that we can generally form a feminine to a rigid noun by adding the feminine marker.
++ The feminine noun is sometimes fomed by adding the looped [tAE]{.trn} to the masculine noun like mar', kalb. Other times, the feminine noun is completely different, like bull, cow. Because of this, we won't assume that we can generally form a feminine to a fixed-ending noun by adding the feminine marker.
 
 + Animals often have different words for the male animal and the female animal, like [أَسَدٌ]{.ar} [Easadun]{.trn} "a lion", [لَبْوَةٌ]{.ar} [labwatun]{.trn}"a lioness", [ثَوْرٌ]{.ar} [vawrun]{.trn} "a bull", [بَقَرَةٌ]{.ar} [baqaratun]{.trn} "a cow". This is often the case when the make and female animal are visually or agriculturally distinct.
 
@@ -84,7 +86,7 @@ Let's note a few things:
   
 + There are some nouns for living beings that don't have different masculine and feminine nouns. These nouns can be used for both male and female living beings even though the noun is itself only of one grammatical gender. For example, [شَخْصٌ]{.ar} [caxSun]{.trn} is a masculine noun which means "a person". But it can be used to refer to both a man and a woman. 
 
-  Remember that we cannot modify rigid nouns by adding a feminine marker like looped [tAE]{.trn} [ة]{.ar} to it. So when [شَخْصٌ]{.ar} [caxSun]{.trn} is used to refer to a female person, we can't modify it to [شَخْصَةٌ]{.ar} [caxSatun]{.trn} because this word does not exist.
+  Remember that we cannot modify fixed-ending nouns by adding a feminine marker like looped [tAE]{.trn} [ة]{.ar} to it. So when [شَخْصٌ]{.ar} [caxSun]{.trn} is used to refer to a female person, we can't modify it to [شَخْصَةٌ]{.ar} [caxSatun]{.trn} because this word does not exist.
 
   Similarly [حَيَوَانٌ]{.ar} [HayawAnun]{.trn} is a masculine noun which means "an animal" but it can be used to refer to both male and female animals without modifying it. 
 
@@ -92,7 +94,7 @@ Let's note a few things:
 
   Similarly [هِرَّةٌ]{.ar} [hirratun]{.trn} is commonly used to refer to both a female and a male cat, even though the word [هِرٌّ]{.ar} exists. And [طِفْلٌ]{.ar} [Tiflun]{.trn} "a male child" is commonly used to refer to both a male and a female child, even though the word [طِفْلَةٌ]{.ar} [Tiflatun]{.trn} exists. [إِنْسَانٌ]{.ar} [EinsAnun]{.trn} "a human" is also one of these words. (The word [إِنْسَانَةٌ]{.ar} [EinsAnatun]{.trn} "a female human" exists but it is very rarely used.)
 
-  So how do we know when a rigid noun of one gender is commonly used to refer to both male and female living beings, even though the noun exists in both genders? Many nouns that designate animals behave like this. As for nouns that designate humans, there are not very many of these and we have already listed the most common ones. When we come across nouns like these, we will note it in the vocabulary.
+  So how do we know when a fixed-ending noun of one gender is commonly used to refer to both male and female living beings, even though the noun exists in both genders? Many nouns that designate animals behave like this. As for nouns that designate humans, there are not very many of these and we have already listed the most common ones. When we come across nouns like these, we will note it in the vocabulary.
 
 + There are two words for "a man": [رَجُلٌ]{.ar} [rajulun]{.trn} and [ٱِمْرَؤٌ]{.ar} [imraEun]{.trn}.
 The noun [رَجُلٌ]{.ar} [rajulun]{.trn} is used more commonly when talking about male human beings.
@@ -112,11 +114,11 @@ The noun [رَجُلٌ]{.ar} [rajulun]{.trn} is used more commonly when talking 
 [ٱِمْرُؤٌ]{.ar} [imruEun]{.trn}
 [ٱِمْرُؤٌ]{.ar} [imruEun]{.trn}
 
-## Flexible nouns
+## Flexible-ending nouns
 
-Flexible nouns can refer to living beings as well as inanimate objects. Description words are also nearly always flexible nouns. Flexible nouns can usually be feminized when needed by adding a feminine marker to them. The most common feminine marker for singular nouns, as we've noted already, is looped [tAE]{.trn}.
+Flexible-ending nouns can refer to living beings as well as inanimate objects. Description words are also nearly always flexible-ending nouns. Flexible-ending nouns can usually be feminized when needed by adding a feminine marker to them. The most common feminine marker for singular nouns, as we've noted already, is looped [tAE]{.trn}.
 
-Here are some examples of flexible nouns:
+Here are some examples of flexible-ending nouns:
 
 Arabic word  | Transcription|Gender | Definition
 :----------- |:-----------|:---|:----------------
@@ -139,7 +141,7 @@ Let's note a few things:
 
 + When we add a looped [tAE]{.trn} to a masculine noun the letter before the looped [tAE]{.trn} will always have an [a]{.trn}-mark.
 
-## Feminine flexible nouns as description words
+## Feminine flexible-ending nouns as description words
 
 In the previous chapter we noted that a description word has to match the described noun in definiteness and state. For example:
 
@@ -161,56 +163,94 @@ The happy woman is in the big library.
 
 Similarly, [مَكْتَبَةٍ]{.ar} [maktabatin]{.trn} "a library" is feminine so  its description word [كَبِيرَةٍ]{.ar} [kabIratin]{.trn} "a big [place]" will also be feminine and also match the described noun by being indefinite and in the i-state.
 
-As we mentioned, description words are usually flexible nouns so it is easy to make them feminine by adding a feminine marker to them. However, there are a few flexible nouns that are used as description words for feminine described nouns without modifying them by adding a feminine marker. Also, rarely, a rigid noun might be used as a description word. In this case as well, the rigid noun may not be modified by adding a feminine marker to it. We will deal with these cases later, if Allah wills, but for now we will just note that these cases do occur.
+As we mentioned, description words are usually flexible-ending nouns so it is easy to make them feminine by adding a feminine marker to them. However, there are a few flexible-ending nouns that are used as description words for feminine described nouns without modifying them by adding a feminine marker. Also, rarely, a fixed-ending noun might be used as a description word. In this case as well, the fixed-ending noun may not be modified by adding a feminine marker to it. We will deal with these cases later, if Allah wills, but for now we will just note that these cases do occur.
 
 ## Simple sentences with feminine subjects
+
+### The information about the subject is a flexible-ending noun
 
 In the previous chapter we took a look at some simple sentences that consist of a subject and some information about the subject. So far the subjects have been masculine nouns. Here are some sentences that we used as examples:
 
 [ٱَلرَّجُلُ مُعَلِّمٌ]{.ar}  
-[Earrajulu mueallimun]{.trn}
+[Earrajulu mueallimun]{.trn}  
 "The man is a teacher."
 
 [ٱَلرَّجُلُ كَبِيرٌ]{.ar}  
-[Earrajulu kabIrun]{.trn}
+[Earrajulu kabIrun]{.trn}  
 "The man is big."
 
 [ٱَلرَّجُلُ ٱلْكَبِيرُ]{.ar}  
-[Earrajulu -lkabIru]{.trn}
+[Earrajulu -lkabIru]{.trn}  
 "The man is the big [person]."
 
 [ٱَلْكَبِيرُ سَعِيدٌ]{.ar}  
 [EalkabIru saeIdun]{.trn}  
 "The big [person] is happy."
 
-If we replace the subject [ٱَلرَّجُلُ]{.ar} [Earrajulu]{.trn} "the man" with a feminine subject
+In these sentences the information about the subject is a flexible-ending noun. If we replace the subject [ٱَلرَّجُلُ]{.ar} [Earrajulu]{.trn} "the man" with a feminine subject
 [ٱَلْمَرْأَةُ]{.ar}
 [almarEatu]{.trn}
 "the woman",
-we will also make the subject's information feminine if the information is a flexible noun.
+we will also make the subject's information feminine by adding a feminine-marker.
 
+### The information about the subject is a fixed-ending noun
 
-We can also have sentences where the information is a rigid noun:
+We can also have sentences where the information is a fixed-ending noun. In this case, if we replace the masculine subject with a feminine subject, we check if a corresponding feminine fixed-ending noun exists with the correct meaning. If it does exist we may use it to replace the fixed-ending masculine information. Otherwise we will keep the fixed-ending masculine subject.
 
-## Some notes about rigid and flexible nouns
+[ٱَلْغُلَامُ طِفْلٌ]{.ar}  
+[EalgulAmu Tiflun]{.trn}  
+"The boy is a child."
 
-Rigid nouns are often primitive, or they are words for concepts.
+[ٱَلْجَارِيَةُ طِفْلَةٌ]{.ar}  
+[EaljAriyatu Tiflatun]{.trn}  
+"The girl is a child."
 
-Flexible nouns are usually based on some characteristic of the object.
+[ٱَلْجَارِيَةُ طِفْلٌ]{.ar}  
+[EaljAriyatu Tiflun]{.trn}  
+"The girl is a child."
 
-Description words are usually from flexible nouns.
+Since [طِفْلَةٌ]{.ar} [Tiflatun]{.trn} "a female child" exists as a fixed-ending noun we were able to use it to replace [طِفْلٌ]{.ar} [Tiflun]{.trn} "a child". In the last sentence we kept [طِفْلٌ]{.ar} [Tiflun]{.trn} "a child" even with a feminine subject since it is commonly used to refer to both a male or a female child. Both sentences are correct.
+
+Here is another example:
+
+[ٱَلثَّوْرُ حَيَوَانٌ]{.ar}  
+[Ealbaqaratu HayawAnun]{.trn}  
+"The bull is an animal."
+
+[ٱَلبَقَرَةُ حَيَوَانٌ]{.ar}  
+[Ealbaqaratu HayawAnun]{.trn}  
+"The cow is an animal."
+
+Since [حَيَوَانَةٌ]{.ar} [HayawAnatun]{.trn} does not exist as a fixed-ending noun, we can not use it to replace [حَيَوَانٌ]{.ar} [HayawAn]{.trn}.
+
+We can also have a masculine subject with fixed-ending feminine information:
+
+[ٱَلْكَلَامُ نَصِيحَةٌ]{.ar}  
+[EalkalAmu naSIHatun]{.trn}
+"The speech is an advice."
+
+**Add na3t to above xabars here or in next section**
+albaqaratu hayawaanun kabeerun
+
+## Some notes about fixed-ending and flexible-ending nouns
+
+fixed-ending nouns are often primitive, or they are words for concepts.
+
+flexible-ending nouns are usually based on some characteristic of the object.
+
+Description words are usually from flexible-ending nouns.
 
 ## In a later chapter:
 
-Some flexible nouns become commonly used as words that designate specific things. 
+Some flexible-ending nouns become commonly used as words that designate specific things. 
 
 Sometimes they may be inanimate objects like, e.g. naSIHah advice, muSIbah calamity.
 
 Other times they are persons of only one gender, e.g., jAriyah girl. 
 
-These now behave like rigid nouns in that we can not add or remove the feminine marker.
+These now behave like fixed-ending nouns in that we can not add or remove the feminine marker.
 
-There are also other flexible nouns used as words that designate persons of both gender like mueallim, mueallimah.
+There are also other flexible-ending nouns used as words that designate persons of both gender like mueallim, mueallimah.
 
-Some rigid nouns can be used as description words like xAm "a raw material".
+Some fixed-ending nouns can be used as description words like xAm "a raw material".
 
