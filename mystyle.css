@@ -1,7 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Scheherazade);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(https://fonts.tptq-arabic.com/WF-000512-000102.css);
+@import url(https://fonts.googleapis.com/css?family=Markazi+Text);
 
 :lang(ar) {
-  font-family: Scheherazade, serif;
-  font-size: 2.1em;
-  line-height: 130%;
+  font-family: "Markazi Text", "Noto Sans Arabic", "Harir Regular", Scheherazade, serif;
+  /* Scheherazade */
+  /*font-size: 2.1em;
+  line-height: 130%;*/
+  /* Noto Sans Arabic */
+  /*font-size: 1.5em;
+  line-height: 115%;*/
+  /* Markazi Text */
+  font-size: 1.5em;
+  line-height: 150%;
 }
