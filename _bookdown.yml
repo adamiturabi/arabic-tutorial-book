@@ -1,3 +1,4 @@
 rmd_files: 
   html: ["index.Rmd", "intro.Rmd", "script.Rmd", "nouns.Rmd", "describing_nouns.Rmd", "simple_sentences.Rmd", "gender.Rmd"]
+  epub: ["index.Rmd", "intro.Rmd", "script.Rmd", "nouns.Rmd", "describing_nouns.Rmd", "simple_sentences.Rmd", "gender.Rmd"]
   latex: ["index.Rmd", "intro.Rmd", "script.Rmd", "nouns.Rmd", "describing_nouns.Rmd", "simple_sentences.Rmd", "gender.Rmd"]
