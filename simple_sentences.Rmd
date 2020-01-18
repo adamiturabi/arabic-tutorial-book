@@ -4,18 +4,84 @@
 
 Here is a simple sentence:
 
-The man is a teacher.
+The house is a building.
 
 This sentence consists of two parts
 
-1. The subject of the sentence: "the man"
-2. Some information about the subject: "is a teacher"
+1. The part before "is": "the house". This is who the sentence is about. We call this the _subject_ of the sentence.
+2. The part after "is": "a building". This is telling us some information about the subject. We call this the _information_.
 
-Let's see how we can say this sentence in Arabic. "The man" is [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn} and "a teacher" is [مُعَلِّمٌ]{.ar} [mueallimun]{.trn}. But Arabic has no word for "is". In order to say "the man is big" we put the subject first and put its information next to it and we get:
+Arabic has no word for "is". In order to express this sentence in Arabic we but the subject first and then the information. For these simple sentences the subject and the information will be in the u-state.
+
+"The house" is [ٱَلْبَيْتُ]{.ar} [albaytu]{.trn} and "a building" is [بِنَاءٌ]{.ar} [binAEun]{.trn}. In order to say "The house is a building" we put the subject first and put its information after it. Both the subject and the information are put in the u-state.
+
+[ٱَلْبَيْتُ بِنَاءٌ]{.ar}  
+[Ealbaytu binAEun]{.trn}  
+"The house is a building."
+
+Now let's try saying "The man is a teacher."
+
+"The man" is [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn}. For "a teacher" we have two words in Arabic: 
+
++ [مُعَلِّمٌ]{.ar} [mueallimun]{.trn} "a male teacher" 
++ [مُعَلِّمَةٌ]{.ar} [mueallimun]{.trn} "a female teacher" 
+
+Obviously "the man" can only be [مُعَلِّمٌ]{.ar} [mueallimun]{.trn} "a male teacher". So the sentence is:
 
 [ٱَلرَّجُلُ مُعَلِّمٌ]{.ar}  
 [Earrajulu mueallimun]{.trn}  
-"The man is a teacher."
+"The man is a (male) teacher."
+
+Let's try another example: "The animal is a cat."
+
+"The animal" is [حَيَوَانٌ]{.ar} [HayawAnun]{.trn}. For "a cat" we have two words:
+
++ [هِرٌّ]{.ar} [hirrun]{.trn} "a male cat"
++ [هِرَّةٌ]{.ar} [hirratun]{.trn} "a female cat"
+
+Usually, in Arabic [هِرَّةٌ]{.ar} [hirratun]{.trn} "a female cat" is used for "a cat" if the animal's gender is not specified, or not important. So putting together the sentence we get:
+
+[ٱَلْحَيَوَانُ هِرَّةٌ]{.ar}  
+[EalHayawAnu hirratun]{.trn}  
+"The animal is a cat."
+
+Note that, in this sentence, the subject [ٱَلْحَيَوَانُ]{.ar} [alHayawAnu]{.trn} "the animal" is a masculine noun. And the information 
+[هِرَّةٌ]{.ar} [hirratun]{.trn} "a cat" is a feminine noun. So the subject and the information do not match in gender. This is perfectly normal. We make the information match the subject in gender only if:
+
+1. The information designates a male or female animate being, 
+2. There are different words for the male and female animate being,
+3. Only one of the two words can be correctly applied.
+
+We have already seen an example of matching the gender of the information with the subject in the example:
+
+[ٱَلرَّجُلُ مُعَلِّمٌ]{.ar}  
+[Earrajulu mueallimun]{.trn}  
+"The man is a (male) teacher."
+
+## Definite noun for the sentence's information
+
+In all three examples above, the information was an indefinite noun: "a building", "a teacher", "a cat". We can also make the information a definite noun:
+
+[ٱَلْبَيْتُ ٱلْبِنَاءُ]{.ar}  
+[Ealbaytu -lbinAEu]{.trn}  
+"The house is the building."
+
+[ٱَلرَّجُلُ ٱلْمُعَلِّمُ]{.ar}  
+[Earrajulu -lmueallimu]{.trn}  
+"The man is the (male) teacher."
+
+[ٱَلْحَيَوَانُ ٱلْهِرَّةُ]{.ar}  
+[EalHayawAnu -lhirratu]{.trn}  
+"The animal is the cat."
+
+## Indefinite noun for the sentence's subject
+
+How about making the subject an indefinite noun? Can we say:
+
++ A house is a building.
++ A man is the teacher.
+
+It turns out that sentences where the subject is an indefinite noun are not as simple to express in Arabic. We will learn some ways of expressing them later if Allah wills.
 
 Note that both the subject 
 [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn}, and the information about the subject 
