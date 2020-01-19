@@ -1,4 +1,4 @@
 rmd_files: 
-  html: ["index.Rmd", "intro.Rmd", "script.Rmd", "nouns.Rmd", "gender.Rmd", "simple_sentences.Rmd", "describing_nouns.Rmd", "prepositions.Rmd"]
+  html: ["index.Rmd", "intro.Rmd", "script.Rmd", "nouns.Rmd", "gender.Rmd", "simple_sentences.Rmd", "describing_nouns.Rmd", "prepositions.Rmd", "ideas.Rmd"]
   epub: ["index.Rmd", "intro.Rmd", "script.Rmd", "nouns.Rmd", "describing_nouns.Rmd", "simple_sentences.Rmd", "gender.Rmd"]
   latex: ["index.Rmd", "intro.Rmd", "script.Rmd", "nouns.Rmd", "describing_nouns.Rmd", "simple_sentences.Rmd", "gender.Rmd"]
