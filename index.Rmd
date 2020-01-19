@@ -6,6 +6,31 @@ output:
     pandoc_args: ["--lua-filter=trn.lua"]
     keep_md: yes
     css: mystyle.css
+    config:
+      toc:
+        collapse: section
+        scroll_highlight: yes
+        before: null
+        after: null
+      toolbar:
+        position: fixed
+      edit : null
+      download: null
+      search: yes
+      fontsettings:
+        theme: sepia
+        family: serif
+        size: 2
+      sharing:
+        facebook: yes
+        github: no
+        twitter: yes
+        linkedin: yes
+        weibo: no
+        instapaper: no
+        vk: no
+        all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
+      info: yes
   pdf_document:
     pandoc_args: ["--lua-filter=trn.lua"]
     latex_engine: xelatex
