@@ -171,159 +171,31 @@ These sentences seem very vague because they aren't telling us much. But they ca
 
 Now let's try to have sentences where we use adjectives to describe the subject and the information. It's actually pretty straightforward. If we wish to use a descriptive noun as an adjective for either the subject or the information, we simply put the descriptive noun after the described noun and match it in state, definiteness, and gender. This is no different than what we've been doing so far. Let's see some examples:
 
-"The heavy book is difficult."
 
+[ٱَلْمَرْأَةُ أُمٌّ حَسَنَةٌ]{.ar}  
+[EalmarEatu eummun Hasanatun]{.trn}  
 "The woman is a good mother."
+
+[ٱلثَّقِيلُ ٱلْكَبِيرُ كِتَابٌ]{.ar}  
+[EavvaqIlu -lkabIru kitAbun]{.trn}  
+"The big heavy-one is a book."
 
 [ٱَلرَّجُلُ ٱلسَّعِيدُ مُعَلِّمٌ حَسَنٌ]{.ar}  
 [Earrajulu -ssaeIdu mueallimun Hasanun]{.trn}  
 "The happy man is a good teacher."
 
+[ٱَلْبَقَرَةُ ٱلْكَبِيرَةُ حَيَوَانٌ]{.ar}  
+[Ealbaqaratu -lkabIratu HayawAnun]{.trn}  
+"The big cow is an animal."
+
+[ٱَلْبَقَرَةُ حَيَوَانٌ كَبِيرٌ]{.ar}  
+[Ealbaqaratu HayawAnun kabIrun]{.trn}  
+"The cow is a big animal."
+
+This last example is interesting because we are using the masculine descriptive noun [كَبِيرٌ]{.ar} [kabIrun]{.trn} instead of the feminine [كَبِيرَةٌ]{.ar} [kabIratun]{.trn} even though the subject is the feminine noun [ٱَلْبَقَرَةُ]{.ar} [albaqaratu]{.trn} "the cow". This is because the descriptive noun is actually an adjective of the masculine described noun [حَيَوَانٌ]{.ar} [HayawAnun]{.trn} "an animal" (even though this noun is masculine it is used for both male and female animals). There is actually some flexibility here and later, if Allah wills, we will try to see how we can use feminine descriptive nouns in such situations as well.
+
+### Exercises
 
 The cat is a small animal.
-
-
-## Remove:
-
-We use adjectives to describe nouns. For example, we can say "a big man". "Big" is the adjective, and "man" is the _described noun_.
-
-In English the adjective comes before the described noun. But in Arabic, the adjective comes after the described noun. 
-
-For example, [كَبِيرٌ]{.ar} is an adjective that means "big". Here are some examples of how it is used:
-
-| Arabic     | Transcription  |English |
-|:-----------------------|:----------------------------|:-----------------|
-| [رَجُلٌ كَبِيرٌ]{.ar}        | [rajulun kabIrun]{.trn}     | a big man        |
-| [ٱَلرَّجُلُ ٱلْكَبِيرُ]{.ar}    | [arrajulu -lkabIru]{.trn}   | the big man      |
-| [فِي بَيْتٍ كَبِيرٍ]{.ar}     | [fI baytin kabIrin]{.trn}   | in a big house   |
-| [فِي ٱلْبَيْتِ ٱلْكَبِيرِ]{.ar} | [fi -lbayti -lkabIri]{.trn} | in the big house |
-
-
-Let's note a couple of things:
-
-+ In Arabic, the adjective comes after the described noun. [كَبِيرٌ]{.ar} [kabIrun]{.trn} comes after [رَجُلٌ]{.ar} [rajulun]{.trn}.
-
-+ The state of the adjective  will match the state of the described noun. "A big man" is [رَجُلٌ كَبِيرٌ]{.ar} [rajulun kabIrun]{.trn}. The described noun [رَجُلٌ]{.ar} [rajulun]{.trn} "man" is in the u-state. Therefore, the adjective [كَبِيرٌ]{.ar} [kabIrun]{.trn} "big" is also in the u-state. Similarly "in a big house" is [فِي بَيْتٍ كَبِيرٍ]{.ar} [fI baytin kabIrin]{.trn}. The described noun [بَيْتٍ]{.ar} [baytin]{.trn} "house" is in the i-state. Therefore, the adjective [كَبِير]{.ar} [kabIrin]{.trn} "big" is also in the i-state. 
-
-+ If the described noun is indefinite then the desriber will also be indefinite ([رَجُلٌ كَبِيرٌ]{.ar} [rajulun kabIrun]{.trn}, [فِي بَيْتٍ كَبِيرٍ]{.ar} [fI baytin kabIrin]{.trn}). Similarly, if the described noun is definite then the desriber will also be definite ([ٱَلرَّجُلُ ٱلْكَبِيرُ]{.ar} [arrajulu -lkabIru]{.trn}, [فِي ٱلْبَيْتِ ٱلْكَبِيرِ]{.ar} [fi -lbayti -lkabIri]{.trn}).
-
-Here are some more Arabic adjectives:
-
-Arabic word |Transcription| meaning
-:-----------|:------------|:------------
-[كَبِيرٌ]{.ar}   | [kabIrun]{.trn}  | big
-[صَغِيرٌ]{.ar}   | [SagIrun]{.trn}  | small
-[طَوِيلٌ]{.ar}   | [TawIlun]{.trn}  | long
-[قَصِيرٌ]{.ar}   | [qaSIrun]{.trn}  | short
-[ثَقِيلٌ]{.ar}   | [vaqIlun]{.trn}  | heavy
-[خَفِيفٌ]{.ar}   | [xafIfun]{.trn}  | light
-[وَاسِعٌ]{.ar}   | [wAsieun]{.trn}  | wide
-[ضَيِّقٌ]{.ar}    | [Dayyiqun]{.trn} | narrow
-[قَدِيمٌ]{.ar}   | [qadImun]{.trn}  | old
-[جَدِيدٌ]{.ar}   | [jadIdun]{.trn}  | new
-[سَرِيعٌ]{.ar}   | [sarIeun]{.trn}  | fast
-[بَطِيءٌ]{.ar}   | [baTIEun]{.trn}  | slow
-
-## Nouns with multiple adjectives
-
-## Adjectives can be used as nouns
-
-We learned in the previous chapter that nouns have a state (u-state, a-state, or i-state) and that they can have [ٱَلْ]{.ar} [al]{.trn} to make them definite or an [n]{.trn}-mark to make them indefininte. And we just saw that adjectives also have state and can have either [ٱَلْ]{.ar} [al]{.trn} or an [n]{.trn}-mark. This makes them look very similar to nouns. In fact, adjectives can be used just like regular nouns.
-
-If the word [كَبِيرٌ]{.ar} [kabIrun]{.trn} is used by itself (not following another noun as an adjective) then it is itself a noun meaning "a big one". This noun can be applied to any big thing, like a big person, or a big animal, or a big object. Similarly [ٱَلْكَبِيرُ]{.ar} [alkabIru]{.trn} means "the big one". 
-
-This might seem a little strange but this can occur in English as well, although it is not very common. 
-
-For example, the word "antique" is an adjective that can be used to describe, for example, "an antique vase" or "an antique table". But we can use "antique" by itself too without a described noun. So we can say,
-
-"I bought an antique."
-
-"An antique" here is a noun that could be any item that is old and valuable; it may be a book, or a vase, or a car, for example.
-
-But we can't do this with all adjectives in English. We can't say, for example,
-
-"I bought a big."
-
-In Arabic, on the other hand, all adjectives can be used as nouns. But when we translate them to English we will use the word "one" so that the English translation makes sense. So, as we saw [كَبِيرٌ]{.ar} [kabIrun]{.trn} as a noun means "a big one".
-
-Similarly [فِي ٱلْكَبِيرِ]{.ar} [fi -lkabIri]{.trn} means "in the big one". "The big one" could be any big thing, like a big house. We don't know what the big things is exactly just from the sentence. Just like we don't know what the "antique" actually is from the sentence "I bought an antique."
-
-When an adjective is used as a regular noun we will call it a _descriptive noun_.
-
-### Describing descriptive nouns with adjectives
-
-If an adjective is used as a descriptive noun, can we use describe that descriptive noun with another adjective?
-
-Yes we can. Even in English if we use "antique" as a noun, we can describe it with another adjective. So we can say "a heavy antique". "Heavy" is the adjective, and "antique" is the described noun.
-
-Similarly we can say
-
-[ٱَلْكَبِيرُ ٱلثَّقِيلُ]{.ar}  
-[EalkabIru -vvaqIlu]{.trn}  
-"the heavy big-one"
-
-[فِي كَبِيرٍ ثَقِيلٍ]{.ar}  
-[fI kabIrin vaqIlin]{.trn}  
-"in a heavy big-one"
-
-## Description phrases
-
-In addition to describing nouns with adjectives, we may also describe them with a phrase. For example
-
-[رَجُلٌ فِي ٱلْبَيْتِ]{.ar}  
-[rajulun fi -lbayti]{.trn}  
-"A man in the house"
-
-Here the noun "a man" is being described as being "in the house", which is a phrase. Similarly,
-
-[رَجُلٌ فِي بَيْتٍ]{.ar}  
-[rajulun fI baytin]{.trn}  
-"A man in a house"
-
-Generally, only indefinite nouns can be described with  phrases. In the next chapter we will see what happene if we replace [رَجُلٌ]{.ar} [rajulun]{.trn} in the examples above with [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn}.
-
-## Move to a later chapter:
-
-There is an exception to only indefinite nouns being described by phrases. Sometimes definite nouns may be described by phrases but only if the meaning of the noun is very general like [ٱَلْعِلْمُ]{.ar} "Knowledge".
-
-
-I bought a small.
-
-This is not a complete sentence because "small" cannot be used as a noun by itself. It can only be a description. So you have to say something like
-
-I bought a small book.
-
-In Arabic, however, all descrbing words are nouns and can be used by, either by themselves like
-
-I bought an antique
-
-or as descrbing words, like
-
-I bought an antique vase.
-
-So, for example, [كَبِير]{lang=ar dir=rtl} is a noun which mean "a big person or thing". Used by itself, it can refer to anything which fits the descrition of being big, like a big man, or a big dog, or a big book, etc.
-
-But it can also be used as a describing word. This table shows how describing words are used in Arabic.
-
-
-means "a big house".
-
-lso remember that we said that a description is also a noun and it can be used by itself as a noun.
-
-3aDheemun means someone or something great. It can be used as a description:
-
-_rajulun 3aDheemun_ 
-
-means "a great man".
-
-_3an rajulin 3aDheemin_ 
-
-means "about a great man".
-
-But we can use 3aDheem by itself too. If we say
-
-_3an 3aDheemin_
-
-by itself, it means "about someone or something great". Only context will tell us whether "a great person" is meant or "a great thing".
-
+"The heavy book is difficult."
 
