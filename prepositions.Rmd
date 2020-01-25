@@ -2,15 +2,15 @@
 
 Prepositions are words like "in", "on", "at", etc. 
 
-We saw that nouns can be definite or indefinite, they can be preceded by al or ended with an n-mark, and that they can have three states (u-state, a-state, and i-state). Prepositions do not have these properties.
+We saw that nouns can be definite or indefinite, they can be preceded by [ٱَلْ]{.ar} [al]{.trn} or ended with an [n]{.trn}-mark, and that they can have three states (u-state, a-state, and i-state). Prepositions do not have these properties.
 
-Prepositions come before a noun and put it in the i-state. For example [فِي]{.ar} [fI]{.trn} means "in". We can put it before the noun [بَيْتٌ]{.ar} [baytun]{.trn} "a house":
+Prepositions come before a noun and put it in the i-state. For example the preposition [فِي]{.ar} [fI]{.trn} means "in". We can put it before the noun [بَيْتٌ]{.ar} [baytun]{.trn} "a house":
 
 [فِي بَيْتٍ]{.ar}  
 [fI baytin]{.trn}  
 "in a house"
 
-Note house the noun [بَيْتٍ]{.ar} [baytin]{.trn} "a house" is in the i-state because of the [in]{.trn}-mark under the  [tAE]{.trn} [تٍ]{.ar}.
+Note how the noun [بَيْتٍ]{.ar} [baytin]{.trn} "a house" is in the i-state because of the [in]{.trn}-mark under the  [tAE]{.trn} [تٍ]{.ar}.
 
 Arabic has two types of prepositions: _true_ prepositions and _pseudo_-prepositions.
 
@@ -21,7 +21,7 @@ Here is a list of the more common true prepositions:
 Preposition | Transcription | Meaning
 :-------|:-------|:-------------
 [فِي]{.ar}  |[fI]{.trn}   | in
-[بِ]{.ar}   |[bi]{.trn}   | with, at
+[بِ]{.ar}   |[bi]{.trn}   | with, by
 [ل]{.ar}   |[li]{.trn}   | for
 [عَلَىٰ]{.ar} |[ealA]{.trn} | on
 [إِلَىٰ]{.ar} |[EilA]{.trn} | to
@@ -32,7 +32,7 @@ Preposition | Transcription | Meaning
 Notes:
 
 + Prepositions that are a single letter (like 
-[بِ]{.ar} [bi]{.trn}, [ل]{.ar} [li]{.trn}, [كَ]{.ar} [ka]{.trn}) are joined to the following noun. Example:
+[بِ]{.ar} [bi]{.trn}, [ل]{.ar} [li]{.trn}, [كَ]{.ar} [ka]{.trn}) are joined to the following noun in writing. Example:
   
   [بِقَلَمٍ]{.ar}  
   [biqalamin]{.trn}  
@@ -58,11 +58,13 @@ Notes:
   [li-rrajuli]{.trn}  
   "for the man"
 
-  However, the noun too starts with a [lAm]{.trn}, then we drop the entire [ٱَلْ]{.ar} [al]{.trn}. This way we don't have three [lAm]{.trn}s joined to each other. Example:
+  However, if the noun too starts with a [lAm]{.trn}, then we drop the entire [ٱَلْ]{.ar} [al]{.trn}. This way we don't have three [lAm]{.trn}s joined to each other. Example:
 
   [ٱَللُّعْبَةُ]{.ar}  
   [Ealluebatu]{.trn}  
   "the toy"
+
+  becomes
 
   [لِلُّعْبَةِ]{.ar}  
   [li-lluebati]{.trn}  
@@ -78,11 +80,7 @@ Notes:
   [EilA madrasatin]{.trn}  
   "to a school"
 
-+ If a preposition ends with a long vowel, then (just like other words that end with long vowels), when it is followed by a word which begins with a connecting [hamzah]{.trn}, the ending is pronounced a short vowel that connects to the following word.. Examples:
-
-  [إِلَى ٱلْمَدْرَسَةِ]{.ar}  
-  [Eila -lmadrasati]{.trn}  
-  "to the school"
++ If a preposition ends with a long vowel, then (just like other words that end with long vowels), when it is followed by a word which begins with a connecting [hamzah]{.trn}, the ending is pronounced as a short vowel that connects to the following word.. Examples:
 
   [فِي ٱلْبَيْتِ]{.ar}  
   [fi -lbayti]{.trn}  
@@ -116,7 +114,44 @@ Notes:
 
 ## Pseudo-prepositions
 
-Pseudo-prepositions are actually nouns, but they can behave just like true prepositions when placed before other nouns. When behaving like prepositions, pseudo-prepositions won't have n-marks.
+Pseudo-prepositions behave just like true prepositions. They are called pseudo-prepositions because they are actually nouns. When used as nouns (as we will see later if Allah wills), they may be definite or indefinite, and can have a state, like other nouns. But as prepositions they are similar in behavior to true prepositions.
+
+Here is a list of some common pseudo-prepositions:
+
+Preposition | Transcription | Meaning
+:-------|:-------|:-------------
+[عِنْدَ]{.ar} | [einda]{.trn} | at
+[مَعَ]{.ar}  | [maea]{.trn}  | together with
+[فَوْقَ]{.ar} | [fawqa]{.trn} | above
+[تَحْتَ]{.ar} | [taHta]{.trn} | below
+[قَبْلَ]{.ar} | [qabla]{.trn} | before
+[بَعْدَ]{.ar} | [baeda]{.trn} | after
+
+Here are some examples using pseudo-prepositions:
+
+## Meaning of prepositions and translating them
+
+For each preposition that we have listed above, we have also given its meaning. For example,
+
++ [فِي]{.ar}[fI]{.trn} "in"
++ [بِ]{.ar} [bi]{.trn} "with", "by"
++ [مَعَ]{.ar} [maea]{.trn}"together with"
+
+These meanings are not always fixed. And there is some degree of overlap in meanings as well. For example, in order to say "in a city" we can use either 
+[فِي]{.ar}[fI]{.trn} or
+[بِ]{.ar} [bi]{.trn}
+In some contexts one will be preferred over another.
+When we translate sentences that have prepositions from Arabic to English, we may use different pr
+
+[فِي]{.ar}  |[fI]{.trn}   | in
+[بِ]{.ar}   |[bi]{.trn}   | with, by
+[ل]{.ar}   |[li]{.trn}   | for
+[عَلَىٰ]{.ar} |[ealA]{.trn} | on
+[إِلَىٰ]{.ar} |[EilA]{.trn} | to
+[مِنْ]{.ar}  |[min]{.trn}  | from
+[عَنْ]{.ar}  |[ean]{.trn}  | from, about
+
+
 
 [هَٰذَا هَـٰذَا]{.ar}
 
