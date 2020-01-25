@@ -1,6 +1,8 @@
 # Prepositions
 
-## General
+Prepositions are words like "in", "on", "at", etc. 
+
+We saw that nouns can be definite or indefinite, they can be preceded by al or ended with an n-mark, and that they can have three states (u-state, a-state, and i-state). Prepositions do not have these properties.
 
 Prepositions come before a noun and put it in the i-state. For example [فِي]{.ar} [fI]{.trn} means "in". We can put it before the noun [بَيْتٌ]{.ar} [baytun]{.trn} "a house":
 
@@ -10,7 +12,11 @@ Prepositions come before a noun and put it in the i-state. For example [فِي]{
 
 Note house the noun [بَيْتٍ]{.ar} [baytin]{.trn} "a house" is in the i-state because of the [in]{.trn}-mark under the  [tAE]{.trn} [تٍ]{.ar}.
 
-Here is a list of the more common prepositions:
+Arabic has two types of prepositions: _true_ prepositions and _pseudo_-prepositions.
+
+## True prepositions
+
+Here is a list of the more common true prepositions:
 
 Preposition | Transcription | Meaning
 :-------|:-------|:-------------
@@ -20,8 +26,8 @@ Preposition | Transcription | Meaning
 [عَلَىٰ]{.ar} |[ealA]{.trn} | on
 [إِلَىٰ]{.ar} |[EilA]{.trn} | to
 [مِنْ]{.ar}  |[min]{.trn}  | from
-[كَ]{.ar}   |[ka]{.trn}   | like
 [عَنْ]{.ar}  |[ean]{.trn}  | from, about
+[كَ]{.ar}   |[ka]{.trn}   | like
 
 Notes:
 
@@ -62,7 +68,9 @@ Notes:
   [li-lluebati]{.trn}  
   "for the toy"
 
-+ The prepositions end with yaa instead of alif
++ The prepositions 
+[عَلَىٰ]{.ar} [ealA]{.trn} "on" and
+[إِلَىٰ]{.ar} [EilA]{.trn} "to" have a long-[A]{.trn} vowel at the end but it is written with a [yAE]{.trn} [ىٰ]{.ar} instead of an [alif]{.trn}. (We have already learned that some words are written this way.)
 
 + Prepositions that are composed of multiple letters are not joined to the following noun. Example:
 
@@ -70,16 +78,47 @@ Notes:
   [EilA madrasatin]{.trn}  
   "to a school"
 
-+ If a preposition ends with a long vowel, then the ending is prornounced as a short vowel if it is followed by a word which begins with a connecting [hamzah]{.trn}. Examples:
++ If a preposition ends with a long vowel, then (just like other words that end with long vowels), when it is followed by a word which begins with a connecting [hamzah]{.trn}, the ending is pronounced a short vowel that connects to the following word.. Examples:
 
   [إِلَى ٱلْمَدْرَسَةِ]{.ar}  
   [Eila -lmadrasati]{.trn}  
   "to the school"
 
-+ 
+  [فِي ٱلْبَيْتِ]{.ar}  
+  [fi -lbayti]{.trn}  
+  "in the house"
 
+  [إِلَى ٱمْرَأَةٍ]{.ar}  
+  [Eila -mraEatin]{.trn}  
+  "to a woman"
 
++ If a preposition ends with a round mark [◌ْ ]{.ar} and it is followed by a word that begins with a connecting [hamzah]{.trn}, then the round mark is changed to a short vowel according to the following rules:
 
+  + The ending of the preposition [عَنْ]{.ar} [ean]{.trn} gets an [i]{.trn}-mark and becomes [عَنِ]{.ar} [eani]{.trn}. Examples:
+    
+    [عَنِ ٱلرَّجُلِ]{.ar}  
+    [eani -rrajuli]{.trn}  
+    "about the man"
+
+    [عَنِ ٱمْرَأَةٍ]{.ar}  
+    [eani -mraEatin]{.trn}  
+    "about the woman"
+
+  + The ending of the preposition [مِنْ]{.ar}  [min]{.trn} gets an [a]{.trn}-mark if followed by the [ٱَلْ]{.ar} [al]{.trn} of a definite noun. Otherwise it gets an [i]{.trn}-mark if followed by any other connecting [hamzah]{.trn}. Examples:
+
+    [مِنَ ٱلرَّجُلِ]{.ar}  
+    [mina -rrajuli]{.trn}  
+    "from the man"
+
+    [مِنِ ٱمْرَأَةٍ]{.ar}  
+    [mini -mraEatin]{.trn}  
+    "from the woman"
+
+## Pseudo-prepositions
+
+Pseudo-prepositions are actually nouns, but they can behave just like true prepositions when placed before other nouns. When behaving like prepositions, pseudo-prepositions won't have n-marks.
+
+[هَٰذَا هَـٰذَا]{.ar}
 
 ### pseudo
 
