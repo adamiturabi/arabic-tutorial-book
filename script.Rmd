@@ -235,21 +235,27 @@ Examples:
 
 ### Hamza
 
-Hamza ء is not traditionally considered part of the alphabet but it is very much a letter. Its called a “glottal stop” in English. You can hear it if you say “a apple” quickly. When you stop your breath momentarily between “a” and “apple” that is the sound that hamza makes. In fact it also occurs in the beginning of “a apple” when you start to say “a”. In transcribing we will represent it with ‘. Note that this is different than out representation for ع which is `.
+The letter [hamzah]{.trn} [ء]{.ar} is not traditionally considered part of the alphabet but it is very much a letter. Its called a “glottal stop” in English. You can hear it if you say “a apple” quickly. When you stop your breath momentarily between “a” and “apple” that is the sound that hamza makes. In fact it also occurs in the beginning of “a apple” when you start to say “a”. In transcribing we will represent it with ‘. Note that this is different than out representation for ع which is `.
 
-In Arabic writing hamza can either be written "standalone" by itself [ء]{.ar} or it can be written “seated” on [alif]{.trn} [أ]{.ar} (also under [alif]{.trn} [إ]{.ar}), [wAw]{.trn} [ؤ]{.ar} or [yAE]{.trn} [ئ]{.ar}. 
+In Arabic writing hamza can either be written "standalone" by itself [ء]{.ar} or it can be written “seated” on [alif]{.trn} [أ]{.ar} (also under [alif]{.trn} [إ]{.ar}), [wAw]{.trn} [ؤ]{.ar} or [yAE]{.trn} [ئ]{.ar}. When [hamzah]{.trn} is seated the [alif]{.trn}, [wAw]{.trn}, and [yAE]{.trn} are called the seat of the hamza. 
 
-In these cases the [alif]{.trn}, [wAw]{.trn}, and [yAE]{.trn} are called the seat of the hamza. Note that when seated on [yAE]{.trn} [ئ]{.trn} the dots of the [yAE]{.trn} are no longer written. Here's how it will appear in different positions:
+Here are some of notes about writing [hamzah]{.trn} when standalone and seated:
 
-Isolated | End | Middle | Beginnning
-:--------|:----|:-------|:----------
-[ئ]{.ar}| [ـئ]{.ar}| [ـئـ]{.ar}| [ئـ]{.ar}
++ When [hamzah]{.trn} is standalone [ء]{.ar}, if it is followed by an [alif]{.trn}: [ءا]{.ar}, it is usually (but not always) written as [آ]{.ar}. Also, if standalone [hamzah]{.trn} comes between two letters that are joined, then it is written above the line that joins them, for example: [خَطِيـَٔةٌ]{.ar} [xaTIEatun]{.trn}. In this word, the [yAE]{.trn} [ي]{.ar} joins to the looped [tAE]{.trn} [ة]{.ar}. So the standalone [hamzah]{.trn} is written above the joining line like so [ــٔـ]{.ar}.
+
++ When [hamzah]{.trn} is seated on [alif]{.trn}, if it carries an [i]{.trn}-mark or [in]{.trn}-mark, it is written below the [alif]{.trn}: [إِ]{.ar}, [إٍ]{.ar}. Otherwise, it is written above the [alif]{.trn}: [أَ، أً، أُ، أٌ، أْ]{.ar}.
+
++ When [hamzah]{.trn} is seated on [yAE]{.trn} [ئ]{.trn} the dots of the [yAE]{.trn} are no longer written. Here's how it will appear in different positions:
+
+  Isolated | End | Middle | Beginnning
+  :--------|:----|:-------|:----------
+  [ئ]{.ar}| [ـئ]{.ar}| [ـئـ]{.ar}| [ئـ]{.ar}
 
 So how do we know when to write [hamzah]{.trn} standalone and when seated? And how do we choose between its three different seats? There are a set of rules that we need to follow in order to correctly write [hamza]{.trn}:
 
 1. If [hamzah]{.trn} occurs in the beginning of a word:
-   a. If the [hamzah]{.trn} carries a long-[A]{.trn} vowel, it is written standalone followed by an [alif]{.trn} [ءَا]{.ar}.
-   b. If the [hamzah]{.trn} carries any other vowel, it is written seated on an [alif]{.trn}, and is marked with the appropriated vowel mark.
+   a. If the [hamzah]{.trn} carries a long-[A]{.trn} vowel, it is written standalone followed by an [alif]{.trn} and written as [آ]{.ar}, for example [آمَنَ]{.ar} [EAmana]{.trn}.
+   b. If the [hamzah]{.trn} carries any other vowel, it is written seated on an [alif]{.trn}, and is marked with the appropriated vowel mark, for example [أَسْلَمَ أُرِيدُ إِيمَانُ أُو
 
 // maybe: If hamza follow by alif ءا comes in the beginning of a word, it is written as آ instead. 
 // In hamza spelling rules also explain a-tanween
