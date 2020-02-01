@@ -2,7 +2,7 @@
 
 ## The Arabic alphabet
 
-The Arabic alphabet traditionally has 28 letters. There is also one additional letter called [hamzah]{.trn}.
+The Arabic alphabet traditionally has 28 letters. There is also one additional letter called [hamzah]{.trn}, that was originally only sounded and not written. Together with [hamzah]{.trn} there are 29 letters.
 
 The following table shows all the letters in the Arabic alphabet.
 
@@ -237,7 +237,19 @@ Examples:
 
 Hamza ء is not traditionally considered part of the alphabet but it is very much a letter. Its called a “glottal stop” in English. You can hear it if you say “a apple” quickly. When you stop your breath momentarily between “a” and “apple” that is the sound that hamza makes. In fact it also occurs in the beginning of “a apple” when you start to say “a”. In transcribing we will represent it with ‘. Note that this is different than out representation for ع which is `.
 
-In Arabic writing hamza can either be written by itself ء or it can be written “sitting” on alif, waw or ي thus [أ]{.ar} ؤ ئ . It can also be written under an alif إ. In this case the ا و or ي are called the seat of the hamza. Note that when sitting on ي the dots of the yaa will not be written so depending on position, it can appear ئ ئـ ـئ ـئـ.
+In Arabic writing hamza can either be written "standalone" by itself [ء]{.ar} or it can be written “seated” on [alif]{.trn} [أ]{.ar} (also under [alif]{.trn} [إ]{.ar}), [wAw]{.trn} [ؤ]{.ar} or [yAE]{.trn} [ئ]{.ar}. 
+
+In these cases the [alif]{.trn}, [wAw]{.trn}, and [yAE]{.trn} are called the seat of the hamza. Note that when seated on [yAE]{.trn} [ئ]{.trn} the dots of the [yAE]{.trn} are no longer written. Here's how it will appear in different positions:
+
+Isolated | End | Middle | Beginnning
+:--------|:----|:-------|:----------
+[ئ]{.ar}| [ـئ]{.ar}| [ـئـ]{.ar}| [ئـ]{.ar}
+
+So how do we know when to write [hamzah]{.trn} standalone and when seated? And how do we choose between its three different seats? There are a set of rules that we need to follow in order to correctly write [hamza]{.trn}:
+
+1. If [hamzah]{.trn} occurs in the beginning of a word:
+   a. If the [hamzah]{.trn} carries a long-[A]{.trn} vowel, it is written standalone followed by an [alif]{.trn} [ءَا]{.ar}.
+   b. If the [hamzah]{.trn} carries any other vowel, it is written seated on an [alif]{.trn}, and is marked with the appropriated vowel mark.
 
 // maybe: If hamza follow by alif ءا comes in the beginning of a word, it is written as آ instead. 
 // In hamza spelling rules also explain a-tanween
