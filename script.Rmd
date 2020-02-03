@@ -296,9 +296,9 @@ So how do we know when to write [hamzah]{.trn} standalone and when seated? And h
      
 Some further notes:
 
-+ If [hamzah]{.trn} is in the beginning of a word, adding a prefix to the word will not affect the writing of the [hamzah]{.trn}. Examples: [لِ + أُسْتَاذِ = لِأُسْتَاذِ]{.ar}.
++ If [hamzah]{.trn} is in the beginning of a word, adding a prefix to the word will not alter the writing of the [hamzah]{.trn}. Examples: [لِ + أُسْتَاذِ = لِأُسْتَاذِ]{.ar}.
 
-+ If [hamzah]{.trn} is at the end of a word, adding a suffix to the word will generally affect the writing of the [hamzah]{.trn}, except in cases that have already been mentioned above. Examples:  
++ If [hamzah]{.trn} is at the end of a word, adding a suffix to the word can, in general, alter the writing of the [hamzah]{.trn}, except in cases that have already been mentioned above. Examples:  
   [مُبْتَدَأَ + انِ = مُبْتَدَءَانِ]{.ar}  
   [دُعَاءُ + هُ = دُعَاؤُهُ]{.ar}  
   [ضَوْءِ + هِ = ضَوْئِهِ]{.ar}  
@@ -308,7 +308,7 @@ Some further notes:
 
 ## Connecting [hamzah]{.trn}
 
-Some words in arabic begin with a sukoon. When this occurs a connecting [hamzah]{.trn} (written as a tiny صـ on an alif) is put before it. If this word comes in the beginning of the sentence the connecting alif is pronounced as a [hamzah]{.trn}. Otherwise this connecting [hamzah]{.trn} is not pronounced and the word is connected to the previous word in pronunciation.
+Some words in arabic begin with a sukoon. When this occurs a connecting [hamzah]{.trn} (written as a tiny صـ on an alif) is put before it. If this word comes in the beginning of the sentence the connecting alif is pronounced as a [hamzah]{.trn}. Example. Otherwise this connecting [hamzah]{.trn} is not pronounced and the word is connected to the final vowel of the previous word in pronunciation. Example. If the previous word does not end with a vowel, then a helper vowel is added. For n-marks, teh helper vowel is i. Example:
 
 In this tutorial we will transcribe the connecting [hamzah]{.trn} with a hyphen - when it is in the middle of a sentence.
 
@@ -353,13 +353,13 @@ We will now show three new pronunciation marks, collectively called [n]{.trn}-ma
 
 These [n]{.trn}-marks may only occur on a letter at the end of a word. They are pronounced as a short vowel ([a]{.trn}, [i]{.trn}, or [u]{.trn}) followed by an [n]{.trn}. 
 
-As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally add a silent [Ealif]{.trn} after it, for example [سَالِمًا]{.ar} [sAliman]{.trn}. This happens for all words except if the word ends with one of these three endings:
+As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally add a silent [Ealif]{.trn} after it, for example [سَالِم]{.ar} becomes [سَالِمًا]{.ar} [sAliman]{.trn}. We do this for all words except if the word ends with a looped [tAE]{.trn} [ة]{.ar}. In this case we don't write the silent [alif]{.trn}. For example, [غَاضِبَة]{.ar} becomes [غَاضِبَةً]{.ar} [gADibatan]{.trn}, not [غَاضِبَةًا]{.ar} or [غَاضِبَتًا]{.ar}.
 
-1. a looped [tAE]{.trn} [ة]{.ar}, for example [غَاضِبَةً]{.ar} [gADibatan]{.trn}, not [غَاضِبَةًا]{.ar} or [غَاضِبَتًا]{.ar}.
+If the word ends with a [hamzah]{.trn}, then:
 
-2. [Ealif]{.trn} followed by an unseated [hamzah]{.trn} [اء]{.ar}, for example [دَاءً]{.ar} [dAEan]{.trn} not [دَاءًا]{.ar}.
+1. If there is an [Ealif]{.trn} before a standalone [hamzah]{.trn} [اء]{.ar}, then here too we don't add a silent [alif]{.trn}. For example [دَاء]{.ar} becomes [دَاءً]{.ar} [dAEan]{.trn}, not [دَاءًا]{.ar}.
 
-3. A [hamzah]{.trn} seated on an [Ealif]{.trn} [أ]{.ar}, for example [مُبْتَدَأً]{.ar} [mubtadaEan]{.trn} not [مُبْتَدَأًا]{.ar}.
+2. Otherwise, we add the silent [alif]{.trn} after the [hamzah]{.trn} so that the [hamzah]{.trn} is now in the middle of the word with a suffix [alif]{.trn} after it. We now pretend that the [hamzah]{.trn} has an [a]{.trn}-mark, and go through the rules for writing [hamzah]{.trn} given above to determine how [hamzah]{.trn} will be written. We then write the [an]{.trn}-mark on the [hamzah]{.trn}. For example [مُبْتَدَأ]{.ar} becomes [مُبْتَدَءًا]{.ar}, [بُطْء]{.ar} becomes [بُطْءًا]{.ar}.
 
 Here are some examples of words with [n]{.trn}-marks:
 
@@ -369,7 +369,7 @@ Here are some examples of words with [n]{.trn}-marks:
 + [سَعَةً]{.ar}  [saeatan]{.trn}
 + [دُعَاءً]{.ar} [dueAEan]{.trn}
 + [ٱِمْرَأً]{.ar} [imraEan]{.trn}
-+ [شَيْئًا]{.ar} [cayEan]{.trn}
++ [شَيْـًٔا]{.ar} [cayEan]{.trn}
 + [سُوءًا]{.ar} [sUEan]{.trn}
 + [غَبَنٌ]{.ar} [gabanun]{.trn}
 
