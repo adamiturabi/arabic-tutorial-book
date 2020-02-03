@@ -290,9 +290,15 @@ So how do we know when to write [hamzah]{.trn} standalone and when seated? And h
            If the [hamzah]{.trn} is followed by a long-[A]{.trn} vowel represented by an [alif]{.trn}, the [hamzah]{.trn} is written standalone. Examples: [شَنَآنُ]{.ar} [canaEAnu]{.trn}.
            Otherwise the [hamzah]{.trn} will be written on an [alif]{.trn}. Examples: [سَأَلَ]{.ar} [saEala]{.trn}, [رَأَىٰ]{.ar} [raEA]{.trn}.
 
-3. If [hamzah]{.trn} is at the end of a word:
+3. If [hamzah]{.trn} is at the end of a word, disregard the vowel mark on it and consider only the letter before the [hamzah]{.trn}.
    a. If there is a long vowel ([A]{.trn}, [I]{.trn}, [U]{.trn}) or a semi-vowel ([aw]{.trn}, [ay]{.trn}) before it then the [hamzah]{.trn} will be written standalone. Examples: [دُعَاءُ]{.ar} [dueAEu]{.trn}, [سُوءُ]{.ar} [sUEu]{.trn}, [جِيءَ]{.ar} [jIEa]{.trn}, [ضَوْءَ]{.ar} [DawEa]{.trn}, [شَيْءَ]{.ar} [cayEa]{.trn}.
-        
+   b. Otherwise, if the previous letter has a null-vowel mark, the [hamzah]{.trn} will again be standalone. Examples: [بُطْءُ]{.ar} [buTEu]{.trn}, [عِبْءُ]{.ar} [eibEu]{.trn}, [شَطْءُ]{.ar} [caTEu]{.trn}
+   c. Otherwise, if the previous letter has an:
+      i. [a]{.trn}-mark, the [hamzah]{.trn} is written seated on [alif]{.trn}. Example [يَهْدَأُ]{.ar} [yahdaEu]{.trn}, [مُبْتَدَأُ]{.ar} [mubtadaEu]{.trn}.
+      ii. [i]{.trn}-mark, the [hamzah]{.trn} is written seated on [yAE]{.trn}. Example [يُهَدِّئُ]{.ar} [yuhaddiEu]{.trn}.
+      iii. [u]{.trn}-mark, the [hamzah]{.trn} is written seated on [wAw]{.trn}.
+     
+   , the [hamzah]{.trn} is written seated on [alif]{.trn} if the vowel before is [wAw]{.trn} if it has an [u]{.trn}-mark and [yAE]{.trn} if it has an [i]{.trn}-mark 
       i. If the [hamzah]{.trn} has an [a]{.trn}-mark, the [hamzah]{.trn} will be written standalone. For example, [تَسَاءَلَ]{.ar} [tasAEala]{.trn}, [خَطِيـَٔتَهُ]{.ar} [xaTIEatahu]{.trn}, [سُوءَهُ]{.ar} [sUEahu]{.trn} [تَوْءَمْ]{.ar} [tawEam]{.trn}, [هَيْـَةُ]{.ar} [hayEatu]{.trn}. If the [hamzah]{.trn} is followed by a long [A]{.trn} vowel, the standalone [hamzah]{.trn} will followed by an [alif]{.trn} [ءَا]{.ar}. This time it will not be written as [آ]{.ar}. For example, [خَطِيـَٔاتُ]{.ar} [xaTIEAtu]{.trn}, [شَيْـَٔانِ]{.ar} [cayEAni]{.trn}, [قِرَاءَاتُ]{.ar} [qirAEAtu]{.trn}, [سُوءَانِ]{.ar} [sUEAni]{.trn}.
       ii. If the [hamzah]{.trn} has an [i]{.trn}-mark, the [hamzah]{.trn} will be written seated on a [yAE]{.trn}. For example, [سَائِلُ]{.ar} [sAEilu]{.trn}, 
 
