@@ -31,7 +31,13 @@ The letters ص ض ط ظ can br approximated with mouth rounded. س د ت ذ
 
 Arabic is written right-to-left, unlike English and most other languages which are written left-to-right. When writing the letters in a word are generally joined to each other, except for six out of the 28 letters. These six letters are [ا، د، ذ، ر، ز، و]{.ar}. They join to the letter before them, like the rest of the letters, but they don't join to the letter following them.
 
-When joining the letters, each letter is modified in order to join to the preceding and following letter. Therefore, there can be up to four shapes for each letter: when the letter is:
+When joining the letters, each letter is modified in order to join to the preceding and following letter. In traditional Arabic writing, the modification to the shapes of the letters when they join to the preceding and following letters are determined by complex rules. But in this introductory text, we will present a "Simplified Arabic" script that has much simpler rules. This is because the Simplified Arabic script:
+
++ is easier for the beginner to learn,
++ is easier for the beginner to read with vowel marks,
++ fits better between lines of English text, as in this book.
+
+In this Simplified Arabic script, there can be up to four shapes for each letter: when the letter is:
 
 1. by itself (isolated).
 2. in the beginning of a word,
@@ -281,7 +287,7 @@ So how do we know when to write [hamzah]{.trn} standalone and when seated? And h
    c. If the [hamzah]{.trn} has a null-vowel mark, then it is written seated on [Ealif]{.trn} if it has an [a]{.trn}-mark, [wAw]{.trn} if it has an [u]{.trn}-mark, and [yAE]{.trn} if it has an [i]{.trn}-mark. Examples: [كَأْسُ]{.ar} [kaEsu]{.trn}, [بِئْسَ]{.ar} [biEsa]{.trn}, [سُؤْلَكَ]{.ar} [suElaka]{.trn}.
    d. Otherwise, only if the above conditions are not satisfied, then compare the vowel marks of the [hamzah]{.trn} and the letter before it:
       i. If either vowel mark is an [i]{.trn}-mark then the [hamzah]{.trn} will be written on a [yAE]{.trn}. Examples: [سُئِلَ]{.ar} [suEila]{.trn}, [يَئِسَ]{.ar} [yaEisa]{.trn}, [مُتَّكِئِينَ]{.ar} [muttakiEIna]{.trn}.
-      ii. If neither vowel mark is an [i]{.trn}-mark, and at least one of the vowel marks is a [u]{.trn}-mark, then the [hamzah]{.trn} will be written on a [wAw]{.trn}. Examples: [سُؤَالُ]{.ar} [suEAlu]{.trn}, [رُؤُوسُ]{.ar} [ruEUsu]{.trn}, [لُؤَيْمُ]{.ar} [luEaymu]{.trn}.
+      ii. If neither vowel mark is an [i]{.trn}-mark, and at least one of the vowel marks is a [u]{.trn}-mark, then the [hamzah]{.trn} will be written on a [wAw]{.trn}. Examples: [سُؤَالُ]{.ar} [suEAlu]{.trn}, [رُؤُوسُ]{.ar} [ruEUsu]{.trn}, [لُؤَيُّ]{.ar} [luEayyu]{.trn}.
       iii. Otherwise, if both of the vowel marks are [a]{.trn}-marks, then:  
            If the [hamzah]{.trn} is followed by a long-[A]{.trn} vowel represented by an [Ealif]{.trn}, the [hamzah]{.trn} is written standalone. Examples: [شَنَآنُ]{.ar} [canaEAnu]{.trn}.
            Otherwise the [hamzah]{.trn} will be written on an [Ealif]{.trn}. Examples: [سَأَلَ]{.ar} [saEala]{.trn}, [رَأَىٰ]{.ar} [raEA]{.trn}.
@@ -292,7 +298,7 @@ So how do we know when to write [hamzah]{.trn} standalone and when seated? And h
    c. Otherwise, if the previous letter has an:
       i. [a]{.trn}-mark, the [hamzah]{.trn} is written seated on [Ealif]{.trn}. Example [يَهْدَأُ]{.ar} [yahdaEu]{.trn}, [مُبْتَدَإِ]{.ar} [mubtadaEi]{.trn}.
       ii. [i]{.trn}-mark, the [hamzah]{.trn} is written seated on [yAE]{.trn}. Example [يُهَدِّئُ]{.ar} [yuhaddiEu]{.trn}.
-      iii. [u]{.trn}-mark, the [hamzah]{.trn} is written seated on [wAw]{.trn}.
+      iii. [u]{.trn}-mark, the [hamzah]{.trn} is written seated on [wAw]{.trn}. Example [بَطُؤَ]{.ar} [baTuEa]{.trn}.
      
 Some further notes:
 
@@ -379,7 +385,7 @@ Here are some examples of words with [n]{.trn}-marks:
 
 ## Pronouncing the end of a sentence
 
-When a word is at the end of a sentence and it does not end with a long vowel, then the final letter's pronunciation mark is pronounced as a null-vowel mark when vocalizing the sentence. If the final letter is a looped [tAE]{.trn} [ة]{.ar} then it is pronounced as a [ه]{.ar} [hAE]{trn} with a null-vowel mark. 
+When a word is at the end of a sentence and it does not end with a long vowel, then the final letter's pronunciation mark is pronounced as a null-vowel mark when vocalizing the sentence. If the final letter is a looped [tAE]{.trn} [ة]{.ar} then it is pronounced as a [ه]{.ar} [hAE]{.trn} with a null-vowel mark. 
 
 This change in pronunciation is only vocal, it does not affect how we write the pronunciation mark. Here we give some examples of words pronounced if they were at the end of a sentence:
 
@@ -388,7 +394,7 @@ This change in pronunciation is only vocal, it does not affect how we write the 
 + wAlidayy
 + EabI
 
-If however, the final letter's pronunciation mark is a [an]{.trn} mark then it is pronounced as a long-[A]{.trn} vowel. The only exception is if the final letter were looped [tAE]{.trn} [ةً]{.ar}, in which case it is then pronounced with a null-vowel mark. Here are examples of words with [an]{.trn} marks pronounced as if they were at the end of a sentence.
+If however, the final letter's pronunciation mark is a [an]{.trn} mark then it is pronounced as a long-[A]{.trn} vowel. The only exception is if the final letter were looped [tAE]{.trn} [ةً]{.ar}, in which case it is then pronounced as a [hAE]{.trn} with a null-vowel mark [هْ]{.ar}. Here are examples of words with [an]{.trn} marks pronounced as if they were at the end of a sentence.
 
 Note that the above exception is only for looped [tAE]{.trn}. If a [hamzah]{.trn} with an [an]{.trn} mark occurs at the end of a word, then it too will be pronounced as if it had a long-[A]{.trn} vowel after it. Such is the case, whether or not a silent [Ealif]{.trn} is written after the [hamzah]{.trn}. Examples:
 
