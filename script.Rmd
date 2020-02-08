@@ -31,20 +31,16 @@ The letters ص ض ط ظ can br approximated with mouth rounded. س د ت ذ
 
 Arabic is written right-to-left, unlike English and most other languages which are written left-to-right. When writing the letters in a word are generally joined to each other, except for six out of the 28 letters. These six letters are [ا، د، ذ، ر، ز، و]{.ar}. They join to the letter before them, like the rest of the letters, but they don't join to the letter following them.
 
-When joining the letters, each letter is modified in order to join to the preceding and following letter. In traditional Arabic writing, the modification to the shapes of the letters when they join to the preceding and following letters are determined by complex rules. But in this introductory text, we will present a "Simplified Arabic" script that has much simpler rules. This is because the Simplified Arabic script:
+When joining the letters, letters are modified in order to join to the preceding and following letter. Most letters can be in four positions:
 
-+ is easier for the beginner to learn,
-+ is easier for the beginner to read with vowel marks,
-+ fits better between lines of English text, as in this book.
+1. by itself (isolated),
+2. in the beginning of a group of connected letters,
+3. in the middle of a group of connected letters,
+4. in the end of a group of connected letters.
 
-In this Simplified Arabic script, there can be up to four shapes for each letter: when the letter is:
+As we just mentioned, six of the letters ([ا، د، ذ، ر، ز، و]{.ar}) don't join to the following letter. So these letters can only occur only in the end of a group of connected letters, or isolated by themselves.
 
-1. by itself (isolated).
-2. in the beginning of a word,
-3. in the middle of a word,
-4. in the end of a word
-
-So does that mean that we have to remember $4 \times 28 = 112$ different shapes? Not really. Remember that six of the letters don't join to the following letter. So they only have isolated and end forms. And also, each letter maintains its basic shape and is usually only slightly modified in a common technique to join to the previous and following letter. So if we remember this common technique of modifying the letter shape to join it it will be easy to join the letters.
+In this book we will show a "Simplified Arabic" writing style where, in each of the four positions, the letter maintains its basic shape and is usually only slightly modified in a common technique to join to the previous and following letter with horizontal lines. If we remember this common technique of modifying the letter shape to join it it will be easy to join the letters.
 
 To explain the common technique of modifying the letters we will take [ب]{.ar} as an example and start with the isolated form:
 
@@ -95,6 +91,20 @@ Disjoint | Joined
 [ر-ا-ز-ق]{.ar} | [رازق]{.ar}
 
 Notice that in the last example, all the letters were in the isolated form.
+
+We have just shown how letters join to each other with a horizontal line in the Simplified Arabic writing style. Traditional Arabic writing styles are a little more complex than Simplified Arabic: some letters join almost vertically instead of horizontally. But when you get familiar with the Simplified Arabic writing style, if Allah wills, it will not be too difficult for you to read the Traditional Arabic writing style as well.
+
+Here are some comparisions of letters joining to each other in the Simplified Arabic and Traditional Arabic writing styles.
+
+Disjoint | Joined (simplified) | Joined (traditional)
+:------------|:---------|:---------
+[ت-م-ر]{.ar} | [تمر]{.ar}| [تمر]{lang="ar" dir="rtl" style="font-family: Amiri;"}
+[ا-ل-ح-ج-ج]{.ar} | [الحجج]{.ar} | [الحجج]{lang="ar" dir="rtl" style="font-family: Amiri;"}
+[ا-ل-م-ا-س]{.ar} | [الماس]{.ar} | [الماس]{lang="ar" dir="rtl" style="font-family: Amiri;"}
+[ب-ح-ر]{.ar} | [بحر]{.ar} | [بحر]{lang="ar" dir="rtl" style="font-family: Amiri;"}
+[س-ح-ر]{.ar} | [سحر]{.ar} | [سحر]{lang="ar" dir="rtl" style="font-family: Amiri;"}
+
+
 
 ### Exercises
 
