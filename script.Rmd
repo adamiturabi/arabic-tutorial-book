@@ -27,18 +27,18 @@ The letters ص ض ط ظ can br approximated with mouth rounded. س د ت ذ
 
 ## Joining Arabic letters
 
-### The different forms of the letters
+### Letters in different positions
 
-Arabic is written right-to-left, unlike English and most other languages which are written left-to-right. When writing the letters in a word are generally joined to each other, except for six out of the 28 letters. These six letters are [ا، د، ذ، ر، ز، و]{.ar}. They join to the letter before them, like the rest of the letters, but they don't join to the letter following them.
+Arabic is written right-to-left, unlike English and most other languages which are written left-to-right. When writing the letters in a word are generally joined to each other, except for six out of the 28 letters. ([hamzah]{.trn} is written in a special manner so we will deal with it separately, if Allah wills.) These six letters are [ا، د، ذ، ر، ز، و]{.ar}. They join to the letter before them, like the rest of the letters, but they don't join to the letter following them.
 
 When joining the letters, letters are modified in order to join to the preceding and following letter. Most letters can be in four positions:
 
 1. by itself (isolated),
-2. in the beginning of a group of connected letters,
-3. in the middle of a group of connected letters,
-4. in the end of a group of connected letters.
+2. in the beginning of a group of joined letters,
+3. in the middle of a group of joined letters,
+4. in the end of a group of joined letters.
 
-As we just mentioned, six of the letters ([ا، د، ذ، ر، ز، و]{.ar}) don't join to the following letter. So these letters can only occur only in the end of a group of connected letters, or isolated by themselves.
+As we just mentioned, six of the letters ([ا، د، ذ، ر، ز، و]{.ar}) don't join to the following letter. So these letters can only occur only in the end of a group of joined letters, or isolated by themselves.
 
 In this book we will show a "Simplified Arabic" writing style where, in each of the four positions, the letter maintains its basic shape and is usually only slightly modified in a common technique to join to the previous and following letter with horizontal lines. If we remember this common technique of modifying the letter shape to join it it will be easy to join the letters.
 
@@ -101,6 +101,7 @@ Disjoint | Joined (simplified) | Joined (traditional)
 [ت-م-ر]{.ar} | [تمر]{.ar}| [تمر]{lang="ar" dir="rtl" style="font-family: Amiri;"}
 [ا-ل-ح-ج-ج]{.ar} | [الحجج]{.ar} | [الحجج]{lang="ar" dir="rtl" style="font-family: Amiri;"}
 [ا-ل-م-ا-س]{.ar} | [الماس]{.ar} | [الماس]{lang="ar" dir="rtl" style="font-family: Amiri;"}
+[ل-م-ح-ة]{.ar} | [لمحة]{.ar} | [لمحة]{lang="ar" dir="rtl" style="font-family: Amiri;"}
 [ب-ح-ر]{.ar} | [بحر]{.ar} | [بحر]{lang="ar" dir="rtl" style="font-family: Amiri;"}
 [س-ح-ر]{.ar} | [سحر]{.ar} | [سحر]{lang="ar" dir="rtl" style="font-family: Amiri;"}
 
@@ -299,15 +300,18 @@ So how do we know when to write [hamzah]{.trn} standalone and when seated? And h
       i. If either vowel mark is an [i]{.trn}-mark then the [hamzah]{.trn} will be written on a [yAE]{.trn}. Examples: [سُئِلَ]{.ar} [suEila]{.trn}, [يَئِسَ]{.ar} [yaEisa]{.trn}, [مُتَّكِئِينَ]{.ar} [muttakiEIna]{.trn}.
       ii. If neither vowel mark is an [i]{.trn}-mark, and at least one of the vowel marks is a [u]{.trn}-mark, then the [hamzah]{.trn} will be written on a [wAw]{.trn}. Examples: [سُؤَالُ]{.ar} [suEAlu]{.trn}, [رُؤُوسُ]{.ar} [ruEUsu]{.trn}, [لُؤَيُّ]{.ar} [luEayyu]{.trn}.
       iii. Otherwise, if both of the vowel marks are [a]{.trn}-marks, then:  
-           If the [hamzah]{.trn} is followed by a long-[A]{.trn} vowel represented by an [Ealif]{.trn}, the [hamzah]{.trn} is written standalone. Examples: [شَنَآنُ]{.ar} [canaEAnu]{.trn}.
+           If the [hamzah]{.trn} is followed by a long-[A]{.trn} vowel represented by an [Ealif]{.trn}, the [hamzah]{.trn} is written standalone. Examples: [شَنَآنُ]{.ar} [canaEAnu]{.trn}.  
            Otherwise the [hamzah]{.trn} will be written on an [Ealif]{.trn}. Examples: [سَأَلَ]{.ar} [saEala]{.trn}, [رَأَىٰ]{.ar} [raEA]{.trn}.
+
+      These set of rules apply even if the [hamzah]{.trn} or the previous letter is doubled. Examples [رَأَّسَ]{.ar} [raEEasa]{.trn} [يُرَئِّسُ]{.ar} [yuraEEisu]{.trn} [رُئِّسَ]{.ar} [ruEEisa]{.trn} [تَفَؤُّلُ]{.ar} [tafaEEulu]{.trn} [يُبَرِّئُونَ]{.ar} [yubarriEUna]{.trn} [يُبَرَّؤُونَ]{.ar} [yubarraEUna]{.trn}.
 
 3. If [hamzah]{.trn} is at the end of a word, disregard the vowel mark on it and consider only the letter before the [hamzah]{.trn}.
    a. If there is a long vowel ([A]{.trn}, [I]{.trn}, [U]{.trn}) or a semi-vowel ([aw]{.trn}, [ay]{.trn}) before it then the [hamzah]{.trn} will be written standalone. Examples: [دُعَاءُ]{.ar} [dueAEu]{.trn}, [سُوءُ]{.ar} [sUEu]{.trn}, [جِيءَ]{.ar} [jIEa]{.trn}, [ضَوْءَ]{.ar} [DawEa]{.trn}, [شَيْءَ]{.ar} [cayEa]{.trn}.
    b. Otherwise, if the previous letter has a null-vowel mark, the [hamzah]{.trn} will again be standalone. Examples: [بُطْءُ]{.ar} [buTEu]{.trn}, [عِبْءُ]{.ar} [eibEu]{.trn}, [شَطْءُ]{.ar} [caTEu]{.trn}
-   c. Otherwise, if the previous letter has an:
+   c. Otherwise, if the previous letter is a doubled [wAw]{.trn} with an [u]{.trn}-mark, the [hamzah]{.trn} will again be standalone. Example [تَبَوُّءُ]{.ar} [tabawwuEu]{.trn}.
+   d. Otherwise, if the previous letter has an:
       i. [a]{.trn}-mark, the [hamzah]{.trn} is written seated on [Ealif]{.trn}. Example [يَهْدَأُ]{.ar} [yahdaEu]{.trn}, [مُبْتَدَإِ]{.ar} [mubtadaEi]{.trn}.
-      ii. [i]{.trn}-mark, the [hamzah]{.trn} is written seated on [yAE]{.trn}. Example [يُهَدِّئُ]{.ar} [yuhaddiEu]{.trn}.
+      ii. [i]{.trn}-mark, the [hamzah]{.trn} is written seated on [yAE]{.trn}. Example [يُهَدِّئُ]{.ar} [yuhaddiEu]{.trn} [سَيِّئُ]{.ar} [sayyiEu]{.trn}.
       iii. [u]{.trn}-mark, the [hamzah]{.trn} is written seated on [wAw]{.trn}. Example [بَطُؤَ]{.ar} [baTuEa]{.trn}.
      
 Some further notes:
@@ -319,6 +323,8 @@ Some further notes:
   [دُعَاءُ + هُ = دُعَاؤُهُ]{.ar}  
   [ضَوْءِ + هِ = ضَوْئِهِ]{.ar}  
   [بُطْءُ + هُ = بُطْـُٔهُ]{.ar}
+
++ As we mentioned earlier, when standalone [hamzah]{.trn} is followed by an [Ealif]{.trn} which is not a suffix: [ءا]{.ar},  the combination of [hamzah]{.trn} and [Ealif]{.trn} is conventionally written as [آ]{.ar}. However, if the standalone hamzah is doubled and then followed by an [alif]{.trn}: [ءَّا]{.ar} then it won't be written as [آ]{.ar}. Example: [سَـَّٔالُ]{.ar} [saEEAlu]{.trn}.
 
 ### Exercises
 
