@@ -250,15 +250,20 @@ Examples:
 
 ## Rules for writing [hamzah]{.trn}
 
-In Arabic writing [hamzah]{.trn} can either be written "standalone" by itself [ء]{.ar} or it can be written “seated” on [Ealif]{.trn} [أ]{.ar} (also under [Ealif]{.trn} [إ]{.ar}), [wAw]{.trn} [ؤ]{.ar} or [yAE]{.trn} [ئ]{.ar}. When [hamzah]{.trn} is seated the [Ealif]{.trn}, [wAw]{.trn}, and [yAE]{.trn} are called the seat of the [hamzah]{.trn}. 
+[hamzah]{.trn} is written in four different ways:
 
-Here are some of notes about writing [hamzah]{.trn} when standalone and seated:
+1. Seated on an [Ealif]{.trn}: [أ]{.ar}
+2. Seated on an [wAw]{.trn}: [ؤ]{.ar}
+3. Seated on an [yAE]{.trn}: [ئ]{.ar}
+4. Unseated: [ء]{.ar}
 
-+ When [hamzah]{.trn} is standalone [ء]{.ar}, if it is followed by an [Ealif]{.trn}: [ءا]{.ar},  the combination of [hamzah]{.trn} and [Ealif]{.trn} is written as [آ]{.ar}. This is only if [hamzah]{.trn} is in the beginning or middle of a word. If the [hamzah]{.trn} was originally at the end of the word but there is a suffix attached to it that begins with [Ealif]{.trn}, then the combination is written as [ءَا]{.ar}.
+Here are some of notes about writing [hamzah]{.trn} in the above four methods:
 
-+ If standalone [hamzah]{.trn} comes between two letters that are joined, then it is written above the line that joins them, for example: [خَطِيـَٔةٌ]{.ar} [xaTIEatun]{.trn}. In this word, the [yAE]{.trn} [ي]{.ar} joins to the looped [tAE]{.trn} [ة]{.ar}. So the standalone [hamzah]{.trn} is written above the joining line like so [ــٔـ]{.ar}.
++ When unseated [hamzah]{.trn} is followed by an [Ealif]{.trn}: [ءا]{.ar},  the combination of [hamzah]{.trn} and [Ealif]{.trn} is conventionally written as [آ]{.ar} as long as the [Ealif]{.trn} is not a suffix or part of a suffix. When the [Ealif]{.trn} is a suffix or part of a suffix then we will write [ءا]{.ar}, not [آ]{.ar}.
 
-+ When [hamzah]{.trn} is seated on [Ealif]{.trn}, if it carries an [i]{.trn}-mark, it is written below the [Ealif]{.trn}: [إِ]{.ar}. Otherwise, it is written above the [Ealif]{.trn}: [أَ]{.ar}, [أُ]{.ar}, [أْ]{.ar}.
++ When unseated [hamzah]{.trn} comes between two letters that are joined, then it is written above the line that joins them, for example: [خَطِيـَٔةٌ]{.ar} [xaTIEatun]{.trn}. In this word, the [yAE]{.trn} [ي]{.ar} joins to the looped [tAE]{.trn} [ة]{.ar}. So the unseated [hamzah]{.trn} is written above the joining line like so [ــٔـ]{.ar}.
+
++ When [hamzah]{.trn} is seated on [Ealif]{.trn}, if it has an [i]{.trn}-mark, it is written below the [Ealif]{.trn}: [إِ]{.ar}. Otherwise, it is written above the [Ealif]{.trn}: [أَ]{.ar}, [أُ]{.ar}, [أْ]{.ar}.
 
 + When [hamzah]{.trn} is seated on [yAE]{.trn} [ئ]{.ar} the dots of the [yAE]{.trn} are no longer written. Here's how it will appear in different positions:
 
@@ -266,15 +271,16 @@ Here are some of notes about writing [hamzah]{.trn} when standalone and seated:
   :--------|:----|:-------|:----------
   [ئ]{.ar}| [ـئ]{.ar}| [ـئـ]{.ar}| [ئـ]{.ar}
 
-So how do we know when to write [hamzah]{.trn} standalone and when seated? And how do we choose between its three different seats? There are a set of rules that we need to follow in order to correctly write [hamzah]{.trn}. These rules are quite complicated (although they have a basic underlying strategy in them). We will give the complete set of rules here. But for now, you may limit yourself to understanding the rules for [hamzah]{.trn} in the beginning of a word. The remaining rules are here for you to refer back to as you come across words with [hamzah]{.trn}.
+
+So how do we know when to write [hamzah]{.trn} unseated and when seated? And how do we choose between its three different seats? There are a set of rules that we need to follow in order to correctly write [hamzah]{.trn}. These rules are quite complicated (although they have a basic underlying strategy in them). We will give the complete set of rules here. But for now, you may limit yourself to understanding the rules for [hamzah]{.trn} in the beginning of a word. The remaining rules are here for you to refer back to as you come across words with [hamzah]{.trn}.
 
 1. If [hamzah]{.trn} occurs in the beginning of a word:
-   a. If the [hamzah]{.trn} carries a long-[A]{.trn} vowel, it is written standalone followed by an [Ealif]{.trn} and written as [آ]{.ar}, for example [آمَنَ]{.ar} [EAmana]{.trn}.
+   a. If the [hamzah]{.trn} carries a long-[A]{.trn} vowel, it is written unseated followed by an [Ealif]{.trn} and written as [آ]{.ar}, for example [آمَنَ]{.ar} [EAmana]{.trn}.
    b. If the [hamzah]{.trn} carries any other vowel, it is written seated on an [Ealif]{.trn}, and is marked with the appropriated vowel mark, for example [أَسْلَمَ]{.ar} [Easlama]{.trn}, [أُرِيدُ]{.ar} [EurIdu]{.trn}, [إِسْلَامُ]{.ar} [EislAmu]{.trn}, [إِيمَانُ]{.ar} [EImAnu]{.trn}, [أُوخِذَ]{.ar} [EUxipa]{.trn}. 
 
 2. If [hamzah]{.trn} occurs in the middle of a word:
    a. If there is a long vowel or semi-vowel before the [hamzah]{.trn}:
-      i. If the [hamzah]{.trn} is after a long-[I]{.trn} vowel or [ay]{.trn} semi-vowel, then the hamzah will be written standalone. Examples:  
+      i. If the [hamzah]{.trn} is after a long-[I]{.trn} vowel or [ay]{.trn} semi-vowel, then the hamzah will be written unseated. Examples:  
       [هَيْـَٔةُ]{.ar} [hayEatu]{.trn}, [خَطِيـَٔةُ]{.ar} [xaTIEatu]{.trn}  
       [مُسِيـُٔونَ]{.ar} [musIEUna]{.trn}, [مُسِيـَٔانِ]{.ar} [musIEAni]{.trn}, [مُسِيـِٔينَ]{.ar} [musIEIna]{.trn}, [مُسِيـَٔيْنِ]{.ar} [musIEayni]{.trn}  
       [شَيْـُٔهُ]{.ar} [cayEuhu]{.trn}, [شَيْـَٔهُ]{.ar} [cayEahu]{.trn}, [شَيْـِٔهِ]{.ar} [cayEihi]{.trn}, [شَيْـَٔانِ]{.ar} [cayEAni]{.trn}, [شَيْـَٔيْنِ]{.ar} [cayEayni]{.trn}  
@@ -282,33 +288,33 @@ So how do we know when to write [hamzah]{.trn} standalone and when seated? And h
       ii. If the [hamzah]{.trn} is after a long-[U]{.trn} vowel or [aw]{.trn} semi-vowel, then:  
           If the [hamzah]{.trn} has an [i]{.trn}-mark it is written seated on [yAE]{.trn}. Examples:
           [سُوئِهِ]{.ar} [sUEihi]{.trn}, [ضَوْئِهِ]{.ar} [DawEihi]{.trn}  
-          Otherwise, the [hamzah]{.trn} is written standalone. Examples:
+          Otherwise, the [hamzah]{.trn} is written unseated. Examples:
           [سُوءَه]{.ar} [sUEahu]{.trn}, [سُوءَانِ]{.ar} [sUEAni]{.trn},  [تَوْءَمُ]{.ar} [tawEamu]{.trn}, [ضَوْءَهُ]{.ar} [DawEahu]{.trn},  [ضَوْءَانِ]{.ar} [DawEAni]{.trn},  [سُوءُهُ]{.ar} [sUEuhu]{.trn},  [يَسُوءُونَ]{.ar} [yasUEUna]{.trn}  
       iii. If the [hamzah]{.trn} is after a long [A]{.trn}-vowel, then:
            If the [hamzah]{.trn} has an [i]{.trn}-mark it is written seated on [yAE]{.trn}. Example:
            [سَائِلُ]{.ar} [sAEilu]{.trn}.  
            If the [hamzah]{.trn} has an [u]{.trn}-mark it is written seated on [wAw]{.trn}. Example: [تَسَاؤُلُ]{.ar} [tasAEulu]{.trn}.  
-           Otherwise, when the [hamzah]{.trn} has an [a]{.trn}-mark, it is written standalone. Example: [سَاءَلَ]{.ar} [sAEala]{.trn}, [قِرَاءَاتُ]{.ar} [qirAEAtu]{.trn}.
+           Otherwise, when the [hamzah]{.trn} has an [a]{.trn}-mark, it is written unseated. Example: [سَاءَلَ]{.ar} [sAEala]{.trn}, [قِرَاءَاتُ]{.ar} [qirAEAtu]{.trn}.
    b. If the letter before the [hamzah]{.trn} has a null-vowel mark and is not [wAw]{.trn} or [yAE]{.trn}, then:
-      i. If the [hamzah]{.trn} was originally at the end of the word, but a suffix has been attached to the word, then the [hamzah]{.trn} will be written standalone. Examples: [عِبْـَٔانِ]{.ar} [eibEAni]{.trn}, [عِبْـَٔييْنِ]{.ar} [eibEayni]{.trn}, [بُطْـَٔهُ]{.ar} [buTEahu]{.trn}, [بُطْـُٔهُ]{.ar} [buTEuhu]{.trn}, [بُطْـِٔهِ]{.ar} [buTEihi]{.trn}. ([انِ]{.ar}, [يْنِ]{.ar}, [هُ]{.ar}, and [هِ]{.ar} are suffixes).
+      i. If the [hamzah]{.trn} was originally at the end of the word, but a suffix has been attached to the word, then the [hamzah]{.trn} will be written unseated. Examples: [عِبْـَٔانِ]{.ar} [eibEAni]{.trn}, [عِبْـَٔييْنِ]{.ar} [eibEayni]{.trn}, [بُطْـَٔهُ]{.ar} [buTEahu]{.trn}, [بُطْـُٔهُ]{.ar} [buTEuhu]{.trn}, [بُطْـِٔهِ]{.ar} [buTEihi]{.trn}. ([انِ]{.ar}, [يْنِ]{.ar}, [هُ]{.ar}, and [هِ]{.ar} are suffixes).
       ii. Otherwise, if the [hamzah]{.trn} is originally at the middle of the word, then it is written seated on [wAw]{.trn} if it has an [u]{.trn}-mark and [yAE]{.trn} if it has an [i]{.trn}-mark. Examples: [مَسْؤُولُ]{.ar} [masEUlu]{.trn}, [تَرْئِيسُ]{.ar} [tarEIsu]{.trn}.  
           If the [hamzah]{.trn} has an [a]{.trn} mark then:  
-          If it is followed by a long-[A]{.trn} vowel represented by an [Ealif]{.trn}, the [hamzah]{.trn} is standalone followed by the [Ealif]{.trn} and the combination is written as [آ]{.ar}. Example: [مِرْآةُ]{.ar} [mirEAtu]{.trn}, [ظَمْآنُ]{.ar} [PamEAnu]{.trn}.  
+          If it is followed by a long-[A]{.trn} vowel represented by an [Ealif]{.trn}, the [hamzah]{.trn} is unseated followed by the [Ealif]{.trn} and the combination is written as [آ]{.ar}. Example: [مِرْآةُ]{.ar} [mirEAtu]{.trn}, [ظَمْآنُ]{.ar} [PamEAnu]{.trn}.  
           Otherwise, if there is no [Ealif]{.trn} after the [hamzah]{.trn}, the [hamzah]{.trn} is written seated on [Ealif]{.trn}. Examples: [مَسْأَلَةُ]{.ar} [masEalatu]{.trn}, , [مَرْأَةُ]{.ar} [marEatu]{.trn}.
    c. If the [hamzah]{.trn} has a null-vowel mark, then it is written seated on [Ealif]{.trn} if it has an [a]{.trn}-mark, [wAw]{.trn} if it has an [u]{.trn}-mark, and [yAE]{.trn} if it has an [i]{.trn}-mark. Examples: [كَأْسُ]{.ar} [kaEsu]{.trn}, [بِئْسَ]{.ar} [biEsa]{.trn}, [سُؤْلَكَ]{.ar} [suElaka]{.trn}.
    d. Otherwise, only if the above conditions are not satisfied, then compare the vowel marks of the [hamzah]{.trn} and the letter before it:
       i. If either vowel mark is an [i]{.trn}-mark then the [hamzah]{.trn} will be written on a [yAE]{.trn}. Examples: [سُئِلَ]{.ar} [suEila]{.trn}, [يَئِسَ]{.ar} [yaEisa]{.trn}, [مُتَّكِئِينَ]{.ar} [muttakiEIna]{.trn}.
       ii. If neither vowel mark is an [i]{.trn}-mark, and at least one of the vowel marks is a [u]{.trn}-mark, then the [hamzah]{.trn} will be written on a [wAw]{.trn}. Examples: [سُؤَالُ]{.ar} [suEAlu]{.trn}, [رُؤُوسُ]{.ar} [ruEUsu]{.trn}, [لُؤَيُّ]{.ar} [luEayyu]{.trn}.
       iii. Otherwise, if both of the vowel marks are [a]{.trn}-marks, then:  
-           If the [hamzah]{.trn} is followed by a long-[A]{.trn} vowel represented by an [Ealif]{.trn}, the [hamzah]{.trn} is written standalone. Examples: [شَنَآنُ]{.ar} [canaEAnu]{.trn}.  
+           If the [hamzah]{.trn} is followed by a long-[A]{.trn} vowel represented by an [Ealif]{.trn}, the [hamzah]{.trn} is written unseated. Examples: [شَنَآنُ]{.ar} [canaEAnu]{.trn}.  
            Otherwise the [hamzah]{.trn} will be written on an [Ealif]{.trn}. Examples: [سَأَلَ]{.ar} [saEala]{.trn}, [رَأَىٰ]{.ar} [raEA]{.trn}.
 
       These set of rules apply even if the [hamzah]{.trn} or the previous letter is doubled. Examples [رَأَّسَ]{.ar} [raEEasa]{.trn} [يُرَئِّسُ]{.ar} [yuraEEisu]{.trn} [رُئِّسَ]{.ar} [ruEEisa]{.trn} [تَفَؤُّلُ]{.ar} [tafaEEulu]{.trn} [يُبَرِّئُونَ]{.ar} [yubarriEUna]{.trn} [يُبَرَّؤُونَ]{.ar} [yubarraEUna]{.trn}.
 
 3. If [hamzah]{.trn} is at the end of a word, disregard the vowel mark on it and consider only the letter before the [hamzah]{.trn}.
-   a. If there is a long vowel ([A]{.trn}, [I]{.trn}, [U]{.trn}) or a semi-vowel ([aw]{.trn}, [ay]{.trn}) before it then the [hamzah]{.trn} will be written standalone. Examples: [دُعَاءُ]{.ar} [dueAEu]{.trn}, [سُوءُ]{.ar} [sUEu]{.trn}, [جِيءَ]{.ar} [jIEa]{.trn}, [ضَوْءَ]{.ar} [DawEa]{.trn}, [شَيْءَ]{.ar} [cayEa]{.trn}.
-   b. Otherwise, if the previous letter has a null-vowel mark, the [hamzah]{.trn} will again be standalone. Examples: [بُطْءُ]{.ar} [buTEu]{.trn}, [عِبْءُ]{.ar} [eibEu]{.trn}, [شَطْءُ]{.ar} [caTEu]{.trn}
-   c. Otherwise, if the previous letter is a doubled [wAw]{.trn} with an [u]{.trn}-mark, the [hamzah]{.trn} will again be standalone. Example [تَبَوُّءُ]{.ar} [tabawwuEu]{.trn}.
+   a. If there is a long vowel ([A]{.trn}, [I]{.trn}, [U]{.trn}) or a semi-vowel ([aw]{.trn}, [ay]{.trn}) before it then the [hamzah]{.trn} will be written unseated. Examples: [دُعَاءُ]{.ar} [dueAEu]{.trn}, [سُوءُ]{.ar} [sUEu]{.trn}, [جِيءَ]{.ar} [jIEa]{.trn}, [ضَوْءَ]{.ar} [DawEa]{.trn}, [شَيْءَ]{.ar} [cayEa]{.trn}.
+   b. Otherwise, if the previous letter has a null-vowel mark, the [hamzah]{.trn} will again be unseated. Examples: [بُطْءُ]{.ar} [buTEu]{.trn}, [عِبْءُ]{.ar} [eibEu]{.trn}, [شَطْءُ]{.ar} [caTEu]{.trn}
+   c. Otherwise, if the previous letter is a doubled [wAw]{.trn} with an [u]{.trn}-mark, the [hamzah]{.trn} will again be unseated. Example [تَبَوُّءُ]{.ar} [tabawwuEu]{.trn}.
    d. Otherwise, if the previous letter has an:
       i. [a]{.trn}-mark, the [hamzah]{.trn} is written seated on [Ealif]{.trn}. Example [يَهْدَأُ]{.ar} [yahdaEu]{.trn}, [مُبْتَدَإِ]{.ar} [mubtadaEi]{.trn}.
       ii. [i]{.trn}-mark, the [hamzah]{.trn} is written seated on [yAE]{.trn}. Example [يُهَدِّئُ]{.ar} [yuhaddiEu]{.trn}, [سَيِّئُ]{.ar} [sayyiEu]{.trn}.
@@ -324,7 +330,7 @@ Some further notes:
   [ضَوْءِ + هِ = ضَوْئِهِ]{.ar}  
   [بُطْءُ + هُ = بُطْـُٔهُ]{.ar}
 
-+ As we mentioned earlier, when standalone [hamzah]{.trn} is followed by an [Ealif]{.trn} which is not a suffix: [ءا]{.ar},  the combination of [hamzah]{.trn} and [Ealif]{.trn} is conventionally written as [آ]{.ar}. However, if the standalone hamzah is doubled and then followed by an [alif]{.trn}: [ءَّا]{.ar} then it won't be written as [آ]{.ar}. Example: [سَـَّٔالُ]{.ar} [saEEAlu]{.trn}.
++ As we mentioned earlier, when unseated [hamzah]{.trn} is followed by an [Ealif]{.trn} which is not a suffix: [ءا]{.ar},  the combination of [hamzah]{.trn} and [Ealif]{.trn} is conventionally written as [آ]{.ar}. However, if the unseated hamzah is doubled and then followed by an [alif]{.trn}: [ءَّا]{.ar} then it won't be written as [آ]{.ar}. Example: [سَـَّٔالُ]{.ar} [saEEAlu]{.trn}.
 
 ### Exercises
 
@@ -383,7 +389,7 @@ As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally ad
 
 2. If the word ends with a [hamzah]{.trn}. In this case, we might or might not write a silent [Ealif]{.trn}, depending on the following rules:
 
-   a. If there is an [Ealif]{.trn} before a standalone [hamzah]{.trn} [اء]{.ar}, then we don't add a silent [Ealif]{.trn}. For example [دَاء]{.ar} becomes [دَاءً]{.ar} [dAEan]{.trn}, not [دَاءًا]{.ar}.
+   a. If there is an [Ealif]{.trn} before a unseated [hamzah]{.trn} [اء]{.ar}, then we don't add a silent [Ealif]{.trn}. For example [دَاء]{.ar} becomes [دَاءً]{.ar} [dAEan]{.trn}, not [دَاءًا]{.ar}.
 
    b. Otherwise, we add the silent [Ealif]{.trn} after the [hamzah]{.trn} so that the [hamzah]{.trn} is now in the middle of the word with a suffix [Ealif]{.trn} after it. We now pretend that the [hamzah]{.trn} has an [a]{.trn}-mark and that the [Ealif]{.trn} after it is a long-[A]{.trn} vowel. Then we go through the rules for writing [hamzah]{.trn} in the middle of a word (given above) to determine how [hamzah]{.trn} will be written. We then write the [an]{.trn}-mark on the [hamzah]{.trn}. For example [مُبْتَدَأ]{.ar} becomes [مُبْتَدَءًا]{.ar} [mubtadaEan]{.trn}, [مُبْتَدِئ]{.ar} becomes [مُبْتَدِئًا]{.ar} [mubtadiEan]{.trn}, [بُطْء]{.ar} becomes [بُطْءًا]{.ar} [buTEan]{.trn}.
 
