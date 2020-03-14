@@ -1,5 +1,10 @@
 # Simple sentences
 
+Arabic has two kinds of sentences:
+
+1. Subject-information sentences
+2. Verbal sentences
+
 ## The subject and its information
 
 Here is a simple sentence:
@@ -172,6 +177,36 @@ Just like in English we can have sentences with verbs where the object of the ve
 [قَرَأَتِ ٱلْمَرْأَةُ.]{.ar}  
 [qaraEati -lmarEatu]{.trn}  
 "The woman read."
+
+## The verb "was"
+
+As we've already mentioned Arabic has no verb for "is". However, it does have the verb "was".
+
+| Arabic verb | Transcription | Meaning     |
+|:------------|:--------------|:------------|
+| [كَانَ]{.ar}  | [kAna]{.trn}  | [He] was    |
+| [كَانَتْ]{.ar} | [kAnat]{.trn} | [She] was   |
+
+It behaves like any other verb in that its doer is in the u-state and it's object is in the a-state.
+
+[كَانَ ٱلْبِنَاءُ مَدْرَسَةً.]{.ar}  
+[kAna -lbinAEu madrasatan]{.trn}  
+"The building was a school."
+
+[كَانَتِ ٱلْمَرْأَةُ أُمًّا.]{.ar}  
+[kAnati -lmarEatu Eumman]{.trn}
+"The woman was a mother."
+
+This verb is special and a little different from other verbs. In meaning its doer is the subject of a sentence and its object is the infomation about the subject. Unlike other verbs, the verb itself doesn't actually describe any action done by the doer.
+
+There are a few other verbs like [كَانَ]{.ar}, for example:
+
+| Arabic verb | Transcription | Meaning     |
+|:------------|:--------------|:------------|
+| [صَارَ]{.ar}  | [Sara]{.trn}  | [He] became |
+| [صَارَتْ]{.ar} | [Sarat]{.trn} | [She] became|
+
+Sentences that start with "verbs like [كَانَ]{.ar}" are both subject-information sentences and verbal sentences.
 
 ## The word "and"
 
