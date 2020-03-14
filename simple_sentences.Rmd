@@ -114,10 +114,11 @@ Here are some more examples of Arabic verbs:
 |[شَرِبَ]{.ar}     |[cariba]{.trn}   | [He] drank       |
 |[دَخَلَ]{.ar}     |[daxala]{.trn}   | [He] entered     |
 |[قَرَأَ]{.ar}     |[qaraEa]{.trn}   | [He] read        |
+|[أَخَذَ]{.ar}     |[Eaxapa]{.trn}   | [He] took        |
 
 In sentences with verbs, the doer and the object can be either definite or indefinite. Here are some examples.
 
-[فَتَحَ رَجُلٌ ٱلْبَابَ]{.ar}  
+[فَتَحَ رَجُلٌ ٱلْبَابَ.]{.ar}  
 [fataHa rajuluni -lbAba]{.trn}  
 "A man opened the door."
 
@@ -138,8 +139,9 @@ In all the examples so far the doer of the verb was maculine. If the doer of the
 |[شَرِبَتْ]{.ar}    |[caribat]{.trn}  | [She] drank      |
 |[دَخَلَتْ]{.ar}    |[daxalat]{.trn}  | [She] entered    |
 |[قَرَأَتْ]{.ar}    |[qaraEat]{.trn}  | [She] read       |
+|[أَخَذَتْ]{.ar}    |[Eaxapat]{.trn}  | [She] took       |
 
-[دَخَلَتْ جَارِيَةٌ بَيْتًا]{.ar}  
+[دَخَلَتْ جَارِيَةٌ بَيْتًا.]{.ar}  
 [daxalat jAriyataun baytan]{.trn}  
 "A girl entered a house."
 
@@ -153,9 +155,23 @@ If there is a connecting [hamzah]{.trn} after the verb then then null-vowel mark
 [Eakalati -mraEatuni -TTaeAma]{.trn}  
 "A woman ate the food."
 
-[قَرَأَتِ ٱلْمَرْأَةُ ٱلْكِتَابَ]{.ar}  
+[قَرَأَتِ ٱلْمَرْأَةُ ٱلْكِتَابَ.]{.ar}  
 [qaraEati -lmarEatu -lkitAba]{.trn}  
 "The woman read the book."
+
+Just like in English we can have sentences with verbs where the object of the verb is not mentioned:
+
+[شَرِبَ ٱلْغُلَامُ.]{.ar}  
+[cariba l-gulAmu]{.trn}  
+"The boy drank."
+
+[أَكَلَ أَسَدٌ.]{.ar}  
+[Eakala Easadun]{.trn}  
+"A lion ate."
+
+[قَرَأَتِ ٱلْمَرْأَةُ.]{.ar}  
+[qaraEati -lmarEatu]{.trn}  
+"The woman read."
 
 ## The word "and"
 
@@ -165,21 +181,23 @@ Arabic uses [وَ]{.ar} [wa]{.trn} to mean "and". It is written right next to th
 [wa madrasatun]{.trn}  
 "and a school"
 
-[وَ]{.ar} [wa]{.trn} meaning "and" does not change the state of the noun following it.
+[وَ]{.ar} [wa]{.trn} meaning "and" does not change the state of the noun following it. Examples:
 
-For example, "The building is a house" is
-
-[ٱَلْبِنَاءُ بَيْتٌ]{.ar}  
-[EalbinAEu baytun]{.trn}
-
-The information [بَيْتٌ]{.ar} [baytun]{.trn} "a house" is in the u-state. If we wish to say "The building is a house and a school.", we put [وَمَدْرَسَةٌ]{.ar} [wa madrasatun]{.trn} "and a school" after [بَيْتٌ]{.ar} [baytun]{.trn} "a house".
-[مَدْرَسَةٌ]{.ar} [madrasatun]{.trn} "a school" is also in the u-state because it is also part of the information.
-
-[ٱَلْبِنَاءُ بَيْتٌ وَمَدْرَسَةٌ]{.ar}  
-[EalbinAEu baytun wa madrasatun]{.trn}
+[ٱَلْبِنَاءُ بَيْتٌ وَمَدْرَسَةٌ.]{.ar}  
+[EalbinAEu baytun wa madrasatun]{.trn}  
 "The building is a house and a school."
 
-Here are some more examples:
+[أَخَذَ ٱلرَّجُلُ كِتَابًا وَقَلَمًا.]{.ar}  
+[Eaxapa -rrajulu kitAban waqalaman]{.trn}  
+"The man took a book and pen."
 
-The man is a human and the dog is an animal.
-The dog is an animal and the hen is a bird and an animal.
+[دَخَلَتِ ٱلْمَرْأَةُ وَٱلْجَارِيَةُ ٱلْبَيْتَ.]{.ar}  
+[daxalati -lmarEatu wa-ljAriyatu -lbayta]{.trn}  
+"The woman and the girl entered the house."
+
+We can also use [وَ]{.ar} to connect sentences:
+
+[ٱلرَّجُلُ إِنْسَانٌ وَٱلْكَلْبُ حَيَوَانٌ]{.ar}  
+[Earrujulu EinSAnun wa-lkalbu HayawAnun]{.trn}  
+"The man is a human and the dog is an animal."
+
