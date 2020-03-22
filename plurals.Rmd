@@ -52,7 +52,7 @@ Note that there are no [n]{.trn} marks for the [Un]{.trn} plural. Definite plura
 | "the male teacher"  | [ٱَلْمُعَلِّمُ]{.ar}<br>[Ealmueallimu]{.trn}| [ٱَلْمُعَلِّمَ]{.ar}<br>[Ealmueallima]{.trn} |[ٱَلْمُعَلِّمِ]{.ar}<br>[Ealmueallimi]{.trn} | 
 | "the male teachers"  | [ٱَلْمُعَلِّمُونَ]{.ar}<br>[EalmueallimUna]{.trn}| [ٱَلْمُعَلِّمِينَ]{.ar}<br>[EalmueallimIna]{.trn} | [ٱَلْمُعَلِّمِينَ]{.ar}<br>[EalmueallimIna]{.trn} |
 
-Except for a few exceptions, the [Un]{.trn} plural is only used for male human beings.
+Except for a few exceptions, the [Un]{.trn} plural is only used for male human beings. Of these exceptions, the word [سَنَةٌ]{.ar} [sanatun]{.trn} "a year" is the most commonly used. It is pluralized as [سِنُونَ]{.ar} [sinUna]{.trn} in the u-state and [سِنِينَ]{.ar} [sinIna]{.trn} in the a-state and i-state.
 
 ## The [At]{.trn} plural
 
@@ -63,25 +63,65 @@ The [At]{.trn} plural is formed by adding the ending [ـَاتٌ]{.ar} [Atun]{.t
 | "an animal"  | [حَيَوَانٌ]{.ar}<br>[HayawAnun]{.trn}| [حَيَوَانًا]{.ar}<br>[HayawAnan]{.trn} |[حَيَوَانٍ]{.ar}<br>[HayawAnin]{.trn} | 
 | "animals"  | [حَيَوَانَاتٌ]{.ar}<br>[HayawAnAtun]{.trn}| [حَيَوَانَاتٍ]{.ar}<br>[HayawAnAtin]{.trn} | [حَيَوَانَاتٍ]{.ar}<br>[HayawAnAtin]{.trn} |
 
-Note that there _are_ [n]{.trn} marks for the [Un]{.trn} plural. Definite plural nouns are also formed in the same way but they won't have [n]{.trn} marks:
+Note that there _are_ [n]{.trn} marks for the [At]{.trn} plural. Definite plural nouns are also formed in the same way but they won't have [n]{.trn} marks:
 
 | Meaning    | u-state | a-state | i-state |
 |:-----------|:-------------|:-------------|:-------------|
 | "the animal"  | [ٱَلْحَيَوَانُ]{.ar}<br>[EalHayawAnu]{.trn}| [ٱَلْحَيَوَانَ]{.ar}<br>[EalHayawAna]{.trn} |[ٱَلْحَيَوَانِ]{.ar}<br>[EalHayawAni]{.trn} | 
 | "the animals"  | [ٱَلْحَيَوَانَاتُ]{.ar}<br>[EalHayawAnAtu]{.trn}| [ٱَلْحَيَوَانَاتِ]{.ar}<br>[EalHayawAnAti]{.trn} | [ٱَلْحَيَوَانَاتِ]{.ar}<br>[EalHayawAnAti]{.trn} |
 
-If a noun ends with a looped [tAE]{.trn} [ة]{.ar}, then it is converted to a regular [tAE]{.trn} [ت]{.ar} before appending the [At]{.trn} plural ending:
+If a noun ends with a looped [tAE]{.trn} [ة]{.ar}, then it is removed before appending the [At]{.trn} plural ending:
 
 | Meaning    | u-state | a-state | i-state |
 |:-----------|:-------------|:-------------|:-------------|
 | "a female teacher"  | [مُعَلِّمَةٌ]{.ar}<br>[mueallimatun]{.trn}| [مُعَلِّمَةً]{.ar}<br>[mueallimatan]{.trn} |[مُعَلِّمَةٍ]{.ar}<br>[mueallimatin]{.trn} | 
 | "female teachers"  | [مُعَلِّمَاتٌ]{.ar}<br>[mueallimAtun]{.trn}| [مُعَلِّمَاتٍ]{.ar}<br>[mueallimAtin]{.trn} | [مُعَلِّمَاتٍ]{.ar}<br>[mueallimAtin]{.trn} |
 
-The [At]{.trn} is used, not just for female human beings, but also for many other nouns.
+FIXME: Pulmah PulumAt
+
+The [At]{.trn} is used for female human beings and also for many other nouns.
 
 Examples
 
-The male teachers are Muslims.
+The female teachers are in the school.
+
+The bakers are Muslims.
+
+## Plurals with descriptive nouns
+
+In the pluralization of descriptive nouns Arabic distinguishes between rational beings (humans, angels, and jinn) and non-rational beings (animals, inanimate objects, abstract concepts, etc.).
+
+When a descriptive noun is describing a plural noun denoting rational beings, then the descriptive noun will be pluralized. For example,
+
+[ٱَلْمُعَلِّمُونَ طَيِّبُونَ.]{.ar}  
+[EalmueallimUna TayyibUna]{.trn}  
+"The male teachers are good."
+
+[كَانَتِ ٱلْجَارِيَاتُ ٱلطَّوِيلَاتُ سَرِيعَاتٍ.]{.ar}  
+[kAnati -ljAriyAtu -TTawIlAtu sarIeAtin]{.trn}  
+"The tall girls were fast."
+
+When a descriptive noun is describing a plural noun denoting non-rational beings, then the descriptive noun will typically not be pluralized. The feminine singular descriptive noun is used instead, even if the described noun is masculine. For example,
+
+[ٱَلْحَيَوَانَاتُ ٱلْوَحْشَةُ كَبِيرَةٌ.]{.ar}  
+[EalHayawAnAtu -lwaHcatu kabIratun]{.trn}  
+"The wild animals are big."
+
+[كَانَتِ ٱلسِّنُونَ طَوِيلَةً.]{.ar}  
+[kAnati -ssinUna TawIlatan]{.trn}  
+"The years were long."
+
+Note, however, that when a descriptive noun denoting non-rational beings is used as a regular noun (i.e. the described noun is not mentioned), then it will be pluralized. But remember that the [Un]{.trn} plural is only used for male human beings. So the [At]{.trn} plural will be used, even if the descriptive noun refers to a masculine object. For example,
+
+[ٱَلْحَيَوَانَاتُ كَبِيرَةٌ وَصَغِيرَةٌ. ٱَلْكَبِيرَاتُ قَوِيَّةٌ.]{.ar}  
+[EalHayawAnatu kabIratun wa SagIratun. EalkabIrAtu qawiyyatun]{.trn}  
+"The animals are big and small. The big ones are strong."
+
+In the example above, in the first sentence the descriptive nouns [كَبِيرَةٌ]{.ar} [kabIratun]{.trn} "big" and [صَغِيرَةٌ]{.ar} [SagIratun]{.trn} "small" are in the feminine singular because they are describing the non-human plural described noun [ٱَلْحَيَوَانَاتُ]{.ar} [EalHayawAnAtu]{.trn} "the animals". 
+
+But in the second sentence, the descriptive noun 
+[ٱَلْكَبِيرَاتُ]{.ar} [EalkabIrAtu]{.trn} "the big ones"
+is used as a regular noun so it takes the [At]{.trn} plural. It is also the described noun for the descriptive noun [قَوِيَّةٌ]{.ar} [qawiyyatun]{.trn} "strong".  [قَوِيَّةٌ]{.ar} is feminine singular because it is describing the non-human plural described noun [ٱَلْكَبِيرَاتُ]{.ar} [EalkabIrAtu]{.trn} "the big ones".
 
 ## Remove 
 
