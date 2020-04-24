@@ -17,7 +17,7 @@ Descriptive nouns generally come in pairs: a masculine descriptive noun, and a f
 
 Descriptive nouns may seem a little strange because English does not commonly have such nouns. But there are a few that can help understand this concept:
 
-In the sentence "I bought an antique.", the word "antique" can be applied to anything that is old and valuable, like an antique table or an antique car. 
+In the sentence "I bought an antique.", the noun "antique" can be applied to anything that is old and valuable, like an antique table or an antique car. 
 
 Similarly, the word "dependent" can be used as a for a family member, like a spouse or a child, or for a dependent clause in a sentence, or for anything that depends on another thing.
 
@@ -50,15 +50,19 @@ Arabic word |Transcription| meaning
 
 ## Descriptive nouns in noun-phrases
 
-English uses  adjectives to describe nouns. For example, we can say "a big man". "Big" is the adjective, and "man" is the _described noun_. Together, the adjective and the described noun are called a _noun-phrase_.
+The expression "a big man" is an example of a noun-phrase. It consists of a [described-noun]{.syn} and a [describer]{.syn}. The noun "a man" is the [described-noun]{.syn} and the adjective "big" is the [describer]{.syn}.
 
-Arabic does not technically have adjectives. In Arabic we use descriptive nouns instead to give the meaning of the adjective. When a descriptive noun is used to give the meaning of an adjective as part of a noun-phrase, it is placed after the described noun and matches the described noun in state, definiteness, and gender. For example, in order to express "a big man", we put the described noun [رَجُلٌ]{.ar} [rajulun]{.trn} "a man" first, and place the descriptive noun [كَبِيرٌ]{.ar} [kabIrun]{.trn} (masc.) "a big one" after it. Then the descriptive noun "a big one" gives the meaning of the adjective "big":
+English uses adjectives as [describers]{.syn}. The [describer]{.syn} comes before the [described-noun]{.syn}.
+
+Arabic does not technically have adjectives. Instead, Arabic uses descriptive nouns as the [describer]{.syn} in a noun-phrase to give the meaning of the adjective. The [describer]{.syn} comes after the [described-noun]{.syn}, and matches the [described-noun]{.syn} in state, definiteness, and gender.
+
+For example, in order to express "a big man", we put the [described-noun]{.syn} [رَجُلٌ]{.ar} [rajulun]{.trn} "a man" first, and place the descriptive noun [كَبِيرٌ]{.ar} [kabIrun]{.trn} (masc.) "a big one" after it as the [describer]{.syn}. Then the descriptive noun [كَبِيرٌ]{.ar} [kabIrun]{.trn} gives the meaning of the adjective "big":
 
 [رَجُلٌ كَبِيرٌ]{.ar}  
 [rajulun kabIrun]{.trn}  
 "a big man"
 
-Here the described noun [رَجُلٌ]{.ar} [rajulun]{.trn} "a man" is masculine, indefinite, and in the u-state. Therefore, the descriptive noun [كَبِيرٌ]{.ar} [kabIrun]{.trn} "big" is also is also masculine, indefinite, and in the u-state. 
+Here the [described-noun]{.syn} [رَجُلٌ]{.ar} [rajulun]{.trn} "a man" is masculine, indefinite, and in the u-state. Therefore, the [describer]{.syn} [كَبِيرٌ]{.ar} [kabIrun]{.trn} "big" is also is also masculine, indefinite, and in the u-state. 
 
 Similarly, for "the big tree" we say:
 
@@ -66,7 +70,7 @@ Similarly, for "the big tree" we say:
 [accajaratu -lkabIratu]{.trn}  
 "the big tree"
 
-Here too the descriptive noun [ٱلْكَبِيرَةُ]{.ar} [alkabIratu]{.trn} "big" matches the described noun [ٱَلشَّجَرَةُ]{.ar} [accajaratu]{.trn} "the tree" in being feminine, definite, and in the u-state.
+Here too the [describer]{.syn} [ٱلْكَبِيرَةُ]{.ar} [alkabIratu]{.trn} "big" matches the [described-noun]{.syn} [ٱَلشَّجَرَةُ]{.ar} [accajaratu]{.trn} "the tree" in being feminine, definite, and in the u-state.
 
 Noun-phrases with descriptive nouns can be used in sentences. Here too, they give the meaning of adjectives. Examples:
 
@@ -78,11 +82,52 @@ Noun-phrases with descriptive nouns can be used in sentences. Here too, they giv
 [Eakala -lEasadu -lkabIru -lbaqarata -lkabIrata]{.trn}  
 "The big lion ate the big cow."
 
-See how in this last example, the described noun [ٱلْبَقَرَةَ]{.ar} [albaqarata]{.trn} is the object of a verb and is therefore in the a-state. Therefore the descriptive noun [ٱلْكَبِيرَةَ]{.ar} [alkabIrata]{.trn} "big" is also in the a-state.
+See how in this last example, the [described-noun]{.syn} [ٱلْبَقَرَةَ]{.ar} [albaqarata]{.trn} is the object of a verb and is therefore in the a-state. Therefore the [describer]{.syn} [ٱلْكَبِيرَةَ]{.ar} [alkabIrata]{.trn} "big" is also in the a-state.
 
-### Examples
+## Descriptive nouns as the [information]{.syn}
 
-### Exercises
+We have just studied [رَجُلٌ كَبِيرٌ]{.ar} [rajulun kabIrun]{.trn} "a big man" as an example of a noun-phrase. Now let's take a look at the sentence
+
+"The man is big."
+
+This is a [subject-information]{.syn} sentence. The noun "the man" is the [subject]{.syn} and the adjective "big" is the [information]{.syn}.
+
+In order to express this sentence in Arabic, we again remember that Arabic does not have adjectives and uses descriptive nouns instead. In such a sentence where the [information]{.syn} is an adjective, Arabic uses the _indefinite_ descriptive noun to give the meaning of the adjective. For example,
+
+[ٱَلرَّجُلُ كَبِيرٌ]{.ar}  
+[Earrujulu kabIrun]{.trn}  
+"The man is big."
+
+By the way, we can use a definite descriptive noun [ٱَلْكَبِيرُ]{.ar} [EalkabIru]{.trn} as the [information]{.syn} too. But here it won't give the meaning of the adjective "big". Instead it will be translated as "the big one":
+
+[ٱَلشَّجَرَةُ ٱلْكَبِيرَةُ]{.ar}  
+[Eaccajaratu -lkabIratu]{.trn}  
+"The tree is the big one."
+
+But wait! Didn't we see earlier in this chapter that 
+[ٱَلشَّجَرَةُ ٱلْكَبِيرَةُ]{.ar}
+[Eaccajaratu -lkabIratu]{.trn}
+means "the big tree"?
+
+It turns out that when a definite descriptive noun is used after another definite noun, and they are both in the u-state, then two meanings are possible:
+
+1. A noun-phrase with a [described-noun]{.syn} and a [describer]{.syn}: "the big tree".
+2. A complete sentence with a [subject]{.syn} and an [information]{.syn}: "The tree is the big one."
+
+Usually we are able to tell from context which of the two meanings is intended. 
+
+So if we get two meanings from a definite descriptive noun following another definite noun, do we also 
+get two meanings from an _indefinite_ descriptive noun following another indefinite noun? For example:
+
+[رَجُلٌ كَبِيرٌ]{.ar}
+[rajulun kabIrun]{.trn}
+
+Can this mean both:
+
++ "a big man"
++ "A man is big"
+
+The answer is "no". This is because, as we've already mentioned, [subject-information]{.syn} sentences can generally only start with a definite noun. So if there is an indefinite noun in the beginning it can only mean the phrase, like "a big man" in this example in this example.
 
 ## Descriptive nouns in sentences
 
