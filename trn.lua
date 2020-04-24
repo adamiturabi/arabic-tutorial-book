@@ -40,6 +40,9 @@ function Span (elem)
   elseif elem.classes[1] == 'ar' then
     attrs = pandoc.Attr("", {}, {{"lang", "ar"},{"dir","rtl"}})
     return pandoc.Span(elem.content, attrs)
+  elseif elem.classes[1] == 'syn' then
+    attrs = pandoc.Attr("", {}, {{"style", "font-variant:small-caps;"}})
+    return pandoc.Span(elem.content, attrs)
   else
     return elem
   end
