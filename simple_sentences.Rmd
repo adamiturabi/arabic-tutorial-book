@@ -106,9 +106,9 @@ As an example, [كَتَبَ]{.ar} [kataba]{.trn} "[he] wrote" is an Arabic verb
 [kataba -rrajulu kitAban]{.trn}  
 "The man wrote a book."
 
-Let's analyze this sentence. The verb comes in the beginning of the sentence. It is followed by the doer of the verb "the man" in the u-state. Finally, we see the object of the verb "a book" in the a-state.
+Let's analyze this sentence. The verb comes in the beginning of the sentence. It is followed by the [doer]{.syn} of the verb "the man" in the u-state. Finally, we see the [object]{.syn} of the verb "a book" in the a-state.
 
-This is the normal order of verbs in Arabic: the verb comes first, followed by the doer, followed by the object. The doer will be in the u-state and the object will be in the a-state.
+This is the normal order of verbs in Arabic: the verb comes first, followed by the [doer]{.syn}, followed by the [object]{.syn}. The [doer]{.syn} will be in the u-state and the [object]{.syn} will be in the a-state.
 
 Here are some more examples of Arabic verbs:
 
@@ -121,7 +121,7 @@ Here are some more examples of Arabic verbs:
 |[قَرَأَ]{.ar}     |[qaraEa]{.trn}   | [He] read        |
 |[أَخَذَ]{.ar}     |[Eaxapa]{.trn}   | [He] took        |
 
-In sentences with verbs, the doer and the object can be either definite or indefinite. Here are some examples.
+In sentences with verbs, the [doer]{.syn} and the [object]{.syn} can be either definite or indefinite. Here are some examples.
 
 [فَتَحَ رَجُلٌ ٱلْبَابَ.]{.ar}  
 [fataHa rajuluni -lbAba]{.trn}  
@@ -135,7 +135,7 @@ In sentences with verbs, the doer and the object can be either definite or indef
 [Eakala Easadun baqaratan]{.trn}  
 "A lion ate a cow."
 
-In all the examples so far the doer of the verb was maculine. If the doer of the verb is masculine then we modify the verb by adding [تْ]{.ar} after it:
+In all the examples so far the [doer]{.syn} of the verb was maculine. If the [doer]{.syn} of the verb is feminine then we modify the verb by adding [تْ]{.ar} after it:
 
 | Arabic verb   | Transcription   | Meaning          |
 |:--------------|:----------------|:-----------------|
@@ -164,7 +164,7 @@ If there is a connecting [hamzah]{.trn} after the verb then then null-vowel mark
 [qaraEati -lmarEatu -lkitAba]{.trn}  
 "The woman read the book."
 
-Just like in English we can have sentences with verbs where the object of the verb is not mentioned:
+Just like in English we can have sentences with verbs where the [object]{.syn} of the verb is not mentioned:
 
 [شَرِبَ ٱلْغُلَامُ.]{.ar}  
 [cariba l-gulAmu]{.trn}  
@@ -178,35 +178,35 @@ Just like in English we can have sentences with verbs where the object of the ve
 [qaraEati -lmarEatu]{.trn}  
 "The woman read."
 
-## The verb "was"
+## [subject-information]{.syn} verbs
 
-As we've already mentioned Arabic has no verb for "is". However, it does have the verb "was".
+As we've already mentioned Arabic does not normally express the word "is". However, it does express the verb "was".
 
 | Arabic verb | Transcription | Meaning     |
 |:------------|:--------------|:------------|
 | [كَانَ]{.ar}  | [kAna]{.trn}  | [He] was    |
 | [كَانَتْ]{.ar} | [kAnat]{.trn} | [She] was   |
 
-It behaves like any other verb in that its doer is in the u-state and it's object is in the a-state.
+[كَانَ]{.ar} [kAna]{.trn} behaves like any other verb in that its [doer]{.syn} is in the u-state and its [object]{.syn} is in the a-state. Examples:
 
 [كَانَ ٱلْبِنَاءُ مَدْرَسَةً.]{.ar}  
 [kAna -lbinAEu madrasatan]{.trn}  
 "The building was a school."
 
 [كَانَتِ ٱلْمَرْأَةُ أُمًّا.]{.ar}  
-[kAnati -lmarEatu Eumman]{.trn}
+[kAnati -lmarEatu Eumman]{.trn}  
 "The woman was a mother."
 
-This verb is special and a little different from other verbs. In meaning its doer is the [subject]{.syn} of a sentence and its object is the infomation about the [subject]{.syn}. Unlike other verbs, the verb itself doesn't actually describe any action done by the doer.
+However, this verb is special and a little different from other verbs. The [doer]{.syn} is not really doing any action. In fact, in meaning it is the [subject]{.syn} of a sentence and the [object]{.syn} of the verb is the [information]{.syn} about the [subject]{.syn}.
+
+[كَانَ]{.ar} [kAna]{.trn} is an example of "[subject-information]{.syn} verbs".  Sentences that start with [subject-information]{.syn} verbs are both [subject]{.syn}-[information]{.syn} sentences and verbal sentences.
 
 There are a few other verbs like [كَانَ]{.ar}, for example:
 
 | Arabic verb | Transcription | Meaning     |
 |:------------|:--------------|:------------|
-| [صَارَ]{.ar}  | [Sara]{.trn}  | [He] became |
-| [صَارَتْ]{.ar} | [Sarat]{.trn} | [She] became|
-
-Sentences that start with "verbs like [كَانَ]{.ar}" are both [subject]{.syn}-[information]{.syn} sentences and verbal sentences.
+| [صَارَ]{.ar}  | [SAra]{.trn}  | [He] became |
+| [صَارَتْ]{.ar} | [SArat]{.trn} | [She] became|
 
 ## The word "and"
 
