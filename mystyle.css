@@ -1,4 +1,13 @@
-
+@font-face {
+    font-family: Vazir;
+    src: url('./fonts/Vazir-Regular.eot');
+    src: url('./fonts/Vazir-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Vazir-Regular.woff2') format('woff2'),
+         url('./fonts/Vazir-Regular.woff') format('woff'),
+         url('./fonts/Vazir-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
     font-family: AmiriWeb;
     font-style: normal;
@@ -13,7 +22,13 @@
   -webkit-font-feature-settings:"calt", "liga", "clig", "kern";
   font-feature-settings:"calt", "liga", "clig", "kern";
   text-rendering: optimizeLegibility;
-  font-family: AmiriWeb, serif;
-  font-size: 1.5em;
+  font-family: Vazir, serif;
+  /* Amiri */
+  /*
+  font-size: *1.5em;
   line-height: 200%;
+  */
+  /* Vazir */
+  font-size: 1.0em; /*1.5em;*/
+  line-height: 100%;
 }
