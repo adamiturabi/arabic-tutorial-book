@@ -96,6 +96,8 @@ We have just shown how letters join to each other with a horizontal line in the 
 
 Here are some comparisions of letters joining to each other in the Simplified Arabic and Traditional Arabic writing styles.
 
+```{r, eval=knitr::is_html_output(), echo=FALSE}
+  knitr::asis_output('
 Disjoint | Joined (simplified) | Joined (traditional)
 :------------|:---------|:---------
 [ت-م-ر]{.ar} | [تمر]{.ar}| [تمر]{lang="ar" dir="rtl" style="font-family: Amiri;"}
@@ -104,6 +106,31 @@ Disjoint | Joined (simplified) | Joined (traditional)
 [ل-م-ح-ة]{.ar} | [لمحة]{.ar} | [لمحة]{lang="ar" dir="rtl" style="font-family: Amiri;"}
 [ب-ح-ر]{.ar} | [بحر]{.ar} | [بحر]{lang="ar" dir="rtl" style="font-family: Amiri;"}
 [س-ح-ر]{.ar} | [سحر]{.ar} | [سحر]{lang="ar" dir="rtl" style="font-family: Amiri;"}
+')
+```
+
+```{=latex}
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+Disjoint & Joined (simplified) & Joined (traditional)\tabularnewline
+\midrule
+\endhead
+\RL{\textarabic{ت-م-ر}} & \RL{\textarabic{تمر}} &
+\RL{\tradarab{تمر}}\tabularnewline
+\RL{\textarabic{ا-ل-ح-ج-ج}} & \RL{\textarabic{الحجج}} &
+\RL{\tradarab{الحجج}}\tabularnewline
+\RL{\textarabic{ا-ل-م-ا-س}} & \RL{\textarabic{الماس}} &
+\RL{\tradarab{الماس}}\tabularnewline
+\RL{\textarabic{ل-م-ح-ة}} & \RL{\textarabic{لمحة}} &
+\RL{\tradarab{لمحة}}\tabularnewline
+\RL{\textarabic{ب-ح-ر}} & \RL{\textarabic{بحر}} &
+\RL{\tradarab{بحر}}\tabularnewline
+\RL{\textarabic{س-ح-ر}} & \RL{\textarabic{سحر}} &
+\RL{\tradarab{سحر}}\tabularnewline
+\bottomrule
+\end{longtable}
+```
+
 
 
 
