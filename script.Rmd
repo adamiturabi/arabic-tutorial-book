@@ -55,13 +55,11 @@ Now, with the tongue, teeth, and lips in the same position, try to pronounce "z"
 
 The letters [س]{.ar} [sIn]{.trn}, [د]{.ar} [dAl]{.trn}, [ت]{.ar} [tAE]{.trn}, and [ذ]{.ar} [pAl]{.trn} are pronounced with the mouth and lips in a wide grin. Now try pronouncing them, in turn, with the lips round forming a small circle. The sounds will be emphatic and will be [ص]{.ar} [SAd]{.trn}, [ض]{.ar} [DAd]{.trn}, [ط]{.ar} [TAE]{.trn}, and [ظ]{.ar} [PAE]{.trn} respectively.
 
-## Joining Arabic letters
+## Writing Arabic words
 
 ### Letters in different positions
 
 Arabic is written right-to-left, unlike English and most other languages which are written left-to-right. When writing, the letters in a word are generally joined to each other, except for six out of the 28 letters, which join only to the letter preceding them but not to the letter following them. These six partially-joining letters are [ا، د، ذ، ر، ز، و]{.ar}. 
-
-[hamzao]{.trn} is written in a special manner so we will deal with it separately, if Allah wills.
 
 When joining the letters, letters are modified in order to join to the preceding and following letter. The fully-joining letters can be in four positions:
 
@@ -185,6 +183,27 @@ Disjoint & Joined (simplified) & Joined (traditional)\tabularnewline
 \bottomrule
 \end{longtable}
 ```
+
+### Looped [tAE]{.trn}
+
+Looped [tAE]{.trn} [ة]{.ar} is a special letter which is merged from two letters of the alphabet. It is a [tAE]{.trn} [ت]{.ar} but it is written a [ه]{.ar} [hAE]{.trn} with two dots above it. We will transcribe it as [o]{.trn}. Looped [tAE]{.trn} [ة]{.ar} is pronounced exactly as a [ت]{.ar} [tAE]{.trn} except if it is at the end of a sentence in which case it is pronounced as a [ه]{.ar} [hAE]{.trn} as we'll explain later, if Allah wills. Looped [tAE]{.trn} occurs only at the end of a word so it has only an end form and an isolated form (used when the letter before it is a partially-joining letter). 
+
+Examples:
+
++ [فاطمة]{.ar}
++ [شجرة]{.ar}
++ [فتاة]{.ar}
+
+### Writing [hamzao]{.trn}
+
+We have mentioned that [hamzao]{.trn} was a later addition to the Arabic alphabet and originally it was only sounded and not written. [#hamzao]{.trn} can be written in a number of different ways:
+
+1. Above or below a vowel letter. [#hamzao]{.trn} can be written above the vowel letters thus: [أ ؤ ئ]{.ar}. Sometimes, it may also be written under an [Ealif]{.trn} thus: [إ]{.ar}. Examples: [أفعال]{.ar}, [سؤلك]{.ar}, [فئة]{.ar}, [إن]{.ar}.
+2. After a letter. This has two sub cases:
+   a. Standalone after a partially-joining letter or at the end of a word. Examples: [تساءل]{.ar}, [توءم]{.ar}, [عبء]{.ar}.
+   a. Inline in the middle of a word after a fully-joining letter. In this case [hamzao]{.trn} is written above the horizontal line that connects the letters. Examples: [خطيـٔة]{.ar}, [شيـٔا]{.ar}, [بريـٔين]{.ar}.
+
+In all cases it is pronounced the same. There are actually a set of fairly complicated rules that determine which of the above ways to choose when writing [hamzao]{.trn}. We present these rules in Appendix \@ref(hamzarules). We recommend that for now, you memorize the spelling of each word that we present that contains a [hamzao]{.trn}. When you are sufficiently advanced, and curious enough, you may refer to Appendix \@ref(hamzarules) to learn the full set of rules.
 
 ## Letters that look similar
 
@@ -314,99 +333,6 @@ A word may contain "doubled" letters. This is when the same letter occurs, one a
 + [سَفُّودُ]{.ar} [saffUdu]{.trn}
 + [ضَالِّينَ]{.ar} [DAllIna]{.trn}
 + [مُزَّمِّلُ]{.ar} [muzzammilu]{.trn}
-
-## Looped [tAE]{.trn}
-
-Looped [tAE]{.trn} [ة]{.ar} is a special letter which is merged from two letters of the alphabet. It is a [tAE]{.trn} [ت]{.ar} but it is written a [ه]{.ar} [hAE]{.trn} with two dots above it. Looped [tAE]{.trn} [ة]{.ar} is pronounced exactly as a [ت]{.ar} [tAE]{.trn} except if it is at the end of a sentence in which case it is pronounced as a [ه]{.ar} [hAE]{.trn} as we'll explain later, if Allah wills. Looped [tAE]{.trn} occurs only at the end of a word so it has only an end form and an isolated form (used when the letter before it is a partially-joining letter). 
-
-Examples:
-
-
-## Rules for writing [hamzao]{.trn}
-
-[hamzao]{.trn} is written in four different ways:
-
-1. Seated on an [Ealif]{.trn}: [أ]{.ar}
-2. Seated on an [wAw]{.trn}: [ؤ]{.ar}
-3. Seated on an [yAE]{.trn}: [ئ]{.ar}
-4. Unseated: [ء]{.ar}
-
-Here are some of notes about writing [hamzao]{.trn} in the above four methods:
-
-+ When unseated [hamzao]{.trn} is followed by an [Ealif]{.trn}: [ءا]{.ar},  the combination of [hamzao]{.trn} and [Ealif]{.trn} is conventionally written as [آ]{.ar} as long as the [Ealif]{.trn} is not a suffix or part of a suffix. When the [Ealif]{.trn} is a suffix or part of a suffix then we will write [ءا]{.ar}, not [آ]{.ar}.
-
-+ When unseated [hamzao]{.trn} comes between two letters that are joined, then it is written above the line that joins them, for example: [خَطِيـَٔةٌ]{.ar} [xaTIEatun]{.trn}. In this word, the [yAE]{.trn} [ي]{.ar} joins to the looped [tAE]{.trn} [ة]{.ar}. So the unseated [hamzao]{.trn} is written above the joining line like so [ــٔـ]{.ar}.
-
-+ When [hamzao]{.trn} is seated on [Ealif]{.trn}, if it has an [i]{.trn}-mark, it is written below the [Ealif]{.trn}: [إِ]{.ar}. Otherwise, it is written above the [Ealif]{.trn}: [أَ]{.ar}, [أُ]{.ar}, [أْ]{.ar}.
-
-+ When [hamzao]{.trn} is seated on [yAE]{.trn} [ئ]{.ar} the dots of the [yAE]{.trn} are no longer written. Here's how it will appear in different positions:
-
-  Isolated | End | Middle | Beginnning
-  :--------|:----|:-------|:----------
-  [ئ]{.ar}| [ـئ]{.ar}| [ـئـ]{.ar}| [ئـ]{.ar}
-
-
-So how do we know when to write [hamzao]{.trn} unseated and when seated? And how do we choose between its three different seats? There are a set of rules that we need to follow in order to correctly write [hamzao]{.trn}. These rules are quite complicated (although they have a basic underlying strategy in them). We will give the complete set of rules here. But for now, you may limit yourself to understanding the rules for [hamzao]{.trn} in the beginning of a word. The remaining rules are here for you to refer back to as you come across words with [hamzao]{.trn}.
-
-1. If [hamzao]{.trn} occurs in the beginning of a word:
-   a. If the [hamzao]{.trn} carries a long-[A]{.trn} vowel, it is written unseated followed by an [Ealif]{.trn} and written as [آ]{.ar}, for example [آمَنَ]{.ar} [EAmana]{.trn}.
-   b. If the [hamzao]{.trn} carries any other vowel, it is written seated on an [Ealif]{.trn}, and is marked with the appropriated vowel mark, for example [أَسْلَمَ]{.ar} [Easlama]{.trn}, [أُرِيدُ]{.ar} [EurIdu]{.trn}, [إِسْلَامُ]{.ar} [EislAmu]{.trn}, [إِيمَانُ]{.ar} [EImAnu]{.trn}, [أُوخِذَ]{.ar} [EUxipa]{.trn}. 
-
-2. If [hamzao]{.trn} occurs in the middle of a word:
-   a. If there is a long vowel or semi-vowel before the [hamzao]{.trn}:
-      i. If the [hamzao]{.trn} is after a long-[I]{.trn} vowel or [ay]{.trn} semi-vowel, then the hamzao will be written unseated. Examples:  
-      [هَيْـَٔةُ]{.ar} [hayEatu]{.trn}, [خَطِيـَٔةُ]{.ar} [xaTIEatu]{.trn}  
-      [مُسِيـُٔونَ]{.ar} [musIEUna]{.trn}, [مُسِيـَٔانِ]{.ar} [musIEAni]{.trn}, [مُسِيـِٔينَ]{.ar} [musIEIna]{.trn}, [مُسِيـَٔيْنِ]{.ar} [musIEayni]{.trn}  
-      [شَيْـُٔهُ]{.ar} [cayEuhu]{.trn}, [شَيْـَٔهُ]{.ar} [cayEahu]{.trn}, [شَيْـِٔهِ]{.ar} [cayEihi]{.trn}, [شَيْـَٔانِ]{.ar} [cayEAni]{.trn}, [شَيْـَٔيْنِ]{.ar} [cayEayni]{.trn}  
-      [مَجِيـُٔهُ]{.ar} [majIEuhu]{.trn}, [مَجِيـَٔهُ]{.ar} [majIEahu]{.trn}, [مَجِيـِٔهِ]{.ar} [majIEihi]{.trn}  
-      ii. If the [hamzao]{.trn} is after a long-[U]{.trn} vowel or [aw]{.trn} semi-vowel, then:  
-          If the [hamzao]{.trn} has an [i]{.trn}-mark it is written seated on [yAE]{.trn}. Examples:
-          [سُوئِهِ]{.ar} [sUEihi]{.trn}, [ضَوْئِهِ]{.ar} [DawEihi]{.trn}  
-          Otherwise, the [hamzao]{.trn} is written unseated. Examples:
-          [سُوءَه]{.ar} [sUEahu]{.trn}, [سُوءَانِ]{.ar} [sUEAni]{.trn},  [تَوْءَمُ]{.ar} [tawEamu]{.trn}, [ضَوْءَهُ]{.ar} [DawEahu]{.trn},  [ضَوْءَانِ]{.ar} [DawEAni]{.trn},  [سُوءُهُ]{.ar} [sUEuhu]{.trn},  [يَسُوءُونَ]{.ar} [yasUEUna]{.trn}  
-      iii. If the [hamzao]{.trn} is after a long [A]{.trn}-vowel, then:
-           If the [hamzao]{.trn} has an [i]{.trn}-mark it is written seated on [yAE]{.trn}. Example:
-           [سَائِلُ]{.ar} [sAEilu]{.trn}.  
-           If the [hamzao]{.trn} has an [u]{.trn}-mark it is written seated on [wAw]{.trn}. Example: [تَسَاؤُلُ]{.ar} [tasAEulu]{.trn}.  
-           Otherwise, when the [hamzao]{.trn} has an [a]{.trn}-mark, it is written unseated. Example: [سَاءَلَ]{.ar} [sAEala]{.trn}, [قِرَاءَاتُ]{.ar} [qirAEAtu]{.trn}.
-   b. If the letter before the [hamzao]{.trn} has a null-vowel mark and is not [wAw]{.trn} or [yAE]{.trn}, then:
-      i. If the [hamzao]{.trn} was originally at the end of the word, but a suffix has been attached to the word, then the [hamzao]{.trn} will be written unseated. Examples: [عِبْـَٔانِ]{.ar} [eibEAni]{.trn}, [عِبْـَٔييْنِ]{.ar} [eibEayni]{.trn}, [بُطْـَٔهُ]{.ar} [buTEahu]{.trn}, [بُطْـُٔهُ]{.ar} [buTEuhu]{.trn}, [بُطْـِٔهِ]{.ar} [buTEihi]{.trn}. ([انِ]{.ar}, [يْنِ]{.ar}, [هُ]{.ar}, and [هِ]{.ar} are suffixes).
-      ii. Otherwise, if the [hamzao]{.trn} is originally at the middle of the word, then it is written seated on [wAw]{.trn} if it has an [u]{.trn}-mark and [yAE]{.trn} if it has an [i]{.trn}-mark. Examples: [مَسْؤُولُ]{.ar} [masEUlu]{.trn}, [تَرْئِيسُ]{.ar} [tarEIsu]{.trn}.  
-          If the [hamzao]{.trn} has an [a]{.trn} mark then:  
-          If it is followed by a long-[A]{.trn} vowel represented by an [Ealif]{.trn}, the [hamzao]{.trn} is unseated followed by the [Ealif]{.trn} and the combination is written as [آ]{.ar}. Example: [مِرْآةُ]{.ar} [mirEAtu]{.trn}, [ظَمْآنُ]{.ar} [PamEAnu]{.trn}.  
-          Otherwise, if there is no [Ealif]{.trn} after the [hamzao]{.trn}, the [hamzao]{.trn} is written seated on [Ealif]{.trn}. Examples: [مَسْأَلَةُ]{.ar} [masEalatu]{.trn}, , [مَرْأَةُ]{.ar} [marEatu]{.trn}.
-   c. If the [hamzao]{.trn} has a null-vowel mark, then it is written seated on [Ealif]{.trn} if it has an [a]{.trn}-mark, [wAw]{.trn} if it has an [u]{.trn}-mark, and [yAE]{.trn} if it has an [i]{.trn}-mark. Examples: [كَأْسُ]{.ar} [kaEsu]{.trn}, [بِئْسَ]{.ar} [biEsa]{.trn}, [سُؤْلَكَ]{.ar} [suElaka]{.trn}.
-   d. Otherwise, only if the above conditions are not satisfied, then compare the vowel marks of the [hamzao]{.trn} and the letter before it:
-      i. If either vowel mark is an [i]{.trn}-mark then the [hamzao]{.trn} will be written on a [yAE]{.trn}. Examples: [سُئِلَ]{.ar} [suEila]{.trn}, [يَئِسَ]{.ar} [yaEisa]{.trn}, [مُتَّكِئِينَ]{.ar} [muttakiEIna]{.trn}.
-      ii. If neither vowel mark is an [i]{.trn}-mark, and at least one of the vowel marks is a [u]{.trn}-mark, then the [hamzao]{.trn} will be written on a [wAw]{.trn}. Examples: [سُؤَالُ]{.ar} [suEAlu]{.trn}, [رُؤُوسُ]{.ar} [ruEUsu]{.trn}, [لُؤَيُّ]{.ar} [luEayyu]{.trn}.
-      iii. Otherwise, if both of the vowel marks are [a]{.trn}-marks, then:  
-           If the [hamzao]{.trn} is followed by a long-[A]{.trn} vowel represented by an [Ealif]{.trn}, the [hamzao]{.trn} is written unseated. Examples: [شَنَآنُ]{.ar} [canaEAnu]{.trn}.  
-           Otherwise the [hamzao]{.trn} will be written on an [Ealif]{.trn}. Examples: [سَأَلَ]{.ar} [saEala]{.trn}, [رَأَىٰ]{.ar} [raEA]{.trn}.
-
-      These set of rules apply even if the [hamzao]{.trn} or the previous letter is doubled. Examples [رَأَّسَ]{.ar} [raEEasa]{.trn} [يُرَئِّسُ]{.ar} [yuraEEisu]{.trn} [رُئِّسَ]{.ar} [ruEEisa]{.trn} [تَفَؤُّلُ]{.ar} [tafaEEulu]{.trn} [يُبَرِّئُونَ]{.ar} [yubarriEUna]{.trn} [يُبَرَّؤُونَ]{.ar} [yubarraEUna]{.trn}.
-
-3. If [hamzao]{.trn} is at the end of a word, disregard the vowel mark on it and consider only the letter before the [hamzao]{.trn}.
-   a. If there is a long vowel ([A]{.trn}, [I]{.trn}, [U]{.trn}) or a semi-vowel ([aw]{.trn}, [ay]{.trn}) before it then the [hamzao]{.trn} will be written unseated. Examples: [دُعَاءُ]{.ar} [dueAEu]{.trn}, [سُوءُ]{.ar} [sUEu]{.trn}, [جِيءَ]{.ar} [jIEa]{.trn}, [ضَوْءَ]{.ar} [DawEa]{.trn}, [شَيْءَ]{.ar} [cayEa]{.trn}.
-   b. Otherwise, if the previous letter has a null-vowel mark, the [hamzao]{.trn} will again be unseated. Examples: [بُطْءُ]{.ar} [buTEu]{.trn}, [عِبْءُ]{.ar} [eibEu]{.trn}, [شَطْءُ]{.ar} [caTEu]{.trn}
-   c. Otherwise, if the previous letter is a doubled [wAw]{.trn} with an [u]{.trn}-mark, the [hamzao]{.trn} will again be unseated. Example [تَبَوُّءُ]{.ar} [tabawwuEu]{.trn}.
-   d. Otherwise, if the previous letter has an:
-      i. [a]{.trn}-mark, the [hamzao]{.trn} is written seated on [Ealif]{.trn}. Example [يَهْدَأُ]{.ar} [yahdaEu]{.trn}, [مُبْتَدَإِ]{.ar} [mubtadaEi]{.trn}.
-      ii. [i]{.trn}-mark, the [hamzao]{.trn} is written seated on [yAE]{.trn}. Example [يُهَدِّئُ]{.ar} [yuhaddiEu]{.trn}, [سَيِّئُ]{.ar} [sayyiEu]{.trn}.
-      iii. [u]{.trn}-mark, the [hamzao]{.trn} is written seated on [wAw]{.trn}. Example [بَطُؤَ]{.ar} [baTuEa]{.trn}.
-     
-Some further notes:
-
-+ If [hamzao]{.trn} is in the beginning of a word, adding a prefix to the word will not alter the writing of the [hamzao]{.trn}. Examples: [لِ + أُسْتَاذِ = لِأُسْتَاذِ]{.ar}.
-
-+ If [hamzao]{.trn} is at the end of a word, adding a suffix to the word can, in general, alter the writing of the [hamzao]{.trn}, except in cases that have already been mentioned above. Examples:  
-  [مُبْتَدَأَ + انِ = مُبْتَدَءَانِ]{.ar}  
-  [دُعَاءُ + هُ = دُعَاؤُهُ]{.ar}  
-  [ضَوْءِ + هِ = ضَوْئِهِ]{.ar}  
-  [بُطْءُ + هُ = بُطْـُٔهُ]{.ar}
-
-+ As we mentioned earlier, when unseated [hamzao]{.trn} is followed by an [Ealif]{.trn} which is not a suffix: [ءا]{.ar},  the combination of [hamzao]{.trn} and [Ealif]{.trn} is conventionally written as [آ]{.ar}. However, if the unseated hamzao is doubled and then followed by an [alif]{.trn}: [ءَّا]{.ar} then it won't be written as [آ]{.ar}. Example: [سَـَّٔالُ]{.ar} [saEEAlu]{.trn}.
-
-### Exercises
 
 ## Connecting [hamzao]{.trn}
 
