@@ -6,6 +6,7 @@ output:
     pandoc_args: ["--lua-filter=trn.lua"]
     keep_md: yes
     css: mystyle.css
+    number_sections: true
     config:
       toc:
         collapse: section
@@ -32,6 +33,7 @@ output:
         all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
       info: yes
   pdf_document:
+    number_sections: true
     pandoc_args: ["--lua-filter=trn.lua"]
     latex_engine: xelatex
     keep_tex: true
