@@ -7,40 +7,39 @@ An online book that aims to teach Arabic.
 (For Ubuntu and derivatives)
 
 1. Tex
-```
-sudo apt install texlive-base
-sudo apt install texlive-xetex
-sudo apt install texlive-lang-arabic
-
-```
-
+   ```
+   sudo apt install texlive-base
+   sudo apt install texlive-xetex
+   sudo apt install texlive-lang-arabic
+   
+   ```
 2. Fonts
    + Brill: https://brill.com/page/290?language=en
    + Amiri: https://github.com/alif-type/amiri/releases/latest
    + Microsoft Core Fonts:
-```
-sudo add-apt-repository multiverse
-sudo apt update && sudo apt install ttf-mscorefonts-installer
-sudo fc-cache -f -v
-```
+   ```
+   sudo add-apt-repository multiverse
+   sudo apt update && sudo apt install ttf-mscorefonts-installer
+   sudo fc-cache -f -v
+   ```
    + Vazir (optional): https://github.com/rastikerdar/vazir-font/releases/latest
 
 3. R
-```
-sudo apt install R
-```
+   ```
+   sudo apt install R
+   ```
 
 4. Rmarkdown and Bookdown
    1. Open R in a terminal
-```
-R
-```
+      ```
+      R
+      ```
    2. In R:
-```
-install.packages("rmarkdown")
-install.packages("bookdown")
-q()
-```
+      ```
+      install.packages("rmarkdown")
+      install.packages("bookdown")
+      q()
+      ```
 
 # Building the book from source files
 
