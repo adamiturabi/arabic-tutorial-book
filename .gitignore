@@ -1,4 +1,5 @@
 *.tex
+!bidi_art_templ.tex
 *.pdf
 *.aux
 *.out
