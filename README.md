@@ -16,6 +16,7 @@ An online book that aims to teach Arabic.
 2. Fonts
    + Brill: https://brill.com/page/290?language=en
    + Amiri: https://github.com/alif-type/amiri/releases/latest
+   + Scheherazade New: https://software.sil.org/scheherazade/download/
    + Microsoft Core Fonts:
    ```
    sudo add-apt-repository multiverse
