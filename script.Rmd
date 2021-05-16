@@ -205,7 +205,7 @@ We have mentioned that [hamzao]{.trn} was a later addition to the Arabic alphabe
 
 In all cases it is pronounced the same. There are actually a set of fairly complicated rules that determine which of the above ways to choose when writing [hamzao]{.trn}. We present these rules in Appendix \@ref(hamzarules). We recommend that for now, you memorize the spelling of each word that we present that contains a [hamzao]{.trn}. When you are sufficiently advanced, and curious enough, you may refer to Appendix \@ref(hamzarules) to learn the full set of rules.
 
-## Letters that look similar
+### Disambiguating letters that look similar
 
 Some letters are very similar to each other and only differ in their dots or other slight differences. You should take care to distinguish between these letters. We will describe their similarities and differences here.
 
@@ -243,12 +243,22 @@ Isolated | Middle
 [غ]{.ar}| [ـغـ]{.ar}
 [ف]{.ar}| [ـفـ]{.ar}
 
-The letters [Ealif]{.trn} [ا]{.ar} and [lAm]{.trn} [ل]{.ar} can be confused for each other. Their forms are shown here again for easy comparison:
+The letters [Ealif]{.trn} [ا]{.ar} and [lAm]{.trn} [ل]{.ar} could also be confused for each other. Their forms are shown here again for easy comparison:
 
 Isolated | End | Middle | Beginnning
 :--------|:----|:-------|:----------
 [ا]{.ar}| [ـا]{.ar}| none | none
 [ل]{.ar}| [ـل]{.ar}| [ـلـ]{.ar}| [لـ]{.ar}
+
+### Joining [lAm]{.trn} and [Ealif]{.trn}
+
+When the letter [Ealif]{.trn} follows [lAm]{.trn} we would expect them to be joined like this [ل+ا]{.ar} &rarr; [لـا]{.ar}. But actually, they are joined in a special way 
+
+[ل+ا]{.ar} &rarr; [لا]{.ar}
+
+When the combination occurs at the end of a group of joined letters, it will appear thus: 
+
+[ـلا]{.ar}
 
 ## Vowels and pronunciation marks.
 
@@ -334,6 +344,40 @@ A word may contain "doubled" letters. This is when the same letter occurs, one a
 + [ضَالِّينَ]{.ar} [DAllIna]{.trn}
 + [مُزَّمِّلُ]{.ar} [muzzammilu]{.trn}
 
+### [n]{.trn}-marks
+
+Arabic also has three distinctive pronunciation marks, collectively called [n]{.trn}-marks.
+
+1. [an]{.trn}-mark [◌ً]{.ar}
+1. [in]{.trn}-mark [◌ٍ]{.ar}
+1. [un]{.trn}-mark [◌ٌ]{.ar}
+
+These [n]{.trn}-marks may only occur on a letter at the end of a word. They are pronounced as a short vowel ([a]{.trn}, [i]{.trn}, or [u]{.trn}) followed by an [n]{.trn}. For example, [سَالِمٌ]{.ar} [sAlimun]{.trn}, [سَالِمٍ]{.ar} [sAlimin]{.trn}.
+
+As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally add a silent [Ealif]{.trn} after it, for example [سَالِم]{.ar} becomes [سَالِمًا]{.ar} [sAliman]{.trn}. This is done for all words except:
+
+1. If the word ends with a looped [tAE]{.trn} [ة]{.ar}. In this case we don't add the silent [Ealif]{.trn}. For example, [غَاضِبَة]{.ar} becomes [غَاضِبَةً]{.ar} [gADibatan]{.trn}, not [غَاضِبَةًا]{.ar} or [غَاضِبَتًا]{.ar}.
+
+2. If the word ends with a [yAE]{.trn} that represents a long-[A]{.trn} vowel. In this case, the [an]{.trn} mark is put on the letter before the [yAE]{.trn} and the final [yAE]{.trn} becomes silent and is not pronounced. For example, [مُصْطَفَىٰ]{.ar} becomes [مُصْطَفًى]{.ar} [muSTafan]{.trn}.
+
+2. If the word ends with a [hamzao]{.trn}. In this case, we might or might not write a silent [Ealif]{.trn}, depending on the following rules:
+
+   a. If there is an [Ealif]{.trn} before a unseated [hamzao]{.trn} [اء]{.ar}, then we don't add a silent [Ealif]{.trn}. For example [دَاء]{.ar} becomes [دَاءً]{.ar} [dAEan]{.trn}, not [دَاءًا]{.ar}.
+
+   b. Otherwise, we add a silent [Ealif]{.trn} after the [hamzao]{.trn}. However, this may affect the writing of the [hamzao]{.trn} and this is discussed further in Appendix \@ref(hamzarules).
+
+Here are some examples of words with [n]{.trn}-marks:
+
++ [سَعْدٌ]{.ar}  [saedun]{.trn}
++ [ضَرْبًا]{.ar} [Darban]{.trn}
++ [قَاضٍ]{.ar}  [qADin]{.trn}
++ [سَعَةً]{.ar}  [saeatan]{.trn}
++ [دُعَاءً]{.ar} [dueAEan]{.trn}
++ [ٱِمْرَءًا]{.ar} [imraEan]{.trn}
++ [شَيْـًٔا]{.ar} [cayEan]{.trn}
++ [سُوءًا]{.ar} [sUEan]{.trn}
++ [غَبَنٌ]{.ar} [gabanun]{.trn}
+
 ## Connecting [hamzao]{.trn}
 
 Some words in arabic begin with a sukoon. When this occurs a connecting [hamzao]{.trn} (written as a tiny صـ on an alif) is put before it. If this word comes in the beginning of the sentence the connecting alif is pronounced as a [hamzao]{.trn}. Example. Otherwise this connecting [hamzao]{.trn} is not pronounced and the word is connected to the final vowel of the previous word in pronunciation. Example. If the previous word does not end with a vowel, then a helper vowel is added. For n-marks, teh helper vowel is i. Example:
@@ -354,56 +398,6 @@ Dhoo sa3atin BUT Dhu -lqarnayni NOT dhoo -lqarnayni NOR dhoo ‘alqarnayni
 Sometimes a connecting [hamzao]{.trn} can occurs after an n-mark. In these cases will will pronounce the n-mark and follow it with a short-i:
 
 Zaydani -lkabeeru NOT zaydan ‘alkabeera
-
-## Joining [lAm]{.trn} and [Ealif]{.trn}
-
-When the letter [Ealif]{.trn} follows [lAm]{.trn} we would expect them to be joined like this [ل+ا]{.ar} &rarr; [لـا]{.ar}. But actually, they are joined in a special way 
-
-[ل+ا]{.ar} &rarr; [لا]{.ar}
-
-If we add [hamzao]{.trn} to the [Ealif]{.trn} or add another [lAm]{.trn}, here is how they will be written and pronounced in words:
-
-Disjoint | Joined | Transcription
-:--------|:-------|:-------------
-[لَ + ا]{.ar}| [لَا]{.ar}| [lA]{.trn}
-[ٱَ + لْ + إِ + يمَانُ]{.ar}| [ٱَلْإِيمَانُ]{.ar}| [alEImAnu]{.trn}
-[ٱَ + لْ + آ + فَةُ]{.ar}| [ٱَلْآفَةُ]{.ar}| [alEAfatu]{.trn}
-[أَ + لَّ + ا]{.ar}| [أَلَّا]{.ar}| [EallA]{.trn}
-[لِ + لِ + ٱ + نْتِقَالِ]{.ar}| [لِلِٱنْتِقَالِ]{.ar}| [li li-ntiqAli]{.trn}
-
-## [n]{.trn}-marks
-
-We will now show three new pronunciation marks, collectively called [n]{.trn}-marks.
-
-1. [an]{.trn}-mark [ ً]{.ar}
-1. [in]{.trn}-mark [ ٍ]{.ar}
-1. [un]{.trn}-mark [ ٌ]{.ar}
-
-These [n]{.trn}-marks may only occur on a letter at the end of a word. They are pronounced as a short vowel ([a]{.trn}, [i]{.trn}, or [u]{.trn}) followed by an [n]{.trn}. For example, [سَالِمٌ]{.ar} [sAlimun]{.trn}, [سَالِمٍ]{.ar} [sAlimin]{.trn}.
-
-As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally add a silent [Ealif]{.trn} after it, for example [سَالِم]{.ar} becomes [سَالِمًا]{.ar} [sAliman]{.trn}. This is done for all words except:
-
-1. If the word ends with a looped [tAE]{.trn} [ة]{.ar}. In this case we don't add the silent [Ealif]{.trn}. For example, [غَاضِبَة]{.ar} becomes [غَاضِبَةً]{.ar} [gADibatan]{.trn}, not [غَاضِبَةًا]{.ar} or [غَاضِبَتًا]{.ar}.
-
-2. If the word ends with a [yAE]{.trn} that represents a long-[A]{.trn} vowel. In this case, the [an]{.trn} mark is put on the letter before the [yAE]{.trn} and the final [yAE]{.trn} becomes silent and is not pronounced. For example, [مُصْطَفَىٰ]{.ar} becomes [مُصْطَفًى]{.ar} [muSTafan]{.trn}.
-
-2. If the word ends with a [hamzao]{.trn}. In this case, we might or might not write a silent [Ealif]{.trn}, depending on the following rules:
-
-   a. If there is an [Ealif]{.trn} before a unseated [hamzao]{.trn} [اء]{.ar}, then we don't add a silent [Ealif]{.trn}. For example [دَاء]{.ar} becomes [دَاءً]{.ar} [dAEan]{.trn}, not [دَاءًا]{.ar}.
-
-   b. Otherwise, we add the silent [Ealif]{.trn} after the [hamzao]{.trn} so that the [hamzao]{.trn} is now in the middle of the word with a suffix [Ealif]{.trn} after it. We now pretend that the [hamzao]{.trn} has an [a]{.trn}-mark and that the [Ealif]{.trn} after it is a long-[A]{.trn} vowel. Then we go through the rules for writing [hamzao]{.trn} in the middle of a word (given above) to determine how [hamzao]{.trn} will be written. We then write the [an]{.trn}-mark on the [hamzao]{.trn}. For example [مُبْتَدَأ]{.ar} becomes [مُبْتَدَءًا]{.ar} [mubtadaEan]{.trn}, [مُبْتَدِئ]{.ar} becomes [مُبْتَدِئًا]{.ar} [mubtadiEan]{.trn}, [بُطْء]{.ar} becomes [بُطْـًٔا]{.ar} [buTEan]{.trn}.
-
-Here are some examples of words with [n]{.trn}-marks:
-
-+ [سَعْدٌ]{.ar}  [saedun]{.trn}
-+ [ضَرْبًا]{.ar} [Darban]{.trn}
-+ [قَاضٍ]{.ar}  [qADin]{.trn}
-+ [سَعَةً]{.ar}  [saeatan]{.trn}
-+ [دُعَاءً]{.ar} [dueAEan]{.trn}
-+ [ٱِمْرَءًا]{.ar} [imraEan]{.trn}
-+ [شَيْـًٔا]{.ar} [cayEan]{.trn}
-+ [سُوءًا]{.ar} [sUEan]{.trn}
-+ [غَبَنٌ]{.ar} [gabanun]{.trn}
 
 ## Pronouncing the end of a sentence
 
@@ -438,11 +432,12 @@ will be transcribed as:
 but should be pronounced as  
 [pahaba Eila -lbayt]{.trn}
 
-## Quranic script
+## [#qurEan]{.trn2}ic script
 
-In printed Qurans, which are called [muSHaf]{.trn}s, some words will be written a little differently than how they are written in non-Quranic Arabic. The reasons for this are beyond the scope of this tutorial. But here we’ll just give a few examples and note that these differences are only found in [muSHaf]{.trn}s. For standard written Arabic, the writing explained in this chapter is used instead.
+In printed [#qurEan]{.trn2}s, which are called [muSHaf]{.trn}s, some words will be written a little differently than how they are written in non-[#qurEan]{.trn2}ic Arabic. The reasons for this are beyond the scope of this tutorial. But here we’ll just give a few examples and note that these differences are only found in [muSHaf]{.trn}s. For standard written Arabic, the writing explained in this chapter is used instead.
 
-mAlik
-samAwAt
-al-SalAh
+Standard Arabic | [#qurEan]{.trn2}ic Arabic
+:---------|:---------
+[ٱلصَّلَاة]{.ar}| [ٱلصَّلَوٰة]{.ar}
+[سَمَاوَات]{.ar}| [سَمَـٰوَ ٰت]{.ar}
 
