@@ -32,7 +32,7 @@ output:
         vk: no
         all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
       info: yes
-  pdf_document:
+  bookdown::pdf_book:
     number_sections: true
     pandoc_args: ["--lua-filter=trn.lua"]
     latex_engine: xelatex
