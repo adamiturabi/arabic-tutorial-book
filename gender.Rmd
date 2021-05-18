@@ -1,4 +1,6 @@
-# Gender
+# Gender of nouns
+
+## Introduction
 
 All nouns in Arabic are either masculine or feminine in gender. Sometimes the nouns designate animate beings like "a man", "a woman", "a dog", "a cow", "a teacher", etc.
 
@@ -6,14 +8,20 @@ Other nouns designate inanimate objects like "a book", "a house", "a hand", "a t
 
 ## Nouns that designate animate beings.
 
-In Arabic sometimes for nouns that designate animate beings, the masculine and feminine nouns look similar. Here are some examples:
+In terms of their form, nouns that designate animate beings are in three categories:
+
+1. The nouns for male and female animate beings match each other.
+2. The nouns for male and female animate beings are unrelated.
+3. The same noun is used for both sexes.
+
+### Matching nouns for male and female animate beings
+
+In Arabic sometimes for nouns that designate animate beings, the nouns for both sexes match each other. Here are some examples:
 
 Arabic word | Transcription|Gender | Definition
 :-----------|:-----------|:---|:----------------
-[ٱِمْرَؤٌ]{.ar} |[imraEun]{.trn}     |masc.|a man
+[ٱِمْرَأٌ]{.ar} |[imraEun]{.trn}     |masc.|a man
 [ٱِمْرَأَةٌ]{.ar}|[imraEatun]{.trn}   |fem. |a woman
-//[طِفْلٌ]{.ar}  |[Tiflun]{.trn}    |masc.|a male child
-//[طِفْلَةٌ]{.ar} |[Tiflatun]{.trn}  |fem. |a female child
 [مُعَلِّمٌ]{.ar} |[mueallimun]{.trn}  |masc.|a male teacher
 [مُعَلِّمَةٌ]{.ar}|[mueallimatun]{.trn}|fem. |a female teacher
 [كَلْبٌ]{.ar}  |[kalb]{.trn}        |masc.|a male dog
@@ -21,17 +29,28 @@ Arabic word | Transcription|Gender | Definition
 [هِرٌّ]{.ar}   |[hirrun]{.trn}      |masc.|a male cat
 [هِرَّةٌ]{.ar}  |[hirratun]{.trn}    |fem. |a female cat
 
-In each of the words in the table above, the feminine noun is formed by adding a looped [tAE]{.trn} [ة]{.ar} to the masculine noun. For example, [ٱِمْرَوٌ]{.ar} [imraEun]{.trn} is "a man" and [ٱِمْرَأَةٌ]{.ar} [imraEatun]{.trn} is "a woman".
-
-Note that when we add looped [tAE]{.trn} [ة]{.ar} to a noun, the [n]{.trn}-mark is transferred to the looped [tAE]{.trn} and the previous letter gets an [a]{.trn}-mark. In the case of [ٱِمْرَأَةٌ]{.ar} [imraEatun]{.trn} the previous letter is a [hamza]{.trn} that was seated on a [wAw]{.trn} in [ٱِمْرَوٌ]{.ar} [imraEun]{.trn} and we have to change its seat to [alif]{.trn} when we replace the [un]{.trn}-mark with an [a]{.trn}-mark.
+In each of the words in the table above, the feminine noun is formed by adding a looped [tAE]{.trn} [ة]{.ar} to the masculine noun. For example, [ٱِمْرَأٌ]{.ar} [imraEun]{.trn} is "a man" and [ٱِمْرَأَةٌ]{.ar} [imraEatun]{.trn} is "a woman".
 
 The looped [tAE]{.trn} [ة]{.ar} is called a feminine marker. It is the most common feminine marker for singular nouns. There are a couple of other feminine markers besides looped [tAE]{.trn} but they are not as common and we will learn them later if Allah wills.
  
+Note that when we add looped [tAE]{.trn} [ة]{.ar} to a masculine noun to make it a feminine noun, the final letter of the masculine noun gets an [a]{.trn}-mark and the [n]{.trn}-mark gets transferred to the looped [tAE]{.trn} [ة]{.ar}. For example, in the case of [كَلْبٌ]{.ar} [kalb]{.trn} "a male dog", in order to get the feminine noun [كَلْبَةٌ]{.ar} [kalbatun]{.trn} "a female dog", [بُ]{.ar} gets an [a]{.trn}-mark and [ةٌ]{.ar} gets the [n]{.trn}-mark.
+
+Note also that we have provided a new word for "a man": [ٱِمْرَأٌ]{.ar} [imraEun]{.trn}.
+But we have already learned the word for "a man": [رَجُلٌ]{.ar} [rajulun]{.trn}. So what is difference between [رَجُلٌ]{.ar} [rajulun]{.trn} and [ٱِمْرَأٌ]{.ar} [imraEun]{.trn}?
+There is some degree of overlap but the noun [رَجُلٌ]{.ar} [rajulun]{.trn} is used more commonly when talking about male human beings.
+[ٱِمْرَأٌ]{.ar} [imraEun]{.trn} is used generally when speaking about "man" generically, for example, in sentences like "Man is a social animal." and "A man should always be honest." It is also often used to mean "a person".
+
+#### Remove
+
+the [n]{.trn}-mark is transferred to the looped [tAE]{.trn} and the previous letter gets an [a]{.trn}-mark. In the case of [ٱِمْرَأَةٌ]{.ar} [imraEatun]{.trn} the previous letter is a [hamza]{.trn} that was seated on a [wAw]{.trn} in [ٱِمْرَوٌ]{.ar} [imraEun]{.trn} and we have to change its seat to [alif]{.trn} when we replace the [un]{.trn}-mark with an [a]{.trn}-mark.
+
 Also, we have already learned another word for "a man": [رَجُلٌ]{.ar} [rajulun]{.trn}. So what is difference between [رَجُلٌ]{.ar} [rajulun]{.trn} and [ٱِمْرَؤٌ]{.ar} [imraEun]{.trn}.
 The noun [رَجُلٌ]{.ar} [rajulun]{.trn} is used more commonly when talking about specific male human beings.
-[ٱِمْرَؤٌ]{.ar} [imraEun]{.trn} is used generally when speaking about "man" generically, for example, in sentences like "Man is a social animal." and "A man should always be honest."
+[ٱِمْرَؤٌ]{.ar} [imraEun]{.trn} is used generally when speaking about "man" generically, for example, in sentences like "Man is a social animal.", and "A man should always be honest."
 
-For other nouns that designate animate beings, the masculine and feminine nouns are completely different. Here are some examples:
+### Unrelated nouns for male and female animate beings
+
+For other nouns that designate animate beings, the nouns for the male and female sexes are completely unrelated. Here are some examples:
 
 Arabic word | Transcription|Gender | Definition
 :-----------|:-----------|:---|:----------------
@@ -44,14 +63,11 @@ Arabic word | Transcription|Gender | Definition
 [ثَوْرٌ]{.ar}  |[vawrun]{.trn}    |masc.|a bull
 [بَقَرَةٌ]{.ar} |[baqaratun]{.trn} |fem. |a cow
 
-Even in these nouns you can see that the feminine noun usually ends with a looped [tAE]{.trn} [ة]{.ar}. There are only a few commonly used feminine nouns that don't end with a feminine marker like looped [tAE]{.trn}. [أُمٌّ]{.ar} [Eummun]{.trn} "a mother" is one of them.
+Even in these nouns you can see that the feminine noun usually ends with a looped [tAE]{.trn} [ة]{.ar} feminine marker. There are only a few commonly used feminine nouns that don't end with a feminine marker like looped [tAE]{.trn}. [أُمٌّ]{.ar} [Eummun]{.trn} "a mother" is one of these exceptions.
 
-//Also note that some animals have different words for the male and the female animal, like 
-//[ثَوْرٌ]{.ar} [vawrun]{.trn} "a bull"
-//and
-//[بَقَرَةٌ]{.ar} [baqaratun]{.trn} "a cow".
+### Using the same noun for both sexes
 
-There are other nouns that designate animate beings that use the same word for both sexes. The word itself will be either grammatically masculine or feminine. Here are some examples:
+There are other words for animate beings where the same word is used for both sexes. The word itself will still be either grammatically masculine or feminine. Here are some examples:
 
 Arabic word | Transcription|Gender | Definition
 :-----------|:-----------|:---|:----------------
@@ -65,22 +81,18 @@ Arabic word | Transcription|Gender | Definition
 
 So for example [قِرْدٌ]{.ar} [qirdun]{.trn} "a monkey" is grammatically masculine but it can be used for both a male and a female monkey.
 
-By the way, even when the male and female animal have different words, sometimes one of them is used commonly for animals of either sex when we are not concerned with the actual sex of the animal. For example 
-[كَلْبٌ]{.ar} [kalb]{.trn} "a male dog" is used commonly for "a dog" and
-[هِرَّةٌ]{.ar} [hirratun]{.trn} "a female cat" is used commonly for "a cat".
+By the way, even when the male and female animal have different words, sometimes one of them is used commonly for animals of both sexes, especially when the animal's sex is not obvious or relevant. For example 
+[كَلْبٌ]{.ar} [kalb]{.trn} (masc.) is used commonly for "a dog" and [هِرَّةٌ]{.ar} [hirratun]{.trn} (fem.) is used commonly for "a cat".
 
 Similarly [إِنْسَانٌ]{.ar} [EinsAnun]{.trn} "a human" is grammatically masculine but it can be used for both male and female human beings.
 
-It can be a little tricky using a masculine noun for a female animate being, and vice versa. So, if Allah wills, we will learn how to deal with these nouns in detail.
+//It can be a little tricky using a masculine noun for a female animate being, and vice versa. So, if Allah wills, we will learn how to deal with these nouns in detail.
 
-Note also that [نَفْسٌ]{.ar} [nafsun]{.trn} "a self" is a feminine noun but it does not end in a looped [tAE]{.trn} [ة]{.ar}. It is one of the small number of feminine nouns that have a female marker. We have already seen two such nouns earlier:
-
-+ [شَمْسٌ]{.ar} [camsun]{.trn} (fem.) "a sun"
-+ [أُمٌّ]{.ar} [Eummun]{.trn} (fem.) "a mother"
+Note also that [نَفْسٌ]{.ar} [nafsun]{.trn} "a self" is a feminine noun but it does not end in a looped [tAE]{.trn} [ة]{.ar}. It is one of the small number of feminine nouns that don't have a female marker, like [أُمٌّ]{.ar} [Eummun]{.trn} (fem.) "a mother"
 
 ## Nouns that designate inanimate objects
 
-Nouns that designate inanimate objects are also assigned a gender arbitrarily. Here are some examples:
+Nouns that designate inanimate objects also have a fixed grammatical gender. There is usually no discernable reason why some are assigned a masculine gender while others are assigned a feminine gender.
 
 Arabic word | Transcription|Gender | Definition
 :-----------|:-----------|:---|:----------------
@@ -100,5 +112,8 @@ Arabic word | Transcription|Gender | Definition
 [حَيَاةٌ]{.ar} |[HayAtun]{.trn}   |fem. |a life
 [مَوْتٌ]{.ar}  |[mawtun]{.trn}    |masc.|a death
 
-In these nouns as well we note that feminine nouns usually end with a feminine marker like looped [tAE]{.trn} [ة]{.ar}. There are a few feminine nouns that don't a feminine marker, like [شَمْسٌ]{.ar} [camsun]{.trn} (fem.) "a sun". These are not very many and if Allah wills we will not find it hard to memorize them.
+In these nouns as well we note that feminine nouns usually end with the feminine marker looped [tAE]{.trn} [ة]{.ar}. 
+But here too, we find another exception:
+[شَمْسٌ]{.ar} [camsun]{.trn} "a sun" which is feminine but does not end with a feminine marker.
+These exceptions are not very many and if Allah wills we will not find it hard to memorize them.
 
