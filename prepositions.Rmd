@@ -168,37 +168,56 @@ We will also see that English often uses one preposition to express a meaning, w
 
 We have seen how a noun can be used after a preposition to get a prepositional phrase, for example:
 
-[فِي ٱلْبَيْتِ]{.ar}  
-[fi -lbayti]{.trn}  
-"in the house"
+[ إِلَى المدينة]{.ar}  
+[Eila -lmadInati]{.trn}  
+"to the city"
 
 We can put an indefinite noun in front of this structure:
+
+[طَّريقٌ إِلَى المدينة]{.ar}  
+[TarIqun Eila -lmadInati]{.trn}  
+"a way to the city"  
+
+Note that the preposition has no effect on the state of the noun before it. In this case, it is in the u-state. Only the noun after the preposition is put in the i-state.
+
+We can also put a definite noun in front of the prepositional phrase. Now the resulting structure can, in general, have two meanings: (1) a complete sentence, and (2) an incomplete sentence. For example,
+
+[ٱَلطَّريقُ إِلَى المدينة]{.ar}  
+[EaTTarIqu Eila -lmadInati]{.trn}  
+1. "The way is to the city."  
+2. "The way to the city"
+
+Usually, it will be clear from the context which of the two meanings is valid. For example, the second meaning, "The way to the city," can be part of a complete sentence:
+
+[ٱَلطَّريقُ إِلَى المدينة طَوِيلٌ]{.ar}  
+[EaTTarIqu Eila -lmadInati TawIlun]{.trn}  
+"The way to the city is long."
+
+### A sentence with an indefinite noun and a prepositional phrase
+
+We have seen that if an indefinite noun is placed in front of a prepositional phrase, we get an incomplete sentence. For example,
 
 [رَجُلٌ فِي ٱلْبَيْتِ]{.ar}  
 [rajulun fi -lbayti]{.trn}  
 "a man in the house"
 
-Note that the preposition has no effect on the state of the noun before it. In this case, it is in the u-state. Only the noun after the preposition is put in the i-state.
+Now we will see how to make the complete sentence: 
 
-We can also put a definite noun in front of the prepositional phrase. Now the resulting structure can have two meanings. For example,
+"A man **is** in the house."
 
-[ٱَلرَّجُلُ فِي ٱلْبَيْتِ]{.ar}  
-[Earrajulu fi -lbayti]{.trn}  
-"The man is in the house." OR "the man in the house"
+We have already stated that sentences with indefinite subjects are not straightforward in Arabic. In order to express this sentence, we put the prepositional phrase first, and place the indefinite subject after it:
 
-The second meaning "the man in the house" will typically only be valid when the structure is part of a larger sentence. For example,
+[فِي ٱلْبَيْتِ رَجُلٌ]{.ar}  
+[fi -lbayti rajulun]{.trn}  
+"In the house is a man." = "A man is in the house."
 
-[ٱَلرَّجُلُ فِي ٱلْبَيْتِ كَرِيمٌ.]{.ar}  
-[Earrajulu fi -lbayti karImun]{.trn}  
-"The man in the house is generous."
+It may sometimes be more convenient to translate this type of sentence in English using "there is":
 
-By the way, the first meaning can also be valid as part of a larger sentence. For example, "He said that _the man is in the house_".
+"There is a man in the house."
 
-Don't worry right now about how to identify which meaning is intended. Usually it will be clear from the context. And sometimes the nouns and prepositions used will only easily support one meaning. This will also be clear from the sentence and the context.
+In Arabic, however, we will not use the equivalent of "there" and will express this, as we have just explained, by placing the prepositional phrase first, and the indefinite subject after it.
 
-## A sentence with an indefinite noun and a prepositional phrase
-
-We have learned how to say "The man is in the house".
+## Remove
 
 [ٱَلرَّجُلُ فِي ٱلْبَيْتِ]{.ar}  
 [Earrajulu fi -lbayti]{.trn}  
@@ -292,6 +311,13 @@ There is some degree of overlap in meaning and you will get a feeling of which p
 ## Adjectives with prepositional phrases
 
 ### Adjective separated from described noun
+
+[على رجل من القريتين عظيم]{.ar}
+
+conditions:
++ indef only?
++ prep phrase req to be muta3alliq with the man3oot?
++ possible with all prepositions?
 
 usually for indefinite
 kitabun fi -lHaqIbati vaqIlun
