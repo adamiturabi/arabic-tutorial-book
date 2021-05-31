@@ -1,6 +1,34 @@
-# Partially-changing and proper nouns
+# Non-fully-changing nouns and proper nouns
 
-## Partially-changing nouns
+## Introduction to word roots
+
+Native Arabic words are generally derived from roots. Most roots are comprised of three letters. A smaller number are comprised of four or more letters. Words derived from the same root often share some basic meaning (although this is not always obvious). Words are derived from their roots according to patterns. In traditional Arabic grammar studies, the root [فعل]{.arroot} is used as a template to showcase word and meaning patterns.
+
+Here is an example of some words and their patterns that are derived from the root  [كتب]{.ar} [ktb]{.trn}.
+
+Word  | Pattern | Meaning 
+:----------|:-----------|:-----------
+[كَتَبَ]{.ar} [kataba]{.trn}        | [فَعَلَ]{.ar} [faeala]{.trn} | he wrote
+[كِتَابٌ]{.ar} [kitAbun]{.trn}      | [فِعَالٌ]{.ar} [fieAlun]{.trn} | a book
+[كَاتِبٌ]{.ar} [kAtibun]{.trn}      | [فَاعِلٌ]{.ar} [fAeilun]{.trn} | a writer
+[مَكْتُوبٌ]{.ar} [maktUbun]{.trn}    | [مَفْعُولٌ]{.ar} [mafeUlun]{.trn} | written
+[مَكْتَبَةٌ]{.ar} [maktabatun]{.trn}  | [مَفْعَلَةٌ]{.ar} [mafealatun]{.trn} | a library
+[ٱِكْتِتَابٌ]{.ar} [EiktitAbun]{.trn} | [ٱِفْتِعَالٌ]{.ar} [EiftieAlun]{.trn} | a registration
+[مُكَاتَبَةٌ]{.ar} [mukAtabatun]{.trn}| [مُفَاعَلَةٌ]{.ar} [mufAealatun]{.trn} | a written exchange, a correspondence
+
+In the above table you can see that all the words derived from the root [كتب]{.arroot} share a meaning that is related to writing. Also, the different words are formed by adding additional letters and vowels to the three-letter root.
+
+Root letters are generally preserved in all words derived from a root. You can see this in the table above where the letters [ك، ت، ب]{.ar} are found in all the words derived from this root. There are some exceptions to this rule. The most notable is when one or more of the root letters is from the set {[ا، ء، و، ي]{.ar}}. The letters in this set are known as weak letters. Words that are derived from roots that have weak letters often exchange one weak letter for another, or sometimes drop the letter all together. For example, here are some words derived from the root [دعو]{.arroot}:
+
+Word  | Note
+:----------|:-----------
+[دَعَا]{.ar} [daeA]{.trn}    | [و]{.ar} exchanged for [ا]{.ar}
+[يَدْعُو]{.ar} [yadeU]{.trn}   | [و]{.ar} retained
+[ٱُدْعُ]{.ar} [Eudeu]{.trn}   | [و]{.ar} dropped altogether
+[دُعَاءٌ]{.ar} [dueAEun]{.trn}   | [و]{.ar} exchanged for [ء]{.ar}
+[ٱِدَّعَىٰ]{.ar} [EiddaeA]{.trn} | [و]{.ar} exchanged for [ىٰ]{.ar}
+
+## Non-fully-changing nouns
 
 Here is an example of the kind of nouns we have learned so far:
 
@@ -12,7 +40,7 @@ i-state| [رَجُلٍ]{.ar} | [ٱَلرَّجُلِ]{.ar}
 
 As you can see, the noun has [n]{.trn}-marks when it is indefinite, and also, the vowel mark on the last letter changes for each state that the noun is in. These kinds of nouns are called _fully-changing_ nouns. They are by far the most common type of noun.
 
-There are a few nouns, however, that are _partially-changing_. Here is an example of a partially-changing noun, [صَحْرَاءُ]{.ar} [SaHrAEu]{.trn} "a desert":
+There are a few nouns, however, that are _non-fully-changing_. Here is an example of a non-fully-changing noun, [صَحْرَاءُ]{.ar} [SaHrAEu]{.trn} "a desert":
 
 State  | Indefinite | Definite
 :------|:-----------|:---------
@@ -20,16 +48,16 @@ u-state| [صَحْرَاءُ]{.ar} | [ٱَلصَّحْرَاءُ]{.ar}
 a-state| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءَ]{.ar}
 i-state| [صَحْرَاءِ]{.ar} | [ٱَلصَّحْرَاءِ]{.ar}
 
-When definite, partially-changing nouns look just like full-changing nouns. But when indefinite, they don't have [n]{.trn}-marks, and furthermore, their final letter has an [a]{.trn}-mark, not an [i]{.trn}-mark when the noun. (There is one circumstance where a partially-changing noun's final letter has an [i]{.trn}-mark in the i-state. We'll learn this in a later chapter, if Allah wills.)
+When definite, non-fully-changing nouns look just like full-changing nouns. But when indefinite, they don't have [n]{.trn}-marks, and furthermore, their final letter has an [a]{.trn}-mark, not an [i]{.trn}-mark when the noun. (There is one circumstance where an indefinite non-fully-changing noun's final letter has an [i]{.trn}-mark in the i-state. We'll learn this in a later chapter, if Allah wills.)
 
-[صَحْرَاءُ]{.ar} [SaHrAEu]{.trn} "a desert" is a feminine noun. The [اء]{.ar} endings is actually a feminine marker. In addition to looped [tAE]{.trn} [ة]{.ar}, Arabic has two other feminine markers for singular nouns:
+The root of the word [صَحْرَاءُ]{.ar} [SaHrAEu]{.trn} "a desert" is [صحر]{.arroot}. And its pattern (according to the template root [فعل]{.arroot}) is [فَعْلَاءُ]{.ar} [faelAEu]{.trn}. The ending [اء]{.ar} [AE]{.trn} is not part of the root and is actually a feminine marker. In addition to looped [tAE]{.trn} [ة]{.ar}, Arabic has two other feminine markers for singular nouns:
 
 + [اء]{.ar} [AE]{.trn}
-+ [ىٰ]{.ar} [aa]{.trn}
++ [ىٰ]{.ar} [A]{.trn}
 
-Nouns with these feminine markers are partially changing nouns. [ذِكْرَىٰ]{.ar} [pikrA]{.trn} "a remembrance" is an example of a feminine noun with the [ىٰ]{.ar} feminine marker.
+Nouns with the feminine markers [اء]{.ar} [AE]{.trn} and [ىٰ]{.ar} [A]{.trn} are always non-fully-changing nouns. [ذِكْرَىٰ]{.ar} [pikrA]{.trn} "a remembrance" is an example of a feminine noun with the [ىٰ]{.ar} feminine marker. The root of [ذِكْرَىٰ]{.ar} [pikrA]{.trn} is [ذكر]{.arroot} and its pattern is [فِعْلَىٰ]{.ar} [fielA]{.trn}.
 
-Since [ذِكْرَىٰ]{.ar} [pikrA]{.trn} ends with a vowel, the last letter won't have any more vowel markers and therefore the word will appear the same in all states:
+Since [ذِكْرَىٰ]{.ar} [pikrA]{.trn} already ends with a vowel, the last letter won't have any additional vowel markers and therefore the word will appear the same in all states:
 
   State  | Indefinite | Definite
   :------|:-----------|:---------
@@ -37,7 +65,7 @@ Since [ذِكْرَىٰ]{.ar} [pikrA]{.trn} ends with a vowel, the last letter w
   a-state| [ذِكْرَىٰ]{.ar} | [ٱَلذِّكْرَىٰ]{.ar}
   i-state| [ذِكْرَىٰ]{.ar} | [ٱَلذِّكْرَىٰ]{.ar}
 
-Examples of sentences with partially changing nouns:
+Examples of sentences with non-fully changing nouns:
 
 [ٱَلْكِتَابُ ذِكْرَىٰ جَمِيلةٌ.]{.ar}  
 [EalkitAbu pikrA jamIlatun]{.trn}  
@@ -47,34 +75,41 @@ Examples of sentences with partially changing nouns:
 [pahaba -rrajulu EilA SaHrAEa wAsieatin]{.trn}  
 "The man went to a wide desert."
 
-In the last example note how [صَحْرَاءَ]{.ar} [SaHrAEa]{.trn} has an [a]{.trn}-mark despite being in the i-state (due to being after a preposition). Yet the adjective [وَاسِعَةٍ]{.ar} [wAsieatin]{.trn} has an [in]{.trn}-mark because it matches the state of the described noun, not the vowel mark on its final letter.
+Note how the describers in both examples are feminine because the described nouns are feminine. Also note how, in the last example, [صَحْرَاءَ]{.ar} [SaHrAEa]{.trn} has an [a]{.trn}-mark despite being in the i-state (due to being after a preposition). Yet the adjective [وَاسِعَةٍ]{.ar} [wAsieatin]{.trn} has an [in]{.trn}-mark because it matches the state of the described noun, not the vowel mark on its final letter.
 
-Unlike [ة]{.ar}, which is almost always a feminine marker for singular words, [ىٰ]{.ar} [A]{.trn} and [اء]{.ar} [AE]{.trn} are not always feminine markers. There are some words where [ىٰ]{.ar} [A]{.trn} and [اء]{.ar} [AE]{.trn} are part of the actual word and are not feminine markers. In this case the  word is usually masculine and fully changing. Examples: [ٱَلْهُدَىٰ]{.ar} [alhudA]{.trn} "the guidance" and [دُعَاءٌ]{.ar} [dueAEun]{.trn} "a supplication" are both masculine fully-changing nouns. If Allah wills, you will be able to tell when these endings are feminine markers with practice.
+### Identifying  feminine markers
 
-[صَحْرَاءُ]{.ar} [SaHrAEu]{.trn} "a desert" and [ذِكْرَىٰ]{.ar} [pikrA]{.trn} "a remembrance" are partially-changing nouns which are common nouns. There are also partially-changing descriptive nouns. These will have masculine and feminine nouns. The feminine nouns have one of the two feminine markers: [اء]{.ar} and [ىٰ]{.ar}. As we'll see, the masculine desriptive noun is usually slightly modified before adding the feminine marker.
+Unlike [ة]{.ar}, which is almost always a feminine marker for singular words, [ىٰ]{.ar} [A]{.trn} and [اء]{.ar} [AE]{.trn} are not always feminine markers. They are only feminine markers when they are suffixes that are external to the word's root. This was the case for [صَحْرَاءُ]{.ar} [SaHrAEu]{.trn} and [ذِكْرَىٰ]{.ar} [pikrA]{.trn}.
+
+But there are some words where [اء]{.ar} [AE]{.trn} and [ىٰ]{.ar} [A]{.trn} are not external to the word's root. For example,
+
+Word | Root | Note
+:--------------|:---------------|:------------------
+[دُعَاءٌ]{.ar} [dueAEun]{.trn}  | [دعو]{.arroot} | [و]{.ar} [w]{.trn} substituted with [ء]{.ar} [E]{.trn}
+[ٱَلْهُدَىٰ]{.ar} [EalhudA]{.trn} | [هدي]{.arroot} | [ي]{.ar} [y]{.trn} substituted with [ىٰ]{.ar} [A]{.trn}
+
+In such cases [اء]{.ar} [AE]{.trn} and [ىٰ]{.ar} [A]{.trn} will not be feminine markers and the words will be fully-changing, not non-fully-changing. As we progress in learning Arabic, it will become easier, if Allah wills, to identify when these endings are feminine markers external to the word's root and when they are not.
+
+So far, we have seen examples of non-fully-changing nouns that are common nouns: [صَحْرَاءُ]{.ar} [SaHrAEu]{.trn} "a desert" and [ذِكْرَىٰ]{.ar} [pikrA]{.trn} "a remembrance". In addition, there are also non-fully-changing nouns that are descriptive nouns. These will have masculine and feminine nouns. The feminine nouns will have one of the two feminine markers: [اء]{.ar} and [ىٰ]{.ar}. As we'll see, the masculine desriptive noun is usually somewhat modified before adding the feminine marker.
  
-Here are some examples of partially-changing descriptive nouns. We will only give the indefinite nouns in the u-state and you may form the definite noun as shown in the examples above.
+Root | Masc. Noun | Fem. noun | Meaning
+:----|:-----------|:-------------|:------------
+[غضب]{.arroot} | [غَضْبَانُ]{.ar} | [غَضْبَىٰ]{.ar}   | very angry
+[عطش]{.arroot} | [عَطْشَانُ]{.ar} | [عَطْشَىٰ]{.ar}   | very thirsty
+[جوع]{.arroot} | [جَوْعَانُ]{.ar} | [جَوْعَىٰ]{.ar}   | very hungry
+[حمر]{.arroot} | [أَحْمَرُ]{.ar}  | [حَمْرَاءُ]{.ar}  | red
+[زرق]{.arroot} | [أَزْرَقُ]{.ar}  | [زَرْقَاءُ]{.ar}  | blue
+[صفر]{.arroot} | [أَصْفَرُ]{.ar}  | [صَفْرَاءُ]{.ar}  | yellow
+[خضر]{.arroot} | [أَخْضَرُ]{.ar}  | [خَضْرَاءُ]{.ar}  | green
+[سود]{.arroot} | [أَسْوَدُ]{.ar}  | [سَوْدَاءُ]{.ar}  | black
+[بيض]{.arroot} | [أَبْيَضُ]{.ar}  | [بَيْضَاءُ]{.ar}  | white
+[عرج]{.arroot} | [أَعْرَجُ]{.ar}  | [عَرْجَاءُ]{.ar}  | lame
+[حور]{.arroot} | [أَحْوَرُ]{.ar}  | [حَوْرَاءُ]{.ar}  | beautiful eyed
+[بكم]{.arroot} | [أَبْكَمُ]{.ar}  | [بَكْمَاءُ]{.ar}  | mute
 
-Masc. Noun | Fem. noun | Meaning
-:-----------|:-------------|:------------
-[غَضْبَانُ]{.ar} | [غَضْبَىٰ]{.ar}   | very angry
-[عَطْشَانُ]{.ar} | [عَطْشَىٰ]{.ar}   | very thirsty
-[جَوْعَانُ]{.ar} | [جَوْعَىٰ]{.ar}   | very hungry
-[أَحْمَرُ]{.ar}  | [حَمْرَاءُ]{.ar}  | red
-[أَزْرَقُ]{.ar}  | [زَرْقَاءُ]{.ar}  | blue
-[أَصْفَرُ]{.ar}  | [صَفْرَاءُ]{.ar}  | yellow
-[أَخْضَرُ]{.ar}  | [خَضْرَاءُ]{.ar}  | green
-[أَسْوَدُ]{.ar}  | [سَوْدَاءُ]{.ar}  | black
-[أَبْيَضُ]{.ar}  | [بَيْضَاءُ]{.ar}  | white
-[أَعْرَجُ]{.ar}  | [عَرْجَاءُ]{.ar}  | lame
-[أَحْوَرُ]{.ar}  | [حَوْرَاءُ]{.ar}  | beautiful eyed
-[أَبْكَمُ]{.ar}  | [بَكْمَاءُ]{.ar}  | mute
+Above are some examples of non-fully-changing descriptive nouns. We have given only indefinite nouns in the u-state and you may form the definite noun as we showed for [صَحْرَاءُ]{.ar} [SaHrAEu]{.trn} 
 
-Did you notice some form and meaning patterns in the above examples? In general, Arabic words fall into patterns. Words of a pattern behave in a similar way. Patterns are based on a three-letter root which is arranged in a specific way to form the pattern. In Arabic studies, the root [ف-ع-ل]{.ar} is used to show the arrangement of word patterns.
-
-One category of nouns is of the pattern [فَعْلَانُ]{.ar} [faelAnu]{.trn} for the masculine noun and [فَعْلَىٰ]{.ar} [faelA]{.trn} for the feminine noun. These all have an intensive meaning pattern: "very angry", "very thirsty", "very hungry", etc.
-
-The other category is of the pattern [أَفْعَلُ]{.ar} [Eafealu]{.trn} for the masculine noun and [فَعْلَاءُ]{.ar} [faelAEu]{.trn} for the feminine noun. The meanings are either colors or physical characteristics and disabilities. 
+You should be able to see that the non-fully-changing in the table above fall into common patterns in both structure and meaning. Colors and physical characteristics are of the pattern [أَفْعَلُ]{.ar} [Eafealu]{.trn} (masc.) and [فَعْلَاءُ]{.ar} [faelAEu]{.trn} (fem.); and intensive emotional and physical states are of the pattern [فَعْلَانُ]{.ar} [faelAnu]{.trn} (masc.) [فَعْلَىٰ]{.ar} [faelA]{.trn} (fem.). Such structure and meaning patterns are quite common in Arabic vocabulary.
 
 ### Examples
 
@@ -88,11 +123,11 @@ Proper nouns in Arabic are always definite. Even though they are definite, most 
 
 Here are some examples of male names: 
 
-+ [مُحَمَّدٌ]{.ar} [muhammadun]{.trn} "Muhammad"
-+ [زَيْدٌ]{.ar} [zaydun]{.trn} "Zayd"
-+ [سَعِيدٌ]{.ar} [saeIdun]{.trn} "Saeed"
++ [مُحَمَّدٌ]{.ar} [muHammadun]{.trn} "[#muHammad]{.trn2}"
++ [زَيْدٌ]{.ar} [zaydun]{.trn} "[#zayd]{.trn2}"
++ [سَعِيدٌ]{.ar} [saeIdun]{.trn} "[#saeId]{.trn2}"
 
-Note that the names have an [n]{.trn}-mark even though they are definite. Names are also often originally descriptive nouns with a good meaning. For example, [سَعِيدٌ]{.ar} [saeIdun]{.trn} "Saeed" is a descriptive noun meaning "happy".
+Note that the names have an [n]{.trn}-mark even though they are definite. Names are also often originally descriptive nouns with a good meaning. For example, [سَعِيدٌ]{.ar} [saeIdun]{.trn} "[#saeId]{.trn2}" is a descriptive noun meaning "happy".
 
 Sometimes, it is not clear from the sentence itself whether a word is used as a descriptive noun, or as a name. For example:
 
@@ -100,19 +135,19 @@ Sometimes, it is not clear from the sentence itself whether a word is used as a 
 [jAEa saeIdun]{.trn}  
 "A happy (masc.) one came."  
 OR  
-"Saeed came."
+"[#saeId]{.trn2} came."
 
 ### Femimine names
 
-Female names often, but not always, end with a feminine marker. They too are definite without [ٱَلْ]{.ar} [Eal]{.trn} but they differ from male names in that they are partially-changing nouns. Therefore they don't have [n]{.trn}-marks. 
+Female names often, but not always, end with a feminine marker. They too are definite without [ٱَلْ]{.ar} [Eal]{.trn} but they differ from male names in that they are almost always non-fully-changing nouns. Therefore they don't have [n]{.trn}-marks. 
 
 Here are some examples of feminine names: 
 
-+ [جَمِيلَةُ]{.ar} [jamIlatu]{.trn} "Jameela"
-+ [فَاطِمَةُ]{.ar} [faTimatu]{.trn} "Fatima"
-+ [زَيْنَبُ]{.ar} [zaynabu]{.trn} "Zaynab"
++ [جَمِيلَةُ]{.ar} [jamIlatu]{.trn} "[#jamIlah]{.trn2}"
++ [فَاطِمَةُ]{.ar} [faTimatu]{.trn} "[#fATimah]{.trn2}"
++ [زَيْنَبُ]{.ar} [zaynabu]{.trn} "[#zaynab]{.trn2}"
 
-Even when the name is originally a descriptive noun which is fully-changing, it will become partially-changing when used as a name. For example:
+Even when the name is originally a descriptive noun which is fully-changing, it will become non-fully-changing when used as a name. For example:
 
 [جَاءَتْ جَمِيلَةٌ]{.ar}  
 [jAEat jamIlatun]{.trn}  
@@ -120,7 +155,7 @@ Even when the name is originally a descriptive noun which is fully-changing, it 
 
 [جَاءَتْ جَمِيلَةُ]{.ar}  
 [jAEat jamIlatu]{.trn}  
-"Jameela came."
+"[#jamIlah]{.trn2} came."
 
 ### Place names
 
@@ -134,88 +169,7 @@ Place names are usually, but not always, feminine. Some place names have [ٱَل
 
 Just like common-nouns, proper nouns can be described using descriptive nouns. The descriptive noun will follow the proper noun and match it in state and definiteness. Since the proper noun is definite (without [ٱَلْ]{.ar} [Eal]{.trn}), the descriptive noun will also be definite (with [ٱَلْ]{.ar} [Eal]{.trn}).
 
-
-## REMOVE 
-
-[غَضْبَانُ]{.ar} [gaDbAnu]{.trn} is a masculine descriptive noun meaning "very angry". The feminine of this descriptive noun is formed, not by adding the looped [tAE]{.trn} [ة]{.ar} feminine marker, but by removing the last part of the word [ان]{.ar} and adding another feminine marker: [ىٰ]{.ar} [yAE]{.trn} that is pronounced as long-[A]{.trn} vowel. So the feminine of [غَضْبَانُ]{.ar} [gaDbAnu]{.trn} is [غَضْبَىٰ]{.ar} [gaDbA]{.trn}. Note that since [غَضْبَىٰ]{.ar} [gaDbA]{.trn} ends with a vowel, the last letters won't have any more vowel markers and therefore theword will appear the same in all states:
-
-State  | Indefinite | Definite
-:------|:-----------|:---------
-u-state| [غَضْبَىٰ]{.ar} | [ٱَلْغَضْبَىٰ]{.ar}
-a-state| [غَضْبَىٰ]{.ar} | [ٱَلْغَضْبَىٰ]{.ar}
-i-state| [غَضْبَىٰ]{.ar} | [ٱَلْغَضْبَىٰ]{.ar}
-
-Partially-changing nouns usually form their feminine using a different feminine marker than looped [tAE]{.trn} [ة]{.ar}. They will either use 
-
-+ [ىٰ]{.ar} [aa]{.trn}, as we've just seen, or
-+ [اء]{.ar} [AE]{.trn}.
-
-In both cases, the masculine noun is modified before adding the feminine marker. In the case of [غَضْبَانُ]{.ar} [gaDbAnu]{.trn} we removed the last part of the word [ان]{.ar} [An]{.trn} before adding the feminine marker. This modification follows a standard pattern which will be easy to learn, if Allah wills.
-
-Here is an example of a partially-changing noun [أَحْمَرُ]{.ar} [EaHmaru]{.trn} "red" which forms its feminine with the [اء]{.ar} [AE]{.trn} feminine marker.
-
-State  | Masc. indefinite | Masc. definite | Fem. indefinite | Fem. definite |
-:------|:-----------|:-----------|:-----------|:-----------
-u-state| [أَحْمَرُ]{.ar} | [ٱَلْأَحْمَرُ]{.ar}| [حَمْرَاءُ]{.ar} | [ٱَلْحَمْرَاءُ]{.ar}
-a-state| [أَحْمَرَ]{.ar} | [ٱَلْأَحْمَرَ]{.ar}| [حَمْرَاءَ]{.ar} | [ٱَلْحَمْرَاءَ]{.ar}
-i-state| [أَحْمَرَ]{.ar} | [ٱَلْأَحْمَرِ]{.ar}| [حَمْرَاءَ]{.ar} | [ٱَلْحَمْرَاءِ]{.ar}
-
-In this case, the initial [alif]{.trn} of [أَحْمَرُ]{.ar} [EaHmaru]{.trn} was removed and some of the vowel marks were changed before adding the feminine marker [اء]{.ar} [AE]{.trn} to get the feminine [حَمْرَاءُ]{.ar} [HamrAEu]{.trn}. This modification too is standard for words of this pattern.
-
-It is important to note that [ىٰ]{.ar} [A]{.trn} and [اء]{.ar} [AE]{.trn} are not always feminine markers. They are often an integral part of a word, in which case the noun may be masculine. For example, [ٱَلْهُدَىٰ]{.ar} [alhudA]{.trn} "the guidance" is a masculine noun and [ىٰ]{.ar} [A]{.trn} here is not a feminine marker. We will be able to tell when [ىٰ]{.ar} [A]{.trn} and [اء]{.ar} [AE]{.trn} are feminine markers and when not with more knowledge of word patterns, if Allah wills.
-
-
-They are often an integral part of a word, in which case the noun may be masculine. For example, [ٱَلْهُدَىٰ]{.ar} [alhudA]{.trn} "the guidance" is a masculine noun and [ىٰ]{.ar} [A]{.trn} here is not a feminine marker. We will be able to tell when [ىٰ]{.ar} [A]{.trn} and [اء]{.ar} [AE]{.trn} are feminine markers and when not with more knowledge of word patterns, if Allah wills.
-
-These all have the same pattern as [أَحْمَرُ]{.ar} [EaHmaru]{.trn} and form their feminine on the same pattern as [حَمْرَاءُ]{.ar} [HamrAEu]{.trn}.
-
-
-The word [غَصْبَالنُ]{.ar} [gaDbAnu]{.trn} has the three-letter root [غ-ض-ب]{.ar}.
-
-In Arabic studies, the root [ف-ع-ل]{.ar} is used to show patterns
-
-One category of nouns has an intensive meaning "very angry, "very hungry". These all have the same pattern as [غَصْبَالنُ]{.ar} [gaDbAnu]{.trn}. They end with [ان]{.ar} [An]{.trn} and form their feminine by removing the ending and adding [ىٰ]{.ar} [A]{.trn}.
-
-The other category is of colors and physical characteristics and disabilities. These all have the same pattern as [أَحْمَرُ]{.ar} [EaHmaru]{.trn} and form their feminine on the same pattern as [حَمْرَاءُ]{.ar} [HamrAEu]{.trn}.
-
-These two categories are among the most common types of partially-changing souns. 
-
-It is, however, important to note that not all descriptive nouns with intensive meanings, or meanings of colors or physical characteristics follow these patterns. In such cases,
-
-Let's see some examples of partially changing nouns in use.
-
-## Partially-changing nouns in the i-state
-
-So if an indefinite partially changing noun in the i-state is identical with the a-state, is it still important to know when the noun is in the i-state? Yes it is.
-
-
-There are a few nouns, however, that are _partially-changing_. Here is an example of a partially-changing descriptive noun, [غَضْبَانُ]{.ar} [gaDbAnu]{.trn} "very angry":
-
-State  | Indefinite | Definite
-:------|:-----------|:---------
-u-state| [غَضْبَانُ]{.ar} | [ٱَلْغَضْبَانُ]{.ar}
-a-state| [غَضْبَانَ]{.ar} | [ٱَلْغَضْبَانَ]{.ar}
-i-state| [غَضْبَانَ]{.ar} | [ٱَلْغَضْبَانِ]{.ar}
-
-When definite, partially-changing nouns look just like full-changing nouns. But when indefinite, they don't have [n]{.trn}-marks, and furthermore, their final letter has an [a]{.trn}-mark, not an [i]{.trn}-mark when the noun occurs by itself in the i-state. (They do take the [i]{.trn}-mark when the noun is _attached_ to another noun. We will learn about this later, if Allah wills.)
-
-Partially-changing descriptive nouns usually form their feminine using a different feminine marker than looped [tAE]{.trn} [ة]{.ar}. They will either use 
-
-+ [ىٰ]{.ar} [aa]{.trn}, or
-+ [اء]{.ar} [AE]{.trn}.
-
-In both cases, the masculine noun is modified before adding the feminine marker.
-
-+ Since [فَعْلَىٰ]{.ar} [faelA]{.trn} ends with a vowel, the last letter won't have any more vowel markers and therefore the word will appear the same in all states:
-
-  State  | Indefinite | Definite
-  :------|:-----------|:---------
-  u-state| [فَعْلَىٰ]{.ar} | [ٱَلْفَعْلَىٰ]{.ar}
-  a-state| [فَعْلَىٰ]{.ar} | [ٱَلْفَعْلَىٰ]{.ar}
-  i-state| [فَعْلَىٰ]{.ar} | [ٱَلْفَعْلَىٰ]{.ar}
-
-+ [ىٰ]{.ar} [A]{.trn} and [اء]{.ar} [AE]{.trn} are only feminine markers if they are added on to the three-letter root of the word. There are some roots where [ىٰ]{.ar} [A]{.trn} and [اء]{.ar} [AE]{.trn} are part of the three-letter root. In this case the endings [ىٰ]{.ar} [A]{.trn} and [اء]{.ar} [AE]{.trn} are not feminine markers and the word is usually masculine. Examples: [ٱَلْهُدَىٰ]{.ar} [alhudA]{.trn} "the guidance" and [دُعَاءٌ]{.ar} [dueAEun]{.trn} "a supplication" are both masculine words. If Allah wills, you will be able to tell when these endings are feminine markers with practice.
-
-+ There are more patterns for partially-changing nouns that we will learn later, if Allah wills.
-
+[جَاءَ مُحَمَّدٌ ٱلْكَرِيمُ.]{.ar}  
+[jAEa muHammaduni -lkarImu.]{.trn}  
+"The generous [#muHammad]{.trn2} came."
 

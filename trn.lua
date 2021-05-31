@@ -129,16 +129,33 @@ function Romanize (elem)
     end
     elem.content[index] = text
   end
-  return (elem.content)
+  --return (elem.content)
+  return (elem)
 end
+function RootFmt (elem)
+  for index,text in pairs(elem.content) do
+    for index2,text2 in pairs(text) do
+      text3 = "«" .. text2 .. "»"
+      text[index2] = text3
+    end
+    elem.content[index] = text
+  end
+  return (elem)
+end
+
 function Span (elem)
   if elem.classes[1] == 'trn' then
-    return pandoc.Emph (Romanize(elem))
+    return pandoc.Emph (Romanize(elem).content)
   elseif elem.classes[1] == 'trn2' then
-    return (Romanize(elem))
+    return (Romanize(elem).content)
   elseif elem.classes[1] == 'ar' then
     attrs = pandoc.Attr("", {}, {{"lang", "ar"},{"dir","rtl"}})
     return pandoc.Span(elem.content, attrs)
+  elseif elem.classes[1] == 'arroot' then
+    attrs = pandoc.Attr("", {}, {{"lang", "ar"},{"dir","rtl"}})
+    return pandoc.Span(RootFmt(elem).content, attrs)
+  elseif elem.classes[1] == 'trnroot' then
+    return pandoc.Emph (RootFmt(Romanize(elem)).content)
   else
     return elem
   end
