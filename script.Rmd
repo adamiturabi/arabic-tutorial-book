@@ -129,7 +129,7 @@ Notice that when we modified the isolated form to get to the beginning, middle, 
 
 As an example, we would like to join the following letters (starting from the right): [م-ع-ش-ر]{.ar} into one word. The first letter is [م]{.ar} so we modify it to its beginning form [مـ]{.ar}. The next two letters are converted to their middle forms [ـعـ، ـشـ]{.ar}. And the last letter [ر]{.ar} is converted to its end form [ـر]{.ar}. Then we join the horizontal lines together and get [مــعــشــر]{.ar}. Usually, when we join letters like this we shorten the horizontal lines so you will generally see the word like this [معشر]{.ar}.
 
-In this example, we needed the beginning, middle, and end forms of the letters. Isolated forms are used in a word when there is a partially-joining letter present that won't join to the following letter. The letter after a partially-joining letter will be in its beginning form even though it is in the middle of a word. But if it is the last letter in the word then it will take its isolated form.
+In this example, we needed the beginning, middle, and end forms of the letters. Isolated forms are used in a word when there is a partially-joining letter present that won't join to the following letter. The letter after a partially-joining letter will be in its beginning form even though it is in the middle of a word. But if it too is a partially-joining letter, or it is the last letter in the word then it will take its isolated form.
 
 Let's take a look at some examples where a group of disjoint letters are joined to form a word:
 
