@@ -12,24 +12,27 @@ On the other hand, Arabic uses the plural only for nouns in number three and hig
 
 The dual is formed by appending [ـَانِ]{.ar} [Ani]{.trn} when the noun is in the u-state and [ـَانِ]{.ar} [Ani]{.trn} when the noun is in the a-state or i-state. Example:
 
-| Meaning    | u-state | a-state | i-state |
-|:-----------|:-------------|:-------------|:-------------|
-| "a house"  | [بَيْتٌ]{.ar}<br>[baytun]{.trn}| [بَيْتًا]{.ar}<br>[baytan]{.trn} |[بَيْتٍ]{.ar}<br>[baytin]{.trn} | 
-| "two houses"  | [بَيْتَانِ]{.ar}<br>[baytAni]{.trn}| [بَيْتَيْنِ]{.ar}<br>[baytayni]{.trn} | [بَيْتَيْنِ]{.ar}<br>[baytayni]{.trn} |
+| States |  a house | two houses
+:-------|:-------|:-------
+u-state | [بَيْتٌ]{.ar} [baytun]{.trn} | [بَيْتَانِ]{.ar} [baytAni]{.trn}
+a-state | [بَيْتًا]{.ar} [baytan]{.trn}| [بَيْتَيْنِ]{.ar} [baytayni]{.trn}
+i-state | [بَيْتٍ]{.ar} [baytin]{.trn} | [بَيْتَيْنِ]{.ar} [baytayni]{.trn}
 
-Note that there are no [n]{.trn} marks for the dual. Definite dual nouns are also formed in the same way:
+Note that there are no [n]{.trn} marks for the dual, despite it being indefinite. Definite dual nouns are also formed in the same way:
 
-| Meaning    | u-state | a-state | i-state |
-|:-----------|:-------------|:-------------|:-------------|
-| "the house"  | [ٱَلْبَيْتُ]{.ar}<br>[Ealbaytu]{.trn}| [ٱَلْبَيْتَ]{.ar}<br>[Ealbayta]{.trn} |[ٱَلْبَيْتِ]{.ar}<br>[Ealbayti]{.trn} | 
-| "the two houses"  | [ٱَلْبَيْتَانِ]{.ar}<br>[EalbaytAni]{.trn}| [ٱَلْبَيْتَيْنِ]{.ar}<br>[Ealbaytayni]{.trn} | [ٱَلْبَيْتَيْنِ]{.ar}<br>[Ealbaytayni]{.trn} |
+| States |  the house | the two houses
+:-------|:-------|:-------
+u-state | [ٱَلْبَيْتُ]{.ar} [Ealbaytu]{.trn}    | [ٱَلْبَيْتَانِ]{.ar} [EalbaytAni]{.trn}
+a-state | [ٱَلْبَيْتَ]{.ar} [Ealbayta]{.trn}    | [ٱَلْبَيْتَيْنِ]{.ar} [Ealbaytayni]{.trn}   
+i-state | [ٱَلْبَيْتِ]{.ar} [Ealbayti]{.trn}    | [ٱَلْبَيْتَيْنِ]{.ar} [Ealbaytayni]{.trn}
 
 If a noun ends with a looped [tAE]{.trn} [ة]{.ar}, then it is converted to a regular [tAE]{.trn} [ت]{.ar} before appending the dual suffix:
 
-| Meaning    | u-state | a-state | i-state |
-|:-----------|:-------------|:-------------|:-------------|
-| "a tree"  | [شَجَرَةٌ]{.ar}<br>[cajaratun]{.trn}| [شَجَرَةً]{.ar}<br>[cajaratan]{.trn} |[شَجَرَةٍ]{.ar}<br>[cajaratin]{.trn} | 
-| "two trees"  | [شَجَرَتَانِ]{.ar}<br>[cajaratAni]{.trn}| [شَجَرَتَيْنِ]{.ar}<br>[cajaratayni]{.trn} | [شَجَرَتَيْنِ]{.ar}<br>[cajaratayni]{.trn} |
+| States |  a tree | two trees
+:-------|:-------|:-------
+u-state | [شَجَرَةٌ]{.ar} [cajaratun]{.trn}| [شَجَرَتَانِ]{.ar} [cajaratAni]{.trn}
+a-state | [شَجَرَةً]{.ar} [cajaratan]{.trn}| [شَجَرَتَيْنِ]{.ar} [cajaratayni]{.trn}
+i-state | [شَجَرَةٍ]{.ar} [cajaratin]{.trn}| [شَجَرَتَيْنِ]{.ar} [cajaratayni]{.trn}
 
 Note that if a feminine noun does not have a looped [tAE]{.trn} then it will simply be appended with [ـَانِ]{.ar} or [ـَيْنِ]{.ar}. For example, "two mothers" is [أُمَّانِ]{.ar} [EummAni]{.trn} and [أُمَّيْنِ]{.ar} [Eummayni]{.trn}.
 
