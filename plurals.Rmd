@@ -40,7 +40,9 @@ Note that there are no [n]{.trn} marks for the [Un]{.trn} plural. Definite plura
 | a-state | [ٱَلْمُعَلِّمَ]{.ar} [Ealmueallima]{.trn}| [ٱَلْمُعَلِّمِينَ]{.ar} [EalmueallimIna]{.trn}  
 | i-state |[ٱَلْمُعَلِّمِ]{.ar} [Ealmueallimi]{.trn} | [ٱَلْمُعَلِّمِينَ]{.ar} [EalmueallimIna]{.trn}
 
-Except for very few exceptions, the [Un]{.trn} plural is used only for male rational beings (humans, angels, and jinn). Of these exceptions, the word [سَنَةٌ]{.ar} [sanatun]{.trn} "a year" is the most common. It is pluralized as [سِنُونَ]{.ar} [sinUna]{.trn} in the u-state and [سِنِينَ]{.ar} [sinIna]{.trn} in the a-state and i-state.
+### Usage of the [Un]{.trn} plural
+
+Except for very few exceptions, the [Un]{.trn} plural is used only for male rational beings (humans, jinn, etc.). Of these exceptions, the word [سَنَةٌ]{.ar} [sanatun]{.trn} "a year" is the most common. It is pluralized as [سِنُونَ]{.ar} [sinUna]{.trn} in the u-state and [سِنِينَ]{.ar} [sinIna]{.trn} in the a-state and i-state.
 
 ## The [At]{.trn} plural
 
@@ -104,15 +106,19 @@ Thus,
 
 Note that this rule of changing the vowel mark is only true for non-descriptive nouns. Descriptive nouns will retain the rest-mark when forming the [At]{.trn} plural. So [صَعْب]{.ar} [Saeb]{.trn} and [صَعْبَة]{.ar} [Saebah]{.trn} become only [صَعْبَات]{.ar} [SaebAt]{.trn}, not [صَعَبَات]{.ar} [SaeabAt]{.trn}.
 
-FIXME:
+### Usage of the [At]{.trn} plural
 
-The [At]{.trn} is used for female human beings and also for many other nouns.
+We had mentioned that the [Un]{.trn} plural is used, with very few exceptions, only for male rational beings. Conversely, the [At]{.trn} is used for female rational beings as well as for other nouns (both masculine and feminine) like animals, inanimate objects, and abstract concepts. It is rarely also used for male rational beings.
 
-Examples
+Examples:
 
-The female teachers are in the school.
+[ٱَلْمُعَلِّمَاتُ فِي ٱلْمَدْرَسَةِ.]{.ar}  
+[EalmueallimAtu fi -lmadrasati.]{.trn}  
+"The female teachers are in the school."
 
-The bakers are Muslims.
+[ٱَلْحَيَوَانَاتُ فِي ٱلْغَابَاتِ.]{.ar}  
+[EalHayawAnAtu fi -lgAbAti.]{.trn}  
+"The animals are in the forests."
 
 ## Plurals with descriptive nouns
 
@@ -165,32 +171,4 @@ But in the second sentence, the descriptive noun
 is the subject of the sentence. It is used as a regular noun so it is pluralized with the [At]{.trn} plural. 
 
 It is also the described noun for the descriptive noun [قَوِيَّةٌ]{.ar} [qawiyyatun]{.trn} "strong". [قَوِيَّةٌ]{.ar} is feminine singular because it is the information of the sentence and is describing the non-human plural described noun [ٱَلْكَبِيرَاتُ]{.ar} [EalkabIrAtu]{.trn} "the big ones".
-
-## Remove 
-
-However, English also has an _irregular_ plural for a few common nouns:
-
-| Singular | Plural |
-|:-----------|:-----------|
-| man        | men        |
-| woman      | women      |
-| child      | children   |
-| mouse      | mice       |
-
-Arabic also has two types of plurals:
-
-1. Sound plurals: The singular noun is kept sound (intact) and a plural ending is added to the singular noun just like the English "s".
-2. Broken plurals: The singular noun is not kept intact but is "broken up" in forming the plural.
-
-In this chapter we will introduce sound plurals.
-
-Sound plurals are formed by adding a plural ending to the singular noun. There are two plurals that can be formed:
-
-
-Arabic too forms some plurals by appending one of two endings to the singular nouns. Examples:
-
-| Singular | Plural |
-|:-----------|:-----------|
-| [مُعَلِّمٌ]{.ar} [mueallimun]{.trn} "a male teacher"       | [مُعَلِّمُونَ]{.ar} [mueallimUna]{.trn} "male teachers"       |
-| [مُعَلِّمَةٌ]{.ar} [mueallimatun]{.trn} "a female teacher"       | [مُعَلِّمَاتٌ]{.ar} [mueallimAtun]{.trn} "female teachers"       |
 
