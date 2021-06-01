@@ -4,7 +4,7 @@
 
 Native Arabic words are generally derived from roots. Most roots are comprised of three letters. A smaller number are comprised of four or more letters. Words derived from the same root often share some basic meaning (although this is not always obvious). Words are derived from their roots according to patterns. In traditional Arabic grammar studies, the root [فعل]{.arroot} is used as a template to showcase word and meaning patterns.
 
-Here is an example of some words and their patterns that are derived from the root  [كتب]{.ar} [ktb]{.trn}.
+Here is an example of some words and their patterns that are derived from the root  [كتب]{.arroot}:
 
 Word  | Pattern | Meaning 
 :----------|:-----------|:-----------
@@ -85,8 +85,8 @@ But there are some words where [اء]{.ar} [AE]{.trn} and [ىٰ]{.ar} [A]{.trn} 
 
 Word | Root | Note
 :--------------|:---------------|:------------------
-[دُعَاءٌ]{.ar} [dueAEun]{.trn}  | [دعو]{.arroot} | [و]{.ar} [w]{.trn} substituted with [ء]{.ar} [E]{.trn}
-[ٱَلْهُدَىٰ]{.ar} [EalhudA]{.trn} | [هدي]{.arroot} | [ي]{.ar} [y]{.trn} substituted with [ىٰ]{.ar} [A]{.trn}
+[دُعَاءٌ]{.ar} [dueAEun]{.trn}  | [دعو]{.arroot} | [و]{.ar} substituted with [ء]{.ar} 
+[ٱَلْهُدَىٰ]{.ar} [EalhudA]{.trn} | [هدي]{.arroot} | [ي]{.ar} substituted with [ىٰ]{.ar} 
 
 In such cases [اء]{.ar} [AE]{.trn} and [ىٰ]{.ar} [A]{.trn} will not be feminine markers and the words will be fully-changing, not non-fully-changing. As we progress in learning Arabic, it will become easier, if Allah wills, to identify when these endings are feminine markers external to the word's root and when they are not.
 
@@ -119,7 +119,7 @@ In this section we will give a brief introduction to proper nouns. We will give 
 
 Proper nouns in Arabic are always definite. Even though they are definite, most proper nouns do not start with [ٱَلْ]{.ar} [Eal]{.trn}.
 
-### Masculine names
+### Male names
 
 Here are some examples of male names: 
 
@@ -137,11 +137,11 @@ Sometimes, it is not clear from the sentence itself whether a word is used as a 
 OR  
 "[#saeId]{.trn2} came."
 
-### Femimine names
+### Female names
 
 Female names often, but not always, end with a feminine marker. They too are definite without [ٱَلْ]{.ar} [Eal]{.trn} but they differ from male names in that they are almost always non-fully-changing nouns. Therefore they don't have [n]{.trn}-marks. 
 
-Here are some examples of feminine names: 
+Here are some examples of female names: 
 
 + [جَمِيلَةُ]{.ar} [jamIlatu]{.trn} "[#jamIlah]{.trn2}"
 + [فَاطِمَةُ]{.ar} [faTimatu]{.trn} "[#fATimah]{.trn2}"
@@ -171,5 +171,7 @@ Just like common-nouns, proper nouns can be described using descriptive nouns. T
 
 [جَاءَ مُحَمَّدٌ ٱلْكَرِيمُ.]{.ar}  
 [jAEa muHammaduni -lkarImu.]{.trn}  
-"The generous [#muHammad]{.trn2} came."
+"[#muHammad]{.trn2} the generous came."
+
+<!-- FIXME: Isn't this a badal instead? Maybe remove this section. -->
 
