@@ -33,7 +33,7 @@ There are other plural patterns which are non-fully-changing, for example, [أَ
 
 Unfortunately, there is usually not much relation between the pattern of the singular and the pattern of the plural. So you should memorize the plural of a noun with its singular.
 
-## Common patterns for broken plural
+## Common patterns for the broken plural
 
 Here are some of the more common broken plural patterns:
 
@@ -42,7 +42,10 @@ Pattern | Example
 [أَفْعَالٌ]{.ar} [EafeAlun]{.trn} | [أَعْمَالٌ]{.ar} [EaemAlun]{.trn} "deeds" plural of [عَمَلٌ]{.ar} [eamalun]{.trn} "a deed"
 [فُعُولٌ]{.ar} [fueUlun]{.trn}   | [قُلُوبٌ]{.ar} [qulUbun]{.trn} "hearts" plural of [قَلْبٌ]{.ar} [qalbun]{.trn} "a heart"
 [فِعَالٌ]{.ar} [fieAlun]{.trn}   | [رِجَالٌ]{.ar} [rijAlun]{.trn} "men" plural of [رَجُلٌ]{.ar} [rajulun]{.trn} "a man"
-[كُتُبٌ]{.ar} [fueulun]{.trn}    | [كُتُبٌ]{.ar} [kutubun]{.trn} "books" plural of [كِتَابٌ]{.ar} [kitAbun]{.trn} "a book"
+[فُعُلٌ]{.ar} [fueulun]{.trn}    | [كُتُبٌ]{.ar} [kutubun]{.trn} "books" plural of [كِتَابٌ]{.ar} [kitAbun]{.trn} "a book"
+[فَعْلَىٰ]{.ar} [faelA]{.trn} (non-fully-changing)    | [أَسْرَىٰ]{.ar} [EasrA]{.trn} "captives" plural of [أَسِيرٌ]{.ar} [EasIrun]{.trn} "a captive"
+
+<!--[فَعْلَىٰ]{.ar} [faelA]{.trn}     | [مَرْضَىٰ]{.ar} [marDA]{.trn} "-->
 
 | Singular | Plural |
 |:------------------|:------------------|
@@ -51,11 +54,52 @@ Pattern | Example
 
 ## Usage of broken plurals
 
+### Rational and non-rational beings
+
 Note that [أَغْنِيَاءُ]{.ar} [EagniyAEu]{.trn} is the plural of the descriptive noun [غَنِيٌ]{.ar} [ganiyyun]{.trn} "rich". So just like for sound plurals, broken plurals can exist for both non-descriptive and descriptive nouns. And just like for sound plurals when a descriptive noun is describing a plural noun denoting non-rational beings, either as the describer in a noun-phrase, or in the information of a sentence, then the descriptive noun will typically not be pluralized. The feminine singular descriptive noun is used instead, even if the described noun is masculine. For example,
 
 [الرجال الأغنياء على جبال عالية]{.ar}  
+
+### Masculine and feminine nouns
+
+Broken plurals are relatively uncommon for nouns denoting female rational beings. Nevertheless, they do exist. For example, [إِمَاءٌ]{.ar} [EimAEun]{.trn} "slave-women" plural of [أَمَةٌ]{.ar} [Eamatun]{.trn} "a slave-woman", and [حَرَائِرُ]{.ar} [HarAEiru]{.trn} "free-women" plural of [حُرَّةٌ]{.ar} [Hurratun]{.trn} "a free-woman". Usually, though, the [At]{.trn} plural is used for female rational beings, both for non-descriptive and descriptive nouns. The common usage for broken plurals is then restricted to:
+
+1. Non-descriptive nouns: 
+   a. male rational beings. Examples:
+      + [غِلْمَانٌ]{.ar} [gilmAnun]{.trn} "boys" plural of [غُلَامٌ]{.ar} [gulAmun]{.trn} "a boy".
+      + [عُلَمَاءُ]{.ar} [eulamAEu]{.trn} "(male) scholars" plural of [عَالِمٌ]{.ar} [eAlimun]{.trn} "a (male) scholar".
+   b. non-rational beings (both masculine and feminine). Examples:
+      + [هِرَرٌ]{.ar} [hirarun]{.trn} "cats" plural of [هِرَّةٌ]{.ar} [hirratun]{.trn} "a cat".
+      + [سُيُوفٌ]{.ar} [suyUfun]{.trn} "swords" plural of [سَيْفٌ]{.ar} [sayfun]{.trn} "a sword".
+2. Descriptive nouns: male rational beings. (Descriptive nouns for female rational beings will use the [At]{.trn} plural. Descriptive nouns for non-rational beings, both masculine and feminine, will use the feminine singular when used as describers in a noun-phrase or the information of a sentence; and will use the [At]{.trn} plural otherwise.)
+
+So, for example, [عَالِمٌ]{.ar} [eAlimun]{.trn} "a (male) scholar" has the broken plural [عُلَمَاءُ]{.ar} [eulamAEu]{.trn}. But [عَالِمَةٌ]{.ar} [eAlimatun]{.trn} "a (female) scholar" will be pluralized as [عَالِمَاتٌ]{.ar} [eAlimAtun]{.trn}. Similarly, the descriptive noun [كَرِيمٌ]{.ar} [karImun]{.trn} (masc.) "noble, generous" has the broken plural [كِرَامٌ]{.ar} [kirAmun]{.trn}. But [كَرِيمَةٌ]{.ar} [karImatun]{.trn} (fem.) "noble, generous" is pluralized as [كَرِيمَاتٌ]{.ar} [karImAtun]{.trn}.
+
+Using them in sentences we will say:
+
+[ٱَلْعُلَمَاءُ كِرَامٌ وَٱلْعَالِمَاتُ كَرِيمَاتُ]{.ar}  
+[EaleulamAEu kirAmun wa-leAlimAtu kArImAtu]{.trn}  
+"The (male) scholars are noble and the (female) scholars are noble."
+
+### Multiple broken plurals for a noun
+
+Talib: TullAb, Talabah  
+amr: umUr, awAmir
+
+### Co-existence of sound and broken plurals
+
+There are many nouns which can be pluralized with both
 
 FIXME: Add broken plurals for descriptive nouns typically used for male rational beings.
 
 
 FIXME: show imra2ah-nisaa2 at the end as an exception, imra2-qawm, insaan-naas?
+
+## Vocabulary
+
+### List
+
+### Notes
+
+nisaa2 plural of imra2ah
+ashyaa2a is a diptote, despite being on pattern af3aalun
