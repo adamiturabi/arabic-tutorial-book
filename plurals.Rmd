@@ -122,9 +122,9 @@ Examples:
 
 ## Usage of sound plurals
 
-### Plurals with descriptive nouns
-
 It is not just non-descriptive nouns that have plurals. Descriptive nouns may be pluralized as well. For example, [طَيِّبٌ]{.ar} [Tayyibun]{.trn} has the [Un]{.trn} plural [طَيِّبُونَ]{.ar} [TayyibUna]{.trn} and the [At]{.trn} plural [طَيِّبَاتٌ]{.ar} [Tayyibaatun]{.trn}. In using plurals of descriptive nouns, however, Arabic distinguishes between rational beings (humans, angels, and jinn) and non-rational beings (animals, inanimate objects, abstract concepts, etc.).
+
+### Usage of sound plurals of descriptive nouns with rational beings
 
 When a descriptive noun is describing a plural noun denoting rational beings, then the descriptive noun will be pluralized. For example,
 
@@ -135,6 +135,10 @@ When a descriptive noun is describing a plural noun denoting rational beings, th
 [كَانَتِ ٱلْجَارِيَاتُ ٱلطَّوِيلَاتُ سَرِيعَاتٍ.]{.ar}  
 [kAnati -ljAriyAtu -TTawIlAtu sarIeAtin]{.trn}  
 "The tall girls were fast."
+
+### Usage of sound plurals of descriptive nouns with rational beings
+
+#### Normal usage
 
 When a descriptive noun is describing a plural noun denoting non-rational beings, either as the describer in a noun-phrase, or in the information of a sentence, then the descriptive noun will typically not be pluralized. The feminine singular descriptive noun is used instead, even if the described noun is masculine. For example,
 
@@ -174,3 +178,24 @@ is the subject of the sentence. It is used as a regular noun so it is pluralized
 
 It is also the described noun for the descriptive noun [قَوِيَّةٌ]{.ar} [qawiyyatun]{.trn} "strong". [قَوِيَّةٌ]{.ar} is feminine singular because it is the information of the sentence and is describing the non-human plural described noun [ٱَلْكَبِيرَاتُ]{.ar} [EalkabIrAtu]{.trn} "the big ones".
 
+#### Uncommon usage
+
+Using the feminine singular descriptive noun for plural non-rational beings, as we've explained above, is the more normal usage. However, it is allowed, and sometimes you may find, the sound [At]{.trn} plural of a descriptive noun beings used for non-rational beings even when it is a describer in a noun-phrase or in the information of a sentence. Thus you may see:
+
+[ٱَلْحَيَوَانَاتُ ٱلْكَبِيرَاتُ ثَقِيلَاتٌ.]{.ar}  
+[EalHayawAnAtu -lkabIrAtu vaqIlAtun.]{.trn}  
+"The big animals are heavy."
+
+instead of the normal usage:
+
+[ٱَلْحَيَوَنَاتُ ٱلْكَبِيرَةُ ثَقِيلَةٌ.]{.ar}  
+[EalHayawAnAtu -lkabIratu vaqIlatun.]{.trn}  
+"The big animals are heavy."
+
+Conversely, we may also find, in rare usage, the feminine singular descriptive noun being used for rational female beings when it is a describer in a noun-phrase or in the information of a sentence. For example,
+
+[جَارِيَاتٌ حَسَنَةٌ]{.ar}  
+[jAriyAtun Hasanatun]{.trn}  
+"good girls"
+
+For the beginner we recommend that you stick to the normal usage, instead of these rarer usages.
