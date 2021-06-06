@@ -1,4 +1,4 @@
-# The chaining of nouns
+# Noun-chains
 
 ## Introduction
 
@@ -16,17 +16,129 @@ In Arabic we express these types of phrases by chaining the two together thus:
 [Eummu -lgulAmi]{.trn}  
 "the mother of the boy", or, equivalently" "the boy's mother"
 
-## Rules for chaining nouns
+## Properties of chained nouns
+
+### Order of chained nouns
 
 The first noun in the chain is the noun before "of" and the second noun in the chain is the noun after "of".
 
-The first noun in the chain has neither an [n]{.trn} mark, or an [ٱَلْ]{.ar}, and the second noun in the chain will be in the i-state. The first noun may be in any state, depending on its function in the sentence. For example,
+### State of the chained nouns
 
-+ [وَجَدَ أُمَّ ٱلْغُلَامِ.]{.ar}  
-  [wajada Eumma -lgulAmi.]{.trn}  
-  "He found the boy's mother." (Note that [أُمَّ]{.ar} is in the a-state.)
-+ [ذَهَبَتْ إِلَىٰ أُمِّ ٱلْغُلَامِ.]{.ar}  
-  [pahabat EilA Eummi -lgulAmi.]{.trn}  
-  "She went to the boy's mother." (Note that [أُمِّ]{.ar} is in the i-state.)
+The first noun in the chain has neither an [n]{.trn} mark, nor an [ٱَلْ]{.ar}, and the second noun in the chain will be in the i-state. The first noun may be in any state, depending on its function in the sentence. For example,
 
+   + [وَجَدَ أُمَّ ٱلْغُلَامِ.]{.ar}  
+     [wajada Eumma -lgulAmi.]{.trn}  
+     "He found the boy's mother." (Note that [أُمَّ]{.ar} is in the a-state.)
+   + [ذَهَبَتْ إِلَىٰ أُمِّ ٱلْغُلَامِ.]{.ar}  
+     [pahabat EilA Eummi -lgulAmi.]{.trn}  
+     "She went to the boy's mother." (Note that [أُمِّ]{.ar} is in the i-state.)
+
+### Definiteness of the nouns in the chain
+
+As we mentioned above, the first noun in the chain can have neither an [n]{.trn} mark, nor an [ٱَلْ]{.ar}. The definiteness of both nouns is determined by examining the second noun in the chain. If the second noun is definite (either by having [ٱَلْ]{.ar}, or by being a proper noun), then both the nouns in the chain will be definite. And if the second noun is indefinite, then both the nouns in the chain will be indefinite. 
+
+[بَيْتُ مُحَمَّدٍ]{.ar}  
+[baytu muHammadin]{.trn}  
+"the  house of [#muHammad]{.trn2}"
+
+[بَيْتُ ٱلرَّجُلِ]{.ar}  
+[baytu -rrajuli]{.trn}  
+"The house of the man"
+
+[بَيْتُ رَجُلٍ]{.ar}  
+[baytu rajulin]{.trn}  
+"a house of a man"
+
+The question is, how then do we express phrases like "a house of the man" and "the house of a man"? In order to express the former, we can emply the preposition [لِ]{.ar}:
+
+[ذَهَبَ إِلَىٰ بَيْتٍ لِلرَّجُلِ.]{.ar}  
+[pahaba EilA baytin lirrajuli]{.trn}  
+"He went to a house for the man." = "He went to a house of the man."
+
+Another way to express this is that we may interpret the phase "a house of the man" to understand that the man has more than one house and that we are talking about one of them. In this case, we can use the plural to say,
+
+[ذَهَبَ إِلَىٰ بَيْتٍ مِنْ بُيُوتِ ٱلرَّجُلِ]{.ar}  
+[pahaba EilA baytin min buyUti -rrajuli.]{.trn}  
+"He went to a house from the houses of the man."
+
+This use of the plural, although fairly common, may be more appropriate in some cases than others, depending on the meaning of the sentence. We will also elaborate on the use of plurals in noun chains below.
+
+The question remains how to express a phrase of the type "the house of a man", where the first noun in definite and the second noun is indefinite.
+
+### Describers for nouns in noun-chains
+
+### Duals and plurals in noun chains
+
+#### Duals
+
+Remember that duals are expressed by suffixing [ـَانِ]{.ar} [Ani]{.trn} to the noun when it is in the u-state and [ـَيْنِ]{.ar} [ayni]{.trn} when it is in the a-state and i-state.
+
+If a dual is the second noun in a chain, then it is not treated any differently. For example,
+
+[بَيْتُ ٱلرَّجُلَيْنِ]{.ar}  
+[baytu -rrajulayni]{.trn}  
+"the house of the two men"
+
+If a dual is the first noun in a chain, then the [ن]{.ar} in the dual suffix is dropped. For example,
+
++ [بَيْتَا ٱلرَّجُلِ وَاسِعَانِ.]{.ar}  
+  [bayta -rrajuli wAsieAni.]{.trn}  
+  "The two houses of the man are spacious."
+
+  Note that [بَيْتَا ٱلرَّجُلِ ]{.ar} [bayta -rrajuli]{.trn} is technically pronounced identically to [بَيْتَ ٱلرَّجُلِ]{.ar} [bayta -rrajuli]{.trn}. The [Ealif]{.trn} in [بَيْتَا]{.ar} is not pronounced because of the connecting [hamzah]{.trn} after it. Some say that extra stress may be placed on the vowel [ta]{.trn} in order to convey that it is the dual: [bay#t#a -rrajuli]{.trn}.
+
++ [ذَهَبَ إِلَىٰ مَدِنَتَيْ بَلَدٍ.]{.ar}  
+  [pahaba EilA madInatay baladin.]{.trn}  
+  "He went to two cities of a country."
++ [فَتَحَ بَابَيِ ٱلْبَيْتِ.]{.ar}  
+  [fataHa bAbayi -lbayti.]{.trn}  
+  "He opened the two doors of the house."
+
+  Note that a helper [i]{.trn} vowel is placed on the [ي]{.ar} in [بَابَيِ]{.ar} [bAbayi]{.trn} instead of the rest-mark because of the connecting [hamzah]{.trn} after it.
+
+#### Plurals
+
+We have learned three kinds of plurals:
+
+1. The sound [Un]{.trn} plural.
+2. The sound [At]{.trn} plural.
+3. The broken plural.
+
+The sound [Un]{.trn} plural behaves similarly to the dual in that when it is the first noun in a chain, the [ن]{.ar} is dropped. Examples:
+
++ [مُعَلِّمُو ٱلْغُلَامِ فِي ٱلْمَدْرَسَةِ.]{.ar}  
+  [mueallimu -lgulAmi fi -lmadrasati.]{.trn}  
+  "The teachers of the boy are in the school."
+
+  Note, again, that [مُعَلِّمُو ٱلْغُلَامِ]{.ar} is technically pronounced identically to [مُعَلِّمُ ٱلْغُلَامِ]{.ar} [mueallimu -lgulAmi]{.trn}, except some say that extra stress may be placed on the vowel [مُ]{.ar} in the case of the plural [muealli#m#u -lgulAmi]{.trn}. This can serve to differentiate it from the singular when heard orally:
+
+  [مُعَلِّمُ ٱلْغُلَامِ فِي ٱلْمَدْرَسَةِ.]{.ar}  
+  [mueallimu -lgulAmi fi -lmadrasati.]{.trn}  
+  "The teacher of the boy is in the school."
+
++ [وَجَدَ مُعَلِّمي غُلَامٍ.]{.ar}  
+  [wajada mueallimI gulAmin.]{.trn}  
+  "He found teachers of a boy."
+
++ [ذَهَبَ إِلَىٰ مُعَلِّمِي ٱلْغُلَامِ.]{.ar}  
+  [pahaba EilA mueallimi -lgulAmi.]{.trn}  
+  "He went to the teachers of the boy."
+
+  Here too, some say to place extra stress on the vowel [مِ]{.ar} [muealli#m#i -lgulAmi]{.trn} in order to differentiate it to the listener from the singular:
+
++ [ذَهَبَ إِلَىٰ مُعَلِّمِ ٱلْغُلَامِ.]{.ar}  
+  [pahaba EilA mueallimi -lgulAmi.]{.trn}  
+  "He went to the teacher of the boy."
+
+The other two types of plurals: the sound [At]{.trn} plural and the broken plural are not treated any differently from other nouns when used in chains. Examples:
+
++ [بُيُوتِ الرَّجُلِ وَاسِعَةٌ.]{.ar}  
+  [buyUtu -rrajuli wAsieatun.]{.trn}  
+  "The houses of the man are spacious."
+
++ [ذَهَبَتِ ٱلْمَعَلِّمَةُ إِلَىٰ طَالِبَاتِ ٱلْمَدْرَسَةِ.]{.ar}  
+  [pahabati -lmueallimatu EilA TAlibAti -lmadrsati.]{.trn}  
+  "The (female) teacher went to the (girl) students of the school."
+
+### Non-fully changing nouns in noun-chains
 
