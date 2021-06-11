@@ -20,7 +20,7 @@ Arabic does not normally express the word "is". In order to express this sentenc
 
 "The house" is [ٱَلْبَيْتُ]{.ar} [albaytu]{.trn} and "a building" is [بِنَاءٌ]{.ar} [binAEun]{.trn}. In order to say "The house is a building" we put the [subject]{.syn} first and put its [information]{.syn} after it. Both the [subject]{.syn} and the [information]{.syn} are put in the u-state.
 
-[ٱَلْبَيْتُ بِنَاءٌ]{.ar}  
+[ٱَلْبَيْتُ بِنَاءٌ.]{.ar}  
 [Ealbaytu binAEun]{.trn}  
 "The house is a building."
 
@@ -33,7 +33,7 @@ Now let's try saying "The man is a teacher."
 
 Obviously "the man" can only be [مُعَلِّمٌ]{.ar} [mueallimun]{.trn} "a male teacher". So the sentence is:
 
-[ٱَلرَّجُلُ مُعَلِّمٌ]{.ar}  
+[ٱَلرَّجُلُ مُعَلِّمٌ.]{.ar}  
 [Earrajulu mueallimun]{.trn}  
 "The man is a (male) teacher."
 
@@ -46,7 +46,7 @@ Let's try another example: "The animal is a cat."
 
 Usually, in Arabic [هِرَّةٌ]{.ar} [hirratun]{.trn} "a female cat" is used for "a cat" if the animal's gender is not specified, or not important. So putting together the sentence we get:
 
-[ٱَلْحَيَوَانُ هِرَّةٌ]{.ar}  
+[ٱَلْحَيَوَانُ هِرَّةٌ.]{.ar}  
 [EalHayawAnu hirratun]{.trn}  
 "The animal is a cat."
 
@@ -65,23 +65,23 @@ but both of these can be applied to the [subject]{.syn}, because the [subject]{.
 
 We have already seen an example of matching the gender of the [information]{.syn} with the [subject]{.syn} in the example:
 
-[ٱَلرَّجُلُ مُعَلِّمٌ]{.ar}  
+[ٱَلرَّجُلُ مُعَلِّمٌ.]{.ar}  
 [Earrajulu mueallimun]{.trn}  
 "The man is a (male) teacher."
 
-## A definite noun as the [information]{.syn}
+## A definite noun as the [information]{.syn}  {#chap-smp-sent-sec-def-info}
 
 In all three examples above, the [information]{.syn} was an indefinite noun: "a building", "a teacher", "a cat". We can also make the [information]{.syn} a definite noun:
 
-[ٱَلْبَيْتُ ٱلْبِنَاءُ]{.ar}  
+[ٱَلْبَيْتُ ٱلْبِنَاءُ.]{.ar}  
 [Ealbaytu -lbinAEu]{.trn}  
 "The house is the building."
 
-[ٱَلرَّجُلُ ٱلْمُعَلِّمُ]{.ar}  
+[ٱَلرَّجُلُ ٱلْمُعَلِّمُ.]{.ar}  
 [Earrajulu -lmueallimu]{.trn}  
 "The man is the (male) teacher."
 
-[ٱَلْحَيَوَانُ ٱلْهِرَّةُ]{.ar}  
+[ٱَلْحَيَوَانُ ٱلْهِرَّةُ.]{.ar}  
 [EalHayawAnu -lhirratu]{.trn}  
 "The animal is the cat."
 
@@ -117,7 +117,7 @@ These are called pronouns for the _non-participator_ because they refer to a nou
 
 Here are some examples of pair of sentences, each first with a noun, and then with a pronoun in place of the noun:
 
-+ [ٱَلرَّجُلُ مُعَلِّمٌ]{.ar}  
++ [ٱَلرَّجُلُ مُعَلِّمٌ.]{.ar}  
   [Earrajulu mueallimun]{.trn}  
   "The man is a (male) teacher."
   
@@ -125,19 +125,25 @@ Here are some examples of pair of sentences, each first with a noun, and then wi
   [huwa mueallimun.]{.trn}  
   "He is a (male) teacher."
 
-+ [ٱَلمَرْأَةُ ٱلْمُعَلِّمَةُ]{.ar}  
++ [ٱَلْمُعَلِّمُ هُوَ.]{.ar}  
+  [Ealmueallimu huwa.]{.trn}  
+  "The (male) teacher is he."
+
+  Note above that detached pronouns can replace the noun in the information too.
+
++ [ٱَلمَرْأَةُ ٱلْمُعَلِّمَةُ.]{.ar}  
   [Earrajulu -lmueallimatu]{.trn}  
   "The woman is the (female) teacher."
 
-  [هِيَ ٱلْمُعَلِّمَةُ]{.ar}  
+  [هِيَ ٱلْمُعَلِّمَةُ.]{.ar}  
   [hiya -lmueallimatu.]{.trn}  
   "She is the (female) teacher."
 
-+ [ٱَلْبَيْتُ بِنَاءٌ]{.ar}  
++ [ٱَلْبَيْتُ بِنَاءٌ.]{.ar}  
   [Ealbaytu binAEun]{.trn}  
   "The house is a building."
 
-  [هُوَ بِنَاءٌ]{.ar}  
+  [هُوَ بِنَاءٌ.]{.ar}  
   [huwa binAEun.]{.trn}  
   "It is a building."
 
@@ -150,7 +156,7 @@ Here are some examples of pair of sentences, each first with a noun, and then wi
   [هُوَ مَدْرَسَةٌ.]{.ar}
   [huwa madrasatun.]{.trn}  
   or  
-  [هِيَ مَدْرَسَةٌ]{.ar}
+  [هِيَ مَدْرَسَةٌ.]{.ar}
   [hiya madrasatun.]{.trn}  
   "It is a school."
 
@@ -180,24 +186,63 @@ Here are the pronouns for the addressee and the speaker:
 
 1. [أَنْتَ]{.ar} [Eanta]{.trn} "you (masc.)".
 4. [أَنْتِ]{.ar} [Eanti]{.trn} "you (fem.)".
-5. [أَنَا]{.ar} [Eana]{.trn} "I". 
+5. [أَنَا]{.ar} [Eana]{.trn} "I (masc. & fem.)". 
 
-Note that "you" has separate pronouns for the masculine and the feminine while "I" has the same pronoun for both genders. Examples with these pronouns
+Note that The addressee pronoun "you" has separate pronouns for the masculine and the feminine while the speaker pronoun "I" has the same pronoun for both genders. Examples with these pronouns
 
-[ٱَلْبَيْتُ ٱلْبِنَاءُ]{.ar}  
++ [أَنْتَ مُعَلِّمٌ.]{.ar}  
+  [Eanta mueallimun.]{.trn}  
+  "You~masc.~ are the (male) teacher."
+
++ [أَنْتِ ٱلْمَرْأَةُ.]{.ar}  
+  [Eanti -lmarEatu.]{.trn}  
+  "You~fem.~ are the woman."
+
++ [ٱلْمُعَلِّمَةُ أَنَا.]{.ar}  
+  [Ealmueallimatu Eana.]{.trn}  
+  "The (female) teacher is I~fem.~."
+
++ [أَنَا مُعَلِّمٌ.]{.ar}  
+  [Eana mueallimun.]{.trn}  
+  "I~masc.~ am a (male) teacher."
+
+Note that the gender of the pronoun and the information match in these sentences.
+
+## Revisiting sentences with a definite noun in the information
+
+In section \@ref(chap-smp-sent-sec-def-info) above we said that information of a sentence can be definite and we gave the following examples:
+
+[ٱَلْبَيْتُ ٱلْبِنَاءُ.]{.ar}  
 [Ealbaytu -lbinAEu]{.trn}  
 "The house is the building."
 
-[ٱَلرَّجُلُ ٱلْمُعَلِّمُ]{.ar}  
+[ٱَلرَّجُلُ ٱلْمُعَلِّمُ.]{.ar}  
 [Earrajulu -lmueallimu]{.trn}  
 "The man is the (male) teacher."
 
-[ٱَلْحَيَوَانُ ٱلْهِرَّةُ]{.ar}  
+[ٱَلْحَيَوَانُ ٱلْهِرَّةُ.]{.ar}  
 [EalHayawAnu -lhirratu]{.trn}  
 "The animal is the cat."
 
+The above sentences, while correct, can also be interpreted as noun-phrases: "the building-house", "the teacher-man", "the cat-animal". In order to avoid this ambiguity we can, and generally do, add an untranslated pronoun between the subject and the information, thus:
 
-## Old intro to verbs
+[ٱَلْبَيْتُ هُوَ ٱلْبِنَاءُ.]{.ar}  
+[Ealbaytu -lbinAEu]{.trn}  
+"The house is the building."
+
+[ٱَلرَّجُلُ هُوَ ٱلْمُعَلِّمُ.]{.ar}  
+[Earrajulu  huwa-lmueallimu]{.trn}  
+"The man is the (male) teacher."
+
+[ٱَلْحَيَوَانُ هِيَ ٱلْهِرَّةُ.]{.ar}  
+[EalHayawAnu hiya -lhirratu]{.trn}  
+"The animal is the cat."
+
+This pronoun will serve to disambiguate such sentences from noun-phrases. We will learn more about this, if [AllAh]{.trn2} wills, in a later chapter when we study descriptive-nouns.
+
+## Remove:
+
+## Introduction to verbs
 
 We have just learned about Arabic sentences that have a [subject]{.syn} and some [information]{.syn} about the sentence. There is a second kind of Arabic sentence that begins with a verb.
 
