@@ -17,6 +17,8 @@ Each of these sentences has:
 
 Notice in each sentence that the verb "wrote" remains the same irrespective of the doer of the verb.
 
+## Doer pronouns
+
 In Arabic the doer pronoun is attached to the verb as a suffix. For example, the verb "wrote" in Arabic is [كَتَبْ]{.ar} [katab]{.trn}. And these are the doer pronoun suffixes:
 
 1. [◌َ]{.ar}  [a]{.trn}  "he"
@@ -45,26 +47,68 @@ Note that the doee [كِتَابًا]{.ar} [kitAban]{.trn} "a book" has an [an]{
 
 The doee may be a definite noun instead of an indefinite noun, in which case it shall lose the [n]{.trn}-mark and be prefixed with [ٱَلْ]{.ar} [Eal]{.trn}. However, it shall still be in the a-state. For example,
 
-[كَتَبَ ٱلْكِتَابَ.]{.ar}  
-[kataba -lkitAba.]{.trn}  
-"He wrote the book."
++ [كَتَبَ ٱلْكِتَابَ.]{.ar}  
+  [kataba -lkitAba.]{.trn}  
+  "He wrote the book."
+  
++ [كَتَبَتِ ٱلْكِتَابَ.]{.ar}  
+  [katabati -lkitAba.]{.trn}  
+  "She wrote the book."
+
+  Note that in this sentence, a connecting [hamzah]{.trn} followed the verb [كَتَبَتْ]{.ar} [katabat]{.trn} so the rest-mark on the final letter was changed to an [i]{.trn}-mark: [كَتَبَتِ]{.ar} [katabati]{.trn}. Care must be taken to distinguish this from [كَتَبْتِ]{.ar} [katabti]{.trn} "You~fem.~ wrote".
 
 ### Verbs with noun doers
 
 So far we have seen verbs whose doers were pronouns ("he", "she", "you", "I"). Similar to English, instead of these pronouns, verbs may have nouns as doers. For example,
 
-1. [كَتَبَ ٱلرَّجُلُ كِتَبًا.]{.ar}  
-   [kataba -rrajulu kitAban.]{.trn}  
-   "The man wrote a book."
-2. [كَتَبَتْ جَارِيَةٌ ٱلْكِتَابَ]{.ar}  
-   [katabat jAriyatuni -lkitAba.]{.trn}  
-   "A girl wrote the book."
++ [كَتَبَ ٱلرَّجُلُ كِتَبًا.]{.ar}  
+  [kataba -rrajulu kitAban.]{.trn}  
+  "The man wrote a book."
++ [كَتَبَتْ جَارِيَةٌ ٱلْكِتَابَ.]{.ar}  
+  [katabat jAriyatuni -lkitAba.]{.trn}  
+  "A girl wrote the book."
 
 Note that:
 
 + Even when the doer is a noun, the pronoun suffixes for "he" or "she" are still attached to the verb depending on the gender of the doer. However, they are not translated.
 + The doer nouns are in the u-state. Doer nouns shall generally be in the u-state. 
-+ The doer noun follows the verb. Sentence word order is somewhat flexible in Arabic but normally a verb's doer comes after the verb. English primarily uses word order to determine who the doer of a verb is and who the doee is. Conversely, Arabic uses the nouns' states to determine the doer and doee. As mentioned, the doer will be in the u-state and the doee will be in the a-state.
++ (FIXME: also add doer before verb). The doer noun follows the verb. Sentence word order is somewhat flexible in Arabic but normally a verb's doer comes after the verb. English primarily uses word order to determine who the doer of a verb is and who the doee is. Conversely, Arabic uses the nouns' states to determine the doer and doee. As mentioned, the doer will be in the u-state and the doee will be in the a-state.
+
+## Attached pronouns for the doee
+
+We had learned in the previous sentence that we can replace nouns with pronouns. And we learned the following detached pronouns:
+
+1. [هُوَ]{.ar} [huwa]{.trn} "he".
+2. [هِيَ]{.ar} [hiya]{.trn} "she".
+3. [أَنْتَ]{.ar} [Eanta]{.trn} "you (masc.)".
+4. [أَنْتِ]{.ar} [Eanti]{.trn} "you (fem.)".
+5. [أَنَا]{.ar} [Eana]{.trn} "I (masc. & fem.)". 
+
+Here we will learn that we can replace a doee noun with a pronoun too. In this case we will use _attached pronouns_. These pronouns are attached to the verb. Here are the attached pronouns for the singular:
 
 
+1. [ـهُ]{.ar} [-hu]{.trn} "him".
+2. [ـهَا]{.ar} [-hA]{.trn} "her".
+1. [ـكَ]{.ar} [-ka]{.trn} "you (masc.)".
+2. [ـكِ]{.ar} [-ki]{.trn} "you (fem.)".
+1. [ـنِي]{.ar} [-nI]{.trn} "me (masc. & fem)". 
 
+Here are some examples of verbs with both doer and doee pronouns:
+
++ [ضَرَبْتَهُ.]{.ar}  
+  [Darabtahu.]{.trn}  
+  "You~masc.~ hit him."
++ [ضَرَبَتْهَا]{.ar}  
+  [DarabathA]{.trn}  
+  "She hit her."
++ [ضَرَبُتُكَ.]{.ar}  
+  [Darabtuka.]{.trn}  
+  "I hit you~masc.~."
++ [ضَرَبَكِ.]{.ar}  
+  [Darabaki]{.trn}  
+  "He hit you~fem.~."
++ [ضَرَتْتِنِي.]{.ar}  
+  [DarabtinI.]{.trn}  
+  "You~fem.~ hit me."
+
+Where the ver has a doee pronoun and doer noun is mentioned, the doer noun must not come between the verb and the attached pronoun for the doee. Examples:
