@@ -59,16 +59,18 @@ The doee may be a definite noun instead of an indefinite noun, in which case it 
 
 ### Verbs with noun doers
 
-So far we have seen verbs whose doers were pronouns ("he", "she", "you", "I"). Similar to English, instead of these pronouns, verbs may have nouns as doers. For example,
+So far we have seen verbs whose doers were pronouns ("he", "she", "you", "I"). Similar to English, instead of these pronouns, verbs may have nouns as doers. When a verb has a doer noun, the doer-suffix is still kept (but not translated). Also, the doer noun may be placed before or after the verb. In this regard, Arabic sentence word order is more flexible than English. Normally, though, the verb comes before the doer-noun.
 
-+ [كَتَبَ ٱلرَّجُلُ كِتَبًا.]{.ar}  
-  [kataba -rrajulu kitAban.]{.trn}  
-  "The man wrote a book."
-+ [كَتَبَتْ جَارِيَةٌ ٱلْكِتَابَ.]{.ar}  
-  [katabat jAriyatuni -lkitAba.]{.trn}  
-  "A girl wrote the book."
+For example,
 
-Note that:
++ [كَتَبَتْ جَارِيَةٌ كِتَابًا.]{.ar}  
+  [katabat jAriyatun kitAban.]{.trn}  
+  "A girl wrote a book."
++ [ٱَلرَّجُلُ كَتَبَ ٱلْكِتَابَ.]{.ar}  
+  [Earrujulu kataba -lkitAba.]{.trn}  
+  "The man wrote the book."
+
+Arabic uses noun-state rather than word order to determine who the doer and the doee is. Note that the doer noun in the u-state and that the doee is in the a-state. Note also, as we mentioned, that the verb keeps its doer prefix when the doer noun is mentioned. In translating the sentence to English, however, we will not translate the doer prefix in sentences when the doer noun is present.
 
 + Even when the doer is a noun, the pronoun suffixes for "he" or "she" are still attached to the verb depending on the gender of the doer. However, they are not translated.
 + The doer nouns are in the u-state. Doer nouns shall generally be in the u-state. 
@@ -111,4 +113,34 @@ Here are some examples of verbs with both doer and doee pronouns:
   [DarabtinI.]{.trn}  
   "You~fem.~ hit me."
 
-Where the ver has a doee pronoun and doer noun is mentioned, the doer noun must not come between the verb and the attached pronoun for the doee. Examples:
+Where the verb has a doee pronoun and doer noun is mentioned, the doer noun must not come between the verb and the attached pronoun for the doee. Examples:
+
++ [ضَرَبَنِي زَيْدٌ.]{.ar}  
+  [DarabanI zaydun.]{.trn}  
+  "Zayd hit me."  
+  or  
+  [زَيْدٌ ضَرَبَنِي.]{.ar}  
+  [Zaydun DarabanI.]{.trn}  
+  "Zayd hit me."
+
+## Uncommon sentence word orders
+
+As we mentioned, Arabic sentence word order is more flexible than English. The normal word order is verb-doer-doee. Foe example,
+
+[كَتَبَ ٱلرَّجُلُ ٱلْكِتَابَ.]{.ar}  
+[kataba -rrujulu -lkitAba.]{.trn}  
+"The man wrote the book."
+
+The second most common word order is doer-verb-doee. This may be used to emphasize the doer. For example,
+
+[ٱَلرَّجُلُ كَتَبَ ٱلْكِتَابَ.]{.ar}  
+[Earrujulu kataba -lkitAba.]{.trn}  
+"**The man** wrote the book."
+
+In addition to the two more common sentence word orders above, other combinations are possible as well. Here is an example of a sentence with the word order doee-verb-doer. This sentence word may be employed to emphasize the doee.
+
+[ٱَلْكِتَابَ كَتَبَ ٱلرَّجُلُ.]{.ar}  
+[EalkitAba kataba -rrajulu.]{.trn}  
+"The man wrote **the book**."
+
+Note that in all the examples above, the doer is in the u-state and the doee is in the a-state.
