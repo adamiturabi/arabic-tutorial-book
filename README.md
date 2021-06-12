@@ -28,17 +28,21 @@ An online book that aims to teach Arabic.
 3. R
    ```
    sudo apt install R
+   sudo apt install libcurl4-openssl-dev libfontconfig1-dev libssl-dev libxml2-dev
    ```
 
 4. Rmarkdown and Bookdown
    1. Open R in a terminal
       ```
-      R
+      sudo R
       ```
    2. In R:
       ```
-      install.packages("rmarkdown")
-      install.packages("bookdown")
+      install.packages("rmarkdown", dependencies = TRUE)
+      install.packages("bookdown", dependencies = TRUE)
+      install.packages("kableExtra", dependencies = TRUE)
+      install.packages("tidyverse", dependencies = TRUE)
+      install.packages("pander", dependencies = TRUE)
       q()
       ```
 
