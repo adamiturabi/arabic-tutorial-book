@@ -1,5 +1,6 @@
 *.tex
 !bidi_art_templ.tex
+!default_latex_template.tex
 *.pdf
 *.aux
 *.out

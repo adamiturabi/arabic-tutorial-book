@@ -1,6 +1,26 @@
 ---
 title: "A Tutorial of Standard Arabic Grammar"
 author: "Ahmad Sheikh"
+documentclass: book
+geometry:
+- paperwidth=6in
+- paperheight=9in
+- bindingoffset=6mm
+- twoside
+fontsize: 10pt
+mainfont: Brill
+polyglossia-lang:
+  name: en
+polyglossia-otherlangs:
+  - name: arabic
+fontfamilies:
+  - name: \arabicfont
+    font: Vazir-Light
+    options: Script=Arabic,Scale=1.0
+  - name: \tradarab
+    font: Amiri
+    options: Script=Arabic,Scale=1.0
+csquotes: true
 output:
   bookdown::gitbook:
     pandoc_args: ["--lua-filter=trn.lua"]
@@ -36,11 +56,11 @@ output:
     number_sections: true
     pandoc_args: ["--lua-filter=trn.lua"]
     latex_engine: xelatex
+    template: default_latex_template.tex
     keep_tex: true
-    template: bidi_art_templ.tex
-documentclass: book
 ---
 
+<!--template: bidi_art_templ.tex-->
 # Preface {-}
 
 The primary texts of [#islAm]{.trn2} and much of its scholarly literature are in Arabic. However, there is a multitude of Muslims for whom Arabic is not a native language, yet who are familiar enough with English to study textbooks written in English. This goal of this book is to help them learn Arabic at a beginner's level so that they, if [#allAh]{.trn2} wills, can feel more connected to the primary texts and so that they can be empowered to begin to study [#islAm]{.trn2}ic literature.
