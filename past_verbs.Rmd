@@ -1,0 +1,163 @@
+# Past-tense verbs
+
+## Introduction
+
+Here are some English sentences with past-tense verbs:
+
++ He wrote a book.
++ She wrote a book.
++ You wrote a book.
++ I wrote a book.
+
+Each of these sentences has:
+
+1. a pronoun ("he", "she", "you", "I") which is the doer of the verb,
+2. the verb itself: "wrote", and
+3. the doee of the verb, i.e., the object upon whom the action of the verb is done: "a book".
+
+Notice in each sentence that the verb "wrote" remains the same irrespective of the doer of the verb.
+
+## Doer pronouns
+
+In Arabic the doer pronoun is attached to the past-tense verb as a suffix. For example, the verb "wrote" in Arabic is [كَتَبْ]{.ar} [katab]{.trn}. And these are the doer pronoun suffixes:
+
+1. [◌َ]{.ar}  [a]{.trn}  "he"
+2. [ـَتْ]{.ar} [at]{.trn} "she"
+3. [تَ]{.ar}  [ta]{.trn} "you (sing. masc.)"
+4. [تِ]{.ar}  [ti]{.trn} "you (sing. fem.)"
+5. [تُ]{.ar}  [tu]{.trn} "I (masc. & fem.)"
+
+Each of these can be attached to the basic verb stem [كَتَبْ]{.ar} [katab]{.trn} "wrote":
+
+1. [◌َ]{.ar}  + [كَتَبْ]{.ar} = [كَتَبَ]{.ar}   [kataba]{.trn} "He wrote."
+2. [ـَتْ]{.ar} + [كَتَبْ]{.ar} = [كَتََبَتْ]{.ar}  [katabat]{.trn} "She wrote."
+3. [تَ]{.ar}  + [كَتَبْ]{.ar} = [كَتَبْتَ]{.ar}  [katabta]{.trn} "You (sing. masc.) wrote."
+4. [تِ]{.ar}  + [كَتَبْ]{.ar} = [كَتَبْتِ]{.ar}  [katabti]{.trn} "You (sing. fem.) wrote."
+5. [تُ]{.ar}  + [كَتَبْ]{.ar} = [كَتَبْتُ]{.ar}  [katabtu]{.trn} "I (masc. & fem.) wrote."
+
+The above are complete sentences in and of themselves. However, we can add the doee ("a book") too:
+
+1.  [كَتَبَ كِتَابًا.]{.ar} [kataba kitAban.]{.trn} "He wrote a book."
+2. [كَتََبَتْ كِتَابًا.]{.ar} [katabat kitAban.]{.trn} "She wrote a book."
+3. [كَتَبْتَ كِتَابًا.]{.ar} [katabta kitAban.]{.trn} "You (sing. masc.) wrote a book."
+4. [كَتَبْتِ كِتَابًا.]{.ar} [katabti kitAban.]{.trn} "You (sing. fem.) wrote a book."
+5. [كَتَبْتُ كِتَابًا.]{.ar} [katabtu kitAban.]{.trn} "I (masc. & fem.) wrote a book."
+
+Note that the doee [كِتَابًا]{.ar} [kitAban]{.trn} "a book" has an [an]{.trn}-mark and is therefore in the a-state. Direct doees of verbs shall be in the a-state.
+
+The doee may be a definite noun instead of an indefinite noun, in which case it shall lose the [n]{.trn}-mark and be prefixed with [ٱَلْ]{.ar} [Eal]{.trn}. However, it shall still be in the a-state. For example,
+
++ [كَتَبَ ٱلْكِتَابَ.]{.ar}  
+  [kataba -lkitAba.]{.trn}  
+  "He wrote the book."
+  
++ [كَتَبَتِ ٱلْكِتَابَ.]{.ar}  
+  [katabati -lkitAba.]{.trn}  
+  "She wrote the book."
+
+  Note that in this sentence, a connecting [hamzah]{.trn} followed the verb [كَتَبَتْ]{.ar} [katabat]{.trn} so the rest-mark on the final letter was changed to an [i]{.trn}-mark: [كَتَبَتِ]{.ar} [katabati]{.trn}. Care must be taken to distinguish this from [كَتَبْتِ]{.ar} [katabti]{.trn} "You~fem.~ wrote".
+
+### Verbs with noun doers
+
+So far we have seen verbs whose doers were pronouns ("he", "she", "you", "I"). Similar to English, instead of these pronouns, verbs may have nouns as doers. When a verb has a doer noun, the doer-suffix is still kept (but not translated). Also, the doer noun may be placed before or after the verb. In this regard, Arabic sentence word order is more flexible than English. Normally, though, the verb comes before the doer-noun.
+
+For example,
+
++ [كَتَبَتْ جَارِيَةٌ كِتَابًا.]{.ar}  
+  [katabat jAriyatun kitAban.]{.trn}  
+  "A girl wrote a book."
++ [ٱَلرَّجُلُ كَتَبَ ٱلْكِتَابَ.]{.ar}  
+  [Earrujulu kataba -lkitAba.]{.trn}  
+  "The man wrote the book."
+
+Arabic uses noun-state rather than word order to determine who the doer and the doee is. Note that the doer noun in the u-state and that the doee is in the a-state. Note also, as we mentioned, that the verb keeps its doer prefix when the doer noun is mentioned. In translating the sentence to English, however, we will not translate the doer prefix in sentences when the doer noun is present.
+
++ Even when the doer is a noun, the pronoun suffixes for "he" or "she" are still attached to the verb depending on the gender of the doer. However, they are not translated.
++ The doer nouns are in the u-state. Doer nouns shall generally be in the u-state. 
++ (FIXME: also add doer before verb). The doer noun follows the verb. Sentence word order is somewhat flexible in Arabic but normally a verb's doer comes after the verb. English primarily uses word order to determine who the doer of a verb is and who the doee is. Conversely, Arabic uses the nouns' states to determine the doer and doee. As mentioned, the doer will be in the u-state and the doee will be in the a-state.
+
+## Attached pronouns for the doee
+
+We had learned in the previous sentence that we can replace nouns with pronouns. And we learned the following detached pronouns:
+
+1. [هُوَ]{.ar} [huwa]{.trn} "he".
+2. [هِيَ]{.ar} [hiya]{.trn} "she".
+3. [أَنْتَ]{.ar} [Eanta]{.trn} "you (masc.)".
+4. [أَنْتِ]{.ar} [Eanti]{.trn} "you (fem.)".
+5. [أَنَا]{.ar} [Eana]{.trn} "I (masc. & fem.)". 
+
+Here we will learn that we can replace a doee noun with a pronoun too. In this case we will use _attached pronouns_. These pronouns are attached to the verb. Here are the attached pronouns for the singular:
+
+1. [ـهُ]{.ar} [-hu]{.trn} "him". This pronoun becomes[هِ]{.ar} [hi]{.trn} if it is preceded by the vowels [◌ِ]{.ar}. <!-- [i]{.trn}, [ـِي]{.ar} [I]{.trn}, or the semi-vowel [ـَيْ]{.ar} [ay]{.trn}.-->
+2. [ـهَا]{.ar} [-hA]{.trn} "her".
+1. [ـكَ]{.ar} [-ka]{.trn} "you (masc.)".
+2. [ـكِ]{.ar} [-ki]{.trn} "you (fem.)".
+1. [ـنِي]{.ar} [-nI]{.trn} "me (masc. & fem)". 
+
+Here are some examples of verbs with both doer and doee pronouns:
+
++ [ضَرَبَهُ.]{.ar}  
+  [Darabahu.]{.trn}  
+  "He hit him."
++ [ضَرَبْتِهِ.]{.ar}  
+  [Darabtihi.]{.trn}  
+  "You~fem.~ hit him."
++ [ضَرَبَتْهَا]{.ar}  
+  [DarabathA]{.trn}  
+  "She hit her."
++ [ضَرَبُتُكَ.]{.ar}  
+  [Darabtuka.]{.trn}  
+  "I hit you~masc.~."
++ [ضَرَبَكِ.]{.ar}  
+  [Darabaki]{.trn}  
+  "He hit you~fem.~."
++ [ضَرَبْتَنِي.]{.ar}  
+  [DarabtanI.]{.trn}  
+  "You~masc.~ hit me."
+
+Where the verb has a doee pronoun and doer noun is mentioned, the doer noun must not come between the verb and the attached pronoun for the doee. Examples:
+
++ [ضَرَبَنِي ٱلرَّجُلُ..]{.ar}  
+  [Darabani -rrujulu.]{.trn}  
+  "The man hit me."
+  or  
+  [ٱَلرُّجُلُ ضَرَبَنِي.]{.ar}  
+  [Earrujulu DarabanI.]{.trn}  
+  "The man hit me."
+
+## Sentence word order
+
+As we mentioned, Arabic sentence word order is more flexible than English. The normal word order is verb-doer-doee. Foe example,
+
+[كَتَبَ ٱلرَّجُلُ ٱلْكِتَابَ.]{.ar}  
+[kataba -rrujulu -lkitAba.]{.trn}  
+"The man wrote the book."
+
+The second most common word order is doer-verb-doee. This may be used to emphasize the doer. For example,
+
+[ٱَلرَّجُلُ كَتَبَ ٱلْكِتَابَ.]{.ar}  
+[Earrujulu kataba -lkitAba.]{.trn}  
+"**The man** wrote the book."
+
+In addition to the two more common sentence word orders above, other combinations are possible as well. Here is an example of a sentence with the word order doee-verb-doer. This sentence word may be employed to emphasize the doee.
+
+[ٱَلْكِتَابَ كَتَبَ ٱلرَّجُلُ.]{.ar}  
+[EalkitAba kataba -rrajulu.]{.trn}  
+"The man wrote **the book**."
+
+Note that in all the examples above, the doer is in the u-state and the doee is in the a-state.
+
+### Multiple verbs in a sentence
+
+In a sentence that has multiple verbs separated by "and", normally one of them is placed before the doer and the rest after it. For example,
+
+[أَكَلَ ٱلرَّجُلُ وَشَرِبَ.]{.ar}  
+[Eakala -rraujulu washariba.]{.trn}  
+"The man ate and drank."
+
+It is also possible to place both verbs after the doer, like:
+
+[ٱَلرَّجُلُ أَكَلَ وَشَرِبَ.]{.ar}  
+[Earrujulu Eakala washariba.]{.trn}  
+"The man ate and drank."
+

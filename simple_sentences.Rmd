@@ -1,11 +1,6 @@
-# Simple sentences
+# Subject-information sentences
 
-Arabic has two kinds of sentences:
-
-1. [subject]{.syn}-[information]{.syn} sentences
-2. Verbal sentences
-
-## [subject-information]{.syn} sentences
+## Introduction
 
 Here is a simple sentence:
 
@@ -20,8 +15,8 @@ Arabic does not normally express the word "is". In order to express this sentenc
 
 "The house" is [ٱَلْبَيْتُ]{.ar} [albaytu]{.trn} and "a building" is [بِنَاءٌ]{.ar} [binAEun]{.trn}. In order to say "The house is a building" we put the [subject]{.syn} first and put its [information]{.syn} after it. Both the [subject]{.syn} and the [information]{.syn} are put in the u-state.
 
-[ٱَلْبَيْتُ بِنَاءٌ]{.ar}  
-[Ealbaytu binAEun]{.trn}  
+[ٱَلْبَيْتُ بِنَاءٌ.]{.ar}  
+[Ealbaytu binAEun.]{.trn}  
 "The house is a building."
 
 Now let's try saying "The man is a teacher."
@@ -33,8 +28,8 @@ Now let's try saying "The man is a teacher."
 
 Obviously "the man" can only be [مُعَلِّمٌ]{.ar} [mueallimun]{.trn} "a male teacher". So the sentence is:
 
-[ٱَلرَّجُلُ مُعَلِّمٌ]{.ar}  
-[Earrajulu mueallimun]{.trn}  
+[ٱَلرَّجُلُ مُعَلِّمٌ.]{.ar}  
+[Earrajulu mueallimun.]{.trn}  
 "The man is a (male) teacher."
 
 Let's try another example: "The animal is a cat."
@@ -46,8 +41,8 @@ Let's try another example: "The animal is a cat."
 
 Usually, in Arabic [هِرَّةٌ]{.ar} [hirratun]{.trn} "a female cat" is used for "a cat" if the animal's gender is not specified, or not important. So putting together the sentence we get:
 
-[ٱَلْحَيَوَانُ هِرَّةٌ]{.ar}  
-[EalHayawAnu hirratun]{.trn}  
+[ٱَلْحَيَوَانُ هِرَّةٌ.]{.ar}  
+[EalHayawAnu hirratun.]{.trn}  
 "The animal is a cat."
 
 Note that, in this sentence, the [subject]{.syn} [ٱَلْحَيَوَانُ]{.ar} [alHayawAnu]{.trn} "the animal" is a masculine noun. And the [information]{.syn} 
@@ -65,24 +60,24 @@ but both of these can be applied to the [subject]{.syn}, because the [subject]{.
 
 We have already seen an example of matching the gender of the [information]{.syn} with the [subject]{.syn} in the example:
 
-[ٱَلرَّجُلُ مُعَلِّمٌ]{.ar}  
-[Earrajulu mueallimun]{.trn}  
+[ٱَلرَّجُلُ مُعَلِّمٌ.]{.ar}  
+[Earrajulu mueallimun.]{.trn}  
 "The man is a (male) teacher."
 
-## A definite noun as the [information]{.syn}
+## A definite noun as the [information]{.syn} {#chap-smp-sent-sec-def-info}
 
 In all three examples above, the [information]{.syn} was an indefinite noun: "a building", "a teacher", "a cat". We can also make the [information]{.syn} a definite noun:
 
-[ٱَلْبَيْتُ ٱلْبِنَاءُ]{.ar}  
-[Ealbaytu -lbinAEu]{.trn}  
+[ٱَلْبَيْتُ ٱلْبِنَاءُ.]{.ar}  
+[Ealbaytu -lbinAEu.]{.trn}  
 "The house is the building."
 
-[ٱَلرَّجُلُ ٱلْمُعَلِّمُ]{.ar}  
-[Earrajulu -lmueallimu]{.trn}  
+[ٱَلرَّجُلُ ٱلْمُعَلِّمُ.]{.ar}  
+[Earrajulu -lmueallimu.]{.trn}  
 "The man is the (male) teacher."
 
-[ٱَلْحَيَوَانُ ٱلْهِرَّةُ]{.ar}  
-[EalHayawAnu -lhirratu]{.trn}  
+[ٱَلْحَيَوَانُ ٱلْهِرَّةُ.]{.ar}  
+[EalHayawAnu -lhirratu.]{.trn}  
 "The animal is the cat."
 
 ## An indefinite noun as the [subject]{.syn}
@@ -94,119 +89,151 @@ How about making the [subject]{.syn} an indefinite noun? Can we say:
 
 It turns out that sentences where the [subject]{.syn} is an indefinite noun are not as simple to express in Arabic. We will learn some ways of expressing them later if Allah wills.
 
-## Introduction to verbs
+## Detached pronouns
 
-We have just learned about Arabic sentences that have a [subject]{.syn} and some [information]{.syn} about the sentence. There is a second kind of Arabic sentence that begins with a verb.
+Pronouns are words used in place of nouns. They include words like "he", "she", "it", "you", "I", etc. So you can have a sentence with a noun, like:
 
-Here we will give a short introduction to Arabic verbs so that we can form more meaningful sentences. We will also deal with them in more detail in a later chapter, if Allah wills.
+"The man is a teacher."
 
-As an example, [كَتَبَ]{.ar} [kataba]{.trn} "[he] wrote" is an Arabic verb. Here is a sentence that uses this verb:
+Or you can replace the noun with a pronoun:
 
-[كَتَبَ ٱلرَّجُلُ كِتَابًا.]{.ar}  
-[kataba -rrajulu kitAban]{.trn}  
-"The man wrote a book."
+"He is a teacher."
 
-Let's analyze this sentence. The verb comes in the beginning of the sentence. It is followed by the [doer]{.syn} of the verb "the man" in the u-state. Finally, we see the [object]{.syn} of the verb "a book" in the a-state.
+The word "he" in the above sentence is a pronoun. In Arabic there are a few different kinds of pronouns. Here we will learn _detached pronouns_. They are called detached pronouns because they are not attached to another word. 
 
-This is the normal order of verbs in Arabic: the verb comes first, followed by the [doer]{.syn}, followed by the [object]{.syn}. The [doer]{.syn} will be in the u-state and the [object]{.syn} will be in the a-state.
+### Detached pronouns for the non-participator
 
-Here are some more examples of Arabic verbs:
+Here are the Arabic detached pronouns for "he" and "she":
 
-| Arabic verb   | Transcription   | Meaning          |
-|:--------------|:----------------|:-----------------|
-|[فَتَحَ]{.ar}     |[fataHa]{.trn}   | [He] opened      |
-|[أَكَلَ]{.ar}     |[Eakala]{.trn}   | [He] ate         |
-|[شَرِبَ]{.ar}     |[cariba]{.trn}   | [He] drank       |
-|[دَخَلَ]{.ar}     |[daxala]{.trn}   | [He] entered     |
-|[قَرَأَ]{.ar}     |[qaraEa]{.trn}   | [He] read        |
-|[أَخَذَ]{.ar}     |[Eaxapa]{.trn}   | [He] took        |
+1. [هُوَ]{.ar} [huwa]{.trn} "he".
+2. [هِيَ]{.ar} [hiya]{.trn} "she".
 
-In sentences with verbs, the [doer]{.syn} and the [object]{.syn} can be either definite or indefinite. Here are some examples.
+These are called pronouns for the _non-participator_ because they refer to a noun which is not participating in the conversation. That is, this person is neither the speaker, nor the person who is being spoken to (the _addressee_).
 
-[فَتَحَ رَجُلٌ ٱلْبَابَ.]{.ar}  
-[fataHa rajuluni -lbAba]{.trn}  
-"A man opened the door."
+Here are some examples of pair of sentences, each first with a noun, and then with a pronoun in place of the noun:
 
-[شَرِبَ ٱلْغُلَامُ ٱللَّبَنَ.]{.ar}  
-[cariba l-gulAmu -llabana]{.trn}  
-"The boy drank the milk."
++ [ٱَلرَّجُلُ مُعَلِّمٌ.]{.ar}  
+  [Earrajulu mueallimun.]{.trn}  
+  "The man is a (male) teacher."
+  
+  [هُوَ مُعَلِّمٌ.]{.ar}  
+  [huwa mueallimun.]{.trn}  
+  "He is a (male) teacher."
 
-[أَكَلَ أَسَدٌ بَقَرَةً.]{.ar}  
-[Eakala Easadun baqaratan]{.trn}  
-"A lion ate a cow."
++ [ٱَلْمُعَلِّمُ هُوَ.]{.ar}  
+  [Ealmueallimu huwa.]{.trn}  
+  "The (male) teacher is he."
 
-In all the examples so far the [doer]{.syn} of the verb was maculine. If the [doer]{.syn} of the verb is feminine then we modify the verb by adding [تْ]{.ar} after it:
+  Note above that detached pronouns can replace the noun in the information too.
 
-| Arabic verb   | Transcription   | Meaning          |
-|:--------------|:----------------|:-----------------|
-|[فَتَحَتْ]{.ar}    |[fataHat]{.trn}  | [She] opened     |
-|[أَكَلَتْ]{.ar}    |[Eakalat]{.trn}  | [She] ate        |
-|[شَرِبَتْ]{.ar}    |[caribat]{.trn}  | [She] drank      |
-|[دَخَلَتْ]{.ar}    |[daxalat]{.trn}  | [She] entered    |
-|[قَرَأَتْ]{.ar}    |[qaraEat]{.trn}  | [She] read       |
-|[أَخَذَتْ]{.ar}    |[Eaxapat]{.trn}  | [She] took       |
++ [ٱَلمَرْأَةُ ٱلْمُعَلِّمَةُ.]{.ar}  
+  [Earrajulu -lmueallimatu.]{.trn}  
+  "The woman is the (female) teacher."
 
-[دَخَلَتْ جَارِيَةٌ بَيْتًا.]{.ar}  
-[daxalat jAriyatun baytan]{.trn}  
-"A girl entered a house."
+  [هِيَ ٱلْمُعَلِّمَةُ.]{.ar}  
+  [hiya -lmueallimatu.]{.trn}  
+  "She is the (female) teacher."
 
-[شَرِبَتْ هِرَّةٌ ٱللَّبَنَ.]{.ar}  
-[caribat hirratuni -llabana]{.trn}  
-"A cat drank the milk."
++ [ٱَلْبَيْتُ بِنَاءٌ.]{.ar}  
+  [Ealbaytu binAEun.]{.trn}  
+  "The house is a building."
 
-If there is a connecting [hamzah]{.trn} after the verb then then null-vowel mark on the [tAE]{.trn} [تْ]{.ar} becomes an [i]{.trn}-mark [تِ]{.ar}:
+  [هُوَ بِنَاءٌ.]{.ar}  
+  [huwa binAEun.]{.trn}  
+  "It is a building."
 
-[أَكَلَتِ ٱمْرَأَةٌ ٱلطَّعَامَ.]{.ar}  
-[Eakalati -mraEatuni -TTaeAma]{.trn}  
-"A woman ate the food."
+  Note that Arabic uses the pronoun [هُوَ]{.ar} [huwa]{.trn} "he" to refer to the inanimate object "the house". This is because, as we know, all nouns in Arabic are either masculine or feminine. In translating the sentence to English we will employ the neuter pronoun "it" to make the sentence sound natural.
 
-[قَرَأَتِ ٱلْمَرْأَةُ ٱلْكِتَابَ.]{.ar}  
-[qaraEati -lmarEatu -lkitAba]{.trn}  
-"The woman read the book."
++ [ٱَلْبِنَاءُ مَدْرَسَةٌ.]{.ar}  
+  [EalbinAEu madrasatun.]{.trn}  
+  "The building is a school."
 
-Just like in English we can have sentences with verbs where the [object]{.syn} of the verb is not mentioned:
+  [هُوَ مَدْرَسَةٌ.]{.ar}
+  [huwa madrasatun.]{.trn}  
+  or  
+  [هِيَ مَدْرَسَةٌ.]{.ar}
+  [hiya madrasatun.]{.trn}  
+  "It is a school."
 
-[شَرِبَ ٱلْغُلَامُ.]{.ar}  
-[cariba l-gulAmu]{.trn}  
-"The boy drank."
+  Note that either [هُوَ]{.ar} [huwa]{.trn} "he" or [هِيَ]{.ar} [hiya]{.trn} "she" can be used in the above sentence because the gender of the subject [ٱَلْبِنَاءُ]{.ar} [EalbinAEu]{.trn} "the building" (masc.) mismatches the gender of the information [مَدْرَسَةٌ]{.ar} [madrasatun]{.trn} "a school." (fem.).
 
-[أَكَلَ أَسَدٌ.]{.ar}  
-[Eakala Easadun]{.trn}  
-"A lion ate."
+  In such cases where the genders of the subject and the information do not match, then, generally speaking, the pronoun for either gender could be employed with the following guideline:
 
-[قَرَأَتِ ٱلْمَرْأَةُ.]{.ar}  
-[qaraEati -lmarEatu]{.trn}  
-"The woman read."
+  Prefer to match the gender of the subject pronoun with the gender of the information, unless the noun being replaced with a pronoun is an animate being, in which case prefer to use the gender of the animate being. 
 
-## [subject-information]{.syn} verbs
+  So in the above sentence we will prefer to use [هِيَ مَدْرَسَةٌ]{.ar} [hiya madrasatun]{.trn} because the information [مَدْرَسَةٌ]{.ar} [madrasatun]{.trn} "a school" is feminine.
 
-As we've already mentioned Arabic does not normally express the word "is". However, it does express the verb "was".
++ Here is an example with an animate being as the subject:
 
-| Arabic verb | Transcription | Meaning     |
-|:------------|:--------------|:------------|
-| [كَانَ]{.ar}  | [kAna]{.trn}  | [He] was    |
-| [كَانَتْ]{.ar} | [kAnat]{.trn} | [She] was   |
+  [ٱَلْمَرْأَةُ إِنْسَانٌ.]{.ar}  
+  [EalmarEatu InsAnun.]{.trn}  
+  "The woman is a human."
 
-[كَانَ]{.ar} [kAna]{.trn} behaves like any other verb in that its [doer]{.syn} is in the u-state and its [object]{.syn} is in the a-state. Examples:
+  [هِيَ إِنْسَانٌ.]{.ar}  
+  [hiya InsAnun.]{.trn}  
+  "She is a human."
 
-[كَانَ ٱلْبِنَاءُ مَدْرَسَةً.]{.ar}  
-[kAna -lbinAEu madrasatan]{.trn}  
-"The building was a school."
+  Here, if we replace the noun [ٱَلْمَرْأَةُ]{.ar} [EalmarEatu]{.trn} "the woman" with a pronoun, we will prefer to use [هِيَ]{.ar} [hiya]{.trn} "she" even though the information [إِنْسَانٌ]{.ar} [EinsAnun]{.trn} "a human" is masculine.
 
-[كَانَتِ ٱلْمَرْأَةُ أُمًّا.]{.ar}  
-[kAnati -lmarEatu Eumman]{.trn}  
-"The woman was a mother."
+### Detached pronouns for the addressee and the speaker
 
-However, this verb is special and a little different from other verbs. The [doer]{.syn} is not really doing any action. In fact, in meaning it is the [subject]{.syn} of a sentence and the [object]{.syn} of the verb is the [information]{.syn} about the [subject]{.syn}.
+Here are the pronouns for the addressee and the speaker:
 
-[كَانَ]{.ar} [kAna]{.trn} is an example of "[subject-information]{.syn} verbs".  Sentences that start with [subject-information]{.syn} verbs are both [subject]{.syn}-[information]{.syn} sentences and verbal sentences.
+1. [أَنْتَ]{.ar} [Eanta]{.trn} "you (masc.)".
+4. [أَنْتِ]{.ar} [Eanti]{.trn} "you (fem.)".
+5. [أَنَا]{.ar} [Eana]{.trn} "I (masc. & fem.)". 
 
-There are a few other verbs like [كَانَ]{.ar}, for example:
+Note that The addressee pronoun "you" has separate pronouns for the masculine and the feminine while the speaker pronoun "I" has the same pronoun for both genders. Examples with these pronouns
 
-| Arabic verb | Transcription | Meaning     |
-|:------------|:--------------|:------------|
-| [صَارَ]{.ar}  | [SAra]{.trn}  | [He] became |
-| [صَارَتْ]{.ar} | [SArat]{.trn} | [She] became|
++ [أَنْتَ مُعَلِّمٌ.]{.ar}  
+  [Eanta mueallimun.]{.trn}  
+  "You~masc.~ are the (male) teacher."
+
++ [أَنْتِ ٱلْمَرْأَةُ.]{.ar}  
+  [Eanti -lmarEatu.]{.trn}  
+  "You~fem.~ are the woman."
+
++ [ٱلْمُعَلِّمَةُ أَنَا.]{.ar}  
+  [Ealmueallimatu Eana.]{.trn}  
+  "The (female) teacher is I~fem.~."
+
++ [أَنَا مُعَلِّمٌ.]{.ar}  
+  [Eana mueallimun.]{.trn}  
+  "I~masc.~ am a (male) teacher."
+
+Note that the gender of the pronoun and the information match in these sentences.
+
+## Revisiting sentences with a definite noun in the information {#chap-smp-sent-sec-def-info-revis}
+
+In section \@ref(chap-smp-sent-sec-def-info) above we said that information of a sentence can be definite and we gave the following examples:
+
+[ٱَلْبَيْتُ ٱلْبِنَاءُ.]{.ar}  
+[Ealbaytu -lbinAEu.]{.trn}  
+"The house is the building."
+
+[ٱَلرَّجُلُ ٱلْمُعَلِّمُ.]{.ar}  
+[Earrajulu -lmueallimu.]{.trn}  
+"The man is the (male) teacher."
+
+[ٱَلْحَيَوَانُ ٱلْهِرَّةُ.]{.ar}  
+[EalHayawAnu -lhirratu.]{.trn}  
+"The animal is the cat."
+
+The above sentences, while correct, can also be interpreted as noun-phrases: "the building-house", "the teacher-man", "the cat-animal". In order to avoid this ambiguity we can, and generally do, add an untranslated pronoun between the subject and the information, thus:
+
+[ٱَلْبَيْتُ هُوَ ٱلْبِنَاءُ.]{.ar}  
+[Ealbaytu -lbinAEu.]{.trn}  
+"The house is the building."
+
+[ٱَلرَّجُلُ هُوَ ٱلْمُعَلِّمُ.]{.ar}  
+[Earrajulu  huwa-lmueallimu.]{.trn}  
+"The man is the (male) teacher."
+
+[ٱَلْحَيَوَانُ هِيَ ٱلْهِرَّةُ.]{.ar}  
+[EalHayawAnu hiya -lhirratu.]{.trn}  
+"The animal is the cat."
+
+This pronoun will serve to disambiguate such sentences from noun-phrases. We will learn more about this, if [#allAh]{.trn2} wills, in a later chapter when we study descriptive-nouns.
 
 ## The word "and"
 

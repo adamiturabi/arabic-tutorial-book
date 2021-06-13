@@ -263,6 +263,137 @@ In this case we will use the same expression as we did for "a house of a man":
 
 Technically, "house" is indefinite in this expression, but it can still be used idiomatically to translate "the house of a man." It may help to use apostrophe-s in the translation where the definiteness of "house" is not apparent: "a man's house".
 
+## Pronouns in a noun-chain
+
+Consider the noun-chain:
+
+[بَيْتُ ٱلرَّجُلِ]{.ar}  
+[baytu -rrajuli]{.trn}  
+"the house of the man" = "the man's house"
+
+We can replace the noun "the man" with the attached pronoun [ـهُ]{.ar} [-hu]{.trn} "him" to get:
+
+[بَيْتُهُ]{.ar}  
+[baytuhu]{.trn}  
+"the house of him" = "his house"
+
+This can be done with all the attached pronouns:
+
+|Arabic|English|
+|:---|:----|
+|[بَيْتُهُ]{.ar} [baytuhu]{.trn}    |  his house |
+|[بَيْتُهَا]{.ar} [baytuhA]{.trn}   |  her house |
+|[بَيْتُهُمَا]{.ar} [baytuhumA]{.trn}|  their~dual\ masc.~ house |
+|[بَيْتُهُمَا]{.ar} [baytuhumA]{.trn}|  their~dual\ fem.~ house |
+|[بَيْتُهُمْ]{.ar} [baytuhum]{.trn}  |  their~pl.\ masc.~ house |
+|[بَيْتُهُنَّ]{.ar} [baytuhunna]{.trn}|  their~pl.\ fem.~ house |
+|[بَيْتُكَ]{.ar} [baytuka]{.trn}    |  your~sing.\ masc.~ house |
+|[بَيْتُكِ]{.ar} [baytuki]{.trn}    |  your~sing.\ fem.~ house |
+|[بَيْتُكُمَا]{.ar} [baytukumA]{.trn}|  your~dual~ house |
+|[بَيْتُكُمْ]{.ar} [baytukum]{.trn}  |  your~pl.\ masc.~ house |
+|[بَيْتُكُنَّ]{.ar} [baytukunna]{.trn}|  your~pl.\ fem.~ house |
+|[بَيْتِي]{.ar} [baytI]{.trn}      |  my house |
+|[بَيْتُنَا]{.ar} [baytunA]{.trn}   |  our house |
+
+Here are some notes regarding the use of pronouns in noun-chains.
+
++ An attached pronoun may be only the last noun in a noun-chain. It cannot be the first noun in a noun-chain.
++ The first noun in the noun-chain, before the attached pronoun, may be in any state. So, for example, we can have:
+  + [دَخَلَ بَيْتَهُ.]{.ar} (a-state)  
+    [daxala baytahu]{.trn}  
+    "He entered his house."
+  + [فِي بَيْتِهِ.]{.ar} (i-state)  
+    [fI baytihi]{.trn}  
+    "in his house"
++ With the pronoun [ـِي]{.ar} [-I]{.trn}, the first noun in the noun-chain will generally appear the same in all states. For example,
+  + [بَيْتِي كَبِيرٌ]{.ar} (u-state)  
+    [baytI kabIrun.]{.trn}  
+    "My house is big."
+  + [دَخَلَ بَيْتِي.]{.ar} (a-state)  
+    [daxala baytI]{.trn}  
+    "He entered my house."
+  + [فِي بَيْتِي]{.ar} (i-state)  
+    [fI baytI]{.trn}  
+    "in my house"
++ We have mentioned that when a dual noun or sound [Un]{.trn} plural noun is first noun in a noun-chain its [ن]{.ar} is dropped. This rule remains valid when the last noun in the noun-chain is an attached pronoun. So we get:
+  + [بَيْتَاهُ]{.ar}  
+    [baytAhu]{.trn}  
+    "his two houses"
+  + [إِلَىٰ بَيْتَيْهِمَا]{.ar}  
+    [EilA baytayhimA]{.trn}  
+    "to their~dual~ two houses"
+  + [مُعَلِّمُوكَ]{.ar}  
+    [mueallimUka]{.trn}
+    "your~sing.\ masc.~ (male) teachers"
+  + [مِنْ مُعَلِّمِيهِ]{.ar}  
+    [min mueallimIhi]{.trn}  
+    "from his (male) teachers"
+
++ With dual nouns and sound [Un]{.trn} plural nouns, when the last noun in the noun-chain is [ـِي]{.ar} [-I]{.trn} "my", the [ـِي]{.ar} [-I]{.trn} becomes a [يَ]{.ar} [ya]{.trn} when preceded by an unvowelled [ا]{.ar} [Ealif]{.trn} or [ي]{.ar} [yAE]{.trn}. The [يَ]{.ar} gets doubled when preceded by an unvowelled [ي]{.ar}. Examples:
+  + [مُعَلِّمَايَ طَيِّبَانِ.]{.ar}  
+    [mueallimAya TayyibAni.]{.trn}  
+    "My two (male) teachers are good."
+  + [مِنْ مُعَلِّمَيَّ]{.ar}  
+    [min mueallimayya]{.trn}  
+    "from my two (male) teachers"
+  + [إِلَىٰ مُعَلِّمِيَّ]{.ar}  
+    [EilA mueallimiyya]{.trn}  
+    "to my (male) teachers"
+<!--There is an example of ya after unvoweled waw: fUya "my mouth" but famI and fiyya are more common so I won't mention this rule since I won't be providing an example-->
+
++ As a special rule, however, when the sound [Un]{.trn} plural is in the u-state and is the first-noun in a noun-chain followed by [ـِي]{.ar} [-I]{.trn} "my", the ending will not become [ـُويَ]{.ar} [-Uya]{.trn} as we might expect. Instead, it will become identical to the a-state and i-state [ـِيَّ.]{.ar} [-iyya]{.trn}. For example:
+  + [مُعَلِّمِيَّ طَيِّبُونَ.]{.ar}  
+    [mueallimiyya TayyibUna.]{.trn}  
+    "My (male) teachers~pl.~ are good."
+
++ Pronouns are always definite. So when a pronoun is the last noun in a noun-chain, all preceding nouns will be definite. This is important to know because if a describer is to be used for any of the preceding nouns, it will be definite too and will therefore have [ٱَلْ]{.ar}. Examples:
+  + [بَيْتِي ٱلْكَبِيرُ وَاسِعٌ.]{.ar}  
+    [bayti -lkabIru wAsieun.]{.trn}  
+    "My big house is spacious."
+  + [قَرَءَا كِتَابَيْهِمَا ٱلْجَدِيدَيْنِ.]{.ar}  
+    [qaraEA kitAbayhima -ljadIdayni.]{.trn}  
+    "They~dual~ read their two new books."
+  + [مُعَلِّمِيَّ ٱلْكِرَامُ فِي مَدْرَسَتِهِمُ ٱلْقَدِيمَةِ.]{.ar}  
+    [mueallimiyya -lkirAmu fI madrasatihimu -lqadImati.]{.trn}  
+    "My noble (male) teachers are in their old school."
+
+  By the way, describers will obviously only be for nouns preceding the pronoun and never for the pronoun itself.
+
+## Noun-chains with "and"
+
+### Multiple nouns before "of" and one noun after "of"
+
+In English we can have an expression like "the pen and the book of the boy" = "the boy's pen and book". In this sentence there are two nouns before "of" and one noun after "of".
+
+In order to express this in Arabic, we will say:
+
+[قَلَمُ ٱلْغُلَامِ وَكِتَابُهُ]{.ar}  
+[qalamu -lgulAmi wa kitAbuhu]{.trn}  
+"the boy's pen and his book" = "the boy's pen and book"
+
+Note that the noun-chain is not broken by the insertion of [وَ]{.ar} [wa]{.trn} "and". Rather a second noun-chain is used and the two are separated by [وَ]{.ar} [wa]{.trn} "and". This is the preferred way of expressing such expressions.
+
+There is another, less preferred way of expressing this. And this is by breaking the first noun-chain and inserting [وَ]{.ar} [wa]{.trn} "and":
+
+[قَلَمُ وَكِتَابُ ٱلْغُلَامِ]{.ar}  
+[qalamu wa kitAbu -lgulAmi]{.trn}  
+"the boy's pen and book"
+
+This second method is not considered as eloquent. Some even consider it incorrect. So we advise you to use the first method whenever possible.
+
+### One noun before "of" and multiple nouns after "of"
+
+We can also have expressions like "the house of the boy and the girl". In this sentence there is one noun before "of" and two nouns after "of".
+
+To express this in Arabic we will say:
+
+[بَيْتُ ٱلْغُلَامِ وَٱلْجَارِيَةِ]{.ar}  
+[baytu -lgulAmi wa-ljAriyati]{.trn}  
+"the house of the boy and the girl"
+
+Note that both 
+[ٱلْغُلَامِ]{.ar} [EalgulAmi]{.trn} and [ٱَلْجَارِيَةِ]{.ar} [EaljAriyati]{.trn} are in the i-state because they are both second nouns in the noun-chain.
+
 ## Exercises
 
 1. [في البيت باب كبير و باب صغير. دخل الرجل من باب البيت الكبير.]{.ar}  
