@@ -12,16 +12,16 @@ The pointing nouns in Arabic are:
 
 |Person|Pointing noun (u-state)|Pointing noun (a-state and i-state)|
 |:--|:--|:--|
-|this~masc.~ one         |[هَـٰذَا]{.ar}   [hApA]{.trn}     | same |
-|this~fem.~ one          |[هَـٰذِهِ]{.ar}   [hApihi]{.trn}   | same |
-|these~dual\ masc.~ ones |[هَـٰذَانِ]{.ar}  [hApAni]{.trn}   |[هَـٰذَيْنِ]{.ar}  [hApayni]{.trn}   |
-|these~dual\ fem.~ ones  |[هَاتَانِ]{.ar}  [hAtAni]{.trn}   |[هَاتَيْنِ]{.ar}  [hAtayni]{.trn}   |
-|these~pl.~ ones         |[هَـٰؤُلَاءِ]{.ar} [hAEulAEi]{.trn} | same  |
-|that~masc.~ one         |[ذَ ٰلِكَ]{.ar}   [pAlika]{.trn}   | same  |
-|that~fem.~ one          |[تِلْكَ]{.ar}    [tilka]{.trn}    | same  |
-|those~dual\ masc.~ ones |[ذَ ٰنِكَ]{.ar}   [pAnika]{.trn}   |[ذَيْنِكَ]{.ar}   [paynika]{.trn}   |
-|those~dual\ fem.~ ones  |[تَانِكَ]{.ar}   [tAnika]{.trn}   |[تَيْنِكَ]{.ar}   [taynika]{.trn}   |
-|those~pl.~ ones         |[أُولَـٰئِكَ]{.ar} [EulAEika]{.trn} | same |
+|this~masc.~         |[هَـٰذَا]{.ar}   [hApA]{.trn}     | same |
+|this~fem.~          |[هَـٰذِهِ]{.ar}   [hApihi]{.trn}   | same |
+|these~dual\ masc.~  |[هَـٰذَانِ]{.ar}  [hApAni]{.trn}   |[هَـٰذَيْنِ]{.ar}  [hApayni]{.trn}   |
+|these~dual\ fem.~   |[هَاتَانِ]{.ar}  [hAtAni]{.trn}   |[هَاتَيْنِ]{.ar}  [hAtayni]{.trn}   |
+|these~pl.~          |[هَـٰؤُلَاءِ]{.ar} [hAEulAEi]{.trn} | same  |
+|that~masc.~         |[ذَ ٰلِكَ]{.ar}   [pAlika]{.trn}   | same  |
+|that~fem.~          |[تِلْكَ]{.ar}    [tilka]{.trn}    | same  |
+|those~dual\ masc.~  |[ذَ ٰنِكَ]{.ar}   [pAnika]{.trn}   |[ذَيْنِكَ]{.ar}   [paynika]{.trn}   |
+|those~dual\ fem.~   |[تَانِكَ]{.ar}   [tAnika]{.trn}   |[تَيْنِكَ]{.ar}   [taynika]{.trn}   |
+|those~pl.~          |[أُولَـٰئِكَ]{.ar} [EulAEika]{.trn} | same |
 
 Note the following regarding the pointing nouns shown above:
 
@@ -87,6 +87,12 @@ In order to disambiguate the complete sentence from the noun phrase, the detache
 [hApAni huma -lmueallimAni -lkarImAni.]{.trn}  
 "These~dual\ masc.~ are the noble (male) teachers"  
 
+Here are some examples in complete sentences:
+
++ [قَرَأْتُ ذَيْنِكَ ٱلْكِتَابَيْنِ.]{.ar}  
+  [qaraEtu paynika -lkitAbayni.]{.trn}  
+  "I read those two books."
+
 ### The pointing noun after the other noun
 
 If a pointing noun comes after a noun that begins with [ٱَلْ]{.ar}, for example,  
@@ -100,6 +106,8 @@ Despite the disambiguity in expressing the noun-phrase with this second method, 
 is more commonly used than  
 [ٱَلرَّجُلُ هَـٰذَا]{.ar}  
 [Earrujulu hApA]{.trn}.
+
+Here are some examples in complete sentences:
 
 ## Pointing nouns in noun-phrases with definite nouns not beginning with [ٱَلْ]{.ar}
 
@@ -128,7 +136,7 @@ We know that we cannot place the pointing noun in the beginning of the phrase be
 
 So, we are left with placing the pointing noun at the end of the phrase, thus:
 
-+ [فَاطِمَةُ تِلْكَ ]{.ar}  
++ [فَاطِمَةُ تِلْكَ.]{.ar}  
   [fATimatu tilka]{.trn}  
   "that~fem.~ [#faTimah]{.trn2}"
 + [مُعَلِّمَتَا ٱلْجَارِيَةِ تَانِكَ]{.ar}  
@@ -138,9 +146,15 @@ So, we are left with placing the pointing noun at the end of the phrase, thus:
   [risAlatI hApihi]{.trn}  
   "this message of mine"
 
+Here are some examples in complete sentences:
 
++ [فَاطِمَةُ هَـٰذِهِ طَوِيلَةٌ وَفَاطِمَةُ تِلْكَ قَصِيرَةٌ.]{.ar}  
+  [fATimatu hApihi TawIlatun wafATimatu tilka qaSIratun.]{.trn}  
+  "This [#fATimah]{.trn2} is tall and that [#fATimah]{.trn2} is short."
 
-### In noun-phrases with common nouns
+## Using pointing nouns with plural non-rational beings
+
+### REMOVE: In noun-phrases with common nouns
 
 A pointing noun can be used in a noun phrase for expressions like "this man". We can express this using the pointing noun 
 [هَـٰذَا]{.ar} [hApA]{.trn} "this~masc.~ one" and the noun being pointed to [ٱَلرَّجُلُ]{.ar} [Earrujulu]{.trn} "the man". We put the two nouns together thus:
