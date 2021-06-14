@@ -26,10 +26,119 @@ The pointing nouns in Arabic are:
 Note the following regarding the pointing nouns shown above:
 
 + Many of the pointing nouns contain small [Ealif]{.trn} [◌ٰ]{.ar}. For most of them, this is how they must be written. It would be incorrect to write [هَـٰذَا]{.ar} [hApA]{.trn} as [هَاذَا]{.ar}.
++ The [و]{.ar} in [أُولَـٰئِكَ]{.ar} [EulAEika]{.trn} is silent and not pronounced. That is, the first syllable has a short vowel [u]{.trn}, not the long vowel [U]{.trn}.
 + The pointing nouns are the same in all states except for the dual, where [ـَانِ]{.ar} [-Ani]{.trn} in the u-state becomes [ـَيْنِ]{.ar} [-ayni]{.trn} in the a-state and i-state.
 + The pointing nouns for the plural are the same for both masculine and feminine genders.
 
-## Usage of pointing nouns
+### Using pointing nouns with nouns or phrases not beginning with [ٱَلْ]{.ar}
+
+If a pointing noun comes before a noun or phrase that does not begin with [ٱَلْ]{.ar} then the expression is a complete sentence. The pointing noun is the subject of sentence, and the other noun or phrase is the information of the sentence. Here are some examples:
+
++ [هَـٰذَا رَجُلٌ.]{.ar}  
+  [hApA rajulun.]{.trn}  
+  "This~masc.~ is a man."
++ [هَـٰذَانِ مُعَلِّمَانِ كَرِيمَانِ.]{.ar}  
+  [hApAni mueallimAni karImAni.]{.trn}  
+  "These~dual\ masc.~ are noble (male) teachers."
++ [هَـٰؤُلَاءِ مُعَلِّمُو غُلَامٍ.]{.ar}  
+  [hAEulAEi mueallimU gulAmin.]{.trn}  
+  "These~pl.~ are (male) teachers of a boy."
++ [تِلْكَ فَاطِمَةُ.]{.ar}  
+  [tilka fATimatu.]{.trn}  
+  "That~fem.~ is [#faTimah]{.trn2}."
++ [تَانِكَ مُعَلِّمَتَا ٱلْجَارِيَةِ.]{.ar}  
+  [tAnika mueallimata -ljAriyati.]{.trn}  
+  "Those~dual\ fem.~ are the (female) teachers of the girl."
++ [هَـٰذِهِ رِسَالَتِي.]{.ar}  
+  [hApihi risAlatI.]{.trn}  
+  "This is my message."
+
+In the first three examples above, the information of the sentence is an indefinite noun or noun-phrase. 
+In the fourth example, the information is a proper noun which is definite without [ٱَلْ]{.ar}.
+In the last example, the information is a noun-chain whose last noun is definite. Therefore the first noun is definite as well, although, again, without [ٱَلْ]{.ar}.
+
+So you can see that the rule we have stated, that if a pointing noun comes before a noun or phrase that does not begin with [ٱَلْ]{.ar} then the expression is a complete sentence, that this rule applies regardless of whether the noun or phrase is definite or indefinite.
+
+## Using pointing nouns with nouns or phrases beginning with [ٱَلْ]{.ar}
+
+### The pointing noun before the other noun
+
+If a pointing noun comes before a noun that begins with [ٱَلْ]{.ar}, for example,  
+[هَـٰذَا ٱَلرَّجُلُ]{.ar}  
+[hApA -rrujulu]{.trn},  
+then the expression can either:
+
+ i. be a noun phrase: "this man", or
+ii. be a complete sentence: "This is the man."
+
+Here is another example:
+
+[هَـٰذَانِ ٱلْمُعَلِّمَانِ ٱلْكَرِيمَانِ.]{.ar}  
+[hApAni -lmueallimAni -lkarImAni.]{.trn}  
+"These~dual\ masc.~ noble (male) teachers"  
+or  
+"These~dual\ masc.~ are the noble (male) teachers."
+
+Context would be needed to determine which of the two meanings is intended.
+
+In order to disambiguate the complete sentence from the noun phrase, the detached pronoun is often (but not always) placed between the pointing noun and the information of the sentence thus:
+
+[هَـٰذَانِ هُمَا ٱلْمُعَلِّمَانِ ٱلْكَرِيمَانِ.]{.ar}  
+[hApAni huma -lmueallimAni -lkarImAni.]{.trn}  
+"These~dual\ masc.~ are the noble (male) teachers"  
+
+### The pointing noun after the other noun
+
+If a pointing noun comes after a noun that begins with [ٱَلْ]{.ar}, for example,  
+[ٱَلرَّجُلُ هَـٰذَا]{.ar}  
+[Earrujulu hApA]{.trn},  
+then the expression can only be a noun-phrase: "this man". 
+
+Despite the disambiguity in expressing the noun-phrase with this second method, the first method of placing the pointing noun before the other noun is more commonly used. That is, in order to express "this man",  
+[هَـٰذَا ٱَلرَّجُلُ]{.ar}  
+[hApA -rrujulu]{.trn}  
+is more commonly used than  
+[ٱَلرَّجُلُ هَـٰذَا]{.ar}  
+[Earrujulu hApA]{.trn}.
+
+## Pointing nouns in noun-phrases with definite nouns not beginning with [ٱَلْ]{.ar}
+
+It remains to see how to express pointing nouns in phrases with defiinite nouns not beginning with [ٱَلْ]{.ar}. Such nouns include:
+
+ i. proper nouns, and
+ii. the first noun of a noun-chain whose last noun is definite.
+
+In other words, we would like to express phrases like:
+
++ "that [#fATimah]{.trn2}", used for example in the sentence "This [#fATimah]{.trn2} is tall and that [#fATimah]{.trn2} is short."
++ "these~pl.~ (female) teachers of the girl"
++ "this message of mine"
+
+We know that we cannot place the pointing noun in the beginning of the phrase because, as we saw, that would make it a complete sentence. For example,
+
++ [تِلْكَ فَاطِمَةُ.]{.ar}  
+  [tilka fATimatu.]{.trn}  
+  "That~fem.~ is [#faTimah]{.trn2}."
++ [تَانِكَ مُعَلِّمَتَا ٱلْجَارِيَةِ.]{.ar}  
+  [tAnika mueallimata -ljAriyati.]{.trn}  
+  "Those~dual\ fem.~ are the (female) teachers of the girl."
++ [هَـٰذِهِ رِسَالَتِي.]{.ar}  
+  [hApihi risAlatI.]{.trn}  
+  "This is my message."
+
+So, we are left with placing the pointing noun at the end of the phrase, thus:
+
++ [فَاطِمَةُ تِلْكَ ]{.ar}  
+  [fATimatu tilka]{.trn}  
+  "that~fem.~ [#faTimah]{.trn2}"
++ [مُعَلِّمَتَا ٱلْجَارِيَةِ تَانِكَ]{.ar}  
+  [mueallimata -ljAriyati tAnika]{.trn}  
+  "those~dual\ fem.~ (female) teachers of the girl"
++ [رِسَالَتِي هَـٰذِهِ]{.ar}  
+  [risAlatI hApihi]{.trn}  
+  "this message of mine"
+
+
 
 ### In noun-phrases with common nouns
 
