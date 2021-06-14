@@ -3,6 +3,7 @@
 !default_latex_template.tex
 *.pdf
 *.aux
+*.log
 *.out
 *.Rhistory
 _book/
