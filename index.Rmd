@@ -4,8 +4,8 @@ subtitle:  "A learner's textbook with grammar, vocabulary, and exercises"
 author: "Ahmad Sheikh"
 documentclass: book
 geometry:
-- paperwidth=7in
-- paperheight=10in
+- paperwidth=170mm
+- paperheight=244mm
 - bindingoffset=6mm
 - twoside
 fontsize: 10pt
