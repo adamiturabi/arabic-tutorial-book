@@ -25,13 +25,18 @@ An online book that aims to teach Arabic.
    ```
    + Vazir: https://github.com/rastikerdar/vazir-font/releases/latest
 
-3. R
+3. Pandoc
+   ```
+   sudo apt install pandoc
+   ```
+   
+4. R
    ```
    sudo apt install r-base
    sudo apt install libcurl4-openssl-dev libfontconfig1-dev libssl-dev libxml2-dev
    ```
 
-4. Rmarkdown and Bookdown
+5. Rmarkdown and Bookdown
    1. Open R in a terminal
       ```
       sudo R
