@@ -23,11 +23,11 @@ An online book that aims to teach Arabic.
    sudo apt update && sudo apt install ttf-mscorefonts-installer
    sudo fc-cache -f -v
    ```
-   + Vazir (optional): https://github.com/rastikerdar/vazir-font/releases/latest
+   + Vazir: https://github.com/rastikerdar/vazir-font/releases/latest
 
 3. R
    ```
-   sudo apt install R
+   sudo apt install r-base
    sudo apt install libcurl4-openssl-dev libfontconfig1-dev libssl-dev libxml2-dev
    ```
 
