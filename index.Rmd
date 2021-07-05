@@ -57,7 +57,8 @@ output:
     number_sections: true
     pandoc_args: ["--lua-filter=trn.lua", "--columns=65"] # for forcing word wrap in pipe tables
     latex_engine: xelatex
-    template: default_latex_template.tex
+    includes:
+      in_header: "preamble.tex"
     keep_tex: true
 ---
 
