@@ -35,4 +35,14 @@
 .smallcaps {
   font-variant: small-caps;
 }
-
+/* Gitbook body text font settings */
+.book.font-family-0 {
+  font-family: "Gentium Plus", serif;
+}
+.book.font-family-1 {
+  font-family: Andika, sans-serif;
+}
+/* Gitbook TOC pane font settings */
+li {
+  font-family: Andika, sans-serif;
+}
