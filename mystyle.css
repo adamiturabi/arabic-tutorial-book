@@ -37,12 +37,13 @@
 }
 /* Gitbook body text font settings */
 .book.font-family-0 {
-  font-family: "Gentium Plus", serif;
+  font-family: FreeSerif, "Gentium Plus", serif;
 }
 .book.font-family-1 {
-  font-family: Andika, sans-serif;
+  font-family: FreeSans, Andika, sans-serif;
 }
-/* Gitbook TOC pane font settings */
+/* Gitbook TOC pane font settings. This is affecting lists in the body text too..
 li {
   font-family: Andika, sans-serif;
 }
+*/

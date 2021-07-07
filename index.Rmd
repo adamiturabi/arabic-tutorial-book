@@ -8,8 +8,8 @@ geometry:
 - paperheight=244mm
 - bindingoffset=6mm
 - twoside
+mainfont: Brill
 fontsize: 10pt
-mainfont: Gentium Plus
 polyglossia-lang:
   name: en
 polyglossia-otherlangs:
