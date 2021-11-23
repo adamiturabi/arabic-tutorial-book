@@ -269,3 +269,38 @@ Where to fit in?:
 [ياسر الحروب]{.ar}  
 http://mohamedrabeea.net/library/pdf/f16c8c74-a0ce-45c3-919f-da4854aea82f.pdf
 
+## Fonts
+
+Options:
+
++ Computer Modern
+  + hamza is small c, U+02be
+  + no double macron below, U+035F
++ CMU Serif: 
+  + hamza is small c, U+02be
+  + no double macron below, U+035F
++ Latin Modern: 
+  + hamza is small c, U+02be
+  + no double macron below, U+035F
+  + no 3ayn equiv: U+025b
++ STIX Text Two
+  + no double macron below, U+035F
+  + Regular is too similar to TNR
+  + Good italic and bold, though
++ Junicode
+  + Too similar to TNR
++ FreeSerif
+  + Too similar to TNR
++ Brill
+  + double macron below, U+035F clashes with U+0323 dot below
+  + Free version not licensed for publication
+  + Non-free version available for commercial use (OTF & WOFF) on ilovetypography.com
++ Gentium Plus
+  + Too lively(?) for body text
++ Adobe Source Code Pro
+  + no double macron below, U+035F
+  + no 3ayn equiv: U+025b
++ Minion Pro
+  + No hamza U+02be
+
+

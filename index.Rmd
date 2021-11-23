@@ -8,8 +8,8 @@ geometry:
 - paperheight=244mm
 - bindingoffset=6mm
 - twoside
-fontsize: 10pt
 mainfont: Brill
+fontsize: 10pt
 polyglossia-lang:
   name: en
 polyglossia-otherlangs:
@@ -40,7 +40,7 @@ output:
       download: null
       search: yes
       fontsettings:
-        theme: sepia
+        theme: white
         family: serif
         size: 2
       sharing:
@@ -57,7 +57,8 @@ output:
     number_sections: true
     pandoc_args: ["--lua-filter=trn.lua", "--columns=65"] # for forcing word wrap in pipe tables
     latex_engine: xelatex
-    template: default_latex_template.tex
+    includes:
+      in_header: "preamble.tex"
     keep_tex: true
 ---
 
@@ -74,7 +75,7 @@ In our experience, we have also realized that students are turned off by foreign
 
 ## Test {-}
 
-This is the _preface_. Test trans [Parf makAn ealayhi pcv]{.trn} [◌َ  ◌ً  ◌ِ  ◌ٍ  ◌ُ  ◌ٌ  ◌ْ  ◌ّ  ◌ٰ  ◌ٔ  ◌ٕ  ]{.ar}
+This is the _preface_. Test trans [Parf makAn ealayhi pcv machad]{.trn} [◌َ  ◌ً  ◌ِ  ◌ٍ  ◌ُ  ◌ٌ  ◌ْ  ◌ّ  ◌ٰ  ◌ٔ  ◌ٕ  ]{.ar}
 
 [شَيْـَٔيْنِ بَرِيـِٔينَ شَيْـًٔا خَطِيـَٔة]{.ar}
 
