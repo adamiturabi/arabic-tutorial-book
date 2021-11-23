@@ -57,12 +57,13 @@ output:
     number_sections: true
     pandoc_args: ["--lua-filter=trn.lua", "--columns=65"] # for forcing word wrap in pipe tables
     latex_engine: xelatex
-    includes:
-      in_header: "preamble.tex"
+    template: default_latex_template.tex
+    #includes:
+    #  in_header: "preamble.tex"
     keep_tex: true
 ---
 
-<!--template: bidi_art_templ.tex-->
+<!--template: default_latex_template.tex-->
 # Preface {-}
 
 The primary texts of [#islAm]{.trn2} and much of its scholarly literature are in Arabic. However, there is a multitude of Muslims for whom Arabic is not a native language, yet who are familiar enough with English to study textbooks written in English. This goal of this book is to help them learn Arabic at a beginner's level so that they, if [#allAh]{.trn2} wills, can feel more connected to the primary texts and so that they can be empowered to begin to study [#islAm]{.trn2}ic literature.
