@@ -17,6 +17,9 @@ An online book that aims to teach Arabic.
    + Brill: https://brill.com/page/290?language=en
    + Amiri: https://github.com/alif-type/amiri/releases/latest
    + Scheherazade New: https://software.sil.org/scheherazade/download/
+   + Gentium Plus: https://software.sil.org/gentium/download/
+   + Andika: https://software.sil.org/andika/download/
+   + STIX Two Text: `https://github.com/stipub/stixfonts/blob/master/zipfiles/static_ttf.zip`
    + Microsoft Core Fonts:
    ```
    sudo add-apt-repository multiverse
