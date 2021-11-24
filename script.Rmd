@@ -39,7 +39,7 @@ In addition to the traditional 28 letters, there is also one additional letter c
 
 No.|Arabic letter|Tran-scrip-tion|Name |Description
 :-|:--|:--|:----|:---------------------------
- 29|[ء]{.ar}|[E]{.trn}| [hamzah]{.trn} | Technically called a glottal stop, it is the sound of of the breath stopping between in the utterance "oh-oh".
+ 29|[ء]{.ar}|[E]{.trn}| [hamzah]{.trn} | Technically called a glottal stop, it is the sound of of the breath stopping between the syllables in the utterance "oh-oh".
 
 ### Pronunciation notes
 
@@ -321,8 +321,8 @@ As we have seen above if an Arabic letter has a vowel after it it will take one 
 
 Arabic has two short semi-vowels:
 
-1. [aw]{.trn} like in English “show”. This is written with a [wAw]{.trn} with a rest-mark on it and a [A]{.trn} vowel before it. Example [لَوْ]{.ar} [law]{.trn}. 
-2. [ay]{.trn} like in English “bait”. This is written with a [yAE]{.trn} with a rest-mark on it and a [A]{.trn} vowel before it. Example [كَيْ]{.ar} [kay]{.trn}. 
+1. [aw]{.trn} like in English “show”. This is written with a [wAw]{.trn} with a null-vowel-mark on it and a [A]{.trn} vowel before it. Example [لَوْ]{.ar} [law]{.trn}. 
+2. [ay]{.trn} like in English “bait”. This is written with a [yAE]{.trn} with a null-vowel-mark on it and a [A]{.trn} vowel before it. Example [كَيْ]{.ar} [kay]{.trn}. 
 Examples with short semi-vowels:
 
 + [وَيْحَكَ]{.ar} [wayHaka]{.trn}
@@ -331,14 +331,14 @@ Examples with short semi-vowels:
 
 It also has two long semi-vowels:
 
-1. [Aw]{.trn} like in English “cow”. This is written with a [wAw]{.trn} with a rest-mark on it and a [A]{.trn} vowel before it. Example [وَاوْ]{.ar} [wAw]{.trn}. 
-2. [Ay]{.trn} like in English “bye”. This is written with a [yAE]{.trn} with a rest-mark on it and a [A]{.trn} vowel before it. Example [شَايْ]{.ar} [cAy]{.trn}.
+1. [Aw]{.trn} like in English “cow”. This is written with a [wAw]{.trn} with a null-vowel-mark on it and a [A]{.trn} vowel before it. Example [وَاوْ]{.ar} [wAw]{.trn}. 
+2. [Ay]{.trn} like in English “bye”. This is written with a [yAE]{.trn} with a null-vowel-mark on it and a [A]{.trn} vowel before it. Example [شَايْ]{.ar} [cAy]{.trn}.
 
 These long semi-vowels are rare and may only occur at the end of a sentence.
 
 ### Doubled letters
 
-A word may contain "doubled" letters. This is when the same letter occurs, one after the other; the first letter has a rest-mark, and the second letter has a vowel. For example, in the word [قَتْتَلَ]{.ar} [qattala]{.trn}, the letter [ت]{.ar} is doubled. When this occurs, we actually only write the letter once and put a "doubling mark" [◌ّ]{.ar} on it, like so: [قَتَّلَ]{.ar} [qattala]{.trn}. When pronouncing this word, stop at and stress the doubled letter [qattala]{.trn} and make sure it does not sound like the undoubled letter in [قَتَلَ]{.ar} [qatala]{.trn}. Examples with doubled letters:
+A word may contain "doubled" letters. This is when the same letter occurs, one after the other; the first letter has a null-vowel-mark, and the second letter has a vowel. For example, in the word [قَتْتَلَ]{.ar} [qattala]{.trn}, the letter [ت]{.ar} is doubled. When this occurs, we actually only write the letter once and put a "doubling mark" [◌ّ]{.ar} on it, like so: [قَتَّلَ]{.ar} [qattala]{.trn}. When pronouncing this word, stop at and stress the doubled letter [qattala]{.trn} and make sure it does not sound like the undoubled letter in [قَتَلَ]{.ar} [qatala]{.trn}. Examples with doubled letters:
 
 + [كَبَّرَ]{.ar} [kabbara]{.trn}
 + [حَدُّهُ]{.ar} [Hadduhu]{.trn}
@@ -366,7 +366,7 @@ As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally ad
 
 2. If the word ends with a [hamzah]{.trn}. In this case, we might or might not write a silent [Ealif]{.trn}, depending on the following rules:
 
-   a. If there is an [Ealif]{.trn} before a unseated [hamzah]{.trn} [اء]{.ar}, then we don't add a silent [Ealif]{.trn}. For example [دَاء]{.ar} becomes [دَاءً]{.ar} [dAEan]{.trn}, not [دَاءًا]{.ar}.
+   a. If there is an [Ealif]{.trn} before an unseated [hamzah]{.trn} [اء]{.ar}, then we don't add a silent [Ealif]{.trn}. For example [دَاء]{.ar} becomes [دَاءً]{.ar} [dAEan]{.trn}, not [دَاءًا]{.ar}.
 
    b. Otherwise, we add a silent [Ealif]{.trn} after the [hamzah]{.trn}. However, this may affect the writing of the [hamzah]{.trn}, for example [مُبْتَدَأ]{.ar} becomes [مُبْتَدَءًا]{.ar} [mubtadaEan]{.trn}. This is discussed further in Appendix \@ref(hamzarules).
 
