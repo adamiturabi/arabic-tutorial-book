@@ -8,7 +8,7 @@ geometry:
 - paperheight=244mm
 - bindingoffset=6mm
 - twoside
-mainfont: Brill
+mainfont: Junicode
 fontsize: 10pt
 polyglossia-lang:
   name: en
@@ -57,9 +57,9 @@ output:
     number_sections: true
     pandoc_args: ["--lua-filter=trn.lua", "--columns=65"] # for forcing word wrap in pipe tables
     latex_engine: xelatex
-    template: default_latex_template.tex
-    #includes:
-    #  in_header: "preamble.tex"
+    #template: default_latex_template.tex # with Brill font the PDF font is too large and this needs to be uncommented. includes and in_header should then be commented
+    includes:
+      in_header: "preamble.tex"
     keep_tex: true
 ---
 

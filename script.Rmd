@@ -157,6 +157,7 @@ Disjoint | Joined (simplified) | Joined (traditional)
 [ل-م-ح-ة]{.ar} | [لمحة]{.ar} | [لمحة]{lang="ar" dir="rtl" style="font-family: Amiri;"}
 [ب-ح-ر]{.ar} | [بحر]{.ar} | [بحر]{lang="ar" dir="rtl" style="font-family: Amiri;"}
 [س-ح-ر]{.ar} | [سحر]{.ar} | [سحر]{lang="ar" dir="rtl" style="font-family: Amiri;"}
+[ف-ي]{.ar} | [في]{.ar} | [في]{lang="ar" dir="rtl" style="font-family: Amiri;"}
 ')
 ```
 
@@ -178,6 +179,8 @@ Disjoint & Joined (simplified) & Joined (traditional)\tabularnewline
 \RL{\tradarab{بحر}}\tabularnewline
 \RL{\textarabic{س-ح-ر}} & \RL{\textarabic{سحر}} &
 \RL{\tradarab{سحر}}\tabularnewline
+\RL{\textarabic{ف-ي}} & \RL{\textarabic{في}} &
+\RL{\tradarab{في}}\tabularnewline
 \bottomrule
 \end{longtable}
 ```
@@ -285,7 +288,7 @@ Examples of words with short vowels:
 There are also three long vowels which are part of the alphabet:
 
 1.  [A]{.trn} generally written with an unmarked [ا]{.ar} [Ealif]{.trn} and with the preceding letter having an [a]{.trn}-mark. Example [مَا]{.ar} [mA]{.trn}. This vowel is mostly pronounced like the vowel in English “man”. If however, it comes after these letters [خ،ر،ص،ض،ط،ظ،غ،ق]{.ar} it is pronounced like English "awe".
-1.  [I]{.trn} like in English “been” written with an unmarked [ي]{.ar} [yAE]{.trn} with the preceding letter having an [i]{.trn}-mark. Example [فِي]{.ar} [fI]{.trn}.
+1.  [I]{.trn} like in English “meek” written with an unmarked [ي]{.ar} [yAE]{.trn} with the preceding letter having an [i]{.trn}-mark. Example [فِي]{.ar} [fI]{.trn}.
 1.  [U]{.trn} like in English “moon” written with an unmarked [و]{.ar} [wAw]{.trn} with the preceding letter having an [u]{.trn}-mark. Example [ذُو]{.ar} [pU]{.trn}.
 
 Examples of words with long and short vowels:
