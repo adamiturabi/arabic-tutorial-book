@@ -4,10 +4,16 @@ subtitle:  "A learner's textbook with grammar, vocabulary, and exercises"
 author: "Ahmad Sheikh"
 documentclass: book
 geometry:
-- paperwidth=170mm
-- paperheight=244mm
-- bindingoffset=6mm
-- twoside
+- paper=a4paper               # a4: 210mm by 297mm
+- layoutwidth=170mm
+- layoutheight=244mm
+- layouthoffset=20mm          # center on A4 page
+- layoutvoffset=26.5mm
+- showcrop                    # show cropmarks
+#- paperwidth=170mm
+#- paperheight=244mm
+#- bindingoffset=6mm
+#- twoside
 mainfont: Junicode
 fontsize: 10pt
 polyglossia-lang:
