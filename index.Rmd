@@ -4,16 +4,16 @@ subtitle:  "A learner's textbook with grammar, vocabulary, and exercises"
 author: "Ahmad Sheikh"
 documentclass: book
 geometry:
-- paper=a4paper               # a4: 210mm by 297mm
-- layoutwidth=170mm
-- layoutheight=244mm
-- layouthoffset=20mm          # center on A4 page
-- layoutvoffset=26.5mm
-- showcrop                    # show cropmarks
+# final
 #- paperwidth=170mm
 #- paperheight=244mm
 #- bindingoffset=6mm
 #- twoside
+# A4 2 pages per sheet draft
+- paper=a5paper               # a5: 148.5 by 210mm
+- textwidth=114.8mm           # = (170 - 6)*0.7
+- textheight=170.8mm          # = 244 * 0.7
+- twoside
 mainfont: Junicode
 fontsize: 10pt
 polyglossia-lang:
@@ -71,15 +71,18 @@ output:
 
 # Preface {-}
 
-The primary texts of [#islAm]{.trn2} (the [#qurEAn]{.trn2} and the Sunnah) and much of its scholarly literature are in Arabic. However, there is a multitude of Muslims for whom Arabic is not a native language, yet who are familiar enough with English to study textbooks written in English. This goal of this book is to help them learn Arabic at a beginner's level so that they, if [#allAh]{.trn2} wills, can feel more connected to the primary texts, and together with studying the appropriate expositional texts, can begin to understand the primary texts in their original language. Furthermore, they can be empowered to study the vast body of Arabic [#islAm]{.trn2}ic literature.
+The primary texts of [#islAm]{.trn2} (the [#qurEAn]{.trn2} and the Sunnah) are in Arabic. So is much of its scholarly literature. However, there is a multitude of Muslims for whom Arabic is not a native language, yet who are familiar enough with English to study textbooks written in this language. The goal of this book is to help them learn Arabic at a beginner's level so that, together with a study of the appropriate expositional texts, they are one step closer to understanding the primary texts in their original language. We hope that this will, if [#allAh]{.trn2} wills, make them feel more connected to the primary texts and their teachings. Furthermore, they can be empowered to study the vast body of Arabic [#islAm]{.trn2}ic literature.
 
 This book is a teaching grammar and not a reference grammar. So, in the initial chapters, topics are presented sequentially at only a basic level, without treating them exhaustively, before moving on to the next topic. Furthermore, since this is a beginner's textbook, only the more common usages are explained.
 
 We have also aimed to make this a self-teaching textbook so that diligent students should, if [#allAh]{.trn2} wills, be able to study it without a instructor. In doing this, we have perhaps made the text more verbose than is usual for an instructor-taught textbook. If the reader finds our text too wordy and prefers a more concise style, we recommend *A New Arabic Grammar of the Written Language* by J. A. Haywood and H. M. Nahmad, 2nd edition, published by Lund Humphries.
 
-In our experience, we have also realized that students are turned off by foreign grammatical terminology, whether Latin-based or Arabic. Terminology is necessary for any rigorous non-immersive study of language. So while we employ terminology, we have tried to make it natural in English. To accomplish this, we have often translated the meaning of Arabic grammar terms to English. The drawback to this approach, however, is that the student may not be able to immediately relate the terminology he has learned in this book to established terminology in other grammar textbooks. To remedy this to some extent, we provide a glossary in the appendix which maps the grammatical terminology used in this book to ther extablished Latin-based and Arabic-based counterparts.
+In our experience, we have also realized that students are turned off by foreign grammatical terminology, whether Latin-based or Arabic. We believe that terminology is necessary for a rigorous non-immersive study of language. So while we employ terminology, we have tried to make it natural in English. To accomplish this, we have sometimes invented terminology. Other times, we have translated the meaning of Arabic grammar terms to English. In places, we have also used established English grammar terminology where we deemed appropriate. The drawback to this non-standard approach, however, is that the student may not be able to immediately relate the terminology he has learned in this book to established terminology in other grammar textbooks. To remedy this to some extent, we provide a glossary in the appendix which maps the grammatical terminology used in this book to other, established, Latin-based and Arabic-based counterparts.
 
-It may also be appropriate to apprise the reader of the fact that grammar is presented in this book purely for the purposes of helping the reader learn the language. As such, the grammar presented here may not be entirely consistent with the comprehensive and self-consistent theories developed by the Arabic grammarians. We believe that that classical grammar is best suited to be learned by students who are already competent in basic Arabic.
+It may also be appropriate to apprise the reader that we teach Arabic grammar only as a tool to reach our goal of helping the reader learn the language. As such, the grammar presented here may not conform completely with the comprehensive and self-consistent theories developed by the Arabic grammarians. We believe that that classical grammar is best suited to be learned by students who are already competent in basic Arabic. That the student may have to unlearn some of what he has learned here (if and when he studies classical grammar), is a cost that is more acceptable to us than getting the beginner bogged down in complex grammatical details at a stage when he is unable to envisage the necessity of their complexity.
+
+[a.z.s.]{.smallcaps}  
+[lahore, dec. 2021]{.smallcaps}  
 
 ## Test {-}
 
