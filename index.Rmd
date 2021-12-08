@@ -4,17 +4,17 @@ subtitle:  "A learner's textbook with grammar, vocabulary, and exercises"
 author: "Ahmad Sheikh"
 documentclass: book
 geometry:
-# final
-#- paperwidth=170mm
-#- paperheight=244mm
-#- bindingoffset=6mm
-#- twoside
 # A4 2 pages per sheet draft
-- paper=a5paper               # a5: 148.5 by 210mm
+#- paper=a5paper               # a5: 148.5 by 210mm
+# final
+- paperwidth=156mm  #170mm
+- paperheight=234mm #244mm
+- bindingoffset=4mm
 - textwidth=114.8mm           # = (170 - 6)*0.7
 - textheight=170.8mm          # = 244 * 0.7
 - twoside
 mainfont: Junicode
+mainfontoptions: Numbers=OldStyle
 fontsize: 10pt
 polyglossia-lang:
   name: en
@@ -71,6 +71,15 @@ output:
 
 # Preface {-}
 
+```{r, eval=knitr::is_html_output(), echo=FALSE}
+  knitr::asis_output('
+[بسم الله الرحمن الرحيم]{lang="ar" dir="rtl" style="font-family: Amiri;"}
+')
+```
+```{=latex}
+\RL{\tradarab{بسم الله الرحمن الرحيم}}
+```
+
 The primary texts of [#islAm]{.trn2} (the [#qurEAn]{.trn2} and the Sunnah) are in Arabic. So is much of its scholarly literature. However, there is a multitude of Muslims for whom Arabic is not a native language, yet who are familiar enough with English to study textbooks written in this language. The goal of this book is to help them learn Arabic at a beginner's level so that, together with a study of the appropriate expositional texts, they are one step closer to understanding the primary texts in their original language. We hope that this will, if [#allAh]{.trn2} wills, make them feel more connected to the primary texts and their teachings. Furthermore, they can be empowered to study the vast body of Arabic [#islAm]{.trn2}ic literature.
 
 This book is a teaching grammar and not a reference grammar. So, in the initial chapters, topics are presented sequentially at only a basic level, without treating them exhaustively, before moving on to the next topic. Furthermore, since this is a beginner's textbook, only the more common usages are explained.
@@ -82,7 +91,15 @@ In our experience, we have also realized that students are turned off by foreign
 It may also be appropriate to apprise the reader that we teach Arabic grammar only as a tool to reach our goal of helping the reader learn the language. As such, the grammar presented here may not conform completely with the comprehensive and self-consistent theories developed by the Arabic grammarians. We believe that that classical grammar is best suited to be learned by students who are already competent in basic Arabic. That the student may have to unlearn some of what he has learned here (if and when he studies classical grammar), is a cost that is more acceptable to us than getting the beginner bogged down in complex grammatical details at a stage when he is unable to envisage the necessity of their complexity.
 
 [a.z.s.]{.smallcaps}  
-[lahore, dec. 2021]{.smallcaps}  
+[ lahore, dec. 2021ce]{.smallcaps}  
+```{r, eval=knitr::is_html_output(), echo=FALSE}
+  knitr::asis_output('
+[لاهور، جمادى الأولى ١٤٤٣ه‍.]{lang="ar" dir="rtl" style="font-family: Amiri;"}
+')
+```
+```{=latex}
+\RL{\tradarab{لاهور، جمادى الأولى ١٤٤٣ه‍.}}
+```
 
 ## Test {-}
 
