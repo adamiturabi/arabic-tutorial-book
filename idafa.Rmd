@@ -381,6 +381,14 @@ There is another, less preferred way of expressing this. And this is by breaking
 
 This second method is not considered as eloquent. Some even consider it incorrect. So we advise you to use the first method whenever possible.
 
+#### With pronouns
+
+If the second noun in the noun-chain is replaced with a pronoun then only the first method is allowed. For example,
+
+[قَلَمُهُ وَكِتَابُهُ]{.ar}  
+[qalamuhu wakitAbuhu]{.trn}  
+"his pen and his book"
+
 ### One noun before "of" and multiple nouns after "of"
 
 We can also have expressions like "the house of the boy and the girl". In this sentence there is one noun before "of" and two nouns after "of".
@@ -393,6 +401,24 @@ To express this in Arabic we will say:
 
 Note that both 
 [ٱلْغُلَامِ]{.ar} [EalgulAmi]{.trn} and [ٱَلْجَارِيَةِ]{.ar} [EaljAriyati]{.trn} are in the i-state because they are both second nouns in the noun-chain.
+
+#### With pronouns
+
+If any or both of the second nouns in the noun-chain is replaced with a pronoun then the first noun must be repeated. For example,
+
+[بَيْتُهُ وَبَيْتُ ٱلْجَارِيَةِ]{.ar}  
+[baytuhu wabaytu -ljAriyati]{.trn}  
+"his house and the girl's house"
+
+[بَيْتُهُ وَبَيْتُهَا]{.ar}  
+[baytuhu wabaytuhA]{.trn}  
+"his house and her house"
+
+However, it must be said that these expressions are ambiguous because they could be interpreted to mean that there are two houses: one that is "his" and the second that is "her's". One way to remove this ambiguity, when only a single house is intended, is to use the dual pronoun instead:
+
+[بَيْتُهُمَا]{.ar}  
+[baytuhumA]{.trn}  
+"their~dual~ house"
 
 ## Non-possessive noun-chains
 
