@@ -1,13 +1,19 @@
 # Subject-information verbs
 
-As we've already mentioned Arabic does not normally express the word "is". However, it does express the verb "was".
+As we've already mentioned Arabic does not normally express the word "is". For example,
+
+[ٱَلْبِنَاءُ مَدْرَسَةٌ.]{.ar}  
+[EalbinAEu madrasatun.]{.trn}  
+"The building is a school."
+
+However, it does express the word "was". The word "was" is a completed-action verb:
 
 | Arabic verb | Transcription | Meaning     |
 |:------------|:--------------|:------------|
 | [كَانَ]{.ar}  | [kAna]{.trn}  | [He] was    |
 | [كَانَتْ]{.ar} | [kAnat]{.trn} | [She] was   |
 
-[كَانَ]{.ar} [kAna]{.trn} behaves like any other verb in that its [doer]{.syn} is in the u-state and its [object]{.syn} is in the a-state. Examples:
+[كَانَ]{.ar} [kAna]{.trn} behaves like any other verb in that its doer is in the u-state and its doee is in the a-state. Examples:
 
 [كَانَ ٱلْبِنَاءُ مَدْرَسَةً.]{.ar}  
 [kAna -lbinAEu madrasatan]{.trn}  
@@ -17,6 +23,23 @@ As we've already mentioned Arabic does not normally express the word "is". Howev
 [kAnati -lmarEatu Eumman]{.trn}  
 "The woman was a mother."
 
+However, this verb is special and a little different from other verbs. Usually for verbs, the doer and doee represent separate entities. For example,
+
+[كَتَبَ ٱلرَّجُلُ كِتَابًا.]{.ar}  
+[kataba -rrujulu kitAban.]{.trn}  
+"The man wrote a book."
+
+In the above sentence "the man" and "a book" refer to separate entities. Compare this to the following sentence:
+
+[كَانَ ٱلْبِنَاءُ مَدْرَسَةً.]{.ar}  
+[kAna -lbinAEu madrasatan]{.trn}  
+"The building was a school."
+
+Here, "the building" and "a school" refer to the same entity. That is why this verb is considered special. It is classified from a group of verbs called *subject-information verbs*. The doer of the verb "the building" is also the subject of the sentence, and the verb's doee "a school" is also the information of the sentence.
+
+## TODO
+
+The [doer]{.syn} is not really doing any action. In fact, in meaning it is the [subject]{.syn} of a sentence and the [object]{.syn} of the verb is the [information]{.syn} about the [subject]{.syn}.
 However, this verb is special and a little different from other verbs. The [doer]{.syn} is not really doing any action. In fact, in meaning it is the [subject]{.syn} of a sentence and the [object]{.syn} of the verb is the [information]{.syn} about the [subject]{.syn}.
 
 [كَانَ]{.ar} [kAna]{.trn} is an example of "[subject-information]{.syn} verbs".  Sentences that start with [subject-information]{.syn} verbs are both [subject]{.syn}-[information]{.syn} sentences and verbal sentences.
