@@ -132,6 +132,36 @@ function Romanize (elem)
   --return (elem.content)
   return (elem)
 end
+function ArTxtReplace(text2)
+  --replace_map = {}
+  --replace_map["ك"] = "ک"
+
+  text3 = ''
+  --print(text2)
+  text3 = text2:gsub("ك", "ک")
+  --for index3 = 1, #text2 do
+  --  local charv = text2:sub(index3, index3)
+  --  print(charv)
+  --  if replace_map[charv] == nil then
+  --    text3 = text3 .. charv
+  --  else
+  --    text3 = text3 .. replace_map[charv]
+  --    print "REPLACING KAF"
+  --  end
+  --end
+  return text3
+end
+function ArTxtProc(elem)
+  for index,text in pairs(elem.content) do
+    for index2,text2 in pairs(text) do
+      text3 = ArTxtReplace(text2)
+      text[index2] = text3
+    end
+    elem.content[index] = text
+  end
+  --return (elem.content)
+  return (elem)
+end
 function RootFmt (elem)
   for index,text in pairs(elem.content) do
     for index2,text2 in pairs(text) do
@@ -150,9 +180,11 @@ function Span (elem)
     return (Romanize(elem).content)
   elseif elem.classes[1] == 'ar' then
     attrs = pandoc.Attr("", {}, {{"lang", "ar"},{"dir","rtl"}})
+    elem = ArTxtProc(elem)
     return pandoc.Span(elem.content, attrs)
   elseif elem.classes[1] == 'arroot' then
     attrs = pandoc.Attr("", {}, {{"lang", "ar"},{"dir","rtl"}})
+    elem = ArTxtProc(elem)
     return pandoc.Span(RootFmt(elem).content, attrs)
   elseif elem.classes[1] == 'trnroot' then
     return pandoc.Emph (RootFmt(Romanize(elem)).content)
