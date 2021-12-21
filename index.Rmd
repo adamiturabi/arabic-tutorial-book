@@ -27,6 +27,9 @@ fontfamilies:
   - name: \tradarab
     font: Amiri
     options: Script=Arabic,Scale=1.0
+  - name: \tradarabsmall
+    font: Amiri
+    options: Script=Arabic,Scale=0.75
 csquotes: true
 output:
   bookdown::gitbook:
@@ -95,14 +98,14 @@ It may also be appropriate to apprise the reader that we teach Arabic grammar on
 [ lahore, dec.]{.smallcaps} 2021[ce]{.smallcaps} 
 ```{r, eval=knitr::is_html_output(), echo=FALSE}
   knitr::asis_output('
-[لاهور، جمادى الأولى ١٤٤٣ه‍.]{lang="ar" dir="rtl" style="font-family: Amiri;"}
+[لاهور، جمادى الأولى ١٤٤٣هـ‍]{lang="ar" dir="rtl" style="font-family: Amiri; font-size: 0.75em;"}
 ')
 ```
 ```{=latex}
-\RL{\tradarab{لاهور، جمادى الأولى ١٤٤٣ه‍.}}
+\RL{\tradarabsmall{لاهور، جمادى الأولى ١٤٤٣ه‍}}
 ```
 
-## Test {-}
+Test:
 
 This is the _preface_. Test trans [Parf makAn ealayhi pcv machad]{.trn} [◌َ  ◌ً  ◌ِ  ◌ٍ  ◌ُ  ◌ٌ  ◌ْ  ◌ّ  ◌ٰ  ◌ٔ  ◌ٕ  ]{.ar}
 
