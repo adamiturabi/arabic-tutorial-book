@@ -94,15 +94,24 @@ In our experience, we have also realized that students are turned off by foreign
 
 It may also be appropriate to apprise the reader that we teach Arabic grammar only as a tool to reach our goal of helping the reader learn the language. As such, the grammar presented here may not conform completely with the comprehensive and self-consistent theories developed by the Arabic grammarians. We believe that that classical grammar is best suited to be learned by students who are already competent in basic Arabic. That the student may have to unlearn some of what he has learned here (if and when he studies classical grammar), is a cost that is more acceptable to us than getting the beginner bogged down in complex grammatical details at a stage when he is unable to envisage the necessity of their complexity.
 
-[a.z.s.]{.smallcaps}  
-[ lahore, dec.]{.smallcaps} 2021[ce]{.smallcaps} 
 ```{r, eval=knitr::is_html_output(), echo=FALSE}
   knitr::asis_output('
+[a.z.s.]{.smallcaps}  
+[lahore, dec.]{.smallcaps} 2021[ce]{.smallcaps}  
 [لاهور، جمادى الأولى ١٤٤٣هـ‍]{lang="ar" dir="rtl" style="font-family: Amiri; font-size: 0.75em;"}
 ')
 ```
 ```{=latex}
+\medskip
+\null\hfill\begin{tabular}{@{}l@{}}
+\textsc{a.z.s.}\\
+\textsc{lahore, dec. 2021ce}\\
+\end{tabular}
+\vspace*{-\baselineskip}
+\vspace*{2mm}
+\begin {flushright}
 \RL{\tradarabsmall{لاهور، جمادى الأولى ١٤٤٣ه‍}}
+\end {flushright}
 ```
 
 Test:
