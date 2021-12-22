@@ -73,6 +73,8 @@ output:
 ---
 
 # Preface {-}
+<!--The following line is needed because Preface is an unnumbered chapter and otherwise fancy header will print the header text for the previous chapter "Contents"-->
+\markboth{Preface}{Preface}
 
 ```{r, eval=knitr::is_html_output(), echo=FALSE}
   knitr::asis_output('
@@ -124,3 +126,10 @@ This is the _preface_. Test trans [Parf makAn ealayhi pcv machad]{.trn} [◌َ  
 
 
 this is in [small caPs]{.smallcaps}.
+
+<!--```{=latex}
+\lipsum[1-149]
+```-->
+<!--```{=latex}
+\mainmatter
+```-->
