@@ -2,6 +2,7 @@
 title: "Fundamentals of Standard Arabic"
 subtitle:  "A learner's textbook with grammar, vocabulary, and exercises"
 author: "Ahmad Sheikh"
+date: "Edition 1.0"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -68,6 +69,7 @@ output:
     latex_engine: xelatex
     #template: default_latex_template.tex # with Brill font the PDF font is too large and this needs to be uncommented. includes and in_header should then be commented
     includes:
+      before_body: "frontpage.tex"
       in_header: "preamble.tex"
     keep_tex: true
 ---
