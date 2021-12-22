@@ -9,7 +9,7 @@ geometry:
 # final
 - paperwidth=156mm  #170mm
 - paperheight=234mm #244mm
-- bindingoffset=4mm
+- bindingoffset=7mm
 - textwidth=114.8mm           # = (170 - 6)*0.7
 - textheight=170.8mm          # = 244 * 0.7
 - twoside
