@@ -2,15 +2,16 @@
 title: "Fundamentals of Standard Arabic"
 subtitle:  "A learner's textbook with grammar, vocabulary, and exercises"
 author: "Ahmad Sheikh"
-date: "Edition 1.0"
+date: "Edition 0.1"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
 #- paper=a5paper               # a5: 148.5 by 210mm
-# final
-- paperwidth=156mm  #170mm
-- paperheight=234mm #244mm
-- bindingoffset=7mm
+#- paperwidth=170mm
+#- paperheight=244mm
+- paperwidth=156mm
+- paperheight=234mm
+- bindingoffset=16mm
 - textwidth=114.8mm           # = (170 - 6)*0.7
 - textheight=170.8mm          # = 244 * 0.7
 - twoside
