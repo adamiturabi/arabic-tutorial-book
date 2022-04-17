@@ -26,6 +26,8 @@ We would have to add a noun, for example:
 
 In Arabic, the situation is almost reversed. Arabic does not technically have adjectives. It only has _descriptive nouns_.
 
+The term *descriptive-noun* refers to a class of nouns that don't designate specific objects but rather can be applied to any object that fits the description given by the descriptive-noun.
+
 For example, [كَبِيرٌ]{.ar} [kabIrun]{.trn} "a big one (masc.)" is a descriptive noun that may be applied to any masculine entity that can be described as "big". 
 Similarly, [كَبِيرَةٌ]{.ar} [kabIratun]{.trn} "a big one (fem.)" is a descriptive noun that may be applied to any feminine entity that can be described as "big". 
 
@@ -40,11 +42,15 @@ Because [كَبِيرٌ]{.ar} [kabIrun]{.trn} is a noun, it has an [n]{.trn}-mar
 
 The expression "a big man" is an example of a noun-phrase. It consists of a [described-noun]{.syn} and a [describer]{.syn}. The noun "a man" is the [described-noun]{.syn} and the adjective "big" is the [describer]{.syn}.
 
-English uses adjectives as [describers]{.syn}. The [describer]{.syn} comes before the [described-noun]{.syn}.
+The terms *describer* and *described-noun* refer to the function and arrangement of words in the noun phrase. These are terms that relate to syntax. Syntax relates to the struture of language.
 
-As we mentioned, Arabic does not technically have adjectives. Instead, Arabic uses descriptive nouns as the [describer]{.syn} in a noun-phrase to give the meaning of the adjective. The [describer]{.syn} comes after the [described-noun]{.syn}, and matches the [described-noun]{.syn} in state, definiteness, and gender.
+Whereas the term *descriptive-noun* refers to the meaning of a word, not its arrangement in a sentence or phrase. Therefore, the term *descriptive-noun* is semantic, which means that it is related to meaning. Semantics relates to the meaning of language.
 
-For example, in order to express "a big man", we put the [described-noun]{.syn} [رَجُلٌ]{.ar} [rajulun]{.trn} "a man" first, and place the descriptive noun [كَبِيرٌ]{.ar} [kabIrun]{.trn} (masc.) "a big one" after it as the [describer]{.syn}. Then the descriptive noun [كَبِيرٌ]{.ar} [kabIrun]{.trn} gives the meaning of the adjective "big":
+English uses adjectives as [describers]{.syn}. In English the [describer]{.syn} comes before the [described-noun]{.syn}.
+
+As we mentioned, Arabic does not technically have adjectives. Instead, in an Arabic noun-phrase, a descriptive noun is used as the [describer]{.syn} to give the meaning of the adjective. The [describer]{.syn} comes after the [described-noun]{.syn}, and matches the [described-noun]{.syn} in state, definiteness, and gender.
+
+So in Arabic, in order to express "a big man", we put the [described-noun]{.syn} [رَجُلٌ]{.ar} [rajulun]{.trn} "a man" first, and place the descriptive noun [كَبِيرٌ]{.ar} [kabIrun]{.trn} (masc.) "a big one" after it as the [describer]{.syn}. Then the descriptive noun [كَبِيرٌ]{.ar} [kabIrun]{.trn} gives the meaning of the adjective "big":
 
 [رَجُلٌ كَبِيرٌ]{.ar}  
 [rajulun kabIrun]{.trn}  
@@ -149,7 +155,7 @@ We can use descriptive nouns by themselves in a sentence:
 [جَاءَ كَبِيرٌ]{.ar}  
 [jAEa kabIrun]{.trn}  
 "A big one (masc.) came."  
-From this sentence alone we don't know what entity "a big one" is referring to. But from context, this could infer that, for example, "A big _man_ came."
+From this sentence alone we don't know what entity "a big one" is referring to. But from context, we could infer that, for example, "A big _man_ came."
 
 [حَمَلَتِ ٱلْأُمُّ ٱلصَّغِيرَ.]{.ar}  
 [Hamalati -lEummu -SSagIra]{.trn}  
