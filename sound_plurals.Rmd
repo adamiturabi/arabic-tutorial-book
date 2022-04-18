@@ -122,13 +122,13 @@ Examples:
 [EalHayawAnAtu fi -lgAbAti.]{.trn}  
 "The animals are in the forests."
 
-## Usage of sound plurals
+## Usage of plurals
 
 It is not just designative nouns that have plurals. Descriptive nouns may be pluralized as well. For example, [طَيِّبٌ]{.ar} [Tayyibun]{.trn} has the [Un]{.trn} plural [طَيِّبُونَ]{.ar} [TayyibUna]{.trn} and the [At]{.trn} plural [طَيِّبَاتٌ]{.ar} [TayyibAtun]{.trn}. In using plurals of descriptive nouns, Arabic distinguishes between rational beings and non-rational beings.
 
-### Usage of sound plurals of descriptive nouns with rational beings
+### Usage of plurals of descriptive nouns with rational beings
 
-When a descriptive noun is describing a plural noun denoting rational beings, then the descriptive noun will be pluralized. For example,
+When a descriptive noun is describing plural rational beings, then the descriptive noun will be pluralized. For example,
 
 [ٱَلْمُعَلِّمُونَ طَيِّبُونَ.]{.ar}  
 [EalmueallimUna TayyibUna]{.trn}  
@@ -138,47 +138,52 @@ When a descriptive noun is describing a plural noun denoting rational beings, th
 [kAnati -ljAriyAtu -TTawIlAtu sarIeAtin]{.trn}  
 "The tall girls were fast."
 
-### Usage of sound plurals of descriptive nouns with non-rational beings
+### Usage of plurals of descriptive nouns with non-rational beings
 
 #### Normal usage
 
-When a descriptive noun is describing a plural noun denoting non-rational beings, either as the describer in a noun-phrase, or in the information of a sentence, then the descriptive noun will typically not be pluralized. The feminine singular descriptive noun is used instead, even if the described noun is masculine. For example,
-
-[حَيَوَانَاتٌ وَحْشَةٌ]{.ar}  
-[HayawAnatun waHcatun]{.trn}  
-"wild animals"
+Consider the following noun phrase:
 
 [ٱَلسِّنُونَ ٱلصَّعْبَةُ]{.ar}  
 [EassinUna -SSaebatu]{.trn}  
 "the difficult years"
 
-[ٱَلْحَيَوَانَاتُ ٱلْوَحْشَةُ كَبِيرَةٌ.]{.ar}  
-[EalHayawAnAtu -lwaHcatu kabIratun]{.trn}  
-"The wild animals are big."
+The described noun is a plural [ٱَلسِّنُونَ]{.ar}. But the describer is singular feminine [ٱَلصَّعْبَةُ]{.ar}, not plural [ٱَلصَّعْبَاتُ]{.ar}. This is because for plural non-rational beings, Arabic typically uses the feminine singular descriptive noun instead of the plural descriptive noun. Even if the described noun is masculine, yet the describer will be feminine singular. For example,
 
-[كَانَتِ ٱلسِّنُونَ ٱلصَّعْبَةُ طَوِيلَةً.]{.ar}  
-[kAnati -ssinUna -SSaebatu TawIlatan]{.trn}  
-"The difficult years were long."
+[حَيَوَانَاتٌ وَحْشَةٌ]{.ar}  
+[HayawAnatun waHcatun]{.trn}  
+"wild animals"
 
-This is done even if the desrciptive noun in the information of the sentence is definite. For example,
+This usage of the feminine singular descriptive noun for non-rational beings occurs in two scenarios:
 
-[كَانَتِ ٱلسِّنُونَ ٱلصَّعْبَةُ ٱلطَّوِيلَةَ.]{.ar}  
-[kAnati -ssinUna -SSaebatu -TTawIlata]{.trn}  
+i. When the descriptive noun is describing plural non-rational beings as the describer in a noun-phrase. This was the case for the two examples above.
+ii. When the descriptive noun is describing plural non-rational beings as the information of a sentence. For example:
+
+[ٱَلْحَيَوَانَاتُ كَبِيرَةٌ.]{.ar}  
+[EalHayawAnAtu kabIratun]{.trn}  
+"The animals are big."
+
+This rule applies even when the descriptive noun in the information is definite. For example:
+
+[ٱَلسِّنُونَ ٱلصَّعْبَةُ هِيَ ٱلطَّوِيلَةُ.]{.ar}  
+[AssinUna -SSaebatu hiya -TTawIlatu]{.trn}  
 "The difficult years were the long ones."
 
-Note, however, that when a descriptive noun denoting plural non-rational beings is not the describer in a noun-phrase, or is not the information of a sentence, then it will be pluralized. But remember that the [Un]{.trn} plural is only used for male human beings. So the [At]{.trn} plural will be used, even if the descriptive noun refers to a masculine object. For example,
+Note that in the above sentence, it is not just the descriptive nouns [ٱلصَّعْبَةُ]{.ar} and [ٱلطَّوِيلَةُ]{.ar} which are feminine singular. So too is the pronoun [هِيَ]{.ar}. We will learn the rule for pronouns in the next section.
+
+Note however that this rule is applied only when the descriptive noun is the describer in a noun-phrase, or in the information of a sentence. If the descriptive noun is describing plural non-rational beings as the subject of a sentence then it will be pluralized. For example:
 
 [ٱَلْحَيَوَانَاتُ كَبِيرَةٌ وَصَغِيرَةٌ. ٱَلْكَبِيرَاتُ قَوِيَّةٌ.]{.ar}  
 [EalHayawAnatu kabIratun wa SagIratun. EalkabIrAtu qawiyyatun]{.trn}  
 "The animals are big and small. The big ones are strong."
 
-In the example above, in the first sentence the descriptive nouns [كَبِيرَةٌ]{.ar} [kabIratun]{.trn} "big" and [صَغِيرَةٌ]{.ar} [SagIratun]{.trn} "small" are in the feminine singular because they are the information of the sentence and are describing the non-human plural described noun [ٱَلْحَيَوَانَاتُ]{.ar} [EalHayawAnAtu]{.trn} "the animals".
+In the example above, in the first sentence the descriptive nouns [كَبِيرَةٌ]{.ar} [kabIratun]{.trn} "big" and [صَغِيرَةٌ]{.ar} [SagIratun]{.trn} "small" are in the feminine singular because they are the information of the sentence and are describing the non-rational plural [ٱَلْحَيَوَانَاتُ]{.ar} [EalHayawAnAtu]{.trn} "the animals".
 
 But in the second sentence, the descriptive noun 
 [ٱَلْكَبِيرَاتُ]{.ar} [EalkabIrAtu]{.trn} "the big ones"
-is the subject of the sentence. It is used as a regular noun so it is pluralized with the [At]{.trn} plural. 
+is the subject of the sentence. So it is pluralized.
 
-It is also the described noun for the descriptive noun [قَوِيَّةٌ]{.ar} [qawiyyatun]{.trn} "strong". [قَوِيَّةٌ]{.ar} is feminine singular because it is the information of the sentence and is describing the non-human plural described noun [ٱَلْكَبِيرَاتُ]{.ar} [EalkabIrAtu]{.trn} "the big ones".
+Finally, it is worth mentioning that this usage of the feminine singular descriptive noun for non-rational beings only occurs with the plural, not the dual. Descriptive nouns for dual non-rational beings are dualized as we have seen in the previous chapter.
 
 #### Uncommon usage
 
