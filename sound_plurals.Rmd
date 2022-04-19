@@ -166,11 +166,11 @@ We have learned detached pronouns, completed-action verb doer-modifications, and
 
 Here we will re-list some of the rules for the singular and dual pronouns and add rules for the plural pronouns:
 
-+ The dual attached and detached pronouns for the non-participator "they/them~dual\ masc.~" are pronounced the same: [هُمَا]{.ar} [humA]{.trn}.
-+ The plural attached and detached pronouns for the non-participator "they/them~pl.\ masc.~" are pronounced the same: [هُمْ]{.ar} [hum]{.trn}.
-+ Only the dual verb doer-modification for the non-participator differentiates between the masculine ([ـَا]{.ar} [-A]{.trn}) and feminine ([ـَتَا]{.ar} [-atA]{.trn}). Otherwise, the same pronouns are used in the dual for both genders.
-+ Speaker pronouns and verb doer-modifications do not differentiate between the masculine and feminine genders.
-+ The singular attached pronoun for the speaker is [ـنِي]{.ar} [nI]{.trn} when a doee pronoun, and [ـِي]{.ar} [I]{.trn} otherwise. This [ـِي]{.ar} [I]{.trn} becomes a [يَ]{.ar} [ya]{.trn} when preceded by an unvoweled [ي]{.ar}. Examples:
++ The dual attached and detached pronouns for the absent person "they/them~dual\ masc.~" are pronounced the same: [هُمَا]{.ar} [humA]{.trn}.
++ The plural attached and detached pronouns for the absent person "they/them~pl.\ masc.~" are pronounced the same: [هُمْ]{.ar} [hum]{.trn}.
++ Only the dual verb doer-modification for the absent person differentiates between the masculine ([ـَا]{.ar} [-A]{.trn}) and feminine ([ـَتَا]{.ar} [-atA]{.trn}). Otherwise, the same pronouns are used in the dual for both genders.
++ Speaking person pronouns and verb doer-modifications do not differentiate between the masculine and feminine genders.
++ The singular attached pronoun for the speaking person is [ـنِي]{.ar} [nI]{.trn} when a doee pronoun, and [ـِي]{.ar} [I]{.trn} otherwise. This [ـِي]{.ar} [I]{.trn} becomes a [يَ]{.ar} [ya]{.trn} when preceded by an unvoweled [ي]{.ar}. Examples:
   + [لِي]{.ar}  
     [lI]{.trn}  
     "for me"
@@ -186,8 +186,8 @@ Here we will re-list some of the rules for the singular and dual pronouns and ad
 
     Note that the [ي]{.ar} in [فِي]{.ar} and [إِلَىٰ]{.ar} gets doubled when it joins with the pronoun [يَ]{.ar}.
 
-+ The attached pronoun and verb doer-modification for the dual/plural speaker "we/us" are the same: [نَا]{.ar} [nA]{.trn}.
-+ The same pronouns and verb doer-modifications are used for the dual and plural speaker: [نَحْنُ]{.ar} [naHnu]{.trn} and [ـنَا]{.ar} [-nA]{.trn} respectively.
++ The attached pronoun and verb doer-modification for the dual/plural speaking person "we/us" are the same: [نَا]{.ar} [nA]{.trn}.
++ The same pronouns and verb doer-modifications are used for the dual and plural speaking person: [نَحْنُ]{.ar} [naHnu]{.trn} and [ـنَا]{.ar} [-nA]{.trn} respectively.
 + The [u]{.trn}-mark on the attached pronouns [ـهُ]{.ar} [-hu]{.trn}, [ـهُمَا]{.ar} [-humA]{.trn}, and [ـهُمْ]{.ar} [-hum]{.trn} becomes an [i]{.trn}-mark ([ـهِ]{.ar} [-hi]{.trn}, [ـهِمَا]{.ar} [-himA]{.trn}, and [ـهِمْ]{.ar} [-him]{.trn} respectively) when they are preceded by the vowels [◌ِ]{.ar} [i]{.trn}, [ـِي]{.ar} [I]{.trn}, or the semi-vowel [ـَيْ]{.ar} [ay]{.trn}. Examples: 
   + [عَلَيْهِ]{.ar}, [ealayhi]{.trn} "on him"
   + [فِيهِمَا]{.ar} [fIhimA]{.trn} "in them~dual~"
@@ -196,14 +196,14 @@ Here we will re-list some of the rules for the singular and dual pronouns and ad
   + [هُمُ ٱلْمُعَلِّمُونَ.]{.ar}  
     [humu -lmueallimUna.]{.trn}  
     "They~pl.\ masc.~ are the (male) teachers."
-+ The plural masculine verb doer-modification for the non-participator "they~pl.\ masc.~" [ـُوا]{.ar} [U]{.trn} has a silent [Ealif]{.trn} which is written only and not pronounced. This [Ealif]{.trn} is dropped when a doee pronoun is attached. For example: 
++ The plural masculine verb doer-modification for the absent person "they~pl.\ masc.~" [ـُوا]{.ar} [U]{.trn} has a silent [Ealif]{.trn} which is written only and not pronounced. This [Ealif]{.trn} is dropped when a doee pronoun is attached. For example: 
   + [ضَرَبُوا ٱلرَّجُلَ.]{.ar}  
     [Darabu -rrajula.]{.trn}  
     "They hit the man."
   + [ضَرَبُوهُ.]{.ar}  
     [DarabUhu.]{.trn}  
     "They~pl.\ masc.~ hit him."
-+ The plural masculine verb doer-modification for the addressee "you~pl.\ masc.~" [ـتُمْ]{.ar} [-tum]{.trn} becomes [تُمُو]{.ar} [tumU]{.trn} when a doee pronoun is attached. For example:
++ The plural masculine verb doer-modification for the addressed person "you~pl.\ masc.~" [ـتُمْ]{.ar} [-tum]{.trn} becomes [تُمُو]{.ar} [tumU]{.trn} when a doee pronoun is attached. For example:
   + [ضَرَبْتُمُ ٱلرَّجُلَ.]{.ar}  
     [Darabtumu -rrajula.]{.trn}  
     "You~pl.\ masc.~ hit the man."
@@ -234,25 +234,45 @@ Verbs with plural doer nouns also a corresponding rule, using the plural doer-mo
 
 Examples:
 
-If there are multiple doers of a verb, and each is mentioned individually, then:
+## Verbs with multiple doers mentioned individually
 
-1. If the verb precedes the doers, then it will usually have the doer-modification of the first mentioned doer. Examples:
-   + [ذَهَبْتُ أَنَا وَأَنْتَ وَهُوَ.]{.ar}  
-     [pahabtu Eana waEanta wahuwa.]{.trn}  
-     "I, you, and he went."
-   + [ذَهَبَتِ ٱلْأُمُّ وَٱلْغُلَامُ.]{.ar}  
-     [pahabati -lEummu wa-lgulAmu.]{.trn}  
-     "The mother and the boy went."
-2. If the verb follows the doers, then it will have the doer-modification corresponding to number of the doers. Example:
-   + [ٱلْأُمُّ وَٱلْجَارِيَةُ ذَهَبَتَا.]{.ar}  
-     [EalEummu wa-ljAriyatu pahabatA.]{.trn}  
-     "The mother and the girl went."
-   + [ٱلْأُمُّ وَٱلْجَارِيَتَانِ ذَهَبْنَ.]{.ar}  
-     [EalEummu wa-ljAriyatAni pahabna.]{.trn}  
-     "The mother and the two girls went."
+If there are multiple doers of a verb, and each is mentioned individually, then there is often more than one way to handle them. Here we will give the more common usage.
 
-   If the doers consist of both male and female persons, then the verb will have the masculine doer prefix corresponding to the number of the doers. Example:
-   + [ٱلْأُمُّ وَٱلْجَارِيَةُ وَٱلْغُلَامُ ذَهَبُوا.]{.ar}  
-     [EalEummu wa-ljAriyatu wa-lgulAmu pahabU.]{.trn}  
-     "The mother, the girl, and the boy went."
-   
+If the verb precedes the doers, then it will usually have the doer-modification of the first mentioned doer. Examples:
+
+[ذَهَبَتِ ٱلْأُمُّ وَٱلْغُلَامُ.]{.ar}  
+[pahabati -lEummu wa-lgulAmu.]{.trn}  
+"The mother and the boy went."
+
+If the verb follows the doers, then it will have the doer-modification corresponding to number of the doers. Example:
+
+[ٱلْأُمُّ وَٱلْجَارِيَةُ ذَهَبَتَا.]{.ar}  
+[EalEummu wa-ljAriyatu pahabatA.]{.trn}  
+"The mother and the girl went."
+
+[ٱلْأُمُّ وَٱلْجَارِيَتَانِ ذَهَبْنَ.]{.ar}  
+[EalEummu wa-ljAriyatAni pahabna.]{.trn}  
+"The mother and the two girls went."
+
+If the doers consist of both male and female persons, then the verb will have the masculine doer prefix corresponding to the number of the doers. Example:
+
+[ٱلْأُمُّ وَٱلْجَارِيَةُ وَٱلْغُلَامُ ذَهَبُوا.]{.ar}  
+[EalEummu wa-ljAriyatu wa-lgulAmu pahabU.]{.trn}  
+"The mother, the girl, and the boy went."
+
+If the doers consist of different persons (speaking person, addressed person, and absent person), then they are placed in order of strength: The speaking person is stronger than the addressed person, who is stronger than the absent person. The verb doer modification of the strongest person is used. For example,
+  
+[ذَهَبْتُ أَنَا وَأَنْتَ وَهُوَ.]{.ar}  
+[pahabtu Eana waEanta wahuwa.]{.trn}  
+"I, you, and he went."
+
+[أنْتَ وَهُوَ ذَهَبْتُمَا.]{.ar}  
+[Eanta wahuwa pahabtumaA.]{.trn}  
+"You and he went."
+
+[أَنَا وَمُحَمَّدٌ ذَهَبْنَا.]{.ar}  
+[Eana wamuHammadun pahabnaA.]{.trn}  
+"I and MuHammad went."
+
+<!-- Al-Nahw Al Wafy vol. i. p. 268, point 9 -->
+
