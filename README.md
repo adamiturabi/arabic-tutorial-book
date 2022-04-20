@@ -14,19 +14,22 @@ An online book that aims to teach Arabic.
    
    ```
 2. Fonts
-   + Brill: https://brill.com/page/290?language=en
-   + Amiri: https://github.com/alif-type/amiri/releases/latest
-   + Scheherazade New: https://software.sil.org/scheherazade/download/
-   + Gentium Plus: https://software.sil.org/gentium/download/
-   + Andika: https://software.sil.org/andika/download/
-   + STIX Two Text: `https://github.com/stipub/stixfonts/blob/master/zipfiles/static_ttf.zip`
-   + Microsoft Core Fonts:
-   ```
-   sudo add-apt-repository multiverse
-   sudo apt update && sudo apt install ttf-mscorefonts-installer
-   sudo fc-cache -f -v
-   ```
-   + Vazir: https://github.com/rastikerdar/vazir-font/releases/latest
+   + In current use:
+     + Junicode: https://github.com/psb1558/Junicode-font/releases/tag/v1.003
+     + Andika: https://software.sil.org/andika/download/
+     + Amiri: https://github.com/alif-type/amiri/releases/latest
+     + Vazir: https://github.com/rastikerdar/vazir-font/releases/latest
+   + Experimental:
+     + Brill: https://brill.com/page/290?language=en
+     + Scheherazade New: https://software.sil.org/scheherazade/download/
+     + Gentium Plus: https://software.sil.org/gentium/download/
+     + STIX Two Text: `https://github.com/stipub/stixfonts/blob/master/zipfiles/static_ttf.zip`
+     + Microsoft Core Fonts:
+     ```
+     sudo add-apt-repository multiverse
+     sudo apt update && sudo apt install ttf-mscorefonts-installer
+     sudo fc-cache -f -v
+     ```
 
 3. Pandoc
    ```
