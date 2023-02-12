@@ -11,6 +11,8 @@ geometry:
 #- paperheight=244mm
 - paperwidth=156mm
 - paperheight=234mm
+#- paperwidth=6in
+#- paperheight=9in
 - bindingoffset=16mm
 - textwidth=114.8mm           # = (170 - 6)*0.7
 - textheight=170.8mm          # = 244 * 0.7
