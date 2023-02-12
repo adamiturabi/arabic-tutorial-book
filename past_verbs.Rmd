@@ -2,15 +2,40 @@
 
 ## Introduction
 
-Verbs are action words. Every verb needs a noun that does the action of the verb. This noun is called the _doer_. 
+Verbs are action words. Verbs can be either _completed-action_ verbs where the action of the verb has been completed, e.g., "The boy went." or _incomplete-action_ verbs where the action of the verb is on-going or not yet completed, e.g., "The boy goes." In this chapter we will study _completed-action_ verbs.
 
-## Verbs with a masculine doer noun
+## Form of the completed-action verb
+
+Here are some examples of the basic form of completed-action verbs in Arabic:
+
+Verb | Transcription | Meaning
+:----|:----|:----
+[ذَهَبَ]{.ar} |[pahaba]{.trn} |"went"
+[كَتَبَ]{.ar} |[kataba]{.trn} |"wrote"
+[جَعَلَ]{.ar} |[jaeala]{.trn} |"made"
+[ضَرَبَ]{.ar} |[Daraba]{.trn} |"hit"
+[عَلِمَ]{.ar} |[ealima]{.trn} |"knew"
+[عَمِلَ]{.ar} |[eamila]{.trn} |"worked"
+[كَبُرَ]{.ar} |[kabura]{.trn} |"grew"
+
+Note the basic form consists of three letters. The first and the third letter always have an [a]{.trn}-mark while the second letter's vowel is variable. It may have an [a]{.trn}-mark, [i]{.trn}-mark, or an [u]{.trn}-mark, depending on the verb. A good dictionary will tell us the middle vowel mark of a particular verb. However, [a]{.trn}-marks are the most common followed by the [i]{.trn}-mark, while [u]{.trn}-marks is the most uncommon.
+
+Interestingly, there can exist two verbs, each with its own distinct meaning, that have the same three letters and differ only in the vowel mark on the middle letter. The most common example is:
+
++ [حَسَبَ]{.ar} [Hasaba]{.trn} "he computed"
++ [حَسِبَ]{.ar} [Hasiba]{.trn} "He deemed"
+
+//Every verb needs a noun that does the action of the verb. This noun is called the _doer_. 
+
+## Verbs with noun doers
+
+When a verb is in a sentence, it requires a doer. A doer is a noun or a pronoun that does the action of the verb. For example, in the sentence "The boy went.", the noun "the boy" is the doer of the verb.
+
+### Verbs with a masculine doer noun
 
 Consider the sentence:
 
 "The boy went." 
-
-In this sentence the word "went" is the verb, and "the boy" is the doer of the verb. This verb in this sentence is a _completed-action_ verb. It is called so because the action "went" has been completed. The _incomplete-action_ verb associated with this action is "goes". In this chapter we will learn about _complete-action_ verbs only.
 
 In order to express this sentence in Arabic, we will say:
 
@@ -20,7 +45,7 @@ In order to express this sentence in Arabic, we will say:
 
 [ذَهَبَ]{.ar} [pahaba]{.trn} "went" is the verb and [ٱلْغُلَامُ]{.ar} [algulAmu]{.trn} "the boy" is the doer. Note that in English the doer comes before the verb whereas in Arabic the doer comes after the verb.
 
-The for of the verb [ذَهَبَ]{.ar} [pahaba]{.trn} is specifically for masculine doers. We shall see in the next section how the verb is modified for feminine doers. With this verb, the masculine doer may be definite, indefinite, a common noun, or a proper noun. Examples:
+The basic form of the verb [ذَهَبَ]{.ar} [pahaba]{.trn} is specifically for masculine doers. We shall see in the next section how the verb is modified for feminine doers. With this verb, the masculine doer may be definite, indefinite, a common noun, or a proper noun. Examples:
 
 A boy went.
 
@@ -28,7 +53,7 @@ Muhammad went.
 
 The time went.
 
-## Verbs with a feminine doer noun
+### Verbs with a feminine doer noun
 
 Now consider the sentence:
 
@@ -40,229 +65,181 @@ In order to express this sentence in Arabic, we will say:
 [pahabat jAriyatun]{.trn}  
 "A girl went." 
 
----
+Note that we have modified the verb by adding on the letter [تْ]{.ar} at the end. This [تْ]{.ar} is to indicate that the doer is feminine and is called the [تْ]{.ar} of femininity. If the word following the noun begins with a connecting [hamzah]{.trn} then we add a helper vowel to the [تْ]{.ar} and it becomes [تِ]{.ar}. Examples:
 
+[ذَهَبَتِ ٱلْبَقَرَةُ.]{.ar}  
+[pahabati -lbaqaratu.]{.trn}  
+"The cow went."
 
-We will classify verbs into completed-action verbs and incomplete-action verbs.
+[ذَهَبَتِ ٱمْرَأَةٌ.]{.ar}  
+[pahabati -mraEatun.]{.trn}  
+"A woman went."
 
-Here are some English sentences with completed-action verbs:
+Note that whether or not we add a helper vowel to [تْ]{.ar}, the letter before it always has an [a]{.trn}-mark.
 
-+ He wrote a book.
-+ She wrote a book.
-+ You wrote a book.
-+ I wrote a book.
+## Verbs with direct doees
 
-Each of these sentences has:
+Consider the sentence:
 
-1. a pronoun ("he", "she", "you", "I") which is the doer of the verb,
-2. the verb itself: "wrote", and
-3. the doee of the verb, i.e., the object upon whom the action of the verb is done: "a book".
+"The man wrote a book."
 
-Notice in each sentence that the verb "wrote" remains the same irrespective of the doer of the verb.
+In this sentence, "wrote" is the verb, "the man" is the doer, and "a book" is what we shall call the _doee_. In fact, it is what we shall call a _direct doee_. A doee is the noun to whom the action of verb is done. In Arabic, we will express this by saying:
 
-## Verb doer-modifications
+[كَتَبَ ٱلرَّجُلُ كِتَابًا.]{.ar}  
+[kataba -rrajulu kitAban.]{.trn}  
+"The man wrote a book."
 
-In Arabic, we don't require a separate pronoun for the doer when using a verb. The verb itself is modified for each doer. The basic verb stem is used for the doer pronoun "he", for example [كَتَبَ]{.ar} [kataba]{.trn} "he wrote". And this basic verb stem is modified for the other doer pronouns:
+Note how in Arabic the doee [كِتَابًا]{.ar} [kitAban]{.trn} "a book" is in the a-state. This is because, in Arabic, verbs shall cause a direct doee to be in the a-state. This is true whether the direct doee is definite or indefinite. Here is another example:
 
-1. [كَتَبَ]{.ar}   [kataba]{.trn} "He wrote."
-2. [كَتََبَتْ]{.ar}  [katabat]{.trn} "She wrote."
-3. [كَتَبْتَ]{.ar}  [katabta]{.trn} "You (sing. masc.) wrote."
-4. [كَتَبْتِ]{.ar}  [katabti]{.trn} "You (sing. fem.) wrote."
-5. [كَتَبْتُ]{.ar}  [katabtu]{.trn} "I wrote."
+[ضَرَبَتِ ٱلْمَرْأَةُ ٱلْجَارِيَةَ.]{.ar}  
+[Darabati -lmarEatu -ljAriyata.]{.trn}  
+"The woman hit the girl."
 
-Note the same verb doer-modification for the speaking person is used for both masculine and feminine doers. 
-
-## Verbs with doees
-
-### Direct doees
-
-The examples in the previous section are complete sentences in and of themselves. However, we can add to the sentence a noun that the action of the verb is done to. This noun is called the doee. For example, in the sentence "He wrote a book.", "he" is the doer and "a book" is the doee. In fact it is a direct doee because there is not preposition before the doee. In Arabic, the direct doee of a verb is placed in the a-state. Examples:
-
-1.  [كَتَبَ كِتَابًا.]{.ar} [kataba kitAban.]{.trn} "He wrote a book."
-2. [كَتََبَتْ كِتَابًا.]{.ar} [katabat kitAban.]{.trn} "She wrote a book."
-3. [كَتَبْتَ كِتَابًا.]{.ar} [katabta kitAban.]{.trn} "You~sing.\ masc.~ wrote a book."
-4. [كَتَبْتِ كِتَابًا.]{.ar} [katabti kitAban.]{.trn} "You~sing.\ fem.~ wrote a book."
-5. [كَتَبْتُ كِتَابًا.]{.ar} [katabtu kitAban.]{.trn} "I wrote a book."
-
-Note that in each of the above examples, the doee [كِتَابًا]{.ar} [kitAban]{.trn} "a book" is in the a-state which is indicated by the [an]{.trn}-mark on the final letter.
-
-The doee may be a definite noun instead of an indefinite noun, in which case it shall lose the [n]{.trn}-mark and be prefixed with [ٱَلْ]{.ar} [Eal]{.trn}. However, it shall still be in the a-state. For example,
-
-+ [كَتَبَ ٱلْكِتَابَ.]{.ar}  
-  [kataba -lkitAba.]{.trn}  
-  "He wrote the book."
-  
-+ [كَتَبَتِ ٱلْكِتَابَ.]{.ar}  
-  [katabati -lkitAba.]{.trn}  
-  "She wrote the book."
-
-  Note that in this sentence, a connecting [hamzah]{.trn} followed the verb [كَتَبَتْ]{.ar} [katabat]{.trn} so the null-vowel mark on the final letter was changed to an [i]{.trn}-mark: [كَتَبَتِ]{.ar} [katabati]{.trn}. Care must be taken to distinguish this from [كَتَبْتِ]{.ar} [katabti]{.trn} "You~fem.~ wrote".
-
-It is possible for a verb to have more than one direct doee. In this case, both doees shall be in the u-state. For example,
-
-[جَعَلَ ٱللَّـٰهُ ٱلرَّجُلَ مُسْلِمًا.]{.ar}  
-[jaeala -llAhu -rrajula musliman.]{.trn}  
-"[#allAh]{.trn2} made the man a Muslim."
+Note again how [ٱلْجَارِيَةَ]{.ar} [aljAriyata]{.trn} "the girl" is in the a-state because it is a direct doee.
 
 ### Indirect doees
 
-So far we have seen examples of a verb with a direct doee. Indirect doees are possible as well...
+// Move this section to prepositions chapter.
 
-### Remove
+Some verbs instead of taking a direct doee, take an _indirect doee_. This too is a noun that the action of the verb is done to. However, it is preceded by a preposition. In this case, the indirect doee shall not be in the a-state. Rather it shall be in the i-state because is preceded by the preposition. For example,
 
-In Arabic the doer pronoun is attached to the completed-action verb as a suffix. For example, the verb "wrote" in Arabic is [كَتَبْ]{.ar} [katab]{.trn}. And these are the doer pronoun suffixes:
 
-1. [◌َ]{.ar}  [a]{.trn}  "he"
-2. [ـَتْ]{.ar} [at]{.trn} "she"
-3. [تَ]{.ar}  [ta]{.trn} "you (sing. masc.)"
-4. [تِ]{.ar}  [ti]{.trn} "you (sing. fem.)"
-5. [تُ]{.ar}  [tu]{.trn} "I (masc. & fem.)"
+By the way, it is entirely possible that an English verb may take a direct doee, while the corresponding Arabic verb may only take an indirect doee. The reverse is also quite possible. For example,
 
-Each of these can be attached to the basic verb stem [كَتَبْ]{.ar} [katab]{.trn} "wrote":
+[غَفَرَ ٱللَّـٰهُ لِلْمُسْلِمِ.]{.ar}  
+[gafara -llAhu -lmuslimi.]{.trn}  
+"Allah forgave the Muslim."
 
-1. [◌َ]{.ar}  + [كَتَبْ]{.ar} = [كَتَبَ]{.ar}   [kataba]{.trn} "He wrote."
-2. [ـَتْ]{.ar} + [كَتَبْ]{.ar} = [كَتََبَتْ]{.ar}  [katabat]{.trn} "She wrote."
-3. [تَ]{.ar}  + [كَتَبْ]{.ar} = [كَتَبْتَ]{.ar}  [katabta]{.trn} "You (sing. masc.) wrote."
-4. [تِ]{.ar}  + [كَتَبْ]{.ar} = [كَتَبْتِ]{.ar}  [katabti]{.trn} "You (sing. fem.) wrote."
-5. [تُ]{.ar}  + [كَتَبْ]{.ar} = [كَتَبْتُ]{.ar}  [katabtu]{.trn} "I (masc. & fem.) wrote."
+It is also possible that an English verb may take an indirect doee with a particular preposition whereas the corresponding Arabic verb may take the indirect doee with a different preposition. For example,
 
-## Verbs with noun doers
+[غَضِبَ ٱلرَّجُلُ مِنَ ٱلْغُلَامِ.]{.ar}  
+[gaDiba -rrajulu mina -lgulAmi.]{.trn}  
+"The man was angry with the boy."
 
-So far we have seen verbs whose doers were pronouns ("he", "she", "you", "I"). Similar to English, instead of these pronouns, verbs may have nouns as doers. When a verb has a doer noun, the doer-modification is still kept (but not translated). Also, the doer noun may be placed before or after the verb. In this regard, Arabic sentence word order is more flexible than English. Normally, though, the verb comes before the doer-noun.
+## Verbs with doer pronouns
 
-For example,
+A pronoun may replace a noun as the doer of a verb. For example, "he went", "I wrote", etc. In Arabic, doer pronouns are either visible or invisible.
 
-+ [كَتَبَتْ جَارِيَةٌ كِتَابًا.]{.ar}  
-  [katabat jAriyatun kitAban.]{.trn}  
-  "A girl wrote a book."
-+ [ٱَلرَّجُلُ كَتَبَ ٱلْكِتَابَ.]{.ar}  
-  [Earrujulu kataba -lkitAba.]{.trn}  
-  "The man wrote the book."
+In Arabic, visible doer pronouns exist for "I" and "you". "You" is differentiated for masculine and feminine doers whereas "I" is not. Visible doer pronouns are attached to the basic form of the verb while modifying the vowel on the final letter of the verb. For example,
 
-Arabic uses noun-state rather than word order to determine who the doer and the doee is. Note that the doer noun in the u-state and that the doee is in the a-state. Note also, as we mentioned, that the verb keeps its doer-modification when the doer noun is mentioned. In translating the sentence to English, however, we will not translate the doer prefix in sentences when the doer noun is present.
+Doer pronoun | Verb | Transcription | Meaning
+:---|:---|:---|:---
+[تُ]{.ar} |[ذَهَبْتُ]{.ar} | [pahabtu]{.trn} | "I went"
+[تَ]{.ar} |[ذَهَبْتَ]{.ar} | [pahabta]{.trn} | "You~masc.~ went"
+[تِ]{.ar} |[ذَهَبْتِ]{.ar} | [pahabti]{.trn} | "You~fem.~ went"
 
-### Remove
+The remaining singular doer pronouns: "he" and "she" are invisible in Arabic. So if we wish to say "He went." we will simply say:
 
-+ Even when the doer is a noun, the doer-modifications for "he" or "she" are still attached to the verb depending on the gender of the doer. However, they are not translated.
-+ The doer nouns are in the u-state. Doer nouns shall generally be in the u-state. 
-+ (FIXME: also add doer before verb). The doer noun follows the verb. Sentence word order is somewhat flexible in Arabic but normally a verb's doer comes after the verb. English primarily uses word order to determine who the doer of a verb is and who the doee is. Conversely, Arabic uses the nouns' states to determine the doer and doee. As mentioned, the doer will be in the u-state and the doee will be in the a-state.
+[ذَهَبَ.]{.ar}  
+[pahaba.]{.trn}  
+"He went."
 
-## Vowel marks in the completed-action verb
+And for "She went." we will say:
 
-The completed-action verb [كَتَبَ]{.ar} [kataba]{.trn} "he wrote" has an [a]{.trn}-mark on all three letters. For now we will be studying completed-action verbs comprising of only three letters. But actually only the first and third letter are guaranteed to have an [a]{.trn}-mark. Depending on the verb, the middle letter can carry an [i]{.trn}-mark or [u]{.trn}-mark instead of an [a]{.trn}-mark. So, for example, we can have,
+[ذَهَبَتْ.]{.ar}  
+[pahabat.]{.trn}  
+"She went."
 
-+ [عَمِلَ]{.ar} [eamila]{.trn} "he worked"
-+ [كَبُرَ]{.ar} [kabura]{.trn} "he became big"
+Take care to note that doer pronouns modify the final letter of the basic verb, whereas the [تْ]{.ar} of "she" or feminine doer nouns does not. So make sure you see the difference in the following two sentences:
 
-The vowel mark on the middle letter is preserved for all doer-modifications. So "I worked" will be [عَمِلْتُ]{.ar}.
+[ضَرَبْتِ ٱلْجَارِيَةَ.]{.ar}  
+[Darabti -ljAriyata.]{.trn}  
+"You~fem.~ hit the girl."
 
-Interestingly, there can exist two verbs, each with its own distinct meaning, that have the same three letters and differ only in the vowel mark on the middle letter. The most common example is:
+[ضَرَبَتِ ٱلْجَارِيَةَ.]{.ar}  
+[Darabati -ljAriyata.]{.trn}  
+"She hit the girl."
 
-+ [حَسَبَ]{.ar} [Hasaba]{.trn} "he computed"
-+ [حَسِبَ]{.ar} [Hasiba]{.trn} "He deemed"
+## Verbs with doee pronouns
 
-## Attached pronouns for the doee
+Just like doer nouns may be replaced with doer pronouns, doee nouns may too be replaced with _doee pronouns_. Doee pronouns are also attached to the end of the verb, while not modifying the vowel on the final letter of the verb. The doee pronouns are:
 
-We had learned in the previous sentence that we can replace nouns with pronouns. And we learned the following detached pronouns:
+Doee pronoun | Transcription | Meaning
+:---|:---|:---
+[هُ]{.ar}  | [-hu]{.trn} | "him"
+[هَا]{.ar} | [-hA]{.trn} | "her"
+[كَ]{.ar}  | [-ka]{.trn} | "you~masc.~"
+[كِ]{.ar}  | [-ki]{.trn} | "you~fem.~"
+[ي]{.ar}  | [-I]{.trn}  | "me"
 
-1. [هُوَ]{.ar} [huwa]{.trn} "he".
-2. [هِيَ]{.ar} [hiya]{.trn} "she".
-3. [أَنْتَ]{.ar} [Eanta]{.trn} "you (masc.)".
-4. [أَنْتِ]{.ar} [Eanti]{.trn} "you (fem.)".
-5. [أَنَا]{.ar} [Eana]{.trn} "I (masc. & fem.)". 
+Here are some notes regarding their usage:
 
-Here we will learn that we can replace a doee noun with a pronoun too. In this case we will use _attached pronouns_. These pronouns are attached to the verb. Here are the attached pronouns for the singular:
+Doee pronouns shall always be attached to the verb. So if there is a doer noun then it shall be placed after the attached doee pronoun. For example:
 
-1. [ـهُ]{.ar} [-hu]{.trn} "him". This pronoun becomes[هِ]{.ar} [hi]{.trn} if it is preceded by the vowels [◌ِ]{.ar}. <!-- [i]{.trn}, [ـِي]{.ar} [I]{.trn}, or the semi-vowel [ـَيْ]{.ar} [ay]{.trn}.-->
-2. [ـهَا]{.ar} [-hA]{.trn} "her".
-1. [ـكَ]{.ar} [-ka]{.trn} "you (masc.)".
-2. [ـكِ]{.ar} [-ki]{.trn} "you (fem.)".
-1. [ـنِي]{.ar} [-nI]{.trn} "me (masc. & fem)". 
+[سَأَلَهُ ٱلْغُلَامُ.]{.ar}  
+[saEalahu -lgulAmu.]{.trn}  
+"The boy asked him."
 
-Here are some examples of verbs with both doer and doee pronouns:
+If however, the doer is also a pronoun, then it shall be attached first to the verb and then the doee pronoun shall be attached to the doer pronoun. For example,
 
-+ [ضَرَبَهُ.]{.ar}  
-  [Darabahu.]{.trn}  
-  "He hit him."
-+ [ضَرَبْتِهِ.]{.ar}  
-  [Darabtihi.]{.trn}  
-  "You~fem.~ hit him."
-+ [ضَرَبَتْهَا]{.ar}  
-  [DarabathA]{.trn}  
-  "She hit her."
-+ [ضَرَبُتُكَ.]{.ar}  
-  [Darabtuka.]{.trn}  
-  "I hit you~masc.~."
-+ [ضَرَبَكِ.]{.ar}  
-  [Darabaki]{.trn}  
-  "He hit you~fem.~."
-+ [ضَرَبْتَنِي.]{.ar}  
-  [DarabtanI.]{.trn}  
-  "You~masc.~ hit me."
+[سَأَلْتُكِ.]{.ar}  
+[saEaltuki.]{.trn}  
+"I asked you~fem.~."
 
-Where the verb has a doee pronoun and doer noun is mentioned, the doer noun must not come between the verb and the attached pronoun for the doee. Examples:
+If the doer pronoun is invisible, then the doee pronoun shall be attached to the verb again directly with only a possible [تْ]{.ar} of femininity intervening. For example:
 
-+ [ضَرَبَنِي ٱلرَّجُلُ..]{.ar}  
-  [Darabani -rrujulu.]{.trn}  
-  "The man hit me."
-  or  
-  [ٱَلرُّجُلُ ضَرَبَنِي.]{.ar}  
-  [Earrujulu DarabanI.]{.trn}  
-  "The man hit me."
+[سَأَلَهَا.]{.ar}  
+[saEalahA.]{.trn}  
+"He asked her."
 
-## Detached pronouns with verbs
+[سَأَلَتْكَ.]{.ar}  
+[saEalatka.]{.trn}  
+"She asked you~masc.~."
 
-So far we have seen that verbs are modified for the doer and that attached pronouns are used for the doee. Now we will show that the detached pronouns, that we have already learned, can be added to emphasize either the doer or the doee. Here some examples:
+If the doee pronoun [هُ]{.ar} [-hu]{.trn} "him" is preceded by the vowels [i]{.trn}, [I]{.trn}, or [ay]{.trn} then it shall instead become [هِ]{.ar} [hi]{.trn} with no change in meaning. For example,
 
-+ [هُوَ ضَرَبَنِي.]{.ar}  
-  [huwa DarabanI.]{.trn}  
-  "*He* hit me."
+[سَأَلْتِهِ.]{.ar}  
+[saEaltihi]{.trn}  
+"You~fem.~ asked him."
 
-+ [ضَرَبَتْنِي أَنَا.]{.ar}  
-  [DarabatnI Eana.]{.trn}  
-  "She hit *me*."
+The doee pronoun [ي]{.ar} [-I]{.trn} "me" is always attached to the verb following an invervening [نِ]{.ar}. For example,
 
-+ [أَنْتَ ضَرَبْتَ ٱلْغُلَامَ.]{.ar}  
-  [Eanata Darabta -lgulAma.]{.trn}  
-  "*You~sing.\ masc.~* hit the boy."
+[سَأَلَنِي.]{.ar}  
+[saEalanI.]{.trn}  
+"He asked me."
 
-The location of this emphasizing detached pronoun is somewhat flexible but usually it will be placed before the verb for the doer and right after the attched doee pronoun for the doee.
+So why don't we simply say that the doee pronoun for "me" is [نِي]{.ar} [nI]{.trn}? This is because these same doee pronouns are also attached to nouns and prepositions as we shall see in later chapters, if [#allAh]{.trn2} wills, and in those cases there is no intervening [نِ]{.ar}.
 
-## Sentence word order
+## Order of words in a sentence
 
-### Flexibility in word order
+### Changing the order of words for emphasis
 
-As we mentioned, Arabic sentence word order is more flexible than English. The normal word order is verb-doer-doee. Foe example,
+In Arabic, the doer always follows the verb. So the normal order of a sentence is verb-doer-doee. For example,
 
-[كَتَبَ ٱلرَّجُلُ ٱلْكِتَابَ.]{.ar}  
-[kataba -rrujulu -lkitAba.]{.trn}  
-"The man wrote the book."
+[كَتَبَ ٱلرَّجُلُ كِتَابًا.]{.ar}  
+[kataba -rrujulu kitAban.]{.trn}  
+"The man wrote a book."
 
-The second most common word order is doer-verb-doee. This may be used to emphasize the doer. For example,
+However, we will often come across sentences like:
 
-[ٱَلرَّجُلُ كَتَبَ ٱلْكِتَابَ.]{.ar}  
-[Earrujulu kataba -lkitAba.]{.trn}  
-"**The man** wrote the book."
+[ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}  
+[Earrujulu kataba kitAban.]{.trn}
 
-In addition to the two more common sentence word orders above, other combinations are possible as well. Here is an example of a sentence with the word order doee-verb-doer. This sentence word may be employed to emphasize the doee.
+It may appear as if [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn} is the doer and it is coming before the verb [كَتَبَ]{.ar} [kataba]{.trn}. But actually, this is a subject-information sentence. 
 
-[ٱَلْكِتَابَ كَتَبَ ٱلرَّجُلُ.]{.ar}  
-[EalkitAba kataba -rrajulu.]{.trn}  
-"The man wrote **the book**."
+Here [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn} "the man" is the subject of the sentence, and [كَتَبَ كِتَابًا]{.ar} [kataba kitAban.]{.trn} "he wrote a book" is the information about the subject. So the translation of the sentence is technically:
 
-Note that in all the examples above, the doer is in the u-state and the doee is in the a-state.
+"The man, he wrote a book."
+
+However, this is an awkward sentence in English so we will translate it as "The man wrote a book." But this is also the translation of:
+
+[كَتَبَ ٱلرَّجُلُ كِتَابًا.]{.ar}  
+[kataba -rrujulu kitAban.]{.trn}  
+"The man wrote a book."
+
+So why then would we say [ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar} [Earrujulu kataba kitAban.]{.trn} instead of the more normal [كَتَبَ ٱلرَّجُلُ كِتَابًا.]{.ar} [kataba -rrujulu kitAban.]{.trn}? The answer is that this change in the sentence's word order is done in order to give more emphasis to the doer, as if to say:
+
+"_The man_ wrote a book."
+
+So in Arabic, the order of words is generally more flexible than in English and this is often used to give emphasis to certain words.
 
 ### Indefinite doers
 
-If a verb's doer is an indefinite noun, it is often, but not always, placed at the end of the sentence, after any doee or prepositional phrase. For example,
+If a verb's doer is an indefinite noun, it is often, but not always, placed at the end of the sentence. This too is for emphasis. For example,
 
 [كَتَبَ ٱلْكِتَابَ رَجُلٌ.]{.ar}  
 [kataba -lkitAba rajulun.]{.trn}  
 "A man wrote the book."
-
-[ذَهَبَتْ إِلَى ٱلْبَيْتِ ٱمْرَأَةٌ.]{.ar}  
-[pahabat Eila -lbayti -mraEatun.]{.trn}  
-"A woman went to the house."
 
 ### Multiple verbs for one doer
 
@@ -272,23 +249,17 @@ In a sentence that has multiple verbs separated by "and", normally one of them i
 [Eakala -rraujulu washariba.]{.trn}  
 "The man ate and drank."
 
-It is also possible to place both verbs after the doer, like:
-
-[ٱَلرَّجُلُ أَكَلَ وَشَرِبَ.]{.ar}  
-[Earrujulu Eakala washariba.]{.trn}  
-"The man ate and drank."
-
 ## Separating doee pronouns from the verb
 
-We have mentioned that doee pronouns are attached to the verb. Sometimes there is a need to separate the doee pronoun from the verb. When separating the doee pronoun from the verb, it is instead attached to the prefix [إِيَّا]{.ar} [EiyyA]{.trn}. There is also a slight modification specifically for the speaking-person pronoun. So then we get the following doee pronouns:
+We have mentioned that doee pronouns are attached to the verb. Sometimes there is a need to separate the doee pronoun from the verb. When separating the doee pronoun from the verb, it is instead attached to the prefix [إِيَّا]{.ar} [EiyyA]{.trn}. So then we get the following doee pronouns:
 
 1. [إِيَّاهُ]{.ar} [EiyyAhu]{.trn} "him".
 2. [إِيَّاهَا]{.ar} [EiyyAhA]{.trn} "her".
 3. [إِيَّاكَ]{.ar} [EiyyAka]{.trn} "you (masc.)".
 4. [إِيَّاكِ]{.ar} [EiyyAki]{.trn} "you (fem.)".
-5. [إِيَّايَ]{.ar} [EiyyAya]{.trn} "me (masc. & fem)". Note that the [ن]{.ar} in [ـنِي]{.ar} is deleted and an [a]{.trn}-mark is placed on the [ي]{.ar}.
+5. [إِيَّايَ]{.ar} [EiyyAya]{.trn} "me (masc. & fem)". Note that an [a]{.trn}-mark is placed on the [ي]{.ar}.
 
-But why is there a need to separae the doee pronoun from the verb? This can occur for a couple of reasons:
+But why is there a need to separate the doee pronoun from the verb? This can occur for a couple of reasons:
 
 i. If there are multiple doee pronouns, only one of them can be attached to the verb. Example,
 
