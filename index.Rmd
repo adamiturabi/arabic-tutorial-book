@@ -17,7 +17,7 @@ geometry:
 - textwidth=114.8mm           # = (170 - 6)*0.7
 - textheight=170.8mm          # = 244 * 0.7
 - twoside
-mainfont: Junicode
+mainfont: Brill
 mainfontoptions: Numbers=OldStyle
 fontsize: 10pt
 polyglossia-lang:
@@ -26,7 +26,7 @@ polyglossia-otherlangs:
   - name: arabic
 fontfamilies:
   - name: \arabicfont
-    font: Vazir-Light
+    font: Vazirmatn-Light
     options: Script=Arabic,Scale=1.0
   - name: \tradarab
     font: Amiri
