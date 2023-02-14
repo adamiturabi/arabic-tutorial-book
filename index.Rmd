@@ -20,10 +20,8 @@ geometry:
 mainfont: Brill
 mainfontoptions: Numbers=OldStyle
 fontsize: 10pt
-polyglossia-lang:
-  name: en
-polyglossia-otherlangs:
-  - name: arabic
+lang: en
+otherlangs: [ar]
 fontfamilies:
   - name: \arabicfont
     font: Vazirmatn-Light
