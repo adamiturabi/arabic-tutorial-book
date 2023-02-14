@@ -17,7 +17,7 @@ geometry:
 - textwidth=114.8mm           # = (170 - 6)*0.7
 - textheight=170.8mm          # = 244 * 0.7
 - twoside
-mainfont: "Charis SIL"
+mainfont: "Brill"
 mainfontoptions: Numbers=OldStyle
 fontsize: 10pt
 lang: en
