@@ -1,3 +1,5 @@
+-- 0331 macron below
+-- 0323 dot below
 function RomanizeMapping(text2)
   -- use digraphs sh, th, etc for some characters
   digraph_en = true
@@ -10,12 +12,12 @@ function RomanizeMapping(text2)
   mylcase["j"] = "j" -- "ǧ" -- jeem
   mylcase["H"] = "ḥ"
   mylcase["x"] = "ḵ" -- Khaa
-  mylcase["p"] = "ḏ" -- dhal
+  mylcase["p"] = "z" .. utf8.char(0x0331)  -- "ḏ" -- dhal
   mylcase["c"] = "š" -- sheen
   mylcase["S"] = "ṣ"
   mylcase["D"] = "ḍ"
   mylcase["T"] = "ṭ"
-  mylcase["P"] = "ḏ̣" -- DHaa
+  mylcase["P"] = "z" .. utf8.char(0x0323)  --"ḏ̣" -- DHaa
   mylcase["e"] = "ɛ" -- 3ayn
   mylcase["g"] = "ġ" -- ghayn
   mylcase["o"] = "ḧ" -- for taa marbuta in pausa non-construct
@@ -70,10 +72,11 @@ function RomanizeMapping(text2)
     myucase["x"] = "K" .. utf8.char(0x035f) .. "h"
     mylcase["g"] = "g" .. utf8.char(0x035f) .. "h"
     myucase["g"] = "G" .. utf8.char(0x035f) .. "h"
-    mylcase["p"] = "d" .. utf8.char(0x035f) .. "h"
-    myucase["p"] = "D" .. utf8.char(0x035f) .. "h"
-    mylcase["P"] = "d" .. utf8.char(0x035f) ..  utf8.char(0x0323) .. "h"
-    myucase["P"] = "D" .. utf8.char(0x035f) ..  utf8.char(0x0323) .. "h"
+    --mylcase["p"] = "d" .. utf8.char(0x035f) .. "h"
+    --myucase["p"] = "D" .. utf8.char(0x035f) .. "h"
+    --mylcase["P"] = "d" .. utf8.char(0x035f) ..  utf8.char(0x0323) .. "h"
+    --myucase["P"] = "D" .. utf8.char(0x035f) ..  utf8.char(0x0323) .. "h"
+
     --mylcase["P"] = "d͟͏̣h"
     --myucase["P"] = "D͟͏̣h"
 
