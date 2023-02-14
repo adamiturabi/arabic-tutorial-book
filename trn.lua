@@ -91,7 +91,7 @@ function RomanizeMapping(text2)
     --myucase["P"] = "Ḏ̣͡h"
   end
 
-  text3 = ''
+  local text3 = ''
   local caps = false
   local prev_charv = ''
   for index3 = 1, #text2 do
@@ -122,70 +122,59 @@ function RomanizeMapping(text2)
   return text3
 end
 function Romanize (elem)
-  for index,text in pairs(elem.content) do
-    for index2,text2 in pairs(text) do
-      text3 = RomanizeMapping(text2)
-      text[index2] = text3
+  --local retstr = ""
+  for index,val in pairs(elem.content) do
+    local text = val.text
+    if type(text) == "string" then
+      local new_text = RomanizeMapping(text)
+      --retstr = retstr .. new_text
+      val.text = new_text
+      elem.content[index] = val
+    --else
+    --  retstr = retstr .. " "
     end
-    elem.content[index] = text
   end
-  --return (elem.content)
-  return (elem)
+  return elem
 end
 function ArTxtReplace(text2)
-  --replace_map = {}
-  --replace_map["ك"] = "ک"
-
-  text3 = ''
-  --print(text2)
+  local text3 = ''
   text3 = text2:gsub("ك", "ک")
-  --for index3 = 1, #text2 do
-  --  local charv = text2:sub(index3, index3)
-  --  print(charv)
-  --  if replace_map[charv] == nil then
-  --    text3 = text3 .. charv
-  --  else
-  --    text3 = text3 .. replace_map[charv]
-  --    print "REPLACING KAF"
-  --  end
-  --end
   return text3
 end
+
 function ArTxtProc(elem)
-  for index,text in pairs(elem.content) do
-    for index2,text2 in pairs(text) do
-      text3 = ArTxtReplace(text2)
-      text[index2] = text3
+  for index,val in pairs(elem.content) do
+    local text = val.text
+    if type(text) == "string" then
+      local new_text = ArTxtReplace(text)
+      val.text = new_text
+      elem.content[index] = val
     end
-    elem.content[index] = text
   end
-  --return (elem.content)
-  return (elem)
+  return elem
 end
 function RootFmt (elem)
-  for index,text in pairs(elem.content) do
-    for index2,text2 in pairs(text) do
-      text3 = "«" .. text2 .. "»"
-      text[index2] = text3
+  for index,val in pairs(elem.content) do
+    local text = val.text
+    if type(text) == "string" then
+      local new_text = "«" .. text .. "»"
+      val.text = new_text
+      elem.content[index] = val
     end
-    elem.content[index] = text
   end
-  return (elem)
+  return elem
 end
-
 function Span (elem)
   if elem.classes[1] == 'trn' then
-    return pandoc.Emph (Romanize(elem).content)
+    return pandoc.Emph(Romanize(elem).content)
   elseif elem.classes[1] == 'trn2' then
-    return (Romanize(elem).content)
+    return Romanize(elem).content
   elseif elem.classes[1] == 'ar' then
-    attrs = pandoc.Attr("", {}, {{"lang", "ar"},{"dir","rtl"}})
-    elem = ArTxtProc(elem)
-    return pandoc.Span(elem.content, attrs)
+    local new_elem = ArTxtProc(elem)
+    return pandoc.Span(new_elem.content, {lang='ar', dir='rtl'})
   elseif elem.classes[1] == 'arroot' then
-    attrs = pandoc.Attr("", {}, {{"lang", "ar"},{"dir","rtl"}})
     elem = ArTxtProc(elem)
-    return pandoc.Span(RootFmt(elem).content, attrs)
+    return pandoc.Span(RootFmt(elem).content, {lang='ar', dir='rtl'})
   elseif elem.classes[1] == 'trnroot' then
     return pandoc.Emph (RootFmt(Romanize(elem)).content)
   else
