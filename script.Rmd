@@ -168,20 +168,20 @@ Disjoint | Joined (simplified) | Joined (traditional)
 Disjoint & Joined (simplified) & Joined (traditional)\tabularnewline
 \midrule
 \endhead
-\RL{\textarabic{ت-م-ر}} & \RL{\textarabic{تمر}} &
-\RL{\tradarab{تمر}}\tabularnewline
-\RL{\textarabic{ا-ل-ح-ج-ج}} & \RL{\textarabic{الحجج}} &
-\RL{\tradarab{الحجج}}\tabularnewline
-\RL{\textarabic{ا-ل-م-ا-س}} & \RL{\textarabic{الماس}} &
-\RL{\tradarab{الماس}}\tabularnewline
-\RL{\textarabic{ل-م-ح-ة}} & \RL{\textarabic{لمحة}} &
-\RL{\tradarab{لمحة}}\tabularnewline
-\RL{\textarabic{ب-ح-ر}} & \RL{\textarabic{بحر}} &
-\RL{\tradarab{بحر}}\tabularnewline
-\RL{\textarabic{س-ح-ر}} & \RL{\textarabic{سحر}} &
-\RL{\tradarab{سحر}}\tabularnewline
-\RL{\textarabic{ف-ي}} & \RL{\textarabic{في}} &
-\RL{\tradarab{في}}\tabularnewline
+\arabicfont{ت-م-ر} & \arabicfont{تمر} &
+\tradarab{تمر}\tabularnewline
+\arabicfont{ا-ل-ح-ج-ج} & \arabicfont{الحجج} &
+\tradarab{الحجج}\tabularnewline
+\arabicfont{ا-ل-م-ا-س} & \arabicfont{الماس} &
+\tradarab{الماس}\tabularnewline
+\arabicfont{ل-م-ح-ة} & \arabicfont{لمحة} &
+\tradarab{لمحة}\tabularnewline
+\arabicfont{ب-ح-ر} & \arabicfont{بحر} &
+\tradarab{بحر}\tabularnewline
+\arabicfont{س-ح-ر} & \arabicfont{سحر} &
+\tradarab{سحر}\tabularnewline
+\arabicfont{ف-ي} & \arabicfont{في} &
+\tradarab{في}\tabularnewline
 \bottomrule
 \end{longtable}
 ```

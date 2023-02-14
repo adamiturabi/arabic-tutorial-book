@@ -171,10 +171,26 @@ function Span (elem)
     return Romanize(elem).content
   elseif elem.classes[1] == 'ar' then
     local new_elem = ArTxtProc(elem)
-    return pandoc.Span(new_elem.content, {lang='ar', dir='rtl'})
+    if FORMAT:match 'latex' then
+      -- no dir needed for babel and throws error if it sees dir attribute. was previously needed for polyglossia
+      return pandoc.Span(new_elem.content, {lang='ar'})
+    elseif FORMAT:match 'html' then
+      -- dir needed for html otherwise punctuation gets messed up
+      return pandoc.Span(new_elem.content, {lang='ar', dir='rtl'})
+    else
+      return elem
+    end
   elseif elem.classes[1] == 'arroot' then
     elem = ArTxtProc(elem)
-    return pandoc.Span(RootFmt(elem).content, {lang='ar', dir='rtl'})
+    if FORMAT:match 'latex' then
+      -- no dir needed for babel and throws error if it sees dir attribute. was previously needed for polyglossia
+      return pandoc.Span(RootFmt(elem).content, {lang='ar'})
+    elseif FORMAT:match 'html' then
+      -- dir needed for html otherwise punctuation gets messed up
+      return pandoc.Span(RootFmt(elem).content, {lang='ar', dir='rtl'})
+    else
+      return elem
+    end
   elseif elem.classes[1] == 'trnroot' then
     return pandoc.Emph (RootFmt(Romanize(elem)).content)
   else

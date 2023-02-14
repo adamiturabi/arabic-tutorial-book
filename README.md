@@ -4,7 +4,7 @@ An online book that aims to teach Arabic.
 
 # Install software prerequisites
 
-(For Ubuntu and derivatives)
+## For Ubuntu and derivatives
 
 1. Tex
    ```
@@ -56,6 +56,28 @@ An online book that aims to teach Arabic.
       install.packages("pander", dependencies = TRUE)
       q()
       ```
+
+## For Arch/Manjaro
+
+1. Install fonts as in Ubuntu
+
+2. Install the following Arch packages:  make gcc texlive-bin texlive-core texlive-latexextra texlive-fontsextra texlive-langextra pandoc r curl fontconfig openssl libxml2 pkgconf
+
+3. Rmarkdown and Bookdown
+   1. Open R in a terminal
+      ```
+      sudo R
+      ```
+   2. In R:
+      ```
+      install.packages("rmarkdown", dependencies = TRUE, repos='https://cloud.r-project.org/')
+      install.packages("bookdown", dependencies = TRUE, repos='https://cloud.r-project.org/')
+      install.packages("kableExtra", dependencies = TRUE, repos='https://cloud.r-project.org/')
+      install.packages("tidyverse", dependencies = TRUE, repos='https://cloud.r-project.org/')
+      install.packages("pander", dependencies = TRUE, repos='https://cloud.r-project.org/')
+      q()
+
+   There could be some errors. Don't worry about them.
 
 # Building the book from source files
 

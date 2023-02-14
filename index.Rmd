@@ -20,13 +20,11 @@ geometry:
 mainfont: Junicode
 mainfontoptions: Numbers=OldStyle
 fontsize: 10pt
-polyglossia-lang:
-  name: en
-polyglossia-otherlangs:
-  - name: arabic
+lang: en
+otherlangs: [ar]
 fontfamilies:
   - name: \arabicfont
-    font: Vazir-Light
+    font: Vazirmatn-Light
     options: Script=Arabic,Scale=1.0
   - name: \tradarab
     font: Amiri
@@ -86,14 +84,8 @@ output:
 options(tinytex.engine_args = '-shell-escape')
 ```
 
-```{r, eval=knitr::is_html_output(), echo=FALSE}
-  knitr::asis_output('
-[بسم الله الرحمن الرحيم]{lang="ar" dir="rtl" style="font-family: Amiri;"}
-')
-```
-```{=latex}
-\RL{\tradarab{بسم الله الرحمن الرحيم}}
-```
+[بسم الله الرحمن الرحيم]{.ar}
+
 <!--Sunnah are the sayings and actions of the Prophet صلى الله عليه وسلم. Hadith is the text by which we know the sunnah.-->
 
 The primary texts of [#islAm]{.trn2} (the [#qurEAn]{.trn2} and the [#HadIv]{.trn2}) are in Arabic. So too is much of its scholarly literature. However, there is a multitude of Muslims for whom Arabic is not a native language, yet who are familiar enough with English to study textbooks written in this language. The goal of this book is to help them learn Arabic at a beginner's level so that, together with a study of the appropriate expositional texts, they are one step closer to understanding the primary texts in their original language. We hope that this will, if [#allAh]{.trn2} wills, make them feel more connected to the primary texts and their teachings. Furthermore, they can be empowered to study the vast body of Arabic [#islAm]{.trn2}ic literature.
@@ -104,25 +96,9 @@ We have also aimed to make this a self-instruction textbook so that a diligent s
 
 It may also be appropriate to inform the reader that we chose to present a simplified version of Arabic grammar. As such, the grammar presented here may not be entirely consistent with the comprehensive and harmonious framework developed by the Arab grammarians. We chose this approach because we felt that exposing the beginner to complex grammatical details at this stage would be more of a hindrance than a help in learning the language.
 
-```{r, eval=knitr::is_html_output(), echo=FALSE}
-  knitr::asis_output('
 [a.z.s.]{.smallcaps}  
 [lahore, dec.]{.smallcaps} 2021[ce]{.smallcaps}  
-[لاهور، جمادى الأولى ١٤٤٣هـ‍]{lang="ar" dir="rtl" style="font-family: Amiri; font-size: 0.75em;"}
-')
-```
-```{=latex}
-\medskip
-\null\hfill\begin{tabular}{@{}l@{}}
-\textsc{a.z.s.}\\
-\textsc{lahore, dec. 2021ce}\\
-\end{tabular}
-\vspace*{-\baselineskip}
-\vspace*{2mm}
-\begin {flushright}
-\RL{\tradarabsmall{لاهور، جمادى الأولى ١٤٤٣ه‍}}
-\end {flushright}
-```
+[لاهور، جمادى الأولى ١٤٤٣هـ‍]{.ar}
 
 Test:
 
