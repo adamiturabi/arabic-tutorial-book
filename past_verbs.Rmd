@@ -43,7 +43,8 @@ In order to express this sentence in Arabic, we will say:
 [pahaba -lgulAmu.]{.trn}  
 "The boy went." 
 
-[ذَهَبَ]{.ar} [pahaba]{.trn} "went" is the verb and [ٱلْغُلَامُ]{.ar} [algulAmu]{.trn} "the boy" is the doer. Note that in English the doer comes before the verb whereas in Arabic the doer comes after the verb.
+[ذَهَبَ]{.ar} [pahaba]{.trn} "went" is the verb and [ٱلْغُلَامُ]{.ar} [algulAmu]{.trn} "the boy" is the doer. Note how the doer is in the u-state. Also note that in English the doer comes before the verb whereas in Arabic the doer comes after the verb.
+In Arabic, a doer noun shall always be in the u-state and shall come after the verb in word order.
 
 The basic form of the verb [ذَهَبَ]{.ar} [pahaba]{.trn} is specifically for masculine doers. We shall see in the next section how the verb is modified for feminine doers. 
 
@@ -98,6 +99,8 @@ Note how in Arabic the doee [كِتَابًا]{.ar} [kitAban]{.trn} "a book" is 
 "The woman hit the girl."
 
 Note again how [ٱلْجَارِيَةَ]{.ar} [aljAriyata]{.trn} "the girl" is in the a-state because it is a direct doee.
+
+### Multiple doees
 
 We will learn about _indirect doees_ in a later chapter, if [#allAh]{.trn2} wills, once we have studied prepositions.
 
@@ -158,51 +161,76 @@ Take care to note that doer pronouns modify the final letter of the basic verb, 
 
 Just like doer nouns may be replaced with doer pronouns, doee nouns may too be replaced with _doee pronouns_. Doee pronouns are also attached to the end of the verb, while not modifying the vowel on the final letter of the verb. The doee pronouns are:
 
-Doee pronoun | Transcription | Meaning
-:---|:---|:---
-[هُ]{.ar}  | [-hu]{.trn} | "him"
-[هَا]{.ar} | [-hA]{.trn} | "her"
-[كَ]{.ar}  | [-ka]{.trn} | "you~masc.~"
-[كِ]{.ar}  | [-ki]{.trn} | "you~fem.~"
-[ي]{.ar}  | [-I]{.trn}  | "me"
+Person | Doee pronoun | Transcription | Meaning
+:------| :--|:--|:--
+Non-participating person (masc.)| [هُ]{.ar}  | [-hu]{.trn} | "him"
+Non-participating person (fem.) | [هَا]{.ar} | [-hA]{.trn} | "her"
+Spoken-to person (masc.) | [كَ]{.ar}  | [-ka]{.trn} | "you~masc.~"
+Spoken-to person (fem.) | [كِ]{.ar}  | [-ki]{.trn} | "you~fem.~"
+Speaking person (masc. and fem.) | [ي]{.ar} or [يَ]{.ar}  | [-I]{.trn} or [-ya]{.trn}  | "me"
 
 Here are some notes regarding their usage:
 
-Doee pronouns shall always be attached to the verb. So if there is a doer noun then it shall be placed after the attached doee pronoun. For example:
++ Doee pronouns shall always be attached to the verb. So if there is a doer noun then it shall be placed after the attached doee pronoun. For example:
 
-[سَأَلَهُ ٱلْغُلَامُ.]{.ar}  
-[saEalahu -lgulAmu.]{.trn}  
-"The boy asked him."
+  [سَأَلَهُ ٱلْغُلَامُ.]{.ar}  
+  [saEalahu -lgulAmu.]{.trn}  
+  "The boy asked him."
 
-If however, the doer is also a pronoun, then it shall be attached first to the verb and then the doee pronoun shall be attached to the doer pronoun. For example,
++ If however, the doer is also a pronoun, then it shall be attached first to the verb and then the doee pronoun shall be attached to the doer pronoun. For example,
 
-[سَأَلْتُكِ.]{.ar}  
-[saEaltuki.]{.trn}  
-"I asked you~fem.~."
+  [سَأَلْتُكِ.]{.ar}  
+  [saEaltuki.]{.trn}  
+  "I asked you~fem.~."
 
-If the doer pronoun is invisible, then the doee pronoun shall be attached to the verb again directly with only a possible [تْ]{.ar} of femininity intervening. For example:
++ If the doer pronoun is invisible, then the doee pronoun shall be attached to the verb again directly with only a possible [تْ]{.ar} of femininity intervening. For example:
 
-[سَأَلَهَا.]{.ar}  
-[saEalahA.]{.trn}  
-"He asked her."
+  [سَأَلَهَا.]{.ar}  
+  [saEalahA.]{.trn}  
+  "He asked her."
 
-[سَأَلَتْكَ.]{.ar}  
-[saEalatka.]{.trn}  
-"She asked you~masc.~."
+  [سَأَلَتْكَ.]{.ar}  
+  [saEalatka.]{.trn}  
+  "She asked you~masc.~."
 
-If the doee pronoun [هُ]{.ar} [-hu]{.trn} "him" is preceded by the vowels [i]{.trn}, [I]{.trn}, or [ay]{.trn} then it shall instead become [هِ]{.ar} [hi]{.trn} with no change in meaning. For example,
++ If the doee pronoun [هُ]{.ar} [-hu]{.trn} "him" is preceded by the vowels [i]{.trn}, [I]{.trn}, or [ay]{.trn} then it shall instead become [هِ]{.ar} [hi]{.trn} with no change in meaning. For example,
 
-[سَأَلْتِهِ.]{.ar}  
-[saEaltihi]{.trn}  
-"You~fem.~ asked him."
+  [سَأَلْتِهِ.]{.ar}  
+  [saEaltihi]{.trn}  
+  "You~fem.~ asked him."
 
-The doee pronoun [ي]{.ar} [-I]{.trn} "me" is always attached to the verb following an invervening [نِ]{.ar}. For example,
++ There are two options for the doer pronoun for "me":
 
-[سَأَلَنِي.]{.ar}  
-[saEalanI.]{.trn}  
-"He asked me."
+  1. [ي]{.ar} [I]{.trn}
+  2. [يَ]{.ar} [ya]{.trn}
 
-So why don't we simply say that the doee pronoun for "me" is [نِي]{.ar} [nI]{.trn}? This is because these same doee pronouns are also attached to nouns and prepositions as we shall see in later chapters, if [#allAh]{.trn2} wills, and in those cases there is generally no intervening [نِ]{.ar}. <!--exceptions like منّي and others -->
+  Both are written with an intervening [نِ]{.ar} between the verb and the doee pronoun. For example:
+
+  [سَأَلَنِي زَيْدٌ.]{.ar}  
+  [saEalanI zaydun.]{.trn}  
+  "Zayd asked me."
+
+  [سَأَلَنِيَ ٱلرَّجُلُ.]{.ar}  
+  [saEalaniya -rrujulu.]{.trn}  
+  "The man asked me."
+
+  The [نِ]{.ar} is purely for intervening between the verb and the doee pronoun and has no meaning on its own. So why don't we simply incorporate the [نِ]{.ar} into the doee pronoun and say that the doee pronoun for "me" is [نِي]{.ar} [-nI]{.trn} and [نِيَ]{.ar} [-niya]{.trn}? This is because in addition to their use as doee pronouns, these same pronouns are also used in other places as we shall see in later chapters, if [#allAh]{.trn2} wills, and in those cases there is often no intervening [نِ]{.ar} for the speaking person. <!--exceptions like منّي and others -->
+
+  Note how we used [يَ]{.ar} [-ya]{.trn} when it was followed by a connecting [hamzah]{.trn} ([سَأَلَنِيَ ٱلرَّجُلُ]{.ar}), and [ي]{.ar} [-I]{.trn} when it was not followed by a connecting [hamzah]{.trn} ([سَأَلَنِي زَيْدٌ]{.ar}). Such is often the case. But it is also quite common for [ي]{.ar} to be used when followed by a connecting [hamzah]{.trn}. When this happens, the vowel will be shortened to [i]{.trn} in pronunciation, although the [ي]{.ar} is retained in writing. For example,
+
+  [سَأَلَنِي ٱلرَّجُلُ.]{.ar}  
+  [saEalani -rrujulu.]{.trn}  
+  "The man asked me."
+
+  However, [يَ]{.ar} [-ya]{.trn} is typically not used as a doee pronoun if not followed by a connecting [hamza]{.trn}. 
+
+  To summarize, generally speaking, although both are often permissible, [ي]{.ar} [-I]{.trn} is the more commonly used in all circumstances except in specific cases where [ي]{.ar} [-I]{.trn} is impermissible and [يَ]{.ar} [-ya]{.trn} is required. We will mention those cases when we encounter them, if [#allAh]{.trn2} wills.
+
+<!--Examples from Quran: لا يَنَالُ عَهْدِي الظَّالِمِينَ).
+
+2- في كلمات أخرى، هي: (مَعِيَ) حيثما وقعت، و(أَجْرِيَ إلاَّ) وهي في تسعة مواضع، و(يَدِيَ إِلَيْكَ) بالمائدة، (وَأُمِّيَ إِلَهَيْنِ) بالمائدة، و(بَيْتِيَ لِلطَّائِفِينَ) بالبقرة والحج، و(بَيْتِيَ مُؤْمِنًا) بنوح، و(وَجْهِيَ للهِ) بآل عمران، و(وَجْهِيَ لِلَّذِي) بالأنعام 
+
+http://www.alfaseeh.com/vb/showthread.php?t=93064A-->
 
 ## Order of words in a sentence
 
