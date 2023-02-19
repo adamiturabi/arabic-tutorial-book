@@ -149,29 +149,41 @@ It is also possible that an English verb may take an indirect doee with a partic
 
 ## Verbs with doer pronouns
 
-A pronoun may replace a noun as the doer of a verb. For example, instead of saying "Zayd went", you can say "he went", or "you went", etc. In Arabic, doer pronouns are either visible or invisible.
+A pronoun may replace a noun as the doer of a verb. For example, instead of saying "Zayd went", you can say "he went", or "you went", etc. 
+In Arabic too doer nouns may be replaced with doer pronouns. Here are the doer pronouns in Arabic:
 
-In Arabic, visible doer pronouns exist for "I" and "you". "You" is differentiated for masculine and feminine doers whereas "I" is not. Visible doer pronouns are attached to the basic form of the verb while modifying the vowel on the final letter of the verb. For example,
+Person | Doer pronoun
+:------| :--
+Non-participating person (masc.) "he"  | _invisible_
+Non-participating person (fem.)  "she" | _invisible_
+Spoken-to person (masc.)  "you~masc.~" | [تَ]{.ar} [-ta]{.trn}
+Spoken-to person (fem.)  "you~fem.~"   | [تِ]{.ar} [-ti]{.trn}
+Speaking person (masc. and fem.)  "I"  | [تُ]{.ar} [-tu]{.trn}
 
-Doer pronoun | Verb | Transcription | Meaning
-:---|:---|:---|:---
-[تُ]{.ar} |[ذَهَبْتُ]{.ar} | [pahabtu]{.trn} | "I went"
-[تَ]{.ar} |[ذَهَبْتَ]{.ar} | [pahabta]{.trn} | "You~masc.~ went"
-[تِ]{.ar} |[ذَهَبْتِ]{.ar} | [pahabti]{.trn} | "You~fem.~ went"
+Note how the doer pronouns for the non-participating persons "he" and "she" say _invisible_. In Arabic, doer pronouns are either visible or invisible. We shall see what this means with examples.
 
-The remaining singular doer pronouns: "he" and "she" are invisible in Arabic. So if we wish to say "He went." we will simply say:
+In Arabic, visible doer pronouns are attached to the end of the basic form of the verb while modifying the vowel on the final letter of the verb.
+Visible doer pronouns exist for "I" and "you". "You" is differentiated for masculine and feminine doers whereas "I" is the same for both genders. Here are some examples of visible doer pronouns:
 
-[ذَهَبَ.]{.ar}  
-[pahaba.]{.trn}  
-"He went."
+[ذَهَبْتُ]{.ar}  
+[pahabtu]{.trn}  
+"I went"
 
-And for "She went." we will say:
+[كَتَبْتَ كِتَابًا.]{.ar}  
+[katabta kitAban.]{.trn}  
+"You~masc.~ wrote a book."
+
+Now we come to the invisible doer pronouns. When we wish to use the doer pronouns for the non-participating person "he" and "she" we will simply delete the doer noun that the pronoun is replacing without any other changes. The doer pronoun will then be said to exist, because it is required for the meaning of the sentence, but it will be invisible. Here are some examples.
+
+[كَتَبَ كِتَابًا.]{.ar}  
+[kataba kitAban.]{.trn}  
+"He wrote a book."
 
 [ذَهَبَتْ.]{.ar}  
 [pahabat.]{.trn}  
 "She went."
 
-Take care to note that doer pronouns modify the final letter of the basic verb, whereas the [تْ]{.ar} of "she" or feminine doer nouns does not. So make sure you see the difference in the following two sentences:
+Take care to note that doer pronouns modify the final letter of the basic verb, whereas the [تْ]{.ar} of femininity does not. So make sure you see the difference in the following two sentences:
 
 [ضَرَبْتِ ٱلْجَارِيَةَ.]{.ar}  
 [Darabti -ljAriyata.]{.trn}  
@@ -183,10 +195,10 @@ Take care to note that doer pronouns modify the final letter of the basic verb, 
 
 ## Verbs with doee pronouns
 
-Just like doer nouns may be replaced with doer pronouns, doee nouns may too be replaced with _doee pronouns_. Doee pronouns are also attached to the end of the verb, while not modifying the vowel on the final letter of the verb. The doee pronouns are:
+Just like doer nouns may be replaced with doer pronouns, doee nouns may too be replaced with _doee pronouns_. Doee pronouns are also attached to the end of the verb but they don't modify the vowel on the final letter of the verb. The doee pronouns are:
 
 Person | Doee pronoun
-:------| :--
+:------|:--
 Non-participating person (masc.) "him" | [هُ]{.ar} [-hu]{.trn}
 Non-participating person (fem.)  "her" | [هَا]{.ar} [-hA]{.trn}
 Spoken-to person (masc.)  "you~masc.~" | [كَ]{.ar} [-ka]{.trn}
@@ -244,7 +256,7 @@ Here are some notes regarding their usage:
   [saEaltanI]{.trn}  
   "You~(masc.)~ asked me."
 
-  So why don't we simply incorporate the [نِ]{.ar} with the doee pronoun and say that the doee pronoun for "me" is [نِي]{.ar} [-nI]{.trn} and [نِيَ]{.ar} [-niya]{.trn}? This is because in addition to their use as doee pronouns, these same pronouns are also used in other places as we shall see in later chapters, if [#allAh]{.trn2} wills, and in those cases there is often no intervening [نِ]{.ar} for the speaking person pronoun. <!--exceptions like منّي and others -->
+  So why don't we simply incorporate the [نِ]{.ar} with the doee pronoun and say that the doee pronoun for "me" is [نِي]{.ar} [-nI]{.trn} and [نِيَ]{.ar} [-niya]{.trn}? This is because in addition to their use as doee pronouns, these same pronouns are also used in other places as we shall see later, if [#allAh]{.trn2} wills, and in those cases there is often no intervening [نِ]{.ar} for the speaking person pronoun. <!--exceptions like منّي and others -->
 
   Note how we used [يَ]{.ar} [-ya]{.trn} when it was followed by a connecting [hamzah]{.trn} ([سَأَلَنِيَ ٱلرَّجُلُ]{.ar}), and [ي]{.ar} [-I]{.trn} when it was not followed by a connecting [hamzah]{.trn} ([سَأَلَنِي زَيْدٌ]{.ar}). Such is often the case. But it is also quite common for [ي]{.ar} to be used when followed by a connecting [hamzah]{.trn}. When this happens, the vowel will be shortened to [i]{.trn} in pronunciation, although the [ي]{.ar} is retained in writing. For example,
 
