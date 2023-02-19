@@ -4,28 +4,43 @@
 
 Verbs are action words. Verbs can be either _completed-action_ verbs where the action of the verb has been completed, e.g., "The boy went." or _incomplete-action_ verbs where the action of the verb is on-going or not yet completed, e.g., "The boy goes." In this chapter we will study _completed-action_ verbs.
 
+## Arabic word roots
+
+We take this oppurtunity to learn about Arabic roots. 
+Native Arabic words, both nouns and verbs, are generally derived from roots. Most roots are comprised of three letters. A smaller number are comprised of four or more letters. 
+
+Words are derived from their roots according to patterns. In traditional Arabic grammar studies, the root [فعل]{.arroot} is used as a template for three-letter roots to showcase word and meaning patterns. 
+
+Now, we will learn some examples of completed-action verbs and see how they are derived from their roots.
+
 ## Form of the completed-action verb
 
 Here are some examples of the basic form of completed-action verbs in Arabic:
 
-Verb | Transcription | Meaning
+Root | Verb basic form | Meaning
 :----|:----|:----
-[ذَهَبَ]{.ar} |[pahaba]{.trn} |"went"
-[كَتَبَ]{.ar} |[kataba]{.trn} |"wrote"
-[جَعَلَ]{.ar} |[jaeala]{.trn} |"made"
-[ضَرَبَ]{.ar} |[Daraba]{.trn} |"hit"
-[عَلِمَ]{.ar} |[ealima]{.trn} |"knew"
-[عَمِلَ]{.ar} |[eamila]{.trn} |"worked"
-[كَبُرَ]{.ar} |[kabura]{.trn} |"grew"
+[فعل]{.arroot} |[فَعَلَ]{.ar} [faeala]{.trn} |"did"
+[ذهب]{.arroot} |[ذَهَبَ]{.ar} [pahaba]{.trn} |"went"
+[كتب]{.arroot} |[كَتَبَ]{.ar} [kataba]{.trn} |"wrote"
+[جعل]{.arroot} |[جَعَلَ]{.ar} [jaeala]{.trn} |"made"
+[ضرب]{.arroot} |[ضَرَبَ]{.ar} [Daraba]{.trn} |"hit"
+[علم]{.arroot} |[عَلِمَ]{.ar} [ealima]{.trn} |"knew"
+[عمل]{.arroot} |[عَمِلَ]{.ar} [eamila]{.trn} |"worked"
+[كبر]{.arroot} |[كَبُرَ]{.ar} [kabura]{.trn} |"grew"
 
-Note the basic form consists of three letters. The first and the third letter always have an [a]{.trn}-mark while the second letter's vowel is variable. It may have an [a]{.trn}-mark, [i]{.trn}-mark, or an [u]{.trn}-mark, depending on the verb. A good dictionary will tell us the middle vowel mark of a particular verb. However, [a]{.trn}-marks are the most common followed by the [i]{.trn}-mark, while [u]{.trn}-marks is the most uncommon.
+Note this basic form consists only of the three letters of the root. The first and the final letter always have an [a]{.trn}-mark while the middle letter's vowel is variable. It may have an [a]{.trn}-mark, [i]{.trn}-mark, or an [u]{.trn}-mark, depending on the verb. Using the root template [فعل]{.arroot}, we can say that the basic form the verb occurs in the patterns [فَعَلَ]{.ar}, [فَعِلَ]{.ar}, and [فَعُلَ]{.ar}. 
 
-Interestingly, there can exist two verbs, each with its own distinct meaning, that have the same three letters and differ only in the vowel mark on the middle letter. The most common example is:
+A good dictionary will tell us the middle vowel mark of a particular verb. However, as a trend, the [a]{.trn}-mark is the most common for the middle vowel mark, followed by the [i]{.trn}-mark, while the [u]{.trn}-mark is the least common.
 
-+ [حَسَبَ]{.ar} [Hasaba]{.trn} "he computed"
-+ [حَسِبَ]{.ar} [Hasiba]{.trn} "He deemed"
+Interestingly, there can exist multiple verbs from the same root, each with its own distinct meaning, that differ only in the vowel mark on the middle letter. The most common example is:
 
-//Every verb needs a noun that does the action of the verb. This noun is called the _doer_. 
++ [حَسَبَ]{.ar} [Hasaba]{.trn} "computed"
++ [حَسِبَ]{.ar} [Hasiba]{.trn} "deemed"
+
+Note, by the way, that [فعل]{.arroot}, in addition to being used as a root template, also has a verb in its own right: [فَعَلَ]{.ar} [faeala]{.trn} "did".
+
+You can see above how the verb [كَتَبَ]{.ar} [kataba]{.trn} "wrote" is derived from the root [كتب]{.arroot}. We have already, by the way, learned another word derived from this root: the noun [كِتَابٌ]{.ar} [kitAbun]{.trn} "a book", which is on the pattern [فِعَالٌ]{.ar} [fieAlun]{.trn}. Note how both the verb and the noun derived from this root have a meaning that is common and has to do with writing or of something written. 
+In a similar manner, you will often see that words derived from the same root generally share some common meaning, although this common meaning may not always be obvious or straightforward.
 
 ## Verbs with noun doers
 
@@ -86,7 +101,11 @@ Consider the sentence:
 
 "The man wrote a book."
 
-In this sentence, "wrote" is the verb, "the man" is the doer, and "a book" is what we shall call the _doee_. In fact, it is what we shall call a _direct doee_. A doee is the noun to whom the action of verb is done. In Arabic, we will express this by saying:
+In this sentence, "wrote" is the verb, "the man" is the doer, and "a book" is what we shall call the _doee_. In fact, it is what we shall call a _direct doee_ because it comes directly after the verb. A doee is the noun to whom the action of verb is done. 
+
+Some verbs take an _indirect doee_ which occurs with a preposition before it.  We will learn about indirect doees in a later chapter, if [#allAh]{.trn2} wills, once we have studied prepositions.
+
+In Arabic, we will express the sentence "The man wrote a book." by saying:
 
 [كَتَبَ ٱلرَّجُلُ كِتَابًا.]{.ar}  
 [kataba -rrajulu kitAban.]{.trn}  
@@ -100,15 +119,20 @@ Note how in Arabic the doee [كِتَابًا]{.ar} [kitAban]{.trn} "a book" is 
 
 Note again how [ٱلْجَارِيَةَ]{.ar} [aljAriyata]{.trn} "the girl" is in the a-state because it is a direct doee.
 
-### Multiple doees
+### Multiple direct doees
 
-We will learn about _indirect doees_ in a later chapter, if [#allAh]{.trn2} wills, once we have studied prepositions.
+Some verbs can take more than one direct doee. In this case, all direct doees shall be in the a-state. For example,
+
+[جَعَلَ ٱللَّـٰهُ ٱلرَّجُلَ مُسْلِمًا.]{.ar}  
+[jaeala -llAhu -rrajula musliman.]{.trn}  
+"[#allAh]{.trn2} made the man a Muslim."
+
+In this sentence both [ٱلرَّجُلَ]{.ar} [arrajula]{.trn} "the man" and [مُسْلِمًا]{.ar} [musliman]{.trn} "a Muslim" are direct doees of the verb [جَعَلَ]{.ar} [jaeala]{.trn} and therefore both are placed in the a-state.
 
 ### Indirect doees
 
 // Move this section to prepositions chapter.
 
-Some verbs instead of taking a direct doee, take an _indirect doee_. This too is a noun that the action of the verb is done to. However, it is preceded by a preposition. In this case, the indirect doee shall not be in the a-state. Rather it shall be in the i-state because is preceded by the preposition. For example,
 
 
 By the way, it is entirely possible that an English verb may take a direct doee, while the corresponding Arabic verb may only take an indirect doee. The reverse is also quite possible. For example,
@@ -125,7 +149,7 @@ It is also possible that an English verb may take an indirect doee with a partic
 
 ## Verbs with doer pronouns
 
-A pronoun may replace a noun as the doer of a verb. For example, "he went", "I wrote", etc. In Arabic, doer pronouns are either visible or invisible.
+A pronoun may replace a noun as the doer of a verb. For example, instead of saying "Zayd went", you can say "he went", or "you went", etc. In Arabic, doer pronouns are either visible or invisible.
 
 In Arabic, visible doer pronouns exist for "I" and "you". "You" is differentiated for masculine and feminine doers whereas "I" is not. Visible doer pronouns are attached to the basic form of the verb while modifying the vowel on the final letter of the verb. For example,
 
