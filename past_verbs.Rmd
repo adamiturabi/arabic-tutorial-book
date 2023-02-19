@@ -159,17 +159,17 @@ Here we show the doer pronouns in Arabic. The root template [فعل]{.arroot} is
 
 Person | Doer pronoun | Doer pronoun with verb
 :------|:--|:--
-Non-participating person (masc.) "he"  | _invisible_          | [فَعَلَ]{.ar} [faeala]{.trn}
-Non-participating person (fem.)  "she" | _invisible_          | [فَعَلَتْ]{.ar} [faealat]{.trn}
-Spoken-to person (masc.)  "you~masc.~" | [تَ]{.ar} [-ta]{.trn} | [فَعَلْتَ]{.ar} [faealta]{.trn}
-Spoken-to person (fem.)  "you~fem.~"   | [تِ]{.ar} [-ti]{.trn} | [فَعَلْتِ]{.ar} [faealti]{.trn}
+Absent person (masc.) "he"  | _invisible_          | [فَعَلَ]{.ar} [faeala]{.trn}
+Absent person (fem.)  "she" | _invisible_          | [فَعَلَتْ]{.ar} [faealat]{.trn}
+Addressed person (masc.)  "you~masc.~" | [تَ]{.ar} [-ta]{.trn} | [فَعَلْتَ]{.ar} [faealta]{.trn}
+Addressed person (fem.)  "you~fem.~"   | [تِ]{.ar} [-ti]{.trn} | [فَعَلْتِ]{.ar} [faealti]{.trn}
 Speaking person (masc. and fem.)  "I"  | [تُ]{.ar} [-tu]{.trn} | [فَعَلْتُ]{.ar} [faealtu]{.trn}
 
-Note how the doer pronouns for the non-participating persons "he" and "she" say _invisible_. In Arabic, doer pronouns are either visible or invisible. We shall see what this means with examples.
+Note how the doer pronouns for the absent persons "he" and "she" say _invisible_. In Arabic, doer pronouns are either visible or invisible. We shall see what this means with examples.
 
 Note also how the visible doer pronouns modify the basic verb by replacing the [a]{.trn}-mark [◌َ]{.ar} on the final letter by a null vowel mark [◌ْ]{.ar}.
 
-Furthermore, note how the doer pronoun for the spoken-to person "you" is differentiated for masculine and feminine doers whereas the doer pronoun for the speaking person "I" is the same for both genders.
+Furthermore, note how the doer pronoun for the addressed person "you" is differentiated for masculine and feminine doers whereas the doer pronoun for the speaking person "I" is the same for both genders.
 
 Here are some examples of visible doer pronouns:
 
@@ -181,7 +181,7 @@ Here are some examples of visible doer pronouns:
 [katabta kitAban.]{.trn}  
 "You~masc.~ wrote a book."
 
-Now we come to the invisible doer pronouns. When we wish to use the doer pronouns for the non-participating person "he" and "she" we will simply delete the doer noun that the pronoun is replacing without any other changes. The doer pronoun will then be said to exist, because it is required for the meaning of the sentence, but it will be invisible. Here are some examples.
+Now we come to the invisible doer pronouns. When we wish to use the doer pronouns for the absent person "he" and "she" we will simply delete the doer noun that the pronoun is replacing without any other changes. The doer pronoun will then be said to exist, because it is required for the meaning of the sentence, but it will be invisible. Here are some examples.
 
 [كَتَبَ كِتَابًا.]{.ar}  
 [kataba kitAban.]{.trn}  
@@ -207,10 +207,10 @@ Just like doer nouns may be replaced with doer pronouns, doee nouns may too be r
 
 Person | Doee pronoun
 :------|:--
-Non-participating person (masc.) "him" | [هُ]{.ar} [-hu]{.trn}
-Non-participating person (fem.)  "her" | [هَا]{.ar} [-hA]{.trn}
-Spoken-to person (masc.)  "you~masc.~" | [كَ]{.ar} [-ka]{.trn}
-Spoken-to person (fem.)  "you~fem.~"   | [كِ]{.ar} [-ki]{.trn}
+Absent person (masc.) "him" | [هُ]{.ar} [-hu]{.trn}
+Absent person (fem.)  "her" | [هَا]{.ar} [-hA]{.trn}
+Addressed person (masc.)  "you~masc.~" | [كَ]{.ar} [-ka]{.trn}
+Addressed person (fem.)  "you~fem.~"   | [كِ]{.ar} [-ki]{.trn}
 Speaking person (masc. and fem.)  "me" | [ي]{.ar} [-I]{.trn} or [يَ]{.ar} [-ya]{.trn}
 
 Here are some notes regarding their usage:
@@ -337,10 +337,10 @@ We have mentioned that doee pronouns are attached to the verb. Sometimes there i
 
 Person | Doee pronoun
 :------|:--
-Non-participating person (masc.) "him" | [إِيَّاهُ]{.ar} [EiyyAhu]{.trn} 
-Non-participating person (fem.)  "her" | [إِيَّاهَا]{.ar} [EiyyAhA]{.trn}
-Spoken-to person (masc.)  "you~masc.~" | [إِيَّاكَ]{.ar} [EiyyAka]{.trn} 
-Spoken-to person (fem.)  "you~fem.~"   | [إِيَّاكِ]{.ar} [EiyyAki]{.trn} 
+Absent person (masc.) "him" | [إِيَّاهُ]{.ar} [EiyyAhu]{.trn} 
+Absent person (fem.)  "her" | [إِيَّاهَا]{.ar} [EiyyAhA]{.trn}
+Addressed person (masc.)  "you~masc.~" | [إِيَّاكَ]{.ar} [EiyyAka]{.trn} 
+Addressed person (fem.)  "you~fem.~"   | [إِيَّاكِ]{.ar} [EiyyAki]{.trn} 
 Speaking person (masc. and fem.)  "me" | [إِيَّايَ]{.ar} [EiyyAya]{.trn} 
 
 Note that for the speaking person "me", there is no intervening [نِ]{.ar} between the prefix [إِيَّا]{.ar} [EiyyA]{.trn} and the doee pronoun. Note also that only [يَ]{.ar} [-ya]{.trn} is allowed to be attached to the prefix [إِيَّا]{.ar} [EiyyA]{.trn}. [ي]{.ar} [-I]{.trn} is impermissible.
