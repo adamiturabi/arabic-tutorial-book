@@ -64,31 +64,6 @@ We have already seen an example of matching the gender of the [information]{.syn
 [Earrajulu mueallimun.]{.trn}  
 "The man is a (male) teacher."
 
-## A definite noun as the [information]{.syn} {#chap-smp-sent-sec-def-info}
-
-In all three examples above, the [information]{.syn} was an indefinite noun: "a building", "a teacher", "a cat". We can also make the [information]{.syn} a definite noun:
-
-[ٱَلْبَيْتُ ٱلْبِنَاءُ.]{.ar}  
-[Ealbaytu -lbinAEu.]{.trn}  
-"The house is the building."
-
-[ٱَلرَّجُلُ ٱلْمُعَلِّمُ.]{.ar}  
-[Earrajulu -lmueallimu.]{.trn}  
-"The man is the (male) teacher."
-
-[ٱَلْحَيَوَانُ ٱلْهِرَّةُ.]{.ar}  
-[EalHayawAnu -lhirratu.]{.trn}  
-"The animal is the cat."
-
-## An indefinite noun as the [subject]{.syn}
-
-How about making the [subject]{.syn} an indefinite noun? Can we say:
-
-+ A house is a building.
-+ A man is the teacher.
-
-It turns out that sentences where the [subject]{.syn} is an indefinite noun are not as simple to express in Arabic. We will learn some ways of expressing them later if Allah wills.
-
 ## Detached pronouns
 
 Pronouns are words used in place of nouns. They include words like "he", "she", "it", "you", "I", etc. So you can have a sentence with a noun, like:
@@ -99,18 +74,22 @@ Or you can replace the noun with a pronoun:
 
 "He is a teacher."
 
-The word "he" in the above sentence is a pronoun. In Arabic there are a few different kinds of pronouns. Here we will learn _detached pronouns_. They are called detached pronouns because they are not attached to another word. 
+The word "he" in the above sentence is a pronoun. In Arabic there are a few different kinds of pronouns. Here we will learn _detached pronouns_. They are called detached pronouns because they are not attached to any other word. There are another set of pronouns called _attached pronouns_ that we will learn later, if [#allAh]{.trn2} wills.
+
+When talking about pronouns, it is beneficial to make use of a concept of grammar called _persons_.
+
+In any kind of speech speech there are there are three types of _persons_ involved: 
+
+1. The _speaking person_. This is the person who is speaking the speech. An example of a pronoun that refers to the speaking person is "I".
+2. The _addressed person_. This is the person to whom the speaking-person is speaking. An example of a pronoun that refers to the addressed person is "you".
+3. The _absent person_. This is the person or entity who, though he may or may not be physically present, is conversationally absent from the dialog between the speaking person and the addressed person. Examples of pronouns that refer to the absent person are "he", "she" and "it".
 
 ### Detached pronouns for the absent person
-
-In speech there are there are three types of _persons_: the speaking person (I, me, we, us), the addressed person (you), and the absent person (he, she, him, her, they, them).
 
 Here are the Arabic detached pronouns for the singular absent person.
 
 1. [هُوَ]{.ar} [huwa]{.trn} "he".
 2. [هِيَ]{.ar} [hiya]{.trn} "she".
-
-These are called pronouns for the absent person because they refer to a person who is absent and not participating in the conversation. That is, this person is neither the speaking person, nor the person who is being spoken to (the _addressed person_).
 
 Here are some examples of pair of sentences, each first with a noun, and then with a pronoun in place of the noun:
 
@@ -144,7 +123,7 @@ Here are some examples of pair of sentences, each first with a noun, and then wi
   [huwa binAEun.]{.trn}  
   "It is a building."
 
-  Note that Arabic uses the pronoun [هُوَ]{.ar} [huwa]{.trn} "he" to refer to the inanimate object "the house". This is because, as we know, all nouns in Arabic are either masculine or feminine. In translating the sentence to English we will employ the neuter pronoun "it" to make the sentence sound natural.
+  Note that Arabic uses the pronoun [هُوَ]{.ar} [huwa]{.trn} "he" to refer to the inanimate object "the house". This is because, as we know, all nouns in Arabic are either masculine or feminine. In translating the sentence to English we will employ the neutral pronoun "it" to make the sentence sound natural.
 
 + [ٱَلْبِنَاءُ مَدْرَسَةٌ.]{.ar}  
   [EalbinAEu madrasatun.]{.trn}  
@@ -203,39 +182,39 @@ Note that The addressed person pronoun "you" has separate pronouns for the mascu
   [Eana mueallimun.]{.trn}  
   "I~masc.~ am a (male) teacher."
 
-Note that the gender of the pronoun and the information match in these sentences.
+## A definite noun as the [information]{.syn} {#chap-smp-sent-sec-def-info}
 
-## Revisiting sentences with a definite noun in the information {#chap-smp-sent-sec-def-info-revis}
-
-In section \@ref(chap-smp-sent-sec-def-info) above we said that information of a sentence can be definite and we gave the following examples:
-
-[ٱَلْبَيْتُ ٱلْبِنَاءُ.]{.ar}  
-[Ealbaytu -lbinAEu.]{.trn}  
-"The house is the building."
+In all the examples so far, the [information]{.syn} has been an indefinite noun: "a building", "a teacher", "a cat", etc. It is also possible for the [information]{.syn} to be a definite noun:
 
 [ٱَلرَّجُلُ ٱلْمُعَلِّمُ.]{.ar}  
 [Earrajulu -lmueallimu.]{.trn}  
 "The man is the (male) teacher."
 
-[ٱَلْحَيَوَانُ ٱلْهِرَّةُ.]{.ar}  
-[EalHayawAnu -lhirratu.]{.trn}  
-"The animal is the cat."
-
-The above sentences, while correct, can also be interpreted as noun-phrases: "the building-house", "the teacher-man", "the cat-animal". In order to avoid this ambiguity we can, and generally do, add an untranslated pronoun between the subject and the information, thus:
-
-[ٱَلْبَيْتُ هُوَ ٱلْبِنَاءُ.]{.ar}  
-[Ealbaytu -lbinAEu.]{.trn}  
-"The house is the building."
+The above sentence, although correct, is ambiguous. It can also be interpreted as a noun-phrase, meaning "the teacher-man", instead of the complete sentence "The man is the (male) teacher." Therefore, in order to disambiguate and make it clear that we mean the complete sentence, a _disambiguating pronoun_ is usually (not not always) inserted between the subject and the information.
+Disambiguating pronouns are detached pronouns that match the subject of the sentence in gender. With a disambiguating pronoun, the sentence above becomes:
 
 [ٱَلرَّجُلُ هُوَ ٱلْمُعَلِّمُ.]{.ar}  
 [Earrajulu  huwa-lmueallimu.]{.trn}  
 "The man is the (male) teacher."
 
+The disambiguating pronoun here is [هُوَ]{.ar} [huwa]{.trn} and is not translated. Here are some more examples of sentences with definite informations and disambiguating pronouns.
+
+[ٱَلْبَيْتُ هُوَ ٱلْبِنَاءُ.]{.ar}  
+[Ealbaytu -lbinAEu.]{.trn}  
+"The house is the building."
+
 [ٱَلْحَيَوَانُ هِيَ ٱلْهِرَّةُ.]{.ar}  
 [EalHayawAnu hiya -lhirratu.]{.trn}  
 "The animal is the cat."
 
-This pronoun will serve to disambiguate such sentences from noun-phrases. We will learn more about this, if [#allAh]{.trn2} wills, in a later chapter when we study descriptive-nouns.
+## An indefinite noun as the [subject]{.syn}
+
+How about making the [subject]{.syn} an indefinite noun? Can we say:
+
++ A house is a building.
++ A man is the teacher.
+
+It turns out that sentences where the [subject]{.syn} is an indefinite noun are not as straightforward to express in Arabic. We will explore some ways of expressing them later if [#allAh]{.trn2} wills.
 
 ## The word "and"
 
