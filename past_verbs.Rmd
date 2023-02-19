@@ -152,20 +152,26 @@ It is also possible that an English verb may take an indirect doee with a partic
 ## Verbs with doer pronouns
 
 A pronoun may replace a noun as the doer of a verb. For example, instead of saying "Zayd went", you can say "he went", or "you went", etc. 
-In Arabic too doer nouns may be replaced with doer pronouns. Here are the doer pronouns in Arabic:
+In Arabic too doer nouns may be replaced with doer pronouns. 
+Doer pronouns are attached to the end of the basic form of the verb while modifying the vowel on the final letter of the basic verb.
 
-Person | Doer pronoun
-:------| :--
-Non-participating person (masc.) "he"  | _invisible_
-Non-participating person (fem.)  "she" | _invisible_
-Spoken-to person (masc.)  "you~masc.~" | [تَ]{.ar} [-ta]{.trn}
-Spoken-to person (fem.)  "you~fem.~"   | [تِ]{.ar} [-ti]{.trn}
-Speaking person (masc. and fem.)  "I"  | [تُ]{.ar} [-tu]{.trn}
+Here we show the doer pronouns in Arabic. The root template [فعل]{.arroot} is used to show how they modify the final letter of the basic verb.
+
+Person | Doer pronoun | Doer pronoun with verb
+:------|:--|:--
+Non-participating person (masc.) "he"  | _invisible_          | [فَعَلَ]{.ar} [faeala]{.trn}
+Non-participating person (fem.)  "she" | _invisible_          | [فَعَلَتْ]{.ar} [faealat]{.trn}
+Spoken-to person (masc.)  "you~masc.~" | [تَ]{.ar} [-ta]{.trn} | [فَعَلْتَ]{.ar} [faealta]{.trn}
+Spoken-to person (fem.)  "you~fem.~"   | [تِ]{.ar} [-ti]{.trn} | [فَعَلْتِ]{.ar} [faealti]{.trn}
+Speaking person (masc. and fem.)  "I"  | [تُ]{.ar} [-tu]{.trn} | [فَعَلْتُ]{.ar} [faealtu]{.trn}
 
 Note how the doer pronouns for the non-participating persons "he" and "she" say _invisible_. In Arabic, doer pronouns are either visible or invisible. We shall see what this means with examples.
 
-In Arabic, visible doer pronouns are attached to the end of the basic form of the verb while modifying the vowel on the final letter of the verb.
-Visible doer pronouns exist for "I" and "you". "You" is differentiated for masculine and feminine doers whereas "I" is the same for both genders. Here are some examples of visible doer pronouns:
+Note also how the visible doer pronouns modify the basic verb by replacing the [a]{.trn}-mark [◌َ]{.ar} on the final letter by a null vowel mark [◌ْ]{.ar}.
+
+Furthermore, note how the doer pronoun for the spoken-to person "you" is differentiated for masculine and feminine doers whereas the doer pronoun for the speaking person "I" is the same for both genders.
+
+Here are some examples of visible doer pronouns:
 
 [ذَهَبْتُ]{.ar}  
 [pahabtu]{.trn}  
@@ -249,7 +255,7 @@ Here are some notes regarding their usage:
   "Zayd asked me."
 
   [سَأَلَنِيَ ٱلرَّجُلُ.]{.ar}  
-  [saEalaniya -rrujulu.]{.trn}  
+  [saEalaniya -rrajulu.]{.trn}  
   "The man asked me."
 
   The [نِ]{.ar} is purely for intervening between the verb and the doee pronoun and has no meaning on its own. If there is a doer pronoun used, it shall come before the intervening [نِ]{.ar} so that the [نِ]{.ar} is always connected to the doee pronoun. For example,
@@ -263,7 +269,7 @@ Here are some notes regarding their usage:
   Note how we used [يَ]{.ar} [-ya]{.trn} when it was followed by a connecting [hamzah]{.trn} ([سَأَلَنِيَ ٱلرَّجُلُ]{.ar}), and [ي]{.ar} [-I]{.trn} when it was not followed by a connecting [hamzah]{.trn} ([سَأَلَنِي زَيْدٌ]{.ar}). Such is often the case. But it is also quite common for [ي]{.ar} to be used when followed by a connecting [hamzah]{.trn}. When this happens, the vowel will be shortened to [i]{.trn} in pronunciation, although the [ي]{.ar} is retained in writing. For example,
 
   [سَأَلَنِي ٱلرَّجُلُ.]{.ar}  
-  [saEalani -rrujulu.]{.trn}  
+  [saEalani -rrajulu.]{.trn}  
   "The man asked me."
 
   However, [يَ]{.ar} [-ya]{.trn} is typically not used as a doee pronoun if not followed by a connecting [hamza]{.trn}. 
@@ -283,13 +289,13 @@ http://www.alfaseeh.com/vb/showthread.php?t=93064A-->
 In Arabic, the doer always follows the verb. So the normal order of a sentence is verb-doer-doee. For example,
 
 [كَتَبَ ٱلرَّجُلُ كِتَابًا.]{.ar}  
-[kataba -rrujulu kitAban.]{.trn}  
+[kataba -rrajulu kitAban.]{.trn}  
 "The man wrote a book."
 
 However, we will often come across sentences like:
 
 [ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}  
-[Earrujulu kataba kitAban.]{.trn}
+[Earrajulu kataba kitAban.]{.trn}
 
 It may appear as if [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn} is the doer and it is coming before the verb [كَتَبَ]{.ar} [kataba]{.trn}. But actually, this is not the case. As a matter of fact, this sentence is basically a subject-information sentence. 
 
@@ -300,10 +306,10 @@ Here [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn} "the man" is the subject of th
 However, this is an awkward sentence in English so we will translate it as "The man wrote a book." But this is also the translation of:
 
 [كَتَبَ ٱلرَّجُلُ كِتَابًا.]{.ar}  
-[kataba -rrujulu kitAban.]{.trn}  
+[kataba -rrajulu kitAban.]{.trn}  
 "The man wrote a book."
 
-So why then would we say [ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar} [Earrujulu kataba kitAban.]{.trn} instead of the more normal [كَتَبَ ٱلرَّجُلُ كِتَابًا.]{.ar} [kataba -rrujulu kitAban.]{.trn}? The answer is that this change in the sentence's word order is done in order to give more emphasis to the doer, as if to say:
+So why then would we say [ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar} [Earrajulu kataba kitAban.]{.trn} instead of the more normal [كَتَبَ ٱلرَّجُلُ كِتَابًا.]{.ar} [kataba -rrajulu kitAban.]{.trn}? The answer is that this change in the sentence's word order is done in order to give more emphasis to the doer, as if to say:
 
 "_The man_ wrote a book."
 
