@@ -58,7 +58,7 @@ Notes:
   [li-rrajuli]{.trn}  
   "for the man"
 
-  However, if the noun too starts with a [lAm]{.trn}, then we drop the entire [ٱَلْ]{.ar} [al]{.trn}. This way we don't have three [lAm]{.trn}s joined to each other. Example:
+  However, if the noun too starts with a [lAm]{.trn}, then we drop the entire [ٱَلْ]{.ar} [al]{.trn}. This is to avoid having three [lAm]{.trn}s joined to each other. Example:
 
   [ٱَللُّعْبَةُ]{.ar}  
   [Ealluebatu]{.trn}  
@@ -118,7 +118,7 @@ Notes:
 
 ## Pseudo-prepositions
 
-Pseudo-prepositions behave just like true prepositions. They are called pseudo-prepositions because they are actually nouns. When used as nouns (as we will see later if Allah wills), they may be definite or indefinite, and can have a state, like other nouns. But as prepositions they are similar in behavior to true prepositions.
+Pseudo-prepositions are actually nouns but they are used as prepositions. The above rules of writing and pronunciation apply to them as well.
 
 Here is a list of some common pseudo-prepositions:
 
@@ -126,14 +126,8 @@ Preposition | Transcription | Meaning
 :-------|:-------|:-------------
 [عِنْدَ]{.ar} | [einda]{.trn} | at
 [لَدَىٰ]{.ar} | [ladA]{.trn}  | at
+[لَدُنْ]{.ar} | [ladun]{.trn} | at
 [مَعَ]{.ar}  | [maea]{.trn}  | together with
-[فَوْقَ]{.ar} | [fawqa]{.trn} | above
-[تَحْتَ]{.ar} | [taHta]{.trn} | below
-[قَبْلَ]{.ar} | [qabla]{.trn} | before
-[بَعْدَ]{.ar} | [baeda]{.trn} | after
-[أَمَامَ]{.ar}| [EamAma]{.trn}| in front of
-[خَلْفَ]{.ar} | [xalfa]{.trn} | behind
-[بَيْنَ]{.ar} | [bayna]{.trn} | between
 
 Here are some examples using pseudo-prepositions:
 
@@ -150,9 +144,9 @@ bayna repeated
 
 ## Prepositions with pronouns
 
-We can use prepositions with pronouns to give meanings like "to him", "from her", "on me", etc. For this we will use the same attached pronouns that we first learned as doee pronouns:
+We have already learned detached pronouns like [هُوَ]{.ar}, [هِيَ]{.ar}, [أَنْتَ]{.ar}, [أَنْتِ]{.ar}, and [أَنَا]{.ar}. Here we will learn about _attached pronouns_. These are the singular attached pronouns:
 
-Person | Doee pronoun
+Person | Attached pronoun
 :------|:--
 Absent person (masc.) "him" | [هُ]{.ar} [-hu]{.trn}
 Absent person (fem.)  "her" | [هَا]{.ar} [-hA]{.trn}
@@ -160,24 +154,39 @@ Addressed person (masc.)  "you~masc.~" | [كَ]{.ar} [-ka]{.trn}
 Addressed person (fem.)  "you~fem.~"   | [كِ]{.ar} [-ki]{.trn}
 Speaking person (masc. and fem.)  "me" | [ي]{.ar} [-I]{.trn} and [يَ]{.ar} [-ya]{.trn}
 
-Here are some notes regarding their use:
+Attached pronouns have many uses and we will see in later chapters, if [#allAh]{.trn2} wills, how they attach to nouns and particles. Here we will learn how they are attach to prepositions. 
 
-1. When the speaking person attached pronoun is attached to the prepositions [مِنْ]{.ar} [min]{.trn} and [عَنْ]{.ar} [ean]{.trn}, an intervening [نِ]{.ar} is added between the preposition and the attached pronoun. In writing [ن]{.ar} is written only once and is doubled. So we get:
+Attached pronouns are used with prepositions when we want to replace the noun after a preposition with a pronoun. For example, if instead of saying "from the man" we would like to say "from him", or "from me", etc., we will attach the one of attached pronouns above to the end of the preposition.
+
+Here are some notes regarding the use of attached pronouns: 
+
+1. There are two attached pronouns for the singular person: the long vowel [-I]{.trn}, written as [ي]{.ar}, and [يَ]{.ar} [-ya]{.trn}. 
+Generally speaking, they are interchangeable but in normal usage [ي]{.ar} [-I]{.trn} is much more commonly used than [يَ]{.ar} [-ya]{.trn}. 
+However, there are certain cases where the long vowel [ي]{.ar} [-I]{.trn} is not permitted and [يَ]{.ar} [-ya]{.trn} is required. 
+We will mention those cases below.
+2. When using the speaking person attached pronouns [ي]{.ar} [-I]{.trn} and [يَ]{.ar} [-ya]{.trn}, if there is a consonant before either of them it is forced to have a short [i]{.trn}-vowel [◌ِ]{.ar}, if it already doesn't have one. For example:
+   + [عِنْدَ]{.ar} [einda]{.trn} followed by [ي]{.ar} [-I]{.trn} becomes [عِنْدِي]{.ar} [eindI]{.trn}.
+   + [مَعَ]{.ar} [maea]{.trn} followed by [يَ]{.ar} [-ya]{.trn} becomes [مَعِيَ]{.ar} [maeiya]{.trn}.
+1. When the speaking person attached pronoun is attached to prepositions that end with [نْ]{.ar}, like [مِنْ]{.ar} [min]{.trn}, [عَنْ]{.ar} [ean]{.trn}, and [لَدُنْ]{.ar} [ladun]{.trn}, an additional intervening [نِ]{.ar} is added between the preposition and the attached pronoun. In writing, [ن]{.ar} is written only once and is doubled with a doubling mark [◌ّ]{.ar} on it. So we get:
    + [مِنِّي]{.ar} [minnI]{.trn}
    + [عَنِّي]{.ar} [eannI]{.trn}
-
-   Besides these two prepositions, an intervening [نِ]{.ar} is not inserted with other prepositions.
-2. In prepositions that end with [ىٰ]{.ar} [A]{.trn}, the [ىٰ]{.ar} [A]{.trn} becomes [ـَيْ]{.ar} [ay]{.trn} when attaching an attached pronoun. Examples:
+   + [لَدُنِّي]{.ar} [ladunnI]{.trn}
+2. The [ىٰ]{.ar} [A]{.trn} ending of prepositions is forced to become [◌َيْ]{.ar} [ay]{.trn} when attaching an attached pronoun. Examples:
    + [إِلَيْهَا]{.ar} [EilayhA]{.trn} "to her"
    + [عَلَيْكَ]{.ar} [ealayka]{.trn} "on you~masc.~"
-3. With prepositions that end with [ىٰ]{.ar} [A]{.trn} or [ي]{.ar} [I]{.trn}, the speaking person pronoun [ي]{.ar} [I]{.trn} is not allowed. Instead, only [يَ]{.ar} [ya]{.trn} may be used for "me". And when writing the preposition with this attached pronoun, only one [ي]{.ar} is written and it is doubled thus: [يَّ]{.ar}. Examples:
+3. When attaching the speaking person attached pronoun to any word that ends with a long vowel ([◌َا]{.ar} [-A]{.trn}, [◌َىٰ]{.ar} [-A]{.trn}, [◌ِي]{.ar} [-I]{.trn}, or [◌ُو]{.ar} [-U]{.trn}) or a semi-vowel ([◌َيْ]{.ar} [-ay]{.trn} or [◌َوْ]{.ar} [-aw]{.trn}), the long vowel [ي]{.ar} [-I]{.trn} is not permitted to be used as the speaking person pronoun. Instead, only [يَ]{.ar} [-ya]{.trn} may be used.
+
+   The only long vowels or semi-vowels at the end of prepositions are [◌َىٰ]{.ar} [-A]{.trn} and [◌ِي]{.ar} [-I]{.trn}.
+   And remember that the previous rule forces [ىٰ]{.ar} [A]{.trn} in prepositions to become [◌َيْ]{.ar} [ay]{.trn} when attaching a pronoun.
+
+   So when adding the speaking person attached pronoun [يَ]{.ar} [-ya]{.trn} with these prepositions, only one [ي]{.ar} is written and it is doubled thus: [يَّ]{.ar}. Examples:
    + [فِيَّ]{.ar} [fiyya]{.trn} "in me"
    + [إِلَيَّ]{.ar} [Eilayya]{.trn} "to me"
+   + [عَلَيَّ]{.ar} [ealayya]{.trn} "on me"
    + [لَدَيَّ]{.ar} [ladayya]{.trn} "at me".
-4. With prepositions that don't end with [ىٰ]{.ar} [A]{.trn} or [ي]{.ar} [I]{.trn}, both speaking person pronouns [ي]{.ar} [I]{.trn} and [يَ]{.ar} [ya]{.trn} are allowed, although [ي]{.ar} [I]{.trn} is much more commonly used. Both of these pronouns cause the preceding vowel to become [◌ِ]{.ar}, if not already so. Examples:
-   + [لِي]{.ar} [lI]{.trn} and [لِيَ]{.ar} [liya]{.trn} "for me"
-   + [مَعِي]{.ar} [maeI]{.trn} and [مَعِيَ]{.ar} [maeiya]{.trn} "with me"
-5. The preposition [لِ]{.ar} [li]{.trn} "for" becomes [لَ]{.ar} [la]{.trn} when followed by an attached pronoun, for all pronouns except the speaking person pronouns [ي]{.ar} [-I]{.trn} and [يَ]{.ar} [ya]{.trn} "me":
+
+   Note that the letter before the speaking person attached pronoun [يَ]{.ar} [-ya]{.trn} is now not a consonant so it is not forced to have a short [i]{.trn}-vowel [◌ِ]{.ar}.
+5. The preposition [لِ]{.ar} [li]{.trn} "for" becomes [لَ]{.ar} [la]{.trn} when followed by an attached pronoun, for all pronouns except the speaking person pronouns [ي]{.ar} [-I]{.trn} and [يَ]{.ar} [ya]{.trn} "me", where it remains [لِ]{.ar} [li]{.trn}:
    + [لَهُ]{.ar} [lahu]{.trn} "for him"
    + [لَهَا]{.ar} [lahA]{.trn} "for her"
    + [لَكَ]{.ar} [laka]{.trn} "for you~masc.~"
@@ -324,6 +333,8 @@ Here are some notes that can help you choose which preposition to use to express
 There is some degree of overlap in meaning and you will get a feeling of which preposition is more appropriate in which circumstance as you progress in your learning, if Allah wills. For now, if you find that the object can be used with all of these prepositions, you might go with [عِنْدَ]{.ar} [einda]{.trn} as it is more commonly used.
 
 ## Prepositional phrases with describers 
+
+// Move to descriptive nouns chapter
 
 Consider the sentence
 
