@@ -1,6 +1,6 @@
 -- 0331 macron below
 -- 0323 dot below
-function RomanizeMapping(text2)
+function RomanizeMapping(text2, is_italic)
   -- use digraphs sh, th, etc for some characters
   digraph_en = true
 
@@ -94,6 +94,11 @@ function RomanizeMapping(text2)
     --myucase["P"] = "Ḏ̣͡h"
   end
 
+  if not is_italic then
+    mylcase["e"] = "ʿ" -- 3ayn
+    myucase["e"] = "ʿ"
+  end
+
   local text3 = ''
   local caps = false
   local prev_charv = ''
@@ -124,12 +129,12 @@ function RomanizeMapping(text2)
   end
   return text3
 end
-function Romanize (elem)
+function Romanize (elem, is_italic)
   --local retstr = ""
   for index,val in pairs(elem.content) do
     local text = val.text
     if type(text) == "string" then
-      local new_text = RomanizeMapping(text)
+      local new_text = RomanizeMapping(text, is_italic)
       --retstr = retstr .. new_text
       val.text = new_text
       elem.content[index] = val
@@ -169,9 +174,9 @@ function RootFmt (elem)
 end
 function Span (elem)
   if elem.classes[1] == 'trn' then
-    return pandoc.Emph(Romanize(elem).content)
+    return pandoc.Emph(Romanize(elem, true).content)
   elseif elem.classes[1] == 'trn2' then
-    return Romanize(elem).content
+    return Romanize(elem, false).content
   elseif elem.classes[1] == 'ar' then
     local new_elem = ArTxtProc(elem)
     if FORMAT:match 'latex' then
@@ -195,7 +200,7 @@ function Span (elem)
       return elem
     end
   elseif elem.classes[1] == 'trnroot' then
-    return pandoc.Emph (RootFmt(Romanize(elem)).content)
+    return pandoc.Emph (RootFmt(Romanize(elem, true)).content)
   else
     return elem
   end
