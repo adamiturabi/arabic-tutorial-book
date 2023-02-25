@@ -21,6 +21,10 @@ a- and i-states | [بَيْتَيْنِ]{.ar} [baytayni]{.trn} | [ٱَلْبَي
 
 Note that indefinite duals don't have [n]{.trn} marks. The only difference between definite and indefinite duals is the prefix [ٱَلْ]{.ar}.
 
+## Duals of nouns that end with feminine markers
+
+### Nouns ending in [ة]{.ar}
+
 If a noun ends with a looped [tAE]{.trn} [ة]{.ar}, then it is converted to an open [tAE]{.trn} [ت]{.ar} before appending the dual suffix. For example, dualizing [شَجَرَة]{.ar} [cajarah]{.trn} "tree", we get "two trees":
 
 | States | Indefinite | Definite
@@ -29,29 +33,25 @@ u-state         | [شَجَرَتَانِ]{.ar} [cajaratAni]{.trn} | [ٱَلشّ
 a- and i-states | [شَجَرَتَيْنِ]{.ar} [cajaratayni]{.trn}| [ٱَلشَّجَرَتَيْنِ]{.ar} [Eaccajaratayni]{.trn}
 
 If a feminine noun does not have a looped [tAE]{.trn} then it will simply be appended with [◌َانِ]{.ar} [Ani]{.trn} and [◌َيْنِ]{.ar} [ayni]{.trn}. For example, dualizing [أُمّ]{.ar} [Eumm]{.trn} "mother" in order to get "two mothers", we get [أُمَّانِ]{.ar} [EummAni]{.trn} in the u-state and [أُمَّيْنِ]{.ar} [Eummayni]{.trn} in the a- and i-states.
-ummayni]{.trn}.
 
-### The dual for words ending with [اء]{.ar}
+### Nouns ending with [اء]{.ar}
 
-If a noun ends with an [Ealif]{.trn} followed by a [hamzah]{.trn} ([اء]{.ar}) then the [hamzah]{.trn} may get converted to a [wAw]{.trn} before adding the dual suffix. This is done based on the following rules:
+If a noun ends with the feminine marker [اء]{.ar} which is external to the word's root then the [ء]{.ar} shall be changed into a [و]{.ar} when appending the dual suffixes [◌َانِ]{.ar} [Ani]{.trn} [◌َيْنِ]{.ar} [ayni]{.trn}. Example:
 
-1. If the [اء]{.ar} is a feminine marker then the [hamzah]{.trn} becomes a [wAw]{.trn}. For example,  
-   + REMOVE (a because duals of non-qualitative nouns not yet discussed): [صَفْرَاء]{.ar} [SafrAE]{.trn} becomes [صَفْرَاوَانِ]{.ar} [SafrAwAni]{.trn} and [صَفْرَاوَيْنِ]{.ar} [SafrAwayni]{.trn}.  
-   + [صَحْرَاء]{.ar} [SaHrAE]{.trn} becomes [صَحْرَاوَانِ]{.ar} [SaHrAwAni]{.trn} and [صَحْرَاوَيْنِ]{.ar} [SaHrAwayni]{.trn}.  
-2. If [اء]{.ar} is not a feminine marker, then the [hamzah]{.trn} can either remain a [hamzah]{.trn}, or turn into a [و]{.ar} when adding the dual suffix, depending on the root of the word. If [hamzah]{.trn} is part of the root of the word then it will remain a [hamzah]{.trn} when adding the dual suffix. For example, the root of [خَطَّاءٌ]{.ar} [xaTTAEun]{.trn} is [خطء]{.arroot}. With the dual suffix it becomes [خَطَّاءَانِ]{.ar} [xaTTAEAni]{.trn} and [خَطَّاءَيْنِ]{.ar} [xaTTAEayni]{.trn}. On the other hand, if the [hamzah]{.trn} was originally a [و]{.ar} or [ي]{.ar} in the root, then it may either remain a [hamzah]{.trn} or turn into a [و]{.ar} when adding the dual suffix.  Examples:  
-   + [دُعَاء]{.ar} [dueAE]{.trn} (root: [دعو]{.arroot}) becomes either [دُعَاءَانِ]{.ar} [dueAEAni]{.trn} and [دُعَاءَيْنِ]{.ar} [dueAEayni]{.trn} or [دُعَاوَانِ]{.ar} [dueAwAni]{.trn} and [دُعَاوَيْنِ]{.ar} [dueAwayni]{.trn}.  
-   + [بِنَاء]{.ar} [binAE]{.trn} (root: [بني]{.arroot}) becomes either [بِنَاءَانِ]{.ar} [binAEAni]{.trn} and [بِنَاءَيْنِ]{.ar} [binAEayni]{.trn} or [بِنَاوَانِ]{.ar} [binAwAni]{.trn} and [بِنَاوَيْنِ]{.ar} [binAwayni]{.trn}.  
+[صَحْرَاء]{.ar} [SaHrAE]{.trn} (root: [صحر]{.arroot}) becomes [صَحْرَاوَانِ]{.ar} [SaHrAwAni]{.trn} and [صَحْرَاوَيْنِ]{.ar} [SaHrAwayni]{.trn}.
 
-   In such cases where there is a choice, one of the two options is often the more commonly used.
+Remember that there are some words where [اء]{.ar} may be part of the word's root, e.g. [ٱِبْتِدَاء]{.ar} [ibtidAE]{.trn} "a beginning" whose root is [بدء]{.arroot}. Because here the [ء]{.ar} in [ٱبْتِدَاء]{.ar} is part of the word's root, therefore the [ء]{.ar} shall not be changed into a [و]{.ar} when appending the dual suffixes. It remains a [ء]{.ar} thus: [ٱِبْتِدَاءانِ]{.ar} [EibtidAEAni]{.trn} and [ٱِبْتِدَاءَيْنِ]{.ar} [EibtidAEayni]{.trn}.
 
-<!-- This wordreference forum thread mentions that the hamza can become a waw or a yaa depending on the original root: https://forum.wordreference.com/threads/%D9%80%D8%A7-%D9%80%D9%89-%D9%80%D8%A7%D8%A1-dual-suffix.337799/. However this is rejected by this forum thread: http://www.alfaseeh.com/vb/showthread.php?t=81133 which say that the hamza may onlu become a waw. Wright (vol. i, sect. 299, rem. c, p. 188) and al-nahw al-wafi (part 4, p. 622) also agree with alfaseeh.-->
+There are other words where [اء]{.ar} is not external to the word's root, but where the [ء]{.ar} has been changed from an original [و]{.ar} or a [ي]{.ar} in the word's root. We will learn how to form duals of these words later, if [#allAh]{.trn2} wills.
+<!-- النحو الواضح الثانوية part 2-->
 
 ### The dual for words ending with [ىٰ]{.ar}
 
-If a noun ends with [ىٰ]{.ar}, then whether the [ىٰ]{.ar} is a feminine marker or not, it becomes a [yAE]{.trn} with an [a]{.trn}-mark [يَ]{.ar} when adding the dual suffix . For example,  
+If a noun ends with [ىٰ]{.ar} which is external to the word's root then the [ىٰ]{.ar} shall be changed to a [يَ]{.ar} when adding the dual suffixes. For example,  
 
-+ [غَضْبَىٰ]{.ar} [gaDbA]{.trn} (root: [غضب]{.arroot}) becomes [غَضْبَيَانِ]{.ar} [gaDbayAni]{.trn} and [غَضْبَيَيْنِ]{.ar} [gaDbayayni]{.trn}.
-+ [ٱَلْهُدَىٰ]{.ar} [EalhudA]{.trn} (root: [هدي]{.arroot}) becomes [ٱَلْهُدَيَانِ]{.ar} [EalhudayAni]{.trn} and [ٱَلْهُدَيَيْنِ]{.ar} [Ealhudayayni]{.trn}.
+[غَضْبَىٰ]{.ar} [gaDbA]{.trn} (root: [غضب]{.arroot}) becomes [غَضْبَيَانِ]{.ar} [gaDbayAni]{.trn} and [غَضْبَيَيْنِ]{.ar} [gaDbayayni]{.trn}.
+
+Beware also that, just like in the case of [اء]{.ar}, there are some words where [ىٰ]{.ar} may be part of the word's root, like [ٱَلْهُدَىٰ]{.ar} [EalhudA]{.trn} "the guidance" whose root is [هدي]{.arroot}. We will learn how to form duals of these words later, if [#allAh]{.trn2} wills.
 
 <!-- Don't discuss duals of defective nouns in detail here. Discuss them in the chapter of defective nouns.-->
 
