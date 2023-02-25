@@ -2,15 +2,22 @@
 
 ## Introduction
 
-English has only a singular and a plural nouns. For any number greater than one, English uses the plural. For example,
+For any number greater than one, English uses the plural. For example, the plural of "house" is "houses". So in English we will say:
 
-"One house, two houses, three houses, etc."
+"two houses"
 
-On the other hand, Arabic uses the plural only for nouns in number three and higher. For nouns that are two in number Arabic uses the _dual_.
+Arabic, on the other hand, uses the plural only for nouns in number three and higher. For nouns that are two in number Arabic uses the _dual_.
 
 ## Forming the dual
 
-The dual is formed by appending [ـَانِ]{.ar} [Ani]{.trn} when the noun is in the u-state and [ـَانِ]{.ar} [Ani]{.trn} when the noun is in the a-state or i-state. Example:
+The dual is formed by appending dual suffix [◌َانِ]{.ar} [Ani]{.trn} when the noun is in the u-state and [◌َيْنِ]{.ar} [ayni]{.trn} when the noun is in the a-state or i-state. Definite nouns, which have [ٱَلْ]{.ar} in their beginning are dualized the same way. 
+
+For example, when we dualize [بَيْت]{.ar} [bayt]{.trn} "house", we get:
+
+| States | Indefinite | Definite
+:-------|:-------|:-------
+u-state         | [بَيْتَانِ]{.ar} [baytAni]{.trn}  | [ٱَلْبَيْتَانِ]{.ar} [EalbaytAni]{.trn}
+a- and i-states | [بَيْتَيْنِ]{.ar} [baytayni]{.trn} | [ٱَلْبَيْتَيْنِ]{.ar} [Ealbaytayni]{.trn}   
 
 | States |  a house | two houses
 :-------|:-------|:-------
