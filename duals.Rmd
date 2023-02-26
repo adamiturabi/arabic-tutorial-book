@@ -125,7 +125,7 @@ Speaking person (masc. and fem.)  "me" | [◌ِي]{.ar} [-I]{.trn} and [يَ]{.a
 
 Now we will learn the detached pronouns for the dual persons:
 
-|Person|Detached pronoun
+|Person|Attached pronoun
 |:---|:-
 Absent person (masc. and fem.) "them~dual~"   |[هُمَا]{.ar} [-humA]{.trn} 
 Addressed person (masc. and fem.) "you~dual~" |[كُمَا]{.ar} [-kumA]{.trn} 
@@ -159,7 +159,9 @@ Note the following points about them:
     [pahaba Eilayna -rrajulu.]{.trn}  
     "The man went toward us."
 
-These same attached pronouns are used as doee pronouns, again without any additional intervening [ن]{.ar} for the speaking person dual attached pronoun [نَا]{.ar} [-nA]{.trn}. Examples:
+### Dual doee pronouns
+
+The dual attached pronouns that we have just learned are also used as doee pronouns. Again, there is no additional intervening [ن]{.ar} for the speaking person dual attached pronoun [نَا]{.ar} [-nA]{.trn}. Examples:
 
 [سَأَلَهُمَا ٱلرَّجُلُ.]{.ar}  
 [saEalahuma -rrajulu.]{.trn}  
@@ -175,7 +177,7 @@ These same attached pronouns are used as doee pronouns, again without any additi
 
 ## Verbal sentences with dual doers
 
-### Duals as doer nouns
+### Dual nouns for the doer
 
 We learned that the completed-action verb for a masculine doer is on the pattern [فَعَلَ]{.ar}. And when the doer is feminine, the [ت]{.ar} of femininity is attached to the verb thus: [فَعَلَتْ]{.ar}. We have used these verbs with singular doer nouns. The doer noun always comes after the verb and shall be in the u-state. Examples:
 
@@ -197,9 +199,86 @@ These same verbs are used when the doer noun is a dual. Examples:
 [pahabat jAriyatAni.]{.trn}  
 "Two girls went." 
 
-Dual doees shall be in the a-state, just like singular doees. Example:
+### Dual pronouns for the doer
 
-### Duals as doer pronouns
+We have already learned the singular doer pronouns:
+
+Person | Doer pronoun | Doer pronoun with verb
+:------|:--|:--
+Absent person (masc.) "he"  | _invisible_          | [فَعَلَ]{.ar} [faeala]{.trn}
+Absent person (fem.)  "she" | _invisible_          | [فَعَلَتْ]{.ar} [faealat]{.trn}
+Addressed person (masc.)  "you~masc.~" | [تَ]{.ar} [-ta]{.trn} | [فَعَلْتَ]{.ar} [faealta]{.trn}
+Addressed person (fem.)  "you~fem.~"   | [تِ]{.ar} [-ti]{.trn} | [فَعَلْتِ]{.ar} [faealti]{.trn}
+Speaking person (masc. and fem.)  "I"  | [تُ]{.ar} [-tu]{.trn} | [فَعَلْتُ]{.ar} [faealtu]{.trn}
+
+Now we will learn the dual doer pronouns:
+
+Person | Doer pronoun | Doer pronoun with verb
+:------|:-|:---
+Absent person (masc. and fem.) "they~dual~"  | [◌َا]{.ar} [-A]{.trn} | masc.: [فَعَلَا]{.ar} [faealA]{.trn}, fem: [فَعَلَتَا]{.ar} [faealatA]{.trn}
+Addressed person (masc. and fem.)  "you~dual~" | [تُمَا]{.ar} [-tumA]{.trn} | [فَعَلْتُمَا]{.ar} [faealtumA]{.trn} 
+Speaking person (masc. and fem.)  "we"  | [نَا]{.ar} [-nA]{.trn} | [فَعَلْنَا]{.ar} [faealnA]{.trn}
+
+Note the following points regarding the dual doer pronouns:
+
++ The dual doer pronouns are the same for both genders.
++ However, the absent person dual doer pronoun [◌َا]{.ar} [-A]{.trn} "they~dual~", when used for a feminine doer is attached to the verb with an intervening [ت]{.ar} of femininity thus: [فَعَلَتَا]{.ar} [faealatA]{.trn}
++ The dual speaking person doer pronoun [نَا]{.ar} [-nA]{.trn} is the same as the dual speaking person attached pronoun [نَا]{.ar} [-nA]{.trn}. But you can tell them apart because the doer pronoun, when attached to the verb, causes the final letter of the verb to have a ∅-mark. Consider the following two sentences:
+
+  [سَأَلْنَا.]{.ar}  
+  [saEalnA.]{.trn}  
+  "We asked."
+
+  [سَأَلَنَا.]{.ar}  
+  [saEalanA.]{.trn}  
+  "He asked us."
+
+Here are some more examples of the dual doer pronouns:
+
+[سَأَلْتُمَانَا]{.ar}  
+[saEaltumAnA]{.trn}  
+"You~dual~ asked us"
+
+[سَأَلَتَاكُمَا]{.ar}  
+[saEalatAkumA]{.trn}  
+"They~dual\ fem.~ asked you~dual~"
+
+[سَأَلَاهُمَا]{.ar}  
+[saEalAhumA]{.trn}  
+"They~dual\ masc.~ asked them~dual~"
+
+## Sentence word order
+
+As we've mentioned, the doer, whether a noun or a pronoun, always comes after the verb. Here are a couple of examples of verbal sentences with dual doers:
+
+[ذَهَبَا إِلَىٰ بَيْتٍ.]{.ar}  
+[pahabA EilA baytin.]{.trn}  
+"They~dual~ went to a house."
+
+[ذَهَبَ ٱلرَّجُلَانِ إِلَىٰ بَيْتٍ.]{.ar}  
+[pahabA -rrujalAni EilA baytin.]{.trn}  
+"The two men went to a house."
+
+The above verbal sentence can be rearranged to be a subject-information sentence. This gives more emphasis to the subject. In this case, the verb shall follow the subject and will have a doer pronoun.
+
+[ٱَلرَّجُلَانِ ذَهَبَا إِلَىٰ بَيْتٍ.]{.ar}  
+[EarrujalAni pahabA EilA baytin.]{.trn}  
+"The two men, they~dual~ went to a house."  
+= "_The two men_ went to a house."
+
+If there are multiple verbs associated with the same doer in a verbal sentence, the doer noun will follow the first verb  and the rest of the verbs will have doer pronouns. For example:
+
+[أَكَلَ ٱلرَّجُلَانِ وَشَرِبَا وَذَهَبَا.]{.ar}  
+[Eakala -rrajulAni wacaribA wapahabA.]{.trn}  
+"The two men ate and they~dual~ drank and they~dual~ went."  
+= "The two men ate and drank and went."
+
+The above verbal sentence can be rearranged to be a subject-information sentence. In that case, all the verbs shall have doer pronouns. The sentence will have the same translation as above, except for an emphasis on the subject of the sentence.
+
+[ٱَلرَّجُلَانِ أَكَلَا وَشَرِبَا وَذَهَبَا.]{.ar}  
+[EarrajulAni EakalA wacaribA wapahabA.]{.trn}  
+"The two men, they~dual~ ate and they~dual~ drank and they~dual~ went."  
+= "_The two men_ ate and drank and went."
 
 ## Pronouns of the dual
 
