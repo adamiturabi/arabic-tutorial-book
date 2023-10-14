@@ -40,6 +40,7 @@ An online book that aims to teach Arabic.
    ```
    sudo apt install r-base
    sudo apt install libcurl4-openssl-dev libfontconfig1-dev libssl-dev libxml2-dev
+   sudo apt install libv8-dev libavfilter-dev librsvg2-dev libwebp-dev cargo libpoppler-cpp-dev libtesseract-dev libmagick++-dev libharfbuzz-dev libfribidi-dev
    ```
 
 5. Rmarkdown and Bookdown
