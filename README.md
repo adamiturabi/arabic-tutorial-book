@@ -32,9 +32,12 @@ An online book that aims to teach Arabic.
      ```
 
 3. Pandoc
+
+   Normally, installing pandoc from the Ubuntu repos would be sufficient thus:
    ```
    sudo apt install pandoc
    ```
+   But the version there is pretty old. So, go to the Pandoc project on Github and install the `.deb` from there: https://github.com/jgm/pandoc/releases
    
 4. R
    ```
