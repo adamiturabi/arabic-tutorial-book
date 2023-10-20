@@ -12,6 +12,34 @@
     src: url('./fonts/Amiri-Regular.woff2') format('woff2'),
          url('./fonts/Amiri-Regular.woff') format('woff');
 }
+@font-face {
+  font-family: "NewComputerModern10";
+  src: url('./fonts/NewCM10-Book.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "NewComputerModern10";
+  src: url('./fonts/NewCM10-BookItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "NewComputerModern10";
+  src: url('./fonts/NewCM10-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "NewComputerModern10";
+  src: url('./fonts/NewCM10-BoldItalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
 :lang(ar) {
   -moz-font-feature-settings:"calt=1, liga=1, clig=1, kern=1";
   -moz-font-feature-settings:"calt", "liga", "clig", "kern";
@@ -34,7 +62,7 @@
 }
 /* Gitbook body text font settings */
 .book.font-family-0 {
-  font-family: "Brill", "Junicode", "Charis SIL", "STIX Two Text", "Gentium Plus", FreeSerif, serif;
+  font-family: "NewComputerModern10", "Brill", "Junicode", "Charis SIL", "STIX Two Text", "Gentium Plus", FreeSerif, serif;
   font-variant-numeric: oldstyle-nums;
 }
 .book.font-family-1 {
