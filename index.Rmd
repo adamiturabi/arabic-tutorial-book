@@ -70,8 +70,8 @@ output:
     pandoc_args: ["--lua-filter=trn.lua", "--columns=65"] # for forcing word wrap in pipe tables
     #template: default_latex_template.tex # with Brill font the PDF font is too large and this needs to be uncommented. includes and in_header should then be commented
     includes:
-      before_body: "frontpage.tex"
-      in_header: "preamble.tex"
+      before_body: "srctex/frontpage.tex"
+      in_header: "srctex/preamble.tex"
     keep_tex: true
 ---
 
