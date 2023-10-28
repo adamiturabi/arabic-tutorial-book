@@ -1,6 +1,0 @@
-#!/bin/sh
-Rscript compilebook.R
-#Rscript -e "bookdown::render_book('index.Rmd','bookdown::gitbook', clean = FALSE)"
-#cp -R fonts _book/
-#Rscript -e "bookdown::render_book('index.Rmd','bookdown::pdf_book')"
-

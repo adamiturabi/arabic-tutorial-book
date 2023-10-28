@@ -1,4 +1,5 @@
 # compile bookdown
+# modified from https://stackoverflow.com/questions/55164787/conditionally-include-chapters-in-bookdown
 
 bookdown_yml <- paste0(
 "book_filename: 'Learn-Standard-Arabic.Rmd'

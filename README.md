@@ -91,7 +91,7 @@ In a Linux terminal:
 cd path-to-your-preferred-dir
 git clone https://github.com/adamiturabi/arabic-tutorial-book.git
 cd arabic-tutorial-book
-./buildscript
+make
 ```
 
 The created files will be under the `_book` directory. Open `_book/index.html` in a browser and `_book/_main.pdf` in a PDF viewer.
@@ -99,6 +99,6 @@ The created files will be under the `_book` directory. Open `_book/index.html` i
 To delete created files in order to do a clean build:
 
 ```
-./cleanbuild
+make clean
 ```
 
