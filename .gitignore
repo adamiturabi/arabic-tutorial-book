@@ -1,12 +1,6 @@
-*.tex
-!bidi_art_templ.tex
-!default_latex_template.tex
-!preamble.tex
-!frontpage.tex
-*.pdf
 *.aux
 *.log
 *.out
 *.Rhistory
-_book/
+book-output/
 .Rproj.user
