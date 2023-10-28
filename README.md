@@ -11,15 +11,16 @@ An online book that aims to teach Arabic.
    sudo apt install texlive-base
    sudo apt install texlive-xetex
    sudo apt install texlive-lang-arabic
-   
+   sudo apt install texlive-fonts-extra
    ```
 2. Fonts
    + In current use:
-     + Junicode: https://github.com/psb1558/Junicode-font/releases/tag/v1.003
+     + New Computer Modern
      + Andika: https://software.sil.org/andika/download/
      + Amiri: https://github.com/alif-type/amiri/releases/latest
      + Vazir: https://github.com/rastikerdar/vazir-font/releases/latest
    + Experimental:
+     + Junicode: https://github.com/psb1558/Junicode-font/releases/tag/v1.003
      + Brill: https://brill.com/page/290?language=en
      + Scheherazade New: https://software.sil.org/scheherazade/download/
      + Gentium Plus: https://software.sil.org/gentium/download/
@@ -91,7 +92,7 @@ In a Linux terminal:
 cd path-to-your-preferred-dir
 git clone https://github.com/adamiturabi/arabic-tutorial-book.git
 cd arabic-tutorial-book
-./buildscript
+make
 ```
 
 The created files will be under the `_book` directory. Open `_book/index.html` in a browser and `_book/_main.pdf` in a PDF viewer.
@@ -99,6 +100,6 @@ The created files will be under the `_book` directory. Open `_book/index.html` i
 To delete created files in order to do a clean build:
 
 ```
-./cleanbuild
+make clean
 ```
 
