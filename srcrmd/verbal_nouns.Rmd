@@ -128,9 +128,9 @@ If a doer is used along with the indirect doee, then the doer shall be placed in
 
 If a verb takes a direct doee, and we wish to use the direct doee with the verb's doing verbal noun, then we may deal with it in one of three ways:
 
-#### In a noun-chain
+#### The direct doee in the i-state in a noun-chain with the doing verbal noun
 
-The direct doee is in the i-state as the second noun in a noun-chain with the doing verbal-noun. This method is used when the doer of the verbal noun is not mentioned with the doing verbal-noun, or when there is no other phrase between the doing verbal-noun and the direct doee. For example,
+In the first method, the direct doee is in the i-state as the second noun in a noun-chain with the doing verbal-noun. This method is used when the doer of the verbal noun is not mentioned with the doing verbal-noun, or when there is no other phrase between the doing verbal-noun and the direct doee. For example,
 
 [فَرَغَ زَيْدٌ مِنْ قِرَاءَةِ ٱلْكِتَابِ.]{.ar}  
 [faraga zaydun min qirAEati -lkitAbi.]{.trn}  
@@ -150,7 +150,7 @@ But there are some verbs, however, where the meaning of the verbal-noun itself i
 <!--[قَتَلَ يَقْتُلُ قَتْلًا]{.ar} [qatala yaqtulu qatlan]{.trn} "to kill ([ه]{.ar} s.o.)".-->
 [ضَرَبَ يَضْرِبُ ضَرْبًا]{.ar} [Daraba yaDribu Darban]{.trn} "to beat ([ه]{.ar} s.o.)". If we form a noun-chain using its doing verbal-noun, thus: [ضَرْبُ زَيْدٍ]{.ar} [Darbu zaydin]{.trn}, we cannot know whether Zayd is the doer (the one doing the beating), or the doee (the one getting beaten). In this case, we will need more context to help us determine whether Zayd is the doer or the doee. Here are a few sentences that may help illustrate this point:
 
-[ضَرَبَ زَيْدٌ عَمْرًا. سَمِعَ ٱلْأَبُ ضَرْبَ زَيْدٍ فَغَضِبَ عَلَيْهِ. فَنَدِمَ زَيْدٌ مِنْ ضَرْبِ عَمْرٍو.]{.ar}  
+[ضَرَبَ زَيْدٌ عَمْرًا. سَمِعَ ٱلْأَبُ **ضَرْبَ زَيْدٍ** فَغَضِبَ عَلَيْهِ. فَنَدِمَ زَيْدٌ مِنْ **ضَرْبِ عَمْرٍو**.]{.ar}  
 [Daraba zaydun eamran. samiea -lEabu Darba zaydin fagaDiba ealayhi. fa nadima zaydun min Darbi eamrin.]{.trn}  
 "Zayd beat [e#amr]{.trn2}. The father heard Zayd's beating so he became angry with him. So, Zayd became remorseful of beating [e#amr]{.trn2}."
 
@@ -159,3 +159,18 @@ We can see that the meaning of the sentences help us determine that in the phras
 [Darba zaydin]{.trn}, Zayd is the doer, and in 
 [ضَرْبِ عَمْرٍو]{.ar}
 [Darbi eamrin]{.trn}, [e#amr]{.trn2} is the doee.
+
+<!-- The masdar naSr may also be useful here:  نصر الله. نصر العبد-->
+
+#### The direct doee in a-state following the doing verbal-noun
+
+The second way to deal with a direct doee and a doing-verbal noun is to put it in the a-state after the doing verbal-noun. This is usually done when the doer is mentioned with the doing verbal-noun in a noun-chain with it. The direct doee is then placed after the doer in the a-state. For example, we can re-word the previous example:
+
+<!--[سَمِعْتُ ضَرْبَ زَيْدٍ عَمْرًا.]{.ar}  
+[samietu Darba zaydin eamran.]{.trn}  
+"I heard Zayd's beating [e#amr]{.trn2}."-->
+
+[ضَرَبَ زَيْدٌ عَمْرًا. سَمِعَ ٱلْأَبُ **ضَرْبَ زَيْدٍ عَمْرًا** فَغَضِبَ عَلَيْهِ. فَنَدِمَ زَيْدٌ مِنْ **ضَرْبِهِ عَمْرًا**.]{.ar}  
+[Daraba zaydun eamran. samiea -lEabu Darba zaydin eamran fagaDiba ealayhi. fa nadima zaydun min Darbihi eamran.]{.trn}  
+"Zayd beat [e#amr]{.trn2}. The father heard Zayd's beating [e#amr]{.trn2} so he became angry with him. So, Zayd became remorseful of his beating [e#amr]{.trn2}."
+
