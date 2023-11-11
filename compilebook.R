@@ -2,7 +2,7 @@
 # modified from https://stackoverflow.com/questions/55164787/conditionally-include-chapters-in-bookdown
 
 bookdown_yml <- paste0(
-"# DO NOT EDIT DIRECTLY. Eid compilebook.R instead
+"# DO NOT EDIT DIRECTLY. Edit compilebook.R instead
 book_filename: 'Learn-Standard-Arabic.Rmd'
 output_dir: 'book-output'
 ")
