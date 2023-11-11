@@ -149,19 +149,53 @@ or
 
 #### With a direct doee
 
-If a verb takes a direct doee, and we wish to use the direct doee with the verb's doer verbal-noun when the doer verbal-noun is acting as a verb, then we may deal with it in one of two ways:
+If a verb takes a direct doee, and we wish to use the direct doee with the verb's doer verbal-noun when the doer verbal-noun is acting as a verb, then we may deal with it in one of three ways:
 
-#### The direct doee in a-state following the doer verbal-noun
+1. The direct doee in a-state following the doer verbal-noun
 
-The most basic method of dealing with a direct doee of a doer verbal noun is by placing it in the a-state right after the doer verbal-noun. Here is an example,
+   The most basic method of dealing with a direct doee of a doer verbal noun is by placing it in the a-state right after the doer verbal-noun. Here is an example,
+   
+   [قَدْ دَخَلَ ٱلْمَدِينَةَ رَجُلٌ شَرِيرٌ. هُوَ **قَاتِلٌ سُكَّانَهَا**.]{.ar}  
+   [qad daxala -lmadInata rajulun carIrun. hua qAtilun sukkAnahA.]{.trn}  
+   "An evil man has entered the city. He is going to kill its residents."
+   
+   <!-- Wright says: When the اسم الفاعل is indefinite then مفعول به منصوب is only allowed under certain scenarios: The اسم الفاعل is a خبر or other attribute, or a negative sentence, or a question. (vol. ii, § 30, p. 65). This seems similar to prohibition of indef subjects so I don't think it is necessary to add that detail here. It seems like doer verbal-noun will naturally be a predicate.-->
 
-[قَدْ دَخَلَ ٱلْمَدِينَةَ رَجُلٌ شَرِيرٌ. هُوَ قَاتِلٌ سُكَّانَهَا.]{.ar}  
-[qad daxala -lmadInata rajulun carIrun. hua qAtilun sukkAnahA.]{.trn}  
-"An evil man has entered the city. He is going to kill its residents."
+2. The direct doee in i-state annexed to the doer verbal-noun
 
-<!-- Wright says: When the اسم الفاعل is indefinite then مفعول به منصوب is only allowed under certain scenarios: The اسم الفاعل is a خبر or other attribute, or a negative sentence, or a question. (vol. ii, § 30, p. 65). This seems similar to prohibition of indef subjects so I don't think it is necessary to add that detail here. It seems like doer verbal-noun will naturally be a predicate.-->
+   The combination of the doer verbal-noun and following direct doee in the a-state is often replaced with an annexation of the doer verbal-noun to the i-state direct doee. So, for example, instead of the above example, we can say:
+   
+   [قَدْ دَخَلَ ٱلْمَدِينَةَ رَجُلٌ شَرِيرٌ. هُوَ **قَاتِلُ سُكَّانِهَا**.]{.ar}  
+   [qad daxala -lmadInata rajulun carIrun. hua qAtilu sukkAnihA.]{.trn}  
+   "An evil man has entered the city. He is going to kill its residents."
 
-#### The direct doee in i-state annexed to the doer verbal-noun
+   Note that [قَاتِلُ سُكَّانِهَا]{.ar} [qAtilu sukkAnihA.]{.trn} can also support the non-verbal meaning of the doer verbal-noun: "killer of its residents", i.e., he has already killed its residents in the past. So, when an annexation is used with a doer verbal-noun, we will often need surrounding context to tell us whether the verbal (incomplete-action) meaning is intended, or the noun  meaning.
+
+   This usage of annexing the doer verbal-noun to the i-state direct doee instead of employing the more basic usage of the doer verbal-noun and a following a-state direct doee is optional, but fairly common. In fact, when the doer-verbal noun ends with an [n]{.trn}-mark, and the direct doee begins with [ٱَلْ]{.ar} [Eal]{.trn} "the", then the annexation usage becomes predominant over the basic a-state usage. So we will be more likely to see:
+
+   [أَنَا فَاعِلُهُ.]{.ar}  
+   [Eana fAeiluhu.]{.trn}  
+
+   instead of:
+
+   [أَنَا فَاعِلٌ إِيَّاهُ.]{.ar}  
+   [Eana fAeilun EiyyAhu.]{.trn}  
+
+   for the meaning: "I will do it." Note again, that the latter sentence could also support the noun meaning of the doer-verbal noun: "I am its doer.", i.e., "I am the one who did it."
+
+   Similarly, it will be more common to find:
+
+   [هُوَ قَاتِلُ ٱلنَّاسِ.]{.ar}  
+   [huwa qAtilu -nnAsi.]{.trn}  
+
+   instead of:
+
+   [هُوَ قَاتِلٌ ٱلنَّاسَ.]{.ar}  
+   [huwa qAtiluni -nnAsa.]{.trn}  
+
+   for the meaning: "He is going to kill the people." Note, once again, that the latter sentence also supports the meaning: "He is the people's killer.", i.e., "He is the one who killed them", and that context would be needed to tell us which of the two meanings is intended.
+
+   The annexation of a doer verbal-noun to its direct doee in the i-state is not the kind of "proper" annexation that we have learned so far. In fact, it is called an _improper annexation_ and we shall study it in more detail in chapter {TODO], if [#allAh]{.trn} wills.
 
 ### The definite doer verbal-noun as a verb
 
@@ -175,3 +209,4 @@ So far we have seen only an indefinite doer verbal-noun being used with the mean
 [harabtu mina -lEasadi -lEAkilu -lEinsAna.]{.trn}  
 "I fled from the lion, the one that eats man."
 
+<!-- from Quran:  الكاظمين الغيظ ، المؤتون الزكاة , many be improper annexxation too -->
