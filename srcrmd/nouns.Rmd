@@ -1,17 +1,97 @@
 # Nouns
-
+<!-- title not called "Common nouns" because concepts are general to all nouns. However, only common nouns are discussed here.-->
 ## Introduction
 
 Here are some examples of common nouns in Arabic:
 
 Arabic word | Transcription|Definition
 :-----------|:-----------|:----------------
-[رَجُلٌ]{.ar}  |[rajulun]{.trn}   |a man
-[كِتَابٌ]{.ar} |[kitAbun]{.trn}   |a book
-[بَيْتٌ]{.ar}  |[baytun]{.trn}    |a house
-[شَجَرَةٌ]{.ar} |[cajaratun]{.trn} |a tree
+[رَجُل]{.ar}  |[rajul]{.trn}     |man
+[كِتَاب]{.ar} |[kitAb]{.trn}     |book
+[بَيْت]{.ar}  |[bayt]{.trn}      |house
+[شَجَرَة]{.ar} |[cajarah]{.trn}   |tree
+[صَبْر]{.ar}  |[Sabr]{.trn}      |patience
+[طَعَام]{.ar} |[TaeAm]{.trn}     |food
 
-## Indefinite and definite nouns
+Note that the final letter in each word, above, does not have a vowel mark. This is because, for now, we are discussing each noun in isolation. 
+
+When we discuss nouns in isolation we shall pronounce the looped [ة]{.trn} as a [h]{.trn}. Therefore, 
+[شَجَرَة]{.ar} "tree", in isolation, is pronounced [cajarah]{.trn}, not [cajarat]{.trn}.
+
+## Definiteness
+
+### Indefinite nouns
+
+Nouns that start with the word "a" are called indefinite nouns. For example: "a book". 
+
+In order to make a noun indefinite in Arabic, i.e., to say "_a_ book", we need put an [n]{.trn}-mark to the final letter of the word. There are three [n]{.trn}-marks: the [un]{.trn}-mark [◌ٌ]{.ar}, the [an]{.trn}-mark [◌ً]{.ar}, and the [in]{.trn}-mark [◌ٍ]{.ar}. Putting any of these on the final letter of word gives it the meaning "a book". So we get:
+
+"a book":  
+
++ [كِتَابٌ]{.ar} [kitAbun]{.trn}
++ [كِتَابًا]{.ar} [kitAban]{.trn}
++ [كِتَابٍ]{.ar} [kitAbin]{.trn} 
+
+### Definite nouns
+
+Nouns that start with "the" are called definite nouns. For example: "the book".
+
+In order to make a noun definite in Arabic, i.e., to say "_the_ book", we take away the [n]{.trn}-mark from the final letter of the word, but leave the short vowel marks [◌ُ]{.ar}, [◌َ]{.ar}, and [◌ِ]{.ar}. Also, we add [ٱَلْ]{.ar} [Eal]{.trn} "the" to the beginning of the word. 
+The prefix [ٱَلْ]{.ar} [al]{.trn} is called the *definite article*.
+It begins with a connecting [hamzah]{.trn} so the [hamzah]{.trn} will be pronounced only in the beginning of a sentence. And when it occurs in the beginning of a sentence, the [hamzah]{.trn} is pronounced with a [◌َ]{.ar} a-mark.
+So we get:
+
+"the book":  
+
++ [ٱَلْكِتَابُ]{.ar} [EalkitAbu]{.trn}
++ [ٱَلْكِتَابَ]{.ar} [EalkitAba]{.trn}
++ [ٱَلْكِتَابِ]{.ar} [EalkitAbi]{.trn}
+
+#### Sun letters and moon letters
+
+“A man” in Arabic is [رَجُلٌ]{.ar} [rajulun]{.trn}. To make this definite we add [ٱَلْ]{.ar} [al]{.trn} to the beginning of the word and we also change the [n]{.trn}-mark at the end of the word [لٌ]{.ar} [un]{.trn} to the short vowel [لُ]{.ar} [u]{.trn}. But instead of becoming [ٱَلْرَجُلُ]{.ar} [alrajulu]{.trn} the word becomes [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn}. The [ل]{.ar} in [ٱَلْ]{.ar} becomes silent and the [ر]{.ar} gets doubled. This happens because the first letter [ر]{.ar} in the word [رَجُلٌ]{.ar} [rajulun]{.trn} is from a group of letters called "sun letters". For all nouns beginning with sun letters, when [ٱَلْ]{.ar} [al]{.trn} is put in the beginning, the [ل]{.ar} in [ٱَلْ]{.ar} becomes silent and the sun letter becomes doubled.
+
+The rest of the letters in the alphabet are called "moon letters" and for words that begin with moon letters, the [ل]{.ar} in [ٱَلْ]{.ar} does not become silent and the moon letter does not become doubled. For example, [ك]{.ar} is a moon letter and we have already seen that [كِتَابٌ]{.ar} [kitAbun]{.trn} "a book" becomes [ٱَلْكِتَابُ]{.ar} [alkitAbu]{.trn} "the book".
+
+The sun letters are [ت ث د ذ ر ز س ش ص ض ط ظ ل ن]{.ar}.  
+The moon letters are [ء ب ج ح خ ع غ ف ق ك م ه و ي]{.ar}.
+
+The names "sun letters" and "moon letters" were given because of the Arabic words for "sun" and "moon" respectively. "The sun" in Arabic is [ٱَلشَّمْسُ]{.ar} [accamsu]{.trn} which begins with [ش]{.ar} which causes the [ل]{.ar} in [ٱَلْ]{.ar} to be silent. "The moon" is [ٱَلْقَمَرُ]{.ar} [alqamaru]{.trn} which begins with [ق]{.ar} which does not cause the [ل]{.ar} in [ٱَلْ]{.ar} to be silent. Thus [ش]{.ar} represents the sun letters and [ق]{.ar} represents the moon letters.
+
+Here are some examples of words that begin with sun letters:
+
+Indefinite noun | Definite noun
+:-----------|:-----------
+[رَجُلٌ]{.ar} [rajulun]{.trn} "a man" | [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn} "the man"  
+[تَاجِرٌ]{.ar} [tAjirun]{.trn} "a trader" | [ٱَلتَّاجِرُ]{.ar} [attAjiru]{.trn} "the trader"  
+[لُعْبَةٌ]{.ar} [luebatun]{.trn} "a toy" | [ٱَللُّعْبَةُ]{.ar} [alluebatu]{.trn} "the toy"  
+
+## State
+
+Nouns in Arabic can be in one of three _states_. You may think of the grammatical states of nouns like the physical states of matter: solid, liquid, and gas. The same water can be in a solid ice state, or a liquid water state, or a gaseous water vapour state. Similarly, the same noun, in Arabic, may be in one of the three grammatical states:
+
+1. u-state: demarked by a [u]{.trn}-mark [◌ُ]{.ar} or a [un]{.trn}-mark [◌ٌ]{.ar} at the end of the word.
+2. a-state: demarked by a [a]{.trn}-mark [◌َ]{.ar} or a [an]{.trn}-mark [◌ً]{.ar} at the end of the word.
+3. i-state: demarked by a [i]{.trn}-mark [◌ِ]{.ar} or a [in]{.trn}-mark [◌ٍ]{.ar} at the end of the word.
+
+The choice of which state a noun is in depends on its function in a sentence. For example, if the noun is a subject of a sentence, it will usually be in the u-state. And if it is used adverbially, it will often be in the a-state. And if it occurs after a preposition, it will be in the i-state. We will learn more about putting nouns in their different states throughout this book. Here are the words "a book" and "the book" in their three states:
+
+State         | Indefinite "a book" | Definite "the book"
+:-------------|:-----------------|:--------------
+u-state       |[كِتَابٌ]{.ar} [kitAbun]{.trn}  |[ٱَلْكِتَابُ]{.ar} [alkitAbu]{.trn} 
+a-state       |[كِتَابًا]{.ar} [kitAban]{.trn} |[ٱَلْكِتَابَ]{.ar} [alkitAba]{.trn} 
+i-state       |[كِتَابٍ]{.ar} [kitAbin]{.trn}  |[ٱَلْكِتَابِ]{.ar} [alkitAbi]{.trn} 
+
+But choosing the correct [n]{.trn}-mark depends on what we will call the _state_ of the noun.
+
+There are three states for nouns in Arabic: the u-state, the a-state, and the i-state. Each of these states is associated with the
+
+[كِتَاب]{.ar} [kitAb]{.trn} "book"
+. So, "a book" can be either:
+
++ [كِتَابٌ]{.ar} [kitAbun]{.trn}, or 
++ [كِتَابًا]{.ar} [kitAban]{.trn}, or
++ [كِتَابٍ]{.ar} [kitAbin]{.trn}
 
 "A book" is [كِتَابٌ]{.ar} [kitAbun]{.trn}. If we want to say "the book" we add [ٱَلْ]{.ar} [al]{.trn} to the beginning of the word and we also change the [n]{.trn}-mark at the end of the word [بٌ]{.ar} [un]{.trn} to the short vowel [بُ]{.ar} [u]{.trn}. The prefix [ٱَلْ]{.ar} [al]{.trn} is called the *definite article"*.
 
