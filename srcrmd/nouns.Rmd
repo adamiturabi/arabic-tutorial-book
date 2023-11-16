@@ -129,7 +129,7 @@ This topic may be a little difficult to comprehend right now because we have not
 
 ## Grammatical gender
 
-Some nouns designate animate beings like "a man", "a woman", "a teacher", "a dog", "a cow", etc.
+Some nouns designate animate beings like "a man", "a woman", "a boy", "a girl", "a dog", "a cow", etc.
 Other nouns designate inanimate objects like "a book", "a house", "a hand", "a tree", "a city", "a food". 
 
 With respect to the grammatical gender of these nouns, there are three grammatical genders in English:
@@ -165,8 +165,6 @@ Arabic word |Gender | Definition
 [طِفْلَة]{.ar} [Tiflah]{.trn}      |fem. |a female child
 [إِنْسَان]{.ar}[EinsAn]{.trn}      |masc.|a male human being
 [إِنْسَانَة]{.ar}[EinsAnah]{.trn}   |fem. |a female human being
-[مُعَلِّم]{.ar} [mueallim]{.trn}  |masc.|a male teacher
-[مُعَلِّمَة]{.ar}[mueallimah]{.trn}|fem. |a female teacher
 [كَلْب]{.ar}  [kalb]{.trn}        |masc.|a male dog
 [كَلْبَة]{.ar} [kalbah]{.trn}    |fem. |a female dog
 [هِرّ]{.ar}   [hirr]{.trn}      |masc.|a male cat
@@ -293,8 +291,17 @@ There are also a few words which can be optionally assigned a masculine or femin
 
 A good dictionary should mention the gender of all these exceptional words.
 
-<!--## Genderizability
+## Genderizability
 
 ### Non-genderizable nouns
 
-So far-->
+So far, we have only encountered nouns that are not _genderizable_. That is, they are fixed in gender. And we are not allowed to modify their gender. For example, the noun [شَخْص]{.ar} [caxS]{.trn} is a non-genderizable masculine noun that means "a person". The dictionary tells us that this noun may be applied to both male and female persons. 
+
+Say that we would like to apply this noun to a female person, like [جَارِيَة]{.ar} [jAriyah]{.trn} (fem.) "a girl", by saying, for example, "The girl is a person.". In order to do this, we are not allowed to feminize the noun [شَخْص]{.ar} [caxS]{.trn}, by making it [شَخْصَة]{.ar} [caxSah]{.trn} for example. Nor does [شَخْصَة]{.ar} [caxSah]{.trn} pre-exist in the dictionary. So we are forced to apply the masculine noun [شَخْص]{.ar} [caxS]{.trn} to a female person [جَارِيَة]{.ar} [jAriyah]{.trn}. 
+
+This may seem a little unusual because the nouns in this example apply to animate beings that have a physical gender. And so, there is a strong motive to match the grammatical gender of the noun to the physical gender of the being it is applied to. But, as we said, we are prevented from doing so because the noun 
+[شَخْص]{.ar} [caxS]{.trn} is not genderizable.
+
+
+<!--[مُعَلِّم]{.ar} [mueallim]{.trn}  |masc.|a male teacher
+[مُعَلِّمَة]{.ar}[mueallimah]{.trn}|fem. |a female teacher-->
