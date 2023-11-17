@@ -70,7 +70,7 @@ In the sentences above, both the subject and the information were masculine noun
 i.   The subject: [ٱَلْبِنَاءُ]{.ar} [EalbinAEu]{.trn} (masc.) "the building" (u-state)
 ii.  The information: [مَدْرَسَةٌ]{.ar} [madrasatun]{.trn} (fem.) "a school" (u-state)
 
-In the same manner as before we form the sentence by first writing the subject and then the information:
+In the same manner as before, we form the sentence by first writing the subject and then the information:
 
 [ٱَلْبِنَاءُ مَدْرَسَةٌ.]{.ar}  
 [EalbinAEu madrasah.]{.trn}  
@@ -82,20 +82,30 @@ We can also reverse this sentence:
 [Ealmadrasatu binAE.]{.trn}  
 "The school is a building ."
 
-So we see that it is quite normal to have a sentence where the gender of the subject does not match the gender of the information. And we made no attempt to try change their gender by genderizing one of them to match the gender of the other. This is because both words
+So we see that it is quite normal to have a sentence where the gender of the subject does not match the gender of the information. 
+<!--And we made no attempt to try change their gender by genderizing one of them to match the gender of the other. This is because both words
 [ٱَلْبِنَاء]{.ar} [EalbinAE]{.trn} (masc.) "a building"
 and
 [مَدْرَسَة]{.ar} [madrasah]{.trn} (fem.) "a school"
 are non-genderizable words.
 
 If either the subject or the information is a genderizable noun, the in this case the subject and the information are made to match each other in gender. For example, let's try to form the sentence:
+-->
+This is because the words we have dealt with so far denote animate objects.
+If either the subject or the information denote animate beings, then in this case the subject and the information often do match each other in gender. For example, let's try to form the sentence:
 
 "The mother is a teacher."
 
 Here are the indiviual words that we will use to form the sentence:
 
-i. The subject: "the mother": [ٱَلْأُمُّ]{.ar} [EalEummu]{.trn} (fem.) (u-state). This is a non-genderizable noun so we leave it as it is.
-ii. The information: "a teacher". [مُعَلِّم]{.ar} [mueallium]{.trn} (masc.) is the word for "a (male) teacher" in Arabic. It is a genderizable noun and in order to make it apply to the feminine subject, we feminize it to: [مُعَلِّمَةٌ]{.ar} [mueallimatun]{.trn} (fem.) "a (female) teacher" (u-state).
+i.  The subject: "the mother": [ٱَلْأُمُّ]{.ar} [EalEummu]{.trn} (fem.) (u-state).
+ii. The information: "a teacher". We have two words for "a teacher" in Arabic: 
+
+    + [مُعَلِّم]{.ar} [mueallium]{.trn} (masc.) "a (male) teacher"
+    + [مُعَلِّمَة]{.ar} [mueallimah]{.trn} (fem.) "a (female) teacher". 
+
+    Obviously, [مُعَلِّمَة]{.ar} [mueallimah]{.trn} would apply here so we put it in the u-state: [مُعَلِّمَةٌ]{.ar} [mueallimatun]{.trn}
+(u-state).
 
 Now we can assemble the sentence:
 
@@ -103,18 +113,24 @@ Now we can assemble the sentence:
 [EalEummu mueallimah.]{.trn}  
 "The mother is a teacher~f~."
 
-In the reverse sentence "The teacher is a mother.", we feminize "the teacher" again, which is now the subject of the sentence, to match the feminine noun in the information "a mother". So we get:
+In the reverse sentence "The teacher is a mother.", we again use the feminine noun
+[مُعَلِّمَة]{.ar} [mueallimah]{.trn} (fem.) "a (female) teacher",
+which is now the subject of the sentence, to match the feminine noun in the information 
+[ٱَلْأُمّ]{.ar} [Ealumm]{.trn} (fem.)
+"a mother". So we get:
 
 [ٱَلْمُعَلِّمَةُ أُمٌّ.]{.ar}  
 [Ealmueallimatu Eumm.]{.trn}  
 "The teacher~f~ is a mother."
 
-If the subject and the information apply to animate beings, then even if they are not genderizable, they will usually match each other in gender in order for the sentence to be meaningful. For example:
+<!--If the subject and the information apply to animate beings, then even if they are not genderizable, they will usually match each other in gender in order for the sentence to be meaningful. For example:-->
+Here is another example:
 
 [ٱَلرَّجُلُ أَبٌ.]{.ar}  
 [Earrujulu Eab.]{.trn}  
 "The man is a father."
 
+<!--
 In the above sentence, both the subject
 [ٱَلرَّجُل]{.ar}
 [Earrujul]{.trn}
@@ -125,32 +141,34 @@ and the information
 (masc.) "a father" are non-genderizable nouns. But they match each other in gender because that is the only way for the sentence to be meaningful.
 
 But if one of the non-genderizable nouns can be applied to both physical genders then the subject and information may mismatch in gender. For example, the noun [شَخْص]{.ar} [caxS]{.trn} "a person" is a masculine noun that is applied to both male and female persons. So if the person being referred to is a woman, for example, then we can get an apparent mismatch in gender between the grammatical gender of the subject and the grammatical subject of the information. Example:
+-->
+Now, let's try a sentence where we are still dealing with animate beings but the nouns mismatches in grammatical gender.
 
 [ٱَلْأُمُّ شَخْصٌ.]{.ar}  
 [EalEummu caxS.]{.trn}  
-"The mother is a (female) person."
+"The mother is a person."
 
 [ٱَلشَّخْصُ مُعَلِّمَةٌ.]{.ar}  
 [EaccaxSu mueallimah.]{.trn}  
-"The (female) person is a teacher~f~."
+"The person is a (female) teacher."
 
 [ٱَلْمُعَلِّمَةُ شَخْصٌ.]{.ar}  
 [Ealmueallimatu caxS.]{.trn}  
-"The teacher~f~ is a (female) person."
+"The (female) teacher is a person."
 
-In the above example, the grammatical genders mismatch between the subject and the information. But this is because we are matching with the physical gender of the person represented by the masculine noun [شَخْص]{.ar} [caxS]{.trn} "a person".
+In the above examples, the grammatical genders mismatch between the subject and the information. But this is because we are matching with the physical gender of the person represented by the masculine noun [شَخْص]{.ar} [caxS]{.trn} "a person", not its grammatical gender.
 
 The same effect is seen when using the word [حَيَوان]{.ar} [HayawAn]{.trn} which is a masculine noun meaning "an animal". It can be applied to both male and female animals. So we can say:
 
 [ٱَلْحَيَوَانُ هِرٌّ.]{.ar}  
 [EalHayawAnu hirr.]{.trn}  
-"The animal is a cat~m~."
+"The animal is a (male) cat."
 
 and
 
 [ٱَلْحَيَوَانُ هِرَّةٌ.]{.ar}  
-[EalHayawAnu hirrh.]{.trn}  
-"The animal is a cat~f~."
+[EalHayawAnu hirrah.]{.trn}  
+"The animal is a (female) cat."
 
 
 We assemble the individual parts of the sentence in the u-state:
