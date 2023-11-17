@@ -329,6 +329,9 @@ Having said all this, in practice, you may find that indirect doees are sometime
 [ٱَلْمأمُورَ بِهِنَّ]{.ar}
 [EalmaEmUra bihinna]{.trn}, you may find the word [ٱَلْمَأْمُورَاتِ]{.ar} [EalmaEmUrAti]{.trn} used instead.
 
+TODO: The doee verbal noun for indirect doees may have some ambiguity with the doee verbal for direct doees. [مسؤول عنه]{.ar} can also be "the person who is asked about it" where the pronoun has been substituted for a noun, for example [مسؤول عن الأمر]{.ar} . In this case it is the word [مسؤول]{.ar} which will be feminized and pluralized. [المسؤولون عنه]{.ar} "the persons asked about it."
+
+For that matter [ساءل عنه]{.ar} is also valid as "the questioner about it".
 <!--[سَأَلَ زَيْدٌ زَيْنَبَ عَنِ ٱلرِّجَالِ.]{.ar}  
 [saEala zaydun zaynaba eani -rrijAli.]{.trn}  
 "Zayd questioned Zaynab about the men."
@@ -351,6 +354,37 @@ Doer and doee verbal-nouns are often re-used as adjectival-nouns with meanings t
 |[لَمَعَ يَلْمَعُ لَمْعًا وَلَمَعَانًا]{.ar} "to be shiny" | [لَامِعٌ]{.ar} | "shiny" |
 |[فَتَحَ يَفْتَحُ فَتْحًا]{.ar} "to open ([هـ]{.ar} s.th.)" | [مَفْتُوحٌ]{.ar} | "open" |
 |[شَهَرَ يَشْهَرُ شَهْرًا]{.ar} "to make famous ([ه، هـ]{.ar} s.o., s.th.)" | [مَشْهُورٌ]{.ar} | "famous" |
+
+### Genderizability of doer and doee verbal-nouns when re-used as adjectival-nouns
+
+When a doer or doee verbal-noun is re-used as an adjectival-noun, then it generally retains its genderizability. For example,
+
+[بَابٌ مَفَتُوحٌ]{.ar}  
+[bAbun maftUHun]{.trn}  
+"an open door"
+
+and
+
+[نَافِذَةٌ مَفَتُوحَةٌ]{.ar}  
+[nAfipatun maftUHatun]{.trn}  
+"an open window"
+
+If, however, the adjectival-noun is only applicable to females, then, only a female adjectival-noun is formed but, peculiarly, without the feminine marker [ة]{.ar}. The most common example is from the verb:
+[حَمَلَ يَحْمِلٌ حَمْلًا]{.ar} "to carry ([هـ]{.ar} s.th.)". The doer verbal-noun is [حَامِل]{.ar} [HAmil]{.trn} "a carrier". The adjectival-noun formed from the doer verbal-noun is "pregnant", but because it is only applicable to females, it does not get the feminine marker [ة]{.ar}. For example,
+
+[ٱَلْمَرْأَةُ حَامِلٌ.]{.ar}  
+[EalmarEatu HAmil.]{.trn}  
+"The woman is pregnant."
+
+This does not affect the doer verbal-noun when it is not used with this adjectival-noun meaning. For example,
+
+[ٱَلْمَرْأَةُ حَامِلَةُ ٱلْمَاءِ.]{.ar}  
+[EalmarEatu HAmilatu -lmAEi.]{.trn}  
+"The woman will carry the water."  
+or  
+"The woman is the water-carrier."
+
+### Corresponding with English adjectives
 
 Sometimes both the doer verbal-noun and the doee verbal-noun are used in Arabic with distinct meanings where we would use the same word in English. For example, the verb
 [عَقَلَ يَعْقِلُ عَقْلًا]{.ar} [eaqala yaeqilu eaqlan]{.trn} means "to make sense ([هـ]{.ar} of s.th.)".
@@ -388,6 +422,7 @@ When a doer verbal-noun is re-used as a common noun then only the broken plural,
 |Verb | Doer/doee verbal-noun | Plural | Common noun meaning|
 |:------|:-|:-|:--|
 |[عَلِمَ يَعْلَمُ عِلْمًا]{.ar} "to know ([هـ]{.ar} s.th.)" | [عَالِمٌ]{.ar}  | [عُلَمَاءُ]{.ar} | "a scholar"|
+|[طَلَبَ يَطْلُبُ طَلَبًا]{.ar} "to seek ([هـ]{.ar} s.th.)" | [طَالِب]{.ar}  | [طُلَّاب، طَلَبَة]{.ar} | "a student"|
 |[لَعِبَ يَلْعَبُ لَعِبًا]{.ar} "to play ([هـ]{.ar} s.th.)" | [لَاعِبٌ]{.ar}  | [لَاعِبُونَ]{.ar}  | "a player"|
 |[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} "to gather ([هـ]{.ar} s.th.)"| [جَامِعَةٌ]{.ar}  | [جَامِعَاتٌ]{.ar}  | "a university" |
 |[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} "to gather ([هـ]{.ar} s.th.)"| [جَامِع]{.ar}  | [جَوَامِع^2^]{.ar}  | "a mosque (in which the Friday prayers are performed)" |
@@ -435,3 +470,14 @@ We cannot masculinize [جَامِعَةٌ]{.ar} [jAmieah]{.trn} "a university" t
 
 None of these give the original meaning we intended: "The building is a university." This is why,
 once a doer or doee verbal-noun is re-used as a common noun, it loses its genderizability. 
+
+Having said this, when a doer verbal-noun is re-used as a common noun that applies to humans, both the masculine and feminine common-noun typically exist together. So for example,
+
+[عَالِم]{.ar} [eAlim]{.trn} is re-used as the common-noun for "a (male) scholar" with the plural [عُلَمَاء]{.ar} [eulamAE]{.trn}. 
+And  
+[عَالِمَة]{.ar} [eAlimah]{.trn} is re-used as the common-noun for "a (female) scholar" with the plural [عَالِمَات]{.ar} [eAlimAt]{.trn}.
+
+The dictionary will generally only list, and supply the definition for the masculine common-noun. The reader is expected to know that its feminine exists and how to form it.
+
+<!--Unless, the common-noun is biologically or professionally applied to one of the genders, in which case, only one may exist.-->
+
