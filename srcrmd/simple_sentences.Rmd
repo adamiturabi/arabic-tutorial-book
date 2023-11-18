@@ -259,8 +259,8 @@ We will now learn the pronouns for these participants in Arabic, if [#allAh]{.tr
 
 Here are the Arabic detached pronouns for the singular they-participant:
 
-1. [هُوَ]{.ar} [huwa]{.trn} "he".
-2. [هِيَ]{.ar} [hiya]{.trn} "she".
++ They~1m~-participant: [هُوَ]{.ar} [huwa]{.trn} "he".
++ They~1f~-participant: [هِيَ]{.ar} [hiya]{.trn} "she".
 
 Here are some examples of pair of sentences, each first with a noun, and then with a pronoun in place of the noun:
 
@@ -271,13 +271,7 @@ Here are some examples of pair of sentences, each first with a noun, and then wi
   [هُوَ مُعَلِّمٌ.]{.ar}  
   [huwa mueallim.]{.trn}  
   "He is a (male) teacher~m~."
-<!--
-+ [ٱَلْمُعَلِّمُ هُوَ.]{.ar}  
-  [Ealmueallimu huwa.]{.trn}  
-  "The (male) teacher is he."
 
-  Note above that detached pronouns can replace the noun in the information too.
--->
 + [ٱَلْجَارِيَةُ طَالِبَةٌ.]{.ar}  
   [EaljAriyatu Talibah.]{.trn}  
   "The girl is a student~f~."
@@ -297,23 +291,23 @@ Here are some examples of pair of sentences, each first with a noun, and then wi
   Note that Arabic uses the pronoun [هُوَ]{.ar} [huwa]{.trn} "he" to refer to the inanimate object "the house". This is because, as we know, all nouns in Arabic are either masculine or feminine. In translating the sentence to English we will employ the neutral pronoun "it" to make the sentence sound natural.
 
 + [ٱَلْبِنَاءُ مَدْرَسَةٌ.]{.ar}  
-  [EalbinAEu madrasat.]{.trn}  
+  [EalbinAEu madrasah.]{.trn}  
   "The building is a school."
 
   [هُوَ مَدْرَسَةٌ.]{.ar}
-  [huwa madrasatun.]{.trn}  
+  [huwa madrasah.]{.trn}  
   or  
   [هِيَ مَدْرَسَةٌ.]{.ar}
-  [hiya madrasatun.]{.trn}  
+  [hiya madrasah.]{.trn}  
   "It is a school."
 
-  Note that either [هُوَ]{.ar} [huwa]{.trn} "he" or [هِيَ]{.ar} [hiya]{.trn} "she" can be used in the above sentence because the gender of the subject [ٱَلْبِنَاءُ]{.ar} [EalbinAEu]{.trn} "the building" (masc.) mismatches the gender of the information [مَدْرَسَةٌ]{.ar} [madrasatun]{.trn} "a school." (fem.).
+  Note that either [هُوَ]{.ar} [huwa]{.trn} "he" or [هِيَ]{.ar} [hiya]{.trn} "she" can be used in the above sentence because the gender of the subject [ٱَلْبِنَاء]{.ar} [EalbinAE]{.trn} (masc.) "the building" mismatches the gender of the information [مَدْرَسَة]{.ar} [madrasah]{.trn} (fem.) "a school.".
 
   In such cases where the genders of the subject and the information do not match, then, generally speaking, the pronoun for either gender could be employed with the following guideline:
 
   Prefer to match the gender of the subject pronoun with the gender of the information, unless the noun being replaced with a pronoun is an animate being, in which case prefer to use the gender of the animate being. 
 
-  So in the above sentence we will prefer to use [هِيَ مَدْرَسَةٌ]{.ar} [hiya madrasatun]{.trn} because the information [مَدْرَسَةٌ]{.ar} [madrasatun]{.trn} "a school" is feminine.
+  So in the above sentence we will prefer to use [هِيَ مَدْرَسَةٌ.]{.ar} [hiya madrasah.]{.trn} because the information [مَدْرَسَةٌ]{.ar} [madrasatun]{.trn} "a school" is feminine.
 
 + Here is an example with an animate being as the subject:
 
@@ -329,53 +323,60 @@ Here are some examples of pair of sentences, each first with a noun, and then wi
 
 ### Detached pronouns for the you-participant and the I/we-participant
 
-Here are the pronouns for the you-participant and the speaking participant:
+Here are the pronouns for the singular you-participant and speaking-participant:
 
-1. [أَنْتَ]{.ar} [Eanta]{.trn} "you (masc.)".
-4. [أَنْتِ]{.ar} [Eanti]{.trn} "you (fem.)".
-5. [أَنَا]{.ar} [Eana]{.trn} "I (masc. & fem.)". 
++ You~1m~-participant (masc.): [أَنْتَ]{.ar} [Eanta]{.trn} "you~m~".
++ You~1f~-participant (fem.): [أَنْتِ]{.ar} [Eanti]{.trn} "you~f~".
++ I/we~1~-participant (masc. & fem.): [أَنَا]{.ar} [Eana]{.trn} "I". 
 
-Note that The you-participant pronoun "you" has separate pronouns for the masculine and the feminine while the speaking participant pronoun "I" has the same pronoun for both genders. Examples with these pronouns:
+Note that the you-participant pronoun "you" has separate pronouns for the masculine and the feminine while the speaking-participant pronoun "I" has the same pronoun for both genders. Examples with these pronouns:
 
 + [أَنْتَ مُعَلِّمٌ.]{.ar}  
-  [Eanta mueallimun.]{.trn}  
-  "You~masc.~ are a (male) teacher."
+  [Eanta mueallim.]{.trn}  
+  "You~m~ are a teacher~m~."
 
-+ [أَنْتِ ٱلْمَرْأَةُ.]{.ar}  
-  [Eanti -lmarEatu.]{.trn}  
-  "You~fem.~ are the woman."
-
-+ [ٱلْمُعَلِّمَةُ أَنَا.]{.ar}  
-  [Ealmueallimatu Eana.]{.trn}  
-  "The (female) teacher is I~fem.~."
++ [أَنْتِ مُعَلِّمَةٌ.]{.ar}  
+  [Eanti mueallimah.]{.trn}  
+  "You~f~ are a teacher~f~."
 
 + [أَنَا مُعَلِّمٌ.]{.ar}  
-  [Eana mueallimun.]{.trn}  
-  "I~masc.~ am a (male) teacher."
+  [Eana mueallim.]{.trn}  
+  "I am a teacher~m~."
+
++ [أَنَا مُعَلِّمَة.]{.ar}  
+  [Eana mueallimah.]{.trn}  
+  "I am a teacher~f~."
 
 ## Flexible and rigid nouns
 
-All the nouns that we've come across so far (except the pronouns we just learned about above) are a category of nouns called _flexible_ nouns. They are called flexible, because their ending will change depending on their state. Even though, we've only used nouns in the u-state so far, we have learned in section \@ref(state-of-nouns), the state of a noun determines the vowel mark on their final letter. The table of states is reproduced here for convenience.
+All the nouns that we've come across so far (except the pronouns we just learned about above) are a category of nouns called _flexible_ nouns. They are called flexible, because their ending will change depending on their state. Even though we've only used nouns in the u-state so far, we have learned in section \@ref(state), the state of a noun determines the vowel mark on their final letter. The table of states is reproduced here for convenience.
 
+State         | Indefinite "a book" | Definite "the book"
+:-------------|:-----------------|:--------------
+u-state       |[كِتَابٌ]{.ar} [kitAbun]{.trn}  |[ٱَلْكِتَابُ]{.ar} [alkitAbu]{.trn} 
+a-state       |[كِتَابًا]{.ar} [kitAban]{.trn} |[ٱَلْكِتَابَ]{.ar} [alkitAba]{.trn} 
+i-state       |[كِتَابٍ]{.ar} [kitAbin]{.trn}  |[ٱَلْكِتَابِ]{.ar} [alkitAbi]{.trn} 
 
 Because, as we said, their ending changes based on their state, they are called flexible nouns.
 
-As opposed to flexible nouns, there are some nouns whose ending is not determined by their state. They can appear the same no matter if they are in the u-state, a-state, or i-state. We will call them _rigid_ nouns. Pronouns are one kind of rigid nouns.
+As opposed to flexible nouns, there are some nouns whose ending is not determined by their state. They can appear the same no matter if they are in the u-state, a-state, or i-state. We will call them _rigid_ nouns. Pronouns are rigid nouns.
 
-## A definite noun as the [information]{.syn} {#chap-smp-sent-sec-def-info}
+## A definite noun as the information {#chap-smp-sent-sec-def-info}
 
-In all the examples so far, the [information]{.syn} has been an indefinite noun: "a building", "a teacher", "a cat", etc. It is also possible for the [information]{.syn} to be a definite noun:
+In all the examples so far, the information has been an indefinite noun: "a building", "a teacher", "a cat", etc. It is also possible for the information to be a definite noun:
 
 [ٱَلرَّجُلُ ٱلْمُعَلِّمُ.]{.ar}  
-[Earrajulu -lmueallimu.]{.trn}  
-"The man is the (male) teacher."
+[Earrajulu -lmueallim.]{.trn}  
+"The man is the teacher~m~."
 
-The above sentence, although correct, is ambiguous. It can also be interpreted as a noun-phrase, meaning "the teacher-man", instead of the complete sentence "The man is the (male) teacher." Therefore, in order to disambiguate and make it clear that we mean the complete sentence, a _disambiguating pronoun_ is usually (not not always) inserted between the subject and the information.
+<!-- ضمير الفصل is not a copula. It may even have no i3raab depending on one opinion of the grammarians. -->
+
+The above sentence, although correct, is ambiguous. It can also be interpreted as a noun-phrase, meaning "the teacher-man", instead of the complete sentence "The man is the teacher~m~." Therefore, in order to disambiguate and make it clear that we mean the complete sentence, a _disambiguating pronoun_ is usually (not not always) inserted between the subject and the information.
 Disambiguating pronouns are detached pronouns that match the subject of the sentence in gender. With a disambiguating pronoun, the sentence above becomes:
 
 [ٱَلرَّجُلُ هُوَ ٱلْمُعَلِّمُ.]{.ar}  
-[Earrajulu  huwa-lmueallimu.]{.trn}  
-"The man is the (male) teacher."
+[Earrajulu  huwa -lmueallim.]{.trn}  
+"The man is the teacher~m~."
 
 The disambiguating pronoun here is [هُوَ]{.ar} [huwa]{.trn} and is not translated. Here are some more examples of sentences with definite informations and disambiguating pronouns.
 
@@ -387,14 +388,14 @@ The disambiguating pronoun here is [هُوَ]{.ar} [huwa]{.trn} and is not trans
 [EalHayawAnu hiya -lhirratu.]{.trn}  
 "The animal is the cat."
 
-## An indefinite noun as the [subject]{.syn}
+## An indefinite noun as the subject
 
-How about making the [subject]{.syn} an indefinite noun? Can we say:
+How about making the subject an indefinite noun? Can we say:
 
 + A house is a building.
 + A man is the teacher.
 
-It turns out that sentences where the [subject]{.syn} is an indefinite noun are not as straightforward to express in Arabic. We will explore some ways of expressing them later if [#allAh]{.trn2} wills.
+It turns out that sentences where the subject is an indefinite noun are not as straightforward to express in Arabic. We will explore some ways of expressing them later if [#allAh]{.trn2} wills.
 
 ## The word "and"
 
