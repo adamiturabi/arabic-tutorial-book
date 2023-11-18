@@ -235,27 +235,29 @@ We have already seen an example of matching the gender of the [information]{.syn
 
 ## Detached pronouns
 
-Pronouns are words used in place of nouns. They include words like "he", "she", "it", "you", "I", etc. So you can have a sentence with a noun, like:
+Pronouns, in Arabic, are special nouns that can be used in place of other nouns when it is known who is being referred to. They include words like "he", "she", "it", "you", "I", etc. So you can have a sentence with a noun subject, like:
 
 "The man is a teacher."
 
-Or you can replace the noun with a pronoun:
+Or you can replace the noun "man" with the pronoun "he":
 
 "He is a teacher."
 
-The word "he" in the above sentence is a pronoun. In Arabic there are a few different kinds of pronouns. Here we will learn _detached pronouns_. They are called detached pronouns because they are not attached to any other word. There are another set of pronouns called _attached pronouns_ that we will learn later, if [#allAh]{.trn2} wills.
+In Arabic there are a few different kinds of pronouns. Here we will learn _detached pronouns_. They are called detached pronouns because they are detached from other words. There are another set of pronouns called _attached pronouns_ that we will learn later, if [#allAh]{.trn2} wills.
 
-When talking about pronouns, it is beneficial to make use of a concept of grammar called _persons_.
+When talking about pronouns, it is beneficial to make use of a concept of grammar called _participants_.
 
-In any kind of speech speech there are there are three types of _persons_ involved: 
+In any kind of speech there are there may be three types _participants_ taking part. A participant may consist of one person or thing, or more than one person or thing. The three participants in speech are:
 
-1. The _speaking person_. This is the person who is speaking the speech. An example of a pronoun that refers to the speaking person is "I".
-2. The _addressed person_. This is the person to whom the speaking-person is speaking. An example of a pronoun that refers to the addressed person is "you".
-3. The _absent person_. This is the person or entity who, though he may or may not be physically present, is conversationally absent from the dialog between the speaking person and the addressed person. Examples of pronouns that refer to the absent person are "he", "she" and "it".
+1. The _I/we-participant_. This is the participant who is speaking. When the participant who is speaking refers to himself or herself (or themselves if plural) then he/she/they use the pronouns "I", "me", "we", and "us" in English. We will call this the _I/we-participant_.
+2. The _you-participant_. This is the participant whom the speaking-participant is directly speaking to. In English, the pronoun used for this participant is "you". We will call this the _you-participant_.
+3. The _they-participant_. This is the participant or entity who is not being directly spoken to. Their only participation in the speech is that they are being referred to. In English, the pronouns used for the this participant are "he", "him", "she", "her", "it", "they", and "them". For convenience, we will call this participant the _they-participant_ (even though the participant may be singular).
 
-### Detached pronouns for the absent person
+We will now learn the pronouns for these participants in Arabic, if [#allAh]{.trn2} wills. We will start with the pronouns for the singular participants.
 
-Here are the Arabic detached pronouns for the singular absent person.
+### Detached pronouns for the they-participant
+
+Here are the Arabic detached pronouns for the singular they-participant:
 
 1. [هُوَ]{.ar} [huwa]{.trn} "he".
 2. [هِيَ]{.ar} [hiya]{.trn} "she".
@@ -263,39 +265,39 @@ Here are the Arabic detached pronouns for the singular absent person.
 Here are some examples of pair of sentences, each first with a noun, and then with a pronoun in place of the noun:
 
 + [ٱَلرَّجُلُ مُعَلِّمٌ.]{.ar}  
-  [Earrajulu mueallimun.]{.trn}  
-  "The man is a (male) teacher."
+  [Earrajulu mueallim.]{.trn}  
+  "The man is a teacher~m~."
   
   [هُوَ مُعَلِّمٌ.]{.ar}  
-  [huwa mueallimun.]{.trn}  
-  "He is a (male) teacher."
-
+  [huwa mueallim.]{.trn}  
+  "He is a (male) teacher~m~."
+<!--
 + [ٱَلْمُعَلِّمُ هُوَ.]{.ar}  
   [Ealmueallimu huwa.]{.trn}  
   "The (male) teacher is he."
 
   Note above that detached pronouns can replace the noun in the information too.
+-->
++ [ٱَلْجَارِيَةُ طَالِبَةٌ.]{.ar}  
+  [EaljAriyatu Talibah.]{.trn}  
+  "The girl is a student~f~."
 
-+ [ٱَلمَرْأَةُ ٱلْمُعَلِّمَةُ.]{.ar}  
-  [Earrajulu -lmueallimatu.]{.trn}  
-  "The woman is the (female) teacher."
-
-  [هِيَ ٱلْمُعَلِّمَةُ.]{.ar}  
-  [hiya -lmueallimatu.]{.trn}  
-  "She is the (female) teacher."
++ [هِيَ طَالِبَةٌ.]{.ar}  
+  [hiya Talibah.]{.trn}  
+  "She is a student~f~."
 
 + [ٱَلْبَيْتُ بِنَاءٌ.]{.ar}  
-  [Ealbaytu binAEun.]{.trn}  
+  [Ealbaytu binAE.]{.trn}  
   "The house is a building."
 
   [هُوَ بِنَاءٌ.]{.ar}  
-  [huwa binAEun.]{.trn}  
+  [huwa binAE.]{.trn}  
   "It is a building."
 
   Note that Arabic uses the pronoun [هُوَ]{.ar} [huwa]{.trn} "he" to refer to the inanimate object "the house". This is because, as we know, all nouns in Arabic are either masculine or feminine. In translating the sentence to English we will employ the neutral pronoun "it" to make the sentence sound natural.
 
 + [ٱَلْبِنَاءُ مَدْرَسَةٌ.]{.ar}  
-  [EalbinAEu madrasatun.]{.trn}  
+  [EalbinAEu madrasat.]{.trn}  
   "The building is a school."
 
   [هُوَ مَدْرَسَةٌ.]{.ar}
@@ -315,15 +317,15 @@ Here are some examples of pair of sentences, each first with a noun, and then wi
 
 + Here is an example with an animate being as the subject:
 
-  [ٱَلْمَرْأَةُ إِنْسَانٌ.]{.ar}  
-  [EalmarEatu InsAnun.]{.trn}  
-  "The woman is a human."
+  [ٱَلْجَارِيَةُ إِنْسَانٌ.]{.ar}  
+  [EaljAriyatu InsAn.]{.trn}  
+  "The girl is a human."
 
   [هِيَ إِنْسَانٌ.]{.ar}  
-  [hiya InsAnun.]{.trn}  
+  [hiya InsAn.]{.trn}  
   "She is a human."
 
-  Here, if we replace the noun [ٱَلْمَرْأَةُ]{.ar} [EalmarEatu]{.trn} "the woman" with a pronoun, we will prefer to use [هِيَ]{.ar} [hiya]{.trn} "she" even though the information [إِنْسَانٌ]{.ar} [EinsAnun]{.trn} "a human" is masculine.
+  Here, if we replace the noun [ٱَلْجَارِيَة]{.ar} [EaljAriyah]{.trn} "the girl" with a pronoun, we will prefer to use [هِيَ]{.ar} [hiya]{.trn} "she", because the girl is an animate being, even though the information [إِنْسَانٌ]{.ar} [EinsAnun]{.trn} "a human" is masculine.
 
 ### Detached pronouns for the addressed person and the speaking person
 
@@ -350,6 +352,15 @@ Note that The addressed person pronoun "you" has separate pronouns for the mascu
 + [أَنَا مُعَلِّمٌ.]{.ar}  
   [Eana mueallimun.]{.trn}  
   "I~masc.~ am a (male) teacher."
+
+## Flexible and rigid nouns
+
+All the nouns that we've come across so far (except the pronouns we just learned about above) are a category of nouns called _flexible_ nouns. They are called flexible, because their ending will change depending on their state. Even though, we've only used nouns in the u-state so far, we have learned in section \@ref(state-of-nouns), the state of a noun determines the vowel mark on their final letter. The table of states is reproduced here for convenience.
+
+
+Because, as we said, their ending changes based on their state, they are called flexible nouns.
+
+As opposed to flexible nouns, there are some nouns whose ending is not determined by their state. They can appear the same no matter if they are in the u-state, a-state, or i-state. We will call them _rigid_ nouns. Pronouns are one kind of rigid nouns.
 
 ## A definite noun as the [information]{.syn} {#chap-smp-sent-sec-def-info}
 
