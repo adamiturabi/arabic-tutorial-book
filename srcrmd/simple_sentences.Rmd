@@ -250,17 +250,17 @@ When talking about pronouns, it is beneficial to make use of a concept of gramma
 In any kind of speech there are there can be up to three types of _participants_ involved. A participant may consist of one individual, or more than one individuals.  The three participants in speech are:
 
 1. The _I/we-participant_. This is the participant who is speaking. When the participant who is speaking refers to himself or herself (or themselves if plural) then he/she/they use the pronouns "I", "me", "we", and "us" in English. We will call this the _I/we-participant_.
-2. The _you-participant_. This is the participant whom the speaking-participant is directly speaking to. When the speaking-participant refers to the participant he is speaking to, he uses the "you" pronoun in English. We will call this the _you-participant_.
-3. The _they-participant_. This is the participant who is not being directly spoken to. Their only participation in the speech is that they are being referred to. When the speaking-participant refers to them in English, the pronouns used for this participant are "he", "him", "she", "her", "it", "they", and "them". For convenience, we will call this participant the _they-participant_ (even though the participant may be singular).
+2. The _you-participant_. This is the participant whom the I/we-participant is directly speaking to. When the I/we-participant refers to the participant he is speaking to, he uses the "you" pronoun in English. We will call this the _you-participant_. Because the word "you" is the same for the singular and the plural, we will use a subscript with a number to indicate if we are talking about the singular or the plural. For example, we will use "you~1~" for the singular.
+3. The _they-participant_. This is the participant who is not being directly spoken to. Their only participation in the speech is that they are being referred to. When the I/we-participant refers to them in English, the pronouns used for this participant are "he", "him", "she", "her", "it", "they", and "them". We will call this participant the _he/she/they-participant_.
 
 We will now learn the pronouns for these participants in Arabic, if [#allAh]{.trn2} wills. We will start with the pronouns for the singular participants.
 
-### Detached pronouns for the they-participant
+### Detached pronouns for the singular he/she-participant
 
-Here are the Arabic detached pronouns for the singular they-participant:
+Here are the Arabic detached pronouns for the singular he/she-participant:
 
-+ They~1m~-participant: [هُوَ]{.ar} [huwa]{.trn} "he".
-+ They~1f~-participant: [هِيَ]{.ar} [hiya]{.trn} "she".
++ He-participant: [هُوَ]{.ar} [huwa]{.trn} "he".
++ She-participant: [هِيَ]{.ar} [hiya]{.trn} "she".
 
 Here are some examples of pair of sentences, each first with a noun, and then with a pronoun in place of the noun:
 
@@ -321,15 +321,15 @@ Here are some examples of pair of sentences, each first with a noun, and then wi
 
   Here, if we replace the noun [ٱَلْجَارِيَة]{.ar} [EaljAriyah]{.trn} "the girl" with a pronoun, we will prefer to use [هِيَ]{.ar} [hiya]{.trn} "she", because the girl is an animate being, even though the information [إِنْسَانٌ]{.ar} [EinsAnun]{.trn} "a human" is masculine.
 
-### Detached pronouns for the you-participant and the I/we-participant
+### Detached pronouns for the singular you~1~-participant and I-participant
 
-Here are the pronouns for the singular you-participant and speaking-participant:
+Here are the pronouns for the singular you~1~-participant and I-participant:
 
 + You~1m~-participant (masc.): [أَنْتَ]{.ar} [Eanta]{.trn} "you~m~".
 + You~1f~-participant (fem.): [أَنْتِ]{.ar} [Eanti]{.trn} "you~f~".
-+ I/we~1~-participant (masc. & fem.): [أَنَا]{.ar} [Eana]{.trn} "I". 
++ I-participant (masc. & fem.): [أَنَا]{.ar} [Eana]{.trn} "I". 
 
-Note that the you-participant pronoun "you" has separate pronouns for the masculine and the feminine while the speaking-participant pronoun "I" has the same pronoun for both genders. Examples with these pronouns:
+Note that the you-participant pronoun "you" has separate pronouns for the masculine and the feminine while the I-participant pronoun "I" has the same pronoun for both genders. Examples with these pronouns:
 
 + [أَنْتَ مُعَلِّمٌ.]{.ar}  
   [Eanta mueallim.]{.trn}  
@@ -347,8 +347,13 @@ Note that the you-participant pronoun "you" has separate pronouns for the mascul
   [Eana mueallimah.]{.trn}  
   "I am a teacher~f~."
 
-## Flexible and rigid nouns
+### Rigidity of pronouns
 
+Remember in section\ \@ref(flexibility-of-nouns), we talked about the flexibility of nouns. We said that nouns whose endings change with the noun's state are called flexible nouns. Most nouns fall into this category.
+
+Pronouns, however, are nouns whose endings don't change with their state. Therefore they fall into the category of _rigid_ nouns.
+
+<!--
 All the nouns that we've come across so far (except the pronouns we just learned about above) are a category of nouns called _flexible_ nouns. They are called flexible, because their ending will change depending on their state. Even though we've only used nouns in the u-state so far, we have learned in section \@ref(state), the state of a noun determines the vowel mark on their final letter. The table of states is reproduced here for convenience.
 
 State         | Indefinite "a book" | Definite "the book"
@@ -360,6 +365,7 @@ i-state       |[كِتَابٍ]{.ar} [kitAbin]{.trn}  |[ٱَلْكِتَابِ]{
 Because, as we said, their ending changes based on their state, they are called flexible nouns.
 
 As opposed to flexible nouns, there are some nouns whose ending is not determined by their state. They can appear the same no matter if they are in the u-state, a-state, or i-state. We will call them _rigid_ nouns. Pronouns are rigid nouns.
+-->
 
 ## A definite noun as the information {#chap-smp-sent-sec-def-info}
 
@@ -371,7 +377,7 @@ In all the examples so far, the information has been an indefinite noun: "a buil
 
 <!-- ضمير الفصل is not a copula. It may even have no i3raab depending on one opinion of the grammarians. -->
 
-The above sentence, although correct, is ambiguous. It can also be interpreted as a noun-phrase, meaning "the teacher-man", instead of the complete sentence "The man is the teacher~m~." Therefore, in order to disambiguate and make it clear that we mean the complete sentence, a _disambiguating pronoun_ is usually (not not always) inserted between the subject and the information.
+The above sentence, although correct, is ambiguous. It can also be interpreted as a noun-phrase, meaning "the teacher-man", instead of the complete sentence "The man is the teacher~m~." Therefore, in order to disambiguate and make it clear that we mean the complete sentence, a _disambiguating pronoun_ is usually (but not always) inserted between the subject and the information.
 Disambiguating pronouns are detached pronouns that match the subject of the sentence in gender. With a disambiguating pronoun, the sentence above becomes:
 
 [ٱَلرَّجُلُ هُوَ ٱلْمُعَلِّمُ.]{.ar}  
