@@ -27,10 +27,10 @@ Root | Completed-action form 1 verb| Meaning
 [فعل]{.arroot} |[فَعَلَ]{.ar} [faeala]{.trn} |"did"
 [ذهب]{.arroot} |[ذَهَبَ]{.ar} [pahaba]{.trn} |"went"
 [كتب]{.arroot} |[كَتَبَ]{.ar} [kataba]{.trn} |"wrote"
+[قرء]{.arroot} |[قَزَأَ]{.ar} [qaraEa]{.trn} |"read"
 [جلس]{.arroot} |[جَلَسَ]{.ar} [jalasa]{.trn} |"sat"
 [سكت]{.arroot} |[سَكَتَ]{.ar} [sakata]{.trn} |"became quiet"
 [جعل]{.arroot} |[جَعَلَ]{.ar} [jaeala]{.trn} |"made"
-[ضرب]{.arroot} |[ضَرَبَ]{.ar} [Daraba]{.trn} |"hit"
 [علم]{.arroot} |[عَلِمَ]{.ar} [ealima]{.trn} |"knew"
 [عمل]{.arroot} |[عَمِلَ]{.ar} [eamila]{.trn} |"worked"
 [كبر]{.arroot} |[كَبُرَ]{.ar} [kabura]{.trn} |"grew"
@@ -212,25 +212,46 @@ we would like to say:
 
 For this we will have to learn a third category of pronoun pronouns called _doer pronouns_ for completed-action verbs.
 
-### Doer pronouns for the singular absentee-participant
+### Doer pronouns for the singular absentee-participant (he/she)
 
 The doer pronouns of the absentee-participant are the equivalent of "he" and "she". For example, let's try to replace the doer-noun "the man" in the sentence: "The man went."
 
 [ذَهَبَ ٱلرَّجُلُ.]{.ar}  
-[pahaba -rrajulu.]{.trn}  
+[pahaba -rrajul.]{.trn}  
 "The man went."
+
+When we replace the doer noun [ٱلرَّجُل]{.ar} [Earrujul]{.trn} "the man" with the doer pronoun "he", we get:
 
 [ذَهَبَ.]{.ar}  
 [pahab.]{.trn}  
 "[He] went."
 
-As you can see, all we did was omit the doer-noun [ٱَلرَّجُل]{.ar} [Earrujul]{.trn}, and we didn't add any word to replace it as the doer pronoun. This is because the doer pronoun for "he" is _invisible_ and automatically comes in place when we omit the doer noun.
+As you can see, all we did was omit the doer-noun [ٱَلرَّجُل]{.ar} [Earrujul]{.trn}, and we didn't add any word to replace it as the doer pronoun. This is because the doer pronoun for "he" is _invisible_ and automatically comes into place when we omit the doer noun.
 
 The doer pronoun for "she" is similarly invisible.
 For example, if we replace the doer noun in the sentence:
 
-[قَرَأَتْٱلْجَارِيَةُ كِتَابًا.]{.ar}  
-[qaraEati -ljAriyatu kitAban.]{.trn}
+[قَرَأَتِ ٱلْجَارِيَةُ كِتَابًا.]{.ar}  
+[qaraEati -ljAriyatu kitAbA.]{.trn}  
+"The girl read a book."
+
+we get:
+
+[قَرَأَتْ كِتَابًا.]{.ar}  
+[qaraEat kitAbA.]{.trn}  
+"[She] read a book."
+
+#### Explanation of invisible pronouns
+
+Why do we have to go to all the trouble of saying that the doer-pronouns of the singular masculine absentee-participant "he"/"she" are invisible? Why can't we simply say that there are no doer-pronouns for the singular masculine absentee-participant?
+
+The reason is that making the statement that these pronoun exist but are invisible is useful to us from the perspective of the grammar theory that we are building.
+
+That is: we need to be able to state, as a rule of grammar, that every verb needs to have a doer, whether visible or not. And that doer shall come after the verb in sentence word order.
+
+If we are able to make this a rule, then we will see, if [#allAh]{.trn2} wills, that it will help us later. For example, when we study verbs with plural doers.
+
+--
 
 A pronoun may replace a noun as the doer of a verb. For example, instead of saying "The man went", you can say "he went", or "you went", etc. 
 In Arabic too doer nouns may be replaced with doer pronouns. 
