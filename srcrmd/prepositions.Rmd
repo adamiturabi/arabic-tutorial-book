@@ -1,33 +1,35 @@
 # Prepositions
 
-Prepositions are words like "in", "on", "at", etc. 
+## Introduction
 
-Prepositions come before a noun and put it in the i-state. For example the preposition [فِي]{.ar} [fI]{.trn} means "in". We can put it before the noun [بَيْتٌ]{.ar} [baytun]{.trn} "a house":
+Prepositions are words like "in", "on", "from", etc. They are placed directly before a noun, for example: "in a house". The preposition "in" is placed directly before the noun "a house".
+
+In Arabic prepositions, when placed before a noun, put it in the i-state. For example the preposition [فِي]{.ar} [fI]{.trn} means "in". We can put it before the noun [بَيْت]{.ar} [bayt]{.trn} "a house":
 
 [فِي بَيْتٍ]{.ar}  
 [fI baytin]{.trn}  
 "in a house"
 
-Note how the noun [بَيْتٍ]{.ar} [baytin]{.trn} "a house" is in the i-state because of the preposition before it, shown by the [in]{.trn}-mark under the [tAE]{.trn} [تٍ]{.ar}.
+Note how the noun [بَيْتٍ]{.ar} [baytin]{.trn} "a house" is in the i-state because of the preposition [فِي]{.ar} [fI]{.trn} "in" before it. The i-state is indicated by the [in]{.trn}-mark [◌ٍ]{.ar} on the final letter of [بَيْت]{.ar}.
 
 Arabic has two types of prepositions: _true_ prepositions and _pseudo_-prepositions.
 
 ## True prepositions
 
-True prepositions are _particles_ that don't have the properties of nouns. Thus, they cannot be definite or indefinite. They cannot be preceded by [ٱَلْ]{.ar} [al]{.trn} or ended with an [n]{.trn}-mark. And they don't have states (u-state, a-state, and i-state). 
+True prepositions are _particles_. Particles are a class of words, like nouns and verbs. Particles don't have the properties of nouns. Thus, they cannot be definite or indefinite. They cannot be preceded by [ٱَلْ]{.ar} [al]{.trn} or ended with an [n]{.trn}-mark. And they don't have states (u-state, a-state, and i-state). 
 
 Here is a list of the more common true prepositions:
 
-Preposition | Transcription | Meaning
-:-------|:-------|:-------------
-[بِ]{.ar}   |[bi]{.trn}   | with, by, next to
-[لِ]{.ar}   |[li]{.trn}   | for, to
-[فِي]{.ar}  |[fI]{.trn}   | in
-[عَلَىٰ]{.ar} |[ealA]{.trn} | on
-[إِلَىٰ]{.ar} |[EilA]{.trn} | to, toward
-[مِنْ]{.ar}  |[min]{.trn}  | from
-[عَنْ]{.ar}  |[ean]{.trn}  | from, about
-[كَ]{.ar}   |[ka]{.trn}   | like
+Preposition | Meaning
+:--------------|:-------------
+[بِ]{.ar}   [bi]{.trn}   | with, by, next to
+[لِ]{.ar}   [li]{.trn}   | for, to
+[فِي]{.ar}  [fI]{.trn}   | in
+[عَلَىٰ]{.ar} [ealA]{.trn} | on
+[إِلَىٰ]{.ar} [EilA]{.trn} | to, toward
+[مِنْ]{.ar}  [min]{.trn}  | from
+[عَنْ]{.ar}  [ean]{.trn}  | from, about
+[كَ]{.ar}   [ka]{.trn}   | like
 
 Notes:
 
@@ -42,23 +44,39 @@ Notes:
   [lirajulin]{.trn}  
   "for a man"
 
-  [كَٱمْرَأَةٍ]{.ar}  
-  [ka-mraEatin]{.trn}  
-  "like a woman"
+  [كَٱبْنٍ]{.ar}  
+  [ka-bnin]{.trn}  
+  "like a son"
 
 + When a single letter preposition comes before a definite noun with [ٱَلْ]{.ar} [al]{.trn}, the preposition is generally joined to the [alif]{.trn} in the [ٱَلْ]{.ar} [al]{.trn}. The [alif]{.trn} is now not pronounced (because as we know it has a connecting [hamzah]{.trn}). Example:
 
   [بِٱلْقَلَمِ]{.ar}  
   [bi-lqalami]{.trn}  
-  "with a pen"
+  "with the pen"
 
-+ The only exception is the preposition [لِ]{.ar} [li]{.trn}. When joined to a definite noun with [ٱَلْ]{.ar} [al]{.trn}, the [alif]{.trn} in [ٱَلْ]{.ar} is dropped and we write two [lAm]{.trn}s together. Example:
+  If the noun begins with a connecting [hamzah]{.trn} then the [ل]{.ar} in [ٱَلْ]{.ar} gets an [i]-mark [◌ِ]{.ar} instead of its usual $\emptyset$-mark [◌ْ]{.ar}. We described this in 
+section\ \@ref(the-definite-article-with-nouns-with-an-initial-connecting-hamzah).
+Example:
+
+  [كَٱلِٱبْنِ]{.ar}  
+  [ka-li-bni]{.trn}  
+  "like the son"
+
++ The only exception is the preposition [لِ]{.ar} [li]{.trn}. When joined to a definite noun with [ٱَلْ]{.ar} [al]{.trn}, the [alif]{.trn} in [ٱَلْ]{.ar} is dropped and we write the two [lAm]{.trn}s together. Example:
 
   [لِلرَّجُلِ]{.ar}  
   [li-rrajuli]{.trn}  
   "for the man"
 
-  However, if the noun too starts with a [lAm]{.trn}, then we drop the entire [ٱَلْ]{.ar} [al]{.trn}. This is to avoid having three [lAm]{.trn}s joined to each other. Example:
+  [لِلْجَارِيَةِ]{.ar}  
+  [li-ljAriyati]{.trn}  
+  "for the girl"
+
+  [لِلِٱبْنِ]{.ar}  
+  [li-li-bni]{.trn}  
+  "for the son"
+
+  However, in this case, if the noun too starts with a [lAm]{.trn}, then we drop the entire [ٱَلْ]{.ar} [al]{.trn} (in writing, not in meaning). This is to avoid having three [lAm]{.trn}s joined to each other. Example:
 
   [ٱَللُّعْبَةُ]{.ar}  
   [Ealluebatu]{.trn}  
@@ -72,11 +90,17 @@ Notes:
 
   not 
 
-  [لِللُّعْبَةِ]{.ar}  
+  $\times$[لِللُّعْبَةِ]{.ar}  
+
+  This is also true for the phrase:
+
+  [لِلَّـٰهِ]{.ar}  
+  [lillAhi]{.trn}  
+  "for [#allAh]{.trn2}"
 
 + The prepositions 
 [عَلَىٰ]{.ar} [ealA]{.trn} "on" and
-[إِلَىٰ]{.ar} [EilA]{.trn} "to" have a long-[A]{.trn} vowel at the end but it is written with a dotless [yAE]{.trn} [ىٰ]{.ar} instead of an [alif]{.trn}. (We have already learned that some words are written this way.)
+[إِلَىٰ]{.ar} [EilA]{.trn} "to" have a long-[A]{.trn} vowel at the end but it is written with a dotless [yAE]{.trn} [ىٰ]{.ar} instead of an [alif]{.trn}. (We have already learned that some words are written this way in section\ \@ref(a-vowel-written-with-a-ya).)
 
 + Prepositions that are composed of multiple letters are not joined to the following noun. Example:
 
@@ -84,15 +108,15 @@ Notes:
   [EilA madrasatin]{.trn}  
   "to a school"
 
-+ If a preposition ends with a long vowel, then (just like other words that end with long vowels), when it is followed by a word which begins with a connecting [hamzah]{.trn}, the ending is pronounced as a short vowel that connects to the following word.. Examples:
++ If a preposition ends with a long vowel, then, as usual, it get shortened to a short vowel when it is followed by a word which begins with a connecting [hamzah]{.trn}. Examples:
 
   [فِي ٱلْبَيْتِ]{.ar}  
   [fi -lbayti]{.trn}  
   "in the house"
 
-  [إِلَى ٱمْرَأَةٍ]{.ar}  
-  [Eila -mraEatin]{.trn}  
-  "to a woman"
+  [إِلَى ٱبْنٍ]{.ar}  
+  [Eila -bnin]{.trn}  
+  "to a son"
 
 + If a preposition ends with a $\emptyset$-mark [◌ْ ]{.ar} and it is followed by a word that begins with a connecting [hamzah]{.trn}, then the $\emptyset$-mark is changed to a short vowel according to the following rules:
 
@@ -100,21 +124,21 @@ Notes:
     
     [عَنِ ٱلرَّجُلِ]{.ar}  
     [eani -rrajuli]{.trn}  
-    "about the man"
+    "from the man"
 
-    [عَنِ ٱمْرَأَةٍ]{.ar}  
-    [eani -mraEatin]{.trn}  
-    "about the woman"
+    [عَنِ ٱبْنٍ]{.ar}  
+    [eani -bnin]{.trn}  
+    "from the son"
 
-  + The ending of the preposition [مِنْ]{.ar}  [min]{.trn} gets an [a]{.trn}-mark if followed by the [ٱَلْ]{.ar} [al]{.trn} of a definite noun. Otherwise it gets an [i]{.trn}-mark if followed by any other connecting [hamzah]{.trn}. Examples:
+  + The ending of the preposition [مِنْ]{.ar} [min]{.trn} gets an [a]{.trn}-mark if followed by the [ٱَلْ]{.ar} [al]{.trn} of a definite noun. Otherwise it gets an [i]{.trn}-mark if followed by any other connecting [hamzah]{.trn}. Examples:
 
     [مِنَ ٱلرَّجُلِ]{.ar}  
     [mina -rrajuli]{.trn}  
     "from the man"
 
-    [مِنِ ٱمْرَأَةٍ]{.ar}  
-    [mini -mraEatin]{.trn}  
-    "from a woman"
+    [مِنِ ٱبْنٍ]{.ar}  
+    [mini -bnin]{.trn}  
+    "from a son"
 
 ## Pseudo-prepositions
 
@@ -129,9 +153,16 @@ Preposition | Transcription | Meaning
 [لَدُنْ]{.ar} | [ladun]{.trn} | at
 [مَعَ]{.ar}  | [maea]{.trn}  | together with
 
+There are three different prepositions above that we have translated as "at". They are largely interchangeable but there are some differences in meaning that we will explain later, if [#allAh]{.trn2} wills.
 Here are some examples using pseudo-prepositions:
 
-...
+[مَعَ ٱلْغُلَامِ]{.ar}  
+[maea -lgulAmi]{.trn}  
+"with the boy"
+
+[عِنْدَ ٱلْبَيْتِ]{.ar}  
+[einda -lbayti]{.trn}  
+"at the house"
 
 The preposition [عِنْدَ]{.ar} [einda]{.trn} "at" can be used with a person to mean  "the place of the person". For example
 
