@@ -225,7 +225,7 @@ Speaker ("I")              | [تُ]{.ar} [-tu]{.trn}
 
 We will now give an explanation of the above doer pronouns.
 
-### Doer pronouns for the singular absentee-participant (he/she)
+### Doer pronouns for the singular absentee-participant ("he"/"she")
 
 The doer pronouns of the absentee-participant are the equivalent of "he" and "she". For example, let's try to replace the doer-noun "the man" in the sentence: "The man went."
 
@@ -276,58 +276,31 @@ Addressee "you~1,m~" | [تَ]{.ar} [-ta]{.trn} | [فَعَلْتَ]{.ar} [faealt
 Addressee "you~1,f~" | [تِ]{.ar} [-ti]{.trn} | [فَعَلْتِ]{.ar} [faealti]{.trn}
 Speaker "I"          | [تُ]{.ar} [-tu]{.trn} | [فَعَلْتُ]{.ar} [faealtu]{.trn}
 
-
---
-
-A pronoun may replace a noun as the doer of a verb. For example, instead of saying "The man went", you can say "he went", or "you went", etc. 
-In Arabic too doer nouns may be replaced with doer pronouns. 
-Doer pronouns are attached to the end of the basic form of the verb.
-
-Here we show the singular doer pronouns in Arabic. The root template [فعل]{.arroot} is used to show how the doer pronouns attach the the verb. The middle root letter of [فعل]{.arroot} has an [a]{.trn}-vowel [◌َ]{.ar} here but this vowel will vary for other verbs.
-
-Person | Doer pronoun | Doer pronoun with verb
-:------|:--|:--
-Absent person (masc.) "he"  | _invisible_          | [فَعَلَ]{.ar} [faeala]{.trn}
-Absent person (fem.)  "she" | _invisible_          | [فَعَلَتْ]{.ar} [faealat]{.trn}
-Addressed person (masc.)  "you~masc.~" | [تَ]{.ar} [-ta]{.trn} | [فَعَلْتَ]{.ar} [faealta]{.trn}
-Addressed person (fem.)  "you~fem.~"   | [تِ]{.ar} [-ti]{.trn} | [فَعَلْتِ]{.ar} [faealti]{.trn}
-Speaking person (masc. and fem.)  "I"  | [تُ]{.ar} [-tu]{.trn} | [فَعَلْتُ]{.ar} [faealtu]{.trn}
-
-Note how the doer pronouns for the absent persons "he" and "she" say _invisible_. In Arabic, doer pronouns are either visible or invisible. We shall see what this means with examples.
-
-Note also how the visible singular doer pronouns modify the basic verb by replacing the [a]{.trn}-mark [◌َ]{.ar} on the final letter by a $\emptyset$-mark [◌ْ]{.ar}.
+Note also how the visible singular doer pronouns modify the verb by replacing the [a]{.trn}-mark [◌َ]{.ar} on its final letter by a $\emptyset$-mark [◌ْ]{.ar}.
 
 Furthermore, note how the doer pronoun for the addressed person "you" is differentiated for masculine and feminine doers whereas the doer pronoun for the speaking person "I" is the same for both genders.
 
 Here are some examples of sentences with visible doer pronouns:
 
-[ذَهَبْتُ]{.ar}  
-[pahabtu]{.trn}  
-"I went"
-
 [كَتَبْتَ كِتَابًا.]{.ar}  
-[katabta kitAban.]{.trn}  
-"You~masc.~ wrote a book."
+[katabta kitAbA.]{.trn}  
+"You~m~ wrote a book."
 
-Now we come to the invisible doer pronouns. When we wish to use the doer pronouns for the absent person "he" and "she" we will simply delete the doer noun that the pronoun is replacing without any other changes. The doer pronoun will then be said to exist, because it is required for the meaning of the sentence, but it will be invisible. Here are some examples.
+[ذَهَبْتُ]{.ar}  
+[pahabt.]{.trn}  
+"I went."
 
-[كَتَبَ كِتَابًا.]{.ar}  
-[kataba kitAban.]{.trn}  
-"He wrote a book."
-
-[ذَهَبَتْ.]{.ar}  
-[pahabat.]{.trn}  
-"She went."
+The above sentence ends with the doer pronoun, so the vowel-mark on the doer pronoun is not pronounced ([pahabt]{.trn}). So, how would be know which doer pronoun it is? That is, does the sentence say "I went." or "You~m~ went." or "You~f~. went."? The answer is that the sentence by itself is ambiguous and context would tell us which of the three options is intended.
 
 Take care to note that the singular doer pronouns modify the final letter of the basic verb, whereas the [تْ]{.ar} of femininity does not. So make sure you see the difference in the following two sentences:
 
-[ضَرَبْتِ ٱلْجَارِيَةَ.]{.ar}  
-[Darabti -ljAriyata.]{.trn}  
-"You~fem.~ hit the girl."
+[قَرَأْتِ ٱلْكِتَابَ.]{.ar}  
+[qaraEti -lkitAb.]{.trn}  
+"You~f~ read the book."
 
-[ضَرَبَتِ ٱلْجَارِيَةَ.]{.ar}  
-[Darabati -ljAriyata.]{.trn}  
-"She hit the girl."
+[قَرَأَتِ ٱلْكتَابَ.]{.ar}  
+[qaraEati -lkitAb.]{.trn}  
+"She read the book."
 
 ## Verbs with doee pronouns
 
