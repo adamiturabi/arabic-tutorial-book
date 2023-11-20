@@ -400,6 +400,55 @@ Here are some notes regarding their usage:
 
 http://www.alfaseeh.com/vb/showthread.php?t=93064A-->
 
+## Multiple verbs for one doer
+
+In this section we will use the verbs:
+
+Root | Completed-action form 1 verb| Meaning
+:----|:----|:----
+[دخل]{.arroot} |[دَخَلَ]{.ar} [daxala]{.trn} |"entered"
+[خرج]{.arroot} |[خَرَجَ]{.ar} [xaraja]{.trn} |"exited"
+[ءكل]{.arroot} |[أَكَلَ]{.ar} [Eakala]{.trn} |"ate"
+[شرب]{.arroot} |[شَرِبَ]{.ar} [cariba]{.trn} |"drank"
+
+Consider, now, the sentence:
+
+"I entered the room, ate, drank, and exited."
+
+The doer in this sentence is the pronoun "I". This same doer is doing the action of multiple verbs:
+"entered", "ate", "drank", and "exited".
+When we try to express this sentence in Arabic we must remember that every verb shall have its own doer, and that the doer shall occur after it in sentence word order. So we will say:
+
+[دَخَلْتُ ٱلْغُرْفَةَ فَأَكَلْتُ فَشَرِبْتُ فَخَرَجْتُ.]{.ar}  
+[daxaltu -lgurfata faEakaltu facaribtu faxarajt.]{.trn}  
+"I entered the room and then I ate and then I drank and then I exited."
+
+Note also, that we need to replace the commas by connecting particles like [وَ]{.ar} [wa-]{.trn} "and", or [فَ]{.ar} [fa-]{.trn} "so"/"and then", etc. We chose
+[فَ]{.ar} [fa-]{.trn} which implies consequence or subsequence between the individual events.
+
+Let's now try this sentence with a doer noun instead of a doer pronoun:
+
+"The girl entered the room, ate, drank, and exited."
+
+Here is our translation:
+
+[دَخَلَتِ ٱلْجَارِيَةُ ٱلْغُرْفَةَ فَأَكَلَتْ فَشَرِبَتْ فَخَرَجَتْ.]{.ar}  
+[daxalati -ljAriyatu -lgurfata faEakalat facaribat faxarajat.]{.trn}  
+"The girl entered the room and then she ate and then she drank and then she exited."
+
+Each verb again has its own doer, which is coming after the verb in sentence word order. The doer of the first verb [دَخَلَ]{.ar} [daxala]{.trn} "entered" is the noun 
+[ٱَلْجَارِيَةُ]{.ar} [EaljAriyatu]{.trn} "the girl".
+The subsequent verbs all have doers too but they are the invisible doer pronouns for the singular feminine absentee participant. That is why we don't write them. Note also that every verb has the [تْ]{.ar} of femininity attached to it to indicate its singular feminine absentee doer.
+<!--
+In a sentence that has multiple verbs separated by "and", normally one of them is placed before the doer and the rest after it. For example,
+
+[أَكَلَ ٱلرَّجُلُ وَشَرِبَ.]{.ar}  
+[Eakala -rrajulu wacariba.]{.trn}  
+"The man ate and drank."
+
+The first verb [أَكَلَ.]{.ar} [Eakala]{.trn} has the doer [ٱلرَّجُلُ]{.ar} [Earrajulu]{.trn}, and the second verb [شَرِبَ]{.ar} [cariba]{.trn} has an invisible doer pronoun "he".
+-->
+
 ## Order of words in a sentence
 
 ### Changing the order of words for emphasis
@@ -433,53 +482,6 @@ The question arises: if both sentences above have the same translation, then wou
 "_The man_ wrote a book."
 
 So in Arabic, the order of words is generally more flexible than in English and this is often used to give emphasis to certain words.
-
-### Multiple verbs for one doer
-
-In this section we will use the verbs:
-
-Root | Completed-action form 1 verb| Meaning
-:----|:----|:----
-[دخل]{.arroot} |[دَخَلَ]{.ar} [daxala]{.trn} |"entered"
-[خرج]{.arroot} |[خَرَجَ]{.ar} [xaraja]{.trn} |"exited"
-[ءكل]{.arroot} |[أَكَلَ]{.ar} [Eakala]{.trn} |"ate"
-[شرب]{.arroot} |[شَرِبَ]{.ar} [cariba]{.trn} |"drank"
-
-Consider, now, the sentence:
-
-"I entered the room, ate, drank, and exited."
-
-The doer in this sentence is the pronoun "I". This same doer is doing the action of multiple words.
-When we try to express this sentence in Arabic we must remember that every verb shall have its own doer, and that the doer shall occur after it in sentence word order. So we will say:
-
-[دَخَلْتُ ٱلٌُْغُرْفَةَ فَأَكَلْتُ فَشَرِبْتُ فَخَرَجْتُ.]{.ar}  
-[daxaltu -lgurfata faEakaltu facaribtu faxarajt.]{.trn}
-"I entered the room and then I ate and then I drank and then I exited."
-
-(We also took some liberty in the translation by employing the particle [فَ]{.ar} [fa-]{.trn} "so"/"and then" which implies an order or consequence or subsequence between the individual events.)
-
-Let's now try this sentence with a doer noun instead of a doer pronoun:
-
-"The girl entered the room, ate, drank, and exited."
-
-Here is our translation:
-
-[دَخَلَتِ ٱلْجَارِيَةُ ٱلٌُْغُرْفَةَ فَأَكَلَتْ فَشَرِبَتْ فَخَرَجَتْ.]{.ar}  
-[daxalati -ljAriyatu -lgurfata faEakalat facaribat faxarajat.]{.trn}
-"The girl entered the room and then she ate and then she drank and then she exited."
-
-Each verb again has its own doer, which is coming after the verb in sentence word order. The doer of the first verb [دَخَلَ]{.ar} [daxala]{.trn} "entered" is the noun 
-[ٱَلْجَارِيَةُ]{.ar} [EaljAriyatu]{.trn} "the girl".
-The subsequent verbs all have doers too but they are the invisible doer pronouns for the singular feminine absentee participant. That is why we don't write them. Note also that every verb has the [تْ]{.ar} of femininity attached to it to indicate its singular feminine absentee doer.
-<!--
-In a sentence that has multiple verbs separated by "and", normally one of them is placed before the doer and the rest after it. For example,
-
-[أَكَلَ ٱلرَّجُلُ وَشَرِبَ.]{.ar}  
-[Eakala -rrajulu wacariba.]{.trn}  
-"The man ate and drank."
-
-The first verb [أَكَلَ.]{.ar} [Eakala]{.trn} has the doer [ٱلرَّجُلُ]{.ar} [Earrajulu]{.trn}, and the second verb [شَرِبَ]{.ar} [cariba]{.trn} has an invisible doer pronoun "he".
--->
 
 ### Verbs pull definite nouns towards them
 
