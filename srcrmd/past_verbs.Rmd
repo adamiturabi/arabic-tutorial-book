@@ -407,39 +407,32 @@ http://www.alfaseeh.com/vb/showthread.php?t=93064A-->
 In Arabic, the doer always follows the verb. So the normal order of a sentence is verb-doer-doee. For example,
 
 [كَتَبَ ٱلرَّجُلُ كِتَابًا.]{.ar}  
-[kataba -rrajulu kitAban.]{.trn}  
+[kataba -rrajulu kitAbA.]{.trn}  
 "The man wrote a book."
 
 However, we will often come across sentences like:
 
 [ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}  
-[Earrajulu kataba kitAban.]{.trn}
+[Earrajulu kataba kitAbA.]{.trn}
 
 It may appear as if [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn} is the doer and it is coming before the verb [كَتَبَ]{.ar} [kataba]{.trn}. But actually, this is not the case. As a matter of fact, this sentence is basically a subject-information sentence. 
 
-Here [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn} "the man" is the subject of the sentence, and [كَتَبَ كِتَابًا]{.ar} [kataba kitAban.]{.trn} "he wrote a book", itself a verbal sentence with an invisible doer pronoun, is the information about the subject. So the translation of the sentence is technically:
+Here [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn} "the man" is the subject of the sentence, and [كَتَبَ كِتَابًا]{.ar} [kataba kitAban]{.trn} "he wrote a book", itself a verbal sentence with an invisible doer pronoun, is the information about the subject. So the translation of the sentence is technically:
 
 "The man, he wrote a book."
 
-However, this is an awkward sentence in English so we will translate it as "The man wrote a book." But this is also the translation of:
+However, this is an awkward translation so we will usually translate it as "The man wrote a book." <!--But this is also the translation of:
 
 [كَتَبَ ٱلرَّجُلُ كِتَابًا.]{.ar}  
 [kataba -rrajulu kitAban.]{.trn}  
 "The man wrote a book."
+-->
 
-So why then would we say [ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar} [Earrajulu kataba kitAban.]{.trn} instead of the more normal [كَتَبَ ٱلرَّجُلُ كِتَابًا.]{.ar} [kataba -rrajulu kitAban.]{.trn}? The answer is that this change in the sentence's word order is done in order to give more emphasis to the doer, as if to say:
+The question arises: if both sentences above have the same translation, then would we say [ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar} [Earrajulu kataba kitAban.]{.trn} instead of the more normal [كَتَبَ ٱلرَّجُلُ كِتَابًا.]{.ar} [kataba -rrajulu kitAban.]{.trn}? The answer is that this change in the sentence's word order is done in order to give more emphasis to the doer, as if to say:
 
 "_The man_ wrote a book."
 
 So in Arabic, the order of words is generally more flexible than in English and this is often used to give emphasis to certain words.
-
-### Indefinite doers
-
-If a verb's doer is an indefinite noun, it is often, but not always, placed at the end of the sentence. This too is for emphasis. For example,
-
-[كَتَبَ ٱلْكِتَابَ رَجُلٌ.]{.ar}  
-[kataba -lkitAba rajulun.]{.trn}  
-"A man wrote the book."
 
 ### Multiple verbs for one doer
 
@@ -451,27 +444,44 @@ In a sentence that has multiple verbs separated by "and", normally one of them i
 
 The first verb [أَكَلَ.]{.ar} [Eakala]{.trn} has the doer [ٱلرَّجُلُ]{.ar} [Earrajulu]{.trn}, and the second verb [شَرِبَ]{.ar} [cariba]{.trn} has an invisible doer pronoun "he".
 
-### Verbs pull doee pronouns toward them
+### Verbs pull definite nouns towards them
 
-When a verb has a doer noun and a doee noun, the normal order of words in a sentence is verb, doer noun, doee noun. For example,
+When a verb has a doer noun and a doee noun, the normal order of words in a sentence is: verb, doer noun, doee noun. For example,
 
 [كَتَبَ ٱلرَّجُلُ ٱلْكِتَابَ.]{.ar}  
 [kataba -rrajulu -lkitAba.]{.trn}  
 "The man wrote the book."
 
-When the direct doee noun [ٱلْكِتَابَ]{.ar} [EalkitAba]{.trn} "the book" is replaced with the pronoun "it", the doee pronoun must be attached to the verb, and then the doer noun follows the doee pronoun:
+There is a tendency, in Arabic, for verbs to _pull_ definite nouns towards them. This means that if there are any indefinite nouns, they have a tendency to get pushed father away. So, for example,
+if a verb's doer is an indefinite noun and the doee is a definite noun, the doee will often (but not always) precede the doer. For example,
+
+[كَتَبَ ٱلْكِتَابَ رَجُلٌ.]{.ar}  
+[kataba -lkitAba rajul.]{.trn}  
+"A man wrote the book."
+
+The vowel-marks at the end of the nouns, and context, will tell us which is the doer and which is the doee. In this particular example, it was optional, and not mandatory to make the definite doee precede the doer in sentence word order. So we could have also said, instead:
+
+[كَتَبَ رَجُلٌ ٱلْكِتَابَ.]{.ar}  
+[kataba rajuluni -lkitAb.]{.trn}  
+"A man wrote the book."
+
+Now let's take a look at sentences with pronouns. Remember that pronouns are a category of nouns, and also (from section\ \@ref(definiteness-of-pronouns)) that they are definite nouns. In fact they are stronger in definiteness than words that are made definite using [ٱَلْ]{.ar}. This because if when we say "The man wrote the book." instead of "A man wrote the book.", we assume that everyone knows which man we are referring to. Now if we replace "the man" with the pronoun "he": "He wrote the book.", then this assumption becomes stronger. "He" is, in a sense, more definite than "the man.".
+
+So now, when the direct doee noun [ٱلْكِتَابَ]{.ar} [EalkitAba]{.trn} "the book" is replaced with the pronoun "it", the doee pronoun must be attached to the verb, and then the doer noun follows the doee pronoun:
 
 [كَتَبَهُ ٱلرَّجُلُ.]{.ar}  
 [katabahu -rrajulu.]{.trn}  
 "The man wrote it."
 
-Now consider a sentence with an indirect doee. Again, the normal order of words in a sentence is verb, doer noun, preposition, doee noun. For example,
+This can be seen as a mandatory case of the verb pulling the definite noun toward it.
+
+Now, consider a sentence with an indirect doee. Again, the normal order of words in a sentence is verb, doer noun, preposition, doee noun. For example,
 
 [ذَهَبَ ٱلْغُلَامُ إِلَى ٱلْمَدْرَسَةِ.]{.ar}  
-[pahaba -lgulAmu Eila -lmadrasati.]{.trn}  
+[pahaba -lgulAmu Eila -lmadrasah.]{.trn}  
 "The boy went to the school."
 
-Now, if we replace the indirect doee noun [ٱلْمَدْرَسَةِ.]{.ar} [Ealmadrasati]{.trn} "the school" with a pronoun "it", the indirect doee pronoun is attached, not to the verb, but to the preposition thus: [إِلَيْهَا]{.ar} [EilayhA]{.trn} "to it". So it possible to preserve the original order of words in the sentence:
+Now, if we replace the indirect doee noun [ٱلْمَدْرَسَةِ.]{.ar} [Ealmadrasati]{.trn} "the school" with the pronoun "it", the indirect doee pronoun [هَا]{.ar} [-hA]{.trn} "it" is attached, not to the verb, but to the preposition [إِلَىٰ]{.ar} [EilA]{.trn} thus: [إِلَيْهَا]{.ar} [EilayhA]{.trn} "to it". So it possible to preserve the original order of words in the sentence:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَيْهَا.]{.ar}  
 [pahaba -lgulAmu EilayhA.]{.trn}  
@@ -483,7 +493,10 @@ While the above sentence is correct, it is in fact more common to place the prep
 [pahaba Eilayha -lgulAmu.]{.trn}  
 "The boy went to it."
 
-This is because if there is a doee pronoun for a verb, whether direct or indirect, the verb has an effect of pulling the doee pronoun toward it. When it is a direct doee pronoun, the doee pronoun is necesarrily attached to the verb. But even when it is an indirect doee pronoun, the effect persists, and it tends to pull the preposition and doee pronoun toward the verb, even before the verb's doer noun.
+This is because the pronoun [هَا]{.ar} [-hA]{.trn} "it" is stronger in definiteness than [ٱلْغُلَام]{.ar} [EalgulAm]{.trn} "the boy". So the verb has a stronger pull towards it.
+<!--This is because if there is a doee pronoun for a verb, whether direct or indirect, the verb has an effect of pulling the doee pronoun toward it. When it is a direct doee pronoun, the doee pronoun is necesarrily attached to the verb. But even when it is an indirect doee pronoun, the effect persists, and it tends to pull the preposition and doee pronoun toward the verb, even before the verb's doer noun.-->
+
+This ordering of words due to the attractive pull of the verb is largely learned by experience. The more you read Arabic, the better feel you will get for it, if [#allAh]{.trn2} wills.
 
 ## Negating completed-action verbs
 
