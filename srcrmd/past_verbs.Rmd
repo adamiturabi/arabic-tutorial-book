@@ -29,6 +29,7 @@ Root | Completed-action form 1 verb| Meaning
 [كتب]{.arroot} |[كَتَبَ]{.ar} [kataba]{.trn} |"wrote"
 [قرء]{.arroot} |[قَرَأَ]{.ar} [qaraEa]{.trn} |"read"
 [جلس]{.arroot} |[جَلَسَ]{.ar} [jalasa]{.trn} |"sat"
+[سءل]{.arroot} |[سَأَلَ]{.ar} [saEala]{.trn} |"questioned"
 [سكت]{.arroot} |[سَكَتَ]{.ar} [sakata]{.trn} |"became quiet"
 [جعل]{.arroot} |[جَعَلَ]{.ar} [jaeala]{.trn} |"made"
 [علم]{.arroot} |[عَلِمَ]{.ar} [ealima]{.trn} |"knew"
@@ -136,14 +137,19 @@ In this sentence, "wrote" is the verb, "the man" is the doer, and "a book" is wh
 In Arabic, we will express the sentence "The man wrote a book." by saying:
 
 [كَتَبَ ٱلرَّجُلُ كِتَابًا.]{.ar}  
-[kataba -rrajulu kitAban.]{.trn}  
+[kataba -rrajulu kitAbA.]{.trn}  
 "The man wrote a book."
 
 Note how in Arabic the doee [كِتَابًا]{.ar} [kitAban]{.trn} "a book" is in the a-state. This is because, in Arabic, verbs shall cause a direct doee to be in the a-state. This is true whether the direct doee is definite or indefinite. Here is another example:
 
-[ضَرَبَتِ ٱلْمَرْأَةُ ٱلْجَارِيَةَ.]{.ar}  
+<!--[ضَرَبَتِ ٱلْمَرْأَةُ ٱلْجَارِيَةَ.]{.ar}  
 [Darabati -lmarEatu -ljAriyata.]{.trn}  
 "The woman hit the girl."
+-->
+
+[سَأَلَتِ ٱلْأُمُّ ٱلْجَارِيَةَ.]{.ar}  
+[saEalati -lEummu -ljAriyah.]{.trn}  
+"The mother questioned the girl."
 
 Note again how [ٱلْجَارِيَةَ]{.ar} [aljAriyata]{.trn} "the girl" is in the a-state because it is a direct doee.
 
@@ -152,7 +158,7 @@ Note again how [ٱلْجَارِيَةَ]{.ar} [aljAriyata]{.trn} "the girl" is 
 Some verbs can take more than one direct doee. In this case, all direct doees shall be in the a-state. For example,
 
 [جَعَلَ ٱللَّـٰهُ ٱلرَّجُلَ مُسْلِمًا.]{.ar}  
-[jaeala -llAhu -rrajula musliman.]{.trn}  
+[jaeala -llAhu -rrajula muslimA.]{.trn}  
 "[#allAh]{.trn2} made the man a Muslim."
 
 In this sentence both [ٱلرَّجُلَ]{.ar} [arrajula]{.trn} "the man" and [مُسْلِمًا]{.ar} [musliman]{.trn} "a Muslim" are direct doees of the verb [جَعَلَ]{.ar} [jaeala]{.trn} and therefore both are placed in the a-state.
@@ -166,10 +172,10 @@ Instead of, or in addition to, direct doees, some verbs take an _indirect doee_.
 In this sentence, "the moon" is an indirect doee because it is preceded by the preposition "at". Similarly, in Arabic, we will say:
 
 [نَظَرَ ٱلرَّجُلُ إِلَى ٱلْقَمَرِ.]{.ar}  
-[naPara -rrajulu Eila -lqamari.]{.trn}  
+[naPara -rrajulu Eila -lqamar.]{.trn}  
 "The man looked at the moon."
 
-In this sentence [ٱَلْقَمَرِ]{.ar} [alqamari]{.trn} "the moon" is an indirect doee of the verb [نَظَرَ]{.ar} [naPara]{.trn} "looked" because it is preceded by the preposition [إِلَىٰ]{.ar} [EilA]{.trn} "to". The preposition also causes the indirect doee to be in the i-state, as opposed to the a-state of the direct doee.
+In this sentence [ٱَلْقَمَرِ]{.ar} [alqamari]{.trn} "the moon" is an indirect doee of the verb [نَظَرَ]{.ar} [naPara]{.trn} "looked" because it is preceded by the preposition [إِلَىٰ]{.ar} [EilA]{.trn} "to". The preposition, as usual, causes the word after it (the indirect doee [ٱَلْقَمَرِ]{.ar} [Ealqamari]{.trn}) to be in the i-state, as opposed to the a-state of the direct doee.
 
 Note also, that the verb "looked" in English used the preposition "at" whereas the Arabic verb [نَظَرَ]{.ar} [naPara]{.trn} used the preopsition [إِلَىٰ]{.ar} [EilA]{.trn} "to" for the same meaning. This is very common and you should not expect Arabic to use exact counterparts of the prepositions used in English. In fact, everytime you learn a new verb, you should also learn the prepositions that go with it.
 
@@ -189,11 +195,23 @@ It may also be possible for the same verb to take a direct doee. So we could als
 
 A good dictionary will tell us which prepositions are used with indirect doees with a given verb and also whether it takes a direct doee.
 
-By the way, it is entirely possible that an English verb may take a direct doee, while the corresponding Arabic verb may only take an indirect doee. The reverse is also quite possible. For example,
+Some verb take a direct doee and another indirect doee, both at the same time. For example,
+
+[سَأَلَ ٱلْغُلَامُ ٱلْمُعَلِّمَةَ عَنْ أَمْرٍ.]{.ar}  
+[saEala -lgulAmu -lmueallimata ean Eamr.]{.trn}  
+"The boy asked the teacher~f~ about a matter."
+
+[ٱَلْمُعَلِّمَةَ]{.ar} [Ealmueallimata]{.trn} "the teacher~f~" is the direct doee, and therefore it is in the a-state.
+[أَمْرٍ]{.ar} [Eamrin]{.trn} "a matter" is an indirect doee, and so it is in the i-state.
+The preposition [عَنْ]{.ar} [ean]{.trn} is translated, here, as "about".
+
+It is also possible that an English verb may take a direct doee, while the corresponding Arabic verb may only take an indirect doee. The reverse is also quite possible. For example,
 
 [غَفَرَ ٱللَّـٰهُ لِلْمُسْلِمِ.]{.ar}  
 [gafara -llAhu lilmuslimi.]{.trn}  
 "[#allAh]{.trn2} forgave the Muslim."
+
+The verb "forgave" in English takes a direct doee for the person who is forgiven. In Arabic, however, the corresponding verb [غَفَرَ]{.ar} [gafara]{.trn} "forgave" takes the forgiven person as an indirect doee, using the preposition [لِ]{.ar} [li]{.trn}.
 
 ## Verbs with doer pronouns
 
