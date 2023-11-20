@@ -215,22 +215,58 @@ As mentioned above, one place the attached pronouns are used are after prepositi
 Here are some notes regarding how they attach to prepositions:
 
 1. Generally, these pronouns attach to the last letter of the preposition before it. Examples:
-   [مِنْكَ]{.ar} [minka]{.trn} "from you"
-   [مَعَهُ]{.ar} [maeahu]{.trn} "with him"
-   [عَنْهَا]{.ar} [eanhA]{.trn} "from her"
-2. The [ىٰ]{.ar} [A]{.trn} ending of prepositions become [◌َيْ]{.ar} [ay]{.trn} when attaching an attached pronoun. Examples:
+   + [مِنْكَ]{.ar} [minka]{.trn} "from you"
+   + [مَعَهُ]{.ar} [maeahu]{.trn} "with him"
+   + [عَنْهَا]{.ar} [eanhA]{.trn} "from her"
+2. The [ىٰ]{.ar} [A]{.trn} ending of prepositions become [◌َيْ]{.ar} [-ay]{.trn} when attaching an attached pronoun. Examples:
    + [إِلَيْهَا]{.ar} [EilayhA]{.trn} "to her"
-   + [عَلَيْكَ]{.ar} [ealayka]{.trn} "on you~masc.~"
-6. The pronoun [هُ]{.ar} [-hu]{.trn} "him" becomes [هِ]{.ar} [hi]{.trn} when it is preceded by the vowels [◌ِ]{.ar} [i]{.trn}, [ـِي]{.ar} [I]{.trn}, or the semi-vowel [ـَيْ]{.ar} [ay]{.trn}. So we get
+   + [عَلَيْكَ]{.ar} [ealayka]{.trn} "on you~m~"
+6. The pronoun [هُ]{.ar} [-hu]{.trn} "him" becomes [هِ]{.ar} [hi]{.trn} when it is preceded by the vowels [◌ِ]{.ar} [-i]{.trn}, [◌ِي]{.ar} [-I]{.trn}, or the semi-vowel [◌َيْ]{.ar} [-ay]{.trn}. So we get
    + [بِهِ]{.ar} [bihi]{.trn} "with him"
    + [فِيهِ]{.ar} [fIhi]{.trn} "in him"
    + [إِلَيْهِ]{.ar} [Eilayhi]{.trn} "to him"
-4. The attached pronoun for the speaker deserves special attention.  The pronoun itself
+4. The attached pronoun for the speaker deserves special attention.  The pronoun itself is the letter [ي]{.ar}. But it has two variants:
+   i.  [◌ِي]{.ar} [-I]{.trn}
+   ii. [◌ِيَ]{.ar} [-iya]{.trn} <!--This has a sub-variant: [يَ]{.ar} [-ya]{.trn}-->
+
+   Generally, both of these variants cause the final letter of the word before them, if a consonant, to have an [i]{.trn}-mark [◌ِ]{.ar}, regardless of the whether or not that letter originally had an [i]{.trn}-mark. Examples:
+   + [لِي]{.ar} [lI]{.trn} and      [لِيَ]{.ar} [liya]{.trn} "for me"
+   + [بِي]{.ar} [bI]{.trn} and      [بِي]{.ar} [biya]{.trn} "with/by me"
+   + [مَعِي]{.ar} [maeI]{.trn} and   [مَعِيَ]{.ar} [maeiya]{.trn} "together with me"
+   + [عِنْدِي]{.ar} [eindI]{.trn} and [عِنْدِيَ]{.ar} [eindiya]{.trn} "at me"
+
+   Between these two, variants, [◌ِي]{.ar} [-I]{.trn} is more commonly used generally, except in the cases described in the next point, below:
+3. For any word that ends with a long vowel ([-A]{.trn}, [-I]{.trn}, or [-U]{.trn}) or a semi-vowel ([-ay]{.trn} or [-aw]{.trn}), the variant [◌ِي]{.ar} [-I]{.trn} for the speaker attached pronoun is not used. Instead, only the variant [يَ]{.ar} [-ya]{.trn} may be used with such words. 
+
+   Prepositions that fall under this category are [فِي]{.ar} [fI]{.trn}, [عَلَىٰ]{.ar} [ealA]{.trn}, [إِلَىٰ]{.ar} [EilA]{.trn}, and [لَدَىٰ]{.ar} [ladA]{.trn}. Furthermore, the [ىٰ]{.ar} [-A]{.trn} ending in these will become [◌َيْ]{.ar} [ay]{.trn} instead when attaching the pronoun.
+
+   In addition, the pronoun [يَ]{.ar} [-ya]{.trn} will not cause the final letter of word before it to have an [i]{.trn}-mark because it does that only to consonants, not to vowels or semivowels.
+
+   So we get:
+
+   + [يَ]{.ar} + [فِي]{.ar} = [فِيَّ]{.ar} [fiyya]{.trn} "in me"
+   + [يَ]{.ar} + [إِلَيْ]{.ar} = [إِلَيَّ]{.ar} [Eilayya]{.trn} "to me"
+   + [يَ]{.ar} + [عَلَيْ]{.ar} = [عَلَيَّ]{.ar} [ealayya]{.trn} "on me"
+   + [يَ]{.ar} + [لَدَيْ]{.ar} = [لَدَيَّ]{.ar} [ladayya]{.trn} "at me".
+7. The preposition [كَ]{.ar} [ka]{.trn} "like" is not used with any attached pronoun. So, for example, we don't say:
+
+   + $\times$ [كَهُ]{.ar} [kahu]{.trn} for "like him."
+
+   Instead, we will learn another method to express this meaning in later chapters, if [#allAh]{.trn2} wills.
+8. The word "between", because of its meaning, is typically used with two or more individuals. For example, "between us", "between you and him", etc. In Arabic, when the pseudo-preposition [بَيْنَ]{.ar} [bayna]{.trn} is used with a singular attached pronoun, it is repeated. For example,
+
+   + [بَيْنِي وَبَيْنَكَ]{.ar} [baynI wabaynaka]{.trn} "between me and you"
+
+<!--
+1. When the attached pronoun for the speaker is attached to prepositions that end with [نْ]{.ar}, like [مِنْ]{.ar} [min]{.trn}, [عَنْ]{.ar} [ean]{.trn}, and [لَدُنْ]{.ar} [ladun]{.trn}, an additional intervening [ن]{.ar} is added between the preposition and the attached pronoun. We then get: 
+   + [ي]{.ar} + [نِ]{.ar} + [مِنْ]{.ar} = [مِنِّي]{.ar} [minnI]{.trn}
+   + [ي]{.ar} + [نِ]{.ar} + [عَنْ]{.ar} = [عَنِّي]{.ar} [eannI]{.trn}
+   + [ي]{.ar} + [نِ]{.ar} + [لَدُنْ]{.ar} = [لَدُنِّي]{.ar} [ladunnI]{.trn}
 5. The preposition [لِ]{.ar} [li]{.trn} "for" becomes [لَ]{.ar} [la]{.trn} when followed by an attached pronoun, for all pronouns except the speaking person pronoun, where it remains [لِ]{.ar} [li]{.trn}:
    + [لَهُ]{.ar} [lahu]{.trn} "for him"
    + [لَهَا]{.ar} [lahA]{.trn} "for her"
-   + [لَكَ]{.ar} [laka]{.trn} "for you~masc.~"
-   + [لَكِ]{.ar} [laki]{.trn} "for you~fem.~"
+   + [لَكَ]{.ar} [laka]{.trn} "for you~m~"
+   + [لَكِ]{.ar} [laki]{.trn} "for you~f~"
    + [لِي]{.ar} [lI]{.trn} and [لِيَ]{.ar} [liya]{.trn} "for me"
 
 1. There are two attached pronouns for the singular person: the long vowel [-I]{.trn}, written as [◌ِي]{.ar}, and [يَ]{.ar} [-ya]{.trn}. 
@@ -273,6 +309,7 @@ We will mention those cases below.
 7. The preposition [كَ]{.ar} [ka]{.trn} "like" is not used with attached pronouns. So, for example, [كَهُ]{.ar} [kahu]{.trn} is not allowed for "like him."
 
 bayna repeated with pronouns
+-->
 
 ## Meaning of prepositions and translating them
 
