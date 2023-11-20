@@ -418,20 +418,28 @@ So can we even have a sentence that has an indefinite subject? For example:
 
 Yes, it is possible, but sentences where the subject is an indefinite noun are not as straightforward to express in Arabic. We will explore some ways of expressing them later if [#allAh]{.trn2} wills.
 
-## The word "and"
+## [وَ]{.ar} [wa-]{.trn} "and", [فَ]{.ar} [fa-]{.trn} "so"/"and then", and [أَوْ]{.ar} [Eaw]{.trn} "or"
 
-Arabic uses [وَ]{.ar} [wa]{.trn} to mean "and". It is written right next to the word after it without any space between it and the next word. 
+### [وَ]{.ar} [wa-]{.trn} "and"
+
+Arabic uses the particle [وَ]{.ar} [wa]{.trn} to mean "and". Being a one-letter particle, it is joined to the word after it without any space between it and the next word. 
 
 [وَمَدْرَسَةٌ]{.ar}  
-[wa madrasatun]{.trn}  
+[wamadrasatun]{.trn}  
 "and a school"
 
 [وَ]{.ar} [wa]{.trn} meaning "and" does not change the state of the noun following it. Examples:
 
-[ٱَلْبِنَاءُ بَيْتٌ وَمَدْرَسَةٌ.]{.ar}  
-[EalbinAEu baytun wa madrasatun]{.trn}  
-"The building is a house and a school."
+[ٱَلْبِنَاءُ مَسْجِدٌ وَمَدْرَسَةٌ.]{.ar}  
+[EalbinAEu masjidun wamadrasah.]{.trn}  
+"The building is a mosque and a school."
 
+If there are more than two words, then in English, only the final word usually has "and" and the rest are separated by commas in writing. In Arabic, however, each must have [وَ]{.ar} and commas are not typically used.
+
+[ٱَلْبِنَاءُ مَسْجِدٌ وَمَدْرَسَةٌ وَمَكْتَبَةٌ.]{.ar}  
+[EalbinAEu baytun wamadrasatun wamaktabah]{.trn}  
+"The building is a mosque, a school, and a library."
+<!--
 [أَخَذَ ٱلرَّجُلُ كِتَابًا وَقَلَمًا.]{.ar}  
 [Eaxapa -rrajulu kitAban waqalaman]{.trn}  
 "The man took a book and pen."
@@ -439,10 +447,30 @@ Arabic uses [وَ]{.ar} [wa]{.trn} to mean "and". It is written right next to th
 [دَخَلَتِ ٱلْمَرْأَةُ وَٱلْجَارِيَةُ ٱلْبَيْتَ.]{.ar}  
 [daxalati -lmarEatu wa-ljAriyatu -lbayta]{.trn}  
 "The woman and the girl entered the house."
+-->
 
-We can also use [وَ]{.ar} to connect sentences:
+We can also use [وَ]{.ar} to begin and connect sentences. The following example is tehcnically two sentences, both beginning with [وَ]{.ar}:
 
-[ٱلرَّجُلُ إِنْسَانٌ وَٱلْكَلْبُ حَيَوَانٌ]{.ar}  
-[Earrujulu EinSAnun wa-lkalbu HayawAnun]{.trn}  
+[وَٱلرَّجُلُ إِنْسَانٌ وَٱلْكَلْبُ حَيَوَانٌ]{.ar}  
+[warrujulu EinSAnun wa-lkalbu HayawAnun]{.trn}  
+"And the man is a human and the dog is an animal."
+
+Unlike as in English, this is not considered poor style. When translating such sentences to English, the first [وَ]{.ar} is often left out, thus:
 "The man is a human and the dog is an animal."
+
+### [فَ]{.ar} [fa-]{.trn} "so"/"and then"
+
+The word [فَ]{.ar} [fa-]{.trn} "so"/"and then" is comparable to [وَ]{.ar} [wa-]{.trn} "and". 
+[فَ]{.ar} [fa-]{.trn} "so"/"and then"
+ gives a meaning of ordering, consequence, and subsequence that is missing in [وَ]{.ar} [wa-]{.trn} "and". For example,
+
+[ٱَلْبِنَاءُ مَسْجِدٌ فَمَدْرَسَةٌ فَمَكْتَبَةٌ.]{.ar}  
+[EalbinAEu baytun famadrasatun famaktabah]{.trn}  
+"The building is a mosque, and then a school, and then a library."
+
+[فَ]{.ar} [fa-]{.trn} "so"/"and then", too, is used to begin and connect sentences. Example,
+
+[فَٱلرَّجُلُ إِنْسَانٌ وَٱلْكَلْبُ حَيَوَانٌ]{.ar}  
+[farrujulu EinSAnun wa-lkalbu HayawAnun]{.trn}  
+"So the man is a human and the dog is an animal."
 
