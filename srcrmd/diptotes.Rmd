@@ -1,0 +1,114 @@
+# Non-fully-changing nouns and proper nouns
+
+## Introduction
+
+Here is an example of the kind of nouns we have learned so far:
+
+State  | Indefinite | Definite
+:------|:-----------|:---------
+u-state| [رَجُلٌ]{.ar} | [ٱَلرَّجُلُ]{.ar}
+a-state| [رَجُلًا]{.ar}| [ٱَلرَّجُلَ]{.ar}
+i-state| [رَجُلٍ]{.ar} | [ٱَلرَّجُلِ]{.ar}
+
+As you can see, the noun has [n]{.trn}-marks when it is indefinite, and also, the vowel mark on the last letter changes for each state that the noun is in. These kinds of nouns are called _fully-changing_ nouns. They are by far the most common type of noun.
+
+There are some nouns, however, that are _non-fully-changing_. There are two differences between fully-changing and non-fully-changing nouns:
+
+1. When indefinite, a non-fully-changing noun does not have an [n]{.trn}-mark.
+2. When indefinite and in the i-state, a non-fully-changing noun's final letter shall not have an [i]{.trn}-mark. Instead it shall look identical to its appearance in the a-state.
+
+Here is an example of a non-fully-changing noun, [صَحْرَاءُ]{.ar} [SaHrAEu]{.trn} "a desert":
+
+State  | Indefinite | Definite
+:------|:-----------|:---------
+u-state| [صَحْرَاءُ]{.ar} | [ٱَلصَّحْرَاءُ]{.ar}
+a-state| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءَ]{.ar}
+i-state| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءِ]{.ar}
+
+As you can see, when [صَحْرَاءُ]{.ar} [SaHrAEu]{.trn} is indefinite, it does not have an [n]{.trn}-mark. Also, when it is indefinite and in the i-state, the vowel mark on its final letter is not [◌ِ]{.ar}, as you might expect but [◌َ]{.ar} . And so the noun looks identical in the a-state and i-state when it is indefinite.
+
+When it is definite, however, it behaves just like fully-changing nouns.
+
+## Categories of non-fully-changing nouns
+
+Non-fully-changing nouns fall under different categories. We will discuss them below.
+
+### Nouns that end with an external [اء]{.ar}
+
+If a noun ends with an [اء]{.ar}, which is external to the word's root, then it shall be a non-fully-changing noun.
+
+We have already seen an example of such a noun above: [صَحْرَاءُ]{.ar} [SaHrAEu]{.trn} "a desert". The root of this noun is [صحر]{.arroot}. You can see that the ending [اء]{.ar} is not part of the root. Therefore it is a non-fully-changing noun.
+
+Furthermore, this [اء]{.ar} which is external to the word's root is a feminine marker for singular nouns, just like [ة]{.ar}, except that [ة]{.ar} does not generally make a noun non-fully-changing.
+
+Here is an example sentence with this noun:
+
+[ذَهَبَ ٱلرَّجُلُ إِلَىٰ صَحْرَاءَ وَاسِعَةٍ.]{.ar}  
+[pahaba -rrajulu EilA SaHrAEa wAsieatin]{.trn}  
+"The man went to a wide desert."
+
+Note that [صَحْرَاءَ]{.ar} [SaHrAEa]{.trn} is  in the i-state because it is preceded by the preposition [إِلَىٰ]{.ar} [EilA]{.trn} "to". It is also a describee, whose describer is [وَاسِعَةٍ]{.ar} [wAsieatin]{.trn} "wide". The final vowel mark [◌َ]{.ar} on the describee [صَحْرَاءَ]{.ar} [SaHrAEa]{.trn} has no effect on the final vowel mark on the describer [وَاسِعَةٍ]{.ar} [wAsieatin]{.trn} "wide". All that matters int this regard is the state of the describee. 
+
+Beware that there are some words where [اء]{.ar} may be part of the word's root, e.g. [ٱِبْتِدَاءٌ]{.ar} [ibtidAEun]{.trn} "a beginning" whose root is [بدء]{.arroot} and which is on the pattern [ٱِفْتِعَالٌ]{.ar} [iftieAlun]{.trn}. Because here the [ء]{.ar} in [ٱبْتِدَاءٌ]{.ar} is part of the word's root, therefore it shall not be a non-fully-changing noun. That is why you can see that it has an [n]{.trn} mark when it is indefinite. Also, for the same reason, [اء]{.ar} in this word is not a feminine marker, and the word is masculine.
+
+### Nouns that end with an external [ىٰ]{.ar}
+
+If a noun ends with an [ىٰ]{.ar} which is external to the word's root, then it shall be a non-fully-changing noun.
+
+An example of such a words is [ذِكْرَىٰ]{.ar} [pikrA]{.trn} "a remembrance". The root of this word is [ذكر]{.arroot} and it is on the pattern [فِعْلَىٰ]{.ar}.
+
+Similar to [اء]{.ar}, this [ىٰ]{.ar} which is external to the word's root is a feminine marker for singular nouns.
+
+Since [ذِكْرَىٰ]{.ar} [pikrA]{.trn} already ends with a vowel, the last letter won't have any additional vowel markers and therefore the word will appear the same in all states:
+
+  State  | Indefinite | Definite
+  :------|:-----------|:---------
+  u-state| [ذِكْرَىٰ]{.ar} | [ٱَلذِّكْرَىٰ]{.ar}
+  a-state| [ذِكْرَىٰ]{.ar} | [ٱَلذِّكْرَىٰ]{.ar}
+  i-state| [ذِكْرَىٰ]{.ar} | [ٱَلذِّكْرَىٰ]{.ar}
+
+Here is an example of this word in a sentence:
+
+[ٱَلْكِتَابُ ذِكْرَىٰ جَمِيلةٌ.]{.ar}  
+[EalkitAbu pikrA jamIlatun]{.trn}  
+"The book is a beautiful remembrance."
+
+Note how the describers in both examples above are feminine because the describee nouns are feminine.
+
+Beware also that, just like in the case of [اء]{.ar}, there are some words where [ىٰ]{.ar} may be part of the word's root, e.g. [ٱَلْهُدَىٰ]{.ar} [EalhudA]{.trn} "the guidance" whose root is [هدي]{.arroot}. Because here the [ىٰ]{.ar} in [ٱلْهُدَىٰ]{.ar} is part of the word's root, therefore it shall not be a non-fully-changing noun. So, when it is indefinite, it will have an [n]{.trn}-mark when it is indefinite: [هُدًى]{.ar} [hudan]{.trn} "a guidance". Also, for the same reason, [ىٰ]{.ar} in this word is not a feminine marker, and the word is masculine.
+
+### Nouns on the pattern [أَفْعَل]{.ar}
+
+If a noun is on the pattern [أَفْعَل]{.ar} then it shall be a non-fully-changing noun. 
+
+Most colors and many physical characteristics fall into this pattern. Colors and physical characteristics are qualitative nouns. The masculine qualitative noun is on the pattern [أَفْعَلُ]{.ar}. And the feminine qualitative noun is on the pattern [فَعْلَاءُ]{.ar} [faelAEu]{.trn} (which is itself a non-fully-changing noun pattern). Here are some examples of such qualitative nouns:
+
+Root | Masc. Noun | Fem. noun | Meaning
+:----|:-----------|:-------------|:------------
+[حمر]{.arroot} | [أَحْمَرُ]{.ar}  | [حَمْرَاءُ]{.ar}  | red
+[سود]{.arroot} | [أَسْوَدُ]{.ar}  | [سَوْدَاءُ]{.ar}  | black
+[بيض]{.arroot} | [أَبْيَضُ]{.ar}  | [بَيْضَاءُ]{.ar}  | white
+[عرج]{.arroot} | [أَعْرَجُ]{.ar}  | [عَرْجَاءُ]{.ar}  | lame
+[حور]{.arroot} | [أَحْوَرُ]{.ar}  | [حَوْرَاءُ]{.ar}  | beautiful eyed
+[بكم]{.arroot} | [أَبْكَمُ]{.ar}  | [بَكْمَاءُ]{.ar}  | mute
+
+### Qualitative nouns that end with an external [ان]{.ar}
+
+This category is more complicated than the previous ones. The following conditions must be satisfied for a word that ends with [ان]{.ar} to be a non-fully-changing noun:
+
+1. It must be a qualitative noun, not a designative noun. So the designative noun [قُرْءَانٌ]{.ar} [qurEAnun]{.trn} "a [#qurEan]{.trn2}" of the root [قرء]{.arroot} is not a non-fully-changing noun.
+2. The [ان]{.ar} must be external to the word's root. So [جَبَانٌ]{.ar} [jabAnun]{.trn} "a coward" of the root [جبن]{.arroot} is not a non-fully-changing noun.
+3. The feminine of the qualitative noun shall not be formed by adding [ة]{.ar} to it. So [نَدْمَانٌ]{.ar} [nadmAnun]{.trn} "regretful" of the root [ندم]{.arroot}, whose feminine is [نَدْمَانَةٌ]{.ar} [nadmAnatun]{.trn} is not a non-fully-changing noun.
+
+It is rare that this last condition fails. Most qualitative nouns that end with an external [ان]{.ar} are of the pattern [فَعْلَانُ]{.ar} [faelAnu]{.trn} and their feminine is of the pattern [فَعْلَىٰ]{.ar} [faelA]{.trn} (which is itself a non-fully-changing noun pattern). The following are examples of non-fully-changing nouns that fall into this category:
+
+Root | Masc. Noun | Fem. noun | Meaning
+:----|:-----------|:-------------|:------------
+[غضب]{.arroot} | [غَضْبَانُ]{.ar} | [غَضْبَىٰ]{.ar}   | very angry
+[عطش]{.arroot} | [عَطْشَانُ]{.ar} | [عَطْشَىٰ]{.ar}   | very thirsty
+[جوع]{.arroot} | [جَوْعَانُ]{.ar} | [جَوْعَىٰ]{.ar}   | very hungry
+
+### Other categories
+
+There are a couple more categories of non-fully-changing nouns. Some have to do with proper nouns, which we will cover later in this chapter, and others are plural nouns which we will learn in a later chapter, if [#allAh]{.trn2} wills.
+
