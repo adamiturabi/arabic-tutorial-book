@@ -2,6 +2,15 @@
 
 ## Introduction
 
+Nouns are of two main categories of nouns, with regard to their endings in the different noun states:
+
+1. Rigid nouns.
+2. Flexible nouns. These are further sub-divided into:
+   i. Fully-flexible nouns.
+   ii. Semi-flexible nouns.
+
+So far we have been mostly studying fully-flexible nouns. In this chapter we will learn about semi-flexible nouns.
+
 Here is an example of the kind of nouns we have learned so far:
 
 State  | Indefinite | Definite
@@ -12,12 +21,8 @@ i-state| [رَجُلٍ]{.ar} | [ٱَلرَّجُلِ]{.ar}
 
 As you can see, the noun has [n]{.trn}-marks when it is indefinite, and also, the vowel mark on the last letter changes for each state that the noun is in. These kinds of nouns are called _fully-flexible_ nouns. They are by far the most common type of noun.
 
-There are some nouns, however, that are _semi-flexible_. There are two differences between fully-flexible and semi-flexible nouns:
-
-1. When indefinite, a semi-flexible noun does not have an [n]{.trn}-mark.
-2. When indefinite and in the i-state, a semi-flexible noun's final letter shall not have an [i]{.trn}-mark. Instead it shall look identical to its appearance in the a-state.
-
-Here is an example of a semi-flexible noun, [صَحْرَاءُ]{.ar} [SaHrAEu]{.trn} "a desert":
+There are some nouns, however, that are _semi-flexible_. 
+Here is an example of a semi-flexible noun, [صَحْرَاء]{.ar} [SaHrAE]{.trn} "a desert":
 
 State  | Indefinite | Definite
 :------|:-----------|:---------
@@ -25,9 +30,53 @@ u-state| [صَحْرَاءُ]{.ar} | [ٱَلصَّحْرَاءُ]{.ar}
 a-state| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءَ]{.ar}
 i-state| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءِ]{.ar}
 
-As you can see, when [صَحْرَاءُ]{.ar} [SaHrAEu]{.trn} is indefinite, it does not have an [n]{.trn}-mark. Also, when it is indefinite and in the i-state, the vowel mark on its final letter is not [◌ِ]{.ar}, as you might expect but [◌َ]{.ar} . And so the noun looks identical in the a-state and i-state when it is indefinite.
+As you can see, when [صَحْرَاء]{.ar} [SaHrAE]{.trn} is indefinite, it does not have an [n]{.trn}-mark. Also, when it is indefinite and in the i-state, the vowel mark on its final letter is not [◌ِ]{.ar}, as you might expect but [◌َ]{.ar} . And so the noun looks identical in the a-state and i-state when it is indefinite.
 
-When it is definite, however, it behaves just like fully-flexible nouns.
+When it is definite, however, it looks just like fully-flexible nouns.
+
+So there are two differences between fully-flexible and semi-flexible nouns:
+
+1. When indefinite, a semi-flexible noun does not have an [n]{.trn}-mark.
+2. When indefinite and in the i-state, a semi-flexible noun's final letter does not have an [i]{.trn}-mark. Instead it shall have an [a]{.trn}-mark, just like when it is in the a-state.
+
+The other vategoty of nouns are _rigid_ nouns. Rigid nouns don't change their endings due to their state. They are much fewer in number compared to flexible nouns. Pronouns are an example of rigid nouns.
+
+## Feminine markers
+
+Before we discuss semi-flexible nouns in more detail, we will discuss feminine markers. We already know of one feminine marker: the looped-[tAE]{.trn} [ة]{.ar}. When a singular noun ends with [ة]{.ar}, then that is an indication, with very few exceptions, that it is a feminine noun. Examples are:
+
+Root | Feminine noun | Masculine noun (if any)
+:--|:-----|:-------
+[جري]{.arroot} | [جَارِيَة]{.ar} [jAriyah]{.trn} "a girl~f~"             | [غُلَام]{.ar} [gulAm]{.trn} "a boy"
+[علم]{.arroot} | [عَالِمَة]{.ar} [eAlimah]{.trn} "a scholar~f~"          | [عَالِم]{.ar} [eAlim]{.trn} "a scholar~m~"
+[كلب]{.arroot} | [كَلْبَة]{.ar} [kalbah]{.trn} "a dog~f~"                | [كَلْب]{.ar} [kalb]{.trn} "a dog~m~"
+[شجر]{.arroot} | [شَجَرَة]{.ar} [cajarah]{.trn} "a tree"                 | not applicable
+[صغر]{.arroot} | [صَغِيرَة]{.ar} [SagIrah]{.trn} (adj.\ n.) "small~f~"   | [صَغِير]{.ar} [SagIr]{.trn} (adj.\ n.) "small~m~"
+As you can see, the feminine marker [ة]{.ar} is never part of the noun's root. It is thus considered _extrinsic_ to the root. Also, sometimes, but not always, the feminine noun is formed by adding the feminine marker [ة]{.ar} to the end of a masculine noun.
+
+It is also important to note that [ة]{.ar} is only a feminine marker for singular nouns. When we learn plurals, if [#allAh]{.trn2} wills, we will see that [ة]{.ar} is used frequently with masculine plurals.
+
+Now we will learn of two more feminine markers: [اء]{.ar} and [ىٰ]{.ar}. 
+
+Here are some examples of nouns that end with these two feminine markers:
+
+Root | Feminine noun | Masculine noun (if any)
+:--|:-----|:-------
+[صحر]{.arroot} | [صَحْرَاء]{.ar} [SaHrAE]{.trn} "a desert"               | not applicable
+[حمر]{.arroot} | [حَمْرَاء]{.ar} [HamrAE]{.trn} (adj.\ n.) "red~f~"      | [أَحْمَر]{.ar} [EaHmar]{.trn} (adj.\ n.) "red~m~"
+[ذكر]{.arroot} | [ذِكْرَىٰ]{.ar} [pikrA]{.trn} "a memory"                 | not applicable
+[غضب]{.arroot} | [غَضْبَىٰ]{.ar} [gaDbA]{.trn} (adj.\ n.) "very angry~f~" | [غَضْبَان]{.ar} [gaDbAn]{.trn} (adj. n.) "very angry~m~"
+
+They share some similar characteristics with [ة]{.ar}:
+
+i. The feminine markers [ة]{.ar}, [اء]{.ar}, and [ىٰ]{.ar} are all extrinsic to the word's root.
+ii.  [ة]{.ar}, [اء]{.ar}, and [ىٰ]{.ar} are only feminine markers for singular nouns. We will see, if [#allAh]{.trn2} wills, that they are used frequently with masculine plurals.
+
+However, 
+[اء]{.ar} and [ىٰ]{.ar} differ from [ة]{.ar} in a couple of important ways:
+
+i. [اء]{.ar} and [ىٰ]{.ar} may be part of the word's root.
+
 
 ## Categories of semi-flexible nouns
 
