@@ -167,9 +167,9 @@ Beware also that, just like in the case of [اء]{.ar}, there are some words whe
 
 ### Nouns on the pattern [أَفْعَل]{.ar}
 
-If a noun is on the pattern [أَفْعَل]{.ar} then it shall be a semi-flexible noun. By the way, there is no feminine marker on such words, so they will be masculine by default.
+If a noun is on the pattern [أَفْعَل]{.ar} [Eafeal]{.trn} then it shall be a semi-flexible noun. By the way, there is no feminine marker on such words, so they will be masculine by default.
 
-Most colors and many physical characteristics fall into this pattern. Colors and physical characteristics are adjectival nouns. The masculine noun for such adjectival-nouns is on the pattern [أَفْعَل]{.ar}. And the feminine adjectival noun is on the pattern [فَعْلَاء]{.ar} [faelAE]{.trn} (which is itself a semi-flexible noun pattern because of the extrinsic [اء]{.ar} ending). Here are some examples of such adjectival nouns:
+Most colors and many physical characteristics fall into this pattern. Colors and physical characteristics are adjectival nouns. The masculine noun for such adjectival-nouns is on the pattern [أَفْعَل]{.ar} [Eafeal]{.trn}. And the feminine adjectival noun is on the pattern [فَعْلَاء]{.ar} [faelAE]{.trn} (which is itself a semi-flexible noun pattern because of the extrinsic [اء]{.ar} ending). Here are some examples of such adjectival nouns:
 
 Root | Masc. Noun | Fem. noun | Meaning
 :----|:-----------|:-------------|:------------
@@ -182,27 +182,38 @@ Root | Masc. Noun | Fem. noun | Meaning
 
 Example:
 
-[يَلْبَسُ ٱلرَّجُلُ قَمِيصًا أَبْيَضُ.]{.ar}  
-[yalbasu -rrajulu qamISan EabyaD.]{.trn}  
-"The man is wearing a white shirt."
+[لَبِسَ ٱلرَّجُلُ قَمِيصًا أَبْيَضُ.]{.ar}  
+[labisa -rrajulu qamISan EabyaD.]{.trn}  
+"The man wore a white shirt."
 
 ### Adjectival nouns that end with an extrinsic [ان]{.ar}
 
+The letters [ان]{.ar} may be an extrinsic ending for nouns. This ending is not a feminine marker so the noun would typically be masculine. This ending may cause the noun to be semi-flexible.
+
 This category is more complicated than the previous ones. The following conditions must be satisfied for a word that ends with [ان]{.ar} to be a semi-flexible noun:
 
-1. It must be a adjectival noun, not a designative noun. So the designative noun [قُرْءَانٌ]{.ar} [qurEAnun]{.trn} "a [#qurEan]{.trn2}" of the root [قرء]{.arroot} is not a semi-flexible noun.
-2. The [ان]{.ar} must be extrinsic to the word's root. So [جَبَانٌ]{.ar} [jabAnun]{.trn} "a coward" of the root [جبن]{.arroot} is not a semi-flexible noun.
-3. The feminine of the adjectival noun shall not be formed by adding [ة]{.ar} to it. So [نَدْمَانٌ]{.ar} [nadmAnun]{.trn} "regretful" of the root [ندم]{.arroot}, whose feminine is [نَدْمَانَةٌ]{.ar} [nadmAnatun]{.trn} is not a semi-flexible noun.
+1. The noun must be a adjectival-noun, not a common noun. So the common noun [ثُعْبَان]{.ar} [vuebAn]{.trn} "a serpent" of the root [ثعي]{.arroot} is a common noun and therefore, not a semi-flexible noun.
+2. The [ان]{.ar} must be extrinsic to the word's root. So [جَبَان]{.ar} [jabAnun]{.trn} "cowardly", an adjectival noun of the root [جبن]{.arroot}, is not a semi-flexible noun.
+3. The feminine of the adjectival noun shall not be formed by adding [ة]{.ar} to the masculine noun. So [نَدْمَان]{.ar} [nadmAn]{.trn} "regretful", an adjectival-noun from the root [ندم]{.arroot}, is not a semi-flexible noun, because its feminine is [نَدْمَانَة]{.ar} [nadmAnah]{.trn}.
 
-It is rare that this last condition fails. Most adjectival nouns that end with an extrinsic [ان]{.ar} are of the pattern [فَعْلَانُ]{.ar} [faelAnu]{.trn} and their feminine is of the pattern [فَعْلَىٰ]{.ar} [faelA]{.trn} (which is itself a semi-flexible noun pattern). The following are examples of semi-flexible nouns that fall into this category:
+It is rare that this last condition fails. Most adjectival nouns that end with an extrinsic [ان]{.ar} are of the pattern [فَعْلَان]{.ar} [faelAn]{.trn} and their feminine is of the pattern [فَعْلَىٰ]{.ar} [faelA]{.trn} (which is itself a semi-flexible noun pattern). These adjectival-nouns typically have an emphatic meaning. The following are examples of semi-flexible adjectival-nouns that fall into this category:
 
 Root | Masc. Noun | Fem. noun | Meaning
 :----|:-----------|:-------------|:------------
-[غضب]{.arroot} | [غَضْبَانُ]{.ar} | [غَضْبَىٰ]{.ar}   | very angry
-[عطش]{.arroot} | [عَطْشَانُ]{.ar} | [عَطْشَىٰ]{.ar}   | very thirsty
-[جوع]{.arroot} | [جَوْعَانُ]{.ar} | [جَوْعَىٰ]{.ar}   | very hungry
+[غضب]{.arroot} | [غَضْبَان^2^]{.ar} | [غَضْبَىٰ^2^]{.ar}   | very angry
+[عطش]{.arroot} | [عَطْشَان^2^]{.ar} | [عَطْشَىٰ^2^]{.ar}   | very thirsty
+[جوع]{.arroot} | [جَوْعَان^2^]{.ar} | [جَوْعَىٰ^2^]{.ar}   | very hungry
 
-### Other categories
+### Nouns of the patterns [فَفَافِف]{.ar}, [فَفَافِيف]{.ar}, and [فَفَافِفّ]{.ar}
 
-There are a couple more categories of semi-flexible nouns. Some have to do with proper nouns, which we will cover later in this chapter, and others are plural nouns which we will learn in a later chapter, if [#allAh]{.trn2} wills.
+Nouns that are of the patterns [فَفَافِف]{.ar}, [فَفَافِيف]{.ar}, and [فَفَافِفّ]{.ar} are also semi-flexible nouns. Here each letter [ف]{.ar} could be any letter of the alphabet. 
+
+Here are some examples of these nouns:
+
++ [مَسَاجِد^2^]{.ar} [masAjid^2^]{.trn} "mosques"
++ [مَفَاتِيح^2^]{.ar} [mafAtIH^2^]{.trn} "keys"
++ [كَرَاسِيّ^2^]{.ar} [karAsiyy^2^]{.trn} "chairs"
+
+These patterns are only used for plurals and we will study them in more detail in chapter\ \@ref(broken-plurals)
+, if [#allAh]{.trn2} wills.
 
