@@ -8,50 +8,94 @@ For any number greater than one, English uses the plural. For example, the plura
 
 Arabic, on the other hand, uses the plural only for nouns in number three and higher. For nouns that are two in number Arabic uses the _dual_.
 
+Since English does not have a dual, we will sometimes indicate it using the the subscript 2, thus: "houses~2~", to mean "two houses".
+
 ## Forming the dual
 
-The dual is formed by appending dual suffix [◌َانِ]{.ar} [Ani]{.trn} when the noun is in the u-state and [◌َيْنِ]{.ar} [ayni]{.trn} when the noun is in the a-state or i-state. Definite nouns, which have [ٱَلْ]{.ar} in their beginning are dualized the same way. 
+The dual is formed by appending the dual suffix [◌َانِ]{.ar} [-Ani]{.trn} when the noun is in the u-state and [◌َيْنِ]{.ar} [-ayni]{.trn} when the noun is in the a-state or i-state. Definite nouns, which have [ٱَلْ]{.ar} in their beginning are dualized the same way. 
 
-For example, when we dualize [بَيْت]{.ar} [bayt]{.trn} "house" in order to say "two houses", we get:
+For example, when we dualize [بَيْت]{.ar} [bayt]{.trn} "a house" in order to say "houses~2~", we get:
 
 | States | Indefinite | Definite
 :----|:-------|:-------
 u-state         | [بَيْتَانِ]{.ar} [baytAni]{.trn}  | [ٱَلْبَيْتَانِ]{.ar} [EalbaytAni]{.trn}
 a- and i-states | [بَيْتَيْنِ]{.ar} [baytayni]{.trn} | [ٱَلْبَيْتَيْنِ]{.ar} [Ealbaytayni]{.trn}   
 
-Note that indefinite duals don't have [n]{.trn} marks. The only difference between definite and indefinite duals is the prefix [ٱَلْ]{.ar}.
+Note that indefinite duals don't have [n]{.trn} marks. The only difference between definite and indefinite duals is the definite article [ٱَلْ]{.ar} "the". 
+
+Here are examples of duals in sentences:
+
++ u-state:
+
+  [ٱَلْكِتَابَانِ فِي ٱلْحَقِيبَةِ.]{.ar}  
+  [EalkitAbAni fi -lHaqIbah.]{.trn}  
+  "The books~2~ are in the bag."
+
++ a-state:
+
+  [قَرَأَ ٱلْغُلَامُ كِتَابَيْنِ.]{.ar}  
+  [qaraEa -lgulAmu kitAbayn.]{.trn}  
+  "The boy read two books."
+
++ i-state:
+
+  [غَضِبَتِ ٱلْأُمُّ عَلَى ٱلْجَارِيَتَيْنِ.]{.ar}  
+  [gaDibati -lEummu eala -ljAriyatayn.]{.trn}  
+  "The mother became angry at the girls~2~."
 
 ## Duals of nouns that end with feminine markers
 
 ### Nouns ending in [ة]{.ar}
 
-If a noun ends with a looped [tAE]{.trn} [ة]{.ar}, then it is converted to an open [tAE]{.trn} [ت]{.ar} before appending the dual suffix. For example, dualizing [شَجَرَة]{.ar} [cajarah]{.trn} "tree", we get "two trees":
+If a noun ends with a looped [tAE]{.trn} [ة]{.ar}, then it is converted to an open [tAE]{.trn} [ت]{.ar} before appending the dual suffix. For example, dualizing [شَجَرَة]{.ar} [cajarah]{.trn} "a tree", we get "trees~2~":
 
 | States | Indefinite | Definite
 :----|:-------|:-------
 u-state         | [شَجَرَتَانِ]{.ar} [cajaratAni]{.trn} | [ٱَلشَّجَرَتَانِ]{.ar} [EaccajaratAni]{.trn}
 a- and i-states | [شَجَرَتَيْنِ]{.ar} [cajaratayni]{.trn}| [ٱَلشَّجَرَتَيْنِ]{.ar} [Eaccajaratayni]{.trn}
 
-If a feminine noun does not have a looped [tAE]{.trn} then it will simply be appended with [◌َانِ]{.ar} [Ani]{.trn} and [◌َيْنِ]{.ar} [ayni]{.trn}. For example, dualizing [أُمّ]{.ar} [Eumm]{.trn} "mother" in order to get "two mothers", we get [أُمَّانِ]{.ar} [EummAni]{.trn} in the u-state and [أُمَّيْنِ]{.ar} [Eummayni]{.trn} in the a- and i-states.
+Example:
+
+[ٱَلشَّجَرَتَانِ فِي ٱلْحَدِيقَةِ.]{.ar}  
+[EaccaratAni fi -lHadIqah.]{.trn}  
+"The trees~2~ are in the garden."
+
+If a feminine noun does not have a looped [tAE]{.trn} then it will simply be appended with [◌َانِ]{.ar} [-Ani]{.trn} and [◌َيْنِ]{.ar} [-ayni]{.trn}. For example, dualizing [أُمّ]{.ar} [Eumm]{.trn} "a mother" in order to get "mothers~2~", we get:
+
++ u-state: [أُمَّانِ]{.ar} [EummAni]{.trn}
++ a-state and i-state: [أُمَّيْنِ]{.ar} [Eummayni]{.trn}
 
 ### Nouns ending with [اء]{.ar}
 
-If a noun ends with the feminine marker [اء]{.ar} which is external to the word's root then the [ء]{.ar} shall be changed into a [و]{.ar} when appending the dual suffixes [◌َانِ]{.ar} [Ani]{.trn} [◌َيْنِ]{.ar} [ayni]{.trn}. Example:
+If a noun ends with the feminine marker [اء]{.ar} which is extrinsic to the word's root then the [ء]{.ar} shall be replaced with a [و]{.ar} when forming the dual.
+<!--appending the dual suffixes [◌َانِ]{.ar} [-Ani]{.trn} [◌َيْنِ]{.ar} [-ayni]{.trn}. -->
+Example:
 
-[صَحْرَاء]{.ar} [SaHrAE]{.trn} (root: [صحر]{.arroot}) becomes [صَحْرَاوَانِ]{.ar} [SaHrAwAni]{.trn} and [صَحْرَاوَيْنِ]{.ar} [SaHrAwayni]{.trn}.
+[صَحْرَاء]{.ar} [SaHrAE]{.trn} "a desert", from the root [صحر]{.arroot}, becomes [صَحْرَاوَانِ]{.ar} [SaHrAwAni]{.trn} and [صَحْرَاوَيْنِ]{.ar} [SaHrAwayni]{.trn} "deserts~2~".
 
-Remember that there are some words where [اء]{.ar} may be part of the word's root, e.g. [ٱِبْتِدَاء]{.ar} [ibtidAE]{.trn} "a beginning" whose root is [بدء]{.arroot}. Because here the [ء]{.ar} in [ٱبْتِدَاء]{.ar} is part of the word's root, therefore the [ء]{.ar} shall not be changed into a [و]{.ar} when appending the dual suffixes. It remains a [ء]{.ar} thus: [ٱِبْتِدَاءانِ]{.ar} [EibtidAEAni]{.trn} and [ٱِبْتِدَاءَيْنِ]{.ar} [EibtidAEayni]{.trn}.
+There are some words where the [ء]{.ar} in the [اء]{.ar} is part of the word's root. In this case it remains a hamzah when forming the dual. For example:
 
-There are other words where [اء]{.ar} is not external to the word's root, but where the [ء]{.ar} has been changed from an original [و]{.ar} or a [ي]{.ar} in the word's root. We will learn how to form duals of these words later, if [#allAh]{.trn2} wills.
+The word [خِبَاء]{.ar} [xibAE]{.trn} "a tent" has the root [خبء]{.ar} and is on the pattern [فِعَال]{.ar}. Its duals are [خِبَاءَانِ]{.ar} (u-state), and [خِبَاءَيْنِ]{.ar} (a-state and i-state) "tents~2~".
+
+<!--, e.g. [خِبَاء]{.ar} [ibtidAE]{.trn} "a beginning" whose root is [بدء]{.arroot}. Because here the [ء]{.ar} in [ٱبْتِدَاء]{.ar} is part of the word's root, therefore the [ء]{.ar} shall not be changed into a [و]{.ar} when appending the dual suffixes. It remains a [ء]{.ar} thus: [ٱِبْتِدَاءانِ]{.ar} [EibtidAEAni]{.trn} and [ٱِبْتِدَاءَيْنِ]{.ar} [EibtidAEayni]{.trn}.-->
+
+There are other words where the [ء]{.ar} in the [اء]{.ar} ending was originally a [و]{.ar} or a [ي]{.ar} in the word's root. For example,
+
++ [دُعَاء]{.ar} [dueAE]{.trn} "a call" from the root [دعو]{.arroot} on the pattern [فُعَال]{.ar}.
++ [جَزَاء]{.ar} [jazAE]{.trn} "a reward" from the root [جزي]{.arroot} on the pattern [فَعَال]{.ar}.
+
+We will learn about forming the duals for these words when we study roots that have weak letters, if [#allAh]{.trn2} wills.
+<!--There are other words where [اء]{.ar} is not extrinsic to the word's root, but where the [ء]{.ar} has been changed from an original [و]{.ar} or a [ي]{.ar} in the word's root. We will learn how to form duals of these words later, if [#allAh]{.trn2} wills.-->
 <!-- النحو الواضح الثانوية part 2-->
 
 ### Nouns ending with [ىٰ]{.ar}
 
-If a noun ends with [ىٰ]{.ar} which is external to the word's root then the [ىٰ]{.ar} shall be changed to a [يَ]{.ar} when adding the dual suffixes. For example,  
+If a noun ends with [ىٰ]{.ar} which is extrinsic to the word's root then the [ىٰ]{.ar} shall be changed to a [يَ]{.ar} when adding the dual suffixes. For example,  
 
 [غَضْبَىٰ]{.ar} [gaDbA]{.trn} (root: [غضب]{.arroot}) becomes [غَضْبَيَانِ]{.ar} [gaDbayAni]{.trn} and [غَضْبَيَيْنِ]{.ar} [gaDbayayni]{.trn}.
 
-Beware also that, just like in the case of [اء]{.ar}, there are some words where [ىٰ]{.ar} is not external to the word's root, like [ٱَلْهُدَىٰ]{.ar} [EalhudA]{.trn} "the guidance" whose root is [هدي]{.arroot}. We will learn how to form duals of these words later, if [#allAh]{.trn2} wills.
+Just like in the case of [اء]{.ar}, there are some words where [ىٰ]{.ar} is not extrinsic to the word's root, like [ٱَلْهُدَىٰ]{.ar} [EalhudA]{.trn} "the guidance" whose root is [هدي]{.arroot}. 
+We will learn about forming the duals for these words when we study roots that have weak letters, if [#allAh]{.trn2} wills.
 
 <!-- Don't discuss duals of defective nouns in detail here. Discuss them in the chapter of defective nouns.-->
 
