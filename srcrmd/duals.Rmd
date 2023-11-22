@@ -75,7 +75,7 @@ Example:
 
 There are some words where the [ء]{.ar} in the [اء]{.ar} is part of the word's root. In this case it remains a hamzah when forming the dual. For example:
 
-The word [خِبَاء]{.ar} [xibAE]{.trn} "a tent" has the root [خبء]{.ar} and is on the pattern [فِعَال]{.ar}. Its duals are [خِبَاءَانِ]{.ar} (u-state), and [خِبَاءَيْنِ]{.ar} (a-state and i-state) "tents~2~".
+The word [خِبَاء]{.ar} [xibAE]{.trn} "a tent" is from the root [خبء]{.arroot} and is on the pattern [فِعَال]{.ar}. Its duals are [خِبَاءَانِ]{.ar} (u-state), and [خِبَاءَيْنِ]{.ar} (a-state and i-state) "tents~2~".
 
 <!--, e.g. [خِبَاء]{.ar} [ibtidAE]{.trn} "a beginning" whose root is [بدء]{.arroot}. Because here the [ء]{.ar} in [ٱبْتِدَاء]{.ar} is part of the word's root, therefore the [ء]{.ar} shall not be changed into a [و]{.ar} when appending the dual suffixes. It remains a [ء]{.ar} thus: [ٱِبْتِدَاءانِ]{.ar} [EibtidAEAni]{.trn} and [ٱِبْتِدَاءَيْنِ]{.ar} [EibtidAEayni]{.trn}.-->
 
@@ -99,18 +99,18 @@ We will learn about forming the duals for these words when we study roots that h
 
 <!-- Don't discuss duals of defective nouns in detail here. Discuss them in the chapter of defective nouns.-->
 
-### Duals of adjectival nouns
+## Dual describers and describees in adjectival-noun-phrases
 
 We learned that when an adjectival noun is a describer in an adjectival noun phrase, then it matches the describee in definiteness, state, and gender.  For example:
 
-[ذَهَبْتُ إِلَى ٱلْمَدِنَةِ ٱلْقَدِيمَةِ.]{.ar}  
+[ذَهَبْتُ إِلَى ٱلْمَدِينَةِ ٱلْقَدِيمَةِ.]{.ar}  
 [pahabtu Eila -lmadInati -lqadImah.]{.trn}  
 "I went to the old city."
 
 To this we add that the describer shall also match the describee in number. So if the describee is a dual then the adjectival-noun describer shall be dualzed to match it. Examples:
 
 [ٱَلْأُمَّانِ ٱلطَّيِّبَتَانِ فِي ٱلْبَيْتِ.]{.ar}  
-[EalEumAni -TTayyibatAni fi -lbayt.]{.trn}  
+[EalEummAni -TTayyibatAni fi -lbayt.]{.trn}  
 "The good mothers~2~ are in the house."
 
 [قَرَأَ ٱلْغُلَامُ كِتَابَيْنِ ثَقِيلَيْنِ قَدِيمَيْنِ.]{.ar}  
@@ -121,7 +121,7 @@ To this we add that the describer shall also match the describee in number. So i
 [sakabati -ljAriyatu HalIban lilhirrayni -leaTcAnayn.]{.trn}  
 "The girl poured some milk for the very thirsty cats~m,\ 2~.
 
-Just like common nouns, adjectival nouns are also dualized. When a adjectival noun is used to describe a dual noun, the adjectival noun will also be dual. Examples:
+<!--Just like common nouns, adjectival nouns are also dualized. When a adjectival noun is used to describe a dual noun, the adjectival noun will also be dual. Examples:
 
 The two women are noble.
 
@@ -130,23 +130,44 @@ The two men are very angry.
 The big books are heavy.
 
 The man read two heavy books.
+-->
 
+## Duals in subject-information sentences
 
-## Subject-information sentences with a dual subject
+In subject-information sentences, if the subject is a dual, then the information will typically match it in being a dual, especially if the information is an adjectival noun. For example:
 
-In subject-information sentences, if the subject is a dual, then the information will typically match it in being a dual. For example:
+[ٱَلْأُمَّانِ كَرِيمَتَانِ.]{.ar}  
+[EalEummAni karImatAn.]{.trn}  
+"The mothers~2~ are generous."
 
-[ٱَلْمَرْأَتَانِ أُمَّانِ]{.ar}  
-[EalmarEatAni EummAni]{.trn}  
-"The two women are mothers."
+[ٱَلرَّجُلَانِ مُعَلِّمَانِ.]{.ar}  
+[EarrujulAni mueallimAn.]{.trn}  
+"The men~2~ are teachers~m,2~."
 
-Note that both [ٱَلْمَرْأَتَانِ]{.ar} [EalmarEatAni]{.trn} "the two women" and [أُمَّانِ]{.ar}  [EummAni]{.trn}  "two mothers" are in the u-state because, just like for sentences with singulars, the subject and information are put in the u-state.
+[ٱلْمُعَلِّمَتَانِ غَضْبَيَانِ.]{.ar}  
+[EalmueallimatAni gaDbayAn.]{.trn}  
+"The teachers~f,2~ are very angry."
+
+[ٱَلْكِتَابَانِ ٱلْكَبِيرَانِ ثَقِيلَانِ.]{.ar}  
+[EalkitAbAni -lkabIrAni vaqIlAn.]{.trn}  
+"The big books are heavy."
+
+<!--Note that both [ٱَلْمَرْأَتَانِ]{.ar} [EalmarEatAni]{.trn} "the two women" and [أُمَّانِ]{.ar}  [EummAni]{.trn}  "two mothers" are in the u-state because, just like for sentences with singulars, the subject and information are put in the u-state.-->
 
 Sometimes, however, the subject and information may not match in number because of the meaning of the sentence. For example,
 
+<!--
+Don't use because بناء is defective
 [ٱَلْبِنَاءَانِ مَدْرَسَةً]{.ar}  
 [EalbinAEAni madrasatan]{.trn}  
 "The two buildings are a school"
+-->
+
+[ٱَلْوِسَادَتَانِ سَرِيرٌ.]{.ar}  
+[EalwisAdatAni sarIr.]{.trn}  
+"The two cushions are a bed."
+
+In the above example, the information does not match the subject in both number, and, as it happens, in gender.
 
 ## Detached dual pronouns
 
