@@ -42,9 +42,9 @@ Here are examples of duals in sentences:
   [غَضِبَتِ ٱلْأُمُّ عَلَى ٱلْجَارِيَتَيْنِ.]{.ar}  
   [gaDibati -lEummu eala -ljAriyatayn.]{.trn}  
   "The mother became angry at the girls~2~."
-
+<!--
 ## Duals of nouns that end with feminine markers
-
+-->
 ### Nouns ending in [ة]{.ar}
 
 If a noun ends with a looped [tAE]{.trn} [ة]{.ar}, then it is converted to an open [tAE]{.trn} [ت]{.ar} before appending the dual suffix. For example, dualizing [شَجَرَة]{.ar} [cajarah]{.trn} "a tree", we get "trees~2~":
@@ -65,10 +65,24 @@ If a feminine noun does not have a looped [tAE]{.trn} then it will simply be app
 + u-state: [أُمَّانِ]{.ar} [EummAni]{.trn}
 + a-state and i-state: [أُمَّيْنِ]{.ar} [Eummayni]{.trn}
 
+### Nouns ending with [اء]{.ar}, [ىٰ]{.ar}, and [ا]{.ar}
+
+Nouns that end with [اء]{.ar}, [ىٰ]{.ar}, and [ا]{.ar} are treated specially when forming their dual. Examples of such nouns are:
+
++ [صَحْرَاء]{.ar} [SaHrAE]{.trn} "a desert"
++ [بِنَاء]{.ar} [binAE]{.trn} "a building"
++ [سَمَاء]{.ar} [samAE]{.trn} "a sky"
++ [غَضْبَىٰ]{.ar} [gaDbA]{.trn} _adj._ "very angry~f~"
++ [فَتْوَىٰ]{.ar} [fatwA]{.trn} "a formal legal opinion"
++ [ٱَلْهُدَىٰ]{.ar} [EalhudA]{.trn} "the guidance"
++ [ٱَلْعَصَا]{.ar} [EaleaSA]{.trn} "the staff"
+
+We will learn how to form duals of these words in later chapters, if [#allAh]{.trn2} wills.
+
+<!--
 ### Nouns ending with [اء]{.ar}
 
 If a noun ends with the feminine marker [اء]{.ar} which is extrinsic to the word's root then the [ء]{.ar} shall be replaced with a [و]{.ar} when forming the dual.
-<!--appending the dual suffixes [◌َانِ]{.ar} [-Ani]{.trn} [◌َيْنِ]{.ar} [-ayni]{.trn}. -->
 Example:
 
 [صَحْرَاء]{.ar} [SaHrAE]{.trn} "a desert", from the root [صحر]{.arroot}, becomes [صَحْرَاوَانِ]{.ar} [SaHrAwAni]{.trn} and [صَحْرَاوَيْنِ]{.ar} [SaHrAwayni]{.trn} "deserts~2~".
@@ -77,7 +91,6 @@ There are some words where the [ء]{.ar} in the [اء]{.ar} is part of the word'
 
 The word [خِبَاء]{.ar} [xibAE]{.trn} "a tent" is from the root [خبء]{.arroot} and is on the pattern [فِعَال]{.ar}. Its duals are [خِبَاءَانِ]{.ar} (u-state), and [خِبَاءَيْنِ]{.ar} (a-state and i-state) "tents~2~".
 
-<!--, e.g. [خِبَاء]{.ar} [ibtidAE]{.trn} "a beginning" whose root is [بدء]{.arroot}. Because here the [ء]{.ar} in [ٱبْتِدَاء]{.ar} is part of the word's root, therefore the [ء]{.ar} shall not be changed into a [و]{.ar} when appending the dual suffixes. It remains a [ء]{.ar} thus: [ٱِبْتِدَاءانِ]{.ar} [EibtidAEAni]{.trn} and [ٱِبْتِدَاءَيْنِ]{.ar} [EibtidAEayni]{.trn}.-->
 
 There are other words where the [ء]{.ar} in the [اء]{.ar} ending was originally a [و]{.ar} or a [ي]{.ar} in the word's root. For example,
 
@@ -85,8 +98,6 @@ There are other words where the [ء]{.ar} in the [اء]{.ar} ending was original
 + [جَزَاء]{.ar} [jazAE]{.trn} "a reward" from the root [جزي]{.arroot} on the pattern [فَعَال]{.ar}.
 
 We will learn about forming the duals for these words when we study roots that have weak letters, if [#allAh]{.trn2} wills.
-<!--There are other words where [اء]{.ar} is not extrinsic to the word's root, but where the [ء]{.ar} has been changed from an original [و]{.ar} or a [ي]{.ar} in the word's root. We will learn how to form duals of these words later, if [#allAh]{.trn2} wills.-->
-<!-- النحو الواضح الثانوية part 2-->
 
 ### Nouns ending with [ىٰ]{.ar}
 
@@ -96,8 +107,7 @@ If a noun ends with [ىٰ]{.ar} which is extrinsic to the word's root then the [
 
 Just like in the case of [اء]{.ar}, there are some words where [ىٰ]{.ar} is not extrinsic to the word's root, like [ٱَلْهُدَىٰ]{.ar} [EalhudA]{.trn} "the guidance" whose root is [هدي]{.arroot}. 
 We will learn about forming the duals for these words when we study roots that have weak letters, if [#allAh]{.trn2} wills.
-
-<!-- Don't discuss duals of defective nouns in detail here. Discuss them in the chapter of defective nouns.-->
+-->
 
 ## Dual describers and describees in adjectival-noun-phrases
 
@@ -117,9 +127,11 @@ To this we add that the describer shall also match the describee in number. So i
 [qaraEa -lgulAmu kitAbayni vaqIlatayni qadImatayn.]{.trn}  
 "The boy read two old heavy books."
 
+<!--
 [سَكَبَتِ ٱلْجَارِيَةُ حَلِيبًا لِلْهِرَّيْنِ ٱلْعَطْشَانَيْنِ.]{.ar}  
 [sakabati -ljAriyatu HalIban lilhirrayni -leaTcAnayn.]{.trn}  
 "The girl poured some milk for the very thirsty cats~m,\ 2~.
+-->
 
 <!--Just like common nouns, adjectival nouns are also dualized. When a adjectival noun is used to describe a dual noun, the adjectival noun will also be dual. Examples:
 
@@ -144,9 +156,11 @@ In subject-information sentences, if the subject is a dual, then the information
 [EarrujulAni mueallimAn.]{.trn}  
 "The men~2~ are teachers~m,2~."
 
+<!--
 [ٱلْمُعَلِّمَتَانِ غَضْبَيَانِ.]{.ar}  
 [EalmueallimatAni gaDbayAn.]{.trn}  
 "The teachers~f,2~ are very angry."
+-->
 
 [ٱَلْكِتَابَانِ ٱلْكَبِيرَانِ ثَقِيلَانِ.]{.ar}  
 [EalkitAbAni -lkabIrAni vaqIlAn.]{.trn}  
