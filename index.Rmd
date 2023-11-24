@@ -146,5 +146,9 @@ this is in [Small Caps]{.smallcaps}.
 \draw [decoration={brace, mirror}, decorate] 
    (word-7.south west) -- (word-9.south east)
       node [midway, below] {Noun Phrase};
+
+\draw [decoration={brace, mirror, raise=3ex}, decorate] 
+   (word-1.south west) -- (word-9.south east)
+      node [midway, below=3ex] {Full sentence};
 \end{tikzpicture}
 ```
