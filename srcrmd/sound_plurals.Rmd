@@ -117,9 +117,21 @@ If a noun ends with [ىٰ]{.ar}, then whether the [ىٰ]{.ar} is a feminine mark
 
 ### Common nouns of the patterns [فَعْل]{.ar}/[فَعْلَة]{.ar}, [فِعْل]{.ar}/[فِعْلَة]{.ar}, and [فُعْل]{.ar}/[فُعْلَة]{.ar}
 
-If a designative noun is of the pattern [فَعْل]{.ar} [fael]{.trn} or [فَعْلَة]{.ar} [faelah]{.trn}, and the middle letter is not [و]{.ar} or [ي]{.ar}, then the $\emptyset$-mark on the middle letter will be converted to an [a]{.trn}-mark when forming the [At]{.trn} plural. Therefore, 
+Common nouns of the patterns [فَعْل]{.ar}/[فَعْلَة]{.ar}, [فِعْل]{.ar}/[فِعْلَة]{.ar}, and [فُعْل]{.ar}/[فُعْلَة]{.ar} are treated specially when forming their [At]{.trn} plural.
 
-+ [نَحْلَة]{.ar} [naHlah]{.trn} becomes [نَحَلَات]{.ar} [naHalAt]{.trn}, not [نَحْلَات]{.ar} [naHlAt]{.trn}.
+If a common noun is of these patterns and the middle root letter is not [و]{.ar} or [ي]{.ar}, and the middle and final root letters are not the same, then the word is modified internally when forming the [At]{.trn} plural.
+
+There are two separate rules to consider:
+
+i. If a common noun is of the pattern [فَعْل]{.ar} [fael]{.trn} or [فَعْلَة]{.ar} [faelah]{.trn}, then the $\emptyset$-mark on the middle letter shall be converted to an [a]{.trn}-mark [◌َ]{.ar} when forming the [At]{.trn} plural. Therefore, 
+
+  + [نَحْلَة]{.ar} [naHlah]{.trn} "a bee" becomes [نَحَلَات]{.ar} [naHalAt]{.trn} "bees", not $\times$\ [نَحْلَات]{.ar} [naHlAt]{.trn}.
+  + [ضَرْبَة]{.ar} [Darbah]{.trn} "a strike" becomes [ضَرَبَات]{.ar} [DarabAt]{.trn} "strikes", not $\times$\ [ضَرْبَات]{.ar} [DarbAt]{.trn}
+
+  If the middle root letter is [و]{.ar} or [ي]{.ar}, or the middle and final root letters are the same then this modification is not done. For example,
+
+  + [جَوْزَة]{.ar}
+  + [حَجَّة]{.ar}
 
 If a designative noun is of the pattern [فِعْل]{.ar} [fiel]{.trn}, [فِعْلَة]{.ar} [fielah]{.trn}, [فُعْل]{.ar} [fuel]{.trn}, or [فُعْلَة]{.ar} [fuelah]{.trn}, and the middle letter is not [و]{.ar} or [ي]{.ar}, then the $\emptyset$-mark on the middle letter can either:
 
