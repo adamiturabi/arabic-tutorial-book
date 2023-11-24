@@ -22,41 +22,51 @@ Arabic has two sound plurals:
 1. The [Un]{.trn} plural.
 2. The [At]{.trn} plural.
 
-We will describe each of them in detail.
+We will describe each of them in detail
+
+When translating plurals to English, we may use the subscript "3+" thus "teachers~m,3+~" in order to distinguish it from the dual "teachers~m,2~".
 
 ## The [Un]{.trn} plural
 
-The [Un]{.trn} plural is formed by adding the ending [ـُونَ]{.ar} [Una]{.trn} to the singular noun when it is in the u-state, and [ـِينَ]{.ar} [Ina]{.trn} when the noun is in the a-state or i-state. For convenience, we will call it the "[Un]{.trn} plural" instead of the "[Una]{.trn}/[Ina]{.trn} plural".
+The [Un]{.trn} plural is formed by adding the ending [◌ُونَ]{.ar} [-Una]{.trn} to the singular noun when it is in the u-state, and [◌ِينَ]{.ar} [-Ina]{.trn} when the noun is in the a-state or i-state. For convenience, we will call it the "[Un]{.trn} plural" instead of the "[-Una]{.trn}/[-Ina]{.trn} plural".
 
-| State | a (male) teacher | (male) teachers |
-|:-----------|:-------------|:-------------|
-| u-state |[مُعَلِّمٌ]{.ar} [mueallimun]{.trn} | [مُعَلِّمُونَ]{.ar} [mueallimUna]{.trn}| 
-| a-state |[مُعَلِّمًا]{.ar} [muealliman]{.trn}| [مُعَلِّمِينَ]{.ar} [mueallimIna]{.trn} | 
-| i-state |[مُعَلِّمٍ]{.ar} [mueallimin]{.trn} | [مُعَلِّمِينَ]{.ar} [mueallimIna]{.trn} |
+Here is the [Un]{.trn} plural of [مُعَلِّم]{.ar} [mueallim]{.trn} "a teacher~m~":
 
-Note that there are no [n]{.trn} marks for the [Un]{.trn} plural. Definite plural nouns are also formed in the same way:
+| State | Indefinite [Un]{.trn} plural "teachers~m,3+~"| Definite [Un]{.trn} plural "the teachers~m,3+~"|
+|:---------|:-------------|:-------------|
+| u-state         | [مُعَلِّمُونَ]{.ar} [mueallimUna]{.trn} |[ٱَلْمُعَلِّمُونَ]{.ar} [EalmueallimUna]{.trn}|
+| a- and i-states | [مُعَلِّمِينَ]{.ar} [mueallimIna]{.trn} |[ٱَلْمُعَلِّمِينَ]{.ar} [EalmueallimIna]{.trn}|
 
-| State | the (male) teacher | the (male) teachers |
-|:-----------|:-------------|:-------------|
-| u-state | [ٱَلْمُعَلِّمُ]{.ar} [Ealmueallimu]{.trn}| [ٱَلْمُعَلِّمُونَ]{.ar} [EalmueallimUna]{.trn}
-| a-state | [ٱَلْمُعَلِّمَ]{.ar} [Ealmueallima]{.trn}| [ٱَلْمُعَلِّمِينَ]{.ar} [EalmueallimIna]{.trn}  
-| i-state |[ٱَلْمُعَلِّمِ]{.ar} [Ealmueallimi]{.trn} | [ٱَلْمُعَلِّمِينَ]{.ar} [EalmueallimIna]{.trn}
+Note that, just like for duals, the indefinite [Un]{.trn} plural doesn't have [n]{.trn} marks. The only difference between the definite and indefinite [Un]{.trn} plural is the definite article [ٱَلْ]{.ar} "the". 
+
+The duals of [مُعَلِّم]{.ar} [mueallim]{.trn} "a teacher~m~" are included here for comparison:
+
+| State | Indefinite [Un]{.trn} plural "teachers~m,2~" | Definite [Un]{.trn} plural "the teachers~m,2~"|
+|:---------|:-------------|:-------------|
+| u-state         | [مُعَلِّمَانِ]{.ar} [mueallimAni]{.trn} |[ٱَلْمُعَلِّمَانِ]{.ar} [EalmueallimAni]{.trn}|
+| a- and i-states | [مُعَلِّمَيْنِ]{.ar} [mueallimayni]{.trn} |[ٱَلْمُعَلِّمَيْنِ]{.ar} [Ealmueallimayni]{.trn}|
 
 ### Applicability of the [Un]{.trn} plural
 
-Except for very few exceptions, the [Un]{.trn} plural is used only for male intelligent beings. Of these exceptions, the word [سَنَةٌ]{.ar} [sanatun]{.trn} "a year" is the most common. It is pluralized as [سِنُونَ]{.ar} [sinUna]{.trn} in the u-state and [سِنِينَ]{.ar} [sinIna]{.trn} in the a-state and i-state.
+Except for very few exceptions, the [Un]{.trn} plural is used only for male intelligent beings. We will learn some of these exceptions in chapter\ \@ref(irregular-nouns).
+
+<!--Of these exceptions, the word [سَنَةٌ]{.ar} [sanatun]{.trn} "a year" is the most common. It is pluralized as [سِنُونَ]{.ar} [sinUna]{.trn} in the u-state and [سِنِينَ]{.ar} [sinIna]{.trn} in the a-state and i-state.-->
 
 ## The [At]{.trn} plural
 
-The [At]{.trn} plural is formed by adding the ending [ـَاتٌ]{.ar} [Atun]{.trn} to the indefinite singular noun when it is in the u-state, and [ـَاتٍ]{.ar} [Atin]{.trn} when the noun is in the a-state or i-state.
+The [At]{.trn} plural is formed by adding the ending [ات]{.ar} [At]{.trn} to the indefinite singular noun. <!-- when it is in the u-state, and [ـَاتٍ]{.ar} [Atin]{.trn} when the noun is in the a-state or i-state.-->
 
-| State | an animal | animals
-|:-----------|:-------------|:-------------|
-| u-state | [حَيَوَانٌ]{.ar} [HayawAnun]{.trn}  | [حَيَوَانَاتٌ]{.ar} [HayawAnAtun]{.trn}
-| a-state | [حَيَوَانًا]{.ar} [HayawAnan]{.trn} | [حَيَوَانَاتٍ]{.ar} [HayawAnAtin]{.trn} 
-| i-state |[حَيَوَانٍ]{.ar} [HayawAnin]{.trn}   | [حَيَوَانَاتٍ]{.ar} [HayawAnAtin]{.trn} 
+Here is the [At]{.trn} plural of [حَيَوَان]{.ar} [HayawAn]{.trn} "an animal":
 
-Note that there _are_ [n]{.trn} marks for the [At]{.trn} plural. Definite plural nouns are also formed in the same way but they won't have [n]{.trn} marks:
+| State | Indefinite [Un]{.trn} plural "animals~3+~"| Definite [Un]{.trn} plural "the animals~3+~"|
+|:---------|:-------------|:-------------|
+| u-state         | [حَيَوَانَاتٌ]{.ar} [HayawAnAtun]{.trn} |[ٱَلْحَيَوَانَاتُ]{.ar} [EalHayawAnAtu]{.trn}|
+| a- and i-states | [حَيَوَانَاتٍ]{.ar} [HayawAnAtin]{.trn} |[ٱَلْحَيَوَانَاتِ]{.ar} [EalHayawAnAti]{.trn}|
+
+Note that: <!-- there _are_ [n]{.trn} marks for the [At]{.trn} plural. Definite plural nouns are also formed in the same way but they won't have [n]{.trn} marks:-->
+
++ Unlike the [Un]{.trn} sound plural, the [At]{.trn} sound plural takes [n]{.trn} marks. Also, just like for singular nouns, the final vowel on the plural ending [ات]{.ar} [At]{.trn} indicates the state of the plural.
++ The [At]{.trn} plural does not take the [a]{.trn}-mark [◌َ]{.ar} and the [an]{.trn}-mark [◌ً]{.ar}. Instead the [i]{.trn}-mark [◌ِ]{.ar} and the [in]{.trn}-mark [◌ٍ]{.ar}-mark are used to indicate both the a-state and the i-state.
 
 | State | the animal | the animals
 |:-----------|:-------------|:-------------|
@@ -64,13 +74,13 @@ Note that there _are_ [n]{.trn} marks for the [At]{.trn} plural. Definite plural
 | a-state | [ٱَلْحَيَوَانَ]{.ar} [EalHayawAna]{.trn}| [ٱَلْحَيَوَانَاتِ]{.ar} [EalHayawAnAti]{.trn}  
 | i-state |[ٱَلْحَيَوَانِ]{.ar} [EalHayawAni]{.trn} | [ٱَلْحَيَوَانَاتِ]{.ar} [EalHayawAnAti]{.trn}
 
-If a noun ends with a looped [tAE]{.trn} [ة]{.ar}, then it is removed before appending the [At]{.trn} plural ending:
+If a noun ends with a looped [tAE]{.trn} [ة]{.ar}, then it is removed before appending the [At]{.trn} plural ending. 
+Here, for example, is the [At]{.trn} plural of [مُعَلِّمَة]{.ar} [mueallimah]{.trn} "a teacher~f~":
 
-| State | a (female) teacher | (female) teachers |
-|:-----------|:-------------|:-------------|
-| u-state | [مُعَلِّمَةٌ]{.ar} [mueallimatun]{.trn}| [مُعَلِّمَاتٌ]{.ar} [mueallimAtun]{.trn}
-| a-state | [مُعَلِّمَةً]{.ar} [mueallimatan]{.trn}| [مُعَلِّمَاتٍ]{.ar} [mueallimAtin]{.trn}  
-| i-state |[مُعَلِّمَةٍ]{.ar} [mueallimatin]{.trn} | [مُعَلِّمَاتٍ]{.ar} [mueallimAtin]{.trn} 
+| State | Indefinite [Un]{.trn} plural "teachers~f,3+~"| Definite [Un]{.trn} plural "the teachers~f,3+~"|
+|:---------|:-------------|:-------------|
+| u-state         | [مُعَلِّمَاتٌ]{.ar} [mueallimAtun]{.trn} |[ٱَلْمُعَلِّمَاتُ]{.ar} [EalmueallimAtu]{.trn}|
+| a- and i-states | [مُعَلِّمَاتٍ]{.ar} [mueallimAtin]{.trn} |[ٱَلْمُعَلِّمَاتِ]{.ar} [EalmueallimAti]{.trn}|
 
 ### The [At]{.trn} plural for words ending with [اء]{.ar}
 
