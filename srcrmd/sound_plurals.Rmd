@@ -24,7 +24,7 @@ Arabic has two sound plurals:
 
 We will describe each of them in detail
 
-When translating plurals to English, we may use the subscript "3+" thus "teachers~m,3+~" in order to distinguish it from the dual "teachers~m,2~".
+<!--When translating plurals to English, we may use the subscript "3+" thus "teachers~m,3+~" in order to distinguish it from the dual "teachers~m,2~".-->
 
 ## The [Un]{.trn} plural
 
@@ -32,7 +32,7 @@ The [Un]{.trn} plural is formed by adding the ending [◌ُونَ]{.ar} [-Una]{.
 
 Here is the [Un]{.trn} plural of [مُعَلِّم]{.ar} [mueallim]{.trn} "a teacher~m~":
 
-| State | Indefinite [Un]{.trn} plural "teachers~m,3+~"| Definite [Un]{.trn} plural "the teachers~m,3+~"|
+| State | Indefinite [Un]{.trn} plural "teachers~m~"| Definite [Un]{.trn} plural "the teachers~m~"|
 |:---------|:-------------|:-------------|
 | u-state         | [مُعَلِّمُونَ]{.ar} [mueallimUna]{.trn} |[ٱَلْمُعَلِّمُونَ]{.ar} [EalmueallimUna]{.trn}|
 | a- and i-states | [مُعَلِّمِينَ]{.ar} [mueallimIna]{.trn} |[ٱَلْمُعَلِّمِينَ]{.ar} [EalmueallimIna]{.trn}|
@@ -78,7 +78,7 @@ The [At]{.trn} plural is formed by adding the ending [ات]{.ar} [At]{.trn} to t
 
 Here is the [At]{.trn} plural of [حَيَوَان]{.ar} [HayawAn]{.trn} "an animal":
 
-| State | Indefinite [Un]{.trn} plural "animals~3+~"| Definite [Un]{.trn} plural "the animals~3+~"|
+| State | Indefinite [Un]{.trn} plural "animals"| Definite [Un]{.trn} plural "the animals"|
 |:---------|:-------------|:-------------|
 | u-state         | [حَيَوَانَاتٌ]{.ar} [HayawAnAtun]{.trn} |[ٱَلْحَيَوَانَاتُ]{.ar} [EalHayawAnAtu]{.trn}|
 | a- and i-states | [حَيَوَانَاتٍ]{.ar} [HayawAnAtin]{.trn} |[ٱَلْحَيَوَانَاتِ]{.ar} [EalHayawAnAti]{.trn}|
@@ -99,7 +99,7 @@ Note that: <!-- there _are_ [n]{.trn} marks for the [At]{.trn} plural. Definite 
 If a noun ends with a looped [tAE]{.trn} [ة]{.ar}, then it is removed before appending the [At]{.trn} plural ending. 
 Here, for example, is the [At]{.trn} plural of [مُعَلِّمَة]{.ar} [mueallimah]{.trn} "a teacher~f~":
 
-| State | Indefinite [Un]{.trn} plural "teachers~f,3+~"| Definite [Un]{.trn} plural "the teachers~f,3+~"|
+| State | Indefinite [Un]{.trn} plural "teachers~f~"| Definite [Un]{.trn} plural "the teachers~f~"|
 |:---------|:-------------|:-------------|
 | u-state         | [مُعَلِّمَاتٌ]{.ar} [mueallimAtun]{.trn} |[ٱَلْمُعَلِّمَاتُ]{.ar} [EalmueallimAtu]{.trn}|
 | a- and i-states | [مُعَلِّمَاتٍ]{.ar} [mueallimAtin]{.trn} |[ٱَلْمُعَلِّمَاتِ]{.ar} [EalmueallimAti]{.trn}|
@@ -108,21 +108,21 @@ Here are some examples of the [At]{.trn} plural in sentences:
 
 + u-state:
 
-  [ٱلْمُعَلِّمَاتُ فِي ٱلْمَدْرَسَةِ.]{.ar}  
-  [EalmueallimAtu fi -lmadrasah]{.trn}  
-  "The teachers~f,3~ are in the school."
+  [فِي ٱلْمَدْرَسَةِ مُعَلِّمَاتٌ .]{.ar}  
+  [fi -lmadrasati mueallimAtun.]{.trn}  
+  "In the school are teachers."
 
 + a-state:
 
-  [أَكَلَ ٱلْأَسَدُ حَيَوَانَاتٍ فِي ٱلْغَابَة..]{.ar}  
-  [Eakala -lEasadu HayawAnAtin fi -lgAbah.]{.trn}  
-  "The lion ate some animals in the forest."
+  [نَصَرَ ٱللَّـٰهُ ٱلْمُسْلِمِينَ.]{.ar}  
+  [naSara -llAhu -lmuslimIna.]{.trn}  
+  "[#allAh]{.trn2} aided the Muslims.
 
 + i-state:
 
-  [طَلَبَتِ ٱلْجَارِيَةُ مِنَ ٱلْمُعَلِّمَاتِ عِلْمًا.]{.ar}  
-  [Talabati -ljAriyatu mina -lmueallimAti eilmA.]{.trn}  
-  "The girl sought some knowledge from the teachers~f,3~."
+  [نَظَرَ ٱلْغُلَامُ إِلَى ٱلْحَيَوَانَاتِ.]{.ar}  
+  [naPara -lgulAmu Eila -lHayawAnAti.]{.trn}  
+  "The boy looked at the animals."
 
 ### Nouns ending with [اء]{.ar}, [ىٰ]{.ar}, and [ا]{.ar}
 
