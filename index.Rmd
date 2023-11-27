@@ -132,7 +132,7 @@ options(tinytex.engine = "lualatex")
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}
 \path [decoration={text effects along path, 
-  text=The quick brown fox jumps over the lazy \arb{.hurUf-u 'l-hijA'-i},
+  text=The quick brown \txarb{ثعلب} jumps over the lazy \arb{kalb},
   text effects/.cd, 
     path from text, text along path,
     group letters, word count=\w,
