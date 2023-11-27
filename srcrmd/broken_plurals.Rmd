@@ -27,6 +27,91 @@ Most nouns in Arabic are _fully-flexible_. This means that, when indefinite, the
 
 [ذَهَبَ رَجُلٌ إِلَىٰ بَيْتٍ.]{.ar}  
 [pahaba rajulun EilA bayt.]{.trn}  
+"A man went to a house."
+
+Some nouns are _semi-flexible_. This means that they don't take [n]{.trn} marks, and also, the indefinite i-state is indicated by an [a]{.trn} mark [◌َ]{.ar}. Examples of such nouns are:
+
++ [غَضْبَىٰ^2^]{.ar} [gaDbA^2^]{.trn} _adj._ (fem.) "a very angry one~f~" from the root [غضب]{.arroot}
++ [صَحْرَاء^2^]{.ar} [SaHrAE^2^]{.trn} (fem.) "a desert~f~" from the root [صحر]{.arroot}
+
+[ذَهَبَتْ جَارِيَةٌ غَضْبَىٰ إِلَىٰ صَحْرَاءَ.]{.ar}  
+[pahabat jAriyatun gaDbA EilA SaHrAE.]{.trn}  
+"A very angry girl went to a desert."
+
+When definite, semi-flexible nouns are identical to fully-flexible nouns:
+
+[ذَهَبَتِ ٱلْجَارِيَةُ ٱلْغَضْبَىٰ إِلَى ٱلصَّحْرَاءِ.]{.ar}  
+[pahabati -ljAriyatu -lgaDbA Eila -SSaHrAE.]{.trn}  
+"The very angry girl went to the desert."
+
+All nouns that have the endings [اء]{.ar} and [ىٰ]{.ar}, that are extrinsic to the word's root, are semi-flexible.
+[اء]{.ar} and [ىٰ]{.ar} are also feminine markers for singular nouns, just like [ة]{.ar}. (Except that [ة]{.ar} does not, in general, make a noun semi-flexible.) 
+
+It is important to note that [ة]{.ar}, [اء]{.ar}, and [ىٰ]{.ar} are only feminine markers for singular nouns. We will see that they are also endings for broken plural nouns and, in that case, they are not feminine markers. However, 
+[اء]{.ar} and [ىٰ]{.ar}, when endings for broken plural nouns, will make the broken plural nouns semi-flexible, just as they do for singular nouns.
+
+Nouns that are of the patterns [فَفَافِف]{.ar}, [فَفَافِيف]{.ar}, and [فَفَافِفّ]{.ar} are also semi-flexible nouns. Here each letter [ف]{.ar} could be any letter of the alphabet. 
+These are patterns for broken plurals, as we will see very soon. 
+We had mentioned this in section\ \@ref(fafafif-diptote).
+
+This concludes our short review of word patterns and semi-flexible nouns. We will use these concepts in our discussion of broken plurals.
+
+## Patterns of the broken plural
+
+Broken plurals occur in specific patterns, which we will show using the paradigm [فعل]{.arroot} for three-letter roots. Ararbic also has (comparatively fewer) four-letter roots and we will show patterns for broken plurals of four-letter roots using the paradigm root [فعلل]{.ar}. We will also use the letter [ف]{.ar}, when needed, to indicate any letter of the alphabet.
+
+We now give some of the more common broken plural patterns:
+
+1. [فِعَال]{.ar} [fieAl]{.trn}. Examples:
+
+   |Singular|Plural|
+   |:---|:---|
+   |[رَجُل]{.ar} [rajul]{.trn} "a man" | [رِجَال]{.ar} [rijAl]{.trn} "men"|
+   |[جَبَل]{.ar} [jabal]{.trn} "a mountain" | [جِبَال]{.ar} [jibAl]{.trn} "mountains"|
+   |[أَمَة]{.ar} [Eamah]{.trn} "a female slave" | [إِمَاء]{.ar} [EimAE]{.trn} "female slaves"|
+
+1. [أَفْعَال]{.ar} [EafeAl]{.trn}. Examples:
+
+   |Singular|Plural|
+   |:---|:---|
+   |[قَلَم]{.ar} [qalam]{.trn} "a pen" | [أَقْلَام]{.ar} [EaqlAm]{.trn} "pens"|
+   |[قَدَم]{.ar} [EaqdAm]{.trn} "a foot" | [أَقْدَام]{.ar} [EaqdAm]{.trn} "feet"|
+
+1. [فُعُل]{.ar} [fueul]{.trn}. Examples:
+
+   Singular|Plural
+   :---|:---
+   [كِتَاب]{.ar} [kitAb]{.trn} "a book" | [كُتُب]{.ar} [kutub]{.trn} "books"
+   [جِدَار]{.ar} [jidAr]{.trn} "a wall" | [جُدُر]{.ar} [judur]{.trn} "walls"
+
+
+
+|Broken plural|Singular|
+|:---|:---|
+|__[فِعَال]{.arroot} [fieAl]{.trnroot}__||
+|[رِجَال]{.ar} [rijAl]{.trn} "men"           |[رَجُل]{.ar} [rajul]{.trn} "a man"          | 
+|[جِبَال]{.ar} [jibAl]{.trn} "mountains"     |[جَبَل]{.ar} [jabal]{.trn} "a mountain"     | 
+|[إِمَاء]{.ar} [EimAE]{.trn} "female slaves" |[أَمَة]{.ar} [Eamah]{.trn} "a female slave" | 
+|__[أَفْعَال]{.arroot} [EafeAl]{.trnroot}__||
+|[أَقْلَام]{.ar} [EaqlAm]{.trn} "pens"        |[قَلَم]{.ar} [qalam]{.trn} "a pen"          | 
+|[أَقْدَام]{.ar} [EaqdAm]{.trn} "feet"        |[قَدَم]{.ar} [EaqdAm]{.trn} "a foot"        | 
+|__[فُعُل]{.arroot} [fueul]{.trnroot}__||
+|[كُتُب]{.ar} [kutub]{.trn} "books"          |[كِتَاب]{.ar} [kitAb]{.trn} "a book"        | 
+|[جُدُر]{.ar} [judur]{.trn} "walls"          |[جِدَار]{.ar} [jidAr]{.trn} "a wall"        | 
+
+|Broken plural|Singular|
+|:---|:---|
+|Pattern: __[فِعَال]{.arroot} [fieAl]{.trnroot}__. Examples: ||
+|[رِجَال]{.ar} [rijAl]{.trn}                 |[رَجُل]{.ar} [rajul]{.trn} "a man"          | 
+|[جِبَال]{.ar} [jibAl]{.trn}                 |[جَبَل]{.ar} [jabal]{.trn} "a mountain"     | 
+|[إِمَاء]{.ar} [EimAE]{.trn}                 |[أَمَة]{.ar} [Eamah]{.trn} "a female slave" | 
+|Pattern: __[أَفْعَال]{.arroot} [EafeAl]{.trnroot}__. Examples: ||
+|[أَقْلَام]{.ar} [EaqlAm]{.trn}               |[قَلَم]{.ar} [qalam]{.trn} "a pen"          | 
+|[أَقْدَام]{.ar} [EaqdAm]{.trn}               |[قَدَم]{.ar} [EaqdAm]{.trn} "a foot"        | 
+|Pattern: __[فُعُل]{.arroot} [fueul]{.trnroot}__. Examples: ||
+|[كُتُب]{.ar} [kutub]{.trn}                  |[كِتَاب]{.ar} [kitAb]{.trn} "a book"        | 
+|[جُدُر]{.ar} [judur]{.trn}                  |[جِدَار]{.ar} [jidAr]{.trn} "a wall"        | 
+
 
 ## The broken plural and patterns
 
