@@ -127,26 +127,26 @@ We now give some of the more common broken plural patterns:
 
    ||
    |---:|:---|---:|:---
-   |[ﻕُﺭَّﺍﺀ]{.ar} :[ﻕَﺍﺮِﺋ]{.ar}  |a reader       |[ﻚُﻓَّﺍﺭ]{.ar} :[ﻙَﺎﻓِﺭ]{.ar}    |a disbeliever
-   |[ﺖُﺟَّﺍﺭ]{.ar} :[ﺕَﺎﺟِﺭ]{.ar}  |a trader       |[ﺞُﻫَّﺎﻟ]{.ar} :[ﺝَﺎﻬِﻟ]{.ar}    |an ignorant one
-   |[عُمَّال]{.ar} :[عَامِل]{.ar}  |a worker       ||
+   |[ﻕُﺭَّﺍﺀ]{.ar} :[ﻕَﺍﺮِﺋ]{.ar}  |a reader~m~       |[ﻚُﻓَّﺍﺭ]{.ar} :[ﻙَﺎﻓِﺭ]{.ar}    |a disbeliever~m~
+   |[ﺖُﺟَّﺍﺭ]{.ar} :[ﺕَﺎﺟِﺭ]{.ar}  |a trader~m~       |[ﺞُﻫَّﺎﻟ]{.ar} :[ﺝَﺎﻬِﻟ]{.ar}    |an ignorant one~m~
+   |[عُمَّال]{.ar} :[عَامِل]{.ar}  |a worker~m~       ||
 
 1. **[فَعَلَة]{.ar} [faealah]{.trn}**. Examples:
 
    ||
    |---:|:---|---:|:---
-   |[سَحَرَة]{.ar} :[سَاحِر]{.ar}  |a magician     |[قَتَلَة]{.ar} :[قَاتِل]{.ar}   |a killer
-   |[عَمَلَة]{.ar} :[عَامِل]{.ar}  |a labourer     |[سَادَة]{.ar} :[سَيِّد]{.ar}    |a chief
+   |[سَحَرَة]{.ar} :[سَاحِر]{.ar}  |a magician~m~     |[قَتَلَة]{.ar} :[قَاتِل]{.ar}   |a killer~m~
+   |[عَمَلَة]{.ar} :[عَامِل]{.ar}  |a labourer~m~     |[سَادَة]{.ar} :[سَيِّد]{.ar}    |a chief~m~
 
 1. **[فُعَلَة]{.ar} [fuealah]{.trn}**. Examples:
 
    ||
    |---:|:---|---:|:---
-   |[قُضَاة]{.ar} :[قَاضٍ]{.ar}  |a judge     |[رُوَاة]{.ar} :[رَاوٍ]{.ar}   |a narrator
+   |[قُضَاة]{.ar} :[قَاضٍ]{.ar}  |a judge~m~     |[رُوَاة]{.ar} :[رَاوٍ]{.ar}   |a narrator~m~
 
    Notes:
 
-   + Words like [قَاضٍ]{.ar} "a judge" and [رَاوٍ]{.ar} "a narrator" have an ommited weak letter [ي]{.ar} at their end. We will learn about these nouns in chapter\ \@ref(weak-roots).
+   + Words like [قَاضٍ]{.ar} "a judge" and [رَاوٍ]{.ar} "a narrator" are _defective_ and thus have an ommited weak letter [ي]{.ar} at their end. We will learn about these nouns in chapter\ \@ref(weak-roots).
 
 1. **[فِعَلَة]{.ar} [fiealah]{.trn}**. Examples:
 
@@ -172,11 +172,11 @@ We now give some of the more common broken plural patterns:
 
    ||
    |---:|:---|---:|:---
-   |[أَبْوَاب]{.ar} :[بَاب]{.ar}  |a door       |[أَمْوَات]{.ar} :[مَيِّت]{.ar}    |dead
-   |[أَقْلَام]{.ar} :[قَلَم]{.ar}  |a pen        |[أَشْيَاء^2^]{.ar} :[شَيْء]{.ar} |a thing
-   |[أَقْدَام]{.ar} :[قَدَم]{.ar}  |a foot       |[أَسْمَاء]{.ar} :[ٱِسْم]{.ar}    |a name
-   |[أَصْحَاب]{.ar} :[صَاحِب]{.ar} |a companion  |[أَيَّام]{.ar} :[يَوْم]{.ar}     |a day
-   |[أَشْرَاف]{.ar} :[شَرِيف]{.ar} |noble        |[أَعْدَاء]{.ar} :[عَدُوّ]{.ar}    |an enemy
+   |[أَبْوَاب]{.ar} :[بَاب]{.ar}  |a door        |[أَمْوَات]{.ar} :[مَيِّت]{.ar}    |dead
+   |[أَقْلَام]{.ar} :[قَلَم]{.ar}  |a pen         |[أَشْيَاء^2^]{.ar} :[شَيْء]{.ar} |a thing
+   |[أَقْدَام]{.ar} :[قَدَم]{.ar}  |a foot        |[أَسْمَاء]{.ar} :[ٱِسْم]{.ar}    |a name
+   |[أَصْحَاب]{.ar} :[صَاحِب]{.ar} |a companion~m~|[أَيَّام]{.ar} :[يَوْم]{.ar}     |a day
+   |[أَشْرَاف]{.ar} :[شَرِيف]{.ar} |noble         |[أَعْدَاء]{.ar} :[عَدُوّ]{.ar}    |an enemy
 
    Notes:
 
@@ -187,7 +187,7 @@ We now give some of the more common broken plural patterns:
    ||
    |---:|:---|---:|:---
    |[أَلْسِنَة]{.ar} :[لِسَان]{.ar}  |a tongue      |[أَطْعِمَة]{.ar} :[طَعَام]{.ar} |a food
-   |[أَئِمَّة]{.ar} :[إِمَام]{.ar}   |a leader      |[آلِهَة]{.ar} :[إِلَـٰه]{.ar}  |a god
+   |[أَئِمَّة]{.ar} :[إِمَام]{.ar}   |a leader~m~   |[آلِهَة]{.ar} :[إِلَـٰه]{.ar}  |a god
 
 1. **[فَوَاعِل^2^]{.ar} [fawAeil^2^]{.trn}**. Examples:
 
@@ -200,7 +200,7 @@ We now give some of the more common broken plural patterns:
 
    Notes:
 
-   + [جَوَارٍ^2^]{.ar} "girls" has an ommited weak letter [ي]{.ar} at its end. It is a semi-flexible noun but has an [n]{.trn} mark. We will learn about these nouns in more detail in chapter\ \@ref(weak-roots).
+   + [جَوَارٍ^2^]{.ar} "girls" is a _defective_ noun because and thus has an ommited weak letter [ي]{.ar} at its end. It is a semi-flexible noun but has an [n]{.trn} mark. We will learn about these nouns in more detail in chapter\ \@ref(weak-roots).
 
 1. **[فَعَائِل^2^]{.ar} [faeAEil^2^]{.trn}**. Examples:
 
@@ -238,10 +238,24 @@ We now give some of the more common broken plural patterns:
 
    ||
    |---:|:---|---:|:---
-   |[أُمَرَاء]{.ar} :[أَمِير]{.ar} |a commander |[خُلَفَاء]{.ar} :[خَلِيفَة]{.ar} |a caliph
-   |[فُقَرَاء]{.ar} :[فَقِير]{.ar} |poor        |[عُلَمَاء]{.ar} :[عَالِم]{.ar} |a scholar
-   |[بُخَلَاء]{.ar} :[بَخِيل]{.ar} |a miser     |[شُعَرَاء]{.ar} :[شَاعِر]{.ar} |a poet
-   
+   |[أُمَرَاء]{.ar} :[أَمِير]{.ar} |a commander~m~ |[خُلَفَاء]{.ar} :[خَلِيفَة]{.ar} |a caliph
+   |[فُقَرَاء]{.ar} :[فَقِير]{.ar} |a poor one~m~  |[عُلَمَاء]{.ar} :[عَالِم]{.ar}  |a scholar~m~
+   |[بُخَلَاء]{.ar} :[بَخِيل]{.ar} |a miser~m~     |[شُعَرَاء]{.ar} :[شَاعِر]{.ar}  |a poet~m~
+
+1. **[أَفْعِلَاء]{.ar} [EafeilAE]{.trn}**. Examples:
+
+   ||
+   |---:|:---|---:|:---
+   |[أَنْبِيَاء]{.ar} :[نَبِيّ]{.ar} |a prophet~m~  |[أَشِدَّاء]{.ar} :[شَدِيد]{.ar} |a forceful one~m~
+   |[أَصْدِقَاء]{.ar} :[صَدِيق]{.ar}|a friend~m~   |[أَقْوِيَاء]{.ar} :[قَوِيّ]{.ar} |a strong one~m~
+   |[أُغْنِيَاء]{.ar} :[غَنِيّ]{.ar} |a rich one~m~ |[أَشْقِيَاء]{.ar} :[شَقِيّ]{.ar} |a wretched one~m~
+
+1. **[فَعْلَىٰ]{.ar} [faelA]{.trn}**. Examples:
+
+   ||
+   |---:|:---|---:|:---
+   |[مَرْضَىٰ]{.ar} :[مَرِيض]{.ar} |a sick one~m~  |[جَرِيح]{.ar} :[جَرْحَىٰ]{.ar} |a wounded person
+   |[أَسِير]{.ar} :[أَسْرَىٰ]{.ar} |a captive      ||
 
 ## The broken plural and patterns
 
