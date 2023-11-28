@@ -62,107 +62,67 @@ Broken plurals occur in specific patterns, which we will show using the paradigm
 
 We now give some of the more common broken plural patterns:
 
-1. **[فِعَال]{.ar} [fieAl]{.trn}**. Examples:
+1. **[فُعَل]{.ar} [fueul]{.trn}**. Examples:
 
-   |Singular|Plural|
-   |:---|:---|
-   |[رَجُل]{.ar} [rajul]{.trn} "a man" | [رِجَال]{.ar} [rijAl]{.trn} "men"|
-   |[جَبَل]{.ar} [jabal]{.trn} "a mountain" | [جِبَال]{.ar} [jibAl]{.trn} "mountains"|
-   |[ٱِمْرَأَة]{.ar} [EimraEah]{.trn} "a woman" | [نِسَاء]{.ar} [nisAE]{.trn} "women"|
-   |[أَمَة]{.ar} [Eamah]{.trn} "a female slave" | [إِمَاء]{.ar} [EimAE]{.trn} "female slaves"|
+   ||
+   |---:|:---|---:|:---
+   |[صُوَر]{.ar} :[صُورَة]{.ar}  |a picture|[دُوَل]{.ar} :[دَوْلَة]{.ar} |a dynasty/state
+   |[أُمَم]{.ar} :[أُمَّة]{.ar}   |a nation |[رُكَب]{.ar} :[رُكْبَة]{.ar} |a knee
 
-   Notes:
+1. **[فُعْل]{.ar} [fueul]{.trn}**. Examples:
 
-   + [ٱِمْرَأَة]{.ar} [EimraEah]{.trn} "a woman", pl. [نِسَاء]{.ar} [nisAE]{.trn} "women" is an irregular noun and we will deal with it separately in chapter\ \@ref(irregular-nouns).
-
-1. **[أَفْعَال]{.ar} [EafeAl]{.trn}**. Examples:
-
-   |Singular|Plural|
-   |:---|:---|
-   |[قَلَم]{.ar} [qalam]{.trn} "a pen" | [أَقْلَام]{.ar} [EaqlAm]{.trn} "pens"|
-   |[قَدَم]{.ar} [EaqdAm]{.trn} "a foot" | [أَقْدَام]{.ar} [EaqdAm]{.trn} "feet"|
+   ||
+   |---:|:---|---:|:---
+   |[حُمْر]{.ar} :[أَحْمَر، حَمْرَاء]{.ar}  |red|[صُفْر]{.ar} :[دَوْلَة]{.ar} |a dynasty/state
+   |[أُمَم]{.ar} :[أُمَّة]{.ar}   |a nation |[رُكَب]{.ar} :[رُكْبَة]{.ar} |a knee
 
 1. **[فُعُل]{.ar} [fueul]{.trn}**. Examples:
 
-   |Singular|Plural|
-   |:---|:---|
-   |[كِتَاب]{.ar} [kitAb]{.trn} "a book" | [كُتُب]{.ar} [kutub]{.trn} "books"|
-   |[جِدَار]{.ar} [jidAr]{.trn} "a wall" | [جُدُر]{.ar} [judur]{.trn} "walls"|
+   ||
+   |---:|:---|---:|:---
+   |[كُتُب]{.ar} :[كِتَاب]{.ar}  |a book|[رُسُل]{.ar} :[رَسُول]{.ar}  |a messenger
+   |[جُدُر]{.ar} :[جِدَار]{.ar}  |a wall|[سُفُن]{.ar} :[سَفِينَة]{.ar} |a ship
+ 
+1. **[فِعَال]{.ar} [fieAl]{.trn}**. Examples:
 
-
-
-|Broken plural|Singular|
-|:---|:---|
-|__[فِعَال]{.arroot} [fieAl]{.trnroot}__||
-|[رِجَال]{.ar} [rijAl]{.trn} "men"           |[رَجُل]{.ar} [rajul]{.trn} "a man"          | 
-|[جِبَال]{.ar} [jibAl]{.trn} "mountains"     |[جَبَل]{.ar} [jabal]{.trn} "a mountain"     | 
-|[إِمَاء]{.ar} [EimAE]{.trn} "female slaves" |[أَمَة]{.ar} [Eamah]{.trn} "a female slave" | 
-|__[أَفْعَال]{.arroot} [EafeAl]{.trnroot}__||
-|[أَقْلَام]{.ar} [EaqlAm]{.trn} "pens"        |[قَلَم]{.ar} [qalam]{.trn} "a pen"          | 
-|[أَقْدَام]{.ar} [EaqdAm]{.trn} "feet"        |[قَدَم]{.ar} [EaqdAm]{.trn} "a foot"        | 
-|__[فُعُل]{.arroot} [fueul]{.trnroot}__||
-|[كُتُب]{.ar} [kutub]{.trn} "books"          |[كِتَاب]{.ar} [kitAb]{.trn} "a book"        | 
-|[جُدُر]{.ar} [judur]{.trn} "walls"          |[جِدَار]{.ar} [jidAr]{.trn} "a wall"        | 
-
-|Broken plural|Singular|
-|:---|:---|
-|Pattern: __[فِعَال]{.arroot} [fieAl]{.trnroot}__. Examples: ||
-|[رِجَال]{.ar} [rijAl]{.trn}                 |[رَجُل]{.ar} [rajul]{.trn} "a man"          | 
-|[جِبَال]{.ar} [jibAl]{.trn}                 |[جَبَل]{.ar} [jabal]{.trn} "a mountain"     | 
-|[إِمَاء]{.ar} [EimAE]{.trn}                 |[أَمَة]{.ar} [Eamah]{.trn} "a female slave" | 
-|Pattern: __[أَفْعَال]{.arroot} [EafeAl]{.trnroot}__. Examples: ||
-|[أَقْلَام]{.ar} [EaqlAm]{.trn}               |[قَلَم]{.ar} [qalam]{.trn} "a pen"          | 
-|[أَقْدَام]{.ar} [EaqdAm]{.trn}               |[قَدَم]{.ar} [EaqdAm]{.trn} "a foot"        | 
-|Pattern: __[فُعُل]{.arroot} [fueul]{.trnroot}__. Examples: ||
-|[كُتُب]{.ar} [kutub]{.trn}                  |[كِتَاب]{.ar} [kitAb]{.trn} "a book"        | 
-|[جُدُر]{.ar} [judur]{.trn}                  |[جِدَار]{.ar} [jidAr]{.trn} "a wall"        | 
-
-
-1. **[فِعَال]{.ar} [fieAl]{.trn}**:
-([رِجَال]{.ar}←[رَجُل]{.ar} a man);
-([عِبَاد]{.ar}←[عَبْد]{.ar} a slave~m~);
-([نِسَاء]{.ar}←[ٱِمْرَأَة]{.ar} a woman);
-([إِمَاء]{.ar}←[أَمَة]{.ar} a slave~f~);
-([إِنَاث]{.ar}←[أُنْثَىٰ^2^]{.ar} a female);
-([جِبَال]{.ar}←[جَبَل]{.ar} a mountain);
-([كِلَاب]{.ar}←[كَلْب]{.ar} a dog);
-([حِسَان]{.ar}←[حَسَن]{.ar} good/handsome);
-([صِعَاب]{.ar}←[صَعْب]{.ar} difficult);
-([صِغَار]{.ar}←[صَغِير]{.ar} small/little);
-([كِبَار]{.ar}←[كَبِير]{.ar} big);
+   ||
+   |---:|:---|---:|:---
+   |[رِجَال]{.ar} :[رَجُل]{.ar} |a man         |[نِسَاء]{.ar} :[ٱِمْرَأَة]{.ar}   |a woman
+   |[عِبَاد]{.ar} :[عَبْد]{.ar} |a slave~m~    |[إِمَاء]{.ar} :[أَمَة]{.ar}     |a slave~f~
+   |[جِبَال]{.ar} :[جَبَل]{.ar} |a mountain    |[إِنَاث]{.ar} :[أُنْثَىٰ^2^]{.ar} |a female
+   |[كِلَاب]{.ar} :[كَلْب]{.ar} |a dog         |[صِغَار]{.ar} :[صَغِير]{.ar}    |small/little
+   |[حِسَان]{.ar} :[حَسَن]{.ar} |good/handsome |[كِبَار]{.ar} :[كَبِير]{.ar}    |big
+   |[صِعَاب]{.ar} :[صَعْب]{.ar} |difficult     |                            |
 
    Notes:
 
    + The word [ٱِمْرَأَة]{.ar} [EimraEah]{.trn} "a woman"  and its plural [نِسَاء]{.ar} [nisAE]{.trn} "women" are irregular and we will discuss them separately in chapter\ \@ref(irregular-nouns).
 
-1. **[فُعُول]{.ar} [fueUl]{.trn}**:
-([أُمُور]{.ar}←[أَمْر]{.ar} a matter);
-([بُيُوت]{.ar}←[بَيْت]{.ar} a house);
-([حُقُوق]{.ar}←[حَقّ]{.ar} a truth, a right);
-([مُلُوك]{.ar}←[مَلِك]{.ar} a king);
-([سُيُوف]{.ar}←[سَيْف]{.ar} a sword);
-([جُيُوش]{.ar}←[جَيْش]{.ar} an army);
-([قُلُوب]{.ar}←[قَلْب]{.ar} a heart);
-([رُؤُوس]{.ar}←[رَأْس]{.ar} a head);
-([شُهُور]{.ar}←[شَهْر]{.ar} a month);
+1. **[فُعُول]{.ar} [fueUl]{.trn}**. Examples:
 
-1. **[أَفْعَال]{.ar} [EafeAl]{.trn}**:
-([أَبْوَاب]{.ar}←[بَاب]{.ar} a door);
-([أَقْلَام]{.ar}←[قَلَم]{.ar} a pen);
-([أَقْدَام]{.ar}←[قَدَم]{.ar} a foot);
-([أَصْحَاب]{.ar}←[صَاحِب]{.ar} a companion);
-([أَمْوَات]{.ar}←[مَيِّت]{.ar} dead);
-([أَشْيَاء^2^]{.ar}←[شَيْء]{.ar} a thing);
-([أَسْمَاء]{.ar}←[ٱِسْم]{.ar} a name);
-([أَيَّام]{.ar}←[يَوْم]{.ar} a day);
+   ||
+   |---:|:---|---:|:---
+   |[أُمُور]{.ar} :[أَمْر]{.ar} |a matter         |[جُيُوش]{.ar} :[جَيْش]{.ar} |an army
+   |[بُيُوت]{.ar} :[بَيْت]{.ar} |a house          |[قُلُوب]{.ar} :[قَلْب]{.ar} |a heart
+   |[حُقُوق]{.ar} :[حَقّ]{.ar}  |a truth, a right |[رُؤُوس]{.ar} :[رَأْس]{.ar} |a head
+   |[مُلُوك]{.ar} :[مَلِك]{.ar} |a king           |[شُهُور]{.ar} :[شَهْر]{.ar} |a month
+   |[سُيُوف]{.ar} :[سَيْف]{.ar} |a sword          |                        |
+
+1. **[أَفْعَال]{.ar} [EafeAl]{.trn}**. Examples:
+
+   ||
+   |---:|:---|---:|:---
+   |[أَبْوَاب]{.ar} :[بَاب]{.ar}  |a door       |[أَمْوَات]{.ar} :[مَيِّت]{.ar}    |dead
+   |[أَقْلَام]{.ar} :[قَلَم]{.ar}  |a pen        |[أَشْيَاء^2^]{.ar} :[شَيْء]{.ar} |a thing
+   |[أَقْدَام]{.ar} :[قَدَم]{.ar}  |a foot       |[أَسْمَاء]{.ar} :[ٱِسْم]{.ar}    |a name
+   |[أَصْحَاب]{.ar} :[صَاحِب]{.ar} |a companion  |[أَيَّام]{.ar} :[يَوْم]{.ar}     |a day
 
    Notes:
 
    + The plural [أَشْيَاء^2^]{.ar} of [شَيْء]{.ar} "a thing" is irregular in that it is semi-flexible. All other nouns on this pattern are fully-flexible.
 
-1. **[فُعُل]{.ar} [fueul]{.trn}**:
-([كُتُب]{.ar}←[كِتَاب]{.ar} a book);
-([جُدُر]{.ar}←[جِدَار]{.ar} a wall);
+  
+   
 
 ## The broken plural and patterns
 
