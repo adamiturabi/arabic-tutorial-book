@@ -236,7 +236,7 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |[مَرِيض: مَرْضَىٰ]{.ar} |a sick one~m~  |[جَرْحَىٰ: جَرِيح]{.ar} |a wounded person
     |[أَسْرَىٰ: أَسِير]{.ar} |a captive      ||
 
-23. **[فَعَالٍ^2^]{.ar} [faeAlin^2^]{.trn}**. Examples:
+23. **[فَعَالِي^2^]{.ar} [faeAlI^2^]{.trn}**. Examples:
 
     ||
     |---:|:---|---:|:---
@@ -468,6 +468,20 @@ Note the following from the above broken plural patterns and examples:
     |Root | Word pattern | Expected word | Actual word
     |:-|:--|:--|:--
     |[بيض]{.arroot} |[فُعْل]{.ar} |$\times$\ [بُيْض]{.ar} |[بِيض]{.ar}
+
+  + The weak letter [ي]{.ar}, when followed by the [ىٰ]{.ar} ending, usually modifies (in writing) it to an [ِEalif]{.trn} instead. The pronunciation is the same. For example:
+
+    |Root | Word pattern | Expected word | Actual word
+    |:-|:--|:--|:--
+    |[هدي]{.arroot} |[فَعَالَىٰ^2^]{.ar} |$\times$\ [هَدَايَىٰ^2^]{.ar} |[هَدَايَا^2^]{.ar}
+
+  + A [ي]{.ar} at the end of a word frequently gets ommitted (in the indefinite u- and i-states) and replaced by an [in]{.trn}-mark [◌ٍ]{.ar} on the preceding letter. This happend even when the [ي]{.ar} is extrinsic to the root, and even if the word is semi-flexible and would not normally accept an [n]{.trn} mark. Examples:
+
+    |Root | Word pattern | Expected word (indefinite u-state) | Actual word (indefinite u- and i-states)
+    |:-|:--|:--|:--
+    |[قضي]{.arroot} |[فَاعِل]{.ar} |$\times$\ [قَاضِيٌ]{.ar} |[قَاضٍ]{.ar}
+    |[جري]{.arroot} |[فَوَاعِل^2^]{.ar} |$\times$\ [جَوَارِيُ^2^]{.ar} |[جَوَارٍ^2^]{.ar}
+    |[ليل]{.arroot} |[فَعَالِي^2^]{.ar} |$\times$\ [لَيَالِيُ^2^]{.ar} |[لَيَالٍ^2^]{.ar}
 
 + The word [ٱِمْرَأَة]{.ar} [EimraEah]{.trn} "a woman"  and its plural [نِسَاء]{.ar} [nisAE]{.trn} "women" are irregular and we will discuss them separately in chapter\ \@ref(irregular-nouns).
 + Words like [قَاضٍ]{.ar} "a judge" and [رَاوٍ]{.ar} "a narrator" are _defective_ and thus have an ommited weak letter [ي]{.ar} at their end. We will learn about these nouns in chapter\ \@ref(defective-nouns)
