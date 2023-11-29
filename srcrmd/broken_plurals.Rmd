@@ -236,7 +236,7 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |[مَرِيض: مَرْضَىٰ]{.ar} |a sick one~m~  |[جَرْحَىٰ: جَرِيح]{.ar} |a wounded person
     |[أَسْرَىٰ: أَسِير]{.ar} |a captive      ||
 
-23. **[فَعَالِي^2^]{.ar} [faeAlI^2^]{.trn}**. Examples:
+23. **[فَعَالِي^2^]{.ar} [faeAlI^2^]{.trn}**. (Semi-flexible because of [فَفَافِف^2^]{.ar} pattern.) Examples:
 
     ||
     |---:|:---|---:|:---
@@ -314,7 +314,7 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |[سُلْطَان: سَلَاطِين^2^]{.ar}  |a sultan         |[إِعْصَار: أَعَاصِير^2^]{.ar}  |a whirlwind
     |[شَيْطَان: شَيَاطِين^2^]{.ar}  |a devil          |[تَأْرِيخ: تَوَارِيخ^2^]{.ar}  |a history
     |[سِكِّين: سَكَاكِين^2^]{.ar}   |a knife          |[تَصْوِير: تَصَاوِير^2^]{.ar}  |a picture
-    |[دِينَار: دَنَانِير^2^]{.ar}  |a [dinAr]{.trn2} |[مِفْتَاح: مَفَاتِيح^2^]{.ar}  |a key       
+    |[دِينَار: دَنَانِير^2^]{.ar}  |a [dInAr]{.trn2} |[مِفْتَاح: مَفَاتِيح^2^]{.ar}  |a key       
     |[مِسْكِين: مَسَاكِين^2^]{.ar}  |a needy person   |[مَلْعُون: مَلَاعِين^2^]{.ar}  |an accursed one~m~
     |[كُرْسِيّ: كَرَاسِيّ^2^]{.ar}    |a chair          |[يُنْبُوع: يَنَابِيع^2^]{.ar}  |a (water) spring
     |[أُمْنِيَّة: أَمَانِيّ^2^]{.ar}   |a wish           |[جَامُوس: جَوَامِيس^2^]{.ar}  |a buffalo
@@ -442,7 +442,7 @@ Note the following from the above broken plural patterns and examples:
   |[عَيْن]{.ar} |[أَعْيُن، عُيُون، أَعْيَان]{.ar}
   |[عَامِل]{.ar}|[عَامِلُونَ، عَوَامِل^2^، عَمَلَة، عُمَّال]{.ar}
 
-  We will discuss how to manage these multiple these multiple plurals in a subsequent section.
+  We will discuss how to manage these multiple plurals in a subsequent section.
 
 + Occasionally, multiple singular nouns will share the same broken plural. Examples:
 
@@ -475,21 +475,31 @@ Note the following from the above broken plural patterns and examples:
     |:-|:--|:--|:--
     |[هدي]{.arroot} |[فَعَالَىٰ^2^]{.ar} |$\times$\ [هَدَايَىٰ^2^]{.ar} |[هَدَايَا^2^]{.ar}
 
-  + A [ي]{.ar} at the end of a word frequently gets ommitted (in the indefinite u- and i-states) and replaced by an [in]{.trn}-mark [◌ٍ]{.ar} on the preceding letter. This happend even when the [ي]{.ar} is extrinsic to the root, and even if the word is semi-flexible and would not normally accept an [n]{.trn} mark. Examples:
+  + A [ي]{.ar} at the end of a word, in some states, gets ommitted  and replaced by an [in]{.trn}-mark [◌ٍ]{.ar} on the preceding letter. This happens even when the [ي]{.ar} is extrinsic to the root, and even if the word is semi-flexible (and thus would not normally accept an [n]{.trn} mark). Examples:
 
-    |Root | Word pattern | Expected word (indefinite u-state) | Actual word (indefinite u- and i-states)
+    |Root | Word pattern | Expected word  | Actual word 
     |:-|:--|:--|:--
-    |[قضي]{.arroot} |[فَاعِل]{.ar} |$\times$\ [قَاضِيٌ]{.ar} |[قَاضٍ]{.ar}
-    |[جري]{.arroot} |[فَوَاعِل^2^]{.ar} |$\times$\ [جَوَارِيُ^2^]{.ar} |[جَوَارٍ^2^]{.ar}
-    |[ليل]{.arroot} |[فَعَالِي^2^]{.ar} |$\times$\ [لَيَالِيُ^2^]{.ar} |[لَيَالٍ^2^]{.ar}
+    |[قضي]{.arroot} |[فَاعِل]{.ar} |$\times$\ [قَاضِي]{.ar} |[قَاضٍ]{.ar}
+    |[جري]{.arroot} |[فَوَاعِل^2^]{.ar} |$\times$\ [جَوَارِي^2^]{.ar} |[جَوَارٍ^2^]{.ar}
+    |[ليل]{.arroot} |[فَعَالِي^2^]{.ar} |$\times$\ [لَيَالِي^2^]{.ar} |[لَيَالٍ^2^]{.ar}
 
-+ The word [ٱِمْرَأَة]{.ar} [EimraEah]{.trn} "a woman"  and its plural [نِسَاء]{.ar} [nisAE]{.trn} "women" are irregular and we will discuss them separately in chapter\ \@ref(irregular-nouns).
-+ Words like [قَاضٍ]{.ar} "a judge" and [رَاوٍ]{.ar} "a narrator" are _defective_ and thus have an ommited weak letter [ي]{.ar} at their end. We will learn about these nouns in chapter\ \@ref(defective-nouns)
-+ The plural [أَشْيَاء^2^]{.ar} of [شَيْء]{.ar} "a thing" is irregular in that it is semi-flexible. All other nouns on this pattern are fully-flexible.
-+ [جَوَارٍ^2^]{.ar} "girls" is a _defective_ noun because and thus has an ommited weak letter [ي]{.ar} at its end. It is a semi-flexible noun but has an [n]{.trn} mark. We will learn about these nouns in more detail in chapter\ \@ref(defective-nouns).
-+ This pattern is _defective_. Therefore it ends with an [n]{.trn} mark despite being semi-flexible, like [جَوَارٍ^2^]{.ar} "girls". We will learn about these nouns in more detail in chapter\ \@ref(defective-nouns).
-+ [هَدَايَا^2^]{.ar} [hadAyA]{.trn} "gifts" is written with an [Ealif]{.trn} instead of a [ىٰ]{.ar} because of the similar [ي]{.ar} before it. We will learn about this phenomenon in chapter\ \@ref(defective-nouns)
-+ dinar dananeer
++ If there are more than four consonant letters in a word, then only four of them are selected to form the broken plural. For example:
+
+  |Singular | Plural
+  |:---|---:
+  |[عَنْكَبُوت]{.ar} "a spider" |[عَنَاكِب^2^]{.ar}
+
++ Some words have individual irrgularities as well and we will discuss them below:
+
+  + The word [ٱِمْرَأَة]{.ar} and its plural [نِسَاء]{.ar} are both irregular and we will discuss them separately in chapter\ \@ref(irregular-nouns).
+
+  + The broken plural [أَشْيَاء^2^]{.ar} [EacyAE]{.trn} (of the singular noun [شَيْء]{.ar} [cayE]{.trn} "a thing") is irregular in that it is semi-flexible. Otherwise its pattern [أَفْعَال]{.ar} [EafeAl]{.trn} is regularly fully-flexible.
+
+  + The broken plural of the singular noun [مَلَك]{.ar} [malak]{.trn} is [مَلَائِكَة]{.ar} [malAEikah]{.trn}. It is on the pattern [فَعَالِلَة]{.ar} [faeAlilah]{.trn}. But it is unusual in that the plural has an extra letter [ء]{.ar} that is missing in the singular. This is because the singular has a lesser-used variant: [مَلْأَك]{.ar} [malEak]{.trn} that is used to form the plural.
+
+  + The broken plural of the singular noun [دِينَار]{.ar} "a [dInAr]{.trn2}" is [دَنَانِير^2^]{.ar}. It is on the pattern [فَعَالِيل^2^]{.ar}. It is irregular in that there are two [ن]{.ar}'s in the plural whereas the singular only has one.
+
+  There are other words as well with similar irregularities.
 
 ## The broken plural and patterns
 
