@@ -373,7 +373,32 @@ Note the following from the above broken plural patterns and examples:
 
     [فَارِس: فَوَارِس^2^]{.ar} "a horseman" is one of a number of exceptions.
 
-+ Some words have roots that have the same letter repeated in the root. These are called _doubled_ roots. For example:
++ Some words have roots that have the same letter repeated in the root. These are called _doubled_ roots. 
+
+  + For example:
+  
+    + [دُبّ]{.ar} [dubb]{.trn} "a bear" from the root [دبّ]{.arroot} on the pattern [فُعْل]{.ar}
+    + [مَحَلَّة]{.ar} [maHallah]{.trn} "a locality" from the root [حلّ]{.arroot} on the pattern [مَفْعَلَة]{.ar}
+    + [إِمَام]{.ar} [EimAm]{.trn} "a leader" from the root [أمّ]{.arroot} on the pattern [فِعَال]{.ar}
+    + [حَقّ]{.ar} [Haqq]{.trn} "a truth, a right" from the root [حق]{.arroot} on the pattern [فَعْل]{.ar}
+    + [هِرّ]{.ar} [hirr]{.trn} "a cat~m~" from the root [هر]{.arroot} on the pattern [فِعْل]{.ar}
+
+  We will discuss doubled roots in detail in chapter\ \@ref(doubled-roots). For now we will mention the following:
+
+  + The repeated letter in the word root may get doubled or separated in the word's pattern. Frequently, the repeated letter may be doubled in the singular, and separated in the plural. Examples:
+
+    + [حَقّ: حُقُوق]{.ar}  "a truth, a right"
+    + [دُبّ: دِبَبَة]{.ar}  "a bear"
+    + [هِرّ: هِرَرَة]{.ar}  "a cat~m~"
+
+    The reverse also occurs, where the repeated letter may be separated in the singular, and doubled in the plural. Examples:
+
+    + [إِمَام: أَئِمَّة]{.ar}   "a leader~m~"
+
+  + The doubled letter may modify the basic word pattern somewhat. For example:
+
+    + The word [شَدِيد]{.ar} [cadId]{.trn} "forceful" is from the doubled root [شدّ]{.arroot}. It's broken plural is on the pattern [أَفْعِلَاء^2^]{.ar} [ِEafeilAE^2^]{.trn}. The broken plural should regularly have been [أَشْدِدَاء^2^]{.ar} [EacdidAE^2^]{.trn} but the doubled letter affected the surrounding vowel marks, and the broken plural is actually [أَشِدَّاء^2^]{.ar} [EaciddAE^2^]{.trn}.
+    + The word [مَحَلَّة]{.ar} [maHallah]{.trn} "a locality" is from the doubled root [حلّ]{.arroot}. It's broken plural is on the pattern [مَفَاعِل^2^]{.ar} [ِmafAeil^2^]{.trn}. The broken plural should regularly have been [مَحَالِل^2^]{.ar} [maHAlil^2^]{.trn} but the doubled letter affected the surrounding vowel marks, and the broken plural is actually [مَحَالّ^2^]{.ar} [maHAl^2^]{.trn}.
 
 + The word [ٱِمْرَأَة]{.ar} [EimraEah]{.trn} "a woman"  and its plural [نِسَاء]{.ar} [nisAE]{.trn} "women" are irregular and we will discuss them separately in chapter\ \@ref(irregular-nouns).
 + Words like [قَاضٍ]{.ar} "a judge" and [رَاوٍ]{.ar} "a narrator" are _defective_ and thus have an ommited weak letter [ي]{.ar} at their end. We will learn about these nouns in chapter\ \@ref(defective-nouns)
