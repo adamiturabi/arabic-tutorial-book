@@ -501,6 +501,39 @@ Note the following from the above broken plural patterns and examples:
 
   There are other words as well with similar irregularities.
 
+## Co-existence of multiple broken plurals
+
+We noted that there are often multiple broken plurals for the same singular noun. Many singular nouns even have a sound plural in addition to one or more broken plurals. Here are some examples.
+
+  |Singular | Plural
+  |:---|---:
+  |[جِدَار]{.ar}|[جُدُر، جُدْرَان]{.ar}
+  |[أَمْر]{.ar} |[أُمُور، أَوَامِر^2^]{.ar}
+  |[عَيْن]{.ar} |[أَعْيُن، عُيُون، أَعْيَان]{.ar}
+  |[عَامِل]{.ar}|[عَامِلُونَ، عَوَامِل^2^، عَمَلَة، عُمَّال]{.ar}
+
+We will deal with the co-existence of sound and broken plurals in the next section. In this section, we will explain the existence of multiple broken plurals, and when one of them is preferred or required to be used over the other. Basically, there could be a few things going on:
+
+1. Sometimes it is more or less optional which of the multiple broken plurals to use. For example, the singular noun [جِدَار]{.ar} has two broken plurals:
+[جُدُر، جُدْرَان]{.ar}
+Either could be used, more or less, interchangeably.
+
+2. Other times, the singular has multiple distinct meanings, and each of these distinct meanings is associated with its own broken plural(s). Here are some examples:
+
+   + The word [أَمْر]{.ar} [Eamr]{.trn} has two distinct meanings, each with it's own plural:
+
+     i.  "a matter". This has the broken plural [أُمُور]{.ar} [EumUr]{.trn}.
+     ii. "a command". This has the broken plural [أَوَامِر^2^]{.ar} [EawAmir^2^]{.trn}.
+
+   + The word [عَيْن]{.ar} [Eayn]{.trn} has multiple distinct meanings. There are three main meanings, and they share the broken plural with each other in the following way:
+
+     i.   "an eye". This meaning primarily uses the plural [أَعْيُن]{.ar} [Eaeyun]{.trn} but it may also use the plural [عُيُون]{.ar} [euyUn]{.trn}, and rarely also the plural [أَعْيَان]{.ar} [EaeyAn]{.trn}.
+     ii.  "a (water) spring". This meaning primarily uses the plural [عُيُون]{.ar} [euyUn]{.trn} but it may also use the plural [أَعْيُن]{.ar} [Eaeyun]{.trn}, and rarely also the plural [أَعْيَان]{.ar} [EaeyAn]{.trn}.
+     iii. "an eminent person". This meaning only uses the plural [أَعْيَان]{.ar} [EaeyAn]{.trn}.
+
+   + The word [عَامِل]{.ar} [eAmil]{.trn} has the following meanings and plurals:
+
+
 ## The broken plural and patterns
 
 Remember that Arabic nouns are derived from roots which are usually three, but sometimes four or more, letters. Also that three-letter roots and word patterns are exemplified using the template root [فعل]{.arroot}. And that four-letter roots are exemplified using the template root [فعلل]{.arroot}. For example, the word [رَجُلٌ]{.ar} [rajulun]{.trn} has the root [رجل]{.arroot} and is of the pattern [فَعُلٌ]{.ar} [faeulun]{.trn}. 
