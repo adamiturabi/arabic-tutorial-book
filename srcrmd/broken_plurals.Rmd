@@ -178,7 +178,7 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |[لِسَان: أَلْسِنَة]{.ar}  |a tongue      |[طَعَام: أَطْعِمَة]{.ar} |a food
     |[إِمَام: أَئِمَّة]{.ar}   |a leader~m~   |[إِلَـٰه: آلِهَة]{.ar}  |a god
 
-16. **[فَوَاعِل^2^]{.ar} [fawAeil^2^]{.trn}**. Examples:
+16. **[فَوَاعِل^2^]{.ar} [fawAeil^2^]{.trn}**. (Semi-flexible because of [فَفَافِف^2^]{.ar} pattern.) Examples:
 
     ||
     |---:|:---|---:|:---
@@ -187,7 +187,7 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |[أَمْر: أَوَامِر^2^]{.ar}   |a command           |[خَاتَم: خَوَاتِم^2^]{.ar} |a ring (jewelry)
     |[نَادِرَة: نَوَادِر^2^]{.ar} |a joke, a witticism |[فَارِس: فَوَارِس^2^]{.ar} |a horseman
 
-17. **[فَعَائِل^2^]{.ar} [faeAEil^2^]{.trn}**. Examples:
+17. **[فَعَائِل^2^]{.ar} [faeAEil^2^]{.trn}**. (Semi-flexible because of [فَفَافِف^2^]{.ar} pattern.) Examples:
 
     ||
     |---:|:---|---:|:---
@@ -279,7 +279,7 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |---:|:---|---:|:---
     |[صَاحِب: صَحْب]{.ar}|a companion  ||
 
-30. **[فَفَافِف^2^]{.ar} [fafAfif^2^]{.trn}**. Includes the patterns:
+30. **[فَفَافِف^2^]{.ar} [fafAfif^2^]{.trn}**. Includes the sub-patterns:
 
     + **[فَعَالِل^2^]{.ar} [faeAlil^2^]{.trn}**
     + **[أَفَاعِل^2^]{.ar} [EafAeil^2^]{.trn}**
@@ -297,7 +297,7 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |[إِصْبَع: أَصَابِع^2^]{.ar}  |a finger      |[مَعِيشَة: مَعَاىِش^2^]{.ar} |a means of subsistence      
     |[أَنْمُلَة: أَنَامِل^2^]{.ar} |a finger tip  ||
 
-31. **[فَفَافِيف^2^]{.ar} [fafAfIf^2^]{.trn}**. Includes the patterns:
+31. **[فَفَافِيف^2^]{.ar} [fafAfIf^2^]{.trn}**. Includes the sub-patterns:
 
     + **[فَعَالِيل^2^]{.ar} [faeAlIl^2^]{.trn}**
     + **[أَفَاعِيل^2^]{.ar} [EafAeIl^2^]{.trn}**
@@ -390,13 +390,13 @@ Note the following from the above broken plural patterns and examples:
 
   + For example:
   
-    |Word | Root | Pattern
-    |:-----|:-|:-
-    |[دُبّ]{.ar} [dubb]{.trn} "a bear"           |[دبّ]{.arroot} | [فُعْل]{.ar}
-    |[مَحَلَّة]{.ar} [maHallah]{.trn} "a locality" |[حلّ]{.arroot} | [مَفْعَلَة]{.ar}
-    |[إِمَام]{.ar} [EimAm]{.trn} "a leader"      |[أمّ]{.arroot} | [فِعَال]{.ar}
-    |[حَقّ]{.ar} [Haqq]{.trn} "a truth, a right" |[حق]{.arroot} | [فَعْل]{.ar}
-    |[هِرّ]{.ar} [hirr]{.trn} "a cat~m~"         |[هر]{.arroot} | [فِعْل]{.ar}
+    |Root | Word | Pattern
+    |:----|:--|:--
+    |[دبّ]{.arroot}|[دُبّ]{.ar}   "a bear"            | [فُعْل]{.ar}
+    |[حلّ]{.arroot}|[مَحَلَّة]{.ar} "a locality"        | [مَفْعَلَة]{.ar}
+    |[أمّ]{.arroot}|[إِمَام]{.ar} "a leader"          | [فِعَال]{.ar}
+    |[حقّ]{.arroot}|[حَقّ]{.ar}   "a truth, a right"  | [فَعْل]{.ar}
+    |[هرّ]{.arroot}|[هِرّ]{.ar}   "a cat~m~"          | [فِعْل]{.ar}
 
   We will discuss doubled roots in detail in chapter\ \@ref(doubled-roots). For now we will mention the following:
 
@@ -416,8 +416,10 @@ Note the following from the above broken plural patterns and examples:
 
   + The doubled letter may modify the basic word pattern somewhat. For example:
 
-    + The word [شَدِيد]{.ar} [cadId]{.trn} "forceful" is from the doubled root [شدّ]{.arroot}. It's broken plural is on the pattern [أَفْعِلَاء^2^]{.ar} [ِEafeilAE^2^]{.trn}. The broken plural should regularly have been [أَشْدِدَاء^2^]{.ar} [EacdidAE^2^]{.trn} but the doubled letter affected the surrounding vowel marks, and the broken plural is actually [أَشِدَّاء^2^]{.ar} [EaciddAE^2^]{.trn}.
-    + The word [مَحَلَّة]{.ar} [maHallah]{.trn} "a locality" is from the doubled root [حلّ]{.arroot}. It's broken plural is on the pattern [مَفَاعِل^2^]{.ar} [ِmafAeil^2^]{.trn}. The broken plural should regularly have been [مَحَالِل^2^]{.ar} [maHAlil^2^]{.trn} but the doubled letter affected the surrounding vowel marks, and the broken plural is actually [مَحَالّ^2^]{.ar} [maHAll^2^]{.trn}.
+    |Root | Word | Plural pattern | Expected plural | Actual plural
+    |:-|:--|:--|:--|:--
+    |[شدّ]{.arroot} |[شَدِيد]{.ar} |[أَفْعِلَاء^2^]{.ar} |$\times$\ [أَشْدِدَاء^2^]{.ar} |[أَشِدَّاء^2^]{.ar}
+    |[حلّ]{.arroot} |[مَحَلَّة]{.ar} |[مَفَاعِل^2^]{.ar}  |$\times$\ [مَحَالِل^2^]{.ar}  |[مَحَالّ^2^]{.ar} 
 
 + We have previously learned that the endings [ة]{.ar}, [اء]{.ar}, and [ىٰ]{.ar} that are extrinsic to the word's root are feminine markers for singular nouns. These extrinsic endings also occur for broken plurals but there, they are _not_ feminine markers.
 
