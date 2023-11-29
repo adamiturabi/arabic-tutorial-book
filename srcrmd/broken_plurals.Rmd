@@ -72,11 +72,11 @@ We now give all but the rarest broken plural patterns below. The singular and pl
 2.  **[فُعْل]{.ar} [fuel]{.trn}**. Examples:
 
     ||
-    |---:|:---|---:|:---
+    |---:|:-|---:|:-
     |[أَحْمَر^2^، حَمْرَاء^2^: حُمْر]{.ar}  |red    |[أَعْمَىٰ^2^، عَمْيَاء^2^: عُمْي]{.ar}  |blind
     |[أَصْفَر^2^، صَفْرَاء^2^: صُفْر]{.ar}  |yellow |[أَصَمّ^2^، صَمّاء^2^: صُمّ]{.ar}     |deaf
     |[أَسْوَد^2^، سَوْدَاء^2^: سُود]{.ar}  |black  |[أَبْكَم^2^، بَكْمَاء^2^: بُكْم]{.ar}  |mute
-    |[أَبْيَض^2^، بَيْضَاء^2^: بِيض]{.ar}  |white  |[نَاقَة: نُوق]{.ar}               |a she-camel
+    |[أَبْيَض^2^، بَيْضَاء^2^: بِيض]{.ar}  |white  |[نَاقَة: نُوق]{.ar}               |a camel~f~
 
 3.  **[فُعُل]{.ar} [fueul]{.trn}**. Examples:
 
@@ -417,10 +417,11 @@ Note the following from the above broken plural patterns and examples:
 
   + The doubled letter may modify the basic word pattern somewhat. For example:
 
-    |Root | Word | Plural pattern | Expected plural | Actual plural
-    |:-|:--|:--|:--|:--
-    |[شدّ]{.arroot} |[شَدِيد]{.ar} |[أَفْعِلَاء^2^]{.ar} |$\times$\ [أَشْدِدَاء^2^]{.ar} |[أَشِدَّاء^2^]{.ar}
-    |[حلّ]{.arroot} |[مَحَلَّة]{.ar} |[مَفَاعِل^2^]{.ar}  |$\times$\ [مَحَالِل^2^]{.ar}  |[مَحَالّ^2^]{.ar} 
+    |Root | Word pattern | Expected word | Actual word
+    |:-|:--|:--|:--
+    |[شدّ]{.arroot} |[أَفْعِلَاء^2^]{.ar} |$\times$\ [أَشْدِدَاء^2^]{.ar} |[أَشِدَّاء^2^]{.ar}
+    |[حلّ]{.arroot} |[مَفَاعِل^2^]{.ar}  |$\times$\ [مَحَالِل^2^]{.ar}  |[مَحَالّ^2^]{.ar} 
+    |[صمّ]{.arroot} |[أَفْعَل^2^]{.ar}  |$\times$\ [أَصْمَم^2^]{.ar}  |[أَصَمّ^2^]{.ar} 
 
 + We have previously learned that the endings [ة]{.ar}, [اء]{.ar}, and [ىٰ]{.ar} that are extrinsic to the word's root are feminine markers for singular nouns. These extrinsic endings also occur for broken plurals but there, they are _not_ feminine markers.
 
@@ -436,12 +437,37 @@ Note the following from the above broken plural patterns and examples:
 + There often exist multiple broken plurals for the same singular noun. Many times, in fact, a singular noun may have a sound plural in addition to one or more broken plurals. Examples:
 
   |Singular | Plural
-  |:---|:---
+  |:---|---:
   |[شَهْر]{.ar} |[أَشْهُر، شُهُور]{.ar}
   |[عَيْن]{.ar} |[أَعْيُن، عُيُون، أَعْيَان]{.ar}
   |[عَامِل]{.ar}|[عَامِلُونَ، عَوَامِل^2^، عَمَلَة، عُمَّال]{.ar}
 
   We will discuss how to manage these multiple these multiple plurals in a subsequent section.
+
++ Occasionally, multiple singular nouns will share the same broken plural. Examples:
+
+  |Singular | Plural
+  |:---|---:
+  |[مَكْتَب]{.ar} "an office" |[مَكَاتِب^2^]{.ar}
+  |[مَكْتَبَة]{.ar} "a library"|[مَكَاتِب^2^]{.ar}
+
+  Context will then tell us which of two meanings is intended.
+
++ The letters [ء]{.ar}, [ا]{.ar}, [و]{.ar}, and [ي]{.ar} are considered _weak_ letters. Words that one or more these weak letters in their roots are called _defective_ words. We will discuss defective words more completely in later chapters, if [#allAh]{.trn2} wills. For now, we will note the following:
+
+  + Weak letters often get interchanged with one another when going from a singular to a plural. Examples:
+
+    |Root |Singular | Plural|
+    |:--|:---|:---|
+    |[أرخ]{.arroot} | [تَأْرِيخ]{.ar} | [تَوَارِيخ^2^]{.ar}
+    |[نوق]{.arroot} | [نَاقَة]{.ar}  | [نُوق]{.ar}
+    |[ثور]{.arroot} | [ثَوْر]{.ar}   | [ثِيرَان]{.ar}
+
+  + Weak letters can affect surrounding vowels. For example:
+
+    |Root | Word pattern | Expected word | Actual word
+    |:-|:--|:--|:--
+    |[بيض]{.arroot} |[فُعْل]{.ar} |$\times$\ [بُيْض]{.ar} |[بِيض]{.ar}
 
 + The word [ٱِمْرَأَة]{.ar} [EimraEah]{.trn} "a woman"  and its plural [نِسَاء]{.ar} [nisAE]{.trn} "women" are irregular and we will discuss them separately in chapter\ \@ref(irregular-nouns).
 + Words like [قَاضٍ]{.ar} "a judge" and [رَاوٍ]{.ar} "a narrator" are _defective_ and thus have an ommited weak letter [ي]{.ar} at their end. We will learn about these nouns in chapter\ \@ref(defective-nouns)
