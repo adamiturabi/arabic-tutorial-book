@@ -170,6 +170,7 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |[قَدَم: أَقْدَام]{.ar}  |a foot        |[ٱِسْم: أَسْمَاء]{.ar}    |a name
     |[صَاحِب: أَصْحَاب]{.ar} |a companion~m~|[يَوْم: أَيَّام]{.ar}     |a day
     |[شَرِيف: أَشْرَاف]{.ar} |noble         |[عَدُوّ: أَعْدَاء]{.ar}    |an enemy
+    |[عَيْن: أَعْيَان]{.ar}  |an eminent person ||
 
 15. **[أَفْعِلَة]{.ar} [Eafeilah]{.trn}**. Examples:
 
@@ -423,16 +424,24 @@ Note the following from the above broken plural patterns and examples:
 
 + We have previously learned that the endings [ة]{.ar}, [اء]{.ar}, and [ىٰ]{.ar} that are extrinsic to the word's root are feminine markers for singular nouns. These extrinsic endings also occur for broken plurals but there, they are _not_ feminine markers.
 
-  In fact, the endings [ة]{.ar} in a broken plural tends to indicate that the singular is a masculine noun. And the [اء]{.ar} ending is only for broken plurals of male intelligent beings. 
+  In fact, in a sort of role reversal, the endings [ة]{.ar} in a broken plural tends to indicate that the singular is a masculine noun. And the [اء]{.ar} ending is only for broken plurals of male intelligent beings.  Examples:
 
-  + Examples:
+  |Singular | Plural|
+  |:---|:---|
+  |[لِسَان]{.ar} "a tongue"      |[أَلْسِنَة]{.ar} |
+  |[هِرّ]{.ar}   "a cat~m~"      |[هِرَرَة]{.ar}  |
+  |[أَمِير]{.ar} "a commander~m~"|[أُمَرَاء]{.ar} |
+  |[صَدِيق]{.ar} "a friend~m~"   |[أَصْدِقَاء]{.ar}|
 
-    |Singular | Plural|
-    |:---|:---|
-    |[لِسَان]{.ar} "a tongue"      |[أَلْسِنَة]{.ar} |
-    |[هِرّ]{.ar}   "a cat~m~"      |[هِرَرَة]{.ar}  |
-    |[أَمِير]{.ar} "a commander~m~"|[أُمَرَاء]{.ar} |
-    |[صَدِيق]{.ar} "a friend~m~"   |[أَصْدِقَاء]{.ar}|
++ There often exist multiple broken plurals for the same singular noun. Many times, in fact, a singular noun may have a sound plural in addition to one or more broken plurals. Examples:
+
+  |Singular | Plural
+  |:---|:---
+  |[شَهْر]{.ar} |[أَشْهُر، شُهُور]{.ar}
+  |[عَيْن]{.ar} |[أَعْيُن، عُيُون، أَعْيَان]{.ar}
+  |[عَامِل]{.ar}|[عَامِلُونَ، عَوَامِل^2^، عَمَلَة، عُمَّال]{.ar}
+
+  We will discuss how to manage these multiple these multiple plurals in a subsequent section.
 
 + The word [ٱِمْرَأَة]{.ar} [EimraEah]{.trn} "a woman"  and its plural [نِسَاء]{.ar} [nisAE]{.trn} "women" are irregular and we will discuss them separately in chapter\ \@ref(irregular-nouns).
 + Words like [قَاضٍ]{.ar} "a judge" and [رَاوٍ]{.ar} "a narrator" are _defective_ and thus have an ommited weak letter [ي]{.ar} at their end. We will learn about these nouns in chapter\ \@ref(defective-nouns)
