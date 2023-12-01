@@ -74,7 +74,7 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     ||
     |---:|:-|---:|:-
     |[أَحْمَر^2^، حَمْرَاء^2^: حُمْر]{.ar}  |red    |[أَعْمَىٰ^2^، عَمْيَاء^2^: عُمْي]{.ar}  |blind
-    |[أَصْفَر^2^، صَفْرَاء^2^: صُفْر]{.ar}  |yellow |[أَصَمّ^2^، صَمّاء^2^: صُمّ]{.ar}     |deaf
+    |[أَحْوَر^2^، حَوْرَاء^2^: حُور]{.ar}  |a beautiful eyed one |[أَصَمّ^2^، صَمّاء^2^: صُمّ]{.ar}     |deaf
     |[أَسْوَد^2^، سَوْدَاء^2^: سُود]{.ar}  |black  |[أَبْكَم^2^، بَكْمَاء^2^: بُكْم]{.ar}  |mute
     |[أَبْيَض^2^، بَيْضَاء^2^: بِيض]{.ar}  |white  |[نَاقَة: نُوق]{.ar}               |a camel~f~
 
@@ -101,6 +101,7 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |[كَلْب: كِلَاب]{.ar} |a dog         |[صَغِير: صِغَار]{.ar}    |small/little
     |[حَسَن: حِسَان]{.ar} |good/handsome |[كَبِير: كِبَار]{.ar}    |big
     |[صَعْب: صِعَاب]{.ar} |difficult     |[كِرَام: كَرِيم]{.ar}    |noble
+    |[غَضْبَان^2^، غَضْبَىٰ^2^: غِضَاب]{.ar} |very angry     ||
 
 6.  **[فُعُول]{.ar} [fueUl]{.trn}**. Examples:
 
@@ -475,13 +476,21 @@ Note the following from the above broken plural patterns and examples:
     |:-|:--|:--|:--
     |[هدي]{.arroot} |[فَعَالَىٰ^2^]{.ar} |$\times$\ [هَدَايَىٰ^2^]{.ar} |[هَدَايَا^2^]{.ar}
 
-  + A [ي]{.ar} at the end of a word, in some states, gets ommitted  and replaced by an [in]{.trn}-mark [◌ٍ]{.ar} on the preceding letter. This happens even when the [ي]{.ar} is extrinsic to the root, and even if the word is semi-flexible (and thus would not normally accept an [n]{.trn} mark). Examples:
+  + A [ي]{.ar} at the end of a word, in some states, gets omitted  and replaced by an [in]{.trn}-mark [◌ٍ]{.ar} on the preceding letter. This happens even when the [ي]{.ar} is extrinsic to the root, and even if the word is semi-flexible (and thus would not normally accept an [n]{.trn} mark). Examples:
 
     |Root | Word pattern | Expected word  | Actual word 
     |:-|:--|:--|:--
     |[قضي]{.arroot} |[فَاعِل]{.ar} |$\times$\ [قَاضِي]{.ar} |[قَاضٍ]{.ar}
     |[جري]{.arroot} |[فَوَاعِل^2^]{.ar} |$\times$\ [جَوَارِي^2^]{.ar} |[جَوَارٍ^2^]{.ar}
     |[ليل]{.arroot} |[فَعَالِي^2^]{.ar} |$\times$\ [لَيَالِي^2^]{.ar} |[لَيَالٍ^2^]{.ar}
+
+  + Weak letters can also get omitted in the singular and resurface in the plural. Examples:
+
+    |Root |Singular | Plural|
+    |:--|:---|:---|
+    |[أخو]{.arroot} | [أَخ]{.ar} | [إِخْوَان، إِخْوَة]{.ar}
+    |[أمو]{.arroot} | [أَمَة]{.ar} | [إِمَاء]{.ar}
+
 
 + If there are more than four consonant letters in a word, then only four of them are selected to form the broken plural. For example:
 
@@ -584,15 +593,20 @@ So, for example, [قَتَلَة]{.ar} is preferred over [قَاتِلُونَ]{
 
 #### Female intelligent beings
 
-Remember from section\ \@ref(conditions-for-the-at-plural) that, with very few exceptions, all nouns that end with a feminine marker 
+Remember from section\ \@ref(conditions-for-the-at-plural) that, generally, all nouns that end with feminine markers
 ([ة]{.ar}, [اء]{.ar}, and [ىٰ]{.ar}) 
 can form the [At]{.trn} sound plural.
 
-There are only a handful of nouns that denote female intelligent beings that only have broken plurals and don't form sound plurals, like: 
+There are some nouns that are excepted from this statement. These nouns only have broken plurals and don't form sound plurals. For female intelligent beings, these nouns are:
 
-+ [ٱِمْرَأَة]{.ar} "a woman", plural: [نِسَاء]{.ar}
-+ [أَمَة]{.ar} "a slave~f~", plural: [إِمَاء]{.ar}
-+ [أُنْثَىٰ]{.ar} "a female", plural: [إِنَاث]{.ar}
++ Adjectival nouns of the pattern [فَعْلَاء^2^]{.ar} which is the feminine of the masculine adjectival noun pattern [أَفْعَل^2^]{.ar}. For example, [حور]{.arroot} [حَوْرَاء]{.ar} [HawrAE]{.trn} "a beautiful eyed one~f~" uses the broken plural [حُور]{.ar} [HUr]{.trn}
+
++ Adjectival nouns of the pattern [فَعْلَىٰ^2^]{.ar} which is the feminine of the masculine adjectival noun pattern [فَعْلَان^2^]{.ar}. For example, [غضب]{.arroot} [غَضْبَىٰ]{.ar} [gaDbA]{.trn} "very angry~f~" uses the broken plural [غِضَاب]{.ar} [giDAb]{.trn}.
+
++ The following exceptional nouns:
+
+  + [ٱِمْرَأَة]{.ar} "a woman", broken plural: [نِسَاء]{.ar}
+  + [أَمَة]{.ar} "a slave~f~", broken plural: [إِمَاء]{.ar}
 
 In the case of these nouns we have no choice but to use the broken plural.
 
@@ -609,7 +623,7 @@ for
 
 The following are excepted from this general statement:
 
-+ Broken plurals of the pattern [فُعْل]{.ar} [fuel]{.trn} for nouns that denote colors and physical characteristics. For example: the plural of [حَوْرَاء]{.ar} [HawrAE]{.trn} "a beautiful eyed one~f~" is the [At]{.trn} sound plural [حُور]{.ar} [HUr]{.trn}.
++ [أُنْثَىٰ]{.ar} "a female", plural: [إِنَاث]{.ar}. The [At]{.trn} sound plural is almost unused for this word.
 
 + Broken plurals of the patterns:
  
