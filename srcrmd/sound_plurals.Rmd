@@ -129,6 +129,27 @@ Here are some examples of the [At]{.trn} sound plural in sentences:
   [naPara -lgulAmu Eila -lHayawAnAti.]{.trn}  
   "The boy looked at the animals."
 
+### Nouns ending with [اء]{.ar}
+
+Consistent with what we learned for duals in section\ \@ref(duals-of-extrinsic-alif-mamduda),
+if a noun ends with the feminine marker [اء]{.ar} which is extrinsic to the word's root then the [ء]{.ar} shall be replaced with a [و]{.ar} when forming the [At]{.trn} sound plural.
+Example:
+
+|Root|Singular| [At]{.trn} sound plural|
+|:-|:-----|:--|
+|[صحر]{.arroot}|[صَحْرَاء^2^]{.ar} [SaHrAE^2^]{.trn} "a desert" |[صَحْرَاوَات]{.ar} [SaHrAwAt]{.trn} |
+
+
+### Nouns ending with [ىٰ]{.ar} 
+
+Consistent with what we learned for duals in section\ \@ref(duals-of-extrinsic-alif-maqsura),
+If a noun ends with [ىٰ]{.ar} which is extrinsic to the word's root then the [ىٰ]{.ar} shall be changed to a [يَ]{.ar} when when forming the [At]{.trn} sound plural. Examples:
+
+|Root|Singular| [At]{.trn} sound plural|
+|:-|:-----|:--|
+|[ذكر]{.arroot}|[ذِكْرَىٰ^2^]{.ar} [pikrA^2^]{.trn} "a remembrance" | [ذِكْرَيَات]{.ar} [pikrayAt]{.trn} |
+
+<!--
 ### Nouns ending with [اء]{.ar}, [ىٰ]{.ar}, [ا]{.ar}, and [اة]{.ar} {#at-plural-for-defective-nouns}
 
 As with duals, nouns that end with [اء]{.ar}, [ىٰ]{.ar}, [ا]{.ar}, and [اة]{.ar} are treated specially when forming their [At]{.trn} sound plural. Examples of such nouns are:
@@ -140,7 +161,6 @@ As with duals, nouns that end with [اء]{.ar}, [ىٰ]{.ar}, [ا]{.ar}, and [ا�
 
 We will learn how to form the [At]{.trn} sound plural of these words in later chapters, if [#allAh]{.trn2} wills.
 
-<!--
 ### The [At]{.trn} sound plural for words ending with [اء]{.ar}
 
 If a noun ends with an [اء]{.ar} then the [hamzah]{.trn} may either be retained or get converted to a [و]{.ar} when forming the [At]{.trn} sound plural. This is done based on the same rules as for the dual which we explained in the previous chapter.
@@ -303,27 +323,42 @@ We provide the following guidelines to help you determine if a noun can form an 
 
 #### Nouns that end with a feminine marker
 
-With very few exceptions, all nouns that end with a feminine marker like
+Generally, all nouns that end with a feminine marker like
 [ة]{.ar}, [اء]{.ar}, and [ىٰ]{.ar}
-are able to form an [At]{.trn} plural. This includes both common nouns and adjectival nouns.
+are able to form an [At]{.trn} plural.
+<!--
+This includes both common nouns and adjectival nouns.
 
 As mentioned in section\ \@ref(at-plural-for-defective-nouns) above, we will learn how to form plurals for nouns that end with 
 [اء]{.ar}, and [ىٰ]{.ar}
 later, if [#allAh]{.trn2} wills.
 So, for now, we will focus on nouns that end with [ة]{.ar}.
+-->
 Examples are:
 
-+ [حَسَنَة]{.ar} [Hasanah]{.trn} _adj._ "a good one" forms the [At]{.trn} plural [حَسَنَات]{.ar} [HasanAt]{.trn} "good ones".
-+ [حَسَنَة]{.ar} [Hasanah]{.trn} (common noun) "a good deed" also forms the same [At]{.trn} plural [حَسَنَات]{.ar} [HasanAt]{.trn} "good deeds".
-+ [صَدِيقَة]{.ar} [SadIqah]{.trn} "a friend~f~" forms the [At]{.trn} plural [صَدِيقَات]{.ar} [SadIqAt]{.trn} "friends~f~".
+|Singular| [At]{.trn} sound plural|
+|:-------|:--|
+|[حَسَنَة]{.ar} [Hasanah]{.trn} _adj._ "a good one~f~"     |[حَسَنَات]{.ar} [HasanAt]{.trn}|
+|[حَسَنَة]{.ar} [Hasanah]{.trn} (common noun) "a good deed"| [حَسَنَات]{.ar} [HasanAt]{.trn}|
+|[صَدِيقَة]{.ar} [SadIqah]{.trn} "a friend~f~"             |[صَدِيقَات]{.ar} [SadIqAt]{.trn}|
+|[صَحْرَاء^2^]{.ar} [SaHrAE^2^]{.trn} "a desert"           |[صَحْرَاوَات]{.ar} [SaHrAwAt]{.trn} |
+|[ذِكْرَىٰ^2^]{.ar} [pikrA^2^]{.trn} "a remembrance"        | [ذِكْرَيَات]{.ar} [pikrayAt]{.trn} |
 
-The very few exceptions include:
+The following are exceptions to this general rule, and don't form [At]{.trn} sound plurals:
 
-+ [أُمَّة]{.ar} [Eummah]{.trn} "a nation"
-+ [أَمَة]{.ar} [Eamah]{.trn} "a female slave"
-+ [شَفَة]{.ar} [cafah]{.trn} "a lip"
++ Adjectival nouns of the pattern [فَعْلَاء^2^]{.ar} which is the feminine of the masculine adjectival noun pattern [أَفْعَل^2^]{.ar}. For example, [حمر]{.arroot} [حَمْرَاء]{.ar} [HamrAE]{.trn} "red~f~".
 
-These nouns form broken plurals instead.
++ Adjectival nouns of the pattern [فَعْلَىٰ^2^]{.ar} which is the feminine of the masculine adjectival noun pattern [فَعْلَان^2^]{.ar}. For example, [غضب]{.arroot} [غَضْبَىٰ]{.ar} [gaDbA]{.trn} "very angry~f~".
+
++ The following exceptional nouns:
+
+  + [أُمَّة]{.ar} [Eummah]{.trn} "a nation"
+  + [أَمَة]{.ar} [Eamah]{.trn} "a female slave"
+  + [شَفَة]{.ar} [cafah]{.trn} "a lip"
+
+  There are a few more such nouns, some of which we will introduce later.
+
+All these exceptional nouns form broken plurals instead of the [At]{.trn} sound plural.
 
 #### Nouns that don't end with a feminine marker
 
