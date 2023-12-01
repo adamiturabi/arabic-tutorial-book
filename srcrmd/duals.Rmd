@@ -65,6 +65,7 @@ If a feminine noun does not have a looped [tAE]{.trn} then it will simply be app
 + u-state: [أُمَّانِ]{.ar} [EummAni]{.trn}
 + a-state and i-state: [أُمَّيْنِ]{.ar} [Eummayni]{.trn}
 
+<!--
 ### Nouns ending with [اء]{.ar}, [ىٰ]{.ar}, and [ا]{.ar}
 
 Nouns that end with [اء]{.ar}, [ىٰ]{.ar}, and [ا]{.ar} are treated specially when forming their dual. Examples of such nouns are:
@@ -78,15 +79,24 @@ Nouns that end with [اء]{.ar}, [ىٰ]{.ar}, and [ا]{.ar} are treated speciall
 + [ٱَلْعَصَا]{.ar} [EaleaSA]{.trn} "the staff"
 
 We will learn how to form duals of these words in later chapters, if [#allAh]{.trn2} wills.
-
-<!--
+-->
 ### Nouns ending with [اء]{.ar}
 
 If a noun ends with the feminine marker [اء]{.ar} which is extrinsic to the word's root then the [ء]{.ar} shall be replaced with a [و]{.ar} when forming the dual.
+Examples:
+
+|Root|Singular| Dual (u-state) |Dual (a- and i-states)|
+|:-|:-----|:--|:--|
+|[صحر]{.arroot}|[صَحْرَاء]{.ar} [SaHrAE]{.trn} "a desert" |[صَحْرَاوَانِ]{.ar} [SaHrAwAni]{.trn} |[صَحْرَاوَيْنِ]{.ar} [SaHrAwayni]{.trn}|
+|[حمر]{.arroot}|[حَمْرَاء]{.ar} [HamrAE]{.trn} "red~f~" |[حَمْرَاوَانِ]{.ar} [HamrAwAni]{.trn} |[حَمْرَاوَيْنِ]{.ar} [HamrAwayni]{.trn}|
+
+There are other words where the [ء]{.ar} in the [اء]{.ar} ending originates from the word's root. 
 Example:
 
-[صَحْرَاء]{.ar} [SaHrAE]{.trn} "a desert", from the root [صحر]{.arroot}, becomes [صَحْرَاوَانِ]{.ar} [SaHrAwAni]{.trn} and [صَحْرَاوَيْنِ]{.ar} [SaHrAwayni]{.trn} "deserts~2~".
++ [خبء]{.arroot} [خِبَاء]{.ar}  (masc.) "a tent", pattern: [فِعَال]{.ar}
 
+We will learn how to form duals of these words in later chapters, if [#allAh]{.trn2} wills.
+<!--
 There are some words where the [ء]{.ar} in the [اء]{.ar} is part of the word's root. In this case it remains a hamzah when forming the dual. For example:
 
 The word [خِبَاء]{.ar} [xibAE]{.trn} "a tent" is from the root [خبء]{.arroot} and is on the pattern [فِعَال]{.ar}. Its duals are [خِبَاءَانِ]{.ar} (u-state), and [خِبَاءَيْنِ]{.ar} (a-state and i-state) "tents~2~".
@@ -96,18 +106,24 @@ There are other words where the [ء]{.ar} in the [اء]{.ar} ending was original
 
 + [دُعَاء]{.ar} [dueAE]{.trn} "a call" from the root [دعو]{.arroot} on the pattern [فُعَال]{.ar}.
 + [جَزَاء]{.ar} [jazAE]{.trn} "a reward" from the root [جزي]{.arroot} on the pattern [فَعَال]{.ar}.
-
 We will learn about forming the duals for these words when we study roots that have weak letters, if [#allAh]{.trn2} wills.
+-->
 
 ### Nouns ending with [ىٰ]{.ar}
 
-If a noun ends with [ىٰ]{.ar} which is extrinsic to the word's root then the [ىٰ]{.ar} shall be changed to a [يَ]{.ar} when adding the dual suffixes. For example,  
+If a noun ends with [ىٰ]{.ar} which is extrinsic to the word's root then the [ىٰ]{.ar} shall be changed to a [يَ]{.ar} when adding the dual suffixes. Examples:
 
-[غَضْبَىٰ]{.ar} [gaDbA]{.trn} (root: [غضب]{.arroot}) becomes [غَضْبَيَانِ]{.ar} [gaDbayAni]{.trn} and [غَضْبَيَيْنِ]{.ar} [gaDbayayni]{.trn}.
+|Root|Singular| Dual (u-state) |Dual (a- and i-states)|
+|:-|:-----|:--|:--|
+|[غضب]{.arroot}|[غَضْبَىٰ]{.ar} [gaDbA]{.trn} "very angry~f~" | [غَضْبَيَانِ]{.ar} [gaDbayAni]{.trn} | [غَضْبَيَيْنِ]{.ar} [gaDbayayni]{.trn}|
+|[ذكر]{.arroot}|[ذِكْرَىٰ]{.ar} [pikrA]{.trn} "a remembrance" | [ذِكْرَيَانِ]{.ar} [pikrayAni]{.trn} | [ذِكْرَيَيْنِ]{.ar} [pikrayayni]{.trn} |
 
-Just like in the case of [اء]{.ar}, there are some words where [ىٰ]{.ar} is not extrinsic to the word's root, like [ٱَلْهُدَىٰ]{.ar} [EalhudA]{.trn} "the guidance" whose root is [هدي]{.arroot}. 
-We will learn about forming the duals for these words when we study roots that have weak letters, if [#allAh]{.trn2} wills.
--->
+Just like in the case of [اء]{.ar}, there are some words where [ىٰ]{.ar} is not extrinsic to the word's root.
+Example:
+
++ [هدي]{.arroot} [ٱلْهُدَىٰ]{.ar}  (masc.) "the guidance", pattern: [ٱَلْفُعَل]{.ar}
+
+We will learn how to form duals of these words in later chapters, if [#allAh]{.trn2} wills.
 
 ## Dual describers and describees in adjectival-noun-phrases
 
