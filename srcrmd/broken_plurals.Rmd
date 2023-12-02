@@ -94,14 +94,20 @@ We now give all but the rarest broken plural patterns below. The singular and pl
 5.  **[فِعَال]{.ar} [fieAl]{.trn}**. Examples:
 
     ||
-    |---:|:---|---:|:---
-    |[رَجُل: رِجَال]{.ar} |a man         |[ٱِمْرَأَة: نِسَاء]{.ar}   |a woman
-    |[عَبْد: عِبَاد]{.ar} |a slave~m~    |[أَمَة: إِمَاء]{.ar}     |a slave~f~
-    |[جَبَل: جِبَال]{.ar} |a mountain    |[أُنْثَىٰ^2^: إِنَاث]{.ar} |a female
-    |[كَلْب: كِلَاب]{.ar} |a dog         |[صَغِير: صِغَار]{.ar}    |small/little
-    |[حَسَن: حِسَان]{.ar} |good/handsome |[كَبِير: كِبَار]{.ar}    |big
-    |[صَعْب: صِعَاب]{.ar} |difficult     |[كِرَام: كَرِيم]{.ar}    |noble
-    |[غَضْبَان^2^، غَضْبَىٰ^2^: غِضَاب]{.ar} |very angry     ||
+    |---:|:---|---:|:-----
+    |[رَجُل: رِجَال]{.ar}     |a man             |[حَسَن: حِسَان]{.ar}     |_adj._ a good one~m~
+    |[ٱِمْرَأَة: نِسَاء]{.ar}   |a woman           |[حَسَنَة: حِسَان]{.ar}    |_adj._ a good one~f~
+    |[أُنْثَىٰ^2^: إِنَاث]{.ar} |a female          |[صَعْب: صِعَاب]{.ar}     |_adj._ a difficult one~m~
+    |[عَبْد: عِبَاد]{.ar}     |a slave~m~        |[صَعْبَة: صِعَاب]{.ar}    |_adj._ a difficult one~f~
+    |[أَمَة: إِمَاء]{.ar}     |a slave~f~        |[صَغِير: صِغَار]{.ar}    |_adj._ a small one~m~
+    |[جَبَل: جِبَال]{.ar}     |a mountain        |[صَغِيرَة: صِغَار]{.ar}   |_adj._ a small one~f~
+    |[ثَوب: ثِيَاب]{.ar}     |a garment         |[كَبِير: كِبَار]{.ar}    |_adj._ a big one~m~
+    |[رِيح: رِيَاح]{.ar}     |a wind            |[كَبِيرَة: كِبَار]{.ar}   |_adj._ a big one~f~
+    |[مَرَّة: مِرَار]{.ar}     |an occasion       |[ضَعِيف: ضِعَاف]{.ar}    |_adj._ a weak one~m~
+    |[بَحْر: بِحَار]{.ar}     |a sea             |[ضَعِيفَة: ضِعَاف]{.ar}   |_adj._ a weak one~f~
+    |[عَمُود: عِمَاد]{.ar}    |a pillar          |[كِرَام: كَرِيم]{.ar}    |_adj._ a noble one~m~
+    |[رَوْضَة: رِيَاض]{.ar}    |a garden          |[غَضْبَان^2^: غِضَاب]{.ar}|_adj._ a very angry~m~
+    |[رُمْح: رِمَاح]{.ar}     |a spear           |[غَضْبَىٰ^2^: غِضَاب]{.ar} |_adj._ a very angry~f~
 
 6.  **[فُعُول]{.ar} [fueUl]{.trn}**. Examples:
 
@@ -119,7 +125,8 @@ We now give all but the rarest broken plural patterns below. The singular and pl
 
     ||
     |---:|:---|---:|:---
-    |[رَاكِع، راكعَة: رُكَّع]{.ar} |a matter         |[غَائِب: غُيَّب]{.ar} |absent
+    |[رَاكِع: رُكَّع]{.ar}  |one who bowes~m~ |[غَائِب: غُيَّب]{.ar} |absent
+    |[راكعَة: رُكَّع]{.ar} |one who bowes~f~ ||
 
 8.  **[فُعَّال]{.ar} [fueeAl]{.trn}**. Examples:
 
@@ -198,6 +205,7 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |[حَدِيقَة: حَدَائِق^2^]{.ar}    |a garden    |[حَاجَة: حَوَائِج^2^]{.ar}  |a need
     |[حَقِيبَة: حَقَائِب^2^]{.ar}    |a bag       |[دَلِيل: دَلَائِل^2^]{.ar}  |an evidence
     |[كَبِيرَة: كَبَائِر^2^]{.ar}    |a major sin |[خَلِيفَة: خَلَائِف^2^]{.ar} |a successor
+    |[كَرِيمَة: كَرَائِم^2^]{.ar}    |a noble one~f~ ||
 
 18. **[فِعْلَان]{.ar} [fielAn]{.trn}**. Examples:
 
@@ -570,7 +578,9 @@ Some nouns have both sound and broken plurals for more or less the same meaning.
 |[قَاتِل]{.ar}  | a killer       |[قَاتِلُونَ]{.ar} |[قَتَلَة]{.ar}
 |[كَافِر]{.ar}  | a disbeliever  |[كَافِرُونَ]{.ar} |[كُفَّار]{.ar}
 |[كَبِير]{.ar}  | a big one~m~   |[كَبِيرُونَ]{.ar} |[كِبَار]{.ar}
+|[كَبِيرَة]{.ar} | a big one~f~   |[كَبِيرَات]{.ar} |[كِبَار]{.ar}
 |[صَغِير]{.ar}  | a small one~m~ |[صَغِيرُونَ]{.ar} |[صِغَار]{.ar}
+|[صَغِيرَة]{.ar} | a small one~f~ |[صَغِيرَات]{.ar} |[صِغَار]{.ar}
 |[رَاكِع]{.ar}  | one who bows~m~|[رَاكِعُونَ]{.ar} |[رُكَّع]{.ar}
 |[رَاكِعَة]{.ar} | one who bows~f~|[رَاكِعَات]{.ar} |[رُكَّع]{.ar}
 |[صَاحِبَة]{.ar} | a companion~f~ |[صَاحِبَات]{.ar} |[صَوَاحِب^2^]{.ar}
@@ -610,16 +620,16 @@ There are some nouns that are excepted from this statement. These nouns only hav
 
 In the case of these nouns we have no choice but to use the broken plural.
 
-For other nouns that denote female intelligent beings, the use of the [At]{.trn} sound plural is preferred over any broken plurals that the noun may have. This applies to both common nouns and adjectival nouns.
+For other nouns that denote female intelligent beings, the use of the [At]{.trn} sound plural is preferred over any broken plurals that the noun may have.
 
 So, for example,
 the use of the [At]{.trn} sound plural
-[رَاكِعَات]{.ar} 
+[صَغِيرَات]{.ar}
 is preferred over the broken plural
-[رُكَّع]{.ar}
-for 
-[رَاكِعَة]{.ar} 
-"one who bows~f~"
+[صِغَار]{.ar} 
+for the adjectival noun
+[صَغِيرَة]{.ar} 
+"a small one~f~"
 
 The following are excepted from this general statement:
 
@@ -630,7 +640,7 @@ The following are excepted from this general statement:
   + [فَوَاعِل^2^]{.ar} [fawAeil^2^]{.trn}
   + [فَعَائِل^2^]{.ar} [faeAEil^2^]{.trn}
 
-  These broken plural patterns are, in fact, predominantly used for female intelligent beings, and non-intelligent beings. So the broken plural [جَوَارٍ^2^]{.ar} "girls" may be used freely as the plural of [جَارِيَة]{.ar} "a girl" and is not preferred over by [جَارِيَات]{.ar}. Similarly, [صَوَاحِب^2^]{.ar} may be used freely as the plural of [صَاحِبَة]{.ar}.
+  These broken plural patterns are, in fact, predominantly used for female intelligent beings and non-intelligent beings, and only rarely for male intelligent beings. So the broken plural [جَوَارٍ^2^]{.ar} "girls" may be used freely as the plural of [جَارِيَة]{.ar} "a girl" and is not preferred over by [جَارِيَات]{.ar}. Similarly, [صَوَاحِب^2^]{.ar} may freely be used as the plural of [صَاحِبَة]{.ar}.
 
   Only a few nouns denoting male intelligent beings have broken plurals on these patterns, like:
 
