@@ -105,7 +105,7 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |[رِيح: رِيَاح]{.ar}     |a wind            |[كَبِيرَة: كِبَار]{.ar}   |_adj._ a big one~f~
     |[مَرَّة: مِرَار]{.ar}     |an occasion       |[ضَعِيف: ضِعَاف]{.ar}    |_adj._ a weak one~m~
     |[بَحْر: بِحَار]{.ar}     |a sea             |[ضَعِيفَة: ضِعَاف]{.ar}   |_adj._ a weak one~f~
-    |[عَمُود: عِمَاد]{.ar}    |a pillar          |[كِرَام: كَرِيم]{.ar}    |_adj._ a noble one~m~
+    |[عَمُود: عِمَاد]{.ar}    |a pillar          |[كِرَام: كَرِيم]{.ar}    |_adj._ a generous one~m~
     |[رَوْضَة: رِيَاض]{.ar}    |a garden          |[غَضْبَان^2^: غِضَاب]{.ar}|_adj._ a very angry~m~
     |[رُمْح: رِمَاح]{.ar}     |a spear           |[غَضْبَىٰ^2^: غِضَاب]{.ar} |_adj._ a very angry~f~
 
@@ -177,7 +177,7 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |[قَلَم: أَقْلَام]{.ar}  |a pen         |[شَيْء: أَشْيَاء^2^]{.ar} |a thing
     |[قَدَم: أَقْدَام]{.ar}  |a foot        |[ٱِسْم: أَسْمَاء]{.ar}    |a name
     |[صَاحِب: أَصْحَاب]{.ar} |a companion~m~|[يَوْم: أَيَّام]{.ar}     |a day
-    |[شَرِيف: أَشْرَاف]{.ar} |noble         |[عَدُوّ: أَعْدَاء]{.ar}    |an enemy
+    |[شَرِيف: أَشْرَاف]{.ar} |a noble one~m~|[عَدُوّ: أَعْدَاء]{.ar}    |an enemy
     |[طِفْل: أَطْفَال]{.ar}  |a child       |[عَيْن: أَعْيَان]{.ar}    |an eminent person
 
 15. **[أَفْعِلَة]{.ar} [Eafeilah]{.trn}**. Examples:
@@ -205,7 +205,7 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |[حَدِيقَة: حَدَائِق^2^]{.ar}    |a garden    |[حَاجَة: حَوَائِج^2^]{.ar}  |a need
     |[حَقِيبَة: حَقَائِب^2^]{.ar}    |a bag       |[دَلِيل: دَلَائِل^2^]{.ar}  |an evidence
     |[كَبِيرَة: كَبَائِر^2^]{.ar}    |a major sin |[خَلِيفَة: خَلَائِف^2^]{.ar} |a successor
-    |[كَرِيمَة: كَرَائِم^2^]{.ar}    |a noble one~f~ ||
+    |[كَرِيمَة: كَرَائِم^2^]{.ar}    |a generous one~f~ ||
 
 18. **[فِعْلَان]{.ar} [fielAn]{.trn}**. Examples:
 
@@ -678,11 +678,11 @@ Either or both of the describer and the describee may be sound plurals or broken
 Here are some examples:
 
 [لَعِبَ ٱلطِّفْلُ ٱلصَّغِيرُ مَعَ ٱلْغِلْمَانِ ٱلْكِبَارِ.]{.ar}  
-[laeiba -TTiflu -SSagIru maea -lgilmAni -lbibAr.]{.trn}  
+[laeiba -TTiflu -SSagIru maea -lgilmAni -lkibAr.]{.trn}  
 "The small child played with the big boys."
 
 [أَخَذَ ٱلتِّلْمِيذُ ٱلْعِلْمَ عَنِ ٱلْمُعَلِّمِينَ ٱلْكِرَامِ.]{.ar}  
-[Eaxapa -ttilmIpu -leilma eani -lmueallimIna -lkirAmi.]{.trn}  
+[Eaxapa -ttilmIpu -leilma eani -lmueallimIna -lkirAm.]{.trn}  
 "The pupil took knowledge from the noble teachers."
 
 [لِلْجَارِيَةِ صَوَاحِبُ طَيِّبَاتٌ.]{.ar}  
@@ -696,6 +696,57 @@ Here are some examples:
 [خَدَمَ ٱلرَّجُلُ ٱلصَّالِحُ ٱلْغَنِيُّ ٱلْفُقَرَاءَ ٱلضِّعَافَ مِنَ ٱلْيَتَامَىٰ ٱلصِّغَارِ.]{.ar}  
 [xadama -rrajulu -SSAliHu -lganiyyu -lfuqarAEa -DDieAfa mina -lyatAmA -SSigAr.]{.trn}  
 "The rich righteous man served the weak poor ones from the little orphans."
+
+### Plurals in subject-information sentences
+
+If the subject of a sentence is a plural denoting intelligent beings then the information typically matches it in being a plural. This is especially the case if the information is an adjectival noun. For example:
+
+[ٱلْغِلْمَانُ أَطْفَالٌ طَيِّبُونَ.]{.ar}  
+[EalgilmAnu EaTfAlun TayyibUn.]{.trn}  
+"The boys are good children."
+
+[ٱَلرِّجَالُ أَغْنِيَاءُ.]{.ar}  
+[EarrijAlu EagniyAE.]{.trn}  
+"The men are rich."
+
+[ٱَلْمُعَلِّمَاتُ عَالِمَاتٌ.]{.ar}  
+[EalmueallimAtu eAlimAt,]{.trn}  
+"The teachers~f~ are scholars~f~."
+
+Sometimes the information may not match the subject in plurality because of the meaning of the sentence. For example:
+
+[ٱَلْمُسْلِمُونَ أَمَّةٌ.]{.ar}  
+[EalmuslimUna Eummah.]{.trn}  
+"The Muslims are a nation."
+
+[ٱَلْجِيرَانُ ٱلطَّيِّبُونَ نِعْمَةٌ مِنَ ٱللَّـٰهِ.]{.ar}  
+[EaljIrAnu -TTayyibUna niematun mina -llAh.]{.trn}  
+"Good neighbors are a blessing from Allah."
+
+With regards to detached pronouns, the same detached pronouns are used with detached plurals that we learned for in section\ \@ref(detached-plural-pronouns) for sound plurals. Examples:
+
+[أَنْتُنَّ نِسَاءٌ كَرِيمَاتٌ.]{.ar}  
+[Eantunna nisAEun karImAt.]{.trn}  
+"You~3,f~ are generous women."
+
+[أَنْتُمْ شُبَّانٌ شُجْعَانٌ.]{.ar}  
+[Eantum cubbAnun cujeAnun]{.trn}  
+"You~m,3~ are courageous young men."
+
+[ٱَلشَّيَاطِينُ هُمُ ٱلْمَلَاعِنُ.]{.ar}  
+[EaccayATInu humu -lmalAeIn.]{.trn}  
+"The devils are the accursed ones."
+
+[هُنَّ نِسَاءٌ غَنِيَّاتٌ.]{.ar}  
+[hunna nisAEun ganiyyAt.]{.trn}  
+"They~3,f~ are rich women."
+
+[نَحْنُ غِلْمَانٌ أَصْدِقَاءُ.]{.ar}  
+[naHnu gilmAnun EaSdiqAE.]{.trn}  
+"We are boys who are friends."
+
+### Plurals with verbs
+
 
 ## The broken plural and patterns
 
