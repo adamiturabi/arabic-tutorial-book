@@ -178,7 +178,7 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |[قَدَم: أَقْدَام]{.ar}  |a foot        |[ٱِسْم: أَسْمَاء]{.ar}    |a name
     |[صَاحِب: أَصْحَاب]{.ar} |a companion~m~|[يَوْم: أَيَّام]{.ar}     |a day
     |[شَرِيف: أَشْرَاف]{.ar} |noble         |[عَدُوّ: أَعْدَاء]{.ar}    |an enemy
-    |[عَيْن: أَعْيَان]{.ar}  |an eminent person ||
+    |[طِفْل: أَطْفَال]{.ar}  |a child       |[عَيْن: أَعْيَان]{.ar}    |an eminent person
 
 15. **[أَفْعِلَة]{.ar} [Eafeilah]{.trn}**. Examples:
 
@@ -222,28 +222,29 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |[بَلَد: بُلْدَان]{.ar}  |a country     |[شُجَاع: شُجْعَان]{.ar} |a brave one
     |[جِدَار: جُدْرَان]{.ar} |a wall        |[شَابّ: شُبَّان]{.ar}   |a young man
 
-20. **[فُعَلَاء]{.ar} [fuealAE]{.trn}**. Examples:
+20. **[فُعَلَاء^2^]{.ar} [fuealAE^2^]{.trn}**. Examples:
 
     ||
     |---:|:---|---:|:---
-    |[أَمِير: أُمَرَاء]{.ar} |a commander~m~ |[خَلِيفَة: خُلَفَاء]{.ar} |a caliph
-    |[فَقِير: فُقَرَاء]{.ar} |a poor one~m~  |[عَالِم: عُلَمَاء]{.ar}  |a scholar~m~
-    |[بَخِيل: بُخَلَاء]{.ar} |a miser~m~     |[شَاعِر: شُعَرَاء]{.ar}  |a poet~m~
+    |[أَمِير: أُمَرَاء^2^]{.ar} |a commander~m~ |[خَلِيفَة: خُلَفَاء^2^]{.ar} |a caliph
+    |[فَقِير: فُقَرَاء^2^]{.ar} |a poor one~m~  |[عَالِم: عُلَمَاء^2^]{.ar}  |a scholar~m~
+    |[بَخِيل: بُخَلَاء^2^]{.ar} |a miser~m~     |[شَاعِر: شُعَرَاء^2^]{.ar}  |a poet~m~
+    |[ضَعِيف: ضُعَفَاء^2^]{.ar} |a weak one~m~  ||
 
-21. **[أَفْعِلَاء]{.ar} [EafeilAE]{.trn}**. Examples:
-
-    ||
-    |---:|:---|---:|:---
-    |[نَبِيّ: أَنْبِيَاء]{.ar} |a prophet~m~  |[شَدِيد: أَشِدَّاء]{.ar} |a forceful one~m~
-    |[صَدِيق: أَصْدِقَاء]{.ar}|a friend~m~   |[قَوِيّ: أَقْوِيَاء]{.ar} |a strong one~m~
-    |[غَنِيّ: أُغْنِيَاء]{.ar} |a rich one~m~ |[شَقِيّ: أَشْقِيَاء]{.ar} |a wretched one~m~
-
-22. **[فَعْلَىٰ]{.ar} [faelA]{.trn}**. Examples:
+21. **[أَفْعِلَاء^2^]{.ar} [EafeilAE^2^]{.trn}**. Examples:
 
     ||
     |---:|:---|---:|:---
-    |[مَرِيض: مَرْضَىٰ]{.ar} |a sick one~m~  |[جَرِيح: جَرْحَىٰ]{.ar} |a wounded person
-    |[أَسِير: أَسْرَىٰ]{.ar} |a captive      ||
+    |[نَبِيّ: أَنْبِيَاء^2^]{.ar} |a prophet~m~  |[شَدِيد: أَشِدَّاء^2^]{.ar} |a forceful one~m~
+    |[صَدِيق: أَصْدِقَاء^2^]{.ar}|a friend~m~   |[قَوِيّ: أَقْوِيَاء^2^]{.ar} |a strong one~m~
+    |[غَنِيّ: أُغْنِيَاء^2^]{.ar} |a rich one~m~ |[شَقِيّ: أَشْقِيَاء^2^]{.ar} |a wretched one~m~
+
+22. **[فَعْلَىٰ^2^]{.ar} [faelA^2^]{.trn}**. Examples:
+
+    ||
+    |---:|:---|---:|:---
+    |[مَرِيض: مَرْضَىٰ^2^]{.ar} |a sick one~m~  |[جَرِيح: جَرْحَىٰ^2^]{.ar} |a wounded person
+    |[أَسِير: أَسْرَىٰ^2^]{.ar} |a captive      ||
 
 23. **[فَعَالِي^2^]{.ar} [faeAlI^2^]{.trn}**. (Semi-flexible because of [فَفَافِف^2^]{.ar} pattern.) Examples:
 
@@ -526,6 +527,7 @@ We noted that there are often multiple broken plurals for the same singular noun
   |:---|:---|---:
   |[جِدَار]{.ar}|a wall              |[جُدُر، جُدْرَان]{.ar}
   |[شَهْر]{.ar} |a month             |[أَشْهُر، شُهُور]{.ar}
+  |[ضَعِيف]{.ar}|a weak one~m~       |[ضِعَاف، ضُعَفَاء^2^]{.ar}
   |[أَمْر]{.ar} |a matter; a command |[أُمُور، أَوَامِر^2^]{.ar}
   |[عَيْن]{.ar} |an eye; a (water) spring; an eminent person |[أَعْيُن، عُيُون، أَعْيَان]{.ar}
   |[عَامِل]{.ar}|a worker; a labourer; a factor              |[عَامِلُونَ، عَوَامِل^2^، عَمَلَة، عُمَّال]{.ar}
@@ -536,7 +538,11 @@ We will deal with the co-existence of sound and broken plurals in the next secti
 [جُدُر، جُدْرَان]{.ar}
 Either could be used, more or less, interchangeably.
 
-2. Other times, the singular has multiple distinct meanings, and each of these distinct meanings is associated with its own broken plural(s). Here are some examples:
+2. Sometimes, the usage of one of the plurals may be restricted. For example, [ضِعَاف]{.ar} and [ضُعَفَاء]{.ar} are both broken plurals of the masculine adjectival noun [ضَعِيف]{.ar} "a weak one~m~". For male intelligent beings, like "weak men", either of the two plurals could be used. But remember that broken plurals that end with an extrinsic [اء]{.ar} ending may only be used for male intelligent beings. So the plural [ضُعَفَاء]{.ar} may only be used for male intelligent beings like "men" or "boys", and not for masculine nouns that denote non-intelligent beings like "lions" or "pens", etc.
+
+   Interestingly, [ضِعَاف]{.ar} is also shared as the broken plural for the feminine adjectival noun [ضَعِيفَة]{.ar} "a weak one~f~". So it can be used for plurals of feminine nouns, both for female intelligent beings like "women" and "girls", and for feminie nouns that denote non-intelligent beings like "trees".
+
+3. Other times, the singular has multiple distinct meanings, and each of these distinct meanings is associated with its own broken plural(s). Here are some examples:
 
    + The word [أَمْر]{.ar} [Eamr]{.trn} has two distinct meanings, each with it's own plural:
 
@@ -555,7 +561,7 @@ Either could be used, more or less, interchangeably.
      ii. "a labourer~m~". This uses the plural [عَمَلَة]{.ar} [eamalah]{.trn}.
      iii. "a factor". This uses the plural [عَوَامِل^2^]{.ar} [eawAmil^2^]{.trn}.
 
-3. Arabic has what are known as _plurals of fewness_. These are specific patterns that may (sometimes, but not always) be used when the persons or things denoted by the plural are only a few (ten or less) and not many. These patterns are:
+4. Arabic has what are known as _plurals of fewness_. These are specific patterns that may (sometimes, but not always) be used when the persons or things denoted by the plural are only a few (ten or less) and not many. These patterns are:
 
    i. [فِعْلَة]{.ar} [fielah]{.trn}
    ii. [أَفْعُل]{.ar} [Eafeul]{.trn}
@@ -653,7 +659,43 @@ In conclusion, with the general preference of using the [At]{.trn} sound plural 
 
 For non-intelligent beings, the broken plural is preferred for use over [At]{.trn} sound plurals.
 
-So, for example, [حَدَائِق^2^]{.ar} [HadAEiq^2^]{.trn} is preferred over [حَدِيقَات]{.ar} [HadIqAt]{.trn} as the plural of [حَدِيقَة]{.ar}. Although, [حَدِيقَات]{.ar} [HadIqAt]{.trn} is also correct.
+So, for example, [حَدَائِق^2^]{.ar} [HadAEiq^2^]{.trn} is preferred over [حَدِيقَات]{.ar} [HadIqAt]{.trn} as the plural of [حَدِيقَة]{.ar}, though both are correct. 
+
+## Usage of plurals of intelligent beings
+
+We will now discuss how plurals are used in Arabic. Using plurals is more complicated than using duals.
+
+In order to explain their usage systematically, we will treat plurals of intelligent beings separately from the plurals of non-intelligent beings.
+
+The usage of plurals of intelligent beings is more straightforward and in line with what we have studied for duals. We will discuss adjectival noun phrases, subject-information sentences, and verbal sentences.
+
+### Plurals in adjectival noun phrases
+
+Consistent with what we have learned so far, when the describee in a noun-phrase is plural, then the describer comes after it, and matches it in state, definiteness, gender, and number.
+
+Either or both of the describer and the describee may be sound plurals or broken plurals.
+
+Here are some examples:
+
+[لَعِبَ ٱلطِّفْلُ ٱلصَّغِيرُ مَعَ ٱلْغِلْمَانِ ٱلْكِبَارِ.]{.ar}  
+[laeiba -TTiflu -SSagIru maea -lgilmAni -lbibAr.]{.trn}  
+"The small child played with the big boys."
+
+[أَخَذَ ٱلتِّلْمِيذُ ٱلْعِلْمَ عَنِ ٱلْمُعَلِّمِينَ ٱلْكِرَامِ.]{.ar}  
+[Eaxapa -ttilmIpu -leilma eani -lmueallimIna -lkirAmi.]{.trn}  
+"The pupil took knowledge from the noble teachers."
+
+[لِلْجَارِيَةِ صَوَاحِبُ طَيِّبَاتٌ.]{.ar}  
+[liljAriyati SawAhibu TayyibAt.]{.trn}  
+"The girl has good companions~f~."
+
+[فِي ٱلسُّوقِ تُجَّارٌ صَادِقُونَ.]{.ar}  
+[fi -ssUqi tujjArun SadiqUn.]{.trn}  
+"In the market are honest traders."
+
+[خَدَمَ ٱلرَّجُلُ ٱلصَّالِحُ ٱلْغَنِيُّ ٱلْفُقَرَاءَ ٱلضِّعَافَ مِنَ ٱلْيَتَامَىٰ ٱلصِّغَارِ.]{.ar}  
+[xadama -rrajulu -SSAliHu -lganiyyu -lfuqarAEa -DDieAfa mina -lyatAmA -SSigAr.]{.trn}  
+"The rich righteous man served the weak poor ones from the little orphans."
 
 ## The broken plural and patterns
 
