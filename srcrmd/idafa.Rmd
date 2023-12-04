@@ -1,6 +1,48 @@
-# Noun-chains
+# Annexation
 
 ## Introduction
+
+Consider the following expressions:
+
++ "the boy's book"
++ "the book of the boy"
+
+Both expressions are, more or less, equivalent in meaning. They both establish a relation of _belonging_ between the two nouns: (i)\ "the boy", and (ii)\ "the book". The expressions state that the book _belongs_ to the boy.
+
+Arabic expresses this meaning using an construction called _annexation_. In this chapter we will learn about this construction.
+
+## Forming the annexation
+
+The word "annexation" is used when a new thing is added on to an existing base. We use the term "annexation" in Arabic grammar when one word is added on to another word by being placed right before it. Here is an example of an annexation:
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{ٱلْغُلَامِ} \txarb{كِتَابُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below=1ex] {\footnotesize base};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, below=1ex] {\footnotesize annexe};
+
+%\draw [decoration={brace, mirror, raise=3ex}, decorate] 
+%   (word-1.south west) -- (word-2.south east)
+%      node [midway, below=3ex] {annexation};
+\end{tikzpicture}
+```
+
+
+
+## Remove
 
 In Arabic we may chain two or more nouns in a sequence to establish an "of" relationship between them, in order to express, for example,
 
