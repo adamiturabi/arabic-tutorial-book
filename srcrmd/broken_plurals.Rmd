@@ -802,7 +802,7 @@ So, for example, the noun [بَيت]{.ar} [bayt]{.trn} denotes the inanimate obj
 
 Plurals of inanimate objects and animals (both male and female) are treated the same way. It doesn't matter what the grammatical or physical gender of the singular is or whether it has a sound or broken plural. Examples:
 
-[هِيَ ثِيرَانٌ وَحْشَة.]{.ar}  
+[هِيَ ثِيرَانٌ وَحْشَةٌ.]{.ar}  
 [هِيَ ثِيرَانٌ وُحُوشٌ.]{.ar}  
 [هُنَّ ثِيرَانٌ وَحْشَاتٌ.]{.ar}  
 "They are wild bulls."
@@ -825,9 +825,35 @@ Plurals of inanimate objects and animals (both male and female) are treated the 
 "In the box are wonderful things."  
 (Note how [أَشْيَاء^2^]{.ar} is indefinite but has no [n]{.trn}-mark. This is because it is irregularly semi-flexible.)
 
-<!--
-By the way, this rule only applies to adjectival nouns in the describee or the information. A common noun in the describer or information will continue match the describee or subject in gender and number. Examples,
+By the way, this rule only applies to adjectival nouns in the describee or the information. A common noun in the describer or information will continue match the describee or subject in gender and number.
 
+For example, if you say:
+
+[ٱَلْأَفْعَالُ ٱلصَّالِحَةُ هِيَ ٱلْحَسَنَةُ.]{.ar}  
+"The righteous acts are the good ones."
+
+then [حَسَنَة]{.ar} may only be the feminine adjectival noun "a good one".
+
+If instead you want to use [حَسَنَة]{.ar} with its common noun meaning of "a good deed", then you have the use the plural:
+
+[ٱَلْأَفْعَالُ ٱلصَّالِحَةُ هِيَ ٱلْحَسَنَاتُ.]{.ar}  
+"The acts are the good deeds."
+
+The plural [هِي]{.ar} may continue to be used instead of [هُنَّ]{.ar}, although the latter is also valid:
+
+[ٱَلْأَفْعَالُ ٱلصَّالِحَةُ هُنَّ ٱلْحَسَنَاتُ.]{.ar}  
+"The acts are the good deeds."
+
+Similarly, if an adjectival noun connoting a non-intelligent being is used not as a describer or an information in a sentence, then it should be pluralized to indicate plurality.
+
+[ٱَلْحَيَوَانَاتُ صَغِيرَةٌ وَكَبِيرَةٌ. ٱَلْكَبِيرَاتُ وَحْشَةٌ.]{.ar}  
+"The animals are big and small. The big ones are wild."
+
+In the second sentence above, we could not have said (for the same meaning):
+
+$\times$\ [ٱَلْحَيَوَانَاتُ صَغِيرَةٌ وَكَبِيرَةٌ. __ٱَلْكَبِيرَةُ__ وَحْشَةٌ.]{.ar}  
+
+<!--
 [ٱَلْحَيَوَانَاتُ كِلَاب.]{.ar}  
 for  
 "They are male dogs."
@@ -904,399 +930,4 @@ then this might be misinterpreted to mean that only one cat (the one that didn't
 So we might prefer to say, instead:
 
 [ثُمَّ ذَهَبْنَ.]{.ar}  
-
-## The broken plural and patterns
-
-Remember that Arabic nouns are derived from roots which are usually three, but sometimes four or more, letters. Also that three-letter roots and word patterns are exemplified using the template root [فعل]{.arroot}. And that four-letter roots are exemplified using the template root [فعلل]{.arroot}. For example, the word [رَجُلٌ]{.ar} [rajulun]{.trn} has the root [رجل]{.arroot} and is of the pattern [فَعُلٌ]{.ar} [faeulun]{.trn}. 
-
-Arabic broken plurals fall into patterns. The plural of [رَجُلٌ]{.ar} [rajulun]{.trn} is [رِجَالٌ]{.ar} [rijAlun]{.trn}. The pattern of this plural is [فِعَالٌ]{.ar} [fieAlun]{.trn}, which is a common plural pattern. Another broken plural with this pattern is [جِبَالٌ]{.ar} [jibAlun]{.trn} "mountains" plural of [جَبَلٌ]{.ar} [jabalun]{.trn} "a mountain".
-
-Note that, plurals of the pattern [فِعَالٌ]{.ar} [fieAlun]{.trn} are fully-changing so they have an [n]{.trn}-mark when indefinite, which will depend on the state of the plural. Here is an example sentence:
-
-[صَعَدَ رِجَالٌ جًبَالًا]{.ar}  
-[Saeada -rrijAlu jibAlan.]{.trn}  
-"The men went up the mountain."
-
-There are other plural patterns which are non-fully-changing, for example, [أَغْنِيَاءُ]{.ar} [EagniyAEu]{.trn}, plural of [غَنِيٌ]{.ar} [ganiyyun]{.trn} "rich", of the pattern [أَفْعِلَاءُ]{.ar} [EafeilAEu]{.trn}.  Note that this plural pattern ends with [اء]{.ar} which is external to the root [فعل]{.arroot}. [اء]{.ar}, [ة]{.ar}, and [ىٰ]{.ar}, when external to the root, are feminine markers for singular nouns, but not for plural nouns.  However, just like for singular nouns, when a broken plural ends with [اء]{.ar} or [ىٰ]{.ar} which is external to its root, the broken plural will be non-fully-changing.
-
-Unfortunately, there is often not much relation between the pattern of the singular and the pattern of the plural. So you should memorize the plural of a noun with its singular.
-
-## Common patterns for the broken plural
-
-Here are some of the more common broken plural patterns:
-
-Pattern | Example
-:-------------|:---------------------------------
-[أَفْعَالٌ]{.ar} [EafeAlun]{.trn} | [أَعْمَالٌ]{.ar} [EaemAlun]{.trn} "deeds" plural of [عَمَلٌ]{.ar} [eamalun]{.trn} "a deed"
-[فُعُولٌ]{.ar} [fueUlun]{.trn}   | [قُلُوبٌ]{.ar} [qulUbun]{.trn} "hearts" plural of [قَلْبٌ]{.ar} [qalbun]{.trn} "a heart"
-[فِعَالٌ]{.ar} [fieAlun]{.trn}   | [رِجَالٌ]{.ar} [rijAlun]{.trn} "men" plural of [رَجُلٌ]{.ar} [rajulun]{.trn} "a man"
-[فُعُلٌ]{.ar} [fueulun]{.trn}    | [كُتُبٌ]{.ar} [kutubun]{.trn} "books" plural of [كِتَابٌ]{.ar} [kitAbun]{.trn} "a book"
-[فَعْلَىٰ]{.ar} [faelA]{.trn} (non-fully-changing)    | [أَسْرَىٰ]{.ar} [EasrA]{.trn} "captives" plural of [أَسِيرٌ]{.ar} [EasIrun]{.trn} "a captive"
-[فُعَلَاءُ]{.ar} [fueAlAEu]{.trn} (non-fully-changing) | [عُلَمَاءُ]{.ar} [eulAmAEu]{.trn} "(male) scholars" plural of [عَالِمٌ]{.ar} [eAlimun]{.trn} "a (male) scholar"
-[أَفْعِلَاءُ]{.ar} [EafeilAEu]{.trn} (non-fully-changing) | [أَغْنِيَاءُ]{.ar} [EagniyAEu]{.trn} "rich"
-[فُعْلَانٌ]{.ar} [fuelAnun]{.trn} | [بُلْدَانٌ]{.ar} [buldAnun]{.trn} "countries" plural of [بَلَدٌ]{.ar} [baladun]{.trn} "a country"
-[فِعْلَانٌ]{.ar} [fielAnun]{.trn} | [غِلْمَان]{.ar} [gilmAn]{.trn} "boys" plural of [غُلَام]{.ar} [gulAm]{.trn} "boy"
-[فَعَالِلُ]{.ar} [faeAlilu]{.trn} | a
-
-Note the following:
-
-+ Some broken plurals end with [ة]{.ar}, and [اء]{.ar} and [ىٰ]{.ar} which are external to the word's root. These are feminine markers for singular nouns but not for plural nouns.
-+ [اء]{.ar} and [ىٰ]{.ar} that external to the word's root cause broken plurals to be non-fully-changing.
-+ There are other non-fully-changing patterns for broken plurals: [mafAeilu]{.trn}, etc.
-+ The broken plural patterns [فُعْلَان]{.ar} and [فِعْلَان]{.ar} are fully-changing, even though they end with an [ان]{.ar} which is external to the word's root. This ending only makes a noun non-fully-changing if it is a proper noun, or a singular qualitative noun, along with other conditions, that we listed, which must also be satisfied.
-<!-- should mafAeilu be separate from faeAlilu? -->
-
-
-## Existence of broken plurals for types of nouns
-
-The use of broken plurals is a little complicated, and their use in poetry and rhetorical style can be somewhat different from normal usage. Here we will describe whether they are found, and how to use them for the different noun categories according to normal usage.
-
-1. Designative nouns:
-   a. Male rational beings: Very commonly found. Examples:
-      + [غِلْمَانٌ]{.ar} [gilmAnun]{.trn} "boys", plural of [غُلَامٌ]{.ar} [gulAmun]{.trn} "a boy".
-      + [عُلَمَاءُ]{.ar} [eulamAEu]{.trn} "(male) scholars", plural of [عَالِمٌ]{.ar} [eAlimun]{.trn} "a (male) scholar".
-   b. Female rational beings: Uncommon but not unfound. Examples:
-      + [نِسَاءٌ]{.ar} [nisAEun]{.trn} "women", plural of [ٱِمْرَأَةٌ]{.ar} [EimraEatun]{.trn} "a woman". This is the most commonly used broken plural for female rational beings. Yet it is irregular in the sense that the singular and plural are formed from different roots ([مرء]{.arroot} and [نسو]{.arroot} respectively.)
-      + [إِمَاءٌ]{.ar} [EimAEun]{.trn} "slave-women", plural of [أَمَةٌ]{.ar} [Eamatun]{.trn} "a slave-woman"
-      + [حَرَائِرُ]{.ar} [HarAEiru]{.trn} "free-women", plural of [حُرَّةٌ]{.ar} [Hurratun]{.trn} "a free-woman".
-
-      Typically, though, female rational beings will use the [At]{.trn} sound plural, for example [عَالِمَاتٌ]{.ar} [eAlimAtun]{.trn}, plural of [عَالِمَةٌ]{.ar} [eAlimatun]{.trn} "a (female) scholar".
-   c. Non-rational beings (both masculine and feminine): very common. Examples:
-      + [هِرَرٌ]{.ar} [hirarun]{.trn} "cats", plural of [هِرَّةٌ]{.ar} [hirratun]{.trn} "a cat".
-      + [سُيُوفٌ]{.ar} [suyUfun]{.trn} "swords", plural of [سَيْفٌ]{.ar} [sayfun]{.trn} "a sword".
-2. Qualitative nouns:
-   a. Male rational beings: Very common. Examples:
-      + [أَغْنِيَاءُ]{.ar} [EagniyAEu]{.trn}, plural of [غَنِيٌ]{.ar} [ganiyyun]{.trn} "rich (masc.)".
-      + [كِرَامٌ]{.ar} [kirAmun]{.trn}, plural of [كَرِيمٌ]{.ar} [karImun]{.trn} "noble, generous (masc.)".
-      + [ٱَلرِّجَالُ ٱلْأَغْنِيَاءُ كِرَامٌ.]{.ar}  
-        [EarrijAlu -lEagniyAEu kirAmun.]{.trn}  
-        "The rich men are generous."
-   b. Female rational beings: Apart from a few exceptions, this is almost unused in normal usage. The [At]{.trn} plural is used instead, for example [ عَالِمَاتٌ كَرِيمَاتٌ]{.ar} [eAlimAtun karImAtun]{.trn} "noble (female) scholars".
-   c. Non-rational beings: also unused in normal usage. The [At]{.trn} plural is used instead, as we'll see soon, if Allah wills. REMOVE: The feminine singular is used for describers in a noun-phrase or for descrptive nouns in the information of a sentence. The [At]{.trn} plural is used otherwise. Example:  
-      [ٱَلْكُتُبُ ٱلْكَبِيرَةُ ثَقِيلَةٌ وَٱلصَّغِيرَاتُ خَفِيفَةٌ.]{.ar}  
-      [Ealkutubu -lkabIratu vaqIlatun wa-SSagIrAtu xafIfatun.]{.trn}  
-      "The big books are heavy and the small ones are light."
-
-## Existence of more than one broken plural for a noun
-
-Some nouns have multiple broken plurals that can be used, more or less, interchangeably. For example:
-
-+ [طُلَّابٌ]{.ar} [TullAbun]{.trn} and [طَلَبَةٌ]{.ar} [Talabatun]{.trn} plurals of [طَلِبٌ]{.ar} [Talibun]{.trn} "a (male) student".
-+ [شُهُورٌ]{.ar} [cuhUrun]{.trn} and [أَشْهُرٌ]{.ar} [Eachurun]{.trn} plurals of [شَهْرٌ]{.ar} [cahrun]{.trn} "a month".
-
-In some cases one of these plurals may be used to indicate a larger quantity and the other a smaller quantity, but this rule is not worth worrying about much for now.
-
-Other nouns have multple broken plurals too but here each broken plural is used for a different meaning. For example:
-
-+ [أَمْرٌ]{.ar} [Eamrun]{.trn} can mean both :
-  1. "a matter, an affair", pluralized as [أُمُورٌ]{.ar} [EumUrun]{.trn} "matters, affairs"
-  2. "a command, an order", pluralized as [أَوَامِرُ]{.ar} [EawAmiru]{.trn} (non-fully-changing) "commands, orders".  
-
-## Co-existence of sound and broken plurals for the same noun
-
-There are many nouns which can be pluralized with both sound plurals and broken plurals. For example,
-
-+ [عَالِمٌ]{.ar} [eAlimun]{.trn} "a (male) scholar" can be pluralized using the sound [Un]{.trn} plural as [عَالِمُونَ]{.ar} [eAlimUna]{.trn} as well as with the broken plural [عُلَمَاءُ]{.ar} [eulamAEu]{.trn}.
-+ [كَافِرٌ]{.ar} [kAfirun]{.trn} "a (male) disbeliever" can be pluralized using the sound [Un]{.trn} plural as [كَافِرُونَ]{.ar} [kAfirUna]{.trn} as well as with the broken plurals [كُفَّارٌ]{.ar} [kuffArun]{.trn} and [كَفَرَةٌ]{.ar} [kafaratun]{.trn}.
-
-It is also possible to use both sound [Un]{.trn} and broken plurals in the same phrase and sentence. For example,
-
-[ٱَلرِّجَالُ ٱلْأَغْنِيَاءُ كَرِيمُونَ]{.ar}  
-[EarrijAlu -lEagniyAEu karImUna.]{.trn}  
-"The rich men are generous."
-
-For now, we recommend that you prefer to use the broken plural when possible, even if a word can form the sound [Un]{.trn} plural. Although more difficult for the beginner, this is more common in normal usage. In the vocabulary lists that we provide, we will typically not provide sound [Un]{.trn} plurals, even if they are technically possible, unless they are commonly used.
-
-## Using plural in place of a dual with dual attached pronoun
-
-For saying 
-[وجوهكما]{.ar}
-
-instead of 
-
-[وجهاكما]{.ar}
-
-for "Your~2~ faces"
-
-See [إن تَتُوبَا إِلَى ٱللَّهِ فَقَدْ صَغَتْ قُلُوبُكُمَا) التحريم: 4]{.ar} in Ibn Ashoor
-
-## Using verbs and pronouns with plurals
-
-### Plurals of rational beings
-
-In the previous chapter we gave the rule of using doer-modifications with verbs for sound plurals of rational being doers. The rule is similar for broken plurals of rational being doers:
-
-1. If the broken plural doer is placed before the verb or is not mentioned, then the plural doer-modification corresponding to the gender of the singular doer is employed. For example, [ٱَلرِّجَالُ ذَهَبُوا.]{.ar} "The men went.", [ٱَلنِّسَاءُ ذَهَبْنَ.]{.ar} "The women went.", [ذَهَبُوا.]{.ar} "They~masc.~ went."
-2. If the broken plural doer is placed after the verb, then the singular doer-modification corresponding to the gender of the singular doer is employed. For example, [ذَهَبَ الرِّجَالُ]{.ar} "The men went.", [ذَهَبَتِ ٱلنِّسَاءُ]{.ar} "The women went."
-
-This is the most common usage. However, another possibility is allowed which is uncommon and usually only found in older works. That is the usage of the feminine singular verb doer modification for broken plurals that refer to both male and female rational being doers. So we can have [ذَهَبَتِ ٱلرِّجَالُ.]{.ar} and [ٱَلرِّجَالُ ذَهَبَتْ.]{.ar} and [ذَهَبَتِ ٱلنِّسَاءُ.]{.ar} and [ٱلنِّسَاءُ ذَهَبَتْ.]{.ar}.
-
-For now, we recommend that you stick to the more common usage in your own sentences.
-
-Note that this rule is only for the verb doer-modifications. Detached and attached pronouns for rational beings generally match the noun they refer to in number and gender. For example,
-
-[ذَهَبَ ٱلرًّجَالُ إِلَىٰ بُيُوتِهِمْ وَذَهَبَتِ ٱَلنِّسَاءُ إِلَىٰ بُيُوتِهِنَّ.]{.ar}  
-"The men went to their houses and then women went to their houses."
-
-[هُمْ رِجَالٌ وَهُنَّ نِسَاءٌ.]{.ar}  
-[hum rijAlun wahunna nisAEun.]{.trn}  
-"They~pl.\ masc.~ are men and they~pl.\ fem.~ are women."
-
-### Plurals of non-rational beings
-
-The usage of pronouns and verb doer-modifications for plural non-rational beings is somewhat complicated and depends on the type of the plural and the quantity of doers intended by the plural. 
-
-The most general rule, however, is that it is preferred to treat plurals of non-rational beings as feminine singular. So the feminine singular pronouns [هِيَ]{.ar} [hiya]{.trn}/[ـهَا]{.ar} [-hA]{.trn} and feminine singular verb doer modification [فَعَلَتْ]{.ar} [faealat]{.trn} are used. It doesn't matter if the singular of the plural noun is masculine or feminine or if the plural doer comes before or after the verb. This general rule applies to both sound plurals and broken plurals of non-rational beings. For example,
-
-[ٱلشَّجَرَاتُ سَقَطَتْ وَٱلْحَيَوَانَاتُ أَكَلَتْ مِنْ ثَمَرِهَا.]{.ar}  
-"The trees fell and the animals ate from their fruit."
-
-[ظَهَرَتِ ٱلنُّجُومُ فِي ٱلسَّمَاءِ وَلَمَعَتْ وَنَظَرَ إِلَيْهَا ٱلْغُلَامُ.]{.ar}  
-"The stars appeared in the sky and shone and the boy looked at them."
-
-This general rule has the following exception:
-
-If a broken plural is used for non-rational beings and either a small quantity (typically ten or fewer) is intended, or the items are treated as individually distinct then it is preferred to use the feminine plural pronouns [هُنَّ]{.ar} [hunna]{.trn}/[ـهُنَّ]{.ar} [-hunna]{.trn} instead of the feminine singular pronouns [هِيَ]{.ar} [hiya]{.trn}/[ـهَا]{.ar} [-hA]{.trn}. Similarly, the feminine plural doer modification [فَعَلْنَ]{.ar} [faealna]{.trn} is preferred, but only if the doer does not occur after the verb. If the doer occurs after the verb then the feminine singular doer modification [فَعَلَتْ]{.ar} is used. For example,
-
-[وَضَعْتُ قَلَمًا أَحْمَرَ وَقَلَمًا أَزْرَقَ وَقَلَمًا أَسْوَدَ عَلَى ٱلْمَكْتَبِ. سَقَطَتِ ٱلْأَقْلَامُ عَلَى ٱلْأَرْضِ وَذَهَبْنَ تَحْتَ ٱلْمَكْتَبِ وَخَرَجَ حِبْرُهُنَّ.]{.ar}  
-"I put a red pen and a blue pen and a black pen on the desk. The pens fell on the ground and went under the desk and their ink came out."
-
-Here the pens are few in number and are considered individually distinct. Therefore, the feminine plural pronouns and verb doer modification are used.
-
-In the example before the previous example which has the broken plural [ٱَلنُّجُومُ]{.ar} "stars", the quantity of stars in the sky is large and they are treated as one homogenous body instead of treating them as individually distinct items. This favors usage of the feminine singular pronoun ([إِلَيْهَا]{.ar}) and feminine singular verb doer modification ([ظَهَرَتْ، لَمَعَتْ]{.ar}). <!-- Simone Bettega, Rethinking Agreement in Spoken Arabic: The Question of Gender-->
-
-<!--This exception can also be used to indicate plurality especially if there is no other indicator. For example, if you wish to say the sentence "They fell." where "they" refers to any non-rational beings, you may choose to say [سَقَطْنَ.]{.ar} instead of [سَقَطَتْ.]{.ar} because the former makes it clear that there are multiple doers.-->
-
-If you're unsure whether to apply the feminine singular or feminine plural pronouns or verb doer modifications in a particular case, you may safely use the feminine singular as it is the more commonly used.
-
-### Using verbs with individually mentioned non-rational doers
-
-Sometimes there are multiple non-rational doers for a verb that are individually mentioned. In this case, if the verb occurs before the doers then it will be singular and match the gender of the first mentioned doer. For example,
-
-[سَقَطَ قَلَمٌ وَكِتَابٌ وَحَقِيبَةٌ عَلَى ٱلْأَرْضِ.]{.ar}  
-"A pen and a book and a bag fell on the ground."
-
-[سَقَطَتْ حَقِيبَةٌ وَكِتَابٌ وَقَلَمٌ عَلَى ٱلْأَرْضِ.]{.ar}  
-"A bag and a book and a pen fell on the ground."
-
-If the verb occurs after the doers then it may be either feminine singular or feminine plural. For example,
-
-[ٱلْحَقِيبَةُ وَٱلْكِتَابُ وَٱلْقَلَمُ سَقَطَتْ عَلَى ٱلْأَرْضِ.]{.ar}  
-[ٱلْحَقِيبَةُ وَٱلْكِتَابُ وَٱلْقَلَمُ سَقَطْنَ عَلَى ٱلْأَرْضِ.]{.ar}  
-"The bag and the book and the pen fell on the ground."
-
-## Remove
-
-[هِيَ كُتُبٌ ثَقِيلَةٌ.]{.ar}  
-"They are heavy books."
-
-If the non-rational plural doer is not mentioned in a sentence, or if the plural is for a small number of non-rational beings then the feminine plural pronouns [هُنَّ]{.ar} [hunna]{.trn}/[ـهُنَّ]{.ar} [-hunna]{.trn} and feminine plural verb doer modification [ـنَ]{.ar} [-na]{.trn} is used. Again, it doesn't matter if the singular of the plural noun is masculine or feminine. However, the feminine plural verb doer modification is used only if the doer is not mentioned or if it comes before the verb. If the doer comes after the verb then the feminine singular verb doer modification is used. Here are some examples:
-
-[وَجَدَ ٱلرَّجُلُ فِي ٱلْحَقِيبَةِ أَقْلَامًا. حَمَلَ ٱلْحَقيبَةَ فَخَرَجْنَ مِنْهَا وَسَقَطْنَ. فَرَفَعَهُنَّ.]{.ar}  
-"The man found pens in the bag. He carried the bag and they came out of it and fell down. So he picked them up."
-
-
-## Usage of plurals of qualitative nouns with non-rational beings
-
-The usage of qualitative nouns with non-rational plurals is also somewhat complicated. Here we will explain the more normal usage and then also the uncomman usage for completeness.
-
-### Normal usage
-
-Consider the following noun phrase:
-
-[ٱَلسِّنُونَ ٱلصَّعْبَةُ]{.ar}  
-[EassinUna -SSaebatu]{.trn}  
-"the difficult years"
-
-The describee is a plural [ٱَلسِّنُونَ]{.ar}. But the describer is singular feminine [ٱَلصَّعْبَةُ]{.ar}, not plural [ٱَلصَّعْبَاتُ]{.ar}. This is because for plural non-rational beings, Arabic typically uses the feminine singular qualitative noun instead of the plural qualitative noun. Even if the describee is masculine, yet the describer will be feminine singular. For example,
-
-[حَيَوَانَاتٌ وَحْشَةٌ]{.ar}  
-[HayawAnatun waHcatun]{.trn}  
-"wild animals"
-
-This usage of the feminine singular qualitative noun for non-rational beings occurs in two scenarios:
-
-i. When the qualitative noun is describing plural non-rational beings as the describer in a noun-phrase. This was the case for the two examples above.
-ii. When the qualitative noun is describing plural non-rational beings as the information of a sentence. For example:
-
-[ٱَلْحَيَوَانَاتُ كَبِيرَةٌ.]{.ar}  
-[EalHayawAnAtu kabIratun]{.trn}  
-"The animals are big."
-
-This rule applies even when the qualitative noun in the information is definite. For example:
-
-[ٱَلسِّنُونَ ٱلصَّعْبَةُ هِيَ ٱلطَّوِيلَةُ.]{.ar}  
-[AssinUna -SSaebatu hiya -TTawIlatu]{.trn}  
-"The difficult years were the long ones."
-
-Note that in the above sentence, it is not just the qualitative nouns [ٱلصَّعْبَةُ]{.ar} and [ٱلطَّوِيلَةُ]{.ar} which are feminine singular. So too is the pronoun [هِيَ]{.ar}. We have already learned the rule for pronouns in the previous section.
-
-Note however that this rule is applied only when the qualitative noun is the describer in a noun-phrase, or in the information of a sentence. If the qualitative noun is describing plural non-rational beings as the subject of a sentence then it will be pluralized. For example:
-
-[ٱَلْحَيَوَانَاتُ كَبِيرَةٌ وَصَغِيرَةٌ. ٱَلْكَبِيرَاتُ قَوِيَّةٌ.]{.ar}  
-[EalHayawAnatu kabIratun wa SagIratun. EalkabIrAtu qawiyyatun]{.trn}  
-"The animals are big and small. The big ones are strong."
-
-In the example above, in the first sentence the qualitative nouns [كَبِيرَةٌ]{.ar} [kabIratun]{.trn} "big" and [صَغِيرَةٌ]{.ar} [SagIratun]{.trn} "small" are in the feminine singular because they are the information of the sentence and are describing the non-rational plural [ٱَلْحَيَوَانَاتُ]{.ar} [EalHayawAnAtu]{.trn} "the animals".
-
-But in the second sentence, the qualitative noun 
-[ٱَلْكَبِيرَاتُ]{.ar} [EalkabIrAtu]{.trn} "the big ones"
-is the subject of the sentence. So it is pluralized.
-
-Finally, it is worth mentioning that this usage of the feminine singular qualitative noun for non-rational beings only occurs with the plural, not the dual. Qualitative nouns for dual non-rational beings are dualized as we have seen in the previous chapter.
-
-### Uncommon usage
-
-Using the feminine singular qualitative noun for plural non-rational beings, as we've explained above, is the more normal usage. However, it is allowed, and sometimes you may find, the plural of a qualitative noun beings used for non-rational beings even when it is a describer in a noun-phrase or in the information of a sentence. Thus you may see:
-
-[ٱَلْحَيَوَانَاتُ ٱلْكَبِيرَاتُ ثَقِيلَاتٌ.]{.ar}  
-[EalHayawAnAtu -lkabIrAtu vaqIlAtun.]{.trn}  
-"The big animals are heavy."
-
-instead of the normal usage:
-
-[ٱَلْحَيَوَنَاتُ ٱلْكَبِيرَةُ ثَقِيلَةٌ.]{.ar}  
-[EalHayawAnAtu -lkabIratu vaqIlatun.]{.trn}  
-"The big animals are heavy."
-
-and
-
-[كُتُبٌ ثِقَالٌ]{.ar}  
-[kutubun viqAlun]{.trn}  
-"heavy books"
-
-instead of the more normal:
-
-[كُتُبٌ ثَقِيلَةٌ]{.ar}  
-[kutubun vaqIlatun]{.trn}  
-"heavy books"
-
-Conversely, we may also find, in rare usage, the feminine singular qualitative noun being used for rational female beings when it is a describer in a noun-phrase or in the information of a sentence. For example,
-
-[جَارِيَاتٌ حَسَنَةٌ]{.ar}  
-[jAriyAtun Hasanatun]{.trn}  
-"good girls"
-
-instead of the normal usage:
-
-[جَارِيَاتٌ حَسَنَاتٌ]{.ar}  
-[jAriyAtun HasanAtun]{.trn}  
-"good girls"
-
-For the beginner we recommend that you stick to the normal usage, instead of these rarer usages.
-
-## The qualitative nouns "many" and "few"
-
-### The qualitative noun "many"
-
-The qualitative noun [كَثِيرٌ]{.ar} [kavIrun]{.trn} is used to mean "a lot" when it is describing an uncountable quantity. For example,
-
-[مَاءٌ كَثِيرٌ]{.ar}  
-[mAEun kavIrun]{.trn}  
-"a lot of water"
-
-[ذَهَبٌ كَثِيرَةٌ]{.ar}  
-[pahabun kavIrun]{.trn}  
-"a lot of gold"
-
-When used with plural countable nouns the same qualitative noun [كَثِيرٌ]{.ar} [kavIrun]{.trn} is used to mean "many".  With plural non-rational nouns, we will typically use the feminine singular [كَثِيرَةٌ]{.ar} [kavIratun]{.trn} consistent with what we have learned so far. Example:
-
-[حَيَوَانَاتٌ كَثِيرَةٌ]{.ar}  
-[HayawAnAtun kavIratun]{.trn}  
-"many animals"
-
-However, its usage with plural rational beings can be somewhat different from what we have learned so far.
-[كَثِيرٌ]{.ar} [kavIrun]{.trn} has the sound plurals [كَثِيرُونَ]{.ar} [kavIrUna]{.trn} and [كَثِيرَاتٌ]{.ar} [kavIrAtun]{.trn}. And these can be used, as expected, with rational male and female beings respectively. It also has the broken plural [كِثَارٌ]{.ar} [kivArun]{.trn}.
-However, instead of using these plurals, [كَثِيرٌ]{.ar} [kavIrun]{.trn} is often used in the masculine singular when used as a qualitative noun for rational beings.
-
-So we often see, for example,
-
-[مُعَلِّمُونَ كَثِيرٌ]{.ar}  
-[mueallimUna kavIrun]{.trn}  
-"many (male) teachers"
-
-instead of
-
-[مُعَلِّمُونَ كَثِيرُونَ]{.ar}  
-[mueallimUna kavIrUna]{.trn}  
-"many (male) teachers"
-
-although the latter is also permissible.
-
-Similarly,
-
-[أَنْتُمْ كَثِيرٌ.]{.ar}  
-[Eantum kavIrun.]{.trn}  
-"You are many (in number)."
-
-The masculine singular [كَثِيرٌ]{.ar} [kavIrun]{.trn} is also often used with plural female rational beings. For example,
-
-[ٱلْمُعًلِّمَاتُ كَثِيرٌ.]{.ar}  
-[EalmueallimAtu kavIrun.]{.trn}  
-"The (female) teachers are many."
-
-although, in this case, it is probably more common to use the [At]{.trn} plural:
-
-[ٱلْمُعًلِّمَاتُ كَثِيرَاتٌ.]{.ar}  
-[EalmueallimAtu kavIrAtun.]{.trn}  
-"The (female) teachers are many."
-
-### The qualitative noun "few"
-
-The above discussion also applies to the opposite of [كَثِيرٌ]{.ar} [kavIrun]{.trn}: [قَلِيلٌ]{.ar} [qalIlun]{.trn}. Here are some examples:
-
-[طَعَامٌ قَلِيلٌ]{.ar}  
-[TaeAmun qalIlun]{.trn}  
-"a little food"
-
-[كُتُبٌ قَلِيلَةٌ]{.ar}  
-[kutubun qalIlatun]{.trn}
-"a few books"
-
-[ٱلرِّجَالُ قَلِيلٌ.]{.ar}  
-[EarrijAlu qalIlun.]{.trn}  
-and  
-[ٱلرِّجَالُ قَلِيلُونَ.]{.ar}  
-[EarrijAlu qalIlUna.]{.trn}  
-"The men are few."
-
-[ٱلطَّالِبَاتُ قَلِيلٌ.]{.ar}
-[EaTTAlibAtu qalIlun]{.trn}  
-and  
-[ٱلطَّالِبَاتُ قَلِيلَاتٌ.]{.ar}
-[EaTTAlibAtu qalIlAtun]{.trn}  
-"The (female) students are few."
-
-### "Many people" and "few people"
-
-The qualitative nouns [كَثِيرٌ]{.ar} [kavIrun]{.trn} and [قَلِيلٌ]{.ar} [qalIlun]{.trn} can be used with the preposition [مِنْ]{.ar} [min]{.trn} to express "a large quantity of" and "a small quantity of" respectively. For example,
-
-[رَجَعَ كَثِيرٌ مِنَ ٱلرِّجَالِ إِلَىٰ بُيُوتِهِمْ.]{.ar}  
-[rajaea kavIrun mina -rrijAli EilA buyUtihim]{.trn}  
-"A large quantity of the men returned to their homes." = "Many men returned to their homes."
-
-Within context the qualitative nouns [كَثِيرٌ]{.ar} [kavIrun]{.trn} and [قَلِيلٌ]{.ar} [qalIlun]{.trn} can also be used by themselves to mean "a large number of people", and "a few people" respectively. Example:
-
-[ذَهَبَ إِلَىٰ ٱلسُّوقِ كَثِيرٌ وَرَجَعَ قَلِيلٌ]{.ar}  
-[pahaba Eila -ssUqi kavIrun warajaea qalIlun.]{.trn}  
-"A large number [of people] went to the market and a few [people] returned."
-
-The definite [ٱَلْكَثِيرُ]{.ar} [EalkavIru]{.trn} can be used too in this sense to mean "the many [people]". 
-And the definite [ٱَلْقَلِيلُ]{.ar} [EalqalIlu]{.trn} can be used to mean "the few [people]". Example:
-
-
-[عَمِلَ ٱلْقَلِيلُ وَلَعِبَ ٱلْكَثِيرُ.]{.ar}  
-[eamila -lqalIlu walaeiba -lkavIru.]{.trn}  
-"The few worked and the many played." 
-
-## Vocabulary
-
-### List
-
-### Notes
-
-nisaa2 plural of imra2ah
-FIXME: show imra2ah-nisaa2 at the end as an exception, imra2-qawm, insaan-naas?
-ashyaa2a is a diptote, despite being on pattern af3aalun
-exception: colors and physical characteristics use broken plural for fem. rat. and also for non-rat.
 
