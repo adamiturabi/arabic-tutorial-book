@@ -807,13 +807,13 @@ Plurals of inanimate objects and animals (both male and female) are treated the 
 [هُنَّ ثِيرَانٌ وَحْشَاتٌ.]{.ar}  
 "They are wild bulls."
 
-[ٱَلْهِرَرُ شَرِبَتِ ٱلْحَلِيبَ.]{.ar}  
-[ٱَلْهِرَرُ شَرِبْنَ ٱلْحَلِيبَ.]{.ar}  
-"The cats~f~ drank the milk."
-
 [ٱَلْهِرَرَةُ شَرِبَتِ ٱلْحَلِيبَ.]{.ar}  
 [ٱَلْهِرَرَةُ شَرِبْنَ ٱلْحَلِيبَ.]{.ar}  
-"The cats~m~ drank the milk."
+"The cats~m~, they drank the milk."
+
+[ٱَلْهِرَرُ شَرِبَتِ ٱلْحَلِيبَ.]{.ar}  
+[ٱَلْهِرَرُ شَرِبْنَ ٱلْحَلِيبَ.]{.ar}  
+"The cats~f~, they drank the milk."
 
 [ٱَلسُّفُنُ طَوِيلَة.]{.ar}  
 [ٱَلسُّفُنُ طِوَالٌ.]{.ar}  
@@ -824,6 +824,27 @@ Plurals of inanimate objects and animals (both male and female) are treated the 
 [فِي ٱلصُّنْدُوقُ أَشْيَاءُ عَجِيبَاتٌ.]{.ar}  
 "In the box are wonderful things."  
 (Note how [أَشْيَاء^2^]{.ar} is indefinite but has no [n]{.trn}-mark. This is because it is irregularly semi-flexible.)
+
+<!--
+By the way, this rule only applies to adjectival nouns in the describee or the information. A common noun in the describer or information will continue match the describee or subject in gender and number. Examples,
+
+[ٱَلْحَيَوَانَاتُ كِلَاب.]{.ar}  
+for  
+"They are male dogs."
+not  
+$\times$\ [ٱَلْحَيَوَانَاتُ كَلْبَة.]{.ar}
+-->
+
+It is important to note that treating non-intelligent beings as grammatically feminine is only for the plural. Singular and dual nouns for non-intelligent beings are treated according to the gender of singular noun, as we have learned in previous chapters. So, for example,
+
+[ٱَلْبَيْتُ كَبِيرٌ.]{.ar}  
+"The house is big."  
+not $\times$\ [ٱَلْبَيْتُ كَبِيرَة.]{.ar}
+
+[أَكَلَ ٱلْأَسَدَانِ ٱلظَّبْيَ.]{.ar}  
+"The lions~2~ ate the antelope."  
+not  
+not $\times$\ [أَكَلَتِ ٱلْأَسَدَانِ ٱلظَّبْيَ.]{.ar}  
 
 ## The broken plural and patterns
 
