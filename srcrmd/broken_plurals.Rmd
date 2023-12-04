@@ -888,6 +888,23 @@ If there are many lions then we treat them as _one_ group.
 
 And if there are only a few lions, then we treat them _one-by-one_.
 
+#### Using the feminine plural to avoid confusion
+
+Sometimes, if the plural noun is not immediately mentioned, then using the feminine singular may be misinterpreted to only mean one instead of the plural. For example, consider the following example:
+
+[شَرِبَتِ ٱلْهِرَرُ ٱلْحَلِيبَ وَمَا شَرِبَتْهُ هِرَّةٌ.]{.ar}  
+"The cats~f~ drank the milk and one cat~f~ didn't drink it."
+
+If we want to follow this sentence with another sentence: "Then they went.", if we use the feminine singular:
+
+[ثُمَّ ذَهَبَتْ.]{.ar}  
+
+then this might be misinterpreted to mean that only one cat (the one that didn't drink the milk) went.
+
+So we might prefer to say, instead:
+
+[ثُمَّ ذَهَبْنَ.]{.ar}  
+
 ## The broken plural and patterns
 
 Remember that Arabic nouns are derived from roots which are usually three, but sometimes four or more, letters. Also that three-letter roots and word patterns are exemplified using the template root [فعل]{.arroot}. And that four-letter roots are exemplified using the template root [فعلل]{.arroot}. For example, the word [رَجُلٌ]{.ar} [rajulun]{.trn} has the root [رجل]{.arroot} and is of the pattern [فَعُلٌ]{.ar} [faeulun]{.trn}. 
