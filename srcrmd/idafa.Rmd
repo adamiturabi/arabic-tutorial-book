@@ -40,6 +40,10 @@ The word "annexation" is used when a new thing is added on to an existing base. 
 \end{tikzpicture}
 ```
 
+"the boy's book"  
+or  
+"the book of the boy"
+
 The annexation construction consists to two nouns:
 
 1. The _annexe_ noun: This is the first noun in the annexation construction.
@@ -101,9 +105,31 @@ The base noun in an annexation will always be in the i-state. The annexe noun ma
 "The teacher~m~ wrote in the boy's book."  
 (The annexe noun is in the i-state.)
 
-## Definiteness of the nouns in the chain
+## Definiteness of the annexation
 
-As we mentioned above, the first noun in the chain can have neither an [n]{.trn} mark, nor an [ٱَلْ]{.ar}. The definiteness of both nouns is determined by examining the second noun in the chain. If the second noun is definite (either by having [ٱَلْ]{.ar}, or by being a proper noun), then both the nouns in the chain will be definite. And if the second noun is indefinite, then both the nouns in the chain will be indefinite. 
+Referring back to the annexation expression we have been using so far:
+
+[كِتَابُ ٱلْغُلَامِ]{.ar}  
+"the boy's book"  
+or  
+"the book of the boy"
+
+The base noun [ٱَلْغُلَام]{.ar} "the boy" is definite because it is prefixed by [ٱَلْ]{.ar} "the".
+The annexe noun [كِتَاب]{.ar} is not permitted to be prefixed by [ٱَلْ]{.ar} or have an [n]{.trn}-mark. 
+Its definiteness is determined by the base noun. 
+If the base noun is definite (as in this case) then the annexe noun shall also be definite.
+
+If the base noun is indefinite (as below) then the annexe noun shall also be indefinite.
+
+[كِتَابُ غُلَامٍ]{.ar}  
+"a boy's book"  
+or  
+"a book of a boy"
+
+<!--
+The annexe noun in an annexation can have neither an [n]{.trn} mark, nor an [ٱَلْ]{.ar}. 
+The base noun is permitted to have an [n]{.trn} mark or an [ٱَلْ]{.ar} prefix. 
+The definiteness of the base noun then determines the definiteness of the annexation. If the second noun is definite, then both the annexe and the base nouns be definite. And if the base noun is indefinite, then both the nouns in the chain will be indefinite. 
 
 [بَيْتُ مُحَمَّدٍ]{.ar}  
 [baytu muHammadin]{.trn}  
@@ -116,6 +142,7 @@ As we mentioned above, the first noun in the chain can have neither an [n]{.trn}
 [بَيْتُ رَجُلٍ]{.ar}  
 [baytu rajulin]{.trn}  
 "a house of a man"
+-->
 
 ## Describers for nouns in noun-chains
 
