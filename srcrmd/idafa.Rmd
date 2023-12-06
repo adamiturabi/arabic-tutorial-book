@@ -220,6 +220,8 @@ The need to maintain this distinction will become apparent in the next section.
 
 ## The annexation with a describer
 
+### Describing the base noun
+
 Consider the following expression:
 
 [كِتَابُ ٱلْجَارِيَةِ]{.ar}  
@@ -249,8 +251,77 @@ Here are some more examples:
 [قَرَأَ ٱلْغُلَامُ سُورَةَ ٱلْقُرْآنِ ٱلْكَرِيمِ.]{.ar}  
 "The boy read the [sUrah]{.trn2} of the Noble [#qurEAn]{.trn2}."
 
-[جَلَسَ ٱلرَّجُلُ فِي ظِلِّ شَجَرَةٍ عَرِيضٍ.]{.ar}  
-"The man sat in the shade of a broad tree."
+[جَلَسَ ٱلرَّجُلُ فِي ظِلِّ شَجَرَةٍ عَرِيضَةٍ وَسِيعَةٍ.]{.ar}  
+"The man sat in the shade of a wide broad tree."
+
+### Describing the annexe noun
+
+Consider, again, the same annexation:
+
+[كِتَابُ ٱلْجَارِيَةِ]{.ar}  
+"the girl's book"
+
+Say, now, that we want to describe the annexe noun [كِتَاب]{.ar} "book" with the adjectival noun [صَغِير]{.ar} "a small one". Normally, nothing can come between the annexe noun and the base noun in an annexation. So, the describer needs to be placed, again, after the base noun.
+However, this time it will match the annexe noun, not the base noun, in state, definiteness, gender, and number. So we get:
+
+[كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرُ]{.ar}  
+"the girl's small book"
+
+Note how the describer 
+[ٱَلصَّغِيرُ]{.ar} matches the annexe noun [كِتَابُ]{.ar} in state and gender.
+Note also how the describer is definite with an [ٱَلْ]{.ar}. This is because it is matching the annexe noun [كِتَابُ]{.ar} in definiteness.
+The annexe noun [كِتَاب]{.ar} is definite, not with [ٱَلْ]{.ar}, but rather because of the definite base noun [ٱَلْجَارِيَةِ]{.ar} "the girl".
+We've already learned this rule in 
+section\ \@ref(definiteness-of-the-annexation)
+above.
+
+Similarly, if we describe the annexe noun [كِتَاب]{.ar} in an indefinite annexation, we get:
+
+[كِتَابُ جَارِيَةٍ صَغِيرٌ]{.ar}  
+"a girl's small book"
+
+This time
+the describer 
+[صَغِيرٌ]{.ar}
+is indefinite with an [un]{.trn}-mark [◌ٌ]{.ar}. 
+This is because 
+the annexe noun [كِتَابُ]{.ar} is indefinite. It is indefinite because base noun [جَارِيَةٍ]{.ar} "a girl" is indefinite.
+
+Now, you might be foreseeing a problem. What if the annexe noun and the base noun have the same gender, and the annexe too is in the i-state? For example, in the sentence:
+
+[ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ رَجُلٍ كَبِيرٍ.]{.ar}  
+"The boy went to a big/old man's house."  
+or  
+"The boy went to a man's big house."  
+
+How do we know whether the describer [كَبِيرٍ]{.ar} is meant to describe the annexe noun [بَيْتِ]{.ar} or the base noun [رَجُلٍ]{.ar}?
+The annexe noun [بَيْتِ]{.ar} and the base noun [رَجُلٍ]{.ar} are both masculine, singular, indefinite, and in the i-state.
+
+The answer is that in such cases, context will have to tell us which of the two meanings is intended. Also, sometimes, the meaning of the describer is such that it will likely apply to only one of the two nouns. For example,
+
+[ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ رَجُلٍ كَرِيمٍ.]{.ar}  
+"The boy went to a noble/generous man's house."  
+
+In the sentence above the describer [كَرِيمٍ]{.ar} "noble/generous" is likely to apply to a man, and not to a house.
+
+Here are some more examples:
+
+<!--
+[ذَهَبَ ٱلطَّالِبُ إِلَىٰ مَدْرَسَةِ مَدِينَةٍ عَظِيمَةٍ.]{.ar}
+"The student went to a great city's school."  
+or  
+"The student went to a great school of a city."  
+-->
+
+Compare this with describing the base noun with the same adjectival noun.
+
+[كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرَةِ]{.ar}  
+"the girl's small book"
+
+As you can see, the adjectival noun [صَغِير]{.ar} "a small one" is in the same location, but its gender and state are different in both expressions because they match a different describee. 
+The definiteness, however, is the same in the two expressions because the annexe noun has the same definiteness as the base noun.
+
+
 
 If the second noun in a chain is to be described using a qualitative noun, then just like we have learned, we will place the qualitative noun after the second noun in the chain and match it definiteness, state, gender, and number (depending on whether it denotes a rational or non-rational being). Examples: 
 
