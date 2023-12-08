@@ -36,9 +36,53 @@ We take this opportunity to introduce some grammatical terminology. The adjectiv
 i. The adjective "big". It is describing the car. We will call it the _describer_ in the noun-phrase.
 ii. The common noun "a car": It is being described by the describer. We will call it the _describee_.
 
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=a big car,
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize describer};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-3.south west) -- (word-3.south east)
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize describee};
+
+\end{tikzpicture}
+```
+
 We will reserve this terminology of _describer_ and _describee_ only for the noun and adjective in an adjectival noun-phrase. So we won't use this terminology for the sentence: "The car is big."
 
 Instead, here we will continue to use the existing terminology of _subject_ and _information_. The definite noun "the car" is the subject of this sentence, and the adjective "big" is the information.
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text={The car is big.},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-2.south east)
+      node [midway, below=0.5ex] {\scriptsize subject};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-4.south west) -- (word-4.south east)
+      node [midway, below=0.5ex] {\scriptsize information};
+
+\end{tikzpicture}
+```
 
 ## Adjectival nouns in English
 
@@ -106,13 +150,13 @@ Arabic adjectival noun    | Meaning
 :------------------|:------------
 [كَبِير]{.ar}    [kabIr]{.trn}  | a big one
 [صَغِير]{.ar}    [SagIr]{.trn}  | a small one
-[طَيِّب]{.ar}     [Tayyib]{.trn}  | a good one
+[طَيِّب]{.ar}     [Tayyib]{.trn} | a good one
 [قَدِيم]{.ar}    [qadIm]{.trn}  | an old one
 [جَدِيد]{.ar}    [jadId]{.trn}  | a new one
 [طَوِيل]{.ar}    [TawIl]{.trn}  | a long/tall one
 [وَاسِع]{.ar}    [wAsie]{.trn}  | a wide one
 [عَرَبِيّ]{.ar}    [earabiyy]{.trn} | an Arab
-[مَشْهُور]{.ar}    [machUr]{.trn} | a famous one
+[مَشْهُور]{.ar}   [machUr]{.trn} | a famous one
 
 ## The describer and the describee in adjectival noun-phrases
 
@@ -125,9 +169,42 @@ In English adjectival noun-phrases, like "the small house", the adjective descri
 
 Here is the equivalent Arabic adjectival noun-phrase:
 
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text= \txarb{ٱلصَّغِيرُ} \txarb{ٱَلْبَيْتُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize describer};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize describee};
+
+\path [decoration={text effects along path, 
+  text={``the small-one house'' = ``the small house''},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate, below=11ex] (0,0);
+
+
+\end{tikzpicture}
+```
+
+<!--
 [ٱَلْبَيْتُ ٱلصَّغِيرُ]{.ar}  
 [Ealbaytu -SSagIru]{.trn}  
-"the house, the small one" = "the small house"
+"the small-one house" = "the small house"
+-->
 
 Note the following:
 
@@ -135,7 +212,7 @@ Note the following:
 + Both the adjectival noun describer [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" and the describee [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" get the definite article [ٱَلْ]{.ar} "the".
 + The adjectival noun describer [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" is genderized to match the describee [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" in gender.
 + The adjectival noun describer [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" matches the describee [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" in state. In this example, they were both in the u-state but we will see examples in the other states as well.
-+ The word-for-word equivalence of the above adjectival noun-phrase is "the house, the small one" but we will usually give the more natural translation: "the small house"
++ The word-for-word equivalence of the above adjectival noun-phrase is "the small-one house" but we will usually give the more natural translation: "the small house"
 
 Let's try another example: let's try to translate the sentence: "The little girl took a new book from the good mother."
 
@@ -191,9 +268,42 @@ See how we preferred to use the masculine adjectival noun [طَيِّب]{.ar} [T
 
 Let's see how to use Arabic adjectival nouns as the information of a sentence.
 
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text= \txarb{صَغِيرٌ.} \txarb{ٱَلْبَيْتُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize information};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize subject};
+
+\path [decoration={text effects along path, 
+  text={``The house is a small-one.'' = ``The house is small.''},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate, below=13ex] (0,0);
+
+
+\end{tikzpicture}
+```
+
+<!--
 [ٱَلْبَيْتُ صَغِيرٌ.]{.ar}  
 [Ealbaytu SagIr.]{.trn}  
 "The house is a small one." = "The house is small."
+-->
 
 In the above sentence, the indefinite adjectival noun 
 [صَغِير]{.ar} [SagIr]{.trn} "a small one"
