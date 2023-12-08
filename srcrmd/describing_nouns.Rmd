@@ -11,7 +11,7 @@ In this chapter we will study *adjectival nouns*. Adjectival nouns are a class o
 
 In English we usually use adjectives to describe nouns. For example, the word "big" is an adjective. It can be used in a couple of different ways:
 
-1. It can be used to describe a noun in an adjectival noun-phrase. For example:
+1. It can be used to describe a noun in an descriptive noun-phrase. For example:
 
    "a big car"
 
@@ -31,7 +31,7 @@ instead.
 
 ## Terminology: the _describer_ and the _describee_
 
-We take this opportunity to introduce some grammatical terminology. The adjectival noun-phrase "a big car" consists of two parts:
+We take this opportunity to introduce some grammatical terminology. The descriptive noun-phrase "a big car" consists of two parts:
 
 i. The adjective "big". It is describing the car. We will call it the _describer_ in the noun-phrase.
 ii. The common noun "a car": It is being described by the describer. We will call it the _describee_.
@@ -58,7 +58,7 @@ ii. The common noun "a car": It is being described by the describer. We will cal
 \end{tikzpicture}
 ```
 
-We will reserve this terminology of _describer_ and _describee_ only for the noun and adjective in an adjectival noun-phrase. So we won't use this terminology for the sentence: "The car is big."
+We will reserve this terminology of _describer_ and _describee_ only for the noun and adjective in an descriptive noun-phrase. So we won't use this terminology for the sentence: "The car is big."
 
 Instead, here we will continue to use the existing terminology of _subject_ and _information_. The definite noun "the car" is the subject of this sentence, and the adjective "big" is the information.
 
@@ -158,16 +158,16 @@ Arabic adjectival noun    | Meaning
 [عَرَبِيّ]{.ar}    [earabiyy]{.trn} | an Arab
 [مَشْهُور]{.ar}   [machUr]{.trn} | a famous one
 
-## The describer and the describee in adjectival noun-phrases
+## The describer and the describee in descriptive noun-phrases
 
-Let's learn how adjectival noun-phrases are formed in Arabic.
+Let's learn how descriptive noun-phrases are formed in Arabic.
 
 We learned in section\ \@ref(terminology-the-describer-and-the-describee)
-above that adjectival noun-phrases consist of a describer and a describee. 
+above that descriptive noun-phrases consist of a describer and a describee. 
 
-In English adjectival noun-phrases, like "the small house", the adjective describer ("small") comes before the describee ("house"). Also, only one definite article ("the") is used before the entire noun-phrase.
+In English descriptive noun-phrases, like "the small house", the adjective describer ("small") comes before the describee ("house"). Also, only one definite article ("the") is used before the entire noun-phrase.
 
-Here is the equivalent Arabic adjectival noun-phrase:
+Here is the equivalent Arabic descriptive noun-phrase:
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -212,7 +212,7 @@ Note the following:
 + Both the adjectival noun describer [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" and the describee [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" get the definite article [ٱَلْ]{.ar} "the".
 + The adjectival noun describer [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" is genderized to match the describee [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" in gender.
 + The adjectival noun describer [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" matches the describee [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" in state. In this example, they were both in the u-state but we will see examples in the other states as well.
-+ The word-for-word equivalence of the above adjectival noun-phrase is "the small-one house" but we will usually give the more natural translation: "the small house"
++ The word-for-word equivalence of the above descriptive noun-phrase is "the small-one house" but we will usually give the more natural translation: "the small house"
 
 Let's try another example: let's try to translate the sentence: "The little girl took a new book from the good mother."
 
@@ -222,25 +222,25 @@ Here is the sentence in Arabic:
 [Eaxapati -ljAriyatu -SSagIratu kitaban jadIdan mina -lEummi -TTayyibah.]{.trn}  
 "The little girl took a new book from the good mother."
 
-This sentence has three adjectival noun phrases. We will analyze each one individually:
+This sentence has three descriptive noun-phrases. We will analyze each one individually:
 
 i. [ٱَلْجَارِيَةُ ٱلصَّغِيرَةُ]{.ar}  
    [EaljAriyatu -SSagIratu]{.trn}  
    "the little girl"
 
-   In this phrase the definite feminine noun [ٱلْجَارِيَةُ]{.ar} [EaljAriyatu]{.trn} is the doer of the verb [أَخَذَ]{.ar} [Eaxapa]{.trn} "took". Therefore it is in the u-state. It is also the describee in the adjectival noun-phrase. Its describer [ٱَلصَّغِيرَةُ]{.ar} [EaSSagIratu]{.trn} follows the describee and is made to match the describee in state (u-state), gender (feminine), and definiteness (definite).
+   In this phrase the definite feminine noun [ٱلْجَارِيَةُ]{.ar} [EaljAriyatu]{.trn} is the doer of the verb [أَخَذَ]{.ar} [Eaxapa]{.trn} "took". Therefore it is in the u-state. It is also the describee in the descriptive noun-phrase. Its describer [ٱَلصَّغِيرَةُ]{.ar} [EaSSagIratu]{.trn} follows the describee and is made to match the describee in state (u-state), gender (feminine), and definiteness (definite).
 
 ii. [كِتَابًا جَدِيدًا]{.ar}  
     [kitAban jadIdan]{.trn}  
     "a new book"
 
-    In this phrase the indefinite masculine noun [كِتَابًا]{.ar} [kitAban]{.trn} is the doee of the verb [أَخَذَ]{.ar} [Eaxapa]{.trn} "took". Therefore it is in the a-state. It is also the describee in the adjectival noun-phrase. Its describer [جَدِيدًا]{.ar} [jadIdan]{.trn} follows the describee and is made to match the describee in state (a-state), gender (masculine), and definiteness (indefinite).
+    In this phrase the indefinite masculine noun [كِتَابًا]{.ar} [kitAban]{.trn} is the doee of the verb [أَخَذَ]{.ar} [Eaxapa]{.trn} "took". Therefore it is in the a-state. It is also the describee in the descriptive noun-phrase. Its describer [جَدِيدًا]{.ar} [jadIdan]{.trn} follows the describee and is made to match the describee in state (a-state), gender (masculine), and definiteness (indefinite).
 
 iii. [ٱَلْأُمِّ ٱلطَّيِّبَةِ]{.ar}  
      [EalEummi -TTayyibati]{.trn}  
      "the good mother"
 
-      In this phrase the definite feminine noun [ٱلْأُمِّ]{.ar} [EalEummi]{.trn} is following the preposition [مِنْ]{.ar} [min]{.trn} "from". Therefore it is in the i-state. It is also the describee in the adjectival noun-phrase. Its describer [ٱَلطَيِّبَةِ]{.ar} [EaTTayyibati]{.trn} follows the describee and is made to match the describee in state (i-state), gender (feminine), and definiteness (definite). 
+      In this phrase the definite feminine noun [ٱلْأُمِّ]{.ar} [EalEummi]{.trn} is following the preposition [مِنْ]{.ar} [min]{.trn} "from". Therefore it is in the i-state. It is also the describee in the descriptive noun-phrase. Its describer [ٱَلطَيِّبَةِ]{.ar} [EaTTayyibati]{.trn} follows the describee and is made to match the describee in state (i-state), gender (feminine), and definiteness (definite). 
 
       Note carefully that the describer matches the describee in gender, not necessarily in having the same [ة]{.ar} ending. The feminine adjectival noun describer [ٱَلطَيِّبَة]{.ar} [EaTTayyibah]{.trn} is still formed using the feminine marker [ة]{.ar}, despite the feminine describee [ٱَلْأُمّ]{.ar} not having the [ة]{.ar} feminine marker.
 
@@ -408,7 +408,7 @@ Context would be needed to tell us which meaning is intended.
 
 ## Common-nouns used as describers in a noun-phrase
 
-Usually, adjectival nouns are used as the describer in an adjectival noun-phrase. However, we also often find a common noun used as a describer. For example,
+Usually, adjectival nouns are used as the describer in an descriptive noun-phrase. However, we also often find a common noun used as a describer. For example,
 
 [هُوَ رَجُلٌ مُعَلِّمٌ.]{.ar}  
 [huwa rajulun mueallim.]{.trn}  
@@ -423,7 +423,7 @@ In English we can have a noun described by multiple adjectives separated by comm
 [EalbinAEu kabIrun waTawIlun wawAsiEun]{.trn}  
 "The building is big and tall and wide."
 
-In an English adjectival noun-phrase, multiple describers may describe the same describee, without being separated by the word "and". For example, "The man is a famous Arab writer." In Arabic, we can do the same, except the describees will be in the reverse order:
+In an English descriptive noun-phrase, multiple describers may describe the same describee, without being separated by the word "and". For example, "The man is a famous Arab writer." In Arabic, we can do the same, except the describees will be in the reverse order:
 
 [ٱَلرَّجُلُ كَاتِبٌ عَرَبِيٌّ مَشْهُورٌ.]{.ar}  
 [Earrujulu kAtibun earabiyyun machUr.]{.trn}  
