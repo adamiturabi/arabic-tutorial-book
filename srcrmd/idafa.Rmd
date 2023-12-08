@@ -551,8 +551,8 @@ If the annexe noun is semi-flexible then it gets a [◌ِ]{.ar} in the i-state, 
 
 If an annexe noun ends with [ىٰ]{.ar} then it gets converted to an [Ealif]{.trn} when annexing it to an attached pronoun. Example with [فَتَاوَىٰ^2^]{.ar} "legal opinions":
 
-[كَتَبَ تَلَامِذَةُ ٱلشَّيْخِ فَتَاوَاهُ.]{.ar}  
-"The pupils of the religious scholar wrote his legal opinions."
+[كَتَبَ تَلَامِذَةُ ٱلشَّيْخِ فَتَاوَاهُ فِي كُتُبِهِمْ.]{.ar}  
+"The pupils of the religious scholar wrote down his legal opinions in their books."
 
 For the singular speaker-participant there are two variants for the attached pronoun:
 
@@ -581,6 +581,35 @@ Consider the annexation:
 
 [كِتَابُهُ]{.ar}  
 "his book"
+
+The annexe noun is [كِتَاب]{.ar} and the base noun is the pronoun [ه]{.ar}.
+We would like add a describer to this expression.
+Remember from section\ \@ref(definiteness-of-pronouns) that pronouns are definite nouns. That makes the annexe noun [كِتَاب]{.ar} also definite.
+Therefore, any describer for this annexation will need to be definite too.
+
+Here is a new rule: Pronouns may not be describees. That is: they are not allowed to have describers.
+Even in English you may say:
+
+"The good boy went."
+
+but you can't say:
+
+$\times$\ "The good _he_ went."
+
+So, any describers for the annexation must necessarily only describe the annexe noun, not the base pronoun. Example:
+
+[كِتَابُهُ الأَحْمَرُ]{.ar}  
+"his red book"
+
+Here are some more examples:
+
+[كَتَبْتُ بِقَلَمِيَ ٱلْأَسْوَدِ]{.ar}  
+"I wrote with my black pen."
+
+[حَمَلَ غِلْمَانُ ٱلْقَرْيَةِ حَقَائبَهُمُ ٱلثَّقِيلَة]{.ar}  
+"The village boys carried their heavy bags."  
+(literally: the village's boys.)
+
 ## Duals and [Un]{.trn} sound plurals in annexations {#duals-and-sound-un-plurals-in-annexations}
 
 We have already dealt with broken plurals and [At]{.trn} sound plurals in annexations in 
