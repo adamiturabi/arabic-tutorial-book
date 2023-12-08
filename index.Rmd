@@ -121,39 +121,3 @@ this is in [Small Caps]{.smallcaps}.
 options(tinytex.engine = "lualatex")
 ```
 
-<!--{r,engine='tikz',fig.ext='pdf',fig.width=3}-->
-```{r,engine='tikz'}
-\begin{tikzpicture}
- \draw (0,0) circle (2cm);
- \end{tikzpicture}
-```
-
-```{r,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
-\usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}
-\path [decoration={text effects along path, 
-  text=The quick brown \txarb{ثعلب} jumps over the lazy \arb{kalb},
-  text effects/.cd, 
-    path from text, text along path,
-    group letters, word count=\w,
-    every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate] (0,0);
-
-\foreach \pos [count=\i] in {Det, Adj, Adj, Noun, Verb, Prep, Det, Adj, Noun}
-  \node [above=1ex, font=\footnotesize\strut] at (word-\i) {\pos};
-
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-4.south east)
-      node [midway, below] {Noun Phrase};
-
-\draw [decoration={brace, mirror}, decorate] 
-   (word-7.south west) -- (word-9.south east)
-      node [midway, below] {Noun Phrase};
-
-\draw [decoration={brace, mirror, raise=3ex}, decorate] 
-   (word-1.south west) -- (word-9.south east)
-      node [midway, below=3ex] {Full sentence};
-\end{tikzpicture}
-```
-
-
