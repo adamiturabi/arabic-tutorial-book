@@ -8,11 +8,11 @@ Consider the following expression:
 
 This expression establishes a relation of _belonging_ between the two nouns: (i)\ "the boy", and (ii)\ "the book". It says that the book _belongs_ to the boy.
 
-Arabic expresses this meaning using an construction called _annexation_. In this chapter we will learn about this construction.
+Arabic expresses this meaning using a construction called _annexation_. In this chapter we will learn about this construction.
 
 ## Forming the annexation
 
-The word "annexation" is used when a new thing is added on to an existing base. We use the term "annexation" in Arabic grammar when one word is added on to another word by being placed right before it. Here is an example of an annexation:
+The word "annexation" means the addition of a new _annexed_ item to an existing _base_ item. We use the term _annexation_ in Arabic grammar when an _annexe_ noun is annexed to a _base_ noun by being placed right before it. Here is an example of an annexation:
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -50,12 +50,12 @@ The word "annexation" is used when a new thing is added on to an existing base. 
 
 <!--"the boy's book"  -->
 
-The annexation construction consists to two nouns:
+The annexation construction consists of two nouns:
 
-1. The _annexe_ noun: This is the first noun in the annexation construction.
-1. The _base_ noun: This is the second noun in the annexation construction.
+1. The _annexe_ noun: This is the first noun in the annexation.
+1. The _base_ noun: This is the second noun in the annexation.
 
-The annexe [كِتَاب]{.ar} belongs to the base [ٱَلْغُلَام]{.ar}. 
+The annexe noun [كِتَاب]{.ar} is annexed to, and belongs to, the base noun [ٱَلْغُلَام]{.ar}. 
 You can use the alphabetical  order (A,\ B) to help you remember that the **a**nnexe noun comes before the **b**ase noun.
 
 <!--
