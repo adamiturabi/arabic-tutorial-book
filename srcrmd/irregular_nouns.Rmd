@@ -94,7 +94,7 @@ Here are some more examples in sentences:
 
 [أَخُوهُ طَوِيلٌ وَأَخُوهَا قَصِيرٌ وَأَخِي كَبِيرٌ.]{.ar}  
 [EaxUhu TawIlun waEaxUhA qaSIrun waEaxI kabIr.]{.trn}  
-[His brother is tall and her brother is short and my brother is big."
+"His brother is tall and her brother is short and my brother is big."
 
 [سَأَلَ أَخَاهُمْ وَأَخَانَا.]{.ar}  
 [saEaltu EaxAhum waEaxAnA.]{.trn}  
@@ -158,13 +158,13 @@ So, for example, [ذُو ٱلْمَالِ]{.ar} [pu -lmAli]{.trn} means "possess
 |a-state|[ذَا]{.ar} [pA]{.trn} |[ذَوَيْ]{.ar} [paway]{.trn}|[ذَوِي]{.ar} [pawI]{.trn}|
 |i-state|[ذِي]{.ar} [pI]{.trn} |same as a-state|same as a-state|
 
-The noun [ذُو]{.ar} [pU]{.trn} and its duals and plurals are only ever used as annexe nouns in annexations. Furthermore, they may not be annexed to pronouns.
+The noun [ذُو]{.ar} [pU]{.trn} and its duals and plurals are only ever used as annexe nouns in annexations. Furthermore, they may not be annexed to pronouns. Here are some examples:
 
-[هَـٰذِهِ ٱلشَّجَرَةُ ذَاتُ ثَمَرٍ كَثِيرٍ.]{.ar}  
-[hApihi -ccajaratu pAtu vamarin kavIrin.]{.trn}  
-"This tree is the possessor of much fruit." = "This tree is very fruitful."
+[ٱَلرَّجُلُ ذُو ٱلْمَالِ.]{.ar}  
+[Earrujulu pu -lmAl.]{.trn}  
+"The man is the possessor of wealth." = "This man is wealthy."
 
-The word [ذَاتٌ]{.ar} is the feminine of [ذُو]{.ar}. When used as the first noun in a noun chain, its states, duals, and plurals are as in the table below:
+The word [ذَات]{.ar} is the feminine of [ذُو]{.ar}. When used as an annexe noun, its states, duals, and plurals are as in the table below:
 
 |State|Singular|Dual|Plural|
 |:--|:---|:---|:---|
@@ -172,20 +172,89 @@ The word [ذَاتٌ]{.ar} is the feminine of [ذُو]{.ar}. When used as the fi
 |a-state|[ذَاتَ]{.ar} [pAta]{.trn} |[ذَوَاتَيْ]{.ar} [pawAtay]{.trn}|[ذَوَاتِ]{.ar} [pawAti]{.trn}|
 |i-state|[ذَاتِ]{.ar} [pAti]{.trn} |same as a-state|same as a-state|
 
-
 Examples:
 
-As opposed to [ذُو]{.ar} which is only used in noun-chains, [ذَاتٌ]{.ar} may be used a noun in its own right. In this case it means "personality" or "essence". This usage is often found in theological or philosophical works. And, as such, unlike [ذُو]{.ar} which can't have attached pronouns, [ذَاتٌ]{.ar} can be used with attached pronouns. Examples:
+[هَـٰذِهِ ٱلشَّجَرَةُ ذَاتُ ثَمَرٍ كَثِيرٍ.]{.ar}  
+[hApihi -ccajaratu pAtu vamarin kavIrin.]{.trn}  
+"This tree is the possessor of much fruit." = "This tree is very fruitful."
+
+As opposed to [ذُو]{.ar} which is only an annexe noun, [ذَات]{.ar} may be used a noun in its own right. In this case it means "personality" or "essence". This usage is often found in theological or philosophical works. And, as such, unlike [ذُو]{.ar} which can't be annexed to attached pronouns, [ذَات]{.ar} can be annexed to attached pronouns. Examples:
 
 ### [فُو]{.ar} [fU]{.trn}
 
-The fifth noun in this discussion is [فُو]{.ar} [fU]{.trn}. It is the most irregular noun so far in that it is derived from [فَمٌ]{.ar} [famun]{.trn} "mouth". 
+The fifth of "the five nouns" is [فُو]{.ar} [fU]{.trn}. It is the most irregular noun so far in that it is derived from [فَم]{.ar} [fam]{.trn} "a mouth". 
 
-The word [فَمٌ]{.ar} [famun]{.trn} (plural [أَفْواهٌ]{.ar} [EafwAhun]{.trn}) may be used regularly in forming duals, attaching pronouns to it, etc. Examples:
+The word [فَم]{.ar} [fam]{.trn} is regular in many ways. It is only irregular when it is a singular annexe noun. Let's first see its regular bahavior.
+
+[عَلَى ٱلْوَجْهِ فَمٌ وَفِي ٱلْفَمِ لِسَانٌ.]{.ar}  
+[eala -lwajhi famun wafi -lfami lisAn]{.trn}  
+"On the face is a mouth, and in the mounth is a tongue."
+
+It is a base noun in an annexation regularly:
+
+[نَطَقَ لِسَانُ ٱلْفَمِ.]{.ar}  
+[naTaqa lisAnu -lfam.]{.ar}  
+"The mouth's tongue articulated [speech]."
+
+It forms duals regularly, which are used in annexations regularly
 
 [فَمَا ٱلنَّهْرَيْنِ كَبِيرَانِ.]{.ar}  
 [fama -nnahrayni kabIrAni.]{.trn}  
 "The mouths~2~ of the rivers~2~ are big."
+
+Let's now see its irregular behavior.
+
+When [فَم]{.ar} is a singular annexe noun, then it is usual for it to follow the example of the rest of the five nouns.
+
+<!--
+In addition to the above regular behavior of [فَمٌ]{.ar} [famun]{.trn} "mouth", when the word is singular and is the first noun in a noun-chain, it is common to replace it with [فُو]{.ar} [fU]{.trn}. This is also done when the second noun in the noun-chain is a pronoun. 
+
+The three states of the singular [فُو]{.ar} [fU]{.trn} are shown in the table below:
+-->
+
+Here is how it will appear as a singular annexe noun in the three states:
+
+|u-state|a-state|i-state|
+|:---|:---|:---|
+|[فُو]{.ar} [fU]{.trn} |[فَا]{.ar} [fA]{.trn} |[فِي]{.ar} [fI]{.trn}|
+
+Examples of usage:
+
+[فُو ٱلنَّهْرِ كَبِيرٌ.]{.ar}  
+[fu -nnahri kabIr.]{.trn}  
+"The mouth of the river is big."
+
+[فُوهَا جَمِيلٌ.]{.ar}  
+[fUhA jamIl.]{.trn}  
+"Her mouth is beautiful."
+
+[فَتَحَ فَاهُ.]{.ar}  
+[fataHa fAh.]{.trn}  
+"He opened his mouth."
+
+[جَعَلَتِ ٱلْأُمُّ لُقْمَةَ طَعَامٍ فِي فِي ٱبْنَتِهَا.]{.ar}  
+[jaealati -lEummu luqmata TaeAmin fI fi -bnatihA.]{.trn}  
+"The mother put a morsel of food in her daughter's mouth."
+
+When the attached pronoun for the speaking person [ي]{.ar} is attached to [فُو]{.ar} [fU]{.trn}, [فَا]{.ar} [fA]{.trn}, or [فِي]{.ar} [fI]{.trn} the combination is always [فِيَّ]{.ar} [fiyya]{.trn} in all three states. Examples:
+
+[فِيَّ مَفْتُوحٌ.]{.ar}  
+[fiyya maftUh.]{.trn}  
+"My mouth is open."
+
+[فَتَحْتُ فِيَّ.]{.ar}  
+[fataHtu fiyy.]{.trn}  
+"I opened my mouth."
+
+[أَكَلْتُ بِفِيَّ.]{.ar}  
+[Eakaltu bifiyy.]{.trn}  
+"I ate with my mouth."
+
+In addition to the above irregular behavior, it is permissible, but less common, to treat [فَم]{.ar} regularly as an annexe noun in an annexation. So it is permissible to also say:
+
+[فَمُ ٱلنَّهْرِ كَبِيرٌ.]{.ar}  
+[famu -nnahri kabIr.]{.trn}  
+"The river's mouth is big."
 
 [فَمِي مَفْتُوحٌ.]{.ar}  
 [famI maftUhun.]{.trn}  
@@ -201,49 +270,16 @@ The word [فَمٌ]{.ar} [famun]{.trn} (plural [أَفْواهٌ]{.ar} [EafwAhun
 
 [جَعَلَتِ ٱلْأُمُّ لُقْمَةَ طَعَامٍ فِي فَمِ ٱبْنَتِهَا.]{.ar}  
 [jaealati -lEummu luqmata TaeAmin fI fami -bnatihA.]{.trn}  
-"The mother put a morself of food in her daughter's mouth."
+"The mother put a morsel of food in her daughter's mouth."
 
-In addition to the above regular behavior of [فَمٌ]{.ar} [famun]{.trn} "mouth", when the word is singular and is the first noun in a noun-chain, it is common to replace it with [فُو]{.ar} [fU]{.trn}. This is also done when the second noun in the noun-chain is a pronoun. 
-
-The three states of the singular [فُو]{.ar} [fU]{.trn} are shown in the table below:
-
-|u-state|a-state|i-state|
-|:---|:---|:---|
-|[فُو]{.ar} [fU]{.trn} |[فَا]{.ar} [fA]{.trn} |[فِي]{.ar} [fI]{.trn}|
-
-Examples of usage:
-
-[فُو ٱلنَّهْرِ كَبِيرٌ.]{.ar}  
-[fu -nnahri kabIrun.]{.trn}  
-"The mouth of the river is big."
-
-[فُوهَا جَمِيلٌ.]{.ar}  
-[fUhA jamIlun.]{.trn}  
-"Her mouth is beautiful."
-
-[فَتَحَ فَاهُ.]{.ar}  
-[fataHa fAhu.]{.trn}  
-"He opened his mouth."
-
-[جَعَلَتِ ٱلْأُمُّ لُقْمَةَ طَعَامٍ فِي فِي ٱبْنَتِهَا.]{.ar}  
-[jaealati -lEummu luqmata TaeAmin fI fi -bnatihA.]{.trn}  
-"The mother put a morself of food in her daughter's mouth."
-
-When the attached pronoun for the speaking person [ي]{.ar} is attached to [فُو]{.ar} [fU]{.trn}, [فَا]{.ar} [fA]{.trn}, or [فِي]{.ar} [fI]{.trn} the combination is always [فِيَّ]{.ar} [fiyya]{.trn} in all three states. Examples:
-
-[فِيَّ مَفْتُوحٌ.]{.ar}  
-[fiyya maftUhun.]{.trn}  
-"My mouth is open."
-
-[فَتَحْتُ فِيَّ.]{.ar}  
-[fataHtu fiyya.]{.trn}  
-"I opened my mouth."
-
-[أَكَلْتُ بِفِيَّ.]{.ar}  
-[Eakaltu bifiyya.]{.trn}  
-"I ate with my mouth."
-
+<!--
 As mentioned above, [فُو]{.ar} [fU]{.trn} typically only replaces [فَمٌ]{.ar} [famun]{.trn} "mouth", when the word is singular and is the first noun in a noun-chain. Otherwise, [فَمٌ]{.ar} [famun]{.trn} continues to be used.
+-->
+
+The other irregularity of [فَم]{.ar} [fam]{.trn} "a mouth" is that its broken plural is 
+[أَفْواه]{.ar} [EafwAh]{.trn})
+
+Note that the letter [م]{.ar} has not been used to form the broken plural, and instead a [و]{.ar}, and a [ه]{.ar} are used to form it.
 
 ## Other irregular nouns
 
