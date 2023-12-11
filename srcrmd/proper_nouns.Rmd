@@ -93,6 +93,8 @@ We will learn why [جَمِيلَة]{.ar} is semi-flexible as a proper noun in s
 
 ## Flexibility of proper nouns
 
+In this section we will discuss the flexibility of proper nouns.
+For now, we will deal only with proper nouns that do not begin with [ٱَلْ]{.ar}.
 In terms of their flexibility, proper nouns consist of two types:
 
 i. Fully-flexible proper nouns.
@@ -102,6 +104,7 @@ We will treat each of them below.
 
 ### Fully-flexible proper nouns
 
+<!--
 Fully-flexible proper nouns may or may not begin with [ٱَلْ]{.ar}.
 
 #### Names that begin with [ٱَلْ]{.ar}
@@ -109,8 +112,6 @@ Fully-flexible proper nouns may or may not begin with [ٱَلْ]{.ar}.
 If a proper noun begins with [ٱَلْ]{.ar} then the question of its flexibility is pretty much moot. 
 This is because noun beginning with with [ٱَلْ]{.ar} display their state fully, regardless of whether or not they are semi-flexible without the [ٱَلْ]{.ar}. Examples:
 
-<!--[ٱِسْمُ ٱلْإِمَامِ ٱلنُّعْمَانُ]{.ar}  
-"The [#imAm]{.trn2}'s name is [al-#nuemAn]{.trn}"  -->
 [ٱَلْحَسَنُ حَفِيدُ رَسُولِ ٱللَّـٰهِ صلى اللّه عليه وسلم.]{.ar}  
 "[al-#Hasan]{.trn2} is the grandson of the messenger of [#allAh]{.trn2} (may [#allAh]{.trn2} grant peace and confer blessing upon him)."
 (u-state displayed with [◌ُ]{.ar}.)
@@ -134,7 +135,7 @@ Examples of names that begin with [ٱَلْ]{.ar} are:
 |[ٱَلنُّعْمَان]{.ar}    |[al-#nuemAn]{.trn2}     |[ٱَلْفُرَات]{.ar}     |the Euphrates
 
 #### Names that don't begin with [ٱَلْ]{.ar}
-
+-->
 For names that don't begin with [ٱَلْ]{.ar}, the default assumption is that they are fully-flexible, unless they fall into one of the categories of semi-flexible nouns (which we will study soon).
 
 Examples of fully-flexible names are:
@@ -181,7 +182,7 @@ Most such proper nouns are feminine names. Examples:
 |[فَاطِمَة^2^]{.ar}     |[#faTimah]{.trn2}   |[صَفِيَّة^2^]{.ar}      |[#Safiyyah]{.trn2}  |
 |[عَائِشَة^2^]{.ar}     |[e#AEicah]{.trn2}   |[خَوْلَة^2^]{.ar}      |[#xawlah]{.trn2}    |
 |[سُمَيَّة^2^]{.ar}      |[#sumayyah]{.trn2}  |[جَمِيلَة^2^]{.ar}     |[#jamIlah]{.trn2}   |
-|[حَفْصَة^2^]{.ar}      |[#HafSah]{.trn2}    |[مَكَّة^2^]{.ar}       |Mecca |
+|[حَفْصَة^2^]{.ar}      |[#HafSah]{.trn2}    |[آسِيَة^2^]{.ar}      |[#Asiyah]{.trn2}    |
 
 However, some masculine names may end with [ة]{.ar} too:
 
@@ -197,6 +198,84 @@ Example:
 "The tall [#TalHah]{.trn2} is the husband of the generous [#jamIlah]{.trn2}."
 
 #### Names ending with an extrinsic [اء]{.ar} or [ىٰ]{.ar}
+
+Similar to common nouns and adjectival nouns, all names ending with an extrinsic [اء]{.ar} or [ىٰ]{.ar} shall be semi-flexible. These are usually feminine names. Examples:
+
+|||||
+|--:|:---|--:|:---|
+| [أَسْمَاء^2^]{.ar}     |[#asmAE]{.trn2}  | [لَيْلَىٰ^2^]{.ar}      |[#laylA]{.trn2}
+| [دَرْدَاء^2^]{.ar}     |[#dardAE]{.trn2} | [سَلْمَىٰ^2^]{.ar}      |[#salmA]{.trn2}
+
+Examples in sentences:
+
+[ذَهَبَتْ سَلْمَىٰ إِلَىٰ بَيْتِ أَسْمَاءَ.]{.ar}  
+"[#salmA]{.trn2} went tp [#asmAE]{.trn2}'s house."
+
+Sentence word order is usually pretty flexible. For stylistic reasons, it is permissible for a doee to precede the doer.
+For example,
+
+[سَأَلَتْ دَرْدَاءَ أَسْمَاءُ.]{.ar}  
+"[#asmAE]{.trn2} asked [#dardAE]{.trn2}"
+
+But because words that end with [ىٰ]{.ar} never display any state, then for these words the sentence word order becomes more rigid. So the following sentence:
+
+[سَأَلَتْ لَيْلَىٰ سَلْمَىٰ.]{.ar}  
+would usually only mean
+"[#laylA]{.trn2} asked [#salmA]{.trn2}."
+
+#### Names ending with an extrinsic [ان]{.ar}
+
+All names ending with an extrinsic [ان]{.ar} will be semi-flexible. 
+
+This is somewhat different from the rule we learnt for common noun and adjectival nouns in section\ \@ref(adjectival-noun-an-diptote). There only adjectival nouns of the pattern [فَعْلَان]{.ar} and whose feminine was not formed by adding [ة]{.ar} to it were considered semi-flexible nouns.
+
+Examples:
+
+|||||
+|--:|:---|--:|:---|
+|[عُثْمَان^2^]{.ar}     |[e#uvmAn]{.trn2}  |[رَمَضَان^2^]{.ar}     |[#ramaDAn]{.trn2}
+|[سُفْيَان^2^]{.ar}     |[#sufyAn]{.trn2}  |[شَعْبَان^2^]{.ar}     |[#caebAn]{.trn2}
+
+Example:
+
+[جَلَس عُثْمَانُ مَعَ سُفْيَانَ فِي رَمَضَانَ.]{.ar}  
+"[e#uvmAn]{.trn2} sat with [#sufyAn]{.trn2} in [#ramaDAn]{.trn2}."
+
+#### Names on the pattern [أَفْعَل]{.ar}
+
+All names on the pattern [أَفْعَل]{.ar} shall be semi-flexible. Examples:
+
+|||||
+|--:|:---|--:|:---|
+|[أَحْمَد^2^]{.ar}     |[#aHmad]{.trn2}  |[أَسْعَد^2^]{.ar}     |[#asead]{.trn2}
+
+#### Names of foreign origin
+
+Names of foreign origin are generally semi-flexible. These include the names of angels, many of the previous prophets and messengers, and other persons. Examples:
+
+|||||
+|--:|:---|--:|:---|
+|[إِبْرَاهِيم^2^]{.ar}  |[#ibrAhIm]{.trn2} |[يَحْيَىٰ^2^]{.ar}     |[#yaHyA]{.trn2}
+|[إِسْمَاعِيل^2^]{.ar}  |[#ismAeIl]{.trn2} |[هَاجَر^2^]{.ar}     |[#hAjar]{.trn2}
+|[إِسْحَاق^2^]{.ar}    |[#isHAq]{.trn2}   |[مَرْيَم^2^]{.ar}     |[#maryam]{.trn2}
+|[يَعْقُوب^2^]{.ar}    |[#yaeqUb]{.trn2}  |[يَأْجُوج^2^]{.ar}    |[#yaEjUj]{.trn2}
+|[يُوسُف^2^]{.ar}     |[#yUsuf]{.trn2}   |[مَأْجُوج^2^]{.ar}    |[#maEjUj]{.trn2}
+|[يُونُس^2^]{.ar}     |[#yUnus]{.trn2}   |[إِبْلِيس^2^]{.ar}    |[#iblIs]{.trn2}
+|[إِدْرِيس^2^]{.ar}    |[#idrIs]{.trn2}   |[فِرْعَون^2^]{.ar}    |Pharoah
+|[أَيُّوب^2^]{.ar}     |[#ayyUb]{.trn2}   |[هِرْقَل^2^]{.ar}     |Heraclius
+|[مُوسَىٰ^2^]{.ar}     |[#mUsA]{.trn2}    |[كِسْرَىٰ^2^]{.ar}     |Chosroes
+|[عِيسَىٰ^2^]{.ar}     |[#eIsA]{.trn2}    |[قَيْصَر^2^]{.ar}     |Caesar
+
+Note that 
+[فِرْعَون^2^]{.ar} "Pharoah" 
+as [قَيْصَر^2^]{.ar}     "Caesar",
+despite being titles,
+are treated as proper names.
+
+
+
+
+
 
 
 
