@@ -565,11 +565,12 @@ Examples of place names are:
 
 |||||
 |--:|:---|--:|:---|
-|[مَكَّة^2^]{.ar}    |Mecca    |[ٱَلْمَدِينَة]{.ar}   |Medina|
-|[دِمَشْق^2^]{.ar}   |Damascus |[ٱَلْقَاهِرَة]{.ar}   |Cairo |
-|[بَغْدَاد^2^]{.ar}  |Baghdad  |[ٱَلْهِنْد]{.ar}     |India |
-|[مِصْر^2^]{.ar}    |Egypt    |[ٱَلصِّين]{.ar}     |China |
-|[فَارِس^2^]{.ar}   |Persia   |[ٱَلرُّوم]{.ar}     |Rome  |
+|[مَكَّة^2^]{.ar}    |Mecca             |[ٱَلْمَدِينَة]{.ar}   |Medina|
+|[دِمَشْق^2^]{.ar}   |Damascus          |[ٱَلْقَاهِرَة]{.ar}   |Cairo |
+|[بَغْدَاد^2^]{.ar}  |[#bagdAd]{.trn2}  |[ٱَلْهِنْد]{.ar}     |India |
+|[مِصْر^2^]{.ar}    |Egypt             |[ٱَلصِّين]{.ar}     |China |
+|[فَارِس^2^]{.ar}   |Persia            |[ٱَلرُّوم]{.ar}     |Rome  |
+|[تَبُوك^2^]{.ar}   |[#tabUk]{.trn2}   |[ٱَلْبَصْرَة]{.ar}    |[#baSrah]{.trn2}|
 
 Example of use:
 
@@ -644,13 +645,16 @@ Here are some examples of titles in Arabic:
 
 |||||
 |--:|:---|--:|:---|
-|[نَبِيّ]{.ar}   |Prophet    |[إِمَام]{.ar}  |[#imAm]{.trn2} |
-|[مَلِك]{.ar}   |King       |[شَيْخ]{.ar}   |[#cayx]{.trn2} |
-|[أَمِير]{.ar}  |Commander  |[أُسْتَاذ]{.ar} |Professor      |
+|[ٱَلنَّبِيّ]{.ar}   |Prophet    |[ٱَلْإِمَام]{.ar}  |[#imAm]{.trn2} |
+|[ٱَلْمَلِك]{.ar}   |King       |[ٱَلشَّيْخ]{.ar}   |[#cayx]{.trn2} |
+|[ٱَلْأَمِير]{.ar}  |Commander  |[ٱَلْحَافِظ]{.ar}  |[#HAfiP]{.trn2}|
+|[ٱَلْقَاضِي]{.ar}  |Judge      |[ٱَلْأُسْتَاذ]{.ar} |Professor      |
 
 Some Arabic titles are left untranslated in English like
-[إِمَام]{.ar}  [#imAm]{.trn2} (a leader) and 
-[شَيْخ]{.ar}   [#cayx]{.trn2} (a venerable man).
+
++ [ٱَلْإِمَام]{.ar}  [#imAm]{.trn2} (a leader)
++ [ٱَلشَّيْخ]{.ar}   [#cayx]{.trn2} (a venerable man)
++ [ٱَلْحَافِظ]{.ar}  [#HAfiP]{.trn2} (one who has memorized, and preserved religious texts)
 
 ### Titles as replacees
 
@@ -711,21 +715,57 @@ Nicknames usually come after a person's name as a replacement.
 
 The affiliate adjectival noun is a kind of adjectival noun that indicates an affiliation.
 
-Generally, if the ending [◌ِيّ]{.ar} [-iyy]{.trn} is suffixed to a noun, it forms an affiliate adjectival noun. Sometimes there are other internal changes to the word before this suffix is added.
-We will only give some examples here and will treat this topic fully in chapter\ \@ref(the-affiliate-adjective-chapter).
-
 Here are some examples of affiliate adjectival nouns:
 
 |||||
 |--:|:---|--:|:---|
-|[عِرَاقِيّ]{.ar}    |Iraqi    |[قُرَشِيّ]{.ar}     |[#qurayc]{.trn2}ite |
-|[مَكِّي]{.ar}      |Meccan   |[تَمِيمِيّ]{.ar}    |[#tamIm]{.trn2}ian  |
-|[دِمَشْقِيّ]{.ar}    |Damascan |[إِسْرَائِيلِيّ]{.ar} |[#isrAEIl]{.trn2}ite|
+|[عِرَاقِيّ]{.ar}    |an Iraqi            |[قُرَشِيّ]{.ar}     |a [#qurayc]{.trn2}ite |
+|[مَكِّي]{.ar}      |a Meccan            |[تَمِيمِيّ]{.ar}    |a [#tamIm]{.trn2}ian  |
+|[دِمَشْقِيّ]{.ar}    |a Damascan          |[إِسْرَائِيلِيّ]{.ar} |a [#isrAEIl]{.trn2}ite|
+|[شَافِعِيّ]{.ar}    |a [cAfie]{.trn2}ite |[حَنَفِيّ]{.ar}     |a [#HanafI]{.trn2}    |
+|[مَالِكِيّ]{.ar}    |a [mAlikI]{.trn2}   |[حَنْبَلِيّ]{.ar}    |a [#HanbalI]{.trn2}   |
+
+Note the following about affiliate adjectival nouns:
+
++ Generally, the ending [◌ِيّ]{.ar} [-iyy]{.trn} is suffixed to a noun to create an affiliate adjectival noun. 
++ The [ة]{.ar} ending is removed before adding the [◌ِيّ]{.ar} [-iyy]{.trn} suffix.
++ Sometimes there are other internal changes to the word before this suffix is added. For example,
+  + [قُرَيْش]{.ar} becomes [قُرَشِيّ]{.ar}
++ The affiliate adjectival noun may be formed from any distinctive name of a person or place. For example:
+  + A follower of the school of thought of [ٱَلْإِمَام أَبُو حَنِيفَة]{.ar} [#imAm #abU #HanIfah]{.trn2} is called [حَنَفِيّ]{.ar} "a [#HanafI]{.trn2}".
+  + A follower of the school of thought of [ٱَلْإِمَام أَحْمَد بْن حَنْبَل]{.ar} [#imAm #aHmad ibn #Hanbal]{.trn2} is called [حَنْبَلِيّ]{.ar} "a [#HanbalI]{.trn2}".
+
+We will treat adjectival nouns more fully in chapter\ \@ref(the-affiliate-adjective-chapter).
 
 Afflilate adjectival nouns frequently occur with proper nouns. They come after the proper noun as a replacement, and are made definite by [ٱَلْ]{.ar} to match the proper noun in definiteness. Examples:
 
-[ٱِبْن كَثِيرٍ ٱلدِّمَشْقِيُّ عَالِمٌ.]{.ar}  
-"[#ibn #kavIr]{.trn2} the Damascan is a scholar."
+[ٱِبْن كَثِيرٍ ٱلدِّمَشْقِيُّ مُفَسِّرٌ وَمُؤَرِّخٌ.]{.ar}  
+"[#ibn #kavIr]{.trn2} the Damascan is an exegete and a historian."
 
 ## Complete full names
+
+We have already studied how a basic full name is formed in section\ \@ref(full-names). Here, we will expand on that topic.
+
+The complete full name of a person is formed by placing some or all of his different names in a particular order. Each name in the order is a replacement of one of the names before it. Generally, the order is:
+
+i. Titles
+i. "Father of" name
+i. Given name
+i. "Son of" names
+i. Affiliate names
+
+The nicknames position is variable.
+
+Here are some examples of full names in varying degrees of completeness:
+
++ [خَلِيفَةُ رَسُولِ ٱللَّـٰهِ أَبُو بَكْرٍ ٱلصِّدِّيقُ]{.ar}  
+  The Successor of the Messenger of [#allAh]{.trn2}, [#abU #bakr]{.trn2}, the steadfast affirmer of the truth
+
++ [أَمِيرُ ٱلْمُؤْمِنِينَ عُمَرُ بْنُ ٱلْخَطَّابِ]{.ar}  
+  The Commander of the Believers, [e#umar] the son of [al-#xaTTAb]{.trn2}
+
++ [ٱَلْحَافِظ ٱل]{.ar}
+
+
+
 
