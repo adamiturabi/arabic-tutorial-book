@@ -547,7 +547,7 @@ Example:
 
 ## The Replacement
 
-Before we proceed with our discussion on proper nouns, we will take a short digression to discuss a grammatical concept called the _replacement_.
+Before we proceed with our discussion on proper nouns, we will take a short digression to discuss a grammatical concept called the _replacement_. We will only give a short preview here and will treat it fully in chapter\ \@ref(the-replacement-chapter).
 
 A _replacement_ is a word that follows another word, the _replacee_, and replaces it from the perspective of the grammar of the sentence. The replacement is put in the same state as the replacee.
 Here is an example of a sentence with a replacement and a replacee:
@@ -618,6 +618,8 @@ Some Arabic titles are left untranslated in English like
 [إِمَام]{.ar}  [#imAm]{.trn2} (a leader) and 
 [شَيْخ]{.ar}   [#cayx]{.trn2} (a venerable man).
 
+### Titles as replacees
+
 Titles are usually placed in front a proper noun and made definite with [ٱَلْ]{.ar} to match the proper noun. For example,
 
 [سَأَلَ رَجُلٌ ٱلْإِمَامَ مَالِكًا عَنْ أَمْرٍ.]{.ar}  
@@ -638,110 +640,58 @@ Example:
 [أُمُّ ٱلْمُؤْمِنِينَ عَائِشَةُ هِيَ ٱِبْنَةُ خَلِيفَةِ رَسُولِ ٱللَّـٰهِ أَبِي بَكْرٍ.]{.ar}  
 "The Mother of the Believers [e#AEicah]{.trn2} is the daughter of the Successor of the Messenger of [#allAh]{.trn2} [#abU #bakr]{.trn2}."
 
+### Titles in annexations
 
-## Remove
+Some prominent inanimate objects, like mountains, rivers, and cities, may have titles. For example:
 
-Proper nouns are names of persons and places. Proper nouns are always definite. Despite being definite, they will often not begin with [ٱَلْ]{.ar}.
++ Mount Everest
++ the river Nile
++ the city of Damascus
 
+In Arabic, the titles for these objects usually don't occur as replacees as they do for persons. Rather, the title is annexed to the proper noun in an annexation. Examples:
 
+|||||
+|--:|:---|--:|:---|
+|[جَبَل أُحُد]{.ar}      |Mount [#uHud]{.trn2} |[مَدِينَة دِمَشْق]{.ar}   |the city of Damascus |
+|[نَهْر ٱلنِّيل]{.ar}    |the river Nile      |[شَهْر رَمَضَان]{.ar}    |the month of [#ramaDAn]{.trn2} |
+|[سُورَة ٱلْفَاتِحَة]{.ar} |the [#sUrah]{.trn2} of [al-#fAtiHah]{.trn2} ||
 
-## Male names
+Example:
 
-Here are some examples of male names: 
+[قَرَأَتِ ٱلْجَارِيَةُ سُورَةَ ٱلْفَاتِحَةِ فِي شَهْرِ رَمَضَانَ.]{.ar}  
+"The girl read the [#sUrah]{.trn2} of [al-#fAtiHah]{.trn2} in the month of [#ramaDAn]{.trn2}."
 
-+ [مُحَمَّدٌ]{.ar} [muHammadun]{.trn} [#muHammad]{.trn2}
-+ [زَيْدٌ]{.ar} [zaydun]{.trn} [#zayd]{.trn2}
-+ [سَعِيدٌ]{.ar} [saeIdun]{.trn} [#saeId]{.trn2}
-+ [عَلِيٌّ]{.ar} [ealiyyun]{.trn} [e#alI]{.trn2}
-+ [سَعْدٌ]{.ar} [saedun]{.trn} [#saed]{.trn2}
-+ [ٱَلْحَسَنُ]{.ar} [Ealhasanu]{.trn} [#al-#Hasan]{.trn2}
-+ [أَسْعَدُ]{.ar} [Easeadu]{.trn} [E#asead]{.trn2}
-+ [عُثْمَانُ]{.ar} [euvmAnu]{.trn} [e#uvmAn]{.trn2}
-+ [طَلْحَةُ]{.ar} [Talhatu]{.trn} [#Talhah]{.trn2}
-+ [إِبْرَاهِيمُ]{.ar} [EibrAhImu]{.trn} [E#ibrAhIm]{.trn2}
-+ [عُمَرُ]{.ar} [eumaru]{.trn} [e#umar]{.trn2}
+## Nicknames
 
-You can see that male names often have an [n]{.trn}-mark. This does not mean that they are indefinite. Rather, as we've mentioned above, proper noun are always definite. So, for example, it is possible for a proper noun with an [n]{.trn}-mark to begin a subject-information sentence, because it is definite:
+Nicknames are often given to people. They are usually descriptive of some physical quality or character trait of the person. For example, the Companion [#abU #bakr]{.trn2} was given the  nickname [ٱلصِّدِّيق]{.ar} "the steadfast affirmer of the truth".
 
-[مُحَمَّدٌ رَجُلٌ كَرِيمٌ.]{.ar}  
-[muHammadun rajulun karImun.]{.trn}  
-"[#muHammad]{.trn2} is a noble man."
+Nicknames usually come after a person's name as a replacement.
 
-<!-- [جَاءَ مُجَمَّدٌ ٱلْكَبِيرُ]{.ar}  
-  [jAEa muHammaduni -lkabIru.]{.trn}  
-  "The noble [#muHammad]{.trn2} came."
+[أَبُو بَكَرٍ ٱلصِّدِّيقُ هُوَ خَلِيفَةُ رَسُولِ ٱللَّـٰهِ.]{.ar}  
+"[#abU #bakr]{.trn2} the steadfast affirmer of the truth is the successor of the messenger of [#allAh]{.trn2}."
 
-FIXME: Isn't this a badal instead? Maybe remove this section. -->
+[قَرَأَ سُلَيْمَانُ ٱلأَعْمَشُ ٱلْقُرْآنَ.]{.ar}  
+"[#sulaymAn]{.trn2} the weak-sighted read the [#qurEAn]{.trn2}."
 
-Names are also often originally qualitative nouns with a good meaning. For example, [سَعِيدٌ]{.ar} [saeIdun]{.trn} is a qualitative noun meaning "happy".
+## The affiliate adjectival noun
 
-Sometimes, it is not clear from the sentence itself whether a word is used as a qualitative noun, or as a name. For example:
+The affiliate adjectival noun is a kind of adjectival noun that indicates an affiliation.
 
-[جَاءَ سَعِيدٌ]{.ar}  
-[jAEa saeIdun]{.trn}  
-"A happy (masc.) one came."  
-OR  
-"[#saeId]{.trn2} came."
+Generally, if the ending [◌ِيّ]{.ar} [-iyy]{.trn} is suffixed to a noun, it forms an affiliate adjectival noun. Sometimes there are other internal changes to the word before this suffix is added.
+We will only give some examples here and will treat this topic fully in chapter\ \@ref(the-affiliate-adjective-chapter).
 
-Many male names are fully changing but there are some that are non-fully-changing. A male name will be non-fully-changing if it falls under the following categories:
+Here are some examples of affiliate adjectival nouns:
 
-1. The male name ends with an [ان]{.ar} which is external to the word's root. This is regardless of whether or not the word was originally a qualitative noun. A name that falls under this category is [عُثْمَانُ]{.ar} [euvmAnu]{.trn} [e#uvmAn]{.trn2} of the root [عثم]{.arroot}.
-2. The male name is on the pattern [أَفْعَل]{.ar}, e.g. [أَسْعَدُ]{.ar} [Easeadu]{.trn} [E#asead]{.trn2} of the root [سعد]{.arroot}.
-3. The male name ends with a [ة]{.ar}. We have learned that [ة]{.ar} is a feminine marker for singular nouns. However, it is often found in male names and in this case it is not a feminine marker. When a male name ends with [ة]{.ar} then it will be non-fully-changing. An example of a male name that ends with [ة]{.ar} is [طَلْحَةُ]{.ar} [Talhatu]{.trn} [#Talhah]{.trn2}.
-4. The male name is non-Arabic in origin, and comprises of more than three letters. Most of the earlier prophets' names that are found in the [#qurEAn]{.trn2} fall under this category, e.g. [إِبْرَاهِيمُ]{.ar} [EibrAhImu]{.trn} [E#ibrAhIm]{.trn2}.
+|||||
+|--:|:---|--:|:---|
+|[عِرَاقِيّ]{.ar}    |Iraqi    |[قُرَشِيّ]{.ar}     |[#qurayc]{.trn2}ite |
+|[مَكِّي]{.ar}      |Meccan   |[تَمِيمِيّ]{.ar}    |[#tamIm]{.trn2}ian  |
+|[دِمَشْقِيّ]{.ar}    |Damascan |[إِسْرَائِيلِيّ]{.ar} |[#isrAEIl]{.trn2}ite|
 
-   However, if the non-Arabic origin name comprises three letters then it shall be fully changing, e.g., [نُوحٌ]{.ar} [nUHun]{.trn} [#nUH]{.trn2}.
-5. The male name is of the pattern [فُعَل]{.ar}. The only common name that falls in this category is [عُمَرُ]{.ar} [eumaru]{.trn} [e#umar]{.trn2} of the root [عمر]{.arroot}.
+Afflilate adjectival nouns frequently occur with proper nouns. They come after the proper noun as a replacement, and are made definite by [ٱَلْ]{.ar} to match the proper noun in definiteness. Examples:
 
-   Interestingly, the fully-changing name [e#amr]{.trn2} is written with a silent [و]{.ar} at its end when in the u- and i-states in order to distinguish it from the more common name [e#umar]{.trn2}. Otherwise, both names would appear identical when written without vowel marks, thus: [عمر]{.ar}.
+[ٱِبْن كَثِيرٍ ٱلدِّمَشْقِيُّ عَالِمٌ.]{.ar}  
+"[#ibn #kathIr]{.trn2} the Damascan is a scholar."
 
-   Name|u-state|a-state|i-state
-   :-|:--|:--|:--
-   [e#amr]{.trn2}|[عَمْرٌو]{.ar} [eamrun]{.trn}| [عَمْرًا]{.ar} [eamran]{.trn}|[عَمْرٍو]{.ar} [eamrin]{.trn}
-   [e#umar]{.trn2}|[عُمَرُ]{.ar} [eumaru]{.trn}| [عُمَرَ]{.ar} [eumara]{.trn}|[عُمَرَ]{.ar} [eumara]{.trn}
+## Full names
 
-There are other categories of non-fully-changing male names as well but they are rare so we won't worry about them.
-
-## Female names
-
-Here are some examples of female names: 
-
-+ [جَمِيلَةُ]{.ar} [jamIlatu]{.trn} [#jamIlah]{.trn2}
-+ [فَاطِمَةُ]{.ar} [faTimatu]{.trn} [#fATimah]{.trn2}
-+ [زَيْنَبُ]{.ar} [zaynabu]{.trn} [#zaynab]{.trn2}
-
-Female names often, but not always, end with a feminine marker. They too are definite without [ٱَلْ]{.ar} [Eal]{.trn} but they differ from male names in that they are almost always non-fully-changing nouns. Therefore they don't have [n]{.trn}-marks. 
-
-There are some female names that are fully-changing but they are rare so we won't worry about them.
-
-Even when the name is originally a qualitative noun which is fully-changing, it will become non-fully-changing when used as a name. For example:
-
-[جَاءَتْ جَمِيلَةٌ]{.ar}  
-[jAEat jamIlatun]{.trn}  
-"A beautiful (fem.) one came."
-
-[جَاءَتْ جَمِيلَةُ]{.ar}  
-[jAEat jamIlatu]{.trn}  
-"[#jamIlah]{.trn2} came."
-
-### Place names
-
-Place names are usually, but not always, feminine and non-fully-changing. Some place names have [ٱَلْ]{.ar} [Eal]{.trn}. Here are some examples:
-
-+ [مَكَّةُ]{.ar} [makkatu]{.trn} (fem.) Mecca
-+ [مِصْرُ]{.ar} [miSru]{.trn} (fem.) Egypt
-+ [ٱَلْعِرَاقُ]{.ar} [EaleirAqu]{.trn} (masc.) Iraq
-
-## Writing nouns in this book
-
-For convenience, henceforth, when we discuss nouns outside of a sentence, we will usually write them without final vowel marks (like [n]{.trn}-marks) and translate them without any indefinite article, e.g. [جَارِيَة]{.ar} [jAriyah]{.trn} "girl".
-
-Non-fully-changing nouns, when first introduced, will be marked with a superscript ◌^2^ to indicate that the final vowel has at most two variations when indefinite, not three, e.g. [صَحْرَاء^2^]{.ar} [SaHrAE]{.trn}^2^ "desert".
-
-## Vocabulary
-
-### List
-
-### Notes
-
-3amr has waw
