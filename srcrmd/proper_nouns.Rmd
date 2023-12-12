@@ -543,10 +543,55 @@ Otherwise, for example, if it comes before the verb, then the plural masculine p
 Example:
 
 [سَكَنَتْ قُرَيْشٌ مَكَّةَ وَعَبَدُوا ٱلْأَصْنَامَ.]{.ar}  
-"[#qurayc]{.trn2} dwelled in Mecca and worshipped idols."
+"[#qurayc]{.trn2} dwelled in Mecca and they worshipped idols."
 
 ## The Replacement
 
+Before we proceed with our discussion on proper nouns, we will take a short digression to discuss a grammatical concept called the _replacement_.
+
+A _replacement_ is a word that follows another word, the _replacee_, and replaces it from the perspective of the grammar of the sentence. The replacement is put in the same state as the replacee.
+Here is an example of a sentence with a replacement and a replacee:
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text= \txarb{كِتَابًا.} \txarb{شَيْـًٔا} \txarb{ٱلْغُلَامُ} \txarb{أَخَذَ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize replacement};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize replacee};
+
+\path [decoration={text effects along path, 
+  text={``The boy took something: a book''},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate, below=13ex] (0,0);
+
+
+\end{tikzpicture}
+```
+
+In the above sentence, the word [كِتَابًا]{.ar} "a book" is the replacement of 
+[شَيْـًٔا]{.ar} "something". Therefore, it is put in the same a-state.
+
+The replacement is frequently used with proper nouns. For example,
+
+[ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ عَمِّهِ عَلِيٍّ.]{.ar}  
+"The boy went to his uncle [e#alI]{.trn2}'s house."
+
+In this sentence, the name [عَلِيّ]{.ar} [e#alI]{.trn2} is the replacement of the replacee [عَمّ]{.ar} "uncle". Note, again, that the replacement comes after the replacee and matches it in state. However, the replacement does not need to come directly after the replacee. We can see that there is the pronoun [ه]{.ar} "his" between them.
 
 
 ## Remove
