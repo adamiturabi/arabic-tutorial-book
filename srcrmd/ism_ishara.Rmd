@@ -79,24 +79,24 @@ Here is an example of a descriptive noun-phrase in a sentence.
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
-  text=\txarb{ٱلصَّغِيرَينِ} \txarb{ٱلْكِتَابَيْنِ} \txarb{قَرَأْتُ},
+  text=.\txarb{ٱلصَّغِيرَينِ} \txarb{ٱلْكِتَابَيْنِ} \txarb{قَرَأْتُ},
   text effects/.cd, 
     path from text, text along path,
     group letters, word count=\w,
     every word/.style={name=word-\w, execute at begin node=\strut}},
   decorate] (0,0);
 
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, below=2ex, left=0.5ex, rotate=90] {\scriptsize\uppercase{describer}};
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, above=10ex, left=-0.2ex, rotate=90] {\scriptsize describer};
 
-\draw [decoration={brace, mirror}, decorate] 
-   (word-2.south west) -- (word-2.south east)
-      node [midway, below=2ex, left=0.5ex, rotate=90] {\scriptsize\uppercase{describee}};
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, above=10ex, left=-0.2ex, rotate=90] {\scriptsize describee};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
-      node [midway, below=9ex] {\scriptsize\uppercase{descriptive noun-phrase}};
+      node [midway, below=0.5ex] {\scriptsize descriptive noun-phrase};
 
 \path [decoration={text effects along path, 
   text={``I read the small books''},
@@ -104,14 +104,96 @@ Here is an example of a descriptive noun-phrase in a sentence.
     path from text, text along path,
     group letters, word count=\w,
     every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate, below=14ex] (0,0);
+  decorate, below=7ex] (0,0);
 
 
 \end{tikzpicture}
 ```
 
+We will now see how this same descriptive noun-phrase can be used with pointing nouns.
 
+### The pointed-to noun is definite with [ٱَلْ]{.ar}
 
+Just like an adjectival noun, a pointing noun can be a describer in a noun-phrase. But remember from 
+section\ \@ref(definiteness-of-pointing-nouns)
+above that pointing nouns are definite.
+So, if a pointing noun is a describer in a noun-phrase, the describee has to be definite too.
+Example:
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{هَـٰذَيْنِ} \txarb{ٱلْكِتَابَيْنِ} \txarb{قَرَأْتُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, above=10ex, left=-0.2ex, rotate=90] {\scriptsize describer};
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, above=10ex, left=-0.2ex, rotate=90] {\scriptsize describee};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-2.south east)
+      node [midway, below=0.5ex] {\scriptsize descriptive noun-phrase};
+
+\path (0,0) node [midway, below=10ex, right=0ex, align=left] {``I read these books.''\\(literally: ``I read the these-ones books.'')};
+
+\end{tikzpicture}
+```
+
+In the above example, the pointed-to noun [ٱَلْكِتَابَيْنِ]{.ar} is the describee in a descriptive noun-phrase. It is definite, in the a-state, masculine, and dual.
+
+The pointing noun [هَـٰذَيْنِ]{.ar} is its describer. It follows the describee and matches it being dual, in the a-state, masculine, and dual.
+
+As a special case, when the pointed-to noun has [ٱَلْ]{.ar} (as in this case), then the order of the pointing noun and the pointed to noun is permitted to be reversed. 
+<!--The pointing noun can be the describee, and the pointed-to noun can be the describer.-->
+
+The pointing noun is then a replacee (see section\ \@ref(the-replacement)), and the pointed-to noun is its replacement.
+
+Example:
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{ٱلْكِتَابَيْنِ} \txarb{هَـٰذَيْنِ} \txarb{قَرَأْتُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, above=12ex, left=-0.2ex, rotate=90] {\scriptsize replacement};
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, above=9ex, left=-0.2ex, rotate=90] {\scriptsize replacee};
+
+\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read these books.''\\(literally: ``I read the books: these-ones.'')};
+
+\end{tikzpicture}
+```
+
+In the above example, the 
+pointing noun [هَـٰذَيْنِ]{.ar} 
+is a replacee. It is definite, in the a-state, masculine, and dual.
+
+The 
+pointed-to noun [ٱَلْكِتَابَيْنِ]{.ar} 
+is its replacement. It follows the replacee and matches it being dual, in the a-state, masculine, and dual.
+
+As a matter of fact, even though both orders are permitted, this reverse order of placing the pointing noun first and following it with the pointed-to noun is more common.
+
+Here are some more examples of pointing noun phrases when the pointed-to noun is definite with [ٱَلْ]{.ar}:
 
 ## Remove
 
