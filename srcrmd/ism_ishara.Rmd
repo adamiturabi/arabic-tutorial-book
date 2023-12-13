@@ -71,13 +71,15 @@ Both these facts will prove useful in the next section.
 
 ## The pointing noun phrase
 
-Here is an example of a pointing noun phrase:
+Remember from chapter\ \@ref(adjectival-nouns-and-descriptive-noun-phrases) that a descriptive noun-phrase consists of a describer and a describee. The describer follows the describer and matches it in definiteness, state, gender, and number. 
+
+Here is an example of a descriptive noun-phrase in a sentence.
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
-  text=\txarb{ٱلْكِتَابُ} \txarb{هَـٰذَا},
+  text=\txarb{ٱلصَّغِيرَينِ} \txarb{ٱلْكِتَابَيْنِ} \txarb{قَرَأْتُ},
   text effects/.cd, 
     path from text, text along path,
     group letters, word count=\w,
@@ -86,11 +88,24 @@ Here is an example of a pointing noun phrase:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below=2ex, left=0.5ex, rotate=90] {\scriptsize replacement};
+      node [midway, below=2ex, left=0.5ex, rotate=90] {\scriptsize\uppercase{describer}};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, below=2ex, left=0.5ex, rotate=90] {\scriptsize replacee};
+      node [midway, below=2ex, left=0.5ex, rotate=90] {\scriptsize\uppercase{describee}};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-2.south east)
+      node [midway, below=9ex] {\scriptsize\uppercase{descriptive noun-phrase}};
+
+\path [decoration={text effects along path, 
+  text={``I read the small books''},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate, below=14ex] (0,0);
+
 
 \end{tikzpicture}
 ```
