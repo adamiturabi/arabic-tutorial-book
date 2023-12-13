@@ -34,18 +34,18 @@ The word "book" here is similarly called the _pointed-to_ noun. It refers to the
 
 There are two types of pointing nouns:
 
-i. Near pointing nouns. For example, "this" (singular) and "these" (plural).
-i. Far pointing nouns. For example, "that" (singular) and "those" (plural).
+i. Near pointing nouns: "this-one" (singular) and "these-ones" (dual and plural).
+i. Far  pointing nouns: "that-one" (singular) and "those-ones" (dual and plural).
 
 The following are the pointing nouns in Arabic:
 
-| Participant | Near pointing noun | Far pointing noun |
-|:---|:---|:---|
-|sing. masc.|[هَـٰذَا]{.ar}   [hApA]{.trn} |[ذَ ٰلِكَ]{.ar}   [pAlika]{.trn}
-|sing. fem. |[هَـٰذِهِ]{.ar}   [hApihi]{.trn}   |[تِلْكَ]{.ar}    [tilka]{.trn}    
-|dual masc. |[هَـٰذَانِ]{.ar}  [hApAni]{.trn}   / [هَـٰذَيْنِ]{.ar}  [hApayni]{.trn} |[ذَ ٰنِكَ]{.ar}   [pAnika]{.trn}   / [ذَيْنِكَ]{.ar}   [paynika]{.trn}
-|dual fem.  |[هَاتَانِ]{.ar}  [hAtAni]{.trn}   / [هَاتَيْنِ]{.ar}  [hAtayni]{.trn} |[تَانِكَ]{.ar}   [tAnika]{.trn}   / [تَيْنِكَ]{.ar}   [taynika]{.trn}
-|plural     |[هَـٰؤُلَاءِ]{.ar} [hAEulAEi]{.trn} |[أُولَـٰئِكَ]{.ar} [EulAEika]{.trn} 
+| Participant | Near pointing | noun | Far pointing | noun |
+|:--|---:|:----|---:|:----|
+|sing. masc.|[هَـٰذَا]{.ar}                           |this one~m~  |[ذَ ٰلِكَ]{.ar}             |that one~m~  |
+|sing. fem. |[هَـٰذِهِ]{.ar}                           |this one~f~  |[تِلْكَ]{.ar}              |that one~f~  |
+|dual masc. |[هَـٰذَانِ^(u)^]{.ar} / [هَـٰذَيْنِ^(a,i)^]{.ar} |these ones~2,m~|[ذَ ٰنِكَ^(u)^]{.ar} / [ذَيْنِكَ^(a,i)^]{.ar} |those ones~2,m~|
+|dual fem.  |[هَاتَانِ^(u)^]{.ar} / [هَاتَيْنِ^(a,i)^]{.ar} |these ones~2,f~|[تَانِكَ^(u)^]{.ar} / [تَيْنِكَ^(a,i)^]{.ar} |those ones~2,f~|
+|plural     |[هَـٰؤُلَاءِ]{.ar}                         |these ones~3~  |[أُولَـٰئِكَ]{.ar}           |those ones~3~  |
 
 Note the following:
 
@@ -68,6 +68,33 @@ Pointing nouns are different from pronouns in this regard. It is allowed to desc
 Both these facts will prove useful in the next section.
 
 ## The pointing noun phrase
+
+Here is an example of a pointing noun phrase:
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{ٱلْكِتَابُ} \txarb{هَـٰذَا},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below=2ex, left=0.5ex, rotate=90] {\scriptsize replacement};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, below=2ex, left=0.5ex, rotate=90] {\scriptsize replacee};
+
+\end{tikzpicture}
+```
+
+
+
 
 ## Remove
 
