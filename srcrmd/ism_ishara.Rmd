@@ -195,6 +195,39 @@ As a matter of fact, even though both orders are permitted, this reverse order o
 
 Here are some more examples of pointing noun phrases when the pointed-to noun is definite with [ٱَلْ]{.ar}:
 
+### The pointed-to noun is a proper noun
+
+Remember that proper noun are definite nouns, even though they usually don't begin with [ٱَلْ]{.ar}. For example:
+
++ [زَيْد]{.ar} Zayd
++ [زَيْنَب^2^]{.ar} Zaynab
+
+Such names may also be part of a pointing noun phrase. But because they don't begin with [ٱَلْ]{.ar} then only the first order (of placing the pointed-to noun first, and following it with the pointing noun).
+Example:
+
+[زَيْدٌ هَـٰذَا أَخُو زَيْنَبَ تِلْكَ.]{.ar}  
+"This Zayd is that Zaynab's brother."
+
+### Pointing noun phrases with annexations
+
+Consider the following annexation:
+
+[كِتَابَا ٱلرَّجُلِ]{.ar}  
+"the man's books~2~"
+
+We wwold like to be able to point to either the annexe noun
+[كِتَابَا]{.ar} "books~2~"
+or the base noun
+[ٱلرَّجُلِ]{.ar} "the man"
+in a pointing noun phrase.
+
+By the way, we can only do this when then base noun (and therefore the annexe noun also) is definite.
+If the base noun and annexe nouns are indefinite, then they may not be described with poinitng nouns because pointing nouns are always definite.
+
+#### The pointed-to noun is the base noun
+
+If the pointed-to noun is the base noun, then we may place
+
 ## Remove
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
