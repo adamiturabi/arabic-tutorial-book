@@ -291,6 +291,8 @@ Here is how these phrases could be used in complete sentences:
 
 Before we give more examples, let's analyze these phrases in detail.
 
+Consider the first pointing noun phrase:
+
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
@@ -318,12 +320,71 @@ Before we give more examples, let's analyze these phrases in detail.
    (word-2.south west) -- (word-2.south east)
       node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize replacee};
 
-\path (0,0) node [midway, below=17ex, right=0ex, align=left] {``the book of this man''\\(literally: ``the book of this-one: the man'')};
+\path (0,0) node [midway, below=15ex, right=0ex, align=left] {``the book of this man''};
 
 \end{tikzpicture}
 ```
 
 As you can see the pointing noun
+[هَـٰذَا]{.ar} has taken the place of 
+[ٱَلرَّجُل]{.ar} as the base noun in the annexation.
+In addition to being the base noun,
+[هَـٰذَا]{.ar} is also a replacee, whose replacement is 
+[ٱَلرَّجُل]{.ar}.
+A word-for-word translation of this phrase is:
+
+"the book of this-one: the man"
+
+The more natural translation is:
+
+"the book of this man"
+
+Consider, now, the second pointing noun phrase:
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{هَـٰذَا} \txarb{ٱلرَّجُلِ} \txarb{كِتَابُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize base-noun};
+
+\draw [decoration={brace}, decorate] 
+   (word-3.north west) -- (word-3.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe-noun};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describer};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
+
+\path (0,0) node [midway, below=15ex, right=0ex, align=left] {``the book of this man''};
+
+\end{tikzpicture}
+```
+
+[ٱَلرَّجُل]{.ar}, here, keeps its place as the base noun in the annexation.
+In addition to being the base noun,
+[ٱَلرَّجُل]{.ar}
+is also a describee, whose describer is the pointing noun
+[هَـٰذَا]{.ar}.
+A word-for-word translation of this phrase is:
+
+"the book of the this-one man"
+
+The more natural translation is:
+
+"the book of this man"
 
 #### The pointed-to noun is the annexe noun
 
