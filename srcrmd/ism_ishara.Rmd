@@ -17,11 +17,11 @@ Consider the following expression:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below=2ex, left=0.5ex, rotate=90] {\scriptsize pointing noun};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize pointing noun};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, below=2ex, left=0.5ex, rotate=90] {\scriptsize pointed-to noun};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize pointed-to noun};
 
 \end{tikzpicture}
 ```
@@ -88,24 +88,17 @@ Here is an example of a descriptive noun-phrase in a sentence.
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, above=10ex, left=-0.2ex, rotate=90] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describer};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, above=10ex, left=-0.2ex, rotate=90] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describee};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
-      node [midway, below=0.5ex] {\scriptsize descriptive noun-phrase};
+      node [midway, below] {\scriptsize descriptive noun-phrase};
 
-\path [decoration={text effects along path, 
-  text={``I read the small books''},
-  text effects/.cd, 
-    path from text, text along path,
-    group letters, word count=\w,
-    every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate, below=7ex] (0,0);
-
+\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read the small books.'')};
 
 \end{tikzpicture}
 ```
@@ -133,15 +126,15 @@ Example:
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, above=10ex, left=-0.2ex, rotate=90] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describer};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, above=10ex, left=-0.2ex, rotate=90] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describee};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
-      node [midway, below=0.5ex] {\scriptsize descriptive noun-phrase};
+      node [midway, below] {\scriptsize descriptive noun-phrase};
 
 \path (0,0) node [midway, below=10ex, right=0ex, align=left] {``I read these books.''\\(literally: ``I read the these-ones books.'')};
 
@@ -172,11 +165,11 @@ Example:
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, above=12ex, left=-0.2ex, rotate=90] {\scriptsize replacement};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize replacement};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, above=9ex, left=-0.2ex, rotate=90] {\scriptsize replacee};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize replacee};
 
 \path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read these books.''\\(literally: ``I read the books: these-ones.'')};
 
