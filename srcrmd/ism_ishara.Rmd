@@ -69,7 +69,21 @@ Pointing nouns are different from pronouns in this regard. It is allowed to desc
 
 Both these facts will prove useful in the next section.
 
-## The pointing noun phrase with a single pointed-to noun
+## Pointing noun for plurals of non-intelligent beings
+
+Consistent with how we have been dealing with the so far,
+, we can choose between the following pointing nouns for 
+the plurals of non-intelligent beings:
+
+||Near pointing noun |Far pointing noun|
+|:----|:-|--:|:----|--:|:----|
+|sing. fem. |all|[هَـٰذِهِ]{.ar}  |this one~f~    |[تِلْكَ]{.ar}   |that one~f~  |
+|plural     |all|[هَـٰؤُلَاءِ]{.ar}|these ones~3~  |[أُولَـٰئِكَ]{.ar}|those ones~3~  |
+
+The singular feminine pointing noun is usually preferred, unless the plural plural pointing noun is needed to indicate that there is more than one.
+We will be giving examples throughout this chapter.
+
+## The pointing noun phrase
 
 Remember from chapter\ \@ref(adjectival-nouns-and-descriptive-noun-phrases) that a descriptive noun-phrase consists of a describer and a describee. The describer follows the describer and matches it in definiteness, state, gender, and number. 
 
@@ -105,7 +119,13 @@ Here is an example of a descriptive noun-phrase in a sentence.
 
 We will now see how this same descriptive noun-phrase can be used with pointing nouns.
 
-### The pointed-to noun is definite with [ٱَلْ]{.ar} {#phrase-single-pointed-to-noun-with-al}
+### Pointing to a single noun
+
+We will first deal with nouns that are single words, like [ٱَلْكِتَابَيْنِ]{.ar} above. 
+In section\ \@ref(pointing-to-an-annexation)
+below, we will deal with nouns that are part of an annexation, like [كِتَابَيِ ٱلرَّجُلِ]{.ar}.
+
+#### The pointed-to noun is definite with [ٱَلْ]{.ar} {#phrase-single-pointed-to-noun-with-al}
 
 Just like an adjectival noun, a pointing noun can be a describer in a noun-phrase. But remember from 
 section\ \@ref(definiteness-of-pointing-nouns)
@@ -188,7 +208,7 @@ As a matter of fact, even though both orders are permitted, this reverse order o
 
 Here are some more examples of pointing noun phrases when the pointed-to noun is definite with [ٱَلْ]{.ar}:
 
-### The pointed-to noun is a proper noun
+#### The pointed-to noun is a proper noun
 
 Remember that proper noun are definite nouns, even though they usually don't begin with [ٱَلْ]{.ar}. For example:
 
@@ -215,7 +235,7 @@ If the name begins with [ٱَلْ]{.ar} then both orders are permitted.
 
 <!--Wright, ii Sect 136 277B-->
 
-## The pointing noun phrase with an annexation
+### Pointing to an annexation
 
 Consider the following expression:
 
@@ -252,14 +272,14 @@ Indefinite annexations like
 [كِتَاب رَجُلٍ]{.ar} "a man's book"
 cannot be used in pointing noun phrases.
 
-### Annexations with the definite base noun beginning with [ٱَلْ]{.ar}
+#### The definite base noun begins with [ٱَلْ]{.ar}
 
 We will first consider annexations where the definite base noun begins with [ٱَلْ]{.ar}, like:
 
 [كِتَابُ ٱلرَّجُلِ]{.ar}  
 "the book of the man"
 
-#### The pointed-to noun is the base noun
+##### Pointing to the base noun  
 
 We would like to express the phrase:
 
@@ -281,7 +301,7 @@ The second phrase
 [كِتَابُ ٱلرَّجُلِ هَـٰذَا]{.ar},
 although correct, would only rarely be used with this meaning.
 (In fact, it has another meaning: "this book of the man" which we will learn in
-section\ \@ref(the-pointed-to-noun-is-the-annexe-noun) below.)
+section\ \@ref(pointing-to-the-annexe-noun), below.)
 
 Here is how these phrases could be used in complete sentences:
 
@@ -320,7 +340,7 @@ Consider the first pointing noun phrase:
    (word-2.south west) -- (word-2.south east)
       node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize replacee};
 
-\path (0,0) node [midway, below=15ex, right=0ex, align=left] {``the book of this man''};
+\path (0,0) node [midway, below=15ex, right=0ex, align=left] {``the book of this man''\\(literally: ``the book of this-one: the man'')};
 
 \end{tikzpicture}
 ```
@@ -331,7 +351,7 @@ As you can see the pointing noun
 In addition to being the base noun,
 [هَـٰذَا]{.ar} is also a replacee, whose replacement is 
 [ٱَلرَّجُل]{.ar}.
-A word-for-word translation of this phrase is:
+The literal, word-for-word, translation of this phrase is:
 
 "the book of this-one: the man"
 
@@ -368,7 +388,7 @@ Consider, now, the second pointing noun phrase:
    (word-2.south west) -- (word-2.south east)
       node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
 
-\path (0,0) node [midway, below=15ex, right=0ex, align=left] {``the book of this man''};
+\path (0,0) node [midway, below=12ex, right=0ex, align=left] {``the book of this man''\\(literally: ``the book of the this-one man'')};
 
 \end{tikzpicture}
 ```
@@ -378,7 +398,7 @@ In addition to being the base noun,
 [ٱَلرَّجُل]{.ar}
 is also a describee, whose describer is the pointing noun
 [هَـٰذَا]{.ar}.
-A word-for-word translation of this phrase is:
+The literal, word-for-word, translation of this phrase is:
 
 "the book of the this-one man"
 
@@ -386,15 +406,58 @@ The more natural translation is:
 
 "the book of this man"
 
-#### The pointed-to noun is the annexe noun
+##### Pointing to the annexe noun  
 
-#### The base noun is a proper noun beginning with [ٱَلْ]{.ar}
+Consider, again, the annexation:
 
-### Annexations with the definite base noun not beginning with [ٱَلْ]{.ar}
+[كِتَابُ ٱلرَّجُلِ]{.ar}  
+"the book of the man"
 
-#### The base noun is a proper noun not beginning with [ٱَلْ]{.ar}
+We have already discussed how to point to the base noun
+[ٱَلرَّجُل]{.ar}
+in a pointing noun phrase.
+Now, we would like to point to the annexe noun 
+[كِتَاب]{.ar}
+in a pointing noun phrase.
 
-#### The base noun is a pronoun
+In other words, we would like to express the meaning:
+
+"this book of the man"
+
+<!--
+There are three possible locations to place the pointing noun
+[هَـٰذَا]{.ar}:
+
+i. $\times$ [هَـٰذَا كِتَابُ ٱلرَّجُلِ]{.ar},
+i. $\times$ [كِتَابُ هَـٰذَا ٱلرَّجُلِ]{.ar},
+i. [كِتَابُ ٱلرَّجُلِ هَـٰذَا]{.ar},
+
+The first two options are incorrect, and the third option is correct. We will explain why below.
+-->
+
+The way to express this in Arabic is
+
+[كِتَابُ ٱلرَّجُلِ هَـٰذَا]{.ar}  
+"this book of the man"
+
+But wait! Didn't we see in section\ \@ref(pointing-to-the-base-noun) above that this expression has the meaning
+"the book of this man"?
+
+It turns out that this expression supports both meanings.
+
+But it will generally only be used for the meaning: "this book of the man"
+
+In order to express
+"the book of this man"
+we will typically use the expression [كِتَابُ هَـٰذَا ٱلرَّجُلِ]{.ar}.
+
+##### The base noun is a proper noun beginning with [ٱَلْ]{.ar}  
+
+#### The definite base noun does not begin with [ٱَلْ]{.ar}
+
+##### The base noun is a proper noun not beginning with [ٱَلْ]{.ar}  
+
+##### The base noun is a pronoun {-}
 
 [كِتَابُ ٱلرَّجُلِ]{.ar}  
 
