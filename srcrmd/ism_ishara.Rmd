@@ -69,7 +69,7 @@ Pointing nouns are different from pronouns in this regard. It is allowed to desc
 
 Both these facts will prove useful in the next section.
 
-## The pointing noun phrase
+## The pointing noun phrase with a single pointed-to noun
 
 Remember from chapter\ \@ref(adjectival-nouns-and-descriptive-noun-phrases) that a descriptive noun-phrase consists of a describer and a describee. The describer follows the describer and matches it in definiteness, state, gender, and number. 
 
@@ -152,7 +152,7 @@ In the above example, the pointed-to noun [ٱَلْكِتَابَيْنِ]{.ar} 
 
 The pointing noun [هَـٰذَيْنِ]{.ar} is its describer. It follows the describee and matches it being dual, in the a-state, masculine, and dual.
 
-As a special case, when the pointed-to noun has [ٱَلْ]{.ar} (as in this case), then the order of the pointing noun and the pointed to noun is permitted to be reversed. 
+As a special case, when the pointed-to noun has [ٱَلْ]{.ar} (as in this case: [ٱَلْكِتَابَيْنِ]{.ar}), then the order of the pointing noun and the pointed to noun is permitted to be reversed. 
 <!--The pointing noun can be the describee, and the pointed-to noun can be the describer.-->
 
 The pointing noun is then a replacee (see section\ \@ref(the-replacement)), and the pointed-to noun is its replacement.
@@ -199,10 +199,10 @@ Here are some more examples of pointing noun phrases when the pointed-to noun is
 
 Remember that proper noun are definite nouns, even though they usually don't begin with [ٱَلْ]{.ar}. For example:
 
-+ [زَيْد]{.ar} Zayd
-+ [زَيْنَب^2^]{.ar} Zaynab
-+ [ٱَلْحَارِث]{.ar} [al-#HAriv]{.trn2}
-+ [قُرَيْش]{.ar} [#qurayc]{.trn2}
+|||||
+|--:|:---|--:|:---|
+|[زَيْد]{.ar}     |Zayd   |[ٱَلْحَارِث]{.ar}  |[al-#HAriv]{.trn2}|
+|[زَيْنَب^2^]{.ar} |Zaynab |[قُرَيْش]{.ar}    |[#qurayc]{.trn2}  |
 
 Such names may also be part of a pointing noun phrase. 
 If they don't begin with [ٱَلْ]{.ar} then only the [pointed-to noun first, then pointing noun] order is permitted.
@@ -222,12 +222,37 @@ If the name begins with [ٱَلْ]{.ar} then both orders are permitted.
 
 <!--Wright, ii Sect 136 277B-->
 
-### Pointing noun phrases with annexations
+## The pointing noun phrase with an annexation
 
-Consider the following annexation:
+Consider the following expression:
 
-[كِتَابَا ٱلرَّجُلِ]{.ar}  
-"the man's books~2~"
+"the book of the man"
+
+We can apply the pointing noun "this" to either "the book" or to "the man". So we have two options:
+
+i. "the book of this man"
+i. "this book of the man"
+
+Similarly, consider the following expression:
+
+"the book of Zayd"
+
+We can, again, apply the pointing noun "this" to either "the book" or to "Zayd":
+
+i. "the book of this Zayd"
+i. "this book of Zayd"
+
+In this section we will learn how to construct these expressions in Arabic.
+
+### Annexations with the base noun beginning with [ٱَلْ]{.ar}
+
+#### The pointed-to noun is the base noun
+
+#### The pointed-to noun is the annexe noun
+
+#### The base noun is a proper noun beginning with [ٱَلْ]{.ar}
+
+[كِتَابُ ٱلرَّجُلِ]{.ar}  
 
 We wwold like to be able to point to either the annexe noun
 [كِتَابَا]{.ar} "books~2~"
