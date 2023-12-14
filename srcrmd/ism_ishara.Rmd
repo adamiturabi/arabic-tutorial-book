@@ -112,7 +112,7 @@ Here is an example of a descriptive noun-phrase in a sentence.
 
 We will now see how this same descriptive noun-phrase can be used with pointing nouns.
 
-### The pointed-to noun is definite with [ٱَلْ]{.ar}
+### The pointed-to noun is definite with [ٱَلْ]{.ar} {#phrase-single-pointed-to-noun-with-al}
 
 Just like an adjectival noun, a pointing noun can be a describer in a noun-phrase. But remember from 
 section\ \@ref(definiteness-of-pointing-nouns)
@@ -226,27 +226,77 @@ If the name begins with [ٱَلْ]{.ar} then both orders are permitted.
 
 Consider the following expression:
 
-"the book of the man"
+"the man's book"
 
-We can apply the pointing noun "this" to either "the book" or to "the man". So we have two options:
+We can apply the pointing noun "this" to either "the book" or to "the man" in a pointing noun phrase. So we have two options:
 
 i. "the book of this man"
 i. "this book of the man"
 
 Similarly, consider the following expression:
 
-"the book of Zayd"
+"Zayd's book"
 
 We can, again, apply the pointing noun "this" to either "the book" or to "Zayd":
 
 i. "the book of this Zayd"
 i. "this book of Zayd"
 
-In this section we will learn how to construct these expressions in Arabic.
+In this section we will learn how to construct these pointing noun phrases in Arabic.
+Arabic uses annexations to express the above meanings. So we will discuss annexations like:
+
+[كِتَابُ ٱلرَّجُلِ]{.ar}  
+"the book of the man"
+
+and
+
+[كِتَابُ زَيْدٍ]{.ar}  
+"the book of Zayd"
+
+Note that both the above annexations are definite because their base nouns are definite.
+
+Indefinite annexations like 
+[كِتَاب رَجُلٍ]{.ar} "a man's book"
+cannot be used in pointing noun phrases.
 
 ### Annexations with the base noun beginning with [ٱَلْ]{.ar}
 
+We will first consider annexations where the base noun begins with [ٱَلْ]{.ar}, like:
+
+[كِتَابُ ٱلرَّجُلِ]{.ar}  
+"the book of the man"
+
 #### The pointed-to noun is the base noun
+
+We would like to express the phrase:
+
+"the book of this man"
+
+In order to point to the base noun [ٱَلرَّجُل]{.ar} "the man" with the pointing noun [هَـٰذَا]{.ar} "this-one~m~", we can put the pointing noun either before or after the base noun, thus:
+
+[كِتَابُ هَـٰذَا ٱلرَّجُلِ]{.ar}  
+[كِتَابُ ٱلرَّجُلِ هَـٰذَا]{.ar}  
+"the book of this man"
+
+Both these pointing noun phrases give the same meaning: "the book of this man".
+However, the first phrase
+[كِتَابُ هَـٰذَا ٱلرَّجُلِ]{.ar}
+is preferred, consistent with what we learned in 
+section\ \@ref(phrase-single-pointed-to-noun-with-al), above.
+
+The second phrase
+[كِتَابُ ٱلرَّجُلِ هَـٰذَا]{.ar},
+although correct, would only rarely be used with this meaning.
+(In fact, it has another meaning: "this book of the man" which we will learn in
+section\ \@ref(the-pointed-to-noun-is-the-annexe-noun) below.)
+
+Here is how these phrases could be used in complete sentences:
+
+[كِتَابُ هَـٰذَا ٱلرَّجُلِ جَدِيدٌ.]{.ar}  
+[كِتَابُ ٱلرَّجُلِ هَـٰذَا جَدِيدٌ.]{.ar}  
+"The book of this man is new."
+
+Before we give more examples, let's analyze this phrases in detail.
 
 #### The pointed-to noun is the annexe noun
 
