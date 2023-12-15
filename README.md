@@ -2,7 +2,7 @@
 
 An online book to learn Standard Arabic
 
-# Status
+# Current status
 
 Work in progress.
 Latest document:
@@ -11,10 +11,12 @@ Latest document:
 + HTML:
   + Download the directory: https://github.com/adamiturabi/arabic-tutorial-book/tree/master/book-output/
   + Open `index.html`.
-  
-# Install software prerequisites
 
-## For Ubuntu and derivatives
+# To develop
+
+## Install software prerequisites
+
+### For Ubuntu and derivatives
 
 1. Tex
    ```
@@ -72,7 +74,7 @@ Latest document:
       q()
       ```
 
-## For Arch/Manjaro
+### For Arch/Manjaro
 
 1. Install fonts as in Ubuntu
 
@@ -94,7 +96,7 @@ Latest document:
 
    There could be some errors. Don't worry about them.
 
-# Building the book from source files
+## Building the book from source files
 
 In a Linux terminal:
 
