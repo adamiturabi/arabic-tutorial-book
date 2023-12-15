@@ -180,22 +180,19 @@ Here is the equivalent Arabic descriptive noun-phrase:
     every word/.style={name=word-\w, execute at begin node=\strut}},
   decorate] (0,0);
 
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize describer};
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describer};
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describee};
 
 \draw [decoration={brace, mirror}, decorate] 
-   (word-2.south west) -- (word-2.south east)
-      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize describee};
+   (word-1.south west) -- (word-2.south east)
+      node [midway, below] {\scriptsize descriptive noun-phrase};
 
-\path [decoration={text effects along path, 
-  text={``the small-one house'' = ``the small house''},
-  text effects/.cd, 
-    path from text, text along path,
-    group letters, word count=\w,
-    every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate, below=11ex] (0,0);
-
+\path (0,0) node [midway, below=10ex, right=0ex, align=left] {``the small house''\\(literally: ``the small-one house'')};
 
 \end{tikzpicture}
 ```
@@ -279,22 +276,15 @@ Let's see how to use Arabic adjectival nouns as the information of a sentence.
     every word/.style={name=word-\w, execute at begin node=\strut}},
   decorate] (0,0);
 
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize information};
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize information};
 
-\draw [decoration={brace, mirror}, decorate] 
-   (word-2.south west) -- (word-2.south east)
-      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize subject};
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize subject};
 
-\path [decoration={text effects along path, 
-  text={``The house is a small-one.'' = ``The house is small.''},
-  text effects/.cd, 
-    path from text, text along path,
-    group letters, word count=\w,
-    every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate, below=13ex] (0,0);
-
+\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``The house is small.''\\(literally: ``The house is a small-one.'')};
 
 \end{tikzpicture}
 ```
