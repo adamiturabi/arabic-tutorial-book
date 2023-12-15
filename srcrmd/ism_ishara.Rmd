@@ -649,33 +649,17 @@ So, we are left with only one option: the annexe noun [كِتَاب]{.ar} is the
 \end{tikzpicture}
 ```
 
-
 Here are some more examples:
 
+## Pointing nouns as subjects
 
-
-[كِتَابُ ٱلرَّجُلِ]{.ar}  
-
-We wwold like to be able to point to either the annexe noun
-[كِتَابَا]{.ar} "books~2~"
-or the base noun
-[ٱلرَّجُلِ]{.ar} "the man"
-in a pointing noun phrase.
-
-By the way, we can only do this when then base noun (and therefore the annexe noun also) is definite.
-If the base noun and annexe nouns are indefinite, then they may not be described with poinitng nouns because pointing nouns are always definite.
-
-#### The pointed-to noun is the base noun
-
-If the pointed-to noun is the base noun, then we may place
-
-## Remove
+Besides their use in pointing noun phrases, pointing nouns are very often used as the subject of a sentence. For example:
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
-  text=This is a book,
+  text=.\txarb{رَجُل} \txarb{هَـٰذَا},
   text effects/.cd, 
     path from text, text along path,
     group letters, word count=\w,
@@ -683,247 +667,106 @@ If the pointed-to noun is the base noun, then we may place
   decorate] (0,0);
 
 \draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, below=2ex, left=0.5ex, rotate=90] {\scriptsize pointing noun};
+   (word-2.south west) -- (word-2.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize subject};
 
 \draw [decoration={brace, mirror}, decorate] 
-   (word-4.south west) -- (word-4.south east)
-      node [midway, below=2ex, left=0.5ex, rotate=90] {\scriptsize pointed-to noun};
+   (word-1.south west) -- (word-1.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize information};
+
+\path (0,0) node [midway, below=17ex, right=0ex, align=left] {``This is a man.''\\(literally: ``This-one is a man.'')};
 
 \end{tikzpicture}
 ```
 
+The pointing noun is (usually) made to match the information in number and gender. Examples:
 
-Pointing nouns are the Arabic equivalents of words like "this", "that", "these", "those". We call them pointing nouns because a person saying "This man.", for example, could be pointing to a man near him. Pointing nouns are used in sentences like:
+[هَاتَانِ جَارِيَتَانِ.]{.ar}  
+"These are girls~2~."
 
-+ "This is a house."
-+ "These women are good."
-+ "That is a book."
+[أُولَـٰئِكَ مُعَلِّمُونَ.]{.ar}  
+"Those are teachers."
 
-The pointing nouns in Arabic are:
+[هَـٰؤُلَاءِ أَقْلَامٌ.]{.ar}  
+"These are pens."
 
+[تِلْكَ بُيُوتٌ.]{.ar}  
+"Those are houses."
 
-Note the following regarding the pointing nouns shown above:
+[هَـٰذَانِ صَغِيرَانِ.]{.ar}  
+"These are small ones~2~."
 
-+ Many of the pointing nouns contain small [Ealif]{.trn} [◌ٰ]{.ar}. For most of them, this is how they must be written. It would be incorrect to write [هَـٰذَا]{.ar} [hApA]{.trn} as [هَاذَا]{.ar}.
-+ The [و]{.ar} in [أُولَـٰئِكَ]{.ar} [EulAEika]{.trn} is silent and not pronounced. That is, the first syllable has a short vowel [u]{.trn}, not the long vowel [U]{.trn}.
-+ The pointing nouns are the same in all states except for the dual, where [ـَانِ]{.ar} [-Ani]{.trn} in the u-state becomes [ـَيْنِ]{.ar} [-ayni]{.trn} in the a-state and i-state.
-+ The pointing nouns for the plural are the same for both masculine and feminine genders.
+The information may be a single word (as above) or more complex (as below):
 
-### Using pointing nouns with nouns or phrases not beginning with [ٱَلْ]{.ar}
+[ذَ\ ٰلِكَ أَمِيرُ ٱلْمُؤِْمِنِينَ.]{.ar}  
+"That is the commander of the believers."
 
-If a pointing noun comes before a noun or phrase that does not begin with [ٱَلْ]{.ar} then the expression is a complete sentence. The pointing noun is the subject of sentence, and the other noun or phrase is the information of the sentence. Here are some examples:
+[أُولَـٰئِكَ أَكَلْنَ ٱلطَّعَامَ..]{.ar}  
+"Those-ones ate~3,f~ the food."
 
-+ [هَـٰذَا رَجُلٌ.]{.ar}  
-  [hApA rajulun.]{.trn}  
-  "This~masc.~ is a man."
-+ [هَـٰذَانِ مُعَلِّمَانِ كَرِيمَانِ.]{.ar}  
-  [hApAni mueallimAni karImAni.]{.trn}  
-  "These~dual\ masc.~ are noble (male) teachers."
-+ [هَـٰؤُلَاءِ مُعَلِّمُو غُلَامٍ.]{.ar}  
-  [hAEulAEi mueallimU gulAmin.]{.trn}  
-  "These~pl.~ are (male) teachers of a boy."
-+ [تِلْكَ فَاطِمَةُ.]{.ar}  
-  [tilka fATimatu.]{.trn}  
-  "That~fem.~ is [#faTimah]{.trn2}."
-+ [تَانِكَ مُعَلِّمَتَا ٱلْجَارِيَةِ.]{.ar}  
-  [tAnika mueallimata -ljAriyati.]{.trn}  
-  "Those~dual\ fem.~ are the (female) teachers of the girl."
-+ [هَـٰذِهِ رِسَالَتِي.]{.ar}  
-  [hApihi risAlatI.]{.trn}  
-  "This is my message."
+[هَـٰذَا ثَوْبُ رَجُلٍ.]{.ar}  
+"This is a man's garment."
 
-In the first three examples above, the information of the sentence is an indefinite noun or noun-phrase. 
-In the fourth example, the information is a proper noun which is definite without [ٱَلْ]{.ar}.
-In the last example, the information is a noun-chain whose last noun is definite. Therefore the first noun is definite as well, although, again, without [ٱَلْ]{.ar}.
+[هَـٰذِهِ كُتُبُهُ.]{.ar}  
+"These are his books."
 
-So you can see that the rule we have stated, that if a pointing noun comes before a noun or phrase that does not begin with [ٱَلْ]{.ar} then the expression is a complete sentence, that this rule applies regardless of whether the noun or phrase is definite or indefinite.
+[هَـٰذَانِ بَيْتَانِ كَبِيرَانِ..]{.ar}  
+"These are big houses~2~."
 
-## Using pointing nouns with nouns or phrases beginning with [ٱَلْ]{.ar}
+If the information is a noun that begins with [ٱَلْ]{.ar} then it may be placed after the pointing noun subject in the same manner:
 
-### The pointing noun before the other noun
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{ٱلرَّجُلُ} \txarb{هَـٰذَا},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
 
-If a pointing noun comes before a noun that begins with [ٱَلْ]{.ar}, for example,  
-[هَـٰذَا ٱَلرَّجُلُ]{.ar}  
-[hApA -rrujulu]{.trn},  
-then the expression can either:
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize subject};
 
- i. be a noun phrase: "this man", or
-ii. be a complete sentence: "This is the man."
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize information};
 
-Here is another example:
+\path (0,0) node [midway, below=17ex, right=0ex, align=left] {``This is the man.''\\(literally: ``This-one is the man.'')};
 
-[هَـٰذَانِ ٱلْمُعَلِّمَانِ ٱلْكَرِيمَانِ.]{.ar}  
-[hApAni -lmueallimAni -lkarImAni.]{.trn}  
-"These~dual\ masc.~ noble (male) teachers"  
-or  
-"These~dual\ masc.~ are the noble (male) teachers."
+\end{tikzpicture}
+```
 
-Context would be needed to determine which of the two meanings is intended.
+While the this is permitted and correct, it may be sometimes confused with for the pointing noun phrase "this man". So, in the same way that we learned in
+section\ \@ref(chap-smp-sent-sec-def-info),
+we insert a detached pronoun between the subject and the information, thus:
 
-In order to disambiguate the complete sentence from the noun phrase, the detached pronoun is often (but not always) placed between the pointing noun and the information of the sentence thus:
+[هَـٰذَا هُوَ ٱلرَّجُلُ.]{.ar}  
+"This is the man."
 
-[هَـٰذَانِ هُمَا ٱلْمُعَلِّمَانِ ٱلْكَرِيمَانِ.]{.ar}  
-[hApAni huma -lmueallimAni -lkarImAni.]{.trn}  
-"These~dual\ masc.~ are the noble (male) teachers"  
+Here are some more examples:
 
-Here are some examples in complete sentences:
+[هَاتَانِ هُمَا ٱلْجَارِيَتَانِ.]{.ar}  
+"These are the girls~2~."
 
-+ [قَرَأْتُ ذَيْنِكَ ٱلْكِتَابَيْنِ.]{.ar}  
-  [qaraEtu paynika -lkitAbayni.]{.trn}  
-  "I read those two books."
+[أُولَـٰئِكَ هُمُ ٱلْمُعَلِّمُونَ.]{.ar}  
+"Those are the teachers."
 
-### The pointing noun after the other noun
+[هَـٰؤُلَاءِ هُنَّ ٱلْأَقْلَامٌ.]{.ar}  
+"These are the pens."
 
-If a pointing noun comes after a noun that begins with [ٱَلْ]{.ar}, for example,  
-[ٱَلرَّجُلُ هَـٰذَا]{.ar}  
-[Earrujulu hApA]{.trn},  
-then the expression can only be a noun-phrase: "this man". 
+[تِلْكَ هِيَ ٱلْبُيُوتٌ.]{.ar}  
+"Those are the houses."
 
-Despite the disambiguity in expressing the noun-phrase with this second method, the first method of placing the pointing noun before the other noun is more commonly used. That is, in order to express "this man",  
-[هَـٰذَا ٱَلرَّجُلُ]{.ar}  
-[hApA -rrujulu]{.trn}  
-is more commonly used than  
-[ٱَلرَّجُلُ هَـٰذَا]{.ar}  
-[Earrujulu hApA]{.trn}.
+[هَـٰذَانِ هُمَ ٱلصَّغِيرَانِ.]{.ar}  
+"These are the small ones~2~."
 
-Here are some examples in complete sentences:
 
-## Pointing nouns in noun-phrases with definite nouns not beginning with [ٱَلْ]{.ar}
 
-It remains to see how to express pointing nouns in phrases with defiinite nouns not beginning with [ٱَلْ]{.ar}. Such nouns include:
 
- i. proper nouns, and
-ii. the first noun of a noun-chain whose last noun is definite.
 
-In other words, we would like to express phrases like:
 
-+ "that [#fATimah]{.trn2}", used for example in the sentence "This [#fATimah]{.trn2} is tall and that [#fATimah]{.trn2} is short."
-+ "these~pl.~ (female) teachers of the girl"
-+ "this message of mine"
-
-We know that we cannot place the pointing noun in the beginning of the phrase because, as we saw, that would make it a complete sentence. For example,
-
-+ [تِلْكَ فَاطِمَةُ.]{.ar}  
-  [tilka fATimatu.]{.trn}  
-  "That~fem.~ is [#faTimah]{.trn2}."
-+ [تَانِكَ مُعَلِّمَتَا ٱلْجَارِيَةِ.]{.ar}  
-  [tAnika mueallimata -ljAriyati.]{.trn}  
-  "Those~dual\ fem.~ are the (female) teachers of the girl."
-+ [هَـٰذِهِ رِسَالَتِي.]{.ar}  
-  [hApihi risAlatI.]{.trn}  
-  "This is my message."
-
-So, we are left with placing the pointing noun at the end of the phrase, thus:
-
-+ [فَاطِمَةُ تِلْكَ.]{.ar}  
-  [fATimatu tilka]{.trn}  
-  "that~fem.~ [#faTimah]{.trn2}"
-+ [مُعَلِّمَتَا ٱلْجَارِيَةِ تَانِكَ]{.ar}  
-  [mueallimata -ljAriyati tAnika]{.trn}  
-  "those~dual\ fem.~ (female) teachers of the girl"
-+ [رِسَالَتِي هَـٰذِهِ]{.ar}  
-  [risAlatI hApihi]{.trn}  
-  "this message of mine"
-
-Here are some examples in complete sentences:
-
-+ [فَاطِمَةُ هَـٰذِهِ طَوِيلَةٌ وَفَاطِمَةُ تِلْكَ قَصِيرَةٌ.]{.ar}  
-  [fATimatu hApihi TawIlatun wafATimatu tilka qaSIratun.]{.trn}  
-  "This [#fATimah]{.trn2} is tall and that [#fATimah]{.trn2} is short."
-
-## Using pointing nouns with plural non-rational beings
-
-### REMOVE: In noun-phrases with common nouns
-
-A pointing noun can be used in a noun phrase for expressions like "this man". We can express this using the pointing noun 
-[هَـٰذَا]{.ar} [hApA]{.trn} "this~masc.~ one" and the noun being pointed to [ٱَلرَّجُلُ]{.ar} [Earrujulu]{.trn} "the man". We put the two nouns together thus:
-
-[هَـٰذَا ٱَلرَّجُلُ]{.ar}  
-[hApA -rrujulu]{.trn}  
-"this one, the man" = "this man"
-
-We can also switch the order of the two nouns with the same meaning:
-
-[ٱَلرَّجُلُ هَـٰذَا]{.ar}  
-[Earujulu hApA]{.trn}  
-"the man, this one" = "this man"
-
-Both of these orders are permissible with the same meaning with the first order ([هَـٰذَا ٱَلرَّجُلُ]{.ar}) being more common.
-
-These noun-phrases are very similar to the ones we learned for desccribers. In fact, we can add a describer to the noun-phrases above:
-
-[هَـٰذَا ٱَلرَّجُلُ ٱلْكَرِيمُ]{.ar}  
-[hApA -rrujulu -lkarImu]{.trn}  
-"this one, the noble man" = "this noble man"
-
-[ٱَلرَّجُلُ ٱلْكَرِيمُ هَـٰذَا]{.ar}  
-[Earujulu -lkarImu hApA]{.trn}  
-"the noble man, this one" = "this noble man"
-
-These noun-phrases can be used in sentences too:
-
-[هَـٰذَا ٱَلرَّجُلُ ٱلْكَرِيمُ عَظِيمٌ.]{.ar}  
-[hApA -rrujulu -lkarImu eaPImun.]{.trn}  
-"This one, the noble man, is great" = "This noble man is great."
-
-Here are some more examples with some of the other pointing nouns:
-
-+ [ضَرَبَتْ هَـٰذِهِ ٱلْمَرْأَةُ تِلْكَ ٱلْجَارِيَةَ.]{.ar}  
-+ [قَرَأَ ذَ ٰنِكَ ٱلرَّجُلَانِ تَيْنِكَ ٱلرِّسَالَتَيْنِ ٱلطَّوِيلَتَيْنِ.]{.ar}
-+ [هَاتَانِ ٱلْهِرَّتَانِ ٱلصَّغِيرَتَانِ لَكُمَا وَهَـٰذَانِ ٱلْكَلْبَانِ لَنَا.]{.ar}
-+ [هَـٰؤُلَاءِ ٱلرِّجَالُ وَأُولَـٰئِكَ ٱلْغِلْمَانُ خَرَجُوا مِنَ ٱلْمَدْرَسَةِ.]{.ar}
-
-### Independent pointing nouns in subject-information sentences
-
-A pointing noun is considered definite even though it does not have [ٱَلْ]{.ar}. It can be used as a subject in subject information sentences. Here are some examples:
-
-[هَـٰذَا رَجُلٌ]{.ar}  
-[hApA rajulun]{.trn}  
-"This is a man."
-
-Such phrases consist of a pointing noun ("this") and the noun being pointed to ("man"). 
-
-In Arabic, pointing nouns
-
-In Arabic we cannot express a pointed-to noun like "man". We have to say either [رَجُلٌ]{.ar} [rajulun]{.trn} "a man" or [ٱَلرَّجُلُ]{.ar} [Earrujulu]{.trn} "the man". We choose the definite noun [ٱَلرَّجُلُ]{.ar} [Earrujulu]{.trn}
-
-Both the pointing noun and the noun being pointed to are considered definite.
-
-In English, the noun being pointed to does not have the word "the". However, in Arabic the noun being pointed to will have [ٱَلْ]{.ar}. 
-
-Also, in English, the pointing noun comes before the noun being pointed to. In Arabic, the pointing noun may come before or 
-
-### In subject-information sentences
-
-A pointing noun is considered definite even though it does not have [ٱَلْ]{.ar}. It can be used as a subject in subject information sentences. Here are some examples:
-
-+ 
-[هَـٰذَا رَجُلٌ]{.ar}   [hApA]{.trn}     
-[هَـٰذِهِ]{.ar}   [hApihi]{.trn}   
-[هَـٰذَانِ]{.ar}  [hApAni]{.trn}   
-[هَاتَانِ]{.ar}  [hAtAni]{.trn}   
-[هَـٰؤُلَاءِ]{.ar} [hAEulAEi]{.trn} 
-[ذَ ٰلِكَ]{.ar}   [pAlika]{.trn}   
-[تِلْكَ]{.ar}    [tilka]{.trn}    
-[ذَ ٰنِكَ]{.ar}   [pAnika]{.trn}   
-[تَانِكَ]{.ar}   [tAnika]{.trn}   
-[أُولَـٰئِكَ]{.ar} [EulAEika]{.trn} 
-
-
-
-
-
-
-
-
-
-
-## TODO
-
-hunA hunAka
-
-hA huwa pA
-hA hum EulAEik
 
 
