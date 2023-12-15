@@ -12,7 +12,29 @@ ii. The _information_. This gives us some information about the subject.
 
 Here is a subject-information sentence:
 
-"The building is a house."
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=``The building is a house.'',
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-2.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize subject};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-4.south west) -- (word-5.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize information};
+
+\end{tikzpicture}
+```
+
+<!--"The building is a house."-->
 
 The subject of the sentence is "the building". This means that the sentence is about "the building". 
 
@@ -32,9 +54,35 @@ ii. [بَيْتٌ]{.ar} [baytun]{.trn} (masc.) "a house" (u-state)
 
 In order to form this sentence in Arabic, we put the subject first and then the information. So we get:
 
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{بَيْتٌ} \txarb{ٱَلْبِنَاءُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize information};
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize subject};
+
+\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {\emph{ʾalbaytu bināʾ.}\\``The building is a house.''};
+
+\end{tikzpicture}
+```
+
+<!--
 [ٱَلْبِنَاءُ بَيْتٌ.]{.ar}  
 [EalbinAEu bayt.]{.trn}  
 "The building is a house."
+-->
 
 But wait! Where is the Arabic word for "is"? It turns out that Arabic does not usually express any word for "is". Instead, the meaning of this word is implied.
 
