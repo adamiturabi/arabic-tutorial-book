@@ -340,7 +340,7 @@ Consider the first pointing noun phrase:
    (word-2.south west) -- (word-2.south east)
       node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize replacee};
 
-\path (0,0) node [midway, below=15ex, right=0ex, align=left] {``the book of this man''\\(literally: ``the book of this-one: the man'')};
+\path (0,0) node [midway, below=17ex, right=0ex, align=left] {``the book of this man''\\(literally: ``the book of this-one: the man'')};
 
 \end{tikzpicture}
 ```
@@ -388,7 +388,7 @@ Consider, now, the second pointing noun phrase:
    (word-2.south west) -- (word-2.south east)
       node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
 
-\path (0,0) node [midway, below=12ex, right=0ex, align=left] {``the book of this man''\\(literally: ``the book of the this-one man'')};
+\path (0,0) node [midway, below=15ex, right=0ex, align=left] {``the book of this man''\\(literally: ``the book of the this-one man'')};
 
 \end{tikzpicture}
 ```
@@ -450,6 +450,89 @@ But it will generally only be used for the meaning: "this book of the man"
 In order to express
 "the book of this man"
 we will typically use the expression [كِتَابُ هَـٰذَا ٱلرَّجُلِ]{.ar}.
+
+Let's analyze the expression
+[كِتَابُ ٱلرَّجُلِ هَـٰذَا]{.ar}
+"this book of the man"
+in detail:
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{هَـٰذَا} \txarb{ٱلرَّجُلِ} \txarb{كِتَابُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize base-noun};
+
+\draw [decoration={brace}, decorate] 
+   (word-3.north west) -- (word-3.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe-noun};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describer};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-3.south west) -- (word-3.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
+
+\path (0,0) node [midway, below=15ex, right=0ex, align=left] {``this book of the man''\\(literally: ``the this-one book of the man'')};
+
+\end{tikzpicture}
+```
+
+[كِتَاب]{.ar}, here, is both and annexe noun and a describee.
+Its describer is the pointing noun
+[هَـٰذَا]{.ar}.
+The literal, word-for-word, translation of this phrase is:
+
+"the this-one book of the man"
+
+The more natural translation is:
+
+"this book of the man"
+
+Here is this pointing noun phrase in a complete sentence:
+
+[كِتَابُ ٱلرَّجُلِ هَـٰذَا أَخْضَر.]{.ar}  
+"This book of the man is green."
+
+###### Ambiguity of this phrase {-}
+
+A quick note about the ambiguity of this expression:
+
+[كِتَابُ ٱلرَّجُلِ هَـٰذَا]{.ar}  
+"this book of the man" (usual)  
+"the book of this man" (rare)
+
+The ambiguity of whether the pointing noun [هَـٰذَا]{.ar} points to the annexe noun 
+[كِتَابُ]{.ar}
+or the base noun
+[ٱلرَّجُلِ]{.ar}
+only exists because the annexe noun and the base noun match each other in gender and number: singular masculine.
+If the gender and number of the annexe noun and the base noun were different then there would be no ambiguity. Examples:
+
+[كِتَابَا ٱلرَّجُلِ هَـٰذَانِ]{.ar}  
+"these books~2~ of the man"
+
+[كِتَابُ ٱلرَّجُلَيْنِ هَـٰذَا]{.ar}  
+"this book of the men~2~"
+
+[كِتَابَا ٱلْمَرْأَةِ هَـٰذَا]{.ar}  
+"this book of the woman"
+
+[كِتَابَا ٱلْمَرْأَةِ هَـٰذِهِ]{.ar}  
+"the book of this woman"
+
+Here are some more examples of pointing to annexe nouns:
+
 
 ##### The base noun is a proper noun beginning with [ٱَلْ]{.ar}  
 
