@@ -107,7 +107,7 @@ cd arabic-tutorial-book
 make
 ```
 
-The created files will be under the `_book` directory. Open `_book/index.html` in a browser and `_book/_main.pdf` in a PDF viewer.
+The created files will be under the `book-output` directory. Open `book-output/index.html` in a browser and `book-output/Learn-Standard-Arabic.pdf` in a PDF viewer.
 
 To delete created files in order to do a clean build:
 
