@@ -8,8 +8,8 @@ Work in progress.
 Latest document:
 
 + HTML:
-  i. Download the directory: https://github.com/adamiturabi/arabic-tutorial-book/tree/master/book-output/
-  i. Open `index.html`.
+  + Download the directory: https://github.com/adamiturabi/arabic-tutorial-book/tree/master/book-output/
+  + Open `index.html`.
 + PDF: https://github.com/adamiturabi/arabic-tutorial-book/blob/master/book-output/Learn-Standard-Arabic.pdf
   
 # Install software prerequisites
