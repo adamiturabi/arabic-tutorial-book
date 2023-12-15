@@ -4,7 +4,7 @@
 bookdown_yml <- paste0(
 "# DO NOT EDIT DIRECTLY. Edit compilebook.R instead
 book_filename: 'Learn-Standard-Arabic.Rmd'
-output_dir: 'book-output'
+output_dir: 'docs/5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8'
 ")
 
 rmd_file_list <- c("intro.Rmd"
