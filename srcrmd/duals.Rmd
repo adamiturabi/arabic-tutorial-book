@@ -8,72 +8,150 @@ For any number greater than one, English uses the plural. For example, the plura
 
 Arabic, on the other hand, uses the plural only for nouns in number three and higher. For nouns that are two in number Arabic uses the _dual_.
 
+Since English does not have a dual, we will sometimes indicate it using the the subscript 2, thus: "houses~2~", to mean "two houses".
+
 ## Forming the dual
 
-The dual is formed by appending dual suffix [◌َانِ]{.ar} [Ani]{.trn} when the noun is in the u-state and [◌َيْنِ]{.ar} [ayni]{.trn} when the noun is in the a-state or i-state. Definite nouns, which have [ٱَلْ]{.ar} in their beginning are dualized the same way. 
+The dual is formed by appending the dual suffix [◌َانِ]{.ar} [-Ani]{.trn} when the noun is in the u-state and [◌َيْنِ]{.ar} [-ayni]{.trn} when the noun is in the a-state or i-state. Definite nouns, which have [ٱَلْ]{.ar} in their beginning are dualized the same way. 
 
-For example, when we dualize [بَيْت]{.ar} [bayt]{.trn} "house" in order to say "two houses", we get:
+For example, when we dualize [بَيْت]{.ar} [bayt]{.trn} "a house" in order to say "houses~2~", we get:
 
 | States | Indefinite | Definite
-:----|:-------|:-------
-u-state         | [بَيْتَانِ]{.ar} [baytAni]{.trn}  | [ٱَلْبَيْتَانِ]{.ar} [EalbaytAni]{.trn}
-a- and i-states | [بَيْتَيْنِ]{.ar} [baytayni]{.trn} | [ٱَلْبَيْتَيْنِ]{.ar} [Ealbaytayni]{.trn}   
+|:----|:-------|:-------
+|u-state         | [بَيْتَانِ]{.ar} [baytAni]{.trn}  | [ٱَلْبَيْتَانِ]{.ar} [EalbaytAni]{.trn}
+|a- and i-states | [بَيْتَيْنِ]{.ar} [baytayni]{.trn} | [ٱَلْبَيْتَيْنِ]{.ar} [Ealbaytayni]{.trn}   
 
-Note that indefinite duals don't have [n]{.trn} marks. The only difference between definite and indefinite duals is the prefix [ٱَلْ]{.ar}.
+Note that indefinite duals don't have [n]{.trn} marks. The only difference between definite and indefinite duals is the definite article [ٱَلْ]{.ar} "the". 
 
+Here are examples of duals in sentences:
+
++ u-state:
+
+  [ٱَلْكِتَابَانِ فِي ٱلْحَقِيبَةِ.]{.ar}  
+  [EalkitAbAni fi -lHaqIbah.]{.trn}  
+  "The books~2~ are in the bag."
+
++ a-state:
+
+  [قَرَأَ ٱلْغُلَامُ كِتَابَيْنِ.]{.ar}  
+  [qaraEa -lgulAmu kitAbayn.]{.trn}  
+  "The boy read two books."
+
++ i-state:
+
+  [غَضِبَتِ ٱلْأُمُّ عَلَى ٱلْجَارِيَتَيْنِ.]{.ar}  
+  [gaDibati -lEummu eala -ljAriyatayn.]{.trn}  
+  "The mother became angry at the girls~2~."
+<!--
 ## Duals of nouns that end with feminine markers
-
+-->
 ### Nouns ending in [ة]{.ar}
 
-If a noun ends with a looped [tAE]{.trn} [ة]{.ar}, then it is converted to an open [tAE]{.trn} [ت]{.ar} before appending the dual suffix. For example, dualizing [شَجَرَة]{.ar} [cajarah]{.trn} "tree", we get "two trees":
+If a noun ends with a looped [tAE]{.trn} [ة]{.ar}, then it is converted to an open [tAE]{.trn} [ت]{.ar} before appending the dual suffix. For example, dualizing [شَجَرَة]{.ar} [cajarah]{.trn} "a tree", we get "trees~2~":
 
 | States | Indefinite | Definite
 :----|:-------|:-------
 u-state         | [شَجَرَتَانِ]{.ar} [cajaratAni]{.trn} | [ٱَلشَّجَرَتَانِ]{.ar} [EaccajaratAni]{.trn}
 a- and i-states | [شَجَرَتَيْنِ]{.ar} [cajaratayni]{.trn}| [ٱَلشَّجَرَتَيْنِ]{.ar} [Eaccajaratayni]{.trn}
 
-If a feminine noun does not have a looped [tAE]{.trn} then it will simply be appended with [◌َانِ]{.ar} [Ani]{.trn} and [◌َيْنِ]{.ar} [ayni]{.trn}. For example, dualizing [أُمّ]{.ar} [Eumm]{.trn} "mother" in order to get "two mothers", we get [أُمَّانِ]{.ar} [EummAni]{.trn} in the u-state and [أُمَّيْنِ]{.ar} [Eummayni]{.trn} in the a- and i-states.
+Example:
 
-### Nouns ending with [اء]{.ar}
+[ٱَلشَّجَرَتَانِ فِي ٱلْحَدِيقَةِ.]{.ar}  
+[EaccaratAni fi -lHadIqah.]{.trn}  
+"The trees~2~ are in the garden."
 
-If a noun ends with the feminine marker [اء]{.ar} which is external to the word's root then the [ء]{.ar} shall be changed into a [و]{.ar} when appending the dual suffixes [◌َانِ]{.ar} [Ani]{.trn} [◌َيْنِ]{.ar} [ayni]{.trn}. Example:
+If a feminine noun does not have a looped [tAE]{.trn} then it will simply be appended with [◌َانِ]{.ar} [-Ani]{.trn} and [◌َيْنِ]{.ar} [-ayni]{.trn}. For example, dualizing [أُمّ]{.ar} [Eumm]{.trn} "a mother" in order to get "mothers~2~", we get:
 
-[صَحْرَاء]{.ar} [SaHrAE]{.trn} (root: [صحر]{.arroot}) becomes [صَحْرَاوَانِ]{.ar} [SaHrAwAni]{.trn} and [صَحْرَاوَيْنِ]{.ar} [SaHrAwayni]{.trn}.
++ u-state: [أُمَّانِ]{.ar} [EummAni]{.trn}
++ a-state and i-state: [أُمَّيْنِ]{.ar} [Eummayni]{.trn}
 
-Remember that there are some words where [اء]{.ar} may be part of the word's root, e.g. [ٱِبْتِدَاء]{.ar} [ibtidAE]{.trn} "a beginning" whose root is [بدء]{.arroot}. Because here the [ء]{.ar} in [ٱبْتِدَاء]{.ar} is part of the word's root, therefore the [ء]{.ar} shall not be changed into a [و]{.ar} when appending the dual suffixes. It remains a [ء]{.ar} thus: [ٱِبْتِدَاءانِ]{.ar} [EibtidAEAni]{.trn} and [ٱِبْتِدَاءَيْنِ]{.ar} [EibtidAEayni]{.trn}.
+There are some nouns that end with an [Ealif]{.trn} before the [ة]{.ar}, like [فَتَاة]{.ar} [fatAh]{.trn} "a young woman". We will learn how to dualize these nouns later, if [#allAh]{.trn2} wills.
 
-There are other words where [اء]{.ar} is not external to the word's root, but where the [ء]{.ar} has been changed from an original [و]{.ar} or a [ي]{.ar} in the word's root. We will learn how to form duals of these words later, if [#allAh]{.trn2} wills.
-<!-- النحو الواضح الثانوية part 2-->
+<!--
+### Nouns ending with [اء]{.ar}, [ىٰ]{.ar}, and [ا]{.ar}
 
-### Nouns ending with [ىٰ]{.ar}
+Nouns that end with [اء]{.ar}, [ىٰ]{.ar}, and [ا]{.ar} are treated specially when forming their dual. Examples of such nouns are:
 
-If a noun ends with [ىٰ]{.ar} which is external to the word's root then the [ىٰ]{.ar} shall be changed to a [يَ]{.ar} when adding the dual suffixes. For example,  
++ [صَحْرَاء]{.ar} [SaHrAE]{.trn} "a desert"
++ [بِنَاء]{.ar} [binAE]{.trn} "a building"
++ [سَمَاء]{.ar} [samAE]{.trn} "a sky"
++ [غَضْبَىٰ]{.ar} [gaDbA]{.trn} _adj._ "very angry~f~"
++ [فَتْوَىٰ]{.ar} [fatwA]{.trn} "a formal legal opinion"
++ [ٱَلْهُدَىٰ]{.ar} [EalhudA]{.trn} "the guidance"
++ [ٱَلْعَصَا]{.ar} [EaleaSA]{.trn} "the staff"
 
-[غَضْبَىٰ]{.ar} [gaDbA]{.trn} (root: [غضب]{.arroot}) becomes [غَضْبَيَانِ]{.ar} [gaDbayAni]{.trn} and [غَضْبَيَيْنِ]{.ar} [gaDbayayni]{.trn}.
+We will learn how to form duals of these words in later chapters, if [#allAh]{.trn2} wills.
+-->
+### Nouns ending with [اء]{.ar} {#duals-of-extrinsic-alif-mamduda}
 
-Beware also that, just like in the case of [اء]{.ar}, there are some words where [ىٰ]{.ar} is not external to the word's root, like [ٱَلْهُدَىٰ]{.ar} [EalhudA]{.trn} "the guidance" whose root is [هدي]{.arroot}. We will learn how to form duals of these words later, if [#allAh]{.trn2} wills.
+If a noun ends with the feminine marker [اء]{.ar} which is extrinsic to the word's root then the [ء]{.ar} shall be replaced with a [و]{.ar} when forming the dual.
+Examples:
 
-<!-- Don't discuss duals of defective nouns in detail here. Discuss them in the chapter of defective nouns.-->
+|Root|Singular| Dual (u-state) |Dual (a- and i-states)|
+|:-|:-----|:--|:--|
+|[صحر]{.arroot}|[صَحْرَاء]{.ar} [SaHrAE]{.trn} "a desert" |[صَحْرَاوَانِ]{.ar} [SaHrAwAni]{.trn} |[صَحْرَاوَيْنِ]{.ar} [SaHrAwayni]{.trn}|
+|[حمر]{.arroot}|[حَمْرَاء]{.ar} [HamrAE]{.trn} "red~f~" |[حَمْرَاوَانِ]{.ar} [HamrAwAni]{.trn} |[حَمْرَاوَيْنِ]{.ar} [HamrAwayni]{.trn}|
 
-## Subject-information sentences with a dual subject
+There are other words where the [ء]{.ar} in the [اء]{.ar} ending originates from the word's root. 
+Example:
 
-In subject-information sentences, if the subject is a dual, then the information will typically match it in being a dual. For example:
++ [خبء]{.arroot} [خِبَاء]{.ar}  (masc.) "a tent", pattern: [فِعَال]{.ar}
 
-[ٱَلْمَرْأَتَانِ أُمَّانِ]{.ar}  
-[EalmarEatAni EummAni]{.trn}  
-"The two women are mothers."
+We will learn how to form duals of these words in later chapters, if [#allAh]{.trn2} wills.
+<!--
+There are some words where the [ء]{.ar} in the [اء]{.ar} is part of the word's root. In this case it remains a hamzah when forming the dual. For example:
 
-Note that both [ٱَلْمَرْأَتَانِ]{.ar} [EalmarEatAni]{.trn} "the two women" and [أُمَّانِ]{.ar}  [EummAni]{.trn}  "two mothers" are in the u-state because, just like for sentences with singulars, the subject and information are put in the u-state.
+The word [خِبَاء]{.ar} [xibAE]{.trn} "a tent" is from the root [خبء]{.arroot} and is on the pattern [فِعَال]{.ar}. Its duals are [خِبَاءَانِ]{.ar} (u-state), and [خِبَاءَيْنِ]{.ar} (a-state and i-state) "tents~2~".
 
-Sometimes, however, the subject and information may not match in number because of the meaning of the sentence. For example,
 
-[ٱَلْبِنَاءَانِ مَدْرَسَةً]{.ar}  
-[EalbinAEAni madrasatan]{.trn}  
-"The two buildings are a school"
+There are other words where the [ء]{.ar} in the [اء]{.ar} ending was originally a [و]{.ar} or a [ي]{.ar} in the word's root. For example,
 
-### Duals of qualitative nouns
++ [دُعَاء]{.ar} [dueAE]{.trn} "a call" from the root [دعو]{.arroot} on the pattern [فُعَال]{.ar}.
++ [جَزَاء]{.ar} [jazAE]{.trn} "a reward" from the root [جزي]{.arroot} on the pattern [فَعَال]{.ar}.
+We will learn about forming the duals for these words when we study roots that have weak letters, if [#allAh]{.trn2} wills.
+-->
 
-Just like common nouns, qualitative nouns can also be duals. When a qualitative noun is used to describe a dual noun, the qualitative noun will also be dual. Examples:
+### Nouns ending with [ىٰ]{.ar} {#duals-of-extrinsic-alif-maqsura}
+
+If a noun ends with [ىٰ]{.ar} which is extrinsic to the word's root then the [ىٰ]{.ar} shall be changed to a [يَ]{.ar} when adding the dual suffixes. Examples:
+
+|Root|Singular| Dual (u-state) |Dual (a- and i-states)|
+|:-|:-----|:--|:--|
+|[غضب]{.arroot}|[غَضْبَىٰ]{.ar} [gaDbA]{.trn} "very angry~f~" | [غَضْبَيَانِ]{.ar} [gaDbayAni]{.trn} | [غَضْبَيَيْنِ]{.ar} [gaDbayayni]{.trn}|
+|[ذكر]{.arroot}|[ذِكْرَىٰ]{.ar} [pikrA]{.trn} "a remembrance" | [ذِكْرَيَانِ]{.ar} [pikrayAni]{.trn} | [ذِكْرَيَيْنِ]{.ar} [pikrayayni]{.trn} |
+
+Just like in the case of [اء]{.ar}, there are some words where [ىٰ]{.ar} is not extrinsic to the word's root.
+Example:
+
++ [هدي]{.arroot} [ٱلْهُدَىٰ]{.ar}  (masc.) "the guidance", pattern: [ٱَلْفُعَل]{.ar}
+
+We will learn how to form duals of these words in later chapters, if [#allAh]{.trn2} wills.
+
+## Dual describers and describees in descriptive noun-phrases
+
+We learned that when an adjectival noun is a describer in an descriptive noun-phrase, then it matches the describee in definiteness, state, and gender.  For example:
+
+[ذَهَبْتُ إِلَى ٱلْمَدِينَةِ ٱلْقَدِيمَةِ.]{.ar}  
+[pahabtu Eila -lmadInati -lqadImah.]{.trn}  
+"I went to the old city."
+
+To this we add that the describer shall also match the describee in number. So if the describee is a dual then the adjectival-noun describer shall be dualzed to match it. Examples:
+
+[ٱَلْأُمَّانِ ٱلطَّيِّبَتَانِ فِي ٱلْبَيْتِ.]{.ar}  
+[EalEummAni -TTayyibatAni fi -lbayt.]{.trn}  
+"The good mothers~2~ are in the house."
+
+[قَرَأَ ٱلْغُلَامُ كِتَابَيْنِ ثَقِيلَيْنِ قَدِيمَيْنِ.]{.ar}  
+[qaraEa -lgulAmu kitAbayni vaqIlatayni qadImatayn.]{.trn}  
+"The boy read two old heavy books."
+
+<!--
+[سَكَبَتِ ٱلْجَارِيَةُ حَلِيبًا لِلْهِرَّيْنِ ٱلْعَطْشَانَيْنِ.]{.ar}  
+[sakabati -ljAriyatu HalIban lilhirrayni -leaTcAnayn.]{.trn}  
+"The girl poured some milk for the very thirsty cats~m,\ 2~.
+-->
+
+<!--Just like common nouns, adjectival nouns are also dualized. When a adjectival noun is used to describe a dual noun, the adjectival noun will also be dual. Examples:
 
 The two women are noble.
 
@@ -82,100 +160,145 @@ The two men are very angry.
 The big books are heavy.
 
 The man read two heavy books.
+-->
+
+## Duals in subject-information sentences
+
+In subject-information sentences, if the subject is a dual, and the information is a adjectival noun, then the information will typically match the subject in being a dual. For example:
+
+[ٱَلْأُمَّانِ كَرِيمَتَانِ.]{.ar}  
+[EalEummAni karImatAn.]{.trn}  
+"The mothers~2~ are generous."
+
+<!--
+[ٱلْمُعَلِّمَتَانِ غَضْبَيَانِ.]{.ar}  
+[EalmueallimatAni gaDbayAn.]{.trn}  
+"The teachers~f,2~ are very angry."
+-->
+
+[ٱَلْكِتَابَانِ ٱلْكَبِيرَانِ ثَقِيلَانِ.]{.ar}  
+[EalkitAbAni -lkabIrAni vaqIlAn.]{.trn}  
+"The big books~2~ are heavy."
+
+<!--Note that both [ٱَلْمَرْأَتَانِ]{.ar} [EalmarEatAni]{.trn} "the two women" and [أُمَّانِ]{.ar}  [EummAni]{.trn}  "two mothers" are in the u-state because, just like for sentences with singulars, the subject and information are put in the u-state.-->
+
+Such is usually also the case even when the information is a common noun, not an adjectival noun. For example,
+
+[ٱَلرَّجُلَانِ مُعَلِّمَانِ.]{.ar}  
+[EarrujulAni mueallimAn.]{.trn}  
+"The men~2~ are teachers~m,2~."
+
+Sometimes, however, the subject and information may not match in number because of the meaning of the sentence. For example,
+
+<!--
+Don't use because بناء is defective
+[ٱَلْبِنَاءَانِ مَدْرَسَةً]{.ar}  
+[EalbinAEAni madrasatan]{.trn}  
+"The two buildings are a school"
+-->
+
+[ٱَلْوِسَادَتَانِ سَرِيرٌ.]{.ar}  
+[EalwisAdatAni sarIr.]{.trn}  
+"The two cushions are a bed."
+
+In the above example, the information does not match the subject in both number, and, as it happens, in gender.
 
 ## Detached dual pronouns
 
-We have learned the detached pronouns that are used in place of singular nouns. They are:
+We have already learned the detached pronouns that are used in place of singular nouns. They are repeated here:
 
-|Person|Detached pronoun
-|:---|:-
-Absent person (masc.) "he"             |[هُوَ]{.ar} [huwa]{.trn} 
-Absent person (fem.)  "she"            |[هِيَ]{.ar} [hiya]{.trn} 
-Addressed person (masc.) "you~masc.~"  |[أَنْتَ]{.ar} [Eanta]{.trn} 
-Addressed person (fem.) "you~fem.~"    |[أَنْتِ]{.ar} [Eanti]{.trn} 
-Speaking person (masc. and fem.) "I"   |[أَنَا]{.ar} [Eana]{.trn}
+|Singular participant|Detached pronoun|
+|:---|:-|
+|Masc. absentee     |[هُوَ]{.ar} [huwa]{.trn}   "he"      |
+|Fem.  absentee     |[هِيَ]{.ar} [hiya]{.trn}   "she"    |
+|Masc. addressee    |[أَنْتَ]{.ar} [Eanta]{.trn} "you~m,1~"|
+|Fem.  addressee    |[أَنْتِ]{.ar} [Eanti]{.trn} "you~f,1~"|
+|Speaker            |[أَنَا]{.ar} [Eana]{.trn}  "I"      |
 
-Now we will learn the detached pronouns for the dual persons:
+Now we will learn the detached pronouns for the dual participants:
 
-|Person|Detached pronoun
-|:---|:-
-Absent person (masc. and fem.) "they~dual~"   |[هُمَا]{.ar} [humA]{.trn} 
-Addressed person (masc. and fem.) "you~dual~" |[أَنْتُمَا]{.ar} [EantumA]{.trn} 
-Speaking person (masc. and fem.) "we"         |[نَحْنُ]{.ar} [naHnu]{.trn}
+|Dual participant|Detached pronoun|
+|:---|:-|
+|Absentee   |[هُمَا]{.ar} [humA]{.trn}      "they~2~" |
+|Addressee  |[أَنْتُمَا]{.ar} [EantumA]{.trn} "you~2~" |
+|Speaker     | -- |
 
 Note that the dual detached pronouns are the same for both genders.
+Also, there is no detached pronoun for the dual speaker-participant. If the speaker-pariticipant consists of two individuals then we will use the plural pronoun, which we will learn in the next chapter, if [#allAh]{.trn2} wills.
 
 Here are some examples of their use:
 
+[هُمَا ٱلرَّجُلَانِ.]{.ar}  
+[huma -rrajulAn.]{.trn}  
+"They~2~ are the men~2~."
+
 [هُمَا مُعَلِّمَتَانِ كَرِيمَتَانِ.]{.ar}  
 [humA mueallimatAni karImatAni.]{.trn}  
-"They~dual.\ fem.~ are noble teachers."
+"They~2~ are noble teachers~f~."
+
+[قَالَتِ ٱلأُمُّ لِلْجَارِيَتَيْنِ أَنْتُمَا قَرِيبَتَانِ مِنِّي.]{.ar}  
+[qAlati -lEummu liljAriyatayni EantumA qarIbatAni minnI.]{.trn}  
+"The mother said to the girls~2~, 'You~2~ are near me.'"
+
+In the last example, the feminine adjectival-noun [قَرِبَتَانِ]{.ar} [qarIbatAni]{.trn} is used because it is referring to the feminine noun [ٱَلْجَارِيَتَيْنِ]{.ar} [EaljAriyatayni]{.trn} "the girls~2~".
 
 ## Attached dual pronouns
 
-We have also learned the attached pronouns for the singular persons:
+We have also already learned the attached pronouns for the singular participant. They too are repeated here:
 
-Person | Attached pronoun
-:------|:--
-Absent person (masc.) "him" | [هُ]{.ar} [-hu]{.trn}
-Absent person (fem.)  "her" | [هَا]{.ar} [-hA]{.trn}
-Addressed person (masc.)  "you~masc.~" | [كَ]{.ar} [-ka]{.trn}
-Addressed person (fem.)  "you~fem.~"   | [كِ]{.ar} [-ki]{.trn}
-Speaking person (masc. and fem.)  "me" | [◌ِي]{.ar} [-I]{.trn} and [يَ]{.ar} [-ya]{.trn}
+|Singular participant | Attached pronoun|
+|:------|:--|
+|Masc. absentee      | [هُ]{.ar} [-hu]{.trn}   "him"      |
+|Fem.  absentee      | [هَا]{.ar} [-hA]{.trn}  "her"     |
+|Masc. addressee     | [كَ]{.ar} [-ka]{.trn}   "you~m,1~"|
+|Fem.  addressee     | [كِ]{.ar} [-ki]{.trn}   "you~f,1~"|
+|Speaker             | [ي]{.ar}               "me"      |
 
-Now we will learn the detached pronouns for the dual persons:
+Now we will learn the attached pronouns for the dual participant:
 
-|Person|Attached pronoun
-|:---|:-
-Absent person (masc. and fem.) "them~dual~"   |[هُمَا]{.ar} [-humA]{.trn} 
-Addressed person (masc. and fem.) "you~dual~" |[كُمَا]{.ar} [-kumA]{.trn} 
-Speaking person (masc. and fem.) "us"         |[نَا]{.ar} [-nA]{.trn}
+|Dual participant|Attached pronoun|
+|:---|:-|
+|Absentee   |[هُمَا]{.ar} [-humA]{.trn}  "them~2~" |
+|Addressee  |[كُمَا]{.ar} [-kumA]{.trn}  "you~2~" |
+|Speaker     | -- |
 
 Note the following points about them:
 
-+ Like the dual detached pronouns, the dual attached pronouns are the same for both genders.
++ Like the dual detached pronouns, the dual attached pronouns are the same for both genders. Also, there is no attached pronoun for the dual speaker-participant. Again, the plural pronoun will be used in this case.
 
-+ The absent person dual attached pronoun "them~dual~" [هُمَا]{.ar} [-humA]{.trn} is the same as the dual detached pronoun "they~dual~" [هُمَا]{.ar} [humA]{.trn}.
++ The dual absentee-participant detached and attached pronouns ("they~2~"/"them~2~") are the same [هُمَا]{.ar} [-humA]{.trn}.
 
-+ Just like the absent person singular attached pronoun "him" [هُ]{.ar} [hu]{.trn}, the absent person dual attached pronoun "them~dual~" [هُمَا]{.ar} [-humA]{.trn} becomes [هِمَا]{.ar} [-himA]{.trn} when preceded by the vowels [◌ِ]{.ar} [i]{.trn}, [ـِي]{.ar} [I]{.trn}, or the semi-vowel [ـَيْ]{.ar} [ay]{.trn}. Examples:
-   + [بِهِمَا]{.ar} [bihimA]{.trn} "with them~dual~"
-   + [فِيهِمَا]{.ar} [fIhimA]{.trn} "in them~dual~"
-   + [إِلَيْهِمَا]{.ar} [EilayhimA]{.trn} "to them~dual~"
-
-+ The [ن]{.ar} in the speaking person attached pronoun "us" [نَا]{.ar} [-nA]{.trn} is part of the pronoun and is not an intervening [ن]{.ar} as was the case for the singular speaking person pronouns. So we get:
-   + [عَلَيْنَا]{.ar} [ealaynA]{.trn} "on us"
-   + [بِنَا]{.ar} [binA]{.trn} "with us"
-
-  However, when attached to a word that ends with a [نْ]{.ar} with a $\emptyset$-mark, there is only one [ن]{.ar} written and it is doubled with a doubling mark [◌ّ]{.ar} on it. So we get:
-   + [نَا]{.ar} + [مِنْ]{.ar} = [مِنَّا]{.ar} [minnA]{.trn}
-   + [نَا]{.ar} + [عَنْ]{.ar} = [عَنَّا]{.ar} [eannA]{.trn}
-   + [نَا]{.ar} + [لَدُنْ]{.ar} = [لَدُنَّا]{.ar} [ladunnA]{.trn}
++ Just like the absentee-participant singular masculine attached pronoun [هُ]{.ar} [hu]{.trn} "him", the dual absentee-participant attached pronoun "them~2~" [هُمَا]{.ar} [-humA]{.trn} becomes [هِمَا]{.ar} [-himA]{.trn} when preceded by the vowels [◌ِ]{.ar} [-i]{.trn}, [◌ِي]{.ar} [-I]{.trn}, or the semi-vowel [◌َيْ]{.ar} [-ay]{.trn}. Examples:
+   + [بِهِمَا]{.ar} [bihimA]{.trn} "with them~2~"
+   + [فِيهِمَا]{.ar} [fIhimA]{.trn} "in them~2~"
+   + [إِلَيْهِمَا]{.ar} [EilayhimA]{.trn} "to them~2~"
 + The preposition [لِ]{.ar} [li]{.trn} "for" becomes [لَ]{.ar} [la]{.trn} when followed by the dual attached pronouns:
-   + [لَهُمَا]{.ar} [lahumA]{.trn} 
-   + [لَكُمَا]{.ar} [lakumA]{.trn} 
-   + [لَنَا]{.ar} [lanA]{.trn}
+   + [لَهُمَا]{.ar} [lahumA]{.trn} "for them~2~"
+   + [لَكُمَا]{.ar} [lakumA]{.trn} "for you~2~"
 + As expected, the long [A]{.trn} vowel at the ends of the dual attached pronouns becomes a short [a]{.trn} vowel when followed by a connecting hamzah [ٱ]{.ar}. Example:
-  + [ذَهَبَ إِلَيْنَا ٱلرَّجُلُ.]{.ar}  
-    [pahaba Eilayna -rrajulu.]{.trn}  
-    "The man went toward us."
+  + [ذَهَبَ إِلَيْكُمَا ٱلرَّجُلُ.]{.ar}  
+    [pahaba Eilaykuma -rrajulu.]{.trn}  
+    "The man went toward you~2~."
 
 ### Dual doee pronouns
 
-The dual attached pronouns that we have just learned are also used as doee pronouns. Again, there is no additional intervening [ن]{.ar} for the speaking person dual attached pronoun [نَا]{.ar} [-nA]{.trn}. Examples:
+The dual attached pronouns that we have just learned are also used as doee pronouns. 
+<!--Again, there is no additional intervening [ن]{.ar} for the speaking participant dual attached pronoun [نَا]{.ar} [-nA]{.trn}. -->
+Examples:
 
 [سَأَلَهُمَا ٱلرَّجُلُ.]{.ar}  
 [saEalahuma -rrajulu.]{.trn}  
-"The man asked them~dual~."
+"The man asked them~2~."
 
 [سَأَلْتُكُمَا.]{.ar}  
 [saEaltukumA]{.trn}  
-"I asked you~dual~."
+"I asked you~2~."
 
-[سَأَلَتْنَا.]{.ar}  
-[saEalatnA.]{.trn}  
-"She asked us."
+[سَأَلَتْكُمَا.]{.ar}  
+[saEalatkumA.]{.trn}  
+"She asked you~2~."
 
-## Verbal sentences with dual doers
+## Verbs with dual doers
 
 ### Dual nouns for the doer
 
@@ -193,7 +316,7 @@ These same verbs are used when the doer noun is a dual. Examples:
 
 [ذَهَبَ ٱلْغُلَامَانِ.]{.ar}  
 [pahaba -lgulAmAni.]{.trn}  
-"The two boys went." 
+"The boys~2~ went." 
 
 [ذَهَبَتْ جَارِيَتَانِ.]{.ar}  
 [pahabat jAriyatAni.]{.trn}  
@@ -203,80 +326,71 @@ These same verbs are used when the doer noun is a dual. Examples:
 
 We have already learned the singular doer pronouns:
 
-Person | Doer pronoun | Doer pronoun with verb
-:------|:--|:--
-Absent person (masc.) "he"  | _invisible_          | [فَعَلَ]{.ar} [faeala]{.trn}
-Absent person (fem.)  "she" | _invisible_          | [فَعَلَتْ]{.ar} [faealat]{.trn}
-Addressed person (masc.)  "you~masc.~" | [تَ]{.ar} [-ta]{.trn} | [فَعَلْتَ]{.ar} [faealta]{.trn}
-Addressed person (fem.)  "you~fem.~"   | [تِ]{.ar} [-ti]{.trn} | [فَعَلْتِ]{.ar} [faealti]{.trn}
-Speaking person (masc. and fem.)  "I"  | [تُ]{.ar} [-tu]{.trn} | [فَعَلْتُ]{.ar} [faealtu]{.trn}
+|Singular participant | Doer pronoun |Meaning| Doer pronoun with verb|
+|:--|:--|:--|:--|
+|Masc. absentee    | invisible            |"he"      | [فَعَلَ]{.ar} [faeala]{.trn}|
+|Fem.  absentee    | invisible            |"she"     | [فَعَلَتْ]{.ar} [faealat]{.trn}|
+|Masc. addressee   | [تَ]{.ar} [-ta]{.trn} |"you~m,2~"| [فَعَلْتَ]{.ar} [faealta]{.trn}|
+|Fem.  addressee   | [تِ]{.ar} [-ti]{.trn} |"you~f,2~"| [فَعَلْتِ]{.ar} [faealti]{.trn}|
+|Speaker           | [تُ]{.ar} [-tu]{.trn} |"I"       | [فَعَلْتُ]{.ar} [faealtu]{.trn}|
 
 Now we will learn the dual doer pronouns:
 
-Person | Doer pronoun | Doer pronoun with verb
-:------|:-|:---
-Absent person (masc. and fem.) "they~dual~"  | [◌َا]{.ar} [-A]{.trn} | masc.: [فَعَلَا]{.ar} [faealA]{.trn}, fem: [فَعَلَتَا]{.ar} [faealatA]{.trn}
-Addressed person (masc. and fem.)  "you~dual~" | [تُمَا]{.ar} [-tumA]{.trn} | [فَعَلْتُمَا]{.ar} [faealtumA]{.trn} 
-Speaking person (masc. and fem.)  "we"  | [نَا]{.ar} [-nA]{.trn} | [فَعَلْنَا]{.ar} [faealnA]{.trn}
+|Dual participant | Doer pronoun | Meaning |Doer pronoun with verb|
+|:--|:--|:--|:---|
+|Absentee    | [◌َا]{.ar} [-A]{.trn}     | "them~2~" | masc.: [فَعَلَا]{.ar} [faealA]{.trn}, fem: [فَعَلَتَا]{.ar} [faealatA]{.trn}|
+|Addressee   | [تُمَا]{.ar} [-tumA]{.trn} | "you~2~"  | [فَعَلْتُمَا]{.ar} [faealtumA]{.trn} |
+|Speaker     | -- | "us~2~" | --|
 
-Note the following points regarding the dual doer pronouns:
+Note the following regarding the dual doer pronouns:
 
-+ The dual doer pronouns are the same for both genders: [◌َا]{.ar} [-A]{.trn}.
-+ However, the absent person dual doer pronoun [◌َا]{.ar} [-A]{.trn} "they~dual~", when used for a feminine doer is attached to the verb with an intervening [ت]{.ar} of femininity thus: [فَعَلَتَا]{.ar} [faealatA]{.trn}
-+ The dual speaking person doer pronoun [نَا]{.ar} [-nA]{.trn} is the same as the dual speaking person attached pronoun [نَا]{.ar} [-nA]{.trn}. But you can tell them apart because the doer pronoun, when attached to the verb, causes the final letter of the verb to have a $\emptyset$-mark. Consider the following two sentences:
+The dual doer pronouns are the same for both genders.
 
-  [سَأَلْنَا.]{.ar}  
-  [saEalnA.]{.trn}  
-  "We asked."
-
-  [سَأَلَنَا.]{.ar}  
-  [saEalanA.]{.trn}  
-  "He asked us."
-
-Here are some more examples of the dual doer pronouns:
+However, when the absentee-participant doer pronoun ([◌َا]{.ar} [-A]{.trn}) is used for a feminine doer, it is attached to the verb with an intervening [ت]{.ar} of femininity thus: [فَعَلَتَا]{.ar} [faealatA]{.trn} "they~f,2~ did"
+Here are some examples of the dual doer pronouns:
 
 [سَأَلْتُمَانَا]{.ar}  
 [saEaltumAnA]{.trn}  
-"You~dual~ asked us"
+"You~2~ asked us"
 
 [سَأَلَتَاكُمَا]{.ar}  
 [saEalatAkumA]{.trn}  
-"They~dual\ fem.~ asked you~dual~"
+"They~f,2~ asked you~2~"
 
 [سَأَلَاهُمَا]{.ar}  
 [saEalAhumA]{.trn}  
-"They~dual\ masc.~ asked them~dual~"
+"They~m,2~ asked them~2~"
 
-## Sentence word order
+### Sentence word order with dual doers
 
 As we've mentioned, the doer, whether a noun or a pronoun, always comes after the verb. Here are a couple of examples of verbal sentences with dual doers:
 
 [ذَهَبَا إِلَىٰ بَيْتٍ.]{.ar}  
 [pahabA EilA baytin.]{.trn}  
-"They~dual~ went to a house."
+"They~2~ went to a house."
 
 [ذَهَبَ ٱلرَّجُلَانِ إِلَىٰ بَيْتٍ.]{.ar}  
 [pahabA -rrujalAni EilA baytin.]{.trn}  
-"The two men went to a house."
+"The men~2~ went to a house."
 
 The above verbal sentence can be rearranged to be a subject-information sentence. This gives more emphasis to the subject. In this case, the verb shall follow the subject and will need a doer pronoun after it.
 
 [ٱَلرَّجُلَانِ ذَهَبَا إِلَىٰ بَيْتٍ.]{.ar}  
 [EarrujalAni pahabA EilA baytin.]{.trn}  
-"The two men, they~dual~ went to a house."  
-= "_The two men_ went to a house."
+"The men~2~, they~2~ went to a house."  
+= "_The men~2~_ went to a house."
 
 If there are multiple verbs associated with the same doer in a verbal sentence, the doer noun will follow the first verb  and the rest of the verbs will have doer pronouns. For example:
 
 [أَكَلَ ٱلرَّجُلَانِ وَشَرِبَا وَذَهَبَا.]{.ar}  
 [Eakala -rrajulAni wacaribA wapahabA.]{.trn}  
-"The two men ate and they~dual~ drank and they~dual~ went."  
-= "The two men ate and drank and went."
+"The men~2~ ate and they~2~ drank and they~2~ went."  
+= "The men~2~ ate and drank and went."
 
 The above verbal sentence can be rearranged to be a subject-information sentence. In that case, all the verbs shall have doer pronouns. The sentence will have the same translation as above, except for an emphasis on the subject of the sentence.
 
 [ٱَلرَّجُلَانِ أَكَلَا وَشَرِبَا وَذَهَبَا.]{.ar}  
 [EarrajulAni EakalA wacaribA wapahabA.]{.trn}  
-"The two men, they~dual~ ate and they~dual~ drank and they~dual~ went."  
-= "_The two men_ ate and drank and went."
+"The men~2~, they~2~ ate and they~2~ drank and they~2~ went."  
+= "_The men~2~_ ate and drank and went."
 

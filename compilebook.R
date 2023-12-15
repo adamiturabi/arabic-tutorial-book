@@ -7,7 +7,34 @@ book_filename: 'Learn-Standard-Arabic.Rmd'
 output_dir: 'book-output'
 ")
 
-rmd_file_list <- c("intro.Rmd", "script.Rmd", "nouns.Rmd", "gender.Rmd", "simple_sentences.Rmd", "prepositions.Rmd", "past_verbs.Rmd", "describing_nouns.Rmd", "diptotes.Rmd", "duals.Rmd", "sound_plurals.Rmd", "broken_plurals.Rmd", "idafa.Rmd", "ism_ishara.Rmd", "elatives.Rmd", "five_nouns.Rmd", "vocative.Rmd", "imperfect_verb_indic.Rmd", "doing_verbal_noun.Rmd", "doer_verbal_noun.Rmd", "imperfect_verb_subj.Rmd", "kana_sisters.Rmd", "ideas.Rmd", "appendix.Rmd", "hamzarules.Rmd", "further.Rmd")
+rmd_file_list <- c("intro.Rmd"
+ , "script.Rmd"
+ , "nouns.Rmd"
+ , "simple_sentences.Rmd"
+ , "prepositions.Rmd"
+ , "past_verbs.Rmd"
+ , "describing_nouns.Rmd"
+ , "diptotes.Rmd"
+ , "duals.Rmd"
+ , "sound_plurals.Rmd"
+ , "broken_plurals.Rmd"
+ , "idafa.Rmd"
+ , "irregular_nouns.Rmd"
+ , "proper_nouns.Rmd"
+ , "vocative.Rmd"
+ , "ism_ishara.Rmd"
+ , "imperfect_verb_indic.Rmd"
+ , "doing_verbal_noun.Rmd"
+ , "doer_verbal_noun.Rmd"
+ #, "imperfect_verb_subj.Rmd"
+ #, "kana_sisters.Rmd"
+ #, "group_nouns.Rmd"
+ #, "elatives.Rmd"
+ #, "ideas.Rmd"
+ , "appendix.Rmd"
+ , "hamzarules.Rmd"
+ #, "further.Rmd"
+)
 
 rmd_file_list <- paste("srcrmd/", rmd_file_list, sep="")
 

@@ -1,6 +1,65 @@
-# Noun-chains
+# Annexation
 
 ## Introduction
+
+Consider the following expression:
+
+"the boy's book"
+
+This expression establishes a relation of _belonging_ between the two nouns: (i)\ "the boy", and (ii)\ "the book". It says that the book _belongs_ to the boy.
+
+Arabic expresses this meaning using a construction called _annexation_. In this chapter we will learn about this construction.
+
+## Forming the annexation
+
+The word "annexation" means the addition of a new _annexed_ item to an existing _base_ item. We use the term _annexation_ in Arabic grammar when an _annexe_ noun is annexed to a _base_ noun by being placed right before it. Here is an example of an annexation:
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{ٱلْغُلَامِ} \txarb{كِتَابُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe noun};
+
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize base noun};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-2.south east)
+      node [midway, below] {\scriptsize annexation};
+
+\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``the boy's book''};
+
+\end{tikzpicture}
+```
+
+<!--"the boy's book"  -->
+
+The annexation construction consists of two nouns:
+
+1. The _annexe_ noun: This is the first noun in the annexation.
+1. The _base_ noun: This is the second noun in the annexation.
+
+The annexe noun [كِتَاب]{.ar} is annexed to, and belongs to, the base noun [ٱَلْغُلَام]{.ar}. 
+You can use the alphabetical  order (A,\ B) to help you remember that the **a**nnexe noun comes before the **b**ase noun.
+
+<!--
+Take note of the following points regarding the annexation construction:
+
++ The base noun in an annexation shall always be in the i-state.
++ The state of the annexe noun is variable and shall depend on its function in the sentence.
++ The annexe noun in an annexation shall neither have an [n]{.trn}-mark nor the prefix [ٱَلْ]{.ar}.
+
+## Remove
 
 In Arabic we may chain two or more nouns in a sequence to establish an "of" relationship between them, in order to express, for example,
 
@@ -19,11 +78,11 @@ In Arabic we express these types of phrases by chaining the two nouns together t
 We can identify noun-chains by noting that the first noun in the chain has neither an [n]{.trn} mark, nor an [ٱَلْ]{.ar}, and the second noun in the chain will be in the i-state. 
 
 The first noun in the chain is the noun before "of" and the second noun in the chain is the noun after "of".
+-->
+## State of the annexe and base nouns
 
-## State of the chained nouns
-
-The second noun in the chain will be in the i-state. The first noun may be in any state, depending on its function in the sentence. For example,
-
+The base noun in an annexation is always in the i-state. The annexe noun may be in any state, depending on its function in the sentence. For example,
+<!--
    + [أُمُّ ٱلْغُلَامِ مُعَلِّمَةٌ.]{.ar}  
      [Eummu -lgulAmi mueallimatun.]{.trn}  
      "The mother of the boy is a teacher.", or, equivalently, "The boy's mother is a teacher."
@@ -33,10 +92,62 @@ The second noun in the chain will be in the i-state. The first noun may be in an
    + [كَتَبَتْ إِلَىٰ أُمِّ ٱلْغُلَامِ.]{.ar}  
      [katabat EilA Eummi -lgulAmi.]{.trn}  
      "She wrote to the boy's mother." (Note that [أُمِّ]{.ar} is in the i-state.)
+-->
 
-## Definiteness of the nouns in the chain
+[كِتَابُ ٱلْغُلَامِ ثَقِيلٌ.]{.ar}  
+"The boy's book is heavy."  
+(The annexe noun is in the u-state.)
 
-As we mentioned above, the first noun in the chain can have neither an [n]{.trn} mark, nor an [ٱَلْ]{.ar}. The definiteness of both nouns is determined by examining the second noun in the chain. If the second noun is definite (either by having [ٱَلْ]{.ar}, or by being a proper noun), then both the nouns in the chain will be definite. And if the second noun is indefinite, then both the nouns in the chain will be indefinite. 
+[أَخَذَتِ ٱلْجَارِيَةُ كِتَابَ ٱلْغُلَامِ.]{.ar}  
+"The girl took the boy's book."  
+(The annexe noun is in the a-state.)
+
+[كَتَبَ ٱلْمُعَلِّمُ فِي كِتَابِ ٱلْغُلَامِ.]{.ar}  
+"The teacher~m~ wrote in the boy's book."  
+(The annexe noun is in the i-state.)
+
+## Definiteness of the annexation
+
+Consider again the annexation expression we have been using so far:
+
+[كِتَابُ ٱلْغُلَامِ]{.ar}  
+"the boy's book"  
+
+The base noun [ٱَلْغُلَام]{.ar} is definite because it is prefixed by [ٱَلْ]{.ar} "the".
+Therefore we have translated it as "the boy".
+The annexe noun [كِتَاب]{.ar} is not made definite by [ٱَلْ]{.ar}.
+Nor is it made indefinite by an [n]{.trn}-mark. 
+<!--Its definiteness is determined by the base noun. -->
+Rather, it is defined by the base noun.
+Because the base noun [ٱَلْغُلَام]{.ar} is definite, therefore the annexe noun [كِتَاب]{.ar} is also definite.
+The entire annexation is definite.
+<!--If the base noun is definite (as it is above) then the annexe noun shall also be definite.
+And if the base noun is indefinite (as below) then the annexe noun shall also be indefinite.-->
+
+Consider now the case when the base noun is indefinite.
+
+[كِتَابُ غُلَامٍ]{.ar}  
+"a boy's book"  
+
+In the above example, the base noun [غُلَامٍ]{.ar} is indefinite because it has the [n]{.trn}-mark\ [◌ٍ]{.ar} and because it does not prefixed by [ٱَلْ]{.ar}. Therefore we have translated it as "a boy".
+The annexe noun [كِتَاب]{.ar} has neither an [n]{.trn}-mark, nor the prefix [ٱَلْ]{.ar}.
+It is defined by the base noun. Because the base noun [غُلَامٍ]{.ar} is indefinite, therefore the annexe noun [كِتَاب]{.ar} is also indefinite.
+The entire annexation is indefinite.
+
+We will see soon, if [#allAh]{.trn2} wills, why the definiteness of the annexe noun is important.
+
+<!--
+
+As you can see above English has two constructs to translate the annexation:
+
+i. using "'s"
+ii. using "of"
+
+Sometimes both of the above constructs will fit for the translation, and sometimes only one will fit. For convenience, we will often translate with only one of them.
+
+The annexe noun in an annexation can have neither an [n]{.trn} mark, nor an [ٱَلْ]{.ar}. 
+The base noun is permitted to have an [n]{.trn} mark or an [ٱَلْ]{.ar} prefix. 
+The definiteness of the base noun then determines the definiteness of the annexation. If the second noun is definite, then both the annexe and the base nouns be definite. And if the base noun is indefinite, then both the nouns in the chain will be indefinite. 
 
 [بَيْتُ مُحَمَّدٍ]{.ar}  
 [baytu muHammadin]{.trn}  
@@ -49,8 +160,574 @@ As we mentioned above, the first noun in the chain can have neither an [n]{.trn}
 [بَيْتُ رَجُلٍ]{.ar}  
 [baytu rajulin]{.trn}  
 "a house of a man"
+-->
 
-## Describers for nouns in noun-chains
+Here are some examples of definite and indefinite annexations.
+
+[لَبِسَ ٱلطِّفْلُ قَمِيصَ رَجُلٍ.]{.ar}  
+"The child wore _a_ man's shirt."
+
+[أَخَذَ أَمِيرُ ٱلْجَيْشِ رَايَةَ ٱلْمَلِكِ وَرَفَعَهَا.]{.ar}  
+"_The_ army's commander took _the_ king's flag and raised it."
+
+[جَلَسَ ٱلرَّجُلُ فِي ظِلِّ شَجَرَةٍ.]{.ar}  
+"The man sat in _a_ tree's shade."
+
+### Translating the annexation using "of"
+
+So far we have been using the English "'s" to translate the Arabic annexation. Examples:
+
+[بَيْتُ رَجُلٍ]{.ar}  
+"a man's house"
+
+[بَيْتُ ٱلرَّجُلِ]{.ar}  
+"the man's house"
+
+Instead of using "'s" we may use "of" as well. For example:
+
+[بَيْتُ رَجُلٍ]{.ar}  
+"a/the house of a man"
+
+[بَيْتُ ٱلرَّجُلِ]{.ar}  
+"a/the house of the man"
+
+Note that the annexe noun "house" may be prefixed with either "a" or "the". This will depend on what is more natural in English. Often time both will fit. Here are some examples:
+
+[لَبِسَ ٱلطِّفْلُ قَمِيصَ رَجُلٍ.]{.ar}  
+"The child wore a/the shirt of a man."
+
+[أَخَذَ أَمِيرُ ٱلْجَيْشِ رَايَةَ ٱلْمَلِكِ وَرَفَعَهَا.]{.ar}  
+"_The_ commander of the army took _the_ flag of the king and raised it."
+
+[جَلَسَ ٱلرَّجُلُ فِي ظِلِّ شَجَرَةٍ.]{.ar}  
+"The man sat in _the_ shade of a tree."
+
+[فَتَحَ ٱلِّصُّ شُبَّاكَ ٱلْبَيْتِ وَدَخَلَ ٱلْبَيْتَ.]{.ar}  
+"The thief opened _a/the_ window of the house and entered the house."
+
+It is important to understand that translating the annexe noun into English with "a" or "the" is purely for the reason of obtaining a natural translation. This does not affect whether or not the annexe noun is grammatically considered definite in Arabic.
+
+As we mentioned earlier, the definiteness of the annexe noun in Arabic depends only on the definiteness of the base noun. 
+If the base noun is definite then the annexe noun shall be considered definite as well.
+And if the base noun is indefinite then the annexe noun shall be considered indefinite as well.
+
+The need to maintain this distinction will become apparent in the next section.
+
+If the base noun is definite, and it is desired to make the annexe noun grammatically indefinite, then it is necassary to break the annexation, and use a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
+
+[ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتٍ لِلرَّجُلِ.]{.ar}  
+"The boy went to a house of the man."
+
+[فَتَحَ ٱلِّصُّ شُبَّاكًّا مِنَ ٱلْبَيْتِ وَدَخَلَ ٱلْبَيْتَ.]{.ar}  
+"The thief opened a window of the house and entered the house."
+
+## Broken plurals and [At]{.trn} sound plurals in annexations {#broken-plurals-and-at-sound-plurals-in-annexations}
+
+There is no special rules for broken plurals and [At]{.trn} sound plurals in annexations. They behave just like singular nouns. Remember only that [At]{.trn} plurals end with [◌ٍ]{.trn} and [◌ِ]{.ar} in the a-state. Here are some examples:
+
+[حَيَوَانَاتُ ٱلْغَابَةِ وَحْشَةٌ.]{.ar}  
+"The animals of the forest are wild."
+
+<!--
+[كَتَبَتْ طَالِبَاتُ ٱلْمَدْرَسَةِ بِأَقْلَامِ مُعَلِّمَاتٍ.]{.ar}  
+"The school's students~f~ wrote with teachers'~f~ pens."
+-->
+
+[قَرَأَتْ طَالِبَاتُ ٱلْمَدْرَسَةِ صَفَحَاتِ ٱلْكُتُبِ]{.ar}  
+"The school's students~f~ read the pages of the books."
+
+[فِي ٱلْخِزَانَةِ أَقْلَامُ مُعَلِّمَاتٍ.]{.ar}  
+"In the cupboard are teachers'~f~ pens.
+
+Contrary to broken plurals and [At]{.trn} plurals, duals and [Un]{.trn} sound plurals behave differently in annexations. We will deal with them in section\ \@ref(duals-and-sound-un-plurals-in-annexations)
+
+## Describers in an annexation
+
+### Describing the base noun
+
+Consider the following expression:
+
+[كِتَابُ ٱلْجَارِيَةِ]{.ar}  
+"the girl's book"
+
+Now say that we want to form an descriptive noun-phrase "the small girl's book". 
+Basically, we want to describe the base noun [ٱَلْجَارِيَة]{.ar} "the girl" with the adjectival noun [صَغِير]{.ar} "a small one". 
+Here is how we will express this in Arabic:
+
+[كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرَةِ]{.ar}  
+"the small girl's book"
+
+In the manner we are already familiar with, we place the describer [صَغِير]{.ar} "a small one" after the describee
+[ٱَلْجَارِيَة]{.ar} "the girl"
+and match the describer with the describee in definiteness, state, gender and number (singular, dual, or plural).
+
+Similarly, if we had an indefinite annexation, we would get:
+
+[كِتَابُ جَارِيَةٍِ صَغِيرَةٍ]{.ar}  
+"a small girl's book"
+
+Here are some more examples:
+
+[لَعِبَتِ ٱلْجَارِيَةُ فِي حَدِيقَةِ ٱلْبَيْتِ ٱلْكَبِيرِ.]{.ar}  
+"The girl played in the garden of the big house."
+
+[قَرَأَ ٱلْغُلَامُ سُورَةَ ٱلْقُرْآنِ ٱلْكَرِيمِ.]{.ar}  
+"The boy read the [sUrah]{.trn2} of the Noble [#qurEAn]{.trn2}."
+
+[جَلَسَ ٱلرَّجُلُ فِي ظِلِّ شَجَرَةٍ عَرِيضَةٍ وَسِيعَةٍ.]{.ar}  
+"The man sat in the shade of a wide broad tree."
+
+### Describing the annexe noun
+
+Consider, again, the same annexation:
+
+[كِتَابُ ٱلْجَارِيَةِ]{.ar}  
+"the girl's book"
+
+Say, now, that we want to describe the annexe noun [كِتَاب]{.ar} "book" with the adjectival noun [صَغِير]{.ar} "a small one". Normally, nothing can come between the annexe noun and the base noun in an annexation. So, the describer needs to be placed, again, after the base noun.
+However, this time it will match the annexe noun, not the base noun, in state, definiteness, gender, and number. So we get:
+
+[كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرُ]{.ar}  
+"the girl's small book"
+
+Note how the describer 
+[ٱَلصَّغِيرُ]{.ar} matches the annexe noun [كِتَابُ]{.ar} in state and gender.
+Note also how the describer is definite with an [ٱَلْ]{.ar}. This is because it is matching the annexe noun [كِتَابُ]{.ar} in definiteness.
+The annexe noun [كِتَاب]{.ar} is definite, not with [ٱَلْ]{.ar}, but rather because of the definite base noun [ٱَلْجَارِيَةِ]{.ar} "the girl".
+We've already learned this rule in 
+section\ \@ref(definiteness-of-the-annexation)
+above.
+
+Similarly, if we describe the annexe noun [كِتَاب]{.ar} in an indefinite annexation, we get:
+
+[كِتَابُ جَارِيَةٍ صَغِيرٌ]{.ar}  
+"a girl's small book"
+
+This time
+the describer 
+[صَغِيرٌ]{.ar}
+is indefinite with an [un]{.trn}-mark [◌ٌ]{.ar}. 
+This is because 
+the annexe noun [كِتَابُ]{.ar} is indefinite. It is indefinite because base noun [جَارِيَةٍ]{.ar} "a girl" is indefinite.
+
+Now, you might be foreseeing a problem. What if the annexe noun and the base noun have the same gender, and the annexe too is in the i-state? For example, in the sentence:
+
+[ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ ٱلرَّجُلِ ٱلْكَبِيرِ.]{.ar}  
+"The boy went to the big/old man's house."  
+or  
+"The boy went to the man's big house."  
+
+How do we know whether the describer [كَبِير]{.ar} is meant to describe the annexe noun [بَيْتِ]{.ar} or the base noun [ٱَلرَّجُل]{.ar}?
+The annexe noun [بَيْتِ]{.ar} and the base noun [ٱَلرَّجُل]{.ar} are both masculine, singular, definite, and in the i-state.
+
+The answer is that in such cases, context will have to be clear to tell us which of the two meanings is intended.
+If the context makes it clear then there is no harm in using such a sentence for either of the two meanings.
+<!--https://www.m-a-arabia.com/vb/showthread.php?t=40547
+دفع اللبس في احتمالية النعت للمضاف والمضاف إليه-->
+
+Also, sometimes, the meaning of the describer is such that it will likely apply to only one of the two nouns. For example,
+
+[ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ ٱلرَّجُلِ ٱلْكَرِيمِ.]{.ar}  
+"The boy went to a noble/generous man's house."  
+
+In the sentence above the describer [كَرِيم]{.ar} "noble/generous" is likely to apply to a man, and not to a house.
+
+If, however, the context is not clear, and the meaning of the describer can apply to both the annexe noun and the base noun, then the describer is likely to apply to the base noun and not to the annexe noun. So then, this interpretation is more likely:
+
+[ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ ٱلرَّجُلِ ٱلْكَبِيرِ.]{.ar}  
+"The boy went to the big/old man's house."  
+
+In order to apply a describer to the annexe noun in such a case, it is better to break the annexation and form a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
+
+[ذَهَبَ ٱلْغُلَامُ إِلَىٰ ٱلْبَيْتِ ٱلْكَبِيرِ لِلرَّجُلِ .]{.ar}  
+"The boy went to the big house of the man."  
+
+Here are some more examples:
+
+[لَعِبَتِ ٱلْجَارِيَةُ بِكُرَةِ ٱلْغُلَامِ ٱلْحَمرَاءِ.]{.ar}  
+"The girl played with the boy's red ball."  
+(Note that [حَمْرَاء]{.ar} feminine to match [كُرَة]{.ar}.)
+
+[سَقَطَتْ وَرَقَةُ ٱلشَّجَرَةِ ٱلْخَضْرَاءُ عَلَىٰ مَاءِ ٱلنَّعْرِ ٱلْعَرِيضِ.]{.ar}  
+"The green leaf of the tree fell on the water of the broad river."  
+(Note that [خَضْرَاء]{.ar} is in the u-state to match [وَرَقَة]{.ar})
+
+[حَمَلَ ٱلْغُلَامُ حَقِيبَةَ ٱلْمَدْرَسَةِ ٱلثَّقِيلَةَ.]{.ar}  
+"The boy carried the heavy school-bag."  
+(literally: the heavy bag of the school).
+
+[كَتَبَ ٱلرَّجُلُ عَلَىٰ صَفْحَةِ كِتَابٍ بَيْضَاءَ.]{.ar}  
+"The man wrote on the white page of a book."  
+(Note that [بَيْضَاءَ]{.ar} is feminine to match [صَفْحَة]{.ar}. However, also note that it has an a-mark [◌َ]{.ar} in the i-state because it is semi-flexible.)
+
+<!--
+[ذَهَبَ ٱلطَّالِبُ إِلَىٰ مَدْرَسَةِ مَدِينَةٍ عَظِيمَةٍ.]{.ar}
+"The student went to a great city's school."  
+or  
+"The student went to a great school of a city."  
+-->
+
+## Semi-flexible nouns in an annexation
+
+Remember that semi-flexible nouns don't take [n]{.trn}-marks and that when indefinite, the i-state is indicated by an [a]{.trn}-mark [◌َ]{.ar}. 
+But when definite with [ٱَلْ]{.ar} then they behave just like fully-flexible nouns.
+Example of the semi-flexible noun 
+[صَحْرَاء^2^]{.ar} "a desert":
+
+State  | Indefinite | Definite
+:------|:-----------|:---------
+u-state| [صَحْرَاءُ]{.ar} | [ٱَلصَّحْرَاءُ]{.ar}
+a-state| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءَ]{.ar}
+i-state| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءِ]{.ar}
+
+We will now see how semi-flexible nouns behave in an annexation.
+
+### A semi-flexible noun as the base noun
+
+Here are examples of the semi-flexible noun [صَحْرَاء^2^]{.ar} "a desert" as the base noun in an annexation:
+
+[ٱَلْقَرْيَةُ فِي وَسَطِ ٱلصَّحْرَاءِ.]{.ar}  
+"The village is in the middle of the desert."
+
+[شَرِبَ ٱلْأَعْرَابِيُّ مَاءً مِنْ بِئْرِ صَحْرَاءَ.]{.ar}  
+"The bedouin drank some water from a desert's well."
+
+As you can see, when 
+[صَحْرَاء^2^]{.ar}
+is definite, then its i-state is indicate by an [i]{.trn}-mark [◌ِ]{.ar}, just like fully-flexible nouns. 
+However, when it is indefinite, then 
+its i-state is indicate by an [a]{.trn}-mark [◌َ]{.ar}.
+
+This is consistent with the general behavior of semi-flexible nouns that we are familiar with.
+
+### A semi-flexible noun as the annexe noun
+
+Contrary from expected behavior, a semi-flexible annexe noun, even when indefinite, takes an [i]{.trn}-mark\ [◌ِ]{.ar} in the i-state instead of an [a]{.trn}-mark\ [◌َ]{.ar}. Example,
+
+[قَدِمَ ٱلْأَعْرَابِيُّ مِنْ صَحْرَاءِ أَرْضٍ بَعِيدَةٍ.]{.ar}  
+"The bedouin came from the desert of a far land."
+
+In the above example,
+[صَحْرَاء^2^]{.ar} "a desert" is indefinite because it is the annexe noun to an indefinite base noun [أَرْض]{.ar} "a land". 
+It is in the i-state because it is preceded by the preposition [مِنْ]{.ar} "from". 
+Nevertheless, it takes an [i]{.trn}-mark [مِنْ صَحْرَاءِ أَرْضٍ]{.ar}, not an [a]{.trn}-mark, which would be incorrect: $\times$\ [مِنْ صَحْرَاءَ أَرْضٍ]{.ar}.
+
+## Annexations with more than two nouns
+
+So far we have seen annexations with two nouns. Annexations may be arbitrarily long. Here is an example of a noun-chain with more than two nouns:
+
+<!--
+[مِفْتَاحُ بَابِ ٱلْبَيْتِ]{.ar}  
+"the house's door's key"
+-->
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{ٱلْبَيْتِ} \txarb{بَابِ} \txarb{مِفْتَاحُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-3.south west) -- (word-3.south east)
+      node [midway, below=0.5ex] {\scriptsize $a_1$};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, below=0.5ex] {\scriptsize $b_1$};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, below=2.75ex] {\scriptsize $a_2$};
+
+\draw [decoration={brace, mirror}, decorate, below=3ex] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below=2.75ex] {\scriptsize $b_2$};
+
+
+\path [decoration={text effects along path, 
+  text={``the house's door's key"},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate, below=6.75ex] (0,0);
+
+
+%\draw [decoration={brace, mirror, raise=3ex}, decorate] 
+%   (word-1.south west) -- (word-2.south east)
+%      node [midway, below=3ex] {annexation};
+\end{tikzpicture}
+```
+
+The above annexation consists of three nouns. It may be divided into two sub-annexations:
+
+i. [مِفْتَاحُ بَابِ]{.ar} "door's key". Its annexe noun $a_1$\ is [مِفْتَاح]{.ar} and its base noun\ $b_1$ is [بَابِ]{.ar}.
+i. [بَابِ ٱلْبَيْتِ]{.ar} "the house's door". Its annexe noun $a_2$\ is [بَابِ]{.ar} and its base noun\ $b_2$ is [ٱلْبَيْتِ]{.ar}.
+
+The noun [بَاب]{.ar} "door" is common to both sub-annexations. It is the base noun of the first sub-annexation
+[مِفْتَاحُ بَابِ]{.ar} "door's key".
+At the same time, it is also the annexe noun of the second sub-annexation
+[بَابِ ٱلْبَيْتِ]{.ar} "the house's door".
+
+Only the final base noun may have [ٱَلْ]{.ar} or an [n]{.trn} mark. If the final base noun has [ٱَلْ]{.ar} (as above) then all the nouns in the annexation are definite. 
+
+And if the final base noun is indefinite, as in the example below, then all the nouns in the annexation are indefinite.
+
+[مِفْتَاحُ بَابِ بَيْتٍ]{.ar}  
+"a house's door's key"
+
+All the nouns except the first annexe noun must be in the i-state. Consistent with 
+section\ \@ref(a-semi-flexible-noun-as-the-annexe-noun)
+if a semi-flexible noun is any of the annexe nouns and is in the i-state, then its i-state is indicated by an [a]{.trn}-mark [◌َ]{.ar}. Example:
+
+[مِنْ بِئْرِ صَحْرَاءِ أَرْضٍ]{.ar}  
+"from the well of the desert of a land"
+
+## Pronouns as base nouns
+
+Consider the expression:
+
+"his book"
+
+This expression is very similar to the annexation:
+
+[كِتَابُ ٱلْغُلَامِ]{.ar}  
+"the boy's book" 
+
+The difference is that we would like to replace the base noun [ٱَلْغُلَام]{.ar} "the boy" with the pronoun "his". For this we use the attached pronoun [هُ]{.ar}. When we place this pronoun as the base noun, we get:
+
+[كِتَابُهُ]{.ar}  
+"his book"
+
+This annexation follows the same rules as the other annexations we have been studying so far:
+
++ The annexe noun may be in any state, depending on its function in the sentence.
++ The base noun is in the i-state. But because the base noun is a pronoun, and pronouns are rigid nouns (see section\ \@ref(rigidity-of-pronouns) that don't change their ending based on their state, therefore it's i-state will not be apparent.
+
+Here are some examples of this annexation used in sentences:
+
+[كِتَابُهُ ثَقِيلٌ.]{.ar}  
+"His book is heavy"
+
+[قَرَأَ ٱلرَّجُلُ كِتَابَهُ.]{.ar}  
+"The man read his book."
+
+[كَتَبَ ٱلْمُعَلِّمُ فِي كِتَابهِ.]{.ar}  
+"The teacher~m~ wrote in his book."
+
+If the annexe noun ends with [ة]{.ar} then it is converted to a [ت]{.ar} when annexing it to an attached pronoun. For example:
+
+[ذَهَبُوا إِلَىٰ مَدْرَسَتِهِمْ.]{.ar}  
+"They went to their school."
+
+Here are some more examples of annexing to the different attached pronouns:
+
+[دَخَلْتَ بَيْتَكَ.]{.ar}  
+"You~1,m~ entered your~1,m~ house."
+
+[أَكَلَتَا طَعَامَهُمَا.]{.ar}  
+"They~2,f~ ate their~2~ food."
+
+[قَدِمْتُ إِلَىٰ مَدِينَتِكُمْ]{.ar}  
+"I have arrived to your~3,m~ city."
+
+[هُوَ إِمَامُ مَسْجِدِنَا.]{.ar}  
+"He is the [E#imAm]{.trn2} of our mosque."
+
+If the annexe noun is semi-flexible then it gets a [◌ِ]{.ar} in the i-state, as we've already learned. Example with the semi-flexible broken plural [حَدَائِق^2^]{.ar} "gardens".
+
+[لَعِبْنَ فِي حَدَائِقِهِنَّ.]{.ar}  
+"They~3,f~ played in their~3,f~ gardens."
+
+If an annexe noun ends with [ىٰ]{.ar} then it gets converted to an [Ealif]{.trn} when annexing it to an attached pronoun. Example with [فَتَاوَىٰ^2^]{.ar} "legal opinions":
+
+[كَتَبَ تَلَامِذَةُ ٱلشَّيْخِ فَتَاوَاهُ فِي كُتُبِهِمْ.]{.ar}  
+"The pupils of the religious scholar wrote down his legal opinions in their books."
+
+For the singular speaker-participant there are two variants for the attached pronoun:
+
+i. [ي]{.ar} [-I]{.trn}
+ii. [يَ]{.ar} [-ya]{.trn}
+
+The first ([ي]{.ar} [-I]{.trn}) is more commonly used. Example:
+
+[قَرَأْتُ كِتَابِي]{.ar}  
+"I read my book."
+
+[أَقْلَامِي قَصِيرَة.]{.ar}  
+"My pens are short."
+
+If, however, the annexe noun ends in a long vowel or a semi-vowel then 
+([ي]{.ar} [-I]{.trn}) is disallowed and only
+([يَ]{.ar} [-ya]{.trn}) shall be used. 
+Example with the semi-flexible broken plural [هَدَايَا^2^]{.ar} "gifts":
+
+[أَعْجَبَتْهُمْ هَدَايَايَ.]{.ar}  
+"My gifts pleased them."
+
+### Describers with annexations to pronouns
+
+Consider the annexation:
+
+[كِتَابُهُ]{.ar}  
+"his book"
+
+The annexe noun is [كِتَاب]{.ar} and the base noun is the pronoun [ه]{.ar}.
+We would like add a describer to this expression.
+Remember from section\ \@ref(definiteness-of-pronouns) that pronouns are definite nouns. That makes the annexe noun [كِتَاب]{.ar} also definite.
+Therefore, any describer for this annexation will need to be definite too.
+
+Here is a new rule: Pronouns may not be describees. That is: they are not allowed to have describers.
+Even in English you may say:
+
+"The good boy went."
+
+but you can't say:
+
+$\times$\ "The good _he_ went."
+
+So, any describers for the annexation must necessarily only describe the annexe noun, not the base pronoun. Example:
+
+[كِتَابُهُ الأَحْمَرُ]{.ar}  
+"his red book"
+
+Here are some more examples:
+
+[كَتَبْتُ بِقَلَمِيَ ٱلْأَسْوَدِ]{.ar}  
+"I wrote with my black pen."
+
+[حَمَلَ غِلْمَانُ ٱلْقَرْيَةِ حَقَائبَهُمُ ٱلثَّقِيلَة إِلَىٰ مَدْرَسَتِهِمُ ٱلْبَعِيدَةِ.]{.ar}  
+"The village boys carried their heavy bags to their distant school."  
+(literally: the village's boys.)
+
+## Duals and [Un]{.trn} sound plurals in annexations {#duals-and-sound-un-plurals-in-annexations}
+
+We have already dealt with broken plurals and [At]{.trn} sound plurals in annexations in 
+section\ \@ref(broken-plurals-and-at-sound-plurals-in-annexations).
+
+In this section we will deal with 
+duals and [Un]{.trn} sound plurals in annexations.
+
+### Duals and [Un]{.trn} sound plurals as base nouns
+
+As base noun, duals and [Un]{.trn} sound plurals behave no differently than other nouns. Being base nouns they will be in the i-state and this shall be indicated by:
+
+i. [◌َيْنِ]{.ar} [-ayni]{.trn} for duals
+i. [◌ِينَ]{.ar} [-Ina]{.trn} for [Un]{.trn} sound plurals
+
+Here are some examples:
+
+[لَجِئَ ٱلْمَظْلُومُنَ ٱلضُّعَفَاءُ فِي بِلَادِ ٱلْمُسْلِمِينَ ٱلْآمِنَةِ.]{.ar}  
+"The weak wronged ones took refuge in the secure lands of the Muslims."
+
+[أُخُتُ ٱلْغُلَامَيْنِ ٱلطَّوِيلَيْنِ صَغِيرَةِ.]{.ar}  
+"The tall boys'~2~ sister is little."
+
+[هِيَ طَالِبَةُ مُعَلِّمَتَيْنِ كَرِيمَتَيْنِ.]{.ar}  
+"She is the student~f~ of noble teachers~2,f~."
+
+### Duals and [Un]{.trn} sound plurals as annexe nouns
+
+When duals and [Un]{.trn} sound plurals are annexe nouns, then their final [ن]{.ar} is treated as an [n]{.trn}-mark and is, therefore, deleted before annexing them to a base noun. For example:
+
+[بَيْتَا ٱلرَّجُلِ]{.ar}  
+"the man's houses~2~"  
+not  
+$\times$\ [بَيْتَانِ ٱلرَّجُلِ]{.ar}
+
+Note, also, that because the base noun [ٱَلرَّجُلِ]{.ar} begins with a connecting [hamzah]{.trn} [ٱ]{.ar}, therefore the long vowel [A]{.trn} at the end of [بَيْتَا]{.ar} is pronounced as a short vowel [a]{.trn}, thus:
+
+[bayta -rrajuli]{.trn}  
+not  
+$\times$\ [baytA -rrajuli]{.trn}
+
+If the dual annexe noun were in the i-state then the final [ي]{.ar} gets an [i]{.trn}-mark [◌ِ]{.trn} if there is following connecting [hamzah]{.trn}. Example:
+
+[قَرَأْتُ كِتَابَيِ ٱلرَّجُلِ.]{.ar}  
+[qaraEtu kitAbayi -rrajul]{.trn}  
+"I read the man's books~2~."
+
+Here are some more examples including [Un]{.trn} sound plurals:
+
+[مُعَلِّمُو ٱلْغُلَامِ كِرَامٌ.]{.ar}  
+[mueallimu -lgulAmi kirAm.]{.trn}  
+"The boy's teachers~3~ are noble."  
+(Note that there is no silent [Ealif]{.trn} after [مُعَلِّمُو]{.ar} as there is after a verb with a plural absentee-participant doer pronoun, e.g. [لَعِبُوا]{.ar} "they~3,m~ played")
+
+[لَعِبَ ٱبْنَا ٱلرَّجُلِ مَعَ لَاعِبِي مَدِينَتِهِمْ.]{.ar}  
+[laeiba -bna -rrajuli maea lAeibI madInatihim.]{.trn}  
+"The man's sons~2~ played with the players of their city."
+
+#### Annexing duals and [Un]{.trn} sound plurals to pronouns
+
+Duals and [Un]{.trn} sound plurals can be annexed to attached pronouns, and in this case too, they will lose their final [ن]{.ar}. Examples:
+
+[مُعَلِّمُونَا طَيِّبُونَ.]{.ar}  
+"Our teachers~3,m~ are good."
+
+[لَعِبَتِ ٱلْجَارِيَةُ مَعَ صَدِيقَتَيْهَا]{.ar}  
+"The girl played with her friends~2,f~."
+
+[بَيْتَايَ كَبِيرَانِ.]{.ar}  
+"My houses~2~ are big."  
+(Note that only the [يَ]{.ar} variant is allowed to be used because of [بَيْتَا]{.ar} ending with a long vowel.)
+
+[قَرَأْتُ كِتَابَيَّ]{.ar}  
+(Note how [كِتَابَيْ + يَ]{.ar} becomes [كِتَابَيَّ]{.ar}.)
+
+There are also two special cases in this category and we will examine them below:
+
+##### Annexing an [Un]{.trn} sound plural to the singular speaker participant pronoun {-} 
+
+When an [Un]{.trn} sound plural is annexed to the singular speaker participant pronoun, then again, only the [يَ]{.ar} variant can be used. However, in addition, the expression will appear the same regardless of the state of the annexe noun. So for all states (u-state, a-state, and i-state), we will get:
+
+[مُعَلِّمِيَّ]{.ar}
+
+We don't say $\times$\ [مُعَلِّمُويَ]{.ar} for the u-state. Examples:
+
+[مُعَلِّمِيَّ كِرَامٌ.]{.ar}  
+"My teachers~3,m~ are noble."  
+(u-state)
+
+[سَأَلْتُ مُعَلِّمِيَّ]{.ar}  
+"I asked my teachers~3,m~."  
+(a-state)
+
+[أَخَذْتُ كِتَابًا مِنْ مُعَلِّمِيَّ]{.ar}  
+"I took a book from my teachers~3,m~."  
+(i-state)
+
+##### Annexing an dual noun to a dual pronoun {-} 
+
+<!-- see فقد صغت قلوبكما-->
+When a dual noun is to be annexed to a dual pronoun, then the dual annexe noun is often converted to a plural. For example, instead of saying 
+
+[نَظَرْتُ إِلَىٰ رَأْسَيْهِمَا]{.ar}
+"I looked at their~2~ heads~2~."
+
+it is in fact, more common, to say
+
+[نَظَرْتُ إِلَىٰ رُؤُوسِهِمَا]{.ar}
+"I looked at their~2~ heads~3~."
+
+Although the former is also correct. This is because the annexation of a dual to a dual is considered burdensome upon the tongue to utter, and so the plural is prefered.
+
+<!--
+
+Compare this with describing the base noun with the same adjectival noun.
+
+[كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرَةِ]{.ar}  
+"the girl's small book"
+
+As you can see, the adjectival noun [صَغِير]{.ar} "a small one" is in the same location, but its gender and state are different in both expressions because they match a different describee. 
+The definiteness, however, is the same in the two expressions because the annexe noun has the same definiteness as the base noun.
+
+
 
 If the second noun in a chain is to be described using a qualitative noun, then just like we have learned, we will place the qualitative noun after the second noun in the chain and match it definiteness, state, gender, and number (depending on whether it denotes a rational or non-rational being). Examples: 
 
@@ -340,7 +1017,6 @@ Here are some notes regarding the use of pronouns in noun-chains.
   + [إِلَىٰ مُعَلِّمِيَّ]{.ar}  
     [EilA mueallimiyya]{.trn}  
     "to my (male) teachers"
-<!--There is an example of ya after unvoweled waw: fUya "my mouth" but famI and fiyya are more common so I won't mention this rule since I won't be providing an example-->
 
 + As a special rule, however, when the sound [Un]{.trn} plural is in the u-state and is the first-noun in a noun-chain followed by [ـِي]{.ar} [-I]{.trn} "my", the ending will not become [ـُويَ]{.ar} [-Uya]{.trn} as we might expect. Instead, it will become identical to the a-state and i-state [ـِيَّ.]{.ar} [-iyya]{.trn}. For example:
   + [مُعَلِّمِيَّ طَيِّبُونَ.]{.ar}  
@@ -359,12 +1035,13 @@ Here are some notes regarding the use of pronouns in noun-chains.
     "My noble (male) teachers are in their old school."
 
   By the way, describers will obviously only be for nouns preceding the pronoun and never for the pronoun itself.
+-->
 
-## Noun-chains with "and"
+## Annexations with "and"
 
-### Multiple nouns before "of" and one noun after "of"
+### Multiple annexe nouns and one base noun
 
-In English we can have an expression like "the pen and the book of the boy" = "the boy's pen and book". In this sentence there are two nouns before "of" and one noun after "of".
+In English we can have an expression like "the pen and the book of the boy" = "the boy's pen and book". In this sentence there are two annexe nouns and one base noun.
 
 In order to express this in Arabic, we will say:
 
@@ -372,9 +1049,9 @@ In order to express this in Arabic, we will say:
 [qalamu -lgulAmi wa kitAbuhu]{.trn}  
 "the boy's pen and his book" = "the boy's pen and book"
 
-Note that the noun-chain is not broken by the insertion of [وَ]{.ar} [wa]{.trn} "and". Rather a second noun-chain is used and the two are separated by [وَ]{.ar} [wa]{.trn} "and". This is the preferred way of expressing such expressions.
+Note that the annexation is not broken by the insertion of [وَ]{.ar} [wa]{.trn} "and". Rather a second annexation is used and the two are separated by [وَ]{.ar} [wa]{.trn} "and". This is the preferred way of expressing such expressions.
 
-There is another, less preferred way of expressing this. And this is by breaking the first noun-chain and inserting [وَ]{.ar} [wa]{.trn} "and":
+There is another, less preferred way of expressing this. And this is by breaking the first annexation and inserting [وَ]{.ar} [wa]{.trn} "and":
 
 [قَلَمُ وَكِتَابُ ٱلْغُلَامِ]{.ar}  
 [qalamu wa kitAbu -lgulAmi]{.trn}  
@@ -384,15 +1061,15 @@ This second method is not considered as eloquent. Some even consider it incorrec
 
 #### With pronouns
 
-If the second noun in the noun-chain is replaced with a pronoun then only the first method is allowed. For example,
+If the base noun in the first annexation is replaced with a pronoun then only the first method is allowed. For example,
 
 [قَلَمُهُ وَكِتَابُهُ]{.ar}  
 [qalamuhu wakitAbuhu]{.trn}  
 "his pen and his book"
 
-### One noun before "of" and multiple nouns after "of"
+### One annexe noun and multiple base nouns
 
-We can also have expressions like "the house of the boy and the girl". In this sentence there is one noun before "of" and two nouns after "of".
+We can also have expressions like "the house of the boy and the girl". In this sentence there is one annexe noun and two base nouns.
 
 To express this in Arabic we will say:
 
@@ -401,20 +1078,20 @@ To express this in Arabic we will say:
 "the house of the boy and the girl"
 
 Note that both 
-[ٱلْغُلَامِ]{.ar} [EalgulAmi]{.trn} and [ٱَلْجَارِيَةِ]{.ar} [EaljAriyati]{.trn} are in the i-state because they are both second nouns in the noun-chain.
+[ٱلْغُلَامِ]{.ar} [EalgulAmi]{.trn} and [ٱَلْجَارِيَةِ]{.ar} [EaljAriyati]{.trn} are in the i-state because they are both base nouns in the annexation.
 
 #### With pronouns
 
-If any or both of the second nouns in the noun-chain is replaced with a pronoun then the first noun must be repeated. For example,
+If one or both of the base nouns in the annexation is replaced with a pronoun then the first noun must be repeated. For example,
 
-[بَيْتُهُ وَبَيْتُ ٱلْجَارِيَةِ]{.ar}  
-[baytuhu wabaytu -ljAriyati]{.trn}  
-"his house and the girl's house"
+[بَيْتُ ٱلْغُلَامِ وَبَيْتُهَا]{.ar}  
+"the boy's house and her house"
 
 [بَيْتُهُ وَبَيْتُهَا]{.ar}  
 [baytuhu wabaytuhA]{.trn}  
 "his house and her house"
 
+<!--
 However, it must be said that these expressions are ambiguous because they could be interpreted to mean that there are two houses: one that is "his" and the second that is "her's". One way to remove this ambiguity, when only a single house is intended, is to use the dual pronoun instead:
 
 [بَيْتُهُمَا]{.ar}  
@@ -425,7 +1102,31 @@ However, it must be said that these expressions are ambiguous because they could
 
 piece of bread, man of wealth, rule of law, nahru -lEurdunn
 
-## Exercises
+-->
 
-1. [في البيت باب كبير و باب صغير. دخل الرجل من باب البيت الكبير.]{.ar}  
+## Usage of the annexation
+
+### Primarily belonging
+
+### [نحو، مثل، شبه]{.ar}
+
+Don't become definite when annexed to pronoun
+
+### [نفس]{.ar} "self"
+
+[ضَرَبا أنفسهما]{.ar}
+
+[قالت لِي نَفسي]{.ar}
+
+### annexation of material
+
+[خاتمُ ذَهَبٍ]{.ar}
+
+[خاتمٌ ذَهَبٌ]{.ar}
+
+[خاتمٌ مِن ذَهَبٍ]{.ar}
+
+### [مَدينَةُ دَمشق]{.ar}
+
+### [مجرد ترفيه]{.ar}
 
