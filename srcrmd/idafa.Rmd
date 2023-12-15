@@ -25,26 +25,20 @@ The word "annexation" means the addition of a new _annexed_ item to an existing 
     every word/.style={name=word-\w, execute at begin node=\strut}},
   decorate] (0,0);
 
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, below=0.5ex] {\scriptsize base};
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe noun};
+
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize base noun};
 
 \draw [decoration={brace, mirror}, decorate] 
-   (word-2.south west) -- (word-2.south east)
-      node [midway, below=0.5ex] {\scriptsize annexe};
+   (word-1.south west) -- (word-2.south east)
+      node [midway, below] {\scriptsize annexation};
 
-\path [decoration={text effects along path, 
-  text={``the boy's book"},
-  text effects/.cd, 
-    path from text, text along path,
-    group letters, word count=\w,
-    every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate, below=4.5ex] (0,0);
+\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``the boy's book''};
 
-
-%\draw [decoration={brace, mirror, raise=3ex}, decorate] 
-%   (word-1.south west) -- (word-2.south east)
-%      node [midway, below=3ex] {annexation};
 \end{tikzpicture}
 ```
 
