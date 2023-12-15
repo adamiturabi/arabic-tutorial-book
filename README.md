@@ -7,10 +7,10 @@ An online book to learn Standard Arabic
 Work in progress.
 Latest document:
 
++ PDF: https://github.com/adamiturabi/arabic-tutorial-book/blob/master/book-output/Learn-Standard-Arabic.pdf
 + HTML:
   + Download the directory: https://github.com/adamiturabi/arabic-tutorial-book/tree/master/book-output/
   + Open `index.html`.
-+ PDF: https://github.com/adamiturabi/arabic-tutorial-book/blob/master/book-output/Learn-Standard-Arabic.pdf
   
 # Install software prerequisites
 
