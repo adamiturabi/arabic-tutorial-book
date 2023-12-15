@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-586-g0350cbc"
+date: "v0.1.0-590-g512b32e"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -35,6 +35,8 @@ fontfamilies:
 csquotes: true
 output:
   bookdown::gitbook:
+    includes:
+      before_body: "srchtml/watermark.html"
     pandoc_args: ["--lua-filter=trn.lua"]
     keep_md: yes
     css: mystyle.css
@@ -95,6 +97,7 @@ We have also aimed to make this a self-instruction textbook so that a diligent s
 It may also be appropriate to inform the reader that we chose to present a simplified version of Arabic grammar. As such, the grammar presented here may not be entirely consistent with the comprehensive and harmonious framework developed by the Arab grammarians. We chose this approach because we felt that exposing the beginner to complex grammatical details at this stage would be more of a hindrance than a help in learning the language.
 
 [The Authors]{.smallcaps}  
+https://github.com/adamiturabi/arabic-tutorial-book
 
 <!--
 [a.z.s.]{.smallcaps}  
