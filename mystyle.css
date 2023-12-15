@@ -73,3 +73,13 @@ li {
   font-family: Andika, sans-serif;
 }
 */
+.watermark {
+  opacity: 0.2;
+  position: fixed;
+  pointer-events:none; /* allows scrolling when cursor over watermark */
+  top: 30%;
+  left: 30%;
+  font-size: 500%;
+  color: #00407d;
+}
+

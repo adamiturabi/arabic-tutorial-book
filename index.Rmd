@@ -35,6 +35,8 @@ fontfamilies:
 csquotes: true
 output:
   bookdown::gitbook:
+    includes:
+      before_body: "srchtml/watermark.html"
     pandoc_args: ["--lua-filter=trn.lua"]
     keep_md: yes
     css: mystyle.css

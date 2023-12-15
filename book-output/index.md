@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-586-g0350cbc"
+date: "v0.1.0-587-ge140410"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -35,6 +35,8 @@ fontfamilies:
 csquotes: true
 output:
   bookdown::gitbook:
+    includes:
+      before_body: "srchtml/watermark.html"
     pandoc_args: ["--lua-filter=trn.lua"]
     keep_md: yes
     css: mystyle.css
