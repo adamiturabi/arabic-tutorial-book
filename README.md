@@ -4,15 +4,28 @@ An online book to learn Standard Arabic
 
 # Current status
 
-Work in progress.
-Latest document:
+Work in progress. Not ready for study yet.
+Latest version is published here: 
 
-+ PDF: https://github.com/adamiturabi/arabic-tutorial-book/blob/master/book-output/Learn-Standard-Arabic.pdf
-+ HTML:
-  + Download the directory: https://github.com/adamiturabi/arabic-tutorial-book/tree/master/book-output/
-  + Open `index.html`.
+https://adamiturabi.github.io/arabic-tutorial-book/
 
-# To develop
+The website is password protected because it is not ready for publication. 
+But it is available to read for who wishes.
+The password is `password`.
+
+Use the top menu bar to change font size, change to sepia or dark mode, and to download the PDF.
+
+# Developer documentation
+
+## Useful info
+
+### Password protect static websites
+
+https://github.com/chrissy-dev/protected-github-pages
+
+### Deploy github pages created from bookdown
+
+Add an empty `.nojekyll` file to the `docs` dir.
 
 ## Install software prerequisites
 
@@ -114,4 +127,5 @@ To delete created files in order to do a clean build:
 ```
 make clean
 ```
+
 

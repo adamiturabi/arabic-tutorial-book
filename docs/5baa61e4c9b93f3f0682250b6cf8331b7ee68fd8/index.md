@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-590-g512b32e"
+date: "v0.1.0-593-gbe5751b"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -49,6 +49,8 @@ output:
         after: null
       toolbar:
         position: fixed
+        download: 'docs/Learn-Standard-Arabic.pdf'
+        search: yes
       edit : null
       download: null
       search: yes
