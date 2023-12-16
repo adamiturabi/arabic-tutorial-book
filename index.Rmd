@@ -49,6 +49,8 @@ output:
         after: null
       toolbar:
         position: fixed
+        download: 'docs/Learn-Standard-Arabic.pdf'
+        search: yes
       edit : null
       download: null
       search: yes
