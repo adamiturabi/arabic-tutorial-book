@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-598-gc938364"
+date: "v0.1.0-599-ge91ac41"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -8732,19 +8732,19 @@ We'll show what all this means in the table below of verbs with doer pronouns. C
 
 |Person|Completed-action doer pronoun|Completed-action verb with doer pronoun|Incomplete-action verb doer pronoun|Incomplete-action verb with doer pronoun in the u-state|
 |:---|:--|:----|:--|:----|
-| he                |_invisible_         |[فَعَلَ]{.ar}    [faeala]{.trn}     |_invisible_         |[يَفْعَلُ]{.ar}   [yafealu]{.trn} |
-| she               |_invisible_         |[فَعَلَتْ]{.ar}   [faealat]{.trn}    |_invisible_         |[تَفْعَلُ]{.ar}   [tafealu]{.trn} |
-| you~sing.\ masc.~ |[تَ]{.ar} [-ta]{.trn}   |[فَعَلْتَ]{.ar}   [faealta]{.trn}    |_invisible_         |[تَفْعَلُ]{.ar}   [tafealu]{.trn} |
-| you~sing.\ fem.~  |[تِ]{.ar} [-ti]{.trn}   |[فَعَلْتِ]{.ar}   [faealti]{.trn}    |[ي]{.ar} [-I]{.trn} |[تَفْعَلِينَ]{.ar} [tafealIna]{.trn} |
-| I                 |[تُ]{.ar} [tu]{.trn}   |[فَعَلْتُ]{.ar}   [faealtu]{.trn}    |_invisible_         |[أَفْعَلُ]{.ar}   [Eafealu]{.trn} |
-| they~dual\ masc.~ |[ا]{.ar} [-A]{.trn}   |[فَعَلَا]{.ar}   [faealA]{.trn}     |[ا]{.ar} [-A]{.trn}   |[يَفْعَلَانِ]{.ar} [yafealAni]{.trn} |
-| they~dual\ fem.~  |[ا]{.ar} [-A]{.trn}   |[فَعَلَتَا]{.ar}  [faealatA]{.trn}   |[ا]{.ar} [-A]{.trn}   |[تَفْعَلَانِ]{.ar} [tafealAni]{.trn} |
-| you~dual~         |[تُمَا]{.ar} [-tumA]{.trn} |[فَعَلْتُمَا]{.ar} [faealtumA]{.trn}  |[ا]{.ar} [-A]{.trn}   |[تَفْعَلَانِ]{.ar} [tafealAni]{.trn} |
-| they~pl.\ masc.~  |[و]{.ar} [-U]{.trn}   |[فَعَلُوا]{.ar}  [faealU]{.trn}     |[و]{.ar} [-U]{.trn}   |[يَفْعَلُونَ]{.ar} [yafealUna]{.trn} |
-| they~pl.\ fem.~   |[نَ]{.ar} [-na]{.trn}   |[فَعَلْنَ]{.ar}   [faealna]{.trn}    |[نَ]{.ar} [-na]{.trn}   |[يَفْعَلْنَ]{.ar}  [yafealna]{.trn} |
-| you~pl.\ masc.~   |[تُمْ]{.ar} [-tumA]{.trn}  |[فَعَلْتُمْ]{.ar}  [faealtum]{.trn}   |[و]{.ar} [-U]{.trn}   |[تَفْعَلُونَ]{.ar} [tafealUna]{.trn} |
-| you~pl.\ fem.~    |[تُنَّ]{.ar} [-tunna]{.trn}  |[فَعَلْتُنَّ]{.ar}  [faealtunna]{.trn} |[نَ]{.ar} [na]{.trn}   |[تَفْعَلْنَ]{.ar} [tafealna]{.trn} |
-| we                |[نَا]{.ar} [nA]{.trn}  |[فَعَلْنَا]{.ar}  [faealnA]{.trn}    |_invisible_         |[نَفْعَلُ]{.ar}   [nafealu]{.trn} |
+| he          |_invisible_         |[فَعَلَ]{.ar}    [faeala]{.trn}     |_invisible_         |[يَفْعَلُ]{.ar}   [yafealu]{.trn} |
+| she         |_invisible_         |[فَعَلَتْ]{.ar}   [faealat]{.trn}    |_invisible_         |[تَفْعَلُ]{.ar}   [tafealu]{.trn} |
+| you~1,m~    |[تَ]{.ar} [-ta]{.trn}   |[فَعَلْتَ]{.ar}   [faealta]{.trn}    |_invisible_         |[تَفْعَلُ]{.ar}   [tafealu]{.trn} |
+| you~1,f~    |[تِ]{.ar} [-ti]{.trn}   |[فَعَلْتِ]{.ar}   [faealti]{.trn}    |[ي]{.ar} [-I]{.trn} |[تَفْعَلِينَ]{.ar} [tafealIna]{.trn} |
+| I           |[تُ]{.ar} [tu]{.trn}   |[فَعَلْتُ]{.ar}   [faealtu]{.trn}    |_invisible_         |[أَفْعَلُ]{.ar}   [Eafealu]{.trn} |
+| they~2,m~   |[ا]{.ar} [-A]{.trn}   |[فَعَلَا]{.ar}   [faealA]{.trn}     |[ا]{.ar} [-A]{.trn}   |[يَفْعَلَانِ]{.ar} [yafealAni]{.trn} |
+| they~2,f~   |[ا]{.ar} [-A]{.trn}   |[فَعَلَتَا]{.ar}  [faealatA]{.trn}   |[ا]{.ar} [-A]{.trn}   |[تَفْعَلَانِ]{.ar} [tafealAni]{.trn} |
+| you~2~      |[تُمَا]{.ar} [-tumA]{.trn} |[فَعَلْتُمَا]{.ar} [faealtumA]{.trn}  |[ا]{.ar} [-A]{.trn}   |[تَفْعَلَانِ]{.ar} [tafealAni]{.trn} |
+| they~3+,m~  |[و]{.ar} [-U]{.trn}   |[فَعَلُوا]{.ar}  [faealU]{.trn}     |[و]{.ar} [-U]{.trn}   |[يَفْعَلُونَ]{.ar} [yafealUna]{.trn} |
+| they~3+,f~  |[نَ]{.ar} [-na]{.trn}   |[فَعَلْنَ]{.ar}   [faealna]{.trn}    |[نَ]{.ar} [-na]{.trn}   |[يَفْعَلْنَ]{.ar}  [yafealna]{.trn} |
+| you~3+,m~   |[تُمْ]{.ar} [-tumA]{.trn}  |[فَعَلْتُمْ]{.ar}  [faealtum]{.trn}   |[و]{.ar} [-U]{.trn}   |[تَفْعَلُونَ]{.ar} [tafealUna]{.trn} |
+| you~3+,f~   |[تُنَّ]{.ar} [-tunna]{.trn}  |[فَعَلْتُنَّ]{.ar}  [faealtunna]{.trn} |[نَ]{.ar} [na]{.trn}   |[تَفْعَلْنَ]{.ar} [tafealna]{.trn} |
+| we          |[نَا]{.ar} [nA]{.trn}  |[فَعَلْنَا]{.ar}  [faealnA]{.trn}    |_invisible_         |[نَفْعَلُ]{.ar}   [nafealu]{.trn} |
 
 Note the following:
 
@@ -9598,6 +9598,9 @@ i. The $\emptyset$-state
 
 We have already studied the u-state of incomplete-action verbs in 
 chapter\ \@ref(u-state-incomplete-action-verbs).
+And we will defer the study of 
+a-state of incomplete-action verbs to
+chapter\ \@ref(a-state-incomplete-action-verbs).
 In this chapter we will study the 
 $\emptyset$-state
 incomplete-action verb.
@@ -9607,6 +9610,71 @@ $\emptyset$-state
 incomplete-action verb.
 
 ## Pattern of the $\emptyset$-state incomplete-action verb.
+
+Here is the u-state incomplete action verb for the singular masculine absentee participant doer "he":
+
+[يَفْعَلُ]{.ar}  
+[yafealu]{.trn}  
+"he does"
+
+Note that, because it is in the u-state, the its final letter ends with a [u]{.trn}-mark [◌ُ]{.ar}.
+In order to form the 
+$\emptyset$-state
+incomplete-action verb,
+we change the [u]{.trn}-mark into a
+$\emptyset$-mark [◌ْ]{.ar}, thus:
+
+[يَفْعَلْ]{.ar}  
+[yafeal]{.trn}  
+
+This is done for all participants whose doer pronoun is invisible and u-state verb ends with a [u]{.trn}-mark [◌ُ]{.ar}.
+
+For participants whose doer pronoun is followed by an extra [ن]{.ar} in the u-state verb, this final [ن]{.ar} is dropped in order to form the 
+$\emptyset$-state
+incomplete-action verb.
+So, for example, the u-state
+incomplete-action verb:
+
+[يَفْعَلَانِ]{.ar}  
+[yafealAni]{.trn}  
+"they~2,m~ do"
+
+becomes, for the 
+$\emptyset$-state:
+
+[يَفْعَلَا]{.ar}  
+[yafealA]{.trn}  
+
+Here is the complete table of the 
+$\emptyset$-state
+incomplete-action verb
+for all doer participants.
+
+|Person|Incomplete-action verb doer pronoun|u-state incomplete-action verb | $\emptyset$-state incomplete-action verb
+|:---|:--|:---|:---|
+| he          |_invisible_         |[يَفْعَلُ]{.ar}    |[يَفْعَلْ]{.ar}    |
+| she         |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلْ]{.ar}    |
+| you~1,m~    |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلْ]{.ar}    |
+| you~1,f~    |[ي]{.ar} [-I]{.trn} |[تَفْعَلِينَ]{.ar}  |[تَفْعَلِينَ]{.ar}  |
+| I           |_invisible_         |[أَفْعَلُ]{.ar}    |[أَفْعَلْ]{.ar}    |
+| they~2,m~   |[ا]{.ar} [-A]{.trn} |[يَفْعَلَانِ]{.ar}  |[يَفْعَلَا]{.ar}   |
+| they~2,f~   |[ا]{.ar} [-A]{.trn} |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
+| you~2~      |[ا]{.ar} [-A]{.trn} |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
+| they~3+,m~  |[و]{.ar} [-U]{.trn} |[يَفْعَلُونَ]{.ar}  |[يَفْعَلُوا]{.ar}  |
+| they~3+,f~  |[نَ]{.ar} [-na]{.trn |[يَفْعَلْنَ]{.ar}   |[يَفْعَلْنَ]{.ar}   |
+| you~3+,m~   |[و]{.ar} [-U]{.trn} |[تَفْعَلُونَ]{.ar}  |[تَفْعَلُوا]{.ar}  |
+| you~3+,f~   |[نَ]{.ar} [na]{.trn} |[تَفْعَلْنَ]{.ar}   |[تَفْعَلْنَ]{.ar}   |
+| we          |_invisible_         |[نَفْعَلُ]{.ar}    |[نَفْعَلْ]{.ar}    |
+
+
+## Uses of the $\emptyset$-state incomplete-action verb
+
+### Other uses of the $\emptyset$-state incomplete-action verb
+
+The $\emptyset$-state incomplete-action verb is also used for _consequential actions_ and in _conditional statements_. We will deal with these in
+chapters\ \@ref(the-consequential-action)
+and\ \@ref(conditional-statements)
+respectively
 
 
 <!--chapter:end:srcrmd/imperfect_verb_juss.Rmd-->
