@@ -1,4 +1,7 @@
 # الموصول
+## General reading
+
+See النحو الوافب volum 1 page 340ish onward is pretty good. Its talks about الصفة الصريحة as a type of صلة. See if/how to work that in. 
 
 ## Confusion between الحال and النعت and صلة الموصول
 
