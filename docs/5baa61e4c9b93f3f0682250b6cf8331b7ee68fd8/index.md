@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-599-ge91ac41"
+date: "v0.1.0-601-g01ebcc6"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9609,7 +9609,7 @@ We will also study the _verb of command_ which is very similar to the
 $\emptyset$-state
 incomplete-action verb.
 
-## Pattern of the $\emptyset$-state incomplete-action verb.
+## Forming the $\emptyset$-state incomplete-action verb
 
 Here is the u-state incomplete action verb for the singular masculine absentee participant doer "he":
 
@@ -9650,24 +9650,76 @@ $\emptyset$-state
 incomplete-action verb
 for all doer participants.
 
-|Person|Incomplete-action verb doer pronoun|u-state incomplete-action verb | $\emptyset$-state incomplete-action verb
+|Participant|Incomplete-action verb doer pronoun|u-state incomplete-action verb | $\emptyset$-state incomplete-action verb
 |:---|:--|:---|:---|
 | he          |_invisible_         |[يَفْعَلُ]{.ar}    |[يَفْعَلْ]{.ar}    |
 | she         |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلْ]{.ar}    |
 | you~1,m~    |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلْ]{.ar}    |
-| you~1,f~    |[ي]{.ar} [-I]{.trn} |[تَفْعَلِينَ]{.ar}  |[تَفْعَلِينَ]{.ar}  |
+| you~1,f~    |[ي]{.ar}            |[تَفْعَلِينَ]{.ar}  |[تَفْعَلِي]{.ar}   |
 | I           |_invisible_         |[أَفْعَلُ]{.ar}    |[أَفْعَلْ]{.ar}    |
-| they~2,m~   |[ا]{.ar} [-A]{.trn} |[يَفْعَلَانِ]{.ar}  |[يَفْعَلَا]{.ar}   |
-| they~2,f~   |[ا]{.ar} [-A]{.trn} |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
-| you~2~      |[ا]{.ar} [-A]{.trn} |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
-| they~3+,m~  |[و]{.ar} [-U]{.trn} |[يَفْعَلُونَ]{.ar}  |[يَفْعَلُوا]{.ar}  |
-| they~3+,f~  |[نَ]{.ar} [-na]{.trn |[يَفْعَلْنَ]{.ar}   |[يَفْعَلْنَ]{.ar}   |
-| you~3+,m~   |[و]{.ar} [-U]{.trn} |[تَفْعَلُونَ]{.ar}  |[تَفْعَلُوا]{.ar}  |
-| you~3+,f~   |[نَ]{.ar} [na]{.trn} |[تَفْعَلْنَ]{.ar}   |[تَفْعَلْنَ]{.ar}   |
+| they~2,m~   |[ا]{.ar}            |[يَفْعَلَانِ]{.ar}  |[يَفْعَلَا]{.ar}   |
+| they~2,f~   |[ا]{.ar}            |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
+| you~2~      |[ا]{.ar}            |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
+| they~3+,m~  |[و]{.ar}            |[يَفْعَلُونَ]{.ar}  |[يَفْعَلُوا]{.ar}  |
+| they~3+,f~  |[نَ]{.ar}            |[يَفْعَلْنَ]{.ar}   |[يَفْعَلْنَ]{.ar} (same)   |
+| you~3+,m~   |[و]{.ar}            |[تَفْعَلُونَ]{.ar}  |[تَفْعَلُوا]{.ar}  |
+| you~3+,f~   |[نَ]{.ar}            |[تَفْعَلْنَ]{.ar}   |[تَفْعَلْنَ]{.ar} (same)  |
 | we          |_invisible_         |[نَفْعَلُ]{.ar}    |[نَفْعَلْ]{.ar}    |
 
+Take note the following:
+
++ The u-state and $\emptyset$-state verbs are the same for the feminine plural absentee and addressee participants: 
+  + [يَفْعَلْنَ]{.ar} (they~3+,f~)
+  + [تَفْعَلْنَ]{.ar} (you~3+,f~)
++ The u-state and $\emptyset$-state verbs for the masculine plural absentee and addressee participants have a final silent [Ealif]{.trn}: 
+  + [يَفْعَلُوا]{.ar} (they~3+,m~) 
+  + [تَفْعَلُوا]{.ar} (you~3+,m~)
++ When the 
+$\emptyset$-state
+incomplete-action verb
+ends with a 
+$\emptyset$-mark [◌ْ]{.ar}, and the next word begins with a connecting [hamzah]{.trn} [ٱ]{.ar} then the
+$\emptyset$-mark [◌ْ]{.ar} is converted to an [i]{.trn} mark [◌ِ]{.ar}. For example:
+  + [يَفْعَلْ + ٱلرَّجُلُ = يَفْعَلِ ٱلرَّجُلُ]{.ar}
 
 ## Uses of the $\emptyset$-state incomplete-action verb
+
+The u-state is the default state for incomplete-action verbs. The 
+$\emptyset$-state
+is used only in specific cases. We will explain these below.
+
+### With [لِ]{.ar} for indirect commands
+
+The particle [لِ]{.ar} when connected to the front of a 
+$\emptyset$-state
+incomplete-action verb
+gives the meaning of an indirect command. In English this can be translated using "should" or "let":
+
+[لِيَذْهَبِ ٱَلرَّجُلُ]{.ar}  
+"The man should go!"  
+or  
+"Let the man go!"  
+("Let" is being used here as a command for the man, not for the addressee of this speech.)
+
+The particles [فَ]{.ar} "so" and [وَ]{.ar} "and" are frequently used before this [لِ]{.ar}. 
+The [لِ]{.ar} then loses its [i]{.trn}-mark and gets a
+$\emptyset$-mark. Examples:
+
+[فَلْنَأْكُلْ طَعَامَنَا وَلْنَشْرَبْ شَرَابَنَا.]{.ar}  
+"So let us eat our food and drink our drink!"
+
+[لِتَجْلِسُوا عَلَى ٱلْأَرْضِ.]{.ar}  
+"You should sit on the ground!"
+
+
+
+### With [لَا]{.ar} for prohibitions
+
+
+
+### With [لَمْ]{.ar} for "did not"
+
+
 
 ### Other uses of the $\emptyset$-state incomplete-action verb
 
