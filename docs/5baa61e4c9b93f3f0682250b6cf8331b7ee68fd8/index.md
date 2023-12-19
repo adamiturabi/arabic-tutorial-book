@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-594-g6bf4d60"
+date: "v0.1.0-598-gc938364"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -2127,7 +2127,7 @@ There is some degree of overlap in meaning and you will get a feeling of which p
 
 <!--chapter:end:srcrmd/prepositions.Rmd-->
 
-# Form 1 completed-action verbs
+# Completed-action verbs
 
 ## Introduction
 
@@ -8625,7 +8625,7 @@ Besides their use in pointing noun phrases and as subjects, pointing nouns may b
 
 <!--chapter:end:srcrmd/ism_ishara.Rmd-->
 
-# Form 1 incomplete-action verbs-- u-state
+# u-state incomplete-action verbs
 
 ## Introduction
 
@@ -8679,7 +8679,13 @@ The ending of the completed-action verb [سَأَلَ]{.ar} is not determined ba
 
 As opposed to completed-action verbs, which don't have any state, incomplete-action verbs do have a state which is determinined by the function of the verb in a sentence. Similar to nouns, the state of an incomplete-action verb is indicated by the vowel mark or suffix at the end of the verb.
 
-Incomplete action verbs have three states, just like nouns. Two of the states are in common with nouns: the u-state and the a-state. The third state is different from nouns and it is called the $\emptyset$-state (null-state).
+Incomplete action verbs have three states, just like nouns. These states are called:
+
+i. The u-state
+i. The a-state
+i. The $\emptyset$-state
+
+Two of the states have their names in common with nouns: the u-state and the a-state. The the $\emptyset$-state (null-state) is named differently.
 
 The [u]{.trn}-mark on the final letter of [يَفُعَلُ]{.ar} [yafealu]{.trn} indicates that it is in the u-state. We will study only the u-state of incomplete-action verbs in this chapter. And we will study the a-state and $\emptyset$-state in later chapters if [#allAh]{.trn2} wills.
 
@@ -9576,6 +9582,34 @@ There are exceptions, however. The verb [جَرَىٰ يَجْرِي جَرْي�
 
 
 <!--chapter:end:srcrmd/doer_verbal_noun.Rmd-->
+
+# $\emptyset$-state incomplete-action verbs
+
+## Introduction
+
+In 
+chapter\ \@ref(u-state-incomplete-action-verbs)
+we mentioned that incomplete action verbs have three states (like nouns). 
+These states are called:
+
+i. The u-state
+i. The a-state
+i. The $\emptyset$-state
+
+We have already studied the u-state of incomplete-action verbs in 
+chapter\ \@ref(u-state-incomplete-action-verbs).
+In this chapter we will study the 
+$\emptyset$-state
+incomplete-action verb.
+
+We will also study the _verb of command_ which is very similar to the 
+$\emptyset$-state
+incomplete-action verb.
+
+## Pattern of the $\emptyset$-state incomplete-action verb.
+
+
+<!--chapter:end:srcrmd/imperfect_verb_juss.Rmd-->
 
 # (APPENDIX) Appendix {-}
 
