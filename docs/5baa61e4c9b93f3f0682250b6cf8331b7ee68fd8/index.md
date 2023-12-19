@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-602-g3901a26"
+date: "v0.1.0-605-g5c09a4b"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -8799,7 +8799,7 @@ As with completed-action verbs, incomplete-action verbs too can be negated by pl
 "The man does not go." or,  
 "The man is not going."
 
-### Negation using [لَا]{.ar} [lA]{.trn}
+### Negation using [لَا]{.ar} [lA]{.trn} {#u-state-verb-negation-la}
 
 In addition to [مَا]{.ar} [mA]{.trn}, incomplete-action verbs can be negated using [لَا]{.ar} [lA]{.trn} in the same manner. In addition to negating the meaning of the verb for the present tense, it can also negate the meaning for the future tense.
 
@@ -9691,9 +9691,10 @@ is used only in specific cases. We will explain these below.
 ### With [لِ]{.ar} for indirect commands
 
 The particle [لِ]{.ar} when connected to the front of a 
-$\emptyset$-state
 incomplete-action verb
-gives the meaning of an indirect command. In English this can be translated using "should" or "let":
+causes it to be in the
+$\emptyset$-state
+and gives it the meaning of an indirect command. In English this can be translated using "should" or "let":
 
 [لِيَذْهَبِ ٱَلرَّجُلُ]{.ar}  
 "The man should go!"  
@@ -9711,15 +9712,79 @@ $\emptyset$-mark. Examples:
 [لِتَجْلِسُوا عَلَى ٱلْأَرْضِ.]{.ar}  
 "You should sit on the ground!"
 
-
-
 ### With [لَا]{.ar} for prohibitions
 
+The word [لَا]{.ar} when in front of a 
+$\emptyset$-state
+incomplete-action verb
+gives the meaning of a prohibition. 
+In English this can be translated using "Don't".
 
+For example,
+
+[لَا تَكْتُبُوا]{.ar}  
+"Don't write~3,m~!"
+
+[لَا تَدْخُلِ ٱلْبَيْتَ!]{.ar}  
+"Don't~1,m~ enter the house!"
+
+The particles [فَ]{.ar} "so" and [وَ]{.ar} "and" may be used before this [لَا]{.ar}. 
+Example:
+
+[فَلَا تَأْكُلْ وَلَا تَشْرَبْ!]{.ar}  
+"So don't eat~1,m~ and don't drink~1,m~!"
+
+Such prohibitions are generally for the addressee participant. 
+However, rarely, they may be issued for the absentee participant as well. Example:
+
+[لَايَمْنَعْ زَيْدًا ٱلدُّخُولَ.]{.ar}  
+"Let him not prevent Zayd from entering!"
+
+<!-- Example from Quran:
+[لَا تُسْرِفْ فِي ٱلْقَتْلِ]{.ar}
+
+http://www.alfaseeh.com/vb/showthread.php?t=72471&p=558734&viewfull=1#post558734
+-->
+
+By the way, [لَا]{.ar} does not force a verb to be in the u-state
+$\emptyset$-state. We have already seen in 
+section\ \@ref(u-state-verb-negation-la)
+that [لَا]{.ar} can be used to negate a u-state incomplete-action verb for the present and future tense.
+Example:
+
+[لَا يَذْهَبُ ٱلرَّجُلُ]{.ar}  
+[lA yaphabu -rrajulu.]{.trn}  
+"The man does not go." or,  
+"The man is not going." or,  
+"The man will not go."
 
 ### With [لَمْ]{.ar} for "did not"
 
+The particle [لَمْ]{.ar} when in front of an
+incomplete-action verb
+causes it to be in the
+$\emptyset$-state
+and gives it the meaning of
+negating the past tense
+In English this can be translated using "did not".
+For example,
 
+[لَمْ يَذْهَبِ ٱلرَّجُلُ.]{.ar}  
+"The man did not go."
+
+We have already learned in 
+section\ \@ref(negating-completed-action-verbs) that the completed-action verb is negated using the particle [مَا]{.ar}. For example:
+
+[مَا ذَهَبَ ٱلرَّجُلُ.]{.ar}  
+[mA pahaba -rrajulu.]{.trn}  
+"The man did not go."  
+or,  
+"The man has not gone."
+
+Both [لَمْ]{.ar} and [مَا]{.ar} are used commonly to negate the past tense.
+[مَا]{.ar} has a more emphatic meaning than [لَمْ]{.ar}.
+
+Here are some more examples:
 
 ### Other uses of the $\emptyset$-state incomplete-action verb
 
