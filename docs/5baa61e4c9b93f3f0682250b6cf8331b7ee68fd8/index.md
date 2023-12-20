@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-605-g5c09a4b"
+date: "v0.1.0-610-g4b9a9c8"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9650,7 +9650,7 @@ $\emptyset$-state
 incomplete-action verb
 for all doer participants.
 
-|Participant|Incomplete-action verb doer pronoun|u-state incomplete-action verb | $\emptyset$-state incomplete-action verb
+|Participant|Incomplete-action verb doer pronoun|u-state incomplete-action verb | $\emptyset$-state incomplete-action verb|
 |:---|:--|:---|:---|
 | he          |_invisible_         |[يَفْعَلُ]{.ar}    |[يَفْعَلْ]{.ar}    |
 | she         |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلْ]{.ar}    |
@@ -9712,7 +9712,7 @@ $\emptyset$-mark. Examples:
 [لِتَجْلِسُوا عَلَى ٱلْأَرْضِ.]{.ar}  
 "You should sit on the ground!"
 
-### With [لَا]{.ar} for prohibitions
+### With [لَا]{.ar} for prohibitions {#la-of-prohibition}
 
 The word [لَا]{.ar} when in front of a 
 $\emptyset$-state
@@ -9725,7 +9725,7 @@ For example,
 [لَا تَكْتُبُوا]{.ar}  
 "Don't write~3,m~!"
 
-[لَا تَدْخُلِ ٱلْبَيْتَ!]{.ar}  
+[يَا زَيْدُ، لَا تَدْخُلِ ٱلْبَيْتَ!]{.ar}  
 "Don't~1,m~ enter the house!"
 
 The particles [فَ]{.ar} "so" and [وَ]{.ar} "and" may be used before this [لَا]{.ar}. 
@@ -9786,12 +9786,178 @@ Both [لَمْ]{.ar} and [مَا]{.ar} are used commonly to negate the past tens
 
 Here are some more examples:
 
+### With [لَمَّا]{.ar} for "did not yet"
+
+The word [لَمَّا]{.ar} when in front of a 
+$\emptyset$-state
+incomplete-action verb
+gives the meaning "did not yet". 
+For example,
+
+[لَمَّا يَذْهَبْ زَيْدٌ.]{.ar}  
+"Zayd did not go yet."
+
 ### Other uses of the $\emptyset$-state incomplete-action verb
 
 The $\emptyset$-state incomplete-action verb is also used for _consequential actions_ and in _conditional statements_. We will deal with these in
 chapters\ \@ref(the-consequential-action)
 and\ \@ref(conditional-statements)
 respectively
+
+## The verb of command
+
+In order to give a direct command to an addressee, Arabic uses the verb of command. The verb of command is very similar to the 
+$\emptyset$-state
+incomplete-action verb.
+The verb of command is only available for the addressee participant. 
+
+### Forming the verb of command
+
+Here is the verb of command for the addressee participants:
+
+|Participant| Verb of command|
+|:---|:---|
+| you~1,m~    |[ٱفْعَلْ]{.ar}    |
+| you~1,f~    |[ٱفْعَلِي]{.ar}   |
+| you~2~      |[ٱفْعَلَا]{.ar}   |
+| you~3+,m~   |[ٱفْعَلُوا]{.ar}  |
+| you~3+,f~   |[ٱفْعَلْنَ]{.ar}   |
+
+In order to form the verb of command, we remove the initial [ت]{.ar} from the addressee particpant verb. The verb then begins with an $\emptyset$-mark so we place a connecting [hamzah]{.trn} in front of it.
+
+When the verb of command occurs in the beginning of a sentence, then the vowel mark for the connecting [hamzah]{.trn} is selected according to the following criteria:
+
+i. When the middle root letter of the verb of command has an [u]{.trn}-mark\ [◌ُ]{.ar}, then the connecting [hamzah]{.trn} gets an [u]{.trn}-mark\ too. Examples:
+
+   | Verb | Verb of command for "he" |
+   |:------|:-----|
+   |[نَظَرَ يَنْظُرُ نَظَرًا]{.ar}  | [ٱُنْظُرْ]{.ar} "Look!"|
+   |[قَتَلَ يَقْتُلُ قَتْلًا]{.ar}  | [ٱُقْتُلْ]{.ar} "Kill!"|
+   |[مَكَثَ يَمْكُثُ مُكُوثًا]{.ar} | [ٱُمْكُثْ]{.ar} "Stay!"|
+
+i. Otherwise, when the middle root letter of the verb of command has an [a]{.trn}-mark\ [◌َ]{.ar} or an [i]{.trn}-mark\ [◌ِ]{.ar}, then the connecting [hamzah]{.trn} gets an [i]{.trn}-mark\ [◌ِ]{.ar}. Examples:
+
+   | Verb | Verb of command for "he" |
+   |:------|:-----|
+   |[عَمِلَ يَعْمَلُ عَمَلًا]{.ar}  | [ٱِعْمَلْ]{.ar} "Work!"|
+   |[ذَهَبَ يَذْهَبُ ذَهَابًا]{.ar} | [ٱِذْهَبْ]{.ar} "Go!"  |
+   |[جَلَسَ يَجْلِسُ جُلُوسًا]{.ar} | [ٱِجْلِسْ]{.ar} "Sit!" |
+
+<!--
+### Usage of the verb of command
+-->
+
+Here are some examples of using the verb of command:
+
+
+The verb of command is not used to issue negative commands, like "Don't go!". 
+Instead, the 
+$\emptyset$-state verb is used with [لَا]{.ar}
+as described in
+section\ \@ref(la-of-prohibition)
+above.
+
+[لَا تَذْهَبْ]{.ar}  
+"Don't go!"
+
+### The verb of command for roots begin with [hamzah]{.trn}
+
+Appendix\ \@ref(hamzarules) details the rules for speeling words that contain [hamzah]{.trn} generally.
+In addition to those rules, the verb of command for roots that begin with [hamzah]{.trn} warrant additional discussion.
+
+Consider the following form\ 1 verbs and their verbs of command
+for the singular masculine addressee doer "he":
+
+|Root|Verb| Verb of command|
+|:-|:----|:---|
+| [أمل]{.arroot} | [أَمَلَ يَأْمُلُ أَمَلًا]{.ar} "to hope"   | [ٱؤْمُلْ]{.ar} | 
+| [أذن]{.arroot} | [أَذِنَ يَأذَنُ أَذَنًا]{.ar} "to permit" | [ٱئْذَنْ]{.ar} | 
+
+Here are examples of these verbs of commands in the middle of a sentence:
+
+[يَا أُمِّي ٱئْذَنِي لِي ٱللَّعِبَ!]{.ar}  
+[yA Eummi -EpanI li -llaeib!]{.trn}  
+"O my mother, permit me to play!"
+
+[يَا زَيْدُ ٱؤْمُلِ ٱلْخَيْرَ!]{.ar}  
+[yA zaydu -Emuli -lxayr!]{.trn}  
+"O Zayd, hope for good!"
+
+When these verbs of command occur in the beginning of the sentence, then there would be two [hamzah]{.trn}s occuring next to each other which is not permitted. So the second [hamzah]{.trn} is pronounced as a long vowel, though it may still be written as a [hamzah]{.trn}. Examples:
+
+[ٱُؤمُلِ ٱلْخَيْرَ يَا زَيْدُ!]{.ar}  
+[EUmul]{.trn}  
+not  
+$\times$\ [EuEmul]{.trn}
+
+[ٱِئذَنِي لِي ٱللَّعِبَ يَا أُمِّي!]{.ar}  
+[EIpanI]{.trn}  
+not  
+$\times$\ [EiEpanI]{.trn}  
+
+As a further complication, when the verb of command is preceded by
+[وَ]{.ar} "and"
+or
+[فَ]{.ar} "so"
+then the connecting [hamza]{.trn} is not written
+and the [hamzah]{.trn} of the first root letter is written seated on an [Ealif]{.trn}.
+Examples:
+
+[وَأْمُلْ]{.ar}  
+[waEmul]{.trn}  
+"And hope!"
+
+[فَأْذَنْ]{.ar}  
+[faEpan]{.trn}  
+"So permit!"
+
+### Irregular verbs of command
+
+In addition to the rules states above there are four verbs of command (all containing [hamzah]{.trn}) that are irregular. We will discuss them below:
+
+#### The verbs [أَكَلَ]{.ar}\ , [أَخَذَ]{.ar}\ , and [أَمَرَ]{.ar}
+
+The verbs of command for the  following three verbs are irregular:
+
+|Root|Verb| Verb of command|
+|:-|:----|:---|
+| [أكل]{.arroot} | [أَكَلَ يَأْكُلُ أَكْلًا]{.ar} "to eat"   | [كُلْ]{.ar} | 
+| [أخذ]{.arroot} | [أَخَذَ يَأْخُذُ أَخْذًا]{.ar} "to take"  | [خُذْ]{.ar} | 
+| [أمر]{.arroot} | [أَمَرَ يَأْمُرُ أَمْرًا]{.ar} "to order" | [مُرْ]{.ar} | 
+
+As you can see, the initial [hamzah]{.trn} has been completely deleted for the verbs of command.
+However, of these verbs, the verb of command for 
+[أَمَرَ يَأْمُرُ أَمْرًا]{.ar}
+is permitted to retain its initial [hamzah]{.trn} when preceded by
+[وَ]{.ar} "and"
+or
+[فَ]{.ar} "so". Then, it becomes
+
+[وَأْمُرْ]{.ar} [waEmur]{.trn}  
+and  
+[فَأْمُرْ]{.ar} [faEmur]{.trn}
+
+This retaining of the initial [hamzah]{.trn} is not done for the other two verbs.
+
+Here are some examples of these verbs of command:
+
+#### The verb [سَأَلَ]{.ar}
+
+The verb [سَأَلَ يَسْأَلُ سُؤَالًا]{.ar} "to question" forms its verb of command both regularly, and irregularly:
+
+i. Regular: [ٱسْأَلْ]{.ar} [EisEal]{.trn}
+i. Irregular: [سَلْ]{.ar} [sal]{.trn}
+
+If the verb of command is preceded by
+[وَ]{.ar} "and"
+or
+[فَ]{.ar} "so", then the regular verb of command 
+[ٱسْأَلْ]{.ar} [EisEal]{.trn} is often preferred.
+
+Otherwise, the irregular verb of command
+[سَلْ]{.ar} [sal]{.trn} is often preferred.
+
+Examples of usage:
 
 
 <!--chapter:end:srcrmd/imperfect_verb_juss.Rmd-->
