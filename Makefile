@@ -2,4 +2,6 @@ all:
 	Rscript compilebook.R
 clean:
 	Rscript clean.R
-	rm *.log
+	rm -f *.log
+	rm -rf _bookdown_files
+	rm -f _bookdown.yml

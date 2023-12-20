@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-594-g6bf4d60"
+date: "v0.1.0-610-g4b9a9c8"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -2127,7 +2127,7 @@ There is some degree of overlap in meaning and you will get a feeling of which p
 
 <!--chapter:end:srcrmd/prepositions.Rmd-->
 
-# Form 1 completed-action verbs
+# Completed-action verbs
 
 ## Introduction
 
@@ -8625,7 +8625,7 @@ Besides their use in pointing noun phrases and as subjects, pointing nouns may b
 
 <!--chapter:end:srcrmd/ism_ishara.Rmd-->
 
-# Form 1 incomplete-action verbs-- u-state
+# u-state incomplete-action verbs
 
 ## Introduction
 
@@ -8679,7 +8679,13 @@ The ending of the completed-action verb [سَأَلَ]{.ar} is not determined ba
 
 As opposed to completed-action verbs, which don't have any state, incomplete-action verbs do have a state which is determinined by the function of the verb in a sentence. Similar to nouns, the state of an incomplete-action verb is indicated by the vowel mark or suffix at the end of the verb.
 
-Incomplete action verbs have three states, just like nouns. Two of the states are in common with nouns: the u-state and the a-state. The third state is different from nouns and it is called the $\emptyset$-state (null-state).
+Incomplete action verbs have three states, just like nouns. These states are called:
+
+i. The u-state
+i. The a-state
+i. The $\emptyset$-state
+
+Two of the states have their names in common with nouns: the u-state and the a-state. The the $\emptyset$-state (null-state) is named differently.
 
 The [u]{.trn}-mark on the final letter of [يَفُعَلُ]{.ar} [yafealu]{.trn} indicates that it is in the u-state. We will study only the u-state of incomplete-action verbs in this chapter. And we will study the a-state and $\emptyset$-state in later chapters if [#allAh]{.trn2} wills.
 
@@ -8726,19 +8732,19 @@ We'll show what all this means in the table below of verbs with doer pronouns. C
 
 |Person|Completed-action doer pronoun|Completed-action verb with doer pronoun|Incomplete-action verb doer pronoun|Incomplete-action verb with doer pronoun in the u-state|
 |:---|:--|:----|:--|:----|
-| he                |_invisible_         |[فَعَلَ]{.ar}    [faeala]{.trn}     |_invisible_         |[يَفْعَلُ]{.ar}   [yafealu]{.trn} |
-| she               |_invisible_         |[فَعَلَتْ]{.ar}   [faealat]{.trn}    |_invisible_         |[تَفْعَلُ]{.ar}   [tafealu]{.trn} |
-| you~sing.\ masc.~ |[تَ]{.ar} [-ta]{.trn}   |[فَعَلْتَ]{.ar}   [faealta]{.trn}    |_invisible_         |[تَفْعَلُ]{.ar}   [tafealu]{.trn} |
-| you~sing.\ fem.~  |[تِ]{.ar} [-ti]{.trn}   |[فَعَلْتِ]{.ar}   [faealti]{.trn}    |[ي]{.ar} [-I]{.trn} |[تَفْعَلِينَ]{.ar} [tafealIna]{.trn} |
-| I                 |[تُ]{.ar} [tu]{.trn}   |[فَعَلْتُ]{.ar}   [faealtu]{.trn}    |_invisible_         |[أَفْعَلُ]{.ar}   [Eafealu]{.trn} |
-| they~dual\ masc.~ |[ا]{.ar} [-A]{.trn}   |[فَعَلَا]{.ar}   [faealA]{.trn}     |[ا]{.ar} [-A]{.trn}   |[يَفْعَلَانِ]{.ar} [yafealAni]{.trn} |
-| they~dual\ fem.~  |[ا]{.ar} [-A]{.trn}   |[فَعَلَتَا]{.ar}  [faealatA]{.trn}   |[ا]{.ar} [-A]{.trn}   |[تَفْعَلَانِ]{.ar} [tafealAni]{.trn} |
-| you~dual~         |[تُمَا]{.ar} [-tumA]{.trn} |[فَعَلْتُمَا]{.ar} [faealtumA]{.trn}  |[ا]{.ar} [-A]{.trn}   |[تَفْعَلَانِ]{.ar} [tafealAni]{.trn} |
-| they~pl.\ masc.~  |[و]{.ar} [-U]{.trn}   |[فَعَلُوا]{.ar}  [faealU]{.trn}     |[و]{.ar} [-U]{.trn}   |[يَفْعَلُونَ]{.ar} [yafealUna]{.trn} |
-| they~pl.\ fem.~   |[نَ]{.ar} [-na]{.trn}   |[فَعَلْنَ]{.ar}   [faealna]{.trn}    |[نَ]{.ar} [-na]{.trn}   |[يَفْعَلْنَ]{.ar}  [yafealna]{.trn} |
-| you~pl.\ masc.~   |[تُمْ]{.ar} [-tumA]{.trn}  |[فَعَلْتُمْ]{.ar}  [faealtum]{.trn}   |[و]{.ar} [-U]{.trn}   |[تَفْعَلُونَ]{.ar} [tafealUna]{.trn} |
-| you~pl.\ fem.~    |[تُنَّ]{.ar} [-tunna]{.trn}  |[فَعَلْتُنَّ]{.ar}  [faealtunna]{.trn} |[نَ]{.ar} [na]{.trn}   |[تَفْعَلْنَ]{.ar} [tafealna]{.trn} |
-| we                |[نَا]{.ar} [nA]{.trn}  |[فَعَلْنَا]{.ar}  [faealnA]{.trn}    |_invisible_         |[نَفْعَلُ]{.ar}   [nafealu]{.trn} |
+| he          |_invisible_         |[فَعَلَ]{.ar}    [faeala]{.trn}     |_invisible_         |[يَفْعَلُ]{.ar}   [yafealu]{.trn} |
+| she         |_invisible_         |[فَعَلَتْ]{.ar}   [faealat]{.trn}    |_invisible_         |[تَفْعَلُ]{.ar}   [tafealu]{.trn} |
+| you~1,m~    |[تَ]{.ar} [-ta]{.trn}   |[فَعَلْتَ]{.ar}   [faealta]{.trn}    |_invisible_         |[تَفْعَلُ]{.ar}   [tafealu]{.trn} |
+| you~1,f~    |[تِ]{.ar} [-ti]{.trn}   |[فَعَلْتِ]{.ar}   [faealti]{.trn}    |[ي]{.ar} [-I]{.trn} |[تَفْعَلِينَ]{.ar} [tafealIna]{.trn} |
+| I           |[تُ]{.ar} [tu]{.trn}   |[فَعَلْتُ]{.ar}   [faealtu]{.trn}    |_invisible_         |[أَفْعَلُ]{.ar}   [Eafealu]{.trn} |
+| they~2,m~   |[ا]{.ar} [-A]{.trn}   |[فَعَلَا]{.ar}   [faealA]{.trn}     |[ا]{.ar} [-A]{.trn}   |[يَفْعَلَانِ]{.ar} [yafealAni]{.trn} |
+| they~2,f~   |[ا]{.ar} [-A]{.trn}   |[فَعَلَتَا]{.ar}  [faealatA]{.trn}   |[ا]{.ar} [-A]{.trn}   |[تَفْعَلَانِ]{.ar} [tafealAni]{.trn} |
+| you~2~      |[تُمَا]{.ar} [-tumA]{.trn} |[فَعَلْتُمَا]{.ar} [faealtumA]{.trn}  |[ا]{.ar} [-A]{.trn}   |[تَفْعَلَانِ]{.ar} [tafealAni]{.trn} |
+| they~3+,m~  |[و]{.ar} [-U]{.trn}   |[فَعَلُوا]{.ar}  [faealU]{.trn}     |[و]{.ar} [-U]{.trn}   |[يَفْعَلُونَ]{.ar} [yafealUna]{.trn} |
+| they~3+,f~  |[نَ]{.ar} [-na]{.trn}   |[فَعَلْنَ]{.ar}   [faealna]{.trn}    |[نَ]{.ar} [-na]{.trn}   |[يَفْعَلْنَ]{.ar}  [yafealna]{.trn} |
+| you~3+,m~   |[تُمْ]{.ar} [-tumA]{.trn}  |[فَعَلْتُمْ]{.ar}  [faealtum]{.trn}   |[و]{.ar} [-U]{.trn}   |[تَفْعَلُونَ]{.ar} [tafealUna]{.trn} |
+| you~3+,f~   |[تُنَّ]{.ar} [-tunna]{.trn}  |[فَعَلْتُنَّ]{.ar}  [faealtunna]{.trn} |[نَ]{.ar} [na]{.trn}   |[تَفْعَلْنَ]{.ar} [tafealna]{.trn} |
+| we          |[نَا]{.ar} [nA]{.trn}  |[فَعَلْنَا]{.ar}  [faealnA]{.trn}    |_invisible_         |[نَفْعَلُ]{.ar}   [nafealu]{.trn} |
 
 Note the following:
 
@@ -8793,7 +8799,7 @@ As with completed-action verbs, incomplete-action verbs too can be negated by pl
 "The man does not go." or,  
 "The man is not going."
 
-### Negation using [لَا]{.ar} [lA]{.trn}
+### Negation using [لَا]{.ar} [lA]{.trn} {#u-state-verb-negation-la}
 
 In addition to [مَا]{.ar} [mA]{.trn}, incomplete-action verbs can be negated using [لَا]{.ar} [lA]{.trn} in the same manner. In addition to negating the meaning of the verb for the present tense, it can also negate the meaning for the future tense.
 
@@ -9576,6 +9582,385 @@ There are exceptions, however. The verb [جَرَىٰ يَجْرِي جَرْي�
 
 
 <!--chapter:end:srcrmd/doer_verbal_noun.Rmd-->
+
+# $\emptyset$-state incomplete-action verbs
+
+## Introduction
+
+In 
+chapter\ \@ref(u-state-incomplete-action-verbs)
+we mentioned that incomplete action verbs have three states (like nouns). 
+These states are called:
+
+i. The u-state
+i. The a-state
+i. The $\emptyset$-state
+
+We have already studied the u-state of incomplete-action verbs in 
+chapter\ \@ref(u-state-incomplete-action-verbs).
+And we will defer the study of 
+a-state of incomplete-action verbs to
+chapter\ \@ref(a-state-incomplete-action-verbs).
+In this chapter we will study the 
+$\emptyset$-state
+incomplete-action verb.
+
+We will also study the _verb of command_ which is very similar to the 
+$\emptyset$-state
+incomplete-action verb.
+
+## Forming the $\emptyset$-state incomplete-action verb
+
+Here is the u-state incomplete action verb for the singular masculine absentee participant doer "he":
+
+[يَفْعَلُ]{.ar}  
+[yafealu]{.trn}  
+"he does"
+
+Note that, because it is in the u-state, the its final letter ends with a [u]{.trn}-mark [◌ُ]{.ar}.
+In order to form the 
+$\emptyset$-state
+incomplete-action verb,
+we change the [u]{.trn}-mark into a
+$\emptyset$-mark [◌ْ]{.ar}, thus:
+
+[يَفْعَلْ]{.ar}  
+[yafeal]{.trn}  
+
+This is done for all participants whose doer pronoun is invisible and u-state verb ends with a [u]{.trn}-mark [◌ُ]{.ar}.
+
+For participants whose doer pronoun is followed by an extra [ن]{.ar} in the u-state verb, this final [ن]{.ar} is dropped in order to form the 
+$\emptyset$-state
+incomplete-action verb.
+So, for example, the u-state
+incomplete-action verb:
+
+[يَفْعَلَانِ]{.ar}  
+[yafealAni]{.trn}  
+"they~2,m~ do"
+
+becomes, for the 
+$\emptyset$-state:
+
+[يَفْعَلَا]{.ar}  
+[yafealA]{.trn}  
+
+Here is the complete table of the 
+$\emptyset$-state
+incomplete-action verb
+for all doer participants.
+
+|Participant|Incomplete-action verb doer pronoun|u-state incomplete-action verb | $\emptyset$-state incomplete-action verb|
+|:---|:--|:---|:---|
+| he          |_invisible_         |[يَفْعَلُ]{.ar}    |[يَفْعَلْ]{.ar}    |
+| she         |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلْ]{.ar}    |
+| you~1,m~    |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلْ]{.ar}    |
+| you~1,f~    |[ي]{.ar}            |[تَفْعَلِينَ]{.ar}  |[تَفْعَلِي]{.ar}   |
+| I           |_invisible_         |[أَفْعَلُ]{.ar}    |[أَفْعَلْ]{.ar}    |
+| they~2,m~   |[ا]{.ar}            |[يَفْعَلَانِ]{.ar}  |[يَفْعَلَا]{.ar}   |
+| they~2,f~   |[ا]{.ar}            |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
+| you~2~      |[ا]{.ar}            |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
+| they~3+,m~  |[و]{.ar}            |[يَفْعَلُونَ]{.ar}  |[يَفْعَلُوا]{.ar}  |
+| they~3+,f~  |[نَ]{.ar}            |[يَفْعَلْنَ]{.ar}   |[يَفْعَلْنَ]{.ar} (same)   |
+| you~3+,m~   |[و]{.ar}            |[تَفْعَلُونَ]{.ar}  |[تَفْعَلُوا]{.ar}  |
+| you~3+,f~   |[نَ]{.ar}            |[تَفْعَلْنَ]{.ar}   |[تَفْعَلْنَ]{.ar} (same)  |
+| we          |_invisible_         |[نَفْعَلُ]{.ar}    |[نَفْعَلْ]{.ar}    |
+
+Take note the following:
+
++ The u-state and $\emptyset$-state verbs are the same for the feminine plural absentee and addressee participants: 
+  + [يَفْعَلْنَ]{.ar} (they~3+,f~)
+  + [تَفْعَلْنَ]{.ar} (you~3+,f~)
++ The u-state and $\emptyset$-state verbs for the masculine plural absentee and addressee participants have a final silent [Ealif]{.trn}: 
+  + [يَفْعَلُوا]{.ar} (they~3+,m~) 
+  + [تَفْعَلُوا]{.ar} (you~3+,m~)
++ When the 
+$\emptyset$-state
+incomplete-action verb
+ends with a 
+$\emptyset$-mark [◌ْ]{.ar}, and the next word begins with a connecting [hamzah]{.trn} [ٱ]{.ar} then the
+$\emptyset$-mark [◌ْ]{.ar} is converted to an [i]{.trn} mark [◌ِ]{.ar}. For example:
+  + [يَفْعَلْ + ٱلرَّجُلُ = يَفْعَلِ ٱلرَّجُلُ]{.ar}
+
+## Uses of the $\emptyset$-state incomplete-action verb
+
+The u-state is the default state for incomplete-action verbs. The 
+$\emptyset$-state
+is used only in specific cases. We will explain these below.
+
+### With [لِ]{.ar} for indirect commands
+
+The particle [لِ]{.ar} when connected to the front of a 
+incomplete-action verb
+causes it to be in the
+$\emptyset$-state
+and gives it the meaning of an indirect command. In English this can be translated using "should" or "let":
+
+[لِيَذْهَبِ ٱَلرَّجُلُ]{.ar}  
+"The man should go!"  
+or  
+"Let the man go!"  
+("Let" is being used here as a command for the man, not for the addressee of this speech.)
+
+The particles [فَ]{.ar} "so" and [وَ]{.ar} "and" are frequently used before this [لِ]{.ar}. 
+The [لِ]{.ar} then loses its [i]{.trn}-mark and gets a
+$\emptyset$-mark. Examples:
+
+[فَلْنَأْكُلْ طَعَامَنَا وَلْنَشْرَبْ شَرَابَنَا.]{.ar}  
+"So let us eat our food and drink our drink!"
+
+[لِتَجْلِسُوا عَلَى ٱلْأَرْضِ.]{.ar}  
+"You should sit on the ground!"
+
+### With [لَا]{.ar} for prohibitions {#la-of-prohibition}
+
+The word [لَا]{.ar} when in front of a 
+$\emptyset$-state
+incomplete-action verb
+gives the meaning of a prohibition. 
+In English this can be translated using "Don't".
+
+For example,
+
+[لَا تَكْتُبُوا]{.ar}  
+"Don't write~3,m~!"
+
+[يَا زَيْدُ، لَا تَدْخُلِ ٱلْبَيْتَ!]{.ar}  
+"Don't~1,m~ enter the house!"
+
+The particles [فَ]{.ar} "so" and [وَ]{.ar} "and" may be used before this [لَا]{.ar}. 
+Example:
+
+[فَلَا تَأْكُلْ وَلَا تَشْرَبْ!]{.ar}  
+"So don't eat~1,m~ and don't drink~1,m~!"
+
+Such prohibitions are generally for the addressee participant. 
+However, rarely, they may be issued for the absentee participant as well. Example:
+
+[لَايَمْنَعْ زَيْدًا ٱلدُّخُولَ.]{.ar}  
+"Let him not prevent Zayd from entering!"
+
+<!-- Example from Quran:
+[لَا تُسْرِفْ فِي ٱلْقَتْلِ]{.ar}
+
+http://www.alfaseeh.com/vb/showthread.php?t=72471&p=558734&viewfull=1#post558734
+-->
+
+By the way, [لَا]{.ar} does not force a verb to be in the u-state
+$\emptyset$-state. We have already seen in 
+section\ \@ref(u-state-verb-negation-la)
+that [لَا]{.ar} can be used to negate a u-state incomplete-action verb for the present and future tense.
+Example:
+
+[لَا يَذْهَبُ ٱلرَّجُلُ]{.ar}  
+[lA yaphabu -rrajulu.]{.trn}  
+"The man does not go." or,  
+"The man is not going." or,  
+"The man will not go."
+
+### With [لَمْ]{.ar} for "did not"
+
+The particle [لَمْ]{.ar} when in front of an
+incomplete-action verb
+causes it to be in the
+$\emptyset$-state
+and gives it the meaning of
+negating the past tense
+In English this can be translated using "did not".
+For example,
+
+[لَمْ يَذْهَبِ ٱلرَّجُلُ.]{.ar}  
+"The man did not go."
+
+We have already learned in 
+section\ \@ref(negating-completed-action-verbs) that the completed-action verb is negated using the particle [مَا]{.ar}. For example:
+
+[مَا ذَهَبَ ٱلرَّجُلُ.]{.ar}  
+[mA pahaba -rrajulu.]{.trn}  
+"The man did not go."  
+or,  
+"The man has not gone."
+
+Both [لَمْ]{.ar} and [مَا]{.ar} are used commonly to negate the past tense.
+[مَا]{.ar} has a more emphatic meaning than [لَمْ]{.ar}.
+
+Here are some more examples:
+
+### With [لَمَّا]{.ar} for "did not yet"
+
+The word [لَمَّا]{.ar} when in front of a 
+$\emptyset$-state
+incomplete-action verb
+gives the meaning "did not yet". 
+For example,
+
+[لَمَّا يَذْهَبْ زَيْدٌ.]{.ar}  
+"Zayd did not go yet."
+
+### Other uses of the $\emptyset$-state incomplete-action verb
+
+The $\emptyset$-state incomplete-action verb is also used for _consequential actions_ and in _conditional statements_. We will deal with these in
+chapters\ \@ref(the-consequential-action)
+and\ \@ref(conditional-statements)
+respectively
+
+## The verb of command
+
+In order to give a direct command to an addressee, Arabic uses the verb of command. The verb of command is very similar to the 
+$\emptyset$-state
+incomplete-action verb.
+The verb of command is only available for the addressee participant. 
+
+### Forming the verb of command
+
+Here is the verb of command for the addressee participants:
+
+|Participant| Verb of command|
+|:---|:---|
+| you~1,m~    |[ٱفْعَلْ]{.ar}    |
+| you~1,f~    |[ٱفْعَلِي]{.ar}   |
+| you~2~      |[ٱفْعَلَا]{.ar}   |
+| you~3+,m~   |[ٱفْعَلُوا]{.ar}  |
+| you~3+,f~   |[ٱفْعَلْنَ]{.ar}   |
+
+In order to form the verb of command, we remove the initial [ت]{.ar} from the addressee particpant verb. The verb then begins with an $\emptyset$-mark so we place a connecting [hamzah]{.trn} in front of it.
+
+When the verb of command occurs in the beginning of a sentence, then the vowel mark for the connecting [hamzah]{.trn} is selected according to the following criteria:
+
+i. When the middle root letter of the verb of command has an [u]{.trn}-mark\ [◌ُ]{.ar}, then the connecting [hamzah]{.trn} gets an [u]{.trn}-mark\ too. Examples:
+
+   | Verb | Verb of command for "he" |
+   |:------|:-----|
+   |[نَظَرَ يَنْظُرُ نَظَرًا]{.ar}  | [ٱُنْظُرْ]{.ar} "Look!"|
+   |[قَتَلَ يَقْتُلُ قَتْلًا]{.ar}  | [ٱُقْتُلْ]{.ar} "Kill!"|
+   |[مَكَثَ يَمْكُثُ مُكُوثًا]{.ar} | [ٱُمْكُثْ]{.ar} "Stay!"|
+
+i. Otherwise, when the middle root letter of the verb of command has an [a]{.trn}-mark\ [◌َ]{.ar} or an [i]{.trn}-mark\ [◌ِ]{.ar}, then the connecting [hamzah]{.trn} gets an [i]{.trn}-mark\ [◌ِ]{.ar}. Examples:
+
+   | Verb | Verb of command for "he" |
+   |:------|:-----|
+   |[عَمِلَ يَعْمَلُ عَمَلًا]{.ar}  | [ٱِعْمَلْ]{.ar} "Work!"|
+   |[ذَهَبَ يَذْهَبُ ذَهَابًا]{.ar} | [ٱِذْهَبْ]{.ar} "Go!"  |
+   |[جَلَسَ يَجْلِسُ جُلُوسًا]{.ar} | [ٱِجْلِسْ]{.ar} "Sit!" |
+
+<!--
+### Usage of the verb of command
+-->
+
+Here are some examples of using the verb of command:
+
+
+The verb of command is not used to issue negative commands, like "Don't go!". 
+Instead, the 
+$\emptyset$-state verb is used with [لَا]{.ar}
+as described in
+section\ \@ref(la-of-prohibition)
+above.
+
+[لَا تَذْهَبْ]{.ar}  
+"Don't go!"
+
+### The verb of command for roots begin with [hamzah]{.trn}
+
+Appendix\ \@ref(hamzarules) details the rules for speeling words that contain [hamzah]{.trn} generally.
+In addition to those rules, the verb of command for roots that begin with [hamzah]{.trn} warrant additional discussion.
+
+Consider the following form\ 1 verbs and their verbs of command
+for the singular masculine addressee doer "he":
+
+|Root|Verb| Verb of command|
+|:-|:----|:---|
+| [أمل]{.arroot} | [أَمَلَ يَأْمُلُ أَمَلًا]{.ar} "to hope"   | [ٱؤْمُلْ]{.ar} | 
+| [أذن]{.arroot} | [أَذِنَ يَأذَنُ أَذَنًا]{.ar} "to permit" | [ٱئْذَنْ]{.ar} | 
+
+Here are examples of these verbs of commands in the middle of a sentence:
+
+[يَا أُمِّي ٱئْذَنِي لِي ٱللَّعِبَ!]{.ar}  
+[yA Eummi -EpanI li -llaeib!]{.trn}  
+"O my mother, permit me to play!"
+
+[يَا زَيْدُ ٱؤْمُلِ ٱلْخَيْرَ!]{.ar}  
+[yA zaydu -Emuli -lxayr!]{.trn}  
+"O Zayd, hope for good!"
+
+When these verbs of command occur in the beginning of the sentence, then there would be two [hamzah]{.trn}s occuring next to each other which is not permitted. So the second [hamzah]{.trn} is pronounced as a long vowel, though it may still be written as a [hamzah]{.trn}. Examples:
+
+[ٱُؤمُلِ ٱلْخَيْرَ يَا زَيْدُ!]{.ar}  
+[EUmul]{.trn}  
+not  
+$\times$\ [EuEmul]{.trn}
+
+[ٱِئذَنِي لِي ٱللَّعِبَ يَا أُمِّي!]{.ar}  
+[EIpanI]{.trn}  
+not  
+$\times$\ [EiEpanI]{.trn}  
+
+As a further complication, when the verb of command is preceded by
+[وَ]{.ar} "and"
+or
+[فَ]{.ar} "so"
+then the connecting [hamza]{.trn} is not written
+and the [hamzah]{.trn} of the first root letter is written seated on an [Ealif]{.trn}.
+Examples:
+
+[وَأْمُلْ]{.ar}  
+[waEmul]{.trn}  
+"And hope!"
+
+[فَأْذَنْ]{.ar}  
+[faEpan]{.trn}  
+"So permit!"
+
+### Irregular verbs of command
+
+In addition to the rules states above there are four verbs of command (all containing [hamzah]{.trn}) that are irregular. We will discuss them below:
+
+#### The verbs [أَكَلَ]{.ar}\ , [أَخَذَ]{.ar}\ , and [أَمَرَ]{.ar}
+
+The verbs of command for the  following three verbs are irregular:
+
+|Root|Verb| Verb of command|
+|:-|:----|:---|
+| [أكل]{.arroot} | [أَكَلَ يَأْكُلُ أَكْلًا]{.ar} "to eat"   | [كُلْ]{.ar} | 
+| [أخذ]{.arroot} | [أَخَذَ يَأْخُذُ أَخْذًا]{.ar} "to take"  | [خُذْ]{.ar} | 
+| [أمر]{.arroot} | [أَمَرَ يَأْمُرُ أَمْرًا]{.ar} "to order" | [مُرْ]{.ar} | 
+
+As you can see, the initial [hamzah]{.trn} has been completely deleted for the verbs of command.
+However, of these verbs, the verb of command for 
+[أَمَرَ يَأْمُرُ أَمْرًا]{.ar}
+is permitted to retain its initial [hamzah]{.trn} when preceded by
+[وَ]{.ar} "and"
+or
+[فَ]{.ar} "so". Then, it becomes
+
+[وَأْمُرْ]{.ar} [waEmur]{.trn}  
+and  
+[فَأْمُرْ]{.ar} [faEmur]{.trn}
+
+This retaining of the initial [hamzah]{.trn} is not done for the other two verbs.
+
+Here are some examples of these verbs of command:
+
+#### The verb [سَأَلَ]{.ar}
+
+The verb [سَأَلَ يَسْأَلُ سُؤَالًا]{.ar} "to question" forms its verb of command both regularly, and irregularly:
+
+i. Regular: [ٱسْأَلْ]{.ar} [EisEal]{.trn}
+i. Irregular: [سَلْ]{.ar} [sal]{.trn}
+
+If the verb of command is preceded by
+[وَ]{.ar} "and"
+or
+[فَ]{.ar} "so", then the regular verb of command 
+[ٱسْأَلْ]{.ar} [EisEal]{.trn} is often preferred.
+
+Otherwise, the irregular verb of command
+[سَلْ]{.ar} [sal]{.trn} is often preferred.
+
+Examples of usage:
+
+
+<!--chapter:end:srcrmd/imperfect_verb_juss.Rmd-->
 
 # (APPENDIX) Appendix {-}
 
