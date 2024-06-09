@@ -87,9 +87,9 @@ For example, [كِتَاب]{.ar} [kitAb]{.trn} "a book".
 The articles "a" and "the" are types of words called _determiners_. Besides "a" and "the", English has other determiners like "some", "this", "that", etc. that can make a noun definite or indefinite.
 For example:
 
-"This man gave that boy some water."
+"This man gave that boy some food."
 
-In the above sentence "man" and "boy" are definite, and "water" is indefinite.
+In the above sentence "man" and "boy" are definite, and "food" is indefinite.
 
 English can also have definite or indefinite nouns without determiners. The definiteness of the noun is then determined by the meaning of the sentence. Consider, for example, the sentence:
 
@@ -108,7 +108,22 @@ This English usage of an indefinite meaning without an indefnite article is espe
 However, there are times when English uses a plural without a definite or indefinite article, and a general meaning is intended. For example, "Books contain knowledge." In this case, in Arabic we will use the definite noun [ٱَلْكُتُب]{.ar} [Ealkutub]{.trn} "the books".
 -->
 
- ## Indefinite nouns
+As opposed to this complicated situation in English, Arabic uses only the definite article
+[ٱَلْ]{.ar} [al]{.trn}
+to make common nouns definite.
+So when translating sentences from English to Arabic, you must first determine whether the noun is definite or not in English, and then use 
+[ٱَلْ]{.ar} [al]{.trn}
+when the noun is definite.
+
+Examples:
+
++ Sentence: "This man gave that boy some food."
+  + man: definite; Arabic: [ٱَلرَّجُل]{.ar} [Earrujul]{.trn}
+  + boy: definite; Arabic: [ٱَلْغُلَام]{.ar} [EalgulAm]{.trn}
+  + water: indefinite; Arabic: [طَعَام]{.ar} [TaeAm]{.trn}
+
+
+## Indefinite nouns
 
 In English, nouns that start with the word "a" are called indefinite nouns. For example: "a book". The word "a" is called the _indefinite article_.
 
