@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-618-g9a76b93"
+date: "v0.1.0-627-g92e8cc7"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -971,14 +971,14 @@ Arabic word  |Gender | Definition
 [حَيَوَان]{.ar} [HayawAn]{.trn} |masc.|animal
 [طَائِر]{.ar}  [TAEir]{.trn}   |masc.|bird
 [قِرْد]{.ar}   [qird]{.trn}    |masc.|monkey
-[حَمَامَة]{.ar} [HamAmat]{.trn} |fem. |dove
+[حَمَامَة]{.ar} [HamAmah]{.trn} |fem. |dove
 [نَمْلَة]{.ar}  [namlah]{.trn}  |fem. |ant
 
 So for example [قِرْد]{.ar} [qirdun]{.trn} "monkey" is grammatically masculine but it will be used for both a male and a female monkey.
 Similarly, [شَخْص]{.ar}  [caxS]{.trn} is a masculine noun meaning "person". While remaining grammatically masculine, it can be used to refer to persons of male or female persons.
 
 Note also that [نَفْس]{.ar} [nafsun]{.trn} "self" is a feminine noun but it does not end in a looped [tAE]{.trn} [ة]{.ar}. It is one of the small number of feminine nouns that don't have a female marker, like [أُمٌّ]{.ar} [Eummun]{.trn} (fem.) "mother".
-Notably, [نَفْس]{.ar}  [nafs]{.trn} is treated as feminine when it refers to the soul of a person. <!--However, in constructions like "yourself", "himself", etc. it will conform to the gender of the person it is referring to. We shall see this in later chapters, if [#allAh]{.trn2} wills.-->
+<!--Notably, [نَفْس]{.ar}  [nafs]{.trn} is treated as feminine when it refers to the soul of a person. However, in constructions like "yourself", "himself", etc. it will conform to the gender of the person it is referring to. We shall see this in later chapters, if [#allAh]{.trn2} wills.-->
 
 ### Nouns that designate inanimate objects
 
@@ -1014,7 +1014,7 @@ Arabic word  |Gender | Definition
 [رَهِينَة]{.ar} [rahInah]{.trn} |fem. |pledge
 [عُضْو]{.ar}   [euDw]{.trn}    |masc.|member
 
-[رَهِينَة]{.ar} [rahInah]{.trn} is a feminine noun meaning "pledge". For inanimate objects it refers to something that is held as a security or a collateral. With its animate meaning is used to refer to a human hostage.
+[رَهِينَة]{.ar} [rahInah]{.trn} is a feminine noun meaning "pledge". For inanimate objects it refers to something that is held as a security or a collateral. With its animate meaning, it is used to refer to a human hostage.
 
 Similarly,
 [عُضْو]{.ar}   [euDw]{.trn} is a masculine noun meaning "member". For inanimate objects it refers to a limb which is the member of a body. With its animate meaning it refers to a person who is a member of a professional organization.
