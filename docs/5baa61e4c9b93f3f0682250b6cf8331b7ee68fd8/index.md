@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-610-g4b9a9c8"
+date: "v0.1.0-618-g9a76b93"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -645,6 +645,8 @@ Standard Arabic | [#qurEAn]{.trn2}ic Arabic
 <!-- title not called "Common nouns" because concepts are general to all nouns. However, only common nouns are discussed here.-->
 ## Introduction
 
+A noun is a kind of word that is the name of something or someone.
+
 Here are some examples of common nouns in Arabic:
 
 Arabic word | Transcription|Definition
@@ -654,103 +656,146 @@ Arabic word | Transcription|Definition
 [بَيْت]{.ar}  |[bayt]{.trn}      |house
 [شَجَرَة]{.ar} |[cajarah]{.trn}   |tree
 [صَبْر]{.ar}  |[Sabr]{.trn}      |patience
+[وَقْت]{.ar}  |[waqt]{.trn}      |time
 [طَعَام]{.ar} |[TaeAm]{.trn}     |food
 [ٱِبْن]{.ar}  |[Eibn]{.trn}      |son
 
-Note that the final letter in each word, above, does not have a vowel mark. This is because, for now, we are discussing each noun in isolation. 
+Note that the final letter in each word, above, does not have a vowel mark. This is because, the final vowel mark is actually variable, as we shall see later in this chapter.
 
-When we discuss nouns in isolation we shall pronounce the looped [ة]{.ar} as a [h]{.trn}. Therefore, 
+When we discuss nouns outside of sentences we shall pronounce the looped [ة]{.ar} as a [h]{.trn}. Therefore, 
 [شَجَرَة]{.ar} "tree", in isolation, is pronounced [cajarah]{.trn}, not [cajarat]{.trn}.
 
 Some nouns begin with a connecting [hamzah]{.trn}, for example: [ٱِبْن]{.ar} [Eibn]{.trn} "son". When in the beginning of a sentence, the connecting [hamzah]{.trn} will be pronounced with an [i]{.trn}-mark [◌ِ]{.ar}.
 
 ## Definiteness
 
-### Indefinite nouns
+When talking about nouns it is necessary to introduce a topic called _definiteness_.
 
-In English, nouns that start with the word "a" are called indefinite nouns. For example: "a book". The word "a" is called the _indefinite article_.
+A noun is _definite_ when the person or thing it refers to is known. For example, if you say, "The man arrived." then the usage of the word "the" before "man" tells us that the man is known to us. Therefore the noun "man" is definite in this sentence.
 
-There are three options to express the indefinite "a book" in Arabic:  
+Conversely, if we had said "A man arrived." then the use of "a" before "man" tells us that the man is unknown to us. Therefore "man" is indefinite in this sentence.
 
-+ [كِتَابٌ]{.ar} [kitAbun]{.trn}
-+ [كِتَابًا]{.ar} [kitAban]{.trn}
-+ [كِتَابٍ]{.ar} [kitAbin]{.trn} 
+"The" is called the _definite article_ and "a" is called the _indefinite article_.
 
-In order to make a noun indefinite in Arabic, i.e., to say "_a_ book", we need put an [n]{.trn}-mark to the final letter of the word. There are three [n]{.trn}-marks: the [un]{.trn}-mark [◌ٌ]{.ar}, the [an]{.trn}-mark [◌ً]{.ar}, and the [in]{.trn}-mark [◌ٍ]{.ar}. Putting any of these on the final letter of word gives it the meaning "a book".
+### Definite nouns in Arabic
 
-### Definite nouns
+The definite article in Arabic is 
+[ٱَلْ]{.ar} [Eal]{.trn}. It corresponds to the English definite article "the".
+In order to make a noun definite, we attach 
+[ٱَلْ]{.ar} [Eal]{.trn}
+to its beginning.
 
-In English, nouns that start with "the" are called definite nouns. For example: "the book".
+For example, the definite noun "the book" in Arabic is [ٱَلْكِتَاب]{.ar} [EalkitAb]{.trn}.
 
-There are three options to express the definite "the book" in Arabic:  
+[ٱَلْ]{.ar} [Eal]{.trn}
+begins with a connecting [hamzah]{.trn}; the [hamzah]{.trn} will be pronounced only in the beginning of a sentence. And when it occurs in the beginning of a sentence, the [hamzah]{.trn} is pronounced with a [◌َ]{.ar} a-mark.
 
-+ [ٱَلْكِتَابُ]{.ar} [EalkitAbu]{.trn}
-+ [ٱَلْكِتَابَ]{.ar} [EalkitAba]{.trn}
-+ [ٱَلْكِتَابِ]{.ar} [EalkitAbi]{.trn}
+#### Sun letters and moon letters
 
-In order to make a noun definite in Arabic, i.e., to say "_the_ book", we take away the [n]{.trn}-mark from the final letter of the indefinite noun, but leave the short vowel marks [◌ُ]{.ar}, [◌َ]{.ar}, and [◌ِ]{.ar}. Also, we add [ٱَلْ]{.ar} [Eal]{.trn} "the" to the beginning of the word. 
-The prefix [ٱَلْ]{.ar} [al]{.trn} is called the *definite article*.
-It begins with a connecting [hamzah]{.trn} so the [hamzah]{.trn} will be pronounced only in the beginning of a sentence. And when it occurs in the beginning of a sentence, the [hamzah]{.trn} is pronounced with a [◌َ]{.ar} a-mark.
+The noun “man” in Arabic is [رَجُل]{.ar} [rajul]{.trn}. To make this noun definite, we add [ٱَلْ]{.ar} [Eal]{.trn} to the beginning of the word. But instead of becoming [ٱَلْرَجُل]{.ar} [Ealrajul]{.trn} the word becomes [ٱَلرَّجُل]{.ar} [Earrajul]{.trn}. The [ل]{.ar} in [ٱَلْ]{.ar} becomes silent and the [ر]{.ar} gets doubled. This happens because the first letter [ر]{.ar} in the word [رَجُل]{.ar} [rajul]{.trn} is from a group of letters called "sun letters". For all nouns beginning with sun letters, when [ٱَلْ]{.ar} [Eal]{.trn} is put in the beginning, the [ل]{.ar} in [ٱَلْ]{.ar} becomes silent and the sun letter becomes doubled.
 
-### Discussing indefinite and definite nouns in isolation
-
-In Arabic, nouns can only be either definite or indefinite. For example, in an Arabic sentence, you have to say either "a book" or "the book". You can't say "book" without "a" or "the". We will discuss this in more detail in section\ \@ref(usage-of-definite-and-indefinite-nouns) below.
-
-So, for convenience, when talking about the indefinite noun in isolation, and not in a sentence, we will often write it without the final [n]{.trn}-mark thus: [كِتَاب]{.ar} [kitAb]{.trn} "a book". And it will be understood, that when in a sentence, the noun shall have a final [n]{.trn}-mark.
-
-Similarly, for convenience, when discussing the definite noun in isolation, and not in a sentence, we may write it without the final short vowel thus: [ٱَلْكِتَاب]{.ar} [EalkitAb]{.trn} "the book".
-And it will be understood, that when in a sentence, the noun shall have a final short vowel mark.
-
-### Sun letters and moon letters
-
-The noun “man” in Arabic is [رَجُل]{.ar} [rajul]{.trn}. To make this noun definite, we add [ٱَلْ]{.ar} [al]{.trn} to the beginning of the word. But instead of becoming [ٱَلْرَجُل]{.ar} [alrajul]{.trn} the word becomes [ٱَلرَّجُل]{.ar} [arrajul]{.trn}. The [ل]{.ar} in [ٱَلْ]{.ar} becomes silent and the [ر]{.ar} gets doubled. This happens because the first letter [ر]{.ar} in the word [رَجُل]{.ar} [rajul]{.trn} is from a group of letters called "sun letters". For all nouns beginning with sun letters, when [ٱَلْ]{.ar} [al]{.trn} is put in the beginning, the [ل]{.ar} in [ٱَلْ]{.ar} becomes silent and the sun letter becomes doubled.
-
-The rest of the letters in the alphabet are called "moon letters" and for words that begin with moon letters, the [ل]{.ar} in [ٱَلْ]{.ar} does not become silent and the moon letter does not become doubled. For example, [ك]{.ar} is a moon letter and we have already seen that [كِتَاب]{.ar} [kitAb]{.trn} "book" becomes [ٱَلْكِتَاب]{.ar} [alkitAb]{.trn} "the book".
+The rest of the letters in the alphabet are called "moon letters" and for words that begin with moon letters, the [ل]{.ar} in [ٱَلْ]{.ar} does not become silent and the moon letter does not become doubled. For example, [ك]{.ar} is a moon letter and we have already seen that [كِتَاب]{.ar} [kitAb]{.trn} "book" becomes [ٱَلْكِتَاب]{.ar} [EalkitAb]{.trn} "the book".
 
 The sun letters are [ت ث د ذ ر ز س ش ص ض ط ظ ل ن]{.ar}.  
 The moon letters are [ء ب ج ح خ ع غ ف ق ك م ه و ي]{.ar}.
 
-The names "sun letters" and "moon letters" were given because of the Arabic words for "sun" and "moon" respectively. "The sun" in Arabic is [ٱَلشَّمْس]{.ar} [accams]{.trn} which begins with [ش]{.ar} which causes the [ل]{.ar} in [ٱَلْ]{.ar} to be silent. "The moon" is [ٱَلْقَمَر]{.ar} [alqamar]{.trn} which begins with [ق]{.ar} which does not cause the [ل]{.ar} in [ٱَلْ]{.ar} to be silent. Thus [ش]{.ar} represents the sun letters and [ق]{.ar} represents the moon letters.
+The names "sun letters" and "moon letters" were given because of the Arabic words for "sun" and "moon" respectively. "The sun" in Arabic is [ٱَلشَّمْس]{.ar} [Eaccams]{.trn} which begins with [ش]{.ar} which causes the [ل]{.ar} in [ٱَلْ]{.ar} to be silent. "The moon" is [ٱَلْقَمَر]{.ar} [Ealqamar]{.trn} which begins with [ق]{.ar} which does not cause the [ل]{.ar} in [ٱَلْ]{.ar} to be silent. Thus [ش]{.ar} represents the sun letters and [ق]{.ar} represents the moon letters.
 
 Here are some examples of words that begin with sun letters:
 
 Noun | Definite noun
 :-----------|:-----------
-[رَجُل]{.ar} [rajul]{.trn} "man" | [ٱَلرَّجُل]{.ar} [arrajul]{.trn} "the man"  
-[تَاجِر]{.ar} [tAjir]{.trn} "trader" | [ٱَلتَّاجِر]{.ar} [attAjir]{.trn} "the trader"  
-[لُعْبَة]{.ar} [luebah]{.trn} "toy" | [ٱَللُّعْبَة]{.ar} [alluebah]{.trn} "the toy"  
+[رَجُل]{.ar} [rajul]{.trn} "man" | [ٱَلرَّجُل]{.ar} [Earrajul]{.trn} "the man"  
+[تَاجِر]{.ar} [tAjir]{.trn} "trader" | [ٱَلتَّاجِر]{.ar} [EattAjir]{.trn} "the trader"  
+[لُعْبَة]{.ar} [luebah]{.trn} "toy" | [ٱَللُّعْبَة]{.ar} [Ealluebah]{.trn} "the toy"  
 
-### The definite article [ٱَلْ]{.ar} [al]{.trn} with nouns with an initial connecting [hamzah]{.trn} {#the-definite-article-with-nouns-with-an-initial-connecting-hamzah}
+#### The definite article [ٱَلْ]{.ar} [Eal]{.trn} with nouns with an initial connecting [hamzah]{.trn} {#the-definite-article-with-nouns-with-an-initial-connecting-hamzah}
 
-If the definite article [ٱَلْ]{.ar} [al]{.trn} is with prefixed to nouns that have an initial connecting [hamzah]{.trn}, then the [ل]{.ar} shall no longer have an $\emptyset$-mark [◌ْ]{.ar}. Instead it shall have an [i]{.trn}-mark [◌ِ]{.ar}. Example:
+If the definite article [ٱَلْ]{.ar} [Eal]{.trn} is with prefixed to nouns that have an initial connecting [hamzah]{.trn}, then the [ل]{.ar} shall no longer have an $\emptyset$-mark [◌ْ]{.ar}. Instead it shall have an [i]{.trn}-mark [◌ِ]{.ar}. Example:
 
 [ٱَلِٱبْن]{.ar}  
 [Eali-bn]{.trn}  
 "the son"
 
+### Indefinite nouns in Arabic
+
+Arabic has no indefinite article corresponding to the English indefinite article "a". In order to make a noun indefinite in Arabic, it is simply written or pronounced without the definite article
+[ٱَلْ]{.ar} [Eal]{.trn}.
+For example, [كِتَاب]{.ar} [kitAb]{.trn} "a book".
+
+<!--For convenience, outside of sentences, we may simply translate [كِتَاب]{.ar} [kitAb]{.trn} as "book" instead of "a book".-->
+
+### Differences in definiteness between Arabic and English
+
+The articles "a" and "the" are types of words called _determiners_. Besides "a" and "the", English has other determiners like "some", "this", "that", etc. that can make a noun definite or indefinite.
+For example:
+
+"This man gave that boy some food."
+
+In the above sentence "man" and "boy" are definite, and "food" is indefinite.
+
+English can also have definite or indefinite nouns without determiners. The definiteness of the noun is then determined by the meaning of the sentence. Consider, for example, the sentence:
+
+"Time is valuable."
+
+Here, we are not talking about some indefinite amount of time, but rather the general concept of time, which is known to us. Therefore, the noun "time" here is definite.
+
+Consider now the sentence:
+
+"We don't have to leave just yet; we have time."
+
+Here, "time" has an indefinite meaning "[some] time".
+<!--
+This English usage of an indefinite meaning without an indefnite article is especially true with plurals. For example, "There are books in the bag." Here the intended meaning is "There are [some] books in the bag." Consequently, in Arabic, we will use the indefinite noun here: [كُتُب]{.ar} [kutub]{.trn} "[some] books" not [ٱَلْكُتُب]{.ar} [Ealkutub]{.trn} "the books".
+
+However, there are times when English uses a plural without a definite or indefinite article, and a general meaning is intended. For example, "Books contain knowledge." In this case, in Arabic we will use the definite noun [ٱَلْكُتُب]{.ar} [Ealkutub]{.trn} "the books".
+-->
+
+As opposed to this complicated situation in English, Arabic uses only the definite article
+[ٱَلْ]{.ar} [Eal]{.trn}
+to make common nouns definite.
+So when translating sentences from English to Arabic, you must first determine whether the noun is definite or not in English, and then use 
+[ٱَلْ]{.ar} [Eal]{.trn}
+when the noun is definite.
+
+Examples:
+
++ "This man gave that boy some food."
+  + man: definite; Arabic: [ٱَلرَّجُل]{.ar} [Earrujul]{.trn}
+  + boy: definite; Arabic: [ٱَلْغُلَام]{.ar} [EalgulAm]{.trn}
+  + water: indefinite; Arabic: [طَعَام]{.ar} [TaeAm]{.trn}
+
++ "Time is valuable."
+  + time: definite; Arabic: [ٱَلْوَقْت]{.ar} [Ealwaqt]{.trn}
+
++ "We don't have to leave just yet; we have time."
+  + time: indefinite; Arabic: [وَقْت]{.ar} [waqt]{.trn}
+
 ## State
 
 Nouns in Arabic can be in one of three _states_. You may think of the grammatical states of nouns like the physical states of matter: solid, liquid, and gas. The same water can be in a solid ice state, or a liquid water state, or a gaseous water vapour state. Similarly, the same noun, in Arabic, may be in one of the three grammatical states:
 
-1. u-state: demarked by a [u]{.trn}-mark [◌ُ]{.ar} or a [un]{.trn}-mark [◌ٌ]{.ar} at the end of the word.
-2. a-state: demarked by a [a]{.trn}-mark [◌َ]{.ar} or a [an]{.trn}-mark [◌ً]{.ar} at the end of the word.
-3. i-state: demarked by a [i]{.trn}-mark [◌ِ]{.ar} or a [in]{.trn}-mark [◌ٍ]{.ar} at the end of the word.
+1. u-state: indicated by a [u]{.trn}-mark [◌ُ]{.ar} (for definite nouns) and an [un]{.trn}-mark [◌ٌ]{.ar} (for indefinite nouns) on the final letter of the word.
+2. a-state: indicated by an [a]{.trn}-mark [◌َ]{.ar} (for definite nouns) and an [an]{.trn}-mark [◌ً]{.ar} (for indefinite nouns) on the final letter of the word.
+3. i-state: indicated by an [i]{.trn}-mark [◌ِ]{.ar} (for definite nouns) and an [in]{.trn}-mark [◌ٍ]{.ar} (for indefinite nouns) on the final letter of the word.
 
-Here are the words "a book" and "the book" in their three states:
+Here are the nouns "a book" and "the book" in their three states:
 
 State         | Indefinite "a book" | Definite "the book"
 :-------------|:-----------------|:--------------
-u-state       |[كِتَابٌ]{.ar} [kitAbun]{.trn}  |[ٱَلْكِتَابُ]{.ar} [alkitAbu]{.trn} 
-a-state       |[كِتَابًا]{.ar} [kitAban]{.trn} |[ٱَلْكِتَابَ]{.ar} [alkitAba]{.trn} 
-i-state       |[كِتَابٍ]{.ar} [kitAbin]{.trn}  |[ٱَلْكِتَابِ]{.ar} [alkitAbi]{.trn} 
+u-state       |[كِتَابٌ]{.ar} [kitAbun]{.trn}  |[ٱَلْكِتَابُ]{.ar} [EalkitAbu]{.trn} 
+a-state       |[كِتَابًا]{.ar} [kitAban]{.trn} |[ٱَلْكِتَابَ]{.ar} [EalkitAba]{.trn} 
+i-state       |[كِتَابٍ]{.ar} [kitAbin]{.trn}  |[ٱَلْكِتَابِ]{.ar} [EalkitAbi]{.trn} 
 
 
 The choice of which state a noun is in depends on its function in a sentence. For example, if the noun is a subject of a sentence, it will usually be in the u-state. And if it is used adverbially, it will often be in the a-state. And if it occurs after a preposition, it will be in the i-state. We will learn more about putting nouns in their different states throughout this book. 
 Generally speaking, the u-state is the normal state. And there needs to be a reason to take the noun out of the u-state and into one of the other states.
 
+<!--
 ## Flexibility of nouns
 
 Most nouns behave as described above: their endings change with their state. These nouns are called _flexible_ nouns. In later chapters, we will learn about some nouns whose endings only partially change, or don't change at all, with their state. They will be called _semi-flexible_ nouns and _rigid_ nouns respectively.
+-->
 <!--
 Don't use because english uses different words, not modifying the ending of the same word:
 By the way, some English words have state too: the words The words "he" and "him" refer to the same person. But sometimes we will use "he" and sometimes we will use "him", depending on the function of the word in the sentence. For example,
@@ -760,7 +805,7 @@ By the way, some English words have state too: the words The words "he" and "him
 
 In English grammar, _state_ is called _case_ instead. The above examples in English may help you in understanding the concept of _state_ in Arabic.
 -->
-
+<!--
 ## Usage of definite and indefinite nouns
 
 Consider the noun "time". In English we can make this noun definite using the definite article "the", for example, "The time to act is now." When translating this sentence to Arabic, we will correspondingly use the definite noun: [ٱَلْوَقْت]{.ar} [Ealwaqt]{.trn} "the time".
@@ -783,13 +828,14 @@ This English usage of an indefinite meaning without an indefnite article is espe
 However, there are times when English uses a plural without a definite or indefinite article, and a general meaning is intended. For example, "Books contain knowledge." In this case, in Arabic we will use the definite noun [ٱَلْكُتُب]{.ar} [Ealkutub]{.trn} "the books".
 
 This topic may be a little difficult to comprehend right now because we have not yet learned how to form sentences. Later, you may refer back to this section as needed.
+-->
 
 ## Grammatical gender
 
-Some nouns designate animate beings like "a man", "a woman", "a boy", "a girl", "a dog", "a cow", etc.
-Other nouns designate inanimate objects like "a book", "a house", "a hand", "a tree", "a city", "a food". 
+Some nouns designate animate beings like "man", "woman", "boy", "girl", "dog", "cow", etc.
+Other nouns designate inanimate objects like "book", "house", "hand", "tree", "city", "food". 
 
-With respect to the grammatical gender of these nouns, there are three grammatical genders in English:
+There are three grammatical genders in English:
 
 1. The masculine gender. This is used for nouns that designate male human beings and also some male animals. The pronouns used for the masculine gender are "he", "him", and "his".
 2. The feminine gender. This is used for nouns that designate female human beings, and also some female animals. The pronouns used for the feminine gender are "she" and "her".
@@ -799,20 +845,20 @@ In Arabic, there are only two grammatical genders: the masculine gender and the 
 All nouns in Arabic are either masculine or feminine in gender. 
 Nouns that designate male human beings are assigned the masculine grammatical gender. And
 nouns that designate female human beings are assigned the feminine grammatical gender.
-As for nouns that designate inanimate objects and animals, these, too, are assigned either a masculine or a feminine gender. For example, [كِتَاب]{.ar} [kitAb]{.trn} "a book" in Arabic is masculine. And [شَجَرَة]{.ar} [cajarah]{.trn} "tree" in Arabic is feminine.
+As for nouns that designate inanimate objects and animals, these, too, are assigned either a masculine or a feminine gender. For example, [كِتَاب]{.ar} [kitAb]{.trn} "book" in Arabic is masculine. And [شَجَرَة]{.ar} [cajarah]{.trn} "tree" in Arabic is feminine.
 We shall discuss this in more detail below.
 
 ### Nouns that designate animate beings.
 
 In Arabic, in terms of their form, nouns that designate animate beings are in three categories:
 
-1. The nouns for male and female animate beings are separate but related.
-2. The nouns for male and female animate beings are separate and unrelated.
+1. There are separate nouns for the male and female animate being and the nouns are similar to each other.
+2. There are separate nouns for the male and female animate being but the nouns are unrelated.
 3. The same noun is used for both sexes.
 
 We will discuss each of these categories below.
 
-#### Related nouns for male and female animate beings
+#### Similar nouns for male and female animate beings
 
 In Arabic for some nouns that designate animate beings, the nouns for both sexes match each other. Here are some examples:
 <!--
@@ -822,48 +868,48 @@ In Arabic for some nouns that designate animate beings, the nouns for both sexes
 
 Arabic word |Gender | Definition
 :----------------------|:---|:----------------
-[ٱِبْن]{.ar}    [Eibn]{.trn}      |masc.|a son
-[ٱِبْنَة]{.ar}   [Eibnah]{.trn}    |fem. |a daughter
-[طِفْل]{.ar}    [Tifl]{.trn}      |masc.|a child
-[طِفْلَة]{.ar}   [Tiflah]{.trn}    |fem. |a (female) child
-[إِنْسَان]{.ar}  [EinsAn]{.trn}    |masc.|a human being
-[إِنْسَانَة]{.ar} [EinsAnah]{.trn}  |fem. |a (female) human being
-[حُرّ]{.ar}     [Hurr]{.trn}      |masc.|a free man
-[حُرَّة]{.ar}    [Hurrah]{.trn}    |fem. |a free woman
-[كَلْب]{.ar}    [kalb]{.trn}      |masc.|a (male) dog
-[كَلْبَة]{.ar}   [kalbah]{.trn}    |fem. |a (female) dog
-[هِرّ]{.ar}     [hirr]{.trn}      |masc.|a (male) cat
-[هِرَّة]{.ar}    [hirrah]{.trn}    |fem. |a (female) cat
+[ٱِبْن]{.ar}    [Eibn]{.trn}      |masc.|son
+[ٱِبْنَة]{.ar}   [Eibnah]{.trn}    |fem. |daughter
+[طِفْل]{.ar}    [Tifl]{.trn}      |masc.|child
+[طِفْلَة]{.ar}   [Tiflah]{.trn}    |fem. |(female) child
+[إِنْسَان]{.ar}  [EinsAn]{.trn}    |masc.|human being
+[إِنْسَانَة]{.ar} [EinsAnah]{.trn}  |fem. |(female) human being
+[حُرّ]{.ar}     [Hurr]{.trn}      |masc.|free man
+[حُرَّة]{.ar}    [Hurrah]{.trn}    |fem. |free woman
+[كَلْب]{.ar}    [kalb]{.trn}      |masc.|(male) dog
+[كَلْبَة]{.ar}   [kalbah]{.trn}    |fem. |(female) dog
+[هِرّ]{.ar}     [hirr]{.trn}      |masc.|(male) cat
+[هِرَّة]{.ar}    [hirrah]{.trn}    |fem. |(female) cat
 --                              |--   |--
-[مُعَلِّم]{.ar}   [mueallim]{.trn}  |masc.|a (male) teacher
-[مُعَلِّمَة]{.ar}  [mueallimah]{.trn}|fem. |a (female) teacher
-[طَالِب]{.ar}   [TAlib]{.trn}     |masc.|a (male) student
-[طَالِبَة]{.ar}  [TAlibah]{.trn}   |fem. |a (female) student
-[صَاحِب]{.ar}   [SAHib]{.trn}     |masc.|a (male) companion
-[صَاحِبَة]{.ar}  [SAHibah]{.trn}   |fem. |a (female) companion
-[صَدِيق]{.ar}   [SadIq]{.trn}     |masc.|a (male) friend
-[صَدِيقَة]{.ar}  [SadIqah]{.trn}   |fem. |a (female) friend 
+[مُعَلِّم]{.ar}   [mueallim]{.trn}  |masc.|(male) teacher
+[مُعَلِّمَة]{.ar}  [mueallimah]{.trn}|fem. |(female) teacher
+[طَالِب]{.ar}   [TAlib]{.trn}     |masc.|(male) student
+[طَالِبَة]{.ar}  [TAlibah]{.trn}   |fem. |(female) student
+[صَاحِب]{.ar}   [SAHib]{.trn}     |masc.|(male) companion
+[صَاحِبَة]{.ar}  [SAHibah]{.trn}   |fem. |(female) companion
+[صَدِيق]{.ar}   [SadIq]{.trn}     |masc.|(male) friend
+[صَدِيقَة]{.ar}  [SadIqah]{.trn}   |fem. |(female) friend 
 
 In each of the words in the table above, the feminine noun is basically the same as the masculine noun but with the addition of a looped [tAE]{.trn} [ة]{.ar} at the end. For example,
 [طِفْل]{.ar}  [Tifl]{.trn} (masc.) is a child, and its feminine is
 [طِفْلَة]{.ar} [Tiflah]{.trn} (fem.).
 
-As a matter of fact, the looped [tAE]{.trn} [ة]{.ar} is called a feminine marker for singular nouns. There are a couple of other feminine markers besides looped [tAE]{.trn} but they are not as common and we will learn them later, if [#allAh]{.trn2} wills.
+As a matter of fact, the looped [tAE]{.trn} [ة]{.ar} is called a feminine marker for singular nouns. There are a couple of other, less common, feminine markers besides looped [tAE]{.trn} that we will learn them later, if [#allAh]{.trn2} wills.
  
 Note that the vowel-mark before the looped [tAE]{.trn} [ة]{.ar} is always an [a]{.trn}-mark. 
 <!--For example, in the case of [كَلْب]{.ar} [kalb]{.trn} "a male dog", in order to get the feminine noun [كَلْبَة]{.ar} [kalbatun]{.trn} "a female dog", [ب]{.ar} gets an [a]{.trn}-mark.-->
 
-Note that we have divided the table above into two groups. The first group contains nouns that refer to refer to entities, without an primary adjectival or verbal quality in the meaning, for example "human" "cat", etc. 
-The second group contains nouns that have an adjectival or verbal quality. For example, "a teacher" is someone who teaches. "A friend" is someone who is friendly. And so on.
+Note also that we have divided the table above into two groups. The first group contains nouns that have a primitive meaning, without a primarily adjectival or verbal quality in the meaning, for example "human" "cat", etc. 
+The second group contains nouns that have an adjectival or verbal quality. For example, a "teacher" is someone who teaches. A "friend" is someone who is friendly. And so on.
 
-This grouping will become important when, if [#allAh]{.trn2} wills, you study morphology, and the classification of nouns into primitive and derived nouns. But we can give a short preview here: Basically, for the second group (the one that has adjectival or verbal meanings), the formation of the feminine noun by adding a feminine marker (like [ة]{.ar}) to the masculine noun is normal and expected. Whereas, for the first group (the one that refers to entities without a verbal or adjectival meaning), the fact that the feminine and masuline nouns are similar and differ only by the feminine marker [ة]{.ar} is something that, although fairly common, is more of a coincidence.
+This grouping will become important when, if [#allAh]{.trn2} wills, you study morphology, and the classification of nouns into primitive and derived nouns. But we can give a short preview here: Basically, for the second group (the one that has adjectival or verbal meanings), the formation of the feminine noun by adding a feminine marker (like [ة]{.ar}) to the masculine noun is normal and expected. Whereas, for the first group (the one that refers to primitive nouns without a verbal or adjectival meaning), the fact that the feminine and masuline nouns are similar and differ only by the feminine marker [ة]{.ar} is something that, although fairly common, is more of a coincidence.
 
-Another noteworthy point is that, for the first group, for many such nouns, one of the masculine/feminine pair may be used to refer to beings of either sex. What we mean by this is that, for example,
+Another noteworthy point is that, for many primitive nouns (the first group), only one of the masculine/feminine pair may be used to refer to beings of either sex. What we mean by this is that, for example,
 [كَلْب]{.ar} [kalb]{.trn}, while remaining a masculine noun, can be used to refer to both "a (male) dog" and "a (female) dog", especially if the animal's physical gender is not particularly important to what is being said.
-And [كَلْبَة]{.ar} [kalbah]{.trn} (fem.) "a female dog" is typically only used when the gender of the animal is relevant to the sentence.
+And [كَلْبَة]{.ar} [kalbah]{.trn} (fem.) "a female dog" is typically only used when it is needed to specify the gender of the animal.
 Conversely, [هِرَّة]{.ar} [hirrah]{.trn} "a (female) cat" may be used to refer to cat of either physical gender, especially if it is not obvious whether it is a male or female cat.
 
-This preference of the noun of one gender to refer to beings of either physical gender is case-by-case. For example,
+This preference of the noun of one gender to refer to beings of either physical gender is arbitrary and case-by-case. For example,
 [طِفْل]{.ar} [Tifl]{.trn} (masc.) is commonly used to say "a child", regardless of whether the child is a boy or a girl. But [طِفْلَة]{.ar} [Tiflah]{.trn} is fairly common too specifically for "a female child".
 
 As another example, the word [إِنْسَانَة]{.ar} [EinsAnah]{.trn} (fem.) "a female human being" is rarely used at all. Instead, the word
@@ -872,6 +918,8 @@ As another example, the word [إِنْسَانَة]{.ar} [EinsAnah]{.trn} (fem.)
 On the other hand,
 <!--[فَتًى]{.ar}    [fatA]{.trn} "a young man"
 [فَتَاة]{.ar}   [fatAh]{.trn} "a young woman"-->
+[ٱِبْن]{.ar}    [Eibn]{.trn}      "son" and
+[ٱِبْنَة]{.ar}   [Eibnah]{.trn}    "daughter"
 are only ever used for their respective gender. So 
 [ٱِبْن]{.ar}    [Eibn]{.trn}   (masc.) "a son" is never used to mean "a daughter".
 And [ٱِبْنَة]{.ar}   [Eibnah]{.trn}    (fem.) "a daughter" is never used to mean "a son".
@@ -898,18 +946,18 @@ For other nouns that designate animate beings, the nouns for the male and female
 
 Arabic word  |Gender | Definition
 :----------------------|:---|:----------------
-[أَب]{.ar}    [Eab]{.trn}     |masc.|a father
-[أُمّ]{.ar}    [Eumm]{.trn}    |fem. |a mother
-[غُلَام]{.ar}  [gulAm]{.trn}   |masc.|a boy
-[جَارِيَة]{.ar} [jAriyah]{.trn} |fem. |a girl
-[عَبْد]{.ar}   [eabd]{.trn}    |masc.|a male slave
-[أَمَة]{.ar}   [Eamah]{.trn}   |fem. |a female slave
-[أَسَد]{.ar}   [Easad]{.trn}   |masc.|a lion
-[لَبْوَة]{.ar}  [labwah]{.trn}  |fem. |a lioness
-[ثَوْر]{.ar}   [vawr]{.trn}    |masc.|a bull
-[بَقَرَة]{.ar}  [baqarah]{.trn} |fem. |a cow
+[أَب]{.ar}    [Eab]{.trn}     |masc.|father
+[أُمّ]{.ar}    [Eumm]{.trn}    |fem. |mother
+[غُلَام]{.ar}  [gulAm]{.trn}   |masc.|boy
+[جَارِيَة]{.ar} [jAriyah]{.trn} |fem. |girl
+[عَبْد]{.ar}   [eabd]{.trn}    |masc.|male slave
+[أَمَة]{.ar}   [Eamah]{.trn}   |fem. |female slave
+[أَسَد]{.ar}   [Easad]{.trn}   |masc.|lion
+[لَبْوَة]{.ar}  [labwah]{.trn}  |fem. |lioness
+[ثَوْر]{.ar}   [vawr]{.trn}    |masc.|bull
+[بَقَرَة]{.ar}  [baqarah]{.trn} |fem. |cow
 
-Even in these nouns you can see that the feminine noun usually ends with a looped [tAE]{.trn} [ة]{.ar} feminine marker. There are only a few commonly used feminine nouns that don't end with a feminine marker like looped [tAE]{.trn}. [أُمٌّ]{.ar} [Eummun]{.trn} "a mother" is one of these exceptions.
+Even in these nouns you can see that the feminine noun usually ends with a looped [tAE]{.trn} [ة]{.ar} feminine marker. There are only a few commonly used feminine nouns that don't end with a feminine marker like looped [tAE]{.trn}. [أُمٌّ]{.ar} [Eummun]{.trn} "mother" is one of these exceptions.
 
 #### Using the same noun for both sexes
 
@@ -917,20 +965,20 @@ There are other nouns for animate beings where the same word is used for both se
 
 Arabic word  |Gender | Definition
 :----------------------|:---|:----------------
-[شَخْص]{.ar}   [caxS]{.trn}    |masc.|a person
-[نَفْس]{.ar}   [nafs]{.trn}    |fem. |a self
-[عَدُوّ]{.ar}   [eaduww]{.trn}  |masc.|an enemy
-[حَيَوَان]{.ar} [HayawAn]{.trn} |masc.|an animal
-[طَائِر]{.ar}  [TAEir]{.trn}   |masc.|a bird
-[قِرْد]{.ar}   [qird]{.trn}    |masc.|a monkey
-[حَمَامَة]{.ar} [HamAmat]{.trn} |fem. |a dove
-[نَمْلَة]{.ar}  [namlah]{.trn}  |fem. |an ant
+[شَخْص]{.ar}   [caxS]{.trn}    |masc.|person
+[نَفْس]{.ar}   [nafs]{.trn}    |fem. |self
+[عَدُوّ]{.ar}   [eaduww]{.trn}  |masc.|enemy
+[حَيَوَان]{.ar} [HayawAn]{.trn} |masc.|animal
+[طَائِر]{.ar}  [TAEir]{.trn}   |masc.|bird
+[قِرْد]{.ar}   [qird]{.trn}    |masc.|monkey
+[حَمَامَة]{.ar} [HamAmat]{.trn} |fem. |dove
+[نَمْلَة]{.ar}  [namlah]{.trn}  |fem. |ant
 
-So for example [قِرْد]{.ar} [qirdun]{.trn} "a monkey" is grammatically masculine but it will be used for both a male and a female monkey.
-Similarly, [شَخْص]{.ar}  [caxS]{.trn} is a masculine noun meaning "a person". While remaining grammatically masculine, it can be used to refer to persons of male or female persons.
+So for example [قِرْد]{.ar} [qirdun]{.trn} "monkey" is grammatically masculine but it will be used for both a male and a female monkey.
+Similarly, [شَخْص]{.ar}  [caxS]{.trn} is a masculine noun meaning "person". While remaining grammatically masculine, it can be used to refer to persons of male or female persons.
 
-Note also that [نَفْس]{.ar} [nafsun]{.trn} "a self" is a feminine noun but it does not end in a looped [tAE]{.trn} [ة]{.ar}. It is one of the small number of feminine nouns that don't have a female marker, like [أُمٌّ]{.ar} [Eummun]{.trn} (fem.) "a mother".
-Notably, [نَفْس]{.ar}  [nafs]{.trn} is treated as feminine when it refers to the soul of a person. However, in constructions like "yourself", "himself", etc. it will conform to the gender of the person it is referring to. We shall see this in later chapters, if [#allAh]{.trn2} wills.
+Note also that [نَفْس]{.ar} [nafsun]{.trn} "self" is a feminine noun but it does not end in a looped [tAE]{.trn} [ة]{.ar}. It is one of the small number of feminine nouns that don't have a female marker, like [أُمٌّ]{.ar} [Eummun]{.trn} (fem.) "mother".
+Notably, [نَفْس]{.ar}  [nafs]{.trn} is treated as feminine when it refers to the soul of a person. <!--However, in constructions like "yourself", "himself", etc. it will conform to the gender of the person it is referring to. We shall see this in later chapters, if [#allAh]{.trn2} wills.-->
 
 ### Nouns that designate inanimate objects
 
@@ -938,91 +986,96 @@ As mentioned earlier, nouns that designate inanimate objects are assigned a fixe
 
 Arabic word  |Gender | Definition
 :----------------------|:---|:----------------
-[كِتَاب]{.ar}  [kitAb]{.trn}   |masc.|a book
-[بَيْت]{.ar}   [bayt]{.trn}    |masc.|a house
-[قَلَم]{.ar}   [qalam]{.trn}   |masc.|a pen
-[طَعَام]{.ar}  [TaeAm]{.trn}   |masc.|a food
-[مَاء]{.ar}   [mAE]{.trn}     |masc.|a water
-[مَدْرَسَة]{.ar} [madrasah]{.trn}|fem. |a school
-[مَدِينَة]{.ar} [madInah]{.trn} |fem. |a city
-[غُرْفَة]{.ar}  [gurfah]{.trn}  |fem. |a room
-[شَجَرَة]{.ar}  [cajarah]{.trn} |fem. |a tree
-[شَمْس]{.ar}   [cams]{.trn}    |fem. |a sun
-[قَمَر]{.ar}   [qamar]{.trn}   |masc.|a moon
-[عِلْم]{.ar}   [eilm]{.trn}    |masc.|a knowledge
-[قُوَّة]{.ar}   [quwwah]{.trn}  |fem. |a strength
-[حَيَاة]{.ar}  [HayAh]{.trn}   |fem. |a life
-[مَوْت]{.ar}   [mawt]{.trn}    |masc.|a death
+[كِتَاب]{.ar}  [kitAb]{.trn}   |masc.|book
+[بَيْت]{.ar}   [bayt]{.trn}    |masc.|house
+[قَلَم]{.ar}   [qalam]{.trn}   |masc.|pen
+[طَعَام]{.ar}  [TaeAm]{.trn}   |masc.|food
+[مَاء]{.ar}   [mAE]{.trn}     |masc.|water
+[مَدْرَسَة]{.ar} [madrasah]{.trn}|fem. |school
+[مَدِينَة]{.ar} [madInah]{.trn} |fem. |city
+[غُرْفَة]{.ar}  [gurfah]{.trn}  |fem. |room
+[شَجَرَة]{.ar}  [cajarah]{.trn} |fem. |tree
+[شَمْس]{.ar}   [cams]{.trn}    |fem. |sun
+[قَمَر]{.ar}   [qamar]{.trn}   |masc.|moon
+[عِلْم]{.ar}   [eilm]{.trn}    |masc.|knowledge
+[قُوَّة]{.ar}   [quwwah]{.trn}  |fem. |strength
+[حَيَاة]{.ar}  [HayAh]{.trn}   |fem. |life
+[مَوْت]{.ar}   [mawt]{.trn}    |masc.|death
 
 In these nouns as well, we note that feminine nouns usually end with the feminine marker looped [tAE]{.trn} [ة]{.ar}. 
 But here too, we find another exception:
-[شَمْسٌ]{.ar} [camsun]{.trn} "a sun" which is feminine but does not end with a feminine marker.
+[شَمْسٌ]{.ar} [camsun]{.trn} "sun" which is feminine but does not end with a feminine marker.
 These exceptions are not very many and, if [#allAh]{.trn2} wills, we will not find it hard to memorize them.
 
 There is a sub-group of nouns that designate inanimate objects, but can also be used to refer to animate beings. Here are a couple of examples:
 
 Arabic word  |Gender | Definition
 :----------------------|:---|:----------------
-[رَهِينَة]{.ar} [rahInah]{.trn} |fem. |a pledge
-[عُضْو]{.ar}   [euDw]{.trn}    |masc.|a member
- 
-[رَهِينَة]{.ar} [rahInah]{.trn} is a feminine noun meaning "a pledge". For inanimate objects it refers to something that is held as a security or a collateral. With its animate meaning is used to refer to a human hostage.
+[رَهِينَة]{.ar} [rahInah]{.trn} |fem. |pledge
+[عُضْو]{.ar}   [euDw]{.trn}    |masc.|member
+
+[رَهِينَة]{.ar} [rahInah]{.trn} is a feminine noun meaning "pledge". For inanimate objects it refers to something that is held as a security or a collateral. With its animate meaning is used to refer to a human hostage.
 
 Similarly,
-[عُضْو]{.ar}   [euDw]{.trn} is a masculine noun meaning "a member". For inanimate objects it refers to a limb which is the member of a body. With its animate meaning it refers to a person who is a member of a professional organization.
+[عُضْو]{.ar}   [euDw]{.trn} is a masculine noun meaning "member". For inanimate objects it refers to a limb which is the member of a body. With its animate meaning it refers to a person who is a member of a professional organization.
 
 Just like we saw for the nouns in section\ \@ref(using-the-same-noun-for-both-sexes),
-such nouns retain their grammatical gender when used for either male or female persons.
+such nouns adhere to their fixed grammatical gender when used for either male or female persons.
 
 ## Nouns with mismatched gender
 
 We saw that there are some nouns that are feminine, but do not end with with a feminine marker like [ة]{.trn}. These were:
 
-+ [أُمّ]{.ar}   [Eumm]{.trn}    (fem.) "a mother"
-+ [نَفْس]{.ar}  [nafs]{.trn}    (fem.) "a self"
-+ [شَمْس]{.ar}  [cams]{.trn}    (fem.) "a sun"
++ [أُمّ]{.ar}   [Eumm]{.trn}    (fem.) "mother"
++ [نَفْس]{.ar}  [nafs]{.trn}    (fem.) "self"
++ [شَمْس]{.ar}  [cams]{.trn}    (fem.) "sun"
 
 There are a few more nouns that are like this. One special category among them is body parts. Many prominent body parts that come in pairs or more, are grammatically feminine, whether or not they end with a feminine marker like [ة]{.ar}. Here are some examples:
 
 <!--Arabic word  |Gender | Definition
 :----------------------|:---|:------------------>
 
-+ [يَد]{.ar} [yad]{.trn} (fem.) "a hand" (sometimes "an arm")
-+ [عَيْن]{.ar} [eayn]{.trn} (fem.) "an eye"
-+ [أُذُن]{.ar} [Eupun]{.trn} (fem.) "an ear"
-+ [قَدَم]{.ar} [qadam]{.trn} (fem.) "a foot"
-+ [رِجْل]{.ar} [rijl]{.trn} (fem.) "a leg" (sometimes "a foot")
-+ [إِبْهَام]{.ar} [EibhAm]{.trn} (fem.) "a thumb"
-+ [إِصْبَع]{.ar} [EiSbae]{.trn} (fem.) "a finger, a toe"
-+ [سِنّ]{.ar} [sinn]{.trn} (fem.) "a tooth"
-+ [رُكْبَة]{.ar} [rukbah]{.trn} (fem.) "a knee"
++ [يَد]{.ar} [yad]{.trn} (fem.) "hand" (sometimes "an arm")
++ [عَيْن]{.ar} [eayn]{.trn} (fem.) "eye"
++ [أُذُن]{.ar} [Eupun]{.trn} (fem.) "ear"
++ [قَدَم]{.ar} [qadam]{.trn} (fem.) "foot"
++ [رِجْل]{.ar} [rijl]{.trn} (fem.) "leg" (sometimes "foot")
++ [إِبْهَام]{.ar} [EibhAm]{.trn} (fem.) "thumb"
++ [إِصْبَع]{.ar} [EiSbae]{.trn} (fem.) "finger, toe"
++ [سِنّ]{.ar} [sinn]{.trn} (fem.) "tooth"
++ [رُكْبَة]{.ar} [rukbah]{.trn} (fem.) "knee"
 
-For other body parts, the gender conforms to whether it has a feminine marker or not. Examples:
+There are exceptions, however. The following body parts come in pairs yet are masculine.
 
-+ [رَأْس]{.ar} [raEs]{.trn} (masc.) "a head"
-+ [أَنْف]{.ar} [Eanf]{.trn} (masc.) "a nose"
-+ [بَطْن]{.ar} [baTn]{.trn} (masc.) "a belly"
-+ [لِحْيَة]{.ar} [liHyah]{.trn} (fem.) "a beard"
-
-There are exceptions, however. The following come in pairs yet are masculine.
-
-+ [مَنْخَر]{.ar} [manxar]{.trn} (masc.) "a nostril"
-+ [مِرْفَق]{.ar} [mirfaq]{.trn} (masc.) "an elbow"
++ [مَنْخَر]{.ar} [manxar]{.trn} (masc.) "nostril"
++ [مِرْفَق]{.ar} [mirfaq]{.trn} (masc.) "elbow"
 
 There are other such exceptions as well.
 
-Conversely, nouns that end with a feminine marker like [ة]{.ar}, yet are masculine are very rare. The most common of them are:
+<!--For other body parts, the grammatical gender conforms to whether it has a feminine marker or not. Examples:-->
+Body parts that don't come in pairs are typically more regular in their gender: they are feminine if they end in a feminine marker like [ة]{.ar}, and masculine if they don't. Examples:
 
-+ [خَلِيفَة]{.ar} [xalIfah]{.trn} (masc.) "a caliph"
-+ [عَلَّامَة]{.ar} [eallAmah]{.trn} (masc.) "a great scholar"
-+ [دَاعِيَة]{.ar} [dAeiyah]{.trn} (masc.) "a great preacher"
++ [رَأْس]{.ar} [raEs]{.trn} (masc.) "head"
++ [أَنْف]{.ar} [Eanf]{.trn} (masc.) "nose"
++ [بَطْن]{.ar} [baTn]{.trn} (masc.) "belly"
++ [لِحْيَة]{.ar} [liHyah]{.trn} (fem.) "beard"
+
+Conversely, nouns that end with a feminine marker like [ة]{.ar}, yet are masculine are very rare. Some of the more common of them are:
+
++ [خَلِيفَة]{.ar} [xalIfah]{.trn} (masc.) "caliph"
++ [عَلَّامَة]{.ar} [eallAmah]{.trn} (masc.) "great scholar"
++ [دَاعِيَة]{.ar} [dAeiyah]{.trn} (masc.) "great preacher"
 
 There are also a few words which can be optionally assigned a masculine or feminine gender. Among these are:
 
-+ [سُوق]{.ar} [sUq]{.trn} (masc. or fem.) "a market"
-+ [طَرِيق]{.ar} [TarIq]{.trn} (masc. or fem.) "a path"
++ [سُوق]{.ar} [sUq]{.trn} (masc. or fem.) "market"
++ [طَرِيق]{.ar} [TarIq]{.trn} (masc. or fem.) "path"
 
 A good dictionary should mention the gender of all these exceptional words.
+
+## Exercises
+
+In the following English sentences, determine whether the underlined nouns will be translated with definite or indefinite nouns in Arabic.
 
 <!--
 ## Genderizability
