@@ -9,10 +9,6 @@ Latest version is published here:
 
 https://adamiturabi.github.io/arabic-tutorial-book/
 
-The website is password protected because it is not ready for publication. 
-But it is available to read for who wishes.
-The password is `password`.
-
 Use the top menu bar to change font size, change to sepia or dark mode, and to download the PDF.
 
 # Developer documentation
@@ -120,7 +116,7 @@ cd arabic-tutorial-book
 make
 ```
 
-The created files will be under the `book-output` directory. Open `book-output/index.html` in a browser and `book-output/Learn-Standard-Arabic.pdf` in a PDF viewer.
+The created files will be under the `docs` directory. Open `docs/index.html` in a browser and `docs/Learn-Standard-Arabic.pdf` in a PDF viewer.
 
 To delete created files in order to do a clean build:
 
