@@ -1,5 +1,6 @@
 all:
 	Rscript compilebook.R
+	touch docs/.nojekyll
 clean:
 	Rscript clean.R
 	rm -f *.log
