@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-629-gedf3aa9"
+date: "v0.1.0-630-gad75d11"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -5722,7 +5722,7 @@ Therefore we have translated it as "the boy".
 The annexe noun [كِتَاب]{.ar} is not made definite by [ٱَلْ]{.ar}.
 Nor is it made indefinite by an [n]{.trn}-mark. 
 <!--Its definiteness is determined by the base noun. -->
-Rather, it is defined by the base noun.
+Rather, its definiteness is determined by the base noun.
 Because the base noun [ٱَلْغُلَام]{.ar} is definite, therefore the annexe noun [كِتَاب]{.ar} is also definite.
 The entire annexation is definite.
 <!--If the base noun is definite (as it is above) then the annexe noun shall also be definite.
@@ -5735,7 +5735,8 @@ Consider now the case when the base noun is indefinite.
 
 In the above example, the base noun [غُلَامٍ]{.ar} is indefinite because it has the [n]{.trn}-mark\ [◌ٍ]{.ar} and because it does not prefixed by [ٱَلْ]{.ar}. Therefore we have translated it as "a boy".
 The annexe noun [كِتَاب]{.ar} has neither an [n]{.trn}-mark, nor the prefix [ٱَلْ]{.ar}.
-It is defined by the base noun. Because the base noun [غُلَامٍ]{.ar} is indefinite, therefore the annexe noun [كِتَاب]{.ar} is also indefinite.
+Its definiteness is, again, determined by the base noun.
+Because the base noun [غُلَامٍ]{.ar} is indefinite, therefore the annexe noun [كِتَاب]{.ar} is also indefinite.
 The entire annexation is indefinite.
 
 We will see soon, if [#allAh]{.trn2} wills, why the definiteness of the annexe noun is important.
