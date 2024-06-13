@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-637-ge11ca69"
+date: "v0.1.0-640-g0b163f4"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -852,13 +852,13 @@ We shall discuss this in more detail below.
 
 In Arabic, in terms of their form, nouns that designate animate beings are in three categories:
 
-1. There are separate nouns for the male and female animate being and the nouns are similar to each other.
+1. There are separate nouns for the male and female animate being and the nouns match to each other.
 2. There are separate nouns for the male and female animate being but the nouns are unrelated.
 3. The same noun is used for both sexes.
 
 We will discuss each of these categories below.
 
-#### Similar nouns for male and female animate beings
+#### Matching nouns for male and female animate beings
 
 In Arabic for some nouns that designate animate beings, the nouns for both sexes match each other. Here are some examples:
 <!--
@@ -902,7 +902,7 @@ Note that the vowel-mark before the looped [tAE]{.trn} [ة]{.ar} is always an [a
 Note also that we have divided the table above into two groups. The first group contains nouns that have a primitive meaning, without a primarily adjectival or verbal quality in the meaning, for example "human" "cat", etc. 
 The second group contains nouns that have an adjectival or verbal quality. For example, a "teacher" is someone who teaches. A "friend" is someone who is friendly. And so on.
 
-This grouping will become important when, if [#allAh]{.trn2} wills, you study morphology, and the classification of nouns into primitive and derived nouns. But we can give a short preview here: Basically, for the second group (the one that has adjectival or verbal meanings), the formation of the feminine noun by adding a feminine marker (like [ة]{.ar}) to the masculine noun is normal and expected. Whereas, for the first group (the one that refers to primitive nouns without a verbal or adjectival meaning), the fact that the feminine and masuline nouns are similar and differ only by the feminine marker [ة]{.ar} is something that, although fairly common, is more of a coincidence.
+This grouping will become important when, if [#allAh]{.trn2} wills, you study morphology, and the classification of nouns into primitive and derived nouns. But we can give a short preview here: Basically, for the second group (the one that has adjectival or verbal meanings), the formation of the feminine noun by adding a feminine marker (like [ة]{.ar}) to the masculine noun is normal and expected. Whereas, for the first group (the one that refers to primitive nouns without a verbal or adjectival meaning), the fact that the feminine and masuline nouns match each other and differ only by the feminine marker [ة]{.ar} is something that, although somewhat common, is more of a coincidence.
 
 Another noteworthy point is that, for many primitive nouns (the first group), only one of the masculine/feminine pair may be used to refer to beings of either sex. What we mean by this is that, for example,
 [كَلْب]{.ar} [kalb]{.trn}, while remaining a masculine noun, can be used to refer to both "a (male) dog" and "a (female) dog", especially if the animal's physical gender is not particularly important to what is being said.
@@ -8505,7 +8505,7 @@ Consider the annexation:
 We can apply the preceding discussion of pointing to the annexe noun and base noun to this annexation as well. So we get:
 
 [كِتَابُ هَـٰذَا ٱلزُّبَيْرِ]{.ar}  
-"this book of al-Zubayr"
+"the book of this al-Zubayr"
 
 [كِتَابُ ٱلزُّبَيْرِ هَـٰذَا]{.ar}  
 "this book of al-Zubayr" (usual)  
