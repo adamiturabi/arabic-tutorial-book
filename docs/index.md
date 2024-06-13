@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-640-g0b163f4"
+date: "v0.1.0-641-g389923e"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -1022,9 +1022,9 @@ Similarly,
 Just like we saw for the nouns in section\ \@ref(using-the-same-noun-for-both-sexes),
 such nouns adhere to their fixed grammatical gender when used for either male or female persons.
 
-## Nouns with mismatched gender
+### Nouns with mismatched gender
 
-We saw that there are some nouns that are feminine, but do not end with with a feminine marker like [ة]{.trn}. These were:
+We saw that there are some nouns that are feminine, but do not end with with a feminine marker like [ة]{.ar}. These were:
 
 + [أُمّ]{.ar}   [Eumm]{.trn}    (fem.) "mother"
 + [نَفْس]{.ar}  [nafs]{.trn}    (fem.) "self"
