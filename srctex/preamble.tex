@@ -58,4 +58,16 @@
 \babelfont[arabic]{sf}
           [Language=Default]{Vazirmatn-Light}
 
+% Reduce font size and line spacing for Table of contents
+\usepackage{tocloft}
+
+\renewcommand\cftchapfont{\footnotesize\bfseries}
+\renewcommand\cftsecfont{\footnotesize}
+
+\renewcommand\cftchappagefont{\footnotesize\bfseries}
+\renewcommand\cftsecpagefont{\footnotesize}
+
+\renewcommand\cftchapafterpnum{\vskip -0.2em}
+\renewcommand\cftsecafterpnum {\vskip -0.2em}
+
 %\frontmatter
