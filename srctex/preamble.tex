@@ -5,8 +5,8 @@
 \usepackage{url}
 \usepackage{fancyhdr}
 \usepackage[default]{fontsetup}
-\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-\renewcommand{\sectionmark}[1]{\markright{#1}}
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
 \pagestyle{fancy}
 \fancyhf{}
 %\fancyhead[LE]{\thepage\phantom{xxx}\itshape\nouppercase{Fundamentals of Standard Arabic}}
@@ -18,17 +18,18 @@
 %\fancyhead[RO]{\textsl{\nouppercase{\leftmark}}\phantom{x}\leavevmode\smash{\rlap{\rule[-0.5em]{1pt}{1.5em}\ \thepage}}}
 %\fancyhead[LO]{\itshape\nouppercase{\rightmark}}
 %\fancyhead[LO,RE]{\textsl{\nouppercase{https://adamiturabi.github.io/arabic-tutorial-book/}}}
-\fancyhead[LE,RO]{\thepage}
-\fancyhead[LO]{\itshape\nouppercase{\rightmark}}
-\fancyhead[RE]{\itshape\nouppercase{\leftmark}}
+\fancyhead[LE,RO]{\footnotesize\thepage}
+\fancyhead[LO]{\footnotesize\itshape\nouppercase{\rightmark}}
+\fancyhead[RE]{\footnotesize\itshape\nouppercase{\leftmark}}
 \renewcommand{\headrulewidth}{0pt}
-\fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\scriptsize{Author Names, \textit{Learn Standard Arabic}, \texttt{\gitTag}\\\texttt{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
+
+\fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\tiny{Author Names, \textit{Learn Standard Arabic}, \texttt{\gitTag}\\\url{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
 
 % Footer for chapter start pages:
 \fancypagestyle{plain}{%
 \fancyhf{}
-\fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\scriptsize{Author Names, \textit{Learn Standard Arabic}, \texttt{\gitTag}\\\texttt{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
-\fancyfoot[CO]{\thepage}
+\fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\tiny{Author Names, \textit{Learn Standard Arabic}, \texttt{\gitTag}\\\url{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
+\fancyfoot[CO]{\footnotesize\thepage}
 }
 
 % Blank pages (e.g., left hand pages between chapters should be completely blank. no headers even
@@ -56,5 +57,17 @@
           [Language=Default]{Vazirmatn-Light}
 \babelfont[arabic]{sf}
           [Language=Default]{Vazirmatn-Light}
+
+% Reduce font size and line spacing for Table of contents
+\usepackage{tocloft}
+
+\renewcommand\cftchapfont{\footnotesize\bfseries}
+\renewcommand\cftsecfont{\footnotesize}
+
+\renewcommand\cftchappagefont{\footnotesize\bfseries}
+\renewcommand\cftsecpagefont{\footnotesize}
+
+\renewcommand\cftchapafterpnum{\vskip -0.2em}
+\renewcommand\cftsecafterpnum {\vskip -0.2em}
 
 %\frontmatter
