@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-648-g8d062fd"
+date: "v0.1.0-649-g29d7f13"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -97,9 +97,9 @@ We have also aimed to make this a self-instruction textbook so that a diligent s
 It may also be appropriate to inform the reader that we chose to present a simplified version of Arabic grammar. As such, the grammar presented here may not be entirely consistent with the comprehensive and harmonious framework developed by the Arab grammarians. We chose this approach because we felt that exposing the beginner to complex grammatical details at this stage would be more of a hindrance than a help in learning the language.
 
 This book is produced with the R bookdown package. The code and text are open-sourced and developed at 
-https://github.com/adamiturabi/arabic-tutorial-book.
+[github.com/adamiturabi/arabic-tutorial-book](https://github.com/adamiturabi/arabic-tutorial-book).
 The typeset output is published at 
-https://adamiturabi.github.io/arabic-tutorial-book/.
+[adamiturabi.github.io/arabic-tutorial-book/](https://adamiturabi.github.io/arabic-tutorial-book/).
 
 [The Authors]{.smallcaps}  
 
