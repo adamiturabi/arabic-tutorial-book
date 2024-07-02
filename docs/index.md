@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-648-g8d062fd"
+date: "v0.1.0-650-ge085080"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -97,9 +97,9 @@ We have also aimed to make this a self-instruction textbook so that a diligent s
 It may also be appropriate to inform the reader that we chose to present a simplified version of Arabic grammar. As such, the grammar presented here may not be entirely consistent with the comprehensive and harmonious framework developed by the Arab grammarians. We chose this approach because we felt that exposing the beginner to complex grammatical details at this stage would be more of a hindrance than a help in learning the language.
 
 This book is produced with the R bookdown package. The code and text are open-sourced and developed at 
-https://github.com/adamiturabi/arabic-tutorial-book.
+[github.com/adamiturabi/arabic-tutorial-book](https://github.com/adamiturabi/arabic-tutorial-book).
 The typeset output is published at 
-https://adamiturabi.github.io/arabic-tutorial-book/.
+[adamiturabi.github.io/arabic-tutorial-book/](https://adamiturabi.github.io/arabic-tutorial-book/).
 
 [The Authors]{.smallcaps}  
 
@@ -138,7 +138,7 @@ May the peace and blessings of [#allAh]{.trn2} be upon the Prophet [#muHammad]{.
 
 All languages change naturally over time. For example, English has changed to such a degree that the Old English language spoken 1400 years ago would be unintelligible to us today. So too did the spoken Arabic dialects begin to change. But as part of preserving His religion, [#allAh]{.trn2} preserved the Arabic language as well. This was by means of the efforts of scholars who recorded the original Arabic language of the time of the revelation.
 
-In the process of preserving Arabic, a literary form that was considered more prestigious, emerged from among the various dialects of Arabic. This literary form is called Classical Arabic. Classical Arabic came to be used as the language of science and literature in the [#islAm]{.trn2}ic world. As scholars developed new branches of religious and secular sciences, new terms and meanings were added to it and at this point it is referred to as Standard Arabic. A few words were also borrowed from foreign languages as needed by the different scientific disciplines. These additions were, by and large, deliberate, done by scholars who were experts in their field and also well versed in Classical Arabic, and validated by subsequent generations of scholarly discourse. Besides these needed additions, the grammar and base language remained remarkably unchanged.
+In the process of preserving Arabic, a standard variety emerged from among the various dialects of Arabic. This standard variety is known as Classical Standard Arabic, or simply Classical Arabic. The Arabic dialects used before the emergence of Classical Standard Arabic are then referred to as pre-classical Arabic. Classical Arabic was used as the language of science and literature in the [#islAm]{.trn2}ic world. As scholars developed new branches of religious and secular sciences, new terms and meanings were added to it and at this point it is referred to as post-classical Standard Arabic. A few words were also borrowed from foreign languages as needed by the different scientific disciplines. These additions were, by and large, deliberate, done by scholars who were experts in their field and also well versed in Classical Arabic, and validated by subsequent generations of scholarly discourse. Besides these needed additions, the grammar and base language remained remarkably unchanged.
 
 <!--Ahmad Al-Jallad, Damascus Psalm Fragment, p. 69-->
 While Standard Arabic was thus preserved from major change and was used for literary purposes, the language that was spoken by Arabs in their day-to-day lives continued to change over time from the pre-[#islAm]{.trn2}ic Arabic dialects into the modern colloquial dialects. And so today, there exist two very distinct types of Arabic: the preserved Standard Arabic which is taught at schools and is primarily a written language, and the modern colloquial Arabic dialects which Arabs learn as their mother tongue and which are primarily only spoken and not written.
@@ -147,7 +147,7 @@ In modern times, many new words and meanings have been added to Standard Arabic,
 
 ## Scope of this book
 
-In this book, we will study Standard Arabic. We will focus on the pre-modern language. If [#allAh]{.trn2} wills, this will help you to begin to understand the language of the [#qurEAn]{.trn2}, the [#HadIv]{.trn2}, and [#islAm]{.trn2}ic literature.
+In this book, we will study classical and post-classical Standard Arabic. We will focus on the pre-modern language. If [#allAh]{.trn2} wills, this will help you to begin to understand the language of the [#qurEAn]{.trn2}, the [#HadIv]{.trn2}, and [#islAm]{.trn2}ic literature.
 
 If your goal is to learn Modern Standard Arabic, then this book may still be of help because the core language and the grammar are essentially the same. However, you may prefer to study from a resource that focuses on the modern language.
 
