@@ -121,9 +121,9 @@ This is the _preface_. Test trans [Parf makAn ealayhi pcv machad]{.trn} [◌َ  
 
 this is in [Small Caps]{.smallcaps}.
 
--->
 
 ```{r setup ,echo=FALSE}
 options(tinytex.engine = "lualatex")
 ```
+-->
 
