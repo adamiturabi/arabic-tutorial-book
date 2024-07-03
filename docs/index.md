@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-655-g61e23ea"
+date: "v0.1.0-656-ge321491"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -145,10 +145,17 @@ In the process of preserving Arabic, a standard variety, known as Standard Arabi
 <!--Ahmad Al-Jallad, Damascus Psalm Fragment, p. 69-->
 While Standard Arabic was thus preserved from major change and was used for literary purposes, the language that was spoken by Arabs in their day-to-day lives continued to change over time from the pre-classical Arabic dialects into the modern colloquial dialects. And so today, there exist two very distinct types of Arabic: the preserved Standard Arabic which is taught at schools and is primarily a written language, and the modern colloquial Arabic dialects which Arabs learn as their mother tongue and which are primarily only spoken and not written.
 
+<div class="figure">
+<img src="Learn-Standard-Arabic_files/figure-html/unnamed-chunk-2-1.png" alt="Timeline of the development of Standard Arabic."  />
+<p class="caption">(\#fig:unnamed-chunk-2)Timeline of the development of Standard Arabic.</p>
+</div>
+
 In modern times, many new words and meanings have been added to Standard Arabic, often via translation from Western languages, to keep up with technological advancements and modern media. 
 <!--However, it must be said that these additions have often been done by translators rather than scholars in the field, and have sometimes lacked the deliberation seen in the post-classical additions to Standard Arabic. -->
 This modern development of Standard Arabic is called Modern Standard Arabic. 
 There are also a small amount of words, meanings, and grammatical usages, which existed in Classical Arabic, but which are deemed archaic, and are therefore largely unused, in Modern Standard Arabic.
+
+Figure\ 1.1 (above) depicts this historical development of Standard Arabic.
 
 ## Scope of this book
 
@@ -1202,7 +1209,7 @@ ii. The _information_. This gives us some information about the subject.
 
 Here is a subject-information sentence:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
 
 <!--"The building is a house."-->
 
@@ -1224,7 +1231,7 @@ ii. [بَيْتٌ]{.ar} [baytun]{.trn} (masc.) "a house" (u-state)
 
 In order to form this sentence in Arabic, we put the subject first and then the information. So we get:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
 
 <!--
 [ٱَلْبِنَاءُ بَيْتٌ.]{.ar}  
@@ -2844,13 +2851,13 @@ We take this opportunity to introduce some grammatical terminology. The descript
 i. The adjective "big". It is describing the car. We will call it the _describer_ in the noun-phrase.
 ii. The common noun "a car": It is being described by the describer. We will call it the _describee_.
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
 
 We will reserve this terminology of _describer_ and _describee_ only for the noun and adjective in an descriptive noun-phrase. So we won't use this terminology for the sentence: "The car is big."
 
 Instead, here we will continue to use the existing terminology of _subject_ and _information_. The definite noun "the car" is the subject of this sentence, and the adjective "big" is the information.
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
 
 ## Adjectival nouns in English
 
@@ -2937,7 +2944,7 @@ In English descriptive noun-phrases, like "the small house", the adjective descr
 
 Here is the equivalent Arabic descriptive noun-phrase:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
 
 <!--
 [ٱَلْبَيْتُ ٱلصَّغِيرُ]{.ar}  
@@ -3007,7 +3014,7 @@ See how we preferred to use the masculine adjectival noun [طَيِّب]{.ar} [T
 
 Let's see how to use Arabic adjectival nouns as the information of a sentence.
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
 
 <!--
 [ٱَلْبَيْتُ صَغِيرٌ.]{.ar}  
@@ -5653,7 +5660,7 @@ Arabic expresses this meaning using a construction called _annexation_. In this 
 
 The word "annexation" means the addition of a new _annexed_ item to an existing _base_ item. We use the term _annexation_ in Arabic grammar when an _annexe_ noun is annexed to a _base_ noun by being placed right before it. Here is an example of an annexation:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
 
 <!--"the boy's book"  -->
 
@@ -6035,7 +6042,7 @@ So far we have seen annexations with two nouns. Annexations may be arbitrarily l
 "the house's door's key"
 -->
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
 
 The above annexation consists of three nouns. It may be divided into two sub-annexations:
 
@@ -7538,7 +7545,7 @@ Before we proceed with our discussion on proper nouns, we will take a short digr
 A _replacement_ is a word that follows another word, the _replacee_, and replaces it from the perspective of the grammar of the sentence. The replacement is put in the same state as the replacee.
 Here is an example of a sentence with a replacement and a replacee:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
 
 In the above sentence, the word [كِتَابًا]{.ar} "a book" is the replacement of 
 [شَيْـًٔا]{.ar} "something". Therefore, it is put in the same a-state.
@@ -8155,7 +8162,7 @@ Examples:
 
 Consider the following expression:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
 
 The word "this" is what we will call a _pointing noun_. We call it this because we can imagine standing next to a book and pointing to it and saying "this book".
 
@@ -8220,7 +8227,7 @@ Remember from chapter\ \@ref(adjectival-nouns-and-descriptive-noun-phrases) that
 
 Here is an example of a descriptive noun-phrase in a sentence.
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-14-1.png)<!-- -->
 
 We will now see how this same descriptive noun-phrase can be used with pointing nouns.
 
@@ -8238,7 +8245,7 @@ above that pointing nouns are definite.
 So, if a pointing noun is a describer in a noun-phrase, the describee has to be definite too.
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-14-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-15-1.png)<!-- -->
 
 In the above example, the pointed-to noun [ٱَلْكِتَابَيْنِ]{.ar} is the describee in a descriptive noun-phrase. It is definite, in the a-state, masculine, and dual.
 
@@ -8251,7 +8258,7 @@ The pointing noun is then a replacee (see section\ \@ref(the-replacement)), and 
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-15-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-16-1.png)<!-- -->
 
 In the above example, the 
 pointing noun [هَـٰذَيْنِ]{.ar} 
@@ -8374,7 +8381,7 @@ Before we give more examples, let's analyze these phrases in detail.
 
 Consider the first pointing noun phrase:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-16-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-17-1.png)<!-- -->
 
 As you can see the pointing noun
 [هَـٰذَا]{.ar} has taken the place of 
@@ -8392,7 +8399,7 @@ The more natural translation is:
 
 Consider, now, the second pointing noun phrase:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-17-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-18-1.png)<!-- -->
 
 [ٱَلرَّجُل]{.ar}, here, keeps its place as the base noun in the annexation.
 In addition to being the base noun,
@@ -8457,7 +8464,7 @@ Let's analyze the expression
 "this book of the man"
 in detail:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-18-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-19-1.png)<!-- -->
 
 [كِتَاب]{.ar}, here, is both and annexe noun and a describee.
 Its describer is the pointing noun
@@ -8584,7 +8591,7 @@ So, we are left with only one option: the annexe noun [كِتَاب]{.ar} is the
 [كِتَابُهُ هَـٰذَا]{.ar}  
 "this book of his"
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-19-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-20-1.png)<!-- -->
 
 Here are some more examples:
 
@@ -8592,7 +8599,7 @@ Here are some more examples:
 
 Besides their use in pointing noun phrases, pointing nouns are very often used as the subject of a sentence. For example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-20-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-21-1.png)<!-- -->
 
 The pointing noun is (usually) made to match the information in number and gender. Examples:
 
@@ -8630,7 +8637,7 @@ The information may be a single word (as above) or more complex (as below):
 
 If the information is a noun that begins with [ٱَلْ]{.ar} then it may be placed after the pointing noun subject in the same manner:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-21-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-22-1.png)<!-- -->
 
 While the this is permitted and correct, it may be sometimes confused with for the pointing noun phrase "this man". So, in the same way that we learned in
 section\ \@ref(chap-smp-sent-sec-def-info),
