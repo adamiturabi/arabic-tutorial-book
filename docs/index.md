@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-659-g4a32f25"
+date: "v0.1.0-660-g76053fb"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -119,9 +119,9 @@ This is the _preface_. Test trans [Parf makAn ealayhi pcv machad]{.trn} [◌َ  
 
 this is in [Small Caps]{.smallcaps}.
 
+
+
 -->
-
-
 
 
 <!--chapter:end:index.Rmd-->
