@@ -4,6 +4,6 @@ for FILE in *.pdf; do
   echo "${FILE%.*}"
   echo "${FILE#*.}"
   magick -density 150 -quality 100 $FILE "${FILE%.*}.png"
+  mv -f "${FILE%.*}.png" ../../docs/Learn-Standard-Arabic_files/figure-html/
 done
-mv -f *.png ../../docs/Learn-Standard-Arabic_files/figure-html/
 

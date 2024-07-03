@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-661-g11578ab"
+date: "v0.1.0-663-g43929d6"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9781,6 +9781,15 @@ $\emptyset$-mark. Examples:
 
 [لِتَجْلِسُوا عَلَى ٱلْأَرْضِ.]{.ar}  
 "You should sit on the ground!"
+
+FIXME: Use with the addressee is exceedingly rare. Rather the verb of command should be used (below). See [كتاب شرح المفصل لابن يعيش]{.ar} vol 4 p. 691. Add (perhaps in passive verbs chapter), how [لام الأمر]{.ar} can be used with passive verbs for all three deputy doers, including addressee, and is infact the only way to command the deputy doer.
+
+Also, jussive without [لام الأمر]{.ar} is only by poetic license.  See same source in the next following pages.
+
+<!--فمن ذلك ما ليس للفاعل، وهو فعلُ ما لم يسمّ فاعلُه، إذا أمرت به، لزمتْه اللام، نحوُ: "لتُعْنَ بحاجتي"، و"لتُوضَعْ في تجارتك"، و"لتُزْهَ علينا يا رجلُ". فهذا القبيل لا بد فيه من اللام، وإن كان مخاطبًا حاضرًا؛ لأنّ هذا الفعل قد لحقه التغييرُ بحذف فاعله وتغييرِ بنيته، فلم تحذف منه اللام أيضًا وحرف المضارعة لئلا يكون إجحافًا به، وإذا لم يجز الحذف مع المخاطب، فان لا يجوز مع الغائب أولى
+-->
+
+https://shamela.ws/book/13301/1655#p1
 
 ### With [لَا]{.ar} for prohibitions {#la-of-prohibition}
 
