@@ -1,6 +1,7 @@
 all:
 	Rscript compilebook.R
 	touch docs/.nojekyll
+	rm -rf Learn-Standard-Arabic_files
 clean:
 	Rscript clean.R
 	rm -f *.log
