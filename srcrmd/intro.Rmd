@@ -10,17 +10,93 @@ May the peace and blessings of [#allAh]{.trn2} be upon the Prophet [#muHammad]{.
 
 All languages change naturally over time. For example, English has changed to such a degree that the Old English language spoken 1400 years ago would be unintelligible to us today. So too did the spoken Arabic dialects begin to change. But as part of preserving His religion, [#allAh]{.trn2} preserved the Arabic language as well. This was by means of the efforts of scholars who recorded the original Arabic language of the time of the revelation.
 
-In the process of preserving Arabic, a standard variety, known as Standard Arabic, emerged from among the various dialects of Arabic. Standard Arabic has a classical period centering around the third century of the [#islAm]{.trn2}ic era. During this period, it is called classical Standard Arabic, or simply Classical Arabic[^1]. The Arabic dialects, from which classical Standard Arabic emerged, are then referred to, collectively, as pre-classical Arabic. Classical Arabic was used as the language of religious scholarship, science, and literature in the [#islAm]{.trn2}ic world. As scholars developed new branches of religious and secular sciences, new terms and meanings were added to it that are termed post-classical. A few words were also borrowed from foreign languages and Arabicized, as needed by the different scientific disciplines. (Pre-classical Arabic itself had a few Arabicized foreign borrowings from neighboring languages.) These additions were, by and large, deliberate, done by scholars who were experts in their fields and also well versed in Classical Arabic, and validated by subsequent generations of scholarly discourse. Besides these needed additions, the grammar and core language remained remarkably unchanged.
+In the process of preserving Arabic, a standard variety, known as Standard Arabic, emerged from among the various dialects of the Arabic of the early-[#islAm]{.trn2}ic period. Standard Arabic has a classical period centering around the third century of the [#islAm]{.trn2}ic era, during which it is called classical Standard Arabic, or simply Classical Arabic[^1]. The Arabic dialects of the late pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic periods are then referred to, collectively, as pre-classical Arabic. Classical Arabic was used as the language of religious scholarship, science, and literature in the [#islAm]{.trn2}ic world. As scholars developed new branches of religious and secular sciences, new terms and meanings were added to it that are termed post-classical. A few words were also borrowed from foreign languages and Arabicized, as needed by the different scientific disciplines. (Pre-classical Arabic itself had a few Arabicized foreign borrowings from neighboring languages.) These additions were, by and large, deliberate, done by scholars who were experts in their fields and also well versed in Classical Arabic, and validated by subsequent generations of scholarly discourse. Besides these needed additions, the grammar and core language remained remarkably unchanged.
 
-[^1]: Classical Arabic is not a very well defined term, and other authors may use it to also include the early [#islAm]{.trn2}ic and pre-[#islAm]{.trn2}ic dialects.
+[^1]: The term _Classical Arabic_ is not very precisely defined, and other authors may use it to also include the early [#islAm]{.trn2}ic and pre-[#islAm]{.trn2}ic dialects.
 
 <!--Ahmad Al-Jallad, Damascus Psalm Fragment, p. 69-->
 While Standard Arabic was thus preserved from major change and was used for literary purposes, the language that was spoken by Arabs in their day-to-day lives continued to change over time from the pre-classical Arabic dialects into the modern colloquial dialects. And so today, there exist two very distinct types of Arabic: the preserved Standard Arabic which is taught at schools and is primarily a written language, and the modern colloquial Arabic dialects which Arabs learn as their mother tongue and which are primarily only spoken and not written.
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex"), fig.cap='Timeline of the development of Standard Arabic.'}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+
+%\tikzset{>=latex} % for LaTeX arrow head
+
+% TIMELINE - simple test
+
+  % limits
+  \newcount\yearOne; \yearOne=-200
+  \def\w{15}    % width of axes
+  \def\n{8}     % number of markers
+  \def\interv{200}     % number of years between markers
+  \def\lt{0.20} %  marker tick length
+  %\def\lf{0.36} % five tick length
+  %\def\lo{0.30} %  one tick length
+
+  % help functions
+  \def\yearLabel(#1,#2){\node[above] at ({((#1-\yearOne)/\n/\interv)*\w},\lt) {#2};}
+  \def\yearLabelBelow(#1,#2){\node[below] at ({((#1-\yearOne)/\n/\interv)*\w},-\lt) {#2};}
+  \def\yearLabelLine(#1,#2){\node[] at ({((#1-\yearOne)/\n/\interv)*\w},0) {#2};}
+  \def\yearArrowLabel(#1,#2,#3,#4){
+    \def\xy{{(#1-\yearOne)*\w/\n/\interv}}; \pgfmathparse{int(#2*100)};
+    \ifnum \pgfmathresult<0
+      \def\yyp{{(\lt*(0.90+#2))}}; \def\yyw{{(\yyp-\lt*#3)}}
+      \draw[<-,thick,black,align=center] (\xy,\yyp) -- (\xy,\yyw) node[below,black] at (\xy,\yyw) {#4};
+    \else
+      \def\yyp{{(\lt*(0.10+#2)}}; \def\yyw{{(\yyp+\lt*#3)}}
+      \draw[<-,thick,black,align=center] (\xy,\yyp) -- (\xy,\yyw) node[above,black] at (\xy,\yyw) {#4};
+    \fi}
+
+  % axis
+  %\draw[thick] (0,0) -- (\w,0);
+  \draw[->,thick] (-\w*0.03,0) -- (\w*1.03,0);
+
+  % ticks
+  \foreach \tick in {0,1,...,\n}{
+    \def\x{{\tick*\w/\n}}
+    \def\year{\the\numexpr \yearOne+\tick*\interv \relax}
+	  \ifnum \year>0
+      \draw[thick] (\x,\lt) -- (\x,-\lt) % marker tick
+	             node[below] {\year};
+    \else
+	    \ifnum \year=0
+        \draw[thick] (\x,\lt) -- (\x,-\lt) % marker tick
+	             node[below] {};
+      \fi
+    \fi
+
+	%\ifnum \tick<\n
+	%  \draw[thick] ({(\x+\w/\n/2)},0) -- ({(\x+\w/\n/2)},\lf); % five tick
+  %    \foreach \ticko in {1,2,3,4,6,7,8,9}{
+  %      \def\xo{{(\x+\ticko*\w/\n/10)}}
+  %	    \draw[thick] (\xo,0) -- (\xo,\lo);  % one tick
+	%}\fi
+  }
+
+  %\node[above] at ({14},\lt) {Modern Standard Arabic};
+
+  % label
+  \yearLabel(250,Classical Arabic)
+  \yearLabel(1300,Modern Standard Arabic)
+  \yearLabel(-100,Pre-classical Arabic)
+  \yearLabelBelow(0,the Hijrah)
+  \yearLabelBelow(1470,\textsc{ah})
+  %\yearArrowLabel(1932.2, 1.0,1.0,foo)
+  %\yearArrowLabel(1937.2, 1.0,1.5,foo bar)
+  %\yearArrowLabel(1, 0.0,1.5,Quran revealed)
+  %\yearArrowLabel(1,-1.0,2.0,\small Quran revealed)
+  %\yearArrowLabel(1924.2,-1.2,1.2,$p\lambda=h$)
+
+\end{tikzpicture}
+```
 
 In modern times, many new words and meanings have been added to Standard Arabic, often via translation from Western languages, to keep up with technological advancements and modern media. 
 <!--However, it must be said that these additions have often been done by translators rather than scholars in the field, and have sometimes lacked the deliberation seen in the post-classical additions to Standard Arabic. -->
 This modern development of Standard Arabic is called Modern Standard Arabic. 
 There are also a small amount of words, meanings, and grammatical usages, which existed in Classical Arabic, but which are deemed archaic, and are therefore largely unused, in Modern Standard Arabic.
+
+Figure\ 1.1 (above) depicts this historical development of Standard Arabic.
 
 ## Scope of this book
 
