@@ -1,0 +1,52 @@
+# [إِنَّ]{.ar} and its sisters
+
+## Introduction
+
+In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{مُعَلِّمٌ} \txarb{ٱَلرَّجُلُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize information};
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize subject};
+
+\path (0,0) node [midway, below=4.5ex, right=0ex, align=left] {``The man is a teacher.'')};
+
+\end{tikzpicture}
+```
+
+In the above sentence both the subject [ٱَلرَّجُلَ]{.ar} "the man", and the information [مُعَلِّمٌ]{.ar} "a teacher" are in the u-state. In this chapter we will study a family of particles, called
+[إِنَّ]{.ar} and its sisters,
+that modify the subject-information sentence by placing the subject in the a-state instead of the u-state. For example,
+
+[إِنَّ ٱلرَّجُلَ مُعَلِّمٌ.]{.ar}  
+[Einna -rrajula mueallimun.]{.trn}  
+"Indeed the man is a teacher."
+
+Note how, in the above example, the subject [ٱَلرَّجُلَ]{.ar} "the man" is now in the a-state. The information [مُعَلِّمٌ]{.ar} "a teacher" remains in the u-state. 
+
+The particles constituting the family of 
+[إِنَّ]{.ar} and its sisters
+are:
+
+1. [إِنَّ]{.ar}  [Einna]{.trn}
+1. [أَنَّ]{.ar}  [Eanna]{.trn}
+1. [كَأَنَّ]{.ar}  [kaEanna]{.trn}
+1. [لَـٰكِنَّ]{.ar}  [lAkinna]{.trn}
+1. [لَيْتَ]{.ar}  [layta]{.trn}
+1. [لَعَلَّ]{.ar}  [laealla]{.trn}
+
+We shall now study each of these particles.

@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-664-g615de1e"
+date: "v0.1.0-665-g3e4d115"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -10040,6 +10040,39 @@ Examples of usage:
 
 
 <!--chapter:end:srcrmd/imperfect_verb_juss.Rmd-->
+
+# [إِنَّ]{.ar} and its sisters
+
+## Introduction
+
+In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-23-1.png)<!-- -->
+
+In the above sentence both the subject [ٱَلرَّجُلَ]{.ar} "the man", and the information [مُعَلِّمٌ]{.ar} "a teacher" are in the u-state. In this chapter we will study a family of particles, called
+[إِنَّ]{.ar} and its sisters,
+that modify the subject-information sentence by placing the subject in the a-state instead of the u-state. For example,
+
+[إِنَّ ٱلرَّجُلَ مُعَلِّمٌ.]{.ar}  
+[Einna -rrajula mueallimun.]{.trn}  
+"Indeed the man is a teacher."
+
+Note how, in the above example, the subject [ٱَلرَّجُلَ]{.ar} "the man" is now in the a-state. The information [مُعَلِّمٌ]{.ar} "a teacher" remains in the u-state. 
+
+The particles constituting the family of 
+[إِنَّ]{.ar} and its sisters
+are:
+
+1. [إِنَّ]{.ar}  [Einna]{.trn}
+1. [أَنَّ]{.ar}  [Eanna]{.trn}
+1. [كَأَنَّ]{.ar}  [kaEanna]{.trn}
+1. [لَـٰكِنَّ]{.ar}  [lAkinna]{.trn}
+1. [لَيْتَ]{.ar}  [layta]{.trn}
+1. [لَعَلَّ]{.ar}  [laealla]{.trn}
+
+We shall now study each of these particles.
+
+<!--chapter:end:srcrmd/inna_and_its_sisters.Rmd-->
 
 # (APPENDIX) Appendix {-}
 
