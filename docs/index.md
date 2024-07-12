@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-665-g3e4d115"
+date: "v0.1.0-671-ga4d2d7f"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9257,7 +9257,7 @@ this indicates that Zaynab usually sits on this chair.
 
 If this usage of the doer verbal-noun to indicate a present action is mostly only for verbs of posture and motion, how then do we indicate this distinction for other verbs? We have answered this in section [TODO: add section to incomplete-action verb] where we said that in order to give the meaning that the action of the verb is happening right now, a verbal sentence can be converted to a subject-information sentence. 
 
-### Usage of the doer verbal-noun as a future tense verb
+### Usage of the doer verbal-noun as a future tense verb {#doer-verbal-noun-for-intended-future-action}
 
 The doer verbal-noun may be used in place of the verb it is derived from to indicate an intent on the part of the doer, or to indicate that the action will occur in the future.
 
@@ -10071,6 +10071,126 @@ are:
 1. [لَعَلَّ]{.ar}  [laealla]{.trn}
 
 We shall now study each of these particles.
+
+## [إِنَّ]{.ar} [Einna]{.trn}
+
+[إِنَّ]{.ar} [Einna]{.trn} is used to begin independent sentences. It has an emphatic meaning, as if the speaker is asserting the information about the subject. It is often translated into English as "indeed" or "verily", but it is also often left untranslated.
+
+[إِنَّ]{.ar} [Einna]{.trn} is only used to begin subject-information sentences. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.). For example,
+
+[إِنَّ ٱلدِّينَ عِنْدَ ٱللَّـٰهِ ٱلْإِسْلَامُ.]{.ar}  
+[Einna -ddIna einda -llAhi -lEislAmu.]{.trn}  
+"Indeed, the religion in the sight of [#allAh]{.trn2} is [#islAm]{.trn2}." ([#qurEAn]{.trn2}\ 3:19, trans. Saheeh International)
+
+[إِنَّ]{.ar} [Einna]{.trn} 
+may be preceded by other particles like [وَ]{.ar} "and", [فَ]{.ar} "so", and [ثُمَّ]{.ar} "then". For example,
+
+[ٱُطْلُبِ ٱلْعِلْمَ ٱلنَّافِعَ. فَإِنَّ طَلَبَ ٱلْعِلْمَ ٱلنَّافِعَ عَمَلٌ صَالِحٌ. وَإِنَّ تَرْكَهُ غَفْلَةٌ.]{.ar}
+"Seek the useful knowledge. For indeed the seeking of the useful knowledge is a good deed. And indeed leaving it is a negligence."
+
+The subject of
+[إِنَّ]{.ar} [Einna]{.trn} 
+may be a noun phrase, in which case, any describers or replacements of the subject are also in the a-state. Examples:
+
+[إِنَّ هَـٰؤُلَاءِ ٱلرِّجَالَ ٱلْكِرَامَ أَصْدِقَائِي.]{.ar}  
+"Indeed these noble men are my friends."
+
+[إِنَّ]{.ar} [Einna]{.trn} may have multiple subjects, each in the a-state, separated by [وَ]{.ar}. Example,
+
+[إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَاتِ يَعْبُدُونَ ٱللَّـٰهَ.]{.ar}  
+"Indeed the Muslim men and Muslim women worship [#allAh]{.trn2}."
+
+[إِنَّ]{.ar} [Einna]{.trn} may be used to begin sentences with an indefinite subject. For example,
+
+[إِنَّ مَلِكًا مِنَ ٱلْهِنْدِ كَتَبَ إِلَىٰ أَحَدِ وُزَرَائِهِ.]{.ar}  
+"Indeed a king from India wrote to one of his ministers."
+
+Note that in all the above examples that
+[إِنَّ]{.ar} [Einna]{.trn} is only used to begin subject-information sentences. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.).
+By default, the subject of [إِنَّ]{.ar} [Einna]{.trn} must directly follow it with no intervening words or particles. The only exception is when the information consists of a prepositional or adverbial phrase, it is then allowed to precede the subject. The subject, in any case, shall be in the a-state. For example,
+
+[إِنَّ فِي ٱلْبَيْتِ رَجُلًا.]{.ar}  
+"Indeed, in the house, is a man."
+
+[إِنَّ تَحْتَ ٱلشَّجَرَةِ كَنْزًا ثَمِينًا.]{.ar}  
+"Indeed, under the tree, is a precious treasure."
+
+This reverse order is permitted even when the subject is definite. For example,
+
+[إِنَّ مَعَكَ صَاحِبَكَ.]{.ar}  
+"Indeed, with you, is _your companion_."
+
+This puts the logical accent on the subject [صَاحِبَكَ]{.ar} "your companion". If the subject is placed first then this puts the logical accent on the information:
+
+[إِنَّ صَاحِبَكَ مَعَكَ.]{.ar}  
+"Indeed your companion is _with_ you."
+
+If the subject contains a pronoun that refers to a noun in the information then the information must precede the subject. For example,
+
+[إِنَّ فِي ٱلْمَصْنَعِ عُمَّالَهُ.]{.ar}  
+"Indeed, in the factory, are its workers."
+
+[إِنَّ أَمَامَ ٱلدَّارِ حَارِسَهَا.]{.ar}  
+"Indeed, in front of the door, is its guard."
+
+### Pronoun subjects
+
+<!--In the examples above, the subject of [إِنَّ]{.ar} has been a noun. -->
+The subject of [إِنَّ]{.ar} may be a pronoun instead of a noun. For this the attached pronouns are used. For example,
+
+[لَا تَقْطَعْ تِلْكَ ٱلشَّجَرَةَ فَإِنَّهَا ظَلِيلَةٌ.]{.ar}  
+"Don't cut that tree, for it is shady."
+
+[إِنَّكُمَا صَدِيقَايَ.]{.ar}  
+"You~2~ are my friends."
+
+The speaker pronouns, both singular and plural, may optionally keep or drop their [ن]{.ar}. 
+So for the singular speaker pronoun both [إِنَّنِي]{.ar} [EinnanI]{.trn} and [إِنِّي]{.ar} [EinnI]{.trn} may be used.
+And for the plural speaker pronoun both [إِنَّنَا]{.ar} [EinnanA]{.trn} and [إِنَّا]{.ar} [EinnA]{.trn} may be used.
+Examples:
+
+[إِنِّي مُسْلِمٌ.]{.ar} or [إِنَّنِي مُسْلِمٌ.]{.ar}  
+"Indeed I am a Muslim."
+
+[إِنَّنَا كَاتِبُو هَـٰذَا ٱلْكِتَابَ.]{.ar} or [إِنَّا كَاتِبُو هَـٰذَا ٱلْكِتَابَ.]{.ar}  
+"Indeed we are the writers of this book."
+
+[إِنَّ]{.ar} with the speaker pronouns are often used with doer verbal nouns to signify that the speaker intends to to the action of the verb. For example,
+
+[إِنِّي ذَاهِبٌ إِلَىٰ ٱلْمَسْجِدِ.]{.ar}  
+"I'm going to the mosque."
+
+We also mentioned this point in section\ \@ref(doer-verbal-noun-for-intended-future-action).
+
+### [إِنَّ]{.ar} [Einna]{.trn} with a strengthening [لَ]{.ar}
+
+The strengthening particle [لَ]{.ar} adds extra emphasis and may optionally be used between the subject of [إِنَّ]{.ar} and its information.
+If the subject occurs first (as is the default) then [لَ]{.ar} is connected to and placed directly before the information. For example:
+
+[إِنَّ زَيْدًا لَقَائِمٌ.]{.ar}  
+"Indeed Zayd is definitely standing."
+
+If the information precedes the subject, then then [لَ]{.ar} is connected to and placed directly before the subject. For example:
+
+[إِنَّ فِي ٱلْبَيْتِ لَرَجُلًا.]{.ar}  
+"Indeed, in the house, is definitely a man."
+
+The strengthening particle [لَ]{.ar} is only used with [إِنَّ]{.ar} and not for any of its other sisters
+([إِنَّ]{.ar},
+[أَنَّ]{.ar},
+[كَأَنَّ]{.ar},
+[لَـٰكِنَّ]{.ar},
+[لَيْتَ]{.ar}, and
+[لَعَلَّ]{.ar}).
+
+### Commonality of rules for [إِنَّ]{.ar} and its sisters
+
+Unless otherwise noted, the rules we have presented above for 
+[إِنَّ]{.ar},
+for example, the subject being in the a-state, the order of the subject and the predicate, the use of attached pronouns for the subject, etc.,
+apply also to its other sisters. 
+
+The strengthening particle [لَ]{.ar}, as mentioned above, is only used with [إِنَّ]{.ar} and not for any of its other sisters.
 
 <!--chapter:end:srcrmd/inna_and_its_sisters.Rmd-->
 
