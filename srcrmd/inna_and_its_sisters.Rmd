@@ -186,3 +186,88 @@ for example, the subject being in the a-state, the order of the subject and the 
 apply also to its other sisters. 
 
 The strengthening particle [لَ]{.ar}, as mentioned above, is only used with [إِنَّ]{.ar} and not for any of its other sisters.
+
+## [أَنَّ]{.ar} [Eanna]{.trn}
+
+The particle 
+[أَنَّ]{.ar} [Eanna]{.trn}
+can be translated as "that".
+It is similar to [إِنَّ]{.ar} in that it is asserts the information about the subject.
+But 
+[أَنَّ]{.ar} is different from [إِنَّ]{.ar} in that [إِنَّ]{.ar}, its subject, and its information together constitute a complete sentence.
+Whereas 
+the
+[أَنَّ]{.ar}
+clause
+([أَنَّ]{.ar}
+, its subject, and its information together) does not constitute a complete sentence. For example, consider the expression:
+
+[زَيْدٌ صَادِقٌ.]{.ar}  
+"Zayd is truthful."
+
+This is a complete sentence. But if we add 
+[أَنَّ]{.ar} "that" to its beginning, it no longer remains a complete sentence:
+
+[أَنَّ زَيْدًا صَادِقٌ]{.ar}  
+"that Zayd is truthful"
+
+We need to additional words, external to the 
+[أَنَّ]{.ar}
+clause
+to complete the sentence. We will see examples of this below.
+
+### The [أَنَّ]{.ar} clause as a direct doee
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{أَنَّ زَيْدًا صَادِقٌ} \txarb{أَعْلَمُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below] {\scriptsize direct doee};
+
+\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``I know that Zayd is truthful.''};
+
+\end{tikzpicture}
+```
+
+Note how, in the example above the 
+[أَنَّ]{.ar}
+clause
+([أَنَّ زَيْدًا صَادِقٌ]{.ar})
+has occupied the place of the direct doee of the verb [أَعْلَمُ]{.ar}.
+
+In a similar manner,
+[أَنَّ]{.ar}
+clauses can be placed where one would expect other noun positions, such as: a subject, an information, a doer, and more. Here are some examples:
+
+### The [أَنَّ]{.ar} clause as a doer
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{أَنَّكَ مَرِيضٌ} \txarb{بَلَغَنِي},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below] {\scriptsize doer};
+
+\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``That you are sick has reached me.''};
+
+\end{tikzpicture}
+```
+
+
