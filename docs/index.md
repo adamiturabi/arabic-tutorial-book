@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-676-g8f3a0dd"
+date: "v0.1.0-678-g73a6d37"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -10281,11 +10281,13 @@ Example:
 
 As you know, [كَانَ]{.ar}'s doer is also its subject, and its doee is also its information.
 The [أَنَّ]{.ar} clause can occur in either the subject or the information of [كَنَ]{.ar}. 
-For example:
+For example (as the information):
 
 ![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-28-1.png)<!-- -->
 
 "The matter was that he didn't do his obligation."
+
+Now as the subject:
 
 ![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-29-1.png)<!-- -->
 
