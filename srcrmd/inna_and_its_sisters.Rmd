@@ -23,7 +23,7 @@ In the basic subject-information sentence, both the subject and the information 
    (word-2.north west) -- (word-2.north east)
       node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize subject};
 
-\path (0,0) node [midway, below=4.5ex, right=0ex, align=left] {``The man is a teacher.'')};
+\path (0,0) node [midway, below=4.5ex, right=0ex, align=left] {``The man is a teacher.''};
 
 \end{tikzpicture}
 ```
@@ -216,7 +216,7 @@ We need to additional words, external to the
 clause
 to complete the sentence. We will see examples of this below.
 
-### The [أَنَّ]{.ar} clause as a direct doee
+### The [أَنَّ]{.ar} clause in place of the direct doee
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -233,10 +233,12 @@ to complete the sentence. We will see examples of this below.
    (word-1.south west) -- (word-1.south east)
       node [midway, below] {\scriptsize direct doee};
 
-\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``I know that Zayd is truthful.''};
+%\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``I know that Zayd is truthful.''};
 
 \end{tikzpicture}
 ```
+
+"I know that Zayd is truthful."
 
 Note how, in the example above the 
 [أَنَّ]{.ar}
@@ -248,7 +250,9 @@ In a similar manner,
 [أَنَّ]{.ar}
 clauses can be placed where one would expect other noun positions, such as: a subject, an information, a doer, and more. Here are some examples:
 
-### The [أَنَّ]{.ar} clause as a doer
+### The [أَنَّ]{.ar} clause in place of the doer
+
+Example:
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -265,9 +269,91 @@ clauses can be placed where one would expect other noun positions, such as: a su
    (word-1.south west) -- (word-1.south east)
       node [midway, below] {\scriptsize doer};
 
-\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``That you are sick has reached me.''};
+%\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``That you are sick has reached me.'' (``It has reached me that you are sick.'')};
 
 \end{tikzpicture}
 ```
+
+"That you are sick has reached me." ("It has reached me that you are sick.")
+
+### The [أَنَّ]{.ar} clause in place of the subject
+
+Example (with information before subject in sentence word order):
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{أَنَّهُ كَرِيمٌ} \txarb{مِنْ صِفَاتِهِ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below] {\scriptsize subject};
+
+%\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``From his characteristeics is that he is noble.''};
+
+\end{tikzpicture}
+```
+
+"From his characteristeics is that he is noble."
+
+### The [أَنَّ]{.ar} clause in place of the information
+
+Example:
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{أَنَّهُ ذَهَبَ} \txarb{ٱَلْحَقُّ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below] {\scriptsize information};
+
+%\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``The truth is that he went.''};
+
+\end{tikzpicture}
+```
+
+"The truth is that he went."
+
+### The [أَنَّ]{.ar} clause in place of an i-state noun
+
+The [أَنَّ]{.ar} clause can occur in place of an i-state base noun in an annexation. Example:
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{أَنَّ ٱلسَّفَرَ خَطِرٌ} \txarb{كَثُرَ قَاطِعُو ٱلطَّرِيقِ لِدَرَجَةِ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below] {\scriptsize base noun};
+
+%\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``The truth is that he went.''};
+
+\end{tikzpicture}
+```
+
+"The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous."
+
+The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly following a preposition. Example:
 
 
