@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-671-ga4d2d7f"
+date: "v0.1.0-676-g8f3a0dd"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -10100,6 +10100,18 @@ may be a noun phrase, in which case, any describers or replacements of the subje
 [إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَاتِ يَعْبُدُونَ ٱللَّـٰهَ.]{.ar}  
 "Indeed the Muslim men and Muslim women worship [#allAh]{.trn2}."
 
+If the information of the first subject has been mentioned before the second subject, then the second subject may optionally be in the a-state or the u-state. For example:
+
+[إِنَّ زَيْدًا جَالِسٌ وَعَمْرًا.]{.ar}  
+or  
+[إِنَّ زَيْدًا جَالِسٌ وَعَمْرٌو.]{.ar}  
+"Indeed Zayd is sitting and [e#amr]{.trn2} [as well]."
+
+[إِنَّ هَـٰذَا ٱلْكِتَابَ لِي وَذَ ٰلِكَ ٱلْكِتَابَ لَكَ.]{.ar}  
+or  
+[إِنَّ هَـٰذَا ٱلْكِتَابَ لِي وَذَ ٰلِكَ ٱلْكِتَاكُ لَكَ.]{.ar}  
+"Indeed this book is for me and that book is for you."
+
 [إِنَّ]{.ar} [Einna]{.trn} may be used to begin sentences with an indefinite subject. For example,
 
 [إِنَّ مَلِكًا مِنَ ٱلْهِنْدِ كَتَبَ إِلَىٰ أَحَدِ وُزَرَائِهِ.]{.ar}  
@@ -10149,10 +10161,14 @@ So for the singular speaker pronoun both [إِنَّنِي]{.ar} [EinnanI]{.trn}
 And for the plural speaker pronoun both [إِنَّنَا]{.ar} [EinnanA]{.trn} and [إِنَّا]{.ar} [EinnA]{.trn} may be used.
 Examples:
 
-[إِنِّي مُسْلِمٌ.]{.ar} or [إِنَّنِي مُسْلِمٌ.]{.ar}  
+[إِنِّي مُسْلِمٌ.]{.ar}  
+or  
+[إِنَّنِي مُسْلِمٌ.]{.ar}  
 "Indeed I am a Muslim."
 
-[إِنَّنَا كَاتِبُو هَـٰذَا ٱلْكِتَابَ.]{.ar} or [إِنَّا كَاتِبُو هَـٰذَا ٱلْكِتَابَ.]{.ar}  
+[إِنَّنَا كَاتِبُو هَـٰذَا ٱلْكِتَابَ.]{.ar}  
+or  
+[إِنَّا كَاتِبُو هَـٰذَا ٱلْكِتَابَ.]{.ar}  
 "Indeed we are the writers of this book."
 
 [إِنَّ]{.ar} with the speaker pronouns are often used with doer verbal nouns to signify that the speaker intends to to the action of the verb. For example,
@@ -10191,6 +10207,119 @@ for example, the subject being in the a-state, the order of the subject and the 
 apply also to its other sisters. 
 
 The strengthening particle [لَ]{.ar}, as mentioned above, is only used with [إِنَّ]{.ar} and not for any of its other sisters.
+
+## [أَنَّ]{.ar} [Eanna]{.trn}
+
+The particle 
+[أَنَّ]{.ar} [Eanna]{.trn}
+can be translated as "that".
+It is similar to [إِنَّ]{.ar} in that it is asserts the information about the subject.
+But 
+[أَنَّ]{.ar} is different from [إِنَّ]{.ar} in that [إِنَّ]{.ar}, its subject, and its information together constitute a complete sentence.
+Whereas 
+the
+[أَنَّ]{.ar}
+clause
+([أَنَّ]{.ar}
+, its subject, and its information together) does not constitute a complete sentence. For example, consider the expression:
+
+[زَيْدٌ صَادِقٌ.]{.ar}  
+"Zayd is truthful."
+
+This is a complete sentence. But if we add 
+[أَنَّ]{.ar} "that" to its beginning, it no longer remains a complete sentence:
+
+[أَنَّ زَيْدًا صَادِقٌ]{.ar}  
+"that Zayd is truthful"
+
+We need to additional words, external to the 
+[أَنَّ]{.ar}
+clause
+to complete the sentence. We will see examples of this below.
+
+### The [أَنَّ]{.ar} clause in place of the direct doee
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-24-1.png)<!-- -->
+
+"I know that Zayd is truthful."
+
+Note how, in the example above the 
+[أَنَّ]{.ar}
+clause
+([أَنَّ زَيْدًا صَادِقٌ]{.ar})
+has occupied the place of the direct doee of the verb [أَعْلَمُ]{.ar}.
+
+In a similar manner,
+[أَنَّ]{.ar}
+clauses can be placed where one would expect other noun positions, such as: a subject, an information, a doer, and more. Here are some examples:
+
+### The [أَنَّ]{.ar} clause in place of the doer
+
+Example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-25-1.png)<!-- -->
+
+"That you are sick has reached me." ("It has reached me that you are sick.")
+
+### The [أَنَّ]{.ar} clause in place of the subject
+
+Example (with information before subject in sentence word order):
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-26-1.png)<!-- -->
+
+"From his characteristeics is that he is noble."
+
+### The [أَنَّ]{.ar} clause in place of the information
+
+Example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-27-1.png)<!-- -->
+
+"The truth is that he went."
+
+### [أَنَّ]{.ar} with [كَانَ]{.ar}
+
+As you know, [كَانَ]{.ar}'s doer is also its subject, and its doee is also its information.
+The [أَنَّ]{.ar} clause can occur in either the subject or the information of [كَنَ]{.ar}. 
+For example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-28-1.png)<!-- -->
+
+"The matter was that he didn't do his obligation."
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-29-1.png)<!-- -->
+
+"That he didn't do his obligation was the matter."
+
+Note that in the latter case, the information precedes the subject.
+
+### The [أَنَّ]{.ar} clause in place of an i-state noun
+
+The [أَنَّ]{.ar} clause can occur in place of an i-state base noun in an annexation. Example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-30-1.png)<!-- -->
+
+"The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous."
+
+The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly following a preposition. Example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-31-1.png)<!-- -->
+
+"I wondered at that Zayd is asleep."
+
+#### Optionally deleting the preposition directlt before an [أَنَّ]{.ar} clause
+
+If an
+[أَنَّ]{.ar} clause
+directly follows a preposition, it is permissible to optionally delete the preposition as long as the meaning remains clear.
+So the previous example can be expressed without the preposition [مِنْ]{.ar} with the same meaning:
+
+[عَجِبْتُ أَنَّ زَيْدًا نَائِمٌ.]{.ar}  
+"I wondered at that Zayd is asleep."
+
+#### [لِأَنَّ]{.ar} "because"
+
+
 
 <!--chapter:end:srcrmd/inna_and_its_sisters.Rmd-->
 
