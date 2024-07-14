@@ -15,18 +15,20 @@ In the basic subject-information sentence, both the subject and the information 
     every word/.style={name=word-\w, execute at begin node=\strut}},
   decorate] (0,0);
 
-\draw [decoration={brace}, decorate] 
-   (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize information};
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize information};
 
-\draw [decoration={brace}, decorate] 
-   (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize subject};
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize subject};
 
-\path (0,0) node [midway, below=4.5ex, right=0ex, align=left] {``The man is a teacher.''};
+%\path (0,0) node [midway, below=4.5ex, right=0ex, align=left] {``The man is a teacher.''};
 
 \end{tikzpicture}
 ```
+
+"This man is a teacher."
 
 In the above sentence both the subject [ٱَلرَّجُلَ]{.ar} "the man", and the information [مُعَلِّمٌ]{.ar} "a teacher" are in the u-state. In this chapter we will study a family of particles, called
 [إِنَّ]{.ar} and its sisters,
@@ -506,5 +508,49 @@ TODO
 
 ## Topic-comment sentences and the pronoun of the matter
 
-TODO
+### Topic-comment sentences
+
+There is a sub-type of subject-information sentence called a topic-comment sentence. Here is an example:
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{فُرُوعُها طَوِيلَةٌ} \txarb{ٱَلشَّجَرَةُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize subject/topic};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize information/comment};
+
+%\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``The truth is that he went.''};
+
+\end{tikzpicture}
+```
+
+"The tree: its branches are many."
+
+In these kinds of sandwiches, the subject introduces a topic, and the information is itself a sentence which comments on the topic/subject.
+We have, in fact, already seen sentences like this in section\ \@ref(past-verbs-order-of-words), when we take a verbal sentence and convert it to a subject-information sentence. This is the example we discussed there:
+
+[ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}  
+"The man: he wrote a book."
+
+#### The linker pronoun
+
+A topic-comment sentence typically requires a pronoun in the comment that links back to the comment. 
+In the example
+[ٱَلشَّجَرَةُفُرُوعُهَا طَوِيلَةٌ.]{.ar}, the attached pronoun [هَا]{.ar} "it" in [فُرُوعُهَا]{.ar} "its tree" is the linker pronoun that links back to the topic [ٱَلشَّجَرَةُ]{.ar} "the tree".
+
+Similarly, in the example
+[ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}
+the linker pronoun is the invisible doer pronoun "he" of the verb [كَتَبَ]{.ar} "he wrote" that links back to the topic [ٱَلرَّجُلُ]{.ar} "the man".
 

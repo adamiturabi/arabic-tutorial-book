@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-679-g1c2faa5"
+date: "v0.1.0-680-g139437e"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -2671,7 +2671,7 @@ The first verb [أَكَلَ.]{.ar} [Eakala]{.trn} has the doer [ٱلرَّجُ�
 
 ## Order of words in a sentence
 
-### Changing the order of words for emphasis
+### Changing the order of words for emphasis {#past-verbs-order-of-words}
 
 In Arabic, the doer always follows the verb. So the normal order of a sentence is verb-doer-doee. For example,
 
@@ -10049,6 +10049,8 @@ In the basic subject-information sentence, both the subject and the information 
 
 ![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-23-1.png)<!-- -->
 
+"This man is a teacher."
+
 In the above sentence both the subject [ٱَلرَّجُلَ]{.ar} "the man", and the information [مُعَلِّمٌ]{.ar} "a teacher" are in the u-state. In this chapter we will study a family of particles, called
 [إِنَّ]{.ar} and its sisters,
 that modify the subject-information sentence by placing the subject in the a-state instead of the u-state. For example,
@@ -10383,7 +10385,29 @@ TODO
 
 ## Topic-comment sentences and the pronoun of the matter
 
-TODO
+### Topic-comment sentences
+
+There is a sub-type of subject-information sentence called a topic-comment sentence. Here is an example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.png)<!-- -->
+
+"The tree: its branches are many."
+
+In these kinds of sandwiches, the subject introduces a topic, and the information is itself a sentence which comments on the topic/subject.
+We have, in fact, already seen sentences like this in section\ \@ref(past-verbs-order-of-words), when we take a verbal sentence and convert it to a subject-information sentence. This is the example we discussed there:
+
+[ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}  
+"The man: he wrote a book."
+
+#### The linker pronoun
+
+A topic-comment sentence typically requires a pronoun in the comment that links back to the comment. 
+In the example
+[ٱَلشَّجَرَةُفُرُوعُهَا طَوِيلَةٌ.]{.ar}, the attached pronoun [هَا]{.ar} "it" in [فُرُوعُهَا]{.ar} "its tree" is the linker pronoun that links back to the topic [ٱَلشَّجَرَةُ]{.ar} "the tree".
+
+Similarly, in the example
+[ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}
+the linker pronoun is the invisible doer pronoun "he" of the verb [كَتَبَ]{.ar} "he wrote" that links back to the topic [ٱَلرَّجُلُ]{.ar} "the man".
 
 
 <!--chapter:end:srcrmd/inna_and_its_sisters.Rmd-->
