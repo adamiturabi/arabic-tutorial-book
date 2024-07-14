@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-681-g8991666"
+date: "v0.1.0-682-g2680f7a"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -10391,7 +10391,7 @@ There is a sub-type of subject-information sentence called a topic-comment sente
 
 ![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.png)<!-- -->
 
-"The tree: its branches are many."
+"The tree: its branches are long."
 
 In these kinds of sandwiches, the subject introduces a topic, and the information is itself a sentence which comments on the topic/subject.
 We have, in fact, already seen sentences like this in section\ \@ref(past-verbs-order-of-words), when we take a verbal sentence and convert it to a subject-information sentence. This is the example we discussed there:
@@ -10450,7 +10450,18 @@ The comment does not contain a linker pronoun because the whole comment refers b
 The pronoun of the matter is frequently used with [إِنَّ]{.ar} and its sisters. 
 Here are some examples:
 
+[إِنَّهُ لَا يُفْلِحُ ٱلْكَافِرُونَ.]{.ar}  
+"Indeed, the disbelievers will not succeed."  
+([#qurEAn]{.trn2} 23:117, trans. Saheeh International)
 
+## The lightweight versions [إِنْ]{.ar}, [أَنْ]{.ar}, [كَأَنْ]{.ar}, and [لَـٰكِنْ]{.ar}
+
+The particles [إِنَّ]{.ar}, [أَنَّ]{.ar}, [كَأَنَّ]{.ar}, and [لَـٰكِنَّ]{.ar}, because of the doubled [نّ]{.ar} are considered _heavyweight_.
+There exist lightweight versions of these particles that are:
+[إِنْ]{.ar}, [أَنْ]{.ar}, [كَأَنْ]{.ar}, and [لَـٰكِنْ]{.ar}.
+These lightweight versions have similar meanings to their heavyweight counterparts but they have somewhat different rules. We will discuss them below:
+
+### [إِنْ]{.ar}
 
 
 <!--chapter:end:srcrmd/inna_and_its_sisters.Rmd-->
