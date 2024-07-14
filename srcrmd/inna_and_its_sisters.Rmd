@@ -506,7 +506,7 @@ TODO
 
 TODO
 
-## Topic-comment sentences and the pronoun of the matter
+## Topic-comment sentences and the pronoun of the fact
 
 ### Topic-comment sentences
 
@@ -574,7 +574,7 @@ The topic, in a topic-comment sentence, is frequently a pronoun. For example,
 [أَكَلْتُ ٱلطَّعَامَ لَـٰكِنَّكَ لَمْ تَأْكُلْ.]{.ar}  
 "I ate the food but you: you didn't eat."
 
-### The pronoun of the matter
+### The pronoun of the fact
 
 Mostly, pronouns are used in place of nouns when it is already known to whom the noun refers to. So if you say:
 
@@ -583,7 +583,7 @@ Mostly, pronouns are used in place of nouns when it is already known to whom the
 
 the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
 
-There is a special pronoun, called the _pronoun of the matter_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the matter is" but is often left untranslated. Here is an example:
+There is a special pronoun, called the _pronoun of the fact_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -598,7 +598,7 @@ There is a special pronoun, called the _pronoun of the matter_ that begins topic
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize pronoun of the matter};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize pronoun of the fact};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
@@ -607,22 +607,22 @@ There is a special pronoun, called the _pronoun of the matter_ that begins topic
 \end{tikzpicture}
 ```
 
-"The matter is: the cold is intense."
+"The fact is: the cold is intense."
 
 This pronoun is usually the singular masculine pronoun (as above) but it is also sometimes the singular feminine pronoun [هِيَ]{.ar}.
 It is typically used with statements of import, to which the speaker wishes to draw attention.
 The comment does not contain a linker pronoun because the whole comment refers back to the topic.
-The pronoun of the matter is frequently used with [إِنَّ]{.ar} and its sisters. 
+The pronoun of the fact is frequently used with [إِنَّ]{.ar} and its sisters. 
 Here are some examples:
 
 [إِنَّهُ لَا يُفْلِحُ ٱلْكَافِرُونَ.]{.ar}  
 "Indeed, the disbelievers will not succeed."  
 ([#qurEAn]{.trn2} 23:117, trans. Saheeh International)
 
-Sometimes, one can choose between using the pronoun of the matter and a pronoun matching the participant resulting in different emphasis. For example,
+Sometimes, one can choose between using the pronoun of the fact and a pronoun matching the participant resulting in different emphasis. For example,
 
 [إِنِّهُ هُمُ ٱلْفَاعِلُونَ]{.ar}  
-"Indeed, the matter is: they are the doers."
+"Indeed, the fact is: they are the doers."
 
 [إِنِّهُمْ هُمُ ٱلْفَاعِلُونَ]{.ar}  
 "Indeed, _they_ are the doers."
@@ -678,14 +678,14 @@ Where the subject is in the a-state and the use of the strengthening [لَ]{.ar}
 
 ### The lightweight [أَنْ]{.ar}
 
-The lightweight [أَنْ]{.ar} only introduces topic-comment clauses whose topic is understood to be a deleted pronoun of the matter. 
+The lightweight [أَنْ]{.ar} only introduces topic-comment clauses whose topic is understood to be a deleted pronoun of the fact. 
 The comment is, as usual, a complete sentence. 
 For example, consider the following sentence with a heavyweight [أَنَّ]{.ar}:
 
 [أَعْلَمُ أَنَّهُ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
-"I know that the matter is: the cold is intense."
+"I know that the fact is: the cold is intense."
 
-If we replace the heavyweight [أَنَّ]{.ar} in the above example with the lightweight [أَنْ]{.ar} then we pronoun of the matter topic is deleted, thus:
+If we replace the heavyweight [أَنَّ]{.ar} in the above example with the lightweight [أَنْ]{.ar} then we pronoun of the fact topic is deleted, thus:
 
 [أَعْلَمُ أَنِ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
 "I know that the cold is intense."
@@ -743,7 +743,7 @@ The following guidelines can help to distinguish  between these two [أَنْ]{.
 
 ### The lightweight [كَأَنْ]{.ar}
 
-The lightweight [كَأَنْ]{.ar} is similar to the lightweight [أَنْ]{.ar} in that it introduces a topic-comment sentence and the topic is usually a deleted pronoun of the matter. For example,
+The lightweight [كَأَنْ]{.ar} is similar to the lightweight [أَنْ]{.ar} in that it introduces a topic-comment sentence and the topic is usually a deleted pronoun of the fact. For example,
 
 [كَأَنْ ٱلْبَرْدُ ذَهَبَ.]{.ar}  
 "[It is] as if the cold has gone."
