@@ -6,7 +6,7 @@ In the basic subject-information sentence, both the subject and the information 
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
   text=.\txarb{مُعَلِّمٌ} \txarb{ٱَلرَّجُلُ},
   text effects/.cd, 
@@ -222,7 +222,7 @@ to complete the sentence. We will see examples of this below.
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
   text=.\txarb{أَنَّ زَيْدًا صَادِقٌ} \txarb{أَعْلَمُ},
   text effects/.cd, 
@@ -258,7 +258,7 @@ Example:
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
   text=.\txarb{أَنَّكَ مَرِيضٌ} \txarb{بَلَغَنِي},
   text effects/.cd, 
@@ -284,7 +284,7 @@ Example (with information before subject in sentence word order):
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
   text=.\txarb{أَنَّهُ كَرِيمٌ} \txarb{مِنْ صِفَاتِهِ},
   text effects/.cd, 
@@ -310,7 +310,7 @@ Example:
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
   text=.\txarb{أَنَّهُ ذَهَبَ} \txarb{ٱَلْحَقُّ},
   text effects/.cd, 
@@ -338,7 +338,7 @@ For example (as the information):
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
   text=.\txarb{أَنَّهُ لَمْ يَفْعَلْ وَاجِبَهُ} \txarb{كَانَ ٱلْأَمْرُ},
   text effects/.cd, 
@@ -362,7 +362,7 @@ Now as the subject:
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
   text=.\txarb{أَنَّهُ لَمْ يَفْعَلْ وَاجِبَهُ} \txarb{كَانَ ٱلْأَمْرَ},
   text effects/.cd, 
@@ -390,7 +390,7 @@ The [أَنَّ]{.ar} clause can occur in place of an i-state base noun in an an
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
   text=.\txarb{أَنَّ ٱلسَّفَرَ خَطِرٌ} \txarb{كَثُرَ قَاطِعُو ٱلطَّرِيقِ لِدَرَجَةِ},
   text effects/.cd, 
@@ -414,7 +414,7 @@ The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly fol
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
   text=.\txarb{أَنَّ زَيْدًا نَائِمٌ} \txarb{عَجِبْتُ مِنْ},
   text effects/.cd, 
@@ -514,7 +514,7 @@ There is a sub-type of subject-information sentence called a topic-comment sente
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
   text=.\txarb{فُرُوعُها طَوِيلَةٌ} \txarb{ٱَلشَّجَرَةُ},
   text effects/.cd, 
@@ -587,7 +587,7 @@ There is a special pronoun, called the _pronoun of the matter_ that begins topic
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
   text=.\txarb{ٱلْبَرْدُ شَدِيدٌ} \txarb{هُوَ},
   text effects/.cd, 
@@ -619,10 +619,18 @@ Here are some examples:
 "Indeed, the disbelievers will not succeed."  
 ([#qurEAn]{.trn2} 23:117, trans. Saheeh International)
 
+Sometimes, one can choose between using the pronoun of the matter and a pronoun matching the participant resulting in different emphasis. For example,
+
+[إِنِّهُ هُمُ ٱلْفَاعِلُونَ]{.ar}  
+"Indeed, the matter is: they are the doers."
+
+[إِنِّهُمْ هُمُ ٱلْفَاعِلُونَ]{.ar}  
+"Indeed, _they_ are the doers."
+
 ## The lightweight versions [إِنْ]{.ar}, [أَنْ]{.ar}, [كَأَنْ]{.ar}, and [لَـٰكِنْ]{.ar}
 
 The particles [إِنَّ]{.ar}, [أَنَّ]{.ar}, [كَأَنَّ]{.ar}, and [لَـٰكِنَّ]{.ar}, because of the doubled [نّ]{.ar} are considered _heavyweight_.
-There exist lightweight versions of these particles that are:
+There exist _lightweight_ versions of these particles that are:
 [إِنْ]{.ar}, [أَنْ]{.ar}, [كَأَنْ]{.ar}, and [لَـٰكِنْ]{.ar}.
 These lightweight versions have similar meanings to their heavyweight counterparts but they have somewhat different rules. We will discuss them below.
 In terms of their usage 
