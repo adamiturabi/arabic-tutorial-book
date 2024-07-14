@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-683-gdd40217"
+date: "v0.1.0-684-g57f6703"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -10467,7 +10467,7 @@ In terms of their usage
 [لَـٰكِنْ]{.ar}
 are relatively more common.
 
-### [إِنْ]{.ar}
+### The lightweight [إِنْ]{.ar}
 
 The lightweight
 [إِنْ]{.ar}
@@ -10502,6 +10502,90 @@ Where the subject is in the a-state and the use of the strengthening [لَ]{.ar}
 
 [إِنْ زَيْدًا مُسْلِمٌ.]{.ar}  
 "Indeed Zayd is a Muslim."
+
+### The lightweight [أَنْ]{.ar}
+
+The lightweight [أَنْ]{.ar} only introduces topic-comment clauses whose topic is understood to be a deleted pronoun of the matter. 
+The comment is, as usual, a complete sentence. 
+For example, consider the following sentence with a heavyweight [أَنَّ]{.ar}:
+
+[أَعْلَمُ أَنَّهُ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
+"I know that the matter is: the cold is intense."
+
+If we replace the heavyweight [أَنَّ]{.ar} in the above example with the lightweight [أَنْ]{.ar} then we pronoun of the matter topic is deleted, thus:
+
+[أَعْلَمُ أَنِ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
+"I know that the cold is intense."
+
+If the comment of the 
+lightweight [أَنْ]{.ar}
+is a verbal sentence, then it is  preferred to separate the verb from [أَنْ]{.ar} with one of the following:
+
+1. [قَدْ]{.ar}. Example:
+   
+   [أَظُنُّ أَنْ قَدْ غَرَبَتِ ٱلشَّمْسُ.]{.ar}  
+   "I think that the sun has set."
+
+2. [سَ]{.ar} or [سَوْفَ]{.ar}. Example:
+
+   [أَعْلَمُ أَنْ سَيَذْهَبُ.]{.ar}  
+   "I know that he will go."
+
+3. A negative particle like [لَا]{.ar}, [لَنْ]{.ar}, or [لَمْ]{.ar}.
+
+   [أَعْلَمُ أَلَّا يَذْهَبُ.]{.ar}  
+   "I know that he does/will not go."
+
+   Note that [أَنْ]{.ar} has combined with [لَا]{.ar} to form [أَلَّا]{.ar} and that the verb [يَذْهَبُ]{.ar} is in the u-state.
+
+4. The conditional particle [لَوْ]{.ar}. We will study conditional sentences in chapter\ \@ref(conditional-sentences).
+
+Rigid verbs like [لَيْسَ]{.ar} and verbs expressing supplications are exempted from needing to be separated from the lightweight [أَنْ]{.ar}. Example:
+
+[ظَنَنْتُ أَنْ لَيْسَ ٱلْبَرْدُ شَدِيدًا.]{.ar}  
+"I thought that the cold is not intense."
+
+Care must be taken to distinguish between this lightweight [أَنْ]{.ar} and the [أَنْ]{.ar} which is used with a-state verbs.
+The following guidelines can help to distinguish  between these two [أَنْ]{.ar}s:
+
++ If the verb before [أَنْ]{.ar} signifies certainty then only [أَنَّ]{.ar} and its lightweight version [أَنْ]{.ar} is used. For example,
+
+  [أَعْلَمُ أَنْ قَدْ ذَهَبَ وَأَنْ سَيَرْجِعُ.]{.ar}  
+  "I know that he has gone and that he will return."
+
++ If the verb before [أَنْ]{.ar} signifies wanting, hoping, or expecting, then the [أَنْ]{.ar} puts the following verb in the a-state. For example,
+
+  [أَطْمَعُ أَلَّا يَذْهَبَ.]{.ar}  
+  "I hope that he not go."
+
+  Note that the verb [يَذْهَبَ]{.ar} is in the a-state.
+
++ If the verb before [أَنْ]{.ar} signifies neither certainty nor wanting, hoping, or expecting, then either [أَنْ]{.ar} may be used. For example,
+
+  [ظَنَنْتُ أَنْ يَرْجِعَ.]{.ar}  
+  "I thought that he should return."  
+  or  
+  [ظَنَنْتُ أَنْ يَرْجِعُ.]{.ar}  
+  "I thought that he will return."
+
+### The lightweight [كَأَنْ]{.ar}
+
+The lightweight [كَأَنْ]{.ar} is similar to the lightweight [أَنْ]{.ar} in that it introduces a topic-comment sentence and the topic is usually a deleted pronoun of the matter. For example,
+
+[كَأَنْ ٱلْبَرْدُ ذَهَبَ.]{.ar}  
+"[It is] as if the cold has gone."
+
+Also similar to the lightweight [أَنْ]{.ar}, the lightweight [كَأَنْ]{.ar} may introduce a verbal sentence but it must be separated from [كَأَنْ]{.ar} by either [قَدْ]{.ar} or [لَمْ]{.ar}. For example,
+
+[ذَهَبَ كَأَنْ لَمْ يَسْمَعْ.]{.ar}  
+"He went as if he did not hear."
+
+### The lightweight [لَـٰكِنْ]{.ar}
+
+The lightweight [لَـٰكِنْ]{.ar} has the same meaning as the heavyweight [لَـٰكِنَّ]{.ar} but it has no grammatical effect on the word or sentence after it. It may introduce either subject-information or verbal sentences. For example,
+
+[نَجَحَ زَيْدٌ لَـٰكِنْ صَدِيقُهُ لَمْ يَنْجَحْ.]{.ar}  
+"Zayd succeeded but his friend did not succeed."
 
 
 <!--chapter:end:srcrmd/inna_and_its_sisters.Rmd-->
