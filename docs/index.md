@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-664-g615de1e"
+date: "v0.1.0-684-g57f6703"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -2671,7 +2671,7 @@ The first verb [أَكَلَ.]{.ar} [Eakala]{.trn} has the doer [ٱلرَّجُ�
 
 ## Order of words in a sentence
 
-### Changing the order of words for emphasis
+### Changing the order of words for emphasis {#past-verbs-order-of-words}
 
 In Arabic, the doer always follows the verb. So the normal order of a sentence is verb-doer-doee. For example,
 
@@ -9257,7 +9257,7 @@ this indicates that Zaynab usually sits on this chair.
 
 If this usage of the doer verbal-noun to indicate a present action is mostly only for verbs of posture and motion, how then do we indicate this distinction for other verbs? We have answered this in section [TODO: add section to incomplete-action verb] where we said that in order to give the meaning that the action of the verb is happening right now, a verbal sentence can be converted to a subject-information sentence. 
 
-### Usage of the doer verbal-noun as a future tense verb
+### Usage of the doer verbal-noun as a future tense verb {#doer-verbal-noun-for-intended-future-action}
 
 The doer verbal-noun may be used in place of the verb it is derived from to indicate an intent on the part of the doer, or to indicate that the action will occur in the future.
 
@@ -10040,6 +10040,555 @@ Examples of usage:
 
 
 <!--chapter:end:srcrmd/imperfect_verb_juss.Rmd-->
+
+# [إِنَّ]{.ar} and its sisters
+
+## Introduction
+
+In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-23-1.png)<!-- -->
+
+"This man is a teacher."
+
+In the above sentence both the subject [ٱَلرَّجُلَ]{.ar} "the man", and the information [مُعَلِّمٌ]{.ar} "a teacher" are in the u-state. In this chapter we will study a family of particles, called
+[إِنَّ]{.ar} and its sisters,
+that modify the subject-information sentence by placing the subject in the a-state instead of the u-state. For example,
+
+[إِنَّ ٱلرَّجُلَ مُعَلِّمٌ.]{.ar}  
+[Einna -rrajula mueallimun.]{.trn}  
+"Indeed the man is a teacher."
+
+Note how, in the above example, the subject [ٱَلرَّجُلَ]{.ar} "the man" is now in the a-state. The information [مُعَلِّمٌ]{.ar} "a teacher" remains in the u-state. 
+
+The particles constituting the family of 
+[إِنَّ]{.ar} and its sisters
+are:
+
+1. [إِنَّ]{.ar}  [Einna]{.trn}
+1. [أَنَّ]{.ar}  [Eanna]{.trn}
+1. [كَأَنَّ]{.ar}  [kaEanna]{.trn}
+1. [لَـٰكِنَّ]{.ar}  [lAkinna]{.trn}
+1. [لَيْتَ]{.ar}  [layta]{.trn}
+1. [لَعَلَّ]{.ar}  [laealla]{.trn}
+
+We shall now study each of these particles.
+
+## [إِنَّ]{.ar} [Einna]{.trn}
+
+[إِنَّ]{.ar} [Einna]{.trn} is used to begin independent sentences. It has an emphatic meaning, as if the speaker is asserting the information about the subject. It is often translated into English as "indeed" or "verily", but it is also often left untranslated.
+
+[إِنَّ]{.ar} [Einna]{.trn} is only used to begin subject-information sentences. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.). For example,
+
+[إِنَّ ٱلدِّينَ عِنْدَ ٱللَّـٰهِ ٱلْإِسْلَامُ.]{.ar}  
+[Einna -ddIna einda -llAhi -lEislAmu.]{.trn}  
+"Indeed, the religion in the sight of [#allAh]{.trn2} is [#islAm]{.trn2}." ([#qurEAn]{.trn2}\ 3:19, trans. Saheeh International)
+
+[إِنَّ]{.ar} [Einna]{.trn} 
+may be preceded by other particles like [وَ]{.ar} "and", [فَ]{.ar} "so", and [ثُمَّ]{.ar} "then". For example,
+
+[ٱُطْلُبِ ٱلْعِلْمَ ٱلنَّافِعَ. فَإِنَّ طَلَبَ ٱلْعِلْمَ ٱلنَّافِعَ عَمَلٌ صَالِحٌ. وَإِنَّ تَرْكَهُ غَفْلَةٌ.]{.ar}
+"Seek the useful knowledge. For indeed the seeking of the useful knowledge is a good deed. And indeed leaving it is a negligence."
+
+The subject of
+[إِنَّ]{.ar} [Einna]{.trn} 
+may be a noun phrase, in which case, any describers or replacements of the subject are also in the a-state. Examples:
+
+[إِنَّ هَـٰؤُلَاءِ ٱلرِّجَالَ ٱلْكِرَامَ أَصْدِقَائِي.]{.ar}  
+"Indeed these noble men are my friends."
+
+[إِنَّ]{.ar} [Einna]{.trn} may have multiple subjects, each in the a-state, separated by [وَ]{.ar}. Example,
+
+[إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَاتِ يَعْبُدُونَ ٱللَّـٰهَ.]{.ar}  
+"Indeed the Muslim men and Muslim women worship [#allAh]{.trn2}."
+
+If the information of the first subject has been mentioned before the second subject, then the second subject may optionally be in the a-state or the u-state. For example:
+
+[إِنَّ زَيْدًا جَالِسٌ وَعَمْرًا.]{.ar}  
+or  
+[إِنَّ زَيْدًا جَالِسٌ وَعَمْرٌو.]{.ar}  
+"Indeed Zayd is sitting and [e#amr]{.trn2} [as well]."
+
+[إِنَّ هَـٰذَا ٱلْكِتَابَ لِي وَذَ ٰلِكَ ٱلْكِتَابَ لَكَ.]{.ar}  
+or  
+[إِنَّ هَـٰذَا ٱلْكِتَابَ لِي وَذَ ٰلِكَ ٱلْكِتَاكُ لَكَ.]{.ar}  
+"Indeed this book is for me and that book is for you."
+
+[إِنَّ]{.ar} [Einna]{.trn} may be used to begin sentences with an indefinite subject. For example,
+
+[إِنَّ مَلِكًا مِنَ ٱلْهِنْدِ كَتَبَ إِلَىٰ أَحَدِ وُزَرَائِهِ.]{.ar}  
+"Indeed a king from India wrote to one of his ministers."
+
+Note that in all the above examples that
+[إِنَّ]{.ar} [Einna]{.trn} is only used to begin subject-information sentences. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.).
+By default, the subject of [إِنَّ]{.ar} [Einna]{.trn} must directly follow it with no intervening words or particles. The only exception is when the information consists of a prepositional or adverbial phrase, it is then allowed to precede the subject. The subject, in any case, shall be in the a-state. For example,
+
+[إِنَّ فِي ٱلْبَيْتِ رَجُلًا.]{.ar}  
+"Indeed, in the house, is a man."
+
+[إِنَّ تَحْتَ ٱلشَّجَرَةِ كَنْزًا ثَمِينًا.]{.ar}  
+"Indeed, under the tree, is a precious treasure."
+
+This reverse order is permitted even when the subject is definite. For example,
+
+[إِنَّ مَعَكَ صَاحِبَكَ.]{.ar}  
+"Indeed, with you, is _your companion_."
+
+This puts the logical accent on the subject [صَاحِبَكَ]{.ar} "your companion". If the subject is placed first then this puts the logical accent on the information:
+
+[إِنَّ صَاحِبَكَ مَعَكَ.]{.ar}  
+"Indeed your companion is _with_ you."
+
+If the subject contains a pronoun that refers to a noun in the information then the information must precede the subject. For example,
+
+[إِنَّ فِي ٱلْمَصْنَعِ عُمَّالَهُ.]{.ar}  
+"Indeed, in the factory, are its workers."
+
+[إِنَّ أَمَامَ ٱلدَّارِ حَارِسَهَا.]{.ar}  
+"Indeed, in front of the door, is its guard."
+
+### Pronoun subjects
+
+<!--In the examples above, the subject of [إِنَّ]{.ar} has been a noun. -->
+The subject of [إِنَّ]{.ar} may be a pronoun instead of a noun. For this the attached pronouns are used. For example,
+
+[لَا تَقْطَعْ تِلْكَ ٱلشَّجَرَةَ فَإِنَّهَا ظَلِيلَةٌ.]{.ar}  
+"Don't cut that tree, for it is shady."
+
+[إِنَّكُمَا صَدِيقَايَ.]{.ar}  
+"You~2~ are my friends."
+
+The speaker pronouns, both singular and plural, may optionally keep or drop their [ن]{.ar}. 
+So for the singular speaker pronoun both [إِنَّنِي]{.ar} [EinnanI]{.trn} and [إِنِّي]{.ar} [EinnI]{.trn} may be used.
+And for the plural speaker pronoun both [إِنَّنَا]{.ar} [EinnanA]{.trn} and [إِنَّا]{.ar} [EinnA]{.trn} may be used.
+Examples:
+
+[إِنِّي مُسْلِمٌ.]{.ar}  
+or  
+[إِنَّنِي مُسْلِمٌ.]{.ar}  
+"Indeed I am a Muslim."
+
+[إِنَّنَا كَاتِبُو هَـٰذَا ٱلْكِتَابَ.]{.ar}  
+or  
+[إِنَّا كَاتِبُو هَـٰذَا ٱلْكِتَابَ.]{.ar}  
+"Indeed we are the writers of this book."
+
+[إِنَّ]{.ar} with the speaker pronouns are often used with doer verbal nouns to signify that the speaker intends to to the action of the verb. For example,
+
+[إِنِّي ذَاهِبٌ إِلَىٰ ٱلْمَسْجِدِ.]{.ar}  
+"I'm going to the mosque."
+
+We also mentioned this point in section\ \@ref(doer-verbal-noun-for-intended-future-action).
+
+### [إِنَّ]{.ar} [Einna]{.trn} with a strengthening [لَ]{.ar} {#inna-strengthening-la}
+
+The strengthening particle [لَ]{.ar} adds extra emphasis and may optionally be used between the subject of [إِنَّ]{.ar} and its information.
+If the subject occurs first (as is the default) then [لَ]{.ar} is connected to and placed directly before the information. For example:
+
+[إِنَّ زَيْدًا لَقَائِمٌ.]{.ar}  
+"Indeed Zayd is definitely standing."
+
+If the information precedes the subject, then then [لَ]{.ar} is connected to and placed directly before the subject. For example:
+
+[إِنَّ فِي ٱلْبَيْتِ لَرَجُلًا.]{.ar}  
+"Indeed, in the house, is definitely a man."
+
+The strengthening particle [لَ]{.ar} is only used with [إِنَّ]{.ar} and not for any of its other sisters
+([إِنَّ]{.ar},
+[أَنَّ]{.ar},
+[كَأَنَّ]{.ar},
+[لَـٰكِنَّ]{.ar},
+[لَيْتَ]{.ar}, and
+[لَعَلَّ]{.ar}).
+
+### Commonality of rules for [إِنَّ]{.ar} and its sisters
+
+Unless otherwise noted, the rules we have presented above for 
+[إِنَّ]{.ar},
+for example, the subject being in the a-state, the order of the subject and the predicate, the use of attached pronouns for the subject, etc.,
+apply also to its other sisters. 
+
+The strengthening particle [لَ]{.ar}, as mentioned above, is only used with [إِنَّ]{.ar} and not for any of its other sisters.
+
+## [أَنَّ]{.ar} [Eanna]{.trn}
+
+The particle 
+[أَنَّ]{.ar} [Eanna]{.trn}
+can be translated as "that".
+It is similar to [إِنَّ]{.ar} in that it is asserts the information about the subject.
+But 
+[أَنَّ]{.ar} is different from [إِنَّ]{.ar} in that [إِنَّ]{.ar}, its subject, and its information together constitute a complete sentence.
+Whereas 
+the
+[أَنَّ]{.ar}
+clause
+([أَنَّ]{.ar}
+, its subject, and its information together) does not constitute a complete sentence. For example, consider the expression:
+
+[زَيْدٌ صَادِقٌ.]{.ar}  
+"Zayd is truthful."
+
+This is a complete sentence. But if we add 
+[أَنَّ]{.ar} "that" to its beginning, it no longer remains a complete sentence:
+
+[أَنَّ زَيْدًا صَادِقٌ]{.ar}  
+"that Zayd is truthful"
+
+We need to additional words, external to the 
+[أَنَّ]{.ar}
+clause
+to complete the sentence. We will see examples of this below.
+
+### The [أَنَّ]{.ar} clause in place of the direct doee
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-24-1.png)<!-- -->
+
+"I know that Zayd is truthful."
+
+Note how, in the example above the 
+[أَنَّ]{.ar}
+clause
+([أَنَّ زَيْدًا صَادِقٌ]{.ar})
+has occupied the place of the direct doee of the verb [أَعْلَمُ]{.ar}.
+
+In a similar manner,
+[أَنَّ]{.ar}
+clauses can be placed where one would expect other noun positions, such as: a subject, an information, a doer, and more. Here are some examples:
+
+### The [أَنَّ]{.ar} clause in place of the doer
+
+Example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-25-1.png)<!-- -->
+
+"That you are sick has reached me." ("It has reached me that you are sick.")
+
+### The [أَنَّ]{.ar} clause in place of the subject
+
+Example (with information before subject in sentence word order):
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-26-1.png)<!-- -->
+
+"From his characteristeics is that he is noble."
+
+### The [أَنَّ]{.ar} clause in place of the information
+
+Example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-27-1.png)<!-- -->
+
+"The truth is that he went."
+
+### [أَنَّ]{.ar} with [كَانَ]{.ar}
+
+As you know, [كَانَ]{.ar}'s doer is also its subject, and its doee is also its information.
+The [أَنَّ]{.ar} clause can occur in either the subject or the information of [كَنَ]{.ar}. 
+For example (as the information):
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-28-1.png)<!-- -->
+
+"The matter was that he didn't do his obligation."
+
+Now as the subject:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-29-1.png)<!-- -->
+
+"That he didn't do his obligation was the matter."
+
+Note that in the latter case, the information precedes the subject.
+
+### The [أَنَّ]{.ar} clause in place of an i-state noun
+
+The [أَنَّ]{.ar} clause can occur in place of an i-state base noun in an annexation. Example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-30-1.png)<!-- -->
+
+"The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous."
+
+The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly following a preposition. Example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-31-1.png)<!-- -->
+
+"I wondered at that Zayd is asleep."
+
+#### Optionally deleting the preposition directlt before an [أَنَّ]{.ar} clause
+
+If an
+[أَنَّ]{.ar} clause
+directly follows a preposition, it is permissible to optionally delete the preposition as long as the meaning remains clear.
+So the previous example can be expressed without the preposition [مِنْ]{.ar} with the same meaning:
+
+[عَجِبْتُ أَنَّ زَيْدًا نَائِمٌ.]{.ar}  
+"I wondered at that Zayd is asleep."
+
+#### [لِأَنَّ]{.ar} "because"
+
+The combination of the preposition [لِ]{.ar} "for" and [أَنَّ]{.ar} is used to mean "because". For example,
+
+[أَكَلْتُ ٱلطَّعَامَ لِأَنَّنِي كُنْتُ جَائِعًا.]{.ar}  
+"I ate the food because I was hungry."
+
+### Equivalence of the [أَنَّ]{.ar} clause with a verbal noun of doing
+
+As a matter of grammatical theory, the
+[أَنَّ]{.ar} clause, i.e. ([أَنَّ]{.ar} itself, its subject, and its information) is considered equivalent to a verbal noun of doing (typically in an annexation, and possibly with a doee as well). It is this equivalalence that allows it to thake the place of a doer, direct doee, and the other categories we have given above.
+For instance, consider the example:
+
+[عَجِبْتُ مِنْ أَنَّ زَيْدًا ذَهَب.]{.ar}  
+"I wondered at that Zayd went."
+
+Here, the clause
+[أَنَّ زَيْدًا ذَهَب]{.ar}
+is equivalent to the verbal noun phrase [ذَهَابِ زَيْدٍ]{.ar} "Zayd's going". So the grammatically equivalent sentence with this verbal noun phrase is:
+
+[عَجِبْتُ مِنْ ذَهَابِ زَيْدٍ.]{.ar}  
+"I wondered at Zayd's going."
+
+Similarly, in the example,
+
+[مِنْ صِفَاتِهِ أَنَّهُ كَرِيمٌ.]{.ar}  
+"From his characteristics is that he is generous."
+
+the clause
+[أَنَّهُ كَرِيمٌ]{.ar}
+is equivalent to the verbal noun phrase [كَرَامَتِهِ]{.ar} "his generosity". So the grammatically equivalent sentence with this verbal noun phrase is:
+
+[كَرَامَتِهِ مِنْ صِفَاتِهِ.]{.ar}  
+"His generosity is from his characteristics."
+
+This grammatical equivalence is more a matter of theory than of practical usefulness to us.
+And you have seen this grammatical equivalence before with [أَنْ]{.ar} and a-state incomplete action verbs in chanpter\ \@ref(a-state-incomplete-action-verbs-verbal-noun).
+
+## [كَأَنَّ]{.ar} [kaEanna]{.trn}
+
+[كَأَنَّ]{.ar} [kaEanna]{.trn}
+may be translated as "[It is] as if".
+It is actually simply the preposition [كَ]{.ar} "like" attached to [أَنَّ]{.ar}. But it is treated separately because, unlike [أَنَّ]{.ar},
+[كَأَنَّ]{.ar} [kaEanna]{.trn}, its subject, and its information constitute a complete sentence. For example,
+
+[كَأَنَّ ٱلْأُمُّ مَدْرَسَةٌ.]{.ar}  
+"[It is] as if the mother is a school."
+
+TODO: add more info
+
+## [لَـٰكِنَّ]{.ar} [lAkinna]{.trn}
+
+TODO
+
+## [لَيْتَ]{.ar}  [layta]{.trn}
+
+TODO
+
+## [لَعَلَّ]{.ar}  [laealla]{.trn}
+
+TODO
+
+## Topic-comment sentences and the pronoun of the matter
+
+### Topic-comment sentences
+
+There is a sub-type of subject-information sentence called a topic-comment sentence. Here is an example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.png)<!-- -->
+
+"The tree: its branches are long."
+
+In these kinds of sandwiches, the subject introduces a topic, and the information is itself a sentence which comments on the topic/subject.
+We have, in fact, already seen sentences like this in section\ \@ref(past-verbs-order-of-words), when we take a verbal sentence and convert it to a subject-information sentence. This is the example we discussed there:
+
+[ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}  
+"The man: he wrote a book."
+
+#### The linker pronoun
+
+A topic-comment sentence typically requires a pronoun in the comment that links back to the comment. 
+In the example
+[ٱَلشَّجَرَةُفُرُوعُهَا طَوِيلَةٌ.]{.ar}, the attached pronoun [هَا]{.ar} "it" in [فُرُوعُهَا]{.ar} "its tree" is the linker pronoun that links back to the topic [ٱَلشَّجَرَةُ]{.ar} "the tree".
+
+Similarly, in the example
+[ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}
+the linker pronoun is the invisible doer pronoun "he" of the verb [كَتَبَ]{.ar} "he wrote" that links back to the topic [ٱَلرَّجُلُ]{.ar} "the man".
+
+#### Topic-comment sentences with [إِنَّ]{.ar} and its sisters
+
+[إِنَّ]{.ar} and its sisters are very often used in topic-comment sentences. (With [أَنَّ]{.ar} it is, as usual, an incomplete sentence.) Here are some examples:
+
+[إِنَّ زَيْدًا لَهُ أَخٌ وَأُخْتٌ.]{.ar}  
+"Indeed Zayd: he has a brother and sister."
+
+[ٱِعْلَمْ أَنَّ ٱلْعِلْمَ حُصُولُهُ يَتَطَلَّبُ جُهْدًا.]{.ar}  
+"Know that knowledge: its obtaining requires effort."
+
+#### Topic-comment sentences with a pronoun topic
+
+The topic, in a topic-comment sentence, is frequently a pronoun. For example,
+
+[أَنَا ٱسْمِي زَيْدٌ.]{.ar}  
+"I: my name is Zayd."
+
+[أَكَلْتُ ٱلطَّعَامَ لَـٰكِنَّكَ لَمْ تَأْكُلْ.]{.ar}  
+"I ate the food but you: you didn't eat."
+
+### The pronoun of the matter
+
+Mostly, pronouns are used in place of nouns when it is already known to whom the noun refers to. So if you say:
+
+[أَنَا ٱسْمِي زَيْدٌ.]{.ar}  
+"I: my name is Zayd."
+
+the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
+
+There is a special pronoun, called the _pronoun of the matter_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the matter is" but is often left untranslated. Here is an example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-33-1.png)<!-- -->
+
+"The matter is: the cold is intense."
+
+This pronoun is usually the singular masculine pronoun (as above) but it is also sometimes the singular feminine pronoun [هِيَ]{.ar}.
+It is typically used with statements of import, to which the speaker wishes to draw attention.
+The comment does not contain a linker pronoun because the whole comment refers back to the topic.
+The pronoun of the matter is frequently used with [إِنَّ]{.ar} and its sisters. 
+Here are some examples:
+
+[إِنَّهُ لَا يُفْلِحُ ٱلْكَافِرُونَ.]{.ar}  
+"Indeed, the disbelievers will not succeed."  
+([#qurEAn]{.trn2} 23:117, trans. Saheeh International)
+
+## The lightweight versions [إِنْ]{.ar}, [أَنْ]{.ar}, [كَأَنْ]{.ar}, and [لَـٰكِنْ]{.ar}
+
+The particles [إِنَّ]{.ar}, [أَنَّ]{.ar}, [كَأَنَّ]{.ar}, and [لَـٰكِنَّ]{.ar}, because of the doubled [نّ]{.ar} are considered _heavyweight_.
+There exist lightweight versions of these particles that are:
+[إِنْ]{.ar}, [أَنْ]{.ar}, [كَأَنْ]{.ar}, and [لَـٰكِنْ]{.ar}.
+These lightweight versions have similar meanings to their heavyweight counterparts but they have somewhat different rules. We will discuss them below.
+In terms of their usage 
+[إِنْ]{.ar} and
+[كَأَنْ]{.ar} are not very commonly used except in the [#qurEAn]{.trn2}, poetry, and other rhetorical texts.
+[أَنْ]{.ar} and
+[لَـٰكِنْ]{.ar}
+are relatively more common.
+
+### The lightweight [إِنْ]{.ar}
+
+The lightweight
+[إِنْ]{.ar}
+is used in two different ways.
+In the more common way, the subject is not put in the a-state but is rather in the u-state.
+However, the strengthening [لَ]{.ar} (see section\ \@ref(inna-strengthening-la) above), that was optional with the heavyweight [إِنَّ]{.ar}, is now mandatory with the lightweight [إِنْ]{.ar}. For example,
+
+[إِنْ زَيْدٌ لَمُسْلِمٌ.]{.ar}  
+"Indeed Zayd is a Muslim."
+
+The other notable difference between 
+the lightweight [إِنْ]{.ar}
+and
+the heavyweight [إِنَّ]{.ar}
+is that 
+the heavyweight [إِنَّ]{.ar} is only used to introduce subject-information sentences.
+The lightweight [إِنْ]{.ar},
+however, can be used to introduce verbal sentences, but only those that begin with the verbs:
+[كَانَ]{.ar} and its sisters,
+[كَادَ]{.ar} and its sisters, and
+[ظَنَّ]{.ar} and its sisters.
+For example,
+
+[قَرَأْتُ ٱلْكِتَابَ وَإِنْ كَانَ ٱلْكِتَابُ لَجَيِّدًا.]{.ar}  
+"I read the book and indeed the book was good."
+
+The second, less common way, of using
+the lightweight [إِنْ]{.ar}
+is following the same rules as the 
+the heavyweight [إِنَّ]{.ar}.
+Where the subject is in the a-state and the use of the strengthening [لَ]{.ar} is optional. For example,
+
+[إِنْ زَيْدًا مُسْلِمٌ.]{.ar}  
+"Indeed Zayd is a Muslim."
+
+### The lightweight [أَنْ]{.ar}
+
+The lightweight [أَنْ]{.ar} only introduces topic-comment clauses whose topic is understood to be a deleted pronoun of the matter. 
+The comment is, as usual, a complete sentence. 
+For example, consider the following sentence with a heavyweight [أَنَّ]{.ar}:
+
+[أَعْلَمُ أَنَّهُ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
+"I know that the matter is: the cold is intense."
+
+If we replace the heavyweight [أَنَّ]{.ar} in the above example with the lightweight [أَنْ]{.ar} then we pronoun of the matter topic is deleted, thus:
+
+[أَعْلَمُ أَنِ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
+"I know that the cold is intense."
+
+If the comment of the 
+lightweight [أَنْ]{.ar}
+is a verbal sentence, then it is  preferred to separate the verb from [أَنْ]{.ar} with one of the following:
+
+1. [قَدْ]{.ar}. Example:
+   
+   [أَظُنُّ أَنْ قَدْ غَرَبَتِ ٱلشَّمْسُ.]{.ar}  
+   "I think that the sun has set."
+
+2. [سَ]{.ar} or [سَوْفَ]{.ar}. Example:
+
+   [أَعْلَمُ أَنْ سَيَذْهَبُ.]{.ar}  
+   "I know that he will go."
+
+3. A negative particle like [لَا]{.ar}, [لَنْ]{.ar}, or [لَمْ]{.ar}.
+
+   [أَعْلَمُ أَلَّا يَذْهَبُ.]{.ar}  
+   "I know that he does/will not go."
+
+   Note that [أَنْ]{.ar} has combined with [لَا]{.ar} to form [أَلَّا]{.ar} and that the verb [يَذْهَبُ]{.ar} is in the u-state.
+
+4. The conditional particle [لَوْ]{.ar}. We will study conditional sentences in chapter\ \@ref(conditional-sentences).
+
+Rigid verbs like [لَيْسَ]{.ar} and verbs expressing supplications are exempted from needing to be separated from the lightweight [أَنْ]{.ar}. Example:
+
+[ظَنَنْتُ أَنْ لَيْسَ ٱلْبَرْدُ شَدِيدًا.]{.ar}  
+"I thought that the cold is not intense."
+
+Care must be taken to distinguish between this lightweight [أَنْ]{.ar} and the [أَنْ]{.ar} which is used with a-state verbs.
+The following guidelines can help to distinguish  between these two [أَنْ]{.ar}s:
+
++ If the verb before [أَنْ]{.ar} signifies certainty then only [أَنَّ]{.ar} and its lightweight version [أَنْ]{.ar} is used. For example,
+
+  [أَعْلَمُ أَنْ قَدْ ذَهَبَ وَأَنْ سَيَرْجِعُ.]{.ar}  
+  "I know that he has gone and that he will return."
+
++ If the verb before [أَنْ]{.ar} signifies wanting, hoping, or expecting, then the [أَنْ]{.ar} puts the following verb in the a-state. For example,
+
+  [أَطْمَعُ أَلَّا يَذْهَبَ.]{.ar}  
+  "I hope that he not go."
+
+  Note that the verb [يَذْهَبَ]{.ar} is in the a-state.
+
++ If the verb before [أَنْ]{.ar} signifies neither certainty nor wanting, hoping, or expecting, then either [أَنْ]{.ar} may be used. For example,
+
+  [ظَنَنْتُ أَنْ يَرْجِعَ.]{.ar}  
+  "I thought that he should return."  
+  or  
+  [ظَنَنْتُ أَنْ يَرْجِعُ.]{.ar}  
+  "I thought that he will return."
+
+### The lightweight [كَأَنْ]{.ar}
+
+The lightweight [كَأَنْ]{.ar} is similar to the lightweight [أَنْ]{.ar} in that it introduces a topic-comment sentence and the topic is usually a deleted pronoun of the matter. For example,
+
+[كَأَنْ ٱلْبَرْدُ ذَهَبَ.]{.ar}  
+"[It is] as if the cold has gone."
+
+Also similar to the lightweight [أَنْ]{.ar}, the lightweight [كَأَنْ]{.ar} may introduce a verbal sentence but it must be separated from [كَأَنْ]{.ar} by either [قَدْ]{.ar} or [لَمْ]{.ar}. For example,
+
+[ذَهَبَ كَأَنْ لَمْ يَسْمَعْ.]{.ar}  
+"He went as if he did not hear."
+
+### The lightweight [لَـٰكِنْ]{.ar}
+
+The lightweight [لَـٰكِنْ]{.ar} has the same meaning as the heavyweight [لَـٰكِنَّ]{.ar} but it has no grammatical effect on the word or sentence after it. It may introduce either subject-information or verbal sentences. For example,
+
+[نَجَحَ زَيْدٌ لَـٰكِنْ صَدِيقُهُ لَمْ يَنْجَحْ.]{.ar}  
+"Zayd succeeded but his friend did not succeed."
+
+
+<!--chapter:end:srcrmd/inna_and_its_sisters.Rmd-->
 
 # (APPENDIX) Appendix {-}
 
