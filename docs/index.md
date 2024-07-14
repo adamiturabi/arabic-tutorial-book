@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-682-g2680f7a"
+date: "v0.1.0-683-gdd40217"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -10180,7 +10180,7 @@ or
 
 We also mentioned this point in section\ \@ref(doer-verbal-noun-for-intended-future-action).
 
-### [إِنَّ]{.ar} [Einna]{.trn} with a strengthening [لَ]{.ar}
+### [إِنَّ]{.ar} [Einna]{.trn} with a strengthening [لَ]{.ar} {#inna-strengthening-la}
 
 The strengthening particle [لَ]{.ar} adds extra emphasis and may optionally be used between the subject of [إِنَّ]{.ar} and its information.
 If the subject occurs first (as is the default) then [لَ]{.ar} is connected to and placed directly before the information. For example:
@@ -10459,9 +10459,49 @@ Here are some examples:
 The particles [إِنَّ]{.ar}, [أَنَّ]{.ar}, [كَأَنَّ]{.ar}, and [لَـٰكِنَّ]{.ar}, because of the doubled [نّ]{.ar} are considered _heavyweight_.
 There exist lightweight versions of these particles that are:
 [إِنْ]{.ar}, [أَنْ]{.ar}, [كَأَنْ]{.ar}, and [لَـٰكِنْ]{.ar}.
-These lightweight versions have similar meanings to their heavyweight counterparts but they have somewhat different rules. We will discuss them below:
+These lightweight versions have similar meanings to their heavyweight counterparts but they have somewhat different rules. We will discuss them below.
+In terms of their usage 
+[إِنْ]{.ar} and
+[كَأَنْ]{.ar} are not very commonly used except in the [#qurEAn]{.trn2}, poetry, and other rhetorical texts.
+[أَنْ]{.ar} and
+[لَـٰكِنْ]{.ar}
+are relatively more common.
 
 ### [إِنْ]{.ar}
+
+The lightweight
+[إِنْ]{.ar}
+is used in two different ways.
+In the more common way, the subject is not put in the a-state but is rather in the u-state.
+However, the strengthening [لَ]{.ar} (see section\ \@ref(inna-strengthening-la) above), that was optional with the heavyweight [إِنَّ]{.ar}, is now mandatory with the lightweight [إِنْ]{.ar}. For example,
+
+[إِنْ زَيْدٌ لَمُسْلِمٌ.]{.ar}  
+"Indeed Zayd is a Muslim."
+
+The other notable difference between 
+the lightweight [إِنْ]{.ar}
+and
+the heavyweight [إِنَّ]{.ar}
+is that 
+the heavyweight [إِنَّ]{.ar} is only used to introduce subject-information sentences.
+The lightweight [إِنْ]{.ar},
+however, can be used to introduce verbal sentences, but only those that begin with the verbs:
+[كَانَ]{.ar} and its sisters,
+[كَادَ]{.ar} and its sisters, and
+[ظَنَّ]{.ar} and its sisters.
+For example,
+
+[قَرَأْتُ ٱلْكِتَابَ وَإِنْ كَانَ ٱلْكِتَابُ لَجَيِّدًا.]{.ar}  
+"I read the book and indeed the book was good."
+
+The second, less common way, of using
+the lightweight [إِنْ]{.ar}
+is following the same rules as the 
+the heavyweight [إِنَّ]{.ar}.
+Where the subject is in the a-state and the use of the strengthening [لَ]{.ar} is optional. For example,
+
+[إِنْ زَيْدًا مُسْلِمٌ.]{.ar}  
+"Indeed Zayd is a Muslim."
 
 
 <!--chapter:end:srcrmd/inna_and_its_sisters.Rmd-->
