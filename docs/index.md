@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-684-g57f6703"
+date: "v0.1.0-687-g1785cf7"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -10283,13 +10283,13 @@ Example:
 
 As you know, [كَانَ]{.ar}'s doer is also its subject, and its doee is also its information.
 The [أَنَّ]{.ar} clause can occur in either the subject or the information of [كَنَ]{.ar}. 
-For example (as the information):
+For example, the [أَنَّ]{.ar} clause as the information:
 
 ![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-28-1.png)<!-- -->
 
 "The matter was that he didn't do his obligation."
 
-Now as the subject:
+Now, the [أَنَّ]{.ar} clause as the subject:
 
 ![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-29-1.png)<!-- -->
 
@@ -10383,7 +10383,7 @@ TODO
 
 TODO
 
-## Topic-comment sentences and the pronoun of the matter
+## Topic-comment sentences and the pronoun of the fact
 
 ### Topic-comment sentences
 
@@ -10393,7 +10393,7 @@ There is a sub-type of subject-information sentence called a topic-comment sente
 
 "The tree: its branches are long."
 
-In these kinds of sandwiches, the subject introduces a topic, and the information is itself a sentence which comments on the topic/subject.
+In these kinds of sentences, the subject introduces a topic, and the information is itself a sentence which comments on the topic/subject.
 We have, in fact, already seen sentences like this in section\ \@ref(past-verbs-order-of-words), when we take a verbal sentence and convert it to a subject-information sentence. This is the example we discussed there:
 
 [ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}  
@@ -10429,7 +10429,7 @@ The topic, in a topic-comment sentence, is frequently a pronoun. For example,
 [أَكَلْتُ ٱلطَّعَامَ لَـٰكِنَّكَ لَمْ تَأْكُلْ.]{.ar}  
 "I ate the food but you: you didn't eat."
 
-### The pronoun of the matter
+### The pronoun of the fact
 
 Mostly, pronouns are used in place of nouns when it is already known to whom the noun refers to. So if you say:
 
@@ -10438,26 +10438,34 @@ Mostly, pronouns are used in place of nouns when it is already known to whom the
 
 the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
 
-There is a special pronoun, called the _pronoun of the matter_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the matter is" but is often left untranslated. Here is an example:
+There is a special pronoun, called the _pronoun of the fact_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
 
 ![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-33-1.png)<!-- -->
 
-"The matter is: the cold is intense."
+"The fact is: the cold is intense."
 
 This pronoun is usually the singular masculine pronoun (as above) but it is also sometimes the singular feminine pronoun [هِيَ]{.ar}.
 It is typically used with statements of import, to which the speaker wishes to draw attention.
 The comment does not contain a linker pronoun because the whole comment refers back to the topic.
-The pronoun of the matter is frequently used with [إِنَّ]{.ar} and its sisters. 
+The pronoun of the fact is frequently used with [إِنَّ]{.ar} and its sisters. 
 Here are some examples:
 
 [إِنَّهُ لَا يُفْلِحُ ٱلْكَافِرُونَ.]{.ar}  
 "Indeed, the disbelievers will not succeed."  
 ([#qurEAn]{.trn2} 23:117, trans. Saheeh International)
 
+Sometimes, one can choose between using the pronoun of the fact and a pronoun matching the participant resulting in different emphasis. For example,
+
+[إِنِّهُ هُمُ ٱلْفَاعِلُونَ]{.ar}  
+"Indeed, the fact is: they are the doers."
+
+[إِنِّهُمْ هُمُ ٱلْفَاعِلُونَ]{.ar}  
+"Indeed, _they_ are the doers."
+
 ## The lightweight versions [إِنْ]{.ar}, [أَنْ]{.ar}, [كَأَنْ]{.ar}, and [لَـٰكِنْ]{.ar}
 
 The particles [إِنَّ]{.ar}, [أَنَّ]{.ar}, [كَأَنَّ]{.ar}, and [لَـٰكِنَّ]{.ar}, because of the doubled [نّ]{.ar} are considered _heavyweight_.
-There exist lightweight versions of these particles that are:
+There exist _lightweight_ versions of these particles that are:
 [إِنْ]{.ar}, [أَنْ]{.ar}, [كَأَنْ]{.ar}, and [لَـٰكِنْ]{.ar}.
 These lightweight versions have similar meanings to their heavyweight counterparts but they have somewhat different rules. We will discuss them below.
 In terms of their usage 
@@ -10505,14 +10513,14 @@ Where the subject is in the a-state and the use of the strengthening [لَ]{.ar}
 
 ### The lightweight [أَنْ]{.ar}
 
-The lightweight [أَنْ]{.ar} only introduces topic-comment clauses whose topic is understood to be a deleted pronoun of the matter. 
+The lightweight [أَنْ]{.ar} only introduces topic-comment clauses whose topic is understood to be a deleted pronoun of the fact. 
 The comment is, as usual, a complete sentence. 
 For example, consider the following sentence with a heavyweight [أَنَّ]{.ar}:
 
 [أَعْلَمُ أَنَّهُ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
-"I know that the matter is: the cold is intense."
+"I know that the fact is: the cold is intense."
 
-If we replace the heavyweight [أَنَّ]{.ar} in the above example with the lightweight [أَنْ]{.ar} then we pronoun of the matter topic is deleted, thus:
+If we replace the heavyweight [أَنَّ]{.ar} in the above example with the lightweight [أَنْ]{.ar} then we pronoun of the fact topic is deleted, thus:
 
 [أَعْلَمُ أَنِ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
 "I know that the cold is intense."
@@ -10570,7 +10578,7 @@ The following guidelines can help to distinguish  between these two [أَنْ]{.
 
 ### The lightweight [كَأَنْ]{.ar}
 
-The lightweight [كَأَنْ]{.ar} is similar to the lightweight [أَنْ]{.ar} in that it introduces a topic-comment sentence and the topic is usually a deleted pronoun of the matter. For example,
+The lightweight [كَأَنْ]{.ar} is similar to the lightweight [أَنْ]{.ar} in that it introduces a topic-comment sentence and the topic is usually a deleted pronoun of the fact. For example,
 
 [كَأَنْ ٱلْبَرْدُ ذَهَبَ.]{.ar}  
 "[It is] as if the cold has gone."
@@ -10589,6 +10597,357 @@ The lightweight [لَـٰكِنْ]{.ar} has the same meaning as the heavyweight 
 
 
 <!--chapter:end:srcrmd/inna_and_its_sisters.Rmd-->
+
+# Nouns of superiority
+
+## Introduction
+
+Consider the sentence:
+
+"The book is heavier than the pen."
+
+In this sentence a relationship of superiority is established between the two nouns: "the book" and "the pencil". The book is being described as being superior in heaviness.
+
+By the way, we are using the "superiority" in a technical sense. For example, we can say "The donkey is weaker than the horse." Here the donkey is being described as superior in weakness.
+
+In order to express a superiority relationship between nouns, for example, , Arabic uses qualitative nouns with a distinct form. Here is a table of some common qualitative nouns and their corresponding  nouns of superiority.
+
+|Root|Qualitative noun | Noun of superiority|
+|:--|:--|:--|
+|[كبر]{.arroot}|[كَبِيرٌ]{.ar}   [kabIrun]{.trn}   "big"       | [أَكْبَرُ]{.ar} [Eakbaru]{.trn} "biger"     |
+|[صغر]{.arroot}|[صَغِيرٌ]{.ar}   [SagIrun]{.trn}   "small"     | [أَصْغَرُ]{.ar} [EaSgaru]{.trn} "smaller"   |
+|[حسن]{.arroot}|[حَسَنٌ]{.ar}    [Hasanun]{.trn}   "good"      | [أَحْسَنُ]{.ar} [EaHsanu]{.trn} "better"    |
+|[سوء]{.arroot}|[سَيِّئٌ]{.ar}    [sayyiEun]{.trn}  "bad"       | [أَسْوَأُ]{.ar} [EaswaEu]{.trn} "worse"     |
+|[قدم]{.arroot}|[قَدِيمٌ]{.ar}   [qadImun]{.trn}   "old"       | [أَقْدَمُ]{.ar} [Eaqdamu]{.trn} "older"     |
+|[جد]{.arroot}|[جَدِيدٌ]{.ar}    [jadIdun]{.trn}   "new"       | [أَجَدُّ]{.ar}  [Eajaddu]{.trn} "newer"     |
+|[سهل]{.arroot}|[سَهْلٌ]{.ar}    [sahlun]{.trn}    "easy"      | [أَسْهَلُ]{.ar} [Eashalu]{.trn} "easier"    |
+|[صعب]{.arroot}|[صَعْبٌ]{.ar}    [Saebun]{.trn}    "difficult" | [أَصْعَبُ]{.ar} [EaSeabu]{.trn} "more difficult"|
+|[طول]{.arroot}|[طَوِيلٌ]{.ar}   [TawIlun]{.trn}   "long"      | [أَطْوَلُ]{.ar} [EaTwalu]{.trn} "longer"     |
+|[قصر]{.arroot}|[قَصِيرٌ]{.ar}   [qaSIrun]{.trn}   "short"     | [أَقْصَرُ]{.ar} [EaqSaru]{.trn} "shorter"    |
+|[ثقل]{.arroot}|[ثَقِيلٌ]{.ar}   [vaqIlun]{.trn}   "heavy"     | [أَثْقَلُ]{.ar} [Eavqalu]{.trn} "heavier"    |
+|[خف]{.arroot}|[خَفِيفٌ]{.ar}    [xafIfun]{.trn}   "light"     | [أَخَفُّ]{.ar}  [Eaxaffu]{.trn} "lighter"    |
+|[وسع]{.arroot}|[وَاسِعٌ]{.ar}   [wAsieun]{.trn}   "wide"      | [أَوْسَعُ]{.ar} [Easwaeu]{.trn} "wider"      |
+|[ضيق]{.arroot}|[ضَيِّقٌ]{.ar}    [Dayyiqun]{.trn}  "narrow"    | [أَضْيَقُ]{.ar} [EaDyaqu]{.trn} "narrower"   |
+|[سرع]{.arroot}|[سَرِيعٌ]{.ar}   [sarIeun]{.trn}   "fast"      | [أَسْرَعُ]{.ar} [Easraeu]{.trn} "faster"     |
+|[بطء]{.arroot}|[بَطِيءٌ]{.ar}   [baTIEun]{.trn}   "slow"      | [أَبْطَأُ]{.ar} [EabtaEu]{.trn} "slower"     |
+|[قوي]{.arroot}|[قَوِيٌّ]{.ar}    [qawiyyun]{.trn}  "strong"    | [أَقْوَىٰ]{.ar} [EaqwA]{.trn}   "stronger"   |
+|[ضعف]{.arroot}|[ضَعِيفٌ]{.ar}   [DaeIfun]{.trn}   "weak"      | [أَضْعَفُ]{.ar} [EaDeafu]{.trn} "weaker"     |
+|[كثر]{.arroot}|[كَثِيرٌ]{.ar}   [kavIrun]{.trn}   "many"      | [أَكْثَرُ]{.ar} [Eakvaru]{.trn} "more"       |
+|[قل]{.arroot} |[قَلِيلٌ]{.ar}   [qalIlun]{.trn}   "few/less"  | [أَقَلُّ]{.ar}  [Eaqallu]{.trn} "fewer/lesser"|
+
+Note the following points regarding the form of the noun of superiority:
+
++ Nouns of superiority are regularly of the pattern [أَفْعَلُ]{.ar} [Eafealu]{.trn} using the template root [فعل]{.arroot}. 
++ Nouns of superiority are non-fully changing nouns, so they won't have [n]{.trn} marks and the indefinite noun in the i-state will have an [a]{.trn}-mark on the last letter.
++ If a root's last two letters are the same, it is shown as a two-letter root and the noun of superiority is formed by doubling the last letter. Example: [جد]{.arroot}: [أَجَدُّ]{.ar}  [Eajaddu]{.trn} "newer".
++ If a root's last letter is [و]{.ar} or [ي]{.ar}, then the noun of superiority's last letter will be [ىٰ]{.ar}. Example: [قوي]{.arroot}: [أَقْوَىٰ]{.ar} [EaqwA  ]{.trn} "stronger".
+
+You may remember that the pattern of the identical is identical to the pattern of colors and physical characteristics. For example [أَحْمَرُ]{.ar} [EaHmaru]{.trn} "red". However, this similarity is largely superficial. We will see that nouns of superiority are feminized differently and sometimes not at all.
+
+## Comparing two nouns
+
+Nouns of superiority can be used to compare a qualitative quality between two nouns. Here is an example sentence:
+
+[ٱَلْغُلَامُ أَطْوَلُ مِنَ ٱلْجَارِيَةِ.]{.ar}  
+[EalgulAmu EaTwalu mina -ljAriyati.]{.trn}  
+"The boy is taller than the girl."
+
+Here you can see that the preposition [مِنْ]{.ar} [min]{.trn} is used to mean "than".
+
+If we wish to say: "The girl is taller than the boy.", we will use the same [أَطْوَل]{.ar} [EaTwalu]{.trn} even though the subject "the girl" is now feminine:
+
+[ٱَلْجَارِيَةِ أَطْوَلُ مِنَ ٱلْغُلَامُ.]{.ar}  
+[EaljAriyati EaTwalu mina -lgulAmu.]{.trn}  
+"The girl is taller than the boy."
+
+Similarly, if the subject noun to be compared is a plural, whether masculine or feminine, rational or non-rational, the same noun of superiority is used. Examples:
+
+[ٱَلرِّجَالُ أَطْوَلُ مِنَ ٱلنِّسَاءِ وَهُنَّ أَقْصَرُ مِنْهُمْ.]{.ar}  
+[EarrijAlu Eatwalu mina -nnisAEi wa hunna EaqSaru minhum.]{.trn}  
+"The men are taller than the women and they~fem.~ are shorter than them~masc.~."
+
+[ٱلْكُتُبُ أَثُقَلُ مِنَ ٱلْأَقْلَامِ.]{.ar}  
+[Ealkutubu Eavqalu mina -lEaqlAmi.]{.trn}  
+"The books are heavier than the pens."
+
+### Nouns of superiority without a second noun
+
+The above example compared one noun to another. Often, the second noun need not be mentioned. For example,
+
+[ٱلْكُتُبُ أَثْقَلُ.]{.ar}  
+[Ealkutubu Eavqalu.]{.trn}  
+"The books are heavier."
+
+## Conveying the meaning of the highest degree
+
+The same nouns of superiority are also used in Arabic to convey the meaning of the highest degree of a quality, like "the biggest house", "the weakest link", "the best book", etc. This can be done in a number of ways.
+
+### With indefinite noun-chains
+
+The most common way to express this in Arabic is using a noun-chain with the noun of superiority and an indefinite noun. Here is an example:
+
+[هُوَ أَسْرَعُ غُلَامٍ فِي ٱلْمَدْرَسَةِ.]{.ar}  
+[huwa Easraeu gulAmin fi -lmadrasati.]{.trn}  
+"He is the fastest boy in the school."
+
+An important point to note is that while in English we used the definite in the translation: "the fastest boy", in Arabic the noun-phrase [أَسْرَعُ غُلَامٍ]{.ar} [Easraeu gulAmin]{.trn} is technically indefinite. It is just hard to find a suitable translation in English where the noun-phrase could be indefinite.
+
+The same noun of superiority is used with feminine and dual/plural nouns. Examples:
+
+[هِيَ أَطْوَلُ ٱمْرَأَةٍ.]{.ar}  
+[hiya EaTwalu -mraEatin.]{.trn}  
+"She is the tallest woman."
+
+[هُمَا أَطْوَلُ رَجُلَيْنِ.]{.ar}  
+[humA EaTwalu rajulayni.]{.trn}  
+"They are tallest (two) men."
+
+[هُنَّ أَطْوَلُ نِسَاءٍ.]{.ar}  
+[hunna EaTwalu nisAEin.]{.trn}  
+"They are the tallest women."
+
+<!-- ^ pretty much from Wright vol. ii., sect. 93, p. 227 -->
+
+### With definite noun-chains
+
+The noun of superiority can also be used in definite noun-chains with a slightly different meaning. However, the second noun of the noun-chain will need to be in the plural. Examples:
+
+[هُوَ أَطْوَلُ ٱلرِّجَالِ.]{.ar}  
+[huwa EaTwalu -rrijAli.]{.trn}  
+"He is the tallest of the men."
+
+[هُمَا أَطْوَلُ ٱلنِّسَاءِ]{.ar}  
+[humA EaTwalu -nnisAEi.]{.trn}  
+"They (two) are the tallest of the women."
+
+## Feminine, dual, and plural forms
+
+So far we have used only one form of the noun of superiority: [أَفْعَلُ]{.ar} [Eafealu]{.trn}. Technically, this is the masculine singular form, although it can be used for feminine, dual, and plural nouns as we have seen above. 
+
+However, when the meaning of the highest degree is to be conveyed for definite nouns without using noun-chains, then we will use new feminine, dual, and plurals forms for the noun of superiority. We will give these forms below:
+
+| Number | Masc. | Fem. |
+|:--|:--|:--|
+|sing.        | [أَفْعَلُ]{.ar} [Eafealu]{.trn}|    [فُعْلَىٰ]{.ar} [fuelA]{.trn}|
+|dual         | [أَفْعَلَانِ]{.ar} [EafealAni]{.trn}|[فُعْلَيَانِ]{.ar} [fuelayAni]{.trn}|
+|sound plur.  | [أَفْعَلُونَ]{.ar} [EafealUna]{.trn}|[فُعْلَيَاتٌ]{.ar} [fuelayAtun]{.trn}|
+|broken plur. | [أَفَاعِلُ]{.ar} [EafAeilu]{.trn}|  [فُعَلٌ]{.ar} [fuealun]{.trn}|
+
+These forms are to be used when the noun of superiority is usually definite and either:
+
+ i. by itself, or
+ii. a describer.
+
+We will give some examples below:
+
+[هُوَ ٱلرَّجُلُ ٱلْأَطْوَلُ.]{.ar}  
+[huwa -rrajulu -lEaTwalu.]{.trn}  
+"He is the tallest man."
+
+[هِيَ ٱلْمَرْأَةُ ٱلطُّولَىٰ.]{.ar}  
+[hiya -lmarEatu -TTUlA.]{.trn}  
+"She is the tallest woman."
+
+[هُمَا ٱلرَّجُلَانِ ٱلْأَطْوَلَانِ.]{.ar}  
+[huma -rrajulAni -lEaTwalAni.]{.trn}  
+"They~masc.\ dual~ are the two tallest men."
+
+[هُمَا ٱلْمَرْأَتَانِ ٱلطُّولَيَانِ.]{.ar}  
+[huma -lmarEatAni -TTUlayAni.]{.trn}  
+"They~fem.\ dual~ are the two tallest women."
+
+[هَـٰؤُلَاءِ هُمُ ٱلرِّجَالُ ٱلْأَطْوَلُونَ وَأُولَـٰئِكَ هُمُ ٱلأَقَاصِرُ.]{.ar}  
+[hAEulAEi humu -rrijAlu -lEaTwalUna waEulAEika humu -lEaqASiru.]{.trn}  
+"These are the tallest men and those are the shortest [men]."  
+
+[هَـٰؤُلَاءِ هُنَّ ٱلنِّسَاءُ ٱلطُّولَيَاتُ وَأُولَـٰئِكَ هُنَّ ٱلقُصَرُ.]{.ar}  
+[hAEulAEi hunna -nnisAEu -TTUlayAtu waEulAEika hunna -lquSaru.]{.trn}  
+"These are the tallest women and those are the shortest [women]."  
+
+### Plural forms with non-rational beings
+
+If a noun of superiority is to be used with a definite plural noun for (masculine or feminine) non-rational beings, either by itself or as a describer, then it will usually be the feminine singular form. This is consistent with what we have learned so far regarding the use of feminine singular qualitative nouns and pronouns for non-rational beings. Here is an example:
+
+[ٱَلْكُتُبُ ٱلْكَبِيرَةُ هِيَ ٱلثُّقْلَىٰ.]{.ar}  
+[Ealkutubu -lkabIratu hiya -vvuqlA.]{.trn}  
+"The big books are the heaviest."  
+
+Sometimes, however, if the plural noun is not mentioned in a sentence we can use the broken plural of the feminine noun of superiority to convey the meaning of plurality. For example,
+
+[قَسَمْتُ ٱلْأَقْلَامَ. هَـٰؤُلَاءِ هُنَّ ٱلطُّوَلُ وَأُولَـٰئِكَ هُنَّ ٱلقُصَرُ.]{.ar}  
+[qasamtu -lEaqlAma. hAEulAEi hunna -TTuwalu waEulAEika hunna -lquSaru.]{.trn}  
+"I divided the pens. These are the tallest and those are the shortest."  
+
+<!-- تلك الغرانيق العلى 
+فقرأ ببسورة من الطُّوَل
+-->
+
+<!--[قَسَمْتُ ٱلْأَقْلَامَ. هَـٰؤُلَاءِ هُنَّ ٱلطُّولَيَاتُ وَأُولَـٰئِكَ هُنَّ ٱلقُصْرَيَاتُ.]{.ar}  
+[qasamtu -lEaqlAma. hAEulAEi hunna -TTUlayAtu waEulAEika hunna -lquSrayAtu.]{.trn}  
+"I divided the pens. These are the tallest and those are the shortest."  -->
+
+<!--https://majles.alukah.net/t78123/
+
+هذه المباني / الحدائق هي الكبرى/ الكبريات (ولا يجوز: هي الأكبر!!!).
+-->
+
+### Dual and plural forms in definite noun-chains
+
+In section X above we learned that that definite noun-chains use the form [أَفْعَلُ]{.ar} [Eafealu]{.trn}. We gave the following examples:
+
+[هُوَ أَطْوَلُ ٱلرِّجَالِ.]{.ar}  
+[huwa EaTwalu -rrijAli.]{.trn}  
+"He is the tallest of the men."
+
+[هُمَا أَطْوَلُ ٱلنِّسَاءِ]{.ar}  
+[humA EaTwalu -nnisAEi.]{.trn}  
+"They (two) are the tallest of the women."
+
+We now modify this rule to state that dual and plural forms of the noun of superiority can be used as well, especially when no other indication of number is present.
+
+For example, in the sentence,
+
+[هُمْ أَطْوَلُ ٱلرِّجَالِ.]{.ar}  
+[hum EaTwalu -rrijAli.]{.trn}  
+"They~masc.\ plur.~ are the tallest of the men."
+
+the pronoun [هُمْ]{.ar} tells us that we are talking about multiple persons who are the tallest of the men. But if we have a sentence like:
+
+[ذَهَبَ أَطْوَلُ ٱلرِّجَالِ.]{.ar}  
+[pahaba EaTwalu -rrijAli.]{.trn}  
+"The tallest of the men went."
+
+Here we cannot say that one man had gone or more than one. To remove this ambiguity we can use the plural form [أَطَاوِلُ]{.ar} [EaTAwilu]{.trn} thus:
+
+[ذَهَبَ أَطَاوِلُ ٱلرِّجَالِ.]{.ar}  
+[pahaba EaTAwilu -rrijAli.]{.trn}  
+"The tallest~plur.~ of the men went."
+
+## Comparing a noun with itself
+
+<!--vol. ii.,Sect. 48 rem A. p. 133A-->
+A noun can be compared with itself in a different respect. For example, we can say:
+
+"The tree is closer to Zayd than it is to [#muHammad]{.trn2}."
+
+Here the tree is being compared with itself with respect to its position near Zayd and its position near [#muHammad]{.trn2}. We will use the appropriate attached pronoun for the object being compared and attach it tp the preposition of comparison [مِنْ]{.ar} [min]{.trn} "than". So the above sentence can be expressed as:
+
+[ٱَلشَّجَرَةُ أَقْرَبُ إِلَىٰ زَيْدٍ مِنْهَا إِلَىٰ مُحَمَّدٍ.]{.ar}  
+[Eaccajaratu Eaqrabu EilA zaydin minhA EilA muHammadin.]{.trn}  
+
+The attached pronoun [ـهَا]{.ar} [-hA]{.trn} refers to [ٱَلشَّجَرَةُ]{.ar} [Eaccajaratu]{.trn} "the tree".
+The preposition [إِلَىٰ]{.ar} [EilA]{.trn} is used with the noun of superiority [أَقْرَبُ]{.ar} [Eaqrabu]{.trn} to express "nearer to".
+
+## Attention to the definiteness and plurality of noun-chains
+
+We have seen that if a noun of superiority is used in an indefinite noun-chain, it conveys the idea of the highest degree, and the singularity or plurality of second noun in the noun-chain conveys the number of object whose superiority is being expressed. The examples we gave were:
+
+[هِيَ أَطْوَلُ ٱمْرَأَةٍ.]{.ar}  
+[hiya EaTwalu -mraEatin.]{.trn}  
+"She is the tallest woman."
+
+[هُمَا أَطْوَلُ رَجُلَيْنِ.]{.ar}  
+[humA EaTwalu rajulayni.]{.trn}  
+"They are tallest (two) men."
+
+[هُنَّ أَطْوَلُ نِسَاءٍ.]{.ar}  
+[hunna EaTwalu nisAEin.]{.trn}  
+"They are the tallest women."
+
+Here we would like to stress that second-noun of the noun chain must be indefinite. So, for example, we can have a sentence:
+
+[هَـٰذَا أَكْبَرُ بَيْتٍ.]{.ar}  
+[hApA Eakbaru baytin.]{.trn}  
+"This is the biggest house."
+
+If we would like to express "This is the biggest house of the city" then we cannot simply extend the noun-chain by adding [ٱلْمَدِينَةِ]{.ar} [-lmadInati]{.trn} "of the city" to it thus:
+
+[هَـٰذَا أَكْبَرُ بَيْتِ ٱلْمَدِينَةِ.]{.ar}  
+[hApA Eakbaru bayti -lmadInati.]{.trn}  
+
+This is because the noun-chain is now definite. This sentence can now only mean "This is the biggest [part] of the house of the city."
+
+In order to express the desired meaning, we have a few options with similar meanings:
+
+[هَـٰذَا بَيْتُ ٱلْمَدِينَةِ ٱلْأَكْبَرُ.]{.ar}  
+[hApA baytu -lmadInati -lEakbaru.]{.trn} 
+"This is the biggest house of the city."
+
+[هَـٰذَا أَكْبَرُ بَيْتٍ فِي ٱلْمَدِينَةِ.]{.ar}  
+[hApA Eakbaru baytin fi -lmadInati.]{.trn}  
+"This is the biggest house in the city."
+
+[هَـٰذَا أَكْبَرُ بُيُوتِ ٱلْمَدِينَةِ.]{.ar}  
+[hApA Eakbaru buyUti -lmadInati.]{.trn}  
+"This is the biggest of the houses of the city."
+
+<!--https://forum.wordreference.com/threads/%D9%81%D9%8A-%D8%A3%D9%82%D8%B5%D9%89-%D8%B3%D8%A7%D8%AD%D9%84-%D8%A8%D8%AD%D8%B1-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84.3477546/#post-17650853-->
+
+## Expressing "better than" and "worse than"
+
+To express the meaning "better" Arabic can use  [أَحْسَنُ]{.ar} [EaHsanu]{.trn} from [حَسَنٌ]{.ar} [Hasanun]{.trn}. There is also the word [أَفْضَلُ]{.ar} [EafDalu]{.trn} is very commonly used. Technically it means "more preferred" but it is often used where in English we would say "better".
+
+Similarly, to express worse we can use [أَسْوَأُ]{.ar} [EaswaEu]{.trn} from [سَيِّئٌ]{.ar} [sayyiEun]{.trn}.
+
+In addition, there are two words: [خَيْرٌ]{.ar} [xayrun]{.trn} and [شَرٌّ]{.ar} [carrun]{.trn}, which are really designative nouns meaning "goodness" and "evil" respectively. 
+
+These same words, although they not in the pattern [أَفْعَلُ]{.ar} [Eafealu]{.trn}, are used with [مِنْ]{.ar} [min]{.trn} "than" to express "better" and "worse" respectively. Here are some examples:
+
+## The word "other"
+
+The word [آخَرُ]{.ar} [EAxaru]{.trn} is a qualitative noun meaning "other". It is actually on the pattern of the noun of superiority [أَفْعَلُ]{.ar} [Eafealu]{.trn} with the root [ءخر]{.arroot} but is somewhat of an anomaly because it does not have a meaning of superiority and is not used for comparison. That is to say: we cannot say that something is more "other" than something else. It shares some of the qualities of the noun of superiority in the formation of its feminine and plurals. We will describe these and their usages below.
+
+| Number | Masc. | Fem. |
+|:--|:--|:--|
+|sing.        | [آخَر]{.ar}   [EAxaru]{.trn}|    [أُخْرَىٰ]{.ar} [EuxrA]{.trn}|
+|dual         | [آخَرَانِ]{.ar} [EAxarAni]{.trn}|[أُخْرَيَانِ]{.ar} [EuxrayAni]{.trn}|
+|sound plur.  | [آخَرُونَ]{.ar} [EAxarUna]{.trn}|[أُخْرَيَاتٌ]{.ar} [EuxrayAtun]{.trn}|
+|broken plur. | [أَوَاخِرُ]{.ar} [EawAxiru]{.trn}|  [أُخَرُ]{.ar}  [Euxaru]{.trn}|
+
+Note that the masculine broken plural [أَوَاخِرُ]{.ar} [EawAxiru]{.trn} (on the pattern [أَفَاعِلُ]{.ar} [EafAeilu]{.trn}) has replaced the [ء]{.ar} in the root with a [و]{.ar}. This is a regular replacement in order to avoid two [ء]{.ar}s next to one another in [أَءَاخِرُ]{.ar} [EaEAxiru]{.trn}. This broken plural is given here for completeness but it is actually very rarely used. The sound [Un]{.trn} plural [آخَرُونَ]{.ar} [EAxarUna]{.trn} is used instead.
+
+Also note that the feminine broken plural [أُخَرُ]{.ar} [Euxaru]{.trn} is non-fully changing. This is irregular because the broken plural pattern [فُعَلٌ]{.ar} [fuealun]{.trn} is usually fully-changing.
+
+We use [آخَرُ]{.ar} [EAxaru]{.trn} just like any other qualitative noun and we will give some examples below.
+
+[جَاءَ زَيْدٌ وَرَجُلٌ آخَرُ.]{.ar}  
+[jAEa zaydun warajulun EAxaru.]{.trn}  
+"Zayd and another man came."
+
+[ذَهَبَتْ زَيْنَبُ إِلَى ٱلْمَدْرَسَةِ ٱلْأُخْرَىٰ.]{.ar}  
+[pahabat zaynabu Eila -lmadrasati -lEuxrA.]{.trn}  
+"Zaynab went to the other school."
+
+[قَرَأْتُ هَـٰذَا ٱلْكِتَابَ وَكِتَابَيْنِ آخَرَيْنِ.]{.ar}  
+[qaraEtu hApa -lkitAba wakitAbayni EAxarayni.]{.trn}  
+"I read this book and two other books."
+
+[ذَهَبَ رِجَالٌ آخَرُونَ.]{.ar}  
+[pahaba rijAlun EAxarUna]{.trn}  
+"Other men went."
+
+[ذَهَبَتْ زَيْنَبُ مَعَ ٱلنِّسَاءِ ٱلْأُخْرَيَاتِ.]{.ar}  
+[pahabat zaynabu maea -nnisAEi -lEuxrayAti.]{.trn}  
+"Zaynab went with the other women."
+
+With non-rational nouns, just like other qualitative nouns, the feminine singular is usually used. Example:
+
+[قَرَأْتُ هَـٰذَا ٱلْكِتَابَ وَكُتُبًا أُخْرَىٰ.]{.ar}  
+[qaraEtu hApa -lkitAba wakutuban EuxrA.]{.trn}  
+"I read this book and other books."
+
+However, the feminine broken plural [أُخَرُ]{.ar} [Euxaru]{.trn} can also be used, especially if there is no other indication of plurality. Examples:
+
+[هَـٰذَا ٱلْكِتَابُ خَفِيفٌ وَٱلْأُخَرُ ثَقِيلَةٌ.]{.ar}  
+[hApa -lkitAbu xafIfun wa-lEuxaru vaqIlatun.]{.trn}  
+"This book is light and the others are heavy."
+
+[قَرَأَ هَـٰذَا ٱلْكِتَابَ وَقَرَأَ أُخَرَ.]{.ar}  
+[qaraEa -lkitAba waqaraEa Euxara.]{.trn}  
+"He read this book and and he read others."
+
+
+<!--chapter:end:srcrmd/elatives.Rmd-->
 
 # (APPENDIX) Appendix {-}
 
