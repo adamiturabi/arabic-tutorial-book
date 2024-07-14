@@ -334,7 +334,7 @@ Example:
 
 As you know, [كَانَ]{.ar}'s doer is also its subject, and its doee is also its information.
 The [أَنَّ]{.ar} clause can occur in either the subject or the information of [كَنَ]{.ar}. 
-For example (as the information):
+For example, the [أَنَّ]{.ar} clause as the information:
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -358,7 +358,7 @@ For example (as the information):
 
 "The matter was that he didn't do his obligation."
 
-Now as the subject:
+Now, the [أَنَّ]{.ar} clause as the subject:
 
 ```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -538,7 +538,7 @@ There is a sub-type of subject-information sentence called a topic-comment sente
 
 "The tree: its branches are long."
 
-In these kinds of sandwiches, the subject introduces a topic, and the information is itself a sentence which comments on the topic/subject.
+In these kinds of sentences, the subject introduces a topic, and the information is itself a sentence which comments on the topic/subject.
 We have, in fact, already seen sentences like this in section\ \@ref(past-verbs-order-of-words), when we take a verbal sentence and convert it to a subject-information sentence. This is the example we discussed there:
 
 [ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}  
