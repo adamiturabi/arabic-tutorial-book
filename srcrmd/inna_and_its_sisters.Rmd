@@ -536,7 +536,7 @@ There is a sub-type of subject-information sentence called a topic-comment sente
 \end{tikzpicture}
 ```
 
-"The tree: its branches are many."
+"The tree: its branches are long."
 
 In these kinds of sandwiches, the subject introduces a topic, and the information is itself a sentence which comments on the topic/subject.
 We have, in fact, already seen sentences like this in section\ \@ref(past-verbs-order-of-words), when we take a verbal sentence and convert it to a subject-information sentence. This is the example we discussed there:
@@ -553,4 +553,67 @@ In the example
 Similarly, in the example
 [ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}
 the linker pronoun is the invisible doer pronoun "he" of the verb [كَتَبَ]{.ar} "he wrote" that links back to the topic [ٱَلرَّجُلُ]{.ar} "the man".
+
+#### Topic-comment sentences with [إِنَّ]{.ar} and its sisters
+
+[إِنَّ]{.ar} and its sisters are very often used in topic-comment sentences. (With [أَنَّ]{.ar} it is, as usual, an incomplete sentence.) Here are some examples:
+
+[إِنَّ زَيْدًا لَهُ أَخٌ وَأُخْتٌ.]{.ar}  
+"Indeed Zayd: he has a brother and sister."
+
+[ٱِعْلَمْ أَنَّ ٱلْعِلْمَ حُصُولُهُ يَتَطَلَّبُ جُهْدًا.]{.ar}  
+"Know that knowledge: its obtaining requires effort."
+
+#### Topic-comment sentences with a pronoun topic
+
+The topic, in a topic-comment sentence, is frequently a pronoun. For example,
+
+[أَنَا ٱسْمِي زَيْدٌ.]{.ar}  
+"I: my name is Zayd."
+
+[أَكَلْتُ ٱلطَّعَامَ لَـٰكِنَّكَ لَمْ تَأْكُلْ.]{.ar}  
+"I ate the food but you: you didn't eat."
+
+### The pronoun of the matter
+
+Mostly, pronouns are used in place of nouns when it is already known to whom the noun refers to. So if you say:
+
+[أَنَا ٱسْمِي زَيْدٌ.]{.ar}  
+"I: my name is Zayd."
+
+the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
+
+There is a special pronoun, called the _pronoun of the matter_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the matter is" but is often left untranslated. Here is an example:
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{ٱلْبَرْدُ شَدِيدٌ} \txarb{هُوَ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize pronoun of the matter};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize information/comment};
+
+\end{tikzpicture}
+```
+
+"The matter is: the cold is intense."
+
+This pronoun is usually the singular masculine pronoun (as above) but it is also sometimes the singular feminine pronoun [هِيَ]{.ar}.
+It is typically used with statements of import, to which the speaker wishes to draw attention.
+The comment does not contain a linker pronoun because the whole comment refers back to the topic.
+The pronoun of the matter is frequently used with [إِنَّ]{.ar} and its sisters. 
+Here are some examples:
+
+
 

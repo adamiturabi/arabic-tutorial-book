@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-680-g139437e"
+date: "v0.1.0-681-g8991666"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -10408,6 +10408,49 @@ In the example
 Similarly, in the example
 [ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}
 the linker pronoun is the invisible doer pronoun "he" of the verb [كَتَبَ]{.ar} "he wrote" that links back to the topic [ٱَلرَّجُلُ]{.ar} "the man".
+
+#### Topic-comment sentences with [إِنَّ]{.ar} and its sisters
+
+[إِنَّ]{.ar} and its sisters are very often used in topic-comment sentences. (With [أَنَّ]{.ar} it is, as usual, an incomplete sentence.) Here are some examples:
+
+[إِنَّ زَيْدًا لَهُ أَخٌ وَأُخْتٌ.]{.ar}  
+"Indeed Zayd: he has a brother and sister."
+
+[ٱِعْلَمْ أَنَّ ٱلْعِلْمَ حُصُولُهُ يَتَطَلَّبُ جُهْدًا.]{.ar}  
+"Know that knowledge: its obtaining requires effort."
+
+#### Topic-comment sentences with a pronoun topic
+
+The topic, in a topic-comment sentence, is frequently a pronoun. For example,
+
+[أَنَا ٱسْمِي زَيْدٌ.]{.ar}  
+"I: my name is Zayd."
+
+[أَكَلْتُ ٱلطَّعَامَ لَـٰكِنَّكَ لَمْ تَأْكُلْ.]{.ar}  
+"I ate the food but you: you didn't eat."
+
+### The pronoun of the matter
+
+Mostly, pronouns are used in place of nouns when it is already known to whom the noun refers to. So if you say:
+
+[أَنَا ٱسْمِي زَيْدٌ.]{.ar}  
+"I: my name is Zayd."
+
+the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
+
+There is a special pronoun, called the _pronoun of the matter_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the matter is" but is often left untranslated. Here is an example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-33-1.png)<!-- -->
+
+"The matter is: the cold is intense."
+
+This pronoun is usually the singular masculine pronoun (as above) but it is also sometimes the singular feminine pronoun [هِيَ]{.ar}.
+It is typically used with statements of import, to which the speaker wishes to draw attention.
+The comment does not contain a linker pronoun because the whole comment refers back to the topic.
+The pronoun of the matter is frequently used with [إِنَّ]{.ar} and its sisters. 
+Here are some examples:
+
+
 
 
 <!--chapter:end:srcrmd/inna_and_its_sisters.Rmd-->
