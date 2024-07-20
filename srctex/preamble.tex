@@ -5,8 +5,12 @@
 \usepackage{url}
 \usepackage{fancyhdr}
 
+% have to load this first, before loading fontsetup
+\defaultfontfeatures{Numbers=OldStyle}
+
 % New Computer Modern font. "default" option loads book weight.
 \usepackage[default]{fontsetup}
+%\addfontfeature{Numbers=Lowercase}
 
 % section style, all section headings normal size
 \usepackage{sectsty}
