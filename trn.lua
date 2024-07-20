@@ -94,10 +94,10 @@ function RomanizeMapping(text2, is_italic)
     --myucase["P"] = "Ḏ̣͡h"
   end
 
-  if not is_italic then
-    mylcase["e"] = "ʿ" -- 3ayn
-    myucase["e"] = "ʿ"
-  end
+  -- if not is_italic then
+  --   mylcase["e"] = "ʿ" -- 3ayn
+  --   myucase["e"] = "ʿ"
+  -- end
 
   local text3 = ''
   local caps = false

@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-690-g92125dd"
+date: "v0.1.0-691-g4728421"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -18,7 +18,7 @@ geometry:
 - textheight=170.8mm          # = 244 * 0.7
 - twoside
 #mainfont: "Brill"
-mainfontoptions: Numbers=OldStyle
+#mainfontoptions: Numbers=OldStyle
 fontsize: 10pt
 lang: en
 otherlangs: [ar]
@@ -6760,7 +6760,7 @@ Where the nouns behave irregularly is when they are an annexe noun in an annexat
 <!--
 [زَيدٌ أَخُو عَمْرٍو.]{.ar}  
 [zaydun EaxU eamrin.]{.trn}  
-"Zayd is [e#amr]{.trn2}'s brother."
+"Zayd is [#eamr]{.trn2}'s brother."
 -->
 
 [سَأَلْتُ أَبَا صَدِيقِي عَنْ أَمْرٍ.]{.ar}  
@@ -7210,16 +7210,16 @@ Proper nouns are also known as names. Here are some examples of Arabic names:
 
 | Men's |names | Women's |names |
 |--:|:---|--:|:---|
-|[مُحَمَّد]{.ar}         |[#muHammad]{.trn2}      | [عَائِشَة^2^]{.ar}     |[e#AEicah]{.trn2} |
+|[مُحَمَّد]{.ar}         |[#muHammad]{.trn2}      | [عَائِشَة^2^]{.ar}     |[#eAEicah]{.trn2} |
 |[سَعِيد]{.ar}         |[#saeId]{.trn2}         | [فَاطِمَة^2^]{.ar}     |[#faTimah]{.trn2} |
 |[ٱَلْحَسَن]{.ar}        |[al-#Hasan]{.trn2}      | [حَفْصَة^2^]{.ar}      |[#HafSah]{.trn2} |
 |[ٱَلنُّعْمَان]{.ar}      |[al-#nuemAn]{.trn2}     | [سُمَيَّة^2^]{.ar}      |[#sumayyah]{.trn2} |
 |[طَلْحَة^2^]{.ar}      |[#TalHah]{.trn2}        | [جَمِيلَة^2^]{.ar}     |[#jamIlah]{.trn2} |
 |[أُسَامَة^2^]{.ar}     |[#usAmah]{.trn2}        | [زَيْنَب^2^]{.ar}      |[#zaynab]{.trn2} |
-|[عُثْمَان^2^]{.ar}     |[e#uvmAn]{.trn2}        | [مَرْيَم^2^]{.ar}      |[#maryam]{.trn2} |
-|[عُمَر^2^]{.ar}       |[e#umar]{.trn2}         | [سُعَاد^2^]{.ar}      |[#sueAd]{.trn2} |
+|[عُثْمَان^2^]{.ar}     |[#euvmAn]{.trn2}        | [مَرْيَم^2^]{.ar}      |[#maryam]{.trn2} |
+|[عُمَر^2^]{.ar}       |[#eumar]{.trn2}         | [سُعَاد^2^]{.ar}      |[#sueAd]{.trn2} |
 |[إِبْرَاهِيم^2^]{.ar}   |[#ibrAhIm]{.trn2}       | [أَسْمَاء^2^]{.ar}     |[#asmAE]{.trn2} |
-|[عَبْد ٱللَّـٰه]{.ar}    |[e#abd #allAh]{.trn2}   | [لَيْلَىٰ^2^]{.ar}      |[#laylA]{.trn2} |
+|[عَبْد ٱللَّـٰه]{.ar}    |[#eabd #allAh]{.trn2}   | [لَيْلَىٰ^2^]{.ar}      |[#laylA]{.trn2} |
 |[أَبُو بَكْر]{.ar}      |[#abU #bakr]{.trn2}     | [أُمّ حَبِيبَة^2^]{.ar}  |[#umm #HabIbah]{.trn2} |
 
 | Place |names | Misc. |names |
@@ -7234,7 +7234,7 @@ Note the following points from the list abobe:
 
 + Although some names begin with [ٱَلْ]{.ar}, most don't.
 + Many names are semi-flexible (indicated by [◌^2^]{.ar}).
-+ Some names consist of more than a single word, like [عَبْد ٱللَّـٰه]{.ar}    [e#abd #allAh]{.trn2}
++ Some names consist of more than a single word, like [عَبْد ٱللَّـٰه]{.ar}    [#eabd #allAh]{.trn2}
 
 We will explain these and more details regarding proper nouns in this chapter.
 
@@ -7334,7 +7334,7 @@ Examples of names that begin with [ٱَلْ]{.ar} are:
 |--:|:---|--:|:---|
 |[ٱَلْحَسَن]{.ar}      |[al-#Hasan]{.trn2}      |[ٱَلْقَاهِرَة]{.ar}    |Cairo
 |[ٱَلْحُسَيْن]{.ar}     |[al-#Husayn]{.trn2}     |[ٱَلْهِنْد]{.ar}      |India 
-|[ٱَلْعَبَّاس]{.ar}     |[al-e#abbAs]{.trn2}     |[ٱَلصِّين]{.ar}      |China 
+|[ٱَلْعَبَّاس]{.ar}     |[al-#eabbAs]{.trn2}     |[ٱَلصِّين]{.ar}      |China 
 |[ٱَلْزُّبَيْر]{.ar}     |[al-#zubayr]{.trn2}     |[ٱَلنِّيل]{.ar}      |the Nile 
 |[ٱَلنُّعْمَان]{.ar}    |[al-#nuemAn]{.trn2}     |[ٱَلْفُرَات]{.ar}     |the Euphrates
 
@@ -7348,8 +7348,8 @@ Examples of fully-flexible names are:
 |--:|:---|--:|:---|
 |[مُحَمَّد]{.ar}         |[#muHammad]{.trn2}  |[مُعَاذ]{.ar}         |[#mueAp]{.trn2}  |
 |[نُوح]{.ar}          |[#nUh]{.trn2}       |[سَعْد]{.ar}          |[#saed]{.trn2}   |
-|[شُعَيْب]{.ar}         |[#cueayb]{.trn2}    |[عَمَّار]{.ar}         |[e#ammAr]{.trn2} |
-|[عَلِيّ]{.ar}          |[e#alI]{.trn2}      |[حَسَّان]{.ar}         |[#HassAn]{.trn2} |
+|[شُعَيْب]{.ar}         |[#cueayb]{.trn2}    |[عَمَّار]{.ar}         |[#eammAr]{.trn2} |
+|[عَلِيّ]{.ar}          |[#ealI]{.trn2}      |[حَسَّان]{.ar}         |[#HassAn]{.trn2} |
 |[زَيْد]{.ar}          |[#zayd]{.trn2}      |[سَعِيد]{.ar}         |[#saeId]{.trn2}  | 
 |[أَنَس]{.ar}          |[#anas]{.trn2}      |[أُحُد]{.ar}          |[#uHud]{.trn2} (a mountain) |
 
@@ -7363,7 +7363,7 @@ Examples of sentences with fully-flexible proper nouns:
 
 [شَكَرَ أَنَسٌ عَلِيًّا.]{.ar}  
 [cakara Eanasun ealiyyA.]{.trn}  
-"Anas thanked [e#alI]{.trn2}."
+"Anas thanked [#ealI]{.trn2}."
 
 [لَبِسَ سَعِيدٌ قَمِيصَ نُوحٍ ٱلأَخْضَرَ.]{.ar}  
 [labisa saeIdun qamISa nUHini -lEaxDar.]{.trn}  
@@ -7384,7 +7384,7 @@ Most such proper nouns are feminine names. Examples:
 |--:|:---|--:|:---|
 |[خَدِيجَة^2^]{.ar}     |[#xadIjah]{.trn2}   |[مَيْمُونَة^2^]{.ar}    |[#maymUnah ]{.trn2} |
 |[فَاطِمَة^2^]{.ar}     |[#faTimah]{.trn2}   |[صَفِيَّة^2^]{.ar}      |[#Safiyyah]{.trn2}  |
-|[عَائِشَة^2^]{.ar}     |[e#AEicah]{.trn2}   |[خَوْلَة^2^]{.ar}      |[#xawlah]{.trn2}    |
+|[عَائِشَة^2^]{.ar}     |[#eAEicah]{.trn2}   |[خَوْلَة^2^]{.ar}      |[#xawlah]{.trn2}    |
 |[سُمَيَّة^2^]{.ar}      |[#sumayyah]{.trn2}  |[جَمِيلَة^2^]{.ar}     |[#jamIlah]{.trn2}   |
 |[حَفْصَة^2^]{.ar}      |[#HafSah]{.trn2}    |[آسِيَة^2^]{.ar}      |[#Asiyah]{.trn2}    |
 
@@ -7393,8 +7393,8 @@ However, some masculine names may end with [ة]{.ar} too:
 |||||
 |--:|:---|--:|:---|
 |[حَمْزَة^2^]{.ar}     |[#Hamzah]{.trn2}   |[مُعَاوِيَة^2^]{.ar}   |[#mueAwiyah ]{.trn2}|
-|[أُسَامَة^2^]{.ar}    |[#usAmah]{.trn2}   |[عِكْرِمَة^2^]{.ar}    |[e#ikrimah ]{.trn2} |
-|[طَلْحَة^2^]{.ar}     |[#TalHah]{.trn2}   |[عُبَادَة^2^]{.ar}    |[e#ubAdah]{.trn2}   |
+|[أُسَامَة^2^]{.ar}    |[#usAmah]{.trn2}   |[عِكْرِمَة^2^]{.ar}    |[#eikrimah ]{.trn2} |
+|[طَلْحَة^2^]{.ar}     |[#TalHah]{.trn2}   |[عُبَادَة^2^]{.ar}    |[#eubAdah]{.trn2}   |
 
 Example:
 
@@ -7437,13 +7437,13 @@ Examples:
 
 |||||
 |--:|:---|--:|:---|
-|[عُثْمَان^2^]{.ar}     |[e#uvmAn]{.trn2}  |[رَمَضَان^2^]{.ar}     |[#ramaDAn]{.trn2} |
+|[عُثْمَان^2^]{.ar}     |[#euvmAn]{.trn2}  |[رَمَضَان^2^]{.ar}     |[#ramaDAn]{.trn2} |
 |[سُفْيَان^2^]{.ar}     |[#sufyAn]{.trn2}  |[شَعْبَان^2^]{.ar}     |[#caebAn]{.trn2}  |
 
 Example:
 
 [جَلَس عُثْمَانُ مَعَ سُفْيَانَ فِي رَمَضَانَ.]{.ar}  
-"[e#uvmAn]{.trn2} sat with [#sufyAn]{.trn2} in [#ramaDAn]{.trn2}."
+"[#euvmAn]{.trn2} sat with [#sufyAn]{.trn2} in [#ramaDAn]{.trn2}."
 
 #### Names on the pattern [أَفْعَل]{.ar}
 
@@ -7459,14 +7459,14 @@ Names of the pattern [فُعَل]{.ar} shall be semi-flexible. Examples:
 
 |||||
 |--:|:---|--:|:---|
-|[عُمَر^2^]{.ar}  |[e#umar]{.trn2} |[مُضَر^2^]{.ar}     |[#muDar]{.trn2} |
+|[عُمَر^2^]{.ar}  |[#eumar]{.trn2} |[مُضَر^2^]{.ar}     |[#muDar]{.trn2} |
 
-Interestingly, the fully-flexible name [e#amr]{.trn2} is written with a silent [و]{.ar} at its end: [عَمْرو]{.ar} when in the u- and i-states in order to distinguish it from the more common name [e#umar]{.trn2}. Otherwise, both names would appear identical when written without vowel marks, thus: [عمر]{.ar}.
+Interestingly, the fully-flexible name [#eamr]{.trn2} is written with a silent [و]{.ar} at its end: [عَمْرو]{.ar} when in the u- and i-states in order to distinguish it from the more common name [#eumar]{.trn2}. Otherwise, both names would appear identical when written without vowel marks, thus: [عمر]{.ar}.
 
 Name|u-state|a-state|i-state
 :-|:--|:--|:--
-[e#amr]{.trn2}|[عَمْرٌو]{.ar} [eamrun]{.trn}| [عَمْرًا]{.ar} [eamran]{.trn}|[عَمْرٍو]{.ar} [eamrin]{.trn}
-[e#umar]{.trn2}|[عُمَرُ]{.ar} [eumaru]{.trn}| [عُمَرَ]{.ar} [eumara]{.trn}|[عُمَرَ]{.ar} [eumara]{.trn}
+[#eamr]{.trn2}|[عَمْرٌو]{.ar} [eamrun]{.trn}| [عَمْرًا]{.ar} [eamran]{.trn}|[عَمْرٍو]{.ar} [eamrin]{.trn}
+[#eumar]{.trn2}|[عُمَرُ]{.ar} [eumaru]{.trn}| [عُمَرَ]{.ar} [eumara]{.trn}|[عُمَرَ]{.ar} [eumara]{.trn}
 
 #### Names that are originally verbs
 
@@ -7493,7 +7493,7 @@ Names of foreign origin are generally semi-flexible. These include the names of 
 |[إِدْرِيس^2^]{.ar}    |[#idrIs]{.trn2}   |[فِرْعَون^2^]{.ar}    |Pharoah            |
 |[أَيُّوب^2^]{.ar}     |[#ayyUb]{.trn2}   |[هِرْقَل^2^]{.ar}     |Heraclius          |
 |[مُوسَىٰ^2^]{.ar}     |[#mUsA]{.trn2}    |[كِسْرَىٰ^2^]{.ar}     |Chosroes           |
-|[عِيسَىٰ^2^]{.ar}     |[e#IsA]{.trn2}    |[قَيْصَر^2^]{.ar}     |Caesar             |
+|[عِيسَىٰ^2^]{.ar}     |[#eIsA]{.trn2}    |[قَيْصَر^2^]{.ar}     |Caesar             |
 
 Note that 
 [فِرْعَون^2^]{.ar} "Pharoah" 
@@ -7553,9 +7553,9 @@ In the above sentence, the word [كِتَابًا]{.ar} "a book" is the replacem
 The replacement is frequently used with proper nouns. For example,
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ عَمِّهِ عَلِيٍّ.]{.ar}  
-"The boy went to his uncle [e#alI]{.trn2}'s house."
+"The boy went to his uncle [#ealI]{.trn2}'s house."
 
-In this sentence, the name [عَلِيّ]{.ar} [e#alI]{.trn2} is the replacement of the replacee [عَمّ]{.ar} "uncle". Note, again, that the replacement comes after the replacee and matches it in state. However, the replacement does not need to come directly after the replacee. We can see that there is the pronoun [ه]{.ar} "his" between them.
+In this sentence, the name [عَلِيّ]{.ar} [#ealI]{.trn2} is the replacement of the replacee [عَمّ]{.ar} "uncle". Note, again, that the replacement comes after the replacee and matches it in state. However, the replacement does not need to come directly after the replacee. We can see that there is the pronoun [ه]{.ar} "his" between them.
 
 Here is another example:
 
@@ -7570,13 +7570,13 @@ So far we have only dealt with proper nouns that are single words. There are som
 
 Some names are formed by annexing the noun [عَبْد]{.ar} [eabd]{.trn} "a slave" to one of the names of [#allAh]{.trn2}. The most common of these names are:
 
-+ [عَبْد ٱللَّـٰه]{.ar} [e#abd #allAh]{.trn2} "the Slave of [#allAh]{.trn2}"
-+ [عَبْد ٱلرَّحْمَـٰن]{.ar} [e#abd al-#raHmAn]{.trn2} "the Slave of the Most Merciful"
++ [عَبْد ٱللَّـٰه]{.ar} [#eabd #allAh]{.trn2} "the Slave of [#allAh]{.trn2}"
++ [عَبْد ٱلرَّحْمَـٰن]{.ar} [#eabd al-#raHmAn]{.trn2} "the Slave of the Most Merciful"
 
 As usual, the base noun shall always be in the i-state. And the state of the annexe noun [عَبْد]{.ar} is variable, depending on it's function in the sentence. Example:
 
 [عَبْدُ ٱللَّـٰهِ هُوَ أَخُو عَبْدِ ٱلرَّحْمَـٰنِ.]{.ar}
-"[e#abd #allAh]{.trn2} is the brother of [e#abd al-#raHmAn]{.trn2}."
+"[#eabd #allAh]{.trn2} is the brother of [#eabd al-#raHmAn]{.trn2}."
 
 ### "Parent of" names
 
@@ -7624,8 +7624,8 @@ and
 
 ### "Son of" names
 
-In a manner similar to "parent of" names, a person may be referred to as the son of his parent. For example, the Companion [عُمَر^2^]{.ar} [e#umar]{.trn2} had a son named 
-[عَبْد ٱللَّـٰه]{.ar} [e#abd #allAh]{.trn2}. He is commonly known as [ٱِبْن عُمَر^2^]{.ar} [#ibn e#umar]{.trn2} "[e#umar]{.trn2}'s son".
+In a manner similar to "parent of" names, a person may be referred to as the son of his parent. For example, the Companion [عُمَر^2^]{.ar} [#eumar]{.trn2} had a son named 
+[عَبْد ٱللَّـٰه]{.ar} [#eabd #allAh]{.trn2}. He is commonly known as [ٱِبْن عُمَر^2^]{.ar} [#ibn #eumar]{.trn2} "[#eumar]{.trn2}'s son".
 
 Attributing a son to his father is most common. But attributing him to a mother or other ancestor is also possible.
 
@@ -7641,7 +7641,7 @@ Examples:
 The full name of a person is formed by putting his given name first, and then his "son of" name after it as a replacement. Here is an example of a full name:
 
 [زَيْدُ بْنُ عَلِيٍّ]{.ar}  
-Zayd the son of [e#alI]{.trn2}
+Zayd the son of [#ealI]{.trn2}
 
 Note some peculiarities of the full name:
 
@@ -7651,7 +7651,7 @@ Note some peculiarities of the full name:
 These peculiarities are only when forming a full name in this manner. Consider for example the following sentence:
 
 [زَيْدٌ ٱبْنُ عَلِيٍّ.]{.ar}  
-"Zayd is the son of [e#alI]{.trn2}."
+"Zayd is the son of [#ealI]{.trn2}."
 
 In the above example, the name [زَيْدٌ]{.ar} has its [n]{.trn}-mark and [ٱبْن]{.ar} is written with its connecting [hamzah]{.trn2} [ٱ]{.ar}. Therefore this is not an expression of the full name in a replacee-replacement format. Rather, [ٱبْنُ أَحْمَدَ]{.ar} here is the information of the sentence.
 
@@ -7665,7 +7665,7 @@ Example:
 The names of multiple forefathers may be strung together in this way separated by [بْن]{.ar}. For example:
 
 [ٱِسْمُ نَبِيِّنَا مُحَمَّدُ بْنُ عَبْدِ ٱللَّـٰهِ بْنِ عَبْدِ ٱلْمُطَّلِبِ.]{.ar}  
-"Our prophet's name is [#muHammad]{.trn2} the son of [e#abd #allAh]{.trn2} the son of [e#abd al-#muTTalib]{.trn2}."  
+"Our prophet's name is [#muHammad]{.trn2} the son of [#eabd #allAh]{.trn2} the son of [#eabd al-#muTTalib]{.trn2}."  
 (Note that the second [بْنِ]{.ar} is in the i-state to match the state of the annexe noun [عَبْدِ]{.ar} in [عَبْدِ ٱللّـٰه]{.ar}.)
 
 We will deal with complete full names in section\ \@ref(complete-full-names) below.
@@ -7694,7 +7694,7 @@ Most names do not begin with [ٱَلْ]{.ar}. Some, however, do begin with [ٱَ
 |--:|:---|--:|:---|
 |[ٱَلْحَسَن]{.ar}      |[al-#Hasan]{.trn2}      |[ٱَلزُّبَيْر]{.ar}     |[al-#zubayr]{.trn2}|
 |[ٱَلْحُسَيْن]{.ar}     |[al-#Husayn]{.trn2}     |[ٱَلنُّعْمَان]{.ar}    |[al-#nuemAn]{.trn2}|
-|[ٱَلْعَبَّاس]{.ar}     |[al-e#abbAs]{.trn2}     |[ٱَلْحَارِث]{.ar}     |[al-#HAriv]{.trn2} |
+|[ٱَلْعَبَّاس]{.ar}     |[al-#eabbAs]{.trn2}     |[ٱَلْحَارِث]{.ar}     |[al-#HAriv]{.trn2} |
 
 If a proper noun begins with [ٱَلْ]{.ar} then the question of its flexibility is mostly irrelevant.
 This is because noun beginning with with [ٱَلْ]{.ar} display their state fully, regardless of whether or not they are semi-flexible without the [ٱَلْ]{.ar}. Examples:
@@ -7722,7 +7722,7 @@ Examples:
 
 + The son of the uncle of the Prophet
 (may [#allAh]{.trn2} grant peace and confer blessing upon him)
-[ٱَلْعَبَّاس]{.ar} [al-e#abbAs]{.trn2}
+[ٱَلْعَبَّاس]{.ar} [al-#eabbAs]{.trn2}
 is called
 [ٱِبْن عَبَّاس]{.ar} [#ibn eabbAs]{.trn2}, not [ٱِبْن ٱلْعَبَّاس]{.ar}.
 
@@ -7851,7 +7851,7 @@ Some titles are formed from annexations. Examples:
 Example:
 
 [أُمُّ ٱلْمُؤْمِنِينَ عَائِشَةُ هِيَ ٱِبْنَةُ خَلِيفَةِ رَسُولِ ٱللَّـٰهِ أَبِي بَكْرٍ.]{.ar}  
-"The Mother of the Believers [e#AEicah]{.trn2} is the daughter of the Successor of the Messenger of [#allAh]{.trn2} [#abU #bakr]{.trn2}."
+"The Mother of the Believers [#eAEicah]{.trn2} is the daughter of the Successor of the Messenger of [#allAh]{.trn2} [#abU #bakr]{.trn2}."
 
 ### Titles in annexations
 
@@ -7934,13 +7934,13 @@ The nickname's position is variable.
 Here are some examples of full names in varying degrees of completeness:
 
 [عَائِشَةُ هِيَ ٱبْنَةُ خَلِيفَةِ رَسُولِ ٱللَّـٰهِ أَبِي بَكْرٍ ٱلصِّدِّيقِ.]{.ar}  
-"[e#AEicah]{.trn2} is the daughter of the  Successor of the Messenger of [#allAh]{.trn2}, [#abU #bakr]{.trn2}, the steadfast affirmer of the truth."
+"[#eAEicah]{.trn2} is the daughter of the  Successor of the Messenger of [#allAh]{.trn2}, [#abU #bakr]{.trn2}, the steadfast affirmer of the truth."
 
 [قَتَلَ أَبُو لُؤْلُؤَةَ ٱلْمَجُوسِيُّ أَمِيرَ ٱلْمُؤْمِنِينَ أَبَا حَفْصٍ عُمَرَ بْنَ ٱلْخَطَّابِ.]{.ar}  
-"[#abU #luEluEah]{.trn2}, the Magian killed the Commander of the Believers, [#abU #HafS]{.trn2}, [e#umar]{.trn2} the son of [al-#xaTTAb]{.trn2}."
+"[#abU #luEluEah]{.trn2}, the Magian killed the Commander of the Believers, [#abU #HafS]{.trn2}, [#eumar]{.trn2} the son of [al-#xaTTAb]{.trn2}."
 
 [كَتَبَ ٱلْحَافِظُ ٱلْمُؤَرِّخُ ٱلْمُفَسِّرُ عِمَادُ ٱلدِّينِ أَبُو ٱلْفِدَاءِ إِسْمَاعِيلُ بْنُ عُمَرَ بْنِ كَثِيرٍ ٱلْقُرَشِيُّ ٱلدِّمَشْقِيُّ ٱلشَّافِعِيُّ تَفْسِيرًا.]{.ar}  
-"The [#HAfiP]{.trn2}, the historian, the exegete, the Pillar of the Faith, the father of [al-#fidAE]{.trn2}, [#ismAEIl]{.trn2} the son of [e#umar]{.trn2} the son of [#kavIr]{.trn2}, the [#qurayc]{.trn2}ite, the Damascan, the [#cAfie]{.trn2}ite wrote an exegesis."  
+"The [#HAfiP]{.trn2}, the historian, the exegete, the Pillar of the Faith, the father of [al-#fidAE]{.trn2}, [#ismAEIl]{.trn2} the son of [#eumar]{.trn2} the son of [#kavIr]{.trn2}, the [#qurayc]{.trn2}ite, the Damascan, the [#cAfie]{.trn2}ite wrote an exegesis."  
 (Note how the second [بْنِ]{.ar} is in the i-state because it is a replacement of [عُمَرَ]{.ar} which is in the i-state because it is a base noun of the first [بْنُ]{.ar}.)
   
 
@@ -8021,7 +8021,7 @@ The above discussion pertains to calling out to the addressed person with a sing
 
 + [عَبْدُ ٱللَّـٰهِ]{.ar}  
   [eabdu -llAhi]{.trn}  
-  "[e#abd #allAh]{.trn2}"
+  "[#eabd #allAh]{.trn2}"
 
 + [أَبُو بَكْرٍ]{.ar}  
   [EabU bakrin]{.trn}  
@@ -8035,7 +8035,7 @@ In this case, then instead of the u-state, the word is put into the a-state. Fur
 
 [مَا عَرَفْتُ ذَ ٰلِكَ ٱلرَّجُلَ، يَا عَبْدَ ٱللَّـٰهِ.]{.ar}  
 [mA earaftu pAlika -rrajula, yA eabda -llAhi.]{.trn}  
-"I have not recognized that man, O [e#abd #allAh]{.trn2}."
+"I have not recognized that man, O [#eabd #allAh]{.trn2}."
 
 [يَا أَبَا بَكْرٍ، أَنْتَ رَجُلٌ كَرِيمٌ.]{.ar}  
 [yA EabA bakrin, Eanta rajulun karImun]{.trn}  
@@ -9028,13 +9028,13 @@ But there are some verbs, however, where the meaning of the verbal-noun itself i
 
 [ضَرَبَ زَيْدٌ عَمْرًا. سَمِعَ ٱلْأَبُ **ضَرْبَ زَيْدٍ** فَغَضِبَ عَلَيْهِ. فَنَدِمَ زَيْدٌ مِنْ **ضَرْبِ عَمْرٍو**.]{.ar}  
 [Daraba zaydun eamran. samiea -lEabu Darba zaydin fagaDiba ealayhi. fa nadima zaydun min Darbi eamrin.]{.trn}  
-"Zayd beat [e#amr]{.trn2}. The father heard Zayd's beating so he became angry with him. So, Zayd became remorseful of beating [e#amr]{.trn2}."
+"Zayd beat [#eamr]{.trn2}. The father heard Zayd's beating so he became angry with him. So, Zayd became remorseful of beating [#eamr]{.trn2}."
 
 We can see that the meaning of the sentences help us determine that in the phrase
 [ضَرْبَ زَيْدٍ ]{.ar}
 [Darba zaydin]{.trn}, Zayd is the doer, and in 
 [ضَرْبِ عَمْرٍو]{.ar}
-[Darbi eamrin]{.trn}, [e#amr]{.trn2} is the doee.
+[Darbi eamrin]{.trn}, [#eamr]{.trn2} is the doee.
 
 <!-- The masdar naSr may also be useful here:  نصر الله. نصر العبد-->
 
@@ -9044,19 +9044,19 @@ The second way to deal with a direct doee and a doing-verbal noun is to put it i
 
 <!--[سَمِعْتُ ضَرْبَ زَيْدٍ عَمْرًا.]{.ar}  
 [samietu Darba zaydin eamran.]{.trn}  
-"I heard Zayd's beating [e#amr]{.trn2}."-->
+"I heard Zayd's beating [#eamr]{.trn2}."-->
 
 [ضَرَبَ زَيْدٌ عَمْرًا. سَمِعَ ٱلْأَبُ **ضَرْبَ زَيْدٍ عَمْرًا** فَغَضِبَ عَلَيْهِ. فَنَدِمَ زَيْدٌ مِنْ **ضَرْبِهِ عَمْرًا**.]{.ar}  
 [Daraba zaydun eamran. samiea -lEabu Darba zaydin eamran fagaDiba ealayhi. fa nadima zaydun min Darbihi eamran.]{.trn}  
-"Zayd beat [e#amr]{.trn2}. The father heard Zayd's beating [e#amr]{.trn2} so he became angry with him. So, Zayd became remorseful of his beating [e#amr]{.trn2}."
+"Zayd beat [#eamr]{.trn2}. The father heard Zayd's beating [#eamr]{.trn2} so he became angry with him. So, Zayd became remorseful of his beating [#eamr]{.trn2}."
 
-Notice that in [ضَرْبِهِ عَمْرًا]{.ar} [Darbihi eamran]{.trn} "his beating [e#amr]{.trn2}", the doer is a pronoun instead of a noun. This is permissible, and is in line with other usages we have learned so far.
+Notice that in [ضَرْبِهِ عَمْرًا]{.ar} [Darbihi eamran]{.trn} "his beating [#eamr]{.trn2}", the doer is a pronoun instead of a noun. This is permissible, and is in line with other usages we have learned so far.
 
 The doee noun in the a-state, too, may be replaced with a pronoun, but just like when the attached doee pronoun is separated from its verb it has to instead be attached to the prefix [إِيَّا]{.ar} [EiyyA]{.trn}, here too this prefix is used. For example,
 
 [أَلِمَ عَمْرٌو مِنْ ضَرْبِ زَيْدٍ إِيَّاهُ.]{.ar}  
 [Ealima eamrun min Darbi zaydin EiyyAhu.]{.trn}  
-"[e#amr]{.trn2} was in pain from Zayd's beating him."
+"[#eamr]{.trn2} was in pain from Zayd's beating him."
 
 This usage of putting the direct doee in the a-state after the doing verbal noun is not only done when the doer is mentioned with the doing verbal-noun. But it is also done when the direct doee is separated from the doing verbal-noun by some other words, like a prepositional phrase. For example,
 
@@ -9086,13 +9086,13 @@ The third way to deal with a direct doee and a doing-verbal noun is to put it in
 
    [أَلِمَ عَمْرٌو مِنْ ضَرْبِ زَيْدٍ لَهُ.]{.ar}  
    [Ealima eamrun min Darbi zaydin lahu.]{.trn}  
-   "[e#amr]{.trn2} was in pain from Zayd's beating him."
+   "[#eamr]{.trn2} was in pain from Zayd's beating him."
 
    This is as an optional alternative to putting the doee in the a-state, in the manner we have already learned in the previous section:
 
    [أَلِمَ عَمْرٌو مِنْ ضَرْبِ زَيْدٍ إِيَّاهُ.]{.ar}  
    [Ealima eamrun min Darbi zaydin EiyyAhu.]{.trn}  
-   "[e#amr]{.trn2} was in pain from Zayd's beating him."
+   "[#eamr]{.trn2} was in pain from Zayd's beating him."
 
 ## Multiple doing verbal-nouns for the same verb
 
@@ -10107,7 +10107,7 @@ If the information of the first subject has been mentioned before the second sub
 [إِنَّ زَيْدًا جَالِسٌ وَعَمْرًا.]{.ar}  
 or  
 [إِنَّ زَيْدًا جَالِسٌ وَعَمْرٌو.]{.ar}  
-"Indeed Zayd is sitting and [e#amr]{.trn2} [as well]."
+"Indeed Zayd is sitting and [#eamr]{.trn2} [as well]."
 
 [إِنَّ هَـٰذَا ٱلْكِتَابَ لِي وَذَ ٰلِكَ ٱلْكِتَابَ لَكَ.]{.ar}  
 or  
