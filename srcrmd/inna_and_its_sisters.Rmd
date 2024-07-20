@@ -717,7 +717,14 @@ If we replace the heavy [أَنَّ]{.ar} in the above example with the lightene
 "I know that the cold is intense."
 -->
 
-If the comment of the 
+In the above example, 
+the lightened [أَنْ]{.ar}
+introduces a comment which is a subject-predicate sentence.
+But the more common use of 
+the lightened [أَنْ]{.ar}
+is to introduce comments that are verbal sentences.
+
+When the comment of the 
 lightened [أَنْ]{.ar}
 is a verbal sentence, then it is  preferred to separate the verb from [أَنْ]{.ar} with one of the following:
 
@@ -733,12 +740,22 @@ is a verbal sentence, then it is  preferred to separate the verb from [أَنْ]
 
 3. A negative particle like [لَا]{.ar}, [لَنْ]{.ar}, or [لَمْ]{.ar}.
 
-   [أَعْلَمُ أَلَّا يَذْهَبُ.]{.ar}  
+   [أَعْلَمُ أَنْ لَا يَذْهَبُ.]{.ar}  
    "I know that he does/will not go."
 
-   Note that the lightened [أَنْ]{.ar} has combined with [لَا]{.ar} to form [أَلَّا]{.ar}, similar to the manner that we learned for the a-state-verbal [أَنْ]{.ar} (for example: [أَلَّا يَذْهَبَ]{.ar} "that he not go") in chapter\ \@ref(chapter-a-state-incomplete-action-verbs). However, with lightened [أَنْ]{.ar}, the verb [يَذْهَبُ]{.ar} is in the u-state, not the a-state.
+   Note that, in writing, we have not combined the lightened [أَنْ]{.ar} and [لَا]{.ar} to form [أَلَّا]{.ar}, as is done for the a-state-verbal [أَنْ]{.ar} (for example: [أَلَّا يَذْهَبَ]{.ar} "that he not go") in chapter\ \@ref(chapter-a-state-incomplete-action-verbs). This distinction in spelling is not obligatory, but some authorities recommend it. In any case, they are both pronounced the same: [EallA]{.trn}. <!--al nahw al wafi 4/298, cited by Arik Sadan p.30 -->
 
-4. The conditional particle [لَوْ]{.ar}. We will study conditional sentences in chapter\ \@ref(conditional-sentences).
+   More examples:
+
+   [أَعْلَمُ أَنْ لَنْ يَذْهَبَ.]{.ar}  
+   "I know that he shall not go."
+
+   [أَعْلَمُ أَنْ لَمْ يَذْهَبْ.]{.ar}  
+   "I know that he did not go."
+
+   Note that the [لَنْ]{.ar} and [لَمْ]{.ar}, even when after the lightened [أَنْ]{.ar}, change the state of the following incomplete-action verb to the a-state and $\emptyset$-state respectively.
+
+4. The conditional particle [لَوْ]{.ar}. We will study conditional sentences in chapter\ \@ref(conditional-sentences). TODO: add example.
 
 Rigid verbs like [لَيْسَ]{.ar} and verbs expressing supplications are exempted from needing to be separated from the lightened [أَنْ]{.ar}. Example:
 
@@ -748,7 +765,8 @@ Rigid verbs like [لَيْسَ]{.ar} and verbs expressing supplications are exem
 Although they are similar in meaning,
 care must be taken to distinguish between this lightened [أَنْ]{.ar} and the a-state-verbal [أَنْ]{.ar} 
 (that we learned in chapter\ \@ref(chapter-a-state-incomplete-action-verbs)),
-which is used with a-state verbs.
+The a-state-verbal [أَنْ]{.ar} puts the following incomplete action verb in the a-state.
+Whereas the incomplete action verb directly after the lightened [أَنْ]{.ar} remains in the u-state.
 The following guidelines can help to distinguish  between these two [أَنْ]{.ar}s:
 
 + If the verb before [أَنْ]{.ar} signifies certainty then only [أَنَّ]{.ar} and its lightened version [أَنْ]{.ar} is used. For example,
@@ -763,13 +781,25 @@ The following guidelines can help to distinguish  between these two [أَنْ]{.
 
   Note that the verb [يَذْهَبَ]{.ar} is in the a-state.
 
-+ If the verb before [أَنْ]{.ar} signifies neither certainty nor wanting, hoping, or expecting, then either [أَنْ]{.ar} may be used. For example,
++ If the verb before [أَنْ]{.ar} reflects a view of something going to occur, and signifies neither certainty nor expectation, but rather doubt or neutrality, then either of the [أَنْ]{.ar}s may be used, depending on the intended meaning. Such verbs include [ظَنَّ يَظُنُّ]{.ar} "to think" and [حَسِبَ يَحْسِبُ]{.ar} "to deem". For example,
 
+  a-state-verbal [أَنْ]{.ar}:  
   [ظَنَنْتُ أَنْ يَرْجِعَ.]{.ar}  
   "I thought that he should return."  
-  or  
+
+  lightened [أَنْ]{.ar}:  
   [ظَنَنْتُ أَنْ يَرْجِعُ.]{.ar}  
   "I thought that he will return."
+
++ If the verb before [أَنْ]{.ar} does not reflect a view of something going to occur then the [أَنْ]{.ar} is typically the a-state-verbal [أَنْ]{.ar}. For example,
+
+  [سَرَّنِي أَنْ تَنْجَحَ]{.ar}  
+  "That you succeed [will have] gladdened me."
+
+  Remember from chapter\ \@ref(chapter-a-state-incomplete-action-verbs)), that the a-state-verbal [أَنْ]{.ar} can occur with completed-action verbs as well. Example:
+
+  [سَرَّنِي أَنْ نَجَحْتَ]{.ar}  
+  "That you have succeeded [has] gladdened me."
 
 ### The lightened [كَأَنْ]{.ar}
 
