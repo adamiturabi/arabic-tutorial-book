@@ -18,7 +18,7 @@ geometry:
 - textheight=170.8mm          # = 244 * 0.7
 - twoside
 #mainfont: "Brill"
-mainfontoptions: Numbers=OldStyle
+#mainfontoptions: Numbers=OldStyle
 fontsize: 10pt
 lang: en
 otherlangs: [ar]
