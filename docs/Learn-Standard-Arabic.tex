@@ -84,9 +84,19 @@
 \usepackage{xcolor}
 \usepackage{url}
 \usepackage{fancyhdr}
+
+% New Computer Modern font. "default" option loads book weight.
 \usepackage[default]{fontsetup}
-\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}}
-\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+
+% section style, all section headings normal size
+\usepackage{sectsty}
+\allsectionsfont{\normalsize}
+
+% section style, all section headings normal size bold, except chapter headings
+\usepackage[bf,tiny,compact]{titlesec}
+
+\renewcommand{\chaptermark}[1]{\markboth{Chapter \thechapter.\ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{Section \thesection\ #1}}
 \pagestyle{fancy}
 \fancyhf{}
 %\fancyhead[LE]{\thepage\phantom{xxx}\itshape\nouppercase{Fundamentals of Standard Arabic}}
@@ -98,9 +108,9 @@
 %\fancyhead[RO]{\textsl{\nouppercase{\leftmark}}\phantom{x}\leavevmode\smash{\rlap{\rule[-0.5em]{1pt}{1.5em}\ \thepage}}}
 %\fancyhead[LO]{\itshape\nouppercase{\rightmark}}
 %\fancyhead[LO,RE]{\textsl{\nouppercase{https://adamiturabi.github.io/arabic-tutorial-book/}}}
-\fancyhead[LE,RO]{\footnotesize\thepage}
-\fancyhead[LO]{\footnotesize\itshape\nouppercase{\rightmark}}
-\fancyhead[RE]{\footnotesize\itshape\nouppercase{\leftmark}}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\nouppercase{\rightmark}}
+\fancyhead[RE]{\nouppercase{\leftmark}}
 \renewcommand{\headrulewidth}{0pt}
 
 \fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\tiny{Author Names, \textit{Learn Standard Arabic}, \texttt{\gitTag}\\\url{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
@@ -174,7 +184,7 @@
 \makeatother
 \subtitle{A self-instruction textbook with grammar, vocabulary, and exercises}
 \author{Author Names}
-\date{v0.1.0-690-g92125dd}
+\date{v0.1.0-691-g4728421}
 
 \begin{document}
 \maketitle
@@ -8082,16 +8092,16 @@ names
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-\foreignlanguage{arabic}{مُحَمَّد} & Muḥammad & \foreignlanguage{arabic}{عَائِشَة\textsuperscript{2}} & ʿĀʾis͟hah \\
-\foreignlanguage{arabic}{سَعِيد} & Saʿīd & \foreignlanguage{arabic}{فَاطِمَة\textsuperscript{2}} & Faṭimah \\
+\foreignlanguage{arabic}{مُحَمَّد} & Muḥammad & \foreignlanguage{arabic}{عَائِشَة\textsuperscript{2}} & Ɛāʾis͟hah \\
+\foreignlanguage{arabic}{سَعِيد} & Saɛīd & \foreignlanguage{arabic}{فَاطِمَة\textsuperscript{2}} & Faṭimah \\
 \foreignlanguage{arabic}{ٱَلْحَسَن} & al-Ḥasan & \foreignlanguage{arabic}{حَفْصَة\textsuperscript{2}} & Ḥafṣah \\
-\foreignlanguage{arabic}{ٱَلنُّعْمَان} & al-Nuʿmān & \foreignlanguage{arabic}{سُمَيَّة\textsuperscript{2}} & Sumayyah \\
+\foreignlanguage{arabic}{ٱَلنُّعْمَان} & al-Nuɛmān & \foreignlanguage{arabic}{سُمَيَّة\textsuperscript{2}} & Sumayyah \\
 \foreignlanguage{arabic}{طَلْحَة\textsuperscript{2}} & Ṭalḥah & \foreignlanguage{arabic}{جَمِيلَة\textsuperscript{2}} & Jamīlah \\
 \foreignlanguage{arabic}{أُسَامَة\textsuperscript{2}} & Usāmah & \foreignlanguage{arabic}{زَيْنَب\textsuperscript{2}} & Zaynab \\
-\foreignlanguage{arabic}{عُثْمَان\textsuperscript{2}} & ʿUt͟hmān & \foreignlanguage{arabic}{مَرْيَم\textsuperscript{2}} & Maryam \\
-\foreignlanguage{arabic}{عُمَر\textsuperscript{2}} & ʿUmar & \foreignlanguage{arabic}{سُعَاد\textsuperscript{2}} & Suʿād \\
+\foreignlanguage{arabic}{عُثْمَان\textsuperscript{2}} & Ɛut͟hmān & \foreignlanguage{arabic}{مَرْيَم\textsuperscript{2}} & Maryam \\
+\foreignlanguage{arabic}{عُمَر\textsuperscript{2}} & Ɛumar & \foreignlanguage{arabic}{سُعَاد\textsuperscript{2}} & Suɛād \\
 \foreignlanguage{arabic}{إِبْرَاهِيم\textsuperscript{2}} & Ibrāhīm & \foreignlanguage{arabic}{أَسْمَاء\textsuperscript{2}} & Asmāʾ \\
-\foreignlanguage{arabic}{عَبْد ٱللَّـٰه} & ʿAbd Allāh & \foreignlanguage{arabic}{لَيْلَىٰ\textsuperscript{2}} & Laylā \\
+\foreignlanguage{arabic}{عَبْد ٱللَّـٰه} & Ɛabd Allāh & \foreignlanguage{arabic}{لَيْلَىٰ\textsuperscript{2}} & Laylā \\
 \foreignlanguage{arabic}{أَبُو بَکْر} & Abū Bakr & \foreignlanguage{arabic}{أُمّ حَبِيبَة\textsuperscript{2}} & Umm Ḥabībah \\
 \end{longtable}
 
@@ -8130,7 +8140,7 @@ Note the following points from the list abobe:
 \item
   Many names are semi-flexible (indicated by \foreignlanguage{arabic}{◌\textsuperscript{2}}).
 \item
-  Some names consist of more than a single word, like \foreignlanguage{arabic}{عَبْد ٱللَّـٰه} ʿAbd Allāh
+  Some names consist of more than a single word, like \foreignlanguage{arabic}{عَبْد ٱللَّـٰه} Ɛabd Allāh
 \end{itemize}
 
 We will explain these and more details regarding proper nouns in this chapter.
@@ -8176,7 +8186,7 @@ Many names are re-used from common nouns and adjectival nouns with positive mean
 \item
   \foreignlanguage{arabic}{مُحَمَّد} Muḥammad \enquote{a highly praised one\textsubscript{m}}
 \item
-  \foreignlanguage{arabic}{سَعِيد} Saʿīd \enquote{a happy (fortunate) one\textsubscript{m}}
+  \foreignlanguage{arabic}{سَعِيد} Saɛīd \enquote{a happy (fortunate) one\textsubscript{m}}
 \item
   \foreignlanguage{arabic}{ٱَلْحَسَن} al-Ḥasan \enquote{the good one\textsubscript{m}}
 \item
@@ -8189,7 +8199,7 @@ It is possible for these names to sometimes (technically) cause a sentence to ha
 
 \foreignlanguage{arabic}{جَلَسَ ٱلْحَسَنُ مَعَ سَعِيدٍ.}\\
 \emph{jalsa -lhasanu maɛa saɛīd}\\
-\enquote{al-Ḥasan sat with Saʿīd.}\\
+\enquote{al-Ḥasan sat with Saɛīd.}\\
 or\\
 \enquote{The good one\textsubscript{m} sat with a happy (fortunate) one\textsubscript{m}.}
 
@@ -8244,11 +8254,11 @@ Examples of fully-flexible names are:
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-\foreignlanguage{arabic}{مُحَمَّد} & Muḥammad & \foreignlanguage{arabic}{مُعَاذ} & Muʿāẕ \\
-\foreignlanguage{arabic}{نُوح} & Nūh & \foreignlanguage{arabic}{سَعْد} & Saʿd \\
-\foreignlanguage{arabic}{شُعَيْب} & S͟huʿayb & \foreignlanguage{arabic}{عَمَّار} & ʿAmmār \\
-\foreignlanguage{arabic}{عَلِيّ} & ʿAlī & \foreignlanguage{arabic}{حَسَّان} & Ḥassān \\
-\foreignlanguage{arabic}{زَيْد} & Zayd & \foreignlanguage{arabic}{سَعِيد} & Saʿīd \\
+\foreignlanguage{arabic}{مُحَمَّد} & Muḥammad & \foreignlanguage{arabic}{مُعَاذ} & Muɛāẕ \\
+\foreignlanguage{arabic}{نُوح} & Nūh & \foreignlanguage{arabic}{سَعْد} & Saɛd \\
+\foreignlanguage{arabic}{شُعَيْب} & S͟huɛayb & \foreignlanguage{arabic}{عَمَّار} & Ɛammār \\
+\foreignlanguage{arabic}{عَلِيّ} & Ɛalī & \foreignlanguage{arabic}{حَسَّان} & Ḥassān \\
+\foreignlanguage{arabic}{زَيْد} & Zayd & \foreignlanguage{arabic}{سَعِيد} & Saɛīd \\
 \foreignlanguage{arabic}{أَنَس} & Anas & \foreignlanguage{arabic}{أُحُد} & Uḥud (a mountain) \\
 \end{longtable}
 
@@ -8262,11 +8272,11 @@ Examples of sentences with fully-flexible proper nouns:
 
 \foreignlanguage{arabic}{شَکَرَ أَنَسٌ عَلِيًّا.}\\
 \emph{s͟hakara ʾanasun ɛaliyyā.}\\
-\enquote{Anas thanked ʿAlī.}
+\enquote{Anas thanked Ɛalī.}
 
 \foreignlanguage{arabic}{لَبِسَ سَعِيدٌ قَمِيصَ نُوحٍ ٱلأَخْضَرَ.}\\
 \emph{labisa saɛīdun qamīṣa nūḥini -lʾak͟hḍar.}\\
-\enquote{Saʿīd wore Nūḥ's green shirt.}
+\enquote{Saɛīd wore Nūḥ's green shirt.}
 
 \subsection{Semi-flexible proper nouns}\label{semi-flexible-proper-nouns}
 
@@ -8290,7 +8300,7 @@ Most such proper nouns are feminine names. Examples:
 \endlastfoot
 \foreignlanguage{arabic}{خَدِيجَة\textsuperscript{2}} & K͟hadījah & \foreignlanguage{arabic}{مَيْمُونَة\textsuperscript{2}} & Maymūnah \\
 \foreignlanguage{arabic}{فَاطِمَة\textsuperscript{2}} & Faṭimah & \foreignlanguage{arabic}{صَفِيَّة\textsuperscript{2}} & Ṣafiyyah \\
-\foreignlanguage{arabic}{عَائِشَة\textsuperscript{2}} & ʿĀʾis͟hah & \foreignlanguage{arabic}{خَوْلَة\textsuperscript{2}} & K͟hawlah \\
+\foreignlanguage{arabic}{عَائِشَة\textsuperscript{2}} & Ɛāʾis͟hah & \foreignlanguage{arabic}{خَوْلَة\textsuperscript{2}} & K͟hawlah \\
 \foreignlanguage{arabic}{سُمَيَّة\textsuperscript{2}} & Sumayyah & \foreignlanguage{arabic}{جَمِيلَة\textsuperscript{2}} & Jamīlah \\
 \foreignlanguage{arabic}{حَفْصَة\textsuperscript{2}} & Ḥafṣah & \foreignlanguage{arabic}{آسِيَة\textsuperscript{2}} & Āsiyah \\
 \end{longtable}
@@ -8306,9 +8316,9 @@ However, some masculine names may end with \foreignlanguage{arabic}{ة} too:
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-\foreignlanguage{arabic}{حَمْزَة\textsuperscript{2}} & Ḥamzah & \foreignlanguage{arabic}{مُعَاوِيَة\textsuperscript{2}} & Muʿāwiyah \\
-\foreignlanguage{arabic}{أُسَامَة\textsuperscript{2}} & Usāmah & \foreignlanguage{arabic}{عِکْرِمَة\textsuperscript{2}} & ʿIkrimah \\
-\foreignlanguage{arabic}{طَلْحَة\textsuperscript{2}} & Ṭalḥah & \foreignlanguage{arabic}{عُبَادَة\textsuperscript{2}} & ʿUbādah \\
+\foreignlanguage{arabic}{حَمْزَة\textsuperscript{2}} & Ḥamzah & \foreignlanguage{arabic}{مُعَاوِيَة\textsuperscript{2}} & Muɛāwiyah \\
+\foreignlanguage{arabic}{أُسَامَة\textsuperscript{2}} & Usāmah & \foreignlanguage{arabic}{عِکْرِمَة\textsuperscript{2}} & Ɛikrimah \\
+\foreignlanguage{arabic}{طَلْحَة\textsuperscript{2}} & Ṭalḥah & \foreignlanguage{arabic}{عُبَادَة\textsuperscript{2}} & Ɛubādah \\
 \end{longtable}
 
 Example:
@@ -8367,14 +8377,14 @@ Examples:
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-\foreignlanguage{arabic}{عُثْمَان\textsuperscript{2}} & ʿUt͟hmān & \foreignlanguage{arabic}{رَمَضَان\textsuperscript{2}} & Ramaḍān \\
-\foreignlanguage{arabic}{سُفْيَان\textsuperscript{2}} & Sufyān & \foreignlanguage{arabic}{شَعْبَان\textsuperscript{2}} & S͟haʿbān \\
+\foreignlanguage{arabic}{عُثْمَان\textsuperscript{2}} & Ɛut͟hmān & \foreignlanguage{arabic}{رَمَضَان\textsuperscript{2}} & Ramaḍān \\
+\foreignlanguage{arabic}{سُفْيَان\textsuperscript{2}} & Sufyān & \foreignlanguage{arabic}{شَعْبَان\textsuperscript{2}} & S͟haɛbān \\
 \end{longtable}
 
 Example:
 
 \foreignlanguage{arabic}{جَلَس عُثْمَانُ مَعَ سُفْيَانَ فِي رَمَضَانَ.}\\
-\enquote{ʿUt͟hmān sat with Sufyān in Ramaḍān.}
+\enquote{Ɛut͟hmān sat with Sufyān in Ramaḍān.}
 
 \subsubsection{\texorpdfstring{Names on the pattern \foreignlanguage{arabic}{أَفْعَل}}{Names on the pattern أَفْعَل}}\label{names-on-the-pattern-ux623ux641ux639ux644}
 
@@ -8389,7 +8399,7 @@ All names on the pattern \foreignlanguage{arabic}{أَفْعَل} shall be semi-
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-\foreignlanguage{arabic}{أَحْمَد\textsuperscript{2}} & Aḥmad & \foreignlanguage{arabic}{أَسْعَد\textsuperscript{2}} & Asʿad \\
+\foreignlanguage{arabic}{أَحْمَد\textsuperscript{2}} & Aḥmad & \foreignlanguage{arabic}{أَسْعَد\textsuperscript{2}} & Asɛad \\
 \end{longtable}
 
 \subsubsection{\texorpdfstring{Names of the pattern \foreignlanguage{arabic}{فُعَل}}{Names of the pattern فُعَل}}\label{names-of-the-pattern-ux641ux639ux644}
@@ -8405,10 +8415,10 @@ Names of the pattern \foreignlanguage{arabic}{فُعَل} shall be semi-flexible
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-\foreignlanguage{arabic}{عُمَر\textsuperscript{2}} & ʿUmar & \foreignlanguage{arabic}{مُضَر\textsuperscript{2}} & Muḍar \\
+\foreignlanguage{arabic}{عُمَر\textsuperscript{2}} & Ɛumar & \foreignlanguage{arabic}{مُضَر\textsuperscript{2}} & Muḍar \\
 \end{longtable}
 
-Interestingly, the fully-flexible name ʿAmr is written with a silent \foreignlanguage{arabic}{و} at its end: \foreignlanguage{arabic}{عَمْرو} when in the u- and i-states in order to distinguish it from the more common name ʿUmar. Otherwise, both names would appear identical when written without vowel marks, thus: \foreignlanguage{arabic}{عمر}.
+Interestingly, the fully-flexible name Ɛamr is written with a silent \foreignlanguage{arabic}{و} at its end: \foreignlanguage{arabic}{عَمْرو} when in the u- and i-states in order to distinguish it from the more common name Ɛumar. Otherwise, both names would appear identical when written without vowel marks, thus: \foreignlanguage{arabic}{عمر}.
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1818}}
@@ -8429,8 +8439,8 @@ i-state
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-ʿAmr & \foreignlanguage{arabic}{عَمْرٌو} \emph{ɛamrun} & \foreignlanguage{arabic}{عَمْرًا} \emph{ɛamran} & \foreignlanguage{arabic}{عَمْرٍو} \emph{ɛamrin} \\
-ʿUmar & \foreignlanguage{arabic}{عُمَرُ} \emph{ɛumaru} & \foreignlanguage{arabic}{عُمَرَ} \emph{ɛumara} & \foreignlanguage{arabic}{عُمَرَ} \emph{ɛumara} \\
+Ɛamr & \foreignlanguage{arabic}{عَمْرٌو} \emph{ɛamrun} & \foreignlanguage{arabic}{عَمْرًا} \emph{ɛamran} & \foreignlanguage{arabic}{عَمْرٍو} \emph{ɛamrin} \\
+Ɛumar & \foreignlanguage{arabic}{عُمَرُ} \emph{ɛumaru} & \foreignlanguage{arabic}{عُمَرَ} \emph{ɛumara} & \foreignlanguage{arabic}{عُمَرَ} \emph{ɛumara} \\
 \end{longtable}
 
 \subsubsection{Names that are originally verbs}\label{names-that-are-originally-verbs}
@@ -8442,7 +8452,7 @@ Names that are originally verbs are semi-flexible. Examples:
 \item
   \foreignlanguage{arabic}{يَزِيد\textsuperscript{2}} Yazīd \enquote{He increases}
 \item
-  \foreignlanguage{arabic}{يَعِيش\textsuperscript{2}} Yaʿīs͟h \enquote{He lives}
+  \foreignlanguage{arabic}{يَعِيش\textsuperscript{2}} Yaɛīs͟h \enquote{He lives}
 \end{itemize}
 
 Their origin as verbs will be apparent when we study incomplete-action verbs.
@@ -8462,15 +8472,15 @@ Names of foreign origin are generally semi-flexible. These include the names of 
 \endlastfoot
 \foreignlanguage{arabic}{جِبْرِيل\textsuperscript{2}} & Jibrīl & \foreignlanguage{arabic}{زَکَرِيَّا\textsuperscript{2}} & Zakariyyā \\
 \foreignlanguage{arabic}{إِبْرَاهِيم\textsuperscript{2}} & Ibrāhīm & \foreignlanguage{arabic}{يَحْيَىٰ\textsuperscript{2}} & Yaḥyā \\
-\foreignlanguage{arabic}{إِسْمَاعِيل\textsuperscript{2}} & Ismāʿīl & \foreignlanguage{arabic}{هَاجَر\textsuperscript{2}} & Hājar \\
+\foreignlanguage{arabic}{إِسْمَاعِيل\textsuperscript{2}} & Ismāɛīl & \foreignlanguage{arabic}{هَاجَر\textsuperscript{2}} & Hājar \\
 \foreignlanguage{arabic}{إِسْحَاق\textsuperscript{2}} & Is·ḥāq & \foreignlanguage{arabic}{مَرْيَم\textsuperscript{2}} & Maryam \\
-\foreignlanguage{arabic}{يَعْقُوب\textsuperscript{2}} & Yaʿqūb & \foreignlanguage{arabic}{يَأْجُوج\textsuperscript{2}} & Yaʾjūj \\
+\foreignlanguage{arabic}{يَعْقُوب\textsuperscript{2}} & Yaɛqūb & \foreignlanguage{arabic}{يَأْجُوج\textsuperscript{2}} & Yaʾjūj \\
 \foreignlanguage{arabic}{يُوسُف\textsuperscript{2}} & Yūsuf & \foreignlanguage{arabic}{مَأْجُوج\textsuperscript{2}} & Maʾjūj \\
 \foreignlanguage{arabic}{يُونُس\textsuperscript{2}} & Yūnus & \foreignlanguage{arabic}{إِبْلِيس\textsuperscript{2}} & Iblīs \\
 \foreignlanguage{arabic}{إِدْرِيس\textsuperscript{2}} & Idrīs & \foreignlanguage{arabic}{فِرْعَون\textsuperscript{2}} & Pharoah \\
 \foreignlanguage{arabic}{أَيُّوب\textsuperscript{2}} & Ayyūb & \foreignlanguage{arabic}{هِرْقَل\textsuperscript{2}} & Heraclius \\
 \foreignlanguage{arabic}{مُوسَىٰ\textsuperscript{2}} & Mūsā & \foreignlanguage{arabic}{کِسْرَىٰ\textsuperscript{2}} & Chosroes \\
-\foreignlanguage{arabic}{عِيسَىٰ\textsuperscript{2}} & ʿĪsā & \foreignlanguage{arabic}{قَيْصَر\textsuperscript{2}} & Caesar \\
+\foreignlanguage{arabic}{عِيسَىٰ\textsuperscript{2}} & Ɛīsā & \foreignlanguage{arabic}{قَيْصَر\textsuperscript{2}} & Caesar \\
 \end{longtable}
 
 Note that
@@ -8501,7 +8511,7 @@ All feminine names, regardless of their origin, or their ending, shall be semi-f
 \bottomrule\noalign{}
 \endlastfoot
 \foreignlanguage{arabic}{زَيْنَب\textsuperscript{2}} & Zaynab & \foreignlanguage{arabic}{مَرْيَم\textsuperscript{2}} & Maryam \\
-\foreignlanguage{arabic}{سُعَاد\textsuperscript{2}} & Suʿād & \foreignlanguage{arabic}{هَاجَر\textsuperscript{2}} & Hājar \\
+\foreignlanguage{arabic}{سُعَاد\textsuperscript{2}} & Suɛād & \foreignlanguage{arabic}{هَاجَر\textsuperscript{2}} & Hājar \\
 \end{longtable}
 
 The only exception to this rule is a feminine name of native Arabic origin, that comprises of only three letters, and whose middle letter has an \(\emptyset\)-mark. Such a name is permitted to be optionally fully-flexible or semi-flexible. Examples:
@@ -8511,7 +8521,7 @@ The only exception to this rule is a feminine name of native Arabic origin, that
 \item
   \foreignlanguage{arabic}{هِنْد} Hind
 \item
-  \foreignlanguage{arabic}{دَعْد} Daʿd
+  \foreignlanguage{arabic}{دَعْد} Daɛd
 \end{itemize}
 
 Example of usage:
@@ -8519,7 +8529,7 @@ Example of usage:
 \foreignlanguage{arabic}{ذَهَبَتْ هِنْدٌ إِلَىٰ بَيْتِ دَعْدٍ.}\\
 or\\
 \foreignlanguage{arabic}{ذَهَبَتْ هِنْدُ إِلَىٰ بَيْتِ دَعْدَ.}\\
-``Hind went to Daʿd's house.
+``Hind went to Daɛd's house.
 
 \section{\texorpdfstring{The name \foreignlanguage{arabic}{فُلَان}}{The name فُلَان}}\label{the-name-ux641ux644ux627ux646}
 
@@ -8548,14 +8558,14 @@ In the above sentence, the word \foreignlanguage{arabic}{کِتَابًا} \enqu
 The replacement is frequently used with proper nouns. For example,
 
 \foreignlanguage{arabic}{ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ عَمِّهِ عَلِيٍّ.}\\
-\enquote{The boy went to his uncle ʿAlī's house.}
+\enquote{The boy went to his uncle Ɛalī's house.}
 
-In this sentence, the name \foreignlanguage{arabic}{عَلِيّ} ʿAlī is the replacement of the replacee \foreignlanguage{arabic}{عَمّ} \enquote{uncle}. Note, again, that the replacement comes after the replacee and matches it in state. However, the replacement does not need to come directly after the replacee. We can see that there is the pronoun \foreignlanguage{arabic}{ه} \enquote{his} between them.
+In this sentence, the name \foreignlanguage{arabic}{عَلِيّ} Ɛalī is the replacement of the replacee \foreignlanguage{arabic}{عَمّ} \enquote{uncle}. Note, again, that the replacement comes after the replacee and matches it in state. However, the replacement does not need to come directly after the replacee. We can see that there is the pronoun \foreignlanguage{arabic}{ه} \enquote{his} between them.
 
 Here is another example:
 
 \foreignlanguage{arabic}{سَأَلَ ٱلطَّالِبُ مُعَاذٌ ٱلْمُعَلِّمَ سَعْدًا.}\\
-\enquote{The student Muʿāẕ asked the teacher Saʿd.}
+\enquote{The student Muɛāẕ asked the teacher Saɛd.}
 
 \section{Annexed names}\label{annexed-names}
 
@@ -8568,15 +8578,15 @@ Some names are formed by annexing the noun \foreignlanguage{arabic}{عَبْد} 
 \begin{itemize}
 \tightlist
 \item
-  \foreignlanguage{arabic}{عَبْد ٱللَّـٰه} ʿAbd Allāh \enquote{the Slave of Allāh}
+  \foreignlanguage{arabic}{عَبْد ٱللَّـٰه} Ɛabd Allāh \enquote{the Slave of Allāh}
 \item
-  \foreignlanguage{arabic}{عَبْد ٱلرَّحْمَـٰن} ʿAbd al-Raḥmān \enquote{the Slave of the Most Merciful}
+  \foreignlanguage{arabic}{عَبْد ٱلرَّحْمَـٰن} Ɛabd al-Raḥmān \enquote{the Slave of the Most Merciful}
 \end{itemize}
 
 As usual, the base noun shall always be in the i-state. And the state of the annexe noun \foreignlanguage{arabic}{عَبْد} is variable, depending on it's function in the sentence. Example:
 
 \foreignlanguage{arabic}{عَبْدُ ٱللَّـٰهِ هُوَ أَخُو عَبْدِ ٱلرَّحْمَـٰنِ.}
-\enquote{ʿAbd Allāh is the brother of ʿAbd al-Raḥmān.}
+\enquote{Ɛabd Allāh is the brother of Ɛabd al-Raḥmān.}
 
 \subsection{\texorpdfstring{\enquote{Parent of} names}{``Parent of'' names}}\label{parent-of-names}
 
@@ -8623,8 +8633,8 @@ Abū Hurayrah.
 
 \subsection{\texorpdfstring{\enquote{Son of} names}{``Son of'' names}}\label{son-of-names}
 
-In a manner similar to \enquote{parent of} names, a person may be referred to as the son of his parent. For example, the Companion \foreignlanguage{arabic}{عُمَر\textsuperscript{2}} ʿUmar had a son named
-\foreignlanguage{arabic}{عَبْد ٱللَّـٰه} ʿAbd Allāh. He is commonly known as \foreignlanguage{arabic}{ٱِبْن عُمَر\textsuperscript{2}} Ibn ʿUmar \enquote{ʿUmar's son}.
+In a manner similar to \enquote{parent of} names, a person may be referred to as the son of his parent. For example, the Companion \foreignlanguage{arabic}{عُمَر\textsuperscript{2}} Ɛumar had a son named
+\foreignlanguage{arabic}{عَبْد ٱللَّـٰه} Ɛabd Allāh. He is commonly known as \foreignlanguage{arabic}{ٱِبْن عُمَر\textsuperscript{2}} Ibn Ɛumar \enquote{Ɛumar's son}.
 
 Attributing a son to his father is most common. But attributing him to a mother or other ancestor is also possible.
 
@@ -8646,7 +8656,7 @@ Examples:
 The full name of a person is formed by putting his given name first, and then his \enquote{son of} name after it as a replacement. Here is an example of a full name:
 
 \foreignlanguage{arabic}{زَيْدُ بْنُ عَلِيٍّ}\\
-Zayd the son of ʿAlī
+Zayd the son of Ɛalī
 
 Note some peculiarities of the full name:
 
@@ -8661,7 +8671,7 @@ Note some peculiarities of the full name:
 These peculiarities are only when forming a full name in this manner. Consider for example the following sentence:
 
 \foreignlanguage{arabic}{زَيْدٌ ٱبْنُ عَلِيٍّ.}\\
-\enquote{Zayd is the son of ʿAlī.}
+\enquote{Zayd is the son of Ɛalī.}
 
 In the above example, the name \foreignlanguage{arabic}{زَيْدٌ} has its \emph{n}-mark and \foreignlanguage{arabic}{ٱبْن} is written with its connecting hamzah \foreignlanguage{arabic}{ٱ}. Therefore this is not an expression of the full name in a replacee-replacement format. Rather, \foreignlanguage{arabic}{ٱبْنُ أَحْمَدَ} here is the information of the sentence.
 
@@ -8675,7 +8685,7 @@ Example:
 The names of multiple forefathers may be strung together in this way separated by \foreignlanguage{arabic}{بْن}. For example:
 
 \foreignlanguage{arabic}{ٱِسْمُ نَبِيِّنَا مُحَمَّدُ بْنُ عَبْدِ ٱللَّـٰهِ بْنِ عَبْدِ ٱلْمُطَّلِبِ.}\\
-\enquote{Our prophet's name is Muḥammad the son of ʿAbd Allāh the son of ʿAbd al-Muṭṭalib.}\\
+\enquote{Our prophet's name is Muḥammad the son of Ɛabd Allāh the son of Ɛabd al-Muṭṭalib.}\\
 (Note that the second \foreignlanguage{arabic}{بْنِ} is in the i-state to match the state of the annexe noun \foreignlanguage{arabic}{عَبْدِ} in \foreignlanguage{arabic}{عَبْدِ ٱللّـٰه}.)
 
 We will deal with complete full names in section~\ref{complete-full-names} below.
@@ -8715,8 +8725,8 @@ Most names do not begin with \foreignlanguage{arabic}{ٱَلْ}. Some, however, 
 \bottomrule\noalign{}
 \endlastfoot
 \foreignlanguage{arabic}{ٱَلْحَسَن} & al-Ḥasan & \foreignlanguage{arabic}{ٱَلزُّبَيْر} & al-Zubayr \\
-\foreignlanguage{arabic}{ٱَلْحُسَيْن} & al-Ḥusayn & \foreignlanguage{arabic}{ٱَلنُّعْمَان} & al-Nuʿmān \\
-\foreignlanguage{arabic}{ٱَلْعَبَّاس} & al-ʿAbbās & \foreignlanguage{arabic}{ٱَلْحَارِث} & al-Ḥārit͟h \\
+\foreignlanguage{arabic}{ٱَلْحُسَيْن} & al-Ḥusayn & \foreignlanguage{arabic}{ٱَلنُّعْمَان} & al-Nuɛmān \\
+\foreignlanguage{arabic}{ٱَلْعَبَّاس} & al-Ɛabbās & \foreignlanguage{arabic}{ٱَلْحَارِث} & al-Ḥārit͟h \\
 \end{longtable}
 
 If a proper noun begins with \foreignlanguage{arabic}{ٱَلْ} then the question of its flexibility is mostly irrelevant.
@@ -8727,11 +8737,11 @@ This is because noun beginning with with \foreignlanguage{arabic}{ٱَلْ} disp
 (u-state displayed with \foreignlanguage{arabic}{◌ُ}.)
 
 \foreignlanguage{arabic}{سَأَلَ ٱلرَّجُلُ ٱلنُّعْمَانَ عَنْ أَمْرٍ.}\\
-\enquote{The man asked al-Nuʿmān about a matter.}\\
+\enquote{The man asked al-Nuɛmān about a matter.}\\
 (a-state displayed with \foreignlanguage{arabic}{◌َ}.)
 
 \foreignlanguage{arabic}{ذَهَبْتُ إِلَى بَيْتِ ٱلنُّعْمَانِ.}\\
-\enquote{I went to al-Nuʿmān's house.}\\
+\enquote{I went to al-Nuɛmān's house.}\\
 (i-state displayed with \foreignlanguage{arabic}{◌ِ}.)
 
 Names that begin with \foreignlanguage{arabic}{ٱَلْ} can sometimes lose their initial \foreignlanguage{arabic}{ٱَلْ}. Sometimes, this is systematic, as we will lear in section~\ref{calling-names-with-al}.
@@ -8747,9 +8757,9 @@ Examples:
 \item
   The son of the uncle of the Prophet
   (may Allāh grant peace and confer blessing upon him)
-  \foreignlanguage{arabic}{ٱَلْعَبَّاس} al-ʿAbbās
+  \foreignlanguage{arabic}{ٱَلْعَبَّاس} al-Ɛabbās
   is called
-  \foreignlanguage{arabic}{ٱِبْن عَبَّاس} Ibn ʿabbās, not \foreignlanguage{arabic}{ٱِبْن ٱلْعَبَّاس}.
+  \foreignlanguage{arabic}{ٱِبْن عَبَّاس} Ibn ɛabbās, not \foreignlanguage{arabic}{ٱِبْن ٱلْعَبَّاس}.
 \end{itemize}
 
 However, the son of
@@ -8814,7 +8824,7 @@ Here are examples of names of tribes:
 \foreignlanguage{arabic}{هَوَازِن\textsuperscript{2}} & Hawāzin & \foreignlanguage{arabic}{بَنُو إِسْرَائِيل\textsuperscript{2}} & Banū Isrāʾīl \\
 \end{longtable}
 
-Tribes are usually called by the name of their progenitor. For example, \foreignlanguage{arabic}{إِسْرَائِيل\textsuperscript{2}} Isrāʾīl is a name of the Prophet \foreignlanguage{arabic}{يَعْقُوب\textsuperscript{2}} Yaʿqūb.
+Tribes are usually called by the name of their progenitor. For example, \foreignlanguage{arabic}{إِسْرَائِيل\textsuperscript{2}} Isrāʾīl is a name of the Prophet \foreignlanguage{arabic}{يَعْقُوب\textsuperscript{2}} Yaɛqūb.
 The \emph{ūn} sound plural \foreignlanguage{arabic}{بَنُونَ} \enquote{sons/children} is annexed to the name
 \foreignlanguage{arabic}{إِسْرَائِيل\textsuperscript{2}} Isrāʾīl
 to get the name of the tribe
@@ -8928,7 +8938,7 @@ Some titles are formed from annexations. Examples:
 Example:
 
 \foreignlanguage{arabic}{أُمُّ ٱلْمُؤْمِنِينَ عَائِشَةُ هِيَ ٱِبْنَةُ خَلِيفَةِ رَسُولِ ٱللَّـٰهِ أَبِي بَکْرٍ.}\\
-\enquote{The Mother of the Believers ʿĀʾis͟hah is the daughter of the Successor of the Messenger of Allāh Abū Bakr.}
+\enquote{The Mother of the Believers Ɛāʾis͟hah is the daughter of the Successor of the Messenger of Allāh Abū Bakr.}
 
 \subsection{Titles in annexations}\label{titles-in-annexations}
 
@@ -8995,7 +9005,7 @@ Here are some examples of affiliate adjectival nouns:
 \foreignlanguage{arabic}{عِرَاقِيّ} & an Iraqi & \foreignlanguage{arabic}{قُرَشِيّ} & a Qurays͟hite \\
 \foreignlanguage{arabic}{مَکِّي} & a Meccan & \foreignlanguage{arabic}{تَمِيمِيّ} & a Tamīmian \\
 \foreignlanguage{arabic}{دِمَشْقِيّ} & a Damascan & \foreignlanguage{arabic}{إِسْرَائِيلِيّ} & an Isrāʾīlite \\
-\foreignlanguage{arabic}{شَافِعِيّ} & a S͟hāfiʿite & \foreignlanguage{arabic}{حَنَفِيّ} & a Ḥanafī \\
+\foreignlanguage{arabic}{شَافِعِيّ} & a S͟hāfiɛite & \foreignlanguage{arabic}{حَنَفِيّ} & a Ḥanafī \\
 \foreignlanguage{arabic}{مَالِکِيّ} & a Mālikī & \foreignlanguage{arabic}{حَنْبَلِيّ} & a Ḥanbalī \\
 \end{longtable}
 
@@ -9060,13 +9070,13 @@ The nickname's position is variable.
 Here are some examples of full names in varying degrees of completeness:
 
 \foreignlanguage{arabic}{عَائِشَةُ هِيَ ٱبْنَةُ خَلِيفَةِ رَسُولِ ٱللَّـٰهِ أَبِي بَکْرٍ ٱلصِّدِّيقِ.}\\
-\enquote{ʿĀʾis͟hah is the daughter of the Successor of the Messenger of Allāh, Abū Bakr, the steadfast affirmer of the truth.}
+\enquote{Ɛāʾis͟hah is the daughter of the Successor of the Messenger of Allāh, Abū Bakr, the steadfast affirmer of the truth.}
 
 \foreignlanguage{arabic}{قَتَلَ أَبُو لُؤْلُؤَةَ ٱلْمَجُوسِيُّ أَمِيرَ ٱلْمُؤْمِنِينَ أَبَا حَفْصٍ عُمَرَ بْنَ ٱلْخَطَّابِ.}\\
-\enquote{Abū Luʾluʾah, the Magian killed the Commander of the Believers, Abū Ḥafṣ, ʿUmar the son of al-K͟haṭṭāb.}
+\enquote{Abū Luʾluʾah, the Magian killed the Commander of the Believers, Abū Ḥafṣ, Ɛumar the son of al-K͟haṭṭāb.}
 
 \foreignlanguage{arabic}{کَتَبَ ٱلْحَافِظُ ٱلْمُؤَرِّخُ ٱلْمُفَسِّرُ عِمَادُ ٱلدِّينِ أَبُو ٱلْفِدَاءِ إِسْمَاعِيلُ بْنُ عُمَرَ بْنِ کَثِيرٍ ٱلْقُرَشِيُّ ٱلدِّمَشْقِيُّ ٱلشَّافِعِيُّ تَفْسِيرًا.}\\
-\enquote{The Ḥāfiẓ, the historian, the exegete, the Pillar of the Faith, the father of al-Fidāʾ, Ismāʾīl the son of ʿUmar the son of Kat͟hīr, the Qurays͟hite, the Damascan, the S͟hāfiʿite wrote an exegesis.}\\
+\enquote{The Ḥāfiẓ, the historian, the exegete, the Pillar of the Faith, the father of al-Fidāʾ, Ismāʾīl the son of Ɛumar the son of Kat͟hīr, the Qurays͟hite, the Damascan, the S͟hāfiɛite wrote an exegesis.}\\
 (Note how the second \foreignlanguage{arabic}{بْنِ} is in the i-state because it is a replacement of \foreignlanguage{arabic}{عُمَرَ} which is in the i-state because it is a base noun of the first \foreignlanguage{arabic}{بْنُ}.)
 
 \chapter{Addressing by name}\label{addressing-by-name}
@@ -9145,7 +9155,7 @@ The above discussion pertains to calling out to the addressed person with a sing
 \item
   \foreignlanguage{arabic}{عَبْدُ ٱللَّـٰهِ}\\
   \emph{ɛabdu -llāhi}\\
-  \enquote{ʿAbd Allāh}
+  \enquote{Ɛabd Allāh}
 \item
   \foreignlanguage{arabic}{أَبُو بَکْرٍ}\\
   \emph{ʾabū bakrin}\\
@@ -9160,7 +9170,7 @@ In this case, then instead of the u-state, the word is put into the a-state. Fur
 
 \foreignlanguage{arabic}{مَا عَرَفْتُ ذَ ٰلِکَ ٱلرَّجُلَ، يَا عَبْدَ ٱللَّـٰهِ.}\\
 \emph{mā ɛaraftu ẕālika -rrajula, yā ɛabda -llāhi.}\\
-\enquote{I have not recognized that man, O ʿAbd Allāh.}
+\enquote{I have not recognized that man, O Ɛabd Allāh.}
 
 \foreignlanguage{arabic}{يَا أَبَا بَکْرٍ، أَنْتَ رَجُلٌ کَرِيمٌ.}\\
 \emph{yā ʾabā bakrin, ʾanta rajulun karīmun}\\
@@ -10388,13 +10398,13 @@ But there are some verbs, however, where the meaning of the verbal-noun itself i
 
 \foreignlanguage{arabic}{ضَرَبَ زَيْدٌ عَمْرًا. سَمِعَ ٱلْأَبُ \textbf{ضَرْبَ زَيْدٍ} فَغَضِبَ عَلَيْهِ. فَنَدِمَ زَيْدٌ مِنْ \textbf{ضَرْبِ عَمْرٍو}.}\\
 \emph{ḍaraba zaydun ɛamran. samiɛa -lʾabu ḍarba zaydin fag͟haḍiba ɛalayhi. fa nadima zaydun min ḍarbi ɛamrin.}\\
-\enquote{Zayd beat ʿAmr. The father heard Zayd's beating so he became angry with him. So, Zayd became remorseful of beating ʿAmr.}
+\enquote{Zayd beat Ɛamr. The father heard Zayd's beating so he became angry with him. So, Zayd became remorseful of beating Ɛamr.}
 
 We can see that the meaning of the sentences help us determine that in the phrase
 \foreignlanguage{arabic}{ضَرْبَ زَيْدٍ}
 \emph{ḍarba zaydin}, Zayd is the doer, and in
 \foreignlanguage{arabic}{ضَرْبِ عَمْرٍو}
-\emph{ḍarbi ɛamrin}, ʿAmr is the doee.
+\emph{ḍarbi ɛamrin}, Ɛamr is the doee.
 
 \subsubsection{The direct doee in a-state following the doing verbal-noun}\label{the-direct-doee-in-a-state-following-the-doing-verbal-noun}
 
@@ -10402,15 +10412,15 @@ The second way to deal with a direct doee and a doing-verbal noun is to put it i
 
 \foreignlanguage{arabic}{ضَرَبَ زَيْدٌ عَمْرًا. سَمِعَ ٱلْأَبُ \textbf{ضَرْبَ زَيْدٍ عَمْرًا} فَغَضِبَ عَلَيْهِ. فَنَدِمَ زَيْدٌ مِنْ \textbf{ضَرْبِهِ عَمْرًا}.}\\
 \emph{ḍaraba zaydun ɛamran. samiɛa -lʾabu ḍarba zaydin ɛamran fag͟haḍiba ɛalayhi. fa nadima zaydun min ḍarbihi ɛamran.}\\
-\enquote{Zayd beat ʿAmr. The father heard Zayd's beating ʿAmr so he became angry with him. So, Zayd became remorseful of his beating ʿAmr.}
+\enquote{Zayd beat Ɛamr. The father heard Zayd's beating Ɛamr so he became angry with him. So, Zayd became remorseful of his beating Ɛamr.}
 
-Notice that in \foreignlanguage{arabic}{ضَرْبِهِ عَمْرًا} \emph{ḍarbihi ɛamran} \enquote{his beating ʿAmr}, the doer is a pronoun instead of a noun. This is permissible, and is in line with other usages we have learned so far.
+Notice that in \foreignlanguage{arabic}{ضَرْبِهِ عَمْرًا} \emph{ḍarbihi ɛamran} \enquote{his beating Ɛamr}, the doer is a pronoun instead of a noun. This is permissible, and is in line with other usages we have learned so far.
 
 The doee noun in the a-state, too, may be replaced with a pronoun, but just like when the attached doee pronoun is separated from its verb it has to instead be attached to the prefix \foreignlanguage{arabic}{إِيَّا} \emph{ʾiyyā}, here too this prefix is used. For example,
 
 \foreignlanguage{arabic}{أَلِمَ عَمْرٌو مِنْ ضَرْبِ زَيْدٍ إِيَّاهُ.}\\
 \emph{ʾalima ɛamrun min ḍarbi zaydin ʾiyyāhu.}\\
-\enquote{ʿAmr was in pain from Zayd's beating him.}
+\enquote{Ɛamr was in pain from Zayd's beating him.}
 
 This usage of putting the direct doee in the a-state after the doing verbal noun is not only done when the doer is mentioned with the doing verbal-noun. But it is also done when the direct doee is separated from the doing verbal-noun by some other words, like a prepositional phrase. For example,
 
@@ -10443,13 +10453,13 @@ The third way to deal with a direct doee and a doing-verbal noun is to put it in
 
   \foreignlanguage{arabic}{أَلِمَ عَمْرٌو مِنْ ضَرْبِ زَيْدٍ لَهُ.}\\
   \emph{ʾalima ɛamrun min ḍarbi zaydin lahu.}\\
-  \enquote{ʿAmr was in pain from Zayd's beating him.}
+  \enquote{Ɛamr was in pain from Zayd's beating him.}
 
   This is as an optional alternative to putting the doee in the a-state, in the manner we have already learned in the previous section:
 
   \foreignlanguage{arabic}{أَلِمَ عَمْرٌو مِنْ ضَرْبِ زَيْدٍ إِيَّاهُ.}\\
   \emph{ʾalima ɛamrun min ḍarbi zaydin ʾiyyāhu.}\\
-  \enquote{ʿAmr was in pain from Zayd's beating him.}
+  \enquote{Ɛamr was in pain from Zayd's beating him.}
 \end{enumerate}
 
 \section{Multiple doing verbal-nouns for the same verb}\label{multiple-doing-verbal-nouns-for-the-same-verb}
@@ -11570,7 +11580,7 @@ If the information of the first subject has been mentioned before the second sub
 \foreignlanguage{arabic}{إِنَّ زَيْدًا جَالِسٌ وَعَمْرًا.}\\
 or\\
 \foreignlanguage{arabic}{إِنَّ زَيْدًا جَالِسٌ وَعَمْرٌو.}\\
-\enquote{Indeed Zayd is sitting and ʿAmr {[}as well{]}.}
+\enquote{Indeed Zayd is sitting and Ɛamr {[}as well{]}.}
 
 \foreignlanguage{arabic}{إِنَّ هَـٰذَا ٱلْکِتَابَ لِي وَذَ ٰلِکَ ٱلْکِتَابَ لَکَ.}\\
 or\\
