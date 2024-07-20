@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-695-gdc87759"
+date: "v0.1.0-696-g5232fc3"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -55,7 +55,7 @@ output:
       fontsettings:
         theme: white
         family: serif
-        size: 3
+        size: 2
       sharing:
         facebook: yes
         github: no
@@ -10596,6 +10596,8 @@ Rigid verbs like [لَيْسَ]{.ar} and verbs expressing supplications are exem
 
 [ظَنَنْتُ أَنْ لَيْسَ ٱلْبَرْدُ شَدِيدًا.]{.ar}  
 "I thought that the cold is not intense."
+
+#### Distinguishing between the lightened [أَنْ]{.ar} and the a-state-verbal [أَنْ]{.ar} 
 
 Although they are similar in meaning,
 care must be taken to distinguish between this lightened [أَنْ]{.ar} and the a-state-verbal [أَنْ]{.ar} 
