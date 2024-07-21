@@ -97,7 +97,7 @@
 \allsectionsfont{\normalsize}
 
 % section style, all section headings normal size bold, except chapter headings
-\usepackage[rm,tiny,compact]{titlesec}
+\usepackage[bf,tiny,compact]{titlesec}
 
 % Arabic font's ascenders, descenders, and diacritics increase Latex's line
 % spacing irregularly for some lines more than others to result in a visually
@@ -123,9 +123,9 @@
 \NewCommandCopy{\oldforeignlanguage}{\foreignlanguage}
 \renewcommand{\foreignlanguage}[2]{\oldforeignlanguage{#1}{\smash{#2}}}
 
+% Add section symbol § to every (sub)section heading and reference
 \NewCommandCopy{\oldthesection}{\thesection}
 \renewcommand{\thesection}{\S\oldthesection}
-%\renewcommand{\thesection}{\S\arabic{section}}
 
 % Fancy header
 \renewcommand{\chaptermark}[1]{\markboth {\textsc{\MakeLowercase{\thechapter\ #1}}}{}}
@@ -217,7 +217,7 @@
 \makeatother
 \subtitle{A self-instruction textbook with grammar, vocabulary, and exercises}
 \author{Author Names}
-\date{v0.1.0-699-gcfd4f85}
+\date{v0.1.0-700-ge0a41e6}
 
 \begin{document}
 \maketitle
