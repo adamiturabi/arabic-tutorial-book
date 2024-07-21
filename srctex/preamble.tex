@@ -16,8 +16,8 @@
 \usepackage{sectsty}
 \allsectionsfont{\normalsize}
 
-% section style, all section headings normal size bold, except chapter headings
-\usepackage[bf,tiny,compact]{titlesec}
+% section style, all section headings normal size non-bold, except chapter headings
+\usepackage[rm,tiny,compact]{titlesec}
 
 % Arabic font's ascenders, descenders, and diacritics increase Latex's line
 % spacing irregularly for some lines more than others to result in a visually
@@ -43,9 +43,13 @@
 \NewCommandCopy{\oldforeignlanguage}{\foreignlanguage}
 \renewcommand{\foreignlanguage}[2]{\oldforeignlanguage{#1}{\smash{#2}}}
 
+% Add section symbol § to every (sub)section heading and reference
+\NewCommandCopy{\oldthesection}{\thesection}
+\renewcommand{\thesection}{\S\oldthesection}
+
 % Fancy header
 \renewcommand{\chaptermark}[1]{\markboth {\textsc{\MakeLowercase{\thechapter\ #1}}}{}}
-\renewcommand{\sectionmark}[1]{\markright{\textsc{\MakeLowercase{§\thesection\ }}}}
+\renewcommand{\sectionmark}[1]{\markright{\textsc{\MakeLowercase{\thesection\ }}}}
 \pagestyle{fancy}
 \fancyhf{}
 %\fancyhead[LE]{\thepage\phantom{xxx}\itshape\nouppercase{Fundamentals of Standard Arabic}}
