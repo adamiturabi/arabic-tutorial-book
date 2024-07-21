@@ -99,6 +99,31 @@
 % section style, all section headings normal size bold, except chapter headings
 \usepackage[bf,tiny,compact]{titlesec}
 
+% Arabic font's ascenders, descenders, and diacritics increase Latex's line
+% spacing irregularly for some lines more than others to result in a visually
+% unappealing output.
+%
+% I tried setting \lineskiplimit=-\maxdimen as some had suggested this but it
+% completely destroys linespacing in tables and around tikzpictures.
+%
+% Then I found that \smash forces a 0 depth and 0 height for it's argument. So
+% the Arabic text is ignored by Latex for line spacing purposes. Call \smash on
+% the Arabic text input to babel's \foreignlanguage as below.
+%
+% I also tried calling smash on the output of \foreignlanguage but that seemed
+% to cause problems on chapter headings.
+%
+% However, with this solution, some itemized lists have Arabic text directly on
+% top of each other and the diacritics collide. For these lists insert a
+% \vphantom{\huge J} for each item to locally increase line spacing. See
+% examples in script.Rmd and inna_and_its_sisters.Rmd.
+%
+% The other unsolved issue with the solution is that it messes up the bidi dir
+% in the sidebar contents in my PDF reader
+\NewCommandCopy{\oldforeignlanguage}{\foreignlanguage}
+\renewcommand{\foreignlanguage}[2]{\oldforeignlanguage{#1}{\smash{#2}}}
+
+% Fancy header
 \renewcommand{\chaptermark}[1]{\markboth{Chapter \thechapter.\ #1}{}}
 \renewcommand{\sectionmark}[1]{\markright{Section \thesection\ #1}}
 \pagestyle{fancy}
@@ -188,7 +213,7 @@
 \makeatother
 \subtitle{A self-instruction textbook with grammar, vocabulary, and exercises}
 \author{Author Names}
-\date{v0.1.0-696-g5232fc3}
+\date{v0.1.0-697-ge99b505}
 
 \begin{document}
 \maketitle
@@ -882,23 +907,23 @@ Here are some examples of words with \emph{n}-marks:
 \begin{itemize}
 \tightlist
 \item
-  \foreignlanguage{arabic}{سَعْدٌ} \emph{saɛdun}
+  \foreignlanguage{arabic}{سَعْدٌ} \emph{saɛdun} \vphantom{\huge J}
 \item
-  \foreignlanguage{arabic}{ضَرْبًا} \emph{ḍarban}
+  \foreignlanguage{arabic}{ضَرْبًا} \emph{ḍarban} \vphantom{\huge J}
 \item
-  \foreignlanguage{arabic}{قَاضٍ} \emph{qāḍin}
+  \foreignlanguage{arabic}{قَاضٍ} \emph{qāḍin} \vphantom{\huge J}
 \item
-  \foreignlanguage{arabic}{سَعَةً} \emph{saɛatan}
+  \foreignlanguage{arabic}{سَعَةً} \emph{saɛatan} \vphantom{\huge J}
 \item
-  \foreignlanguage{arabic}{دُعَاءً} \emph{duɛāʾan}
+  \foreignlanguage{arabic}{دُعَاءً} \emph{duɛāʾan} \vphantom{\huge J}
 \item
-  \foreignlanguage{arabic}{ٱِمْرَءًا} \emph{imraʾan}
+  \foreignlanguage{arabic}{ٱِمْرَءًا} \emph{imraʾan} \vphantom{\huge J}
 \item
-  \foreignlanguage{arabic}{شَيْـًٔا} \emph{s͟hayʾan}
+  \foreignlanguage{arabic}{شَيْـًٔا} \emph{s͟hayʾan} \vphantom{\huge J}
 \item
-  \foreignlanguage{arabic}{سُوءًا} \emph{sūʾan}
+  \foreignlanguage{arabic}{سُوءًا} \emph{sūʾan} \vphantom{\huge J}
 \item
-  \foreignlanguage{arabic}{غَبَنٌ} \emph{g͟habanun}
+  \foreignlanguage{arabic}{غَبَنٌ} \emph{g͟habanun} \vphantom{\huge J}
 \end{itemize}
 
 \section{\texorpdfstring{Connecting \emph{hamzah}}{Connecting hamzah}}\label{connecting-hamzah}
@@ -11536,17 +11561,17 @@ are:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \foreignlanguage{arabic}{إِنَّ} \emph{ʾinna}
+  \foreignlanguage{arabic}{إِنَّ} \emph{ʾinna} \vphantom{\huge J}
 \item
-  \foreignlanguage{arabic}{أَنَّ} \emph{ʾanna}
+  \foreignlanguage{arabic}{أَنَّ} \emph{ʾanna} \vphantom{\huge J}
 \item
-  \foreignlanguage{arabic}{کَأَنَّ} \emph{kaʾanna}
+  \foreignlanguage{arabic}{کَأَنَّ} \emph{kaʾanna} \vphantom{\huge J}
 \item
-  \foreignlanguage{arabic}{لَـٰکِنَّ} \emph{lākinna}
+  \foreignlanguage{arabic}{لَـٰکِنَّ} \emph{lākinna} \vphantom{\huge J}
 \item
-  \foreignlanguage{arabic}{لَيْتَ} \emph{layta}
+  \foreignlanguage{arabic}{لَيْتَ} \emph{layta} \vphantom{\huge J}
 \item
-  \foreignlanguage{arabic}{لَعَلَّ} \emph{laɛalla}
+  \foreignlanguage{arabic}{لَعَلَّ} \emph{laɛalla} \vphantom{\huge J}
 \end{enumerate}
 
 We shall now study each of these particles.
