@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-696-g5232fc3"
+date: "v0.1.0-697-ge99b505"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -559,15 +559,15 @@ As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally ad
 
 Here are some examples of words with [n]{.trn}-marks:
 
-+ [سَعْدٌ]{.ar}  [saedun]{.trn}
-+ [ضَرْبًا]{.ar} [Darban]{.trn}
-+ [قَاضٍ]{.ar}  [qADin]{.trn}
-+ [سَعَةً]{.ar}  [saeatan]{.trn}
-+ [دُعَاءً]{.ar} [dueAEan]{.trn}
-+ [ٱِمْرَءًا]{.ar} [imraEan]{.trn}
-+ [شَيْـًٔا]{.ar} [cayEan]{.trn}
-+ [سُوءًا]{.ar} [sUEan]{.trn}
-+ [غَبَنٌ]{.ar} [gabanun]{.trn}
++ [سَعْدٌ]{.ar}  [saedun]{.trn}   \vphantom{\huge J}
++ [ضَرْبًا]{.ar} [Darban]{.trn}   \vphantom{\huge J}
++ [قَاضٍ]{.ar}  [qADin]{.trn}    \vphantom{\huge J}
++ [سَعَةً]{.ar}  [saeatan]{.trn}  \vphantom{\huge J}
++ [دُعَاءً]{.ar} [dueAEan]{.trn}  \vphantom{\huge J}
++ [ٱِمْرَءًا]{.ar} [imraEan]{.trn} \vphantom{\huge J}
++ [شَيْـًٔا]{.ar} [cayEan]{.trn}   \vphantom{\huge J}
++ [سُوءًا]{.ar} [sUEan]{.trn}    \vphantom{\huge J}
++ [غَبَنٌ]{.ar} [gabanun]{.trn}   \vphantom{\huge J}
 
 ## Connecting [hamzah]{.trn}
 
@@ -10065,12 +10065,12 @@ The particles constituting the family of
 [إِنَّ]{.ar} and its sisters
 are:
 
-1. [إِنَّ]{.ar}  [Einna]{.trn}
-1. [أَنَّ]{.ar}  [Eanna]{.trn}
-1. [كَأَنَّ]{.ar}  [kaEanna]{.trn}
-1. [لَـٰكِنَّ]{.ar}  [lAkinna]{.trn}
-1. [لَيْتَ]{.ar}  [layta]{.trn}
-1. [لَعَلَّ]{.ar}  [laealla]{.trn}
+1. [إِنَّ]{.ar}  [Einna]{.trn}     \vphantom{\huge J}
+1. [أَنَّ]{.ar}  [Eanna]{.trn}     \vphantom{\huge J}
+1. [كَأَنَّ]{.ar}  [kaEanna]{.trn}  \vphantom{\huge J}
+1. [لَـٰكِنَّ]{.ar}  [lAkinna]{.trn} \vphantom{\huge J}
+1. [لَيْتَ]{.ar}  [layta]{.trn}    \vphantom{\huge J}
+1. [لَعَلَّ]{.ar}  [laealla]{.trn}  \vphantom{\huge J}
 
 We shall now study each of these particles.
 

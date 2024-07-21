@@ -19,6 +19,31 @@
 % section style, all section headings normal size bold, except chapter headings
 \usepackage[bf,tiny,compact]{titlesec}
 
+% Arabic font's ascenders, descenders, and diacritics increase Latex's line
+% spacing irregularly for some lines more than others to result in a visually
+% unappealing output.
+%
+% I tried setting \lineskiplimit=-\maxdimen as some had suggested this but it
+% completely destroys linespacing in tables and around tikzpictures.
+%
+% Then I found that \smash forces a 0 depth and 0 height for it's argument. So
+% the Arabic text is ignored by Latex for line spacing purposes. Call \smash on
+% the Arabic text input to babel's \foreignlanguage as below.
+%
+% I also tried calling smash on the output of \foreignlanguage but that seemed
+% to cause problems on chapter headings.
+%
+% However, with this solution, some itemized lists have Arabic text directly on
+% top of each other and the diacritics collide. For these lists insert a
+% \vphantom{\huge J} for each item to locally increase line spacing. See
+% examples in script.Rmd and inna_and_its_sisters.Rmd.
+%
+% The other unsolved issue with the solution is that it messes up the bidi dir
+% in the sidebar contents in my PDF reader
+\NewCommandCopy{\oldforeignlanguage}{\foreignlanguage}
+\renewcommand{\foreignlanguage}[2]{\oldforeignlanguage{#1}{\smash{#2}}}
+
+% Fancy header
 \renewcommand{\chaptermark}[1]{\markboth{Chapter \thechapter.\ #1}{}}
 \renewcommand{\sectionmark}[1]{\markright{Section \thesection\ #1}}
 \pagestyle{fancy}
