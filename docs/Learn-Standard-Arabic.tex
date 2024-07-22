@@ -124,12 +124,12 @@
 \renewcommand{\foreignlanguage}[2]{\oldforeignlanguage{#1}{\smash{#2}}}
 
 % Add section symbol § to every (sub)section heading and reference
-\NewCommandCopy{\oldthesection}{\thesection}
-\renewcommand{\thesection}{\S\oldthesection}
+%\NewCommandCopy{\oldthesection}{\thesection}
+%\renewcommand{\thesection}{\S\oldthesection}
 
 % Fancy header
 \renewcommand{\chaptermark}[1]{\markboth {\textsc{\MakeLowercase{\thechapter\ #1}}}{}}
-\renewcommand{\sectionmark}[1]{\markright{\textsc{\MakeLowercase{\thesection\ }}}}
+\renewcommand{\sectionmark}[1]{\markright{\textsc{\MakeLowercase{\S\thesection\ }}}}
 \pagestyle{fancy}
 \fancyhf{}
 %\fancyhead[LE]{\thepage\phantom{xxx}\itshape\nouppercase{Fundamentals of Standard Arabic}}
@@ -217,7 +217,7 @@
 \makeatother
 \subtitle{A self-instruction textbook with grammar, vocabulary, and exercises}
 \author{Author Names}
-\date{v0.1.0-700-ge0a41e6}
+\date{v0.1.0-701-g31bb95d}
 
 \begin{document}
 \maketitle
