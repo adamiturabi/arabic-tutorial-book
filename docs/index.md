@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-700-ge0a41e6"
+date: "v0.1.0-704-g105ca76"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -17,8 +17,8 @@ geometry:
 - textwidth=114.8mm           # = (170 - 6)*0.7
 - textheight=170.8mm          # = 244 * 0.7
 - twoside
-#mainfont: "Brill"
-#mainfontoptions: Numbers=OldStyle
+mainfont: "Charis SIL"
+mainfontoptions: Numbers=OldStyle
 fontsize: 10pt
 lang: en
 otherlangs: [ar]
@@ -55,7 +55,7 @@ output:
       fontsettings:
         theme: white
         family: serif
-        size: 2
+        size: 3
       sharing:
         facebook: yes
         github: no
@@ -7680,7 +7680,7 @@ and
 [ٱِبْن]{.ar}
 may be used in annexed names too. Here are some examples:
 
-+ [ذُو ٱلْقَرْنَينِ]{.ar} [#zu l-Qarnayn]{.trn2} "He of the two horns"
++ [ذُو ٱلْقَرْنَينِ]{.ar} [#pu l-#qarnayn]{.trn2} "He of the two horns"
 + [مَدِينَة ٱلنَّبِي]{.ar} [madinatu -nnabiyyi]{.trn} "The City of the Prophet", frequently reduced to simply [ٱَلْمَدِينَة]{.ar} "Medina". 
 
   Context is used to infer whether by [ٱَلْمَدِينَة]{.ar} is meant "Medina" or "the city".
@@ -9652,6 +9652,121 @@ There are exceptions, however. The verb [جَرَىٰ يَجْرِي جَرْي�
 
 
 <!--chapter:end:srcrmd/doer_verbal_noun.Rmd-->
+
+# a-state incomplete-action verbs
+
+## Introduction
+
+In 
+chapter\ \@ref(u-state-incomplete-action-verbs)
+we mentioned that incomplete action verbs have three states (like nouns). 
+These states are called:
+
+i. The u-state
+i. The a-state
+i. The $\emptyset$-state
+
+We introduced the u-state incomplete-action verb in
+chapter\ \@ref(u-state-incomplete-action-verbs).
+In this chapter we will study the 
+a-state
+incomplete-action verb.
+
+Incomplete-action verbs in the a-state differ from the u-state only in the verb endings. 
+The u-state is the normal state for incomplete-action verbs.
+The a-state is 
+used in special circumstances that we will detail in this chapter.
+
+## Forming the a-state incomplete-action verb
+
+Here is the u-state incomplete action verb for the singular masculine absentee participant doer "he":
+
+[يَفْعَلُ]{.ar}  
+[yafealu]{.trn}  
+"he does"
+
+Note that, because it is in the u-state, the its final letter ends with a [u]{.trn}-mark [◌ُ]{.ar}.
+In order to form the 
+a-state
+incomplete-action verb,
+we change the [u]{.trn}-mark into a
+a-mark [◌َ]{.ar}, thus:
+
+[يَفْعَلَ]{.ar}  
+[yafeala]{.trn}  
+
+This is done for all participants whose doer pronoun is invisible and u-state verb ends with a [u]{.trn}-mark [◌ُ]{.ar}.
+
+For participants whose doer pronoun is followed by an extra [ن]{.ar} in the u-state verb, this final [ن]{.ar} is dropped in order to form the 
+a-state
+incomplete-action verb.
+So, for example, the u-state
+incomplete-action verb:
+
+[يَفْعَلَانِ]{.ar}  
+[yafealAni]{.trn}  
+"they~2,m~ do"
+
+becomes, for the 
+a-state:
+
+[يَفْعَلَا]{.ar}  
+[yafealA]{.trn}  
+
+Here is the complete table of the 
+a-state
+incomplete-action verb
+for all doer participants.
+
+|Participant|Incomplete-action verb doer pronoun|u-state incomplete-action verb | a-state incomplete-action verb|
+|:---|:--|:---|:---|
+| he          |_invisible_         |[يَفْعَلُ]{.ar}    |[يَفْعَلَ]{.ar}    |
+| she         |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلَ]{.ar}    |
+| you~1m~    |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلَ]{.ar}    |
+| you~1f~    |[ي]{.ar}            |[تَفْعَلِينَ]{.ar}  |[تَفْعَلِي]{.ar}   |
+| I           |_invisible_         |[أَفْعَلُ]{.ar}    |[أَفْعَلَ]{.ar}    |
+| they~2m~   |[ا]{.ar}            |[يَفْعَلَانِ]{.ar}  |[يَفْعَلَا]{.ar}   |
+| they~2f~   |[ا]{.ar}            |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
+| you~2~      |[ا]{.ar}            |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
+| they~3m~  |[و]{.ar}            |[يَفْعَلُونَ]{.ar}  |[يَفْعَلُوا]{.ar}  |
+| they~3f~  |[نَ]{.ar}            |[يَفْعَلْنَ]{.ar}   |[يَفْعَلْنَ]{.ar} (same)   |
+| you~3m~   |[و]{.ar}            |[تَفْعَلُونَ]{.ar}  |[تَفْعَلُوا]{.ar}  |
+| you~3f~   |[نَ]{.ar}            |[تَفْعَلْنَ]{.ar}   |[تَفْعَلْنَ]{.ar} (same)  |
+| we          |_invisible_         |[نَفْعَلُ]{.ar}    |[نَفْعَلَ]{.ar}    |
+
+Take note the following:
+
++ The u-state and a-state verbs are the same for the feminine plural absentee and addressee participants: 
+  + [يَفْعَلْنَ]{.ar} (they~3f~)
+  + [تَفْعَلْنَ]{.ar} (you~3f~)
++ The u-state and a-state verbs for the masculine plural absentee and addressee participants have a final silent [Ealif]{.trn}: 
+  + [يَفْعَلُوا]{.ar} (they~3m~) 
+  + [تَفْعَلُوا]{.ar} (you~3m~)
+
+### Doubled and weak roots
+
+The following table lists the a-state incomplete-action verb for some roots with a weak final letter. These are the only roots that have any complications in forming the a-state. The rest of the doubled and weak root verbs are straightforward. For a complete listing, including the higher forms, see Appendix\ \@ref(chapter-verb-tables).
+
+Root: [سعي]{.arroot}
+
+|Participant|u-state verb | a-state verb
+|:---|:--|:---|:---|
+| he        |_invisible_         |[يَفْعَلُ]{.ar}    |[يَفْعَلَ]{.ar}    |
+| she       |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلَ]{.ar}    |
+| you~1m~   |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلَ]{.ar}    |
+| you~1f~   |[ي]{.ar}            |[تَفْعَلِينَ]{.ar}  |[تَفْعَلِي]{.ar}   |
+| I         |_invisible_         |[أَفْعَلُ]{.ar}    |[أَفْعَلَ]{.ar}    |
+| they~2m~  |[ا]{.ar}            |[يَفْعَلَانِ]{.ar}  |[يَفْعَلَا]{.ar}   |
+| they~2f~  |[ا]{.ar}            |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
+| you~2~    |[ا]{.ar}            |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
+| they~3m~  |[و]{.ar}            |[يَفْعَلُونَ]{.ar}  |[يَفْعَلُوا]{.ar}  |
+| they~3f~  |[نَ]{.ar}            |[يَفْعَلْنَ]{.ar}   |[يَفْعَلْنَ]{.ar} (same)   |
+| you~3m~   |[و]{.ar}            |[تَفْعَلُونَ]{.ar}  |[تَفْعَلُوا]{.ar}  |
+| you~3f~   |[نَ]{.ar}            |[تَفْعَلْنَ]{.ar}   |[تَفْعَلْنَ]{.ar} (same)  |
+| we        |_invisible_         |[نَفْعَلُ]{.ar}    |[نَفْعَلَ]{.ar}    |
+
+
+<!--chapter:end:srcrmd/imperfect_verb_subj.Rmd-->
 
 # $\emptyset$-state incomplete-action verbs
 

@@ -5,12 +5,10 @@
 \usepackage{url}
 \usepackage{fancyhdr}
 
-% have to load this first, before loading fontsetup
-\defaultfontfeatures{Numbers=OldStyle}
-
-% New Computer Modern font. "default" option loads book weight.
-\usepackage[default]{fontsetup}
-%\addfontfeature{Numbers=Lowercase}
+% To use New Computer Modern font, uncomment following two lines only
+%\defaultfontfeatures{Numbers=OldStyle} % have to load this first, before loading fontsetup
+%\usepackage[default]{fontsetup} % "default" option loads book weight.
+%\addfontfeature{Numbers=Lowercase} % don't need this
 
 % section style, all section headings normal size
 \usepackage{sectsty}
@@ -44,12 +42,12 @@
 \renewcommand{\foreignlanguage}[2]{\oldforeignlanguage{#1}{\smash{#2}}}
 
 % Add section symbol § to every (sub)section heading and reference
-\NewCommandCopy{\oldthesection}{\thesection}
-\renewcommand{\thesection}{\S\oldthesection}
+%\NewCommandCopy{\oldthesection}{\thesection}
+%\renewcommand{\thesection}{\S\oldthesection}
 
 % Fancy header
 \renewcommand{\chaptermark}[1]{\markboth {\textsc{\MakeLowercase{\thechapter\ #1}}}{}}
-\renewcommand{\sectionmark}[1]{\markright{\textsc{\MakeLowercase{\thesection\ }}}}
+\renewcommand{\sectionmark}[1]{\markright{\textsc{\MakeLowercase{\S\thesection\ }}}}
 \pagestyle{fancy}
 \fancyhf{}
 %\fancyhead[LE]{\thepage\phantom{xxx}\itshape\nouppercase{Fundamentals of Standard Arabic}}
