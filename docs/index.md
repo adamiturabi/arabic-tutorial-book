@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-703-gc656d08"
+date: "v0.1.0-704-g105ca76"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -17,8 +17,8 @@ geometry:
 - textwidth=114.8mm           # = (170 - 6)*0.7
 - textheight=170.8mm          # = 244 * 0.7
 - twoside
-#mainfont: "Brill"
-#mainfontoptions: Numbers=OldStyle
+mainfont: "Charis SIL"
+mainfontoptions: Numbers=OldStyle
 fontsize: 10pt
 lang: en
 otherlangs: [ar]
@@ -55,7 +55,7 @@ output:
       fontsettings:
         theme: white
         family: serif
-        size: 2
+        size: 3
       sharing:
         facebook: yes
         github: no
