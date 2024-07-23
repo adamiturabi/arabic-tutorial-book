@@ -1,6 +1,8 @@
 -- 0331 macron below
 -- 0323 dot below
 function RomanizeMapping(text2, is_italic)
+  dhal_lc = "ð"
+  dhal_uc = "Ð"
   -- use digraphs sh, th, etc for some characters
   digraph_en = true
 
@@ -12,12 +14,12 @@ function RomanizeMapping(text2, is_italic)
   mylcase["j"] = "j" -- "ǧ" -- jeem
   mylcase["H"] = "ḥ"
   mylcase["x"] = "ḵ" -- Khaa
-  mylcase["p"] = "z" .. utf8.char(0x0331)  -- "ḏ" -- dhal
+  mylcase["p"] = dhal_lc -- "d" .. utf8.char(0x0331)  -- "ḏ" -- dhal
   mylcase["c"] = "š" -- sheen
   mylcase["S"] = "ṣ"
   mylcase["D"] = "ḍ"
   mylcase["T"] = "ṭ"
-  mylcase["P"] = "z" .. utf8.char(0x0323)  --"ḏ̣" -- DHaa
+  mylcase["P"] = dhal_lc .. utf8.char(0x0323)  --"ḏ̣" -- DHaa
   mylcase["e"] = "ɛ" -- 3ayn
   mylcase["g"] = "ġ" -- ghayn
   mylcase["o"] = "ḧ" -- for taa marbuta in pausa non-construct
@@ -34,12 +36,12 @@ function RomanizeMapping(text2, is_italic)
   myucase["j"] = "J" -- "Ǧ"
   myucase["H"] = "Ḥ"
   myucase["x"] = "Ḵ"
-  myucase["p"] = "Ḏ"
+  myucase["p"] = dhal_uc --  "Ḏ"
   myucase["c"] = "Š"
   myucase["S"] = "Ṣ"
   myucase["D"] = "Ḍ"
   myucase["T"] = "Ṭ"
-  myucase["P"] = "Ḏ̣"
+  myucase["P"] = dhal_uc .. utf8.char(0x0323) --Ḏ̣"
   myucase["e"] = "Ɛ"
   myucase["g"] = "Ġ"
   myucase["I"] = "Ī"
