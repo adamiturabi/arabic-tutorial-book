@@ -58,7 +58,7 @@
   line-height: 200%;
   */
   /* Vazir */
-  font-size: 1.0em; /*1.5em;*/
+  font-size: 1.2em; /* scale up Arabic font size wrt English */
   line-height: 100%;
 }
 .smallcaps {
