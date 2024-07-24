@@ -86,4 +86,8 @@ li {
   font-size: 500%;
   color: #00407d;
 }
-
+.otherlanguage {
+  direction: rtl;
+  unicode-bidi: isolate;
+  line-height: 150%;
+}
