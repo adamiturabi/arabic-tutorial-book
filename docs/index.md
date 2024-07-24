@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-706-g08f0673"
+date: "v0.1.0-709-g3b712d8"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -83,6 +83,12 @@ output:
 
 <!--to allow git describe to run-->
 
+
+<!--
+::: {.otherlanguage data-latex="{arabic}" lang="ar"}
+[بسم الله الرحمن الرحيم]{.ar}
+:::
+-->
 
 [بسم الله الرحمن الرحيم]{.ar}
 
