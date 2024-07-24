@@ -342,6 +342,10 @@ Options:
 + Computer Modern
   + hamza is small c, U+02be
   + no double macron below, U+035F
++ New Computer Modern
+  + hamza is small c, bad kerning with it
+  + has double macrons
+  + but double breves need work
 + CMU Serif: 
   + hamza is small c, U+02be
   + no double macron below, U+035F
@@ -361,6 +365,10 @@ Options:
   + double macron below, U+035F clashes with U+0323 dot below
   + Free version not licensed for publication
   + Non-free version available for commercial use (OTF & WOFF) on ilovetypography.com
++ Baskervaldx, erewhon, and other fonts by same designer
+  + Baskervaldx very nice but missing greek e, breves, etc
++ Castoro
+  + Looks nice, like brill, but missing greek e, etc
 + Gentium Plus
   + Too lively(?) for body text
 + Adobe Source Code Pro
@@ -370,6 +378,7 @@ Options:
   + No hamza U+02be
 + Charis SIL
   + Good, might be too bold
+  + has breves
   + not enough spacing between section number and section title in table of contents
 + Worth mentioning: Might have missing glyphs for ayn and other issues
   + Cardo
