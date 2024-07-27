@@ -86,6 +86,12 @@ output:
 options(tinytex.engine_args = '-shell-escape')
 ```
 
+<!--
+::: {.otherlanguage data-latex="{arabic}" lang="ar"}
+[بسم الله الرحمن الرحيم]{.ar}
+:::
+-->
+
 [بسم الله الرحمن الرحيم]{.ar}
 
 <!--Sunnah are the sayings and actions of the Prophet صلى الله عليه وسلم. Hadith is the text by which we know the sunnah.-->

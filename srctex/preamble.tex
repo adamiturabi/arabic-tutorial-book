@@ -38,8 +38,7 @@
 %
 % The other unsolved issue with the solution is that it messes up the bidi dir
 % in the sidebar contents in my PDF reader
-\NewCommandCopy{\oldforeignlanguage}{\foreignlanguage}
-\renewcommand{\foreignlanguage}[2]{\oldforeignlanguage{#1}{\smash{#2}}}
+\AddBabelHook[arabic]{smash}{foreign}{\def\BabelText##1{\smash{##1}}}
 
 % Add section symbol § to every (sub)section heading and reference
 %\NewCommandCopy{\oldthesection}{\thesection}

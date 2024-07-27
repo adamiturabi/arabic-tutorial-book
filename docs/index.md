@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-705-g02a01fd"
+date: "v0.1.0-712-g9551f39"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -84,6 +84,12 @@ output:
 <!--to allow git describe to run-->
 
 
+<!--
+::: {.otherlanguage data-latex="{arabic}" lang="ar"}
+[بسم الله الرحمن الرحيم]{.ar}
+:::
+-->
+
 [بسم الله الرحمن الرحيم]{.ar}
 
 <!--Sunnah are the sayings and actions of the Prophet صلى الله عليه وسلم. Hadith is the text by which we know the sunnah.-->
@@ -134,16 +140,21 @@ May the peace and blessings of [#allAh]{.trn2} be upon the Prophet [#muHammad]{.
 
 ## History of Arabic 
 
-[#allAh]{.trn2}, may He be glorified and exalted, revealed the [#qurEAn]{.trn2} 1400 years ago to the Prophet [#muHammad]{.trn2}, may [#allAh]{.trn2} grant peace and confer blessing upon him. The language of the [#qurEAn]{.trn2} is the Arabic language, as it was understood by the Arabs at that time. The sayings and actions of the Prophet, may [#allAh]{.trn2} grant peace and confer blessing upon him, were recorded by his companions also in this Arabic language. The Arabic language consisted of multiple dialects that were spoken by the different tribes and in the different regions of the Arabian peninsula.
+[#allAh]{.trn2}, may He be glorified and exalted, revealed the [#qurEAn]{.trn2} 1400 years ago to the Prophet [#muHammad]{.trn2}, may [#allAh]{.trn2} grant peace and confer blessing upon him. The language of the [#qurEAn]{.trn2} is the Arabic language, as it was understood by the Arabs at that time. The sayings and actions of the Prophet, may [#allAh]{.trn2} grant peace and confer blessing upon him, were recorded by his companions also in this Arabic language. The Arabic language consisted of multiple dialects that were spoken by the different tribes and in the different regions of the Arabian peninsula. We will call the Arabic of this 
+pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic era as Classical Arabic.
 
-All languages change naturally over time. For example, English has changed to such a degree that the Old English language spoken 1400 years ago would be unintelligible to us today. So too did the spoken Arabic dialects begin to change. But as part of preserving His religion, [#allAh]{.trn2} preserved the Arabic language as well. This was by means of the efforts of scholars who recorded the original Arabic language of the time of the revelation.
+All languages change naturally over time. For example, English has changed to such a degree that the Old English language spoken 1400 years ago would be unintelligible to us today. So too did the Arabic dialects begin to change. But as part of preserving His religion, [#allAh]{.trn2} preserved the Arabic language as well. This was by means of the efforts of scholars who recorded the Classical Arabic language of the time of the revelation.
 
-In the process of preserving Arabic, one particular variety became standardized and gained prevalence as a literary language over the other dialects of the Arabic of the early-[#islAm]{.trn2}ic period. This _Standard Arabic_, in its early period after standardization, is called classical Standard Arabic or simply Classical Arabic[^1]. The pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic Arabic dialects (of which Classical Arabic is but a standard variety) are then referred to, collectively, as pre-classical Arabic. Classical Arabic was used as the language of religious scholarship, science, and literature in the [#islAm]{.trn2}ic world. As scholars developed new branches of religious and secular sciences, new terms and meanings were added to it that are termed post-classical. A few words were also borrowed from foreign languages and Arabicized, as needed by the different scientific disciplines. (Pre-classical Arabic itself had a few Arabicized foreign borrowings from neighboring languages.) These additions were, by and large, deliberate, done by scholars who were experts in their fields and also well versed in Classical Arabic, and validated by subsequent generations of scholarly discourse. Besides these needed additions, the grammar and core language remained remarkably unchanged.
+In the process of preserving Arabic, one particular variety became standardized and gained prevalence as a literary language over the other dialects of the Arabic of the early-[#islAm]{.trn2}ic period. This _Standard Arabic_, in its early period after standardization, is called Classical Standard Arabic.
+<!--or simply Classical Arabic[^1]. -->
+The pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic Arabic dialects (of which Classical Standard Arabic is but a standardized variety) are then referred to, collectively, as pre-standard Classical Arabic. Classical Standard Arabic was used as the language of religious scholarship, science, and literature in the [#islAm]{.trn2}ic world. As scholars developed new branches of religious and secular sciences, new terms and meanings were added to it that are termed post-classical. A few words were also borrowed from foreign languages and Arabicized, as needed by the different scientific disciplines. (Pre-Standard Classical Arabic itself had a few Arabicized foreign borrowings from neighboring languages.) These additions were, by and large, deliberate, done by scholars who were experts in their fields and also well versed in Classical Standard Arabic, and validated by subsequent generations of scholarly discourse. Besides these needed additions, the grammar and core language remained remarkably unchanged.
 
+<!--
 [^1]: This definition of the term _Classical Arabic_ is not universally accepted, and other authors may use it to also include the Arabic of the late pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic period.
+-->
 
 <!--Ahmad Al-Jallad, Damascus Psalm Fragment, p. 69-->
-While Standard Arabic was thus preserved from major change and was used for literary purposes, the language that was spoken by Arabs in their day-to-day lives continued to change over time from the pre-classical Arabic dialects into the modern colloquial dialects. And so today, there exist two very distinct types of Arabic: the preserved Standard Arabic which is taught at schools and is primarily a written language, and the modern colloquial Arabic dialects which Arabs learn as their mother tongue and which are primarily only spoken and not written.
+While Standard Arabic was thus preserved from major change and was used for literary purposes, the language that was spoken by Arabs in their day-to-day lives continued to change over time from the pre-standard Classical Arabic dialects into the modern colloquial dialects. And so today, there exist two very distinct types of Arabic: the preserved Standard Arabic which is taught at schools and is primarily a written language, and the modern colloquial Arabic dialects which Arabs learn as their mother tongue and which are primarily only spoken and not written.
 
 <div class="figure">
 <img src="Learn-Standard-Arabic_files/figure-html/unnamed-chunk-2-1.png" alt="Timeline of the development of Standard Arabic."  />
@@ -3292,7 +3303,7 @@ We will discuss this in more detail below.
 We now return to our discussion of semi-flexible nouns. Semi-flexible nouns, in terms of their formation, fall under different categories. We will discuss them below.
 
 When discussing semi-flexible nouns in isolation we will add the numeral\ 2 as a superscript to their ending, thus: 
-[صَحْرَاء^2^]{.ar} [SaHrAE^2^]{.trn}. This is to indicate their semi-flexibility.
+^2^[صَحْرَاء]{.ar} [SaHrAE]{.trn}^2^. This is to indicate their semi-flexibility.
 <!--
 [صَحْرَاء]{.ar}$^2$ [SaHrAE]{.trn}$^2$. This is to indicate their semi-flexibility.
 
@@ -3303,7 +3314,7 @@ $^2$[صَحْرَاء]{.ar} [SaHrAE]{.trn}$^2$. This is to indicate their semi-f
 
 If a noun ends with an [اء]{.ar}, which is extrinsic to the word's root, then it shall be a semi-flexible noun.
 
-We have already seen an example of such a noun above: [صَحْرَاء^2^]{.ar} [SaHrAE^2^]{.trn} "a desert". The root of this noun is [صحر]{.arroot}. You can see that the ending [اء]{.ar} is not part of the root. Therefore it is a semi-flexible noun.
+We have already seen an example of such a noun above: ^2^[صَحْرَاء]{.ar} [SaHrAE]{.trn}^2^ "a desert". The root of this noun is [صحر]{.arroot}. You can see that the ending [اء]{.ar} is not part of the root. Therefore it is a semi-flexible noun.
 
 Furthermore, we have also learned that this [اء]{.ar}, which is extrinsic to the word's root, is a feminine marker for singular nouns, just like [ة]{.ar}, except that [ة]{.ar} does not generally make a noun semi-flexible.
 
@@ -3315,14 +3326,14 @@ Here is an example sentence with this noun:
 
 Note that the vowel mark on the final letter of [صَحْرَاءَ]{.ar} [SaHrAEa]{.trn} is [◌َ]{.ar}, not [◌ٍ]{.ar}, even though it is indefinite and in the i-state (because it is preceded by the preposition [إِلَىٰ]{.ar} [EilA]{.trn} "to"). This is because it is a semi-flexible noun.
 
-[صَحْرَاء^2^]{.ar} [SaHrAE^2^]{.trn} in this sentence
+^2^[صَحْرَاء]{.ar} [SaHrAE]{.trn}^2^ in this sentence
 is also a describee, whose describer is [وَاسِعَةٍ]{.ar} [wAsieatin]{.trn} "wide". The final vowel mark [◌َ]{.ar} on the describee [صَحْرَاءَ]{.ar} [SaHrAEa]{.trn} has no effect on the final vowel mark on the describer [وَاسِعَةٍ]{.ar} [wAsieatin]{.trn} "wide". All that matters in this regard is the state of the describee. 
 
 Note, also, that the describer [وَاسِعَة]{.ar} is feminine to match the gender of the describee 
-[صَحْرَاء^2^]{.ar} [SaHrAE^2^]{.trn}. 
+^2^[صَحْرَاء]{.ar} [SaHrAE]{.trn}^2^. 
 
 Note, as well, that the describer [وَاسِعَةٍ]{.ar} has an [n]{.trn}-mark as it is indefinite and fully-flexible. The inability of its describee 
-[صَحْرَاء^2^]{.ar} [SaHrAE^2^]{.trn} 
+^2^[صَحْرَاء]{.ar} [SaHrAE]{.trn}^2^ 
 to have an [n]{.trn}-mark (because of its semi-flexibility) does not affect the describer.
 
 Also, beware, as we've already mentioned, that there are some words where the [اء]{.ar} ending may be part of the word's root, for example 
@@ -3336,11 +3347,11 @@ Also, for the same reason, [اء]{.ar} in this word is not a feminine marker, an
 
 If a noun ends with an [ىٰ]{.ar} which is extrinsic to the word's root, then it shall be a semi-flexible noun.
 
-We've already seen an example of such a word: [ذِكْرَىٰ^2^]{.ar} [pikrA^2^]{.trn} "a remembrance". The root of this word is [ذكر]{.arroot} and it is on the pattern [فِعْلَىٰ]{.ar}.
+We've already seen an example of such a word: ^2^[ذِكْرَىٰ]{.ar} [pikrA]{.trn}^2^ "a remembrance". The root of this word is [ذكر]{.arroot} and it is on the pattern [فِعْلَىٰ]{.ar}.
 
 We've also learned that, similar to [اء]{.ar}, this [ىٰ]{.ar}, which is extrinsic to the word's root, is a feminine marker for singular nouns.
 
-Since [ذِكْرَىٰ^2^]{.ar} [pikrA^2^]{.trn} already ends with the vowel-mark [◌ٰ]{.ar}, the last letter won't have any additional vowel markers and therefore the word will appear the same in all states:
+Since ^2^[ذِكْرَىٰ]{.ar} [pikrA]{.trn}^2^ already ends with the vowel-mark [◌ٰ]{.ar}, the last letter won't have any additional vowel markers and therefore the word will appear the same in all states:
 
   State  | Indefinite | Definite
   :------|:-----------|:---------
@@ -3357,7 +3368,7 @@ Here is an example of this word in a sentence:
 [EalkitAbu pikrA jamIlah.]{.trn}  
 "The book is a beautiful remembrance."
 
-Note, again how the describer [جَمِيلَة]{.ar} [jamIlah]{.trn} is feminine and in the u-state, in order to match the gender and state of the describee [ذِكْرَىٰ^2^]{.ar} [pikrA^2^]{.trn}.
+Note, again how the describer [جَمِيلَة]{.ar} [jamIlah]{.trn} is feminine and in the u-state, in order to match the gender and state of the describee ^2^[ذِكْرَىٰ]{.ar} [pikrA]{.trn}^2^.
 
 Beware also that, just like in the case of [اء]{.ar}, there are some words where [ىٰ]{.ar} may be part of the word's root, e.g. [ٱَلْهُدَىٰ]{.ar} [EalhudA]{.trn} "the guidance" whose root is [هدي]{.arroot}. Because here the [ىٰ]{.ar} in [ٱلْهُدَىٰ]{.ar} is part of the word's root, therefore it shall not be a semi-flexible noun. So, when it is indefinite, it will have an [n]{.trn}-mark when it is indefinite: [هُدًى]{.ar} [hudan]{.trn} "a guidance". Also, for the same reason, [ىٰ]{.ar} in this word is not a feminine marker, and the word is masculine.
 
@@ -3369,12 +3380,12 @@ Most colors and many physical characteristics fall into this pattern. Colors and
 
 Root | Masc. Noun | Fem. noun | Meaning
 :----|:-----------|:-------------|:------------
-[حمر]{.arroot} | [أَحْمَر^2^]{.ar}  | [حَمْرَاء^2^]{.ar}  | red
-[سود]{.arroot} | [أَسْوَد^2^]{.ar}  | [سَوْدَاء^2^]{.ar}  | black
-[بيض]{.arroot} | [أَبْيَض^2^]{.ar}  | [بَيْضَاء^2^]{.ar}  | white
-[عرج]{.arroot} | [أَعْرَج^2^]{.ar}  | [عَرْجَاء^2^]{.ar}  | lame
-[حور]{.arroot} | [أَحْوَر^2^]{.ar}  | [حَوْرَاء^2^]{.ar}  | beautiful eyed
-[بكم]{.arroot} | [أَبْكَم^2^]{.ar}  | [بَكْمَاء^2^]{.ar}  | mute
+[حمر]{.arroot} | ^2^[أَحْمَر]{.ar}  | ^2^[حَمْرَاء]{.ar}  | red
+[سود]{.arroot} | ^2^[أَسْوَد]{.ar}  | ^2^[سَوْدَاء]{.ar}  | black
+[بيض]{.arroot} | ^2^[أَبْيَض]{.ar}  | ^2^[بَيْضَاء]{.ar}  | white
+[عرج]{.arroot} | ^2^[أَعْرَج]{.ar}  | ^2^[عَرْجَاء]{.ar}  | lame
+[حور]{.arroot} | ^2^[أَحْوَر]{.ar}  | ^2^[حَوْرَاء]{.ar}  | beautiful eyed
+[بكم]{.arroot} | ^2^[أَبْكَم]{.ar}  | ^2^[بَكْمَاء]{.ar}  | mute
 
 Example:
 
@@ -3396,9 +3407,9 @@ It is rare that this last condition fails. Most adjectival nouns that end with a
 
 Root | Masc. Noun | Fem. noun | Meaning
 :----|:-----------|:-------------|:------------
-[غضب]{.arroot} | [غَضْبَان^2^]{.ar} | [غَضْبَىٰ^2^]{.ar}   | very angry
-[عطش]{.arroot} | [عَطْشَان^2^]{.ar} | [عَطْشَىٰ^2^]{.ar}   | very thirsty
-[جوع]{.arroot} | [جَوْعَان^2^]{.ar} | [جَوْعَىٰ^2^]{.ar}   | very hungry
+[غضب]{.arroot} | ^2^[غَضْبَان]{.ar} | ^2^[غَضْبَىٰ]{.ar}   | very angry
+[عطش]{.arroot} | ^2^[عَطْشَان]{.ar} | ^2^[عَطْشَىٰ]{.ar}   | very thirsty
+[جوع]{.arroot} | ^2^[جَوْعَان]{.ar} | ^2^[جَوْعَىٰ]{.ar}   | very hungry
 
 ### Nouns of the patterns [فَفَافِف]{.ar} and [فَفَافِيف]{.ar} {#fafafif-diptote}
 
@@ -3406,8 +3417,8 @@ Nouns that are of the patterns [فَفَافِف]{.ar} and [فَفَافِيف]{
 
 Here are some examples of these nouns:
 
-+ [مَسَاجِد^2^]{.ar} [masAjid^2^]{.trn} "mosques"
-+ [مَفَاتِيح^2^]{.ar} [mafAtIH^2^]{.trn} "keys"
++ ^2^[مَسَاجِد]{.ar} [masAjid]{.trn}^2^ "mosques"
++ ^2^[مَفَاتِيح]{.ar} [mafAtIH]{.trn}^2^ "keys"
 
 These patterns are only used for plurals and we will study them in more detail in chapter\ \@ref(broken-plurals)
 , if [#allAh]{.trn2} wills.
@@ -3964,7 +3975,7 @@ Example:
 
 |Root|Singular| [At]{.trn} sound plural|
 |:-|:-----|:--|
-|[صحر]{.arroot}|[صَحْرَاء^2^]{.ar} [SaHrAE^2^]{.trn} "a desert" |[صَحْرَاوَات]{.ar} [SaHrAwAt]{.trn} |
+|[صحر]{.arroot}|^2^[صَحْرَاء]{.ar} [SaHrAE]{.trn}^2^ "a desert" |[صَحْرَاوَات]{.ar} [SaHrAwAt]{.trn} |
 
 
 ### Nouns ending with [ىٰ]{.ar} 
@@ -3974,7 +3985,7 @@ If a noun ends with [ىٰ]{.ar} which is extrinsic to the word's root then the [
 
 |Root|Singular| [At]{.trn} sound plural|
 |:-|:-----|:--|
-|[ذكر]{.arroot}|[ذِكْرَىٰ^2^]{.ar} [pikrA^2^]{.trn} "a remembrance" | [ذِكْرَيَات]{.ar} [pikrayAt]{.trn} |
+|[ذكر]{.arroot}|^2^[ذِكْرَىٰ]{.ar} [pikrA]{.trn}^2^ "a remembrance" | [ذِكْرَيَات]{.ar} [pikrayAt]{.trn} |
 
 <!--
 ### Nouns ending with [اء]{.ar}, [ىٰ]{.ar}, [ا]{.ar}, and [اة]{.ar} {#at-plural-for-defective-nouns}
@@ -4135,8 +4146,8 @@ By the way, it is only the masculine adjectival noun that will form the [Un]{.tr
 
 We have come across two patterns on adjectival nouns that don't form their feminine by adding [ة]{.ar} to masculine noun. These are:
 
-i.  [فَعْلَان^2^]{.ar} [faelAn^2^]{.trn}, whose feminine is on the pattern [فَعْلَىٰ^2^]{.ar} [faelA^2^]{.trn}. Example: [غَضْبَان^2^]{.ar} [gaDbAn^2^]{.trn} (masc.) "very angry" whose feminine is [غَضْبَىٰ^2^]{.ar} [gaDbA^2^]{.trn}.
-ii. [أَفْعَل^2^]{.ar} [Eafeal^2^]{.trn}, whose feminine is on the pattern [فَعْلَاء^2^]{.ar} [faelAE^2^]{.trn}. Example: [أَحْمَر^2^]{.ar} [EaHmar^2^]{.trn} (masc.) "red", whose feminine is [حَمْرَاء^2^]{.ar} [HamrAE^2^]{.trn}.
+i.  ^2^[فَعْلَان]{.ar} [faelAn]{.trn}^2^, whose feminine is on the pattern ^2^[فَعْلَىٰ]{.ar} [faelA]{.trn}^2^. Example: ^2^[غَضْبَان]{.ar} [gaDbAn]{.trn}^2^ (masc.) "very angry" whose feminine is ^2^[غَضْبَىٰ]{.ar} [gaDbA]{.trn}^2^.
+ii. ^2^[أَفْعَل]{.ar} [Eafeal]{.trn}^2^, whose feminine is on the pattern ^2^[فَعْلَاء]{.ar} [faelAE]{.trn}^2^. Example: ^2^[أَحْمَر]{.ar} [EaHmar]{.trn}^2^ (masc.) "red", whose feminine is ^2^[حَمْرَاء]{.ar} [HamrAE]{.trn}^2^.
 
 Because the above two patterns don't form their feminine by adding [ة]{.ar} to the masculine noun, therefore the masculine nouns don't form the [Un]{.trn} sound plural. We will see, if [#allAh]{.trn2} wills, that they form broken plurals instead.
 
@@ -4165,14 +4176,14 @@ Examples are:
 |[حَسَنَة]{.ar} [Hasanah]{.trn} _adj._ "a good one~f~"     |[حَسَنَات]{.ar} [HasanAt]{.trn}|
 |[حَسَنَة]{.ar} [Hasanah]{.trn} (common noun) "a good deed"| [حَسَنَات]{.ar} [HasanAt]{.trn}|
 |[صَدِيقَة]{.ar} [SadIqah]{.trn} "a friend~f~"             |[صَدِيقَات]{.ar} [SadIqAt]{.trn}|
-|[صَحْرَاء^2^]{.ar} [SaHrAE^2^]{.trn} "a desert"           |[صَحْرَاوَات]{.ar} [SaHrAwAt]{.trn} |
-|[ذِكْرَىٰ^2^]{.ar} [pikrA^2^]{.trn} "a remembrance"        | [ذِكْرَيَات]{.ar} [pikrayAt]{.trn} |
+|^2^[صَحْرَاء]{.ar} [SaHrAE]{.trn}^2^ "a desert"           |[صَحْرَاوَات]{.ar} [SaHrAwAt]{.trn} |
+|^2^[ذِكْرَىٰ]{.ar} [pikrA]{.trn}^2^ "a remembrance"        | [ذِكْرَيَات]{.ar} [pikrayAt]{.trn} |
 
 The following are exceptions to this general rule, and don't form [At]{.trn} sound plurals:
 
-+ Adjectival nouns of the pattern [فَعْلَاء^2^]{.ar} which is the feminine of the masculine adjectival noun pattern [أَفْعَل^2^]{.ar}. For example, [حمر]{.arroot} [حَمْرَاء]{.ar} [HamrAE]{.trn} "red~f~".
++ Adjectival nouns of the pattern ^2^[فَعْلَاء]{.ar} which is the feminine of the masculine adjectival noun pattern ^2^[أَفْعَل]{.ar}. For example, [حمر]{.arroot} [حَمْرَاء]{.ar} [HamrAE]{.trn} "red~f~".
 
-+ Adjectival nouns of the pattern [فَعْلَىٰ^2^]{.ar} which is the feminine of the masculine adjectival noun pattern [فَعْلَان^2^]{.ar}. For example, [غضب]{.arroot} [غَضْبَىٰ]{.ar} [gaDbA]{.trn} "very angry~f~".
++ Adjectival nouns of the pattern ^2^[فَعْلَىٰ]{.ar} which is the feminine of the masculine adjectival noun pattern ^2^[فَعْلَان]{.ar}. For example, [غضب]{.arroot} [غَضْبَىٰ]{.ar} [gaDbA]{.trn} "very angry~f~".
 
 + The following exceptional nouns:
 
@@ -4737,8 +4748,8 @@ Most nouns in Arabic are _fully-flexible_. This means that, when indefinite, the
 
 Some nouns are _semi-flexible_. This means that they don't take [n]{.trn} marks, and also, the indefinite i-state is indicated by an [a]{.trn} mark [◌َ]{.ar}. Examples of such nouns are:
 
-+ [غَضْبَىٰ^2^]{.ar} [gaDbA^2^]{.trn} _adj._ (fem.) "a very angry one~f~" from the root [غضب]{.arroot}
-+ [صَحْرَاء^2^]{.ar} [SaHrAE^2^]{.trn} (fem.) "a desert~f~" from the root [صحر]{.arroot}
++ ^2^[غَضْبَىٰ]{.ar} [gaDbA]{.trn}^2^ _adj._ (fem.) "a very angry one~f~" from the root [غضب]{.arroot}
++ ^2^[صَحْرَاء]{.ar} [SaHrAE]{.trn}^2^ (fem.) "a desert~f~" from the root [صحر]{.arroot}
 
 [ذَهَبَتْ جَارِيَةٌ غَضْبَىٰ إِلَىٰ صَحْرَاءَ.]{.ar}  
 [pahabat jAriyatun gaDbA EilA SaHrAE.]{.trn}  
@@ -4881,7 +4892,7 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     ||
     |---:|:---|---:|:---
     |[بَاب: أَبْوَاب]{.ar}  |a door        |[مَيِّت: أَمْوَات]{.ar}    |dead
-    |[قَلَم: أَقْلَام]{.ar}  |a pen         |[شَيْء: أَشْيَاء^2^]{.ar} |a thing
+    |[قَلَم: أَقْلَام]{.ar}  |a pen         |^2^[شَيْء: أَشْيَاء]{.ar} |a thing
     |[قَدَم: أَقْدَام]{.ar}  |a foot        |[ٱِسْم: أَسْمَاء]{.ar}    |a name
     |[صَاحِب: أَصْحَاب]{.ar} |a companion~m~|[يَوْم: أَيَّام]{.ar}     |a day
     |[شَرِيف: أَشْرَاف]{.ar} |a noble one~m~|[عَدُوّ: أَعْدَاء]{.ar}    |an enemy
@@ -4895,25 +4906,25 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |[لِسَان: أَلْسِنَة]{.ar}  |a tongue      |[طَعَام: أَطْعِمَة]{.ar} |a food
     |[إِمَام: أَئِمَّة]{.ar}   |a leader~m~   |[إِلَـٰه: آلِهَة]{.ar}  |a god
 
-16. **[فَوَاعِل^2^]{.ar} [fawAeil^2^]{.trn}**. (Semi-flexible because of [فَفَافِف^2^]{.ar} pattern.) Examples:
+16. **^2^[فَوَاعِل]{.ar} [fawAeil]{.trn}^2^**. (Semi-flexible because of ^2^[فَفَافِف]{.ar} pattern.) Examples:
 
     ||
     |---:|:---|---:|:---
-    |[صَاحِبَة: صَوَاحِب^2^]{.ar} |a companion~f~      |[عَامِل: عَوَامِل^2^]{.ar} |a factor
-    |[جَارِيَة: جَوَارٍ^2^]{.ar}  |a girl              |[شَاهِد: شَوَاهِد^2^]{.ar} |a corroborating evidence
-    |[أَمْر: أَوَامِر^2^]{.ar}   |a command           |[خَاتَم: خَوَاتِم^2^]{.ar} |a ring (jewelry)
-    |[نَادِرَة: نَوَادِر^2^]{.ar} |a joke, a witticism |[فَارِس: فَوَارِس^2^]{.ar} |a horseman
+    |^2^[صَاحِبَة: صَوَاحِب]{.ar} |a companion~f~      |^2^[عَامِل: عَوَامِل]{.ar} |a factor
+    |^2^[جَارِيَة: جَوَارٍ]{.ar}  |a girl              |^2^[شَاهِد: شَوَاهِد]{.ar} |a corroborating evidence
+    |^2^[أَمْر: أَوَامِر]{.ar}   |a command           |^2^[خَاتَم: خَوَاتِم]{.ar} |a ring (jewelry)
+    |^2^[نَادِرَة: نَوَادِر]{.ar} |a joke, a witticism |^2^[فَارِس: فَوَارِس]{.ar} |a horseman
 
-17. **[فَعَائِل^2^]{.ar} [faeAEil^2^]{.trn}**. (Semi-flexible because of [فَفَافِف^2^]{.ar} pattern.) Examples:
+17. **^2^[فَعَائِل]{.ar} [faeAEil]{.trn}^2^**. (Semi-flexible because of ^2^[فَفَافِف]{.ar} pattern.) Examples:
 
     ||
     |---:|:---|---:|:---
-    |[حُرَة: حَرَائِر^2^]{.ar}      |a free woman|[جَزِيرَة: جَزَائِر^2^]{.ar} |an island
-    |[ضَرّة: ضَرَائِر^2^]{.ar}      |a co-wife   |[رِسَالَة: رَسَائل^2^]{.ar} |a message
-    |[حَدِيقَة: حَدَائِق^2^]{.ar}    |a garden    |[حَاجَة: حَوَائِج^2^]{.ar}  |a need
-    |[حَقِيبَة: حَقَائِب^2^]{.ar}    |a bag       |[دَلِيل: دَلَائِل^2^]{.ar}  |an evidence
-    |[كَبِيرَة: كَبَائِر^2^]{.ar}    |a major sin |[خَلِيفَة: خَلَائِف^2^]{.ar} |a successor
-    |[كَرِيمَة: كَرَائِم^2^]{.ar}    |a generous one~f~ ||
+    |^2^[حُرَة: حَرَائِر]{.ar}      |a free woman|^2^[جَزِيرَة: جَزَائِر]{.ar} |an island
+    |^2^[ضَرّة: ضَرَائِر]{.ar}      |a co-wife   |^2^[رِسَالَة: رَسَائل]{.ar} |a message
+    |^2^[حَدِيقَة: حَدَائِق]{.ar}    |a garden    |^2^[حَاجَة: حَوَائِج]{.ar}  |a need
+    |^2^[حَقِيبَة: حَقَائِب]{.ar}    |a bag       |^2^[دَلِيل: دَلَائِل]{.ar}  |an evidence
+    |^2^[كَبِيرَة: كَبَائِر]{.ar}    |a major sin |^2^[خَلِيفَة: خَلَائِف]{.ar} |a successor
+    |^2^[كَرِيمَة: كَرَائِم]{.ar}    |a generous one~f~ ||
 
 18. **[فِعْلَان]{.ar} [fielAn]{.trn}**. Examples:
 
@@ -4930,43 +4941,43 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |[بَلَد: بُلْدَان]{.ar}  |a country     |[شُجَاع: شُجْعَان]{.ar} |a brave one
     |[جِدَار: جُدْرَان]{.ar} |a wall        |[شَابّ: شُبَّان]{.ar}   |a young man
 
-20. **[فُعَلَاء^2^]{.ar} [fuealAE^2^]{.trn}**. Examples:
+20. **^2^[فُعَلَاء]{.ar} [fuealAE]{.trn}^2^**. Examples:
 
     ||
     |---:|:---|---:|:---
-    |[أَمِير: أُمَرَاء^2^]{.ar} |a commander~m~ |[خَلِيفَة: خُلَفَاء^2^]{.ar} |a caliph
-    |[فَقِير: فُقَرَاء^2^]{.ar} |a poor one~m~  |[عَالِم: عُلَمَاء^2^]{.ar}  |a scholar~m~
-    |[بَخِيل: بُخَلَاء^2^]{.ar} |a miser~m~     |[شَاعِر: شُعَرَاء^2^]{.ar}  |a poet~m~
-    |[ضَعِيف: ضُعَفَاء^2^]{.ar} |a weak one~m~  ||
+    |^2^[أَمِير: أُمَرَاء]{.ar} |a commander~m~ |^2^[خَلِيفَة: خُلَفَاء]{.ar} |a caliph
+    |^2^[فَقِير: فُقَرَاء]{.ar} |a poor one~m~  |^2^[عَالِم: عُلَمَاء]{.ar}  |a scholar~m~
+    |^2^[بَخِيل: بُخَلَاء]{.ar} |a miser~m~     |^2^[شَاعِر: شُعَرَاء]{.ar}  |a poet~m~
+    |^2^[ضَعِيف: ضُعَفَاء]{.ar} |a weak one~m~  ||
 
-21. **[أَفْعِلَاء^2^]{.ar} [EafeilAE^2^]{.trn}**. Examples:
-
-    ||
-    |---:|:---|---:|:---
-    |[نَبِيّ: أَنْبِيَاء^2^]{.ar} |a prophet~m~  |[شَدِيد: أَشِدَّاء^2^]{.ar} |a forceful one~m~
-    |[صَدِيق: أَصْدِقَاء^2^]{.ar}|a friend~m~   |[قَوِيّ: أَقْوِيَاء^2^]{.ar} |a strong one~m~
-    |[غَنِيّ: أُغْنِيَاء^2^]{.ar} |a rich one~m~ |[شَقِيّ: أَشْقِيَاء^2^]{.ar} |a wretched one~m~
-
-22. **[فَعْلَىٰ^2^]{.ar} [faelA^2^]{.trn}**. Examples:
+21. **^2^[أَفْعِلَاء]{.ar} [EafeilAE]{.trn}^2^**. Examples:
 
     ||
     |---:|:---|---:|:---
-    |[مَرِيض: مَرْضَىٰ^2^]{.ar} |a sick one~m~  |[جَرِيح: جَرْحَىٰ^2^]{.ar} |a wounded person
-    |[أَسِير: أَسْرَىٰ^2^]{.ar} |a captive      ||
+    |^2^[نَبِيّ: أَنْبِيَاء]{.ar} |a prophet~m~  |^2^[شَدِيد: أَشِدَّاء]{.ar} |a forceful one~m~
+    |^2^[صَدِيق: أَصْدِقَاء]{.ar}|a friend~m~   |^2^[قَوِيّ: أَقْوِيَاء]{.ar} |a strong one~m~
+    |^2^[غَنِيّ: أُغْنِيَاء]{.ar} |a rich one~m~ |^2^[شَقِيّ: أَشْقِيَاء]{.ar} |a wretched one~m~
 
-23. **[فَعَالِي^2^]{.ar} [faeAlI^2^]{.trn}**. (Semi-flexible because of [فَفَافِف^2^]{.ar} pattern.) Examples:
+22. **^2^[فَعْلَىٰ]{.ar} [faelA]{.trn}^2^**. Examples:
 
     ||
     |---:|:---|---:|:---
-    |[لَيْلَة: لَيَالٍ^2^]{.ar}|a night  |[أَرْض: أَرَاضٍ^2^]{.ar} |a land, an earth
-    |[أَهْل: أَهَالٍ^2^]{.ar} |a family ||
+    |^2^[مَرِيض: مَرْضَىٰ]{.ar} |a sick one~m~  |^2^[جَرِيح: جَرْحَىٰ]{.ar} |a wounded person
+    |^2^[أَسِير: أَسْرَىٰ]{.ar} |a captive      ||
 
-24. **[فَعَالَىٰ^2^]{.ar} [faeAlA^2^]{.trn}**. Examples:
+23. **^2^[فَعَالِي]{.ar} [faeAlI]{.trn}^2^**. (Semi-flexible because of ^2^[فَفَافِف]{.ar} pattern.) Examples:
+
+    ||
+    |---:|:---|---:|:---
+    |^2^[لَيْلَة: لَيَالٍ]{.ar}|a night  |^2^[أَرْض: أَرَاضٍ]{.ar} |a land, an earth
+    |^2^[أَهْل: أَهَالٍ]{.ar} |a family ||
+
+24. **^2^[فَعَالَىٰ]{.ar} [faeAlA]{.trn}^2^**. Examples:
 
     ||
     |---:|:---|---:|:---
     |[صَحْرَاء^2^: صَحَارَىٰ^2^]{.ar}|a desert  |[فَتْوَىٰ^2^: فَتَاوَىٰ^2^]{.ar} |a formal legal opinion
-    |[يَتِيم: يَتَامَىٰ^2^]{.ar}|an orphan     |[هَدِيَّة: هَدَايَا^2^]{.ar}    |a gift
+    |^2^[يَتِيم: يَتَامَىٰ]{.ar}|an orphan     |^2^[هَدِيَّة: هَدَايَا]{.ar}    |a gift
 
 25. **[فَعِيل]{.ar} [faeIl]{.trn}** (rare). Examples:
 
@@ -4998,44 +5009,44 @@ We now give all but the rarest broken plural patterns below. The singular and pl
     |---:|:---|---:|:---
     |[صَاحِب: صَحْب]{.ar}|a companion  ||
 
-30. **[فَفَافِف^2^]{.ar} [fafAfif^2^]{.trn}**. Includes the sub-patterns:
+30. **^2^[فَفَافِف]{.ar} [fafAfif]{.trn}^2^**. Includes the sub-patterns:
 
-    + **[فَعَالِل^2^]{.ar} [faeAlil^2^]{.trn}**
-    + **[أَفَاعِل^2^]{.ar} [EafAeil^2^]{.trn}**
-    + **[تَفَاعِل^2^]{.ar} [tafAeil^2^]{.trn}**
-    + **[مَفَاعِل^2^]{.ar} [mafAeil^2^]{.trn}**
-
-    Examples:
-
-    ||
-    |---:|:---|---:|:---
-    |[ثَعْلَب: ثَعَالِب^2^]{.ar}  |a fox         |[تَجْرِبَة: تَجَارِب^2^]{.ar} |an experience
-    |[عَنْكَبُوت: عَنَاكِب^2^]{.ar}|a spider      |[مَسْجِد: مَسَاجِد^2^]{.ar}  |a mosque      
-    |[دِرْهَم: دَرَاهِم^2^]{.ar}  |a dirham      |[مَعَانٍ: مَعْنًى^2^]{.ar}   |a meaning     
-    |[جَوْهَر: جَوَاهِر^2^]{.ar}  |a gem         |[مَحَالّ: مَحَلَّة^2^]{.ar}   |a locality
-    |[إِصْبَع: أَصَابِع^2^]{.ar}  |a finger      |[مَعِيشَة: مَعَاىِش^2^]{.ar} |a means of subsistence      
-    |[أَنْمُلَة: أَنَامِل^2^]{.ar} |a finger tip  ||
-
-31. **[فَفَافِيف^2^]{.ar} [fafAfIf^2^]{.trn}**. Includes the sub-patterns:
-
-    + **[فَعَالِيل^2^]{.ar} [faeAlIl^2^]{.trn}**
-    + **[أَفَاعِيل^2^]{.ar} [EafAeIl^2^]{.trn}**
-    + **[تَفَاعِيل^2^]{.ar} [tafAeIl^2^]{.trn}**
-    + **[مَفَاعِيل^2^]{.ar} [mafAeIl^2^]{.trn}**
-    + **[يَفَاعِيل^2^]{.ar} [yafAeIl^2^]{.trn}**
-    + **[فَوَاعِيل^2^]{.ar} [fawAeIl^2^]{.trn}**
+    + **^2^[فَعَالِل]{.ar} [faeAlil]{.trn}^2^**
+    + **^2^[أَفَاعِل]{.ar} [EafAeil]{.trn}^2^**
+    + **^2^[تَفَاعِل]{.ar} [tafAeil]{.trn}^2^**
+    + **^2^[مَفَاعِل]{.ar} [mafAeil]{.trn}^2^**
 
     Examples:
 
     ||
     |---:|:---|---:|:---
-    |[سُلْطَان: سَلَاطِين^2^]{.ar}  |a sultan         |[إِعْصَار: أَعَاصِير^2^]{.ar}  |a whirlwind
-    |[شَيْطَان: شَيَاطِين^2^]{.ar}  |a devil          |[تَأْرِيخ: تَوَارِيخ^2^]{.ar}  |a history
-    |[سِكِّين: سَكَاكِين^2^]{.ar}   |a knife          |[تَصْوِير: تَصَاوِير^2^]{.ar}  |a picture
-    |[دِينَار: دَنَانِير^2^]{.ar}  |a [dInAr]{.trn2} |[مِفْتَاح: مَفَاتِيح^2^]{.ar}  |a key       
-    |[مِسْكِين: مَسَاكِين^2^]{.ar}  |a needy person   |[مَلْعُون: مَلَاعِين^2^]{.ar}  |an accursed one~m~
-    |[كُرْسِيّ: كَرَاسِيّ^2^]{.ar}    |a chair          |[يُنْبُوع: يَنَابِيع^2^]{.ar}  |a (water) spring
-    |[أُمْنِيَّة: أَمَانِيّ^2^]{.ar}   |a wish           |[جَامُوس: جَوَامِيس^2^]{.ar}  |a buffalo
+    |^2^[ثَعْلَب: ثَعَالِب]{.ar}  |a fox         |^2^[تَجْرِبَة: تَجَارِب]{.ar} |an experience
+    |^2^[عَنْكَبُوت: عَنَاكِب]{.ar}|a spider      |^2^[مَسْجِد: مَسَاجِد]{.ar}  |a mosque      
+    |^2^[دِرْهَم: دَرَاهِم]{.ar}  |a dirham      |^2^[مَعَانٍ: مَعْنًى]{.ar}   |a meaning     
+    |^2^[جَوْهَر: جَوَاهِر]{.ar}  |a gem         |^2^[مَحَالّ: مَحَلَّة]{.ar}   |a locality
+    |^2^[إِصْبَع: أَصَابِع]{.ar}  |a finger      |^2^[مَعِيشَة: مَعَاىِش]{.ar} |a means of subsistence      
+    |^2^[أَنْمُلَة: أَنَامِل]{.ar} |a finger tip  ||
+
+31. **^2^[فَفَافِيف]{.ar} [fafAfIf]{.trn}^2^**. Includes the sub-patterns:
+
+    + **^2^[فَعَالِيل]{.ar} [faeAlIl]{.trn}^2^**
+    + **^2^[أَفَاعِيل]{.ar} [EafAeIl]{.trn}^2^**
+    + **^2^[تَفَاعِيل]{.ar} [tafAeIl]{.trn}^2^**
+    + **^2^[مَفَاعِيل]{.ar} [mafAeIl]{.trn}^2^**
+    + **^2^[يَفَاعِيل]{.ar} [yafAeIl]{.trn}^2^**
+    + **^2^[فَوَاعِيل]{.ar} [fawAeIl]{.trn}^2^**
+
+    Examples:
+
+    ||
+    |---:|:---|---:|:---
+    |^2^[سُلْطَان: سَلَاطِين]{.ar}  |a sultan         |^2^[إِعْصَار: أَعَاصِير]{.ar}  |a whirlwind
+    |^2^[شَيْطَان: شَيَاطِين]{.ar}  |a devil          |^2^[تَأْرِيخ: تَوَارِيخ]{.ar}  |a history
+    |^2^[سِكِّين: سَكَاكِين]{.ar}   |a knife          |^2^[تَصْوِير: تَصَاوِير]{.ar}  |a picture
+    |^2^[دِينَار: دَنَانِير]{.ar}  |a [dInAr]{.trn2} |^2^[مِفْتَاح: مَفَاتِيح]{.ar}  |a key       
+    |^2^[مِسْكِين: مَسَاكِين]{.ar}  |a needy person   |^2^[مَلْعُون: مَلَاعِين]{.ar}  |an accursed one~m~
+    |^2^[كُرْسِيّ: كَرَاسِيّ]{.ar}    |a chair          |^2^[يُنْبُوع: يَنَابِيع]{.ar}  |a (water) spring
+    |^2^[أُمْنِيَّة: أَمَانِيّ]{.ar}   |a wish           |^2^[جَامُوس: جَوَامِيس]{.ar}  |a buffalo
 
 32. **[فَعَالِلَة]{.ar} [faeAlilah]{.trn}**. Examples:
 
@@ -5058,19 +5069,19 @@ Note the following from the above broken plural patterns and examples:
 
   Sometimes this correlation is very strong:
 
-  + All singular nouns of the patterns [أَفْل^2^]{.ar} [Eafeal^2^]{.trn} and [فَعْلَاء^2^]{.ar} [faelAE]{.trn} that denote colors and physical characteristics, have broken plurals on the pattern [فُعْل]{.ar} [fuel]{.trn}. Example:
+  + All singular nouns of the patterns ^2^[أَفْل]{.ar} [Eafeal]{.trn}^2^ and ^2^[فَعْلَاء]{.ar} [faelAE]{.trn} that denote colors and physical characteristics, have broken plurals on the pattern [فُعْل]{.ar} [fuel]{.trn}. Example:
 
     |Singular | Plural|
     |:---|:---|
     |[أَحْمَر^2^، حَمْرَاء^2^]{.ar}  "red"  |[حُمْر]{.ar} |
     |[أَبْكَم^2^، بَكْمَاء^2^]{.ar}  "mute" |[بُكْم]{.ar} |
 
-  + Singular nouns that have four or more consonant letters (excluding [ة]{.ar}) regularly form their broken plurals on the patterns [فَفَافِف^2^]{.ar} and [فَفَافِيف^2^]{.ar}. The pattern [فَفَافِيف^2^]{.ar} is used when there is an intermendiate long vowel between the consonants. Examples:
+  + Singular nouns that have four or more consonant letters (excluding [ة]{.ar}) regularly form their broken plurals on the patterns ^2^[فَفَافِف]{.ar} and ^2^[فَفَافِيف]{.ar}. The pattern ^2^[فَفَافِيف]{.ar} is used when there is an intermendiate long vowel between the consonants. Examples:
 
     |Singular | Plural|
     |:---|:---|
-    |[إِصْبَع]{.ar} "a finger" |[أَصَابِع^2^]{.ar} |  
-    |[مِفْتَاح]{.ar}  "a key"  |[مَفَاتِيح^2^]{.ar}|
+    |[إِصْبَع]{.ar} "a finger" |^2^[أَصَابِع]{.ar} |  
+    |[مِفْتَاح]{.ar}  "a key"  |^2^[مَفَاتِيح]{.ar}|
 
   + Singular nouns of the patterns [فِعْلَة]{.ar} [fielah]{.trn} and [فُعْلَة]{.ar} [fuelah]{.trn} regularly form their broken plurals on the pattern [فِعَل]{.ar} [fieal]{.trn} and [فُعَل]{.ar} [fueal]{.trn} respectively. Examples:
     
@@ -5081,12 +5092,12 @@ Note the following from the above broken plural patterns and examples:
 
   Other times, this correlation is more like a tendency:
 
-  + Singular nouns on the pattern [فَعِيلَة]{.ar} [faeIlah]{.trn} tend to form broken plurals on the pattern [فَعَائِل^2^]{.ar} [faeAEil^2^]{.trn}. Examples:
+  + Singular nouns on the pattern [فَعِيلَة]{.ar} [faeIlah]{.trn} tend to form broken plurals on the pattern ^2^[فَعَائِل]{.ar} [faeAEil]{.trn}^2^. Examples:
 
     |Singular | Plural|
     |:---|:---|
-    |[حَدِيقَة]{.ar}     "a garden"|[حَدَائِق^2^]{.ar} |
-    |[حَقِيبَة]{.ar}     "a bag"   |[حَقَائِب^2^]{.ar} |
+    |[حَدِيقَة]{.ar}     "a garden"|^2^[حَدَائِق]{.ar} |
+    |[حَقِيبَة]{.ar}     "a bag"   |^2^[حَقَائِب]{.ar} |
 
   + Singular nouns on the pattern [فَاعِل]{.ar} [fAeil]{.trn}, that denote male intelligent beings, tend to form broken plurals on the pattern [فُعَّل]{.ar} [fueeal]{.trn}, [فُعَّال]{.ar} [fueeAl]{.trn}, and [فَعَلَة]{.ar} [faealah]{.trn}. Examples:
 
@@ -5100,10 +5111,10 @@ Note the following from the above broken plural patterns and examples:
 
     |Singular | Plural|
     |:---|:---|
-    |[صَاحِبَة]{.ar}  "a companion~f~"|[صَوَاحِب^2^]{.ar} |
-    |[عَامِل]{.ar}   "a factor"      |[عَوَامِل^2^]{.ar} |
+    |[صَاحِبَة]{.ar}  "a companion~f~"|^2^[صَوَاحِب]{.ar} |
+    |[عَامِل]{.ar}   "a factor"      |^2^[عَوَامِل]{.ar} |
 
-    [فَارِس]{.ar} [fAris]{.trn} "a horseman" with the plural [فَوَارِس^2^]{.ar} is one of a number of exceptions.
+    [فَارِس]{.ar} [fAris]{.trn} "a horseman" with the plural ^2^[فَوَارِس]{.ar} is one of a number of exceptions.
 
 + Some words have roots that have the same letter repeated in the root. These are called _doubled_ roots. 
 
@@ -5137,9 +5148,9 @@ Note the following from the above broken plural patterns and examples:
 
     |Root | Word pattern | Expected word | Actual word
     |:-|:--|:--|:--
-    |[شدّ]{.arroot} |[أَفْعِلَاء^2^]{.ar} |$\times$\ [أَشْدِدَاء^2^]{.ar} |[أَشِدَّاء^2^]{.ar}
-    |[حلّ]{.arroot} |[مَفَاعِل^2^]{.ar}  |$\times$\ [مَحَالِل^2^]{.ar}  |[مَحَالّ^2^]{.ar} 
-    |[صمّ]{.arroot} |[أَفْعَل^2^]{.ar}  |$\times$\ [أَصْمَم^2^]{.ar}  |[أَصَمّ^2^]{.ar} 
+    |[شدّ]{.arroot} |^2^[أَفْعِلَاء]{.ar} |$\times$\ ^2^[أَشْدِدَاء]{.ar} |^2^[أَشِدَّاء]{.ar}
+    |[حلّ]{.arroot} |^2^[مَفَاعِل]{.ar}  |$\times$\ ^2^[مَحَالِل]{.ar}  |^2^[مَحَالّ]{.ar} 
+    |[صمّ]{.arroot} |^2^[أَفْعَل]{.ar}  |$\times$\ ^2^[أَصْمَم]{.ar}  |^2^[أَصَمّ]{.ar} 
 
 + We have previously learned that the endings [ة]{.ar}, [اء]{.ar}, and [ىٰ]{.ar} that are extrinsic to the word's root are feminine markers for singular nouns. These extrinsic endings also occur for broken plurals but there, they are _not_ feminine markers.
 
@@ -5166,8 +5177,8 @@ Note the following from the above broken plural patterns and examples:
 
   |Singular | Plural
   |:---|---:
-  |[مَكْتَب]{.ar} "an office" |[مَكَاتِب^2^]{.ar}
-  |[مَكْتَبَة]{.ar} "a library"|[مَكَاتِب^2^]{.ar}
+  |[مَكْتَب]{.ar} "an office" |^2^[مَكَاتِب]{.ar}
+  |[مَكْتَبَة]{.ar} "a library"|^2^[مَكَاتِب]{.ar}
 
   Context will then tell us which of two meanings is intended.
 
@@ -5177,7 +5188,7 @@ Note the following from the above broken plural patterns and examples:
 
     |Root |Singular | Plural|
     |:--|:---|:---|
-    |[أرخ]{.arroot} | [تَأْرِيخ]{.ar} | [تَوَارِيخ^2^]{.ar}
+    |[أرخ]{.arroot} | [تَأْرِيخ]{.ar} | ^2^[تَوَارِيخ]{.ar}
     |[نوق]{.arroot} | [نَاقَة]{.ar}  | [نُوق]{.ar}
     |[ثور]{.arroot} | [ثَوْر]{.ar}   | [ثِيرَان]{.ar}
 
@@ -5191,15 +5202,15 @@ Note the following from the above broken plural patterns and examples:
 
     |Root | Word pattern | Expected word | Actual word
     |:-|:--|:--|:--
-    |[هدي]{.arroot} |[فَعَالَىٰ^2^]{.ar} |$\times$\ [هَدَايَىٰ^2^]{.ar} |[هَدَايَا^2^]{.ar}
+    |[هدي]{.arroot} |^2^[فَعَالَىٰ]{.ar} |$\times$\ ^2^[هَدَايَىٰ]{.ar} |^2^[هَدَايَا]{.ar}
 
   + A [ي]{.ar} at the end of a word, in some states, gets omitted  and replaced by an [in]{.trn}-mark [◌ٍ]{.ar} on the preceding letter. This happens even when the [ي]{.ar} is extrinsic to the root, and even if the word is semi-flexible (and thus would not normally accept an [n]{.trn} mark). Examples:
 
     |Root | Word pattern | Expected word  | Actual word 
     |:-|:--|:--|:--
     |[قضي]{.arroot} |[فَاعِل]{.ar} |$\times$\ [قَاضِي]{.ar} |[قَاضٍ]{.ar}
-    |[جري]{.arroot} |[فَوَاعِل^2^]{.ar} |$\times$\ [جَوَارِي^2^]{.ar} |[جَوَارٍ^2^]{.ar}
-    |[ليل]{.arroot} |[فَعَالِي^2^]{.ar} |$\times$\ [لَيَالِي^2^]{.ar} |[لَيَالٍ^2^]{.ar}
+    |[جري]{.arroot} |^2^[فَوَاعِل]{.ar} |$\times$\ ^2^[جَوَارِي]{.ar} |^2^[جَوَارٍ]{.ar}
+    |[ليل]{.arroot} |^2^[فَعَالِي]{.ar} |$\times$\ ^2^[لَيَالِي]{.ar} |^2^[لَيَالٍ]{.ar}
 
   + Weak letters can also get omitted in the singular and resurface in the plural. Examples:
 
@@ -5213,17 +5224,17 @@ Note the following from the above broken plural patterns and examples:
 
   |Singular | Plural
   |:---|---:
-  |[عَنْكَبُوت]{.ar} "a spider" |[عَنَاكِب^2^]{.ar}
+  |[عَنْكَبُوت]{.ar} "a spider" |^2^[عَنَاكِب]{.ar}
 
 + Some words have individual irrgularities as well and we will discuss them below:
 
   + The word [ٱِمْرَأَة]{.ar} and its plural [نِسَاء]{.ar} are both irregular and we will discuss them separately in chapter\ \@ref(irregular-nouns).
 
-  + The broken plural [أَشْيَاء^2^]{.ar} [EacyAE]{.trn} (of the singular noun [شَيْء]{.ar} [cayE]{.trn} "a thing") is irregular in that it is semi-flexible. Otherwise its pattern [أَفْعَال]{.ar} [EafeAl]{.trn} is regularly fully-flexible.
+  + The broken plural ^2^[أَشْيَاء]{.ar} [EacyAE]{.trn} (of the singular noun [شَيْء]{.ar} [cayE]{.trn} "a thing") is irregular in that it is semi-flexible. Otherwise its pattern [أَفْعَال]{.ar} [EafeAl]{.trn} is regularly fully-flexible.
 
   + The broken plural of the singular noun [مَلَك]{.ar} [malak]{.trn} "an angel" is [مَلَائِكَة]{.ar} [malAEikah]{.trn}. It is on the pattern [فَعَالِلَة]{.ar} [faeAlilah]{.trn}. But it is unusual in that the plural has an extra letter [ء]{.ar} that is missing in the singular. This is because the singular has a lesser-used variant: [مَلْأَك]{.ar} [malEak]{.trn} that is used to form the plural.
 
-  + The broken plural of the singular noun [دِينَار]{.ar} "a [dInAr]{.trn2}" is [دَنَانِير^2^]{.ar}. It is on the pattern [فَعَالِيل^2^]{.ar}. It is irregular in that there are two [ن]{.ar}'s in the plural whereas the singular only has one.
+  + The broken plural of the singular noun [دِينَار]{.ar} "a [dInAr]{.trn2}" is ^2^[دَنَانِير]{.ar}. It is on the pattern ^2^[فَعَالِيل]{.ar}. It is irregular in that there are two [ن]{.ar}'s in the plural whereas the singular only has one.
 
   + The root of [بِئْر]{.ar} [biEr]{.trn} "a (water) well" is [بأر]{.arroot}. The pattern of its broken plural is [أَفْعَال]{.ar}. Based on its root letters, its plural on this pattern ought regularly to have been [أَبْآر]{.ar} [EabEAr]{.trn}. And this plural exists but is not very commonly used. Instead, in forming the plural, the root letters [ب]{.ar} and [أ]{.ar} get swapped irregularly, and the more commonly used plural is actually [آبَار]{.ar} ['EAbAr]{.trn}.
 
@@ -5237,8 +5248,8 @@ We noted that there are often multiple broken plurals for the same singular noun
   |:---|:---|---:
   |[جِدَار]{.ar}|a wall              |[جُدُر، جُدْرَان]{.ar}
   |[شَهْر]{.ar} |a month             |[أَشْهُر، شُهُور]{.ar}
-  |[ضَعِيف]{.ar}|a weak one~m~       |[ضِعَاف، ضُعَفَاء^2^]{.ar}
-  |[أَمْر]{.ar} |a matter; a command |[أُمُور، أَوَامِر^2^]{.ar}
+  |[ضَعِيف]{.ar}|a weak one~m~       |^2^[ضِعَاف، ضُعَفَاء]{.ar}
+  |[أَمْر]{.ar} |a matter; a command |^2^[أُمُور، أَوَامِر]{.ar}
   |[عَيْن]{.ar} |an eye; a (water) spring; an eminent person |[أَعْيُن، عُيُون، أَعْيَان]{.ar}
   |[عَامِل]{.ar}|a worker; a labourer; a factor              |[عَامِلُونَ، عَوَامِل^2^، عَمَلَة، عُمَّال]{.ar}
 
@@ -5257,7 +5268,7 @@ Either could be used, more or less, interchangeably.
    + The word [أَمْر]{.ar} [Eamr]{.trn} has two distinct meanings, each with it's own plural:
 
      i. "a matter". This has the broken plural [أُمُور]{.ar} [EumUr]{.trn}.
-     ii. "a command". This has the broken plural [أَوَامِر^2^]{.ar} [EawAmir^2^]{.trn}.
+     ii. "a command". This has the broken plural ^2^[أَوَامِر]{.ar} [EawAmir]{.trn}^2^.
 
    + The word [عَيْن]{.ar} [Eayn]{.trn} has multiple distinct meanings. There are three main meanings, and they share the broken plural with each other in the following way:
 
@@ -5269,7 +5280,7 @@ Either could be used, more or less, interchangeably.
      
      i. "a worker~m~". Generally, this has the plural [عُمَّال]{.ar} [eummAl]{.trn}.
      ii. "a labourer~m~". This uses the plural [عَمَلَة]{.ar} [eamalah]{.trn}.
-     iii. "a factor". This uses the plural [عَوَامِل^2^]{.ar} [eawAmil^2^]{.trn}.
+     iii. "a factor". This uses the plural ^2^[عَوَامِل]{.ar} [eawAmil]{.trn}^2^.
 
 4. Arabic has what are known as _plurals of fewness_. These are specific patterns that may (sometimes, but not always) be used when the persons or things denoted by the plural are only a few (ten or less) and not many. These patterns are:
 
@@ -5299,9 +5310,9 @@ Some nouns have both sound and broken plurals for more or less the same meaning.
 |[صَغِيرَة]{.ar} | a small one~f~ |[صَغِيرَات]{.ar} |[صِغَار]{.ar}
 |[رَاكِع]{.ar}  | one who bows~m~|[رَاكِعُونَ]{.ar} |[رُكَّع]{.ar}
 |[رَاكِعَة]{.ar} | one who bows~f~|[رَاكِعَات]{.ar} |[رُكَّع]{.ar}
-|[صَاحِبَة]{.ar} | a companion~f~ |[صَاحِبَات]{.ar} |[صَوَاحِب^2^]{.ar}
-|[جَارِيَة]{.ar} | a girl         |[جَارِيَات]{.ar} |[جَوَارٍ^2^]{.ar}
-|[حَدِيقَة]{.ar} | a garden       |[جَدِيقَات]{.ar} |[حَدَائِق^2^]{.ar}
+|[صَاحِبَة]{.ar} | a companion~f~ |[صَاحِبَات]{.ar} |^2^[صَوَاحِب]{.ar}
+|[جَارِيَة]{.ar} | a girl         |[جَارِيَات]{.ar} |^2^[جَوَارٍ]{.ar}
+|[حَدِيقَة]{.ar} | a garden       |[جَدِيقَات]{.ar} |^2^[حَدَائِق]{.ar}
 
 We will treat the [Un]{.trn} and [At]{.trn} sound plurals separately.
 
@@ -5325,9 +5336,9 @@ can form the [At]{.trn} sound plural.
 
 There are some nouns that are excepted from this statement. These nouns only have broken plurals and don't form sound plurals. For female intelligent beings, these nouns are:
 
-+ Adjectival nouns of the pattern [فَعْلَاء^2^]{.ar} which is the feminine of the masculine adjectival noun pattern [أَفْعَل^2^]{.ar}. For example, [حور]{.arroot} [حَوْرَاء]{.ar} [HawrAE]{.trn} "a beautiful eyed one~f~" uses the broken plural [حُور]{.ar} [HUr]{.trn}
++ Adjectival nouns of the pattern ^2^[فَعْلَاء]{.ar} which is the feminine of the masculine adjectival noun pattern ^2^[أَفْعَل]{.ar}. For example, [حور]{.arroot} [حَوْرَاء]{.ar} [HawrAE]{.trn} "a beautiful eyed one~f~" uses the broken plural [حُور]{.ar} [HUr]{.trn}
 
-+ Adjectival nouns of the pattern [فَعْلَىٰ^2^]{.ar} which is the feminine of the masculine adjectival noun pattern [فَعْلَان^2^]{.ar}. For example, [غضب]{.arroot} [غَضْبَىٰ]{.ar} [gaDbA]{.trn} "very angry~f~" uses the broken plural [غِضَاب]{.ar} [giDAb]{.trn}.
++ Adjectival nouns of the pattern ^2^[فَعْلَىٰ]{.ar} which is the feminine of the masculine adjectival noun pattern ^2^[فَعْلَان]{.ar}. For example, [غضب]{.arroot} [غَضْبَىٰ]{.ar} [gaDbA]{.trn} "very angry~f~" uses the broken plural [غِضَاب]{.ar} [giDAb]{.trn}.
 
 + The following exceptional nouns:
 
@@ -5353,15 +5364,15 @@ The following are excepted from this general statement:
 
 + Broken plurals of the patterns:
  
-  + [فَوَاعِل^2^]{.ar} [fawAeil^2^]{.trn}
-  + [فَعَائِل^2^]{.ar} [faeAEil^2^]{.trn}
+  + ^2^[فَوَاعِل]{.ar} [fawAeil]{.trn}^2^
+  + ^2^[فَعَائِل]{.ar} [faeAEil]{.trn}^2^
 
-  These broken plural patterns are, in fact, predominantly used for female intelligent beings and non-intelligent beings, and only rarely for male intelligent beings. So the broken plural [جَوَارٍ^2^]{.ar} "girls" may be used freely as the plural of [جَارِيَة]{.ar} "a girl" and is not preferred over by [جَارِيَات]{.ar}. Similarly, [صَوَاحِب^2^]{.ar} may freely be used as the plural of [صَاحِبَة]{.ar}.
+  These broken plural patterns are, in fact, predominantly used for female intelligent beings and non-intelligent beings, and only rarely for male intelligent beings. So the broken plural ^2^[جَوَارٍ]{.ar} "girls" may be used freely as the plural of [جَارِيَة]{.ar} "a girl" and is not preferred over by [جَارِيَات]{.ar}. Similarly, ^2^[صَوَاحِب]{.ar} may freely be used as the plural of [صَاحِبَة]{.ar}.
 
   Only a few nouns denoting male intelligent beings have broken plurals on these patterns, like:
 
-  + [فَارِس]{.ar} "a horseman", plural: [فَوَارِس^2^]{.ar}
-  + [خَلِيفَة]{.ar} "a successor", plural: [خَلَائِف^2^]{.ar}
+  + [فَارِس]{.ar} "a horseman", plural: ^2^[فَوَارِس]{.ar}
+  + [خَلِيفَة]{.ar} "a successor", plural: ^2^[خَلَائِف]{.ar}
 
 In conclusion, with the general preference of using the [At]{.trn} sound plural over the broken plural for female intelligent beings, you will find that [نِسَاء]{.ar} [nisAE]{.trn} "women" is the only widely found broken plural for female intelligent beings in normal usage.
 
@@ -5369,7 +5380,7 @@ In conclusion, with the general preference of using the [At]{.trn} sound plural 
 
 For non-intelligent beings, the broken plural is preferred for use over [At]{.trn} sound plurals.
 
-So, for example, [حَدَائِق^2^]{.ar} [HadAEiq^2^]{.trn} is preferred over [حَدِيقَات]{.ar} [HadIqAt]{.trn} as the plural of [حَدِيقَة]{.ar}, though both are correct. 
+So, for example, ^2^[حَدَائِق]{.ar} [HadAEiq]{.trn}^2^ is preferred over [حَدِيقَات]{.ar} [HadIqAt]{.trn} as the plural of [حَدِيقَة]{.ar}, though both are correct. 
 
 ## Usage of plurals of intelligent beings
 
@@ -5533,7 +5544,7 @@ Plurals of inanimate objects and animals (both male and female) are treated the 
 [فِي ٱلصُّنْدُوقُ أَشْيَاءُ عَجِيبَةٌ.]{.ar}  
 [فِي ٱلصُّنْدُوقُ أَشْيَاءُ عَجِيبَاتٌ.]{.ar}  
 "In the box are wonderful things."  
-(Note how [أَشْيَاء^2^]{.ar} is indefinite but has no [n]{.trn}-mark. This is because it is irregularly semi-flexible.)
+(Note how ^2^[أَشْيَاء]{.ar} is indefinite but has no [n]{.trn}-mark. This is because it is irregularly semi-flexible.)
 
 By the way, this rule only applies to adjectival nouns in the describee or the information. A common noun in the describer or information will continue match the describee or subject in gender and number.
 
@@ -5993,7 +6004,7 @@ or
 Remember that semi-flexible nouns don't take [n]{.trn}-marks and that when indefinite, the i-state is indicated by an [a]{.trn}-mark [◌َ]{.ar}. 
 But when definite with [ٱَلْ]{.ar} then they behave just like fully-flexible nouns.
 Example of the semi-flexible noun 
-[صَحْرَاء^2^]{.ar} "a desert":
+^2^[صَحْرَاء]{.ar} "a desert":
 
 State  | Indefinite | Definite
 :------|:-----------|:---------
@@ -6005,7 +6016,7 @@ We will now see how semi-flexible nouns behave in an annexation.
 
 ### A semi-flexible noun as the base noun
 
-Here are examples of the semi-flexible noun [صَحْرَاء^2^]{.ar} "a desert" as the base noun in an annexation:
+Here are examples of the semi-flexible noun ^2^[صَحْرَاء]{.ar} "a desert" as the base noun in an annexation:
 
 [ٱَلْقَرْيَةُ فِي وَسَطِ ٱلصَّحْرَاءِ.]{.ar}  
 "The village is in the middle of the desert."
@@ -6014,7 +6025,7 @@ Here are examples of the semi-flexible noun [صَحْرَاء^2^]{.ar} "a desert
 "The bedouin drank some water from a desert's well."
 
 As you can see, when 
-[صَحْرَاء^2^]{.ar}
+^2^[صَحْرَاء]{.ar}
 is definite, then its i-state is indicate by an [i]{.trn}-mark [◌ِ]{.ar}, just like fully-flexible nouns. 
 However, when it is indefinite, then 
 its i-state is indicate by an [a]{.trn}-mark [◌َ]{.ar}.
@@ -6029,7 +6040,7 @@ Contrary from expected behavior, a semi-flexible annexe noun, even when indefini
 "The bedouin came from the desert of a far land."
 
 In the above example,
-[صَحْرَاء^2^]{.ar} "a desert" is indefinite because it is the annexe noun to an indefinite base noun [أَرْض]{.ar} "a land". 
+^2^[صَحْرَاء]{.ar} "a desert" is indefinite because it is the annexe noun to an indefinite base noun [أَرْض]{.ar} "a land". 
 It is in the i-state because it is preceded by the preposition [مِنْ]{.ar} "from". 
 Nevertheless, it takes an [i]{.trn}-mark [مِنْ صَحْرَاءِ أَرْضٍ]{.ar}, not an [a]{.trn}-mark, which would be incorrect: $\times$\ [مِنْ صَحْرَاءَ أَرْضٍ]{.ar}.
 
@@ -6119,12 +6130,12 @@ Here are some more examples of annexing to the different attached pronouns:
 [هُوَ إِمَامُ مَسْجِدِنَا.]{.ar}  
 "He is the [E#imAm]{.trn2} of our mosque."
 
-If the annexe noun is semi-flexible then it gets a [◌ِ]{.ar} in the i-state, as we've already learned. Example with the semi-flexible broken plural [حَدَائِق^2^]{.ar} "gardens".
+If the annexe noun is semi-flexible then it gets a [◌ِ]{.ar} in the i-state, as we've already learned. Example with the semi-flexible broken plural ^2^[حَدَائِق]{.ar} "gardens".
 
 [لَعِبْنَ فِي حَدَائِقِهِنَّ.]{.ar}  
 "They~3,f~ played in their~3,f~ gardens."
 
-If an annexe noun ends with [ىٰ]{.ar} then it gets converted to an [Ealif]{.trn} when annexing it to an attached pronoun. Example with [فَتَاوَىٰ^2^]{.ar} "legal opinions":
+If an annexe noun ends with [ىٰ]{.ar} then it gets converted to an [Ealif]{.trn} when annexing it to an attached pronoun. Example with ^2^[فَتَاوَىٰ]{.ar} "legal opinions":
 
 [كَتَبَ تَلَامِذَةُ ٱلشَّيْخِ فَتَاوَاهُ فِي كُتُبِهِمْ.]{.ar}  
 "The pupils of the religious scholar wrote down his legal opinions in their books."
@@ -6145,7 +6156,7 @@ The first ([ي]{.ar} [-I]{.trn}) is more commonly used. Example:
 If, however, the annexe noun ends in a long vowel or a semi-vowel then 
 ([ي]{.ar} [-I]{.trn}) is disallowed and only
 ([يَ]{.ar} [-ya]{.trn}) shall be used. 
-Example with the semi-flexible broken plural [هَدَايَا^2^]{.ar} "gifts":
+Example with the semi-flexible broken plural ^2^[هَدَايَا]{.ar} "gifts":
 
 [أَعْجَبَتْهُمْ هَدَايَايَ.]{.ar}  
 "My gifts pleased them."
@@ -7210,30 +7221,30 @@ Proper nouns are also known as names. Here are some examples of Arabic names:
 
 | Men's |names | Women's |names |
 |--:|:---|--:|:---|
-|[مُحَمَّد]{.ar}         |[#muHammad]{.trn2}      | [عَائِشَة^2^]{.ar}     |[#eAEicah]{.trn2} |
-|[سَعِيد]{.ar}         |[#saeId]{.trn2}         | [فَاطِمَة^2^]{.ar}     |[#faTimah]{.trn2} |
-|[ٱَلْحَسَن]{.ar}        |[al-#Hasan]{.trn2}      | [حَفْصَة^2^]{.ar}      |[#HafSah]{.trn2} |
-|[ٱَلنُّعْمَان]{.ar}      |[al-#nuemAn]{.trn2}     | [سُمَيَّة^2^]{.ar}      |[#sumayyah]{.trn2} |
-|[طَلْحَة^2^]{.ar}      |[#TalHah]{.trn2}        | [جَمِيلَة^2^]{.ar}     |[#jamIlah]{.trn2} |
-|[أُسَامَة^2^]{.ar}     |[#usAmah]{.trn2}        | [زَيْنَب^2^]{.ar}      |[#zaynab]{.trn2} |
-|[عُثْمَان^2^]{.ar}     |[#euvmAn]{.trn2}        | [مَرْيَم^2^]{.ar}      |[#maryam]{.trn2} |
-|[عُمَر^2^]{.ar}       |[#eumar]{.trn2}         | [سُعَاد^2^]{.ar}      |[#sueAd]{.trn2} |
-|[إِبْرَاهِيم^2^]{.ar}   |[#ibrAhIm]{.trn2}       | [أَسْمَاء^2^]{.ar}     |[#asmAE]{.trn2} |
-|[عَبْد ٱللَّـٰه]{.ar}    |[#eabd #allAh]{.trn2}   | [لَيْلَىٰ^2^]{.ar}      |[#laylA]{.trn2} |
-|[أَبُو بَكْر]{.ar}      |[#abU #bakr]{.trn2}     | [أُمّ حَبِيبَة^2^]{.ar}  |[#umm #HabIbah]{.trn2} |
+|[مُحَمَّد]{.ar}         |[#muHammad]{.trn2}      | ^2^[عَائِشَة]{.ar}     |[#eAEicah]{.trn2} |
+|[سَعِيد]{.ar}         |[#saeId]{.trn2}         | ^2^[فَاطِمَة]{.ar}     |[#faTimah]{.trn2} |
+|[ٱَلْحَسَن]{.ar}        |[al-#Hasan]{.trn2}      | ^2^[حَفْصَة]{.ar}      |[#HafSah]{.trn2} |
+|[ٱَلنُّعْمَان]{.ar}      |[al-#nuemAn]{.trn2}     | ^2^[سُمَيَّة]{.ar}      |[#sumayyah]{.trn2} |
+|^2^[طَلْحَة]{.ar}      |[#TalHah]{.trn2}        | ^2^[جَمِيلَة]{.ar}     |[#jamIlah]{.trn2} |
+|^2^[أُسَامَة]{.ar}     |[#usAmah]{.trn2}        | ^2^[زَيْنَب]{.ar}      |[#zaynab]{.trn2} |
+|^2^[عُثْمَان]{.ar}     |[#euvmAn]{.trn2}        | ^2^[مَرْيَم]{.ar}      |[#maryam]{.trn2} |
+|^2^[عُمَر]{.ar}       |[#eumar]{.trn2}         | ^2^[سُعَاد]{.ar}      |[#sueAd]{.trn2} |
+|^2^[إِبْرَاهِيم]{.ar}   |[#ibrAhIm]{.trn2}       | ^2^[أَسْمَاء]{.ar}     |[#asmAE]{.trn2} |
+|[عَبْد ٱللَّـٰه]{.ar}    |[#eabd #allAh]{.trn2}   | ^2^[لَيْلَىٰ]{.ar}      |[#laylA]{.trn2} |
+|[أَبُو بَكْر]{.ar}      |[#abU #bakr]{.trn2}     | ^2^[أُمّ حَبِيبَة]{.ar}  |[#umm #HabIbah]{.trn2} |
 
 | Place |names | Misc. |names |
 |-:|:--|-:|:---|
-|[مَكَّة^2^]{.ar}   |Mecca     |[رَمَضَان^2^]{.ar} |[#ramadAn]{.trn2} (a month) |
-|[دِمَشْق^2^]{.ar}  |Damascus  |[أُحُد]{.ar}      |[#uHud]{.trn2} (a mountain)    |
-|[مِصْر^2^]{.ar}   |Egypt     |[ٱَلنِّيل]{.ar}    |the Nile (a river)             |
+|^2^[مَكَّة]{.ar}   |Mecca     |^2^[رَمَضَان]{.ar} |[#ramadAn]{.trn2} (a month) |
+|^2^[دِمَشْق]{.ar}  |Damascus  |[أُحُد]{.ar}      |[#uHud]{.trn2} (a mountain)    |
+|^2^[مِصْر]{.ar}   |Egypt     |[ٱَلنِّيل]{.ar}    |the Nile (a river)             |
 |[ٱَلْقَاهِرَة]{.ar}  |Cairo     |[ٱَلْفَاتِحَة]{.ar}  |the [#fAtiHah]{.trn2} (a [sUrah]{.trn2}) |
 |[ٱَلْهِنْد]{.ar}    |India     |[ٱَلْجُمُعَة]{.ar}   |Friday                  |
 
 Note the following points from the list abobe:
 
 + Although some names begin with [ٱَلْ]{.ar}, most don't.
-+ Many names are semi-flexible (indicated by [◌^2^]{.ar}).
++ Many names are semi-flexible (indicated by ^2^[◌]{.ar}).
 + Some names consist of more than a single word, like [عَبْد ٱللَّـٰه]{.ar}    [#eabd #allAh]{.trn2}
 
 We will explain these and more details regarding proper nouns in this chapter.
@@ -7382,19 +7393,19 @@ Most such proper nouns are feminine names. Examples:
 
 |||||
 |--:|:---|--:|:---|
-|[خَدِيجَة^2^]{.ar}     |[#xadIjah]{.trn2}   |[مَيْمُونَة^2^]{.ar}    |[#maymUnah ]{.trn2} |
-|[فَاطِمَة^2^]{.ar}     |[#faTimah]{.trn2}   |[صَفِيَّة^2^]{.ar}      |[#Safiyyah]{.trn2}  |
-|[عَائِشَة^2^]{.ar}     |[#eAEicah]{.trn2}   |[خَوْلَة^2^]{.ar}      |[#xawlah]{.trn2}    |
-|[سُمَيَّة^2^]{.ar}      |[#sumayyah]{.trn2}  |[جَمِيلَة^2^]{.ar}     |[#jamIlah]{.trn2}   |
-|[حَفْصَة^2^]{.ar}      |[#HafSah]{.trn2}    |[آسِيَة^2^]{.ar}      |[#Asiyah]{.trn2}    |
+|^2^[خَدِيجَة]{.ar}     |[#xadIjah]{.trn2}   |^2^[مَيْمُونَة]{.ar}    |[#maymUnah ]{.trn2} |
+|^2^[فَاطِمَة]{.ar}     |[#faTimah]{.trn2}   |^2^[صَفِيَّة]{.ar}      |[#Safiyyah]{.trn2}  |
+|^2^[عَائِشَة]{.ar}     |[#eAEicah]{.trn2}   |^2^[خَوْلَة]{.ar}      |[#xawlah]{.trn2}    |
+|^2^[سُمَيَّة]{.ar}      |[#sumayyah]{.trn2}  |^2^[جَمِيلَة]{.ar}     |[#jamIlah]{.trn2}   |
+|^2^[حَفْصَة]{.ar}      |[#HafSah]{.trn2}    |^2^[آسِيَة]{.ar}      |[#Asiyah]{.trn2}    |
 
 However, some masculine names may end with [ة]{.ar} too:
 
 |||||
 |--:|:---|--:|:---|
-|[حَمْزَة^2^]{.ar}     |[#Hamzah]{.trn2}   |[مُعَاوِيَة^2^]{.ar}   |[#mueAwiyah ]{.trn2}|
-|[أُسَامَة^2^]{.ar}    |[#usAmah]{.trn2}   |[عِكْرِمَة^2^]{.ar}    |[#eikrimah ]{.trn2} |
-|[طَلْحَة^2^]{.ar}     |[#TalHah]{.trn2}   |[عُبَادَة^2^]{.ar}    |[#eubAdah]{.trn2}   |
+|^2^[حَمْزَة]{.ar}     |[#Hamzah]{.trn2}   |^2^[مُعَاوِيَة]{.ar}   |[#mueAwiyah ]{.trn2}|
+|^2^[أُسَامَة]{.ar}    |[#usAmah]{.trn2}   |^2^[عِكْرِمَة]{.ar}    |[#eikrimah ]{.trn2} |
+|^2^[طَلْحَة]{.ar}     |[#TalHah]{.trn2}   |^2^[عُبَادَة]{.ar}    |[#eubAdah]{.trn2}   |
 
 Example:
 
@@ -7407,8 +7418,8 @@ Similar to common nouns and adjectival nouns, all names ending with an extrinsic
 
 |||||
 |--:|:---|--:|:---|
-| [أَسْمَاء^2^]{.ar}     |[#asmAE]{.trn2}  | [لَيْلَىٰ^2^]{.ar}      |[#laylA]{.trn2} |
-| [دَرْدَاء^2^]{.ar}     |[#dardAE]{.trn2} | [سَلْمَىٰ^2^]{.ar}      |[#salmA]{.trn2} |
+| ^2^[أَسْمَاء]{.ar}     |[#asmAE]{.trn2}  | ^2^[لَيْلَىٰ]{.ar}      |[#laylA]{.trn2} |
+| ^2^[دَرْدَاء]{.ar}     |[#dardAE]{.trn2} | ^2^[سَلْمَىٰ]{.ar}      |[#salmA]{.trn2} |
 
 Examples in sentences:
 
@@ -7437,8 +7448,8 @@ Examples:
 
 |||||
 |--:|:---|--:|:---|
-|[عُثْمَان^2^]{.ar}     |[#euvmAn]{.trn2}  |[رَمَضَان^2^]{.ar}     |[#ramaDAn]{.trn2} |
-|[سُفْيَان^2^]{.ar}     |[#sufyAn]{.trn2}  |[شَعْبَان^2^]{.ar}     |[#caebAn]{.trn2}  |
+|^2^[عُثْمَان]{.ar}     |[#euvmAn]{.trn2}  |^2^[رَمَضَان]{.ar}     |[#ramaDAn]{.trn2} |
+|^2^[سُفْيَان]{.ar}     |[#sufyAn]{.trn2}  |^2^[شَعْبَان]{.ar}     |[#caebAn]{.trn2}  |
 
 Example:
 
@@ -7451,7 +7462,7 @@ All names on the pattern [أَفْعَل]{.ar} shall be semi-flexible. Examples:
 
 |||||
 |--:|:---|--:|:---|
-|[أَحْمَد^2^]{.ar}     |[#aHmad]{.trn2}  |[أَسْعَد^2^]{.ar}     |[#asead]{.trn2} |
+|^2^[أَحْمَد]{.ar}     |[#aHmad]{.trn2}  |^2^[أَسْعَد]{.ar}     |[#asead]{.trn2} |
 
 #### Names of the pattern [فُعَل]{.ar}
 
@@ -7459,7 +7470,7 @@ Names of the pattern [فُعَل]{.ar} shall be semi-flexible. Examples:
 
 |||||
 |--:|:---|--:|:---|
-|[عُمَر^2^]{.ar}  |[#eumar]{.trn2} |[مُضَر^2^]{.ar}     |[#muDar]{.trn2} |
+|^2^[عُمَر]{.ar}  |[#eumar]{.trn2} |^2^[مُضَر]{.ar}     |[#muDar]{.trn2} |
 
 Interestingly, the fully-flexible name [#eamr]{.trn2} is written with a silent [و]{.ar} at its end: [عَمْرو]{.ar} when in the u- and i-states in order to distinguish it from the more common name [#eumar]{.trn2}. Otherwise, both names would appear identical when written without vowel marks, thus: [عمر]{.ar}.
 
@@ -7472,8 +7483,8 @@ Name|u-state|a-state|i-state
 
 Names that are originally verbs are semi-flexible. Examples:
 
-+ [يَزِيد^2^]{.ar} [#yazId]{.trn2} "He increases"
-+ [يَعِيش^2^]{.ar} [#yaeIc]{.trn2} "He lives"
++ ^2^[يَزِيد]{.ar} [#yazId]{.trn2} "He increases"
++ ^2^[يَعِيش]{.ar} [#yaeIc]{.trn2} "He lives"
 
 Their origin as verbs will be apparent when we study incomplete-action verbs.
 
@@ -7483,21 +7494,21 @@ Names of foreign origin are generally semi-flexible. These include the names of 
 
 |||||
 |--:|:---|--:|:---|
-|[جِبْرِيل^2^]{.ar}    |[#jibrIl]{.trn2}  |[زَكَرِيَّا^2^]{.ar}    |[#zakariyyA]{.trn2}|
-|[إِبْرَاهِيم^2^]{.ar}  |[#ibrAhIm]{.trn2} |[يَحْيَىٰ^2^]{.ar}     |[#yaHyA]{.trn2}    |
-|[إِسْمَاعِيل^2^]{.ar}  |[#ismAeIl]{.trn2} |[هَاجَر^2^]{.ar}     |[#hAjar]{.trn2}    |
-|[إِسْحَاق^2^]{.ar}    |[#isHAq]{.trn2}   |[مَرْيَم^2^]{.ar}     |[#maryam]{.trn2}   |
-|[يَعْقُوب^2^]{.ar}    |[#yaeqUb]{.trn2}  |[يَأْجُوج^2^]{.ar}    |[#yaEjUj]{.trn2}   |
-|[يُوسُف^2^]{.ar}     |[#yUsuf]{.trn2}   |[مَأْجُوج^2^]{.ar}    |[#maEjUj]{.trn2}   |
-|[يُونُس^2^]{.ar}     |[#yUnus]{.trn2}   |[إِبْلِيس^2^]{.ar}    |[#iblIs]{.trn2}    |
-|[إِدْرِيس^2^]{.ar}    |[#idrIs]{.trn2}   |[فِرْعَون^2^]{.ar}    |Pharoah            |
-|[أَيُّوب^2^]{.ar}     |[#ayyUb]{.trn2}   |[هِرْقَل^2^]{.ar}     |Heraclius          |
-|[مُوسَىٰ^2^]{.ar}     |[#mUsA]{.trn2}    |[كِسْرَىٰ^2^]{.ar}     |Chosroes           |
-|[عِيسَىٰ^2^]{.ar}     |[#eIsA]{.trn2}    |[قَيْصَر^2^]{.ar}     |Caesar             |
+|^2^[جِبْرِيل]{.ar}    |[#jibrIl]{.trn2}  |^2^[زَكَرِيَّا]{.ar}    |[#zakariyyA]{.trn2}|
+|^2^[إِبْرَاهِيم]{.ar}  |[#ibrAhIm]{.trn2} |^2^[يَحْيَىٰ]{.ar}     |[#yaHyA]{.trn2}    |
+|^2^[إِسْمَاعِيل]{.ar}  |[#ismAeIl]{.trn2} |^2^[هَاجَر]{.ar}     |[#hAjar]{.trn2}    |
+|^2^[إِسْحَاق]{.ar}    |[#isHAq]{.trn2}   |^2^[مَرْيَم]{.ar}     |[#maryam]{.trn2}   |
+|^2^[يَعْقُوب]{.ar}    |[#yaeqUb]{.trn2}  |^2^[يَأْجُوج]{.ar}    |[#yaEjUj]{.trn2}   |
+|^2^[يُوسُف]{.ar}     |[#yUsuf]{.trn2}   |^2^[مَأْجُوج]{.ar}    |[#maEjUj]{.trn2}   |
+|^2^[يُونُس]{.ar}     |[#yUnus]{.trn2}   |^2^[إِبْلِيس]{.ar}    |[#iblIs]{.trn2}    |
+|^2^[إِدْرِيس]{.ar}    |[#idrIs]{.trn2}   |^2^[فِرْعَون]{.ar}    |Pharoah            |
+|^2^[أَيُّوب]{.ar}     |[#ayyUb]{.trn2}   |^2^[هِرْقَل]{.ar}     |Heraclius          |
+|^2^[مُوسَىٰ]{.ar}     |[#mUsA]{.trn2}    |^2^[كِسْرَىٰ]{.ar}     |Chosroes           |
+|^2^[عِيسَىٰ]{.ar}     |[#eIsA]{.trn2}    |^2^[قَيْصَر]{.ar}     |Caesar             |
 
 Note that 
-[فِرْعَون^2^]{.ar} "Pharoah" 
-as [قَيْصَر^2^]{.ar}     "Caesar",
+^2^[فِرْعَون]{.ar} "Pharoah" 
+as ^2^[قَيْصَر]{.ar}     "Caesar",
 despite being titles,
 are treated as proper names.
 
@@ -7511,8 +7522,8 @@ All feminine names, regardless of their origin, or their ending, shall be semi-f
 
 |||||
 |--:|:---|--:|:---|
-[زَيْنَب^2^]{.ar}      |[#zaynab]{.trn2} |[مَرْيَم^2^]{.ar}      |[#maryam]{.trn2} |
-[سُعَاد^2^]{.ar}      |[#sueAd]{.trn2}  |[هَاجَر^2^]{.ar}      |[#hAjar]{.trn2}  |
+^2^[زَيْنَب]{.ar}      |[#zaynab]{.trn2} |^2^[مَرْيَم]{.ar}      |[#maryam]{.trn2} |
+^2^[سُعَاد]{.ar}      |[#sueAd]{.trn2}  |^2^[هَاجَر]{.ar}      |[#hAjar]{.trn2}  |
 
 The only exception to this rule is a feminine name of native Arabic origin, that comprises of only three letters, and whose middle letter has an $\emptyset$-mark. Such a name is permitted to be optionally fully-flexible or semi-flexible. Examples:
 
@@ -7533,7 +7544,7 @@ The fully-flexible name [فُلَان]{.ar} is used as a place-holder name in ca
 [ظَلَمَ ٱلرَّجُلُ فُلَانًا وَغَدَرَ بِفُلَانٍ.]{.ar}
 "The man wronged so-and-so and he acted treacherously with so-and-so."
 
-For females, the name [فُلَانَة^2^]{.ar} is used.
+For females, the name ^2^[فُلَانَة]{.ar} is used.
 
 [صَدَقَتْ فُلَانَةُ.]{.ar}  
 "So-and-so~f~ told the truth."
@@ -7595,18 +7606,18 @@ While using the name of first-born son is more common, a daughter's name could b
 Women, too, are similarly called as the mother of one of their children. For example, 
 the wife of the Prophet
 (may [#allAh]{.trn2} grant peace and confer blessing upon him)
-[أُمّ حَبِيبَة^2^]{.ar} [#umm #HabIbah]{.trn2}
+^2^[أُمّ حَبِيبَة]{.ar} [#umm #HabIbah]{.trn2}
 was called thus because she had a daughter named
-[حَبِيبَة^2^]{.ar}
+^2^[حَبِيبَة]{.ar}
 from a previous marriage.
-<!--a woman with a daughter named [حَبِيبَة^2^]{.ar} could be called [أُمّ حَبِيبَة^2^]{.ar} [#umm #HabIbah]{.trn2}.-->
+<!--a woman with a daughter named ^2^[حَبِيبَة]{.ar} could be called ^2^[أُمّ حَبِيبَة]{.ar} [#umm #HabIbah]{.trn2}.-->
 
 By the way, a person need not literally be a father or a mother to be called in such a way. These names may be applied as nicknames.
 
 For example, the Companion of the Prophet
 (may [#allAh]{.trn2} grant peace and confer blessing upon him)
 was called
-[أَبُو هُرَيرَة^2^]{.ar} 
+^2^[أَبُو هُرَيرَة]{.ar} 
 [#abU #hurayrah]{.trn2}
 because it is reported that he used to have a pet kitten ([هُرَيْرَة]{.ar}). Here is an example of this name in a sentence.
 
@@ -7619,22 +7630,22 @@ Similarly, the Companion [أَبُو بَكْرٍ]{.ar} [#abU #bakr]{.trn2} is n
 It is often the case that a "parent of" name overtakes the actual given name of person in popularity, and becomes the person's name for all intents and purposes. Such is indeed the case for the Companions 
 [أَبُو بَكْرٍ]{.ar} [#abU #bakr]{.trn2}
 and
-[أَبُو هُرَيرَة^2^]{.ar} 
+^2^[أَبُو هُرَيرَة]{.ar} 
 [#abU #hurayrah]{.trn2}.
 
 ### "Son of" names
 
-In a manner similar to "parent of" names, a person may be referred to as the son of his parent. For example, the Companion [عُمَر^2^]{.ar} [#eumar]{.trn2} had a son named 
-[عَبْد ٱللَّـٰه]{.ar} [#eabd #allAh]{.trn2}. He is commonly known as [ٱِبْن عُمَر^2^]{.ar} [#ibn #eumar]{.trn2} "[#eumar]{.trn2}'s son".
+In a manner similar to "parent of" names, a person may be referred to as the son of his parent. For example, the Companion ^2^[عُمَر]{.ar} [#eumar]{.trn2} had a son named 
+[عَبْد ٱللَّـٰه]{.ar} [#eabd #allAh]{.trn2}. He is commonly known as ^2^[ٱِبْن عُمَر]{.ar} [#ibn #eumar]{.trn2} "[#eumar]{.trn2}'s son".
 
 Attributing a son to his father is most common. But attributing him to a mother or other ancestor is also possible.
 
 Examples:
 
-+ the Companion [عَمَّار]{.ar} was affectionately called [ٱِبْن سُمَيَّة^2^]{.ar} [#ibn #sumayyah]{.trn2} "[#sumayyah]{.trn2}'s son" by the Prophet
++ the Companion [عَمَّار]{.ar} was affectionately called ^2^[ٱِبْن سُمَيَّة]{.ar} [#ibn #sumayyah]{.trn2} "[#sumayyah]{.trn2}'s son" by the Prophet
 (may [#allAh]{.trn2} grant peace and confer blessing upon him). His mother [#sumayyah]{.trn2} was an early martyr in [#islAm]{.trn2}.
 + the famous scholar [ٱِبْن كَثِير]{.ar} [#ibn #kavIr]{.trn2} is referred to by his grandfather's name [كَثِير]{.ar} [#kavIr]{.trn2}.
-+ a human being is called [ٱِبْن آدَم^2^]{.ar} based on his being a descendent of the first man, the Prophet [#adam]{.trn2}.
++ a human being is called ^2^[ٱِبْن آدَم]{.ar} based on his being a descendent of the first man, the Prophet [#adam]{.trn2}.
 
 #### Full names
 
@@ -7718,7 +7729,7 @@ Conversely, names that don't begin with [ٱَلْ]{.ar} can sometimes gain it.
 
 Examples:
 
-+ The name of the daughter of the Companion [أَبُو ٱلدَّرْدَاء]{.ar} [#abu l-#dardAE]{.trn2} is actually [دَرْدَاء^2^]{.ar} [#dardAE]{.trn2}, not [ٱَلدَّرْدَاء]{.ar}.
++ The name of the daughter of the Companion [أَبُو ٱلدَّرْدَاء]{.ar} [#abu l-#dardAE]{.trn2} is actually ^2^[دَرْدَاء]{.ar} [#dardAE]{.trn2}, not [ٱَلدَّرْدَاء]{.ar}.
 
 + The son of the uncle of the Prophet
 (may [#allAh]{.trn2} grant peace and confer blessing upon him)
@@ -7740,12 +7751,12 @@ Examples of place names are:
 
 |||||
 |--:|:---|--:|:---|
-|[مَكَّة^2^]{.ar}    |Mecca             |[ٱَلْمَدِينَة]{.ar}   |Medina|
-|[دِمَشْق^2^]{.ar}   |Damascus          |[ٱَلْقَاهِرَة]{.ar}   |Cairo |
-|[بَغْدَاد^2^]{.ar}  |[#bagdAd]{.trn2}  |[ٱَلْهِنْد]{.ar}     |India |
-|[مِصْر^2^]{.ar}    |Egypt             |[ٱَلصِّين]{.ar}     |China |
-|[فَارِس^2^]{.ar}   |Persia            |[ٱَلرُّوم]{.ar}     |Rome  |
-|[تَبُوك^2^]{.ar}   |[#tabUk]{.trn2}   |[ٱَلْبَصْرَة]{.ar}    |[#baSrah]{.trn2}|
+|^2^[مَكَّة]{.ar}    |Mecca             |[ٱَلْمَدِينَة]{.ar}   |Medina|
+|^2^[دِمَشْق]{.ar}   |Damascus          |[ٱَلْقَاهِرَة]{.ar}   |Cairo |
+|^2^[بَغْدَاد]{.ar}  |[#bagdAd]{.trn2}  |[ٱَلْهِنْد]{.ar}     |India |
+|^2^[مِصْر]{.ar}    |Egypt             |[ٱَلصِّين]{.ar}     |China |
+|^2^[فَارِس]{.ar}   |Persia            |[ٱَلرُّوم]{.ar}     |Rome  |
+|^2^[تَبُوك]{.ar}   |[#tabUk]{.trn2}   |[ٱَلْبَصْرَة]{.ar}    |[#baSrah]{.trn2}|
 
 Example of use:
 
@@ -7767,14 +7778,14 @@ Here are examples of names of tribes:
 |--:|:---|--:|:---|
 |[قُرَيش]{.ar}           | [#qurayc]{.trn2}      |[ٱَلْأَوْس]{.ar}          | [al-#aws]{.trn2}        |
 |[بَنُو تَمِيم]{.ar}       | [#banU #tamIm]{.trn2} |[ٱَلْخَزْرَج]{.ar}         | [al-#xazraj]{.trn2}     |
-|[هَوَازِن^2^]{.ar}       | [#hawAzin]{.trn2}     |[بَنُو إِسْرَائِيل^2^]{.ar} | [#banU #isrAEIl]{.trn2} |
+|^2^[هَوَازِن]{.ar}       | [#hawAzin]{.trn2}     |^2^[بَنُو إِسْرَائِيل]{.ar} | [#banU #isrAEIl]{.trn2} |
 
-Tribes are usually called by the name of their progenitor. For example, [إِسْرَائِيل^2^]{.ar} [#isrAEIl]{.trn2} is a name of the Prophet [يَعْقُوب^2^]{.ar} [#yaeqUb]{.trn2}. 
+Tribes are usually called by the name of their progenitor. For example, ^2^[إِسْرَائِيل]{.ar} [#isrAEIl]{.trn2} is a name of the Prophet ^2^[يَعْقُوب]{.ar} [#yaeqUb]{.trn2}. 
 The [Un]{.trn} sound plural [بَنُونَ]{.ar} "sons/children" is annexed to the name 
-[إِسْرَائِيل^2^]{.ar} [#isrAEIl]{.trn2}
+^2^[إِسْرَائِيل]{.ar} [#isrAEIl]{.trn2}
 to get the name of the tribe
-[بَنُو إِسْرَائِيل^2^]{.ar} [#banU #isrAEIl]{.trn2} "the children of [#isrAEIl]{.trn2}". In the a- and i-states, this becomes
-[بَنِي إِسْرَائِيل^2^]{.ar} [#banI #isrAEIl]{.trn2}.
+^2^[بَنُو إِسْرَائِيل]{.ar} [#banU #isrAEIl]{.trn2} "the children of [#isrAEIl]{.trn2}". In the a- and i-states, this becomes
+^2^[بَنِي إِسْرَائِيل]{.ar} [#banI #isrAEIl]{.trn2}.
 
 Not all tribe names have [بَنُونَ]{.ar} "sons" annexed to them, but many do. And often it is optional to keep or drop the annexed [بَنُونَ]{.ar}. Examples:
 
@@ -7785,7 +7796,7 @@ Not all tribe names have [بَنُونَ]{.ar} "sons" annexed to them, but many 
 
 The flexibility of tribe names depends on the name. Here are some examples:
 
-+ [إِسْرَائِيل^2^]{.ar} [#isrAEIl]{.trn2} is a name of foreign origin and is therefore semi-flexible. Example:
++ ^2^[إِسْرَائِيل]{.ar} [#isrAEIl]{.trn2} is a name of foreign origin and is therefore semi-flexible. Example:
 
   [بَعَثَ ٱللَّـٰهُ مُوسَىٰ إِلَىٰ بَنِي إِسْرَائِيلَ.]{.ar}  
   "[#allAh]{.trn2} sent [#mUsA]{.trn2} to the children of [#isrAEIl]{.trn2}."
@@ -7795,7 +7806,7 @@ The flexibility of tribe names depends on the name. Here are some examples:
   [قُرَيشٌ وَبَنُو تَمِيمٍ قَبِيلَتَانِ.]{.ar}  
   "[#qurayc]{.trn2}     and [#banU #tamIm]{.trn2} are tribes~2~."
 
-+ [هَوَازِن^2^]{.ar} [#hawAzin]{.trn2} is on the semi-flexible noun pattern [فَفَافِف^2^]{.ar} and is therefore semi-flexible.
++ ^2^[هَوَازِن]{.ar} [#hawAzin]{.trn2} is on the semi-flexible noun pattern ^2^[فَفَافِف]{.ar} and is therefore semi-flexible.
 
 ### Gender of tribe names
 
@@ -8283,7 +8294,7 @@ Remember that proper noun are definite nouns, even though they usually don't beg
 |||||
 |--:|:---|--:|:---|
 |[زَيْد]{.ar}     |Zayd   |[ٱَلْحَارِث]{.ar}  |[al-#HAriv]{.trn2}|
-|[زَيْنَب^2^]{.ar} |Zaynab |[قُرَيْش]{.ar}    |[#qurayc]{.trn2}  |
+|^2^[زَيْنَب]{.ar} |Zaynab |[قُرَيْش]{.ar}    |[#qurayc]{.trn2}  |
 
 Such names may also be part of a pointing noun phrase. 
 If they don't begin with [ٱَلْ]{.ar} then only the [pointed-to noun first, then pointing noun] order is permitted.
@@ -9437,8 +9448,8 @@ The doee verbal-noun almost always takes the sound plurals [-Un]{.trn} for mascu
 and the plural of the doee verbal-noun 
 [مَقْتُولَة]{.ar} [maqtUlah]{.trn} "a killed person~f.~" is [مَقْتُولَات]{.ar} [maqtUlAt]{.trn} "killed persons~f.~".
 
-There are a only a few doee verbal-nouns that, as an exception, have broken plurals. The broken plural for these exceptions is than always on the pattern [مَفَاعِيل^2^]{.ar} [mafAeIl^2^]{.trn}. For example, the doee verbal-noun for the verb
-[لَعَنَ يَلْعَنُ لَعْنًا]{.ar}  "to curse ([ه]{.ar} s.o.)" is [مَلْعُون]{.ar} [maleUn]{.trn} "accursed" and its plural is [مَلَاعِين^2^]{.ar} [malAeIn^2^]{.trn}.
+There are a only a few doee verbal-nouns that, as an exception, have broken plurals. The broken plural for these exceptions is than always on the pattern ^2^[مَفَاعِيل]{.ar} [mafAeIl]{.trn}^2^. For example, the doee verbal-noun for the verb
+[لَعَنَ يَلْعَنُ لَعْنًا]{.ar}  "to curse ([ه]{.ar} s.o.)" is [مَلْعُون]{.ar} [maleUn]{.trn} "accursed" and its plural is ^2^[مَلَاعِين]{.ar} [malAeIn]{.trn}^2^.
 
 ### Usage of the doee verbal-noun
 
@@ -9588,15 +9599,15 @@ When a doer verbal-noun is re-used as a common noun then only the broken plural,
 
 |Verb | Doer/doee verbal-noun | Plural | Common noun meaning|
 |:------|:-|:-|:--|
-|[عَلِمَ يَعْلَمُ عِلْمًا]{.ar} "to know ([هـ]{.ar} s.th.)" | [عَالِم]{.ar}  | [عُلَمَاء^2^]{.ar} | "a scholar"|
+|[عَلِمَ يَعْلَمُ عِلْمًا]{.ar} "to know ([هـ]{.ar} s.th.)" | [عَالِم]{.ar}  | ^2^[عُلَمَاء]{.ar} | "a scholar"|
 |[طَلَبَ يَطْلُبُ طَلَبًا]{.ar} "to seek ([هـ]{.ar} s.th.)" | [طَالِب]{.ar}  | [طُلَّاب، طَلَبَة]{.ar} | "a student"|
 |[لَعِبَ يَلْعَبُ لَعِبًا]{.ar} "to play ([هـ]{.ar} s.th.)" | [لَاعِب]{.ar}  | [لَاعِبُونَ]{.ar}  | "a player"|
 |[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} "to gather ([هـ]{.ar} s.th.)"| [جَامِعَة]{.ar}  | [جَامِعَات]{.ar}  | "a university" |
-|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} "to gather ([هـ]{.ar} s.th.)"| [جَامِع]{.ar}  | [جَوَامِع^2^]{.ar}  | "a mosque (in which the Friday prayers are performed)" |
-|[حَدَثَ يَحْدُثُ حُدُوثًا]{.ar} "to happen" | [حَادِثَةٌ]{.ar}  | [حَوَادِث^2^]{.ar}  | "an accident" |
-|[شَرِبَ يَشْرَبُ شُرْبًا]{.ar} "to drink ([هـ]{.ar} s.th.)" | [شَارِب]{.ar}  | [شَوَارِب^2^]{.ar}  | "a moustache" |
-|[سَحَلَ يَسْحَلُ سَحْلًا]{.ar} "to abrade ([هـ]{.ar} s.th.)" | [سَاحِلٌ]{.ar}  | [سَوَاحِل^2^]{.ar}  | "a seashore" |
-|[ضَمِنَ يَضْمَنُ ضَمَانًا]{.ar} "to guarantee ([هـ]{.ar} s.th.)" | [مَضْمُوxk]{.ar} | [مَضَامِين^2^]{.ar} | "a content (of a letter, etc.)"|
+|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} "to gather ([هـ]{.ar} s.th.)"| [جَامِع]{.ar}  | ^2^[جَوَامِع]{.ar}  | "a mosque (in which the Friday prayers are performed)" |
+|[حَدَثَ يَحْدُثُ حُدُوثًا]{.ar} "to happen" | [حَادِثَةٌ]{.ar}  | ^2^[حَوَادِث]{.ar}  | "an accident" |
+|[شَرِبَ يَشْرَبُ شُرْبًا]{.ar} "to drink ([هـ]{.ar} s.th.)" | [شَارِب]{.ar}  | ^2^[شَوَارِب]{.ar}  | "a moustache" |
+|[سَحَلَ يَسْحَلُ سَحْلًا]{.ar} "to abrade ([هـ]{.ar} s.th.)" | [سَاحِلٌ]{.ar}  | ^2^[سَوَاحِل]{.ar}  | "a seashore" |
+|[ضَمِنَ يَضْمَنُ ضَمَانًا]{.ar} "to guarantee ([هـ]{.ar} s.th.)" | [مَضْمُوxk]{.ar} | ^2^[مَضَامِين]{.ar} | "a content (of a letter, etc.)"|
 |[دَخَلَ يَدْخُلُ دُخُولًا]{.ar} "to enter" | [دَاخِل]{.ar} | none | "inside" |
 |[خَرَجَ يَخْرُجُ خُرُوجًا]{.ar} "to exit" | [خَارِج]{.ar} | none | "outside" |
 
@@ -9640,7 +9651,7 @@ once a doer or doee verbal-noun is re-used as a common noun, it loses its gender
 
 Having said this, when a doer verbal-noun is re-used as a common noun that applies to humans, both the masculine and feminine common-noun typically exist together. So for example,
 
-[عَالِم]{.ar} [eAlim]{.trn} is re-used as the common-noun for "a (male) scholar" with the plural [عُلَمَاء^2^]{.ar} [eulamAE]{.trn}. 
+[عَالِم]{.ar} [eAlim]{.trn} is re-used as the common-noun for "a (male) scholar" with the plural ^2^[عُلَمَاء]{.ar} [eulamAE]{.trn}. 
 And  
 [عَالِمَة]{.ar} [eAlimah]{.trn} is re-used as the common-noun for "a (female) scholar" with the plural [عَالِمَات]{.ar} [eAlimAt]{.trn}.
 
