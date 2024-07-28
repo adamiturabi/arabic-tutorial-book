@@ -134,7 +134,9 @@ Now add scaling to the Arabic font in `srctex/tikz2pdf-lua-html.tex`:
 
 \usetikzlibrary{matrix}
 \usepackage{arabluatex}
-\newfontfamily{\arabicfont}[Script=Arabic,Scale=1.2]{Vazirmatn-Light} % scale up Arabic font
+
+% scale up Arabic font, Also note that Arabic font is Regular, not Light which is used in the PDF
+\newfontfamily{\arabicfont}[Script=Arabic,Scale=1.2]{Vazirmatn-Regular}
 %\newfontfamily\arabicfont{Vazirmatn-Light}[Script=Arabic]
 
 \begin{document}
