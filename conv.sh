@@ -1,4 +1,4 @@
-# PNG images are too large. Convert them from the PDF images to a smaller size.
+# See notes/font_scaling_and_tikzpictures.md for a history behind this script.
 cd Learn-Standard-Arabic_files/figure-html/
 for FILE in *.pdf; do
   echo "${FILE%.*}"
