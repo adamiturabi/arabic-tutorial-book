@@ -51,9 +51,17 @@
 %\renewcommand{\thesection}{\S\oldthesection}
 
 % Fancy header
+
+% use this command from preface
+%\newcommand{\forcefancyhdr}[1]{\markboth {\textsc{\MakeLowercase{#1}}}{\textsc{\MakeLowercase{#1}}}}
+
 \renewcommand{\chaptermark}[1]{\markboth {\textsc{\MakeLowercase{\thechapter\ #1}}}{}}
 \renewcommand{\sectionmark}[1]{\markright{\textsc{\MakeLowercase{\S\thesection\ }}}}
+
+% Start fancy header style beginning here, override with thispagestyle{empty} for copyright page
 \pagestyle{fancy}
+
+\fancypagestyle{mymainstyle}{%
 \fancyhf{}
 %\fancyhead[LE]{\thepage\phantom{xxx}\itshape\nouppercase{Fundamentals of Standard Arabic}}
 %\fancyhead[RO]{\itshape\nouppercase{\leftmark}\phantom{xxx}\thepage}
@@ -71,11 +79,13 @@
 
 \fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\tiny{Author Names, \textit{Learn Standard Arabic}, \texttt{\gitTag}\\\url{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
 
+}% definition of mymainstyle
+
 % Footer for chapter start pages:
 \fancypagestyle{plain}{%
 \fancyhf{}
 \fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\tiny{Author Names, \textit{Learn Standard Arabic}, \texttt{\gitTag}\\\url{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
-\fancyfoot[CO]{\footnotesize\thepage}
+\fancyfoot[CO]{\thepage}
 }
 
 % Blank pages (e.g., left hand pages between chapters should be completely blank. no headers even
@@ -140,4 +150,3 @@
   \renewcommand{\contentsname}%
     {Detailed Contents}%
 }
-
