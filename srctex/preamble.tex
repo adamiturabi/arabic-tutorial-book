@@ -104,28 +104,40 @@
 \babelfont[arabic]{sf}
           [Language=Default]{Vazirmatn-Light}
 
-% Reduce font size and line spacing for Table of contents
+% Customize ToC table of contents
 \usepackage[titles]{tocloft}
 
+% Reserve horizontal spacing for chapter and section numbers
+\setlength{\cftchapnumwidth}{3em}
+\setlength{\cftsecnumwidth}{3em}
+
+% No dots between chapter/section name and page number
 \renewcommand{\cftchapdotsep}{\cftnodots}
 \renewcommand{\cftsecdotsep}{\cftnodots}
 
+% Some horizontal space between chapter/section name and page number
 \renewcommand{\cftchapleader}{\quad}
 \renewcommand{\cftsecleader} {\quad}
 \renewcommand{\cftchapafterpnum}{\cftparfillskip}
 \renewcommand{\cftsecafterpnum}{\cftparfillskip}
+% Page number aligned left instead of right
 \renewcommand{\cftpnumalign}{l}
 
+% Chapter and section name font sizes
 \renewcommand\cftchapfont{\normalfont}
 \renewcommand\cftsecfont{\footnotesize}
 
+% Chapter and section page number font sizes
 \renewcommand\cftchappagefont{\normalfont}
 \renewcommand\cftsecpagefont{\footnotesize}
 
-%\renewcommand\cftchapafterpnum{\vskip -0.2em}
-%\renewcommand\cftsecafterpnum {\vskip -0.2em}
+% Short/brief table of contents before detailed one
+% See frontpage.tex for additional customization there
+\usepackage[tight]{shorttoc}
 
-%\frontmatter
+% Change title of original ToC to contrast with shorttoc title
+\addto\captionsenglish{% Replace "english" with the language you use
+  \renewcommand{\contentsname}%
+    {Detailed Contents}%
+}
 
-%\usepackage{etoolbox}
-%\usepackage[tight]{shorttoc}
