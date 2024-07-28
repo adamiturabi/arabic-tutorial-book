@@ -146,6 +146,29 @@ function Romanize (elem, is_italic)
   end
   return elem
 end
+function TxtSub (elem)
+  --local retstr = ""
+  for index,val in pairs(elem.content) do
+    local text = val.text
+    if type(text) == "string" then
+      local new_text = ''
+      for index3 = 1, #text do
+        local charv = text:sub(index3, index3)
+        if charv == '0' then
+          new_text = new_text .. 'ø'
+        else
+          new_text = new_text .. charv
+        end
+      end
+      --retstr = retstr .. new_text
+      val.text = new_text
+      elem.content[index] = val
+    --else
+    --  retstr = retstr .. " "
+    end
+  end
+  return elem
+end
 function ArTxtReplace(text2)
   local text3 = ''
   text3 = text2:gsub("ك", "ک")
@@ -203,6 +226,9 @@ function Span (elem)
     end
   elseif elem.classes[1] == 'trnroot' then
     return pandoc.Emph (RootFmt(Romanize(elem, true)).content)
+  elseif elem.classes[1] == 'txt' then
+    -- text substitutions
+    return TxtSub(elem).content
   else
     return elem
   end

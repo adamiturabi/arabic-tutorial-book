@@ -9,7 +9,7 @@ These states are called:
 
 i. The u-state
 i. The a-state
-i. The $\emptyset$-state
+i. The [0]{.txt}-state
 
 We introduced the u-state incomplete-action verb in
 chapter\ \@ref(u-state-incomplete-action-verbs).
@@ -17,10 +17,18 @@ In this chapter we will study the
 a-state
 incomplete-action verb.
 
-Incomplete-action verbs in the a-state differ from the u-state only in the verb endings. 
-The u-state is the normal state for incomplete-action verbs.
-The a-state is 
-used in special circumstances that we will detail in this chapter.
+The u-state incomplete-action verb makes a plain statement.
+The a-state incomplete-action verb implies a wish or purpose.
+The a-state incomplete-action verb is used after the following articles:
+
++ [أَنْ]{.ar} [Ean]{.trn}
++ [لَنْ]{.ar} [lan]{.trn}
++ [لِ]{.ar} [li]{.trn}
++ [كَيْ]{.ar} [kay]{.trn}
++ [حَتَّىٰ]{.ar} [HattA]{.trn}
++ [إِذَنْ]{.ar} [Eipan]{.trn}
+
+We will go over these cases in this chapter.
 
 ## Forming the a-state incomplete-action verb
 
@@ -65,29 +73,30 @@ for all doer participants.
 
 |Participant|Incomplete-action verb doer pronoun|u-state incomplete-action verb | a-state incomplete-action verb|
 |:---|:--|:---|:---|
-| he          |_invisible_         |[يَفْعَلُ]{.ar}    |[يَفْعَلَ]{.ar}    |
-| she         |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلَ]{.ar}    |
-| you~1m~    |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلَ]{.ar}    |
-| you~1f~    |[ي]{.ar}            |[تَفْعَلِينَ]{.ar}  |[تَفْعَلِي]{.ar}   |
-| I           |_invisible_         |[أَفْعَلُ]{.ar}    |[أَفْعَلَ]{.ar}    |
-| they~2m~   |[ا]{.ar}            |[يَفْعَلَانِ]{.ar}  |[يَفْعَلَا]{.ar}   |
-| they~2f~   |[ا]{.ar}            |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
-| you~2~      |[ا]{.ar}            |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
+| he        |_invisible_         |[يَفْعَلُ]{.ar}    |[يَفْعَلَ]{.ar}    |
+| she       |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلَ]{.ar}    |
+| you~1m~   |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلَ]{.ar}    |
+| you~1f~   |[ي]{.ar}            |[تَفْعَلِينَ]{.ar}  |[تَفْعَلِي]{.ar}   |
+| I         |_invisible_         |[أَفْعَلُ]{.ar}    |[أَفْعَلَ]{.ar}    |
+| they~2m~  |[ا]{.ar}            |[يَفْعَلَانِ]{.ar}  |[يَفْعَلَا]{.ar}   |
+| they~2f~  |[ا]{.ar}            |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
+| you~2~    |[ا]{.ar}            |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
 | they~3m~  |[و]{.ar}            |[يَفْعَلُونَ]{.ar}  |[يَفْعَلُوا]{.ar}  |
 | they~3f~  |[نَ]{.ar}            |[يَفْعَلْنَ]{.ar}   |[يَفْعَلْنَ]{.ar} (same)   |
 | you~3m~   |[و]{.ar}            |[تَفْعَلُونَ]{.ar}  |[تَفْعَلُوا]{.ar}  |
 | you~3f~   |[نَ]{.ar}            |[تَفْعَلْنَ]{.ar}   |[تَفْعَلْنَ]{.ar} (same)  |
-| we          |_invisible_         |[نَفْعَلُ]{.ar}    |[نَفْعَلَ]{.ar}    |
+| we        |_invisible_         |[نَفْعَلُ]{.ar}    |[نَفْعَلَ]{.ar}    |
 
 Take note the following:
 
 + The u-state and a-state verbs are the same for the feminine plural absentee and addressee participants: 
   + [يَفْعَلْنَ]{.ar} (they~3f~)
   + [تَفْعَلْنَ]{.ar} (you~3f~)
-+ The u-state and a-state verbs for the masculine plural absentee and addressee participants have a final silent [Ealif]{.trn}: 
++ The a-state verbs for the masculine plural absentee and addressee participants have a final silent [Ealif]{.trn}: 
   + [يَفْعَلُوا]{.ar} (they~3m~) 
   + [تَفْعَلُوا]{.ar} (you~3m~)
 
+<!--
 ### Doubled and weak roots
 
 The following table lists the a-state incomplete-action verb for some roots with a weak final letter. These are the only roots that have any complications in forming the a-state. The rest of the doubled and weak root verbs are straightforward. For a complete listing, including the higher forms, see Appendix\ \@ref(chapter-verb-tables).
@@ -109,4 +118,71 @@ Root: [سعي]{.arroot}
 | you~3m~   |[و]{.ar}            |[تَفْعَلُونَ]{.ar}  |[تَفْعَلُوا]{.ar}  |
 | you~3f~   |[نَ]{.ar}            |[تَفْعَلْنَ]{.ar}   |[تَفْعَلْنَ]{.ar} (same)  |
 | we        |_invisible_         |[نَفْعَلُ]{.ar}    |[نَفْعَلَ]{.ar}    |
+-->
+
+## The a-state incomplete-action verb after [أَنْ]{.ar} [Ean]{.trn}
+
+[أَنْ]{.ar} [Ean]{.trn} "that" is the main article which causes the following
+incomplete-action verb to be in the a-state.
+The other articles that we listed in the introduction are all either derived from 
+[أَنْ]{.ar} 
+or include its meaning implicitly without expressing it.
+
+[أَنْ]{.ar} often follows verbs that have a meaning of wishing or hoping. For example,
+
+[أَمَلَ ٱلطَّالِبُ أَنْ يَنْجَحَ.]{.ar}  
+[Eamala -TTAlibu Ean yanjaH.]{.trn}  
+"The student hoped that he succeed."
+
+[لَا]{.ar} can be used to negate the following a-state incomplete-action verb.
+[لَا]{.ar} combines with [أَنْ]{.ar} and assimilates with it to form [أَلَّا]{.ar} [EallA]{.trn} "that not".
+For example,
+
+[أَمَرَ ٱلْأَبُ ٱلِٱبْنَ أَلَّا يَكْسَلَ.]{.ar}  
+[Eamara -lEabu li-bna EallA yaksal.]{.trn}  
+"The father ordered the son that he not be lazy."
+
+Other than this [لَا]{.ar},
+[أَنْ]{.ar} must directly precede the following a-state incomplete-action verb and must not be separated from it.
+
+In grammatical theory,
+[أَنْ]{.ar} 
+and the following verb form a clause that is equivalent in meaning to the doing verbal-noun of the verb. So in the example,
+[أَمَلَ ٱلطَّالِبُ أَنْ يَنْجَحَ.]{.ar}, the 
+[أَنْ]{.ar} clause
+([أَنْ يَنْجَحَ.]{.ar})
+is equivalent to the doing verbal noun [ٱلنَّجَاح]{.ar}.
+So the sentence is grammatically equivalent to
+
+[أَمَلَ ٱلطَّالِبُ ٱلنَّجَاحَ.]{.ar}  
+[Eamala -TTAlibu -nnajAH.]{.trn}  
+"The student hoped [for] success."
+
+This grammatical equivalence of the 
+[أَنْ]{.ar} clause
+with a noun aloows the 
+[أَنْ]{.ar} clause to take the place of a noun in various positions in a sentence.
+So, in the above example, the 
+[أَنْ]{.ar} clause
+is in place of the direct doee of the verb [أَمَلَ]{.ar}:
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{أَنْ يَنْجَحَ} \txarb{أَمَلَ ٱلطَّالِبُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below] {\scriptsize direct doee};
+
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The truth is that he went.''};
+
+\end{tikzpicture}
+```
 

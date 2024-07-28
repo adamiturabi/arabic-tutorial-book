@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-712-g9551f39"
+date: "v0.1.0-715-g376f0ba"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -140,10 +140,12 @@ May the peace and blessings of [#allAh]{.trn2} be upon the Prophet [#muHammad]{.
 
 ## History of Arabic 
 
-[#allAh]{.trn2}, may He be glorified and exalted, revealed the [#qurEAn]{.trn2} 1400 years ago to the Prophet [#muHammad]{.trn2}, may [#allAh]{.trn2} grant peace and confer blessing upon him. The language of the [#qurEAn]{.trn2} is the Arabic language, as it was understood by the Arabs at that time. The sayings and actions of the Prophet, may [#allAh]{.trn2} grant peace and confer blessing upon him, were recorded by his companions also in this Arabic language. The Arabic language consisted of multiple dialects that were spoken by the different tribes and in the different regions of the Arabian peninsula. We will call the Arabic of this 
-pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic era as Classical Arabic.
+[#allAh]{.trn2}, may He be glorified and exalted, revealed the [#qurEAn]{.trn2} 1400 years ago to the Prophet [#muHammad]{.trn2}, may [#allAh]{.trn2} grant peace and confer blessing upon him. The language of the [#qurEAn]{.trn2} is the Arabic language, as it was understood by the Arabs at that time. 
+The sayings and actions of the Prophet, may [#allAh]{.trn2} grant peace and confer blessing upon him, were recorded by his companions also in this Arabic language. 
+We will call the Arabic of this pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic era as Classical Arabic.
+The Classical Arabic language consisted of multiple dialects that were spoken by the different tribes and in the different regions of the Arabian peninsula. 
 
-All languages change naturally over time. For example, English has changed to such a degree that the Old English language spoken 1400 years ago would be unintelligible to us today. So too did the Arabic dialects begin to change. But as part of preserving His religion, [#allAh]{.trn2} preserved the Arabic language as well. This was by means of the efforts of scholars who recorded the Classical Arabic language of the time of the revelation.
+All languages change naturally over time. For example, English has changed to such a degree that the Old English language spoken 1400 years ago would be unintelligible to us today. So too did the Classical Arabic dialects begin to change. But as part of preserving His religion, [#allAh]{.trn2} preserved the Arabic language as well. This was by means of the efforts of scholars who recorded the Classical Arabic language of the time of the revelation.
 
 In the process of preserving Arabic, one particular variety became standardized and gained prevalence as a literary language over the other dialects of the Arabic of the early-[#islAm]{.trn2}ic period. This _Standard Arabic_, in its early period after standardization, is called Classical Standard Arabic.
 <!--or simply Classical Arabic[^1]. -->
@@ -506,9 +508,9 @@ In some other words, the [A]{.trn} vowel is written with a [yAE]{.trn} instead o
 + [عَلَىٰ]{.ar} [ealA]{.trn}
 + [رَمَىٰ]{.ar} [ramA]{.trn}
 
-### Zero-vowel written with a $\emptyset$-mark
+### Zero-vowel written with a [0]{.txt}-mark
 
-As we have seen above if an Arabic letter has a vowel after it it will take one of the three pronunciation marks: [◌َ]{.ar}, [◌ِ]{.ar}, [◌ُ]{.ar}. If, however, there is no vowel after the letter we will put a zero-vowel $\emptyset$-mark on it [◌ْ]{.ar}. This mark can generally only occur if there is a short vowel before the letter. Examples:
+As we have seen above if an Arabic letter has a vowel after it it will take one of the three pronunciation marks: [◌َ]{.ar}, [◌ِ]{.ar}, [◌ُ]{.ar}. If, however, there is no vowel after the letter we will put a zero-vowel [0]{.txt}-mark on it [◌ْ]{.ar}. This mark can generally only occur if there is a short vowel before the letter. Examples:
 
 + [كَمْ]{.ar} [kam]{.trn}
 + [مُنْذُ]{.ar} [munpu]{.trn}
@@ -519,8 +521,8 @@ As we have seen above if an Arabic letter has a vowel after it it will take one 
 
 Arabic has two short semi-vowels:
 
-1. [aw]{.trn} like in English “show”. This is written with a [wAw]{.trn} with a $\emptyset$-mark on it and a [A]{.trn} vowel before it. Example [لَوْ]{.ar} [law]{.trn}. 
-2. [ay]{.trn} like in English “bait”. This is written with a [yAE]{.trn} with a $\emptyset$-mark on it and a [A]{.trn} vowel before it. Example [كَيْ]{.ar} [kay]{.trn}. 
+1. [aw]{.trn} like in English “show”. This is written with a [wAw]{.trn} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [لَوْ]{.ar} [law]{.trn}. 
+2. [ay]{.trn} like in English “bait”. This is written with a [yAE]{.trn} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [كَيْ]{.ar} [kay]{.trn}. 
 Examples with short semi-vowels:
 
 + [وَيْحَكَ]{.ar} [wayHaka]{.trn}
@@ -529,14 +531,14 @@ Examples with short semi-vowels:
 
 It also has two long semi-vowels:
 
-1. [Aw]{.trn} like in English “cow”. This is written with a [wAw]{.trn} with a $\emptyset$-mark on it and a [A]{.trn} vowel before it. Example [وَاوْ]{.ar} [wAw]{.trn}. 
-2. [Ay]{.trn} like in English “bye”. This is written with a [yAE]{.trn} with a $\emptyset$-mark on it and a [A]{.trn} vowel before it. Example [شَايْ]{.ar} [cAy]{.trn}.
+1. [Aw]{.trn} like in English “cow”. This is written with a [wAw]{.trn} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [وَاوْ]{.ar} [wAw]{.trn}. 
+2. [Ay]{.trn} like in English “bye”. This is written with a [yAE]{.trn} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [شَايْ]{.ar} [cAy]{.trn}.
 
 These long semi-vowels are rare and may only occur at the end of a sentence.
 
 ### Doubled letters
 
-A word may contain "doubled" letters. This is when the same letter occurs, one after the other; the first letter has a $\emptyset$-mark, and the second letter has a vowel. For example, in the word [قَتْتَلَ]{.ar} [qattala]{.trn}, the letter [ت]{.ar} is doubled. When this occurs, we actually only write the letter once and put a "doubling mark" [◌ّ]{.ar} on it, like so: [قَتَّلَ]{.ar} [qattala]{.trn}. When pronouncing this word, stop at and stress the doubled letter [qattala]{.trn} and make sure it does not sound like the undoubled letter in [قَتَلَ]{.ar} [qatala]{.trn}. Examples with doubled letters:
+A word may contain "doubled" letters. This is when the same letter occurs, one after the other; the first letter has a [0]{.txt}-mark, and the second letter has a vowel. For example, in the word [قَتْتَلَ]{.ar} [qattala]{.trn}, the letter [ت]{.ar} is doubled. When this occurs, we actually only write the letter once and put a "doubling mark" [◌ّ]{.ar} on it, like so: [قَتَّلَ]{.ar} [qattala]{.trn}. When pronouncing this word, stop at and stress the doubled letter [qattala]{.trn} and make sure it does not sound like the undoubled letter in [قَتَلَ]{.ar} [qatala]{.trn}. Examples with doubled letters:
 
 + [كَبَّرَ]{.ar} [kabbara]{.trn}
 + [حَدُّهُ]{.ar} [Hadduhu]{.trn}
@@ -582,7 +584,7 @@ Here are some examples of words with [n]{.trn}-marks:
 
 ## Connecting [hamzah]{.trn}
 
-Some words in arabic begin with a $\emptyset$-mark. When this occurs a connecting [hamzah]{.trn} [ٱ]{.ar} (written as a tiny [صـ]{.ar} on an [Ealif]{.trn}) is put before it. If this word comes in the beginning of the sentence the connecting alif is pronounced as a [hamzah]{.trn}. Otherwise this connecting [hamzah]{.trn} is not pronounced and the word is connected to the final vowel of the previous word in pronunciation. In this tutorial we will transcribe the connecting [hamzah]{.trn} with a hyphen "-". Examples of connecting [hamzah]{.trn}:
+Some words in arabic begin with a [0]{.txt}-mark. When this occurs a connecting [hamzah]{.trn} [ٱ]{.ar} (written as a tiny [صـ]{.ar} on an [Ealif]{.trn}) is put before it. If this word comes in the beginning of the sentence the connecting alif is pronounced as a [hamzah]{.trn}. Otherwise this connecting [hamzah]{.trn} is not pronounced and the word is connected to the final vowel of the previous word in pronunciation. In this tutorial we will transcribe the connecting [hamzah]{.trn} with a hyphen "-". Examples of connecting [hamzah]{.trn}:
 
 [ٱِفْتَحِ ٱلْبَابَ]{.ar}  
 [EiftaHi -lbAba]{.trn}
@@ -608,7 +610,7 @@ When one word ends in a long vowel and the next word begins with a connecting [h
 
 ## Pronouncing the end of a sentence
 
-When a word is at the end of a sentence and it ends with a long vowel, then the final long vowel is pronounced normally. However, when a word at the end of a sentence does not end with a long vowel, then the final letter's pronunciation mark is pronounced as a $\emptyset$-mark when vocalizing the sentence. If the final letter is a looped [tAE]{.trn} [ة]{.ar} then it is pronounced as a [ه]{.ar} [hAE]{.trn} with a $\emptyset$-mark. 
+When a word is at the end of a sentence and it ends with a long vowel, then the final long vowel is pronounced normally. However, when a word at the end of a sentence does not end with a long vowel, then the final letter's pronunciation mark is pronounced as a [0]{.txt}-mark when vocalizing the sentence. If the final letter is a looped [tAE]{.trn} [ة]{.ar} then it is pronounced as a [ه]{.ar} [hAE]{.trn} with a [0]{.txt}-mark. 
 
 This change in pronunciation is only vocal, it does not affect how we write the pronunciation mark. Here we give some examples of words pronounced if they were at the end of a sentence:
 
@@ -624,7 +626,7 @@ This change in pronunciation is only vocal, it does not affect how we write the 
 [وَالِدَيَّ]{.ar}  
 [wAlidayy]{.trn}
 
-If however, the final letter's pronunciation mark is a [an]{.trn} mark then it is pronounced as a long-[A]{.trn} vowel. The only exception is if the final letter were looped [tAE]{.trn} [ةً]{.ar}, in which case it is then pronounced as a [hAE]{.trn} with a $\emptyset$-mark [هْ]{.ar}. Here are examples of words with [an]{.trn} marks pronounced as if they were at the end of a sentence.
+If however, the final letter's pronunciation mark is a [an]{.trn} mark then it is pronounced as a long-[A]{.trn} vowel. The only exception is if the final letter were looped [tAE]{.trn} [ةً]{.ar}, in which case it is then pronounced as a [hAE]{.trn} with a [0]{.txt}-mark [هْ]{.ar}. Here are examples of words with [an]{.trn} marks pronounced as if they were at the end of a sentence.
 
 [مَفْعُولًا]{.ar}  
 [mafeUlA]{.trn}
@@ -738,7 +740,7 @@ Noun | Definite noun
 
 #### The definite article [ٱَلْ]{.ar} [Eal]{.trn} with nouns with an initial connecting [hamzah]{.trn} {#the-definite-article-with-nouns-with-an-initial-connecting-hamzah}
 
-If the definite article [ٱَلْ]{.ar} [Eal]{.trn} is with prefixed to nouns that have an initial connecting [hamzah]{.trn}, then the [ل]{.ar} shall no longer have an $\emptyset$-mark [◌ْ]{.ar}. Instead it shall have an [i]{.trn}-mark [◌ِ]{.ar}. Example:
+If the definite article [ٱَلْ]{.ar} [Eal]{.trn} is with prefixed to nouns that have an initial connecting [hamzah]{.trn}, then the [ل]{.ar} shall no longer have an [0]{.txt}-mark [◌ْ]{.ar}. Instead it shall have an [i]{.trn}-mark [◌ِ]{.ar}. Example:
 
 [ٱَلِٱبْن]{.ar}  
 [Eali-bn]{.trn}  
@@ -1747,7 +1749,7 @@ Notes:
   [bi-lqalami]{.trn}  
   "with the pen"
 
-  If the noun begins with a connecting [hamzah]{.trn} then the [ل]{.ar} in [ٱَلْ]{.ar} gets an [i]{.trn}-mark [◌ِ]{.ar} instead of its usual $\emptyset$-mark [◌ْ]{.ar}. We described this in 
+  If the noun begins with a connecting [hamzah]{.trn} then the [ل]{.ar} in [ٱَلْ]{.ar} gets an [i]{.trn}-mark [◌ِ]{.ar} instead of its usual [0]{.txt}-mark [◌ْ]{.ar}. We described this in 
 section\ \@ref(the-definite-article-with-nouns-with-an-initial-connecting-hamzah).
 Example:
 
@@ -1813,7 +1815,7 @@ Example:
   [Eila -bnin]{.trn}  
   "to a son"
 
-+ If a preposition ends with a $\emptyset$-mark [◌ْ ]{.ar} and it is followed by a word that begins with a connecting [hamzah]{.trn}, then the $\emptyset$-mark is changed to a short vowel according to the following rules:
++ If a preposition ends with a [0]{.txt}-mark [◌ْ ]{.ar} and it is followed by a word that begins with a connecting [hamzah]{.trn}, then the [0]{.txt}-mark is changed to a short vowel according to the following rules:
 
   + The ending of the preposition [عَنْ]{.ar} [ean]{.trn} gets an [i]{.trn}-mark and becomes [عَنِ]{.ar} [eani]{.trn}. Examples:
     
@@ -2503,7 +2505,7 @@ Addressee "you~1,m~" | [تَ]{.ar} [-ta]{.trn} | [فَعَلْتَ]{.ar} [faealt
 Addressee "you~1,f~" | [تِ]{.ar} [-ti]{.trn} | [فَعَلْتِ]{.ar} [faealti]{.trn}
 Speaker "I"          | [تُ]{.ar} [-tu]{.trn} | [فَعَلْتُ]{.ar} [faealtu]{.trn}
 
-Note also how the visible singular doer pronouns modify the verb by replacing the [a]{.trn}-mark [◌َ]{.ar} on its final letter by a $\emptyset$-mark [◌ْ]{.ar}.
+Note also how the visible singular doer pronouns modify the verb by replacing the [a]{.trn}-mark [◌َ]{.ar} on its final letter by a [0]{.txt}-mark [◌ْ]{.ar}.
 
 Furthermore, note how the doer pronoun for the addressed person "you" is differentiated for masculine and feminine doers whereas the doer pronoun for the speaking person "I" is the same for both genders.
 
@@ -4027,7 +4029,7 @@ If a common noun is of these patterns and the middle root letter is not [و]{.ar
 
 There are two separate rules to consider:
 
-1.  If a common noun is of the pattern [فَعْل]{.ar} [fael]{.trn} or [فَعْلَة]{.ar} [faelah]{.trn}, then the $\emptyset$-mark on the middle letter shall be converted to an [a]{.trn}-mark [◌َ]{.ar} when forming the [At]{.trn} sound plural. For example:
+1.  If a common noun is of the pattern [فَعْل]{.ar} [fael]{.trn} or [فَعْلَة]{.ar} [faelah]{.trn}, then the [0]{.txt}-mark on the middle letter shall be converted to an [a]{.trn}-mark [◌َ]{.ar} when forming the [At]{.trn} sound plural. For example:
 
     + [نَحْلَة]{.ar} [naHlah]{.trn} "a bee" becomes [نَحَلَات]{.ar} [naHalAt]{.trn} "bees", not $\times$\ [نَحْلَات]{.ar} [naHlAt]{.trn}.
     + [ضَرْبَة]{.ar} [Darbah]{.trn} "a strike" becomes [ضَرَبَات]{.ar} [DarabAt]{.trn} "strikes", not $\times$\ [ضَرْبَات]{.ar} [DarbAt]{.trn}.
@@ -4038,7 +4040,7 @@ There are two separate rules to consider:
     + [جَوْزَة]{.ar} [jawzah]{.trn} "a walnut" becomes [جَوْزَات]{.ar} [jawzAt]{.trn}.
     + [حَجَّة]{.ar} [Hajjah]{.trn} "a pilgrimage" becomes [حَجَّات]{.ar} [HajjAt]{.trn}.
 
-2.  If a common noun is of the pattern [فِعْل]{.ar} [fiel]{.trn}, [فِعْلَة]{.ar} [fielah]{.trn}, [فُعْل]{.ar} [fuel]{.trn}, or [فُعْلَة]{.ar} [fuelah]{.trn} then the $\emptyset$-mark on the middle letter can, optionally, either:
+2.  If a common noun is of the pattern [فِعْل]{.ar} [fiel]{.trn}, [فِعْلَة]{.ar} [fielah]{.trn}, [فُعْل]{.ar} [fuel]{.trn}, or [فُعْلَة]{.ar} [fuelah]{.trn} then the [0]{.txt}-mark on the middle letter can, optionally, either:
 
     i.   be retained,
     ii.  be converted to an [a]{.trn} mark, or
@@ -4049,7 +4051,7 @@ There are two separate rules to consider:
     + [ظُلْمَة]{.ar} [Pulmah]{.trn} "a darkness" can become, optionally, either [ظُلْمَات]{.ar} [PulmAt]{.trn} or [ظُلَمَات]{.ar} [PulamAt]{.trn}, or [ظُلُمَات]{.ar} [PulumAt]{.trn} "darknesses".
     + [كِسْرَة]{.ar} [kisrah]{.trn} "a piece" can become, optionally, either [كِسْرَات]{.ar} [kisrAt]{.trn} or [كِسَرَات]{.ar} [kisarAt]{.trn}, or [كِسِرَات]{.ar} [kisirAt]{.trn} "pieces".
 
-Note that this rule of changing the vowel mark is only true for common nouns. Adjectival-nouns on these patterns will retain the $\emptyset$-mark when forming the [At]{.trn} sound plural. So [صَعْب]{.ar} [Saeb]{.trn} and [صَعْبَة]{.ar} [Saebah]{.trn} "a difficult one" become only [صَعْبَات]{.ar} [SaebAt]{.trn}, not $\times$\ [صَعَبَات]{.ar} [SaeabAt]{.trn}.
+Note that this rule of changing the vowel mark is only true for common nouns. Adjectival-nouns on these patterns will retain the [0]{.txt}-mark when forming the [At]{.trn} sound plural. So [صَعْب]{.ar} [Saeb]{.trn} and [صَعْبَة]{.ar} [Saebah]{.trn} "a difficult one" become only [صَعْبَات]{.ar} [SaebAt]{.trn}, not $\times$\ [صَعَبَات]{.ar} [SaeabAt]{.trn}.
 
 ### Applicability of the [At]{.trn} sound plural
 
@@ -4347,7 +4349,7 @@ become [هِمَا]{.ar} [-himA]{.trn} and [هِنَّ]{.ar} [-hinna]{.trn} resp
    + [بِهِمْ]{.ar} [bihimA]{.trn} "with them~3,m~"
    + [فِيهِنَّ]{.ar} [fIhinna]{.trn} "in them~3,f~"
    + [إِلَيْهِمْ]{.ar} [Eilayhim]{.trn} "to them~3,m~"
-+ The final $\emptyset$-mark on the [مْ]{.ar} in the masculine plural pronouns ([هُمْ]{.ar} [hum]{.trn}, [أَنْتُمْ]{.ar} [Eantum]{.trn}, and [كُمْ]{.ar} [-kum]{.trn}) becomes a [u]{.trn}-mark ([هُمُ]{.ar} [humu]{.trn}, [أَنْتُمُ]{.ar} [Eantumu]{.trn},  and[كُمُ]{.ar} [-kumu]{.trn} respectively) when followed by a connecting [hamzah]{.trn}. Examples:
++ The final [0]{.txt}-mark on the [مْ]{.ar} in the masculine plural pronouns ([هُمْ]{.ar} [hum]{.trn}, [أَنْتُمْ]{.ar} [Eantum]{.trn}, and [كُمْ]{.ar} [-kum]{.trn}) becomes a [u]{.trn}-mark ([هُمُ]{.ar} [humu]{.trn}, [أَنْتُمُ]{.ar} [Eantumu]{.trn},  and[كُمُ]{.ar} [-kumu]{.trn} respectively) when followed by a connecting [hamzah]{.trn}. Examples:
   + [هُمُ ٱلْمُعَلِّمُونَ.]{.ar}  
     [humu -lmueallimUn.]{.trn}  
     "They~pl.\ masc.~ are the (male) teachers."
@@ -4357,7 +4359,7 @@ become [هِمَا]{.ar} [-himA]{.trn} and [هِنَّ]{.ar} [-hinna]{.trn} resp
   + [أَنْتُمُ ٱلْمُسْلِمُونَ.]{.ar}  
     [Eantumu -lmuslimUn.]{.trn}
     "You~3,m~ are the Muslims~3,m~."
-+ When the speaker plural attached pronoun [نَا]{.ar} is attached to a word that ends with a [نْ]{.ar} with a $\emptyset$-mark, there is only one [ن]{.ar} written and it is doubled with a doubling mark [◌ّ]{.ar} on it. So we get:
++ When the speaker plural attached pronoun [نَا]{.ar} is attached to a word that ends with a [نْ]{.ar} with a [0]{.txt}-mark, there is only one [ن]{.ar} written and it is doubled with a doubling mark [◌ّ]{.ar} on it. So we get:
    + [نَا]{.ar} + [مِنْ]{.ar} = [مِنَّا]{.ar} [minnA]{.trn}
    + [نَا]{.ar} + [عَنْ]{.ar} = [عَنَّا]{.ar} [eannA]{.trn}
    + [نَا]{.ar} + [لَدُنْ]{.ar} = [لَدُنَّا]{.ar} [ladunnA]{.trn}
@@ -4460,7 +4462,7 @@ Note the following regarding the plural doer pronouns:
   This is different from the behavior of the absentee dual doer pronoun [◌َا]{.ar} [-A]{.trn} "them~2,f~" which, for a feminine doer, does attach to the [تْ]{.ar} of femininity. Example:
 
   + [ذَهَبَتَا]{.ar} [pahabatA]{.trn} "they~2,f~ went"
-+ The final $\emptyset$-mark on the [مْ]{.ar} in the masculine plural doer pronoun [تُمْ]{.ar} [-tum]{.trn} becomes a [u]{.trn}-mark [تُمُ]{.ar} [-tumu]{.trn} when followed by a connecting [hamzah]{.trn}. Examples:
++ The final [0]{.txt}-mark on the [مْ]{.ar} in the masculine plural doer pronoun [تُمْ]{.ar} [-tum]{.trn} becomes a [u]{.trn}-mark [تُمُ]{.ar} [-tumu]{.trn} when followed by a connecting [hamzah]{.trn}. Examples:
   + [أَكَلْتُمْ خُبْزًا.]{.ar}  
     [Eakaltum xubzA.]{.trn}  
     "You~3,m~ ate some bread."
@@ -4481,7 +4483,7 @@ Note the following regarding the plural doer pronouns:
   + [ضَرَبْتُمُوهُ.]{.ar}  
     [DarabtumUh.]{.trn}  
     "You~pl.\ masc.~ hit him."
-+ The plural speaking participant doer pronoun [نَا]{.ar} [-nA]{.trn} is the same as the plural speaking participant attached pronoun [نَا]{.ar} [-nA]{.trn}. But you can tell them apart because the doer pronoun, when attached to the verb, causes the final letter of the verb to have a $\emptyset$-mark. Consider the following two sentences:
++ The plural speaking participant doer pronoun [نَا]{.ar} [-nA]{.trn} is the same as the plural speaking participant attached pronoun [نَا]{.ar} [-nA]{.trn}. But you can tell them apart because the doer pronoun, when attached to the verb, causes the final letter of the verb to have a [0]{.txt}-mark. Consider the following two sentences:
 
   [سَأَلْنَا.]{.ar}  
   [saEalnA.]{.trn}  
@@ -4587,7 +4589,7 @@ Here are some rules for the plural pronouns:
   + [عَلَيْهِ]{.ar}, [ealayhi]{.trn} "on him"
   + [فِيهِمْ]{.ar} [fIhim]{.trn} "in them~pl.~"
   + [بِهِمْ]{.ar} [bihim]{.trn} "with them~pl.~".
-+ The final $\emptyset$-mark on the [مْ]{.ar} in the masculine plural pronouns ([هُمْ]{.ar} [hum]{.trn}, [هُمْ]{.ar} [-hum]{.trn}, [أَنْتُمْ]{.ar} [Eantum]{.trn}, [تُمْ]{.ar} [-tum]{.trn}, [كُمْ]{.ar} [-kum]{.trn}) becomes a [u]{.trn}-mark ([هُمُ]{.ar} [humu]{.trn}, [هُمُ]{.ar} [-humu]{.trn}, [أَنْتُمُ]{.ar} [Eantumu]{.trn}, [تُمُ]{.ar} [-tumu]{.trn}, [كُمُ]{.ar} [-kumu]{.trn} respectively) when followed by a connecting [hamzah]{.trn}. Examples:
++ The final [0]{.txt}-mark on the [مْ]{.ar} in the masculine plural pronouns ([هُمْ]{.ar} [hum]{.trn}, [هُمْ]{.ar} [-hum]{.trn}, [أَنْتُمْ]{.ar} [Eantum]{.trn}, [تُمْ]{.ar} [-tum]{.trn}, [كُمْ]{.ar} [-kum]{.trn}) becomes a [u]{.trn}-mark ([هُمُ]{.ar} [humu]{.trn}, [هُمُ]{.ar} [-humu]{.trn}, [أَنْتُمُ]{.ar} [Eantumu]{.trn}, [تُمُ]{.ar} [-tumu]{.trn}, [كُمُ]{.ar} [-kumu]{.trn} respectively) when followed by a connecting [hamzah]{.trn}. Examples:
   + [هُمُ ٱلْمُعَلِّمُونَ.]{.ar}  
     [humu -lmueallimUna.]{.trn}  
     "They~pl.\ masc.~ are the (male) teachers."
@@ -4609,7 +4611,7 @@ Here are some rules for the plural pronouns:
    + [عَلَيْنَا]{.ar} [ealaynA]{.trn} "on us"
    + [بِنَا]{.ar} [binA]{.trn} "with us"
 
-  However, when attached to a word that ends with a [نْ]{.ar} with a $\emptyset$-mark, there is only one [ن]{.ar} written and it is doubled with a doubling mark [◌ّ]{.ar} on it. So we get:
+  However, when attached to a word that ends with a [نْ]{.ar} with a [0]{.txt}-mark, there is only one [ن]{.ar} written and it is doubled with a doubling mark [◌ّ]{.ar} on it. So we get:
    + [نَا]{.ar} + [مِنْ]{.ar} = [مِنَّا]{.ar} [minnA]{.trn}
    + [نَا]{.ar} + [عَنْ]{.ar} = [عَنَّا]{.ar} [eannA]{.trn}
    + [نَا]{.ar} + [لَدُنْ]{.ar} = [لَدُنَّا]{.ar} [ladunnA]{.trn}
@@ -4617,7 +4619,7 @@ Here are some rules for the plural pronouns:
    + [لَهُمْ]{.ar} [lahum]{.trn} "for them~3+~"
    + [لَكُمْ]{.ar} [lakum]{.trn} "for you~3+~"
    + [لَنَا]{.ar} [lanA]{.trn} "for us"
-+ The plural speaking participant doer pronoun [نَا]{.ar} [-nA]{.trn} is the same as the plural speaking participant attached pronoun [نَا]{.ar} [-nA]{.trn}. But you can tell them apart because the doer pronoun, when attached to the verb, causes the final letter of the verb to have a $\emptyset$-mark. Consider the following two sentences:
++ The plural speaking participant doer pronoun [نَا]{.ar} [-nA]{.trn} is the same as the plural speaking participant attached pronoun [نَا]{.ar} [-nA]{.trn}. But you can tell them apart because the doer pronoun, when attached to the verb, causes the final letter of the verb to have a [0]{.txt}-mark. Consider the following two sentences:
 
   [سَأَلْنَا.]{.ar}  
   [saEalnA.]{.trn}  
@@ -6392,7 +6394,7 @@ If a dual is the first noun in a chain, then the [ن]{.ar} in the dual suffix is
   [fataHa bAbayi -lbayti.]{.trn}  
   "He opened the two doors of the house."
 
-  Note that a helper [i]{.trn} vowel is placed on the [ي]{.ar} in [بَابَيِ]{.ar} [bAbayi]{.trn} instead of the $\emptyset$-mark because of the connecting [hamzah]{.trn} after it.
+  Note that a helper [i]{.trn} vowel is placed on the [ي]{.ar} in [بَابَيِ]{.ar} [bAbayi]{.trn} instead of the [0]{.txt}-mark because of the connecting [hamzah]{.trn} after it.
 
 ### Plurals
 
@@ -7512,7 +7514,7 @@ as ^2^[قَيْصَر]{.ar}     "Caesar",
 despite being titles,
 are treated as proper names.
 
-The only exception to this rule is a masculine name of foreign origin that comprises of only three letters, and whose middle letter has an $\emptyset$-mark. Such a name will be fully-flexible. Example:
+The only exception to this rule is a masculine name of foreign origin that comprises of only three letters, and whose middle letter has an [0]{.txt}-mark. Such a name will be fully-flexible. Example:
 
 + [نُوح]{.ar} [#nUH]{.trn2}
 
@@ -7525,7 +7527,7 @@ All feminine names, regardless of their origin, or their ending, shall be semi-f
 ^2^[زَيْنَب]{.ar}      |[#zaynab]{.trn2} |^2^[مَرْيَم]{.ar}      |[#maryam]{.trn2} |
 ^2^[سُعَاد]{.ar}      |[#sueAd]{.trn2}  |^2^[هَاجَر]{.ar}      |[#hAjar]{.trn2}  |
 
-The only exception to this rule is a feminine name of native Arabic origin, that comprises of only three letters, and whose middle letter has an $\emptyset$-mark. Such a name is permitted to be optionally fully-flexible or semi-flexible. Examples:
+The only exception to this rule is a feminine name of native Arabic origin, that comprises of only three letters, and whose middle letter has an [0]{.txt}-mark. Such a name is permitted to be optionally fully-flexible or semi-flexible. Examples:
 
 + [هِنْد]{.ar} Hind
 + [دَعْد]{.ar} [#daed]{.trn2}
@@ -8764,11 +8766,11 @@ Incomplete action verbs have three states, just like nouns. These states are cal
 
 i. The u-state
 i. The a-state
-i. The $\emptyset$-state
+i. The [0]{.txt}-state
 
-Two of the states have their names in common with nouns: the u-state and the a-state. The the $\emptyset$-state (null-state) is named differently.
+Two of the states have their names in common with nouns: the u-state and the a-state. The the [0]{.txt}-state (null-state) is named differently.
 
-The [u]{.trn}-mark on the final letter of [يَفُعَلُ]{.ar} [yafealu]{.trn} indicates that it is in the u-state. We will study only the u-state of incomplete-action verbs in this chapter. And we will study the a-state and $\emptyset$-state in later chapters if [#allAh]{.trn2} wills.
+The [u]{.trn}-mark on the final letter of [يَفُعَلُ]{.ar} [yafealu]{.trn} indicates that it is in the u-state. We will study only the u-state of incomplete-action verbs in this chapter. And we will study the a-state and [0]{.txt}-state in later chapters if [#allAh]{.trn2} wills.
 
 ## With doer nouns
 
@@ -9675,7 +9677,7 @@ These states are called:
 
 i. The u-state
 i. The a-state
-i. The $\emptyset$-state
+i. The [0]{.txt}-state
 
 We introduced the u-state incomplete-action verb in
 chapter\ \@ref(u-state-incomplete-action-verbs).
@@ -9683,10 +9685,18 @@ In this chapter we will study the
 a-state
 incomplete-action verb.
 
-Incomplete-action verbs in the a-state differ from the u-state only in the verb endings. 
-The u-state is the normal state for incomplete-action verbs.
-The a-state is 
-used in special circumstances that we will detail in this chapter.
+The u-state incomplete-action verb makes a plain statement.
+The a-state incomplete-action verb implies a wish or purpose.
+The a-state incomplete-action verb is used after the following articles:
+
++ [أَنْ]{.ar} [Ean]{.trn}
++ [لَنْ]{.ar} [lan]{.trn}
++ [لِ]{.ar} [li]{.trn}
++ [كَيْ]{.ar} [kay]{.trn}
++ [حَتَّىٰ]{.ar} [HattA]{.trn}
++ [إِذَنْ]{.ar} [Eipan]{.trn}
+
+We will go over these cases in this chapter.
 
 ## Forming the a-state incomplete-action verb
 
@@ -9731,29 +9741,30 @@ for all doer participants.
 
 |Participant|Incomplete-action verb doer pronoun|u-state incomplete-action verb | a-state incomplete-action verb|
 |:---|:--|:---|:---|
-| he          |_invisible_         |[يَفْعَلُ]{.ar}    |[يَفْعَلَ]{.ar}    |
-| she         |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلَ]{.ar}    |
-| you~1m~    |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلَ]{.ar}    |
-| you~1f~    |[ي]{.ar}            |[تَفْعَلِينَ]{.ar}  |[تَفْعَلِي]{.ar}   |
-| I           |_invisible_         |[أَفْعَلُ]{.ar}    |[أَفْعَلَ]{.ar}    |
-| they~2m~   |[ا]{.ar}            |[يَفْعَلَانِ]{.ar}  |[يَفْعَلَا]{.ar}   |
-| they~2f~   |[ا]{.ar}            |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
-| you~2~      |[ا]{.ar}            |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
+| he        |_invisible_         |[يَفْعَلُ]{.ar}    |[يَفْعَلَ]{.ar}    |
+| she       |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلَ]{.ar}    |
+| you~1m~   |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلَ]{.ar}    |
+| you~1f~   |[ي]{.ar}            |[تَفْعَلِينَ]{.ar}  |[تَفْعَلِي]{.ar}   |
+| I         |_invisible_         |[أَفْعَلُ]{.ar}    |[أَفْعَلَ]{.ar}    |
+| they~2m~  |[ا]{.ar}            |[يَفْعَلَانِ]{.ar}  |[يَفْعَلَا]{.ar}   |
+| they~2f~  |[ا]{.ar}            |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
+| you~2~    |[ا]{.ar}            |[تَفْعَلَانِ]{.ar}  |[تَفْعَلَا]{.ar}   |
 | they~3m~  |[و]{.ar}            |[يَفْعَلُونَ]{.ar}  |[يَفْعَلُوا]{.ar}  |
 | they~3f~  |[نَ]{.ar}            |[يَفْعَلْنَ]{.ar}   |[يَفْعَلْنَ]{.ar} (same)   |
 | you~3m~   |[و]{.ar}            |[تَفْعَلُونَ]{.ar}  |[تَفْعَلُوا]{.ar}  |
 | you~3f~   |[نَ]{.ar}            |[تَفْعَلْنَ]{.ar}   |[تَفْعَلْنَ]{.ar} (same)  |
-| we          |_invisible_         |[نَفْعَلُ]{.ar}    |[نَفْعَلَ]{.ar}    |
+| we        |_invisible_         |[نَفْعَلُ]{.ar}    |[نَفْعَلَ]{.ar}    |
 
 Take note the following:
 
 + The u-state and a-state verbs are the same for the feminine plural absentee and addressee participants: 
   + [يَفْعَلْنَ]{.ar} (they~3f~)
   + [تَفْعَلْنَ]{.ar} (you~3f~)
-+ The u-state and a-state verbs for the masculine plural absentee and addressee participants have a final silent [Ealif]{.trn}: 
++ The a-state verbs for the masculine plural absentee and addressee participants have a final silent [Ealif]{.trn}: 
   + [يَفْعَلُوا]{.ar} (they~3m~) 
   + [تَفْعَلُوا]{.ar} (you~3m~)
 
+<!--
 ### Doubled and weak roots
 
 The following table lists the a-state incomplete-action verb for some roots with a weak final letter. These are the only roots that have any complications in forming the a-state. The rest of the doubled and weak root verbs are straightforward. For a complete listing, including the higher forms, see Appendix\ \@ref(chapter-verb-tables).
@@ -9775,11 +9786,60 @@ Root: [سعي]{.arroot}
 | you~3m~   |[و]{.ar}            |[تَفْعَلُونَ]{.ar}  |[تَفْعَلُوا]{.ar}  |
 | you~3f~   |[نَ]{.ar}            |[تَفْعَلْنَ]{.ar}   |[تَفْعَلْنَ]{.ar} (same)  |
 | we        |_invisible_         |[نَفْعَلُ]{.ar}    |[نَفْعَلَ]{.ar}    |
+-->
+
+## The a-state incomplete-action verb after [أَنْ]{.ar} [Ean]{.trn}
+
+[أَنْ]{.ar} [Ean]{.trn} "that" is the main article which causes the following
+incomplete-action verb to be in the a-state.
+The other articles that we listed in the introduction are all either derived from 
+[أَنْ]{.ar} 
+or include its meaning implicitly without expressing it.
+
+[أَنْ]{.ar} often follows verbs that have a meaning of wishing or hoping. For example,
+
+[أَمَلَ ٱلطَّالِبُ أَنْ يَنْجَحَ.]{.ar}  
+[Eamala -TTAlibu Ean yanjaH.]{.trn}  
+"The student hoped that he succeed."
+
+[لَا]{.ar} can be used to negate the following a-state incomplete-action verb.
+[لَا]{.ar} combines with [أَنْ]{.ar} and assimilates with it to form [أَلَّا]{.ar} [EallA]{.trn} "that not".
+For example,
+
+[أَمَرَ ٱلْأَبُ ٱلِٱبْنَ أَلَّا يَكْسَلَ.]{.ar}  
+[Eamara -lEabu li-bna EallA yaksal.]{.trn}  
+"The father ordered the son that he not be lazy."
+
+Other than this [لَا]{.ar},
+[أَنْ]{.ar} must directly precede the following a-state incomplete-action verb and must not be separated from it.
+
+In grammatical theory,
+[أَنْ]{.ar} 
+and the following verb form a clause that is equivalent in meaning to the doing verbal-noun of the verb. So in the example,
+[أَمَلَ ٱلطَّالِبُ أَنْ يَنْجَحَ.]{.ar}, the 
+[أَنْ]{.ar} clause
+([أَنْ يَنْجَحَ.]{.ar})
+is equivalent to the doing verbal noun [ٱلنَّجَاح]{.ar}.
+So the sentence is grammatically equivalent to
+
+[أَمَلَ ٱلطَّالِبُ ٱلنَّجَاحَ.]{.ar}  
+[Eamala -TTAlibu -nnajAH.]{.trn}  
+"The student hoped [for] success."
+
+This grammatical equivalence of the 
+[أَنْ]{.ar} clause
+with a noun aloows the 
+[أَنْ]{.ar} clause to take the place of a noun in various positions in a sentence.
+So, in the above example, the 
+[أَنْ]{.ar} clause
+is in place of the direct doee of the verb [أَمَلَ]{.ar}:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-23-1.png)<!-- -->
 
 
 <!--chapter:end:srcrmd/imperfect_verb_subj.Rmd-->
 
-# $\emptyset$-state incomplete-action verbs
+# [0]{.txt}-state incomplete-action verbs
 
 ## Introduction
 
@@ -9790,7 +9850,7 @@ These states are called:
 
 i. The u-state
 i. The a-state
-i. The $\emptyset$-state
+i. The [0]{.txt}-state
 
 We have already studied the u-state of incomplete-action verbs in 
 chapter\ \@ref(u-state-incomplete-action-verbs).
@@ -9798,14 +9858,14 @@ And we will defer the study of
 a-state of incomplete-action verbs to
 chapter\ \@ref(a-state-incomplete-action-verbs).
 In this chapter we will study the 
-$\emptyset$-state
+[0]{.txt}-state
 incomplete-action verb.
 
 We will also study the _verb of command_ which is very similar to the 
-$\emptyset$-state
+[0]{.txt}-state
 incomplete-action verb.
 
-## Forming the $\emptyset$-state incomplete-action verb
+## Forming the [0]{.txt}-state incomplete-action verb
 
 Here is the u-state incomplete action verb for the singular masculine absentee participant doer "he":
 
@@ -9815,10 +9875,10 @@ Here is the u-state incomplete action verb for the singular masculine absentee p
 
 Note that, because it is in the u-state, the its final letter ends with a [u]{.trn}-mark [◌ُ]{.ar}.
 In order to form the 
-$\emptyset$-state
+[0]{.txt}-state
 incomplete-action verb,
 we change the [u]{.trn}-mark into a
-$\emptyset$-mark [◌ْ]{.ar}, thus:
+[0]{.txt}-mark [◌ْ]{.ar}, thus:
 
 [يَفْعَلْ]{.ar}  
 [yafeal]{.trn}  
@@ -9826,7 +9886,7 @@ $\emptyset$-mark [◌ْ]{.ar}, thus:
 This is done for all participants whose doer pronoun is invisible and u-state verb ends with a [u]{.trn}-mark [◌ُ]{.ar}.
 
 For participants whose doer pronoun is followed by an extra [ن]{.ar} in the u-state verb, this final [ن]{.ar} is dropped in order to form the 
-$\emptyset$-state
+[0]{.txt}-state
 incomplete-action verb.
 So, for example, the u-state
 incomplete-action verb:
@@ -9836,17 +9896,17 @@ incomplete-action verb:
 "they~2,m~ do"
 
 becomes, for the 
-$\emptyset$-state:
+[0]{.txt}-state:
 
 [يَفْعَلَا]{.ar}  
 [yafealA]{.trn}  
 
 Here is the complete table of the 
-$\emptyset$-state
+[0]{.txt}-state
 incomplete-action verb
 for all doer participants.
 
-|Participant|Incomplete-action verb doer pronoun|u-state incomplete-action verb | $\emptyset$-state incomplete-action verb|
+|Participant|Incomplete-action verb doer pronoun|u-state incomplete-action verb | [0]{.txt}-state incomplete-action verb|
 |:---|:--|:---|:---|
 | he          |_invisible_         |[يَفْعَلُ]{.ar}    |[يَفْعَلْ]{.ar}    |
 | she         |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلْ]{.ar}    |
@@ -9864,24 +9924,24 @@ for all doer participants.
 
 Take note the following:
 
-+ The u-state and $\emptyset$-state verbs are the same for the feminine plural absentee and addressee participants: 
++ The u-state and [0]{.txt}-state verbs are the same for the feminine plural absentee and addressee participants: 
   + [يَفْعَلْنَ]{.ar} (they~3+,f~)
   + [تَفْعَلْنَ]{.ar} (you~3+,f~)
-+ The u-state and $\emptyset$-state verbs for the masculine plural absentee and addressee participants have a final silent [Ealif]{.trn}: 
++ The u-state and [0]{.txt}-state verbs for the masculine plural absentee and addressee participants have a final silent [Ealif]{.trn}: 
   + [يَفْعَلُوا]{.ar} (they~3+,m~) 
   + [تَفْعَلُوا]{.ar} (you~3+,m~)
 + When the 
-$\emptyset$-state
+[0]{.txt}-state
 incomplete-action verb
 ends with a 
-$\emptyset$-mark [◌ْ]{.ar}, and the next word begins with a connecting [hamzah]{.trn} [ٱ]{.ar} then the
-$\emptyset$-mark [◌ْ]{.ar} is converted to an [i]{.trn} mark [◌ِ]{.ar}. For example:
+[0]{.txt}-mark [◌ْ]{.ar}, and the next word begins with a connecting [hamzah]{.trn} [ٱ]{.ar} then the
+[0]{.txt}-mark [◌ْ]{.ar} is converted to an [i]{.trn} mark [◌ِ]{.ar}. For example:
   + [يَفْعَلْ + ٱلرَّجُلُ = يَفْعَلِ ٱلرَّجُلُ]{.ar}
 
-## Uses of the $\emptyset$-state incomplete-action verb
+## Uses of the [0]{.txt}-state incomplete-action verb
 
 The u-state is the default state for incomplete-action verbs. The 
-$\emptyset$-state
+[0]{.txt}-state
 is used only in specific cases. We will explain these below.
 
 ### With [لِ]{.ar} for indirect commands
@@ -9889,7 +9949,7 @@ is used only in specific cases. We will explain these below.
 The particle [لِ]{.ar} when connected to the front of a 
 incomplete-action verb
 causes it to be in the
-$\emptyset$-state
+[0]{.txt}-state
 and gives it the meaning of an indirect command. In English this can be translated using "should" or "let":
 
 [لِيَذْهَبِ ٱَلرَّجُلُ]{.ar}  
@@ -9900,7 +9960,7 @@ or
 
 The particles [فَ]{.ar} "so" and [وَ]{.ar} "and" are frequently used before this [لِ]{.ar}. 
 The [لِ]{.ar} then loses its [i]{.trn}-mark and gets a
-$\emptyset$-mark. Examples:
+[0]{.txt}-mark. Examples:
 
 [فَلْنَأْكُلْ طَعَامَنَا وَلْنَشْرَبْ شَرَابَنَا.]{.ar}  
 "So let us eat our food and drink our drink!"
@@ -9920,7 +9980,7 @@ https://shamela.ws/book/13301/1655#p1
 ### With [لَا]{.ar} for prohibitions {#la-of-prohibition}
 
 The word [لَا]{.ar} when in front of a 
-$\emptyset$-state
+[0]{.txt}-state
 incomplete-action verb
 gives the meaning of a prohibition. 
 In English this can be translated using "Don't".
@@ -9952,7 +10012,7 @@ http://www.alfaseeh.com/vb/showthread.php?t=72471&p=558734&viewfull=1#post558734
 -->
 
 By the way, [لَا]{.ar} does not force a verb to be in the u-state
-$\emptyset$-state. We have already seen in 
+[0]{.txt}-state. We have already seen in 
 section\ \@ref(u-state-verb-negation-la)
 that [لَا]{.ar} can be used to negate a u-state incomplete-action verb for the present and future tense.
 Example:
@@ -9968,7 +10028,7 @@ Example:
 The particle [لَمْ]{.ar} when in front of an
 incomplete-action verb
 causes it to be in the
-$\emptyset$-state
+[0]{.txt}-state
 and gives it the meaning of
 negating the past tense
 In English this can be translated using "did not".
@@ -9994,7 +10054,7 @@ Here are some more examples:
 ### With [لَمَّا]{.ar} for "did not yet"
 
 The word [لَمَّا]{.ar} when in front of a 
-$\emptyset$-state
+[0]{.txt}-state
 incomplete-action verb
 gives the meaning "did not yet". 
 For example,
@@ -10002,9 +10062,9 @@ For example,
 [لَمَّا يَذْهَبْ زَيْدٌ.]{.ar}  
 "Zayd did not go yet."
 
-### Other uses of the $\emptyset$-state incomplete-action verb
+### Other uses of the [0]{.txt}-state incomplete-action verb
 
-The $\emptyset$-state incomplete-action verb is also used for _consequential actions_ and in _conditional statements_. We will deal with these in
+The [0]{.txt}-state incomplete-action verb is also used for _consequential actions_ and in _conditional statements_. We will deal with these in
 chapters\ \@ref(the-consequential-action)
 and\ \@ref(conditional-statements)
 respectively
@@ -10012,7 +10072,7 @@ respectively
 ## The verb of command
 
 In order to give a direct command to an addressee, Arabic uses the verb of command. The verb of command is very similar to the 
-$\emptyset$-state
+[0]{.txt}-state
 incomplete-action verb.
 The verb of command is only available for the addressee participant. 
 
@@ -10028,7 +10088,7 @@ Here is the verb of command for the addressee participants:
 | you~3+,m~   |[ٱفْعَلُوا]{.ar}  |
 | you~3+,f~   |[ٱفْعَلْنَ]{.ar}   |
 
-In order to form the verb of command, we remove the initial [ت]{.ar} from the addressee particpant verb. The verb then begins with an $\emptyset$-mark so we place a connecting [hamzah]{.trn} in front of it.
+In order to form the verb of command, we remove the initial [ت]{.ar} from the addressee particpant verb. The verb then begins with an [0]{.txt}-mark so we place a connecting [hamzah]{.trn} in front of it.
 
 When the verb of command occurs in the beginning of a sentence, then the vowel mark for the connecting [hamzah]{.trn} is selected according to the following criteria:
 
@@ -10057,7 +10117,7 @@ Here are some examples of using the verb of command:
 
 The verb of command is not used to issue negative commands, like "Don't go!". 
 Instead, the 
-$\emptyset$-state verb is used with [لَا]{.ar}
+[0]{.txt}-state verb is used with [لَا]{.ar}
 as described in
 section\ \@ref(la-of-prohibition)
 above.
@@ -10173,7 +10233,7 @@ Examples of usage:
 
 In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-23-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-24-1.png)<!-- -->
 
 "This man is a teacher."
 
@@ -10367,7 +10427,7 @@ to complete the sentence. We will see examples of this below.
 
 ### The [أَنَّ]{.ar} clause in place of the direct doee
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-24-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-25-1.png)<!-- -->
 
 "I know that Zayd is truthful."
 
@@ -10385,7 +10445,7 @@ clauses can be placed where one would expect other noun positions, such as: a su
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-25-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-26-1.png)<!-- -->
 
 "That you are sick has reached me." ("It has reached me that you are sick.")
 
@@ -10393,7 +10453,7 @@ Example:
 
 Example (with information before subject in sentence word order):
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-26-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-27-1.png)<!-- -->
 
 "From his characteristeics is that he is noble."
 
@@ -10401,7 +10461,7 @@ Example (with information before subject in sentence word order):
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-27-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-28-1.png)<!-- -->
 
 "The truth is that he went."
 
@@ -10411,13 +10471,13 @@ As you know, [كَانَ]{.ar}'s doer is also its subject, and its doee is also 
 The [أَنَّ]{.ar} clause can occur in either the subject or the information of [كَنَ]{.ar}. 
 For example, the [أَنَّ]{.ar} clause as the information:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-28-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-29-1.png)<!-- -->
 
 "The matter was that he didn't do his obligation."
 
 Now, the [أَنَّ]{.ar} clause as the subject:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-29-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-30-1.png)<!-- -->
 
 "That he didn't do his obligation was the matter."
 
@@ -10427,13 +10487,13 @@ Note that in the latter case, the information precedes the subject.
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state base noun in an annexation. Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-30-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-31-1.png)<!-- -->
 
 "The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous."
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly following a preposition. Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-31-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.png)<!-- -->
 
 "I wondered at that Zayd is asleep."
 
@@ -10515,7 +10575,7 @@ TODO
 
 There is a sub-type of subject-information sentence called a topic-comment sentence. Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-33-1.png)<!-- -->
 
 "The tree: its branches are long."
 
@@ -10566,7 +10626,7 @@ the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
 
 There is a special pronoun, called the _pronoun of the fact_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-33-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.png)<!-- -->
 
 "The fact is: the cold is intense."
 
@@ -10714,7 +10774,7 @@ is a verbal sentence, then it is  preferred to separate the verb from [أَنْ]
    [أَعْلَمُ أَنْ لَمْ يَذْهَبْ.]{.ar}  
    "I know that he did not go."
 
-   Note that the [لَنْ]{.ar} and [لَمْ]{.ar}, even when after the lightened [أَنْ]{.ar}, change the state of the following incomplete-action verb to the a-state and $\emptyset$-state respectively.
+   Note that the [لَنْ]{.ar} and [لَمْ]{.ar}, even when after the lightened [أَنْ]{.ar}, change the state of the following incomplete-action verb to the a-state and [0]{.txt}-state respectively.
 
 4. The conditional particle [لَوْ]{.ar}. We will study conditional sentences in chapter\ \@ref(conditional-sentences). TODO: add example.
 
@@ -11189,13 +11249,13 @@ So how do we know when to write [hamzao]{.trn} unseated and when seated? And how
            [سَائِلُ]{.ar} [sAEilu]{.trn}.  
            If the [hamzao]{.trn} has an [u]{.trn}-mark it is written seated on [wAw]{.trn}. Example: [تَسَاؤُلُ]{.ar} [tasAEulu]{.trn}.  
            Otherwise, when the [hamzao]{.trn} has an [a]{.trn}-mark, it is written unseated. Example: [سَاءَلَ]{.ar} [sAEala]{.trn}, [قِرَاءَاتُ]{.ar} [qirAEAtu]{.trn}.
-   b. If the letter before the [hamzao]{.trn} has a $\emptyset$-mark and is not [wAw]{.trn} or [yAE]{.trn}, then:
+   b. If the letter before the [hamzao]{.trn} has a [0]{.txt}-mark and is not [wAw]{.trn} or [yAE]{.trn}, then:
       i. If the [hamzao]{.trn} was originally at the end of the word, but a suffix has been attached to the word, then the [hamzao]{.trn} will be written unseated. Examples: [عِبْـَٔانِ]{.ar} [eibEAni]{.trn}, [عِبْـَٔييْنِ]{.ar} [eibEayni]{.trn}, [بُطْـَٔهُ]{.ar} [buTEahu]{.trn}, [بُطْـُٔهُ]{.ar} [buTEuhu]{.trn}, [بُطْـِٔهِ]{.ar} [buTEihi]{.trn}. ([انِ]{.ar}, [يْنِ]{.ar}, [هُ]{.ar}, and [هِ]{.ar} are suffixes).
       ii. Otherwise, if the [hamzao]{.trn} is originally at the middle of the word, then it is written seated on [wAw]{.trn} if it has an [u]{.trn}-mark and [yAE]{.trn} if it has an [i]{.trn}-mark. Examples: [مَسْؤُولُ]{.ar} [masEUlu]{.trn}, [تَرْئِيسُ]{.ar} [tarEIsu]{.trn}.  
           If the [hamzao]{.trn} has an [a]{.trn} mark then:  
           If it is followed by a long-[A]{.trn} vowel represented by an [Ealif]{.trn}, the [hamzao]{.trn} is unseated followed by the [Ealif]{.trn} and the combination is written as [آ]{.ar}. Example: [مِرْآةُ]{.ar} [mirEAtu]{.trn}, [ظَمْآنُ]{.ar} [PamEAnu]{.trn}.  
           Otherwise, if there is no [Ealif]{.trn} after the [hamzao]{.trn}, the [hamzao]{.trn} is written seated on [Ealif]{.trn}. Examples: [مَسْأَلَةُ]{.ar} [masEalatu]{.trn}, , [مَرْأَةُ]{.ar} [marEatu]{.trn}.
-   c. If the [hamzao]{.trn} has a $\emptyset$-mark, then it is written seated on [Ealif]{.trn} if it has an [a]{.trn}-mark, [wAw]{.trn} if it has an [u]{.trn}-mark, and [yAE]{.trn} if it has an [i]{.trn}-mark. Examples: [كَأْسُ]{.ar} [kaEsu]{.trn}, [بِئْسَ]{.ar} [biEsa]{.trn}, [سُؤْلَكَ]{.ar} [suElaka]{.trn}.
+   c. If the [hamzao]{.trn} has a [0]{.txt}-mark, then it is written seated on [Ealif]{.trn} if it has an [a]{.trn}-mark, [wAw]{.trn} if it has an [u]{.trn}-mark, and [yAE]{.trn} if it has an [i]{.trn}-mark. Examples: [كَأْسُ]{.ar} [kaEsu]{.trn}, [بِئْسَ]{.ar} [biEsa]{.trn}, [سُؤْلَكَ]{.ar} [suElaka]{.trn}.
    d. Otherwise, only if the above conditions are not satisfied, then compare the vowel marks of the [hamzao]{.trn} and the letter before it:
       i. If either vowel mark is an [i]{.trn}-mark then the [hamzao]{.trn} will be written on a [yAE]{.trn}. Examples: [سُئِلَ]{.ar} [suEila]{.trn}, [يَئِسَ]{.ar} [yaEisa]{.trn}, [مُتَّكِئِينَ]{.ar} [muttakiEIna]{.trn}.
       ii. If neither vowel mark is an [i]{.trn}-mark, and at least one of the vowel marks is a [u]{.trn}-mark, then the [hamzao]{.trn} will be written on a [wAw]{.trn}. Examples: [سُؤَالُ]{.ar} [suEAlu]{.trn}, [رُؤُوسُ]{.ar} [ruEUsu]{.trn}, [لُؤَيُّ]{.ar} [luEayyu]{.trn}.
@@ -11207,7 +11267,7 @@ So how do we know when to write [hamzao]{.trn} unseated and when seated? And how
 
 3. If [hamzao]{.trn} is at the end of a word, disregard the vowel mark on it and consider only the letter before the [hamzao]{.trn}.
    a. If there is a long vowel ([A]{.trn}, [I]{.trn}, [U]{.trn}) or a semi-vowel ([aw]{.trn}, [ay]{.trn}) before it then the [hamzao]{.trn} will be written unseated. Examples: [دُعَاءُ]{.ar} [dueAEu]{.trn}, [سُوءُ]{.ar} [sUEu]{.trn}, [جِيءَ]{.ar} [jIEa]{.trn}, [ضَوْءَ]{.ar} [DawEa]{.trn}, [شَيْءَ]{.ar} [cayEa]{.trn}.
-   b. Otherwise, if the previous letter has a $\emptyset$-mark, the [hamzao]{.trn} will again be unseated. Examples: [بُطْءُ]{.ar} [buTEu]{.trn}, [عِبْءُ]{.ar} [eibEu]{.trn}, [شَطْءُ]{.ar} [caTEu]{.trn}
+   b. Otherwise, if the previous letter has a [0]{.txt}-mark, the [hamzao]{.trn} will again be unseated. Examples: [بُطْءُ]{.ar} [buTEu]{.trn}, [عِبْءُ]{.ar} [eibEu]{.trn}, [شَطْءُ]{.ar} [caTEu]{.trn}
    c. Otherwise, if the previous letter is a doubled [wAw]{.trn} with an [u]{.trn}-mark, the [hamzao]{.trn} will again be unseated. Example [تَبَوُّءُ]{.ar} [tabawwuEu]{.trn}.
    d. Otherwise, if the previous letter has an:
       i. [a]{.trn}-mark, the [hamzao]{.trn} is written seated on [Ealif]{.trn}. Example [يَهْدَأُ]{.ar} [yahdaEu]{.trn}, [مُبْتَدَإِ]{.ar} [mubtadaEi]{.trn}.
