@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-714-gebc2e1b"
+date: "v0.1.0-715-g376f0ba"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9794,15 +9794,47 @@ Root: [سعي]{.arroot}
 incomplete-action verb to be in the a-state.
 The other articles that we listed in the introduction are all either derived from 
 [أَنْ]{.ar} 
-or include it implicitly without expressing it.
+or include its meaning implicitly without expressing it.
 
-u-state  
-a-state  
-0︀-state  
-Ø-state  
-[0]{.txt}-state  
-∅-state  
-⌀-state  
+[أَنْ]{.ar} often follows verbs that have a meaning of wishing or hoping. For example,
+
+[أَمَلَ ٱلطَّالِبُ أَنْ يَنْجَحَ.]{.ar}  
+[Eamala -TTAlibu Ean yanjaH.]{.trn}  
+"The student hoped that he succeed."
+
+[لَا]{.ar} can be used to negate the following a-state incomplete-action verb.
+[لَا]{.ar} combines with [أَنْ]{.ar} and assimilates with it to form [أَلَّا]{.ar} [EallA]{.trn} "that not".
+For example,
+
+[أَمَرَ ٱلْأَبُ ٱلِٱبْنَ أَلَّا يَكْسَلَ.]{.ar}  
+[Eamara -lEabu li-bna EallA yaksal.]{.trn}  
+"The father ordered the son that he not be lazy."
+
+Other than this [لَا]{.ar},
+[أَنْ]{.ar} must directly precede the following a-state incomplete-action verb and must not be separated from it.
+
+In grammatical theory,
+[أَنْ]{.ar} 
+and the following verb form a clause that is equivalent in meaning to the doing verbal-noun of the verb. So in the example,
+[أَمَلَ ٱلطَّالِبُ أَنْ يَنْجَحَ.]{.ar}, the 
+[أَنْ]{.ar} clause
+([أَنْ يَنْجَحَ.]{.ar})
+is equivalent to the doing verbal noun [ٱلنَّجَاح]{.ar}.
+So the sentence is grammatically equivalent to
+
+[أَمَلَ ٱلطَّالِبُ ٱلنَّجَاحَ.]{.ar}  
+[Eamala -TTAlibu -nnajAH.]{.trn}  
+"The student hoped [for] success."
+
+This grammatical equivalence of the 
+[أَنْ]{.ar} clause
+with a noun aloows the 
+[أَنْ]{.ar} clause to take the place of a noun in various positions in a sentence.
+So, in the above example, the 
+[أَنْ]{.ar} clause
+is in place of the direct doee of the verb [أَمَلَ]{.ar}:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-23-1.png)<!-- -->
 
 
 <!--chapter:end:srcrmd/imperfect_verb_subj.Rmd-->
@@ -10201,7 +10233,7 @@ Examples of usage:
 
 In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-23-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-24-1.png)<!-- -->
 
 "This man is a teacher."
 
@@ -10395,7 +10427,7 @@ to complete the sentence. We will see examples of this below.
 
 ### The [أَنَّ]{.ar} clause in place of the direct doee
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-24-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-25-1.png)<!-- -->
 
 "I know that Zayd is truthful."
 
@@ -10413,7 +10445,7 @@ clauses can be placed where one would expect other noun positions, such as: a su
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-25-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-26-1.png)<!-- -->
 
 "That you are sick has reached me." ("It has reached me that you are sick.")
 
@@ -10421,7 +10453,7 @@ Example:
 
 Example (with information before subject in sentence word order):
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-26-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-27-1.png)<!-- -->
 
 "From his characteristeics is that he is noble."
 
@@ -10429,7 +10461,7 @@ Example (with information before subject in sentence word order):
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-27-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-28-1.png)<!-- -->
 
 "The truth is that he went."
 
@@ -10439,13 +10471,13 @@ As you know, [كَانَ]{.ar}'s doer is also its subject, and its doee is also 
 The [أَنَّ]{.ar} clause can occur in either the subject or the information of [كَنَ]{.ar}. 
 For example, the [أَنَّ]{.ar} clause as the information:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-28-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-29-1.png)<!-- -->
 
 "The matter was that he didn't do his obligation."
 
 Now, the [أَنَّ]{.ar} clause as the subject:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-29-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-30-1.png)<!-- -->
 
 "That he didn't do his obligation was the matter."
 
@@ -10455,13 +10487,13 @@ Note that in the latter case, the information precedes the subject.
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state base noun in an annexation. Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-30-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-31-1.png)<!-- -->
 
 "The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous."
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly following a preposition. Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-31-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.png)<!-- -->
 
 "I wondered at that Zayd is asleep."
 
@@ -10543,7 +10575,7 @@ TODO
 
 There is a sub-type of subject-information sentence called a topic-comment sentence. Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-33-1.png)<!-- -->
 
 "The tree: its branches are long."
 
@@ -10594,7 +10626,7 @@ the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
 
 There is a special pronoun, called the _pronoun of the fact_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-33-1.png)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.png)<!-- -->
 
 "The fact is: the cold is intense."
 

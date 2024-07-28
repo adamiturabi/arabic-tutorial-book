@@ -3,9 +3,16 @@
 \usepackage[luatex,active,tightpage]{preview}
 \usepackage{amsmath}
 \usepackage{tikz}
+
+\usepackage{fontspec} % this also loads fontspec
+\defaultfontfeatures{Scale=MatchLowercase}
+\defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\setmainfont{Charis SIL}
+
 \usetikzlibrary{matrix}
 \usepackage{arabluatex}
-\newfontfamily\arabicfont{Vazirmatn-Light}[Script=Arabic]
+\newfontfamily{\arabicfont}[Script=Arabic,Scale=1.0]{Vazirmatn-Light}
+%\newfontfamily\arabicfont{Vazirmatn-Light}[Script=Arabic]
 
 \begin{document}
 \begin{preview}

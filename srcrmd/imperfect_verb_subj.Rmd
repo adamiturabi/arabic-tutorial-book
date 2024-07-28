@@ -126,13 +126,63 @@ Root: [سعي]{.arroot}
 incomplete-action verb to be in the a-state.
 The other articles that we listed in the introduction are all either derived from 
 [أَنْ]{.ar} 
-or include it implicitly without expressing it.
+or include its meaning implicitly without expressing it.
 
-u-state  
-a-state  
-0︀-state  
-Ø-state  
-[0]{.txt}-state  
-∅-state  
-⌀-state  
+[أَنْ]{.ar} often follows verbs that have a meaning of wishing or hoping. For example,
+
+[أَمَلَ ٱلطَّالِبُ أَنْ يَنْجَحَ.]{.ar}  
+[Eamala -TTAlibu Ean yanjaH.]{.trn}  
+"The student hoped that he succeed."
+
+[لَا]{.ar} can be used to negate the following a-state incomplete-action verb.
+[لَا]{.ar} combines with [أَنْ]{.ar} and assimilates with it to form [أَلَّا]{.ar} [EallA]{.trn} "that not".
+For example,
+
+[أَمَرَ ٱلْأَبُ ٱلِٱبْنَ أَلَّا يَكْسَلَ.]{.ar}  
+[Eamara -lEabu li-bna EallA yaksal.]{.trn}  
+"The father ordered the son that he not be lazy."
+
+Other than this [لَا]{.ar},
+[أَنْ]{.ar} must directly precede the following a-state incomplete-action verb and must not be separated from it.
+
+In grammatical theory,
+[أَنْ]{.ar} 
+and the following verb form a clause that is equivalent in meaning to the doing verbal-noun of the verb. So in the example,
+[أَمَلَ ٱلطَّالِبُ أَنْ يَنْجَحَ.]{.ar}, the 
+[أَنْ]{.ar} clause
+([أَنْ يَنْجَحَ.]{.ar})
+is equivalent to the doing verbal noun [ٱلنَّجَاح]{.ar}.
+So the sentence is grammatically equivalent to
+
+[أَمَلَ ٱلطَّالِبُ ٱلنَّجَاحَ.]{.ar}  
+[Eamala -TTAlibu -nnajAH.]{.trn}  
+"The student hoped [for] success."
+
+This grammatical equivalence of the 
+[أَنْ]{.ar} clause
+with a noun aloows the 
+[أَنْ]{.ar} clause to take the place of a noun in various positions in a sentence.
+So, in the above example, the 
+[أَنْ]{.ar} clause
+is in place of the direct doee of the verb [أَمَلَ]{.ar}:
+
+```{r,echo=FALSE,engine='tikz', engine.opts = list(template = "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{أَنْ يَنْجَحَ} \txarb{أَمَلَ ٱلطَّالِبُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below] {\scriptsize direct doee};
+
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The truth is that he went.''};
+
+\end{tikzpicture}
+```
 
