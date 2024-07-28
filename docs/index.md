@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-715-g376f0ba"
+date: "v0.1.0-716-gbe09250"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
