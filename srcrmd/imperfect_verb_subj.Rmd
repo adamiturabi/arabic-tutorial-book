@@ -150,7 +150,7 @@ In grammatical theory,
 and the following verb form a clause that is equivalent in meaning to the doing verbal-noun of the verb. So in the example,
 [أَمَلَ ٱلطَّالِبُ أَنْ يَنْجَحَ.]{.ar}, the 
 [أَنْ]{.ar} clause
-([أَنْ يَنْجَحَ.]{.ar})
+([أَنْ يَنْجَحَ]{.ar})
 is equivalent to the doing verbal noun [ٱلنَّجَاح]{.ar}.
 So the sentence is grammatically equivalent to
 
@@ -181,7 +181,77 @@ is in place of the direct doee of the verb [أَمَلَ]{.ar}:
    (word-1.south west) -- (word-1.south east)
       node [midway, below] {\scriptsize direct doee};
 
-\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The truth is that he went.''};
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The student hoped that he suceed.''};
+
+\end{tikzpicture}
+```
+
+We show other examples below where the
+[أَنْ]{.ar} clause
+occurs in place of other noun positions.
+
+As the subject:
+
+```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{هُوَ ٱلْمَقْصِدُ} \txarb{أَنْ تَنْجَحَ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, below] {\scriptsize subject};
+
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``That you suceed is the purpose.''};
+
+\end{tikzpicture}
+```
+
+As the information:
+
+```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{أَنْ تَنْجَحَ} \txarb{ٱَلْمَقْصِدُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below] {\scriptsize information};
+
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The purpose is that you suceed.''};
+
+\end{tikzpicture}
+```
+
+As the base noun in an annexation:
+
+```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{عَلَيَّ} \txarb{أَنْ تَغْضَبَ} \txarb{لَبِثْتُ فِي ٱلْبَيْتِ مِنْ خَشْيَةِ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, below] {\scriptsize base noun};
+
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``I lingered at home from fear that you be angry at me.''};
 
 \end{tikzpicture}
 ```
