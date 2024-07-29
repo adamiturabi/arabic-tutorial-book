@@ -99,8 +99,14 @@
 \usepackage{sectsty}
 \allsectionsfont{\normalsize}
 
+
 % section style, all section headings normal size bold, except chapter headings
-\usepackage[bf,tiny,compact]{titlesec}
+\usepackage[rm,tiny]{titlesec}
+%\definecolor{gray75}{gray}{0.5}
+%\titleformat*{\chapter}      {\normalfont\normalsize\color{gray75}}
+%\titleformat*{\section}      {\normalfont\normalsize\color{gray75}}
+%\titleformat*{\subsection}   {\normalfont\normalsize\color{gray75}}
+%\titleformat*{\subsubsection}{\normalfont\normalsize\color{gray75}}
 
 % Arabic font's ascenders, descenders, and diacritics increase Latex's line
 % spacing irregularly for some lines more than others to result in a visually
@@ -130,9 +136,17 @@
 %\renewcommand{\thesection}{\S\oldthesection}
 
 % Fancy header
+
+% use this command from preface
+%\newcommand{\forcefancyhdr}[1]{\markboth {\textsc{\MakeLowercase{#1}}}{\textsc{\MakeLowercase{#1}}}}
+
 \renewcommand{\chaptermark}[1]{\markboth {\textsc{\MakeLowercase{\thechapter\ #1}}}{}}
 \renewcommand{\sectionmark}[1]{\markright{\textsc{\MakeLowercase{\S\thesection\ }}}}
+
+% Start fancy header style beginning here, override with thispagestyle{empty} for copyright page
 \pagestyle{fancy}
+
+\fancypagestyle{mymainstyle}{%
 \fancyhf{}
 %\fancyhead[LE]{\thepage\phantom{xxx}\itshape\nouppercase{Fundamentals of Standard Arabic}}
 %\fancyhead[RO]{\itshape\nouppercase{\leftmark}\phantom{xxx}\thepage}
@@ -150,11 +164,13 @@
 
 \fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\tiny{Author Names, \textit{Learn Standard Arabic}, \texttt{\gitTag}\\\url{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
 
+}% definition of mymainstyle
+
 % Footer for chapter start pages:
 \fancypagestyle{plain}{%
 \fancyhf{}
 \fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\tiny{Author Names, \textit{Learn Standard Arabic}, \texttt{\gitTag}\\\url{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
-\fancyfoot[CO]{\footnotesize\thepage}
+\fancyfoot[CO]{\thepage}
 }
 
 % Blank pages (e.g., left hand pages between chapters should be completely blank. no headers even
@@ -183,19 +199,42 @@
 \babelfont[arabic]{sf}
           [Language=Default]{Vazirmatn-Light}
 
-% Reduce font size and line spacing for Table of contents
-\usepackage{tocloft}
+% Customize ToC table of contents
+\usepackage[titles]{tocloft}
 
-\renewcommand\cftchapfont{\footnotesize\bfseries}
+% Reserve horizontal spacing for chapter and section numbers
+\setlength{\cftchapnumwidth}{3em}
+\setlength{\cftsecnumwidth}{3em}
+
+% No dots between chapter/section name and page number
+\renewcommand{\cftchapdotsep}{\cftnodots}
+\renewcommand{\cftsecdotsep}{\cftnodots}
+
+% Some horizontal space between chapter/section name and page number
+\renewcommand{\cftchapleader}{\quad}
+\renewcommand{\cftsecleader} {\quad}
+\renewcommand{\cftchapafterpnum}{\cftparfillskip}
+\renewcommand{\cftsecafterpnum}{\cftparfillskip}
+% Page number aligned left instead of right
+\renewcommand{\cftpnumalign}{l}
+
+% Chapter and section name font sizes
+\renewcommand\cftchapfont{\normalfont}
 \renewcommand\cftsecfont{\footnotesize}
 
-\renewcommand\cftchappagefont{\footnotesize\bfseries}
+% Chapter and section page number font sizes
+\renewcommand\cftchappagefont{\normalfont}
 \renewcommand\cftsecpagefont{\footnotesize}
 
-\renewcommand\cftchapafterpnum{\vskip -0.2em}
-\renewcommand\cftsecafterpnum {\vskip -0.2em}
+% Short/brief table of contents before detailed one
+% See frontpage.tex for additional customization there
+\usepackage[tight]{shorttoc}
 
-%\frontmatter
+% Change title of original ToC to contrast with shorttoc title
+\addto\captionsenglish{% Replace "english" with the language you use
+  \renewcommand{\contentsname}%
+    {Detailed Contents}%
+}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -219,7 +258,7 @@
 \makeatother
 \subtitle{A self-instruction textbook with grammar, vocabulary, and exercises}
 \author{Author Names}
-\date{v0.1.0-719-g60f6afb}
+\date{v0.1.0-723-g4f6c5ff}
 
 \begin{document}
 \maketitle
@@ -255,6 +294,18 @@ in the Charis, Vazirmatn, and Amiri typefaces.
 \endgroup
 \clearpage
 
+\newpage
+% Force Latex to begin Main matter headers and pagination from the very beginning
+\mainmatter
+\pagestyle{mymainstyle}
+\begingroup
+% For short ToC remove vertical spacing between lines for more condensed look
+%\setlength{\cftparskip}{-2pt}
+\setlength{\cftbeforechapskip}{-3pt}
+\shorttableofcontents{Brief Contents}{0}
+\endgroup
+
+
 {
 \setcounter{tocdepth}{1}
 \tableofcontents
@@ -262,7 +313,7 @@ in the Charis, Vazirmatn, and Amiri typefaces.
 \chapter*{Preface}\label{preface}
 \addcontentsline{toc}{chapter}{Preface}
 
-\markboth{Preface}{Preface}
+\markboth {\textsc{\MakeLowercase{Preface}}}{\textsc{\MakeLowercase{Preface}}}
 
 \foreignlanguage{arabic}{بسم الله الرحمن الرحيم}
 

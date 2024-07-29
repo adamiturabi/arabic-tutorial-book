@@ -78,8 +78,9 @@ output:
 ---
 
 # Preface {-}
+
 <!--The following line is needed because Preface is an unnumbered chapter and otherwise fancy header will print the header text for the previous chapter "Contents"-->
-\markboth{Preface}{Preface}
+\markboth {\textsc{\MakeLowercase{Preface}}}{\textsc{\MakeLowercase{Preface}}}
 
 <!--to allow git describe to run-->
 ```{r, include=FALSE}
