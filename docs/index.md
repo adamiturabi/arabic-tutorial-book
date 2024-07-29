@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-719-g60f6afb"
+date: "v0.1.0-725-gd9ed16e"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -78,8 +78,9 @@ output:
 ---
 
 # Preface {-}
+
 <!--The following line is needed because Preface is an unnumbered chapter and otherwise fancy header will print the header text for the previous chapter "Contents"-->
-\markboth{Preface}{Preface}
+\markboth {\textsc{\MakeLowercase{Preface}}}{\textsc{\MakeLowercase{Preface}}}
 
 <!--to allow git describe to run-->
 
@@ -205,52 +206,52 @@ The Arabic alphabet traditionally has 28 letters, shown in the table below.
 
 No.|Arabic letter|Tran-scrip-tion|Name |Description
 :-|:--|:--|:------|:---------------------------
- 1|[ا]{.ar}|[A]{.trn}| [أَلِف]{.ar} [Ealif]{.trn} |A vowel like in English "man". But after these letters ([خ،ر،ص،ض،غ،ق]{.ar}) it sounds like "awe" in English "awesome".
- 2|[ب]{.ar}|[b]{.trn}| [بَاء]{.ar} [bAE]{.trn} |Equivalent to English "b" in "boy".
- 3|[ت]{.ar}|[t]{.trn}| [تَاء]{.ar} [tAE]{.trn} |Similar to English "t" in "tall" but softer. Touch the tongue against the back of the top front teeth instead of just the gum.
- 4|[ث]{.ar}|[v]{.trn}| [ثَاء]{.ar} [vAE]{.trn} |Similar to to English "th" in "think" but softer. Have your lips and cheek in a wide grin. Loosely bite the tip of your tongue between your front teeth and then force air out trying to hiss "ssss". Keep your tongue touching the top and bottom teeth and the hiss should come out like a "th" sound.
- 5|[ج]{.ar}|[j]{.trn}| [جِيم]{.ar} [jIm]{.trn} |Equivalent to English "j" in "just".
- 6|[ح]{.ar}|[H]{.trn}| [حَاء]{.ar} [HAE]{.trn} |Similar to English "h" in "hat" but pronounced from the bottom of the throat. Take care there is no scraping as with [خ]{.ar}.
- 7|[خ]{.ar}|[x]{.trn}| [خَاء]{.ar} [xAE]{.trn} |Similar to "ch" in Scottish "loch". Try saying "kh" but with a scraping sound.
- 8|[د]{.ar}|[d]{.trn}| [دَال]{.ar} [dAl]{.trn} |Similar to to English "d" in "dog" but softer. Just like with [ت]{.ar}, touch the tongue against the back of the top front teeth instead of just the gum.
- 9|[ذ]{.ar}|[p]{.trn}| [ذَال]{.ar} [pAl]{.trn} |Place your tongue as in [ث]{.ar} and force air out. But this time instead of trying to hiss "ssss" try to buzz "zzzz" and again keep your tongue touching the top and bottom teeth.
-10|[ر]{.ar}|[r]{.trn}| [رَاء]{.ar} [rAE]{.trn} |Equivalent to English "r" in "rat".
-11|[ز]{.ar}|[z]{.trn}| [زَاء]{.ar} [zAE]{.trn} |Equivalent to English "z" in "zoo".
-12|[س]{.ar}|[s]{.trn}| [سِين]{.ar} [sIn]{.trn} |Equivalent to English "s" in "see".
-13|[ش]{.ar}|[c]{.trn}| [شِين]{.ar} [cIn]{.trn} |Equivalent to English "sh" in "show".
-14|[ص]{.ar}|[S]{.trn}| [صَاد]{.ar} [SAd]{.trn} |An emphatic [س]{.ar} that will be described later.
-15|[ض]{.ar}|[D]{.trn}| [ضَاد]{.ar} [DAd]{.trn} |An sound unique to Arabic that will be described later.
-16|[ط]{.ar}|[T]{.trn}| [طَاء]{.ar} [TAE]{.trn} |An emphatic [ت]{.ar} that will be described later.
-17|[ظ]{.ar}|[P]{.trn}| [ظَاء]{.ar} [PAE]{.trn} |An emphatic [ذ]{.ar} that will be described later.
-18|[ع]{.ar}|[e]{.trn}| [عَيْن]{.ar} [eayn]{.trn} |A sound similar to strangulation or gagging. Try to sound "a" from the bottom of the throat.
-19|[غ]{.ar}|[g]{.trn}| [غَيْن]{.ar} [gayn]{.trn} |Somewhat like a "gh" sound but much softer. Try pronouncing [خ]{.ar} but without any scraping.
-20|[ف]{.ar}|[f]{.trn}| [فَاء]{.ar} [fAE]{.trn}| Equivalent to English "f" in "fox".
-21|[ق]{.ar}|[q]{.trn}| [قَاف]{.ar} [qAf]{.trn}| Similar to English "k" in "kite" but further back in the throat.
-22|[ك]{.ar}|[k]{.trn}| [كَاف]{.ar} [kAf]{.trn}| Equivalent to English "k" in "kite".
-23|[ل]{.ar}|[l]{.trn}| [لَام]{.ar} [lAm]{.trn}| Equivalent to English "l" in "light".
-24|[م]{.ar}|[m]{.trn}| [مِيم]{.ar} [mIm]{.trn}| Equivalent to English "m" in "man".
-25|[ن]{.ar}|[n]{.trn}| [نُون]{.ar} [nUn]{.trn}| Equivalent to English "n" in "nut".
-26|[ه]{.ar}|[h]{.trn}| [هَاء]{.ar} [hAE]{.trn}| Equivalent to English "h" in "hat". Much softer than [ح]{.ar}
-27|[و]{.ar}|[w]{.trn}/[U]{.trn}| [وَاو]{.ar} [wAw ]{.trn} |As a consonant it is equivalent to English "w" in "water". It is also a vowel equivalent to English "oo" in "moon".
-28|[ي]{.ar}|[y]{.trn}/[I]{.trn}| [يَاء]{.ar} [yAE]{.trn} |As a consonant it is equivalent to English "y" in "yellow". It is also a vowel equivalent to English "ee" in "meek".
+ 1|[ا]{.ar}|[A]{.trn}| [أَلِف]{.ar} [Ealif]{.trn2} |A vowel like in English "man". But after these letters ([خ،ر،ص،ض،غ،ق]{.ar}) it sounds like "awe" in English "awesome".
+ 2|[ب]{.ar}|[b]{.trn}| [بَاء]{.ar} [bAE]{.trn2} |Equivalent to English "b" in "boy".
+ 3|[ت]{.ar}|[t]{.trn}| [تَاء]{.ar} [tAE]{.trn2} |Similar to English "t" in "tall" but softer. Touch the tongue against the back of the top front teeth instead of just the gum.
+ 4|[ث]{.ar}|[v]{.trn}| [ثَاء]{.ar} [vAE]{.trn2} |Similar to to English "th" in "think" but softer. Have your lips and cheek in a wide grin. Loosely bite the tip of your tongue between your front teeth and then force air out trying to hiss "ssss". Keep your tongue touching the top and bottom teeth and the hiss should come out like a "th" sound.
+ 5|[ج]{.ar}|[j]{.trn}| [جِيم]{.ar} [jIm]{.trn2} |Equivalent to English "j" in "just".
+ 6|[ح]{.ar}|[H]{.trn}| [حَاء]{.ar} [HAE]{.trn2} |Similar to English "h" in "hat" but pronounced from the bottom of the throat. Take care there is no scraping as with [خ]{.ar}.
+ 7|[خ]{.ar}|[x]{.trn}| [خَاء]{.ar} [xAE]{.trn2} |Similar to "ch" in Scottish "loch". Try saying "kh" but with a scraping sound.
+ 8|[د]{.ar}|[d]{.trn}| [دَال]{.ar} [dAl]{.trn2} |Similar to to English "d" in "dog" but softer. Just like with [ت]{.ar}, touch the tongue against the back of the top front teeth instead of just the gum.
+ 9|[ذ]{.ar}|[p]{.trn}| [ذَال]{.ar} [pAl]{.trn2} |Place your tongue as in [ث]{.ar} and force air out. But this time instead of trying to hiss "ssss" try to buzz "zzzz" and again keep your tongue touching the top and bottom teeth.
+10|[ر]{.ar}|[r]{.trn}| [رَاء]{.ar} [rAE]{.trn2} |Equivalent to English "r" in "rat".
+11|[ز]{.ar}|[z]{.trn}| [زَاء]{.ar} [zAE]{.trn2} |Equivalent to English "z" in "zoo".
+12|[س]{.ar}|[s]{.trn}| [سِين]{.ar} [sIn]{.trn2} |Equivalent to English "s" in "see".
+13|[ش]{.ar}|[c]{.trn}| [شِين]{.ar} [cIn]{.trn2} |Equivalent to English "sh" in "show".
+14|[ص]{.ar}|[S]{.trn}| [صَاد]{.ar} [SAd]{.trn2} |An emphatic [س]{.ar} that will be described later.
+15|[ض]{.ar}|[D]{.trn}| [ضَاد]{.ar} [DAd]{.trn2} |An sound unique to Arabic that will be described later.
+16|[ط]{.ar}|[T]{.trn}| [طَاء]{.ar} [TAE]{.trn2} |An emphatic [ت]{.ar} that will be described later.
+17|[ظ]{.ar}|[P]{.trn}| [ظَاء]{.ar} [PAE]{.trn2} |An emphatic [ذ]{.ar} that will be described later.
+18|[ع]{.ar}|[e]{.trn}| [عَيْن]{.ar} [eayn]{.trn2} |A sound similar to strangulation or gagging. Try to sound "a" from the bottom of the throat.
+19|[غ]{.ar}|[g]{.trn}| [غَيْن]{.ar} [gayn]{.trn2} |Somewhat like a "gh" sound but much softer. Try pronouncing [خ]{.ar} but without any scraping.
+20|[ف]{.ar}|[f]{.trn}| [فَاء]{.ar} [fAE]{.trn2}| Equivalent to English "f" in "fox".
+21|[ق]{.ar}|[q]{.trn}| [قَاف]{.ar} [qAf]{.trn2}| Similar to English "k" in "kite" but further back in the throat.
+22|[ك]{.ar}|[k]{.trn}| [كَاف]{.ar} [kAf]{.trn2}| Equivalent to English "k" in "kite".
+23|[ل]{.ar}|[l]{.trn}| [لَام]{.ar} [lAm]{.trn2}| Equivalent to English "l" in "light".
+24|[م]{.ar}|[m]{.trn}| [مِيم]{.ar} [mIm]{.trn2}| Equivalent to English "m" in "man".
+25|[ن]{.ar}|[n]{.trn}| [نُون]{.ar} [nUn]{.trn2}| Equivalent to English "n" in "nut".
+26|[ه]{.ar}|[h]{.trn}| [هَاء]{.ar} [hAE]{.trn2}| Equivalent to English "h" in "hat". Much softer than [ح]{.ar}
+27|[و]{.ar}|[w]{.trn}/[U]{.trn}| [وَاو]{.ar} [wAw ]{.trn2} |As a consonant it is equivalent to English "w" in "water". It is also a vowel equivalent to English "oo" in "moon".
+28|[ي]{.ar}|[y]{.trn}/[I]{.trn}| [يَاء]{.ar} [yAE]{.trn2} |As a consonant it is equivalent to English "y" in "yellow". It is also a vowel equivalent to English "ee" in "meek".
 
-Note that the letters [و]{.ar} [wAw]{.trn} and [ي]{.ar} [yAE]{.trn} are both vowels and consonants. But that [ا]{.ar} [Ealif]{.trn} is only a vowel. The consonant corresponding to [ا]{.ar} [Ealif]{.trn} is [ء]{.ar} [hamzah]{.trn}. Although [ء]{.ar} [hamzah]{.trn} ought to be considered a letter in its own right, it was historically only pronounced and not written. So it is written as a pronunciation mark and is traditionally not considered part of the 28-letter alphabet.
+Note that the letters [و]{.ar} [wAw]{.trn2} and [ي]{.ar} [yAE]{.trn2} are both vowels and consonants. But that [ا]{.ar} [Ealif]{.trn2} is only a vowel. The consonant corresponding to [ا]{.ar} [Ealif]{.trn2} is [ء]{.ar} [hamzah]{.trn2}. Although [ء]{.ar} [hamzah]{.trn2} ought to be considered a letter in its own right, it was historically only pronounced and not written. So it is written as a pronunciation mark and is traditionally not considered part of the 28-letter alphabet.
 
 No.|Arabic letter|Tran-scrip-tion|Name |Description
 :-|:--|:--|:----|:---------------------------
---|[ء]{.ar}|[E]{.trn}| [هَمْزَة]{.ar} [hamzah]{.trn} | Technically called a glottal stop, it is the sound of the breath stopping in the beginning of, and between the syllables in, the utterance "oh-oh".
+--|[ء]{.ar}|[E]{.trn}| [هَمْزَة]{.ar} [hamzah]{.trn2} | Technically called a glottal stop, it is the sound of the breath stopping in the beginning of, and between the syllables in, the utterance "oh-oh".
 
 ### Pronunciation notes
 
 Some of the sounds are similar to sounds in English but others are very different. Here we will attempt to describe the sounds but we recommend that you learn the correct pronunciation from an experienced Arabic or [#qurEAn]{.trn2} teacher. Online videos may also help in practicing the sounds.
 
-#### [ص]{.ar} [SAd]{.trn}, [ط]{.ar} [TAE]{.trn}, and [ظ]{.ar} [PAE]{.trn}
+#### [ص]{.ar} [SAd]{.trn2}, [ط]{.ar} [TAE]{.trn2}, and [ظ]{.ar} [PAE]{.trn2}
 
-The letters [س]{.ar} [sIn]{.trn}, [ت]{.ar} [tAE]{.trn}, and [ذ]{.ar} [pAl]{.trn} are pronounced with the mouth and lips in a wide grin. Now try pronouncing them, in turn, with the lips round forming a small circle. The sounds will be emphatic and will be [ص]{.ar} [SAd]{.trn}, [ط]{.ar} [TAE]{.trn}, and [ظ]{.ar} [PAE]{.trn} respectively.
+The letters [س]{.ar} [sIn]{.trn2}, [ت]{.ar} [tAE]{.trn2}, and [ذ]{.ar} [pAl]{.trn2} are pronounced with the mouth and lips in a wide grin. Now try pronouncing them, in turn, with the lips round forming a small circle. The sounds will be emphatic and will be [ص]{.ar} [SAd]{.trn2}, [ط]{.ar} [TAE]{.trn2}, and [ظ]{.ar} [PAE]{.trn2} respectively.
 
-#### [ض]{.ar} [DAd]{.trn}
+#### [ض]{.ar} [DAd]{.trn2}
 
-[ض]{.ar} [DAd]{.trn} is thought to be unique to Arabic. There are two ways to pronounce it. The first is similar to an emphatic [د]{.ar}. The second is almost similar to [ظ]{.ar}. We reiterate that it is best to use audio training to help with pronouncing these sounds.
+[ض]{.ar} [DAd]{.trn2} is thought to be unique to Arabic. There are two ways to pronounce it. The first is similar to an emphatic [د]{.ar}. The second is almost similar to [ظ]{.ar}. We reiterate that it is best to use audio training to help with pronouncing these sounds.
 
 ## Writing Arabic words
 
@@ -381,9 +382,9 @@ Disjoint & Joined (simplified) & Joined (traditional)\tabularnewline
 \end{longtable}
 ```
 
-### Looped [tAE]{.trn}
+### Looped [tAE]{.trn2}
 
-Looped [tAE]{.trn} [ة]{.ar} is a special letter which is merged from two letters of the alphabet. It is a [tAE]{.trn} [ت]{.ar} but it is written as a [ه]{.ar} [hAE]{.trn} with two dots above it. Looped [tAE]{.trn} [ة]{.ar} is pronounced exactly as a [ت]{.ar} [tAE]{.trn}, except when it is at the end of a sentence in which case it is pronounced as a [ه]{.ar} [hAE]{.trn} as we'll explain later, if [#allAh]{.trn2} wills. Looped [tAE]{.trn} occurs only at the end of a word so it has only an end form and an isolated form (used when the letter before it is a partially-joining letter). 
+Looped [tAE]{.trn2} [ة]{.ar} is a special letter which is merged from two letters of the alphabet. It is a [tAE]{.trn2} [ت]{.ar} but it is written as a [ه]{.ar} [hAE]{.trn2} with two dots above it. Looped [tAE]{.trn2} [ة]{.ar} is pronounced exactly as a [ت]{.ar} [tAE]{.trn2}, except when it is at the end of a sentence in which case it is pronounced as a [ه]{.ar} [hAE]{.trn2} as we'll explain later, if [#allAh]{.trn2} wills. Looped [tAE]{.trn2} occurs only at the end of a word so it has only an end form and an isolated form (used when the letter before it is a partially-joining letter). 
 
 Examples:
 
@@ -391,18 +392,18 @@ Examples:
 + [شجرة]{.ar}
 + [فتاة]{.ar}
 
-[ت]{.ar} is called "open [tAE]{.trn}" when needed, to differentiate it from looped [tAE]{.trn} [ة]{.ar}.
+[ت]{.ar} is called "open [tAE]{.trn2}" when needed, to differentiate it from looped [tAE]{.trn2} [ة]{.ar}.
 
-### Writing [hamzah]{.trn}
+### Writing [hamzah]{.trn2}
 
-We have mentioned that [hamzah]{.trn} was a later addition to the Arabic alphabet and originally it was only sounded and not written. [#hamzah]{.trn} can be written in a number of different ways:
+We have mentioned that [hamzah]{.trn2} was a later addition to the Arabic alphabet and originally it was only sounded and not written. [#hamzah]{.trn2} can be written in a number of different ways:
 
-1. "Seated" above (or below) a vowel letter: [#hamzah]{.trn} can be written above the vowel letters thus: [أ ؤ ئ]{.ar}. When written over [ي]{.ar}, the [ي]{.ar} will not have any dots, thus: [ئـ، ـئـ، ـئ]{.ar}. It may also be written under an [Ealif]{.trn} thus: [إ]{.ar}. Examples: [أفعال]{.ar}, [سؤلك]{.ar}, [فئة]{.ar}, [إن]{.ar}.
+1. "Seated" above (or below) a vowel letter: [#hamzah]{.trn2} can be written above the vowel letters thus: [أ ؤ ئ]{.ar}. When written over [ي]{.ar}, the [ي]{.ar} will not have any dots, thus: [ئـ، ـئـ، ـئ]{.ar}. It may also be written under an [Ealif]{.trn2} thus: [إ]{.ar}. Examples: [أفعال]{.ar}, [سؤلك]{.ar}, [فئة]{.ar}, [إن]{.ar}.
 2. "Unseated" after a letter. This has two sub cases:
    a. Standalone, after a partially-joining letter or at the end of a word. Examples: [تساءل]{.ar}, [توءم]{.ar}, [عبء]{.ar}.
-   a. Inline, in the middle of a word after a fully-joining letter. In this case [hamzah]{.trn} is written above the horizontal line that joins the letters. Examples: [خطيـٔة]{.ar}, [شيـٔا]{.ar}, [بريـٔين]{.ar}.
+   a. Inline, in the middle of a word after a fully-joining letter. In this case [hamzah]{.trn2} is written above the horizontal line that joins the letters. Examples: [خطيـٔة]{.ar}, [شيـٔا]{.ar}, [بريـٔين]{.ar}.
 
-In all cases it is pronounced the same. There are actually a set of fairly complicated rules that determine which of the above ways to choose when writing [hamzah]{.trn}. We present these rules in Appendix \@ref(hamzarules). We recommend that for now, you memorize the spelling of each word that we present that contains a [hamzah]{.trn}. When you are sufficiently advanced, and curious enough, you may refer to Appendix \@ref(hamzarules) to learn the full set of rules.
+In all cases it is pronounced the same. There are actually a set of fairly complicated rules that determine which of the above ways to choose when writing [hamzah]{.trn2}. We present these rules in Appendix \@ref(hamzarules). We recommend that for now, you memorize the spelling of each word that we present that contains a [hamzah]{.trn2}. When you are sufficiently advanced, and curious enough, you may refer to Appendix \@ref(hamzarules) to learn the full set of rules.
 
 ### Disambiguating letters that look similar
 
@@ -442,16 +443,16 @@ Isolated | Middle
 [غ]{.ar}| [ـغـ]{.ar}
 [ف]{.ar}| [ـفـ]{.ar}
 
-The letters [Ealif]{.trn} [ا]{.ar} and [lAm]{.trn} [ل]{.ar} could also be confused for each other. Their forms are shown here again for easy comparison:
+The letters [Ealif]{.trn2} [ا]{.ar} and [lAm]{.trn2} [ل]{.ar} could also be confused for each other. Their forms are shown here again for easy comparison:
 
 Isolated | End | Middle | Beginnning
 :--------|:----|:-------|:----------
 [ا]{.ar}| [ـا]{.ar}| none | none
 [ل]{.ar}| [ـل]{.ar}| [ـلـ]{.ar}| [لـ]{.ar}
 
-### Joining [lAm]{.trn} and [Ealif]{.trn}
+### Joining [lAm]{.trn2} and [Ealif]{.trn2}
 
-When the letter [Ealif]{.trn} follows [lAm]{.trn} we would expect them to be joined like this [ل+ا]{.ar} &rarr; [لـا]{.ar}. But actually, they are joined in a special way 
+When the letter [Ealif]{.trn2} follows [lAm]{.trn2} we would expect them to be joined like this [ل+ا]{.ar} &rarr; [لـا]{.ar}. But actually, they are joined in a special way 
 
 [ل+ا]{.ar} &rarr; [لا]{.ar}
 
@@ -473,7 +474,7 @@ Arabic has six vowels. There are three short vowels which don't have letters in 
 
 1.  [a]{.trn} as the first vowel in English “manipulate”, written with an [a]{.trn}-mark [◌َ]{.ar} which is a small diagonal line above the letter like [مَـ]{.ar} [ma]{.trn}.
 1.  [i]{.trn} as in English “bit”, written with an [i]{.trn}-mark [◌ِ]{.ar} which is a small diagonal line under the letter like [بِـ]{.ar} [bi]{.trn}.
-1.  [u]{.trn} as in English “put”, written with an [u]{.trn}-mark [◌ُ]{.ar} which is like a tiny [و]{.ar} [wAw]{.trn} above the letter like [فُـ]{.ar} [fu]{.trn}.
+1.  [u]{.trn} as in English “put”, written with an [u]{.trn}-mark [◌ُ]{.ar} which is like a tiny [و]{.ar} [wAw]{.trn2} above the letter like [فُـ]{.ar} [fu]{.trn}.
 
 Examples of words with short vowels:
 
@@ -485,9 +486,9 @@ Examples of words with short vowels:
 
 There are also three long vowels which are part of the alphabet:
 
-1.  [A]{.trn} generally written with an unmarked [ا]{.ar} [Ealif]{.trn} and with the preceding letter having an [a]{.trn}-mark. Example [مَا]{.ar} [mA]{.trn}. This vowel is mostly pronounced like the vowel in English “man”. If however, it comes after these letters [خ،ر،ص،ض،ط،ظ،غ،ق]{.ar} it is pronounced like English "awe".
-1.  [I]{.trn} like in English “meek” written with an unmarked [ي]{.ar} [yAE]{.trn} with the preceding letter having an [i]{.trn}-mark. Example [فِي]{.ar} [fI]{.trn}.
-1.  [U]{.trn} like in English “moon” written with an unmarked [و]{.ar} [wAw]{.trn} with the preceding letter having an [u]{.trn}-mark. Example [ذُو]{.ar} [pU]{.trn}.
+1.  [A]{.trn} generally written with an unmarked [ا]{.ar} [Ealif]{.trn2} and with the preceding letter having an [a]{.trn}-mark. Example [مَا]{.ar} [mA]{.trn}. This vowel is mostly pronounced like the vowel in English “man”. If however, it comes after these letters [خ،ر،ص،ض،ط،ظ،غ،ق]{.ar} it is pronounced like English "awe".
+1.  [I]{.trn} like in English “meek” written with an unmarked [ي]{.ar} [yAE]{.trn2} with the preceding letter having an [i]{.trn}-mark. Example [فِي]{.ar} [fI]{.trn}.
+1.  [U]{.trn} like in English “moon” written with an unmarked [و]{.ar} [wAw]{.trn2} with the preceding letter having an [u]{.trn}-mark. Example [ذُو]{.ar} [pU]{.trn}.
 
 Examples of words with long and short vowels:
 
@@ -495,15 +496,15 @@ Examples of words with long and short vowels:
 + [كَذَا]{.ar} [kapA]{.trn}
 + [سَرَادِيبَ]{.ar} [sarAdIba]{.trn}
 
-#### [A]{.trn} vowel written with a small [Ealif]{.trn}
+#### [A]{.trn} vowel written with a small [Ealif]{.trn2}
 
-Sometimes the [A]{.trn} vowel is written as a small [Ealif]{.trn} [◌ٰ]{.ar}, called a "dagger [Ealif]{.trn}", instead of a regular [Ealif]{.trn} [ا]{.ar}. This is done only for a few commonly used words. Here are some examples:
+Sometimes the [A]{.trn} vowel is written as a small [Ealif]{.trn2} [◌ٰ]{.ar}, called a "dagger [Ealif]{.trn2}", instead of a regular [Ealif]{.trn2} [ا]{.ar}. This is done only for a few commonly used words. Here are some examples:
 
 + [هَـٰذَا]{.ar} [hApA]{.trn}
 + [ذَ ٰلِكَ]{.ar} [pAlika]{.trn}
 
-#### [A]{.trn} vowel written with a [yAE]{.trn} {#a-vowel-written-with-a-ya}
-In some other words, the [A]{.trn} vowel is written with a [yAE]{.trn} instead of an [Ealif]{.trn} [ا]{.ar}. When this happens, we will write the [yAE]{.trn} without its dots and write a dagger [Ealif]{.trn} [◌ٰ]{.ar} above it, like this [ىٰ]{.ar}. Here are some examples:
+#### [A]{.trn} vowel written with a [yAE]{.trn2} {#a-vowel-written-with-a-ya}
+In some other words, the [A]{.trn} vowel is written with a [yAE]{.trn2} instead of an [Ealif]{.trn2} [ا]{.ar}. When this happens, we will write the [yAE]{.trn2} without its dots and write a dagger [Ealif]{.trn2} [◌ٰ]{.ar} above it, like this [ىٰ]{.ar}. Here are some examples:
 
 + [عَلَىٰ]{.ar} [ealA]{.trn}
 + [رَمَىٰ]{.ar} [ramA]{.trn}
@@ -521,8 +522,8 @@ As we have seen above if an Arabic letter has a vowel after it it will take one 
 
 Arabic has two short semi-vowels:
 
-1. [aw]{.trn} like in English “show”. This is written with a [wAw]{.trn} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [لَوْ]{.ar} [law]{.trn}. 
-2. [ay]{.trn} like in English “bait”. This is written with a [yAE]{.trn} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [كَيْ]{.ar} [kay]{.trn}. 
+1. [aw]{.trn} like in English “show”. This is written with a [wAw]{.trn2} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [لَوْ]{.ar} [law]{.trn}. 
+2. [ay]{.trn} like in English “bait”. This is written with a [yAE]{.trn2} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [كَيْ]{.ar} [kay]{.trn}. 
 Examples with short semi-vowels:
 
 + [وَيْحَكَ]{.ar} [wayHaka]{.trn}
@@ -531,8 +532,8 @@ Examples with short semi-vowels:
 
 It also has two long semi-vowels:
 
-1. [Aw]{.trn} like in English “cow”. This is written with a [wAw]{.trn} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [وَاوْ]{.ar} [wAw]{.trn}. 
-2. [Ay]{.trn} like in English “bye”. This is written with a [yAE]{.trn} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [شَايْ]{.ar} [cAy]{.trn}.
+1. [Aw]{.trn} like in English “cow”. This is written with a [wAw]{.trn2} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [وَاوْ]{.ar} [wAw]{.trn}. 
+2. [Ay]{.trn} like in English “bye”. This is written with a [yAE]{.trn2} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [شَايْ]{.ar} [cAy]{.trn}.
 
 These long semi-vowels are rare and may only occur at the end of a sentence.
 
@@ -558,17 +559,17 @@ Arabic also has three distinctive pronunciation marks, collectively called [n]{.
 
 These [n]{.trn}-marks may only occur on a letter at the end of a word. They are pronounced as a short vowel ([a]{.trn}, [i]{.trn}, or [u]{.trn}) followed by an [n]{.trn}. For example, [سَالِمٌ]{.ar} [sAlimun]{.trn}, [سَالِمٍ]{.ar} [sAlimin]{.trn}.
 
-As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally add a silent [Ealif]{.trn} after it, for example [سَالِم]{.ar} becomes [سَالِمًا]{.ar} [sAliman]{.trn}. This is done for all words except:
+As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally add a silent [Ealif]{.trn2} after it, for example [سَالِم]{.ar} becomes [سَالِمًا]{.ar} [sAliman]{.trn}. This is done for all words except:
 
-1. If the word ends with a looped [tAE]{.trn} [ة]{.ar}. In this case we don't add the silent [Ealif]{.trn}. For example, [غَاضِبَة]{.ar} becomes [غَاضِبَةً]{.ar} [gADibatan]{.trn}, not [غَاضِبَةًا]{.ar} or [غَاضِبَتًا]{.ar}.
+1. If the word ends with a looped [tAE]{.trn2} [ة]{.ar}. In this case we don't add the silent [Ealif]{.trn2}. For example, [غَاضِبَة]{.ar} becomes [غَاضِبَةً]{.ar} [gADibatan]{.trn}, not [غَاضِبَةًا]{.ar} or [غَاضِبَتًا]{.ar}.
 
-2. If the word ends with a [A]{.trn} vowel, whether written with an [Ealif]{.trn} [ا]{.ar} or  as a [yAE]{.trn} with dagger [Ealif]{.trn} [ىٰ]{.ar}. In this case, the [an]{.trn} mark is put on the letter before the [Ealif]{.trn} [ا]{.ar} or [yAE]{.trn} [ىٰ]{.ar} and the final vowel letter becomes silent and is not pronounced. For example, [مُصْطَفَىٰ]{.ar} becomes [مُصْطَفًى]{.ar} [muSTafan]{.trn}, [عَصَا]{.ar} becomes [عَصًا]{.ar} [eaSan]{.trn}.
+2. If the word ends with a [A]{.trn} vowel, whether written with an [Ealif]{.trn2} [ا]{.ar} or  as a [yAE]{.trn2} with dagger [Ealif]{.trn2} [ىٰ]{.ar}. In this case, the [an]{.trn} mark is put on the letter before the [Ealif]{.trn2} [ا]{.ar} or [yAE]{.trn2} [ىٰ]{.ar} and the final vowel letter becomes silent and is not pronounced. For example, [مُصْطَفَىٰ]{.ar} becomes [مُصْطَفًى]{.ar} [muSTafan]{.trn}, [عَصَا]{.ar} becomes [عَصًا]{.ar} [eaSan]{.trn}.
 
-2. If the word ends with a [hamzah]{.trn}. In this case, we might or might not write a silent [Ealif]{.trn}, depending on the following rules:
+2. If the word ends with a [hamzah]{.trn2}. In this case, we might or might not write a silent [Ealif]{.trn2}, depending on the following rules:
 
-   a. If there is an [Ealif]{.trn} before an unseated [hamzah]{.trn} [اء]{.ar}, then we don't add a silent [Ealif]{.trn}. For example [دَاء]{.ar} becomes [دَاءً]{.ar} [dAEan]{.trn}, not [دَاءًا]{.ar}.
+   a. If there is an [Ealif]{.trn2} before an unseated [hamzah]{.trn2} [اء]{.ar}, then we don't add a silent [Ealif]{.trn2}. For example [دَاء]{.ar} becomes [دَاءً]{.ar} [dAEan]{.trn}, not [دَاءًا]{.ar}.
 
-   b. Otherwise, we add a silent [Ealif]{.trn} after the [hamzah]{.trn}. However, this may affect the writing of the [hamzah]{.trn}, for example [مُبْتَدَأ]{.ar} becomes [مُبْتَدَءًا]{.ar} [mubtadaEan]{.trn}. This is discussed further in Appendix \@ref(hamzarules).
+   b. Otherwise, we add a silent [Ealif]{.trn2} after the [hamzah]{.trn2}. However, this may affect the writing of the [hamzah]{.trn2}, for example [مُبْتَدَأ]{.ar} becomes [مُبْتَدَءًا]{.ar} [mubtadaEan]{.trn}. This is discussed further in Appendix \@ref(hamzarules).
 
 Here are some examples of words with [n]{.trn}-marks:
 
@@ -582,9 +583,9 @@ Here are some examples of words with [n]{.trn}-marks:
 + [سُوءًا]{.ar} [sUEan]{.trn}    \vphantom{\huge J}
 + [غَبَنٌ]{.ar} [gabanun]{.trn}   \vphantom{\huge J}
 
-## Connecting [hamzah]{.trn}
+## Connecting [hamzah]{.trn2}
 
-Some words in arabic begin with a [0]{.txt}-mark. When this occurs a connecting [hamzah]{.trn} [ٱ]{.ar} (written as a tiny [صـ]{.ar} on an [Ealif]{.trn}) is put before it. If this word comes in the beginning of the sentence the connecting alif is pronounced as a [hamzah]{.trn}. Otherwise this connecting [hamzah]{.trn} is not pronounced and the word is connected to the final vowel of the previous word in pronunciation. In this tutorial we will transcribe the connecting [hamzah]{.trn} with a hyphen "-". Examples of connecting [hamzah]{.trn}:
+Some words in arabic begin with a [0]{.txt}-mark. When this occurs a connecting [hamzah]{.trn2} [ٱ]{.ar} (written as a tiny [صـ]{.ar} on an [Ealif]{.trn2}) is put before it. If this word comes in the beginning of the sentence the connecting alif is pronounced as a [hamzah]{.trn2}. Otherwise this connecting [hamzah]{.trn2} is not pronounced and the word is connected to the final vowel of the previous word in pronunciation. In this tutorial we will transcribe the connecting [hamzah]{.trn2} with a hyphen "-". Examples of connecting [hamzah]{.trn2}:
 
 [ٱِفْتَحِ ٱلْبَابَ]{.ar}  
 [EiftaHi -lbAba]{.trn}
@@ -597,7 +598,7 @@ If the previous word does not end with a vowel, then a helper vowel is added. Th
 [زَيْدٌ ٱلْكَرِيمُ]{.ar}  
 [zayduni -lkarImu]{.trn}
 
-When one word ends in a long vowel and the next word begins with a connecting [hamzah]{.trn}, the long vowel becomes a short vowel in pronunciation, but in writing the long vowel’s letter is retained. For example:
+When one word ends in a long vowel and the next word begins with a connecting [hamzah]{.trn2}, the long vowel becomes a short vowel in pronunciation, but in writing the long vowel’s letter is retained. For example:
 
 [ أَخَذَ مِنَّا ٱلْكِتَابَ]{.ar}  
 [Eaxapa minna -lkitAba]{.trn}
@@ -610,7 +611,7 @@ When one word ends in a long vowel and the next word begins with a connecting [h
 
 ## Pronouncing the end of a sentence
 
-When a word is at the end of a sentence and it ends with a long vowel, then the final long vowel is pronounced normally. However, when a word at the end of a sentence does not end with a long vowel, then the final letter's pronunciation mark is pronounced as a [0]{.txt}-mark when vocalizing the sentence. If the final letter is a looped [tAE]{.trn} [ة]{.ar} then it is pronounced as a [ه]{.ar} [hAE]{.trn} with a [0]{.txt}-mark. 
+When a word is at the end of a sentence and it ends with a long vowel, then the final long vowel is pronounced normally. However, when a word at the end of a sentence does not end with a long vowel, then the final letter's pronunciation mark is pronounced as a [0]{.txt}-mark when vocalizing the sentence. If the final letter is a looped [tAE]{.trn2} [ة]{.ar} then it is pronounced as a [ه]{.ar} [hAE]{.trn2} with a [0]{.txt}-mark. 
 
 This change in pronunciation is only vocal, it does not affect how we write the pronunciation mark. Here we give some examples of words pronounced if they were at the end of a sentence:
 
@@ -626,7 +627,7 @@ This change in pronunciation is only vocal, it does not affect how we write the 
 [وَالِدَيَّ]{.ar}  
 [wAlidayy]{.trn}
 
-If however, the final letter's pronunciation mark is a [an]{.trn} mark then it is pronounced as a long-[A]{.trn} vowel. The only exception is if the final letter were looped [tAE]{.trn} [ةً]{.ar}, in which case it is then pronounced as a [hAE]{.trn} with a [0]{.txt}-mark [هْ]{.ar}. Here are examples of words with [an]{.trn} marks pronounced as if they were at the end of a sentence.
+If however, the final letter's pronunciation mark is a [an]{.trn} mark then it is pronounced as a long-[A]{.trn} vowel. The only exception is if the final letter were looped [tAE]{.trn2} [ةً]{.ar}, in which case it is then pronounced as a [hAE]{.trn2} with a [0]{.txt}-mark [هْ]{.ar}. Here are examples of words with [an]{.trn} marks pronounced as if they were at the end of a sentence.
 
 [مَفْعُولًا]{.ar}  
 [mafeUlA]{.trn}
@@ -637,12 +638,12 @@ If however, the final letter's pronunciation mark is a [an]{.trn} mark then it i
 [مَرْفُوعَةً]{.ar}  
 [marfUeah]{.trn}
 
-Note that the above exception is only for looped [tAE]{.trn}. If a [hamzah]{.trn} with an [an]{.trn} mark occurs at the end of a word, then it too will be pronounced as if it had a long-[A]{.trn} vowel after it. Such is the case, whether or not a silent [Ealif]{.trn} is written after the [hamzah]{.trn}. Examples:
+Note that the above exception is only for looped [tAE]{.trn2}. If a [hamzah]{.trn2} with an [an]{.trn} mark occurs at the end of a word, then it too will be pronounced as if it had a long-[A]{.trn} vowel after it. Such is the case, whether or not a silent [Ealif]{.trn2} is written after the [hamzah]{.trn2}. Examples:
 
 + [مُبْتَدَءًا]{.ar} is pronounced [mubtadaEA]{.trn}
 + [دُعَاءً]{.ar} is pronounced [dueAEA]{.trn}
 
-Similarly, if the word has a final [yAE]{.trn} that represents the long-[A]{.trn} vowel, and the letter before has an [an]{.trn} mark, it is pronounced with the long-[A]{.trn} vowel at the end of the sentence. For example:
+Similarly, if the word has a final [yAE]{.trn2} that represents the long-[A]{.trn} vowel, and the letter before has an [an]{.trn} mark, it is pronounced with the long-[A]{.trn} vowel at the end of the sentence. For example:
 
 + [مُصْطَفًى]{.ar} is pronounced [muSTafA]{.trn}
 
@@ -694,7 +695,7 @@ Note that the final letter in each word, above, does not have a vowel mark. This
 When we discuss nouns outside of sentences we shall pronounce the looped [ة]{.ar} as a [h]{.trn}. Therefore, 
 [شَجَرَة]{.ar} "tree", in isolation, is pronounced [cajarah]{.trn}, not [cajarat]{.trn}.
 
-Some nouns begin with a connecting [hamzah]{.trn}, for example: [ٱِبْن]{.ar} [Eibn]{.trn} "son". When in the beginning of a sentence, the connecting [hamzah]{.trn} will be pronounced with an [i]{.trn}-mark [◌ِ]{.ar}.
+Some nouns begin with a connecting [hamzah]{.trn2}, for example: [ٱِبْن]{.ar} [Eibn]{.trn} "son". When in the beginning of a sentence, the connecting [hamzah]{.trn2} will be pronounced with an [i]{.trn}-mark [◌ِ]{.ar}.
 
 ## Definiteness
 
@@ -717,7 +718,7 @@ to its beginning.
 For example, the definite noun "the book" in Arabic is [ٱَلْكِتَاب]{.ar} [EalkitAb]{.trn}.
 
 [ٱَلْ]{.ar} [Eal]{.trn}
-begins with a connecting [hamzah]{.trn}; the [hamzah]{.trn} will be pronounced only in the beginning of a sentence. And when it occurs in the beginning of a sentence, the [hamzah]{.trn} is pronounced with a [◌َ]{.ar} a-mark.
+begins with a connecting [hamzah]{.trn2}; the [hamzah]{.trn2} will be pronounced only in the beginning of a sentence. And when it occurs in the beginning of a sentence, the [hamzah]{.trn2} is pronounced with a [◌َ]{.ar} a-mark.
 
 #### Sun letters and moon letters
 
@@ -738,9 +739,9 @@ Noun | Definite noun
 [تَاجِر]{.ar} [tAjir]{.trn} "trader" | [ٱَلتَّاجِر]{.ar} [EattAjir]{.trn} "the trader"  
 [لُعْبَة]{.ar} [luebah]{.trn} "toy" | [ٱَللُّعْبَة]{.ar} [Ealluebah]{.trn} "the toy"  
 
-#### The definite article [ٱَلْ]{.ar} [Eal]{.trn} with nouns with an initial connecting [hamzah]{.trn} {#the-definite-article-with-nouns-with-an-initial-connecting-hamzah}
+#### The definite article [ٱَلْ]{.ar} [Eal]{.trn} with nouns with an initial connecting [hamzah]{.trn2} {#the-definite-article-with-nouns-with-an-initial-connecting-hamzah}
 
-If the definite article [ٱَلْ]{.ar} [Eal]{.trn} is with prefixed to nouns that have an initial connecting [hamzah]{.trn}, then the [ل]{.ar} shall no longer have an [0]{.txt}-mark [◌ْ]{.ar}. Instead it shall have an [i]{.trn}-mark [◌ِ]{.ar}. Example:
+If the definite article [ٱَلْ]{.ar} [Eal]{.trn} is with prefixed to nouns that have an initial connecting [hamzah]{.trn2}, then the [ل]{.ar} shall no longer have an [0]{.txt}-mark [◌ْ]{.ar}. Instead it shall have an [i]{.trn}-mark [◌ِ]{.ar}. Example:
 
 [ٱَلِٱبْن]{.ar}  
 [Eali-bn]{.trn}  
@@ -919,13 +920,13 @@ Arabic word |Gender | Definition
 [صَدِيق]{.ar}   [SadIq]{.trn}     |masc.|(male) friend
 [صَدِيقَة]{.ar}  [SadIqah]{.trn}   |fem. |(female) friend 
 
-In each of the words in the table above, the feminine noun is basically the same as the masculine noun but with the addition of a looped [tAE]{.trn} [ة]{.ar} at the end. For example,
+In each of the words in the table above, the feminine noun is basically the same as the masculine noun but with the addition of a looped [tAE]{.trn2} [ة]{.ar} at the end. For example,
 [طِفْل]{.ar}  [Tifl]{.trn} (masc.) is a child, and its feminine is
 [طِفْلَة]{.ar} [Tiflah]{.trn} (fem.).
 
-As a matter of fact, the looped [tAE]{.trn} [ة]{.ar} is called a feminine marker for singular nouns. There are a couple of other, less common, feminine markers besides looped [tAE]{.trn} that we will learn them later, if [#allAh]{.trn2} wills.
+As a matter of fact, the looped [tAE]{.trn2} [ة]{.ar} is called a feminine marker for singular nouns. There are a couple of other, less common, feminine markers besides looped [tAE]{.trn2} that we will learn them later, if [#allAh]{.trn2} wills.
  
-Note that the vowel-mark before the looped [tAE]{.trn} [ة]{.ar} is always an [a]{.trn}-mark. 
+Note that the vowel-mark before the looped [tAE]{.trn2} [ة]{.ar} is always an [a]{.trn}-mark. 
 <!--For example, in the case of [كَلْب]{.ar} [kalb]{.trn} "a male dog", in order to get the feminine noun [كَلْبَة]{.ar} [kalbatun]{.trn} "a female dog", [ب]{.ar} gets an [a]{.trn}-mark.-->
 
 Note also that we have divided the table above into two groups. The first group contains nouns that have a primitive meaning, without a primarily adjectival or verbal quality in the meaning, for example "human" "cat", etc. 
@@ -986,7 +987,7 @@ Arabic word  |Gender | Definition
 [ثَوْر]{.ar}   [vawr]{.trn}    |masc.|bull
 [بَقَرَة]{.ar}  [baqarah]{.trn} |fem. |cow
 
-Even in these nouns you can see that the feminine noun usually ends with a looped [tAE]{.trn} [ة]{.ar} feminine marker. There are only a few commonly used feminine nouns that don't end with a feminine marker like looped [tAE]{.trn}. [أُمٌّ]{.ar} [Eummun]{.trn} "mother" is one of these exceptions.
+Even in these nouns you can see that the feminine noun usually ends with a looped [tAE]{.trn2} [ة]{.ar} feminine marker. There are only a few commonly used feminine nouns that don't end with a feminine marker like looped [tAE]{.trn2}. [أُمٌّ]{.ar} [Eummun]{.trn} "mother" is one of these exceptions.
 
 #### Using the same noun for both sexes
 
@@ -1006,7 +1007,7 @@ Arabic word  |Gender | Definition
 So for example [قِرْد]{.ar} [qirdun]{.trn} "monkey" is grammatically masculine but it will be used for both a male and a female monkey.
 Similarly, [شَخْص]{.ar}  [caxS]{.trn} is a masculine noun meaning "person". While remaining grammatically masculine, it can be used to refer to persons of male or female persons.
 
-Note also that [نَفْس]{.ar} [nafsun]{.trn} "self" is a feminine noun but it does not end in a looped [tAE]{.trn} [ة]{.ar}. It is one of the small number of feminine nouns that don't have a female marker, like [أُمٌّ]{.ar} [Eummun]{.trn} (fem.) "mother".
+Note also that [نَفْس]{.ar} [nafsun]{.trn} "self" is a feminine noun but it does not end in a looped [tAE]{.trn2} [ة]{.ar}. It is one of the small number of feminine nouns that don't have a female marker, like [أُمٌّ]{.ar} [Eummun]{.trn} (fem.) "mother".
 <!--Notably, [نَفْس]{.ar}  [nafs]{.trn} is treated as feminine when it refers to the soul of a person. However, in constructions like "yourself", "himself", etc. it will conform to the gender of the person it is referring to. We shall see this in later chapters, if [#allAh]{.trn2} wills.-->
 
 ### Nouns that designate inanimate objects
@@ -1031,7 +1032,7 @@ Arabic word  |Gender | Definition
 [حَيَاة]{.ar}  [HayAh]{.trn}   |fem. |life
 [مَوْت]{.ar}   [mawt]{.trn}    |masc.|death
 
-In these nouns as well, we note that feminine nouns usually end with the feminine marker looped [tAE]{.trn} [ة]{.ar}. 
+In these nouns as well, we note that feminine nouns usually end with the feminine marker looped [tAE]{.trn2} [ة]{.ar}. 
 But here too, we find another exception:
 [شَمْسٌ]{.ar} [camsun]{.trn} "sun" which is feminine but does not end with a feminine marker.
 These exceptions are not very many and, if [#allAh]{.trn2} wills, we will not find it hard to memorize them.
@@ -1743,13 +1744,13 @@ Notes:
   [ka-bnin]{.trn}  
   "like a son"
 
-+ When a single letter preposition comes before a definite noun with [ٱَلْ]{.ar} [al]{.trn}, the preposition is generally joined to the [alif]{.trn} in the [ٱَلْ]{.ar} [al]{.trn}. The [alif]{.trn} is now not pronounced (because as we know it has a connecting [hamzah]{.trn}). Example:
++ When a single letter preposition comes before a definite noun with [ٱَلْ]{.ar} [al]{.trn}, the preposition is generally joined to the [alif]{.trn} in the [ٱَلْ]{.ar} [al]{.trn}. The [alif]{.trn} is now not pronounced (because as we know it has a connecting [hamzah]{.trn2}). Example:
 
   [بِٱلْقَلَمِ]{.ar}  
   [bi-lqalami]{.trn}  
   "with the pen"
 
-  If the noun begins with a connecting [hamzah]{.trn} then the [ل]{.ar} in [ٱَلْ]{.ar} gets an [i]{.trn}-mark [◌ِ]{.ar} instead of its usual [0]{.txt}-mark [◌ْ]{.ar}. We described this in 
+  If the noun begins with a connecting [hamzah]{.trn2} then the [ل]{.ar} in [ٱَلْ]{.ar} gets an [i]{.trn}-mark [◌ِ]{.ar} instead of its usual [0]{.txt}-mark [◌ْ]{.ar}. We described this in 
 section\ \@ref(the-definite-article-with-nouns-with-an-initial-connecting-hamzah).
 Example:
 
@@ -1797,7 +1798,7 @@ Example:
 
 + The prepositions 
 [عَلَىٰ]{.ar} [ealA]{.trn} "on" and
-[إِلَىٰ]{.ar} [EilA]{.trn} "to" have a long-[A]{.trn} vowel at the end but it is written with a dotless [yAE]{.trn} [ىٰ]{.ar} instead of an [alif]{.trn}. (We have already learned that some words are written this way in section\ \@ref(a-vowel-written-with-a-ya).)
+[إِلَىٰ]{.ar} [EilA]{.trn} "to" have a long-[A]{.trn} vowel at the end but it is written with a dotless [yAE]{.trn2} [ىٰ]{.ar} instead of an [alif]{.trn}. (We have already learned that some words are written this way in section\ \@ref(a-vowel-written-with-a-ya).)
 
 + Prepositions that are composed of multiple letters are not joined to the following noun. Example:
 
@@ -1805,7 +1806,7 @@ Example:
   [EilA madrasatin]{.trn}  
   "to a school"
 
-+ If a preposition ends with a long vowel, then, as usual, it get shortened to a short vowel when it is followed by a word which begins with a connecting [hamzah]{.trn}. Examples:
++ If a preposition ends with a long vowel, then, as usual, it get shortened to a short vowel when it is followed by a word which begins with a connecting [hamzah]{.trn2}. Examples:
 
   [فِي ٱلْبَيْتِ]{.ar}  
   [fi -lbayti]{.trn}  
@@ -1815,7 +1816,7 @@ Example:
   [Eila -bnin]{.trn}  
   "to a son"
 
-+ If a preposition ends with a [0]{.txt}-mark [◌ْ ]{.ar} and it is followed by a word that begins with a connecting [hamzah]{.trn}, then the [0]{.txt}-mark is changed to a short vowel according to the following rules:
++ If a preposition ends with a [0]{.txt}-mark [◌ْ ]{.ar} and it is followed by a word that begins with a connecting [hamzah]{.trn2}, then the [0]{.txt}-mark is changed to a short vowel according to the following rules:
 
   + The ending of the preposition [عَنْ]{.ar} [ean]{.trn} gets an [i]{.trn}-mark and becomes [عَنِ]{.ar} [eani]{.trn}. Examples:
     
@@ -1827,7 +1828,7 @@ Example:
     [eani -bnin]{.trn}  
     "from the son"
 
-  + The ending of the preposition [مِنْ]{.ar} [min]{.trn} gets an [a]{.trn}-mark if followed by the [ٱَلْ]{.ar} [al]{.trn} of a definite noun. Otherwise it gets an [i]{.trn}-mark if followed by any other connecting [hamzah]{.trn}. Examples:
+  + The ending of the preposition [مِنْ]{.ar} [min]{.trn} gets an [a]{.trn}-mark if followed by the [ٱَلْ]{.ar} [al]{.trn} of a definite noun. Otherwise it gets an [i]{.trn}-mark if followed by any other connecting [hamzah]{.trn2}. Examples:
 
     [مِنَ ٱلرَّجُلِ]{.ar}  
     [mina -rrajuli]{.trn}  
@@ -2318,7 +2319,7 @@ In order to express this sentence in Arabic, we will say:
 
 Note that we have modified the verb by adding on the letter [تْ]{.ar} at the end. This [تْ]{.ar} is used when the doer is ia feminine noun. It is called the [تْ]{.ar} of femininity. 
 
-If the word following the noun begins with a connecting [hamzah]{.trn} then we add a helper vowel to the [تْ]{.ar} and it becomes [تِ]{.ar}. Examples:
+If the word following the noun begins with a connecting [hamzah]{.trn2} then we add a helper vowel to the [تْ]{.ar} and it becomes [تِ]{.ar}. Examples:
 
 [جَلَسَتِ ٱلْهِرَّةُ عَلَى ٱلْكُرْسِيِّ.]{.ar}  
 [jalasati -lhirratu eala -lkursiyyi.]{.trn}  
@@ -2615,9 +2616,9 @@ Here are some notes regarding their usage:
   By the way, we have already seen this intervening [ن]{.ar} before when it was used with some prepositions, e.g. [مِنِّي]{.ar} [minnI]{.trn}, [عَنِّي]{.ar} [eannI]{.trn}, and [لَدُنِّي]{.ar} [ladunnI]{.trn}
   <!--So why don't we simply incorporate the [ن]{.ar} with the doee pronoun and say that the doee pronoun for "me" is [نِي]{.ar} [-nI]{.trn} and [نِيَ]{.ar} [-niya]{.trn}? This is because in addition to their use as doee pronouns, these same pronouns are also used in other places as we shall see later, if [#allAh]{.trn2} wills, and in those cases there is often no intervening [ن]{.ar} for the speaking person pronoun. -->
 
-  Even though, the variant [◌ِي]{.ar} [-I]{.trn} is, in general, more commonly used, when the noun following it begins with a connecting [hamzah]{.trn} then the variant [◌ِيَ]{.ar} [-ya]{.trn} is preferred. That is why we used the variant [◌ِيَ]{.ar} [-ya]{.trn} when it was followed by a connecting [hamzah]{.trn} ([سَأَلَنِيَ ٱلرَّجُلُ.]{.ar}), and the variant [◌ِي]{.ar} [-I]{.trn} when it was not followed by a connecting [hamzah]{.trn} ([سَأَلَنِي رَجُلٌ.]{.ar}). 
+  Even though, the variant [◌ِي]{.ar} [-I]{.trn} is, in general, more commonly used, when the noun following it begins with a connecting [hamzah]{.trn2} then the variant [◌ِيَ]{.ar} [-ya]{.trn} is preferred. That is why we used the variant [◌ِيَ]{.ar} [-ya]{.trn} when it was followed by a connecting [hamzah]{.trn2} ([سَأَلَنِيَ ٱلرَّجُلُ.]{.ar}), and the variant [◌ِي]{.ar} [-I]{.trn} when it was not followed by a connecting [hamzah]{.trn2} ([سَأَلَنِي رَجُلٌ.]{.ar}). 
 
-  This preference is not mandatory. So it is allowed for [◌ِي]{.ar} [-I]{.trn} to be used when followed by a connecting [hamzah]{.trn}. When this happens, the long vowel [-I]{.trn} will be shortened to [-i]{.trn} in connecting it to the next word, although the [◌ِي]{.ar} is retained in writing. For example,
+  This preference is not mandatory. So it is allowed for [◌ِي]{.ar} [-I]{.trn} to be used when followed by a connecting [hamzah]{.trn2}. When this happens, the long vowel [-I]{.trn} will be shortened to [-i]{.trn} in connecting it to the next word, although the [◌ِي]{.ar} is retained in writing. For example,
 
   [سَأَلَنِي ٱلرَّجُلُ.]{.ar}  
   [saEalani -rrajul.]{.trn}  
@@ -3252,7 +3253,7 @@ The other category of nouns are _rigid_ nouns. Rigid nouns don't change their en
 
 ## Feminine markers
 
-Before we discuss semi-flexible nouns in more detail, we will discuss feminine markers. We already know of one feminine marker: the looped-[tAE]{.trn} [ة]{.ar}. When a singular noun ends with [ة]{.ar}, then that is an indication, with very few exceptions, that it is a feminine noun. Examples are:
+Before we discuss semi-flexible nouns in more detail, we will discuss feminine markers. We already know of one feminine marker: the looped-[tAE]{.trn2} [ة]{.ar}. When a singular noun ends with [ة]{.ar}, then that is an indication, with very few exceptions, that it is a feminine noun. Examples are:
 
 Root | Feminine noun | Masculine noun from same root (if any)
 :-|:-------|:-------
@@ -3477,7 +3478,7 @@ Here are examples of duals in sentences:
 -->
 ### Nouns ending in [ة]{.ar}
 
-If a noun ends with a looped [tAE]{.trn} [ة]{.ar}, then it is converted to an open [tAE]{.trn} [ت]{.ar} before appending the dual suffix. For example, dualizing [شَجَرَة]{.ar} [cajarah]{.trn} "a tree", we get "trees~2~":
+If a noun ends with a looped [tAE]{.trn2} [ة]{.ar}, then it is converted to an open [tAE]{.trn2} [ت]{.ar} before appending the dual suffix. For example, dualizing [شَجَرَة]{.ar} [cajarah]{.trn} "a tree", we get "trees~2~":
 
 | States | Indefinite | Definite
 :----|:-------|:-------
@@ -3490,12 +3491,12 @@ Example:
 [EaccaratAni fi -lHadIqah.]{.trn}  
 "The trees~2~ are in the garden."
 
-If a feminine noun does not have a looped [tAE]{.trn} then it will simply be appended with [◌َانِ]{.ar} [-Ani]{.trn} and [◌َيْنِ]{.ar} [-ayni]{.trn}. For example, dualizing [أُمّ]{.ar} [Eumm]{.trn} "a mother" in order to get "mothers~2~", we get:
+If a feminine noun does not have a looped [tAE]{.trn2} then it will simply be appended with [◌َانِ]{.ar} [-Ani]{.trn} and [◌َيْنِ]{.ar} [-ayni]{.trn}. For example, dualizing [أُمّ]{.ar} [Eumm]{.trn} "a mother" in order to get "mothers~2~", we get:
 
 + u-state: [أُمَّانِ]{.ar} [EummAni]{.trn}
 + a-state and i-state: [أُمَّيْنِ]{.ar} [Eummayni]{.trn}
 
-There are some nouns that end with an [Ealif]{.trn} before the [ة]{.ar}, like [فَتَاة]{.ar} [fatAh]{.trn} "a young woman". We will learn how to dualize these nouns later, if [#allAh]{.trn2} wills.
+There are some nouns that end with an [Ealif]{.trn2} before the [ة]{.ar}, like [فَتَاة]{.ar} [fatAh]{.trn} "a young woman". We will learn how to dualize these nouns later, if [#allAh]{.trn2} wills.
 
 <!--
 ### Nouns ending with [اء]{.ar}, [ىٰ]{.ar}, and [ا]{.ar}
@@ -3939,7 +3940,7 @@ Note that: <!-- there _are_ [n]{.trn} marks for the [At]{.trn} sound plural. Def
 
 ### Nouns ending in [ة]{.ar}
 
-If a noun ends with a looped [tAE]{.trn} [ة]{.ar}, then it is removed before appending the [At]{.trn} sound plural ending. 
+If a noun ends with a looped [tAE]{.trn2} [ة]{.ar}, then it is removed before appending the [At]{.trn} sound plural ending. 
 Here, for example, is the [At]{.trn} sound plural of [مُعَلِّمَة]{.ar} [mueallimah]{.trn} "a teacher~f~":
 
 | State | Indefinite [Un]{.trn} plural "teachers~f~"| Definite [Un]{.trn} plural "the teachers~f~"|
@@ -3967,7 +3968,7 @@ Here are some examples of the [At]{.trn} sound plural in sentences:
   [naPara -lgulAmu Eila -lHayawAnAti.]{.trn}  
   "The boy looked at the animals."
 
-There are some nouns that end with an [Ealif]{.trn} before the [ة]{.ar}, like [فَتَاة]{.ar} [fatAh]{.trn} "a young woman". We will learn how to pluralize these nouns later, if [#allAh]{.trn2} wills.
+There are some nouns that end with an [Ealif]{.trn2} before the [ة]{.ar}, like [فَتَاة]{.ar} [fatAh]{.trn} "a young woman". We will learn how to pluralize these nouns later, if [#allAh]{.trn2} wills.
 
 ### Nouns ending with [اء]{.ar}
 
@@ -4003,7 +4004,7 @@ We will learn how to form the [At]{.trn} sound plural of these words in later ch
 
 ### The [At]{.trn} sound plural for words ending with [اء]{.ar}
 
-If a noun ends with an [اء]{.ar} then the [hamzah]{.trn} may either be retained or get converted to a [و]{.ar} when forming the [At]{.trn} sound plural. This is done based on the same rules as for the dual which we explained in the previous chapter.
+If a noun ends with an [اء]{.ar} then the [hamzah]{.trn2} may either be retained or get converted to a [و]{.ar} when forming the [At]{.trn} sound plural. This is done based on the same rules as for the dual which we explained in the previous chapter.
 
 Thus,
 
@@ -4014,7 +4015,7 @@ Thus,
 
 ### The [At]{.trn} sound plural for words ending with [يٰ]{.ar}
 
-If a noun ends with [ىٰ]{.ar}, then whether the [ىٰ]{.ar} is a feminine marker or not, it becomes a [yAE]{.trn} with an [a]{.trn}-mark [يَ]{.ar} when forming the [At]{.trn} sound plural. For example,  
+If a noun ends with [ىٰ]{.ar}, then whether the [ىٰ]{.ar} is a feminine marker or not, it becomes a [yAE]{.trn2} with an [a]{.trn}-mark [يَ]{.ar} when forming the [At]{.trn} sound plural. For example,  
 
 + [حُبَارَىٰ]{.ar} [HubArA]{.trn} becomes [حُبَارَيَاتٌ]{.ar} [HubArayAtun]{.trn}.
 
@@ -4349,7 +4350,7 @@ become [هِمَا]{.ar} [-himA]{.trn} and [هِنَّ]{.ar} [-hinna]{.trn} resp
    + [بِهِمْ]{.ar} [bihimA]{.trn} "with them~3,m~"
    + [فِيهِنَّ]{.ar} [fIhinna]{.trn} "in them~3,f~"
    + [إِلَيْهِمْ]{.ar} [Eilayhim]{.trn} "to them~3,m~"
-+ The final [0]{.txt}-mark on the [مْ]{.ar} in the masculine plural pronouns ([هُمْ]{.ar} [hum]{.trn}, [أَنْتُمْ]{.ar} [Eantum]{.trn}, and [كُمْ]{.ar} [-kum]{.trn}) becomes a [u]{.trn}-mark ([هُمُ]{.ar} [humu]{.trn}, [أَنْتُمُ]{.ar} [Eantumu]{.trn},  and[كُمُ]{.ar} [-kumu]{.trn} respectively) when followed by a connecting [hamzah]{.trn}. Examples:
++ The final [0]{.txt}-mark on the [مْ]{.ar} in the masculine plural pronouns ([هُمْ]{.ar} [hum]{.trn}, [أَنْتُمْ]{.ar} [Eantum]{.trn}, and [كُمْ]{.ar} [-kum]{.trn}) becomes a [u]{.trn}-mark ([هُمُ]{.ar} [humu]{.trn}, [أَنْتُمُ]{.ar} [Eantumu]{.trn},  and[كُمُ]{.ar} [-kumu]{.trn} respectively) when followed by a connecting [hamzah]{.trn2}. Examples:
   + [هُمُ ٱلْمُعَلِّمُونَ.]{.ar}  
     [humu -lmueallimUn.]{.trn}  
     "They~pl.\ masc.~ are the (male) teachers."
@@ -4462,14 +4463,14 @@ Note the following regarding the plural doer pronouns:
   This is different from the behavior of the absentee dual doer pronoun [◌َا]{.ar} [-A]{.trn} "them~2,f~" which, for a feminine doer, does attach to the [تْ]{.ar} of femininity. Example:
 
   + [ذَهَبَتَا]{.ar} [pahabatA]{.trn} "they~2,f~ went"
-+ The final [0]{.txt}-mark on the [مْ]{.ar} in the masculine plural doer pronoun [تُمْ]{.ar} [-tum]{.trn} becomes a [u]{.trn}-mark [تُمُ]{.ar} [-tumu]{.trn} when followed by a connecting [hamzah]{.trn}. Examples:
++ The final [0]{.txt}-mark on the [مْ]{.ar} in the masculine plural doer pronoun [تُمْ]{.ar} [-tum]{.trn} becomes a [u]{.trn}-mark [تُمُ]{.ar} [-tumu]{.trn} when followed by a connecting [hamzah]{.trn2}. Examples:
   + [أَكَلْتُمْ خُبْزًا.]{.ar}  
     [Eakaltum xubzA.]{.trn}  
     "You~3,m~ ate some bread."
   + [أَكَلْتُمُ ٱلْخُبْزَ.]{.ar}  
     [Eakaltumu -lxubz.]{.trn}  
     "You~3,m~ ate the bread."
-+ The absentee plural masculine verb doer pronoun "they~3,m~" [و]{.ar} [U]{.trn} is written with a silent [Ealif]{.trn} after it which is written only and not pronounced. This [Ealif]{.trn} is dropped when a doee pronoun is attached. For example: 
++ The absentee plural masculine verb doer pronoun "they~3,m~" [و]{.ar} [U]{.trn} is written with a silent [Ealif]{.trn2} after it which is written only and not pronounced. This [Ealif]{.trn2} is dropped when a doee pronoun is attached. For example: 
   + [ضَرَبُوا ٱلرَّجُلَ.]{.ar}  
     [Darabu -rrajul.]{.trn}  
     "They~3,m~ hit the man.
@@ -4589,11 +4590,11 @@ Here are some rules for the plural pronouns:
   + [عَلَيْهِ]{.ar}, [ealayhi]{.trn} "on him"
   + [فِيهِمْ]{.ar} [fIhim]{.trn} "in them~pl.~"
   + [بِهِمْ]{.ar} [bihim]{.trn} "with them~pl.~".
-+ The final [0]{.txt}-mark on the [مْ]{.ar} in the masculine plural pronouns ([هُمْ]{.ar} [hum]{.trn}, [هُمْ]{.ar} [-hum]{.trn}, [أَنْتُمْ]{.ar} [Eantum]{.trn}, [تُمْ]{.ar} [-tum]{.trn}, [كُمْ]{.ar} [-kum]{.trn}) becomes a [u]{.trn}-mark ([هُمُ]{.ar} [humu]{.trn}, [هُمُ]{.ar} [-humu]{.trn}, [أَنْتُمُ]{.ar} [Eantumu]{.trn}, [تُمُ]{.ar} [-tumu]{.trn}, [كُمُ]{.ar} [-kumu]{.trn} respectively) when followed by a connecting [hamzah]{.trn}. Examples:
++ The final [0]{.txt}-mark on the [مْ]{.ar} in the masculine plural pronouns ([هُمْ]{.ar} [hum]{.trn}, [هُمْ]{.ar} [-hum]{.trn}, [أَنْتُمْ]{.ar} [Eantum]{.trn}, [تُمْ]{.ar} [-tum]{.trn}, [كُمْ]{.ar} [-kum]{.trn}) becomes a [u]{.trn}-mark ([هُمُ]{.ar} [humu]{.trn}, [هُمُ]{.ar} [-humu]{.trn}, [أَنْتُمُ]{.ar} [Eantumu]{.trn}, [تُمُ]{.ar} [-tumu]{.trn}, [كُمُ]{.ar} [-kumu]{.trn} respectively) when followed by a connecting [hamzah]{.trn2}. Examples:
   + [هُمُ ٱلْمُعَلِّمُونَ.]{.ar}  
     [humu -lmueallimUna.]{.trn}  
     "They~pl.\ masc.~ are the (male) teachers."
-+ The plural masculine verb doer pronoun for the absent person "they~pl.\ masc.~" [ـُوا]{.ar} [U]{.trn} has a silent [Ealif]{.trn} which is written only and not pronounced. This [Ealif]{.trn} is dropped when a doee pronoun is attached. For example: 
++ The plural masculine verb doer pronoun for the absent person "they~pl.\ masc.~" [ـُوا]{.ar} [U]{.trn} has a silent [Ealif]{.trn2} which is written only and not pronounced. This [Ealif]{.trn2} is dropped when a doee pronoun is attached. For example: 
   + [ضَرَبُوا ٱلرَّجُلَ.]{.ar}  
     [Darabu -rrajula.]{.trn}  
     "They hit the man.
@@ -6137,7 +6138,7 @@ If the annexe noun is semi-flexible then it gets a [◌ِ]{.ar} in the i-state, 
 [لَعِبْنَ فِي حَدَائِقِهِنَّ.]{.ar}  
 "They~3,f~ played in their~3,f~ gardens."
 
-If an annexe noun ends with [ىٰ]{.ar} then it gets converted to an [Ealif]{.trn} when annexing it to an attached pronoun. Example with ^2^[فَتَاوَىٰ]{.ar} "legal opinions":
+If an annexe noun ends with [ىٰ]{.ar} then it gets converted to an [Ealif]{.trn2} when annexing it to an attached pronoun. Example with ^2^[فَتَاوَىٰ]{.ar} "legal opinions":
 
 [كَتَبَ تَلَامِذَةُ ٱلشَّيْخِ فَتَاوَاهُ فِي كُتُبِهِمْ.]{.ar}  
 "The pupils of the religious scholar wrote down his legal opinions in their books."
@@ -6233,13 +6234,13 @@ When duals and [Un]{.trn} sound plurals are annexe nouns, then their final [ن]{
 not  
 $\times$\ [بَيْتَانِ ٱلرَّجُلِ]{.ar}
 
-Note, also, that because the base noun [ٱَلرَّجُلِ]{.ar} begins with a connecting [hamzah]{.trn} [ٱ]{.ar}, therefore the long vowel [A]{.trn} at the end of [بَيْتَا]{.ar} is pronounced as a short vowel [a]{.trn}, thus:
+Note, also, that because the base noun [ٱَلرَّجُلِ]{.ar} begins with a connecting [hamzah]{.trn2} [ٱ]{.ar}, therefore the long vowel [A]{.trn} at the end of [بَيْتَا]{.ar} is pronounced as a short vowel [a]{.trn}, thus:
 
 [bayta -rrajuli]{.trn}  
 not  
 $\times$\ [baytA -rrajuli]{.trn}
 
-If the dual annexe noun were in the i-state then the final [ي]{.ar} gets an [i]{.trn}-mark [◌ِ]{.trn} if there is following connecting [hamzah]{.trn}. Example:
+If the dual annexe noun were in the i-state then the final [ي]{.ar} gets an [i]{.trn}-mark [◌ِ]{.trn} if there is following connecting [hamzah]{.trn2}. Example:
 
 [قَرَأْتُ كِتَابَيِ ٱلرَّجُلِ.]{.ar}  
 [qaraEtu kitAbayi -rrajul]{.trn}  
@@ -6250,7 +6251,7 @@ Here are some more examples including [Un]{.trn} sound plurals:
 [مُعَلِّمُو ٱلْغُلَامِ كِرَامٌ.]{.ar}  
 [mueallimu -lgulAmi kirAm.]{.trn}  
 "The boy's teachers~3~ are noble."  
-(Note that there is no silent [Ealif]{.trn} after [مُعَلِّمُو]{.ar} as there is after a verb with a plural absentee-participant doer pronoun, e.g. [لَعِبُوا]{.ar} "they~3,m~ played")
+(Note that there is no silent [Ealif]{.trn2} after [مُعَلِّمُو]{.ar} as there is after a verb with a plural absentee-participant doer pronoun, e.g. [لَعِبُوا]{.ar} "they~3,m~ played")
 
 [لَعِبَ ٱبْنَا ٱلرَّجُلِ مَعَ لَاعِبِي مَدِينَتِهِمْ.]{.ar}  
 [laeiba -bna -rrajuli maea lAeibI madInatihim.]{.trn}  
@@ -6385,7 +6386,7 @@ If a dual is the first noun in a chain, then the [ن]{.ar} in the dual suffix is
   [bayta -rrajuli wAsieAni.]{.trn}  
   "The two houses of the man are spacious."
 
-  Note that [بَيْتَا ٱلرَّجُلِ ]{.ar} [bayta -rrajuli]{.trn} is technically pronounced identically to [بَيْتَ ٱلرَّجُلِ]{.ar} [bayta -rrajuli]{.trn}. The [Ealif]{.trn} in [بَيْتَا]{.ar} is not pronounced because of the connecting [hamzah]{.trn} after it. Some say that extra stress may be placed on the vowel [ta]{.trn} in order to convey that it is the dual: [bay#t#a -rrajuli]{.trn}.
+  Note that [بَيْتَا ٱلرَّجُلِ ]{.ar} [bayta -rrajuli]{.trn} is technically pronounced identically to [بَيْتَ ٱلرَّجُلِ]{.ar} [bayta -rrajuli]{.trn}. The [Ealif]{.trn2} in [بَيْتَا]{.ar} is not pronounced because of the connecting [hamzah]{.trn2} after it. Some say that extra stress may be placed on the vowel [ta]{.trn} in order to convey that it is the dual: [bay#t#a -rrajuli]{.trn}.
 
 + [ذَهَبَ إِلَىٰ مَدِنَتَيْ بَلَدٍ.]{.ar}  
   [pahaba EilA madInatay baladin.]{.trn}  
@@ -6394,7 +6395,7 @@ If a dual is the first noun in a chain, then the [ن]{.ar} in the dual suffix is
   [fataHa bAbayi -lbayti.]{.trn}  
   "He opened the two doors of the house."
 
-  Note that a helper [i]{.trn} vowel is placed on the [ي]{.ar} in [بَابَيِ]{.ar} [bAbayi]{.trn} instead of the [0]{.txt}-mark because of the connecting [hamzah]{.trn} after it.
+  Note that a helper [i]{.trn} vowel is placed on the [ي]{.ar} in [بَابَيِ]{.ar} [bAbayi]{.trn} instead of the [0]{.txt}-mark because of the connecting [hamzah]{.trn2} after it.
 
 ### Plurals
 
@@ -6568,7 +6569,7 @@ This can be done with all the attached pronouns:
 Here are some notes regarding the use of pronouns in noun-chains.
 
 + An attached pronoun may be only the last noun in a noun-chain. It cannot be the first noun in a noun-chain.
-+ A looped [tAE]{.trn} [ة]{.ar} in the first noun becomes an open [tAE]{.trn} [ت]{.ar} when a pronoun is attached as the second noun in the noun-chain. For example [مَدْرَسَةٌ]{.ar} [madrasatun]{.trn} "a school" becomes [مَدْرَسَتُهُ]{.ar} [madrasatuhu]{.trn} "his school".
++ A looped [tAE]{.trn2} [ة]{.ar} in the first noun becomes an open [tAE]{.trn2} [ت]{.ar} when a pronoun is attached as the second noun in the noun-chain. For example [مَدْرَسَةٌ]{.ar} [madrasatun]{.trn} "a school" becomes [مَدْرَسَتُهُ]{.ar} [madrasatuhu]{.trn} "his school".
 + The first noun in the noun-chain, before the attached pronoun, may be in any state. So, for example, we can have:
   + [دَخَلَ بَيْتَهُ.]{.ar} (a-state)  
     [daxala baytahu]{.trn}  
@@ -6600,7 +6601,7 @@ Here are some notes regarding the use of pronouns in noun-chains.
     [min mueallimIhi]{.trn}  
     "from his (male) teachers"
 
-+ With dual nouns and sound [Un]{.trn} plural nouns, when the last noun in the noun-chain is [ـِي]{.ar} [-I]{.trn} "my", the [ـِي]{.ar} [-I]{.trn} becomes a [يَ]{.ar} [ya]{.trn} when preceded by an unvowelled [ا]{.ar} [Ealif]{.trn} or [ي]{.ar} [yAE]{.trn}. The [يَ]{.ar} gets doubled when preceded by an unvowelled [ي]{.ar}. Examples:
++ With dual nouns and sound [Un]{.trn} plural nouns, when the last noun in the noun-chain is [ـِي]{.ar} [-I]{.trn} "my", the [ـِي]{.ar} [-I]{.trn} becomes a [يَ]{.ar} [ya]{.trn} when preceded by an unvowelled [ا]{.ar} [Ealif]{.trn2} or [ي]{.ar} [yAE]{.trn2}. The [يَ]{.ar} gets doubled when preceded by an unvowelled [ي]{.ar}. Examples:
   + [مُعَلِّمَايَ طَيِّبَانِ.]{.ar}  
     [mueallimAya TayyibAni.]{.trn}  
     "My two (male) teachers are good."
@@ -7135,9 +7136,9 @@ Here are some examples using these nouns:
 
 
 <!--
-## Nouns that begin with connecting [hamzah]{.trn}
+## Nouns that begin with connecting [hamzah]{.trn2}
 
-When the definite article [ٱَلْ]{.ar} [Eal]{.trn} is prefixed to a noun which begins with a connecting [hamzah]{.trn}, the [hamzah]{.trn} is not pronounced. Instead the [lAm]{.trn} in [ٱَلْ]{.ar} will take an [i]{.trn}-mark. For example, [ٱِبْنٌ]{.ar} [Eibnun]{.trn} "a son" becomes [ٱَلِٱبْنُ]{.ar} [Ealibnu]{.trn} "the son".
+When the definite article [ٱَلْ]{.ar} [Eal]{.trn} is prefixed to a noun which begins with a connecting [hamzah]{.trn2}, the [hamzah]{.trn2} is not pronounced. Instead the [lAm]{.trn} in [ٱَلْ]{.ar} will take an [i]{.trn}-mark. For example, [ٱِبْنٌ]{.ar} [Eibnun]{.trn} "a son" becomes [ٱَلِٱبْنُ]{.ar} [Ealibnu]{.trn} "the son".
 -->
 ### [نَاس]{.ar} [nAs]{.trn}, and [أُنَاس]{.ar} [EunAs]{.trn}
 
@@ -7187,7 +7188,7 @@ Like [شَفَة]{.ar} [cafah]{.trn}
 it also, despite ending in the feminine marker [ة]{.ar}, does not form an [At]{.trn} sound plural.
 
 Thirdly, both nouns are very irregular in how they become definite nouns with [ٱَلْ]{.ar}.
-When [ٱَلْ]{.ar} is prefixed to these nouns to make them definite, they lose the initial connecting [hamzah]{.trn} and change their internal vowels. This table shows what we mean:
+When [ٱَلْ]{.ar} is prefixed to these nouns to make them definite, they lose the initial connecting [hamzah]{.trn2} and change their internal vowels. This table shows what we mean:
 
 State         | Definite of [ٱِمْرَأ]{.ar}     | Definite of [ٱِمْرَأَة]{.ar}
 :-------------|:----------------------------|:----------------------------
@@ -8148,7 +8149,7 @@ When calling out to [#allAh]{.trn2} by name, it is permissible to prefix the nam
 [yA EallAhu]{.trn}  
 "O [#allAh]{.trn2}"
 
-Note that the word [أَللَّـٰهُ]{.ar} [EallAhu]{.trn} now has a regular [hamzah]{.trn} [أ]{.ar} instead of a connecting [hamzah]{.trn} [ٱ]{.ar}.
+Note that the word [أَللَّـٰهُ]{.ar} [EallAhu]{.trn} now has a regular [hamzah]{.trn2} [أ]{.ar} instead of a connecting [hamzah]{.trn2} [ٱ]{.ar}.
 
 However, instead of saying [يَا أَللَّـٰهُ]{.ar} [yA EallAhu]{.trn} for "O [#allAh]{.trn2}", it is in fact more common to use a special word:
 
@@ -8202,7 +8203,7 @@ The following are the pointing nouns in Arabic:
 
 Note the following:
 
-+ Many of the pointing nouns contain small [Ealif]{.trn} [◌ٰ]{.ar}. For most of them, this is how they must be written. It would be incorrect to write [هَـٰذَا]{.ar} [hApA]{.trn} as [هَاذَا]{.ar}.
++ Many of the pointing nouns contain small [Ealif]{.trn2} [◌ٰ]{.ar}. For most of them, this is how they must be written. It would be incorrect to write [هَـٰذَا]{.ar} [hApA]{.trn} as [هَاذَا]{.ar}.
 + All the near pointing nouns begin with a [ه]{.ar}. And all the far pointing nouns end with [ك]{.ar}.
 + The [و]{.ar} in [أُولَـٰئِكَ]{.ar} [EulAEika]{.trn} is silent and not pronounced. That is, the first syllable has a short vowel [u]{.trn}, not the long vowel [U]{.trn}.
 + Most of the pointing nouns are rigid nouns. That is: their endings are not modified for their state. 
@@ -9760,7 +9761,7 @@ Take note the following:
 + The u-state and a-state verbs are the same for the feminine plural absentee and addressee participants: 
   + [يَفْعَلْنَ]{.ar} (they~3f~)
   + [تَفْعَلْنَ]{.ar} (you~3f~)
-+ The a-state verbs for the masculine plural absentee and addressee participants have a final silent [Ealif]{.trn}: 
++ The a-state verbs for the masculine plural absentee and addressee participants have a final silent [Ealif]{.trn2}: 
   + [يَفْعَلُوا]{.ar} (they~3m~) 
   + [تَفْعَلُوا]{.ar} (you~3m~)
 
@@ -9927,14 +9928,14 @@ Take note the following:
 + The u-state and [0]{.txt}-state verbs are the same for the feminine plural absentee and addressee participants: 
   + [يَفْعَلْنَ]{.ar} (they~3+,f~)
   + [تَفْعَلْنَ]{.ar} (you~3+,f~)
-+ The u-state and [0]{.txt}-state verbs for the masculine plural absentee and addressee participants have a final silent [Ealif]{.trn}: 
++ The u-state and [0]{.txt}-state verbs for the masculine plural absentee and addressee participants have a final silent [Ealif]{.trn2}: 
   + [يَفْعَلُوا]{.ar} (they~3+,m~) 
   + [تَفْعَلُوا]{.ar} (you~3+,m~)
 + When the 
 [0]{.txt}-state
 incomplete-action verb
 ends with a 
-[0]{.txt}-mark [◌ْ]{.ar}, and the next word begins with a connecting [hamzah]{.trn} [ٱ]{.ar} then the
+[0]{.txt}-mark [◌ْ]{.ar}, and the next word begins with a connecting [hamzah]{.trn2} [ٱ]{.ar} then the
 [0]{.txt}-mark [◌ْ]{.ar} is converted to an [i]{.trn} mark [◌ِ]{.ar}. For example:
   + [يَفْعَلْ + ٱلرَّجُلُ = يَفْعَلِ ٱلرَّجُلُ]{.ar}
 
@@ -10088,11 +10089,11 @@ Here is the verb of command for the addressee participants:
 | you~3+,m~   |[ٱفْعَلُوا]{.ar}  |
 | you~3+,f~   |[ٱفْعَلْنَ]{.ar}   |
 
-In order to form the verb of command, we remove the initial [ت]{.ar} from the addressee particpant verb. The verb then begins with an [0]{.txt}-mark so we place a connecting [hamzah]{.trn} in front of it.
+In order to form the verb of command, we remove the initial [ت]{.ar} from the addressee particpant verb. The verb then begins with an [0]{.txt}-mark so we place a connecting [hamzah]{.trn2} in front of it.
 
-When the verb of command occurs in the beginning of a sentence, then the vowel mark for the connecting [hamzah]{.trn} is selected according to the following criteria:
+When the verb of command occurs in the beginning of a sentence, then the vowel mark for the connecting [hamzah]{.trn2} is selected according to the following criteria:
 
-i. When the middle root letter of the verb of command has an [u]{.trn}-mark\ [◌ُ]{.ar}, then the connecting [hamzah]{.trn} gets an [u]{.trn}-mark\ too. Examples:
+i. When the middle root letter of the verb of command has an [u]{.trn}-mark\ [◌ُ]{.ar}, then the connecting [hamzah]{.trn2} gets an [u]{.trn}-mark\ too. Examples:
 
    | Verb | Verb of command for "he" |
    |:------|:-----|
@@ -10100,7 +10101,7 @@ i. When the middle root letter of the verb of command has an [u]{.trn}-mark\ [�
    |[قَتَلَ يَقْتُلُ قَتْلًا]{.ar}  | [ٱُقْتُلْ]{.ar} "Kill!"|
    |[مَكَثَ يَمْكُثُ مُكُوثًا]{.ar} | [ٱُمْكُثْ]{.ar} "Stay!"|
 
-i. Otherwise, when the middle root letter of the verb of command has an [a]{.trn}-mark\ [◌َ]{.ar} or an [i]{.trn}-mark\ [◌ِ]{.ar}, then the connecting [hamzah]{.trn} gets an [i]{.trn}-mark\ [◌ِ]{.ar}. Examples:
+i. Otherwise, when the middle root letter of the verb of command has an [a]{.trn}-mark\ [◌َ]{.ar} or an [i]{.trn}-mark\ [◌ِ]{.ar}, then the connecting [hamzah]{.trn2} gets an [i]{.trn}-mark\ [◌ِ]{.ar}. Examples:
 
    | Verb | Verb of command for "he" |
    |:------|:-----|
@@ -10125,10 +10126,10 @@ above.
 [لَا تَذْهَبْ]{.ar}  
 "Don't go!"
 
-### The verb of command for roots begin with [hamzah]{.trn}
+### The verb of command for roots begin with [hamzah]{.trn2}
 
-Appendix\ \@ref(hamzarules) details the rules for speeling words that contain [hamzah]{.trn} generally.
-In addition to those rules, the verb of command for roots that begin with [hamzah]{.trn} warrant additional discussion.
+Appendix\ \@ref(hamzarules) details the rules for speeling words that contain [hamzah]{.trn2} generally.
+In addition to those rules, the verb of command for roots that begin with [hamzah]{.trn2} warrant additional discussion.
 
 Consider the following form\ 1 verbs and their verbs of command
 for the singular masculine addressee doer "he":
@@ -10148,7 +10149,7 @@ Here are examples of these verbs of commands in the middle of a sentence:
 [yA zaydu -Emuli -lxayr!]{.trn}  
 "O Zayd, hope for good!"
 
-When these verbs of command occur in the beginning of the sentence, then there would be two [hamzah]{.trn}s occuring next to each other which is not permitted. So the second [hamzah]{.trn} is pronounced as a long vowel, though it may still be written as a [hamzah]{.trn}. Examples:
+When these verbs of command occur in the beginning of the sentence, then there would be two [hamzah]{.trn2}s occuring next to each other which is not permitted. So the second [hamzah]{.trn2} is pronounced as a long vowel, though it may still be written as a [hamzah]{.trn2}. Examples:
 
 [ٱُؤمُلِ ٱلْخَيْرَ يَا زَيْدُ!]{.ar}  
 [EUmul]{.trn}  
@@ -10165,7 +10166,7 @@ As a further complication, when the verb of command is preceded by
 or
 [فَ]{.ar} "so"
 then the connecting [hamza]{.trn} is not written
-and the [hamzah]{.trn} of the first root letter is written seated on an [Ealif]{.trn}.
+and the [hamzah]{.trn2} of the first root letter is written seated on an [Ealif]{.trn2}.
 Examples:
 
 [وَأْمُلْ]{.ar}  
@@ -10178,7 +10179,7 @@ Examples:
 
 ### Irregular verbs of command
 
-In addition to the rules states above there are four verbs of command (all containing [hamzah]{.trn}) that are irregular. We will discuss them below:
+In addition to the rules states above there are four verbs of command (all containing [hamzah]{.trn2}) that are irregular. We will discuss them below:
 
 #### The verbs [أَكَلَ]{.ar}\ , [أَخَذَ]{.ar}\ , and [أَمَرَ]{.ar}
 
@@ -10190,10 +10191,10 @@ The verbs of command for the  following three verbs are irregular:
 | [أخذ]{.arroot} | [أَخَذَ يَأْخُذُ أَخْذًا]{.ar} "to take"  | [خُذْ]{.ar} | 
 | [أمر]{.arroot} | [أَمَرَ يَأْمُرُ أَمْرًا]{.ar} "to order" | [مُرْ]{.ar} | 
 
-As you can see, the initial [hamzah]{.trn} has been completely deleted for the verbs of command.
+As you can see, the initial [hamzah]{.trn2} has been completely deleted for the verbs of command.
 However, of these verbs, the verb of command for 
 [أَمَرَ يَأْمُرُ أَمْرًا]{.ar}
-is permitted to retain its initial [hamzah]{.trn} when preceded by
+is permitted to retain its initial [hamzah]{.trn2} when preceded by
 [وَ]{.ar} "and"
 or
 [فَ]{.ar} "so". Then, it becomes
@@ -10202,7 +10203,7 @@ or
 and  
 [فَأْمُرْ]{.ar} [faEmur]{.trn}
 
-This retaining of the initial [hamzah]{.trn} is not done for the other two verbs.
+This retaining of the initial [hamzah]{.trn2} is not done for the other two verbs.
 
 Here are some examples of these verbs of command:
 
@@ -11206,20 +11207,20 @@ However, the feminine broken plural [أُخَرُ]{.ar} [Euxaru]{.trn} can also 
 
 [hamzao]{.trn} is written in four different ways:
 
-1. Seated on an [Ealif]{.trn}: [أ]{.ar}
-2. Seated on an [wAw]{.trn}: [ؤ]{.ar}
-3. Seated on an [yAE]{.trn}: [ئ]{.ar}
+1. Seated on an [Ealif]{.trn2}: [أ]{.ar}
+2. Seated on an [wAw]{.trn2}: [ؤ]{.ar}
+3. Seated on an [yAE]{.trn2}: [ئ]{.ar}
 4. Unseated: [ء]{.ar}
 
 Here are some of notes about writing [hamzao]{.trn} in the above four methods:
 
-+ When unseated [hamzao]{.trn} is followed by an [Ealif]{.trn}: [ءا]{.ar},  the combination of [hamzao]{.trn} and [Ealif]{.trn} is conventionally written as [آ]{.ar} as long as the [Ealif]{.trn} is not a suffix or part of a suffix. When the [Ealif]{.trn} is a suffix or part of a suffix then we will write [ءا]{.ar}, not [آ]{.ar}.
++ When unseated [hamzao]{.trn} is followed by an [Ealif]{.trn2}: [ءا]{.ar},  the combination of [hamzao]{.trn} and [Ealif]{.trn2} is conventionally written as [آ]{.ar} as long as the [Ealif]{.trn2} is not a suffix or part of a suffix. When the [Ealif]{.trn2} is a suffix or part of a suffix then we will write [ءا]{.ar}, not [آ]{.ar}.
 
-+ When unseated [hamzao]{.trn} comes between two letters that are joined, then it is written above the line that joins them, for example: [خَطِيـَٔةٌ]{.ar} [xaTIEatun]{.trn}. In this word, the [yAE]{.trn} [ي]{.ar} joins to the looped [tAE]{.trn} [ة]{.ar}. So the unseated [hamzao]{.trn} is written above the joining line like so [ــٔـ]{.ar}.
++ When unseated [hamzao]{.trn} comes between two letters that are joined, then it is written above the line that joins them, for example: [خَطِيـَٔةٌ]{.ar} [xaTIEatun]{.trn}. In this word, the [yAE]{.trn2} [ي]{.ar} joins to the looped [tAE]{.trn2} [ة]{.ar}. So the unseated [hamzao]{.trn} is written above the joining line like so [ــٔـ]{.ar}.
 
-+ When [hamzao]{.trn} is seated on [Ealif]{.trn}, if it has an [i]{.trn}-mark, it is written below the [Ealif]{.trn}: [إِ]{.ar}. Otherwise, it is written above the [Ealif]{.trn}: [أَ]{.ar}, [أُ]{.ar}, [أْ]{.ar}.
++ When [hamzao]{.trn} is seated on [Ealif]{.trn2}, if it has an [i]{.trn}-mark, it is written below the [Ealif]{.trn2}: [إِ]{.ar}. Otherwise, it is written above the [Ealif]{.trn2}: [أَ]{.ar}, [أُ]{.ar}, [أْ]{.ar}.
 
-+ When [hamzao]{.trn} is seated on [yAE]{.trn} [ئ]{.ar} the dots of the [yAE]{.trn} are no longer written. Here's how it will appear in different positions:
++ When [hamzao]{.trn} is seated on [yAE]{.trn2} [ئ]{.ar} the dots of the [yAE]{.trn2} are no longer written. Here's how it will appear in different positions:
 
   Isolated | End | Middle | Beginnning
   :--------|:----|:-------|:----------
@@ -11229,8 +11230,8 @@ Here are some of notes about writing [hamzao]{.trn} in the above four methods:
 So how do we know when to write [hamzao]{.trn} unseated and when seated? And how do we choose between its three different seats? There are a set of rules that we need to follow in order to correctly write [hamzao]{.trn}. These rules are quite complicated (although they have a basic underlying strategy in them). We will give the complete set of rules here. But for now, you may limit yourself to understanding the rules for [hamzao]{.trn} in the beginning of a word. The remaining rules are here for you to refer back to as you come across words with [hamzao]{.trn}.
 
 1. If [hamzao]{.trn} occurs in the beginning of a word:
-   a. If the [hamzao]{.trn} carries a long-[A]{.trn} vowel, it is written unseated followed by an [Ealif]{.trn} and written as [آ]{.ar}, for example [آمَنَ]{.ar} [EAmana]{.trn}.
-   b. If the [hamzao]{.trn} carries any other vowel, it is written seated on an [Ealif]{.trn}, and is marked with the appropriated vowel mark, for example [أَسْلَمَ]{.ar} [Easlama]{.trn}, [أُرِيدُ]{.ar} [EurIdu]{.trn}, [إِسْلَامُ]{.ar} [EislAmu]{.trn}, [إِيمَانُ]{.ar} [EImAnu]{.trn}, [أُوخِذَ]{.ar} [EUxipa]{.trn}. 
+   a. If the [hamzao]{.trn} carries a long-[A]{.trn} vowel, it is written unseated followed by an [Ealif]{.trn2} and written as [آ]{.ar}, for example [آمَنَ]{.ar} [EAmana]{.trn}.
+   b. If the [hamzao]{.trn} carries any other vowel, it is written seated on an [Ealif]{.trn2}, and is marked with the appropriated vowel mark, for example [أَسْلَمَ]{.ar} [Easlama]{.trn}, [أُرِيدُ]{.ar} [EurIdu]{.trn}, [إِسْلَامُ]{.ar} [EislAmu]{.trn}, [إِيمَانُ]{.ar} [EImAnu]{.trn}, [أُوخِذَ]{.ar} [EUxipa]{.trn}. 
 
 2. If [hamzao]{.trn} occurs in the middle of a word:
    a. If there is a long vowel or semi-vowel before the [hamzao]{.trn}:
@@ -11240,39 +11241,39 @@ So how do we know when to write [hamzao]{.trn} unseated and when seated? And how
       [شَيْـُٔهُ]{.ar} [cayEuhu]{.trn}, [شَيْـَٔهُ]{.ar} [cayEahu]{.trn}, [شَيْـِٔهِ]{.ar} [cayEihi]{.trn}, [شَيْـَٔانِ]{.ar} [cayEAni]{.trn}, [شَيْـَٔيْنِ]{.ar} [cayEayni]{.trn}  
       [مَجِيـُٔهُ]{.ar} [majIEuhu]{.trn}, [مَجِيـَٔهُ]{.ar} [majIEahu]{.trn}, [مَجِيـِٔهِ]{.ar} [majIEihi]{.trn}  
       ii. If the [hamzao]{.trn} is after a long-[U]{.trn} vowel or [aw]{.trn} semi-vowel, then:  
-          If the [hamzao]{.trn} has an [i]{.trn}-mark it is written seated on [yAE]{.trn}. Examples:
+          If the [hamzao]{.trn} has an [i]{.trn}-mark it is written seated on [yAE]{.trn2}. Examples:
           [سُوئِهِ]{.ar} [sUEihi]{.trn}, [ضَوْئِهِ]{.ar} [DawEihi]{.trn}  
           Otherwise, the [hamzao]{.trn} is written unseated. Examples:
           [سُوءَه]{.ar} [sUEahu]{.trn}, [سُوءَانِ]{.ar} [sUEAni]{.trn},  [تَوْءَمُ]{.ar} [tawEamu]{.trn}, [ضَوْءَهُ]{.ar} [DawEahu]{.trn},  [ضَوْءَانِ]{.ar} [DawEAni]{.trn},  [سُوءُهُ]{.ar} [sUEuhu]{.trn},  [يَسُوءُونَ]{.ar} [yasUEUna]{.trn}  
       iii. If the [hamzao]{.trn} is after a long [A]{.trn}-vowel, then:
-           If the [hamzao]{.trn} has an [i]{.trn}-mark it is written seated on [yAE]{.trn}. Example:
+           If the [hamzao]{.trn} has an [i]{.trn}-mark it is written seated on [yAE]{.trn2}. Example:
            [سَائِلُ]{.ar} [sAEilu]{.trn}.  
-           If the [hamzao]{.trn} has an [u]{.trn}-mark it is written seated on [wAw]{.trn}. Example: [تَسَاؤُلُ]{.ar} [tasAEulu]{.trn}.  
+           If the [hamzao]{.trn} has an [u]{.trn}-mark it is written seated on [wAw]{.trn2}. Example: [تَسَاؤُلُ]{.ar} [tasAEulu]{.trn}.  
            Otherwise, when the [hamzao]{.trn} has an [a]{.trn}-mark, it is written unseated. Example: [سَاءَلَ]{.ar} [sAEala]{.trn}, [قِرَاءَاتُ]{.ar} [qirAEAtu]{.trn}.
-   b. If the letter before the [hamzao]{.trn} has a [0]{.txt}-mark and is not [wAw]{.trn} or [yAE]{.trn}, then:
+   b. If the letter before the [hamzao]{.trn} has a [0]{.txt}-mark and is not [wAw]{.trn2} or [yAE]{.trn2}, then:
       i. If the [hamzao]{.trn} was originally at the end of the word, but a suffix has been attached to the word, then the [hamzao]{.trn} will be written unseated. Examples: [عِبْـَٔانِ]{.ar} [eibEAni]{.trn}, [عِبْـَٔييْنِ]{.ar} [eibEayni]{.trn}, [بُطْـَٔهُ]{.ar} [buTEahu]{.trn}, [بُطْـُٔهُ]{.ar} [buTEuhu]{.trn}, [بُطْـِٔهِ]{.ar} [buTEihi]{.trn}. ([انِ]{.ar}, [يْنِ]{.ar}, [هُ]{.ar}, and [هِ]{.ar} are suffixes).
-      ii. Otherwise, if the [hamzao]{.trn} is originally at the middle of the word, then it is written seated on [wAw]{.trn} if it has an [u]{.trn}-mark and [yAE]{.trn} if it has an [i]{.trn}-mark. Examples: [مَسْؤُولُ]{.ar} [masEUlu]{.trn}, [تَرْئِيسُ]{.ar} [tarEIsu]{.trn}.  
+      ii. Otherwise, if the [hamzao]{.trn} is originally at the middle of the word, then it is written seated on [wAw]{.trn2} if it has an [u]{.trn}-mark and [yAE]{.trn2} if it has an [i]{.trn}-mark. Examples: [مَسْؤُولُ]{.ar} [masEUlu]{.trn}, [تَرْئِيسُ]{.ar} [tarEIsu]{.trn}.  
           If the [hamzao]{.trn} has an [a]{.trn} mark then:  
-          If it is followed by a long-[A]{.trn} vowel represented by an [Ealif]{.trn}, the [hamzao]{.trn} is unseated followed by the [Ealif]{.trn} and the combination is written as [آ]{.ar}. Example: [مِرْآةُ]{.ar} [mirEAtu]{.trn}, [ظَمْآنُ]{.ar} [PamEAnu]{.trn}.  
-          Otherwise, if there is no [Ealif]{.trn} after the [hamzao]{.trn}, the [hamzao]{.trn} is written seated on [Ealif]{.trn}. Examples: [مَسْأَلَةُ]{.ar} [masEalatu]{.trn}, , [مَرْأَةُ]{.ar} [marEatu]{.trn}.
-   c. If the [hamzao]{.trn} has a [0]{.txt}-mark, then it is written seated on [Ealif]{.trn} if it has an [a]{.trn}-mark, [wAw]{.trn} if it has an [u]{.trn}-mark, and [yAE]{.trn} if it has an [i]{.trn}-mark. Examples: [كَأْسُ]{.ar} [kaEsu]{.trn}, [بِئْسَ]{.ar} [biEsa]{.trn}, [سُؤْلَكَ]{.ar} [suElaka]{.trn}.
+          If it is followed by a long-[A]{.trn} vowel represented by an [Ealif]{.trn2}, the [hamzao]{.trn} is unseated followed by the [Ealif]{.trn2} and the combination is written as [آ]{.ar}. Example: [مِرْآةُ]{.ar} [mirEAtu]{.trn}, [ظَمْآنُ]{.ar} [PamEAnu]{.trn}.  
+          Otherwise, if there is no [Ealif]{.trn2} after the [hamzao]{.trn}, the [hamzao]{.trn} is written seated on [Ealif]{.trn2}. Examples: [مَسْأَلَةُ]{.ar} [masEalatu]{.trn}, , [مَرْأَةُ]{.ar} [marEatu]{.trn}.
+   c. If the [hamzao]{.trn} has a [0]{.txt}-mark, then it is written seated on [Ealif]{.trn2} if it has an [a]{.trn}-mark, [wAw]{.trn2} if it has an [u]{.trn}-mark, and [yAE]{.trn2} if it has an [i]{.trn}-mark. Examples: [كَأْسُ]{.ar} [kaEsu]{.trn}, [بِئْسَ]{.ar} [biEsa]{.trn}, [سُؤْلَكَ]{.ar} [suElaka]{.trn}.
    d. Otherwise, only if the above conditions are not satisfied, then compare the vowel marks of the [hamzao]{.trn} and the letter before it:
-      i. If either vowel mark is an [i]{.trn}-mark then the [hamzao]{.trn} will be written on a [yAE]{.trn}. Examples: [سُئِلَ]{.ar} [suEila]{.trn}, [يَئِسَ]{.ar} [yaEisa]{.trn}, [مُتَّكِئِينَ]{.ar} [muttakiEIna]{.trn}.
-      ii. If neither vowel mark is an [i]{.trn}-mark, and at least one of the vowel marks is a [u]{.trn}-mark, then the [hamzao]{.trn} will be written on a [wAw]{.trn}. Examples: [سُؤَالُ]{.ar} [suEAlu]{.trn}, [رُؤُوسُ]{.ar} [ruEUsu]{.trn}, [لُؤَيُّ]{.ar} [luEayyu]{.trn}.
+      i. If either vowel mark is an [i]{.trn}-mark then the [hamzao]{.trn} will be written on a [yAE]{.trn2}. Examples: [سُئِلَ]{.ar} [suEila]{.trn}, [يَئِسَ]{.ar} [yaEisa]{.trn}, [مُتَّكِئِينَ]{.ar} [muttakiEIna]{.trn}.
+      ii. If neither vowel mark is an [i]{.trn}-mark, and at least one of the vowel marks is a [u]{.trn}-mark, then the [hamzao]{.trn} will be written on a [wAw]{.trn2}. Examples: [سُؤَالُ]{.ar} [suEAlu]{.trn}, [رُؤُوسُ]{.ar} [ruEUsu]{.trn}, [لُؤَيُّ]{.ar} [luEayyu]{.trn}.
       iii. Otherwise, if both of the vowel marks are [a]{.trn}-marks, then:  
-           If the [hamzao]{.trn} is followed by a long-[A]{.trn} vowel represented by an [Ealif]{.trn}, the [hamzao]{.trn} is written unseated. Examples: [شَنَآنُ]{.ar} [canaEAnu]{.trn}.  
-           Otherwise the [hamzao]{.trn} will be written on an [Ealif]{.trn}. Examples: [سَأَلَ]{.ar} [saEala]{.trn}, [رَأَىٰ]{.ar} [raEA]{.trn}.
+           If the [hamzao]{.trn} is followed by a long-[A]{.trn} vowel represented by an [Ealif]{.trn2}, the [hamzao]{.trn} is written unseated. Examples: [شَنَآنُ]{.ar} [canaEAnu]{.trn}.  
+           Otherwise the [hamzao]{.trn} will be written on an [Ealif]{.trn2}. Examples: [سَأَلَ]{.ar} [saEala]{.trn}, [رَأَىٰ]{.ar} [raEA]{.trn}.
 
       These set of rules apply even if the [hamzao]{.trn} or the previous letter is doubled. Examples [رَأَّسَ]{.ar} [raEEasa]{.trn} [يُرَئِّسُ]{.ar} [yuraEEisu]{.trn} [رُئِّسَ]{.ar} [ruEEisa]{.trn} [تَفَؤُّلُ]{.ar} [tafaEEulu]{.trn} [يُبَرِّئُونَ]{.ar} [yubarriEUna]{.trn} [يُبَرَّؤُونَ]{.ar} [yubarraEUna]{.trn}.
 
 3. If [hamzao]{.trn} is at the end of a word, disregard the vowel mark on it and consider only the letter before the [hamzao]{.trn}.
    a. If there is a long vowel ([A]{.trn}, [I]{.trn}, [U]{.trn}) or a semi-vowel ([aw]{.trn}, [ay]{.trn}) before it then the [hamzao]{.trn} will be written unseated. Examples: [دُعَاءُ]{.ar} [dueAEu]{.trn}, [سُوءُ]{.ar} [sUEu]{.trn}, [جِيءَ]{.ar} [jIEa]{.trn}, [ضَوْءَ]{.ar} [DawEa]{.trn}, [شَيْءَ]{.ar} [cayEa]{.trn}.
    b. Otherwise, if the previous letter has a [0]{.txt}-mark, the [hamzao]{.trn} will again be unseated. Examples: [بُطْءُ]{.ar} [buTEu]{.trn}, [عِبْءُ]{.ar} [eibEu]{.trn}, [شَطْءُ]{.ar} [caTEu]{.trn}
-   c. Otherwise, if the previous letter is a doubled [wAw]{.trn} with an [u]{.trn}-mark, the [hamzao]{.trn} will again be unseated. Example [تَبَوُّءُ]{.ar} [tabawwuEu]{.trn}.
+   c. Otherwise, if the previous letter is a doubled [wAw]{.trn2} with an [u]{.trn}-mark, the [hamzao]{.trn} will again be unseated. Example [تَبَوُّءُ]{.ar} [tabawwuEu]{.trn}.
    d. Otherwise, if the previous letter has an:
-      i. [a]{.trn}-mark, the [hamzao]{.trn} is written seated on [Ealif]{.trn}. Example [يَهْدَأُ]{.ar} [yahdaEu]{.trn}, [مُبْتَدَإِ]{.ar} [mubtadaEi]{.trn}.
-      ii. [i]{.trn}-mark, the [hamzao]{.trn} is written seated on [yAE]{.trn}. Example [يُهَدِّئُ]{.ar} [yuhaddiEu]{.trn}, [سَيِّئُ]{.ar} [sayyiEu]{.trn}.
-      iii. [u]{.trn}-mark, the [hamzao]{.trn} is written seated on [wAw]{.trn}. Example [بَطُؤَ]{.ar} [baTuEa]{.trn}.
+      i. [a]{.trn}-mark, the [hamzao]{.trn} is written seated on [Ealif]{.trn2}. Example [يَهْدَأُ]{.ar} [yahdaEu]{.trn}, [مُبْتَدَإِ]{.ar} [mubtadaEi]{.trn}.
+      ii. [i]{.trn}-mark, the [hamzao]{.trn} is written seated on [yAE]{.trn2}. Example [يُهَدِّئُ]{.ar} [yuhaddiEu]{.trn}, [سَيِّئُ]{.ar} [sayyiEu]{.trn}.
+      iii. [u]{.trn}-mark, the [hamzao]{.trn} is written seated on [wAw]{.trn2}. Example [بَطُؤَ]{.ar} [baTuEa]{.trn}.
      
 Some further notes:
 
@@ -11284,7 +11285,7 @@ Some further notes:
   [ضَوْءِ + هِ = ضَوْئِهِ]{.ar}  
   [بُطْءُ + هُ = بُطْـُٔهُ]{.ar}
 
-+ As we mentioned earlier, when unseated [hamzao]{.trn} is followed by an [Ealif]{.trn} which is not a suffix: [ءا]{.ar},  the combination of [hamzao]{.trn} and [Ealif]{.trn} is conventionally written as [آ]{.ar}. However, if the unseated hamzao is doubled and then followed by an [alif]{.trn}: [ءَّا]{.ar} then it won't be written as [آ]{.ar}. Example: [سَـَّٔالُ]{.ar} [saEEAlu]{.trn}.
++ As we mentioned earlier, when unseated [hamzao]{.trn} is followed by an [Ealif]{.trn2} which is not a suffix: [ءا]{.ar},  the combination of [hamzao]{.trn} and [Ealif]{.trn2} is conventionally written as [آ]{.ar}. However, if the unseated hamzao is doubled and then followed by an [alif]{.trn}: [ءَّا]{.ar} then it won't be written as [آ]{.ar}. Example: [سَـَّٔالُ]{.ar} [saEEAlu]{.trn}.
 
 
 
