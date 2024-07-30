@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-727-g73b66b4"
+date: "v0.1.0-728-g06be5dd"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9797,6 +9797,8 @@ The other articles that we listed in the introduction are all either derived fro
 [أَنْ]{.ar} 
 or include its meaning implicitly without expressing it.
 
+### Basic usage of [أَنْ]{.ar} [Ean]{.trn} with the a-state incomplete-action verb
+
 [أَنْ]{.ar} often follows verbs that have a meaning of wishing or hoping. For example,
 
 [أَمَلَ ٱلطَّالِبُ أَنْ يَنْجَحَ.]{.ar}  
@@ -9813,6 +9815,8 @@ For example,
 
 Other than this [لَا]{.ar},
 [أَنْ]{.ar} must directly precede the following a-state incomplete-action verb and must not be separated from it.
+
+### Grammatical equivalence of [أَنْ]{.ar} clause with a doing verbal noun
 
 In grammatical theory,
 [أَنْ]{.ar} 
@@ -9861,14 +9865,39 @@ In the i-state after a preposition:
 
 ![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-28-1.pdf)<!-- -->
 
+### Option to drop prepositiion before [أَنْ]{.ar}
+
 In the above example the verb [رَغِبَ يَرْغَبُ]{.ar} takes an indirect doee after the preposition [فِي]{.ar}.
 In such cases, where the 
 [أَنْ]{.ar} clause
 occurs after a preposition, it is common to drop the preposition as long as there is not resulting confusion in meaning.
 So, we can also say (without the preposition [فِي]{.ar}) for the same meaning:
 
-[رَغِبَ ٱلْغُلَامُ آَنْ يَأْكُلَ.]{.ar}
+[رَغِبَ ٱلْغُلَامُ آَنْ يَأْكُلَ.]{.ar}  
 "The boy desired that he eat."
+
+### Uncommon usages of [أَنْ]{.ar}
+
+Ocassionally, [أَنْ]{.ar} is used with the meaning "lest". For example:
+
+[قَتَلْتُ ٱلثُّعْبَانَ أَنْ يَقْتُلَنِي.]{.ar}  
+"I killed the serpent lest it kill me."
+
+[أَنْ]{.ar} may also occur before a completed-action verb. Example:
+
+[بَلَغَنِي أَنْ رَجَعْتَ.]{.ar}  
+"That you have returned has reached me."
+
+### Other types of [أَنْ]{.ar}
+
+There are other types of [أَنْ]{.ar} in the Arabic language. They all have the basic meaning "that". But they are used in different grammatical ways.
+
+The [أَنْ]{.ar} we have learned here is called the _verbal noun [أَنْ]{.ar}_ because of the equivalence of its clause with a doing verbal noun.
+
+There is also another type of [أَنْ]{.ar} called the _lightened [أَنْ]{.ar}_ that we will learn in section\ \@ref(lightened-an).
+
+There is also the _explanatory [أَنْ]{.ar}_ and the _extra [أَنْ]{.ar}_ that we will cover in chapter\ \(@types-of-an).
+
 
 
 <!--chapter:end:srcrmd/imperfect_verb_subj.Rmd-->
@@ -10731,7 +10760,7 @@ Where the subject is in the a-state and the use of the strengthening [لَ]{.ar}
 [إِنْ زَيْدًا مُسْلِمٌ.]{.ar}  
 "Indeed Zayd is a Muslim."
 
-### The lightened [أَنْ]{.ar}
+### The lightened [أَنْ]{.ar} {#lightened-an}
 
 As we know, the heavy [أَنَّ]{.ar} is an emphatic particle and is frequently used with the pronoun of the fact, thus:
 
