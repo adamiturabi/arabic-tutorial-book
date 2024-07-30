@@ -55,8 +55,8 @@
 % use this command from preface
 %\newcommand{\forcefancyhdr}[1]{\markboth {\textsc{\MakeLowercase{#1}}}{\textsc{\MakeLowercase{#1}}}}
 
-\renewcommand{\chaptermark}[1]{\markboth {\textsc{\MakeLowercase{\thechapter\ #1}}}{}}
-\renewcommand{\sectionmark}[1]{\markright{\textsc{\MakeLowercase{\S\thesection\ }}}}
+\renewcommand{\chaptermark}[1]{\markboth {\textsc{\MakeLowercase{\scalebox{1}[0.81]{\thechapter}\ #1}}}{}}
+\renewcommand{\sectionmark}[1]{\markright{\textsc{\MakeLowercase{\scalebox{1}[0.81]{\S\thesection}\ }}}}
 
 % Start fancy header style beginning here, override with thispagestyle{empty} for copyright page
 \pagestyle{fancy}
@@ -78,7 +78,7 @@
 %\fancyhead[RO]{\thepage\hspace*{-1cm}}
 
 % Put page numbers inside text block in top margin
-\fancyhead[LE,RO]{\thepage}
+\fancyhead[LE,RO]{\scalebox{1}[0.81]{\thepage}}
 
 \fancyhead[CO]{\nouppercase{\rightmark}}
 \fancyhead[CE]{\nouppercase{\leftmark}}
@@ -92,7 +92,7 @@
 \fancypagestyle{plain}{%
 \fancyhf{}
 \fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\tiny{Author Names, \textit{Learn Standard Arabic}, \texttt{\gitTag}\\\url{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
-\fancyfoot[CO]{\thepage}
+\fancyfoot[CO]{\scalebox{1}[0.81]{\thepage}}
 }
 
 % Blank pages (e.g., left hand pages between chapters should be completely blank. no headers even
