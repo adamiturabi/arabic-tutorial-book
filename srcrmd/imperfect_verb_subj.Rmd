@@ -207,7 +207,7 @@ As the subject:
    (word-2.south west) -- (word-2.south east)
       node [midway, below] {\scriptsize subject};
 
-\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``That you suceed is the purpose.''};
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``That you succeed is the purpose.''};
 
 \end{tikzpicture}
 ```
@@ -229,12 +229,34 @@ As the information:
    (word-1.south west) -- (word-1.south east)
       node [midway, below] {\scriptsize information};
 
-\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The purpose is that you suceed.''};
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The purpose is that you succeed.''};
 
 \end{tikzpicture}
 ```
 
-As the base noun in an annexation:
+As a doer noun:
+
+```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{أَلَّا يَرْجِعَ} \txarb{يَكْبُدُنِي},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below] {\scriptsize doer};
+
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``That he not return affects me severely.''};
+
+\end{tikzpicture}
+```
+
+In the i-state as the base noun in an annexation:
 
 ```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -249,10 +271,41 @@ As the base noun in an annexation:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, below] {\scriptsize base noun};
+      node [midway, below] {\scriptsize i-state base noun};
 
 \path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``I lingered at home from fear that you be angry at me.''};
 
 \end{tikzpicture}
 ```
+
+In the i-state after a preposition:
+
+```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{أَنْ يَأْكُلَ} \txarb{رَغِبَ ٱلْغُلَامُ فِي},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, below] {\scriptsize i-state after preposition};
+
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The boy desired that he eat.''};
+
+\end{tikzpicture}
+```
+
+In the above example the verb [رَغِبَ يَرْغَبُ]{.ar} takes an indirect doee after the preposition [فِي]{.ar}.
+In such cases, where the 
+[أَنْ]{.ar} clause
+occurs after a preposition, it is common to drop the preposition as long as there is not resulting confusion in meaning.
+So, we can also say (without the preposition [فِي]{.ar}) for the same meaning:
+
+[رَغِبَ ٱلْغُلَامُ آَنْ يَأْكُلَ.]{.ar}  
+"The boy desired that he eat."
 

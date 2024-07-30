@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-725-gd9ed16e"
+date: "v0.1.0-727-g73b66b4"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9819,7 +9819,7 @@ In grammatical theory,
 and the following verb form a clause that is equivalent in meaning to the doing verbal-noun of the verb. So in the example,
 [أَمَلَ ٱلطَّالِبُ أَنْ يَنْجَحَ.]{.ar}, the 
 [أَنْ]{.ar} clause
-([أَنْ يَنْجَحَ.]{.ar})
+([أَنْ يَنْجَحَ]{.ar})
 is equivalent to the doing verbal noun [ٱلنَّجَاح]{.ar}.
 So the sentence is grammatically equivalent to
 
@@ -9836,6 +9836,39 @@ So, in the above example, the
 is in place of the direct doee of the verb [أَمَلَ]{.ar}:
 
 ![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-23-1.pdf)<!-- -->
+
+We show other examples below where the
+[أَنْ]{.ar} clause
+occurs in place of other noun positions.
+
+As the subject:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-24-1.pdf)<!-- -->
+
+As the information:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-25-1.pdf)<!-- -->
+
+As a doer noun:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-26-1.pdf)<!-- -->
+
+In the i-state as the base noun in an annexation:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-27-1.pdf)<!-- -->
+
+In the i-state after a preposition:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-28-1.pdf)<!-- -->
+
+In the above example the verb [رَغِبَ يَرْغَبُ]{.ar} takes an indirect doee after the preposition [فِي]{.ar}.
+In such cases, where the 
+[أَنْ]{.ar} clause
+occurs after a preposition, it is common to drop the preposition as long as there is not resulting confusion in meaning.
+So, we can also say (without the preposition [فِي]{.ar}) for the same meaning:
+
+[رَغِبَ ٱلْغُلَامُ آَنْ يَأْكُلَ.]{.ar}
+"The boy desired that he eat."
 
 
 <!--chapter:end:srcrmd/imperfect_verb_subj.Rmd-->
@@ -10234,7 +10267,7 @@ Examples of usage:
 
 In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-24-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-29-1.pdf)<!-- -->
 
 "This man is a teacher."
 
@@ -10428,7 +10461,7 @@ to complete the sentence. We will see examples of this below.
 
 ### The [أَنَّ]{.ar} clause in place of the direct doee
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-25-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-30-1.pdf)<!-- -->
 
 "I know that Zayd is truthful."
 
@@ -10446,7 +10479,7 @@ clauses can be placed where one would expect other noun positions, such as: a su
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-26-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-31-1.pdf)<!-- -->
 
 "That you are sick has reached me." ("It has reached me that you are sick.")
 
@@ -10454,7 +10487,7 @@ Example:
 
 Example (with information before subject in sentence word order):
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-27-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.pdf)<!-- -->
 
 "From his characteristeics is that he is noble."
 
@@ -10462,7 +10495,7 @@ Example (with information before subject in sentence word order):
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-28-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-33-1.pdf)<!-- -->
 
 "The truth is that he went."
 
@@ -10472,13 +10505,13 @@ As you know, [كَانَ]{.ar}'s doer is also its subject, and its doee is also 
 The [أَنَّ]{.ar} clause can occur in either the subject or the information of [كَنَ]{.ar}. 
 For example, the [أَنَّ]{.ar} clause as the information:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-29-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.pdf)<!-- -->
 
 "The matter was that he didn't do his obligation."
 
 Now, the [أَنَّ]{.ar} clause as the subject:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-30-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-35-1.pdf)<!-- -->
 
 "That he didn't do his obligation was the matter."
 
@@ -10488,13 +10521,13 @@ Note that in the latter case, the information precedes the subject.
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state base noun in an annexation. Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-31-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-36-1.pdf)<!-- -->
 
 "The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous."
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly following a preposition. Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-37-1.pdf)<!-- -->
 
 "I wondered at that Zayd is asleep."
 
@@ -10576,7 +10609,7 @@ TODO
 
 There is a sub-type of subject-information sentence called a topic-comment sentence. Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-33-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-38-1.pdf)<!-- -->
 
 "The tree: its branches are long."
 
@@ -10627,7 +10660,7 @@ the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
 
 There is a special pronoun, called the _pronoun of the fact_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-39-1.pdf)<!-- -->
 
 "The fact is: the cold is intense."
 
