@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-735-g03b4e2a"
+date: "v0.1.0-736-g8b80373"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9789,7 +9789,7 @@ Root: [سعي]{.arroot}
 | we        |_invisible_         |[نَفْعَلُ]{.ar}    |[نَفْعَلَ]{.ar}    |
 -->
 
-## The a-state incomplete-action verb after [أَنْ]{.ar} [Ean]{.trn}
+## After [أَنْ]{.ar} [Ean]{.trn}
 
 [أَنْ]{.ar} [Ean]{.trn} "that" is the main article which causes the following
 incomplete-action verb to be in the a-state.
@@ -9898,7 +9898,7 @@ There is also another type of [أَنْ]{.ar} called the _lightened [أَنْ]{.
 
 There is also the _explanatory [أَنْ]{.ar}_ and the _extra [أَنْ]{.ar}_ that we will cover in chapter\ \@ref(types-of-an).
 
-## The a-state incomplete-action verb after [لِ]{.ar} [li]{.trn}
+## After [لِ]{.ar} [li]{.trn}
 
 ### The [لِ]{.ar} of purpose
 
@@ -9928,7 +9928,7 @@ the [لِ]{.ar} we learned in section\ \@ref(indirect-commands), which is used w
 
 There is a specific [لِ]{.ar}, called the [لِ]{.ar} of denial,  which is used with a-state incomplete-action verbs and the verb [كَانَ]{.ar} that we will discuss in section (TODO in [كَانَ]{.ar} chapter).
 
-## The a-state incomplete-action verb after [كَيْ]{.ar} [kay]{.trn}
+## After [كَيْ]{.ar} [kay]{.trn}
 
 [كَيْ]{.ar} [kay]{.trn}
 is a preposition similar to [لِ]{.ar} in meaning. It may be translated as "in order that", or also as "so that".
@@ -9956,7 +9956,7 @@ Example:
 [شَرِبَ ٱلْمَاءَ لِكَيْلَا يَعْطَشَ.]{.ar}  
 "He drank the water in order that he not be thirsty."
 
-## The a-state incomplete-action verb after [حَتَّىٰ]{.ar} [HattA]{.trn}
+## After [حَتَّىٰ]{.ar} [HattA]{.trn}
 
 The preposition 
 [حَتَّىٰ]{.ar} [HattA]{.trn}
@@ -9982,18 +9982,18 @@ is also used with completed-action verbs. Example:
 [أَكَلَ حَتَّىٰ شَبِعَ.]{.ar} (completed-action, no [أَنْ]{.ar})  
 "He ate until he was sated."
 
-## The a-state incomplete-action verb after [لَنْ]{.ar} [lan]{.trn}
+## After [لَنْ]{.ar} [lan]{.trn}
 
 [لَا]{.ar} and [أَنْ]{.ar} are combined to form [لَنْ]{.ar} [lan]{.trn} with the meaning "shall not". [لَنْ]{.ar} is used with the a-state incomplete-action verb to emphatically negate the future.
 
 [لَنْ تَذْهَبَ.]{.ar}  
 "You~1m~ shall not go."
 
-## The a-state incomplete-action verb after [إِذَنْ]{.ar} [Eipan]{.trn}
+## After [إِذَنْ]{.ar} [Eipan]{.trn}
 
 TODO
 
-## The a-state incomplete-action verb after [وَ]{.ar}, [فَ]{.ar}, [أَوْ]{.ar}, and [ثُمَّ]{.ar}
+## After [وَ]{.ar}, [فَ]{.ar}, [أَوْ]{.ar}, and [ثُمَّ]{.ar}
 
 ### As connectors
 
