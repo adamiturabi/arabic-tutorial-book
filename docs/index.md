@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-734-gc5260e0"
+date: "v0.1.0-735-g03b4e2a"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9900,7 +9900,9 @@ There is also the _explanatory [أَنْ]{.ar}_ and the _extra [أَنْ]{.ar}_ 
 
 ## The a-state incomplete-action verb after [لِ]{.ar} [li]{.trn}
 
-The article [أَنْ]{.ar} may be attached to the preposition [لِ]{.ar} [li]{.trn} thus: [لِأَنْ]{.ar} [liEan]{.trn} to give the meaning "so that". For example:
+### The [لِ]{.ar} of purpose
+
+The article [أَنْ]{.ar} may be attached to the preposition [لِ]{.ar} [li]{.trn} thus: [لِأَنْ]{.ar} [liEan]{.trn} to give the purpose of the following verb. This [لِ]{.ar} may be translated as "so that". For example:
 
 [أَكَلَ لِأَنْ يَشْبَعَ.]{.ar}  
 "He ate so that he be sated."
@@ -9921,6 +9923,10 @@ But when using [لَا]{.ar} to negate the verb, then [أَنْ]{.ar} must be ex
 By the way, this [لِ]{.ar}, which is used with a-state incomplete-action verbs, is different from 
 the [لِ]{.ar} we learned in section\ \@ref(indirect-commands), which is used with the [0]{.txt}-state incomplete-action verbs for indirect commands.
 -->
+
+### The [لِ]{.ar} of denial
+
+There is a specific [لِ]{.ar}, called the [لِ]{.ar} of denial,  which is used with a-state incomplete-action verbs and the verb [كَانَ]{.ar} that we will discuss in section (TODO in [كَانَ]{.ar} chapter).
 
 ## The a-state incomplete-action verb after [كَيْ]{.ar} [kay]{.trn}
 
@@ -10009,7 +10015,7 @@ or
 
 ### With special meanings
 
-[وَ]{.ar}, [فَ]{.ar}, [أَوْ]{.ar}, and [ثُمَّ]{.ar} also have special meanings that can cause the following incomplete-action verb to be in the a-state. This is discussed in more detail in chapter TODO.
+[وَ]{.ar}, [فَ]{.ar}, [أَوْ]{.ar}, and [ثُمَّ]{.ar} also cause the following incomplete-action verb to be in the a-state in their own right, not simply as connectors. This is discussed in more detail in chapter TODO.
 
 
 <!--chapter:end:srcrmd/imperfect_verb_subj.Rmd-->
