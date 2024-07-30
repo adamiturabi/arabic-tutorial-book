@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-728-g06be5dd"
+date: "v0.1.0-729-g523dd36"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9896,7 +9896,7 @@ The [أَنْ]{.ar} we have learned here is called the _verbal noun [أَنْ]{.
 
 There is also another type of [أَنْ]{.ar} called the _lightened [أَنْ]{.ar}_ that we will learn in section\ \@ref(lightened-an).
 
-There is also the _explanatory [أَنْ]{.ar}_ and the _extra [أَنْ]{.ar}_ that we will cover in chapter\ \(@types-of-an).
+There is also the _explanatory [أَنْ]{.ar}_ and the _extra [أَنْ]{.ar}_ that we will cover in chapter\ \@ref(types-of-an).
 
 
 
