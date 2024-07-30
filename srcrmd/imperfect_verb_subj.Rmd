@@ -304,7 +304,7 @@ In the i-state after a preposition:
 \end{tikzpicture}
 ```
 
-### Option to drop prepositiion before [أَنْ]{.ar}
+### Option to drop the preposition before [أَنْ]{.ar}
 
 In the above example the verb [رَغِبَ يَرْغَبُ]{.ar} takes an indirect doee after the preposition [فِي]{.ar}.
 In such cases, where the 
@@ -337,4 +337,92 @@ There is also another type of [أَنْ]{.ar} called the _lightened [أَنْ]{.
 
 There is also the _explanatory [أَنْ]{.ar}_ and the _extra [أَنْ]{.ar}_ that we will cover in chapter\ \@ref(types-of-an).
 
+## The a-state incomplete-action verb after [لِ]{.ar} [li]{.trn}
+
+The article [أَنْ]{.ar} may be attached to the preposition [لِ]{.ar} [li]{.trn} thus: [لِأَنْ]{.ar} [liEan]{.trn} to give the meaning "so that". For example:
+
+[أَكَلَ لِأَنْ يَشْبَعَ.]{.ar}  
+"He ate so that he be sated."
+
+When [لِ]{.ar} is thus used, [أَنْ]{.ar} is optionally allowed to be dropped while its meaning is retained.
+[لِ]{.ar} is then attached to the verb.
+So we can say, for the same meaning:
+
+[أَكَلَ لِيَشْبَعَ.]{.ar}  
+"He ate so that he be sated."
+
+But when using [لَا]{.ar} to negate the verb, then [أَنْ]{.ar} must be expressed, and the combination of [لِ]{.ar}, [أَنْ]{.ar}, and [لَا]{.ar} is written as [لِئَلَّا]{.ar} [liEallA]{.trn}. For example,
+
+[شَرِبَ ٱلْمَاءَ لِئَلَّا يَعْطَشَ.]{.ar}  
+"He drank the water so that he not be thirsty."
+
+<!--
+By the way, this [لِ]{.ar}, which is used with a-state incomplete-action verbs, is different from 
+the [لِ]{.ar} we learned in section\ \@ref(indirect-commands), which is used with the [0]{.txt}-state incomplete-action verbs for indirect commands.
+-->
+
+## The a-state incomplete-action verb after [كَيْ]{.ar} [kay]{.trn}
+
+[كَيْ]{.ar} [kay]{.trn}
+is a preposition similar to [لِ]{.ar} in meaning. It may be translated as "in order that", or also as "so that".
+It is also used before the a-state incomplete-action verb.
+The difference from [لِ]{.ar} is that, when [لِ]{.ar} is used with the a-state incomplete-action verb, expressing or dropping the [أَنْ]{.ar} was optional.
+But with [كَيْ]{.ar}, dropping the [أَنْ]{.ar} is mandatory, while its meaning is retained. For example:
+
+[أَكَلَ كَيْ يَشْبَعَ.]{.ar}  
+"He ate in order that he be sated."
+
+[لَا]{.ar} is used, as usual, to negate the verb and is attached to [كَيْ]{.ar} thus: [كَيْلَا]{.ar} [kaylA]{.trn}. Example:
+
+[شَرِبَ ٱلْمَاءَ كَيْلَا يَعْطَشَ.]{.ar}  
+"He drank the water in order that he not be thirsty."
+
+The preposition [لِ]{.ar} may be combined with [كَيْ]{.ar} thus: [لِكَيْ]{.ar} [likay]{.trn}, for more or less the same meaning. For example:
+
+[أَكَلَ لِكَيْ يَشْبَعَ.]{.ar}  
+"He ate in order that he be sated."
+
+With [لَا]{.ar} the whole combination is written as [لِكَيْلَا]{.ar} [likaylA]{.trn}. [أَنْ]{.ar} must again be not be expressed.
+
+Example:
+
+[شَرِبَ ٱلْمَاءَ لِكَيْلَا يَعْطَشَ.]{.ar}  
+"He drank the water in order that he not be thirsty."
+
+## The a-state incomplete-action verb after [حَتَّىٰ]{.ar} [HattA]{.trn}
+
+The preposition 
+[حَتَّىٰ]{.ar} [HattA]{.trn}
+is unusual in that the incomplete-action verb following it may either be in the a-state or the u-state, with slightly different meanings.
+When the incomplete-action verb following it is in the u-state then
+[حَتَّىٰ]{.ar} gives the meaning "until".
+And when the incomplete-action verb following it is in the a-state then
+[حَتَّىٰ]{.ar} gives the meaning "for the result that".
+A mandatorily unexpressed [أَنْ]{.ar} is assumed with
+[حَتَّىٰ]{.ar} 
+when the verb following it is in the a-state.
+Examples:
+
+[يَأْكُلُ حَتَّىٰ يَشْبَعَ.]{.ar} (a-state, unexpressed [أَنْ]{.ar} assumed)  
+"He eats for the result that he be sated."
+
+[يَأْكُلُ حَتَّىٰ يَشْبَعُ.]{.ar} (u-state, no [أَنْ]{.ar})  
+"He eats until he is sated."
+
+[حَتَّىٰ]{.ar} 
+is also used with completed-action verbs. Example:
+
+[أَكَلَ حَتَّىٰ شَبِعَ.]{.ar} (completed-action, no [أَنْ]{.ar})  
+"He ate until he was sated."
+
+## The a-state incomplete-action verb after [لَنْ]{.ar} [lan]{.trn}
+
+[لَا]{.ar} and [أَنْ]{.ar} are combined to form [لَنْ]{.ar} [lan]{.trn} with the meaning "shall not". [لَنْ]{.ar} is used with the a-state incomplete-action verb to emphatically negate the future.
+
+[لَنْ تَذْهَبَ.]{.ar}  
+"You~1m~ shall not go."
+
+## The a-state incomplete-action verb after [إِذَنْ]{.ar} [Eipan]{.trn}
+
+TODO
 
