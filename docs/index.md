@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-731-g25d55f8"
+date: "v0.1.0-732-ga38cf70"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9865,7 +9865,7 @@ In the i-state after a preposition:
 
 ![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-28-1.pdf)<!-- -->
 
-### Option to drop prepositiion before [أَنْ]{.ar}
+### Option to drop the preposition before [أَنْ]{.ar}
 
 In the above example the verb [رَغِبَ يَرْغَبُ]{.ar} takes an indirect doee after the preposition [فِي]{.ar}.
 In such cases, where the 
@@ -9917,8 +9917,10 @@ But when using [لَا]{.ar} to negate the verb, then [أَنْ]{.ar} must be ex
 [شَرِبَ ٱلْمَاءَ لِئَلَّا يَعْطَشَ.]{.ar}  
 "He drank the water so that he not be thirsty."
 
+<!--
 By the way, this [لِ]{.ar}, which is used with a-state incomplete-action verbs, is different from 
 the [لِ]{.ar} we learned in section\ \@ref(indirect-commands), which is used with the [0]{.txt}-state incomplete-action verbs for indirect commands.
+-->
 
 ## The a-state incomplete-action verb after [كَيْ]{.ar} [kay]{.trn}
 
@@ -9944,6 +9946,7 @@ The preposition [لِ]{.ar} may be combined with [كَيْ]{.ar} thus: [لِكَ
 With [لَا]{.ar} the whole combination is written as [لِكَيْلَا]{.ar} [likaylA]{.trn}. [أَنْ]{.ar} must again be not be expressed.
 
 Example:
+
 [شَرِبَ ٱلْمَاءَ لِكَيْلَا يَعْطَشَ.]{.ar}  
 "He drank the water in order that he not be thirsty."
 
@@ -9956,13 +9959,29 @@ When the incomplete-action verb following it is in the u-state then
 [حَتَّىٰ]{.ar} gives the meaning "until".
 And when the incomplete-action verb following it is in the a-state then
 [حَتَّىٰ]{.ar} gives the meaning "for the result that".
-As with [كَيْ]{.ar}, [أَنْ]{.ar} must be not be expressed while its meaning is retained. Examples:
+A mandatorily unexpressed [أَنْ]{.ar} is assumed with
+[حَتَّىٰ]{.ar} 
+when the verb following it is in the a-state.
+Examples:
 
-[يَأْكُلُ حَتَّىٰ يَشْبَعَ.]{.ar} (a-state)  
+[يَأْكُلُ حَتَّىٰ يَشْبَعَ.]{.ar} (a-state, unexpressed [أَنْ]{.ar} assumed)  
 "He eats for the result that he be sated."
 
-[يَأْكُلُ حَتَّىٰ يَشْبَعُ.]{.ar} (u-state)
+[يَأْكُلُ حَتَّىٰ يَشْبَعُ.]{.ar} (u-state, no [أَنْ]{.ar})  
 "He eats until he is sated."
+
+[حَتَّىٰ]{.ar} 
+is also used with completed-action verbs. Example:
+
+[أَكَلَ حَتَّىٰ شَبِعَ.]{.ar} (completed-action, no [أَنْ]{.ar})  
+"He ate until he was sated."
+
+## The a-state incomplete-action verb after [لَنْ]{.ar} [lan]{.trn}
+
+[لَا]{.ar} and [أَنْ]{.ar} are combined to form [لَنْ]{.ar} [lan]{.trn} with the meaning "shall not". [لَنْ]{.ar} is used with the a-state incomplete-action verb to emphatically negate the future.
+
+[لَنْ تَذْهَبَ.]{.ar}  
+"You~1m~ shall not go."
 
 ## The a-state incomplete-action verb after [إِذَنْ]{.ar} [Eipan]{.trn}
 
