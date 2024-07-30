@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-730-gbd9f32a"
+date: "v0.1.0-731-g25d55f8"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9912,7 +9912,7 @@ So we can say, for the same meaning:
 [أَكَلَ لِيَشْبَعَ.]{.ar}  
 "He ate so that he be sated."
 
-But when using [لَا]{.ar} to negate the verb, then [أَنْ]{.ar} may not be dropped, and the combination of [لِ]{.ar}, [أَنْ]{.ar}, and [لَا]{.ar} is written as [لِئَلَّا]{.ar} [liEallA]{.trn}. For example,
+But when using [لَا]{.ar} to negate the verb, then [أَنْ]{.ar} must be expressed, and the combination of [لِ]{.ar}, [أَنْ]{.ar}, and [لَا]{.ar} is written as [لِئَلَّا]{.ar} [liEallA]{.trn}. For example,
 
 [شَرِبَ ٱلْمَاءَ لِئَلَّا يَعْطَشَ.]{.ar}  
 "He drank the water so that he not be thirsty."
@@ -9925,11 +9925,48 @@ the [لِ]{.ar} we learned in section\ \@ref(indirect-commands), which is used w
 [كَيْ]{.ar} [kay]{.trn}
 is a preposition similar to [لِ]{.ar} in meaning. It may be translated as "in order that", or also as "so that".
 It is also used before the a-state incomplete-action verb.
-However, we saw that, with [لِ]{.ar}, keeping or dropping the [أَنْ]{.ar} was optional.
+The difference from [لِ]{.ar} is that, when [لِ]{.ar} is used with the a-state incomplete-action verb, expressing or dropping the [أَنْ]{.ar} was optional.
 But with [كَيْ]{.ar}, dropping the [أَنْ]{.ar} is mandatory, while its meaning is retained. For example:
 
 [أَكَلَ كَيْ يَشْبَعَ.]{.ar}  
-"He ate so that he be sated."
+"He ate in order that he be sated."
+
+[لَا]{.ar} is used, as usual, to negate the verb and is attached to [كَيْ]{.ar} thus: [كَيْلَا]{.ar} [kaylA]{.trn}. Example:
+
+[شَرِبَ ٱلْمَاءَ كَيْلَا يَعْطَشَ.]{.ar}  
+"He drank the water in order that he not be thirsty."
+
+The preposition [لِ]{.ar} may be combined with [كَيْ]{.ar} thus: [لِكَيْ]{.ar} [likay]{.trn}, for more or less the same meaning. For example:
+
+[أَكَلَ لِكَيْ يَشْبَعَ.]{.ar}  
+"He ate in order that he be sated."
+
+With [لَا]{.ar} the whole combination is written as [لِكَيْلَا]{.ar} [likaylA]{.trn}. [أَنْ]{.ar} must again be not be expressed.
+
+Example:
+[شَرِبَ ٱلْمَاءَ لِكَيْلَا يَعْطَشَ.]{.ar}  
+"He drank the water in order that he not be thirsty."
+
+## The a-state incomplete-action verb after [حَتَّىٰ]{.ar} [HattA]{.trn}
+
+The preposition 
+[حَتَّىٰ]{.ar} [HattA]{.trn}
+is unusual in that the incomplete-action verb following it may either be in the a-state or the u-state, with slightly different meanings.
+When the incomplete-action verb following it is in the u-state then
+[حَتَّىٰ]{.ar} gives the meaning "until".
+And when the incomplete-action verb following it is in the a-state then
+[حَتَّىٰ]{.ar} gives the meaning "for the result that".
+As with [كَيْ]{.ar}, [أَنْ]{.ar} must be not be expressed while its meaning is retained. Examples:
+
+[يَأْكُلُ حَتَّىٰ يَشْبَعَ.]{.ar} (a-state)  
+"He eats for the result that he be sated."
+
+[يَأْكُلُ حَتَّىٰ يَشْبَعُ.]{.ar} (u-state)
+"He eats until he is sated."
+
+## The a-state incomplete-action verb after [إِذَنْ]{.ar} [Eipan]{.trn}
+
+TODO
 
 
 <!--chapter:end:srcrmd/imperfect_verb_subj.Rmd-->
