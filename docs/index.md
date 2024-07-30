@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-729-g523dd36"
+date: "v0.1.0-730-gbd9f32a"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9898,6 +9898,38 @@ There is also another type of [أَنْ]{.ar} called the _lightened [أَنْ]{.
 
 There is also the _explanatory [أَنْ]{.ar}_ and the _extra [أَنْ]{.ar}_ that we will cover in chapter\ \@ref(types-of-an).
 
+## The a-state incomplete-action verb after [لِ]{.ar} [li]{.trn}
+
+The article [أَنْ]{.ar} may be attached to the preposition [لِ]{.ar} [li]{.trn} thus: [لِأَنْ]{.ar} [liEan]{.trn} to give the meaning "so that". For example:
+
+[أَكَلَ لِأَنْ يَشْبَعَ.]{.ar}  
+"He ate so that he be sated."
+
+When [لِ]{.ar} is thus used, [أَنْ]{.ar} is optionally allowed to be dropped while its meaning is retained.
+[لِ]{.ar} is then attached to the verb.
+So we can say, for the same meaning:
+
+[أَكَلَ لِيَشْبَعَ.]{.ar}  
+"He ate so that he be sated."
+
+But when using [لَا]{.ar} to negate the verb, then [أَنْ]{.ar} may not be dropped, and the combination of [لِ]{.ar}, [أَنْ]{.ar}, and [لَا]{.ar} is written as [لِئَلَّا]{.ar} [liEallA]{.trn}. For example,
+
+[شَرِبَ ٱلْمَاءَ لِئَلَّا يَعْطَشَ.]{.ar}  
+"He drank the water so that he not be thirsty."
+
+By the way, this [لِ]{.ar}, which is used with a-state incomplete-action verbs, is different from 
+the [لِ]{.ar} we learned in section\ \@ref(indirect-commands), which is used with the [0]{.txt}-state incomplete-action verbs for indirect commands.
+
+## The a-state incomplete-action verb after [كَيْ]{.ar} [kay]{.trn}
+
+[كَيْ]{.ar} [kay]{.trn}
+is a preposition similar to [لِ]{.ar} in meaning. It may be translated as "in order that", or also as "so that".
+It is also used before the a-state incomplete-action verb.
+However, we saw that, with [لِ]{.ar}, keeping or dropping the [أَنْ]{.ar} was optional.
+But with [كَيْ]{.ar}, dropping the [أَنْ]{.ar} is mandatory, while its meaning is retained. For example:
+
+[أَكَلَ كَيْ يَشْبَعَ.]{.ar}  
+"He ate so that he be sated."
 
 
 <!--chapter:end:srcrmd/imperfect_verb_subj.Rmd-->
@@ -10007,7 +10039,7 @@ The u-state is the default state for incomplete-action verbs. The
 [0]{.txt}-state
 is used only in specific cases. We will explain these below.
 
-### With [لِ]{.ar} for indirect commands
+### With [لِ]{.ar} for indirect commands {#indirect-commands}
 
 The particle [لِ]{.ar} when connected to the front of a 
 incomplete-action verb
