@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-745-gef34f29"
+date: "v0.1.0-746-g1d4ec54"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -11634,7 +11634,7 @@ A second variant is to avoid the repetition of vowel letters like [و]{.tradar} 
 
 Hamzah was originally not pronounced in some Classical Arabic dialects. 
 So, for many words, speakers of these dialects would typically only pronounce hamzah in the beginning of a word.
-When hamzah would occur in the middle of a word, they would replace it with a [a]{.trn}, [u]{.trn}, or [i]{.trn} vowel.
+When hamzah would occur in the middle of a word, they would replace it with an [a]{.trn}, [u]{.trn}, or [i]{.trn} vowel.
 So they would adjust their pronunciation as follows:
 
 |Proununciation with hamzah | Proununciation without hamzah
@@ -11650,8 +11650,8 @@ So they would adjust their pronunciation as follows:
 When the Classical Standard Arabic variety emerged,
 then, for reasons that are beyond the scope of this text,
 the pronunciation _with_ hamzah 
-and the spelling _without_ hamzah became standardized.
-So [ء]{.ar} is now added on top of various _seats_ that would instead be pronounced without hamzah.
+and the consonantal spelling _without_ hamzah became standardized.
+So [ء]{.ar} is now added on top of various _seats_ that would instead have been pronounced without hamzah.
 
 ## Typographical limitations
 
@@ -11679,7 +11679,7 @@ in one of two ways:
    [u+0640]{.texttt} [arabic tatweel]{.smallcaps}  
    [u+0654]{.texttt} [arabic hamza above]{.smallcaps}
 
-   This is a more accurate approximation, but some fonts may not position the hamzah correctly on the [kacIdah]{.trn2}, or position vowels marks on the superscript hamzah correctly.
+   This is a more accurate approximation, but some fonts may not position the hamzah correctly on the [kacIdah]{.trn2}, or position vowel marks on the superscript hamzah correctly.
 
 2. Hamzah seated on [yAE]{.trn2}: [ئ]{.ar}. Example: [خَطِيئَة]{.ar}. This is a more coarse, yet more prevalent, and better supported, approximation.
 
