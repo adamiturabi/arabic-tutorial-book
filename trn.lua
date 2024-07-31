@@ -229,7 +229,7 @@ function Span (elem)
       return pandoc.Span(new_elem.content, {})
     elseif FORMAT:match 'html' then
       -- dir needed for html otherwise punctuation gets messed up
-      return pandoc.Span(new_elem.content, {lang='ar', dir='rtl', style="font-family: Amiri;"})
+      return pandoc.Span(new_elem.content, {lang='ar', dir='rtl', style="font-family: AmiriWeb;"})
     else
       return elem
     end
