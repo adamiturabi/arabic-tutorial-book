@@ -213,6 +213,26 @@ function Span (elem)
     else
       return elem
     end
+  elseif elem.classes[1] == 'tradar' then
+    local new_elem = ArTxtProc(elem)
+    if FORMAT:match 'latex' then
+      -- no dir needed for babel and throws error if it sees dir attribute. was previously needed for polyglossia
+      --return pandoc.Span("\\tradarab{"..new_elem.content.."}", {})
+      table.insert(
+        new_elem.content, 1,
+        pandoc.RawInline('latex', '\\tradarab{')
+      )
+       table.insert(
+        new_elem.content,
+        pandoc.RawInline('latex', '}')
+      )
+      return pandoc.Span(new_elem.content, {})
+    elseif FORMAT:match 'html' then
+      -- dir needed for html otherwise punctuation gets messed up
+      return pandoc.Span(new_elem.content, {lang='ar', dir='rtl', style="font-family: Amiri;"})
+    else
+      return elem
+    end
   elseif elem.classes[1] == 'arroot' then
     elem = ArTxtProc(elem)
     if FORMAT:match 'latex' then
