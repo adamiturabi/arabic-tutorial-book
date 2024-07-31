@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-743-g3e09316"
+date: "v0.1.0-744-g06eafdb"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -11617,13 +11617,13 @@ Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [Eali
 
 ### Variants
 
-There are some historical and regional variants to the above rules. The main one is a variant of rule 2.b.ii above. In this variant, when the letter before hamzah has a [0]{.txt}-mark, the hamzah is generally written unseated. So they write:
+There are some historical and regional variants to the above rules. The main one is when the letter before hamzah has a [0]{.txt}-mark, the hamzah is generally written unseated. So with this variant, we write:
 
 + \vphantom{\huge J} [مَسْءُول]{.tradar} instead of [مَسْؤُول]{.tradar}
 + \vphantom{\huge J} [أَسْءِلَة]{.tradar} instead of [أَسْئِلَة]{.tradar}
 + \vphantom{\huge J} [مَسْءَلَة]{.tradar} instead of [مَسْأَلَة]{.tradar}
 
-However, this rule appears to be not consistently followed. For example, [al-nacEah]{.trn} is generally always written [النَّشْأَة]{.tradar} never [النَّشْءَة]{.tradar}.
+However, this rule appears to be not consistently followed. For example, [nacEah]{.trn} is generally always written [نَشْأَة]{.tradar} never [نَشْءَة]{.tradar}.
 
 A second variant is to avoid the repetition of vowel letters like [و]{.tradar} and [ي]{.tradar}. So they write:
 
