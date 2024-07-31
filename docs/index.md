@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-744-g06eafdb"
+date: "v0.1.0-745-gef34f29"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -11652,6 +11652,39 @@ then, for reasons that are beyond the scope of this text,
 the pronunciation _with_ hamzah 
 and the spelling _without_ hamzah became standardized.
 So [ء]{.ar} is now added on top of various _seats_ that would instead be pronounced without hamzah.
+
+## Typographical limitations
+
+Unfortunately, most digital fonts do not currently allow for correctly typing an unseated hamzah between two joined letters 
+([ـءـ]{.tradar}), 
+as in 
+[خَطِيءَة]{.tradar} [xaTIEah]{.trn}.
+In most fonts, the hamzah character (Unicode [u+0621]{.texttt}) will break the joining between the two letters surrounding it, and the output will be rendered incorrectly: 
+[خَطِيءَة]{.ar} [xaTIEah]{.trn}.
+
+Two fonts which allow for the correct typesetting are 
+
++ Amiri from Alif Type ([amirifont.org](https://www.amirifont.org/))
++ Naskh™ from DecoType ([decotype.com](https://www.decotype.com/))
+
+We have used the Amiri typeface for typesetting this appendix chapter.
+
+For most other fonts, 
+an unseated hamzah between two joined letters 
+would have to be approximated
+in one of two ways:
+
+1. Hamzah superscript on a [kacIdah]{.trn2} character: [ـٔ]{.ar}. Example: [خَطِيـَٔة]{.ar}. The Unicode input sequence is:
+
+   [u+0640]{.texttt} [arabic tatweel]{.smallcaps}  
+   [u+0654]{.texttt} [arabic hamza above]{.smallcaps}
+
+   This is a more accurate approximation, but some fonts may not position the hamzah correctly on the [kacIdah]{.trn2}, or position vowels marks on the superscript hamzah correctly.
+
+2. Hamzah seated on [yAE]{.trn2}: [ئ]{.ar}. Example: [خَطِيئَة]{.ar}. This is a more coarse, yet more prevalent, and better supported, approximation.
+
+Beware, though, that neither of these approximations would allow for the correct rendering of a complex (but thankfully rare) word like 
+[لَءَّال]{.tradar} [laEEAl]{.trn} "pearl seller", where the hamzah is not allowed to disturb the [lAm-Ealif]{.trn2} ligature [لا]{.tradar}.
 
 
 <!--chapter:end:srcrmd/hamzarules.Rmd-->

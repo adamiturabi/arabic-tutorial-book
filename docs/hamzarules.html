@@ -616,6 +616,7 @@
 <li class="chapter" data-level="A.2.4" data-path="hamzarules.html"><a href="hamzarules.html#variants"><i class="fa fa-check"></i><b>A.2.4</b> Variants</a></li>
 </ul></li>
 <li class="chapter" data-level="A.3" data-path="hamzarules.html"><a href="hamzarules.html#why-so-complicated"><i class="fa fa-check"></i><b>A.3</b> Why so complicated?</a></li>
+<li class="chapter" data-level="A.4" data-path="hamzarules.html"><a href="hamzarules.html#typographical-limitations"><i class="fa fa-check"></i><b>A.4</b> Typographical limitations</a></li>
 </ul></li>
 </ul>
 
@@ -1420,6 +1421,34 @@ then, for reasons that are beyond the scope of this text,
 the pronunciation <em>with</em> hamzah
 and the spelling <em>without</em> hamzah became standardized.
 So <span dir="rtl" lang="ar">ء</span> is now added on top of various <em>seats</em> that would instead be pronounced without hamzah.</p>
+</div>
+<div id="typographical-limitations" class="section level2 hasAnchor" number="24.4">
+<h2><span class="header-section-number">A.4</span> Typographical limitations<a href="hamzarules.html#typographical-limitations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Unfortunately, most digital fonts do not currently allow for correctly typing an unseated hamzah between two joined letters
+(<span style="font-family: AmiriWeb;" dir="rtl" lang="ar">ـءـ</span>),
+as in
+<span style="font-family: AmiriWeb;" dir="rtl" lang="ar">خَطِيءَة</span> <em>k͡haṭīʾah</em>.
+In most fonts, the hamzah character (Unicode <span style="font-family: monospace;" dir="rtl" lang="ar">u+0621</span>) will break the joining between the two letters surrounding it, and the output will be rendered incorrectly:
+<span dir="rtl" lang="ar">خَطِيءَة</span> <em>k͡haṭīʾah</em>.</p>
+<p>Two fonts which allow for the correct typesetting are</p>
+<ul>
+<li>Amiri from Alif Type (<a href="https://www.amirifont.org/">amirifont.org</a>)</li>
+<li>Naskh™ from DecoType (<a href="https://www.decotype.com/">decotype.com</a>)</li>
+</ul>
+<p>We have used the Amiri typeface for typesetting this appendix chapter.</p>
+<p>For most other fonts,
+an unseated hamzah between two joined letters
+would have to be approximated
+in one of two ways:</p>
+<ol style="list-style-type: decimal">
+<li><p>Hamzah superscript on a kas͡hīdah character: <span dir="rtl" lang="ar">ـٔ</span>. Example: <span dir="rtl" lang="ar">خَطِيـَٔة</span>. The Unicode input sequence is:</p>
+<p><span style="font-family: monospace;" dir="rtl" lang="ar">u+0640</span> <span class="smallcaps">arabic tatweel</span><br />
+<span style="font-family: monospace;" dir="rtl" lang="ar">u+0654</span> <span class="smallcaps">arabic hamza above</span></p>
+<p>This is a more accurate approximation, but some fonts may not position the hamzah correctly on the kas͡hīdah, or position vowels marks on the superscript hamzah correctly.</p></li>
+<li><p>Hamzah seated on yāʾ: <span dir="rtl" lang="ar">ئ</span>. Example: <span dir="rtl" lang="ar">خَطِيئَة</span>. This is a more coarse, yet more prevalent, and better supported, approximation.</p></li>
+</ol>
+<p>Beware, though, that neither of these approximations would allow for the correct rendering of a complex (but thankfully rare) word like
+<span style="font-family: AmiriWeb;" dir="rtl" lang="ar">لَءَّال</span> <em>laʾʾāl</em> “pearl seller”, where the hamzah is not allowed to disturb the lām-ʾalif ligature <span style="font-family: AmiriWeb;" dir="rtl" lang="ar">لا</span>.</p>
 
 </div>
 </div>
