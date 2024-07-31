@@ -55,7 +55,7 @@ b. If the hamzah carries any other vowel, it is written seated on an [Ealif]{.tr
 
 The most general case is when hamzah is in the middle of a word. 
 
-Arabic has three short vowels, three long vowels, two semi-vowels, and a [0]{.txt}-mark. Each of these has an order of precedence and a hamzah seat, that we have shown in the table below:
+Arabic has three short vowels, three long vowels, two semi-vowels, and a zero-vowel indicated by a [0]{.txt}-mark [◌ْ]{.tradar}. Each of these has an order of precedence and a hamzah seat, that we have shown in the table below:
 
 Precedence | Vowel | Seated hamzah
 :--|:------|:-----
@@ -83,6 +83,7 @@ Examples:
 |\vphantom{\huge J} [تَسَاؤُل]{.tradar} [tasAEul]{.trn}   | [A]{.trn}  | [u]{.trn}  | [u]{.trn}  | [ؤ]{.tradar} |
 |\vphantom{\huge J} [تَسَاءَلَ]{.tradar} [tasAEala]{.trn}  | [A]{.trn}  | [a]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
 |\vphantom{\huge J} [قِرَاءَات]{.tradar} [qirAEAt]{.trn}  | [A]{.trn}  | [a]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [نُوآنٌ]{.tradar} [nUEAnun]{.trn}    | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [مَسْؤُول]{.tradar} [masEUl]{.trn}    | [◌ْ]{.tradar}   | [u]{.trn}  | [u]{.trn}  | [ؤ]{.tradar} |
 |\vphantom{\huge J} [تَرْئِيس]{.tradar} [tarEIs]{.trn}    | [◌ْ]{.tradar}   | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [مِرْآة]{.tradar} [mirEAh]{.trn}     | [◌ْ]{.tradar}   | [a]{.trn}  | [a]{.trn}  | [ء]{.tradar} (Using sub-rule.)|
@@ -100,7 +101,7 @@ Examples:
 |\vphantom{\huge J} [لُؤَيّ]{.tradar} [luEayy]{.trn}      | [u]{.trn}  | [a]{.trn}  | [u]{.trn}  | [ؤ]{.tradar} |
 |\vphantom{\huge J} [شَنَآن]{.tradar} [canaEAn]{.trn}    | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [ء]{.tradar} (Using sub-rule.)|
 |\vphantom{\huge J} [سَأَلَ]{.tradar} [saEala]{.trn}      | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [أ]{.tradar} |
-|\vphantom{\huge J} [رَأَىٰ]{.tradar} [raEA]{.trn}        | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [أ]{.tradar} |
+|\vphantom{\huge J} [رَأَىٰ]{.tradar} [raEA]{.trn}        | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [أ]{.tradar} (Sub-rule doesn't apply because [A]{.trn} vowel at end represented by [ىٰ]{.tradar}, not [Ealif]{.trn2}.)|
 |\vphantom{\huge J} [رَأَّسَ]{.tradar} [raEEasa]{.trn}     | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [أ]{.tradar} |
 |\vphantom{\huge J} [يُرَئِّسُ]{.tradar} [yuraEEisu]{.trn}  | [a]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [رُئِّسَ]{.tradar} [ruEEisa]{.trn}     | [u]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
@@ -170,28 +171,30 @@ Examples:
 |\vphantom{\huge J} [مَجِيءِهِ]{.tradar} [majIEihi]{.trn}      | [I]{.trn}  | [i]{.trn} | [I]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [سُوئِهِ]{.tradar} [sUEihi]{.trn}         | [U]{.trn}  | [i]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
 |\vphantom{\huge J} [ضَوْئِهِ]{.tradar} [DawEihi]{.trn}        | [aw]{.trn} | [i]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
-|\vphantom{\huge J} [سُوءَهُ]{.tradar} [sUEahu]{.trn}         | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.tradar} |
-|\vphantom{\huge J} [سُوءَانِ]{.tradar} [sUEAni]{.trn}        | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.tradar} |
-|\vphantom{\huge J} [ضَوْءَهُ]{.tradar} [DawEahu]{.trn}        | [aw]{.trn} | [a]{.trn} | [aw]{.trn}  | [ء]{.tradar} |
-|\vphantom{\huge J} [ضَوْءَانِ]{.tradar} [DawEAni]{.trn}       | [aw]{.trn} | [a]{.trn} | [aw]{.trn}  | [ء]{.tradar} |
-|\vphantom{\huge J} [سُوءُهُ]{.tradar} [sUEuhu]{.trn}         | [U]{.trn}  | [u]{.trn} | [U]{.trn}   | [ء]{.tradar} |
-|\vphantom{\huge J} [يَسُوءُونَ]{.tradar} [yasUEUna]{.trn}     | [U]{.trn}  | [u]{.trn} | [U]{.trn}   | [ء]{.tradar} |
-|\vphantom{\huge J} [نُوآنٌ]{.tradar} [nUEAnun]{.trn}.       | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [مُتَّكِئِينَ]{.tradar} [muttakiEIna]{.trn}  | [i]{.trn}  | [i]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
 |\vphantom{\huge J} [يُبَرِّئُونَ]{.tradar} [yubarriEUna]{.trn}  | [i]{.trn}  | [u]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
 |\vphantom{\huge J} [يُبَرَّؤُونَ]{.tradar} [yubarraEUna]{.trn}  | [a]{.trn}  | [u]{.trn} | [u]{.trn}   | [ؤ]{.tradar} |
 
 There are some exceptions:
 
-If the letter before the hamzah has a [0]{.txt}-mark and is not [wAw]{.trn2} or [yAE]{.trn2},
++ If the letter before the hamzah has a [0]{.txt}-mark and is not [wAw]{.trn2} or [yAE]{.trn2},
 then the hamzah will be written unseated. Examples:
 
-+ \vphantom{\huge J}  [جُزْءَانِ]{.tradar} [juzEAni]{.trn}  
-+ \vphantom{\huge J}  [عِبْءَانِ]{.tradar} [eibEAni]{.trn}  
-+ \vphantom{\huge J}  [عِبْءَيْنِ]{.tradar} [eibEayni]{.trn}  
-+ \vphantom{\huge J}  [بُطْءَهُ]{.tradar} [buTEahu]{.trn}  
-+ \vphantom{\huge J}  [بُطْءُهُ]{.tradar} [buTEuhu]{.trn}  
-+ \vphantom{\huge J}  [بُطْءِهِ]{.tradar} [buTEihi]{.trn}
+  + \vphantom{\huge J}  [جُزْءَانِ]{.tradar} [juzEAni]{.trn}  
+  + \vphantom{\huge J}  [عِبْءَانِ]{.tradar} [eibEAni]{.trn}  
+  + \vphantom{\huge J}  [عِبْءَيْنِ]{.tradar} [eibEayni]{.trn}  
+  + \vphantom{\huge J}  [بُطْءَهُ]{.tradar} [buTEahu]{.trn}  
+  + \vphantom{\huge J}  [بُطْءُهُ]{.tradar} [buTEuhu]{.trn}  
+  + \vphantom{\huge J}  [بُطْءِهِ]{.tradar} [buTEihi]{.trn}
+
++ If the hamzah is after a long-[U]{.trn} vowel or an [aw]{.trn} semi-vowel, and the hamzah does not have an [i]{.trn}-mark, then it is written unseated. Examples:
+
+  + \vphantom{\huge J} [سُوءَهُ]{.tradar} [sUEahu]{.trn}
+  + \vphantom{\huge J} [سُوءَانِ]{.tradar} [sUEAni]{.trn}
+  + \vphantom{\huge J} [ضَوْءَهُ]{.tradar} [DawEahu]{.trn}
+  + \vphantom{\huge J} [ضَوْءَانِ]{.tradar} [DawEAni]{.trn}
+  + \vphantom{\huge J} [سُوءُهُ]{.tradar} [sUEuhu]{.trn}
+  + \vphantom{\huge J} [يَسُوءُونَ]{.tradar} [yasUEUna]{.trn}
 
 ([انِ]{.tradar}, [يْنِ]{.tradar}, [هُ]{.tradar}, and [هِ]{.tradar} are suffixes.)
 Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [Ealif]{.trn2} is part of the suffix.
