@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-749-g42373e3"
+date: "v0.1.0-750-gd968c5e"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -91,12 +91,11 @@ output:
 :::
 -->
 
-<!--[بسم الله الرحمن الرحيم]{.ar}-->
+[بسم الله الرحمن الرحيم]{.tradar}
+<!--
 
+[بسم الله الرحمن الرحيم]{lang="ar" dir="rtl" style="font-family: AmiriWeb;"}
 
-[بسم الله الرحمن الرحيم]{lang="ar" dir="rtl" style="font-family: Amiri;"}
-
-<!-- RTL doesn't work for some reason-->
 ```{=latex}
 \begin{center}
 \tradarab{
@@ -107,7 +106,8 @@ output:
 }
 \end{center}
 ```
-
+-->
+<!-- RTL doesn't work for some reason-->
 <!--Sunnah are the sayings and actions of the Prophet صلى الله عليه وسلم. Hadith is the text by which we know the sunnah.-->
 
 The primary texts of [#islAm]{.trn2} (the [#qurEAn]{.trn2} and the [#HadIv]{.trn2}) are in Arabic. So too is much of its scholarly literature. However, there is a multitude of Muslims for whom Arabic is not a native language, yet who are familiar enough with English to study textbooks written in this language. The goal of this book is to help them learn Arabic at a beginner's level so that, together with a study of the appropriate expositional texts, they are one step closer to understanding the primary texts in their original language. We hope that this will, if [#allAh]{.trn2} wills, make them feel more connected to the primary texts and their teachings. Furthermore, they can be empowered to study the vast body of Arabic [#islAm]{.trn2}ic literature.
@@ -362,6 +362,17 @@ We have just shown how letters join to each other with a horizontal line in the 
 
 Here are some comparisions of letters joining to each other in the Simplified Arabic and Traditional Arabic writing styles.
 
+Disjoint | Joined (simplified) | Joined (traditional)
+:------------|:---------|:---------
+[ت-م-ر]{.ar}     | [تمر]{.ar}   | [تمر]{.tradar}
+[ا-ل-ح-ج-ج]{.ar} | [الحجج]{.ar} | [الحجج]{.tradar}
+[ا-ل-م-ا-س]{.ar} | [الماس]{.ar} | [الماس]{.tradar}
+[ل-م-ح-ة]{.ar}   | [لمحة]{.ar}  | [لمحة]{.tradar}
+[ب-ح-ر]{.ar}     | [بحر]{.ar}   | [بحر]{.tradar}
+[س-ح-ر]{.ar}     | [سحر]{.ar}   | [سحر]{.tradar}
+[ف-ي]{.ar}       | [في]{.ar}    | [في]{.tradar}
+
+<!--
 
 Disjoint | Joined (simplified) | Joined (traditional)
 :------------|:---------|:---------
@@ -396,6 +407,7 @@ Disjoint & Joined (simplified) & Joined (traditional)\tabularnewline
 \bottomrule
 \end{longtable}
 ```
+-->
 
 ### Looped [tAE]{.trn2}
 

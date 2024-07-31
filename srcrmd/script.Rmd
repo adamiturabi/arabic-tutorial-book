@@ -148,6 +148,17 @@ We have just shown how letters join to each other with a horizontal line in the 
 
 Here are some comparisions of letters joining to each other in the Simplified Arabic and Traditional Arabic writing styles.
 
+Disjoint | Joined (simplified) | Joined (traditional)
+:------------|:---------|:---------
+[ت-م-ر]{.ar}     | [تمر]{.ar}   | [تمر]{.tradar}
+[ا-ل-ح-ج-ج]{.ar} | [الحجج]{.ar} | [الحجج]{.tradar}
+[ا-ل-م-ا-س]{.ar} | [الماس]{.ar} | [الماس]{.tradar}
+[ل-م-ح-ة]{.ar}   | [لمحة]{.ar}  | [لمحة]{.tradar}
+[ب-ح-ر]{.ar}     | [بحر]{.ar}   | [بحر]{.tradar}
+[س-ح-ر]{.ar}     | [سحر]{.ar}   | [سحر]{.tradar}
+[ف-ي]{.ar}       | [في]{.ar}    | [في]{.tradar}
+
+<!--
 ```{r, eval=knitr::is_html_output(), echo=FALSE}
   knitr::asis_output('
 Disjoint | Joined (simplified) | Joined (traditional)
@@ -185,6 +196,7 @@ Disjoint & Joined (simplified) & Joined (traditional)\tabularnewline
 \bottomrule
 \end{longtable}
 ```
+-->
 
 ### Looped [tAE]{.trn2}
 
