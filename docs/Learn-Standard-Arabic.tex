@@ -140,7 +140,7 @@
 % use this command from preface
 %\newcommand{\forcefancyhdr}[1]{\markboth {\textsc{\MakeLowercase{#1}}}{\textsc{\MakeLowercase{#1}}}}
 
-\renewcommand{\chaptermark}[1]{\markboth {\textsc{\MakeLowercase{\scalebox{1}[0.81]{\thechapter}\ #1}}}{}}
+\renewcommand{\chaptermark}[1]{\markboth {\textsc{\MakeLowercase{\scalebox{1}[0.81]{\thechapter}\quad #1}}}{}}
 \renewcommand{\sectionmark}[1]{\markright{\textsc{\MakeLowercase{\scalebox{1}[0.81]{\S\thesection}\ }}}}
 
 % Start fancy header style beginning here, override with thispagestyle{empty} for copyright page
@@ -265,7 +265,7 @@
 \makeatother
 \subtitle{A self-instruction textbook with grammar, vocabulary, and exercises}
 \author{Author Names}
-\date{v0.1.0-751-gfd49c0c}
+\date{v0.1.0-752-g75ba0a0}
 
 \begin{document}
 \maketitle
@@ -13329,8 +13329,6 @@ Note that the combination \foreignlanguage{arabic}{ءا} is not written as \fore
   \vphantom{\huge J} {\tradarab{شَيْء}} becomes {\tradarab{شَيْءٌ، شَيْءًا، شَيْءٍ}}
 \item
   \vphantom{\huge J} {\tradarab{سَيِّئ}} becomes {\tradarab{سَيِّئٌ, سَيِّئًا, سَيِّئٍ}}
-\item
-  \vphantom{\huge J} {\tradarab{تَبَوُّء}} becomes {\tradarab{تَبَوُّءٌ, تَبَوُّءًا, تَبَوُّءٍ}}
 \end{itemize}
 
 \subsection{Variants}\label{hamza-variants}
@@ -13403,7 +13401,7 @@ as in
 In most fonts, the hamzah character (Unicode {\texttt{u+0621}}) will break the joining between the two letters surrounding it, and the output will be rendered incorrectly:
 \foreignlanguage{arabic}{خَطِيءَة} \emph{k͡haṭīʾah}.
 
-Two fonts which allow for the correct typesetting are
+Two typefaces which allow for the correct typesetting are
 
 \begin{itemize}
 \tightlist
@@ -13413,7 +13411,7 @@ Two fonts which allow for the correct typesetting are
   Naskh™ from DecoType (\href{https://www.decotype.com/}{decotype.com})
 \end{itemize}
 
-We have used the Amiri typeface for typesetting this appendix chapter.
+We have used the Amiri font for typesetting this appendix chapter.
 
 For most other fonts,
 an unseated hamzah between two joined letters

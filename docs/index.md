@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-751-gfd49c0c"
+date: "v0.1.0-752-g75ba0a0"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -11629,7 +11629,6 @@ Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [Eali
 + \vphantom{\huge J} [جُزْء]{.tradar} becomes [جُزْءٌ، جُزْءًا، جُزْءٍ]{.tradar}
 + \vphantom{\huge J} [شَيْء]{.tradar} becomes [شَيْءٌ، شَيْءًا، شَيْءٍ]{.tradar}
 + \vphantom{\huge J} [سَيِّئ]{.tradar} becomes [سَيِّئٌ, سَيِّئًا, سَيِّئٍ]{.tradar}
-+ \vphantom{\huge J} [تَبَوُّء]{.tradar} becomes [تَبَوُّءٌ, تَبَوُّءًا, تَبَوُّءٍ]{.tradar}
 
 ### Variants {#hamza-variants}
 
@@ -11678,12 +11677,12 @@ as in
 In most fonts, the hamzah character (Unicode [u+0621]{.texttt}) will break the joining between the two letters surrounding it, and the output will be rendered incorrectly: 
 [خَطِيءَة]{.ar} [xaTIEah]{.trn}.
 
-Two fonts which allow for the correct typesetting are 
+Two typefaces which allow for the correct typesetting are 
 
 + Amiri from Alif Type ([amirifont.org](https://www.amirifont.org/))
 + Naskh™ from DecoType ([decotype.com](https://www.decotype.com/))
 
-We have used the Amiri typeface for typesetting this appendix chapter.
+We have used the Amiri font for typesetting this appendix chapter.
 
 For most other fonts, 
 an unseated hamzah between two joined letters 
