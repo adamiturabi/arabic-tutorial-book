@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-753-g8855d52"
+date: "v0.1.0-756-g0963d92"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -7984,11 +7984,11 @@ Here are some examples of full names in varying degrees of completeness:
 
 <!--chapter:end:srcrmd/proper_nouns.Rmd-->
 
-# Addressing by name
+# Calling out
 
 ## Introduction
 
-When directly addressing soneone in Arabic and calling out to him by name, the particle [يَا]{.ar} [yA]{.trn} is usually prefixed to the person's name. For example,
+When calling out to someone in Arabic, the particle [يَا]{.ar} [yA]{.trn} is usually prefixed to the person's name. For example,
 
 [ٱَلسَّلَامُ عَلَيْكُمْ يَا زَيْنَبُ.]{.ar}  
 [EassalAmu ealaykum yA zaynabu.]{.trn}  
@@ -11696,14 +11696,14 @@ an unseated hamzah between two joined letters
 would have to be approximated
 in one of two ways:
 
-1. Hamzah superscript on a [kacIdah]{.trn2} character: [ـٔ]{.ar}. Example: [خَطِيـَٔة]{.ar}. The Unicode input sequence is:
+1. Hamzah superscript on a [taTwIl]{.trn2} character: [ـٔ]{.ar}. Example: [خَطِيـَٔة]{.ar}. The Unicode input sequence is:
 
    [u+0640]{.texttt} [arabic tatweel]{.smallcaps}  
    [u+0654]{.texttt} [arabic hamza above]{.smallcaps}
 
-   This is a more accurate approximation, but some fonts may not position the hamzah correctly on the [kacIdah]{.trn2}, or position vowel marks on the superscript hamzah correctly.
+   This is a more accurate approximation, but some fonts may not position the hamzah correctly on the [taTwIl]{.trn2}, or position vowel marks on the superscript hamzah correctly.
 
-2. Hamzah seated on [yAE]{.trn2}: [ئ]{.ar}. Example: [خَطِيئَة]{.ar}. This is a more coarse, yet more prevalent, and better supported, approximation.
+2. Hamzah seated on [yAE]{.trn2}: [ئ]{.ar}. Example: [خَطِيئَة]{.ar}. This is a reprehensible, yet more prevalent, and better supported, approximation.
 
 Beware, though, that neither of these approximations would allow for the correct rendering of a complex (but thankfully rare) word like 
 [لَءَّال]{.tradar} [laEEAl]{.trn} "pearl seller", where the hamzah is not allowed to disturb the [lAm-Ealif]{.trn2} ligature [لا]{.tradar}.
