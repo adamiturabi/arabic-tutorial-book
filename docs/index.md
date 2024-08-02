@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-752-g75ba0a0"
+date: "v0.1.0-757-g5879942"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -7984,11 +7984,11 @@ Here are some examples of full names in varying degrees of completeness:
 
 <!--chapter:end:srcrmd/proper_nouns.Rmd-->
 
-# Addressing by name
+# Calling out
 
 ## Introduction
 
-When directly addressing soneone in Arabic and calling out to him by name, the particle [يَا]{.ar} [yA]{.trn} is usually prefixed to the person's name. For example,
+When calling out to someone in Arabic, the particle [يَا]{.ar} [yA]{.trn} is usually prefixed to the person's name. For example,
 
 [ٱَلسَّلَامُ عَلَيْكُمْ يَا زَيْنَبُ.]{.ar}  
 [EassalAmu ealaykum yA zaynabu.]{.trn}  
@@ -10149,13 +10149,15 @@ ends with a
 [0]{.txt}-mark [◌ْ]{.ar} is converted to an [i]{.trn} mark [◌ِ]{.ar}. For example:
   + [يَفْعَلْ + ٱلرَّجُلُ = يَفْعَلِ ٱلرَّجُلُ]{.ar}
 
+<!--
 ## Uses of the [0]{.txt}-state incomplete-action verb
 
 The u-state is the default state for incomplete-action verbs. The 
 [0]{.txt}-state
 is used only in specific cases. We will explain these below.
+-->
 
-### With [لِ]{.ar} for indirect commands {#indirect-commands}
+## With [لِ]{.ar} for indirect commands {#indirect-commands}
 
 The particle [لِ]{.ar} when connected to the front of a 
 incomplete-action verb
@@ -10169,6 +10171,11 @@ or
 "Let the man go!"  
 ("Let" is being used here as a command for the man, not for the addressee of this speech.)
 
+[لِنَذْهَبْ!]{.ar}  
+"Let's go!"
+
+The indirect command is only rarely used for the addressee participant. Instead, the verb of command is used which we will study in section\ \@ref(verb-of-command) later in this chapter.
+
 The particles [فَ]{.ar} "so" and [وَ]{.ar} "and" are frequently used before this [لِ]{.ar}. 
 The [لِ]{.ar} then loses its [i]{.trn}-mark and gets a
 [0]{.txt}-mark. Examples:
@@ -10179,16 +10186,16 @@ The [لِ]{.ar} then loses its [i]{.trn}-mark and gets a
 [لِتَجْلِسُوا عَلَى ٱلْأَرْضِ.]{.ar}  
 "You should sit on the ground!"
 
+<!--
 FIXME: Use with the addressee is exceedingly rare. Rather the verb of command should be used (below). See [كتاب شرح المفصل لابن يعيش]{.ar} vol 4 p. 691. Add (perhaps in passive verbs chapter), how [لام الأمر]{.ar} can be used with passive verbs for all three deputy doers, including addressee, and is infact the only way to command the deputy doer.
 
 Also, jussive without [لام الأمر]{.ar} is only by poetic license.  See same source in the next following pages.
 
-<!--فمن ذلك ما ليس للفاعل، وهو فعلُ ما لم يسمّ فاعلُه، إذا أمرت به، لزمتْه اللام، نحوُ: "لتُعْنَ بحاجتي"، و"لتُوضَعْ في تجارتك"، و"لتُزْهَ علينا يا رجلُ". فهذا القبيل لا بد فيه من اللام، وإن كان مخاطبًا حاضرًا؛ لأنّ هذا الفعل قد لحقه التغييرُ بحذف فاعله وتغييرِ بنيته، فلم تحذف منه اللام أيضًا وحرف المضارعة لئلا يكون إجحافًا به، وإذا لم يجز الحذف مع المخاطب، فان لا يجوز مع الغائب أولى
+فمن ذلك ما ليس للفاعل، وهو فعلُ ما لم يسمّ فاعلُه، إذا أمرت به، لزمتْه اللام، نحوُ: "لتُعْنَ بحاجتي"، و"لتُوضَعْ في تجارتك"، و"لتُزْهَ علينا يا رجلُ". فهذا القبيل لا بد فيه من اللام، وإن كان مخاطبًا حاضرًا؛ لأنّ هذا الفعل قد لحقه التغييرُ بحذف فاعله وتغييرِ بنيته، فلم تحذف منه اللام أيضًا وحرف المضارعة لئلا يكون إجحافًا به، وإذا لم يجز الحذف مع المخاطب، فان لا يجوز مع الغائب أولى
+https://shamela.ws/book/13301/1655#p1
 -->
 
-https://shamela.ws/book/13301/1655#p1
-
-### With [لَا]{.ar} for prohibitions {#la-of-prohibition}
+## With [لَا]{.ar} for prohibitions {#la-of-prohibition}
 
 The word [لَا]{.ar} when in front of a 
 [0]{.txt}-state
@@ -10234,7 +10241,7 @@ Example:
 "The man is not going." or,  
 "The man will not go."
 
-### With [لَمْ]{.ar} for "did not"
+## With [لَمْ]{.ar} for "did not"
 
 The particle [لَمْ]{.ar} when in front of an
 incomplete-action verb
@@ -10262,7 +10269,7 @@ Both [لَمْ]{.ar} and [مَا]{.ar} are used commonly to negate the past tens
 
 Here are some more examples:
 
-### With [لَمَّا]{.ar} for "did not yet"
+## With [لَمَّا]{.ar} for "did not yet"
 
 The word [لَمَّا]{.ar} when in front of a 
 [0]{.txt}-state
@@ -10273,14 +10280,14 @@ For example,
 [لَمَّا يَذْهَبْ زَيْدٌ.]{.ar}  
 "Zayd did not go yet."
 
-### Other uses of the [0]{.txt}-state incomplete-action verb
+## Other uses of the [0]{.txt}-state incomplete-action verb
 
 The [0]{.txt}-state incomplete-action verb is also used for _consequential actions_ and in _conditional statements_. We will deal with these in
 chapters\ \@ref(the-consequential-action)
 and\ \@ref(conditional-statements)
 respectively
 
-## The verb of command
+## The verb of command {#verb-of-command}
 
 In order to give a direct command to an addressee, Arabic uses the verb of command. The verb of command is very similar to the 
 [0]{.txt}-state
@@ -11689,14 +11696,14 @@ an unseated hamzah between two joined letters
 would have to be approximated
 in one of two ways:
 
-1. Hamzah superscript on a [kacIdah]{.trn2} character: [ـٔ]{.ar}. Example: [خَطِيـَٔة]{.ar}. The Unicode input sequence is:
+1. Hamzah superscript on a [taTwIl]{.trn2} character: [ـٔ]{.ar}. Example: [خَطِيـَٔة]{.ar}. The Unicode input sequence is:
 
    [u+0640]{.texttt} [arabic tatweel]{.smallcaps}  
    [u+0654]{.texttt} [arabic hamza above]{.smallcaps}
 
-   This is a more accurate approximation, but some fonts may not position the hamzah correctly on the [kacIdah]{.trn2}, or position vowel marks on the superscript hamzah correctly.
+   This is a more accurate approximation, but some fonts may not position the hamzah correctly on the [taTwIl]{.trn2}, or position vowel marks on the superscript hamzah correctly.
 
-2. Hamzah seated on [yAE]{.trn2}: [ئ]{.ar}. Example: [خَطِيئَة]{.ar}. This is a more coarse, yet more prevalent, and better supported, approximation.
+2. Hamzah seated on [yAE]{.trn2}: [ئ]{.ar}. Example: [خَطِيئَة]{.ar}. This is a reprehensible, yet more prevalent, and better supported, approximation.
 
 Beware, though, that neither of these approximations would allow for the correct rendering of a complex (but thankfully rare) word like 
 [لَءَّال]{.tradar} [laEEAl]{.trn} "pearl seller", where the hamzah is not allowed to disturb the [lAm-Ealif]{.trn2} ligature [لا]{.tradar}.
