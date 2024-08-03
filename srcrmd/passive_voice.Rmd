@@ -37,6 +37,8 @@ The pattern of unknown-doer verb for form 1 verbs is always:
 [fueila yufealu]{.trn}
 
 This is regardless of the vowel on the middle root letter in the known-doer verb.
+If there is more than one verb from the same root, with different middle root letter vowels for the known-doer verb, then they will share the same unknown-doer verb. For example, the known-doer verbs: [حَسَبَ يَحْسْبُ]{.ar} "to reckon" and [حَسِبَ يَحْسِبُ]{.ar} "to deem" share the same unknown-doer verb: [حُسِبَ يُحْسَبُ]{.ar}.
+
 The same doer pronouns are used for the unknown-doer verb as for the known-doer verb.
 And the incomplete-action unknown-doer verb has the same three states as the incomplete-action known-doer verb.
 For example:
@@ -89,6 +91,10 @@ The doer pronouns for the unknown-doer verb shall therefore match the gender and
 [أَنْتُمَا تُغْبَنَانِ وَتُخْدَعَانِ.]{.ar}  
 [EantumA tugbanAni watuxdaeAn.]{.trn}  
 "You~2~ are being cheated and deceived."
+
+[مَا قُطِعَتِ ٱلشَّجَرَةُ.]{.ar}  
+[mA quTieati -ccajarah.]{.trn}  
+"The tree was not cut."
 
 ### The deputy doer for multiple direct doees
 
@@ -213,7 +219,7 @@ When such sentences are converted to the unknown-doer verb construction, then th
 
 ### Requirement of specialization
 
-When a prepositional phrase, or an adverb ot time or place, or a verbal noun of doing is to be used as a deputy doer in an unknown-doer verb construction, then it is required that they be specialized in meaning, and not used in a general sense. So for example, if we have the sentence:
+When a prepositional phrase, or an adverb of time or place, or a verbal noun of doing is to be used as a deputy doer in an unknown-doer verb construction, then it is required that they be specialized in meaning, and not used in a general sense. So for example, if we have the sentence:
 
 [سَهَرَتِ ٱلْأُمُّ لَيلَةً.]{.ar}  
 "The mother stayed up a night."
@@ -234,5 +240,60 @@ Then only one shall be chosen as the deputy doer. If a direct doee exists, then 
 [سُهِرَ فِي ٱلْمَسْجِدِ لَيلَةَ ٱلْقَدْرِ.]{.ar}  
 "The mosque was stayed up in [on] the Night of Power."
 
-In the above sentence the prepositional phrase [فِي ٱلْمَسْجِدِ]{.ar} was chosen as the deputy doer, and the adver of time [لَيْلَةَ]{.ar} remains in the a-state.
+In the above sentence the prepositional phrase [فِي ٱلْمَسْجِدِ]{.ar} was chosen as the deputy doer, and the adverb of time [لَيْلَةَ]{.ar} remains, as is, in the a-state.
+
+## States of the incomplete-action unknown-doer verb
+
+The 
+incomplete-action verb unknown-doer verb
+has three states, just like the
+incomplete-action verb known-doer verb:
+The u-state, the a-state, and the [0]{.txt}-state.
+The three states are used in the same circumstances, and with the same rules that we have already learned.
+
+So the u-state verb is used for making plain statements:
+
+[تُذْكَرُ قِصَّةُ ٱلْمَلِكِ فِي كُتُبِ ٱلتَّأْرِيخِ.]{.ar}  
+"The story of the king is mentioned in the books of history."
+
+[لَا تُرْفَعُ ٱلْأَصْوَاتُ فِي ٱلْمَكْتَبَةِ.]{.ar}  
+"Voices are not raised in the library."
+
+The a-state verb is used for expressing wish or purpose:
+
+[يَأْمُلُ ٱلْمُسْلِمُونَ أَنْ يُغْفَرُ لَهُمْ.]{.ar}  
+"The Muslims hope that they be forgiven."  
+(Note that [يُغْفَرَ]{.ar} has a singular masculine deputy doer because there is no direct doee.)
+
+[لَنْ تُسْمَعَا.]{.ar}  
+"You~2~ shall not be heard."
+
+[دُفِعَ ٱلْبَابُ حَتَّىٰ يُفْتَحَ.]{.ar}  
+"The door was pushed for the result that it open."
+
+Similarly, the [0]{.txt}-state verb is used in the following cases:
+
++ With [لَمْ]{.ar} "was not":
+  
+  [لَمْ يُؤْذَنْ لِي أَنْ أَدْخُلَ.]{.ar}  
+  "It was not permitted for me that I enter."
+
++ With [لَمَّا]{.ar} "not yet"
+
+  [لَمَّا يُكْتَبْ كِتَابٌ فِي هَـٰذَا ٱلْمَوْضُوعِ.]{.ar}  
+  "A book has not yet been written in this subject."
+
++ With [لِ]{.ar} for indirect commands:
+
+  [لِيُسْمَعْ صَوْتُهُ!]{.ar}  
+  "Let his voice be heard!"
+
+  There is no verb of command for unknown-doer verbs. So while indirect commands are typically not used for the addressee participant for known-doer verbs (see section\ \@ref(indirect-commands)), they are the only way to issue commands for the addressee participant in the unknown-doer verb construction:
+
+  [لِتُنْصَرُوا!]{.ar}  
+  "Let you~3m~ be aided!"
+
+## The verbal noun of the doee
+
+## Usage of the unknown-doer verb
 
