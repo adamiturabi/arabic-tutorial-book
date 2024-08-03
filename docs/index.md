@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-767-g4101c75"
+date: "v0.1.0-769-ga47edde"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -10214,9 +10214,77 @@ Similarly, the [0]{.txt}-state verb is used in the following cases:
   [لِتُنْصَرُوا!]{.ar}  
   "Let you~3m~ be aided!"
 
-## The verbal noun of the doee
-
 ## Usage of the unknown-doer verb
+
+There are cases where it is permissible to 
+use of the unknown-doer verb construction,
+and cases where it is _not_ permissible to 
+use of the unknown-doer verb construction. We will explain them below:
+
+### Permissible use of the unknown-doer verb
+
+There can be a number of reasons why a speaker is forced to, or chooses to, use the unknown-doer verb construction. Among these reasons are:
+
+a. When the doer is actually unknown to the speaker. This is the classic use-case, as indicated by the name _unknown-doer verb_. (But, as we shall see below, it is not the only use case.) So, if we say:
+
+   [كُسِرَتِ ٱلزُّجَاجَةُ.]{.ar}  
+   "The glass was broken."
+
+   then, it may be that we don't know who broke the glass, and that is why we are expressing it in the unknown-doer verb construction.
+
+b. When the doer is known to the speaker, but he does not wish to make him known to others. So the same sentence above [كُسِرَتِ ٱلزُّجَاجَةُ.]{.ar} could be used when the speaker knows that it was actually [زَيْد]{.ar} "Zayd", for example, who broke the glass, but the speaker does not wish that others find out that it was Zayd. This itself could be for any reason, for example: the speaker fears Zayd, for fears for Zayd, etc.
+
+c. When the speaker wishes to draw attention to the act itself rather than the doer of the act. So we might say:
+   
+   [مُنِعْنَا ٱلدُّخُولَ.]{.ar}  
+   "We have been prevented from entering."
+
+   when we wish to focus on the act of our having been prevented, rather than who prevented us.
+
+d. For stylistic reasons, when it is obvious and known who the doer is. For example:
+
+   [خُلِقَ ٱلْإِنْسَانُ مِنْ ْعَجَلٍ]{.ar}  
+   "Man was created of haste [i.e., impatience]." ([#qurEAn]{.trn2} 21:37. Trans. Saheeh International)
+
+   In the above [EAyah]{.trn2} it is known and obvious that [#allAh]{.trn2} created man.
+
+e. In order to glorify the doer. So we might the unknown-doer verb construction to say:
+
+   [خُلِقَ ٱلْخِنْزِيرُ.]{.ar}  
+   "The pig was created."
+
+   This could be to distance [#allAh]{.trn2} from being mentioned next to the name of a particularly dirty animal.
+
+f. When the doer is not mentioned due to contempt for him. For example:
+
+   [قُتِلَ أَمِيرُ ٱلْمُؤْمِنِينَ عُمَرُ.]{.ar}  
+   "The Commander of the believers, [#eumar]{.trn2}, was killed."
+
+   In this sentence we chose not to name the killer due to contempt for him.
+
+These reasons are not mutually exclusive, and sometimes the unknown-doer verb construction is used for a combination of them.
+
+### Impermissible use of the unknown-doer verb
+
+The unknown-doer verb may not be used when the doer is mentioned with the verb. This is different from English which can use the word "by" to indicate the doer in a passive voice construction, as in: "The book was written by Zayd.". Such a sentence, in Arabic can only be expressed with the known-doer verb construction:
+
+[كَتَبَ زَيْدٌ ٱلْكِتَابَ.]{.ar}  
+[kataba zayduni -lkitAb.]{.trn}  
+"Zayd wrote the book."
+
+It may seem like this rule is broken in sentences like:
+
+[قُتِلَ بِٱلسَّيْفِ.]{.ar}  
+[qutila bi-ssayf.]{.trn}  
+"He was killed by the sword."
+
+But such is not the case. The known-doer verb constuction would be something like:
+
+[قَتَلَهُ فُلَانٌ بِٱلسَّيْفِ.]{.ar}  
+[qatalahu fulAnun bi-ssayf.]{.trn}  
+"So-and-so killed him with the sword."
+
+As you can see, [فُلَان]{.ar} "so-and-so" is actually the doer, and [ٱلسَّيْف]{.ar} "the sword" is merely a prepositional phrase indicating the instrument used in the act.
 
 
 <!--chapter:end:srcrmd/passive_voice.Rmd-->
@@ -10845,8 +10913,14 @@ The lightened [لَـٰكِنْ]{.ar} has the same meaning as the heavy [لَـ�
 FIXME: 
 
 + move to later chapter, after [استفهام]{.ar} because [شروط إعمال اسم الفاعل]{.ar} relies on it.
-+ add [الصفة المشبهبة]{.ar} _verb-resembling descriptive noun_ and its [عمل]{.ar}
++ add [الصفة المشبهبة]{.ar} _verb-like descriptive noun_ and its [عمل]{.ar}
 + add difference in [إعمال اسم الفاعل]{.ar} when it has [ال]{.ar} and when without.
++ add [اسم المفعول]{.ar} acting as verb with [نائب الفاعل]{.ar}
+
+See 
++ Wright vol. ii. p. 65+, and p. 195.
++ [النحو الوافي]{.ar} vol 3, p. 246+
++ Howell vol. 4, p 1606+
 
 ## Introduction
 
