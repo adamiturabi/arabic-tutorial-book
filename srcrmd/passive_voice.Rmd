@@ -165,14 +165,14 @@ When such sentences are converted to the unknown-doer verb construction then the
 
 ### With adverbs of time or place
 
-Other verbs, don't take a direct doee but may be used with an adverb of time or place in the a-state. We will study adverbs of time and place in chapter\ \@ref(adverbs-of-time-and-place).
+Other verbs don't take a direct doee but may be used with an adverb of time or place in the a-state. (We will study adverbs of time and place in chapter\ \@ref(adverbs-of-time-and-place).)
 Here is an example:
 
 ```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
-  text=.\txarb{ٱللَّيْلَةَ} \txarb{سَهَرَتِ ٱلْأُمُّ},
+  text=.\txarb{لَيْلَةَ ٱلْقَدْرِ} \txarb{سَهَرَتِ ٱلْأُمُّ},
   text effects/.cd, 
     path from text, text along path,
     group letters, word count=\w,
@@ -183,7 +183,7 @@ Here is an example:
    (word-1.south west) -- (word-1.south east)
       node [midway, below] {\scriptsize a-state adverb of time};
 
-\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The mother stayed up the (whole) night.''};
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The mother stayed up the Night of Power.''};
 
 \end{tikzpicture}
 ```
@@ -192,10 +192,47 @@ Here is an example:
 "The mother stayed up the (whole) night."-->
 When this sentence is converted to an unknown-doer construction then the adverb of time or place can be taken as the deputy doer in the u-state:
 
-[سُهِرَتِ ٱللَّيلَةُ.]{.ar}  
-"The night was stayed up."
+[سُهِرَتْ لَيلَةُ ٱلْقَدْرِ.]{.ar}  
+"The Night of Power was stayed up [in]."
+
+Note the u-state of [لَيْلَةُ]{.ar} [laylatu]{.trn} as the deputy doer.
 
 ### With the verbal noun of doing
 
 The verbal noun of doing, because it is the action being done may be considered a kind of direct doee. For example:
+
+[فَهِمَ ٱلشَّيْخُ فَهْمًا عَمِيقًا.]{.ar}  
+"The old man understood, a deep understanding."
+
+We will study the use of the verbal noun of doing as a doee in chapter\ \@ref(absolute-doee).
+
+When such sentences are converted to the unknown-doer verb construction, then the verbal noun of doing may be taken as the deputy doer in the u-state.
+
+[فُهِمَ فَهْمٌ عَمِيقٌ.]{.ar}  
+"A deep understanding was understood."
+
+### Requirement of specialization
+
+When a prepositional phrase, or an adverb ot time or place, or a verbal noun of doing is to be used as a deputy doer in an unknown-doer verb construction, then it is required that they be specialized in meaning, and not used in a general sense. So for example, if we have the sentence:
+
+[سَهَرَتِ ٱلْأُمُّ لَيلَةً.]{.ar}  
+"The mother stayed up a night."
+
+then because of the non-specialized meaning of [لَيْلَةً]{.ar}, such a sentence is typically not suitable for being converted to a unknown-doer verb construction.
+
+### Choosing the deputy doer
+
+If a sentence is to be converted to an unknown-doer verb construction and it has more than one of the following:
+
++ a direct doee
++ a specialized prepositional phrase
++ a specialized adverb of time or place
++ a specialized verbal noun of doing
+
+Then only one shall be chosen as the deputy doer. If a direct doee exists, then it is typically chosen. If a direct doee does not exist, then the one desired to be emphasized may be chosen as the deputy doer. For example:
+
+[سُهِرَ فِي ٱلْمَسْجِدِ لَيلَةَ ٱلْقَدْرِ.]{.ar}  
+"The mosque was stayed up in [on] the Night of Power."
+
+In the above sentence the prepositional phrase [فِي ٱلْمَسْجِدِ]{.ar} was chosen as the deputy doer, and the adver of time [لَيْلَةَ]{.ar} remains in the a-state.
 
