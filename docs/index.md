@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-770-gac2212e"
+date: "v0.1.0-771-geafed61"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -10115,7 +10115,8 @@ For example:
 
 ### With adverbs of time or place
 
-Other verbs don't take a direct doee but may be used with an adverb of time or place in the a-state. (We will study adverbs of time and place in chapter\ \@ref(adverbs-of-time-and-place).)
+Other verbs don't take a direct doee but may be used with an adverb of time or place in the a-state. 
+(We will study adverbs of time and place in chapter\ \@ref(adverbs-of-time-and-place), if [#allAh]{.trn2} wills.)
 Here is an example:
 
 ![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.pdf)<!-- -->
@@ -10131,12 +10132,14 @@ Note the u-state of [لَيْلَةُ]{.ar} [laylatu]{.trn} as the deputy doer.
 
 ### With the verbal noun of doing
 
-The verbal noun of doing, because it is the action being done may be considered a kind of direct doee. For example:
+The verbal noun of doing, because it is the action being done may be considered a kind of direct doee. 
+(We will study the use of the verbal noun of doing as a doee in chapter\ \@ref(absolute-doee), if [#allAh]{.trn2} wills.)
+For example:
+
 
 [فَهِمَ ٱلشَّيْخُ فَهْمًا عَمِيقًا.]{.ar}  
 "The old man understood, a deep understanding."
 
-We will study the use of the verbal noun of doing as a doee in chapter\ \@ref(absolute-doee).
 
 When such sentences are converted to the unknown-doer verb construction, then the verbal noun of doing may be taken as the deputy doer in the u-state.
 
