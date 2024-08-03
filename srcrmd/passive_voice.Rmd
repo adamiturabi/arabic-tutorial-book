@@ -161,10 +161,33 @@ Other verbs, which can take a direct doee, may be used without one, and again wi
 [كَتَبَ ٱلْكَاتِبُ بِٱلْقَلَمِ.]{.ar}  
 "The scribe wrote with the pen."
 
-When such sentences are converted to the unknown-doer verb construction then the prepositional phrase may be taken as the deputy doer. However, the preposition causes the noun following it to remain in the i-state, and the singular masculine doer pronoun is used for the unknown-doer verb. For example:
+When such sentences are converted to the unknown-doer verb construction then the prepositional phrase may be taken as the deputy doer. 
+However, the preposition causes the noun following it to remain in the i-state. So the deputy doer is not indicated by an apparent [u]{.trn}-mark (or by the other indicators of the u-state).
+The verb then appears to be in the singular masculine, with its deputy doer following it.
+For example:
 
-[جُلِسَ عَلَى ٱلْأَرْضِ.]{.ar}  
-"The ground was sat upon."
+```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{عَلَى ٱلْأَرْضِ} \txarb{جُلِسَ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below] {\scriptsize deputy doer};
+
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The ground was sat upon.''};
+
+\end{tikzpicture}
+```
+
+<!--[جُلِسَ عَلَى ٱلْأَرْضِ.]{.ar}  
+"The ground was sat upon." -->
 
 [كُتِبَ بِٱلْقَلَمِ.]{.ar}  
 "The pen was written with."

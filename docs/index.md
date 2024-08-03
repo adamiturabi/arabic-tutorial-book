@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-769-ga47edde"
+date: "v0.1.0-770-gac2212e"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -10100,10 +10100,15 @@ Other verbs, which can take a direct doee, may be used without one, and again wi
 [كَتَبَ ٱلْكَاتِبُ بِٱلْقَلَمِ.]{.ar}  
 "The scribe wrote with the pen."
 
-When such sentences are converted to the unknown-doer verb construction then the prepositional phrase may be taken as the deputy doer. However, the preposition causes the noun following it to remain in the i-state, and the singular masculine doer pronoun is used for the unknown-doer verb. For example:
+When such sentences are converted to the unknown-doer verb construction then the prepositional phrase may be taken as the deputy doer. 
+However, the preposition causes the noun following it to remain in the i-state. So the deputy doer is not indicated by an apparent [u]{.trn}-mark (or by the other indicators of the u-state).
+The verb then appears to be in the singular masculine, with its deputy doer following it.
+For example:
 
-[جُلِسَ عَلَى ٱلْأَرْضِ.]{.ar}  
-"The ground was sat upon."
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-31-1.pdf)<!-- -->
+
+<!--[جُلِسَ عَلَى ٱلْأَرْضِ.]{.ar}  
+"The ground was sat upon." -->
 
 [كُتِبَ بِٱلْقَلَمِ.]{.ar}  
 "The pen was written with."
@@ -10113,7 +10118,7 @@ When such sentences are converted to the unknown-doer verb construction then the
 Other verbs don't take a direct doee but may be used with an adverb of time or place in the a-state. (We will study adverbs of time and place in chapter\ \@ref(adverbs-of-time-and-place).)
 Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-31-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.pdf)<!-- -->
 
 <!--[سَهَرَتِ ٱلْأُمُّ ٱللَّيلَةَ.]{.ar}  
 "The mother stayed up the (whole) night."-->
@@ -10295,7 +10300,7 @@ As you can see, [فُلَان]{.ar} "so-and-so" is actually the doer, and [ٱل�
 
 In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-33-1.pdf)<!-- -->
 
 "This man is a teacher."
 
@@ -10489,7 +10494,7 @@ to complete the sentence. We will see examples of this below.
 
 ### The [أَنَّ]{.ar} clause in place of the direct doee
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-33-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.pdf)<!-- -->
 
 "I know that Zayd is truthful."
 
@@ -10507,7 +10512,7 @@ clauses can be placed where one would expect other noun positions, such as: a su
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-35-1.pdf)<!-- -->
 
 "That you are sick has reached me." ("It has reached me that you are sick.")
 
@@ -10515,7 +10520,7 @@ Example:
 
 Example (with information before subject in sentence word order):
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-35-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-36-1.pdf)<!-- -->
 
 "From his characteristeics is that he is noble."
 
@@ -10523,7 +10528,7 @@ Example (with information before subject in sentence word order):
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-36-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-37-1.pdf)<!-- -->
 
 "The truth is that he went."
 
@@ -10533,13 +10538,13 @@ As you know, [كَانَ]{.ar}'s doer is also its subject, and its doee is also 
 The [أَنَّ]{.ar} clause can occur in either the subject or the information of [كَنَ]{.ar}. 
 For example, the [أَنَّ]{.ar} clause as the information:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-37-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-38-1.pdf)<!-- -->
 
 "The matter was that he didn't do his obligation."
 
 Now, the [أَنَّ]{.ar} clause as the subject:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-38-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-39-1.pdf)<!-- -->
 
 "That he didn't do his obligation was the matter."
 
@@ -10549,13 +10554,13 @@ Note that in the latter case, the information precedes the subject.
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state base noun in an annexation. Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-39-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-40-1.pdf)<!-- -->
 
 "The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous."
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly following a preposition. Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-40-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-41-1.pdf)<!-- -->
 
 "I wondered at that Zayd is asleep."
 
@@ -10637,7 +10642,7 @@ TODO
 
 There is a sub-type of subject-information sentence called a topic-comment sentence. Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-41-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-42-1.pdf)<!-- -->
 
 "The tree: its branches are long."
 
@@ -10688,7 +10693,7 @@ the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
 
 There is a special pronoun, called the _pronoun of the fact_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-42-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-43-1.pdf)<!-- -->
 
 "The fact is: the cold is intense."
 
