@@ -2,18 +2,18 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-765-g10e32f4"
+date: "v0.1.0-767-g4101c75"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
 #- paper=a5paper               # a5: 148.5 by 210mm
 #- paperwidth=170mm
 #- paperheight=244mm
-#- paperwidth=156mm
-#- paperheight=234mm
-- paperwidth=6in
-- paperheight=9in
-#- bindingoffset=6mm
+- paperwidth=156mm
+- paperheight=234mm
+#- paperwidth=6in
+#- paperheight=9in
+- bindingoffset=16mm
 - textwidth=114.8mm           # = (170 - 6)*0.7
 - textheight=170.8mm          # = 244 * 0.7
 - twoside
@@ -9201,496 +9201,6 @@ Add multiple doees with masdar
 
 <!--chapter:end:srcrmd/doing_verbal_noun.Rmd-->
 
-# The verbal-nouns of the doer and the doee
-
-## Introduction
-
-In the previous chapter we studied the verbal-noun of doing. In this chapter we shall study two more kinds of verbal-nouns. These are the doer verbal-noun and the doee-verbal noun. These, too, are nouns that can give the meaning of the verb they are derived from. In places, they may even replace the verb, thereby adding some nuances in meaning.
-
-The doer verbal-noun gives the meaning of the doer, that is the person doing the action of the verb. For example, for the verb [قَرَأَ يَقْرَأُ قِرَاءَةً]{.ar}  "to read", the doer verbal-noun is [قَارِئ]{.ar} [qAriE]{.trn} "a reader".
-
-## Pattern of the doer verbal-noun
-
-We saw in the previous chapter that the pattern for the doing verbal-noun for form\ 1 verbs was very variable. In contrast, the pattern for the doer verbal-noun for form\ 1 verbs is fixed. It is always on the pasttern [فَاعِل]{.ar} [fAeil]{.trn}. Also, the doer verbal-noun is modified for gender and number. Its forms its feminine by appending [ة]{.ar} thus: [فَاعِلَة]{.ar}. It takes sound plurals: the [-Un]{.trn} for the masculine, and the [-At]{.trn} plural for the feminine. In many case, it may also have broken plurals. Here is a table showing these modifications for the u-state. You should be able to extend them for the a-state and i-state.
-
-| Number | Masculine | Feminine |
-|:---|:---|:---|
-|singular|[فَاعِلٌ]{.ar} [fAeilun]{.trn}|[فَاعِلَةٌ]{.ar} [fAeilatun]{.trn}|
-|dual|[فَاعِلَانِ]{.ar} [fAeilAni]{.trn}|[فَاعِلَتَانِ]{.ar} [fAeilatAni]{.trn}|
-|plural|[فَاعِلُونَ]{.ar} [fAeilUna]{.trn}|[فَاعِلَاتٌ]{.ar} [fAeilAtun]{.trn}|
-
-## The doer verbal-noun as a noun
-
-Like the doing verbal-noun, the doer verbal noun occupies a place that is between a noun and a verb. The basic, most essential, meaning of the doer verbal noun is that of a noun which denotes the doer of the verb.
-
-So, for example, consider the verb [سَأَلَ يَسْأَلُ سُؤَالًا]{.ar}  "to question". Its doer verbal-noun is [سَائِل]{.ar}. Since it refers to the doer of this verb, we can translate it as "a questioner~m.~".
-
-By itself, the word [سَائِل]{.ar}  "a questioner" just denotes a noun. It does not indicate when the doer does the action of the verb: has the questioner already asked the question, is he asking it at present, or will he ask it in the future? So, for example, we can say:
-
-[سَيَقْدَمُ سَائِلٌ وَسَيَسْأَلُ سُؤَالًا.]{.ar}  
-[sayaqdamu sAEilun wasayaqdamu suEAlan.]{.trn}  
-"A questioner~m.~ will arrive and he will ask a question."
-
-In the above sentence, the doer verbal-noun is being described as performing the action of the verb in the future.
-
-Here is another example:
-
-[سَأَلَتِ ٱلْفَقِيهَ سَائِلَةٌ عَنْ أَمْرٍ.]{.ar}  
-[saEalati -lfaqIha sAEilatun ean Eamrin.]{.trn}  
-"A questioner~f.~ asked the jurist about a matter."
-
-In the above sentence, the doer verbal-noun is being described as having performed the action of the verb in the past.
-
-Doer verbal-nouns of form\ 1 verbs, when used with this nounal meaning, often have broken plurals, in addition to their sound plurals. Generally, either could be used in most cases, but the usage of the broken plurals is preferred.
-
-For example, consider the verb [قَتَلَ يَقْتُلُ قَتْلًا]{.ar}  "to kill ([ه]{.ar} s.o.)". Its doer verbal-noun is [قَاتِل]{.ar} "a killer~m.~". Its sound plural is [قَاتِلُونَ]{.ar} [qAtilUna]{.trn} and its broken plurals are [قُتَّال]{.ar} [quttAl]{.trn} and [قَتَلَة]{.ar} [qatalah]{.trn}. Any of these could be used but the broken plural is often preferred.
-
-[هَرَبَ قَتَلَةُ ٱلرَّجُلِ إِلَىٰ مَخْبَئِهِمْ.]{.ar}  
-[haraba qatalatu -rrajuli EilA maxbaEihim.]{.trn}  
-"The killers of the man fled to their hideout."
-
-## The doer verbal-noun as a verb
-
-We have learned that the essential meaning of the doer verbal-noun is the doer of the action of the verb from which it is derived. In addition to this essential meaning, the doer verbal-noun can also be used in place of the verb from which it is derived. This is only done when the verb to be replaced is the incomplete-action verb. The doer verbal-noun does not replace the completed-action verb. We will now explain this usage.
-
-### Usage of the doer verbal-noun as a present tense verb
-
-Consider the following sentence:
-
-[يَذْهَبُ زَيْدٌ إِلَى ٱلْمَدْرَسَةِ.]{.ar}  
-[yaphabu zaydun Eila -lmadrasati.]{.trn}  
-"Zayd goes to school."
-
-The above sentence does not explicitly specify whether Zayd is actually going to school at present, or that he goes to school habitually and not necessarily right now.
-
-If we wish to indicate that Zayd is actually going to school at present we can replace the incomplete-action verb with the indefinite doer verbal-noun. So we get:
-
-[زَيْدٌ ذَاهِبٌ إِلَى ٱلْمَدْرَسَةِ.]{.ar}  
-[yaphabu zaydun Eila -lmadrasati.]{.trn}  
-"Zayd is going to school."
-
-Note that the same preposition [إِلَىٰ]{.ar} [EilA]{.trn} "to" is used with the doer verbal-noun as is used with the verb.
-Also note that this is now a subject-information sentence instead of a verbal sentence. [زَيْدٌ]{.ar} [zaydun]{.trn} "Zayd" is the subject, and [ذَاهِبٌ]{.ar} [pAhibun]{.trn} is part of the information.
-
-This usage of the doer verbal-noun to indicate that the action of the verb is ocurring at present is mostly done for what we call _verbs of posture_ and _verbs of motion_.
-
-Verbs of posture denote a static position or activity of the doer's body and include verbs like sitting, standing, lying down, sleeping, etc.
-
-Verbs of motion denote a moving action of the doer's body and include verbs like
-going, coming, running, etc.
-
-So, if, for example, we say,
-
-[زَيْنَبُ جَالِسَةٌ عَلَى هَـٰذَا ٱلْكُرْسِيِّ.]{.ar}  
-[zaynabu jAlisatun eala hApa -lkursiyyi.]{.trn}  
-"Zaynab is sitting on this chair."
-
-this indicates that Zaynab is sitting on this chair at present. And if we say,
-
-[تَجْلِسُ زَيْنَبُ عَلَى هَـٰذَا ٱلْكُرْسِيِّ.]{.ar}  
-[tajlisu zaynabu eala hApa -lkursiyyi.]{.trn}  
-"Zaynab sits on this chair."
-
-this indicates that Zaynab usually sits on this chair.
-
-If this usage of the doer verbal-noun to indicate a present action is mostly only for verbs of posture and motion, how then do we indicate this distinction for other verbs? We have answered this in section [TODO: add section to incomplete-action verb] where we said that in order to give the meaning that the action of the verb is happening right now, a verbal sentence can be converted to a subject-information sentence. 
-
-### Usage of the doer verbal-noun as a future tense verb {#doer-verbal-noun-for-intended-future-action}
-
-The doer verbal-noun may be used in place of the verb it is derived from to indicate an intent on the part of the doer, or to indicate that the action will occur in the future.
-
-This usage of the doer verbal-noun is not just for verbs of posture and motion like the present tense usage. Rather, it is for all verbs in general.
-
-And since intention is something that is mostly expressed by the speaker for himself, rather than for someone else, we will often find this usage with the subject [أَنَا]{.ar} [Eana]{.trn} "I".
-
-#### With an indirect doee
-
-Here is an example of the usage of the doer verbal-noun as a future tense verb with an indirect doee:
-
-<!--
-[فَرَغْتُ مِنْ عَمَلِي فَأَنا ذَاهِبٌ  إِلَى ٱلْبَيْتِ.]{.ar}  
-[faragtu min eamalI faEana pAhibun Eila -lbayti.]{.trn}  
-"I have got done with my work so I'm going home."
-
-The context would tell us whether the person is talking about his intention to go home in the immediate future, or whether he has already started and is going home at present.
--->
-
-[أَنَا ذَاهِبٌ إِلَىٰ بَيْتِ صَدِيقِي فِي ٱلصَّبَاحِ.]{.ar}  
-[Eana pAhibun EilA bayti SadIqI fi -SSabAHi.]{.trn}  
-"I'm going to go to my friend's house in the morning."
-
-In the above sentence it is possible for the phrase 
-[فِي ٱلصَّبَاحِ]{.ar}
-[fi -SSabAHi]{.trn}
-"in the morning"
-to be ommitted for the same meaning. In that case, surrounding context could tell us that the person is intending to go in the future, and is not actually in the process of going there at present.
-
-Here is another example (by a female speaker):
-
-[عِنْدِي كُرَةٌ فِي ٱلْبَيْتِ فَأَنَا رَاجِعَةٌ إِلَى ٱلْبَيْتِ وَلَاعِبَةٌ بِهَا.]{.ar}  
-[eindI kuratun fi -lbayti faEana rAjieatun Eila -lbayti walAeibatun bihA.]{.trn}  
-"I have a ball at home, so I'm going to go home and play with it."
-
-#### Difference with the particles [سَـ]{.ar} [sa-]{.trn} and [سَوْفَ]{.ar} [sawfa]{.trn}
-
-We have already learned a method to express a future action using the particles [سَـ]{.ar} [sa-]{.trn} and [سَوْفَ]{.ar} [sawfa]{.trn} with the incomplete-action verb. So we could also have said:
-
-[سَأَذْهَبُ إِلَىٰ بَيْتِ صَدِيقِي.]{.ar}  
-[saEaphabu EilA bayti SadIqI.]{.trn}  
-"I will to go to my friend's house."
-
-The difference between using the particles [سَـ]{.ar} [sa-]{.trn} and [سَوْفَ]{.ar} [sawfa]{.trn} and using the doer verbal-noun is that using the doer verbal-noun signifies more emphasis, or, as a possible consequence of the emphasis, that the action is more imminent. That is:
-
-[أَنَا ذَاهِبٌ ...]{.ar}  
-[Eana pAhibun ...]{.trn}  
-"I will [definitely] go ..."  
-or  
-"I'm going to go ..."
-
-[سَأَذْهَبُ ...]{.ar}  
-[saEaphabu ...]{.trn}  
-"[Soon] I will go ..."
-
-#### With a direct doee
-
-If a verb takes a direct doee, and we wish to use the direct doee with the verb's doer verbal-noun when the doer verbal-noun is acting as a verb, then we may deal with it in one of three ways:
-
-1. The direct doee in a-state following the doer verbal-noun
-
-   The most basic method of dealing with a direct doee of a doer verbal noun is by placing it in the a-state right after the doer verbal-noun. Here is an example,
-   
-   [قَدْ دَخَلَ ٱلْمَدِينَةَ رَجُلٌ شَرِيرٌ. هُوَ **قَاتِلٌ سُكَّانَهَا**.]{.ar}  
-   [qad daxala -lmadInata rajulun carIrun. hua qAtilun sukkAnahA.]{.trn}  
-   "An evil man has entered the city. He is going to kill its residents."
-   
-   <!-- Wright says: When the اسم الفاعل is indefinite then مفعول به منصوب is only allowed under certain scenarios: The اسم الفاعل is a خبر or other attribute, or a negative sentence, or a question. (vol. ii, § 30, p. 65). This seems similar to prohibition of indef subjects so I don't think it is necessary to add that detail here. It seems like doer verbal-noun will naturally be a predicate.-->
-
-2. The direct doee in i-state annexed to the doer verbal-noun
-
-   The combination of the doer verbal-noun and following direct doee in the a-state is often replaced with an annexation of the doer verbal-noun to the i-state direct doee. So, for example, instead of the above example, we can say:
-   
-   [قَدْ دَخَلَ ٱلْمَدِينَةَ رَجُلٌ شَرِيرٌ. هُوَ **قَاتِلُ سُكَّانِهَا**.]{.ar}  
-   [qad daxala -lmadInata rajulun carIrun. hua qAtilu sukkAnihA.]{.trn}  
-   "An evil man has entered the city. He is going to kill its residents."
-
-   Note that [قَاتِلُ سُكَّانِهَا]{.ar} [qAtilu sukkAnihA.]{.trn} can also support the non-verbal meaning of the doer verbal-noun: "killer of its residents", i.e., he has already killed its residents in the past. So, when an annexation is used with a doer verbal-noun, we will often need surrounding context to tell us whether the verbal (incomplete-action) meaning is intended, or the noun  meaning.
-
-   This usage of annexing the doer verbal-noun to the i-state direct doee instead of employing the more basic usage of the doer verbal-noun and a following a-state direct doee is optional, but fairly common. In fact, when the doer-verbal noun ends with an [n]{.trn}-mark, and the direct doee begins with [ٱَلْ]{.ar} [Eal]{.trn} "the", then the annexation usage becomes predominant over the basic a-state usage. So we will be more likely to see:
-
-   [أَنَا فَاعِلُهُ.]{.ar}  
-   [Eana fAeiluhu.]{.trn}  
-
-   instead of:
-
-   [أَنَا فَاعِلٌ إِيَّاهُ.]{.ar}  
-   [Eana fAeilun EiyyAhu.]{.trn}  
-
-   for the meaning: "I will do it." Note again, that the latter sentence could also support the nounal meaning of the doer-verbal noun: "I am its doer.", i.e., "the one who did it."
-
-   Similarly, it will be more common to find:
-
-   [هُوَ قَاتِلُ ٱلنَّاسِ.]{.ar}  
-   [huwa qAtilu -nnAsi.]{.trn}  
-
-   instead of:
-
-   [هُوَ قَاتِلٌ ٱلنَّاسَ.]{.ar}  
-   [huwa qAtiluni -nnAsa.]{.trn}  
-
-   for the meaning: "He is going to kill the people." Note, once again, that the former sentence also supports the meaning: "He is the people's killer.", i.e., "the one who killed them", and that context would be needed to tell us which of the two meanings is intended.
-
-   The annexation of a doer verbal-noun to its direct doee in the i-state is not the kind of "proper" annexation that we have learned so far. In fact, it is called an _improper annexation_ and we shall study it in more detail in chapter [TODO], if [#allAh]{.trn2} wills.
-
-3. Quite similar to what we learned in section\ \@ref(the-direct-doee-in-i-state-preceded-by-the-preposition-%D9%84-li) for doing verbal-nouns, the direct doee can follow the doer verbal-noun in the i-state preceded by the preposition [لِ]{.ar} [li]{.trn}.
-
-   <!--Quran:  إنل له لحافظون -->
-   This is often optional, as an alternative to the above two methods. For example,
-   
-   [هُوَ قَاتِلٌ لَهُمْ.]{.ar}  
-   [huwa qAtilun lahum.]{.trn}  
-   "He will kill them."
-   
-   Using [لِ]{.ar} [li]{.trn} in this manner is also a technique to move the direct doee before the doer verbal-noun for effect, if desired. For example,
-   
-   [هُوَ لَهُمْ قَاتِلٌ.]{.ar}  
-   [huwa lahum qAtilun.]{.trn}  
-   "He will kill them."
-
-### The definite doer verbal-noun as a verb
-
-<!-- from Quran:  الكاظمين الغيظ ، المؤتون الزكاة , many be improper annexxation too -->
-So far we have seen only an indefinite doer verbal-noun being used with the meaning of an incomplete-action verb. However, the definite doer verbal-noun, too, can give this meaning. The meaning is often in the present tense. Here are some examples:
-
-With an indirect doee:
-
-[قَدِمَ زَيْدٌ ٱلذَّاهِبُ إِلَى ٱلْجَامِعَةِ.]{.ar}  
-[qadima zayduni -ppAhibu Eila -ljAmieati.]{.trn}  
-"Zayd, the one who goes to the university, has arrived."
-
-With a direct doee in the a-state:
-
-[هَرَبْتُ مِنَ ٱلْأَسَدِ ٱلْآكِلُ ٱلْإِنْسَانَ.]{.ar}  
-[harabtu mina -lEasadi -lEAkilu -lEinsAna.]{.trn}  
-"I fled from the lion, the one that eats man."
-
-With a direct doee in the i-state preceded by the preposition [لِ]{.ar} [li]{.trn}:
-<!--[قَدْ سَفِهَ ٱلْفَاسِقُ ٱلشَّارِبُ لِلْخَمْرِ.]{.ar}  
-[qad safiha -lfAsiqu -ccAribu lilxamri.]{.trn}  
-"The evil-doer, the one who drinks wine, has become foolish."-->
-
-[سَيَنْجَحُ ٱلطَّالِبُ ٱلتَّارِكُ لِلَّهْوِ.]{.ar}  
-[sayanjaHu -TTAlibu -ttAriku lillahwi.]{.trn}  
-"The student, the one who leaves idle amusement, will succeed."
-
-### Plurals of the doer verbal-noun when used as a verb
-
-We mentioned in section\ \@ref(the-doer-verbal-noun-as-a-noun) that doer-verbal nouns when used with their nounal meaning often have broken plurals along with their sound plural.
-We gave the example of the doer verbal-noun
-[قَاتِل]{.ar} [qAtil]{.trn} "a killer~m.~" with the sound plural is [قَاتِلُونَ]{.ar} [qAtilUna]{.trn} and the broken plurals [قُتَّال]{.ar} [quttAl]{.trn} and [قَتَلَة]{.ar} [qatalah]{.trn}.
-
-When the doer verbal-noun is used as a verb, only the sound plural is permitted to be used, and the broken plurals, if any are not used. So we can only say:
-
-[هُمْ قَاتِلُونَ ٱلنَّاسَ.]{.ar}  
-[hum qAtilUna -nnAsa.]{.trn}  
-and  
-[هُمْ قَاتِلُو ٱلنَّاسِ.]{.ar}  
-[hum qAtilu -nnAsi.]{.trn}  
-for  
-"They will kill the people."  
-not, for example  
-$\times$\ [هُمْ قُتَّالٌ ٱلنَّاسَ.]{.ar}  
-
-(In the second sentence, the [ن]{.ar} of [قَاتِلُونَ]{.ar} is ommitted because it is an annexe noun).
-
-## The doee verbal-noun
-
-The doee verbal-noun for form\ 1 verbs is on the pattern [مَفْعُول]{.ar} [mafeUl]{.trn}. It carries the meaning of the person or thing to whom the action of the verb has been done. For example, the doee verbal-noun for the verb
-[قَتَلَ يَقْتُلُ قَتْلًا]{.ar}  "to kill ([ه]{.ar} s.o.)"
-is [مَقْتُول]{.ar} [maqtUl]{.trn} and means "a killed person".
-
-### The plural of the doee verbal noun
-
-The doee verbal-noun almost always takes the sound plurals [-Un]{.trn} for masculine intelligent beings, and [-At]{.trn} otherwise. Therefore the plural of the doee verbal-noun 
-[مَقْتُول]{.ar} [maqtUl]{.trn} "a killed person~m.~" is [مَقْتُولُونَ]{.ar} [maqtUlUna]{.trn} "killed persons~m.~".
-and the plural of the doee verbal-noun 
-[مَقْتُولَة]{.ar} [maqtUlah]{.trn} "a killed person~f.~" is [مَقْتُولَات]{.ar} [maqtUlAt]{.trn} "killed persons~f.~".
-
-There are a only a few doee verbal-nouns that, as an exception, have broken plurals. The broken plural for these exceptions is than always on the pattern ^2^[مَفَاعِيل]{.ar} [mafAeIl]{.trn}^2^. For example, the doee verbal-noun for the verb
-[لَعَنَ يَلْعَنُ لَعْنًا]{.ar}  "to curse ([ه]{.ar} s.o.)" is [مَلْعُون]{.ar} [maleUn]{.trn} "accursed" and its plural is ^2^[مَلَاعِين]{.ar} [malAeIn]{.trn}^2^.
-
-### Usage of the doee verbal-noun
-
-Much of what has been said regarding the doer verbal-noun applies to the doee verbal-noun as well: The doee verbal-noun may be used with a verbal meaning for the incomplete-action verb only. So if we say:
-
-[هُوَ مَقْتُولٌ.]{.ar}  
-[huwa maqtUl]{.trn}
-
-with a verbal meaning, then it means "He will be killed." And if we say it using its nounal meaning, then it means "He is the person killed."
-
-Unlike the doer verbal-noun which can take doees, since the doee verbal-noun is itself the doee, there is no question of it taking other doees. So this does simplify matters.
-
-### The doee verbal-nouns of indirect doee verbs
-
-Consider the verb
-[سَأَلَ يَسْأَلُ سُؤَالًا]{.ar}  "to question ([ه عن]{.ar} s.o. about s.th.)".
-
-Here it is used in a sentence:
-
-[سَأَلَ زَيْدٌ زَيْنَبَ عَنْ حَادِثَةٍ.]{.ar}  
-[saEala zaydun zaynaba ean HAdivah.]{.trn}  
-"Zayd questioned Zaynab about an accident."
-
-In this sentence, [زَيْدٌ]{.ar} [zaydun]{.trn} "Zayd" is the doer. The corresponding doer verbal-noun that refers to him is [سَائِل]{.ar} [sAEil]{.trn} "a questioner~m.~".
-Next, [زَيْنَبَ]{.ar} [zaynaba]{.trn} "Zaynab" is the direct doee. The corresponding doee verbal-noun that refers to her is [مَسْؤُولَة]{.ar} [masEUlah]{.trn} "a questioned person~f.~".
-But how, now, do we refer to the indirect doee: [حَادِثَةٍ]{.ar} [Hadivatin]{.trn} "an accident"? The answer is that the doee verbal-noun referring to this indirect doee is [مَسْؤُول عَنْهَا]{.ar} [masEUl eanhA]{.trn} "a thing~f.~ questioned about".
-
-Let's analyze this term [مَسْؤُول عَنْهَا]{.ar} [masEUl eanhA]{.trn} "a thing questioned about" carefully. The first word is [مَسْؤُول]{.ar} [masEUl]{.trn} which shall always be singular masculine, regardless of the gender and number of the indirect doee. The second word is [عَنْهَا]{.ar} [eanhA]{.trn} "about it". Here [عَنْ]{.ar} [ean]{.trn} is the same preposition that has been used with the verb. And [هَا]{.ar} [hA]{.trn} is the pronoun that refers to the indirect doee [حَادِثَةٍ]{.ar} [Hadivatin]{.trn} "an accident". If the number or gender of the indirect doee were to change then this would be reflected in this pronoun. 
-
-So, for example, if we say,
-
-[نَظَرَ زَيْدٌ إِلَى ٱلرِّجَالِ.]{.ar}  
-[naPara zaydun Eila -rrijAli.]{.trn}  
-"Zayd looked at the men."
-
-then, the doee verbal-noun that refers to [ٱلرِّجَالِ]{.ar} [EarrijAli]{.trn} "the men" is [مَنْظُور إِلَيْهِمْ]{.ar} [manPUr Eilayhim]{.trn} "persons~m.~ looked at".
-
-If doee verbal-nouns of indirect doees are used in sentences then it is the first word (in this case [مَنْظُور]{.ar} [manPUrun]{.trn}) that changes for definiteness and state (but not for gender or number, as already discussed). Here are some examples:
-
-From the verb [لَعِبَ يَلْعَبُ لَعِبًا]{.ar} "to play ([هـ]{.ar} s.th.)":
-
-[هَـٰذِهِ ٱلْكُرىٰ هِيَ ٱلْمَلْعُوبُ بِهَا.]{.ar}  
-[hApi -lkurA hiya -lmaleUbu bihA.]{.trn}  
-"These balls are the ones played with."
-
-From the verb [أَمَرَ يَأْمُرُ أَمْرًا]{.ar}  "to order ([ه]{.ar} s.o. [ب]{.ar} to do s.th.)":
-
-[فَعَلَ ٱلْغُلَامُ ٱلْمأمُورَ بِهِنَّ.]{.ar}  
-[faeala -lgulAmu -lmaEmUra bihinna.]{.trn}  
-"The boy did the [things] ordered to do."
-
-(Remember that the feminine plural pronouns may be used to refer to plural non-intelligent beings, regardless of their grammatical gender, in order to indicate plurality.)
-
-Having said all this, in practice, you may find that indirect doees are sometimes treated as direct doees when forming their doee verbal-noun. This is especially common when forming plurals for terms that are very common. So instead of referring to "[things] ordered to do" in the above example as 
-[ٱَلْمأمُورَ بِهِنَّ]{.ar}
-[EalmaEmUra bihinna]{.trn}, you may find the word [ٱَلْمَأْمُورَاتِ]{.ar} [EalmaEmUrAti]{.trn} used instead.
-
-TODO: The doee verbal noun for indirect doees may have some ambiguity with the doee verbal for direct doees. [مسؤول عنه]{.ar} can also be "the person who is asked about it" where the pronoun has been substituted for a noun, for example [مسؤول عن الأمر]{.ar} . In this case it is the word [مسؤول]{.ar} which will be feminized and pluralized. [المسؤولون عنه]{.ar} "the persons asked about it."
-
-For that matter [ساءل عنه]{.ar} is also valid as "the questioner about it".
-<!--[سَأَلَ زَيْدٌ زَيْنَبَ عَنِ ٱلرِّجَالِ.]{.ar}  
-[saEala zaydun zaynaba eani -rrijAli.]{.trn}  
-"Zayd questioned Zaynab about the men."
-
-then, the doee verbal-noun that refers to [ٱلرِّجَالِ]{.ar} [EarrijAli]{.trn} "the men" is [مَسْؤُولٌ عَنْ
--->
-
-<!--[أَمْرٌ]{.ar} [Eamrun]{.trn} "a matter"? It is -->
-
-## Doer and doee verbal-nouns re-used as adjectival-nouns
-
-Doer and doee verbal-nouns are often re-used as adjectival-nouns with meanings that are directly formed from their doer and doee meaning respectively. Here are some examples:
-
-|Verb | Doer/doee verbal-noun | Adjectival-noun meaning|
-|:------|:-|:--|
-|[نَعُمَ يَنْعُمَ نُعُومَةً]{.ar} "to be soft" | [نَاعِم]{.ar} | "soft" |
-|[يَبِسَ يَيْبَسُ يُبُوسَةً]{.ar} "to be dried up" | [يَابِس]{.ar} | "dried up" |
-|[حَضَرَ يَحْضُرُ حُضُورًا]{.ar} "to be present" | [حَاضِر]{.ar} | "present (attending)" |
-|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} "to gather ([هـ]{.ar} s.th.)"| [جَامِع]{.ar}  | "comprehensive" |
-|[لَمَعَ يَلْمَعُ لَمْعًا وَلَمَعَانًا]{.ar} "to be shiny" | [لَامِع]{.ar} | "shiny" |
-|[فَتَحَ يَفْتَحُ فَتْحًا]{.ar} "to open ([هـ]{.ar} s.th.)" | [مَفْتُوح]{.ar} | "open" |
-|[شَهَرَ يَشْهَرُ شَهْرًا]{.ar} "to make famous ([ه، هـ]{.ar} s.o., s.th.)" | [مَشْهُور]{.ar} | "famous" |
-
-### Genderizability of doer and doee verbal-nouns when re-used as adjectival-nouns
-
-When a doer or doee verbal-noun is re-used as an adjectival-noun, then it generally retains its genderizability. For example,
-
-[بَابٌ مَفَتُوحٌ]{.ar}  
-[bAbun maftUHun]{.trn}  
-"an open door"
-
-and
-
-[نَافِذَةٌ مَفَتُوحَةٌ]{.ar}  
-[nAfipatun maftUHatun]{.trn}  
-"an open window"
-
-If, however, the adjectival-noun is only applicable to females, then, only a female adjectival-noun is formed but, peculiarly, without the feminine marker [ة]{.ar}. The most common example is from the verb:
-[حَمَلَ يَحْمِلٌ حَمْلًا]{.ar} "to carry ([هـ]{.ar} s.th.)". The doer verbal-noun is [حَامِل]{.ar} [HAmil]{.trn} "a carrier". The adjectival-noun formed from the doer verbal-noun is "pregnant", but because it is only applicable to females, it does not get the feminine marker [ة]{.ar}. For example,
-
-[ٱَلْمَرْأَةُ حَامِلٌ.]{.ar}  
-[EalmarEatu HAmil.]{.trn}  
-"The woman is pregnant."
-
-This does not affect the doer verbal-noun when it is not used with this adjectival-noun meaning. For example,
-
-[ٱَلْمَرْأَةُ حَامِلَةُ ٱلْمَاءِ.]{.ar}  
-[EalmarEatu HAmilatu -lmAE.]{.trn}  
-"The woman will carry the water."  
-or  
-"The woman is the water-carrier."
-
-### Corresponding with English adjectives
-
-Sometimes both the doer verbal-noun and the doee verbal-noun are used in Arabic with distinct meanings where we would use the same word in English. For example, the verb
-[عَقَلَ يَعْقِلُ عَقْلًا]{.ar} [eaqala yaeqilu eaqlan]{.trn} means "to make sense ([هـ]{.ar} of s.th.)".
-Its doer verbal-noun [عَاقِل]{.ar} [eAqil]{.trn} means "one who makes sense (of something)" and may be re-used as an adjectival noun meaning "sensible" when it refers to a person who makes sense of something. For example,
-
-[زَيْدٌ غُلَامٌ عَاقِلٌ.]{.ar}  
-[zaydun gulAmun eAqil.]{.trn}  
-"Zayd is a sensible boy."
-
-Its doee verbal-noun [مَعْقُول]{.ar} [maeqUl]{.trn} means "something which makes sense" and may be re-used as an adjectival noun meaning "sensible" when it refers to a something which makes sense. For example,
-
-[هَـٰذَا مَنْهَجٌ مَعْقُولٌ.]{.ar}  
-[hApA manhajun maeqUl.]{.trn}  
-"This is a sensible approach."
-
-## Doer and doee verbal-nouns re-used as common nouns
-
-The doer verbal-noun is often re-used as a common noun with a meaning that is either directly, or indirectly related to the meaning of the verb. For example, the doer verbal-noun of the verb [سَأَلَ يَسْأَلُ سُؤَالًا]{.ar} [saEala yasEalu suEAlan]{.trn} is [سَائِل]{.ar} "a questioner" with the sound plural [سَائِلُونَ]{.ar} [sAEilUna]{.trn} and the broken plurals [سُؤَّال]{.ar} [suEEAl]{.trn} and [سَأَلَة]{.ar} [saEalah]{.trn}.
-
-The word [سَائِل]{.ar} [sAEil]{.trn} "a questioner" is re-used with the meaning "a beggar". The association in meaning is that a beggar continually asks people for money. 
-
-The re-use of a doer verbal-noun or doee verbal-noun as a common noun does not prevent it from being used with its doer/doee or verbal meaning any more. 
-[سَائِل]{.ar} [sAEil]{.trn} may be used to mean both "a questioner" and "a beggar", and context will help us determine which of the meanings is intended.
-
-When a doer verbal-noun is re-used as a common noun then only the broken plural, if it exists, may be used. The sound plural is only permitted to be used if no broken plurals exist. Here are some more examples of doer verbal-nouns re-used as common nouns:
-<!--
-|Verb | Doer verbal-noun | Plural | Common noun meaning|
-|:------|:--|:--|:--|
-|[عَلِمَ يَعْلَمُ عِلْمًا]{.ar} [ealima yaelamu eilman]{.trn} "to know ([هـ]{.ar} s.th.)" | [عَالِمٌ]{.ar} [eAlimun]{.trn} | [عُلَمَاءُ]{.ar} [eAlimun]{.trn}| "a scholar"|
-|[لَعِبَ يَلْعَبُ لَعِبًا]{.ar} [laeiba yaleabu laeiban]{.trn} "to play ([هـ]{.ar} s.th.)" | [لَاعِبٌ]{.ar} [lAeibun]{.trn} | [لَاعِبُونَ]{.ar} [lAeibUna]{.trn} | "a player"|
-|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} [jamaea yajmaeu jamean]{.trn} "to gather ([هـ]{.ar} s.th.)"| [جَامِعَةٌ]{.ar} [jAmieatun]{.trn} | [جَامِعَاتٌ]{.ar} [jAmieAtun]{.trn} | "a university" |
-|[حَدَثَ يَحْدُثُ حُدُوثًا]{.ar} [Hadava yaHduvu HudUvan]{.trn} "to happen" | [حَادِثَةٌ]{.ar} [Hadivatun]{.trn} | [حَوَادِثُ]{.ar} [HawAdivu]{.trn} | "an accident" |
--->
-
-|Verb | Doer/doee verbal-noun | Plural | Common noun meaning|
-|:------|:-|:-|:--|
-|[عَلِمَ يَعْلَمُ عِلْمًا]{.ar} "to know ([هـ]{.ar} s.th.)" | [عَالِم]{.ar}  | ^2^[عُلَمَاء]{.ar} | "a scholar"|
-|[طَلَبَ يَطْلُبُ طَلَبًا]{.ar} "to seek ([هـ]{.ar} s.th.)" | [طَالِب]{.ar}  | [طُلَّاب، طَلَبَة]{.ar} | "a student"|
-|[لَعِبَ يَلْعَبُ لَعِبًا]{.ar} "to play ([هـ]{.ar} s.th.)" | [لَاعِب]{.ar}  | [لَاعِبُونَ]{.ar}  | "a player"|
-|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} "to gather ([هـ]{.ar} s.th.)"| [جَامِعَة]{.ar}  | [جَامِعَات]{.ar}  | "a university" |
-|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} "to gather ([هـ]{.ar} s.th.)"| [جَامِع]{.ar}  | ^2^[جَوَامِع]{.ar}  | "a mosque (in which the Friday prayers are performed)" |
-|[حَدَثَ يَحْدُثُ حُدُوثًا]{.ar} "to happen" | [حَادِثَةٌ]{.ar}  | ^2^[حَوَادِث]{.ar}  | "an accident" |
-|[شَرِبَ يَشْرَبُ شُرْبًا]{.ar} "to drink ([هـ]{.ar} s.th.)" | [شَارِب]{.ar}  | ^2^[شَوَارِب]{.ar}  | "a moustache" |
-|[سَحَلَ يَسْحَلُ سَحْلًا]{.ar} "to abrade ([هـ]{.ar} s.th.)" | [سَاحِلٌ]{.ar}  | ^2^[سَوَاحِل]{.ar}  | "a seashore" |
-|[ضَمِنَ يَضْمَنُ ضَمَانًا]{.ar} "to guarantee ([هـ]{.ar} s.th.)" | [مَضْمُوxk]{.ar} | ^2^[مَضَامِين]{.ar} | "a content (of a letter, etc.)"|
-|[دَخَلَ يَدْخُلُ دُخُولًا]{.ar} "to enter" | [دَاخِل]{.ar} | none | "inside" |
-|[خَرَجَ يَخْرُجُ خُرُوجًا]{.ar} "to exit" | [خَارِج]{.ar} | none | "outside" |
-
-The last two [دَاخِلٌ]{.ar} "inside" and  [خَارِجٌ]{.ar} "outside" are notable. Here, for example, is how they can be used:
-
-[غَسَلَ ٱلْكُوبَ مِنْ دَاخِلٍ.]{.ar}  
-[gasala -lkUba min dAxilin.]{.trn}  
-"He washed the tumbler from inside."
-
-### Genderizability of doer and doee verbal-nouns when re-used as common nouns
-
-When a doer or doee verbal-noun is re-used as a common noun, then it loses its genderizability. For example, if we wish to say "The building is a university." we will say:
-
-[ٱَلْبِنَاءُ جَامِعَةٌ.]{.ar}  
-[EalbinAEu jAmieah.]{.trn}  
-"The building is a university."
-
-We cannot masculinize [جَامِعَة]{.ar} [jAmieah]{.trn} "a university" to [جَامِع]{.ar} [jAmie]{.trn} in order to make it match the gender of [بِنَاء]{.ar} [binAE]{.trn} (masc.) "a building". Were we to do so, then 
-[جَامِع]{.ar} [jAmie]{.trn} would get interpreted with either:
-
-1. Its doer verbal-noun meaning "a gatherer":
-
-   "The building is a gatherer."
-
-   which doesn't make sense as a sentence.
-
-2. Or, with the common noun meaning of [جَامِع]{.ar} [jAmie]{.trn}, if one happens to exist. There is such a meaning in this case: "a mosque (in which the Friday prayers are performed)". So then we would get:
-
-   [ٱَلْبِنَاءُ جَامِعٌ.]{.ar}  
-   [EalbinAEu jAmieun.]{.trn}  
-   "The building is a mosque (in which the Friday prayers are performed)."
-
-3. Or, with the adjectival noun meaning of [جَامِع]{.ar} [jAmie]{.trn}, if one happens to exist. There is such a meaning in this case: "comprehensive". So then we would get:
-
-   [ٱَلْبِنَاءُ جَامِعٌ.]{.ar}  
-   [EalbinAEu jAmieun.]{.trn}  
-   "The building is comprehensive."
-
-None of these give the original meaning we intended: "The building is a university." So, in summary,
-once a doer or doee verbal-noun is re-used as a common noun, it loses its genderizability. 
-
-Having said this, when a doer verbal-noun is re-used as a common noun that applies to humans, both the masculine and feminine common-noun typically exist together. So for example,
-
-[عَالِم]{.ar} [eAlim]{.trn} is re-used as the common-noun for "a (male) scholar" with the plural ^2^[عُلَمَاء]{.ar} [eulamAE]{.trn}. 
-And  
-[عَالِمَة]{.ar} [eAlimah]{.trn} is re-used as the common-noun for "a (female) scholar" with the plural [عَالِمَات]{.ar} [eAlimAt]{.trn}.
-
-In such cases, i.e., when applicable to humans, the dictionary will generally only list, and supply the definition for the masculine common-noun. The reader is expected to know that its feminine exists and how to form it.
-
-There are exceptions, however. The verb [جَرَىٰ يَجْرِي جَرْيًا]{.ar} [jarA yajrI jaryan]{.trn} "to run" is formed from the root [جري]{.arroot}. This is a weak root because of the letter [ي]{.ar} in it, and we will study it in more detail later in chapter\ \@ref(roots-with-weak-final-letter). In any case, its feminine doer verbal-noun is [جَارِيَة]{.ar} [jAriyah]{.trn} and is re-used for the common noun meaning "a girl". The masculine doer verbal noun is not re-used as a common noun for the meaning "a boy".
-
-<!--Unless, the common-noun is biologically or professionally applied to one of the genders, in which case, only one may exist.-->
-
-
-<!--chapter:end:srcrmd/doer_verbal_noun.Rmd-->
-
 # a-state incomplete-action verbs
 
 ## Introduction
@@ -11329,6 +10839,502 @@ The lightened [لَـٰكِنْ]{.ar} has the same meaning as the heavy [لَـ�
 
 
 <!--chapter:end:srcrmd/inna_and_its_sisters.Rmd-->
+
+# The verbal-nouns of the doer and the doee
+
+FIXME: 
+
++ move to later chapter, after [استفهام]{.ar} because [شروط إعمال اسم الفاعل]{.ar} relies on it.
++ add [الصفة المشبهبة]{.ar} _verb-resembling descriptive noun_ and its [عمل]{.ar}
++ add difference in [إعمال اسم الفاعل]{.ar} when it has [ال]{.ar} and when without.
+
+## Introduction
+
+In the previous chapter we studied the verbal-noun of doing. In this chapter we shall study two more kinds of verbal-nouns. These are the doer verbal-noun and the doee-verbal noun. These, too, are nouns that can give the meaning of the verb they are derived from. In places, they may even replace the verb, thereby adding some nuances in meaning.
+
+The doer verbal-noun gives the meaning of the doer, that is the person doing the action of the verb. For example, for the verb [قَرَأَ يَقْرَأُ قِرَاءَةً]{.ar}  "to read", the doer verbal-noun is [قَارِئ]{.ar} [qAriE]{.trn} "a reader".
+
+## Pattern of the doer verbal-noun
+
+We saw in the previous chapter that the pattern for the doing verbal-noun for form\ 1 verbs was very variable. In contrast, the pattern for the doer verbal-noun for form\ 1 verbs is fixed. It is always on the pasttern [فَاعِل]{.ar} [fAeil]{.trn}. Also, the doer verbal-noun is modified for gender and number. Its forms its feminine by appending [ة]{.ar} thus: [فَاعِلَة]{.ar}. It takes sound plurals: the [-Un]{.trn} for the masculine, and the [-At]{.trn} plural for the feminine. In many case, it may also have broken plurals. Here is a table showing these modifications for the u-state. You should be able to extend them for the a-state and i-state.
+
+| Number | Masculine | Feminine |
+|:---|:---|:---|
+|singular|[فَاعِلٌ]{.ar} [fAeilun]{.trn}|[فَاعِلَةٌ]{.ar} [fAeilatun]{.trn}|
+|dual|[فَاعِلَانِ]{.ar} [fAeilAni]{.trn}|[فَاعِلَتَانِ]{.ar} [fAeilatAni]{.trn}|
+|plural|[فَاعِلُونَ]{.ar} [fAeilUna]{.trn}|[فَاعِلَاتٌ]{.ar} [fAeilAtun]{.trn}|
+
+## The doer verbal-noun as a noun
+
+Like the doing verbal-noun, the doer verbal noun occupies a place that is between a noun and a verb. The basic, most essential, meaning of the doer verbal noun is that of a noun which denotes the doer of the verb.
+
+So, for example, consider the verb [سَأَلَ يَسْأَلُ سُؤَالًا]{.ar}  "to question". Its doer verbal-noun is [سَائِل]{.ar}. Since it refers to the doer of this verb, we can translate it as "a questioner~m.~".
+
+By itself, the word [سَائِل]{.ar}  "a questioner" just denotes a noun. It does not indicate when the doer does the action of the verb: has the questioner already asked the question, is he asking it at present, or will he ask it in the future? So, for example, we can say:
+
+[سَيَقْدَمُ سَائِلٌ وَسَيَسْأَلُ سُؤَالًا.]{.ar}  
+[sayaqdamu sAEilun wasayaqdamu suEAlan.]{.trn}  
+"A questioner~m.~ will arrive and he will ask a question."
+
+In the above sentence, the doer verbal-noun is being described as performing the action of the verb in the future.
+
+Here is another example:
+
+[سَأَلَتِ ٱلْفَقِيهَ سَائِلَةٌ عَنْ أَمْرٍ.]{.ar}  
+[saEalati -lfaqIha sAEilatun ean Eamrin.]{.trn}  
+"A questioner~f.~ asked the jurist about a matter."
+
+In the above sentence, the doer verbal-noun is being described as having performed the action of the verb in the past.
+
+Doer verbal-nouns of form\ 1 verbs, when used with this nounal meaning, often have broken plurals, in addition to their sound plurals. Generally, either could be used in most cases, but the usage of the broken plurals is preferred.
+
+For example, consider the verb [قَتَلَ يَقْتُلُ قَتْلًا]{.ar}  "to kill ([ه]{.ar} s.o.)". Its doer verbal-noun is [قَاتِل]{.ar} "a killer~m.~". Its sound plural is [قَاتِلُونَ]{.ar} [qAtilUna]{.trn} and its broken plurals are [قُتَّال]{.ar} [quttAl]{.trn} and [قَتَلَة]{.ar} [qatalah]{.trn}. Any of these could be used but the broken plural is often preferred.
+
+[هَرَبَ قَتَلَةُ ٱلرَّجُلِ إِلَىٰ مَخْبَئِهِمْ.]{.ar}  
+[haraba qatalatu -rrajuli EilA maxbaEihim.]{.trn}  
+"The killers of the man fled to their hideout."
+
+## The doer verbal-noun as a verb
+
+We have learned that the essential meaning of the doer verbal-noun is the doer of the action of the verb from which it is derived. In addition to this essential meaning, the doer verbal-noun can also be used in place of the verb from which it is derived. This is only done when the verb to be replaced is the incomplete-action verb. The doer verbal-noun does not replace the completed-action verb. We will now explain this usage.
+
+### Usage of the doer verbal-noun as a present tense verb
+
+Consider the following sentence:
+
+[يَذْهَبُ زَيْدٌ إِلَى ٱلْمَدْرَسَةِ.]{.ar}  
+[yaphabu zaydun Eila -lmadrasati.]{.trn}  
+"Zayd goes to school."
+
+The above sentence does not explicitly specify whether Zayd is actually going to school at present, or that he goes to school habitually and not necessarily right now.
+
+If we wish to indicate that Zayd is actually going to school at present we can replace the incomplete-action verb with the indefinite doer verbal-noun. So we get:
+
+[زَيْدٌ ذَاهِبٌ إِلَى ٱلْمَدْرَسَةِ.]{.ar}  
+[yaphabu zaydun Eila -lmadrasati.]{.trn}  
+"Zayd is going to school."
+
+Note that the same preposition [إِلَىٰ]{.ar} [EilA]{.trn} "to" is used with the doer verbal-noun as is used with the verb.
+Also note that this is now a subject-information sentence instead of a verbal sentence. [زَيْدٌ]{.ar} [zaydun]{.trn} "Zayd" is the subject, and [ذَاهِبٌ]{.ar} [pAhibun]{.trn} is part of the information.
+
+This usage of the doer verbal-noun to indicate that the action of the verb is ocurring at present is mostly done for what we call _verbs of posture_ and _verbs of motion_.
+
+Verbs of posture denote a static position or activity of the doer's body and include verbs like sitting, standing, lying down, sleeping, etc.
+
+Verbs of motion denote a moving action of the doer's body and include verbs like
+going, coming, running, etc.
+
+So, if, for example, we say,
+
+[زَيْنَبُ جَالِسَةٌ عَلَى هَـٰذَا ٱلْكُرْسِيِّ.]{.ar}  
+[zaynabu jAlisatun eala hApa -lkursiyyi.]{.trn}  
+"Zaynab is sitting on this chair."
+
+this indicates that Zaynab is sitting on this chair at present. And if we say,
+
+[تَجْلِسُ زَيْنَبُ عَلَى هَـٰذَا ٱلْكُرْسِيِّ.]{.ar}  
+[tajlisu zaynabu eala hApa -lkursiyyi.]{.trn}  
+"Zaynab sits on this chair."
+
+this indicates that Zaynab usually sits on this chair.
+
+If this usage of the doer verbal-noun to indicate a present action is mostly only for verbs of posture and motion, how then do we indicate this distinction for other verbs? We have answered this in section [TODO: add section to incomplete-action verb] where we said that in order to give the meaning that the action of the verb is happening right now, a verbal sentence can be converted to a subject-information sentence. 
+
+### Usage of the doer verbal-noun as a future tense verb {#doer-verbal-noun-for-intended-future-action}
+
+The doer verbal-noun may be used in place of the verb it is derived from to indicate an intent on the part of the doer, or to indicate that the action will occur in the future.
+
+This usage of the doer verbal-noun is not just for verbs of posture and motion like the present tense usage. Rather, it is for all verbs in general.
+
+And since intention is something that is mostly expressed by the speaker for himself, rather than for someone else, we will often find this usage with the subject [أَنَا]{.ar} [Eana]{.trn} "I".
+
+#### With an indirect doee
+
+Here is an example of the usage of the doer verbal-noun as a future tense verb with an indirect doee:
+
+<!--
+[فَرَغْتُ مِنْ عَمَلِي فَأَنا ذَاهِبٌ  إِلَى ٱلْبَيْتِ.]{.ar}  
+[faragtu min eamalI faEana pAhibun Eila -lbayti.]{.trn}  
+"I have got done with my work so I'm going home."
+
+The context would tell us whether the person is talking about his intention to go home in the immediate future, or whether he has already started and is going home at present.
+-->
+
+[أَنَا ذَاهِبٌ إِلَىٰ بَيْتِ صَدِيقِي فِي ٱلصَّبَاحِ.]{.ar}  
+[Eana pAhibun EilA bayti SadIqI fi -SSabAHi.]{.trn}  
+"I'm going to go to my friend's house in the morning."
+
+In the above sentence it is possible for the phrase 
+[فِي ٱلصَّبَاحِ]{.ar}
+[fi -SSabAHi]{.trn}
+"in the morning"
+to be ommitted for the same meaning. In that case, surrounding context could tell us that the person is intending to go in the future, and is not actually in the process of going there at present.
+
+Here is another example (by a female speaker):
+
+[عِنْدِي كُرَةٌ فِي ٱلْبَيْتِ فَأَنَا رَاجِعَةٌ إِلَى ٱلْبَيْتِ وَلَاعِبَةٌ بِهَا.]{.ar}  
+[eindI kuratun fi -lbayti faEana rAjieatun Eila -lbayti walAeibatun bihA.]{.trn}  
+"I have a ball at home, so I'm going to go home and play with it."
+
+#### Difference with the particles [سَـ]{.ar} [sa-]{.trn} and [سَوْفَ]{.ar} [sawfa]{.trn}
+
+We have already learned a method to express a future action using the particles [سَـ]{.ar} [sa-]{.trn} and [سَوْفَ]{.ar} [sawfa]{.trn} with the incomplete-action verb. So we could also have said:
+
+[سَأَذْهَبُ إِلَىٰ بَيْتِ صَدِيقِي.]{.ar}  
+[saEaphabu EilA bayti SadIqI.]{.trn}  
+"I will to go to my friend's house."
+
+The difference between using the particles [سَـ]{.ar} [sa-]{.trn} and [سَوْفَ]{.ar} [sawfa]{.trn} and using the doer verbal-noun is that using the doer verbal-noun signifies more emphasis, or, as a possible consequence of the emphasis, that the action is more imminent. That is:
+
+[أَنَا ذَاهِبٌ ...]{.ar}  
+[Eana pAhibun ...]{.trn}  
+"I will [definitely] go ..."  
+or  
+"I'm going to go ..."
+
+[سَأَذْهَبُ ...]{.ar}  
+[saEaphabu ...]{.trn}  
+"[Soon] I will go ..."
+
+#### With a direct doee
+
+If a verb takes a direct doee, and we wish to use the direct doee with the verb's doer verbal-noun when the doer verbal-noun is acting as a verb, then we may deal with it in one of three ways:
+
+1. The direct doee in a-state following the doer verbal-noun
+
+   The most basic method of dealing with a direct doee of a doer verbal noun is by placing it in the a-state right after the doer verbal-noun. Here is an example,
+   
+   [قَدْ دَخَلَ ٱلْمَدِينَةَ رَجُلٌ شَرِيرٌ. هُوَ **قَاتِلٌ سُكَّانَهَا**.]{.ar}  
+   [qad daxala -lmadInata rajulun carIrun. hua qAtilun sukkAnahA.]{.trn}  
+   "An evil man has entered the city. He is going to kill its residents."
+   
+   <!-- Wright says: When the اسم الفاعل is indefinite then مفعول به منصوب is only allowed under certain scenarios: The اسم الفاعل is a خبر or other attribute, or a negative sentence, or a question. (vol. ii, § 30, p. 65). This seems similar to prohibition of indef subjects so I don't think it is necessary to add that detail here. It seems like doer verbal-noun will naturally be a predicate.-->
+
+2. The direct doee in i-state annexed to the doer verbal-noun
+
+   The combination of the doer verbal-noun and following direct doee in the a-state is often replaced with an annexation of the doer verbal-noun to the i-state direct doee. So, for example, instead of the above example, we can say:
+   
+   [قَدْ دَخَلَ ٱلْمَدِينَةَ رَجُلٌ شَرِيرٌ. هُوَ **قَاتِلُ سُكَّانِهَا**.]{.ar}  
+   [qad daxala -lmadInata rajulun carIrun. hua qAtilu sukkAnihA.]{.trn}  
+   "An evil man has entered the city. He is going to kill its residents."
+
+   Note that [قَاتِلُ سُكَّانِهَا]{.ar} [qAtilu sukkAnihA.]{.trn} can also support the non-verbal meaning of the doer verbal-noun: "killer of its residents", i.e., he has already killed its residents in the past. So, when an annexation is used with a doer verbal-noun, we will often need surrounding context to tell us whether the verbal (incomplete-action) meaning is intended, or the noun  meaning.
+
+   This usage of annexing the doer verbal-noun to the i-state direct doee instead of employing the more basic usage of the doer verbal-noun and a following a-state direct doee is optional, but fairly common. In fact, when the doer-verbal noun ends with an [n]{.trn}-mark, and the direct doee begins with [ٱَلْ]{.ar} [Eal]{.trn} "the", then the annexation usage becomes predominant over the basic a-state usage. So we will be more likely to see:
+
+   [أَنَا فَاعِلُهُ.]{.ar}  
+   [Eana fAeiluhu.]{.trn}  
+
+   instead of:
+
+   [أَنَا فَاعِلٌ إِيَّاهُ.]{.ar}  
+   [Eana fAeilun EiyyAhu.]{.trn}  
+
+   for the meaning: "I will do it." Note again, that the latter sentence could also support the nounal meaning of the doer-verbal noun: "I am its doer.", i.e., "the one who did it."
+
+   Similarly, it will be more common to find:
+
+   [هُوَ قَاتِلُ ٱلنَّاسِ.]{.ar}  
+   [huwa qAtilu -nnAsi.]{.trn}  
+
+   instead of:
+
+   [هُوَ قَاتِلٌ ٱلنَّاسَ.]{.ar}  
+   [huwa qAtiluni -nnAsa.]{.trn}  
+
+   for the meaning: "He is going to kill the people." Note, once again, that the former sentence also supports the meaning: "He is the people's killer.", i.e., "the one who killed them", and that context would be needed to tell us which of the two meanings is intended.
+
+   The annexation of a doer verbal-noun to its direct doee in the i-state is not the kind of "proper" annexation that we have learned so far. In fact, it is called an _improper annexation_ and we shall study it in more detail in chapter [TODO], if [#allAh]{.trn2} wills.
+
+3. Quite similar to what we learned in section\ \@ref(the-direct-doee-in-i-state-preceded-by-the-preposition-%D9%84-li) for doing verbal-nouns, the direct doee can follow the doer verbal-noun in the i-state preceded by the preposition [لِ]{.ar} [li]{.trn}.
+
+   <!--Quran:  إنل له لحافظون -->
+   This is often optional, as an alternative to the above two methods. For example,
+   
+   [هُوَ قَاتِلٌ لَهُمْ.]{.ar}  
+   [huwa qAtilun lahum.]{.trn}  
+   "He will kill them."
+   
+   Using [لِ]{.ar} [li]{.trn} in this manner is also a technique to move the direct doee before the doer verbal-noun for effect, if desired. For example,
+   
+   [هُوَ لَهُمْ قَاتِلٌ.]{.ar}  
+   [huwa lahum qAtilun.]{.trn}  
+   "He will kill them."
+
+### The definite doer verbal-noun as a verb
+
+<!-- from Quran:  الكاظمين الغيظ ، المؤتون الزكاة , many be improper annexxation too -->
+So far we have seen only an indefinite doer verbal-noun being used with the meaning of an incomplete-action verb. However, the definite doer verbal-noun, too, can give this meaning. The meaning is often in the present tense. Here are some examples:
+
+With an indirect doee:
+
+[قَدِمَ زَيْدٌ ٱلذَّاهِبُ إِلَى ٱلْجَامِعَةِ.]{.ar}  
+[qadima zayduni -ppAhibu Eila -ljAmieati.]{.trn}  
+"Zayd, the one who goes to the university, has arrived."
+
+With a direct doee in the a-state:
+
+[هَرَبْتُ مِنَ ٱلْأَسَدِ ٱلْآكِلُ ٱلْإِنْسَانَ.]{.ar}  
+[harabtu mina -lEasadi -lEAkilu -lEinsAna.]{.trn}  
+"I fled from the lion, the one that eats man."
+
+With a direct doee in the i-state preceded by the preposition [لِ]{.ar} [li]{.trn}:
+<!--[قَدْ سَفِهَ ٱلْفَاسِقُ ٱلشَّارِبُ لِلْخَمْرِ.]{.ar}  
+[qad safiha -lfAsiqu -ccAribu lilxamri.]{.trn}  
+"The evil-doer, the one who drinks wine, has become foolish."-->
+
+[سَيَنْجَحُ ٱلطَّالِبُ ٱلتَّارِكُ لِلَّهْوِ.]{.ar}  
+[sayanjaHu -TTAlibu -ttAriku lillahwi.]{.trn}  
+"The student, the one who leaves idle amusement, will succeed."
+
+### Plurals of the doer verbal-noun when used as a verb
+
+We mentioned in section\ \@ref(the-doer-verbal-noun-as-a-noun) that doer-verbal nouns when used with their nounal meaning often have broken plurals along with their sound plural.
+We gave the example of the doer verbal-noun
+[قَاتِل]{.ar} [qAtil]{.trn} "a killer~m.~" with the sound plural is [قَاتِلُونَ]{.ar} [qAtilUna]{.trn} and the broken plurals [قُتَّال]{.ar} [quttAl]{.trn} and [قَتَلَة]{.ar} [qatalah]{.trn}.
+
+When the doer verbal-noun is used as a verb, only the sound plural is permitted to be used, and the broken plurals, if any are not used. So we can only say:
+
+[هُمْ قَاتِلُونَ ٱلنَّاسَ.]{.ar}  
+[hum qAtilUna -nnAsa.]{.trn}  
+and  
+[هُمْ قَاتِلُو ٱلنَّاسِ.]{.ar}  
+[hum qAtilu -nnAsi.]{.trn}  
+for  
+"They will kill the people."  
+not, for example  
+$\times$\ [هُمْ قُتَّالٌ ٱلنَّاسَ.]{.ar}  
+
+(In the second sentence, the [ن]{.ar} of [قَاتِلُونَ]{.ar} is ommitted because it is an annexe noun).
+
+## The doee verbal-noun
+
+The doee verbal-noun for form\ 1 verbs is on the pattern [مَفْعُول]{.ar} [mafeUl]{.trn}. It carries the meaning of the person or thing to whom the action of the verb has been done. For example, the doee verbal-noun for the verb
+[قَتَلَ يَقْتُلُ قَتْلًا]{.ar}  "to kill ([ه]{.ar} s.o.)"
+is [مَقْتُول]{.ar} [maqtUl]{.trn} and means "a killed person".
+
+### The plural of the doee verbal noun
+
+The doee verbal-noun almost always takes the sound plurals [-Un]{.trn} for masculine intelligent beings, and [-At]{.trn} otherwise. Therefore the plural of the doee verbal-noun 
+[مَقْتُول]{.ar} [maqtUl]{.trn} "a killed person~m.~" is [مَقْتُولُونَ]{.ar} [maqtUlUna]{.trn} "killed persons~m.~".
+and the plural of the doee verbal-noun 
+[مَقْتُولَة]{.ar} [maqtUlah]{.trn} "a killed person~f.~" is [مَقْتُولَات]{.ar} [maqtUlAt]{.trn} "killed persons~f.~".
+
+There are a only a few doee verbal-nouns that, as an exception, have broken plurals. The broken plural for these exceptions is than always on the pattern ^2^[مَفَاعِيل]{.ar} [mafAeIl]{.trn}^2^. For example, the doee verbal-noun for the verb
+[لَعَنَ يَلْعَنُ لَعْنًا]{.ar}  "to curse ([ه]{.ar} s.o.)" is [مَلْعُون]{.ar} [maleUn]{.trn} "accursed" and its plural is ^2^[مَلَاعِين]{.ar} [malAeIn]{.trn}^2^.
+
+### Usage of the doee verbal-noun
+
+Much of what has been said regarding the doer verbal-noun applies to the doee verbal-noun as well: The doee verbal-noun may be used with a verbal meaning for the incomplete-action verb only. So if we say:
+
+[هُوَ مَقْتُولٌ.]{.ar}  
+[huwa maqtUl]{.trn}
+
+with a verbal meaning, then it means "He will be killed." And if we say it using its nounal meaning, then it means "He is the person killed."
+
+Unlike the doer verbal-noun which can take doees, since the doee verbal-noun is itself the doee, there is no question of it taking other doees. So this does simplify matters.
+
+### The doee verbal-nouns of indirect doee verbs
+
+Consider the verb
+[سَأَلَ يَسْأَلُ سُؤَالًا]{.ar}  "to question ([ه عن]{.ar} s.o. about s.th.)".
+
+Here it is used in a sentence:
+
+[سَأَلَ زَيْدٌ زَيْنَبَ عَنْ حَادِثَةٍ.]{.ar}  
+[saEala zaydun zaynaba ean HAdivah.]{.trn}  
+"Zayd questioned Zaynab about an accident."
+
+In this sentence, [زَيْدٌ]{.ar} [zaydun]{.trn} "Zayd" is the doer. The corresponding doer verbal-noun that refers to him is [سَائِل]{.ar} [sAEil]{.trn} "a questioner~m.~".
+Next, [زَيْنَبَ]{.ar} [zaynaba]{.trn} "Zaynab" is the direct doee. The corresponding doee verbal-noun that refers to her is [مَسْؤُولَة]{.ar} [masEUlah]{.trn} "a questioned person~f.~".
+But how, now, do we refer to the indirect doee: [حَادِثَةٍ]{.ar} [Hadivatin]{.trn} "an accident"? The answer is that the doee verbal-noun referring to this indirect doee is [مَسْؤُول عَنْهَا]{.ar} [masEUl eanhA]{.trn} "a thing~f.~ questioned about".
+
+Let's analyze this term [مَسْؤُول عَنْهَا]{.ar} [masEUl eanhA]{.trn} "a thing questioned about" carefully. The first word is [مَسْؤُول]{.ar} [masEUl]{.trn} which shall always be singular masculine, regardless of the gender and number of the indirect doee. The second word is [عَنْهَا]{.ar} [eanhA]{.trn} "about it". Here [عَنْ]{.ar} [ean]{.trn} is the same preposition that has been used with the verb. And [هَا]{.ar} [hA]{.trn} is the pronoun that refers to the indirect doee [حَادِثَةٍ]{.ar} [Hadivatin]{.trn} "an accident". If the number or gender of the indirect doee were to change then this would be reflected in this pronoun. 
+
+So, for example, if we say,
+
+[نَظَرَ زَيْدٌ إِلَى ٱلرِّجَالِ.]{.ar}  
+[naPara zaydun Eila -rrijAli.]{.trn}  
+"Zayd looked at the men."
+
+then, the doee verbal-noun that refers to [ٱلرِّجَالِ]{.ar} [EarrijAli]{.trn} "the men" is [مَنْظُور إِلَيْهِمْ]{.ar} [manPUr Eilayhim]{.trn} "persons~m.~ looked at".
+
+If doee verbal-nouns of indirect doees are used in sentences then it is the first word (in this case [مَنْظُور]{.ar} [manPUrun]{.trn}) that changes for definiteness and state (but not for gender or number, as already discussed). Here are some examples:
+
+From the verb [لَعِبَ يَلْعَبُ لَعِبًا]{.ar} "to play ([هـ]{.ar} s.th.)":
+
+[هَـٰذِهِ ٱلْكُرىٰ هِيَ ٱلْمَلْعُوبُ بِهَا.]{.ar}  
+[hApi -lkurA hiya -lmaleUbu bihA.]{.trn}  
+"These balls are the ones played with."
+
+From the verb [أَمَرَ يَأْمُرُ أَمْرًا]{.ar}  "to order ([ه]{.ar} s.o. [ب]{.ar} to do s.th.)":
+
+[فَعَلَ ٱلْغُلَامُ ٱلْمأمُورَ بِهِنَّ.]{.ar}  
+[faeala -lgulAmu -lmaEmUra bihinna.]{.trn}  
+"The boy did the [things] ordered to do."
+
+(Remember that the feminine plural pronouns may be used to refer to plural non-intelligent beings, regardless of their grammatical gender, in order to indicate plurality.)
+
+Having said all this, in practice, you may find that indirect doees are sometimes treated as direct doees when forming their doee verbal-noun. This is especially common when forming plurals for terms that are very common. So instead of referring to "[things] ordered to do" in the above example as 
+[ٱَلْمأمُورَ بِهِنَّ]{.ar}
+[EalmaEmUra bihinna]{.trn}, you may find the word [ٱَلْمَأْمُورَاتِ]{.ar} [EalmaEmUrAti]{.trn} used instead.
+
+TODO: The doee verbal noun for indirect doees may have some ambiguity with the doee verbal for direct doees. [مسؤول عنه]{.ar} can also be "the person who is asked about it" where the pronoun has been substituted for a noun, for example [مسؤول عن الأمر]{.ar} . In this case it is the word [مسؤول]{.ar} which will be feminized and pluralized. [المسؤولون عنه]{.ar} "the persons asked about it."
+
+For that matter [ساءل عنه]{.ar} is also valid as "the questioner about it".
+<!--[سَأَلَ زَيْدٌ زَيْنَبَ عَنِ ٱلرِّجَالِ.]{.ar}  
+[saEala zaydun zaynaba eani -rrijAli.]{.trn}  
+"Zayd questioned Zaynab about the men."
+
+then, the doee verbal-noun that refers to [ٱلرِّجَالِ]{.ar} [EarrijAli]{.trn} "the men" is [مَسْؤُولٌ عَنْ
+-->
+
+<!--[أَمْرٌ]{.ar} [Eamrun]{.trn} "a matter"? It is -->
+
+## Doer and doee verbal-nouns re-used as adjectival-nouns
+
+Doer and doee verbal-nouns are often re-used as adjectival-nouns with meanings that are directly formed from their doer and doee meaning respectively. Here are some examples:
+
+|Verb | Doer/doee verbal-noun | Adjectival-noun meaning|
+|:------|:-|:--|
+|[نَعُمَ يَنْعُمَ نُعُومَةً]{.ar} "to be soft" | [نَاعِم]{.ar} | "soft" |
+|[يَبِسَ يَيْبَسُ يُبُوسَةً]{.ar} "to be dried up" | [يَابِس]{.ar} | "dried up" |
+|[حَضَرَ يَحْضُرُ حُضُورًا]{.ar} "to be present" | [حَاضِر]{.ar} | "present (attending)" |
+|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} "to gather ([هـ]{.ar} s.th.)"| [جَامِع]{.ar}  | "comprehensive" |
+|[لَمَعَ يَلْمَعُ لَمْعًا وَلَمَعَانًا]{.ar} "to be shiny" | [لَامِع]{.ar} | "shiny" |
+|[فَتَحَ يَفْتَحُ فَتْحًا]{.ar} "to open ([هـ]{.ar} s.th.)" | [مَفْتُوح]{.ar} | "open" |
+|[شَهَرَ يَشْهَرُ شَهْرًا]{.ar} "to make famous ([ه، هـ]{.ar} s.o., s.th.)" | [مَشْهُور]{.ar} | "famous" |
+
+### Genderizability of doer and doee verbal-nouns when re-used as adjectival-nouns
+
+When a doer or doee verbal-noun is re-used as an adjectival-noun, then it generally retains its genderizability. For example,
+
+[بَابٌ مَفَتُوحٌ]{.ar}  
+[bAbun maftUHun]{.trn}  
+"an open door"
+
+and
+
+[نَافِذَةٌ مَفَتُوحَةٌ]{.ar}  
+[nAfipatun maftUHatun]{.trn}  
+"an open window"
+
+If, however, the adjectival-noun is only applicable to females, then, only a female adjectival-noun is formed but, peculiarly, without the feminine marker [ة]{.ar}. The most common example is from the verb:
+[حَمَلَ يَحْمِلٌ حَمْلًا]{.ar} "to carry ([هـ]{.ar} s.th.)". The doer verbal-noun is [حَامِل]{.ar} [HAmil]{.trn} "a carrier". The adjectival-noun formed from the doer verbal-noun is "pregnant", but because it is only applicable to females, it does not get the feminine marker [ة]{.ar}. For example,
+
+[ٱَلْمَرْأَةُ حَامِلٌ.]{.ar}  
+[EalmarEatu HAmil.]{.trn}  
+"The woman is pregnant."
+
+This does not affect the doer verbal-noun when it is not used with this adjectival-noun meaning. For example,
+
+[ٱَلْمَرْأَةُ حَامِلَةُ ٱلْمَاءِ.]{.ar}  
+[EalmarEatu HAmilatu -lmAE.]{.trn}  
+"The woman will carry the water."  
+or  
+"The woman is the water-carrier."
+
+### Corresponding with English adjectives
+
+Sometimes both the doer verbal-noun and the doee verbal-noun are used in Arabic with distinct meanings where we would use the same word in English. For example, the verb
+[عَقَلَ يَعْقِلُ عَقْلًا]{.ar} [eaqala yaeqilu eaqlan]{.trn} means "to make sense ([هـ]{.ar} of s.th.)".
+Its doer verbal-noun [عَاقِل]{.ar} [eAqil]{.trn} means "one who makes sense (of something)" and may be re-used as an adjectival noun meaning "sensible" when it refers to a person who makes sense of something. For example,
+
+[زَيْدٌ غُلَامٌ عَاقِلٌ.]{.ar}  
+[zaydun gulAmun eAqil.]{.trn}  
+"Zayd is a sensible boy."
+
+Its doee verbal-noun [مَعْقُول]{.ar} [maeqUl]{.trn} means "something which makes sense" and may be re-used as an adjectival noun meaning "sensible" when it refers to a something which makes sense. For example,
+
+[هَـٰذَا مَنْهَجٌ مَعْقُولٌ.]{.ar}  
+[hApA manhajun maeqUl.]{.trn}  
+"This is a sensible approach."
+
+## Doer and doee verbal-nouns re-used as common nouns
+
+The doer verbal-noun is often re-used as a common noun with a meaning that is either directly, or indirectly related to the meaning of the verb. For example, the doer verbal-noun of the verb [سَأَلَ يَسْأَلُ سُؤَالًا]{.ar} [saEala yasEalu suEAlan]{.trn} is [سَائِل]{.ar} "a questioner" with the sound plural [سَائِلُونَ]{.ar} [sAEilUna]{.trn} and the broken plurals [سُؤَّال]{.ar} [suEEAl]{.trn} and [سَأَلَة]{.ar} [saEalah]{.trn}.
+
+The word [سَائِل]{.ar} [sAEil]{.trn} "a questioner" is re-used with the meaning "a beggar". The association in meaning is that a beggar continually asks people for money. 
+
+The re-use of a doer verbal-noun or doee verbal-noun as a common noun does not prevent it from being used with its doer/doee or verbal meaning any more. 
+[سَائِل]{.ar} [sAEil]{.trn} may be used to mean both "a questioner" and "a beggar", and context will help us determine which of the meanings is intended.
+
+When a doer verbal-noun is re-used as a common noun then only the broken plural, if it exists, may be used. The sound plural is only permitted to be used if no broken plurals exist. Here are some more examples of doer verbal-nouns re-used as common nouns:
+<!--
+|Verb | Doer verbal-noun | Plural | Common noun meaning|
+|:------|:--|:--|:--|
+|[عَلِمَ يَعْلَمُ عِلْمًا]{.ar} [ealima yaelamu eilman]{.trn} "to know ([هـ]{.ar} s.th.)" | [عَالِمٌ]{.ar} [eAlimun]{.trn} | [عُلَمَاءُ]{.ar} [eAlimun]{.trn}| "a scholar"|
+|[لَعِبَ يَلْعَبُ لَعِبًا]{.ar} [laeiba yaleabu laeiban]{.trn} "to play ([هـ]{.ar} s.th.)" | [لَاعِبٌ]{.ar} [lAeibun]{.trn} | [لَاعِبُونَ]{.ar} [lAeibUna]{.trn} | "a player"|
+|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} [jamaea yajmaeu jamean]{.trn} "to gather ([هـ]{.ar} s.th.)"| [جَامِعَةٌ]{.ar} [jAmieatun]{.trn} | [جَامِعَاتٌ]{.ar} [jAmieAtun]{.trn} | "a university" |
+|[حَدَثَ يَحْدُثُ حُدُوثًا]{.ar} [Hadava yaHduvu HudUvan]{.trn} "to happen" | [حَادِثَةٌ]{.ar} [Hadivatun]{.trn} | [حَوَادِثُ]{.ar} [HawAdivu]{.trn} | "an accident" |
+-->
+
+|Verb | Doer/doee verbal-noun | Plural | Common noun meaning|
+|:------|:-|:-|:--|
+|[عَلِمَ يَعْلَمُ عِلْمًا]{.ar} "to know ([هـ]{.ar} s.th.)" | [عَالِم]{.ar}  | ^2^[عُلَمَاء]{.ar} | "a scholar"|
+|[طَلَبَ يَطْلُبُ طَلَبًا]{.ar} "to seek ([هـ]{.ar} s.th.)" | [طَالِب]{.ar}  | [طُلَّاب، طَلَبَة]{.ar} | "a student"|
+|[لَعِبَ يَلْعَبُ لَعِبًا]{.ar} "to play ([هـ]{.ar} s.th.)" | [لَاعِب]{.ar}  | [لَاعِبُونَ]{.ar}  | "a player"|
+|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} "to gather ([هـ]{.ar} s.th.)"| [جَامِعَة]{.ar}  | [جَامِعَات]{.ar}  | "a university" |
+|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} "to gather ([هـ]{.ar} s.th.)"| [جَامِع]{.ar}  | ^2^[جَوَامِع]{.ar}  | "a mosque (in which the Friday prayers are performed)" |
+|[حَدَثَ يَحْدُثُ حُدُوثًا]{.ar} "to happen" | [حَادِثَةٌ]{.ar}  | ^2^[حَوَادِث]{.ar}  | "an accident" |
+|[شَرِبَ يَشْرَبُ شُرْبًا]{.ar} "to drink ([هـ]{.ar} s.th.)" | [شَارِب]{.ar}  | ^2^[شَوَارِب]{.ar}  | "a moustache" |
+|[سَحَلَ يَسْحَلُ سَحْلًا]{.ar} "to abrade ([هـ]{.ar} s.th.)" | [سَاحِلٌ]{.ar}  | ^2^[سَوَاحِل]{.ar}  | "a seashore" |
+|[ضَمِنَ يَضْمَنُ ضَمَانًا]{.ar} "to guarantee ([هـ]{.ar} s.th.)" | [مَضْمُوxk]{.ar} | ^2^[مَضَامِين]{.ar} | "a content (of a letter, etc.)"|
+|[دَخَلَ يَدْخُلُ دُخُولًا]{.ar} "to enter" | [دَاخِل]{.ar} | none | "inside" |
+|[خَرَجَ يَخْرُجُ خُرُوجًا]{.ar} "to exit" | [خَارِج]{.ar} | none | "outside" |
+
+The last two [دَاخِلٌ]{.ar} "inside" and  [خَارِجٌ]{.ar} "outside" are notable. Here, for example, is how they can be used:
+
+[غَسَلَ ٱلْكُوبَ مِنْ دَاخِلٍ.]{.ar}  
+[gasala -lkUba min dAxilin.]{.trn}  
+"He washed the tumbler from inside."
+
+### Genderizability of doer and doee verbal-nouns when re-used as common nouns
+
+When a doer or doee verbal-noun is re-used as a common noun, then it loses its genderizability. For example, if we wish to say "The building is a university." we will say:
+
+[ٱَلْبِنَاءُ جَامِعَةٌ.]{.ar}  
+[EalbinAEu jAmieah.]{.trn}  
+"The building is a university."
+
+We cannot masculinize [جَامِعَة]{.ar} [jAmieah]{.trn} "a university" to [جَامِع]{.ar} [jAmie]{.trn} in order to make it match the gender of [بِنَاء]{.ar} [binAE]{.trn} (masc.) "a building". Were we to do so, then 
+[جَامِع]{.ar} [jAmie]{.trn} would get interpreted with either:
+
+1. Its doer verbal-noun meaning "a gatherer":
+
+   "The building is a gatherer."
+
+   which doesn't make sense as a sentence.
+
+2. Or, with the common noun meaning of [جَامِع]{.ar} [jAmie]{.trn}, if one happens to exist. There is such a meaning in this case: "a mosque (in which the Friday prayers are performed)". So then we would get:
+
+   [ٱَلْبِنَاءُ جَامِعٌ.]{.ar}  
+   [EalbinAEu jAmieun.]{.trn}  
+   "The building is a mosque (in which the Friday prayers are performed)."
+
+3. Or, with the adjectival noun meaning of [جَامِع]{.ar} [jAmie]{.trn}, if one happens to exist. There is such a meaning in this case: "comprehensive". So then we would get:
+
+   [ٱَلْبِنَاءُ جَامِعٌ.]{.ar}  
+   [EalbinAEu jAmieun.]{.trn}  
+   "The building is comprehensive."
+
+None of these give the original meaning we intended: "The building is a university." So, in summary,
+once a doer or doee verbal-noun is re-used as a common noun, it loses its genderizability. 
+
+Having said this, when a doer verbal-noun is re-used as a common noun that applies to humans, both the masculine and feminine common-noun typically exist together. So for example,
+
+[عَالِم]{.ar} [eAlim]{.trn} is re-used as the common-noun for "a (male) scholar" with the plural ^2^[عُلَمَاء]{.ar} [eulamAE]{.trn}. 
+And  
+[عَالِمَة]{.ar} [eAlimah]{.trn} is re-used as the common-noun for "a (female) scholar" with the plural [عَالِمَات]{.ar} [eAlimAt]{.trn}.
+
+In such cases, i.e., when applicable to humans, the dictionary will generally only list, and supply the definition for the masculine common-noun. The reader is expected to know that its feminine exists and how to form it.
+
+There are exceptions, however. The verb [جَرَىٰ يَجْرِي جَرْيًا]{.ar} [jarA yajrI jaryan]{.trn} "to run" is formed from the root [جري]{.arroot}. This is a weak root because of the letter [ي]{.ar} in it, and we will study it in more detail later in chapter\ \@ref(roots-with-weak-final-letter). In any case, its feminine doer verbal-noun is [جَارِيَة]{.ar} [jAriyah]{.trn} and is re-used for the common noun meaning "a girl". The masculine doer verbal noun is not re-used as a common noun for the meaning "a boy".
+
+<!--Unless, the common-noun is biologically or professionally applied to one of the genders, in which case, only one may exist.-->
+
+
+<!--chapter:end:srcrmd/doer_verbal_noun.Rmd-->
 
 # Nouns of superiority
 
