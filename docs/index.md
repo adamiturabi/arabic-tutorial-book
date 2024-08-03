@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-767-g4101c75"
+date: "v0.1.0-770-gac2212e"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -10100,10 +10100,15 @@ Other verbs, which can take a direct doee, may be used without one, and again wi
 [كَتَبَ ٱلْكَاتِبُ بِٱلْقَلَمِ.]{.ar}  
 "The scribe wrote with the pen."
 
-When such sentences are converted to the unknown-doer verb construction then the prepositional phrase may be taken as the deputy doer. However, the preposition causes the noun following it to remain in the i-state, and the singular masculine doer pronoun is used for the unknown-doer verb. For example:
+When such sentences are converted to the unknown-doer verb construction then the prepositional phrase may be taken as the deputy doer. 
+However, the preposition causes the noun following it to remain in the i-state. So the deputy doer is not indicated by an apparent [u]{.trn}-mark (or by the other indicators of the u-state).
+The verb then appears to be in the singular masculine, with its deputy doer following it.
+For example:
 
-[جُلِسَ عَلَى ٱلْأَرْضِ.]{.ar}  
-"The ground was sat upon."
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-31-1.pdf)<!-- -->
+
+<!--[جُلِسَ عَلَى ٱلْأَرْضِ.]{.ar}  
+"The ground was sat upon." -->
 
 [كُتِبَ بِٱلْقَلَمِ.]{.ar}  
 "The pen was written with."
@@ -10113,7 +10118,7 @@ When such sentences are converted to the unknown-doer verb construction then the
 Other verbs don't take a direct doee but may be used with an adverb of time or place in the a-state. (We will study adverbs of time and place in chapter\ \@ref(adverbs-of-time-and-place).)
 Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-31-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.pdf)<!-- -->
 
 <!--[سَهَرَتِ ٱلْأُمُّ ٱللَّيلَةَ.]{.ar}  
 "The mother stayed up the (whole) night."-->
@@ -10214,9 +10219,77 @@ Similarly, the [0]{.txt}-state verb is used in the following cases:
   [لِتُنْصَرُوا!]{.ar}  
   "Let you~3m~ be aided!"
 
-## The verbal noun of the doee
-
 ## Usage of the unknown-doer verb
+
+There are cases where it is permissible to 
+use of the unknown-doer verb construction,
+and cases where it is _not_ permissible to 
+use of the unknown-doer verb construction. We will explain them below:
+
+### Permissible use of the unknown-doer verb
+
+There can be a number of reasons why a speaker is forced to, or chooses to, use the unknown-doer verb construction. Among these reasons are:
+
+a. When the doer is actually unknown to the speaker. This is the classic use-case, as indicated by the name _unknown-doer verb_. (But, as we shall see below, it is not the only use case.) So, if we say:
+
+   [كُسِرَتِ ٱلزُّجَاجَةُ.]{.ar}  
+   "The glass was broken."
+
+   then, it may be that we don't know who broke the glass, and that is why we are expressing it in the unknown-doer verb construction.
+
+b. When the doer is known to the speaker, but he does not wish to make him known to others. So the same sentence above [كُسِرَتِ ٱلزُّجَاجَةُ.]{.ar} could be used when the speaker knows that it was actually [زَيْد]{.ar} "Zayd", for example, who broke the glass, but the speaker does not wish that others find out that it was Zayd. This itself could be for any reason, for example: the speaker fears Zayd, for fears for Zayd, etc.
+
+c. When the speaker wishes to draw attention to the act itself rather than the doer of the act. So we might say:
+   
+   [مُنِعْنَا ٱلدُّخُولَ.]{.ar}  
+   "We have been prevented from entering."
+
+   when we wish to focus on the act of our having been prevented, rather than who prevented us.
+
+d. For stylistic reasons, when it is obvious and known who the doer is. For example:
+
+   [خُلِقَ ٱلْإِنْسَانُ مِنْ ْعَجَلٍ]{.ar}  
+   "Man was created of haste [i.e., impatience]." ([#qurEAn]{.trn2} 21:37. Trans. Saheeh International)
+
+   In the above [EAyah]{.trn2} it is known and obvious that [#allAh]{.trn2} created man.
+
+e. In order to glorify the doer. So we might the unknown-doer verb construction to say:
+
+   [خُلِقَ ٱلْخِنْزِيرُ.]{.ar}  
+   "The pig was created."
+
+   This could be to distance [#allAh]{.trn2} from being mentioned next to the name of a particularly dirty animal.
+
+f. When the doer is not mentioned due to contempt for him. For example:
+
+   [قُتِلَ أَمِيرُ ٱلْمُؤْمِنِينَ عُمَرُ.]{.ar}  
+   "The Commander of the believers, [#eumar]{.trn2}, was killed."
+
+   In this sentence we chose not to name the killer due to contempt for him.
+
+These reasons are not mutually exclusive, and sometimes the unknown-doer verb construction is used for a combination of them.
+
+### Impermissible use of the unknown-doer verb
+
+The unknown-doer verb may not be used when the doer is mentioned with the verb. This is different from English which can use the word "by" to indicate the doer in a passive voice construction, as in: "The book was written by Zayd.". Such a sentence, in Arabic can only be expressed with the known-doer verb construction:
+
+[كَتَبَ زَيْدٌ ٱلْكِتَابَ.]{.ar}  
+[kataba zayduni -lkitAb.]{.trn}  
+"Zayd wrote the book."
+
+It may seem like this rule is broken in sentences like:
+
+[قُتِلَ بِٱلسَّيْفِ.]{.ar}  
+[qutila bi-ssayf.]{.trn}  
+"He was killed by the sword."
+
+But such is not the case. The known-doer verb constuction would be something like:
+
+[قَتَلَهُ فُلَانٌ بِٱلسَّيْفِ.]{.ar}  
+[qatalahu fulAnun bi-ssayf.]{.trn}  
+"So-and-so killed him with the sword."
+
+As you can see, [فُلَان]{.ar} "so-and-so" is actually the doer, and [ٱلسَّيْف]{.ar} "the sword" is merely a prepositional phrase indicating the instrument used in the act.
 
 
 <!--chapter:end:srcrmd/passive_voice.Rmd-->
@@ -10227,7 +10300,7 @@ Similarly, the [0]{.txt}-state verb is used in the following cases:
 
 In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-33-1.pdf)<!-- -->
 
 "This man is a teacher."
 
@@ -10421,7 +10494,7 @@ to complete the sentence. We will see examples of this below.
 
 ### The [أَنَّ]{.ar} clause in place of the direct doee
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-33-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.pdf)<!-- -->
 
 "I know that Zayd is truthful."
 
@@ -10439,7 +10512,7 @@ clauses can be placed where one would expect other noun positions, such as: a su
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-35-1.pdf)<!-- -->
 
 "That you are sick has reached me." ("It has reached me that you are sick.")
 
@@ -10447,7 +10520,7 @@ Example:
 
 Example (with information before subject in sentence word order):
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-35-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-36-1.pdf)<!-- -->
 
 "From his characteristeics is that he is noble."
 
@@ -10455,7 +10528,7 @@ Example (with information before subject in sentence word order):
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-36-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-37-1.pdf)<!-- -->
 
 "The truth is that he went."
 
@@ -10465,13 +10538,13 @@ As you know, [كَانَ]{.ar}'s doer is also its subject, and its doee is also 
 The [أَنَّ]{.ar} clause can occur in either the subject or the information of [كَنَ]{.ar}. 
 For example, the [أَنَّ]{.ar} clause as the information:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-37-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-38-1.pdf)<!-- -->
 
 "The matter was that he didn't do his obligation."
 
 Now, the [أَنَّ]{.ar} clause as the subject:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-38-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-39-1.pdf)<!-- -->
 
 "That he didn't do his obligation was the matter."
 
@@ -10481,13 +10554,13 @@ Note that in the latter case, the information precedes the subject.
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state base noun in an annexation. Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-39-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-40-1.pdf)<!-- -->
 
 "The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous."
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly following a preposition. Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-40-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-41-1.pdf)<!-- -->
 
 "I wondered at that Zayd is asleep."
 
@@ -10569,7 +10642,7 @@ TODO
 
 There is a sub-type of subject-information sentence called a topic-comment sentence. Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-41-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-42-1.pdf)<!-- -->
 
 "The tree: its branches are long."
 
@@ -10620,7 +10693,7 @@ the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
 
 There is a special pronoun, called the _pronoun of the fact_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-42-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-43-1.pdf)<!-- -->
 
 "The fact is: the cold is intense."
 
@@ -10845,8 +10918,14 @@ The lightened [لَـٰكِنْ]{.ar} has the same meaning as the heavy [لَـ�
 FIXME: 
 
 + move to later chapter, after [استفهام]{.ar} because [شروط إعمال اسم الفاعل]{.ar} relies on it.
-+ add [الصفة المشبهبة]{.ar} _verb-resembling descriptive noun_ and its [عمل]{.ar}
++ add [الصفة المشبهبة]{.ar} _verb-like descriptive noun_ and its [عمل]{.ar}
 + add difference in [إعمال اسم الفاعل]{.ar} when it has [ال]{.ar} and when without.
++ add [اسم المفعول]{.ar} acting as verb with [نائب الفاعل]{.ar}
+
+See 
++ Wright vol. ii. p. 65+, and p. 195.
++ [النحو الوافي]{.ar} vol 3, p. 246+
++ Howell vol. 4, p 1606+
 
 ## Introduction
 
