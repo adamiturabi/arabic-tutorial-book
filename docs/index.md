@@ -2,18 +2,18 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-758-g85fa770"
+date: "v0.1.0-765-g10e32f4"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
 #- paper=a5paper               # a5: 148.5 by 210mm
 #- paperwidth=170mm
 #- paperheight=244mm
-- paperwidth=156mm
-- paperheight=234mm
-#- paperwidth=6in
-#- paperheight=9in
-- bindingoffset=16mm
+#- paperwidth=156mm
+#- paperheight=234mm
+- paperwidth=6in
+- paperheight=9in
+#- bindingoffset=6mm
 - textwidth=114.8mm           # = (170 - 6)*0.7
 - textheight=170.8mm          # = 244 * 0.7
 - twoside
@@ -10445,13 +10445,279 @@ Examples of usage:
 
 <!--chapter:end:srcrmd/imperfect_verb_juss.Rmd-->
 
+# The unknown-doer verb
+
+## Introduction
+
+Consider the sentence:
+
+[شَرِبَ زَيْدٌ ٱلْمَاءَ.]{.ar}  
+[sariba zayduni -lmAE.]{.trn}  
+"Zayd drank the water."
+
+In this sentence, [زَيْدٌ]{.ar} "Zayd" is the doer of the verb [شَرِبَ]{.ar} "drank". 
+This construction of the verb, which we have been using so far, is called the _known-doer verb_ construction,
+because the doer of the verb, in this case "Zayd" is known.
+Now consider the following sentence:
+
+[شُرِبَ ٱلْمَاءُ.]{.ar}  
+[curiba -lmAE.]{.trn}  
+"The water was drunk."
+
+In this sentence, the doer of the verb, i.e. the person who is doing the action of the verb "to drink", is not mentioned. 
+From the sentence itself it is unknown who the doer is. 
+This construction of the verb is called the _unknown-doer verb_ construction.
+
+## Forming the unknown-doer verb
+
+So far we have been studing form\ 1 verbs, which use only the three root letters.
+As we know, the vowel on the middle root letter is variable for known-doer verbs, for example:
+
++ [شَرِبَ يَشْرَبُ]{.ar} "to drink".
++ [فَتَحَ يَفْتَحُ]{.ar} "to open"
++ [كَبُرَ يَكْبُرُ]{.ar} "to become big"
++ etc.
+
+The pattern of unknown-doer verb for form 1 verbs is always:
+
+[فُعِلَ يُفْعَلُ]{.ar}  
+[fueila yufealu]{.trn}
+
+This is regardless of the vowel on the middle root letter in the known-doer verb.
+If there is more than one verb from the same root, with different middle root letter vowels for the known-doer verb, then they will share the same unknown-doer verb. For example, the known-doer verbs: [حَسَبَ يَحْسُبُ]{.ar} "to reckon" and [حَسِبَ يَحْسِبُ]{.ar} "to deem" share the same unknown-doer verb: [حُسِبَ يُحْسَبُ]{.ar}.
+
+The same doer pronouns are used for the unknown-doer verb as for the known-doer verb.
+And the incomplete-action unknown-doer verb has the same three states as the incomplete-action known-doer verb.
+For example:
+
++ [فُعِلُوا]{.ar} [fueilU]{.trn} "they~3m~" (completed-action)
++ [تُفْعَلَانِ]{.ar} [tufealAni]{.trn} "you~2~" or "they~2f~" (u-state incomplete-action)
++ [أُفْعَلَ]{.ar} [Eufeala]{.trn} "I" (a-state incomplete-action)
++ etc.
+
+The complete table showing the doer pronouns is given in appendix\ \@ref(verb-tables).
+
+## The deputy doer
+
+Consider again this sentence with an unknown-doer verb construction:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-30-1.pdf)<!-- -->
+
+<!--
+[شُرِبَ ٱلْمَاءُ.]{.ar}  
+[curiba -lmAE.]{.trn}  
+"The water was drunk."
+-->
+
+Note that the noun [ٱَلْمَاءُ]{.ar} [EalmAEu]{.trn} "the water" is in the u-state. This is because, in the absence of the doer, the direct-doee of the known-doer verb ([ٱَلْمَاءَ]{.ar}) is deputized to take doer's place in the u-state. It is then known as the _deputy doer_.
+
+The doer pronouns for the unknown-doer verb shall therefore match the gender and number of the deputy doer. Here are some examples:
+
+[شُكِرَتِ ٱلأُمَّهَاتُ وَمُدِحْنَ.]{.ar}  
+[cukirati -lEummahAtu wamudiHn.]{.trn}  
+"The mothers were thanked and praised."
+
+[أَنْتُمَا تُغْبَنَانِ وَتُخْدَعَانِ.]{.ar}  
+[EantumA tugbanAni watuxdaeAn.]{.trn}  
+"You~2~ are being cheated and deceived."
+
+[مَا قُطِعَتِ ٱلشَّجَرَةُ.]{.ar}  
+[mA quTieati -ccajarah.]{.trn}  
+"The tree was not cut."
+
+### The deputy doer for multiple direct doees
+
+Some verbs, in the known-doer construction, take multiple doees. These verbs can be classified into two classes:
+<!--Wright vol. ii., p. 47D, sect. 24-->
+
+a. Verbs that cause the first direct doee to be affected by, or asked for, the second direct doee. Examples:
+<!--[وَعَدَ ٱللَّـٰهُ ٱلْمُؤْمِنِينَ ٱلْجَنَّةَ.]{.ar}  -->
+
+   [مَلَأَ ٱلْغُلَامُ ٱلدَّلْوَ مَاءً.]{.ar}  
+   "The boy filled the bucket (with) water."
+   
+   [مَنَعَ ٱلْمَرَضُ ٱلرَّجُلَ ٱلْعَمَلَ.]{.ar}  
+   "Sickness prevented the man (from) work."
+   
+   [سَأَلَ ٱلْفَقِيرُ ٱلْغَنِيَّ دِرْهَمًا.]{.ar}  
+   "The poor [man] asked the rich [man] (for) a dirham."
+
+b. Verbs that siginify an action of the heart or of intention, like thinking, deeming, making, etc. Examples:
+  
+   [حَسِبْتُ زَيْدًا صَدِيقًا.]{.ar}  
+   "I deemed Zayd [to be] a friend"
+   
+   [وَجَدَتِ ٱلطَّالِبَةُ ٱلْأُسْتَاذَةَ حَلِيمَةً.]{.ar}  
+   "The student~f~ found the professor~f~ [to be] forbearing."
+   
+   [جَعَلَ ٱللَّـٰهُ ٱلْمَاءَ بَرَكَةً.]{.ar}  
+   "[#allAh]{.trn2} has made the water a blessing."
+
+When such verbs are converted to the unknown-doer verb construction, then one, and only one, direct doee shall be chosen to be the deputy doer. It is generally preferred to make the first direct doee the deputy-doer, and leave the second direct doee, as is, in the a-state.
+Here are the same sentences in the unknown-doer construction:
+
+[مُلِئَتِ ٱلدَّلْوُ مَاءً.]{.ar} ([دَلْو]{.ar} "bucket" is feminine.)  
+"The bucket was filled (with) water."
+
+[مُنِعَ ٱلرَّجُلُ ٱلْعَمَلَ.]{.ar}  
+"The man was prevented (from) work."
+
+[سُئِلَ ٱلْغَنِيُّ دِرْهَمًا.]{.ar}  
+"The rich [man] was asked for a dirham."
+
+[حُسِبَ زَيْدٌ صَدِيقًا.]{.ar}  
+"Zayd was deemed [to be] a friend"
+
+[وُجِدَتِ ٱلْأُسْتَاذَةُ حَلِيمَةً.]{.ar}  
+"The professor~f~ was found [to be] forbearing."
+
+[جُعِلَ ٱلْمَاءُ بَرَكَةً.]{.ar}  
+"Water has been made a blessing."
+
+## Impersonal use
+
+When verbs are used without a direct doee, then their unknown-doer construction gives in an impersonal meaning. There are a few such usages that we will explain in the following subsections.
+
+### With prepositional phrases
+
+Some verbs take no direct doees, but are used with prepositional phrases. For example,
+
+[جَلَسَ ٱلنَّاسُ عَلَى ٱلْأَرْضِ.]{.ar}  
+"The people sat upon the ground."
+
+Other verbs, which can take a direct doee, may be used without one, and again with a prepositional phrase instead. For example:
+
+[كَتَبَ ٱلْكَاتِبُ بِٱلْقَلَمِ.]{.ar}  
+"The scribe wrote with the pen."
+
+When such sentences are converted to the unknown-doer verb construction then the prepositional phrase may be taken as the deputy doer. However, the preposition causes the noun following it to remain in the i-state, and the singular masculine doer pronoun is used for the unknown-doer verb. For example:
+
+[جُلِسَ عَلَى ٱلْأَرْضِ.]{.ar}  
+"The ground was sat upon."
+
+[كُتِبَ بِٱلْقَلَمِ.]{.ar}  
+"The pen was written with."
+
+### With adverbs of time or place
+
+Other verbs don't take a direct doee but may be used with an adverb of time or place in the a-state. (We will study adverbs of time and place in chapter\ \@ref(adverbs-of-time-and-place).)
+Here is an example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-31-1.pdf)<!-- -->
+
+<!--[سَهَرَتِ ٱلْأُمُّ ٱللَّيلَةَ.]{.ar}  
+"The mother stayed up the (whole) night."-->
+When this sentence is converted to an unknown-doer construction then the adverb of time or place can be taken as the deputy doer in the u-state:
+
+[سُهِرَتْ لَيلَةُ ٱلْقَدْرِ.]{.ar}  
+"The Night of Power was stayed up [in]."
+
+Note the u-state of [لَيْلَةُ]{.ar} [laylatu]{.trn} as the deputy doer.
+
+### With the verbal noun of doing
+
+The verbal noun of doing, because it is the action being done may be considered a kind of direct doee. For example:
+
+[فَهِمَ ٱلشَّيْخُ فَهْمًا عَمِيقًا.]{.ar}  
+"The old man understood, a deep understanding."
+
+We will study the use of the verbal noun of doing as a doee in chapter\ \@ref(absolute-doee).
+
+When such sentences are converted to the unknown-doer verb construction, then the verbal noun of doing may be taken as the deputy doer in the u-state.
+
+[فُهِمَ فَهْمٌ عَمِيقٌ.]{.ar}  
+"A deep understanding was understood."
+
+### Requirement of specialization
+
+When a prepositional phrase, or an adverb of time or place, or a verbal noun of doing is to be used as a deputy doer in an unknown-doer verb construction, then it is required that they be specialized in meaning, and not used in a general sense. So for example, if we have the sentence:
+
+[سَهَرَتِ ٱلْأُمُّ لَيلَةً.]{.ar}  
+"The mother stayed up a night."
+
+then because of the non-specialized meaning of [لَيْلَةً]{.ar}, such a sentence is typically not suitable for being converted to a unknown-doer verb construction.
+
+### Choosing the deputy doer
+
+If a sentence is to be converted to an unknown-doer verb construction and it has more than one of the following:
+
++ a direct doee
++ a specialized prepositional phrase
++ a specialized adverb of time or place
++ a specialized verbal noun of doing
+
+Then only one shall be chosen as the deputy doer. If a direct doee exists, then it is typically chosen. If a direct doee does not exist, then the one desired to be emphasized may be chosen as the deputy doer. For example:
+
+[سُهِرَ فِي ٱلْمَسْجِدِ لَيلَةَ ٱلْقَدْرِ.]{.ar}  
+"The mosque was stayed up in [on] the Night of Power."
+
+In the above sentence the prepositional phrase [فِي ٱلْمَسْجِدِ]{.ar} was chosen as the deputy doer, and the adverb of time [لَيْلَةَ]{.ar} remains, as is, in the a-state.
+
+## States of the incomplete-action unknown-doer verb
+
+The 
+incomplete-action verb unknown-doer verb
+has three states, just like the
+incomplete-action verb known-doer verb:
+The u-state, the a-state, and the [0]{.txt}-state.
+The three states are used in the same circumstances, and with the same rules that we have already learned.
+
+So the u-state verb is used for making plain statements:
+
+[تُذْكَرُ قِصَّةُ ٱلْمَلِكِ فِي كُتُبِ ٱلتَّأْرِيخِ.]{.ar}  
+"The story of the king is mentioned in the books of history."
+
+[لَا تُرْفَعُ ٱلْأَصْوَاتُ فِي ٱلْمَكْتَبَةِ.]{.ar}  
+"Voices are not raised in the library."
+
+The a-state verb is used for expressing wish or purpose:
+
+[يَأْمُلُ ٱلْمُسْلِمُونَ أَنْ يُغْفَرُ لَهُمْ.]{.ar}  
+"The Muslims hope that they be forgiven."  
+(Note that [يُغْفَرَ]{.ar} has a singular masculine deputy doer because there is no direct doee.)
+
+[لَنْ تُسْمَعَا.]{.ar}  
+"You~2~ shall not be heard."
+
+[دُفِعَ ٱلْبَابُ حَتَّىٰ يُفْتَحَ.]{.ar}  
+"The door was pushed for the result that it open."
+
+Similarly, the [0]{.txt}-state verb is used in the following cases:
+
++ With [لَمْ]{.ar} "was not":
+  
+  [لَمْ يُؤْذَنْ لِي أَنْ أَدْخُلَ.]{.ar}  
+  "It was not permitted for me that I enter."
+
++ With [لَمَّا]{.ar} "not yet"
+
+  [لَمَّا يُكْتَبْ كِتَابٌ فِي هَـٰذَا ٱلْمَوْضُوعِ.]{.ar}  
+  "A book has not yet been written in this subject."
+
++ With [لِ]{.ar} for indirect commands:
+
+  [لِيُسْمَعْ صَوْتُهُ!]{.ar}  
+  "Let his voice be heard!"
+
+  There is no verb of command for unknown-doer verbs. So while indirect commands are typically not used for the addressee participant for known-doer verbs (see section\ \@ref(indirect-commands)), they are the only way to issue commands for the addressee participant in the unknown-doer verb construction:
+
+  [لِتُنْصَرُوا!]{.ar}  
+  "Let you~3m~ be aided!"
+
+## The verbal noun of the doee
+
+## Usage of the unknown-doer verb
+
+
+<!--chapter:end:srcrmd/passive_voice.Rmd-->
+
 # [إِنَّ]{.ar} and its sisters
 
 ## Introduction
 
 In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-30-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.pdf)<!-- -->
 
 "This man is a teacher."
 
@@ -10645,7 +10911,7 @@ to complete the sentence. We will see examples of this below.
 
 ### The [أَنَّ]{.ar} clause in place of the direct doee
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-31-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-33-1.pdf)<!-- -->
 
 "I know that Zayd is truthful."
 
@@ -10663,7 +10929,7 @@ clauses can be placed where one would expect other noun positions, such as: a su
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.pdf)<!-- -->
 
 "That you are sick has reached me." ("It has reached me that you are sick.")
 
@@ -10671,7 +10937,7 @@ Example:
 
 Example (with information before subject in sentence word order):
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-33-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-35-1.pdf)<!-- -->
 
 "From his characteristeics is that he is noble."
 
@@ -10679,7 +10945,7 @@ Example (with information before subject in sentence word order):
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-36-1.pdf)<!-- -->
 
 "The truth is that he went."
 
@@ -10689,13 +10955,13 @@ As you know, [كَانَ]{.ar}'s doer is also its subject, and its doee is also 
 The [أَنَّ]{.ar} clause can occur in either the subject or the information of [كَنَ]{.ar}. 
 For example, the [أَنَّ]{.ar} clause as the information:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-35-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-37-1.pdf)<!-- -->
 
 "The matter was that he didn't do his obligation."
 
 Now, the [أَنَّ]{.ar} clause as the subject:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-36-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-38-1.pdf)<!-- -->
 
 "That he didn't do his obligation was the matter."
 
@@ -10705,13 +10971,13 @@ Note that in the latter case, the information precedes the subject.
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state base noun in an annexation. Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-37-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-39-1.pdf)<!-- -->
 
 "The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous."
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly following a preposition. Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-38-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-40-1.pdf)<!-- -->
 
 "I wondered at that Zayd is asleep."
 
@@ -10793,7 +11059,7 @@ TODO
 
 There is a sub-type of subject-information sentence called a topic-comment sentence. Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-39-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-41-1.pdf)<!-- -->
 
 "The tree: its branches are long."
 
@@ -10844,7 +11110,7 @@ the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
 
 There is a special pronoun, called the _pronoun of the fact_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-40-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-42-1.pdf)<!-- -->
 
 "The fact is: the cold is intense."
 
