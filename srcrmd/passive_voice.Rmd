@@ -1,0 +1,91 @@
+# The unknown-doer verb
+
+## Introduction
+
+Consider the sentence:
+
+[شَرِبَ زَيْدٌ ٱلْمَاءَ.]{.ar}  
+[sariba zayduni -lmAE.]{.trn}  
+"Zayd drank the water."
+
+In this sentence, [زَيْدٌ]{.ar} "Zayd" is the doer of the verb [شَرِبَ]{.ar} "drank". 
+This construction of the verb, which we have been using so far, is called the _known-doer verb_ construction,
+because the doer of the verb, in this case "Zayd" is known.
+Now consider the following sentence:
+
+[شُرِبَ ٱلْمَاءُ.]{.ar}  
+[curiba -lmAE.]{.trn}  
+"The water was drunk."
+
+In this sentence, the doer of the verb, i.e. the person who is doing the action of the verb "to drink", is not mentioned. 
+From the sentence itself it is unknown who the doer is. 
+This construction of the verb is called the _unknown-doer verb_ construction.
+
+## Forming the unknown-doer verb
+
+So far we have been studing form\ 1 verbs, which use only the three root letters.
+As we know, the vowel on the middle root letter is variable for known-doer verbs, for example:
+
++ [شَرِبَ يَشْرَبُ]{.ar} "to drink".
++ [فَتَحَ يَفْتَحُ]{.ar} "to open"
++ [كَبُرَ يَكْبُرُ]{.ar} "to become big"
++ etc.
+
+The pattern of unknown-doer verb for form 1 verbs is always:
+
+[فُعِلَ يُفْعَلُ]{.ar}  
+[fueila yufealu]{.trn}
+
+This is regardless of the vowel on the middle root letter in the known-doer verb.
+The same doer pronouns are used for the unknown-doer verb as for the known-doer verb.
+And the incomplete-action unknown-doer verb has the same three states as the incomplete-action known-doer verb.
+For example:
+
++ [فُعِلُوا]{.ar} [fueilU]{.trn} "they~3m~" (completed-action)
++ [تُفْعَلَانِ]{.ar} [tufealAni]{.trn} "you~2~" or "they~2f~" (u-state incomplete-action)
++ [أُفْعَلَ]{.ar} [Eufeala]{.trn} "I" (a-state incomplete-action)
++ etc.
+
+The complete table showing the doer pronouns is given in appendix\ \@ref(verb-tables).
+
+## The deputy doer
+
+Consider again this sentence with an unknown-doer verb construction:
+
+```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{ٱلْمَاءُ} \txarb{شُرِبَ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below] {\scriptsize deputy doer};
+
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The water was drunk.''};
+
+\end{tikzpicture}
+```
+
+<!--
+[شُرِبَ ٱلْمَاءُ.]{.ar}  
+[curiba -lmAE.]{.trn}  
+"The water was drunk."
+-->
+
+Note that the noun [ٱَلْمَاءُ]{.ar} [EalmAEu]{.trn} "the water" is in the u-state. This is because, in the absence of the doer, the direct-doee of the known-doer verb ([ٱَلْمَاءَ]{.ar}) is deputized to take doer's place in the u-state. It is then known as the _deputy doer_.
+
+The doer pronouns for the unknown-doer verb shall therefore match the gender and number of the deputy doer. Here are some examples:
+
+[شُكِرَتِ ٱلأُمَّهَاتُ وَمُدِحْنَ.]{.ar}  
+[cukirati -lEummahAtu wamudiHn.]{.trn}  
+"The mothers were thanked and praised."
+
+[أَنْتُمَا تُغْبَنَانِ وَتُخْدَعَانِ.]{.ar}  
+[EantumA tugbanAni watuxdaeAn.]{.trn}  
+"You~2~ are being cheated and deceived."
