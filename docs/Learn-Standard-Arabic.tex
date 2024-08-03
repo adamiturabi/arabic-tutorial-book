@@ -41,7 +41,7 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\usepackage[paperwidth=156mm,paperheight=234mm,bindingoffset=16mm,textwidth=114.8mm,textheight=170.8mm,twoside]{geometry}
+\usepackage[paperwidth=6in,paperheight=9in,textwidth=114.8mm,textheight=170.8mm,twoside]{geometry}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -265,7 +265,7 @@
 \makeatother
 \subtitle{A self-instruction textbook with grammar, vocabulary, and exercises}
 \author{Author Names}
-\date{v0.1.0-758-g85fa770}
+\date{v0.1.0-765-g10e32f4}
 
 \begin{document}
 \maketitle
@@ -11967,13 +11967,294 @@ Otherwise, the irregular verb of command
 
 Examples of usage:
 
-\chapter{\texorpdfstring{\foreignlanguage{arabic}{إِنَّ} and its sisters}{إِنَّ and its sisters}}\label{ux625ux646-and-its-sisters}
+\chapter{The unknown-doer verb}\label{the-unknown-doer-verb}
 
 \section{Introduction}\label{introduction-20}
 
-In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
+Consider the sentence:
+
+\foreignlanguage{arabic}{شَرِبَ زَيْدٌ ٱلْمَاءَ.}\\
+\emph{sariba zayduni -lmāʾ.}\\
+\enquote{Zayd drank the water.}
+
+In this sentence, \foreignlanguage{arabic}{زَيْدٌ} \enquote{Zayd} is the doer of the verb \foreignlanguage{arabic}{شَرِبَ} \enquote{drank}.
+This construction of the verb, which we have been using so far, is called the \emph{known-doer verb} construction,
+because the doer of the verb, in this case \enquote{Zayd} is known.
+Now consider the following sentence:
+
+\foreignlanguage{arabic}{شُرِبَ ٱلْمَاءُ.}\\
+\emph{s͡huriba -lmāʾ.}\\
+\enquote{The water was drunk.}
+
+In this sentence, the doer of the verb, i.e.~the person who is doing the action of the verb \enquote{to drink}, is not mentioned.
+From the sentence itself it is unknown who the doer is.
+This construction of the verb is called the \emph{unknown-doer verb} construction.
+
+\section{Forming the unknown-doer verb}\label{forming-the-unknown-doer-verb}
+
+So far we have been studing form~1 verbs, which use only the three root letters.
+As we know, the vowel on the middle root letter is variable for known-doer verbs, for example:
+
+\begin{itemize}
+\tightlist
+\item
+  \foreignlanguage{arabic}{شَرِبَ يَشْرَبُ} \enquote{to drink}.
+\item
+  \foreignlanguage{arabic}{فَتَحَ يَفْتَحُ} \enquote{to open}
+\item
+  \foreignlanguage{arabic}{کَبُرَ يَکْبُرُ} \enquote{to become big}
+\item
+  etc.
+\end{itemize}
+
+The pattern of unknown-doer verb for form 1 verbs is always:
+
+\foreignlanguage{arabic}{فُعِلَ يُفْعَلُ}\\
+\emph{fuɛila yufɛalu}
+
+This is regardless of the vowel on the middle root letter in the known-doer verb.
+If there is more than one verb from the same root, with different middle root letter vowels for the known-doer verb, then they will share the same unknown-doer verb. For example, the known-doer verbs: \foreignlanguage{arabic}{حَسَبَ يَحْسُبُ} \enquote{to reckon} and \foreignlanguage{arabic}{حَسِبَ يَحْسِبُ} \enquote{to deem} share the same unknown-doer verb: \foreignlanguage{arabic}{حُسِبَ يُحْسَبُ}.
+
+The same doer pronouns are used for the unknown-doer verb as for the known-doer verb.
+And the incomplete-action unknown-doer verb has the same three states as the incomplete-action known-doer verb.
+For example:
+
+\begin{itemize}
+\tightlist
+\item
+  \foreignlanguage{arabic}{فُعِلُوا} \emph{fuɛilū} \enquote{they\textsubscript{3m}} (completed-action)
+\item
+  \foreignlanguage{arabic}{تُفْعَلَانِ} \emph{tufɛalāni} \enquote{you\textsubscript{2}} or \enquote{they\textsubscript{2f}} (u-state incomplete-action)
+\item
+  \foreignlanguage{arabic}{أُفْعَلَ} \emph{ʾufɛala} \enquote{I} (a-state incomplete-action)
+\item
+  etc.
+\end{itemize}
+
+The complete table showing the doer pronouns is given in appendix~\ref{verb-tables}.
+
+\section{The deputy doer}\label{the-deputy-doer}
+
+Consider again this sentence with an unknown-doer verb construction:
 
 \includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-30-1.pdf}
+
+Note that the noun \foreignlanguage{arabic}{ٱَلْمَاءُ} \emph{ʾalmāʾu} \enquote{the water} is in the u-state. This is because, in the absence of the doer, the direct-doee of the known-doer verb (\foreignlanguage{arabic}{ٱَلْمَاءَ}) is deputized to take doer's place in the u-state. It is then known as the \emph{deputy doer}.
+
+The doer pronouns for the unknown-doer verb shall therefore match the gender and number of the deputy doer. Here are some examples:
+
+\foreignlanguage{arabic}{شُکِرَتِ ٱلأُمَّهَاتُ وَمُدِحْنَ.}\\
+\emph{s͡hukirati -lʾummahātu wamudiḥn.}\\
+\enquote{The mothers were thanked and praised.}
+
+\foreignlanguage{arabic}{أَنْتُمَا تُغْبَنَانِ وَتُخْدَعَانِ.}\\
+\emph{ʾantumā tug͡hbanāni watuk͡hdaɛān.}\\
+\enquote{You\textsubscript{2} are being cheated and deceived.}
+
+\foreignlanguage{arabic}{مَا قُطِعَتِ ٱلشَّجَرَةُ.}\\
+\emph{mā quṭiɛati -s͡hs͡hajarah.}\\
+\enquote{The tree was not cut.}
+
+\subsection{The deputy doer for multiple direct doees}\label{the-deputy-doer-for-multiple-direct-doees}
+
+Some verbs, in the known-doer construction, take multiple doees. These verbs can be classified into two classes:
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Verbs that cause the first direct doee to be affected by, or asked for, the second direct doee. Examples:
+
+  \foreignlanguage{arabic}{مَلَأَ ٱلْغُلَامُ ٱلدَّلْوَ مَاءً.}\\
+  \enquote{The boy filled the bucket (with) water.}
+
+  \foreignlanguage{arabic}{مَنَعَ ٱلْمَرَضُ ٱلرَّجُلَ ٱلْعَمَلَ.}\\
+  \enquote{Sickness prevented the man (from) work.}
+
+  \foreignlanguage{arabic}{سَأَلَ ٱلْفَقِيرُ ٱلْغَنِيَّ دِرْهَمًا.}\\
+  \enquote{The poor {[}man{]} asked the rich {[}man{]} (for) a dirham.}
+\item
+  Verbs that siginify an action of the heart or of intention, like thinking, deeming, making, etc. Examples:
+
+  \foreignlanguage{arabic}{حَسِبْتُ زَيْدًا صَدِيقًا.}\\
+  \enquote{I deemed Zayd {[}to be{]} a friend}
+
+  \foreignlanguage{arabic}{وَجَدَتِ ٱلطَّالِبَةُ ٱلْأُسْتَاذَةَ حَلِيمَةً.}\\
+  \enquote{The student\textsubscript{f} found the professor\textsubscript{f} {[}to be{]} forbearing.}
+
+  \foreignlanguage{arabic}{جَعَلَ ٱللَّـٰهُ ٱلْمَاءَ بَرَکَةً.}\\
+  \enquote{Allāh has made the water a blessing.}
+\end{enumerate}
+
+When such verbs are converted to the unknown-doer verb construction, then one, and only one, direct doee shall be chosen to be the deputy doer. It is generally preferred to make the first direct doee the deputy-doer, and leave the second direct doee, as is, in the a-state.
+Here are the same sentences in the unknown-doer construction:
+
+\foreignlanguage{arabic}{مُلِئَتِ ٱلدَّلْوُ مَاءً.} (\foreignlanguage{arabic}{دَلْو} \enquote{bucket} is feminine.)\\
+\enquote{The bucket was filled (with) water.}
+
+\foreignlanguage{arabic}{مُنِعَ ٱلرَّجُلُ ٱلْعَمَلَ.}\\
+\enquote{The man was prevented (from) work.}
+
+\foreignlanguage{arabic}{سُئِلَ ٱلْغَنِيُّ دِرْهَمًا.}\\
+\enquote{The rich {[}man{]} was asked for a dirham.}
+
+\foreignlanguage{arabic}{حُسِبَ زَيْدٌ صَدِيقًا.}\\
+\enquote{Zayd was deemed {[}to be{]} a friend}
+
+\foreignlanguage{arabic}{وُجِدَتِ ٱلْأُسْتَاذَةُ حَلِيمَةً.}\\
+\enquote{The professor\textsubscript{f} was found {[}to be{]} forbearing.}
+
+\foreignlanguage{arabic}{جُعِلَ ٱلْمَاءُ بَرَکَةً.}\\
+\enquote{Water has been made a blessing.}
+
+\section{Impersonal use}\label{impersonal-use}
+
+When verbs are used without a direct doee, then their unknown-doer construction gives in an impersonal meaning. There are a few such usages that we will explain in the following subsections.
+
+\subsection{With prepositional phrases}\label{with-prepositional-phrases}
+
+Some verbs take no direct doees, but are used with prepositional phrases. For example,
+
+\foreignlanguage{arabic}{جَلَسَ ٱلنَّاسُ عَلَى ٱلْأَرْضِ.}\\
+\enquote{The people sat upon the ground.}
+
+Other verbs, which can take a direct doee, may be used without one, and again with a prepositional phrase instead. For example:
+
+\foreignlanguage{arabic}{کَتَبَ ٱلْکَاتِبُ بِٱلْقَلَمِ.}\\
+\enquote{The scribe wrote with the pen.}
+
+When such sentences are converted to the unknown-doer verb construction then the prepositional phrase may be taken as the deputy doer. However, the preposition causes the noun following it to remain in the i-state, and the singular masculine doer pronoun is used for the unknown-doer verb. For example:
+
+\foreignlanguage{arabic}{جُلِسَ عَلَى ٱلْأَرْضِ.}\\
+\enquote{The ground was sat upon.}
+
+\foreignlanguage{arabic}{کُتِبَ بِٱلْقَلَمِ.}\\
+\enquote{The pen was written with.}
+
+\subsection{With adverbs of time or place}\label{with-adverbs-of-time-or-place}
+
+Other verbs don't take a direct doee but may be used with an adverb of time or place in the a-state. (We will study adverbs of time and place in chapter~\ref{adverbs-of-time-and-place}.)
+Here is an example:
+
+\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-31-1.pdf}
+
+When this sentence is converted to an unknown-doer construction then the adverb of time or place can be taken as the deputy doer in the u-state:
+
+\foreignlanguage{arabic}{سُهِرَتْ لَيلَةُ ٱلْقَدْرِ.}\\
+\enquote{The Night of Power was stayed up {[}in{]}.}
+
+Note the u-state of \foreignlanguage{arabic}{لَيْلَةُ} \emph{laylatu} as the deputy doer.
+
+\subsection{With the verbal noun of doing}\label{with-the-verbal-noun-of-doing}
+
+The verbal noun of doing, because it is the action being done may be considered a kind of direct doee. For example:
+
+\foreignlanguage{arabic}{فَهِمَ ٱلشَّيْخُ فَهْمًا عَمِيقًا.}\\
+\enquote{The old man understood, a deep understanding.}
+
+We will study the use of the verbal noun of doing as a doee in chapter~\ref{absolute-doee}.
+
+When such sentences are converted to the unknown-doer verb construction, then the verbal noun of doing may be taken as the deputy doer in the u-state.
+
+\foreignlanguage{arabic}{فُهِمَ فَهْمٌ عَمِيقٌ.}\\
+\enquote{A deep understanding was understood.}
+
+\subsection{Requirement of specialization}\label{requirement-of-specialization}
+
+When a prepositional phrase, or an adverb of time or place, or a verbal noun of doing is to be used as a deputy doer in an unknown-doer verb construction, then it is required that they be specialized in meaning, and not used in a general sense. So for example, if we have the sentence:
+
+\foreignlanguage{arabic}{سَهَرَتِ ٱلْأُمُّ لَيلَةً.}\\
+\enquote{The mother stayed up a night.}
+
+then because of the non-specialized meaning of \foreignlanguage{arabic}{لَيْلَةً}, such a sentence is typically not suitable for being converted to a unknown-doer verb construction.
+
+\subsection{Choosing the deputy doer}\label{choosing-the-deputy-doer}
+
+If a sentence is to be converted to an unknown-doer verb construction and it has more than one of the following:
+
+\begin{itemize}
+\tightlist
+\item
+  a direct doee
+\item
+  a specialized prepositional phrase
+\item
+  a specialized adverb of time or place
+\item
+  a specialized verbal noun of doing
+\end{itemize}
+
+Then only one shall be chosen as the deputy doer. If a direct doee exists, then it is typically chosen. If a direct doee does not exist, then the one desired to be emphasized may be chosen as the deputy doer. For example:
+
+\foreignlanguage{arabic}{سُهِرَ فِي ٱلْمَسْجِدِ لَيلَةَ ٱلْقَدْرِ.}\\
+\enquote{The mosque was stayed up in {[}on{]} the Night of Power.}
+
+In the above sentence the prepositional phrase \foreignlanguage{arabic}{فِي ٱلْمَسْجِدِ} was chosen as the deputy doer, and the adverb of time \foreignlanguage{arabic}{لَيْلَةَ} remains, as is, in the a-state.
+
+\section{States of the incomplete-action unknown-doer verb}\label{states-of-the-incomplete-action-unknown-doer-verb}
+
+The
+incomplete-action verb unknown-doer verb
+has three states, just like the
+incomplete-action verb known-doer verb:
+The u-state, the a-state, and the ø-state.
+The three states are used in the same circumstances, and with the same rules that we have already learned.
+
+So the u-state verb is used for making plain statements:
+
+\foreignlanguage{arabic}{تُذْکَرُ قِصَّةُ ٱلْمَلِکِ فِي کُتُبِ ٱلتَّأْرِيخِ.}\\
+\enquote{The story of the king is mentioned in the books of history.}
+
+\foreignlanguage{arabic}{لَا تُرْفَعُ ٱلْأَصْوَاتُ فِي ٱلْمَکْتَبَةِ.}\\
+\enquote{Voices are not raised in the library.}
+
+The a-state verb is used for expressing wish or purpose:
+
+\foreignlanguage{arabic}{يَأْمُلُ ٱلْمُسْلِمُونَ أَنْ يُغْفَرُ لَهُمْ.}\\
+\enquote{The Muslims hope that they be forgiven.}\\
+(Note that \foreignlanguage{arabic}{يُغْفَرَ} has a singular masculine deputy doer because there is no direct doee.)
+
+\foreignlanguage{arabic}{لَنْ تُسْمَعَا.}\\
+\enquote{You\textsubscript{2} shall not be heard.}
+
+\foreignlanguage{arabic}{دُفِعَ ٱلْبَابُ حَتَّىٰ يُفْتَحَ.}\\
+\enquote{The door was pushed for the result that it open.}
+
+Similarly, the ø-state verb is used in the following cases:
+
+\begin{itemize}
+\item
+  With \foreignlanguage{arabic}{لَمْ} \enquote{was not}:
+
+  \foreignlanguage{arabic}{لَمْ يُؤْذَنْ لِي أَنْ أَدْخُلَ.}\\
+  \enquote{It was not permitted for me that I enter.}
+\item
+  With \foreignlanguage{arabic}{لَمَّا} \enquote{not yet}
+
+  \foreignlanguage{arabic}{لَمَّا يُکْتَبْ کِتَابٌ فِي هَـٰذَا ٱلْمَوْضُوعِ.}\\
+  \enquote{A book has not yet been written in this subject.}
+\item
+  With \foreignlanguage{arabic}{لِ} for indirect commands:
+
+  \foreignlanguage{arabic}{لِيُسْمَعْ صَوْتُهُ!}\\
+  \enquote{Let his voice be heard!}
+
+  There is no verb of command for unknown-doer verbs. So while indirect commands are typically not used for the addressee participant for known-doer verbs (see section~\ref{indirect-commands}), they are the only way to issue commands for the addressee participant in the unknown-doer verb construction:
+
+  \foreignlanguage{arabic}{لِتُنْصَرُوا!}\\
+  \enquote{Let you\textsubscript{3m} be aided!}
+\end{itemize}
+
+\section{The verbal noun of the doee}\label{the-verbal-noun-of-the-doee}
+
+\section{Usage of the unknown-doer verb}\label{usage-of-the-unknown-doer-verb}
+
+\chapter{\texorpdfstring{\foreignlanguage{arabic}{إِنَّ} and its sisters}{إِنَّ and its sisters}}\label{ux625ux646-and-its-sisters}
+
+\section{Introduction}\label{introduction-21}
+
+In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
+
+\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-32-1.pdf}
 
 \enquote{This man is a teacher.}
 
@@ -12176,7 +12457,7 @@ to complete the sentence. We will see examples of this below.
 
 \subsection{\texorpdfstring{The \foreignlanguage{arabic}{أَنَّ} clause in place of the direct doee}{The أَنَّ clause in place of the direct doee}}\label{the-ux623ux646-clause-in-place-of-the-direct-doee}
 
-\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-31-1.pdf}
+\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-33-1.pdf}
 
 \enquote{I know that Zayd is truthful.}
 
@@ -12194,7 +12475,7 @@ clauses can be placed where one would expect other noun positions, such as: a su
 
 Example:
 
-\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-32-1.pdf}
+\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-34-1.pdf}
 
 \enquote{That you are sick has reached me.} (\enquote{It has reached me that you are sick.})
 
@@ -12202,7 +12483,7 @@ Example:
 
 Example (with information before subject in sentence word order):
 
-\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-33-1.pdf}
+\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-35-1.pdf}
 
 \enquote{From his characteristeics is that he is noble.}
 
@@ -12210,7 +12491,7 @@ Example (with information before subject in sentence word order):
 
 Example:
 
-\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-34-1.pdf}
+\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-36-1.pdf}
 
 \enquote{The truth is that he went.}
 
@@ -12220,13 +12501,13 @@ As you know, \foreignlanguage{arabic}{کَانَ}'s doer is also its subject, an
 The \foreignlanguage{arabic}{أَنَّ} clause can occur in either the subject or the information of \foreignlanguage{arabic}{کَنَ}.
 For example, the \foreignlanguage{arabic}{أَنَّ} clause as the information:
 
-\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-35-1.pdf}
+\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-37-1.pdf}
 
 \enquote{The matter was that he didn't do his obligation.}
 
 Now, the \foreignlanguage{arabic}{أَنَّ} clause as the subject:
 
-\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-36-1.pdf}
+\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-38-1.pdf}
 
 \enquote{That he didn't do his obligation was the matter.}
 
@@ -12236,13 +12517,13 @@ Note that in the latter case, the information precedes the subject.
 
 The \foreignlanguage{arabic}{أَنَّ} clause can occur in place of an i-state base noun in an annexation. Example:
 
-\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-37-1.pdf}
+\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-39-1.pdf}
 
 \enquote{The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous.}
 
 The \foreignlanguage{arabic}{أَنَّ} clause can occur in place of an i-state noun directly following a preposition. Example:
 
-\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-38-1.pdf}
+\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-40-1.pdf}
 
 \enquote{I wondered at that Zayd is asleep.}
 
@@ -12324,7 +12605,7 @@ TODO
 
 There is a sub-type of subject-information sentence called a topic-comment sentence. Here is an example:
 
-\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-39-1.pdf}
+\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-41-1.pdf}
 
 \enquote{The tree: its branches are long.}
 
@@ -12375,7 +12656,7 @@ the pronoun \foreignlanguage{arabic}{أَنَا} \enquote{I} refers to the speak
 
 There is a special pronoun, called the \emph{pronoun of the fact} that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as \enquote{the fact is} but is often left untranslated. Here is an example:
 
-\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-40-1.pdf}
+\includegraphics{Learn-Standard-Arabic_files/figure-latex/unnamed-chunk-42-1.pdf}
 
 \enquote{The fact is: the cold is intense.}
 
@@ -12582,7 +12863,7 @@ The lightened \foreignlanguage{arabic}{لَـٰکِنْ} has the same meaning as
 
 \chapter{Nouns of superiority}\label{nouns-of-superiority}
 
-\section{Introduction}\label{introduction-21}
+\section{Introduction}\label{introduction-22}
 
 Consider the sentence:
 
