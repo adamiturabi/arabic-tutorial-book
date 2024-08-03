@@ -118,7 +118,7 @@ b. Verbs that siginify an action of the heart or of intention, like thinking, de
    [جَعَلَ ٱللَّـٰهُ ٱلْمَاءَ بَرَكَةً.]{.ar}  
    "[#allAh]{.trn2} has made the water a blessing."
 
-When such verbs are converted to the unknown-doer verb construction, then it is preferred to make the first direct doee the deputy-doer, and leave the second direct doee, as is, in the a-state.
+When such verbs are converted to the unknown-doer verb construction, then one, and only one, direct doee shall be chosen to be the deputy doer. It is generally preferred to make the first direct doee the deputy-doer, and leave the second direct doee, as is, in the a-state.
 Here are the same sentences in the unknown-doer construction:
 
 [مُلِئَتِ ٱلدَّلْوُ مَاءً.]{.ar} ([دَلْو]{.ar} "bucket" is feminine.)  
@@ -139,5 +139,63 @@ Here are the same sentences in the unknown-doer construction:
 [جُعِلَ ٱلْمَاءُ بَرَكَةً.]{.ar}  
 "Water has been made a blessing."
 
+## Impersonal use
 
+When verbs are used without a direct doee, then their unknown-doer construction gives in an impersonal meaning. There are a few such usages that we will explain in the following subsections.
+
+### With prepositional phrases
+
+Some verbs take no direct doees, but are used with prepositional phrases. For example,
+
+[جَلَسَ ٱلنَّاسُ عَلَى ٱلْأَرْضِ.]{.ar}  
+"The people sat upon the ground."
+
+Other verbs, which can take a direct doee, may be used without one, and again with a prepositional phrase instead. For example:
+
+[كَتَبَ ٱلْكَاتِبُ بِٱلْقَلَمِ.]{.ar}  
+"The scribe wrote with the pen."
+
+When such sentences are converted to the unknown-doer verb construction then the prepositional phrase may be taken as the deputy doer. However, the preposition causes the noun following it to remain in the i-state, and the singular masculine doer pronoun is used for the unknown-doer verb. For example:
+
+[جُلِسَ عَلَى ٱلْأَرْضِ.]{.ar}  
+"The ground was sat upon."
+
+[كُتِبَ بِٱلْقَلَمِ.]{.ar}  
+"The pen was written with."
+
+### With adverbs of time or place
+
+Other verbs, don't take a direct doee but may be used with an adverb of time or place in the a-state. We will study adverbs of time and place in chapter\ \@ref(adverbs-of-time-and-place).
+Here is an example:
+
+```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{ٱللَّيْلَةَ} \txarb{سَهَرَتِ ٱلْأُمُّ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below] {\scriptsize a-state adverb of time};
+
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The mother stayed up the (whole) night.''};
+
+\end{tikzpicture}
+```
+
+<!--[سَهَرَتِ ٱلْأُمُّ ٱللَّيلَةَ.]{.ar}  
+"The mother stayed up the (whole) night."-->
+When this sentence is converted to an unknown-doer construction then the adverb of time or place can be taken as the deputy doer in the u-state:
+
+[سُهِرَتِ ٱللَّيلَةُ.]{.ar}  
+"The night was stayed up."
+
+### With the verbal noun of doing
+
+The verbal noun of doing, because it is the action being done may be considered a kind of direct doee. For example:
 
