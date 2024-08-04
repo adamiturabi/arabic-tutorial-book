@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-771-geafed61"
+date: "v0.1.0-772-g092feaa"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -115,12 +115,12 @@ We have also aimed to make this a self-instruction textbook so that a diligent s
 
 It may also be appropriate to inform the reader that we chose to present a simplified version of Arabic grammar. As such, the grammar presented here may not be entirely consistent with the comprehensive and harmonious framework developed by the Arab grammarians. We chose this approach because we felt that exposing the beginner to complex grammatical details at this stage would be more of a hindrance than a help in learning the language.
 
-This book is produced with the R bookdown package. The code and text are open-sourced and developed at 
+This book is a currently work in progress and is produced with the R bookdown package. The code and text for volume\ 1 are open-sourced and developed at 
 [github.com/adamiturabi/arabic-tutorial-book](https://github.com/adamiturabi/arabic-tutorial-book).
-The typeset output is published at 
+The typeset output of volume\ 1 is published at 
 [adamiturabi.github.io/arabic-tutorial-book/](https://adamiturabi.github.io/arabic-tutorial-book/).
 
-[The Authors]{.smallcaps}  
+[the authors]{.smallcaps}  
 
 <!--
 [a.z.s.]{.smallcaps}  
@@ -183,7 +183,9 @@ There are also a small amount of words, meanings, and grammatical usages, which 
 
 Figure\ 1.1 (above) depicts this historical development of Standard Arabic.
 
-## Scope of this book
+## About this book ([إن شاء الله]{.ar})
+
+### Scope
 
 In this book, we will study Standard Arabic. We will focus on the pre-modern language. If [#allAh]{.trn2} wills, this will help you to begin to understand the language of the [#qurEAn]{.trn2}, the [#HadIv]{.trn2}, and [#islAm]{.trn2}ic literature.
 
@@ -191,20 +193,61 @@ If your goal is to learn Modern Standard Arabic, then this book may still be of 
 
 This book does not touch at all upon the modern colloquial dialects that are spoken in the Arab world today.
 
-## How to study from this book
+### Current status
 
-We will start with the Arabic script and present in each chapter a new concept of Arabic grammar, together with examples. We will also give vocabulary for you to memorize and have chapter exercises. Unfortunately, some of the sentences we present, both as examples and as chapter exercises, because of their construction and subject matter, may seem of dubious usefulness to a learner wanting to learn practical usage. We ask that you overlook this and bear with us as we try to reinforce grammatical concepts. In answering the exercises, we strongly recommend that you memorize the vocabulary in full and write down the answers on paper with a pen. 
+This book is currently a work in progress, and not yet ready for study.
+There is a watermark on all online published pages indicating this status.
+The preface and this introduction have been written prematurely as a reference for guiding principles that we can refer to as we continue work.
+We publish updates online while the book is still a work in progress in the hope that it will help in correcting errors.
 
-We strongly recommend that you **not**:
+### Methodology
 
-+ answer the exercises verbally without writing them down,
-+ look up the answers before attempting to write the answer yourself,
-+ look up words in the vocabulary list without memorizing them,
-+ proceed to the next chapter before memorizing the vocabulary and going through the exercises.
+We will start with the Arabic script and present in each chapter a new concept of Arabic grammar, together with examples. 
+We will also give vocabulary for you to memorize and have chapter exercises. 
 
-Be aware that while Arabic grammar requires effort to master to a proficient degree, the real barrier to reading and understanding Arabic texts by oneself is vocabulary. Arabic is a very rich language and knowledge of a few thousand words is needed before the student can begin to read texts independently.
+Many times we introduce a topic early on because a later topic is dependent on it.
+And in order to organize content in a manageable and referrable way, we will give a full treatment of the first topic.
+But in actuality, an exhaustive understanding of the first topic is not that very essential to the core understanding of grammar that a learner needs at that stage.
+An example of such a topic is proper nouns which are, what we have termed, _semi-flexible_ (_diptotes_ in Western grammars and [الممنوع من الصرف]{.ar} in native grammars), and indeed semi-flexible nouns in general.
 
-You may also find yourself having to go back a few chapters every once in a while and revising the concepts therein. This is very normal and not a cause for any alarm. It may also prove beneficial to re-do the exercises of that chapter when this occurs.
+In the chapter introductions, we will list any such topics contained in the chapter.
+When encountering such topics for the first time, we recommend that you skim through them to get a basic understanding and move on to more essential concepts.
+You may refer back to the topic when needed.
+
+Some of the sentences we present, both as examples and as chapter exercises, because of their artificial content, may seem of dubious usefulness to a learner wanting to learn practical usage. 
+Also, when translating examples, we usually steer toward a literal, word-for-word, translation rather than an idiomatic one. 
+The resulting English will then often sound awkward, and even sometimes ungrammatical.
+This is to show a correspondence between the words in the Arabic sentence and the English translation.
+We ask that you overlook these shortcomings.
+
+### How to study
+
+#### Exercises
+
+In answering the exercises, we strongly recommend that you memorize the vocabulary in full and write down the answers with pen and paper.
+We strongly recommend that you
+resist the tendency to
+answer the exercises only orally or mentally without writing them down,
+or look up the answers before attempting to write the answer yourself,
+or look up words in the vocabulary list without memorizing them,
+or proceed to the next chapter before memorizing the vocabulary and going through the exercises.
+You may also find yourself having to go back a few chapters every once in a while and revising the concepts therein. 
+This is very normal and not a cause for any concern. It may also prove beneficial to re-do the exercises of that chapter when doing so.
+
+#### Vocabulary
+
+Be aware that while Arabic grammar requires effort to master to a proficient degree, the real barrier to reading and understanding Arabic texts by oneself is vocabulary. 
+Arabic is a very rich language and knowledge of a few thousand words is needed before the student can begin to read texts independently.
+In fact, we would not be too far off to say that grammar, at this stage, is only a tool to help you make sense of the vocabulary that you are acquiring.
+So, focus on acquiring vocabulary, first and foremost. 
+In appendix\ \@ref(vocabulary-and-reading), we suggest companion reading material, dictionaries, and techniques on acquiring and retaining vocabulary.
+<!--
+As companion reading material, we can recommend the book [عمدة التفسير لأحمد شاكر]{.ar} ([3umtdatu -ttafsIr]{.trn} by [#aHmad #cAkir]{.trn2}) which is an abridgement of the famous commentary of the [#qurEan]{.trn2} by [ابن كثير]{.ar} ([#ibn #kavIr]{.trn2}).
+Start with [#surat al-#baqarah]{.trn2} because of its relatively easier content.
+And try to start this early on, even before you have completed your grammar course.
+In the beginning, trying to read a real book will seem difficult, especially when you haven't yet learned the complete Arabic grammar. 
+But, keep at it, at intervals. If [#allAh]{.trn2} wills, it will become easier, and there will be a tipping point when you are able to understand many of the words and the gist of a sentence.
+-->
 
 
 <!--chapter:end:srcrmd/intro.Rmd-->
@@ -235,7 +278,7 @@ No.|Arabic letter|Tran-scrip-tion|Name |Description
 15|[ض]{.ar}|[D]{.trn}| [ضَاد]{.ar} [DAd]{.trn2} |An sound unique to Arabic that will be described later.
 16|[ط]{.ar}|[T]{.trn}| [طَاء]{.ar} [TAE]{.trn2} |An emphatic [ت]{.ar} that will be described later.
 17|[ظ]{.ar}|[P]{.trn}| [ظَاء]{.ar} [PAE]{.trn2} |An emphatic [ذ]{.ar} that will be described later.
-18|[ع]{.ar}|[e]{.trn}| [عَيْن]{.ar} [eayn]{.trn2} |A sound similar to strangulation or gagging. Try to sound "a" from the bottom of the throat.
+18|[ع]{.ar}|[e]{.trn}| [عَيْن]{.ar} [eayn]{.trn2} |A sound like "a" from the throat.
 19|[غ]{.ar}|[g]{.trn}| [غَيْن]{.ar} [gayn]{.trn2} |Somewhat like a "gh" sound but much softer. Try pronouncing [خ]{.ar} but without any scraping.
 20|[ف]{.ar}|[f]{.trn}| [فَاء]{.ar} [fAE]{.trn2}| Equivalent to English "f" in "fox".
 21|[ق]{.ar}|[q]{.trn}| [قَاف]{.ar} [qAf]{.trn2}| Similar to English "k" in "kite" but further back in the throat.
@@ -365,9 +408,10 @@ Disjoint | Joined (simplified) | Joined (traditional)
 [ا-ل-ح-ج-ج]{.ar} | [الحجج]{.ar} | [الحجج]{.tradar}
 [ا-ل-م-ا-س]{.ar} | [الماس]{.ar} | [الماس]{.tradar}
 [ل-م-ح-ة]{.ar}   | [لمحة]{.ar}  | [لمحة]{.tradar}
-[ب-ح-ر]{.ar}     | [بحر]{.ar}   | [بحر]{.tradar}
 [س-ح-ر]{.ar}     | [سحر]{.ar}   | [سحر]{.tradar}
+[ب-ح-ي-ر-ة]{.ar} | [بحيرة]{.ar} | [بحيرة]{.tradar}
 [ف-ي]{.ar}       | [في]{.ar}    | [في]{.tradar}
+[ب-ت-ث-ب-ي-ت-ت-ي-ن]{.ar} | [بتثبيتتين]{.ar}    | [بتثبيتتين]{.tradar}
 
 <!--
 
