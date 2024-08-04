@@ -24,7 +24,7 @@ No.|Arabic letter|Tran-scrip-tion|Name |Description
 15|[ض]{.ar}|[D]{.trn}| [ضَاد]{.ar} [DAd]{.trn2} |An sound unique to Arabic that will be described later.
 16|[ط]{.ar}|[T]{.trn}| [طَاء]{.ar} [TAE]{.trn2} |An emphatic [ت]{.ar} that will be described later.
 17|[ظ]{.ar}|[P]{.trn}| [ظَاء]{.ar} [PAE]{.trn2} |An emphatic [ذ]{.ar} that will be described later.
-18|[ع]{.ar}|[e]{.trn}| [عَيْن]{.ar} [eayn]{.trn2} |A sound similar to strangulation or gagging. Try to sound "a" from the bottom of the throat.
+18|[ع]{.ar}|[e]{.trn}| [عَيْن]{.ar} [eayn]{.trn2} |A sound like "a" from the throat.
 19|[غ]{.ar}|[g]{.trn}| [غَيْن]{.ar} [gayn]{.trn2} |Somewhat like a "gh" sound but much softer. Try pronouncing [خ]{.ar} but without any scraping.
 20|[ف]{.ar}|[f]{.trn}| [فَاء]{.ar} [fAE]{.trn2}| Equivalent to English "f" in "fox".
 21|[ق]{.ar}|[q]{.trn}| [قَاف]{.ar} [qAf]{.trn2}| Similar to English "k" in "kite" but further back in the throat.
@@ -154,9 +154,10 @@ Disjoint | Joined (simplified) | Joined (traditional)
 [ا-ل-ح-ج-ج]{.ar} | [الحجج]{.ar} | [الحجج]{.tradar}
 [ا-ل-م-ا-س]{.ar} | [الماس]{.ar} | [الماس]{.tradar}
 [ل-م-ح-ة]{.ar}   | [لمحة]{.ar}  | [لمحة]{.tradar}
-[ب-ح-ر]{.ar}     | [بحر]{.ar}   | [بحر]{.tradar}
 [س-ح-ر]{.ar}     | [سحر]{.ar}   | [سحر]{.tradar}
+[ب-ح-ي-ر-ة]{.ar} | [بحيرة]{.ar} | [بحيرة]{.tradar}
 [ف-ي]{.ar}       | [في]{.ar}    | [في]{.tradar}
+[ب-ت-ث-ب-ي-ت-ت-ي-ن]{.ar} | [بتثبيتتين]{.ar}    | [بتثبيتتين]{.tradar}
 
 <!--
 ```{r, eval=knitr::is_html_output(), echo=FALSE}
