@@ -156,7 +156,7 @@ options(tinytex.engine = "lualatex")
 
 \markboth {\textsc{\MakeLowercase{Romanization scheme}}}{\textsc{\MakeLowercase{Romanization scheme}}}
 
-The following romanization scheme is used in this book for the transcription and transliteration of Arabic sounds and letters in the Latin script.
+The following romanization scheme is used in this book for the transcription and transliteration of Arabic sounds and letters into the Latin script.
 
 [consonants]{.smallcaps}
 
@@ -179,7 +179,7 @@ the _italic_ Latin script is used,
 no letters are capitalized,
 a non-sentence-initial connecting hamzah is transliterated with a hyphen (-),
 and the [lAm]{.trn2} of the definite article is not transliterated. 
-[ة]{.ar} is transcribed as [t]{.trn} except at the end of an utterance, when it is transcribed as [h]{.trn}. 
+[ة]{.ar} is transcribed as [h]{.trn} at the end of an utterance, and as [t]{.trn} otherwise. 
 For example:
 
 <!--[ٱَلشَّجَرَةُ وَٱلْوَرَقَة.]{.ar}  
@@ -203,7 +203,7 @@ the first letter of a proper noun is capitalized,
 word-initial hamzah is not transliterated,
 the definite article is always transliterated as "al-" with a hyphen following it,
 as shown.
-[ة]{.ar} is transcribed as "h" except when in construct, where it is transcribed as "t". 
+[ة]{.ar} is transcribed as "t" in the middle of an annexation, and as "h" otherwise. 
 Accurate romanizations are preferred unless an established and distinctly separate usage is current in English.
 Examples:
 
