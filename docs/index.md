@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-773-g9bd7584"
+date: "v0.1.0-774-g2256d20"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -149,7 +149,7 @@ this is in [Small Caps]{.smallcaps}.
 
 \markboth {\textsc{\MakeLowercase{Romanization scheme}}}{\textsc{\MakeLowercase{Romanization scheme}}}
 
-The following romanization scheme is used in this book for the transcription and transliteration of Arabic sounds and letters in the Latin script.
+The following romanization scheme is used in this book for the transcription and transliteration of Arabic sounds and letters into the Latin script.
 
 [consonants]{.smallcaps}
 
@@ -172,7 +172,7 @@ the _italic_ Latin script is used,
 no letters are capitalized,
 a non-sentence-initial connecting hamzah is transliterated with a hyphen (-),
 and the [lAm]{.trn2} of the definite article is not transliterated. 
-[ة]{.ar} is transcribed as [t]{.trn} except at the end of an utterance, when it is transcribed as [h]{.trn}. 
+[ة]{.ar} is transcribed as [h]{.trn} at the end of an utterance, and as [t]{.trn} otherwise. 
 For example:
 
 <!--[ٱَلشَّجَرَةُ وَٱلْوَرَقَة.]{.ar}  
@@ -196,7 +196,7 @@ the first letter of a proper noun is capitalized,
 word-initial hamzah is not transliterated,
 the definite article is always transliterated as "al-" with a hyphen following it,
 as shown.
-[ة]{.ar} is transcribed as "h" except when in construct, where it is transcribed as "t". 
+[ة]{.ar} is transcribed as "t" in the middle of an annexation, and as "h" otherwise. 
 Accurate romanizations are preferred unless an established and distinctly separate usage is current in English.
 Examples:
 
@@ -260,8 +260,9 @@ This book does not touch at all upon the modern colloquial dialects that are spo
 
 This book is currently a work in progress, and not yet ready for study.
 There is a watermark on all online published pages indicating this status.
-The preface and this introduction have been written prematurely as a reference for guiding principles that we can refer to as we continue work.
+The preface and this introduction have been written prematurely as a reference for guiding principles that we can refer to during the write process.
 We publish updates online while the book is still a work in progress in the hope that it will help in correcting errors.
+
 
 ### Methodology
 
@@ -291,7 +292,7 @@ In answering the exercises, we strongly recommend that you memorize the vocabula
 We strongly recommend that you
 resist the tendency to
 answer the exercises only orally or mentally without writing them down,
-or look up the answers before attempting to write the answer yourself,
+or look up the answers from the answer key before attempting to write the answer yourself,
 or look up words in the vocabulary list without memorizing them,
 or proceed to the next chapter before memorizing the vocabulary and going through the exercises.
 You may also find yourself having to go back a few chapters every once in a while and revising the concepts therein. 
@@ -299,7 +300,7 @@ This is very normal and not a cause for any concern. It may also prove beneficia
 
 #### Vocabulary
 
-Be aware that while Arabic grammar requires effort to master to a proficient degree, the real barrier to reading and understanding Arabic texts by oneself is vocabulary. 
+Know that while Arabic grammar requires effort to master to a proficient degree, the real barrier to reading and understanding Arabic texts by oneself is vocabulary. 
 Arabic is a very rich language and knowledge of a few thousand words is needed before the student can begin to read texts independently.
 In fact, we would not be too far off to say that grammar, at this stage, is only a tool to help you make sense of the vocabulary that you are acquiring.
 So, focus on acquiring vocabulary, first and foremost. 
@@ -311,6 +312,10 @@ And try to start this early on, even before you have completed your grammar cour
 In the beginning, trying to read a real book will seem difficult, especially when you haven't yet learned the complete Arabic grammar. 
 But, keep at it, at intervals. If [#allAh]{.trn2} wills, it will become easier, and there will be a tipping point when you are able to understand many of the words and the gist of a sentence.
 -->
+
+### Accessibility
+
+You can download a printable copy of this book by clicking the PDF icon in the toolbar at the top of this page. The toolbar also has display options, like changing the font size, etc.
 
 
 <!--chapter:end:srcrmd/intro.Rmd-->
@@ -1354,7 +1359,7 @@ ii. The _information_. This gives us some information about the subject.
 
 Here is a subject-information sentence:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-5-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-6-1.pdf)<!-- -->
 
 <!--"The building is a house."-->
 
@@ -1376,7 +1381,7 @@ ii. [بَيْتٌ]{.ar} [baytun]{.trn} (masc.) "a house" (u-state)
 
 In order to form this sentence in Arabic, we put the subject first and then the information. So we get:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-6-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-7-1.pdf)<!-- -->
 
 <!--
 [ٱَلْبِنَاءُ بَيْتٌ.]{.ar}  
@@ -2996,13 +3001,13 @@ We take this opportunity to introduce some grammatical terminology. The descript
 i. The adjective "big". It is describing the car. We will call it the _describer_ in the noun-phrase.
 ii. The common noun "a car": It is being described by the describer. We will call it the _describee_.
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-7-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-8-1.pdf)<!-- -->
 
 We will reserve this terminology of _describer_ and _describee_ only for the noun and adjective in an descriptive noun-phrase. So we won't use this terminology for the sentence: "The car is big."
 
 Instead, here we will continue to use the existing terminology of _subject_ and _information_. The definite noun "the car" is the subject of this sentence, and the adjective "big" is the information.
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-8-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-9-1.pdf)<!-- -->
 
 ## Adjectival nouns in English
 
@@ -3089,7 +3094,7 @@ In English descriptive noun-phrases, like "the small house", the adjective descr
 
 Here is the equivalent Arabic descriptive noun-phrase:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-9-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-10-1.pdf)<!-- -->
 
 <!--
 [ٱَلْبَيْتُ ٱلصَّغِيرُ]{.ar}  
@@ -3159,7 +3164,7 @@ See how we preferred to use the masculine adjectival noun [طَيِّب]{.ar} [T
 
 Let's see how to use Arabic adjectival nouns as the information of a sentence.
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-10-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-11-1.pdf)<!-- -->
 
 <!--
 [ٱَلْبَيْتُ صَغِيرٌ.]{.ar}  
@@ -5805,7 +5810,7 @@ Arabic expresses this meaning using a construction called _annexation_. In this 
 
 The word "annexation" means the addition of a new _annexed_ item to an existing _base_ item. We use the term _annexation_ in Arabic grammar when an _annexe_ noun is annexed to a _base_ noun by being placed right before it. Here is an example of an annexation:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-11-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-12-1.pdf)<!-- -->
 
 <!--"the boy's book"  -->
 
@@ -6187,7 +6192,7 @@ So far we have seen annexations with two nouns. Annexations may be arbitrarily l
 "the house's door's key"
 -->
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-12-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-13-1.pdf)<!-- -->
 
 The above annexation consists of three nouns. It may be divided into two sub-annexations:
 
@@ -7690,7 +7695,7 @@ Before we proceed with our discussion on proper nouns, we will take a short digr
 A _replacement_ is a word that follows another word, the _replacee_, and replaces it from the perspective of the grammar of the sentence. The replacement is put in the same state as the replacee.
 Here is an example of a sentence with a replacement and a replacee:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-13-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-14-1.pdf)<!-- -->
 
 In the above sentence, the word [كِتَابًا]{.ar} "a book" is the replacement of 
 [شَيْـًٔا]{.ar} "something". Therefore, it is put in the same a-state.
@@ -8307,7 +8312,7 @@ Examples:
 
 Consider the following expression:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-14-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-15-1.pdf)<!-- -->
 
 The word "this" is what we will call a _pointing noun_. We call it this because we can imagine standing next to a book and pointing to it and saying "this book".
 
@@ -8372,7 +8377,7 @@ Remember from chapter\ \@ref(adjectival-nouns-and-descriptive-noun-phrases) that
 
 Here is an example of a descriptive noun-phrase in a sentence.
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-15-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-16-1.pdf)<!-- -->
 
 We will now see how this same descriptive noun-phrase can be used with pointing nouns.
 
@@ -8390,7 +8395,7 @@ above that pointing nouns are definite.
 So, if a pointing noun is a describer in a noun-phrase, the describee has to be definite too.
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-16-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-17-1.pdf)<!-- -->
 
 In the above example, the pointed-to noun [ٱَلْكِتَابَيْنِ]{.ar} is the describee in a descriptive noun-phrase. It is definite, in the a-state, masculine, and dual.
 
@@ -8403,7 +8408,7 @@ The pointing noun is then a replacee (see section\ \@ref(the-replacement)), and 
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-17-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-18-1.pdf)<!-- -->
 
 In the above example, the 
 pointing noun [هَـٰذَيْنِ]{.ar} 
@@ -8526,7 +8531,7 @@ Before we give more examples, let's analyze these phrases in detail.
 
 Consider the first pointing noun phrase:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-18-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-19-1.pdf)<!-- -->
 
 As you can see the pointing noun
 [هَـٰذَا]{.ar} has taken the place of 
@@ -8544,7 +8549,7 @@ The more natural translation is:
 
 Consider, now, the second pointing noun phrase:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-19-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-20-1.pdf)<!-- -->
 
 [ٱَلرَّجُل]{.ar}, here, keeps its place as the base noun in the annexation.
 In addition to being the base noun,
@@ -8609,7 +8614,7 @@ Let's analyze the expression
 "this book of the man"
 in detail:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-20-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-21-1.pdf)<!-- -->
 
 [كِتَاب]{.ar}, here, is both and annexe noun and a describee.
 Its describer is the pointing noun
@@ -8736,7 +8741,7 @@ So, we are left with only one option: the annexe noun [كِتَاب]{.ar} is the
 [كِتَابُهُ هَـٰذَا]{.ar}  
 "this book of his"
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-21-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-22-1.pdf)<!-- -->
 
 Here are some more examples:
 
@@ -8744,7 +8749,7 @@ Here are some more examples:
 
 Besides their use in pointing noun phrases, pointing nouns are very often used as the subject of a sentence. For example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-22-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-23-1.pdf)<!-- -->
 
 The pointing noun is (usually) made to match the information in number and gender. Examples:
 
@@ -8782,7 +8787,7 @@ The information may be a single word (as above) or more complex (as below):
 
 If the information is a noun that begins with [ٱَلْ]{.ar} then it may be placed after the pointing noun subject in the same manner:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-23-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-24-1.pdf)<!-- -->
 
 While the this is permitted and correct, it may be sometimes confused with for the pointing noun phrase "this man". So, in the same way that we learned in
 section\ \@ref(chap-smp-sent-sec-def-info),
@@ -9480,7 +9485,7 @@ So, in the above example, the
 [أَنْ]{.ar} clause
 is in place of the direct doee of the verb [أَمَلَ]{.ar}:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-24-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-25-1.pdf)<!-- -->
 
 We show other examples below where the
 [أَنْ]{.ar} clause
@@ -9488,23 +9493,23 @@ occurs in place of other noun positions.
 
 As the subject:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-25-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-26-1.pdf)<!-- -->
 
 As the information:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-26-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-27-1.pdf)<!-- -->
 
 As a doer noun:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-27-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-28-1.pdf)<!-- -->
 
 In the i-state as the base noun in an annexation:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-28-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-29-1.pdf)<!-- -->
 
 In the i-state after a preposition:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-29-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-30-1.pdf)<!-- -->
 
 ### Option to drop the preposition before [أَنْ]{.ar}
 
@@ -10118,7 +10123,7 @@ The complete table showing the doer pronouns is given in appendix\ \@ref(verb-ta
 
 Consider again this sentence with an unknown-doer verb construction:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-30-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-31-1.pdf)<!-- -->
 
 <!--
 [شُرِبَ ٱلْمَاءُ.]{.ar}  
@@ -10212,7 +10217,7 @@ However, the preposition causes the noun following it to remain in the i-state. 
 The verb then appears to be in the singular masculine, with its deputy doer following it.
 For example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-31-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.pdf)<!-- -->
 
 <!--[جُلِسَ عَلَى ٱلْأَرْضِ.]{.ar}  
 "The ground was sat upon." -->
@@ -10226,7 +10231,7 @@ Other verbs don't take a direct doee but may be used with an adverb of time or p
 (We will study adverbs of time and place in chapter\ \@ref(adverbs-of-time-and-place), if [#allAh]{.trn2} wills.)
 Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-32-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-33-1.pdf)<!-- -->
 
 <!--[سَهَرَتِ ٱلْأُمُّ ٱللَّيلَةَ.]{.ar}  
 "The mother stayed up the (whole) night."-->
@@ -10410,7 +10415,7 @@ As you can see, [فُلَان]{.ar} "so-and-so" is actually the doer, and [ٱل�
 
 In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-33-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.pdf)<!-- -->
 
 "This man is a teacher."
 
@@ -10604,7 +10609,7 @@ to complete the sentence. We will see examples of this below.
 
 ### The [أَنَّ]{.ar} clause in place of the direct doee
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-35-1.pdf)<!-- -->
 
 "I know that Zayd is truthful."
 
@@ -10622,7 +10627,7 @@ clauses can be placed where one would expect other noun positions, such as: a su
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-35-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-36-1.pdf)<!-- -->
 
 "That you are sick has reached me." ("It has reached me that you are sick.")
 
@@ -10630,7 +10635,7 @@ Example:
 
 Example (with information before subject in sentence word order):
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-36-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-37-1.pdf)<!-- -->
 
 "From his characteristeics is that he is noble."
 
@@ -10638,7 +10643,7 @@ Example (with information before subject in sentence word order):
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-37-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-38-1.pdf)<!-- -->
 
 "The truth is that he went."
 
@@ -10648,13 +10653,13 @@ As you know, [كَانَ]{.ar}'s doer is also its subject, and its doee is also 
 The [أَنَّ]{.ar} clause can occur in either the subject or the information of [كَنَ]{.ar}. 
 For example, the [أَنَّ]{.ar} clause as the information:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-38-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-39-1.pdf)<!-- -->
 
 "The matter was that he didn't do his obligation."
 
 Now, the [أَنَّ]{.ar} clause as the subject:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-39-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-40-1.pdf)<!-- -->
 
 "That he didn't do his obligation was the matter."
 
@@ -10664,13 +10669,13 @@ Note that in the latter case, the information precedes the subject.
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state base noun in an annexation. Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-40-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-41-1.pdf)<!-- -->
 
 "The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous."
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly following a preposition. Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-41-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-42-1.pdf)<!-- -->
 
 "I wondered at that Zayd is asleep."
 
@@ -10752,7 +10757,7 @@ TODO
 
 There is a sub-type of subject-information sentence called a topic-comment sentence. Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-42-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-43-1.pdf)<!-- -->
 
 "The tree: its branches are long."
 
@@ -10803,7 +10808,7 @@ the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
 
 There is a special pronoun, called the _pronoun of the fact_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-43-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-44-1.pdf)<!-- -->
 
 "The fact is: the cold is intense."
 
