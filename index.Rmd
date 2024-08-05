@@ -160,6 +160,7 @@ The following romanization scheme is used in this book for the transcription and
 
 [consonants]{.smallcaps}
 
+<!--
 | [ء]{.ar} | [ب]{.ar} | [ت]{.ar} | [ث]{.ar} | [ج]{.ar} | [ح]{.ar} | [خ]{.ar} | [د]{.ar} | [ذ]{.ar} | [ر]{.ar} | [ز]{.ar} | [س]{.ar} | [ش]{.ar} | [ص]{.ar} |
 |:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-| 
 | [E]{.trn2} | [b]{.trn2} | [t]{.trn2} | [v]{.trn2} | [j]{.trn2} | [H]{.trn2} | [x]{.trn2} | [d]{.trn2} | [p]{.trn2} | [r]{.trn2} | [z]{.trn2} | [s]{.trn2} | [c]{.trn2} | [S]{.trn2} |
@@ -167,27 +168,42 @@ The following romanization scheme is used in this book for the transcription and
 | [ض]{.ar} | [ط]{.ar} | [ظ]{.ar} | [ع]{.ar} | [غ]{.ar} | [ف]{.ar} | [ق]{.ar} | [ك]{.ar} | [ل]{.ar} | [م]{.ar} | [ن]{.ar} | [ه]{.ar} | [و]{.ar} | [ي]{.ar} | 
 |:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|
 | [D]{.trn2} | [T]{.trn2} | [P]{.trn2} | [e]{.trn2} | [g]{.trn2} | [f]{.trn2} | [q]{.trn2} | [k]{.trn2} | [l]{.trn2} | [m]{.trn2} | [n]{.trn2} | [h]{.trn2} | [w]{.trn2} | [y]{.trn2} | 
+-->
+
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|  [ص]{.ar}  |  [ش]{.ar}  |  [س]{.ar}  |  [ز]{.ar}  |  [ر]{.ar}  |  [ذ]{.ar}  |  [د]{.ar}  |  [خ]{.ar}  |  [ح]{.ar}  |  [ج]{.ar}  |  [ث]{.ar}  |  [ت]{.ar}  |  [ب]{.ar}  |  [ء]{.ar}  |
+| [S]{.trn2} | [c]{.trn2} | [s]{.trn2} | [z]{.trn2} | [r]{.trn2} | [p]{.trn2} | [d]{.trn2} | [x]{.trn2} | [H]{.trn2} | [j]{.trn2} | [v]{.trn2} | [t]{.trn2} | [b]{.trn2} | [E]{.trn2} |
+
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|  [ى]{.ar}  |  [و]{.ar}  |  [ه]{.ar}  |  [ن]{.ar}  |  [م]{.ar}  |  [ل]{.ar}  |  [ك]{.ar}  |  [ق]{.ar}  |  [ف]{.ar}  |  [غ]{.ar}  |  [ع]{.ar}  |  [ظ]{.ar}  |  [ط]{.ar}  |  [ض]{.ar}  |
+| [y]{.trn2} | [w]{.trn2} | [h]{.trn2} | [n]{.trn2} | [m]{.trn2} | [l]{.trn2} | [k]{.trn2} | [q]{.trn2} | [f]{.trn2} | [g]{.trn2} | [e]{.trn2} | [P]{.trn2} | [T]{.trn2} | [D]{.trn2}  |
 
 [vowels]{.smallcaps}
 
-| [◌َا]{.ar} | [◌ُو]{.ar} | [◌ِي]{.ar} | [◌َوْ]{.ar} | [◌َيْ]{.ar} |
-|:-|:-|:-|:-|:-|
-| [A]{.trn2} | [U]{.trn2} | [I]{.trn2} | [aw]{.trn2} | [ay]{.trn2} |
+|   |   |   |   |   |   |   |   |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| [◌َ]{.ar}   | [◌ُ]{.ar}   | [◌ِ]{.ar}   | [◌َا]{.ar}  | [◌ُو]{.ar}  | [◌ِي]{.ar}  | [◌َوْ]{.ar}   | [◌َيْ]{.ar}   |
+| [a]{.trn2} | [u]{.trn2} | [i]{.trn2} | [A]{.trn2} | [U]{.trn2} | [I]{.trn2} | [aw]{.trn2} | [ay]{.trn2} |
+
 
 When transcribing example text,
 the _italic_ Latin script is used,
 no letters are capitalized,
 a non-sentence-initial connecting hamzah is transliterated with a hyphen (-),
-and the [lAm]{.trn2} of the definite article is not transliterated. 
+and the [lAm]{.trn2} of the definite article is not transliterated for sun letters. 
 [ة]{.ar} is transcribed as [h]{.trn} at the end of an utterance, and as [t]{.trn} otherwise. 
 For example:
 
 <!--[ٱَلشَّجَرَةُ وَٱلْوَرَقَة.]{.ar}  
 [Eaccjaratu wa-lwaraqah.]{.trn}.-->
-[بِسمِ ٱللَّـٰهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ.]{.ar}  
-[bismi -llAhi -rraHmAni -rraHIm.]{.trn}
+<!--[بِسمِ ٱللَّـٰهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ.]{.ar}  
+[bismi -llAhi -rraHmAni -rraHIm.]{.trn}-->
+[ٱِلْتَقَطَتْ أُمُّ طَلْحَةَ وَٱلْحَسَنِ وَرَقَةَ ٱلشَّجَرَةِ.]{.ar}  
+[EiltaqaTat Eummu TalHata wa-lHasani waraqata -ccajarah.]{.trn}
 
-FIXME: add transcription of assimilation
+<!--FIXME: add transcription of assimilation-->
 <!--The transcription is typically accurate, except for assimilation that only affects diacritics. This is generally marked neither in the Arabic text nor in the transcription.
 For example:
 
@@ -197,8 +213,8 @@ For example:
 
 When using Arabic words in the English text,
 the regular (non-italic) Latin script is used,
-words are transcribed in pausa pronunciation,
-word-final [◌ِيّ]{.ar} [-iyy]{.trn} is transliterated as "[I]{.trn2}",
+words are transcribed in pausal pronunciation,
+word-final [◌ِيّ]{.ar} [-iyy]{.trn} is transcribed as "[I]{.trn2}",
 the first letter of a proper noun is capitalized,
 word-initial hamzah is not transliterated,
 the definite article is always transliterated as "al-" with a hyphen following it,
@@ -208,7 +224,7 @@ Accurate romanizations are preferred unless an established and distinctly separa
 Examples:
 
 <!--"[#allAh]{.trn2} revealed [#sUrat al-#fatiHah]{.trn2} in the [#qurEAn]{.trn2}."-->
-"[#ealI]{.trn2} and [#usAmah]{.trn2} revised [#sUrat al-#eankabUt]{.trn2} from the [#qurEAn]{.trn2} in the mosque in the month of [#rabIe al-#vAni]{.trn2}."
+"[#ealI]{.trn2} and [#usAmah]{.trn2} revised [#sUrat al-#eankabUt]{.trn2} from the [#qurEAn]{.trn2} in the mosque in the month of [#rabIe al-#vAnI]{.trn2}."
 
 "The caliphate moved from [al-#madInah]{.trn2} to Damascus."
 
