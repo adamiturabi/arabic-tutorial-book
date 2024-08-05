@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-772-g092feaa"
+date: "v0.1.0-773-g9bd7584"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -109,7 +109,10 @@ output:
 
 The primary texts of [#islAm]{.trn2} (the [#qurEAn]{.trn2} and the [#HadIv]{.trn2}) are in Arabic. So too is much of its scholarly literature. However, there is a multitude of Muslims for whom Arabic is not a native language, yet who are familiar enough with English to study textbooks written in this language. The goal of this book is to help them learn Arabic at a beginner's level so that, together with a study of the appropriate expositional texts, they are one step closer to understanding the primary texts in their original language. We hope that this will, if [#allAh]{.trn2} wills, make them feel more connected to the primary texts and their teachings. Furthermore, they can be empowered to study the vast body of Arabic [#islAm]{.trn2}ic literature.
 
-This book is a teaching grammar and not a reference grammar. So, in the initial chapters, topics are presented sequentially at only a basic level, without treating them exhaustively, before moving on to the next topic. Furthermore, since this is a beginner's textbook, only the more common usages are explained.
+This book is a learning grammar and not a reference grammar. 
+So, in the initial chapters, topics are introduced at only a basic level, without treating them exhaustively, before moving on to the next topic. 
+That notwithstanding, past the first few chapters, we have generally tried to group content meaningfully for convenient reference during learning.
+In addition, since this is a beginner's textbook, only the more common usages are explained.
 
 We have also aimed to make this a self-instruction textbook so that a diligent student should, if [#allAh]{.trn2} wills, be able to study it without an instructor. The target learner is someone who has not been exposed to grammatical terminology like _inflection_, _case_, _mood_, etc. While terminology is necessary for a rigorous non-immersive learning of language, we have tried to steer away from Latin-based terms like _accusative_ and _jussive_. Such terms, when first encountered by an uninitiated learner, may deter from proceeding further. (Learning a language can be hard enough without getting the feeling that your grammar book is accusing you of something!) So we have in some places translated the meaning of Arabic grammar terms to English. In other places, we have used established English grammar terms where the terms are basic enough. We have even, in places, invented terms where we deemed appropriate. The drawback to this non-standard approach, however, is that the student may not be able to immediately relate the terminology he has learned in this book to established terminology in other grammar textbooks. To remedy this to some extent, we provide a glossary in the appendix which maps the grammatical terminology used in this book to other, established, Latin-based and Arabic-based counterparts.
 
@@ -141,6 +144,66 @@ this is in [Small Caps]{.smallcaps}.
 
 
 -->
+
+# Romanization scheme {-}
+
+\markboth {\textsc{\MakeLowercase{Romanization scheme}}}{\textsc{\MakeLowercase{Romanization scheme}}}
+
+The following romanization scheme is used in this book for the transcription and transliteration of Arabic sounds and letters in the Latin script.
+
+[consonants]{.smallcaps}
+
+| [ء]{.ar} | [ب]{.ar} | [ت]{.ar} | [ث]{.ar} | [ج]{.ar} | [ح]{.ar} | [خ]{.ar} | [د]{.ar} | [ذ]{.ar} | [ر]{.ar} | [ز]{.ar} | [س]{.ar} | [ش]{.ar} | [ص]{.ar} |
+|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-| 
+| [E]{.trn2} | [b]{.trn2} | [t]{.trn2} | [v]{.trn2} | [j]{.trn2} | [H]{.trn2} | [x]{.trn2} | [d]{.trn2} | [p]{.trn2} | [r]{.trn2} | [z]{.trn2} | [s]{.trn2} | [c]{.trn2} | [S]{.trn2} |
+
+| [ض]{.ar} | [ط]{.ar} | [ظ]{.ar} | [ع]{.ar} | [غ]{.ar} | [ف]{.ar} | [ق]{.ar} | [ك]{.ar} | [ل]{.ar} | [م]{.ar} | [ن]{.ar} | [ه]{.ar} | [و]{.ar} | [ي]{.ar} | 
+|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|
+| [D]{.trn2} | [T]{.trn2} | [P]{.trn2} | [e]{.trn2} | [g]{.trn2} | [f]{.trn2} | [q]{.trn2} | [k]{.trn2} | [l]{.trn2} | [m]{.trn2} | [n]{.trn2} | [h]{.trn2} | [w]{.trn2} | [y]{.trn2} | 
+
+[vowels]{.smallcaps}
+
+| [◌َا]{.ar} | [◌ُو]{.ar} | [◌ِي]{.ar} | [◌َوْ]{.ar} | [◌َيْ]{.ar} |
+|:-|:-|:-|:-|:-|
+| [A]{.trn2} | [U]{.trn2} | [I]{.trn2} | [aw]{.trn2} | [ay]{.trn2} |
+
+When transcribing example text,
+the _italic_ Latin script is used,
+no letters are capitalized,
+a non-sentence-initial connecting hamzah is transliterated with a hyphen (-),
+and the [lAm]{.trn2} of the definite article is not transliterated. 
+[ة]{.ar} is transcribed as [t]{.trn} except at the end of an utterance, when it is transcribed as [h]{.trn}. 
+For example:
+
+<!--[ٱَلشَّجَرَةُ وَٱلْوَرَقَة.]{.ar}  
+[Eaccjaratu wa-lwaraqah.]{.trn}.-->
+[بِسمِ ٱللَّـٰهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ.]{.ar}  
+[bismi -llAhi -rraHmAni -rraHIm.]{.trn}
+
+FIXME: add transcription of assimilation
+<!--The transcription is typically accurate, except for assimilation that only affects diacritics. This is generally marked neither in the Arabic text nor in the transcription.
+For example:
+
+[ٱِعْتَقَدْتُ أَنْ لَمْ يَأْتِ.]{.ar}  
+-->
+
+
+When using Arabic words in the English text,
+the regular (non-italic) Latin script is used,
+words are transcribed in pausa pronunciation,
+word-final [◌ِيّ]{.ar} [-iyy]{.trn} is transliterated as "[I]{.trn2}",
+the first letter of a proper noun is capitalized,
+word-initial hamzah is not transliterated,
+the definite article is always transliterated as "al-" with a hyphen following it,
+as shown.
+[ة]{.ar} is transcribed as "h" except when in construct, where it is transcribed as "t". 
+Accurate romanizations are preferred unless an established and distinctly separate usage is current in English.
+Examples:
+
+<!--"[#allAh]{.trn2} revealed [#sUrat al-#fatiHah]{.trn2} in the [#qurEAn]{.trn2}."-->
+"[#ealI]{.trn2} and [#usAmah]{.trn2} revised [#sUrat al-#eankabUt]{.trn2} from the [#qurEAn]{.trn2} in the mosque in the month of [#rabIe al-#vAni]{.trn2}."
+
+"The caliphate moved from [al-#madInah]{.trn2} to Damascus."
 
 
 <!--chapter:end:index.Rmd-->
@@ -183,7 +246,7 @@ There are also a small amount of words, meanings, and grammatical usages, which 
 
 Figure\ 1.1 (above) depicts this historical development of Standard Arabic.
 
-## About this book ([إن شاء الله]{.ar})
+## About this book <!--([إن شاء الله]{.ar})-->
 
 ### Scope
 
@@ -202,19 +265,19 @@ We publish updates online while the book is still a work in progress in the hope
 
 ### Methodology
 
-We will start with the Arabic script and present in each chapter a new concept of Arabic grammar, together with examples. 
+We will start, if [#allAh]{.trn2} wills, with the Arabic script and present, in each chapter, a new concept of Arabic grammar, together with examples. 
 We will also give vocabulary for you to memorize and have chapter exercises. 
 
 Many times we introduce a topic early on because a later topic is dependent on it.
 And in order to organize content in a manageable and referrable way, we will give a full treatment of the first topic.
 But in actuality, an exhaustive understanding of the first topic is not that very essential to the core understanding of grammar that a learner needs at that stage.
-An example of such a topic is proper nouns which are, what we have termed, _semi-flexible_ (_diptotes_ in Western grammars and [الممنوع من الصرف]{.ar} in native grammars), and indeed semi-flexible nouns in general.
+An example of such a topic is proper nouns which are, what we have termed, _semi-flexible_ (_diptotes_ in Western grammars), and indeed semi-flexible nouns in general.
 
 In the chapter introductions, we will list any such topics contained in the chapter.
 When encountering such topics for the first time, we recommend that you skim through them to get a basic understanding and move on to more essential concepts.
 You may refer back to the topic when needed.
 
-Some of the sentences we present, both as examples and as chapter exercises, because of their artificial content, may seem of dubious usefulness to a learner wanting to learn practical usage. 
+Some of the sentences we present, both as examples and as chapter exercises, because of their contrived nature, may seem of dubious usefulness to a learner wanting to learn practical usage. 
 Also, when translating examples, we usually steer toward a literal, word-for-word, translation rather than an idiomatic one. 
 The resulting English will then often sound awkward, and even sometimes ungrammatical.
 This is to show a correspondence between the words in the Arabic sentence and the English translation.
@@ -7306,7 +7369,7 @@ Proper nouns are also known as names. Here are some examples of Arabic names:
 
 | Place |names | Misc. |names |
 |-:|:--|-:|:---|
-|^2^[مَكَّة]{.ar}   |Mecca     |^2^[رَمَضَان]{.ar} |[#ramadAn]{.trn2} (a month) |
+|^2^[مَكَّة]{.ar}   |Makkah     |^2^[رَمَضَان]{.ar} |[#ramadAn]{.trn2} (a month) |
 |^2^[دِمَشْق]{.ar}  |Damascus  |[أُحُد]{.ar}      |[#uHud]{.trn2} (a mountain)    |
 |^2^[مِصْر]{.ar}   |Egypt     |[ٱَلنِّيل]{.ar}    |the Nile (a river)             |
 |[ٱَلْقَاهِرَة]{.ar}  |Cairo     |[ٱَلْفَاتِحَة]{.ar}  |the [#fAtiHah]{.trn2} (a [sUrah]{.trn2}) |
@@ -7763,9 +7826,9 @@ and
 may be used in annexed names too. Here are some examples:
 
 + [ذُو ٱلْقَرْنَينِ]{.ar} [#pu l-#qarnayn]{.trn2} "He of the two horns"
-+ [مَدِينَة ٱلنَّبِي]{.ar} [madinatu -nnabiyyi]{.trn} "The City of the Prophet", frequently reduced to simply [ٱَلْمَدِينَة]{.ar} "Medina". 
++ [مَدِينَة ٱلنَّبِي]{.ar} [madinatu -nnabiyyi]{.trn} "The City of the Prophet", frequently reduced to simply [ٱَلْمَدِينَة]{.ar} "[al-#madInah]{.trn2}". 
 
-  Context is used to infer whether by [ٱَلْمَدِينَة]{.ar} is meant "Medina" or "the city".
+  Context is used to infer whether by [ٱَلْمَدِينَة]{.ar} is meant "[al-#madInah]{.trn2}" or "the city".
 + [ٱمْرُؤُ ٱلْقَيْس]{.ar} [#imruE al-#qays]{.trn2} "The man of al-Qays", a pre-[#islAm]{.trn2}ic poet.
 
 ## Names beginning with [ٱَلْ]{.ar}
@@ -7822,7 +7885,7 @@ Examples of place names are:
 
 |||||
 |--:|:---|--:|:---|
-|^2^[مَكَّة]{.ar}    |Mecca             |[ٱَلْمَدِينَة]{.ar}   |Medina|
+|^2^[مَكَّة]{.ar}    |Makkah             |[ٱَلْمَدِينَة]{.ar}   |[al-#madInah]{.trn2}|
 |^2^[دِمَشْق]{.ar}   |Damascus          |[ٱَلْقَاهِرَة]{.ar}   |Cairo |
 |^2^[بَغْدَاد]{.ar}  |[#bagdAd]{.trn2}  |[ٱَلْهِنْد]{.ar}     |India |
 |^2^[مِصْر]{.ar}    |Egypt             |[ٱَلصِّين]{.ar}     |China |
@@ -7832,7 +7895,7 @@ Examples of place names are:
 Example of use:
 
 [ذَهَبَ ٱلرَّجُلُ إِلَىٰ مَكَّةَ ٱلْمُكَرَّمَةِ وَٱلْمَدِينَةِ ٱلْمُنَوَّرَةِ.]{.ar}  
-"The man went to the ennobled Mecca and the illuminated Medina."
+"The man went to the ennobled Makkah and the illuminated [al-#madInah]{.trn2}."
 
 While most place names are feminine, a few are masculine. Among these are:
 
@@ -7888,7 +7951,7 @@ Otherwise, for example, if it comes before the verb, then the plural masculine p
 Example:
 
 [سَكَنَتْ قُرَيْشٌ مَكَّةَ وَعَبَدُوا ٱلْأَصْنَامَ.]{.ar}  
-"[#qurayc]{.trn2} dwelled in Mecca and they worshipped idols."
+"[#qurayc]{.trn2} dwelled in Makkah and they worshipped idols."
 
 ## Titles
 
@@ -7977,7 +8040,7 @@ Here are some examples of affiliate adjectival nouns:
 |||||
 |--:|:---|--:|:---|
 |[عِرَاقِيّ]{.ar}    |an Iraqi            |[قُرَشِيّ]{.ar}     |a [#qurayc]{.trn2}ite |
-|[مَكِّي]{.ar}      |a Meccan            |[تَمِيمِيّ]{.ar}    |a [#tamIm]{.trn2}ian  |
+|[مَكِّي]{.ar}      |a Makkan            |[تَمِيمِيّ]{.ar}    |a [#tamIm]{.trn2}ian  |
 |[دِمَشْقِيّ]{.ar}    |a Damascan          |[إِسْرَائِيلِيّ]{.ar} |an [#isrAEIl]{.trn2}ite|
 |[شَافِعِيّ]{.ar}    |a [#cAfie]{.trn2}ite |[حَنَفِيّ]{.ar}     |a [#HanafI]{.trn2}    |
 |[مَالِكِيّ]{.ar}    |a [#mAlikI]{.trn2}   |[حَنْبَلِيّ]{.ar}    |a [#HanbalI]{.trn2}   |
@@ -8375,7 +8438,7 @@ Example:
 "This Zayd is that Zaynab's brother."
 
 [قُرَيْشٌ هَـٰؤُلَاءِ سَكَنُوا بِمَكَّةَ.]{.ar}  
-"These [#qurayc]{.trn2} dwelled in Mecca."
+"These [#qurayc]{.trn2} dwelled in Makkah."
 
 If the name begins with [ٱَلْ]{.ar} then both orders are permitted.
 
