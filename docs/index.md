@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-775-g68b9bb3"
+date: "v0.1.0-776-g7b3843a"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -10090,7 +10090,7 @@ Examples of usage:
 Consider the sentence:
 
 [شَرِبَ زَيْدٌ ٱلْمَاءَ.]{.ar}  
-[sariba zayduni -lmAE.]{.trn}  
+[cariba zayduni -lmAE.]{.trn}  
 "Zayd drank the water."
 
 In this sentence, [زَيْدٌ]{.ar} "Zayd" is the doer of the verb [شَرِبَ]{.ar} "drank". 
