@@ -7,7 +7,7 @@ The Arabic alphabet traditionally has 28 letters, shown in the table below.
 
 No.|Arabic letter|Tran-scrip-tion|Name |Description
 :-|:--|:--|:------|:---------------------------
- 1|[ا]{.ar}|[A]{.trn}| [أَلِف]{.ar} [Ealif]{.trn2} |A vowel like in English "man". But after these letters ([خ،ر،ص،ض،غ،ق]{.ar}) it sounds like "awe" in English "awesome".
+ 1|[ا]{.ar}|[A]{.trn}| [أَلِف]{.ar} [alif]{.trn2}|A vowel like in English "man". But after these letters ([خ،ر،ص،ض،غ،ق]{.ar}) it sounds like "awe" in English "awesome".
  2|[ب]{.ar}|[b]{.trn}| [بَاء]{.ar} [bAE]{.trn2} |Equivalent to English "b" in "boy".
  3|[ت]{.ar}|[t]{.trn}| [تَاء]{.ar} [tAE]{.trn2} |Similar to English "t" in "tall" but softer. Touch the tongue against the back of the top front teeth instead of just the gum.
  4|[ث]{.ar}|[v]{.trn}| [ثَاء]{.ar} [vAE]{.trn2} |Similar to to English "th" in "think" but softer. Have your lips and cheek in a wide grin. Loosely bite the tip of your tongue between your front teeth and then force air out trying to hiss "ssss". Keep your tongue touching the top and bottom teeth and the hiss should come out like a "th" sound.
@@ -36,7 +36,11 @@ No.|Arabic letter|Tran-scrip-tion|Name |Description
 27|[و]{.ar}|[w]{.trn}/[U]{.trn}| [وَاو]{.ar} [wAw ]{.trn2} |As a consonant it is equivalent to English "w" in "water". It is also a vowel equivalent to English "oo" in "moon".
 28|[ي]{.ar}|[y]{.trn}/[I]{.trn}| [يَاء]{.ar} [yAE]{.trn2} |As a consonant it is equivalent to English "y" in "yellow". It is also a vowel equivalent to English "ee" in "meek".
 
-Note that the letters [و]{.ar} [wAw]{.trn2} and [ي]{.ar} [yAE]{.trn2} are both vowels and consonants. But that [ا]{.ar} [Ealif]{.trn2} is only a vowel. The consonant corresponding to [ا]{.ar} [Ealif]{.trn2} is [ء]{.ar} [hamzah]{.trn2}. Although [ء]{.ar} [hamzah]{.trn2} ought to be considered a letter in its own right, it was historically only pronounced and not written. So it is written as a pronunciation mark and is traditionally not considered part of the 28-letter alphabet.
+Note that the letters [و]{.ar} ([wAw]{.trn2}) and [ي]{.ar} ([yAE]{.trn2}) are both vowels and consonants. 
+But that [A]{.abar} ([A]{.aben}) is only a vowel. 
+The consonant corresponding to [A]{.abar} is [E]{.abar} ([E]{.aben}). 
+Although [E]{.abar} ([E]{.aben}) ought to be considered a letter in its own right, it was historically only pronounced and not written. 
+So it is written as a pronunciation mark and is traditionally not considered part of the 28-letter alphabet.
 
 No.|Arabic letter|Tran-scrip-tion|Name |Description
 :-|:--|:--|:----|:---------------------------
@@ -199,9 +203,9 @@ Disjoint & Joined (simplified) & Joined (traditional)\tabularnewline
 ```
 -->
 
-### Looped [tAE]{.trn2}
+### [o]{.abar} (rounded [t]{.aben})
 
-Looped [tAE]{.trn2} [ة]{.ar} is a special letter which is merged from two letters of the alphabet. It is a [tAE]{.trn2} [ت]{.ar} but it is written as a [ه]{.ar} [hAE]{.trn2} with two dots above it. Looped [tAE]{.trn2} [ة]{.ar} is pronounced exactly as a [ت]{.ar} [tAE]{.trn2}, except when it is at the end of a sentence in which case it is pronounced as a [ه]{.ar} [hAE]{.trn2} as we'll explain later, if [#allAh]{.trn2} wills. Looped [tAE]{.trn2} occurs only at the end of a word so it has only an end form and an isolated form (used when the letter before it is a partially-joining letter). 
+[#o]{.abar} is a special letter which is merged from two letters of the alphabet. It is a [t]{.abar} but it is written as a [h]{.abar} with two dots above it. [#o]{.abar} is pronounced exactly as a [t]{.abar}, except when it is at the end of a sentence in which case it is pronounced as a [h]{.abar} as we'll explain later, if [#allAh]{.trn2} wills. [#o]{.abar} occurs only at the end of a word so it has only an end form and an isolated form (used when the letter before it is a partially-joining letter). 
 
 Examples:
 
@@ -209,13 +213,14 @@ Examples:
 + [شجرة]{.ar}
 + [فتاة]{.ar}
 
-[ت]{.ar} is called "open [tAE]{.trn2}" when needed, to differentiate it from looped [tAE]{.trn2} [ة]{.ar}.
+[#o]{.abar} is called _rounded [t]{.aben}_ because it appears as if have taken [t]{.abar} and squeezed its shape until it became round.
+In contrast, [t]{.abar} is called _straightened [t]{.aben}_ when needed to differentiate it from [o]{.abar}.
 
 ### Writing [hamzah]{.trn2}
 
 We have mentioned that [hamzah]{.trn2} was a later addition to the Arabic alphabet and originally it was only sounded and not written. [#hamzah]{.trn2} can be written in a number of different ways:
 
-1. "Seated" above (or below) a vowel letter: [#hamzah]{.trn2} can be written above the vowel letters thus: [أ ؤ ئ]{.ar}. When written over [ي]{.ar}, the [ي]{.ar} will not have any dots, thus: [ئـ، ـئـ، ـئ]{.ar}. It may also be written under an [Ealif]{.trn2} thus: [إ]{.ar}. Examples: [أفعال]{.ar}, [سؤلك]{.ar}, [فئة]{.ar}, [إن]{.ar}.
+1. "Seated" above (or below) a vowel letter: [#hamzah]{.trn2} can be written above the vowel letters thus: [أ ؤ ئ]{.ar}. When written over [ي]{.ar}, the [ي]{.ar} will not have any dots, thus: [ئـ، ـئـ، ـئ]{.ar}. It may also be written under an [A]{.aben} thus: [إ]{.ar}. Examples: [أفعال]{.ar}, [سؤلك]{.ar}, [فئة]{.ar}, [إن]{.ar}.
 2. "Unseated" after a letter. This has two sub cases:
    a. Standalone, after a partially-joining letter or at the end of a word. Examples: [تساءل]{.ar}, [توءم]{.ar}, [عبء]{.ar}.
    a. Inline, in the middle of a word after a fully-joining letter. In this case [hamzah]{.trn2} is written above the horizontal line that joins the letters. Examples: [خطيـٔة]{.ar}, [شيـٔا]{.ar}, [بريـٔين]{.ar}.
@@ -260,16 +265,16 @@ Isolated | Middle
 [غ]{.ar}| [ـغـ]{.ar}
 [ف]{.ar}| [ـفـ]{.ar}
 
-The letters [Ealif]{.trn2} [ا]{.ar} and [lAm]{.trn2} [ل]{.ar} could also be confused for each other. Their forms are shown here again for easy comparison:
+The letters [A]{.aben} [ا]{.ar} and [lAm]{.trn2} [ل]{.ar} could also be confused for each other. Their forms are shown here again for easy comparison:
 
 Isolated | End | Middle | Beginnning
 :--------|:----|:-------|:----------
 [ا]{.ar}| [ـا]{.ar}| none | none
 [ل]{.ar}| [ـل]{.ar}| [ـلـ]{.ar}| [لـ]{.ar}
 
-### Joining [lAm]{.trn2} and [Ealif]{.trn2}
+### Joining [A]{.aben} after [lAm]{.trn2}
 
-When the letter [Ealif]{.trn2} follows [lAm]{.trn2} we would expect them to be joined like this [ل+ا]{.ar} &rarr; [لـا]{.ar}. But actually, they are joined in a special way 
+When the letter [A]{.aben} follows [lAm]{.trn2} we would expect them to be joined like this [ل+ا]{.ar} &rarr; [لـا]{.ar}. But actually, they are joined in a special way 
 
 [ل+ا]{.ar} &rarr; [لا]{.ar}
 
@@ -303,7 +308,7 @@ Examples of words with short vowels:
 
 There are also three long vowels which are part of the alphabet:
 
-1.  [A]{.trn} generally written with an unmarked [ا]{.ar} [Ealif]{.trn2} and with the preceding letter having an [a]{.trn}-mark. Example [مَا]{.ar} [mA]{.trn}. This vowel is mostly pronounced like the vowel in English “man”. If however, it comes after these letters [خ،ر،ص،ض،ط،ظ،غ،ق]{.ar} it is pronounced like English "awe".
+1.  [A]{.trn} generally written with an unmarked [A]{.aben} [ا]{.ar} and with the preceding letter having an [a]{.trn}-mark. Example [مَا]{.ar} [mA]{.trn}. This vowel is mostly pronounced like the vowel in English “man”. If however, it comes after these letters [خ،ر،ص،ض،ط،ظ،غ،ق]{.ar} it is pronounced like English "awe".
 1.  [I]{.trn} like in English “meek” written with an unmarked [ي]{.ar} [yAE]{.trn2} with the preceding letter having an [i]{.trn}-mark. Example [فِي]{.ar} [fI]{.trn}.
 1.  [U]{.trn} like in English “moon” written with an unmarked [و]{.ar} [wAw]{.trn2} with the preceding letter having an [u]{.trn}-mark. Example [ذُو]{.ar} [pU]{.trn}.
 
@@ -313,15 +318,15 @@ Examples of words with long and short vowels:
 + [كَذَا]{.ar} [kapA]{.trn}
 + [سَرَادِيبَ]{.ar} [sarAdIba]{.trn}
 
-#### [A]{.trn} vowel written with a small [Ealif]{.trn2}
+#### [A]{.trn} vowel written with a small [A]{.aben}
 
-Sometimes the [A]{.trn} vowel is written as a small [Ealif]{.trn2} [◌ٰ]{.ar}, called a "dagger [Ealif]{.trn2}", instead of a regular [Ealif]{.trn2} [ا]{.ar}. This is done only for a few commonly used words. Here are some examples:
+Sometimes the [A]{.trn} vowel is written as a small [A]{.aben} [◌ٰ]{.ar}, called a "dagger [A]{.aben}", instead of a regular [A]{.aben} [ا]{.ar}. This is done only for a few commonly used words. Here are some examples:
 
 + [هَـٰذَا]{.ar} [hApA]{.trn}
 + [ذَ ٰلِكَ]{.ar} [pAlika]{.trn}
 
 #### [A]{.trn} vowel written with a [yAE]{.trn2} {#a-vowel-written-with-a-ya}
-In some other words, the [A]{.trn} vowel is written with a [yAE]{.trn2} instead of an [Ealif]{.trn2} [ا]{.ar}. When this happens, we will write the [yAE]{.trn2} without its dots and write a dagger [Ealif]{.trn2} [◌ٰ]{.ar} above it, like this [ىٰ]{.ar}. Here are some examples:
+In some other words, the [A]{.trn} vowel is written with a [yAE]{.trn2} instead of an [A]{.aben} [ا]{.ar}. When this happens, we will write the [yAE]{.trn2} without its dots and write a dagger [A]{.aben} [◌ٰ]{.ar} above it, like this [ىٰ]{.ar}. Here are some examples:
 
 + [عَلَىٰ]{.ar} [ealA]{.trn}
 + [رَمَىٰ]{.ar} [ramA]{.trn}
@@ -376,17 +381,17 @@ Arabic also has three distinctive pronunciation marks, collectively called [n]{.
 
 These [n]{.trn}-marks may only occur on a letter at the end of a word. They are pronounced as a short vowel ([a]{.trn}, [i]{.trn}, or [u]{.trn}) followed by an [n]{.trn}. For example, [سَالِمٌ]{.ar} [sAlimun]{.trn}, [سَالِمٍ]{.ar} [sAlimin]{.trn}.
 
-As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally add a silent [Ealif]{.trn2} after it, for example [سَالِم]{.ar} becomes [سَالِمًا]{.ar} [sAliman]{.trn}. This is done for all words except:
+As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally add a silent [A]{.aben} after it, for example [سَالِم]{.ar} becomes [سَالِمًا]{.ar} [sAliman]{.trn}. This is done for all words except:
 
-1. If the word ends with a looped [tAE]{.trn2} [ة]{.ar}. In this case we don't add the silent [Ealif]{.trn2}. For example, [غَاضِبَة]{.ar} becomes [غَاضِبَةً]{.ar} [gADibatan]{.trn}, not [غَاضِبَةًا]{.ar} or [غَاضِبَتًا]{.ar}.
+1. If the word ends with a [ة]{.ar}. In this case we don't add the silent [A]{.aben}. For example, [غَاضِبَة]{.ar} becomes [غَاضِبَةً]{.ar} [gADibatan]{.trn}, not [غَاضِبَةًا]{.ar} or [غَاضِبَتًا]{.ar}.
 
-2. If the word ends with a [A]{.trn} vowel, whether written with an [Ealif]{.trn2} [ا]{.ar} or  as a [yAE]{.trn2} with dagger [Ealif]{.trn2} [ىٰ]{.ar}. In this case, the [an]{.trn} mark is put on the letter before the [Ealif]{.trn2} [ا]{.ar} or [yAE]{.trn2} [ىٰ]{.ar} and the final vowel letter becomes silent and is not pronounced. For example, [مُصْطَفَىٰ]{.ar} becomes [مُصْطَفًى]{.ar} [muSTafan]{.trn}, [عَصَا]{.ar} becomes [عَصًا]{.ar} [eaSan]{.trn}.
+2. If the word ends with a [A]{.trn} vowel, whether written with an [A]{.aben} [ا]{.ar} or  as a [yAE]{.trn2} with dagger [A]{.aben} [ىٰ]{.ar}. In this case, the [an]{.trn} mark is put on the letter before the [A]{.aben} [ا]{.ar} or [yAE]{.trn2} [ىٰ]{.ar} and the final vowel letter becomes silent and is not pronounced. For example, [مُصْطَفَىٰ]{.ar} becomes [مُصْطَفًى]{.ar} [muSTafan]{.trn}, [عَصَا]{.ar} becomes [عَصًا]{.ar} [eaSan]{.trn}.
 
-2. If the word ends with a [hamzah]{.trn2}. In this case, we might or might not write a silent [Ealif]{.trn2}, depending on the following rules:
+2. If the word ends with a [hamzah]{.trn2}. In this case, we might or might not write a silent [A]{.aben}, depending on the following rules:
 
-   a. If there is an [Ealif]{.trn2} before an unseated [hamzah]{.trn2} [اء]{.ar}, then we don't add a silent [Ealif]{.trn2}. For example [دَاء]{.ar} becomes [دَاءً]{.ar} [dAEan]{.trn}, not [دَاءًا]{.ar}.
+   a. If there is an [A]{.aben} before an unseated [hamzah]{.trn2} [اء]{.ar}, then we don't add a silent [A]{.aben}. For example [دَاء]{.ar} becomes [دَاءً]{.ar} [dAEan]{.trn}, not [دَاءًا]{.ar}.
 
-   b. Otherwise, we add a silent [Ealif]{.trn2} after the [hamzah]{.trn2}. However, this may affect the writing of the [hamzah]{.trn2}, for example [مُبْتَدَأ]{.ar} becomes [مُبْتَدَءًا]{.ar} [mubtadaEan]{.trn}. This is discussed further in Appendix \@ref(hamzarules).
+   b. Otherwise, we add a silent [A]{.aben} after the [hamzah]{.trn2}. However, this may affect the writing of the [hamzah]{.trn2}, for example [مُبْتَدَأ]{.ar} becomes [مُبْتَدَءًا]{.ar} [mubtadaEan]{.trn}. This is discussed further in Appendix \@ref(hamzarules).
 
 Here are some examples of words with [n]{.trn}-marks:
 
@@ -402,7 +407,7 @@ Here are some examples of words with [n]{.trn}-marks:
 
 ## Connecting [hamzah]{.trn2}
 
-Some words in arabic begin with a [0]{.txt}-mark. When this occurs a connecting [hamzah]{.trn2} [ٱ]{.ar} (written as a tiny [صـ]{.ar} on an [Ealif]{.trn2}) is put before it. If this word comes in the beginning of the sentence the connecting alif is pronounced as a [hamzah]{.trn2}. Otherwise this connecting [hamzah]{.trn2} is not pronounced and the word is connected to the final vowel of the previous word in pronunciation. In this tutorial we will transcribe the connecting [hamzah]{.trn2} with a hyphen "-". Examples of connecting [hamzah]{.trn2}:
+Some words in arabic begin with a [0]{.txt}-mark. When this occurs a connecting [hamzah]{.trn2} [ٱ]{.ar} (written as a tiny [صـ]{.ar} on an [A]{.aben}) is put before it. If this word comes in the beginning of the sentence the connecting alif is pronounced as a [hamzah]{.trn2}. Otherwise this connecting [hamzah]{.trn2} is not pronounced and the word is connected to the final vowel of the previous word in pronunciation. In this tutorial we will transcribe the connecting [hamzah]{.trn2} with a hyphen "-". Examples of connecting [hamzah]{.trn2}:
 
 [ٱِفْتَحِ ٱلْبَابَ]{.ar}  
 [EiftaHi -lbAba]{.trn}
@@ -428,7 +433,7 @@ When one word ends in a long vowel and the next word begins with a connecting [h
 
 ## Pronouncing the end of a sentence
 
-When a word is at the end of a sentence and it ends with a long vowel, then the final long vowel is pronounced normally. However, when a word at the end of a sentence does not end with a long vowel, then the final letter's pronunciation mark is pronounced as a [0]{.txt}-mark when vocalizing the sentence. If the final letter is a looped [tAE]{.trn2} [ة]{.ar} then it is pronounced as a [ه]{.ar} [hAE]{.trn2} with a [0]{.txt}-mark. 
+When a word is at the end of a sentence and it ends with a long vowel, then the final long vowel is pronounced normally. However, when a word at the end of a sentence does not end with a long vowel, then the final letter's pronunciation mark is pronounced as a [0]{.txt}-mark when vocalizing the sentence. If the final letter is a [ة]{.ar} then it is pronounced as a [ه]{.ar} [hAE]{.trn2} with a [0]{.txt}-mark. 
 
 This change in pronunciation is only vocal, it does not affect how we write the pronunciation mark. Here we give some examples of words pronounced if they were at the end of a sentence:
 
@@ -444,7 +449,7 @@ This change in pronunciation is only vocal, it does not affect how we write the 
 [وَالِدَيَّ]{.ar}  
 [wAlidayy]{.trn}
 
-If however, the final letter's pronunciation mark is a [an]{.trn} mark then it is pronounced as a long-[A]{.trn} vowel. The only exception is if the final letter were looped [tAE]{.trn2} [ةً]{.ar}, in which case it is then pronounced as a [hAE]{.trn2} with a [0]{.txt}-mark [هْ]{.ar}. Here are examples of words with [an]{.trn} marks pronounced as if they were at the end of a sentence.
+If however, the final letter's pronunciation mark is a [an]{.trn} mark then it is pronounced as a long-[A]{.trn} vowel. The only exception is if the final letter were [ةً]{.ar}, in which case it is then pronounced as a [hAE]{.trn2} with a [0]{.txt}-mark [هْ]{.ar}. Here are examples of words with [an]{.trn} marks pronounced as if they were at the end of a sentence.
 
 [مَفْعُولًا]{.ar}  
 [mafeUlA]{.trn}
@@ -455,7 +460,7 @@ If however, the final letter's pronunciation mark is a [an]{.trn} mark then it i
 [مَرْفُوعَةً]{.ar}  
 [marfUeah]{.trn}
 
-Note that the above exception is only for looped [tAE]{.trn2}. If a [hamzah]{.trn2} with an [an]{.trn} mark occurs at the end of a word, then it too will be pronounced as if it had a long-[A]{.trn} vowel after it. Such is the case, whether or not a silent [Ealif]{.trn2} is written after the [hamzah]{.trn2}. Examples:
+Note that the above exception is only for [ة]{.ar}. If a [hamzah]{.trn2} with an [an]{.trn} mark occurs at the end of a word, then it too will be pronounced as if it had a long-[A]{.trn} vowel after it. Such is the case, whether or not a silent [A]{.aben} is written after the [hamzah]{.trn2}. Examples:
 
 + [مُبْتَدَءًا]{.ar} is pronounced [mubtadaEA]{.trn}
 + [دُعَاءً]{.ar} is pronounced [dueAEA]{.trn}
