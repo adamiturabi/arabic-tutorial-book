@@ -344,8 +344,8 @@ As we have seen above if an Arabic letter has a vowel after it it will take one 
 
 Arabic has two short semi-vowels:
 
-1. [aw]{.trn} like in English “show”. This is written with a [wAw]{.trn2} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [لَوْ]{.ar} [law]{.trn}. 
-2. [ay]{.trn} like in English “bait”. This is written with a [yAE]{.trn2} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [كَيْ]{.ar} [kay]{.trn}. 
+1. [aw]{.trn} like in English “show”. This is written with a [wAw]{.trn2} with a [0]{.txt}-mark on it and a short [a]{.trn} vowel before it. Example [لَوْ]{.ar} [law]{.trn}. 
+2. [ay]{.trn} like in English “bait”. This is written with a [yAE]{.trn2} with a [0]{.txt}-mark on it and a short [a]{.trn} vowel before it. Example [كَيْ]{.ar} [kay]{.trn}. 
 Examples with short semi-vowels:
 
 + [وَيْحَكَ]{.ar} [wayHaka]{.trn}
@@ -354,8 +354,8 @@ Examples with short semi-vowels:
 
 It also has two long semi-vowels:
 
-1. [Aw]{.trn} like in English “cow”. This is written with a [wAw]{.trn2} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [وَاوْ]{.ar} [wAw]{.trn}. 
-2. [Ay]{.trn} like in English “bye”. This is written with a [yAE]{.trn2} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [شَايْ]{.ar} [cAy]{.trn}.
+1. [Aw]{.trn} like in English “cow”. This is written with a [wAw]{.trn2} with a [0]{.txt}-mark on it and a long [A]{.trn} vowel before it. Example [وَاوْ]{.ar} [wAw]{.trn}. 
+2. [Ay]{.trn} like in English “bye”. This is written with a [yAE]{.trn2} with a [0]{.txt}-mark on it and a long [A]{.trn} vowel before it. Example [شَايْ]{.ar} [cAy]{.trn}.
 
 These long semi-vowels are rare and may only occur at the end of a sentence.
 
@@ -371,19 +371,36 @@ A word may contain "doubled" letters. This is when the same letter occurs, one a
 + [ضَالِّينَ]{.ar} [DAllIna]{.trn}
 + [مُزَّمِّلُ]{.ar} [muzzammilu]{.trn}
 
-### [n]{.trn}-marks
+### [#nUn]{.trn2}ation
 
+In the next chapter, we will learn, if [#allAh]{.trn2} wills, that 
+nouns in Arabic are sometimes pronouned with an extra [n]{.aben} sound at their end. 
+This is called _[nUn]{.trn2}ation_.
+[#nUn]{.trn2}ation is indicated in writing,
+not by adding a the letter [n]{.abar}
+at the end of the word,
+but by writing the final vowel mark twice, thus:
+
+1. [◌ٌ]{.ar} [un]{.trn}, for example [كِتَابٌ]{.ar} [kitAbun]{.trn}.
+1. [◌ً]{.ar} [an]{.trn}, for example [شَجَرَةً]{.ar} [cajaratan]{.trn}.
+1. [◌ٍ]{.ar} [in]{.trn}, for example [بَيْتٍ]{.ar} [baytin]{.trn}.
+
+<!--
 Arabic also has three distinctive pronunciation marks, collectively called [n]{.trn}-marks.
 
-1. [an]{.trn}-mark [◌ً]{.ar}
-1. [in]{.trn}-mark [◌ٍ]{.ar}
-1. [un]{.trn}-mark [◌ٌ]{.ar}
+1. [nUn]{.trn2}ated [a]{.trn}-mark [◌ً]{.ar}
+1. [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar}
+1. [nUn]{.trn2}ated [u]{.trn}-mark [◌ٌ]{.ar}
 
 These [n]{.trn}-marks may only occur on a letter at the end of a word. They are pronounced as a short vowel ([a]{.trn}, [i]{.trn}, or [u]{.trn}) followed by an [n]{.trn}. For example, [سَالِمٌ]{.ar} [sAlimun]{.trn}, [سَالِمٍ]{.ar} [sAlimin]{.trn}.
 
 As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally add a silent [A]{.aben} after it, for example [سَالِم]{.ar} becomes [سَالِمًا]{.ar} [sAliman]{.trn}. This is done for all words except:
+-->
 
-1. If the word ends with a [ة]{.ar}. In this case we don't add the silent [A]{.aben}. For example, [غَاضِبَة]{.ar} becomes [غَاضِبَةً]{.ar} [gADibatan]{.trn}, not [غَاضِبَةًا]{.ar} or [غَاضِبَتًا]{.ar}.
+The [nUn]{.trn2}ated [a]{.trn}-mark [◌ً]{.ar} has specific spelling rules: Generally, 
+we will generally add a silent [A]{.aben} after it, for example [سَالِم]{.ar} becomes [سَالِمًا]{.ar} [sAliman]{.trn}. This is done for all words except:
+
+1. If the word ends with a [ة]{.ar}. In this case we don't add the silent [A]{.aben}. For example, [غَاضِبَة]{.ar} becomes [غَاضِبَةً]{.ar} [gADibatan]{.trn}. <!--, not [غَاضِبَةًا]{.ar} or [غَاضِبَتًا]{.ar}.-->
 
 2. If the word ends with a [A]{.trn} vowel, whether written with an [A]{.aben} [ا]{.ar} or  as a [yAE]{.trn2} with dagger [A]{.aben} [ىٰ]{.ar}. In this case, the [an]{.trn} mark is put on the letter before the [A]{.aben} [ا]{.ar} or [yAE]{.trn2} [ىٰ]{.ar} and the final vowel letter becomes silent and is not pronounced. For example, [مُصْطَفَىٰ]{.ar} becomes [مُصْطَفًى]{.ar} [muSTafan]{.trn}, [عَصَا]{.ar} becomes [عَصًا]{.ar} [eaSan]{.trn}.
 
@@ -391,9 +408,9 @@ As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally ad
 
    a. If there is an [A]{.aben} before an unseated [hamzah]{.trn2} [اء]{.ar}, then we don't add a silent [A]{.aben}. For example [دَاء]{.ar} becomes [دَاءً]{.ar} [dAEan]{.trn}, not [دَاءًا]{.ar}.
 
-   b. Otherwise, we add a silent [A]{.aben} after the [hamzah]{.trn2}. However, this may affect the writing of the [hamzah]{.trn2}, for example [مُبْتَدَأ]{.ar} becomes [مُبْتَدَءًا]{.ar} [mubtadaEan]{.trn}. This is discussed further in Appendix \@ref(hamzarules).
+   b. Otherwise, we add a silent [A]{.aben} after the [hamzah]{.trn2}. However, this may affect the writing of the [hamzah]{.trn2}, for example [مُبْتَدَأ]{.ar} becomes [مُبْتَدَءًا]{.ar} [mubtadaEan]{.trn}. This is discussed further in appendix \@ref(hamzarules).
 
-Here are some examples of words with [n]{.trn}-marks:
+Here are some examples of [n]{.aben}ed words:
 
 + [سَعْدٌ]{.ar}  [saedun]{.trn}   \vphantom{\huge J}
 + [ضَرْبًا]{.ar} [Darban]{.trn}   \vphantom{\huge J}

@@ -130,23 +130,59 @@ Examples:
 
 ## State
 
-Nouns in Arabic can be in one of three _states_. You may think of the grammatical states of nouns like the physical states of matter: solid, liquid, and gas. The same water can be in a solid ice state, or a liquid water state, or a gaseous water vapour state. Similarly, the same noun, in Arabic, may be in one of the three grammatical states:
+Nouns in Arabic have a property called _state_.
+The state of a noun is dependent on the function of the noun in a sentence.
+The state of a noun is indicated by the noun's ending. 
+There are three states that a noun can be in.
+They are:
+<!--You may think of the grammatical states of nouns like the physical states of matter: solid, liquid, and gas. The same water can be in a solid ice state, or a liquid water state, or a gaseous water vapour state. Similarly, the same noun, in Arabic, may be in one of the three grammatical states:
 
-1. u-state: indicated by a [u]{.trn}-mark [◌ُ]{.ar} (for definite nouns) and an [un]{.trn}-mark [◌ٌ]{.ar} (for indefinite nouns) on the final letter of the word.
-2. a-state: indicated by an [a]{.trn}-mark [◌َ]{.ar} (for definite nouns) and an [an]{.trn}-mark [◌ً]{.ar} (for indefinite nouns) on the final letter of the word.
-3. i-state: indicated by an [i]{.trn}-mark [◌ِ]{.ar} (for definite nouns) and an [in]{.trn}-mark [◌ٍ]{.ar} (for indefinite nouns) on the final letter of the word.
+1. u-state: indicated by a [u]{.trn}-mark [◌ُ]{.ar} (for definite nouns) and a [nUn]{.trn2}ated [u]{.trn}-mark [◌ٌ]{.ar} (for indefinite nouns) on the final letter of the word.
+2. a-state: indicated by an [a]{.trn}-mark [◌َ]{.ar} (for definite nouns) and a [nUn]{.trn2}ated [a]{.trn}-mark [◌ً]{.ar} (for indefinite nouns) on the final letter of the word.
+3. i-state: indicated by an [i]{.trn}-mark [◌ِ]{.ar} (for definite nouns) and a [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar} (for indefinite nouns) on the final letter of the word.
+-->
+
+1. the [u]{.smallcaps}-state, indicated, for most nouns, by a [◌ُ]{.ar} on the final letter of the noun.
+1. the [a]{.smallcaps}-state, indicated, for most nouns, by a [◌َ]{.ar} on the final letter of the noun.
+1. the [i]{.smallcaps}-state, indicated, for most nouns, by a [◌ِ]{.ar} on the final letter of the noun.
+
+When a noun is indefinite, then, for most nouns, it<!--s final (state-indicating) vowel--> is also [nUn]{.trn2}ated.
+Here, for example, is the noun [كِتَاب]{.ar} [kitAb]{.trn} "book" in its three states:
+
+State         | Indefinite "a book" | Definite "the book"
+:-------------|:-----------------|:--------------
+[u]{.smallcaps}-state       |[كِتَابٌ]{.ar} [kitAbun]{.trn}  |[ٱَلْكِتَابُ]{.ar} [EalkitAbu]{.trn} 
+[a]{.smallcaps}-state       |[كِتَابًا]{.ar} [kitAban]{.trn} |[ٱَلْكِتَابَ]{.ar} [EalkitAba]{.trn} 
+[i]{.smallcaps}-state       |[كِتَابٍ]{.ar} [kitAbin]{.trn}  |[ٱَلْكِتَابِ]{.ar} [EalkitAbi]{.trn} 
+
+<!--
+You can use the following mnemonic to help you remember the states:
+
++ The [r]{.smallcaps}-state is called so because it is the **r**egular state. This is the state a noun will be in by default, and there needs to be a reason to take the noun out of this state into another state.
++ The [n]{.smallcaps}-state is called so because it is the **n**ext state built upon the regular state. 
++ The [j]{.smallcaps}-state is called so because it is the **j**ammed state or closed state.
+-->
+The [u]{.smallcaps}-state is a noun's normal state in a sentence, and there needs to be a reason to take the noun out of this state into another state.
+We will begin to use state more in the next chapter if [#allAh]{.trn2} wills, where we learn how to form sentences.
+<!--
+The state of a noun is indicated by the noun's ending. 
+For most nouns,
+the [r]{.smallcaps}-state is indicated by a [◌ُ]{.ar} on the final letter of the noun,
+the [n]{.smallcaps}-state is indicated by a [◌َ]{.ar} on the final letter of the noun,
+the [j]{.smallcaps}-state is indicated by a [◌ِ]{.ar} on the final letter of the noun,
 
 Here are the nouns "a book" and "the book" in their three states:
 
 State         | Indefinite "a book" | Definite "the book"
 :-------------|:-----------------|:--------------
-u-state       |[كِتَابٌ]{.ar} [kitAbun]{.trn}  |[ٱَلْكِتَابُ]{.ar} [EalkitAbu]{.trn} 
-a-state       |[كِتَابًا]{.ar} [kitAban]{.trn} |[ٱَلْكِتَابَ]{.ar} [EalkitAba]{.trn} 
-i-state       |[كِتَابٍ]{.ar} [kitAbin]{.trn}  |[ٱَلْكِتَابِ]{.ar} [EalkitAbi]{.trn} 
+[r]{.smallcaps}-state       |[كِتَابٌ]{.ar} [kitAbun]{.trn}  |[ٱَلْكِتَابُ]{.ar} [EalkitAbu]{.trn} 
+[n]{.smallcaps}-state       |[كِتَابًا]{.ar} [kitAban]{.trn} |[ٱَلْكِتَابَ]{.ar} [EalkitAba]{.trn} 
+[j]{.smallcaps}-state       |[كِتَابٍ]{.ar} [kitAbin]{.trn}  |[ٱَلْكِتَابِ]{.ar} [EalkitAbi]{.trn} 
 
 
 The choice of which state a noun is in depends on its function in a sentence. For example, if the noun is a subject of a sentence, it will usually be in the u-state. And if it is used adverbially, it will often be in the a-state. And if it occurs after a preposition, it will be in the i-state. We will learn more about putting nouns in their different states throughout this book. 
 Generally speaking, the u-state is the normal state. And there needs to be a reason to take the noun out of the u-state and into one of the other states.
+-->
 
 <!--
 ## Flexibility of nouns
