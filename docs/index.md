@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-778-ga994c0f"
+date: "v0.1.0-782-gab6909d"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -765,8 +765,8 @@ As we have seen above if an Arabic letter has a vowel after it it will take one 
 
 Arabic has two short semi-vowels:
 
-1. [aw]{.trn} like in English “show”. This is written with a [wAw]{.trn2} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [لَوْ]{.ar} [law]{.trn}. 
-2. [ay]{.trn} like in English “bait”. This is written with a [yAE]{.trn2} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [كَيْ]{.ar} [kay]{.trn}. 
+1. [aw]{.trn} like in English “show”. This is written with a [wAw]{.trn2} with a [0]{.txt}-mark on it and a short [a]{.trn} vowel before it. Example [لَوْ]{.ar} [law]{.trn}. 
+2. [ay]{.trn} like in English “bait”. This is written with a [yAE]{.trn2} with a [0]{.txt}-mark on it and a short [a]{.trn} vowel before it. Example [كَيْ]{.ar} [kay]{.trn}. 
 Examples with short semi-vowels:
 
 + [وَيْحَكَ]{.ar} [wayHaka]{.trn}
@@ -775,8 +775,8 @@ Examples with short semi-vowels:
 
 It also has two long semi-vowels:
 
-1. [Aw]{.trn} like in English “cow”. This is written with a [wAw]{.trn2} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [وَاوْ]{.ar} [wAw]{.trn}. 
-2. [Ay]{.trn} like in English “bye”. This is written with a [yAE]{.trn2} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [شَايْ]{.ar} [cAy]{.trn}.
+1. [Aw]{.trn} like in English “cow”. This is written with a [wAw]{.trn2} with a [0]{.txt}-mark on it and a long [A]{.trn} vowel before it. Example [وَاوْ]{.ar} [wAw]{.trn}. 
+2. [Ay]{.trn} like in English “bye”. This is written with a [yAE]{.trn2} with a [0]{.txt}-mark on it and a long [A]{.trn} vowel before it. Example [شَايْ]{.ar} [cAy]{.trn}.
 
 These long semi-vowels are rare and may only occur at the end of a sentence.
 
@@ -792,19 +792,36 @@ A word may contain "doubled" letters. This is when the same letter occurs, one a
 + [ضَالِّينَ]{.ar} [DAllIna]{.trn}
 + [مُزَّمِّلُ]{.ar} [muzzammilu]{.trn}
 
-### [n]{.trn}-marks
+### [#nUn]{.trn2}ation
 
+In the next chapter, we will learn, if [#allAh]{.trn2} wills, that 
+nouns in Arabic are sometimes pronouned with an extra [n]{.aben} sound at their end. 
+This is called _[nUn]{.trn2}ation_.
+[#nUn]{.trn2}ation is indicated in writing,
+not by adding a the letter [n]{.abar}
+at the end of the word,
+but by writing the final vowel mark twice, thus:
+
+1. [◌ٌ]{.ar} [un]{.trn}, for example [كِتَابٌ]{.ar} [kitAbun]{.trn}.
+1. [◌ً]{.ar} [an]{.trn}, for example [شَجَرَةً]{.ar} [cajaratan]{.trn}.
+1. [◌ٍ]{.ar} [in]{.trn}, for example [بَيْتٍ]{.ar} [baytin]{.trn}.
+
+<!--
 Arabic also has three distinctive pronunciation marks, collectively called [n]{.trn}-marks.
 
-1. [an]{.trn}-mark [◌ً]{.ar}
-1. [in]{.trn}-mark [◌ٍ]{.ar}
-1. [un]{.trn}-mark [◌ٌ]{.ar}
+1. [nUn]{.trn2}ated [a]{.trn}-mark [◌ً]{.ar}
+1. [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar}
+1. [nUn]{.trn2}ated [u]{.trn}-mark [◌ٌ]{.ar}
 
 These [n]{.trn}-marks may only occur on a letter at the end of a word. They are pronounced as a short vowel ([a]{.trn}, [i]{.trn}, or [u]{.trn}) followed by an [n]{.trn}. For example, [سَالِمٌ]{.ar} [sAlimun]{.trn}, [سَالِمٍ]{.ar} [sAlimin]{.trn}.
 
 As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally add a silent [A]{.aben} after it, for example [سَالِم]{.ar} becomes [سَالِمًا]{.ar} [sAliman]{.trn}. This is done for all words except:
+-->
 
-1. If the word ends with a [ة]{.ar}. In this case we don't add the silent [A]{.aben}. For example, [غَاضِبَة]{.ar} becomes [غَاضِبَةً]{.ar} [gADibatan]{.trn}, not [غَاضِبَةًا]{.ar} or [غَاضِبَتًا]{.ar}.
+The [nUn]{.trn2}ated [a]{.trn}-mark [◌ً]{.ar} has specific spelling rules: Generally, 
+we will generally add a silent [A]{.aben} after it, for example [سَالِم]{.ar} becomes [سَالِمًا]{.ar} [sAliman]{.trn}. This is done for all words except:
+
+1. If the word ends with a [ة]{.ar}. In this case we don't add the silent [A]{.aben}. For example, [غَاضِبَة]{.ar} becomes [غَاضِبَةً]{.ar} [gADibatan]{.trn}. <!--, not [غَاضِبَةًا]{.ar} or [غَاضِبَتًا]{.ar}.-->
 
 2. If the word ends with a [A]{.trn} vowel, whether written with an [A]{.aben} [ا]{.ar} or  as a [yAE]{.trn2} with dagger [A]{.aben} [ىٰ]{.ar}. In this case, the [an]{.trn} mark is put on the letter before the [A]{.aben} [ا]{.ar} or [yAE]{.trn2} [ىٰ]{.ar} and the final vowel letter becomes silent and is not pronounced. For example, [مُصْطَفَىٰ]{.ar} becomes [مُصْطَفًى]{.ar} [muSTafan]{.trn}, [عَصَا]{.ar} becomes [عَصًا]{.ar} [eaSan]{.trn}.
 
@@ -812,9 +829,9 @@ As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally ad
 
    a. If there is an [A]{.aben} before an unseated [hamzah]{.trn2} [اء]{.ar}, then we don't add a silent [A]{.aben}. For example [دَاء]{.ar} becomes [دَاءً]{.ar} [dAEan]{.trn}, not [دَاءًا]{.ar}.
 
-   b. Otherwise, we add a silent [A]{.aben} after the [hamzah]{.trn2}. However, this may affect the writing of the [hamzah]{.trn2}, for example [مُبْتَدَأ]{.ar} becomes [مُبْتَدَءًا]{.ar} [mubtadaEan]{.trn}. This is discussed further in Appendix \@ref(hamzarules).
+   b. Otherwise, we add a silent [A]{.aben} after the [hamzah]{.trn2}. However, this may affect the writing of the [hamzah]{.trn2}, for example [مُبْتَدَأ]{.ar} becomes [مُبْتَدَءًا]{.ar} [mubtadaEan]{.trn}. This is discussed further in appendix \@ref(hamzarules).
 
-Here are some examples of words with [n]{.trn}-marks:
+Here are some examples of [n]{.aben}ed words:
 
 + [سَعْدٌ]{.ar}  [saedun]{.trn}   \vphantom{\huge J}
 + [ضَرْبًا]{.ar} [Darban]{.trn}   \vphantom{\huge J}
@@ -1046,23 +1063,59 @@ Examples:
 
 ## State
 
-Nouns in Arabic can be in one of three _states_. You may think of the grammatical states of nouns like the physical states of matter: solid, liquid, and gas. The same water can be in a solid ice state, or a liquid water state, or a gaseous water vapour state. Similarly, the same noun, in Arabic, may be in one of the three grammatical states:
+Nouns in Arabic have a property called _state_.
+The state of a noun is dependent on the function of the noun in a sentence.
+The state of a noun is indicated by the noun's ending. 
+There are three states that a noun can be in.
+They are:
+<!--You may think of the grammatical states of nouns like the physical states of matter: solid, liquid, and gas. The same water can be in a solid ice state, or a liquid water state, or a gaseous water vapour state. Similarly, the same noun, in Arabic, may be in one of the three grammatical states:
 
-1. u-state: indicated by a [u]{.trn}-mark [◌ُ]{.ar} (for definite nouns) and an [un]{.trn}-mark [◌ٌ]{.ar} (for indefinite nouns) on the final letter of the word.
-2. a-state: indicated by an [a]{.trn}-mark [◌َ]{.ar} (for definite nouns) and an [an]{.trn}-mark [◌ً]{.ar} (for indefinite nouns) on the final letter of the word.
-3. i-state: indicated by an [i]{.trn}-mark [◌ِ]{.ar} (for definite nouns) and an [in]{.trn}-mark [◌ٍ]{.ar} (for indefinite nouns) on the final letter of the word.
+1. u-state: indicated by a [u]{.trn}-mark [◌ُ]{.ar} (for definite nouns) and a [nUn]{.trn2}ated [u]{.trn}-mark [◌ٌ]{.ar} (for indefinite nouns) on the final letter of the word.
+2. a-state: indicated by an [a]{.trn}-mark [◌َ]{.ar} (for definite nouns) and a [nUn]{.trn2}ated [a]{.trn}-mark [◌ً]{.ar} (for indefinite nouns) on the final letter of the word.
+3. i-state: indicated by an [i]{.trn}-mark [◌ِ]{.ar} (for definite nouns) and a [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar} (for indefinite nouns) on the final letter of the word.
+-->
+
+1. the [u]{.smallcaps}-state, indicated, for most nouns, by a [◌ُ]{.ar} on the final letter of the noun.
+1. the [a]{.smallcaps}-state, indicated, for most nouns, by a [◌َ]{.ar} on the final letter of the noun.
+1. the [i]{.smallcaps}-state, indicated, for most nouns, by a [◌ِ]{.ar} on the final letter of the noun.
+
+When a noun is indefinite, then, for most nouns, it<!--s final (state-indicating) vowel--> is also [nUn]{.trn2}ated.
+Here, for example, is the noun [كِتَاب]{.ar} [kitAb]{.trn} "book" in its three states:
+
+State         | Indefinite "a book" | Definite "the book"
+:-------------|:-----------------|:--------------
+[u]{.smallcaps}-state       |[كِتَابٌ]{.ar} [kitAbun]{.trn}  |[ٱَلْكِتَابُ]{.ar} [EalkitAbu]{.trn} 
+[a]{.smallcaps}-state       |[كِتَابًا]{.ar} [kitAban]{.trn} |[ٱَلْكِتَابَ]{.ar} [EalkitAba]{.trn} 
+[i]{.smallcaps}-state       |[كِتَابٍ]{.ar} [kitAbin]{.trn}  |[ٱَلْكِتَابِ]{.ar} [EalkitAbi]{.trn} 
+
+<!--
+You can use the following mnemonic to help you remember the states:
+
++ The [r]{.smallcaps}-state is called so because it is the **r**egular state. This is the state a noun will be in by default, and there needs to be a reason to take the noun out of this state into another state.
++ The [n]{.smallcaps}-state is called so because it is the **n**ext state built upon the regular state. 
++ The [j]{.smallcaps}-state is called so because it is the **j**ammed state or closed state.
+-->
+The [u]{.smallcaps}-state is a noun's normal state in a sentence, and there needs to be a reason to take the noun out of this state into another state.
+We will begin to use state more in the next chapter if [#allAh]{.trn2} wills, where we learn how to form sentences.
+<!--
+The state of a noun is indicated by the noun's ending. 
+For most nouns,
+the [r]{.smallcaps}-state is indicated by a [◌ُ]{.ar} on the final letter of the noun,
+the [n]{.smallcaps}-state is indicated by a [◌َ]{.ar} on the final letter of the noun,
+the [j]{.smallcaps}-state is indicated by a [◌ِ]{.ar} on the final letter of the noun,
 
 Here are the nouns "a book" and "the book" in their three states:
 
 State         | Indefinite "a book" | Definite "the book"
 :-------------|:-----------------|:--------------
-u-state       |[كِتَابٌ]{.ar} [kitAbun]{.trn}  |[ٱَلْكِتَابُ]{.ar} [EalkitAbu]{.trn} 
-a-state       |[كِتَابًا]{.ar} [kitAban]{.trn} |[ٱَلْكِتَابَ]{.ar} [EalkitAba]{.trn} 
-i-state       |[كِتَابٍ]{.ar} [kitAbin]{.trn}  |[ٱَلْكِتَابِ]{.ar} [EalkitAbi]{.trn} 
+[r]{.smallcaps}-state       |[كِتَابٌ]{.ar} [kitAbun]{.trn}  |[ٱَلْكِتَابُ]{.ar} [EalkitAbu]{.trn} 
+[n]{.smallcaps}-state       |[كِتَابًا]{.ar} [kitAban]{.trn} |[ٱَلْكِتَابَ]{.ar} [EalkitAba]{.trn} 
+[j]{.smallcaps}-state       |[كِتَابٍ]{.ar} [kitAbin]{.trn}  |[ٱَلْكِتَابِ]{.ar} [EalkitAbi]{.trn} 
 
 
 The choice of which state a noun is in depends on its function in a sentence. For example, if the noun is a subject of a sentence, it will usually be in the u-state. And if it is used adverbially, it will often be in the a-state. And if it occurs after a preposition, it will be in the i-state. We will learn more about putting nouns in their different states throughout this book. 
 Generally speaking, the u-state is the normal state. And there needs to be a reason to take the noun out of the u-state and into one of the other states.
+-->
 
 <!--
 ## Flexibility of nouns
@@ -1481,7 +1534,7 @@ First we assemble the individual parts:
 i. "The building" in Arabic is [ٱَلْبِنَاء]{.ar} [EalbinAE]{.trn} (masc.).
 ii. "A house" is [بَيْت]{.ar} [bayt]{.trn} (masc.).
 
-Next we put them both in the u-state. For subject-information sentences, both the subject and the information shall be in the u-state. Remember that the u-state is formed by putting an [un]{.trn}-mark [◌ٌ]{.ar} at the end of an indefinite noun, and a [u]{.trn}-mark [◌ُ]{.ar} at the end of a definite noun. Here are the two nouns in the u-state:
+Next we put them both in the u-state. For subject-information sentences, both the subject and the information shall be in the u-state. Remember that the u-state is formed by putting a [nUn]{.trn2}ated [u]{.trn}-mark [◌ٌ]{.ar} at the end of an indefinite noun, and a [u]{.trn}-mark [◌ُ]{.ar} at the end of a definite noun. Here are the two nouns in the u-state:
 
 i. [ٱَلْبِنَاءُ]{.ar} [EalbinAEu]{.trn} (masc.) "the building" (u-state)
 ii. [بَيْتٌ]{.ar} [baytun]{.trn} (masc.) "a house" (u-state)
@@ -1949,13 +2002,13 @@ In Arabic prepositions, when placed before a noun, put it in the i-state. For ex
 [fI baytin]{.trn}  
 "in a house"
 
-Note how the noun [بَيْتٍ]{.ar} [baytin]{.trn} "a house" is in the i-state because of the preposition [فِي]{.ar} [fI]{.trn} "in" before it. The i-state is indicated by the [in]{.trn}-mark [◌ٍ]{.ar} on the final letter of [بَيْت]{.ar}.
+Note how the noun [بَيْتٍ]{.ar} [baytin]{.trn} "a house" is in the i-state because of the preposition [فِي]{.ar} [fI]{.trn} "in" before it. The i-state is indicated by the [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar} on the final letter of [بَيْت]{.ar}.
 
 Arabic has two types of prepositions: _true_ prepositions and _pseudo_-prepositions.
 
 ## True prepositions
 
-True prepositions are _particles_. Particles are a class of words, like nouns and verbs. Particles don't have the properties of nouns. Thus, they cannot be definite or indefinite. They cannot be preceded by [ٱَلْ]{.ar} [al]{.trn} or ended with an [n]{.trn}-mark. And they don't have states (u-state, a-state, and i-state). 
+True prepositions are _particles_. Particles are a class of words, like nouns and verbs. Particles don't have the properties of nouns. Thus, they cannot be definite or indefinite. They cannot be preceded by [ٱَلْ]{.ar} [al]{.trn} nor may they be [nUn]{.trn2}ated. And they don't have state (u-state, a-state, i-state). 
 
 Here is a list of the more common true prepositions:
 
@@ -3281,7 +3334,7 @@ Let's see how to use Arabic adjectival nouns as the information of a sentence.
 
 In the above sentence, the indefinite adjectival noun 
 [صَغِير]{.ar} [SagIr]{.trn} "a small one"
-is used as the information of a sentence. Its indefiniteness and u-state is indicated by the [un]{.trn}-mark [◌ٌ]{.ar} on its end.
+is used as the information of a sentence. Its indefiniteness and u-state is indicated by the [nUn]{.trn2}ated [u]{.trn}-mark [◌ٌ]{.ar} on its end.
 
 When an adjectival noun is the information of a sentence, then it shall be genderized to match the gender of the subject noun. The subject noun in this case ([ٱَلْبَيْت]{.ar}) is masculine. Therefore, the masculine adjectival noun ([صَغِير]{.ar}) is chosen.
 
@@ -3472,7 +3525,7 @@ u-state| [رَجُلٌ]{.ar} | [ٱَلرَّجُلُ]{.ar}
 a-state| [رَجُلًا]{.ar}| [ٱَلرَّجُلَ]{.ar}
 i-state| [رَجُلٍ]{.ar} | [ٱَلرَّجُلِ]{.ar}
 
-As you can see, the noun has [n]{.trn}-marks when it is indefinite, and also, the vowel mark on the last letter changes for each state that the noun is in. These kinds of nouns are called _fully-flexible_ nouns. They are by far the most common type of noun.
+As you can see, the noun is [nUn]{.trn2}ated when it is indefinite, and also, the vowel mark on the last letter changes for each state that the noun is in. These kinds of nouns are called _fully-flexible_ nouns. They are by far the most common type of noun.
 
 There are some nouns, however, that are _semi-flexible_. 
 Here is an example of a semi-flexible noun, [صَحْرَاء]{.ar} [SaHrAE]{.trn} "a desert":
@@ -3483,13 +3536,13 @@ u-state| [صَحْرَاءُ]{.ar} | [ٱَلصَّحْرَاءُ]{.ar}
 a-state| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءَ]{.ar}
 i-state| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءِ]{.ar}
 
-As you can see, when [صَحْرَاء]{.ar} [SaHrAE]{.trn} is indefinite, it does not have an [n]{.trn}-mark. Also, when it is indefinite and in the i-state, the vowel mark on its final letter is not [◌ِ]{.ar}, as you might expect but [◌َ]{.ar} . And so the noun looks identical in the a-state and i-state when it is indefinite.
+As you can see, when [صَحْرَاء]{.ar} [SaHrAE]{.trn} is indefinite, it is not [nUn]{.trn2}ated. Also, when it is indefinite and in the i-state, the vowel mark on its final letter is not [◌ِ]{.ar}, as you might expect but [◌َ]{.ar} . And so the noun looks identical in the a-state and i-state when it is indefinite.
 
 When it is definite, however, it looks just like fully-flexible nouns.
 
 So there are two differences between fully-flexible and semi-flexible nouns:
 
-1. When indefinite, a semi-flexible noun does not have an [n]{.trn}-mark.
+1. When indefinite, a semi-flexible noun is not [nUn]{.trn2}ated.
 2. When indefinite and in the i-state, a semi-flexible noun's final letter does not have an [i]{.trn}-mark. Instead it shall have an [a]{.trn}-mark, just like when it is in the a-state.
 
 The other category of nouns are _rigid_ nouns. Rigid nouns don't change their endings due to their state. They are much fewer in number compared to flexible nouns. Pronouns are an example of rigid nouns.
@@ -3578,9 +3631,9 @@ is also a describee, whose describer is [وَاسِعَةٍ]{.ar} [wAsieatin]{.t
 Note, also, that the describer [وَاسِعَة]{.ar} is feminine to match the gender of the describee 
 ^2^[صَحْرَاء]{.ar} [SaHrAE]{.trn}^2^. 
 
-Note, as well, that the describer [وَاسِعَةٍ]{.ar} has an [n]{.trn}-mark as it is indefinite and fully-flexible. The inability of its describee 
+Note, as well, that the describer [وَاسِعَةٍ]{.ar} is [nUn]{.trn2}ated as it is indefinite and fully-flexible. The inability of its describee 
 ^2^[صَحْرَاء]{.ar} [SaHrAE]{.trn}^2^ 
-to have an [n]{.trn}-mark (because of its semi-flexibility) does not affect the describer.
+to be [nUn]{.trn2}ated (because of its semi-flexibility) does not affect the describer.
 
 Also, beware, as we've already mentioned, that there are some words where the [اء]{.ar} ending may be part of the word's root, for example 
  [خِبَاء]{.ar} [xibAE]{.trn} "a tent" from the root [خبء]{.arroot} on the pattern [خِبَاء]{.ar}. Such words will be fully flexible.
@@ -3616,7 +3669,7 @@ Here is an example of this word in a sentence:
 
 Note, again how the describer [جَمِيلَة]{.ar} [jamIlah]{.trn} is feminine and in the u-state, in order to match the gender and state of the describee ^2^[ذِكْرَىٰ]{.ar} [pikrA]{.trn}^2^.
 
-Beware also that, just like in the case of [اء]{.ar}, there are some words where [ىٰ]{.ar} may be part of the word's root, e.g. [ٱَلْهُدَىٰ]{.ar} [EalhudA]{.trn} "the guidance" whose root is [هدي]{.arroot}. Because here the [ىٰ]{.ar} in [ٱلْهُدَىٰ]{.ar} is part of the word's root, therefore it shall not be a semi-flexible noun. So, when it is indefinite, it will have an [n]{.trn}-mark when it is indefinite: [هُدًى]{.ar} [hudan]{.trn} "a guidance". Also, for the same reason, [ىٰ]{.ar} in this word is not a feminine marker, and the word is masculine.
+Beware also that, just like in the case of [اء]{.ar}, there are some words where [ىٰ]{.ar} may be part of the word's root, e.g. [ٱَلْهُدَىٰ]{.ar} [EalhudA]{.trn} "the guidance" whose root is [هدي]{.arroot}. Because here the [ىٰ]{.ar} in [ٱلْهُدَىٰ]{.ar} is part of the word's root, therefore it shall not be a semi-flexible noun. So, when it is indefinite, it will be [nUn]{.trn2}ated: [هُدًى]{.ar} [hudan]{.trn} "a guidance". Also, for the same reason, [ىٰ]{.ar} in this word is not a feminine marker, and the word is masculine.
 
 ### Nouns on the pattern [أَفْعَل]{.ar}
 
@@ -3695,7 +3748,7 @@ For example, when we dualize [بَيْت]{.ar} [bayt]{.trn} "a house" in order t
 |u-state         | [بَيْتَانِ]{.ar} [baytAni]{.trn}  | [ٱَلْبَيْتَانِ]{.ar} [EalbaytAni]{.trn}
 |a- and i-states | [بَيْتَيْنِ]{.ar} [baytayni]{.trn} | [ٱَلْبَيْتَيْنِ]{.ar} [Ealbaytayni]{.trn}   
 
-Note that indefinite duals don't have [n]{.trn} marks. The only difference between definite and indefinite duals is the definite article [ٱَلْ]{.ar} "the". 
+Note that indefinite duals are not [nUn]{.trn2}ated. The only difference between definite and indefinite duals is the definite article [ٱَلْ]{.ar} "the". 
 
 Here are examples of duals in sentences:
 
@@ -4115,7 +4168,7 @@ Here is the [Un]{.trn} sound plural of [مُعَلِّم]{.ar} [mueallim]{.trn} 
 | u-state         | [مُعَلِّمُونَ]{.ar} [mueallimUna]{.trn} |[ٱَلْمُعَلِّمُونَ]{.ar} [EalmueallimUna]{.trn}|
 | a- and i-states | [مُعَلِّمِينَ]{.ar} [mueallimIna]{.trn} |[ٱَلْمُعَلِّمِينَ]{.ar} [EalmueallimIna]{.trn}|
 
-Note that, just like for duals, the indefinite [Un]{.trn} sound plural doesn't have [n]{.trn} marks. The only difference between the definite and indefinite [Un]{.trn} sound plural is the definite article [ٱَلْ]{.ar} "the". 
+Note that, just like for duals, the indefinite [Un]{.trn} sound plural is not [nUn]{.trn2}ated. The only difference between the definite and indefinite [Un]{.trn} sound plural is the definite article [ٱَلْ]{.ar} "the". 
 
 The duals of [مُعَلِّم]{.ar} [mueallim]{.trn} "a teacher~m~" are included here for comparison:
 
@@ -4172,8 +4225,8 @@ Here is the [At]{.trn} sound plural of [حَيَوَان]{.ar} [HayawAn]{.trn} "
 
 Note that: <!-- there _are_ [n]{.trn} marks for the [At]{.trn} sound plural. Definite plural nouns are also formed in the same way but they won't have [n]{.trn} marks:-->
 
-+ Unlike the [Un]{.trn} sound plural, the [At]{.trn} sound plural takes [n]{.trn} marks. Also, just like for singular nouns, the final vowel on the plural ending [ات]{.ar} [At]{.trn} indicates the state of the plural.
-+ The [At]{.trn} sound plural does not take the [a]{.trn}-mark [◌َ]{.ar} and the [an]{.trn}-mark [◌ً]{.ar}. Instead the [i]{.trn}-mark [◌ِ]{.ar} and the [in]{.trn}-mark [◌ٍ]{.ar}-mark are used to indicate both the a-state and the i-state.
++ Unlike the [Un]{.trn} sound plural, the [At]{.trn} sound plural is [nUn]{.trn2}ated when indefinite. Also, just like for singular nouns, the final vowel on the plural ending [ات]{.ar} [At]{.trn} indicates the state of the plural.
++ The [At]{.trn} sound plural does not take the [a]{.trn}-mark [◌َ]{.ar} and the [nUn]{.trn2}ated [a]{.trn}-mark [◌ً]{.ar}. Instead the [i]{.trn}-mark [◌ِ]{.ar} and the [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar}-mark are used to indicate both the a-state and the i-state.
 
 | State | the animal | the animals
 |:-----------|:-------------|:-------------|
@@ -4986,13 +5039,13 @@ Before we begin our discussion about broken plurals, we will do a quick review o
 
 Most words in Arabic are formed from three letter roots. We use the paradigm root [فعل]{.arroot} to show word patterns. For example, the noun [رَجُل]{.ar} [rajul]{.trn} "a man" is formed from the root [رجل]{.arroot} on the pattern [فَعُل]{.ar} [faeul]{.trn}.
 
-Most nouns in Arabic are _fully-flexible_. This means that, when indefinite, they take [n]{.trn}-marks and the i-state is shown by an [in]{.trn}-mark [◌ٍ]{.ar} at the end of the noun. For example, [رَجُل]{.ar} [rajul]{.trn} "a man" and [بَيْت]{.ar} [bayt]{.trn} "a house" are fully-flexible nouns. So, you can see, below, that they take [n]{.trn}-marks, and the indefinite i-state is indicated by an [in]{.trn}-mark [◌ٍ]{.ar}:
+Most nouns in Arabic are _fully-flexible_. This means that, when indefinite, they are [nUn]{.trn2}ated and the indefinite i-state is shown by a [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar} at the end of the noun. For example, [رَجُل]{.ar} [rajul]{.trn} "a man" and [بَيْت]{.ar} [bayt]{.trn} "a house" are fully-flexible nouns. So, you can see, below, that they are [nUn]{.trn2}ated, and the indefinite i-state is indicated by a [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar}:
 
 [ذَهَبَ رَجُلٌ إِلَىٰ بَيْتٍ.]{.ar}  
 [pahaba rajulun EilA bayt.]{.trn}  
 "A man went to a house."
 
-Some nouns are _semi-flexible_. This means that they don't take [n]{.trn} marks, and also, the indefinite i-state is indicated by an [a]{.trn} mark [◌َ]{.ar}. Examples of such nouns are:
+Some nouns are _semi-flexible_. This means that they are not [nUn]{.trn2}ated, and also, the indefinite i-state is indicated by an [a]{.trn} mark [◌َ]{.ar}. Examples of such nouns are:
 
 + ^2^[غَضْبَىٰ]{.ar} [gaDbA]{.trn}^2^ _adj._ (fem.) "a very angry one~f~" from the root [غضب]{.arroot}
 + ^2^[صَحْرَاء]{.ar} [SaHrAE]{.trn}^2^ (fem.) "a desert~f~" from the root [صحر]{.arroot}
@@ -5450,7 +5503,7 @@ Note the following from the above broken plural patterns and examples:
     |:-|:--|:--|:--
     |[هدي]{.arroot} |^2^[فَعَالَىٰ]{.ar} |$\times$\ ^2^[هَدَايَىٰ]{.ar} |^2^[هَدَايَا]{.ar}
 
-  + A [ي]{.ar} at the end of a word, in some states, gets omitted  and replaced by an [in]{.trn}-mark [◌ٍ]{.ar} on the preceding letter. This happens even when the [ي]{.ar} is extrinsic to the root, and even if the word is semi-flexible (and thus would not normally accept an [n]{.trn} mark). Examples:
+  + A [ي]{.ar} at the end of a word, in some states, gets omitted  and replaced by a [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar} on the preceding letter. This happens even when the [ي]{.ar} is extrinsic to the root, and even if the word is semi-flexible (and thus would not normally be [nUn]{.trn2}ated). Examples:
 
     |Root | Word pattern | Expected word  | Actual word 
     |:-|:--|:--|:--
@@ -5790,7 +5843,7 @@ Plurals of inanimate objects and animals (both male and female) are treated the 
 [فِي ٱلصُّنْدُوقُ أَشْيَاءُ عَجِيبَةٌ.]{.ar}  
 [فِي ٱلصُّنْدُوقُ أَشْيَاءُ عَجِيبَاتٌ.]{.ar}  
 "In the box are wonderful things."  
-(Note how ^2^[أَشْيَاء]{.ar} is indefinite but has no [n]{.trn}-mark. This is because it is irregularly semi-flexible.)
+(Note how ^2^[أَشْيَاء]{.ar} is indefinite but is not [nUn]{.trn2}ated. This is because it is irregularly semi-flexible.)
 
 By the way, this rule only applies to adjectival nouns in the describee or the information. A common noun in the describer or information will continue match the describee or subject in gender and number.
 
@@ -5993,7 +6046,7 @@ Consider again the annexation expression we have been using so far:
 The base noun [ٱَلْغُلَام]{.ar} is definite because it is prefixed by [ٱَلْ]{.ar} "the".
 Therefore we have translated it as "the boy".
 The annexe noun [كِتَاب]{.ar} is not made definite by [ٱَلْ]{.ar}.
-Nor is it made indefinite by an [n]{.trn}-mark. 
+Nor is it made indefinite by [nUn]{.trn2}ation. 
 <!--Its definiteness is determined by the base noun. -->
 Rather, its definiteness is determined by the base noun.
 Because the base noun [ٱَلْغُلَام]{.ar} is definite, therefore the annexe noun [كِتَاب]{.ar} is also definite.
@@ -6006,8 +6059,8 @@ Consider now the case when the base noun is indefinite.
 [كِتَابُ غُلَامٍ]{.ar}  
 "a boy's book"  
 
-In the above example, the base noun [غُلَامٍ]{.ar} is indefinite because it has the [n]{.trn}-mark\ [◌ٍ]{.ar} and because it does not prefixed by [ٱَلْ]{.ar}. Therefore we have translated it as "a boy".
-The annexe noun [كِتَاب]{.ar} has neither an [n]{.trn}-mark, nor the prefix [ٱَلْ]{.ar}.
+In the above example, the base noun [غُلَامٍ]{.ar} is indefinite because it is [nUn]{.trn2}ated and because it does not prefixed by [ٱَلْ]{.ar}. Therefore we have translated it as "a boy".
+The annexe noun [كِتَاب]{.ar} is neither [nUn]{.trn2}ated, nor does it have [ٱَلْ]{.ar}.
 Its definiteness is, again, determined by the base noun.
 Because the base noun [غُلَامٍ]{.ar} is indefinite, therefore the annexe noun [كِتَاب]{.ar} is also indefinite.
 The entire annexation is indefinite.
@@ -6184,7 +6237,7 @@ Similarly, if we describe the annexe noun [كِتَاب]{.ar} in an indefinite a
 This time
 the describer 
 [صَغِيرٌ]{.ar}
-is indefinite with an [un]{.trn}-mark [◌ٌ]{.ar}. 
+is indefinite with a [nUn]{.trn2}ated [u]{.trn}-mark [◌ٌ]{.ar}. 
 This is because 
 the annexe noun [كِتَابُ]{.ar} is indefinite. It is indefinite because base noun [جَارِيَةٍ]{.ar} "a girl" is indefinite.
 
@@ -6247,7 +6300,7 @@ or
 
 ## Semi-flexible nouns in an annexation
 
-Remember that semi-flexible nouns don't take [n]{.trn}-marks and that when indefinite, the i-state is indicated by an [a]{.trn}-mark [◌َ]{.ar}. 
+Remember that semi-flexible nouns are not [nUn]{.trn2}ated and that when indefinite, their i-state is indicated by an [a]{.trn}-mark [◌َ]{.ar}. 
 But when definite with [ٱَلْ]{.ar} then they behave just like fully-flexible nouns.
 Example of the semi-flexible noun 
 ^2^[صَحْرَاء]{.ar} "a desert":
@@ -6311,7 +6364,7 @@ The noun [بَاب]{.ar} "door" is common to both sub-annexations. It is the bas
 At the same time, it is also the annexe noun of the second sub-annexation
 [بَابِ ٱلْبَيْتِ]{.ar} "the house's door".
 
-Only the final base noun may have [ٱَلْ]{.ar} or an [n]{.trn} mark. If the final base noun has [ٱَلْ]{.ar} (as above) then all the nouns in the annexation are definite. 
+Only the final base noun may have [ٱَلْ]{.ar} or be [nUn]{.trn2}ated. If the final base noun has [ٱَلْ]{.ar} (as above) then all the nouns in the annexation are definite. 
 
 And if the final base noun is indefinite, as in the example below, then all the nouns in the annexation are indefinite.
 
@@ -6470,7 +6523,7 @@ Here are some examples:
 
 ### Duals and [Un]{.trn} sound plurals as annexe nouns
 
-When duals and [Un]{.trn} sound plurals are annexe nouns, then their final [ن]{.ar} is treated as an [n]{.trn}-mark and is, therefore, deleted before annexing them to a base noun. For example:
+When duals and [Un]{.trn} sound plurals are annexe nouns, then their final [ن]{.ar} is treated as a sort of [nUn]{.trn2}ation and is, therefore, deleted before annexing them to a base noun. For example:
 
 [بَيْتَا ٱلرَّجُلِ]{.ar}  
 "the man's houses~2~"  
@@ -6686,7 +6739,7 @@ The other two types of plurals: the sound [At]{.trn} plural and the broken plura
 
 ## Non-fully changing nouns in noun-chains
 
-Remember that a non-fully changing noun without [ٱَلْ]{.ar} does not take an [n]{.trn}-mark and its last letter keeps an [a]{.trn} mark instead of an [i]{.trn} mark when in the i-state. When definite with [ٱَلْ]{.ar}, it is similar to fully-changing nouns.
+Remember that a non-fully changing noun without [ٱَلْ]{.ar} is not [nUn]{.trn2}ated and its last letter keeps an [a]{.trn}-mark instead of an [i]{.trn}-mark when in the i-state. When definite with [ٱَلْ]{.ar}, it is similar to fully-changing nouns.
 
 So when a non-fully changing noun without [ٱَلْ]{.ar} is the second noun in a noun-chain, it will have an [a]{.trn}-mark instead of an [i]{.trn} mark.
 
@@ -6741,7 +6794,7 @@ So far we have seen noun-chains with two nouns. Noun-chains can be arbitrarily l
 
 Note the following:
 
-+ Only the last noun may have [ٱَلْ]{.ar} or an [n]{.trn} mark. 
++ Only the last noun may have [ٱَلْ]{.ar} or [nUn]{.trn2}ation. 
 + The definiteness of the last noun determines the definiteness of the rest of the nouns in the chain. 
 + All the nouns except the first must be in the i-state. 
 + The [ن]{.ar} of the dual and the [Un]{.trn} plural is dropped for all nouns except the last.
@@ -6980,10 +7033,12 @@ There are some nouns in Arabic which are _irregular_ and behave a little differe
 
 There are five nouns in Arabic which are irregular in the same basic way. Collectively, they are called "the five nouns".
 They behave a little differently from regular nouns in how they display their state.
-
+<!--
 We have learned that regular nouns have three states: the u-state, a-state, and i-state. For singular nouns, the u-state is marked by the [u]{.trn}-mark [◌ُ]{.ar}, the a-state is marked by the [a]{.trn}-mark [◌َ]{.ar}, and the i-state is marked by the [i]{.trn}-mark [◌ِ]{.ar}. The [n]{.trn}-marks [◌ٌ]{.ar}, [◌ً]{.ar} and [◌ٍ]{.ar} are only but extensions of [◌ُ]{.ar}, [◌َ]{.ar}, and [◌ِ]{.ar} respectively.
 
 We now present the five irregular nouns that behave differently.
+-->
+
 
 ### [أَبٌ]{.ar} [Eab]{.trn}, [أَخٌ]{.ar} [Eax]{.trn}, and [حَمٌ]{.ar} [Ham]{.trn}
 
@@ -7080,7 +7135,7 @@ Here are some more examples in sentences:
 [pahabtu EilA bayti EaxIhinn.]{.trn}  
 "I went to their~f,3+~ brother's house."
 
-The above irregular behavior of these three nouns is only when they are annexe nouns. When they happen to be base nouns in annexations, then they again they behave like regular nouns and their state is displayed by the short vowel marks [◌ُ]{.ar}, [◌َ]{.ar}, and [◌ِ]{.ar}, when definite, and by the [n]{.trn}-marks 
+The above irregular behavior of these three nouns is only when they are annexe nouns. When they happen to be base nouns in annexations, then they again they behave like regular nouns and their state is displayed by the short vowel marks [◌ُ]{.ar}, [◌َ]{.ar}, and [◌ِ]{.ar}, when definite, and by [nUn]{.trn2}ation 
 [◌ٌ]{.ar}, 
 [◌ً]{.ar}, and
 [◌ٍ]{.ar}, when indefinite.
@@ -7500,7 +7555,7 @@ We will explain these and more details regarding proper nouns in this chapter.
 Proper nouns differ from common nouns and adjectival nouns in a couple of important ways:
 
 + All proper nouns, even if they don't begin with [ٱَلْ]{.ar}, are definite. 
-+ A proper noun which does not begin with [ٱَلْ]{.ar}, and which is fully-flexible, shall have an [n]{.trn} mark, despite being definite.
++ A proper noun which does not begin with [ٱَلْ]{.ar}, and which is fully-flexible, shall be [nUn]{.trn2}ated, despite being definite.
 
 The above points are exemplified in the following sentence:
 
@@ -7510,8 +7565,8 @@ The above points are exemplified in the following sentence:
 
 Note the above from the above example:
 
-+ [مُحَمَّدٍ]{.ar} is fully-flexible so it has an [in]{.trn}-mark [◌ٍ]{.ar} in the i-state.
-+ [زَيْنَبَ]{.ar} is semi-flexible so it does not have an [n]{.trn}-mark, and instead has an [a]{.trn} mark [◌َ]{.ar} in the i-state.
++ [مُحَمَّدٍ]{.ar} is fully-flexible so it has a [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar} in the i-state.
++ [زَيْنَبَ]{.ar} is semi-flexible so it is not [nUn]{.trn2}ated, and instead has an [a]{.trn}-mark [◌َ]{.ar} in the i-state.
 + The proper nouns [مُحَمَّد]{.ar} and [زَيْنَب]{.ar} are describees in descriptive noun phrases.
 + Their describers ([ٱلْكَرِيمِ]{.ar} and [ٱلطَّيِّبَةِ.]{.ar}, respectively) have [ٱَلْ]{.ar} to match the definiteness of the definite proper noun describees. Furthermore, they both end with [◌ِ]{.ar} because they match the i-state of their describees.
 
@@ -7544,7 +7599,7 @@ This sentence can only be understood to use [جَمِيلَة]{.ar} with its pro
 
 "[#jamIlah]{.trn2} went to the house."
 
-This is because [جَمِيلَة]{.ar} is semi-flexible as a proper noun and fully-flexible as an adjectival/common noun. If [جَمِيلَة]{.ar} were intended to be used with its adjectival/common noun meaning then it would have an [un]{.trn}-mark [◌ٌ]{.ar} and the sentence would be:
+This is because [جَمِيلَة]{.ar} is semi-flexible as a proper noun and fully-flexible as an adjectival/common noun. If [جَمِيلَة]{.ar} were intended to be used with its adjectival/common noun meaning then it would have a [nUn]{.trn2}ated [u]{.trn}-mark [◌ٌ]{.ar} and the sentence would be:
 
 [ذَهَبَتْ جَمِيلَةٌ إِلَىٰ ٱلْبَيْتِ.]{.ar}  
 [pahabat jamIlatun Eila -lbayt.]{.trn}  
@@ -7841,7 +7896,7 @@ It is common to call a man, not by his own given name, but rather by calling him
 
 [ذَهَبْتُ إِلَىٰ بَيْتِ أَبِي زَيْدٍ.]{.ar}  
 "I went to [#abU #zayd]{.trn2}'s house."  
-(Note how [زَيْدٍ]{.ar} has an [in]{.trn}-mark [◌ٍ]{.ar} in the i-state because it is fully-flexible.)
+(Note how [زَيْدٍ]{.ar} has a [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar} in the i-state because it is fully-flexible.)
 
 While using the name of first-born son is more common, a daughter's name could be used as well. Example,
 
@@ -7902,7 +7957,7 @@ Zayd the son of [#ealI]{.trn2}
 
 Note some peculiarities of the full name:
 
-+ The name [زَيْد]{.ar} "Zayd" has lost its [n]{.trn} mark.
++ The name [زَيْد]{.ar} "Zayd" has lost its [nUn]{.trn2}ation.
 + The word [بْن]{.ar} "son" is not written with its initial connecting [hamzah]{.trn2} [ٱ]{.ar}.
 
 These peculiarities are only when forming a full name in this manner. Consider for example the following sentence:
@@ -7910,7 +7965,7 @@ These peculiarities are only when forming a full name in this manner. Consider f
 [زَيْدٌ ٱبْنُ عَلِيٍّ.]{.ar}  
 "Zayd is the son of [#ealI]{.trn2}."
 
-In the above example, the name [زَيْدٌ]{.ar} has its [n]{.trn}-mark and [ٱبْن]{.ar} is written with its connecting [hamzah]{.trn2} [ٱ]{.ar}. Therefore this is not an expression of the full name in a replacee-replacement format. Rather, [ٱبْنُ أَحْمَدَ]{.ar} here is the information of the sentence.
+In the above example, the name [زَيْدٌ]{.ar} is [nUn]{.trn2}ated and [ٱبْن]{.ar} is written with its connecting [hamzah]{.trn2} [ٱ]{.ar}. Therefore this is not an expression of the full name in a replacee-replacement format. Rather, [ٱبْنُ أَحْمَدَ]{.ar} here is the information of the sentence.
 
 For women, the word [بِنْت]{.ar} is used instead of [بْن]{.ar}. 
 
@@ -8221,7 +8276,7 @@ There are different rules regarding the state markings of the noun following [ي
 
 When a specific person is called out to, and the name used to call him consists of a single word, then that word shall be in the u-state. The sentence above is an example of this rule where the name [زَينَبُ]{.ar} [zaynabu]{.trn} "Zaynab" is in the u-state.
 
-If the word would have an [n]{.trn}-mark, then the [n]{.trn}-mark is dropped. So, for example, the name [زَيْدٌ]{.ar} [zaydun]{.trn} "Zayd" usually has an [n]{.trn}-mark. But when used for being called out to, the [n]{.trn}-mark is dropped and it becomes:
+If the word would be [nUn]{.trn2}ated, then the [nUn]{.trn2}ation is dropped. So, for example, the name [زَيْدٌ]{.ar} [zaydun]{.trn} "Zayd" usually is [nUn]{.trn2}ated. But when used for being called out to, the [nUn]{.trn2}ation is dropped and it becomes:
 
 [ٱَلسَّلَامُ عَلَيْكُمْ يَا زَيْدُ.]{.ar}  
 [EassalAmu ealaykum yA zaydu.]{.trn}  
@@ -8245,7 +8300,7 @@ In English, we have shown that a specific person is being called using the word 
 [yA rijAlu qad Hadava Eamrun.]{.trn}  
 "O you men, a matter has occurred."
 
-Note how the word [رِجَالُ]{.ar} [rijAlu]{.trn} "men" does not have an [n]{.trn}-mark because the word is used to call out to the specific persons.
+Note how the word [رِجَالُ]{.ar} [rijAlu]{.trn} "men" is not [nUn]{.trn2}ated because the word is used to call out to the specific persons.
 
 Similarly,
 
@@ -8288,7 +8343,7 @@ The above discussion pertains to calling out to the addressed person with a sing
   [SalAHu -ddIni]{.trn}  
   "[#salAH ad-#dIn]{.trn2}"
 
-In this case, then instead of the u-state, the word is put into the a-state. Furthermore, the [n]{.trn}-mark, if any, is preserved. Examples:
+In this case, then instead of the u-state, the word is put into the a-state. Furthermore, the [nUn]{.trn2}ation, if any, is preserved. Examples:
 
 [مَا عَرَفْتُ ذَ ٰلِكَ ٱلرَّجُلَ، يَا عَبْدَ ٱللَّـٰهِ.]{.ar}  
 [mA earaftu pAlika -rrajula, yA eabda -llAhi.]{.trn}  
@@ -8334,7 +8389,7 @@ All the discussion so far has pertained to calling out to specific persons. So f
 
 then you are addressing a specific Muslim, who is perhaps in front of you. 
 
-If an unspecified person or persons are being called out, then the word used to call out is put into the a-state. Furthermore, the [n]{.trn}-mark, if any, is preserved. So if you want to address any unspecific Muslim, you will say:
+If an unspecified person or persons are being called out, then the word used to call out is put into the a-state. Furthermore, the [nUn]{.trn2}ation, if any, is preserved. So if you want to address any unspecific Muslim, you will say:
 
 [يَا مُسْلِمًا، نَصْرُ ٱللَّـٰهِ قَرِيبٌ.]{.ar}  
 [yA musliman, naSru -llAhi qarIbun.]{.trn}  
@@ -8360,7 +8415,7 @@ it is permissible to say:
 [zaydu, suEAluka jayyidun.]{.trn}  
 "Zayd, your question is excellent."
 
-Note that even when [يَا]{.ar} [yA]{.trn} is ommitted the name [زَيْدُ]{.ar} [zaydu]{.trn} "Zayd" is in the u-state without any [n]{.trn}-mark.
+Note that even when [يَا]{.ar} [yA]{.trn} is ommitted the name [زَيْدُ]{.ar} [zaydu]{.trn} "Zayd" is in the u-state without any [nUn]{.trn2}ation.
 
 This usage is especially common when supplicating to [#allAh]{.trn2} with the word [رَبٌّ]{.ar} [rabbun]{.trn} "lord", to emphasize the closeness of [#allAh]{.trn2} to the supplicator. For example,
 
@@ -9001,7 +9056,7 @@ As you know, nouns in Arabic have a state that is determined by the function of 
 
 In the above sentence, [ٱَلْغُلَامُ]{.ar} [EalgulAmu]{.trn} is the doer of the verb so it is in the u-state and this is indicated by the [u]{.trn}-mark on its final letter.
 [ٱَلرَّجُلَ]{.ar} [Earrujala]{.trn} is the direct doee of the verb so it is in the a-state and this is indicated by the [a]{.trn}-mark on its final letter.
-[شَيْءٍ]{.ar} [cayEin]{.trn} is directly preceded by a preposition so it is in the i-state and this is indicated by the [in]{.trn}-mark on its final letter.
+[شَيْءٍ]{.ar} [cayEin]{.trn} is directly preceded by a preposition so it is in the i-state and this is indicated by the [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar} on its final letter.
 The ending of the completed-action verb [سَأَلَ]{.ar} is not determined based on the function of the verb in the sentence, and therefore, it does not have any state. (Its ending can change depending on whether a pronoun is attached to it but this is not related to the function of the verb in the sentence and does not represent any state.)
 
 As opposed to completed-action verbs, which don't have any state, incomplete-action verbs do have a state which is determinined by the function of the verb in a sentence. Similar to nouns, the state of an incomplete-action verb is indicated by the vowel mark or suffix at the end of the verb.
@@ -11321,7 +11376,7 @@ If a verb takes a direct doee, and we wish to use the direct doee with the verb'
 
    Note that [قَاتِلُ سُكَّانِهَا]{.ar} [qAtilu sukkAnihA.]{.trn} can also support the non-verbal meaning of the doer verbal-noun: "killer of its residents", i.e., he has already killed its residents in the past. So, when an annexation is used with a doer verbal-noun, we will often need surrounding context to tell us whether the verbal (incomplete-action) meaning is intended, or the noun  meaning.
 
-   This usage of annexing the doer verbal-noun to the i-state direct doee instead of employing the more basic usage of the doer verbal-noun and a following a-state direct doee is optional, but fairly common. In fact, when the doer-verbal noun ends with an [n]{.trn}-mark, and the direct doee begins with [ٱَلْ]{.ar} [Eal]{.trn} "the", then the annexation usage becomes predominant over the basic a-state usage. So we will be more likely to see:
+   This usage of annexing the doer verbal-noun to the i-state direct doee instead of employing the more basic usage of the doer verbal-noun and a following a-state direct doee is optional, but fairly common. In fact, when the doer-verbal noun is indefinite and [nUn]{.trn2}ated, and the direct doee begins with [ٱَلْ]{.ar} [Eal]{.trn}, then the annexation usage becomes predominant over the basic a-state usage. So we will be more likely to see:
 
    [أَنَا فَاعِلُهُ.]{.ar}  
    [Eana fAeiluhu.]{.trn}  
@@ -11677,7 +11732,7 @@ In order to express a superiority relationship between nouns, for example, , Ara
 Note the following points regarding the form of the noun of superiority:
 
 + Nouns of superiority are regularly of the pattern [أَفْعَلُ]{.ar} [Eafealu]{.trn} using the template root [فعل]{.arroot}. 
-+ Nouns of superiority are non-fully changing nouns, so they won't have [n]{.trn} marks and the indefinite noun in the i-state will have an [a]{.trn}-mark on the last letter.
++ Nouns of superiority are non-fully changing nouns, so they are not [nUn]{.trn2}ated and the indefinite noun in the i-state will have an [a]{.trn}-mark on the last letter.
 + If a root's last two letters are the same, it is shown as a two-letter root and the noun of superiority is formed by doubling the last letter. Example: [جد]{.arroot}: [أَجَدُّ]{.ar}  [Eajaddu]{.trn} "newer".
 + If a root's last letter is [و]{.ar} or [ي]{.ar}, then the noun of superiority's last letter will be [ىٰ]{.ar}. Example: [قوي]{.arroot}: [أَقْوَىٰ]{.ar} [EaqwA  ]{.trn} "stronger".
 
@@ -12196,13 +12251,13 @@ then the hamzah will be written unseated. Examples:
 ([انِ]{.tradar}, [يْنِ]{.tradar}, [هُ]{.tradar}, and [هِ]{.tradar} are suffixes.)
 Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [alif]{.trn2} is part of the suffix.
 
-### [n]{.trn}-marks on final hamzah
+### [#nUn]{.trn2}ation on final hamzah
 
-[n]{.trn}-marks on a final hamzah do not affect the writing of the hamzah except in the case of [an]{.trn}-mark. When writing [an]{.trn}-mark on a hamzah at the end of a word:
+[#nUn]{.trn2}ation on final hamzah does not affect the writing of the hamzah except in the case of a [nUn]{.trn2}ated [a]{.trn}-mark [◌ً]{.ar}. When writing a [nUn]{.trn2}ated [a]{.trn}-mark [◌ً]{.ar} on a hamzah at the end of a word:
 
-1. If there is an [alif]{.trn2} before a unseated hamzah [اء]{.tradar}, then we don't add a silent [alif]{.trn2} when writing [an]{.trn}-mark. For example [دَاء]{.tradar} becomes [دَاءً]{.tradar} [dAEan]{.trn}, not [دَاءًا]{.tradar}.
+1. If there is an [alif]{.trn2} before a unseated hamzah [اء]{.tradar}, then we don't add a silent [alif]{.trn2} when writing the [nUn]{.trn2}ated [a]{.trn}-mark [◌ً]{.ar}. For example [دَاء]{.tradar} becomes [دَاءً]{.tradar} [dAEan]{.trn}, not [دَاءًا]{.tradar}.
 
-2. Otherwise, we add the silent [alif]{.trn2} after the hamzah so that the hamzah is now in the middle of the word with a suffix [alif]{.trn2} after it. We now pretend that the hamzah has an [a]{.trn}-mark and that the [alif]{.trn2} after it is a long-[A]{.trn} vowel. Then we go through the rules for writing hamzah in the middle of a word (given above) to determine how hamzah will be written. We then write the [an]{.trn}-mark on the hamzah. Examples:
+2. Otherwise, we add the silent [alif]{.trn2} after the hamzah so that the hamzah is now in the middle of the word with a suffix [alif]{.trn2} after it. We now pretend that the hamzah has an [a]{.trn}-mark and that the [alif]{.trn2} after it is a long-[A]{.trn} vowel. Then we go through the rules for writing hamzah in the middle of a word (given above) to determine how hamzah will be written. We then write the [nUn]{.trn2}ated [a]{.trn}-mark [◌ً]{.ar} on the hamzah. Examples:
 
 + \vphantom{\huge J} [مُبْتَدَأ]{.tradar} becomes [مُبْتَدَأٌ، مُبْتَدَءًا، مُبْتَدَإٍ]{.tradar} 
 + \vphantom{\huge J} [مَلْجَأ]{.tradar} becomes [مَلْجَأٌ، مَلْجَءًا، مَلْجَإٍ]{.tradar}

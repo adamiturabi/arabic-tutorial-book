@@ -344,8 +344,8 @@ As we have seen above if an Arabic letter has a vowel after it it will take one 
 
 Arabic has two short semi-vowels:
 
-1. [aw]{.trn} like in English “show”. This is written with a [wAw]{.trn2} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [لَوْ]{.ar} [law]{.trn}. 
-2. [ay]{.trn} like in English “bait”. This is written with a [yAE]{.trn2} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [كَيْ]{.ar} [kay]{.trn}. 
+1. [aw]{.trn} like in English “show”. This is written with a [wAw]{.trn2} with a [0]{.txt}-mark on it and a short [a]{.trn} vowel before it. Example [لَوْ]{.ar} [law]{.trn}. 
+2. [ay]{.trn} like in English “bait”. This is written with a [yAE]{.trn2} with a [0]{.txt}-mark on it and a short [a]{.trn} vowel before it. Example [كَيْ]{.ar} [kay]{.trn}. 
 Examples with short semi-vowels:
 
 + [وَيْحَكَ]{.ar} [wayHaka]{.trn}
@@ -354,8 +354,8 @@ Examples with short semi-vowels:
 
 It also has two long semi-vowels:
 
-1. [Aw]{.trn} like in English “cow”. This is written with a [wAw]{.trn2} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [وَاوْ]{.ar} [wAw]{.trn}. 
-2. [Ay]{.trn} like in English “bye”. This is written with a [yAE]{.trn2} with a [0]{.txt}-mark on it and a [A]{.trn} vowel before it. Example [شَايْ]{.ar} [cAy]{.trn}.
+1. [Aw]{.trn} like in English “cow”. This is written with a [wAw]{.trn2} with a [0]{.txt}-mark on it and a long [A]{.trn} vowel before it. Example [وَاوْ]{.ar} [wAw]{.trn}. 
+2. [Ay]{.trn} like in English “bye”. This is written with a [yAE]{.trn2} with a [0]{.txt}-mark on it and a long [A]{.trn} vowel before it. Example [شَايْ]{.ar} [cAy]{.trn}.
 
 These long semi-vowels are rare and may only occur at the end of a sentence.
 
@@ -388,16 +388,16 @@ but by writing the final vowel mark twice, thus:
 <!--
 Arabic also has three distinctive pronunciation marks, collectively called [n]{.trn}-marks.
 
-1. [an]{.trn}-mark [◌ً]{.ar}
-1. [in]{.trn}-mark [◌ٍ]{.ar}
-1. [un]{.trn}-mark [◌ٌ]{.ar}
+1. [nUn]{.trn2}ated [a]{.trn}-mark [◌ً]{.ar}
+1. [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar}
+1. [nUn]{.trn2}ated [u]{.trn}-mark [◌ٌ]{.ar}
 
 These [n]{.trn}-marks may only occur on a letter at the end of a word. They are pronounced as a short vowel ([a]{.trn}, [i]{.trn}, or [u]{.trn}) followed by an [n]{.trn}. For example, [سَالِمٌ]{.ar} [sAlimun]{.trn}, [سَالِمٍ]{.ar} [sAlimin]{.trn}.
 
 As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally add a silent [A]{.aben} after it, for example [سَالِم]{.ar} becomes [سَالِمًا]{.ar} [sAliman]{.trn}. This is done for all words except:
 -->
 
-The [an]{.trn}-mark [◌ً]{.ar} has specific spelling rules: Generally, 
+The [nUn]{.trn2}ated [a]{.trn}-mark [◌ً]{.ar} has specific spelling rules: Generally, 
 we will generally add a silent [A]{.aben} after it, for example [سَالِم]{.ar} becomes [سَالِمًا]{.ar} [sAliman]{.trn}. This is done for all words except:
 
 1. If the word ends with a [ة]{.ar}. In this case we don't add the silent [A]{.aben}. For example, [غَاضِبَة]{.ar} becomes [غَاضِبَةً]{.ar} [gADibatan]{.trn}. <!--, not [غَاضِبَةًا]{.ar} or [غَاضِبَتًا]{.ar}.-->
