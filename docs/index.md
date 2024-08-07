@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-782-gab6909d"
+date: "v0.1.0-783-gd91ddab"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -332,93 +332,7 @@ But, keep at it, at intervals. If [#allAh]{.trn2} wills, it will become easier, 
 ### Accessibility
 
 You can download a printable copy of this book by clicking the PDF icon in the toolbar at the top of this page. The toolbar also has display options, like changing the font size, etc.
-[#A]{.abar}
-[#b]{.abar}
-[#t]{.abar}
-[#v]{.abar}
-[#j]{.abar}
-[#H]{.abar}
-[#x]{.abar}
-[#d]{.abar}
-[#p]{.abar}
-[#r]{.abar}
-[#z]{.abar}
-[#s]{.abar}
-[#c]{.abar}
-[#S]{.abar}
-[#D]{.abar}
-[#T]{.abar}
-[#P]{.abar}
-[#e]{.abar}
-[#g]{.abar}
-[#f]{.abar}
-[#q]{.abar}
-[#k]{.abar}
-[#l]{.abar}
-[#m]{.abar}
-[#n]{.abar}
-[#h]{.abar}
-[#w]{.abar}
-[#y]{.abar}
 
-
-[A]{.aben}
-[b]{.aben}
-[t]{.aben}
-[v]{.aben}
-[j]{.aben}
-[H]{.aben}
-[x]{.aben}
-[d]{.aben}
-[p]{.aben}
-[r]{.aben}
-[z]{.aben}
-[s]{.aben}
-[c]{.aben}
-[S]{.aben}
-[D]{.aben}
-[T]{.aben}
-[P]{.aben}
-[e]{.aben}
-[g]{.aben}
-[f]{.aben}
-[q]{.aben}
-[k]{.aben}
-[l]{.aben}
-[m]{.aben}
-[n]{.aben}
-[h]{.aben}
-[w]{.aben}
-[y]{.aben}
-
-[#A]{.aben}
-[#b]{.aben}
-[#t]{.aben}
-[#v]{.aben}
-[#j]{.aben}
-[#H]{.aben}
-[#x]{.aben}
-[#d]{.aben}
-[#p]{.aben}
-[#r]{.aben}
-[#z]{.aben}
-[#s]{.aben}
-[#c]{.aben}
-[#S]{.aben}
-[#D]{.aben}
-[#T]{.aben}
-[#P]{.aben}
-[#e]{.aben}
-[#g]{.aben}
-[#f]{.aben}
-[#q]{.aben}
-[#k]{.aben}
-[#l]{.aben}
-[#m]{.aben}
-[#n]{.aben}
-[#h]{.aben}
-[#w]{.aben}
-[#y]{.aben}
 
 <!--chapter:end:srcrmd/intro.Rmd-->
 
