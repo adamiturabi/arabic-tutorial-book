@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-783-gd91ddab"
+date: "v0.1.0-785-gd22eee4"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -377,12 +377,25 @@ No.|Arabic letter|Tran-scrip-tion|Name |Description
 Note that the letters [و]{.ar} ([wAw]{.trn2}) and [ي]{.ar} ([yAE]{.trn2}) are both vowels and consonants. 
 But that [A]{.abar} ([A]{.aben}) is only a vowel. 
 The consonant corresponding to [A]{.abar} is [E]{.abar} ([E]{.aben}). 
+<!--
 Although [E]{.abar} ([E]{.aben}) ought to be considered a letter in its own right, it was historically only pronounced and not written. 
 So it is written as a pronunciation mark and is traditionally not considered part of the 28-letter alphabet.
+-->
+Although [E]{.abar} ([E]{.aben}) ought to be considered a letter in its own right, it was originally only pronounced and not written. 
+So it is not traditionally considered part of the 28-letter script. 
 
 No.|Arabic letter|Tran-scrip-tion|Name |Description
 :-|:--|:--|:----|:---------------------------
 --|[ء]{.ar}|[E]{.trn}| [هَمْزَة]{.ar} [hamzah]{.trn2} | Technically called a glottal stop, it is the sound of the breath stopping in the beginning of, and between the syllables in, the utterance "oh-oh".
+
+### Alternative order of letters
+
+The above order of the letters in alphabetical sequence is currently used today. There is an alternative order that was more used in the past (from right to left):
+
+[ا ب ج د ه و ز ح ط ي ك ل م ن س ع ف ص ق ر ش ت ث خ ذ ض ظ غ]{.ar}
+
+This alternative order is discussed more in appendix\ \@ref(abjad-order).
+(TODO: add appendix for [أبجد]{.ar} order, discuss its use in lists and numerical value.)
 
 ### Pronunciation notes
 
@@ -1262,7 +1275,7 @@ Similarly,
 Just like we saw for the nouns in section\ \@ref(using-the-same-noun-for-both-sexes),
 such nouns adhere to their fixed grammatical gender when used for either male or female persons.
 
-### Nouns with mismatched gender
+### Nouns with mismarked gender
 
 We saw that there are some nouns that are feminine, but do not end with with a feminine marker like [ة]{.ar}. These were:
 
@@ -1311,7 +1324,7 @@ There are also a few words which can be optionally assigned a masculine or femin
 + [سُوق]{.ar} [sUq]{.trn} (masc. or fem.) "market"
 + [طَرِيق]{.ar} [TarIq]{.trn} (masc. or fem.) "path"
 
-A good dictionary should mention the gender of all these exceptional words.
+A good dictionary should mention the gender of all these exceptional words. In addition, in appendix\ \@ref(unmarked-fem-nouns) as well, we have a compiled a list of feminine nouns that don't end with a feminine marker. (TODO: get from Hava: pg. xi (fem) and xii (admitting either gender).)
 
 ## Exercises
 
