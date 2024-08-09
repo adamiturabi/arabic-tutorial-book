@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-785-gd22eee4"
+date: "v0.1.0-788-gd197318"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9659,6 +9659,17 @@ By the way, this [لِ]{.ar}, which is used with a-state incomplete-action verbs
 the [لِ]{.ar} we learned in section\ \@ref(indirect-commands), which is used with the [0]{.txt}-state incomplete-action verbs for indirect commands.
 -->
 
+By the way, the grammatical equivalence of [أَنْ]{.ar} and a following a-state incomplete-action verb with a verbal noun of doing applies also to when [لِ]{.ar} is used before (either an expressed or an implied) [أَنْ]{.ar}. So, for example, if we have a sentence:
+
+[قَرَأَ ٱلْكِتَابَ لِيَعْلَمَ مَفْهُومَهُ.]{.ar} or  
+[قَرَأَ ٱلْكِتَابَ لِأَنْ يَعْلَمَ مَفْهُومَهُ.]{.ar}  
+"He read the book so that he know its meaning."
+
+Then, grammatically, [أَنْ]{.ar} and what follows it may be expressed with the verbal noun of doing [عِلْم]{.ar} thus:
+
+[قَرَأَ ٱلْكِتَابَ لِعِلْمِ مَفْهُومِهِ.]{.ar}  
+"He read the book for the knowledge of its meaning."
+
 ### The [لِ]{.ar} of denial
 
 There is a specific [لِ]{.ar}, called the [لِ]{.ar} of denial,  which is used with a-state incomplete-action verbs and the verb [كَانَ]{.ar} that we will discuss in section (TODO in [كَانَ]{.ar} chapter).
@@ -9690,6 +9701,19 @@ Example:
 
 [شَرِبَ ٱلْمَاءَ لِكَيْلَا يَعْطَشَ.]{.ar}  
 "He drank the water in order that he not be thirsty."
+
+By the way, 
+[كَيْ]{.ar} and a following a-state incomplete-action verb may _not_ be replaced directly by
+a verbal noun of doing.
+So, for example, if we have a sentence:
+
+[قَرَأَ ٱلْكِتَابَ كَيْ يَعْلَمَ مَفْهُومَهُ.]{.ar}  
+"He read the book in order that he know its meaning."
+
+Then [لِ]{.ar} is to be used in place of [كَيْ]{.ar} if we wish to replace it and what follows with the verbal noun of doing [عِلْم]{.ar} thus:
+
+[قَرَأَ ٱلْكِتَابَ لِعِلْمِ مَفْهُومِهِ.]{.ar}  
+"He read the book for the knowledge of its meaning."
 
 ## After [حَتَّىٰ]{.ar} [HattA]{.trn}
 
@@ -12148,6 +12172,7 @@ Examples:
 |\vphantom{\huge J} [مَجِيءِهِ]{.tradar} [majIEihi]{.trn}      | [I]{.trn}  | [i]{.trn} | [I]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [سُوئِهِ]{.tradar} [sUEihi]{.trn}         | [U]{.trn}  | [i]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
 |\vphantom{\huge J} [ضَوْئِهِ]{.tradar} [DawEihi]{.trn}        | [aw]{.trn} | [i]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [يَسُوءُونَ]{.tradar} [yasUEUna]{.trn}     | [U]{.trn}  | [u]{.trn} | [U]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [سُوءُهُ]{.tradar} [sUEuhu]{.trn}         | [U]{.trn}  | [u]{.trn} | [U]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [سُوءَهُ]{.tradar} [sUEahu]{.trn}         | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [سُوءَانِ]{.tradar} [sUEAni]{.trn}        | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.tradar} |
@@ -12169,11 +12194,13 @@ then the hamzah will be written unseated. Examples:
   + \vphantom{\huge J}  [بُطْءُهُ]{.tradar} [buTEuhu]{.trn}  
   + \vphantom{\huge J}  [بُطْءِهِ]{.tradar} [buTEihi]{.trn}
 
+<!--
 + If the hamzah is after a long-[U]{.trn} vowel or an [aw]{.trn} semi-vowel, and the hamzah does not have an [i]{.trn}-mark, then it is written unseated. Example:
 
   + \vphantom{\huge J} [يَسُوءُونَ]{.tradar} [yasUEUna]{.trn}
 
   This is actually an acceptable variant in the general case, as will discuss below in section\ \@ref(hamza-variants)
+  -->
 
 ([انِ]{.tradar}, [يْنِ]{.tradar}, [هُ]{.tradar}, and [هِ]{.tradar} are suffixes.)
 Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [alif]{.trn2} is part of the suffix.
@@ -12265,4 +12292,111 @@ Beware, though, that neither of these approximations would allow for the correct
 
 
 <!--chapter:end:srcrmd/hamzarules.Rmd-->
+
+# Usage and style
+
+## "There is a ..." sentences.
+
+In English the plain existence of an indefinite subject is expressed using the word "there". For example:
+
+i.   "There is a gloom in the house"
+ii.  "There is a type of anger which is liked and [there is] a type of anger which is disliked.
+iii. "There are reasons."
+iv.  "There is a god."
+v.   "Is there food?"
+vi.  "Yes, there is food"
+
+The word "there" in these examples does not indicate a specific place. Rather it signifies existence. As if to say:
+
+i.   "A gloom exists in the house."
+ii.  "A type of confidence exists which is good and a type of confidence exists which is bad.
+iii. "Reasons exist"
+iv.  "A god exists."
+
+Expressing such sentences in Arabic can sometimes be tricky.
+There is a modern tendency to use the words [Parf makan]{.trn2} [هُنَاكَ]{.ar} and the [majhUl]{.trn2} verb [يُوجَدُ]{.ar} as direct equivalents of the English "there" and "exists" respectively.
+So one might find:
+
+i.   [هُنَاكَ حَزَنٌ فِي ٱلْبَيتِ.]{.ar} or  
+     [يُوجَدُ حَزَنٌ فِي ٱلْبَيتِ.]{.ar}
+ii.  [هناك غضب يستحب وهناك غصب يكره.]{.ar}  or  
+     [يوجد غضب يستحب ويوجد غصب يكره.]{.ar}
+iii. [هُناك أسباب.]{.ar} or  
+     [تُوجَدُ أسباب.]{.ar}  
+iv.  [هناك إله.]{.ar} or  
+     [يوجد إله.]{.ar}
+v.   [هَل هناك طعام؟]{.ar} or  
+     [هل يوجد طعام؟]{.ar}
+v.   [نَعَمْ هناك طعام.]{.ar} or  
+     [نَعَمْ يوجد طعام.]{.ar}
+
+Sometimes in place of [هُنَاكَ]{.ar}, [ثَمَّةَ]{.ar} is used.
+These usages of [هُنَاكَ]{.ar}, [ثَمَّةَ]{.ar}, and [يُوجَدُ]{.ar} are foreign to Arabic and there is no reason to allow them.
+
+In Classical Arabic, expressing such sentences falls under the category of sentences with indefinite subjects.
+We have discussed this topic in chapter\ \@ref(chap-indef-subjects).
+
+There are various strategies for expressing such sentences:
+
+If, for example, there is a [jArr wa-majrUr]{.trn2}, or other [cibh jumlah]{.trn2} then it can readily be used as a [xabar]{.trn2} that precedes the [mubtadaE]{.trn2}. For example:
+
+[فِي ٱلْبَيتِ حَزَنٌ.]{.ar}  
+"In the house is gloom."
+
+Sometimes, a [jArr wa-majrUr]{.trn2}, or other [cibh jumlah]{.trn2} is not original, but can readily be manufactured. 
+For example, in the sentence, "There are reasons." the reasons must be for something, and that something can be used as a [xabar]{.trn2}:
+
+[لِلْوَضْعِ أَسْبَابٌ.]{.ar}  
+"For the situation, are reasons."
+
+Similarly, a introductory sentence or [cibh jumlah]{.trn2} can be manufactured to pave the way for the main sentence. For example:
+
+[الغَضَبُ غَضَبَانِ: غَضَبٌ مُسْتَحَبٌّ وَغَضَبٌ مَكْرُوهٌ.]{.ar}  
+"Anger is (actually) two angers: an anger that is liked, and an anger that is disliked."
+
+[مَنَ ٱلْغَضَبِ مَا يٌسْتَحَبُّ وَمَا يٌكْرَهُ.]{.ar}  
+"From anger is that which is liked, that which is disliked."
+
+Sometimes it hard to come up with any of the above solutions, as in the sentence: "There is a god."
+Such sentences, if they are able to be converted to an interjection, may be expressed with the subject itself as a one word sentence:
+
+[إِلَـٰهٌ!]{.ar}  
+"A god [exists]!"
+
+This solution should only be considered if the sentence makes sense as an interjection, and can not be used as a blanket solution. For example, in the exchange:
+
+"Is there food?"  
+"Yes, there is food."
+
+One way to express this in Arabic is:
+
+[هَلْ مِنْ طَعَامٍ؟]{.ar}  
+[نَعَمْ، عِنْدَنَا طَعَامٌ.]{.ar}  
+
+English also uses the word "there" with this existential meaning for sentences like:
+
+i.  "There was a king."
+ii. "There is no hope."
+
+These sentences can be expressed in Arabuc without indefinite subjects. For example:
+
+i.  [كَانَ مَلِكٌ.]{.ar}  
+    This uses the "self-sufficient" [كَانَ]{.ar}. (See section\ \@ref(self-sufficient-kaana).)
+
+ii. [لَا أَمَلَ.]{.ar}  
+    This uses the [nAfiyah lil-jins]{.trn2} [لَا]{.ar}. (See section\ \@ref(la-nafiyah-lil-jins).)
+
+### Legitimate use of [هُنَاكَ]{.ar} and [يُوجَدُ]{.ar}
+
+If, of course, a place is intended by "there" then there is no problem using [هُنَاكَ]{.ar} or its synonyms. For example:
+
+[أَثَمَّ زَيْدٌ؟]{.ar}  
+"Is Zayd there?"
+
+Similarly, [يُوجَدُ]{.ar} may be used with no problem if the meaning "is (to be) found" is intended. For example:
+
+[من قتل معاهدا لم يرح رائحة الجنة، وإن ريحها توجد من مسيرة أربعين عاماً]{.ar}
+
+
+<!--chapter:end:srcrmd/usage_and_style.Rmd-->
 
