@@ -36,7 +36,7 @@ rmd_file_list <- c("intro.Rmd"
  #, "ideas.Rmd"
  , "appendix.Rmd"
  , "hamzarules.Rmd"
- #, "further.Rmd"
+ , "usage_and_style.Rmd"
 )
 
 rmd_file_list <- paste("srcrmd/", rmd_file_list, sep="")

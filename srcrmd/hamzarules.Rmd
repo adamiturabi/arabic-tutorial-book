@@ -171,6 +171,7 @@ Examples:
 |\vphantom{\huge J} [مَجِيءِهِ]{.tradar} [majIEihi]{.trn}      | [I]{.trn}  | [i]{.trn} | [I]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [سُوئِهِ]{.tradar} [sUEihi]{.trn}         | [U]{.trn}  | [i]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
 |\vphantom{\huge J} [ضَوْئِهِ]{.tradar} [DawEihi]{.trn}        | [aw]{.trn} | [i]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [يَسُوءُونَ]{.tradar} [yasUEUna]{.trn}     | [U]{.trn}  | [u]{.trn} | [U]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [سُوءُهُ]{.tradar} [sUEuhu]{.trn}         | [U]{.trn}  | [u]{.trn} | [U]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [سُوءَهُ]{.tradar} [sUEahu]{.trn}         | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [سُوءَانِ]{.tradar} [sUEAni]{.trn}        | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.tradar} |
@@ -192,11 +193,13 @@ then the hamzah will be written unseated. Examples:
   + \vphantom{\huge J}  [بُطْءُهُ]{.tradar} [buTEuhu]{.trn}  
   + \vphantom{\huge J}  [بُطْءِهِ]{.tradar} [buTEihi]{.trn}
 
+<!--
 + If the hamzah is after a long-[U]{.trn} vowel or an [aw]{.trn} semi-vowel, and the hamzah does not have an [i]{.trn}-mark, then it is written unseated. Example:
 
   + \vphantom{\huge J} [يَسُوءُونَ]{.tradar} [yasUEUna]{.trn}
 
   This is actually an acceptable variant in the general case, as will discuss below in section\ \@ref(hamza-variants)
+  -->
 
 ([انِ]{.tradar}, [يْنِ]{.tradar}, [هُ]{.tradar}, and [هِ]{.tradar} are suffixes.)
 Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [alif]{.trn2} is part of the suffix.
