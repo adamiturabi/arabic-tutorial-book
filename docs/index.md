@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-793-geecb31c"
+date: "v0.1.0-794-g99b9aea"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9836,20 +9836,23 @@ Context would be needed to determine which meaning or whether both meanings are 
 If
 [حَتَّىٰ]{.ar}
 is not used with any expectation or purpose of a future action of the verb following it, then it has no effect on this verb.
+(It goes without saying that an implicit [أَنْ]{.ar} is not assumed with [حَتَّىٰ]{.ar} in this case.)
 In fact, the following verb may be a completed-action verb. For example:
 
 [أَكَلْتُ ٱلطَّعَامَ حَتَّىٰ شَبِعْتُ.]{.ar}  
 "I ate the food until I became full."
 
-When used with a following incomplete-action verb, the verb is put in the u-state and the meaning is that the action of the verb before
+When used with a following incomplete-action verb, the verb is put in the u-state and the meaning is that the action of the verb _before_
 [حَتَّىٰ]{.ar}
-was or done to such an extent that it caused
-the action of the verb following
+was done to such an extent that it caused
+the action of the verb _following_
 [حَتَّىٰ]{.ar}
 to definitely occur.
 The action before
 [حَتَّىٰ]{.ar}
-must necessarily be a past action, and the second action must necessarily be present (not a future) action.
+must necessarily be a past action, and the action following
+[حَتَّىٰ]{.ar}
+must necessarily be a present (not a future) action.
 For example,
 
 [أَكَلْتُ ٱلطَّعَامَ حَتَّىٰ أَشْبَعُ.]{.ar}  
@@ -9862,6 +9865,7 @@ For example,
 "He became so angry that he is not controlling himself."
 
 Compare these examples with the corresponding ones in the previous sub-section that have an a-state incomplete action verb.
+
 
 <!--The preposition 
 [حَتَّىٰ]{.ar} [HattA]{.trn}
