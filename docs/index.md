@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-794-g99b9aea"
+date: "v0.1.0-795-g9b3a025"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9747,9 +9747,9 @@ Consider now a variant of this sentence:
 here, is in the a-state because it is a direct doee of the verb [أَكَلَ]{.ar} "ate".
 The particle
 [حَتَّىٰ]{.ar} "even",
-here, is only a connector between the direct doees in much the same way as [وَ]{.ar} "and" functions. For example,
-[أَكَلْتُ ٱلسَّمَكَةَ وَرَأْسَهَا.]{.ar}
-"I ate the fish and its head."
+here, is only a connector between the direct doees in much the same way as [وَ]{.ar} "and". 
+([أَكَلْتُ ٱلسَّمَكَةَ وَرَأْسَهَا.]{.ar}
+"I ate the fish and its head.")
 
 Consider now yet another variant of this sentence:
 
@@ -9782,10 +9782,10 @@ so too is it used with different purposes with a verb following it.
 
 When the verb following
 [حَتَّىٰ]{.ar}
-is used with an expectation or purpose of a future action, then the verb is used as an a-state incomplete-action verb. 
+signifies the expectation or purpose of a future action, then the verb used is an a-state incomplete-action verb. 
 This is done in the following two scenarios:
 
-1. When [حَتَّىٰ]{.ar} is used to indicate an extreme point at which the action of the following verb would, or is meant to, occur. For example,
+1. When [حَتَّىٰ]{.ar} is used to indicate an extreme point at which the action of the following verb would occur, or is meant to occur. For example,
 
    [قَرَأْتُ ٱلْقُرْآنَ حَتَّىٰ أَخْتِمَهُ.]{.ar}  
    "I read the [#qurEAn]{.trn2} to the point of finishing it."
@@ -9796,14 +9796,14 @@ This is done in the following two scenarios:
    [غَضِبَ حَتَّىٰ لَا يَمْلِكَ نَفْسَهُ.]{.ar}  
    "He became angry to the point of not controlling himself."
 
-   It is noteworthy that the use of [حَتَّىٰ]{.ar}, here, implies only that the following action is meant, or at the point of being expected, to occur. It doesn't actually state that the action actually occured, for something may have prevented it from occurring in reality.
+   It is noteworthy that the use of [حَتَّىٰ]{.ar}, here, implies only that the following action is meant to occur, or is at the point of being expected to occur. It doesn't actually state that the action will actually occur, for something may prevent it from occurring in reality.
 
    Note, also, that [لَا]{.ar} is not attached to [حَتَّىٰ]{.ar} in [حَتَّىٰ لَا]{.ar}.
 
    Also, similar to the case of [كَيْ]{.ar}, there is an assumed (but mandatorily unexpressed) [أَنْ]{.ar} which is the real cause of the following incomplete-action verb being in the a-state.
    In fact, 
    [حَتَّىٰ]{.ar},
-   here, can be considered synonymous to [إِلَىٰ أَنْ]{.ar} "to [the point] that". So the above two examples can be considered similar in meaning to:
+   here, can be considered synonymous to [إِلَىٰ أَنْ]{.ar} "to [the point] that". So the above examples can be considered similar in meaning to:
 
    [قَرَأْتُ ٱلْقُرْآنَ إِلَىٰ أَنْ أَخْتِمَهُ.]{.ar}  
 
@@ -9837,7 +9837,11 @@ If
 [حَتَّىٰ]{.ar}
 is not used with any expectation or purpose of a future action of the verb following it, then it has no effect on this verb.
 (It goes without saying that an implicit [أَنْ]{.ar} is not assumed with [حَتَّىٰ]{.ar} in this case.)
-In fact, the following verb may be a completed-action verb. For example:
+
+The verb following 
+[حَتَّىٰ]{.ar}
+in this case
+may even be a completed-action verb. For example:
 
 [أَكَلْتُ ٱلطَّعَامَ حَتَّىٰ شَبِعْتُ.]{.ar}  
 "I ate the food until I became full."
