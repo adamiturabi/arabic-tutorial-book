@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-795-g9b3a025"
+date: "v0.1.0-796-ge2055c8"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9780,12 +9780,21 @@ so too is it used with different purposes with a verb following it.
 
 #### [حَتَّىٰ]{.ar} with a following a-state incomplete-action verb
 
+When
+[حَتَّىٰ]{.ar}
+is used with an expectation or purpose of a future action of the verb following it, then 
+the verb following it is an a-state incomplete-action verb. 
+<!--
 When the verb following
 [حَتَّىٰ]{.ar}
 signifies the expectation or purpose of a future action, then the verb used is an a-state incomplete-action verb. 
+-->
 This is done in the following two scenarios:
 
-1. When [حَتَّىٰ]{.ar} is used to indicate an extreme point at which the action of the following verb would occur, or is meant to occur. For example,
+1. When [حَتَّىٰ]{.ar} is used to indicate an extreme point at which the action of the following verb would occur, or is meant to occur. Here, 
+   [حَتَّىٰ]{.ar}
+   may be translated as "to the point of" and the verb following it is translated using "-ing".
+   For example,
 
    [قَرَأْتُ ٱلْقُرْآنَ حَتَّىٰ أَخْتِمَهُ.]{.ar}  
    "I read the [#qurEAn]{.trn2} to the point of finishing it."
