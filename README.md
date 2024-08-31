@@ -243,6 +243,12 @@ Add an empty `.nojekyll` file to the `docs` dir.
     unzip CharisSIL-6.200.zip
     cp CharisSIL-6.200/*.ttf ~/.fonts
     ```
+    
+To copy files from the container to the host, use this command:
+
+```
+docker cp <containerId>:/file/path/within/container /host/path/target
+```
 
 ## Building the book from source files
 
