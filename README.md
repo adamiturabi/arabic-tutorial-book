@@ -106,25 +106,6 @@ Add an empty `.nojekyll` file to the `docs` dir.
 
    There could be some errors. Don't worry about them.
 
-## Building the book from source files
-
-In a Linux terminal:
-
-```
-cd path-to-your-preferred-dir
-git clone https://github.com/adamiturabi/arabic-tutorial-book.git
-cd arabic-tutorial-book
-make
-```
-
-The created files will be under the `docs` directory. Open `docs/index.html` in a browser and `docs/Learn-Standard-Arabic.pdf` in a PDF viewer.
-
-To delete created files in order to do a clean build:
-
-```
-make clean
-```
-
 ### For Ubuntu Docker container
 
 1.  Install Docker Desktop.
@@ -195,7 +176,7 @@ make clean
 
     ```
     CONTAINER ID   IMAGE                                   COMMAND       CREATED          STATUS                     PORTS     NAMES
-a8a 04f9c5710   ubuntu-arabic-book-dev-image-20240831   "/bin/bash"   38 minutes ago   Exited (0) 2 minutes ago             ubuntu-arabic-book-dev-cont
+    a8a04f9c5710   ubuntu-arabic-book-dev-image-20240831   "/bin/bash"   38 minutes ago   Exited (0) 2 minutes ago             ubuntu-arabic-book-dev-cont
     ```
 
     Now restart the container using the command:
@@ -262,4 +243,24 @@ a8a 04f9c5710   ubuntu-arabic-book-dev-image-20240831   "/bin/bash"   38 minutes
     unzip CharisSIL-6.200.zip
     cp CharisSIL-6.200/*.ttf ~/.fonts
     ```
+
+## Building the book from source files
+
+In a Linux terminal:
+
+```
+cd path-to-your-preferred-dir
+git clone https://github.com/adamiturabi/arabic-tutorial-book.git
+cd arabic-tutorial-book
+make
+```
+
+The created files will be under the `docs` directory. Open `docs/index.html` in a browser and `docs/Learn-Standard-Arabic.pdf` in a PDF viewer.
+
+To delete created files in order to do a clean build:
+
+```
+make clean
+```
+
 
