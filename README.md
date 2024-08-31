@@ -204,7 +204,7 @@ Add an empty `.nojekyll` file to the `docs` dir.
 10. Generate SSH key for Github
 
     ```
-    ssh-keygen -t ed25519 -C "ahmadzsheikh@gmail.com"
+    ssh-keygen -t ed25519 -C "<github email>"
     ```
 
     Open `~/.ssh/id_ed25519.pub` and copy to clipboard. Add new SSH to your Github account and paste this there.
