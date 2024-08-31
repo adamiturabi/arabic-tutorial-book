@@ -33,6 +33,7 @@ Add an empty `.nojekyll` file to the `docs` dir.
    sudo apt install texlive-xetex
    sudo apt install texlive-lang-arabic
    sudo apt install texlive-fonts-extra
+   sudo apt install texlive-luatex
    ```
 2. Fonts
    + In current use:
@@ -124,4 +125,141 @@ To delete created files in order to do a clean build:
 make clean
 ```
 
+### For Ubuntu Docker container
+
+1.  Install Docker Desktop.
+
+2.  Create a dockerfile with the following contentss:
+
+    ```
+    FROM ubuntu:24.04
+    RUN apt update -y
+    RUN apt upgrade -y
+    RUN apt install -y \
+      sudo vi vim wget openssh-client git \
+      texlive-base texlive-xetex texlive-lang-arabic texlive-fonts-extra texlive-luatex \
+      r-base libcurl4-openssl-dev libfontconfig1-dev libssl-dev libxml2-dev \
+      libv8-dev libavfilter-dev librsvg2-dev libwebp-dev cargo libpoppler-cpp-dev \
+      libtesseract-dev libmagick++-dev libharfbuzz-dev libfribidi-dev
+    ```
+    
+3.  Navigate to directory that has dockerfile, and build an image:
+    
+    ```
+    docker build -t ubuntu-arabic-book-dev-image-20240831 .
+    ```
+
+    The image name (after `-t`) can be anything you choose.
+
+    This will take a while.
+
+4.  Verify that the image exists. In your terminal, run `docker images`. It should show something like:
+
+    ```
+    REPOSITORY                              TAG       IMAGE ID       CREATED         SIZE
+    ubuntu-arabic-book-dev-image-20240831   latest    47a614803fad   2 minutes ago   4.93GB
+    ```
+
+5.  Build a container from the image and launch the bash shell in it:
+
+    ```
+    docker run -it --name=ubuntu-arabic-book-dev-cont ubuntu-arabic-book-dev-image-20240831 /bin/bash
+    ```
+    
+    The container name (after `--name=`) may be anything you choose.
+    
+6.  You are now in the container. Create a sudo user (`myusername` is a placeholder) and go through the steps to add a password:
+
+    ```
+    sudo adduser myusername
+    ```
+
+    Give sudo access:
+
+    ```
+    sudo usermod -aG sudo myusername
+    ```
+
+    Switch to user:
+
+    ```
+    sudo su - myusername
+    ```
+7.  Try stopping and restarting container.
+    
+    To stop the container, you can simply exit (possibly multiple times) from bash until you reach the host (MacOS) terminal from where you ran `docker run ...`.
+    
+    Your container still exists and its data is persistent.
+
+    Check to list containers using `docker ps -a`. It should show:
+
+    ```
+    CONTAINER ID   IMAGE                                   COMMAND       CREATED          STATUS                     PORTS     NAMES
+a8a 04f9c5710   ubuntu-arabic-book-dev-image-20240831   "/bin/bash"   38 minutes ago   Exited (0) 2 minutes ago             ubuntu-arabic-book-dev-cont
+    ```
+
+    Now restart the container using the command:
+
+    ```
+    docker start ubuntu-arabic-book-dev-cont
+    ```
+
+    Now relaunch bash:
+
+    ```
+    docker exec -it ubuntu-arabic-book-dev-cont /bin/bash
+    ```
+
+8.  Install additional packages:
+
+    Pandoc (get latest, and for your container's architecture):
+    ```
+    wget https://github.com/jgm/pandoc/releases/download/3.3/pandoc-3.3-1-amd64.deb
+    sudo dpkg -i pandoc-3.3-1-amd64.deb
+    ```
+
+9.  Install R packages, as in Ubuntu install above.
+
+10. Generate SSH key for Github
+
+    ```
+    ssh-keygen -t ed25519 -C "ahmadzsheikh@gmail.com"
+    ```
+
+    Open `~/.ssh/id_ed25519.pub` and copy to clipboard. Add new SSH to your Github account and paste this there.
+
+11. Install fonts:
+
+    Varirmatn:
+
+    ```
+    cd
+    mkdir vazirmatn
+    cd vazirmatn
+    wget https://github.com/rastikerdar/vazirmatn/releases/download/v33.003/vazirmatn-v33.003.zip
+    unzip vazirmatn-v33.003.zip
+    cp fonts/ttf/*.ttf ~/.fonts
+    ```
+
+    Amiri:
+
+    ```
+    cd
+    mkdir amiri
+    cd amiri
+    wget https://github.com/aliftype/amiri/releases/download/1.000/Amiri-1.000.zip
+    unzip Amiri-1.000.zip
+    cp Amiri-1.000/*.ttf ~/.fonts
+    ```
+
+    Charis SIL
+
+    ```
+    cd
+    mkdir charis
+    cd charis
+    wget https://software.sil.org/downloads/r/charis/CharisSIL-6.200.zip
+    unzip CharisSIL-6.200.zip
+    cp CharisSIL-6.200/*.ttf ~/.fonts
+    ```
 
