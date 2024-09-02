@@ -1,4 +1,94 @@
-# Subject-information verbs
+# [كَانَ]{.ar} and its sisters
+
+## Introduction
+
+We have learned that a verb must have a doer in the u-state and can have a direct doee in the a-state.
+In this chapter, we will learn about a new type of verb, whose doer is called its subject, and whose direct doee is called its information.
+
+The principal verb of this type is [كَانَ]{.ar} which is used to mean "was". There are other verbs which behave in a similar manner and they are called the _sisters of [كَانَ]{.ar}_.
+
+## [كَانَ]{.ar}, its subject, and its information
+
+Consider the sentence:
+
+[ٱلرَّجُلُ مُعَلِّمٌ.]{.ar}  
+"The man is a teacher."
+
+This is a subject-information sentence. 
+[ٱلرَّجُلُ]{.ar} is the subject in the u-state, and
+[مُعَلِّمٌ]{.ar} is the information, also in the u-state.
+Arabic does not, in this case, express any word for "is".
+
+Consider now the following sentence:
+
+<!--
+[كَانَ ٱلرَّجُلُ مُعَلِّمًا.]{.ar}  
+"The man was a teacher."
+-->
+
+
+```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=2.0ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{مُعَلِّمًا} \txarb{ٱَلرَّجُلُ} \txarb{كَانَ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, rotate=90, anchor=south, left=0ex, align=left] {\scriptsize direct doee/\\\scriptsize information};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, rotate=90, anchor=south, left=0ex, align=left] {\scriptsize doer/\\\scriptsize subject};
+
+%\path (0,0) node [midway, below=4.5ex, right=0ex, align=left] {``The man was a teacher.''};
+
+\end{tikzpicture}
+```
+
+Now, as you can see, Arabic does express a word for "was". It is the past verb [كَانَ]{.ar} [kAna]{.trn}.
+[كَانَ]{.ar} is a hollow verb from the root [كون]{.arroot}. 
+It's resembling verb is [يَكُونُ]{.ar} [yakUnu]{.trn}.
+The complete table for this verb for all doer pronouns is given below:
+
+|Doer pronoun|past verb|resembling verb|
+|:----|:----|:----|
+| he        | [كَانَ]{.ar}   | [يَكُونُ]{.ar}   |
+| she       | [كَانَتْ]{.ar}  | [تَكُونُ]{.ar}   |
+| you~1m~   | [كُنْتَ]{.ar}   | [تَكُونُ]{.ar}   |
+| you~1f~   | [كُنْتِ]{.ar}   | [تَكُونِينَ]{.ar} |
+| I         | [كُنْتُ]{.ar}   | [أَكُونُ]{.ar}   |
+| they~2m~  | [كَانَا]{.ar}  | [يَكُونَانِ]{.ar} |
+| they~2f~  | [كَانَتَا]{.ar} | [تَكُونَانِ]{.ar} |
+| you~2~    | [كُنْتُمَا]{.ar} | [تَكُونَانِ]{.ar} |
+| they~3m~  | [كَانُوا]{.ar} | [يَكُونُونَ]{.ar} |
+| they~3f~  | [كُنَّ]{.ar}    | [يَكُنَّ]{.ar}    |
+| you~3m~   | [كُنْتُمْ]{.ar}  | [تَكُونُونَ]{.ar} |
+| you~3f~   | [كُنْتُنَّ]{.ar}  | [تَكُنَّ]{.ar}    |
+| we        | [كُنَّا]{.ar}   | [نَكُونُ]{.ar}   |
+
+Like, for other verbs, 
+the doer of [كَانَ]{.ar},
+[ٱلرَّجُلُ]{.ar}, is in the u-state, and
+and its direct doee, [مُعَلِّمًا]{.ar}, is in the a-state.
+
+However, unlike most other verbs,
+the doer of [كَانَ]{.ar},
+[ٱلرَّجُلُ]{.ar}, is also called its subject
+and its direct doee, [مُعَلِّمًا]{.ar}, is also called its information.
+
+So a sentence with [كَانَ]{.ar} used in this way is a subject-information sentence.
+If it begins with [كَانَ]{.ar} then it is also a verbal sentence at the same time.
+
+Therefore, "is" subject-information sentences can be converted to "was" subject-information sentences using the verb [كَانَ]{.ar}. Here are some examples:
+
+
+## Subject-information verbs
 
 As we've already mentioned Arabic does not normally express the word "is". For example,
 
