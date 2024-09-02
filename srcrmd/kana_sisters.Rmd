@@ -109,7 +109,8 @@ That is, without the information, the sentence is deficient.
 ## Sequence of [كَانَ]{.ar}, its subject, and its information
 
 In sentence word order, the natural sequence is 
-[كَانَ]{.ar}, its subject, and its information, as 
+<!--[كَانَ]{.ar}, its subject, and its information, as -->
+verb, subject, information.
 
 [كَانَ زَيْدٌ قَائِمًا.]{.ar}  
 "Zayd was standing."
@@ -146,6 +147,15 @@ This is because, if we invert it, it would naturally mean:
 [كَانَ رَفِيقِي أَخِي.]{.ar}  
 "My companion was my brother."
 
+The following apparent sequence is also possible:
+
+[زَيْدٌ كَانَ قَائِمًا.]{.ar}  
+"Zayd: he was standing."
+
+This is actually a topic-comment sentence.
+[زَيْدٌ]{.ar} is the topic.
+And the comment is [كَانَ قَائِمًا]{.ar}, which is itself a [كَانَ]{.ar} subject-information sentence in the sequence verb, subject, information.
+The subject is the hidden pronoun "he" and the information is [قَائِمًا]{.ar}.
 
 ## Plurals of non-rational beings with [كَانَ]{.ar}
 
