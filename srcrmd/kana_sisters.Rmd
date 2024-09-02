@@ -185,7 +185,8 @@ For example,
 -->
 
 The separating pronoun [هُمْ]{.ar} does not, in this case, serve to disambiguate the information [ٱلْفَائزِينَ]{.ar} "the winners", from being a describer, as it did in sentences without [كَانَ]{.ar} (see section\ \@ref(subject-information-sentences-separating-pronoun)).
-This is because the a-state of [ٱلْفَائزِينَ]{.ar} already tells us that it is the information. If it were a describer of the u-state subject [ٱَلْمُوْمِنُونَ]{.ar}, then it too would be in the u-state.
+This is because the a-state of [ٱلْفَائزِينَ]{.ar} already tells us that it is the information of [كَانَ]{.ar}. 
+If [ٱلْفَائزِينَ]{.ar} were a describer of the u-state subject [ٱَلْمُوْمِنُونَ]{.ar}, then it too would be in the u-state, not the a-state.
 So the separating pronoun serves more, here, to emphasize the subject.
 
 Most of the time, separating pronouns are used in [كَانَ]{.ar} sentences when the subject of [كَانَ]{.ar} is itself a pronoun. Examples:
@@ -195,6 +196,16 @@ Most of the time, separating pronouns are used in [كَانَ]{.ar} sentences wh
 
 [كُنْتَ أَنْتَ ٱلرَّقِيبَ عَلَيْهِمْ]{.ar}  
 "You were the Observer over them" [al-[#qurEAn]{.trn2} 5:117, translation by Saheeh International]
+
+Sometimes a pronoun may appear to be a separating pronoun, but actually is not one. Consider, for example, the following sentence:
+
+[كَانَ ٱلْمُؤْمِنُونَ هُمُ ٱلْفَائِزُونَ.]{.ar}  
+"The believers were the winners."
+
+Note that [ٱَلْفَائِزُونَ]{.ar} is in the u-state, so it is not, by itself, the information of [كَانَ]{.ar}.
+So this is, in fact, a topic-comment sentence.
+[ٱَلْمُوْمِنُونَ]{.ar} is the topic and the subject of [كَانَ]{.ar}.
+The information of [كَانَ]{.ar} is the comment [هُمُ ٱلفَائِزُونَ]{.ar}, which is itself a subject-information sentence with a u-state subject ([هُمْ]{.ar}) and a u-state information ([ٱلْفَائزُونَ]{.ar}).
 
 ## Subject-information verbs
 
