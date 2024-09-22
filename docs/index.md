@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-810-g3347402"
+date: "v0.1.0-811-g531645c"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -10904,7 +10904,7 @@ There are actually a few uses of this verb. We will explain them below:
 
 
 
-<!--chapter:end:srcrmd/kana_sisters.Rmd-->
+<!--chapter:end:srcrmd/kaana.Rmd-->
 
 # [إِنَّ]{.ar} and its sisters {#inna-and-its-sisters}
 
