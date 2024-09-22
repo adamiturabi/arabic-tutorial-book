@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-796-ge2055c8"
+date: "v0.1.0-810-g3347402"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -5712,7 +5712,7 @@ We have already studied verbs with sound plurals in section\ \@ref(verbs-with-pl
 [Palama -ljabAbiratu -lmasAkIna waqatalUhum.]{.trn}  
 "The tyrants wronged the needy ones~3,m~ and killed them~3,m~."
 
-## Usage of plurals of non-intelligent beings
+## Usage of plurals of non-intelligent beings {#usage-of-plurals-of-non-intelligent-beings}
 
 We now turn our attention to plurals of non-intelligent beings. They treatment of plurals of non-intelligent beings is very different from everything we have learned so far. Regardless of the grammatical or physical gender of the singular noun, plurals of non-intelligent beings are treated, for the purposes of matching adjectival nouns and pronouns, as:
 
@@ -10686,13 +10686,233 @@ As you can see, [فُلَان]{.ar} "so-and-so" is actually the doer, and [ٱل�
 
 <!--chapter:end:srcrmd/passive_voice.Rmd-->
 
-# [إِنَّ]{.ar} and its sisters
+# The verb [كَانَ]{.ar} {#the-verb-kaana}
+
+## Introduction
+
+We have learned that a verb must have a doer in the u-state and can have a direct doee in the a-state.
+In this chapter, we will learn about a new type of verb, whose doer is called its subject, and whose direct doee is called its information.
+
+The principal verb of this type is [كَانَ]{.ar} which is used to mean "was". There are other verbs which behave in a similar manner and they are called the _sisters_ of [كَانَ]{.ar}.
+
+## [كَانَ]{.ar}, its subject, and its information
+
+Consider the sentence:
+
+[ٱلرَّجُلُ مُعَلِّمٌ.]{.ar}  
+"The man is a teacher."
+
+This is a subject-information sentence. 
+[ٱلرَّجُلُ]{.ar} is the subject in the u-state, and
+[مُعَلِّمٌ]{.ar} is the information, also in the u-state.
+Arabic does not, in this case, express any word for "is".
+
+Consider now the following sentence:
+
+<!--
+[كَانَ ٱلرَّجُلُ مُعَلِّمًا.]{.ar}  
+"The man was a teacher."
+-->
+
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.pdf)<!-- -->
+
+Now, as you can see, Arabic does express a word for "was". It is the past verb [كَانَ]{.ar} [kAna]{.trn}.
+[كَانَ]{.ar} is a hollow verb from the root [كون]{.arroot}. 
+It's resembling verb is [يَكُونُ]{.ar} [yakUnu]{.trn}.
+The complete table for this verb for all doer pronouns is given below:
+
+|Doer pronoun|past verb|resembling verb|
+|:----|:----|:----|
+| he        | [كَانَ]{.ar}   | [يَكُونُ]{.ar}   |
+| she       | [كَانَتْ]{.ar}  | [تَكُونُ]{.ar}   |
+| you~1m~   | [كُنْتَ]{.ar}   | [تَكُونُ]{.ar}   |
+| you~1f~   | [كُنْتِ]{.ar}   | [تَكُونِينَ]{.ar} |
+| I         | [كُنْتُ]{.ar}   | [أَكُونُ]{.ar}   |
+| they~2m~  | [كَانَا]{.ar}  | [يَكُونَانِ]{.ar} |
+| they~2f~  | [كَانَتَا]{.ar} | [تَكُونَانِ]{.ar} |
+| you~2~    | [كُنْتُمَا]{.ar} | [تَكُونَانِ]{.ar} |
+| they~3m~  | [كَانُوا]{.ar} | [يَكُونُونَ]{.ar} |
+| they~3f~  | [كُنَّ]{.ar}    | [يَكُنَّ]{.ar}    |
+| you~3m~   | [كُنْتُمْ]{.ar}  | [تَكُونُونَ]{.ar} |
+| you~3f~   | [كُنْتُنَّ]{.ar}  | [تَكُنَّ]{.ar}    |
+| we        | [كُنَّا]{.ar}   | [نَكُونُ]{.ar}   |
+
+Like, for other verbs, 
+the doer of [كَانَ]{.ar},
+[ٱلرَّجُلُ]{.ar}, is in the u-state, and
+and its direct doee, [مُعَلِّمًا]{.ar}, is in the a-state.
+
+However, unlike most other verbs,
+the doer of [كَانَ]{.ar},
+[ٱلرَّجُلُ]{.ar}, is also called its subject
+and its direct doee, [مُعَلِّمًا]{.ar}, is also called its information.
+
+So a sentence with [كَانَ]{.ar} used in this way is a subject-information sentence.
+If it begins with [كَانَ]{.ar} then it is also a verbal sentence at the same time.
+
+This property also applies to the sisters of [كَانَ]{.ar} that we will learn later in this chapter. 
+Together, these verbs are also called _deficient_ verbs, because, besides their doer/subject, they also need an information to complete the meaning of the sentence.
+That is, without the information, the sentence is deficient.
+
+"Is" subject-information sentences can be converted to "was" subject-information sentences using the verb [كَانَ]{.ar}. Here are some examples:
+
+| "is" | "was" |
+|:-|:-|
+| [زَيْنَبُ جَائِعَةٌ.]{.ar}  |[كَانَتْ زَيْنَبُ جَائِعَةً.]{.ar}  |
+| "Zaynab is hungry." |"Zaynab was hungry."     |
+| [ٱَلْغُلَامُ زَيْدٌ.]{.ar}  |[كَانَ ٱلْغُلَامُ زَيْدًا.]{.ar} |
+| "The boy is Zayd."  |"The boy was Zayd."     |
+| [ٱَلنِّسَاءُ فِي بُيُوتِهِنَّ.]{.ar}         |[كَانَتْ ٱلنِّسَاءُ فِي بُيُوتِهِنَّ.]{.ar}     |
+| "The women are in their houses." |"The women were in their houses." |
+| [هُمْ مَسْرُورُونَ وَفَرِحُونَ.]{.ar}            | [كَانُوا مَسْرُورِينَ وَفَرِحِينَ.]{.ar}     |
+| "They~3m~ are happy and rejoicing."  | "They~3m~ were happy and rejoicing." |
+| [أَنَا نَائِمَةٌ.]{.ar}                | [كُنْتُ نَائِمَةً.]{.ar}       |
+| "I~1f~ am sleeping."             | "I~1f~ was sleeping."|
+| [أَنْتَ لِي أَخٌ.]{.ar}               | [كُنْتَ لِي أَخًا.]{.ar}            |
+| "You~1m~ are a brother to me.   | "You~1m~ were a brother to me.|
+
+## Sequence of [كَانَ]{.ar}, its subject, and its information
+
+In sentence word order, the natural sequence is 
+<!--[كَانَ]{.ar}, its subject, and its information, as -->
+verb, subject, information.
+
+[كَانَ زَيْدٌ قَائِمًا.]{.ar}  
+"Zayd was standing."
+
+but we may also say, for the same meaning:
+
+[كَانَ قَائِمًا زَيْدٌ.]{.ar}  
+"Zayd was standing."
+
+and also:
+
+[قَائِمًا كَانَ زَيْدٌ.]{.ar}  
+"Zayd was standing."
+
+This last order is common in questions and alternative sentence sentences. For example:
+
+[أَقَائِمًا كَانَ زَيْدٌ.]{.ar}  
+"Was Zayd standing?"
+
+[ٱُدْعُ زَيْدًا قَائِمًا كَانَ أَوْ جَالِسًا!]{.ar}  
+"Call Zayd, be he standing or sitting!"
+
+<!--See Wright vol. ii. Section 41 Rem a, p. 100B -->
+
+Sometimes, however, this inversion is impossible because of an indistinguishable state of the two nouns.
+
+For example, in order to express "My brother was my companion," we must say:
+
+[كَانَ أَخِي رَفِيقِي.]{.ar}  
+"My brother was my companion."
+
+This is because, if we invert it, it would naturally mean:
+
+[كَانَ رَفِيقِي أَخِي.]{.ar}  
+"My companion was my brother."
+
+The following apparent sequence is also possible:
+
+[زَيْدٌ كَانَ قَائِمًا.]{.ar}  
+"Zayd: he was standing."
+
+This is actually a topic-comment sentence.
+[زَيْدٌ]{.ar} is the topic.
+And the comment is [كَانَ قَائِمًا]{.ar}, which is itself a [كَانَ]{.ar} subject-information sentence in the sequence verb, subject, information.
+The subject is the hidden pronoun "he" and the information is [قَائِمًا]{.ar}.
+
+## Plurals of non-rational beings with [كَانَ]{.ar}
+
+Because [كَانَ]{.ar} sentences are subject-information being sentences, 
+many of the rules that we have learned for subject-information sentences also apply to [كَانَ]{.ar} sentences.
+One such rule is that when the subject of a sentence is a plural of non-rational beings, and the information is a adjectival noun, then the feminine singular adjectival noun is often used. (See section\ \@ref(usage-of-plurals-of-non-intelligent-beings).)
+For example:
+
+[كَانَتِ ٱلْبُيُوتُ صَغِيرَةً.]{.ar} (typical)  
+"The houses were small."  
+
+Also allowed, but not as common:  
+[كَانَتِ ٱلْبُيُوتُ صَغِيرَاتٍ.]{.ar}  
+[كَانَتِ ٱلْبُيُوتُ صِغَارًا.]{.ar}  
+
+[ٱلثِّيرَانُ كَانَتْ ضَخْمَةً.]{.ar} (typical)  
+"The bulls were large."
+
+Also allowed, but not as common:  
+[ٱلثِّيرَانُ كَانَتْ ضِخَامًا.]{.ar}  
+[ٱلثِّيرَانُ كُنَّ ضَخْمَاتٍ.]{.ar}  
+
+## [كَانَ]{.ar} with a separating pronoun
+
+Another rule that applies to subject-information sentences, and that carries over to 
+[كَانَ]{.ar} sentences, is that
+when the subject and information are both definite, 
+then a separating pronoun, which is a detached pronoun that matches the subject, can be inserted between them.
+For example,
+
+[كَانَ ٱلْمُؤْمِنُونَ هُمُ ٱلْفَائِزِينَ.]{.ar}  
+"The believers were the winners."
+
+<!--
+[ٱَلْمُؤْمِنُونَ هُمُ ٱلْفَائِزُونَ.]{.ar}  
+"The believers are the winners."
+-->
+
+The separating pronoun [هُمْ]{.ar} does not, in this case, serve to disambiguate the information [ٱلْفَائزِينَ]{.ar} "the winners", from being a describer, as it did in sentences without [كَانَ]{.ar} (see section\ \@ref(subject-information-sentences-separating-pronoun)).
+This is because the a-state of [ٱلْفَائزِينَ]{.ar} already tells us that it is the information of [كَانَ]{.ar}. 
+If [ٱلْفَائزِينَ]{.ar} were a describer of the u-state subject [ٱَلْمُوْمِنُونَ]{.ar}, then it too would be in the u-state, not the a-state.
+So the separating pronoun serves more, here, to emphasize the subject.
+
+Most of the time, separating pronouns are used in [كَانَ]{.ar} sentences when the subject of [كَانَ]{.ar} is itself a pronoun. Examples:
+
+[وَكُنَّا نَحْنُ ٱلْوَارِثِينَ]{.ar}  
+"And it is We who were the inheritors" [al-[#qurEAn]{.trn2} 28:58, translation by Saheeh International]
+
+[كُنْتَ أَنْتَ ٱلرَّقِيبَ عَلَيْهِمْ]{.ar}  
+"You were the Observer over them" [al-[#qurEAn]{.trn2} 5:117, translation by Saheeh International]
+
+Sometimes a pronoun may appear to be a separating pronoun, but actually is not one. Consider, for example, the following sentence:
+
+[كَانَ ٱلْمُؤْمِنُونَ هُمُ ٱلْفَائِزُونَ.]{.ar}  
+"The believers were the winners."
+
+Note that [ٱَلْفَائِزُونَ]{.ar} is in the u-state, so it is not, by itself, the information of [كَانَ]{.ar}.
+So this is, in fact, a topic-comment sentence.
+[ٱَلْمُوْمِنُونَ]{.ar} is the topic and the subject of [كَانَ]{.ar}.
+The information of [كَانَ]{.ar} is the comment [هُمُ ٱلفَائِزُونَ]{.ar}, which is itself a subject-information sentence with a u-state subject ([هُمْ]{.ar}) and a u-state information ([ٱلْفَائزُونَ]{.ar}).
+
+## The resembling verb of [كَانَ]{.ar}
+
+### The u-state resembling verb [يَكُونُ]{.ar}
+
+We have already mentioned that Arabic does not usually express any word for "is".
+So when, then, is the u-state resembling verb [يَكُونُ]{.ar} used?
+There are actually a few uses of this verb. We will explain them below:
+
+#### [يَكُونُ]{.ar} used for habitual "is"
+
+
+
+#### [يَكُونُ]{.ar} used for future "will be"
+
+
+
+#### [يَكُونُ]{.ar} used for "may be"
+
+
+
+
+<!--chapter:end:srcrmd/kana_sisters.Rmd-->
+
+# [إِنَّ]{.ar} and its sisters {#inna-and-its-sisters}
 
 ## Introduction
 
 In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-35-1.pdf)<!-- -->
 
 "This man is a teacher."
 
@@ -10818,6 +11038,8 @@ or
 [إِنَّا كَاتِبُو هَـٰذَا ٱلْكِتَابَ.]{.ar}  
 "Indeed we are the writers of this book."
 
+TODO: Multiple pronoun subjects: [إِنِّ وَ إِيَّاكَ ...]{.ar}
+
 [إِنَّ]{.ar} with the speaker pronouns are often used with doer verbal nouns to signify that the speaker intends to to the action of the verb. For example,
 
 [إِنِّي ذَاهِبٌ إِلَىٰ ٱلْمَسْجِدِ.]{.ar}  
@@ -10886,7 +11108,7 @@ to complete the sentence. We will see examples of this below.
 
 ### The [أَنَّ]{.ar} clause in place of the direct doee
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-35-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-36-1.pdf)<!-- -->
 
 "I know that Zayd is truthful."
 
@@ -10904,7 +11126,7 @@ clauses can be placed where one would expect other noun positions, such as: a su
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-36-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-37-1.pdf)<!-- -->
 
 "That you are sick has reached me." ("It has reached me that you are sick.")
 
@@ -10912,7 +11134,7 @@ Example:
 
 Example (with information before subject in sentence word order):
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-37-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-38-1.pdf)<!-- -->
 
 "From his characteristeics is that he is noble."
 
@@ -10920,7 +11142,7 @@ Example (with information before subject in sentence word order):
 
 Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-38-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-39-1.pdf)<!-- -->
 
 "The truth is that he went."
 
@@ -10930,13 +11152,13 @@ As you know, [كَانَ]{.ar}'s doer is also its subject, and its doee is also 
 The [أَنَّ]{.ar} clause can occur in either the subject or the information of [كَنَ]{.ar}. 
 For example, the [أَنَّ]{.ar} clause as the information:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-39-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-40-1.pdf)<!-- -->
 
 "The matter was that he didn't do his obligation."
 
 Now, the [أَنَّ]{.ar} clause as the subject:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-40-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-41-1.pdf)<!-- -->
 
 "That he didn't do his obligation was the matter."
 
@@ -10946,13 +11168,13 @@ Note that in the latter case, the information precedes the subject.
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state base noun in an annexation. Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-41-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-42-1.pdf)<!-- -->
 
 "The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous."
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly following a preposition. Example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-42-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-43-1.pdf)<!-- -->
 
 "I wondered at that Zayd is asleep."
 
@@ -11034,7 +11256,7 @@ TODO
 
 There is a sub-type of subject-information sentence called a topic-comment sentence. Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-43-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-44-1.pdf)<!-- -->
 
 "The tree: its branches are long."
 
@@ -11085,7 +11307,7 @@ the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
 
 There is a special pronoun, called the _pronoun of the fact_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
 
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-44-1.pdf)<!-- -->
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-45-1.pdf)<!-- -->
 
 "The fact is: the cold is intense."
 
@@ -11304,859 +11526,6 @@ The lightened [لَـٰكِنْ]{.ar} has the same meaning as the heavy [لَـ�
 
 
 <!--chapter:end:srcrmd/inna_and_its_sisters.Rmd-->
-
-# The verbal-nouns of the doer and the doee
-
-FIXME: 
-
-+ move to later chapter, after [استفهام]{.ar} because [شروط إعمال اسم الفاعل]{.ar} relies on it.
-+ add [الصفة المشبهبة]{.ar} _verb-like descriptive noun_ and its [عمل]{.ar}
-+ add difference in [إعمال اسم الفاعل]{.ar} when it has [ال]{.ar} and when without.
-+ add [اسم المفعول]{.ar} acting as verb with [نائب الفاعل]{.ar}
-
-See 
-+ Wright vol. ii. p. 65+, and p. 195.
-+ [النحو الوافي]{.ar} vol 3, p. 246+
-+ Howell vol. 4, p 1606+
-
-## Introduction
-
-In the previous chapter we studied the verbal-noun of doing. In this chapter we shall study two more kinds of verbal-nouns. These are the doer verbal-noun and the doee-verbal noun. These, too, are nouns that can give the meaning of the verb they are derived from. In places, they may even replace the verb, thereby adding some nuances in meaning.
-
-The doer verbal-noun gives the meaning of the doer, that is the person doing the action of the verb. For example, for the verb [قَرَأَ يَقْرَأُ قِرَاءَةً]{.ar}  "to read", the doer verbal-noun is [قَارِئ]{.ar} [qAriE]{.trn} "a reader".
-
-## Pattern of the doer verbal-noun
-
-We saw in the previous chapter that the pattern for the doing verbal-noun for form\ 1 verbs was very variable. In contrast, the pattern for the doer verbal-noun for form\ 1 verbs is fixed. It is always on the pasttern [فَاعِل]{.ar} [fAeil]{.trn}. Also, the doer verbal-noun is modified for gender and number. Its forms its feminine by appending [ة]{.ar} thus: [فَاعِلَة]{.ar}. It takes sound plurals: the [-Un]{.trn} for the masculine, and the [-At]{.trn} plural for the feminine. In many case, it may also have broken plurals. Here is a table showing these modifications for the u-state. You should be able to extend them for the a-state and i-state.
-
-| Number | Masculine | Feminine |
-|:---|:---|:---|
-|singular|[فَاعِلٌ]{.ar} [fAeilun]{.trn}|[فَاعِلَةٌ]{.ar} [fAeilatun]{.trn}|
-|dual|[فَاعِلَانِ]{.ar} [fAeilAni]{.trn}|[فَاعِلَتَانِ]{.ar} [fAeilatAni]{.trn}|
-|plural|[فَاعِلُونَ]{.ar} [fAeilUna]{.trn}|[فَاعِلَاتٌ]{.ar} [fAeilAtun]{.trn}|
-
-## The doer verbal-noun as a noun
-
-Like the doing verbal-noun, the doer verbal noun occupies a place that is between a noun and a verb. The basic, most essential, meaning of the doer verbal noun is that of a noun which denotes the doer of the verb.
-
-So, for example, consider the verb [سَأَلَ يَسْأَلُ سُؤَالًا]{.ar}  "to question". Its doer verbal-noun is [سَائِل]{.ar}. Since it refers to the doer of this verb, we can translate it as "a questioner~m.~".
-
-By itself, the word [سَائِل]{.ar}  "a questioner" just denotes a noun. It does not indicate when the doer does the action of the verb: has the questioner already asked the question, is he asking it at present, or will he ask it in the future? So, for example, we can say:
-
-[سَيَقْدَمُ سَائِلٌ وَسَيَسْأَلُ سُؤَالًا.]{.ar}  
-[sayaqdamu sAEilun wasayaqdamu suEAlan.]{.trn}  
-"A questioner~m.~ will arrive and he will ask a question."
-
-In the above sentence, the doer verbal-noun is being described as performing the action of the verb in the future.
-
-Here is another example:
-
-[سَأَلَتِ ٱلْفَقِيهَ سَائِلَةٌ عَنْ أَمْرٍ.]{.ar}  
-[saEalati -lfaqIha sAEilatun ean Eamrin.]{.trn}  
-"A questioner~f.~ asked the jurist about a matter."
-
-In the above sentence, the doer verbal-noun is being described as having performed the action of the verb in the past.
-
-Doer verbal-nouns of form\ 1 verbs, when used with this nounal meaning, often have broken plurals, in addition to their sound plurals. Generally, either could be used in most cases, but the usage of the broken plurals is preferred.
-
-For example, consider the verb [قَتَلَ يَقْتُلُ قَتْلًا]{.ar}  "to kill ([ه]{.ar} s.o.)". Its doer verbal-noun is [قَاتِل]{.ar} "a killer~m.~". Its sound plural is [قَاتِلُونَ]{.ar} [qAtilUna]{.trn} and its broken plurals are [قُتَّال]{.ar} [quttAl]{.trn} and [قَتَلَة]{.ar} [qatalah]{.trn}. Any of these could be used but the broken plural is often preferred.
-
-[هَرَبَ قَتَلَةُ ٱلرَّجُلِ إِلَىٰ مَخْبَئِهِمْ.]{.ar}  
-[haraba qatalatu -rrajuli EilA maxbaEihim.]{.trn}  
-"The killers of the man fled to their hideout."
-
-## The doer verbal-noun as a verb
-
-We have learned that the essential meaning of the doer verbal-noun is the doer of the action of the verb from which it is derived. In addition to this essential meaning, the doer verbal-noun can also be used in place of the verb from which it is derived. This is only done when the verb to be replaced is the incomplete-action verb. The doer verbal-noun does not replace the completed-action verb. We will now explain this usage.
-
-### Usage of the doer verbal-noun as a present tense verb
-
-Consider the following sentence:
-
-[يَذْهَبُ زَيْدٌ إِلَى ٱلْمَدْرَسَةِ.]{.ar}  
-[yaphabu zaydun Eila -lmadrasati.]{.trn}  
-"Zayd goes to school."
-
-The above sentence does not explicitly specify whether Zayd is actually going to school at present, or that he goes to school habitually and not necessarily right now.
-
-If we wish to indicate that Zayd is actually going to school at present we can replace the incomplete-action verb with the indefinite doer verbal-noun. So we get:
-
-[زَيْدٌ ذَاهِبٌ إِلَى ٱلْمَدْرَسَةِ.]{.ar}  
-[yaphabu zaydun Eila -lmadrasati.]{.trn}  
-"Zayd is going to school."
-
-Note that the same preposition [إِلَىٰ]{.ar} [EilA]{.trn} "to" is used with the doer verbal-noun as is used with the verb.
-Also note that this is now a subject-information sentence instead of a verbal sentence. [زَيْدٌ]{.ar} [zaydun]{.trn} "Zayd" is the subject, and [ذَاهِبٌ]{.ar} [pAhibun]{.trn} is part of the information.
-
-This usage of the doer verbal-noun to indicate that the action of the verb is ocurring at present is mostly done for what we call _verbs of posture_ and _verbs of motion_.
-
-Verbs of posture denote a static position or activity of the doer's body and include verbs like sitting, standing, lying down, sleeping, etc.
-
-Verbs of motion denote a moving action of the doer's body and include verbs like
-going, coming, running, etc.
-
-So, if, for example, we say,
-
-[زَيْنَبُ جَالِسَةٌ عَلَى هَـٰذَا ٱلْكُرْسِيِّ.]{.ar}  
-[zaynabu jAlisatun eala hApa -lkursiyyi.]{.trn}  
-"Zaynab is sitting on this chair."
-
-this indicates that Zaynab is sitting on this chair at present. And if we say,
-
-[تَجْلِسُ زَيْنَبُ عَلَى هَـٰذَا ٱلْكُرْسِيِّ.]{.ar}  
-[tajlisu zaynabu eala hApa -lkursiyyi.]{.trn}  
-"Zaynab sits on this chair."
-
-this indicates that Zaynab usually sits on this chair.
-
-If this usage of the doer verbal-noun to indicate a present action is mostly only for verbs of posture and motion, how then do we indicate this distinction for other verbs? We have answered this in section [TODO: add section to incomplete-action verb] where we said that in order to give the meaning that the action of the verb is happening right now, a verbal sentence can be converted to a subject-information sentence. 
-
-### Usage of the doer verbal-noun as a future tense verb {#doer-verbal-noun-for-intended-future-action}
-
-The doer verbal-noun may be used in place of the verb it is derived from to indicate an intent on the part of the doer, or to indicate that the action will occur in the future.
-
-This usage of the doer verbal-noun is not just for verbs of posture and motion like the present tense usage. Rather, it is for all verbs in general.
-
-And since intention is something that is mostly expressed by the speaker for himself, rather than for someone else, we will often find this usage with the subject [أَنَا]{.ar} [Eana]{.trn} "I".
-
-#### With an indirect doee
-
-Here is an example of the usage of the doer verbal-noun as a future tense verb with an indirect doee:
-
-<!--
-[فَرَغْتُ مِنْ عَمَلِي فَأَنا ذَاهِبٌ  إِلَى ٱلْبَيْتِ.]{.ar}  
-[faragtu min eamalI faEana pAhibun Eila -lbayti.]{.trn}  
-"I have got done with my work so I'm going home."
-
-The context would tell us whether the person is talking about his intention to go home in the immediate future, or whether he has already started and is going home at present.
--->
-
-[أَنَا ذَاهِبٌ إِلَىٰ بَيْتِ صَدِيقِي فِي ٱلصَّبَاحِ.]{.ar}  
-[Eana pAhibun EilA bayti SadIqI fi -SSabAHi.]{.trn}  
-"I'm going to go to my friend's house in the morning."
-
-In the above sentence it is possible for the phrase 
-[فِي ٱلصَّبَاحِ]{.ar}
-[fi -SSabAHi]{.trn}
-"in the morning"
-to be ommitted for the same meaning. In that case, surrounding context could tell us that the person is intending to go in the future, and is not actually in the process of going there at present.
-
-Here is another example (by a female speaker):
-
-[عِنْدِي كُرَةٌ فِي ٱلْبَيْتِ فَأَنَا رَاجِعَةٌ إِلَى ٱلْبَيْتِ وَلَاعِبَةٌ بِهَا.]{.ar}  
-[eindI kuratun fi -lbayti faEana rAjieatun Eila -lbayti walAeibatun bihA.]{.trn}  
-"I have a ball at home, so I'm going to go home and play with it."
-
-#### Difference with the particles [سَـ]{.ar} [sa-]{.trn} and [سَوْفَ]{.ar} [sawfa]{.trn}
-
-We have already learned a method to express a future action using the particles [سَـ]{.ar} [sa-]{.trn} and [سَوْفَ]{.ar} [sawfa]{.trn} with the incomplete-action verb. So we could also have said:
-
-[سَأَذْهَبُ إِلَىٰ بَيْتِ صَدِيقِي.]{.ar}  
-[saEaphabu EilA bayti SadIqI.]{.trn}  
-"I will to go to my friend's house."
-
-The difference between using the particles [سَـ]{.ar} [sa-]{.trn} and [سَوْفَ]{.ar} [sawfa]{.trn} and using the doer verbal-noun is that using the doer verbal-noun signifies more emphasis, or, as a possible consequence of the emphasis, that the action is more imminent. That is:
-
-[أَنَا ذَاهِبٌ ...]{.ar}  
-[Eana pAhibun ...]{.trn}  
-"I will [definitely] go ..."  
-or  
-"I'm going to go ..."
-
-[سَأَذْهَبُ ...]{.ar}  
-[saEaphabu ...]{.trn}  
-"[Soon] I will go ..."
-
-#### With a direct doee
-
-If a verb takes a direct doee, and we wish to use the direct doee with the verb's doer verbal-noun when the doer verbal-noun is acting as a verb, then we may deal with it in one of three ways:
-
-1. The direct doee in a-state following the doer verbal-noun
-
-   The most basic method of dealing with a direct doee of a doer verbal noun is by placing it in the a-state right after the doer verbal-noun. Here is an example,
-   
-   [قَدْ دَخَلَ ٱلْمَدِينَةَ رَجُلٌ شَرِيرٌ. هُوَ **قَاتِلٌ سُكَّانَهَا**.]{.ar}  
-   [qad daxala -lmadInata rajulun carIrun. hua qAtilun sukkAnahA.]{.trn}  
-   "An evil man has entered the city. He is going to kill its residents."
-   
-   <!-- Wright says: When the اسم الفاعل is indefinite then مفعول به منصوب is only allowed under certain scenarios: The اسم الفاعل is a خبر or other attribute, or a negative sentence, or a question. (vol. ii, § 30, p. 65). This seems similar to prohibition of indef subjects so I don't think it is necessary to add that detail here. It seems like doer verbal-noun will naturally be a predicate.-->
-
-2. The direct doee in i-state annexed to the doer verbal-noun
-
-   The combination of the doer verbal-noun and following direct doee in the a-state is often replaced with an annexation of the doer verbal-noun to the i-state direct doee. So, for example, instead of the above example, we can say:
-   
-   [قَدْ دَخَلَ ٱلْمَدِينَةَ رَجُلٌ شَرِيرٌ. هُوَ **قَاتِلُ سُكَّانِهَا**.]{.ar}  
-   [qad daxala -lmadInata rajulun carIrun. hua qAtilu sukkAnihA.]{.trn}  
-   "An evil man has entered the city. He is going to kill its residents."
-
-   Note that [قَاتِلُ سُكَّانِهَا]{.ar} [qAtilu sukkAnihA.]{.trn} can also support the non-verbal meaning of the doer verbal-noun: "killer of its residents", i.e., he has already killed its residents in the past. So, when an annexation is used with a doer verbal-noun, we will often need surrounding context to tell us whether the verbal (incomplete-action) meaning is intended, or the noun  meaning.
-
-   This usage of annexing the doer verbal-noun to the i-state direct doee instead of employing the more basic usage of the doer verbal-noun and a following a-state direct doee is optional, but fairly common. In fact, when the doer-verbal noun is indefinite and [nUn]{.trn2}ated, and the direct doee begins with [ٱَلْ]{.ar} [Eal]{.trn}, then the annexation usage becomes predominant over the basic a-state usage. So we will be more likely to see:
-
-   [أَنَا فَاعِلُهُ.]{.ar}  
-   [Eana fAeiluhu.]{.trn}  
-
-   instead of:
-
-   [أَنَا فَاعِلٌ إِيَّاهُ.]{.ar}  
-   [Eana fAeilun EiyyAhu.]{.trn}  
-
-   for the meaning: "I will do it." Note again, that the latter sentence could also support the nounal meaning of the doer-verbal noun: "I am its doer.", i.e., "the one who did it."
-
-   Similarly, it will be more common to find:
-
-   [هُوَ قَاتِلُ ٱلنَّاسِ.]{.ar}  
-   [huwa qAtilu -nnAsi.]{.trn}  
-
-   instead of:
-
-   [هُوَ قَاتِلٌ ٱلنَّاسَ.]{.ar}  
-   [huwa qAtiluni -nnAsa.]{.trn}  
-
-   for the meaning: "He is going to kill the people." Note, once again, that the former sentence also supports the meaning: "He is the people's killer.", i.e., "the one who killed them", and that context would be needed to tell us which of the two meanings is intended.
-
-   The annexation of a doer verbal-noun to its direct doee in the i-state is not the kind of "proper" annexation that we have learned so far. In fact, it is called an _improper annexation_ and we shall study it in more detail in chapter [TODO], if [#allAh]{.trn2} wills.
-
-3. Quite similar to what we learned in section\ \@ref(the-direct-doee-in-i-state-preceded-by-the-preposition-%D9%84-li) for doing verbal-nouns, the direct doee can follow the doer verbal-noun in the i-state preceded by the preposition [لِ]{.ar} [li]{.trn}.
-
-   <!--Quran:  إنل له لحافظون -->
-   This is often optional, as an alternative to the above two methods. For example,
-   
-   [هُوَ قَاتِلٌ لَهُمْ.]{.ar}  
-   [huwa qAtilun lahum.]{.trn}  
-   "He will kill them."
-   
-   Using [لِ]{.ar} [li]{.trn} in this manner is also a technique to move the direct doee before the doer verbal-noun for effect, if desired. For example,
-   
-   [هُوَ لَهُمْ قَاتِلٌ.]{.ar}  
-   [huwa lahum qAtilun.]{.trn}  
-   "He will kill them."
-
-### The definite doer verbal-noun as a verb
-
-<!-- from Quran:  الكاظمين الغيظ ، المؤتون الزكاة , many be improper annexxation too -->
-So far we have seen only an indefinite doer verbal-noun being used with the meaning of an incomplete-action verb. However, the definite doer verbal-noun, too, can give this meaning. The meaning is often in the present tense. Here are some examples:
-
-With an indirect doee:
-
-[قَدِمَ زَيْدٌ ٱلذَّاهِبُ إِلَى ٱلْجَامِعَةِ.]{.ar}  
-[qadima zayduni -ppAhibu Eila -ljAmieati.]{.trn}  
-"Zayd, the one who goes to the university, has arrived."
-
-With a direct doee in the a-state:
-
-[هَرَبْتُ مِنَ ٱلْأَسَدِ ٱلْآكِلُ ٱلْإِنْسَانَ.]{.ar}  
-[harabtu mina -lEasadi -lEAkilu -lEinsAna.]{.trn}  
-"I fled from the lion, the one that eats man."
-
-With a direct doee in the i-state preceded by the preposition [لِ]{.ar} [li]{.trn}:
-<!--[قَدْ سَفِهَ ٱلْفَاسِقُ ٱلشَّارِبُ لِلْخَمْرِ.]{.ar}  
-[qad safiha -lfAsiqu -ccAribu lilxamri.]{.trn}  
-"The evil-doer, the one who drinks wine, has become foolish."-->
-
-[سَيَنْجَحُ ٱلطَّالِبُ ٱلتَّارِكُ لِلَّهْوِ.]{.ar}  
-[sayanjaHu -TTAlibu -ttAriku lillahwi.]{.trn}  
-"The student, the one who leaves idle amusement, will succeed."
-
-### Plurals of the doer verbal-noun when used as a verb
-
-We mentioned in section\ \@ref(the-doer-verbal-noun-as-a-noun) that doer-verbal nouns when used with their nounal meaning often have broken plurals along with their sound plural.
-We gave the example of the doer verbal-noun
-[قَاتِل]{.ar} [qAtil]{.trn} "a killer~m.~" with the sound plural is [قَاتِلُونَ]{.ar} [qAtilUna]{.trn} and the broken plurals [قُتَّال]{.ar} [quttAl]{.trn} and [قَتَلَة]{.ar} [qatalah]{.trn}.
-
-When the doer verbal-noun is used as a verb, only the sound plural is permitted to be used, and the broken plurals, if any are not used. So we can only say:
-
-[هُمْ قَاتِلُونَ ٱلنَّاسَ.]{.ar}  
-[hum qAtilUna -nnAsa.]{.trn}  
-and  
-[هُمْ قَاتِلُو ٱلنَّاسِ.]{.ar}  
-[hum qAtilu -nnAsi.]{.trn}  
-for  
-"They will kill the people."  
-not, for example  
-$\times$\ [هُمْ قُتَّالٌ ٱلنَّاسَ.]{.ar}  
-
-(In the second sentence, the [ن]{.ar} of [قَاتِلُونَ]{.ar} is ommitted because it is an annexe noun).
-
-## The doee verbal-noun
-
-The doee verbal-noun for form\ 1 verbs is on the pattern [مَفْعُول]{.ar} [mafeUl]{.trn}. It carries the meaning of the person or thing to whom the action of the verb has been done. For example, the doee verbal-noun for the verb
-[قَتَلَ يَقْتُلُ قَتْلًا]{.ar}  "to kill ([ه]{.ar} s.o.)"
-is [مَقْتُول]{.ar} [maqtUl]{.trn} and means "a killed person".
-
-### The plural of the doee verbal noun
-
-The doee verbal-noun almost always takes the sound plurals [-Un]{.trn} for masculine intelligent beings, and [-At]{.trn} otherwise. Therefore the plural of the doee verbal-noun 
-[مَقْتُول]{.ar} [maqtUl]{.trn} "a killed person~m.~" is [مَقْتُولُونَ]{.ar} [maqtUlUna]{.trn} "killed persons~m.~".
-and the plural of the doee verbal-noun 
-[مَقْتُولَة]{.ar} [maqtUlah]{.trn} "a killed person~f.~" is [مَقْتُولَات]{.ar} [maqtUlAt]{.trn} "killed persons~f.~".
-
-There are a only a few doee verbal-nouns that, as an exception, have broken plurals. The broken plural for these exceptions is than always on the pattern ^2^[مَفَاعِيل]{.ar} [mafAeIl]{.trn}^2^. For example, the doee verbal-noun for the verb
-[لَعَنَ يَلْعَنُ لَعْنًا]{.ar}  "to curse ([ه]{.ar} s.o.)" is [مَلْعُون]{.ar} [maleUn]{.trn} "accursed" and its plural is ^2^[مَلَاعِين]{.ar} [malAeIn]{.trn}^2^.
-
-### Usage of the doee verbal-noun
-
-Much of what has been said regarding the doer verbal-noun applies to the doee verbal-noun as well: The doee verbal-noun may be used with a verbal meaning for the incomplete-action verb only. So if we say:
-
-[هُوَ مَقْتُولٌ.]{.ar}  
-[huwa maqtUl]{.trn}
-
-with a verbal meaning, then it means "He will be killed." And if we say it using its nounal meaning, then it means "He is the person killed."
-
-Unlike the doer verbal-noun which can take doees, since the doee verbal-noun is itself the doee, there is no question of it taking other doees. So this does simplify matters.
-
-### The doee verbal-nouns of indirect doee verbs
-
-Consider the verb
-[سَأَلَ يَسْأَلُ سُؤَالًا]{.ar}  "to question ([ه عن]{.ar} s.o. about s.th.)".
-
-Here it is used in a sentence:
-
-[سَأَلَ زَيْدٌ زَيْنَبَ عَنْ حَادِثَةٍ.]{.ar}  
-[saEala zaydun zaynaba ean HAdivah.]{.trn}  
-"Zayd questioned Zaynab about an accident."
-
-In this sentence, [زَيْدٌ]{.ar} [zaydun]{.trn} "Zayd" is the doer. The corresponding doer verbal-noun that refers to him is [سَائِل]{.ar} [sAEil]{.trn} "a questioner~m.~".
-Next, [زَيْنَبَ]{.ar} [zaynaba]{.trn} "Zaynab" is the direct doee. The corresponding doee verbal-noun that refers to her is [مَسْؤُولَة]{.ar} [masEUlah]{.trn} "a questioned person~f.~".
-But how, now, do we refer to the indirect doee: [حَادِثَةٍ]{.ar} [Hadivatin]{.trn} "an accident"? The answer is that the doee verbal-noun referring to this indirect doee is [مَسْؤُول عَنْهَا]{.ar} [masEUl eanhA]{.trn} "a thing~f.~ questioned about".
-
-Let's analyze this term [مَسْؤُول عَنْهَا]{.ar} [masEUl eanhA]{.trn} "a thing questioned about" carefully. The first word is [مَسْؤُول]{.ar} [masEUl]{.trn} which shall always be singular masculine, regardless of the gender and number of the indirect doee. The second word is [عَنْهَا]{.ar} [eanhA]{.trn} "about it". Here [عَنْ]{.ar} [ean]{.trn} is the same preposition that has been used with the verb. And [هَا]{.ar} [hA]{.trn} is the pronoun that refers to the indirect doee [حَادِثَةٍ]{.ar} [Hadivatin]{.trn} "an accident". If the number or gender of the indirect doee were to change then this would be reflected in this pronoun. 
-
-So, for example, if we say,
-
-[نَظَرَ زَيْدٌ إِلَى ٱلرِّجَالِ.]{.ar}  
-[naPara zaydun Eila -rrijAli.]{.trn}  
-"Zayd looked at the men."
-
-then, the doee verbal-noun that refers to [ٱلرِّجَالِ]{.ar} [EarrijAli]{.trn} "the men" is [مَنْظُور إِلَيْهِمْ]{.ar} [manPUr Eilayhim]{.trn} "persons~m.~ looked at".
-
-If doee verbal-nouns of indirect doees are used in sentences then it is the first word (in this case [مَنْظُور]{.ar} [manPUrun]{.trn}) that changes for definiteness and state (but not for gender or number, as already discussed). Here are some examples:
-
-From the verb [لَعِبَ يَلْعَبُ لَعِبًا]{.ar} "to play ([هـ]{.ar} s.th.)":
-
-[هَـٰذِهِ ٱلْكُرىٰ هِيَ ٱلْمَلْعُوبُ بِهَا.]{.ar}  
-[hApi -lkurA hiya -lmaleUbu bihA.]{.trn}  
-"These balls are the ones played with."
-
-From the verb [أَمَرَ يَأْمُرُ أَمْرًا]{.ar}  "to order ([ه]{.ar} s.o. [ب]{.ar} to do s.th.)":
-
-[فَعَلَ ٱلْغُلَامُ ٱلْمأمُورَ بِهِنَّ.]{.ar}  
-[faeala -lgulAmu -lmaEmUra bihinna.]{.trn}  
-"The boy did the [things] ordered to do."
-
-(Remember that the feminine plural pronouns may be used to refer to plural non-intelligent beings, regardless of their grammatical gender, in order to indicate plurality.)
-
-Having said all this, in practice, you may find that indirect doees are sometimes treated as direct doees when forming their doee verbal-noun. This is especially common when forming plurals for terms that are very common. So instead of referring to "[things] ordered to do" in the above example as 
-[ٱَلْمأمُورَ بِهِنَّ]{.ar}
-[EalmaEmUra bihinna]{.trn}, you may find the word [ٱَلْمَأْمُورَاتِ]{.ar} [EalmaEmUrAti]{.trn} used instead.
-
-TODO: The doee verbal noun for indirect doees may have some ambiguity with the doee verbal for direct doees. [مسؤول عنه]{.ar} can also be "the person who is asked about it" where the pronoun has been substituted for a noun, for example [مسؤول عن الأمر]{.ar} . In this case it is the word [مسؤول]{.ar} which will be feminized and pluralized. [المسؤولون عنه]{.ar} "the persons asked about it."
-
-For that matter [ساءل عنه]{.ar} is also valid as "the questioner about it".
-<!--[سَأَلَ زَيْدٌ زَيْنَبَ عَنِ ٱلرِّجَالِ.]{.ar}  
-[saEala zaydun zaynaba eani -rrijAli.]{.trn}  
-"Zayd questioned Zaynab about the men."
-
-then, the doee verbal-noun that refers to [ٱلرِّجَالِ]{.ar} [EarrijAli]{.trn} "the men" is [مَسْؤُولٌ عَنْ
--->
-
-<!--[أَمْرٌ]{.ar} [Eamrun]{.trn} "a matter"? It is -->
-
-## Doer and doee verbal-nouns re-used as adjectival-nouns
-
-Doer and doee verbal-nouns are often re-used as adjectival-nouns with meanings that are directly formed from their doer and doee meaning respectively. Here are some examples:
-
-|Verb | Doer/doee verbal-noun | Adjectival-noun meaning|
-|:------|:-|:--|
-|[نَعُمَ يَنْعُمَ نُعُومَةً]{.ar} "to be soft" | [نَاعِم]{.ar} | "soft" |
-|[يَبِسَ يَيْبَسُ يُبُوسَةً]{.ar} "to be dried up" | [يَابِس]{.ar} | "dried up" |
-|[حَضَرَ يَحْضُرُ حُضُورًا]{.ar} "to be present" | [حَاضِر]{.ar} | "present (attending)" |
-|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} "to gather ([هـ]{.ar} s.th.)"| [جَامِع]{.ar}  | "comprehensive" |
-|[لَمَعَ يَلْمَعُ لَمْعًا وَلَمَعَانًا]{.ar} "to be shiny" | [لَامِع]{.ar} | "shiny" |
-|[فَتَحَ يَفْتَحُ فَتْحًا]{.ar} "to open ([هـ]{.ar} s.th.)" | [مَفْتُوح]{.ar} | "open" |
-|[شَهَرَ يَشْهَرُ شَهْرًا]{.ar} "to make famous ([ه، هـ]{.ar} s.o., s.th.)" | [مَشْهُور]{.ar} | "famous" |
-
-### Genderizability of doer and doee verbal-nouns when re-used as adjectival-nouns
-
-When a doer or doee verbal-noun is re-used as an adjectival-noun, then it generally retains its genderizability. For example,
-
-[بَابٌ مَفَتُوحٌ]{.ar}  
-[bAbun maftUHun]{.trn}  
-"an open door"
-
-and
-
-[نَافِذَةٌ مَفَتُوحَةٌ]{.ar}  
-[nAfipatun maftUHatun]{.trn}  
-"an open window"
-
-If, however, the adjectival-noun is only applicable to females, then, only a female adjectival-noun is formed but, peculiarly, without the feminine marker [ة]{.ar}. The most common example is from the verb:
-[حَمَلَ يَحْمِلٌ حَمْلًا]{.ar} "to carry ([هـ]{.ar} s.th.)". The doer verbal-noun is [حَامِل]{.ar} [HAmil]{.trn} "a carrier". The adjectival-noun formed from the doer verbal-noun is "pregnant", but because it is only applicable to females, it does not get the feminine marker [ة]{.ar}. For example,
-
-[ٱَلْمَرْأَةُ حَامِلٌ.]{.ar}  
-[EalmarEatu HAmil.]{.trn}  
-"The woman is pregnant."
-
-This does not affect the doer verbal-noun when it is not used with this adjectival-noun meaning. For example,
-
-[ٱَلْمَرْأَةُ حَامِلَةُ ٱلْمَاءِ.]{.ar}  
-[EalmarEatu HAmilatu -lmAE.]{.trn}  
-"The woman will carry the water."  
-or  
-"The woman is the water-carrier."
-
-### Corresponding with English adjectives
-
-Sometimes both the doer verbal-noun and the doee verbal-noun are used in Arabic with distinct meanings where we would use the same word in English. For example, the verb
-[عَقَلَ يَعْقِلُ عَقْلًا]{.ar} [eaqala yaeqilu eaqlan]{.trn} means "to make sense ([هـ]{.ar} of s.th.)".
-Its doer verbal-noun [عَاقِل]{.ar} [eAqil]{.trn} means "one who makes sense (of something)" and may be re-used as an adjectival noun meaning "sensible" when it refers to a person who makes sense of something. For example,
-
-[زَيْدٌ غُلَامٌ عَاقِلٌ.]{.ar}  
-[zaydun gulAmun eAqil.]{.trn}  
-"Zayd is a sensible boy."
-
-Its doee verbal-noun [مَعْقُول]{.ar} [maeqUl]{.trn} means "something which makes sense" and may be re-used as an adjectival noun meaning "sensible" when it refers to a something which makes sense. For example,
-
-[هَـٰذَا مَنْهَجٌ مَعْقُولٌ.]{.ar}  
-[hApA manhajun maeqUl.]{.trn}  
-"This is a sensible approach."
-
-## Doer and doee verbal-nouns re-used as common nouns
-
-The doer verbal-noun is often re-used as a common noun with a meaning that is either directly, or indirectly related to the meaning of the verb. For example, the doer verbal-noun of the verb [سَأَلَ يَسْأَلُ سُؤَالًا]{.ar} [saEala yasEalu suEAlan]{.trn} is [سَائِل]{.ar} "a questioner" with the sound plural [سَائِلُونَ]{.ar} [sAEilUna]{.trn} and the broken plurals [سُؤَّال]{.ar} [suEEAl]{.trn} and [سَأَلَة]{.ar} [saEalah]{.trn}.
-
-The word [سَائِل]{.ar} [sAEil]{.trn} "a questioner" is re-used with the meaning "a beggar". The association in meaning is that a beggar continually asks people for money. 
-
-The re-use of a doer verbal-noun or doee verbal-noun as a common noun does not prevent it from being used with its doer/doee or verbal meaning any more. 
-[سَائِل]{.ar} [sAEil]{.trn} may be used to mean both "a questioner" and "a beggar", and context will help us determine which of the meanings is intended.
-
-When a doer verbal-noun is re-used as a common noun then only the broken plural, if it exists, may be used. The sound plural is only permitted to be used if no broken plurals exist. Here are some more examples of doer verbal-nouns re-used as common nouns:
-<!--
-|Verb | Doer verbal-noun | Plural | Common noun meaning|
-|:------|:--|:--|:--|
-|[عَلِمَ يَعْلَمُ عِلْمًا]{.ar} [ealima yaelamu eilman]{.trn} "to know ([هـ]{.ar} s.th.)" | [عَالِمٌ]{.ar} [eAlimun]{.trn} | [عُلَمَاءُ]{.ar} [eAlimun]{.trn}| "a scholar"|
-|[لَعِبَ يَلْعَبُ لَعِبًا]{.ar} [laeiba yaleabu laeiban]{.trn} "to play ([هـ]{.ar} s.th.)" | [لَاعِبٌ]{.ar} [lAeibun]{.trn} | [لَاعِبُونَ]{.ar} [lAeibUna]{.trn} | "a player"|
-|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} [jamaea yajmaeu jamean]{.trn} "to gather ([هـ]{.ar} s.th.)"| [جَامِعَةٌ]{.ar} [jAmieatun]{.trn} | [جَامِعَاتٌ]{.ar} [jAmieAtun]{.trn} | "a university" |
-|[حَدَثَ يَحْدُثُ حُدُوثًا]{.ar} [Hadava yaHduvu HudUvan]{.trn} "to happen" | [حَادِثَةٌ]{.ar} [Hadivatun]{.trn} | [حَوَادِثُ]{.ar} [HawAdivu]{.trn} | "an accident" |
--->
-
-|Verb | Doer/doee verbal-noun | Plural | Common noun meaning|
-|:------|:-|:-|:--|
-|[عَلِمَ يَعْلَمُ عِلْمًا]{.ar} "to know ([هـ]{.ar} s.th.)" | [عَالِم]{.ar}  | ^2^[عُلَمَاء]{.ar} | "a scholar"|
-|[طَلَبَ يَطْلُبُ طَلَبًا]{.ar} "to seek ([هـ]{.ar} s.th.)" | [طَالِب]{.ar}  | [طُلَّاب، طَلَبَة]{.ar} | "a student"|
-|[لَعِبَ يَلْعَبُ لَعِبًا]{.ar} "to play ([هـ]{.ar} s.th.)" | [لَاعِب]{.ar}  | [لَاعِبُونَ]{.ar}  | "a player"|
-|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} "to gather ([هـ]{.ar} s.th.)"| [جَامِعَة]{.ar}  | [جَامِعَات]{.ar}  | "a university" |
-|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} "to gather ([هـ]{.ar} s.th.)"| [جَامِع]{.ar}  | ^2^[جَوَامِع]{.ar}  | "a mosque (in which the Friday prayers are performed)" |
-|[حَدَثَ يَحْدُثُ حُدُوثًا]{.ar} "to happen" | [حَادِثَةٌ]{.ar}  | ^2^[حَوَادِث]{.ar}  | "an accident" |
-|[شَرِبَ يَشْرَبُ شُرْبًا]{.ar} "to drink ([هـ]{.ar} s.th.)" | [شَارِب]{.ar}  | ^2^[شَوَارِب]{.ar}  | "a moustache" |
-|[سَحَلَ يَسْحَلُ سَحْلًا]{.ar} "to abrade ([هـ]{.ar} s.th.)" | [سَاحِلٌ]{.ar}  | ^2^[سَوَاحِل]{.ar}  | "a seashore" |
-|[ضَمِنَ يَضْمَنُ ضَمَانًا]{.ar} "to guarantee ([هـ]{.ar} s.th.)" | [مَضْمُوxk]{.ar} | ^2^[مَضَامِين]{.ar} | "a content (of a letter, etc.)"|
-|[دَخَلَ يَدْخُلُ دُخُولًا]{.ar} "to enter" | [دَاخِل]{.ar} | none | "inside" |
-|[خَرَجَ يَخْرُجُ خُرُوجًا]{.ar} "to exit" | [خَارِج]{.ar} | none | "outside" |
-
-The last two [دَاخِلٌ]{.ar} "inside" and  [خَارِجٌ]{.ar} "outside" are notable. Here, for example, is how they can be used:
-
-[غَسَلَ ٱلْكُوبَ مِنْ دَاخِلٍ.]{.ar}  
-[gasala -lkUba min dAxilin.]{.trn}  
-"He washed the tumbler from inside."
-
-### Genderizability of doer and doee verbal-nouns when re-used as common nouns
-
-When a doer or doee verbal-noun is re-used as a common noun, then it loses its genderizability. For example, if we wish to say "The building is a university." we will say:
-
-[ٱَلْبِنَاءُ جَامِعَةٌ.]{.ar}  
-[EalbinAEu jAmieah.]{.trn}  
-"The building is a university."
-
-We cannot masculinize [جَامِعَة]{.ar} [jAmieah]{.trn} "a university" to [جَامِع]{.ar} [jAmie]{.trn} in order to make it match the gender of [بِنَاء]{.ar} [binAE]{.trn} (masc.) "a building". Were we to do so, then 
-[جَامِع]{.ar} [jAmie]{.trn} would get interpreted with either:
-
-1. Its doer verbal-noun meaning "a gatherer":
-
-   "The building is a gatherer."
-
-   which doesn't make sense as a sentence.
-
-2. Or, with the common noun meaning of [جَامِع]{.ar} [jAmie]{.trn}, if one happens to exist. There is such a meaning in this case: "a mosque (in which the Friday prayers are performed)". So then we would get:
-
-   [ٱَلْبِنَاءُ جَامِعٌ.]{.ar}  
-   [EalbinAEu jAmieun.]{.trn}  
-   "The building is a mosque (in which the Friday prayers are performed)."
-
-3. Or, with the adjectival noun meaning of [جَامِع]{.ar} [jAmie]{.trn}, if one happens to exist. There is such a meaning in this case: "comprehensive". So then we would get:
-
-   [ٱَلْبِنَاءُ جَامِعٌ.]{.ar}  
-   [EalbinAEu jAmieun.]{.trn}  
-   "The building is comprehensive."
-
-None of these give the original meaning we intended: "The building is a university." So, in summary,
-once a doer or doee verbal-noun is re-used as a common noun, it loses its genderizability. 
-
-Having said this, when a doer verbal-noun is re-used as a common noun that applies to humans, both the masculine and feminine common-noun typically exist together. So for example,
-
-[عَالِم]{.ar} [eAlim]{.trn} is re-used as the common-noun for "a (male) scholar" with the plural ^2^[عُلَمَاء]{.ar} [eulamAE]{.trn}. 
-And  
-[عَالِمَة]{.ar} [eAlimah]{.trn} is re-used as the common-noun for "a (female) scholar" with the plural [عَالِمَات]{.ar} [eAlimAt]{.trn}.
-
-In such cases, i.e., when applicable to humans, the dictionary will generally only list, and supply the definition for the masculine common-noun. The reader is expected to know that its feminine exists and how to form it.
-
-There are exceptions, however. The verb [جَرَىٰ يَجْرِي جَرْيًا]{.ar} [jarA yajrI jaryan]{.trn} "to run" is formed from the root [جري]{.arroot}. This is a weak root because of the letter [ي]{.ar} in it, and we will study it in more detail later in chapter\ \@ref(roots-with-weak-final-letter). In any case, its feminine doer verbal-noun is [جَارِيَة]{.ar} [jAriyah]{.trn} and is re-used for the common noun meaning "a girl". The masculine doer verbal noun is not re-used as a common noun for the meaning "a boy".
-
-<!--Unless, the common-noun is biologically or professionally applied to one of the genders, in which case, only one may exist.-->
-
-
-<!--chapter:end:srcrmd/doer_verbal_noun.Rmd-->
-
-# Nouns of superiority
-
-## Introduction
-
-Consider the sentence:
-
-"The book is heavier than the pen."
-
-In this sentence a relationship of superiority is established between the two nouns: "the book" and "the pencil". The book is being described as being superior in heaviness.
-
-By the way, we are using the "superiority" in a technical sense. For example, we can say "The donkey is weaker than the horse." Here the donkey is being described as superior in weakness.
-
-In order to express a superiority relationship between nouns, for example, , Arabic uses qualitative nouns with a distinct form. Here is a table of some common qualitative nouns and their corresponding  nouns of superiority.
-
-|Root|Qualitative noun | Noun of superiority|
-|:--|:--|:--|
-|[كبر]{.arroot}|[كَبِيرٌ]{.ar}   [kabIrun]{.trn}   "big"       | [أَكْبَرُ]{.ar} [Eakbaru]{.trn} "biger"     |
-|[صغر]{.arroot}|[صَغِيرٌ]{.ar}   [SagIrun]{.trn}   "small"     | [أَصْغَرُ]{.ar} [EaSgaru]{.trn} "smaller"   |
-|[حسن]{.arroot}|[حَسَنٌ]{.ar}    [Hasanun]{.trn}   "good"      | [أَحْسَنُ]{.ar} [EaHsanu]{.trn} "better"    |
-|[سوء]{.arroot}|[سَيِّئٌ]{.ar}    [sayyiEun]{.trn}  "bad"       | [أَسْوَأُ]{.ar} [EaswaEu]{.trn} "worse"     |
-|[قدم]{.arroot}|[قَدِيمٌ]{.ar}   [qadImun]{.trn}   "old"       | [أَقْدَمُ]{.ar} [Eaqdamu]{.trn} "older"     |
-|[جد]{.arroot}|[جَدِيدٌ]{.ar}    [jadIdun]{.trn}   "new"       | [أَجَدُّ]{.ar}  [Eajaddu]{.trn} "newer"     |
-|[سهل]{.arroot}|[سَهْلٌ]{.ar}    [sahlun]{.trn}    "easy"      | [أَسْهَلُ]{.ar} [Eashalu]{.trn} "easier"    |
-|[صعب]{.arroot}|[صَعْبٌ]{.ar}    [Saebun]{.trn}    "difficult" | [أَصْعَبُ]{.ar} [EaSeabu]{.trn} "more difficult"|
-|[طول]{.arroot}|[طَوِيلٌ]{.ar}   [TawIlun]{.trn}   "long"      | [أَطْوَلُ]{.ar} [EaTwalu]{.trn} "longer"     |
-|[قصر]{.arroot}|[قَصِيرٌ]{.ar}   [qaSIrun]{.trn}   "short"     | [أَقْصَرُ]{.ar} [EaqSaru]{.trn} "shorter"    |
-|[ثقل]{.arroot}|[ثَقِيلٌ]{.ar}   [vaqIlun]{.trn}   "heavy"     | [أَثْقَلُ]{.ar} [Eavqalu]{.trn} "heavier"    |
-|[خف]{.arroot}|[خَفِيفٌ]{.ar}    [xafIfun]{.trn}   "light"     | [أَخَفُّ]{.ar}  [Eaxaffu]{.trn} "lighter"    |
-|[وسع]{.arroot}|[وَاسِعٌ]{.ar}   [wAsieun]{.trn}   "wide"      | [أَوْسَعُ]{.ar} [Easwaeu]{.trn} "wider"      |
-|[ضيق]{.arroot}|[ضَيِّقٌ]{.ar}    [Dayyiqun]{.trn}  "narrow"    | [أَضْيَقُ]{.ar} [EaDyaqu]{.trn} "narrower"   |
-|[سرع]{.arroot}|[سَرِيعٌ]{.ar}   [sarIeun]{.trn}   "fast"      | [أَسْرَعُ]{.ar} [Easraeu]{.trn} "faster"     |
-|[بطء]{.arroot}|[بَطِيءٌ]{.ar}   [baTIEun]{.trn}   "slow"      | [أَبْطَأُ]{.ar} [EabtaEu]{.trn} "slower"     |
-|[قوي]{.arroot}|[قَوِيٌّ]{.ar}    [qawiyyun]{.trn}  "strong"    | [أَقْوَىٰ]{.ar} [EaqwA]{.trn}   "stronger"   |
-|[ضعف]{.arroot}|[ضَعِيفٌ]{.ar}   [DaeIfun]{.trn}   "weak"      | [أَضْعَفُ]{.ar} [EaDeafu]{.trn} "weaker"     |
-|[كثر]{.arroot}|[كَثِيرٌ]{.ar}   [kavIrun]{.trn}   "many"      | [أَكْثَرُ]{.ar} [Eakvaru]{.trn} "more"       |
-|[قل]{.arroot} |[قَلِيلٌ]{.ar}   [qalIlun]{.trn}   "few/less"  | [أَقَلُّ]{.ar}  [Eaqallu]{.trn} "fewer/lesser"|
-
-Note the following points regarding the form of the noun of superiority:
-
-+ Nouns of superiority are regularly of the pattern [أَفْعَلُ]{.ar} [Eafealu]{.trn} using the template root [فعل]{.arroot}. 
-+ Nouns of superiority are non-fully changing nouns, so they are not [nUn]{.trn2}ated and the indefinite noun in the i-state will have an [a]{.trn}-mark on the last letter.
-+ If a root's last two letters are the same, it is shown as a two-letter root and the noun of superiority is formed by doubling the last letter. Example: [جد]{.arroot}: [أَجَدُّ]{.ar}  [Eajaddu]{.trn} "newer".
-+ If a root's last letter is [و]{.ar} or [ي]{.ar}, then the noun of superiority's last letter will be [ىٰ]{.ar}. Example: [قوي]{.arroot}: [أَقْوَىٰ]{.ar} [EaqwA  ]{.trn} "stronger".
-
-You may remember that the pattern of the identical is identical to the pattern of colors and physical characteristics. For example [أَحْمَرُ]{.ar} [EaHmaru]{.trn} "red". However, this similarity is largely superficial. We will see that nouns of superiority are feminized differently and sometimes not at all.
-
-## Comparing two nouns
-
-Nouns of superiority can be used to compare a qualitative quality between two nouns. Here is an example sentence:
-
-[ٱَلْغُلَامُ أَطْوَلُ مِنَ ٱلْجَارِيَةِ.]{.ar}  
-[EalgulAmu EaTwalu mina -ljAriyati.]{.trn}  
-"The boy is taller than the girl."
-
-Here you can see that the preposition [مِنْ]{.ar} [min]{.trn} is used to mean "than".
-
-If we wish to say: "The girl is taller than the boy.", we will use the same [أَطْوَل]{.ar} [EaTwalu]{.trn} even though the subject "the girl" is now feminine:
-
-[ٱَلْجَارِيَةِ أَطْوَلُ مِنَ ٱلْغُلَامُ.]{.ar}  
-[EaljAriyati EaTwalu mina -lgulAmu.]{.trn}  
-"The girl is taller than the boy."
-
-Similarly, if the subject noun to be compared is a plural, whether masculine or feminine, rational or non-rational, the same noun of superiority is used. Examples:
-
-[ٱَلرِّجَالُ أَطْوَلُ مِنَ ٱلنِّسَاءِ وَهُنَّ أَقْصَرُ مِنْهُمْ.]{.ar}  
-[EarrijAlu Eatwalu mina -nnisAEi wa hunna EaqSaru minhum.]{.trn}  
-"The men are taller than the women and they~fem.~ are shorter than them~masc.~."
-
-[ٱلْكُتُبُ أَثُقَلُ مِنَ ٱلْأَقْلَامِ.]{.ar}  
-[Ealkutubu Eavqalu mina -lEaqlAmi.]{.trn}  
-"The books are heavier than the pens."
-
-### Nouns of superiority without a second noun
-
-The above example compared one noun to another. Often, the second noun need not be mentioned. For example,
-
-[ٱلْكُتُبُ أَثْقَلُ.]{.ar}  
-[Ealkutubu Eavqalu.]{.trn}  
-"The books are heavier."
-
-## Conveying the meaning of the highest degree
-
-The same nouns of superiority are also used in Arabic to convey the meaning of the highest degree of a quality, like "the biggest house", "the weakest link", "the best book", etc. This can be done in a number of ways.
-
-### With indefinite noun-chains
-
-The most common way to express this in Arabic is using a noun-chain with the noun of superiority and an indefinite noun. Here is an example:
-
-[هُوَ أَسْرَعُ غُلَامٍ فِي ٱلْمَدْرَسَةِ.]{.ar}  
-[huwa Easraeu gulAmin fi -lmadrasati.]{.trn}  
-"He is the fastest boy in the school."
-
-An important point to note is that while in English we used the definite in the translation: "the fastest boy", in Arabic the noun-phrase [أَسْرَعُ غُلَامٍ]{.ar} [Easraeu gulAmin]{.trn} is technically indefinite. It is just hard to find a suitable translation in English where the noun-phrase could be indefinite.
-
-The same noun of superiority is used with feminine and dual/plural nouns. Examples:
-
-[هِيَ أَطْوَلُ ٱمْرَأَةٍ.]{.ar}  
-[hiya EaTwalu -mraEatin.]{.trn}  
-"She is the tallest woman."
-
-[هُمَا أَطْوَلُ رَجُلَيْنِ.]{.ar}  
-[humA EaTwalu rajulayni.]{.trn}  
-"They are tallest (two) men."
-
-[هُنَّ أَطْوَلُ نِسَاءٍ.]{.ar}  
-[hunna EaTwalu nisAEin.]{.trn}  
-"They are the tallest women."
-
-<!-- ^ pretty much from Wright vol. ii., sect. 93, p. 227 -->
-
-### With definite noun-chains
-
-The noun of superiority can also be used in definite noun-chains with a slightly different meaning. However, the second noun of the noun-chain will need to be in the plural. Examples:
-
-[هُوَ أَطْوَلُ ٱلرِّجَالِ.]{.ar}  
-[huwa EaTwalu -rrijAli.]{.trn}  
-"He is the tallest of the men."
-
-[هُمَا أَطْوَلُ ٱلنِّسَاءِ]{.ar}  
-[humA EaTwalu -nnisAEi.]{.trn}  
-"They (two) are the tallest of the women."
-
-## Feminine, dual, and plural forms
-
-So far we have used only one form of the noun of superiority: [أَفْعَلُ]{.ar} [Eafealu]{.trn}. Technically, this is the masculine singular form, although it can be used for feminine, dual, and plural nouns as we have seen above. 
-
-However, when the meaning of the highest degree is to be conveyed for definite nouns without using noun-chains, then we will use new feminine, dual, and plurals forms for the noun of superiority. We will give these forms below:
-
-| Number | Masc. | Fem. |
-|:--|:--|:--|
-|sing.        | [أَفْعَلُ]{.ar} [Eafealu]{.trn}|    [فُعْلَىٰ]{.ar} [fuelA]{.trn}|
-|dual         | [أَفْعَلَانِ]{.ar} [EafealAni]{.trn}|[فُعْلَيَانِ]{.ar} [fuelayAni]{.trn}|
-|sound plur.  | [أَفْعَلُونَ]{.ar} [EafealUna]{.trn}|[فُعْلَيَاتٌ]{.ar} [fuelayAtun]{.trn}|
-|broken plur. | [أَفَاعِلُ]{.ar} [EafAeilu]{.trn}|  [فُعَلٌ]{.ar} [fuealun]{.trn}|
-
-These forms are to be used when the noun of superiority is usually definite and either:
-
- i. by itself, or
-ii. a describer.
-
-We will give some examples below:
-
-[هُوَ ٱلرَّجُلُ ٱلْأَطْوَلُ.]{.ar}  
-[huwa -rrajulu -lEaTwalu.]{.trn}  
-"He is the tallest man."
-
-[هِيَ ٱلْمَرْأَةُ ٱلطُّولَىٰ.]{.ar}  
-[hiya -lmarEatu -TTUlA.]{.trn}  
-"She is the tallest woman."
-
-[هُمَا ٱلرَّجُلَانِ ٱلْأَطْوَلَانِ.]{.ar}  
-[huma -rrajulAni -lEaTwalAni.]{.trn}  
-"They~masc.\ dual~ are the two tallest men."
-
-[هُمَا ٱلْمَرْأَتَانِ ٱلطُّولَيَانِ.]{.ar}  
-[huma -lmarEatAni -TTUlayAni.]{.trn}  
-"They~fem.\ dual~ are the two tallest women."
-
-[هَـٰؤُلَاءِ هُمُ ٱلرِّجَالُ ٱلْأَطْوَلُونَ وَأُولَـٰئِكَ هُمُ ٱلأَقَاصِرُ.]{.ar}  
-[hAEulAEi humu -rrijAlu -lEaTwalUna waEulAEika humu -lEaqASiru.]{.trn}  
-"These are the tallest men and those are the shortest [men]."  
-
-[هَـٰؤُلَاءِ هُنَّ ٱلنِّسَاءُ ٱلطُّولَيَاتُ وَأُولَـٰئِكَ هُنَّ ٱلقُصَرُ.]{.ar}  
-[hAEulAEi hunna -nnisAEu -TTUlayAtu waEulAEika hunna -lquSaru.]{.trn}  
-"These are the tallest women and those are the shortest [women]."  
-
-### Plural forms with non-rational beings
-
-If a noun of superiority is to be used with a definite plural noun for (masculine or feminine) non-rational beings, either by itself or as a describer, then it will usually be the feminine singular form. This is consistent with what we have learned so far regarding the use of feminine singular qualitative nouns and pronouns for non-rational beings. Here is an example:
-
-[ٱَلْكُتُبُ ٱلْكَبِيرَةُ هِيَ ٱلثُّقْلَىٰ.]{.ar}  
-[Ealkutubu -lkabIratu hiya -vvuqlA.]{.trn}  
-"The big books are the heaviest."  
-
-Sometimes, however, if the plural noun is not mentioned in a sentence we can use the broken plural of the feminine noun of superiority to convey the meaning of plurality. For example,
-
-[قَسَمْتُ ٱلْأَقْلَامَ. هَـٰؤُلَاءِ هُنَّ ٱلطُّوَلُ وَأُولَـٰئِكَ هُنَّ ٱلقُصَرُ.]{.ar}  
-[qasamtu -lEaqlAma. hAEulAEi hunna -TTuwalu waEulAEika hunna -lquSaru.]{.trn}  
-"I divided the pens. These are the tallest and those are the shortest."  
-
-<!-- تلك الغرانيق العلى 
-فقرأ ببسورة من الطُّوَل
--->
-
-<!--[قَسَمْتُ ٱلْأَقْلَامَ. هَـٰؤُلَاءِ هُنَّ ٱلطُّولَيَاتُ وَأُولَـٰئِكَ هُنَّ ٱلقُصْرَيَاتُ.]{.ar}  
-[qasamtu -lEaqlAma. hAEulAEi hunna -TTUlayAtu waEulAEika hunna -lquSrayAtu.]{.trn}  
-"I divided the pens. These are the tallest and those are the shortest."  -->
-
-<!--https://majles.alukah.net/t78123/
-
-هذه المباني / الحدائق هي الكبرى/ الكبريات (ولا يجوز: هي الأكبر!!!).
--->
-
-### Dual and plural forms in definite noun-chains
-
-In section X above we learned that that definite noun-chains use the form [أَفْعَلُ]{.ar} [Eafealu]{.trn}. We gave the following examples:
-
-[هُوَ أَطْوَلُ ٱلرِّجَالِ.]{.ar}  
-[huwa EaTwalu -rrijAli.]{.trn}  
-"He is the tallest of the men."
-
-[هُمَا أَطْوَلُ ٱلنِّسَاءِ]{.ar}  
-[humA EaTwalu -nnisAEi.]{.trn}  
-"They (two) are the tallest of the women."
-
-We now modify this rule to state that dual and plural forms of the noun of superiority can be used as well, especially when no other indication of number is present.
-
-For example, in the sentence,
-
-[هُمْ أَطْوَلُ ٱلرِّجَالِ.]{.ar}  
-[hum EaTwalu -rrijAli.]{.trn}  
-"They~masc.\ plur.~ are the tallest of the men."
-
-the pronoun [هُمْ]{.ar} tells us that we are talking about multiple persons who are the tallest of the men. But if we have a sentence like:
-
-[ذَهَبَ أَطْوَلُ ٱلرِّجَالِ.]{.ar}  
-[pahaba EaTwalu -rrijAli.]{.trn}  
-"The tallest of the men went."
-
-Here we cannot say that one man had gone or more than one. To remove this ambiguity we can use the plural form [أَطَاوِلُ]{.ar} [EaTAwilu]{.trn} thus:
-
-[ذَهَبَ أَطَاوِلُ ٱلرِّجَالِ.]{.ar}  
-[pahaba EaTAwilu -rrijAli.]{.trn}  
-"The tallest~plur.~ of the men went."
-
-## Comparing a noun with itself
-
-<!--vol. ii.,Sect. 48 rem A. p. 133A-->
-A noun can be compared with itself in a different respect. For example, we can say:
-
-"The tree is closer to Zayd than it is to [#muHammad]{.trn2}."
-
-Here the tree is being compared with itself with respect to its position near Zayd and its position near [#muHammad]{.trn2}. We will use the appropriate attached pronoun for the object being compared and attach it tp the preposition of comparison [مِنْ]{.ar} [min]{.trn} "than". So the above sentence can be expressed as:
-
-[ٱَلشَّجَرَةُ أَقْرَبُ إِلَىٰ زَيْدٍ مِنْهَا إِلَىٰ مُحَمَّدٍ.]{.ar}  
-[Eaccajaratu Eaqrabu EilA zaydin minhA EilA muHammadin.]{.trn}  
-
-The attached pronoun [ـهَا]{.ar} [-hA]{.trn} refers to [ٱَلشَّجَرَةُ]{.ar} [Eaccajaratu]{.trn} "the tree".
-The preposition [إِلَىٰ]{.ar} [EilA]{.trn} is used with the noun of superiority [أَقْرَبُ]{.ar} [Eaqrabu]{.trn} to express "nearer to".
-
-## Attention to the definiteness and plurality of noun-chains
-
-We have seen that if a noun of superiority is used in an indefinite noun-chain, it conveys the idea of the highest degree, and the singularity or plurality of second noun in the noun-chain conveys the number of object whose superiority is being expressed. The examples we gave were:
-
-[هِيَ أَطْوَلُ ٱمْرَأَةٍ.]{.ar}  
-[hiya EaTwalu -mraEatin.]{.trn}  
-"She is the tallest woman."
-
-[هُمَا أَطْوَلُ رَجُلَيْنِ.]{.ar}  
-[humA EaTwalu rajulayni.]{.trn}  
-"They are tallest (two) men."
-
-[هُنَّ أَطْوَلُ نِسَاءٍ.]{.ar}  
-[hunna EaTwalu nisAEin.]{.trn}  
-"They are the tallest women."
-
-Here we would like to stress that second-noun of the noun chain must be indefinite. So, for example, we can have a sentence:
-
-[هَـٰذَا أَكْبَرُ بَيْتٍ.]{.ar}  
-[hApA Eakbaru baytin.]{.trn}  
-"This is the biggest house."
-
-If we would like to express "This is the biggest house of the city" then we cannot simply extend the noun-chain by adding [ٱلْمَدِينَةِ]{.ar} [-lmadInati]{.trn} "of the city" to it thus:
-
-[هَـٰذَا أَكْبَرُ بَيْتِ ٱلْمَدِينَةِ.]{.ar}  
-[hApA Eakbaru bayti -lmadInati.]{.trn}  
-
-This is because the noun-chain is now definite. This sentence can now only mean "This is the biggest [part] of the house of the city."
-
-In order to express the desired meaning, we have a few options with similar meanings:
-
-[هَـٰذَا بَيْتُ ٱلْمَدِينَةِ ٱلْأَكْبَرُ.]{.ar}  
-[hApA baytu -lmadInati -lEakbaru.]{.trn} 
-"This is the biggest house of the city."
-
-[هَـٰذَا أَكْبَرُ بَيْتٍ فِي ٱلْمَدِينَةِ.]{.ar}  
-[hApA Eakbaru baytin fi -lmadInati.]{.trn}  
-"This is the biggest house in the city."
-
-[هَـٰذَا أَكْبَرُ بُيُوتِ ٱلْمَدِينَةِ.]{.ar}  
-[hApA Eakbaru buyUti -lmadInati.]{.trn}  
-"This is the biggest of the houses of the city."
-
-<!--https://forum.wordreference.com/threads/%D9%81%D9%8A-%D8%A3%D9%82%D8%B5%D9%89-%D8%B3%D8%A7%D8%AD%D9%84-%D8%A8%D8%AD%D8%B1-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84.3477546/#post-17650853-->
-
-## Expressing "better than" and "worse than"
-
-To express the meaning "better" Arabic can use  [أَحْسَنُ]{.ar} [EaHsanu]{.trn} from [حَسَنٌ]{.ar} [Hasanun]{.trn}. There is also the word [أَفْضَلُ]{.ar} [EafDalu]{.trn} is very commonly used. Technically it means "more preferred" but it is often used where in English we would say "better".
-
-Similarly, to express worse we can use [أَسْوَأُ]{.ar} [EaswaEu]{.trn} from [سَيِّئٌ]{.ar} [sayyiEun]{.trn}.
-
-In addition, there are two words: [خَيْرٌ]{.ar} [xayrun]{.trn} and [شَرٌّ]{.ar} [carrun]{.trn}, which are really designative nouns meaning "goodness" and "evil" respectively. 
-
-These same words, although they not in the pattern [أَفْعَلُ]{.ar} [Eafealu]{.trn}, are used with [مِنْ]{.ar} [min]{.trn} "than" to express "better" and "worse" respectively. Here are some examples:
-
-## The word "other"
-
-The word [آخَرُ]{.ar} [EAxaru]{.trn} is a qualitative noun meaning "other". It is actually on the pattern of the noun of superiority [أَفْعَلُ]{.ar} [Eafealu]{.trn} with the root [ءخر]{.arroot} but is somewhat of an anomaly because it does not have a meaning of superiority and is not used for comparison. That is to say: we cannot say that something is more "other" than something else. It shares some of the qualities of the noun of superiority in the formation of its feminine and plurals. We will describe these and their usages below.
-
-| Number | Masc. | Fem. |
-|:--|:--|:--|
-|sing.        | [آخَر]{.ar}   [EAxaru]{.trn}|    [أُخْرَىٰ]{.ar} [EuxrA]{.trn}|
-|dual         | [آخَرَانِ]{.ar} [EAxarAni]{.trn}|[أُخْرَيَانِ]{.ar} [EuxrayAni]{.trn}|
-|sound plur.  | [آخَرُونَ]{.ar} [EAxarUna]{.trn}|[أُخْرَيَاتٌ]{.ar} [EuxrayAtun]{.trn}|
-|broken plur. | [أَوَاخِرُ]{.ar} [EawAxiru]{.trn}|  [أُخَرُ]{.ar}  [Euxaru]{.trn}|
-
-Note that the masculine broken plural [أَوَاخِرُ]{.ar} [EawAxiru]{.trn} (on the pattern [أَفَاعِلُ]{.ar} [EafAeilu]{.trn}) has replaced the [ء]{.ar} in the root with a [و]{.ar}. This is a regular replacement in order to avoid two [ء]{.ar}s next to one another in [أَءَاخِرُ]{.ar} [EaEAxiru]{.trn}. This broken plural is given here for completeness but it is actually very rarely used. The sound [Un]{.trn} plural [آخَرُونَ]{.ar} [EAxarUna]{.trn} is used instead.
-
-Also note that the feminine broken plural [أُخَرُ]{.ar} [Euxaru]{.trn} is non-fully changing. This is irregular because the broken plural pattern [فُعَلٌ]{.ar} [fuealun]{.trn} is usually fully-changing.
-
-We use [آخَرُ]{.ar} [EAxaru]{.trn} just like any other qualitative noun and we will give some examples below.
-
-[جَاءَ زَيْدٌ وَرَجُلٌ آخَرُ.]{.ar}  
-[jAEa zaydun warajulun EAxaru.]{.trn}  
-"Zayd and another man came."
-
-[ذَهَبَتْ زَيْنَبُ إِلَى ٱلْمَدْرَسَةِ ٱلْأُخْرَىٰ.]{.ar}  
-[pahabat zaynabu Eila -lmadrasati -lEuxrA.]{.trn}  
-"Zaynab went to the other school."
-
-[قَرَأْتُ هَـٰذَا ٱلْكِتَابَ وَكِتَابَيْنِ آخَرَيْنِ.]{.ar}  
-[qaraEtu hApa -lkitAba wakitAbayni EAxarayni.]{.trn}  
-"I read this book and two other books."
-
-[ذَهَبَ رِجَالٌ آخَرُونَ.]{.ar}  
-[pahaba rijAlun EAxarUna]{.trn}  
-"Other men went."
-
-[ذَهَبَتْ زَيْنَبُ مَعَ ٱلنِّسَاءِ ٱلْأُخْرَيَاتِ.]{.ar}  
-[pahabat zaynabu maea -nnisAEi -lEuxrayAti.]{.trn}  
-"Zaynab went with the other women."
-
-With non-rational nouns, just like other qualitative nouns, the feminine singular is usually used. Example:
-
-[قَرَأْتُ هَـٰذَا ٱلْكِتَابَ وَكُتُبًا أُخْرَىٰ.]{.ar}  
-[qaraEtu hApa -lkitAba wakutuban EuxrA.]{.trn}  
-"I read this book and other books."
-
-However, the feminine broken plural [أُخَرُ]{.ar} [Euxaru]{.trn} can also be used, especially if there is no other indication of plurality. Examples:
-
-[هَـٰذَا ٱلْكِتَابُ خَفِيفٌ وَٱلْأُخَرُ ثَقِيلَةٌ.]{.ar}  
-[hApa -lkitAbu xafIfun wa-lEuxaru vaqIlatun.]{.trn}  
-"This book is light and the others are heavy."
-
-[قَرَأَ هَـٰذَا ٱلْكِتَابَ وَقَرَأَ أُخَرَ.]{.ar}  
-[qaraEa -lkitAba waqaraEa Euxara.]{.trn}  
-"He read this book and and he read others."
-
-
-<!--chapter:end:srcrmd/elatives.Rmd-->
 
 # (APPENDIX) Appendix {-}
 
