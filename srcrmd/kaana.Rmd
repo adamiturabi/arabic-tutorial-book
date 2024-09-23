@@ -106,7 +106,7 @@ That is, without the information, the sentence is deficient.
 | [أَنْتَ لِي أَخٌ.]{.ar}               | [كُنْتَ لِي أَخًا.]{.ar}            |
 | "You~1m~ are a brother to me.   | "You~1m~ were a brother to me.|
 
-## Sequence of [كَانَ]{.ar}, its subject, and its information
+### Sequence of [كَانَ]{.ar}, its subject, and its information
 
 In sentence word order, the natural sequence is 
 <!--[كَانَ]{.ar}, its subject, and its information, as -->
@@ -115,12 +115,12 @@ verb, subject, information.
 [كَانَ زَيْدٌ قَائِمًا.]{.ar}  
 "Zayd was standing."
 
-but we may also say, for the same meaning:
+but we may also, for the same meaning, apply the sequence verb, information, subject:
 
 [كَانَ قَائِمًا زَيْدٌ.]{.ar}  
 "Zayd was standing."
 
-and also:
+and also the sequence information, verb, subject:
 
 [قَائِمًا كَانَ زَيْدٌ.]{.ar}  
 "Zayd was standing."
@@ -152,12 +152,12 @@ The following apparent sequence is also possible:
 [زَيْدٌ كَانَ قَائِمًا.]{.ar}  
 "Zayd: he was standing."
 
-This is actually a topic-comment sentence.
+But this is actually a topic-comment sentence.
 [زَيْدٌ]{.ar} is the topic.
 And the comment is [كَانَ قَائِمًا]{.ar}, which is itself a [كَانَ]{.ar} subject-information sentence in the sequence verb, subject, information.
 The subject is the hidden pronoun "he" and the information is [قَائِمًا]{.ar}.
 
-## Plurals of non-rational beings with [كَانَ]{.ar}
+### Plurals of non-rational beings with [كَانَ]{.ar}
 
 Because [كَانَ]{.ar} sentences are subject-information being sentences, 
 many of the rules that we have learned for subject-information sentences also apply to [كَانَ]{.ar} sentences.
@@ -178,7 +178,7 @@ Also allowed, but not as common:
 [ٱلثِّيرَانُ كَانَتْ ضِخَامًا.]{.ar}  
 [ٱلثِّيرَانُ كُنَّ ضَخْمَاتٍ.]{.ar}  
 
-## [كَانَ]{.ar} with a separating pronoun
+### [كَانَ]{.ar} with a separating pronoun
 
 Another rule that applies to subject-information sentences, and that carries over to 
 [كَانَ]{.ar} sentences, is that
@@ -216,6 +216,22 @@ Note that [ٱَلْفَائِزُونَ]{.ar} is in the u-state, so it is not, b
 So this is, in fact, a topic-comment sentence.
 [ٱَلْمُوْمِنُونَ]{.ar} is the topic and the subject of [كَانَ]{.ar}.
 The information of [كَانَ]{.ar} is the comment [هُمُ ٱلفَائِزُونَ]{.ar}, which is itself a subject-information sentence with a u-state subject ([هُمْ]{.ar}) and a u-state information ([ٱلْفَائزُونَ]{.ar}).
+
+### Negating [كَانَ]{.ar}
+
+Like other past verbs,
+the verb [كَانَ]{.ar}
+may be negated by preceding it with the particle [مَا]{.ar}. For example:
+
+[مَا كَانَ إِبْرَٰهِيمُ يَهُودِيًّۭا وَلَا نَصْرَانِيًّۭا وَلَـٰكِن كَانَ حَنِيفًۭا مُّسْلِمًۭا وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ]{.ar}  
+"Abraham was neither a Jew nor a Christian, but he was one inclining toward truth, a Muslim [submitting to Allāh]. And he was not of the polytheists."
+([al-#qurEAn]{.trn2} 3:67, translation Saheeh International)
+
+A similar meaning may be obtained with the particle [لَمْ]{.ar} followed by the
+[0]{.txt}-state
+resembling verb
+[يَكُنْ]{.ar}.
+This is dealt with in section\ \@ref(lam-yakun) below.
 
 ## The resembling verb of [كَانَ]{.ar}
 
@@ -307,6 +323,32 @@ Here are some examples:
 [يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ]{.ar}  
 "It is the Day when people will be like moths, dispersed,"  
 ([al-#qurEAn]{.trn2} 101:4, translation Saheeh International)
+
+### The a-state resembling verb [يَكُونَ]{.ar}
+
+Like a-state resembling verbs in general, [يَكُونَ]{.ar} "be" expresses the meaning of purpose, wish, or expectation. It occurs after the particles
+[أَنْ]{.ar},
+[لَنْ]{.ar},
+[لِ]{.ar},
+[كَيْ]{.ar},
+[حَتَّىٰ]{.ar}, and
+[إِذَنْ]{.ar}.
+All this is consistent with what we have learned about a-state resembling verbs in chapter\ \@ref(a-state-incomplete-action-verbs).
+Here are some examples:
+
+[نَزَلَ بِهِ ٱلرُّوحُ ٱلْأَمِينُ. عَلَىٰ قَلْبِكَ لِتَكُونَ مِنَ ٱلْمُنذِرِينَ]{.ar}  
+"The Trustworthy Spirit [i.e., Gabriel] has brought it down. Upon your heart, [O Muḥammad] - that you may be of the warners -"  
+([al-#qurEAn]{.trn2} 26:193--194, translation Saheeh International)
+
+[لَّن يَسْتَنكِفَ ٱلْمَسِيحُ أَن يَكُونَ عَبْدًۭا لِّلَّهِ وَلَا ٱلْمَلَـٰٓئِكَةُ ٱلْمُقَرَّبُونَ]{.ar}  
+"Never would the Messiah disdain to be a servant of Allāh, nor would the angels near [to Him]"  
+(From [al-#qurEAn]{.trn2} 4:172, translation Saheeh International)
+
+[أَفَأَنتَ تُكْرِهُ ٱلنَّاسَ حَتَّىٰ يَكُونُوا۟ مُؤْمِنِينَ]{.ar}  
+"Then, [O Muḥammad], would you compel the people in order that they become believers?"  
+([al-#qurEAn]{.trn2} 10:99, translation Saheeh International)
+
+### The [0]{.txt}-state resembling verb [يَكُنْ]{.ar} {#lam-yakun}
 
 
 
