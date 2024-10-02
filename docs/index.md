@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-796-ge2055c8"
+date: "v0.1.0-842-g5490665"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -5712,7 +5712,7 @@ We have already studied verbs with sound plurals in section\ \@ref(verbs-with-pl
 [Palama -ljabAbiratu -lmasAkIna waqatalUhum.]{.trn}  
 "The tyrants wronged the needy ones~3,m~ and killed them~3,m~."
 
-## Usage of plurals of non-intelligent beings
+## Usage of plurals of non-intelligent beings {#usage-of-plurals-of-non-intelligent-beings}
 
 We now turn our attention to plurals of non-intelligent beings. They treatment of plurals of non-intelligent beings is very different from everything we have learned so far. Regardless of the grammatical or physical gender of the singular noun, plurals of non-intelligent beings are treated, for the purposes of matching adjectival nouns and pronouns, as:
 
@@ -9120,6 +9120,19 @@ In addition to [مَا]{.ar} [mA]{.trn}, incomplete-action verbs can be negated 
 
 The particles [سَـ]{.ar} [sa-]{.trn} and [سَوْفَ]{.ar} [sawfa]{.trn} may not be combined with [مَا]{.ar} [mA]{.trn} and [لَا]{.ar} [lA]{.trn} when negating verbs.
 
+## With [قَدْ]{.ar}
+
+TODO
+
+When negating a resembling verb preceded by 
+[قَدْ]{.ar}
+there is some question about whether [قَدْ]{.ar} is retained or dropped, 
+but the stronger opinion seems to be that it may be kept, as proven by the following verse of poetry:
+
+[وَقَدْ لَا تَعْدَمُ الْحَسْنَاءُ ذَامًا]{.ar}  
+"And [it] may be [that] the beautiful female does not lack a defect."  
+([ذَام]{.ar} means "defect".)
+
 
 <!--chapter:end:srcrmd/imperfect_verb_indic.Rmd-->
 
@@ -10686,625 +10699,6 @@ As you can see, [فُلَان]{.ar} "so-and-so" is actually the doer, and [ٱل�
 
 <!--chapter:end:srcrmd/passive_voice.Rmd-->
 
-# [إِنَّ]{.ar} and its sisters
-
-## Introduction
-
-In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
-
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.pdf)<!-- -->
-
-"This man is a teacher."
-
-In the above sentence both the subject [ٱَلرَّجُلَ]{.ar} "the man", and the information [مُعَلِّمٌ]{.ar} "a teacher" are in the u-state. In this chapter we will study a family of particles, called
-[إِنَّ]{.ar} and its sisters,
-that modify the subject-information sentence by placing the subject in the a-state instead of the u-state. For example,
-
-[إِنَّ ٱلرَّجُلَ مُعَلِّمٌ.]{.ar}  
-[Einna -rrajula mueallimun.]{.trn}  
-"Indeed the man is a teacher."
-
-Note how, in the above example, the subject [ٱَلرَّجُلَ]{.ar} "the man" is now in the a-state. The information [مُعَلِّمٌ]{.ar} "a teacher" remains in the u-state. 
-
-The particles constituting the family of 
-[إِنَّ]{.ar} and its sisters
-are:
-
-1. [إِنَّ]{.ar}  [Einna]{.trn}     \vphantom{\huge J}
-1. [أَنَّ]{.ar}  [Eanna]{.trn}     \vphantom{\huge J}
-1. [كَأَنَّ]{.ar}  [kaEanna]{.trn}  \vphantom{\huge J}
-1. [لَـٰكِنَّ]{.ar}  [lAkinna]{.trn} \vphantom{\huge J}
-1. [لَيْتَ]{.ar}  [layta]{.trn}    \vphantom{\huge J}
-1. [لَعَلَّ]{.ar}  [laealla]{.trn}  \vphantom{\huge J}
-
-We shall now study each of these particles.
-
-## [إِنَّ]{.ar} [Einna]{.trn}
-
-[إِنَّ]{.ar} [Einna]{.trn} is used to begin independent sentences. It has an emphatic meaning, as if the speaker is asserting the information about the subject. It is often translated into English as "indeed" or "verily", but it is also often left untranslated.
-
-[إِنَّ]{.ar} [Einna]{.trn} is only used to begin subject-information sentences. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.). For example,
-
-[إِنَّ ٱلدِّينَ عِنْدَ ٱللَّـٰهِ ٱلْإِسْلَامُ.]{.ar}  
-[Einna -ddIna einda -llAhi -lEislAmu.]{.trn}  
-"Indeed, the religion in the sight of [#allAh]{.trn2} is [#islAm]{.trn2}." ([#qurEAn]{.trn2}\ 3:19, trans. Saheeh International)
-
-[إِنَّ]{.ar} [Einna]{.trn} 
-may be preceded by other particles like [وَ]{.ar} "and", [فَ]{.ar} "so", and [ثُمَّ]{.ar} "then". For example,
-
-[ٱُطْلُبِ ٱلْعِلْمَ ٱلنَّافِعَ. فَإِنَّ طَلَبَ ٱلْعِلْمَ ٱلنَّافِعَ عَمَلٌ صَالِحٌ. وَإِنَّ تَرْكَهُ غَفْلَةٌ.]{.ar}
-"Seek the useful knowledge. For indeed the seeking of the useful knowledge is a good deed. And indeed leaving it is a negligence."
-
-The subject of
-[إِنَّ]{.ar} [Einna]{.trn} 
-may be a noun phrase, in which case, any describers or replacements of the subject are also in the a-state. Examples:
-
-[إِنَّ هَـٰؤُلَاءِ ٱلرِّجَالَ ٱلْكِرَامَ أَصْدِقَائِي.]{.ar}  
-"Indeed these noble men are my friends."
-
-[إِنَّ]{.ar} [Einna]{.trn} may have multiple subjects, each in the a-state, separated by [وَ]{.ar}. Example,
-
-[إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَاتِ يَعْبُدُونَ ٱللَّـٰهَ.]{.ar}  
-"Indeed the Muslim men and Muslim women worship [#allAh]{.trn2}."
-
-If the information of the first subject has been mentioned before the second subject, then the second subject may optionally be in the a-state or the u-state. For example:
-
-[إِنَّ زَيْدًا جَالِسٌ وَعَمْرًا.]{.ar}  
-or  
-[إِنَّ زَيْدًا جَالِسٌ وَعَمْرٌو.]{.ar}  
-"Indeed Zayd is sitting and [#eamr]{.trn2} [as well]."
-
-[إِنَّ هَـٰذَا ٱلْكِتَابَ لِي وَذَ ٰلِكَ ٱلْكِتَابَ لَكَ.]{.ar}  
-or  
-[إِنَّ هَـٰذَا ٱلْكِتَابَ لِي وَذَ ٰلِكَ ٱلْكِتَاكُ لَكَ.]{.ar}  
-"Indeed this book is for me and that book is for you."
-
-[إِنَّ]{.ar} [Einna]{.trn} may be used to begin sentences with an indefinite subject. For example,
-
-[إِنَّ مَلِكًا مِنَ ٱلْهِنْدِ كَتَبَ إِلَىٰ أَحَدِ وُزَرَائِهِ.]{.ar}  
-"Indeed a king from India wrote to one of his ministers."
-
-Note that in all the above examples that
-[إِنَّ]{.ar} [Einna]{.trn} is only used to begin subject-information sentences. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.).
-By default, the subject of [إِنَّ]{.ar} [Einna]{.trn} must directly follow it with no intervening words or particles. The only exception is when the information consists of a prepositional or adverbial phrase, it is then allowed to precede the subject. The subject, in any case, shall be in the a-state. For example,
-
-[إِنَّ فِي ٱلْبَيْتِ رَجُلًا.]{.ar}  
-"Indeed, in the house, is a man."
-
-[إِنَّ تَحْتَ ٱلشَّجَرَةِ كَنْزًا ثَمِينًا.]{.ar}  
-"Indeed, under the tree, is a precious treasure."
-
-This reverse order is permitted even when the subject is definite. For example,
-
-[إِنَّ مَعَكَ صَاحِبَكَ.]{.ar}  
-"Indeed, with you, is _your companion_."
-
-This puts the logical accent on the subject [صَاحِبَكَ]{.ar} "your companion". If the subject is placed first then this puts the logical accent on the information:
-
-[إِنَّ صَاحِبَكَ مَعَكَ.]{.ar}  
-"Indeed your companion is _with_ you."
-
-If the subject contains a pronoun that refers to a noun in the information then the information must precede the subject. For example,
-
-[إِنَّ فِي ٱلْمَصْنَعِ عُمَّالَهُ.]{.ar}  
-"Indeed, in the factory, are its workers."
-
-[إِنَّ أَمَامَ ٱلدَّارِ حَارِسَهَا.]{.ar}  
-"Indeed, in front of the door, is its guard."
-
-### Pronoun subjects
-
-<!--In the examples above, the subject of [إِنَّ]{.ar} has been a noun. -->
-The subject of [إِنَّ]{.ar} may be a pronoun instead of a noun. For this the attached pronouns are used. For example,
-
-[لَا تَقْطَعْ تِلْكَ ٱلشَّجَرَةَ فَإِنَّهَا ظَلِيلَةٌ.]{.ar}  
-"Don't cut that tree, for it is shady."
-
-[إِنَّكُمَا صَدِيقَايَ.]{.ar}  
-"You~2~ are my friends."
-
-The speaker pronouns, both singular and plural, may optionally keep or drop their [ن]{.ar}. 
-So for the singular speaker pronoun both [إِنَّنِي]{.ar} [EinnanI]{.trn} and [إِنِّي]{.ar} [EinnI]{.trn} may be used.
-And for the plural speaker pronoun both [إِنَّنَا]{.ar} [EinnanA]{.trn} and [إِنَّا]{.ar} [EinnA]{.trn} may be used.
-Examples:
-
-[إِنِّي مُسْلِمٌ.]{.ar}  
-or  
-[إِنَّنِي مُسْلِمٌ.]{.ar}  
-"Indeed I am a Muslim."
-
-[إِنَّنَا كَاتِبُو هَـٰذَا ٱلْكِتَابَ.]{.ar}  
-or  
-[إِنَّا كَاتِبُو هَـٰذَا ٱلْكِتَابَ.]{.ar}  
-"Indeed we are the writers of this book."
-
-[إِنَّ]{.ar} with the speaker pronouns are often used with doer verbal nouns to signify that the speaker intends to to the action of the verb. For example,
-
-[إِنِّي ذَاهِبٌ إِلَىٰ ٱلْمَسْجِدِ.]{.ar}  
-"I'm going to the mosque."
-
-We also mentioned this point in section\ \@ref(doer-verbal-noun-for-intended-future-action).
-
-### [إِنَّ]{.ar} [Einna]{.trn} with a strengthening [لَ]{.ar} {#inna-strengthening-la}
-
-The strengthening particle [لَ]{.ar} adds extra emphasis and may optionally be used between the subject of [إِنَّ]{.ar} and its information.
-If the subject occurs first (as is the default) then [لَ]{.ar} is connected to and placed directly before the information. For example:
-
-[إِنَّ زَيْدًا لَقَائِمٌ.]{.ar}  
-"Indeed Zayd is definitely standing."
-
-If the information precedes the subject, then then [لَ]{.ar} is connected to and placed directly before the subject. For example:
-
-[إِنَّ فِي ٱلْبَيْتِ لَرَجُلًا.]{.ar}  
-"Indeed, in the house, is definitely a man."
-
-The strengthening particle [لَ]{.ar} is only used with [إِنَّ]{.ar} and not for any of its other sisters
-([إِنَّ]{.ar},
-[أَنَّ]{.ar},
-[كَأَنَّ]{.ar},
-[لَـٰكِنَّ]{.ar},
-[لَيْتَ]{.ar}, and
-[لَعَلَّ]{.ar}).
-
-### Commonality of rules for [إِنَّ]{.ar} and its sisters
-
-Unless otherwise noted, the rules we have presented above for 
-[إِنَّ]{.ar},
-for example, the subject being in the a-state, the order of the subject and the predicate, the use of attached pronouns for the subject, etc.,
-apply also to its other sisters. 
-
-The strengthening particle [لَ]{.ar}, as mentioned above, is only used with [إِنَّ]{.ar} and not for any of its other sisters.
-
-## [أَنَّ]{.ar} [Eanna]{.trn}
-
-The particle 
-[أَنَّ]{.ar} [Eanna]{.trn}
-can be translated as "that".
-It is similar to [إِنَّ]{.ar} in that it is asserts the information about the subject.
-But 
-[أَنَّ]{.ar} is different from [إِنَّ]{.ar} in that [إِنَّ]{.ar}, its subject, and its information together constitute a complete sentence.
-Whereas 
-the
-[أَنَّ]{.ar}
-clause
-([أَنَّ]{.ar}
-, its subject, and its information together) does not constitute a complete sentence. For example, consider the expression:
-
-[زَيْدٌ صَادِقٌ.]{.ar}  
-"Zayd is truthful."
-
-This is a complete sentence. But if we add 
-[أَنَّ]{.ar} "that" to its beginning, it no longer remains a complete sentence:
-
-[أَنَّ زَيْدًا صَادِقٌ]{.ar}  
-"that Zayd is truthful"
-
-We need to additional words, external to the 
-[أَنَّ]{.ar}
-clause
-to complete the sentence. We will see examples of this below.
-
-### The [أَنَّ]{.ar} clause in place of the direct doee
-
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-35-1.pdf)<!-- -->
-
-"I know that Zayd is truthful."
-
-Note how, in the example above the 
-[أَنَّ]{.ar}
-clause
-([أَنَّ زَيْدًا صَادِقٌ]{.ar})
-has occupied the place of the direct doee of the verb [أَعْلَمُ]{.ar}.
-
-In a similar manner,
-[أَنَّ]{.ar}
-clauses can be placed where one would expect other noun positions, such as: a subject, an information, a doer, and more. Here are some examples:
-
-### The [أَنَّ]{.ar} clause in place of the doer
-
-Example:
-
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-36-1.pdf)<!-- -->
-
-"That you are sick has reached me." ("It has reached me that you are sick.")
-
-### The [أَنَّ]{.ar} clause in place of the subject
-
-Example (with information before subject in sentence word order):
-
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-37-1.pdf)<!-- -->
-
-"From his characteristeics is that he is noble."
-
-### The [أَنَّ]{.ar} clause in place of the information
-
-Example:
-
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-38-1.pdf)<!-- -->
-
-"The truth is that he went."
-
-### [أَنَّ]{.ar} with [كَانَ]{.ar}
-
-As you know, [كَانَ]{.ar}'s doer is also its subject, and its doee is also its information.
-The [أَنَّ]{.ar} clause can occur in either the subject or the information of [كَنَ]{.ar}. 
-For example, the [أَنَّ]{.ar} clause as the information:
-
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-39-1.pdf)<!-- -->
-
-"The matter was that he didn't do his obligation."
-
-Now, the [أَنَّ]{.ar} clause as the subject:
-
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-40-1.pdf)<!-- -->
-
-"That he didn't do his obligation was the matter."
-
-Note that in the latter case, the information precedes the subject.
-
-### The [أَنَّ]{.ar} clause in place of an i-state noun
-
-The [أَنَّ]{.ar} clause can occur in place of an i-state base noun in an annexation. Example:
-
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-41-1.pdf)<!-- -->
-
-"The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous."
-
-The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly following a preposition. Example:
-
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-42-1.pdf)<!-- -->
-
-"I wondered at that Zayd is asleep."
-
-#### Optionally deleting the preposition directlt before an [أَنَّ]{.ar} clause
-
-If an
-[أَنَّ]{.ar} clause
-directly follows a preposition, it is permissible to optionally delete the preposition as long as the meaning remains clear.
-So the previous example can be expressed without the preposition [مِنْ]{.ar} with the same meaning:
-
-[عَجِبْتُ أَنَّ زَيْدًا نَائِمٌ.]{.ar}  
-"I wondered at that Zayd is asleep."
-
-#### [لِأَنَّ]{.ar} "because"
-
-The combination of the preposition [لِ]{.ar} "for" and [أَنَّ]{.ar} is used to mean "because". For example,
-
-[أَكَلْتُ ٱلطَّعَامَ لِأَنَّنِي كُنْتُ جَائِعًا.]{.ar}  
-"I ate the food because I was hungry."
-
-### Equivalence of the [أَنَّ]{.ar} clause with a verbal noun of doing
-
-As a matter of grammatical theory, the
-[أَنَّ]{.ar} clause, i.e. ([أَنَّ]{.ar} itself, its subject, and its information) is considered equivalent to a verbal noun of doing (typically in an annexation, and possibly with a doee as well). It is this equivalalence that allows it to thake the place of a doer, direct doee, and the other categories we have given above.
-For instance, consider the example:
-
-[عَجِبْتُ مِنْ أَنَّ زَيْدًا ذَهَب.]{.ar}  
-"I wondered at that Zayd went."
-
-Here, the clause
-[أَنَّ زَيْدًا ذَهَب]{.ar}
-is equivalent to the verbal noun phrase [ذَهَابِ زَيْدٍ]{.ar} "Zayd's going". So the grammatically equivalent sentence with this verbal noun phrase is:
-
-[عَجِبْتُ مِنْ ذَهَابِ زَيْدٍ.]{.ar}  
-"I wondered at Zayd's going."
-
-Similarly, in the example,
-
-[مِنْ صِفَاتِهِ أَنَّهُ كَرِيمٌ.]{.ar}  
-"From his characteristics is that he is generous."
-
-the clause
-[أَنَّهُ كَرِيمٌ]{.ar}
-is equivalent to the verbal noun phrase [كَرَامَتِهِ]{.ar} "his generosity". So the grammatically equivalent sentence with this verbal noun phrase is:
-
-[كَرَامَتِهِ مِنْ صِفَاتِهِ.]{.ar}  
-"His generosity is from his characteristics."
-
-This grammatical equivalence is more a matter of theory than of practical usefulness to us.
-And you have seen this grammatical equivalence before with [أَنْ]{.ar} and a-state incomplete action verbs in chanpter\ \@ref(a-state-incomplete-action-verbs-verbal-noun).
-
-## [كَأَنَّ]{.ar} [kaEanna]{.trn}
-
-[كَأَنَّ]{.ar} [kaEanna]{.trn}
-may be translated as "[It is] as if".
-It is actually simply the preposition [كَ]{.ar} "like" attached to [أَنَّ]{.ar}. But it is treated separately because, unlike [أَنَّ]{.ar},
-[كَأَنَّ]{.ar} [kaEanna]{.trn}, its subject, and its information constitute a complete sentence. For example,
-
-[كَأَنَّ ٱلْأُمُّ مَدْرَسَةٌ.]{.ar}  
-"[It is] as if the mother is a school."
-
-TODO: add more info
-
-## [لَـٰكِنَّ]{.ar} [lAkinna]{.trn}
-
-TODO
-
-## [لَيْتَ]{.ar}  [layta]{.trn}
-
-TODO
-
-## [لَعَلَّ]{.ar}  [laealla]{.trn}
-
-TODO
-
-## Topic-comment sentences and the pronoun of the fact
-
-### Topic-comment sentences
-
-There is a sub-type of subject-information sentence called a topic-comment sentence. Here is an example:
-
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-43-1.pdf)<!-- -->
-
-"The tree: its branches are long."
-
-In these kinds of sentences, the subject introduces a topic, and the information is itself a sentence which comments on the topic/subject.
-We have, in fact, already seen sentences like this in section\ \@ref(past-verbs-order-of-words), when we take a verbal sentence and convert it to a subject-information sentence. This is the example we discussed there:
-
-[ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}  
-"The man: he wrote a book."
-
-#### The linker pronoun
-
-A topic-comment sentence typically requires a pronoun in the comment that links back to the comment. 
-In the example
-[ٱَلشَّجَرَةُفُرُوعُهَا طَوِيلَةٌ.]{.ar}, the attached pronoun [هَا]{.ar} "it" in [فُرُوعُهَا]{.ar} "its tree" is the linker pronoun that links back to the topic [ٱَلشَّجَرَةُ]{.ar} "the tree".
-
-Similarly, in the example
-[ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}
-the linker pronoun is the invisible doer pronoun "he" of the verb [كَتَبَ]{.ar} "he wrote" that links back to the topic [ٱَلرَّجُلُ]{.ar} "the man".
-
-#### Topic-comment sentences with [إِنَّ]{.ar} and its sisters
-
-[إِنَّ]{.ar} and its sisters are very often used in topic-comment sentences. (With [أَنَّ]{.ar} it is, as usual, an incomplete sentence.) Here are some examples:
-
-[إِنَّ زَيْدًا لَهُ أَخٌ وَأُخْتٌ.]{.ar}  
-"Indeed Zayd: he has a brother and sister."
-
-[ٱِعْلَمْ أَنَّ ٱلْعِلْمَ حُصُولُهُ يَتَطَلَّبُ جُهْدًا.]{.ar}  
-"Know that knowledge: its obtaining requires effort."
-
-#### Topic-comment sentences with a pronoun topic
-
-The topic, in a topic-comment sentence, is frequently a pronoun. For example,
-
-[أَنَا ٱسْمِي زَيْدٌ.]{.ar}  
-"I: my name is Zayd."
-
-[أَكَلْتُ ٱلطَّعَامَ لَـٰكِنَّكَ لَمْ تَأْكُلْ.]{.ar}  
-"I ate the food but you: you didn't eat."
-
-### The pronoun of the fact
-
-Mostly, pronouns are used in place of nouns when it is already known to whom the noun refers to. So if you say:
-
-[أَنَا ٱسْمِي زَيْدٌ.]{.ar}  
-"I: my name is Zayd."
-
-the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
-
-There is a special pronoun, called the _pronoun of the fact_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
-
-![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-44-1.pdf)<!-- -->
-
-"The fact is: the cold is intense."
-
-This pronoun is usually the singular masculine pronoun (as above) but it is also sometimes the singular feminine pronoun [هِيَ]{.ar}.
-It is typically used with statements of import, to which the speaker wishes to draw attention.
-The comment does not contain a linker pronoun because the whole comment refers back to the topic.
-The pronoun of the fact is frequently used with [إِنَّ]{.ar} and its sisters. 
-Here are some examples:
-
-[إِنَّهُ لَا يُفْلِحُ ٱلْكَافِرُونَ.]{.ar}  
-"Indeed, the disbelievers will not succeed."  
-([#qurEAn]{.trn2} 23:117, trans. Saheeh International)
-
-Sometimes, one can choose between using the pronoun of the fact and a pronoun matching the participant resulting in different emphasis. For example,
-
-[إِنِّهُ هُمُ ٱلْفَاعِلُونَ]{.ar}  
-"Indeed, the fact is: they are the doers."
-
-[إِنِّهُمْ هُمُ ٱلْفَاعِلُونَ]{.ar}  
-"Indeed, _they_ are the doers."
-
-## The lightened versions [إِنْ]{.ar}, [أَنْ]{.ar}, [كَأَنْ]{.ar}, and [لَـٰكِنْ]{.ar}
-
-The particles [إِنَّ]{.ar}, [أَنَّ]{.ar}, [كَأَنَّ]{.ar}, and [لَـٰكِنَّ]{.ar}, because of the doubled [نّ]{.ar} are considered _heavy_.
-There exist _lightened_ versions of these particles that are:
-[إِنْ]{.ar}, [أَنْ]{.ar}, [كَأَنْ]{.ar}, and [لَـٰكِنْ]{.ar}.
-These lightened versions have similar meanings to their heavy counterparts but they have somewhat different rules. We will discuss them below.
-In terms of their usage 
-[إِنْ]{.ar} and
-[كَأَنْ]{.ar} are not very commonly used except in the [#qurEAn]{.trn2}, poetry, and other rhetorical texts.
-[أَنْ]{.ar} and
-[لَـٰكِنْ]{.ar}
-are relatively more common.
-
-### The lightened [إِنْ]{.ar}
-
-The lightened
-[إِنْ]{.ar}
-is used in two different ways.
-In the more common way, the subject is not put in the a-state but is rather in the u-state.
-However, the strengthening [لَ]{.ar} (see section\ \@ref(inna-strengthening-la) above), that was optional with the heavy [إِنَّ]{.ar}, is now mandatory with the lightened [إِنْ]{.ar}. For example,
-
-[إِنْ زَيْدٌ لَمُسْلِمٌ.]{.ar}  
-"Indeed Zayd is a Muslim."
-
-The other notable difference between 
-the lightened [إِنْ]{.ar}
-and
-the heavy [إِنَّ]{.ar}
-is that 
-the heavy [إِنَّ]{.ar} is only used to introduce subject-information sentences.
-The lightened [إِنْ]{.ar},
-however, can be used to introduce verbal sentences, but only those that begin with the verbs:
-[كَانَ]{.ar} and its sisters,
-[كَادَ]{.ar} and its sisters, and
-[ظَنَّ]{.ar} and its sisters.
-For example,
-
-[قَرَأْتُ ٱلْكِتَابَ وَإِنْ كَانَ ٱلْكِتَابُ لَجَيِّدًا.]{.ar}  
-"I read the book and indeed the book was good."
-
-The second, less common way, of using
-the lightened [إِنْ]{.ar}
-is following the same rules as the 
-the heavy [إِنَّ]{.ar}.
-Where the subject is in the a-state and the use of the strengthening [لَ]{.ar} is optional. For example,
-
-[إِنْ زَيْدًا مُسْلِمٌ.]{.ar}  
-"Indeed Zayd is a Muslim."
-
-### The lightened [أَنْ]{.ar} {#lightened-an}
-
-As we know, the heavy [أَنَّ]{.ar} is an emphatic particle and is frequently used with the pronoun of the fact, thus:
-
-[أَعْلَمُ أَنَّهُ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
-"I know that the fact is: the cold is intense."
-
-When we wish not to use much emphasis, we may replace
-the heavy [أَنَّ]{.ar} along with its following pronoun of the fact ([أَنَّهُ]{.ar}/[أَنَّهَا]{.ar}) with
-a lightened [أَنْ]{.ar}, thus:
-
-[أَعْلَمُ أَنِ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
-"I know that the cold is intense."
-
-Note that
-the lightened [أَنْ]{.ar} replaces 
-[أَنَّهُ]{.ar},
-which is the combination of
-heavy [أَنَّ]{.ar} _and_ the pronoun of the fact [هُ]{.ar}.
-So the pronoun of the fact ([هُ]{.ar}) does not appear with
-the lightened [أَنْ]{.ar}.
-
-<!--
-The combination of a heavy [أَنَّ]{.ar} with a following pronoun of the fact ([أَنَّهُ]{.ar}/[أَنَّهَا]{.ar}) may be replaced with
-a lightened [أَنْ]{.ar}. 
-The pronoun of the fact ([هُ]{.ar}/[هَا]{.ar}) is then deleted.
-
-only introduces topic-comment clauses whose topic is understood to be a deleted pronoun of the fact. 
-The lightened [أَنْ]{.ar} only introduces topic-comment clauses whose topic is understood to be a deleted pronoun of the fact. 
-The comment is, as usual, a complete sentence. 
-For example, consider the following sentence with a heavy [أَنَّ]{.ar}:
-
-[أَعْلَمُ أَنَّهُ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
-"I know that the fact is: the cold is intense."
-
-If we replace the heavy [أَنَّ]{.ar} in the above example with the lightened [أَنْ]{.ar} then we pronoun of the fact topic is deleted, thus:
-
-[أَعْلَمُ أَنِ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
-"I know that the cold is intense."
--->
-
-In the above example, 
-the lightened [أَنْ]{.ar}
-introduces a comment which is a subject-predicate sentence.
-But the more common use of 
-the lightened [أَنْ]{.ar}
-is to introduce comments that are verbal sentences.
-
-When the comment of the 
-lightened [أَنْ]{.ar}
-is a verbal sentence, then it is  preferred to separate the verb from [أَنْ]{.ar} with one of the following:
-
-1. [قَدْ]{.ar}. Example:
-   
-   [أَظُنُّ أَنْ قَدْ غَرَبَتِ ٱلشَّمْسُ.]{.ar}  
-   "I think that the sun has set."
-
-2. [سَ]{.ar} or [سَوْفَ]{.ar}. Example:
-
-   [أَعْلَمُ أَنْ سَيَذْهَبُ.]{.ar}  
-   "I know that he will go."
-
-3. A negative particle like [لَا]{.ar}, [لَنْ]{.ar}, or [لَمْ]{.ar}.
-
-   [أَعْلَمُ أَنْ لَا يَذْهَبُ.]{.ar}  
-   "I know that he does/will not go."
-
-   Note that, in writing, we have not combined the lightened [أَنْ]{.ar} and [لَا]{.ar} to form [أَلَّا]{.ar}, as is done for the a-state-verbal [أَنْ]{.ar} (for example: [أَلَّا يَذْهَبَ]{.ar} "that he not go") in chapter\ \@ref(chapter-a-state-incomplete-action-verbs). This distinction in spelling is not obligatory, but some authorities recommend it. In any case, they are both pronounced the same: [EallA]{.trn}. <!--al nahw al wafi 4/298, cited by Arik Sadan p.30 -->
-
-   More examples:
-
-   [أَعْلَمُ أَنْ لَنْ يَذْهَبَ.]{.ar}  
-   "I know that he shall not go."
-
-   [أَعْلَمُ أَنْ لَمْ يَذْهَبْ.]{.ar}  
-   "I know that he did not go."
-
-   Note that the [لَنْ]{.ar} and [لَمْ]{.ar}, even when after the lightened [أَنْ]{.ar}, change the state of the following incomplete-action verb to the a-state and [0]{.txt}-state respectively.
-
-4. The conditional particle [لَوْ]{.ar}. We will study conditional sentences in chapter\ \@ref(conditional-sentences). TODO: add example.
-
-Rigid verbs like [لَيْسَ]{.ar} and verbs expressing supplications are exempted from needing to be separated from the lightened [أَنْ]{.ar}. Example:
-
-[ظَنَنْتُ أَنْ لَيْسَ ٱلْبَرْدُ شَدِيدًا.]{.ar}  
-"I thought that the cold is not intense."
-
-#### Distinguishing between the lightened [أَنْ]{.ar} and the a-state-verbal [أَنْ]{.ar} 
-
-Although they are similar in meaning,
-care must be taken to distinguish between this lightened [أَنْ]{.ar} and the a-state-verbal [أَنْ]{.ar} 
-(that we learned in chapter\ \@ref(chapter-a-state-incomplete-action-verbs)),
-The a-state-verbal [أَنْ]{.ar} puts the following incomplete action verb in the a-state.
-Whereas the incomplete action verb directly after the lightened [أَنْ]{.ar} remains in the u-state.
-The following guidelines can help to distinguish  between these two [أَنْ]{.ar}s:
-
-+ If the verb before [أَنْ]{.ar} signifies certainty then only [أَنَّ]{.ar} and its lightened version [أَنْ]{.ar} is used. For example,
-
-  [أَعْلَمُ أَنْ قَدْ ذَهَبَ وَأَنْ سَيَرْجِعُ.]{.ar}  
-  "I know that he has gone and that he will return."
-
-+ If the verb before [أَنْ]{.ar} signifies wanting, hoping, or expecting, then the [أَنْ]{.ar} puts the following verb in the a-state. For example,
-
-  [أَطْمَعُ أَلَّا يَذْهَبَ.]{.ar}  
-  "I hope that he not go."
-
-  Note that the verb [يَذْهَبَ]{.ar} is in the a-state.
-
-+ If the verb before [أَنْ]{.ar} reflects a view of something going to occur, and signifies neither certainty nor expectation, but rather doubt or neutrality, then either of the [أَنْ]{.ar}s may be used, depending on the intended meaning. Such verbs include [ظَنَّ يَظُنُّ]{.ar} "to think" and [حَسِبَ يَحْسِبُ]{.ar} "to deem". For example,
-
-  a-state-verbal [أَنْ]{.ar}:  
-  [ظَنَنْتُ أَنْ يَرْجِعَ.]{.ar}  
-  "I thought that he should return."  
-
-  lightened [أَنْ]{.ar}:  
-  [ظَنَنْتُ أَنْ يَرْجِعُ.]{.ar}  
-  "I thought that he will return."
-
-+ If the verb before [أَنْ]{.ar} does not reflect a view of something going to occur then the [أَنْ]{.ar} is typically the a-state-verbal [أَنْ]{.ar}. For example,
-
-  [سَرَّنِي أَنْ تَنْجَحَ]{.ar}  
-  "That you succeed [will have] gladdened me."
-
-  Remember from chapter\ \@ref(chapter-a-state-incomplete-action-verbs)), that the a-state-verbal [أَنْ]{.ar} can occur with completed-action verbs as well. Example:
-
-  [سَرَّنِي أَنْ نَجَحْتَ]{.ar}  
-  "That you have succeeded [has] gladdened me."
-
-### The lightened [كَأَنْ]{.ar}
-
-The lightened [كَأَنْ]{.ar} is similar to the lightened [أَنْ]{.ar} in that it introduces a topic-comment sentence and the topic is usually a deleted pronoun of the fact. For example,
-
-[كَأَنْ ٱلْبَرْدُ ذَهَبَ.]{.ar}  
-"[It is] as if the cold has gone."
-
-Also similar to the lightened [أَنْ]{.ar}, the lightened [كَأَنْ]{.ar} may introduce a verbal sentence but it must be separated from [كَأَنْ]{.ar} by either [قَدْ]{.ar} or [لَمْ]{.ar}. For example,
-
-[ذَهَبَ كَأَنْ لَمْ يَسْمَعْ.]{.ar}  
-"He went as if he did not hear."
-
-### The lightened [لَـٰكِنْ]{.ar}
-
-The lightened [لَـٰكِنْ]{.ar} has the same meaning as the heavy [لَـٰكِنَّ]{.ar} but it has no grammatical effect on the word or sentence after it. It may introduce either subject-information or verbal sentences. For example,
-
-[نَجَحَ زَيْدٌ لَـٰكِنْ صَدِيقُهُ لَمْ يَنْجَحْ.]{.ar}  
-"Zayd succeeded but his friend did not succeed."
-
-
-<!--chapter:end:srcrmd/inna_and_its_sisters.Rmd-->
-
 # The verbal-nouns of the doer and the doee
 
 FIXME: 
@@ -11807,356 +11201,1501 @@ There are exceptions, however. The verb [جَرَىٰ يَجْرِي جَرْي�
 
 <!--chapter:end:srcrmd/doer_verbal_noun.Rmd-->
 
-# Nouns of superiority
+# The verb [كَانَ]{.ar} {#the-verb-kaana}
 
 ## Introduction
 
+We have learned that a verb must have a doer in the u-state and can have a direct doee in the a-state.
+In this chapter, we will learn about a new type of verb, whose doer is called its subject, and whose direct doee is called its information.
+
+The principal verb of this type is [كَانَ]{.ar} which is used to mean "was". There are other verbs which behave in a similar manner and they are called the _sisters_ of [كَانَ]{.ar}.
+
+## [كَانَ]{.ar}, its subject, and its information
+
 Consider the sentence:
 
-"The book is heavier than the pen."
+[ٱلرَّجُلُ مُعَلِّمٌ.]{.ar}  
+"The man is a teacher."
 
-In this sentence a relationship of superiority is established between the two nouns: "the book" and "the pencil". The book is being described as being superior in heaviness.
+This is a subject-information sentence. 
+[ٱلرَّجُلُ]{.ar} is the subject in the u-state, and
+[مُعَلِّمٌ]{.ar} is the information, also in the u-state.
+Arabic does not, in this case, express any word for "is".
 
-By the way, we are using the "superiority" in a technical sense. For example, we can say "The donkey is weaker than the horse." Here the donkey is being described as superior in weakness.
+Consider now the following sentence:
 
-In order to express a superiority relationship between nouns, for example, , Arabic uses qualitative nouns with a distinct form. Here is a table of some common qualitative nouns and their corresponding  nouns of superiority.
-
-|Root|Qualitative noun | Noun of superiority|
-|:--|:--|:--|
-|[كبر]{.arroot}|[كَبِيرٌ]{.ar}   [kabIrun]{.trn}   "big"       | [أَكْبَرُ]{.ar} [Eakbaru]{.trn} "biger"     |
-|[صغر]{.arroot}|[صَغِيرٌ]{.ar}   [SagIrun]{.trn}   "small"     | [أَصْغَرُ]{.ar} [EaSgaru]{.trn} "smaller"   |
-|[حسن]{.arroot}|[حَسَنٌ]{.ar}    [Hasanun]{.trn}   "good"      | [أَحْسَنُ]{.ar} [EaHsanu]{.trn} "better"    |
-|[سوء]{.arroot}|[سَيِّئٌ]{.ar}    [sayyiEun]{.trn}  "bad"       | [أَسْوَأُ]{.ar} [EaswaEu]{.trn} "worse"     |
-|[قدم]{.arroot}|[قَدِيمٌ]{.ar}   [qadImun]{.trn}   "old"       | [أَقْدَمُ]{.ar} [Eaqdamu]{.trn} "older"     |
-|[جد]{.arroot}|[جَدِيدٌ]{.ar}    [jadIdun]{.trn}   "new"       | [أَجَدُّ]{.ar}  [Eajaddu]{.trn} "newer"     |
-|[سهل]{.arroot}|[سَهْلٌ]{.ar}    [sahlun]{.trn}    "easy"      | [أَسْهَلُ]{.ar} [Eashalu]{.trn} "easier"    |
-|[صعب]{.arroot}|[صَعْبٌ]{.ar}    [Saebun]{.trn}    "difficult" | [أَصْعَبُ]{.ar} [EaSeabu]{.trn} "more difficult"|
-|[طول]{.arroot}|[طَوِيلٌ]{.ar}   [TawIlun]{.trn}   "long"      | [أَطْوَلُ]{.ar} [EaTwalu]{.trn} "longer"     |
-|[قصر]{.arroot}|[قَصِيرٌ]{.ar}   [qaSIrun]{.trn}   "short"     | [أَقْصَرُ]{.ar} [EaqSaru]{.trn} "shorter"    |
-|[ثقل]{.arroot}|[ثَقِيلٌ]{.ar}   [vaqIlun]{.trn}   "heavy"     | [أَثْقَلُ]{.ar} [Eavqalu]{.trn} "heavier"    |
-|[خف]{.arroot}|[خَفِيفٌ]{.ar}    [xafIfun]{.trn}   "light"     | [أَخَفُّ]{.ar}  [Eaxaffu]{.trn} "lighter"    |
-|[وسع]{.arroot}|[وَاسِعٌ]{.ar}   [wAsieun]{.trn}   "wide"      | [أَوْسَعُ]{.ar} [Easwaeu]{.trn} "wider"      |
-|[ضيق]{.arroot}|[ضَيِّقٌ]{.ar}    [Dayyiqun]{.trn}  "narrow"    | [أَضْيَقُ]{.ar} [EaDyaqu]{.trn} "narrower"   |
-|[سرع]{.arroot}|[سَرِيعٌ]{.ar}   [sarIeun]{.trn}   "fast"      | [أَسْرَعُ]{.ar} [Easraeu]{.trn} "faster"     |
-|[بطء]{.arroot}|[بَطِيءٌ]{.ar}   [baTIEun]{.trn}   "slow"      | [أَبْطَأُ]{.ar} [EabtaEu]{.trn} "slower"     |
-|[قوي]{.arroot}|[قَوِيٌّ]{.ar}    [qawiyyun]{.trn}  "strong"    | [أَقْوَىٰ]{.ar} [EaqwA]{.trn}   "stronger"   |
-|[ضعف]{.arroot}|[ضَعِيفٌ]{.ar}   [DaeIfun]{.trn}   "weak"      | [أَضْعَفُ]{.ar} [EaDeafu]{.trn} "weaker"     |
-|[كثر]{.arroot}|[كَثِيرٌ]{.ar}   [kavIrun]{.trn}   "many"      | [أَكْثَرُ]{.ar} [Eakvaru]{.trn} "more"       |
-|[قل]{.arroot} |[قَلِيلٌ]{.ar}   [qalIlun]{.trn}   "few/less"  | [أَقَلُّ]{.ar}  [Eaqallu]{.trn} "fewer/lesser"|
-
-Note the following points regarding the form of the noun of superiority:
-
-+ Nouns of superiority are regularly of the pattern [أَفْعَلُ]{.ar} [Eafealu]{.trn} using the template root [فعل]{.arroot}. 
-+ Nouns of superiority are non-fully changing nouns, so they are not [nUn]{.trn2}ated and the indefinite noun in the i-state will have an [a]{.trn}-mark on the last letter.
-+ If a root's last two letters are the same, it is shown as a two-letter root and the noun of superiority is formed by doubling the last letter. Example: [جد]{.arroot}: [أَجَدُّ]{.ar}  [Eajaddu]{.trn} "newer".
-+ If a root's last letter is [و]{.ar} or [ي]{.ar}, then the noun of superiority's last letter will be [ىٰ]{.ar}. Example: [قوي]{.arroot}: [أَقْوَىٰ]{.ar} [EaqwA  ]{.trn} "stronger".
-
-You may remember that the pattern of the identical is identical to the pattern of colors and physical characteristics. For example [أَحْمَرُ]{.ar} [EaHmaru]{.trn} "red". However, this similarity is largely superficial. We will see that nouns of superiority are feminized differently and sometimes not at all.
-
-## Comparing two nouns
-
-Nouns of superiority can be used to compare a qualitative quality between two nouns. Here is an example sentence:
-
-[ٱَلْغُلَامُ أَطْوَلُ مِنَ ٱلْجَارِيَةِ.]{.ar}  
-[EalgulAmu EaTwalu mina -ljAriyati.]{.trn}  
-"The boy is taller than the girl."
-
-Here you can see that the preposition [مِنْ]{.ar} [min]{.trn} is used to mean "than".
-
-If we wish to say: "The girl is taller than the boy.", we will use the same [أَطْوَل]{.ar} [EaTwalu]{.trn} even though the subject "the girl" is now feminine:
-
-[ٱَلْجَارِيَةِ أَطْوَلُ مِنَ ٱلْغُلَامُ.]{.ar}  
-[EaljAriyati EaTwalu mina -lgulAmu.]{.trn}  
-"The girl is taller than the boy."
-
-Similarly, if the subject noun to be compared is a plural, whether masculine or feminine, rational or non-rational, the same noun of superiority is used. Examples:
-
-[ٱَلرِّجَالُ أَطْوَلُ مِنَ ٱلنِّسَاءِ وَهُنَّ أَقْصَرُ مِنْهُمْ.]{.ar}  
-[EarrijAlu Eatwalu mina -nnisAEi wa hunna EaqSaru minhum.]{.trn}  
-"The men are taller than the women and they~fem.~ are shorter than them~masc.~."
-
-[ٱلْكُتُبُ أَثُقَلُ مِنَ ٱلْأَقْلَامِ.]{.ar}  
-[Ealkutubu Eavqalu mina -lEaqlAmi.]{.trn}  
-"The books are heavier than the pens."
-
-### Nouns of superiority without a second noun
-
-The above example compared one noun to another. Often, the second noun need not be mentioned. For example,
-
-[ٱلْكُتُبُ أَثْقَلُ.]{.ar}  
-[Ealkutubu Eavqalu.]{.trn}  
-"The books are heavier."
-
-## Conveying the meaning of the highest degree
-
-The same nouns of superiority are also used in Arabic to convey the meaning of the highest degree of a quality, like "the biggest house", "the weakest link", "the best book", etc. This can be done in a number of ways.
-
-### With indefinite noun-chains
-
-The most common way to express this in Arabic is using a noun-chain with the noun of superiority and an indefinite noun. Here is an example:
-
-[هُوَ أَسْرَعُ غُلَامٍ فِي ٱلْمَدْرَسَةِ.]{.ar}  
-[huwa Easraeu gulAmin fi -lmadrasati.]{.trn}  
-"He is the fastest boy in the school."
-
-An important point to note is that while in English we used the definite in the translation: "the fastest boy", in Arabic the noun-phrase [أَسْرَعُ غُلَامٍ]{.ar} [Easraeu gulAmin]{.trn} is technically indefinite. It is just hard to find a suitable translation in English where the noun-phrase could be indefinite.
-
-The same noun of superiority is used with feminine and dual/plural nouns. Examples:
-
-[هِيَ أَطْوَلُ ٱمْرَأَةٍ.]{.ar}  
-[hiya EaTwalu -mraEatin.]{.trn}  
-"She is the tallest woman."
-
-[هُمَا أَطْوَلُ رَجُلَيْنِ.]{.ar}  
-[humA EaTwalu rajulayni.]{.trn}  
-"They are tallest (two) men."
-
-[هُنَّ أَطْوَلُ نِسَاءٍ.]{.ar}  
-[hunna EaTwalu nisAEin.]{.trn}  
-"They are the tallest women."
-
-<!-- ^ pretty much from Wright vol. ii., sect. 93, p. 227 -->
-
-### With definite noun-chains
-
-The noun of superiority can also be used in definite noun-chains with a slightly different meaning. However, the second noun of the noun-chain will need to be in the plural. Examples:
-
-[هُوَ أَطْوَلُ ٱلرِّجَالِ.]{.ar}  
-[huwa EaTwalu -rrijAli.]{.trn}  
-"He is the tallest of the men."
-
-[هُمَا أَطْوَلُ ٱلنِّسَاءِ]{.ar}  
-[humA EaTwalu -nnisAEi.]{.trn}  
-"They (two) are the tallest of the women."
-
-## Feminine, dual, and plural forms
-
-So far we have used only one form of the noun of superiority: [أَفْعَلُ]{.ar} [Eafealu]{.trn}. Technically, this is the masculine singular form, although it can be used for feminine, dual, and plural nouns as we have seen above. 
-
-However, when the meaning of the highest degree is to be conveyed for definite nouns without using noun-chains, then we will use new feminine, dual, and plurals forms for the noun of superiority. We will give these forms below:
-
-| Number | Masc. | Fem. |
-|:--|:--|:--|
-|sing.        | [أَفْعَلُ]{.ar} [Eafealu]{.trn}|    [فُعْلَىٰ]{.ar} [fuelA]{.trn}|
-|dual         | [أَفْعَلَانِ]{.ar} [EafealAni]{.trn}|[فُعْلَيَانِ]{.ar} [fuelayAni]{.trn}|
-|sound plur.  | [أَفْعَلُونَ]{.ar} [EafealUna]{.trn}|[فُعْلَيَاتٌ]{.ar} [fuelayAtun]{.trn}|
-|broken plur. | [أَفَاعِلُ]{.ar} [EafAeilu]{.trn}|  [فُعَلٌ]{.ar} [fuealun]{.trn}|
-
-These forms are to be used when the noun of superiority is usually definite and either:
-
- i. by itself, or
-ii. a describer.
-
-We will give some examples below:
-
-[هُوَ ٱلرَّجُلُ ٱلْأَطْوَلُ.]{.ar}  
-[huwa -rrajulu -lEaTwalu.]{.trn}  
-"He is the tallest man."
-
-[هِيَ ٱلْمَرْأَةُ ٱلطُّولَىٰ.]{.ar}  
-[hiya -lmarEatu -TTUlA.]{.trn}  
-"She is the tallest woman."
-
-[هُمَا ٱلرَّجُلَانِ ٱلْأَطْوَلَانِ.]{.ar}  
-[huma -rrajulAni -lEaTwalAni.]{.trn}  
-"They~masc.\ dual~ are the two tallest men."
-
-[هُمَا ٱلْمَرْأَتَانِ ٱلطُّولَيَانِ.]{.ar}  
-[huma -lmarEatAni -TTUlayAni.]{.trn}  
-"They~fem.\ dual~ are the two tallest women."
-
-[هَـٰؤُلَاءِ هُمُ ٱلرِّجَالُ ٱلْأَطْوَلُونَ وَأُولَـٰئِكَ هُمُ ٱلأَقَاصِرُ.]{.ar}  
-[hAEulAEi humu -rrijAlu -lEaTwalUna waEulAEika humu -lEaqASiru.]{.trn}  
-"These are the tallest men and those are the shortest [men]."  
-
-[هَـٰؤُلَاءِ هُنَّ ٱلنِّسَاءُ ٱلطُّولَيَاتُ وَأُولَـٰئِكَ هُنَّ ٱلقُصَرُ.]{.ar}  
-[hAEulAEi hunna -nnisAEu -TTUlayAtu waEulAEika hunna -lquSaru.]{.trn}  
-"These are the tallest women and those are the shortest [women]."  
-
-### Plural forms with non-rational beings
-
-If a noun of superiority is to be used with a definite plural noun for (masculine or feminine) non-rational beings, either by itself or as a describer, then it will usually be the feminine singular form. This is consistent with what we have learned so far regarding the use of feminine singular qualitative nouns and pronouns for non-rational beings. Here is an example:
-
-[ٱَلْكُتُبُ ٱلْكَبِيرَةُ هِيَ ٱلثُّقْلَىٰ.]{.ar}  
-[Ealkutubu -lkabIratu hiya -vvuqlA.]{.trn}  
-"The big books are the heaviest."  
-
-Sometimes, however, if the plural noun is not mentioned in a sentence we can use the broken plural of the feminine noun of superiority to convey the meaning of plurality. For example,
-
-[قَسَمْتُ ٱلْأَقْلَامَ. هَـٰؤُلَاءِ هُنَّ ٱلطُّوَلُ وَأُولَـٰئِكَ هُنَّ ٱلقُصَرُ.]{.ar}  
-[qasamtu -lEaqlAma. hAEulAEi hunna -TTuwalu waEulAEika hunna -lquSaru.]{.trn}  
-"I divided the pens. These are the tallest and those are the shortest."  
-
-<!-- تلك الغرانيق العلى 
-فقرأ ببسورة من الطُّوَل
+<!--
+[كَانَ ٱلرَّجُلُ مُعَلِّمًا.]{.ar}  
+"The man was a teacher."
 -->
 
-<!--[قَسَمْتُ ٱلْأَقْلَامَ. هَـٰؤُلَاءِ هُنَّ ٱلطُّولَيَاتُ وَأُولَـٰئِكَ هُنَّ ٱلقُصْرَيَاتُ.]{.ar}  
-[qasamtu -lEaqlAma. hAEulAEi hunna -TTUlayAtu waEulAEika hunna -lquSrayAtu.]{.trn}  
-"I divided the pens. These are the tallest and those are the shortest."  -->
 
-<!--https://majles.alukah.net/t78123/
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.pdf)<!-- -->
 
-هذه المباني / الحدائق هي الكبرى/ الكبريات (ولا يجوز: هي الأكبر!!!).
+Now, as you can see, Arabic does express a word for "was". It is the past verb [كَانَ]{.ar} [kAna]{.trn}.
+[كَانَ]{.ar} is a hollow verb from the root [كون]{.arroot}. 
+It's resembling verb is [يَكُونُ]{.ar} [yakUnu]{.trn}.
+The complete table for this verb for all doer pronouns is given below:
+
+|Doer pronoun|past verb|resembling verb|
+|:----|:----|:----|
+| he        | [كَانَ]{.ar}   | [يَكُونُ]{.ar}   |
+| she       | [كَانَتْ]{.ar}  | [تَكُونُ]{.ar}   |
+| you~1m~   | [كُنْتَ]{.ar}   | [تَكُونُ]{.ar}   |
+| you~1f~   | [كُنْتِ]{.ar}   | [تَكُونِينَ]{.ar} |
+| I         | [كُنْتُ]{.ar}   | [أَكُونُ]{.ar}   |
+| they~2m~  | [كَانَا]{.ar}  | [يَكُونَانِ]{.ar} |
+| they~2f~  | [كَانَتَا]{.ar} | [تَكُونَانِ]{.ar} |
+| you~2~    | [كُنْتُمَا]{.ar} | [تَكُونَانِ]{.ar} |
+| they~3m~  | [كَانُوا]{.ar} | [يَكُونُونَ]{.ar} |
+| they~3f~  | [كُنَّ]{.ar}    | [يَكُنَّ]{.ar}    |
+| you~3m~   | [كُنْتُمْ]{.ar}  | [تَكُونُونَ]{.ar} |
+| you~3f~   | [كُنْتُنَّ]{.ar}  | [تَكُنَّ]{.ar}    |
+| we        | [كُنَّا]{.ar}   | [نَكُونُ]{.ar}   |
+
+Like, for other verbs, 
+the doer of [كَانَ]{.ar},
+[ٱلرَّجُلُ]{.ar}, is in the u-state, and
+and its direct doee, [مُعَلِّمًا]{.ar}, is in the a-state.
+
+However, unlike most other verbs,
+the doer of [كَانَ]{.ar},
+[ٱلرَّجُلُ]{.ar}, is also called its subject
+and its direct doee, [مُعَلِّمًا]{.ar}, is also called its information.
+
+So a sentence with [كَانَ]{.ar} used in this way is a subject-information sentence.
+If it begins with [كَانَ]{.ar} then it is also a verbal sentence at the same time.
+
+This property also applies to the sisters of [كَانَ]{.ar} that we will learn later in this chapter. 
+Together, these verbs are also called _deficient_ verbs, because, besides their doer/subject, they also need an information to complete the meaning of the sentence.
+That is, without the information, the sentence is deficient.
+
+"Is" subject-information sentences can be converted to "was" subject-information sentences using the verb [كَانَ]{.ar}. Here are some examples:
+
+| "is" | "was" |
+|:-|:-|
+| [زَيْنَبُ جَائِعَةٌ.]{.ar}  |[كَانَتْ زَيْنَبُ جَائِعَةً.]{.ar}  |
+| "Zaynab is hungry." |"Zaynab was hungry."     |
+| [ٱَلْغُلَامُ زَيْدٌ.]{.ar}  |[كَانَ ٱلْغُلَامُ زَيْدًا.]{.ar} |
+| "The boy is Zayd."  |"The boy was Zayd."     |
+| [ٱَلنِّسَاءُ فِي بُيُوتِهِنَّ.]{.ar}         |[كَانَتْ ٱلنِّسَاءُ فِي بُيُوتِهِنَّ.]{.ar}     |
+| "The women are in their houses." |"The women were in their houses." |
+| [هُمْ مَسْرُورُونَ وَفَرِحُونَ.]{.ar}            | [كَانُوا مَسْرُورِينَ وَفَرِحِينَ.]{.ar}     |
+| "They~3m~ are happy and rejoicing."  | "They~3m~ were happy and rejoicing." |
+| [أَنَا نَائِمَةٌ.]{.ar}                | [كُنْتُ نَائِمَةً.]{.ar}       |
+| "I~1f~ am sleeping."             | "I~1f~ was sleeping."|
+| [أَنْتَ لِي أَخٌ.]{.ar}               | [كُنْتَ لِي أَخًا.]{.ar}            |
+| "You~1m~ are a brother to me.   | "You~1m~ were a brother to me.|
+
+### Sequence of [كَانَ]{.ar}, its subject, and its information
+
+In sentence word order, the natural sequence is 
+<!--[كَانَ]{.ar}, its subject, and its information, as -->
+verb, subject, information.
+
+[كَانَ زَيْدٌ قَائِمًا.]{.ar}  
+"Zayd was standing."
+
+but we may also, for the same meaning, apply the sequence verb, information, subject:
+
+[كَانَ قَائِمًا زَيْدٌ.]{.ar}  
+"Zayd was standing."
+
+and also the sequence information, verb, subject:
+
+[قَائِمًا كَانَ زَيْدٌ.]{.ar}  
+"Zayd was standing."
+
+This last order is common in questions and alternative sentence sentences. For example:
+
+[أَقَائِمًا كَانَ زَيْدٌ.]{.ar}  
+"Was Zayd standing?"
+
+[ٱُدْعُ زَيْدًا قَائِمًا كَانَ أَوْ جَالِسًا!]{.ar}  
+"Call Zayd, be he standing or sitting!"
+
+<!--See Wright vol. ii. Section 41 Rem a, p. 100B -->
+
+Sometimes, however, this inversion is impossible because of an indistinguishable state of the two nouns.
+
+For example, in order to express "My brother was my companion," we must say:
+
+[كَانَ أَخِي رَفِيقِي.]{.ar}  
+"My brother was my companion."
+
+This is because, if we invert it, it would naturally mean:
+
+[كَانَ رَفِيقِي أَخِي.]{.ar}  
+"My companion was my brother."
+
+The following apparent sequence is also possible:
+
+[زَيْدٌ كَانَ قَائِمًا.]{.ar}  
+"Zayd: he was standing."
+
+But this is actually a topic-comment sentence.
+[زَيْدٌ]{.ar} is the topic.
+And the comment is [كَانَ قَائِمًا]{.ar}, which is itself a [كَانَ]{.ar} subject-information sentence in the sequence verb, subject, information.
+The subject is the hidden pronoun "he" and the information is [قَائِمًا]{.ar}.
+
+### Plurals of non-rational beings with [كَانَ]{.ar}
+
+Because [كَانَ]{.ar} sentences are subject-information being sentences, 
+many of the rules that we have learned for subject-information sentences also apply to [كَانَ]{.ar} sentences.
+One such rule is that when the subject of a sentence is a plural of non-rational beings, and the information is a adjectival noun, then the feminine singular adjectival noun is often used. (See section\ \@ref(usage-of-plurals-of-non-intelligent-beings).)
+For example:
+
+[كَانَتِ ٱلْبُيُوتُ صَغِيرَةً.]{.ar} (typical)  
+"The houses were small."  
+
+Also allowed, but not as common:  
+[كَانَتِ ٱلْبُيُوتُ صَغِيرَاتٍ.]{.ar}  
+[كَانَتِ ٱلْبُيُوتُ صِغَارًا.]{.ar}  
+
+[ٱلثِّيرَانُ كَانَتْ ضَخْمَةً.]{.ar} (typical)  
+"The bulls were large."
+
+Also allowed, but not as common:  
+[ٱلثِّيرَانُ كَانَتْ ضِخَامًا.]{.ar}  
+[ٱلثِّيرَانُ كُنَّ ضَخْمَاتٍ.]{.ar}  
+
+### [كَانَ]{.ar} with a separating pronoun
+
+Another rule that applies to subject-information sentences, and that carries over to 
+[كَانَ]{.ar} sentences, is that
+when the subject and information are both definite, 
+then a separating pronoun, which is a detached pronoun that matches the subject, can be inserted between them.
+For example,
+
+[كَانَ ٱلْمُؤْمِنُونَ هُمُ ٱلْفَائِزِينَ.]{.ar}  
+"The believers were the winners."
+
+<!--
+[ٱَلْمُؤْمِنُونَ هُمُ ٱلْفَائِزُونَ.]{.ar}  
+"The believers are the winners."
 -->
 
-### Dual and plural forms in definite noun-chains
+The separating pronoun [هُمْ]{.ar} does not, in this case, serve to disambiguate the information [ٱلْفَائزِينَ]{.ar} "the winners", from being a describer, as it did in sentences without [كَانَ]{.ar} (see section\ \@ref(subject-information-sentences-separating-pronoun)).
+This is because the a-state of [ٱلْفَائزِينَ]{.ar} already tells us that it is the information of [كَانَ]{.ar}. 
+If [ٱلْفَائزِينَ]{.ar} were a describer of the u-state subject [ٱَلْمُوْمِنُونَ]{.ar}, then it too would be in the u-state, not the a-state.
+So the separating pronoun serves more, here, to emphasize the subject.
 
-In section X above we learned that that definite noun-chains use the form [أَفْعَلُ]{.ar} [Eafealu]{.trn}. We gave the following examples:
+Most of the time, separating pronouns are used in [كَانَ]{.ar} sentences when the subject of [كَانَ]{.ar} is itself a pronoun. Examples:
 
-[هُوَ أَطْوَلُ ٱلرِّجَالِ.]{.ar}  
-[huwa EaTwalu -rrijAli.]{.trn}  
-"He is the tallest of the men."
+[وَكُنَّا نَحْنُ ٱلْوَارِثِينَ]{.ar}  
+"And it is We who were the inheritors" [al-[#qurEAn]{.trn2} 28:58, translation by Saheeh International]
 
-[هُمَا أَطْوَلُ ٱلنِّسَاءِ]{.ar}  
-[humA EaTwalu -nnisAEi.]{.trn}  
-"They (two) are the tallest of the women."
+[كُنْتَ أَنْتَ ٱلرَّقِيبَ عَلَيْهِمْ]{.ar}  
+"You were the Observer over them" [al-[#qurEAn]{.trn2} 5:117, translation by Saheeh International]
 
-We now modify this rule to state that dual and plural forms of the noun of superiority can be used as well, especially when no other indication of number is present.
+Sometimes a pronoun may appear to be a separating pronoun, but actually is not one. Consider, for example, the following sentence:
 
-For example, in the sentence,
+[كَانَ ٱلْمُؤْمِنُونَ هُمُ ٱلْفَائِزُونَ.]{.ar}  
+"The believers were the winners."
 
-[هُمْ أَطْوَلُ ٱلرِّجَالِ.]{.ar}  
-[hum EaTwalu -rrijAli.]{.trn}  
-"They~masc.\ plur.~ are the tallest of the men."
+Note that [ٱَلْفَائِزُونَ]{.ar} is in the u-state, so it is not, by itself, the information of [كَانَ]{.ar}.
+So this is, in fact, a topic-comment sentence.
+[ٱَلْمُوْمِنُونَ]{.ar} is the topic and the subject of [كَانَ]{.ar}.
+The information of [كَانَ]{.ar} is the comment [هُمُ ٱلفَائِزُونَ]{.ar}, which is itself a subject-information sentence with a u-state subject ([هُمْ]{.ar}) and a u-state information ([ٱلْفَائزُونَ]{.ar}).
 
-the pronoun [هُمْ]{.ar} tells us that we are talking about multiple persons who are the tallest of the men. But if we have a sentence like:
+### Negating [كَانَ]{.ar}
 
-[ذَهَبَ أَطْوَلُ ٱلرِّجَالِ.]{.ar}  
-[pahaba EaTwalu -rrijAli.]{.trn}  
-"The tallest of the men went."
+Like other past verbs,
+the verb [كَانَ]{.ar}
+may be negated by preceding it with the particle [مَا]{.ar}. For example:
 
-Here we cannot say that one man had gone or more than one. To remove this ambiguity we can use the plural form [أَطَاوِلُ]{.ar} [EaTAwilu]{.trn} thus:
+[مَا كَانَ إِبْرَٰهِيمُ يَهُودِيًّۭا وَلَا نَصْرَانِيًّۭا وَلَـٰكِن كَانَ حَنِيفًۭا مُّسْلِمًۭا وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ]{.ar}  
+"Abraham was neither a Jew nor a Christian, but he was one inclining toward truth, a Muslim [submitting to Allāh]. And he was not of the polytheists."
+([al-#qurEAn]{.trn2} 3:67, translation Saheeh International)
 
-[ذَهَبَ أَطَاوِلُ ٱلرِّجَالِ.]{.ar}  
-[pahaba EaTAwilu -rrijAli.]{.trn}  
-"The tallest~plur.~ of the men went."
+A similar meaning may be obtained with the particle [لَمْ]{.ar} followed by the
+[0]{.txt}-state
+resembling verb
+[يَكُنْ]{.ar}.
+This is dealt with in section\ \@ref(lam-yakun) below.
 
-## Comparing a noun with itself
+### Gender of a pronoun subject of [كان]{.ar}
 
-<!--vol. ii.,Sect. 48 rem A. p. 133A-->
-A noun can be compared with itself in a different respect. For example, we can say:
+Remember from section\ \@ref(gender-of-pronoun-subject) that when the subject of a sentence is a pronoun, 
+then it may optionally either match the gender of the noun it refers to,
+or the the gender of the predicate.
+This rules carries over to [كَانَ]{.ar} subject-information sentences as well. For example:
 
-"The tree is closer to Zayd than it is to [#muHammad]{.trn2}."
+[ذَهَبْتُ إِلَى ٱلسُّوقِ فِي ٱلصَّبَاحِ. وَكَانَتْ لِي عَادَةً.]{.ar}  
+"I went to the market in the morning. And it was a habit for me."
 
-Here the tree is being compared with itself with respect to its position near Zayd and its position near [#muHammad]{.trn2}. We will use the appropriate attached pronoun for the object being compared and attach it tp the preposition of comparison [مِنْ]{.ar} [min]{.trn} "than". So the above sentence can be expressed as:
+[وَرَكِبُوهُمْ فَكَانَتْ هَزِيمَتَهُمْ]{.ar}  
+"And they bore down upon them and it was their defeat."
 
-[ٱَلشَّجَرَةُ أَقْرَبُ إِلَىٰ زَيْدٍ مِنْهَا إِلَىٰ مُحَمَّدٍ.]{.ar}  
-[Eaccajaratu Eaqrabu EilA zaydin minhA EilA muHammadin.]{.trn}  
+Note, how, in the above examples, [كَانَتْ]{.ar} has a [ت]{.ar} of femininity to match the feminine gender of the information [عَادَة]{.ar} "habit", and [هَزِيمَتَهُمْ]{.ar} "their defeat".
 
-The attached pronoun [ـهَا]{.ar} [-hA]{.trn} refers to [ٱَلشَّجَرَةُ]{.ar} [Eaccajaratu]{.trn} "the tree".
-The preposition [إِلَىٰ]{.ar} [EilA]{.trn} is used with the noun of superiority [أَقْرَبُ]{.ar} [Eaqrabu]{.trn} to express "nearer to".
+### A pronoun as the information of [كَانَ]{.ar}
 
-## Attention to the definiteness and plurality of noun-chains
+TODO
 
-We have seen that if a noun of superiority is used in an indefinite noun-chain, it conveys the idea of the highest degree, and the singularity or plurality of second noun in the noun-chain conveys the number of object whose superiority is being expressed. The examples we gave were:
+## The resembling verb [يَكُونُ]{.ar}
 
-[هِيَ أَطْوَلُ ٱمْرَأَةٍ.]{.ar}  
-[hiya EaTwalu -mraEatin.]{.trn}  
-"She is the tallest woman."
+The rules related to [كَانَ]{.ar}, its subject, and its information, that we have given above apply also to its resembling verb [يَكُونُ]{.ar}.
 
-[هُمَا أَطْوَلُ رَجُلَيْنِ.]{.ar}  
-[humA EaTwalu rajulayni.]{.trn}  
-"They are tallest (two) men."
+We will now discuss the usages of the specific states of the resembling verb.
 
-[هُنَّ أَطْوَلُ نِسَاءٍ.]{.ar}  
-[hunna EaTwalu nisAEin.]{.trn}  
-"They are the tallest women."
+### The u-state resembling verb [يَكُونُ]{.ar}
 
-Here we would like to stress that second-noun of the noun chain must be indefinite. So, for example, we can have a sentence:
+We have already mentioned that Arabic does not usually express any word for "is".
+So when, then, is the u-state resembling verb [يَكُونُ]{.ar} used?
+There are actually a few uses of this verb. We will explain them below:
 
-[هَـٰذَا أَكْبَرُ بَيْتٍ.]{.ar}  
-[hApA Eakbaru baytin.]{.trn}  
-"This is the biggest house."
+#### [يَكُونُ]{.ar} used for habitual "is"
 
-If we would like to express "This is the biggest house of the city" then we cannot simply extend the noun-chain by adding [ٱلْمَدِينَةِ]{.ar} [-lmadInati]{.trn} "of the city" to it thus:
+Consider the sentence, "The mother cooks the food." 
+The verb "cooks" implies that the action is habitually done, not necessarily that it is being done at present. 
+If we wished to say that the action is being done at present, we might instead say, "The mother _is cooking_ the food."
+English maintains this distinction between the present and the habitual for most verbs.
+But it does not for ther verb "is".
+So if we say, "The sky is blue," then it can mean both 
+(i) that the sky is blue at present, or 
+(ii) that it is habitually blue, not necessarily that it is blue at present.
 
-[هَـٰذَا أَكْبَرُ بَيْتِ ٱلْمَدِينَةِ.]{.ar}  
-[hApA Eakbaru bayti -lmadInati.]{.trn}  
+In Arabic the situation is somewhat different.
+Arabic does not usually have a distinction between the present and the habitual for most verbs. So [تَطْبُخُ الْأُمُّ الطَّعَامَ.]{.ar}  may mean both
+(i) that the mother is cooking the food at present, or
+(ii) that she habitually does.
 
-This is because the noun-chain is now definite. This sentence can now only mean "This is the biggest [part] of the house of the city."
+<!--However, interestingly, Arabic does have the distinction between the present and the habitual for the verb "is".
+As you know, Arabic does not usually express a word for the present "is".-->
+But for the verb "is", Arabic can distinguish between the present and the habitual.
+So if we say [السَّمَاءُ زَرْقَاءُ]{.ar}, then this can, in general, mean both
+(i) that the sky is blue at present, and
+(ii) that it is habitually blue.
+If we wish to emphasize the habitual meaning, we may use the resembling verb [يَكُونُ]{.ar}, thus:
 
-In order to express the desired meaning, we have a few options with similar meanings:
+[تَكُونُ السَّمَاءُ زَرْقَاءَ.]{.ar}  
+"The sky is [habitually] blue."
 
-[هَـٰذَا بَيْتُ ٱلْمَدِينَةِ ٱلْأَكْبَرُ.]{.ar}  
-[hApA baytu -lmadInati -lEakbaru.]{.trn} 
-"This is the biggest house of the city."
+While we call this the 
+habitual [يَكُونُ]{.ar},
+it can include a range of meanings, including
+continually, recurringly, regularly, typically, generally, often, sometimes, can, may, etc.
+Habitual [يَكُونُ]{.ar} is negated using [مَا]{.ar} or [لَا]{.ar}, just like other u-state resembling verbs.
 
-[هَـٰذَا أَكْبَرُ بَيْتٍ فِي ٱلْمَدِينَةِ.]{.ar}  
-[hApA Eakbaru baytin fi -lmadInati.]{.trn}  
-"This is the biggest house in the city."
+Here are some examples:
 
-[هَـٰذَا أَكْبَرُ بُيُوتِ ٱلْمَدِينَةِ.]{.ar}  
-[hApA Eakbaru buyUti -lmadInati.]{.trn}  
-"This is the biggest of the houses of the city."
+[قَالَ وَمَا الْبِتْعُ وَالْمِزْرُ؟ قُلْتُ شَرَابٌ يَكُونُ مِنَ الْعَسَلِ وَالْمِزْرُ يَكُونُ مِنَ الشَّعِيرِ]{.ar}  
+"He said: 'What is mead and beer?' I said: 'A drink [made] from honey, and beer is [made] from barley.'  
+<!--(From [سنن النسائي]{.ar}:5604)-->
+(Part of [HadIv]{.trn2} 5604 from [#sunan al-#nisAEI]{.trn2})
 
-<!--https://forum.wordreference.com/threads/%D9%81%D9%8A-%D8%A3%D9%82%D8%B5%D9%89-%D8%B3%D8%A7%D8%AD%D9%84-%D8%A8%D8%AD%D8%B1-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84.3477546/#post-17650853-->
+<!--
+[إِنَّ أَحَدَكُمْ لَيَعْمَلُ بِعَمَلِ أَهْلِ الْجَنَّةِ حَتَّى مَا يَكُونُ بَيْنَهُ وَبَيْنَهَا إِلاَّ ذِرَاعٌ]{.ar}  
+"One of you will do deeds of the people of Paradise, until there is between him and it but a forearm span"  
+(Part of [HadIv]{.trn2} 2137 from [#jAmie al-#tirmipI]{.trn2})
+From [جامع الترمذي]{.ar}:2137)-->
 
-## Expressing "better than" and "worse than"
+[يَكُونُ اللِّحَافُ وِسَادَةً وَلَا تَكُونُ الْوِسَادَةُ لِحَافًا.]{.ar}  
+"The blanket can be a pillow but the pillow cannot be a blanket."
 
-To express the meaning "better" Arabic can use  [أَحْسَنُ]{.ar} [EaHsanu]{.trn} from [حَسَنٌ]{.ar} [Hasanun]{.trn}. There is also the word [أَفْضَلُ]{.ar} [EafDalu]{.trn} is very commonly used. Technically it means "more preferred" but it is often used where in English we would say "better".
+[مَا يَكُونُ الرَّجُلُ صَدِيقَكَ حَتّى يَصْدُقَكَ.]{.ar}  
+"A man is not your friend until he is truthful to you."
 
-Similarly, to express worse we can use [أَسْوَأُ]{.ar} [EaswaEu]{.trn} from [سَيِّئٌ]{.ar} [sayyiEun]{.trn}.
+##### [قَدْ يَكُونُ]{.ar} for "may be"
 
-In addition, there are two words: [خَيْرٌ]{.ar} [xayrun]{.trn} and [شَرٌّ]{.ar} [carrun]{.trn}, which are really designative nouns meaning "goodness" and "evil" respectively. 
+When the meaning "may be" is desired, the 
+the resembling verb
+[يَكُونُ]{.ar}
+may be preceded by the particle [قَدْ]{.ar}. For example,
 
-These same words, although they not in the pattern [أَفْعَلُ]{.ar} [Eafealu]{.trn}, are used with [مِنْ]{.ar} [min]{.trn} "than" to express "better" and "worse" respectively. Here are some examples:
+[قَدْ يَكُونُ الاسْتِهْزَاءُ كُفْرًا.]{.ar}  
+"Mocking may be a disbelief."
 
-## The word "other"
+#### [يَكُونُ]{.ar} used for future "will be"
 
-The word [آخَرُ]{.ar} [EAxaru]{.trn} is a qualitative noun meaning "other". It is actually on the pattern of the noun of superiority [أَفْعَلُ]{.ar} [Eafealu]{.trn} with the root [ءخر]{.arroot} but is somewhat of an anomaly because it does not have a meaning of superiority and is not used for comparison. That is to say: we cannot say that something is more "other" than something else. It shares some of the qualities of the noun of superiority in the formation of its feminine and plurals. We will describe these and their usages below.
+Another usage of the resembling verb
+[يَكُونُ]{.ar}
+is for the future tense to mean "will be".
+In this case, it is often preceded by [سَ]{.ar} or [سَوْفَ]{.ar}.
+[سَ]{.ar} and [سَوْفَ]{.ar} are optional and are commonly dropped, especially when the context indicates the future.
+Future [يَكُونُ]{.ar}
+is negated by [لَا]{.ar}.
+Here are some examples:
 
-| Number | Masc. | Fem. |
-|:--|:--|:--|
-|sing.        | [آخَر]{.ar}   [EAxaru]{.trn}|    [أُخْرَىٰ]{.ar} [EuxrA]{.trn}|
-|dual         | [آخَرَانِ]{.ar} [EAxarAni]{.trn}|[أُخْرَيَانِ]{.ar} [EuxrayAni]{.trn}|
-|sound plur.  | [آخَرُونَ]{.ar} [EAxarUna]{.trn}|[أُخْرَيَاتٌ]{.ar} [EuxrayAtun]{.trn}|
-|broken plur. | [أَوَاخِرُ]{.ar} [EawAxiru]{.trn}|  [أُخَرُ]{.ar}  [Euxaru]{.trn}|
+[فَقَدْ كَذَّبْتُمْ فَسَوْفَ يَكُونُ لِزَامًا]{.ar}  
+"For you [disbelievers] have denied, so it [i.e., your denial] is going to be adherent."  
+([al-#qurEAn]{.trn2} 25:77, translation Saheeh International)
 
-Note that the masculine broken plural [أَوَاخِرُ]{.ar} [EawAxiru]{.trn} (on the pattern [أَفَاعِلُ]{.ar} [EafAeilu]{.trn}) has replaced the [ء]{.ar} in the root with a [و]{.ar}. This is a regular replacement in order to avoid two [ء]{.ar}s next to one another in [أَءَاخِرُ]{.ar} [EaEAxiru]{.trn}. This broken plural is given here for completeness but it is actually very rarely used. The sound [Un]{.trn} plural [آخَرُونَ]{.ar} [EAxarUna]{.trn} is used instead.
+[لا يَكونُ اللَّعَّانُونَ شُفَعَاءَ وَلَا شُهَدَاءَ يَومَ القِيَامَةِ]{.ar}  
+"The frequent cursers will be neither intercessors nor witnesses [on] the day of resurrection."  
+([#HadIv]{.trn2} 1553 from [#riyAD al-#SAliHIn]{.trn2}, [يَوْمَ]{.ar} is in the a-state because it is an adverb of time, see chapter\ \@ref(adverb-of-time).)
 
-Also note that the feminine broken plural [أُخَرُ]{.ar} [Euxaru]{.trn} is non-fully changing. This is irregular because the broken plural pattern [فُعَلٌ]{.ar} [fuealun]{.trn} is usually fully-changing.
+[يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ]{.ar}  
+"It is the Day when people will be like moths, dispersed,"  
+([al-#qurEAn]{.trn2} 101:4, translation Saheeh International)
 
-We use [آخَرُ]{.ar} [EAxaru]{.trn} just like any other qualitative noun and we will give some examples below.
+### The a-state resembling verb [يَكُونَ]{.ar}
 
-[جَاءَ زَيْدٌ وَرَجُلٌ آخَرُ.]{.ar}  
-[jAEa zaydun warajulun EAxaru.]{.trn}  
-"Zayd and another man came."
+Like a-state resembling verbs in general, [يَكُونَ]{.ar} "be" expresses the meaning of purpose, wish, or expectation. It occurs after the particles
+[أَنْ]{.ar},
+[لَنْ]{.ar},
+[لِ]{.ar},
+[كَيْ]{.ar},
+[حَتَّىٰ]{.ar}, and
+[إِذَنْ]{.ar}.
+All this is consistent with what we have learned about a-state resembling verbs in chapter\ \@ref(a-state-incomplete-action-verbs).
+Here are some examples:
 
-[ذَهَبَتْ زَيْنَبُ إِلَى ٱلْمَدْرَسَةِ ٱلْأُخْرَىٰ.]{.ar}  
-[pahabat zaynabu Eila -lmadrasati -lEuxrA.]{.trn}  
-"Zaynab went to the other school."
+[نَزَلَ بِهِ ٱلرُّوحُ ٱلْأَمِينُ. عَلَىٰ قَلْبِكَ لِتَكُونَ مِنَ ٱلْمُنذِرِينَ]{.ar}  
+"The Trustworthy Spirit [i.e., Gabriel] has brought it down. Upon your heart, [O Muḥammad] - that you may be of the warners -"  
+([al-#qurEAn]{.trn2} 26:193--194, translation Saheeh International)
 
-[قَرَأْتُ هَـٰذَا ٱلْكِتَابَ وَكِتَابَيْنِ آخَرَيْنِ.]{.ar}  
-[qaraEtu hApa -lkitAba wakitAbayni EAxarayni.]{.trn}  
-"I read this book and two other books."
+[لَّن يَسْتَنكِفَ ٱلْمَسِيحُ أَن يَكُونَ عَبْدًۭا لِّلَّهِ وَلَا ٱلْمَلَـٰٓئِكَةُ ٱلْمُقَرَّبُونَ]{.ar}  
+"Never would the Messiah disdain to be a servant of Allāh, nor would the angels near [to Him]"  
+(From [al-#qurEAn]{.trn2} 4:172, translation Saheeh International)
 
-[ذَهَبَ رِجَالٌ آخَرُونَ.]{.ar}  
-[pahaba rijAlun EAxarUna]{.trn}  
-"Other men went."
+[أَفَأَنتَ تُكْرِهُ ٱلنَّاسَ حَتَّىٰ يَكُونُوا۟ مُؤْمِنِينَ]{.ar}  
+"Then, [O Muḥammad], would you compel the people in order that they become believers?"  
+([al-#qurEAn]{.trn2} 10:99, translation Saheeh International)
 
-[ذَهَبَتْ زَيْنَبُ مَعَ ٱلنِّسَاءِ ٱلْأُخْرَيَاتِ.]{.ar}  
-[pahabat zaynabu maea -nnisAEi -lEuxrayAti.]{.trn}  
-"Zaynab went with the other women."
+### The [0]{.txt}-state resembling verb [يَكُنْ]{.ar} {#lam-yakun}
 
-With non-rational nouns, just like other qualitative nouns, the feminine singular is usually used. Example:
+The [0]{.txt}-state resembling verb [يَكُنْ]{.ar} 
+is used consistent with the usage of 
+[0]{.txt}-state resembling verbs in general.
+(See chapter\ \@ref(0-state-resembling-verbs).)
 
-[قَرَأْتُ هَـٰذَا ٱلْكِتَابَ وَكُتُبًا أُخْرَىٰ.]{.ar}  
-[qaraEtu hApa -lkitAba wakutuban EuxrA.]{.trn}  
-"I read this book and other books."
+For example:
 
-However, the feminine broken plural [أُخَرُ]{.ar} [Euxaru]{.trn} can also be used, especially if there is no other indication of plurality. Examples:
+[وَلْتَكُن مِّنكُمْ أُمَّةٌۭ يَدْعُونَ إِلَى ٱلْخَيْرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ]{.ar}  
+"And let there be [arising] from you a nation inviting to [all that is] good, enjoining what is right and forbidding what is wrong,1 and those will be the successful."  
+[From al-[#qurEAn]{.trn2} 3:104, translation by Saheeh International]
 
-[هَـٰذَا ٱلْكِتَابُ خَفِيفٌ وَٱلْأُخَرُ ثَقِيلَةٌ.]{.ar}  
-[hApa -lkitAbu xafIfun wa-lEuxaru vaqIlatun.]{.trn}  
-"This book is light and the others are heavy."
+[ٱلْحَقُّ مِن رَّبِّكَ فَلَا تَكُن مِّنَ ٱلْمُمْتَرِينَ]{.ar}  
+"The truth is from your Lord, so do not be among the doubters."
+[From al-[#qurEAn]{.trn2} 3:60, translation by Saheeh International]
 
-[قَرَأَ هَـٰذَا ٱلْكِتَابَ وَقَرَأَ أُخَرَ.]{.ar}  
-[qaraEa -lkitAba waqaraEa Euxara.]{.trn}  
-"He read this book and and he read others."
+[لَمْ يَكُنِ النَّبِيُّ صلى الله عليه وسلم سَبَّابًا وَلاَ فَحَّاشًا وَلاَ لَعَّانًا]{.ar}  
+"The Prophet (ﷺ) was not one who would abuse (others) or say obscene words, or curse (others)"  
+[From [#HadIv]{.trn2} in [al-#buxArI]{.trn2}:6031]
+
+#### Deletion of [ن]{.ar}
+
+The [ن]{.ar} may (irregularly) be deleted
+for the [0]{.txt}-state resembling verbs that don't have a [و]{.ar} before them. 
+These are:
+
++ [يَكُنْ]{.ar}, becomes [يَكُ]{.ar}
++ [تَكُنْ]{.ar}, becomes [تَكُ]{.ar}
++ [نَكُنْ]{.ar}, becomes [نَكُ]{.ar}
++ [أَكُنْ]{.ar}, becomes [أَكُ]{.ar}
+
+This may only be done when the word following the verb does not begin with a connecting hamzah [ٱ]{.ar}.
+Examples:
+
+[وَلَا تَكُ فِى ضَيْقٍۢ مِّمَّا يَمْكُرُونَ]{.ar}  
+"and do not be in distress over what they conspire."  
+[From al-[#qurEAn]{.trn2} 16:127, translation by Saheeh International]
+
+[وَقَدْ خَلَقْتُكَ مِن قَبْلُ وَلَمْ تَكُ شَيْـًۭٔا]{.ar}  
+"for I created you before, while you were nothing"  
+[From al-[#qurEAn]{.trn2} 19:9, translation by Saheeh International]
+
+But we can't say:
+
+$\times$ [لَمْ تَكُ ٱلرَّجُلَ.]{.ar}  
+
+This is because [ٱلرَّجُل]{.ar} begins with with a connecting hamzah [ٱ]{.ar}. So we have to say instead:
+
+[لَمْ تَكُنِ ٱلرَّجُلَ.]{.ar}  
+"You were not the man."
 
 
-<!--chapter:end:srcrmd/elatives.Rmd-->
+## The verb of command [كُنْ]{.ar} {#kun}
+
+The verb of command [كُنْ]{.ar} is used to mean "Be!". Examples:
+
+[قُلْنَا يَـٰنَارُ كُونِى بَرْدًۭا وَسَلَـٰمًا عَلَىٰٓ إِبْرَٰهِيمَ]{.ar}  
+We [i.e., Allāh] said, "O fire, be coolness and safety upon Abraham."  
+[al-[#qurEAn]{.trn2} 21:69, translation by Saheeh International]
+
+[فَقُلْنَا لَهُمْ كُونُوا۟ قِرَدَةً خَـٰسِـِٔينَ]{.ar}  
+"and We said to them, 'Be apes, despised.'  
+[From al-[#qurEAn]{.trn2} 2:65, translation by Saheeh International]
+
+The verb of command [كُنْ]{.ar} followed by the name of a person in the a-state is used to express one's guessing that the person whom one sees
+ is the individual named. For example:
+
+[كُنْ زَيْدًا.]{.ar}  
+"I presume that the person approaching is Zayd."  
+or  
+"I guess that you are Zayd."  
+
+## The complete [كَانَ]{.ar}
+
+The verb [كَانَ]{.ar} that we have been using so far is called the _deficient_
+[كَانَ]{.ar}.
+It is called so because its meaning is deficient without its information. For example, in the sentence
+[كَانَ زَيْدٌ قَائِمًا]{.ar} "Zayd was standing,"
+if we remove the information [قَائِمًا]{.ar} then the sentence is not complete for the desired meaning.
+
+There is another type of
+[كَانَ]{.ar}
+called the _complete_
+[كَانَ]{.ar}.
+This 
+[كَانَ]{.ar}
+does not need an information to complete its meaning. 
+This 
+[كَانَ]{.ar}
+gives the meaning of "exists".
+In English, we usually express this meaning using "there was". For example,
+
+[كَانَ مَلِكٌ.]{.ar}  
+"There was a king."  
+(literally: "A king was.")
+
+Note that [مَلِك]{.ar} "king" is in the u-state as the subject.
+If it were in the a-state, then it would change the meaning:
+
+[كَانَ مَلِكًا.]{.ar}  
+"He was a king."
+
+Here are some more examples:
+
+[كَانَ تَاجِرٌ وَكَانَ لَهُ بَنُونَ.]{.ar}  
+"There was a trader, and he had sons."
+
+Incidentally, as you can see, the past verb of "have": "has" is expressed using [كَانَ]{.ar}:
+
+[كَانَ عِنْدِي كِتَابٌ.]{.ar}  
+"I had a book."  
+(literally: "A book was for me.")
+
+[يَكُونُ فِي آخِرِ الزَّمَانِ دَجَّالُونَ كَذَّابُونَ]{.ar}  
+"There will be in the end of time charlatan liars"  
+[From [#HadIv]{.trn2} in [#SaHIH #muslim]{.trn2}:7]
+
+[إِنَّهَا تَكُونُ الظُّلْمَةُ وَالسَّيْلُ]{.ar}  
+"[At times there] is darkness and flooding"  
+[From [#HadIv]{.trn2} in [#SaHIH al-#buxArI]{.trn2}:667]
+
+[لَمْ تَكُنِ ٱلْحَرْبُ.]{.ar}  
+"The war didn't occur."  
+(literally: "The war was not.")
+
+## Time signification of the past verb [كَانَ]{.ar}
+
+The general siginification of the past verb 
+[كَانَ]{.ar}
+is to indicate a state that existed in the past, and that has possibly ceased.
+For example:
+
+[كَانَ زَيْدٌ قَائِمًا]{.ar}  
+"Zayd was standing."
+
+This statement is regarding Zayd's state in the past and the implication is that he is possibly no longer standing.
+
+This is the most common signification of the past verb
+[كَانَ]{.ar}
+and the one that we have been using so far.
+But
+[كَانَ]{.ar}
+is special in that it admits additional significations:
+
+The second signification of
+[كَانَ]{.ar}
+is to indicate a state that, at first, had not yet begun, and which then began and remained, possibly up to the present.
+It has, in this sense, the meaning "became", "has become", or "happened". Examples:
+
+[أَبَىٰ وَٱسْتَكْبَرَ وَكَانَ مِنَ ٱلْكَـٰفِرِينَ]{.ar}  
+"He refused and was arrogant and became of the disbelievers."  
+[From al-[#qurEAn]{.trn2} 2:34, translation by Saheeh International]
+
+[احْتَرَقَ الْخَشَبُ فَكَانَ تُرَابًا.]{.ar}  
+"The wood burned and so became dust."
+
+A third signification of
+[كَانَ]{.ar}
+is
+to indicate a state that will be in the future.
+For example:
+
+[وَيَخَافُونَ يَوْمًۭا كَانَ شَرُّهُۥ مُسْتَطِيرًۭا]{.ar}  
+"and [they] fear a Day whose evil will be widespread."  
+[From al-[#qurEAn]{.trn2} 76:7, translation by Saheeh International]
+
+A fourth signification of 
+[كَانَ]{.ar}
+is to indicate a state that always existed and will always exist. For example:
+
+[وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۢا]{.ar}  
+"And ever is Allāh Forgiving and Merciful."  
+[From al-[#qurEAn]{.trn2} 33:73, translation by Saheeh International]
+
+[وَلَا تَقْرَبُوا۟ ٱلزِّنَىٰٓ ۖ إِنَّهُۥ كَانَ فَـٰحِشَةًۭ وَسَآءَ سَبِيلًۭا]{.ar}  
+"And do not approach unlawful sexual intercourse.1 Indeed, it is ever an immorality and is evil as a way."  
+[From al-[#qurEAn]{.trn2} 17:32, translation by Saheeh International]
+
+<!-- Reference البحر المحيط لأبي حيان تفسير كنتم خير أمة-->
+
+## [كَانَ]{.ar} combined with other verbs
+
+The past verb
+[كَانَ]{.ar}
+and its resembling verb
+[يَكُونُ]{.ar}
+are combined with other verbs to express complex tenses in the past and the future, respectively.
+We will explain these combinations below.
+
+### [كَانَ]{.ar} combined with a resembling verb
+
+[كَانَ]{.ar}
+is combined with a following resembling verb to express that the action of the verb was repeatedly or continually ocurring in the past.
+For example:
+
+[كَانَ زَيْدٌ يَكْتُبُ.]{.ar}  
+"Zayd was writing."  
+or  
+"Zayd used to write."  
+or  
+"Zayd would write."  
+
+This sentence can be analyzed grammatically as a topic-comment sentence.
+The subject of 
+[كَانَ]{.ar}
+is [زَيْد]{.ar} and it is the topic of the sentence.
+The information of [كَانَ]{.ar} is itself a sentence [يَكْتُبُ]{.ar} "he writes", and it is the comment of the main sentence.
+
+The order of the subject and the resembling verb can be re-arranged for the same meaning thus:
+
+[كَانَ يَكْتُبُ زَيْدٌ.]{.ar}  
+
+Now, two grammatical analyses are possible:
+
+1. [زَيْد]{.ar} is the doer of [يَكْتُبُ]{.ar}, and the subject of [كَانَ]{.ar} is a hidden pronoun of the fact.
+2. [زَيْد]{.ar} is the delayed subject of [كَانَ]{.ar} and [يَكْتُبُ]{.ar} is the information of [كَانَ]{.ar}. The doer of [يَكْتُبُ]{.ar} is a hidden pronoun.
+
+Either way, the meaning, as we have mentioned, is the same.
+Here are some more examples for different types of doers/subjects:
+
+<!--[كَانَ يُحِبُّ ٱلشِّعْرَ وٱلشُّعَرَاءَ.]{.ar}  
+"He used to love poetry and the poets."
+-->
+
+[كَانَ يَعْبُدُ مُشْرِكُو مَكَّةَ ٱلْأَصْنَامَ.]{.ar}  
+or  
+[كَانَ مُشْرِكُو مَكَّةَ يَعْبُدُونَ ٱلْأَصْنَامَ.]{.ar}  
+"The polytheists of Makkah used to worship idols."
+
+[كَانَتْ تُحِبُّ الصَّدَقَةَ.]{.ar}  
+"She used to love [to practice] charity."  
+[From [#HadIv]{.trn2} in [#SaHIH al-#buxArI]{.trn2}:1420]
+
+[كَانَت تَّأْتِيهِمْ رُسُلُهُم بِٱلْبَيِّنَـٰتِ]{.ar}  
+"their messengers used to come to them with clear evidences"  
+[From al-[#qurEAn]{.trn2} 64:6, translation by Saheeh International]  
+(Sound plurals, even of rational beings, may be treated as grammatically singular feminine. See section\ \@ref(sound-plurals-sing-fem).)
+
+[كُنْتُ أَلْعَبُ بِالْبَنَاتِ عِنْدَ النَّبِيِّ صلى الله عليه وسلم وَكَانَ لِي صَوَاحِبُ يَلْعَبْنَ مَعِي]{.ar}  
+"I used to play with dolls in the presence of the Prophet, and I had companions~f~ playing with me."  
+[From [#HadIv]{.trn2} in [#SaHIH al-#buxArI]{.trn2}:6130]
+
+The following resembling verb may also be an unknown-doer verb. Example:
+
+[إِنَّ أُنَاسًا كَانُوا يُؤْخَذُونَ بِالْوَحْىِ فِي عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم]{.ar}  
+"Indeed people were (sometimes) judged (literally: held) by the [revealing of] divine inspiration in the lifetime of the Prophet."  
+[From [#HadIv]{.trn2} in [#SaHIH al-#buxArI]{.trn2}:2641]
+
+#### One [كَانَ]{.ar} suffices multiple resembling verbs
+
+If the signification of an action ocurring continually in the past applies to more that one resembling verb, then it is sufficient to prefix 
+[كَانَ]{.ar}
+to only the first one. Example:
+
+[كَانَتْ تَعْمَلُ بِيَدِهَا وَتَصَدَّقُ]{.ar}  
+"She used to work with her hand and spend (that income) on charity."
+[From [#HadIv]{.trn2} in [#SaHIH #muslim]{.trn2}:2452]  
+([تَتَصَدَّقُ]{.ar} is abbreviated to [تَصَدَّقُ]{.ar}. See section\ \@ref(form-5-verbs-abbrev).)
+
+#### Negation of [كَانَ]{.ar} and a resembling verb
+
+In order to negate the combination of
+[كَانَ]{.ar}
+and the following resembling verb,
+multiple options are available. Using [يَفْعَلُ]{.ar} as an example resembling verb, we can have:
+
++ [مَا كَانَ يَفْعَلُ]{.ar}
++ [كَانَ لَا يَفْعَلُ]{.ar}
++ [لَمْ يَكُنْ يَفْعَلُ]{.ar}
+
+Examples:
+
+[مَا كَانَ أَحَدٌ يَبْدَأُ، أَوْ يَبْدُرُ، ابْنَ عُمَرَ بِالسَّلامِ]{.ar}  
+"No one preceded or got ahead of Ibn [#eumar]{.trn2} with (giving) the greeting."  
+[[#HadIv]{.trn2} in [al-#adab al-#mufrad]{.trn2}:982]
+
+[كَانُوا۟ لَا يَتَنَاهَوْنَ عَن مُّنكَرٍۢ فَعَلُوهُ]{.ar}  
+"They used not to prevent one another from wrongdoing that they did."   
+[From al-[#qurEAn]{.trn2} 5:79, translation by Saheeh International]
+
+[لَمْ يَكُونُوا يَسْأَلُونَ عَنِ الإِسْنَادِ]{.ar}  
+"They would not ask about the chains of narration"  
+[From [#SaHIH #muslim]{.trn2}:Introduction]
+
+#### The combination of [كَانَ]{.ar} with [يَكُونُ]{.ar}
+
+Interestingly, 
+[كَانَ]{.ar}
+can be combined with its own resembling verb
+[يَكُونُ]{.ar}
+This gives the meaning "was being" or "used to be".
+[يَكُونُ]{.ar} is, in this combination, often optional and may be dropped for no change in meaning. Examples:
+
+[كَانَ يَكُونُ فِي مِهْنَةِ أَهْلِهِ]{.ar}  
+[From [#SaHIH al-#buxArI]{.trn2}:676]  
+and  
+[كَانَ فِي مِهْنَةِ أَهْلِهِ]{.ar}  
+[From [#SaHIH al-#buxArI]{.trn2}:6039]  
+"He used to keep himself busy serving his family"
+
+[رِجَالٌ كَانُوا يَكُونُونَ مَعَ ٱلْمُلُوكِ]{.ar}  
+"men that used to be with the kings"
+
+[كَانَ يَكُونُ فِي ٱلْبَيْتِ]{.ar}  
+"He used to be in the house."
+
+#### Possible past occurrence
+
+Sometimes
+[كَانَ]{.ar}
+is used with a resembling verb to express an action that could have occurred in the past, or should have. Examples:
+
+[كَانَ يَكُونُ سُوءَ أَدَبٍ.]{.ar}  
+"It would have been a misbehavior."
+
+[فَقَالَ حُذَيْفَةُ أَنْتَ كُنْتَ تَفْعَلُ ذَلِكَ]{.ar}  
+"[#Hupayfah]{.trn2} said: 'You might have done that.'"  
+[From [#SaHIH #muslim]{.trn2}:1788]
+
+#### Omission of [كَانَ]{.ar}
+
+If one or more past verbs precedes the resembling verb 
+or if the context indicates that the action was occurring in the past, then
+[كَانَ]{.ar}
+can be omitted, and the resembling verb is used by itself. For example:
+
+[قُلْ فَلِمَ تَقْتُلُونَ أَنۢبِيَآءَ ٱللَّهِ مِن قَبْلُ]{.ar}  
+"Say, "Then why did you kill the prophets of Allāh before"  
+[From al-[#qurEAn]{.trn2} 2:91, translation by Saheeh International]  
+(No [كُنْتُمْ]{.ar} before [تَقْتُلُونَ]{.ar}.)
+
+[وَٱتَّبَعُوا۟ مَا تَتْلُوا۟ ٱلشَّيَـٰطِينُ عَلَىٰ مُلْكِ سُلَيْمَـٰنَ ۖ]{.ar}  
+"And they followed [instead] what the devils had recited during the reign of Solomon"  
+[From al-[#qurEAn]{.trn2} 2:102, translation by Saheeh International]  
+(No [كَانَتْ]{.ar} before [تَتْلُو]{.ar}.)
+
+#### [كَانَ]{.ar} followed by a doer or doee verbal-noun instead of a resembling verb
+
+Instead of a resembling verb after [كَانَ]{.ar}, its doer or doee verbal noun may be used instead. 
+And this can give the effect of a state of being rather than an action being done.
+For example:
+
+[كَانَ سَاكِنًا فِي ٱلْمَدِينَةِ.]{.ar}  
+"He was dwelling in the city."
+
+[كَانَتِ ٱلْعُصِيُّ مَرْكُوزَةً فِي ٱلْأَرْضِ.]{.ar}  
+"The staffs were sticking in the ground."  
+([كَانَتْ تُرْكَزُ]{.ar} would imply that they were being stuck.)
+
+When the verbal noun refers to an action taking place in the future, the idea of futurity is transferred to a past time. For example:
+
+[أَمْرٌ كَانَ مَفْعُولًا]{.ar}  
+"a matter which was to be done"
+
+### [كَانَ]{.ar} combined with a past verb
+
+[كَانَ]{.ar}
+is combined with a following past verb to denote 
+an action completed prior to some past (specified or implied) point in time.
+Example:
+
+[مَاتَ ٱلرَّشِيدُ بِطُوسَ وَكَانَ خَرَجَ إِلَىٰ خُرَاسَانَ لِمُحَارَبَةِ رَافِعِ بْنِ ٱللَّيْثِ.]{.ar}  
+"[al-#racId]{.trn2} died at [#TUs]{.trn2} after (literally: and) he had set out for [#xurAsAn]{.trn2} to combat [#rAfie ibn al-#layv]{.trn2}."
+
+The particle [قَدْ]{.ar} is often used when
+[كَانَ]{.ar} is combined with a past verb.
+[قَدْ]{.ar}
+may be placed either between
+[كَانَ]{.ar}
+and the following past verb, or before
+[كَانَ]{.ar}.
+Examples:
+
+[كُنْتُ قَدْ رَبَّيْتُ جَارِيَةً]{.ar}  
+"I had brought up a girl"
+
+[قَدْ كَانَتْ فَرَغَتْ مِنْ عَمَلِهَا.]{.ar}  
+"She had been done with her work."
+
+When their are multiple past verbs, and one (or more) of them occurred
+farther in the past than the others, it is indicated with 
+[قَدْ]{.ar},
+the others having merely
+[كَانَ]{.ar}.
+We re-use a previous example here and extend it:
+
+[مَاتَ ٱلرَّشِيدُ بِطُوسَ وَكَانَ خَرَجَ إِلَىٰ خُرَاسَانَ لِمُحَارَبَةِ رَافِعِ بْنِ ٱللَّيْثِ.]{.ar}  
+[وَكَانَ رَافِعٌ هَـٰذَا قَدْ خَرَجَ وَخَلَعَ ٱلطَّاعَةَ وَتَغَلَّبَ عَلَىٰ سَمَرْقَنْدَ.]{.ar}  
+"[al-#racId]{.trn2} died at [#TUs]{.trn2} after he had set out for [#xurAsAn]{.trn2} to combat [#rAfie ibn al-#layv]{.trn2}.
+And this [#rAfie]{.trn2} had already rebelled and cast off his allegiance and taken forcible posession of Samarqand."  
+(Note how 
+[قَدْ]{.ar}
+is only used before 
+[#rAfie]{.trn2}'s action of rebelling.)
+
+#### Negation
+
+This combination may, again, be negated in multiple ways. Examples:
+
+[لاَ يَأْتِي ابْنَ آدَمَ النَّذْرُ بِشَىْءٍ لَمْ يَكُنْ قَدْ قَدَّرْتُهُ]{.ar}  
+"Vowing does not bring to the son of Adam anything I have not already written in his fate,"  
+[From [#SaHIH al-#buxArI]{.trn2}:6609]  
+
+[وَدِدْتُ أَنِّي لَمْ أَكُنْ خَرَجْتُ الْعَامَ]{.ar}  
+"I wish I had not come out (for [#Hajj]{.trn2}) this year"  
+[From [#sunan #abI #dawUd]{.trn2}:1778]  
+
+[وَمَا كَانَ قَدْ أَتَاهَا بِشَيْءٍ]{.ar}  
+"And he had not brought her anything"
+
+### [يَكُونُ]{.ar} combined with a past verb
+
+The resembling verb
+[يَكُونُ]{.ar}
+is compined with a past verb (often with an interposed [قَدْ]{.ar})
+to express that the action is conceived of having been completed in the future.
+Examples:
+
+[يَكُونُ قَدْ وَجَبَ عَلَيْكَ صَدَقَةٌ]{.ar}  
+"Charity will have been incumbent upon you"  
+[From [#mickAt al-#maSAbIH]{.trn2}:1793]  
+
+[فَلْنَأْخُذْهُ فَنَكُونُ قَدْ أَخَْذْنَا عِوَضًا]{.ar}  
+"Let us take him for (then) we will have taken a substitute"
+
+#### a-state [يَكُونَ]{.ar} combined with a past verb
+
+An a-state [يَكُونَ]{.ar} is combined with a past verb
+to express being in a state of an action having occurred
+or that might have occurred. For example:
+
+[خَافَ أَنْ يَكُونَ قَدْ خَطَأَ]{.ar}  
+"He feared that he could have erred."
+
+[وَيَجُوزُ أَنْ يَكُونُوا قَدْ سُبِقُوا]{.ar}  
+"And that they might have been preceded is possible"
+
+[يَشْطَرِطُ فِي ٱلنَّائِبِ أَنْ يَكُونَ قَدْ حَجَّ عَنْ نَفْسِهِ]{.ar}  
+"It is conditional for the deputy that he be in as state of already having performed the [#Hajj]{.trn2} for himself."
+
+### Verb of command [كُنْ]{.ar} combined with a resembling verb
+
+Ocassionally,
+the verb of command [كُنْ]{.ar} is combined with a resembling verb, thus:
+
+[كُنْ أَنْتَ تُكَلِّمُهُمْ]{.ar}  
+"You be speaking to them!"
+
+## [كَانَ]{.ar} with the [ل]{.ar} of denial
+
+One special use of 
+[كَانَ]{.ar} 
+is what is termed the
+[ل]{.ar}
+_of denial_.
+This is a negative 
+[كَانَ]{.ar} 
+(either
+[مَا كَانَ]{.ar} 
+or
+[لَمْ يَكُنْ]{.ar} with the appropriate suffixes or prefixes for the subject)
+followed by [لِ]{.ar}
+and then an a-state resembling verb.
+This expresses the meaning of:
+
+ i. to deny being the one to do something, or 
+ii. to deny going to do something
+
+Here are some examples:
+
+[لَمْ تَكُنْ زَيْنَبُ لِتَضْرِبَ وَلَدَهَا]{.ar}  
+"Zaynab was not one to beat her child."  
+or  
+"Zaynab was not going to beat her child."  
+
+[وَمَا كَانَ ٱللَّهُ لِيُعَذِّبَهُمْ وَأَنتَ فِيهِمْ ۚ]{.ar}  
+"But Allāh would not punish them while you, [O Muḥammad], are among them"  
+[From al-[#qurEAn]{.trn2} 8:33, translation by Saheeh International]  
+
+[فَقَالَ أَتَخْشَيْنَ أَنْ أَقْتُلَهُ مَا كُنْتُ لأَفْعَلَ ذَلِكَ]{.ar}  
+"He said: Do you fear that I shall kill him ? I am not going to do that."  
+[From [#sunan #abI #dawUd]{.trn2}:3112]  
+
+[قَالَ لَمْ أَكُنْ لأَفْعَلَ]{.ar}  
+"He said: I was not going to do that."
+[From [#sunan #ibn #mAjah]{.trn2}:1503]  
+
+## [كَانَ]{.ar} with the [ل]{.ar} of deserving
+
+Closely related, yet distinct from, 
+the use of
+[كَانَ]{.ar} with the [ل]{.ar} of denial
+(above)
+is 
+the use of
+[كَانَ]{.ar} with a [ل]{.ar} that signifies deserving, behooving, appropriateness, or possibility.
+This is, again, a negative 
+[كَانَ]{.ar} 
+followed by the preposition [لِ]{.ar}
+and a following i-state noun,
+and then [أَنْ]{.ar} followed by an a-state resembling verb.
+This signifies that the action of the verb does not behoove, or is not appropriate or desrving or possibly for the person denoted by the noun after [لِ]{.ar}.
+For example:
+
+[فَأَنۢبَتْنَا بِهِۦ حَدَآئِقَ ذَاتَ بَهْجَةٍۢ مَّا كَانَ لَكُمْ أَن تُنۢبِتُوا۟ شَجَرَهَآ ۗ]{.ar}  
+"causing to grow thereby gardens of joyful beauty which you could not [otherwise] have grown the trees thereof"  
+[From al-[#qurEAn]{.trn2} 27:60, translation by Saheeh International]  
+
+[مَا كَانَ لِبَشَرٍ أَن يُؤْتِيَهُ ٱللَّهُ ٱلْكِتَـٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُوا۟ عِبَادًۭا لِّى مِن دُونِ ٱللَّهِ]{.ar}  
+"It is not for a human [prophet]1 that Allāh should give him the Scripture2 and authority and prophethood and then he would say to the people, "Be servants to me rather than Allāh,""  
+[From al-[#qurEAn]{.trn2} 3:79, translation by Saheeh International]  
+
+[قَالَ أَبُو بَكْرٍ مَا كَانَ لاِبْنِ أَبِي قُحَافَةَ أَنْ يُصَلِّيَ بَيْنَ يَدَىْ رَسُولِ اللَّهِ صلى الله عليه وسلم]{.ar}  
+"Abu Bakr said ; it was not befitting for the son of Abu Quhafah (Abu Bakr) to lead the prayer in the presence of the Messenger of Allah (ﷺ)"  
+[From [#sunan #abI #dawUd]{.trn2}:940]  
+
+<!--Reference See البحر المحيط and التحرير والتنوير for 3:79-->
+
+
+<!--chapter:end:srcrmd/kaana.Rmd-->
+
+# [إِنَّ]{.ar} and its sisters {#inna-and-its-sisters}
+
+## Introduction
+
+In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-35-1.pdf)<!-- -->
+
+"This man is a teacher."
+
+In the above sentence both the subject [ٱَلرَّجُلَ]{.ar} "the man", and the information [مُعَلِّمٌ]{.ar} "a teacher" are in the u-state. In this chapter we will study a family of particles, called
+[إِنَّ]{.ar} and its sisters,
+that modify the subject-information sentence by placing the subject in the a-state instead of the u-state. For example,
+
+[إِنَّ ٱلرَّجُلَ مُعَلِّمٌ.]{.ar}  
+[Einna -rrajula mueallimun.]{.trn}  
+"Indeed the man is a teacher."
+
+Note how, in the above example, the subject [ٱَلرَّجُلَ]{.ar} "the man" is now in the a-state. The information [مُعَلِّمٌ]{.ar} "a teacher" remains in the u-state. 
+
+The particles constituting the family of 
+[إِنَّ]{.ar} and its sisters
+are:
+
+1. [إِنَّ]{.ar}  [Einna]{.trn}     \vphantom{\huge J}
+1. [أَنَّ]{.ar}  [Eanna]{.trn}     \vphantom{\huge J}
+1. [كَأَنَّ]{.ar}  [kaEanna]{.trn}  \vphantom{\huge J}
+1. [لَـٰكِنَّ]{.ar}  [lAkinna]{.trn} \vphantom{\huge J}
+1. [لَيْتَ]{.ar}  [layta]{.trn}    \vphantom{\huge J}
+1. [لَعَلَّ]{.ar}  [laealla]{.trn}  \vphantom{\huge J}
+
+We shall now study each of these particles.
+
+## [إِنَّ]{.ar} [Einna]{.trn}
+
+[إِنَّ]{.ar} [Einna]{.trn} is used to begin independent sentences. It has an emphatic meaning, as if the speaker is asserting the information about the subject. It is often translated into English as "indeed" or "verily", but it is also often left untranslated.
+
+[إِنَّ]{.ar} [Einna]{.trn} is only used to begin subject-information sentences. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.). For example,
+
+[إِنَّ ٱلدِّينَ عِنْدَ ٱللَّـٰهِ ٱلْإِسْلَامُ.]{.ar}  
+[Einna -ddIna einda -llAhi -lEislAmu.]{.trn}  
+"Indeed, the religion in the sight of [#allAh]{.trn2} is [#islAm]{.trn2}." ([#qurEAn]{.trn2}\ 3:19, trans. Saheeh International)
+
+[إِنَّ]{.ar} [Einna]{.trn} 
+may be preceded by other particles like [وَ]{.ar} "and", [فَ]{.ar} "so", and [ثُمَّ]{.ar} "then". For example,
+
+[ٱُطْلُبِ ٱلْعِلْمَ ٱلنَّافِعَ. فَإِنَّ طَلَبَ ٱلْعِلْمَ ٱلنَّافِعَ عَمَلٌ صَالِحٌ. وَإِنَّ تَرْكَهُ غَفْلَةٌ.]{.ar}
+"Seek the useful knowledge. For indeed the seeking of the useful knowledge is a good deed. And indeed leaving it is a negligence."
+
+The subject of
+[إِنَّ]{.ar} [Einna]{.trn} 
+may be a noun phrase, in which case, any describers or replacements of the subject are also in the a-state. Examples:
+
+[إِنَّ هَـٰؤُلَاءِ ٱلرِّجَالَ ٱلْكِرَامَ أَصْدِقَائِي.]{.ar}  
+"Indeed these noble men are my friends."
+
+[إِنَّ]{.ar} [Einna]{.trn} may have multiple subjects, each in the a-state, separated by [وَ]{.ar}. Example,
+
+[إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَاتِ يَعْبُدُونَ ٱللَّـٰهَ.]{.ar}  
+"Indeed the Muslim men and Muslim women worship [#allAh]{.trn2}."
+
+If the information of the first subject has been mentioned before the second subject, then the second subject may optionally be in the a-state or the u-state. For example:
+
+[إِنَّ زَيْدًا جَالِسٌ وَعَمْرًا.]{.ar}  
+or  
+[إِنَّ زَيْدًا جَالِسٌ وَعَمْرٌو.]{.ar}  
+"Indeed Zayd is sitting and [#eamr]{.trn2} [as well]."
+
+[إِنَّ هَـٰذَا ٱلْكِتَابَ لِي وَذَ ٰلِكَ ٱلْكِتَابَ لَكَ.]{.ar}  
+or  
+[إِنَّ هَـٰذَا ٱلْكِتَابَ لِي وَذَ ٰلِكَ ٱلْكِتَاكُ لَكَ.]{.ar}  
+"Indeed this book is for me and that book is for you."
+
+[إِنَّ]{.ar} [Einna]{.trn} may be used to begin sentences with an indefinite subject. For example,
+
+[إِنَّ مَلِكًا مِنَ ٱلْهِنْدِ كَتَبَ إِلَىٰ أَحَدِ وُزَرَائِهِ.]{.ar}  
+"Indeed a king from India wrote to one of his ministers."
+
+Note that in all the above examples that
+[إِنَّ]{.ar} [Einna]{.trn} is only used to begin subject-information sentences. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.).
+By default, the subject of [إِنَّ]{.ar} [Einna]{.trn} must directly follow it with no intervening words or particles. The only exception is when the information consists of a prepositional or adverbial phrase, it is then allowed to precede the subject. The subject, in any case, shall be in the a-state. For example,
+
+[إِنَّ فِي ٱلْبَيْتِ رَجُلًا.]{.ar}  
+"Indeed, in the house, is a man."
+
+[إِنَّ تَحْتَ ٱلشَّجَرَةِ كَنْزًا ثَمِينًا.]{.ar}  
+"Indeed, under the tree, is a precious treasure."
+
+This reverse order is permitted even when the subject is definite. For example,
+
+[إِنَّ مَعَكَ صَاحِبَكَ.]{.ar}  
+"Indeed, with you, is _your companion_."
+
+This puts the logical accent on the subject [صَاحِبَكَ]{.ar} "your companion". If the subject is placed first then this puts the logical accent on the information:
+
+[إِنَّ صَاحِبَكَ مَعَكَ.]{.ar}  
+"Indeed your companion is _with_ you."
+
+If the subject contains a pronoun that refers to a noun in the information then the information must precede the subject. For example,
+
+[إِنَّ فِي ٱلْمَصْنَعِ عُمَّالَهُ.]{.ar}  
+"Indeed, in the factory, are its workers."
+
+[إِنَّ أَمَامَ ٱلدَّارِ حَارِسَهَا.]{.ar}  
+"Indeed, in front of the door, is its guard."
+
+### Pronoun subjects
+
+<!--In the examples above, the subject of [إِنَّ]{.ar} has been a noun. -->
+The subject of [إِنَّ]{.ar} may be a pronoun instead of a noun. For this the attached pronouns are used. For example,
+
+[لَا تَقْطَعْ تِلْكَ ٱلشَّجَرَةَ فَإِنَّهَا ظَلِيلَةٌ.]{.ar}  
+"Don't cut that tree, for it is shady."
+
+[إِنَّكُمَا صَدِيقَايَ.]{.ar}  
+"You~2~ are my friends."
+
+The speaker pronouns, both singular and plural, may optionally keep or drop their [ن]{.ar}. 
+So for the singular speaker pronoun both [إِنَّنِي]{.ar} [EinnanI]{.trn} and [إِنِّي]{.ar} [EinnI]{.trn} may be used.
+And for the plural speaker pronoun both [إِنَّنَا]{.ar} [EinnanA]{.trn} and [إِنَّا]{.ar} [EinnA]{.trn} may be used.
+Examples:
+
+[إِنِّي مُسْلِمٌ.]{.ar}  
+or  
+[إِنَّنِي مُسْلِمٌ.]{.ar}  
+"Indeed I am a Muslim."
+
+[إِنَّنَا كَاتِبُو هَـٰذَا ٱلْكِتَابَ.]{.ar}  
+or  
+[إِنَّا كَاتِبُو هَـٰذَا ٱلْكِتَابَ.]{.ar}  
+"Indeed we are the writers of this book."
+
+TODO: Multiple pronoun subjects: [إِنِّ وَ إِيَّاكَ ...]{.ar}
+
+[إِنَّ]{.ar} with the speaker pronouns are often used with doer verbal nouns to signify that the speaker intends to to the action of the verb. For example,
+
+[إِنِّي ذَاهِبٌ إِلَىٰ ٱلْمَسْجِدِ.]{.ar}  
+"I'm going to the mosque."
+
+We also mentioned this point in section\ \@ref(doer-verbal-noun-for-intended-future-action).
+
+### [إِنَّ]{.ar} [Einna]{.trn} with a strengthening [لَ]{.ar} {#inna-strengthening-la}
+
+The strengthening particle [لَ]{.ar} adds extra emphasis and may optionally be used between the subject of [إِنَّ]{.ar} and its information.
+If the subject occurs first (as is the default) then [لَ]{.ar} is connected to and placed directly before the information. For example:
+
+[إِنَّ زَيْدًا لَقَائِمٌ.]{.ar}  
+"Indeed Zayd is definitely standing."
+
+If the information precedes the subject, then then [لَ]{.ar} is connected to and placed directly before the subject. For example:
+
+[إِنَّ فِي ٱلْبَيْتِ لَرَجُلًا.]{.ar}  
+"Indeed, in the house, is definitely a man."
+
+The strengthening particle [لَ]{.ar} is only used with [إِنَّ]{.ar} and not for any of its other sisters
+([إِنَّ]{.ar},
+[أَنَّ]{.ar},
+[كَأَنَّ]{.ar},
+[لَـٰكِنَّ]{.ar},
+[لَيْتَ]{.ar}, and
+[لَعَلَّ]{.ar}).
+
+### Commonality of rules for [إِنَّ]{.ar} and its sisters
+
+Unless otherwise noted, the rules we have presented above for 
+[إِنَّ]{.ar},
+for example, the subject being in the a-state, the order of the subject and the predicate, the use of attached pronouns for the subject, etc.,
+apply also to its other sisters. 
+
+The strengthening particle [لَ]{.ar}, as mentioned above, is only used with [إِنَّ]{.ar} and not for any of its other sisters.
+
+## [أَنَّ]{.ar} [Eanna]{.trn}
+
+The particle 
+[أَنَّ]{.ar} [Eanna]{.trn}
+can be translated as "that".
+It is similar to [إِنَّ]{.ar} in that it is asserts the information about the subject.
+But 
+[أَنَّ]{.ar} is different from [إِنَّ]{.ar} in that [إِنَّ]{.ar}, its subject, and its information together constitute a complete sentence.
+Whereas 
+the
+[أَنَّ]{.ar}
+clause
+([أَنَّ]{.ar}
+, its subject, and its information together) does not constitute a complete sentence. For example, consider the expression:
+
+[زَيْدٌ صَادِقٌ.]{.ar}  
+"Zayd is truthful."
+
+This is a complete sentence. But if we add 
+[أَنَّ]{.ar} "that" to its beginning, it no longer remains a complete sentence:
+
+[أَنَّ زَيْدًا صَادِقٌ]{.ar}  
+"that Zayd is truthful"
+
+We need to additional words, external to the 
+[أَنَّ]{.ar}
+clause
+to complete the sentence. We will see examples of this below.
+
+### The [أَنَّ]{.ar} clause in place of the direct doee
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-36-1.pdf)<!-- -->
+
+"I know that Zayd is truthful."
+
+Note how, in the example above the 
+[أَنَّ]{.ar}
+clause
+([أَنَّ زَيْدًا صَادِقٌ]{.ar})
+has occupied the place of the direct doee of the verb [أَعْلَمُ]{.ar}.
+
+In a similar manner,
+[أَنَّ]{.ar}
+clauses can be placed where one would expect other noun positions, such as: a subject, an information, a doer, and more. Here are some examples:
+
+### The [أَنَّ]{.ar} clause in place of the doer
+
+Example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-37-1.pdf)<!-- -->
+
+"That you are sick has reached me." ("It has reached me that you are sick.")
+
+### The [أَنَّ]{.ar} clause in place of the subject
+
+Example (with information before subject in sentence word order):
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-38-1.pdf)<!-- -->
+
+"From his characteristeics is that he is noble."
+
+### The [أَنَّ]{.ar} clause in place of the information
+
+Example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-39-1.pdf)<!-- -->
+
+"The truth is that he went."
+
+### [أَنَّ]{.ar} with [كَانَ]{.ar}
+
+As you know, [كَانَ]{.ar}'s doer is also its subject, and its doee is also its information.
+The [أَنَّ]{.ar} clause can occur in either the subject or the information of [كَنَ]{.ar}. 
+For example, the [أَنَّ]{.ar} clause as the information:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-40-1.pdf)<!-- -->
+
+"The matter was that he didn't do his obligation."
+
+Now, the [أَنَّ]{.ar} clause as the subject:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-41-1.pdf)<!-- -->
+
+"That he didn't do his obligation was the matter."
+
+Note that in the latter case, the information precedes the subject.
+
+### The [أَنَّ]{.ar} clause in place of an i-state noun
+
+The [أَنَّ]{.ar} clause can occur in place of an i-state base noun in an annexation. Example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-42-1.pdf)<!-- -->
+
+"The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous."
+
+The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly following a preposition. Example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-43-1.pdf)<!-- -->
+
+"I wondered at that Zayd is asleep."
+
+#### Optionally deleting the preposition directlt before an [أَنَّ]{.ar} clause
+
+If an
+[أَنَّ]{.ar} clause
+directly follows a preposition, it is permissible to optionally delete the preposition as long as the meaning remains clear.
+So the previous example can be expressed without the preposition [مِنْ]{.ar} with the same meaning:
+
+[عَجِبْتُ أَنَّ زَيْدًا نَائِمٌ.]{.ar}  
+"I wondered at that Zayd is asleep."
+
+#### [لِأَنَّ]{.ar} "because"
+
+The combination of the preposition [لِ]{.ar} "for" and [أَنَّ]{.ar} is used to mean "because". For example,
+
+[أَكَلْتُ ٱلطَّعَامَ لِأَنَّنِي كُنْتُ جَائِعًا.]{.ar}  
+"I ate the food because I was hungry."
+
+### Equivalence of the [أَنَّ]{.ar} clause with a verbal noun of doing
+
+As a matter of grammatical theory, the
+[أَنَّ]{.ar} clause, i.e. ([أَنَّ]{.ar} itself, its subject, and its information) is considered equivalent to a verbal noun of doing (typically in an annexation, and possibly with a doee as well). It is this equivalalence that allows it to thake the place of a doer, direct doee, and the other categories we have given above.
+For instance, consider the example:
+
+[عَجِبْتُ مِنْ أَنَّ زَيْدًا ذَهَب.]{.ar}  
+"I wondered at that Zayd went."
+
+Here, the clause
+[أَنَّ زَيْدًا ذَهَب]{.ar}
+is equivalent to the verbal noun phrase [ذَهَابِ زَيْدٍ]{.ar} "Zayd's going". So the grammatically equivalent sentence with this verbal noun phrase is:
+
+[عَجِبْتُ مِنْ ذَهَابِ زَيْدٍ.]{.ar}  
+"I wondered at Zayd's going."
+
+Similarly, in the example,
+
+[مِنْ صِفَاتِهِ أَنَّهُ كَرِيمٌ.]{.ar}  
+"From his characteristics is that he is generous."
+
+the clause
+[أَنَّهُ كَرِيمٌ]{.ar}
+is equivalent to the verbal noun phrase [كَرَامَتِهِ]{.ar} "his generosity". So the grammatically equivalent sentence with this verbal noun phrase is:
+
+[كَرَامَتِهِ مِنْ صِفَاتِهِ.]{.ar}  
+"His generosity is from his characteristics."
+
+This grammatical equivalence is more a matter of theory than of practical usefulness to us.
+And you have seen this grammatical equivalence before with [أَنْ]{.ar} and a-state incomplete action verbs in chanpter\ \@ref(a-state-incomplete-action-verbs-verbal-noun).
+
+## [كَأَنَّ]{.ar} [kaEanna]{.trn}
+
+[كَأَنَّ]{.ar} [kaEanna]{.trn}
+may be translated as "[It is] as if".
+It is actually simply the preposition [كَ]{.ar} "like" attached to [أَنَّ]{.ar}. But it is treated separately because, unlike [أَنَّ]{.ar},
+[كَأَنَّ]{.ar} [kaEanna]{.trn}, its subject, and its information constitute a complete sentence. For example,
+
+[كَأَنَّ ٱلْأُمُّ مَدْرَسَةٌ.]{.ar}  
+"[It is] as if the mother is a school."
+
+TODO: add more info
+
+## [لَـٰكِنَّ]{.ar} [lAkinna]{.trn}
+
+TODO
+
+## [لَيْتَ]{.ar}  [layta]{.trn}
+
+TODO
+
+## [لَعَلَّ]{.ar}  [laealla]{.trn}
+
+TODO
+
+## Topic-comment sentences and the pronoun of the fact
+
+### Topic-comment sentences
+
+There is a sub-type of subject-information sentence called a topic-comment sentence. Here is an example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-44-1.pdf)<!-- -->
+
+"The tree: its branches are long."
+
+In these kinds of sentences, the subject introduces a topic, and the information is itself a sentence which comments on the topic/subject.
+We have, in fact, already seen sentences like this in section\ \@ref(past-verbs-order-of-words), when we take a verbal sentence and convert it to a subject-information sentence. This is the example we discussed there:
+
+[ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}  
+"The man: he wrote a book."
+
+#### The linker pronoun
+
+A topic-comment sentence typically requires a pronoun in the comment that links back to the comment. 
+In the example
+[ٱَلشَّجَرَةُفُرُوعُهَا طَوِيلَةٌ.]{.ar}, the attached pronoun [هَا]{.ar} "it" in [فُرُوعُهَا]{.ar} "its tree" is the linker pronoun that links back to the topic [ٱَلشَّجَرَةُ]{.ar} "the tree".
+
+Similarly, in the example
+[ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}
+the linker pronoun is the invisible doer pronoun "he" of the verb [كَتَبَ]{.ar} "he wrote" that links back to the topic [ٱَلرَّجُلُ]{.ar} "the man".
+
+#### Topic-comment sentences with [إِنَّ]{.ar} and its sisters
+
+[إِنَّ]{.ar} and its sisters are very often used in topic-comment sentences. (With [أَنَّ]{.ar} it is, as usual, an incomplete sentence.) Here are some examples:
+
+[إِنَّ زَيْدًا لَهُ أَخٌ وَأُخْتٌ.]{.ar}  
+"Indeed Zayd: he has a brother and sister."
+
+[ٱِعْلَمْ أَنَّ ٱلْعِلْمَ حُصُولُهُ يَتَطَلَّبُ جُهْدًا.]{.ar}  
+"Know that knowledge: its obtaining requires effort."
+
+#### Topic-comment sentences with a pronoun topic
+
+The topic, in a topic-comment sentence, is frequently a pronoun. For example,
+
+[أَنَا ٱسْمِي زَيْدٌ.]{.ar}  
+"I: my name is Zayd."
+
+[أَكَلْتُ ٱلطَّعَامَ لَـٰكِنَّكَ لَمْ تَأْكُلْ.]{.ar}  
+"I ate the food but you: you didn't eat."
+
+### The pronoun of the fact
+
+Mostly, pronouns are used in place of nouns when it is already known to whom the noun refers to. So if you say:
+
+[أَنَا ٱسْمِي زَيْدٌ.]{.ar}  
+"I: my name is Zayd."
+
+the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
+
+There is a special pronoun, called the _pronoun of the fact_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
+
+![](Learn-Standard-Arabic_files/figure-html/unnamed-chunk-45-1.pdf)<!-- -->
+
+"The fact is: the cold is intense."
+
+This pronoun is usually the singular masculine pronoun (as above) but it is also sometimes the singular feminine pronoun [هِيَ]{.ar}.
+It is typically used with statements of import, to which the speaker wishes to draw attention.
+The comment does not contain a linker pronoun because the whole comment refers back to the topic.
+The pronoun of the fact is frequently used with [إِنَّ]{.ar} and its sisters. 
+Here are some examples:
+
+[إِنَّهُ لَا يُفْلِحُ ٱلْكَافِرُونَ.]{.ar}  
+"Indeed, the disbelievers will not succeed."  
+([#qurEAn]{.trn2} 23:117, trans. Saheeh International)
+
+Sometimes, one can choose between using the pronoun of the fact and a pronoun matching the participant resulting in different emphasis. For example,
+
+[إِنِّهُ هُمُ ٱلْفَاعِلُونَ]{.ar}  
+"Indeed, the fact is: they are the doers."
+
+[إِنِّهُمْ هُمُ ٱلْفَاعِلُونَ]{.ar}  
+"Indeed, _they_ are the doers."
+
+## The lightened versions [إِنْ]{.ar}, [أَنْ]{.ar}, [كَأَنْ]{.ar}, and [لَـٰكِنْ]{.ar}
+
+The particles [إِنَّ]{.ar}, [أَنَّ]{.ar}, [كَأَنَّ]{.ar}, and [لَـٰكِنَّ]{.ar}, because of the doubled [نّ]{.ar} are considered _heavy_.
+There exist _lightened_ versions of these particles that are:
+[إِنْ]{.ar}, [أَنْ]{.ar}, [كَأَنْ]{.ar}, and [لَـٰكِنْ]{.ar}.
+These lightened versions have similar meanings to their heavy counterparts but they have somewhat different rules. We will discuss them below.
+In terms of their usage 
+[إِنْ]{.ar} and
+[كَأَنْ]{.ar} are not very commonly used except in the [#qurEAn]{.trn2}, poetry, and other rhetorical texts.
+[أَنْ]{.ar} and
+[لَـٰكِنْ]{.ar}
+are relatively more common.
+
+### The lightened [إِنْ]{.ar}
+
+The lightened
+[إِنْ]{.ar}
+is used in two different ways.
+In the more common way, the subject is not put in the a-state but is rather in the u-state.
+However, the strengthening [لَ]{.ar} (see section\ \@ref(inna-strengthening-la) above), that was optional with the heavy [إِنَّ]{.ar}, is now mandatory with the lightened [إِنْ]{.ar}. For example,
+
+[إِنْ زَيْدٌ لَمُسْلِمٌ.]{.ar}  
+"Indeed Zayd is a Muslim."
+
+The other notable difference between 
+the lightened [إِنْ]{.ar}
+and
+the heavy [إِنَّ]{.ar}
+is that 
+the heavy [إِنَّ]{.ar} is only used to introduce subject-information sentences.
+The lightened [إِنْ]{.ar},
+however, can be used to introduce verbal sentences, but only those that begin with the verbs:
+[كَانَ]{.ar} and its sisters,
+[كَادَ]{.ar} and its sisters, and
+[ظَنَّ]{.ar} and its sisters.
+For example,
+
+[قَرَأْتُ ٱلْكِتَابَ وَإِنْ كَانَ ٱلْكِتَابُ لَجَيِّدًا.]{.ar}  
+"I read the book and indeed the book was good."
+
+The second, less common way, of using
+the lightened [إِنْ]{.ar}
+is following the same rules as the 
+the heavy [إِنَّ]{.ar}.
+Where the subject is in the a-state and the use of the strengthening [لَ]{.ar} is optional. For example,
+
+[إِنْ زَيْدًا مُسْلِمٌ.]{.ar}  
+"Indeed Zayd is a Muslim."
+
+### The lightened [أَنْ]{.ar} {#lightened-an}
+
+As we know, the heavy [أَنَّ]{.ar} is an emphatic particle and is frequently used with the pronoun of the fact, thus:
+
+[أَعْلَمُ أَنَّهُ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
+"I know that the fact is: the cold is intense."
+
+When we wish not to use much emphasis, we may replace
+the heavy [أَنَّ]{.ar} along with its following pronoun of the fact ([أَنَّهُ]{.ar}/[أَنَّهَا]{.ar}) with
+a lightened [أَنْ]{.ar}, thus:
+
+[أَعْلَمُ أَنِ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
+"I know that the cold is intense."
+
+Note that
+the lightened [أَنْ]{.ar} replaces 
+[أَنَّهُ]{.ar},
+which is the combination of
+heavy [أَنَّ]{.ar} _and_ the pronoun of the fact [هُ]{.ar}.
+So the pronoun of the fact ([هُ]{.ar}) does not appear with
+the lightened [أَنْ]{.ar}.
+
+<!--
+The combination of a heavy [أَنَّ]{.ar} with a following pronoun of the fact ([أَنَّهُ]{.ar}/[أَنَّهَا]{.ar}) may be replaced with
+a lightened [أَنْ]{.ar}. 
+The pronoun of the fact ([هُ]{.ar}/[هَا]{.ar}) is then deleted.
+
+only introduces topic-comment clauses whose topic is understood to be a deleted pronoun of the fact. 
+The lightened [أَنْ]{.ar} only introduces topic-comment clauses whose topic is understood to be a deleted pronoun of the fact. 
+The comment is, as usual, a complete sentence. 
+For example, consider the following sentence with a heavy [أَنَّ]{.ar}:
+
+[أَعْلَمُ أَنَّهُ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
+"I know that the fact is: the cold is intense."
+
+If we replace the heavy [أَنَّ]{.ar} in the above example with the lightened [أَنْ]{.ar} then we pronoun of the fact topic is deleted, thus:
+
+[أَعْلَمُ أَنِ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
+"I know that the cold is intense."
+-->
+
+In the above example, 
+the lightened [أَنْ]{.ar}
+introduces a comment which is a subject-predicate sentence.
+But the more common use of 
+the lightened [أَنْ]{.ar}
+is to introduce comments that are verbal sentences.
+
+When the comment of the 
+lightened [أَنْ]{.ar}
+is a verbal sentence, then it is  preferred to separate the verb from [أَنْ]{.ar} with one of the following:
+
+1. [قَدْ]{.ar}. Example:
+   
+   [أَظُنُّ أَنْ قَدْ غَرَبَتِ ٱلشَّمْسُ.]{.ar}  
+   "I think that the sun has set."
+
+2. [سَ]{.ar} or [سَوْفَ]{.ar}. Example:
+
+   [أَعْلَمُ أَنْ سَيَذْهَبُ.]{.ar}  
+   "I know that he will go."
+
+3. A negative particle like [لَا]{.ar}, [لَنْ]{.ar}, or [لَمْ]{.ar}.
+
+   [أَعْلَمُ أَنْ لَا يَذْهَبُ.]{.ar}  
+   "I know that he does/will not go."
+
+   Note that, in writing, we have not combined the lightened [أَنْ]{.ar} and [لَا]{.ar} to form [أَلَّا]{.ar}, as is done for the a-state-verbal [أَنْ]{.ar} (for example: [أَلَّا يَذْهَبَ]{.ar} "that he not go") in chapter\ \@ref(chapter-a-state-incomplete-action-verbs). This distinction in spelling is not obligatory, but some authorities recommend it. In any case, they are both pronounced the same: [EallA]{.trn}. <!--al nahw al wafi 4/298, cited by Arik Sadan p.30 -->
+
+   More examples:
+
+   [أَعْلَمُ أَنْ لَنْ يَذْهَبَ.]{.ar}  
+   "I know that he shall not go."
+
+   [أَعْلَمُ أَنْ لَمْ يَذْهَبْ.]{.ar}  
+   "I know that he did not go."
+
+   Note that the [لَنْ]{.ar} and [لَمْ]{.ar}, even when after the lightened [أَنْ]{.ar}, change the state of the following incomplete-action verb to the a-state and [0]{.txt}-state respectively.
+
+4. The conditional particle [لَوْ]{.ar}. We will study conditional sentences in chapter\ \@ref(conditional-sentences). TODO: add example.
+
+Rigid verbs like [لَيْسَ]{.ar} and verbs expressing supplications are exempted from needing to be separated from the lightened [أَنْ]{.ar}. Example:
+
+[ظَنَنْتُ أَنْ لَيْسَ ٱلْبَرْدُ شَدِيدًا.]{.ar}  
+"I thought that the cold is not intense."
+
+#### Distinguishing between the lightened [أَنْ]{.ar} and the a-state-verbal [أَنْ]{.ar} 
+
+Although they are similar in meaning,
+care must be taken to distinguish between this lightened [أَنْ]{.ar} and the a-state-verbal [أَنْ]{.ar} 
+(that we learned in chapter\ \@ref(chapter-a-state-incomplete-action-verbs)),
+The a-state-verbal [أَنْ]{.ar} puts the following incomplete action verb in the a-state.
+Whereas the incomplete action verb directly after the lightened [أَنْ]{.ar} remains in the u-state.
+The following guidelines can help to distinguish  between these two [أَنْ]{.ar}s:
+
++ If the verb before [أَنْ]{.ar} signifies certainty then only [أَنَّ]{.ar} and its lightened version [أَنْ]{.ar} is used. For example,
+
+  [أَعْلَمُ أَنْ قَدْ ذَهَبَ وَأَنْ سَيَرْجِعُ.]{.ar}  
+  "I know that he has gone and that he will return."
+
++ If the verb before [أَنْ]{.ar} signifies wanting, hoping, or expecting, then the [أَنْ]{.ar} puts the following verb in the a-state. For example,
+
+  [أَطْمَعُ أَلَّا يَذْهَبَ.]{.ar}  
+  "I hope that he not go."
+
+  Note that the verb [يَذْهَبَ]{.ar} is in the a-state.
+
++ If the verb before [أَنْ]{.ar} reflects a view of something going to occur, and signifies neither certainty nor expectation, but rather doubt or neutrality, then either of the [أَنْ]{.ar}s may be used, depending on the intended meaning. Such verbs include [ظَنَّ يَظُنُّ]{.ar} "to think" and [حَسِبَ يَحْسِبُ]{.ar} "to deem". For example,
+
+  a-state-verbal [أَنْ]{.ar}:  
+  [ظَنَنْتُ أَنْ يَرْجِعَ.]{.ar}  
+  "I thought that he should return."  
+
+  lightened [أَنْ]{.ar}:  
+  [ظَنَنْتُ أَنْ يَرْجِعُ.]{.ar}  
+  "I thought that he will return."
+
++ If the verb before [أَنْ]{.ar} does not reflect a view of something going to occur then the [أَنْ]{.ar} is typically the a-state-verbal [أَنْ]{.ar}. For example,
+
+  [سَرَّنِي أَنْ تَنْجَحَ]{.ar}  
+  "That you succeed [will have] gladdened me."
+
+  Remember from chapter\ \@ref(chapter-a-state-incomplete-action-verbs)), that the a-state-verbal [أَنْ]{.ar} can occur with completed-action verbs as well. Example:
+
+  [سَرَّنِي أَنْ نَجَحْتَ]{.ar}  
+  "That you have succeeded [has] gladdened me."
+
+### The lightened [كَأَنْ]{.ar}
+
+The lightened [كَأَنْ]{.ar} is similar to the lightened [أَنْ]{.ar} in that it introduces a topic-comment sentence and the topic is usually a deleted pronoun of the fact. For example,
+
+[كَأَنْ ٱلْبَرْدُ ذَهَبَ.]{.ar}  
+"[It is] as if the cold has gone."
+
+Also similar to the lightened [أَنْ]{.ar}, the lightened [كَأَنْ]{.ar} may introduce a verbal sentence but it must be separated from [كَأَنْ]{.ar} by either [قَدْ]{.ar} or [لَمْ]{.ar}. For example,
+
+[ذَهَبَ كَأَنْ لَمْ يَسْمَعْ.]{.ar}  
+"He went as if he did not hear."
+
+### The lightened [لَـٰكِنْ]{.ar}
+
+The lightened [لَـٰكِنْ]{.ar} has the same meaning as the heavy [لَـٰكِنَّ]{.ar} but it has no grammatical effect on the word or sentence after it. It may introduce either subject-information or verbal sentences. For example,
+
+[نَجَحَ زَيْدٌ لَـٰكِنْ صَدِيقُهُ لَمْ يَنْجَحْ.]{.ar}  
+"Zayd succeeded but his friend did not succeed."
+
+
+<!--chapter:end:srcrmd/inna_and_its_sisters.Rmd-->
 
 # (APPENDIX) Appendix {-}
 
