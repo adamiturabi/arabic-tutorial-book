@@ -2,7 +2,7 @@
 title: "Learn Standard Arabic"
 subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-811-g531645c"
+date: "v0.1.0-842-g5490665"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -9120,6 +9120,19 @@ In addition to [مَا]{.ar} [mA]{.trn}, incomplete-action verbs can be negated 
 
 The particles [سَـ]{.ar} [sa-]{.trn} and [سَوْفَ]{.ar} [sawfa]{.trn} may not be combined with [مَا]{.ar} [mA]{.trn} and [لَا]{.ar} [lA]{.trn} when negating verbs.
 
+## With [قَدْ]{.ar}
+
+TODO
+
+When negating a resembling verb preceded by 
+[قَدْ]{.ar}
+there is some question about whether [قَدْ]{.ar} is retained or dropped, 
+but the stronger opinion seems to be that it may be kept, as proven by the following verse of poetry:
+
+[وَقَدْ لَا تَعْدَمُ الْحَسْنَاءُ ذَامًا]{.ar}  
+"And [it] may be [that] the beautiful female does not lack a defect."  
+([ذَام]{.ar} means "defect".)
+
 
 <!--chapter:end:srcrmd/imperfect_verb_indic.Rmd-->
 
@@ -10686,6 +10699,508 @@ As you can see, [فُلَان]{.ar} "so-and-so" is actually the doer, and [ٱل�
 
 <!--chapter:end:srcrmd/passive_voice.Rmd-->
 
+# The verbal-nouns of the doer and the doee
+
+FIXME: 
+
++ move to later chapter, after [استفهام]{.ar} because [شروط إعمال اسم الفاعل]{.ar} relies on it.
++ add [الصفة المشبهبة]{.ar} _verb-like descriptive noun_ and its [عمل]{.ar}
++ add difference in [إعمال اسم الفاعل]{.ar} when it has [ال]{.ar} and when without.
++ add [اسم المفعول]{.ar} acting as verb with [نائب الفاعل]{.ar}
+
+See 
++ Wright vol. ii. p. 65+, and p. 195.
++ [النحو الوافي]{.ar} vol 3, p. 246+
++ Howell vol. 4, p 1606+
+
+## Introduction
+
+In the previous chapter we studied the verbal-noun of doing. In this chapter we shall study two more kinds of verbal-nouns. These are the doer verbal-noun and the doee-verbal noun. These, too, are nouns that can give the meaning of the verb they are derived from. In places, they may even replace the verb, thereby adding some nuances in meaning.
+
+The doer verbal-noun gives the meaning of the doer, that is the person doing the action of the verb. For example, for the verb [قَرَأَ يَقْرَأُ قِرَاءَةً]{.ar}  "to read", the doer verbal-noun is [قَارِئ]{.ar} [qAriE]{.trn} "a reader".
+
+## Pattern of the doer verbal-noun
+
+We saw in the previous chapter that the pattern for the doing verbal-noun for form\ 1 verbs was very variable. In contrast, the pattern for the doer verbal-noun for form\ 1 verbs is fixed. It is always on the pasttern [فَاعِل]{.ar} [fAeil]{.trn}. Also, the doer verbal-noun is modified for gender and number. Its forms its feminine by appending [ة]{.ar} thus: [فَاعِلَة]{.ar}. It takes sound plurals: the [-Un]{.trn} for the masculine, and the [-At]{.trn} plural for the feminine. In many case, it may also have broken plurals. Here is a table showing these modifications for the u-state. You should be able to extend them for the a-state and i-state.
+
+| Number | Masculine | Feminine |
+|:---|:---|:---|
+|singular|[فَاعِلٌ]{.ar} [fAeilun]{.trn}|[فَاعِلَةٌ]{.ar} [fAeilatun]{.trn}|
+|dual|[فَاعِلَانِ]{.ar} [fAeilAni]{.trn}|[فَاعِلَتَانِ]{.ar} [fAeilatAni]{.trn}|
+|plural|[فَاعِلُونَ]{.ar} [fAeilUna]{.trn}|[فَاعِلَاتٌ]{.ar} [fAeilAtun]{.trn}|
+
+## The doer verbal-noun as a noun
+
+Like the doing verbal-noun, the doer verbal noun occupies a place that is between a noun and a verb. The basic, most essential, meaning of the doer verbal noun is that of a noun which denotes the doer of the verb.
+
+So, for example, consider the verb [سَأَلَ يَسْأَلُ سُؤَالًا]{.ar}  "to question". Its doer verbal-noun is [سَائِل]{.ar}. Since it refers to the doer of this verb, we can translate it as "a questioner~m.~".
+
+By itself, the word [سَائِل]{.ar}  "a questioner" just denotes a noun. It does not indicate when the doer does the action of the verb: has the questioner already asked the question, is he asking it at present, or will he ask it in the future? So, for example, we can say:
+
+[سَيَقْدَمُ سَائِلٌ وَسَيَسْأَلُ سُؤَالًا.]{.ar}  
+[sayaqdamu sAEilun wasayaqdamu suEAlan.]{.trn}  
+"A questioner~m.~ will arrive and he will ask a question."
+
+In the above sentence, the doer verbal-noun is being described as performing the action of the verb in the future.
+
+Here is another example:
+
+[سَأَلَتِ ٱلْفَقِيهَ سَائِلَةٌ عَنْ أَمْرٍ.]{.ar}  
+[saEalati -lfaqIha sAEilatun ean Eamrin.]{.trn}  
+"A questioner~f.~ asked the jurist about a matter."
+
+In the above sentence, the doer verbal-noun is being described as having performed the action of the verb in the past.
+
+Doer verbal-nouns of form\ 1 verbs, when used with this nounal meaning, often have broken plurals, in addition to their sound plurals. Generally, either could be used in most cases, but the usage of the broken plurals is preferred.
+
+For example, consider the verb [قَتَلَ يَقْتُلُ قَتْلًا]{.ar}  "to kill ([ه]{.ar} s.o.)". Its doer verbal-noun is [قَاتِل]{.ar} "a killer~m.~". Its sound plural is [قَاتِلُونَ]{.ar} [qAtilUna]{.trn} and its broken plurals are [قُتَّال]{.ar} [quttAl]{.trn} and [قَتَلَة]{.ar} [qatalah]{.trn}. Any of these could be used but the broken plural is often preferred.
+
+[هَرَبَ قَتَلَةُ ٱلرَّجُلِ إِلَىٰ مَخْبَئِهِمْ.]{.ar}  
+[haraba qatalatu -rrajuli EilA maxbaEihim.]{.trn}  
+"The killers of the man fled to their hideout."
+
+## The doer verbal-noun as a verb
+
+We have learned that the essential meaning of the doer verbal-noun is the doer of the action of the verb from which it is derived. In addition to this essential meaning, the doer verbal-noun can also be used in place of the verb from which it is derived. This is only done when the verb to be replaced is the incomplete-action verb. The doer verbal-noun does not replace the completed-action verb. We will now explain this usage.
+
+### Usage of the doer verbal-noun as a present tense verb
+
+Consider the following sentence:
+
+[يَذْهَبُ زَيْدٌ إِلَى ٱلْمَدْرَسَةِ.]{.ar}  
+[yaphabu zaydun Eila -lmadrasati.]{.trn}  
+"Zayd goes to school."
+
+The above sentence does not explicitly specify whether Zayd is actually going to school at present, or that he goes to school habitually and not necessarily right now.
+
+If we wish to indicate that Zayd is actually going to school at present we can replace the incomplete-action verb with the indefinite doer verbal-noun. So we get:
+
+[زَيْدٌ ذَاهِبٌ إِلَى ٱلْمَدْرَسَةِ.]{.ar}  
+[yaphabu zaydun Eila -lmadrasati.]{.trn}  
+"Zayd is going to school."
+
+Note that the same preposition [إِلَىٰ]{.ar} [EilA]{.trn} "to" is used with the doer verbal-noun as is used with the verb.
+Also note that this is now a subject-information sentence instead of a verbal sentence. [زَيْدٌ]{.ar} [zaydun]{.trn} "Zayd" is the subject, and [ذَاهِبٌ]{.ar} [pAhibun]{.trn} is part of the information.
+
+This usage of the doer verbal-noun to indicate that the action of the verb is ocurring at present is mostly done for what we call _verbs of posture_ and _verbs of motion_.
+
+Verbs of posture denote a static position or activity of the doer's body and include verbs like sitting, standing, lying down, sleeping, etc.
+
+Verbs of motion denote a moving action of the doer's body and include verbs like
+going, coming, running, etc.
+
+So, if, for example, we say,
+
+[زَيْنَبُ جَالِسَةٌ عَلَى هَـٰذَا ٱلْكُرْسِيِّ.]{.ar}  
+[zaynabu jAlisatun eala hApa -lkursiyyi.]{.trn}  
+"Zaynab is sitting on this chair."
+
+this indicates that Zaynab is sitting on this chair at present. And if we say,
+
+[تَجْلِسُ زَيْنَبُ عَلَى هَـٰذَا ٱلْكُرْسِيِّ.]{.ar}  
+[tajlisu zaynabu eala hApa -lkursiyyi.]{.trn}  
+"Zaynab sits on this chair."
+
+this indicates that Zaynab usually sits on this chair.
+
+If this usage of the doer verbal-noun to indicate a present action is mostly only for verbs of posture and motion, how then do we indicate this distinction for other verbs? We have answered this in section [TODO: add section to incomplete-action verb] where we said that in order to give the meaning that the action of the verb is happening right now, a verbal sentence can be converted to a subject-information sentence. 
+
+### Usage of the doer verbal-noun as a future tense verb {#doer-verbal-noun-for-intended-future-action}
+
+The doer verbal-noun may be used in place of the verb it is derived from to indicate an intent on the part of the doer, or to indicate that the action will occur in the future.
+
+This usage of the doer verbal-noun is not just for verbs of posture and motion like the present tense usage. Rather, it is for all verbs in general.
+
+And since intention is something that is mostly expressed by the speaker for himself, rather than for someone else, we will often find this usage with the subject [أَنَا]{.ar} [Eana]{.trn} "I".
+
+#### With an indirect doee
+
+Here is an example of the usage of the doer verbal-noun as a future tense verb with an indirect doee:
+
+<!--
+[فَرَغْتُ مِنْ عَمَلِي فَأَنا ذَاهِبٌ  إِلَى ٱلْبَيْتِ.]{.ar}  
+[faragtu min eamalI faEana pAhibun Eila -lbayti.]{.trn}  
+"I have got done with my work so I'm going home."
+
+The context would tell us whether the person is talking about his intention to go home in the immediate future, or whether he has already started and is going home at present.
+-->
+
+[أَنَا ذَاهِبٌ إِلَىٰ بَيْتِ صَدِيقِي فِي ٱلصَّبَاحِ.]{.ar}  
+[Eana pAhibun EilA bayti SadIqI fi -SSabAHi.]{.trn}  
+"I'm going to go to my friend's house in the morning."
+
+In the above sentence it is possible for the phrase 
+[فِي ٱلصَّبَاحِ]{.ar}
+[fi -SSabAHi]{.trn}
+"in the morning"
+to be ommitted for the same meaning. In that case, surrounding context could tell us that the person is intending to go in the future, and is not actually in the process of going there at present.
+
+Here is another example (by a female speaker):
+
+[عِنْدِي كُرَةٌ فِي ٱلْبَيْتِ فَأَنَا رَاجِعَةٌ إِلَى ٱلْبَيْتِ وَلَاعِبَةٌ بِهَا.]{.ar}  
+[eindI kuratun fi -lbayti faEana rAjieatun Eila -lbayti walAeibatun bihA.]{.trn}  
+"I have a ball at home, so I'm going to go home and play with it."
+
+#### Difference with the particles [سَـ]{.ar} [sa-]{.trn} and [سَوْفَ]{.ar} [sawfa]{.trn}
+
+We have already learned a method to express a future action using the particles [سَـ]{.ar} [sa-]{.trn} and [سَوْفَ]{.ar} [sawfa]{.trn} with the incomplete-action verb. So we could also have said:
+
+[سَأَذْهَبُ إِلَىٰ بَيْتِ صَدِيقِي.]{.ar}  
+[saEaphabu EilA bayti SadIqI.]{.trn}  
+"I will to go to my friend's house."
+
+The difference between using the particles [سَـ]{.ar} [sa-]{.trn} and [سَوْفَ]{.ar} [sawfa]{.trn} and using the doer verbal-noun is that using the doer verbal-noun signifies more emphasis, or, as a possible consequence of the emphasis, that the action is more imminent. That is:
+
+[أَنَا ذَاهِبٌ ...]{.ar}  
+[Eana pAhibun ...]{.trn}  
+"I will [definitely] go ..."  
+or  
+"I'm going to go ..."
+
+[سَأَذْهَبُ ...]{.ar}  
+[saEaphabu ...]{.trn}  
+"[Soon] I will go ..."
+
+#### With a direct doee
+
+If a verb takes a direct doee, and we wish to use the direct doee with the verb's doer verbal-noun when the doer verbal-noun is acting as a verb, then we may deal with it in one of three ways:
+
+1. The direct doee in a-state following the doer verbal-noun
+
+   The most basic method of dealing with a direct doee of a doer verbal noun is by placing it in the a-state right after the doer verbal-noun. Here is an example,
+   
+   [قَدْ دَخَلَ ٱلْمَدِينَةَ رَجُلٌ شَرِيرٌ. هُوَ **قَاتِلٌ سُكَّانَهَا**.]{.ar}  
+   [qad daxala -lmadInata rajulun carIrun. hua qAtilun sukkAnahA.]{.trn}  
+   "An evil man has entered the city. He is going to kill its residents."
+   
+   <!-- Wright says: When the اسم الفاعل is indefinite then مفعول به منصوب is only allowed under certain scenarios: The اسم الفاعل is a خبر or other attribute, or a negative sentence, or a question. (vol. ii, § 30, p. 65). This seems similar to prohibition of indef subjects so I don't think it is necessary to add that detail here. It seems like doer verbal-noun will naturally be a predicate.-->
+
+2. The direct doee in i-state annexed to the doer verbal-noun
+
+   The combination of the doer verbal-noun and following direct doee in the a-state is often replaced with an annexation of the doer verbal-noun to the i-state direct doee. So, for example, instead of the above example, we can say:
+   
+   [قَدْ دَخَلَ ٱلْمَدِينَةَ رَجُلٌ شَرِيرٌ. هُوَ **قَاتِلُ سُكَّانِهَا**.]{.ar}  
+   [qad daxala -lmadInata rajulun carIrun. hua qAtilu sukkAnihA.]{.trn}  
+   "An evil man has entered the city. He is going to kill its residents."
+
+   Note that [قَاتِلُ سُكَّانِهَا]{.ar} [qAtilu sukkAnihA.]{.trn} can also support the non-verbal meaning of the doer verbal-noun: "killer of its residents", i.e., he has already killed its residents in the past. So, when an annexation is used with a doer verbal-noun, we will often need surrounding context to tell us whether the verbal (incomplete-action) meaning is intended, or the noun  meaning.
+
+   This usage of annexing the doer verbal-noun to the i-state direct doee instead of employing the more basic usage of the doer verbal-noun and a following a-state direct doee is optional, but fairly common. In fact, when the doer-verbal noun is indefinite and [nUn]{.trn2}ated, and the direct doee begins with [ٱَلْ]{.ar} [Eal]{.trn}, then the annexation usage becomes predominant over the basic a-state usage. So we will be more likely to see:
+
+   [أَنَا فَاعِلُهُ.]{.ar}  
+   [Eana fAeiluhu.]{.trn}  
+
+   instead of:
+
+   [أَنَا فَاعِلٌ إِيَّاهُ.]{.ar}  
+   [Eana fAeilun EiyyAhu.]{.trn}  
+
+   for the meaning: "I will do it." Note again, that the latter sentence could also support the nounal meaning of the doer-verbal noun: "I am its doer.", i.e., "the one who did it."
+
+   Similarly, it will be more common to find:
+
+   [هُوَ قَاتِلُ ٱلنَّاسِ.]{.ar}  
+   [huwa qAtilu -nnAsi.]{.trn}  
+
+   instead of:
+
+   [هُوَ قَاتِلٌ ٱلنَّاسَ.]{.ar}  
+   [huwa qAtiluni -nnAsa.]{.trn}  
+
+   for the meaning: "He is going to kill the people." Note, once again, that the former sentence also supports the meaning: "He is the people's killer.", i.e., "the one who killed them", and that context would be needed to tell us which of the two meanings is intended.
+
+   The annexation of a doer verbal-noun to its direct doee in the i-state is not the kind of "proper" annexation that we have learned so far. In fact, it is called an _improper annexation_ and we shall study it in more detail in chapter [TODO], if [#allAh]{.trn2} wills.
+
+3. Quite similar to what we learned in section\ \@ref(the-direct-doee-in-i-state-preceded-by-the-preposition-%D9%84-li) for doing verbal-nouns, the direct doee can follow the doer verbal-noun in the i-state preceded by the preposition [لِ]{.ar} [li]{.trn}.
+
+   <!--Quran:  إنل له لحافظون -->
+   This is often optional, as an alternative to the above two methods. For example,
+   
+   [هُوَ قَاتِلٌ لَهُمْ.]{.ar}  
+   [huwa qAtilun lahum.]{.trn}  
+   "He will kill them."
+   
+   Using [لِ]{.ar} [li]{.trn} in this manner is also a technique to move the direct doee before the doer verbal-noun for effect, if desired. For example,
+   
+   [هُوَ لَهُمْ قَاتِلٌ.]{.ar}  
+   [huwa lahum qAtilun.]{.trn}  
+   "He will kill them."
+
+### The definite doer verbal-noun as a verb
+
+<!-- from Quran:  الكاظمين الغيظ ، المؤتون الزكاة , many be improper annexxation too -->
+So far we have seen only an indefinite doer verbal-noun being used with the meaning of an incomplete-action verb. However, the definite doer verbal-noun, too, can give this meaning. The meaning is often in the present tense. Here are some examples:
+
+With an indirect doee:
+
+[قَدِمَ زَيْدٌ ٱلذَّاهِبُ إِلَى ٱلْجَامِعَةِ.]{.ar}  
+[qadima zayduni -ppAhibu Eila -ljAmieati.]{.trn}  
+"Zayd, the one who goes to the university, has arrived."
+
+With a direct doee in the a-state:
+
+[هَرَبْتُ مِنَ ٱلْأَسَدِ ٱلْآكِلُ ٱلْإِنْسَانَ.]{.ar}  
+[harabtu mina -lEasadi -lEAkilu -lEinsAna.]{.trn}  
+"I fled from the lion, the one that eats man."
+
+With a direct doee in the i-state preceded by the preposition [لِ]{.ar} [li]{.trn}:
+<!--[قَدْ سَفِهَ ٱلْفَاسِقُ ٱلشَّارِبُ لِلْخَمْرِ.]{.ar}  
+[qad safiha -lfAsiqu -ccAribu lilxamri.]{.trn}  
+"The evil-doer, the one who drinks wine, has become foolish."-->
+
+[سَيَنْجَحُ ٱلطَّالِبُ ٱلتَّارِكُ لِلَّهْوِ.]{.ar}  
+[sayanjaHu -TTAlibu -ttAriku lillahwi.]{.trn}  
+"The student, the one who leaves idle amusement, will succeed."
+
+### Plurals of the doer verbal-noun when used as a verb
+
+We mentioned in section\ \@ref(the-doer-verbal-noun-as-a-noun) that doer-verbal nouns when used with their nounal meaning often have broken plurals along with their sound plural.
+We gave the example of the doer verbal-noun
+[قَاتِل]{.ar} [qAtil]{.trn} "a killer~m.~" with the sound plural is [قَاتِلُونَ]{.ar} [qAtilUna]{.trn} and the broken plurals [قُتَّال]{.ar} [quttAl]{.trn} and [قَتَلَة]{.ar} [qatalah]{.trn}.
+
+When the doer verbal-noun is used as a verb, only the sound plural is permitted to be used, and the broken plurals, if any are not used. So we can only say:
+
+[هُمْ قَاتِلُونَ ٱلنَّاسَ.]{.ar}  
+[hum qAtilUna -nnAsa.]{.trn}  
+and  
+[هُمْ قَاتِلُو ٱلنَّاسِ.]{.ar}  
+[hum qAtilu -nnAsi.]{.trn}  
+for  
+"They will kill the people."  
+not, for example  
+$\times$\ [هُمْ قُتَّالٌ ٱلنَّاسَ.]{.ar}  
+
+(In the second sentence, the [ن]{.ar} of [قَاتِلُونَ]{.ar} is ommitted because it is an annexe noun).
+
+## The doee verbal-noun
+
+The doee verbal-noun for form\ 1 verbs is on the pattern [مَفْعُول]{.ar} [mafeUl]{.trn}. It carries the meaning of the person or thing to whom the action of the verb has been done. For example, the doee verbal-noun for the verb
+[قَتَلَ يَقْتُلُ قَتْلًا]{.ar}  "to kill ([ه]{.ar} s.o.)"
+is [مَقْتُول]{.ar} [maqtUl]{.trn} and means "a killed person".
+
+### The plural of the doee verbal noun
+
+The doee verbal-noun almost always takes the sound plurals [-Un]{.trn} for masculine intelligent beings, and [-At]{.trn} otherwise. Therefore the plural of the doee verbal-noun 
+[مَقْتُول]{.ar} [maqtUl]{.trn} "a killed person~m.~" is [مَقْتُولُونَ]{.ar} [maqtUlUna]{.trn} "killed persons~m.~".
+and the plural of the doee verbal-noun 
+[مَقْتُولَة]{.ar} [maqtUlah]{.trn} "a killed person~f.~" is [مَقْتُولَات]{.ar} [maqtUlAt]{.trn} "killed persons~f.~".
+
+There are a only a few doee verbal-nouns that, as an exception, have broken plurals. The broken plural for these exceptions is than always on the pattern ^2^[مَفَاعِيل]{.ar} [mafAeIl]{.trn}^2^. For example, the doee verbal-noun for the verb
+[لَعَنَ يَلْعَنُ لَعْنًا]{.ar}  "to curse ([ه]{.ar} s.o.)" is [مَلْعُون]{.ar} [maleUn]{.trn} "accursed" and its plural is ^2^[مَلَاعِين]{.ar} [malAeIn]{.trn}^2^.
+
+### Usage of the doee verbal-noun
+
+Much of what has been said regarding the doer verbal-noun applies to the doee verbal-noun as well: The doee verbal-noun may be used with a verbal meaning for the incomplete-action verb only. So if we say:
+
+[هُوَ مَقْتُولٌ.]{.ar}  
+[huwa maqtUl]{.trn}
+
+with a verbal meaning, then it means "He will be killed." And if we say it using its nounal meaning, then it means "He is the person killed."
+
+Unlike the doer verbal-noun which can take doees, since the doee verbal-noun is itself the doee, there is no question of it taking other doees. So this does simplify matters.
+
+### The doee verbal-nouns of indirect doee verbs
+
+Consider the verb
+[سَأَلَ يَسْأَلُ سُؤَالًا]{.ar}  "to question ([ه عن]{.ar} s.o. about s.th.)".
+
+Here it is used in a sentence:
+
+[سَأَلَ زَيْدٌ زَيْنَبَ عَنْ حَادِثَةٍ.]{.ar}  
+[saEala zaydun zaynaba ean HAdivah.]{.trn}  
+"Zayd questioned Zaynab about an accident."
+
+In this sentence, [زَيْدٌ]{.ar} [zaydun]{.trn} "Zayd" is the doer. The corresponding doer verbal-noun that refers to him is [سَائِل]{.ar} [sAEil]{.trn} "a questioner~m.~".
+Next, [زَيْنَبَ]{.ar} [zaynaba]{.trn} "Zaynab" is the direct doee. The corresponding doee verbal-noun that refers to her is [مَسْؤُولَة]{.ar} [masEUlah]{.trn} "a questioned person~f.~".
+But how, now, do we refer to the indirect doee: [حَادِثَةٍ]{.ar} [Hadivatin]{.trn} "an accident"? The answer is that the doee verbal-noun referring to this indirect doee is [مَسْؤُول عَنْهَا]{.ar} [masEUl eanhA]{.trn} "a thing~f.~ questioned about".
+
+Let's analyze this term [مَسْؤُول عَنْهَا]{.ar} [masEUl eanhA]{.trn} "a thing questioned about" carefully. The first word is [مَسْؤُول]{.ar} [masEUl]{.trn} which shall always be singular masculine, regardless of the gender and number of the indirect doee. The second word is [عَنْهَا]{.ar} [eanhA]{.trn} "about it". Here [عَنْ]{.ar} [ean]{.trn} is the same preposition that has been used with the verb. And [هَا]{.ar} [hA]{.trn} is the pronoun that refers to the indirect doee [حَادِثَةٍ]{.ar} [Hadivatin]{.trn} "an accident". If the number or gender of the indirect doee were to change then this would be reflected in this pronoun. 
+
+So, for example, if we say,
+
+[نَظَرَ زَيْدٌ إِلَى ٱلرِّجَالِ.]{.ar}  
+[naPara zaydun Eila -rrijAli.]{.trn}  
+"Zayd looked at the men."
+
+then, the doee verbal-noun that refers to [ٱلرِّجَالِ]{.ar} [EarrijAli]{.trn} "the men" is [مَنْظُور إِلَيْهِمْ]{.ar} [manPUr Eilayhim]{.trn} "persons~m.~ looked at".
+
+If doee verbal-nouns of indirect doees are used in sentences then it is the first word (in this case [مَنْظُور]{.ar} [manPUrun]{.trn}) that changes for definiteness and state (but not for gender or number, as already discussed). Here are some examples:
+
+From the verb [لَعِبَ يَلْعَبُ لَعِبًا]{.ar} "to play ([هـ]{.ar} s.th.)":
+
+[هَـٰذِهِ ٱلْكُرىٰ هِيَ ٱلْمَلْعُوبُ بِهَا.]{.ar}  
+[hApi -lkurA hiya -lmaleUbu bihA.]{.trn}  
+"These balls are the ones played with."
+
+From the verb [أَمَرَ يَأْمُرُ أَمْرًا]{.ar}  "to order ([ه]{.ar} s.o. [ب]{.ar} to do s.th.)":
+
+[فَعَلَ ٱلْغُلَامُ ٱلْمأمُورَ بِهِنَّ.]{.ar}  
+[faeala -lgulAmu -lmaEmUra bihinna.]{.trn}  
+"The boy did the [things] ordered to do."
+
+(Remember that the feminine plural pronouns may be used to refer to plural non-intelligent beings, regardless of their grammatical gender, in order to indicate plurality.)
+
+Having said all this, in practice, you may find that indirect doees are sometimes treated as direct doees when forming their doee verbal-noun. This is especially common when forming plurals for terms that are very common. So instead of referring to "[things] ordered to do" in the above example as 
+[ٱَلْمأمُورَ بِهِنَّ]{.ar}
+[EalmaEmUra bihinna]{.trn}, you may find the word [ٱَلْمَأْمُورَاتِ]{.ar} [EalmaEmUrAti]{.trn} used instead.
+
+TODO: The doee verbal noun for indirect doees may have some ambiguity with the doee verbal for direct doees. [مسؤول عنه]{.ar} can also be "the person who is asked about it" where the pronoun has been substituted for a noun, for example [مسؤول عن الأمر]{.ar} . In this case it is the word [مسؤول]{.ar} which will be feminized and pluralized. [المسؤولون عنه]{.ar} "the persons asked about it."
+
+For that matter [ساءل عنه]{.ar} is also valid as "the questioner about it".
+<!--[سَأَلَ زَيْدٌ زَيْنَبَ عَنِ ٱلرِّجَالِ.]{.ar}  
+[saEala zaydun zaynaba eani -rrijAli.]{.trn}  
+"Zayd questioned Zaynab about the men."
+
+then, the doee verbal-noun that refers to [ٱلرِّجَالِ]{.ar} [EarrijAli]{.trn} "the men" is [مَسْؤُولٌ عَنْ
+-->
+
+<!--[أَمْرٌ]{.ar} [Eamrun]{.trn} "a matter"? It is -->
+
+## Doer and doee verbal-nouns re-used as adjectival-nouns
+
+Doer and doee verbal-nouns are often re-used as adjectival-nouns with meanings that are directly formed from their doer and doee meaning respectively. Here are some examples:
+
+|Verb | Doer/doee verbal-noun | Adjectival-noun meaning|
+|:------|:-|:--|
+|[نَعُمَ يَنْعُمَ نُعُومَةً]{.ar} "to be soft" | [نَاعِم]{.ar} | "soft" |
+|[يَبِسَ يَيْبَسُ يُبُوسَةً]{.ar} "to be dried up" | [يَابِس]{.ar} | "dried up" |
+|[حَضَرَ يَحْضُرُ حُضُورًا]{.ar} "to be present" | [حَاضِر]{.ar} | "present (attending)" |
+|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} "to gather ([هـ]{.ar} s.th.)"| [جَامِع]{.ar}  | "comprehensive" |
+|[لَمَعَ يَلْمَعُ لَمْعًا وَلَمَعَانًا]{.ar} "to be shiny" | [لَامِع]{.ar} | "shiny" |
+|[فَتَحَ يَفْتَحُ فَتْحًا]{.ar} "to open ([هـ]{.ar} s.th.)" | [مَفْتُوح]{.ar} | "open" |
+|[شَهَرَ يَشْهَرُ شَهْرًا]{.ar} "to make famous ([ه، هـ]{.ar} s.o., s.th.)" | [مَشْهُور]{.ar} | "famous" |
+
+### Genderizability of doer and doee verbal-nouns when re-used as adjectival-nouns
+
+When a doer or doee verbal-noun is re-used as an adjectival-noun, then it generally retains its genderizability. For example,
+
+[بَابٌ مَفَتُوحٌ]{.ar}  
+[bAbun maftUHun]{.trn}  
+"an open door"
+
+and
+
+[نَافِذَةٌ مَفَتُوحَةٌ]{.ar}  
+[nAfipatun maftUHatun]{.trn}  
+"an open window"
+
+If, however, the adjectival-noun is only applicable to females, then, only a female adjectival-noun is formed but, peculiarly, without the feminine marker [ة]{.ar}. The most common example is from the verb:
+[حَمَلَ يَحْمِلٌ حَمْلًا]{.ar} "to carry ([هـ]{.ar} s.th.)". The doer verbal-noun is [حَامِل]{.ar} [HAmil]{.trn} "a carrier". The adjectival-noun formed from the doer verbal-noun is "pregnant", but because it is only applicable to females, it does not get the feminine marker [ة]{.ar}. For example,
+
+[ٱَلْمَرْأَةُ حَامِلٌ.]{.ar}  
+[EalmarEatu HAmil.]{.trn}  
+"The woman is pregnant."
+
+This does not affect the doer verbal-noun when it is not used with this adjectival-noun meaning. For example,
+
+[ٱَلْمَرْأَةُ حَامِلَةُ ٱلْمَاءِ.]{.ar}  
+[EalmarEatu HAmilatu -lmAE.]{.trn}  
+"The woman will carry the water."  
+or  
+"The woman is the water-carrier."
+
+### Corresponding with English adjectives
+
+Sometimes both the doer verbal-noun and the doee verbal-noun are used in Arabic with distinct meanings where we would use the same word in English. For example, the verb
+[عَقَلَ يَعْقِلُ عَقْلًا]{.ar} [eaqala yaeqilu eaqlan]{.trn} means "to make sense ([هـ]{.ar} of s.th.)".
+Its doer verbal-noun [عَاقِل]{.ar} [eAqil]{.trn} means "one who makes sense (of something)" and may be re-used as an adjectival noun meaning "sensible" when it refers to a person who makes sense of something. For example,
+
+[زَيْدٌ غُلَامٌ عَاقِلٌ.]{.ar}  
+[zaydun gulAmun eAqil.]{.trn}  
+"Zayd is a sensible boy."
+
+Its doee verbal-noun [مَعْقُول]{.ar} [maeqUl]{.trn} means "something which makes sense" and may be re-used as an adjectival noun meaning "sensible" when it refers to a something which makes sense. For example,
+
+[هَـٰذَا مَنْهَجٌ مَعْقُولٌ.]{.ar}  
+[hApA manhajun maeqUl.]{.trn}  
+"This is a sensible approach."
+
+## Doer and doee verbal-nouns re-used as common nouns
+
+The doer verbal-noun is often re-used as a common noun with a meaning that is either directly, or indirectly related to the meaning of the verb. For example, the doer verbal-noun of the verb [سَأَلَ يَسْأَلُ سُؤَالًا]{.ar} [saEala yasEalu suEAlan]{.trn} is [سَائِل]{.ar} "a questioner" with the sound plural [سَائِلُونَ]{.ar} [sAEilUna]{.trn} and the broken plurals [سُؤَّال]{.ar} [suEEAl]{.trn} and [سَأَلَة]{.ar} [saEalah]{.trn}.
+
+The word [سَائِل]{.ar} [sAEil]{.trn} "a questioner" is re-used with the meaning "a beggar". The association in meaning is that a beggar continually asks people for money. 
+
+The re-use of a doer verbal-noun or doee verbal-noun as a common noun does not prevent it from being used with its doer/doee or verbal meaning any more. 
+[سَائِل]{.ar} [sAEil]{.trn} may be used to mean both "a questioner" and "a beggar", and context will help us determine which of the meanings is intended.
+
+When a doer verbal-noun is re-used as a common noun then only the broken plural, if it exists, may be used. The sound plural is only permitted to be used if no broken plurals exist. Here are some more examples of doer verbal-nouns re-used as common nouns:
+<!--
+|Verb | Doer verbal-noun | Plural | Common noun meaning|
+|:------|:--|:--|:--|
+|[عَلِمَ يَعْلَمُ عِلْمًا]{.ar} [ealima yaelamu eilman]{.trn} "to know ([هـ]{.ar} s.th.)" | [عَالِمٌ]{.ar} [eAlimun]{.trn} | [عُلَمَاءُ]{.ar} [eAlimun]{.trn}| "a scholar"|
+|[لَعِبَ يَلْعَبُ لَعِبًا]{.ar} [laeiba yaleabu laeiban]{.trn} "to play ([هـ]{.ar} s.th.)" | [لَاعِبٌ]{.ar} [lAeibun]{.trn} | [لَاعِبُونَ]{.ar} [lAeibUna]{.trn} | "a player"|
+|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} [jamaea yajmaeu jamean]{.trn} "to gather ([هـ]{.ar} s.th.)"| [جَامِعَةٌ]{.ar} [jAmieatun]{.trn} | [جَامِعَاتٌ]{.ar} [jAmieAtun]{.trn} | "a university" |
+|[حَدَثَ يَحْدُثُ حُدُوثًا]{.ar} [Hadava yaHduvu HudUvan]{.trn} "to happen" | [حَادِثَةٌ]{.ar} [Hadivatun]{.trn} | [حَوَادِثُ]{.ar} [HawAdivu]{.trn} | "an accident" |
+-->
+
+|Verb | Doer/doee verbal-noun | Plural | Common noun meaning|
+|:------|:-|:-|:--|
+|[عَلِمَ يَعْلَمُ عِلْمًا]{.ar} "to know ([هـ]{.ar} s.th.)" | [عَالِم]{.ar}  | ^2^[عُلَمَاء]{.ar} | "a scholar"|
+|[طَلَبَ يَطْلُبُ طَلَبًا]{.ar} "to seek ([هـ]{.ar} s.th.)" | [طَالِب]{.ar}  | [طُلَّاب، طَلَبَة]{.ar} | "a student"|
+|[لَعِبَ يَلْعَبُ لَعِبًا]{.ar} "to play ([هـ]{.ar} s.th.)" | [لَاعِب]{.ar}  | [لَاعِبُونَ]{.ar}  | "a player"|
+|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} "to gather ([هـ]{.ar} s.th.)"| [جَامِعَة]{.ar}  | [جَامِعَات]{.ar}  | "a university" |
+|[جَمَعَ يَجْمَعُ جَمْعًا]{.ar} "to gather ([هـ]{.ar} s.th.)"| [جَامِع]{.ar}  | ^2^[جَوَامِع]{.ar}  | "a mosque (in which the Friday prayers are performed)" |
+|[حَدَثَ يَحْدُثُ حُدُوثًا]{.ar} "to happen" | [حَادِثَةٌ]{.ar}  | ^2^[حَوَادِث]{.ar}  | "an accident" |
+|[شَرِبَ يَشْرَبُ شُرْبًا]{.ar} "to drink ([هـ]{.ar} s.th.)" | [شَارِب]{.ar}  | ^2^[شَوَارِب]{.ar}  | "a moustache" |
+|[سَحَلَ يَسْحَلُ سَحْلًا]{.ar} "to abrade ([هـ]{.ar} s.th.)" | [سَاحِلٌ]{.ar}  | ^2^[سَوَاحِل]{.ar}  | "a seashore" |
+|[ضَمِنَ يَضْمَنُ ضَمَانًا]{.ar} "to guarantee ([هـ]{.ar} s.th.)" | [مَضْمُوxk]{.ar} | ^2^[مَضَامِين]{.ar} | "a content (of a letter, etc.)"|
+|[دَخَلَ يَدْخُلُ دُخُولًا]{.ar} "to enter" | [دَاخِل]{.ar} | none | "inside" |
+|[خَرَجَ يَخْرُجُ خُرُوجًا]{.ar} "to exit" | [خَارِج]{.ar} | none | "outside" |
+
+The last two [دَاخِلٌ]{.ar} "inside" and  [خَارِجٌ]{.ar} "outside" are notable. Here, for example, is how they can be used:
+
+[غَسَلَ ٱلْكُوبَ مِنْ دَاخِلٍ.]{.ar}  
+[gasala -lkUba min dAxilin.]{.trn}  
+"He washed the tumbler from inside."
+
+### Genderizability of doer and doee verbal-nouns when re-used as common nouns
+
+When a doer or doee verbal-noun is re-used as a common noun, then it loses its genderizability. For example, if we wish to say "The building is a university." we will say:
+
+[ٱَلْبِنَاءُ جَامِعَةٌ.]{.ar}  
+[EalbinAEu jAmieah.]{.trn}  
+"The building is a university."
+
+We cannot masculinize [جَامِعَة]{.ar} [jAmieah]{.trn} "a university" to [جَامِع]{.ar} [jAmie]{.trn} in order to make it match the gender of [بِنَاء]{.ar} [binAE]{.trn} (masc.) "a building". Were we to do so, then 
+[جَامِع]{.ar} [jAmie]{.trn} would get interpreted with either:
+
+1. Its doer verbal-noun meaning "a gatherer":
+
+   "The building is a gatherer."
+
+   which doesn't make sense as a sentence.
+
+2. Or, with the common noun meaning of [جَامِع]{.ar} [jAmie]{.trn}, if one happens to exist. There is such a meaning in this case: "a mosque (in which the Friday prayers are performed)". So then we would get:
+
+   [ٱَلْبِنَاءُ جَامِعٌ.]{.ar}  
+   [EalbinAEu jAmieun.]{.trn}  
+   "The building is a mosque (in which the Friday prayers are performed)."
+
+3. Or, with the adjectival noun meaning of [جَامِع]{.ar} [jAmie]{.trn}, if one happens to exist. There is such a meaning in this case: "comprehensive". So then we would get:
+
+   [ٱَلْبِنَاءُ جَامِعٌ.]{.ar}  
+   [EalbinAEu jAmieun.]{.trn}  
+   "The building is comprehensive."
+
+None of these give the original meaning we intended: "The building is a university." So, in summary,
+once a doer or doee verbal-noun is re-used as a common noun, it loses its genderizability. 
+
+Having said this, when a doer verbal-noun is re-used as a common noun that applies to humans, both the masculine and feminine common-noun typically exist together. So for example,
+
+[عَالِم]{.ar} [eAlim]{.trn} is re-used as the common-noun for "a (male) scholar" with the plural ^2^[عُلَمَاء]{.ar} [eulamAE]{.trn}. 
+And  
+[عَالِمَة]{.ar} [eAlimah]{.trn} is re-used as the common-noun for "a (female) scholar" with the plural [عَالِمَات]{.ar} [eAlimAt]{.trn}.
+
+In such cases, i.e., when applicable to humans, the dictionary will generally only list, and supply the definition for the masculine common-noun. The reader is expected to know that its feminine exists and how to form it.
+
+There are exceptions, however. The verb [جَرَىٰ يَجْرِي جَرْيًا]{.ar} [jarA yajrI jaryan]{.trn} "to run" is formed from the root [جري]{.arroot}. This is a weak root because of the letter [ي]{.ar} in it, and we will study it in more detail later in chapter\ \@ref(roots-with-weak-final-letter). In any case, its feminine doer verbal-noun is [جَارِيَة]{.ar} [jAriyah]{.trn} and is re-used for the common noun meaning "a girl". The masculine doer verbal noun is not re-used as a common noun for the meaning "a boy".
+
+<!--Unless, the common-noun is biologically or professionally applied to one of the genders, in which case, only one may exist.-->
+
+
+<!--chapter:end:srcrmd/doer_verbal_noun.Rmd-->
+
 # The verb [كَانَ]{.ar} {#the-verb-kaana}
 
 ## Introduction
@@ -10772,7 +11287,7 @@ That is, without the information, the sentence is deficient.
 | [أَنْتَ لِي أَخٌ.]{.ar}               | [كُنْتَ لِي أَخًا.]{.ar}            |
 | "You~1m~ are a brother to me.   | "You~1m~ were a brother to me.|
 
-## Sequence of [كَانَ]{.ar}, its subject, and its information
+### Sequence of [كَانَ]{.ar}, its subject, and its information
 
 In sentence word order, the natural sequence is 
 <!--[كَانَ]{.ar}, its subject, and its information, as -->
@@ -10781,12 +11296,12 @@ verb, subject, information.
 [كَانَ زَيْدٌ قَائِمًا.]{.ar}  
 "Zayd was standing."
 
-but we may also say, for the same meaning:
+but we may also, for the same meaning, apply the sequence verb, information, subject:
 
 [كَانَ قَائِمًا زَيْدٌ.]{.ar}  
 "Zayd was standing."
 
-and also:
+and also the sequence information, verb, subject:
 
 [قَائِمًا كَانَ زَيْدٌ.]{.ar}  
 "Zayd was standing."
@@ -10818,12 +11333,12 @@ The following apparent sequence is also possible:
 [زَيْدٌ كَانَ قَائِمًا.]{.ar}  
 "Zayd: he was standing."
 
-This is actually a topic-comment sentence.
+But this is actually a topic-comment sentence.
 [زَيْدٌ]{.ar} is the topic.
 And the comment is [كَانَ قَائِمًا]{.ar}, which is itself a [كَانَ]{.ar} subject-information sentence in the sequence verb, subject, information.
 The subject is the hidden pronoun "he" and the information is [قَائِمًا]{.ar}.
 
-## Plurals of non-rational beings with [كَانَ]{.ar}
+### Plurals of non-rational beings with [كَانَ]{.ar}
 
 Because [كَانَ]{.ar} sentences are subject-information being sentences, 
 many of the rules that we have learned for subject-information sentences also apply to [كَانَ]{.ar} sentences.
@@ -10844,7 +11359,7 @@ Also allowed, but not as common:
 [ٱلثِّيرَانُ كَانَتْ ضِخَامًا.]{.ar}  
 [ٱلثِّيرَانُ كُنَّ ضَخْمَاتٍ.]{.ar}  
 
-## [كَانَ]{.ar} with a separating pronoun
+### [كَانَ]{.ar} with a separating pronoun
 
 Another rule that applies to subject-information sentences, and that carries over to 
 [كَانَ]{.ar} sentences, is that
@@ -10883,7 +11398,46 @@ So this is, in fact, a topic-comment sentence.
 [ٱَلْمُوْمِنُونَ]{.ar} is the topic and the subject of [كَانَ]{.ar}.
 The information of [كَانَ]{.ar} is the comment [هُمُ ٱلفَائِزُونَ]{.ar}, which is itself a subject-information sentence with a u-state subject ([هُمْ]{.ar}) and a u-state information ([ٱلْفَائزُونَ]{.ar}).
 
-## The resembling verb of [كَانَ]{.ar}
+### Negating [كَانَ]{.ar}
+
+Like other past verbs,
+the verb [كَانَ]{.ar}
+may be negated by preceding it with the particle [مَا]{.ar}. For example:
+
+[مَا كَانَ إِبْرَٰهِيمُ يَهُودِيًّۭا وَلَا نَصْرَانِيًّۭا وَلَـٰكِن كَانَ حَنِيفًۭا مُّسْلِمًۭا وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ]{.ar}  
+"Abraham was neither a Jew nor a Christian, but he was one inclining toward truth, a Muslim [submitting to Allāh]. And he was not of the polytheists."
+([al-#qurEAn]{.trn2} 3:67, translation Saheeh International)
+
+A similar meaning may be obtained with the particle [لَمْ]{.ar} followed by the
+[0]{.txt}-state
+resembling verb
+[يَكُنْ]{.ar}.
+This is dealt with in section\ \@ref(lam-yakun) below.
+
+### Gender of a pronoun subject of [كان]{.ar}
+
+Remember from section\ \@ref(gender-of-pronoun-subject) that when the subject of a sentence is a pronoun, 
+then it may optionally either match the gender of the noun it refers to,
+or the the gender of the predicate.
+This rules carries over to [كَانَ]{.ar} subject-information sentences as well. For example:
+
+[ذَهَبْتُ إِلَى ٱلسُّوقِ فِي ٱلصَّبَاحِ. وَكَانَتْ لِي عَادَةً.]{.ar}  
+"I went to the market in the morning. And it was a habit for me."
+
+[وَرَكِبُوهُمْ فَكَانَتْ هَزِيمَتَهُمْ]{.ar}  
+"And they bore down upon them and it was their defeat."
+
+Note, how, in the above examples, [كَانَتْ]{.ar} has a [ت]{.ar} of femininity to match the feminine gender of the information [عَادَة]{.ar} "habit", and [هَزِيمَتَهُمْ]{.ar} "their defeat".
+
+### A pronoun as the information of [كَانَ]{.ar}
+
+TODO
+
+## The resembling verb [يَكُونُ]{.ar}
+
+The rules related to [كَانَ]{.ar}, its subject, and its information, that we have given above apply also to its resembling verb [يَكُونُ]{.ar}.
+
+We will now discuss the usages of the specific states of the resembling verb.
 
 ### The u-state resembling verb [يَكُونُ]{.ar}
 
@@ -10893,15 +11447,631 @@ There are actually a few uses of this verb. We will explain them below:
 
 #### [يَكُونُ]{.ar} used for habitual "is"
 
+Consider the sentence, "The mother cooks the food." 
+The verb "cooks" implies that the action is habitually done, not necessarily that it is being done at present. 
+If we wished to say that the action is being done at present, we might instead say, "The mother _is cooking_ the food."
+English maintains this distinction between the present and the habitual for most verbs.
+But it does not for ther verb "is".
+So if we say, "The sky is blue," then it can mean both 
+(i) that the sky is blue at present, or 
+(ii) that it is habitually blue, not necessarily that it is blue at present.
 
+In Arabic the situation is somewhat different.
+Arabic does not usually have a distinction between the present and the habitual for most verbs. So [تَطْبُخُ الْأُمُّ الطَّعَامَ.]{.ar}  may mean both
+(i) that the mother is cooking the food at present, or
+(ii) that she habitually does.
+
+<!--However, interestingly, Arabic does have the distinction between the present and the habitual for the verb "is".
+As you know, Arabic does not usually express a word for the present "is".-->
+But for the verb "is", Arabic can distinguish between the present and the habitual.
+So if we say [السَّمَاءُ زَرْقَاءُ]{.ar}, then this can, in general, mean both
+(i) that the sky is blue at present, and
+(ii) that it is habitually blue.
+If we wish to emphasize the habitual meaning, we may use the resembling verb [يَكُونُ]{.ar}, thus:
+
+[تَكُونُ السَّمَاءُ زَرْقَاءَ.]{.ar}  
+"The sky is [habitually] blue."
+
+While we call this the 
+habitual [يَكُونُ]{.ar},
+it can include a range of meanings, including
+continually, recurringly, regularly, typically, generally, often, sometimes, can, may, etc.
+Habitual [يَكُونُ]{.ar} is negated using [مَا]{.ar} or [لَا]{.ar}, just like other u-state resembling verbs.
+
+Here are some examples:
+
+[قَالَ وَمَا الْبِتْعُ وَالْمِزْرُ؟ قُلْتُ شَرَابٌ يَكُونُ مِنَ الْعَسَلِ وَالْمِزْرُ يَكُونُ مِنَ الشَّعِيرِ]{.ar}  
+"He said: 'What is mead and beer?' I said: 'A drink [made] from honey, and beer is [made] from barley.'  
+<!--(From [سنن النسائي]{.ar}:5604)-->
+(Part of [HadIv]{.trn2} 5604 from [#sunan al-#nisAEI]{.trn2})
+
+<!--
+[إِنَّ أَحَدَكُمْ لَيَعْمَلُ بِعَمَلِ أَهْلِ الْجَنَّةِ حَتَّى مَا يَكُونُ بَيْنَهُ وَبَيْنَهَا إِلاَّ ذِرَاعٌ]{.ar}  
+"One of you will do deeds of the people of Paradise, until there is between him and it but a forearm span"  
+(Part of [HadIv]{.trn2} 2137 from [#jAmie al-#tirmipI]{.trn2})
+From [جامع الترمذي]{.ar}:2137)-->
+
+[يَكُونُ اللِّحَافُ وِسَادَةً وَلَا تَكُونُ الْوِسَادَةُ لِحَافًا.]{.ar}  
+"The blanket can be a pillow but the pillow cannot be a blanket."
+
+[مَا يَكُونُ الرَّجُلُ صَدِيقَكَ حَتّى يَصْدُقَكَ.]{.ar}  
+"A man is not your friend until he is truthful to you."
+
+##### [قَدْ يَكُونُ]{.ar} for "may be"
+
+When the meaning "may be" is desired, the 
+the resembling verb
+[يَكُونُ]{.ar}
+may be preceded by the particle [قَدْ]{.ar}. For example,
+
+[قَدْ يَكُونُ الاسْتِهْزَاءُ كُفْرًا.]{.ar}  
+"Mocking may be a disbelief."
 
 #### [يَكُونُ]{.ar} used for future "will be"
 
+Another usage of the resembling verb
+[يَكُونُ]{.ar}
+is for the future tense to mean "will be".
+In this case, it is often preceded by [سَ]{.ar} or [سَوْفَ]{.ar}.
+[سَ]{.ar} and [سَوْفَ]{.ar} are optional and are commonly dropped, especially when the context indicates the future.
+Future [يَكُونُ]{.ar}
+is negated by [لَا]{.ar}.
+Here are some examples:
+
+[فَقَدْ كَذَّبْتُمْ فَسَوْفَ يَكُونُ لِزَامًا]{.ar}  
+"For you [disbelievers] have denied, so it [i.e., your denial] is going to be adherent."  
+([al-#qurEAn]{.trn2} 25:77, translation Saheeh International)
+
+[لا يَكونُ اللَّعَّانُونَ شُفَعَاءَ وَلَا شُهَدَاءَ يَومَ القِيَامَةِ]{.ar}  
+"The frequent cursers will be neither intercessors nor witnesses [on] the day of resurrection."  
+([#HadIv]{.trn2} 1553 from [#riyAD al-#SAliHIn]{.trn2}, [يَوْمَ]{.ar} is in the a-state because it is an adverb of time, see chapter\ \@ref(adverb-of-time).)
+
+[يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ]{.ar}  
+"It is the Day when people will be like moths, dispersed,"  
+([al-#qurEAn]{.trn2} 101:4, translation Saheeh International)
+
+### The a-state resembling verb [يَكُونَ]{.ar}
+
+Like a-state resembling verbs in general, [يَكُونَ]{.ar} "be" expresses the meaning of purpose, wish, or expectation. It occurs after the particles
+[أَنْ]{.ar},
+[لَنْ]{.ar},
+[لِ]{.ar},
+[كَيْ]{.ar},
+[حَتَّىٰ]{.ar}, and
+[إِذَنْ]{.ar}.
+All this is consistent with what we have learned about a-state resembling verbs in chapter\ \@ref(a-state-incomplete-action-verbs).
+Here are some examples:
+
+[نَزَلَ بِهِ ٱلرُّوحُ ٱلْأَمِينُ. عَلَىٰ قَلْبِكَ لِتَكُونَ مِنَ ٱلْمُنذِرِينَ]{.ar}  
+"The Trustworthy Spirit [i.e., Gabriel] has brought it down. Upon your heart, [O Muḥammad] - that you may be of the warners -"  
+([al-#qurEAn]{.trn2} 26:193--194, translation Saheeh International)
+
+[لَّن يَسْتَنكِفَ ٱلْمَسِيحُ أَن يَكُونَ عَبْدًۭا لِّلَّهِ وَلَا ٱلْمَلَـٰٓئِكَةُ ٱلْمُقَرَّبُونَ]{.ar}  
+"Never would the Messiah disdain to be a servant of Allāh, nor would the angels near [to Him]"  
+(From [al-#qurEAn]{.trn2} 4:172, translation Saheeh International)
+
+[أَفَأَنتَ تُكْرِهُ ٱلنَّاسَ حَتَّىٰ يَكُونُوا۟ مُؤْمِنِينَ]{.ar}  
+"Then, [O Muḥammad], would you compel the people in order that they become believers?"  
+([al-#qurEAn]{.trn2} 10:99, translation Saheeh International)
+
+### The [0]{.txt}-state resembling verb [يَكُنْ]{.ar} {#lam-yakun}
+
+The [0]{.txt}-state resembling verb [يَكُنْ]{.ar} 
+is used consistent with the usage of 
+[0]{.txt}-state resembling verbs in general.
+(See chapter\ \@ref(0-state-resembling-verbs).)
+
+For example:
+
+[وَلْتَكُن مِّنكُمْ أُمَّةٌۭ يَدْعُونَ إِلَى ٱلْخَيْرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ]{.ar}  
+"And let there be [arising] from you a nation inviting to [all that is] good, enjoining what is right and forbidding what is wrong,1 and those will be the successful."  
+[From al-[#qurEAn]{.trn2} 3:104, translation by Saheeh International]
+
+[ٱلْحَقُّ مِن رَّبِّكَ فَلَا تَكُن مِّنَ ٱلْمُمْتَرِينَ]{.ar}  
+"The truth is from your Lord, so do not be among the doubters."
+[From al-[#qurEAn]{.trn2} 3:60, translation by Saheeh International]
+
+[لَمْ يَكُنِ النَّبِيُّ صلى الله عليه وسلم سَبَّابًا وَلاَ فَحَّاشًا وَلاَ لَعَّانًا]{.ar}  
+"The Prophet (ﷺ) was not one who would abuse (others) or say obscene words, or curse (others)"  
+[From [#HadIv]{.trn2} in [al-#buxArI]{.trn2}:6031]
+
+#### Deletion of [ن]{.ar}
+
+The [ن]{.ar} may (irregularly) be deleted
+for the [0]{.txt}-state resembling verbs that don't have a [و]{.ar} before them. 
+These are:
+
++ [يَكُنْ]{.ar}, becomes [يَكُ]{.ar}
++ [تَكُنْ]{.ar}, becomes [تَكُ]{.ar}
++ [نَكُنْ]{.ar}, becomes [نَكُ]{.ar}
++ [أَكُنْ]{.ar}, becomes [أَكُ]{.ar}
+
+This may only be done when the word following the verb does not begin with a connecting hamzah [ٱ]{.ar}.
+Examples:
+
+[وَلَا تَكُ فِى ضَيْقٍۢ مِّمَّا يَمْكُرُونَ]{.ar}  
+"and do not be in distress over what they conspire."  
+[From al-[#qurEAn]{.trn2} 16:127, translation by Saheeh International]
+
+[وَقَدْ خَلَقْتُكَ مِن قَبْلُ وَلَمْ تَكُ شَيْـًۭٔا]{.ar}  
+"for I created you before, while you were nothing"  
+[From al-[#qurEAn]{.trn2} 19:9, translation by Saheeh International]
+
+But we can't say:
+
+$\times$ [لَمْ تَكُ ٱلرَّجُلَ.]{.ar}  
+
+This is because [ٱلرَّجُل]{.ar} begins with with a connecting hamzah [ٱ]{.ar}. So we have to say instead:
+
+[لَمْ تَكُنِ ٱلرَّجُلَ.]{.ar}  
+"You were not the man."
 
 
-#### [يَكُونُ]{.ar} used for "may be"
+## The verb of command [كُنْ]{.ar} {#kun}
 
+The verb of command [كُنْ]{.ar} is used to mean "Be!". Examples:
 
+[قُلْنَا يَـٰنَارُ كُونِى بَرْدًۭا وَسَلَـٰمًا عَلَىٰٓ إِبْرَٰهِيمَ]{.ar}  
+We [i.e., Allāh] said, "O fire, be coolness and safety upon Abraham."  
+[al-[#qurEAn]{.trn2} 21:69, translation by Saheeh International]
+
+[فَقُلْنَا لَهُمْ كُونُوا۟ قِرَدَةً خَـٰسِـِٔينَ]{.ar}  
+"and We said to them, 'Be apes, despised.'  
+[From al-[#qurEAn]{.trn2} 2:65, translation by Saheeh International]
+
+The verb of command [كُنْ]{.ar} followed by the name of a person in the a-state is used to express one's guessing that the person whom one sees
+ is the individual named. For example:
+
+[كُنْ زَيْدًا.]{.ar}  
+"I presume that the person approaching is Zayd."  
+or  
+"I guess that you are Zayd."  
+
+## The complete [كَانَ]{.ar}
+
+The verb [كَانَ]{.ar} that we have been using so far is called the _deficient_
+[كَانَ]{.ar}.
+It is called so because its meaning is deficient without its information. For example, in the sentence
+[كَانَ زَيْدٌ قَائِمًا]{.ar} "Zayd was standing,"
+if we remove the information [قَائِمًا]{.ar} then the sentence is not complete for the desired meaning.
+
+There is another type of
+[كَانَ]{.ar}
+called the _complete_
+[كَانَ]{.ar}.
+This 
+[كَانَ]{.ar}
+does not need an information to complete its meaning. 
+This 
+[كَانَ]{.ar}
+gives the meaning of "exists".
+In English, we usually express this meaning using "there was". For example,
+
+[كَانَ مَلِكٌ.]{.ar}  
+"There was a king."  
+(literally: "A king was.")
+
+Note that [مَلِك]{.ar} "king" is in the u-state as the subject.
+If it were in the a-state, then it would change the meaning:
+
+[كَانَ مَلِكًا.]{.ar}  
+"He was a king."
+
+Here are some more examples:
+
+[كَانَ تَاجِرٌ وَكَانَ لَهُ بَنُونَ.]{.ar}  
+"There was a trader, and he had sons."
+
+Incidentally, as you can see, the past verb of "have": "has" is expressed using [كَانَ]{.ar}:
+
+[كَانَ عِنْدِي كِتَابٌ.]{.ar}  
+"I had a book."  
+(literally: "A book was for me.")
+
+[يَكُونُ فِي آخِرِ الزَّمَانِ دَجَّالُونَ كَذَّابُونَ]{.ar}  
+"There will be in the end of time charlatan liars"  
+[From [#HadIv]{.trn2} in [#SaHIH #muslim]{.trn2}:7]
+
+[إِنَّهَا تَكُونُ الظُّلْمَةُ وَالسَّيْلُ]{.ar}  
+"[At times there] is darkness and flooding"  
+[From [#HadIv]{.trn2} in [#SaHIH al-#buxArI]{.trn2}:667]
+
+[لَمْ تَكُنِ ٱلْحَرْبُ.]{.ar}  
+"The war didn't occur."  
+(literally: "The war was not.")
+
+## Time signification of the past verb [كَانَ]{.ar}
+
+The general siginification of the past verb 
+[كَانَ]{.ar}
+is to indicate a state that existed in the past, and that has possibly ceased.
+For example:
+
+[كَانَ زَيْدٌ قَائِمًا]{.ar}  
+"Zayd was standing."
+
+This statement is regarding Zayd's state in the past and the implication is that he is possibly no longer standing.
+
+This is the most common signification of the past verb
+[كَانَ]{.ar}
+and the one that we have been using so far.
+But
+[كَانَ]{.ar}
+is special in that it admits additional significations:
+
+The second signification of
+[كَانَ]{.ar}
+is to indicate a state that, at first, had not yet begun, and which then began and remained, possibly up to the present.
+It has, in this sense, the meaning "became", "has become", or "happened". Examples:
+
+[أَبَىٰ وَٱسْتَكْبَرَ وَكَانَ مِنَ ٱلْكَـٰفِرِينَ]{.ar}  
+"He refused and was arrogant and became of the disbelievers."  
+[From al-[#qurEAn]{.trn2} 2:34, translation by Saheeh International]
+
+[احْتَرَقَ الْخَشَبُ فَكَانَ تُرَابًا.]{.ar}  
+"The wood burned and so became dust."
+
+A third signification of
+[كَانَ]{.ar}
+is
+to indicate a state that will be in the future.
+For example:
+
+[وَيَخَافُونَ يَوْمًۭا كَانَ شَرُّهُۥ مُسْتَطِيرًۭا]{.ar}  
+"and [they] fear a Day whose evil will be widespread."  
+[From al-[#qurEAn]{.trn2} 76:7, translation by Saheeh International]
+
+A fourth signification of 
+[كَانَ]{.ar}
+is to indicate a state that always existed and will always exist. For example:
+
+[وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۢا]{.ar}  
+"And ever is Allāh Forgiving and Merciful."  
+[From al-[#qurEAn]{.trn2} 33:73, translation by Saheeh International]
+
+[وَلَا تَقْرَبُوا۟ ٱلزِّنَىٰٓ ۖ إِنَّهُۥ كَانَ فَـٰحِشَةًۭ وَسَآءَ سَبِيلًۭا]{.ar}  
+"And do not approach unlawful sexual intercourse.1 Indeed, it is ever an immorality and is evil as a way."  
+[From al-[#qurEAn]{.trn2} 17:32, translation by Saheeh International]
+
+<!-- Reference البحر المحيط لأبي حيان تفسير كنتم خير أمة-->
+
+## [كَانَ]{.ar} combined with other verbs
+
+The past verb
+[كَانَ]{.ar}
+and its resembling verb
+[يَكُونُ]{.ar}
+are combined with other verbs to express complex tenses in the past and the future, respectively.
+We will explain these combinations below.
+
+### [كَانَ]{.ar} combined with a resembling verb
+
+[كَانَ]{.ar}
+is combined with a following resembling verb to express that the action of the verb was repeatedly or continually ocurring in the past.
+For example:
+
+[كَانَ زَيْدٌ يَكْتُبُ.]{.ar}  
+"Zayd was writing."  
+or  
+"Zayd used to write."  
+or  
+"Zayd would write."  
+
+This sentence can be analyzed grammatically as a topic-comment sentence.
+The subject of 
+[كَانَ]{.ar}
+is [زَيْد]{.ar} and it is the topic of the sentence.
+The information of [كَانَ]{.ar} is itself a sentence [يَكْتُبُ]{.ar} "he writes", and it is the comment of the main sentence.
+
+The order of the subject and the resembling verb can be re-arranged for the same meaning thus:
+
+[كَانَ يَكْتُبُ زَيْدٌ.]{.ar}  
+
+Now, two grammatical analyses are possible:
+
+1. [زَيْد]{.ar} is the doer of [يَكْتُبُ]{.ar}, and the subject of [كَانَ]{.ar} is a hidden pronoun of the fact.
+2. [زَيْد]{.ar} is the delayed subject of [كَانَ]{.ar} and [يَكْتُبُ]{.ar} is the information of [كَانَ]{.ar}. The doer of [يَكْتُبُ]{.ar} is a hidden pronoun.
+
+Either way, the meaning, as we have mentioned, is the same.
+Here are some more examples for different types of doers/subjects:
+
+<!--[كَانَ يُحِبُّ ٱلشِّعْرَ وٱلشُّعَرَاءَ.]{.ar}  
+"He used to love poetry and the poets."
+-->
+
+[كَانَ يَعْبُدُ مُشْرِكُو مَكَّةَ ٱلْأَصْنَامَ.]{.ar}  
+or  
+[كَانَ مُشْرِكُو مَكَّةَ يَعْبُدُونَ ٱلْأَصْنَامَ.]{.ar}  
+"The polytheists of Makkah used to worship idols."
+
+[كَانَتْ تُحِبُّ الصَّدَقَةَ.]{.ar}  
+"She used to love [to practice] charity."  
+[From [#HadIv]{.trn2} in [#SaHIH al-#buxArI]{.trn2}:1420]
+
+[كَانَت تَّأْتِيهِمْ رُسُلُهُم بِٱلْبَيِّنَـٰتِ]{.ar}  
+"their messengers used to come to them with clear evidences"  
+[From al-[#qurEAn]{.trn2} 64:6, translation by Saheeh International]  
+(Sound plurals, even of rational beings, may be treated as grammatically singular feminine. See section\ \@ref(sound-plurals-sing-fem).)
+
+[كُنْتُ أَلْعَبُ بِالْبَنَاتِ عِنْدَ النَّبِيِّ صلى الله عليه وسلم وَكَانَ لِي صَوَاحِبُ يَلْعَبْنَ مَعِي]{.ar}  
+"I used to play with dolls in the presence of the Prophet, and I had companions~f~ playing with me."  
+[From [#HadIv]{.trn2} in [#SaHIH al-#buxArI]{.trn2}:6130]
+
+The following resembling verb may also be an unknown-doer verb. Example:
+
+[إِنَّ أُنَاسًا كَانُوا يُؤْخَذُونَ بِالْوَحْىِ فِي عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم]{.ar}  
+"Indeed people were (sometimes) judged (literally: held) by the [revealing of] divine inspiration in the lifetime of the Prophet."  
+[From [#HadIv]{.trn2} in [#SaHIH al-#buxArI]{.trn2}:2641]
+
+#### One [كَانَ]{.ar} suffices multiple resembling verbs
+
+If the signification of an action ocurring continually in the past applies to more that one resembling verb, then it is sufficient to prefix 
+[كَانَ]{.ar}
+to only the first one. Example:
+
+[كَانَتْ تَعْمَلُ بِيَدِهَا وَتَصَدَّقُ]{.ar}  
+"She used to work with her hand and spend (that income) on charity."
+[From [#HadIv]{.trn2} in [#SaHIH #muslim]{.trn2}:2452]  
+([تَتَصَدَّقُ]{.ar} is abbreviated to [تَصَدَّقُ]{.ar}. See section\ \@ref(form-5-verbs-abbrev).)
+
+#### Negation of [كَانَ]{.ar} and a resembling verb
+
+In order to negate the combination of
+[كَانَ]{.ar}
+and the following resembling verb,
+multiple options are available. Using [يَفْعَلُ]{.ar} as an example resembling verb, we can have:
+
++ [مَا كَانَ يَفْعَلُ]{.ar}
++ [كَانَ لَا يَفْعَلُ]{.ar}
++ [لَمْ يَكُنْ يَفْعَلُ]{.ar}
+
+Examples:
+
+[مَا كَانَ أَحَدٌ يَبْدَأُ، أَوْ يَبْدُرُ، ابْنَ عُمَرَ بِالسَّلامِ]{.ar}  
+"No one preceded or got ahead of Ibn [#eumar]{.trn2} with (giving) the greeting."  
+[[#HadIv]{.trn2} in [al-#adab al-#mufrad]{.trn2}:982]
+
+[كَانُوا۟ لَا يَتَنَاهَوْنَ عَن مُّنكَرٍۢ فَعَلُوهُ]{.ar}  
+"They used not to prevent one another from wrongdoing that they did."   
+[From al-[#qurEAn]{.trn2} 5:79, translation by Saheeh International]
+
+[لَمْ يَكُونُوا يَسْأَلُونَ عَنِ الإِسْنَادِ]{.ar}  
+"They would not ask about the chains of narration"  
+[From [#SaHIH #muslim]{.trn2}:Introduction]
+
+#### The combination of [كَانَ]{.ar} with [يَكُونُ]{.ar}
+
+Interestingly, 
+[كَانَ]{.ar}
+can be combined with its own resembling verb
+[يَكُونُ]{.ar}
+This gives the meaning "was being" or "used to be".
+[يَكُونُ]{.ar} is, in this combination, often optional and may be dropped for no change in meaning. Examples:
+
+[كَانَ يَكُونُ فِي مِهْنَةِ أَهْلِهِ]{.ar}  
+[From [#SaHIH al-#buxArI]{.trn2}:676]  
+and  
+[كَانَ فِي مِهْنَةِ أَهْلِهِ]{.ar}  
+[From [#SaHIH al-#buxArI]{.trn2}:6039]  
+"He used to keep himself busy serving his family"
+
+[رِجَالٌ كَانُوا يَكُونُونَ مَعَ ٱلْمُلُوكِ]{.ar}  
+"men that used to be with the kings"
+
+[كَانَ يَكُونُ فِي ٱلْبَيْتِ]{.ar}  
+"He used to be in the house."
+
+#### Possible past occurrence
+
+Sometimes
+[كَانَ]{.ar}
+is used with a resembling verb to express an action that could have occurred in the past, or should have. Examples:
+
+[كَانَ يَكُونُ سُوءَ أَدَبٍ.]{.ar}  
+"It would have been a misbehavior."
+
+[فَقَالَ حُذَيْفَةُ أَنْتَ كُنْتَ تَفْعَلُ ذَلِكَ]{.ar}  
+"[#Hupayfah]{.trn2} said: 'You might have done that.'"  
+[From [#SaHIH #muslim]{.trn2}:1788]
+
+#### Omission of [كَانَ]{.ar}
+
+If one or more past verbs precedes the resembling verb 
+or if the context indicates that the action was occurring in the past, then
+[كَانَ]{.ar}
+can be omitted, and the resembling verb is used by itself. For example:
+
+[قُلْ فَلِمَ تَقْتُلُونَ أَنۢبِيَآءَ ٱللَّهِ مِن قَبْلُ]{.ar}  
+"Say, "Then why did you kill the prophets of Allāh before"  
+[From al-[#qurEAn]{.trn2} 2:91, translation by Saheeh International]  
+(No [كُنْتُمْ]{.ar} before [تَقْتُلُونَ]{.ar}.)
+
+[وَٱتَّبَعُوا۟ مَا تَتْلُوا۟ ٱلشَّيَـٰطِينُ عَلَىٰ مُلْكِ سُلَيْمَـٰنَ ۖ]{.ar}  
+"And they followed [instead] what the devils had recited during the reign of Solomon"  
+[From al-[#qurEAn]{.trn2} 2:102, translation by Saheeh International]  
+(No [كَانَتْ]{.ar} before [تَتْلُو]{.ar}.)
+
+#### [كَانَ]{.ar} followed by a doer or doee verbal-noun instead of a resembling verb
+
+Instead of a resembling verb after [كَانَ]{.ar}, its doer or doee verbal noun may be used instead. 
+And this can give the effect of a state of being rather than an action being done.
+For example:
+
+[كَانَ سَاكِنًا فِي ٱلْمَدِينَةِ.]{.ar}  
+"He was dwelling in the city."
+
+[كَانَتِ ٱلْعُصِيُّ مَرْكُوزَةً فِي ٱلْأَرْضِ.]{.ar}  
+"The staffs were sticking in the ground."  
+([كَانَتْ تُرْكَزُ]{.ar} would imply that they were being stuck.)
+
+When the verbal noun refers to an action taking place in the future, the idea of futurity is transferred to a past time. For example:
+
+[أَمْرٌ كَانَ مَفْعُولًا]{.ar}  
+"a matter which was to be done"
+
+### [كَانَ]{.ar} combined with a past verb
+
+[كَانَ]{.ar}
+is combined with a following past verb to denote 
+an action completed prior to some past (specified or implied) point in time.
+Example:
+
+[مَاتَ ٱلرَّشِيدُ بِطُوسَ وَكَانَ خَرَجَ إِلَىٰ خُرَاسَانَ لِمُحَارَبَةِ رَافِعِ بْنِ ٱللَّيْثِ.]{.ar}  
+"[al-#racId]{.trn2} died at [#TUs]{.trn2} after (literally: and) he had set out for [#xurAsAn]{.trn2} to combat [#rAfie ibn al-#layv]{.trn2}."
+
+The particle [قَدْ]{.ar} is often used when
+[كَانَ]{.ar} is combined with a past verb.
+[قَدْ]{.ar}
+may be placed either between
+[كَانَ]{.ar}
+and the following past verb, or before
+[كَانَ]{.ar}.
+Examples:
+
+[كُنْتُ قَدْ رَبَّيْتُ جَارِيَةً]{.ar}  
+"I had brought up a girl"
+
+[قَدْ كَانَتْ فَرَغَتْ مِنْ عَمَلِهَا.]{.ar}  
+"She had been done with her work."
+
+When their are multiple past verbs, and one (or more) of them occurred
+farther in the past than the others, it is indicated with 
+[قَدْ]{.ar},
+the others having merely
+[كَانَ]{.ar}.
+We re-use a previous example here and extend it:
+
+[مَاتَ ٱلرَّشِيدُ بِطُوسَ وَكَانَ خَرَجَ إِلَىٰ خُرَاسَانَ لِمُحَارَبَةِ رَافِعِ بْنِ ٱللَّيْثِ.]{.ar}  
+[وَكَانَ رَافِعٌ هَـٰذَا قَدْ خَرَجَ وَخَلَعَ ٱلطَّاعَةَ وَتَغَلَّبَ عَلَىٰ سَمَرْقَنْدَ.]{.ar}  
+"[al-#racId]{.trn2} died at [#TUs]{.trn2} after he had set out for [#xurAsAn]{.trn2} to combat [#rAfie ibn al-#layv]{.trn2}.
+And this [#rAfie]{.trn2} had already rebelled and cast off his allegiance and taken forcible posession of Samarqand."  
+(Note how 
+[قَدْ]{.ar}
+is only used before 
+[#rAfie]{.trn2}'s action of rebelling.)
+
+#### Negation
+
+This combination may, again, be negated in multiple ways. Examples:
+
+[لاَ يَأْتِي ابْنَ آدَمَ النَّذْرُ بِشَىْءٍ لَمْ يَكُنْ قَدْ قَدَّرْتُهُ]{.ar}  
+"Vowing does not bring to the son of Adam anything I have not already written in his fate,"  
+[From [#SaHIH al-#buxArI]{.trn2}:6609]  
+
+[وَدِدْتُ أَنِّي لَمْ أَكُنْ خَرَجْتُ الْعَامَ]{.ar}  
+"I wish I had not come out (for [#Hajj]{.trn2}) this year"  
+[From [#sunan #abI #dawUd]{.trn2}:1778]  
+
+[وَمَا كَانَ قَدْ أَتَاهَا بِشَيْءٍ]{.ar}  
+"And he had not brought her anything"
+
+### [يَكُونُ]{.ar} combined with a past verb
+
+The resembling verb
+[يَكُونُ]{.ar}
+is compined with a past verb (often with an interposed [قَدْ]{.ar})
+to express that the action is conceived of having been completed in the future.
+Examples:
+
+[يَكُونُ قَدْ وَجَبَ عَلَيْكَ صَدَقَةٌ]{.ar}  
+"Charity will have been incumbent upon you"  
+[From [#mickAt al-#maSAbIH]{.trn2}:1793]  
+
+[فَلْنَأْخُذْهُ فَنَكُونُ قَدْ أَخَْذْنَا عِوَضًا]{.ar}  
+"Let us take him for (then) we will have taken a substitute"
+
+#### a-state [يَكُونَ]{.ar} combined with a past verb
+
+An a-state [يَكُونَ]{.ar} is combined with a past verb
+to express being in a state of an action having occurred
+or that might have occurred. For example:
+
+[خَافَ أَنْ يَكُونَ قَدْ خَطَأَ]{.ar}  
+"He feared that he could have erred."
+
+[وَيَجُوزُ أَنْ يَكُونُوا قَدْ سُبِقُوا]{.ar}  
+"And that they might have been preceded is possible"
+
+[يَشْطَرِطُ فِي ٱلنَّائِبِ أَنْ يَكُونَ قَدْ حَجَّ عَنْ نَفْسِهِ]{.ar}  
+"It is conditional for the deputy that he be in as state of already having performed the [#Hajj]{.trn2} for himself."
+
+### Verb of command [كُنْ]{.ar} combined with a resembling verb
+
+Ocassionally,
+the verb of command [كُنْ]{.ar} is combined with a resembling verb, thus:
+
+[كُنْ أَنْتَ تُكَلِّمُهُمْ]{.ar}  
+"You be speaking to them!"
+
+## [كَانَ]{.ar} with the [ل]{.ar} of denial
+
+One special use of 
+[كَانَ]{.ar} 
+is what is termed the
+[ل]{.ar}
+_of denial_.
+This is a negative 
+[كَانَ]{.ar} 
+(either
+[مَا كَانَ]{.ar} 
+or
+[لَمْ يَكُنْ]{.ar} with the appropriate suffixes or prefixes for the subject)
+followed by [لِ]{.ar}
+and then an a-state resembling verb.
+This expresses the meaning of:
+
+ i. to deny being the one to do something, or 
+ii. to deny going to do something
+
+Here are some examples:
+
+[لَمْ تَكُنْ زَيْنَبُ لِتَضْرِبَ وَلَدَهَا]{.ar}  
+"Zaynab was not one to beat her child."  
+or  
+"Zaynab was not going to beat her child."  
+
+[وَمَا كَانَ ٱللَّهُ لِيُعَذِّبَهُمْ وَأَنتَ فِيهِمْ ۚ]{.ar}  
+"But Allāh would not punish them while you, [O Muḥammad], are among them"  
+[From al-[#qurEAn]{.trn2} 8:33, translation by Saheeh International]  
+
+[فَقَالَ أَتَخْشَيْنَ أَنْ أَقْتُلَهُ مَا كُنْتُ لأَفْعَلَ ذَلِكَ]{.ar}  
+"He said: Do you fear that I shall kill him ? I am not going to do that."  
+[From [#sunan #abI #dawUd]{.trn2}:3112]  
+
+[قَالَ لَمْ أَكُنْ لأَفْعَلَ]{.ar}  
+"He said: I was not going to do that."
+[From [#sunan #ibn #mAjah]{.trn2}:1503]  
+
+## [كَانَ]{.ar} with the [ل]{.ar} of deserving
+
+Closely related, yet distinct from, 
+the use of
+[كَانَ]{.ar} with the [ل]{.ar} of denial
+(above)
+is 
+the use of
+[كَانَ]{.ar} with a [ل]{.ar} that signifies deserving, behooving, appropriateness, or possibility.
+This is, again, a negative 
+[كَانَ]{.ar} 
+followed by the preposition [لِ]{.ar}
+and a following i-state noun,
+and then [أَنْ]{.ar} followed by an a-state resembling verb.
+This signifies that the action of the verb does not behoove, or is not appropriate or desrving or possibly for the person denoted by the noun after [لِ]{.ar}.
+For example:
+
+[فَأَنۢبَتْنَا بِهِۦ حَدَآئِقَ ذَاتَ بَهْجَةٍۢ مَّا كَانَ لَكُمْ أَن تُنۢبِتُوا۟ شَجَرَهَآ ۗ]{.ar}  
+"causing to grow thereby gardens of joyful beauty which you could not [otherwise] have grown the trees thereof"  
+[From al-[#qurEAn]{.trn2} 27:60, translation by Saheeh International]  
+
+[مَا كَانَ لِبَشَرٍ أَن يُؤْتِيَهُ ٱللَّهُ ٱلْكِتَـٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُوا۟ عِبَادًۭا لِّى مِن دُونِ ٱللَّهِ]{.ar}  
+"It is not for a human [prophet]1 that Allāh should give him the Scripture2 and authority and prophethood and then he would say to the people, "Be servants to me rather than Allāh,""  
+[From al-[#qurEAn]{.trn2} 3:79, translation by Saheeh International]  
+
+[قَالَ أَبُو بَكْرٍ مَا كَانَ لاِبْنِ أَبِي قُحَافَةَ أَنْ يُصَلِّيَ بَيْنَ يَدَىْ رَسُولِ اللَّهِ صلى الله عليه وسلم]{.ar}  
+"Abu Bakr said ; it was not befitting for the son of Abu Quhafah (Abu Bakr) to lead the prayer in the presence of the Messenger of Allah (ﷺ)"  
+[From [#sunan #abI #dawUd]{.trn2}:940]  
+
+<!--Reference See البحر المحيط and التحرير والتنوير for 3:79-->
 
 
 <!--chapter:end:srcrmd/kaana.Rmd-->
