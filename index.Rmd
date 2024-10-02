@@ -1,6 +1,8 @@
 ---
-title: "Learn Standard Arabic"
-subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
+title: | 
+  | A Learner's Grammar of
+  | Classical Standard Arabic
+#subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
 date: "`r system('git describe', intern = TRUE)`"
 documentclass: book

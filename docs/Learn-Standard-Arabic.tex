@@ -169,14 +169,14 @@
 \fancyhead[CE]{\nouppercase{\leftmark}}
 \renewcommand{\headrulewidth}{0pt}
 
-\fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\tiny{Author Names, \textit{Learn Standard Arabic}, \texttt{\gitTag}\\\url{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
+\fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\tiny{Author Names, \textit{A Learner's Grammar of Classical Standard Arabic}, \texttt{\gitTag}\\\url{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
 
 }% definition of mymainstyle
 
 % Footer for chapter start pages:
 \fancypagestyle{plain}{%
 \fancyhf{}
-\fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\tiny{Author Names, \textit{Learn Standard Arabic}, \texttt{\gitTag}\\\url{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
+\fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\tiny{Author Names, \textit{A Learner's Grammar of Classical Standard Arabic}, \texttt{\gitTag}\\\url{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
 \fancyfoot[CO]{\scalebox{1}[0.81]{\thepage}}
 }
 
@@ -250,22 +250,15 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdftitle={Learn Standard Arabic},
   pdfauthor={Author Names},
   pdflang={en},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
-\title{Learn Standard Arabic}
-\usepackage{etoolbox}
-\makeatletter
-\providecommand{\subtitle}[1]{% add subtitle to \maketitle
-  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
-}
-\makeatother
-\subtitle{A self-instruction textbook with grammar, vocabulary, and exercises}
+\title{A Learner's Grammar of\\
+Classical Standard Arabic}
 \author{Author Names}
-\date{v0.1.0-842-g5490665}
+\date{v0.1.0-843-g48e74ac}
 
 \begin{document}
 \maketitle

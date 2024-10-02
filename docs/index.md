@@ -1,8 +1,10 @@
 ---
-title: "Learn Standard Arabic"
-subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
+title: | 
+  | A Learner's Grammar of
+  | Classical Standard Arabic
+#subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-842-g5490665"
+date: "v0.1.0-843-g48e74ac"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
