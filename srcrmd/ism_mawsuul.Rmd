@@ -8,7 +8,7 @@ Consider the sentence:
 "I saw the man."
 
 If the listener (or reader) can identify 
-the individual referred to by the noun "the man",
+the individual referred to by the noun "the man"
 (maybe from a pre-existing mutual understanding with the speaker),
 then there is no problem with this sentence.
 But often, further clarification is needed for the listener to correctly identify the individual to whom the speaker is referring.
@@ -25,7 +25,10 @@ Another way is to use a pointing noun, thus:
 "I saw _that_ man."
 
 But sometimes, a whole sentence is needed to provide the needed identification. 
-In this case, Arabic uses what is called a _connected noun_. A connected noun is itself a vague noun, which is then connected to by a qualifying sentence directly following it called the _connector_. The connector contains sufficient information to identify the individual intended by the speaker. This example to help you understand what we mean:
+In this case, Arabic uses what is called a _connected noun_ and a _connector_. 
+<!--A connected noun is itself a vague noun, which is then connected to by a qualifying sentence directly following it called the _connector_. 
+The connector contains sufficient information to identify the individual intended by the speaker. -->
+This example should help you understand what we mean:
 
 
 ```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
@@ -52,4 +55,32 @@ In this case, Arabic uses what is called a _connected noun_. A connected noun is
 \end{tikzpicture}
 ```
 
+In the above sentence, the connected noun is [ٱَلَّذِي]{.ar}.
+It is applied to singular masculine nouns, like [ٱلرََّجُل]{.ar}.
+It signifies a specific individual denoted by a singular masculine noun.
+By itself it may be translated as "the one~1m~", but in sentences it is usually translated as "who", "whom", "that", or "which".
+It is called a connected noun because it must be directly followed by a qualifying sentence that connects to it.
 
+The qualifying sentence is called the connector and it contains the necessary information for the listener to correctly identify the individual intended by the speaker."
+The connector in the above example is the sentence [لَقِيتَهُ بِٱلْأَمْسِ]{.ar} "I met him yesterday."
+
+Note by the way, that we did not translate the pronoun "him" in our original translation (above). 
+This is because it would sound unnatural in English to say: "I saw the [specific] man (whom) I met _him_ yesterday."
+But this pronoun is an integral part of the Arabic connector and is called the _linking pronoun_. 
+We will study it in detail in section\ \@ref(linking-pronoun) later in this chapter.
+
+There are two types of connected nouns:
+
+ 1. The specific connected nouns
+ 2. The general connected nouns
+
+We will study both these types separately within this chapter.
+
+## Position of the connected noun
+
+Consider again the same example:
+
+[رَأَيْتُ ٱلرَّجُلَ ٱلَّذِي لَقِيتَهُ بِٱلْأَمْسِ.]{.ar}  
+"I saw the [specific] man (whom) I met  yesterday."
+
+In this example
