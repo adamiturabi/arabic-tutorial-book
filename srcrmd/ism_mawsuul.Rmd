@@ -1,0 +1,55 @@
+# The connected noun
+
+## Introduction
+
+Consider the sentence:
+
+[رَأَيْتُ ٱلرَّجُلَ.]{.ar}  
+"I saw the man."
+
+If the listener (or reader) can identify 
+the individual referred to by the noun "the man",
+(maybe from a pre-existing mutual understanding with the speaker),
+then there is no problem with this sentence.
+But often, further clarification is needed for the listener to correctly identify the individual to whom the speaker is referring.
+This further clarification can be provided in a number of ways.
+
+One way is to use an adjectival noun to describe the noun. For example:
+
+[رَأَيْتُ ٱلرَّجُلَ ٱلطَّوِيلَ.]{.ar}  
+"I saw the _tall_ man."
+
+Another way is to use a pointing noun, thus:
+
+[رَأَيْتُ ذَ ٰلِكَ ٱلرَّجُلَ.]{.ar}  
+"I saw _that_ man."
+
+But sometimes, a whole sentence is needed to provide the needed identification. 
+In this case, Arabic uses what is called a _connected noun_. A connected noun is itself a vague noun, which is then connected to by a qualifying sentence directly following it called the _connector_. The connector contains sufficient information to identify the individual intended by the speaker. This example to help you understand what we mean:
+
+
+```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=2.0ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{لَقِيتَهُ بِٱلْأَمْسِ} \txarb{ٱلَّذِي} \txarb{رَأَيْتُ ٱَلرَّجُلَ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, rotate=90, anchor=south, left=0ex, align=left] {\scriptsize connector};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, rotate=90, anchor=south, left=0ex, align=left] {\scriptsize connected noun};
+
+\path (0,0) node [midway, below=13.5ex, right=0ex, align=left] {``I saw the [specific] man (whom) I met yesterday.''};
+
+\end{tikzpicture}
+```
+
+

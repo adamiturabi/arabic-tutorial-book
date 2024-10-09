@@ -3,7 +3,7 @@
 
 bookdown_yml <- paste0(
 "# DO NOT EDIT DIRECTLY. Edit compilebook.R instead
-book_filename: 'Learn-Standard-Arabic.Rmd'
+book_filename: 'A-Learners-Grammar-of-Classical-Standard-Arabic.Rmd'
 output_dir: 'docs'
 ")
 
@@ -29,11 +29,12 @@ rmd_file_list <- c("intro.Rmd"
  , "imperfect_verb_juss.Rmd"
  , "passive_voice.Rmd"
  , "doer_verbal_noun.Rmd"
+ , "ism_mawsuul.Rmd"
  , "kaana.Rmd"
  , "inna_and_its_sisters.Rmd"
- ##, "group_nouns.Rmd"
- ##, "elatives.Rmd"
- ##, "ideas.Rmd"
+ #, "group_nouns.Rmd"
+ #, "elatives.Rmd"
+ #, "ideas.Rmd"
  , "appendix.Rmd"
  , "hamzarules.Rmd"
  , "usage_and_style.Rmd"
