@@ -187,29 +187,6 @@ As we mentioned in the introduction,
 the connector provides clarifying information for the listener (or reader) to identify the individual referred to by the connected noun.
 
 <!--
-### Separating the connector from the connected noun
-
-Generally, the connector directly follows the connected noun, as in all the examples we have given so far.
-However, the connector may be separated from the connected noun by one of the following:
-
-  i. An oath. For example:
-
-     [جَاءَ ٱلَّذِي وَٱللَّـٰه قَهَرَ ٱلْأَعْدَاءَ.]{.ar}  
-     "The one (who) - by [#allAh]{.trn2} - overpowered the enemies has come."
-
- ii. A sentence calling out to someone. For example,
-
-     [أَنْتَ ٱلَّذِي يَا زَيْدُ فَتَحْتَ ٱلْبَابَ.]{.ar}  
-     "You are the one - O Zayd - (who) opened the door."
-
-iii. A parenthetical clause, which is a sentence within the main sentence that adds information to it, but which can be omitted without affecting the completeness of the main sentence. For example:
-
-     [قَدِمَ ٱلَّذِي أَطَالَ ٱللَّـٰهُ عُمْرَهُ أَحْسَنَ إِلَيَّ.]{.ar}  
-     "The one (who) - may Allah lengthen his age - was good to me has arrived."
-
-     [قَدِمَ ٱلَّذِي وَهُوَ مُبْتَسِمٌ أَحْسَنَ إِلَيَّ.]{.ar}  
-     "The one (who) - and he is smiling - was good to me has arrived."
-     
 ### An incomplete sentence as the connector
 
 The connector is, by default, a complete sentence. 
@@ -321,4 +298,86 @@ or
 [يَاأَيُّهَا هَـٰذَا ٱلَّذِي قُمْتَ]{.ar}  
 "O the one (who) stood up"  
 
+### Omitting the link-back pronoun
 
+The link-back pronoun is frequently omitted, and its meaning is then implicit, in some cases:
+
+(a) When the linker pronoun is a detached pronoun which is the u-state subject of a subject-information sentence, whose information is:
+
+    (i)  A prepositional phrase. For example:
+    
+         [نَامَ ٱلَّذِي فِي ٱلْغُرْفَةِ.]{.ar}  
+         "The one (who is) in the room has slept."
+    
+         The connector is the incomplete sentence [فِي ٱلْغُرْفَةِ]{.ar} "(is) in the room".
+         With the link-back pronoun restored, the sentence is  
+
+         [نَامَ ٱلَّذِي هُوَ فِي ٱلْغُرْفَةِ.]{.ar}  
+    
+    (ii) An adverbial phrase. For example:
+    
+         [تَكَلَّمَ ٱلَّذِي عِنْدَكَ.]{.ar}  
+         "The one (who is) with you spoke."
+    
+         (Remember that [عِنْدَ]{.ar} is technically a noun used adverbially, not a preposition.)
+         The connector is the incomplete sentence [عِنْدَكَ]{.ar} "(is) with you". 
+         With the link-back pronoun restored, the sentence is  
+
+         [تَكَلَّمَ ٱلَّذِي هُوَ عِنْدَكَ.]{.ar}  
+
+    In such cases, the incomplete sentence connector implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
+
+(b) When the link-back pronoun is an attached pronoun for the direct doee. For example:
+
+    [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمْ.]{.ar}  
+    "The one (thing that) you said has reached us."
+
+    With the link-back pronoun restored, the sentence is  
+
+    [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
+
+(c) (i) When the link-back pronoun is the base noun in an annexation whose annex noun is a verbal noun of the doer or the doee implying a present or future meaning. For example:
+
+        [أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلٌ.]{.ar}  
+        "I fear from him the wrong that he will do."
+
+        With the link-back pronoun restored, the sentence is  
+        [أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلُهُ.]{.ar}  
+
+    (ii) When the link-back pronoun is attached to a preposition, and the same preposition has already been used (with the same meaning) with the connecting noun or its described noun. For example:
+
+         [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِ سِرْتَ.]{.ar}  
+         "I walked in the (same) garden [in] (which) you walked."
+
+         With the link-back pronoun restored, the sentence is  
+         [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِ سِرْتَ فِيهَا.]{.ar}  
+
+         [مَرَرْتُ بِٱلَّذِي مَرَّ سُلَيْمَانُ.]{.ar}  
+         "I passed by the (same) one (that) [#sulaymAn]{.trn2} did."
+
+         With the link-back pronoun restored, the sentence is  
+         [مَرَرْتُ بِٱلَّذِي مَرَّ بِهِ سُلَيْمَانُ.]{.ar}  
+
+### Separating the connector from the connected noun
+
+Generally, the connector directly follows the connected noun, as in all the examples we have given so far.
+However, the connector may be separated from the connected noun by one of the following:
+
+  i. An oath. For example:
+
+     [جَاءَ ٱلَّذِي وَٱللَّـٰه قَهَرَ ٱلْأَعْدَاءَ.]{.ar}  
+     "The one (who) - by [#allAh]{.trn2} - overpowered the enemies has come."
+
+ ii. A sentence calling out to someone. For example,
+
+     [أَنْتَ ٱلَّذِي يَا زَيْدُ فَتَحْتَ ٱلْبَابَ.]{.ar}  
+     "You are the one - O Zayd - (who) opened the door."
+
+iii. A parenthetical clause, which is a sentence within the main sentence that adds information to it, but which can be omitted without affecting the completeness of the main sentence. For example:
+
+     [قَدِمَ ٱلَّذِي أَطَالَ ٱللَّـٰهُ عُمْرَهُ أَحْسَنَ إِلَيَّ.]{.ar}  
+     "The one (who) - may Allah lengthen his age - was good to me has arrived."
+
+     [قَدِمَ ٱلَّذِي وَهُوَ مُبْتَسِمٌ أَحْسَنَ إِلَيَّ.]{.ar}  
+     "The one (who) - and he is smiling - was good to me has arrived."
+ 
