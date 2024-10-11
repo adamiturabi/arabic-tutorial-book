@@ -67,8 +67,8 @@ The connector in the above example is the sentence [لَقِيتَهُ بِٱل�
 
 Note by the way, that we did not translate the pronoun "him" in our original translation (above). 
 This is because it would sound unnatural in English to say: "I saw the [specific] man (whom) I met _him_ yesterday."
-But this pronoun is an integral part of the Arabic connector and is called the _linking pronoun_. 
-We will study it in detail in section\ \@ref(linking-pronoun) later in this chapter.
+But this pronoun is an essential part of the Arabic connector and is called the _link-back pronoun_. 
+We will deal with it in section\ \@ref(link-back-pronoun) later in this chapter.
 
 There are two types of connected nouns:
 
@@ -151,6 +151,11 @@ As an information:
 
 [خِيَارُ أَئِمَّتِكُمُ الَّذِينَ تُحِبُّونَهُمْ وَيُحِبُّونَكُمْ]{.ar}  
 "The best of your rulers are the ones (whom) you love and who love you"
+[[#SaHIH #muslim]{.trn2}:1855]
+
+[هُنَّ اللَّوَاتِي عَلَى الْمِنْبَرِ]{.ar}  
+"They are the ones (which are) on the pulpit."  
+[[#sunan al-#dArimI]{.trn2}:36]
 
 As a doer:
 
@@ -175,12 +180,13 @@ As a base noun in an annexation:
 "Certainly has Allāh heard the speech of the one who argues [i.e., pleads] with you, [O Muḥammad]"  
 58:1
 
-## The connector and the linking pronoun
+## The connector and the link-back pronoun
 
 The connector is (typically) a sentence that directly follows the connected noun. 
 As we mentioned in the introduction,
 the connector provides clarifying information for the listener (or reader) to identify the individual referred to by the connected noun.
 
+<!--
 ### Separating the connector from the connected noun
 
 Generally, the connector directly follows the connected noun, as in all the examples we have given so far.
@@ -225,10 +231,40 @@ ii. An adverbial phrase. For example:
     The connector is the incomplete sentence [عِنْدَكَ]{.ar} "(is) with you". 
 
 In such cases, the incomplete sentence connector implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
+-->
 
-### The linker pronoun
+### The link-back pronoun {#link-back-pronoun}
 
 In the connector is a pronoun that refers back to the connected noun.
-This pronoun is called the _linker pronoun_.
-It is an integral part of the connector.
-However, sometimes it is possible to omit it, as we will see.
+This pronoun is called the _link-back pronoun_.
+and it is an essential (though not always apparent) part of the connector.
+
+Let us identify some of the link-back pronouns in the examples we have given.
+
+
+[وَالَّذِنَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ]{.ar}  
+"And those who hoard gold and silver"  
+Link-back pronoun: the plural masculine doer pronoun [و]{.ar} in [يَكْنِزُونَ]{.ar}
+
+[خِيَارُ أَئِمَّتِكُمُ الَّذِينَ تُحِبُّونَهُمْ]{.ar}  
+"The best of your rulers are the ones (whom) you love and who love you"  
+Link-back pronoun: the plural masculine doee attached pronoun [هُمْ]{.ar} in [تُحِبُّونَهُمْ]{.ar}
+
+[قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
+"The [specific] one (thing that) you said has reached us."  
+Link-back pronoun: the singular masculine doee attached pronoun [هُ]{.ar} in [قُلْتُمُوهُ]{.ar}
+
+[رَبَّنَا أَرِنَا ٱللَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنْسِ]{.ar}  
+"Our Lord, show us those who misled us of the jinn and men"  
+Link-back pronoun: the dual masculine doer pronoun [ا]{.ar} in [أَضَلَّانَا]{.ar}
+
+[أَوْ كَٱلَّذِي مَرَّ عَلَىٰ قَرْيَةٍ]{.ar}  
+"Or [consider such an example] as the one who passed by a township"  
+Link-back pronoun: the implied singular masculine doer pronoun "he" in [مَرَّ]{.ar}
+
+[قَدْ سَمِعَ ٱللَّـٰهُ قَوْلَ ٱلَّتِي تُجَادِلُكَ فِي زَوْجِهَا]{.ar}  
+"Certainly has Allāh heard the speech of the one who argues [i.e., pleads] with you, [O Muḥammad]"  
+Link-back pronoun: the implied singular feminine doer pronoun "she" in [تُجَادِلُكَ]{.ar}
+
+
+
