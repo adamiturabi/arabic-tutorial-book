@@ -50,7 +50,7 @@ This example should help you understand what we mean:
    (word-2.south west) -- (word-2.south east)
       node [midway, rotate=90, anchor=south, left=0ex, align=left] {\scriptsize connected noun};
 
-\path (0,0) node [midway, below=13.5ex, right=0ex, align=left] {``I saw the [specific] man (whom) I met yesterday.''};
+\path (0,0) node [midway, below=13.5ex, right=0ex, align=left] {``I saw the [specific] man whom I met yesterday.''};
 
 \end{tikzpicture}
 ```
@@ -58,8 +58,8 @@ This example should help you understand what we mean:
 In the above sentence, the connected noun is [ٱَلَّذِي]{.ar} [EallapI]{.trn}.
 It is applied to singular masculine nouns, like [ٱلرَّجُل]{.ar}.
 <!--It signifies a specific individual denoted by a singular masculine noun.-->
-By itself it may be translated as "the one~1m~".
-Sometimes in sentences it is left untranslated (as above) and an implied "who", "whom", "that", or "which" is used to aid the translation.
+By itself it may be translated as "the one~1m~ that/which/who/whom".
+<!--Sometimes in sentences it is left untranslated (as above) and an implied "who", "whom", "that", or "which" is used to aid the translation.-->
 It is called a connected noun because it must be directly followed by a qualifying sentence that connects to it.
 
 The qualifying sentence is called the connector and it contains the necessary information for the listener to correctly identify the individual intended by the speaker."
@@ -98,7 +98,7 @@ The specific connected nouns is a group of nouns where each noun is applied to a
 Consider again the same example:
 
 [رَأَيْتُ ٱلرَّجُلَ ٱلَّذِي لَقِيتَهُ بِٱلْأَمْسِ.]{.ar}  
-"I saw the [specific] man (whom) I met  yesterday."
+"I saw the [specific] man whom I met  yesterday."
 
 In this example, the connected noun
 [ٱَلَّذِي]{.ar} [EallapI]{.trn}
@@ -150,17 +150,17 @@ As a subject:
 As an information:
 
 [خِيَارُ أَئِمَّتِكُمُ الَّذِينَ تُحِبُّونَهُمْ وَيُحِبُّونَكُمْ]{.ar}  
-"The best of your rulers are the ones (whom) you love and who love you"
+"The best of your rulers are the ones whom you love and who love you"
 [[#SaHIH #muslim]{.trn2}:1855]
 
 [هُنَّ اللَّوَاتِي عَلَى الْمِنْبَرِ]{.ar}  
-"They are the ones (which are) on the pulpit."  
+"They are the ones which (are) on the pulpit."  
 [[#sunan al-#dArimI]{.trn2}:36]
 
 As a doer:
 
 [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
-"The [specific] one (thing that) you said has reached us."
+"The [specific] one (thing) that you said has reached us."
 
 As a doee:
 
@@ -224,11 +224,11 @@ Let us identify some of the link-back pronouns in the examples we have given.
 Link-back pronoun: the plural masculine doer pronoun [و]{.ar} in [يَكْنِزُونَ]{.ar}
 
 [خِيَارُ أَئِمَّتِكُمُ الَّذِينَ تُحِبُّونَهُمْ]{.ar}  
-"The best of your rulers are the ones (whom) you love and who love you"  
+"The best of your rulers are the ones whom you love and who love you"  
 Link-back pronoun: the plural masculine doee attached pronoun [هُمْ]{.ar} in [تُحِبُّونَهُمْ]{.ar}
 
 [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
-"The [specific] one (thing that) you said has reached us."  
+"The [specific] one (thing) that you said has reached us."  
 Link-back pronoun: the singular masculine doee attached pronoun [هُ]{.ar} in [قُلْتُمُوهُ]{.ar}
 
 [رَبَّنَا أَرِنَا ٱللَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنْسِ]{.ar}  
@@ -273,11 +273,11 @@ Link-back pronoun: the implied singular masculine doer pronoun for the absent pe
 Here are some examples from Classical Arabic:
 
 [أَنَا ٱلَّذِي سَمَّتْنِ أُمِّي حَيْدَرَهْ]{.ar}  
-"I am the one (whom) my mother named [#Haydarah]{.trn2}"  
+"I am the one whom my mother named [#Haydarah]{.trn2}"  
 (The link-back pronoun is the speaker person's doee pronoun in [سَمَّتْنِ]{.ar}, which is an abbreviation of [سَمَّتْنِي]{.ar} "she named me".)
 
 [فَقَالَ مُوسَى يَا آدَمُ أَنْتَ الَّذِي خَلَقَكَ اللَّهُ بِيَدِهِ]{.ar}  
-"[#mUsA]{.trn2} said: O [#Adam]{.trn2}, you are the one (whom) [#allAh]{.trn2} created with His Hand"  
+"[#mUsA]{.trn2} said: O [#Adam]{.trn2}, you are the one whom [#allAh]{.trn2} created with His Hand"  
 (The link-back pronoun is the addressed person's doee pronoun [كَ]{.ar} in [خَلَقَكَ]{.ar}.)
 
 There is one circumstance where matching the link-back pronoun to the (absent person) connected-noun is mandated.
@@ -330,7 +330,7 @@ The link-back pronoun is frequently omitted, and its meaning is then implicit, i
     (i)  A prepositional phrase. For example:
     
          [نَامَ ٱلَّذِي فِي ٱلْغُرْفَةِ.]{.ar}  
-         "The one (who is) in the room has slept."
+         "The one who (is) in the room has slept."
     
          The connector is the incomplete sentence [فِي ٱلْغُرْفَةِ]{.ar} "(is) in the room".
          With the link-back pronoun restored, the sentence is  
@@ -340,7 +340,7 @@ The link-back pronoun is frequently omitted, and its meaning is then implicit, i
     (ii) An adverbial phrase. For example:
     
          [تَكَلَّمَ ٱلَّذِي عِنْدَكَ.]{.ar}  
-         "The one (who is) with you spoke."
+         "The one who (is) with you spoke."
     
          (Remember that [عِنْدَ]{.ar} is technically a noun used adverbially, not a preposition.)
          The connector is the incomplete sentence [عِنْدَكَ]{.ar} "(is) with you". 
@@ -353,7 +353,7 @@ The link-back pronoun is frequently omitted, and its meaning is then implicit, i
 (b) When the link-back pronoun is an attached pronoun for the direct doee. For example:
 
     [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمْ.]{.ar}  
-    "The one (thing that) you said has reached us."
+    "The one (thing) that you said has reached us."
 
     With the link-back pronoun restored, the sentence is  
 
@@ -370,13 +370,13 @@ The link-back pronoun is frequently omitted, and its meaning is then implicit, i
     (ii) When the link-back pronoun is attached to a preposition or adverb, and the same preposition or adverb has already been used (with the same meaning) with the connecting noun or its described noun. The preposition/adverb is omitted along with its attached pronoun. For example:
 
          [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِ سِرْتَ.]{.ar}  
-         "I walked in the (same) garden [in] (which) you walked."
+         "I walked in the (same) garden [in] which you walked."
 
          With the link-back pronoun restored, the sentence is  
          [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِ سِرْتَ فِيهَا.]{.ar}  
 
          [مَرَرْتُ بِٱلَّذِي مَرَّ سُلَيْمَانُ.]{.ar}  
-         "I passed by the (same) one (that) [#sulaymAn]{.trn2} did."
+         "I passed by the (same) one that [#sulaymAn]{.trn2} did."
 
          With the link-back pronoun restored, the sentence is  
          [مَرَرْتُ بِٱلَّذِي مَرَّ بِهِ سُلَيْمَانُ.]{.ar}  
@@ -389,20 +389,20 @@ However, the connector may be separated from the connected noun by one of the fo
   i. An oath. For example:
 
      [جَاءَ ٱلَّذِي وَٱللَّـٰه قَهَرَ ٱلْأَعْدَاءَ.]{.ar}  
-     "The one (who) - by [#allAh]{.trn2} - overpowered the enemies has come."
+     "The one who - by [#allAh]{.trn2} - overpowered the enemies has come."
 
  ii. A sentence calling out to someone. For example,
 
      [أَنْتَ ٱلَّذِي يَا زَيْدُ فَتَحْتَ ٱلْبَابَ.]{.ar}  
-     "You are the one - O Zayd - (who) opened the door."
+     "You are the one - O Zayd - who opened the door."
 
 iii. A parenthetical clause, which is a sentence within the main sentence that adds information to it, but which can be omitted without affecting the completeness of the main sentence. For example:
 
      [قَدِمَ ٱلَّذِي أَطَالَ ٱللَّـٰهُ عُمْرَهُ أَحْسَنَ إِلَيَّ.]{.ar}  
-     "The one (who) - may Allah lengthen his age - was good to me has arrived."
+     "The one who - may Allah lengthen his age - was good to me has arrived."
 
      [قَدِمَ ٱلَّذِي وَهُوَ مُبْتَسِمٌ أَحْسَنَ إِلَيَّ.]{.ar}  
-     "The one (who) - and he is smiling - was good to me has arrived."
+     "The one who - and he is smiling - was good to me has arrived."
 
 ## The general connected nouns
 
@@ -726,7 +726,7 @@ we cannot say
 
 $\times$ [مَرَرْتُ بِرَجُلٍ ٱلَّذِي يَنَامُ.]{.ar}  
 
-Instead, we put the qualifying sentence directly after the indefinite noun. The qualifying sentence will then not be a connectror, but will itself be the describer to the described noun:
+Instead, we put the qualifying sentence directly after the indefinite noun. The qualifying sentence will then not be a connector, but will itself be the describer to the described noun:
 
 [مَرَرْتُ بِرَجُلٍ يَنَامُ.]{.ar}  
 "I passed by a man (who) is sleeping."
@@ -741,10 +741,11 @@ Here is another example:
 [جَلَسْتُ فِي مَجْلِسٍ قَدْ رُشَّ بِمَاءِ ٱلْوَرْدِ.]{.ar}  
 "I sat in a sitting (that) had been sprinkled with rose-water."
 
-A connected noun can, however, follow an indefinite noun, if we intend to start a separate sentence with it, or if it is a _replacement_ (see chapter\ \@(the-replacement)). For example.
+A connected noun can, however, follow an indefinite noun, if we intend to start a separate sentence with it, or if it is a _replacement_ (see chapter\ \@ref(the-replacement)). For example.
 
 [وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ]{.ar}  
-"Resurrect him to a praiseworthy station, the one that you promised him"
+"Resurrect him to a praiseworthy station, the one that you promised him"  
+bukhari:614
 
 [وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ]{.ar}  
 [الَّذِي جَمَعَ مَالًا وَعَدَّدَهُ]{.ar}  
