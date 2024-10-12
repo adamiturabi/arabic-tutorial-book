@@ -472,7 +472,12 @@ Their link-back pronouns can then, optionally:
     [جَمَعْتُ مِنَ ٱلْوَرَقِ مَا سَقَطْنَ.]{.ar}
     "I gathered what fell from the leaves."
 
-ii. Or be singular masculine to match the connected noun itself. For example:
+    [صَلِّ مِنَ ٱلرَّكَعَاتِ مَا يَتَيَسَّرْنَ.]{.ar}  
+    or  
+    [صَلِّ مِنَ ٱلرَّكَعَاتِ مَا تَتَيَسَّرُ.]{.ar}  
+    "Pray from the units (of prayer) what is easy."
+
+ii. Or be singular masculine to match the connected noun itself. This is generally more common for [مَا]{.ar}. For example:
 
     [وَمِنْهُم مَّن يُؤْمِنُ بِهِۦ وَمِنْهُم مَّن لَّا يُؤْمِنُ بِهِۦ ۚ]{.ar}  
     "And of them are those who believe in it, and of them are those who do not believe in it."  
@@ -480,6 +485,12 @@ ii. Or be singular masculine to match the connected noun itself. For example:
 
     [جَمَعْتُ مِنَ ٱلْوَرَقِ مَا سَقَطَ.]{.ar}
     "I gathered what fell from the leaves."
+
+    [صَلِّ مِنَ ٱلرَّكَعَاتِ مَا يَتَيَسَّرُ.]{.ar}  
+    "Pray from the units (of prayer) what is easy."
+
+    [لَمْ أَجِدْ مَا أَعْتَذِرُ بِهِ]{.ar}
+    "I did not find what I (could) make an excuse for with".
 
 Both options can be utilized together as well. For example:
 
@@ -522,9 +533,7 @@ For example:
 "I am at his [house] at whose you (are)."  
 (for [مَنْ أَنْتَ عِنْدَهُ]{.ar})
 
-### Usage of the general connected nouns
-
-#### Applicability of [مَا]{.ar} and [مَنْ]{.ar} to intelligent and non-intelligent beings
+### Applicability of [مَا]{.ar} and [مَنْ]{.ar} to intelligent and non-intelligent beings
 
 As we mentioned earlier, [مَنْ]{.ar} is typically used to refer to intelligent beings.
 And [مَا]{.ar} is typically used to refer to non-intelligent beings.
@@ -660,4 +669,77 @@ $\times$ [مَرَتُ بٱلرَّجُلِ مَنْ أَحْسَنَ إِلَي
 يُوصَف به،اك ال تقول:أال تر(مررت بالرجل من أخوه مُنطلِق)،جلفتجعله صفة للر،كما تقول: (بالرجل الذي أخوه مُنطلِق)،ولذلك
 لم يدخله األلف والالم التي يُقصَد ُ بها ِتحسين ُ اللفظ
 -->
+
+### Use with the preposition [مِنْ]{.ar}
+
+The preposition [مِنْ]{.ar} is frequently used with the general connected nouns to restrict the applicability of the connected noun to a group or type. 
+For example:
+
+[سَأُعْطِيهِ مَا عِنْدِي مِنْ خُبْزٍ.]{.ar}  
+"I will give him what I have of bread."
+
+[مَنْ دَخَلَ ٱلشَّأْمَ مِنَ ٱلْعَرَبِ]{.ar}  
+"Those Arabs who entered Syria"  
+(literally: "Who enetered Syria from the Arabs")
+
+[فَانكِحُوا مَا طَابَ لَكُم مِّنَ النِّسَاءِ]{.ar}  
+"then marry those that please you of [other] women"  
+4:3
+
+### Use with a repeated word to express vagueness or uncertainty
+
+The general connected nouns
+[مَنْ]{.ar} and [مَا]{.ar}
+are used with a word that is repeated to express a vague or uncertain quantity or quality.
+For example:
+
+[هُمْ مَا هُمْ]{.ar}  
+"They are what they are."
+
+[نَزَلَ مَنْ نَزَلَ مِنْهُمْ]{.ar}  
+"Some of them came down."  
+(literally: Came down who came down from them.")
+
+[جَمَعْتُ مَا جَمَعْتُ]{.ar}  
+"I gathered what I gathered."
+
+## Omitting the connected noun and/or the connector
+
+TODO. See النحو الوافي
+
+## Sentences without connected nouns
+
+There are some sentences where we might expect a connected noun but which are always, or often (as the case may be), expressed in Arabic without a connected noun. These sentences are of different types:
+
+### Sentences with indefinite nouns needing a qualifying sentence
+
+When an indefinite noun needs a qualifying sentence, it is natural in English to insert "that", "which", "who", etc. between the noun and the following sentence. For example, "I passed by a man _who_ was sleeping."
+
+In Arabic, however, we will not use any connected noun in such sentences. 
+This is because the connected nouns are considered definite nouns.
+And therefore they may not be a describer to an indefinite noun.
+So while we can say:
+
+[مَرَرْتُ بِٱلرَّجُلِ ٱلَّذِي يَنَامُ.]{.ar}  
+"I passed by the man who is sleeping."
+
+we cannot say
+
+$\times$ [مَرَرْتُ بِرَجُلٍ ٱلَّذِي يَنَامُ.]{.ar}  
+
+Instead, we put the qualifying sentence directly after the indefinite noun. The qualifying sentence will itself be the describer to the described noun:
+
+[مَرَرْتُ بِرَجُلٍ يَنَامُ.]{.ar}  
+"I passed by a man (who) is sleeping."
+
+Here is another example:
+
+<!--
+[أَكَلْتُ طَعَامًا قَدْ بِٱلْمِلْحِ.]{.ar}  
+"I ate a food (that) had been seasoned with salt."
+-->
+
+[جَلَسْتُ فِي مَجْلِسٍ قَدْ رُشَّ بِمَاءِ ٱلْوَرْدِ.]{.ar}  
+"I sat in a sitting (that) had been sprinkled with rose-water."
+
 
