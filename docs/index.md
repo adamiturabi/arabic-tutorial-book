@@ -4,7 +4,7 @@ title: |
   | Classical Standard Arabic
 #subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-874-g7b5222b"
+date: "v0.1.0-875-ga283286"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -11790,7 +11790,7 @@ http://shiaonlinelibrary.com/%D8%A7%D9%84%D9%83%D8%AA%D8%A8/3954_%D8%B4%D8%B1%D8
 footnotes on شرح ابن عقيل ١/١٤٠
 -->
 
-### Grammatical position of the specific connected noun
+### Grammatical position of the general connected nouns
 
 The general connected noun may occur in various grammatical positions. 
 Here are some examples:
@@ -11835,20 +11835,20 @@ As a base noun in an annexation:
 
 Unlike the specific connected nouns 
 ([ٱَلَّذِي]{.ar}, etc),
-the general connected nouns do not occur as described nouns.
+the general connected nouns do not occur as describers.
 
 So while we can say:
 
-[مَرَتُ بِٱلرَّجُلِ ٱلَّذِي أَحْسَنَ إِلَيّ.]{.ar}  
+[مَرَرْتُ بِٱلرَّجُلِ ٱلَّذِي أَحْسَنَ إِلَيّ.]{.ar}  
 "I passed by the man who was good to me."
 
 we cannot say:
 
-$\times$ [مَرَتُ بِٱلرَّجُلِ مَنْ أَحْسَنَ إِلَيّ.]{.ar}  
+$\times$ [مَرَرْتُ بِٱلرَّجُلِ مَنْ أَحْسَنَ إِلَيّ.]{.ar}  
 
 We will have to say instead:
 
-[مَرَتُ بِمَنْ أَحْسَنَ إِلَيّ.]{.ar}  
+[مَرَرْتُ بِمَنْ أَحْسَنَ إِلَيّ.]{.ar}  
 
 <!--See كتاب المقتصد في شرح الإيضاح للجرجاني ١/٣١٩:
 و(مَن) ال
