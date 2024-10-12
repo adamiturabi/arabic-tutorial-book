@@ -4,7 +4,7 @@ title: |
   | Classical Standard Arabic
 #subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-871-ga3c32f7"
+date: "v0.1.0-873-gc2df5c8"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -11839,17 +11839,29 @@ the general connected nouns do not occur as described nouns.
 
 So while we can say:
 
-[مَرَتُ بٱلرَّجُلِ ٱلَّذِي أَحْسَنَ إِلَيّ.]{.ar}  
+[مَرَتُ بِٱلرَّجُلِ ٱلَّذِي أَحْسَنَ إِلَيّ.]{.ar}  
 "I passed by the man who was good to me."
 
 we cannot say:
 
-$\times$ [مَرَتُ بٱلرَّجُلِ مَنْ أَحْسَنَ إِلَيّ.]{.ar}  
+$\times$ [مَرَتُ بِٱلرَّجُلِ مَنْ أَحْسَنَ إِلَيّ.]{.ar}  
+
+We will have to say instead:
+
+[مَرَتُ بِمَنْ أَحْسَنَ إِلَيّ.]{.ar}  
 
 <!--See كتاب المقتصد في شرح الإيضاح للجرجاني ١/٣١٩:
 و(مَن) ال
 يُوصَف به،اك ال تقول:أال تر(مررت بالرجل من أخوه مُنطلِق)،جلفتجعله صفة للر،كما تقول: (بالرجل الذي أخوه مُنطلِق)،ولذلك
 لم يدخله األلف والالم التي يُقصَد ُ بها ِتحسين ُ اللفظ
+
+Also:
+    ولا يقع من الموصولات وصفا إلا ما في أوله اللام، نحو الذي والتي، واللاتي، وبابها، لمشابهته لفظا للصفة المشبهة في كونه على ثلاثة أحرف فصاعدا، بخلاف من وما، وأما (أي) الموصول فلم يقع وصفا، لأن الأغلب فيه: الشرط والاستفهام ووقوعه موصولا قليل فروعي ذلك الأكثر، وإنما يوصف بذو، الطائية وإن كانت على حرفين كما في قوله:
+
+    ٣٢٧ - فقولا لهذا المرء ذو جاء ساعيا ... هلم فان المشرفي الفرائض
+
+Source: شرح الرضي على الكافية لابن الحاجب 2/314
+Basically, of الأسماء الموصولة المشتركة (which includes ما, مَن, أي, أل, ذو, ذا) only the dialectal ذو appears as a صفة.
 -->
 
 ### Use with the preposition [مِنْ]{.ar}
