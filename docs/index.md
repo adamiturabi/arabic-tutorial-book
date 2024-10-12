@@ -4,7 +4,7 @@ title: |
   | Classical Standard Arabic
 #subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-873-gc2df5c8"
+date: "v0.1.0-874-g7b5222b"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -11326,7 +11326,7 @@ As a base noun in an annexation:
 
 As a subject:
 
-[وَالَّذِنَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ وَلَا يُنْفِقُونَهَا فِي سَبِيلِ ٱللَّـٰهِ فَبَشِّرْهُمْ بِعَذَابٍ أَلِيمٍ]{.ar}  
+[وَالَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ وَلَا يُنْفِقُونَهَا فِي سَبِيلِ ٱللَّـٰهِ فَبَشِّرْهُمْ بِعَذَابٍ أَلِيمٍ]{.ar}  
 "And those who hoard gold and silver and spend it not in the way of Allāh - give them tidings of a painful punishment."  
 9:34
 
@@ -11402,7 +11402,7 @@ and it is an essential (though not always apparent) part of the connector.
 Let us identify some of the link-back pronouns in the examples we have given.
 
 
-[وَالَّذِنَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ]{.ar}  
+[وَالَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ]{.ar}  
 "And those who hoard gold and silver"  
 Link-back pronoun: the plural masculine doer pronoun [و]{.ar} in [يَكْنِزُونَ]{.ar}
 
@@ -11430,7 +11430,7 @@ Link-back pronoun: the implied singular feminine doer pronoun "she" in [تُجَ
 
 The link-back pronoun generally matches the connected noun in gender and number.
 For example, in the sentence
-[وَالَّذِنَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ]{.ar}
+[وَالَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ]{.ar}
 "And those who hoard gold and silver"  
 the plural masculine link-back pronoun [و]{.ar} in [يَكْنِزُونَ]{.ar}
 matches the plural masculine connected noun [ٱلَّذِينَ]{.ar}.
