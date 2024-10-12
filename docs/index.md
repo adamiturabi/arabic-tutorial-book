@@ -4,7 +4,7 @@ title: |
   | Classical Standard Arabic
 #subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-874-g7b5222b"
+date: "v0.1.0-876-ge88ea6f"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -11790,7 +11790,7 @@ http://shiaonlinelibrary.com/%D8%A7%D9%84%D9%83%D8%AA%D8%A8/3954_%D8%B4%D8%B1%D8
 footnotes on شرح ابن عقيل ١/١٤٠
 -->
 
-### Grammatical position of the specific connected noun
+### Grammatical position of the general connected nouns
 
 The general connected noun may occur in various grammatical positions. 
 Here are some examples:
@@ -11830,25 +11830,29 @@ As a base noun in an annexation:
 [هُمْ شَرُّ مَنْ خَلَقَ ٱللَّـٰهُ.]{.ar}  
 "They are the most evil of whom Allah has created."
 
-[مَا نَرَىٰ رَأْيَ مَا تَرَىٰ.]{.ar}  
-"We do not opine the opinion of what you opine."
+[مَا تَرَىٰ رَأْيَ مَا نَرَىٰ.]{.ar}  
+"You do not think what we think."  
+(literally: "You do not opine the opinion of what we opine.")
+
+[أَمْرَ مَا تَحْذَرُ]{.ar}  
+"the matter of which you are wary"
 
 Unlike the specific connected nouns 
 ([ٱَلَّذِي]{.ar}, etc),
-the general connected nouns do not occur as described nouns.
+the general connected nouns do not occur as describers.
 
 So while we can say:
 
-[مَرَتُ بِٱلرَّجُلِ ٱلَّذِي أَحْسَنَ إِلَيّ.]{.ar}  
+[مَرَرْتُ بِٱلرَّجُلِ ٱلَّذِي أَحْسَنَ إِلَيّ.]{.ar}  
 "I passed by the man who was good to me."
 
 we cannot say:
 
-$\times$ [مَرَتُ بِٱلرَّجُلِ مَنْ أَحْسَنَ إِلَيّ.]{.ar}  
+$\times$ [مَرَرْتُ بِٱلرَّجُلِ مَنْ أَحْسَنَ إِلَيّ.]{.ar}  
 
 We will have to say instead:
 
-[مَرَتُ بِمَنْ أَحْسَنَ إِلَيّ.]{.ar}  
+[مَرَرْتُ بِمَنْ أَحْسَنَ إِلَيّ.]{.ar}  
 
 <!--See كتاب المقتصد في شرح الإيضاح للجرجاني ١/٣١٩:
 و(مَن) ال
@@ -11874,7 +11878,7 @@ For example:
 
 [مَنْ دَخَلَ ٱلشَّأْمَ مِنَ ٱلْعَرَبِ]{.ar}  
 "Those Arabs who entered Syria"  
-(literally: "Who enetered Syria from the Arabs")
+(literally: "Who entered Syria from the Arabs")
 
 [فَانكِحُوا مَا طَابَ لَكُم مِّنَ النِّسَاءِ]{.ar}  
 "then marry those that please you of [other] women"  
@@ -11953,7 +11957,9 @@ Who collects wealth and [continuously] counts it."
 Sometimes the definite article [ٱَلْ]{.ar} 
 does not determine a particular individual, but
 makes a noun definite only in a generic way.
-In this case a qualifying sentence may directly follow it without any intermediate connected noun used as a describer. For example:
+In this case a qualifying sentence may directly follow it without any intermediate connected noun used as a describer.
+Because there is no connected noun, the qualifying sentence is, again, not analyzed as a connector.
+For example:
 
 [كَمَثَلِ الْحِمَارِ يَحْمِلُ أَسْفَارًا]{.ar}  
 "like that of a donkey who carries volumes [of books]"  
@@ -11971,14 +11977,15 @@ In this case a qualifying sentence may directly follow it without any intermedia
 
 If a sentence has a definite noun which is to be qualified by a prepositional or adverbial phrase, then in many cases, that phrase may directly follow the definite noun without any intermediate connected noun used a describer.
 But using a connected noun is also permissible if one wishes to emphasize that the specificity of the noun.
+When there is no connected noun, the prepositional or adverbial phrase is not analyzed as a connector, but is considered attached to an implied verb that has the idea of "being", like "is", "are", etc.
+When there is a connected noun, then it is analyzed as a connector, as usual.
 For example:
 
 [سِرْتُ فِي ٱلْحَدِيقَةِ عِنْدَ ٱلْمَسْجِدِ.]{.ar}  
 "I walked in the garden next to the mosque."  
 or  
 [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي عِنْدَ ٱلْمَسْجِدِ.]{.ar}  
-"I walked in the [specific] garden that is next to the mosque."  
-
+"I walked in the [specific] garden that [is] next to the mosque."  
 
 
 <!--chapter:end:srcrmd/ism_mawsuul.Rmd-->
