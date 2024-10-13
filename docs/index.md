@@ -4,7 +4,7 @@ title: |
   | Classical Standard Arabic
 #subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-878-gdf65558"
+date: "v0.1.0-879-gd5f7913"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -11476,16 +11476,17 @@ Here are some examples from Classical Arabic:
 
 [فَقَالَ مُوسَى يَا آدَمُ أَنْتَ الَّذِي خَلَقَكَ اللَّهُ بِيَدِهِ]{.ar}  
 "[#mUsA]{.trn2} said: O [#Adam]{.trn2}, you are the one whom [#allAh]{.trn2} created with His Hand"  
+tirmidhi:2134  
 (The link-back pronoun is the addressed person's doee pronoun [كَ]{.ar} in [خَلَقَكَ]{.ar}.)
 
 There is one circumstance where matching the link-back pronoun to the (absent person) connected-noun is mandated.
 And that is when the connected noun is the called-out person using the particle [أَيُّهَا]{.ar} or [أَيَّتُهَا]{.ar}.
 For example,
 
-[يَاأَيُّهَا ٱلَّذِي آمَنُوا]{.ar}  
+[يَاأَيُّهَا ٱلَّذِينَ  آمَنُوا]{.ar}  
 "O you who have believed"  
 not  
-$\times$ [يَاأَيُّهَا ٱلَّذِي آمَنْتُمْ]{.ar}  
+$\times$ [يَاأَيُّهَا ٱلَّذِينَ آمَنْتُمْ]{.ar}  
 
 Similarly,
 
@@ -11567,11 +11568,11 @@ The link-back pronoun is frequently omitted, and its meaning is then implicit, i
 
     (ii) When the link-back pronoun is attached to a preposition or adverb, and the same preposition or adverb has already been used (with the same meaning) with the connecting noun or its described noun. The preposition/adverb is omitted along with its attached pronoun. For example:
 
-         [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِ سِرْتَ.]{.ar}  
+         [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ.]{.ar}  
          "I walked in the (same) garden [in] which you walked."
 
          With the link-back pronoun restored, the sentence is  
-         [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِ سِرْتَ فِيهَا.]{.ar}  
+         [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ فِيهَا.]{.ar}  
 
          [مَرَرْتُ بِٱلَّذِي مَرَّ سُلَيْمَانُ.]{.ar}  
          "I passed by the (same) one that [#sulaymAn]{.trn2} did."
