@@ -4,7 +4,7 @@ title: |
   | Classical Standard Arabic
 #subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-876-ge88ea6f"
+date: "v0.1.0-878-gdf65558"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -11246,7 +11246,7 @@ By itself it may be translated as "the one~1m~ that/which/who/whom".
 It is called a connected noun because it must be directly followed by a qualifying sentence that connects to it.
 
 The qualifying sentence is called the connector and it contains the necessary information for the listener to correctly identify the individual intended by the speaker."
-The connector in the above example is the sentence [لَقِيتَهُ بِٱلْأَمْسِ]{.ar} "I met him yesterday."
+The connector in the above example is the sentence [لَقِيتُهُ بِٱلْأَمْسِ]{.ar} "I met him yesterday."
 
 Note by the way, that we did not translate the pronoun "him" in our original translation (above). 
 This is because it would sound unnatural in English to say: "I saw the [specific] man (whom) I met _him_ yesterday."
@@ -11280,13 +11280,28 @@ The specific connected nouns is a group of nouns where each noun is applied to a
 
 Consider again the same example:
 
-[رَأَيْتُ ٱلرَّجُلَ ٱلَّذِي لَقِيتَهُ بِٱلْأَمْسِ.]{.ar}  
-"I saw the [specific] man whom I met  yesterday."
+[رَأَيْتُ ٱلرَّجُلَ ٱلَّذِي لَقِيتُهُ بِٱلْأَمْسِ.]{.ar}  
+"I saw the [specific] man whom I met yesterday."
 
 In this example, the connected noun
 [ٱَلَّذِي]{.ar} [EallapI]{.trn}
-is a describer to the described noun
+is a describer (in the a-state) to the described noun
+<!--
 [ٱلرَّجُل]{.ar}.
+[ٱَلَّذِي]{.ar} 
+is in the a-state to match the described noun
+-->
+[ٱلرَّجُلَ]{.ar}.
+Because 
+[ٱَلَّذِي]{.ar} 
+is a rigid noun, it will appear the same in all states without any change to its ending.
+
+As a describer, the connected noun may also come as the last in a series of describers, and can also be combined with a pointing noun. 
+For example:
+
+[رَأَيْتُ ذَ ٰلِكَ ٱلرَّجُلَ ٱلطَّوِيلَ ٱلَّذِي لَقِيتُهُ بِٱلْأَمْسِ.]{.ar}  
+"I saw that [specific] tall man whom I met yesterday."
+
 But connected nouns need not only occur as describers.
 <!--They may occur as a subject, an information, a doer, a doee, following a preposition, and as a base noun in an annexation.-->
 They may occur in various grammatical positions. 
@@ -11985,6 +12000,8 @@ For example:
 "I walked in the garden next to the mosque."  
 or  
 [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي عِنْدَ ٱلْمَسْجِدِ.]{.ar}  
+or  
+[سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي هِيَ عِنْدَ ٱلْمَسْجِدِ.]{.ar}  
 "I walked in the [specific] garden that [is] next to the mosque."  
 
 
