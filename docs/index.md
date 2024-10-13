@@ -4,7 +4,7 @@ title: |
   | Classical Standard Arabic
 #subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-879-gd5f7913"
+date: "v0.1.0-880-gcca5662"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -11443,22 +11443,23 @@ Link-back pronoun: the implied singular feminine doer pronoun "she" in [تُجَ
 
 ### Matching the link-back pronoun with the connected noun
 
-The link-back pronoun generally matches the connected noun in gender and number.
+The link-back pronoun matches the specific connected noun in gender and number.
+And the link-back pronoun is generally an absent-person pronoun ([هُ]{.ar}, [هَا]{.ar}, [هُوَ]{.ar}, [هُمْ]{.ar}, etc.).
 For example, in the sentence
 [وَالَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ]{.ar}
 "And those who hoard gold and silver"  
-the plural masculine link-back pronoun [و]{.ar} in [يَكْنِزُونَ]{.ar}
-matches the plural masculine connected noun [ٱلَّذِينَ]{.ar}.
+the link-back pronoun is the plural masculine absent-person doer pronoun [و]{.ar} "they" in [يَكْنِزُونَ]{.ar} "they hoard".
+And it matches the plural masculine connected noun [ٱلَّذِينَ]{.ar}.
 
-However, there is an exception to this rule.
+However, there is an exception to the link-back pronoun being an absent-person pronoun.
 And that is when the connected noun refers to the speaker or the addressed person, like 
 [أَنَا ٱلَّذِي]{.ar}, or [أَنْتُمُ ٱلَّذِينَ]{.ar}, etc.
 In these cases, the link-back pronoun may optionally:
 
- i. either match the pronoun for the speaker or addressed person (as the case may be),
-ii. or match the connected noun and thus be a pronoun for absent person.
+ i. either be an absent-person pronoun to match the connected noun (as usual),
+ii. or match the pronoun for the speaker or addressed person (as the case may be)
 
-The former is generally more common but both options are permissible.
+The latter is generally more common but both options are permissible.
 For example:
 
 [أَنَا ٱلَّذِي حَضَرْتُ.]{.ar}  
