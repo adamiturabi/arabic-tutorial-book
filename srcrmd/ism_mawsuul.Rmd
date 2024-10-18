@@ -560,10 +560,19 @@ However, there are some circumstances in which these roles can differ.
 may be used for non-intelligent beings when a non-intelligent being is compared with an intelligent being.
 For example,
  
+::: {.otherlanguage data-latex="{arabic}" lang="ar"}
+وَاللَّهُ خَلَقَ كُلَّ دَابَّةٍ مِّن مَّاءٍ ۖ
+فَمِنْهُم مَّن يَمْشِي عَلَىٰ بَطْنِهِ
+وَمِنْهُم مَّن يَمْشِي عَلَىٰ رِجْلَيْنِ
+وَمِنْهُم مَّن يَمْشِي عَلَىٰ أَرْبَعٍ ۚ
+:::
+
+<!--
 [وَاللَّهُ خَلَقَ كُلَّ دَابَّةٍ مِّن مَّاءٍ ۖ ]{.ar}  
 [فَمِنْهُم مَّن يَمْشِي عَلَىٰ بَطْنِهِ ]{.ar}  
 [وَمِنْهُم مَّن يَمْشِي عَلَىٰ رِجْلَيْنِ ]{.ar}  
 [وَمِنْهُم مَّن يَمْشِي عَلَىٰ أَرْبَعٍ ۚ]{.ar}  
+-->
 "Allāh has created every [living] creature from water. And of them are those that move on their bellies, and of them are those that walk on two legs, and of them are those that walk on four."
 
 [مَنْ]{.ar}
@@ -673,7 +682,19 @@ As a base noun in an annexation:
 
 Unlike the specific connected nouns 
 ([ٱَلَّذِي]{.ar}, etc),
-the general connected nouns do not occur as describers.
+the general connected nouns do not occur as describers.[^connected-noun-describers]
+
+[^connected-noun-describers]: See  [كتاب المقتصد في شرح الإيضاح للجرجاني]{.ar}, vol.\ 1, p.\ 319:
+
+    > [ومَن لا يوصف به، ألا ترى لا تقول: مررت بالرجل مَن أخوه منطلق. فتجعله صفةً للرجل، كما تقول: بالرجل الذي أخوه منطلق]{.ar}
+
+    Also [شرح الرضي على الكافية لابن الحاجب]{.ar} vol.\ 2, p.\ 314:
+
+    > [ولا يقع من الموصولات وصفا إلا ما في أوله اللام، نحو الذي والتي، واللاتي، وبابها، لمشابهته لفظا للصفة المشبهة في كونه على ثلاثة أحرف فصاعدا، بخلاف من وما، وأما (أي) الموصول فلم يقع وصفا، لأن الأغلب فيه: الشرط والاستفهام ووقوعه موصولا قليل فروعي ذلك الأكثر، وإنما يوصف بذو، الطائية وإن كانت على حرفين كما في قوله:]{.ar}
+    >
+    > [٣٢٧ - فقولا لهذا المرء ذو جاء ساعيا ... هلم فان المشرفي الفرائض]{.ar}
+
+    Basically, of [الأسماء الموصولة المشتركة]{.ar} (which comprise [ما, مَن, أي, أل, ذو, ذا]{.ar}) only the dialectal [ذو]{.ar} appears as a [صفة]{.ar}.
 
 So while we can say:
 
@@ -688,19 +709,11 @@ We will have to say instead:
 
 [مَرَرْتُ بِمَنْ أَحْسَنَ إِلَيّ.]{.ar}  
 
-<!--See كتاب المقتصد في شرح الإيضاح للجرجاني ١/٣١٩:
-و(مَن) ال
-يُوصَف به،اك ال تقول:أال تر(مررت بالرجل من أخوه مُنطلِق)،جلفتجعله صفة للر،كما تقول: (بالرجل الذي أخوه مُنطلِق)،ولذلك
-لم يدخله األلف والالم التي يُقصَد ُ بها ِتحسين ُ اللفظ
+The general connected noun can, however, occur as a replacement.^[See Fischer §421.2. The example too is taken from there. Originally, it is from [السيرة النبوية لابن هشام]{.ar}.]
+For example,
 
-Also:
-    ولا يقع من الموصولات وصفا إلا ما في أوله اللام، نحو الذي والتي، واللاتي، وبابها، لمشابهته لفظا للصفة المشبهة في كونه على ثلاثة أحرف فصاعدا، بخلاف من وما، وأما (أي) الموصول فلم يقع وصفا، لأن الأغلب فيه: الشرط والاستفهام ووقوعه موصولا قليل فروعي ذلك الأكثر، وإنما يوصف بذو، الطائية وإن كانت على حرفين كما في قوله:
-
-    ٣٢٧ - فقولا لهذا المرء ذو جاء ساعيا ... هلم فان المشرفي الفرائض
-
-Source: شرح الرضي على الكافية لابن الحاجب 2/314
-Basically, of الأسماء الموصولة المشتركة (which includes ما, مَن, أي, أل, ذو, ذا) only the dialectal ذو appears as a صفة.
--->
+[والمسلمون مَن تبع رسول الله صلى الله عليه وسلم كثير]{.ar}  
+"And the Muslims, who follow the Messenger of [#allAh]{.trn2}, are many"
 
 ### Use with the preposition [مِنْ]{.ar}
 
