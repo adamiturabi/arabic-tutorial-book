@@ -44,7 +44,7 @@
 %
 % The other unsolved issue with the solution is that it messes up the bidi dir
 % in the sidebar contents in my PDF reader
-\AddBabelHook[arabic]{smash}{foreign}{\def\BabelText##1{\smash{##1}}}
+%\AddBabelHook[arabic]{smash}{foreign}{\def\BabelText##1{\dothings{##1}}}
 
 % Add section symbol § to every (sub)section heading and reference
 %\NewCommandCopy{\oldthesection}{\thesection}
@@ -115,6 +115,7 @@
 
 \widowpenalty10000
 %\clubpenalty10000
+\interfootnotelinepenalty=10000 % don't split footnotes
 
 \babelfont[arabic]{rm}
           [Language=Default]{Vazirmatn-Light}

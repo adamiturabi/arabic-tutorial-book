@@ -4,7 +4,7 @@ title: |
   | Classical Standard Arabic
 #subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-880-gcca5662"
+date: "v0.1.0-889-g935e1b5"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -11445,9 +11445,9 @@ Link-back pronoun: the implied singular feminine doer pronoun "she" in [تُجَ
 
 The link-back pronoun matches the specific connected noun in gender and number.
 And the link-back pronoun is generally an absent-person pronoun ([هُ]{.ar}, [هَا]{.ar}, [هُوَ]{.ar}, [هُمْ]{.ar}, etc.).
-For example, in the sentence
+For example, in the sentence,
 [وَالَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ]{.ar}
-"And those who hoard gold and silver"  
+"And those who hoard gold and silver,"
 the link-back pronoun is the plural masculine absent-person doer pronoun [و]{.ar} "they" in [يَكْنِزُونَ]{.ar} "they hoard".
 And it matches the plural masculine connected noun [ٱلَّذِينَ]{.ar}.
 
@@ -11612,7 +11612,28 @@ The two main general connected nouns are:
 1. [مَنْ]{.ar} [man]{.trn}. Typically used for intelligent beings and translated as "who".
 1. [مَا]{.ar} [mA]{.trn}. Typically used for non-intelligent beings and translated as "what".
 
-There are also some other rarely or dialectally used general connected nouns. These are [أَيّ]{.ar} [Eayy]{.trn}, [ذُو]{.ar} [pU]{.trn}, and [ذَا]{.ar} [pA]{.trn}. We will not be going over these.
+There are also some other rarely or dialectally used general connected nouns that we will not cover. These are [أَيّ]{.ar} [Eayy]{.trn}, [ذُو]{.ar} [pU]{.trn}, and [ذَا]{.ar} [pA]{.trn}.[^connected-noun-other-interrogatives]
+
+[^connected-noun-other-interrogatives]: Fischer claims (§427):
+
+    > Other interrogatives (§289) are also used as relatives:
+    > [عَرَفَ ٱلْمَكِيدَةَ وَكَيْفَ كَانَ ٱلْمَلِكُ أَوْقَعَهَا]{.ar}
+    > 'He knew the trick and how the king employed it.'
+    > [وَٱللّٰهِ مَا نُبَالِي أَيْنَ ذَهَبَ]{.ar}
+    > 'By God, we do not care where he went'; cf.\ also §419b.
+
+    However, we have not been able to find the classical grammarians including [كيف]{.ar}, [أين]{.ar}, etc. among [الأسماء الموصولة]{.ar}.
+    To understand how these interrogatives are to be analyzed in such sentences,
+    it may help to look up the [إعراب]{.ar} of the verses :
+    [هُوَ الَّذِي يُصَوِّرُكُمْ فِي الْأَرْحَامِ كَيْفَ يَشَاءُ]{.ar} [3:6], and
+    [لِيُرِيَهُ كَيْفَ يُوَارِي سَوْءَةَ أَخِيهِ]{.ar} [5:31]
+    in linguisitic [tafsIrs]{.trn2} like
+    [البحر المحيط لأبي حيان]{.ar} and
+    [التحرير والتنوير لابن عاشور]{.ar}.
+
+    The article [ٱل]{.ar} is also generally included among [الأسماء الموصولة المشتركة]{.ar}.
+    However, we have deemed it too complicated to cover (and too confusing to even mention in main text).
+    See [النحو الوافي لعباس حسن]{.ar} vol.\ 1, pp.\ 356--357 for its treatment.
 
 Unlike the specific connected nouns ([ٱَلَّذِي]{.ar}, etc.),
 the general connected nouns do not vary for number and gender.
@@ -11743,10 +11764,19 @@ However, there are some circumstances in which these roles can differ.
 may be used for non-intelligent beings when a non-intelligent being is compared with an intelligent being.
 For example,
  
+::: {.otherlanguage data-latex="{arabic}" lang="ar"}
+وَاللَّهُ خَلَقَ كُلَّ دَابَّةٍ مِّن مَّاءٍ ۖ
+فَمِنْهُم مَّن يَمْشِي عَلَىٰ بَطْنِهِ
+وَمِنْهُم مَّن يَمْشِي عَلَىٰ رِجْلَيْنِ
+وَمِنْهُم مَّن يَمْشِي عَلَىٰ أَرْبَعٍ ۚ
+:::
+
+<!--
 [وَاللَّهُ خَلَقَ كُلَّ دَابَّةٍ مِّن مَّاءٍ ۖ ]{.ar}  
 [فَمِنْهُم مَّن يَمْشِي عَلَىٰ بَطْنِهِ ]{.ar}  
 [وَمِنْهُم مَّن يَمْشِي عَلَىٰ رِجْلَيْنِ ]{.ar}  
 [وَمِنْهُم مَّن يَمْشِي عَلَىٰ أَرْبَعٍ ۚ]{.ar}  
+-->
 "Allāh has created every [living] creature from water. And of them are those that move on their bellies, and of them are those that walk on two legs, and of them are those that walk on four."
 
 [مَنْ]{.ar}
@@ -11856,7 +11886,19 @@ As a base noun in an annexation:
 
 Unlike the specific connected nouns 
 ([ٱَلَّذِي]{.ar}, etc),
-the general connected nouns do not occur as describers.
+the general connected nouns do not occur as describers.[^connected-noun-describers]
+
+[^connected-noun-describers]: See  [كتاب المقتصد في شرح الإيضاح للجرجاني]{.ar}, vol.\ 1, p.\ 319:
+
+    > [ومَن لا يوصف به، ألا ترى لا تقول: مررت بالرجل مَن أخوه منطلق. فتجعله صفةً للرجل، كما تقول: بالرجل الذي أخوه منطلق]{.ar}
+
+    Also [شرح الرضي على الكافية لابن الحاجب]{.ar} vol.\ 2, p.\ 314:
+
+    > [ولا يقع من الموصولات وصفا إلا ما في أوله اللام، نحو الذي والتي، واللاتي، وبابها، لمشابهته لفظا للصفة المشبهة في كونه على ثلاثة أحرف فصاعدا، بخلاف من وما، وأما (أي) الموصول فلم يقع وصفا، لأن الأغلب فيه: الشرط والاستفهام ووقوعه موصولا قليل فروعي ذلك الأكثر، وإنما يوصف بذو، الطائية وإن كانت على حرفين كما في قوله:]{.ar}
+    >
+    > [٣٢٧ - فقولا لهذا المرء ذو جاء ساعيا ... هلم فان المشرفي الفرائض]{.ar}
+
+    Basically, of [الأسماء الموصولة المشتركة]{.ar} (which comprise [ما, مَن, أي, أل, ذو, ذا]{.ar}) only the dialectal [ذو]{.ar} appears as a [صفة]{.ar}.
 
 So while we can say:
 
@@ -11871,27 +11913,23 @@ We will have to say instead:
 
 [مَرَرْتُ بِمَنْ أَحْسَنَ إِلَيّ.]{.ar}  
 
-<!--See كتاب المقتصد في شرح الإيضاح للجرجاني ١/٣١٩:
-و(مَن) ال
-يُوصَف به،اك ال تقول:أال تر(مررت بالرجل من أخوه مُنطلِق)،جلفتجعله صفة للر،كما تقول: (بالرجل الذي أخوه مُنطلِق)،ولذلك
-لم يدخله األلف والالم التي يُقصَد ُ بها ِتحسين ُ اللفظ
+The general connected noun can, however, occur as a replacement.^[Fischer §421.2. The example too is taken from there. Originally, it is from [السيرة النبوية لابن هشام]{.ar}.]
+For example,
 
-Also:
-    ولا يقع من الموصولات وصفا إلا ما في أوله اللام، نحو الذي والتي، واللاتي، وبابها، لمشابهته لفظا للصفة المشبهة في كونه على ثلاثة أحرف فصاعدا، بخلاف من وما، وأما (أي) الموصول فلم يقع وصفا، لأن الأغلب فيه: الشرط والاستفهام ووقوعه موصولا قليل فروعي ذلك الأكثر، وإنما يوصف بذو، الطائية وإن كانت على حرفين كما في قوله:
-
-    ٣٢٧ - فقولا لهذا المرء ذو جاء ساعيا ... هلم فان المشرفي الفرائض
-
-Source: شرح الرضي على الكافية لابن الحاجب 2/314
-Basically, of الأسماء الموصولة المشتركة (which includes ما, مَن, أي, أل, ذو, ذا) only the dialectal ذو appears as a صفة.
--->
+[والمسلمون مَن تبع رسول الله صلى الله عليه وسلم كثير]{.ar}  
+"And the Muslims, who follow the Messenger of [#allAh]{.trn2}, are many"
 
 ### Use with the preposition [مِنْ]{.ar}
 
 The preposition [مِنْ]{.ar} is frequently used with the general connected nouns to restrict the applicability of the connected noun to a group or type. 
+This [مِنْ]{.ar} may come either before the connected noun, or after its connector.
 For example:
 
-[سَأُعْطِيهِ مَا عِنْدِي مِنْ خُبْزٍ.]{.ar}  
-"I will give him what I have of bread."
+<!--[سَأُعْطِيهِ مَا عِنْدِي مِنْ خُبْزٍ.]{.ar}  
+"I will give him what I have of bread."-->
+
+[فَأَعْطَانِي مَا كَانَ عِنْدَهُ مِنْ خُبْزٍ.]{.ar}  
+"Then he gave me what he had of bread."
 
 [مَنْ دَخَلَ ٱلشَّأْمَ مِنَ ٱلْعَرَبِ]{.ar}  
 "Those Arabs who entered Syria"  
@@ -11900,6 +11938,11 @@ For example:
 [فَانكِحُوا مَا طَابَ لَكُم مِّنَ النِّسَاءِ]{.ar}  
 "then marry those that please you of [other] women"  
 4:3
+
+[اللَّهُمَّ اقْسِمْ لَنَا مِنْ خَشْيَتِكَ مَا يَحُولُ بَيْنَنَا وَبَيْنَ مَعَاصِيكَ]{.ar}  
+O [#allAh]{.trn2}, apportion for us, from the fear of You, (that) what shall come between us and disobedience of You  
+tirmidhi:3502  
+(The connected noun [مَا]{.ar} is the direct doee of the verb of command [اقْسِمْ]{.ar}.)
 
 ### Use with a repeated word to express vagueness or uncertainty
 
@@ -11974,7 +12017,7 @@ Who collects wealth and [continuously] counts it."
 Sometimes the definite article [ٱَلْ]{.ar} 
 does not determine a particular individual, but
 makes a noun definite only in a generic way.
-In this case a qualifying sentence may directly follow it without any intermediate connected noun used as a describer.
+In this case a qualifying sentence may directly follow it without any intermediate connected noun used as a describer.^[Fischer §428.1, Wright vol.\ 2, §172, p.\ 318B.]
 Because there is no connected noun, the qualifying sentence is, again, not analyzed as a connector.
 For example:
 
@@ -13935,6 +13978,113 @@ But such usage should be restricted to its domain, and should not, ideally, spil
 
 While this concession can be granted to [يوجد]{.ar}, we find no such justifying circumstance for using [هناك]{.ar} existentially.
 
+<!--## [#DamIr al-faSl]{.trn2} after [ism al-istifhAm]{.trn2}-->
+
+## Pronoun of separation after question nouns
+
+In later writing we find the following forms:
+
+[مَنْ هِيَ زَيْنَب؟]{.ar}  
+Who is Zaynab?
+
+[مَا هُوَ ٱلْإِسْلَامُ؟]{.ar}  
+What is [#islAm]{.trn2}?
+
+[لِمَاذَا هُوَ حَزِينٌ؟]{.ar}  
+Why is he sad?
+
+The insertion of the pronoun of separation ([هُوَ]{.ar}, [هِيَ]{.ar}, etc.) after question nouns is best avoided.
+So it is better to say:
+
+[مَنْ زَيْنَب؟]{.ar}  
+Who is Zaynab?
+
+[مَا ٱلْإِسْلَامُ؟]{.ar}  
+What is [#islAm]{.trn2}?
+
+As for "why" sentences, Arabic has a native expression using [مَا لِ]{.ar} followed by a noun or pronoun in the i-state and then an adjective in the a-state.
+For example:
+
+[مَا لَهُ حَزِينًا؟]{.ar}  
+Why is he sad?
+
+Another option,
+that is sometimes possible,
+is to convert the "why" question into a "what" question, thus:
+
+[مَا أَحْزَنَهُ]{.ar}  
+Why is he sad?
+(literally: What has made him sad?)
+
+## "What happened to ..."
+
+When asking the question, "What happened to a person/thing?" the verbs [فَعَلَ]{.ar} and [صَنَعَ]{.ar} are used and the person or thing asked about is made the doer.
+For example:
+
+[يَا أَبَا عُمَيْرٍ مَا فَعَلَ النُّغَيْرُ]{.ar}  
+What happened to [al-nugayr]{.trn2}  
+bukhari:6129
+
+[ما فعل أصحابك]{.ar}  
+What happened to your companions?  
+riyadussalihin:30
+
+[مَا فَعَلَتِ الرَّيْطَةُ]{.ar}  
+What happened to the thin cloak?  
+ibnmajah:3603
+
+[فَيَسْأَلُونَهُ مَاذَا فَعَلَ فُلاَنٌ مَاذَا فَعَلَ فُلاَنٌ]{.ar}  
+So they ask him: What happened to so-and-so? What happened to so-and-so?  
+nasai:1833
+
+## about
+
+The word "about" is often indiscriminately translated as [عَنْ]{.ar}.
+[عَنْ]{.ar} is to be used, but only in specific circumstances.
+For example, with  the verb [سَأَلَ]{.ar}.
+
+[سَأَلَهُ عَنْ أَمْرٍ.]{.ar}  
+He asked him about a matter.
+
+We have also found [عَنْ]{.ar} in the narration:
+
+[ مَا هَذَا الَّذِي يَذْكُرُونَ عَنِ الْحَسَنِ]{.ar}  
+abudawud:4621
+
+Usually, though, the preposition [فِي]{.ar} should be used instead. For example:
+
+
+
+## "What about ..."
+
+Avoid 
+[مَاذَا عَنْ]{.ar}
+when asking "What about someone/something?"
+
+Instead use 
+[مَا بَالُ]{.ar}.
+
+For example:
+
+[حَتَّى إِذَا فَرَغَ مَشَيْتُ، فَقُلْتُ مَا بَالُ الْعَظْمِ وَالرَّوْثَةِ ]{.ar}  
+bukhari:3860
+
+[إِذَا تَوَاجَهَ الْمُسْلِمَانِ بِسَيْفَيْهِمَا فَكِلاَهُمَا مِنْ أَهْلِ النَّارِ ". قِيلَ فَهَذَا الْقَاتِلُ، فَمَا بَالُ الْمَقْتُولِ]{.ar}  
+bukhari:7083
+
+[عَنْ عَائِشَةَ، أَنَّهَا قَالَتْ يَا رَسُولَ اللَّهِ مَا الشَّىْءُ الَّذِي لاَ يَحِلُّ مَنْعُهُ قَالَ الْمَاءُ وَالْمِلْحُ وَالنَّارُ " . قَالَتْ قُلْتُ يَا رَسُولَ اللَّهِ هَذَا الْمَاءُ قَدْ عَرَفْنَاهُ فَمَا بَالُ الْمِلْحِ وَالنَّارِ]{.ar}  
+ibnmajah:2474
+
+When the question "What about ...?" is asked as a follow-up to a previous statement then the asked about person/thing can be asked by itself in a single word.
+For example:
+
+[عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ نَهَى أَنْ يَشْرَبَ الرَّجُلُ قَائِمًا . قَتَادَةُ فَقُلْنَا فَالأَكْلُ فَقَالَ ذَاكَ أَشَرُّ أَوْ أَخْبَثُة]{.ar}
+"what about eating?"
+muslim:2024b
+
+[قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم لِلْمُتَلاَعِنَيْنِ " حِسَابُكُمَا عَلَى اللَّهِ أَحَدُكُمَا كَاذِبٌ لاَ سَبِيلَ لَكَ عَلَيْهَا " . قَالَ يَا رَسُولَ اللَّهِ مَالِي]{.ar}  
+"What about my wealth?"
+abudawud:2257
 
 
 <!--chapter:end:srcrmd/usage_and_style.Rmd-->

@@ -129,7 +129,7 @@
 %
 % The other unsolved issue with the solution is that it messes up the bidi dir
 % in the sidebar contents in my PDF reader
-\AddBabelHook[arabic]{smash}{foreign}{\def\BabelText##1{\smash{##1}}}
+%\AddBabelHook[arabic]{smash}{foreign}{\def\BabelText##1{\dothings{##1}}}
 
 % Add section symbol § to every (sub)section heading and reference
 %\NewCommandCopy{\oldthesection}{\thesection}
@@ -200,6 +200,7 @@
 
 \widowpenalty10000
 %\clubpenalty10000
+\interfootnotelinepenalty=10000 % don't split footnotes
 
 \babelfont[arabic]{rm}
           [Language=Default]{Vazirmatn-Light}
@@ -258,7 +259,7 @@
 \title{A Learner's Grammar of\\
 Classical Standard Arabic}
 \author{Author Names}
-\date{v0.1.0-880-gcca5662}
+\date{v0.1.0-889-g935e1b5}
 
 \begin{document}
 \maketitle
@@ -12853,9 +12854,9 @@ Link-back pronoun: the implied singular feminine doer pronoun \enquote{she} in \
 
 The link-back pronoun matches the specific connected noun in gender and number.
 And the link-back pronoun is generally an absent-person pronoun (\foreignlanguage{arabic}{هُ}, \foreignlanguage{arabic}{هَا}, \foreignlanguage{arabic}{هُوَ}, \foreignlanguage{arabic}{هُمْ}, etc.).
-For example, in the sentence
+For example, in the sentence,
 \foreignlanguage{arabic}{وَالَّذِينَ يَکْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ}
-\enquote{And those who hoard gold and silver}\\
+\enquote{And those who hoard gold and silver,}
 the link-back pronoun is the plural masculine absent-person doer pronoun \foreignlanguage{arabic}{و} \enquote{they} in \foreignlanguage{arabic}{يَکْنِزُونَ} \enquote{they hoard}.
 And it matches the plural masculine connected noun \foreignlanguage{arabic}{ٱلَّذِينَ}.
 
@@ -13022,7 +13023,28 @@ The two main general connected nouns are:
   \foreignlanguage{arabic}{مَا} \emph{mā}. Typically used for non-intelligent beings and translated as \enquote{what}.
 \end{enumerate}
 
-There are also some other rarely or dialectally used general connected nouns. These are \foreignlanguage{arabic}{أَيّ} \emph{ʾayy}, \foreignlanguage{arabic}{ذُو} \emph{d͡hū}, and \foreignlanguage{arabic}{ذَا} \emph{d͡hā}. We will not be going over these.
+There are also some other rarely or dialectally used general connected nouns that we will not cover. These are \foreignlanguage{arabic}{أَيّ} \emph{ʾayy}, \foreignlanguage{arabic}{ذُو} \emph{d͡hū}, and \foreignlanguage{arabic}{ذَا} \emph{d͡hā}.\footnote{Fischer claims (§427):
+
+  \begin{quote}
+  Other interrogatives (§289) are also used as relatives:
+  \foreignlanguage{arabic}{عَرَفَ ٱلْمَکِيدَةَ وَکَيْفَ کَانَ ٱلْمَلِکُ أَوْقَعَهَا}
+  \enquote*{He knew the trick and how the king employed it.}
+  \foreignlanguage{arabic}{وَٱللّٰهِ مَا نُبَالِي أَيْنَ ذَهَبَ}
+  \enquote*{By God, we do not care where he went}; cf.~also §419b.
+  \end{quote}
+
+  However, we have not been able to find the classical grammarians including \foreignlanguage{arabic}{کيف}, \foreignlanguage{arabic}{أين}, etc. among \foreignlanguage{arabic}{الأسماء الموصولة}.
+  To understand how these interrogatives are to be analyzed in such sentences,
+  it may help to look up the \foreignlanguage{arabic}{إعراب} of the verses :
+  \foreignlanguage{arabic}{هُوَ الَّذِي يُصَوِّرُکُمْ فِي الْأَرْحَامِ کَيْفَ يَشَاءُ} {[}3:6{]}, and
+  \foreignlanguage{arabic}{لِيُرِيَهُ کَيْفَ يُوَارِي سَوْءَةَ أَخِيهِ} {[}5:31{]}
+  in linguisitic tafsīrs like
+  \foreignlanguage{arabic}{البحر المحيط لأبي حيان} and
+  \foreignlanguage{arabic}{التحرير والتنوير لابن عاشور}.
+
+  The article \foreignlanguage{arabic}{ٱل} is also generally included among \foreignlanguage{arabic}{الأسماء الموصولة المشترکة}.
+  However, we have deemed it too complicated to cover (and too confusing to even mention in main text).
+  See \foreignlanguage{arabic}{النحو الوافي لعباس حسن} vol.~1, pp.~356--357 for its treatment.}
 
 Unlike the specific connected nouns (\foreignlanguage{arabic}{ٱَلَّذِي}, etc.),
 the general connected nouns do not vary for number and gender.
@@ -13150,10 +13172,18 @@ However, there are some circumstances in which these roles can differ.
 may be used for non-intelligent beings when a non-intelligent being is compared with an intelligent being.
 For example,
 
-\foreignlanguage{arabic}{وَاللَّهُ خَلَقَ کُلَّ دَابَّةٍ مِّن مَّاءٍ ۖ}\\
-\foreignlanguage{arabic}{فَمِنْهُم مَّن يَمْشِي عَلَىٰ بَطْنِهِ}\\
-\foreignlanguage{arabic}{وَمِنْهُم مَّن يَمْشِي عَلَىٰ رِجْلَيْنِ}\\
-\foreignlanguage{arabic}{وَمِنْهُم مَّن يَمْشِي عَلَىٰ أَرْبَعٍ ۚ}\\
+\begin{otherlanguage}{arabic}
+
+\begin{otherlanguage}{arabic}
+وَاللَّهُ خَلَقَ كُلَّ دَابَّةٍ مِّن مَّاءٍ ۖ
+فَمِنْهُم مَّن يَمْشِي عَلَىٰ بَطْنِهِ
+وَمِنْهُم مَّن يَمْشِي عَلَىٰ رِجْلَيْنِ
+وَمِنْهُم مَّن يَمْشِي عَلَىٰ أَرْبَعٍ ۚ
+
+\end{otherlanguage}
+
+\end{otherlanguage}
+
 \enquote{Allāh has created every {[}living{]} creature from water. And of them are those that move on their bellies, and of them are those that walk on two legs, and of them are those that walk on four.}
 
 \foreignlanguage{arabic}{مَنْ}
@@ -13258,7 +13288,21 @@ As a base noun in an annexation:
 
 Unlike the specific connected nouns
 (\foreignlanguage{arabic}{ٱَلَّذِي}, etc),
-the general connected nouns do not occur as describers.
+the general connected nouns do not occur as describers.\footnote{See \foreignlanguage{arabic}{کتاب المقتصد في شرح الإيضاح للجرجاني}, vol.~1, p.~319:
+
+  \begin{quote}
+  \foreignlanguage{arabic}{ومَن لا يوصف به، ألا ترى لا تقول: مررت بالرجل مَن أخوه منطلق. فتجعله صفةً للرجل، کما تقول: بالرجل الذي أخوه منطلق}
+  \end{quote}
+
+  Also \foreignlanguage{arabic}{شرح الرضي على الکافية لابن الحاجب} vol.~2, p.~314:
+
+  \begin{quote}
+  \foreignlanguage{arabic}{ولا يقع من الموصولات وصفا إلا ما في أوله اللام، نحو الذي والتي، واللاتي، وبابها، لمشابهته لفظا للصفة المشبهة في کونه على ثلاثة أحرف فصاعدا، بخلاف من وما، وأما (أي) الموصول فلم يقع وصفا، لأن الأغلب فيه: الشرط والاستفهام ووقوعه موصولا قليل فروعي ذلک الأکثر، وإنما يوصف بذو، الطائية وإن کانت على حرفين کما في قوله:}
+
+  \foreignlanguage{arabic}{٣٢٧ - فقولا لهذا المرء ذو جاء ساعيا \ldots{} هلم فان المشرفي الفرائض}
+  \end{quote}
+
+  Basically, of \foreignlanguage{arabic}{الأسماء الموصولة المشترکة} (which comprise \foreignlanguage{arabic}{ما, مَن, أي, أل, ذو, ذا}) only the dialectal \foreignlanguage{arabic}{ذو} appears as a \foreignlanguage{arabic}{صفة}.}
 
 So while we can say:
 
@@ -13273,13 +13317,20 @@ We will have to say instead:
 
 \foreignlanguage{arabic}{مَرَرْتُ بِمَنْ أَحْسَنَ إِلَيّ.}
 
+The general connected noun can, however, occur as a replacement.\footnote{Fischer §421.2. The example too is taken from there. Originally, it is from \foreignlanguage{arabic}{السيرة النبوية لابن هشام}.}
+For example,
+
+\foreignlanguage{arabic}{والمسلمون مَن تبع رسول الله صلى الله عليه وسلم کثير}\\
+\enquote{And the Muslims, who follow the Messenger of Allāh, are many}
+
 \subsection{\texorpdfstring{Use with the preposition \foreignlanguage{arabic}{مِنْ}}{Use with the preposition مِنْ}}\label{use-with-the-preposition-ux645ux646}
 
 The preposition \foreignlanguage{arabic}{مِنْ} is frequently used with the general connected nouns to restrict the applicability of the connected noun to a group or type.
+This \foreignlanguage{arabic}{مِنْ} may come either before the connected noun, or after its connector.
 For example:
 
-\foreignlanguage{arabic}{سَأُعْطِيهِ مَا عِنْدِي مِنْ خُبْزٍ.}\\
-\enquote{I will give him what I have of bread.}
+\foreignlanguage{arabic}{فَأَعْطَانِي مَا کَانَ عِنْدَهُ مِنْ خُبْزٍ.}\\
+\enquote{Then he gave me what he had of bread.}
 
 \foreignlanguage{arabic}{مَنْ دَخَلَ ٱلشَّأْمَ مِنَ ٱلْعَرَبِ}\\
 \enquote{Those Arabs who entered Syria}\\
@@ -13288,6 +13339,11 @@ For example:
 \foreignlanguage{arabic}{فَانکِحُوا مَا طَابَ لَکُم مِّنَ النِّسَاءِ}\\
 \enquote{then marry those that please you of {[}other{]} women}\\
 4:3
+
+\foreignlanguage{arabic}{اللَّهُمَّ اقْسِمْ لَنَا مِنْ خَشْيَتِکَ مَا يَحُولُ بَيْنَنَا وَبَيْنَ مَعَاصِيکَ}\\
+O Allāh, apportion for us, from the fear of You, (that) what shall come between us and disobedience of You\\
+tirmidhi:3502\\
+(The connected noun \foreignlanguage{arabic}{مَا} is the direct doee of the verb of command \foreignlanguage{arabic}{اقْسِمْ}.)
 
 \subsection{Use with a repeated word to express vagueness or uncertainty}\label{use-with-a-repeated-word-to-express-vagueness-or-uncertainty}
 
@@ -13357,7 +13413,7 @@ Who collects wealth and {[}continuously{]} counts it.}\\
 Sometimes the definite article \foreignlanguage{arabic}{ٱَلْ}
 does not determine a particular individual, but
 makes a noun definite only in a generic way.
-In this case a qualifying sentence may directly follow it without any intermediate connected noun used as a describer.
+In this case a qualifying sentence may directly follow it without any intermediate connected noun used as a describer.\footnote{Fischer §428.1, Wright vol.~2, §172, p.~318B.}
 Because there is no connected noun, the qualifying sentence is, again, not analyzed as a connector.
 For example:
 
@@ -15484,5 +15540,109 @@ In this case, \foreignlanguage{arabic}{يوجد} and its ism mafɛūl \foreignla
 But such usage should be restricted to its domain, and should not, ideally, spill over to normal sentences, where a simple \enquote{there is} is intended.
 
 While this concession can be granted to \foreignlanguage{arabic}{يوجد}, we find no such justifying circumstance for using \foreignlanguage{arabic}{هناک} existentially.
+
+\section{Pronoun of separation after question nouns}\label{pronoun-of-separation-after-question-nouns}
+
+In later writing we find the following forms:
+
+\foreignlanguage{arabic}{مَنْ هِيَ زَيْنَب؟}\\
+Who is Zaynab?
+
+\foreignlanguage{arabic}{مَا هُوَ ٱلْإِسْلَامُ؟}\\
+What is Islām?
+
+\foreignlanguage{arabic}{لِمَاذَا هُوَ حَزِينٌ؟}\\
+Why is he sad?
+
+The insertion of the pronoun of separation (\foreignlanguage{arabic}{هُوَ}, \foreignlanguage{arabic}{هِيَ}, etc.) after question nouns is best avoided.
+So it is better to say:
+
+\foreignlanguage{arabic}{مَنْ زَيْنَب؟}\\
+Who is Zaynab?
+
+\foreignlanguage{arabic}{مَا ٱلْإِسْلَامُ؟}\\
+What is Islām?
+
+As for \enquote{why} sentences, Arabic has a native expression using \foreignlanguage{arabic}{مَا لِ} followed by a noun or pronoun in the i-state and then an adjective in the a-state.
+For example:
+
+\foreignlanguage{arabic}{مَا لَهُ حَزِينًا؟}\\
+Why is he sad?
+
+Another option,
+that is sometimes possible,
+is to convert the \enquote{why} question into a \enquote{what} question, thus:
+
+\foreignlanguage{arabic}{مَا أَحْزَنَهُ}\\
+Why is he sad?
+(literally: What has made him sad?)
+
+\section{\texorpdfstring{\enquote{What happened to \ldots{}}}{``What happened to \ldots''}}\label{what-happened-to}
+
+When asking the question, \enquote{What happened to a person/thing?} the verbs \foreignlanguage{arabic}{فَعَلَ} and \foreignlanguage{arabic}{صَنَعَ} are used and the person or thing asked about is made the doer.
+For example:
+
+\foreignlanguage{arabic}{يَا أَبَا عُمَيْرٍ مَا فَعَلَ النُّغَيْرُ}\\
+What happened to al-nug͡hayr\\
+bukhari:6129
+
+\foreignlanguage{arabic}{ما فعل أصحابک}\\
+What happened to your companions?\\
+riyadussalihin:30
+
+\foreignlanguage{arabic}{مَا فَعَلَتِ الرَّيْطَةُ}\\
+What happened to the thin cloak?\\
+ibnmajah:3603
+
+\foreignlanguage{arabic}{فَيَسْأَلُونَهُ مَاذَا فَعَلَ فُلاَنٌ مَاذَا فَعَلَ فُلاَنٌ}\\
+So they ask him: What happened to so-and-so? What happened to so-and-so?\\
+nasai:1833
+
+\section{about}\label{about}
+
+The word \enquote{about} is often indiscriminately translated as \foreignlanguage{arabic}{عَنْ}.
+\foreignlanguage{arabic}{عَنْ} is to be used, but only in specific circumstances.
+For example, with the verb \foreignlanguage{arabic}{سَأَلَ}.
+
+\foreignlanguage{arabic}{سَأَلَهُ عَنْ أَمْرٍ.}\\
+He asked him about a matter.
+
+We have also found \foreignlanguage{arabic}{عَنْ} in the narration:
+
+\foreignlanguage{arabic}{مَا هَذَا الَّذِي يَذْکُرُونَ عَنِ الْحَسَنِ}\\
+abudawud:4621
+
+Usually, though, the preposition \foreignlanguage{arabic}{فِي} should be used instead. For example:
+
+\section{\texorpdfstring{\enquote{What about \ldots{}}}{``What about \ldots''}}\label{what-about}
+
+Avoid
+\foreignlanguage{arabic}{مَاذَا عَنْ}
+when asking \enquote{What about someone/something?}
+
+Instead use
+\foreignlanguage{arabic}{مَا بَالُ}.
+
+For example:
+
+\foreignlanguage{arabic}{حَتَّى إِذَا فَرَغَ مَشَيْتُ، فَقُلْتُ مَا بَالُ الْعَظْمِ وَالرَّوْثَةِ}\\
+bukhari:3860
+
+\foreignlanguage{arabic}{إِذَا تَوَاجَهَ الْمُسْلِمَانِ بِسَيْفَيْهِمَا فَکِلاَهُمَا مِنْ أَهْلِ النَّارِ ``. قِيلَ فَهَذَا الْقَاتِلُ، فَمَا بَالُ الْمَقْتُولِ}\\
+bukhari:7083
+
+\foreignlanguage{arabic}{عَنْ عَائِشَةَ، أَنَّهَا قَالَتْ يَا رَسُولَ اللَّهِ مَا الشَّىْءُ الَّذِي لاَ يَحِلُّ مَنْعُهُ قَالَ الْمَاءُ وَالْمِلْحُ وَالنَّارُ '' . قَالَتْ قُلْتُ يَا رَسُولَ اللَّهِ هَذَا الْمَاءُ قَدْ عَرَفْنَاهُ فَمَا بَالُ الْمِلْحِ وَالنَّارِ}\\
+ibnmajah:2474
+
+When the question \enquote{What about \ldots?} is asked as a follow-up to a previous statement then the asked about person/thing can be asked by itself in a single word.
+For example:
+
+\foreignlanguage{arabic}{عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ نَهَى أَنْ يَشْرَبَ الرَّجُلُ قَائِمًا . قَتَادَةُ فَقُلْنَا فَالأَکْلُ فَقَالَ ذَاکَ أَشَرُّ أَوْ أَخْبَثُة}
+\enquote{what about eating?}
+muslim:2024b
+
+\foreignlanguage{arabic}{قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم لِلْمُتَلاَعِنَيْنِ '' حِسَابُکُمَا عَلَى اللَّهِ أَحَدُکُمَا کَاذِبٌ لاَ سَبِيلَ لَکَ عَلَيْهَا '' . قَالَ يَا رَسُولَ اللَّهِ مَالِي}\\
+\enquote{What about my wealth?}
+abudawud:2257
 
 \end{document}
