@@ -96,5 +96,6 @@ li {
 .otherlanguage {
   direction: rtl;
   unicode-bidi: isolate;
-  line-height: 150%;
+  /*line-height: 150%;*/
 }
+
