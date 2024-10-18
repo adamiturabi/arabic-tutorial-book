@@ -4,7 +4,7 @@ title: |
   | Classical Standard Arabic
 #subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-889-g935e1b5"
+date: "v0.1.0-892-g3e09f22"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -12112,7 +12112,13 @@ and its direct doee, [مُعَلِّمًا]{.ar}, is in the a-state.
 However, unlike most other verbs,
 the doer of [كَانَ]{.ar},
 [ٱلرَّجُلُ]{.ar}, is also called its subject
-and its direct doee, [مُعَلِّمًا]{.ar}, is also called its information.
+and its direct doee, [مُعَلِّمًا]{.ar}, is also called its information.[^kaana-information-a-state]
+
+[^kaana-information-a-state]: The [#baSran]{.trn2} school explained the reason for the [خبر]{.ar} of [كان]{.ar} being [منصوب]{.ar} that it is a [مفعول به]{.ar}. The [#kUfan]{.trn2} school, on the other hand, considered it a [حال]{.ar}.
+
+    From [المقاصد الشافية في شرح الخلاصة الكافية (شرح ألفية ابن مالك) للشاطبي]{.ar} vol.\ 2, p.\ 137:
+
+    > [لَمّا كان وجهُ نَصْبِهُ مُختَلفًا فيه بَين البصريين والكوفيين؛ فذهب البصريون إلى أَنّه منصوب خبرًا لها، فالمبتدأ والخبر معها كالفاعل والمفعول. وذهب الكوفيون إلى أنه ينصَبُ على الحال.]{.ar}
 
 So a sentence with [كَانَ]{.ar} used in this way is a subject-information sentence.
 If it begins with [كَانَ]{.ar} then it is also a verbal sentence at the same time.
@@ -12141,7 +12147,6 @@ That is, without the information, the sentence is deficient.
 ### Sequence of [كَانَ]{.ar}, its subject, and its information
 
 In sentence word order, the natural sequence is 
-<!--[كَانَ]{.ar}, its subject, and its information, as -->
 verb, subject, information.
 
 [كَانَ زَيْدٌ قَائِمًا.]{.ar}  
@@ -12157,7 +12162,8 @@ and also the sequence information, verb, subject:
 [قَائِمًا كَانَ زَيْدٌ.]{.ar}  
 "Zayd was standing."
 
-This last order is common in questions and alternative sentence sentences. For example:
+This last order is common in questions and alternative sentence sentences.
+For example:
 
 [أَقَائِمًا كَانَ زَيْدٌ.]{.ar}  
 "Was Zayd standing?"
@@ -12220,11 +12226,6 @@ For example,
 
 [كَانَ ٱلْمُؤْمِنُونَ هُمُ ٱلْفَائِزِينَ.]{.ar}  
 "The believers were the winners."
-
-<!--
-[ٱَلْمُؤْمِنُونَ هُمُ ٱلْفَائِزُونَ.]{.ar}  
-"The believers are the winners."
--->
 
 The separating pronoun [هُمْ]{.ar} does not, in this case, serve to disambiguate the information [ٱلْفَائزِينَ]{.ar} "the winners", from being a describer, as it did in sentences without [كَانَ]{.ar} (see section\ \@ref(subject-information-sentences-separating-pronoun)).
 This is because the a-state of [ٱلْفَائزِينَ]{.ar} already tells us that it is the information of [كَانَ]{.ar}. 
@@ -12574,7 +12575,7 @@ For example:
 
 A fourth signification of 
 [كَانَ]{.ar}
-is to indicate a state that always existed and will always exist. For example:
+is to indicate a state that always existed and will always exist.[^kaana-significance-abu-hayyan] For example:
 
 [وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۢا]{.ar}  
 "And ever is Allāh Forgiving and Merciful."  
@@ -12583,6 +12584,10 @@ is to indicate a state that always existed and will always exist. For example:
 [وَلَا تَقْرَبُوا۟ ٱلزِّنَىٰٓ ۖ إِنَّهُۥ كَانَ فَـٰحِشَةًۭ وَسَآءَ سَبِيلًۭا]{.ar}  
 "And do not approach unlawful sexual intercourse.1 Indeed, it is ever an immorality and is evil as a way."  
 [From al-[#qurEAn]{.trn2} 17:32, translation by Saheeh International]
+
+[^kaana-significance-abu-hayyan]: From [البحر المحيط لأبي حيان]{.ar} in the [tafsIr]{.trn2} of [كُنْتُمْ خَيْرَ أُمَّةٍ]{.ar} [3:110]:
+
+    > [وظاهر كان هنا أنها الناقصة، وخير أمة هو الخبر.  ولا يراد بها هنا الدلالة على مضي الزمان وانقطاع النسبة نحو قولك: كان زيد قائماً، بل المراد دوام النسبة كقوله:{ وكان الله غفوراً رحيماً } [الأحزاب: 73]{ ولا تقربوا الزنا إنه كان فاحشة وساء سبيلاً } [الإسراء: 32] وكون كان تدل على الدوام ومرادفه لم يزل قولاً مرجوحاً، بل الأصح أنها كسائر الأفعال تدل على الانقطاع، ثم قد تستعمل حيث لا يراد الانقطاع.  وقيل: كان هنا بمعنى صار، أيْ صرتم خير أمة.  وقيل: كان هنا تامة، وخير أمة حال.  وأبعد من ذهب إلى أنّها زائدة، لأن الزائدة لا تكون أول كلام، ولا عمل لها.  وقال الزمخشري: كان عبارة عن وجود الشيء في من ماض على سبيل الإبهام، وليس فيه دليل على عدم سابق، ولا على انقطاع طارىء.  ومنه قوله تعالى: { وكان الله غفوراً }.  و   منه قوله: كنتم خير أمة، كأنه قيل: وجدتم خير أمة انتهى كلامه.  فقوله: أنها لا تدل على عدم سابق هذا إذا لم تكن بمعنى صار، فإذا كانت بمعنى صار دلت على عدم سابق.  فإذا قلت: كان زيد عالماً بمعنى صار، دلت على أنه انتقل من حالة الجهل إلى حالة العلم.  وقوله: ولا على انقطاع طارىء قد ذكرنا قبل أن الصحيح أنها كسائر الأفعال يدل لفظ المضي منها على الانقطاع، ثم قد تستعمل حيث لا يكون انقطاع.  وفرقٌ بين الدلالة والاستعمال، ألا ترى أنك تقول: هذا اللفظ يدل على العموم؟ ثم تستعمل حيث لا يراد العموم، بل المراد الخصوص.  وقوله: كأنه قال وجدتم خير أمة، هذا يعارض أنها مثل قوله: { وكان الله غفوراً رحيماً } لأن تقديره وجدتم خير أمة يدل على أنها تامة، وأن خير أمة حال.  وقوله: { وكان الله غفوراً } لا شك أنها هنا الناقصة فتعارضا.]{.ar}
 
 <!-- Reference البحر المحيط لأبي حيان تفسير كنتم خير أمة-->
 
@@ -12823,8 +12828,13 @@ This combination may, again, be negated in multiple ways. Examples:
 "I wish I had not come out (for [#Hajj]{.trn2}) this year"  
 [From [#sunan #abI #dawUd]{.trn2}:1778]  
 
-[وَمَا كَانَ قَدْ أَتَاهَا بِشَيْءٍ]{.ar}  
+[وَمَا كَانَ قَدْ أَتَاهَا بِشَيْءٍ]{.ar}[^muaz-narration-ihyaa]  
 "And he had not brought her anything"
+
+[^muaz-narration-ihyaa]: From [إحياء علوم الدين لأبي حامد الغزالي]{.ar} (without [إسناد]{.ar}):
+
+    > [وَكَانَ مُعَاذُ بْنُ جَبَلٍ عَامِلًا لعمر رَضِيَ اللَّهُ عَنْهُ فَلَمَّا رَجَعَ قَالَتْ لَهُ امْرَأَتُهُ مَا جِئْتَ بِهِ مِمَّا يَأْتِي بِهِ الْعُمَّالُ إِلَى أَهْلِهِمْ وَمَا كَانَ قَدْ أَتَاهَا بِشَيْءٍ فَقَالَ كَانَ عِنْدِي ضَاغِطٌ قَالَتْ كُنْتَ أَمِينًا عِنْدَ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وعند أبي بكر رضي الله عنه فبعث عمر
+    > مَعَكَ ضَاغِطًا وَقَامَتْ بِذَلِكَ بَيْنَ نِسَائِهَا وَاشْتَكَتْ عمر فَلَمَّا بَلَغَهُ ذَلِكَ دَعَا معاذا وَقَالَ بعثت معك ضاغطاً قال لم أَجِدُ مَا أَعْتَذِرُ بِهِ إِلَيْهَا إِلَّا ذَلِكَ فضحك عمر رضي الله عنه وَأَعْطَاهُ شَيْئًا فَقَالَ أَرْضِهَا بِهِ]{.ar}
 
 ### [يَكُونُ]{.ar} combined with a past verb
 
@@ -12917,7 +12927,7 @@ This is, again, a negative
 followed by the preposition [لِ]{.ar}
 and a following i-state noun,
 and then [أَنْ]{.ar} followed by an a-state resembling verb.
-This signifies that the action of the verb does not behoove, or is not appropriate or desrving or possibly for the person denoted by the noun after [لِ]{.ar}.
+This signifies that the action of the verb does not behoove, or is not appropriate or desrving or possibly for the person denoted by the noun after [لِ]{.ar}.[^maa-kaana-li]
 For example:
 
 [فَأَنۢبَتْنَا بِهِۦ حَدَآئِقَ ذَاتَ بَهْجَةٍۢ مَّا كَانَ لَكُمْ أَن تُنۢبِتُوا۟ شَجَرَهَآ ۗ]{.ar}  
@@ -12933,6 +12943,23 @@ For example:
 [From [#sunan #abI #dawUd]{.trn2}:940]  
 
 <!--Reference See البحر المحيط and التحرير والتنوير for 3:79-->
+
+<!--
+-->
+[^maa-kaana-li]: From [البحر المحيط لأبي حيان]{.ar} in the [tafsIr]{.trn2} of [مَا كَانَ لِبَشَرٍ]{.ar} [3:79]:
+
+    > [ومعنى { ما كان لبشر أن يؤتيه الله } وما جاء نحوه أنه ينفي عنه الكون، والمراد نفي الخبر، وذلك على قسمين.]{.ar}
+    >
+    > [أحدهما: أن يكون الانتفاء من حيث العقل، ويعبر عنه بالنفي التام، ومثاله قوله:{ ما كان لكم أن تنبتوا شجرها } [النمل: 60]{ وما كان لنفس أن تموت إلا بإذن الله } [آل عمران: 145].]{.ar}
+    >
+    > [والثاني: أن يكون الانتفاء فيه على سبيل الانتفاء، ويعبر عنه بالنفي غير التام، ومثاله قول أبي بكر الصديق، رضي الله عنه: ما كان لابن أبي قحافة أن يتقدّم أن يصلى بين يدي رسول الله صلى الله عليه وسلم.]{.ar}
+    >
+    > [ومدرك القسمين إنما يعرف بسياق الكلام الذي النفي فيه، وهذه الآية من القسم الأول، لأنا نعلم أن الله لا يعطي الكَذَبة والمدَّعين النبوّة، وفي هذه الآية دلالة على عصمة الأنبياء عليهم السلام.]{.ar}
+
+    From [التحرير والتوير]{.ar} in the [tafsIr]{.trn2} of the same verse:
+
+    > [وقوله { ما كان لبشر } نفي لاستحقاق أحد لذلك القول واللام فيه للاستحقاق. وأصل هذا التركيب في الكلام ما كان فُلان فاعلاً كذا، فلما أريدت المبالغة في النفي عدل عن نفي الفعل إلى نفي المصدر الدال على الجنس، وجعل نفي الجنس عن الشخص بواسطة نفي الاستحقاق إذ لا طريقة لِحمل اسم ذات على اسم ذات إلاّ بواسطة بعض الحروف، فصار التركيب ما كان له أن يفعل، ويقال أيضاً ليس له أن يفعل، ومثل ذلك في الإثبات كقوله تعالى{ إن لك ألا تجوع فيها ولا تعرى } طه 118. فمعنى الآية ليس قولُ { كونوا عباداً لي } حقاً لبشر أيِّ بشر كان. وهذه اللام هي أصل لام الجحود التي في نحو{ وما كان الله ليعذّبهم } الأنفال 33، فتراكيب لام الجحود كلّها من قبيل قلب مثل هذا التركيب لقصد المبالغة في النفي، بحيث ينفى أن يكون وجود المسند إليه مجعولاً لأجل فِعْل كذا، أي فهو بريء منه بأصل الخلقة ولذلك سميت جحوداً. والمنفي في ظاهر هذه الآية إيتاء الحكم والنبوءة، ولكن قد علم أنّ مصبّ النفي هو المعطوف من قوله { ثم يقول للناس كونوا عباداً لي } أي ما كان له أن يقول كونوا عباداً لي إذا آتاه الله الكتاب إلخ.]{.ar}
+
 
 
 <!--chapter:end:srcrmd/kaana.Rmd-->
