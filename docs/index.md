@@ -4,7 +4,7 @@ title: |
   | Classical Standard Arabic
 #subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-892-g3e09f22"
+date: "v0.1.0-893-g8acc396"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -74,8 +74,9 @@ output:
     pandoc_args: ["--lua-filter=trn.lua", "--columns=65"] # for forcing word wrap in pipe tables
     #template: default_latex_template.tex # with Brill font the PDF font is too large and this needs to be uncommented. includes and in_header should then be commented
     includes:
-      before_body: "srctex/frontpage.tex"
       in_header: "srctex/preamble.tex"
+      before_body: "srctex/frontpage.tex"
+      after_body: "srctex/after_body.tex"
     keep_tex: true
 ---
 
