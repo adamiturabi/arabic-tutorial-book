@@ -5,7 +5,10 @@
 \usepackage{url}
 \usepackage{fancyhdr}
 \usepackage{enotez}
-\setenotez{reset=true,totoc=chapter,split=chapter}
+
+\setenotez{reset=false,totoc=chapter,split=chapter,list-heading={\chapter*{#1}\markboth{\textsc{\MakeLowercase{#1}}}{\textsc{\MakeLowercase{#1}}}}} 
+% reset=true resets counter for every chapter, which would mismatch with HTML output
+% list-heading option sets the page header
 \let\footnote=\endnote
 
 % To use New Computer Modern font, uncomment following two lines only

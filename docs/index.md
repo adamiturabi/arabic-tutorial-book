@@ -4,7 +4,7 @@ title: |
   | Classical Standard Arabic
 #subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-893-g8acc396"
+date: "v0.1.0-894-gfdf3baf"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
