@@ -1,11 +1,13 @@
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
-%
 \documentclass[
   10pt,
 ]{book}
+\usepackage{xcolor}
+\usepackage[paperwidth=156mm,paperheight=234mm,bindingoffset=16mm,textwidth=114.8mm,textheight=170.8mm,twoside]{geometry}
 \usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
@@ -40,8 +42,6 @@
 }{% if KOMA class
   \KOMAoptions{parskip=half}}
 \makeatother
-\usepackage{xcolor}
-\usepackage[paperwidth=156mm,paperheight=234mm,bindingoffset=16mm,textwidth=114.8mm,textheight=170.8mm,twoside]{geometry}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -54,21 +54,19 @@
 \makesavenoteenv{longtable}
 \usepackage{graphicx}
 \makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
 % Set default figure placement to htbp
-\makeatletter
 \def\fps@figure{htbp}
 \makeatother
-\setlength{\emergencystretch}{3em} % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{5}
 \ifLuaTeX
 \usepackage[bidi=basic]{babel}
 \else
@@ -83,6 +81,13 @@
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
 \def\languageshorthands#1{}
+\ifLuaTeX
+  \usepackage[english]{selnolig} % disable illegal ligatures
+\fi
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{csquotes}
 \newcommand{\gitTag}{\input|"git describe"}
 \usepackage{lipsum}
 \usepackage{metalogo}
@@ -90,7 +95,9 @@
 \usepackage{url}
 \usepackage{fancyhdr}
 \usepackage{enotez}
-\setenotez{reset=true,totoc=chapter,split=chapter}
+
+\setenotez{reset=false,totoc=chapter,split=chapter,list-heading={\chapter*{#1}\markboth{\textsc{\MakeLowercase{#1}}}{\textsc{\MakeLowercase{#1}}}}} 
+% reset=true resets counter for every chapter, which would mismatch with HTML output
 \let\footnote=\endnote
 
 % To use New Computer Modern font, uncomment following two lines only
@@ -246,10 +253,6 @@
   \renewcommand{\contentsname}%
     {Detailed Contents}%
 }
-\ifLuaTeX
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
-\usepackage{csquotes}
 \usepackage{bookmark}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
@@ -262,7 +265,7 @@
 \title{A Learner's Grammar of\\
 Classical Standard Arabic}
 \author{Author Names}
-\date{v0.1.0-893-g8acc396}
+\date{v0.1.0-894-gfdf3baf}
 
 \begin{document}
 \maketitle
@@ -356,20 +359,20 @@ The following romanization scheme is used in this book for the transcription and
 \textsc{consonants}
 
 \begin{longtable}[]{@{}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}@{}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -379,20 +382,20 @@ The following romanization scheme is used in this book for the transcription and
 \end{longtable}
 
 \begin{longtable}[]{@{}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}
-  >{\centering\arraybackslash}p{(\columnwidth - 26\tabcolsep) * \real{0.0714}}@{}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}
+  >{\centering\arraybackslash}p{(\linewidth - 26\tabcolsep) * \real{0.0714}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -404,14 +407,14 @@ y & w & h & n & m & l & k & q & f & g͡h & ɛ & ḍ͡h & ṭ & ḍ \\
 \textsc{vowels}
 
 \begin{longtable}[]{@{}
-  >{\centering\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}
-  >{\centering\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}
-  >{\centering\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}
-  >{\centering\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}
-  >{\centering\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}
-  >{\centering\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}
-  >{\centering\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}
-  >{\centering\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}@{}}
+  >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -469,7 +472,7 @@ While Standard Arabic was thus preserved from major change and was used for lite
 
 \begin{figure}
 \centering
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-3-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-3-1.pdf}}
 \caption{\label{fig:unnamed-chunk-3}Timeline of the development of Standard Arabic.}
 \end{figure}
 
@@ -546,11 +549,11 @@ The alphabet consists of both consonants and vowels. In the English word \enquot
 The Arabic alphabet traditionally has 28 letters, shown in the table below.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0465}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0698}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0698}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1628}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.6512}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.0465}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.0698}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.0698}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1628}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.6512}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 No.
@@ -604,11 +607,11 @@ Although \foreignlanguage{arabic}{ء}~({hamzah}) ought to be considered a letter
 So it is not traditionally considered part of the 28-letter script.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0488}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0732}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0732}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1220}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.6829}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.0488}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.0732}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.0732}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1220}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.6829}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 No.
@@ -764,9 +767,9 @@ We have just shown how letters join to each other with a horizontal line in the 
 Here are some comparisions of letters joining to each other in the Simplified Arabic and Traditional Arabic writing styles.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3939}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3030}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3030}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3939}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3030}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3030}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Disjoint
@@ -1323,8 +1326,8 @@ The names \enquote{sun letters} and \enquote{moon letters} were given because of
 Here are some examples of words that begin with sun letters:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Noun
@@ -1439,9 +1442,9 @@ When a noun is indefinite, then, for most nouns, it is also nūnated.
 Here, for example, is the noun \foreignlanguage{arabic}{کِتَاب} \emph{kitāb} \enquote{book} in its three states:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2979}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3830}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3191}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2979}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3830}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3191}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 State
@@ -1792,7 +1795,7 @@ Subject-information sentences consist of two parts:
 
 Here is a subject-information sentence:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-6-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-6-1.pdf}}
 
 The subject of the sentence is \enquote{the building}. This means that the sentence is about \enquote{the building}.
 
@@ -1824,7 +1827,7 @@ Next we put them both in the u-state. For subject-information sentences, both th
 
 In order to form this sentence in Arabic, we put the subject first and then the information. So we get:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-7-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-7-1.pdf}}
 
 But wait! Where is the Arabic word for \enquote{is}? It turns out that Arabic does not usually express any word for \enquote{is}. Instead, the meaning of this word is implied.
 
@@ -2412,9 +2415,9 @@ They are used in place of nouns that are in the a-state and the i-state. One pla
 The singular attached pronouns are listed below. The detached pronouns are included as well for easy comparison.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4118}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2941}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2941}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4118}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2941}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2941}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Participant
@@ -3021,9 +3024,9 @@ It is only the doer pronouns for the singular absentee participant that are invi
 Here we show how the visible doer pronouns are attached to the verb using the root paradigm \foreignlanguage{arabic}{«فعل»}. The middle root letter (\foreignlanguage{arabic}{ع}) has an \emph{a}-vowel \foreignlanguage{arabic}{◌َ} here but this vowel will vary for other verbs.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.5385}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2308}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2308}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.5385}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2308}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2308}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Singular participant
@@ -3319,8 +3322,8 @@ FIXME: move to imperfect verb chapter
 We have mentioned that doee pronouns are attached to the verb. Sometimes there is a need to separate the doee pronoun from the verb. When separating the doee pronoun from the verb, it is instead attached to the prefix \foreignlanguage{arabic}{إِيَّا} \emph{ʾiyyā}. So then we get the following doee pronouns:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3000}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.7000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.3000}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Person
@@ -3416,13 +3419,13 @@ We take this opportunity to introduce some grammatical terminology. The descript
   The common noun \enquote{a car}: It is being described by the describer. We will call it the \emph{describee}.
 \end{enumerate}
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-8-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-8-1.pdf}}
 
 We will reserve this terminology of \emph{describer} and \emph{describee} only for the noun and adjective in an descriptive noun-phrase. So we won't use this terminology for the sentence: \enquote{The car is big.}
 
 Instead, here we will continue to use the existing terminology of \emph{subject} and \emph{information}. The definite noun \enquote{the car} is the subject of this sentence, and the adjective \enquote{big} is the information.
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-9-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-9-1.pdf}}
 
 \section{Adjectival nouns in English}\label{adjectival-nouns-in-english}
 
@@ -3518,7 +3521,7 @@ In English descriptive noun-phrases, like \enquote{the small house}, the adjecti
 
 Here is the equivalent Arabic descriptive noun-phrase:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-10-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-10-1.pdf}}
 
 Note the following:
 
@@ -3592,7 +3595,7 @@ See how we preferred to use the masculine adjectival noun \foreignlanguage{arabi
 
 Let's see how to use Arabic adjectival nouns as the information of a sentence.
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-11-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-11-1.pdf}}
 
 In the above sentence, the indefinite adjectival noun
 \foreignlanguage{arabic}{صَغِير} \emph{ṣag͡hīr} \enquote{a small one}
@@ -3816,9 +3819,9 @@ The other category of nouns are \emph{rigid} nouns. Rigid nouns don't change the
 Before we discuss semi-flexible nouns in more detail, we will discuss feminine markers. We already know of one feminine marker: the \foreignlanguage{arabic}{ة}. When a singular noun ends with \foreignlanguage{arabic}{ة}, then that is an indication, with very few exceptions, that it is a feminine noun. Examples are:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1111}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4444}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4444}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.1111}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4444}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4444}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Root
@@ -3847,9 +3850,9 @@ Now we will learn of two more feminine markers: \foreignlanguage{arabic}{اء} a
 Here are some examples of nouns that end with these two feminine markers:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1111}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4444}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4444}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.1111}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4444}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4444}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Root
@@ -3872,9 +3875,9 @@ When extrinsic to the word's root, \foreignlanguage{arabic}{اء} and \foreignla
 \foreignlanguage{arabic}{اء} and \foreignlanguage{arabic}{ىٰ} may not be extrinsic to the word's root. In this case, they will not be feminine markers, and the noun will regularly be a masculine noun. Examples:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1579}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.5789}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2632}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.1579}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.5789}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2632}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Root
@@ -3985,10 +3988,10 @@ If a noun is on the pattern \foreignlanguage{arabic}{أَفْعَل} \emph{ʾaf�
 Most colors and many physical characteristics fall into this pattern. Colors and physical characteristics are adjectival nouns. The masculine noun for such adjectival-nouns is on the pattern \foreignlanguage{arabic}{أَفْعَل} \emph{ʾafɛal}. And the feminine adjectival noun is on the pattern \foreignlanguage{arabic}{فَعْلَاء} \emph{faɛlāʾ} (which is itself a semi-flexible noun pattern because of the extrinsic \foreignlanguage{arabic}{اء} ending). Here are some examples of such adjectival nouns:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1136}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2727}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3182}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2955}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1136}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2727}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3182}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2955}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Root
@@ -4037,10 +4040,10 @@ This category is more complicated than the previous ones. The following conditio
 It is rare that this last condition fails. Most adjectival nouns that end with an extrinsic \foreignlanguage{arabic}{ان} are of the pattern \foreignlanguage{arabic}{فَعْلَان} \emph{faɛlān} and their feminine is of the pattern \foreignlanguage{arabic}{فَعْلَىٰ} \emph{faɛlā} (which is itself a semi-flexible noun pattern). These adjectival-nouns typically have an emphatic meaning. The following are examples of semi-flexible adjectival-nouns that fall into this category:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1136}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2727}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3182}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2955}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1136}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2727}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3182}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2955}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Root
@@ -4096,9 +4099,9 @@ The dual is formed by appending the dual suffix \foreignlanguage{arabic}{◌َا
 For example, when we dualize \foreignlanguage{arabic}{بَيْت} \emph{bayt} \enquote{a house} in order to say \enquote{houses\textsubscript{2}}, we get:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2381}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3810}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3810}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2381}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3810}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3810}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 States
@@ -4144,9 +4147,9 @@ Here are examples of duals in sentences:
 If a noun ends with a \foreignlanguage{arabic}{ة}, then it is converted to a \foreignlanguage{arabic}{ت} before appending the dual suffix. For example, dualizing \foreignlanguage{arabic}{شَجَرَة} \emph{s͡hajarah} \enquote{a tree}, we get \enquote{trees\textsubscript{2}}:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2381}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3810}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3810}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2381}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3810}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3810}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 States
@@ -4187,10 +4190,10 @@ If a noun ends with the feminine marker \foreignlanguage{arabic}{اء} which is 
 Examples:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1429}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.4286}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1429}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.4286}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Root
@@ -4225,10 +4228,10 @@ We will learn how to form duals of these words in later chapters, if Allāh will
 If a noun ends with \foreignlanguage{arabic}{ىٰ} which is extrinsic to the word's root then the \foreignlanguage{arabic}{ىٰ} shall be changed to a \foreignlanguage{arabic}{يَ} when adding the dual suffixes. Examples:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1429}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.4286}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1429}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.4286}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Root
@@ -4472,10 +4475,10 @@ These same verbs are used when the doer noun is a dual. Examples:
 We have already learned the singular doer pronouns:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Singular participant
@@ -4500,10 +4503,10 @@ Speaker & \foreignlanguage{arabic}{تُ} \emph{-tu} & \enquote{I} & \foreignlang
 Now we will learn the dual doer pronouns:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2308}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2308}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2308}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3077}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2308}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2308}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2308}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3077}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Dual participant
@@ -4635,9 +4638,9 @@ The \emph{ūn} sound plural is formed by adding the ending \foreignlanguage{arab
 Here is the \emph{ūn} sound plural of \foreignlanguage{arabic}{مُعَلِّم} \emph{muɛallim} \enquote{a teacher\textsubscript{m}}:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2632}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3684}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3684}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2632}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3684}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3684}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 State
@@ -4659,9 +4662,9 @@ Note that, just like for duals, the indefinite \emph{ūn} sound plural is not n�
 The duals of \foreignlanguage{arabic}{مُعَلِّم} \emph{muɛallim} \enquote{a teacher\textsubscript{m}} are included here for comparison:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2632}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3684}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3684}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2632}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3684}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3684}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 State
@@ -4724,9 +4727,9 @@ The \emph{āt} sound plural is formed by adding the ending \foreignlanguage{arab
 Here is the \emph{āt} sound plural of \foreignlanguage{arabic}{حَيَوَان} \emph{ḥayawān} \enquote{an animal}:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2632}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3684}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3684}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2632}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3684}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3684}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 State
@@ -4754,9 +4757,9 @@ Note that:
 \end{itemize}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3500}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3500}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3500}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 State
@@ -4780,9 +4783,9 @@ If a noun ends with a \foreignlanguage{arabic}{ة}, then it is removed before ap
 Here, for example, is the \emph{āt} sound plural of \foreignlanguage{arabic}{مُعَلِّمَة} \emph{muɛallimah} \enquote{a teacher\textsubscript{f}}:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2632}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3684}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3684}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2632}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3684}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3684}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 State
@@ -4831,9 +4834,9 @@ if a noun ends with the feminine marker \foreignlanguage{arabic}{اء} which is 
 Example:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1818}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.5455}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2727}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.1818}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.5455}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2727}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Root
@@ -4855,9 +4858,9 @@ Consistent with what we learned for duals in section~\ref{duals-of-extrinsic-ali
 If a noun ends with \foreignlanguage{arabic}{ىٰ} which is extrinsic to the word's root then the \foreignlanguage{arabic}{ىٰ} shall be changed to a \foreignlanguage{arabic}{يَ} when when forming the \emph{āt} sound plural. Examples:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1818}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.5455}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2727}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.1818}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.5455}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2727}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Root
@@ -5054,8 +5057,8 @@ are able to form an \emph{āt} plural.
 Examples are:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7273}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2727}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.7273}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.2727}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Singular
@@ -5127,8 +5130,8 @@ By the way, note that both the masculine adjectival noun \foreignlanguage{arabic
 We have already learned the detached pronouns for singular and dual nouns. They are repeated here:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.6667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3333}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.6667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.3333}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Participant
@@ -5374,10 +5377,10 @@ These same verbs are used when the doer noun is a plural. Examples:
 We have already learned the singular and dual doer pronouns. They are repeated here:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Participant
@@ -5405,10 +5408,10 @@ Speaker dual & -- & \enquote{us\textsubscript{2}} & -- \\
 Now we will learn the plural doer pronouns:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2308}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2308}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2308}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3077}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2308}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2308}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2308}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3077}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 plural participant
@@ -5700,10 +5703,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   \textbf{\foreignlanguage{arabic}{فُعْل} \emph{fuɛl}}. Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3333}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1667}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3333}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1667}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3333}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1667}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3333}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1667}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -5739,10 +5742,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   \textbf{\foreignlanguage{arabic}{فِعَال} \emph{fiɛāl}}. Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2222}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2222}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2222}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3333}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2222}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2222}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2222}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3333}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -5765,10 +5768,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   \textbf{\foreignlanguage{arabic}{فُعُول} \emph{fuɛūl}}. Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -5796,10 +5799,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   \textbf{\foreignlanguage{arabic}{فُعَّال} \emph{fuɛɛāl}}. Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -5812,10 +5815,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   \textbf{\foreignlanguage{arabic}{فَعَلَة} \emph{faɛalah}}. Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -5827,10 +5830,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   \textbf{\foreignlanguage{arabic}{فُعَلَة} \emph{fuɛalah}}. Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -5852,10 +5855,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   \textbf{\foreignlanguage{arabic}{فِعْلَة} \emph{fiɛlah}}. Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -5877,10 +5880,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   \textbf{\foreignlanguage{arabic}{أَفْعَال} \emph{ʾafɛāl}}. Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -5908,10 +5911,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   \textbf{\textsuperscript{2}\foreignlanguage{arabic}{فَوَاعِل} \emph{fawāɛil}\textsuperscript{2}}. (Semi-flexible because of \textsuperscript{2}\foreignlanguage{arabic}{فَفَافِف} pattern.) Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -5925,10 +5928,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   \textbf{\textsuperscript{2}\foreignlanguage{arabic}{فَعَائِل} \emph{faɛāʾil}\textsuperscript{2}}. (Semi-flexible because of \textsuperscript{2}\foreignlanguage{arabic}{فَفَافِف} pattern.) Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -5956,10 +5959,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   \textbf{\foreignlanguage{arabic}{فُعْلَان} \emph{fuɛlān}}. Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -5971,10 +5974,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   \textbf{\textsuperscript{2}\foreignlanguage{arabic}{فُعَلَاء} \emph{fuɛalāʾ}\textsuperscript{2}}. Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -5988,10 +5991,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   \textbf{\textsuperscript{2}\foreignlanguage{arabic}{أَفْعِلَاء} \emph{ʾafɛilāʾ}\textsuperscript{2}}. Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -6004,10 +6007,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   \textbf{\textsuperscript{2}\foreignlanguage{arabic}{فَعْلَىٰ} \emph{faɛlā}\textsuperscript{2}}. Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -6019,10 +6022,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   \textbf{\textsuperscript{2}\foreignlanguage{arabic}{فَعَالِي} \emph{faɛālī}\textsuperscript{2}}. (Semi-flexible because of \textsuperscript{2}\foreignlanguage{arabic}{فَفَافِف} pattern.) Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -6034,10 +6037,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   \textbf{\textsuperscript{2}\foreignlanguage{arabic}{فَعَالَىٰ} \emph{faɛālā}\textsuperscript{2}}. Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -6113,10 +6116,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -6150,10 +6153,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -6170,10 +6173,10 @@ We now give all but the rarest broken plural patterns below. The singular and pl
   \textbf{\foreignlanguage{arabic}{فَعَالِلَة} \emph{faɛālilah}}. Examples:
 
   \begin{longtable}[]{@{}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
-    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
   \toprule\noalign{}
   \endhead
   \bottomrule\noalign{}
@@ -6342,10 +6345,10 @@ Note the following from the above broken plural patterns and examples:
     The doubled letter may modify the basic word pattern somewhat. For example:
 
     \begin{longtable}[]{@{}
-      >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1818}}
-      >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2727}}
-      >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2727}}
-      >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2727}}@{}}
+      >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1818}}
+      >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2727}}
+      >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2727}}
+      >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2727}}@{}}
     \toprule\noalign{}
     \begin{minipage}[b]{\linewidth}\raggedright
     Root
@@ -6447,10 +6450,10 @@ Note the following from the above broken plural patterns and examples:
     The weak letter \foreignlanguage{arabic}{ي}, when followed by the \foreignlanguage{arabic}{ىٰ} ending, usually modifies (in writing) it to an \emph{ِʾalif} instead. The pronunciation is the same. For example:
 
     \begin{longtable}[]{@{}
-      >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1818}}
-      >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2727}}
-      >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2727}}
-      >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2727}}@{}}
+      >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1818}}
+      >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2727}}
+      >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2727}}
+      >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2727}}@{}}
     \toprule\noalign{}
     \begin{minipage}[b]{\linewidth}\raggedright
     Root
@@ -6471,10 +6474,10 @@ Note the following from the above broken plural patterns and examples:
     A \foreignlanguage{arabic}{ي} at the end of a word, in some states, gets omitted and replaced by a nūnated \emph{i}-mark \foreignlanguage{arabic}{◌ٍ} on the preceding letter. This happens even when the \foreignlanguage{arabic}{ي} is extrinsic to the root, and even if the word is semi-flexible (and thus would not normally be nūnated). Examples:
 
     \begin{longtable}[]{@{}
-      >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1818}}
-      >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2727}}
-      >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2727}}
-      >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2727}}@{}}
+      >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1818}}
+      >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2727}}
+      >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2727}}
+      >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2727}}@{}}
     \toprule\noalign{}
     \begin{minipage}[b]{\linewidth}\raggedright
     Root
@@ -6543,9 +6546,9 @@ Note the following from the above broken plural patterns and examples:
 We noted that there are often multiple broken plurals for the same singular noun. Many singular nouns even have a sound plural in addition to one or more broken plurals. Here are some examples.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Singular
@@ -7046,7 +7049,7 @@ Arabic expresses this meaning using a construction called \emph{annexation}. In 
 
 The word \enquote{annexation} means the addition of a new \emph{annexed} item to an existing \emph{base} item. We use the term \emph{annexation} in Arabic grammar when an \emph{annexe} noun is annexed to a \emph{base} noun by being placed right before it. Here is an example of an annexation:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-12-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-12-1.pdf}}
 
 The annexation construction consists of two nouns:
 
@@ -7352,7 +7355,7 @@ Nevertheless, it takes an \emph{i}-mark \foreignlanguage{arabic}{مِنْ صَح
 
 So far we have seen annexations with two nouns. Annexations may be arbitrarily long. Here is an example of a noun-chain with more than two nouns:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-13-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-13-1.pdf}}
 
 The above annexation consists of three nouns. It may be divided into two sub-annexations:
 
@@ -7828,10 +7831,10 @@ In forming the broken plural, the final root letter \foreignlanguage{arabic}{و}
 The following table shows their duals and plurals.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1538}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2308}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3077}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3077}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1538}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2308}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3077}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3077}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Word
@@ -7872,10 +7875,10 @@ The fourth irregular noun from \enquote{the five nouns} is the masculine noun \f
 So, for example, \foreignlanguage{arabic}{ذُو ٱلْمَالِ} \emph{d͡hu -lmāli} means \enquote{possessor\textsubscript{m} of wealth} or \enquote{wealthy person\textsubscript{m}}. The singular, dual, and plural of \foreignlanguage{arabic}{ذُو} \emph{d͡hū} in all three states is shown in the table below:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2667}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 State
@@ -7904,10 +7907,10 @@ The noun \foreignlanguage{arabic}{ذُو} \emph{d͡hū} and its duals and plural
 The word \foreignlanguage{arabic}{ذَات} is the feminine of \foreignlanguage{arabic}{ذُو}. When used as an annexe noun, its states, duals, and plurals are as in the table below:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2667}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 State
@@ -7964,9 +7967,9 @@ When \foreignlanguage{arabic}{فَم} is a singular annexe noun, then it is usua
 Here is how it will appear as a singular annexe noun in the three states:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 u-state
@@ -8128,10 +8131,10 @@ that a few nouns that don't denote male intelligent beings have \emph{ūn} sound
 In both plurals, the singular noun is modified irregularly.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2667}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Singular
@@ -8191,9 +8194,9 @@ In forming the
 the singular noun is modified irregularly:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2727}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3636}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3636}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2727}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3636}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3636}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Singular
@@ -8273,9 +8276,9 @@ Thirdly, both nouns are very irregular in how they become definite nouns with \f
 When \foreignlanguage{arabic}{ٱَلْ} is prefixed to these nouns to make them definite, they lose the initial connecting hamzah and change their internal vowels. This table shows what we mean:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1944}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4028}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4028}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.1944}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4028}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4028}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 State
@@ -8303,9 +8306,9 @@ It is also permissible for it to behave regularly by displaying its state on its
 This table shows what we mean:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2979}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3830}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3191}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2979}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3830}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3191}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 State
@@ -8332,10 +8335,10 @@ Here are some examples of these nouns:
 Proper nouns are also known as names. Here are some examples of Arabic names:
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedleft
 Men's
@@ -8364,10 +8367,10 @@ names
 \end{longtable}
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1818}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2727}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1818}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3636}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1818}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2727}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1818}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3636}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedleft
 Place
@@ -8504,10 +8507,10 @@ For names that don't begin with \foreignlanguage{arabic}{ٱَلْ}, the default 
 Examples of fully-flexible names are:
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -8548,10 +8551,10 @@ All names ending with \foreignlanguage{arabic}{ة} shall be semi-flexible. This 
 Most such proper nouns are feminine names. Examples:
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -8566,10 +8569,10 @@ Most such proper nouns are feminine names. Examples:
 However, some masculine names may end with \foreignlanguage{arabic}{ة} too:
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -8589,10 +8592,10 @@ Example:
 Similar to common nouns and adjectival nouns, all names ending with an extrinsic \foreignlanguage{arabic}{اء} or \foreignlanguage{arabic}{ىٰ} shall be semi-flexible. These are usually feminine names. Examples:
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -8627,10 +8630,10 @@ This is somewhat different from the rule we learnt for common noun and adjectiva
 Examples:
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -8649,10 +8652,10 @@ Example:
 All names on the pattern \foreignlanguage{arabic}{أَفْعَل} shall be semi-flexible. Examples:
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -8665,10 +8668,10 @@ All names on the pattern \foreignlanguage{arabic}{أَفْعَل} shall be semi-
 Names of the pattern \foreignlanguage{arabic}{فُعَل} shall be semi-flexible. Examples:
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -8679,10 +8682,10 @@ Names of the pattern \foreignlanguage{arabic}{فُعَل} shall be semi-flexible
 Interestingly, the fully-flexible name Ɛamr is written with a silent \foreignlanguage{arabic}{و} at its end: \foreignlanguage{arabic}{عَمْرو} when in the u- and i-states in order to distinguish it from the more common name Ɛumar. Otherwise, both names would appear identical when written without vowel marks, thus: \foreignlanguage{arabic}{عمر}.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1818}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2727}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2727}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2727}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1818}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2727}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2727}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2727}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Name
@@ -8720,10 +8723,10 @@ Their origin as verbs will be apparent when we study incomplete-action verbs.
 Names of foreign origin are generally semi-flexible. These include the names of angels, many of the previous prophets and messengers, and other persons. Examples:
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -8760,10 +8763,10 @@ The only exception to this rule is a masculine name of foreign origin that compr
 All feminine names, regardless of their origin, or their ending, shall be semi-flexible. We have already given examples of semi-flexible feminine names that end with \foreignlanguage{arabic}{ة}, \foreignlanguage{arabic}{اء}, and \foreignlanguage{arabic}{ىٰ}, so we will provide other examples here:
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -8808,7 +8811,7 @@ Before we proceed with our discussion on proper nouns, we will take a short digr
 A \emph{replacement} is a word that follows another word, the \emph{replacee}, and replaces it from the perspective of the grammar of the sentence. The replacement is put in the same state as the replacee.
 Here is an example of a sentence with a replacement and a replacee:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-14-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-14-1.pdf}}
 
 In the above sentence, the word \foreignlanguage{arabic}{کِتَابًا} \enquote{a book} is the replacement of
 \foreignlanguage{arabic}{شَيْـًٔا} \enquote{something}. Therefore, it is put in the same a-state.
@@ -8974,10 +8977,10 @@ may be used in annexed names too. Here are some examples:
 Most names do not begin with \foreignlanguage{arabic}{ٱَلْ}. Some, however, do begin with \foreignlanguage{arabic}{ٱَلْ}. Examples:
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -9032,10 +9035,10 @@ Place names are generally feminine. Because of their feminine gender, those not 
 Examples of place names are:
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -9069,10 +9072,10 @@ While most place names are feminine, a few are masculine. Among these are:
 Here are examples of names of tribes:
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -9180,10 +9183,10 @@ In the above sentence, the title \foreignlanguage{arabic}{ٱَلْإِمَامَ
 Some titles are formed from annexations. Examples:
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -9215,10 +9218,10 @@ Some prominent inanimate objects, like mountains, rivers, and cities, may have t
 In Arabic, the titles for these objects usually don't occur as replacees as they do for persons. Rather, the title is annexed to the proper noun in an annexation. Examples:
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -9252,10 +9255,10 @@ The affiliate adjectival noun is a kind of adjectival noun that indicates an aff
 Here are some examples of affiliate adjectival nouns:
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2857}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2857}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -9550,7 +9553,7 @@ Examples:
 
 Consider the following expression:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-15-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-15-1.pdf}}
 
 The word \enquote{this} is what we will call a \emph{pointing noun}. We call it this because we can imagine standing next to a book and pointing to it and saying \enquote{this book}.
 
@@ -9572,12 +9575,12 @@ There are two types of pointing nouns:
 The following are the pointing nouns in Arabic:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2174}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.0870}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1304}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2174}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1304}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2174}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2174}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0870}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1304}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2174}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1304}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2174}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Participant
@@ -9636,12 +9639,12 @@ Consistent with how we have been dealing with the so far,
 the plurals of non-intelligent beings:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2174}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.0870}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1304}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2174}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1304}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2174}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2174}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0870}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1304}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2174}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1304}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2174}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
@@ -9669,7 +9672,7 @@ Remember from chapter~\ref{adjectival-nouns-and-descriptive-noun-phrases} that a
 
 Here is an example of a descriptive noun-phrase in a sentence.
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-16-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-16-1.pdf}}
 
 We will now see how this same descriptive noun-phrase can be used with pointing nouns.
 
@@ -9687,7 +9690,7 @@ above that pointing nouns are definite.
 So, if a pointing noun is a describer in a noun-phrase, the describee has to be definite too.
 Example:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-17-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-17-1.pdf}}
 
 In the above example, the pointed-to noun \foreignlanguage{arabic}{ٱَلْکِتَابَيْنِ} is the describee in a descriptive noun-phrase. It is definite, in the a-state, masculine, and dual.
 
@@ -9699,7 +9702,7 @@ The pointing noun is then a replacee (see section~\ref{the-replacement}), and th
 
 Example:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-18-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-18-1.pdf}}
 
 In the above example, the
 pointing noun \foreignlanguage{arabic}{هَـٰذَيْنِ}
@@ -9836,7 +9839,7 @@ Before we give more examples, let's analyze these phrases in detail.
 
 Consider the first pointing noun phrase:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-19-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-19-1.pdf}}
 
 As you can see the pointing noun
 \foreignlanguage{arabic}{هَـٰذَا} has taken the place of
@@ -9854,7 +9857,7 @@ The more natural translation is:
 
 Consider, now, the second pointing noun phrase:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-20-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-20-1.pdf}}
 
 \foreignlanguage{arabic}{ٱَلرَّجُل}, here, keeps its place as the base noun in the annexation.
 In addition to being the base noun,
@@ -9908,7 +9911,7 @@ Let's analyze the expression
 \enquote{this book of the man}
 in detail:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-21-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-21-1.pdf}}
 
 \foreignlanguage{arabic}{کِتَاب}, here, is both and annexe noun and a describee.
 Its describer is the pointing noun
@@ -10046,7 +10049,7 @@ So, we are left with only one option: the annexe noun \foreignlanguage{arabic}{�
 \foreignlanguage{arabic}{کِتَابُهُ هَـٰذَا}\\
 \enquote{this book of his}
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-22-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-22-1.pdf}}
 
 Here are some more examples:
 
@@ -10054,7 +10057,7 @@ Here are some more examples:
 
 Besides their use in pointing noun phrases, pointing nouns are very often used as the subject of a sentence. For example:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-23-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-23-1.pdf}}
 
 The pointing noun is (usually) made to match the information in number and gender. Examples:
 
@@ -10092,7 +10095,7 @@ The information may be a single word (as above) or more complex (as below):
 
 If the information is a noun that begins with \foreignlanguage{arabic}{ٱَلْ} then it may be placed after the pointing noun subject in the same manner:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-24-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-24-1.pdf}}
 
 While the this is permitted and correct, it may be sometimes confused with for the pointing noun phrase \enquote{this man}. So, in the same way that we learned in
 section~\ref{chap-smp-sent-sec-def-info},
@@ -10285,11 +10288,11 @@ Incomplete-action verbs' doer pronouns are also added to the end of the verb, bu
 We'll show what all this means in the table below of verbs with doer pronouns. Completed-action verbs are included as well so that you can contrast them with their incomplete-action counterparts.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1500}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2500}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1500}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2500}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2500}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Person
@@ -10415,10 +10418,10 @@ Every verb has a set of \emph{verbal-nouns} derived from it that, despite being 
 Consider the following form~1 verb:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1579}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2632}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3158}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2632}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1579}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2632}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3158}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2632}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Root
@@ -10887,10 +10890,10 @@ incomplete-action verb
 for all doer participants.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2667}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Participant
@@ -10996,7 +10999,7 @@ So, in the above example, the
 \foreignlanguage{arabic}{أَنْ} clause
 is in place of the direct doee of the verb \foreignlanguage{arabic}{أَمَلَ}:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-25-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-25-1.pdf}}
 
 We show other examples below where the
 \foreignlanguage{arabic}{أَنْ} clause
@@ -11004,23 +11007,23 @@ occurs in place of other noun positions.
 
 As the subject:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-26-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-26-1.pdf}}
 
 As the information:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-27-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-27-1.pdf}}
 
 As a doer noun:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-28-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-28-1.pdf}}
 
 In the i-state as the base noun in an annexation:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-29-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-29-1.pdf}}
 
 In the i-state after a preposition:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-30-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-30-1.pdf}}
 
 \subsection{\texorpdfstring{Option to drop the preposition before \foreignlanguage{arabic}{أَنْ}}{Option to drop the preposition before أَنْ}}\label{option-to-drop-the-preposition-before-ux623ux646}
 
@@ -11396,10 +11399,10 @@ incomplete-action verb
 for all doer participants.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2667}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Participant
@@ -11665,9 +11668,9 @@ Consider the following form~1 verbs and their verbs of command
 for the singular masculine addressee doer \enquote{he}:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1818}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4545}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3636}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.1818}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4545}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3636}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Root
@@ -11852,7 +11855,7 @@ The complete table showing the doer pronouns is given in appendix~\ref{verb-tabl
 
 Consider again this sentence with an unknown-doer verb construction:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-31-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-31-1.pdf}}
 
 Note that the noun \foreignlanguage{arabic}{ٱَلْمَاءُ} \emph{ʾalmāʾu} \enquote{the water} is in the u-state. This is because, in the absence of the doer, the direct-doee of the known-doer verb (\foreignlanguage{arabic}{ٱَلْمَاءَ}) is deputized to take doer's place in the u-state. It is then known as the \emph{deputy doer}.
 
@@ -11942,7 +11945,7 @@ However, the preposition causes the noun following it to remain in the i-state. 
 The verb then appears to be in the singular masculine, with its deputy doer following it.
 For example:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-32-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-32-1.pdf}}
 
 \foreignlanguage{arabic}{کُتِبَ بِٱلْقَلَمِ.}\\
 \enquote{The pen was written with.}
@@ -11953,7 +11956,7 @@ Other verbs don't take a direct doee but may be used with an adverb of time or p
 (We will study adverbs of time and place in chapter~\ref{adverbs-of-time-and-place}, if Allāh wills.)
 Here is an example:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-33-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-33-1.pdf}}
 
 When this sentence is converted to an unknown-doer construction then the adverb of time or place can be taken as the deputy doer in the u-state:
 
@@ -12170,9 +12173,9 @@ The doer verbal-noun gives the meaning of the doer, that is the person doing the
 We saw in the previous chapter that the pattern for the doing verbal-noun for form~1 verbs was very variable. In contrast, the pattern for the doer verbal-noun for form~1 verbs is fixed. It is always on the pasttern \foreignlanguage{arabic}{فَاعِل} \emph{fāɛil}. Also, the doer verbal-noun is modified for gender and number. Its forms its feminine by appending \foreignlanguage{arabic}{ة} thus: \foreignlanguage{arabic}{فَاعِلَة}. It takes sound plurals: the \emph{-ūn} for the masculine, and the \emph{-āt} plural for the feminine. In many case, it may also have broken plurals. Here is a table showing these modifications for the u-state. You should be able to extend them for the a-state and i-state.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Number
@@ -12503,9 +12506,9 @@ For that matter \foreignlanguage{arabic}{ساءل عنه} is also valid as \enqu
 Doer and doee verbal-nouns are often re-used as adjectival-nouns with meanings that are directly formed from their doer and doee meaning respectively. Here are some examples:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.5833}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2500}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.5833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.1667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2500}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Verb
@@ -12584,10 +12587,10 @@ The re-use of a doer verbal-noun or doee verbal-noun as a common noun does not p
 When a doer verbal-noun is re-used as a common noun then only the broken plural, if it exists, may be used. The sound plural is only permitted to be used if no broken plurals exist. Here are some more examples of doer verbal-nouns re-used as common nouns:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.5000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1429}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1429}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2143}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1429}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1429}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2143}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Verb
@@ -12697,7 +12700,7 @@ But sometimes, a whole sentence is needed to provide the needed identification.
 In this case, Arabic uses what is called a \emph{connected noun} and a \emph{connector}.
 This example should help you understand what we mean:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-34-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-34-1.pdf}}
 
 In the above sentence, the connected noun is \foreignlanguage{arabic}{ٱَلَّذِي} \emph{ʾallad͡hī}.
 It is applied to singular masculine nouns, like \foreignlanguage{arabic}{ٱلرَّجُل}.
@@ -12733,8 +12736,8 @@ and its connector should contain sufficient information to identify that specifi
 The specific connected nouns is a group of nouns where each noun is applied to a gender and number of individuals. They are:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.1500}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.8500}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.1500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.8500}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Connected noun
@@ -13470,7 +13473,7 @@ Arabic does not, in this case, express any word for \enquote{is}.
 
 Consider now the following sentence:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-35-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-35-1.pdf}}
 
 Now, as you can see, Arabic does express a word for \enquote{was}. It is the past verb \foreignlanguage{arabic}{کَانَ} \emph{kāna}.
 \foreignlanguage{arabic}{کَانَ} is a hollow verb from the root \foreignlanguage{arabic}{«کون»}.
@@ -13525,8 +13528,8 @@ That is, without the information, the sentence is deficient.
 \enquote{Is} subject-information sentences can be converted to \enquote{was} subject-information sentences using the verb \foreignlanguage{arabic}{کَانَ}. Here are some examples:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 \enquote{is}
@@ -14378,7 +14381,7 @@ For example:
 
 In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-36-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-36-1.pdf}}
 
 \enquote{This man is a teacher.}
 
@@ -14583,7 +14586,7 @@ to complete the sentence. We will see examples of this below.
 
 \subsection{\texorpdfstring{The \foreignlanguage{arabic}{أَنَّ} clause in place of the direct doee}{The أَنَّ clause in place of the direct doee}}\label{the-ux623ux646-clause-in-place-of-the-direct-doee}
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-37-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-37-1.pdf}}
 
 \enquote{I know that Zayd is truthful.}
 
@@ -14601,7 +14604,7 @@ clauses can be placed where one would expect other noun positions, such as: a su
 
 Example:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-38-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-38-1.pdf}}
 
 \enquote{That you are sick has reached me.} (\enquote{It has reached me that you are sick.})
 
@@ -14609,7 +14612,7 @@ Example:
 
 Example (with information before subject in sentence word order):
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-39-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-39-1.pdf}}
 
 \enquote{From his characteristeics is that he is noble.}
 
@@ -14617,7 +14620,7 @@ Example (with information before subject in sentence word order):
 
 Example:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-40-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-40-1.pdf}}
 
 \enquote{The truth is that he went.}
 
@@ -14627,13 +14630,13 @@ As you know, \foreignlanguage{arabic}{کَانَ}'s doer is also its subject, an
 The \foreignlanguage{arabic}{أَنَّ} clause can occur in either the subject or the information of \foreignlanguage{arabic}{کَنَ}.
 For example, the \foreignlanguage{arabic}{أَنَّ} clause as the information:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-41-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-41-1.pdf}}
 
 \enquote{The matter was that he didn't do his obligation.}
 
 Now, the \foreignlanguage{arabic}{أَنَّ} clause as the subject:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-42-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-42-1.pdf}}
 
 \enquote{That he didn't do his obligation was the matter.}
 
@@ -14643,13 +14646,13 @@ Note that in the latter case, the information precedes the subject.
 
 The \foreignlanguage{arabic}{أَنَّ} clause can occur in place of an i-state base noun in an annexation. Example:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-43-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-43-1.pdf}}
 
 \enquote{The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous.}
 
 The \foreignlanguage{arabic}{أَنَّ} clause can occur in place of an i-state noun directly following a preposition. Example:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-44-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-44-1.pdf}}
 
 \enquote{I wondered at that Zayd is asleep.}
 
@@ -14731,7 +14734,7 @@ TODO
 
 There is a sub-type of subject-information sentence called a topic-comment sentence. Here is an example:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-45-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-45-1.pdf}}
 
 \enquote{The tree: its branches are long.}
 
@@ -14782,7 +14785,7 @@ the pronoun \foreignlanguage{arabic}{أَنَا} \enquote{I} refers to the speak
 
 There is a special pronoun, called the \emph{pronoun of the fact} that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as \enquote{the fact is} but is often left untranslated. Here is an example:
 
-\includegraphics{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-46-1.pdf}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-46-1.pdf}}
 
 \enquote{The fact is: the cold is intense.}
 
@@ -15102,11 +15105,11 @@ Precedence & Vowel & Seated hamzah \\
 Examples:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3158}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1053}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1053}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1053}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3684}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.3158}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1053}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1053}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1053}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.3684}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Word
@@ -15164,9 +15167,9 @@ When hamzah occurs at the end of a word, disregard the vowel on hamzah itself, a
 Plug it into the precedence table as above to determine the seat of hamzah.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1333}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4667}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.1333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4667}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Word
@@ -15209,9 +15212,9 @@ Hamzah will continue to be seated on an alif.
 Here are some examples of words with beginning hamzahs and prefixes.
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4000}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4000}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Word without prefix
@@ -15235,11 +15238,11 @@ Hamzah is now, generally, treated as if it is in the middle of the word, and the
 Examples:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3158}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1053}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1053}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1053}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3684}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.3158}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1053}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1053}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1053}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.3684}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Word
@@ -15368,8 +15371,8 @@ When hamzah would occur in the middle of a word, they would replace it with an \
 So they would adjust their pronunciation as follows:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Proununciation with hamzah
@@ -15680,9 +15683,9 @@ muslim:2024b
 \enquote{What about my wealth?}
 abudawud:2257
 
-<!--The following line is needed because Notes is an unnumbered chapter and otherwise fancy header will print the header text for the previous chapter "Contents"-->
-\markboth {\textsc{\MakeLowercase{Notes}}}{\textsc{\MakeLowercase{Notes}}}
-
 \printendnotes[itemize]
+%The following line is needed because Notes is an unnumbered chapter and otherwise fancy header will print the header text for the previous chapter "Contents"
+
+%\markboth {\textsc{\MakeLowercase{Notes}}}{\textsc{\MakeLowercase{Notes}}}
 
 \end{document}

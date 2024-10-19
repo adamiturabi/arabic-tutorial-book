@@ -50,5 +50,6 @@ file="_bookdown.yml", sep="")
 
 # Commands for compiling book
 bookdown::render_book('index.Rmd','bookdown::gitbook', clean = FALSE)
+warnings()
 bookdown::render_book('index.Rmd','bookdown::pdf_book')
 
