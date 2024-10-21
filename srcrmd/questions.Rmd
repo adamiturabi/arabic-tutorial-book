@@ -56,24 +56,27 @@ Let's try to understand this using an example.
 Consider the following sentence:
 
 [ٱِسْأَلْ أَيُّهُمْ قَامَ]{.ar}  
+[EisEal Eayyuhum qAm]{.trn}  
 "Ask: 'Which of them stood?'"
 
 The speaker is commanding the addressed person to ask a group of people the question: 
 "Which of them stood".
 
 The question sentence is
-[أَيُّهُمْ قَامَ]{.ar} 
+[أَيُّهُمْ قَامَ]{.ar}
+[Eayyuhum qAm]{.trn}
 "Which of them stood".
 This entire sentence is considered the direct doee of the verb of command [ٱسْأَلْ]{.ar} "ask!".
-The question noun [أَيُّ]{.ar} is in the u-state because it is the subject of the question sentence.
-It does not become [أَيَّ]{.ar} in the a-state because it is not, by itself, the direct doee of 
+The question noun [أَيُّ]{.ar} [Eayyu]{.trn} is in the u-state because it is the subject of the question sentence.
+It does not become [أَيَّ]{.ar} [Eayya]{.trn} in the a-state because it is not, by itself, the direct doee of 
 [ٱسْأَلْ]{.ar}.
 Rather, as we have just stated, the entire question sentence is the direct doee.
-But because it is a sentence, and not an individual word, it does not indicate its state using, for example, an a-mark [◌َ]{.ar}.
+But because the direct doee is a sentence, and not an individual word, it does not indicate its state using, for example, an a-mark [◌َ]{.ar}.
 
 Now, let's modify the example. Consider now this sentence:
 
 [ٱِسْأَلْ أَيَّهُمْ قَامَ]{.ar}  
+[EisEal Eayyahum qAm]{.trn}  
 Ask the one of them who stood!
 
 Now, the noun [أَيَّ]{.ar} is in the a-state because it (individually) is the direct doee of the verb of command 
@@ -84,7 +87,7 @@ Because the noun
 is individually affected by the preceding verb
 [ٱسْأَلْ]{.ar}
 it is now not a question noun, and must be one of the other functions that the word
-[أَيْ]{.ar} can have.
+[أَيّ]{.ar} can have.
 As a matter of fact, it is here a connected noun, and the sentence following it:
 [قَامَ]{.ar} "he stood" is its connector.
 
@@ -110,16 +113,20 @@ Here the question sentence is:
 By the way, a question sentence may be part of a bigger question as well. For example:
 
 [أَتَدْرِي أَيُّهُمْ فِي ٱلدَّارِ؟]{.ar}  
+[EatadrI Eayyuhum fi -ddAr]{.trn}  
 Do you know: which of them is in the house?
 
 Note now the subtle difference in meaning if we change the state of [أَيّ]{.ar} in the above example from the u-state to the a-state:
 
 [أَتَدْرِي أَيَّهُمْ فِي ٱلدَّارِ؟]{.ar}  
+[EatadrI Eayyahum fi -ddAr]{.trn}  
 Do you know the one of them who is in the house?
 
 When [أَيّ]{.ar} was in the u-state it was a question noun. And the speaker was asking the addressed person if he could figure out who, from among the group of people, was in the house.
 
 When [أَيّ]{.ar} is in the a-state it is now a connected noun.
+The connector's link-back pronoun is omitted (as is permissible in this case, see section\ \@ref(...)). With the link-back pronoun restored, the sentence is
+[أَتَدْرِي أَيَّهُمْ هُوَ فِي ٱلدَّارِ؟]{.ar}
 And the speaker is asking the addressed person if he is familiar with the person who is in the house.
 Now he is not asking the addressed person to identify him, but rather if knows him as a person.
 
@@ -128,7 +135,14 @@ This difference is apparent with
 because it is a flexible noun whose state is indicated by the vowel mark at its end.
 The same occurs in the other question nouns that are also connected nouns:
 [مَا]{.ar}, and [مَنْ]{.ar}
-but it won't often be as apparent because they are rigid nouns.
+but it won't often be as apparent because they are rigid nouns.[^ayy-a-state-question]
+
+[^ayy-a-state-question]: Consider the example:
+
+    [أَتَدْرِي أَيَّ كِتَابٍ قَرَأَ؟]{.ar}  
+    Do you know which book he read?
+    
+    [أَيّ]{.ar} is a question noun in the a-state because it is the direct doee of the verb [قَرَأَ]{.ar}. It can't be a connected noun because [أَيَّ كِتَابٍ]{.ar} is indefinite and connected nouns are always considered definite.
 
 As a final note, sometimes, one of the words like 
 [أَ]{.ar}, [مَنْ]{.ar}, [مَا]{.ar}, [كَيْفَ]{.ar}, etc.
@@ -141,6 +155,8 @@ Nevertheless, the meaning of the sentence can still usually be gleaned.
 For example:
 
 [فَلْتَدْخُلْ مِنْ أَيِّ أَبْوَابِ الْجَنَّةِ شَاءَتْ]{.ar}  
-"then let her enter from whichever of the doors of paradise she wishes."
+"then let her enter from whichever of the doors of paradise she wishes."[^ayy-question-vs-connected-noun]
+
+[^ayy-question-vs-connected-noun]: For further reading on [أَيّ]{.ar} as a connected noun vs a question noun:
 
 
