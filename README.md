@@ -1,6 +1,7 @@
 # About
 
 This repository contains the [Bookdown](https://bookdown.org/) source files for my online book: "A Learner's Grammar of Classical Standard Arabic".
+The instruction is intended to be rigorous yet accessible to students from a non-linguistic background.
 It is a work in progress. So far I have written approximately 20 chapters, with at least as many remaining.
 There is much editing and work needed even in the chapters already written so it is not ready for study yet.
 
@@ -37,16 +38,18 @@ Add an empty `.nojekyll` file to the `docs` dir.
    ```
 2. Fonts
    + In current use:
-     + New Computer Modern
-     + Andika: https://software.sil.org/andika/download/
-     + Amiri: https://github.com/alif-type/amiri/releases/latest
-     + Vazir: https://github.com/rastikerdar/vazir-font/releases/latest
+     + [Charis SIL](https://software.sil.org/charis/download/)
+     + [Vazir](https://github.com/rastikerdar/vazir-font/releases/latest)
+     + [Amiri](https://github.com/alif-type/amiri/releases/latest)
+     + [Andika](https://software.sil.org/andika/download/)
    + Experimental:
-     + Junicode: https://github.com/psb1558/Junicode-font/releases/tag/v1.003
-     + Brill: https://brill.com/page/290?language=en
-     + Scheherazade New: https://software.sil.org/scheherazade/download/
-     + Gentium Plus: https://software.sil.org/gentium/download/
-     + STIX Two Text: `https://github.com/stipub/stixfonts/blob/master/zipfiles/static_ttf.zip`
+     + [New Computer Modern](https://ctan.org/pkg/newcomputermodern?lang=en)
+     + [DejaVu Serif](https://github.com/dejavu-fonts/dejavu-fonts)
+     + [Junicode](https://github.com/psb1558/Junicode-font/releases/tag/v1.003)
+     + [Brill](https://brill.com/page/290?language=en)
+     + [Scheherazade New](https://software.sil.org/scheherazade/download/)
+     + [Gentium Plus](https://software.sil.org/gentium/download/)
+     + [STIX Two Text](https://github.com/stipub/stixfonts/blob/master/zipfiles/static_ttf.zip)
      + Microsoft Core Fonts:
      ```
      sudo add-apt-repository multiverse
