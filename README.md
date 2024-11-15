@@ -1,16 +1,15 @@
 # About
 
-This repository contains the [Bookdown](https://bookdown.org/) source files for my online book: "A Learner's Grammar of Classical Standard Arabic".
-The instruction is intended to be rigorous yet accessible to students from a non-linguistic background.
+This repository contains the source files for my online book: "A Learner's Grammar of Classical Standard Arabic".
 It is a work in progress. So far I have written approximately 20 chapters, with at least as many remaining.
+In addition to writing the remaining chapters, I also have to add chapter exercises and vocabulary lists.
 There is much editing and work needed even in the chapters already written so it is not ready for study yet.
 
-The work so far (such as it is) is published here in HTML: https://adamiturabi.github.io/arabic-tutorial-book/
+The output (such as it is) is published here in HTML: https://adamiturabi.github.io/arabic-tutorial-book/
 
 A PDF can be downloaded from the top menu-bar. 
 
-In addition to writing the remaining chapters, I also have to add chapter exercises and vocabulary lists.
-I am also planning to port the source from Bookdown to [Quarto](https://quarto.org/) إن شاء الله.
+I am planning to port the typesetting and publishing workflow from [Bookdown](https://bookdown.org/) to [Quarto](https://quarto.org/) إن شاء الله.
 
 # Developer documentation
 
