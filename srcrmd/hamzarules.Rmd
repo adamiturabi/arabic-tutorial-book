@@ -92,8 +92,8 @@ Examples:
 |\vphantom{\huge J} [نُوآنٌ]{.tradar} [nUEAnun]{.trn}    | [U]{.trn}  | [A]{.trn} | [U]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [مَسْءُول]{.tradar} [masEUl]{.trn}    | [◌ْ]{.tradar}   | [U]{.trn}  | [U]{.trn}  | [ء]{.tradar} |
 |\vphantom{\huge J} [تَرْءِيس]{.tradar} [tarEIs]{.trn}    | [◌ْ]{.tradar}   | [I]{.trn}  | [I]{.trn}  | [ء]{.tradar} |
-|\vphantom{\huge J} [مِرْآة]{.tradar} [mirEAh]{.trn}     | [◌ْ]{.tradar}   | [A]{.trn}  | [A]{.trn}  | [ء]{.tradar} (Using sub-rule.)|
-|\vphantom{\huge J} [ظَمْآن]{.tradar} [PamEAn]{.trn}     | [◌ْ]{.tradar}   | [A]{.trn}  | [A]{.trn}  | [ء]{.tradar} (Using sub-rule.)|
+|\vphantom{\huge J} [مِرْآة]{.tradar} [mirEAh]{.trn}     | [◌ْ]{.tradar}   | [A]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [ظَمْآن]{.tradar} [PamEAn]{.trn}     | [◌ْ]{.tradar}   | [A]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
 |\vphantom{\huge J} [مَسْأَلَة]{.tradar} [masEalah]{.trn}  | [◌ْ]{.tradar}   | [a]{.trn}  | [a]{.trn}  | [أ]{.tradar} |
 |\vphantom{\huge J} [الْمَرْأَة]{.tradar} [almarEah]{.trn} | [◌ْ]{.tradar}   | [a]{.trn}  | [a]{.trn}  | [أ]{.tradar} |
 |\vphantom{\huge J} [أَسْئِلَة]{.tradar} [EasEilah]{.trn}  | [◌ْ]{.tradar}   | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
@@ -264,7 +264,7 @@ A second variant is to avoid the repetition of vowel letters like [و]{.tradar} 
 Another variant is that when word final hamzah has an [i]{.trn}-mark and is followed by a suffix starting with [U]{.trn}, then the hamzah is written unseated instead of as [ئ]{.ar}. Examples:
 
 + \vphantom{\huge J} [يُطْفِءُوا]{.tradar} [yuTfiEU]{.trn}      instead of [يُطْفِئُوا]{.tradar} 
-+ \vphantom{\huge J} [مُسْتَهْزِءُون]{.tradar} [mustahziEUn]{.trn}instead of [مُسْتَهْزِئُون]{.tradar
++ \vphantom{\huge J} [مُسْتَهْزِءُون]{.tradar} [mustahziEUn]{.trn}instead of [مُسْتَهْزِئُون]{.tradar}
 + \vphantom{\huge J} [مُنْشِءُون]{.tradar} [munciEUn]{.trn}     instead of [مُنْشِئُون]{.tradar} 
 + \vphantom{\huge J} [يُضَاهِءُونَ]{.tradar} [yuDAhiEUna]{.trn}   instead of [يُضَاهِئُونَ]{.tradar} 
 + \vphantom{\huge J} [مُرْجِءُون]{.tradar} [murjiEUn]{.trn}   instead of [مُرْجِئُون]{.tradar} 
@@ -279,7 +279,7 @@ Another, more modern, variant is to modify the precedence rule of vowels. Accord
 + \vphantom{\huge J} [مَسْؤُول]{.tradar} instead of [مَسْءُول]{.tradar}
 + \vphantom{\huge J} [رُؤُوس]{.tradar} instead of [رُءُوس]{.tradar}
 
-Excepted from this variant is the combination [aEA]{.ar} which will continue to be written as [ـَءَا]{.ar} or [ـَآ]{.ar}. For example: [شَنَآن]{.ar}, [مُرْجَءَات]{.ar}.
+Excepted from this variant is the combination [aEA]{.ar} which will continue to be written as [ـَءَا]{.ar} or [ـَآ]{.ar}. For example: [شَنَآن]{.tradar}, [مُرْجَءَات]{.tradar}.
 
 ## Why so complicated?
 

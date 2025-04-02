@@ -4,7 +4,7 @@ title: |
   | Classical Standard Arabic
 #subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-900-ge13fa02"
+date: "v0.1.0-904-gbecf3bf"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -12737,7 +12737,7 @@ The lightened [لَـٰكِنْ]{.ar} has the same meaning as the heavy [لَـ�
 
 <!--chapter:end:srcrmd/inna_and_its_sisters.Rmd-->
 
-# The connected noun
+# The connected nouns
 
 ## Introduction
 
@@ -13288,7 +13288,7 @@ For example:
 "I am at his [house] at whose you (are)."  
 (for [مَنْ أَنْتَ عِنْدَهُ]{.ar})
 
-### Applicability of [مَا]{.ar} and [مَنْ]{.ar} to intelligent and non-intelligent beings
+### Applicability of [مَا]{.ar} and [مَنْ]{.ar} to intelligent and non-intelligent beings {#man-and-maa-for-intelligent}
 
 As we mentioned earlier, [مَنْ]{.ar} is typically used to refer to intelligent beings.
 And [مَا]{.ar} is typically used to refer to non-intelligent beings.
@@ -13592,31 +13592,114 @@ or
 
 TODO
 
-## Yes/No questions
+## [أَ]{.ar} and [هَلْ]{.ar} questions
 
 TODO
 
-## [مَنْ]{.ar} "Who"
+## [مَنْ]{.ar} "Who" questions
+
+In chapter\ \@ref(the-connected-nouns) we have studied the use of [مَنْ]{.ar} [man]{.trn} as a connected noun.
+Now, we will study its use as a question noun.
+[مَنْ]{.ar} is used to formulate "who" questions.
+As with connected-nouns [مَنْ]{.ar} is typically used for intelligent beings. 
+(See section\ \@ref(man-and-maa-for-intelligent) for when [مَنْ]{.ar} may be used for non-intelligent beings.)
+Except in case that we will note below,
+[مَنْ]{.ar}
+is usually placed in the beginning of the question sentence.
+Being a noun, [مَنْ]{.ar} may be in one of the three states but because it is a rigid noun, its state will not be apparent.
+[مَنْ]{.ar} is considered a singular masculine noun but it is used for all numbers and genders.
+
+### [مَنْ]{.ar} in the u-state
+
+Here are some examples of the question noun
+[مَنْ]{.ar}
+as the subject of a sentence:
+
+[مَنْ زَيْدٌ؟]{.ar}  
+"Who is Zayd?"
+
+[مَنْ أَخُوهُ زَيْدٌ؟]{.ar}  
+"Whose brother is Zayd?"
+
+[مَنْ أَنْتِ؟]{.ar}  
+"Who are you~1f~?"
+
+[مَنِ هَـٰؤُلَاءِ ٱلنِّسَاءُ؟]{.ar}  
+"Who are these women?"
+
+[مَنْ ٱلرِّجَالُ ٱلَّذِينَ جَاءُوا؟]{.ar}  
+"Who are the men that have come?
+
+In all the above sentences
+[مَنْ]{.ar}
+is the subject of the sentence, 
+and the rest of the sentence constitutes the information.
+The noun following 
+[مَنْ]{.ar},
+even when indefinite,
+cannot be considered its describer or replacement.
+Therefore, [مَنْ رَجُلٌ؟]{.ar} can only mean "Who is a man?", not "Which man?".
+
+<!--
+[مَنْ إِلَٰهٌ غَيْرُ اللَّهِ يَأْتِيكُم بِضِيَاءٍ]{.ar}  
+Don't think I can use this. Most English translations say "what/which deity".
+Even though i3raab texts say ilaah is a khabar.
+-->
+
+When [مَنْ]{.ar} is used to ask about the doer of a verb, the verb is generally used with a singular masculine doer pronoun.
+For example:
+
+[مَنْ جَاءَ؟]{.ar}  
+"Who came?"
+
+However, occasionally, the verb's doer pronoun can be made to match the gender of the person(s) who are being asked about,
+especially if the question is specific to a gender. For example:
+
+[مَنْ كَانَتْ أُمَّكَ؟]{.ar}  
+"Who was your mother?"
+
+Note how [كَانَتْ]{.ar} has a feminine doer pronoun to match the gender of [أُمَّكَ]{.ar}.[^man-doer-pronoun]
+
+[^man-doer-pronoun]: Wright states (vol.\ 2, §170, p.\ 313C):
+
+    > As interrogatives, [مَنْ]{.ar} and [مَا]{.ar} are construed with the masculine singular of a verb, but occasionally admit of the feminine when the predicate is of the feminine gender; as [مَنْ كَانَتْ أُمَّكَ]{.ar} who was your mother?
+
+    From [البحر المحيط لأبي حيان]{.ar} for the [tafsIr]{.trn2} of [فَإِن كَانَتَا ٱثۡنَتَیۡنِ]{.ar} [4:176]:
+
+    > [... مَن صُرِّحَ بِها ولَها لَفْظٌ ومَعْنًى. فَمَن أنَّثَ راعى المَعْنى، لِأنَّ التَّقْدِيرَ: أيَّةُ أُمٍّ كانَتْ أُمَّكَ. ومَدْلُولُ الخَبَرِ في هَذا مُخالِفٌ لِمَدْلُولِ الِاسْمِ، بِخِلافِ الآيَةِ، فَإنَّ المَدْلُولَيْنِ واحِدٌ، ولَمْ يُؤَنَّثْ في مَن كانَتْ أُمَّكَ لِتَأْنِيثِ الخَبَرِ، إنَّما أُنِّثَ مُراعاةً لِمَعْنى مَن إذْ أرادَ بِها مُؤَنَّثًا. ألا تَرى أنَّكَ تَقُولُ: مَن قامَتْ فَتُؤَنَّثُ مُراعاةً لِلْمَعْنى إذا أرَدْتَ السُّؤالَ عَنْ مُؤَنَّثٍ، ولا خَبَرَ هُنا فَيُؤَنَّثُ قامَتْ لِأجْلِهِ]{.ar}
+
+    From [البحر المحيط لأبي حيان]{.ar} for the [tafsIr]{.trn2} of [ثُمَّ لَمۡ تَكُن فِتۡنَتُهُمۡ]{.ar} [6:23]:
+
+    > [وأمّا مَن كانَتْ أُمَّكَ، فَإنَّهُ حَمَلَ اسْمَ كانَ عَلى مَعْنى (مَن)؛ لِأنَّ مَن لَها لَفْظٌ مُفْرَدٌ، ولَها مَعْنًى بِحَسَبِ ما تُرِيدُ مِن إفْرادٍ وتَثْنِيَةٍ وجَمْعٍ وتَذْكِيرٍ وتَأْنِيثٍ، ولَيْسَ الحَمْلُ عَلى المَعْنى لِمُراعاةِ الخَبَرِ، ألا تَرى أنَّهُ يَجِيءُ حَيْثُ لا خَبَرَ ؟ نَحْوَ ومِنهم مَن يَسْتَمِعُونَ إلَيْكَ. و(تَكُنْ) مِثْلُ مَن يا ذِئْبُ يَصْطَحِبانِ. ومَن تَقْنُتْ في قِراءَةِ التّاءِ، فَلَيْسَتْ تَأْنِيثُ كانَتْ لِتَأْنِيثِ الخَبَرِ، وإنَّما هو لِلْحَمْلِ عَلى مَعْنى (مَن) حَيْثُ أرَدْتَ بِهِ المُؤَنَّثَ، وكَأنَّكَ قُلْتَ: أيَّةُ امْرَأةٍ كانَتْ أُمَّكَ]{.ar}
+
+If the question is regarding a specific number and gender, then we are more likely to insert the corresponding specific connected noun
+([ٱلَّذِي]{.ar}, etc.)
+between the question noun [مَن]{.ar} and the verb. 
+For example:
+
+[مَنِ اللَّتَانِ تَظَاهَرَتَا عَلَى النَّبِيِّ صلى الله عليه وسلم مِنْ أَزْوَاجِهِ]{.ar}  
+"Who are the ones~2f~, from his wives, who aided one another against the Prophet ﷺ ?  
+[sunnah.com/bukhari:4913](https://sunnah.com/bukhari:4913)
+
+Note that now the dual feminine doer pronoun in [تَظَاهَرَتَا]{.ar} is the link-back pronoun that matches the connected noun [ٱللَّتَانِ]{.ar}.
+
+## [مَا]{.ar} "What" questions
 
 TODO
 
-## [مَا]{.ar} "What"
+## [أَيّ]{.ar} "Which" questions
 
 TODO
 
-## [أَيّ]{.ar} "Which"
+## [كَيْفَ]{.ar} "How" questions
 
 TODO
 
-## [كَيْفَ]{.ar} "Which"
+## [أَيْنَ]{.ar} "Where" questions
 
 TODO
 
-## [أَيْنَ]{.ar} "Where"
-
-TODO
-
-## [مَتَىٰ]{.ar} "When"
+## [مَتَىٰ]{.ar} "When" questions
 
 TODO
 
@@ -13858,7 +13941,7 @@ b. If the hamzah carries any other vowel, it is written seated on an [alif]{.trn
 
 #### In the middle of the word
 
-The most general case is when hamzah is in the middle of a word. 
+<!--The most general case is when hamzah is in the middle of a word. -->
 
 Arabic has three short vowels, three long vowels, two semi-vowels, and a zero-vowel indicated by a [0]{.txt}-mark [◌ْ]{.tradar}. Each of these has an order of precedence and a hamzah seat, that we have shown in the table below:
 
@@ -13872,47 +13955,59 @@ Precedence | Vowel | Seated hamzah
 6. | [a]{.trn}            | [أ]{.tradar}
 7. | [◌ْ]{.tradar}         | [ء]{.tradar}
 
-**Main rule:** Disregard any doubling mark [◌ّ]{.tradar}. Consider the vowel on the consonant before the hamzah and the _shortened_ vowel on the hamzah itself. Determine which of the two vowels wins by being higher in precedence in the above table. The winning vowel's seat will be the seat of the hamzah.
+**Main rule:** Disregard any doubling mark [◌ّ]{.tradar}. Consider the vowel on the consonant before the hamzah and the vowel on the hamzah itself. Determine which of the two vowels wins by being higher in precedence in the above table. The winning vowel's seat will be the seat of the hamzah.
 
+**Exception:** If the vowel [A]{.trn} wins, but it is written not as an [alif]{.trn2} but as a [ىٰ]{.tradar}, then the hamzah will be seated on an [alif]{.trn2}.
+
+<!--
 **Sub-rule:** If the main rule determines that hamzah is to be seated on [alif]{.trn2}, and there is a long [A]{.trn} vowel on the hamzah using an [alif]{.trn2}, then hamzah shall be unseated. And the combination of [ءَا]{.tradar} will usually be written as [آ]{.tradar}.
+-->
 
 Examples:
 
-| Word | Vowel on consonant before hamzah | Shortened vowel on hamzah | Winning vowel | Seated hamzah |
+| Word | Vowel before hamzah | Vowel on hamzah | Winning vowel | Seated hamzah |
 |:-----|:-|:-|:-|:------|
 |\vphantom{\huge J} [هَيْءَة]{.tradar} [hayEah]{.trn}     | [ay]{.trn} | [a]{.trn}  | [ay]{.trn} | [ء]{.tradar} |
 |\vphantom{\huge J} [خَطِيءَة]{.tradar} [xaTIEah]{.trn}   | [I]{.trn}  | [a]{.trn}  | [I]{.trn}  | [ء]{.tradar} |
 |\vphantom{\huge J} [اسْتِيءَاس]{.tradar} [EistIEAs]{.trn}| [I]{.trn}  | [a]{.trn}  | [I]{.trn}  | [ء]{.tradar} (Exception: [ءَا]{.tradar} is not written as [آ]{.tradar} when the preceding vowel is [I]{.trn}.)|
 |\vphantom{\huge J} [تَوْءَم]{.tradar} [tawEam]{.trn}     | [aw]{.trn} | [a]{.trn}  | [aw]{.trn} | [ء]{.tradar} |
+|\vphantom{\huge J} [سَوْءَة]{.tradar} [sawEah]{.trn}     | [aw]{.trn} | [a]{.trn}  | [aw]{.trn} | [ء]{.tradar} |
+|\vphantom{\huge J} [مَوْئِل]{.tradar} [mawEil]{.trn}     | [aw]{.trn} | [i]{.trn}  | [i]{.trn} | [ئ]{.tradar} |
 |\vphantom{\huge J} [سَائِل]{.tradar} [sAEil]{.trn}      | [A]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [تَسَاؤُل]{.tradar} [tasAEul]{.trn}   | [A]{.trn}  | [u]{.trn}  | [u]{.trn}  | [ؤ]{.tradar} |
 |\vphantom{\huge J} [تَسَاءَلَ]{.tradar} [tasAEala]{.trn}  | [A]{.trn}  | [a]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
-|\vphantom{\huge J} [قِرَاءَات]{.tradar} [qirAEAt]{.trn}  | [A]{.trn}  | [a]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
-|\vphantom{\huge J} [نُوآنٌ]{.tradar} [nUEAnun]{.trn}    | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.tradar} |
-|\vphantom{\huge J} [مَسْؤُول]{.tradar} [masEUl]{.trn}    | [◌ْ]{.tradar}   | [u]{.trn}  | [u]{.trn}  | [ؤ]{.tradar} |
-|\vphantom{\huge J} [تَرْئِيس]{.tradar} [tarEIs]{.trn}    | [◌ْ]{.tradar}   | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
-|\vphantom{\huge J} [مِرْآة]{.tradar} [mirEAh]{.trn}     | [◌ْ]{.tradar}   | [a]{.trn}  | [a]{.trn}  | [ء]{.tradar} (Using sub-rule.)|
-|\vphantom{\huge J} [ظَمْآن]{.tradar} [PamEAn]{.trn}     | [◌ْ]{.tradar}   | [a]{.trn}  | [a]{.trn}  | [ء]{.tradar} (Using sub-rule.)|
+|\vphantom{\huge J} [قِرَاءَات]{.tradar} [qirAEAt]{.trn}  | [A]{.trn}  | [A]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [نُوآنٌ]{.tradar} [nUEAnun]{.trn}    | [U]{.trn}  | [A]{.trn} | [U]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [مَسْءُول]{.tradar} [masEUl]{.trn}    | [◌ْ]{.tradar}   | [U]{.trn}  | [U]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [تَرْءِيس]{.tradar} [tarEIs]{.trn}    | [◌ْ]{.tradar}   | [I]{.trn}  | [I]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [مِرْآة]{.tradar} [mirEAh]{.trn}     | [◌ْ]{.tradar}   | [A]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [ظَمْآن]{.tradar} [PamEAn]{.trn}     | [◌ْ]{.tradar}   | [A]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
 |\vphantom{\huge J} [مَسْأَلَة]{.tradar} [masEalah]{.trn}  | [◌ْ]{.tradar}   | [a]{.trn}  | [a]{.trn}  | [أ]{.tradar} |
 |\vphantom{\huge J} [الْمَرْأَة]{.tradar} [almarEah]{.trn} | [◌ْ]{.tradar}   | [a]{.trn}  | [a]{.trn}  | [أ]{.tradar} |
+|\vphantom{\huge J} [أَسْئِلَة]{.tradar} [EasEilah]{.trn}  | [◌ْ]{.tradar}   | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
+|\vphantom{\huge J} [أَفْئِدَة]{.tradar} [EafEidah]{.trn}  | [◌ْ]{.tradar}   | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [بِئْسَ]{.tradar} [biEsa]{.trn}       | [i]{.trn}  | [◌ْ]{.tradar}   | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [سُؤْل]{.tradar} [suEl]{.trn}        | [u]{.trn}  | [◌ْ]{.tradar}   | [u]{.trn}  | [ؤ]{.tradar} |
 |\vphantom{\huge J} [كَأْس]{.tradar} [kaEs]{.trn}        | [a]{.trn}  | [◌ْ]{.tradar}   | [a]{.trn}  | [أ]{.tradar} |
 |\vphantom{\huge J} [سُئِلَ]{.tradar} [suEila]{.trn}      | [u]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [يَئِسَ]{.tradar} [yaEisa]{.trn}      | [a]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
-|\vphantom{\huge J} [رَئِيس]{.tradar} [raEIs]{.trn}      | [a]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
-|\vphantom{\huge J} [سُؤَال]{.tradar} [suEAl]{.trn}      | [u]{.trn}  | [a]{.trn}  | [u]{.trn}  | [ؤ]{.tradar} |
-|\vphantom{\huge J} [رُؤُوس]{.tradar} [ruEUs]{.trn}      | [u]{.trn}  | [u]{.trn}  | [u]{.trn}  | [ؤ]{.tradar} |
+|\vphantom{\huge J} [مُطْمَئِنّ]{.tradar} [muTmaEinn]{.trn} | [a]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
+|\vphantom{\huge J} [سُؤَال]{.tradar} [suEAl]{.trn}      | [u]{.trn}  | [A]{.trn}  | [u]{.trn}  | [ؤ]{.tradar} |
+|\vphantom{\huge J} [رَءِيس]{.tradar} [raEIs]{.trn}      | [a]{.trn}  | [I]{.trn}  | [I]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [رُءُوس]{.tradar} [ruEUs]{.trn}      | [u]{.trn}  | [U]{.trn}  | [U]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [شُءُون]{.tradar} [cuEUn]{.trn}      | [u]{.trn}  | [U]{.trn}  | [U]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [رَءُوف]{.tradar} [raEUf]{.trn}      | [a]{.trn}  | [U]{.trn}  | [U]{.trn}  | [ء]{.tradar} |
 |\vphantom{\huge J} [لُؤَيّ]{.tradar} [luEayy]{.trn}      | [u]{.trn}  | [a]{.trn}  | [u]{.trn}  | [ؤ]{.tradar} |
-|\vphantom{\huge J} [شَنَآن]{.tradar} [canaEAn]{.trn}    | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [ء]{.tradar} (Using sub-rule.)|
+|\vphantom{\huge J} [شَنَآن]{.tradar} [canaEAn]{.trn}    | [a]{.trn}  | [A]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
 |\vphantom{\huge J} [سَأَلَ]{.tradar} [saEala]{.trn}      | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [أ]{.tradar} |
-|\vphantom{\huge J} [رَأَىٰ]{.tradar} [raEA]{.trn}        | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [أ]{.tradar} (Sub-rule doesn't apply because [A]{.trn} vowel at end represented by [ىٰ]{.tradar}, not [alif]{.trn2}.)|
 |\vphantom{\huge J} [رَأَّسَ]{.tradar} [raEEasa]{.trn}     | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [أ]{.tradar} |
+|\vphantom{\huge J} [سَيِّئَة]{.tradar} [sayyiEah]{.trn}   | [i]{.trn}  | [a]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [يُرَئِّسُ]{.tradar} [yuraEEisu]{.trn}  | [a]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [رُئِّسَ]{.tradar} [ruEEisa]{.trn}     | [u]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [تَفَؤُّل]{.tradar} [tafaEEul]{.trn}   | [a]{.trn}  | [u]{.trn}  | [u]{.trn}  | [ؤ]{.tradar} |
-|\vphantom{\huge J} [سَءَّال]{.tradar} [saEEAl]{.trn}     | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [ء]{.tradar} (Using sub-rule.)|
-|\vphantom{\huge J} [لَءَّال]{.tradar} [laEEAl]{.trn}     | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [ء]{.tradar} (Using sub-rule.)|
+|\vphantom{\huge J} [سَءَّال]{.tradar} [saEEAl]{.trn}     | [a]{.trn}  | [A]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [لَءَّال]{.tradar} [laEEAl]{.trn}     | [a]{.trn}  | [A]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [رَأَىٰ]{.tradar} [raEA]{.trn}        | [a]{.trn}  | [A]{.trn}  | [A]{.trn}  | [أ]{.tradar} (using exception) |
 
 #### At the end of the word
 
@@ -13962,29 +14057,45 @@ Examples:
 
 | Word | Vowel on consonant before hamzah | Shortened vowel on hamzah | Winning vowel | Seated hamzah |
 |:-----|:-|:-|:-|:------|
-|\vphantom{\huge J} [بَرِيءُونَ]{.tradar} [barIEUna]{.trn}     | [I]{.trn}  | [u]{.trn} | [I]{.trn}   | [ء]{.tradar} |
-|\vphantom{\huge J} [بَرِيءَانِ]{.tradar} [barIEAni]{.trn}     | [I]{.trn}  | [a]{.trn} | [I]{.trn}   | [ء]{.tradar} |
-|\vphantom{\huge J} [بَرِيءِينَ]{.tradar} [barIEIna]{.trn}     | [I]{.trn}  | [i]{.trn} | [I]{.trn}   | [ء]{.tradar} |
-|\vphantom{\huge J} [بَرِيءَيْنِ]{.tradar} [barIEayni]{.trn}    | [I]{.trn}  | [a]{.trn} | [I]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [بَرِيءُونَ]{.tradar} [barIEUna]{.trn}     | [I]{.trn}  | [U]{.trn} | [I]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [بَرِيءَانِ]{.tradar} [barIEAni]{.trn}     | [I]{.trn}  | [A]{.trn} | [I]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [بَرِيءِينَ]{.tradar} [barIEIna]{.trn}     | [I]{.trn}  | [I]{.trn} | [I]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [بَرِيءَيْنِ]{.tradar} [barIEayni]{.trn}    | [I]{.trn}  | [ay]{.trn}| [I/ay]{.trn}| [ء]{.tradar} |
+|\vphantom{\huge J} [سِيءَتْ]{.tradar} [sIEat]{.trn}          | [I]{.trn}  | [a]{.trn} | [I]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [شَيْءُهُ]{.tradar} [cayEuhu]{.trn}        | [ay]{.trn} | [u]{.trn} | [ay]{.trn}  | [ء]{.tradar} |
 |\vphantom{\huge J} [شَيْءَهُ]{.tradar} [cayEahu]{.trn}        | [ay]{.trn} | [a]{.trn} | [ay]{.trn}  | [ء]{.tradar} |
 |\vphantom{\huge J} [شَيْءِهِ]{.tradar} [cayEihi]{.trn}        | [ay]{.trn} | [i]{.trn} | [ay]{.trn}  | [ء]{.tradar} |
-|\vphantom{\huge J} [شَيْءَانِ]{.tradar} [cayEAni]{.trn}       | [ay]{.trn} | [a]{.trn} | [ay]{.trn}  | [ء]{.tradar} |
-|\vphantom{\huge J} [شَيْءَيْنِ]{.tradar} [cayEayni]{.trn}      | [ay]{.trn} | [a]{.trn} | [ay]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [شَيْءَانِ]{.tradar} [cayEAni]{.trn}       | [ay]{.trn} | [A]{.trn} | [ay]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [شَيْءَيْنِ]{.tradar} [cayEayni]{.trn}      | [ay]{.trn} | [ay]{.trn} | [ay]{.trn} | [ء]{.tradar} |
 |\vphantom{\huge J} [مَجِيءُهُ]{.tradar} [majIEuhu]{.trn}      | [I]{.trn}  | [u]{.trn} | [I]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [مَجِيءَهُ]{.tradar} [majIEahu]{.trn}      | [I]{.trn}  | [a]{.trn} | [I]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [مَجِيءِهِ]{.tradar} [majIEihi]{.trn}      | [I]{.trn}  | [i]{.trn} | [I]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [سُوئِهِ]{.tradar} [sUEihi]{.trn}         | [U]{.trn}  | [i]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
 |\vphantom{\huge J} [ضَوْئِهِ]{.tradar} [DawEihi]{.trn}        | [aw]{.trn} | [i]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
-|\vphantom{\huge J} [يَسُوءُونَ]{.tradar} [yasUEUna]{.trn}     | [U]{.trn}  | [u]{.trn} | [U]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [يَسُوءُونَ]{.tradar} [yasUEUna]{.trn}     | [U]{.trn}  | [U]{.trn} | [U]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [سُوءُهُ]{.tradar} [sUEuhu]{.trn}         | [U]{.trn}  | [u]{.trn} | [U]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [سُوءَهُ]{.tradar} [sUEahu]{.trn}         | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.tradar} |
-|\vphantom{\huge J} [سُوءَانِ]{.tradar} [sUEAni]{.trn}        | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [سُوءَانِ]{.tradar} [sUEAni]{.trn}        | [U]{.trn}  | [A]{.trn} | [U]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [ضَوْءَهُ]{.tradar} [DawEahu]{.trn}        | [aw]{.trn} | [a]{.trn} | [aw]{.trn}  | [ء]{.tradar} |
-|\vphantom{\huge J} [ضَوْءَانِ]{.tradar} [DawEAni]{.trn}       | [aw]{.trn} | [a]{.trn} | [aw]{.trn}  | [ء]{.tradar} |
-|\vphantom{\huge J} [مُتَّكِئِينَ]{.tradar} [muttakiEIna]{.trn}  | [i]{.trn}  | [i]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
-|\vphantom{\huge J} [يُبَرِّئُونَ]{.tradar} [yubarriEUna]{.trn}  | [i]{.trn}  | [u]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
-|\vphantom{\huge J} [يُبَرَّؤُونَ]{.tradar} [yubarraEUna]{.trn}  | [a]{.trn}  | [u]{.trn} | [u]{.trn}   | [ؤ]{.tradar} |
+|\vphantom{\huge J} [ضَوْءَانِ]{.tradar} [DawEAni]{.trn}       | [aw]{.trn} | [A]{.trn} | [aw]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [مُرْجَءَلت]{.tradar} [murjaEAt]{.trn}     | [a]{.trn}  | [A]{.trn} | [A]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [خَاطِءِين]{.tradar} [xATiEIn]{.trn}      | [i]{.trn}  | [I]{.trn} | [I]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [خَاسِءِين]{.tradar} [xAsiEIn]{.trn}      | [i]{.trn}  | [I]{.trn} | [I]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [مُتَّكِءِينَ]{.tradar} [muttakiEIna]{.trn}  | [i]{.trn}  | [I]{.trn} | [I]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [مُتَّكِءُونَ]{.tradar} [muttakiEUna]{.trn}  | [i]{.trn}  | [U]{.trn} | [U]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [يُبَرِّئُونَ]{.tradar} [yubarriEUna]{.trn}  | [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [يُبَرَّءُونَ]{.tradar} [yubarraEUna]{.trn}  | [a]{.trn}  | [U]{.trn} | [U]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [ٱقْرَءُوا]{.tradar} [iqraEU]{.trn}       | [a]{.trn}  | [U]{.trn} | [U]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [سَيِّئَات]{.tradar} [sayyiEAt]{.trn}      | [i]{.trn}  | [A]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [فِئَات]{.tradar} [fiEAt]{.trn}          | [i]{.trn}  | [A]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [فِئُون]{.tradar} [fiEUn]{.trn}          | [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [مِئَات]{.tradar} [miEAt]{.trn}          | [i]{.trn}  | [A]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [مِئُون]{.tradar} [miEUn]{.trn}          | [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [يُطْفِئُوا]{.tradar} [yuTfiEU]{.trn}      | [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [مُسْتَهْزِئُون]{.tradar} [mustahziEUn]{.trn}| [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [مُنْشِئُون]{.tradar} [munciEUn]{.trn}     | [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [يُضَاهِئُونَ]{.tradar} [yuDAhiEUna]{.trn}  | [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [مُرْجِئُون]{.tradar} [murjiEUn]{.trn}     | [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
 
 There are some exceptions:
 
@@ -14027,22 +14138,41 @@ Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [alif
 
 There are some historical and regional variants to the above rules. The main one is when the letter before hamzah has a [0]{.txt}-mark, the hamzah is generally written unseated. So with this variant, we write:
 
-+ \vphantom{\huge J} [مَسْءُول]{.tradar} instead of [مَسْؤُول]{.tradar}
-+ \vphantom{\huge J} [أَسْءِلَة]{.tradar} instead of [أَسْئِلَة]{.tradar}
 + \vphantom{\huge J} [مَسْءَلَة]{.tradar} instead of [مَسْأَلَة]{.tradar}
 
 However, this rule appears to be not consistently followed. For example, [nacEah]{.trn} is generally always written [نَشْأَة]{.tradar} never [نَشْءَة]{.tradar}.
 
+<!--
 A second variant is to avoid the repetition of vowel letters like [و]{.tradar} and [ي]{.tradar}. So they write:
 
 + \vphantom{\huge J} [رُءُوس]{.tradar} instead of [رُؤُوس]{.tradar}.
 + \vphantom{\huge J} [رَءِيس]{.tradar} instead of [رَئِيس]{.tradar}.
+-->
+
+Another variant is that when word final hamzah has an [i]{.trn}-mark and is followed by a suffix starting with [U]{.trn}, then the hamzah is written unseated instead of as [ئ]{.ar}. Examples:
+
++ \vphantom{\huge J} [يُطْفِءُوا]{.tradar} [yuTfiEU]{.trn}      instead of [يُطْفِئُوا]{.tradar} 
++ \vphantom{\huge J} [مُسْتَهْزِءُون]{.tradar} [mustahziEUn]{.trn}instead of [مُسْتَهْزِئُون]{.tradar}
++ \vphantom{\huge J} [مُنْشِءُون]{.tradar} [munciEUn]{.trn}     instead of [مُنْشِئُون]{.tradar} 
++ \vphantom{\huge J} [يُضَاهِءُونَ]{.tradar} [yuDAhiEUna]{.trn}   instead of [يُضَاهِئُونَ]{.tradar} 
++ \vphantom{\huge J} [مُرْجِءُون]{.tradar} [murjiEUn]{.trn}   instead of [مُرْجِئُون]{.tradar} 
+
+Excepted from this variant are deficient words like:
+
++ \vphantom{\huge J} [فِئُون]{.tradar} [fiEUn]{.trn}          
++ \vphantom{\huge J} [مِئُون]{.tradar} [miEUn]{.trn}          
+
+Another, more modern, variant is to modify the precedence rule of vowels. According to this modern variant, the vowel before hamzah is compared with the _shortened_ vowel on the hamzah. This results in some changes in the hamzah seat. For example:
+
++ \vphantom{\huge J} [مَسْؤُول]{.tradar} instead of [مَسْءُول]{.tradar}
++ \vphantom{\huge J} [رُؤُوس]{.tradar} instead of [رُءُوس]{.tradar}
+
+Excepted from this variant is the combination [aEA]{.ar} which will continue to be written as [ـَءَا]{.ar} or [ـَآ]{.ar}. For example: [شَنَآن]{.tradar}, [مُرْجَءَات]{.tradar}.
 
 ## Why so complicated?
 
 Hamzah was originally not pronounced everywhere in some Classical Arabic dialects. 
-So, for many words, speakers of these dialects would typically only pronounce hamzah in the beginning of a word.
-When hamzah would occur in the middle of a word, they would replace it with an [a]{.trn}, [u]{.trn}, or [i]{.trn} vowel.
+For speakers of these dialects, when hamzah would occur in the middle of a word, they would replace it with an [a]{.trn}, [u]{.trn}, or [i]{.trn} vowel.
 So they would adjust their pronunciation as follows:
 
 |Proununciation with hamzah | Proununciation without hamzah
