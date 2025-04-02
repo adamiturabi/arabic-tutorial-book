@@ -4,7 +4,7 @@ title: |
   | Classical Standard Arabic
 #subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-894-gfdf3baf"
+date: "v0.1.0-904-gbecf3bf"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -11204,855 +11204,6 @@ There are exceptions, however. The verb [جَرَىٰ يَجْرِي جَرْي�
 
 <!--chapter:end:srcrmd/doer_verbal_noun.Rmd-->
 
-# The connected noun
-
-## Introduction
-
-Consider the sentence:
-
-[رَأَيْتُ ٱلرَّجُلَ.]{.ar}  
-"I saw the man."
-
-If the listener (or reader) can identify 
-the individual referred to by the noun "the man"
-(maybe from a pre-existing mutual understanding with the speaker),
-then there is no problem with this sentence.
-But often, further clarification is needed for the listener to correctly identify the individual to whom the speaker is referring.
-This further clarification can be provided in a number of ways.
-
-One way is to use an adjectival noun to describe the noun. For example:
-
-[رَأَيْتُ ٱلرَّجُلَ ٱلطَّوِيلَ.]{.ar}  
-"I saw the _tall_ man."
-
-Another way is to use a pointing noun, thus:
-
-[رَأَيْتُ ذَ ٰلِكَ ٱلرَّجُلَ.]{.ar}  
-"I saw _that_ man."
-
-But sometimes, a whole sentence is needed to provide the needed identification. 
-In this case, Arabic uses what is called a _connected noun_ and a _connector_. 
-<!--A connected noun is itself a vague noun, which is then connected to by a qualifying sentence directly following it called the _connector_. 
-The connector contains sufficient information to identify the individual intended by the speaker. -->
-This example should help you understand what we mean:
-
-
-![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.pdf)<!-- -->
-
-In the above sentence, the connected noun is [ٱَلَّذِي]{.ar} [EallapI]{.trn}.
-It is applied to singular masculine nouns, like [ٱلرَّجُل]{.ar}.
-<!--It signifies a specific individual denoted by a singular masculine noun.-->
-By itself it may be translated as "the one~1m~ that/which/who/whom".
-<!--Sometimes in sentences it is left untranslated (as above) and an implied "who", "whom", "that", or "which" is used to aid the translation.-->
-It is called a connected noun because it must be directly followed by a qualifying sentence that connects to it.
-
-The qualifying sentence is called the connector and it contains the necessary information for the listener to correctly identify the individual intended by the speaker."
-The connector in the above example is the sentence [لَقِيتُهُ بِٱلْأَمْسِ]{.ar} "I met him yesterday."
-
-Note by the way, that we did not translate the pronoun "him" in our original translation (above). 
-This is because it would sound unnatural in English to say: "I saw the [specific] man (whom) I met _him_ yesterday."
-But this pronoun is an essential part of the Arabic connector and is called the _link-back pronoun_. 
-We will deal with it in section\ \@ref(link-back-pronoun) later in this chapter.
-
-There are two types of connected nouns:
-
- 1. The specific connected nouns
- 2. The general connected nouns
-
-We will study both these types separately within this chapter.
-
-## The specific connected nouns
-
-The specific connected nouns have a significance which is restricted to a specific individual or category of individuals, 
-and its connector should contain sufficient information to identify that specific individual.
-
-The specific connected nouns is a group of nouns where each noun is applied to a gender and number of individuals. They are:
-
-|Connected noun|Description|
-|:--|:----------------|
-|[ٱَلَّذِي]{.ar} [EallapI]{.trn}|Singular masculine. For both intelligent and non-intelligent beings. Rigid. Only one [ل]{.ar} in its spelling.|
-|[ٱَلَّتِي]{.ar} [EallatI]{.trn}|Singular feminine. For both intelligent and non-intelligent beings. Also used for plural non-intelligent beings of both genders. Rigid. Only one [ل]{.ar} in its spelling.|
-|[ٱَللَّذَانِ]{.ar} [EallapAnI]{.trn}|Dual masculine. For both intelligent and non-intelligent beings. Flexible: [ٱَللَّذَيْنِ]{.ar} [Eallapayni]{.trn} in the a- and i-states. Two [ل]{.ar}'s in its spelling.|
-|[ٱَللَّتَانِ]{.ar} [EallatAnI]{.trn}|Dual feminine. For both intelligent and non-intelligent beings. Flexible: [ٱَللَّتَيْنِ]{.ar} [Eallatayni]{.trn} in the a- and i-states. Two [ل]{.ar}'s in its spelling.|
-|[ٱَلَّذِينَ]{.ar} [EallapIna]{.trn}|Plural masculine. For both intelligent beings. Rigid. Only one [ل]{.ar} in its spelling.|
-|[ٱَللَّاتِي]{.ar} [EallAtI]{.trn} |For plural feminine intelligent beings. Also used for non-intelligent beings of both genders but [ٱَلَّتِي]{.ar} is more common there. Rigid. Two [ل]{.ar}'s in its spelling. Has the following variants: [ٱَللَّاتِ]{.ar} [EallAti]{.trn}, [ٱَللَّائِي]{.ar} [EallAEI]{.trn}, [ٱَللَّوَاتِي]{.ar} [EallawAtI]{.trn}|
-
-### Grammatical position of the specific connected noun
-
-Consider again the same example:
-
-[رَأَيْتُ ٱلرَّجُلَ ٱلَّذِي لَقِيتُهُ بِٱلْأَمْسِ.]{.ar}  
-"I saw the [specific] man whom I met yesterday."
-
-In this example, the connected noun
-[ٱَلَّذِي]{.ar} [EallapI]{.trn}
-is a describer (in the a-state) to the described noun
-<!--
-[ٱلرَّجُل]{.ar}.
-[ٱَلَّذِي]{.ar} 
-is in the a-state to match the described noun
--->
-[ٱلرَّجُلَ]{.ar}.
-Because 
-[ٱَلَّذِي]{.ar} 
-is a rigid noun, it will appear the same in all states without any change to its ending.
-
-As a describer, the connected noun may also come as the last in a series of describers, and can also be combined with a pointing noun. 
-For example:
-
-[رَأَيْتُ ذَ ٰلِكَ ٱلرَّجُلَ ٱلطَّوِيلَ ٱلَّذِي لَقِيتُهُ بِٱلْأَمْسِ.]{.ar}  
-"I saw that [specific] tall man whom I met yesterday."
-
-But connected nouns need not only occur as describers.
-<!--They may occur as a subject, an information, a doer, a doee, following a preposition, and as a base noun in an annexation.-->
-They may occur in various grammatical positions. 
-Here are some examples:
-<!--
-As a subject:
-
-[ٱَلَّذِي رَزَقَنَا بِٱلْأَمْسِ سَيَرْزُقُنَا بِالْغَدِ.]{.ar}  
-"The [specific] one (who) provided for us yesterday will provide for us tomorrow."
-
-As an information:
-
-[هَـٰذَا هُوَ ٱلَّذِي لَقِيتُهُ.]{.ar}  
-"This is the [specific] one (whom) I met."
-
-As a doer:
-
-[قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
-"The [specific] one (thing that) you said has reached us."
-
-As a doee:
-
-[نَهَيْتُ ٱلَّذِي أَسَاءَ.]{.ar}  
-"I forbade the [specific] one (who) did evil."
-
-Following a preposition:
-
-[أَرَادَ أَنْ يَبْطِشَ بِٱلَّذِي هُوَ عَدُوٌّ لَهُمَا]{.ar}  
-"he wanted to strike the one who was an enemy to both of them"  
-(28:19)
-
-As a base noun in an annexation:
-
-[هَـٰذَا بَيْتُ ٱلَّذِي لَقِيتُهُ.]{.ar}  
-"This is the house of the [specific] one (whom) I met."
--->
-
-As a subject:
-
-[وَالَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ وَلَا يُنْفِقُونَهَا فِي سَبِيلِ ٱللَّـٰهِ فَبَشِّرْهُمْ بِعَذَابٍ أَلِيمٍ]{.ar}  
-"And those who hoard gold and silver and spend it not in the way of Allāh - give them tidings of a painful punishment."  
-9:34
-
-As an information:
-
-[خِيَارُ أَئِمَّتِكُمُ الَّذِينَ تُحِبُّونَهُمْ وَيُحِبُّونَكُمْ]{.ar}  
-"The best of your rulers are the ones whom you love and who love you"
-[[#SaHIH #muslim]{.trn2}:1855]
-
-[هُنَّ اللَّوَاتِي عَلَى الْمِنْبَرِ]{.ar}  
-"They are the ones which (are) on the pulpit."  
-[[#sunan al-#dArimI]{.trn2}:36]
-
-As a doer:
-
-[قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
-"The [specific] one (thing) that you said has reached us."
-
-As a doee:
-
-[رَبَّنَا أَرِنَا ٱللَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنْسِ]{.ar}  
-"Our Lord, show us those who misled us of the jinn and men"  
-41:29
-
-Following a preposition:
-
-[أَوْ كَٱلَّذِي مَرَّ عَلَىٰ قَرْيَةٍ]{.ar}  
-"Or [consider such an example] as the one who passed by a township"  
-2:259
-
-As a base noun in an annexation:
-
-[قَدْ سَمِعَ ٱللَّـٰهُ قَوْلَ ٱلَّتِي تُجَادِلُكَ فِي زَوْجِهَا]{.ar}  
-"Certainly has Allāh heard the speech of the one who argues [i.e., pleads] with you, [O Muḥammad]"  
-58:1
-
-## The connector and the link-back pronoun {#link-back-pronoun}
-
-The connector is (typically) a sentence that directly follows the connected noun. 
-As we mentioned in the introduction,
-the connector provides clarifying information for the listener (or reader) to identify the individual referred to by the connected noun.
-
-<!--
-### An incomplete sentence as the connector
-
-The connector is, by default, a complete sentence. 
-It is, however, allowed to be an incomplete sentence if it is one of the following:
-
- i. A prepositional phrase. For example:
-
-    [نَامَ ٱلَّذِي فِي ٱلْغُرْفَةِ.]{.ar}  
-    "The one (who is) in the room has slept."
-
-    The connector is the incomplete sentence [فِي ٱلْغُرْفَةِ]{.ar} "(is) in the room".
-
-ii. An adverbial phrase. For example:
-
-    [تَكَلَّمَ ٱلَّذِي عِنْدَكَ.]{.ar}  
-    "The one (who is) with you spoke."
-
-    (Remember that [عِنْدَ]{.ar} is technically a noun used adverbially, not a preposition.)
-    The connector is the incomplete sentence [عِنْدَكَ]{.ar} "(is) with you". 
-
-In such cases, the incomplete sentence connector implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
-
-### The link-back pronoun {#link-back-pronoun}
--->
-
-In the connector is a pronoun that refers back to the connected noun.
-This pronoun is called the _link-back pronoun_.
-and it is an essential (though not always apparent) part of the connector.
-
-Let us identify some of the link-back pronouns in the examples we have given.
-
-
-[وَالَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ]{.ar}  
-"And those who hoard gold and silver"  
-Link-back pronoun: the plural masculine doer pronoun [و]{.ar} in [يَكْنِزُونَ]{.ar}
-
-[خِيَارُ أَئِمَّتِكُمُ الَّذِينَ تُحِبُّونَهُمْ]{.ar}  
-"The best of your rulers are the ones whom you love and who love you"  
-Link-back pronoun: the plural masculine doee attached pronoun [هُمْ]{.ar} in [تُحِبُّونَهُمْ]{.ar}
-
-[قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
-"The [specific] one (thing) that you said has reached us."  
-Link-back pronoun: the singular masculine doee attached pronoun [هُ]{.ar} in [قُلْتُمُوهُ]{.ar}
-
-[رَبَّنَا أَرِنَا ٱللَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنْسِ]{.ar}  
-"Our Lord, show us those who misled us of the jinn and men"  
-Link-back pronoun: the dual masculine doer pronoun [ا]{.ar} in [أَضَلَّانَا]{.ar}
-
-[أَوْ كَٱلَّذِي مَرَّ عَلَىٰ قَرْيَةٍ]{.ar}  
-"Or [consider such an example] as the one who passed by a township"  
-Link-back pronoun: the implied singular masculine doer pronoun "he" in [مَرَّ]{.ar}
-
-[قَدْ سَمِعَ ٱللَّـٰهُ قَوْلَ ٱلَّتِي تُجَادِلُكَ فِي زَوْجِهَا]{.ar}  
-"Certainly has Allāh heard the speech of the one who argues [i.e., pleads] with you, [O Muḥammad]"  
-Link-back pronoun: the implied singular feminine doer pronoun "she" in [تُجَادِلُكَ]{.ar}
-
-### Matching the link-back pronoun with the connected noun
-
-The link-back pronoun matches the specific connected noun in gender and number.
-And the link-back pronoun is generally an absent-person pronoun ([هُ]{.ar}, [هَا]{.ar}, [هُوَ]{.ar}, [هُمْ]{.ar}, etc.).
-For example, in the sentence,
-[وَالَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ]{.ar}
-"And those who hoard gold and silver,"
-the link-back pronoun is the plural masculine absent-person doer pronoun [و]{.ar} "they" in [يَكْنِزُونَ]{.ar} "they hoard".
-And it matches the plural masculine connected noun [ٱلَّذِينَ]{.ar}.
-
-However, there is an exception to the link-back pronoun being an absent-person pronoun.
-And that is when the connected noun refers to the speaker or the addressed person, like 
-[أَنَا ٱلَّذِي]{.ar}, or [أَنْتُمُ ٱلَّذِينَ]{.ar}, etc.
-In these cases, the link-back pronoun may optionally:
-
- i. either be an absent-person pronoun to match the connected noun (as usual),
-ii. or match the pronoun for the speaker or addressed person (as the case may be)
-
-The latter is generally more common but both options are permissible.
-For example:
-
-[أَنَا ٱلَّذِي حَضَرْتُ.]{.ar}  
-Link-back pronoun: the singular masculine doer pronoun for the speaker [تُ]{.ar} in [حَضَرْتُ]{.ar}  
-or  
-[أَنَا ٱلَّذِي حَضَرَ.]{.ar}  
-Link-back pronoun: the implied singular masculine doer pronoun for the absent person "he" in [حَضَرَ]{.ar}  
-"I am the one (who) was present."
-
-Here are some examples from Classical Arabic:
-
-[أَنَا ٱلَّذِي سَمَّتْنِ أُمِّي حَيْدَرَهْ]{.ar}  
-"I am the one whom my mother named [#Haydarah]{.trn2}"  
-(The link-back pronoun is the speaker person's doee pronoun in [سَمَّتْنِ]{.ar}, which is an abbreviation of [سَمَّتْنِي]{.ar} "she named me".)
-
-[فَقَالَ مُوسَى يَا آدَمُ أَنْتَ الَّذِي خَلَقَكَ اللَّهُ بِيَدِهِ]{.ar}  
-"[#mUsA]{.trn2} said: O [#Adam]{.trn2}, you are the one whom [#allAh]{.trn2} created with His Hand"  
-tirmidhi:2134  
-(The link-back pronoun is the addressed person's doee pronoun [كَ]{.ar} in [خَلَقَكَ]{.ar}.)
-
-There is one circumstance where matching the link-back pronoun to the (absent person) connected-noun is mandated.
-And that is when the connected noun is the called-out person using the particle [أَيُّهَا]{.ar} or [أَيَّتُهَا]{.ar}.
-For example,
-
-[يَاأَيُّهَا ٱلَّذِينَ  آمَنُوا]{.ar}  
-"O you who have believed"  
-not  
-$\times$ [يَاأَيُّهَا ٱلَّذِينَ آمَنْتُمْ]{.ar}  
-
-Similarly,
-
-[يَاأَيُّهَا الَّذِي نُزِّلَ عَلَيْهِ الذِّكْرُ]{.ar}  
-"O you upon whom the message has been sent down"  
-15:6
-
-<!--
-If 
-the connected noun is called-out to using the another particle, then again, both options are permissible.
-For example,
-
-[يَا هَـٰذَا ٱلَّذِي قَامَ]{.ar}  
-or    
-[يَاأَيُّهَا هَـٰذَا ٱلَّذِي قُمْتَ]{.ar}  
-"O the one (who) stood up"  
--->
-
-### Omitting the link-back pronoun
-
-<!--
-Tafsir al-Qurtubi:
-قوله تعالى : ثم آتينا موسى الكتاب مفعولان . تماما مفعول من أجله أو مصدر . على الذي أحسن قرئ بالنصب والرفع . فمن رفع - وهي قراءة يحيى بن يعمر وابن أبي إسحاق - فعلى تقدير : تماما على الذي هو أحسن . قال المهدوي : وفيه بعد من أجل حذف المبتدأ العائد على الذي . وحكى سيبويه عن الخليل أنه سمع " ما أنا بالذي قائل لك شيئا " . ومن نصب فعلى أنه فعل ماض داخل في الصلة ; هذا قول البصريين . وأجاز الكسائي والفراء أن يكون اسما نعتا ل " الذي " وأجازا " مررت بالذي أخيك " ينعتان " الذي " بالمعرفة وما قاربها . قال النحاس : وهذا محال عند البصريين ; لأنه نعت للاسم قبل أن يتم ، والمعنى عندهم : على المحسن .
-
-شرح ابن عقيل:
-ذهب الكوفيون إلى أنه يجوز حذف العائد المرفوع بالابتداء مطلقا، أي سواء أكان الموصول أيا أم غيره، وسواء أطالت الصلة أم لم تطل، وذهب البصريون إلى جواز حذف هذا العائد إذا كان الموصول أيا مطلقا، فإن كان الموصول غير أي لم يجيزوا الحذف إلا بشرط طول الصلة، فالخلاف بين الفريقين منحصر فيما إذا لم تطل الصلة وكان الموصول غير أي، فأما الكوفيون فاستدلوا بالسماع، فمن ذلك قراءة يحيى بن يعمر:
-(تماما على الذي أحسن) قالوا: التقدير على الذي هو أحسن، ومن ذلك قراءة مالك ابن دينار وابن السماك: (إن الله لا يستحيي أن يضرب مثلا ما بعوضة فما فوقها) قالوا:
-التقدير: مثلا الذي هو بعوضة فما فوقها، ومن ذلك قول الشاعر:
-لا تنو إلا الذي خير، فما شقيت * إلا نفوس الألى للشر ناوونا قالوا: التقدير لا تنو إلا الذي هو خير، ومن ذلك قول الآخر:
-من يعن بالحمد لم ينطق بما سفه ولا يحد عن سبيل المجد والكرم قالوا: تقدير هذا البيت: من يعن بالحمد لم ينطق بالذي هو سفه، ومن ذلك قول عدي بن زيد العبادي:
-لم أر مثل الفتيان في غبن * الأيام يدرون ما عواقبها قالوا: ما موصولة، والتقدير: يدرون الذي هو عواقبها.
-وبعض هذه الشواهد يحتمل وجوها من الاعراب غير الذي ذكروه، فمن ذلك أن " ما " في الآية الثانية يجوز أن تكون زائدة، وبعوضة خبر مبتدأ محذوف، ومن ذلك أن " ما " في بيت عدي بن زيد يحتمل أن تكون استفهامية مبتدأ، وما بعدها خبر، والجملة في محل نصب مفعول به ليدرون، وقد علق عنها لأنها مصدرة بالاستفهام، والكلام يطول إذا نحن تعرضنا لكل واحد من هذه الشواهد، فلنجتزئ لك بالإشارة.
-
--->
-
-The link-back pronoun is frequently omitted, and its meaning is then implicit, in some cases:
-
-(a) When the linker pronoun is a detached pronoun which is the u-state subject of a subject-information sentence, whose information is:
-
-    (i)  A prepositional phrase. For example:
-    
-         [نَامَ ٱلَّذِي فِي ٱلْغُرْفَةِ.]{.ar}  
-         "The one who (is) in the room has slept."
-    
-         The connector is the incomplete sentence [فِي ٱلْغُرْفَةِ]{.ar} "(is) in the room".
-         With the link-back pronoun restored, the sentence is  
-
-         [نَامَ ٱلَّذِي هُوَ فِي ٱلْغُرْفَةِ.]{.ar}  
-    
-    (ii) An adverbial phrase. For example:
-    
-         [تَكَلَّمَ ٱلَّذِي عِنْدَكَ.]{.ar}  
-         "The one who (is) with you spoke."
-    
-         (Remember that [عِنْدَ]{.ar} is technically a noun used adverbially, not a preposition.)
-         The connector is the incomplete sentence [عِنْدَكَ]{.ar} "(is) with you". 
-         With the link-back pronoun restored, the sentence is  
-
-         [تَكَلَّمَ ٱلَّذِي هُوَ عِنْدَكَ.]{.ar}  
-
-    In such cases, the incomplete sentence connector implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
-
-(b) When the link-back pronoun is an attached pronoun for the direct doee. For example:
-
-    [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمْ.]{.ar}  
-    "The one (thing) that you said has reached us."
-
-    With the link-back pronoun restored, the sentence is  
-
-    [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
-
-(c) (i) When the link-back pronoun is the base noun in an annexation whose annex noun is a verbal noun of the doer or the doee implying a present or future meaning. For example:
-
-        [أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلٌ.]{.ar}  
-        "I fear from him the wrong that he will do."
-
-        With the link-back pronoun restored, the sentence is  
-        [أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلُهُ.]{.ar}  
-
-    (ii) When the link-back pronoun is attached to a preposition or adverb, and the same preposition or adverb has already been used (with the same meaning) with the connecting noun or its described noun. The preposition/adverb is omitted along with its attached pronoun. For example:
-
-         [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ.]{.ar}  
-         "I walked in the (same) garden [in] which you walked."
-
-         With the link-back pronoun restored, the sentence is  
-         [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ فِيهَا.]{.ar}  
-
-         [مَرَرْتُ بِٱلَّذِي مَرَّ سُلَيْمَانُ.]{.ar}  
-         "I passed by the (same) one that [#sulaymAn]{.trn2} did."
-
-         With the link-back pronoun restored, the sentence is  
-         [مَرَرْتُ بِٱلَّذِي مَرَّ بِهِ سُلَيْمَانُ.]{.ar}  
-
-### Separating the connector from the connected noun
-
-Generally, the connector directly follows the connected noun, as in all the examples we have given so far.
-However, the connector may be separated from the connected noun by one of the following:
-
-  i. An oath. For example:
-
-     [جَاءَ ٱلَّذِي وَٱللَّـٰه قَهَرَ ٱلْأَعْدَاءَ.]{.ar}  
-     "The one who - by [#allAh]{.trn2} - overpowered the enemies has come."
-
- ii. A sentence calling out to someone. For example,
-
-     [أَنْتَ ٱلَّذِي يَا زَيْدُ فَتَحْتَ ٱلْبَابَ.]{.ar}  
-     "You are the one - O Zayd - who opened the door."
-
-iii. A parenthetical clause, which is a sentence within the main sentence that adds information to it, but which can be omitted without affecting the completeness of the main sentence. For example:
-
-     [قَدِمَ ٱلَّذِي أَطَالَ ٱللَّـٰهُ عُمْرَهُ أَحْسَنَ إِلَيَّ.]{.ar}  
-     "The one who - may Allah lengthen his age - was good to me has arrived."
-
-     [قَدِمَ ٱلَّذِي وَهُوَ مُبْتَسِمٌ أَحْسَنَ إِلَيَّ.]{.ar}  
-     "The one who - and he is smiling - was good to me has arrived."
-
-## The general connected nouns
-
-The general connected nouns are unrestricted in significance, and may be applied to any individual who fits the criteria given in the connector.
-The two main general connected nouns are:
-
-1. [مَنْ]{.ar} [man]{.trn}. Typically used for intelligent beings and translated as "who".
-1. [مَا]{.ar} [mA]{.trn}. Typically used for non-intelligent beings and translated as "what".
-
-There are also some other rarely or dialectally used general connected nouns that we will not cover. These are [أَيّ]{.ar} [Eayy]{.trn}, [ذُو]{.ar} [pU]{.trn}, and [ذَا]{.ar} [pA]{.trn}.[^connected-noun-other-interrogatives]
-
-[^connected-noun-other-interrogatives]: Fischer claims (§427):
-
-    > Other interrogatives (§289) are also used as relatives:
-    > [عَرَفَ ٱلْمَكِيدَةَ وَكَيْفَ كَانَ ٱلْمَلِكُ أَوْقَعَهَا]{.ar}
-    > 'He knew the trick and how the king employed it.'
-    > [وَٱللّٰهِ مَا نُبَالِي أَيْنَ ذَهَبَ]{.ar}
-    > 'By God, we do not care where he went'; cf.\ also §419b.
-
-    However, we have not been able to find the classical grammarians including [كيف]{.ar}, [أين]{.ar}, etc. among [الأسماء الموصولة]{.ar}.
-    To understand how these interrogatives are to be analyzed in such sentences,
-    it may help to look up the [إعراب]{.ar} of the verses :
-    [هُوَ الَّذِي يُصَوِّرُكُمْ فِي الْأَرْحَامِ كَيْفَ يَشَاءُ]{.ar} [3:6], and
-    [لِيُرِيَهُ كَيْفَ يُوَارِي سَوْءَةَ أَخِيهِ]{.ar} [5:31]
-    in linguisitic [tafsIrs]{.trn2} like
-    [البحر المحيط لأبي حيان]{.ar} and
-    [التحرير والتنوير لابن عاشور]{.ar}.
-
-    The article [ٱل]{.ar} is also generally included among [الأسماء الموصولة المشتركة]{.ar}.
-    However, we have deemed it too complicated to cover (and too confusing to even mention in main text).
-    See [النحو الوافي لعباس حسن]{.ar} vol.\ 1, pp.\ 356--357 for its treatment.
-
-Unlike the specific connected nouns ([ٱَلَّذِي]{.ar}, etc.),
-the general connected nouns do not vary for number and gender.
-
-For example:
-
-[أُحِبُّّ مَنْ يَعْدِلُ]{.ar}  
-"I love [him] who is just."
-
-[أُحِبُّّ مَنْ يَعْدِلُونَ]{.ar}  
-"I love [them] who are just."
-
-[ٱِصْنَعْ مَا بَدَا لَكَ.]{.ar}  
-"Do what seems (good) to you."
-
-[مَرَرْتُ بِمَا يُعْجِبُكَ.]{.ar}  
-"I passed by what will please you."
-
-### [مَنْ]{.ar} and [مَا]{.ar} after prepositions
-
-When [مَنْ]{.ar} and [مَا]{.ar} are directly preceded by the prepositions [مِنْ]{.ar} and [عَنْ]{.ar}, these prepositions lose their [ن]{.ar} and are joined to the following noun with the noun's [م]{.ar} doubled.
-For example: 
-[مَمَّنْ]{.ar} [mimman]{.trn},
-[مَمَّا]{.ar} [mimmA]{.trn},
-[عَمَّنْ]{.ar} [eamman]{.trn},
-[عَمَّا]{.ar} [eammA]{.trn}.
-
-The preposition [فِي]{.ar} is also often (though not always) optionally attached to these connected nouns, thus: [فِيمَنْ]{.ar} [fIman]{.trn}, [فِيمَا]{.ar} [fImA]{.trn}.
-
-The remaining prepositions follow the normal rules: [عَلَى مَا]{.ar}, [كَمَنْ]{.ar}, etc.
-But we will see, if [#allAh]{.trn2} wills, in chapter\ \@ref(questions), that [مَا]{.ar} and [مَنْ]{.ar} are also used as question nouns, in which case the rules of joining prepositions to them will differ.
-
-### The link-back pronoun for the general connected nouns
-
-The general connected nouns
-[مَنْ]{.ar}
-and
-[مَا]{.ar}
-are themselves singular masculine in number and gender.
-However, they can be used to signify persons or things of any number and gender.
-
-Their link-back pronouns can then, optionally:
-
- i. Either match the gender and number of the persons or things meant by the connected noun. For example:
-
-    [وَمِنْهُمْ مَنْ يَسْتَمِعُونَ إِلَيْكَ]{.ar}  
-    "And among them are those who listen to you"  
-    10:42
-
-    [قَدْ خَابَتْ مَنْ فَعَلَتْ ذَلِكَ مِنْهُنَّ وَخَسِرَتْ]{.ar}  
-    "She has thwarted herself, whoever did that from them~3f~, and lost."  
-    [[#jAmie al-#tirmipI]{.trn2}:3318]
-
-    Note also how, in this example how, in addition to the feminine link-back doer pronouns in [فَعَلَتْ]{.ar} and [خَسِرَتْ]{.ar},
-    the feminine gender of the person signified by [مَنْ]{.ar} has also caused the [تْ]{.ar} of femininity to be added to the verb [خَابَ]{.ar} (of which [مَنْ]{.ar} is the doer noun).
-
-    [جَمَعْتُ مِنَ ٱلْوَرَقِ مَا سَقَطْنَ.]{.ar}
-    "I gathered what fell from the leaves."
-
-    [صَلِّ مِنَ ٱلرَّكَعَاتِ مَا يَتَيَسَّرْنَ.]{.ar}  
-    or  
-    [صَلِّ مِنَ ٱلرَّكَعَاتِ مَا تَتَيَسَّرُ.]{.ar}  
-    "Pray from the units (of prayer) what is easy."
-
-ii. Or be singular masculine to match the connected noun itself. This is generally more common for [مَا]{.ar}. For example:
-
-    [وَمِنْهُم مَّن يُؤْمِنُ بِهِۦ وَمِنْهُم مَّن لَّا يُؤْمِنُ بِهِۦ ۚ]{.ar}  
-    "And of them are those who believe in it, and of them are those who do not believe in it."  
-    10:40
-
-    [جَمَعْتُ مِنَ ٱلْوَرَقِ مَا سَقَطَ.]{.ar}
-    "I gathered what fell from the leaves."
-
-    [صَلِّ مِنَ ٱلرَّكَعَاتِ مَا يَتَيَسَّرُ.]{.ar}  
-    "Pray from the units (of prayer) what is easy."
-
-    [لَمْ أَجِدْ مَا أَعْتَذِرُ بِهِ]{.ar}  
-    "I did not find what I (could) make an excuse for with".
-
-Both options can be utilized together as well. For example:
-
-[بَلَىٰ مَنْ أَسْلَمَ وَجْهَهُۥ لِلَّهِ وَهُوَ مُحْسِنٌۭ فَلَهُۥٓ أَجْرُهُۥ عِندَ رَبِّهِۦ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ]{.ar}  
-"Yes, [on the contrary], whoever submits his face [i.e., self] in Islām to Allāh while being a doer of good will have his reward with his Lord. And no fear will there be concerning them, nor will they grieve."  
-2:112
-
-[فَمَن تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ]{.ar}  
-"whoever follows My guidance - there will be no fear concerning them, nor will they grieve."  
-2:38
-
-<!--
-[ٱُشْكُرْ مَنْ أَحْسَنَ إِلَيْكَ.]{.ar} (link-back pronoun is the implied sing. masc. doer pronoun of the verb [أَحْسَنَ]{.ar}.)  
-or  
-[ٱُشْكُرْ مَنْ أَحْسَنُوا إِلَيْكَ.]{.ar} (link-back pronoun is the implied pl. masc. doer pronoun of the verb [أَحْسَنُوا]{.ar}.)  
-"Thank who did good to you."
--->
-
-#### Omitting the link-back pronoun
-
-The same guidelines for omitting the link-back pronouns, which we learned for the specific connected nouns, apply also to the general connected nouns.
-For example:
-
-[وَلَهُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ]{.ar}  
-"To Him belongs whoever is in the heavens and the earth."  
-21:19  
-(for [مَنْ هُوَ فِي ٱلسَّمَوَاتِ وَٱلْأَرْضِ]{.ar})
-
-[هَـٰذَا مَا كَنَزْتُمْ لِأَنْفُسِكُمْ]{.ar}  
-"This is what you hoarded for yourselves"  
-9:35  
-(for [مَا كَنَزْتُمُوهُ]{.ar})
-
-[فَٱقْضِ مَا أَنتَ قَاضٍ]{.ar}  
-"So decree whatever you are to decree."  
-20:72  
-(for [مَا أَنْتَ قَاضِيهِ]{.ar})
-
-[أَنَا عِنْدَ مَنْ أَنْتَ.]{.ar}  
-"I am at his [house] at whose you (are)."  
-(for [مَنْ أَنْتَ عِنْدَهُ]{.ar})
-
-### Applicability of [مَا]{.ar} and [مَنْ]{.ar} to intelligent and non-intelligent beings
-
-As we mentioned earlier, [مَنْ]{.ar} is typically used to refer to intelligent beings.
-And [مَا]{.ar} is typically used to refer to non-intelligent beings.
-However, there are some circumstances in which these roles can differ.
-
-[مَنْ]{.ar}
-may be used for non-intelligent beings when a non-intelligent being is compared with an intelligent being.
-For example,
- 
-::: {.otherlanguage data-latex="{arabic}" lang="ar"}
-وَاللَّهُ خَلَقَ كُلَّ دَابَّةٍ مِّن مَّاءٍ ۖ
-فَمِنْهُم مَّن يَمْشِي عَلَىٰ بَطْنِهِ
-وَمِنْهُم مَّن يَمْشِي عَلَىٰ رِجْلَيْنِ
-وَمِنْهُم مَّن يَمْشِي عَلَىٰ أَرْبَعٍ ۚ
-:::
-
-<!--
-[وَاللَّهُ خَلَقَ كُلَّ دَابَّةٍ مِّن مَّاءٍ ۖ ]{.ar}  
-[فَمِنْهُم مَّن يَمْشِي عَلَىٰ بَطْنِهِ ]{.ar}  
-[وَمِنْهُم مَّن يَمْشِي عَلَىٰ رِجْلَيْنِ ]{.ar}  
-[وَمِنْهُم مَّن يَمْشِي عَلَىٰ أَرْبَعٍ ۚ]{.ar}  
--->
-"Allāh has created every [living] creature from water. And of them are those that move on their bellies, and of them are those that walk on two legs, and of them are those that walk on four."
-
-[مَنْ]{.ar}
-may also be used for non-intelligent beings when 
-attributes usually applicable to intelligent beings are applied to a non-intelligent being.
-For example:
-
-[أَسِرْبَ الْقَطَا، هَلْ مَنْ يُعِيرُ جَنَاحَه * لَعَلِّي إِلَىٰ مَنْ قَدْ هَوِيتُ أَطِيرُ]{.ar}  
-O flock of birds, is there who will lend his wing  
-that perhaps I may fly to whom I love  
-[أَ]{.ar}: "O",
-[سِرْب]{.ar}: "flock",
-[قَطَا]{.ar}: a species of bird,
-[هَلْ]{.ar}: "is there?",
-[يُعِيرُ]{.ar}: "lend",
-[جَنَاح]{.ar}: "wing",
-[لَعَلِّي]{.ar}: "Perhaps I",
-[هَوِيتُ]{.ar}: "I love",
-[أَطِيرُ]{.ar}: "I fly".
-
-[مَنْ]{.ar}
-may also be used for non-intelligent beings when 
-there is a mixed group including both intelligent and non-intelligent beings,
-and the intelligent beings are given preference.
-For example:
-
-[وَلِلَّهِ يَسْجُدُ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ]{.ar}  
-"And to Allāh prostrates whoever is within the heavens and the earth"  
-13:15
-
-Similarly, [مَا]{.ar} may, in some circumstances, be used for intelligent beings. 
-This may be when
-there is a mixed group including both intelligent and non-intelligent beings,
-and the non-intelligent beings are given preference because of their larger number.
-For example:
-
-[يُسَبِّحُ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ]{.ar}  
-"Whatever is in the heavens and whatever is on the earth is exalting Allāh"  
-62:1
-
-[مَا]{.ar} may also be used for intelligent beings when
-the person being referred to is vague to the speaker.
-For example:
-
-[رَبِّ إِنِّي نَذَرْتُ لَكَ مَا فِي بَطْنِي مُحَرَّرًا]{.ar}  
-"My Lord, indeed I have pledged to You what is in my womb, consecrated [for Your service]"  
-3:35
-
-[مَا]{.ar} may also be used for intelligent beings when
-the characteristics of an intelligent being are highlighted when referring to them. For example:
-
-[فَانكِحُوا مَا طَابَ لَكُم مِّنَ النِّسَاءِ]{.ar}  
-"then marry those that please you of [other] women"  
-4:3
-
-<!--
-http://shiaonlinelibrary.com/%D8%A7%D9%84%D9%83%D8%AA%D8%A8/3954_%D8%B4%D8%B1%D8%AD-%D8%A7%D8%A8%D9%86-%D8%B9%D9%82%D9%8A%D9%84-%D8%A7%D8%A8%D9%86-%D8%B9%D9%82%D9%8A%D9%84-%D8%A7%D9%84%D9%87%D9%85%D8%AF%D8%A7%D9%86%D9%8A-%D8%AC-%D9%A1/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9_140#top
-footnotes on شرح ابن عقيل ١/١٤٠
--->
-
-### Grammatical position of the general connected nouns
-
-The general connected noun may occur in various grammatical positions. 
-Here are some examples:
-
-As a subject:
-
-[ما عِنْدَكُمْ يَنْفَدُ]{.ar}  
-"Whatever you have will end"  
-16:96
-
-As an information:
-
-[مَالُكَ مَا قَدَّمْتَ، وَمَالُ وَارِثِكَ مَا أَخَّرْتَ]{.ar}  
-"Your wealth is what you have sent forward, and the wealth of your inheritors is what you have left behind."  
-adab:153
-
-As a doer:
-
-[فَعَلَهُ مَنْ هُوَ خَيْرٌ مِنِّي]{.ar}  
-"it was done by one who was better than I"  
-bukhari:668
-
-As a doee:
-
-[اعْمَلُوا مَا شِئْتُمْ]{.ar}  
-"Do whatever you will"  
-41:40
-
-Following a preposition:
-
-[وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ]{.ar}  
-"and make me independent from (all) who are besides You"  
-tirmidhi:3563
-
-As a base noun in an annexation:
-
-[هُمْ شَرُّ مَنْ خَلَقَ ٱللَّـٰهُ.]{.ar}  
-"They are the most evil of whom Allah has created."
-
-[مَا تَرَىٰ رَأْيَ مَا نَرَىٰ.]{.ar}  
-"You do not think what we think."  
-(literally: "You do not opine the opinion of what we opine.")
-
-[أَمْرَ مَا تَحْذَرُ]{.ar}  
-"the matter of which you are wary"
-
-Unlike the specific connected nouns 
-([ٱَلَّذِي]{.ar}, etc),
-the general connected nouns do not occur as describers.[^connected-noun-describers]
-
-[^connected-noun-describers]: See  [كتاب المقتصد في شرح الإيضاح للجرجاني]{.ar}, vol.\ 1, p.\ 319:
-
-    > [ومَن لا يوصف به، ألا ترى لا تقول: مررت بالرجل مَن أخوه منطلق. فتجعله صفةً للرجل، كما تقول: بالرجل الذي أخوه منطلق]{.ar}
-
-    Also [شرح الرضي على الكافية لابن الحاجب]{.ar} vol.\ 2, p.\ 314:
-
-    > [ولا يقع من الموصولات وصفا إلا ما في أوله اللام، نحو الذي والتي، واللاتي، وبابها، لمشابهته لفظا للصفة المشبهة في كونه على ثلاثة أحرف فصاعدا، بخلاف من وما، وأما (أي) الموصول فلم يقع وصفا، لأن الأغلب فيه: الشرط والاستفهام ووقوعه موصولا قليل فروعي ذلك الأكثر، وإنما يوصف بذو، الطائية وإن كانت على حرفين كما في قوله:]{.ar}
-    >
-    > [٣٢٧ - فقولا لهذا المرء ذو جاء ساعيا ... هلم فان المشرفي الفرائض]{.ar}
-
-    Basically, of [الأسماء الموصولة المشتركة]{.ar} (which comprise [ما, مَن, أي, أل, ذو, ذا]{.ar}) only the dialectal [ذو]{.ar} appears as a [صفة]{.ar}.
-
-So while we can say:
-
-[مَرَرْتُ بِٱلرَّجُلِ ٱلَّذِي أَحْسَنَ إِلَيّ.]{.ar}  
-"I passed by the man who was good to me."
-
-we cannot say:
-
-$\times$ [مَرَرْتُ بِٱلرَّجُلِ مَنْ أَحْسَنَ إِلَيّ.]{.ar}  
-
-We will have to say instead:
-
-[مَرَرْتُ بِمَنْ أَحْسَنَ إِلَيّ.]{.ar}  
-
-The general connected noun can, however, occur as a replacement.^[Fischer §421.2. The example too is taken from there. Originally, it is from [السيرة النبوية لابن هشام]{.ar}.]
-For example,
-
-[والمسلمون مَن تبع رسول الله صلى الله عليه وسلم كثير]{.ar}  
-"And the Muslims, who follow the Messenger of [#allAh]{.trn2}, are many"
-
-### Use with the preposition [مِنْ]{.ar}
-
-The preposition [مِنْ]{.ar} is frequently used with the general connected nouns to restrict the applicability of the connected noun to a group or type. 
-This [مِنْ]{.ar} may come either before the connected noun, or after its connector.
-For example:
-
-<!--[سَأُعْطِيهِ مَا عِنْدِي مِنْ خُبْزٍ.]{.ar}  
-"I will give him what I have of bread."-->
-
-[فَأَعْطَانِي مَا كَانَ عِنْدَهُ مِنْ خُبْزٍ.]{.ar}  
-"Then he gave me what he had of bread."
-
-[مَنْ دَخَلَ ٱلشَّأْمَ مِنَ ٱلْعَرَبِ]{.ar}  
-"Those Arabs who entered Syria"  
-(literally: "Who entered Syria from the Arabs")
-
-[فَانكِحُوا مَا طَابَ لَكُم مِّنَ النِّسَاءِ]{.ar}  
-"then marry those that please you of [other] women"  
-4:3
-
-[اللَّهُمَّ اقْسِمْ لَنَا مِنْ خَشْيَتِكَ مَا يَحُولُ بَيْنَنَا وَبَيْنَ مَعَاصِيكَ]{.ar}  
-O [#allAh]{.trn2}, apportion for us, from the fear of You, (that) what shall come between us and disobedience of You  
-tirmidhi:3502  
-(The connected noun [مَا]{.ar} is the direct doee of the verb of command [اقْسِمْ]{.ar}.)
-
-### Use with a repeated word to express vagueness or uncertainty
-
-The general connected nouns
-[مَنْ]{.ar} and [مَا]{.ar}
-are used with a word that is repeated to express a vague or uncertain quantity or quality.
-For example:
-
-[هُمْ مَا هُمْ]{.ar}  
-"They are what they are."
-
-[نَزَلَ مَنْ نَزَلَ مِنْهُمْ]{.ar}  
-"Some of them came down."  
-(literally: Came down who came down from them.")
-
-[جَمَعْتُ مَا جَمَعْتُ]{.ar}  
-"I gathered what I gathered."
-
-## Omitting the connected noun and/or the connector
-
-TODO. See النحو الوافي
-
-## Sentences without connected nouns
-
-There are some sentences where we might expect a connected noun but which are always, or often (as the case may be), expressed in Arabic without a connected noun. These sentences are of different types:
-
-### Sentences with indefinite nouns needing a qualifying sentence
-
-When an indefinite noun needs a qualifying sentence, it is natural in English to insert "that", "which", "who", etc. between the noun and the following sentence. For example, "I passed by a man _who_ was sleeping."
-
-In Arabic, however, we will not use any connected noun in such sentences. 
-This is because the connected nouns are considered definite nouns.
-And therefore they may not be a describer to an indefinite noun.
-So while we can say:
-
-[مَرَرْتُ بِٱلرَّجُلِ ٱلَّذِي يَنَامُ.]{.ar}  
-"I passed by the man who is sleeping."
-
-we cannot say
-
-$\times$ [مَرَرْتُ بِرَجُلٍ ٱلَّذِي يَنَامُ.]{.ar}  
-
-Instead, we put the qualifying sentence directly after the indefinite noun. The qualifying sentence will then not be a connector, but will itself be the describer to the described noun:
-
-[مَرَرْتُ بِرَجُلٍ يَنَامُ.]{.ar}  
-"I passed by a man (who) is sleeping."
-
-Here is another example:
-
-<!--
-[أَكَلْتُ طَعَامًا قَدْ بِٱلْمِلْحِ.]{.ar}  
-"I ate a food (that) had been seasoned with salt."
--->
-
-[جَلَسْتُ فِي مَجْلِسٍ قَدْ رُشَّ بِمَاءِ ٱلْوَرْدِ.]{.ar}  
-"I sat in a sitting (that) had been sprinkled with rose-water."
-
-A connected noun can, however, follow an indefinite noun, if we intend to start a separate sentence with it, or if it is a _replacement_ (see chapter\ \@ref(the-replacement)). For example.
-
-[وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ]{.ar}  
-"Resurrect him to a praiseworthy station, the one that you promised him"  
-bukhari:614
-
-[وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ]{.ar}  
-[الَّذِي جَمَعَ مَالًا وَعَدَّدَهُ]{.ar}  
-"Woe to every scorner and mocker  
-Who collects wealth and [continuously] counts it."  
-104:1-2
-
-### Sentences containing a noun with generic definiteness
-
-Sometimes the definite article [ٱَلْ]{.ar} 
-does not determine a particular individual, but
-makes a noun definite only in a generic way.
-In this case a qualifying sentence may directly follow it without any intermediate connected noun used as a describer.^[Fischer §428.1, Wright vol.\ 2, §172, p.\ 318B.]
-Because there is no connected noun, the qualifying sentence is, again, not analyzed as a connector.
-For example:
-
-[كَمَثَلِ الْحِمَارِ يَحْمِلُ أَسْفَارًا]{.ar}  
-"like that of a donkey who carries volumes [of books]"  
-62:5  
-(Note how the translator has actually translated [ٱلْحِمَار]{.ar} as "a donkey" because in English an indefinite noun is often used to indicate a generic type.)
-
-
-[أَنْتَ ٱلْوَزِيرُ لَا يُعْصَىٰ]{.ar}  
-"You are the (sort of) vizier (who) is not disobeyed."
-
-[هُمُ ٱلْفَوَارِسُ يَحْمُونَ ٱلنِّسَاءَ.]{.ar}  
-"They are the (kind of) horsemen (who) protect the women."
-
-### Sentences with prepositional or adverbial phrases
-
-If a sentence has a definite noun which is to be qualified by a prepositional or adverbial phrase, then in many cases, that phrase may directly follow the definite noun without any intermediate connected noun used a describer.
-But using a connected noun is also permissible if one wishes to emphasize that the specificity of the noun.
-When there is no connected noun, the prepositional or adverbial phrase is not analyzed as a connector, but is considered attached to an implied verb that has the idea of "being", like "is", "are", etc.
-When there is a connected noun, then it is analyzed as a connector, as usual.
-For example:
-
-[سِرْتُ فِي ٱلْحَدِيقَةِ عِنْدَ ٱلْمَسْجِدِ.]{.ar}  
-"I walked in the garden next to the mosque."  
-or  
-[سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي عِنْدَ ٱلْمَسْجِدِ.]{.ar}  
-or  
-[سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي هِيَ عِنْدَ ٱلْمَسْجِدِ.]{.ar}  
-"I walked in the [specific] garden that [is] next to the mosque."  
-
-
-<!--chapter:end:srcrmd/ism_mawsuul.Rmd-->
-
 # The verb [كَانَ]{.ar} {#the-verb-kaana}
 
 ## Introduction
@@ -12082,7 +11233,7 @@ Consider now the following sentence:
 -->
 
 
-![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-35-1.pdf)<!-- -->
+![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-34-1.pdf)<!-- -->
 
 Now, as you can see, Arabic does express a word for "was". It is the past verb [كَانَ]{.ar} [kAna]{.trn}.
 [كَانَ]{.ar} is a hollow verb from the root [كون]{.arroot}. 
@@ -12971,7 +12122,7 @@ For example:
 
 In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
 
-![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-36-1.pdf)<!-- -->
+![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-35-1.pdf)<!-- -->
 
 "This man is a teacher."
 
@@ -13167,7 +12318,7 @@ to complete the sentence. We will see examples of this below.
 
 ### The [أَنَّ]{.ar} clause in place of the direct doee
 
-![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-37-1.pdf)<!-- -->
+![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-36-1.pdf)<!-- -->
 
 "I know that Zayd is truthful."
 
@@ -13185,7 +12336,7 @@ clauses can be placed where one would expect other noun positions, such as: a su
 
 Example:
 
-![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-38-1.pdf)<!-- -->
+![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-37-1.pdf)<!-- -->
 
 "That you are sick has reached me." ("It has reached me that you are sick.")
 
@@ -13193,7 +12344,7 @@ Example:
 
 Example (with information before subject in sentence word order):
 
-![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-39-1.pdf)<!-- -->
+![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-38-1.pdf)<!-- -->
 
 "From his characteristeics is that he is noble."
 
@@ -13201,7 +12352,7 @@ Example (with information before subject in sentence word order):
 
 Example:
 
-![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-40-1.pdf)<!-- -->
+![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-39-1.pdf)<!-- -->
 
 "The truth is that he went."
 
@@ -13211,13 +12362,13 @@ As you know, [كَانَ]{.ar}'s doer is also its subject, and its doee is also 
 The [أَنَّ]{.ar} clause can occur in either the subject or the information of [كَنَ]{.ar}. 
 For example, the [أَنَّ]{.ar} clause as the information:
 
-![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-41-1.pdf)<!-- -->
+![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-40-1.pdf)<!-- -->
 
 "The matter was that he didn't do his obligation."
 
 Now, the [أَنَّ]{.ar} clause as the subject:
 
-![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-42-1.pdf)<!-- -->
+![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-41-1.pdf)<!-- -->
 
 "That he didn't do his obligation was the matter."
 
@@ -13227,13 +12378,13 @@ Note that in the latter case, the information precedes the subject.
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state base noun in an annexation. Example:
 
-![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-43-1.pdf)<!-- -->
+![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-42-1.pdf)<!-- -->
 
 "The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous."
 
 The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly following a preposition. Example:
 
-![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-44-1.pdf)<!-- -->
+![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-43-1.pdf)<!-- -->
 
 "I wondered at that Zayd is asleep."
 
@@ -13315,7 +12466,7 @@ TODO
 
 There is a sub-type of subject-information sentence called a topic-comment sentence. Here is an example:
 
-![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-45-1.pdf)<!-- -->
+![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-44-1.pdf)<!-- -->
 
 "The tree: its branches are long."
 
@@ -13366,7 +12517,7 @@ the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
 
 There is a special pronoun, called the _pronoun of the fact_ that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
 
-![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-46-1.pdf)<!-- -->
+![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-45-1.pdf)<!-- -->
 
 "The fact is: the cold is intense."
 
@@ -13586,6 +12737,1150 @@ The lightened [لَـٰكِنْ]{.ar} has the same meaning as the heavy [لَـ�
 
 <!--chapter:end:srcrmd/inna_and_its_sisters.Rmd-->
 
+# The connected nouns
+
+## Introduction
+
+Consider the sentence:
+
+[رَأَيْتُ ٱلرَّجُلَ.]{.ar}  
+"I saw the man."
+
+If the listener (or reader) can identify 
+the individual referred to by the noun "the man"
+(maybe from a pre-existing mutual understanding with the speaker),
+then there is no problem with this sentence.
+But often, further clarification is needed for the listener to correctly identify the individual to whom the speaker is referring.
+This further clarification can be provided in a number of ways.
+
+One way is to use an adjectival noun to describe the noun. For example:
+
+[رَأَيْتُ ٱلرَّجُلَ ٱلطَّوِيلَ.]{.ar}  
+"I saw the _tall_ man."
+
+Another way is to use a pointing noun, thus:
+
+[رَأَيْتُ ذَ ٰلِكَ ٱلرَّجُلَ.]{.ar}  
+"I saw _that_ man."
+
+But sometimes, a whole sentence is needed to provide the needed identification. 
+In this case, Arabic uses what is called a _connected noun_ and a _connector_. 
+<!--A connected noun is itself a vague noun, which is then connected to by a qualifying sentence directly following it called the _connector_. 
+The connector contains sufficient information to identify the individual intended by the speaker. -->
+This example should help you understand what we mean:
+
+
+![](A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-html/unnamed-chunk-46-1.pdf)<!-- -->
+
+In the above sentence, the connected noun is [ٱَلَّذِي]{.ar} [EallapI]{.trn}.
+It is applied to singular masculine nouns, like [ٱلرَّجُل]{.ar}.
+<!--It signifies a specific individual denoted by a singular masculine noun.-->
+By itself it may be translated as "the one~1m~ that/which/who/whom".
+<!--Sometimes in sentences it is left untranslated (as above) and an implied "who", "whom", "that", or "which" is used to aid the translation.-->
+It is called a connected noun because it must be directly followed by a qualifying sentence that connects to it.
+
+The qualifying sentence is called the connector and it contains the necessary information for the listener to correctly identify the individual intended by the speaker."
+The connector in the above example is the sentence [لَقِيتُهُ بِٱلْأَمْسِ]{.ar} "I met him yesterday."
+
+Note by the way, that we did not translate the pronoun "him" in our original translation (above). 
+This is because it would sound unnatural in English to say: "I saw the [specific] man (whom) I met _him_ yesterday."
+But this pronoun is an essential part of the Arabic connector and is called the _link-back pronoun_. 
+We will deal with it in section\ \@ref(link-back-pronoun) later in this chapter.
+
+There are two types of connected nouns:
+
+ 1. The specific connected nouns
+ 2. The general connected nouns
+
+We will study both these types separately within this chapter.
+
+## The specific connected nouns
+
+The specific connected nouns have a significance which is restricted to a specific individual or category of individuals, 
+and its connector should contain sufficient information to identify that specific individual.
+
+The specific connected nouns is a group of nouns where each noun is applied to a gender and number of individuals. They are:
+
+|Connected noun|Description|
+|:--|:----------------|
+|[ٱَلَّذِي]{.ar} [EallapI]{.trn}|Singular masculine. For both intelligent and non-intelligent beings. Rigid. Only one [ل]{.ar} in its spelling.|
+|[ٱَلَّتِي]{.ar} [EallatI]{.trn}|Singular feminine. For both intelligent and non-intelligent beings. Also used for plural non-intelligent beings of both genders. Rigid. Only one [ل]{.ar} in its spelling.|
+|[ٱَللَّذَانِ]{.ar} [EallapAnI]{.trn}|Dual masculine. For both intelligent and non-intelligent beings. Flexible: [ٱَللَّذَيْنِ]{.ar} [Eallapayni]{.trn} in the a- and i-states. Two [ل]{.ar}'s in its spelling.|
+|[ٱَللَّتَانِ]{.ar} [EallatAnI]{.trn}|Dual feminine. For both intelligent and non-intelligent beings. Flexible: [ٱَللَّتَيْنِ]{.ar} [Eallatayni]{.trn} in the a- and i-states. Two [ل]{.ar}'s in its spelling.|
+|[ٱَلَّذِينَ]{.ar} [EallapIna]{.trn}|Plural masculine. For both intelligent beings. Rigid. Only one [ل]{.ar} in its spelling.|
+|[ٱَللَّاتِي]{.ar} [EallAtI]{.trn} |For plural feminine intelligent beings. Also used for non-intelligent beings of both genders but [ٱَلَّتِي]{.ar} is more common there. Rigid. Two [ل]{.ar}'s in its spelling. Has the following variants: [ٱَللَّاتِ]{.ar} [EallAti]{.trn}, [ٱَللَّائِي]{.ar} [EallAEI]{.trn}, [ٱَللَّوَاتِي]{.ar} [EallawAtI]{.trn}|
+
+### Grammatical position of the specific connected noun
+
+Consider again the same example:
+
+[رَأَيْتُ ٱلرَّجُلَ ٱلَّذِي لَقِيتُهُ بِٱلْأَمْسِ.]{.ar}  
+"I saw the [specific] man whom I met yesterday."
+
+In this example, the connected noun
+[ٱَلَّذِي]{.ar} [EallapI]{.trn}
+is a describer (in the a-state) to the described noun
+<!--
+[ٱلرَّجُل]{.ar}.
+[ٱَلَّذِي]{.ar} 
+is in the a-state to match the described noun
+-->
+[ٱلرَّجُلَ]{.ar}.
+Because 
+[ٱَلَّذِي]{.ar} 
+is a rigid noun, it will appear the same in all states without any change to its ending.
+
+As a describer, the connected noun may also come as the last in a series of describers, and can also be combined with a pointing noun. 
+For example:
+
+[رَأَيْتُ ذَ ٰلِكَ ٱلرَّجُلَ ٱلطَّوِيلَ ٱلَّذِي لَقِيتُهُ بِٱلْأَمْسِ.]{.ar}  
+"I saw that [specific] tall man whom I met yesterday."
+
+But connected nouns need not only occur as describers.
+<!--They may occur as a subject, an information, a doer, a doee, following a preposition, and as a base noun in an annexation.-->
+They may occur in various grammatical positions. 
+Here are some examples:
+<!--
+As a subject:
+
+[ٱَلَّذِي رَزَقَنَا بِٱلْأَمْسِ سَيَرْزُقُنَا بِالْغَدِ.]{.ar}  
+"The [specific] one (who) provided for us yesterday will provide for us tomorrow."
+
+As an information:
+
+[هَـٰذَا هُوَ ٱلَّذِي لَقِيتُهُ.]{.ar}  
+"This is the [specific] one (whom) I met."
+
+As a doer:
+
+[قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
+"The [specific] one (thing that) you said has reached us."
+
+As a doee:
+
+[نَهَيْتُ ٱلَّذِي أَسَاءَ.]{.ar}  
+"I forbade the [specific] one (who) did evil."
+
+Following a preposition:
+
+[أَرَادَ أَنْ يَبْطِشَ بِٱلَّذِي هُوَ عَدُوٌّ لَهُمَا]{.ar}  
+"he wanted to strike the one who was an enemy to both of them"  
+(28:19)
+
+As a base noun in an annexation:
+
+[هَـٰذَا بَيْتُ ٱلَّذِي لَقِيتُهُ.]{.ar}  
+"This is the house of the [specific] one (whom) I met."
+-->
+
+As a subject:
+
+[وَالَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ وَلَا يُنْفِقُونَهَا فِي سَبِيلِ ٱللَّـٰهِ فَبَشِّرْهُمْ بِعَذَابٍ أَلِيمٍ]{.ar}  
+"And those who hoard gold and silver and spend it not in the way of Allāh - give them tidings of a painful punishment."  
+9:34
+
+As an information:
+
+[خِيَارُ أَئِمَّتِكُمُ الَّذِينَ تُحِبُّونَهُمْ وَيُحِبُّونَكُمْ]{.ar}  
+"The best of your rulers are the ones whom you love and who love you"
+[[#SaHIH #muslim]{.trn2}:1855]
+
+[هُنَّ اللَّوَاتِي عَلَى الْمِنْبَرِ]{.ar}  
+"They are the ones which (are) on the pulpit."  
+[[#sunan al-#dArimI]{.trn2}:36]
+
+As a doer:
+
+[قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
+"The [specific] one (thing) that you said has reached us."
+
+As a doee:
+
+[رَبَّنَا أَرِنَا ٱللَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنْسِ]{.ar}  
+"Our Lord, show us those who misled us of the jinn and men"  
+41:29
+
+Following a preposition:
+
+[أَوْ كَٱلَّذِي مَرَّ عَلَىٰ قَرْيَةٍ]{.ar}  
+"Or [consider such an example] as the one who passed by a township"  
+2:259
+
+As a base noun in an annexation:
+
+[قَدْ سَمِعَ ٱللَّـٰهُ قَوْلَ ٱلَّتِي تُجَادِلُكَ فِي زَوْجِهَا]{.ar}  
+"Certainly has Allāh heard the speech of the one who argues [i.e., pleads] with you, [O Muḥammad]"  
+58:1
+
+## The connector and the link-back pronoun {#link-back-pronoun}
+
+The connector is (typically) a sentence that directly follows the connected noun. 
+As we mentioned in the introduction,
+the connector provides clarifying information for the listener (or reader) to identify the individual referred to by the connected noun.
+
+<!--
+### An incomplete sentence as the connector
+
+The connector is, by default, a complete sentence. 
+It is, however, allowed to be an incomplete sentence if it is one of the following:
+
+ i. A prepositional phrase. For example:
+
+    [نَامَ ٱلَّذِي فِي ٱلْغُرْفَةِ.]{.ar}  
+    "The one (who is) in the room has slept."
+
+    The connector is the incomplete sentence [فِي ٱلْغُرْفَةِ]{.ar} "(is) in the room".
+
+ii. An adverbial phrase. For example:
+
+    [تَكَلَّمَ ٱلَّذِي عِنْدَكَ.]{.ar}  
+    "The one (who is) with you spoke."
+
+    (Remember that [عِنْدَ]{.ar} is technically a noun used adverbially, not a preposition.)
+    The connector is the incomplete sentence [عِنْدَكَ]{.ar} "(is) with you". 
+
+In such cases, the incomplete sentence connector implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
+
+### The link-back pronoun {#link-back-pronoun}
+-->
+
+In the connector is a pronoun that refers back to the connected noun.
+This pronoun is called the _link-back pronoun_.
+and it is an essential (though not always apparent) part of the connector.
+
+Let us identify some of the link-back pronouns in the examples we have given.
+
+
+[وَالَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ]{.ar}  
+"And those who hoard gold and silver"  
+Link-back pronoun: the plural masculine doer pronoun [و]{.ar} in [يَكْنِزُونَ]{.ar}
+
+[خِيَارُ أَئِمَّتِكُمُ الَّذِينَ تُحِبُّونَهُمْ]{.ar}  
+"The best of your rulers are the ones whom you love and who love you"  
+Link-back pronoun: the plural masculine doee attached pronoun [هُمْ]{.ar} in [تُحِبُّونَهُمْ]{.ar}
+
+[قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
+"The [specific] one (thing) that you said has reached us."  
+Link-back pronoun: the singular masculine doee attached pronoun [هُ]{.ar} in [قُلْتُمُوهُ]{.ar}
+
+[رَبَّنَا أَرِنَا ٱللَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنْسِ]{.ar}  
+"Our Lord, show us those who misled us of the jinn and men"  
+Link-back pronoun: the dual masculine doer pronoun [ا]{.ar} in [أَضَلَّانَا]{.ar}
+
+[أَوْ كَٱلَّذِي مَرَّ عَلَىٰ قَرْيَةٍ]{.ar}  
+"Or [consider such an example] as the one who passed by a township"  
+Link-back pronoun: the implied singular masculine doer pronoun "he" in [مَرَّ]{.ar}
+
+[قَدْ سَمِعَ ٱللَّـٰهُ قَوْلَ ٱلَّتِي تُجَادِلُكَ فِي زَوْجِهَا]{.ar}  
+"Certainly has Allāh heard the speech of the one who argues [i.e., pleads] with you, [O Muḥammad]"  
+Link-back pronoun: the implied singular feminine doer pronoun "she" in [تُجَادِلُكَ]{.ar}
+
+### Matching the link-back pronoun with the connected noun
+
+The link-back pronoun matches the specific connected noun in gender and number.
+And the link-back pronoun is generally an absent-person pronoun ([هُ]{.ar}, [هَا]{.ar}, [هُوَ]{.ar}, [هُمْ]{.ar}, etc.).
+For example, in the sentence,
+[وَالَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ]{.ar}
+"And those who hoard gold and silver,"
+the link-back pronoun is the plural masculine absent-person doer pronoun [و]{.ar} "they" in [يَكْنِزُونَ]{.ar} "they hoard".
+And it matches the plural masculine connected noun [ٱلَّذِينَ]{.ar}.
+
+However, there is an exception to the link-back pronoun being an absent-person pronoun.
+And that is when the connected noun refers to the speaker or the addressed person, like 
+[أَنَا ٱلَّذِي]{.ar}, or [أَنْتُمُ ٱلَّذِينَ]{.ar}, etc.
+In these cases, the link-back pronoun may optionally:
+
+ i. either be an absent-person pronoun to match the connected noun (as usual),
+ii. or match the pronoun for the speaker or addressed person (as the case may be)
+
+The latter is generally more common but both options are permissible.
+For example:
+
+[أَنَا ٱلَّذِي حَضَرْتُ.]{.ar}  
+Link-back pronoun: the singular masculine doer pronoun for the speaker [تُ]{.ar} in [حَضَرْتُ]{.ar}  
+or  
+[أَنَا ٱلَّذِي حَضَرَ.]{.ar}  
+Link-back pronoun: the implied singular masculine doer pronoun for the absent person "he" in [حَضَرَ]{.ar}  
+"I am the one (who) was present."
+
+Here are some examples from Classical Arabic:
+
+[أَنَا ٱلَّذِي سَمَّتْنِ أُمِّي حَيْدَرَهْ]{.ar}  
+"I am the one whom my mother named [#Haydarah]{.trn2}"  
+(The link-back pronoun is the speaker person's doee pronoun in [سَمَّتْنِ]{.ar}, which is an abbreviation of [سَمَّتْنِي]{.ar} "she named me".)
+
+[فَقَالَ مُوسَى يَا آدَمُ أَنْتَ الَّذِي خَلَقَكَ اللَّهُ بِيَدِهِ]{.ar}  
+"[#mUsA]{.trn2} said: O [#Adam]{.trn2}, you are the one whom [#allAh]{.trn2} created with His Hand"  
+tirmidhi:2134  
+(The link-back pronoun is the addressed person's doee pronoun [كَ]{.ar} in [خَلَقَكَ]{.ar}.)
+
+There is one circumstance where matching the link-back pronoun to the (absent person) connected-noun is mandated.
+And that is when the connected noun is the called-out person using the particle [أَيُّهَا]{.ar} or [أَيَّتُهَا]{.ar}.
+For example,
+
+[يَاأَيُّهَا ٱلَّذِينَ  آمَنُوا]{.ar}  
+"O you who have believed"  
+not  
+$\times$ [يَاأَيُّهَا ٱلَّذِينَ آمَنْتُمْ]{.ar}  
+
+Similarly,
+
+[يَاأَيُّهَا الَّذِي نُزِّلَ عَلَيْهِ الذِّكْرُ]{.ar}  
+"O you upon whom the message has been sent down"  
+15:6
+
+<!--
+If 
+the connected noun is called-out to using the another particle, then again, both options are permissible.
+For example,
+
+[يَا هَـٰذَا ٱلَّذِي قَامَ]{.ar}  
+or    
+[يَاأَيُّهَا هَـٰذَا ٱلَّذِي قُمْتَ]{.ar}  
+"O the one (who) stood up"  
+-->
+
+### Omitting the link-back pronoun
+
+<!--
+Tafsir al-Qurtubi:
+قوله تعالى : ثم آتينا موسى الكتاب مفعولان . تماما مفعول من أجله أو مصدر . على الذي أحسن قرئ بالنصب والرفع . فمن رفع - وهي قراءة يحيى بن يعمر وابن أبي إسحاق - فعلى تقدير : تماما على الذي هو أحسن . قال المهدوي : وفيه بعد من أجل حذف المبتدأ العائد على الذي . وحكى سيبويه عن الخليل أنه سمع " ما أنا بالذي قائل لك شيئا " . ومن نصب فعلى أنه فعل ماض داخل في الصلة ; هذا قول البصريين . وأجاز الكسائي والفراء أن يكون اسما نعتا ل " الذي " وأجازا " مررت بالذي أخيك " ينعتان " الذي " بالمعرفة وما قاربها . قال النحاس : وهذا محال عند البصريين ; لأنه نعت للاسم قبل أن يتم ، والمعنى عندهم : على المحسن .
+
+شرح ابن عقيل:
+ذهب الكوفيون إلى أنه يجوز حذف العائد المرفوع بالابتداء مطلقا، أي سواء أكان الموصول أيا أم غيره، وسواء أطالت الصلة أم لم تطل، وذهب البصريون إلى جواز حذف هذا العائد إذا كان الموصول أيا مطلقا، فإن كان الموصول غير أي لم يجيزوا الحذف إلا بشرط طول الصلة، فالخلاف بين الفريقين منحصر فيما إذا لم تطل الصلة وكان الموصول غير أي، فأما الكوفيون فاستدلوا بالسماع، فمن ذلك قراءة يحيى بن يعمر:
+(تماما على الذي أحسن) قالوا: التقدير على الذي هو أحسن، ومن ذلك قراءة مالك ابن دينار وابن السماك: (إن الله لا يستحيي أن يضرب مثلا ما بعوضة فما فوقها) قالوا:
+التقدير: مثلا الذي هو بعوضة فما فوقها، ومن ذلك قول الشاعر:
+لا تنو إلا الذي خير، فما شقيت * إلا نفوس الألى للشر ناوونا قالوا: التقدير لا تنو إلا الذي هو خير، ومن ذلك قول الآخر:
+من يعن بالحمد لم ينطق بما سفه ولا يحد عن سبيل المجد والكرم قالوا: تقدير هذا البيت: من يعن بالحمد لم ينطق بالذي هو سفه، ومن ذلك قول عدي بن زيد العبادي:
+لم أر مثل الفتيان في غبن * الأيام يدرون ما عواقبها قالوا: ما موصولة، والتقدير: يدرون الذي هو عواقبها.
+وبعض هذه الشواهد يحتمل وجوها من الاعراب غير الذي ذكروه، فمن ذلك أن " ما " في الآية الثانية يجوز أن تكون زائدة، وبعوضة خبر مبتدأ محذوف، ومن ذلك أن " ما " في بيت عدي بن زيد يحتمل أن تكون استفهامية مبتدأ، وما بعدها خبر، والجملة في محل نصب مفعول به ليدرون، وقد علق عنها لأنها مصدرة بالاستفهام، والكلام يطول إذا نحن تعرضنا لكل واحد من هذه الشواهد، فلنجتزئ لك بالإشارة.
+
+-->
+
+The link-back pronoun is frequently omitted, and its meaning is then implicit, in some cases:
+
+(a) When the linker pronoun is a detached pronoun which is the u-state subject of a subject-information sentence, whose information is:
+
+    (i)  A prepositional phrase. For example:
+    
+         [نَامَ ٱلَّذِي فِي ٱلْغُرْفَةِ.]{.ar}  
+         "The one who (is) in the room has slept."
+    
+         The connector is the incomplete sentence [فِي ٱلْغُرْفَةِ]{.ar} "(is) in the room".
+         With the link-back pronoun restored, the sentence is  
+
+         [نَامَ ٱلَّذِي هُوَ فِي ٱلْغُرْفَةِ.]{.ar}  
+    
+    (ii) An adverbial phrase. For example:
+    
+         [تَكَلَّمَ ٱلَّذِي عِنْدَكَ.]{.ar}  
+         "The one who (is) with you spoke."
+    
+         (Remember that [عِنْدَ]{.ar} is technically a noun used adverbially, not a preposition.)
+         The connector is the incomplete sentence [عِنْدَكَ]{.ar} "(is) with you". 
+         With the link-back pronoun restored, the sentence is  
+
+         [تَكَلَّمَ ٱلَّذِي هُوَ عِنْدَكَ.]{.ar}  
+
+    In such cases, the incomplete sentence connector implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
+
+(b) When the link-back pronoun is an attached pronoun for the direct doee. For example:
+
+    [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمْ.]{.ar}  
+    "The one (thing) that you said has reached us."
+
+    With the link-back pronoun restored, the sentence is  
+
+    [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
+
+(c) (i) When the link-back pronoun is the base noun in an annexation whose annex noun is a verbal noun of the doer or the doee implying a present or future meaning. For example:
+
+        [أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلٌ.]{.ar}  
+        "I fear from him the wrong that he will do."
+
+        With the link-back pronoun restored, the sentence is  
+        [أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلُهُ.]{.ar}  
+
+    (ii) When the link-back pronoun is attached to a preposition or adverb, and the same preposition or adverb has already been used (with the same meaning) with the connecting noun or its described noun. The preposition/adverb is omitted along with its attached pronoun. For example:
+
+         [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ.]{.ar}  
+         "I walked in the (same) garden [in] which you walked."
+
+         With the link-back pronoun restored, the sentence is  
+         [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ فِيهَا.]{.ar}  
+
+         [مَرَرْتُ بِٱلَّذِي مَرَّ سُلَيْمَانُ.]{.ar}  
+         "I passed by the (same) one that [#sulaymAn]{.trn2} did."
+
+         With the link-back pronoun restored, the sentence is  
+         [مَرَرْتُ بِٱلَّذِي مَرَّ بِهِ سُلَيْمَانُ.]{.ar}  
+
+### Separating the connector from the connected noun
+
+Generally, the connector directly follows the connected noun, as in all the examples we have given so far.
+However, the connector may be separated from the connected noun by one of the following:
+
+  i. An oath. For example:
+
+     [جَاءَ ٱلَّذِي وَٱللَّـٰه قَهَرَ ٱلْأَعْدَاءَ.]{.ar}  
+     "The one who - by [#allAh]{.trn2} - overpowered the enemies has come."
+
+ ii. A sentence calling out to someone. For example,
+
+     [أَنْتَ ٱلَّذِي يَا زَيْدُ فَتَحْتَ ٱلْبَابَ.]{.ar}  
+     "You are the one - O Zayd - who opened the door."
+
+iii. A parenthetical clause, which is a sentence within the main sentence that adds information to it, but which can be omitted without affecting the completeness of the main sentence. For example:
+
+     [قَدِمَ ٱلَّذِي أَطَالَ ٱللَّـٰهُ عُمْرَهُ أَحْسَنَ إِلَيَّ.]{.ar}  
+     "The one who - may Allah lengthen his age - was good to me has arrived."
+
+     [قَدِمَ ٱلَّذِي وَهُوَ مُبْتَسِمٌ أَحْسَنَ إِلَيَّ.]{.ar}  
+     "The one who - and he is smiling - was good to me has arrived."
+
+## The general connected nouns
+
+The general connected nouns are unrestricted in significance, and may be applied to any individual who fits the criteria given in the connector.
+The two main general connected nouns are:
+
+1. [مَنْ]{.ar} [man]{.trn}. Typically used for intelligent beings and translated as "who".
+1. [مَا]{.ar} [mA]{.trn}. Typically used for non-intelligent beings and translated as "what".
+
+There are also some other rarely or dialectally used general connected nouns that we will not cover. These are [أَيّ]{.ar} [Eayy]{.trn}, [ذُو]{.ar} [pU]{.trn}, and [ذَا]{.ar} [pA]{.trn}.[^connected-noun-other-interrogatives]
+
+[^connected-noun-other-interrogatives]: Fischer claims (§427):
+
+    > Other interrogatives (§289) are also used as relatives:
+    > [عَرَفَ ٱلْمَكِيدَةَ وَكَيْفَ كَانَ ٱلْمَلِكُ أَوْقَعَهَا]{.ar}
+    > 'He knew the trick and how the king employed it.'
+    > [وَٱللّٰهِ مَا نُبَالِي أَيْنَ ذَهَبَ]{.ar}
+    > 'By God, we do not care where he went'; cf.\ also §419b.
+
+    However, we have not been able to find the classical grammarians including [كيف]{.ar}, [أين]{.ar}, etc. among [الأسماء الموصولة]{.ar}.
+    To understand how these interrogatives are to be analyzed in such sentences,
+    it may help to look up the [إعراب]{.ar} of the verses :
+    [هُوَ الَّذِي يُصَوِّرُكُمْ فِي الْأَرْحَامِ كَيْفَ يَشَاءُ]{.ar} [3:6], and
+    [لِيُرِيَهُ كَيْفَ يُوَارِي سَوْءَةَ أَخِيهِ]{.ar} [5:31]
+    in linguisitic [tafsIrs]{.trn2} like
+    [البحر المحيط لأبي حيان]{.ar} and
+    [التحرير والتنوير لابن عاشور]{.ar}.
+
+    The article [ٱل]{.ar} is also generally included among [الأسماء الموصولة المشتركة]{.ar}.
+    However, we have deemed it too complicated to cover (and too confusing to even mention in main text).
+    See [النحو الوافي لعباس حسن]{.ar} vol.\ 1, pp.\ 356--357 for its treatment.
+
+Unlike the specific connected nouns ([ٱَلَّذِي]{.ar}, etc.),
+the general connected nouns do not vary for number and gender.
+
+For example:
+
+[أُحِبُّّ مَنْ يَعْدِلُ]{.ar}  
+"I love [him] who is just."
+
+[أُحِبُّّ مَنْ يَعْدِلُونَ]{.ar}  
+"I love [them] who are just."
+
+[ٱِصْنَعْ مَا بَدَا لَكَ.]{.ar}  
+"Do what seems (good) to you."
+
+[مَرَرْتُ بِمَا يُعْجِبُكَ.]{.ar}  
+"I passed by what will please you."
+
+### [مَنْ]{.ar} and [مَا]{.ar} after prepositions
+
+When [مَنْ]{.ar} and [مَا]{.ar} are directly preceded by the prepositions [مِنْ]{.ar} and [عَنْ]{.ar}, these prepositions lose their [ن]{.ar} and are joined to the following noun with the noun's [م]{.ar} doubled.
+For example: 
+[مَمَّنْ]{.ar} [mimman]{.trn},
+[مَمَّا]{.ar} [mimmA]{.trn},
+[عَمَّنْ]{.ar} [eamman]{.trn},
+[عَمَّا]{.ar} [eammA]{.trn}.
+
+The preposition [فِي]{.ar} is also often (though not always) optionally attached to these connected nouns, thus: [فِيمَنْ]{.ar} [fIman]{.trn}, [فِيمَا]{.ar} [fImA]{.trn}.
+
+The remaining prepositions follow the normal rules: [عَلَى مَا]{.ar}, [كَمَنْ]{.ar}, etc.
+But we will see, if [#allAh]{.trn2} wills, in chapter\ \@ref(questions), that [مَا]{.ar} and [مَنْ]{.ar} are also used as question nouns, in which case the rules of joining prepositions to them will differ.
+
+### The link-back pronoun for the general connected nouns
+
+The general connected nouns
+[مَنْ]{.ar}
+and
+[مَا]{.ar}
+are themselves singular masculine in number and gender.
+However, they can be used to signify persons or things of any number and gender.
+
+Their link-back pronouns can then, optionally:
+
+ i. Either match the gender and number of the persons or things meant by the connected noun. For example:
+
+    [وَمِنْهُمْ مَنْ يَسْتَمِعُونَ إِلَيْكَ]{.ar}  
+    "And among them are those who listen to you"  
+    10:42
+
+    [قَدْ خَابَتْ مَنْ فَعَلَتْ ذَلِكَ مِنْهُنَّ وَخَسِرَتْ]{.ar}  
+    "She has thwarted herself, whoever did that from them~3f~, and lost."  
+    [[#jAmie al-#tirmipI]{.trn2}:3318]
+
+    Note also how, in this example how, in addition to the feminine link-back doer pronouns in [فَعَلَتْ]{.ar} and [خَسِرَتْ]{.ar},
+    the feminine gender of the person signified by [مَنْ]{.ar} has also caused the [تْ]{.ar} of femininity to be added to the verb [خَابَ]{.ar} (of which [مَنْ]{.ar} is the doer noun).
+
+    [جَمَعْتُ مِنَ ٱلْوَرَقِ مَا سَقَطْنَ.]{.ar}
+    "I gathered what fell from the leaves."
+
+    [صَلِّ مِنَ ٱلرَّكَعَاتِ مَا يَتَيَسَّرْنَ.]{.ar}  
+    or  
+    [صَلِّ مِنَ ٱلرَّكَعَاتِ مَا تَتَيَسَّرُ.]{.ar}  
+    "Pray from the units (of prayer) what is easy."
+
+ii. Or be singular masculine to match the connected noun itself. This is generally more common for [مَا]{.ar}. For example:
+
+    [وَمِنْهُم مَّن يُؤْمِنُ بِهِۦ وَمِنْهُم مَّن لَّا يُؤْمِنُ بِهِۦ ۚ]{.ar}  
+    "And of them are those who believe in it, and of them are those who do not believe in it."  
+    10:40
+
+    [جَمَعْتُ مِنَ ٱلْوَرَقِ مَا سَقَطَ.]{.ar}
+    "I gathered what fell from the leaves."
+
+    [صَلِّ مِنَ ٱلرَّكَعَاتِ مَا يَتَيَسَّرُ.]{.ar}  
+    "Pray from the units (of prayer) what is easy."
+
+    [لَمْ أَجِدْ مَا أَعْتَذِرُ بِهِ]{.ar}  
+    "I did not find what I (could) make an excuse for with".
+
+Both options can be utilized together as well. For example:
+
+[بَلَىٰ مَنْ أَسْلَمَ وَجْهَهُۥ لِلَّهِ وَهُوَ مُحْسِنٌۭ فَلَهُۥٓ أَجْرُهُۥ عِندَ رَبِّهِۦ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ]{.ar}  
+"Yes, [on the contrary], whoever submits his face [i.e., self] in Islām to Allāh while being a doer of good will have his reward with his Lord. And no fear will there be concerning them, nor will they grieve."  
+2:112
+
+[فَمَن تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ]{.ar}  
+"whoever follows My guidance - there will be no fear concerning them, nor will they grieve."  
+2:38
+
+<!--
+[ٱُشْكُرْ مَنْ أَحْسَنَ إِلَيْكَ.]{.ar} (link-back pronoun is the implied sing. masc. doer pronoun of the verb [أَحْسَنَ]{.ar}.)  
+or  
+[ٱُشْكُرْ مَنْ أَحْسَنُوا إِلَيْكَ.]{.ar} (link-back pronoun is the implied pl. masc. doer pronoun of the verb [أَحْسَنُوا]{.ar}.)  
+"Thank who did good to you."
+-->
+
+#### Omitting the link-back pronoun
+
+The same guidelines for omitting the link-back pronouns, which we learned for the specific connected nouns, apply also to the general connected nouns.
+For example:
+
+[وَلَهُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ]{.ar}  
+"To Him belongs whoever is in the heavens and the earth."  
+21:19  
+(for [مَنْ هُوَ فِي ٱلسَّمَوَاتِ وَٱلْأَرْضِ]{.ar})
+
+[هَـٰذَا مَا كَنَزْتُمْ لِأَنْفُسِكُمْ]{.ar}  
+"This is what you hoarded for yourselves"  
+9:35  
+(for [مَا كَنَزْتُمُوهُ]{.ar})
+
+[فَٱقْضِ مَا أَنتَ قَاضٍ]{.ar}  
+"So decree whatever you are to decree."  
+20:72  
+(for [مَا أَنْتَ قَاضِيهِ]{.ar})
+
+[أَنَا عِنْدَ مَنْ أَنْتَ.]{.ar}  
+"I am at his [house] at whose you (are)."  
+(for [مَنْ أَنْتَ عِنْدَهُ]{.ar})
+
+### Applicability of [مَا]{.ar} and [مَنْ]{.ar} to intelligent and non-intelligent beings {#man-and-maa-for-intelligent}
+
+As we mentioned earlier, [مَنْ]{.ar} is typically used to refer to intelligent beings.
+And [مَا]{.ar} is typically used to refer to non-intelligent beings.
+However, there are some circumstances in which these roles can differ.
+
+[مَنْ]{.ar}
+may be used for non-intelligent beings when a non-intelligent being is compared with an intelligent being.
+For example,
+ 
+::: {.otherlanguage data-latex="{arabic}" lang="ar"}
+وَاللَّهُ خَلَقَ كُلَّ دَابَّةٍ مِّن مَّاءٍ ۖ
+فَمِنْهُم مَّن يَمْشِي عَلَىٰ بَطْنِهِ
+وَمِنْهُم مَّن يَمْشِي عَلَىٰ رِجْلَيْنِ
+وَمِنْهُم مَّن يَمْشِي عَلَىٰ أَرْبَعٍ ۚ
+:::
+
+<!--
+[وَاللَّهُ خَلَقَ كُلَّ دَابَّةٍ مِّن مَّاءٍ ۖ ]{.ar}  
+[فَمِنْهُم مَّن يَمْشِي عَلَىٰ بَطْنِهِ ]{.ar}  
+[وَمِنْهُم مَّن يَمْشِي عَلَىٰ رِجْلَيْنِ ]{.ar}  
+[وَمِنْهُم مَّن يَمْشِي عَلَىٰ أَرْبَعٍ ۚ]{.ar}  
+-->
+"Allāh has created every [living] creature from water. And of them are those that move on their bellies, and of them are those that walk on two legs, and of them are those that walk on four."
+
+[مَنْ]{.ar}
+may also be used for non-intelligent beings when 
+attributes usually applicable to intelligent beings are applied to a non-intelligent being.
+For example:
+
+[أَسِرْبَ الْقَطَا، هَلْ مَنْ يُعِيرُ جَنَاحَه * لَعَلِّي إِلَىٰ مَنْ قَدْ هَوِيتُ أَطِيرُ]{.ar}  
+O flock of birds, is there who will lend his wing  
+that perhaps I may fly to whom I love  
+[أَ]{.ar}: "O",
+[سِرْب]{.ar}: "flock",
+[قَطَا]{.ar}: a species of bird,
+[هَلْ]{.ar}: "is there?",
+[يُعِيرُ]{.ar}: "lend",
+[جَنَاح]{.ar}: "wing",
+[لَعَلِّي]{.ar}: "Perhaps I",
+[هَوِيتُ]{.ar}: "I love",
+[أَطِيرُ]{.ar}: "I fly".
+
+[مَنْ]{.ar}
+may also be used for non-intelligent beings when 
+there is a mixed group including both intelligent and non-intelligent beings,
+and the intelligent beings are given preference.
+For example:
+
+[وَلِلَّهِ يَسْجُدُ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ]{.ar}  
+"And to Allāh prostrates whoever is within the heavens and the earth"  
+13:15
+
+Similarly, [مَا]{.ar} may, in some circumstances, be used for intelligent beings. 
+This may be when
+there is a mixed group including both intelligent and non-intelligent beings,
+and the non-intelligent beings are given preference because of their larger number.
+For example:
+
+[يُسَبِّحُ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ]{.ar}  
+"Whatever is in the heavens and whatever is on the earth is exalting Allāh"  
+62:1
+
+[مَا]{.ar} may also be used for intelligent beings when
+the person being referred to is vague to the speaker.
+For example:
+
+[رَبِّ إِنِّي نَذَرْتُ لَكَ مَا فِي بَطْنِي مُحَرَّرًا]{.ar}  
+"My Lord, indeed I have pledged to You what is in my womb, consecrated [for Your service]"  
+3:35
+
+[مَا]{.ar} may also be used for intelligent beings when
+the characteristics of an intelligent being are highlighted when referring to them. For example:
+
+[فَانكِحُوا مَا طَابَ لَكُم مِّنَ النِّسَاءِ]{.ar}  
+"then marry those that please you of [other] women"  
+4:3
+
+<!--
+http://shiaonlinelibrary.com/%D8%A7%D9%84%D9%83%D8%AA%D8%A8/3954_%D8%B4%D8%B1%D8%AD-%D8%A7%D8%A8%D9%86-%D8%B9%D9%82%D9%8A%D9%84-%D8%A7%D8%A8%D9%86-%D8%B9%D9%82%D9%8A%D9%84-%D8%A7%D9%84%D9%87%D9%85%D8%AF%D8%A7%D9%86%D9%8A-%D8%AC-%D9%A1/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9_140#top
+footnotes on شرح ابن عقيل ١/١٤٠
+-->
+
+### Grammatical position of the general connected nouns
+
+The general connected noun may occur in various grammatical positions. 
+Here are some examples:
+
+As a subject:
+
+[ما عِنْدَكُمْ يَنْفَدُ]{.ar}  
+"Whatever you have will end"  
+16:96
+
+As an information:
+
+[مَالُكَ مَا قَدَّمْتَ، وَمَالُ وَارِثِكَ مَا أَخَّرْتَ]{.ar}  
+"Your wealth is what you have sent forward, and the wealth of your inheritors is what you have left behind."  
+adab:153
+
+As a doer:
+
+[فَعَلَهُ مَنْ هُوَ خَيْرٌ مِنِّي]{.ar}  
+"it was done by one who was better than I"  
+bukhari:668
+
+As a doee:
+
+[اعْمَلُوا مَا شِئْتُمْ]{.ar}  
+"Do whatever you will"  
+41:40
+
+Following a preposition:
+
+[وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ]{.ar}  
+"and make me independent from (all) who are besides You"  
+tirmidhi:3563
+
+As a base noun in an annexation:
+
+[هُمْ شَرُّ مَنْ خَلَقَ ٱللَّـٰهُ.]{.ar}  
+"They are the most evil of whom Allah has created."
+
+[مَا تَرَىٰ رَأْيَ مَا نَرَىٰ.]{.ar}  
+"You do not think what we think."  
+(literally: "You do not opine the opinion of what we opine.")
+
+[أَمْرَ مَا تَحْذَرُ]{.ar}  
+"the matter of which you are wary"
+
+Unlike the specific connected nouns 
+([ٱَلَّذِي]{.ar}, etc),
+the general connected nouns do not occur as describers.[^connected-noun-describers]
+
+[^connected-noun-describers]: See  [كتاب المقتصد في شرح الإيضاح للجرجاني]{.ar}, vol.\ 1, p.\ 319:
+
+    > [ومَن لا يوصف به، ألا ترى لا تقول: مررت بالرجل مَن أخوه منطلق. فتجعله صفةً للرجل، كما تقول: بالرجل الذي أخوه منطلق]{.ar}
+
+    Also [شرح الرضي على الكافية لابن الحاجب]{.ar} vol.\ 2, p.\ 314:
+
+    > [ولا يقع من الموصولات وصفا إلا ما في أوله اللام، نحو الذي والتي، واللاتي، وبابها، لمشابهته لفظا للصفة المشبهة في كونه على ثلاثة أحرف فصاعدا، بخلاف من وما، وأما (أي) الموصول فلم يقع وصفا، لأن الأغلب فيه: الشرط والاستفهام ووقوعه موصولا قليل فروعي ذلك الأكثر، وإنما يوصف بذو، الطائية وإن كانت على حرفين كما في قوله:]{.ar}
+    >
+    > [٣٢٧ - فقولا لهذا المرء ذو جاء ساعيا ... هلم فان المشرفي الفرائض]{.ar}
+
+    Basically, of [الأسماء الموصولة المشتركة]{.ar} (which comprise [ما, مَن, أي, أل, ذو, ذا]{.ar}) only the dialectal [ذو]{.ar} appears as a [صفة]{.ar}.
+
+So while we can say:
+
+[مَرَرْتُ بِٱلرَّجُلِ ٱلَّذِي أَحْسَنَ إِلَيّ.]{.ar}  
+"I passed by the man who was good to me."
+
+we cannot say:
+
+$\times$ [مَرَرْتُ بِٱلرَّجُلِ مَنْ أَحْسَنَ إِلَيّ.]{.ar}  
+
+We will have to say instead:
+
+[مَرَرْتُ بِمَنْ أَحْسَنَ إِلَيّ.]{.ar}  
+
+The general connected noun can, however, occur as a replacement.^[Fischer §421.2. The example too is taken from there. Originally, it is from [السيرة النبوية لابن هشام]{.ar}.]
+For example,
+
+[والمسلمون مَن تبع رسول الله صلى الله عليه وسلم كثير]{.ar}  
+"And the Muslims, who follow the Messenger of [#allAh]{.trn2}, are many"
+
+### Use with the preposition [مِنْ]{.ar}
+
+The preposition [مِنْ]{.ar} is frequently used with the general connected nouns to restrict the applicability of the connected noun to a group or type. 
+This [مِنْ]{.ar} may come either before the connected noun, or after its connector.
+For example:
+
+<!--[سَأُعْطِيهِ مَا عِنْدِي مِنْ خُبْزٍ.]{.ar}  
+"I will give him what I have of bread."-->
+
+[فَأَعْطَانِي مَا كَانَ عِنْدَهُ مِنْ خُبْزٍ.]{.ar}  
+"Then he gave me what he had of bread."
+
+[مَنْ دَخَلَ ٱلشَّأْمَ مِنَ ٱلْعَرَبِ]{.ar}  
+"Those Arabs who entered Syria"  
+(literally: "Who entered Syria from the Arabs")
+
+[فَانكِحُوا مَا طَابَ لَكُم مِّنَ النِّسَاءِ]{.ar}  
+"then marry those that please you of [other] women"  
+4:3
+
+[اللَّهُمَّ اقْسِمْ لَنَا مِنْ خَشْيَتِكَ مَا يَحُولُ بَيْنَنَا وَبَيْنَ مَعَاصِيكَ]{.ar}  
+O [#allAh]{.trn2}, apportion for us, from the fear of You, (that) what shall come between us and disobedience of You  
+tirmidhi:3502  
+(The connected noun [مَا]{.ar} is the direct doee of the verb of command [اقْسِمْ]{.ar}.)
+
+### Use with a repeated word to express vagueness or uncertainty
+
+The general connected nouns
+[مَنْ]{.ar} and [مَا]{.ar}
+are used with a word that is repeated to express a vague or uncertain quantity or quality.
+For example:
+
+[هُمْ مَا هُمْ]{.ar}  
+"They are what they are."
+
+[نَزَلَ مَنْ نَزَلَ مِنْهُمْ]{.ar}  
+"Some of them came down."  
+(literally: Came down who came down from them.")
+
+[جَمَعْتُ مَا جَمَعْتُ]{.ar}  
+"I gathered what I gathered."
+
+## Omitting the connected noun and/or the connector
+
+TODO. See النحو الوافي
+
+## Sentences without connected nouns
+
+There are some sentences where we might expect a connected noun but which are always, or often (as the case may be), expressed in Arabic without a connected noun. These sentences are of different types:
+
+### Sentences with indefinite nouns needing a qualifying sentence
+
+When an indefinite noun needs a qualifying sentence, it is natural in English to insert "that", "which", "who", etc. between the noun and the following sentence. For example, "I passed by a man _who_ was sleeping."
+
+In Arabic, however, we will not use any connected noun in such sentences. 
+This is because the connected nouns are considered definite nouns.
+And therefore they may not be a describer to an indefinite noun.
+So while we can say:
+
+[مَرَرْتُ بِٱلرَّجُلِ ٱلَّذِي يَنَامُ.]{.ar}  
+"I passed by the man who is sleeping."
+
+we cannot say
+
+$\times$ [مَرَرْتُ بِرَجُلٍ ٱلَّذِي يَنَامُ.]{.ar}  
+
+Instead, we put the qualifying sentence directly after the indefinite noun. The qualifying sentence will then not be a connector, but will itself be the describer to the described noun:
+
+[مَرَرْتُ بِرَجُلٍ يَنَامُ.]{.ar}  
+"I passed by a man (who) is sleeping."
+
+Here is another example:
+
+<!--
+[أَكَلْتُ طَعَامًا قَدْ بِٱلْمِلْحِ.]{.ar}  
+"I ate a food (that) had been seasoned with salt."
+-->
+
+[جَلَسْتُ فِي مَجْلِسٍ قَدْ رُشَّ بِمَاءِ ٱلْوَرْدِ.]{.ar}  
+"I sat in a sitting (that) had been sprinkled with rose-water."
+
+A connected noun can, however, follow an indefinite noun, if we intend to start a separate sentence with it, or if it is a _replacement_ (see chapter\ \@ref(the-replacement)). For example.
+
+[وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ]{.ar}  
+"Resurrect him to a praiseworthy station, the one that you promised him"  
+bukhari:614
+
+[وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ]{.ar}  
+[الَّذِي جَمَعَ مَالًا وَعَدَّدَهُ]{.ar}  
+"Woe to every scorner and mocker  
+Who collects wealth and [continuously] counts it."  
+104:1-2
+
+### Sentences containing a noun with generic definiteness
+
+Sometimes the definite article [ٱَلْ]{.ar} 
+does not determine a particular individual, but
+makes a noun definite only in a generic way.
+In this case a qualifying sentence may directly follow it without any intermediate connected noun used as a describer.^[Fischer §428.1, Wright vol.\ 2, §172, p.\ 318B.]
+Because there is no connected noun, the qualifying sentence is, again, not analyzed as a connector.
+For example:
+
+[كَمَثَلِ الْحِمَارِ يَحْمِلُ أَسْفَارًا]{.ar}  
+"like that of a donkey who carries volumes [of books]"  
+62:5  
+(Note how the translator has actually translated [ٱلْحِمَار]{.ar} as "a donkey" because in English an indefinite noun is often used to indicate a generic type.)
+
+
+[أَنْتَ ٱلْوَزِيرُ لَا يُعْصَىٰ]{.ar}  
+"You are the (sort of) vizier (who) is not disobeyed."
+
+[هُمُ ٱلْفَوَارِسُ يَحْمُونَ ٱلنِّسَاءَ.]{.ar}  
+"They are the (kind of) horsemen (who) protect the women."
+
+### Sentences with prepositional or adverbial phrases
+
+If a sentence has a definite noun which is to be qualified by a prepositional or adverbial phrase, then in many cases, that phrase may directly follow the definite noun without any intermediate connected noun used a describer.
+But using a connected noun is also permissible if one wishes to emphasize that the specificity of the noun.
+When there is no connected noun, the prepositional or adverbial phrase is not analyzed as a connector, but is considered attached to an implied verb that has the idea of "being", like "is", "are", etc.
+When there is a connected noun, then it is analyzed as a connector, as usual.
+For example:
+
+[سِرْتُ فِي ٱلْحَدِيقَةِ عِنْدَ ٱلْمَسْجِدِ.]{.ar}  
+"I walked in the garden next to the mosque."  
+or  
+[سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي عِنْدَ ٱلْمَسْجِدِ.]{.ar}  
+or  
+[سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي هِيَ عِنْدَ ٱلْمَسْجِدِ.]{.ar}  
+"I walked in the [specific] garden that [is] next to the mosque."  
+
+
+<!--chapter:end:srcrmd/ism_mawsuul.Rmd-->
+
+# Questions
+
+## Introduction
+
+TODO
+
+## [أَ]{.ar} and [هَلْ]{.ar} questions
+
+TODO
+
+## [مَنْ]{.ar} "Who" questions
+
+In chapter\ \@ref(the-connected-nouns) we have studied the use of [مَنْ]{.ar} [man]{.trn} as a connected noun.
+Now, we will study its use as a question noun.
+[مَنْ]{.ar} is used to formulate "who" questions.
+As with connected-nouns [مَنْ]{.ar} is typically used for intelligent beings. 
+(See section\ \@ref(man-and-maa-for-intelligent) for when [مَنْ]{.ar} may be used for non-intelligent beings.)
+Except in case that we will note below,
+[مَنْ]{.ar}
+is usually placed in the beginning of the question sentence.
+Being a noun, [مَنْ]{.ar} may be in one of the three states but because it is a rigid noun, its state will not be apparent.
+[مَنْ]{.ar} is considered a singular masculine noun but it is used for all numbers and genders.
+
+### [مَنْ]{.ar} in the u-state
+
+Here are some examples of the question noun
+[مَنْ]{.ar}
+as the subject of a sentence:
+
+[مَنْ زَيْدٌ؟]{.ar}  
+"Who is Zayd?"
+
+[مَنْ أَخُوهُ زَيْدٌ؟]{.ar}  
+"Whose brother is Zayd?"
+
+[مَنْ أَنْتِ؟]{.ar}  
+"Who are you~1f~?"
+
+[مَنِ هَـٰؤُلَاءِ ٱلنِّسَاءُ؟]{.ar}  
+"Who are these women?"
+
+[مَنْ ٱلرِّجَالُ ٱلَّذِينَ جَاءُوا؟]{.ar}  
+"Who are the men that have come?
+
+In all the above sentences
+[مَنْ]{.ar}
+is the subject of the sentence, 
+and the rest of the sentence constitutes the information.
+The noun following 
+[مَنْ]{.ar},
+even when indefinite,
+cannot be considered its describer or replacement.
+Therefore, [مَنْ رَجُلٌ؟]{.ar} can only mean "Who is a man?", not "Which man?".
+
+<!--
+[مَنْ إِلَٰهٌ غَيْرُ اللَّهِ يَأْتِيكُم بِضِيَاءٍ]{.ar}  
+Don't think I can use this. Most English translations say "what/which deity".
+Even though i3raab texts say ilaah is a khabar.
+-->
+
+When [مَنْ]{.ar} is used to ask about the doer of a verb, the verb is generally used with a singular masculine doer pronoun.
+For example:
+
+[مَنْ جَاءَ؟]{.ar}  
+"Who came?"
+
+However, occasionally, the verb's doer pronoun can be made to match the gender of the person(s) who are being asked about,
+especially if the question is specific to a gender. For example:
+
+[مَنْ كَانَتْ أُمَّكَ؟]{.ar}  
+"Who was your mother?"
+
+Note how [كَانَتْ]{.ar} has a feminine doer pronoun to match the gender of [أُمَّكَ]{.ar}.[^man-doer-pronoun]
+
+[^man-doer-pronoun]: Wright states (vol.\ 2, §170, p.\ 313C):
+
+    > As interrogatives, [مَنْ]{.ar} and [مَا]{.ar} are construed with the masculine singular of a verb, but occasionally admit of the feminine when the predicate is of the feminine gender; as [مَنْ كَانَتْ أُمَّكَ]{.ar} who was your mother?
+
+    From [البحر المحيط لأبي حيان]{.ar} for the [tafsIr]{.trn2} of [فَإِن كَانَتَا ٱثۡنَتَیۡنِ]{.ar} [4:176]:
+
+    > [... مَن صُرِّحَ بِها ولَها لَفْظٌ ومَعْنًى. فَمَن أنَّثَ راعى المَعْنى، لِأنَّ التَّقْدِيرَ: أيَّةُ أُمٍّ كانَتْ أُمَّكَ. ومَدْلُولُ الخَبَرِ في هَذا مُخالِفٌ لِمَدْلُولِ الِاسْمِ، بِخِلافِ الآيَةِ، فَإنَّ المَدْلُولَيْنِ واحِدٌ، ولَمْ يُؤَنَّثْ في مَن كانَتْ أُمَّكَ لِتَأْنِيثِ الخَبَرِ، إنَّما أُنِّثَ مُراعاةً لِمَعْنى مَن إذْ أرادَ بِها مُؤَنَّثًا. ألا تَرى أنَّكَ تَقُولُ: مَن قامَتْ فَتُؤَنَّثُ مُراعاةً لِلْمَعْنى إذا أرَدْتَ السُّؤالَ عَنْ مُؤَنَّثٍ، ولا خَبَرَ هُنا فَيُؤَنَّثُ قامَتْ لِأجْلِهِ]{.ar}
+
+    From [البحر المحيط لأبي حيان]{.ar} for the [tafsIr]{.trn2} of [ثُمَّ لَمۡ تَكُن فِتۡنَتُهُمۡ]{.ar} [6:23]:
+
+    > [وأمّا مَن كانَتْ أُمَّكَ، فَإنَّهُ حَمَلَ اسْمَ كانَ عَلى مَعْنى (مَن)؛ لِأنَّ مَن لَها لَفْظٌ مُفْرَدٌ، ولَها مَعْنًى بِحَسَبِ ما تُرِيدُ مِن إفْرادٍ وتَثْنِيَةٍ وجَمْعٍ وتَذْكِيرٍ وتَأْنِيثٍ، ولَيْسَ الحَمْلُ عَلى المَعْنى لِمُراعاةِ الخَبَرِ، ألا تَرى أنَّهُ يَجِيءُ حَيْثُ لا خَبَرَ ؟ نَحْوَ ومِنهم مَن يَسْتَمِعُونَ إلَيْكَ. و(تَكُنْ) مِثْلُ مَن يا ذِئْبُ يَصْطَحِبانِ. ومَن تَقْنُتْ في قِراءَةِ التّاءِ، فَلَيْسَتْ تَأْنِيثُ كانَتْ لِتَأْنِيثِ الخَبَرِ، وإنَّما هو لِلْحَمْلِ عَلى مَعْنى (مَن) حَيْثُ أرَدْتَ بِهِ المُؤَنَّثَ، وكَأنَّكَ قُلْتَ: أيَّةُ امْرَأةٍ كانَتْ أُمَّكَ]{.ar}
+
+If the question is regarding a specific number and gender, then we are more likely to insert the corresponding specific connected noun
+([ٱلَّذِي]{.ar}, etc.)
+between the question noun [مَن]{.ar} and the verb. 
+For example:
+
+[مَنِ اللَّتَانِ تَظَاهَرَتَا عَلَى النَّبِيِّ صلى الله عليه وسلم مِنْ أَزْوَاجِهِ]{.ar}  
+"Who are the ones~2f~, from his wives, who aided one another against the Prophet ﷺ ?  
+[sunnah.com/bukhari:4913](https://sunnah.com/bukhari:4913)
+
+Note that now the dual feminine doer pronoun in [تَظَاهَرَتَا]{.ar} is the link-back pronoun that matches the connected noun [ٱللَّتَانِ]{.ar}.
+
+## [مَا]{.ar} "What" questions
+
+TODO
+
+## [أَيّ]{.ar} "Which" questions
+
+TODO
+
+## [كَيْفَ]{.ar} "How" questions
+
+TODO
+
+## [أَيْنَ]{.ar} "Where" questions
+
+TODO
+
+## [مَتَىٰ]{.ar} "When" questions
+
+TODO
+
+## Other question words
+
+TODO
+
+## Differentiating question words from their other functions
+
+Many of the question words 
+([أَ]{.ar}, [مَنْ]{.ar}, [مَا]{.ar}, [كَيْفَ]{.ar}, etc.)
+also have other functions.
+For example,
+in chapter\ \@ref(the-connected-nouns) we learned that [مَنْ]{.ar}, [مَا]{.ar}, and [أَيّ]{.ar} are also connected nouns.
+Many of the question nouns can also be used as _conditional nouns_ that we will study in chapter\ \@ref(...), if [#allAh]{.trn2} wills.
+
+In this section, we will discuss briefly how to determine when words like
+[أَ]{.ar}, [مَنْ]{.ar}, [مَا]{.ar}, [كَيْفَ]{.ar}, etc.
+are question words, and when they could have one of their other functions.
+
+The basic principle regarding a question sentence is that it is to be treated as one unit. 
+A word from within a question sentence is not, individually, affected by anything outside the question.
+Let's try to understand this using an example.
+
+Consider the following sentence:
+
+[ٱِسْأَلْ أَيُّهُمْ قَامَ]{.ar}  
+[EisEal Eayyuhum qAm]{.trn}  
+"Ask: 'Which of them stood?'"
+
+The speaker is commanding the addressed person to ask a group of people the question: 
+"Which of them stood".
+
+The question sentence is
+[أَيُّهُمْ قَامَ]{.ar}
+[Eayyuhum qAm]{.trn}
+"Which of them stood".
+This entire sentence is considered the direct doee of the verb of command [ٱسْأَلْ]{.ar} "ask!".
+The question noun [أَيُّ]{.ar} [Eayyu]{.trn} is in the u-state because it is the subject of the question sentence.
+It does not become [أَيَّ]{.ar} [Eayya]{.trn} in the a-state because it is not, by itself, the direct doee of 
+[ٱسْأَلْ]{.ar}.
+Rather, as we have just stated, the entire question sentence is the direct doee.
+But because the direct doee is a sentence, and not an individual word, it does not indicate its state using, for example, an a-mark [◌َ]{.ar}.
+
+Now, let's modify the example. Consider now this sentence:
+
+[ٱِسْأَلْ أَيَّهُمْ قَامَ]{.ar}  
+[EisEal Eayyahum qAm]{.trn}  
+Ask the one of them who stood!
+
+Now, the noun [أَيَّ]{.ar} is in the a-state because it (individually) is the direct doee of the verb of command 
+[ٱسْأَلْ]{.ar}.
+The speaker is now commanding the addressed person to ask (something) of only the person who stood, out of a group of people. The rest of the people are not to be asked.
+Because the noun 
+[أَيَّ]{.ar}
+is individually affected by the preceding verb
+[ٱسْأَلْ]{.ar}
+it is now not a question noun, and must be one of the other functions that the word
+[أَيّ]{.ar} can have.
+As a matter of fact, it is here a connected noun, and the sentence following it:
+[قَامَ]{.ar} "he stood" is its connector.
+
+The other noteworthy point regarding questions
+(besides their being considered one unit)
+is that they may only be preceded 
+either by a verb of knowledge, (like [عَلِمَ]{.ar}, [دَرىٰ]{.ar}, etc.)
+or by an expression indicating that the question is being quoted.
+We have already seen an example of the question being quoted in the example:
+
+[ٱِسْأَلْ أَيُّهُمْ قَامَ]{.ar}  
+"Ask: 'Which of them stood?'"
+
+An example of a question being preceded by a verb of knowledge is:
+
+[مَا عَلِمْتُ أَذَهَبَ أَمْ مَكَثَ]{.ar}  
+I don't know whether he went or stayed.
+
+Here the question sentence is: 
+[أَذَهَبَ أَمْ مَكَثَ]{.ar}
+"Did he go or did he stay?"
+
+By the way, a question sentence may be part of a bigger question as well. For example:
+
+[أَتَدْرِي أَيُّهُمْ فِي ٱلدَّارِ؟]{.ar}  
+[EatadrI Eayyuhum fi -ddAr]{.trn}  
+Do you know: which of them is in the house?
+
+Note now the subtle difference in meaning if we change the state of [أَيّ]{.ar} in the above example from the u-state to the a-state:
+
+[أَتَدْرِي أَيَّهُمْ فِي ٱلدَّارِ؟]{.ar}  
+[EatadrI Eayyahum fi -ddAr]{.trn}  
+Do you know the one of them who is in the house?
+
+When [أَيّ]{.ar} was in the u-state it was a question noun. And the speaker was asking the addressed person if he could figure out who, from among the group of people, was in the house.
+
+When [أَيّ]{.ar} is in the a-state it is now a connected noun.
+The connector's link-back pronoun is omitted (as is permissible in this case, see section\ \@ref(...)). With the link-back pronoun restored, the sentence is
+[أَتَدْرِي أَيَّهُمْ هُوَ فِي ٱلدَّارِ؟]{.ar}
+And the speaker is asking the addressed person if he is familiar with the person who is in the house.
+Now he is not asking the addressed person to identify him, but rather if knows him as a person.
+
+This difference is apparent with 
+[أَيّ]{.ar} 
+because it is a flexible noun whose state is indicated by the vowel mark at its end.
+The same occurs in the other question nouns that are also connected nouns:
+[مَا]{.ar}, and [مَنْ]{.ar}
+but it won't often be as apparent because they are rigid nouns.
+
+As a final note, sometimes, one of the words like 
+[أَ]{.ar}, [مَنْ]{.ar}, [مَا]{.ar}, [كَيْفَ]{.ar}, etc.
+may be preceded by parts of a sentence that are neither quoting, nor a verb of knowledge.
+Here we can be sure that the word is not a question word
+and
+must be one of its other functions. However,
+it still may not be easy to figure out what that other function is.
+Nevertheless, the meaning of the sentence can still usually be gleaned.
+For example:
+
+[فَلْتَدْخُلْ مِنْ أَيِّ أَبْوَابِ الْجَنَّةِ شَاءَتْ]{.ar}  
+"then let her enter from whichever of the doors of paradise she wishes."[^question-vs-other-functions]
+
+[^question-vs-other-functions]: Distinguishing question words from their other functions is often not straightforward. Consider the example:
+
+    [أَتَدْرِي أَيَّ كِتَابٍ قَرَأَ؟]{.ar}  
+    Do you know which book he read?
+    
+    [أَيّ]{.ar} is a question noun in the a-state because it is the direct doee of the verb [قَرَأَ]{.ar}. It can't be a connected noun because [أَيَّ كِتَابٍ]{.ar} is indefinite and connected nouns are always considered definite.
+
+    See also these excerpts:
+
+    From the [tafsIr]{.trn2} of [وَإِذَا مَآ أُنزِلَتْ سُورَةٌ فَمِنْهُمْ مَّن يَقُولُ أَيُّكُمْ زَادَتْهُ هَـٰذِهِ إِيمَاناً]{.ar} [9:124] from [تفسير الآلوسي]{.ar}:
+
+    > [وقرأ عبيد بن عمير {أَيُّكُمْ} بالنصب على تقدير فعل يفسره المذكور ويقدر مؤخرًا لأن الاستفهام له الصدر أي أيكم زادت زادته الخ.]{.ar}
+
+    From the [tafsIr]{.trn2} of [ثُمَّ لَنَنزِعَنَّ مِن كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى ٱلرَّحْمَـٰنِ عِتِيّاً]{.ar} [9:124] from [بداىع الفوائد لابن القيم]{.ar}:
+
+    > [و ﴿أيُّهم أشَدُّ﴾ للنحاة فيه أقوال:]{.ar}
+    >
+    > [أحدها: قول الخليل أنه مبتدأ وأشد خبره ولم يعمل لننزعن فيه لأنه محكي والتقدير الذي يقال فيه: ﴿أيُّهم أشَدُّ عَلى الرَّحْمَنِ عِتِيًّا﴾ وعلى هذا فـ (أي) استفهامية.]{.ar}
+    >
+    > [الثاني: قول يونس أنه رفع على جهة التعليق للفعل السابق كما لو قلت علمت أنه أخوك فعلق الفعل عن الفعل كما تعلق أفعال القلوب.]{.ar}
+    >
+    > [الثالث: قول سيبويه إن (أي) هنا موصولة مبنية على الضم والمسوغ لبنائها حذف صدر صلتها، وعنده أصل الكلام أيهم هو أشد فلما حذف صدر الصلة بنيت على الضم تشبيها لها بالغايات التي قد حذفت مضافاتها ك قبل وبعد وعلى كل واحد من الأقوال إشكالات نذكرها ثم نبين الصحيح إن شاء الله.]{.ar}
+    >
+    > [فأما قول الخليل: فقيل يلزمه ستة أمور:]{.ar}
+    >
+    > [الأول حذف الموصوف.]{.ar}
+    >
+    > [الثاني: حذف الصلة.]{.ar}
+    >
+    > [الثالث: حذف العائد لأن تقديره الذي يقال لهم إنهم أشد وهذا لا عهد لنا فيه باللغة.]{.ar}
+    >
+    > [وأما ما يحذف من القول فإنه إنما يكون قولا مجردا عن كونه صلة لموصول نحو قوله: ﴿والمَلائِكَةُ باسِطُو أيْدِيهِمْ أخْرِجُوا أنْفُسَكُمُ﴾ أي يقولون أو قائلين ومثله: ﴿والَّذِينَ اتَّخَذُوا مِن دُونِهِ أوْلِياءَ ما نَعْبُدُهم إلاّ لِيُقَرِّبُونا إلى اللَّهِ زُلْفى﴾]{.ar}
+    >
+    > [الرابع: أنه إذا قدر المحذوف هكذا لم يستقم الكلام فإنه يصير ﴿لَنَنْزِعَنَّ مِن كُلِّ شِيعَةٍ﴾ الذين يقال فيهم ﴿أيُّهم أشَدُّ﴾]{.ar}
+    >
+    > [وهذا فاسد فإن ذلك المنزوع لا يقال فيه: ﴿أيُّهم أشَدُّ﴾ بل هو نفسه أشد أو من أشد الشيعة على الرحمن فلا يقع عليه الاستفهام بعد نزعه فتأمله.]{.ar}
+    >
+    > [الخامس: أن الاستفهام لا يقع إلا بعد أفعال العلم والقول على الحكاية ولا يقع بعد غيره من الأفعال تقول علمت أزيد عندك أم عمرو ولو قلت ضربت أزيد أم عمرو لم يجز وننزعن ليس من أفعال العلم]{.ar}
+    >
+    > [فإذا قلت: ضربت أيهم قام. لم تكن إلا موصولة ولا يصح أن يقال ضربت الذي يقال فيه أيهم قام، وإنما توهم مثل ذلك لكون اللفظ صالحا لجهة أخرى مستقيمة فيتوهم متوهم أن حمله على الجهة الأخرى يستقيم والذي يدل عليه أنه لو قدرت موضعه استفهاما صريحا ليس له جهة أخرى لم يجز]{.ar}
+    >
+    > [فإذا قلت: ضرب أزيد عندك أم عمرو. لم يجز بخلاف ضرب أيهم عندك.]{.ar}
+    >
+    > [فلو كان أيهم استفهاما لجاز الكلام مع الاستفهام الذي بمعناهما وإنما لم يقع الاستفهام إلا بعد أفعال العلم والقول أما القول فلأنه يحكي به كل جملة خبرية كانت أو إنشائية، وأما أفعال العلم فإنما وقع بعدها الاستفهام لكون الاستفهام مستعلما به فكأنك إذا قلت: أزيد عندك أم عمرو كان معناه أعلمني، وإذا قلت: علمت أزيد عندك أم عمرو.]{.ar}
+    >
+    > [كان معناه علمت ما يطلب استعلامه فلهذا صح وقوع الاستفهام بعد العلم لأنه استعلام ثم حمل الحسبان والظن عليهما لكونهما من بابه ووجه آخر وهو كثرة استعمال أفعال العلم فجعل شأن ليس لغيرها.]{.ar}
+    >
+    > [السادس: أن هذا الحذف الذي قدره في الآية حذف لا يدل عليه سياق فهو مجهول الوضع وكل حذف كان بهذه المنزلة كان تقديره من باب علم الغيب وأما قول يونس بن حبيب فإشكاله ظاهر فإن التعليق إنما يكون في أفعال القلوب نحو العلم والظن والحسبان دون غيرها.]{.ar}
+    >
+    > [ولا يجوز أن تقول ضربت أيهم قام على أن تكون (أيهم) استفهاما وقد علق الفعل عن العمل فيه وأما قول سيبويه فإشكاله أنه بناء خارج عن النظائر ولم يوجد في اللغة شاهد له قال السهيلي ما ذكره سيبويه لو استشهد عليه بشاهد من نظم أو نثر أو وجدنا بعده في كلام فصيح شاهدا له لم نعدل به قولا ولا رأينا لغيره عنه طولا ولكنا لم نجز ما بين لمخالفته غيره لا سيما مثل هذه المخالفة فإنا لا نسلم أنه حذف من الكلام شيء وإن قال: إنه حذف ولا بد والتقدير أيهم هو أخوك فيقال: لم يبنوا في النكرة فيقولون مررت برجل أخوك أو رأيت رجلا أبوك أي هو أخوك وأبوك ولم خصوا أيا هذا دون سائر الأسماء أن يحذف من صلته ثم يبنى للحذف ومتى وجدنا شيئا من الجملة يحذف ثم يبنى الموصوف بالجملة من أجل ذلك الحذف وذلك الحذف لا نجعله متضمنا لمعنى الحرف ولا مضارعا له وهذه علة البناء وقد عدمت في أي قال والمختار قول الخليل ولكنه يحتاج إلى شرح وذلك أنه لم يرد بالحكاية ما يسبق إلى الفهم من تقدير معنى القول ولكنه أراد حكاية لفظ الاستفهام الذي هو أصل في أي كما يحكيه بعد العلم إذا قلت قد علمت من أخوك وأقام زيد أم قعد فقد تركت الكلام على حاله قبل دخول الفعل لبقاء معنى الاختصاص والتعيين في أي الذي كان موجودا فيها وهي استفهام لأن ذلك المعنى هو الذي وضعت له استفهاما كانت أو خبرا كما حكوا لفظ النداء في قولهم اللهم اغفر لي أيها الرجل وارحمنا أيتها العصابة فنحكي لفظ هذا إشعارا بالتعيين والاختصاص الموجود في حال النداء لوجود معنى الاختصاص والتعيين فيه قال وقول يونس: إن الفعل ملغي حق وإن لم يكن من أفعال القلب وعلة إلغائه ما قدمناه من حكاية لفظ الاستفهام للاختصاص فإذا أتممت العلة وقلت ضربت أيهم أخوك. زالت مضارعة الاستفهام وغلب فيه معنى الخبر لوجود الصلة التامة بعده]{.ar}
+    >
+    > [قال وأما قوله تعالى: ﴿وَسَيَعْلَمُ الَّذِينَ ظَلَمُوا أيَّ مُنْقَلَبٍ يَنْقَلِبُونَ﴾ وإجماعهم على أنها منصوبة بـ ﴿ينقلبون﴾ لا بـ ﴿سيعلم﴾ وقد كان يتصور فيها أن تكون منصوبة بـ سيعلم على جهة الاستفهام ولكن تكون موصولة والجملة صلتها والعائد محذوف ولكن منع من هذا أصل أصلناه ودليل أقمناه على أن الاسم الموصول إذا عني به المصدر ووصل بفعل مشتق من ذلك المصدر لم يجز لعدم الفائدة المطلوبة من الصلة وهي إيضاح الموصول وتبيينه والمصدر لا يوضح فعله المشتق من لفظه لأنه كأنه هو لفظا ومعنى إلا في المختلف الأنواع كما تقدم قال ووجه آخر أقوى من هذا وهو أن أيا لا تكون بمعنى الذي حتى تضاف إلى معرفة فتقول لقيت أيهم في الدار إذ من المحال أن يكون بمعنى الذي وهو نكرة والذي لا ينكر وهذا أصل يبنى عليه في (أي).]{.ar}
+
+    From [معانى القآن للفراء]{.ar} for the [tafsIr]{.trn2} of [2:69]:
+
+    > [فأعملْ في " ما " " وأي " الفعلَ الذي بعدَهما، ولا تُعمِل الذي قبلهما إذا كان مُشتقّاً من العِلْم ؛ كقولك : ما أعلم أَيُّهم قال ذاك، ولا أعلمنّ أَيُّهم قال ذاك، وما أدرِى أَيَّهم ضربت، فهو في العِلِم والإخبار والإنْباء وما أشبهها على ما وصفتُ لك. منه قول الله تبارك وتعالى :﴿ وَما أَدْرَاكَ ماهِيَهْ ﴾ ﴿ وَما أَدْرَاكَ ما يَوْمُ الدَّينِ ﴾ " ما " الثانية رفعٌ، فرفعتَها بيوم ؛ كقولك : ما أدراك أي شيء يومُ الدّين، وكذلك قول الله تبارك وتعالى :﴿ لِنَعْلَمَ أي الْحِزْبَيْنِ أَحْصَى ﴾ رفعتَه بأَحْصَى، وتقول إذا كان الفعل واقعا على أي : ما أدرى أَيَّهم ضربت. وإنما امتنعت من أن تُوقع على أي الفعل الذي قبلها من العلم وأشباهه ؛ لأنك تجِدُ الفعلَ غيرَ واقع على أي في المعنى ؛ ألا ترى أنك إذا قلت : اذْهَبْ فاعلم أيُّهما قام أنك تسأل غيرهما عن حالهما فتجد الفعل واقعا على الذي أعلمك، كما أنك تقول : سل أيُّهُمْ قام، والمعنى : سل الناس أيُّهُمْ قام. ولو أوقعت الفعل على " أي " فقلت : اسأل أيَّهُمْ قام لكنت كأنك تضمر أيّاً مرّة أخرى ؛ لأنك تقول : سل زيدا أيُّهُمْ قام، فإذا أوقعت الفعل على زيد فقد جاءت " أي " بعده. فكذلك " أي " إذا أوقعت عليها الفعل خرجت من معنى الاستفهام، وذلك إن أردته، جائز، تقول : لأضْرِبَنَّ أيَّهُم يقول ذاك ؛ لأنّ الضرب لا يقع على [ اسم ثم يأتي بعد ذلك استفهام، وذلك لأن الضرب لا يقع على ] اثنين، وأنتَ تقول في المسألة : سل عبد الله عن كذا، كأنك قلت : سله عن كذا، ولا يجوز ضربت عبد الله كذا وكذا إلا أن تريد صفة الضرب، فأما الأسماء فلا. وقول الله :﴿ ثُمَّ لَنَنْزِعَنّ مِنْ كُلِّ شِيعةٍ أيُّهُم أشَدُّ على الرّحْمَنِ عِتيّاً ﴾ من نصب أيّاً أوقع عليها النزع وليس باستفهام، كأنه قال : ثم لنستخرجن العاتيَ الذي هو أشد. وفيها وجهان من الرفع ؛ أحدهما أن تجعل الفعل مكتفيا بِمن في الوقوع عليها، كما تقول : قد قتلنا من كل قوم، وأصبنا من كل طعام، ثم تستأنف أيّاً فترفعها بالذي بعدها، كما قال جلّ وعزّ :﴿ يَبْتَغُونَ إلى رَبِّهِمُ الْوَسِيلَةَ أيُّهُمْ أَقْرَبُ ﴾ أي ينظرون أيُّهُم أقرب. ومثله ﴿ يُلْقُونَ أقْلاَمَهُمْ أَيُّهُمْ يَكْفُلُ مَرْيَمَ ﴾. وأما الوجه، الآخر فإن في قوله تعالى :﴿ ثم لَنَنْزِعَنّ مِنْ كلِّ شِيعَةٍ ﴾ لننزعن من الذين تشايعوا على هذا، ينظرون بالتشايع أيهم أشدّ وأخبث، وأيهم أشدّ على الرحمن عِتيّاً، والشيعة ويتشايعون سواء في المعنى. وفيه وجه ثالث من الرفع أن تجعل ﴿ ثُمّ لَننْزِعَنَّ مِنْ كُلِّ شِيعَةٍ ﴾ بالنداء ؛ أي لننادين ﴿ أيُّهُمْ أشدُّ على الرّحْمانِ عِتيّاً ﴾ وليس هذا الوجه يريدون. ومثله مما تعرفه به قوله :﴿ أفَلَمْ يَيْأَسِ الَّذِيِنَ آمنَوُا أَنْ لَوْ يشاء اللَّهُ لهَدَى الناس جَميعاً ﴾ فقال بعض المفسرين ﴿ أَفَلَمْ يَيْأَسِ الَّذِينَ آمَنُوا ﴾ : ألم يعلم، والمعنى - والله أعلم - أفلم ييأسوا علما بأن الله لو شاء لهدى الناس جميعا. وكذلك " لَنَنْزِعَنّ " يقول يريد ننزعهم بالنداء.]{.ar}
+ 
+
+<!--chapter:end:srcrmd/questions.Rmd-->
+
 # (APPENDIX) Appendix {-}
 
 
@@ -13646,7 +13941,7 @@ b. If the hamzah carries any other vowel, it is written seated on an [alif]{.trn
 
 #### In the middle of the word
 
-The most general case is when hamzah is in the middle of a word. 
+<!--The most general case is when hamzah is in the middle of a word. -->
 
 Arabic has three short vowels, three long vowels, two semi-vowels, and a zero-vowel indicated by a [0]{.txt}-mark [◌ْ]{.tradar}. Each of these has an order of precedence and a hamzah seat, that we have shown in the table below:
 
@@ -13660,47 +13955,59 @@ Precedence | Vowel | Seated hamzah
 6. | [a]{.trn}            | [أ]{.tradar}
 7. | [◌ْ]{.tradar}         | [ء]{.tradar}
 
-**Main rule:** Disregard any doubling mark [◌ّ]{.tradar}. Consider the vowel on the consonant before the hamzah and the _shortened_ vowel on the hamzah itself. Determine which of the two vowels wins by being higher in precedence in the above table. The winning vowel's seat will be the seat of the hamzah.
+**Main rule:** Disregard any doubling mark [◌ّ]{.tradar}. Consider the vowel on the consonant before the hamzah and the vowel on the hamzah itself. Determine which of the two vowels wins by being higher in precedence in the above table. The winning vowel's seat will be the seat of the hamzah.
 
+**Exception:** If the vowel [A]{.trn} wins, but it is written not as an [alif]{.trn2} but as a [ىٰ]{.tradar}, then the hamzah will be seated on an [alif]{.trn2}.
+
+<!--
 **Sub-rule:** If the main rule determines that hamzah is to be seated on [alif]{.trn2}, and there is a long [A]{.trn} vowel on the hamzah using an [alif]{.trn2}, then hamzah shall be unseated. And the combination of [ءَا]{.tradar} will usually be written as [آ]{.tradar}.
+-->
 
 Examples:
 
-| Word | Vowel on consonant before hamzah | Shortened vowel on hamzah | Winning vowel | Seated hamzah |
+| Word | Vowel before hamzah | Vowel on hamzah | Winning vowel | Seated hamzah |
 |:-----|:-|:-|:-|:------|
 |\vphantom{\huge J} [هَيْءَة]{.tradar} [hayEah]{.trn}     | [ay]{.trn} | [a]{.trn}  | [ay]{.trn} | [ء]{.tradar} |
 |\vphantom{\huge J} [خَطِيءَة]{.tradar} [xaTIEah]{.trn}   | [I]{.trn}  | [a]{.trn}  | [I]{.trn}  | [ء]{.tradar} |
 |\vphantom{\huge J} [اسْتِيءَاس]{.tradar} [EistIEAs]{.trn}| [I]{.trn}  | [a]{.trn}  | [I]{.trn}  | [ء]{.tradar} (Exception: [ءَا]{.tradar} is not written as [آ]{.tradar} when the preceding vowel is [I]{.trn}.)|
 |\vphantom{\huge J} [تَوْءَم]{.tradar} [tawEam]{.trn}     | [aw]{.trn} | [a]{.trn}  | [aw]{.trn} | [ء]{.tradar} |
+|\vphantom{\huge J} [سَوْءَة]{.tradar} [sawEah]{.trn}     | [aw]{.trn} | [a]{.trn}  | [aw]{.trn} | [ء]{.tradar} |
+|\vphantom{\huge J} [مَوْئِل]{.tradar} [mawEil]{.trn}     | [aw]{.trn} | [i]{.trn}  | [i]{.trn} | [ئ]{.tradar} |
 |\vphantom{\huge J} [سَائِل]{.tradar} [sAEil]{.trn}      | [A]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [تَسَاؤُل]{.tradar} [tasAEul]{.trn}   | [A]{.trn}  | [u]{.trn}  | [u]{.trn}  | [ؤ]{.tradar} |
 |\vphantom{\huge J} [تَسَاءَلَ]{.tradar} [tasAEala]{.trn}  | [A]{.trn}  | [a]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
-|\vphantom{\huge J} [قِرَاءَات]{.tradar} [qirAEAt]{.trn}  | [A]{.trn}  | [a]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
-|\vphantom{\huge J} [نُوآنٌ]{.tradar} [nUEAnun]{.trn}    | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.tradar} |
-|\vphantom{\huge J} [مَسْؤُول]{.tradar} [masEUl]{.trn}    | [◌ْ]{.tradar}   | [u]{.trn}  | [u]{.trn}  | [ؤ]{.tradar} |
-|\vphantom{\huge J} [تَرْئِيس]{.tradar} [tarEIs]{.trn}    | [◌ْ]{.tradar}   | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
-|\vphantom{\huge J} [مِرْآة]{.tradar} [mirEAh]{.trn}     | [◌ْ]{.tradar}   | [a]{.trn}  | [a]{.trn}  | [ء]{.tradar} (Using sub-rule.)|
-|\vphantom{\huge J} [ظَمْآن]{.tradar} [PamEAn]{.trn}     | [◌ْ]{.tradar}   | [a]{.trn}  | [a]{.trn}  | [ء]{.tradar} (Using sub-rule.)|
+|\vphantom{\huge J} [قِرَاءَات]{.tradar} [qirAEAt]{.trn}  | [A]{.trn}  | [A]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [نُوآنٌ]{.tradar} [nUEAnun]{.trn}    | [U]{.trn}  | [A]{.trn} | [U]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [مَسْءُول]{.tradar} [masEUl]{.trn}    | [◌ْ]{.tradar}   | [U]{.trn}  | [U]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [تَرْءِيس]{.tradar} [tarEIs]{.trn}    | [◌ْ]{.tradar}   | [I]{.trn}  | [I]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [مِرْآة]{.tradar} [mirEAh]{.trn}     | [◌ْ]{.tradar}   | [A]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [ظَمْآن]{.tradar} [PamEAn]{.trn}     | [◌ْ]{.tradar}   | [A]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
 |\vphantom{\huge J} [مَسْأَلَة]{.tradar} [masEalah]{.trn}  | [◌ْ]{.tradar}   | [a]{.trn}  | [a]{.trn}  | [أ]{.tradar} |
 |\vphantom{\huge J} [الْمَرْأَة]{.tradar} [almarEah]{.trn} | [◌ْ]{.tradar}   | [a]{.trn}  | [a]{.trn}  | [أ]{.tradar} |
+|\vphantom{\huge J} [أَسْئِلَة]{.tradar} [EasEilah]{.trn}  | [◌ْ]{.tradar}   | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
+|\vphantom{\huge J} [أَفْئِدَة]{.tradar} [EafEidah]{.trn}  | [◌ْ]{.tradar}   | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [بِئْسَ]{.tradar} [biEsa]{.trn}       | [i]{.trn}  | [◌ْ]{.tradar}   | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [سُؤْل]{.tradar} [suEl]{.trn}        | [u]{.trn}  | [◌ْ]{.tradar}   | [u]{.trn}  | [ؤ]{.tradar} |
 |\vphantom{\huge J} [كَأْس]{.tradar} [kaEs]{.trn}        | [a]{.trn}  | [◌ْ]{.tradar}   | [a]{.trn}  | [أ]{.tradar} |
 |\vphantom{\huge J} [سُئِلَ]{.tradar} [suEila]{.trn}      | [u]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [يَئِسَ]{.tradar} [yaEisa]{.trn}      | [a]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
-|\vphantom{\huge J} [رَئِيس]{.tradar} [raEIs]{.trn}      | [a]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
-|\vphantom{\huge J} [سُؤَال]{.tradar} [suEAl]{.trn}      | [u]{.trn}  | [a]{.trn}  | [u]{.trn}  | [ؤ]{.tradar} |
-|\vphantom{\huge J} [رُؤُوس]{.tradar} [ruEUs]{.trn}      | [u]{.trn}  | [u]{.trn}  | [u]{.trn}  | [ؤ]{.tradar} |
+|\vphantom{\huge J} [مُطْمَئِنّ]{.tradar} [muTmaEinn]{.trn} | [a]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
+|\vphantom{\huge J} [سُؤَال]{.tradar} [suEAl]{.trn}      | [u]{.trn}  | [A]{.trn}  | [u]{.trn}  | [ؤ]{.tradar} |
+|\vphantom{\huge J} [رَءِيس]{.tradar} [raEIs]{.trn}      | [a]{.trn}  | [I]{.trn}  | [I]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [رُءُوس]{.tradar} [ruEUs]{.trn}      | [u]{.trn}  | [U]{.trn}  | [U]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [شُءُون]{.tradar} [cuEUn]{.trn}      | [u]{.trn}  | [U]{.trn}  | [U]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [رَءُوف]{.tradar} [raEUf]{.trn}      | [a]{.trn}  | [U]{.trn}  | [U]{.trn}  | [ء]{.tradar} |
 |\vphantom{\huge J} [لُؤَيّ]{.tradar} [luEayy]{.trn}      | [u]{.trn}  | [a]{.trn}  | [u]{.trn}  | [ؤ]{.tradar} |
-|\vphantom{\huge J} [شَنَآن]{.tradar} [canaEAn]{.trn}    | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [ء]{.tradar} (Using sub-rule.)|
+|\vphantom{\huge J} [شَنَآن]{.tradar} [canaEAn]{.trn}    | [a]{.trn}  | [A]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
 |\vphantom{\huge J} [سَأَلَ]{.tradar} [saEala]{.trn}      | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [أ]{.tradar} |
-|\vphantom{\huge J} [رَأَىٰ]{.tradar} [raEA]{.trn}        | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [أ]{.tradar} (Sub-rule doesn't apply because [A]{.trn} vowel at end represented by [ىٰ]{.tradar}, not [alif]{.trn2}.)|
 |\vphantom{\huge J} [رَأَّسَ]{.tradar} [raEEasa]{.trn}     | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [أ]{.tradar} |
+|\vphantom{\huge J} [سَيِّئَة]{.tradar} [sayyiEah]{.trn}   | [i]{.trn}  | [a]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [يُرَئِّسُ]{.tradar} [yuraEEisu]{.trn}  | [a]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [رُئِّسَ]{.tradar} [ruEEisa]{.trn}     | [u]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [تَفَؤُّل]{.tradar} [tafaEEul]{.trn}   | [a]{.trn}  | [u]{.trn}  | [u]{.trn}  | [ؤ]{.tradar} |
-|\vphantom{\huge J} [سَءَّال]{.tradar} [saEEAl]{.trn}     | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [ء]{.tradar} (Using sub-rule.)|
-|\vphantom{\huge J} [لَءَّال]{.tradar} [laEEAl]{.trn}     | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [ء]{.tradar} (Using sub-rule.)|
+|\vphantom{\huge J} [سَءَّال]{.tradar} [saEEAl]{.trn}     | [a]{.trn}  | [A]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [لَءَّال]{.tradar} [laEEAl]{.trn}     | [a]{.trn}  | [A]{.trn}  | [A]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [رَأَىٰ]{.tradar} [raEA]{.trn}        | [a]{.trn}  | [A]{.trn}  | [A]{.trn}  | [أ]{.tradar} (using exception) |
 
 #### At the end of the word
 
@@ -13750,29 +14057,45 @@ Examples:
 
 | Word | Vowel on consonant before hamzah | Shortened vowel on hamzah | Winning vowel | Seated hamzah |
 |:-----|:-|:-|:-|:------|
-|\vphantom{\huge J} [بَرِيءُونَ]{.tradar} [barIEUna]{.trn}     | [I]{.trn}  | [u]{.trn} | [I]{.trn}   | [ء]{.tradar} |
-|\vphantom{\huge J} [بَرِيءَانِ]{.tradar} [barIEAni]{.trn}     | [I]{.trn}  | [a]{.trn} | [I]{.trn}   | [ء]{.tradar} |
-|\vphantom{\huge J} [بَرِيءِينَ]{.tradar} [barIEIna]{.trn}     | [I]{.trn}  | [i]{.trn} | [I]{.trn}   | [ء]{.tradar} |
-|\vphantom{\huge J} [بَرِيءَيْنِ]{.tradar} [barIEayni]{.trn}    | [I]{.trn}  | [a]{.trn} | [I]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [بَرِيءُونَ]{.tradar} [barIEUna]{.trn}     | [I]{.trn}  | [U]{.trn} | [I]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [بَرِيءَانِ]{.tradar} [barIEAni]{.trn}     | [I]{.trn}  | [A]{.trn} | [I]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [بَرِيءِينَ]{.tradar} [barIEIna]{.trn}     | [I]{.trn}  | [I]{.trn} | [I]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [بَرِيءَيْنِ]{.tradar} [barIEayni]{.trn}    | [I]{.trn}  | [ay]{.trn}| [I/ay]{.trn}| [ء]{.tradar} |
+|\vphantom{\huge J} [سِيءَتْ]{.tradar} [sIEat]{.trn}          | [I]{.trn}  | [a]{.trn} | [I]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [شَيْءُهُ]{.tradar} [cayEuhu]{.trn}        | [ay]{.trn} | [u]{.trn} | [ay]{.trn}  | [ء]{.tradar} |
 |\vphantom{\huge J} [شَيْءَهُ]{.tradar} [cayEahu]{.trn}        | [ay]{.trn} | [a]{.trn} | [ay]{.trn}  | [ء]{.tradar} |
 |\vphantom{\huge J} [شَيْءِهِ]{.tradar} [cayEihi]{.trn}        | [ay]{.trn} | [i]{.trn} | [ay]{.trn}  | [ء]{.tradar} |
-|\vphantom{\huge J} [شَيْءَانِ]{.tradar} [cayEAni]{.trn}       | [ay]{.trn} | [a]{.trn} | [ay]{.trn}  | [ء]{.tradar} |
-|\vphantom{\huge J} [شَيْءَيْنِ]{.tradar} [cayEayni]{.trn}      | [ay]{.trn} | [a]{.trn} | [ay]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [شَيْءَانِ]{.tradar} [cayEAni]{.trn}       | [ay]{.trn} | [A]{.trn} | [ay]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [شَيْءَيْنِ]{.tradar} [cayEayni]{.trn}      | [ay]{.trn} | [ay]{.trn} | [ay]{.trn} | [ء]{.tradar} |
 |\vphantom{\huge J} [مَجِيءُهُ]{.tradar} [majIEuhu]{.trn}      | [I]{.trn}  | [u]{.trn} | [I]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [مَجِيءَهُ]{.tradar} [majIEahu]{.trn}      | [I]{.trn}  | [a]{.trn} | [I]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [مَجِيءِهِ]{.tradar} [majIEihi]{.trn}      | [I]{.trn}  | [i]{.trn} | [I]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [سُوئِهِ]{.tradar} [sUEihi]{.trn}         | [U]{.trn}  | [i]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
 |\vphantom{\huge J} [ضَوْئِهِ]{.tradar} [DawEihi]{.trn}        | [aw]{.trn} | [i]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
-|\vphantom{\huge J} [يَسُوءُونَ]{.tradar} [yasUEUna]{.trn}     | [U]{.trn}  | [u]{.trn} | [U]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [يَسُوءُونَ]{.tradar} [yasUEUna]{.trn}     | [U]{.trn}  | [U]{.trn} | [U]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [سُوءُهُ]{.tradar} [sUEuhu]{.trn}         | [U]{.trn}  | [u]{.trn} | [U]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [سُوءَهُ]{.tradar} [sUEahu]{.trn}         | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.tradar} |
-|\vphantom{\huge J} [سُوءَانِ]{.tradar} [sUEAni]{.trn}        | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [سُوءَانِ]{.tradar} [sUEAni]{.trn}        | [U]{.trn}  | [A]{.trn} | [U]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [ضَوْءَهُ]{.tradar} [DawEahu]{.trn}        | [aw]{.trn} | [a]{.trn} | [aw]{.trn}  | [ء]{.tradar} |
-|\vphantom{\huge J} [ضَوْءَانِ]{.tradar} [DawEAni]{.trn}       | [aw]{.trn} | [a]{.trn} | [aw]{.trn}  | [ء]{.tradar} |
-|\vphantom{\huge J} [مُتَّكِئِينَ]{.tradar} [muttakiEIna]{.trn}  | [i]{.trn}  | [i]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
-|\vphantom{\huge J} [يُبَرِّئُونَ]{.tradar} [yubarriEUna]{.trn}  | [i]{.trn}  | [u]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
-|\vphantom{\huge J} [يُبَرَّؤُونَ]{.tradar} [yubarraEUna]{.trn}  | [a]{.trn}  | [u]{.trn} | [u]{.trn}   | [ؤ]{.tradar} |
+|\vphantom{\huge J} [ضَوْءَانِ]{.tradar} [DawEAni]{.trn}       | [aw]{.trn} | [A]{.trn} | [aw]{.trn}  | [ء]{.tradar} |
+|\vphantom{\huge J} [مُرْجَءَلت]{.tradar} [murjaEAt]{.trn}     | [a]{.trn}  | [A]{.trn} | [A]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [خَاطِءِين]{.tradar} [xATiEIn]{.trn}      | [i]{.trn}  | [I]{.trn} | [I]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [خَاسِءِين]{.tradar} [xAsiEIn]{.trn}      | [i]{.trn}  | [I]{.trn} | [I]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [مُتَّكِءِينَ]{.tradar} [muttakiEIna]{.trn}  | [i]{.trn}  | [I]{.trn} | [I]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [مُتَّكِءُونَ]{.tradar} [muttakiEUna]{.trn}  | [i]{.trn}  | [U]{.trn} | [U]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [يُبَرِّئُونَ]{.tradar} [yubarriEUna]{.trn}  | [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [يُبَرَّءُونَ]{.tradar} [yubarraEUna]{.trn}  | [a]{.trn}  | [U]{.trn} | [U]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [ٱقْرَءُوا]{.tradar} [iqraEU]{.trn}       | [a]{.trn}  | [U]{.trn} | [U]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [سَيِّئَات]{.tradar} [sayyiEAt]{.trn}      | [i]{.trn}  | [A]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [فِئَات]{.tradar} [fiEAt]{.trn}          | [i]{.trn}  | [A]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [فِئُون]{.tradar} [fiEUn]{.trn}          | [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [مِئَات]{.tradar} [miEAt]{.trn}          | [i]{.trn}  | [A]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [مِئُون]{.tradar} [miEUn]{.trn}          | [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [يُطْفِئُوا]{.tradar} [yuTfiEU]{.trn}      | [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [مُسْتَهْزِئُون]{.tradar} [mustahziEUn]{.trn}| [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [مُنْشِئُون]{.tradar} [munciEUn]{.trn}     | [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [يُضَاهِئُونَ]{.tradar} [yuDAhiEUna]{.trn}  | [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
+|\vphantom{\huge J} [مُرْجِئُون]{.tradar} [murjiEUn]{.trn}     | [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
 
 There are some exceptions:
 
@@ -13815,22 +14138,41 @@ Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [alif
 
 There are some historical and regional variants to the above rules. The main one is when the letter before hamzah has a [0]{.txt}-mark, the hamzah is generally written unseated. So with this variant, we write:
 
-+ \vphantom{\huge J} [مَسْءُول]{.tradar} instead of [مَسْؤُول]{.tradar}
-+ \vphantom{\huge J} [أَسْءِلَة]{.tradar} instead of [أَسْئِلَة]{.tradar}
 + \vphantom{\huge J} [مَسْءَلَة]{.tradar} instead of [مَسْأَلَة]{.tradar}
 
 However, this rule appears to be not consistently followed. For example, [nacEah]{.trn} is generally always written [نَشْأَة]{.tradar} never [نَشْءَة]{.tradar}.
 
+<!--
 A second variant is to avoid the repetition of vowel letters like [و]{.tradar} and [ي]{.tradar}. So they write:
 
 + \vphantom{\huge J} [رُءُوس]{.tradar} instead of [رُؤُوس]{.tradar}.
 + \vphantom{\huge J} [رَءِيس]{.tradar} instead of [رَئِيس]{.tradar}.
+-->
+
+Another variant is that when word final hamzah has an [i]{.trn}-mark and is followed by a suffix starting with [U]{.trn}, then the hamzah is written unseated instead of as [ئ]{.ar}. Examples:
+
++ \vphantom{\huge J} [يُطْفِءُوا]{.tradar} [yuTfiEU]{.trn}      instead of [يُطْفِئُوا]{.tradar} 
++ \vphantom{\huge J} [مُسْتَهْزِءُون]{.tradar} [mustahziEUn]{.trn}instead of [مُسْتَهْزِئُون]{.tradar}
++ \vphantom{\huge J} [مُنْشِءُون]{.tradar} [munciEUn]{.trn}     instead of [مُنْشِئُون]{.tradar} 
++ \vphantom{\huge J} [يُضَاهِءُونَ]{.tradar} [yuDAhiEUna]{.trn}   instead of [يُضَاهِئُونَ]{.tradar} 
++ \vphantom{\huge J} [مُرْجِءُون]{.tradar} [murjiEUn]{.trn}   instead of [مُرْجِئُون]{.tradar} 
+
+Excepted from this variant are deficient words like:
+
++ \vphantom{\huge J} [فِئُون]{.tradar} [fiEUn]{.trn}          
++ \vphantom{\huge J} [مِئُون]{.tradar} [miEUn]{.trn}          
+
+Another, more modern, variant is to modify the precedence rule of vowels. According to this modern variant, the vowel before hamzah is compared with the _shortened_ vowel on the hamzah. This results in some changes in the hamzah seat. For example:
+
++ \vphantom{\huge J} [مَسْؤُول]{.tradar} instead of [مَسْءُول]{.tradar}
++ \vphantom{\huge J} [رُؤُوس]{.tradar} instead of [رُءُوس]{.tradar}
+
+Excepted from this variant is the combination [aEA]{.ar} which will continue to be written as [ـَءَا]{.ar} or [ـَآ]{.ar}. For example: [شَنَآن]{.tradar}, [مُرْجَءَات]{.tradar}.
 
 ## Why so complicated?
 
 Hamzah was originally not pronounced everywhere in some Classical Arabic dialects. 
-So, for many words, speakers of these dialects would typically only pronounce hamzah in the beginning of a word.
-When hamzah would occur in the middle of a word, they would replace it with an [a]{.trn}, [u]{.trn}, or [i]{.trn} vowel.
+For speakers of these dialects, when hamzah would occur in the middle of a word, they would replace it with an [a]{.trn}, [u]{.trn}, or [i]{.trn} vowel.
 So they would adjust their pronunciation as follows:
 
 |Proununciation with hamzah | Proununciation without hamzah

@@ -96,8 +96,9 @@
 \usepackage{fancyhdr}
 \usepackage{enotez}
 
-\setenotez{reset=false,totoc=chapter,split=chapter,list-heading={\chapter*{#1}\markboth{\textsc{\MakeLowercase{#1}}}{\textsc{\MakeLowercase{#1}}}}} 
+\setenotez{reset=false,totoc=chapter,split=chapter,backref=true,list-heading={\chapter*{#1}\markboth{\textsc{\MakeLowercase{#1}}}{\textsc{\MakeLowercase{#1}}}}} 
 % reset=true resets counter for every chapter, which would mismatch with HTML output
+% list-heading option sets the page header
 \let\footnote=\endnote
 
 % To use New Computer Modern font, uncomment following two lines only
@@ -265,7 +266,7 @@
 \title{A Learner's Grammar of\\
 Classical Standard Arabic}
 \author{Author Names}
-\date{v0.1.0-894-gfdf3baf}
+\date{v0.1.0-904-gbecf3bf}
 
 \begin{document}
 \maketitle
@@ -12670,789 +12671,9 @@ In such cases, i.e., when applicable to humans, the dictionary will generally on
 
 There are exceptions, however. The verb \foreignlanguage{arabic}{جَرَىٰ يَجْرِي جَرْيًا} \emph{jarā yajrī jaryan} \enquote{to run} is formed from the root \foreignlanguage{arabic}{«جري»}. This is a weak root because of the letter \foreignlanguage{arabic}{ي} in it, and we will study it in more detail later in chapter~\ref{roots-with-weak-final-letter}. In any case, its feminine doer verbal-noun is \foreignlanguage{arabic}{جَارِيَة} \emph{jāriyah} and is re-used for the common noun meaning \enquote{a girl}. The masculine doer verbal noun is not re-used as a common noun for the meaning \enquote{a boy}.
 
-\chapter{The connected noun}\label{the-connected-noun}
-
-\section{Introduction}\label{introduction-21}
-
-Consider the sentence:
-
-\foreignlanguage{arabic}{رَأَيْتُ ٱلرَّجُلَ.}\\
-\enquote{I saw the man.}
-
-If the listener (or reader) can identify
-the individual referred to by the noun \enquote{the man}
-(maybe from a pre-existing mutual understanding with the speaker),
-then there is no problem with this sentence.
-But often, further clarification is needed for the listener to correctly identify the individual to whom the speaker is referring.
-This further clarification can be provided in a number of ways.
-
-One way is to use an adjectival noun to describe the noun. For example:
-
-\foreignlanguage{arabic}{رَأَيْتُ ٱلرَّجُلَ ٱلطَّوِيلَ.}\\
-\enquote{I saw the \emph{tall} man.}
-
-Another way is to use a pointing noun, thus:
-
-\foreignlanguage{arabic}{رَأَيْتُ ذَ~ٰلِکَ ٱلرَّجُلَ.}\\
-\enquote{I saw \emph{that} man.}
-
-But sometimes, a whole sentence is needed to provide the needed identification.
-In this case, Arabic uses what is called a \emph{connected noun} and a \emph{connector}.
-This example should help you understand what we mean:
-
-\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-34-1.pdf}}
-
-In the above sentence, the connected noun is \foreignlanguage{arabic}{ٱَلَّذِي} \emph{ʾallad͡hī}.
-It is applied to singular masculine nouns, like \foreignlanguage{arabic}{ٱلرَّجُل}.
-By itself it may be translated as \enquote{the one\textsubscript{1m} that/which/who/whom}.
-It is called a connected noun because it must be directly followed by a qualifying sentence that connects to it.
-
-The qualifying sentence is called the connector and it contains the necessary information for the listener to correctly identify the individual intended by the speaker.''
-The connector in the above example is the sentence \foreignlanguage{arabic}{لَقِيتُهُ بِٱلْأَمْسِ} \enquote{I met him yesterday.}
-
-Note by the way, that we did not translate the pronoun \enquote{him} in our original translation (above).
-This is because it would sound unnatural in English to say: \enquote{I saw the {[}specific{]} man (whom) I met \emph{him} yesterday.}
-But this pronoun is an essential part of the Arabic connector and is called the \emph{link-back pronoun}.
-We will deal with it in section~\ref{link-back-pronoun} later in this chapter.
-
-There are two types of connected nouns:
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  The specific connected nouns
-\item
-  The general connected nouns
-\end{enumerate}
-
-We will study both these types separately within this chapter.
-
-\section{The specific connected nouns}\label{the-specific-connected-nouns}
-
-The specific connected nouns have a significance which is restricted to a specific individual or category of individuals,
-and its connector should contain sufficient information to identify that specific individual.
-
-The specific connected nouns is a group of nouns where each noun is applied to a gender and number of individuals. They are:
-
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.1500}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.8500}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Connected noun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Description
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-\foreignlanguage{arabic}{ٱَلَّذِي} \emph{ʾallad͡hī} & Singular masculine. For both intelligent and non-intelligent beings. Rigid. Only one \foreignlanguage{arabic}{ل} in its spelling. \\
-\foreignlanguage{arabic}{ٱَلَّتِي} \emph{ʾallatī} & Singular feminine. For both intelligent and non-intelligent beings. Also used for plural non-intelligent beings of both genders. Rigid. Only one \foreignlanguage{arabic}{ل} in its spelling. \\
-\foreignlanguage{arabic}{ٱَللَّذَانِ} \emph{ʾallad͡hānī} & Dual masculine. For both intelligent and non-intelligent beings. Flexible: \foreignlanguage{arabic}{ٱَللَّذَيْنِ} \emph{ʾallad͡hayni} in the a- and i-states. Two \foreignlanguage{arabic}{ل}'s in its spelling. \\
-\foreignlanguage{arabic}{ٱَللَّتَانِ} \emph{ʾallatānī} & Dual feminine. For both intelligent and non-intelligent beings. Flexible: \foreignlanguage{arabic}{ٱَللَّتَيْنِ} \emph{ʾallatayni} in the a- and i-states. Two \foreignlanguage{arabic}{ل}'s in its spelling. \\
-\foreignlanguage{arabic}{ٱَلَّذِينَ} \emph{ʾallad͡hīna} & Plural masculine. For both intelligent beings. Rigid. Only one \foreignlanguage{arabic}{ل} in its spelling. \\
-\foreignlanguage{arabic}{ٱَللَّاتِي} \emph{ʾallātī} & For plural feminine intelligent beings. Also used for non-intelligent beings of both genders but \foreignlanguage{arabic}{ٱَلَّتِي} is more common there. Rigid. Two \foreignlanguage{arabic}{ل}'s in its spelling. Has the following variants: \foreignlanguage{arabic}{ٱَللَّاتِ} \emph{ʾallāti}, \foreignlanguage{arabic}{ٱَللَّائِي} \emph{ʾallāʾī}, \foreignlanguage{arabic}{ٱَللَّوَاتِي} \emph{ʾallawātī} \\
-\end{longtable}
-
-\subsection{Grammatical position of the specific connected noun}\label{grammatical-position-of-the-specific-connected-noun}
-
-Consider again the same example:
-
-\foreignlanguage{arabic}{رَأَيْتُ ٱلرَّجُلَ ٱلَّذِي لَقِيتُهُ بِٱلْأَمْسِ.}\\
-\enquote{I saw the {[}specific{]} man whom I met yesterday.}
-
-In this example, the connected noun
-\foreignlanguage{arabic}{ٱَلَّذِي} \emph{ʾallad͡hī}
-is a describer (in the a-state) to the described noun
-\foreignlanguage{arabic}{ٱلرَّجُلَ}.
-Because
-\foreignlanguage{arabic}{ٱَلَّذِي}
-is a rigid noun, it will appear the same in all states without any change to its ending.
-
-As a describer, the connected noun may also come as the last in a series of describers, and can also be combined with a pointing noun.
-For example:
-
-\foreignlanguage{arabic}{رَأَيْتُ ذَ~ٰلِکَ ٱلرَّجُلَ ٱلطَّوِيلَ ٱلَّذِي لَقِيتُهُ بِٱلْأَمْسِ.}\\
-\enquote{I saw that {[}specific{]} tall man whom I met yesterday.}
-
-But connected nouns need not only occur as describers.
-They may occur in various grammatical positions.
-Here are some examples:
-
-As a subject:
-
-\foreignlanguage{arabic}{وَالَّذِينَ يَکْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ وَلَا يُنْفِقُونَهَا فِي سَبِيلِ ٱللَّـٰهِ فَبَشِّرْهُمْ بِعَذَابٍ أَلِيمٍ}\\
-\enquote{And those who hoard gold and silver and spend it not in the way of Allāh - give them tidings of a painful punishment.}\\
-9:34
-
-As an information:
-
-\foreignlanguage{arabic}{خِيَارُ أَئِمَّتِکُمُ الَّذِينَ تُحِبُّونَهُمْ وَيُحِبُّونَکُمْ}\\
-\enquote{The best of your rulers are the ones whom you love and who love you}
-{[}Ṣaḥīḥ Muslim:1855{]}
-
-\foreignlanguage{arabic}{هُنَّ اللَّوَاتِي عَلَى الْمِنْبَرِ}\\
-\enquote{They are the ones which (are) on the pulpit.}\\
-{[}Sunan al-Dārimī:36{]}
-
-As a doer:
-
-\foreignlanguage{arabic}{قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.}\\
-\enquote{The {[}specific{]} one (thing) that you said has reached us.}
-
-As a doee:
-
-\foreignlanguage{arabic}{رَبَّنَا أَرِنَا ٱللَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنْسِ}\\
-\enquote{Our Lord, show us those who misled us of the jinn and men}\\
-41:29
-
-Following a preposition:
-
-\foreignlanguage{arabic}{أَوْ کَٱلَّذِي مَرَّ عَلَىٰ قَرْيَةٍ}\\
-\enquote{Or {[}consider such an example{]} as the one who passed by a township}\\
-2:259
-
-As a base noun in an annexation:
-
-\foreignlanguage{arabic}{قَدْ سَمِعَ ٱللَّـٰهُ قَوْلَ ٱلَّتِي تُجَادِلُکَ فِي زَوْجِهَا}\\
-\enquote{Certainly has Allāh heard the speech of the one who argues {[}i.e., pleads{]} with you, {[}O Muḥammad{]}}\\
-58:1
-
-\section{The connector and the link-back pronoun}\label{link-back-pronoun}
-
-The connector is (typically) a sentence that directly follows the connected noun.
-As we mentioned in the introduction,
-the connector provides clarifying information for the listener (or reader) to identify the individual referred to by the connected noun.
-
-In the connector is a pronoun that refers back to the connected noun.
-This pronoun is called the \emph{link-back pronoun}.
-and it is an essential (though not always apparent) part of the connector.
-
-Let us identify some of the link-back pronouns in the examples we have given.
-
-\foreignlanguage{arabic}{وَالَّذِينَ يَکْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ}\\
-\enquote{And those who hoard gold and silver}\\
-Link-back pronoun: the plural masculine doer pronoun \foreignlanguage{arabic}{و} in \foreignlanguage{arabic}{يَکْنِزُونَ}
-
-\foreignlanguage{arabic}{خِيَارُ أَئِمَّتِکُمُ الَّذِينَ تُحِبُّونَهُمْ}\\
-\enquote{The best of your rulers are the ones whom you love and who love you}\\
-Link-back pronoun: the plural masculine doee attached pronoun \foreignlanguage{arabic}{هُمْ} in \foreignlanguage{arabic}{تُحِبُّونَهُمْ}
-
-\foreignlanguage{arabic}{قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.}\\
-\enquote{The {[}specific{]} one (thing) that you said has reached us.}\\
-Link-back pronoun: the singular masculine doee attached pronoun \foreignlanguage{arabic}{هُ} in \foreignlanguage{arabic}{قُلْتُمُوهُ}
-
-\foreignlanguage{arabic}{رَبَّنَا أَرِنَا ٱللَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنْسِ}\\
-\enquote{Our Lord, show us those who misled us of the jinn and men}\\
-Link-back pronoun: the dual masculine doer pronoun \foreignlanguage{arabic}{ا} in \foreignlanguage{arabic}{أَضَلَّانَا}
-
-\foreignlanguage{arabic}{أَوْ کَٱلَّذِي مَرَّ عَلَىٰ قَرْيَةٍ}\\
-\enquote{Or {[}consider such an example{]} as the one who passed by a township}\\
-Link-back pronoun: the implied singular masculine doer pronoun \enquote{he} in \foreignlanguage{arabic}{مَرَّ}
-
-\foreignlanguage{arabic}{قَدْ سَمِعَ ٱللَّـٰهُ قَوْلَ ٱلَّتِي تُجَادِلُکَ فِي زَوْجِهَا}\\
-\enquote{Certainly has Allāh heard the speech of the one who argues {[}i.e., pleads{]} with you, {[}O Muḥammad{]}}\\
-Link-back pronoun: the implied singular feminine doer pronoun \enquote{she} in \foreignlanguage{arabic}{تُجَادِلُکَ}
-
-\subsection{Matching the link-back pronoun with the connected noun}\label{matching-the-link-back-pronoun-with-the-connected-noun}
-
-The link-back pronoun matches the specific connected noun in gender and number.
-And the link-back pronoun is generally an absent-person pronoun (\foreignlanguage{arabic}{هُ}, \foreignlanguage{arabic}{هَا}, \foreignlanguage{arabic}{هُوَ}, \foreignlanguage{arabic}{هُمْ}, etc.).
-For example, in the sentence,
-\foreignlanguage{arabic}{وَالَّذِينَ يَکْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ}
-\enquote{And those who hoard gold and silver,}
-the link-back pronoun is the plural masculine absent-person doer pronoun \foreignlanguage{arabic}{و} \enquote{they} in \foreignlanguage{arabic}{يَکْنِزُونَ} \enquote{they hoard}.
-And it matches the plural masculine connected noun \foreignlanguage{arabic}{ٱلَّذِينَ}.
-
-However, there is an exception to the link-back pronoun being an absent-person pronoun.
-And that is when the connected noun refers to the speaker or the addressed person, like
-\foreignlanguage{arabic}{أَنَا ٱلَّذِي}, or \foreignlanguage{arabic}{أَنْتُمُ ٱلَّذِينَ}, etc.
-In these cases, the link-back pronoun may optionally:
-
-\begin{enumerate}
-\def\labelenumi{\roman{enumi}.}
-\tightlist
-\item
-  either be an absent-person pronoun to match the connected noun (as usual),
-\item
-  or match the pronoun for the speaker or addressed person (as the case may be)
-\end{enumerate}
-
-The latter is generally more common but both options are permissible.
-For example:
-
-\foreignlanguage{arabic}{أَنَا ٱلَّذِي حَضَرْتُ.}\\
-Link-back pronoun: the singular masculine doer pronoun for the speaker \foreignlanguage{arabic}{تُ} in \foreignlanguage{arabic}{حَضَرْتُ}\\
-or\\
-\foreignlanguage{arabic}{أَنَا ٱلَّذِي حَضَرَ.}\\
-Link-back pronoun: the implied singular masculine doer pronoun for the absent person \enquote{he} in \foreignlanguage{arabic}{حَضَرَ}\\
-\enquote{I am the one (who) was present.}
-
-Here are some examples from Classical Arabic:
-
-\foreignlanguage{arabic}{أَنَا ٱلَّذِي سَمَّتْنِ أُمِّي حَيْدَرَهْ}\\
-\enquote{I am the one whom my mother named Ḥaydarah}\\
-(The link-back pronoun is the speaker person's doee pronoun in \foreignlanguage{arabic}{سَمَّتْنِ}, which is an abbreviation of \foreignlanguage{arabic}{سَمَّتْنِي} \enquote{she named me}.)
-
-\foreignlanguage{arabic}{فَقَالَ مُوسَى يَا آدَمُ أَنْتَ الَّذِي خَلَقَکَ اللَّهُ بِيَدِهِ}\\
-\enquote{Mūsā said: O Ādam, you are the one whom Allāh created with His Hand}\\
-tirmidhi:2134\\
-(The link-back pronoun is the addressed person's doee pronoun \foreignlanguage{arabic}{کَ} in \foreignlanguage{arabic}{خَلَقَکَ}.)
-
-There is one circumstance where matching the link-back pronoun to the (absent person) connected-noun is mandated.
-And that is when the connected noun is the called-out person using the particle \foreignlanguage{arabic}{أَيُّهَا} or \foreignlanguage{arabic}{أَيَّتُهَا}.
-For example,
-
-\foreignlanguage{arabic}{يَاأَيُّهَا ٱلَّذِينَ آمَنُوا}\\
-\enquote{O you who have believed}\\
-not\\
-\(\times\) \foreignlanguage{arabic}{يَاأَيُّهَا ٱلَّذِينَ آمَنْتُمْ}
-
-Similarly,
-
-\foreignlanguage{arabic}{يَاأَيُّهَا الَّذِي نُزِّلَ عَلَيْهِ الذِّکْرُ}\\
-\enquote{O you upon whom the message has been sent down}\\
-15:6
-
-\subsection{Omitting the link-back pronoun}\label{omitting-the-link-back-pronoun}
-
-The link-back pronoun is frequently omitted, and its meaning is then implicit, in some cases:
-
-\begin{enumerate}
-\def\labelenumi{(\alph{enumi})}
-\item
-  When the linker pronoun is a detached pronoun which is the u-state subject of a subject-information sentence, whose information is:
-
-  \begin{enumerate}
-  \def\labelenumii{(\roman{enumii})}
-  \item
-    A prepositional phrase. For example:
-
-    \foreignlanguage{arabic}{نَامَ ٱلَّذِي فِي ٱلْغُرْفَةِ.}\\
-    \enquote{The one who (is) in the room has slept.}
-
-    The connector is the incomplete sentence \foreignlanguage{arabic}{فِي ٱلْغُرْفَةِ} \enquote{(is) in the room}.
-    With the link-back pronoun restored, the sentence is
-
-    \foreignlanguage{arabic}{نَامَ ٱلَّذِي هُوَ فِي ٱلْغُرْفَةِ.}
-  \item
-    An adverbial phrase. For example:
-
-    \foreignlanguage{arabic}{تَکَلَّمَ ٱلَّذِي عِنْدَکَ.}\\
-    \enquote{The one who (is) with you spoke.}
-
-    (Remember that \foreignlanguage{arabic}{عِنْدَ} is technically a noun used adverbially, not a preposition.)
-    The connector is the incomplete sentence \foreignlanguage{arabic}{عِنْدَکَ} \enquote{(is) with you}.
-    With the link-back pronoun restored, the sentence is
-
-    \foreignlanguage{arabic}{تَکَلَّمَ ٱلَّذِي هُوَ عِنْدَکَ.}
-  \end{enumerate}
-
-  In such cases, the incomplete sentence connector implcitly includes the meaning of a verb which is usually the verb \enquote{being}, like \enquote{is}, \enquote{are}, \enquote{am}, etc.
-\item
-  When the link-back pronoun is an attached pronoun for the direct doee. For example:
-
-  \foreignlanguage{arabic}{قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمْ.}\\
-  \enquote{The one (thing) that you said has reached us.}
-
-  With the link-back pronoun restored, the sentence is
-
-  \foreignlanguage{arabic}{قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.}
-\item
-  \begin{enumerate}
-  \def\labelenumii{(\roman{enumii})}
-  \item
-    When the link-back pronoun is the base noun in an annexation whose annex noun is a verbal noun of the doer or the doee implying a present or future meaning. For example:
-
-    \foreignlanguage{arabic}{أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلٌ.}\\
-    \enquote{I fear from him the wrong that he will do.}
-
-    With the link-back pronoun restored, the sentence is\\
-    \foreignlanguage{arabic}{أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلُهُ.}
-  \item
-    When the link-back pronoun is attached to a preposition or adverb, and the same preposition or adverb has already been used (with the same meaning) with the connecting noun or its described noun. The preposition/adverb is omitted along with its attached pronoun. For example:
-
-    \foreignlanguage{arabic}{سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ.}\\
-    \enquote{I walked in the (same) garden {[}in{]} which you walked.}
-
-    With the link-back pronoun restored, the sentence is\\
-    \foreignlanguage{arabic}{سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ فِيهَا.}
-
-    \foreignlanguage{arabic}{مَرَرْتُ بِٱلَّذِي مَرَّ سُلَيْمَانُ.}\\
-    \enquote{I passed by the (same) one that Sulaymān did.}
-
-    With the link-back pronoun restored, the sentence is\\
-    \foreignlanguage{arabic}{مَرَرْتُ بِٱلَّذِي مَرَّ بِهِ سُلَيْمَانُ.}
-  \end{enumerate}
-\end{enumerate}
-
-\subsection{Separating the connector from the connected noun}\label{separating-the-connector-from-the-connected-noun}
-
-Generally, the connector directly follows the connected noun, as in all the examples we have given so far.
-However, the connector may be separated from the connected noun by one of the following:
-
-\begin{enumerate}
-\def\labelenumi{\roman{enumi}.}
-\item
-  An oath. For example:
-
-  \foreignlanguage{arabic}{جَاءَ ٱلَّذِي وَٱللَّـٰه قَهَرَ ٱلْأَعْدَاءَ.}\\
-  \enquote{The one who - by Allāh - overpowered the enemies has come.}
-\item
-  A sentence calling out to someone. For example,
-
-  \foreignlanguage{arabic}{أَنْتَ ٱلَّذِي يَا زَيْدُ فَتَحْتَ ٱلْبَابَ.}\\
-  \enquote{You are the one - O Zayd - who opened the door.}
-\item
-  A parenthetical clause, which is a sentence within the main sentence that adds information to it, but which can be omitted without affecting the completeness of the main sentence. For example:
-
-  \foreignlanguage{arabic}{قَدِمَ ٱلَّذِي أَطَالَ ٱللَّـٰهُ عُمْرَهُ أَحْسَنَ إِلَيَّ.}\\
-  \enquote{The one who - may Allah lengthen his age - was good to me has arrived.}
-
-  \foreignlanguage{arabic}{قَدِمَ ٱلَّذِي وَهُوَ مُبْتَسِمٌ أَحْسَنَ إِلَيَّ.}\\
-  \enquote{The one who - and he is smiling - was good to me has arrived.}
-\end{enumerate}
-
-\section{The general connected nouns}\label{the-general-connected-nouns}
-
-The general connected nouns are unrestricted in significance, and may be applied to any individual who fits the criteria given in the connector.
-The two main general connected nouns are:
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  \foreignlanguage{arabic}{مَنْ} \emph{man}. Typically used for intelligent beings and translated as \enquote{who}.
-\item
-  \foreignlanguage{arabic}{مَا} \emph{mā}. Typically used for non-intelligent beings and translated as \enquote{what}.
-\end{enumerate}
-
-There are also some other rarely or dialectally used general connected nouns that we will not cover. These are \foreignlanguage{arabic}{أَيّ} \emph{ʾayy}, \foreignlanguage{arabic}{ذُو} \emph{d͡hū}, and \foreignlanguage{arabic}{ذَا} \emph{d͡hā}.\footnote{Fischer claims (§427):
-
-  \begin{quote}
-  Other interrogatives (§289) are also used as relatives:
-  \foreignlanguage{arabic}{عَرَفَ ٱلْمَکِيدَةَ وَکَيْفَ کَانَ ٱلْمَلِکُ أَوْقَعَهَا}
-  \enquote*{He knew the trick and how the king employed it.}
-  \foreignlanguage{arabic}{وَٱللّٰهِ مَا نُبَالِي أَيْنَ ذَهَبَ}
-  \enquote*{By God, we do not care where he went}; cf.~also §419b.
-  \end{quote}
-
-  However, we have not been able to find the classical grammarians including \foreignlanguage{arabic}{کيف}, \foreignlanguage{arabic}{أين}, etc. among \foreignlanguage{arabic}{الأسماء الموصولة}.
-  To understand how these interrogatives are to be analyzed in such sentences,
-  it may help to look up the \foreignlanguage{arabic}{إعراب} of the verses :
-  \foreignlanguage{arabic}{هُوَ الَّذِي يُصَوِّرُکُمْ فِي الْأَرْحَامِ کَيْفَ يَشَاءُ} {[}3:6{]}, and
-  \foreignlanguage{arabic}{لِيُرِيَهُ کَيْفَ يُوَارِي سَوْءَةَ أَخِيهِ} {[}5:31{]}
-  in linguisitic tafsīrs like
-  \foreignlanguage{arabic}{البحر المحيط لأبي حيان} and
-  \foreignlanguage{arabic}{التحرير والتنوير لابن عاشور}.
-
-  The article \foreignlanguage{arabic}{ٱل} is also generally included among \foreignlanguage{arabic}{الأسماء الموصولة المشترکة}.
-  However, we have deemed it too complicated to cover (and too confusing to even mention in main text).
-  See \foreignlanguage{arabic}{النحو الوافي لعباس حسن} vol.~1, pp.~356--357 for its treatment.}
-
-Unlike the specific connected nouns (\foreignlanguage{arabic}{ٱَلَّذِي}, etc.),
-the general connected nouns do not vary for number and gender.
-
-For example:
-
-\foreignlanguage{arabic}{أُحِبُّّ مَنْ يَعْدِلُ}\\
-\enquote{I love {[}him{]} who is just.}
-
-\foreignlanguage{arabic}{أُحِبُّّ مَنْ يَعْدِلُونَ}\\
-\enquote{I love {[}them{]} who are just.}
-
-\foreignlanguage{arabic}{ٱِصْنَعْ مَا بَدَا لَکَ.}\\
-\enquote{Do what seems (good) to you.}
-
-\foreignlanguage{arabic}{مَرَرْتُ بِمَا يُعْجِبُکَ.}\\
-\enquote{I passed by what will please you.}
-
-\subsection{\texorpdfstring{\foreignlanguage{arabic}{مَنْ} and \foreignlanguage{arabic}{مَا} after prepositions}{مَنْ and مَا after prepositions}}\label{ux645ux646-and-ux645ux627-after-prepositions}
-
-When \foreignlanguage{arabic}{مَنْ} and \foreignlanguage{arabic}{مَا} are directly preceded by the prepositions \foreignlanguage{arabic}{مِنْ} and \foreignlanguage{arabic}{عَنْ}, these prepositions lose their \foreignlanguage{arabic}{ن} and are joined to the following noun with the noun's \foreignlanguage{arabic}{م} doubled.
-For example:
-\foreignlanguage{arabic}{مَمَّنْ} \emph{mimman},
-\foreignlanguage{arabic}{مَمَّا} \emph{mimmā},
-\foreignlanguage{arabic}{عَمَّنْ} \emph{ɛamman},
-\foreignlanguage{arabic}{عَمَّا} \emph{ɛammā}.
-
-The preposition \foreignlanguage{arabic}{فِي} is also often (though not always) optionally attached to these connected nouns, thus: \foreignlanguage{arabic}{فِيمَنْ} \emph{fīman}, \foreignlanguage{arabic}{فِيمَا} \emph{fīmā}.
-
-The remaining prepositions follow the normal rules: \foreignlanguage{arabic}{عَلَى مَا}, \foreignlanguage{arabic}{کَمَنْ}, etc.
-But we will see, if Allāh wills, in chapter~\ref{questions}, that \foreignlanguage{arabic}{مَا} and \foreignlanguage{arabic}{مَنْ} are also used as question nouns, in which case the rules of joining prepositions to them will differ.
-
-\subsection{The link-back pronoun for the general connected nouns}\label{the-link-back-pronoun-for-the-general-connected-nouns}
-
-The general connected nouns
-\foreignlanguage{arabic}{مَنْ}
-and
-\foreignlanguage{arabic}{مَا}
-are themselves singular masculine in number and gender.
-However, they can be used to signify persons or things of any number and gender.
-
-Their link-back pronouns can then, optionally:
-
-\begin{enumerate}
-\def\labelenumi{\roman{enumi}.}
-\item
-  Either match the gender and number of the persons or things meant by the connected noun. For example:
-
-  \foreignlanguage{arabic}{وَمِنْهُمْ مَنْ يَسْتَمِعُونَ إِلَيْکَ}\\
-  \enquote{And among them are those who listen to you}\\
-  10:42
-
-  \foreignlanguage{arabic}{قَدْ خَابَتْ مَنْ فَعَلَتْ ذَلِکَ مِنْهُنَّ وَخَسِرَتْ}\\
-  \enquote{She has thwarted herself, whoever did that from them\textsubscript{3f}, and lost.}\\
-  {[}Jāmiɛ al-Tirmid͡hī:3318{]}
-
-  Note also how, in this example how, in addition to the feminine link-back doer pronouns in \foreignlanguage{arabic}{فَعَلَتْ} and \foreignlanguage{arabic}{خَسِرَتْ},
-  the feminine gender of the person signified by \foreignlanguage{arabic}{مَنْ} has also caused the \foreignlanguage{arabic}{تْ} of femininity to be added to the verb \foreignlanguage{arabic}{خَابَ} (of which \foreignlanguage{arabic}{مَنْ} is the doer noun).
-
-  \foreignlanguage{arabic}{جَمَعْتُ مِنَ ٱلْوَرَقِ مَا سَقَطْنَ.}
-  \enquote{I gathered what fell from the leaves.}
-
-  \foreignlanguage{arabic}{صَلِّ مِنَ ٱلرَّکَعَاتِ مَا يَتَيَسَّرْنَ.}\\
-  or\\
-  \foreignlanguage{arabic}{صَلِّ مِنَ ٱلرَّکَعَاتِ مَا تَتَيَسَّرُ.}\\
-  \enquote{Pray from the units (of prayer) what is easy.}
-\item
-  Or be singular masculine to match the connected noun itself. This is generally more common for \foreignlanguage{arabic}{مَا}. For example:
-
-  \foreignlanguage{arabic}{وَمِنْهُم مَّن يُؤْمِنُ بِهِۦ وَمِنْهُم مَّن لَّا يُؤْمِنُ بِهِۦ ۚ}\\
-  \enquote{And of them are those who believe in it, and of them are those who do not believe in it.}\\
-  10:40
-
-  \foreignlanguage{arabic}{جَمَعْتُ مِنَ ٱلْوَرَقِ مَا سَقَطَ.}
-  \enquote{I gathered what fell from the leaves.}
-
-  \foreignlanguage{arabic}{صَلِّ مِنَ ٱلرَّکَعَاتِ مَا يَتَيَسَّرُ.}\\
-  \enquote{Pray from the units (of prayer) what is easy.}
-
-  \foreignlanguage{arabic}{لَمْ أَجِدْ مَا أَعْتَذِرُ بِهِ}\\
-  \enquote{I did not find what I (could) make an excuse for with}.
-\end{enumerate}
-
-Both options can be utilized together as well. For example:
-
-\foreignlanguage{arabic}{بَلَىٰ مَنْ أَسْلَمَ وَجْهَهُۥ لِلَّهِ وَهُوَ مُحْسِنٌۭ فَلَهُۥٓ أَجْرُهُۥ عِندَ رَبِّهِۦ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ}\\
-\enquote{Yes, {[}on the contrary{]}, whoever submits his face {[}i.e., self{]} in Islām to Allāh while being a doer of good will have his reward with his Lord. And no fear will there be concerning them, nor will they grieve.}\\
-2:112
-
-\foreignlanguage{arabic}{فَمَن تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ}\\
-\enquote{whoever follows My guidance - there will be no fear concerning them, nor will they grieve.}\\
-2:38
-
-\subsubsection{Omitting the link-back pronoun}\label{omitting-the-link-back-pronoun-1}
-
-The same guidelines for omitting the link-back pronouns, which we learned for the specific connected nouns, apply also to the general connected nouns.
-For example:
-
-\foreignlanguage{arabic}{وَلَهُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ}\\
-\enquote{To Him belongs whoever is in the heavens and the earth.}\\
-21:19\\
-(for \foreignlanguage{arabic}{مَنْ هُوَ فِي ٱلسَّمَوَاتِ وَٱلْأَرْضِ})
-
-\foreignlanguage{arabic}{هَـٰذَا مَا کَنَزْتُمْ لِأَنْفُسِکُمْ}\\
-\enquote{This is what you hoarded for yourselves}\\
-9:35\\
-(for \foreignlanguage{arabic}{مَا کَنَزْتُمُوهُ})
-
-\foreignlanguage{arabic}{فَٱقْضِ مَا أَنتَ قَاضٍ}\\
-\enquote{So decree whatever you are to decree.}\\
-20:72\\
-(for \foreignlanguage{arabic}{مَا أَنْتَ قَاضِيهِ})
-
-\foreignlanguage{arabic}{أَنَا عِنْدَ مَنْ أَنْتَ.}\\
-\enquote{I am at his {[}house{]} at whose you (are).}\\
-(for \foreignlanguage{arabic}{مَنْ أَنْتَ عِنْدَهُ})
-
-\subsection{\texorpdfstring{Applicability of \foreignlanguage{arabic}{مَا} and \foreignlanguage{arabic}{مَنْ} to intelligent and non-intelligent beings}{Applicability of مَا and مَنْ to intelligent and non-intelligent beings}}\label{applicability-of-ux645ux627-and-ux645ux646-to-intelligent-and-non-intelligent-beings}
-
-As we mentioned earlier, \foreignlanguage{arabic}{مَنْ} is typically used to refer to intelligent beings.
-And \foreignlanguage{arabic}{مَا} is typically used to refer to non-intelligent beings.
-However, there are some circumstances in which these roles can differ.
-
-\foreignlanguage{arabic}{مَنْ}
-may be used for non-intelligent beings when a non-intelligent being is compared with an intelligent being.
-For example,
-
-\begin{otherlanguage}{arabic}
-
-\begin{otherlanguage}{arabic}
-وَاللَّهُ خَلَقَ كُلَّ دَابَّةٍ مِّن مَّاءٍ ۖ
-فَمِنْهُم مَّن يَمْشِي عَلَىٰ بَطْنِهِ
-وَمِنْهُم مَّن يَمْشِي عَلَىٰ رِجْلَيْنِ
-وَمِنْهُم مَّن يَمْشِي عَلَىٰ أَرْبَعٍ ۚ
-
-\end{otherlanguage}
-
-\end{otherlanguage}
-
-\enquote{Allāh has created every {[}living{]} creature from water. And of them are those that move on their bellies, and of them are those that walk on two legs, and of them are those that walk on four.}
-
-\foreignlanguage{arabic}{مَنْ}
-may also be used for non-intelligent beings when
-attributes usually applicable to intelligent beings are applied to a non-intelligent being.
-For example:
-
-\foreignlanguage{arabic}{أَسِرْبَ الْقَطَا، هَلْ مَنْ يُعِيرُ جَنَاحَه * لَعَلِّي إِلَىٰ مَنْ قَدْ هَوِيتُ أَطِيرُ}\\
-O flock of birds, is there who will lend his wing\\
-that perhaps I may fly to whom I love\\
-\foreignlanguage{arabic}{أَ}: \enquote{O},
-\foreignlanguage{arabic}{سِرْب}: \enquote{flock},
-\foreignlanguage{arabic}{قَطَا}: a species of bird,
-\foreignlanguage{arabic}{هَلْ}: \enquote{is there?},
-\foreignlanguage{arabic}{يُعِيرُ}: \enquote{lend},
-\foreignlanguage{arabic}{جَنَاح}: \enquote{wing},
-\foreignlanguage{arabic}{لَعَلِّي}: \enquote{Perhaps I},
-\foreignlanguage{arabic}{هَوِيتُ}: \enquote{I love},
-\foreignlanguage{arabic}{أَطِيرُ}: \enquote{I fly}.
-
-\foreignlanguage{arabic}{مَنْ}
-may also be used for non-intelligent beings when
-there is a mixed group including both intelligent and non-intelligent beings,
-and the intelligent beings are given preference.
-For example:
-
-\foreignlanguage{arabic}{وَلِلَّهِ يَسْجُدُ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ}\\
-\enquote{And to Allāh prostrates whoever is within the heavens and the earth}\\
-13:15
-
-Similarly, \foreignlanguage{arabic}{مَا} may, in some circumstances, be used for intelligent beings.
-This may be when
-there is a mixed group including both intelligent and non-intelligent beings,
-and the non-intelligent beings are given preference because of their larger number.
-For example:
-
-\foreignlanguage{arabic}{يُسَبِّحُ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ}\\
-\enquote{Whatever is in the heavens and whatever is on the earth is exalting Allāh}\\
-62:1
-
-\foreignlanguage{arabic}{مَا} may also be used for intelligent beings when
-the person being referred to is vague to the speaker.
-For example:
-
-\foreignlanguage{arabic}{رَبِّ إِنِّي نَذَرْتُ لَکَ مَا فِي بَطْنِي مُحَرَّرًا}\\
-\enquote{My Lord, indeed I have pledged to You what is in my womb, consecrated {[}for Your service{]}}\\
-3:35
-
-\foreignlanguage{arabic}{مَا} may also be used for intelligent beings when
-the characteristics of an intelligent being are highlighted when referring to them. For example:
-
-\foreignlanguage{arabic}{فَانکِحُوا مَا طَابَ لَکُم مِّنَ النِّسَاءِ}\\
-\enquote{then marry those that please you of {[}other{]} women}\\
-4:3
-
-\subsection{Grammatical position of the general connected nouns}\label{grammatical-position-of-the-general-connected-nouns}
-
-The general connected noun may occur in various grammatical positions.
-Here are some examples:
-
-As a subject:
-
-\foreignlanguage{arabic}{ما عِنْدَکُمْ يَنْفَدُ}\\
-\enquote{Whatever you have will end}\\
-16:96
-
-As an information:
-
-\foreignlanguage{arabic}{مَالُکَ مَا قَدَّمْتَ، وَمَالُ وَارِثِکَ مَا أَخَّرْتَ}\\
-\enquote{Your wealth is what you have sent forward, and the wealth of your inheritors is what you have left behind.}\\
-adab:153
-
-As a doer:
-
-\foreignlanguage{arabic}{فَعَلَهُ مَنْ هُوَ خَيْرٌ مِنِّي}\\
-\enquote{it was done by one who was better than I}\\
-bukhari:668
-
-As a doee:
-
-\foreignlanguage{arabic}{اعْمَلُوا مَا شِئْتُمْ}\\
-\enquote{Do whatever you will}\\
-41:40
-
-Following a preposition:
-
-\foreignlanguage{arabic}{وَأَغْنِنِي بِفَضْلِکَ عَمَّنْ سِوَاکَ}\\
-\enquote{and make me independent from (all) who are besides You}\\
-tirmidhi:3563
-
-As a base noun in an annexation:
-
-\foreignlanguage{arabic}{هُمْ شَرُّ مَنْ خَلَقَ ٱللَّـٰهُ.}\\
-\enquote{They are the most evil of whom Allah has created.}
-
-\foreignlanguage{arabic}{مَا تَرَىٰ رَأْيَ مَا نَرَىٰ.}\\
-\enquote{You do not think what we think.}\\
-(literally: \enquote{You do not opine the opinion of what we opine.})
-
-\foreignlanguage{arabic}{أَمْرَ مَا تَحْذَرُ}\\
-\enquote{the matter of which you are wary}
-
-Unlike the specific connected nouns
-(\foreignlanguage{arabic}{ٱَلَّذِي}, etc),
-the general connected nouns do not occur as describers.\footnote{See \foreignlanguage{arabic}{کتاب المقتصد في شرح الإيضاح للجرجاني}, vol.~1, p.~319:
-
-  \begin{quote}
-  \foreignlanguage{arabic}{ومَن لا يوصف به، ألا ترى لا تقول: مررت بالرجل مَن أخوه منطلق. فتجعله صفةً للرجل، کما تقول: بالرجل الذي أخوه منطلق}
-  \end{quote}
-
-  Also \foreignlanguage{arabic}{شرح الرضي على الکافية لابن الحاجب} vol.~2, p.~314:
-
-  \begin{quote}
-  \foreignlanguage{arabic}{ولا يقع من الموصولات وصفا إلا ما في أوله اللام، نحو الذي والتي، واللاتي، وبابها، لمشابهته لفظا للصفة المشبهة في کونه على ثلاثة أحرف فصاعدا، بخلاف من وما، وأما (أي) الموصول فلم يقع وصفا، لأن الأغلب فيه: الشرط والاستفهام ووقوعه موصولا قليل فروعي ذلک الأکثر، وإنما يوصف بذو، الطائية وإن کانت على حرفين کما في قوله:}
-
-  \foreignlanguage{arabic}{٣٢٧ - فقولا لهذا المرء ذو جاء ساعيا \ldots{} هلم فان المشرفي الفرائض}
-  \end{quote}
-
-  Basically, of \foreignlanguage{arabic}{الأسماء الموصولة المشترکة} (which comprise \foreignlanguage{arabic}{ما, مَن, أي, أل, ذو, ذا}) only the dialectal \foreignlanguage{arabic}{ذو} appears as a \foreignlanguage{arabic}{صفة}.}
-
-So while we can say:
-
-\foreignlanguage{arabic}{مَرَرْتُ بِٱلرَّجُلِ ٱلَّذِي أَحْسَنَ إِلَيّ.}\\
-\enquote{I passed by the man who was good to me.}
-
-we cannot say:
-
-\(\times\) \foreignlanguage{arabic}{مَرَرْتُ بِٱلرَّجُلِ مَنْ أَحْسَنَ إِلَيّ.}
-
-We will have to say instead:
-
-\foreignlanguage{arabic}{مَرَرْتُ بِمَنْ أَحْسَنَ إِلَيّ.}
-
-The general connected noun can, however, occur as a replacement.\footnote{Fischer §421.2. The example too is taken from there. Originally, it is from \foreignlanguage{arabic}{السيرة النبوية لابن هشام}.}
-For example,
-
-\foreignlanguage{arabic}{والمسلمون مَن تبع رسول الله صلى الله عليه وسلم کثير}\\
-\enquote{And the Muslims, who follow the Messenger of Allāh, are many}
-
-\subsection{\texorpdfstring{Use with the preposition \foreignlanguage{arabic}{مِنْ}}{Use with the preposition مِنْ}}\label{use-with-the-preposition-ux645ux646}
-
-The preposition \foreignlanguage{arabic}{مِنْ} is frequently used with the general connected nouns to restrict the applicability of the connected noun to a group or type.
-This \foreignlanguage{arabic}{مِنْ} may come either before the connected noun, or after its connector.
-For example:
-
-\foreignlanguage{arabic}{فَأَعْطَانِي مَا کَانَ عِنْدَهُ مِنْ خُبْزٍ.}\\
-\enquote{Then he gave me what he had of bread.}
-
-\foreignlanguage{arabic}{مَنْ دَخَلَ ٱلشَّأْمَ مِنَ ٱلْعَرَبِ}\\
-\enquote{Those Arabs who entered Syria}\\
-(literally: \enquote{Who entered Syria from the Arabs})
-
-\foreignlanguage{arabic}{فَانکِحُوا مَا طَابَ لَکُم مِّنَ النِّسَاءِ}\\
-\enquote{then marry those that please you of {[}other{]} women}\\
-4:3
-
-\foreignlanguage{arabic}{اللَّهُمَّ اقْسِمْ لَنَا مِنْ خَشْيَتِکَ مَا يَحُولُ بَيْنَنَا وَبَيْنَ مَعَاصِيکَ}\\
-O Allāh, apportion for us, from the fear of You, (that) what shall come between us and disobedience of You\\
-tirmidhi:3502\\
-(The connected noun \foreignlanguage{arabic}{مَا} is the direct doee of the verb of command \foreignlanguage{arabic}{اقْسِمْ}.)
-
-\subsection{Use with a repeated word to express vagueness or uncertainty}\label{use-with-a-repeated-word-to-express-vagueness-or-uncertainty}
-
-The general connected nouns
-\foreignlanguage{arabic}{مَنْ} and \foreignlanguage{arabic}{مَا}
-are used with a word that is repeated to express a vague or uncertain quantity or quality.
-For example:
-
-\foreignlanguage{arabic}{هُمْ مَا هُمْ}\\
-\enquote{They are what they are.}
-
-\foreignlanguage{arabic}{نَزَلَ مَنْ نَزَلَ مِنْهُمْ}\\
-\enquote{Some of them came down.}\\
-(literally: Came down who came down from them.'')
-
-\foreignlanguage{arabic}{جَمَعْتُ مَا جَمَعْتُ}\\
-\enquote{I gathered what I gathered.}
-
-\section{Omitting the connected noun and/or the connector}\label{omitting-the-connected-noun-andor-the-connector}
-
-TODO. See النحو الوافي
-
-\section{Sentences without connected nouns}\label{sentences-without-connected-nouns}
-
-There are some sentences where we might expect a connected noun but which are always, or often (as the case may be), expressed in Arabic without a connected noun. These sentences are of different types:
-
-\subsection{Sentences with indefinite nouns needing a qualifying sentence}\label{sentences-with-indefinite-nouns-needing-a-qualifying-sentence}
-
-When an indefinite noun needs a qualifying sentence, it is natural in English to insert \enquote{that}, \enquote{which}, \enquote{who}, etc. between the noun and the following sentence. For example, \enquote{I passed by a man \emph{who} was sleeping.}
-
-In Arabic, however, we will not use any connected noun in such sentences.
-This is because the connected nouns are considered definite nouns.
-And therefore they may not be a describer to an indefinite noun.
-So while we can say:
-
-\foreignlanguage{arabic}{مَرَرْتُ بِٱلرَّجُلِ ٱلَّذِي يَنَامُ.}\\
-\enquote{I passed by the man who is sleeping.}
-
-we cannot say
-
-\(\times\) \foreignlanguage{arabic}{مَرَرْتُ بِرَجُلٍ ٱلَّذِي يَنَامُ.}
-
-Instead, we put the qualifying sentence directly after the indefinite noun. The qualifying sentence will then not be a connector, but will itself be the describer to the described noun:
-
-\foreignlanguage{arabic}{مَرَرْتُ بِرَجُلٍ يَنَامُ.}\\
-\enquote{I passed by a man (who) is sleeping.}
-
-Here is another example:
-
-\foreignlanguage{arabic}{جَلَسْتُ فِي مَجْلِسٍ قَدْ رُشَّ بِمَاءِ ٱلْوَرْدِ.}\\
-\enquote{I sat in a sitting (that) had been sprinkled with rose-water.}
-
-A connected noun can, however, follow an indefinite noun, if we intend to start a separate sentence with it, or if it is a \emph{replacement} (see chapter~\ref{the-replacement}). For example.
-
-\foreignlanguage{arabic}{وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ}\\
-\enquote{Resurrect him to a praiseworthy station, the one that you promised him}\\
-bukhari:614
-
-\foreignlanguage{arabic}{وَيْلٌ لِّکُلِّ هُمَزَةٍ لُّمَزَةٍ}\\
-\foreignlanguage{arabic}{الَّذِي جَمَعَ مَالًا وَعَدَّدَهُ}\\
-\enquote{Woe to every scorner and mocker\\
-Who collects wealth and {[}continuously{]} counts it.}\\
-104:1-2
-
-\subsection{Sentences containing a noun with generic definiteness}\label{sentences-containing-a-noun-with-generic-definiteness}
-
-Sometimes the definite article \foreignlanguage{arabic}{ٱَلْ}
-does not determine a particular individual, but
-makes a noun definite only in a generic way.
-In this case a qualifying sentence may directly follow it without any intermediate connected noun used as a describer.\footnote{Fischer §428.1, Wright vol.~2, §172, p.~318B.}
-Because there is no connected noun, the qualifying sentence is, again, not analyzed as a connector.
-For example:
-
-\foreignlanguage{arabic}{کَمَثَلِ الْحِمَارِ يَحْمِلُ أَسْفَارًا}\\
-\enquote{like that of a donkey who carries volumes {[}of books{]}}\\
-62:5\\
-(Note how the translator has actually translated \foreignlanguage{arabic}{ٱلْحِمَار} as \enquote{a donkey} because in English an indefinite noun is often used to indicate a generic type.)
-
-\foreignlanguage{arabic}{أَنْتَ ٱلْوَزِيرُ لَا يُعْصَىٰ}\\
-\enquote{You are the (sort of) vizier (who) is not disobeyed.}
-
-\foreignlanguage{arabic}{هُمُ ٱلْفَوَارِسُ يَحْمُونَ ٱلنِّسَاءَ.}\\
-\enquote{They are the (kind of) horsemen (who) protect the women.}
-
-\subsection{Sentences with prepositional or adverbial phrases}\label{sentences-with-prepositional-or-adverbial-phrases}
-
-If a sentence has a definite noun which is to be qualified by a prepositional or adverbial phrase, then in many cases, that phrase may directly follow the definite noun without any intermediate connected noun used a describer.
-But using a connected noun is also permissible if one wishes to emphasize that the specificity of the noun.
-When there is no connected noun, the prepositional or adverbial phrase is not analyzed as a connector, but is considered attached to an implied verb that has the idea of \enquote{being}, like \enquote{is}, \enquote{are}, etc.
-When there is a connected noun, then it is analyzed as a connector, as usual.
-For example:
-
-\foreignlanguage{arabic}{سِرْتُ فِي ٱلْحَدِيقَةِ عِنْدَ ٱلْمَسْجِدِ.}\\
-\enquote{I walked in the garden next to the mosque.}\\
-or\\
-\foreignlanguage{arabic}{سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي عِنْدَ ٱلْمَسْجِدِ.}\\
-or\\
-\foreignlanguage{arabic}{سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي هِيَ عِنْدَ ٱلْمَسْجِدِ.}\\
-\enquote{I walked in the {[}specific{]} garden that {[}is{]} next to the mosque.}
-
 \chapter{\texorpdfstring{The verb \foreignlanguage{arabic}{کَانَ}}{The verb کَانَ}}\label{the-verb-kaana}
 
-\section{Introduction}\label{introduction-22}
+\section{Introduction}\label{introduction-21}
 
 We have learned that a verb must have a doer in the u-state and can have a direct doee in the a-state.
 In this chapter, we will learn about a new type of verb, whose doer is called its subject, and whose direct doee is called its information.
@@ -13473,7 +12694,7 @@ Arabic does not, in this case, express any word for \enquote{is}.
 
 Consider now the following sentence:
 
-\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-35-1.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-34-1.pdf}}
 
 Now, as you can see, Arabic does express a word for \enquote{was}. It is the past verb \foreignlanguage{arabic}{کَانَ} \emph{kāna}.
 \foreignlanguage{arabic}{کَانَ} is a hollow verb from the root \foreignlanguage{arabic}{«کون»}.
@@ -14377,11 +13598,11 @@ For example:
 
 \chapter{\texorpdfstring{\foreignlanguage{arabic}{إِنَّ} and its sisters}{إِنَّ and its sisters}}\label{inna-and-its-sisters}
 
-\section{Introduction}\label{introduction-23}
+\section{Introduction}\label{introduction-22}
 
 In the basic subject-information sentence, both the subject and the information are in the u-state. For example:
 
-\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-36-1.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-35-1.pdf}}
 
 \enquote{This man is a teacher.}
 
@@ -14586,7 +13807,7 @@ to complete the sentence. We will see examples of this below.
 
 \subsection{\texorpdfstring{The \foreignlanguage{arabic}{أَنَّ} clause in place of the direct doee}{The أَنَّ clause in place of the direct doee}}\label{the-ux623ux646-clause-in-place-of-the-direct-doee}
 
-\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-37-1.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-36-1.pdf}}
 
 \enquote{I know that Zayd is truthful.}
 
@@ -14604,7 +13825,7 @@ clauses can be placed where one would expect other noun positions, such as: a su
 
 Example:
 
-\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-38-1.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-37-1.pdf}}
 
 \enquote{That you are sick has reached me.} (\enquote{It has reached me that you are sick.})
 
@@ -14612,7 +13833,7 @@ Example:
 
 Example (with information before subject in sentence word order):
 
-\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-39-1.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-38-1.pdf}}
 
 \enquote{From his characteristeics is that he is noble.}
 
@@ -14620,7 +13841,7 @@ Example (with information before subject in sentence word order):
 
 Example:
 
-\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-40-1.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-39-1.pdf}}
 
 \enquote{The truth is that he went.}
 
@@ -14630,13 +13851,13 @@ As you know, \foreignlanguage{arabic}{کَانَ}'s doer is also its subject, an
 The \foreignlanguage{arabic}{أَنَّ} clause can occur in either the subject or the information of \foreignlanguage{arabic}{کَنَ}.
 For example, the \foreignlanguage{arabic}{أَنَّ} clause as the information:
 
-\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-41-1.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-40-1.pdf}}
 
 \enquote{The matter was that he didn't do his obligation.}
 
 Now, the \foreignlanguage{arabic}{أَنَّ} clause as the subject:
 
-\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-42-1.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-41-1.pdf}}
 
 \enquote{That he didn't do his obligation was the matter.}
 
@@ -14646,13 +13867,13 @@ Note that in the latter case, the information precedes the subject.
 
 The \foreignlanguage{arabic}{أَنَّ} clause can occur in place of an i-state base noun in an annexation. Example:
 
-\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-43-1.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-42-1.pdf}}
 
 \enquote{The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous.}
 
 The \foreignlanguage{arabic}{أَنَّ} clause can occur in place of an i-state noun directly following a preposition. Example:
 
-\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-44-1.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-43-1.pdf}}
 
 \enquote{I wondered at that Zayd is asleep.}
 
@@ -14734,7 +13955,7 @@ TODO
 
 There is a sub-type of subject-information sentence called a topic-comment sentence. Here is an example:
 
-\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-45-1.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-44-1.pdf}}
 
 \enquote{The tree: its branches are long.}
 
@@ -14785,7 +14006,7 @@ the pronoun \foreignlanguage{arabic}{أَنَا} \enquote{I} refers to the speak
 
 There is a special pronoun, called the \emph{pronoun of the fact} that begins topic-comment sentences. This pronoun does not refer to any previously known entity, but rather refers to the comment that follows it. It is sometimes translated as \enquote{the fact is} but is often left untranslated. Here is an example:
 
-\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-46-1.pdf}}
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-45-1.pdf}}
 
 \enquote{The fact is: the cold is intense.}
 
@@ -14990,6 +14211,1080 @@ The lightened \foreignlanguage{arabic}{لَـٰکِنْ} has the same meaning as
 \foreignlanguage{arabic}{نَجَحَ زَيْدٌ لَـٰکِنْ صَدِيقُهُ لَمْ يَنْجَحْ.}\\
 \enquote{Zayd succeeded but his friend did not succeed.}
 
+\chapter{The connected nouns}\label{the-connected-nouns}
+
+\section{Introduction}\label{introduction-23}
+
+Consider the sentence:
+
+\foreignlanguage{arabic}{رَأَيْتُ ٱلرَّجُلَ.}\\
+\enquote{I saw the man.}
+
+If the listener (or reader) can identify
+the individual referred to by the noun \enquote{the man}
+(maybe from a pre-existing mutual understanding with the speaker),
+then there is no problem with this sentence.
+But often, further clarification is needed for the listener to correctly identify the individual to whom the speaker is referring.
+This further clarification can be provided in a number of ways.
+
+One way is to use an adjectival noun to describe the noun. For example:
+
+\foreignlanguage{arabic}{رَأَيْتُ ٱلرَّجُلَ ٱلطَّوِيلَ.}\\
+\enquote{I saw the \emph{tall} man.}
+
+Another way is to use a pointing noun, thus:
+
+\foreignlanguage{arabic}{رَأَيْتُ ذَ~ٰلِکَ ٱلرَّجُلَ.}\\
+\enquote{I saw \emph{that} man.}
+
+But sometimes, a whole sentence is needed to provide the needed identification.
+In this case, Arabic uses what is called a \emph{connected noun} and a \emph{connector}.
+This example should help you understand what we mean:
+
+\pandocbounded{\includegraphics[keepaspectratio]{A-Learners-Grammar-of-Classical-Standard-Arabic_files/figure-latex/unnamed-chunk-46-1.pdf}}
+
+In the above sentence, the connected noun is \foreignlanguage{arabic}{ٱَلَّذِي} \emph{ʾallad͡hī}.
+It is applied to singular masculine nouns, like \foreignlanguage{arabic}{ٱلرَّجُل}.
+By itself it may be translated as \enquote{the one\textsubscript{1m} that/which/who/whom}.
+It is called a connected noun because it must be directly followed by a qualifying sentence that connects to it.
+
+The qualifying sentence is called the connector and it contains the necessary information for the listener to correctly identify the individual intended by the speaker.''
+The connector in the above example is the sentence \foreignlanguage{arabic}{لَقِيتُهُ بِٱلْأَمْسِ} \enquote{I met him yesterday.}
+
+Note by the way, that we did not translate the pronoun \enquote{him} in our original translation (above).
+This is because it would sound unnatural in English to say: \enquote{I saw the {[}specific{]} man (whom) I met \emph{him} yesterday.}
+But this pronoun is an essential part of the Arabic connector and is called the \emph{link-back pronoun}.
+We will deal with it in section~\ref{link-back-pronoun} later in this chapter.
+
+There are two types of connected nouns:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  The specific connected nouns
+\item
+  The general connected nouns
+\end{enumerate}
+
+We will study both these types separately within this chapter.
+
+\section{The specific connected nouns}\label{the-specific-connected-nouns}
+
+The specific connected nouns have a significance which is restricted to a specific individual or category of individuals,
+and its connector should contain sufficient information to identify that specific individual.
+
+The specific connected nouns is a group of nouns where each noun is applied to a gender and number of individuals. They are:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.1500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.8500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Connected noun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Description
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\foreignlanguage{arabic}{ٱَلَّذِي} \emph{ʾallad͡hī} & Singular masculine. For both intelligent and non-intelligent beings. Rigid. Only one \foreignlanguage{arabic}{ل} in its spelling. \\
+\foreignlanguage{arabic}{ٱَلَّتِي} \emph{ʾallatī} & Singular feminine. For both intelligent and non-intelligent beings. Also used for plural non-intelligent beings of both genders. Rigid. Only one \foreignlanguage{arabic}{ل} in its spelling. \\
+\foreignlanguage{arabic}{ٱَللَّذَانِ} \emph{ʾallad͡hānī} & Dual masculine. For both intelligent and non-intelligent beings. Flexible: \foreignlanguage{arabic}{ٱَللَّذَيْنِ} \emph{ʾallad͡hayni} in the a- and i-states. Two \foreignlanguage{arabic}{ل}'s in its spelling. \\
+\foreignlanguage{arabic}{ٱَللَّتَانِ} \emph{ʾallatānī} & Dual feminine. For both intelligent and non-intelligent beings. Flexible: \foreignlanguage{arabic}{ٱَللَّتَيْنِ} \emph{ʾallatayni} in the a- and i-states. Two \foreignlanguage{arabic}{ل}'s in its spelling. \\
+\foreignlanguage{arabic}{ٱَلَّذِينَ} \emph{ʾallad͡hīna} & Plural masculine. For both intelligent beings. Rigid. Only one \foreignlanguage{arabic}{ل} in its spelling. \\
+\foreignlanguage{arabic}{ٱَللَّاتِي} \emph{ʾallātī} & For plural feminine intelligent beings. Also used for non-intelligent beings of both genders but \foreignlanguage{arabic}{ٱَلَّتِي} is more common there. Rigid. Two \foreignlanguage{arabic}{ل}'s in its spelling. Has the following variants: \foreignlanguage{arabic}{ٱَللَّاتِ} \emph{ʾallāti}, \foreignlanguage{arabic}{ٱَللَّائِي} \emph{ʾallāʾī}, \foreignlanguage{arabic}{ٱَللَّوَاتِي} \emph{ʾallawātī} \\
+\end{longtable}
+
+\subsection{Grammatical position of the specific connected noun}\label{grammatical-position-of-the-specific-connected-noun}
+
+Consider again the same example:
+
+\foreignlanguage{arabic}{رَأَيْتُ ٱلرَّجُلَ ٱلَّذِي لَقِيتُهُ بِٱلْأَمْسِ.}\\
+\enquote{I saw the {[}specific{]} man whom I met yesterday.}
+
+In this example, the connected noun
+\foreignlanguage{arabic}{ٱَلَّذِي} \emph{ʾallad͡hī}
+is a describer (in the a-state) to the described noun
+\foreignlanguage{arabic}{ٱلرَّجُلَ}.
+Because
+\foreignlanguage{arabic}{ٱَلَّذِي}
+is a rigid noun, it will appear the same in all states without any change to its ending.
+
+As a describer, the connected noun may also come as the last in a series of describers, and can also be combined with a pointing noun.
+For example:
+
+\foreignlanguage{arabic}{رَأَيْتُ ذَ~ٰلِکَ ٱلرَّجُلَ ٱلطَّوِيلَ ٱلَّذِي لَقِيتُهُ بِٱلْأَمْسِ.}\\
+\enquote{I saw that {[}specific{]} tall man whom I met yesterday.}
+
+But connected nouns need not only occur as describers.
+They may occur in various grammatical positions.
+Here are some examples:
+
+As a subject:
+
+\foreignlanguage{arabic}{وَالَّذِينَ يَکْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ وَلَا يُنْفِقُونَهَا فِي سَبِيلِ ٱللَّـٰهِ فَبَشِّرْهُمْ بِعَذَابٍ أَلِيمٍ}\\
+\enquote{And those who hoard gold and silver and spend it not in the way of Allāh - give them tidings of a painful punishment.}\\
+9:34
+
+As an information:
+
+\foreignlanguage{arabic}{خِيَارُ أَئِمَّتِکُمُ الَّذِينَ تُحِبُّونَهُمْ وَيُحِبُّونَکُمْ}\\
+\enquote{The best of your rulers are the ones whom you love and who love you}
+{[}Ṣaḥīḥ Muslim:1855{]}
+
+\foreignlanguage{arabic}{هُنَّ اللَّوَاتِي عَلَى الْمِنْبَرِ}\\
+\enquote{They are the ones which (are) on the pulpit.}\\
+{[}Sunan al-Dārimī:36{]}
+
+As a doer:
+
+\foreignlanguage{arabic}{قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.}\\
+\enquote{The {[}specific{]} one (thing) that you said has reached us.}
+
+As a doee:
+
+\foreignlanguage{arabic}{رَبَّنَا أَرِنَا ٱللَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنْسِ}\\
+\enquote{Our Lord, show us those who misled us of the jinn and men}\\
+41:29
+
+Following a preposition:
+
+\foreignlanguage{arabic}{أَوْ کَٱلَّذِي مَرَّ عَلَىٰ قَرْيَةٍ}\\
+\enquote{Or {[}consider such an example{]} as the one who passed by a township}\\
+2:259
+
+As a base noun in an annexation:
+
+\foreignlanguage{arabic}{قَدْ سَمِعَ ٱللَّـٰهُ قَوْلَ ٱلَّتِي تُجَادِلُکَ فِي زَوْجِهَا}\\
+\enquote{Certainly has Allāh heard the speech of the one who argues {[}i.e., pleads{]} with you, {[}O Muḥammad{]}}\\
+58:1
+
+\section{The connector and the link-back pronoun}\label{link-back-pronoun}
+
+The connector is (typically) a sentence that directly follows the connected noun.
+As we mentioned in the introduction,
+the connector provides clarifying information for the listener (or reader) to identify the individual referred to by the connected noun.
+
+In the connector is a pronoun that refers back to the connected noun.
+This pronoun is called the \emph{link-back pronoun}.
+and it is an essential (though not always apparent) part of the connector.
+
+Let us identify some of the link-back pronouns in the examples we have given.
+
+\foreignlanguage{arabic}{وَالَّذِينَ يَکْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ}\\
+\enquote{And those who hoard gold and silver}\\
+Link-back pronoun: the plural masculine doer pronoun \foreignlanguage{arabic}{و} in \foreignlanguage{arabic}{يَکْنِزُونَ}
+
+\foreignlanguage{arabic}{خِيَارُ أَئِمَّتِکُمُ الَّذِينَ تُحِبُّونَهُمْ}\\
+\enquote{The best of your rulers are the ones whom you love and who love you}\\
+Link-back pronoun: the plural masculine doee attached pronoun \foreignlanguage{arabic}{هُمْ} in \foreignlanguage{arabic}{تُحِبُّونَهُمْ}
+
+\foreignlanguage{arabic}{قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.}\\
+\enquote{The {[}specific{]} one (thing) that you said has reached us.}\\
+Link-back pronoun: the singular masculine doee attached pronoun \foreignlanguage{arabic}{هُ} in \foreignlanguage{arabic}{قُلْتُمُوهُ}
+
+\foreignlanguage{arabic}{رَبَّنَا أَرِنَا ٱللَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنْسِ}\\
+\enquote{Our Lord, show us those who misled us of the jinn and men}\\
+Link-back pronoun: the dual masculine doer pronoun \foreignlanguage{arabic}{ا} in \foreignlanguage{arabic}{أَضَلَّانَا}
+
+\foreignlanguage{arabic}{أَوْ کَٱلَّذِي مَرَّ عَلَىٰ قَرْيَةٍ}\\
+\enquote{Or {[}consider such an example{]} as the one who passed by a township}\\
+Link-back pronoun: the implied singular masculine doer pronoun \enquote{he} in \foreignlanguage{arabic}{مَرَّ}
+
+\foreignlanguage{arabic}{قَدْ سَمِعَ ٱللَّـٰهُ قَوْلَ ٱلَّتِي تُجَادِلُکَ فِي زَوْجِهَا}\\
+\enquote{Certainly has Allāh heard the speech of the one who argues {[}i.e., pleads{]} with you, {[}O Muḥammad{]}}\\
+Link-back pronoun: the implied singular feminine doer pronoun \enquote{she} in \foreignlanguage{arabic}{تُجَادِلُکَ}
+
+\subsection{Matching the link-back pronoun with the connected noun}\label{matching-the-link-back-pronoun-with-the-connected-noun}
+
+The link-back pronoun matches the specific connected noun in gender and number.
+And the link-back pronoun is generally an absent-person pronoun (\foreignlanguage{arabic}{هُ}, \foreignlanguage{arabic}{هَا}, \foreignlanguage{arabic}{هُوَ}, \foreignlanguage{arabic}{هُمْ}, etc.).
+For example, in the sentence,
+\foreignlanguage{arabic}{وَالَّذِينَ يَکْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ}
+\enquote{And those who hoard gold and silver,}
+the link-back pronoun is the plural masculine absent-person doer pronoun \foreignlanguage{arabic}{و} \enquote{they} in \foreignlanguage{arabic}{يَکْنِزُونَ} \enquote{they hoard}.
+And it matches the plural masculine connected noun \foreignlanguage{arabic}{ٱلَّذِينَ}.
+
+However, there is an exception to the link-back pronoun being an absent-person pronoun.
+And that is when the connected noun refers to the speaker or the addressed person, like
+\foreignlanguage{arabic}{أَنَا ٱلَّذِي}, or \foreignlanguage{arabic}{أَنْتُمُ ٱلَّذِينَ}, etc.
+In these cases, the link-back pronoun may optionally:
+
+\begin{enumerate}
+\def\labelenumi{\roman{enumi}.}
+\tightlist
+\item
+  either be an absent-person pronoun to match the connected noun (as usual),
+\item
+  or match the pronoun for the speaker or addressed person (as the case may be)
+\end{enumerate}
+
+The latter is generally more common but both options are permissible.
+For example:
+
+\foreignlanguage{arabic}{أَنَا ٱلَّذِي حَضَرْتُ.}\\
+Link-back pronoun: the singular masculine doer pronoun for the speaker \foreignlanguage{arabic}{تُ} in \foreignlanguage{arabic}{حَضَرْتُ}\\
+or\\
+\foreignlanguage{arabic}{أَنَا ٱلَّذِي حَضَرَ.}\\
+Link-back pronoun: the implied singular masculine doer pronoun for the absent person \enquote{he} in \foreignlanguage{arabic}{حَضَرَ}\\
+\enquote{I am the one (who) was present.}
+
+Here are some examples from Classical Arabic:
+
+\foreignlanguage{arabic}{أَنَا ٱلَّذِي سَمَّتْنِ أُمِّي حَيْدَرَهْ}\\
+\enquote{I am the one whom my mother named Ḥaydarah}\\
+(The link-back pronoun is the speaker person's doee pronoun in \foreignlanguage{arabic}{سَمَّتْنِ}, which is an abbreviation of \foreignlanguage{arabic}{سَمَّتْنِي} \enquote{she named me}.)
+
+\foreignlanguage{arabic}{فَقَالَ مُوسَى يَا آدَمُ أَنْتَ الَّذِي خَلَقَکَ اللَّهُ بِيَدِهِ}\\
+\enquote{Mūsā said: O Ādam, you are the one whom Allāh created with His Hand}\\
+tirmidhi:2134\\
+(The link-back pronoun is the addressed person's doee pronoun \foreignlanguage{arabic}{کَ} in \foreignlanguage{arabic}{خَلَقَکَ}.)
+
+There is one circumstance where matching the link-back pronoun to the (absent person) connected-noun is mandated.
+And that is when the connected noun is the called-out person using the particle \foreignlanguage{arabic}{أَيُّهَا} or \foreignlanguage{arabic}{أَيَّتُهَا}.
+For example,
+
+\foreignlanguage{arabic}{يَاأَيُّهَا ٱلَّذِينَ آمَنُوا}\\
+\enquote{O you who have believed}\\
+not\\
+\(\times\) \foreignlanguage{arabic}{يَاأَيُّهَا ٱلَّذِينَ آمَنْتُمْ}
+
+Similarly,
+
+\foreignlanguage{arabic}{يَاأَيُّهَا الَّذِي نُزِّلَ عَلَيْهِ الذِّکْرُ}\\
+\enquote{O you upon whom the message has been sent down}\\
+15:6
+
+\subsection{Omitting the link-back pronoun}\label{omitting-the-link-back-pronoun}
+
+The link-back pronoun is frequently omitted, and its meaning is then implicit, in some cases:
+
+\begin{enumerate}
+\def\labelenumi{(\alph{enumi})}
+\item
+  When the linker pronoun is a detached pronoun which is the u-state subject of a subject-information sentence, whose information is:
+
+  \begin{enumerate}
+  \def\labelenumii{(\roman{enumii})}
+  \item
+    A prepositional phrase. For example:
+
+    \foreignlanguage{arabic}{نَامَ ٱلَّذِي فِي ٱلْغُرْفَةِ.}\\
+    \enquote{The one who (is) in the room has slept.}
+
+    The connector is the incomplete sentence \foreignlanguage{arabic}{فِي ٱلْغُرْفَةِ} \enquote{(is) in the room}.
+    With the link-back pronoun restored, the sentence is
+
+    \foreignlanguage{arabic}{نَامَ ٱلَّذِي هُوَ فِي ٱلْغُرْفَةِ.}
+  \item
+    An adverbial phrase. For example:
+
+    \foreignlanguage{arabic}{تَکَلَّمَ ٱلَّذِي عِنْدَکَ.}\\
+    \enquote{The one who (is) with you spoke.}
+
+    (Remember that \foreignlanguage{arabic}{عِنْدَ} is technically a noun used adverbially, not a preposition.)
+    The connector is the incomplete sentence \foreignlanguage{arabic}{عِنْدَکَ} \enquote{(is) with you}.
+    With the link-back pronoun restored, the sentence is
+
+    \foreignlanguage{arabic}{تَکَلَّمَ ٱلَّذِي هُوَ عِنْدَکَ.}
+  \end{enumerate}
+
+  In such cases, the incomplete sentence connector implcitly includes the meaning of a verb which is usually the verb \enquote{being}, like \enquote{is}, \enquote{are}, \enquote{am}, etc.
+\item
+  When the link-back pronoun is an attached pronoun for the direct doee. For example:
+
+  \foreignlanguage{arabic}{قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمْ.}\\
+  \enquote{The one (thing) that you said has reached us.}
+
+  With the link-back pronoun restored, the sentence is
+
+  \foreignlanguage{arabic}{قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\roman{enumii})}
+  \item
+    When the link-back pronoun is the base noun in an annexation whose annex noun is a verbal noun of the doer or the doee implying a present or future meaning. For example:
+
+    \foreignlanguage{arabic}{أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلٌ.}\\
+    \enquote{I fear from him the wrong that he will do.}
+
+    With the link-back pronoun restored, the sentence is\\
+    \foreignlanguage{arabic}{أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلُهُ.}
+  \item
+    When the link-back pronoun is attached to a preposition or adverb, and the same preposition or adverb has already been used (with the same meaning) with the connecting noun or its described noun. The preposition/adverb is omitted along with its attached pronoun. For example:
+
+    \foreignlanguage{arabic}{سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ.}\\
+    \enquote{I walked in the (same) garden {[}in{]} which you walked.}
+
+    With the link-back pronoun restored, the sentence is\\
+    \foreignlanguage{arabic}{سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ فِيهَا.}
+
+    \foreignlanguage{arabic}{مَرَرْتُ بِٱلَّذِي مَرَّ سُلَيْمَانُ.}\\
+    \enquote{I passed by the (same) one that Sulaymān did.}
+
+    With the link-back pronoun restored, the sentence is\\
+    \foreignlanguage{arabic}{مَرَرْتُ بِٱلَّذِي مَرَّ بِهِ سُلَيْمَانُ.}
+  \end{enumerate}
+\end{enumerate}
+
+\subsection{Separating the connector from the connected noun}\label{separating-the-connector-from-the-connected-noun}
+
+Generally, the connector directly follows the connected noun, as in all the examples we have given so far.
+However, the connector may be separated from the connected noun by one of the following:
+
+\begin{enumerate}
+\def\labelenumi{\roman{enumi}.}
+\item
+  An oath. For example:
+
+  \foreignlanguage{arabic}{جَاءَ ٱلَّذِي وَٱللَّـٰه قَهَرَ ٱلْأَعْدَاءَ.}\\
+  \enquote{The one who - by Allāh - overpowered the enemies has come.}
+\item
+  A sentence calling out to someone. For example,
+
+  \foreignlanguage{arabic}{أَنْتَ ٱلَّذِي يَا زَيْدُ فَتَحْتَ ٱلْبَابَ.}\\
+  \enquote{You are the one - O Zayd - who opened the door.}
+\item
+  A parenthetical clause, which is a sentence within the main sentence that adds information to it, but which can be omitted without affecting the completeness of the main sentence. For example:
+
+  \foreignlanguage{arabic}{قَدِمَ ٱلَّذِي أَطَالَ ٱللَّـٰهُ عُمْرَهُ أَحْسَنَ إِلَيَّ.}\\
+  \enquote{The one who - may Allah lengthen his age - was good to me has arrived.}
+
+  \foreignlanguage{arabic}{قَدِمَ ٱلَّذِي وَهُوَ مُبْتَسِمٌ أَحْسَنَ إِلَيَّ.}\\
+  \enquote{The one who - and he is smiling - was good to me has arrived.}
+\end{enumerate}
+
+\section{The general connected nouns}\label{the-general-connected-nouns}
+
+The general connected nouns are unrestricted in significance, and may be applied to any individual who fits the criteria given in the connector.
+The two main general connected nouns are:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \foreignlanguage{arabic}{مَنْ} \emph{man}. Typically used for intelligent beings and translated as \enquote{who}.
+\item
+  \foreignlanguage{arabic}{مَا} \emph{mā}. Typically used for non-intelligent beings and translated as \enquote{what}.
+\end{enumerate}
+
+There are also some other rarely or dialectally used general connected nouns that we will not cover. These are \foreignlanguage{arabic}{أَيّ} \emph{ʾayy}, \foreignlanguage{arabic}{ذُو} \emph{d͡hū}, and \foreignlanguage{arabic}{ذَا} \emph{d͡hā}.\footnote{Fischer claims (§427):
+
+  \begin{quote}
+  Other interrogatives (§289) are also used as relatives:
+  \foreignlanguage{arabic}{عَرَفَ ٱلْمَکِيدَةَ وَکَيْفَ کَانَ ٱلْمَلِکُ أَوْقَعَهَا}
+  \enquote*{He knew the trick and how the king employed it.}
+  \foreignlanguage{arabic}{وَٱللّٰهِ مَا نُبَالِي أَيْنَ ذَهَبَ}
+  \enquote*{By God, we do not care where he went}; cf.~also §419b.
+  \end{quote}
+
+  However, we have not been able to find the classical grammarians including \foreignlanguage{arabic}{کيف}, \foreignlanguage{arabic}{أين}, etc. among \foreignlanguage{arabic}{الأسماء الموصولة}.
+  To understand how these interrogatives are to be analyzed in such sentences,
+  it may help to look up the \foreignlanguage{arabic}{إعراب} of the verses :
+  \foreignlanguage{arabic}{هُوَ الَّذِي يُصَوِّرُکُمْ فِي الْأَرْحَامِ کَيْفَ يَشَاءُ} {[}3:6{]}, and
+  \foreignlanguage{arabic}{لِيُرِيَهُ کَيْفَ يُوَارِي سَوْءَةَ أَخِيهِ} {[}5:31{]}
+  in linguisitic tafsīrs like
+  \foreignlanguage{arabic}{البحر المحيط لأبي حيان} and
+  \foreignlanguage{arabic}{التحرير والتنوير لابن عاشور}.
+
+  The article \foreignlanguage{arabic}{ٱل} is also generally included among \foreignlanguage{arabic}{الأسماء الموصولة المشترکة}.
+  However, we have deemed it too complicated to cover (and too confusing to even mention in main text).
+  See \foreignlanguage{arabic}{النحو الوافي لعباس حسن} vol.~1, pp.~356--357 for its treatment.}
+
+Unlike the specific connected nouns (\foreignlanguage{arabic}{ٱَلَّذِي}, etc.),
+the general connected nouns do not vary for number and gender.
+
+For example:
+
+\foreignlanguage{arabic}{أُحِبُّّ مَنْ يَعْدِلُ}\\
+\enquote{I love {[}him{]} who is just.}
+
+\foreignlanguage{arabic}{أُحِبُّّ مَنْ يَعْدِلُونَ}\\
+\enquote{I love {[}them{]} who are just.}
+
+\foreignlanguage{arabic}{ٱِصْنَعْ مَا بَدَا لَکَ.}\\
+\enquote{Do what seems (good) to you.}
+
+\foreignlanguage{arabic}{مَرَرْتُ بِمَا يُعْجِبُکَ.}\\
+\enquote{I passed by what will please you.}
+
+\subsection{\texorpdfstring{\foreignlanguage{arabic}{مَنْ} and \foreignlanguage{arabic}{مَا} after prepositions}{مَنْ and مَا after prepositions}}\label{ux645ux646-and-ux645ux627-after-prepositions}
+
+When \foreignlanguage{arabic}{مَنْ} and \foreignlanguage{arabic}{مَا} are directly preceded by the prepositions \foreignlanguage{arabic}{مِنْ} and \foreignlanguage{arabic}{عَنْ}, these prepositions lose their \foreignlanguage{arabic}{ن} and are joined to the following noun with the noun's \foreignlanguage{arabic}{م} doubled.
+For example:
+\foreignlanguage{arabic}{مَمَّنْ} \emph{mimman},
+\foreignlanguage{arabic}{مَمَّا} \emph{mimmā},
+\foreignlanguage{arabic}{عَمَّنْ} \emph{ɛamman},
+\foreignlanguage{arabic}{عَمَّا} \emph{ɛammā}.
+
+The preposition \foreignlanguage{arabic}{فِي} is also often (though not always) optionally attached to these connected nouns, thus: \foreignlanguage{arabic}{فِيمَنْ} \emph{fīman}, \foreignlanguage{arabic}{فِيمَا} \emph{fīmā}.
+
+The remaining prepositions follow the normal rules: \foreignlanguage{arabic}{عَلَى مَا}, \foreignlanguage{arabic}{کَمَنْ}, etc.
+But we will see, if Allāh wills, in chapter~\ref{questions}, that \foreignlanguage{arabic}{مَا} and \foreignlanguage{arabic}{مَنْ} are also used as question nouns, in which case the rules of joining prepositions to them will differ.
+
+\subsection{The link-back pronoun for the general connected nouns}\label{the-link-back-pronoun-for-the-general-connected-nouns}
+
+The general connected nouns
+\foreignlanguage{arabic}{مَنْ}
+and
+\foreignlanguage{arabic}{مَا}
+are themselves singular masculine in number and gender.
+However, they can be used to signify persons or things of any number and gender.
+
+Their link-back pronouns can then, optionally:
+
+\begin{enumerate}
+\def\labelenumi{\roman{enumi}.}
+\item
+  Either match the gender and number of the persons or things meant by the connected noun. For example:
+
+  \foreignlanguage{arabic}{وَمِنْهُمْ مَنْ يَسْتَمِعُونَ إِلَيْکَ}\\
+  \enquote{And among them are those who listen to you}\\
+  10:42
+
+  \foreignlanguage{arabic}{قَدْ خَابَتْ مَنْ فَعَلَتْ ذَلِکَ مِنْهُنَّ وَخَسِرَتْ}\\
+  \enquote{She has thwarted herself, whoever did that from them\textsubscript{3f}, and lost.}\\
+  {[}Jāmiɛ al-Tirmid͡hī:3318{]}
+
+  Note also how, in this example how, in addition to the feminine link-back doer pronouns in \foreignlanguage{arabic}{فَعَلَتْ} and \foreignlanguage{arabic}{خَسِرَتْ},
+  the feminine gender of the person signified by \foreignlanguage{arabic}{مَنْ} has also caused the \foreignlanguage{arabic}{تْ} of femininity to be added to the verb \foreignlanguage{arabic}{خَابَ} (of which \foreignlanguage{arabic}{مَنْ} is the doer noun).
+
+  \foreignlanguage{arabic}{جَمَعْتُ مِنَ ٱلْوَرَقِ مَا سَقَطْنَ.}
+  \enquote{I gathered what fell from the leaves.}
+
+  \foreignlanguage{arabic}{صَلِّ مِنَ ٱلرَّکَعَاتِ مَا يَتَيَسَّرْنَ.}\\
+  or\\
+  \foreignlanguage{arabic}{صَلِّ مِنَ ٱلرَّکَعَاتِ مَا تَتَيَسَّرُ.}\\
+  \enquote{Pray from the units (of prayer) what is easy.}
+\item
+  Or be singular masculine to match the connected noun itself. This is generally more common for \foreignlanguage{arabic}{مَا}. For example:
+
+  \foreignlanguage{arabic}{وَمِنْهُم مَّن يُؤْمِنُ بِهِۦ وَمِنْهُم مَّن لَّا يُؤْمِنُ بِهِۦ ۚ}\\
+  \enquote{And of them are those who believe in it, and of them are those who do not believe in it.}\\
+  10:40
+
+  \foreignlanguage{arabic}{جَمَعْتُ مِنَ ٱلْوَرَقِ مَا سَقَطَ.}
+  \enquote{I gathered what fell from the leaves.}
+
+  \foreignlanguage{arabic}{صَلِّ مِنَ ٱلرَّکَعَاتِ مَا يَتَيَسَّرُ.}\\
+  \enquote{Pray from the units (of prayer) what is easy.}
+
+  \foreignlanguage{arabic}{لَمْ أَجِدْ مَا أَعْتَذِرُ بِهِ}\\
+  \enquote{I did not find what I (could) make an excuse for with}.
+\end{enumerate}
+
+Both options can be utilized together as well. For example:
+
+\foreignlanguage{arabic}{بَلَىٰ مَنْ أَسْلَمَ وَجْهَهُۥ لِلَّهِ وَهُوَ مُحْسِنٌۭ فَلَهُۥٓ أَجْرُهُۥ عِندَ رَبِّهِۦ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ}\\
+\enquote{Yes, {[}on the contrary{]}, whoever submits his face {[}i.e., self{]} in Islām to Allāh while being a doer of good will have his reward with his Lord. And no fear will there be concerning them, nor will they grieve.}\\
+2:112
+
+\foreignlanguage{arabic}{فَمَن تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ}\\
+\enquote{whoever follows My guidance - there will be no fear concerning them, nor will they grieve.}\\
+2:38
+
+\subsubsection{Omitting the link-back pronoun}\label{omitting-the-link-back-pronoun-1}
+
+The same guidelines for omitting the link-back pronouns, which we learned for the specific connected nouns, apply also to the general connected nouns.
+For example:
+
+\foreignlanguage{arabic}{وَلَهُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ}\\
+\enquote{To Him belongs whoever is in the heavens and the earth.}\\
+21:19\\
+(for \foreignlanguage{arabic}{مَنْ هُوَ فِي ٱلسَّمَوَاتِ وَٱلْأَرْضِ})
+
+\foreignlanguage{arabic}{هَـٰذَا مَا کَنَزْتُمْ لِأَنْفُسِکُمْ}\\
+\enquote{This is what you hoarded for yourselves}\\
+9:35\\
+(for \foreignlanguage{arabic}{مَا کَنَزْتُمُوهُ})
+
+\foreignlanguage{arabic}{فَٱقْضِ مَا أَنتَ قَاضٍ}\\
+\enquote{So decree whatever you are to decree.}\\
+20:72\\
+(for \foreignlanguage{arabic}{مَا أَنْتَ قَاضِيهِ})
+
+\foreignlanguage{arabic}{أَنَا عِنْدَ مَنْ أَنْتَ.}\\
+\enquote{I am at his {[}house{]} at whose you (are).}\\
+(for \foreignlanguage{arabic}{مَنْ أَنْتَ عِنْدَهُ})
+
+\subsection{\texorpdfstring{Applicability of \foreignlanguage{arabic}{مَا} and \foreignlanguage{arabic}{مَنْ} to intelligent and non-intelligent beings}{Applicability of مَا and مَنْ to intelligent and non-intelligent beings}}\label{man-and-maa-for-intelligent}
+
+As we mentioned earlier, \foreignlanguage{arabic}{مَنْ} is typically used to refer to intelligent beings.
+And \foreignlanguage{arabic}{مَا} is typically used to refer to non-intelligent beings.
+However, there are some circumstances in which these roles can differ.
+
+\foreignlanguage{arabic}{مَنْ}
+may be used for non-intelligent beings when a non-intelligent being is compared with an intelligent being.
+For example,
+
+\begin{otherlanguage}{arabic}
+
+\begin{otherlanguage}{arabic}
+وَاللَّهُ خَلَقَ كُلَّ دَابَّةٍ مِّن مَّاءٍ ۖ
+فَمِنْهُم مَّن يَمْشِي عَلَىٰ بَطْنِهِ
+وَمِنْهُم مَّن يَمْشِي عَلَىٰ رِجْلَيْنِ
+وَمِنْهُم مَّن يَمْشِي عَلَىٰ أَرْبَعٍ ۚ
+
+\end{otherlanguage}
+
+\end{otherlanguage}
+
+\enquote{Allāh has created every {[}living{]} creature from water. And of them are those that move on their bellies, and of them are those that walk on two legs, and of them are those that walk on four.}
+
+\foreignlanguage{arabic}{مَنْ}
+may also be used for non-intelligent beings when
+attributes usually applicable to intelligent beings are applied to a non-intelligent being.
+For example:
+
+\foreignlanguage{arabic}{أَسِرْبَ الْقَطَا، هَلْ مَنْ يُعِيرُ جَنَاحَه * لَعَلِّي إِلَىٰ مَنْ قَدْ هَوِيتُ أَطِيرُ}\\
+O flock of birds, is there who will lend his wing\\
+that perhaps I may fly to whom I love\\
+\foreignlanguage{arabic}{أَ}: \enquote{O},
+\foreignlanguage{arabic}{سِرْب}: \enquote{flock},
+\foreignlanguage{arabic}{قَطَا}: a species of bird,
+\foreignlanguage{arabic}{هَلْ}: \enquote{is there?},
+\foreignlanguage{arabic}{يُعِيرُ}: \enquote{lend},
+\foreignlanguage{arabic}{جَنَاح}: \enquote{wing},
+\foreignlanguage{arabic}{لَعَلِّي}: \enquote{Perhaps I},
+\foreignlanguage{arabic}{هَوِيتُ}: \enquote{I love},
+\foreignlanguage{arabic}{أَطِيرُ}: \enquote{I fly}.
+
+\foreignlanguage{arabic}{مَنْ}
+may also be used for non-intelligent beings when
+there is a mixed group including both intelligent and non-intelligent beings,
+and the intelligent beings are given preference.
+For example:
+
+\foreignlanguage{arabic}{وَلِلَّهِ يَسْجُدُ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ}\\
+\enquote{And to Allāh prostrates whoever is within the heavens and the earth}\\
+13:15
+
+Similarly, \foreignlanguage{arabic}{مَا} may, in some circumstances, be used for intelligent beings.
+This may be when
+there is a mixed group including both intelligent and non-intelligent beings,
+and the non-intelligent beings are given preference because of their larger number.
+For example:
+
+\foreignlanguage{arabic}{يُسَبِّحُ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ}\\
+\enquote{Whatever is in the heavens and whatever is on the earth is exalting Allāh}\\
+62:1
+
+\foreignlanguage{arabic}{مَا} may also be used for intelligent beings when
+the person being referred to is vague to the speaker.
+For example:
+
+\foreignlanguage{arabic}{رَبِّ إِنِّي نَذَرْتُ لَکَ مَا فِي بَطْنِي مُحَرَّرًا}\\
+\enquote{My Lord, indeed I have pledged to You what is in my womb, consecrated {[}for Your service{]}}\\
+3:35
+
+\foreignlanguage{arabic}{مَا} may also be used for intelligent beings when
+the characteristics of an intelligent being are highlighted when referring to them. For example:
+
+\foreignlanguage{arabic}{فَانکِحُوا مَا طَابَ لَکُم مِّنَ النِّسَاءِ}\\
+\enquote{then marry those that please you of {[}other{]} women}\\
+4:3
+
+\subsection{Grammatical position of the general connected nouns}\label{grammatical-position-of-the-general-connected-nouns}
+
+The general connected noun may occur in various grammatical positions.
+Here are some examples:
+
+As a subject:
+
+\foreignlanguage{arabic}{ما عِنْدَکُمْ يَنْفَدُ}\\
+\enquote{Whatever you have will end}\\
+16:96
+
+As an information:
+
+\foreignlanguage{arabic}{مَالُکَ مَا قَدَّمْتَ، وَمَالُ وَارِثِکَ مَا أَخَّرْتَ}\\
+\enquote{Your wealth is what you have sent forward, and the wealth of your inheritors is what you have left behind.}\\
+adab:153
+
+As a doer:
+
+\foreignlanguage{arabic}{فَعَلَهُ مَنْ هُوَ خَيْرٌ مِنِّي}\\
+\enquote{it was done by one who was better than I}\\
+bukhari:668
+
+As a doee:
+
+\foreignlanguage{arabic}{اعْمَلُوا مَا شِئْتُمْ}\\
+\enquote{Do whatever you will}\\
+41:40
+
+Following a preposition:
+
+\foreignlanguage{arabic}{وَأَغْنِنِي بِفَضْلِکَ عَمَّنْ سِوَاکَ}\\
+\enquote{and make me independent from (all) who are besides You}\\
+tirmidhi:3563
+
+As a base noun in an annexation:
+
+\foreignlanguage{arabic}{هُمْ شَرُّ مَنْ خَلَقَ ٱللَّـٰهُ.}\\
+\enquote{They are the most evil of whom Allah has created.}
+
+\foreignlanguage{arabic}{مَا تَرَىٰ رَأْيَ مَا نَرَىٰ.}\\
+\enquote{You do not think what we think.}\\
+(literally: \enquote{You do not opine the opinion of what we opine.})
+
+\foreignlanguage{arabic}{أَمْرَ مَا تَحْذَرُ}\\
+\enquote{the matter of which you are wary}
+
+Unlike the specific connected nouns
+(\foreignlanguage{arabic}{ٱَلَّذِي}, etc),
+the general connected nouns do not occur as describers.\footnote{See \foreignlanguage{arabic}{کتاب المقتصد في شرح الإيضاح للجرجاني}, vol.~1, p.~319:
+
+  \begin{quote}
+  \foreignlanguage{arabic}{ومَن لا يوصف به، ألا ترى لا تقول: مررت بالرجل مَن أخوه منطلق. فتجعله صفةً للرجل، کما تقول: بالرجل الذي أخوه منطلق}
+  \end{quote}
+
+  Also \foreignlanguage{arabic}{شرح الرضي على الکافية لابن الحاجب} vol.~2, p.~314:
+
+  \begin{quote}
+  \foreignlanguage{arabic}{ولا يقع من الموصولات وصفا إلا ما في أوله اللام، نحو الذي والتي، واللاتي، وبابها، لمشابهته لفظا للصفة المشبهة في کونه على ثلاثة أحرف فصاعدا، بخلاف من وما، وأما (أي) الموصول فلم يقع وصفا، لأن الأغلب فيه: الشرط والاستفهام ووقوعه موصولا قليل فروعي ذلک الأکثر، وإنما يوصف بذو، الطائية وإن کانت على حرفين کما في قوله:}
+
+  \foreignlanguage{arabic}{٣٢٧ - فقولا لهذا المرء ذو جاء ساعيا \ldots{} هلم فان المشرفي الفرائض}
+  \end{quote}
+
+  Basically, of \foreignlanguage{arabic}{الأسماء الموصولة المشترکة} (which comprise \foreignlanguage{arabic}{ما, مَن, أي, أل, ذو, ذا}) only the dialectal \foreignlanguage{arabic}{ذو} appears as a \foreignlanguage{arabic}{صفة}.}
+
+So while we can say:
+
+\foreignlanguage{arabic}{مَرَرْتُ بِٱلرَّجُلِ ٱلَّذِي أَحْسَنَ إِلَيّ.}\\
+\enquote{I passed by the man who was good to me.}
+
+we cannot say:
+
+\(\times\) \foreignlanguage{arabic}{مَرَرْتُ بِٱلرَّجُلِ مَنْ أَحْسَنَ إِلَيّ.}
+
+We will have to say instead:
+
+\foreignlanguage{arabic}{مَرَرْتُ بِمَنْ أَحْسَنَ إِلَيّ.}
+
+The general connected noun can, however, occur as a replacement.\footnote{Fischer §421.2. The example too is taken from there. Originally, it is from \foreignlanguage{arabic}{السيرة النبوية لابن هشام}.}
+For example,
+
+\foreignlanguage{arabic}{والمسلمون مَن تبع رسول الله صلى الله عليه وسلم کثير}\\
+\enquote{And the Muslims, who follow the Messenger of Allāh, are many}
+
+\subsection{\texorpdfstring{Use with the preposition \foreignlanguage{arabic}{مِنْ}}{Use with the preposition مِنْ}}\label{use-with-the-preposition-ux645ux646}
+
+The preposition \foreignlanguage{arabic}{مِنْ} is frequently used with the general connected nouns to restrict the applicability of the connected noun to a group or type.
+This \foreignlanguage{arabic}{مِنْ} may come either before the connected noun, or after its connector.
+For example:
+
+\foreignlanguage{arabic}{فَأَعْطَانِي مَا کَانَ عِنْدَهُ مِنْ خُبْزٍ.}\\
+\enquote{Then he gave me what he had of bread.}
+
+\foreignlanguage{arabic}{مَنْ دَخَلَ ٱلشَّأْمَ مِنَ ٱلْعَرَبِ}\\
+\enquote{Those Arabs who entered Syria}\\
+(literally: \enquote{Who entered Syria from the Arabs})
+
+\foreignlanguage{arabic}{فَانکِحُوا مَا طَابَ لَکُم مِّنَ النِّسَاءِ}\\
+\enquote{then marry those that please you of {[}other{]} women}\\
+4:3
+
+\foreignlanguage{arabic}{اللَّهُمَّ اقْسِمْ لَنَا مِنْ خَشْيَتِکَ مَا يَحُولُ بَيْنَنَا وَبَيْنَ مَعَاصِيکَ}\\
+O Allāh, apportion for us, from the fear of You, (that) what shall come between us and disobedience of You\\
+tirmidhi:3502\\
+(The connected noun \foreignlanguage{arabic}{مَا} is the direct doee of the verb of command \foreignlanguage{arabic}{اقْسِمْ}.)
+
+\subsection{Use with a repeated word to express vagueness or uncertainty}\label{use-with-a-repeated-word-to-express-vagueness-or-uncertainty}
+
+The general connected nouns
+\foreignlanguage{arabic}{مَنْ} and \foreignlanguage{arabic}{مَا}
+are used with a word that is repeated to express a vague or uncertain quantity or quality.
+For example:
+
+\foreignlanguage{arabic}{هُمْ مَا هُمْ}\\
+\enquote{They are what they are.}
+
+\foreignlanguage{arabic}{نَزَلَ مَنْ نَزَلَ مِنْهُمْ}\\
+\enquote{Some of them came down.}\\
+(literally: Came down who came down from them.'')
+
+\foreignlanguage{arabic}{جَمَعْتُ مَا جَمَعْتُ}\\
+\enquote{I gathered what I gathered.}
+
+\section{Omitting the connected noun and/or the connector}\label{omitting-the-connected-noun-andor-the-connector}
+
+TODO. See النحو الوافي
+
+\section{Sentences without connected nouns}\label{sentences-without-connected-nouns}
+
+There are some sentences where we might expect a connected noun but which are always, or often (as the case may be), expressed in Arabic without a connected noun. These sentences are of different types:
+
+\subsection{Sentences with indefinite nouns needing a qualifying sentence}\label{sentences-with-indefinite-nouns-needing-a-qualifying-sentence}
+
+When an indefinite noun needs a qualifying sentence, it is natural in English to insert \enquote{that}, \enquote{which}, \enquote{who}, etc. between the noun and the following sentence. For example, \enquote{I passed by a man \emph{who} was sleeping.}
+
+In Arabic, however, we will not use any connected noun in such sentences.
+This is because the connected nouns are considered definite nouns.
+And therefore they may not be a describer to an indefinite noun.
+So while we can say:
+
+\foreignlanguage{arabic}{مَرَرْتُ بِٱلرَّجُلِ ٱلَّذِي يَنَامُ.}\\
+\enquote{I passed by the man who is sleeping.}
+
+we cannot say
+
+\(\times\) \foreignlanguage{arabic}{مَرَرْتُ بِرَجُلٍ ٱلَّذِي يَنَامُ.}
+
+Instead, we put the qualifying sentence directly after the indefinite noun. The qualifying sentence will then not be a connector, but will itself be the describer to the described noun:
+
+\foreignlanguage{arabic}{مَرَرْتُ بِرَجُلٍ يَنَامُ.}\\
+\enquote{I passed by a man (who) is sleeping.}
+
+Here is another example:
+
+\foreignlanguage{arabic}{جَلَسْتُ فِي مَجْلِسٍ قَدْ رُشَّ بِمَاءِ ٱلْوَرْدِ.}\\
+\enquote{I sat in a sitting (that) had been sprinkled with rose-water.}
+
+A connected noun can, however, follow an indefinite noun, if we intend to start a separate sentence with it, or if it is a \emph{replacement} (see chapter~\ref{the-replacement}). For example.
+
+\foreignlanguage{arabic}{وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ}\\
+\enquote{Resurrect him to a praiseworthy station, the one that you promised him}\\
+bukhari:614
+
+\foreignlanguage{arabic}{وَيْلٌ لِّکُلِّ هُمَزَةٍ لُّمَزَةٍ}\\
+\foreignlanguage{arabic}{الَّذِي جَمَعَ مَالًا وَعَدَّدَهُ}\\
+\enquote{Woe to every scorner and mocker\\
+Who collects wealth and {[}continuously{]} counts it.}\\
+104:1-2
+
+\subsection{Sentences containing a noun with generic definiteness}\label{sentences-containing-a-noun-with-generic-definiteness}
+
+Sometimes the definite article \foreignlanguage{arabic}{ٱَلْ}
+does not determine a particular individual, but
+makes a noun definite only in a generic way.
+In this case a qualifying sentence may directly follow it without any intermediate connected noun used as a describer.\footnote{Fischer §428.1, Wright vol.~2, §172, p.~318B.}
+Because there is no connected noun, the qualifying sentence is, again, not analyzed as a connector.
+For example:
+
+\foreignlanguage{arabic}{کَمَثَلِ الْحِمَارِ يَحْمِلُ أَسْفَارًا}\\
+\enquote{like that of a donkey who carries volumes {[}of books{]}}\\
+62:5\\
+(Note how the translator has actually translated \foreignlanguage{arabic}{ٱلْحِمَار} as \enquote{a donkey} because in English an indefinite noun is often used to indicate a generic type.)
+
+\foreignlanguage{arabic}{أَنْتَ ٱلْوَزِيرُ لَا يُعْصَىٰ}\\
+\enquote{You are the (sort of) vizier (who) is not disobeyed.}
+
+\foreignlanguage{arabic}{هُمُ ٱلْفَوَارِسُ يَحْمُونَ ٱلنِّسَاءَ.}\\
+\enquote{They are the (kind of) horsemen (who) protect the women.}
+
+\subsection{Sentences with prepositional or adverbial phrases}\label{sentences-with-prepositional-or-adverbial-phrases}
+
+If a sentence has a definite noun which is to be qualified by a prepositional or adverbial phrase, then in many cases, that phrase may directly follow the definite noun without any intermediate connected noun used a describer.
+But using a connected noun is also permissible if one wishes to emphasize that the specificity of the noun.
+When there is no connected noun, the prepositional or adverbial phrase is not analyzed as a connector, but is considered attached to an implied verb that has the idea of \enquote{being}, like \enquote{is}, \enquote{are}, etc.
+When there is a connected noun, then it is analyzed as a connector, as usual.
+For example:
+
+\foreignlanguage{arabic}{سِرْتُ فِي ٱلْحَدِيقَةِ عِنْدَ ٱلْمَسْجِدِ.}\\
+\enquote{I walked in the garden next to the mosque.}\\
+or\\
+\foreignlanguage{arabic}{سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي عِنْدَ ٱلْمَسْجِدِ.}\\
+or\\
+\foreignlanguage{arabic}{سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي هِيَ عِنْدَ ٱلْمَسْجِدِ.}\\
+\enquote{I walked in the {[}specific{]} garden that {[}is{]} next to the mosque.}
+
+\chapter{Questions}\label{questions}
+
+\section{Introduction}\label{introduction-24}
+
+TODO
+
+\section{\texorpdfstring{\foreignlanguage{arabic}{أَ} and \foreignlanguage{arabic}{هَلْ} questions}{أَ and هَلْ questions}}\label{ux623-and-ux647ux644-questions}
+
+TODO
+
+\section{\texorpdfstring{\foreignlanguage{arabic}{مَنْ} \enquote{Who} questions}{مَنْ ``Who'' questions}}\label{ux645ux646-who-questions}
+
+In chapter~\ref{the-connected-nouns} we have studied the use of \foreignlanguage{arabic}{مَنْ} \emph{man} as a connected noun.
+Now, we will study its use as a question noun.
+\foreignlanguage{arabic}{مَنْ} is used to formulate \enquote{who} questions.
+As with connected-nouns \foreignlanguage{arabic}{مَنْ} is typically used for intelligent beings.
+(See section~\ref{man-and-maa-for-intelligent} for when \foreignlanguage{arabic}{مَنْ} may be used for non-intelligent beings.)
+Except in case that we will note below,
+\foreignlanguage{arabic}{مَنْ}
+is usually placed in the beginning of the question sentence.
+Being a noun, \foreignlanguage{arabic}{مَنْ} may be in one of the three states but because it is a rigid noun, its state will not be apparent.
+\foreignlanguage{arabic}{مَنْ} is considered a singular masculine noun but it is used for all numbers and genders.
+
+\subsection{\texorpdfstring{\foreignlanguage{arabic}{مَنْ} in the u-state}{مَنْ in the u-state}}\label{ux645ux646-in-the-u-state}
+
+Here are some examples of the question noun
+\foreignlanguage{arabic}{مَنْ}
+as the subject of a sentence:
+
+\foreignlanguage{arabic}{مَنْ زَيْدٌ؟}\\
+\enquote{Who is Zayd?}
+
+\foreignlanguage{arabic}{مَنْ أَخُوهُ زَيْدٌ؟}\\
+\enquote{Whose brother is Zayd?}
+
+\foreignlanguage{arabic}{مَنْ أَنْتِ؟}\\
+\enquote{Who are you\textsubscript{1f}?}
+
+\foreignlanguage{arabic}{مَنِ هَـٰؤُلَاءِ ٱلنِّسَاءُ؟}\\
+\enquote{Who are these women?}
+
+\foreignlanguage{arabic}{مَنْ ٱلرِّجَالُ ٱلَّذِينَ جَاءُوا؟}\\
+``Who are the men that have come?
+
+In all the above sentences
+\foreignlanguage{arabic}{مَنْ}
+is the subject of the sentence,
+and the rest of the sentence constitutes the information.
+The noun following
+\foreignlanguage{arabic}{مَنْ},
+even when indefinite,
+cannot be considered its describer or replacement.
+Therefore, \foreignlanguage{arabic}{مَنْ رَجُلٌ؟} can only mean \enquote{Who is a man?}, not \enquote{Which man?}.
+
+When \foreignlanguage{arabic}{مَنْ} is used to ask about the doer of a verb, the verb is generally used with a singular masculine doer pronoun.
+For example:
+
+\foreignlanguage{arabic}{مَنْ جَاءَ؟}\\
+\enquote{Who came?}
+
+However, occasionally, the verb's doer pronoun can be made to match the gender of the person(s) who are being asked about,
+especially if the question is specific to a gender. For example:
+
+\foreignlanguage{arabic}{مَنْ کَانَتْ أُمَّکَ؟}\\
+\enquote{Who was your mother?}
+
+Note how \foreignlanguage{arabic}{کَانَتْ} has a feminine doer pronoun to match the gender of \foreignlanguage{arabic}{أُمَّکَ}.\footnote{Wright states (vol.~2, §170, p.~313C):
+
+  \begin{quote}
+  As interrogatives, \foreignlanguage{arabic}{مَنْ} and \foreignlanguage{arabic}{مَا} are construed with the masculine singular of a verb, but occasionally admit of the feminine when the predicate is of the feminine gender; as \foreignlanguage{arabic}{مَنْ کَانَتْ أُمَّکَ} who was your mother?
+  \end{quote}
+
+  From \foreignlanguage{arabic}{البحر المحيط لأبي حيان} for the tafsīr of \foreignlanguage{arabic}{فَإِن کَانَتَا ٱثۡنَتَیۡنِ} {[}4:176{]}:
+
+  \begin{quote}
+  \foreignlanguage{arabic}{\ldots{} مَن صُرِّحَ بِها ولَها لَفْظٌ ومَعْنًى. فَمَن أنَّثَ راعى المَعْنى، لِأنَّ التَّقْدِيرَ: أيَّةُ أُمٍّ کانَتْ أُمَّکَ. ومَدْلُولُ الخَبَرِ في هَذا مُخالِفٌ لِمَدْلُولِ الِاسْمِ، بِخِلافِ الآيَةِ، فَإنَّ المَدْلُولَيْنِ واحِدٌ، ولَمْ يُؤَنَّثْ في مَن کانَتْ أُمَّکَ لِتَأْنِيثِ الخَبَرِ، إنَّما أُنِّثَ مُراعاةً لِمَعْنى مَن إذْ أرادَ بِها مُؤَنَّثًا. ألا تَرى أنَّکَ تَقُولُ: مَن قامَتْ فَتُؤَنَّثُ مُراعاةً لِلْمَعْنى إذا أرَدْتَ السُّؤالَ عَنْ مُؤَنَّثٍ، ولا خَبَرَ هُنا فَيُؤَنَّثُ قامَتْ لِأجْلِهِ}
+  \end{quote}
+
+  From \foreignlanguage{arabic}{البحر المحيط لأبي حيان} for the tafsīr of \foreignlanguage{arabic}{ثُمَّ لَمۡ تَکُن فِتۡنَتُهُمۡ} {[}6:23{]}:
+
+  \begin{quote}
+  \foreignlanguage{arabic}{وأمّا مَن کانَتْ أُمَّکَ، فَإنَّهُ حَمَلَ اسْمَ کانَ عَلى مَعْنى (مَن)؛ لِأنَّ مَن لَها لَفْظٌ مُفْرَدٌ، ولَها مَعْنًى بِحَسَبِ ما تُرِيدُ مِن إفْرادٍ وتَثْنِيَةٍ وجَمْعٍ وتَذْکِيرٍ وتَأْنِيثٍ، ولَيْسَ الحَمْلُ عَلى المَعْنى لِمُراعاةِ الخَبَرِ، ألا تَرى أنَّهُ يَجِيءُ حَيْثُ لا خَبَرَ ؟ نَحْوَ ومِنهم مَن يَسْتَمِعُونَ إلَيْکَ. و(تَکُنْ) مِثْلُ مَن يا ذِئْبُ يَصْطَحِبانِ. ومَن تَقْنُتْ في قِراءَةِ التّاءِ، فَلَيْسَتْ تَأْنِيثُ کانَتْ لِتَأْنِيثِ الخَبَرِ، وإنَّما هو لِلْحَمْلِ عَلى مَعْنى (مَن) حَيْثُ أرَدْتَ بِهِ المُؤَنَّثَ، وکَأنَّکَ قُلْتَ: أيَّةُ امْرَأةٍ کانَتْ أُمَّکَ}
+  \end{quote}}
+
+If the question is regarding a specific number and gender, then we are more likely to insert the corresponding specific connected noun
+(\foreignlanguage{arabic}{ٱلَّذِي}, etc.)
+between the question noun \foreignlanguage{arabic}{مَن} and the verb.
+For example:
+
+\foreignlanguage{arabic}{مَنِ اللَّتَانِ تَظَاهَرَتَا عَلَى النَّبِيِّ صلى الله عليه وسلم مِنْ أَزْوَاجِهِ}\\
+``Who are the ones\textsubscript{2f}, from his wives, who aided one another against the Prophet ﷺ ?\\
+\href{https://sunnah.com/bukhari:4913}{sunnah.com/bukhari:4913}
+
+Note that now the dual feminine doer pronoun in \foreignlanguage{arabic}{تَظَاهَرَتَا} is the link-back pronoun that matches the connected noun \foreignlanguage{arabic}{ٱللَّتَانِ}.
+
+\section{\texorpdfstring{\foreignlanguage{arabic}{مَا} \enquote{What} questions}{مَا ``What'' questions}}\label{ux645ux627-what-questions}
+
+TODO
+
+\section{\texorpdfstring{\foreignlanguage{arabic}{أَيّ} \enquote{Which} questions}{أَيّ ``Which'' questions}}\label{ux623ux64a-which-questions}
+
+TODO
+
+\section{\texorpdfstring{\foreignlanguage{arabic}{کَيْفَ} \enquote{How} questions}{کَيْفَ ``How'' questions}}\label{ux643ux64aux641-how-questions}
+
+TODO
+
+\section{\texorpdfstring{\foreignlanguage{arabic}{أَيْنَ} \enquote{Where} questions}{أَيْنَ ``Where'' questions}}\label{ux623ux64aux646-where-questions}
+
+TODO
+
+\section{\texorpdfstring{\foreignlanguage{arabic}{مَتَىٰ} \enquote{When} questions}{مَتَىٰ ``When'' questions}}\label{ux645ux62aux649-when-questions}
+
+TODO
+
+\section{Other question words}\label{other-question-words}
+
+TODO
+
+\section{Differentiating question words from their other functions}\label{differentiating-question-words-from-their-other-functions}
+
+Many of the question words
+(\foreignlanguage{arabic}{أَ}, \foreignlanguage{arabic}{مَنْ}, \foreignlanguage{arabic}{مَا}, \foreignlanguage{arabic}{کَيْفَ}, etc.)
+also have other functions.
+For example,
+in chapter~\ref{the-connected-nouns} we learned that \foreignlanguage{arabic}{مَنْ}, \foreignlanguage{arabic}{مَا}, and \foreignlanguage{arabic}{أَيّ} are also connected nouns.
+Many of the question nouns can also be used as \emph{conditional nouns} that we will study in chapter~@ref(\ldots), if Allāh wills.
+
+In this section, we will discuss briefly how to determine when words like
+\foreignlanguage{arabic}{أَ}, \foreignlanguage{arabic}{مَنْ}, \foreignlanguage{arabic}{مَا}, \foreignlanguage{arabic}{کَيْفَ}, etc.
+are question words, and when they could have one of their other functions.
+
+The basic principle regarding a question sentence is that it is to be treated as one unit.
+A word from within a question sentence is not, individually, affected by anything outside the question.
+Let's try to understand this using an example.
+
+Consider the following sentence:
+
+\foreignlanguage{arabic}{ٱِسْأَلْ أَيُّهُمْ قَامَ}\\
+\emph{ʾisʾal ʾayyuhum qām}\\
+\enquote{Ask: \enquote*{Which of them stood?}}
+
+The speaker is commanding the addressed person to ask a group of people the question:
+\enquote{Which of them stood}.
+
+The question sentence is
+\foreignlanguage{arabic}{أَيُّهُمْ قَامَ}
+\emph{ʾayyuhum qām}
+\enquote{Which of them stood}.
+This entire sentence is considered the direct doee of the verb of command \foreignlanguage{arabic}{ٱسْأَلْ} \enquote{ask!}.
+The question noun \foreignlanguage{arabic}{أَيُّ} \emph{ʾayyu} is in the u-state because it is the subject of the question sentence.
+It does not become \foreignlanguage{arabic}{أَيَّ} \emph{ʾayya} in the a-state because it is not, by itself, the direct doee of
+\foreignlanguage{arabic}{ٱسْأَلْ}.
+Rather, as we have just stated, the entire question sentence is the direct doee.
+But because the direct doee is a sentence, and not an individual word, it does not indicate its state using, for example, an a-mark \foreignlanguage{arabic}{◌َ}.
+
+Now, let's modify the example. Consider now this sentence:
+
+\foreignlanguage{arabic}{ٱِسْأَلْ أَيَّهُمْ قَامَ}\\
+\emph{ʾisʾal ʾayyahum qām}\\
+Ask the one of them who stood!
+
+Now, the noun \foreignlanguage{arabic}{أَيَّ} is in the a-state because it (individually) is the direct doee of the verb of command
+\foreignlanguage{arabic}{ٱسْأَلْ}.
+The speaker is now commanding the addressed person to ask (something) of only the person who stood, out of a group of people. The rest of the people are not to be asked.
+Because the noun
+\foreignlanguage{arabic}{أَيَّ}
+is individually affected by the preceding verb
+\foreignlanguage{arabic}{ٱسْأَلْ}
+it is now not a question noun, and must be one of the other functions that the word
+\foreignlanguage{arabic}{أَيّ} can have.
+As a matter of fact, it is here a connected noun, and the sentence following it:
+\foreignlanguage{arabic}{قَامَ} \enquote{he stood} is its connector.
+
+The other noteworthy point regarding questions
+(besides their being considered one unit)
+is that they may only be preceded
+either by a verb of knowledge, (like \foreignlanguage{arabic}{عَلِمَ}, \foreignlanguage{arabic}{دَرىٰ}, etc.)
+or by an expression indicating that the question is being quoted.
+We have already seen an example of the question being quoted in the example:
+
+\foreignlanguage{arabic}{ٱِسْأَلْ أَيُّهُمْ قَامَ}\\
+\enquote{Ask: \enquote*{Which of them stood?}}
+
+An example of a question being preceded by a verb of knowledge is:
+
+\foreignlanguage{arabic}{مَا عَلِمْتُ أَذَهَبَ أَمْ مَکَثَ}\\
+I don't know whether he went or stayed.
+
+Here the question sentence is:
+\foreignlanguage{arabic}{أَذَهَبَ أَمْ مَکَثَ}
+\enquote{Did he go or did he stay?}
+
+By the way, a question sentence may be part of a bigger question as well. For example:
+
+\foreignlanguage{arabic}{أَتَدْرِي أَيُّهُمْ فِي ٱلدَّارِ؟}\\
+\emph{ʾatadrī ʾayyuhum fi -ddār}\\
+Do you know: which of them is in the house?
+
+Note now the subtle difference in meaning if we change the state of \foreignlanguage{arabic}{أَيّ} in the above example from the u-state to the a-state:
+
+\foreignlanguage{arabic}{أَتَدْرِي أَيَّهُمْ فِي ٱلدَّارِ؟}\\
+\emph{ʾatadrī ʾayyahum fi -ddār}\\
+Do you know the one of them who is in the house?
+
+When \foreignlanguage{arabic}{أَيّ} was in the u-state it was a question noun. And the speaker was asking the addressed person if he could figure out who, from among the group of people, was in the house.
+
+When \foreignlanguage{arabic}{أَيّ} is in the a-state it is now a connected noun.
+The connector's link-back pronoun is omitted (as is permissible in this case, see section~@ref(\ldots)). With the link-back pronoun restored, the sentence is
+\foreignlanguage{arabic}{أَتَدْرِي أَيَّهُمْ هُوَ فِي ٱلدَّارِ؟}
+And the speaker is asking the addressed person if he is familiar with the person who is in the house.
+Now he is not asking the addressed person to identify him, but rather if knows him as a person.
+
+This difference is apparent with
+\foreignlanguage{arabic}{أَيّ}
+because it is a flexible noun whose state is indicated by the vowel mark at its end.
+The same occurs in the other question nouns that are also connected nouns:
+\foreignlanguage{arabic}{مَا}, and \foreignlanguage{arabic}{مَنْ}
+but it won't often be as apparent because they are rigid nouns.
+
+As a final note, sometimes, one of the words like
+\foreignlanguage{arabic}{أَ}, \foreignlanguage{arabic}{مَنْ}, \foreignlanguage{arabic}{مَا}, \foreignlanguage{arabic}{کَيْفَ}, etc.
+may be preceded by parts of a sentence that are neither quoting, nor a verb of knowledge.
+Here we can be sure that the word is not a question word
+and
+must be one of its other functions. However,
+it still may not be easy to figure out what that other function is.
+Nevertheless, the meaning of the sentence can still usually be gleaned.
+For example:
+
+\foreignlanguage{arabic}{فَلْتَدْخُلْ مِنْ أَيِّ أَبْوَابِ الْجَنَّةِ شَاءَتْ}\\
+\enquote{then let her enter from whichever of the doors of paradise she wishes.}\footnote{Distinguishing question words from their other functions is often not straightforward. Consider the example:
+
+  \foreignlanguage{arabic}{أَتَدْرِي أَيَّ کِتَابٍ قَرَأَ؟}\\
+  Do you know which book he read?
+
+  \foreignlanguage{arabic}{أَيّ} is a question noun in the a-state because it is the direct doee of the verb \foreignlanguage{arabic}{قَرَأَ}. It can't be a connected noun because \foreignlanguage{arabic}{أَيَّ کِتَابٍ} is indefinite and connected nouns are always considered definite.
+
+  See also these excerpts:
+
+  From the tafsīr of \foreignlanguage{arabic}{وَإِذَا مَآ أُنزِلَتْ سُورَةٌ فَمِنْهُمْ مَّن يَقُولُ أَيُّکُمْ زَادَتْهُ هَـٰذِهِ إِيمَاناً} {[}9:124{]} from \foreignlanguage{arabic}{تفسير الآلوسي}:
+
+  \begin{quote}
+  \foreignlanguage{arabic}{وقرأ عبيد بن عمير \{أَيُّکُمْ\} بالنصب على تقدير فعل يفسره المذکور ويقدر مؤخرًا لأن الاستفهام له الصدر أي أيکم زادت زادته الخ.}
+  \end{quote}
+
+  From the tafsīr of \foreignlanguage{arabic}{ثُمَّ لَنَنزِعَنَّ مِن کُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى ٱلرَّحْمَـٰنِ عِتِيّاً} {[}9:124{]} from \foreignlanguage{arabic}{بداىع الفوائد لابن القيم}:
+
+  \begin{quote}
+  \foreignlanguage{arabic}{و ﴿أيُّهم أشَدُّ﴾ للنحاة فيه أقوال:}
+
+  \foreignlanguage{arabic}{أحدها: قول الخليل أنه مبتدأ وأشد خبره ولم يعمل لننزعن فيه لأنه محکي والتقدير الذي يقال فيه: ﴿أيُّهم أشَدُّ عَلى الرَّحْمَنِ عِتِيًّا﴾ وعلى هذا فـ (أي) استفهامية.}
+
+  \foreignlanguage{arabic}{الثاني: قول يونس أنه رفع على جهة التعليق للفعل السابق کما لو قلت علمت أنه أخوک فعلق الفعل عن الفعل کما تعلق أفعال القلوب.}
+
+  \foreignlanguage{arabic}{الثالث: قول سيبويه إن (أي) هنا موصولة مبنية على الضم والمسوغ لبنائها حذف صدر صلتها، وعنده أصل الکلام أيهم هو أشد فلما حذف صدر الصلة بنيت على الضم تشبيها لها بالغايات التي قد حذفت مضافاتها ک قبل وبعد وعلى کل واحد من الأقوال إشکالات نذکرها ثم نبين الصحيح إن شاء الله.}
+
+  \foreignlanguage{arabic}{فأما قول الخليل: فقيل يلزمه ستة أمور:}
+
+  \foreignlanguage{arabic}{الأول حذف الموصوف.}
+
+  \foreignlanguage{arabic}{الثاني: حذف الصلة.}
+
+  \foreignlanguage{arabic}{الثالث: حذف العائد لأن تقديره الذي يقال لهم إنهم أشد وهذا لا عهد لنا فيه باللغة.}
+
+  \foreignlanguage{arabic}{وأما ما يحذف من القول فإنه إنما يکون قولا مجردا عن کونه صلة لموصول نحو قوله: ﴿والمَلائِکَةُ باسِطُو أيْدِيهِمْ أخْرِجُوا أنْفُسَکُمُ﴾ أي يقولون أو قائلين ومثله: ﴿والَّذِينَ اتَّخَذُوا مِن دُونِهِ أوْلِياءَ ما نَعْبُدُهم إلاّ لِيُقَرِّبُونا إلى اللَّهِ زُلْفى﴾}
+
+  \foreignlanguage{arabic}{الرابع: أنه إذا قدر المحذوف هکذا لم يستقم الکلام فإنه يصير ﴿لَنَنْزِعَنَّ مِن کُلِّ شِيعَةٍ﴾ الذين يقال فيهم ﴿أيُّهم أشَدُّ﴾}
+
+  \foreignlanguage{arabic}{وهذا فاسد فإن ذلک المنزوع لا يقال فيه: ﴿أيُّهم أشَدُّ﴾ بل هو نفسه أشد أو من أشد الشيعة على الرحمن فلا يقع عليه الاستفهام بعد نزعه فتأمله.}
+
+  \foreignlanguage{arabic}{الخامس: أن الاستفهام لا يقع إلا بعد أفعال العلم والقول على الحکاية ولا يقع بعد غيره من الأفعال تقول علمت أزيد عندک أم عمرو ولو قلت ضربت أزيد أم عمرو لم يجز وننزعن ليس من أفعال العلم}
+
+  \foreignlanguage{arabic}{فإذا قلت: ضربت أيهم قام. لم تکن إلا موصولة ولا يصح أن يقال ضربت الذي يقال فيه أيهم قام، وإنما توهم مثل ذلک لکون اللفظ صالحا لجهة أخرى مستقيمة فيتوهم متوهم أن حمله على الجهة الأخرى يستقيم والذي يدل عليه أنه لو قدرت موضعه استفهاما صريحا ليس له جهة أخرى لم يجز}
+
+  \foreignlanguage{arabic}{فإذا قلت: ضرب أزيد عندک أم عمرو. لم يجز بخلاف ضرب أيهم عندک.}
+
+  \foreignlanguage{arabic}{فلو کان أيهم استفهاما لجاز الکلام مع الاستفهام الذي بمعناهما وإنما لم يقع الاستفهام إلا بعد أفعال العلم والقول أما القول فلأنه يحکي به کل جملة خبرية کانت أو إنشائية، وأما أفعال العلم فإنما وقع بعدها الاستفهام لکون الاستفهام مستعلما به فکأنک إذا قلت: أزيد عندک أم عمرو کان معناه أعلمني، وإذا قلت: علمت أزيد عندک أم عمرو.}
+
+  \foreignlanguage{arabic}{کان معناه علمت ما يطلب استعلامه فلهذا صح وقوع الاستفهام بعد العلم لأنه استعلام ثم حمل الحسبان والظن عليهما لکونهما من بابه ووجه آخر وهو کثرة استعمال أفعال العلم فجعل شأن ليس لغيرها.}
+
+  \foreignlanguage{arabic}{السادس: أن هذا الحذف الذي قدره في الآية حذف لا يدل عليه سياق فهو مجهول الوضع وکل حذف کان بهذه المنزلة کان تقديره من باب علم الغيب وأما قول يونس بن حبيب فإشکاله ظاهر فإن التعليق إنما يکون في أفعال القلوب نحو العلم والظن والحسبان دون غيرها.}
+
+  \foreignlanguage{arabic}{ولا يجوز أن تقول ضربت أيهم قام على أن تکون (أيهم) استفهاما وقد علق الفعل عن العمل فيه وأما قول سيبويه فإشکاله أنه بناء خارج عن النظائر ولم يوجد في اللغة شاهد له قال السهيلي ما ذکره سيبويه لو استشهد عليه بشاهد من نظم أو نثر أو وجدنا بعده في کلام فصيح شاهدا له لم نعدل به قولا ولا رأينا لغيره عنه طولا ولکنا لم نجز ما بين لمخالفته غيره لا سيما مثل هذه المخالفة فإنا لا نسلم أنه حذف من الکلام شيء وإن قال: إنه حذف ولا بد والتقدير أيهم هو أخوک فيقال: لم يبنوا في النکرة فيقولون مررت برجل أخوک أو رأيت رجلا أبوک أي هو أخوک وأبوک ولم خصوا أيا هذا دون سائر الأسماء أن يحذف من صلته ثم يبنى للحذف ومتى وجدنا شيئا من الجملة يحذف ثم يبنى الموصوف بالجملة من أجل ذلک الحذف وذلک الحذف لا نجعله متضمنا لمعنى الحرف ولا مضارعا له وهذه علة البناء وقد عدمت في أي قال والمختار قول الخليل ولکنه يحتاج إلى شرح وذلک أنه لم يرد بالحکاية ما يسبق إلى الفهم من تقدير معنى القول ولکنه أراد حکاية لفظ الاستفهام الذي هو أصل في أي کما يحکيه بعد العلم إذا قلت قد علمت من أخوک وأقام زيد أم قعد فقد ترکت الکلام على حاله قبل دخول الفعل لبقاء معنى الاختصاص والتعيين في أي الذي کان موجودا فيها وهي استفهام لأن ذلک المعنى هو الذي وضعت له استفهاما کانت أو خبرا کما حکوا لفظ النداء في قولهم اللهم اغفر لي أيها الرجل وارحمنا أيتها العصابة فنحکي لفظ هذا إشعارا بالتعيين والاختصاص الموجود في حال النداء لوجود معنى الاختصاص والتعيين فيه قال وقول يونس: إن الفعل ملغي حق وإن لم يکن من أفعال القلب وعلة إلغائه ما قدمناه من حکاية لفظ الاستفهام للاختصاص فإذا أتممت العلة وقلت ضربت أيهم أخوک. زالت مضارعة الاستفهام وغلب فيه معنى الخبر لوجود الصلة التامة بعده}
+
+  \foreignlanguage{arabic}{قال وأما قوله تعالى: ﴿وَسَيَعْلَمُ الَّذِينَ ظَلَمُوا أيَّ مُنْقَلَبٍ يَنْقَلِبُونَ﴾ وإجماعهم على أنها منصوبة بـ ﴿ينقلبون﴾ لا بـ ﴿سيعلم﴾ وقد کان يتصور فيها أن تکون منصوبة بـ سيعلم على جهة الاستفهام ولکن تکون موصولة والجملة صلتها والعائد محذوف ولکن منع من هذا أصل أصلناه ودليل أقمناه على أن الاسم الموصول إذا عني به المصدر ووصل بفعل مشتق من ذلک المصدر لم يجز لعدم الفائدة المطلوبة من الصلة وهي إيضاح الموصول وتبيينه والمصدر لا يوضح فعله المشتق من لفظه لأنه کأنه هو لفظا ومعنى إلا في المختلف الأنواع کما تقدم قال ووجه آخر أقوى من هذا وهو أن أيا لا تکون بمعنى الذي حتى تضاف إلى معرفة فتقول لقيت أيهم في الدار إذ من المحال أن يکون بمعنى الذي وهو نکرة والذي لا ينکر وهذا أصل يبنى عليه في (أي).}
+  \end{quote}
+
+  From \foreignlanguage{arabic}{معانى القآن للفراء} for the tafsīr of {[}2:69{]}:
+
+  \begin{quote}
+  \foreignlanguage{arabic}{فأعملْ في '' ما '' '' وأي '' الفعلَ الذي بعدَهما، ولا تُعمِل الذي قبلهما إذا کان مُشتقّاً من العِلْم ؛ کقولک : ما أعلم أَيُّهم قال ذاک، ولا أعلمنّ أَيُّهم قال ذاک، وما أدرِى أَيَّهم ضربت، فهو في العِلِم والإخبار والإنْباء وما أشبهها على ما وصفتُ لک. منه قول الله تبارک وتعالى :﴿ وَما أَدْرَاکَ ماهِيَهْ ﴾ ﴿ وَما أَدْرَاکَ ما يَوْمُ الدَّينِ ﴾ '' ما '' الثانية رفعٌ، فرفعتَها بيوم ؛ کقولک : ما أدراک أي شيء يومُ الدّين، وکذلک قول الله تبارک وتعالى :﴿ لِنَعْلَمَ أي الْحِزْبَيْنِ أَحْصَى ﴾ رفعتَه بأَحْصَى، وتقول إذا کان الفعل واقعا على أي : ما أدرى أَيَّهم ضربت. وإنما امتنعت من أن تُوقع على أي الفعل الذي قبلها من العلم وأشباهه ؛ لأنک تجِدُ الفعلَ غيرَ واقع على أي في المعنى ؛ ألا ترى أنک إذا قلت : اذْهَبْ فاعلم أيُّهما قام أنک تسأل غيرهما عن حالهما فتجد الفعل واقعا على الذي أعلمک، کما أنک تقول : سل أيُّهُمْ قام، والمعنى : سل الناس أيُّهُمْ قام. ولو أوقعت الفعل على '' أي '' فقلت : اسأل أيَّهُمْ قام لکنت کأنک تضمر أيّاً مرّة أخرى ؛ لأنک تقول : سل زيدا أيُّهُمْ قام، فإذا أوقعت الفعل على زيد فقد جاءت '' أي '' بعده. فکذلک '' أي '' إذا أوقعت عليها الفعل خرجت من معنى الاستفهام، وذلک إن أردته، جائز، تقول : لأضْرِبَنَّ أيَّهُم يقول ذاک ؛ لأنّ الضرب لا يقع على {[} اسم ثم يأتي بعد ذلک استفهام، وذلک لأن الضرب لا يقع على {]} اثنين، وأنتَ تقول في المسألة : سل عبد الله عن کذا، کأنک قلت : سله عن کذا، ولا يجوز ضربت عبد الله کذا وکذا إلا أن تريد صفة الضرب، فأما الأسماء فلا. وقول الله :﴿ ثُمَّ لَنَنْزِعَنّ مِنْ کُلِّ شِيعةٍ أيُّهُم أشَدُّ على الرّحْمَنِ عِتيّاً ﴾ من نصب أيّاً أوقع عليها النزع وليس باستفهام، کأنه قال : ثم لنستخرجن العاتيَ الذي هو أشد. وفيها وجهان من الرفع ؛ أحدهما أن تجعل الفعل مکتفيا بِمن في الوقوع عليها، کما تقول : قد قتلنا من کل قوم، وأصبنا من کل طعام، ثم تستأنف أيّاً فترفعها بالذي بعدها، کما قال جلّ وعزّ :﴿ يَبْتَغُونَ إلى رَبِّهِمُ الْوَسِيلَةَ أيُّهُمْ أَقْرَبُ ﴾ أي ينظرون أيُّهُم أقرب. ومثله ﴿ يُلْقُونَ أقْلاَمَهُمْ أَيُّهُمْ يَکْفُلُ مَرْيَمَ ﴾. وأما الوجه، الآخر فإن في قوله تعالى :﴿ ثم لَنَنْزِعَنّ مِنْ کلِّ شِيعَةٍ ﴾ لننزعن من الذين تشايعوا على هذا، ينظرون بالتشايع أيهم أشدّ وأخبث، وأيهم أشدّ على الرحمن عِتيّاً، والشيعة ويتشايعون سواء في المعنى. وفيه وجه ثالث من الرفع أن تجعل ﴿ ثُمّ لَننْزِعَنَّ مِنْ کُلِّ شِيعَةٍ ﴾ بالنداء ؛ أي لننادين ﴿ أيُّهُمْ أشدُّ على الرّحْمانِ عِتيّاً ﴾ وليس هذا الوجه يريدون. ومثله مما تعرفه به قوله :﴿ أفَلَمْ يَيْأَسِ الَّذِيِنَ آمنَوُا أَنْ لَوْ يشاء اللَّهُ لهَدَى الناس جَميعاً ﴾ فقال بعض المفسرين ﴿ أَفَلَمْ يَيْأَسِ الَّذِينَ آمَنُوا ﴾ : ألم يعلم، والمعنى - والله أعلم - أفلم ييأسوا علما بأن الله لو شاء لهدى الناس جميعا. وکذلک '' لَنَنْزِعَنّ '' يقول يريد ننزعهم بالنداء.}
+  \end{quote}}
+
 \appendix
 
 
@@ -15078,8 +15373,6 @@ When hamzah occurs in the beginning of a word, then:
 
 \subsubsection{In the middle of the word}\label{in-the-middle-of-the-word}
 
-The most general case is when hamzah is in the middle of a word.
-
 Arabic has three short vowels, three long vowels, two semi-vowels, and a zero-vowel indicated by a ø-mark {\tradarab{◌ْ}}. Each of these has an order of precedence and a hamzah seat, that we have shown in the table below:
 
 \begin{longtable}[]{@{}lll@{}}
@@ -15098,9 +15391,9 @@ Precedence & Vowel & Seated hamzah \\
 7. & {\tradarab{◌ْ}} & {\tradarab{ء}} \\
 \end{longtable}
 
-\textbf{Main rule:} Disregard any doubling mark {\tradarab{◌ّ}}. Consider the vowel on the consonant before the hamzah and the \emph{shortened} vowel on the hamzah itself. Determine which of the two vowels wins by being higher in precedence in the above table. The winning vowel's seat will be the seat of the hamzah.
+\textbf{Main rule:} Disregard any doubling mark {\tradarab{◌ّ}}. Consider the vowel on the consonant before the hamzah and the vowel on the hamzah itself. Determine which of the two vowels wins by being higher in precedence in the above table. The winning vowel's seat will be the seat of the hamzah.
 
-\textbf{Sub-rule:} If the main rule determines that hamzah is to be seated on alif, and there is a long \emph{ā} vowel on the hamzah using an alif, then hamzah shall be unseated. And the combination of {\tradarab{ءَا}} will usually be written as {\tradarab{آ}}.
+\textbf{Exception:} If the vowel \emph{ā} wins, but it is written not as an alif but as a {\tradarab{ىٰ}}, then the hamzah will be seated on an alif.
 
 Examples:
 
@@ -15114,9 +15407,9 @@ Examples:
 \begin{minipage}[b]{\linewidth}\raggedright
 Word
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Vowel on consonant before hamzah
+Vowel before hamzah
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Shortened vowel on hamzah
+Vowel on hamzah
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Winning vowel
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
@@ -15130,35 +15423,43 @@ Seated hamzah
 \vphantom{\huge J} {\tradarab{خَطِيءَة}} \emph{k͡haṭīʾah} & \emph{ī} & \emph{a} & \emph{ī} & {\tradarab{ء}} \\
 \vphantom{\huge J} {\tradarab{اسْتِيءَاس}} \emph{ʾistīʾās} & \emph{ī} & \emph{a} & \emph{ī} & {\tradarab{ء}} (Exception: {\tradarab{ءَا}} is not written as {\tradarab{آ}} when the preceding vowel is \emph{ī}.) \\
 \vphantom{\huge J} {\tradarab{تَوْءَم}} \emph{tawʾam} & \emph{aw} & \emph{a} & \emph{aw} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{سَوْءَة}} \emph{sawʾah} & \emph{aw} & \emph{a} & \emph{aw} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{مَوْئِل}} \emph{mawʾil} & \emph{aw} & \emph{i} & \emph{i} & {\tradarab{ئ}} \\
 \vphantom{\huge J} {\tradarab{سَائِل}} \emph{sāʾil} & \emph{ā} & \emph{i} & \emph{i} & {\tradarab{ئ}} \\
 \vphantom{\huge J} {\tradarab{تَسَاؤُل}} \emph{tasāʾul} & \emph{ā} & \emph{u} & \emph{u} & {\tradarab{ؤ}} \\
 \vphantom{\huge J} {\tradarab{تَسَاءَلَ}} \emph{tasāʾala} & \emph{ā} & \emph{a} & \emph{ā} & {\tradarab{ء}} \\
-\vphantom{\huge J} {\tradarab{قِرَاءَات}} \emph{qirāʾāt} & \emph{ā} & \emph{a} & \emph{ā} & {\tradarab{ء}} \\
-\vphantom{\huge J} {\tradarab{نُوآنٌ}} \emph{nūʾānun} & \emph{ū} & \emph{a} & \emph{ū} & {\tradarab{ء}} \\
-\vphantom{\huge J} {\tradarab{مَسْؤُول}} \emph{masʾūl} & {\tradarab{◌ْ}} & \emph{u} & \emph{u} & {\tradarab{ؤ}} \\
-\vphantom{\huge J} {\tradarab{تَرْئِيس}} \emph{tarʾīs} & {\tradarab{◌ْ}} & \emph{i} & \emph{i} & {\tradarab{ئ}} \\
-\vphantom{\huge J} {\tradarab{مِرْآة}} \emph{mirʾāh} & {\tradarab{◌ْ}} & \emph{a} & \emph{a} & {\tradarab{ء}} (Using sub-rule.) \\
-\vphantom{\huge J} {\tradarab{ظَمْآن}} \emph{ḍ͡hamʾān} & {\tradarab{◌ْ}} & \emph{a} & \emph{a} & {\tradarab{ء}} (Using sub-rule.) \\
+\vphantom{\huge J} {\tradarab{قِرَاءَات}} \emph{qirāʾāt} & \emph{ā} & \emph{ā} & \emph{ā} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{نُوآنٌ}} \emph{nūʾānun} & \emph{ū} & \emph{ā} & \emph{ū} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{مَسْءُول}} \emph{masʾūl} & {\tradarab{◌ْ}} & \emph{ū} & \emph{ū} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{تَرْءِيس}} \emph{tarʾīs} & {\tradarab{◌ْ}} & \emph{ī} & \emph{ī} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{مِرْآة}} \emph{mirʾāh} & {\tradarab{◌ْ}} & \emph{ā} & \emph{ā} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{ظَمْآن}} \emph{ḍ͡hamʾān} & {\tradarab{◌ْ}} & \emph{ā} & \emph{ā} & {\tradarab{ء}} \\
 \vphantom{\huge J} {\tradarab{مَسْأَلَة}} \emph{masʾalah} & {\tradarab{◌ْ}} & \emph{a} & \emph{a} & {\tradarab{أ}} \\
 \vphantom{\huge J} {\tradarab{الْمَرْأَة}} \emph{almarʾah} & {\tradarab{◌ْ}} & \emph{a} & \emph{a} & {\tradarab{أ}} \\
+\vphantom{\huge J} {\tradarab{أَسْئِلَة}} \emph{ʾasʾilah} & {\tradarab{◌ْ}} & \emph{i} & \emph{i} & {\tradarab{ئ}} \\
+\vphantom{\huge J} {\tradarab{أَفْئِدَة}} \emph{ʾafʾidah} & {\tradarab{◌ْ}} & \emph{i} & \emph{i} & {\tradarab{ئ}} \\
 \vphantom{\huge J} {\tradarab{بِئْسَ}} \emph{biʾsa} & \emph{i} & {\tradarab{◌ْ}} & \emph{i} & {\tradarab{ئ}} \\
 \vphantom{\huge J} {\tradarab{سُؤْل}} \emph{suʾl} & \emph{u} & {\tradarab{◌ْ}} & \emph{u} & {\tradarab{ؤ}} \\
 \vphantom{\huge J} {\tradarab{کَأْس}} \emph{kaʾs} & \emph{a} & {\tradarab{◌ْ}} & \emph{a} & {\tradarab{أ}} \\
 \vphantom{\huge J} {\tradarab{سُئِلَ}} \emph{suʾila} & \emph{u} & \emph{i} & \emph{i} & {\tradarab{ئ}} \\
 \vphantom{\huge J} {\tradarab{يَئِسَ}} \emph{yaʾisa} & \emph{a} & \emph{i} & \emph{i} & {\tradarab{ئ}} \\
-\vphantom{\huge J} {\tradarab{رَئِيس}} \emph{raʾīs} & \emph{a} & \emph{i} & \emph{i} & {\tradarab{ئ}} \\
-\vphantom{\huge J} {\tradarab{سُؤَال}} \emph{suʾāl} & \emph{u} & \emph{a} & \emph{u} & {\tradarab{ؤ}} \\
-\vphantom{\huge J} {\tradarab{رُؤُوس}} \emph{ruʾūs} & \emph{u} & \emph{u} & \emph{u} & {\tradarab{ؤ}} \\
+\vphantom{\huge J} {\tradarab{مُطْمَئِنّ}} \emph{muṭmaʾinn} & \emph{a} & \emph{i} & \emph{i} & {\tradarab{ئ}} \\
+\vphantom{\huge J} {\tradarab{سُؤَال}} \emph{suʾāl} & \emph{u} & \emph{ā} & \emph{u} & {\tradarab{ؤ}} \\
+\vphantom{\huge J} {\tradarab{رَءِيس}} \emph{raʾīs} & \emph{a} & \emph{ī} & \emph{ī} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{رُءُوس}} \emph{ruʾūs} & \emph{u} & \emph{ū} & \emph{ū} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{شُءُون}} \emph{s͡huʾūn} & \emph{u} & \emph{ū} & \emph{ū} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{رَءُوف}} \emph{raʾūf} & \emph{a} & \emph{ū} & \emph{ū} & {\tradarab{ء}} \\
 \vphantom{\huge J} {\tradarab{لُؤَيّ}} \emph{luʾayy} & \emph{u} & \emph{a} & \emph{u} & {\tradarab{ؤ}} \\
-\vphantom{\huge J} {\tradarab{شَنَآن}} \emph{s͡hanaʾān} & \emph{a} & \emph{a} & \emph{a} & {\tradarab{ء}} (Using sub-rule.) \\
+\vphantom{\huge J} {\tradarab{شَنَآن}} \emph{s͡hanaʾān} & \emph{a} & \emph{ā} & \emph{ā} & {\tradarab{ء}} \\
 \vphantom{\huge J} {\tradarab{سَأَلَ}} \emph{saʾala} & \emph{a} & \emph{a} & \emph{a} & {\tradarab{أ}} \\
-\vphantom{\huge J} {\tradarab{رَأَىٰ}} \emph{raʾā} & \emph{a} & \emph{a} & \emph{a} & {\tradarab{أ}} (Sub-rule doesn't apply because \emph{ā} vowel at end represented by {\tradarab{ىٰ}}, not alif.) \\
 \vphantom{\huge J} {\tradarab{رَأَّسَ}} \emph{raʾʾasa} & \emph{a} & \emph{a} & \emph{a} & {\tradarab{أ}} \\
+\vphantom{\huge J} {\tradarab{سَيِّئَة}} \emph{sayyiʾah} & \emph{i} & \emph{a} & \emph{i} & {\tradarab{ئ}} \\
 \vphantom{\huge J} {\tradarab{يُرَئِّسُ}} \emph{yuraʾʾisu} & \emph{a} & \emph{i} & \emph{i} & {\tradarab{ئ}} \\
 \vphantom{\huge J} {\tradarab{رُئِّسَ}} \emph{ruʾʾisa} & \emph{u} & \emph{i} & \emph{i} & {\tradarab{ئ}} \\
 \vphantom{\huge J} {\tradarab{تَفَؤُّل}} \emph{tafaʾʾul} & \emph{a} & \emph{u} & \emph{u} & {\tradarab{ؤ}} \\
-\vphantom{\huge J} {\tradarab{سَءَّال}} \emph{saʾʾāl} & \emph{a} & \emph{a} & \emph{a} & {\tradarab{ء}} (Using sub-rule.) \\
-\vphantom{\huge J} {\tradarab{لَءَّال}} \emph{laʾʾāl} & \emph{a} & \emph{a} & \emph{a} & {\tradarab{ء}} (Using sub-rule.) \\
+\vphantom{\huge J} {\tradarab{سَءَّال}} \emph{saʾʾāl} & \emph{a} & \emph{ā} & \emph{ā} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{لَءَّال}} \emph{laʾʾāl} & \emph{a} & \emph{ā} & \emph{ā} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{رَأَىٰ}} \emph{raʾā} & \emph{a} & \emph{ā} & \emph{ā} & {\tradarab{أ}} (using exception) \\
 \end{longtable}
 
 \subsubsection{At the end of the word}\label{at-the-end-of-the-word}
@@ -15259,29 +15560,45 @@ Seated hamzah
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-\vphantom{\huge J} {\tradarab{بَرِيءُونَ}} \emph{barīʾūna} & \emph{ī} & \emph{u} & \emph{ī} & {\tradarab{ء}} \\
-\vphantom{\huge J} {\tradarab{بَرِيءَانِ}} \emph{barīʾāni} & \emph{ī} & \emph{a} & \emph{ī} & {\tradarab{ء}} \\
-\vphantom{\huge J} {\tradarab{بَرِيءِينَ}} \emph{barīʾīna} & \emph{ī} & \emph{i} & \emph{ī} & {\tradarab{ء}} \\
-\vphantom{\huge J} {\tradarab{بَرِيءَيْنِ}} \emph{barīʾayni} & \emph{ī} & \emph{a} & \emph{ī} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{بَرِيءُونَ}} \emph{barīʾūna} & \emph{ī} & \emph{ū} & \emph{ī} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{بَرِيءَانِ}} \emph{barīʾāni} & \emph{ī} & \emph{ā} & \emph{ī} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{بَرِيءِينَ}} \emph{barīʾīna} & \emph{ī} & \emph{ī} & \emph{ī} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{بَرِيءَيْنِ}} \emph{barīʾayni} & \emph{ī} & \emph{ay} & \emph{ī/ay} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{سِيءَتْ}} \emph{sīʾat} & \emph{ī} & \emph{a} & \emph{ī} & {\tradarab{ء}} \\
 \vphantom{\huge J} {\tradarab{شَيْءُهُ}} \emph{s͡hayʾuhu} & \emph{ay} & \emph{u} & \emph{ay} & {\tradarab{ء}} \\
 \vphantom{\huge J} {\tradarab{شَيْءَهُ}} \emph{s͡hayʾahu} & \emph{ay} & \emph{a} & \emph{ay} & {\tradarab{ء}} \\
 \vphantom{\huge J} {\tradarab{شَيْءِهِ}} \emph{s͡hayʾihi} & \emph{ay} & \emph{i} & \emph{ay} & {\tradarab{ء}} \\
-\vphantom{\huge J} {\tradarab{شَيْءَانِ}} \emph{s͡hayʾāni} & \emph{ay} & \emph{a} & \emph{ay} & {\tradarab{ء}} \\
-\vphantom{\huge J} {\tradarab{شَيْءَيْنِ}} \emph{s͡hayʾayni} & \emph{ay} & \emph{a} & \emph{ay} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{شَيْءَانِ}} \emph{s͡hayʾāni} & \emph{ay} & \emph{ā} & \emph{ay} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{شَيْءَيْنِ}} \emph{s͡hayʾayni} & \emph{ay} & \emph{ay} & \emph{ay} & {\tradarab{ء}} \\
 \vphantom{\huge J} {\tradarab{مَجِيءُهُ}} \emph{majīʾuhu} & \emph{ī} & \emph{u} & \emph{ī} & {\tradarab{ء}} \\
 \vphantom{\huge J} {\tradarab{مَجِيءَهُ}} \emph{majīʾahu} & \emph{ī} & \emph{a} & \emph{ī} & {\tradarab{ء}} \\
 \vphantom{\huge J} {\tradarab{مَجِيءِهِ}} \emph{majīʾihi} & \emph{ī} & \emph{i} & \emph{ī} & {\tradarab{ء}} \\
 \vphantom{\huge J} {\tradarab{سُوئِهِ}} \emph{sūʾihi} & \emph{ū} & \emph{i} & \emph{i} & {\tradarab{ئ}} \\
 \vphantom{\huge J} {\tradarab{ضَوْئِهِ}} \emph{ḍawʾihi} & \emph{aw} & \emph{i} & \emph{i} & {\tradarab{ئ}} \\
-\vphantom{\huge J} {\tradarab{يَسُوءُونَ}} \emph{yasūʾūna} & \emph{ū} & \emph{u} & \emph{ū} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{يَسُوءُونَ}} \emph{yasūʾūna} & \emph{ū} & \emph{ū} & \emph{ū} & {\tradarab{ء}} \\
 \vphantom{\huge J} {\tradarab{سُوءُهُ}} \emph{sūʾuhu} & \emph{ū} & \emph{u} & \emph{ū} & {\tradarab{ء}} \\
 \vphantom{\huge J} {\tradarab{سُوءَهُ}} \emph{sūʾahu} & \emph{ū} & \emph{a} & \emph{ū} & {\tradarab{ء}} \\
-\vphantom{\huge J} {\tradarab{سُوءَانِ}} \emph{sūʾāni} & \emph{ū} & \emph{a} & \emph{ū} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{سُوءَانِ}} \emph{sūʾāni} & \emph{ū} & \emph{ā} & \emph{ū} & {\tradarab{ء}} \\
 \vphantom{\huge J} {\tradarab{ضَوْءَهُ}} \emph{ḍawʾahu} & \emph{aw} & \emph{a} & \emph{aw} & {\tradarab{ء}} \\
-\vphantom{\huge J} {\tradarab{ضَوْءَانِ}} \emph{ḍawʾāni} & \emph{aw} & \emph{a} & \emph{aw} & {\tradarab{ء}} \\
-\vphantom{\huge J} {\tradarab{مُتَّکِئِينَ}} \emph{muttakiʾīna} & \emph{i} & \emph{i} & \emph{i} & {\tradarab{ئ}} \\
-\vphantom{\huge J} {\tradarab{يُبَرِّئُونَ}} \emph{yubarriʾūna} & \emph{i} & \emph{u} & \emph{i} & {\tradarab{ئ}} \\
-\vphantom{\huge J} {\tradarab{يُبَرَّؤُونَ}} \emph{yubarraʾūna} & \emph{a} & \emph{u} & \emph{u} & {\tradarab{ؤ}} \\
+\vphantom{\huge J} {\tradarab{ضَوْءَانِ}} \emph{ḍawʾāni} & \emph{aw} & \emph{ā} & \emph{aw} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{مُرْجَءَلت}} \emph{murjaʾāt} & \emph{a} & \emph{ā} & \emph{ā} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{خَاطِءِين}} \emph{k͡hāṭiʾīn} & \emph{i} & \emph{ī} & \emph{ī} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{خَاسِءِين}} \emph{k͡hāsiʾīn} & \emph{i} & \emph{ī} & \emph{ī} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{مُتَّکِءِينَ}} \emph{muttakiʾīna} & \emph{i} & \emph{ī} & \emph{ī} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{مُتَّکِءُونَ}} \emph{muttakiʾūna} & \emph{i} & \emph{ū} & \emph{ū} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{يُبَرِّئُونَ}} \emph{yubarriʾūna} & \emph{i} & \emph{ū} & \emph{i} & {\tradarab{ئ}} \\
+\vphantom{\huge J} {\tradarab{يُبَرَّءُونَ}} \emph{yubarraʾūna} & \emph{a} & \emph{ū} & \emph{ū} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{ٱقْرَءُوا}} \emph{iqraʾū} & \emph{a} & \emph{ū} & \emph{ū} & {\tradarab{ء}} \\
+\vphantom{\huge J} {\tradarab{سَيِّئَات}} \emph{sayyiʾāt} & \emph{i} & \emph{ā} & \emph{i} & {\tradarab{ئ}} \\
+\vphantom{\huge J} {\tradarab{فِئَات}} \emph{fiʾāt} & \emph{i} & \emph{ā} & \emph{i} & {\tradarab{ئ}} \\
+\vphantom{\huge J} {\tradarab{فِئُون}} \emph{fiʾūn} & \emph{i} & \emph{ū} & \emph{i} & {\tradarab{ئ}} \\
+\vphantom{\huge J} {\tradarab{مِئَات}} \emph{miʾāt} & \emph{i} & \emph{ā} & \emph{i} & {\tradarab{ئ}} \\
+\vphantom{\huge J} {\tradarab{مِئُون}} \emph{miʾūn} & \emph{i} & \emph{ū} & \emph{i} & {\tradarab{ئ}} \\
+\vphantom{\huge J} {\tradarab{يُطْفِئُوا}} \emph{yuṭfiʾū} & \emph{i} & \emph{ū} & \emph{i} & {\tradarab{ئ}} \\
+\vphantom{\huge J} {\tradarab{مُسْتَهْزِئُون}} \emph{mustahziʾūn} & \emph{i} & \emph{ū} & \emph{i} & {\tradarab{ئ}} \\
+\vphantom{\huge J} {\tradarab{مُنْشِئُون}} \emph{muns͡hiʾūn} & \emph{i} & \emph{ū} & \emph{i} & {\tradarab{ئ}} \\
+\vphantom{\huge J} {\tradarab{يُضَاهِئُونَ}} \emph{yuḍāhiʾūna} & \emph{i} & \emph{ū} & \emph{i} & {\tradarab{ئ}} \\
+\vphantom{\huge J} {\tradarab{مُرْجِئُون}} \emph{murjiʾūn} & \emph{i} & \emph{ū} & \emph{i} & {\tradarab{ئ}} \\
 \end{longtable}
 
 There are some exceptions:
@@ -15344,30 +15661,53 @@ There are some historical and regional variants to the above rules. The main one
 \begin{itemize}
 \tightlist
 \item
-  \vphantom{\huge J} {\tradarab{مَسْءُول}} instead of {\tradarab{مَسْؤُول}}
-\item
-  \vphantom{\huge J} {\tradarab{أَسْءِلَة}} instead of {\tradarab{أَسْئِلَة}}
-\item
   \vphantom{\huge J} {\tradarab{مَسْءَلَة}} instead of {\tradarab{مَسْأَلَة}}
 \end{itemize}
 
 However, this rule appears to be not consistently followed. For example, \emph{nas͡hʾah} is generally always written {\tradarab{نَشْأَة}} never {\tradarab{نَشْءَة}}.
 
-A second variant is to avoid the repetition of vowel letters like {\tradarab{و}} and {\tradarab{ي}}. So they write:
+Another variant is that when word final hamzah has an \emph{i}-mark and is followed by a suffix starting with \emph{ū}, then the hamzah is written unseated instead of as \foreignlanguage{arabic}{ئ}. Examples:
 
 \begin{itemize}
 \tightlist
 \item
-  \vphantom{\huge J} {\tradarab{رُءُوس}} instead of {\tradarab{رُؤُوس}}.
+  \vphantom{\huge J} {\tradarab{يُطْفِءُوا}} \emph{yuṭfiʾū} instead of {\tradarab{يُطْفِئُوا}}
 \item
-  \vphantom{\huge J} {\tradarab{رَءِيس}} instead of {\tradarab{رَئِيس}}.
+  \vphantom{\huge J} {\tradarab{مُسْتَهْزِءُون}} \emph{mustahziʾūn}instead of {\tradarab{مُسْتَهْزِئُون}}
+\item
+  \vphantom{\huge J} {\tradarab{مُنْشِءُون}} \emph{muns͡hiʾūn} instead of {\tradarab{مُنْشِئُون}}
+\item
+  \vphantom{\huge J} {\tradarab{يُضَاهِءُونَ}} \emph{yuḍāhiʾūna} instead of {\tradarab{يُضَاهِئُونَ}}
+\item
+  \vphantom{\huge J} {\tradarab{مُرْجِءُون}} \emph{murjiʾūn} instead of {\tradarab{مُرْجِئُون}}
 \end{itemize}
+
+Excepted from this variant are deficient words like:
+
+\begin{itemize}
+\tightlist
+\item
+  \vphantom{\huge J} {\tradarab{فِئُون}} \emph{fiʾūn}\\
+\item
+  \vphantom{\huge J} {\tradarab{مِئُون}} \emph{miʾūn}
+\end{itemize}
+
+Another, more modern, variant is to modify the precedence rule of vowels. According to this modern variant, the vowel before hamzah is compared with the \emph{shortened} vowel on the hamzah. This results in some changes in the hamzah seat. For example:
+
+\begin{itemize}
+\tightlist
+\item
+  \vphantom{\huge J} {\tradarab{مَسْؤُول}} instead of {\tradarab{مَسْءُول}}
+\item
+  \vphantom{\huge J} {\tradarab{رُؤُوس}} instead of {\tradarab{رُءُوس}}
+\end{itemize}
+
+Excepted from this variant is the combination \foreignlanguage{arabic}{aEA} which will continue to be written as \foreignlanguage{arabic}{ـَءَا} or \foreignlanguage{arabic}{ـَآ}. For example: {\tradarab{شَنَآن}}, {\tradarab{مُرْجَءَات}}.
 
 \section{Why so complicated?}\label{why-so-complicated}
 
 Hamzah was originally not pronounced everywhere in some Classical Arabic dialects.
-So, for many words, speakers of these dialects would typically only pronounce hamzah in the beginning of a word.
-When hamzah would occur in the middle of a word, they would replace it with an \emph{a}, \emph{u}, or \emph{i} vowel.
+For speakers of these dialects, when hamzah would occur in the middle of a word, they would replace it with an \emph{a}, \emph{u}, or \emph{i} vowel.
 So they would adjust their pronunciation as follows:
 
 \begin{longtable}[]{@{}
@@ -15684,8 +16024,6 @@ muslim:2024b
 abudawud:2257
 
 \printendnotes[itemize]
-%The following line is needed because Notes is an unnumbered chapter and otherwise fancy header will print the header text for the previous chapter "Contents"
 
-%\markboth {\textsc{\MakeLowercase{Notes}}}{\textsc{\MakeLowercase{Notes}}}
 
 \end{document}
