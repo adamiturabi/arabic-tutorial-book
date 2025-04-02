@@ -250,7 +250,8 @@ function SubAlphabetLetter(instr, sw)
 end
 function ArTxtReplace(text2)
   local text3 = ''
-  text3 = text2:gsub("ك", "ک")
+  --text3 = text2:gsub("ك", "ک")
+  text3 = text2
   return text3
 end
 function DisplayAlphabetLetter(elem, sw)

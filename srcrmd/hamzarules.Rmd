@@ -137,6 +137,7 @@ Plug it into the precedence table as above to determine the seat of hamzah.
 |\vphantom{\huge J} [عِبْءُ]{.tradar} [eibEu]{.trn}       | [◌ْ]{.tradar}   | [ء]{.tradar} |
 |\vphantom{\huge J} [شَطْءُ]{.tradar} [caTEu]{.trn}       | [◌ْ]{.tradar}   | [ء]{.tradar} |
 |\vphantom{\huge J} [يُهَدِّئُ]{.tradar} [yuhaddiEu]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
+|\vphantom{\huge J} [مُتَّكِئَ]{.tradar} [muttakiEa]{.trn}  | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [سَيِّئُ]{.tradar} [sayyiEu]{.trn}     | [i]{.trn}  | [ئ]{.tradar} |
 |\vphantom{\huge J} [بَطُؤَ]{.tradar} [baTuEa]{.trn}      | [u]{.trn}  | [ؤ]{.tradar} |
 |\vphantom{\huge J} [يَهْدَأُ]{.tradar} [yahdaEu]{.trn}    | [a]{.trn}  | [أ]{.tradar} |
@@ -190,11 +191,11 @@ Examples:
 |\vphantom{\huge J} [سُوءَانِ]{.tradar} [sUEAni]{.trn}        | [U]{.trn}  | [A]{.trn} | [U]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [ضَوْءَهُ]{.tradar} [DawEahu]{.trn}        | [aw]{.trn} | [a]{.trn} | [aw]{.trn}  | [ء]{.tradar} |
 |\vphantom{\huge J} [ضَوْءَانِ]{.tradar} [DawEAni]{.trn}       | [aw]{.trn} | [A]{.trn} | [aw]{.trn}  | [ء]{.tradar} |
-|\vphantom{\huge J} [مُرْجَءَلت]{.tradar} [murjaEAt]{.trn}     | [a]{.trn}  | [A]{.trn} | [A]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [مُرْجَءَات]{.tradar} [murjaEAt]{.trn}     | [a]{.trn}  | [A]{.trn} | [A]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [خَاطِءِين]{.tradar} [xATiEIn]{.trn}      | [i]{.trn}  | [I]{.trn} | [I]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [خَاسِءِين]{.tradar} [xAsiEIn]{.trn}      | [i]{.trn}  | [I]{.trn} | [I]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [مُتَّكِءِينَ]{.tradar} [muttakiEIna]{.trn}  | [i]{.trn}  | [I]{.trn} | [I]{.trn}   | [ء]{.tradar} |
-|\vphantom{\huge J} [مُتَّكِءُونَ]{.tradar} [muttakiEUna]{.trn}  | [i]{.trn}  | [U]{.trn} | [U]{.trn}   | [ء]{.tradar} |
+|\vphantom{\huge J} [مُتَّكِئُونَ]{.tradar} [muttakiEUna]{.trn}  | [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
 |\vphantom{\huge J} [يُبَرِّئُونَ]{.tradar} [yubarriEUna]{.trn}  | [i]{.trn}  | [U]{.trn} | [i]{.trn}   | [ئ]{.tradar} |
 |\vphantom{\huge J} [يُبَرَّءُونَ]{.tradar} [yubarraEUna]{.trn}  | [a]{.trn}  | [U]{.trn} | [U]{.trn}   | [ء]{.tradar} |
 |\vphantom{\huge J} [ٱقْرَءُوا]{.tradar} [iqraEU]{.trn}       | [a]{.trn}  | [U]{.trn} | [U]{.trn}   | [ء]{.tradar} |
@@ -263,6 +264,7 @@ A second variant is to avoid the repetition of vowel letters like [و]{.tradar} 
 
 Another variant is that when word final hamzah has an [i]{.trn}-mark and is followed by a suffix starting with [U]{.trn}, then the hamzah is written unseated instead of as [ئ]{.ar}. Examples:
 
++ \vphantom{\huge J} [مُتَّكِءُون]{.tradar} [muttakiEUn]{.trn}      instead of [مُتَّكِئُون]{.tradar} 
 + \vphantom{\huge J} [يُطْفِءُوا]{.tradar} [yuTfiEU]{.trn}      instead of [يُطْفِئُوا]{.tradar} 
 + \vphantom{\huge J} [مُسْتَهْزِءُون]{.tradar} [mustahziEUn]{.trn}instead of [مُسْتَهْزِئُون]{.tradar}
 + \vphantom{\huge J} [مُنْشِءُون]{.tradar} [munciEUn]{.trn}     instead of [مُنْشِئُون]{.tradar} 
@@ -274,12 +276,13 @@ Excepted from this variant are deficient words like:
 + \vphantom{\huge J} [فِئُون]{.tradar} [fiEUn]{.trn}          
 + \vphantom{\huge J} [مِئُون]{.tradar} [miEUn]{.trn}          
 
-Another, more modern, variant is to modify the precedence rule of vowels. According to this modern variant, the vowel before hamzah is compared with the _shortened_ vowel on the hamzah. This results in some changes in the hamzah seat. For example:
+Another, more modern, variant is to modify the precedence rule of vowels. According to this modern variant, the vowel before hamzah is compared with the _shortened_ vowel on the hamzah. This can result in some changes in the hamzah seat. For example:
 
-+ \vphantom{\huge J} [مَسْؤُول]{.tradar} instead of [مَسْءُول]{.tradar}
-+ \vphantom{\huge J} [رُؤُوس]{.tradar} instead of [رُءُوس]{.tradar}
++ \vphantom{\huge J} [مَسْؤُول]{.tradar}  [masEUl]{.trn} instead of [مَسْءُول]{.tradar}
++ \vphantom{\huge J} [رُؤُوس]{.tradar}   [ruEUs]{.trn}  instead of [رُءُوس]{.tradar}
++ \vphantom{\huge J} [ٱقْرَؤُوا]{.tradar} [iqraEU]{.trn} instead of [ٱقْرَءُوا]{.tradar}
 
-Excepted from this variant is the combination [aEA]{.ar} which will continue to be written as [ـَءَا]{.ar} or [ـَآ]{.ar}. For example: [شَنَآن]{.tradar}, [مُرْجَءَات]{.tradar}.
+Excepted from this variant is the combination [aEA]{.trn} which will continue to be written as [ـَءَا]{.tradar} or [ـَآ]{.tradar}. For example: [شَنَآن]{.tradar}, [مُرْجَءَات]{.tradar}.
 
 ## Why so complicated?
 
