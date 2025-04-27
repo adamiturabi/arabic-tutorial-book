@@ -167,14 +167,14 @@ Here are some comparisions of letters joining to each other in the Simplified Ar
 
 Disjoint | Joined (simplified) | Joined (traditional)
 :------------|:---------|:---------
-[ت-م-ر]{.ar}     | [تمر]{.ar}   | [تمر]{.tradar}
-[ا-ل-ح-ج-ج]{.ar} | [الحجج]{.ar} | [الحجج]{.tradar}
-[ا-ل-م-ا-س]{.ar} | [الماس]{.ar} | [الماس]{.tradar}
-[ل-م-ح-ة]{.ar}   | [لمحة]{.ar}  | [لمحة]{.tradar}
-[س-ح-ر]{.ar}     | [سحر]{.ar}   | [سحر]{.tradar}
-[ب-ح-ي-ر-ة]{.ar} | [بحيرة]{.ar} | [بحيرة]{.tradar}
-[ف-ي]{.ar}       | [في]{.ar}    | [في]{.tradar}
-[ب-ت-ث-ب-ي-ت-ت-ي-ن]{.ar} | [بتثبيتتين]{.ar}    | [بتثبيتتين]{.tradar}
+[ت-م-ر]{.ar}     | [تمر]{.ar}   | [تمر]{.aralt}
+[ا-ل-ح-ج-ج]{.ar} | [الحجج]{.ar} | [الحجج]{.aralt}
+[ا-ل-م-ا-س]{.ar} | [الماس]{.ar} | [الماس]{.aralt}
+[ل-م-ح-ة]{.ar}   | [لمحة]{.ar}  | [لمحة]{.aralt}
+[س-ح-ر]{.ar}     | [سحر]{.ar}   | [سحر]{.aralt}
+[ب-ح-ي-ر-ة]{.ar} | [بحيرة]{.ar} | [بحيرة]{.aralt}
+[ف-ي]{.ar}       | [في]{.ar}    | [في]{.aralt}
+[ب-ت-ث-ب-ي-ت-ت-ي-ن]{.ar} | [بتثبيتتين]{.ar}    | [بتثبيتتين]{.aralt}
 
 <!--
 ```{r, eval=knitr::is_html_output(), echo=FALSE}
