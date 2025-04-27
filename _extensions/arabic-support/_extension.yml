@@ -1,0 +1,11 @@
+title: Arabic-support
+author: First Last
+version: 1.0.0
+quarto-required: ">=1.6.0"
+contributes:
+  filters:
+    - inline-arabic-span.lua
+    - transliteration-span.lua
+    - arabic-div.lua
+    - tikzarabic.lua
+
