@@ -3,19 +3,23 @@
 \usepackage[luatex,active,tightpage]{preview}
 \usepackage{amsmath}
 \usepackage{tikz}
+\usepackage{xcolor}
+\definecolor{mydarkgray}{RGB}{52, 58, 64}
 
-\usepackage{fontspec} % this also loads fontspec
+
+\usepackage{fontspec}
 \defaultfontfeatures{Scale=MatchLowercase}
-\defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1.27978125}
 \setmainfont{Charis SIL}
 
+\usetikzlibrary{%s}
 \usetikzlibrary{matrix}
 \usepackage{arabluatex}
-\newfontfamily{\arabicfont}[Script=Arabic,Scale=1.0]{Vazirmatn-Light}
-%\newfontfamily\arabicfont{Vazirmatn-Light}[Script=Arabic]
+\newfontfamily{\arabicfont}[Script=Arabic,Scale=1.2]{Vazirmatn-Regular}
 
 \begin{document}
 \begin{preview}
-%% TIKZ_CODE %%
+\color{mydarkgray}
+%s
 \end{preview}
 \end{document}
