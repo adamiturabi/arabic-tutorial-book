@@ -25,6 +25,8 @@ Add an empty `.nojekyll` file to the `docs` dir.
 
 ## Install software prerequisites
 
+The following are old instructions that were used for bookdown. Now we have moved to Quarto. The new instructions can be read here: https://github.com/adamiturabi/quarto-arabic-mwe.
+
 ### For Ubuntu and derivatives
 
 1. Tex
