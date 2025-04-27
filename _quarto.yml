@@ -1,0 +1,101 @@
+project:
+  type: book
+  output-dir: docs
+  post-render:
+    - "rm -rf images"
+    - "rm -rf srcqmd/images"
+
+book:
+  title: "A Learner's Grammar of Classical Standard Arabic"
+  author: "The Authors"
+  date: "04/27/2025"
+  chapters:
+    - index.qmd
+    - srcqmd/intro.qmd
+    - srcqmd/script.qmd
+    - srcqmd/nouns.qmd
+    - srcqmd/simple_sentences.qmd
+    - srcqmd/prepositions.qmd
+    - srcqmd/past_verbs.qmd
+    - srcqmd/describing_nouns.qmd
+    - srcqmd/diptotes.qmd
+    - srcqmd/duals.qmd
+    - srcqmd/sound_plurals.qmd
+    - srcqmd/broken_plurals.qmd
+    - srcqmd/idafa.qmd
+    - srcqmd/irregular_nouns.qmd
+    - srcqmd/proper_nouns.qmd
+    - srcqmd/vocative.qmd
+    - srcqmd/ism_ishara.qmd
+    - srcqmd/imperfect_verb_indic.qmd
+    - srcqmd/doing_verbal_noun.qmd
+    - srcqmd/imperfect_verb_subj.qmd
+    - srcqmd/imperfect_verb_juss.qmd
+    - srcqmd/passive_voice.qmd
+    - srcqmd/doer_verbal_noun.qmd
+    - srcqmd/kaana.qmd
+    - srcqmd/inna_and_its_sisters.qmd
+    - srcqmd/ism_mawsuul.qmd
+    - srcqmd/questions.qmd
+    - srcqmd/appendix.qmd
+    - srcqmd/hamzarules.qmd
+    - srcqmd/usage_and_style.qmd
+  downloads: [pdf]
+
+#keep-md: true
+filters:
+  - arabic-support
+
+format:
+  html:
+    mainfont: "Charis SIL"
+    mainfontoptions: Numbers=OldStyle
+    sansfont: "Charis SIL"
+    monofont: "DejaVu Sans Mono" # set size in CSS using class "sourceCode"
+    #fontsize: 10pt
+    theme: cosmo
+    css: srchtml/styles.css
+    include-before-body: srchtml/watermark.html
+  pdf:
+    #keep-tex: true
+    documentclass: scrreprt # no roman numeral pagination but chapter page can be left or right
+    #documentclass: scrbook # new chapter page only on right but adds \frontmatter command for roman numeral pagination
+    toc: true
+    geometry:
+      # A4 2 pages per sheet draft
+      #- paper=a5paper               # a5: 148.5 by 210mm
+      - paperwidth=170mm
+      - paperheight=244mm
+      #- paperwidth=156mm
+      #- paperheight=234mm
+      #- paperwidth=6in
+      #- paperheight=9in
+      - bindingoffset=6mm
+      - textwidth=114.8mm           # = (170 - 6)*0.7
+      - textheight=170.8mm          # = 244 * 0.7
+      - twoside
+    number-sections: true
+    colorlinks: true
+    mainfont: "Charis SIL"
+    mainfontoptions: Numbers=OldStyle
+    sansfont: "Charis SIL"
+    monofont: "DejaVu Sans Mono"
+    monofontoptions: "Scale=0.7"
+    fontsize: 10pt
+    pdf-engine: xelatex
+    include-in-header:
+      - file: srctex/include_in_header.tex
+    include-before-body:
+      - file: srctex/before_body.tex
+    template-partials:
+      - srctex/before-title.tex
+
+tikzarabic:
+  cache: true
+  format: svg
+  embed_mode: link
+  engine: lualatex
+  template_html: srctex/tikz-template-html.tex
+  template_pdf: srctex/tikz-template-pdf.tex
+  libgs: /usr/local/Cellar/ghostscript/10.04.0/lib/libgs.dylib
+

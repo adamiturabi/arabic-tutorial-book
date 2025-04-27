@@ -1,0 +1,173 @@
+# Introduction
+
+All praises are due to [#allAh]{.trn2}. We praise Him, seek His help, and ask for His forgiveness. We seek refuge in [#allAh]{.trn2} from the evil in our souls and from our sinful deeds. Whomever [#allAh]{.trn2} guides, no one can mislead. Whomever [#allAh]{.trn2} leads astray, no one can guide. I bear witness that there is no one worthy of worship except [#allAh]{.trn2}. I also bear witness that [#muHammad]{.trn2} is His servant and messenger.
+
+May the peace and blessings of [#allAh]{.trn2} be upon the Prophet [#muHammad]{.trn2}, his family, his companions, and those who followed them with good conduct.
+
+## History of Arabic 
+
+[#allAh]{.trn2}, may He be glorified and exalted, revealed the [#qurEAn]{.trn2} 1400 years ago to the Prophet [#muHammad]{.trn2}, may [#allAh]{.trn2} grant peace and confer blessing upon him. The language of the [#qurEAn]{.trn2} is the Arabic language, as it was understood by the Arabs at that time. 
+The sayings and actions of the Prophet, may [#allAh]{.trn2} grant peace and confer blessing upon him, were recorded by his companions also in this Arabic language. 
+We will call the Arabic of this pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic era as Classical Arabic.
+The Classical Arabic language consisted of multiple dialects that were spoken by the different tribes and in the different regions of the Arabian peninsula. 
+
+All languages change naturally over time. For example, English has changed to such a degree that the Old English language spoken 1400 years ago would be unintelligible to us today. So too did the Classical Arabic dialects begin to change. But as part of preserving His religion, [#allAh]{.trn2} preserved the Arabic language as well. This was by means of the efforts of scholars who recorded the Classical Arabic language of the time of the revelation.
+
+In the process of preserving Arabic, one particular variety became standardized and gained prevalence as a literary language over the other dialects of the Arabic of the early-[#islAm]{.trn2}ic period. This _Standard Arabic_, in its early period after standardization, is called Classical Standard Arabic.
+<!--or simply Classical Arabic[^1]. -->
+The pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic Arabic dialects (of which Classical Standard Arabic is but a standardized variety) are then referred to, collectively, as pre-standard Classical Arabic. Classical Standard Arabic was used as the language of religious scholarship, science, and literature in the [#islAm]{.trn2}ic world. As scholars developed new branches of religious and secular sciences, new terms and meanings were added to it that are termed post-classical. A few words were also borrowed from foreign languages and Arabicized, as needed by the different scientific disciplines. (Pre-Standard Classical Arabic itself had a few Arabicized foreign borrowings from neighboring languages.) These additions were, by and large, deliberate, done by scholars who were experts in their fields and also well versed in Classical Standard Arabic, and validated by subsequent generations of scholarly discourse. Besides these needed additions, the grammar and core language remained remarkably unchanged.
+
+<!--
+[^1]: This definition of the term _Classical Arabic_ is not universally accepted, and other authors may use it to also include the Arabic of the late pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic period.
+-->
+
+<!--Ahmad Al-Jallad, Damascus Psalm Fragment, p. 69-->
+While Standard Arabic was thus preserved from major change and was used for literary purposes, the language that was spoken by Arabs in their day-to-day lives continued to change over time from the pre-standard Classical Arabic dialects into the modern colloquial dialects. And so today, there exist two very distinct types of Arabic: the preserved Standard Arabic which is taught at schools and is primarily a written language, and the modern colloquial Arabic dialects which Arabs learn as their mother tongue and which are primarily only spoken and not written.
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+
+%\tikzset{>=latex} % for LaTeX arrow head
+
+% TIMELINE - simple test
+
+  % limits
+  \newcount\yearOne; \yearOne=-200
+  \def\w{15}    % width of axes
+  \def\n{8}     % number of markers
+  \def\interv{200}     % number of years between markers
+  \def\lt{0.20} %  marker tick length
+  %\def\lf{0.36} % five tick length
+  %\def\lo{0.30} %  one tick length
+
+  % help functions
+  \def\yearLabel(#1,#2){\node[above] at ({((#1-\yearOne)/\n/\interv)*\w},\lt) {#2};}
+  \def\yearLabelBelow(#1,#2){\node[below] at ({((#1-\yearOne)/\n/\interv)*\w},-\lt) {#2};}
+  \def\yearLabelLine(#1,#2){\node[] at ({((#1-\yearOne)/\n/\interv)*\w},0) {#2};}
+  \def\yearArrowLabel(#1,#2,#3,#4){
+    \def\xy{{(#1-\yearOne)*\w/\n/\interv}}; \pgfmathparse{int(#2*100)};
+    \ifnum \pgfmathresult<0
+      \def\yyp{{(\lt*(0.90+#2))}}; \def\yyw{{(\yyp-\lt*#3)}}
+      \draw[<-,thick,black,align=center] (\xy,\yyp) -- (\xy,\yyw) node[below,black] at (\xy,\yyw) {#4};
+    \else
+      \def\yyp{{(\lt*(0.10+#2)}}; \def\yyw{{(\yyp+\lt*#3)}}
+      \draw[<-,thick,black,align=center] (\xy,\yyp) -- (\xy,\yyw) node[above,black] at (\xy,\yyw) {#4};
+    \fi}
+
+  % axis
+  %\draw[thick] (0,0) -- (\w,0);
+  \draw[->,thick] (-\w*0.03,0) -- (\w*1.03,0);
+
+  % ticks
+  \foreach \tick in {0,1,...,\n}{
+    \def\x{{\tick*\w/\n}}
+    \def\year{\the\numexpr \yearOne+\tick*\interv \relax}
+	  \ifnum \year>0
+      \draw[thick] (\x,\lt) -- (\x,-\lt) % marker tick
+	             node[below] {\year};
+    \else
+	    \ifnum \year=0
+        \draw[thick] (\x,\lt) -- (\x,-\lt) % marker tick
+	             node[below] {};
+      \fi
+    \fi
+
+	%\ifnum \tick<\n
+	%  \draw[thick] ({(\x+\w/\n/2)},0) -- ({(\x+\w/\n/2)},\lf); % five tick
+  %    \foreach \ticko in {1,2,3,4,6,7,8,9}{
+  %      \def\xo{{(\x+\ticko*\w/\n/10)}}
+  %	    \draw[thick] (\xo,0) -- (\xo,\lo);  % one tick
+	%}\fi
+  }
+
+  %\node[above] at ({14},\lt) {Modern Standard Arabic};
+
+  % label
+  \yearLabel(300,Classical\,Std\,Arabic)
+  \yearLabel(1300,Modern\,Std\,Arabic)
+  \yearLabel(-100,pre-std\,Classical\,Arabic)
+  \yearLabelBelow(0,the Hijrah)
+  \yearLabelBelow(1470,\textsc{ah})
+  %\yearArrowLabel(175, 1.0,3.0,Emergence of Standard Arabic)
+  %\yearArrowLabel(1, 0.0,1.5,Quran revealed)
+  %\yearArrowLabel(1,-1.0,2.0,\small Quran revealed)
+  %\yearArrowLabel(1924.2,-1.2,1.2,$p\lambda=h$)
+
+\end{tikzpicture}
+```
+
+In modern times, many new words and meanings have been added to Standard Arabic, often via translation from Western languages, to keep up with technological advancements and modern media. 
+<!--However, it must be said that these additions have often been done by translators rather than scholars in the field, and have sometimes lacked the deliberation seen in the post-classical additions to Standard Arabic. -->
+This modern development of Standard Arabic is called Modern Standard Arabic. 
+There are also a small amount of words, meanings, and grammatical usages, which existed in Classical Arabic, but which are deemed archaic, and are therefore largely unused, in Modern Standard Arabic.
+
+Figure\ 1.1 (above) depicts this historical development of Standard Arabic.
+
+## About this book <!--([إن شاء الله]{.ar})-->
+
+### Scope
+
+In this book, we will study Standard Arabic. We will focus on the pre-modern language. If [#allAh]{.trn2} wills, this will help you to begin to understand the language of the [#qurEAn]{.trn2}, the [#HadIv]{.trn2}, and [#islAm]{.trn2}ic literature.
+
+If your goal is to learn Modern Standard Arabic, then this book may still be of help because the core language and the grammar are essentially the same. However, you may prefer to study from a resource that focuses on the modern language.
+
+This book does not touch at all upon the modern colloquial dialects that are spoken in the Arab world today.
+
+### Current status
+
+This book is currently a work in progress, and not yet ready for study.
+There is a watermark on all online published pages indicating this status.
+The preface and this introduction have been written prematurely as a reference for guiding principles that we can refer to during the write process.
+We publish updates online while the book is still a work in progress in the hope that it will help in correcting errors.
+
+
+### Methodology
+
+We will start, if [#allAh]{.trn2} wills, with the Arabic script and present, in each chapter, a new concept of Arabic grammar, together with examples. 
+We will also give vocabulary for you to memorize and have chapter exercises. 
+
+Many times we introduce a topic early on because a later topic is dependent on it.
+And in order to organize content in a manageable and referrable way, we will give a full treatment of the first topic.
+But in actuality, an exhaustive understanding of the first topic is not that very essential to the core understanding of grammar that a learner needs at that stage.
+An example of such a topic is proper nouns which are, what we have termed, _semi-flexible_ (_diptotes_ in Western grammars), and indeed semi-flexible nouns in general.
+
+In the chapter introductions, we will list any such topics contained in the chapter.
+When encountering such topics for the first time, we recommend that you skim through them to get a basic understanding and move on to more essential concepts.
+You may refer back to the topic when needed.
+
+Some of the sentences we present, both as examples and as chapter exercises, because of their contrived nature, may seem of dubious usefulness to a learner wanting to learn practical usage. 
+Also, when translating examples, we usually steer toward a literal, word-for-word, translation rather than an idiomatic one. 
+The resulting English will then often sound awkward, and even sometimes ungrammatical.
+This is to show a correspondence between the words in the Arabic sentence and the English translation.
+We ask that you overlook these shortcomings.
+
+### How to study
+
+#### Exercises
+
+In answering the exercises, we strongly recommend that you memorize the vocabulary in full and write down the answers with pen and paper.
+We strongly recommend that you
+resist the tendency to
+answer the exercises only orally or mentally without writing them down,
+or look up the answers from the answer key before attempting to write the answer yourself,
+or look up words in the vocabulary list without memorizing them,
+or proceed to the next chapter before memorizing the vocabulary and going through the exercises.
+You may also find yourself having to go back a few chapters every once in a while and revising the concepts therein. 
+This is very normal and not a cause for any concern. It may also prove beneficial to re-do the exercises of that chapter when doing so.
+
+#### Vocabulary
+
+Know that while Arabic grammar requires effort to master to a proficient degree, the real barrier to reading and understanding Arabic texts by oneself is vocabulary. 
+Arabic is a very rich language and knowledge of a few thousand words is needed before the student can begin to read texts independently.
+In fact, we would not be too far off to say that grammar, at this stage, is only a tool to help you make sense of the vocabulary that you are acquiring.
+So, focus on acquiring vocabulary, first and foremost. 
+In appendix\ \@ref(vocabulary-and-reading), we suggest companion reading material, dictionaries, and techniques on acquiring and retaining vocabulary.
+<!--
+As companion reading material, we can recommend the book [عمدة التفسير لأحمد شاكر]{.ar} ([3umtdatu -ttafsIr]{.trn} by [#aHmad #cAkir]{.trn2}) which is an abridgement of the famous commentary of the [#qurEan]{.trn2} by [ابن كثير]{.ar} ([#ibn #kavIr]{.trn2}).
+Start with [#surat al-#baqarah]{.trn2} because of its relatively easier content.
+And try to start this early on, even before you have completed your grammar course.
+In the beginning, trying to read a real book will seem difficult, especially when you haven't yet learned the complete Arabic grammar. 
+But, keep at it, at intervals. If [#allAh]{.trn2} wills, it will become easier, and there will be a tipping point when you are able to understand many of the words and the gist of a sentence.
+-->
+
