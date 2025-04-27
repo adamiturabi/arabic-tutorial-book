@@ -1,7 +1,7 @@
 all:
 	Rscript compilebook.R
 	touch docs/.nojekyll
-	bash conv.sh
+	#bash conv.sh
 clean:
 	Rscript clean.R
 	rm -f *.log

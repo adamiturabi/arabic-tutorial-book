@@ -4,7 +4,7 @@ title: |
   | Classical Standard Arabic
 #subtitle:  "A self-instruction textbook with grammar, vocabulary, and exercises"
 author: "Author Names"
-date: "v0.1.0-905-gfe713ee"
+date: "v0.1.0-1012-g87b89e6"
 documentclass: book
 geometry:
 # A4 2 pages per sheet draft
@@ -14154,10 +14154,12 @@ Another variant is that when word final hamzah has an [i]{.trn}-mark and is foll
 
 + \vphantom{\huge J} [مُتَّكِءُون]{.tradar} [muttakiEUn]{.trn}      instead of [مُتَّكِئُون]{.tradar} 
 + \vphantom{\huge J} [يُطْفِءُوا]{.tradar} [yuTfiEU]{.trn}      instead of [يُطْفِئُوا]{.tradar} 
-+ \vphantom{\huge J} [مُسْتَهْزِءُون]{.tradar} [mustahziEUn]{.trn}instead of [مُسْتَهْزِئُون]{.tradar}
++ \vphantom{\huge J} [مُسْتَهْزِءُون]{.tradar} [mustahziEUn]{.trn} instead of [مُسْتَهْزِئُون]{.tradar}
 + \vphantom{\huge J} [مُنْشِءُون]{.tradar} [munciEUn]{.trn}     instead of [مُنْشِئُون]{.tradar} 
 + \vphantom{\huge J} [يُضَاهِءُونَ]{.tradar} [yuDAhiEUna]{.trn}   instead of [يُضَاهِئُونَ]{.tradar} 
 + \vphantom{\huge J} [مُرْجِءُون]{.tradar} [murjiEUn]{.trn}   instead of [مُرْجِئُون]{.tradar} 
++ \vphantom{\huge J} [مُرْجِءُون]{.tradar} [murjiEUn]{.trn}   instead of [مُرْجِئُون]{.tradar} 
++ \vphantom{\huge J} [رَئِيس]{.tradar} [raEIs]{.trn}   instead of [رَءِيس]{.tradar} 
 
 Excepted from this variant are deficient words like:
 

@@ -2,6 +2,7 @@
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 \documentclass[
+  english,
   10pt,
 ]{book}
 \usepackage{xcolor}
@@ -21,7 +22,7 @@
 \usepackage{lmodern}
 \ifPDFTeX\else
   % xetex/luatex font selection
-    \setmainfont[Numbers=OldStyle]{Charis SIL}
+  \setmainfont[Numbers=OldStyle]{Charis SIL}
   \newfontfamily{\arabicfont}[Script=Arabic,Scale=1.0]{Vazirmatn-Light}
   \newfontfamily{\tradarab}[Script=Arabic,Scale=1.0]{Amiri}
   \newfontfamily{\tradarabsmall}[Script=Arabic,Scale=0.75]{Amiri}
@@ -68,26 +69,21 @@
 \def\fps@figure{htbp}
 \makeatother
 \ifLuaTeX
-\usepackage[bidi=basic]{babel}
+\usepackage[bidi=basic,shorthands=off,]{babel}
 \else
-\usepackage[bidi=default]{babel}
+\usepackage[bidi=default,shorthands=off,]{babel}
 \fi
-\babelprovide[main,import]{english}
 \ifPDFTeX
 \else
 \babelfont{rm}[Numbers=OldStyle]{Charis SIL}
 \fi
-\babelprovide[import]{arabic}
-% get rid of language-specific shorthands (see #6817):
-\let\LanguageShortHands\languageshorthands
-\def\languageshorthands#1{}
 \ifLuaTeX
-  \usepackage[english]{selnolig} % disable illegal ligatures
+  \usepackage{selnolig} % disable illegal ligatures
 \fi
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\usepackage{csquotes}
+\usepackage[]{csquotes}
 \newcommand{\gitTag}{\input|"git describe"}
 \usepackage{lipsum}
 \usepackage{metalogo}
@@ -266,7 +262,7 @@
 \title{A Learner's Grammar of\\
 Classical Standard Arabic}
 \author{Author Names}
-\date{v0.1.0-905-gfe713ee}
+\date{v0.1.0-1012-g87b89e6}
 
 \begin{document}
 \maketitle
@@ -947,11 +943,11 @@ Arabic has six vowels. There are three short vowels which don't have letters in 
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \emph{a} as the first vowel in English \enquote{manipulate}, written with an \emph{a}-mark \foreignlanguage{arabic}{◌َ} which is a small diagonal line above the letter like \foreignlanguage{arabic}{مَـ} \emph{ma}.
+  \emph{a} as the first vowel in English ``manipulate'', written with an \emph{a}-mark \foreignlanguage{arabic}{◌َ} which is a small diagonal line above the letter like \foreignlanguage{arabic}{مَـ} \emph{ma}.
 \item
-  \emph{i} as in English \enquote{bit}, written with an \emph{i}-mark \foreignlanguage{arabic}{◌ِ} which is a small diagonal line under the letter like \foreignlanguage{arabic}{بِـ} \emph{bi}.
+  \emph{i} as in English ``bit'', written with an \emph{i}-mark \foreignlanguage{arabic}{◌ِ} which is a small diagonal line under the letter like \foreignlanguage{arabic}{بِـ} \emph{bi}.
 \item
-  \emph{u} as in English \enquote{put}, written with an \emph{u}-mark \foreignlanguage{arabic}{◌ُ} which is like a tiny \foreignlanguage{arabic}{و} wāw above the letter like \foreignlanguage{arabic}{فُـ} \emph{fu}.
+  \emph{u} as in English ``put'', written with an \emph{u}-mark \foreignlanguage{arabic}{◌ُ} which is like a tiny \foreignlanguage{arabic}{و} wāw above the letter like \foreignlanguage{arabic}{فُـ} \emph{fu}.
 \end{enumerate}
 
 Examples of words with short vowels:
@@ -974,11 +970,11 @@ There are also three long vowels which are part of the alphabet:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \emph{ā} generally written with an unmarked {alif} \foreignlanguage{arabic}{ا} and with the preceding letter having an \emph{a}-mark. Example \foreignlanguage{arabic}{مَا} \emph{mā}. This vowel is mostly pronounced like the vowel in English \enquote{man}. If however, it comes after these letters \foreignlanguage{arabic}{خ،ر،ص،ض،ط،ظ،غ،ق} it is pronounced like English \enquote{awe}.
+  \emph{ā} generally written with an unmarked {alif} \foreignlanguage{arabic}{ا} and with the preceding letter having an \emph{a}-mark. Example \foreignlanguage{arabic}{مَا} \emph{mā}. This vowel is mostly pronounced like the vowel in English ``man''. If however, it comes after these letters \foreignlanguage{arabic}{خ،ر،ص،ض،ط،ظ،غ،ق} it is pronounced like English \enquote{awe}.
 \item
-  \emph{ī} like in English \enquote{meek} written with an unmarked \foreignlanguage{arabic}{ي} yāʾ with the preceding letter having an \emph{i}-mark. Example \foreignlanguage{arabic}{فِي} \emph{fī}.
+  \emph{ī} like in English ``meek'' written with an unmarked \foreignlanguage{arabic}{ي} yāʾ with the preceding letter having an \emph{i}-mark. Example \foreignlanguage{arabic}{فِي} \emph{fī}.
 \item
-  \emph{ū} like in English \enquote{moon} written with an unmarked \foreignlanguage{arabic}{و} wāw with the preceding letter having an \emph{u}-mark. Example \foreignlanguage{arabic}{ذُو} \emph{d͡hū}.
+  \emph{ū} like in English ``moon'' written with an unmarked \foreignlanguage{arabic}{و} wāw with the preceding letter having an \emph{u}-mark. Example \foreignlanguage{arabic}{ذُو} \emph{d͡hū}.
 \end{enumerate}
 
 Examples of words with long and short vowels:
@@ -1041,9 +1037,9 @@ Arabic has two short semi-vowels:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \emph{aw} like in English \enquote{show}. This is written with a wāw with a ø-mark on it and a short \emph{a} vowel before it. Example \foreignlanguage{arabic}{لَوْ} \emph{law}.
+  \emph{aw} like in English ``show''. This is written with a wāw with a ø-mark on it and a short \emph{a} vowel before it. Example \foreignlanguage{arabic}{لَوْ} \emph{law}.
 \item
-  \emph{ay} like in English \enquote{bait}. This is written with a yāʾ with a ø-mark on it and a short \emph{a} vowel before it. Example \foreignlanguage{arabic}{كَيْ} \emph{kay}.
+  \emph{ay} like in English ``bait''. This is written with a yāʾ with a ø-mark on it and a short \emph{a} vowel before it. Example \foreignlanguage{arabic}{كَيْ} \emph{kay}.
   Examples with short semi-vowels:
 \end{enumerate}
 
@@ -1063,9 +1059,9 @@ It also has two long semi-vowels:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \emph{āw} like in English \enquote{cow}. This is written with a wāw with a ø-mark on it and a long \emph{ā} vowel before it. Example \foreignlanguage{arabic}{وَاوْ} \emph{wāw}.
+  \emph{āw} like in English ``cow''. This is written with a wāw with a ø-mark on it and a long \emph{ā} vowel before it. Example \foreignlanguage{arabic}{وَاوْ} \emph{wāw}.
 \item
-  \emph{āy} like in English \enquote{bye}. This is written with a yāʾ with a ø-mark on it and a long \emph{ā} vowel before it. Example \foreignlanguage{arabic}{شَايْ} \emph{s͡hāy}.
+  \emph{āy} like in English ``bye''. This is written with a yāʾ with a ø-mark on it and a long \emph{ā} vowel before it. Example \foreignlanguage{arabic}{شَايْ} \emph{s͡hāy}.
 \end{enumerate}
 
 These long semi-vowels are rare and may only occur at the end of a sentence.
@@ -1315,7 +1311,7 @@ begins with a connecting hamzah; the hamzah will be pronounced only in the begin
 
 \subsubsection{Sun letters and moon letters}\label{sun-letters-and-moon-letters}
 
-The noun \enquote{man} in Arabic is \foreignlanguage{arabic}{رَجُل} \emph{rajul}. To make this noun definite, we add \foreignlanguage{arabic}{ٱَلْ} \emph{ʾal} to the beginning of the word. But instead of becoming \foreignlanguage{arabic}{ٱَلْرَجُل} \emph{ʾalrajul} the word becomes \foreignlanguage{arabic}{ٱَلرَّجُل} \emph{ʾarrajul}. The \foreignlanguage{arabic}{ل} in \foreignlanguage{arabic}{ٱَلْ} becomes silent and the \foreignlanguage{arabic}{ر} gets doubled. This happens because the first letter \foreignlanguage{arabic}{ر} in the word \foreignlanguage{arabic}{رَجُل} \emph{rajul} is from a group of letters called \enquote{sun letters}. For all nouns beginning with sun letters, when \foreignlanguage{arabic}{ٱَلْ} \emph{ʾal} is put in the beginning, the \foreignlanguage{arabic}{ل} in \foreignlanguage{arabic}{ٱَلْ} becomes silent and the sun letter becomes doubled.
+The noun ``man'' in Arabic is \foreignlanguage{arabic}{رَجُل} \emph{rajul}. To make this noun definite, we add \foreignlanguage{arabic}{ٱَلْ} \emph{ʾal} to the beginning of the word. But instead of becoming \foreignlanguage{arabic}{ٱَلْرَجُل} \emph{ʾalrajul} the word becomes \foreignlanguage{arabic}{ٱَلرَّجُل} \emph{ʾarrajul}. The \foreignlanguage{arabic}{ل} in \foreignlanguage{arabic}{ٱَلْ} becomes silent and the \foreignlanguage{arabic}{ر} gets doubled. This happens because the first letter \foreignlanguage{arabic}{ر} in the word \foreignlanguage{arabic}{رَجُل} \emph{rajul} is from a group of letters called \enquote{sun letters}. For all nouns beginning with sun letters, when \foreignlanguage{arabic}{ٱَلْ} \emph{ʾal} is put in the beginning, the \foreignlanguage{arabic}{ل} in \foreignlanguage{arabic}{ٱَلْ} becomes silent and the sun letter becomes doubled.
 
 The rest of the letters in the alphabet are called \enquote{moon letters} and for words that begin with moon letters, the \foreignlanguage{arabic}{ل} in \foreignlanguage{arabic}{ٱَلْ} does not become silent and the moon letter does not become doubled. For example, \foreignlanguage{arabic}{ك} is a moon letter and we have already seen that \foreignlanguage{arabic}{كِتَاب} \emph{kitāb} \enquote{book} becomes \foreignlanguage{arabic}{ٱَلْكِتَاب} \emph{ʾalkitāb} \enquote{the book}.
 
@@ -12735,9 +12731,9 @@ and its direct doee, \foreignlanguage{arabic}{مُعَلِّمًا}, is also cal
 
   From \foreignlanguage{arabic}{المقاصد الشافية في شرح الخلاصة الكافية (شرح ألفية ابن مالك) للشاطبي} vol.~2, p.~137:
 
-  \begin{quote}
+  \begin{displayquote}
   \foreignlanguage{arabic}{لَمّا كان وجهُ نَصْبِهُ مُختَلفًا فيه بَين البصريين والكوفيين؛ فذهب البصريون إلى أَنّه منصوب خبرًا لها، فالمبتدأ والخبر معها كالفاعل والمفعول. وذهب الكوفيون إلى أنه ينصَبُ على الحال.}
-  \end{quote}}
+  \end{displayquote}}
 
 So a sentence with \foreignlanguage{arabic}{كَانَ} used in this way is a subject-information sentence.
 If it begins with \foreignlanguage{arabic}{كَانَ} then it is also a verbal sentence at the same time.
@@ -13203,9 +13199,9 @@ A fourth signification of
 \foreignlanguage{arabic}{كَانَ}
 is to indicate a state that always existed and will always exist.\footnote{From \foreignlanguage{arabic}{البحر المحيط لأبي حيان} in the tafsīr of \foreignlanguage{arabic}{كُنْتُمْ خَيْرَ أُمَّةٍ} {[}3:110{]}:
 
-  \begin{quote}
+  \begin{displayquote}
   \foreignlanguage{arabic}{وظاهر كان هنا أنها الناقصة، وخير أمة هو الخبر. ولا يراد بها هنا الدلالة على مضي الزمان وانقطاع النسبة نحو قولك: كان زيد قائماً، بل المراد دوام النسبة كقوله:\{ وكان الله غفوراً رحيماً \} {[}الأحزاب: 73{]}\{ ولا تقربوا الزنا إنه كان فاحشة وساء سبيلاً \} {[}الإسراء: 32{]} وكون كان تدل على الدوام ومرادفه لم يزل قولاً مرجوحاً، بل الأصح أنها كسائر الأفعال تدل على الانقطاع، ثم قد تستعمل حيث لا يراد الانقطاع. وقيل: كان هنا بمعنى صار، أيْ صرتم خير أمة. وقيل: كان هنا تامة، وخير أمة حال. وأبعد من ذهب إلى أنّها زائدة، لأن الزائدة لا تكون أول كلام، ولا عمل لها. وقال الزمخشري: كان عبارة عن وجود الشيء في من ماض على سبيل الإبهام، وليس فيه دليل على عدم سابق، ولا على انقطاع طارىء. ومنه قوله تعالى: \{ وكان الله غفوراً \}. و منه قوله: كنتم خير أمة، كأنه قيل: وجدتم خير أمة انتهى كلامه. فقوله: أنها لا تدل على عدم سابق هذا إذا لم تكن بمعنى صار، فإذا كانت بمعنى صار دلت على عدم سابق. فإذا قلت: كان زيد عالماً بمعنى صار، دلت على أنه انتقل من حالة الجهل إلى حالة العلم. وقوله: ولا على انقطاع طارىء قد ذكرنا قبل أن الصحيح أنها كسائر الأفعال يدل لفظ المضي منها على الانقطاع، ثم قد تستعمل حيث لا يكون انقطاع. وفرقٌ بين الدلالة والاستعمال، ألا ترى أنك تقول: هذا اللفظ يدل على العموم؟ ثم تستعمل حيث لا يراد العموم، بل المراد الخصوص. وقوله: كأنه قال وجدتم خير أمة، هذا يعارض أنها مثل قوله: \{ وكان الله غفوراً رحيماً \} لأن تقديره وجدتم خير أمة يدل على أنها تامة، وأن خير أمة حال. وقوله: \{ وكان الله غفوراً \} لا شك أنها هنا الناقصة فتعارضا.}
-  \end{quote}} For example:
+  \end{displayquote}} For example:
 
 \foreignlanguage{arabic}{وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۢا}\\
 \enquote{And ever is Allāh Forgiving and Merciful.}\\
@@ -13462,10 +13458,10 @@ This combination may, again, be negated in multiple ways. Examples:
 
 \foreignlanguage{arabic}{وَمَا كَانَ قَدْ أَتَاهَا بِشَيْءٍ}\footnote{From \foreignlanguage{arabic}{إحياء علوم الدين لأبي حامد الغزالي} (without \foreignlanguage{arabic}{إسناد}):
 
-  \begin{quote}
+  \begin{displayquote}
   \foreignlanguage{arabic}{وَكَانَ مُعَاذُ بْنُ جَبَلٍ عَامِلًا لعمر رَضِيَ اللَّهُ عَنْهُ فَلَمَّا رَجَعَ قَالَتْ لَهُ امْرَأَتُهُ مَا جِئْتَ بِهِ مِمَّا يَأْتِي بِهِ الْعُمَّالُ إِلَى أَهْلِهِمْ وَمَا كَانَ قَدْ أَتَاهَا بِشَيْءٍ فَقَالَ كَانَ عِنْدِي ضَاغِطٌ قَالَتْ كُنْتَ أَمِينًا عِنْدَ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وعند أبي بكر رضي الله عنه فبعث عمر
   مَعَكَ ضَاغِطًا وَقَامَتْ بِذَلِكَ بَيْنَ نِسَائِهَا وَاشْتَكَتْ عمر فَلَمَّا بَلَغَهُ ذَلِكَ دَعَا معاذا وَقَالَ بعثت معك ضاغطاً قال لم أَجِدُ مَا أَعْتَذِرُ بِهِ إِلَيْهَا إِلَّا ذَلِكَ فضحك عمر رضي الله عنه وَأَعْطَاهُ شَيْئًا فَقَالَ أَرْضِهَا بِهِ}
-  \end{quote}}\\
+  \end{displayquote}}\\
 \enquote{And he had not brought her anything}
 
 \subsection{\texorpdfstring{\foreignlanguage{arabic}{يَكُونُ} combined with a past verb}{يَكُونُ combined with a past verb}}\label{ux64aux643ux648ux646-combined-with-a-past-verb}
@@ -13567,7 +13563,7 @@ and a following i-state noun,
 and then \foreignlanguage{arabic}{أَنْ} followed by an a-state resembling verb.
 This signifies that the action of the verb does not behoove, or is not appropriate or desrving or possibly for the person denoted by the noun after \foreignlanguage{arabic}{لِ}.\footnote{From \foreignlanguage{arabic}{البحر المحيط لأبي حيان} in the tafsīr of \foreignlanguage{arabic}{مَا كَانَ لِبَشَرٍ} {[}3:79{]}:
 
-  \begin{quote}
+  \begin{displayquote}
   \foreignlanguage{arabic}{ومعنى \{ ما كان لبشر أن يؤتيه الله \} وما جاء نحوه أنه ينفي عنه الكون، والمراد نفي الخبر، وذلك على قسمين.}
 
   \foreignlanguage{arabic}{أحدهما: أن يكون الانتفاء من حيث العقل، ويعبر عنه بالنفي التام، ومثاله قوله:\{ ما كان لكم أن تنبتوا شجرها \} {[}النمل: 60{]}\{ وما كان لنفس أن تموت إلا بإذن الله \} {[}آل عمران: 145{]}.}
@@ -13575,13 +13571,13 @@ This signifies that the action of the verb does not behoove, or is not appropria
   \foreignlanguage{arabic}{والثاني: أن يكون الانتفاء فيه على سبيل الانتفاء، ويعبر عنه بالنفي غير التام، ومثاله قول أبي بكر الصديق، رضي الله عنه: ما كان لابن أبي قحافة أن يتقدّم أن يصلى بين يدي رسول الله صلى الله عليه وسلم.}
 
   \foreignlanguage{arabic}{ومدرك القسمين إنما يعرف بسياق الكلام الذي النفي فيه، وهذه الآية من القسم الأول، لأنا نعلم أن الله لا يعطي الكَذَبة والمدَّعين النبوّة، وفي هذه الآية دلالة على عصمة الأنبياء عليهم السلام.}
-  \end{quote}
+  \end{displayquote}
 
   From \foreignlanguage{arabic}{التحرير والتوير} in the tafsīr of the same verse:
 
-  \begin{quote}
+  \begin{displayquote}
   \foreignlanguage{arabic}{وقوله \{ ما كان لبشر \} نفي لاستحقاق أحد لذلك القول واللام فيه للاستحقاق. وأصل هذا التركيب في الكلام ما كان فُلان فاعلاً كذا، فلما أريدت المبالغة في النفي عدل عن نفي الفعل إلى نفي المصدر الدال على الجنس، وجعل نفي الجنس عن الشخص بواسطة نفي الاستحقاق إذ لا طريقة لِحمل اسم ذات على اسم ذات إلاّ بواسطة بعض الحروف، فصار التركيب ما كان له أن يفعل، ويقال أيضاً ليس له أن يفعل، ومثل ذلك في الإثبات كقوله تعالى\{ إن لك ألا تجوع فيها ولا تعرى \} طه 118. فمعنى الآية ليس قولُ \{ كونوا عباداً لي \} حقاً لبشر أيِّ بشر كان. وهذه اللام هي أصل لام الجحود التي في نحو\{ وما كان الله ليعذّبهم \} الأنفال 33، فتراكيب لام الجحود كلّها من قبيل قلب مثل هذا التركيب لقصد المبالغة في النفي، بحيث ينفى أن يكون وجود المسند إليه مجعولاً لأجل فِعْل كذا، أي فهو بريء منه بأصل الخلقة ولذلك سميت جحوداً. والمنفي في ظاهر هذه الآية إيتاء الحكم والنبوءة، ولكن قد علم أنّ مصبّ النفي هو المعطوف من قوله \{ ثم يقول للناس كونوا عباداً لي \} أي ما كان له أن يقول كونوا عباداً لي إذا آتاه الله الكتاب إلخ.}
-  \end{quote}}
+  \end{displayquote}}
 For example:
 
 \foreignlanguage{arabic}{فَأَنۢبَتْنَا بِهِۦ حَدَآئِقَ ذَاتَ بَهْجَةٍۢ مَّا كَانَ لَكُمْ أَن تُنۢبِتُوا۟ شَجَرَهَآ ۗ}\\
@@ -14572,13 +14568,13 @@ The two main general connected nouns are:
 
 There are also some other rarely or dialectally used general connected nouns that we will not cover. These are \foreignlanguage{arabic}{أَيّ} \emph{ʾayy}, \foreignlanguage{arabic}{ذُو} \emph{d͡hū}, and \foreignlanguage{arabic}{ذَا} \emph{d͡hā}.\footnote{Fischer claims (§427):
 
-  \begin{quote}
+  \begin{displayquote}
   Other interrogatives (§289) are also used as relatives:
   \foreignlanguage{arabic}{عَرَفَ ٱلْمَكِيدَةَ وَكَيْفَ كَانَ ٱلْمَلِكُ أَوْقَعَهَا}
   \enquote*{He knew the trick and how the king employed it.}
   \foreignlanguage{arabic}{وَٱللّٰهِ مَا نُبَالِي أَيْنَ ذَهَبَ}
   \enquote*{By God, we do not care where he went}; cf.~also §419b.
-  \end{quote}
+  \end{displayquote}
 
   However, we have not been able to find the classical grammarians including \foreignlanguage{arabic}{كيف}, \foreignlanguage{arabic}{أين}, etc. among \foreignlanguage{arabic}{الأسماء الموصولة}.
   To understand how these interrogatives are to be analyzed in such sentences,
@@ -14837,17 +14833,17 @@ Unlike the specific connected nouns
 (\foreignlanguage{arabic}{ٱَلَّذِي}, etc),
 the general connected nouns do not occur as describers.\footnote{See \foreignlanguage{arabic}{كتاب المقتصد في شرح الإيضاح للجرجاني}, vol.~1, p.~319:
 
-  \begin{quote}
+  \begin{displayquote}
   \foreignlanguage{arabic}{ومَن لا يوصف به، ألا ترى لا تقول: مررت بالرجل مَن أخوه منطلق. فتجعله صفةً للرجل، كما تقول: بالرجل الذي أخوه منطلق}
-  \end{quote}
+  \end{displayquote}
 
   Also \foreignlanguage{arabic}{شرح الرضي على الكافية لابن الحاجب} vol.~2, p.~314:
 
-  \begin{quote}
+  \begin{displayquote}
   \foreignlanguage{arabic}{ولا يقع من الموصولات وصفا إلا ما في أوله اللام، نحو الذي والتي، واللاتي، وبابها، لمشابهته لفظا للصفة المشبهة في كونه على ثلاثة أحرف فصاعدا، بخلاف من وما، وأما (أي) الموصول فلم يقع وصفا، لأن الأغلب فيه: الشرط والاستفهام ووقوعه موصولا قليل فروعي ذلك الأكثر، وإنما يوصف بذو، الطائية وإن كانت على حرفين كما في قوله:}
 
   \foreignlanguage{arabic}{٣٢٧ - فقولا لهذا المرء ذو جاء ساعيا \ldots{} هلم فان المشرفي الفرائض}
-  \end{quote}
+  \end{displayquote}
 
   Basically, of \foreignlanguage{arabic}{الأسماء الموصولة المشتركة} (which comprise \foreignlanguage{arabic}{ما, مَن, أي, أل, ذو, ذا}) only the dialectal \foreignlanguage{arabic}{ذو} appears as a \foreignlanguage{arabic}{صفة}.}
 
@@ -15059,21 +15055,21 @@ especially if the question is specific to a gender. For example:
 
 Note how \foreignlanguage{arabic}{كَانَتْ} has a feminine doer pronoun to match the gender of \foreignlanguage{arabic}{أُمَّكَ}.\footnote{Wright states (vol.~2, §170, p.~313C):
 
-  \begin{quote}
+  \begin{displayquote}
   As interrogatives, \foreignlanguage{arabic}{مَنْ} and \foreignlanguage{arabic}{مَا} are construed with the masculine singular of a verb, but occasionally admit of the feminine when the predicate is of the feminine gender; as \foreignlanguage{arabic}{مَنْ كَانَتْ أُمَّكَ} who was your mother?
-  \end{quote}
+  \end{displayquote}
 
   From \foreignlanguage{arabic}{البحر المحيط لأبي حيان} for the tafsīr of \foreignlanguage{arabic}{فَإِن كَانَتَا ٱثۡنَتَیۡنِ} {[}4:176{]}:
 
-  \begin{quote}
+  \begin{displayquote}
   \foreignlanguage{arabic}{\ldots{} مَن صُرِّحَ بِها ولَها لَفْظٌ ومَعْنًى. فَمَن أنَّثَ راعى المَعْنى، لِأنَّ التَّقْدِيرَ: أيَّةُ أُمٍّ كانَتْ أُمَّكَ. ومَدْلُولُ الخَبَرِ في هَذا مُخالِفٌ لِمَدْلُولِ الِاسْمِ، بِخِلافِ الآيَةِ، فَإنَّ المَدْلُولَيْنِ واحِدٌ، ولَمْ يُؤَنَّثْ في مَن كانَتْ أُمَّكَ لِتَأْنِيثِ الخَبَرِ، إنَّما أُنِّثَ مُراعاةً لِمَعْنى مَن إذْ أرادَ بِها مُؤَنَّثًا. ألا تَرى أنَّكَ تَقُولُ: مَن قامَتْ فَتُؤَنَّثُ مُراعاةً لِلْمَعْنى إذا أرَدْتَ السُّؤالَ عَنْ مُؤَنَّثٍ، ولا خَبَرَ هُنا فَيُؤَنَّثُ قامَتْ لِأجْلِهِ}
-  \end{quote}
+  \end{displayquote}
 
   From \foreignlanguage{arabic}{البحر المحيط لأبي حيان} for the tafsīr of \foreignlanguage{arabic}{ثُمَّ لَمۡ تَكُن فِتۡنَتُهُمۡ} {[}6:23{]}:
 
-  \begin{quote}
+  \begin{displayquote}
   \foreignlanguage{arabic}{وأمّا مَن كانَتْ أُمَّكَ، فَإنَّهُ حَمَلَ اسْمَ كانَ عَلى مَعْنى (مَن)؛ لِأنَّ مَن لَها لَفْظٌ مُفْرَدٌ، ولَها مَعْنًى بِحَسَبِ ما تُرِيدُ مِن إفْرادٍ وتَثْنِيَةٍ وجَمْعٍ وتَذْكِيرٍ وتَأْنِيثٍ، ولَيْسَ الحَمْلُ عَلى المَعْنى لِمُراعاةِ الخَبَرِ، ألا تَرى أنَّهُ يَجِيءُ حَيْثُ لا خَبَرَ ؟ نَحْوَ ومِنهم مَن يَسْتَمِعُونَ إلَيْكَ. و(تَكُنْ) مِثْلُ مَن يا ذِئْبُ يَصْطَحِبانِ. ومَن تَقْنُتْ في قِراءَةِ التّاءِ، فَلَيْسَتْ تَأْنِيثُ كانَتْ لِتَأْنِيثِ الخَبَرِ، وإنَّما هو لِلْحَمْلِ عَلى مَعْنى (مَن) حَيْثُ أرَدْتَ بِهِ المُؤَنَّثَ، وكَأنَّكَ قُلْتَ: أيَّةُ امْرَأةٍ كانَتْ أُمَّكَ}
-  \end{quote}}
+  \end{displayquote}}
 
 If the question is regarding a specific number and gender, then we are more likely to insert the corresponding specific connected noun
 (\foreignlanguage{arabic}{ٱلَّذِي}, etc.)
@@ -15233,13 +15229,13 @@ For example:
 
   From the tafsīr of \foreignlanguage{arabic}{وَإِذَا مَآ أُنزِلَتْ سُورَةٌ فَمِنْهُمْ مَّن يَقُولُ أَيُّكُمْ زَادَتْهُ هَـٰذِهِ إِيمَاناً} {[}9:124{]} from \foreignlanguage{arabic}{تفسير الآلوسي}:
 
-  \begin{quote}
+  \begin{displayquote}
   \foreignlanguage{arabic}{وقرأ عبيد بن عمير \{أَيُّكُمْ\} بالنصب على تقدير فعل يفسره المذكور ويقدر مؤخرًا لأن الاستفهام له الصدر أي أيكم زادت زادته الخ.}
-  \end{quote}
+  \end{displayquote}
 
   From the tafsīr of \foreignlanguage{arabic}{ثُمَّ لَنَنزِعَنَّ مِن كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى ٱلرَّحْمَـٰنِ عِتِيّاً} {[}9:124{]} from \foreignlanguage{arabic}{بداىع الفوائد لابن القيم}:
 
-  \begin{quote}
+  \begin{displayquote}
   \foreignlanguage{arabic}{و ﴿أيُّهم أشَدُّ﴾ للنحاة فيه أقوال:}
 
   \foreignlanguage{arabic}{أحدها: قول الخليل أنه مبتدأ وأشد خبره ولم يعمل لننزعن فيه لأنه محكي والتقدير الذي يقال فيه: ﴿أيُّهم أشَدُّ عَلى الرَّحْمَنِ عِتِيًّا﴾ وعلى هذا فـ (أي) استفهامية.}
@@ -15277,13 +15273,13 @@ For example:
   \foreignlanguage{arabic}{ولا يجوز أن تقول ضربت أيهم قام على أن تكون (أيهم) استفهاما وقد علق الفعل عن العمل فيه وأما قول سيبويه فإشكاله أنه بناء خارج عن النظائر ولم يوجد في اللغة شاهد له قال السهيلي ما ذكره سيبويه لو استشهد عليه بشاهد من نظم أو نثر أو وجدنا بعده في كلام فصيح شاهدا له لم نعدل به قولا ولا رأينا لغيره عنه طولا ولكنا لم نجز ما بين لمخالفته غيره لا سيما مثل هذه المخالفة فإنا لا نسلم أنه حذف من الكلام شيء وإن قال: إنه حذف ولا بد والتقدير أيهم هو أخوك فيقال: لم يبنوا في النكرة فيقولون مررت برجل أخوك أو رأيت رجلا أبوك أي هو أخوك وأبوك ولم خصوا أيا هذا دون سائر الأسماء أن يحذف من صلته ثم يبنى للحذف ومتى وجدنا شيئا من الجملة يحذف ثم يبنى الموصوف بالجملة من أجل ذلك الحذف وذلك الحذف لا نجعله متضمنا لمعنى الحرف ولا مضارعا له وهذه علة البناء وقد عدمت في أي قال والمختار قول الخليل ولكنه يحتاج إلى شرح وذلك أنه لم يرد بالحكاية ما يسبق إلى الفهم من تقدير معنى القول ولكنه أراد حكاية لفظ الاستفهام الذي هو أصل في أي كما يحكيه بعد العلم إذا قلت قد علمت من أخوك وأقام زيد أم قعد فقد تركت الكلام على حاله قبل دخول الفعل لبقاء معنى الاختصاص والتعيين في أي الذي كان موجودا فيها وهي استفهام لأن ذلك المعنى هو الذي وضعت له استفهاما كانت أو خبرا كما حكوا لفظ النداء في قولهم اللهم اغفر لي أيها الرجل وارحمنا أيتها العصابة فنحكي لفظ هذا إشعارا بالتعيين والاختصاص الموجود في حال النداء لوجود معنى الاختصاص والتعيين فيه قال وقول يونس: إن الفعل ملغي حق وإن لم يكن من أفعال القلب وعلة إلغائه ما قدمناه من حكاية لفظ الاستفهام للاختصاص فإذا أتممت العلة وقلت ضربت أيهم أخوك. زالت مضارعة الاستفهام وغلب فيه معنى الخبر لوجود الصلة التامة بعده}
 
   \foreignlanguage{arabic}{قال وأما قوله تعالى: ﴿وَسَيَعْلَمُ الَّذِينَ ظَلَمُوا أيَّ مُنْقَلَبٍ يَنْقَلِبُونَ﴾ وإجماعهم على أنها منصوبة بـ ﴿ينقلبون﴾ لا بـ ﴿سيعلم﴾ وقد كان يتصور فيها أن تكون منصوبة بـ سيعلم على جهة الاستفهام ولكن تكون موصولة والجملة صلتها والعائد محذوف ولكن منع من هذا أصل أصلناه ودليل أقمناه على أن الاسم الموصول إذا عني به المصدر ووصل بفعل مشتق من ذلك المصدر لم يجز لعدم الفائدة المطلوبة من الصلة وهي إيضاح الموصول وتبيينه والمصدر لا يوضح فعله المشتق من لفظه لأنه كأنه هو لفظا ومعنى إلا في المختلف الأنواع كما تقدم قال ووجه آخر أقوى من هذا وهو أن أيا لا تكون بمعنى الذي حتى تضاف إلى معرفة فتقول لقيت أيهم في الدار إذ من المحال أن يكون بمعنى الذي وهو نكرة والذي لا ينكر وهذا أصل يبنى عليه في (أي).}
-  \end{quote}
+  \end{displayquote}
 
   From \foreignlanguage{arabic}{معانى القآن للفراء} for the tafsīr of {[}2:69{]}:
 
-  \begin{quote}
+  \begin{displayquote}
   \foreignlanguage{arabic}{فأعملْ في '' ما '' '' وأي '' الفعلَ الذي بعدَهما، ولا تُعمِل الذي قبلهما إذا كان مُشتقّاً من العِلْم ؛ كقولك : ما أعلم أَيُّهم قال ذاك، ولا أعلمنّ أَيُّهم قال ذاك، وما أدرِى أَيَّهم ضربت، فهو في العِلِم والإخبار والإنْباء وما أشبهها على ما وصفتُ لك. منه قول الله تبارك وتعالى :﴿ وَما أَدْرَاكَ ماهِيَهْ ﴾ ﴿ وَما أَدْرَاكَ ما يَوْمُ الدَّينِ ﴾ '' ما '' الثانية رفعٌ، فرفعتَها بيوم ؛ كقولك : ما أدراك أي شيء يومُ الدّين، وكذلك قول الله تبارك وتعالى :﴿ لِنَعْلَمَ أي الْحِزْبَيْنِ أَحْصَى ﴾ رفعتَه بأَحْصَى، وتقول إذا كان الفعل واقعا على أي : ما أدرى أَيَّهم ضربت. وإنما امتنعت من أن تُوقع على أي الفعل الذي قبلها من العلم وأشباهه ؛ لأنك تجِدُ الفعلَ غيرَ واقع على أي في المعنى ؛ ألا ترى أنك إذا قلت : اذْهَبْ فاعلم أيُّهما قام أنك تسأل غيرهما عن حالهما فتجد الفعل واقعا على الذي أعلمك، كما أنك تقول : سل أيُّهُمْ قام، والمعنى : سل الناس أيُّهُمْ قام. ولو أوقعت الفعل على '' أي '' فقلت : اسأل أيَّهُمْ قام لكنت كأنك تضمر أيّاً مرّة أخرى ؛ لأنك تقول : سل زيدا أيُّهُمْ قام، فإذا أوقعت الفعل على زيد فقد جاءت '' أي '' بعده. فكذلك '' أي '' إذا أوقعت عليها الفعل خرجت من معنى الاستفهام، وذلك إن أردته، جائز، تقول : لأضْرِبَنَّ أيَّهُم يقول ذاك ؛ لأنّ الضرب لا يقع على {[} اسم ثم يأتي بعد ذلك استفهام، وذلك لأن الضرب لا يقع على {]} اثنين، وأنتَ تقول في المسألة : سل عبد الله عن كذا، كأنك قلت : سله عن كذا، ولا يجوز ضربت عبد الله كذا وكذا إلا أن تريد صفة الضرب، فأما الأسماء فلا. وقول الله :﴿ ثُمَّ لَنَنْزِعَنّ مِنْ كُلِّ شِيعةٍ أيُّهُم أشَدُّ على الرّحْمَنِ عِتيّاً ﴾ من نصب أيّاً أوقع عليها النزع وليس باستفهام، كأنه قال : ثم لنستخرجن العاتيَ الذي هو أشد. وفيها وجهان من الرفع ؛ أحدهما أن تجعل الفعل مكتفيا بِمن في الوقوع عليها، كما تقول : قد قتلنا من كل قوم، وأصبنا من كل طعام، ثم تستأنف أيّاً فترفعها بالذي بعدها، كما قال جلّ وعزّ :﴿ يَبْتَغُونَ إلى رَبِّهِمُ الْوَسِيلَةَ أيُّهُمْ أَقْرَبُ ﴾ أي ينظرون أيُّهُم أقرب. ومثله ﴿ يُلْقُونَ أقْلاَمَهُمْ أَيُّهُمْ يَكْفُلُ مَرْيَمَ ﴾. وأما الوجه، الآخر فإن في قوله تعالى :﴿ ثم لَنَنْزِعَنّ مِنْ كلِّ شِيعَةٍ ﴾ لننزعن من الذين تشايعوا على هذا، ينظرون بالتشايع أيهم أشدّ وأخبث، وأيهم أشدّ على الرحمن عِتيّاً، والشيعة ويتشايعون سواء في المعنى. وفيه وجه ثالث من الرفع أن تجعل ﴿ ثُمّ لَننْزِعَنَّ مِنْ كُلِّ شِيعَةٍ ﴾ بالنداء ؛ أي لننادين ﴿ أيُّهُمْ أشدُّ على الرّحْمانِ عِتيّاً ﴾ وليس هذا الوجه يريدون. ومثله مما تعرفه به قوله :﴿ أفَلَمْ يَيْأَسِ الَّذِيِنَ آمنَوُا أَنْ لَوْ يشاء اللَّهُ لهَدَى الناس جَميعاً ﴾ فقال بعض المفسرين ﴿ أَفَلَمْ يَيْأَسِ الَّذِينَ آمَنُوا ﴾ : ألم يعلم، والمعنى - والله أعلم - أفلم ييأسوا علما بأن الله لو شاء لهدى الناس جميعا. وكذلك '' لَنَنْزِعَنّ '' يقول يريد ننزعهم بالنداء.}
-  \end{quote}}
+  \end{displayquote}}
 
 \appendix
 
@@ -15676,13 +15672,17 @@ Another variant is that when word final hamzah has an \emph{i}-mark and is follo
 \item
   \vphantom{\huge J} {\tradarab{يُطْفِءُوا}} \emph{yuṭfiʾū} instead of {\tradarab{يُطْفِئُوا}}
 \item
-  \vphantom{\huge J} {\tradarab{مُسْتَهْزِءُون}} \emph{mustahziʾūn}instead of {\tradarab{مُسْتَهْزِئُون}}
+  \vphantom{\huge J} {\tradarab{مُسْتَهْزِءُون}} \emph{mustahziʾūn} instead of {\tradarab{مُسْتَهْزِئُون}}
 \item
   \vphantom{\huge J} {\tradarab{مُنْشِءُون}} \emph{muns͡hiʾūn} instead of {\tradarab{مُنْشِئُون}}
 \item
   \vphantom{\huge J} {\tradarab{يُضَاهِءُونَ}} \emph{yuḍāhiʾūna} instead of {\tradarab{يُضَاهِئُونَ}}
 \item
   \vphantom{\huge J} {\tradarab{مُرْجِءُون}} \emph{murjiʾūn} instead of {\tradarab{مُرْجِئُون}}
+\item
+  \vphantom{\huge J} {\tradarab{مُرْجِءُون}} \emph{murjiʾūn} instead of {\tradarab{مُرْجِئُون}}
+\item
+  \vphantom{\huge J} {\tradarab{رَئِيس}} \emph{raʾīs} instead of {\tradarab{رَءِيس}}
 \end{itemize}
 
 Excepted from this variant are deficient words like:
