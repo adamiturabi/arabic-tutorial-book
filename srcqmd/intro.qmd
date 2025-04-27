@@ -42,8 +42,8 @@ While Standard Arabic was thus preserved from major change and was used for lite
   %\def\lo{0.30} %  one tick length
 
   % help functions
-  \def\yearLabel(#1,#2){\node[above] at ({((#1-\yearOne)/\n/\interv)*\w},\lt) {#2};}
-  \def\yearLabelBelow(#1,#2){\node[below] at ({((#1-\yearOne)/\n/\interv)*\w},-\lt) {#2};}
+  \def\yearLabel(#1,#2){\node[above] at ({((#1-\yearOne)/\n/\interv)*\w},\lt) {\scriptsize #2};}
+  \def\yearLabelBelow(#1,#2){\node[below] at ({((#1-\yearOne)/\n/\interv)*\w},-\lt) {\scriptsize #2};}
   \def\yearLabelLine(#1,#2){\node[] at ({((#1-\yearOne)/\n/\interv)*\w},0) {#2};}
   \def\yearArrowLabel(#1,#2,#3,#4){
     \def\xy{{(#1-\yearOne)*\w/\n/\interv}}; \pgfmathparse{int(#2*100)};
@@ -65,7 +65,7 @@ While Standard Arabic was thus preserved from major change and was used for lite
     \def\year{\the\numexpr \yearOne+\tick*\interv \relax}
 	  \ifnum \year>0
       \draw[thick] (\x,\lt) -- (\x,-\lt) % marker tick
-	             node[below] {\year};
+	             node[below] {\scriptsize \year};
     \else
 	    \ifnum \year=0
         \draw[thick] (\x,\lt) -- (\x,-\lt) % marker tick
