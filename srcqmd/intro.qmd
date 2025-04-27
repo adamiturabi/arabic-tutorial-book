@@ -24,7 +24,7 @@ The pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic Arabic dialects (of which 
 <!--Ahmad Al-Jallad, Damascus Psalm Fragment, p. 69-->
 While Standard Arabic was thus preserved from major change and was used for literary purposes, the language that was spoken by Arabs in their day-to-day lives continued to change over time from the pre-standard Classical Arabic dialects into the modern colloquial dialects. And so today, there exist two very distinct types of Arabic: the preserved Standard Arabic which is taught at schools and is primarily a written language, and the modern colloquial Arabic dialects which Arabs learn as their mother tongue and which are primarily only spoken and not written.
 
-```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex"), fig.cap='Timeline of the development of Standard Arabic.'}
+```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 

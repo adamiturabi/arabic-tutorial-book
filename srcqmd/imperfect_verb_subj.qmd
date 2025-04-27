@@ -170,7 +170,7 @@ So, in the above example, the
 [أَنْ]{.ar} clause
 is in place of the direct doee of the verb [أَمَلَ]{.ar}:
 
-```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
+```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
@@ -196,7 +196,7 @@ occurs in place of other noun positions.
 
 As the subject:
 
-```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
+```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
@@ -218,7 +218,7 @@ As the subject:
 
 As the information:
 
-```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
+```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
@@ -240,7 +240,7 @@ As the information:
 
 As a doer noun:
 
-```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
+```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
@@ -262,7 +262,7 @@ As a doer noun:
 
 In the i-state as the base noun in an annexation:
 
-```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
+```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
@@ -284,7 +284,7 @@ In the i-state as the base noun in an annexation:
 
 In the i-state after a preposition:
 
-```{r,echo=FALSE,engine='tikz', fig.ext='pdf', engine.opts = list(template = if (knitr::is_html_output()) "srctex/tikz2pdf-lua-html.tex" else "srctex/tikz2pdf-lua.tex")}
+```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
