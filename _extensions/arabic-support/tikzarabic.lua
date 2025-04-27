@@ -286,12 +286,18 @@ end
 -- Renders the TikZ code block, returning the result path or data depending on the embed mode
 local function renderTikz(cb, options, tmpdir)
   local outputPath, tempOutputPath
+  local inputFilename = string.match(quarto.doc.input_file, "[^/]*$" )
+  inputFilename = string.match(inputFilename, "[^.]*." )
+  inputFilename = string.match(inputFilename, "[^.]*" )
+  local outFilename =  inputFilename .. "-" ..  options.filename
+  --print("*** input_file:")
+  --print(outFilename)
   if options.folder ~= nil then
     os.execute("mkdir -p " .. options.folder)
-    tempOutputPath = pandoc.path.join({ tmpdir, options.filename .. "." .. options.format })
-    outputPath = options.folder .. "/" .. options.filename .. "." .. options.format
+    tempOutputPath = pandoc.path.join({ tmpdir, outFilename .. "." .. options.format })
+    outputPath = options.folder .. "/" .. outFilename .. "." .. options.format
   else
-    tempOutputPath = pandoc.path.join({ tmpdir, options.filename .. "." .. options.format })
+    tempOutputPath = pandoc.path.join({ tmpdir, outFilename .. "." .. options.format })
     outputPath = tempOutputPath
   end
 
@@ -309,9 +315,9 @@ local function renderTikz(cb, options, tmpdir)
   if not outputGenerated then
     -- Generate the output
     if quarto.doc.isFormat("html") then
-      tikzToSvg(cb.text, tmpdir, options.filename, options.template_html, options.libraries, options.engine, options.libgs, options.scale_html)
+      tikzToSvg(cb.text, tmpdir, outFilename, options.template_html, options.libraries, options.engine, options.libgs, options.scale_html)
     elseif quarto.doc.isFormat("pdf") then
-      tikzToPdf(cb.text, tmpdir, options.filename, options.template_pdf, options.libraries, options.engine)
+      tikzToPdf(cb.text, tmpdir, outFilename, options.template_pdf, options.libraries, options.engine)
     else
       quarto.log.output("Error: Unsupported format")
       return nil
