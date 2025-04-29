@@ -42,6 +42,7 @@ book:
     - srcqmd/usage_and_style.qmd
   downloads: [pdf]
   site-url: https://adamiturabi.github.io/arabic-tutorial-book/
+  #cover-image: srchtml/favicon.png
 
 #keep-md: true
 filters:
