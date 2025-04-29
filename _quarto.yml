@@ -58,21 +58,6 @@ format:
     theme: cosmo
     css: srchtml/styles.css
     include-before-body: srchtml/watermark.html
-    # needs two relative links, one for index and the second for the other pages inside srcqmd subdir
-    include-in-header:
-      text: |
-        <link rel = "shortcut icon" href="javascript:faviconSelect(this)" />
-        <script type="text/javascript">
-          function faviconSelect(elm)
-          {
-            filename = location.pathname.substring(location.pathname.lastIndexOf("/") + 1);
-            if (filename === "index.html") {
-              return "srchtml/favicon.png"
-            } else {
-              return "../srchtml/favicon.png"
-            }
-          }
-        </script>
   pdf:
     #keep-tex: true
     documentclass: scrreprt # no roman numeral pagination but chapter page can be left or right
@@ -117,7 +102,7 @@ tikzarabic:
   libgs: /usr/local/Cellar/ghostscript/10.04.0/lib/libgs.dylib
 
 website:
-  favicon: favicon.png
+  favicon: srchtml/favicon.png
   announcement: 
     icon: info-circle
     dismissable: true
