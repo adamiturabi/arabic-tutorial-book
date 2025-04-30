@@ -435,19 +435,19 @@ So far we have seen annexations with two nouns. Annexations may be arbitrarily l
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-3.south east)
-      node [midway, below=0.5ex] {\scriptsize $a_1$};
+      node [midway, below=0.5ex] {$a_1$};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, below=0.5ex] {\scriptsize $b_1$};
+      node [midway, below=0.5ex] {$b_1$};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, below=2.75ex] {\scriptsize $a_2$};
+      node [midway, below=2.75ex] {$a_2$};
 
 \draw [decoration={brace, mirror}, decorate, below=3ex] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below=2.75ex] {\scriptsize $b_2$};
+      node [midway, below=2.75ex] {$b_2$};
 
 
 \path [decoration={text effects along path, 
