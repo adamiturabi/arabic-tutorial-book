@@ -60,6 +60,8 @@ quarto render
 
 To render the tikz figures, you need Ghostscript and Dvisvgm.
 
+Note that if you use Homebrew on MacOS to manage installation of the ghostscript utility, then, when it updates packages it will change the version number in the path and delete the old path. So then, if you don't update the `libgs` field in `_quarto.yml` to point to the new path then your figures will start to look corrupted.
+
 There is some experimental code (currently disabled) to use Inkscape instead.
 To install inkscape on Mac (without sudo):
 

@@ -95,11 +95,12 @@ format:
 tikzarabic:
   cache: true
   format: svg
+  scale_html: 1.27978125
   embed_mode: link
   engine: lualatex
   template_html: srctex/tikz-template-html.tex
   template_pdf: srctex/tikz-template-pdf.tex
-  libgs: /usr/local/Cellar/ghostscript/10.04.0/lib/libgs.dylib
+  libgs: /usr/local/Cellar/ghostscript/10.05.0_1/lib/libgs.dylib
 
 website:
   favicon: srchtml/favicon.png
