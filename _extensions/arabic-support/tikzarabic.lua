@@ -161,7 +161,7 @@ local function tikzToSvg(tikzCode, tmpdir, outputFile, template, libraries, engi
     if libgs ~= "" then
       libgs = "--libgs=" .. libgs
     end
-    local _, _, dvisvgmExitCode = os.execute("dvisvgm " .. libgs .. " --font-format=woff --scale=" .. scale_html .. " " .. dviFile .. " -n -o " .. svgFile)
+    local _, _, dvisvgmExitCode = os.execute("dvisvgm " .. libgs .. " --font-format=woff --scale=" .. scale_html .. " " .. dviFile .. " -o " .. svgFile)
     if dvisvgmExitCode ~= 0 then
       error("dvisvgm failed with exit code " .. dvisvgmExitCode)
     end
@@ -315,7 +315,14 @@ local function renderTikz(cb, options, tmpdir)
   if not outputGenerated then
     -- Generate the output
     if quarto.doc.isFormat("html") then
-      tikzToSvg(cb.text, tmpdir, outFilename, options.template_html, options.libraries, options.engine, options.libgs, options.scale_html)
+      if options.format == TikzFormat.svg then
+        tikzToSvg(cb.text, tmpdir, outFilename, options.template_html, options.libraries, options.engine, options.libgs, options.scale_html)
+      elseif options.format == TikzFormat.pdf then
+        tikzToPdf(cb.text, tmpdir, outFilename, options.template_html, options.libraries, options.engine)
+      else
+        quarto.log.output("Error: Unsupported format")
+        return nil
+      end
     elseif quarto.doc.isFormat("pdf") then
       tikzToPdf(cb.text, tmpdir, outFilename, options.template_pdf, options.libraries, options.engine)
     else
@@ -400,3 +407,4 @@ function Pandoc(doc)
   local filteredBlocks = pandoc.walk_block(pandoc.Div(doc.blocks), tikzFilter).content
   return pandoc.Pandoc(filteredBlocks, doc.meta)
 end
+
