@@ -1,4 +1,4 @@
-# Preface {-}
+# Preface {.unnumbered}
 
 [بسم الله الرحمن الرحيم]{.aralt}
 
@@ -47,7 +47,7 @@ options(tinytex.engine = "lualatex")
 ```
 -->
 
-# Romanization scheme {-}
+# Romanization scheme {.unnumbered}
 
 \markboth {\textsc{\MakeLowercase{Romanization scheme}}}{\textsc{\MakeLowercase{Romanization scheme}}}
 

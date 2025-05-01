@@ -37,7 +37,7 @@ book:
     - srcqmd/inna_and_its_sisters.qmd
     - srcqmd/ism_mawsuul.qmd
     - srcqmd/questions.qmd
-    - srcqmd/appendix.qmd
+  appendices:
     - srcqmd/hamzarules.qmd
     - srcqmd/usage_and_style.qmd
   downloads: [pdf]
