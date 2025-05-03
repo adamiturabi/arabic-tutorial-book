@@ -216,6 +216,9 @@ As the subject:
 \end{tikzpicture}
 ```
 
+which is grammatically equivalent to: [نَجَاحَكَ هُوَ ٱلْمَقْصِدُ.]{.ar}.
+
+
 As the information:
 
 ```{.tikzarabic}
@@ -238,13 +241,15 @@ As the information:
 \end{tikzpicture}
 ```
 
+which is grammatically equivalent to: [ٱَلْمَقْصِدُ نَجَاحَكَ.]{.ar}.
+
 As a doer noun:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
-  text=.\txarb{أَلَّا يَنْجَحَ} \txarb{يَحْزُنُنِي},
+  text=.\txarb{أَنْ يَذْهَبَ} \txarb{يَحْزُنُنِي},
   text effects/.cd, 
     path from text, text along path,
     group letters, word count=\w,
@@ -255,10 +260,12 @@ As a doer noun:
    (word-1.south west) -- (word-1.south east)
       node [midway, below] {\scriptsize doer};
 
-\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``That he not succeed saddens me.''};
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``That he [should] go saddens me.''};
 
 \end{tikzpicture}
 ```
+
+which is grammatically equivalent to: [يَحْزُنُنِي ذَهَابُهُ.]{.ar}.
 
 In the i-state as the base noun in an annexation:
 
@@ -266,7 +273,7 @@ In the i-state as the base noun in an annexation:
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
-  text=.\txarb{عَلَيَّ} \txarb{أَنْ تَغْضَبَ} \txarb{لَبِثْتُ فِي ٱلْبَيْتِ مِنْ خَشْيَةِ},
+  text=.\txarb{عَلَيْهَا} \txarb{أَنْ يَغْضَبَ} \txarb{سَكَتَتْ مِنْ خَشْيَةِ},
   text effects/.cd, 
     path from text, text along path,
     group letters, word count=\w,
@@ -277,10 +284,12 @@ In the i-state as the base noun in an annexation:
    (word-2.south west) -- (word-2.south east)
       node [midway, below] {\scriptsize i-state base noun};
 
-\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``I lingered at home from fear that you be angry at me.''};
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``She stayed quiet from fear of that he be angry at her.''};
 
 \end{tikzpicture}
 ```
+
+which is grammatically equivalent to: [سَكَتَتْ مِنْ خَشْيَةِ غَضَبِهِ عَلَيْهَا.]{.ar}.
 
 In the i-state after a preposition:
 
@@ -288,7 +297,7 @@ In the i-state after a preposition:
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
-  text=.\txarb{أَنْ يَأْكُلَ} \txarb{رَغِبَ ٱلْغُلَامُ فِي},
+  text=.\txarb{أَنْ يَأْكُلَ ٱلطَّعَامَ} \txarb{رَغِبَ ٱلْغُلَامُ فِي},
   text effects/.cd, 
     path from text, text along path,
     group letters, word count=\w,
@@ -299,10 +308,12 @@ In the i-state after a preposition:
    (word-2.south west) -- (word-2.south east)
       node [midway, below] {\scriptsize i-state after preposition};
 
-\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The boy desired that he eat.''};
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The boy desired that he eat the food.''};
 
 \end{tikzpicture}
 ```
+
+which is grammatically equivalent to: [رَغِبَ ٱلْغُلَامُ فِي أَكْلِ ٱلطَّعَامِ.]{.ar}.
 
 ### Option to drop the preposition before [أَنْ]{.ar}
 
@@ -312,8 +323,8 @@ In such cases, where the
 occurs after a preposition, it is common to drop the preposition as long as there is not resulting confusion in meaning.
 So, we can also say (without the preposition [فِي]{.ar}) for the same meaning:
 
-[رَغِبَ ٱلْغُلَامُ آَنْ يَأْكُلَ.]{.ar}  
-"The boy desired that he eat."
+[رَغِبَ ٱلْغُلَامُ آَنْ يَأْكُلَ ٱلطَّعَامَ.]{.ar}  
+"The boy desired that he eat the food."
 
 ### Uncommon usages of [أَنْ]{.ar}
 
