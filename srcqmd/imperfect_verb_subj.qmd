@@ -153,9 +153,9 @@ In grammatical theory,
 [أَنْ]{.ar} 
 and the following verb form a clause that is equivalent in meaning to the doing verbal-noun of the verb. So in the example,
 [أَمَلَ ٱلطَّالِبُ أَنْ يَنْجَحَ.]{.ar}, the 
-[أَنْ]{.ar} clause
-([أَنْ يَنْجَحَ]{.ar})
-is equivalent to the doing verbal noun [ٱلنَّجَاح]{.ar}.
+[أَنْ]{.ar} clause is
+[أَنْ يَنْجَحَ]{.ar}.
+It is equivalent to the doing verbal noun [ٱلنَّجَاح]{.ar}.
 So the sentence is grammatically equivalent to
 
 [أَمَلَ ٱلطَّالِبُ ٱلنَّجَاحَ.]{.ar}  
@@ -244,7 +244,7 @@ As a doer noun:
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
-  text=.\txarb{أَلَّا يَرْجِعَ} \txarb{يَكْبُدُنِي},
+  text=.\txarb{أَلَّا يَنْجَحَ} \txarb{يَحْزُنُنِي},
   text effects/.cd, 
     path from text, text along path,
     group letters, word count=\w,
@@ -255,7 +255,7 @@ As a doer noun:
    (word-1.south west) -- (word-1.south east)
       node [midway, below] {\scriptsize doer};
 
-\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``That he not return affects me severely.''};
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``That he not succeed saddens me.''};
 
 \end{tikzpicture}
 ```
