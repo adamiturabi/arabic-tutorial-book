@@ -101,7 +101,7 @@ li {
 }
 .reg-ar-text {
   font-family: Vazirmatn, serif;
-  font-size: 1.2em; 
+  font-size: 1.0em; 
   line-height: 100%;
   /* the followuing may be needed if the dir attribute is not set in the source */
   /*
