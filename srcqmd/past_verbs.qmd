@@ -233,14 +233,14 @@ we would like to say:
 "He went."
 
 For this we will have to learn a third category of pronoun pronouns called _doer pronouns_ for completed-action verbs.
-Doer pronouns are of two types: visible and invisible.
+Doer pronouns are of two types: (i) expressed and  (ii) implied.
 
 Here we list the singular doer pronouns in Arabic. 
 
 Singular participant | Doer pronoun
 :------|:--
-Masc. absentee ("he")      | invisible
-Fem. absentee ("she")      | invisible
+Masc. absentee ("he")      | implied
+Fem. absentee ("she")      | implied
 Masc. addressee ("you~1,m~") | [تَ]{.ar} [-ta]{.trn}
 Fem. addressee ("you~1,f~")  | [تِ]{.ar} [-ti]{.trn}
 Speaker ("I")              | [تُ]{.ar} [-tu]{.trn}
@@ -261,9 +261,9 @@ When we replace the doer noun [ٱلرَّجُل]{.ar} [Earrujul]{.trn} "the man"
 [pahab.]{.trn}  
 "[He] went."
 
-As you can see, all we did was omit the doer-noun [ٱَلرَّجُل]{.ar} [Earrujul]{.trn}, and we didn't add any word to replace it as the doer pronoun. This is because the doer pronoun for "he" is _invisible_ and automatically comes into place when we omit the doer noun.
+As you can see, all we did was omit the doer-noun [ٱَلرَّجُل]{.ar} [Earrujul]{.trn}, and we didn't add any word to replace it as the doer pronoun. This is because the doer pronoun for "he" is implied and automatically comes into place when we omit the doer noun.
 
-The doer pronoun for "she" is similarly invisible.
+The doer pronoun for "she" is similarly implied.
 For example, if we replace the doer noun in the sentence:
 
 [قَرَأَتِ ٱلْجَارِيَةُ كِتَابًا.]{.ar}  
@@ -276,21 +276,30 @@ we get:
 [qaraEat kitAbA.]{.trn}  
 "[She] read a book."
 
-#### Explanation of invisible pronouns
+#### Explanation of implied pronouns
 
-Why do we have to go to all the trouble of saying that the doer-pronouns of the singular masculine absentee-participant "he"/"she" are invisible? Why can't we simply say that there are no doer-pronouns for the singular masculine absentee-participant?
+Why do we have to go to all the trouble of saying that the doer-pronouns of the singular absentee-participants "he" and "she" are implied? 
+Why can't we simply say that there are no doer-pronouns for the singular absentee-participants?
 
-The reason is that making the statement that these pronoun exist but are invisible is useful to us from the perspective of the grammar theory that we are building.
+The reason is that 
+<!--making the statement that these pronoun exist but are implied is useful to us from the perspective of the grammar theory that we are building.
+That is: -->
+we need to be able to state, as a rule of grammar, that every verb needs to have its own doer, whether expressed or implied. 
+Later, 
+if [#allAh]{.trn2} wills,
+when we study verbs with dual and plural doers we will see that this will make a difference in the formation of the verb.
+<!--And that doer shall come after the verb in sentence word order.-->
 
-That is: we need to be able to state, as a rule of grammar, that every verb needs to have a doer, whether visible or not. And that doer shall come after the verb in sentence word order.
-
+<!--
 If we are able to make this a rule, then we will see, if [#allAh]{.trn2} wills, that it will help us later. For example, when we study verbs with plural doers.
+-->
 
 ### Doer pronouns for the singular addressee ("you~1~") and speaker ("I") participants
 
-It is only the doer pronouns for the singular absentee participant that are invisible for completed-action verbs. The doer pronouns for the singular addressee and speaker participants are visible. When visible, the doer pronouns are attached to the verb.
+It is only the doer pronouns for the singular absentee participant that are implied for completed-action verbs. The doer pronouns for the singular addressee and speaker participants are expressed.
+The expressed doer pronouns are attached to the verb.
 
-Here we show how the visible doer pronouns are attached to the verb using the root paradigm [فعل]{.ar}. The middle root letter ([ع]{.ar}) has an [a]{.trn}-vowel [◌َ]{.ar} here but this vowel will vary for other verbs.
+Here we show how the expressed doer pronouns are attached to the verb using the root paradigm [فعل]{.ar}. The middle root letter ([ع]{.ar}) has an [a]{.trn}-vowel [◌َ]{.ar} here but this vowel will vary for other verbs.
 
 Singular participant | Doer pronoun | Doer pronoun with verb
 :------|:--|:--
@@ -298,11 +307,11 @@ Addressee "you~1,m~" | [تَ]{.ar} [-ta]{.trn} | [فَعَلْتَ]{.ar} [faealt
 Addressee "you~1,f~" | [تِ]{.ar} [-ti]{.trn} | [فَعَلْتِ]{.ar} [faealti]{.trn}
 Speaker "I"          | [تُ]{.ar} [-tu]{.trn} | [فَعَلْتُ]{.ar} [faealtu]{.trn}
 
-Note also how the visible singular doer pronouns modify the verb by replacing the [a]{.trn}-mark [◌َ]{.ar} on its final letter by a 0-mark [◌ْ]{.ar}.
+Note also how the expressed singular doer pronouns modify the verb by replacing the [a]{.trn}-mark [◌َ]{.ar} on its final letter by a 0-mark [◌ْ]{.ar}.
 
 Furthermore, note how the doer pronoun for the addressed person "you" is differentiated for masculine and feminine doers whereas the doer pronoun for the speaking person "I" is the same for both genders.
 
-Here are some examples of sentences with visible doer pronouns:
+Here are some examples of sentences with expressed doer pronouns:
 
 [كَتَبْتَ كِتَابًا.]{.ar}  
 [katabta kitAbA.]{.trn}  
@@ -330,7 +339,7 @@ If the final letter of the root of a verb is [ت]{.ar}, then it gets assimililat
 
 [سكت]{.ar} [سَكَتَ]{.ar} [sakata]{.trn} "became quiet"
 
-When we add a visible doer pronoun to this verb, we get:
+When we add a expressed doer pronoun to this verb, we get:
 
 [سَكَتُّ]{.ar}  
 [sakattu]{.trn}  
@@ -372,7 +381,7 @@ Here are some notes regarding their usage:
   [saEaltuk.]{.trn}  
   "I asked you~f~."
 
-+ If the doer pronoun is invisible, then the doee pronoun shall be attached to the verb again directly with only a possible [تْ]{.ar} of femininity intervening. For example:
++ If the doer pronoun is implied, then the doee pronoun shall be attached to the verb again directly with only a possible [تْ]{.ar} of femininity intervening. For example:
 
   [سَأَلَهَا.]{.ar}  
   [saEalahA.]{.trn}  
@@ -399,7 +408,7 @@ Here are some notes regarding their usage:
   "The man asked me."
 
   <!--The [ن]{.ar} is purely for intervening between the verb and the doee pronoun and has no meaning on its own.-->
-  If there is a visible doer pronoun, the intervening [ن]{.ar} shall come after it so that the [ن]{.ar} is always connected to the doee pronoun. For example,
+  If there is an expressed doer pronoun, the intervening [ن]{.ar} shall come after it so that the [ن]{.ar} is always connected to the doee pronoun. For example,
 
   [سَأَلْتَنِي.]{.ar}  
   [saEaltanI]{.trn}  
@@ -408,9 +417,12 @@ Here are some notes regarding their usage:
   By the way, we have already seen this intervening [ن]{.ar} before when it was used with some prepositions, e.g. [مِنِّي]{.ar} [minnI]{.trn}, [عَنِّي]{.ar} [eannI]{.trn}, and [لَدُنِّي]{.ar} [ladunnI]{.trn}
   <!--So why don't we simply incorporate the [ن]{.ar} with the doee pronoun and say that the doee pronoun for "me" is [نِي]{.ar} [-nI]{.trn} and [نِيَ]{.ar} [-niya]{.trn}? This is because in addition to their use as doee pronouns, these same pronouns are also used in other places as we shall see later, if [#allAh]{.trn2} wills, and in those cases there is often no intervening [ن]{.ar} for the speaking person pronoun. -->
 
-  Even though, the variant [◌ِي]{.ar} [-I]{.trn} is, in general, more commonly used, when the noun following it begins with a connecting [hamzah]{.trn2} then the variant [◌ِيَ]{.ar} [-ya]{.trn} is preferred. That is why we used the variant [◌ِيَ]{.ar} [-ya]{.trn} when it was followed by a connecting [hamzah]{.trn2} ([سَأَلَنِيَ ٱلرَّجُلُ.]{.ar}), and the variant [◌ِي]{.ar} [-I]{.trn} when it was not followed by a connecting [hamzah]{.trn2} ([سَأَلَنِي رَجُلٌ.]{.ar}). 
-
-  This preference is not mandatory. So it is allowed for [◌ِي]{.ar} [-I]{.trn} to be used when followed by a connecting [hamzah]{.trn2}. When this happens, the long vowel [-I]{.trn} will be shortened to [-i]{.trn} in connecting it to the next word, although the [◌ِي]{.ar} is retained in writing. For example,
+  The variant [◌ِي]{.ar} [-I]{.trn} is, in general, more commonly used,
+  However, when the noun following it begins with a connecting [hamzah]{.trn2} then the variant [◌ِيَ]{.ar} [-ya]{.trn} is preferred. 
+  That is why we used the variant [◌ِيَ]{.ar} [-ya]{.trn} when it was followed by a connecting [hamzah]{.trn2} ([سَأَلَنِيَ ٱلرَّجُلُ.]{.ar}), and the variant [◌ِي]{.ar} [-I]{.trn} when it was not followed by a connecting [hamzah]{.trn2} ([سَأَلَنِي رَجُلٌ.]{.ar}). 
+  But this preference is not mandatory. 
+  So it is allowed for [◌ِي]{.ar} [-I]{.trn} to be used when followed by a connecting [hamzah]{.trn2}. 
+  When this happens, the long vowel [-I]{.trn} will be shortened to [-i]{.trn} in connecting it to the next word, although the [◌ِي]{.ar} is retained in writing. For example,
 
   [سَأَلَنِي ٱلرَّجُلُ.]{.ar}  
   [saEalani -rrajul.]{.trn}  
@@ -464,7 +476,7 @@ Here is our translation:
 
 Each verb again has its own doer, which is coming after the verb in sentence word order. The doer of the first verb [دَخَلَ]{.ar} [daxala]{.trn} "entered" is the noun 
 [ٱَلْجَارِيَةُ]{.ar} [EaljAriyatu]{.trn} "the girl".
-The subsequent verbs all have doers too but they are the invisible doer pronouns for the singular feminine absentee participant. That is why we don't write them. Note also that every verb has the [تْ]{.ar} of femininity attached to it to indicate its singular feminine absentee doer.
+The subsequent verbs all have doers too but they are the implied doer pronouns for the singular feminine absentee participant. That is why we don't write them. Note also that every verb has the [تْ]{.ar} of femininity attached to it to indicate its singular feminine absentee doer.
 <!--
 In a sentence that has multiple verbs separated by "and", normally one of them is placed before the doer and the rest after it. For example,
 
@@ -492,11 +504,11 @@ However, we will often come across sentences like:
 
 It may appear as if [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn} is the doer and it is coming before the verb [كَتَبَ]{.ar} [kataba]{.trn}. But actually, this is not the case. As a matter of fact, this sentence is basically a subject-information sentence. 
 
-Here [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn} "the man" is the subject of the sentence, and [كَتَبَ كِتَابًا]{.ar} [kataba kitAban]{.trn} "he wrote a book", itself a verbal sentence with an invisible doer pronoun, is the information about the subject. So the translation of the sentence is technically:
+Here [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn} "the man" is the subject of the sentence, and [كَتَبَ كِتَابًا]{.ar} [kataba kitAban]{.trn} "he wrote a book", itself a verbal sentence with an implied doer pronoun, is the information about the subject. So the translation of the sentence is technically:
 
 "The man, he wrote a book."
 
-However, this is an awkward translation so we will usually translate it as "The man wrote a book." <!--But this is also the translation of:
+However, this can be an awkward translation so we will usually translate it as "The man wrote a book." <!--But this is also the translation of:
 
 [كَتَبَ ٱلرَّجُلُ كِتَابًا.]{.ar}  
 [kataba -rrajulu kitAban.]{.trn}  
