@@ -25,9 +25,9 @@ Another way is to use a pointing noun, thus:
 "I saw _that_ man."
 
 But sometimes, a whole sentence is needed to provide the needed identification. 
-In this case, Arabic uses what is called a _connected noun_ and a _connector_. 
-<!--A connected noun is itself a vague noun, which is then connected to by a qualifying sentence directly following it called the _connector_. 
-The connector contains sufficient information to identify the individual intended by the speaker. -->
+In this case, Arabic uses what is called a _connected noun_ and a _connecting sentence_. 
+<!--A connected noun is itself a vague noun, which is then connected to by a qualifying sentence directly following it called the _connecting sentence_. 
+The connecting sentence contains sufficient information to identify the individual intended by the speaker. -->
 This example should help you understand what we mean:
 
 
@@ -44,7 +44,7 @@ This example should help you understand what we mean:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex, align=left] {\scriptsize connector};
+      node [midway, rotate=90, anchor=south, left=0ex, align=left] {\scriptsize connecting sentence};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
@@ -62,12 +62,12 @@ By itself it may be translated as "the one~1m~ that/which/who/whom".
 <!--Sometimes in sentences it is left untranslated (as above) and an implied "who", "whom", "that", or "which" is used to aid the translation.-->
 It is called a connected noun because it must be directly followed by a qualifying sentence that connects to it.
 
-The qualifying sentence is called the connector and it contains the necessary information for the listener to correctly identify the individual intended by the speaker."
-The connector in the above example is the sentence [لَقِيتُهُ بِٱلْأَمْسِ]{.ar} "I met him yesterday."
+The qualifying sentence is called the connecting sentence and it contains the necessary information for the listener to correctly identify the individual intended by the speaker."
+The connecting sentence in the above example is the sentence [لَقِيتُهُ بِٱلْأَمْسِ]{.ar} "I met him yesterday."
 
 Note by the way, that we did not translate the pronoun "him" in our original translation (above). 
 This is because it would sound unnatural in English to say: "I saw the [specific] man (whom) I met _him_ yesterday."
-But this pronoun is an essential part of the Arabic connector and is called the _link-back pronoun_. 
+But this pronoun is an essential part of the Arabic connecting sentence and is called the _link-back pronoun_. 
 We will deal with it in section\ \@ref(link-back-pronoun) later in this chapter.
 
 There are two types of connected nouns:
@@ -80,7 +80,7 @@ We will study both these types separately within this chapter.
 ## The specific connected nouns
 
 The specific connected nouns have a significance which is restricted to a specific individual or category of individuals, 
-and its connector should contain sufficient information to identify that specific individual.
+and its connecting sentence should contain sufficient information to identify that specific individual.
 
 The specific connected nouns is a group of nouns where each noun is applied to a gender and number of individuals. They are:
 
@@ -195,16 +195,16 @@ As a base noun in an annexation:
 "Certainly has Allāh heard the speech of the one who argues [i.e., pleads] with you, [O Muḥammad]"  
 58:1
 
-## The connector and the link-back pronoun {#link-back-pronoun}
+## The connecting sentence and the link-back pronoun {#link-back-pronoun}
 
-The connector is (typically) a sentence that directly follows the connected noun. 
+The connecting sentence is (typically) a sentence that directly follows the connected noun. 
 As we mentioned in the introduction,
-the connector provides clarifying information for the listener (or reader) to identify the individual referred to by the connected noun.
+the connecting sentence provides clarifying information for the listener (or reader) to identify the individual referred to by the connected noun.
 
 <!--
-### An incomplete sentence as the connector
+### An incomplete sentence as the connecting sentence
 
-The connector is, by default, a complete sentence. 
+The connecting sentence is, by default, a complete sentence. 
 It is, however, allowed to be an incomplete sentence if it is one of the following:
 
  i. A prepositional phrase. For example:
@@ -212,7 +212,7 @@ It is, however, allowed to be an incomplete sentence if it is one of the followi
     [نَامَ ٱلَّذِي فِي ٱلْغُرْفَةِ.]{.ar}  
     "The one (who is) in the room has slept."
 
-    The connector is the incomplete sentence [فِي ٱلْغُرْفَةِ]{.ar} "(is) in the room".
+    The connecting sentence is the incomplete sentence [فِي ٱلْغُرْفَةِ]{.ar} "(is) in the room".
 
 ii. An adverbial phrase. For example:
 
@@ -220,16 +220,16 @@ ii. An adverbial phrase. For example:
     "The one (who is) with you spoke."
 
     (Remember that [عِنْدَ]{.ar} is technically a noun used adverbially, not a preposition.)
-    The connector is the incomplete sentence [عِنْدَكَ]{.ar} "(is) with you". 
+    The connecting sentence is the incomplete sentence [عِنْدَكَ]{.ar} "(is) with you". 
 
-In such cases, the incomplete sentence connector implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
+In such cases, the incomplete sentence connecting sentence implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
 
 ### The link-back pronoun {#link-back-pronoun}
 -->
 
-In the connector is a pronoun that refers back to the connected noun.
+In the connecting sentence is a pronoun that refers back to the connected noun.
 This pronoun is called the _link-back pronoun_.
-and it is an essential (though not always apparent) part of the connector.
+and it is an essential (though not always apparent) part of the connecting sentence.
 
 Let us identify some of the link-back pronouns in the examples we have given.
 
@@ -359,7 +359,7 @@ Some conditions are specific to the state of the refer-back pronoun. These are:
     "He came who is standing."  
     (instead of [جاء الذي هو قائم]{.ar})
 
-    In such cases, the incomplete sentence connector implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
+    In such cases, the incomplete sentence connecting sentence implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
 
 (b) When the link-back pronoun is an attached pronoun for the direct doee it is permissible to omit it. For example:
 
@@ -420,10 +420,10 @@ It does not specify that I spoke to _him_ in his house, just that I spoke in his
 Because the omission of the refer-back pronoun is not obvious, the sentence now does not siginify the original intent. And so deleting the refer-back pronoun in this case is not permitted.
 
 
-### Separating the connector from the connected noun
+### Separating the connecting sentence from the connected noun
 
-Generally, the connector directly follows the connected noun, as in all the examples we have given so far.
-However, the connector may be separated from the connected noun by one of the following:
+Generally, the connecting sentence directly follows the connected noun, as in all the examples we have given so far.
+However, the connecting sentence may be separated from the connected noun by one of the following:
 
   i. An oath. For example:
 
@@ -445,7 +445,7 @@ iii. A parenthetical clause, which is a sentence within the main sentence that a
 
 ## The general connected nouns
 
-The general connected nouns are unrestricted in significance, and may be applied to any individual who fits the criteria given in the connector.
+The general connected nouns are unrestricted in significance, and may be applied to any individual who fits the criteria given in the connecting sentence.
 The two main general connected nouns are:
 
 1. [مَنْ]{.ar} [man]{.trn}. Typically used for intelligent beings and translated as "who".
@@ -761,7 +761,7 @@ For example,
 ### Use with the preposition [مِنْ]{.ar}
 
 The preposition [مِنْ]{.ar} is frequently used with the general connected nouns to restrict the applicability of the connected noun to a group or type. 
-This [مِنْ]{.ar} may come either before the connected noun, or after its connector.
+This [مِنْ]{.ar} may come either before the connected noun, or after its connecting sentence.
 For example:
 
 <!--[سَأُعْطِيهِ مَا عِنْدِي مِنْ خُبْزٍ.]{.ar}  
@@ -800,7 +800,7 @@ For example:
 [جَمَعْتُ مَا جَمَعْتُ]{.ar}  
 "I gathered what I gathered."
 
-## Omitting the connected noun and/or the connector
+## Omitting the connected noun and/or the connecting sentence
 
 TODO. See النحو الوافي
 
@@ -824,7 +824,7 @@ we cannot say
 
 $\times$ [مَرَرْتُ بِرَجُلٍ ٱلَّذِي يَنَامُ.]{.ar}  
 
-Instead, we put the qualifying sentence directly after the indefinite noun. The qualifying sentence will then not be a connector, but will itself be the describer to the described noun:
+Instead, we put the qualifying sentence directly after the indefinite noun. The qualifying sentence will then not be a connecting sentence, but will itself be the describer to the described noun:
 
 [مَرَرْتُ بِرَجُلٍ يَنَامُ.]{.ar}  
 "I passed by a man (who) is sleeping."
@@ -857,7 +857,7 @@ Sometimes the definite article [ٱَلْ]{.ar}
 does not determine a particular individual, but
 makes a noun definite only in a generic way.
 In this case a qualifying sentence may directly follow it without any intermediate connected noun used as a describer.^[Fischer §428.1, Wright vol.\ 2, §172, p.\ 318B.]
-Because there is no connected noun, the qualifying sentence is, again, not analyzed as a connector.
+Because there is no connected noun, the qualifying sentence is, again, not analyzed as a connecting sentence.
 For example:
 
 [كَمَثَلِ الْحِمَارِ يَحْمِلُ أَسْفَارًا]{.ar}  
@@ -876,8 +876,8 @@ For example:
 
 If a sentence has a definite noun which is to be qualified by a prepositional or adverbial phrase, then in many cases, that phrase may directly follow the definite noun without any intermediate connected noun used a describer.
 But using a connected noun is also permissible if one wishes to emphasize that the specificity of the noun.
-When there is no connected noun, the prepositional or adverbial phrase is not analyzed as a connector, but is considered attached to an implied verb that has the idea of "being", like "is", "are", etc.
-When there is a connected noun, then it is analyzed as a connector, as usual.
+When there is no connected noun, the prepositional or adverbial phrase is not analyzed as a connecting sentence, but is considered attached to an implied verb that has the idea of "being", like "is", "are", etc.
+When there is a connected noun, then it is analyzed as a connecting sentence, as usual.
 For example:
 
 [سِرْتُ فِي ٱلْحَدِيقَةِ عِنْدَ ٱلْمَسْجِدِ.]{.ar}  
