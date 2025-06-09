@@ -322,15 +322,19 @@ or
 "O the one (who) stood up"  
 -->
 
-## The general connected nouns
+## The general connected nouns [مَنْ]{.ar} and [مَا]{.ar}
 
 The general connected nouns are unrestricted in significance, and may be applied to any individual who fits the criteria given in the connecting sentence.
-The two main general connected nouns are:
+The most commonly general connected nouns are:
 
-1. [مَنْ]{.ar} [man]{.trn}. Typically used for intelligent beings and translated as "who".
-1. [مَا]{.ar} [mA]{.trn}. Typically used for non-intelligent beings and translated as "what".
++ [مَنْ]{.ar} [man]{.trn}. Typically used for intelligent beings and translated as "who".
++ [مَا]{.ar} [mA]{.trn}. Typically used for non-intelligent beings and translated as "what".
++ [أَيّ]{.ar} [Eayy]{.trn}. Used for both intelligent and non-intelligent beings. Translated as "which", "whichever" or "any".
 
-There are also some other rarely or dialectally used general connected nouns that we will not cover. These are [أَيّ]{.ar} [Eayy]{.trn}, [ذُو]{.ar} [pU]{.trn}, and [ذَا]{.ar} [pA]{.trn}.[^connected-noun-other-interrogatives]
+There are also a couple of rarely or dialectally used general connected nouns that we will not cover. 
+These are 
+<!--[أَيّ]{.ar} [Eayy]{.trn},--> 
+[ذُو]{.ar} [pU]{.trn}, and [ذَا]{.ar} [pA]{.trn}.[^connected-noun-other-interrogatives]
 
 [^connected-noun-other-interrogatives]: Fischer claims (§427):
 
@@ -352,6 +356,9 @@ There are also some other rarely or dialectally used general connected nouns tha
     The article [ٱل]{.ar} is also generally included among [الأسماء الموصولة المشتركة]{.ar}.
     However, we have deemed it too complicated to cover (and too confusing to even mention in main text).
     See [النحو الوافي لعباس حسن]{.ar} vol.\ 1, pp.\ 356--357 for its treatment.
+
+In this section we will deal with [مَنْ]{.ar} and [مَا]{.ar}.
+We will deal with [أَيّ]{.ar} separately in section\ (give ref) later in this chapter.
 
 Unlike the specific connected nouns ([ٱَلَّذِي]{.ar}, etc.),
 the general connected nouns do not vary for number and gender.
@@ -447,30 +454,6 @@ or
 [ٱُشْكُرْ مَنْ أَحْسَنُوا إِلَيْكَ.]{.ar} (refer-back pronoun is the implied pl. masc. doer pronoun of the verb [أَحْسَنُوا]{.ar}.)  
 "Thank who did good to you."
 -->
-
-#### Deleting the refer-back pronoun
-
-The same guidelines for deleting the refer-back pronouns, which we learned for the specific connected nouns, apply also to the general connected nouns.
-For example:
-
-[وَلَهُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ]{.ar}  
-"To Him belongs whoever is in the heavens and the earth."  
-21:19  
-(for [مَنْ هُوَ فِي ٱلسَّمَوَاتِ وَٱلْأَرْضِ]{.ar})
-
-[هَـٰذَا مَا كَنَزْتُمْ لِأَنْفُسِكُمْ]{.ar}  
-"This is what you hoarded for yourselves"  
-9:35  
-(for [مَا كَنَزْتُمُوهُ]{.ar})
-
-[فَٱقْضِ مَا أَنتَ قَاضٍ]{.ar}  
-"So decree whatever you are to decree."  
-20:72  
-(for [مَا أَنْتَ قَاضِيهِ]{.ar})
-
-[أَنَا عِنْدَ مَنْ أَنْتَ.]{.ar}  
-"I am at his [house] at whose you (are)."  
-(for [مَنْ أَنْتَ عِنْدَهُ]{.ar})
 
 ### Applicability of [مَا]{.ar} and [مَنْ]{.ar} to intelligent and non-intelligent beings {#man-and-maa-for-intelligent}
 
@@ -685,7 +668,8 @@ The refer-back pronoun may be deleted (and its meaning is then implicit) if some
 Some conditions are specific to the state of the refer-back pronoun. These are:
 
 (a) When the refer-back pronoun is the subject of a subject-information sentence, then it may be deleted, and its meaning will be implied.
-    In this case, it is preferred that the connecting sentence not be short.
+    When deleting the refer-back pronoun in this case, it is preferred that the connecting sentence not be too short.
+    <!--In such cases, the incomplete sentence connecting sentence implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.-->
 
     For example:
 
@@ -694,22 +678,29 @@ Some conditions are specific to the state of the refer-back pronoun. These are:
     [muslim:2963c]  
     (instead of [انْظُرُوا إِلَى مَنْ هُوَ أَسْفَلَ مِنْكُمْ]{.ar})
 
-    If the connecting sentence is short, the deleting if the refer-back pronoun subject is permissible, though rare. For example:
+    [وَلَهُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ]{.ar}  
+    "To Him belongs whoever is in the heavens and the earth."  
+    [quran:21/19]  
+    (instead of [مَنْ هُوَ فِي ٱلسَّمَوَاتِ وَٱلْأَرْضِ]{.ar})
 
-    [جاء الذي قائم]{.ar}  
-    "He came who is standing."  
-    (instead of [جاء الذي هو قائم]{.ar})
+    [مَا أَنَا بِٱلَّذِي قَائِلٌ لَكَ شَيْـًٔا]{.ar}  
+    I am not the one who says anything to you.  
+    [Wright vol. ii, §175, p. 322D]  
+    (instead of [مَا أَنَا بِٱلَّذِي هُوَ قَائِلٌ لَكَ شَيْـًٔا]{.ar})
 
-    In such cases, the incomplete sentence connecting sentence implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
+    If the connecting sentence is very short, the deleting the refer-back pronoun subject is permissible, though rare. For example:
+
+    [جاء الذي ذَكِيٌّ]{.ar}  
+    The one who is smart came.  
+    [[شرح ألفية ابن مالك للعثيمين]{.ar}]  
+    (instead of [جاء الذي هو ذكي]{.ar})
 
 (b) When the refer-back pronoun is an attached pronoun for the direct doee it is permissible to delete it. For example:
 
-    [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمْ.]{.ar}  
-    "The one (thing) that you said has reached us."
-
-    With the refer-back pronoun restored, the sentence is  
-
-    [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
+    [هَـٰذَا مَا كَنَزْتُمْ لِأَنْفُسِكُمْ]{.ar}  
+    "This is what you hoarded for yourselves"  
+    [9:35]  
+    (instead of [مَا كَنَزْتُمُوهُ]{.ar})
 
 (c) When the refer-back pronoun is in the i-state, it is permissible to delete it:
 
@@ -717,10 +708,8 @@ Some conditions are specific to the state of the refer-back pronoun. These are:
 
         [فَاقْضِ مَا أَنتَ قَاضٍ]{.ar}  
         "So decree whatever you are to decree."  
-        [20:72]
-        
-        With the refer-back pronoun restored, the sentence is  
-        [فَاقْضِ مَا أَنتَ قَاضِيهِ]{.ar}  
+	[quran:20/72]  
+        (instead of [فَاقْضِ مَا أَنتَ قَاضِيهِ]{.ar})
 
 	<!--
         [أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلٌ.]{.ar}  
@@ -732,17 +721,23 @@ Some conditions are specific to the state of the refer-back pronoun. These are:
 
     (ii) When the refer-back pronoun is attached to a preposition or adverb, and the same preposition or adverb has already been used (with the same meaning) with the connecting noun or its described noun. The preposition/adverb is deleted along with its attached pronoun. For example:
 
+         <!--
          [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ.]{.ar}  
          "I walked in the (same) garden [in] which you walked."
 
          With the refer-back pronoun restored, the sentence is  
          [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ فِيهَا.]{.ar}  
+         -->
+
+         [أَنَا عِنْدَ مَنْ أَنْتَ.]{.ar}  
+         "I am at his [house] at whose you (are)."  
+         [Wright vol. ii, §175, p. 323C]  
+         (instead of [مَنْ أَنْتَ عِنْدَهُ]{.ar})
 
          [مَرَرْتُ بِٱلَّذِي مَرَّ سُلَيْمَانُ.]{.ar}  
-         "I passed by the (same) one that [#sulaymAn]{.trn2} did."
-
-         With the refer-back pronoun restored, the sentence is  
-         [مَرَرْتُ بِٱلَّذِي مَرَّ بِهِ سُلَيْمَانُ.]{.ar}  
+         "I passed by the (same) one that [#sulaymAn]{.trn2} did."  
+         [Wright vol. ii, §175, p. 323D]  
+         (instead of [مَرَرْتُ بِٱلَّذِي مَرَّ بِهِ سُلَيْمَانُ.]{.ar})
 
 In addition to the above conditions that are specific to the state of the refer-back pronoun,
 a further, general, condition should be satisfied, which is:
@@ -755,7 +750,8 @@ In this case, it is not permitted to delete the refer-back pronoun. Here is an e
 Consider the sentence:
 
 [جاء الذي كَلَّمْتُهُ في داره.]{.ar}  
-"The one whom I spoke to (him) in his house, came.
+"The one whom I spoke to (him) in his house, came.  
+[modified from example in [شرح ابن عقيل على ألفية ابن مالك]{.ar}]
 
 The connecting sentence is 
 [كَلَّمْتُهُ في داره.]{.ar} "I spoke to him in his house."
@@ -769,6 +765,9 @@ Now the meaning of the sentence is markedly different. The connecting sentence [
 It does not specify that I spoke to _him_ in his house, just that I spoke in his house, possibly to others.
 Because the omission of the refer-back pronoun is not obvious, the sentence now does not siginify the original intent. And so deleting the refer-back pronoun in this case is not permitted.
 
+## The general connected noun [أَيّ]{.ar}
+
+TODO.
 
 ## Separating the connecting sentence from the connected noun
 
@@ -882,7 +881,11 @@ or
 [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي هِيَ عِنْدَ ٱلْمَسْجِدِ.]{.ar}  
 "I walked in the [specific] garden that [is] next to the mosque."  
 
-## Notes
+## Notes and references
+
+Wright:
+
+   + vol.\ ii, §172, p.\ 317--319: 
 
 From [شرح ابن عقيل على ألفية ابن مالك]{.ar}:
 
@@ -906,4 +909,6 @@ From [تفسير القرطبي]{.ar}:
 لم أر مثل الفتيان في غبن * الأيام يدرون ما عواقبها قالوا: ما موصولة، والتقدير: يدرون الذي هو عواقبها.
 وبعض هذه الشواهد يحتمل وجوها من الاعراب غير الذي ذكروه، فمن ذلك أن " ما " في الآية الثانية يجوز أن تكون زائدة، وبعوضة خبر مبتدأ محذوف، ومن ذلك أن " ما " في بيت عدي بن زيد يحتمل أن تكون استفهامية مبتدأ، وما بعدها خبر، والجملة في محل نصب مفعول به ليدرون، وقد علق عنها لأنها مصدرة بالاستفهام، والكلام يطول إذا نحن تعرضنا لكل واحد من هذه الشواهد، فلنجتزئ لك بالإشارة.
 :::
+
+
 
