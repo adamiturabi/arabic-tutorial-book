@@ -64,6 +64,7 @@ format:
     documentclass: scrreprt # no roman numeral pagination but chapter page can be left or right
     #documentclass: scrbook # new chapter page only on right but adds \frontmatter command for roman numeral pagination
     toc: true
+    toc-depth: 2
     geometry:
       # A4 2 pages per sheet draft
       #- paper=a5paper               # a5: 148.5 by 210mm
