@@ -25,9 +25,9 @@ Another way is to use a pointing noun, thus:
 "I saw _that_ man."
 
 But sometimes, a whole sentence is needed to provide the needed identification. 
-In this case, Arabic uses what is called a _connected noun_ and a _connector_. 
-<!--A connected noun is itself a vague noun, which is then connected to by a qualifying sentence directly following it called the _connector_. 
-The connector contains sufficient information to identify the individual intended by the speaker. -->
+In this case, Arabic uses what is called a _connected noun_ and a _connecting sentence_. 
+<!--A connected noun is itself a vague noun, which is then connected to by a qualifying sentence directly following it called the _connecting sentence_. 
+The connecting sentence contains sufficient information to identify the individual intended by the speaker. -->
 This example should help you understand what we mean:
 
 
@@ -44,13 +44,13 @@ This example should help you understand what we mean:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex, align=left] {\scriptsize connector};
+      node [midway, rotate=90, anchor=south, left=0ex, align=left] {\scriptsize connecting sentence};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
       node [midway, rotate=90, anchor=south, left=0ex, align=left] {\scriptsize connected noun};
 
-\path (0,0) node [midway, below=13.5ex, right=0ex, align=left] {``I saw the [specific] man whom I met yesterday.''};
+\path (0,0) node [midway, below=15.5ex, right=0ex, align=left] {``I saw the [specific] man whom I met yesterday.''};
 
 \end{tikzpicture}
 ```
@@ -60,15 +60,14 @@ It is applied to singular masculine nouns, like [ٱلرَّجُل]{.ar}.
 <!--It signifies a specific individual denoted by a singular masculine noun.-->
 By itself it may be translated as "the one~1m~ that/which/who/whom".
 <!--Sometimes in sentences it is left untranslated (as above) and an implied "who", "whom", "that", or "which" is used to aid the translation.-->
-It is called a connected noun because it must be directly followed by a qualifying sentence that connects to it.
-
-The qualifying sentence is called the connector and it contains the necessary information for the listener to correctly identify the individual intended by the speaker."
-The connector in the above example is the sentence [لَقِيتُهُ بِٱلْأَمْسِ]{.ar} "I met him yesterday."
+It is called a connected noun because it is directly followed by, i.e. _connected_ to, a connecting sentence.
+The connecting sentence contains necessary information for the listener to correctly identify the individual that the connected noun refers to.
+The connecting sentence in the above example is the sentence [لَقِيتُهُ بِٱلْأَمْسِ]{.ar} "I met him yesterday."
 
 Note by the way, that we did not translate the pronoun "him" in our original translation (above). 
 This is because it would sound unnatural in English to say: "I saw the [specific] man (whom) I met _him_ yesterday."
-But this pronoun is an essential part of the Arabic connector and is called the _link-back pronoun_. 
-We will deal with it in section\ \@ref(link-back-pronoun) later in this chapter.
+But this pronoun is an essential part of the Arabic connecting sentence and is called the _refer-back pronoun_. 
+We will deal with it in section\ \@ref(refer-back-pronoun) later in this chapter.
 
 There are two types of connected nouns:
 
@@ -80,7 +79,7 @@ We will study both these types separately within this chapter.
 ## The specific connected nouns
 
 The specific connected nouns have a significance which is restricted to a specific individual or category of individuals, 
-and its connector should contain sufficient information to identify that specific individual.
+and its connecting sentence should contain sufficient information to identify that specific individual.
 
 The specific connected nouns is a group of nouns where each noun is applied to a gender and number of individuals. They are:
 
@@ -195,16 +194,16 @@ As a base noun in an annexation:
 "Certainly has Allāh heard the speech of the one who argues [i.e., pleads] with you, [O Muḥammad]"  
 58:1
 
-## The connector and the link-back pronoun {#link-back-pronoun}
+## The refer-back pronoun {#refer-back-pronoun}
 
-The connector is (typically) a sentence that directly follows the connected noun. 
+The connecting sentence is directly follows the connected noun. 
 As we mentioned in the introduction,
-the connector provides clarifying information for the listener (or reader) to identify the individual referred to by the connected noun.
+the connecting sentence provides clarifying information for the listener (or reader) to identify the individual referred to by the connected noun.
 
 <!--
-### An incomplete sentence as the connector
+### An incomplete sentence as the connecting sentence
 
-The connector is, by default, a complete sentence. 
+The connecting sentence is, by default, a complete sentence. 
 It is, however, allowed to be an incomplete sentence if it is one of the following:
 
  i. A prepositional phrase. For example:
@@ -212,7 +211,7 @@ It is, however, allowed to be an incomplete sentence if it is one of the followi
     [نَامَ ٱلَّذِي فِي ٱلْغُرْفَةِ.]{.ar}  
     "The one (who is) in the room has slept."
 
-    The connector is the incomplete sentence [فِي ٱلْغُرْفَةِ]{.ar} "(is) in the room".
+    The connecting sentence is the incomplete sentence [فِي ٱلْغُرْفَةِ]{.ar} "(is) in the room".
 
 ii. An adverbial phrase. For example:
 
@@ -220,58 +219,58 @@ ii. An adverbial phrase. For example:
     "The one (who is) with you spoke."
 
     (Remember that [عِنْدَ]{.ar} is technically a noun used adverbially, not a preposition.)
-    The connector is the incomplete sentence [عِنْدَكَ]{.ar} "(is) with you". 
+    The connecting sentence is the incomplete sentence [عِنْدَكَ]{.ar} "(is) with you". 
 
-In such cases, the incomplete sentence connector implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
+In such cases, the incomplete sentence connecting sentence implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
 
-### The link-back pronoun {#link-back-pronoun}
+### The refer-back pronoun {#refer-back-pronoun}
 -->
 
-In the connector is a pronoun that refers back to the connected noun.
-This pronoun is called the _link-back pronoun_.
-and it is an essential (though not always apparent) part of the connector.
+In the connecting sentence is a pronoun that refers back to the connected noun.
+This pronoun is called the _refer-back pronoun_.
+and it is an essential (though not always apparent) part of the connecting sentence.
 
-Let us identify some of the link-back pronouns in the examples we have given.
+Let us identify some of the refer-back pronouns in the examples we have given.
 
 
 [وَالَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ]{.ar}  
 "And those who hoard gold and silver"  
-Link-back pronoun: the plural masculine doer pronoun [و]{.ar} in [يَكْنِزُونَ]{.ar}
+refer-back pronoun: the plural masculine doer pronoun [و]{.ar} in [يَكْنِزُونَ]{.ar}
 
 [خِيَارُ أَئِمَّتِكُمُ الَّذِينَ تُحِبُّونَهُمْ]{.ar}  
 "The best of your rulers are the ones whom you love and who love you"  
-Link-back pronoun: the plural masculine doee attached pronoun [هُمْ]{.ar} in [تُحِبُّونَهُمْ]{.ar}
+refer-back pronoun: the plural masculine doee attached pronoun [هُمْ]{.ar} in [تُحِبُّونَهُمْ]{.ar}
 
 [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
 "The [specific] one (thing) that you said has reached us."  
-Link-back pronoun: the singular masculine doee attached pronoun [هُ]{.ar} in [قُلْتُمُوهُ]{.ar}
+refer-back pronoun: the singular masculine doee attached pronoun [هُ]{.ar} in [قُلْتُمُوهُ]{.ar}
 
 [رَبَّنَا أَرِنَا ٱللَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنْسِ]{.ar}  
 "Our Lord, show us those who misled us of the jinn and men"  
-Link-back pronoun: the dual masculine doer pronoun [ا]{.ar} in [أَضَلَّانَا]{.ar}
+refer-back pronoun: the dual masculine doer pronoun [ا]{.ar} in [أَضَلَّانَا]{.ar}
 
 [أَوْ كَٱلَّذِي مَرَّ عَلَىٰ قَرْيَةٍ]{.ar}  
 "Or [consider such an example] as the one who passed by a township"  
-Link-back pronoun: the implied singular masculine doer pronoun "he" in [مَرَّ]{.ar}
+refer-back pronoun: the implied singular masculine doer pronoun "he" in [مَرَّ]{.ar}
 
 [قَدْ سَمِعَ ٱللَّـٰهُ قَوْلَ ٱلَّتِي تُجَادِلُكَ فِي زَوْجِهَا]{.ar}  
 "Certainly has Allāh heard the speech of the one who argues [i.e., pleads] with you, [O Muḥammad]"  
-Link-back pronoun: the implied singular feminine doer pronoun "she" in [تُجَادِلُكَ]{.ar}
+refer-back pronoun: the implied singular feminine doer pronoun "she" in [تُجَادِلُكَ]{.ar}
 
-### Matching the link-back pronoun with the connected noun
+### Matching the refer-back pronoun with the connected noun
 
-The link-back pronoun matches the specific connected noun in gender and number.
-And the link-back pronoun is generally an absent-person pronoun ([هُ]{.ar}, [هَا]{.ar}, [هُوَ]{.ar}, [هُمْ]{.ar}, etc.).
+The refer-back pronoun matches the specific connected noun in gender and number.
+And the refer-back pronoun is generally an absent-person pronoun ([هُ]{.ar}, [هَا]{.ar}, [هُوَ]{.ar}, [هُمْ]{.ar}, etc.).
 For example, in the sentence,
 [وَالَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ]{.ar}
 "And those who hoard gold and silver,"
-the link-back pronoun is the plural masculine absent-person doer pronoun [و]{.ar} "they" in [يَكْنِزُونَ]{.ar} "they hoard".
+the refer-back pronoun is the plural masculine absent-person doer pronoun [و]{.ar} "they" in [يَكْنِزُونَ]{.ar} "they hoard".
 And it matches the plural masculine connected noun [ٱلَّذِينَ]{.ar}.
 
-However, there is an exception to the link-back pronoun being an absent-person pronoun.
+However, there is an exception to the refer-back pronoun being an absent-person pronoun.
 And that is when the connected noun refers to the speaker or the addressed person, like 
 [أَنَا ٱلَّذِي]{.ar}, or [أَنْتُمُ ٱلَّذِينَ]{.ar}, etc.
-In these cases, the link-back pronoun may optionally:
+In these cases, the refer-back pronoun may optionally:
 
  i. either be an absent-person pronoun to match the connected noun (as usual),
 ii. or match the pronoun for the speaker or addressed person (as the case may be)
@@ -280,24 +279,24 @@ The latter is generally more common but both options are permissible.
 For example:
 
 [أَنَا ٱلَّذِي حَضَرْتُ.]{.ar}  
-Link-back pronoun: the singular masculine doer pronoun for the speaker [تُ]{.ar} in [حَضَرْتُ]{.ar}  
+refer-back pronoun: the singular masculine doer pronoun for the speaker [تُ]{.ar} in [حَضَرْتُ]{.ar}  
 or  
 [أَنَا ٱلَّذِي حَضَرَ.]{.ar}  
-Link-back pronoun: the implied singular masculine doer pronoun for the absent person "he" in [حَضَرَ]{.ar}  
+refer-back pronoun: the implied singular masculine doer pronoun for the absent person "he" in [حَضَرَ]{.ar}  
 "I am the one (who) was present."
 
 Here are some examples from Classical Arabic:
 
 [أَنَا ٱلَّذِي سَمَّتْنِ أُمِّي حَيْدَرَهْ]{.ar}  
 "I am the one whom my mother named [#Haydarah]{.trn2}"  
-(The link-back pronoun is the speaker person's doee pronoun in [سَمَّتْنِ]{.ar}, which is an abbreviation of [سَمَّتْنِي]{.ar} "she named me".)
+(The refer-back pronoun is the speaker person's doee pronoun in [سَمَّتْنِ]{.ar}, which is an abbreviation of [سَمَّتْنِي]{.ar} "she named me".)
 
 [فَقَالَ مُوسَى يَا آدَمُ أَنْتَ الَّذِي خَلَقَكَ اللَّهُ بِيَدِهِ]{.ar}  
 "[#mUsA]{.trn2} said: O [#Adam]{.trn2}, you are the one whom [#allAh]{.trn2} created with His Hand"  
 tirmidhi:2134  
-(The link-back pronoun is the addressed person's doee pronoun [كَ]{.ar} in [خَلَقَكَ]{.ar}.)
+(The refer-back pronoun is the addressed person's doee pronoun [كَ]{.ar} in [خَلَقَكَ]{.ar}.)
 
-There is one circumstance where matching the link-back pronoun to the (absent person) connected-noun is mandated.
+There is one circumstance where matching the refer-back pronoun to the (absent person) connected-noun is mandated.
 And that is when the connected noun is the called-out person using the particle [أَيُّهَا]{.ar} or [أَيَّتُهَا]{.ar}.
 For example,
 
@@ -323,129 +322,9 @@ or
 "O the one (who) stood up"  
 -->
 
-### Omitting the link-back pronoun
-
-<!--
-Tafsir al-Qurtubi:
-قوله تعالى : ثم آتينا موسى الكتاب مفعولان . تماما مفعول من أجله أو مصدر . على الذي أحسن قرئ بالنصب والرفع . فمن رفع - وهي قراءة يحيى بن يعمر وابن أبي إسحاق - فعلى تقدير : تماما على الذي هو أحسن . قال المهدوي : وفيه بعد من أجل حذف المبتدأ العائد على الذي . وحكى سيبويه عن الخليل أنه سمع " ما أنا بالذي قائل لك شيئا " . ومن نصب فعلى أنه فعل ماض داخل في الصلة ; هذا قول البصريين . وأجاز الكسائي والفراء أن يكون اسما نعتا ل " الذي " وأجازا " مررت بالذي أخيك " ينعتان " الذي " بالمعرفة وما قاربها . قال النحاس : وهذا محال عند البصريين ; لأنه نعت للاسم قبل أن يتم ، والمعنى عندهم : على المحسن .
-
-شرح ابن عقيل:
-ذهب الكوفيون إلى أنه يجوز حذف العائد المرفوع بالابتداء مطلقا، أي سواء أكان الموصول أيا أم غيره، وسواء أطالت الصلة أم لم تطل، وذهب البصريون إلى جواز حذف هذا العائد إذا كان الموصول أيا مطلقا، فإن كان الموصول غير أي لم يجيزوا الحذف إلا بشرط طول الصلة، فالخلاف بين الفريقين منحصر فيما إذا لم تطل الصلة وكان الموصول غير أي، فأما الكوفيون فاستدلوا بالسماع، فمن ذلك قراءة يحيى بن يعمر:
-(تماما على الذي أحسن) قالوا: التقدير على الذي هو أحسن، ومن ذلك قراءة مالك ابن دينار وابن السماك: (إن الله لا يستحيي أن يضرب مثلا ما بعوضة فما فوقها) قالوا:
-التقدير: مثلا الذي هو بعوضة فما فوقها، ومن ذلك قول الشاعر:
-لا تنو إلا الذي خير، فما شقيت * إلا نفوس الألى للشر ناوونا قالوا: التقدير لا تنو إلا الذي هو خير، ومن ذلك قول الآخر:
-من يعن بالحمد لم ينطق بما سفه ولا يحد عن سبيل المجد والكرم قالوا: تقدير هذا البيت: من يعن بالحمد لم ينطق بالذي هو سفه، ومن ذلك قول عدي بن زيد العبادي:
-لم أر مثل الفتيان في غبن * الأيام يدرون ما عواقبها قالوا: ما موصولة، والتقدير: يدرون الذي هو عواقبها.
-وبعض هذه الشواهد يحتمل وجوها من الاعراب غير الذي ذكروه، فمن ذلك أن " ما " في الآية الثانية يجوز أن تكون زائدة، وبعوضة خبر مبتدأ محذوف، ومن ذلك أن " ما " في بيت عدي بن زيد يحتمل أن تكون استفهامية مبتدأ، وما بعدها خبر، والجملة في محل نصب مفعول به ليدرون، وقد علق عنها لأنها مصدرة بالاستفهام، والكلام يطول إذا نحن تعرضنا لكل واحد من هذه الشواهد، فلنجتزئ لك بالإشارة.
-
--->
-
-The link-back pronoun may be omitted (and its meaning is then implicit) if some conditions are satisfied.
-Some conditions are specific to the state of the refer-back pronoun. These are:
-
-(a) When the refer-back pronoun is the subject of a subject-information sentence, then it may be omitted, and its meaning will be implied.
-    In this case, it is preferred that the connecting sentence not be short.
-
-    For example:
-
-    [انْظُرُوا إِلَى مَنْ أَسْفَلَ مِنْكُمْ]{.ar}  
-    "Look at who is beneath you."  
-    [muslim:2963c]  
-    (instead of [انْظُرُوا إِلَى مَنْ هُوَ أَسْفَلَ مِنْكُمْ]{.ar})
-
-    If the connecting sentence is short, the omitting if the refer-back pronoun subject is permissible, though rare. For example:
-
-    [جاء الذي قائم]{.ar}  
-    "He came who is standing."  
-    (instead of [جاء الذي هو قائم]{.ar})
-
-    In such cases, the incomplete sentence connector implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
-
-(b) When the link-back pronoun is an attached pronoun for the direct doee it is permissible to omit it. For example:
-
-    [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمْ.]{.ar}  
-    "The one (thing) that you said has reached us."
-
-    With the link-back pronoun restored, the sentence is  
-
-    [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
-
-(c) When the refer-back pronoun is in the i-state, it is permissible to omit it:
-
-    (i) When the link-back pronoun is the base noun in an annexation whose annex noun is a verbal noun of the doer or the doee implying a present or future meaning. For example:
-
-        [أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلٌ.]{.ar}  
-        "I fear from him the wrong that he will do."
-
-        With the link-back pronoun restored, the sentence is  
-        [أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلُهُ.]{.ar}  
-
-    (ii) When the link-back pronoun is attached to a preposition or adverb, and the same preposition or adverb has already been used (with the same meaning) with the connecting noun or its described noun. The preposition/adverb is omitted along with its attached pronoun. For example:
-
-         [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ.]{.ar}  
-         "I walked in the (same) garden [in] which you walked."
-
-         With the link-back pronoun restored, the sentence is  
-         [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ فِيهَا.]{.ar}  
-
-         [مَرَرْتُ بِٱلَّذِي مَرَّ سُلَيْمَانُ.]{.ar}  
-         "I passed by the (same) one that [#sulaymAn]{.trn2} did."
-
-         With the link-back pronoun restored, the sentence is  
-         [مَرَرْتُ بِٱلَّذِي مَرَّ بِهِ سُلَيْمَانُ.]{.ar}  
-
-In addition to the above conditions that are specific to the state of the refer-back pronoun,
-a further, general, condition should be satisfied, which is:
-that the omission of the refer-back pronoun be obvious to the listener, and the listener can re-construct the original meaning by restoring the refer-back pronoun to get the intended meaning.
-
-If the refer-back pronoun is omitted, and the remaining connecting sentence (with the refer-back pronoun omitted) is valid as a connecting sentence on its own right, then it will give a different meaning (even if slightly) from the original. 
-And the listener will not know that the refer-back pronoun has been omitted. 
-In this case, it is not permitted to omit the refer-back pronoun. Here is an example that should explain what we mean:
-
-Consider the sentence:
-
-[جاء الذي كَلَّمْتُهُ في داره.]{.ar}  
-"The one whom I spoke to (him) in his house, came.
-
-The connecting sentence is 
-[كَلَّمْتُهُ في داره.]{.ar} "I spoke to him in his house."
-and the refer-back pronoun is the a-state direct doee pronoun [ه]{.ar} "him".
-If we delete this pronoun, the sentence becomes
-
-[جاء الذي كَلَّمْتُ في داره.]{.ar}  
-"The one who I spoke in his house, came.
-
-Now the meaning of the sentence is markedly different. The connecting sentence [كَلَّمْتُ فِي دَارِهِ]{.ar} is valid on its own right but it gives a different meaning from the original.
-It does not specify that I spoke to _him_ in his house, just that I spoke in his house, possibly to others.
-Because the omission of the refer-back pronoun is not obvious, the sentence now does not siginify the original intent. And so deleting the refer-back pronoun in this case is not permitted.
-
-
-### Separating the connector from the connected noun
-
-Generally, the connector directly follows the connected noun, as in all the examples we have given so far.
-However, the connector may be separated from the connected noun by one of the following:
-
-  i. An oath. For example:
-
-     [جَاءَ ٱلَّذِي وَٱللَّـٰه قَهَرَ ٱلْأَعْدَاءَ.]{.ar}  
-     "The one who - by [#allAh]{.trn2} - overpowered the enemies has come."
-
- ii. A sentence calling out to someone. For example,
-
-     [أَنْتَ ٱلَّذِي يَا زَيْدُ فَتَحْتَ ٱلْبَابَ.]{.ar}  
-     "You are the one - O Zayd - who opened the door."
-
-iii. A parenthetical clause, which is a sentence within the main sentence that adds information to it, but which can be omitted without affecting the completeness of the main sentence. For example:
-
-     [قَدِمَ ٱلَّذِي أَطَالَ ٱللَّـٰهُ عُمْرَهُ أَحْسَنَ إِلَيَّ.]{.ar}  
-     "The one who - may Allah lengthen his age - was good to me has arrived."
-
-     [قَدِمَ ٱلَّذِي وَهُوَ مُبْتَسِمٌ أَحْسَنَ إِلَيَّ.]{.ar}  
-     "The one who - and he is smiling - was good to me has arrived."
-
 ## The general connected nouns
 
-The general connected nouns are unrestricted in significance, and may be applied to any individual who fits the criteria given in the connector.
+The general connected nouns are unrestricted in significance, and may be applied to any individual who fits the criteria given in the connecting sentence.
 The two main general connected nouns are:
 
 1. [مَنْ]{.ar} [man]{.trn}. Typically used for intelligent beings and translated as "who".
@@ -505,7 +384,7 @@ The preposition [فِي]{.ar} is also often (though not always) optionally attac
 The remaining prepositions follow the normal rules: [عَلَى مَا]{.ar}, [كَمَنْ]{.ar}, etc.
 But we will see, if [#allAh]{.trn2} wills, in chapter\ \@ref(questions), that [مَا]{.ar} and [مَنْ]{.ar} are also used as question nouns, in which case the rules of joining prepositions to them will differ.
 
-### The link-back pronoun for the general connected nouns
+### The refer-back pronoun for the general connected nouns
 
 The general connected nouns
 [مَنْ]{.ar}
@@ -514,7 +393,7 @@ and
 are themselves singular masculine in number and gender.
 However, they can be used to signify persons or things of any number and gender.
 
-Their link-back pronouns can then, optionally:
+Their refer-back pronouns can then, optionally:
 
  i. Either match the gender and number of the persons or things meant by the connected noun. For example:
 
@@ -526,7 +405,7 @@ Their link-back pronouns can then, optionally:
     "She has thwarted herself, whoever did that from them~3f~, and lost."  
     [[#jAmie al-#tirmipI]{.trn2}:3318]
 
-    Note also how, in this example how, in addition to the feminine link-back doer pronouns in [فَعَلَتْ]{.ar} and [خَسِرَتْ]{.ar},
+    Note also how, in this example how, in addition to the feminine refer-back doer pronouns in [فَعَلَتْ]{.ar} and [خَسِرَتْ]{.ar},
     the feminine gender of the person signified by [مَنْ]{.ar} has also caused the [تْ]{.ar} of femininity to be added to the verb [خَابَ]{.ar} (of which [مَنْ]{.ar} is the doer noun).
 
     [جَمَعْتُ مِنَ ٱلْوَرَقِ مَا سَقَطْنَ.]{.ar}
@@ -563,15 +442,15 @@ Both options can be utilized together as well. For example:
 2:38
 
 <!--
-[ٱُشْكُرْ مَنْ أَحْسَنَ إِلَيْكَ.]{.ar} (link-back pronoun is the implied sing. masc. doer pronoun of the verb [أَحْسَنَ]{.ar}.)  
+[ٱُشْكُرْ مَنْ أَحْسَنَ إِلَيْكَ.]{.ar} (refer-back pronoun is the implied sing. masc. doer pronoun of the verb [أَحْسَنَ]{.ar}.)  
 or  
-[ٱُشْكُرْ مَنْ أَحْسَنُوا إِلَيْكَ.]{.ar} (link-back pronoun is the implied pl. masc. doer pronoun of the verb [أَحْسَنُوا]{.ar}.)  
+[ٱُشْكُرْ مَنْ أَحْسَنُوا إِلَيْكَ.]{.ar} (refer-back pronoun is the implied pl. masc. doer pronoun of the verb [أَحْسَنُوا]{.ar}.)  
 "Thank who did good to you."
 -->
 
-#### Omitting the link-back pronoun
+#### Deleting the refer-back pronoun
 
-The same guidelines for omitting the link-back pronouns, which we learned for the specific connected nouns, apply also to the general connected nouns.
+The same guidelines for deleting the refer-back pronouns, which we learned for the specific connected nouns, apply also to the general connected nouns.
 For example:
 
 [وَلَهُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ]{.ar}  
@@ -761,7 +640,7 @@ For example,
 ### Use with the preposition [مِنْ]{.ar}
 
 The preposition [مِنْ]{.ar} is frequently used with the general connected nouns to restrict the applicability of the connected noun to a group or type. 
-This [مِنْ]{.ar} may come either before the connected noun, or after its connector.
+This [مِنْ]{.ar} may come either before the connected noun, or after its connecting sentence.
 For example:
 
 <!--[سَأُعْطِيهِ مَا عِنْدِي مِنْ خُبْزٍ.]{.ar}  
@@ -800,7 +679,122 @@ For example:
 [جَمَعْتُ مَا جَمَعْتُ]{.ar}  
 "I gathered what I gathered."
 
-## Omitting the connected noun and/or the connector
+## Deleting the refer-back pronoun
+
+The refer-back pronoun may be deleted (and its meaning is then implicit) if some conditions are satisfied.
+Some conditions are specific to the state of the refer-back pronoun. These are:
+
+(a) When the refer-back pronoun is the subject of a subject-information sentence, then it may be deleted, and its meaning will be implied.
+    In this case, it is preferred that the connecting sentence not be short.
+
+    For example:
+
+    [انْظُرُوا إِلَى مَنْ أَسْفَلَ مِنْكُمْ]{.ar}  
+    "Look at who is beneath you."  
+    [muslim:2963c]  
+    (instead of [انْظُرُوا إِلَى مَنْ هُوَ أَسْفَلَ مِنْكُمْ]{.ar})
+
+    If the connecting sentence is short, the deleting if the refer-back pronoun subject is permissible, though rare. For example:
+
+    [جاء الذي قائم]{.ar}  
+    "He came who is standing."  
+    (instead of [جاء الذي هو قائم]{.ar})
+
+    In such cases, the incomplete sentence connecting sentence implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
+
+(b) When the refer-back pronoun is an attached pronoun for the direct doee it is permissible to delete it. For example:
+
+    [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمْ.]{.ar}  
+    "The one (thing) that you said has reached us."
+
+    With the refer-back pronoun restored, the sentence is  
+
+    [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
+
+(c) When the refer-back pronoun is in the i-state, it is permissible to delete it:
+
+    (i) When the refer-back pronoun is the base noun in an annexation whose annex noun is a verbal noun of the doer or the doee implying a present or future meaning. For example:
+
+        [فَاقْضِ مَا أَنتَ قَاضٍ]{.ar}  
+        "So decree whatever you are to decree."  
+        [20:72]
+        
+        With the refer-back pronoun restored, the sentence is  
+        [فَاقْضِ مَا أَنتَ قَاضِيهِ]{.ar}  
+
+	<!--
+        [أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلٌ.]{.ar}  
+        "I fear from him the wrong that he will do."
+
+        With the refer-back pronoun restored, the sentence is  
+        [أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلُهُ.]{.ar}  
+	-->
+
+    (ii) When the refer-back pronoun is attached to a preposition or adverb, and the same preposition or adverb has already been used (with the same meaning) with the connecting noun or its described noun. The preposition/adverb is deleted along with its attached pronoun. For example:
+
+         [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ.]{.ar}  
+         "I walked in the (same) garden [in] which you walked."
+
+         With the refer-back pronoun restored, the sentence is  
+         [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ فِيهَا.]{.ar}  
+
+         [مَرَرْتُ بِٱلَّذِي مَرَّ سُلَيْمَانُ.]{.ar}  
+         "I passed by the (same) one that [#sulaymAn]{.trn2} did."
+
+         With the refer-back pronoun restored, the sentence is  
+         [مَرَرْتُ بِٱلَّذِي مَرَّ بِهِ سُلَيْمَانُ.]{.ar}  
+
+In addition to the above conditions that are specific to the state of the refer-back pronoun,
+a further, general, condition should be satisfied, which is:
+that the omission of the refer-back pronoun be obvious to the listener, and the listener can re-construct the original meaning by restoring the refer-back pronoun to get the intended meaning.
+
+If the refer-back pronoun is deleted, and the remaining connecting sentence (with the refer-back pronoun deleted) is valid as a connecting sentence on its own right, then it will give a different meaning (even if slightly) from the original. 
+And the listener will not know that the refer-back pronoun has been deleted. 
+In this case, it is not permitted to delete the refer-back pronoun. Here is an example that should explain what we mean:
+
+Consider the sentence:
+
+[جاء الذي كَلَّمْتُهُ في داره.]{.ar}  
+"The one whom I spoke to (him) in his house, came.
+
+The connecting sentence is 
+[كَلَّمْتُهُ في داره.]{.ar} "I spoke to him in his house."
+and the refer-back pronoun is the a-state direct doee pronoun [ه]{.ar} "him".
+If we delete this pronoun, the sentence becomes
+
+[جاء الذي كَلَّمْتُ في داره.]{.ar}  
+"The one who I spoke in his house, came.
+
+Now the meaning of the sentence is markedly different. The connecting sentence [كَلَّمْتُ فِي دَارِهِ]{.ar} is valid on its own right but it gives a different meaning from the original.
+It does not specify that I spoke to _him_ in his house, just that I spoke in his house, possibly to others.
+Because the omission of the refer-back pronoun is not obvious, the sentence now does not siginify the original intent. And so deleting the refer-back pronoun in this case is not permitted.
+
+
+## Separating the connecting sentence from the connected noun
+
+Generally, the connecting sentence directly follows the connected noun, as in all the examples we have given so far.
+However, the connecting sentence may be separated from the connected noun by one of the following:
+
+  i. An oath. For example:
+
+     [جَاءَ ٱلَّذِي وَٱللَّـٰه قَهَرَ ٱلْأَعْدَاءَ.]{.ar}  
+     "The one who - by [#allAh]{.trn2} - overpowered the enemies has come."
+
+ ii. A sentence calling out to someone. For example,
+
+     [أَنْتَ ٱلَّذِي يَا زَيْدُ فَتَحْتَ ٱلْبَابَ.]{.ar}  
+     "You are the one - O Zayd - who opened the door."
+
+iii. A parenthetical clause, which is a sentence within the main sentence that adds information to it, but which can be deleted without affecting the completeness of the main sentence. For example:
+
+     [قَدِمَ ٱلَّذِي أَطَالَ ٱللَّـٰهُ عُمْرَهُ أَحْسَنَ إِلَيَّ.]{.ar}  
+     "The one who - may Allah lengthen his age - was good to me has arrived."
+
+     [قَدِمَ ٱلَّذِي وَهُوَ مُبْتَسِمٌ أَحْسَنَ إِلَيَّ.]{.ar}  
+     "The one who - and he is smiling - was good to me has arrived."
+
+
+## Deleting the connected noun and/or the connecting sentence
 
 TODO. See النحو الوافي
 
@@ -824,7 +818,7 @@ we cannot say
 
 $\times$ [مَرَرْتُ بِرَجُلٍ ٱلَّذِي يَنَامُ.]{.ar}  
 
-Instead, we put the qualifying sentence directly after the indefinite noun. The qualifying sentence will then not be a connector, but will itself be the describer to the described noun:
+Instead, we put the qualifying sentence directly after the indefinite noun. The qualifying sentence will then not be a connecting sentence, but will itself be the describer to the described noun:
 
 [مَرَرْتُ بِرَجُلٍ يَنَامُ.]{.ar}  
 "I passed by a man (who) is sleeping."
@@ -857,7 +851,7 @@ Sometimes the definite article [ٱَلْ]{.ar}
 does not determine a particular individual, but
 makes a noun definite only in a generic way.
 In this case a qualifying sentence may directly follow it without any intermediate connected noun used as a describer.^[Fischer §428.1, Wright vol.\ 2, §172, p.\ 318B.]
-Because there is no connected noun, the qualifying sentence is, again, not analyzed as a connector.
+Because there is no connected noun, the qualifying sentence is, again, not analyzed as a connecting sentence.
 For example:
 
 [كَمَثَلِ الْحِمَارِ يَحْمِلُ أَسْفَارًا]{.ar}  
@@ -876,8 +870,8 @@ For example:
 
 If a sentence has a definite noun which is to be qualified by a prepositional or adverbial phrase, then in many cases, that phrase may directly follow the definite noun without any intermediate connected noun used a describer.
 But using a connected noun is also permissible if one wishes to emphasize that the specificity of the noun.
-When there is no connected noun, the prepositional or adverbial phrase is not analyzed as a connector, but is considered attached to an implied verb that has the idea of "being", like "is", "are", etc.
-When there is a connected noun, then it is analyzed as a connector, as usual.
+When there is no connected noun, the prepositional or adverbial phrase is not analyzed as a connecting sentence, but is considered attached to an implied verb that has the idea of "being", like "is", "are", etc.
+When there is a connected noun, then it is analyzed as a connecting sentence, as usual.
 For example:
 
 [سِرْتُ فِي ٱلْحَدِيقَةِ عِنْدَ ٱلْمَسْجِدِ.]{.ar}  
@@ -896,5 +890,20 @@ From [شرح ابن عقيل على ألفية ابن مالك]{.ar}:
 وأشار بقوله وأبوا أن يختزل إن صلح الباقي لوصل مكمل إلى أن شرط حذف صدر الصلة أن لا يكون ما بعده صالحا لأن يكون صلة كما إذا وقع بعده جملة نحو جاء الذي هو أبوه منطلق أو هو ينطلق أو ظرف أو جار ومجرور تامان نحو جاء الذي هو عندك أو هو في الدار فإنه لا يجوز في هذه المواضع حذف صدر الصلة فلا تقول جاء الذي أبوه منطلق تعني الذي هو أبوه منطلق لأن الكلام يتم دونه فلا يدرى أحذف منه شيء أم لا؟ وكذا بقية الأمثلة المذكورة ولا فرق في ذلك بين أي وغيرها فلا تقول في يعجبني أيهم هو يقوم يعجبني أيهم يقوم لأنه لا يعلم الحذف ولا يختص هذا الحكم بالضمير إذا كان مبتدأ بل الضابط أنه متى احتمل الكلام الحذف وعدمه لم يجز حذف العائد وذلك كما إذا كان في الصلة ضمير غير ذلك الضمير المحذوف صالح لعوده على الموصول نحو جاء الذي ضربته في داره فلا يجوز حذف الهاء من ضربته فلا تقول جاء الذي ضربت في داره لأنه لا يعلم المحذوف.
 
 وبهذا يظهر لك ما في كلام المصنف من الإبهام فإنه لم يبين أنه متى صلح ما بعد الضمير لأن يكون صلة لا يحذف سواء أكان الضمير مرفوعا أو منصوبا أو مجرورا وسواء أكان الموصول أيا أم غيرها بل ربما يشعر ظاهر كلامه بأن الحكم مخصوص بالضمير المرفوع وبغير أي من الموصولات لأن كلامه في ذلك والأمر ليس كذلك بل لا يحذف مع أي ولا مع غيرها متى صلح ما بعدها لأن يكون صلة كما تقدم نحو جاء الذي هو أبوه منطلق ويعجبني أيهم هو أبوه منطلق وكذلك المنصوب والمجرور نحو جاءني الذي ضربته في داره ومررت بالذي مررت به في داره ويعجبني أيهم ضربته في داره ومررت بأيهم مررت به في داره.
+:::
+
+From [تفسير القرطبي]{.ar}:
+
+:::{.ar}
+قوله تعالى : ثم آتينا موسى الكتاب مفعولان . تماما مفعول من أجله أو مصدر . على الذي أحسن قرئ بالنصب والرفع . فمن رفع - وهي قراءة يحيى بن يعمر وابن أبي إسحاق - فعلى تقدير : تماما على الذي هو أحسن . قال المهدوي : وفيه بعد من أجل حذف المبتدأ العائد على الذي . وحكى سيبويه عن الخليل أنه سمع " ما أنا بالذي قائل لك شيئا " . ومن نصب فعلى أنه فعل ماض داخل في الصلة ; هذا قول البصريين . وأجاز الكسائي والفراء أن يكون اسما نعتا ل " الذي " وأجازا " مررت بالذي أخيك " ينعتان " الذي " بالمعرفة وما قاربها . قال النحاس : وهذا محال عند البصريين ; لأنه نعت للاسم قبل أن يتم ، والمعنى عندهم : على المحسن .
+
+شرح ابن عقيل:
+ذهب الكوفيون إلى أنه يجوز حذف العائد المرفوع بالابتداء مطلقا، أي سواء أكان الموصول أيا أم غيره، وسواء أطالت الصلة أم لم تطل، وذهب البصريون إلى جواز حذف هذا العائد إذا كان الموصول أيا مطلقا، فإن كان الموصول غير أي لم يجيزوا الحذف إلا بشرط طول الصلة، فالخلاف بين الفريقين منحصر فيما إذا لم تطل الصلة وكان الموصول غير أي، فأما الكوفيون فاستدلوا بالسماع، فمن ذلك قراءة يحيى بن يعمر:
+(تماما على الذي أحسن) قالوا: التقدير على الذي هو أحسن، ومن ذلك قراءة مالك ابن دينار وابن السماك: (إن الله لا يستحيي أن يضرب مثلا ما بعوضة فما فوقها) قالوا:
+التقدير: مثلا الذي هو بعوضة فما فوقها، ومن ذلك قول الشاعر:
+لا تنو إلا الذي خير، فما شقيت * إلا نفوس الألى للشر ناوونا قالوا: التقدير لا تنو إلا الذي هو خير، ومن ذلك قول الآخر:
+من يعن بالحمد لم ينطق بما سفه ولا يحد عن سبيل المجد والكرم قالوا: تقدير هذا البيت: من يعن بالحمد لم ينطق بالذي هو سفه، ومن ذلك قول عدي بن زيد العبادي:
+لم أر مثل الفتيان في غبن * الأيام يدرون ما عواقبها قالوا: ما موصولة، والتقدير: يدرون الذي هو عواقبها.
+وبعض هذه الشواهد يحتمل وجوها من الاعراب غير الذي ذكروه، فمن ذلك أن " ما " في الآية الثانية يجوز أن تكون زائدة، وبعوضة خبر مبتدأ محذوف، ومن ذلك أن " ما " في بيت عدي بن زيد يحتمل أن تكون استفهامية مبتدأ، وما بعدها خبر، والجملة في محل نصب مفعول به ليدرون، وقد علق عنها لأنها مصدرة بالاستفهام، والكلام يطول إذا نحن تعرضنا لكل واحد من هذه الشواهد، فلنجتزئ لك بالإشارة.
 :::
 
