@@ -340,34 +340,28 @@ Tafsir al-Qurtubi:
 
 -->
 
-The link-back pronoun is frequently omitted, and its meaning is then implicit, in some cases:
+The link-back pronoun may be omitted (and its meaning is then implicit) if some conditions are satisfied.
+Some conditions are specific to the state of the refer-back pronoun. These are:
 
-(a) When the linker pronoun is a detached pronoun which is the u-state subject of a subject-information sentence, whose information is:
+(a) When the refer-back pronoun is the subject of a subject-information sentence, then it may be omitted, and its meaning will be implied.
+    In this case, it is preferred that the connecting sentence not be short.
 
-    (i)  A prepositional phrase. For example:
-    
-         [نَامَ ٱلَّذِي فِي ٱلْغُرْفَةِ.]{.ar}  
-         "The one who (is) in the room has slept."
-    
-         The connector is the incomplete sentence [فِي ٱلْغُرْفَةِ]{.ar} "(is) in the room".
-         With the link-back pronoun restored, the sentence is  
+    For example:
 
-         [نَامَ ٱلَّذِي هُوَ فِي ٱلْغُرْفَةِ.]{.ar}  
-    
-    (ii) An adverbial phrase. For example:
-    
-         [تَكَلَّمَ ٱلَّذِي عِنْدَكَ.]{.ar}  
-         "The one who (is) with you spoke."
-    
-         (Remember that [عِنْدَ]{.ar} is technically a noun used adverbially, not a preposition.)
-         The connector is the incomplete sentence [عِنْدَكَ]{.ar} "(is) with you". 
-         With the link-back pronoun restored, the sentence is  
+    [انْظُرُوا إِلَى مَنْ أَسْفَلَ مِنْكُمْ]{.ar}  
+    "Look at who is beneath you."  
+    [muslim:2963c]  
+    (instead of [انْظُرُوا إِلَى مَنْ هُوَ أَسْفَلَ مِنْكُمْ]{.ar})
 
-         [تَكَلَّمَ ٱلَّذِي هُوَ عِنْدَكَ.]{.ar}  
+    If the connecting sentence is short, the omitting if the refer-back pronoun subject is permissible, though rare. For example:
+
+    [جاء الذي قائم]{.ar}  
+    "He came who is standing."  
+    (instead of [جاء الذي هو قائم]{.ar})
 
     In such cases, the incomplete sentence connector implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
 
-(b) When the link-back pronoun is an attached pronoun for the direct doee. For example:
+(b) When the link-back pronoun is an attached pronoun for the direct doee it is permissible to omit it. For example:
 
     [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمْ.]{.ar}  
     "The one (thing) that you said has reached us."
@@ -376,7 +370,9 @@ The link-back pronoun is frequently omitted, and its meaning is then implicit, i
 
     [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
 
-(c) (i) When the link-back pronoun is the base noun in an annexation whose annex noun is a verbal noun of the doer or the doee implying a present or future meaning. For example:
+(c) When the refer-back pronoun is in the i-state, it is permissible to omit it:
+
+    (i) When the link-back pronoun is the base noun in an annexation whose annex noun is a verbal noun of the doer or the doee implying a present or future meaning. For example:
 
         [أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلٌ.]{.ar}  
         "I fear from him the wrong that he will do."
@@ -397,6 +393,32 @@ The link-back pronoun is frequently omitted, and its meaning is then implicit, i
 
          With the link-back pronoun restored, the sentence is  
          [مَرَرْتُ بِٱلَّذِي مَرَّ بِهِ سُلَيْمَانُ.]{.ar}  
+
+In addition to the above conditions that are specific to the state of the refer-back pronoun,
+a further, general, condition should be satisfied, which is:
+that the omission of the refer-back pronoun be obvious to the listener, and the listener can re-construct the original meaning by restoring the refer-back pronoun to get the intended meaning.
+
+If the refer-back pronoun is omitted, and the remaining connecting sentence (with the refer-back pronoun omitted) is valid as a connecting sentence on its own right, then it will give a different meaning (even if slightly) from the original. 
+And the listener will not know that the refer-back pronoun has been omitted. 
+In this case, it is not permitted to omit the refer-back pronoun. Here is an example that should explain what we mean:
+
+Consider the sentence:
+
+[جاء الذي كَلَّمْتُهُ في داره.]{.ar}  
+"The one whom I spoke to (him) in his house, came.
+
+The connecting sentence is 
+[كَلَّمْتُهُ في داره.]{.ar} "I spoke to him in his house."
+and the refer-back pronoun is the a-state direct doee pronoun [ه]{.ar} "him".
+If we delete this pronoun, the sentence becomes
+
+[جاء الذي كَلَّمْتُ في داره.]{.ar}  
+"The one who I spoke in his house, came.
+
+Now the meaning of the sentence is markedly different. The connecting sentence [كَلَّمْتُ فِي دَارِهِ]{.ar} is valid on its own right but it gives a different meaning from the original.
+It does not specify that I spoke to _him_ in his house, just that I spoke in his house, possibly to others.
+Because the omission of the refer-back pronoun is not obvious, the sentence now does not siginify the original intent. And so deleting the refer-back pronoun in this case is not permitted.
+
 
 ### Separating the connector from the connected noun
 
@@ -865,4 +887,14 @@ or
 or  
 [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي هِيَ عِنْدَ ٱلْمَسْجِدِ.]{.ar}  
 "I walked in the [specific] garden that [is] next to the mosque."  
+
+## Notes
+
+From [شرح ابن عقيل على ألفية ابن مالك]{.ar}:
+
+:::{.ar}
+وأشار بقوله وأبوا أن يختزل إن صلح الباقي لوصل مكمل إلى أن شرط حذف صدر الصلة أن لا يكون ما بعده صالحا لأن يكون صلة كما إذا وقع بعده جملة نحو جاء الذي هو أبوه منطلق أو هو ينطلق أو ظرف أو جار ومجرور تامان نحو جاء الذي هو عندك أو هو في الدار فإنه لا يجوز في هذه المواضع حذف صدر الصلة فلا تقول جاء الذي أبوه منطلق تعني الذي هو أبوه منطلق لأن الكلام يتم دونه فلا يدرى أحذف منه شيء أم لا؟ وكذا بقية الأمثلة المذكورة ولا فرق في ذلك بين أي وغيرها فلا تقول في يعجبني أيهم هو يقوم يعجبني أيهم يقوم لأنه لا يعلم الحذف ولا يختص هذا الحكم بالضمير إذا كان مبتدأ بل الضابط أنه متى احتمل الكلام الحذف وعدمه لم يجز حذف العائد وذلك كما إذا كان في الصلة ضمير غير ذلك الضمير المحذوف صالح لعوده على الموصول نحو جاء الذي ضربته في داره فلا يجوز حذف الهاء من ضربته فلا تقول جاء الذي ضربت في داره لأنه لا يعلم المحذوف.
+
+وبهذا يظهر لك ما في كلام المصنف من الإبهام فإنه لم يبين أنه متى صلح ما بعد الضمير لأن يكون صلة لا يحذف سواء أكان الضمير مرفوعا أو منصوبا أو مجرورا وسواء أكان الموصول أيا أم غيرها بل ربما يشعر ظاهر كلامه بأن الحكم مخصوص بالضمير المرفوع وبغير أي من الموصولات لأن كلامه في ذلك والأمر ليس كذلك بل لا يحذف مع أي ولا مع غيرها متى صلح ما بعدها لأن يكون صلة كما تقدم نحو جاء الذي هو أبوه منطلق ويعجبني أيهم هو أبوه منطلق وكذلك المنصوب والمجرور نحو جاءني الذي ضربته في داره ومررت بالذي مررت به في داره ويعجبني أيهم ضربته في داره ومررت بأيهم مررت به في داره.
+:::
 
