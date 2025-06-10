@@ -46,7 +46,7 @@ this is in [Small Caps]{.smallcaps}.
 options(tinytex.engine = "lualatex")
 ```
 -->
-
+<!--
 # Romanization scheme {.unnumbered}
 
 \markboth {\textsc{\MakeLowercase{Romanization scheme}}}{\textsc{\MakeLowercase{Romanization scheme}}}
@@ -54,16 +54,6 @@ options(tinytex.engine = "lualatex")
 The following romanization scheme is used in this book for the transcription and transliteration of Arabic sounds and letters into the Latin script.
 
 [consonants]{.smallcaps}
-
-<!--
-| [ء]{.ar} | [ب]{.ar} | [ت]{.ar} | [ث]{.ar} | [ج]{.ar} | [ح]{.ar} | [خ]{.ar} | [د]{.ar} | [ذ]{.ar} | [ر]{.ar} | [ز]{.ar} | [س]{.ar} | [ش]{.ar} | [ص]{.ar} |
-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-| 
-| [E]{.trn2} | [b]{.trn2} | [t]{.trn2} | [v]{.trn2} | [j]{.trn2} | [H]{.trn2} | [x]{.trn2} | [d]{.trn2} | [p]{.trn2} | [r]{.trn2} | [z]{.trn2} | [s]{.trn2} | [c]{.trn2} | [S]{.trn2} |
-
-| [ض]{.ar} | [ط]{.ar} | [ظ]{.ar} | [ع]{.ar} | [غ]{.ar} | [ف]{.ar} | [ق]{.ar} | [ك]{.ar} | [ل]{.ar} | [م]{.ar} | [ن]{.ar} | [ه]{.ar} | [و]{.ar} | [ي]{.ar} | 
-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|
-| [D]{.trn2} | [T]{.trn2} | [P]{.trn2} | [e]{.trn2} | [g]{.trn2} | [f]{.trn2} | [q]{.trn2} | [k]{.trn2} | [l]{.trn2} | [m]{.trn2} | [n]{.trn2} | [h]{.trn2} | [w]{.trn2} | [y]{.trn2} | 
--->
 
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -91,19 +81,9 @@ and the [lAm]{.trn2} of the definite article is not transliterated for sun lette
 [ة]{.ar} is transcribed as [h]{.trn} at the end of an utterance, and as [t]{.trn} otherwise. 
 For example:
 
-<!--[ٱَلشَّجَرَةُ وَٱلْوَرَقَة.]{.ar}  
-[Eaccjaratu wa-lwaraqah.]{.trn}.-->
-<!--[بِسمِ ٱللَّـٰهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ.]{.ar}  
-[bismi -llAhi -rraHmAni -rraHIm.]{.trn}-->
 [ٱِلْتَقَطَتْ أُمُّ طَلْحَةَ وَٱلْحَسَنِ وَرَقَةَ ٱلشَّجَرَةِ.]{.ar}  
 [EiltaqaTat Eummu TalHata wa-lHasani waraqata -ccajarah.]{.trn}
 
-<!--FIXME: add transcription of assimilation-->
-<!--The transcription is typically accurate, except for assimilation that only affects diacritics. This is generally marked neither in the Arabic text nor in the transcription.
-For example:
-
-[ٱِعْتَقَدْتُ أَنْ لَمْ يَأْتِ.]{.ar}  
--->
 
 
 When using Arabic words in the English text,
@@ -118,8 +98,8 @@ as shown.
 Accurate romanizations are preferred unless an established and distinctly separate usage is current in English.
 Examples:
 
-<!--"[#allAh]{.trn2} revealed [#sUrat al-#fatiHah]{.trn2} in the [#qurEAn]{.trn2}."-->
 "[#ealI]{.trn2} and [#usAmah]{.trn2} revised [#sUrat al-#eankabUt]{.trn2} from the [#qurEAn]{.trn2} in the mosque in the month of [#rabIe al-#vAnI]{.trn2}."
 
 "The caliphate moved from [al-#madInah]{.trn2} to Damascus."
+-->
 

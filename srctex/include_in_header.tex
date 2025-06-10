@@ -24,6 +24,20 @@
 \cohead[]{}
 \rohead[]{\pagemark}
 
+% don't reset pagination at mainmatter. And use arabic pagenumbering throughout
+\makeatletter
+\renewcommand\frontmatter{%
+  \cleardoublepage
+  \@mainmatterfalse
+  %\pagenumbering{roman}% Don't reset
+}
+\renewcommand\mainmatter{%
+  \cleardoublepage
+  \@mainmattertrue
+  %\pagenumbering{arabic}% Don't reset
+}
+\makeatother
+
 %% Start fancy header style beginning here, override with thispagestyle{empty} for copyright page
 %\pagestyle{fancy}
 %
