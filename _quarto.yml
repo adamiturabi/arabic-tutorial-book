@@ -51,9 +51,9 @@ filters:
 
 format:
   html:
-    mainfont: "Charis SIL"
+    mainfont: "CharisW"
     mainfontoptions: Numbers=OldStyle
-    sansfont: "Charis SIL"
+    sansfont: "CharisW"
     monofont: "DejaVu Sans Mono" # set size in CSS using class "sourceCode"
     #fontsize: 10pt
     theme: cosmo
@@ -80,9 +80,10 @@ format:
       - twoside
     number-sections: true
     colorlinks: true
-    mainfont: "Charis SIL"
+    mainfont: "Charis"
     mainfontoptions: Numbers=OldStyle
-    sansfont: "Charis SIL"
+    sansfont: "Charis"
+    sansfontoptions: Numbers=OldStyle
     monofont: "DejaVu Sans Mono"
     monofontoptions: "Scale=0.7"
     fontsize: 10pt
