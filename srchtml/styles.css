@@ -107,6 +107,10 @@
 .smallcaps {
   font-variant: small-caps;
 }
+
+body {
+  font-variant-numeric: oldstyle-nums;
+}
 /* Gitbook body text font settings */
 /*
 .book.font-family-0 {
