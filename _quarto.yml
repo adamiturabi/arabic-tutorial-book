@@ -83,6 +83,7 @@ format:
     mainfont: "Charis"
     mainfontoptions: Numbers=OldStyle
     sansfont: "Charis"
+    sansfontoptions: Numbers=OldStyle
     monofont: "DejaVu Sans Mono"
     monofontoptions: "Scale=0.7"
     fontsize: 10pt
