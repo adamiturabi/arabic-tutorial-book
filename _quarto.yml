@@ -61,8 +61,8 @@ format:
     include-before-body: srchtml/watermark.html
   pdf:
     #keep-tex: true
-    documentclass: scrreprt # no roman numeral pagination but chapter page can be left or right
-    #documentclass: scrbook # new chapter page only on right but adds \frontmatter command for roman numeral pagination
+    #documentclass: scrreprt # no roman numeral pagination but chapter page can be left or right
+    documentclass: scrbook # new chapter page only on right but adds \frontmatter command for roman numeral pagination
     toc: true
     toc-depth: 2
     geometry:
@@ -90,8 +90,8 @@ format:
     pdf-engine: xelatex
     include-in-header:
       - file: srctex/include_in_header.tex
-    include-before-body:
-      - file: srctex/before_body.tex
+    #include-before-body:
+    #  - file: srctex/before_body.tex
     template-partials:
       - srctex/before-title.tex
 
