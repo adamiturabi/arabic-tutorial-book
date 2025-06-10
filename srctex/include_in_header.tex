@@ -1,8 +1,8 @@
-\usepackage{lipsum}
+%\usepackage{lipsum}
 \usepackage{metalogo}
 \usepackage{xcolor}
 \usepackage{url}
-\usepackage{fancyhdr}
+%\usepackage{fancyhdr}
 
 \renewcommand{\chaptermark}[1]{\markboth {\textsc{\MakeLowercase{\thechapter\quad #1}}}{}}
 \renewcommand{\sectionmark}[1]{\markright{\textsc{\MakeLowercase{\S\thesection}\ }}}
@@ -10,45 +10,59 @@
 \addtokomafont{disposition}{\rmfamily\mdseries} % Don't use sans font. Use serif medium (not-bold) everywhere
 \KOMAoptions{chapterprefix=true,appendixprefix=true} % Use "Chapter" and "Appendix" in titles
 
-% Start fancy header style beginning here, override with thispagestyle{empty} for copyright page
-\pagestyle{fancy}
+\usepackage{scrlayer-scrpage}
+\lefoot[]{}
+\cefoot[\pagemark]{}
+\refoot[]{}
+\lofoot[]{}
+\cofoot[\pagemark]{}
+\rofoot[]{}
+\lehead[]{\pagemark}
+\cehead[]{}
+\rehead[]{\leftmark}
+\lohead[]{\rightmark}
+\cohead[]{}
+\rohead[]{\pagemark}
 
-\fancypagestyle{mymainstyle}{%
-\fancyhf{}
-
-% Put page numbers inside text block in top margin
-\fancyhead[LE,RO]{\thepage}
-
-\fancyhead[CO]{\nouppercase{\rightmark}}
-\fancyhead[CE]{\nouppercase{\leftmark}}
-\renewcommand{\headrulewidth}{0pt}
-
-\fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\tiny{Author Names, \textit{A Learner's Grammar of Classical Standard Arabic}\\\url{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
-
-}% definition of mymainstyle
-
-% Footer for chapter start pages:
-\fancypagestyle{plain}{%
-\fancyhf{}
-\fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\tiny{Author Names, \textit{A Learner's Grammar of Classical Standard Arabic}\\\url{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
-\fancyfoot[CO]{\thepage}
-}
-
-% Blank pages (e.g., left hand pages between chapters should be completely blank. no headers even
-\makeatletter
-\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
-  \begingroup
-    \mbox{}
-    \vspace*{\fill}
-    \begin{center}
-      %This page intentionally contains only this sentence.
-    \end{center}
-    \vspace{\fill}
-    \thispagestyle{empty}
-    \newpage
-    \if@twocolumn\mbox{}\newpage\fi
-  \endgroup\fi\fi}
-\makeatother
+%% Start fancy header style beginning here, override with thispagestyle{empty} for copyright page
+%\pagestyle{fancy}
+%
+%\fancypagestyle{mymainstyle}{%
+%\fancyhf{}
+%
+%% Put page numbers inside text block in top margin
+%\fancyhead[LE,RO]{\thepage}
+%
+%\fancyhead[CO]{\nouppercase{\rightmark}}
+%\fancyhead[CE]{\nouppercase{\leftmark}}
+%\renewcommand{\headrulewidth}{0pt}
+%
+%\fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\tiny{Author Names, \textit{A Learner's Grammar of Classical Standard Arabic}\\\url{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
+%
+%}% definition of mymainstyle
+%
+%% Footer for chapter start pages:
+%\fancypagestyle{plain}{%
+%\fancyhf{}
+%\fancyfoot[RE, RO]{\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\phantom{xxx}\\\textcolor{gray}{\tiny{Author Names, \textit{A Learner's Grammar of Classical Standard Arabic}\\\url{https://adamiturabi.github.io/arabic-tutorial-book/}}}}
+%\fancyfoot[CO]{\thepage}
+%}
+%
+%% Blank pages (e.g., left hand pages between chapters should be completely blank. no headers even
+%\makeatletter
+%\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+%  \begingroup
+%    \mbox{}
+%    \vspace*{\fill}
+%    \begin{center}
+%      %This page intentionally contains only this sentence.
+%    \end{center}
+%    \vspace{\fill}
+%    \thispagestyle{empty}
+%    \newpage
+%    \if@twocolumn\mbox{}\newpage\fi
+%  \endgroup\fi\fi}
+%\makeatother
 
 %watermark
 \usepackage[color={[gray]{0.85}}, fontsize=32pt, text={Work in progress}]{draftwatermark}
