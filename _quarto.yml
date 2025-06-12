@@ -69,15 +69,19 @@ format:
     geometry:
       # A4 2 pages per sheet draft
       #- paper=a5paper               # a5: 148.5 by 210mm
-      - paperwidth=170mm
-      - paperheight=244mm
+      - paperwidth=6.14in
+      - paperheight=9.21in
+      - inner=0.6475in
+      - outer=1.09375in
+      - top=1.0625in
+      - bottom=1in
       #- paperwidth=156mm
       #- paperheight=234mm
       #- paperwidth=6in
       #- paperheight=9in
-      - bindingoffset=6mm
-      - textwidth=114.8mm           # = (170 - 6)*0.7
-      - textheight=170.8mm          # = 244 * 0.7
+      #- bindingoffset=6mm
+      #- textwidth=114.8mm           # = (170 - 6)*0.7
+      #- textheight=170.8mm          # = 244 * 0.7
       - twoside
     number-sections: true
     colorlinks: true
@@ -87,7 +91,7 @@ format:
     sansfontoptions: Numbers=OldStyle
     monofont: "DejaVu Sans Mono"
     monofontoptions: "Scale=0.7"
-    fontsize: 10pt
+    fontsize: 9pt
     pdf-engine: xelatex
     include-in-header:
       - file: srctex/include_in_header.tex
