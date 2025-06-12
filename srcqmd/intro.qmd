@@ -6,23 +6,38 @@ May the peace and blessings of [#allAh]{.trn2} be upon the Prophet [#muHammad]{.
 
 ## History of Arabic 
 
-[#allAh]{.trn2}, may He be glorified and exalted, revealed the [#qurEAn]{.trn2} 1400 years ago to the Prophet [#muHammad]{.trn2}, may [#allAh]{.trn2} grant peace and confer blessing upon him. The language of the [#qurEAn]{.trn2} is the Arabic language, as it was understood by the Arabs at that time. 
-The sayings and actions of the Prophet, may [#allAh]{.trn2} grant peace and confer blessing upon him, were recorded by his companions also in this Arabic language. 
+[#allAh]{.trn2}, may He be glorified and exalted, revealed the [#qurEAn]{.trn2} 1400 years ago to the Prophet [#muHammad]{.trn2}, may [#allAh]{.trn2} grant peace and confer blessing upon him.
+The language of the [#qurEAn]{.trn2} is the Arabic language, as it was understood by the Arabs at that time.
+The sayings and actions of the Prophet, may [#allAh]{.trn2} grant peace and confer blessing upon him, were recorded by his companions also in this Arabic language.
+Also, composed in this Arabic language, was a vast body of poetry that the Arabs would consider eloquent and worth transmitting.
 We will call the Arabic of this pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic era as Classical Arabic.
-The Classical Arabic language consisted of multiple dialects that were spoken by the different tribes and in the different regions of the Arabian peninsula. 
+The Classical Arabic language consisted of multiple dialects that were spoken by the different tribes and in the different regions of the Arabian peninsula.
 
-All languages change naturally over time. For example, English has changed to such a degree that the Old English language spoken 1400 years ago would be unintelligible to us today. So too did the Classical Arabic dialects begin to change. But as part of preserving His religion, [#allAh]{.trn2} preserved the Arabic language as well. This was by means of the efforts of scholars who recorded the Classical Arabic language of the time of the revelation.
+All languages change naturally over time.
+For example, English has changed to such a degree that the Old English language spoken 1400 years ago would be unintelligible to us today.
+So too did the Classical Arabic dialects begin to change.
+But as part of preserving His religion, [#allAh]{.trn2} preserved the Arabic language as well.
+This was by means of the efforts of scholars who recorded the Classical Arabic language of the time of the revelation.
 
-In the process of preserving Arabic, one particular variety became standardized and gained prevalence as a literary language over the other dialects of the Arabic of the early-[#islAm]{.trn2}ic period. This _Standard Arabic_, in its early period after standardization, is called Classical Standard Arabic.
-<!--or simply Classical Arabic[^1]. -->
-The pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic Arabic dialects (of which Classical Standard Arabic is but a standardized variety) are then referred to, collectively, as pre-standard Classical Arabic. Classical Standard Arabic was used as the language of religious scholarship, science, and literature in the [#islAm]{.trn2}ic world. As scholars developed new branches of religious and secular sciences, new terms and meanings were added to it that are termed post-classical. A few words were also borrowed from foreign languages and Arabicized, as needed by the different scientific disciplines. (Pre-Standard Classical Arabic itself had a few Arabicized foreign borrowings from neighboring languages.) These additions were, by and large, deliberate, done by scholars who were experts in their fields and also well versed in Classical Standard Arabic, and validated by subsequent generations of scholarly discourse. Besides these needed additions, the grammar and core language remained remarkably unchanged.
+In the process of preserving Arabic, one particular variety became standardized and gained prevalence as a literary language over the other dialects of the Arabic of the early-[#islAm]{.trn2}ic period.
+This standard Arabic, in its early period after standardization, is called _Standard Classical Arabic_.
+<!--or simply Classical Arabic[^1].
+-->
+The pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic Arabic dialects (of which Standard Classical Arabic is but a standardized variety) are then referred to, collectively, as pre-Standard Classical Arabic.
+Standard Classical Arabic was used as the language of religious scholarship, science, and literature in the [#islAm]{.trn2}ic world.
+As scholars developed new branches of religious and secular sciences, new terms and meanings were added to it that are termed post-classical.
+A few words were also borrowed from foreign languages and Arabicized, as needed by the different scientific disciplines.
+(Pre-Standard Classical Arabic itself had a few Arabicized foreign borrowings from neighboring languages.) These additions were, by and large, deliberate, done by scholars who were experts in their fields and also well versed in Standard Classical Arabic, and validated by subsequent generations of scholarly discourse.
+Besides these needed additions, the grammar and core language remained remarkably unchanged.
 
 <!--
 [^1]: This definition of the term _Classical Arabic_ is not universally accepted, and other authors may use it to also include the Arabic of the late pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic period.
 -->
 
-<!--Ahmad Al-Jallad, Damascus Psalm Fragment, p. 69-->
-While Standard Arabic was thus preserved from major change and was used for literary purposes, the language that was spoken by Arabs in their day-to-day lives continued to change over time from the pre-standard Classical Arabic dialects into the modern colloquial dialects. And so today, there exist two very distinct types of Arabic: the preserved Standard Arabic which is taught at schools and is primarily a written language, and the modern colloquial Arabic dialects which Arabs learn as their mother tongue and which are primarily only spoken and not written.
+<!--Ahmad Al-Jallad, Damascus Psalm Fragment, p.
+69-->
+While Standard Arabic was thus preserved from major change and was used for literary purposes, the language that was spoken by Arabs in their day-to-day lives continued to change over time from the pre-[#islAm]{.trn2}ic Arabic dialects into the modern colloquial Arabic dialects.
+And so today, there exist two very distinct types of Arabic: the preserved Standard Arabic which is taught at schools and is primarily a written language, and the modern colloquial Arabic dialects which Arabs learn as their mother tongue and which are primarily only spoken and not written.
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -84,9 +99,9 @@ While Standard Arabic was thus preserved from major change and was used for lite
   %\node[above] at ({14},\lt) {Modern Standard Arabic};
 
   % label
-  \yearLabel(300,Classical\,Std\,Arabic)
-  \yearLabel(1300,Modern\,Std\,Arabic)
-  \yearLabel(-100,pre-std\,Classical\,Arabic)
+  \yearLabel(300,Std.\,Class.\,Arabic)
+  \yearLabel(1300,Modern\,Std.\,Arabic)
+  \yearLabel(-100,pre-Std.\,Class.\,Arabic)
   \yearLabelBelow(0,the Hijrah)
   \yearLabelBelow(1470,\textsc{ah})
   %\yearArrowLabel(175, 1.0,3.0,Emergence of Standard Arabic)
@@ -108,7 +123,7 @@ Figure\ 1.1 (above) depicts this historical development of Standard Arabic.
 
 ### Scope
 
-In this book, we will study Standard Arabic. We will focus on the pre-modern language. If [#allAh]{.trn2} wills, this will help you to begin to understand the language of the [#qurEAn]{.trn2}, the [#HadIv]{.trn2}, and [#islAm]{.trn2}ic literature.
+In this book, we will study the grammar of Standard Classical Arabic. If [#allAh]{.trn2} wills, this will help you to begin to understand the language of the [#qurEAn]{.trn2}, the [#HadIv]{.trn2}, and [#islAm]{.trn2}ic literature.
 
 If your goal is to learn Modern Standard Arabic, then this book may still be of help because the core language and the grammar are essentially the same. However, you may prefer to study from a resource that focuses on the modern language.
 
@@ -118,31 +133,28 @@ This book does not touch at all upon the modern colloquial dialects that are spo
 
 This book is currently a work in progress, and not yet ready for study.
 There is a watermark on all online published pages indicating this status.
-The preface and this introduction have been written prematurely as a reference for guiding principles that we can refer to during the write process.
+The preface and this introduction have been written prematurely as a reference for guiding principles that we can refer to during the writing process.
 We publish updates online while the book is still a work in progress in the hope that it will help in correcting errors.
 
 
 ### Methodology
 
 We will start, if [#allAh]{.trn2} wills, with the Arabic script and present, in each chapter, a new concept of Arabic grammar, together with examples. 
-We will also give vocabulary for you to memorize and have chapter exercises. 
-
-Many times we introduce a topic early on because a later topic is dependent on it.
-And in order to organize content in a manageable and referrable way, we will give a full treatment of the first topic.
-But in actuality, an exhaustive understanding of the first topic is not that very essential to the core understanding of grammar that a learner needs at that stage.
-An example of such a topic is proper nouns which are, what we have termed, _semi-flexible_ (_diptotes_ in Western grammars), and indeed semi-flexible nouns in general.
-
-In the chapter introductions, we will list any such topics contained in the chapter.
-When encountering such topics for the first time, we recommend that you skim through them to get a basic understanding and move on to more essential concepts.
-You may refer back to the topic when needed.
+Though there is none right now, We will also give, if [#allAh]{.trn2} wills, a vocabulary list and exercises for each chapter. 
+In order to organize content in a manageable and referrable way, 
+we will give a reasonably full treatment of every topic upon its first encounter.
+But in actuality, an exhaustive understanding of the topic may not be absolutely essential to the core understanding of grammar that a learner needs at that stage.
+An example of such a topic is _semi-flexible nouns_ (_diptotes_ in Western grammars).
+Although, identifying such material may be difficult for the learner, you may feel free to skim over such material and refer back to it later, as needed.
 
 Some of the sentences we present, both as examples and as chapter exercises, because of their contrived nature, may seem of dubious usefulness to a learner wanting to learn practical usage. 
 Also, when translating examples, we usually steer toward a literal, word-for-word, translation rather than an idiomatic one. 
+This is in order to illustrate the function of each word,
+and to show a correspondence between the words in the Arabic sentence and the English translation.
 The resulting English will then often sound awkward, and even sometimes ungrammatical.
-This is to show a correspondence between the words in the Arabic sentence and the English translation.
-We ask that you overlook these shortcomings.
+We request the reader's patience and indulgence in these and other matters.
 
-### How to study
+### How to study from this book
 
 #### Exercises
 
