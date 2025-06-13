@@ -71,10 +71,10 @@ format:
       #- paper=a5paper               # a5: 148.5 by 210mm
       - paperwidth=6.14in
       - paperheight=9.21in
-      - inner=0.6475in
-      - outer=1.09375in
+      - inner=0.765in
+      - outer=1.0625in
       - top=1.0625in
-      - bottom=1in
+      - bottom=0.8125in
       #- paperwidth=156mm
       #- paperheight=234mm
       #- paperwidth=6in
