@@ -1,0 +1,20 @@
+project:
+  output-dir: docs
+
+book:
+  appendices:
+    - srcqmd/hamzarules.qmd
+    - srcqmd/usage_and_style.qmd
+    - srcqmd/notes.qmd
+
+format:
+  html:
+    mainfont: "CharisW"
+    mainfontoptions: Numbers=OldStyle
+    sansfont: "CharisW"
+    monofont: "DejaVu Sans Mono" # set size in CSS using class "sourceCode"
+    #fontsize: 10pt
+    theme: cosmo
+    css: srchtml/styles.css
+    include-before-body: srchtml/watermark.html
+
