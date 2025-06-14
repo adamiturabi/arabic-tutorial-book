@@ -1,9 +1,14 @@
 project:
   type: book
-  output-dir: docs
+  #output-dir: docs
   post-render:
     - "rm -rf images"
     - "rm -rf srcqmd/images"
+
+profile:
+  group:
+    - [makehtml, makepdf]
+  default: makehtml
 
 book:
   title: "A Grammar of Standard Classical Arabic"
@@ -40,9 +45,6 @@ book:
     - srcqmd/ism_mawsuul.qmd
     - srcqmd/questions.qmd
     - srcqmd/yes_no_questions.qmd
-  appendices:
-    - srcqmd/hamzarules.qmd
-    - srcqmd/usage_and_style.qmd
   downloads: [pdf]
   site-url: https://adamiturabi.github.io/arabic-tutorial-book/
   #cover-image: srchtml/favicon.png
@@ -50,61 +52,6 @@ book:
 #keep-md: true
 filters:
   - arabic-support
-
-format:
-  html:
-    mainfont: "CharisW"
-    mainfontoptions: Numbers=OldStyle
-    sansfont: "CharisW"
-    monofont: "DejaVu Sans Mono" # set size in CSS using class "sourceCode"
-    #fontsize: 10pt
-    theme: cosmo
-    css: srchtml/styles.css
-    include-before-body: srchtml/watermark.html
-  pdf:
-    #keep-tex: true
-    #documentclass: scrreprt # no roman numeral pagination but chapter page can be left or right
-    documentclass: scrbook # new chapter page only on right but adds \frontmatter command for roman numeral pagination
-    toc: true
-    toc-depth: 2
-    # === PAGE DESIGN ===
-    # font size and top,bottom,outer margins match my measurements of some books from my library
-    # not using classical page design canons or KOMA typearea because it gives too large bottom margin
-    # text width calibrated to approx 70-80 characters per line (counting spaces and punctuation). 
-    # Comes out to 4.3125in.
-    # This is more than 'optimal' 66 per line because we need horizontal text width for table content.
-    # inner margin should be 1/2 of outer margin + binding offset = 1.0625/2 + 0.2 = 0.73125
-    # So paper width = inner + textwidth + outer = 0.73125 + 4.3125 + 1.0625 = 6.10625in.
-    # Selecting 6.14in x 9.21in as closest industry size
-    geometry:
-      # A4 2 pages per sheet draft
-      #- paper=a5paper               # a5: 148.5 by 210mm
-      - paperwidth=6.14in
-      - paperheight=9.21in
-      - inner=0.73125in
-      - outer=1.0625in
-      - top=0.84375in
-      - bottom=1.0625in
-      #- bindingoffset=6mm
-      #- textwidth=114.8mm           # = (170 - 6)*0.7
-      #- textheight=170.8mm          # = 244 * 0.7
-      - twoside
-    number-sections: true
-    colorlinks: true
-    mainfont: "Charis"
-    mainfontoptions: Numbers=OldStyle
-    sansfont: "Charis"
-    sansfontoptions: Numbers=OldStyle
-    monofont: "DejaVu Sans Mono"
-    monofontoptions: "Scale=0.7"
-    fontsize: 9pt
-    pdf-engine: xelatex
-    include-in-header:
-      - file: srctex/include_in_header.tex
-    #include-before-body:
-    #  - file: srctex/before_body.tex
-    template-partials:
-      - srctex/before-title.tex
 
 tikzarabic:
   cache: true
