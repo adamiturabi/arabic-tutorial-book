@@ -15,7 +15,7 @@ The book is written in markdown produced using [Quarto](https://quarto.org/) whi
 
 Install [Quarto](https://quarto.org/docs/get-started/).
 
-Install the [Charis SIL](https://software.sil.org/charis/download/),
+Install the [Charis](https://software.sil.org/charis/download/),
 [Amiri](https://github.com/alif-type/amiri/releases/latest),
 and [Vazirmatn](https://github.com/rastikerdar/vazirmatn/releases/tag/v33.003)
 fonts.
