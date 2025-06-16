@@ -12,9 +12,8 @@ profile:
 
 book:
   title: "A Grammar of Standard Classical Arabic"
-  subtitle: "An online book to learn the language of the Quran, Hadith, and other Islamic texts"
   author: "The Authors"
-  date: "04/27/2025"
+  date: now
   chapters:
     - index.qmd
     - srcqmd/intro.qmd
