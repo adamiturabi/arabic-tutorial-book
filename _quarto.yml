@@ -53,6 +53,7 @@ book:
 #keep-md: true
 filters:
   - arabic-support
+  - filters/autoref-link.lua
 
 tikzarabic:
   cache: true
