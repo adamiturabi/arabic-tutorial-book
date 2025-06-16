@@ -2,6 +2,7 @@ project:
   output-dir: docs
 
 book:
+  subtitle: "An online book for learning Arabic"
   appendices:
     - srcqmd/hamzarules.qmd
     - srcqmd/usage_and_style.qmd
