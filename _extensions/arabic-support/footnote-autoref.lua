@@ -5,13 +5,13 @@ function Note(el)
     if not string.find(ft, " ") then
       local i, j = string.find(ft, "https://quran.com/")
       if i ~= nil then
-        local surah_verse = string.sub(ft, j+1, -1)
-        local sep_loc = string.find(surah_verse, ":")
+        local surah_and_verse = string.sub(ft, j+1, -1)
+        local sep_loc = string.find(surah_and_verse, ":")
         if sep_loc == nil then
-          sep_loc = string.find(surah_verse, "/")
+          sep_loc = string.find(surah_and_verse, "/")
         end
-        local surah_index = string.sub(surah_verse, 1, sep_loc-1)
-        local verse_index = string.sub(surah_verse, sep_loc+1, -1)
+        local surah_index = string.sub(surah_and_verse, 1, sep_loc-1)
+        local verse_index = string.sub(surah_and_verse, sep_loc+1, -1)
         local surah_names = {
 [1] = "الفاتحة",
 [2] = "البقرة",
@@ -141,6 +141,37 @@ function Note(el)
           --return pandoc.Note(pandoc.Link({pandoc.Span(surah_name, {class="reg-ar-text", lang='ar', dir='rtl'}), index_text}, ft))
         end
         return pandoc.Note(pandoc.Link({arabic_span, index_text}, ft))
+      end
+      local i, j = string.find(ft, "https://sunnah.com/")
+      if i ~= nil then
+        local book_and_hadith = string.sub(ft, j+1, -1)
+        local sep_loc = string.find(book_and_hadith, ":")
+        if sep_loc == nil then
+          sep_loc = string.find(book_and_hadith, "/")
+        end
+        local book_index = string.sub(book_and_hadith, 1, sep_loc-1)
+        local hadith_index = string.sub(book_and_hadith, sep_loc+1, -1)
+        local book_names = {
+["bukhari"] = "صحيح البخاري",
+["muslim"] = "صحيح مسلم",
+["ibnmajah"] = "سنن ابن ماجه",
+["abudawud"] = "سنن أبي داود",
+["tirmidhi"] = "جامع الترمذي",
+["ahmad"] = "مسند أحمد",
+["adab"] = "الأدب المفرد",
+        }
+        local surah_name = book_names[book_index]
+        local index_text = ":" .. hadith_index
+        local arabic_span
+        if FORMAT:match 'latex' then
+          arabic_span = pandoc.Span(surah_name, {class="reg-ar-text", lang='ar'})
+          --return pandoc.Note(pandoc.Link({pandoc.Span(surah_name, {class="reg-ar-text", lang='ar'}), index_text}, ft))
+        elseif FORMAT:match 'html' then
+          arabic_span = pandoc.Span(surah_name, {class="reg-ar-text", lang='ar', dir='rtl'})
+          --return pandoc.Note(pandoc.Link({pandoc.Span(surah_name, {class="reg-ar-text", lang='ar', dir='rtl'}), index_text}, ft))
+        end
+        return pandoc.Note(pandoc.Link({arabic_span, index_text}, ft))
+
       end
     end
     --return pandoc.Note("addded text " .. ft)
