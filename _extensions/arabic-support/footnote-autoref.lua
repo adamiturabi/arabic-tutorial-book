@@ -2,7 +2,7 @@ function Note(el)
   stringify = pandoc.utils.stringify
   if #el.content == 1 then
     local ft = stringify(el.content[1])
-    if not string.find(ft, " ") then
+    if not string.find(ft, " ") then -- only use this filter if the link comprises the entire footnote
       local i, j = string.find(ft, "https://quran.com/")
       if i ~= nil then
         local surah_and_verse = string.sub(ft, j+1, -1)
@@ -135,10 +135,8 @@ function Note(el)
         local arabic_span
         if FORMAT:match 'latex' then
           arabic_span = pandoc.Span(surah_name, {class="reg-ar-text", lang='ar'})
-          --return pandoc.Note(pandoc.Link({pandoc.Span(surah_name, {class="reg-ar-text", lang='ar'}), index_text}, ft))
         elseif FORMAT:match 'html' then
           arabic_span = pandoc.Span(surah_name, {class="reg-ar-text", lang='ar', dir='rtl'})
-          --return pandoc.Note(pandoc.Link({pandoc.Span(surah_name, {class="reg-ar-text", lang='ar', dir='rtl'}), index_text}, ft))
         end
         return pandoc.Note(pandoc.Link({arabic_span, index_text}, ft))
       end
@@ -175,16 +173,13 @@ function Note(el)
         local arabic_span
         if FORMAT:match 'latex' then
           arabic_span = pandoc.Span(surah_name, {class="reg-ar-text", lang='ar'})
-          --return pandoc.Note(pandoc.Link({pandoc.Span(surah_name, {class="reg-ar-text", lang='ar'}), index_text}, ft))
         elseif FORMAT:match 'html' then
           arabic_span = pandoc.Span(surah_name, {class="reg-ar-text", lang='ar', dir='rtl'})
-          --return pandoc.Note(pandoc.Link({pandoc.Span(surah_name, {class="reg-ar-text", lang='ar', dir='rtl'}), index_text}, ft))
         end
         return pandoc.Note(pandoc.Link({arabic_span, index_text}, ft))
 
       end
     end
-    --return pandoc.Note("addded text " .. ft)
   end
 end
 
