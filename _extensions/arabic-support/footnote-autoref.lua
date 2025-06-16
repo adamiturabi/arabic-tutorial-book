@@ -154,11 +154,21 @@ function Note(el)
         local book_names = {
 ["bukhari"] = "صحيح البخاري",
 ["muslim"] = "صحيح مسلم",
-["ibnmajah"] = "سنن ابن ماجه",
+["nasai"] = "سنن النسائي",
 ["abudawud"] = "سنن أبي داود",
 ["tirmidhi"] = "جامع الترمذي",
+["ibnmajah"] = "سنن ابن ماجه",
+["malik"] = "موطأ مالك",
 ["ahmad"] = "مسند أحمد",
+["darimi"] = "سنن الدارمي",
+["nawawi40"] = "الأربعون النووية",
+["riyadussalihin"] = "رياض الصالحين",
 ["adab"] = "الأدب المفرد",
+["shamail"] = "الشمائل المحمدية",
+["mishkat"] = "مشكاة المصابيح",
+["bulugh"] = "بلوغ المرام",
+["forty"] = "الأربعينات",
+["hisn"] = " حصن المسلم",
         }
         local surah_name = book_names[book_index]
         local index_text = ":" .. hadith_index
