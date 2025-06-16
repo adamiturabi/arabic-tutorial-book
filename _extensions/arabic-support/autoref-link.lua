@@ -1,4 +1,4 @@
-function Note(el)
+function Link(el)
   stringify = pandoc.utils.stringify
   if #el.content == 1 then
     local ft = stringify(el.content[1])
@@ -138,7 +138,7 @@ function Note(el)
         elseif FORMAT:match 'html' then
           arabic_span = pandoc.Span(surah_name, {class="reg-ar-text", lang='ar', dir='rtl'})
         end
-        return pandoc.Note(pandoc.Link({arabic_span, index_text}, ft))
+        return pandoc.Link({arabic_span, index_text}, ft)
       end
       local i, j = string.find(ft, "https://sunnah.com/")
       if i ~= nil then
@@ -176,8 +176,7 @@ function Note(el)
         elseif FORMAT:match 'html' then
           arabic_span = pandoc.Span(surah_name, {class="reg-ar-text", lang='ar', dir='rtl'})
         end
-        return pandoc.Note(pandoc.Link({arabic_span, index_text}, ft))
-
+        return pandoc.Link({arabic_span, index_text}, ft)
       end
     end
   end
