@@ -1,23 +1,45 @@
 # chapter order and dependencies
 
-gerund
-subjunctive (gerund)
+indicative
+
+masdar
+subjunctive [indicative, masdar]
+
 jussive
-imperative (jussive)
+imperative [jussive]
 
-higher verb forms (gerund, imperative)
+higher verb forms [masdar, imperative]
 
-absolute accusative (gerund, higher verb forms)
-adverb of time and place
+absolute accusative [masdar, higher verb forms]
+Zarf
+passive voice [absolute accusative, Zarf]
 
-passive voice (absolute accusative, adverb of time and place)
+weak verbs [higher verb forms, passive voice]
+weak nouns [weak verbs]
+assimilation [weak verbs, weak nouns]
 
-weak roots (higher verb forms, passive voice)
-active participle
-passive participle
+kaana and sisters [weak roots]
+kaada and sisters [weak roots]
+Zanna and sisters [weak roots]
+inna and sisters [masdar, kaana, kaada, Zanna]
 
-elative (active participle, passive participle, weak roots)
+active participle [interrogative (for i3maal)] -- FIXME
+passive participle [active participle]
 
-relative pronoun
-interrogative (elative, relative pronoun)
+relative pronouns
+
+elative [active participle, passive participle, weak roots]
+tamyiz [elative]
+numbers[tamyiz]
+
+haal
+
+sharT
+
+interrogatives [sharT (used by 2a); relative pronouns (used by maa, man, ayy); elative (used by ayy); haal (used by kayfa); Zarf (used by mata); tamyiz (used by kam); Zanna and sisters (for ta3leeq)]
+
+maf3ool lahu
+maf3ool ma3ah
+
+exception
 
