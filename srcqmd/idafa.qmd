@@ -1102,8 +1102,142 @@ However, it must be said that these expressions are ambiguous because they could
 ## Non-possessive noun-chains
 
 piece of bread, man of wealth, rule of law, nahru -lEurdunn
-
 -->
+
+## Annexation to a sentence
+
+So far we have studied the annexation of an annexe noun to a base noun.
+It is also possible to have an annnexation where the base noun is replaced by a sentence or a clause.
+For example,
+
+<!--
+[صَحَبْتُ صَدِيقِي يَوْمَ خَرَجْنَا مِنَ ٱلْمَدِينَةِ.]{.ar}  
+"I accompanied my friend the day we left the city."
+-->
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{خَرَجْنَا مِنَ ٱلْمَدِينَةِ} \txarb{يَوْمَ} \txarb{صَحَبْتُ صَدِيقِي}, 
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe noun};
+
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize sentence in place of base noun};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-2.south east)
+      node [midway, below] {\scriptsize annexation};
+
+\path (0,0) node [midway, below=6ex, right=0ex, align=left] {``I accompanied my friend the day we left the city.''};
+
+\end{tikzpicture}
+```
+
+The word [يَوْم]{.ar} is the annexe noun and is used as an adverb or time.
+The entire sentence
+[خَرَجْنَا مِنَ ٱلْمَدِينَةِ.]{.ar}
+occupies the place of the base noun.
+We will study the adverb of time in chapter\ (give ref),
+if [#allAh]{.trn2} wills,
+where such annexations are common.
+
+Annexation to a sentence also occurs besides adverbs.^[[https://ar.wikipedia.org/wiki/[الجملة_الفعلية_الواقعة_مضافا_إليه]{.ar}](https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AC%D9%85%D9%84%D8%A9_%D8%A7%D9%84%D9%81%D8%B9%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D9%88%D8%A7%D9%82%D8%B9%D8%A9_%D9%85%D8%B6%D8%A7%D9%81%D8%A7_%D8%A5%D9%84%D9%8A%D9%87)]
+For another example, see section\ (ref to idaafah to a [أن يفعلَ]{.ar}).
+
+
+## Numbers from one to ten
+
+Arabic numbers are complicated and we will treat them more fully in chapter\ (give ref),
+if [#allAh]{.trn2} wills.
+For now, we will give a short preview of the numbers from one to ten.
+
+### The number one
+
+The word for the number "one" is
+[وَاحِد]{.ar} [wAHid]{.trn}.
+It is an adjectival noun and can be used as a describer.
+For example,
+
+[قَرَأْتُ كِتَابً وَاحِدًا.]{.ar}  
+"I read one book."
+
+As usual, when the described noun is feminine, then the describer too [وَاحِد]{.ar} is feminized:
+
+[أَكَلْتُ تَمْرَةً وَاحِدَةً.]{.ar}  
+"I ate one date."
+
+Often, as in English, using the number 
+[وَاحِد]{.ar} "one" is optional.
+For example,
+
+[قَرَأْتُ كِتَابً.]{.ar}  
+"I read a book."
+
+### The number two
+
+The number for "one"
+[وَاحِد]{.ar}
+is a singular noun.
+Correspondingly, the number for "two" 
+[ٱثْنَانِ]{.ar} [ivnAni]{.trn}
+is a dual noun.
+It too can be used as describer.
+For example,
+
+[دَخَلَ رَجْلَانِ ٱثْنَانِ.]{.ar}  
+[daxala rajulAni -vnAn]{.trn2}  
+"Two men entered."
+
+In the the a- and i-states, it becomes
+[ٱثْنَيْنِ]{.ar} [ivnayni]{.trn}.
+For example,
+
+[قَرَأْتُ كِتَابَيْنِ ٱثْنَيْنِ.]{.ar}  
+[qaraEtu kitAbayni -vnayn]{.trn}  
+"I read two books."
+
+When feminized it becomes
+[ٱثْنَتَانِ]{.ar} [ivnatAni]{.trn}.
+For example,
+
+[دَخَلَتْ جَارِيَتَانِ ٱثْنَتَانِ أَكَلَتَا تَمْرَتَيْنِ ٱثْنَتَيْنِ.]{.ar}  
+[daxala jAriyatAni -vnatAni wa EakalatA tamratayni -vnatayn.]{.trn2}  
+"Two girls entered and ate two dates."
+
+As with
+[وَاحِد]{.ar}
+"one",
+the use of the number two is optional because its meaning is inherent in the dual.
+For example,
+
+[دَخَلَتْ جَارِيَتَانِ أَكَلَتَا تَمْرَتَيْنِ.]{.ar}  
+[daxala jAriyatAni wa EakalatA tamratayn.]{.trn2}  
+"Two girls entered and ate two dates."
+
+### The numbers from three to ten
+
+We saw that the number
+[وَاحِد]{.ar}
+"one"
+is a singular noun, and that the number
+[ٱثْنَانِ]{.ar} [ivnAni]{.trn}
+"two"
+is a dual noun.
+So it should come as no surprise that the numbers three to ten are treated as plural nouns.
+(Although, for our purposes here they are _treated_ as plurals, they technically are not plurals.
+For example, they don't conform to the broken plural patterns.
+But let's not worry about that for now.)
+
 
 ## Usage of the annexation
 
