@@ -1168,7 +1168,7 @@ The word for the number "one" is
 It is an adjectival noun and can be used as a describer.
 For example,
 
-[قَرَأْتُ كِتَابً وَاحِدًا.]{.ar}  
+[قَرَأْتُ كِتَابًا وَاحِدًا.]{.ar}  
 "I read one book."
 
 As usual, when the described noun is feminine, then the describer too [وَاحِد]{.ar} is feminized:
@@ -1195,7 +1195,7 @@ It too can be used as describer.
 For example,
 
 [دَخَلَ رَجْلَانِ ٱثْنَانِ.]{.ar}  
-[daxala rajulAni -vnAn]{.trn2}  
+[daxala rajulAni -vnAn]{.trn}  
 "Two men entered."
 
 In the the a- and i-states, it becomes
@@ -1211,7 +1211,7 @@ When feminized it becomes
 For example,
 
 [دَخَلَتْ جَارِيَتَانِ ٱثْنَتَانِ أَكَلَتَا تَمْرَتَيْنِ ٱثْنَتَيْنِ.]{.ar}  
-[daxala jAriyatAni -vnatAni wa EakalatA tamratayni -vnatayn.]{.trn2}  
+[daxala jAriyatAni -vnatAni wa EakalatA tamratayni -vnatayn.]{.trn}  
 "Two girls entered and ate two dates."
 
 As with
@@ -1221,7 +1221,7 @@ the use of the number two is optional because its meaning is inherent in the dua
 For example,
 
 [دَخَلَتْ جَارِيَتَانِ أَكَلَتَا تَمْرَتَيْنِ.]{.ar}  
-[daxala jAriyatAni wa EakalatA tamratayn.]{.trn2}  
+[daxala jAriyatAni wa EakalatA tamratayn.]{.trn}  
 "Two girls entered and ate two dates."
 
 ### The numbers from three to ten
@@ -1233,10 +1233,80 @@ is a singular noun, and that the number
 [ٱثْنَانِ]{.ar} [ivnAni]{.trn}
 "two"
 is a dual noun.
+
 So it should come as no surprise that the numbers three to ten are treated as plural nouns.
-(Although, for our purposes here they are _treated_ as plurals, they technically are not plurals.
+(We say _treated as plurals_ because they're not technically plurals.
 For example, they don't conform to the broken plural patterns.
 But let's not worry about that for now.)
+
+Now, remember that [ة]{.ar} is a feminine marker for singular nouns, but not for plural nouns.
+In fact, recall that there is almost a role reversal for [ة]{.ar} in plural nouns, where it tends to occur for plurals of masculine nouns, and is missing for plurals of feminine nouns.
+For example, the plural of [هِرّ]{.ar} "a male cat" is [هِرَرَة]{.ar},
+and the plural of [هِرَّة]{.ar} "a female cat" is [هِرَر]{.ar},
+We will now see this role reversal of [ة]{.ar} in the numbers three to ten.
+When a number from 3--10 is used for a masculine noun then it shall have [ة]{.ar}
+and when it is used for a feminine noun then it shall not have [ة]{.ar}.
+Here then are the numbers from 3--10:
+
+| Number | Masculine | Feminine |
+|:---|---:|---:|
+| three  | [ثَلَاثَة]{.ar}   | [ثَلَاث]{.ar}   |
+| four   | [أَرْبَعَة]{.ar}   | [أَرْبَع]{.ar}   |
+| five   | [خَمْسَة]{.ar}    | [خَمْس]{.ar}    |
+| six    | [سِتَّة]{.ar}     | [سِتّ]{.ar}     |
+| seven  | [سَبْعَة]{.ar}    | [سَبْع]{.ar}    |
+| eight  | [ثَمَانِيَة]{.ar}  | [ثَمَانِي]{.ar}  |
+| nine   | [تِسْعَة]{.ar}    | [تِسْع]{.ar}    |
+| ten    | [عَشَرَة]{.ar}    | [عَشْر]{.ar}    |
+
+The number 10 is irregular in that the masculine number has a [fatHah]{.trn2} on the [ش]{.ar} 
+([عَشَرَة]{.ar} [eacarah]{.trn}).
+Whereas
+the feminine number has a [sukUn]{.trn2} on the [ش]{.ar} 
+([عَشْر]{.ar} [eacr]{.trn}).
+
+Consistent with the numbers 1 and 2, the numbers from 3--10 may be used as describers.
+But they are more often used as annexe nouns.
+As mentioned earlier, we will treat numbers more fully later, if [#allAh]{.trn2} wills.
+But here are some examples for now:
+
+[لِلْمَرْأَةِ ثَلَاثَةُ أَبْنَاءٍ وَأَرْبَعُ بَنَاتٍ.]{.ar}  
+[lilmarEati valAvatu EabnAEin waEarbaeu banAt.]{.trn}  
+"The woman has three sons and four daughters."
+
+[وَضَعْتُ عَشَرَةَ أَقْلَامٍ فِي عَشْرِ حَقِيبَاتٍ.]{.ar}  
+[waDaetu eacarata EaqlAmin fI eacri HaqIbAt.]{.trn}  
+"I put ten pens in ten bags."
+
+The feminine number [ثَمَانِي]{.ar} "eight" has a final weak letter [ي]{.ar}.
+As we will learn in chapter\ (give ref), this final letter cannot take a [kasrah]{.trn2} or a [Dammah]{.trn2}.
+For example,
+
+[أَكَلَتْ ثَمَانِي هِرَرٍ ثَمَانِيَ كِسَرَاتٍ مِنَ ٱللَّحْمِ فِي ثَمَانِي سَاعَاتٍ.]{.ar}  
+[Eakalat vamAnI hirarin vamAniya kisarAtin mina -llaHmi fI vamAnI sAeAt.]{.trn}  
+"Eight cats~f~ ate eight pieces of meat in eight hours."
+
+<!--
+| [ثَلَاث]{.ar}
+| [أَرْبَع]{.ar}
+| [خَمْس]{.ar}
+| [سِتّ]{.ar}
+| [سَبْ]{.ar}
+| [ثَمَانِي]{.ar}
+| [تِسْع]{.ar}
+| [عَشْر]{.ar}
+
+| [ثَلَاثَة]{.ar} 
+| [أَرْبَعَة]{.ar} 
+| [خَمْسَة]{.ar} 
+| [سِتَّة]{.ar} 
+| [سَبَْة]{.ar} 
+| [ثَمَانِيَة]{.ar} 
+| [تِسْعَة]{.ar} 
+| [عَشْرَة]{.ar} 
+-->
+
+
 
 
 ## Usage of the annexation
