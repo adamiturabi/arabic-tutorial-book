@@ -13,6 +13,7 @@ format:
     documentclass: scrbook # new chapter page only on right but adds \frontmatter command for roman numeral pagination
     toc: true
     toc-depth: 2
+    # DON'T USE geometry PACKAGE BECAUSE IT MESSES WITH WORD WRAP IN MARGIN ASIDES. USE NATIVE KOMASCRIPT TYPEAREA AND AREASETOPTIONS IN include-in-header
     # === PAGE DESIGN ===
     # font size and top,bottom,outer margins match my measurements of some books from my library
     # not using classical page design canons or KOMA typearea because it gives too large bottom margin
@@ -22,19 +23,19 @@ format:
     # inner margin should be 1/2 of outer margin + binding offset = 1.0625/2 + 0.2 = 0.73125
     # So paper width = inner + textwidth + outer = 0.73125 + 4.3125 + 1.0625 = 6.10625in.
     # Selecting 6.14in x 9.21in as closest industry size
-    geometry:
-      # A4 2 pages per sheet draft
-      #- paper=a5paper               # a5: 148.5 by 210mm
-      - paperwidth=6.14in
-      - paperheight=9.21in
-      - inner=0.73125in
-      - outer=1.0625in
-      - top=0.84375in
-      - bottom=1.0625in
-      #- bindingoffset=6mm
-      #- textwidth=114.8mm           # = (170 - 6)*0.7
-      #- textheight=170.8mm          # = 244 * 0.7
-      - twoside
+    #geometry:
+    #  # A4 2 pages per sheet draft
+    #  #- paper=a5paper               # a5: 148.5 by 210mm
+    #  - paperwidth=6.14in
+    #  - paperheight=9.21in
+    #  - inner=0.73125in
+    #  - outer=1.0625in
+    #  - top=0.84375in
+    #  - bottom=1.0625in
+    #  #- bindingoffset=6mm
+    #  #- textwidth=114.8mm           # = (170 - 6)*0.7
+    #  #- textheight=170.8mm          # = 244 * 0.7
+    #  - twoside
     number-sections: true
     colorlinks: true
     mainfont: "Charis"
