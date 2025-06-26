@@ -15,9 +15,9 @@ function Div (el)
       -- The underscore in data_latex is automatically converted to a hyphen
       return pandoc.Div(contents, {class='otherlanguage', data_latex="{arabic}", lang='ar'})
     elseif FORMAT:match 'html' then
-      classval = 'reg-ar-text'
+      classval = 'reg-ar-div'
       if el.classes:includes 'aralt' then
-        classval = 'alt-ar-text'
+        classval = 'alt-ar-div'
       end
       -- dir needed for html otherwise punctuation gets messed up
       return pandoc.Div(contents, {class=classval, lang='ar', dir='rtl'})
