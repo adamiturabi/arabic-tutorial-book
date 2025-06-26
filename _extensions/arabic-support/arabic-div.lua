@@ -1,6 +1,5 @@
 -- Add attributes for Arabic text in a div
-function Div (el)
-  if el.classes:includes 'ar' or el.classes:includes 'aralt' then
+function ArabicDiv (el)
     contents = el.content
     if FORMAT:match 'latex' then
       -- for handling alternate Arabic font
@@ -22,6 +21,28 @@ function Div (el)
       -- dir needed for html otherwise punctuation gets messed up
       return pandoc.Div(contents, {class=classval, lang='ar', dir='rtl'})
     end
-  end
+end
+ex_counter = 1
+
+function LingEx (el)
+    ex_counter_str = tostring(ex_counter)
+    crossref = "#lingex-" .. ex_counter_str
+    ex_counter = ex_counter + 1
+
+    table.insert(
+      el.content, 1,
+      pandoc.Div("(" .. ex_counter_str .. ")", {crossref .. "-num"}))
+    table.insert(
+      el.content, 
+      pandoc.Div("ref", {crossref .. "-ref"}))
+
+    return pandoc.Div(el.content, {layout='[0.1, 0.6, -0.1, 0.2]'})
 end
 
+function Div (el)
+  if el.classes:includes 'ar' or el.classes:includes 'aralt' then
+    return ArabicDiv(el)
+  elseif el.classes:includes 'lingex' then
+    return LingEx(el)
+  end
+end
