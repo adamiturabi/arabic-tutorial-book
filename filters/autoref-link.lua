@@ -168,13 +168,13 @@ function Link(el)
 ["forty"] = "الأربعينات",
 ["hisn"] = " حصن المسلم",
         }
-        local surah_name = book_names[book_index]
-        local index_text = ":" .. hadith_index
+        local book_name = book_names[book_index]
+        local index_text = " :" .. hadith_index
         local arabic_span
         if FORMAT:match 'latex' then
-          arabic_span = pandoc.Span(surah_name, {class="reg-ar-span", lang='ar'})
+          arabic_span = pandoc.Span(book_name, {class="reg-ar-span", lang='ar'})
         elseif FORMAT:match 'html' then
-          arabic_span = pandoc.Span(surah_name, {class="reg-ar-span", lang='ar', dir='rtl'})
+          arabic_span = pandoc.Span(book_name, {class="reg-ar-span", lang='ar', dir='rtl'})
         end
         return pandoc.Link({arabic_span, index_text}, ft)
       end
