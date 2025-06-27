@@ -26,13 +26,12 @@ ex_counter = 1
 
 function LingEx (el)
     ex_counter_str = tostring(ex_counter)
-    crossref = "#lingex-" .. ex_counter_str
     ex_counter = ex_counter + 1
 
     local has_ref = false
     for i, item in ipairs(el.content) do
       --if item.classes ~= nil and item.classes:includes "exref" then
-      if item.attributes ~= nil and item.attributes[1] == "#ref" then
+      if item.attributes ~= nil and item.attributes[1] == "ref" then
         has_ref = true
         if FORMAT:match 'latex' then
           table.insert(
@@ -52,19 +51,19 @@ function LingEx (el)
         el.content, 1,
         pandoc.Div(
           pandoc.RawInline('latex', '\\stepcounter{mycounter}(\\themycounter)')
-          , {"#num"}
+          , {"num"}
         )
       )
     else
       table.insert(
         el.content, 1,
-        pandoc.Div("(" .. ex_counter_str .. ")", {"#num"})
+        pandoc.Div("(" .. ex_counter_str .. ")", {"num"})
       )
     end
     if not has_ref then
       table.insert(
         el.content, 
-        pandoc.Div("", {"#ref"})
+        pandoc.Div("", {"ref"})
       )
     end
 
