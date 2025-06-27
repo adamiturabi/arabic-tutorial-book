@@ -1,5 +1,5 @@
 -- Add attributes for Arabic text in a div
-function Div (el)
+Div = function(el)
   if el.classes:includes 'ar' or el.classes:includes 'aralt' then
     contents = el.content
     if FORMAT:match 'latex' then

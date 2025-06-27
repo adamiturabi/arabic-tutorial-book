@@ -54,6 +54,7 @@ book:
 filters:
   - arabic-support
   - filters/autoref-link.lua
+  - filters/lingex.lua
 
 tikzarabic:
   cache: true
