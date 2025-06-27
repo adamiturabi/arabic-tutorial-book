@@ -7,7 +7,7 @@ Div = function (el)
 
     local has_ref = false
     for i, item in ipairs(el.content) do
-      if item.identifier ~= nil and item.identifier == "ref" then
+      if item.identifier ~= nil and item.identifier == "lingexref" then
         has_ref = true
         if FORMAT:match 'latex' then
           table.insert(
@@ -38,7 +38,7 @@ Div = function (el)
     if not has_ref then
       table.insert(
         el.content, 
-        pandoc.Div("", {"ref"})
+        pandoc.Div("", {"lingexref"})
       )
     end
 
