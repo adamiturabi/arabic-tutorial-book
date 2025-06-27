@@ -134,9 +134,9 @@ function Link(el)
         local index_text = " " .. surah_index .. ":" .. verse_index
         local arabic_span
         if FORMAT:match 'latex' then
-          arabic_span = pandoc.Span(surah_name, {class="reg-ar-text", lang='ar'})
+          arabic_span = pandoc.Span(surah_name, {class="reg-ar-span", lang='ar'})
         elseif FORMAT:match 'html' then
-          arabic_span = pandoc.Span(surah_name, {class="reg-ar-text", lang='ar', dir='rtl'})
+          arabic_span = pandoc.Span(surah_name, {class="reg-ar-span", lang='ar', dir='rtl'})
         end
         return pandoc.Link({arabic_span, index_text}, ft)
       end
@@ -172,9 +172,9 @@ function Link(el)
         local index_text = ":" .. hadith_index
         local arabic_span
         if FORMAT:match 'latex' then
-          arabic_span = pandoc.Span(surah_name, {class="reg-ar-text", lang='ar'})
+          arabic_span = pandoc.Span(surah_name, {class="reg-ar-span", lang='ar'})
         elseif FORMAT:match 'html' then
-          arabic_span = pandoc.Span(surah_name, {class="reg-ar-text", lang='ar', dir='rtl'})
+          arabic_span = pandoc.Span(surah_name, {class="reg-ar-span", lang='ar', dir='rtl'})
         end
         return pandoc.Link({arabic_span, index_text}, ft)
       end
