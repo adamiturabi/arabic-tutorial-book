@@ -55,6 +55,7 @@ filters:
   - arabic-support
   - filters/autoref-link.lua
   - filters/lingex.lua
+  - filters/footnotesize.lua
 
 tikzarabic:
   cache: true
