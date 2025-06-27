@@ -29,14 +29,31 @@ function LingEx (el)
     crossref = "#lingex-" .. ex_counter_str
     ex_counter = ex_counter + 1
 
-    table.insert(
-      el.content, 1,
-      pandoc.Div("(" .. ex_counter_str .. ")", {crossref .. "-num"}))
-    table.insert(
-      el.content, 
-      pandoc.Div("ref", {crossref .. "-ref"}))
+    if FORMAT:match 'latex' then
+      -- for handling alternate Arabic font
+      table.insert(
+        el.content, 1,
+        pandoc.RawInline('latex', '\\ex ')
+      )
+      table.insert(
+        el.content,
+        pandoc.RawInline('latex', '\\xe')
+      )
+      table.insert(
+        el.content,
+        pandoc.Span("Wright", {class=aside})
+      )
+      return pandoc.Div(el.content)
+    elseif FORMAT:match 'html' then
+      table.insert(
+        el.content, 1,
+        pandoc.Div("(" .. ex_counter_str .. ")", {crossref .. "-num"}))
+      table.insert(
+        el.content, 
+        pandoc.Div("ref", {crossref .. "-ref"}))
 
-    return pandoc.Div(el.content, {layout='[0.1, 0.6, -0.1, 0.2]'})
+      return pandoc.Div(el.content, {layout='[0.1, 0.6, -0.1, 0.2]'})
+    end
 end
 
 function Div (el)
