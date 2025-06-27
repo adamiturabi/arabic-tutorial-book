@@ -8,6 +8,14 @@ Div = function (el)
     local has_ref = false
     for i, item in ipairs(el.content) do
       --if item.classes ~= nil and item.classes:includes "exref" then
+      if FORMAT:match 'latex' then
+        if item.identifier ~= nil and item.identifier == "ref" then
+        table.insert(
+          item.content, 1,
+          pandoc.RawInline('latex', '\\raggedright ')
+        )
+        end
+      end
       if item.attributes ~= nil and item.attributes[1] == "ref" then
         has_ref = true
         -- if FORMAT:match 'latex' then
