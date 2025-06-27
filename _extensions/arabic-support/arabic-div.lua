@@ -29,12 +29,34 @@ function LingEx (el)
     crossref = "#lingex-" .. ex_counter_str
     ex_counter = ex_counter + 1
 
+    local has_ref = false
+    for i, item in ipairs(el.content) do
+      --if item.classes ~= nil and item.classes:includes "exref" then
+      if item.attributes ~= nil and item.attributes[1] == "#ref" then
+        has_ref = true
+        if FORMAT:match 'latex' then
+          table.insert(
+            item.content, 1,
+            pandoc.RawInline('latex', '{\\footnotesize ')
+          )
+          table.insert(
+            item.content,
+            pandoc.RawInline('latex', '}')
+          )
+        end
+      end
+    end
+        
     table.insert(
       el.content, 1,
-      pandoc.Div("(" .. ex_counter_str .. ")", {crossref .. "-num"}))
-    table.insert(
-      el.content, 
-      pandoc.Div("ref", {crossref .. "-ref"}))
+      pandoc.Div("(" .. ex_counter_str .. ")", {"#num"})
+    )
+    if not has_ref then
+      table.insert(
+        el.content, 
+        pandoc.Div("", {"#ref"})
+      )
+    end
 
     return pandoc.Div(el.content, {layout='[0.1, 0.6, -0.1, 0.2]', fig_pos="H"})
 end
