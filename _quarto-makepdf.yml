@@ -1,14 +1,10 @@
 project:
   output-dir: pdf_out_dir
 
-book:
-  appendices:
-    - srcqmd/hamzarules.qmd
-    - srcqmd/usage_and_style.qmd
 
 format:
   pdf:
-    #keep-tex: true
+    keep-tex: true
     #documentclass: scrreprt # no roman numeral pagination but chapter page can be left or right
     documentclass: scrbook # new chapter page only on right but adds \frontmatter command for roman numeral pagination
     toc: true
