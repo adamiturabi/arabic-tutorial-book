@@ -2,90 +2,6 @@
 
 ## Introduction
 
-{{< lipsum 1 >}}
-
-::::: {.columns}
-
-:::: {.column width="5%"}
-::::
-
-:::: {.column width="70%"}
-:::{.ar}
-مَاتَ ٱلرَّشِيدُ بِطُوسَ وَكَانَ خَرَجَ إِلَىٰ خُرَاسَانَ لِمُحَارَبَةِ رَافِعِ بْنِ ٱللَّيْثِ.
-وَكَانَ رَافِعٌ هَـٰذَا قَدْ خَرَجَ وَخَلَعَ ٱلطَّاعَةَ وَتَغَلَّبَ عَلَىٰ سَمَرْقَنْدَ.
-:::
-"[al-#racId]{.trn2} died at [#TUs]{.trn2} after he had set out for [#xurAsAn]{.trn2} to combat [#rAfie ibn al-#layv]{.trn2}.
-And this [#rAfie]{.trn2} had already rebelled and cast off his allegiance and taken forcible posession of Samarqand."
-::::
-
-:::: {.column width="5%"}
-::::
-
-:::: {.column width="20%"}
-Wright, vol.\ ii, §3, rem.\ a, p.\ 6A
-::::
-
-:::::
-
-{{< lipsum 1 >}}
-
-::::: {layout="[0.1, 0.6, -0.1, 0.2]"}
-::::{#num}
-{\vspace{0pt}%}
-a
-::::
-::::{#text}
-:::{.ar}
-مَاتَ ٱلرَّشِيدُ بِطُوسَ وَكَانَ خَرَجَ إِلَىٰ خُرَاسَانَ لِمُحَارَبَةِ رَافِعِ بْنِ ٱللَّيْثِ.
-وَكَانَ رَافِعٌ هَـٰذَا قَدْ خَرَجَ وَخَلَعَ ٱلطَّاعَةَ وَتَغَلَّبَ عَلَىٰ سَمَرْقَنْدَ.
-:::
-"[al-#racId]{.trn2} died at [#TUs]{.trn2} after he had set out for [#xurAsAn]{.trn2} to combat [#rAfie ibn al-#layv]{.trn2}.
-And this [#rAfie]{.trn2} had already rebelled and cast off his allegiance and taken forcible posession of Samarqand."
-::::
-::::{#src}
-{\vspace{0pt}%}
-Wright, vol.\ ii, §3, rem.\ a, p.\ 6A
-::::
-:::::
-
-{{< lipsum 1 >}}
-
-::::: {layout="[0.1, 0.6, -0.1, 0.2]"}
-::::{#num}
-{\vspace{0pt}%}
-a
-::::
-::::{#text}
-[الرجل طويل]{.ar}  
-"The man is tall."
-::::
-::::{#src}
-{\vspace{0pt}%}
-Wright, vol.\ ii, §3, rem.\ a, p.\ 6A
-::::
-:::::
-
-::::{#exm-abc}
-
-[Wright, vol.\ ii, §3, rem.\ a, p.\ 6A]
-
-:::{.ar}
-مَاتَ ٱلرَّشِيدُ بِطُوسَ وَكَانَ خَرَجَ إِلَىٰ خُرَاسَانَ لِمُحَارَبَةِ رَافِعِ بْنِ ٱللَّيْثِ.
-وَكَانَ رَافِعٌ هَـٰذَا قَدْ خَرَجَ وَخَلَعَ ٱلطَّاعَةَ وَتَغَلَّبَ عَلَىٰ سَمَرْقَنْدَ.
-:::
-"[al-#racId]{.trn2} died at [#TUs]{.trn2} after he had set out for [#xurAsAn]{.trn2} to combat [#rAfie ibn al-#layv]{.trn2}.
-And this [#rAfie]{.trn2} had already rebelled and cast off his allegiance and taken forcible posession of Samarqand."
-::::
-
-::::{#exm-abc}
-
-[Wright, vol.\ ii, §3, rem.\ a, p.\ 6A]
-
-[الرجل طويل]{.ar}  
-"The man is tall."
-
-::::
-
 :::::{.lingex}
 ::::{#text}
 
@@ -118,7 +34,7 @@ And this [#rAfie]{.trn2} had already rebelled and cast off his allegiance and ta
 ::::{.lingex}
 :::{#text}
 [الحمد لله]{.ar}  
-"Thanks to Allah]
+"Thanks to Allah"
 :::
 
 ::::{#ref}

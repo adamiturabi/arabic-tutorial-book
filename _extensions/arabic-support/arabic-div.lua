@@ -47,10 +47,20 @@ function LingEx (el)
       end
     end
         
-    table.insert(
-      el.content, 1,
-      pandoc.Div("(" .. ex_counter_str .. ")", {"#num"})
-    )
+    if FORMAT:match 'latex' then
+      table.insert(
+        el.content, 1,
+        pandoc.Div(
+          pandoc.RawInline('latex', '\\stepcounter{mycounter}(\\themycounter)')
+          , {"#num"}
+        )
+      )
+    else
+      table.insert(
+        el.content, 1,
+        pandoc.Div("(" .. ex_counter_str .. ")", {"#num"})
+      )
+    end
     if not has_ref then
       table.insert(
         el.content, 
