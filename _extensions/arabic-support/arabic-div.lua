@@ -36,7 +36,7 @@ function LingEx (el)
       el.content, 
       pandoc.Div("ref", {crossref .. "-ref"}))
 
-    return pandoc.Div(el.content, {layout='[0.1, 0.6, -0.1, 0.2]'})
+    return pandoc.Div(el.content, {layout='[0.1, 0.6, -0.1, 0.2]', fig_pos="H"})
 end
 
 function Div (el)
