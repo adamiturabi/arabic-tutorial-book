@@ -7,19 +7,18 @@ Div = function (el)
 
     local has_ref = false
     for i, item in ipairs(el.content) do
-      --if item.classes ~= nil and item.classes:includes "exref" then
-      if item.attributes ~= nil and item.attributes[1] == "ref" then
+      if item.identifier ~= nil and item.identifier == "lingexref" then
         has_ref = true
-        -- if FORMAT:match 'latex' then
-        --   table.insert(
-        --     item.content, 1,
-        --     pandoc.RawInline('latex', '{\\footnotesize ')
-        --   )
-        --   table.insert(
-        --     item.content,
-        --     pandoc.RawInline('latex', '}')
-        --   )
-        -- end
+        if FORMAT:match 'latex' then
+          table.insert(
+            item.content, 1,
+            pandoc.RawInline('latex', '\\raggedright {\\footnotesize ')
+          )
+          table.insert(
+            item.content,
+            pandoc.RawInline('latex', '}')
+          )
+        end
       end
     end
         
@@ -39,11 +38,10 @@ Div = function (el)
     if not has_ref then
       table.insert(
         el.content, 
-        pandoc.Div("", {"ref"})
+        pandoc.Div("", {"lingexref"})
       )
     end
 
-    --return pandoc.Div(el.content, {layout='[0.1, 0.6, -0.1, 0.2]', fig_pos="H"})
     local return_div = pandoc.Div(el.content, {layout='[0.1, 0.6, -0.1, 0.2]'})
     return_div.attributes['fig-pos'] = 'H'
     return return_div
