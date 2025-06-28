@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../srchtml/styles.css">
 </head>
@@ -339,6 +368,33 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#the-adverb-of-place" id="toc-the-adverb-of-place" class="nav-link" data-scroll-target="#the-adverb-of-place"><span class="header-section-number">21.4</span> The adverb of place</a>
   <ul class="collapse">
   <li><a href="#vague-and-unbounded-nouns" id="toc-vague-and-unbounded-nouns" class="nav-link" data-scroll-target="#vague-and-unbounded-nouns"><span class="header-section-number">21.4.1</span> Vague and unbounded nouns</a></li>
+  <li><a href="#units-of-distance-and-space" id="toc-units-of-distance-and-space" class="nav-link" data-scroll-target="#units-of-distance-and-space"><span class="header-section-number">21.4.2</span> Units of distance and space</a></li>
+  <li><a href="#nouns-of-place" id="toc-nouns-of-place" class="nav-link" data-scroll-target="#nouns-of-place"><span class="header-section-number">21.4.3</span> Nouns of place</a></li>
+  </ul></li>
+  <li><a href="#the-deputy-adverb-of-time-and-place" id="toc-the-deputy-adverb-of-time-and-place" class="nav-link" data-scroll-target="#the-deputy-adverb-of-time-and-place"><span class="header-section-number">21.5</span> The deputy adverb of time and place</a>
+  <ul class="collapse">
+  <li><a href="#a-qualifier" id="toc-a-qualifier" class="nav-link" data-scroll-target="#a-qualifier"><span class="header-section-number">21.5.1</span> A qualifier</a></li>
+  <li><a href="#a-verbal-noun-of-doing" id="toc-a-verbal-noun-of-doing" class="nav-link" data-scroll-target="#a-verbal-noun-of-doing"><span class="header-section-number">21.5.2</span> A verbal noun of doing</a></li>
+  </ul></li>
+  <li><a href="#using-prepositions-instead-of-adverbs-of-time-and-place" id="toc-using-prepositions-instead-of-adverbs-of-time-and-place" class="nav-link" data-scroll-target="#using-prepositions-instead-of-adverbs-of-time-and-place"><span class="header-section-number">21.6</span> Using prepositions instead of adverbs of time and place</a>
+  <ul class="collapse">
+  <li><a href="#using-other-prepositions-besides-في" id="toc-using-other-prepositions-besides-في" class="nav-link" data-scroll-target="#using-other-prepositions-besides-في"><span class="header-section-number">21.6.1</span> Using other prepositions besides <span class="reg-ar-span" dir="rtl" lang="ar">فِي</span></a></li>
+  </ul></li>
+  <li><a href="#using-من-before-some-adverbs" id="toc-using-من-before-some-adverbs" class="nav-link" data-scroll-target="#using-من-before-some-adverbs"><span class="header-section-number">21.7</span> Using <span class="reg-ar-span" dir="rtl" lang="ar">مِنْ</span> before some adverbs</a></li>
+  <li><a href="#قبل-and-its-sisters" id="toc-قبل-and-its-sisters" class="nav-link" data-scroll-target="#قبل-and-its-sisters"><span class="header-section-number">21.8</span> <span class="reg-ar-span" dir="rtl" lang="ar">قَبْل</span> and its sisters</a></li>
+  <li><a href="#the-use-of-an-adverb-without-an-obvious-verb" id="toc-the-use-of-an-adverb-without-an-obvious-verb" class="nav-link" data-scroll-target="#the-use-of-an-adverb-without-an-obvious-verb"><span class="header-section-number">21.9</span> The use of an adverb without an obvious verb</a></li>
+  <li><a href="#multiple-adverbs-of-place-with-a-single-verb" id="toc-multiple-adverbs-of-place-with-a-single-verb" class="nav-link" data-scroll-target="#multiple-adverbs-of-place-with-a-single-verb"><span class="header-section-number">21.10</span> Multiple adverbs of place with a single verb</a>
+  <ul class="collapse">
+  <li><a href="#multiple-adverbs-with-conjunctions" id="toc-multiple-adverbs-with-conjunctions" class="nav-link" data-scroll-target="#multiple-adverbs-with-conjunctions"><span class="header-section-number">21.10.1</span> Multiple adverbs with conjunctions</a></li>
+  <li><a href="#multiple-adverbs-without-conjunctions" id="toc-multiple-adverbs-without-conjunctions" class="nav-link" data-scroll-target="#multiple-adverbs-without-conjunctions"><span class="header-section-number">21.10.2</span> Multiple adverbs without conjunctions</a></li>
+  <li><a href="#compound-adverbs" id="toc-compound-adverbs" class="nav-link" data-scroll-target="#compound-adverbs"><span class="header-section-number">21.10.3</span> Compound adverbs</a></li>
+  </ul></li>
+  <li><a href="#some-commonly-used-adverbs-of-time-and-place" id="toc-some-commonly-used-adverbs-of-time-and-place" class="nav-link" data-scroll-target="#some-commonly-used-adverbs-of-time-and-place"><span class="header-section-number">21.11</span> Some commonly used adverbs of time and place</a>
+  <ul class="collapse">
+  <li><a href="#أول" id="toc-أول" class="nav-link" data-scroll-target="#أول"><span class="header-section-number">21.11.1</span> <span class="reg-ar-span" dir="rtl" lang="ar">أَوَّل</span></a></li>
+  <li><a href="#أسفل" id="toc-أسفل" class="nav-link" data-scroll-target="#أسفل"><span class="header-section-number">21.11.2</span> <span class="reg-ar-span" dir="rtl" lang="ar">أَسْفَل</span></a></li>
+  <li><a href="#بعد" id="toc-بعد" class="nav-link" data-scroll-target="#بعد"><span class="header-section-number">21.11.3</span> <span class="reg-ar-span" dir="rtl" lang="ar">بَعْد</span></a></li>
+  <li><a href="#ذات" id="toc-ذات" class="nav-link" data-scroll-target="#ذات"><span class="header-section-number">21.11.4</span> <span class="reg-ar-span" dir="rtl" lang="ar">ذَات</span></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -488,6 +544,12 @@ These nouns can be used when indefinite.
 <li><span class="reg-ar-span" dir="rtl" lang="ar">بَايَعْنَا النَّبِيَّ صلى الله عليه وسلم تَحْتَ الشَّجَرَةِ</span> <span class="ftsize">[<a href="https://sunnah.com/bukhari:7208"><span class="reg-ar-span" dir="rtl" lang="ar">صحيح البخاري</span> :7208</a>]</span><br>
 “We gave the oath of allegiance to the Prophet <span class="alt-ar-span" dir="rtl" lang="ar">ﷺ</span> under the tree”</li>
 </ol>
+<p>Ocassionally, instead of being an annexe noun, the adverb occurs as an indefinite noun and is qualified by the preposition <span class="reg-ar-span" dir="rtl" lang="ar">مِنْ</span> after it. For example:</p>
+<ol start="15" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">فَقَامَ أَسْفَلَ مِنْ ذَلِکَ عِنْدَ السَّرِیرِ</span> <span class="ftsize">[<a href="https://shamela.ws/book/9944/12868"><span class="reg-ar-span" dir="rtl" lang="ar">مصنف ابن أبي شيبة - ت الحوت</span> :11544</a>]</span><br>
+“So he stood lower than that at the bed”<br>
+(Note how <span class="reg-ar-span" dir="rtl" lang="ar">أَسْفَل</span> does not take <span class="trn2">tanwīn</span> because it is a semi-flexible noun.</li>
+</ol>
 <p>There are some nouns whose meaning is associated with the word “side”:</p>
 <ul>
 <li><span class="reg-ar-span" dir="rtl" lang="ar">جَانِب</span>, <span class="reg-ar-span" dir="rtl" lang="ar">نَاحِيَة</span>, <span class="reg-ar-span" dir="rtl" lang="ar">وَجْه</span>, <span class="reg-ar-span" dir="rtl" lang="ar">جِهَة</span> “side”</li>
@@ -495,7 +557,7 @@ These nouns can be used when indefinite.
 <li><span class="reg-ar-span" dir="rtl" lang="ar">خَارِج</span> “outside”</li>
 </ul>
 <p>With these nouns, it is more common to use prepositions like <span class="reg-ar-span" dir="rtl" lang="ar">فِي</span>, <span class="reg-ar-span" dir="rtl" lang="ar">إلَىٰ</span>, or <span class="reg-ar-span" dir="rtl" lang="ar">مِنْ</span> before them. For example,</p>
-<ol start="15" class="example" type="1">
+<ol start="16" class="example" type="1">
 <li><p><span class="reg-ar-span" dir="rtl" lang="ar">نِمْتُ فِي خَارِجِ ٱلدَّارِ</span> <span class="ftsize">[Wright, vol.&nbsp;ii., §44,&nbsp;p.&nbsp;112A]</span><br>
 “I slept outside the house.”</p></li>
 <li><p><span class="reg-ar-span" dir="rtl" lang="ar">زَيْدٌ فِي جَانِبِ عَمْرٍو.</span><br>
@@ -506,7 +568,7 @@ or<br>
 “Zayd is outside the house.”</p></li>
 </ol>
 <p>But they may be used, less commonly, as adverbs of place as well. For example,</p>
-<ol start="18" class="example" type="1">
+<ol start="19" class="example" type="1">
 <li><p><span class="reg-ar-span" dir="rtl" lang="ar">أَتَشَوَّفُ دَاخِلًا وَخَارِجًا</span> <span class="ftsize">[<a href="https://shamela.ws/book/25794/4962#p1"><span class="reg-ar-span" dir="rtl" lang="ar">مسند أحمد</span> :6520</a>]</span><br>
 “I (was) looking inside and outside.”</p></li>
 <li><p><span class="reg-ar-span" dir="rtl" lang="ar">فَهُوَ مُتَّكِئٌ عَلَيْهَا دَاخِلَ الْمَسْجِدِ</span> <span class="ftsize">[<a href="https://shamela.ws/book/25794/12210"><span class="reg-ar-span" dir="rtl" lang="ar">مسند أحمد</span> :15837</a>]</span><br>
@@ -528,7 +590,338 @@ For example,
 [[تأويل مختلف الحديث لابن قتيبة]{.ar}, p.\ 127]{.aside}  
 "And they sought to come close to [#allAh]{.trn2} by following the practices of the Messenger of [#allAh]{.trn2} [ﷺ]{.aralt} and by seeking reports and information of him, (by) land and (by) sea, and east and west."
 -->
+<p>Some place nouns are vague in that they mean “place”, like <span class="reg-ar-span" dir="rtl" lang="ar">مَكَان</span>, <span class="reg-ar-span" dir="rtl" lang="ar">مَوْضِع</span>, and <span class="reg-ar-span" dir="rtl" lang="ar">مَقَام</span>. These nouns are permitted to be used as adverbs of place when construed with a verb conveying the idea of stopping or remaining. For example,</p>
+<ol start="21" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">جَلَسْتُ مَكَانَ زَيْدٍ</span> <span class="ftsize">[Wright, vol.&nbsp;ii, §44, p.&nbsp;111D]</span><br>
+“I sat down in Zayd’s place.”</li>
+</ol>
+<p>The noun <span class="reg-ar-span" dir="rtl" lang="ar">مَكَان</span> is also used in an annexation to mean “in place of”. With this meaning, it may be used as an adverb of place unrestrictedly. For example,</p>
+<ol start="22" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">خُذْ هَـٰذَا مَكَانَ ذَ&nbsp;ٰلِكَ</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">النحو الوافي</span> 2/261]</span><br>
+“Take this in place of that.”</li>
+</ol>
+<p>So too may the noun <span class="reg-ar-span" dir="rtl" lang="ar">بَدَل</span> “replacement” be used in this way.</p>
+<ol start="23" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">خُذْ هَـٰذَا بَدَلَ ذَ&nbsp;ٰلِكَ</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">النحو الوافي</span> 2/261]</span><br>
+“Take this in replacement of that.”</li>
+</ol>
 <p>Excluded from this restriction of vagueness are nouns used with the verbs <span class="reg-ar-span" dir="rtl" lang="ar">دَخَلَ</span> “to enter”, <span class="reg-ar-span" dir="rtl" lang="ar">سَكَنَ</span> “to dwell”, and <span class="reg-ar-span" dir="rtl" lang="ar">نَزَلَ</span> “to alight”.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> So we can say <span class="reg-ar-span" dir="rtl" lang="ar">دَخَلْتُ ٱلدَّارَ</span> “I entered the house,” <span class="reg-ar-span" dir="rtl" lang="ar">سَكَنْتُ ٱلْبَيْتَ</span> “I dwelled (in) the house,” and <span class="reg-ar-span" dir="rtl" lang="ar">نَزَلْتُ ٱلْبَلَدَ</span> “I alighted (in) the country.” The a-state nouns with these verbs may be considered either direct doees or adverbs of place. Excluded also, is the country name <span class="reg-ar-span" dir="rtl" lang="ar">ٱلشَّأْم</span> “Syria” with the verb <span class="reg-ar-span" dir="rtl" lang="ar">ذَهَبَ</span> “to go.” So we can say <span class="reg-ar-span" dir="rtl" lang="ar">ذَهَبْتُ ٱلشَّأْمَ</span> for “I went (to) Syria.”</p>
+</section>
+<section id="units-of-distance-and-space" class="level3" data-number="21.4.2">
+<h3 data-number="21.4.2" class="anchored" data-anchor-id="units-of-distance-and-space"><span class="header-section-number">21.4.2</span> Units of distance and space</h3>
+<p>Units of distance and space are permitted to be used as adverbs of place. For example:</p>
+<!--
+(@) [سَارُوا أَرْبَعَةَ أَمْيالٍ]{.ar}
+    [[Wright, vol.\ ii, §44, p.\ 111B]]{.ftsize}  
+    "They travelled four miles."
+-->
+<ol start="24" class="example" type="1">
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">سَارُوا مِيلًا</span><br>
+“They travelled a mile.”</p></li>
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">مَشَيْتُ فَرْسَخَيْنِ</span> <span class="ftsize">[Wright, vol.&nbsp;ii, §44, p.&nbsp;111B]</span><br>
+“I walked two parasangs.”<br>
+(A <span class="reg-ar-span" dir="rtl" lang="ar">فَرْسَخْ</span> is a unit of distance approximately equal to three miles.)</p></li>
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">جَرَىٰ غَلْوَةً</span> <span class="ftsize">[Wright, vol.&nbsp;ii, §44, p.&nbsp;111B]</span><br>
+“He ran (the distance of) a bowshot.”</p></li>
+</ol>
+</section>
+<section id="nouns-of-place" class="level3" data-number="21.4.3">
+<h3 data-number="21.4.3" class="anchored" data-anchor-id="nouns-of-place"><span class="header-section-number">21.4.3</span> Nouns of place</h3>
+<p>In section&nbsp;(ref) we studied the <em>noun of place</em>, which is formed on the pattern <span class="reg-ar-span" dir="rtl" lang="ar">مَفْعِل</span> or <span class="reg-ar-span" dir="rtl" lang="ar">مَفْعَل</span>. The noun of place is permitted to be used as an adverb of place, but only when construed with the verb from which it is derived. For example,</p>
+<ol start="27" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">قَعَدْتُ مَقْعَدَ زَيْدٍ</span>,<br>
+<span class="reg-ar-span" dir="rtl" lang="ar">جَلَسْتُ مَجْلِسَ زَيْدٍ</span> <span class="ftsize">[Wright, vol.&nbsp;ii, §44, p.&nbsp;112A]</span><br>
+I sat down in Zayd’s seat.</li>
+</ol>
+</section>
+</section>
+<section id="the-deputy-adverb-of-time-and-place" class="level2" data-number="21.5">
+<h2 data-number="21.5" class="anchored" data-anchor-id="the-deputy-adverb-of-time-and-place"><span class="header-section-number">21.5</span> The deputy adverb of time and place</h2>
+<p>The adverb of time or place may be substituted by another noun. This other noun then becomes the adverb in the a-state as the deputy of the original adverb. The meaning of the original (substituted) adverb is then implied. The substitute may be from the following categories:</p>
+<section id="a-qualifier" class="level3" data-number="21.5.1">
+<h3 data-number="21.5.1" class="anchored" data-anchor-id="a-qualifier"><span class="header-section-number">21.5.1</span> A qualifier</h3>
+<p>When an adverb of time or place is qualified by another noun, then the adverb may be dropped and the qualifier may take its place.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<p>Such qualifiers include:</p>
+<ul>
+<li><p>A describer:</p>
+<ol start="28" class="example" type="1">
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">جلست شرقي الدار</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">معاني النحو</span> 2/191]</span><br>
+“I sat east of the house.”<br>
+(for <span class="reg-ar-span" dir="rtl" lang="ar">جلست مَكَانًا شرقي الدار</span>)</p></li>
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">جَلَسْتُ عِنْدَهُ طَوِيلًا مِنَ ٱلدَّهْرِ</span> <span class="ftsize">[Wright, 2/110B]</span><br>
+“I sat with him (for) a long (time).” (for <span class="reg-ar-span" dir="rtl" lang="ar">زَمَنًا طَوِيلًا</span>)</p></li>
+</ol></li>
+<li><p>A number:</p>
+<ol start="30" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">سَارُوا أَرْبَعَةَ أَمْيالٍ</span> <span class="ftsize">[Wright, 2/111B]</span><br>
+“They travelled four miles.”<br>
+(Technically the number <span class="reg-ar-span" dir="rtl" lang="ar">أَرْبَعَة</span> is the adverb in the a-state.)</li>
+</ol></li>
+<li><p>A fraction or a whole:</p>
+<ol start="31" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">لَبِثْنَا يَوْمًا أَوْ بَعْضَ يَوْمٍ</span> <span class="ftsize">[<a href="https://quran.com/23/113"><span class="reg-ar-span" dir="rtl" lang="ar">سورة المؤمنون</span> 23:113</a>]</span><br>
+“We remained a day or part of a day”</li>
+</ol></li>
+<li><p>A pointing noun:</p>
+<ol start="32" class="example" type="1">
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">جئت هذا الوقت</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">معاني النحو</span> 2/191]</span><br>
+“I came (at) this time.”</p></li>
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">خرج محمد هذه الساعة</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">معاني النحو</span> 2/191]</span><br>
+“<span class="trn2">Muḥammad</span> left (at) this hour.”</p></li>
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">سرت هذه المسافة</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">معاني النحو</span> 2/191]</span><br>
+“I travelled this distance.”</p></li>
+</ol></li>
+</ul>
+</section>
+<section id="a-verbal-noun-of-doing" class="level3" data-number="21.5.2">
+<h3 data-number="21.5.2" class="anchored" data-anchor-id="a-verbal-noun-of-doing"><span class="header-section-number">21.5.2</span> A verbal noun of doing</h3>
+<p>A verbal noun of doing may substitute an adverb of time or place if:</p>
+<ul>
+<li>the meaning “at the time of” or “the amount of time of” is implied for adverb of time;</li>
+<li>and the meaning “at the place of” “the amount of space of” is implied for the adverb of place.</li>
+</ul>
+<p>Examples:</p>
+<ol start="35" class="example" type="1">
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">جَاءَ طُلُوعَ ٱلشَّمْسِ</span> <span class="ftsize">[Wright 2/110C]</span><br>
+“He came (at the time of) the rising of the sun.”<br>
+(for <span class="reg-ar-span" dir="rtl" lang="ar">جَاءَ وَقْتَ طُلُوعِ ٱلشَّمْسِ</span>)</p></li>
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">جِئْتُ صَلَاةَ ٱلْعَصْرِ</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">معاني النحو</span> 2/191]</span><br>
+“I came (at the time of) the <span class="trn2">ɛaṣr</span> prayer.”<br>
+(for <span class="reg-ar-span" dir="rtl" lang="ar">جِئْتُ وَقْتَ صَلَاةِ ٱلْعَصْرِ</span>.)</p></li>
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">ٱنْتَظَرْتُهُ حَلْبَ نَاقَةٍ</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">معاني النحو</span> 2/191]</span><br>
+“I waited for him (the amount of time of) the milking of a she-camel.”<br>
+(for <span class="reg-ar-span" dir="rtl" lang="ar">ٱنْتَظَرْتُهُ مِقْدَارَ حَلْبِ نَاقَةٍ</span></p></li>
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">جَلَسْتُ قُرْبَ زَيْدٍ</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">شرح ابن عقيل على ألفية ابن مالك</span> 2/200]</span><br>
+“I sat near Zayd.”<br>
+(literally: “I sat (at the place of) the nearness of Zayd.”)</p></li>
+</ol>
+<p>This substitution by a verbal noun of doing is more common for the adverb of time than for the adverb of place. And it is probably limited to verbal nouns of doing of proximity and distance like <span class="reg-ar-span" dir="rtl" lang="ar">قُرْب</span>.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+</section>
+</section>
+<section id="using-prepositions-instead-of-adverbs-of-time-and-place" class="level2" data-number="21.6">
+<h2 data-number="21.6" class="anchored" data-anchor-id="using-prepositions-instead-of-adverbs-of-time-and-place"><span class="header-section-number">21.6</span> Using prepositions instead of adverbs of time and place</h2>
+<p>Often we can replace a noun used as an adverb of time or place by a preposition followed by the same noun. This preposition is usually <span class="reg-ar-span" dir="rtl" lang="ar">فِي</span>. For example, instead of saying: <span class="reg-ar-span" dir="rtl" lang="ar">خَرَجْتُ يَوْمًا مَاطِرًا</span> “I left (on) a rainy day,” we can say:</p>
+<ol start="39" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">خَرَجْتُ فِي يَوْمٍ مَاطِرٍ</span><br>
+“I left (on) a rainy day.”<br>
+(literally “in a rainy day”.)</li>
+</ol>
+<p>The noun <span class="reg-ar-span" dir="rtl" lang="ar">يَوْم</span> is technically no longer an adverb since it is not in the a-state. The preposition <span class="reg-ar-span" dir="rtl" lang="ar">فِي</span> signifies that the verb occurs <em>in</em> the time or place denoted by the adverb. So, in the example above, my act of leaving ocurred <em>in</em> a time which is denoted by “a rainy day”. In cases like the example above, the choice of whether to use an adverb or preposition is a matter of style, and is up to the speaker.</p>
+<p>Note, however, that this substitution with <span class="reg-ar-span" dir="rtl" lang="ar">فِي</span> is not always literally correct.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> For example, we can’t say <span class="math inline">\(\times\)</span>&nbsp;<span class="reg-ar-span" dir="rtl" lang="ar">طار الطائر في فوق الشجرة</span> for “The bird flew above the tree.” Instead we have to say <span class="reg-ar-span" dir="rtl" lang="ar">طار الطائر فوق الشجرة</span>. Nevertheless, the idea of <span class="reg-ar-span" dir="rtl" lang="ar">فِي</span> is still correct in that the bird flew <em>in</em> the space which is above the tree.</p>
+<p>And sometimes, if we substitute a noun used as an adverb with <span class="reg-ar-span" dir="rtl" lang="ar">فِي</span> followed by the noun, then the sentence may be grammatically correct, but with a different meaning from the original. Consider the following examples:</p>
+<ol start="40" class="example" type="1">
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">فَعَلْتُ هَـٰذَا سَبْعَةَ أَيَّامٍ</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">معاني النحو</span> 2/179]</span><br>
+“I did this (for) seven days.”</p></li>
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">فَعَلْتُ هَـٰذَا فِي سَبْعَةِ أَيَّامٍ</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">معاني النحو</span> 2/179]</span><br>
+“I did this (in) seven days.”</p></li>
+</ol>
+<p>Example&nbsp;(40) indicates that I did an action repeatedly during seven days. Whereas example&nbsp;(41) indicates that I did the action once, and it took seven days to complete the action.</p>
+<p>Similarly, consider these two examples:</p>
+<ol start="42" class="example" type="1">
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">أَدْرُسُ ٱللَّيْلَ وَٱلنَّهَارَ</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">معاني النحو</span> 2/181]</span><br>
+“I study night and day.”</p></li>
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">أَدْرُسُ فِي ٱللَّيْلِ وَٱلنَّهَارِ</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">معاني النحو</span> 2/181]</span><br>
+“I study in the night and day.”</p></li>
+</ol>
+<p>Example&nbsp;(42) is about the amount of time that I study. This is the answer to “How much do you study?” Whereas example&nbsp;(43) is about the period of time during which I study. This is the answer to “When do you study?”</p>
+<section id="using-other-prepositions-besides-في" class="level3" data-number="21.6.1">
+<h3 data-number="21.6.1" class="anchored" data-anchor-id="using-other-prepositions-besides-في"><span class="header-section-number">21.6.1</span> Using other prepositions besides <span class="reg-ar-span" dir="rtl" lang="ar">فِي</span></h3>
+<p>While <span class="reg-ar-span" dir="rtl" lang="ar">فِي</span> is the most general preposition for substituting an adverb, other prepositions are also used. This often depends on the adverb itself. For example, instead of saying <span class="reg-ar-span" dir="rtl" lang="ar">أَخْرُجُ غَدًا</span> for “I will leave tomorrow,” we can say:</p>
+<ol start="44" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">أَخْرُجُ بِالْغَدِ</span><br>
+“I will leave tomorrow”</li>
+</ol>
+<p>And instead of saying <span class="reg-ar-span" dir="rtl" lang="ar">نَظَرَ يَمِينًا وَشِمَالًا</span> for “He looked right and left,” we can say:</p>
+<ol start="45" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">نَظَرَ عَنِ ٱلْيَمِينِ وَعَنِ ٱلشِّمَالِ</span><br>
+“He looked right and left.”</li>
+</ol>
+<p>One common preposition used before a class of adverbs is <span class="reg-ar-span" dir="rtl" lang="ar">مِنْ</span>. We will discuss it separately in the next section below.</p>
+</section>
+</section>
+<section id="using-من-before-some-adverbs" class="level2" data-number="21.7">
+<h2 data-number="21.7" class="anchored" data-anchor-id="using-من-before-some-adverbs"><span class="header-section-number">21.7</span> Using <span class="reg-ar-span" dir="rtl" lang="ar">مِنْ</span> before some adverbs</h2>
+<p>There are some nouns that are used as adverbs, but are also used with the preposition <span class="reg-ar-span" dir="rtl" lang="ar">مِنْ</span> to give the same adverbial meaning. Some of these nouns are <span class="reg-ar-span" dir="rtl" lang="ar">عِنْد</span>, <span class="reg-ar-span" dir="rtl" lang="ar">لَدُن</span> “by, with”, <span class="reg-ar-span" dir="rtl" lang="ar">قَبْل</span> “before”, <span class="reg-ar-span" dir="rtl" lang="ar">بَعْد</span> “after”, <span class="reg-ar-span" dir="rtl" lang="ar">فَوْق</span> “above”, and <span class="reg-ar-span" dir="rtl" lang="ar">تَحْت</span> “under”.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+<p>Often times, <span class="reg-ar-span" dir="rtl" lang="ar">مِنْ</span> signifies its literal meaning “from”, as usual. For example:</p>
+<ol start="46" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">مَكَثْتُ عِنْدَكَ سَاعَةً ثُمَّ خَرَجُتُ مِنْ عِنْدِكَ إِلَىٰ بَيْتِي</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">النحو الوافي</span> 2/262]</span><br>
+“I stayed at your [place] an hour, then I left <em>from</em> your place to my house.”</li>
+</ol>
+<p>Other times, the significance of this <span class="reg-ar-span" dir="rtl" lang="ar">مِنْ</span> is less obvious. Consider the following examples:</p>
+<ol start="47" class="example" type="1">
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">قَرَأْتُ ٱلْقُرآنَ بَعْدَ صَلَاةَ ٱلْعَصْرِ</span><br>
+“I read the <span class="trn2">Qurʾān</span> after the <span class="trn2">ɛaṣr</span> prayer.”</p></li>
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">قَرَأْتُ ٱلْقُرآنَ مِنْ بَعْدِ صَلَاةِ ٱلْعَصْرِ</span><br>
+“I read the <span class="trn2">Qurʾān</span> from after the <span class="trn2">ɛaṣr</span> prayer.”</p></li>
+</ol>
+<p>Example (48) specifies the <em>beginning</em> of the time period that is indicated by the adverb. This usage of <span class="reg-ar-span" dir="rtl" lang="ar">مِنْ</span> could be used to signify that the action started very close to the beginning of the time period. That is, it could indicate that I started to read the <span class="trn2">Qurʾān</span> right after the <span class="trn2">ɛaṣr</span> prayer.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+</section>
+<section id="قبل-and-its-sisters" class="level2" data-number="21.8">
+<h2 data-number="21.8" class="anchored" data-anchor-id="قبل-and-its-sisters"><span class="header-section-number">21.8</span> <span class="reg-ar-span" dir="rtl" lang="ar">قَبْل</span> and its sisters</h2>
+<p>There are a class of nouns, which are usually adverbs of time and place, that are sometimes flexible, and sometimes rigid. These nouns are:</p>
+<ul>
+<li><span class="reg-ar-span" dir="rtl" lang="ar">قَبْل</span> “before”</li>
+<li><span class="reg-ar-span" dir="rtl" lang="ar">بَعْد</span> “after”</li>
+<li><span class="reg-ar-span" dir="rtl" lang="ar">دُون</span> “below”,</li>
+<li><span class="reg-ar-span" dir="rtl" lang="ar">أَسْفَل</span> “bottom”</li>
+<li><span class="reg-ar-span" dir="rtl" lang="ar">فَوْق</span> “above”</li>
+<li><span class="reg-ar-span" dir="rtl" lang="ar">تَحْت</span> “under”</li>
+<li><span class="reg-ar-span" dir="rtl" lang="ar">أَمَام</span>, <span class="reg-ar-span" dir="rtl" lang="ar">قُدَّام</span> “in front”</li>
+<li><span class="reg-ar-span" dir="rtl" lang="ar">خَلْف</span>, <span class="reg-ar-span" dir="rtl" lang="ar">وَرَاء</span> “behind”</li>
+<li><span class="reg-ar-span" dir="rtl" lang="ar">عَلُ</span>, <span class="reg-ar-span" dir="rtl" lang="ar">عَلْو</span>, “high”, “on top”</li>
+<li><span class="reg-ar-span" dir="rtl" lang="ar">أَوَّل</span> “first”</li>
+</ul>
+<p>Also usually included with these are<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a>:</p>
+<ul>
+<li><span class="reg-ar-span" dir="rtl" lang="ar">يَمِين</span> “right”</li>
+<li><span class="reg-ar-span" dir="rtl" lang="ar">شِمَال</span> “left”</li>
+<li><span class="reg-ar-span" dir="rtl" lang="ar">آخِر</span> “last”</li>
+</ul>
+<p>Collectively, we will call them <span class="reg-ar-span" dir="rtl" lang="ar">قَبْل</span> <em>and its sisters</em>.</p>
+<p>We have already seen some of these being used used as adverbs of time or place. The cases for determining when they are flexible and when rigid are as follows:</p>
+<ol type="a">
+<li><p>When used as annex nouns with a mentioned base noun: When used as annex nouns then <span class="reg-ar-span" dir="rtl" lang="ar">قَبْل</span> and its sisters are flexible. For example,</p>
+<ol start="49" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">قَامَ ٱلْأَمِيرُ أَمَامَ ٱلْجَيْشِ</span><br>
+“The commander stood in front of the army”</li>
+</ol>
+<p>As we’ve previously discussed, instead of using these nouns as adverbs, it is common to also precede them with a preposition, like <span class="reg-ar-span" dir="rtl" lang="ar">مِنْ</span>. For example:</p>
+<ol start="50" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">قَامَ ٱلْأَمِيرُ مِنْ أَمَامِ ٱلْجَيْشِ</span><br>
+“The commander stood in front of the army”</li>
+</ol>
+<p>In this case, whether <span class="reg-ar-span" dir="rtl" lang="ar">قَبْل</span> or one of its sisters is an adverb in the a-state, or following a preposition in the i-state, then it is flexible. This is indicated in the examples above by the <span class="trn2">fat·ḥah</span> on its ending when in the a-state, and the <span class="trn2">kasrah</span> when in the i-state.</p></li>
+<li><p>When used as annex nouns but the base noun is not mentioned: Rarely, for stylistic reasons, the base noun in sentences like the example above is dropped. But the presence of the base noun is intended by the speaker. In such cases, the annexe noun will be flexible and without <span class="trn2">tanwīn</span>. For example:</p>
+<ol start="51" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">قَامَ ٱلْأَمِيرُ أَمَامَ</span><br>
+<span class="reg-ar-span" dir="rtl" lang="ar">قَامَ ٱلْأَمِيرُ مِنْ أَمَامِ</span><br>
+“The commander stood in front [of the army]”</li>
+</ol></li>
+<li><p>More commonly, the base noun is deleted, both in expression and in intention, but the adverb is still understood to be bounded implicitly. In this case, <span class="reg-ar-span" dir="rtl" lang="ar">قَبْل</span> and its sisters will be rigid. Their ending will have a <span class="trn2">ḍammah</span> regardless of whether they are in the a-state (as an adverb) or in the i-state (following <span class="reg-ar-span" dir="rtl" lang="ar">مِنْ</span>). For example:</p>
+<ol start="52" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">قَدِمَ ٱلْجَيْشُ وَقَامَ ٱلْأَمِيرُ أَمَامُ</span><br>
+<span class="reg-ar-span" dir="rtl" lang="ar">قَدِمَ ٱلْجَيْشُ وَقَامَ ٱلْأَمِيرُ مِنْ أَمَامُ</span><br>
+“The army arrived, and the commander stood in front (of the army)”</li>
+</ol>
+<p>This usage is quite common. Much more so than case b. where the base noun is dropped only stylistically.</p></li>
+<li><p>Lastly, <span class="reg-ar-span" dir="rtl" lang="ar">قَبْل</span> and its sisters may occur as indefinite nouns without an implicit or explicit base noun. They then have an absolute and unbounded meaning. In this case, they are flexible. <!-- and will have [tanwIn]{.trn2}.--> For example,</p>
+<ol start="53" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">قَامَ ٱلْأَمِيرُ أَمَامًا</span><br>
+<span class="reg-ar-span" dir="rtl" lang="ar">قَامَ ٱلْأَمِيرُ مِنْ أَمَامٍ</span><br>
+“The commander stood in front”</li>
+</ol>
+<p>In the example above, we can see that <span class="reg-ar-span" dir="rtl" lang="ar">أَمًام</span> is a flexible noun due to its <span class="trn2">tanwīn</span>. The rest of <span class="reg-ar-span" dir="rtl" lang="ar">قَبْل</span> and its sisters will be similar in behavior, except for <span class="reg-ar-span" dir="rtl" lang="ar">أَسْفَل</span>, which is a semi-flexible noun due to its pattern, and will therefore not take <span class="trn2">tanwīn</span>. It will be <span class="reg-ar-span" dir="rtl" lang="ar">أَسْفَلَ</span> both, when an adverb in the a-state, and in the i-state when preceded by <span class="reg-ar-span" dir="rtl" lang="ar">مِنْ</span>.</p></li>
+</ol>
+<p>The difference in meaning between some of these cases is quite subtle. In practice, cases a. and c.&nbsp;are more common. And case b. is rare.</p>
+<p>Here are some more examples:</p>
+<ol start="54" class="example" type="1">
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">يُخْرِجُ غِلْمَانَهُ إِلَى الْحَجِّ فَلَا يُحْرِمُونَ مِنْ ذِي الْحُلَيْفَةِ، يُحْرِمُونَ مِنْ أَمَامِ ذَلِكَ</span> <span class="ftsize">[<a href="https://shamela.ws/book/9944/15870"><span class="reg-ar-span" dir="rtl" lang="ar">مصنف ابن أبي شيبة - ت الحوت</span> :14178</a>]</span><br>
+“He would take his (slave) boys out for the <span class="trn2">Ḥajj</span>. But they would not enter <span class="trn2">iḥrām</span> from <span class="trn2">D͡hu l-Ḥulayfah</span>; they would enter <span class="trn2">iḥrām</span> from before that [location].”</p></li>
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">إِذْ جَاءُوكُمْ مِنْ فَوْقِكُمْ وَمِنْ أَسْفَلَ مِنْكُمْ</span><span class="ftsize">[<a href="https://quran.com/33:10"><span class="reg-ar-span" dir="rtl" lang="ar">سورة الأحزاب</span> 33:10</a>]</span><br>
+“[Remember] when they came at you from above you and from below you”</p></li>
+</ol>
+<p>The word <span class="reg-ar-span" dir="rtl" lang="ar">أَوَّل</span> has some rules that are specific to it and we will treat it separately in section&nbsp;(ref).</p>
+</section>
+<section id="the-use-of-an-adverb-without-an-obvious-verb" class="level2" data-number="21.9">
+<h2 data-number="21.9" class="anchored" data-anchor-id="the-use-of-an-adverb-without-an-obvious-verb"><span class="header-section-number">21.9</span> The use of an adverb without an obvious verb</h2>
+<p>The adverb of time and place is associated with the verb in a sentence. It indicates the time or place in which the action of the verb occurs. However, there are some sentences with adverbs that do not have an obvious verb</p>
+<p>Sometimes, this is in partial sentences, like in the response to the question “When did you arrive?” one may answer:</p>
+<ol start="56" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">يَومَ ٱلْجُمُعَةِ</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">النحو الوافي</span> 2/246]</span><br>
+“The day of Friday.”<br>
+<span class="reg-ar-span" dir="rtl" lang="ar">يَوْم</span> is used as an adverb and the verb “I arrived” is implied.</li>
+</ol>
+<p>Othertimes, it may be a complete sentence. For example:</p>
+<ol start="57" class="example" type="1">
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">ٱلْأَزْهَارُ أَمَامَنَا</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">النحو الوافي</span> 2/247]</span><br>
+“The flowers are in front of us.”</p></li>
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">مَاءٌ بَارِدٌ عِنْدَ يَوْمٍ حَارٍّ نِعْمَةٌ</span><br>
+“Some cold water at a hot day is a blessing.”</p></li>
+</ol>
+<p>In such sentences, the missing verb is “is” or “being”. This verb is unexpressed in Arabic.</p>
+</section>
+<section id="multiple-adverbs-of-place-with-a-single-verb" class="level2" data-number="21.10">
+<h2 data-number="21.10" class="anchored" data-anchor-id="multiple-adverbs-of-place-with-a-single-verb"><span class="header-section-number">21.10</span> Multiple adverbs of place with a single verb</h2>
+<section id="multiple-adverbs-with-conjunctions" class="level3" data-number="21.10.1">
+<h3 data-number="21.10.1" class="anchored" data-anchor-id="multiple-adverbs-with-conjunctions"><span class="header-section-number">21.10.1</span> Multiple adverbs with conjunctions</h3>
+<p>It is possible for multiple adverbs to be used with a single verb. This is regularly done with using particles like <span class="reg-ar-span" dir="rtl" lang="ar">وَ</span> and <span class="reg-ar-span" dir="rtl" lang="ar">فَ</span>. For example:</p>
+<ol start="59" class="example" type="1">
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">ٱلْتَمَسْتُهُ لَيْلًا وَنَهَارًا</span><br>
+“I searched for it night and day”</p></li>
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">لَقِيتُهُ صَبَاحًا فَمَسَاءً</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">معاني النحو</span> 2/202 (referencing <span class="reg-ar-span" dir="rtl" lang="ar">الرضي</span>)]</span><br>
+“I met him evening after morning.”<br>
+(i.e., every morning and evening.)</p></li>
+<li><p><span class="reg-ar-span" dir="rtl" lang="ar">لَقِيتُهُ يَوْمًا فَيَوْمًا</span><br>
+“I met him day after day.”</p></li>
+</ol>
+</section>
+<section id="multiple-adverbs-without-conjunctions" class="level3" data-number="21.10.2">
+<h3 data-number="21.10.2" class="anchored" data-anchor-id="multiple-adverbs-without-conjunctions"><span class="header-section-number">21.10.2</span> Multiple adverbs without conjunctions</h3>
+<p>If particles like <span class="reg-ar-span" dir="rtl" lang="ar">وَ</span> and <span class="reg-ar-span" dir="rtl" lang="ar">فَ</span> are not used then multiple adverbs may be used for one verb in one of the following cases<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a>:</p>
+<ol type="a">
+<li><p>When one is an adverb of time and the other an adverb of place. For example:</p>
+<ol start="62" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">ٱجْلِسْ عِنْدِي سَاعَةً</span><br>
+“Sit with me an hour.” (<span class="reg-ar-span" dir="rtl" lang="ar">عِنْد</span> is an adverb of place and <span class="reg-ar-span" dir="rtl" lang="ar">سَاعَة</span> is a adverb of time.)</li>
+</ol></li>
+<li><p>When both are adverbs of the same kind:</p>
+<ol type="i">
+<li><p>When the second adverb is a replacement for the first. For example:</p>
+<ol start="63" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">أُقَابِلُكَ يَومَ ٱلْجُمُعَةِ ظُهْرًا</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">النحو الوافي</span> 2/255]</span><br>
+“I will meet you Friday afternoon.”<br>
+(<span class="reg-ar-span" dir="rtl" lang="ar">ظُهْر</span> is a replacement for <span class="reg-ar-span" dir="rtl" lang="ar">يَوْم</span> and specifies when on Friday.)</li>
+</ol></li>
+<li><p>When the adverb is a comparative noun (see chapter (ref)). For example:</p>
+<ol start="64" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">ٱلْمَرِيضُ ٱلْيَوْمَ أَحْسَنُ مِنْهُ أَمْسِ</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">النحو الوافي</span> 2/256]</span><br>
+“The patient today is better than he (was) yesterday.”</li>
+</ol></li>
+</ol></li>
+</ol>
+</section>
+<section id="compound-adverbs" class="level3" data-number="21.10.3">
+<h3 data-number="21.10.3" class="anchored" data-anchor-id="compound-adverbs"><span class="header-section-number">21.10.3</span> Compound adverbs</h3>
+<p>Instead of using particles like <span class="reg-ar-span" dir="rtl" lang="ar">وَ</span> and <span class="reg-ar-span" dir="rtl" lang="ar">فَ</span> between adverbs, compound adverbs may be formed. There are two ways to form a compound adverb:<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></p>
+<ol type="a">
+<li><p>Both adverbs end with a <span class="trn2">fat·ḥah</span> without <span class="trn2">tanwīn</span>. For example,</p>
+<ol start="65" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">لَقِيتُهُ يَوْمَ يَوْمَ</span><br>
+“I met him day after day.”</li>
+</ol></li>
+<li><p>The adverbs form an annexation. For example,</p>
+<ol start="66" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">تَزُورُنَا صَبَاحَ مَسَاءٍ</span> <span class="ftsize">[<span class="reg-ar-span" dir="rtl" lang="ar">النحو الوافي</span> 2/271]</span><br>
+“You visit us morning and night.”</li>
+</ol></li>
+</ol>
+<p>Both options can be used more or less interchangeably. Unless there is a compound adverb with a set meaning. For example:</p>
+<ol start="67" class="example" type="1">
+<li><span class="reg-ar-span" dir="rtl" lang="ar">دَرَجَةُ حَرَارَةِ ٱلْجَوِّ بَيْنَ بَيْنَ</span><br>
+“The degree of the temperature of the air is intermediate.”</li>
+</ol>
+</section>
+</section>
+<section id="some-commonly-used-adverbs-of-time-and-place" class="level2" data-number="21.11">
+<h2 data-number="21.11" class="anchored" data-anchor-id="some-commonly-used-adverbs-of-time-and-place"><span class="header-section-number">21.11</span> Some commonly used adverbs of time and place</h2>
+<section id="أول" class="level3" data-number="21.11.1">
+<h3 data-number="21.11.1" class="anchored" data-anchor-id="أول"><span class="header-section-number">21.11.1</span> <span class="reg-ar-span" dir="rtl" lang="ar">أَوَّل</span></h3>
+</section>
+<section id="أسفل" class="level3" data-number="21.11.2">
+<h3 data-number="21.11.2" class="anchored" data-anchor-id="أسفل"><span class="header-section-number">21.11.2</span> <span class="reg-ar-span" dir="rtl" lang="ar">أَسْفَل</span></h3>
+<ul>
+<li>does it get tanwin?</li>
+</ul>
+</section>
+<section id="بعد" class="level3" data-number="21.11.3">
+<h3 data-number="21.11.3" class="anchored" data-anchor-id="بعد"><span class="header-section-number">21.11.3</span> <span class="reg-ar-span" dir="rtl" lang="ar">بَعْد</span></h3>
+<ul>
+<li>used for time and place</li>
+<li>meaning “yet”</li>
+</ul>
+</section>
+<section id="ذات" class="level3" data-number="21.11.4">
+<h3 data-number="21.11.4" class="anchored" data-anchor-id="ذات"><span class="header-section-number">21.11.4</span> <span class="reg-ar-span" dir="rtl" lang="ar">ذَات</span></h3>
 
 
 </section>
@@ -539,6 +932,14 @@ For example,
 <li id="fn1"><p><span class="reg-ar-span" dir="rtl" lang="ar">النحو الوافي</span> 2/245<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p><span class="reg-ar-span" dir="rtl" lang="ar">شرح الرضي على الكافية</span> p.&nbsp;184<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p><span class="reg-ar-span" dir="rtl" lang="ar">النحو الوافي</span> 2/253<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p><span class="reg-ar-span" dir="rtl" lang="ar">معاني النحو</span> 2/191<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><span class="reg-ar-span" dir="rtl" lang="ar">شرح ابن عقيل على ألفية ابن مالك</span> 2/200<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p><span class="reg-ar-span" dir="rtl" lang="ar">معاني النحو</span> 2/179<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p><span class="reg-ar-span" dir="rtl" lang="ar">معاني النحو</span> 2/193<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p><span class="reg-ar-span" dir="rtl" lang="ar">معاني النحو</span> 2/193–201, and <span class="reg-ar-span" dir="rtl" lang="ar">من الفرق بين بعد ومن بعد في اللفظ القرآني لعلي هاني</span><a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>See <span class="reg-ar-span" dir="rtl" lang="ar">النحو الوافي</span> 3/142, footnote&nbsp;1 for references to the difference of opinion regarding them<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p><span class="reg-ar-span" dir="rtl" lang="ar">النحو الوافي</span> 2/255<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p><span class="reg-ar-span" dir="rtl" lang="ar">النحو الوافي</span> 2/271, <span class="reg-ar-span" dir="rtl" lang="ar">معاني النحو</span> 2/202–204<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
