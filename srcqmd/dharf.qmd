@@ -336,9 +336,14 @@ Excluded also, is the country name [ٱلشَّأْم]{.ar} "Syria" with the verb
 Units of distance and space are permitted to be used as adverbs of place.
 For example:
 
+<!--
 (@) [سَارُوا أَرْبَعَةَ أَمْيالٍ]{.ar}
     [[Wright, vol.\ ii, §44, p.\ 111B]]{.ftsize}  
     "They travelled four miles."
+-->
+
+(@) [سَارُوا مِيلًا]{.ar}
+    "They travelled a mile."
 
 (@) [مَشَيْتُ فَرْسَخَيْنِ]{.ar}
     [[Wright, vol.\ ii, §44, p.\ 111B]]{.ftsize}  
@@ -351,7 +356,87 @@ For example:
 
 ## The deputy adverb of time and place
 
-The adverb of time or place 
+The adverb of time or place may be substituted by another noun, which is then its deputy.
+The meaning of the original (substituted) adverb is then implied.
+The substitute may be from the following categories:
+
+### A qualifier
+
+When an adverb of time or place is qualified by another noun,
+then the adverb may be dropped and the qualifier may take its place.^[[معاني النحو]{.ar} 2/191]
+
+Such qualifiers include:
+
+* A describer:
+
+  (@) [جلست شرقي الدار]
+      [[[معاني النحو]{.ar} 2/191]]{.ftsize}  
+      "I sat east of the house."  
+      (for [جلست مَكَانًا شرقي الدار]{.ar})
+
+  (@) [جَلَسْتُ عِنْدَهُ طَوِيلًا مِنَ ٱلدَّهْرِ]{.ar}
+      [[Wright, 2/110B]]{.ftsize}  
+      "I sat with him (for) a long (time)."
+      (for [زَمَنًا طَوِيلًا]{.ar})
+
+* A number:
+
+  (@) [سَارُوا أَرْبَعَةَ أَمْيالٍ]{.ar}
+      [[Wright, 2/111B]]{.ftsize}  
+      "They travelled four miles."
+      (Technically the number [أَرْبَعَة]{.ar} is the adverb in the a-state.)
+
+* A fraction or a whole:
+
+  [لَبِثْنَا يَوْمًا أَوْ بَعْضَ يَوْمٍ]{.ar}
+  [[<https://quran.com/23/113>]]{.ftsize}  
+  "We remained a day or part of a day"
+
+* A pointing noun:
+
+  (@) [جئت هذا الوقت]{.ar}
+      [[[معاني النحو]{.ar} 2/191]]{.ftsize}  
+      "I came (at) this time."
+
+  (@) [خرج محمد هذه الساعة]{.ar}
+      [[[معاني النحو]{.ar} 2/191]]{.ftsize}  
+      "[#muHammad]{.trn2} left (at) this hour."
+
+  (@) [سرت هذه المسافة]{.ar}
+      [[[معاني النحو]{.ar} 2/191]]{.ftsize}  
+      "I travelled this distance."
+
+### A verbal noun of doing
+
+A verbal noun of doing may substitute an adverb of time or place if:
+
+* the meaning "at the time of" or "the amount of time of" is implied for adverb of time;
+* and the meaning "at the place of" "the amount of space of" is implied for the adverb of place.
+
+Examples:
+
+(@) [جَاءَ طُلُوعَ ٱلشَّمْسِ]{.ar}
+    [[Wright 2/110C]]{.ftsize}  
+    "He came (at the time of) the rising of the sun."
+    (for [جَاءَ وَقْتَ طُلُوعِ ٱلشَّمْسِ]{.ar})
+
+(@) [جِئْتُ صَلَاةَ ٱلْعَصْرِ]{.ar}
+    [[[معاني النحو]{.ar} 2/191]]{.ftsize}  
+    "I came (at the time of) the [eaSr]{.trn2} prayer."  
+    (for [جِئْتُ وَقْتَ صَلَاةِ ٱلْعَصْرِ]{.ar}.)
+
+(@) [ٱنْتَظَرْتُهُ حَلْبَ نَاقَةٍ]{.ar}
+    [[[معاني النحو]{.ar} 2/191]]{.ftsize}  
+    "I waited for him (the amount of time of) the milking of a she-camel."
+    (for [ٱنْتَظَرْتُهُ مِقْدَارَ حَلْبِ نَاقَةٍ]{.ar}
+
+(@) [جَلَسْتُ قُرْبَ زَيْدٍ]{.ar}
+    [[[شرح ابن عقيل على ألفية ابن مالك]{.ar} 2/200]]{.ftsize}  
+    "I sat near Zayd."  
+    (literally: "I sat (at the place of) the nearness of Zayd.")
+
+This substituion by a verbal noun of doing is more common for the adverb of time than for the adverb of place.
+And it is probably limited to verbal nouns of doing of proximity and distance like [قُرْب]{.ar}.^[[شرح ابن عقيل على ألفية ابن مالك]{.ar} 2/200]
 
 ### Nouns of place
 
