@@ -179,7 +179,7 @@ Such nouns include:
 + [أَمَام]{.ar}, [قُدَّام]{.ar} "in front (of)"
 + [خَلْفَ]{.ar}, [وَرَاء]{.ar} "behind"
 + [فَوْق]{.ar} "above"
-+ [تَحْت]{.ar} "under"
++ [تَحْت]{.ar} "under", [أَسْفَل]{.ar} "lower", [دُون]{.ar} "beneath"
 + [يَمِين]{.ar} "right"
 + [شِمَال]{.ar}, [يَسَار]{.ar} "left"
 
@@ -208,7 +208,8 @@ Here is an example of the use of these nouns as adverbs of place:
 
 
 <!--But they are more likely to be used as annexe nouns.-->
-These nouns can be, and often are, annexe nouns.
+Most of
+these nouns can be, and often are, annexe nouns.
 When they are annexed to a definite noun then they too will be definite.
 But this in no way restricts their vagueness and thus ability to be used as adverbs of place.^[[شرح الرضي على الكافية]{.ar} p.\ 184]
 For example,
@@ -217,6 +218,7 @@ For example,
     [[<https://sunnah.com/bukhari:7208>]]{.ftsize}  
     "We gave the oath of allegiance to the Prophet [ﷺ]{.aralt} under the tree"
 
+<!--
 Ocassionally, instead of being an annexe noun, the adverb occurs as an indefinite noun and is qualified by the preposition [مِنْ]{.ar} after it.
 For example:
 
@@ -224,6 +226,7 @@ For example:
     [[[[مصنف ابن أبي شيبة - ت الحوت]{.ar} :11544](https://shamela.ws/book/9944/12868)]]{.ftsize}  
     "So he stood lower than that at the bed"  
     (Note how [أَسْفَل]{.ar} does not take [tanwIn]{.trn2} because it is a semi-flexible noun.
+-->
 
 There are some nouns whose meaning is associated with the word "side":
 
@@ -352,7 +355,7 @@ For example:
 
 (@) [جَرَىٰ غَلْوَةً]{.ar}
     [[Wright, vol.\ ii, §44, p.\ 111B]]{.ftsize}  
-    "He ran (the distance of) a bowshot."
+    "He ran the distance of a bowshot."
 
 ### Nouns of place
 
@@ -539,8 +542,8 @@ Some of these nouns are
 [قَبْل]{.ar} "before",
 [بَعْد]{.ar} "after",
 [فَوْق]{.ar} "above",
-and
-[تَحْت]{.ar} "under".^[[معاني النحو]{.ar} 2/193]
+[تَحْت]{.ar} "under",^[[معاني النحو]{.ar} 2/193]
+etc.
 
 Often times, [مِنْ]{.ar} signifies its literal meaning "from", as usual.
 For example:
@@ -556,11 +559,26 @@ Consider the following examples:
     "I read the [#qurEAn]{.trn2} after the [eaSr]{.trn2} prayer."
 
 (@dharf-with-min) [قَرَأْتُ ٱلْقُرآنَ مِنْ بَعْدِ صَلَاةِ ٱلْعَصْرِ]{.ar}  
-    "I read the [#qurEAn]{.trn2} from after the [eaSr]{.trn2} prayer."
+    "I read the [#qurEAn]{.trn2} (during a time which starts) from after the [eaSr]{.trn2} prayer."
 
-Example (@dharf-with-min) specifies the _beginning_ of the time period that is indicated by the adverb.
-This usage of [مِنْ]{.ar} could be used to signify that the action started very close to the beginning of the time period.
+Example (@dharf-with-min) specifies the _beginning of the time period_ that is indicated by the adverb.
+Technically, this is not necessarily when the action of the verb began.
+But
+this usage of [مِنْ]{.ar} could be used to signify that the action started very close to the beginning of the time period.
 That is, it could indicate that I started to read the [#qurEAn]{.trn2} right after the [eaSr]{.trn2} prayer.^[[معاني النحو]{.ar}  2/193--201, and [من الفرق بين بعد ومن بعد في اللفظ القرآني لعلي هاني]{.ar}]
+
+Often, when the meaning of [مِنْ]{.ar} is subtle, it is not translated as "from".
+For example:
+
+(@) [[لِكَيْلَا يَعْلَمَ مِنْ بَعْدِ عِلْمٍ شَيْـءًا]{.ar}
+    [[<https://quran.com/22/5>]]{.ftsize}  
+    "so that he knows, after [once having] knowledge, nothing"
+
+(@) [[لِكَيْلَا يَعْلَمَ بَعْدَ عِلْمٍ شَيْـءًا]{.ar}
+    [[<https://quran.com/16/70>]]{.ftsize}  
+    "so that he will not know, after [having had] knowledge, a thing"
+
+Sometimes it may be left untranslated.
 
 ## [قَبْل]{.ar} and its sisters
 
@@ -571,13 +589,13 @@ These nouns are:
 
 * [قَبْل]{.ar} "before"
 * [بَعْد]{.ar} "after"
-* [دُون]{.ar} "below", 
-* [أَسْفَل]{.ar} "bottom"
+* [دُون]{.ar} "beneath", 
+* [أَسْفَل]{.ar} "lower"
 * [فَوْق]{.ar} "above"
 * [تَحْت]{.ar} "under"
 * [أَمَام]{.ar}, [قُدَّام]{.ar} "in front"
 * [خَلْف]{.ar}, [وَرَاء]{.ar} "behind"
-* [عَلُ]{.ar}, [عَلْو]{.ar}, "high", "on top"
+* [عَلُ]{.ar}, [عَلْو]{.ar}, "on top"
 * [أَوَّل]{.ar} "first"
 
 Also usually included with these are^[See [النحو الوافي]{.ar} 3/142, footnote\ 1 for references to the difference of opinion regarding them]:
@@ -670,7 +688,7 @@ Here are some more examples:
 (@) [إِذْ جَاءُوكُمْ مِنْ فَوْقِكُمْ وَمِنْ أَسْفَلَ مِنْكُمْ]{.ar}[[<https://quran.com/33:10>]]{.ftsize}  
     "[Remember] when they came at you from above you and from below you"
 
-The word [أَوَّل]{.ar} has some rules that are specific to it and we will treat it separately in section\ (ref).
+The words [أَوَّل]{.ar} and [أَسْفَل]{.ar} also have some rules that are specific to them and we will treat them separately in section\ (ref).
 
 
 ## The use of an adverb without an obvious verb
@@ -693,12 +711,12 @@ For example:
 
 (@) [ٱلْأَزْهَارُ أَمَامَنَا]{.ar}
     [[[النحو الوافي]{.ar} 2/247]]{.ftsize}  
-    "The flowers are in front of us."
+    "The flowers (are) in front of us."
 
 (@) [مَاءٌ بَارِدٌ عِنْدَ يَوْمٍ حَارٍّ نِعْمَةٌ]{.ar}  
-    "Some cold water at a hot day is a blessing."
+    "Some cold water (being) on a hot day, is a blessing."
 
-In such sentences, the missing verb is "is" or "being". This verb is unexpressed in Arabic.
+In such sentences, the missing verb is "is" or its verbal noun "being". This verb is unexpressed in Arabic.
 
 ## Multiple adverbs of place with a single verb
 
