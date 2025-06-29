@@ -179,7 +179,7 @@ Such nouns include:
 + [أَمَام]{.ar}, [قُدَّام]{.ar} "in front (of)"
 + [خَلْفَ]{.ar}, [وَرَاء]{.ar} "behind"
 + [فَوْق]{.ar} "above"
-+ [تَحْت]{.ar} "under"
++ [تَحْت]{.ar} "under", [أَسْفَل]{.ar} "lower", [دُون]{.ar} "beneath"
 + [يَمِين]{.ar} "right"
 + [شِمَال]{.ar}, [يَسَار]{.ar} "left"
 
@@ -559,10 +559,12 @@ Consider the following examples:
     "I read the [#qurEAn]{.trn2} after the [eaSr]{.trn2} prayer."
 
 (@dharf-with-min) [قَرَأْتُ ٱلْقُرآنَ مِنْ بَعْدِ صَلَاةِ ٱلْعَصْرِ]{.ar}  
-    "I read the [#qurEAn]{.trn2} from after the [eaSr]{.trn2} prayer."
+    "I read the [#qurEAn]{.trn2} (during a time which starts) from after the [eaSr]{.trn2} prayer."
 
-Example (@dharf-with-min) specifies the _beginning_ of the time period that is indicated by the adverb.
-This usage of [مِنْ]{.ar} could be used to signify that the action started very close to the beginning of the time period.
+Example (@dharf-with-min) specifies the _beginning of the time period_ that is indicated by the adverb.
+Technically, this is not necessarily when the action of the verb began.
+But
+this usage of [مِنْ]{.ar} could be used to signify that the action started very close to the beginning of the time period.
 That is, it could indicate that I started to read the [#qurEAn]{.trn2} right after the [eaSr]{.trn2} prayer.^[[معاني النحو]{.ar}  2/193--201, and [من الفرق بين بعد ومن بعد في اللفظ القرآني لعلي هاني]{.ar}]
 
 Often, when the meaning of [مِنْ]{.ar} is subtle, it is not translated as "from".
@@ -587,13 +589,13 @@ These nouns are:
 
 * [قَبْل]{.ar} "before"
 * [بَعْد]{.ar} "after"
-* [دُون]{.ar} "below", 
-* [أَسْفَل]{.ar} "bottom"
+* [دُون]{.ar} "beneath", 
+* [أَسْفَل]{.ar} "lower"
 * [فَوْق]{.ar} "above"
 * [تَحْت]{.ar} "under"
 * [أَمَام]{.ar}, [قُدَّام]{.ar} "in front"
 * [خَلْف]{.ar}, [وَرَاء]{.ar} "behind"
-* [عَلُ]{.ar}, [عَلْو]{.ar}, "high", "on top"
+* [عَلُ]{.ar}, [عَلْو]{.ar}, "on top"
 * [أَوَّل]{.ar} "first"
 
 Also usually included with these are^[See [النحو الوافي]{.ar} 3/142, footnote\ 1 for references to the difference of opinion regarding them]:
@@ -686,7 +688,7 @@ Here are some more examples:
 (@) [إِذْ جَاءُوكُمْ مِنْ فَوْقِكُمْ وَمِنْ أَسْفَلَ مِنْكُمْ]{.ar}[[<https://quran.com/33:10>]]{.ftsize}  
     "[Remember] when they came at you from above you and from below you"
 
-The word [أَوَّل]{.ar} has some rules that are specific to it and we will treat it separately in section\ (ref).
+The words [أَوَّل]{.ar} and [أَسْفَل]{.ar} also have some rules that are specific to them and we will treat them separately in section\ (ref).
 
 
 ## The use of an adverb without an obvious verb
