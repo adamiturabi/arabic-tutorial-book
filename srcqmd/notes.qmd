@@ -45,7 +45,7 @@ by itself wouldn't be acceptable, but
 [التمسته برًّا وبحرًا]{.ar}
 is acceptable?
 
-### [معنى الاستقرار لظرف المكان]{.ar}
+### Requiring the meaning of stopping or remaining [استقرار]{.ar} for adverbs of place
 
 From [شرح الرضي على الكافية]{.ar} 1/489--491]:
 
@@ -57,7 +57,7 @@ From [شرح الرضي على الكافية]{.ar} 1/489--491]:
 مصرعه، بل هذا النوع من المكان يدخله تفصيل، وذلك بان يقال: اسم المكان: إما أن 
 يشتق من حدث بمعنى الاستقرار والكون في مكان، أو، لا، والثاني لا ينتصب على 
 الظرفية إلا بالفعل الذي ينتصب به على الظرفية المختص من المكان، كدخلت، ونزلت 
-وسكتت، وهو كالمضرب والمقتل والمأكل والمشرب ونحوها. 
+وسكنت، وهو كالمضرب والمقتل والمأكل والمشرب ونحوها. 
 والأول ينصبه على الظرفية الفعل المشتق مما اشتق منه اسم المكان نحو: المجلس والمقعد، 
 والمأوى، والمسد، والمقيل والمبيت، فتقول: قاتلت موضع القتال، ونصرت مكان النصر، 
 وكذا تقول: قمت مقامه، وجلست مجلسه، وأويت مأواه، وسددت مسده، وينصبه، 
@@ -139,26 +139,73 @@ But [ابن عاشور]{.ar} says:
 
 This makes more sense to me because the action of the verb [ألقى]{.ar} is not ocurring in the [مكان]{.ar} so it doesn't seem to fulfil the requirement for a [ظرف مكان]{.ar}
 
+### [tanwIn]{.trn2} on [أفعل التفضيل]{.ar} when used adverbially
+
+The [tanwIn]{.trn2} on [أَوَّلًا]{.ar} is well documented. 
+But it is treated as an exceptional case.
+
+Is it possible that all 
+[أفعل التفضيل]{.ar} 
+can take [tanwIn]{.trn2} when used adverbially?
+Not just as [ظرف]{.ar}, but also, [حال]{.ar}, etc., and especially [تمييز]{.ar}.
+
+I find this in [الإبانة في اللغة العربية للصحاري]{.ar}, 1/439:
+
+:::{.ar}
+وقال الراجز:
+
+قبحتم يا آل عوف نفرا ... ألأم قوم أصغراً وأكبرا
+
+يريد: صغيراً وكبيراً.
+
+ويقال: إن لها أسفلاً وأعلى، وأوسطاً وأدنىً وأقصىً، منون كله.
+:::
+
+Is this presented as non-standard dialectal usage?
+
+I have been able to find some poetry with [أسفلا]{.ar} but always at the end of a [مصرع]{.ar}.
+So it may be poetic license or rhyme that allows it there.
+This poetry may not be from [عصر الرواية]{.ar}.
+For example:
+
+(@) [ما يريك النجم إلاَّ أسفلا]{.ar}
+
+(@) [ألْقى بِأَعْلَى عَرْشه أسفلا]{.ar}
+
+(@) [وَيُنْقَطُ الْمُهْمَلُ لاَ الْحَا أَسْفَلاَ]{.ar}
+
+(@) [أرى قرنك الأعلى واياك أسفلا]{.ar}
+
+### [أول]{.ar} a [ظرف مكان]{.ar} in an [إضافة]{.ar}
+
+[[النحو الوافي]{.ar} 3/152--153] presents these examples of [أول]{.ar} a [ظرف مكان]{.ar}:
+
+(@) [أَسْرَعْتُ لِلصَّارِخِ أَوَّلَ ٱلْمُسْتَمِعِينَ]{.ar}
+
+(@) [أَسْرَعْتُ لِلصَّارِخِ أَوَّلَ ]{.ar}
+
+(@) [أَسْرَعْتُ لِلصَّارِخِ أَوَّلًا]{.ar}
+
+(@) [أَسْرَعْتُ لِلصَّارِخِ أَوَّلُ]{.ar}
+
+It may be possible that they are [ظرف]{.ar} analagous to [أسفل سافلين]{.ar} (see: https://tafsir.app/ibn-aashoor/95/5).
+But I'm not quoting them because their [ظرف]{.ar} meaning does not seem straightforward. If we say "I rushed to the the crier the first of the listeners." then [أول]{.ar} is not apparently signifying _the time in which_ I rushed. It rather signifies [حال]{.ar} I think.
+
 ## [كان وأخواتها]{.ar}
 
 ### The reason for the [خبر]{.ar} of [كان]{.ar} being [منصوب]{.ar}
 
 The [#baSran]{.trn2} school explained the reason for the [خبر]{.ar} of [كان]{.ar} being [منصوب]{.ar} that it is a [مفعول به]{.ar}. The [#kUfan]{.trn2} school, on the other hand, considered it a [حال]{.ar}.
 
-    From [المقاصد الشافية في شرح الخلاصة الكافية (شرح ألفية ابن مالك) للشاطبي]{.ar} vol.\ 2, p.\ 137:
+From [المقاصد الشافية في شرح الخلاصة الكافية (شرح ألفية ابن مالك) للشاطبي]{.ar} vol.\ 2, p.\ 137:
 
-    > [لَمّا كان وجهُ نَصْبِهُ مُختَلفًا فيه بَين البصريين والكوفيين؛ فذهب البصريون إلى أَنّه منصوب خبرًا لها، فالمبتدأ والخبر معها كالفاعل والمفعول. وذهب الكوفيون إلى أنه ينصَبُ على الحال.]{.ar}
-
+:::{.ar}
+لَمّا كان وجهُ نَصْبِهُ مُختَلفًا فيه بَين البصريين والكوفيين؛ فذهب البصريون إلى أَنّه منصوب خبرًا لها، فالمبتدأ والخبر معها كالفاعل والمفعول. وذهب الكوفيون إلى أنه ينصَبُ على الحال.
+:::
 
 ## The connected noun
 
-###
-
-Wright:
-
-   + vol.\ ii, §172, p.\ 317--319: 
-
-###
+### Other [أسماء الاستفهام]{.ar} used as [أسماء موصولة]{.ar}
 
 Fischer claims (§427):
 

@@ -830,8 +830,6 @@ For example:
 
 ### [هُنَا]{.ar} and [هُنَاكَ]{.ar}
 
-### [أَوَّل]{.ar}
-
 ### [أَسْفَل]{.ar}
 
 [أَسْفَل]{.ar} is actually a comparative noun, meaning "lower".
@@ -848,10 +846,30 @@ For example,
 [فَوْقَ ٱلْأَرْضِ]{.ar}
 means "above the Earth."
 
+We have learned that comparative nouns are used with the the preposition 
+[مِنْ]{.ar}
+to express their "-er" meaning. 
+For example [أَكْبَرُ مِنْ ٱلْبَيْتِ]{.ar} "bigger than the house."
+They may also be used as annexe nouns to express their "-est" meaning.
+For example, [أَكْبَرُ بَيْتٍ]{.ar}, [أَكْبَرُ ٱلْبُيُوتِ]{.ar} "biggest house."
+
+[أَسْفَل]{.ar}
+too may be used in both these formations.
+We will discuss them below:
+
+#### [أَسْفَل]{.ar} used before [مِنْ]{.ar}
+
+Usually
+[أَسْفَل]{.ar}
+is used with
+[مِنْ]{.ar}
+to express the adverb of place "lower (than)"
+<!--
 On the other hand hand,
 [أَسْفَل]{.ar},
 like comparative nouns in general,
 is typically used with the preposition [مِنْ]{.ar} after it.
+-->
 Here are some examples of
 [أَسْفَل]{.ar},
 as an adverb of place:
@@ -873,18 +891,24 @@ as an adverb of place:
     [[<https://sunnah.com/mishkat:1692>]]{.ftsize}  
     "The Messenger of [#allAh]{.trn2} [ﷺ]{.aralt} forbade that the [imAm]{.trn2} should stand on anything when the people are behind him, meaning lower than him."
 
+<!--
 Another difference from the rest of the directional nouns is that
 [أَسْفَل]{.ar}
 is a comparative noun on the pattern [أَفْعَل]{.ar}. So it is a semi-flexible noun and will therefore will not take [tanwIn]{.trn2}.
+-->
+Note, in the examples above, that [أَسْفَل]{.ar} does not have [tanwIn]{.trn2}.
+This is because it is a semi-flexible noun.
 
-Remember, also, that the rigidity and flexibility of 
+Now, in the case of 
 [قَبْل]{.ar} and its sisters 
-depends on whether or not they are annex nouns and if they have base nouns in an annexation.
+we saw that their rigidity and flexibility is determined by
+whether or not they are annex nouns and if they have base nouns in an annexation.
 
 But
-[أَسْفَل]{.ar} (when an adverb of place)
-is not typically used as an annex noun.
-Instead, as we have just mentioned, it is used with the preposition [مِنْ]{.ar} after it.
+[أَسْفَل]{.ar},
+when used with before [مِنْ]{.ar} as an adverb of place,
+is not an annex noun.
+<!--Instead, as we have just mentioned, it is used with the preposition [مِنْ]{.ar} after it.-->
 So its rigidity and flexibility is determined by whether or not it is compared to a noun (with [مِنْ]{.ar}):
 
 If 
@@ -916,6 +940,30 @@ For example:
     [[[فقه اللغة للثعالبي]{.ar} 137]]{.ftsize}  
     "and [aTTafr]{.trn} is a leap from down to up."
 
+#### [أَسْفَل]{.ar} as an annexe noun
+
+Most of the time,
+we will want to say that something is _below_ or _lower than_ another thing.
+In this case,
+we will use
+[أَسْفَل مِنْ]{.ar}
+as we have described above.
+
+However, sometimes,
+we may want to say that something is at the _lowest_ place.
+In this case, we can use
+[أَسْفَل]{.ar}
+as an annexe noun to be an adverb of place.^[See <https://tafsir.app/ibn-aashoor/95/5> for one interpretation of [ثُمَّ رَدَدْناهُ أسْفَلَ سافِلِينَ]{.ar} [[<https://quran.com/95/5>]]{.ftsize} as a [ظرف]{.ar}]
+
+For example,
+
+(@) [نَعْلُكَ أَسْفَلُ رِجْلِكَ]{.ar}
+    [[[النحو الوافي]{.ar} 1/484]]{.ftsize}  
+    "Your sandal is (at) the lowest [part] of your foot."  
+    (Note the partitive meaning of [أَسْفَل]{.ar} annexed to a singular base noun.)
+
+#### Non-adverbial use of [أَسْفَل]{.ar}
+
 By the way,
 [أَسْفَل]{.ar}
 need not always be an adverb of place.
@@ -927,17 +975,93 @@ it is the doer of a verb and also an annex noun.
     [[<https://sunnah.com/abudawud:1059>]]{.ftsize}  
     "The lower [part] of their sandals did not get wet."
 
+### [أَوَّل]{.ar}
+
+[أَوَّل]{.ar} 
+is used as an adverb of time, meaning "first"
+
+Much of what we have said about 
+[أَسْفَل]{.ar}
+applies also to 
+the noun
+[أَوَّل]{.ar}.
+
+However there is some difference from [أَسْفَل]{.ar}:
+
+a. The meaning of "first" is inherently superlative. In English we dont say that something is _more first than_ another thing. We can try to capture this meaning by translating it as "prior to".
+b. [أَوَّل]{.ar}, despite being on the pattern [أَفْعَل]{.ar}, is irregular in that it can take [tanwIn]{.trn2} when used in an absolute and unbounded sense.
+
+#### [أَوَّل]{.ar} used before [مِنْ]{.ar}
+
+[أَوَّل]{.ar} is a semi-flexible noun when used with [مِنْ]{.ar}:
+
+(@) [لاَ تَسْأَلْهُ عَنْ شَىْءٍ أَوَّلَ مِنْ حَدِيثِ الشَّفَاعَةِ]{.ar}
+    [[<https://sunnah.com/bukhari:7510>]]{.ftsize}  
+    "Don't ask him about anything prior to the [HadIv]{.trn2} of intercession"
+
+(@) [لاَ تَبْتَدِئَانِ بِشَىْءٍ أَوَّلَ مِنَ الْبَيْتِ، تَطُوفَانِ بِهِ]{.ar}
+    [[<https://sunnah.com/bukhari:1641>]]{.ftsize}  
+    "They~2f~ would not begin with anything prior to the House, performing the [TawAf]{.trn2} around it."
+
+When [مِنْ]{.ar} is not used but [أَوَّل]{.ar} is implicitly bounded then it is rigid with a [Dammah]{.trn2} on its ending:
+
+(@) [أَىُّ الْقُرْآنِ أُنْزِلَ أَوَّلُ]{.ar}
+    [[<https://sunnah.com/bukhari:4924>]]{.ftsize}  
+    "Which [part] of the [#qurEAn]{.trn2} was revealed first?"
+
+(@) [أَىُّ مَسْجِدٍ وُضِعَ أَوَّلُ]{.ar}
+    [[<https://sunnah.com/ibnmajah:753>]]{.ftsize}  
+    "Which mosque was established first?"
+
+When [أَوَّل]{.ar},
+is used in an absolute and unbounded sense,
+then it takes
+[tanwIn]{.trn2}
+despite being on the pattern [أَفْعَل]{.ar}:
+
+(@) [إِنَّ لِلصَّلَاةِ أَوَّلًا وَآخِرًا]{.ar}
+    [[<https://sunnah.com/tirmidhi:151>]]{.ftsize}  
+    "Indeed the prayer has a first [time] and a last [time]"
+
+(@) [يَبْتَدِرُونَهَا أَيُّهُمْ يَكْتُبُهَا أَوَّلًا]{.ar}
+    [[<https://sunnah.com/nasai:1062>]]{.ftsize}  
+    "They (were) rushing (to see) which of them would write it first"
+
+(@) [وَأَمَّا الدَّارُ الَّتِي دَخَلْتَ أَوَّلًا فَدَارُ عَامَّةِ الْمُؤْمِنِينَ]{.ar}
+    [[[مسند أحمد - ط الرسالة]{.ar} :20165](https://shamela.ws/book/25794/16641)]{.ftsize}  
+    "And as the house that you entered first, it was for the common people of the Muslims."
+
+(@) [أَيُّهُمَا جَاءَ أَوَّلًا عَمِلَ عَمَلَهُ]{.ar}
+    [[<https://sunnah.com/mishkat:1700>]]{.ftsize}  
+    "Which of them came first [that] did this deed?"
+
+#### [أَوَّل]{.ar} as an annexe noun
+
+Just like [أَسْفَل]{.ar},
+when 
+[أَوَّل]{.ar} can be used as an annexe noun as well, even when it is an adverb of time.
+For example
+
+(@) [كَانَ يَنَامُ أَوَّلَ اللَّيْلِ]{.ar}
+    [[<https://sunnah.com/muslim:739>]]{.ftsize}  
+    "He used to sleep the first [part] of the night"
+
+#### Non-adverbial use of [أَوَّل]{.ar}
+
+Just like [أَسْفَل]{.ar},
+[أَوَّل]{.ar} need not be used adverbially. 
+Here it is as the comment of a sentence and an annexe noun:
+
+(@) [وَأَنَا أَوَّلُ ٱلْمُسْلِمِینَ]{.ar}
+    [<https://quran.com/6/163>]{.ftsize}  
+    "and I am the first [among you] of the Muslims."
+
 ### [بَعْد]{.ar}
 
 * used for time and place
 * meaning "yet"
 
 ### [ذَات]{.ar}
-
-
-
-
-
 
 
 
