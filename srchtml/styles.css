@@ -175,3 +175,22 @@ li {
   /* adjust monofont size for code listings */
   font-size: 0.95em; 
 }
+/* for numbered example lists */
+ol.example {
+  list-style: none;
+  padding-left: 0;
+}
+
+ol.example li {
+  position: relative;
+  padding-left: 3em;
+}
+
+ol.example li::before {
+  content: "(" counter(list-item) ") ";
+  position: absolute;
+  left: 0;
+  width: 3em;
+  text-align: left;
+}
+
