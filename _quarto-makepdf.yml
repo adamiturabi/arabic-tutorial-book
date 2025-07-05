@@ -4,6 +4,7 @@ project:
 book:
   appendices:
     - srcqmd/hamzarules.qmd
+    - srcqmd/gloss_terms.qmd
     - srcqmd/usage_and_style.qmd
 
 format:
