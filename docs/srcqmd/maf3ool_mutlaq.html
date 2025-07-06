@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>24&nbsp; The unknown-doer verb – A Grammar of Standard Classical Arabic</title>
+<title>23&nbsp; The absolute doee – A Grammar of Standard Classical Arabic</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../srcqmd/doer_verbal_noun.html" rel="next">
-<link href="../srcqmd/maf3ool_mutlaq.html" rel="prev">
+<link href="../srcqmd/passive_voice.html" rel="next">
+<link href="../srcqmd/dharf.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../srchtml/styles.css">
 </head>
@@ -83,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../srcqmd/passive_voice.html"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">The unknown-doer verb</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../srcqmd/maf3ool_mutlaq.html"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">The absolute doee</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -254,13 +283,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../srcqmd/maf3ool_mutlaq.html" class="sidebar-item-text sidebar-link">
+  <a href="../srcqmd/maf3ool_mutlaq.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">The absolute doee</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../srcqmd/passive_voice.html" class="sidebar-item-text sidebar-link active">
+  <a href="../srcqmd/passive_voice.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">The unknown-doer verb</span></span></a>
   </div>
 </li>
@@ -273,13 +302,13 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../srcqmd/kaana.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">The verb <span class="reg-ar-span" dir="rtl" lang="ar">كَانَ</span></span></span></a>
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">The verb <span class="reg-ar-span" lang="ar" dir="rtl">كَانَ</span></span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../srcqmd/inna_and_its_sisters.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title"><span class="reg-ar-span" dir="rtl" lang="ar">إِنَّ</span> and its sisters</span></span></a>
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title"><span class="reg-ar-span" lang="ar" dir="rtl">إِنَّ</span> and its sisters</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -291,7 +320,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../srcqmd/question_nouns.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">The question nouns <span class="reg-ar-span" dir="rtl" lang="ar">مَا</span>, <span class="reg-ar-span" dir="rtl" lang="ar">مَنْ</span>, and <span class="reg-ar-span" dir="rtl" lang="ar">أَيّ</span></span></span></a>
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">The question nouns <span class="reg-ar-span" lang="ar" dir="rtl">مَا</span>, <span class="reg-ar-span" lang="ar" dir="rtl">مَنْ</span>, and <span class="reg-ar-span" lang="ar" dir="rtl">أَيّ</span></span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -345,26 +374,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">24.1</span> Introduction</a></li>
-  <li><a href="#forming-the-unknown-doer-verb" id="toc-forming-the-unknown-doer-verb" class="nav-link" data-scroll-target="#forming-the-unknown-doer-verb"><span class="header-section-number">24.2</span> Forming the unknown-doer verb</a></li>
-  <li><a href="#the-deputy-doer" id="toc-the-deputy-doer" class="nav-link" data-scroll-target="#the-deputy-doer"><span class="header-section-number">24.3</span> The deputy doer</a>
-  <ul class="collapse">
-  <li><a href="#the-deputy-doer-for-multiple-direct-doees" id="toc-the-deputy-doer-for-multiple-direct-doees" class="nav-link" data-scroll-target="#the-deputy-doer-for-multiple-direct-doees"><span class="header-section-number">24.3.1</span> The deputy doer for multiple direct doees</a></li>
-  </ul></li>
-  <li><a href="#impersonal-use" id="toc-impersonal-use" class="nav-link" data-scroll-target="#impersonal-use"><span class="header-section-number">24.4</span> Impersonal use</a>
-  <ul class="collapse">
-  <li><a href="#with-prepositional-phrases" id="toc-with-prepositional-phrases" class="nav-link" data-scroll-target="#with-prepositional-phrases"><span class="header-section-number">24.4.1</span> With prepositional phrases</a></li>
-  <li><a href="#with-adverbs-of-time-or-place" id="toc-with-adverbs-of-time-or-place" class="nav-link" data-scroll-target="#with-adverbs-of-time-or-place"><span class="header-section-number">24.4.2</span> With adverbs of time or place</a></li>
-  <li><a href="#with-the-verbal-noun-of-doing" id="toc-with-the-verbal-noun-of-doing" class="nav-link" data-scroll-target="#with-the-verbal-noun-of-doing"><span class="header-section-number">24.4.3</span> With the verbal noun of doing</a></li>
-  <li><a href="#requirement-of-specialization" id="toc-requirement-of-specialization" class="nav-link" data-scroll-target="#requirement-of-specialization"><span class="header-section-number">24.4.4</span> Requirement of specialization</a></li>
-  <li><a href="#choosing-the-deputy-doer" id="toc-choosing-the-deputy-doer" class="nav-link" data-scroll-target="#choosing-the-deputy-doer"><span class="header-section-number">24.4.5</span> Choosing the deputy doer</a></li>
-  </ul></li>
-  <li><a href="#states-of-the-incomplete-action-unknown-doer-verb" id="toc-states-of-the-incomplete-action-unknown-doer-verb" class="nav-link" data-scroll-target="#states-of-the-incomplete-action-unknown-doer-verb"><span class="header-section-number">24.5</span> States of the incomplete-action unknown-doer verb</a></li>
-  <li><a href="#usage-of-the-unknown-doer-verb" id="toc-usage-of-the-unknown-doer-verb" class="nav-link" data-scroll-target="#usage-of-the-unknown-doer-verb"><span class="header-section-number">24.6</span> Usage of the unknown-doer verb</a>
-  <ul class="collapse">
-  <li><a href="#permissible-use-of-the-unknown-doer-verb" id="toc-permissible-use-of-the-unknown-doer-verb" class="nav-link" data-scroll-target="#permissible-use-of-the-unknown-doer-verb"><span class="header-section-number">24.6.1</span> Permissible use of the unknown-doer verb</a></li>
-  <li><a href="#impermissible-use-of-the-unknown-doer-verb" id="toc-impermissible-use-of-the-unknown-doer-verb" class="nav-link" data-scroll-target="#impermissible-use-of-the-unknown-doer-verb"><span class="header-section-number">24.6.2</span> Impermissible use of the unknown-doer verb</a></li>
-  </ul></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">23.1</span> Introduction</a></li>
+  <li><a href="#the-reinforcing-absolute-doee" id="toc-the-reinforcing-absolute-doee" class="nav-link" data-scroll-target="#the-reinforcing-absolute-doee"><span class="header-section-number">23.2</span> The reinforcing absolute doee</a></li>
+  <li><a href="#the-qualifying-absolute-doee" id="toc-the-qualifying-absolute-doee" class="nav-link" data-scroll-target="#the-qualifying-absolute-doee"><span class="header-section-number">23.3</span> The qualifying absolute doee</a></li>
   </ul>
 </nav>
     </div>
@@ -378,7 +390,7 @@ Not ready for study.
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">The unknown-doer verb</span></h1>
+<h1 class="title"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">The absolute doee</span></h1>
 </div>
 
 
@@ -395,235 +407,135 @@ Not ready for study.
 </header>
 
 
-<section id="introduction" class="level2" data-number="24.1">
-<h2 data-number="24.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">24.1</span> Introduction</h2>
-<p>Consider the sentence:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">شَرِبَ زَيْدٌ ٱلْمَاءَ.</span><br>
-<span class="trn2"><span class="trn"><em>s͡hariba zayduni -lmāʾ.</em></span></span><br>
-“Zayd drank the water.”</p>
-<p>In this sentence, <span class="reg-ar-span" dir="rtl" lang="ar">زَيْدٌ</span> “Zayd” is the doer of the verb <span class="reg-ar-span" dir="rtl" lang="ar">شَرِبَ</span> “drank”. This construction of the verb, which we have been using so far, is called the <em>known-doer verb</em> construction, because the doer of the verb, in this case “Zayd” is known. Now consider the following sentence:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">شُرِبَ ٱلْمَاءُ.</span><br>
-<span class="trn2"><span class="trn"><em>s͡huriba -lmāʾ.</em></span></span><br>
-“The water was drunk.”</p>
-<p>In this sentence, the doer of the verb, i.e.&nbsp;the person who is doing the action of the verb “to drink”, is not mentioned. From the sentence itself it is unknown who the doer is. This construction of the verb is called the <em>unknown-doer verb</em> construction.</p>
+<section id="introduction" class="level2" data-number="23.1">
+<h2 data-number="23.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">23.1</span> Introduction</h2>
+<p>The absolute doee is, fundamentally, the verb taking it’s own <span class="trn2">maṣdar</span> as a doee in the a-state. For example,</p>
+<ol class="example" type="1">
+<li><span class="reg-ar-span" lang="ar" dir="rtl">ضَرَبَ زَيْدٌ عَمْرًا ضَرْبًا</span> “Zayd beat <span class="trn2">Ɛamr</span> a beating”</li>
+</ol>
+<p>In the above example <span class="reg-ar-span" lang="ar" dir="rtl">ضَرْبًا</span> is the <span class="trn2">maṣdar</span> of the verb <span class="reg-ar-span" lang="ar" dir="rtl">ضَرَبَ</span> and is governed by it in the a-state as its absolute doee.</p>
+<p>This sort of sentence is unfamiliar in English, as evinced by its awkward trabnslation, “Zayd beat <span class="trn2">Ɛamr</span> a beating.” Nevertheless, we can find some parallels so you can get a feel for it:</p>
+<ol start="2" class="example" type="1">
+<li><ol type="1">
+<li>“He died an honorable death.”</li>
+<li>“He slept the sleep of the just.”</li>
+<li>“He lived two lives.”</li>
+</ol></li>
+</ol>
+<p>The absolute doee is somewhat different from the direct doee in that the direct doee only occurs for transitive verbs. Whereas, the absolute doee can occur for any verb, whether transitive or intransitive. Also, the absolute doee is effectively an adverb because it qualifies the meaning of the verb as we will learn in this chapter, if <span class="trn2">Allāh</span> wills.</p>
+<p>The absolute doee is used for the following purposes:</p>
+<ol type="1">
+<li>To reinforce or emphasize the meaning of the governing verb.</li>
+<li>To qualify the meaning of the governing verb.</li>
+<li>To act as a deputy for the governing verb, substituting it and fulfilling it’s role.</li>
+</ol>
 </section>
-<section id="forming-the-unknown-doer-verb" class="level2" data-number="24.2">
-<h2 data-number="24.2" class="anchored" data-anchor-id="forming-the-unknown-doer-verb"><span class="header-section-number">24.2</span> Forming the unknown-doer verb</h2>
-<p>So far we have been studing form&nbsp;1 verbs, which use only the three root letters. As we know, the vowel on the middle root letter is variable for known-doer verbs, for example:</p>
-<ul>
-<li><span class="reg-ar-span" dir="rtl" lang="ar">شَرِبَ يَشْرَبُ</span> “to drink”.</li>
-<li><span class="reg-ar-span" dir="rtl" lang="ar">فَتَحَ يَفْتَحُ</span> “to open”</li>
-<li><span class="reg-ar-span" dir="rtl" lang="ar">كَبُرَ يَكْبُرُ</span> “to become big”</li>
-<li>etc.</li>
-</ul>
-<p>The pattern of unknown-doer verb for form 1 verbs is always:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">فُعِلَ يُفْعَلُ</span><br>
-<span class="trn2"><span class="trn"><em>fuɛila yufɛalu</em></span></span></p>
-<p>This is regardless of the vowel on the middle root letter in the known-doer verb. If there is more than one verb from the same root, with different middle root letter vowels for the known-doer verb, then they will share the same unknown-doer verb. For example, the known-doer verbs: <span class="reg-ar-span" dir="rtl" lang="ar">حَسَبَ يَحْسُبُ</span> “to reckon” and <span class="reg-ar-span" dir="rtl" lang="ar">حَسِبَ يَحْسِبُ</span> “to deem” share the same unknown-doer verb: <span class="reg-ar-span" dir="rtl" lang="ar">حُسِبَ يُحْسَبُ</span>.</p>
-<p>The same doer pronouns are used for the unknown-doer verb as for the known-doer verb. And the incomplete-action unknown-doer verb has the same three states as the incomplete-action known-doer verb. For example:</p>
-<ul>
-<li><span class="reg-ar-span" dir="rtl" lang="ar">فُعِلُوا</span> <span class="trn2"><span class="trn"><em>fuɛilū</em></span></span> “they<sub>3m</sub>” (completed-action)</li>
-<li><span class="reg-ar-span" dir="rtl" lang="ar">تُفْعَلَانِ</span> <span class="trn2"><span class="trn"><em>tufɛalāni</em></span></span> “you<sub>2</sub>” or “they<sub>2f</sub>” (u-state incomplete-action)</li>
-<li><span class="reg-ar-span" dir="rtl" lang="ar">أُفْعَلَ</span> <span class="trn2"><span class="trn"><em>ʾufɛala</em></span></span> “I” (a-state incomplete-action)</li>
-<li>etc.</li>
-</ul>
-<p>The complete table showing the doer pronouns is given in appendix&nbsp;@ref(verb-tables).</p>
-</section>
-<section id="the-deputy-doer" class="level2" data-number="24.3">
-<h2 data-number="24.3" class="anchored" data-anchor-id="the-deputy-doer"><span class="header-section-number">24.3</span> The deputy doer</h2>
-<p>Consider again this sentence with an unknown-doer verb construction:</p>
-<img src="./images/passive_voice-tikz-output-1.svg" class="img-fluid">
+<section id="the-reinforcing-absolute-doee" class="level2" data-number="23.2">
+<h2 data-number="23.2" class="anchored" data-anchor-id="the-reinforcing-absolute-doee"><span class="header-section-number">23.2</span> The reinforcing absolute doee</h2>
+<p>Reinforcing and emphasizing the meaning of the governing verb is the basic function of the absolute doee. Consider again our earlier example:</p>
+<ol start="3" class="example" type="1">
+<li><span class="reg-ar-span" lang="ar" dir="rtl">ضَرَبَ زَيْدٌ عَمْرًا ضَرْبًا</span><br>
+“Zayd beat <span class="trn2">Ɛamr</span> a beating”</li>
+</ol>
+<p>The absolute doee <span class="reg-ar-span" lang="ar" dir="rtl">ضَرْبًا</span> signifies that beating actually ocurred, as if to counter any possible suspicion that it didn’t. If the usage of the governing verb can support both a literal and a metaphorical meaning, then the absolute doee can also signify that the meaning of the verb is literal, and not metaphorical.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>For greater emphasis, the <span class="trn2">maṣdar</span> may be repeated.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> For example,</p>
 <!--
-[شُرِبَ ٱلْمَاءُ.]{.ar}  
-[curiba -lmAE.]{.trn}  
-"The water was drunk."
+(@) [إِذَا دُكَّتِ ٱلْأَرْضُ دَكًّا دَكَّا]{.ar}
+is passive...
 -->
-<p>Note that the noun <span class="reg-ar-span" dir="rtl" lang="ar">ٱَلْمَاءُ</span> <span class="trn2"><span class="trn"><em>ʾalmāʾu</em></span></span> “the water” is in the u-state. This is because, in the absence of the doer, the direct-doee of the known-doer verb (<span class="reg-ar-span" dir="rtl" lang="ar">ٱَلْمَاءَ</span>) is deputized to take doer’s place in the u-state. It is then known as the <em>deputy doer</em>.</p>
-<p>The doer pronouns for the unknown-doer verb shall therefore match the gender and number of the deputy doer. Here are some examples:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">شُكِرَتِ ٱلأُمَّهَاتُ وَمُدِحْنَ.</span><br>
-<span class="trn2"><span class="trn"><em>s͡hukirati -lʾummahātu wamudiḥn.</em></span></span><br>
-“The mothers were thanked and praised.”</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">أَنْتُمَا تُغْبَنَانِ وَتُخْدَعَانِ.</span><br>
-<span class="trn2"><span class="trn"><em>ʾantumā tug͡hbanāni watuk͡hdaɛān.</em></span></span><br>
-“You<sub>2</sub> are being cheated and deceived.”</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">مَا قُطِعَتِ ٱلشَّجَرَةُ.</span><br>
-<span class="trn2"><span class="trn"><em>mā quṭiɛati -s͡hs͡hajarah.</em></span></span><br>
-“The tree was not cut.”</p>
-<section id="the-deputy-doer-for-multiple-direct-doees" class="level3" data-number="24.3.1">
-<h3 data-number="24.3.1" class="anchored" data-anchor-id="the-deputy-doer-for-multiple-direct-doees"><span class="header-section-number">24.3.1</span> The deputy doer for multiple direct doees</h3>
-<p>Some verbs, in the known-doer construction, take multiple doees. These verbs can be classified into two classes: <!--Wright vol. ii., p. 47D, sect. 24--></p>
-<ol type="a">
-<li><p>Verbs that cause the first direct doee to be affected by, or asked for, the second direct doee. Examples: <!--[وَعَدَ ٱللَّـٰهُ ٱلْمُؤْمِنِينَ ٱلْجَنَّةَ.]{.ar}  --></p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">مَلَأَ ٱلْغُلَامُ ٱلدَّلْوَ مَاءً.</span><br>
-“The boy filled the bucket (with) water.”</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">مَنَعَ ٱلْمَرَضُ ٱلرَّجُلَ ٱلْعَمَلَ.</span><br>
-“Sickness prevented the man (from) work.”</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">سَأَلَ ٱلْفَقِيرُ ٱلْغَنِيَّ دِرْهَمًا.</span><br>
-“The poor [man] asked the rich [man] (for) a dirham.”</p></li>
-<li><p>Verbs that siginify an action of the heart or of intention, like thinking, deeming, making, etc. Examples:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">حَسِبْتُ زَيْدًا صَدِيقًا.</span><br>
-“I deemed Zayd [to be] a friend”</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">وَجَدَتِ ٱلطَّالِبَةُ ٱلْأُسْتَاذَةَ حَلِيمَةً.</span><br>
-“The student<sub>f</sub> found the professor<sub>f</sub> [to be] forbearing.”</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">جَعَلَ ٱللَّـٰهُ ٱلْمَاءَ بَرَكَةً.</span><br>
-“<span class="trn2">Allāh</span> has made the water a blessing.”</p></li>
+<p>Also for greater emphasis, the <span class="trn2">maṣdar</span> may be annexed to a pronoun referring to the doer of the verb. For example,</p>
+<ol start="4" class="example" type="1">
+<li><span class="reg-ar-span" lang="ar" dir="rtl">ضَلَّ ضَلَالَهُ</span> <span class="ftsize">[Wright, 2/55B]</span><br>
+“He erred (with) his error.”<br>
+(i.e.&nbsp;“He was profoundly in error.”)</li>
 </ol>
-<p>When such verbs are converted to the unknown-doer verb construction, then one, and only one, direct doee shall be chosen to be the deputy doer. It is generally preferred to make the first direct doee the deputy-doer, and leave the second direct doee, as is, in the a-state. Here are the same sentences in the unknown-doer construction:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">مُلِئَتِ ٱلدَّلْوُ مَاءً.</span> (<span class="reg-ar-span" dir="rtl" lang="ar">دَلْو</span> “bucket” is feminine.)<br>
-“The bucket was filled (with) water.”</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">مُنِعَ ٱلرَّجُلُ ٱلْعَمَلَ.</span><br>
-“The man was prevented (from) work.”</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">سُئِلَ ٱلْغَنِيُّ دِرْهَمًا.</span><br>
-“The rich [man] was asked for a dirham.”</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">حُسِبَ زَيْدٌ صَدِيقًا.</span><br>
-“Zayd was deemed [to be] a friend”</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">وُجِدَتِ ٱلْأُسْتَاذَةُ حَلِيمَةً.</span><br>
-“The professor<sub>f</sub> was found [to be] forbearing.”</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">جُعِلَ ٱلْمَاءُ بَرَكَةً.</span><br>
-“Water has been made a blessing.”</p>
+<p>The reinforcing absolute doee, when used purely for emphasis and not also for other purposes, cannot be dualized or pluralized. So we cannot say <span class="math inline">\(\times\)</span>&nbsp;<span class="reg-ar-span" lang="ar" dir="rtl">وَعَدْتُكَ وُعُودًا</span> (“I promised you promises”).<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> Though, this sentence is correct for the other purposes of the absolute doee, which we will learn in subsequent sections, if <span class="trn2">Allāh</span> wills.</p>
 </section>
-</section>
-<section id="impersonal-use" class="level2" data-number="24.4">
-<h2 data-number="24.4" class="anchored" data-anchor-id="impersonal-use"><span class="header-section-number">24.4</span> Impersonal use</h2>
-<p>When verbs are used without a direct doee, then their unknown-doer construction gives in an impersonal meaning. There are a few such usages that we will explain in the following subsections.</p>
-<section id="with-prepositional-phrases" class="level3" data-number="24.4.1">
-<h3 data-number="24.4.1" class="anchored" data-anchor-id="with-prepositional-phrases"><span class="header-section-number">24.4.1</span> With prepositional phrases</h3>
-<p>Some verbs take no direct doees, but are used with prepositional phrases. For example,</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">جَلَسَ ٱلنَّاسُ عَلَى ٱلْأَرْضِ.</span><br>
-“The people sat upon the ground.”</p>
-<p>Other verbs, which can take a direct doee, may be used without one, and again with a prepositional phrase instead. For example:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">كَتَبَ ٱلْكَاتِبُ بِٱلْقَلَمِ.</span><br>
-“The scribe wrote with the pen.”</p>
-<p>When such sentences are converted to the unknown-doer verb construction then the prepositional phrase may be taken as the deputy doer. However, the preposition causes the noun following it to remain in the i-state. So the deputy doer is not indicated by an apparent <span class="trn2"><span class="trn"><em>u</em></span></span>-mark (or by the other indicators of the u-state). The verb then appears to be in the singular masculine, with its deputy doer following it. For example:</p>
-<img src="./images/passive_voice-tikz-output-2.svg" class="img-fluid">
-<!--[جُلِسَ عَلَى ٱلْأَرْضِ.]{.ar}  
-"The ground was sat upon." -->
-<p><span class="reg-ar-span" dir="rtl" lang="ar">كُتِبَ بِٱلْقَلَمِ.</span><br>
-“The pen was written with.”</p>
-</section>
-<section id="with-adverbs-of-time-or-place" class="level3" data-number="24.4.2">
-<h3 data-number="24.4.2" class="anchored" data-anchor-id="with-adverbs-of-time-or-place"><span class="header-section-number">24.4.2</span> With adverbs of time or place</h3>
-<p>Other verbs don’t take a direct doee but may be used with an adverb of time or place in the a-state. (We will study adverbs of time and place in chapter&nbsp;@ref(adverbs-of-time-and-place), if <span class="trn2">Allāh</span> wills.) Here is an example:</p>
-<img src="./images/passive_voice-tikz-output-3.svg" class="img-fluid">
-<!--[سَهَرَتِ ٱلْأُمُّ ٱللَّيلَةَ.]{.ar}  
-"The mother stayed up the (whole) night."-->
-<p>When this sentence is converted to an unknown-doer construction then the adverb of time or place can be taken as the deputy doer in the u-state:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">سُهِرَتْ لَيلَةُ ٱلْقَدْرِ.</span><br>
-“The Night of Power was stayed up [in].”</p>
-<p>Note the u-state of <span class="reg-ar-span" dir="rtl" lang="ar">لَيْلَةُ</span> <span class="trn2"><span class="trn"><em>laylatu</em></span></span> as the deputy doer.</p>
-</section>
-<section id="with-the-verbal-noun-of-doing" class="level3" data-number="24.4.3">
-<h3 data-number="24.4.3" class="anchored" data-anchor-id="with-the-verbal-noun-of-doing"><span class="header-section-number">24.4.3</span> With the verbal noun of doing</h3>
-<p>The verbal noun of doing, because it is the action being done may be considered a kind of direct doee. (We will study the use of the verbal noun of doing as a doee in chapter&nbsp;@ref(absolute-doee), if <span class="trn2">Allāh</span> wills.) For example:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">فَهِمَ ٱلشَّيْخُ فَهْمًا عَمِيقًا.</span><br>
-“The old man understood, a deep understanding.”</p>
-<p>When such sentences are converted to the unknown-doer verb construction, then the verbal noun of doing may be taken as the deputy doer in the u-state.</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">فُهِمَ فَهْمٌ عَمِيقٌ.</span><br>
-“A deep understanding was understood.”</p>
-</section>
-<section id="requirement-of-specialization" class="level3" data-number="24.4.4">
-<h3 data-number="24.4.4" class="anchored" data-anchor-id="requirement-of-specialization"><span class="header-section-number">24.4.4</span> Requirement of specialization</h3>
-<p>When a prepositional phrase, or an adverb of time or place, or a verbal noun of doing is to be used as a deputy doer in an unknown-doer verb construction, then it is required that they be specialized in meaning, and not used in a general sense. So for example, if we have the sentence:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">سَهَرَتِ ٱلْأُمُّ لَيلَةً.</span><br>
-“The mother stayed up a night.”</p>
-<p>then because of the non-specialized meaning of <span class="reg-ar-span" dir="rtl" lang="ar">لَيْلَةً</span>, such a sentence is typically not suitable for being converted to a unknown-doer verb construction.</p>
-</section>
-<section id="choosing-the-deputy-doer" class="level3" data-number="24.4.5">
-<h3 data-number="24.4.5" class="anchored" data-anchor-id="choosing-the-deputy-doer"><span class="header-section-number">24.4.5</span> Choosing the deputy doer</h3>
-<p>If a sentence is to be converted to an unknown-doer verb construction and it has more than one of the following:</p>
-<ul>
-<li>a direct doee</li>
-<li>a specialized prepositional phrase</li>
-<li>a specialized adverb of time or place</li>
-<li>a specialized verbal noun of doing</li>
-</ul>
-<p>Then only one shall be chosen as the deputy doer. If a direct doee exists, then it is typically chosen. If a direct doee does not exist, then the one desired to be emphasized may be chosen as the deputy doer. For example:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">سُهِرَ فِي ٱلْمَسْجِدِ لَيلَةَ ٱلْقَدْرِ.</span><br>
-“The mosque was stayed up in [on] the Night of Power.”</p>
-<p>In the above sentence the prepositional phrase <span class="reg-ar-span" dir="rtl" lang="ar">فِي ٱلْمَسْجِدِ</span> was chosen as the deputy doer, and the adverb of time <span class="reg-ar-span" dir="rtl" lang="ar">لَيْلَةَ</span> remains, as is, in the a-state.</p>
-</section>
-</section>
-<section id="states-of-the-incomplete-action-unknown-doer-verb" class="level2" data-number="24.5">
-<h2 data-number="24.5" class="anchored" data-anchor-id="states-of-the-incomplete-action-unknown-doer-verb"><span class="header-section-number">24.5</span> States of the incomplete-action unknown-doer verb</h2>
-<p>The incomplete-action verb unknown-doer verb has three states, just like the incomplete-action verb known-doer verb: The u-state, the a-state, and the 0-state. The three states are used in the same circumstances, and with the same rules that we have already learned.</p>
-<p>So the u-state verb is used for making plain statements:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">تُذْكَرُ قِصَّةُ ٱلْمَلِكِ فِي كُتُبِ ٱلتَّأْرِيخِ.</span><br>
-“The story of the king is mentioned in the books of history.”</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">لَا تُرْفَعُ ٱلْأَصْوَاتُ فِي ٱلْمَكْتَبَةِ.</span><br>
-“Voices are not raised in the library.”</p>
-<p>The a-state verb is used for expressing wish or purpose:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">يَأْمُلُ ٱلْمُسْلِمُونَ أَنْ يُغْفَرُ لَهُمْ.</span><br>
-“The Muslims hope that they be forgiven.”<br>
-(Note that <span class="reg-ar-span" dir="rtl" lang="ar">يُغْفَرَ</span> has a singular masculine deputy doer because there is no direct doee.)</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">لَنْ تُسْمَعَا.</span><br>
-“You<sub>2</sub> shall not be heard.”</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">دُفِعَ ٱلْبَابُ حَتَّىٰ يُفْتَحَ.</span><br>
-“The door was pushed for the result that it open.”</p>
-<p>Similarly, the 0-state verb is used in the following cases:</p>
-<ul>
-<li><p>With <span class="reg-ar-span" dir="rtl" lang="ar">لَمْ</span> “was not”:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">لَمْ يُؤْذَنْ لِي أَنْ أَدْخُلَ.</span><br>
-“It was not permitted for me that I enter.”</p></li>
-<li><p>With <span class="reg-ar-span" dir="rtl" lang="ar">لَمَّا</span> “not yet”</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">لَمَّا يُكْتَبْ كِتَابٌ فِي هَـٰذَا ٱلْمَوْضُوعِ.</span><br>
-“A book has not yet been written in this subject.”</p></li>
-<li><p>With <span class="reg-ar-span" dir="rtl" lang="ar">لِ</span> for indirect commands:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">لِيُسْمَعْ صَوْتُهُ!</span><br>
-“Let his voice be heard!”</p>
-<p>There is no verb of command for unknown-doer verbs. So while indirect commands are typically not used for the addressee participant for known-doer verbs (see section&nbsp;@ref(indirect-commands)), they are the only way to issue commands for the addressee participant in the unknown-doer verb construction:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">لِتُنْصَرُوا!</span><br>
-“Let you<sub>3m</sub> be aided!”</p></li>
-</ul>
-</section>
-<section id="usage-of-the-unknown-doer-verb" class="level2" data-number="24.6">
-<h2 data-number="24.6" class="anchored" data-anchor-id="usage-of-the-unknown-doer-verb"><span class="header-section-number">24.6</span> Usage of the unknown-doer verb</h2>
-<p>There are cases where it is permissible to use of the unknown-doer verb construction, and cases where it is <em>not</em> permissible to use of the unknown-doer verb construction. We will explain them below:</p>
-<section id="permissible-use-of-the-unknown-doer-verb" class="level3" data-number="24.6.1">
-<h3 data-number="24.6.1" class="anchored" data-anchor-id="permissible-use-of-the-unknown-doer-verb"><span class="header-section-number">24.6.1</span> Permissible use of the unknown-doer verb</h3>
-<p>There can be a number of reasons why a speaker is forced to, or chooses to, use the unknown-doer verb construction. Among these reasons are:</p>
-<ol type="a">
-<li><p>When the doer is actually unknown to the speaker. This is the classic use-case, as indicated by the name <em>unknown-doer verb</em>. (But, as we shall see below, it is not the only use case.) So, if we say:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">كُسِرَتِ ٱلزُّجَاجَةُ.</span><br>
-“The glass was broken.”</p>
-<p>then, it may be that we don’t know who broke the glass, and that is why we are expressing it in the unknown-doer verb construction.</p></li>
-<li><p>When the doer is known to the speaker, but he does not wish to make him known to others. So the same sentence above <span class="reg-ar-span" dir="rtl" lang="ar">كُسِرَتِ ٱلزُّجَاجَةُ.</span> could be used when the speaker knows that it was actually <span class="reg-ar-span" dir="rtl" lang="ar">زَيْد</span> “Zayd”, for example, who broke the glass, but the speaker does not wish that others find out that it was Zayd. This itself could be for any reason, for example: the speaker fears Zayd, for fears for Zayd, etc.</p></li>
-<li><p>When the speaker wishes to draw attention to the act itself rather than the doer of the act. So we might say:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">مُنِعْنَا ٱلدُّخُولَ.</span><br>
-“We have been prevented from entering.”</p>
-<p>when we wish to focus on the act of our having been prevented, rather than who prevented us.</p></li>
-<li><p>For stylistic reasons, when it is obvious and known who the doer is. For example:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">خُلِقَ ٱلْإِنْسَانُ مِنْ ْعَجَلٍ</span><br>
-“Man was created of haste [i.e., impatience].” (<span class="trn2">Qurʾān</span> 21:37. Trans. Saheeh International)</p>
-<p>In the above <span class="trn2">ʾāyah</span> it is known and obvious that <span class="trn2">Allāh</span> created man.</p></li>
-<li><p>In order to glorify the doer. So we might the unknown-doer verb construction to say:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">خُلِقَ ٱلْخِنْزِيرُ.</span><br>
-“The pig was created.”</p>
-<p>This could be to distance <span class="trn2">Allāh</span> from being mentioned next to the name of a particularly dirty animal.</p></li>
-<li><p>When the doer is not mentioned due to contempt for him. For example:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">قُتِلَ أَمِيرُ ٱلْمُؤْمِنِينَ عُمَرُ.</span><br>
-“The Commander of the believers, <span class="trn2">Ɛumar</span>, was killed.”</p>
-<p>In this sentence we chose not to name the killer due to contempt for him.</p></li>
+<section id="the-qualifying-absolute-doee" class="level2" data-number="23.3">
+<h2 data-number="23.3" class="anchored" data-anchor-id="the-qualifying-absolute-doee"><span class="header-section-number">23.3</span> The qualifying absolute doee</h2>
+<p>With regard to the meaning of the governing verb, the qualifying absolute doee indicates either what kind was intended, or its quantity, or both.</p>
+<p>The qualifying absolute doee that indicates what kind of meaning was intended is frequently used with a describer or in an annexation. For example,</p>
+<ol start="5" class="example" type="1">
+<li><p><span class="reg-ar-span" lang="ar" dir="rtl">ضَرَبْتُهُ ضَرْبًا شَدِيدًا</span> <span class="ftsize">[Wright, 2/54A]</span><br>
+“I beat him (with) a severe beating.”</p></li>
+<li><p><span class="reg-ar-span" lang="ar" dir="rtl">ضَرَبَهُ ضَرْبَ ٱلظَّالِمِ</span> <span class="ftsize">[Wright, 2/54B]</span><br>
+“He beat him (with) the beating of an oppressor.”</p></li>
 </ol>
-<p>These reasons are not mutually exclusive, and sometimes the unknown-doer verb construction is used for a combination of them.</p>
-</section>
-<section id="impermissible-use-of-the-unknown-doer-verb" class="level3" data-number="24.6.2">
-<h3 data-number="24.6.2" class="anchored" data-anchor-id="impermissible-use-of-the-unknown-doer-verb"><span class="header-section-number">24.6.2</span> Impermissible use of the unknown-doer verb</h3>
-<p>The unknown-doer verb may not be used when the doer is mentioned with the verb. This is different from English which can use the word “by” to indicate the doer in a passive voice construction, as in: “The book was written by Zayd.”. Such a sentence, in Arabic can only be expressed with the known-doer verb construction:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">كَتَبَ زَيْدٌ ٱلْكِتَابَ.</span><br>
-<span class="trn2"><span class="trn"><em>kataba zayduni -lkitāb.</em></span></span><br>
-“Zayd wrote the book.”</p>
-<p>It may seem like this rule is broken in sentences like:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">قُتِلَ بِٱلسَّيْفِ.</span><br>
-<span class="trn2"><span class="trn"><em>qutila bi-ssayf.</em></span></span><br>
-“He was killed by the sword.”</p>
-<p>But such is not the case. The known-doer verb constuction would be something like:</p>
-<p><span class="reg-ar-span" dir="rtl" lang="ar">قَتَلَهُ فُلَانٌ بِٱلسَّيْفِ.</span><br>
-<span class="trn2"><span class="trn"><em>qatalahu fulānun bi-ssayf.</em></span></span><br>
-“So-and-so killed him with the sword.”</p>
-<p>As you can see, <span class="reg-ar-span" dir="rtl" lang="ar">فُلَان</span> “so-and-so” is actually the doer, and <span class="reg-ar-span" dir="rtl" lang="ar">ٱلسَّيْف</span> “the sword” is merely a prepositional phrase indicating the instrument used in the act.</p>
+<p>The quantity of the action the verb frequenty uses the <em>one-time noun</em> and it may be dualized or pluralized. For example,</p>
+<ol start="7" class="example" type="1">
+<li><span class="reg-ar-span" lang="ar" dir="rtl">ضَرَبْتُهُ ضَرَبْةً وَضَرَبَنِي ضَرْبَتَيْنِ أَوْ ضَرَبَاتٍ</span> <span class="ftsize">[Wright, 2/53D]</span><br>
+“I beat him one blow and he beat me two blows or (three or more) blows.”</li>
+</ol>
+<p>Some <span class="trn2">maṣdar</span>s themselves end with a <span class="reg-ar-span" lang="ar" dir="rtl">ة</span>, like <span class="reg-ar-span" lang="ar" dir="rtl">تِلَاوَة</span>, so they are readily dualized or pluralized<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> (to the sound <span class="trn2"><span class="trn"><em>āt</em></span></span> plural) without resorting to the one-time noun. For example,</p>
+<ol start="8" class="example" type="1">
+<li><span class="reg-ar-span" lang="ar" dir="rtl">تَلَا ٱلْقَارِئُ تِلَاوَاتٍ</span><br>
+“The reader recited recitations.”</li>
+</ol>
+<p>But in reality, when a <span class="trn2">maṣdar</span> is dualized or pluralized in this manner, it seems to leave its <span class="trn2">maṣdar</span> meaning, which is purely a verbal meaning, and begins to denote a concrete or abstract noun.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> So <span class="reg-ar-span" lang="ar" dir="rtl">تِلَاوَات</span> will denote, not so much the actions of reciting but kinds of recitations.</p>
+<p>The same goes for <span class="trn2">maṣdar</span>s that don’t end with a <span class="reg-ar-span" lang="ar" dir="rtl">ة</span> but for whom a broken plural has been recorded from Classical Arabic, like <span class="reg-ar-span" lang="ar" dir="rtl">عُلُوم</span>, which is the plural of <span class="reg-ar-span" lang="ar" dir="rtl">عِلْم</span> “knowledge”, and <span class="reg-ar-span" lang="ar" dir="rtl">وُعُود</span> which is the plural of <span class="reg-ar-span" lang="ar" dir="rtl">وَعْد</span> “promise”.</p>
+<p>So we can say:</p>
+<ol start="9" class="example" type="1">
+<li><span class="reg-ar-span" lang="ar" dir="rtl">وَعَدْتُكَ وُعُودًا</span><br>
+“I promised you promises.”</li>
+</ol>
+<p><span class="reg-ar-span" lang="ar" dir="rtl">وُعُود</span> here refers to different kinds or occasions of promises, rather than the purely verbal actions of promising.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
+<p>Plurals have not been recorded for all <span class="trn2">maṣdar</span>s. For example, <span class="reg-ar-span" lang="ar" dir="rtl">ضَرْب</span> does not have a recorded plural for its <span class="trn2">maṣdar</span> meaning of “beating”.</p>
+<p>So can we pluralize it if we wish to say “I beat him (many) kinds of beatings”? Some authorities allow us to form a new broken plural if there is a need.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> So according to them we should be able to say,</p>
+<ol start="10" class="example" type="1">
+<li><span class="reg-ar-span" lang="ar" dir="rtl">ضَرَبْتُهُ ضُرُوبًا</span><br>
+“I beat him (many kinds of) beatings”</li>
+</ol>
+<p>Other authorities are more conservative and would only allow using broken plurals for existing meanings of words if one has been recorded for them. Following this opinion, we might then say:</p>
+<ol start="11" class="example" type="1">
+<li><span class="reg-ar-span" lang="ar" dir="rtl">ضَرَبْتُهُ أَنْوَاعًا مِنَ ٱلضَّرْبِ</span><br>
+“I beat him (many) kinds of beatings”</li>
+</ol>
+<p>In any case, any <span class="trn2">maṣdar</span> may at least be dualized to indicate the kinds of its action.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> So we can say:</p>
+<ol start="12" class="example" type="1">
+<li><span class="reg-ar-span" lang="ar" dir="rtl">ضَرَبَنِي ضَرْبَيْنِ</span> <span class="ftsize">[Wright 2/55D]</span><br>
+“He beat me two (kinds of) beatings.”<br>
+or<br>
+“He beat me (on) two (occasions of) beatings.”</li>
+</ol>
+<p>By the way, you should be able to see that saying <span class="reg-ar-span" lang="ar" dir="rtl">ضَرَبَنِي ضَرْبَيْنِ</span> is different from if we had said</p>
+<ol start="13" class="example" type="1">
+<li><span class="reg-ar-span" lang="ar" dir="rtl">ضَرَبَنِي ضَرْبَتَيْنِ</span><br>
+“He beat me (with) two blows.”</li>
+</ol>
+<p>The former signifies the kinds or occasions of beating whereas the latter indicates the number of individual acts of beating.</p>
+<p>By the way, for <span class="trn2">maṣdar</span>s that themselves end with <span class="reg-ar-span" lang="ar" dir="rtl">ة</span>, if we wish to specify that the action ocurred only once, we cannot, of course, form a one-time noun by appending another <span class="reg-ar-span" lang="ar" dir="rtl">ة</span> to it. In such a case, we may qualify the <span class="trn2">maṣdar</span> with the describer <span class="reg-ar-span" lang="ar" dir="rtl">وَاحِدَة</span> “once”. For example:</p>
+<ol start="14" class="example" type="1">
+<li><span class="reg-ar-span" lang="ar" dir="rtl">رَحِمَهُ رَحْمَةً وَاحِدَةً</span> <span class="ftsize">[Wright 1/123C]</span><br>
+“He had mercy upon him once.”</li>
+</ol>
+<p>It is also important to mention that the qualifying absolute doee includes the reinforcing meaning.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> We cannot use the qualifying absolute doee without also emphasizing the meaning of the verb. For example,</p>
+<ol start="15" class="example" type="1">
+<li><span class="reg-ar-span" lang="ar" dir="rtl">فَٱصْبِرْ صَبْرًا جَمِيلًا</span> <span class="ftsize">[<a href="https://quran.com/70/5"><span class="reg-ar-span" lang="ar" dir="rtl">سورة المعارج</span> 70:5</a>]</span><br>
+“So be patient with gracious patience”</li>
+</ol>
+<p>In section (ref), we will see that in order to only qualify the verb without emphasizing it, we can substitute the verb with the absolute doee which then becomes a <em>deputy to the verb</em>.<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a></p>
+<p>Finally, the qualifying absolute doee may qualify both the kinds and quantity of the meaning of the verb. For example:</p>
+<ol start="16" class="example" type="1">
+<li><span class="reg-ar-span" lang="ar" dir="rtl">قَرَأْتُ ٱلْكِتَابَ قِرَاءَتَيْنِ نَافِعَتَيْنِ</span> <span class="ftsize">[<span class="reg-ar-span" lang="ar" dir="rtl">النحو الوافي</span> 2/209]</span><br>
+“I read the book two useful readings.”</li>
+</ol>
 
 
 </section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>See <span class="reg-ar-span" lang="ar" dir="rtl">معاني النحو</span> 2/194–195. But see also <a href="https://tafsir.app/ibn-alqayyim/4/164" class="uri">https://tafsir.app/ibn-alqayyim/4/164</a> for <span class="reg-ar-span" lang="ar" dir="rtl">وكلم الله موسى تكليما</span> and <a href="https://tafsir.app/ibn-uthaymeen/27/50" class="uri">https://tafsir.app/ibn-uthaymeen/27/50</a> for <span class="reg-ar-span" lang="ar" dir="rtl">ومكروا مكرًا ومكرنا مكرًا</span><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Wright, 2/55B<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><span class="reg-ar-span" lang="ar" dir="rtl">النحو الوافي</span> 2/211<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p><a href="https://shamela.ws/book/7037/803"><span class="reg-ar-span" lang="ar" dir="rtl">الكليات لأبي البقاء الكفوي</span> 817</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><a href="https://shamela.ws/book/2120/137#p1"><span class="reg-ar-span" lang="ar" dir="rtl">دراسات في النحو لصلاح الدين الزعبلاوي</span> 137</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>See also <a href="https://tafsir.app/ibn-aashoor/33/10" class="uri">https://tafsir.app/ibn-aashoor/33/10</a> for <span class="reg-ar-span" lang="ar" dir="rtl">وتظنون بالله الظنونا</span><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p><a href="https://shamela.ws/book/2120/139#p1"><span class="reg-ar-span" lang="ar" dir="rtl">دراسات في النحو لصلاح الدين الزعبلاوي</span> 139</a><a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p><span class="reg-ar-span" lang="ar" dir="rtl">النحو الوافي</span> 2/212<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p><span class="reg-ar-span" lang="ar" dir="rtl">النحو الوافي</span> 2/207–209<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p><span class="reg-ar-span" lang="ar" dir="rtl">معاني النحو</span> 2/203<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
 </section>
 
 </main> <!-- /main -->
@@ -1028,13 +940,13 @@ Not ready for study.
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../srcqmd/maf3ool_mutlaq.html" class="pagination-link" aria-label="The absolute doee">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">The absolute doee</span></span>
+      <a href="../srcqmd/dharf.html" class="pagination-link" aria-label="The adverb of time and and the adverb of place">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">The adverb of time and and the adverb of place</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../srcqmd/doer_verbal_noun.html" class="pagination-link" aria-label="The verbal-nouns of the doer and the doee">
-        <span class="nav-page-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">The verbal-nouns of the doer and the doee</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../srcqmd/passive_voice.html" class="pagination-link" aria-label="The unknown-doer verb">
+        <span class="nav-page-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">The unknown-doer verb</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
