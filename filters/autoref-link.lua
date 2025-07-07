@@ -1,3 +1,7 @@
+package.path = package.path .. ';../_extensions/arabic-support/?.lua'
+local ar_span = require("ar_span")
+
+
 function Link(el)
   stringify = pandoc.utils.stringify
   if #el.content == 1 then
@@ -130,15 +134,16 @@ function Link(el)
 
 
         }
-        local surah_name = "سورة " .. surah_names[tonumber(surah_index)]
+        local arabic_text = "سورة " .. surah_names[tonumber(surah_index)]
         local index_text = " " .. surah_index .. ":" .. verse_index
-        local arabic_span
-        if FORMAT:match 'latex' then
-          arabic_span = pandoc.Span(surah_name, {class="reg-ar-span", lang='ar'})
-        elseif FORMAT:match 'html' then
-          arabic_span = pandoc.Span(surah_name, {class="reg-ar-span", lang='ar', dir='rtl'})
-        end
-        return pandoc.Link({arabic_span, index_text}, ft)
+        --local arabic_span
+        --if FORMAT:match 'latex' then
+        --  arabic_span = pandoc.Span(surah_name, {class="reg-ar-span", lang='ar'})
+        --elseif FORMAT:match 'html' then
+        --  arabic_span = pandoc.Span(surah_name, {class="reg-ar-span", lang='ar', dir='rtl'})
+        --end
+        --return pandoc.Link({arabic_span, index_text}, ft)
+        return pandoc.Link({ar_span.ArabicSpan(pandoc.Span(arabic_text, {class="ar"})), index_text}, ft)
       end
       local i, j = string.find(ft, "https://sunnah.com/")
       if i ~= nil then
@@ -168,15 +173,16 @@ function Link(el)
 ["forty"] = "الأربعينات",
 ["hisn"] = " حصن المسلم",
         }
-        local book_name = book_names[book_index]
+        local arabic_text = book_names[book_index]
         local index_text = " :" .. hadith_index
-        local arabic_span
-        if FORMAT:match 'latex' then
-          arabic_span = pandoc.Span(book_name, {class="reg-ar-span", lang='ar'})
-        elseif FORMAT:match 'html' then
-          arabic_span = pandoc.Span(book_name, {class="reg-ar-span", lang='ar', dir='rtl'})
-        end
-        return pandoc.Link({arabic_span, index_text}, ft)
+        --local arabic_span
+        --if FORMAT:match 'latex' then
+        --  arabic_span = pandoc.Span(book_name, {class="reg-ar-span", lang='ar'})
+        --elseif FORMAT:match 'html' then
+        --  arabic_span = pandoc.Span(book_name, {class="reg-ar-span", lang='ar', dir='rtl'})
+        --end
+        --return pandoc.Link({arabic_span, index_text}, ft)
+        return pandoc.Link({ar_span.ArabicSpan(pandoc.Span(arabic_text, {class="ar"})), index_text}, ft)
       end
     end
   end
