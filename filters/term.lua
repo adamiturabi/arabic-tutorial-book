@@ -55,12 +55,16 @@ function get_map_table_value(input_text)
 end
 
 function get_output_text(input_text)
-  -- Check if first letter upper case
+  -- Check if to capitalize first letter
   local capitalize = false
-  if string.match(input_text:sub(1,1), "%u") then
+  --if string.match(input_text:sub(1,1), "%u") then
+  --  capitalize = true
+  --end
+  --input_text = string.lower(input_text)
+  if string.match(input_text:sub(1,1), "#") then
     capitalize = true
+    input_text = input_text:sub(2)
   end
-  input_text = string.lower(input_text)
   --local mapped = map_table[input_text]
   local mapped = get_map_table_value(input_text)
   if not mapped then
