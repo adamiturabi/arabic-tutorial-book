@@ -2,18 +2,71 @@ package.path = package.path .. ';../_extensions/arabic-support/?.lua'
 local romanize = require("romanize")
 local ar_span = require("ar_span")
 
+local map_table = {}
+
+map_table["amark"] = {"fatHah", "trn2"}
+map_table["imark"] = {"kasrah", "trn2"}
+map_table["umark"] = {"Dammah", "trn2"}
+map_table["0mark"] = {"sukUn", "trn2"}
+map_table["shaddah"] = {"caddah", "trn2"}
+map_table["tanwin"] = {"tanwIn", "trn2"}
+
+map_table["badal"] = {"replacement", nil}
+
+map_table["fail"] = {"doer", nil}
+
+map_table["ishara"] = {"pointing noun", nil}
+map_table["ismfail"] = {"doer participle", nil}
+map_table["ismkn"] = {"subject", nil}
+map_table["ismmaful"] = {"doee participle", nil}
+map_table["ismmarrah"] = {"one-time noun", nil}
+
+map_table["lazim"] = {"intransitive", nil}
+map_table["lnj"] = {"لا النافية للجنس", "ar"}
+
+map_table["madi"] = {"past", nil}
+map_table["maful"] = {"doee", nil}
+map_table["mafulbih"] = {"direct doee", nil}
+map_table["manut"] = {"describee", nil}
+map_table["masdar"] = {"maSdar", "trn2"}
+map_table["mawsul"] = {"connected noun", nil}
+map_table["mmutlaq"] = {"absolute doee", nil}
+map_table["mubdalbih"] = {"replacemee", nil}
+map_table["mubtada"] = {"topic", nil}
+map_table["mudaf"] = {"annexe noun", nil}
+map_table["mudafil"] = {"base noun", nil}
+map_table["mudarie"] = {"muDArie", "trn2"}
+map_table["mutaddi"] = {"transitive", nil}
+
+map_table["naib"] = {"deputy", nil}
+map_table["nat"] = {"describer", nil}
+
+map_table["sifah"] = {"adjectival noun", nil}
+map_table["silah"] = {"connecting sentence", nil}
+
+map_table["xabar"] = {"comment", nil}
+
+--map_table["mabny"] = {"rigid", nil}
+--map_table["mamnu"] = {"semi-flexible", nil}
+--map_table["mtsrf"] = {"flexible", nil}
+
+function get_map_table_value(input_text)
+  return map_table[input_text]
+end
+
 function get_output_text(input_text)
   -- Check if first letter upper case
-  local map_table = {}
-  map_table["mtl"] = {"absolute doee", nil}
-  map_table["msd"] = {"maSdar", "trn2"}
-  map_table["lnj"] = {"لا النافية للجنس", "ar"}
   local capitalize = false
   if string.match(input_text:sub(1,1), "%u") then
     capitalize = true
   end
   input_text = string.lower(input_text)
-  local mapped = map_table[input_text]
+  --local mapped = map_table[input_text]
+  local mapped = get_map_table_value(input_text)
+  if not mapped then
+    print("bad term input text: " .. input_text)
+    error()
+  end
   if mapped[2] == nil then
     if capitalize then
       return string.upper(mapped[1]:sub(1,1)) .. mapped[1]:sub(2)
