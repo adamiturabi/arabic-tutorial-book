@@ -58,6 +58,7 @@ filters:
   - filters/lingex.lua
   - filters/footnotesize.lua
   - filters/citex.lua
+  - filters/term.lua
 
 tikzarabic:
   cache: true
