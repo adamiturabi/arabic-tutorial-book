@@ -32,7 +32,7 @@ We will go over these cases in this chapter.
 
 ## Forming the a-state ;mudarie; verb
 
-Here is the u-state ;mudarie; verb for the singular masculine absentee participant doer "he":
+Here is the u-state ;mudarie; verb for the singular masculine absentee participant ;fail; "he":
 
 [يَفْعَلُ]{.ar}  
 [yafealu]{.trn}  
@@ -48,9 +48,9 @@ a-mark [◌َ]{.ar}, thus:
 [يَفْعَلَ]{.ar}  
 [yafeala]{.trn}  
 
-This is done for all participants whose doer pronoun is invisible and u-state verb ends with a [u]{.trn}-mark [◌ُ]{.ar}.
+This is done for all participants whose ;fail; pronoun is invisible and u-state verb ends with a [u]{.trn}-mark [◌ُ]{.ar}.
 
-For participants whose doer pronoun is followed by an extra [ن]{.ar} in the u-state verb, this final [ن]{.ar} is dropped in order to form the 
+For participants whose ;fail; pronoun is followed by an extra [ن]{.ar} in the u-state verb, this final [ن]{.ar} is dropped in order to form the 
 a-state
 ;mudarie; verb.
 So, for example, the u-state
@@ -69,9 +69,9 @@ a-state:
 Here is the complete table of the 
 a-state
 ;mudarie; verb
-for all doer participants.
+for all ;fail; participants.
 
-|Participant|;#mudarie; verb doer pronoun|u-state ;mudarie; verb | a-state ;mudarie; verb|
+|Participant|;#mudarie; verb ;fail; pronoun|u-state ;mudarie; verb | a-state ;mudarie; verb|
 |:---|:--|:---|:---|
 | he        |_invisible_         |[يَفْعَلُ]{.ar}    |[يَفْعَلَ]{.ar}    |
 | she       |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلَ]{.ar}    |
@@ -243,7 +243,7 @@ As the information:
 
 which is grammatically equivalent to: [ٱَلْمَقْصِدُ نَجَاحَكَ.]{.ar}.
 
-As a doer noun:
+As a ;fail; noun:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
