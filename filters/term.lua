@@ -93,7 +93,8 @@ function get_output_text(input_text)
   end
   if mapped[2] == "trn2" then
     if capitalize then
-      mapped[1] = "_" .. mapped[1]
+      --mapped[1] = "_" .. mapped[1]
+      return romanize.RomanizeMapping("_" .. mapped[1], false)
     end
     return romanize.RomanizeMapping(mapped[1], false)
   elseif mapped[2] == "ar" then
