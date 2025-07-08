@@ -1,0 +1,1 @@
+perl -i -pe's/Incomplete.action/;#mudarie;/g' *.qmd
