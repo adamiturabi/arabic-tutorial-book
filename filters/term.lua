@@ -4,6 +4,9 @@ local ar_span = require("ar_span")
 
 local map_table = {}
 
+-- phrases
+map_table["ia"] = {"if Allāh wills", nil}
+
 -- diacritics
 map_table["amark"] = {"fatHah", "trn2"}
 map_table["imark"] = {"kasrah", "trn2"}
