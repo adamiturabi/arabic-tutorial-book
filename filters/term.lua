@@ -15,6 +15,8 @@ map_table["badal"] = {"replacement", nil}
 
 map_table["fail"] = {"doer", nil}
 
+map_table["idafa"] = {"annexation", nil}
+map_table["indir_mafulb"] = {"indirect doee", nil}
 map_table["ishara"] = {"pointing noun", nil}
 map_table["ismfail"] = {"doer participle", nil}
 map_table["ismkn"] = {"subject", nil}
