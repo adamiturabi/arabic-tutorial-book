@@ -267,7 +267,7 @@ As a doer noun:
 
 which is grammatically equivalent to: [يَحْزُنُنِي ذَهَابُهُ.]{.ar}.
 
-In the i-state as the base noun in an annexation:
+In the i-state as the ;mudafil; in an annexation:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -282,7 +282,7 @@ In the i-state as the base noun in an annexation:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, below] {\scriptsize i-state base noun};
+      node [midway, below] {\scriptsize i-state ;mudafil;};
 
 \path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``She stayed quiet from fear of that he be angry at her.''};
 
