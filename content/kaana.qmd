@@ -2,8 +2,8 @@
 
 ## Introduction
 
-We have learned that a verb must have a doer in the u-state and can have a [mafulb]{.term} in the a-state.
-In this chapter, we will learn about a new type of verb, whose doer is called its subject, and whose [mafulb]{.term} is called its information.
+We have learned that a verb must have a [fail]{.term} in the u-state and can have a [mafulb]{.term} in the a-state.
+In this chapter, we will learn about a new type of verb, whose [fail]{.term} is called its subject, and whose [mafulb]{.term} is called its information.
 
 The principal verb of this type is [كَانَ]{.ar} which is used to mean "was". There are other verbs which behave in a similar manner and they are called the _sisters_ of [كَانَ]{.ar}.
 
@@ -54,9 +54,9 @@ Consider now the following sentence:
 Now, as you can see, Arabic does express a word for "was". It is the past verb [كَانَ]{.ar} [kAna]{.trn}.
 [كَانَ]{.ar} is a hollow verb from the root [كون]{.ar}. 
 It's [mudarie]{.term} verb is [يَكُونُ]{.ar} [yakUnu]{.trn}.
-The complete table for this verb for all doer pronouns is given below:
+The complete table for this verb for all [fail]{.term} pronouns is given below:
 
-|Doer pronoun|past verb|[mudarie]{.term} verb|
+|[#fail]{.term} pronoun|past verb|[mudarie]{.term} verb|
 |:----|:----|:----|
 | he        | [كَانَ]{.ar}   | [يَكُونُ]{.ar}   |
 | she       | [كَانَتْ]{.ar}  | [تَكُونُ]{.ar}   |
@@ -73,12 +73,12 @@ The complete table for this verb for all doer pronouns is given below:
 | we        | [كُنَّا]{.ar}   | [نَكُونُ]{.ar}   |
 
 Like, for other verbs, 
-the doer of [كَانَ]{.ar},
+the [fail]{.term} of [كَانَ]{.ar},
 [ٱلرَّجُلُ]{.ar}, is in the u-state, and
 and its [mafulb]{.term}, [مُعَلِّمًا]{.ar}, is in the a-state.
 
 However, unlike most other verbs,
-the doer of [كَانَ]{.ar},
+the [fail]{.term} of [كَانَ]{.ar},
 [ٱلرَّجُلُ]{.ar}, is also called its subject
 and its [mafulb]{.term}, [مُعَلِّمًا]{.ar}, is also called its information.
 
@@ -86,7 +86,7 @@ So a sentence with [كَانَ]{.ar} used in this way is a subject-information s
 If it begins with [كَانَ]{.ar} then it is also a verbal sentence at the same time.
 
 This property also applies to the sisters of [كَانَ]{.ar} that we will learn later in this chapter. 
-Together, these verbs are also called _deficient_ verbs, because, besides their doer/subject, they also need an information to complete the meaning of the sentence.
+Together, these verbs are also called _deficient_ verbs, because, besides their [fail]{.term}/subject, they also need an information to complete the meaning of the sentence.
 That is, without the information, the sentence is deficient.
 
 "Is" subject-information sentences can be converted to "was" subject-information sentences using the verb [كَانَ]{.ar}. Here are some examples:
@@ -595,11 +595,11 @@ The order of the subject and the [mudarie]{.term} verb can be re-arranged for th
 
 Now, two grammatical analyses are possible:
 
-1. [زَيْد]{.ar} is the doer of [يَكْتُبُ]{.ar}, and the subject of [كَانَ]{.ar} is a hidden pronoun of the fact.
-2. [زَيْد]{.ar} is the delayed subject of [كَانَ]{.ar} and [يَكْتُبُ]{.ar} is the information of [كَانَ]{.ar}. The doer of [يَكْتُبُ]{.ar} is a hidden pronoun.
+1. [زَيْد]{.ar} is the [fail]{.term} of [يَكْتُبُ]{.ar}, and the subject of [كَانَ]{.ar} is a hidden pronoun of the fact.
+2. [زَيْد]{.ar} is the delayed subject of [كَانَ]{.ar} and [يَكْتُبُ]{.ar} is the information of [كَانَ]{.ar}. The [fail]{.term} of [يَكْتُبُ]{.ar} is a hidden pronoun.
 
 Either way, the meaning, as we have mentioned, is the same.
-Here are some more examples for different types of doers/subjects:
+Here are some more examples for different types of [fail]{.term}s/subjects:
 
 <!--[كَانَ يُحِبُّ ٱلشِّعْرَ وٱلشُّعَرَاءَ.]{.ar}  
 "He used to love poetry and the poets."
@@ -629,7 +629,7 @@ Occasionally, the particle [قَدْ]{.ar} precedes the combination of [كَان
 [<https://sunnah.com/muslim:2781>]{.aside}  
 "They said, 'This [person] used to transcribe for [#muHammad]{.trn2} [ﷺ]{.aralt}'"
 
-The following [mudarie]{.term} verb may also be an unknown-doer verb. Example:
+The following [mudarie]{.term} verb may also be an [passive]{.term} verb. Example:
 
 [إِنَّ أُنَاسًا كَانُوا يُؤْخَذُونَ بِالْوَحْىِ فِي عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم]{.ar}
 [<https://sunnah.com/bukhari:2641>]{.aside}  
