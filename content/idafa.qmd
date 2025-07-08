@@ -14,7 +14,7 @@ Arabic expresses this meaning using a construction called _[idafa]{.subs}_. In t
 
 ## Forming the [idafa]{.subs}
 
-The word "[idafa]{.subs}" means the addition of a new _annexed_ item to an existing _base_ item. We use the term _[idafa]{.subs}_ in Arabic grammar when an _annexe_ noun is annexed to a _base_ noun by being placed right before it. Here is an example of an [idafa]{.subs}:
+The word "[idafa]{.subs}" means the addition of a new _annexed_ item to an existing _base_ item. We use the term _[idafa]{.subs}_ in Arabic grammar when an _[mudaf]{.subs}_ is annexed to a _[mudafil]{.subs}_ by being placed right before it. Here is an example of an [idafa]{.subs}:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -29,11 +29,11 @@ The word "[idafa]{.subs}" means the addition of a new _annexed_ item to an exist
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize [mudaf]{.subs}};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe noun};
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize [mudafil]{.subs}};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize base noun};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
@@ -48,8 +48,8 @@ The word "[idafa]{.subs}" means the addition of a new _annexed_ item to an exist
 
 The [idafa]{.subs} construction consists of two nouns:
 
-1. The _annexe_ noun: This is the first noun in the [idafa]{.subs}.
-1. The _base_ noun: This is the second noun in the [idafa]{.subs}.
+1. The _[mudaf]{.subs}_: This is the first noun in the [idafa]{.subs}.
+1. The _[mudafil]{.subs}_: This is the second noun in the [idafa]{.subs}.
 
 The [mudaf]{.subs} [كِتَاب]{.ar} is annexed to, and belongs to, the [mudafil]{.subs} [ٱَلْغُلَام]{.ar}. 
 You can use the alphabetical  order (A,\ B) to help you remember that the **a**nnexe noun comes before the **b**ase noun.
@@ -81,7 +81,7 @@ We can identify noun-chains by noting that the first noun in the chain has neith
 
 The first noun in the chain is the noun before "of" and the second noun in the chain is the noun after "of".
 -->
-## State of the annexe and [mudafil]{.subs}s
+## State of the [mudaf]{.subs} and [mudafil]{.subs}
 
 The [mudafil]{.subs} in an [idafa]{.subs} is always in the i-state. The [mudaf]{.subs} may be in any state, depending on its function in the sentence. For example,
 <!--
@@ -150,7 +150,7 @@ Sometimes both of the above constructs will fit for the translation, and sometim
 
 The [mudaf]{.subs} in an [idafa]{.subs} can have neither an [n]{.trn} mark, nor an [ٱَلْ]{.ar}. 
 The [mudafil]{.subs} is permitted to have an [n]{.trn} mark or an [ٱَلْ]{.ar} prefix. 
-The definiteness of the [mudafil]{.subs} then determines the definiteness of the [idafa]{.subs}. If the second noun is definite, then both the annexe and the [mudafil]{.subs}s be definite. And if the [mudafil]{.subs} is indefinite, then both the nouns in the chain will be indefinite. 
+The definiteness of the [mudafil]{.subs} then determines the definiteness of the [idafa]{.subs}. If the second noun is definite, then both the [mudaf]{.subs} and the [mudafil]{.subs}s be definite. And if the [mudafil]{.subs} is indefinite, then both the nouns in the chain will be indefinite. 
 
 [بَيْتُ مُحَمَّدٍ]{.ar}  
 [baytu muHammadin]{.trn}  
@@ -313,7 +313,7 @@ is indefinite with a [nUn]{.trn2}ated [u]{.trn}-mark [◌ٌ]{.ar}.
 This is because 
 the [mudaf]{.subs} [كِتَابُ]{.ar} is indefinite. It is indefinite because [mudafil]{.subs} [جَارِيَةٍ]{.ar} "a girl" is indefinite.
 
-Now, you might be foreseeing a problem. What if the [mudaf]{.subs} and the [mudafil]{.subs} have the same gender, and the annexe too is in the i-state? For example, in the sentence:
+Now, you might be foreseeing a problem. What if the [mudaf]{.subs} and the [mudafil]{.subs} have the same gender, and the [mudaf]{.subs} too is in the i-state? For example, in the sentence:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ ٱلرَّجُلِ ٱلْكَبِيرِ.]{.ar}  
 "The boy went to the big/old man's house."  
