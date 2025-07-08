@@ -168,7 +168,7 @@ with a noun aloows the
 [أَنْ]{.ar} clause to take the place of a noun in various positions in a sentence.
 So, in the above example, the 
 [أَنْ]{.ar} clause
-is in place of the direct doee of the verb [أَمَلَ]{.ar}:
+is in place of the ;mafulb; of the verb [أَمَلَ]{.ar}:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -183,7 +183,7 @@ is in place of the direct doee of the verb [أَمَلَ]{.ar}:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize direct doee};
+      node [midway, below] {\scriptsize ;mafulb;};
 
 \path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The student hoped that he suceed.''};
 
@@ -317,7 +317,7 @@ which is grammatically equivalent to: [رَغِبَ ٱلْغُلَامُ فِي 
 
 ### Option to drop the preposition before [أَنْ]{.ar}
 
-In the above example the verb [رَغِبَ يَرْغَبُ]{.ar} takes an indirect doee after the preposition [فِي]{.ar}.
+In the above example the verb [رَغِبَ يَرْغَبُ]{.ar} takes an ;indir_mafulb; after the preposition [فِي]{.ar}.
 In such cases, where the 
 [أَنْ]{.ar} clause
 occurs after a preposition, it is common to drop the preposition as long as there is not resulting confusion in meaning.
@@ -462,10 +462,10 @@ Consider now a variant of this sentence:
 "I ate the fish, even its head."
 
 [رَأْس]{.ar},
-here, is in the a-state because it is a direct doee of the verb [أَكَلَ]{.ar} "ate".
+here, is in the a-state because it is a ;mafulb; of the verb [أَكَلَ]{.ar} "ate".
 The particle
 [حَتَّىٰ]{.ar} "even",
-here, is only a connector between the direct doees in much the same way as [وَ]{.ar} "and". 
+here, is only a connector between the ;mafulb;s in much the same way as [وَ]{.ar} "and". 
 ([أَكَلْتُ ٱلسَّمَكَةَ وَرَأْسَهَا.]{.ar}
 "I ate the fish and its head.")
 

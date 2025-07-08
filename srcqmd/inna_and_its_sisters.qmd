@@ -220,7 +220,7 @@ We need to additional words, external to the
 clause
 to complete the sentence. We will see examples of this below.
 
-### The [أَنَّ]{.ar} clause in place of the direct doee
+### The [أَنَّ]{.ar} clause in place of the ;mafulb;
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -235,7 +235,7 @@ to complete the sentence. We will see examples of this below.
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize direct doee};
+      node [midway, below] {\scriptsize ;mafulb;};
 
 %\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``I know that Zayd is truthful.''};
 
@@ -248,7 +248,7 @@ Note how, in the example above the
 [أَنَّ]{.ar}
 clause
 ([أَنَّ زَيْدًا صَادِقٌ]{.ar})
-has occupied the place of the direct doee of the verb [أَعْلَمُ]{.ar}.
+has occupied the place of the ;mafulb; of the verb [أَعْلَمُ]{.ar}.
 
 In a similar manner,
 [أَنَّ]{.ar}
@@ -456,7 +456,7 @@ The combination of the preposition [لِ]{.ar} "for" and [أَنَّ]{.ar} is us
 ### Equivalence of the [أَنَّ]{.ar} clause with a verbal noun of doing
 
 As a matter of grammatical theory, the
-[أَنَّ]{.ar} clause, i.e. ([أَنَّ]{.ar} itself, its subject, and its information) is considered equivalent to a verbal noun of doing (typically in an annexation, and possibly with a doee as well). It is this equivalalence that allows it to thake the place of a doer, direct doee, and the other categories we have given above.
+[أَنَّ]{.ar} clause, i.e. ([أَنَّ]{.ar} itself, its subject, and its information) is considered equivalent to a verbal noun of doing (typically in an annexation, and possibly with a doee as well). It is this equivalalence that allows it to thake the place of a doer, ;mafulb;, and the other categories we have given above.
 For instance, consider the example:
 
 [عَجِبْتُ مِنْ أَنَّ زَيْدًا ذَهَب.]{.ar}  
