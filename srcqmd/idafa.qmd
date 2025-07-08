@@ -27,7 +27,7 @@ The word "annexation" means the addition of a new _annexed_ item to an existing 
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe noun};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ;mudaf;};
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
@@ -49,15 +49,15 @@ The annexation construction consists of two nouns:
 1. The _annexe_ noun: This is the first noun in the annexation.
 1. The _base_ noun: This is the second noun in the annexation.
 
-The annexe noun [كِتَاب]{.ar} is annexed to, and belongs to, the base noun [ٱَلْغُلَام]{.ar}. 
+The ;mudaf; [كِتَاب]{.ar} is annexed to, and belongs to, the base noun [ٱَلْغُلَام]{.ar}. 
 You can use the alphabetical  order (A,\ B) to help you remember that the **a**nnexe noun comes before the **b**ase noun.
 
 <!--
 Take note of the following points regarding the annexation construction:
 
 + The base noun in an annexation shall always be in the i-state.
-+ The state of the annexe noun is variable and shall depend on its function in the sentence.
-+ The annexe noun in an annexation shall neither have an [n]{.trn}-mark nor the prefix [ٱَلْ]{.ar}.
++ The state of the ;mudaf; is variable and shall depend on its function in the sentence.
++ The ;mudaf; in an annexation shall neither have an [n]{.trn}-mark nor the prefix [ٱَلْ]{.ar}.
 
 ## Remove
 
@@ -81,7 +81,7 @@ The first noun in the chain is the noun before "of" and the second noun in the c
 -->
 ## State of the annexe and base nouns
 
-The base noun in an annexation is always in the i-state. The annexe noun may be in any state, depending on its function in the sentence. For example,
+The base noun in an annexation is always in the i-state. The ;mudaf; may be in any state, depending on its function in the sentence. For example,
 <!--
    + [أُمُّ ٱلْغُلَامِ مُعَلِّمَةٌ.]{.ar}  
      [Eummu -lgulAmi mueallimatun.]{.trn}  
@@ -96,15 +96,15 @@ The base noun in an annexation is always in the i-state. The annexe noun may be 
 
 [كِتَابُ ٱلْغُلَامِ ثَقِيلٌ.]{.ar}  
 "The boy's book is heavy."  
-(The annexe noun is in the u-state.)
+(The ;mudaf; is in the u-state.)
 
 [أَخَذَتِ ٱلْجَارِيَةُ كِتَابَ ٱلْغُلَامِ.]{.ar}  
 "The girl took the boy's book."  
-(The annexe noun is in the a-state.)
+(The ;mudaf; is in the a-state.)
 
 [كَتَبَ ٱلْمُعَلِّمُ فِي كِتَابِ ٱلْغُلَامِ.]{.ar}  
 "The teacher~m~ wrote in the boy's book."  
-(The annexe noun is in the i-state.)
+(The ;mudaf; is in the i-state.)
 
 ## Definiteness of the annexation
 
@@ -115,14 +115,14 @@ Consider again the annexation expression we have been using so far:
 
 The base noun [ٱَلْغُلَام]{.ar} is definite because it is prefixed by [ٱَلْ]{.ar} "the".
 Therefore we have translated it as "the boy".
-The annexe noun [كِتَاب]{.ar} is not made definite by [ٱَلْ]{.ar}.
+The ;mudaf; [كِتَاب]{.ar} is not made definite by [ٱَلْ]{.ar}.
 Nor is it made indefinite by [nUn]{.trn2}ation. 
 <!--Its definiteness is determined by the base noun. -->
 Rather, its definiteness is determined by the base noun.
-Because the base noun [ٱَلْغُلَام]{.ar} is definite, therefore the annexe noun [كِتَاب]{.ar} is also definite.
+Because the base noun [ٱَلْغُلَام]{.ar} is definite, therefore the ;mudaf; [كِتَاب]{.ar} is also definite.
 The entire annexation is definite.
-<!--If the base noun is definite (as it is above) then the annexe noun shall also be definite.
-And if the base noun is indefinite (as below) then the annexe noun shall also be indefinite.-->
+<!--If the base noun is definite (as it is above) then the ;mudaf; shall also be definite.
+And if the base noun is indefinite (as below) then the ;mudaf; shall also be indefinite.-->
 
 Consider now the case when the base noun is indefinite.
 
@@ -130,12 +130,12 @@ Consider now the case when the base noun is indefinite.
 "a boy's book"  
 
 In the above example, the base noun [غُلَامٍ]{.ar} is indefinite because it is [nUn]{.trn2}ated and because it does not prefixed by [ٱَلْ]{.ar}. Therefore we have translated it as "a boy".
-The annexe noun [كِتَاب]{.ar} is neither [nUn]{.trn2}ated, nor does it have [ٱَلْ]{.ar}.
+The ;mudaf; [كِتَاب]{.ar} is neither [nUn]{.trn2}ated, nor does it have [ٱَلْ]{.ar}.
 Its definiteness is, again, determined by the base noun.
-Because the base noun [غُلَامٍ]{.ar} is indefinite, therefore the annexe noun [كِتَاب]{.ar} is also indefinite.
+Because the base noun [غُلَامٍ]{.ar} is indefinite, therefore the ;mudaf; [كِتَاب]{.ar} is also indefinite.
 The entire annexation is indefinite.
 
-We will see soon, if [#allAh]{.trn2} wills, why the definiteness of the annexe noun is important.
+We will see soon, if [#allAh]{.trn2} wills, why the definiteness of the ;mudaf; is important.
 
 <!--
 
@@ -146,7 +146,7 @@ ii. using "of"
 
 Sometimes both of the above constructs will fit for the translation, and sometimes only one will fit. For convenience, we will often translate with only one of them.
 
-The annexe noun in an annexation can have neither an [n]{.trn} mark, nor an [ٱَلْ]{.ar}. 
+The ;mudaf; in an annexation can have neither an [n]{.trn} mark, nor an [ٱَلْ]{.ar}. 
 The base noun is permitted to have an [n]{.trn} mark or an [ٱَلْ]{.ar} prefix. 
 The definiteness of the base noun then determines the definiteness of the annexation. If the second noun is definite, then both the annexe and the base nouns be definite. And if the base noun is indefinite, then both the nouns in the chain will be indefinite. 
 
@@ -192,7 +192,7 @@ Instead of using "'s" we may use "of" as well. For example:
 [بَيْتُ ٱلرَّجُلِ]{.ar}  
 "a/the house of the man"
 
-Note that the annexe noun "house" may be prefixed with either "a" or "the". This will depend on what is more natural in English. Often time both will fit. Here are some examples:
+Note that the ;mudaf; "house" may be prefixed with either "a" or "the". This will depend on what is more natural in English. Often time both will fit. Here are some examples:
 
 [لَبِسَ ٱلطِّفْلُ قَمِيصَ رَجُلٍ.]{.ar}  
 "The child wore a/the shirt of a man."
@@ -206,15 +206,15 @@ Note that the annexe noun "house" may be prefixed with either "a" or "the". This
 [فَتَحَ ٱللِّصُّ شُبَّاكَ ٱلْبَيْتِ وَدَخَلَ ٱلْبَيْتَ.]{.ar}  
 "The thief opened _a/the_ window of the house and entered the house."
 
-It is important to understand that translating the annexe noun into English with "a" or "the" is purely for the reason of obtaining a natural translation. This does not affect whether or not the annexe noun is grammatically considered definite in Arabic.
+It is important to understand that translating the ;mudaf; into English with "a" or "the" is purely for the reason of obtaining a natural translation. This does not affect whether or not the ;mudaf; is grammatically considered definite in Arabic.
 
-As we mentioned earlier, the definiteness of the annexe noun in Arabic depends only on the definiteness of the base noun. 
-If the base noun is definite then the annexe noun shall be considered definite as well.
-And if the base noun is indefinite then the annexe noun shall be considered indefinite as well.
+As we mentioned earlier, the definiteness of the ;mudaf; in Arabic depends only on the definiteness of the base noun. 
+If the base noun is definite then the ;mudaf; shall be considered definite as well.
+And if the base noun is indefinite then the ;mudaf; shall be considered indefinite as well.
 
 The need to maintain this distinction will become apparent in the next section.
 
-If the base noun is definite, and it is desired to make the annexe noun grammatically indefinite, then it is necassary to break the annexation, and use a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
+If the base noun is definite, and it is desired to make the ;mudaf; grammatically indefinite, then it is necassary to break the annexation, and use a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتٍ لِلرَّجُلِ.]{.ar}  
 "The boy went to a house of the man."
@@ -278,28 +278,28 @@ Here are some more examples:
 [جَلَسَ ٱلرَّجُلُ فِي ظِلِّ شَجَرَةٍ عَرِيضَةٍ وَسِيعَةٍ.]{.ar}  
 "The man sat in the shade of a wide broad tree."
 
-### Describing the annexe noun
+### Describing the ;mudaf;
 
 Consider, again, the same annexation:
 
 [كِتَابُ ٱلْجَارِيَةِ]{.ar}  
 "the girl's book"
 
-Say, now, that we want to describe the annexe noun [كِتَاب]{.ar} "book" with the adjectival noun [صَغِير]{.ar} "a small one". Normally, nothing can come between the annexe noun and the base noun in an annexation. So, the describer needs to be placed, again, after the base noun.
-However, this time it will match the annexe noun, not the base noun, in state, definiteness, gender, and number. So we get:
+Say, now, that we want to describe the ;mudaf; [كِتَاب]{.ar} "book" with the adjectival noun [صَغِير]{.ar} "a small one". Normally, nothing can come between the ;mudaf; and the base noun in an annexation. So, the describer needs to be placed, again, after the base noun.
+However, this time it will match the ;mudaf;, not the base noun, in state, definiteness, gender, and number. So we get:
 
 [كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرُ]{.ar}  
 "the girl's small book"
 
 Note how the describer 
-[ٱَلصَّغِيرُ]{.ar} matches the annexe noun [كِتَابُ]{.ar} in state and gender.
-Note also how the describer is definite with an [ٱَلْ]{.ar}. This is because it is matching the annexe noun [كِتَابُ]{.ar} in definiteness.
-The annexe noun [كِتَاب]{.ar} is definite, not with [ٱَلْ]{.ar}, but rather because of the definite base noun [ٱَلْجَارِيَةِ]{.ar} "the girl".
+[ٱَلصَّغِيرُ]{.ar} matches the ;mudaf; [كِتَابُ]{.ar} in state and gender.
+Note also how the describer is definite with an [ٱَلْ]{.ar}. This is because it is matching the ;mudaf; [كِتَابُ]{.ar} in definiteness.
+The ;mudaf; [كِتَاب]{.ar} is definite, not with [ٱَلْ]{.ar}, but rather because of the definite base noun [ٱَلْجَارِيَةِ]{.ar} "the girl".
 We've already learned this rule in 
 section\ \@ref(definiteness-of-the-annexation)
 above.
 
-Similarly, if we describe the annexe noun [كِتَاب]{.ar} in an indefinite annexation, we get:
+Similarly, if we describe the ;mudaf; [كِتَاب]{.ar} in an indefinite annexation, we get:
 
 [كِتَابُ جَارِيَةٍ صَغِيرٌ]{.ar}  
 "a girl's small book"
@@ -309,17 +309,17 @@ the describer
 [صَغِيرٌ]{.ar}
 is indefinite with a [nUn]{.trn2}ated [u]{.trn}-mark [◌ٌ]{.ar}. 
 This is because 
-the annexe noun [كِتَابُ]{.ar} is indefinite. It is indefinite because base noun [جَارِيَةٍ]{.ar} "a girl" is indefinite.
+the ;mudaf; [كِتَابُ]{.ar} is indefinite. It is indefinite because base noun [جَارِيَةٍ]{.ar} "a girl" is indefinite.
 
-Now, you might be foreseeing a problem. What if the annexe noun and the base noun have the same gender, and the annexe too is in the i-state? For example, in the sentence:
+Now, you might be foreseeing a problem. What if the ;mudaf; and the base noun have the same gender, and the annexe too is in the i-state? For example, in the sentence:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ ٱلرَّجُلِ ٱلْكَبِيرِ.]{.ar}  
 "The boy went to the big/old man's house."  
 or  
 "The boy went to the man's big house."  
 
-How do we know whether the describer [كَبِير]{.ar} is meant to describe the annexe noun [بَيْتِ]{.ar} or the base noun [ٱَلرَّجُل]{.ar}?
-The annexe noun [بَيْتِ]{.ar} and the base noun [ٱَلرَّجُل]{.ar} are both masculine, singular, definite, and in the i-state.
+How do we know whether the describer [كَبِير]{.ar} is meant to describe the ;mudaf; [بَيْتِ]{.ar} or the base noun [ٱَلرَّجُل]{.ar}?
+The ;mudaf; [بَيْتِ]{.ar} and the base noun [ٱَلرَّجُل]{.ar} are both masculine, singular, definite, and in the i-state.
 
 The answer is that in such cases, context will have to be clear to tell us which of the two meanings is intended.
 If the context makes it clear then there is no harm in using such a sentence for either of the two meanings.
@@ -333,12 +333,12 @@ Also, sometimes, the meaning of the describer is such that it will likely apply 
 
 In the sentence above the describer [كَرِيم]{.ar} "noble/generous" is likely to apply to a man, and not to a house.
 
-If, however, the context is not clear, and the meaning of the describer can apply to both the annexe noun and the base noun, then the describer is likely to apply to the base noun and not to the annexe noun. So then, this interpretation is more likely:
+If, however, the context is not clear, and the meaning of the describer can apply to both the ;mudaf; and the base noun, then the describer is likely to apply to the base noun and not to the ;mudaf;. So then, this interpretation is more likely:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ ٱلرَّجُلِ ٱلْكَبِيرِ.]{.ar}  
 "The boy went to the big/old man's house."  
 
-In order to apply a describer to the annexe noun in such a case, it is better to break the annexation and form a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
+In order to apply a describer to the ;mudaf; in such a case, it is better to break the annexation and form a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ ٱلْبَيْتِ ٱلْكَبِيرِ لِلرَّجُلِ .]{.ar}  
 "The boy went to the big house of the man."  
@@ -401,15 +401,15 @@ its i-state is indicate by an [a]{.trn}-mark [◌َ]{.ar}.
 
 This is consistent with the general behavior of semi-flexible nouns that we are familiar with.
 
-### A semi-flexible noun as the annexe noun
+### A semi-flexible noun as the ;mudaf;
 
-Contrary from expected behavior, a semi-flexible annexe noun, even when indefinite, takes an [i]{.trn}-mark\ [◌ِ]{.ar} in the i-state instead of an [a]{.trn}-mark\ [◌َ]{.ar}. Example,
+Contrary from expected behavior, a semi-flexible ;mudaf;, even when indefinite, takes an [i]{.trn}-mark\ [◌ِ]{.ar} in the i-state instead of an [a]{.trn}-mark\ [◌َ]{.ar}. Example,
 
 [قَدِمَ ٱلْأَعْرَابِيُّ مِنْ صَحْرَاءِ أَرْضٍ بَعِيدَةٍ.]{.ar}  
 "The bedouin came from the desert of a far land."
 
 In the above example,
-^2^[صَحْرَاء]{.ar} "a desert" is indefinite because it is the annexe noun to an indefinite base noun [أَرْض]{.ar} "a land". 
+^2^[صَحْرَاء]{.ar} "a desert" is indefinite because it is the ;mudaf; to an indefinite base noun [أَرْض]{.ar} "a land". 
 It is in the i-state because it is preceded by the preposition [مِنْ]{.ar} "from". 
 Nevertheless, it takes an [i]{.trn}-mark [مِنْ صَحْرَاءِ أَرْضٍ]{.ar}, not an [a]{.trn}-mark, which would be incorrect: $\times$\ [مِنْ صَحْرَاءَ أَرْضٍ]{.ar}.
 
@@ -467,12 +467,12 @@ So far we have seen annexations with two nouns. Annexations may be arbitrarily l
 
 The above annexation consists of three nouns. It may be divided into two sub-annexations:
 
-i. [مِفْتَاحُ بَابِ]{.ar} "door's key". Its annexe noun $a_1$\ is [مِفْتَاح]{.ar} and its base noun\ $b_1$ is [بَابِ]{.ar}.
-i. [بَابِ ٱلْبَيْتِ]{.ar} "the house's door". Its annexe noun $a_2$\ is [بَابِ]{.ar} and its base noun\ $b_2$ is [ٱلْبَيْتِ]{.ar}.
+i. [مِفْتَاحُ بَابِ]{.ar} "door's key". Its ;mudaf; $a_1$\ is [مِفْتَاح]{.ar} and its base noun\ $b_1$ is [بَابِ]{.ar}.
+i. [بَابِ ٱلْبَيْتِ]{.ar} "the house's door". Its ;mudaf; $a_2$\ is [بَابِ]{.ar} and its base noun\ $b_2$ is [ٱلْبَيْتِ]{.ar}.
 
 The noun [بَاب]{.ar} "door" is common to both sub-annexations. It is the base noun of the first sub-annexation
 [مِفْتَاحُ بَابِ]{.ar} "door's key".
-At the same time, it is also the annexe noun of the second sub-annexation
+At the same time, it is also the ;mudaf; of the second sub-annexation
 [بَابِ ٱلْبَيْتِ]{.ar} "the house's door".
 
 Only the final base noun may have [ٱَلْ]{.ar} or be [nUn]{.trn2}ated. If the final base noun has [ٱَلْ]{.ar} (as above) then all the nouns in the annexation are definite. 
@@ -482,9 +482,9 @@ And if the final base noun is indefinite, as in the example below, then all the 
 [مِفْتَاحُ بَابِ بَيْتٍ]{.ar}  
 "a house's door's key"
 
-All the nouns except the first annexe noun must be in the i-state. Consistent with 
+All the nouns except the first ;mudaf; must be in the i-state. Consistent with 
 section\ \@ref(a-semi-flexible-noun-as-the-annexe-noun)
-if a semi-flexible noun is any of the annexe nouns and is in the i-state, then its i-state is indicated by an [a]{.trn}-mark [◌َ]{.ar}. Example:
+if a semi-flexible noun is any of the ;mudaf;s and is in the i-state, then its i-state is indicated by an [a]{.trn}-mark [◌َ]{.ar}. Example:
 
 [مِنْ بِئْرِ صَحْرَاءِ أَرْضٍ]{.ar}  
 "from the well of the desert of a land"
@@ -507,7 +507,7 @@ The difference is that we would like to replace the base noun [ٱَلْغُلَ�
 
 This annexation follows the same rules as the other annexations we have been studying so far:
 
-+ The annexe noun may be in any state, depending on its function in the sentence.
++ The ;mudaf; may be in any state, depending on its function in the sentence.
 + The base noun is in the i-state. But because the base noun is a pronoun, and pronouns are rigid nouns (see section\ \@ref(rigidity-of-pronouns) that don't change their ending based on their state, therefore it's i-state will not be apparent.
 
 Here are some examples of this annexation used in sentences:
@@ -521,7 +521,7 @@ Here are some examples of this annexation used in sentences:
 [كَتَبَ ٱلْمُعَلِّمُ فِي كِتَابهِ.]{.ar}  
 "The teacher~m~ wrote in his book."
 
-If the annexe noun ends with [ة]{.ar} then it is converted to a [ت]{.ar} when annexing it to an attached pronoun. For example:
+If the ;mudaf; ends with [ة]{.ar} then it is converted to a [ت]{.ar} when annexing it to an attached pronoun. For example:
 
 [ذَهَبُوا إِلَىٰ مَدْرَسَتِهِمْ.]{.ar}  
 "They went to their school."
@@ -540,12 +540,12 @@ Here are some more examples of annexing to the different attached pronouns:
 [هُوَ إِمَامُ مَسْجِدِنَا.]{.ar}  
 "He is the [E#imAm]{.trn2} of our mosque."
 
-If the annexe noun is semi-flexible then it gets a [◌ِ]{.ar} in the i-state, as we've already learned. Example with the semi-flexible broken plural ^2^[حَدَائِق]{.ar} "gardens".
+If the ;mudaf; is semi-flexible then it gets a [◌ِ]{.ar} in the i-state, as we've already learned. Example with the semi-flexible broken plural ^2^[حَدَائِق]{.ar} "gardens".
 
 [لَعِبْنَ فِي حَدَائِقِهِنَّ.]{.ar}  
 "They~3,f~ played in their~3,f~ gardens."
 
-If an annexe noun ends with [ىٰ]{.ar} then it gets converted to an [alif]{.trn2} when annexing it to an attached pronoun. Example with ^2^[فَتَاوَىٰ]{.ar} "legal opinions":
+If an ;mudaf; ends with [ىٰ]{.ar} then it gets converted to an [alif]{.trn2} when annexing it to an attached pronoun. Example with ^2^[فَتَاوَىٰ]{.ar} "legal opinions":
 
 [كَتَبَ تَلَامِذَةُ ٱلشَّيْخِ فَتَاوَاهُ فِي كُتُبِهِمْ.]{.ar}  
 "The pupils of the religious scholar wrote down his legal opinions in their books."
@@ -563,7 +563,7 @@ The first ([ي]{.ar} [-I]{.trn}) is more commonly used. Example:
 [أَقْلَامِي قَصِيرَة.]{.ar}  
 "My pens are short."
 
-If, however, the annexe noun ends in a long vowel or a semi-vowel then 
+If, however, the ;mudaf; ends in a long vowel or a semi-vowel then 
 ([ي]{.ar} [-I]{.trn}) is disallowed and only
 ([يَ]{.ar} [-ya]{.trn}) shall be used. 
 Example with the semi-flexible broken plural ^2^[هَدَايَا]{.ar} "gifts":
@@ -578,9 +578,9 @@ Consider the annexation:
 [كِتَابُهُ]{.ar}  
 "his book"
 
-The annexe noun is [كِتَاب]{.ar} and the base noun is the pronoun [ه]{.ar}.
+The ;mudaf; is [كِتَاب]{.ar} and the base noun is the pronoun [ه]{.ar}.
 We would like add a describer to this expression.
-Remember from section\ \@ref(definiteness-of-pronouns) that pronouns are definite nouns. That makes the annexe noun [كِتَاب]{.ar} also definite.
+Remember from section\ \@ref(definiteness-of-pronouns) that pronouns are definite nouns. That makes the ;mudaf; [كِتَاب]{.ar} also definite.
 Therefore, any describer for this annexation will need to be definite too.
 
 Here is a new rule: Pronouns may not be describees. That is: they are not allowed to have describers.
@@ -592,7 +592,7 @@ but you can't say:
 
 $\times$\ "The good _he_ went."
 
-So, any describers for the annexation must necessarily only describe the annexe noun, not the base pronoun. Example:
+So, any describers for the annexation must necessarily only describe the ;mudaf;, not the base pronoun. Example:
 
 [كِتَابُهُ الأَحْمَرُ]{.ar}  
 "his red book"
@@ -632,9 +632,9 @@ Here are some examples:
 [هِيَ طَالِبَةُ مُعَلِّمَتَيْنِ كَرِيمَتَيْنِ.]{.ar}  
 "She is the student~f~ of noble teachers~2,f~."
 
-### Duals and [Un]{.trn} sound plurals as annexe nouns
+### Duals and [Un]{.trn} sound plurals as ;mudaf;s
 
-When duals and [Un]{.trn} sound plurals are annexe nouns, then their final [ن]{.ar} is treated as a sort of [nUn]{.trn2}ation and is, therefore, deleted before annexing them to a base noun. For example:
+When duals and [Un]{.trn} sound plurals are ;mudaf;s, then their final [ن]{.ar} is treated as a sort of [nUn]{.trn2}ation and is, therefore, deleted before annexing them to a base noun. For example:
 
 [بَيْتَا ٱلرَّجُلِ]{.ar}  
 "the man's houses~2~"  
@@ -647,7 +647,7 @@ Note, also, that because the base noun [ٱَلرَّجُلِ]{.ar} begins with a
 not  
 $\times$\ [baytA -rrajuli]{.trn}
 
-If the dual annexe noun were in the i-state then the final [ي]{.ar} gets an [i]{.trn}-mark [◌ِ]{.trn} if there is following connecting [hamzah]{.trn2}. Example:
+If the dual ;mudaf; were in the i-state then the final [ي]{.ar} gets an [i]{.trn}-mark [◌ِ]{.trn} if there is following connecting [hamzah]{.trn2}. Example:
 
 [قَرَأْتُ كِتَابَيِ ٱلرَّجُلِ.]{.ar}  
 [qaraEtu kitAbayi -rrajul]{.trn}  
@@ -685,7 +685,7 @@ There are also two special cases in this category and we will examine them below
 
 ##### Annexing an [Un]{.trn} sound plural to the singular speaker participant pronoun {-} 
 
-When an [Un]{.trn} sound plural is annexed to the singular speaker participant pronoun, then again, only the [يَ]{.ar} variant can be used. However, in addition, the expression will appear the same regardless of the state of the annexe noun. So for all states (u-state, a-state, and i-state), we will get:
+When an [Un]{.trn} sound plural is annexed to the singular speaker participant pronoun, then again, only the [يَ]{.ar} variant can be used. However, in addition, the expression will appear the same regardless of the state of the ;mudaf;. So for all states (u-state, a-state, and i-state), we will get:
 
 [مُعَلِّمِيَّ]{.ar}
 
@@ -706,7 +706,7 @@ We don't say $\times$\ [مُعَلِّمُويَ]{.ar} for the u-state. Examples
 ##### Annexing an dual noun to a dual pronoun {-} 
 
 <!-- see فقد صغت قلوبكما-->
-When a dual noun is to be annexed to a dual pronoun, then the dual annexe noun is often converted to a plural. For example, instead of saying 
+When a dual noun is to be annexed to a dual pronoun, then the dual ;mudaf; is often converted to a plural. For example, instead of saying 
 
 [نَظَرْتُ إِلَىٰ رَأْسَيْهِمَا]{.ar}
 "I looked at their~2~ heads~2~."
@@ -726,7 +726,7 @@ Compare this with describing the base noun with the same adjectival noun.
 "the girl's small book"
 
 As you can see, the adjectival noun [صَغِير]{.ar} "a small one" is in the same location, but its gender and state are different in both expressions because they match a different describee. 
-The definiteness, however, is the same in the two expressions because the annexe noun has the same definiteness as the base noun.
+The definiteness, however, is the same in the two expressions because the ;mudaf; has the same definiteness as the base noun.
 
 
 
@@ -1040,9 +1040,9 @@ Here are some notes regarding the use of pronouns in noun-chains.
 
 ## Annexations with "and"
 
-### Multiple annexe nouns and one base noun
+### Multiple ;mudaf;s and one base noun
 
-In English we can have an expression like "the pen and the book of the boy" = "the boy's pen and book". In this sentence there are two annexe nouns and one base noun.
+In English we can have an expression like "the pen and the book of the boy" = "the boy's pen and book". In this sentence there are two ;mudaf;s and one base noun.
 
 In order to express this in Arabic, we will say:
 
@@ -1068,9 +1068,9 @@ If the base noun in the first annexation is replaced with a pronoun then only th
 [qalamuhu wakitAbuhu]{.trn}  
 "his pen and his book"
 
-### One annexe noun and multiple base nouns
+### One ;mudaf; and multiple base nouns
 
-We can also have expressions like "the house of the boy and the girl". In this sentence there is one annexe noun and two base nouns.
+We can also have expressions like "the house of the boy and the girl". In this sentence there is one ;mudaf; and two base nouns.
 
 To express this in Arabic we will say:
 
@@ -1106,7 +1106,7 @@ piece of bread, man of wealth, rule of law, nahru -lEurdunn
 
 ## Annexation to a sentence
 
-So far we have studied the annexation of an annexe noun to a base noun.
+So far we have studied the annexation of an ;mudaf; to a base noun.
 It is also possible to have an annnexation where the base noun is replaced by a sentence or a clause.
 For example,
 
@@ -1128,7 +1128,7 @@ For example,
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe noun};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ;mudaf;};
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
@@ -1143,7 +1143,7 @@ For example,
 \end{tikzpicture}
 ```
 
-The word [يَوْم]{.ar} is the annexe noun and is used as an adverb or time.
+The word [يَوْم]{.ar} is the ;mudaf; and is used as an adverb or time.
 The entire sentence
 [خَرَجْنَا مِنَ ٱلْمَدِينَةِ.]{.ar}
 occupies the place of the base noun.
@@ -1266,7 +1266,7 @@ the feminine number has a [sukUn]{.trn2} on the [ش]{.ar}
 ([عَشْر]{.ar} [eacr]{.trn}).
 
 Consistent with the numbers 1 and 2, the numbers from 3--10 may be used as describers.
-But they are more often used as annexe nouns.
+But they are more often used as ;mudaf;s.
 As mentioned earlier, we will treat numbers more fully later, if [#allAh]{.trn2} wills.
 But here are some examples for now:
 
