@@ -1,1 +1,1 @@
-perl -i -pe's/Incomplete.action/;#mudarie;/g' *.qmd
+perl -i -pe's/;([#\w]+);/[$1]{.term}/g' *.qmd

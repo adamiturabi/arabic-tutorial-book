@@ -46,7 +46,7 @@ map_table["manut"] = {"describee", nil}
 map_table["masdar"] = {"maSdar", "trn2"}
 map_table["mawsul"] = {"connected noun", nil}
 map_table["mmutlaq"] = {"absolute doee", nil}
-map_table["mubdalb"] = {"replacemee", nil}
+map_table["mubdalb"] = {"replacee", nil}
 map_table["mubtada"] = {"topic", nil}
 map_table["mudaf"] = {"annexe noun", nil}
 map_table["mudafil"] = {"base noun", nil}
@@ -54,7 +54,7 @@ map_table["mudarie"] = {"muDArie", "trn2"}
 map_table["mutaddi"] = {"transitive", nil}
 
 map_table["naib"] = {"deputy", nil}
-map_table["nat"] = {"describer", nil}
+map_table["naat"] = {"describer", nil}
 
 map_table["passive"] = {"passive", nil}
 
@@ -75,7 +75,7 @@ function get_output_text(input_text)
   --  capitalize = true
   --end
   --input_text = string.lower(input_text)
-  if string.match(input_text:sub(1,1), "#") then
+  if string.match(input_text:sub(1,1), "_") then
     capitalize = true
     input_text = input_text:sub(2)
   end
@@ -93,7 +93,7 @@ function get_output_text(input_text)
   end
   if mapped[2] == "trn2" then
     if capitalize then
-      mapped[1] = "#" .. mapped[1]
+      mapped[1] = "_" .. mapped[1]
     end
     return romanize.RomanizeMapping(mapped[1], false)
   elseif mapped[2] == "ar" then
