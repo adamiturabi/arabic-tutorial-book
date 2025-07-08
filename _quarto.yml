@@ -18,37 +18,37 @@ book:
   date: now
   chapters:
     - index.qmd
-    #- content/intro.qmd
-    #- content/script.qmd
-    #- content/nouns.qmd
+    - content/intro.qmd
+    - content/script.qmd
+    - content/nouns.qmd
     - content/simple_sentences.qmd
-    #- content/prepositions.qmd
-    #- content/past_verbs.qmd
-    #- content/describing_nouns.qmd
-    #- content/diptotes.qmd
-    #- content/duals.qmd
-    #- content/sound_plurals.qmd
-    #- content/broken_plurals.qmd
-    #- content/idafa.qmd
-    #- content/irregular_nouns.qmd
-    #- content/proper_nouns.qmd
-    #- content/vocative.qmd
-    #- content/ism_ishara.qmd
-    #- content/imperfect_verb_indic.qmd
-    #- content/doing_verbal_noun.qmd
-    #- content/imperfect_verb_subj.qmd
-    #- content/imperfect_verb_juss.qmd
-    #- content/additional_forms.qmd
-    ##- content/elatives.qmd
-    #- content/dharf.qmd
+    - content/prepositions.qmd
+    - content/past_verbs.qmd
+    - content/describing_nouns.qmd
+    - content/diptotes.qmd
+    - content/duals.qmd
+    - content/sound_plurals.qmd
+    - content/broken_plurals.qmd
+    - content/idafa.qmd
+    - content/irregular_nouns.qmd
+    - content/proper_nouns.qmd
+    - content/vocative.qmd
+    - content/ism_ishara.qmd
+    - content/imperfect_verb_indic.qmd
+    - content/doing_verbal_noun.qmd
+    - content/imperfect_verb_subj.qmd
+    - content/imperfect_verb_juss.qmd
+    - content/additional_forms.qmd
+    #- content/elatives.qmd
+    - content/dharf.qmd
     - content/maf3ool_mutlaq.qmd
-    #- content/passive_voice.qmd
-    #- content/doer_verbal_noun.qmd
-    #- content/kaana.qmd
-    #- content/inna_and_its_sisters.qmd
-    #- content/ism_mawsuul.qmd
-    #- content/question_nouns.qmd
-    #- content/yes_no_questions.qmd
+    - content/passive_voice.qmd
+    - content/doer_verbal_noun.qmd
+    - content/kaana.qmd
+    - content/inna_and_its_sisters.qmd
+    - content/ism_mawsuul.qmd
+    - content/question_nouns.qmd
+    - content/yes_no_questions.qmd
   downloads: [pdf]
   site-url: https://adamiturabi.github.io/arabic-tutorial-book/
   #cover-image: srchtml/favicon.png

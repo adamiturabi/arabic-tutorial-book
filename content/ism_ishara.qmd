@@ -1,0 +1,794 @@
+# Pointing nouns
+
+## Introduction
+
+Consider the following expression:
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=this book,
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize pointing noun};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize pointed-to noun};
+
+\end{tikzpicture}
+```
+
+The word "this" is what we will call a _pointing noun_. We call it this because we can imagine standing next to a book and pointing to it and saying "this book".
+
+The word "book" here is similarly called the _pointed-to_ noun. It refers to the object being pointed to.
+
+## The pointing nouns in Arabic
+
+There are two types of pointing nouns:
+
+i. Near pointing nouns: "this-one" (singular) and "these-ones" (dual and plural).
+i. Far  pointing nouns: "that-one" (singular) and "those-ones" (dual and plural).
+
+The following are the pointing nouns in Arabic:
+
+| Participant |State| Near pointing  noun || Far pointing  noun ||
+|:----|:-|--:|:----|--:|:----|
+|sing. masc.|all|[هَـٰذَا]{.ar}  |this one~m~    |[ذَ ٰلِكَ]{.ar}  |that one~m~  |
+|sing. fem. |all|[هَـٰذِهِ]{.ar}  |this one~f~    |[تِلْكَ]{.ar}   |that one~f~  |
+|dual masc. |u  |[هَـٰذَانِ]{.ar} |these ones~2,m~|[ذَ ٰنِكَ]{.ar}  |those ones~2,m~|
+|dual masc. |a,i|[هَـٰذَيْنِ]{.ar} |these ones~2,m~|[ذَيْنِكَ]{.ar}  |those ones~2,m~|
+|dual fem.  |u  |[هَاتَانِ]{.ar} |these ones~2,f~|[تَانِكَ]{.ar}  |those ones~2,f~|
+|dual fem.  |a,i|[هَاتَيْنِ]{.ar} |these ones~2,f~|[تَيْنِكَ]{.ar}  |those ones~2,f~|
+|plural     |all|[هَـٰؤُلَاءِ]{.ar}|these ones~3~  |[أُولَـٰئِكَ]{.ar}|those ones~3~  |
+
+Note the following:
+
++ Many of the pointing nouns contain small [alif]{.trn2} [◌ٰ]{.ar}. For most of them, this is how they must be written. It would be incorrect to write [هَـٰذَا]{.ar} [hApA]{.trn} as [هَاذَا]{.ar}.
++ All the near pointing nouns begin with a [ه]{.ar}. And all the far pointing nouns end with [ك]{.ar}.
++ The [و]{.ar} in [أُولَـٰئِكَ]{.ar} [EulAEika]{.trn} is silent and not pronounced. That is, the first syllable has a short vowel [u]{.trn}, not the long vowel [U]{.trn}.
++ Most of the pointing nouns are rigid nouns. That is: their endings are not modified for their state. 
+
+  The dual pointing nouns, however, are flexible nouns, for example: [هَـٰذَانِ]{.ar}  (u-state)   / [هَـٰذَيْنِ]{.ar}  [hApayni]{.trn} (a- and i-states).
+
++ The pointing nouns for the plural are the same for both masculine and feminine genders.
+
+## Definiteness of pointing nouns
+
+The pointing nouns share some similarities with pronouns [هُوَ]{.ar}, [هِيَ]{.ar}, etc. Just like pronouns, pointing nouns, too, are definite nouns even though they don't have [ٱَلْ]{.ar}.
+
+Remember, however, from section\ \@ref(describers-with-[idafa]{.term}s-to-pronouns), that pronouns may not be describees.
+Pointing nouns are different from pronouns in this regard. It is allowed to describe a pointing noun with a describer in a noun phrase.
+
+Both these facts will prove useful in the next section.
+
+## Pointing noun for plurals of non-intelligent beings
+
+Consistent with how we have been dealing with the so far,
+, we can choose between the following pointing nouns for 
+the plurals of non-intelligent beings:
+
+||Near pointing noun |Far pointing noun|
+|:----|:-|--:|:----|--:|:----|
+|sing. fem. |all|[هَـٰذِهِ]{.ar}  |this one~f~    |[تِلْكَ]{.ar}   |that one~f~  |
+|plural     |all|[هَـٰؤُلَاءِ]{.ar}|these ones~3~  |[أُولَـٰئِكَ]{.ar}|those ones~3~  |
+
+The singular feminine pointing noun is usually preferred, unless the plural plural pointing noun is needed to indicate that there is more than one.
+We will be giving examples throughout this chapter.
+
+## The pointing noun phrase
+
+Remember from chapter\ \@ref(adjectival-nouns-and-descriptive-noun-phrases) that a descriptive noun-phrase consists of a describer and a describee. The describer follows the describer and matches it in definiteness, state, gender, and number. 
+
+Here is an example of a descriptive noun-phrase in a sentence.
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{ٱلصَّغِيرَينِ} \txarb{ٱلْكِتَابَيْنِ} \txarb{قَرَأْتُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describer};
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describee};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-2.south east)
+      node [midway, below] {\scriptsize descriptive noun-phrase};
+
+\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read the small books.'')};
+
+\end{tikzpicture}
+```
+
+We will now see how this same descriptive noun-phrase can be used with pointing nouns.
+
+### Pointing to a single noun
+
+We will first deal with nouns that are single words, like [ٱَلْكِتَابَيْنِ]{.ar} above. 
+In section\ \@ref(pointing-to-an-[idafa]{.term})
+below, we will deal with nouns that are part of an [idafa]{.term}, like [كِتَابَيِ ٱلرَّجُلِ]{.ar}.
+
+#### The pointed-to noun is definite with [ٱَلْ]{.ar} {#phrase-single-pointed-to-noun-with-al}
+
+Just like an adjectival noun, a pointing noun can be a describer in a noun-phrase. But remember from 
+section\ \@ref(definiteness-of-pointing-nouns)
+above that pointing nouns are definite.
+So, if a pointing noun is a describer in a noun-phrase, the describee has to be definite too.
+Example:
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{هَـٰذَيْنِ} \txarb{ٱلْكِتَابَيْنِ} \txarb{قَرَأْتُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describer};
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describee};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-2.south east)
+      node [midway, below] {\scriptsize descriptive noun-phrase};
+
+\path (0,0) node [midway, below=10ex, right=0ex, align=left] {``I read these books.''\\(literally: ``I read the these-ones books.'')};
+
+\end{tikzpicture}
+```
+
+In the above example, the pointed-to noun [ٱَلْكِتَابَيْنِ]{.ar} is the describee in a descriptive noun-phrase. It is definite, in the a-state, masculine, and dual.
+
+The pointing noun [هَـٰذَيْنِ]{.ar} is its describer. It follows the describee and matches it being dual, in the a-state, masculine, and dual.
+
+As a special case, when the pointed-to noun has [ٱَلْ]{.ar} (as in this case: [ٱَلْكِتَابَيْنِ]{.ar}), then the order of the pointing noun and the pointed to noun is permitted to be reversed. 
+<!--The pointing noun can be the describee, and the pointed-to noun can be the describer.-->
+
+The pointing noun is then a replacee (see section\ \@ref(the-replacement)), and the pointed-to noun is its replacement.
+
+Example:
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{ٱلْكِتَابَيْنِ} \txarb{هَـٰذَيْنِ} \txarb{قَرَأْتُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize replacement};
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize replacee};
+
+\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read these books.''\\(literally: ``I read the books: these-ones.'')};
+
+\end{tikzpicture}
+```
+
+In the above example, the 
+pointing noun [هَـٰذَيْنِ]{.ar} 
+is a replacee. It is definite, in the a-state, masculine, and dual.
+
+The 
+pointed-to noun [ٱَلْكِتَابَيْنِ]{.ar} 
+is its replacement. It follows the replacee and matches it being dual, in the a-state, masculine, and dual.
+
+As a matter of fact, even though both orders are permitted, this reverse order of placing the pointing noun first and following it with the pointed-to noun is more common.
+
+Here are some more examples of pointing noun phrases when the pointed-to noun is definite with [ٱَلْ]{.ar}:
+
+[هَـٰذَا ٱَلرَّجُلُ ٱلْكَرِيمُ إِمَامٌ.]{.ar}  
+[ٱَلرَّجُلُ ٱلْكَرِيمُ هَـٰذَا إِمَامٌ.]{.ar}  
+"This noble man is an [imAm]{.trn2}."
+
+#### The pointed-to noun is a proper noun
+
+Remember that proper noun are definite nouns, even though they usually don't begin with [ٱَلْ]{.ar}. For example:
+
+|||||
+|--:|:---|--:|:---|
+|[زَيْد]{.ar}     |Zayd   |[ٱَلْحَارِث]{.ar}  |[al-#HAriv]{.trn2}|
+|^2^[زَيْنَب]{.ar} |Zaynab |[قُرَيْش]{.ar}    |[#qurayc]{.trn2}  |
+
+Such names may also be part of a pointing noun phrase. 
+If they don't begin with [ٱَلْ]{.ar} then only the [pointed-to noun first, then pointing noun] order is permitted.
+Example:
+
+[زَيْدٌ هَـٰذَا أَخُو زَيْنَبَ تِلْكَ.]{.ar}  
+"This Zayd is that Zaynab's brother."
+
+[قُرَيْشٌ هَـٰؤُلَاءِ سَكَنُوا بِمَكَّةَ.]{.ar}  
+"These [#qurayc]{.trn2} dwelled in Makkah."
+
+If the name begins with [ٱَلْ]{.ar} then both orders are permitted.
+
+[هَـٰذَا ٱلْحَارِث]{.ar}  
+[ٱلْحَارِث هَـٰذَا]{.ar}  
+"this [al-#HAriv]{.trn2}"
+
+<!--Wright, ii Sect 136 277B-->
+
+### Pointing to an [idafa]{.term}
+
+Consider the following expression:
+
+"the man's book"
+
+We can apply the pointing noun "this" to either "the book" or to "the man" in a pointing noun phrase. So we have two options:
+
+i. "the book of this man"
+i. "this book of the man"
+
+Similarly, consider the following expression:
+
+"Zayd's book"
+
+We can, again, apply the pointing noun "this" to either "the book" or to "Zayd":
+
+i. "the book of this Zayd"
+i. "this book of Zayd"
+
+In this section we will learn how to construct these pointing noun phrases in Arabic.
+Arabic uses [idafa]{.term}s to express the above meanings. So we will discuss [idafa]{.term}s like:
+
+[كِتَابُ ٱلرَّجُلِ]{.ar}  
+"the book of the man"
+
+and
+
+[كِتَابُ زَيْدٍ]{.ar}  
+"the book of Zayd"
+
+Note that both the above [idafa]{.term}s are definite because their [mudafil]{.term}s are definite.
+
+Indefinite [idafa]{.term}s like 
+[كِتَاب رَجُلٍ]{.ar} "a man's book"
+cannot be used in pointing noun phrases.
+
+#### The definite [mudafil]{.term} begins with [ٱَلْ]{.ar}
+
+We will first consider [idafa]{.term}s where the definite [mudafil]{.term} begins with [ٱَلْ]{.ar}, like:
+
+[كِتَابُ ٱلرَّجُلِ]{.ar}  
+"the book of the man"
+
+##### Pointing to the [mudafil]{.term}  
+
+We would like to express the phrase:
+
+"the book of this man"
+
+In order to point to the [mudafil]{.term} [ٱَلرَّجُل]{.ar} "the man" with the pointing noun [هَـٰذَا]{.ar} "this-one~m~", we can put the pointing noun either before or after the [mudafil]{.term}, thus:
+
+[كِتَابُ هَـٰذَا ٱلرَّجُلِ]{.ar}  
+[كِتَابُ ٱلرَّجُلِ هَـٰذَا]{.ar}  
+"the book of this man"
+
+Both these pointing noun phrases give the same meaning: "the book of this man".
+However, the first phrase
+[كِتَابُ هَـٰذَا ٱلرَّجُلِ]{.ar}
+is preferred, consistent with what we learned in 
+section\ \@ref(phrase-single-pointed-to-noun-with-al), above.
+
+The second phrase
+[كِتَابُ ٱلرَّجُلِ هَـٰذَا]{.ar},
+although correct, would only rarely be used with this meaning.
+(In fact, it has another meaning: "this book of the man" which we will learn in
+section\ \@ref(pointing-to-the-annexe-noun), below.)
+
+Here is how these phrases could be used in complete sentences:
+
+[كِتَابُ هَـٰذَا ٱلرَّجُلِ جَدِيدٌ.]{.ar}  
+[كِتَابُ ٱلرَّجُلِ هَـٰذَا جَدِيدٌ.]{.ar}  
+"The book of this man is new."
+
+Before we give more examples, let's analyze these phrases in detail.
+
+Consider the first pointing noun phrase:
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{ٱلرَّجُلِ} \txarb{هَـٰذَا} \txarb{كِتَابُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize base-noun};
+
+\draw [decoration={brace}, decorate] 
+   (word-3.north west) -- (word-3.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe-noun};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize replacement};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize replacee};
+
+\path (0,0) node [midway, below=17ex, right=0ex, align=left] {``the book of this man''\\(literally: ``the book of this-one: the man'')};
+
+\end{tikzpicture}
+```
+
+As you can see the pointing noun
+[هَـٰذَا]{.ar} has taken the place of 
+[ٱَلرَّجُل]{.ar} as the [mudafil]{.term} in the [idafa]{.term}.
+In addition to being the [mudafil]{.term},
+[هَـٰذَا]{.ar} is also a replacee, whose replacement is 
+[ٱَلرَّجُل]{.ar}.
+The literal, word-for-word, translation of this phrase is:
+
+"the book of this-one: the man"
+
+The more natural translation is:
+
+"the book of this man"
+
+Consider, now, the second pointing noun phrase:
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{هَـٰذَا} \txarb{ٱلرَّجُلِ} \txarb{كِتَابُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize base-noun};
+
+\draw [decoration={brace}, decorate] 
+   (word-3.north west) -- (word-3.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe-noun};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describer};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
+
+\path (0,0) node [midway, below=15ex, right=0ex, align=left] {``the book of this man''\\(literally: ``the book of the this-one man'')};
+
+\end{tikzpicture}
+```
+
+[ٱَلرَّجُل]{.ar}, here, keeps its place as the [mudafil]{.term} in the [idafa]{.term}.
+In addition to being the [mudafil]{.term},
+[ٱَلرَّجُل]{.ar}
+is also a describee, whose describer is the pointing noun
+[هَـٰذَا]{.ar}.
+The literal, word-for-word, translation of this phrase is:
+
+"the book of the this-one man"
+
+The more natural translation is:
+
+"the book of this man"
+
+##### Pointing to the [mudaf]{.term}  
+
+Consider, again, the [idafa]{.term}:
+
+[كِتَابُ ٱلرَّجُلِ]{.ar}  
+"the book of the man"
+
+We have already discussed how to point to the [mudafil]{.term}
+[ٱَلرَّجُل]{.ar}
+in a pointing noun phrase.
+Now, we would like to point to the [mudaf]{.term} 
+[كِتَاب]{.ar}
+in a pointing noun phrase.
+
+In other words, we would like to express the meaning:
+
+"this book of the man"
+
+<!--
+There are three possible locations to place the pointing noun
+[هَـٰذَا]{.ar}:
+
+i. $\times$ [هَـٰذَا كِتَابُ ٱلرَّجُلِ]{.ar},
+i. $\times$ [كِتَابُ هَـٰذَا ٱلرَّجُلِ]{.ar},
+i. [كِتَابُ ٱلرَّجُلِ هَـٰذَا]{.ar},
+
+The first two options are incorrect, and the third option is correct. We will explain why below.
+-->
+
+The way to express this in Arabic is
+
+[كِتَابُ ٱلرَّجُلِ هَـٰذَا]{.ar}  
+"this book of the man"
+
+But wait! Didn't we see in section\ \@ref(pointing-to-the-base-noun) above that this expression has the meaning
+"the book of this man"?
+
+It turns out that this expression supports both meanings.
+
+But it will generally only be used for the meaning: "this book of the man"
+
+In order to express
+"the book of this man"
+we will typically use the expression [كِتَابُ هَـٰذَا ٱلرَّجُلِ]{.ar}.
+
+Let's analyze the expression
+[كِتَابُ ٱلرَّجُلِ هَـٰذَا]{.ar}
+"this book of the man"
+in detail:
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{هَـٰذَا} \txarb{ٱلرَّجُلِ} \txarb{كِتَابُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize base-noun};
+
+\draw [decoration={brace}, decorate] 
+   (word-3.north west) -- (word-3.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe-noun};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describer};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-3.south west) -- (word-3.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
+
+\path (0,0) node [midway, below=15ex, right=0ex, align=left] {``this book of the man''\\(literally: ``the this-one book of the man'')};
+
+\end{tikzpicture}
+```
+
+[كِتَاب]{.ar}, here, is both and [mudaf]{.term} and a describee.
+Its describer is the pointing noun
+[هَـٰذَا]{.ar}.
+The literal, word-for-word, translation of this phrase is:
+
+"the this-one book of the man"
+
+The more natural translation is:
+
+"this book of the man"
+
+Here is this pointing noun phrase in a complete sentence:
+
+[كِتَابُ ٱلرَّجُلِ هَـٰذَا أَخْضَر.]{.ar}  
+"This book of the man is green."
+
+###### Ambiguity of this phrase {-}
+
+A quick note about the ambiguity of this expression:
+
+[كِتَابُ ٱلرَّجُلِ هَـٰذَا]{.ar}  
+"this book of the man" (usual)  
+"the book of this man" (rare)
+
+The ambiguity of whether the pointing noun [هَـٰذَا]{.ar} points to the [mudaf]{.term} 
+[كِتَابُ]{.ar}
+or the [mudafil]{.term}
+[ٱلرَّجُلِ]{.ar}
+only exists because the [mudaf]{.term} and the [mudafil]{.term} match each other in gender and number: singular masculine.
+If the [mudaf]{.term} and the [mudafil]{.term} were different in gender and number, then there would be no ambiguity. Examples:
+
+[كِتَابَا ٱلرَّجُلِ هَـٰذَانِ]{.ar}  
+"these books~2~ of the man"
+
+[كِتَابُ ٱلرَّجُلَيْنِ هَـٰذَا]{.ar}  
+"this book of the men~2~"
+
+[كِتَابُ ٱلْمَرْأَةِ هَـٰذَا]{.ar}  
+"this book of the woman"
+
+[كِتَابُ ٱلْمَرْأَةِ هَـٰذِهِ]{.ar}  
+"the book of this woman"
+
+Here are some more examples of pointing to [mudaf]{.term}s:
+
+##### The [mudafil]{.term} is a proper noun beginning with [ٱَلْ]{.ar}  
+
+Consider the [idafa]{.term}:
+
+[كِتَابُ ٱلزُّبَيْرِ]{.ar}  
+"the book of [al-#zubayr]{.trn2}"
+
+We can apply the preceding discussion of pointing to the [mudaf]{.term} and [mudafil]{.term} to this [idafa]{.term} as well. So we get:
+
+[كِتَابُ هَـٰذَا ٱلزُّبَيْرِ]{.ar}  
+"the book of this al-Zubayr"
+
+[كِتَابُ ٱلزُّبَيْرِ هَـٰذَا]{.ar}  
+"this book of al-Zubayr" (usual)  
+"the book of this al-Zubayr" (rare)
+
+#### The definite [mudafil]{.term} does not begin with [ٱَلْ]{.ar}
+
+Consider, now, that the [mudafil]{.term} is definite but does not begin with [ٱَلْ]{.ar}. There are two such types of nouns that we will discuss:
+
+i. Proper nouns not beginning with [ٱَلْ]{.ar}
+i. Pronouns
+
+##### The [mudafil]{.term} is a proper noun not beginning with [ٱَلْ]{.ar}  
+
+<!--Consider, now, that the [mudafil]{.term} is a proper noun that does not begin with [ٱَلْ]{.ar}, for example:-->
+
+We will first deal with proper nouns  that don't begin with [ٱَلْ]{.ar}.
+Consider the [idafa]{.term}:
+
+[كِتَابُ زَيْدٍ]{.ar}  
+"the book of Zayd"
+
+Because the [mudafil]{.term} [زَيْد]{.ar} does not begin with [ٱَلْ]{.ar}, any pointing nouns can come only after the entire [idafa]{.term}, thus:
+
+[كِتَابُ زَيْدٍ هَـٰذَا]{.ar}
+
+In theory, this supports two meanings:
+
+i. "this book of Zayd"
+i. "the book of this Zayd"
+
+In practice, however, the first meaning 
+("this book of Zayd")
+is much more likely.
+Pointing to a proper noun in a pointing noun phrase 
+("the book of this Zayd")
+is uncommon, generally.
+
+##### The [mudafil]{.term} is a pronoun
+
+We have learned, in 
+section\ \@ref(definiteness-of-pronouns),
+that pronouns are always definite, despite not beginning with [ٱَلْ]{.ar}.
+
+We have also learned, in
+section\ \@ref(pronouns-as-base-nouns),
+that a pronoun may be a [mudafil]{.term} in an [idafa]{.term}.
+Example:
+
+[كِتَابُهُ]{.ar}  
+"his book"
+
+Neither the [mudaf]{.term} [كِتَاب]{.ar}, nor the attached pronoun [هُ]{.ar} begin with [ٱَلْ]{.ar}.
+So if we want to add the pointing noun [هَـٰذَا]{.ar} to this [idafa]{.term} to form a pointing noun phrase,
+then we have to place it at the end, after the [idafa]{.term}, thus:
+
+[كِتَابُهُ هَـٰذَا]{.ar}  
+
+The pointing noun [هَـٰذَا]{.ar}, here, is a describee. But what is its describer?
+
+We have also learned, in
+section\ \@ref(describers-with-[idafa]{.term}s-to-pronouns)
+that pronouns may not be describees in a descriptive noun phrase.
+
+So, we are left with only one option: the [mudaf]{.term} [كِتَاب]{.ar} is the desceibee. And the meaning of the phrase is:
+
+[كِتَابُهُ هَـٰذَا]{.ar}  
+"this book of his"
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{هَـٰذَا} \txarb{ـهُ} \txarb{كِتَابُـ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize base-noun};
+
+\draw [decoration={brace}, decorate] 
+   (word-3.north west) -- (word-3.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe-noun};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describer};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-3.south west) -- (word-3.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
+
+\path (0,0) node [midway, below=15ex, right=0ex, align=left] {``this book of his''};
+
+\end{tikzpicture}
+```
+
+Here are some more examples:
+
+## Pointing nouns as subjects
+
+Besides their use in pointing noun phrases, pointing nouns are very often used as the subject of a sentence. For example:
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{رَجُل} \txarb{هَـٰذَا},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize subject};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize information};
+
+\path (0,0) node [midway, below=17ex, right=0ex, align=left] {``This is a man.''\\(literally: ``This-one is a man.'')};
+
+\end{tikzpicture}
+```
+
+The pointing noun is (usually) made to match the information in number and gender. Examples:
+
+[هَاتَانِ جَارِيَتَانِ.]{.ar}  
+"These are girls~2~."
+
+[أُولَـٰئِكَ مُعَلِّمُونَ.]{.ar}  
+"Those are teachers."
+
+[هَـٰؤُلَاءِ أَقْلَامٌ.]{.ar}  
+"These are pens."
+
+[تِلْكَ بُيُوتٌ.]{.ar}  
+"Those are houses."
+
+[هَـٰذَانِ صَغِيرَانِ.]{.ar}  
+"These are small ones~2~."
+
+The information may be a single word (as above) or more complex (as below):
+
+[ذَ\ ٰلِكَ أَمِيرُ ٱلْمُؤِْمِنِينَ.]{.ar}  
+"That is the commander of the believers."
+
+[أُولَـٰئِكَ أَكَلْنَ ٱلطَّعَامَ..]{.ar}  
+"Those-ones ate~3,f~ the food."
+
+[هَـٰذَا ثَوْبُ رَجُلٍ.]{.ar}  
+"This is a man's garment."
+
+[هَـٰذِهِ كُتُبُهُ.]{.ar}  
+"These are his books."
+
+[هَـٰذَانِ بَيْتَانِ كَبِيرَانِ..]{.ar}  
+"These are big houses~2~."
+
+If the information is a noun that begins with [ٱَلْ]{.ar} then it may be placed after the pointing noun subject in the same manner:
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{ٱلرَّجُلُ} \txarb{هَـٰذَا},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize subject};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize information};
+
+\path (0,0) node [midway, below=17ex, right=0ex, align=left] {``This is the man.''\\(literally: ``This-one is the man.'')};
+
+\end{tikzpicture}
+```
+
+While the this is permitted and correct, it may be sometimes confused with for the pointing noun phrase "this man". So, in the same way that we learned in
+section\ \@ref(chap-smp-sent-sec-def-info),
+we insert a detached pronoun between the subject and the information, thus:
+
+[هَـٰذَا هُوَ ٱلرَّجُلُ.]{.ar}  
+"This is the man."
+
+Here are some more examples:
+
+[هَاتَانِ هُمَا ٱلْجَارِيَتَانِ.]{.ar}  
+"These are the girls~2~."
+
+[أُولَـٰئِكَ هُمُ ٱلْمُعَلِّمُونَ.]{.ar}  
+"Those are the teachers."
+
+[هَـٰؤُلَاءِ هُنَّ ٱلْأَقْلَامٌ.]{.ar}  
+"These are the pens."
+
+[تِلْكَ هِيَ ٱلْبُيُوتٌ.]{.ar}  
+"Those are the houses."
+
+[هَـٰذَانِ هُمَ ٱلصَّغِيرَانِ.]{.ar}  
+"These are the small ones~2~."
+
+### Mismatched pointing noun subject
+
+When the pointing noun is a subject we usually match its number and gender with the number and gender of the information, as we have been doing so far. However, when the pointing noun subject refers to a noun in a previous sentence, then we may prefer to match to the previous noun than to the the following information. Example:
+
+[بَلَغَنَا خَبَرُ ٱلْمَطَرِ عَلَى ٱلْجَبَالِ. ذَ\ ٰلِكَ بُشْرَىٰ لِلزُّرَّاعِ.]{.ar}  
+"The news of the rain on the mountains has reached us. That is a good tiding for the sowers."
+
+Note that the second sentence's subject and information mismatch: 
+
+[ذَ\ ٰلِكَ بُشْرَىٰ]{.ar}  
+"That is a good tiding."
+
+The information
+[بُشٌرَىٰ]{.ar} "a good tiding" is a feminine noun but the subject
+[ذَ\ ٰلِكَ]{.ar} is masculine.
+This is because
+[ذَ\ ٰلِكَ]{.ar}
+is actually referring to [خَبَر]{.ar} in the previous sentence which is a masculine noun.
+
+## Pointing nouns as other parts of speech
+
+Besides their use in pointing noun phrases and as subjects, pointing nouns may be used as other parts of speech as well, typically where one would expect pronouns. Here are some examples:
+
+[أَخَذْتُ ٱلْكِتَابَيْنِ مِنَ ٱلْمَكْتَبَةِ. قَرَأْتُ هَـٰذا وَمَا قَرَأْتُ ذَ\ ٰلِكَ.]{.ar}  
+"I took the books~2~ from the library. I read this one and I didn't read that one."
+
+[شَغَلَنِي ٱلْعَمَلُ ٱلصَّعْبُ وَمَا فَرَغْتُ مِنْ ذَ\ ٰلِكَ.]{.ar}  
+"The difficult work occupied me and I did not get done with that."
+

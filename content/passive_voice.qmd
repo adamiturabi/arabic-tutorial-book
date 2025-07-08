@@ -1,0 +1,393 @@
+# The unknown-doer verb
+
+## Introduction
+
+Consider the sentence:
+
+[شَرِبَ زَيْدٌ ٱلْمَاءَ.]{.ar}  
+[cariba zayduni -lmAE.]{.trn}  
+"Zayd drank the water."
+
+In this sentence, [زَيْدٌ]{.ar} "Zayd" is the doer of the verb [شَرِبَ]{.ar} "drank". 
+This construction of the verb, which we have been using so far, is called the _known-doer verb_ construction,
+because the doer of the verb, in this case "Zayd" is known.
+Now consider the following sentence:
+
+[شُرِبَ ٱلْمَاءُ.]{.ar}  
+[curiba -lmAE.]{.trn}  
+"The water was drunk."
+
+In this sentence, the doer of the verb, i.e. the person who is doing the action of the verb "to drink", is not mentioned. 
+From the sentence itself it is unknown who the doer is. 
+This construction of the verb is called the _unknown-doer verb_ construction.
+
+## Forming the unknown-doer verb
+
+So far we have been studing form\ 1 verbs, which use only the three root letters.
+As we know, the vowel on the middle root letter is variable for known-doer verbs, for example:
+
++ [شَرِبَ يَشْرَبُ]{.ar} "to drink".
++ [فَتَحَ يَفْتَحُ]{.ar} "to open"
++ [كَبُرَ يَكْبُرُ]{.ar} "to become big"
++ etc.
+
+The pattern of unknown-doer verb for form 1 verbs is always:
+
+[فُعِلَ يُفْعَلُ]{.ar}  
+[fueila yufealu]{.trn}
+
+This is regardless of the vowel on the middle root letter in the known-doer verb.
+If there is more than one verb from the same root, with different middle root letter vowels for the known-doer verb, then they will share the same unknown-doer verb. For example, the known-doer verbs: [حَسَبَ يَحْسُبُ]{.ar} "to reckon" and [حَسِبَ يَحْسِبُ]{.ar} "to deem" share the same unknown-doer verb: [حُسِبَ يُحْسَبُ]{.ar}.
+
+The same doer pronouns are used for the unknown-doer verb as for the known-doer verb.
+And the [mudarie]{.term} unknown-doer verb has the same three states as the [mudarie]{.term} known-doer verb.
+For example:
+
++ [فُعِلُوا]{.ar} [fueilU]{.trn} "they~3m~" ([madi]{.term})
++ [تُفْعَلَانِ]{.ar} [tufealAni]{.trn} "you~2~" or "they~2f~" (u-state [mudarie]{.term})
++ [أُفْعَلَ]{.ar} [Eufeala]{.trn} "I" (a-state [mudarie]{.term})
++ etc.
+
+The complete table showing the doer pronouns is given in appendix\ \@ref(verb-tables).
+
+## The deputy doer
+
+Consider again this sentence with an unknown-doer verb construction:
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{ٱلْمَاءُ} \txarb{شُرِبَ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below] {\scriptsize deputy doer};
+
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The water was drunk.''};
+
+\end{tikzpicture}
+```
+
+<!--
+[شُرِبَ ٱلْمَاءُ.]{.ar}  
+[curiba -lmAE.]{.trn}  
+"The water was drunk."
+-->
+
+Note that the noun [ٱَلْمَاءُ]{.ar} [EalmAEu]{.trn} "the water" is in the u-state. This is because, in the absence of the doer, the [mafulb]{.term} of the known-doer verb ([ٱَلْمَاءَ]{.ar}) is deputized to take doer's place in the u-state. It is then known as the _deputy doer_.
+
+The doer pronouns for the unknown-doer verb shall therefore match the gender and number of the deputy doer. Here are some examples:
+
+[شُكِرَتِ ٱلأُمَّهَاتُ وَمُدِحْنَ.]{.ar}  
+[cukirati -lEummahAtu wamudiHn.]{.trn}  
+"The mothers were thanked and praised."
+
+[أَنْتُمَا تُغْبَنَانِ وَتُخْدَعَانِ.]{.ar}  
+[EantumA tugbanAni watuxdaeAn.]{.trn}  
+"You~2~ are being cheated and deceived."
+
+[مَا قُطِعَتِ ٱلشَّجَرَةُ.]{.ar}  
+[mA quTieati -ccajarah.]{.trn}  
+"The tree was not cut."
+
+### The deputy doer for multiple [mafulb]{.term}s
+
+Some verbs, in the known-doer construction, take multiple [mafulb]{.term}. These verbs can be classified into two classes:
+<!--Wright vol. ii., p. 47D, sect. 24-->
+
+a. Verbs that cause the first [mafulb]{.term} to be affected by, or asked for, the second [mafulb]{.term}. Examples:
+<!--[وَعَدَ ٱللَّـٰهُ ٱلْمُؤْمِنِينَ ٱلْجَنَّةَ.]{.ar}  -->
+
+   [مَلَأَ ٱلْغُلَامُ ٱلدَّلْوَ مَاءً.]{.ar}  
+   "The boy filled the bucket (with) water."
+   
+   [مَنَعَ ٱلْمَرَضُ ٱلرَّجُلَ ٱلْعَمَلَ.]{.ar}  
+   "Sickness prevented the man (from) work."
+   
+   [سَأَلَ ٱلْفَقِيرُ ٱلْغَنِيَّ دِرْهَمًا.]{.ar}  
+   "The poor [man] asked the rich [man] (for) a dirham."
+
+b. Verbs that siginify an action of the heart or of intention, like thinking, deeming, making, etc. Examples:
+  
+   [حَسِبْتُ زَيْدًا صَدِيقًا.]{.ar}  
+   "I deemed Zayd [to be] a friend"
+   
+   [وَجَدَتِ ٱلطَّالِبَةُ ٱلْأُسْتَاذَةَ حَلِيمَةً.]{.ar}  
+   "The student~f~ found the professor~f~ [to be] forbearing."
+   
+   [جَعَلَ ٱللَّـٰهُ ٱلْمَاءَ بَرَكَةً.]{.ar}  
+   "[#allAh]{.trn2} has made the water a blessing."
+
+When such verbs are converted to the unknown-doer verb construction, then one, and only one, [mafulb]{.term} shall be chosen to be the deputy doer. It is generally preferred to make the first [mafulb]{.term} the deputy-doer, and leave the second [mafulb]{.term}, as is, in the a-state.
+Here are the same sentences in the unknown-doer construction:
+
+[مُلِئَتِ ٱلدَّلْوُ مَاءً.]{.ar} ([دَلْو]{.ar} "bucket" is feminine.)  
+"The bucket was filled (with) water."
+
+[مُنِعَ ٱلرَّجُلُ ٱلْعَمَلَ.]{.ar}  
+"The man was prevented (from) work."
+
+[سُئِلَ ٱلْغَنِيُّ دِرْهَمًا.]{.ar}  
+"The rich [man] was asked for a dirham."
+
+[حُسِبَ زَيْدٌ صَدِيقًا.]{.ar}  
+"Zayd was deemed [to be] a friend"
+
+[وُجِدَتِ ٱلْأُسْتَاذَةُ حَلِيمَةً.]{.ar}  
+"The professor~f~ was found [to be] forbearing."
+
+[جُعِلَ ٱلْمَاءُ بَرَكَةً.]{.ar}  
+"Water has been made a blessing."
+
+## Impersonal use
+
+When verbs are used without a [mafulb]{.term}, then their unknown-doer construction gives in an impersonal meaning. There are a few such usages that we will explain in the following subsections.
+
+### With prepositional phrases
+
+Some verbs take no [mafulb]{.term}s, but are used with prepositional phrases. For example,
+
+[جَلَسَ ٱلنَّاسُ عَلَى ٱلْأَرْضِ.]{.ar}  
+"The people sat upon the ground."
+
+Other verbs, which can take a [mafulb]{.term}, may be used without one, and again with a prepositional phrase instead. For example:
+
+[كَتَبَ ٱلْكَاتِبُ بِٱلْقَلَمِ.]{.ar}  
+"The scribe wrote with the pen."
+
+When such sentences are converted to the unknown-doer verb construction then the prepositional phrase may be taken as the deputy doer. 
+However, the preposition causes the noun following it to remain in the i-state. So the deputy doer is not indicated by an apparent [u]{.trn}-mark (or by the other indicators of the u-state).
+The verb then appears to be in the singular masculine, with its deputy doer following it.
+For example:
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{عَلَى ٱلْأَرْضِ} \txarb{جُلِسَ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below] {\scriptsize deputy doer};
+
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The ground was sat upon.''};
+
+\end{tikzpicture}
+```
+
+<!--[جُلِسَ عَلَى ٱلْأَرْضِ.]{.ar}  
+"The ground was sat upon." -->
+
+[كُتِبَ بِٱلْقَلَمِ.]{.ar}  
+"The pen was written with."
+
+### With adverbs of time or place
+
+Other verbs don't take a [mafulb]{.term} but may be used with an adverb of time or place in the a-state. 
+(We will study adverbs of time and place in chapter\ \@ref(adverbs-of-time-and-place), if [#allAh]{.trn2} wills.)
+Here is an example:
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{لَيْلَةَ ٱلْقَدْرِ} \txarb{سَهَرَتِ ٱلْأُمُّ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below] {\scriptsize a-state adverb of time};
+
+\path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The mother stayed up the Night of Power.''};
+
+\end{tikzpicture}
+```
+
+<!--[سَهَرَتِ ٱلْأُمُّ ٱللَّيلَةَ.]{.ar}  
+"The mother stayed up the (whole) night."-->
+When this sentence is converted to an unknown-doer construction then the adverb of time or place can be taken as the deputy doer in the u-state:
+
+[سُهِرَتْ لَيلَةُ ٱلْقَدْرِ.]{.ar}  
+"The Night of Power was stayed up [in]."
+
+Note the u-state of [لَيْلَةُ]{.ar} [laylatu]{.trn} as the deputy doer.
+
+### With the [masdar]{.term}
+
+The [masdar]{.term}, because it is the action being done may be considered a kind of [mafulb]{.term}. 
+(We will study the use of the [masdar]{.term} as a [maful]{.term} in chapter\ \@ref(absolute-doee), if [#allAh]{.trn2} wills.)
+For example:
+
+
+[فَهِمَ ٱلشَّيْخُ فَهْمًا عَمِيقًا.]{.ar}  
+"The old man understood, a deep understanding."
+
+
+When such sentences are converted to the unknown-doer verb construction, then the [masdar]{.term} may be taken as the deputy doer in the u-state.
+
+[فُهِمَ فَهْمٌ عَمِيقٌ.]{.ar}  
+"A deep understanding was understood."
+
+### Requirement of specialization
+
+When a prepositional phrase, or an adverb of time or place, or a [masdar]{.term} is to be used as a deputy doer in an unknown-doer verb construction, then it is required that they be specialized in meaning, and not used in a general sense. So for example, if we have the sentence:
+
+[سَهَرَتِ ٱلْأُمُّ لَيلَةً.]{.ar}  
+"The mother stayed up a night."
+
+then because of the non-specialized meaning of [لَيْلَةً]{.ar}, such a sentence is typically not suitable for being converted to a unknown-doer verb construction.
+
+### Choosing the deputy doer
+
+If a sentence is to be converted to an unknown-doer verb construction and it has more than one of the following:
+
++ a [mafulb]{.term}
++ a specialized prepositional phrase
++ a specialized adverb of time or place
++ a specialized [masdar]{.term}
+
+Then only one shall be chosen as the deputy doer. If a [mafulb]{.term} exists, then it is typically chosen. If a [mafulb]{.term} does not exist, then the one desired to be emphasized may be chosen as the deputy doer. For example:
+
+[سُهِرَ فِي ٱلْمَسْجِدِ لَيلَةَ ٱلْقَدْرِ.]{.ar}  
+"The mosque was stayed up in [on] the Night of Power."
+
+In the above sentence the prepositional phrase [فِي ٱلْمَسْجِدِ]{.ar} was chosen as the deputy doer, and the adverb of time [لَيْلَةَ]{.ar} remains, as is, in the a-state.
+
+## States of the [mudarie]{.term} unknown-doer verb
+
+The 
+[mudarie]{.term} verb unknown-doer verb
+has three states, just like the
+[mudarie]{.term} verb known-doer verb:
+The u-state, the a-state, and the 0-state.
+The three states are used in the same circumstances, and with the same rules that we have already learned.
+
+So the u-state verb is used for making plain statements:
+
+[تُذْكَرُ قِصَّةُ ٱلْمَلِكِ فِي كُتُبِ ٱلتَّأْرِيخِ.]{.ar}  
+"The story of the king is mentioned in the books of history."
+
+[لَا تُرْفَعُ ٱلْأَصْوَاتُ فِي ٱلْمَكْتَبَةِ.]{.ar}  
+"Voices are not raised in the library."
+
+The a-state verb is used for expressing wish or purpose:
+
+[يَأْمُلُ ٱلْمُسْلِمُونَ أَنْ يُغْفَرُ لَهُمْ.]{.ar}  
+"The Muslims hope that they be forgiven."  
+(Note that [يُغْفَرَ]{.ar} has a singular masculine deputy doer because there is no [mafulb]{.term}.)
+
+[لَنْ تُسْمَعَا.]{.ar}  
+"You~2~ shall not be heard."
+
+[دُفِعَ ٱلْبَابُ حَتَّىٰ يُفْتَحَ.]{.ar}  
+"The door was pushed for the result that it open."
+
+Similarly, the 0-state verb is used in the following cases:
+
++ With [لَمْ]{.ar} "was not":
+  
+  [لَمْ يُؤْذَنْ لِي أَنْ أَدْخُلَ.]{.ar}  
+  "It was not permitted for me that I enter."
+
++ With [لَمَّا]{.ar} "not yet"
+
+  [لَمَّا يُكْتَبْ كِتَابٌ فِي هَـٰذَا ٱلْمَوْضُوعِ.]{.ar}  
+  "A book has not yet been written in this subject."
+
++ With [لِ]{.ar} for indirect commands:
+
+  [لِيُسْمَعْ صَوْتُهُ!]{.ar}  
+  "Let his voice be heard!"
+
+  There is no verb of command for unknown-doer verbs. So while indirect commands are typically not used for the addressee participant for known-doer verbs (see section\ \@ref(indirect-commands)), they are the only way to issue commands for the addressee participant in the unknown-doer verb construction:
+
+  [لِتُنْصَرُوا!]{.ar}  
+  "Let you~3m~ be aided!"
+
+## Usage of the unknown-doer verb
+
+There are cases where it is permissible to 
+use of the unknown-doer verb construction,
+and cases where it is _not_ permissible to 
+use of the unknown-doer verb construction. We will explain them below:
+
+### Permissible use of the unknown-doer verb
+
+There can be a number of reasons why a speaker is forced to, or chooses to, use the unknown-doer verb construction. Among these reasons are:
+
+a. When the doer is actually unknown to the speaker. This is the classic use-case, as indicated by the name _unknown-doer verb_. (But, as we shall see below, it is not the only use case.) So, if we say:
+
+   [كُسِرَتِ ٱلزُّجَاجَةُ.]{.ar}  
+   "The glass was broken."
+
+   then, it may be that we don't know who broke the glass, and that is why we are expressing it in the unknown-doer verb construction.
+
+b. When the doer is known to the speaker, but he does not wish to make him known to others. So the same sentence above [كُسِرَتِ ٱلزُّجَاجَةُ.]{.ar} could be used when the speaker knows that it was actually [زَيْد]{.ar} "Zayd", for example, who broke the glass, but the speaker does not wish that others find out that it was Zayd. This itself could be for any reason, for example: the speaker fears Zayd, for fears for Zayd, etc.
+
+c. When the speaker wishes to draw attention to the act itself rather than the doer of the act. So we might say:
+   
+   [مُنِعْنَا ٱلدُّخُولَ.]{.ar}  
+   "We have been prevented from entering."
+
+   when we wish to focus on the act of our having been prevented, rather than who prevented us.
+
+d. For stylistic reasons, when it is obvious and known who the doer is. For example:
+
+   [خُلِقَ ٱلْإِنْسَانُ مِنْ ْعَجَلٍ]{.ar}  
+   "Man was created of haste [i.e., impatience]." ([#qurEAn]{.trn2} 21:37. Trans. Saheeh International)
+
+   In the above [EAyah]{.trn2} it is known and obvious that [#allAh]{.trn2} created man.
+
+e. In order to glorify the doer. So we might the unknown-doer verb construction to say:
+
+   [خُلِقَ ٱلْخِنْزِيرُ.]{.ar}  
+   "The pig was created."
+
+   This could be to distance [#allAh]{.trn2} from being mentioned next to the name of a particularly dirty animal.
+
+f. When the doer is not mentioned due to contempt for him. For example:
+
+   [قُتِلَ أَمِيرُ ٱلْمُؤْمِنِينَ عُمَرُ.]{.ar}  
+   "The Commander of the believers, [#eumar]{.trn2}, was killed."
+
+   In this sentence we chose not to name the killer due to contempt for him.
+
+These reasons are not mutually exclusive, and sometimes the unknown-doer verb construction is used for a combination of them.
+
+### Impermissible use of the unknown-doer verb
+
+The unknown-doer verb may not be used when the doer is mentioned with the verb. This is different from English which can use the word "by" to indicate the doer in a passive voice construction, as in: "The book was written by Zayd.". Such a sentence, in Arabic can only be expressed with the known-doer verb construction:
+
+[كَتَبَ زَيْدٌ ٱلْكِتَابَ.]{.ar}  
+[kataba zayduni -lkitAb.]{.trn}  
+"Zayd wrote the book."
+
+It may seem like this rule is broken in sentences like:
+
+[قُتِلَ بِٱلسَّيْفِ.]{.ar}  
+[qutila bi-ssayf.]{.trn}  
+"He was killed by the sword."
+
+But such is not the case. The known-doer verb constuction would be something like:
+
+[قَتَلَهُ فُلَانٌ بِٱلسَّيْفِ.]{.ar}  
+[qatalahu fulAnun bi-ssayf.]{.trn}  
+"So-and-so killed him with the sword."
+
+As you can see, [فُلَان]{.ar} "so-and-so" is actually the doer, and [ٱلسَّيْف]{.ar} "the sword" is merely a prepositional phrase indicating the instrument used in the act.
+

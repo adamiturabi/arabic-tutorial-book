@@ -1,0 +1,524 @@
+# [#mubtada]{.term}-[xabar]{.term} sentences
+
+## Introduction
+
+In this chapter we will learn about a class of sentences called _[mubtada]{.term}-[xabar]{.term} sentences._ 
+[#mubtada]{.term}-[xabar]{.term} sentences consist of two parts:
+
+i. The _[mubtada]{.term}_. This is the topic of the sentence.
+ii. The _[xabar]{.term}_. This gives us some [xabar]{.term} about the [mubtada]{.term}.
+
+## Forming [mubtada]{.term}-[xabar]{.term} sentences
+
+Here is a [mubtada]{.term}-[xabar]{.term} sentence:
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=``The building is a house.'',
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-2.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize topic};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-4.south west) -- (word-5.south east)
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize comment};
+
+\end{tikzpicture}
+```
+
+<!--"The building is a house."-->
+
+The [mubtada]{.term} of the sentence is "the building". This means that the sentence is about "the building". 
+
+The [xabar]{.term} is "a house". This means that the [xabar]{.term} that the sentence is giving us about the [mubtada]{.term} is that it is "a house".
+
+Let's try to form this sentence in Arabic.
+
+First we assemble the individual parts:
+
+i. "The building" in Arabic is [ٱَلْبِنَاء]{.ar} [EalbinAE]{.trn} (masc.).
+ii. "A house" is [بَيْت]{.ar} [bayt]{.trn} (masc.).
+
+Next we put them both in the u-state. For [mubtada]{.term}-[xabar]{.term} sentences, both the [mubtada]{.term} and the [xabar]{.term} shall be in the u-state. Remember that the u-state is formed by putting a [nUn]{.trn2}ated [u]{.trn}-mark [◌ٌ]{.ar} at the end of an indefinite noun, and a [u]{.trn}-mark [◌ُ]{.ar} at the end of a definite noun. Here are the two nouns in the u-state:
+
+i. [ٱَلْبِنَاءُ]{.ar} [EalbinAEu]{.trn} (masc.) "the building" (u-state)
+ii. [بَيْتٌ]{.ar} [baytun]{.trn} (masc.) "a house" (u-state)
+
+In order to form this sentence in Arabic, we put the [mubtada]{.term} first and then the [xabar]{.term}. So we get:
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{بَيْتٌ} \txarb{ٱَلْبِنَاءُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize comment};
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize topic};
+
+\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {\emph{ʾalbaytu bināʾ.}\\``The building is a house.''};
+
+\end{tikzpicture}
+```
+
+<!--
+[ٱَلْبِنَاءُ بَيْتٌ.]{.ar}  
+[EalbinAEu bayt.]{.trn}  
+"The building is a house."
+-->
+
+But wait! Where is the Arabic word for "is"? It turns out that Arabic does not usually express any word for "is". Instead, the meaning of this word is implied.
+
+Also, note that the final vowel mark at the end of the sentence is written but not pronounced. So we will write 
+[بَيْتٌ]{.ar} but say
+[bayt]{.trn}, not
+[baytun]{.trn}.
+This is in accordance with what we learned in section\ \@ref(pronouncing-the-end-of-a-sentence).
+
+Now let's try reversing this sentence, and try making the sentence:
+
+"The house is a building."
+
+We follow the same procedure by assembling the individual parts of the sentence and putting them in the u-state:
+
+i.  The [mubtada]{.term}: [ٱَلْبَيْتُ]{.ar} [Ealbaytu]{.trn} (masc.) "the house" (u-state)
+ii. The [xabar]{.term}: [بِنَاءٌ]{.ar} [binAEun]{.trn} (masc.) "a building" (u-state)
+
+And then we put them together, first the [mubtada]{.term} and then the [xabar]{.term}:
+
+[ٱَلْبَيْتُ بِنَاءٌ.]{.ar}  
+[Ealbaytu binAE.]{.trn}  
+"The house is a building."
+
+and there we have our sentence.
+
+## Matching the gender between the [mubtada]{.term} and the [xabar]{.term}
+
+In the sentences above, both the [mubtada]{.term} and the [xabar]{.term} were masculine nouns. Now let's try forming a sentence where the [mubtada]{.term} and the [xabar]{.term} have different genders. Let's try saying:
+
+"The building is a school."
+
+i.   The [mubtada]{.term}: [ٱَلْبِنَاءُ]{.ar} [EalbinAEu]{.trn} (masc.) "the building" (u-state)
+ii.  The [xabar]{.term}: [مَدْرَسَةٌ]{.ar} [madrasatun]{.trn} (fem.) "a school" (u-state)
+
+In the same manner as before, we form the sentence by first writing the [mubtada]{.term} and then the [xabar]{.term}:
+
+[ٱَلْبِنَاءُ مَدْرَسَةٌ.]{.ar}  
+[EalbinAEu madrasah.]{.trn}  
+"The building is a school."
+
+We can also reverse this sentence:
+
+[ٱَلْمَدْرَسَةُ بِنَاءٌ.]{.ar}  
+[Ealmadrasatu binAE.]{.trn}  
+"The school is a building ."
+
+So we see that it is quite normal to have a sentence where the gender of the [mubtada]{.term} does not match the gender of the [xabar]{.term}. 
+<!--And we made no attempt to try change their gender by genderizing one of them to match the gender of the other. This is because both words
+[ٱَلْبِنَاء]{.ar} [EalbinAE]{.trn} (masc.) "a building"
+and
+[مَدْرَسَة]{.ar} [madrasah]{.trn} (fem.) "a school"
+are non-genderizable words.
+
+If either the [mubtada]{.term} or the [xabar]{.term} is a genderizable noun, the in this case the [mubtada]{.term} and the [xabar]{.term} are made to match each other in gender. For example, let's try to form the sentence:
+-->
+This is because the words we have dealt with so far denote animate objects.
+If either the [mubtada]{.term} or the [xabar]{.term} denote animate beings, then in this case the [mubtada]{.term} and the [xabar]{.term} often do match each other in gender. For example, let's try to form the sentence:
+
+"The mother is a teacher."
+
+Here are the indiviual words that we will use to form the sentence:
+
+i.  The [mubtada]{.term}: "the mother": [ٱَلْأُمُّ]{.ar} [EalEummu]{.trn} (fem.) (u-state).
+ii. The [xabar]{.term}: "a teacher". We have two words for "a teacher" in Arabic: 
+
+    + [مُعَلِّم]{.ar} [mueallium]{.trn} (masc.) "a (male) teacher"
+    + [مُعَلِّمَة]{.ar} [mueallimah]{.trn} (fem.) "a (female) teacher". 
+
+    Obviously, [مُعَلِّمَة]{.ar} [mueallimah]{.trn} would apply here so we put it in the u-state: [مُعَلِّمَةٌ]{.ar} [mueallimatun]{.trn}
+(u-state).
+
+Now we can assemble the sentence:
+
+[ٱَلْأُمُّ مُعَلِّمَةٌ.]{.ar}  
+[EalEummu mueallimah.]{.trn}  
+"The mother is a teacher~f~."
+
+In the reverse sentence "The teacher is a mother.", we again use the feminine noun
+[مُعَلِّمَة]{.ar} [mueallimah]{.trn} (fem.) "a (female) teacher",
+which is now the [mubtada]{.term} of the sentence, to match the feminine noun in the [xabar]{.term} 
+[ٱَلْأُمّ]{.ar} [Ealumm]{.trn} (fem.)
+"a mother". So we get:
+
+[ٱَلْمُعَلِّمَةُ أُمٌّ.]{.ar}  
+[Ealmueallimatu Eumm.]{.trn}  
+"The teacher~f~ is a mother."
+
+<!--If the [mubtada]{.term} and the [xabar]{.term} apply to animate beings, then even if they are not genderizable, they will usually match each other in gender in order for the sentence to be meaningful. For example:-->
+Here is another example:
+
+[ٱَلرَّجُلُ أَبٌ.]{.ar}  
+[Earrujulu Eab.]{.trn}  
+"The man is a father."
+
+<!--
+In the above sentence, both the [mubtada]{.term}
+[ٱَلرَّجُل]{.ar}
+[Earrujul]{.trn}
+(masc.) "the man"
+and the [xabar]{.term}
+[أَب]{.ar}
+[Eab]{.trn}
+(masc.) "a father" are non-genderizable nouns. But they match each other in gender because that is the only way for the sentence to be meaningful.
+
+But if one of the non-genderizable nouns can be applied to both physical genders then the [mubtada]{.term} and [xabar]{.term} may mismatch in gender. For example, the noun [شَخْص]{.ar} [caxS]{.trn} "a person" is a masculine noun that is applied to both male and female persons. So if the person being referred to is a woman, for example, then we can get an apparent mismatch in gender between the grammatical gender of the [mubtada]{.term} and the grammatical [mubtada]{.term} of the [xabar]{.term}. Example:
+-->
+Now, let's try a sentence where we are still dealing with animate beings but the nouns mismatches in grammatical gender.
+
+[ٱَلْأُمُّ شَخْصٌ.]{.ar}  
+[EalEummu caxS.]{.trn}  
+"The mother is a person."
+
+[ٱَلشَّخْصُ مُعَلِّمَةٌ.]{.ar}  
+[EaccaxSu mueallimah.]{.trn}  
+"The person is a (female) teacher."
+
+[ٱَلْمُعَلِّمَةُ شَخْصٌ.]{.ar}  
+[Ealmueallimatu caxS.]{.trn}  
+"The (female) teacher is a person."
+
+In the above examples, the grammatical genders mismatch between the [mubtada]{.term} and the [xabar]{.term}. But this is because we are matching with the physical gender of the person represented by the masculine noun [شَخْص]{.ar} [caxS]{.trn} "a person", not its grammatical gender.
+
+The same effect is seen when using the word [حَيَوان]{.ar} [HayawAn]{.trn} which is a masculine noun meaning "an animal". It can be applied to both male and female animals. So we can say:
+
+[ٱَلْحَيَوَانُ هِرٌّ.]{.ar}  
+[EalHayawAnu hirr.]{.trn}  
+"The animal is a (male) cat."
+
+and
+
+[ٱَلْحَيَوَانُ هِرَّةٌ.]{.ar}  
+[EalHayawAnu hirrah.]{.trn}  
+"The animal is a (female) cat."
+
+<!--
+We assemble the individual parts of the sentence in the u-state:
+and "a building" is [بِنَاءٌ]{.ar} [binAEun]{.trn}. In order to say "The house is a building" we put the [[mubtada]{.term}]{.syn} first and put its [[xabar]{.term}]{.syn} after it. Both the [[mubtada]{.term}]{.syn} and the [[xabar]{.term}]{.syn} are put in the u-state.
+
+This kind of sentence is called a [[mubtada]{.term}-[xabar]{.term}]{.syn} sentence. It consists of two parts:
+
+1. The part before "is": "the house". This is who the sentence is about. We call this the [[mubtada]{.term}]{.syn} of the sentence.
+2. The part after "is": "a building". This is telling us some [xabar]{.term} about the [[mubtada]{.term}]{.syn}. We call this the [[xabar]{.term}]{.syn}.
+
+Arabic does not normally express the word "is". In order to express this sentence in Arabic we put the [[mubtada]{.term}]{.syn} first and then the [[xabar]{.term}]{.syn}. For these simple sentences the [[mubtada]{.term}]{.syn} and the [[xabar]{.term}]{.syn} will be in the u-state.
+
+"The house" is [ٱَلْبَيْتُ]{.ar} [albaytu]{.trn} and "a building" is [بِنَاءٌ]{.ar} [binAEun]{.trn}. In order to say "The house is a building" we put the [[mubtada]{.term}]{.syn} first and put its [[xabar]{.term}]{.syn} after it. Both the [[mubtada]{.term}]{.syn} and the [[xabar]{.term}]{.syn} are put in the u-state.
+
+[ٱَلْبَيْتُ بِنَاءٌ.]{.ar}  
+[Ealbaytu binAEun.]{.trn}  
+"The house is a building."
+
+Now let's try saying "The man is a teacher."
+
+"The man" is [ٱَلرَّجُلُ]{.ar} [arrajulu]{.trn}. For "a teacher" we have two words in Arabic: 
+
++ [مُعَلِّمٌ]{.ar} [mueallimun]{.trn} "a male teacher" 
++ [مُعَلِّمَةٌ]{.ar} [mueallimun]{.trn} "a female teacher" 
+
+Obviously "the man" can only be [مُعَلِّمٌ]{.ar} [mueallimun]{.trn} "a male teacher". So the sentence is:
+
+[ٱَلرَّجُلُ مُعَلِّمٌ.]{.ar}  
+[Earrajulu mueallimun.]{.trn}  
+"The man is a (male) teacher."
+
+Let's try another example: "The animal is a cat."
+
+"The animal" is [حَيَوَانٌ]{.ar} [HayawAnun]{.trn}. For "a cat" we have two words:
+
++ [هِرٌّ]{.ar} [hirrun]{.trn} "a male cat"
++ [هِرَّةٌ]{.ar} [hirratun]{.trn} "a female cat"
+
+Usually, in Arabic [هِرَّةٌ]{.ar} [hirratun]{.trn} "a female cat" is used for "a cat" if the animal's gender is not specified, or not important. So putting together the sentence we get:
+
+[ٱَلْحَيَوَانُ هِرَّةٌ.]{.ar}  
+[EalHayawAnu hirratun.]{.trn}  
+"The animal is a cat."
+
+Note that, in this sentence, the [[mubtada]{.term}]{.syn} [ٱَلْحَيَوَانُ]{.ar} [alHayawAnu]{.trn} "the animal" is a masculine noun. And the [[xabar]{.term}]{.syn} 
+[هِرَّةٌ]{.ar} [hirratun]{.trn} "a cat" is a feminine noun. So the [[mubtada]{.term}]{.syn} and the [[xabar]{.term}]{.syn} do not match in gender. This is perfectly normal. We make the [[xabar]{.term}]{.syn} match the [[mubtada]{.term}]{.syn} in gender only if:
+
+1. There are separate words for the masculine and feminine nouns for the [[xabar]{.term}]{.syn}, and
+2. Only one of the two words can be correctly applied to the [[mubtada]{.term}]{.syn}.
+
+In this case there were separate words for the masculine and feminine nouns for the [[xabar]{.term}]{.syn}:
+
++ [هِرٌّ]{.ar} [hirrun]{.trn} "a male cat"
++ [هِرَّةٌ]{.ar} [hirratun]{.trn} "a female cat"
+
+but both of these can be applied to the [[mubtada]{.term}]{.syn}, because the [[mubtada]{.term}]{.syn} [ٱَلْحَيَوَانُ]{.ar} [alHayawAnu]{.trn} (masc.) "the animal" is used for both male and female animals. [هِرَّةٌ]{.ar} [hirratun]{.trn} is chosen because it is commonly used for "a cat" as we have already explained.
+
+We have already seen an example of matching the gender of the [[xabar]{.term}]{.syn} with the [[mubtada]{.term}]{.syn} in the example:
+
+[ٱَلرَّجُلُ مُعَلِّمٌ.]{.ar}  
+[Earrajulu mueallimun.]{.trn}  
+"The man is a (male) teacher."
+-->
+
+## Detached pronouns
+
+Pronouns, in Arabic, are special nouns that can be used in place of other nouns when it is known who is being referred to. This means that they can replace definite nouns only. Pronouns in English include words like "he", "she", "it", "you", "I", etc. 
+
+In order to explain the usage of pronouns, we will first show a sentence with a noun [mubtada]{.term}:
+
+"The man is a teacher."
+
+Now we you can replace the definite [mubtada]{.term} noun "the man" with the pronoun "he":
+
+"He is a teacher."
+
+In Arabic there are a few different kinds of pronouns. Here we will learn _detached pronouns_. They are called detached pronouns because they are detached from other words. There are another set of pronouns called _attached pronouns_ that we will learn later, if [#allAh]{.trn2} wills.
+
+### Participants
+
+When talking about pronouns, it is beneficial to make use of a concept of grammar called _participants_.
+
+In any kind of speech there are there can be up to three types of _participants_ involved. A participant may be singular, i.e. consist of one individual, or plural, i.e., consist of more than one individual.  
+
+The three participants in speech are:
+
+1. The _speaker-participant_. This is the participant who is speaking. When the speaker-participant refers to himself or herself (or themselves if plural) in English, then he/she/they use the pronouns "I", "me", "we", and "us".
+2. The _addressee-participant_. This is the participant whom the speaker-participant is directly speaking to. When the speaker-participant refers to the addressee-participant in English, he uses the "you" pronoun.
+3. The _absentee-participant_. This is the participant who is not being directly spoken to. Their only participation in the speech is that they are being referred to. When the speaker-participant refers to the absentee-participant in English, he uses the pronouns "he", "him", "she", "her", "it", "they", and "them".
+
+In this chapter we will learn the Arabic pronouns for the singular participants.
+
+### Detached pronouns for the singular absentee-participant
+
+Here are the Arabic detached pronouns for the singular absentee-participant:
+
++ singular masculine absentee-participant: [هُوَ]{.ar} [huwa]{.trn} "he".
++ singular feminine absentee-participant: [هِيَ]{.ar} [hiya]{.trn} "she".
+
+Here are some examples of pair of sentences, each first with a noun, and then with a pronoun in place of the noun:
+
++ [ٱَلرَّجُلُ مُعَلِّمٌ.]{.ar}  
+  [Earrajulu mueallim.]{.trn}  
+  "The man is a teacher~m~."
+  
+  [هُوَ مُعَلِّمٌ.]{.ar}  
+  [huwa mueallim.]{.trn}  
+  "He is a (male) teacher~m~."
+
++ [ٱَلْجَارِيَةُ طَالِبَةٌ.]{.ar}  
+  [EaljAriyatu Talibah.]{.trn}  
+  "The girl is a student~f~."
+
++ [هِيَ طَالِبَةٌ.]{.ar}  
+  [hiya Talibah.]{.trn}  
+  "She is a student~f~."
+
++ [ٱَلْبَيْتُ بِنَاءٌ.]{.ar}  
+  [Ealbaytu binAE.]{.trn}  
+  "The house is a building."
+
+  [هُوَ بِنَاءٌ.]{.ar}  
+  [huwa binAE.]{.trn}  
+  "It is a building."
+
+  Note that Arabic uses the pronoun [هُوَ]{.ar} [huwa]{.trn} "he" to refer to the inanimate object "the house". This is because, as we know, all nouns in Arabic are either masculine or feminine. In translating the sentence to English we will employ the neutral pronoun "it" to make the sentence sound natural.
+
++ [ٱَلْبِنَاءُ مَدْرَسَةٌ.]{.ar}  
+  [EalbinAEu madrasah.]{.trn}  
+  "The building is a school."
+
+  [هُوَ مَدْرَسَةٌ.]{.ar}
+  [huwa madrasah.]{.trn}  
+  or  
+  [هِيَ مَدْرَسَةٌ.]{.ar}
+  [hiya madrasah.]{.trn}  
+  "It is a school."
+
+  Note that either [هُوَ]{.ar} [huwa]{.trn} "he" or [هِيَ]{.ar} [hiya]{.trn} "she" can be used in the above sentence because the gender of the [mubtada]{.term} [ٱَلْبِنَاء]{.ar} [EalbinAE]{.trn} (masc.) "the building" mismatches the gender of the [xabar]{.term} [مَدْرَسَة]{.ar} [madrasah]{.trn} (fem.) "a school.".
+
+  In such cases where the genders of the [mubtada]{.term} and the [xabar]{.term} do not match, then, generally speaking, the pronoun for either gender could be employed with the following guideline:
+
+  Prefer to match the gender of the [mubtada]{.term} pronoun with the gender of the [xabar]{.term}, unless the noun being replaced with a pronoun is an animate being, in which case prefer to use the gender of the animate being. 
+
+  So in the above sentence we will prefer to use [هِيَ مَدْرَسَةٌ.]{.ar} [hiya madrasah.]{.trn} because the [xabar]{.term} [مَدْرَسَةٌ]{.ar} [madrasatun]{.trn} "a school" is feminine.
+
++ Here is an example with an animate being as the [mubtada]{.term}:
+
+  [ٱَلْجَارِيَةُ إِنْسَانٌ.]{.ar}  
+  [EaljAriyatu InsAn.]{.trn}  
+  "The girl is a human."
+
+  [هِيَ إِنْسَانٌ.]{.ar}  
+  [hiya InsAn.]{.trn}  
+  "She is a human."
+
+  Here, if we replace the noun [ٱَلْجَارِيَة]{.ar} [EaljAriyah]{.trn} "the girl" with a pronoun, we will prefer to use [هِيَ]{.ar} [hiya]{.trn} "she", because the girl is an animate being, even though the [xabar]{.term} [إِنْسَانٌ]{.ar} [EinsAnun]{.trn} "a human" is masculine.
+
+### Detached pronouns for the singular addressee-participant and speaker-participant
+
+Here are the pronouns for the singular addressee-participant and speaker-participant:
+
++ singular masculine addressee-participant: [أَنْتَ]{.ar} [Eanta]{.trn} "you~m~".
++ singular feminine addressee-participant: [أَنْتِ]{.ar} [Eanti]{.trn} "you~f~".
++ singular speaker-participant: [أَنَا]{.ar} [Eana]{.trn} "I". 
+
+Note that the addressee-participant pronoun "you" has separate pronouns for the masculine and the feminine while the speaker-participant pronoun "I" has the same pronoun for both genders. Examples with these pronouns:
+
++ [أَنْتَ مُعَلِّمٌ.]{.ar}  
+  [Eanta mueallim.]{.trn}  
+  "You~m~ are a teacher~m~."
+
++ [أَنْتِ مُعَلِّمَةٌ.]{.ar}  
+  [Eanti mueallimah.]{.trn}  
+  "You~f~ are a teacher~f~."
+
++ [أَنَا مُعَلِّمٌ.]{.ar}  
+  [Eana mueallim.]{.trn}  
+  "I am a teacher~m~."
+
++ [أَنَا مُعَلِّمَة.]{.ar}  
+  [Eana mueallimah.]{.trn}  
+  "I am a teacher~f~."
+
+### Definiteness of pronouns
+
+We stated, and saw, that pronouns can replace definite nouns. This means that pronouns themselves are definite nouns (even though they are not prefixed by [ٱَلْ]{.ar} [Eal]{.trn} "the").
+
+This fact will be useful in later chapters, if [#allAh]{.trn2} wills.
+
+### Rigidity of pronouns
+
+Remember in section\ \@ref(flexibility-of-nouns), we talked about the flexibility of nouns. We said that nouns whose endings change with the noun's state are called flexible nouns. Most nouns fall into this category.
+
+Pronouns, however, are nouns whose endings don't change with their state. Therefore they fall into the category of _rigid_ nouns.
+
+<!--
+All the nouns that we've come across so far (except the pronouns we just learned about above) are a category of nouns called _flexible_ nouns. They are called flexible, because their ending will change depending on their state. Even though we've only used nouns in the u-state so far, we have learned in section \@ref(state), the state of a noun determines the vowel mark on their final letter. The table of states is reproduced here for convenience.
+
+State         | Indefinite "a book" | Definite "the book"
+:-------------|:-----------------|:--------------
+u-state       |[كِتَابٌ]{.ar} [kitAbun]{.trn}  |[ٱَلْكِتَابُ]{.ar} [alkitAbu]{.trn} 
+a-state       |[كِتَابًا]{.ar} [kitAban]{.trn} |[ٱَلْكِتَابَ]{.ar} [alkitAba]{.trn} 
+i-state       |[كِتَابٍ]{.ar} [kitAbin]{.trn}  |[ٱَلْكِتَابِ]{.ar} [alkitAbi]{.trn} 
+
+Because, as we said, their ending changes based on their state, they are called flexible nouns.
+
+As opposed to flexible nouns, there are some nouns whose ending is not determined by their state. They can appear the same no matter if they are in the u-state, a-state, or i-state. We will call them _rigid_ nouns. Pronouns are rigid nouns.
+-->
+
+## A definite noun as the [xabar]{.term} {#chap-smp-sent-sec-def-info}
+
+In all the examples so far, the [xabar]{.term} has been an indefinite noun: "a building", "a teacher", "a cat", etc. It is also possible for the [xabar]{.term} to be a definite noun:
+
+[ٱَلرَّجُلُ ٱلْمُعَلِّمُ.]{.ar}  
+[Earrajulu -lmueallim.]{.trn}  
+"The man is the teacher~m~."
+
+<!-- ضمير الفصل is not a copula. It may even have no i3raab depending on one opinion of the grammarians. -->
+
+The above sentence, although correct, is ambiguous. It can also be interpreted as a noun-phrase, meaning "the teacher-man", instead of the complete sentence "The man is the teacher~m~." Therefore, in order to disambiguate and make it clear that we mean the complete sentence, a _disambiguating pronoun_ is usually (but not always) inserted between the [mubtada]{.term} and the [xabar]{.term}.
+Disambiguating pronouns are detached pronouns that match the [mubtada]{.term} of the sentence in gender. With a disambiguating pronoun, the sentence above becomes:
+
+[ٱَلرَّجُلُ هُوَ ٱلْمُعَلِّمُ.]{.ar}  
+[Earrajulu  huwa -lmueallim.]{.trn}  
+"The man is the teacher~m~."
+
+The disambiguating pronoun here is [هُوَ]{.ar} [huwa]{.trn} and is not translated. Here are some more examples of sentences with definite [xabar]{.term}s and disambiguating pronouns.
+
+[ٱَلْبَيْتُ هُوَ ٱلْبِنَاءُ.]{.ar}  
+[Ealbaytu -lbinAEu.]{.trn}  
+"The house is the building."
+
+[ٱَلْحَيَوَانُ هِيَ ٱلْهِرَّةُ.]{.ar}  
+[EalHayawAnu hiya -lhirratu.]{.trn}  
+"The animal is the cat."
+
+## An indefinite noun as the [mubtada]{.term}
+
+In all the sentences we have seen so far, the [mubtada]{.term} has always been a definite noun. This is usually the case. A [mubtada]{.term} needs a certain amount of _weight_ in order to be the first word in a sentence. And being definite gives it this needed weight. That is: "the man" is grammatically _heavier_ than "a man". So it is easier to start a sentence with "the man".
+
+So can we even have a sentence that has an indefinite [mubtada]{.term}? For example:
+<!--How about making the [mubtada]{.term} an indefinite noun? Can we say:-->
+
++ A house is a building.
++ A man is the teacher.
+
+Yes, it is possible, but sentences where the [mubtada]{.term} is an indefinite noun are not as straightforward to express in Arabic. We will explore some ways of expressing them later if [#allAh]{.trn2} wills.
+
+## [وَ]{.ar} [wa-]{.trn} "and", [فَ]{.ar} [fa-]{.trn} "so"/"and then", and [أَوْ]{.ar} [Eaw]{.trn} "or"
+
+### [وَ]{.ar} [wa-]{.trn} "and"
+
+Arabic uses the particle [وَ]{.ar} [wa]{.trn} to mean "and". Being a one-letter particle, it is joined to the word after it without any space between it and the next word. 
+
+[وَمَدْرَسَةٌ]{.ar}  
+[wamadrasatun]{.trn}  
+"and a school"
+
+[وَ]{.ar} [wa]{.trn} meaning "and" does not change the state of the noun following it. Examples:
+
+[ٱَلْبِنَاءُ مَسْجِدٌ وَمَدْرَسَةٌ.]{.ar}  
+[EalbinAEu masjidun wamadrasah.]{.trn}  
+"The building is a mosque and a school."
+
+If there are more than two words, then in English, only the final word usually has "and" and the rest are separated by commas in writing. In Arabic, however, each must have [وَ]{.ar} and commas are not typically used.
+
+[ٱَلْبِنَاءُ مَسْجِدٌ وَمَدْرَسَةٌ وَمَكْتَبَةٌ.]{.ar}  
+[EalbinAEu baytun wamadrasatun wamaktabah]{.trn}  
+"The building is a mosque, a school, and a library."
+<!--
+[أَخَذَ ٱلرَّجُلُ كِتَابًا وَقَلَمًا.]{.ar}  
+[Eaxapa -rrajulu kitAban waqalaman]{.trn}  
+"The man took a book and pen."
+
+[دَخَلَتِ ٱلْمَرْأَةُ وَٱلْجَارِيَةُ ٱلْبَيْتَ.]{.ar}  
+[daxalati -lmarEatu wa-ljAriyatu -lbayta]{.trn}  
+"The woman and the girl entered the house."
+-->
+
+We can also use [وَ]{.ar} to begin and connect sentences. The following example is tehcnically two sentences, both beginning with [وَ]{.ar}:
+
+[وَٱلرَّجُلُ إِنْسَانٌ وَٱلْكَلْبُ حَيَوَانٌ]{.ar}  
+[warrujulu EinSAnun wa-lkalbu HayawAnun]{.trn}  
+"And the man is a human and the dog is an animal."
+
+Unlike as in English, this is not considered poor style. When translating such sentences to English, the first [وَ]{.ar} is often left out, thus:
+"The man is a human and the dog is an animal."
+
+### [فَ]{.ar} [fa-]{.trn} "so"/"and then"
+
+The word [فَ]{.ar} [fa-]{.trn} "so"/"and then" is comparable to [وَ]{.ar} [wa-]{.trn} "and". 
+[فَ]{.ar} [fa-]{.trn} "so"/"and then"
+ gives a meaning of ordering, consequence, and subsequence that is missing in [وَ]{.ar} [wa-]{.trn} "and". For example,
+
+[ٱَلْبِنَاءُ مَسْجِدٌ فَمَدْرَسَةٌ فَمَكْتَبَةٌ.]{.ar}  
+[EalbinAEu baytun famadrasatun famaktabah]{.trn}  
+"The building is a mosque, and then a school, and then a library."
+
+[فَ]{.ar} [fa-]{.trn} "so"/"and then", too, is used to begin and connect sentences. Example,
+
+[فَٱلرَّجُلُ إِنْسَانٌ وَٱلْكَلْبُ حَيَوَانٌ]{.ar}  
+[farrujulu EinSAnun wa-lkalbu HayawAnun]{.trn}  
+"So the man is a human and the dog is an animal."
+
