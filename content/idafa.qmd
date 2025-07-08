@@ -1,6 +1,6 @@
 <!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
 
-# [_idafa]{.term}
+# [_idafa]{.subs}
 
 ## Introduction
 
@@ -10,11 +10,11 @@ Consider the following expression:
 
 This expression establishes a relation of _belonging_ between the two nouns: (i)\ "the boy", and (ii)\ "the book". It says that the book _belongs_ to the boy.
 
-Arabic expresses this meaning using a construction called _[idafa]{.term}_. In this chapter we will learn about this construction.
+Arabic expresses this meaning using a construction called _[idafa]{.subs}_. In this chapter we will learn about this construction.
 
-## Forming the [idafa]{.term}
+## Forming the [idafa]{.subs}
 
-The word "[idafa]{.term}" means the addition of a new _annexed_ item to an existing _base_ item. We use the term _[idafa]{.term}_ in Arabic grammar when an _annexe_ noun is annexed to a _base_ noun by being placed right before it. Here is an example of an [idafa]{.term}:
+The word "[idafa]{.subs}" means the addition of a new _annexed_ item to an existing _base_ item. We use the term _[idafa]{.subs}_ in Arabic grammar when an _annexe_ noun is annexed to a _base_ noun by being placed right before it. Here is an example of an [idafa]{.subs}:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -29,15 +29,15 @@ The word "[idafa]{.term}" means the addition of a new _annexed_ item to an exist
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize [mudaf]{.term}};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize [mudaf]{.subs}};
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize [mudafil]{.term}};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize [mudafil]{.subs}};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
-      node [midway, below] {\scriptsize [idafa]{.term}};
+      node [midway, below] {\scriptsize [idafa]{.subs}};
 
 \path (0,0) node [midway, below=8ex, right=0ex, align=left] {``the boy's book''};
 
@@ -46,20 +46,20 @@ The word "[idafa]{.term}" means the addition of a new _annexed_ item to an exist
 
 <!--"the boy's book"  -->
 
-The [idafa]{.term} construction consists of two nouns:
+The [idafa]{.subs} construction consists of two nouns:
 
-1. The _annexe_ noun: This is the first noun in the [idafa]{.term}.
-1. The _base_ noun: This is the second noun in the [idafa]{.term}.
+1. The _annexe_ noun: This is the first noun in the [idafa]{.subs}.
+1. The _base_ noun: This is the second noun in the [idafa]{.subs}.
 
-The [mudaf]{.term} [كِتَاب]{.ar} is annexed to, and belongs to, the [mudafil]{.term} [ٱَلْغُلَام]{.ar}. 
+The [mudaf]{.subs} [كِتَاب]{.ar} is annexed to, and belongs to, the [mudafil]{.subs} [ٱَلْغُلَام]{.ar}. 
 You can use the alphabetical  order (A,\ B) to help you remember that the **a**nnexe noun comes before the **b**ase noun.
 
 <!--
-Take note of the following points regarding the [idafa]{.term} construction:
+Take note of the following points regarding the [idafa]{.subs} construction:
 
-+ The [mudafil]{.term} in an [idafa]{.term} shall always be in the i-state.
-+ The state of the [mudaf]{.term} is variable and shall depend on its function in the sentence.
-+ The [mudaf]{.term} in an [idafa]{.term} shall neither have an [n]{.trn}-mark nor the prefix [ٱَلْ]{.ar}.
++ The [mudafil]{.subs} in an [idafa]{.subs} shall always be in the i-state.
++ The state of the [mudaf]{.subs} is variable and shall depend on its function in the sentence.
++ The [mudaf]{.subs} in an [idafa]{.subs} shall neither have an [n]{.trn}-mark nor the prefix [ٱَلْ]{.ar}.
 
 ## Remove
 
@@ -81,9 +81,9 @@ We can identify noun-chains by noting that the first noun in the chain has neith
 
 The first noun in the chain is the noun before "of" and the second noun in the chain is the noun after "of".
 -->
-## State of the annexe and [mudafil]{.term}s
+## State of the annexe and [mudafil]{.subs}s
 
-The [mudafil]{.term} in an [idafa]{.term} is always in the i-state. The [mudaf]{.term} may be in any state, depending on its function in the sentence. For example,
+The [mudafil]{.subs} in an [idafa]{.subs} is always in the i-state. The [mudaf]{.subs} may be in any state, depending on its function in the sentence. For example,
 <!--
    + [أُمُّ ٱلْغُلَامِ مُعَلِّمَةٌ.]{.ar}  
      [Eummu -lgulAmi mueallimatun.]{.trn}  
@@ -98,59 +98,59 @@ The [mudafil]{.term} in an [idafa]{.term} is always in the i-state. The [mudaf]{
 
 [كِتَابُ ٱلْغُلَامِ ثَقِيلٌ.]{.ar}  
 "The boy's book is heavy."  
-(The [mudaf]{.term} is in the u-state.)
+(The [mudaf]{.subs} is in the u-state.)
 
 [أَخَذَتِ ٱلْجَارِيَةُ كِتَابَ ٱلْغُلَامِ.]{.ar}  
 "The girl took the boy's book."  
-(The [mudaf]{.term} is in the a-state.)
+(The [mudaf]{.subs} is in the a-state.)
 
 [كَتَبَ ٱلْمُعَلِّمُ فِي كِتَابِ ٱلْغُلَامِ.]{.ar}  
 "The teacher~m~ wrote in the boy's book."  
-(The [mudaf]{.term} is in the i-state.)
+(The [mudaf]{.subs} is in the i-state.)
 
-## Definiteness of the [idafa]{.term}
+## Definiteness of the [idafa]{.subs}
 
-Consider again the [idafa]{.term} expression we have been using so far:
+Consider again the [idafa]{.subs} expression we have been using so far:
 
 [كِتَابُ ٱلْغُلَامِ]{.ar}  
 "the boy's book"  
 
-The [mudafil]{.term} [ٱَلْغُلَام]{.ar} is definite because it is prefixed by [ٱَلْ]{.ar} "the".
+The [mudafil]{.subs} [ٱَلْغُلَام]{.ar} is definite because it is prefixed by [ٱَلْ]{.ar} "the".
 Therefore we have translated it as "the boy".
-The [mudaf]{.term} [كِتَاب]{.ar} is not made definite by [ٱَلْ]{.ar}.
+The [mudaf]{.subs} [كِتَاب]{.ar} is not made definite by [ٱَلْ]{.ar}.
 Nor is it made indefinite by [nUn]{.trn2}ation. 
-<!--Its definiteness is determined by the [mudafil]{.term}. -->
-Rather, its definiteness is determined by the [mudafil]{.term}.
-Because the [mudafil]{.term} [ٱَلْغُلَام]{.ar} is definite, therefore the [mudaf]{.term} [كِتَاب]{.ar} is also definite.
-The entire [idafa]{.term} is definite.
-<!--If the [mudafil]{.term} is definite (as it is above) then the [mudaf]{.term} shall also be definite.
-And if the [mudafil]{.term} is indefinite (as below) then the [mudaf]{.term} shall also be indefinite.-->
+<!--Its definiteness is determined by the [mudafil]{.subs}. -->
+Rather, its definiteness is determined by the [mudafil]{.subs}.
+Because the [mudafil]{.subs} [ٱَلْغُلَام]{.ar} is definite, therefore the [mudaf]{.subs} [كِتَاب]{.ar} is also definite.
+The entire [idafa]{.subs} is definite.
+<!--If the [mudafil]{.subs} is definite (as it is above) then the [mudaf]{.subs} shall also be definite.
+And if the [mudafil]{.subs} is indefinite (as below) then the [mudaf]{.subs} shall also be indefinite.-->
 
-Consider now the case when the [mudafil]{.term} is indefinite.
+Consider now the case when the [mudafil]{.subs} is indefinite.
 
 [كِتَابُ غُلَامٍ]{.ar}  
 "a boy's book"  
 
-In the above example, the [mudafil]{.term} [غُلَامٍ]{.ar} is indefinite because it is [nUn]{.trn2}ated and because it does not prefixed by [ٱَلْ]{.ar}. Therefore we have translated it as "a boy".
-The [mudaf]{.term} [كِتَاب]{.ar} is neither [nUn]{.trn2}ated, nor does it have [ٱَلْ]{.ar}.
-Its definiteness is, again, determined by the [mudafil]{.term}.
-Because the [mudafil]{.term} [غُلَامٍ]{.ar} is indefinite, therefore the [mudaf]{.term} [كِتَاب]{.ar} is also indefinite.
-The entire [idafa]{.term} is indefinite.
+In the above example, the [mudafil]{.subs} [غُلَامٍ]{.ar} is indefinite because it is [nUn]{.trn2}ated and because it does not prefixed by [ٱَلْ]{.ar}. Therefore we have translated it as "a boy".
+The [mudaf]{.subs} [كِتَاب]{.ar} is neither [nUn]{.trn2}ated, nor does it have [ٱَلْ]{.ar}.
+Its definiteness is, again, determined by the [mudafil]{.subs}.
+Because the [mudafil]{.subs} [غُلَامٍ]{.ar} is indefinite, therefore the [mudaf]{.subs} [كِتَاب]{.ar} is also indefinite.
+The entire [idafa]{.subs} is indefinite.
 
-We will see soon, if [_allAh]{.trn2} wills, why the definiteness of the [mudaf]{.term} is important.
+We will see soon, if [_allAh]{.trn2} wills, why the definiteness of the [mudaf]{.subs} is important.
 
 <!--
 
-As you can see above English has two constructs to translate the [idafa]{.term}:
+As you can see above English has two constructs to translate the [idafa]{.subs}:
 
 i. using "'s"
 ii. using "of"
 
 Sometimes both of the above constructs will fit for the translation, and sometimes only one will fit. For convenience, we will often translate with only one of them.
 
-The [mudaf]{.term} in an [idafa]{.term} can have neither an [n]{.trn} mark, nor an [ٱَلْ]{.ar}. 
-The [mudafil]{.term} is permitted to have an [n]{.trn} mark or an [ٱَلْ]{.ar} prefix. 
-The definiteness of the [mudafil]{.term} then determines the definiteness of the [idafa]{.term}. If the second noun is definite, then both the annexe and the [mudafil]{.term}s be definite. And if the [mudafil]{.term} is indefinite, then both the nouns in the chain will be indefinite. 
+The [mudaf]{.subs} in an [idafa]{.subs} can have neither an [n]{.trn} mark, nor an [ٱَلْ]{.ar}. 
+The [mudafil]{.subs} is permitted to have an [n]{.trn} mark or an [ٱَلْ]{.ar} prefix. 
+The definiteness of the [mudafil]{.subs} then determines the definiteness of the [idafa]{.subs}. If the second noun is definite, then both the annexe and the [mudafil]{.subs}s be definite. And if the [mudafil]{.subs} is indefinite, then both the nouns in the chain will be indefinite. 
 
 [بَيْتُ مُحَمَّدٍ]{.ar}  
 [baytu muHammadin]{.trn}  
@@ -165,7 +165,7 @@ The definiteness of the [mudafil]{.term} then determines the definiteness of the
 "a house of a man"
 -->
 
-Here are some examples of definite and indefinite [idafa]{.term}s.
+Here are some examples of definite and indefinite [idafa]{.subs}s.
 
 [لَبِسَ ٱلطِّفْلُ قَمِيصَ رَجُلٍ.]{.ar}  
 "The child wore _a_ man's shirt."
@@ -176,9 +176,9 @@ Here are some examples of definite and indefinite [idafa]{.term}s.
 [جَلَسَ ٱلرَّجُلُ فِي ظِلِّ شَجَرَةٍ.]{.ar}  
 "The man sat in _a_ tree's shade."
 
-### Translating the [idafa]{.term} using "of"
+### Translating the [idafa]{.subs} using "of"
 
-So far we have been using the English "'s" to translate the Arabic [idafa]{.term}. Examples:
+So far we have been using the English "'s" to translate the Arabic [idafa]{.subs}. Examples:
 
 [بَيْتُ رَجُلٍ]{.ar}  
 "a man's house"
@@ -194,7 +194,7 @@ Instead of using "'s" we may use "of" as well. For example:
 [بَيْتُ ٱلرَّجُلِ]{.ar}  
 "a/the house of the man"
 
-Note that the [mudaf]{.term} "house" may be prefixed with either "a" or "the". This will depend on what is more natural in English. Often time both will fit. Here are some examples:
+Note that the [mudaf]{.subs} "house" may be prefixed with either "a" or "the". This will depend on what is more natural in English. Often time both will fit. Here are some examples:
 
 [لَبِسَ ٱلطِّفْلُ قَمِيصَ رَجُلٍ.]{.ar}  
 "The child wore a/the shirt of a man."
@@ -208,15 +208,15 @@ Note that the [mudaf]{.term} "house" may be prefixed with either "a" or "the". T
 [فَتَحَ ٱللِّصُّ شُبَّاكَ ٱلْبَيْتِ وَدَخَلَ ٱلْبَيْتَ.]{.ar}  
 "The thief opened _a/the_ window of the house and entered the house."
 
-It is important to understand that translating the [mudaf]{.term} into English with "a" or "the" is purely for the reason of obtaining a natural translation. This does not affect whether or not the [mudaf]{.term} is grammatically considered definite in Arabic.
+It is important to understand that translating the [mudaf]{.subs} into English with "a" or "the" is purely for the reason of obtaining a natural translation. This does not affect whether or not the [mudaf]{.subs} is grammatically considered definite in Arabic.
 
-As we mentioned earlier, the definiteness of the [mudaf]{.term} in Arabic depends only on the definiteness of the [mudafil]{.term}. 
-If the [mudafil]{.term} is definite then the [mudaf]{.term} shall be considered definite as well.
-And if the [mudafil]{.term} is indefinite then the [mudaf]{.term} shall be considered indefinite as well.
+As we mentioned earlier, the definiteness of the [mudaf]{.subs} in Arabic depends only on the definiteness of the [mudafil]{.subs}. 
+If the [mudafil]{.subs} is definite then the [mudaf]{.subs} shall be considered definite as well.
+And if the [mudafil]{.subs} is indefinite then the [mudaf]{.subs} shall be considered indefinite as well.
 
 The need to maintain this distinction will become apparent in the next section.
 
-If the [mudafil]{.term} is definite, and it is desired to make the [mudaf]{.term} grammatically indefinite, then it is necassary to break the [idafa]{.term}, and use a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
+If the [mudafil]{.subs} is definite, and it is desired to make the [mudaf]{.subs} grammatically indefinite, then it is necassary to break the [idafa]{.subs}, and use a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتٍ لِلرَّجُلِ.]{.ar}  
 "The boy went to a house of the man."
@@ -224,9 +224,9 @@ If the [mudafil]{.term} is definite, and it is desired to make the [mudaf]{.term
 [فَتَحَ ٱللِّصُّ شُبَّاكًّا مِنَ ٱلْبَيْتِ وَدَخَلَ ٱلْبَيْتَ.]{.ar}  
 "The thief opened a window of the house and entered the house."
 
-## Broken plurals and [At]{.trn} sound plurals in [idafa]{.term}s {#broken-plurals-and-at-sound-plurals-in-[idafa]{.term}s}
+## Broken plurals and [At]{.trn} sound plurals in [idafa]{.subs}s {#broken-plurals-and-at-sound-plurals-in-[idafa]{.subs}s}
 
-There is no special rules for broken plurals and [At]{.trn} sound plurals in [idafa]{.term}s. They behave just like singular nouns. Remember only that [At]{.trn} plurals end with [◌ٍ]{.ar} and [◌ِ]{.ar} in the a-state. Here are some examples:
+There is no special rules for broken plurals and [At]{.trn} sound plurals in [idafa]{.subs}s. They behave just like singular nouns. Remember only that [At]{.trn} plurals end with [◌ٍ]{.ar} and [◌ِ]{.ar} in the a-state. Here are some examples:
 
 [حَيَوَانَاتُ ٱلْغَابَةِ وَحْشَةٌ.]{.ar}  
 "The animals of the forest are wild."
@@ -242,11 +242,11 @@ There is no special rules for broken plurals and [At]{.trn} sound plurals in [id
 [فِي ٱلْخِزَانَةِ أَقْلَامُ مُعَلِّمَاتٍ.]{.ar}  
 "In the cupboard are teachers'~f~ pens.
 
-Contrary to broken plurals and [At]{.trn} plurals, duals and [Un]{.trn} sound plurals behave differently in [idafa]{.term}s. We will deal with them in section\ \@ref(duals-and-sound-un-plurals-in-[idafa]{.term}s)
+Contrary to broken plurals and [At]{.trn} plurals, duals and [Un]{.trn} sound plurals behave differently in [idafa]{.subs}s. We will deal with them in section\ \@ref(duals-and-sound-un-plurals-in-[idafa]{.subs}s)
 
-## Describers in an [idafa]{.term}
+## Describers in an [idafa]{.subs}
 
-### Describing the [mudafil]{.term}
+### Describing the [mudafil]{.subs}
 
 Consider the following expression:
 
@@ -254,7 +254,7 @@ Consider the following expression:
 "the girl's book"
 
 Now say that we want to form an descriptive noun-phrase "the small girl's book". 
-Basically, we want to describe the [mudafil]{.term} [ٱَلْجَارِيَة]{.ar} "the girl" with the adjectival noun [صَغِير]{.ar} "a small one". 
+Basically, we want to describe the [mudafil]{.subs} [ٱَلْجَارِيَة]{.ar} "the girl" with the adjectival noun [صَغِير]{.ar} "a small one". 
 Here is how we will express this in Arabic:
 
 [كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرَةِ]{.ar}  
@@ -264,7 +264,7 @@ In the manner we are already familiar with, we place the describer [صَغِير
 [ٱَلْجَارِيَة]{.ar} "the girl"
 and match the describer with the describee in definiteness, state, gender and number (singular, dual, or plural).
 
-Similarly, if we had an indefinite [idafa]{.term}, we would get:
+Similarly, if we had an indefinite [idafa]{.subs}, we would get:
 
 [كِتَابُ جَارِيَةٍِ صَغِيرَةٍ]{.ar}  
 "a small girl's book"
@@ -280,28 +280,28 @@ Here are some more examples:
 [جَلَسَ ٱلرَّجُلُ فِي ظِلِّ شَجَرَةٍ عَرِيضَةٍ وَسِيعَةٍ.]{.ar}  
 "The man sat in the shade of a wide broad tree."
 
-### Describing the [mudaf]{.term}
+### Describing the [mudaf]{.subs}
 
-Consider, again, the same [idafa]{.term}:
+Consider, again, the same [idafa]{.subs}:
 
 [كِتَابُ ٱلْجَارِيَةِ]{.ar}  
 "the girl's book"
 
-Say, now, that we want to describe the [mudaf]{.term} [كِتَاب]{.ar} "book" with the adjectival noun [صَغِير]{.ar} "a small one". Normally, nothing can come between the [mudaf]{.term} and the [mudafil]{.term} in an [idafa]{.term}. So, the describer needs to be placed, again, after the [mudafil]{.term}.
-However, this time it will match the [mudaf]{.term}, not the [mudafil]{.term}, in state, definiteness, gender, and number. So we get:
+Say, now, that we want to describe the [mudaf]{.subs} [كِتَاب]{.ar} "book" with the adjectival noun [صَغِير]{.ar} "a small one". Normally, nothing can come between the [mudaf]{.subs} and the [mudafil]{.subs} in an [idafa]{.subs}. So, the describer needs to be placed, again, after the [mudafil]{.subs}.
+However, this time it will match the [mudaf]{.subs}, not the [mudafil]{.subs}, in state, definiteness, gender, and number. So we get:
 
 [كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرُ]{.ar}  
 "the girl's small book"
 
 Note how the describer 
-[ٱَلصَّغِيرُ]{.ar} matches the [mudaf]{.term} [كِتَابُ]{.ar} in state and gender.
-Note also how the describer is definite with an [ٱَلْ]{.ar}. This is because it is matching the [mudaf]{.term} [كِتَابُ]{.ar} in definiteness.
-The [mudaf]{.term} [كِتَاب]{.ar} is definite, not with [ٱَلْ]{.ar}, but rather because of the definite [mudafil]{.term} [ٱَلْجَارِيَةِ]{.ar} "the girl".
+[ٱَلصَّغِيرُ]{.ar} matches the [mudaf]{.subs} [كِتَابُ]{.ar} in state and gender.
+Note also how the describer is definite with an [ٱَلْ]{.ar}. This is because it is matching the [mudaf]{.subs} [كِتَابُ]{.ar} in definiteness.
+The [mudaf]{.subs} [كِتَاب]{.ar} is definite, not with [ٱَلْ]{.ar}, but rather because of the definite [mudafil]{.subs} [ٱَلْجَارِيَةِ]{.ar} "the girl".
 We've already learned this rule in 
-section\ \@ref(definiteness-of-the-[idafa]{.term})
+section\ \@ref(definiteness-of-the-[idafa]{.subs})
 above.
 
-Similarly, if we describe the [mudaf]{.term} [كِتَاب]{.ar} in an indefinite [idafa]{.term}, we get:
+Similarly, if we describe the [mudaf]{.subs} [كِتَاب]{.ar} in an indefinite [idafa]{.subs}, we get:
 
 [كِتَابُ جَارِيَةٍ صَغِيرٌ]{.ar}  
 "a girl's small book"
@@ -311,17 +311,17 @@ the describer
 [صَغِيرٌ]{.ar}
 is indefinite with a [nUn]{.trn2}ated [u]{.trn}-mark [◌ٌ]{.ar}. 
 This is because 
-the [mudaf]{.term} [كِتَابُ]{.ar} is indefinite. It is indefinite because [mudafil]{.term} [جَارِيَةٍ]{.ar} "a girl" is indefinite.
+the [mudaf]{.subs} [كِتَابُ]{.ar} is indefinite. It is indefinite because [mudafil]{.subs} [جَارِيَةٍ]{.ar} "a girl" is indefinite.
 
-Now, you might be foreseeing a problem. What if the [mudaf]{.term} and the [mudafil]{.term} have the same gender, and the annexe too is in the i-state? For example, in the sentence:
+Now, you might be foreseeing a problem. What if the [mudaf]{.subs} and the [mudafil]{.subs} have the same gender, and the annexe too is in the i-state? For example, in the sentence:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ ٱلرَّجُلِ ٱلْكَبِيرِ.]{.ar}  
 "The boy went to the big/old man's house."  
 or  
 "The boy went to the man's big house."  
 
-How do we know whether the describer [كَبِير]{.ar} is meant to describe the [mudaf]{.term} [بَيْتِ]{.ar} or the [mudafil]{.term} [ٱَلرَّجُل]{.ar}?
-The [mudaf]{.term} [بَيْتِ]{.ar} and the [mudafil]{.term} [ٱَلرَّجُل]{.ar} are both masculine, singular, definite, and in the i-state.
+How do we know whether the describer [كَبِير]{.ar} is meant to describe the [mudaf]{.subs} [بَيْتِ]{.ar} or the [mudafil]{.subs} [ٱَلرَّجُل]{.ar}?
+The [mudaf]{.subs} [بَيْتِ]{.ar} and the [mudafil]{.subs} [ٱَلرَّجُل]{.ar} are both masculine, singular, definite, and in the i-state.
 
 The answer is that in such cases, context will have to be clear to tell us which of the two meanings is intended.
 If the context makes it clear then there is no harm in using such a sentence for either of the two meanings.
@@ -335,12 +335,12 @@ Also, sometimes, the meaning of the describer is such that it will likely apply 
 
 In the sentence above the describer [كَرِيم]{.ar} "noble/generous" is likely to apply to a man, and not to a house.
 
-If, however, the context is not clear, and the meaning of the describer can apply to both the [mudaf]{.term} and the [mudafil]{.term}, then the describer is likely to apply to the [mudafil]{.term} and not to the [mudaf]{.term}. So then, this interpretation is more likely:
+If, however, the context is not clear, and the meaning of the describer can apply to both the [mudaf]{.subs} and the [mudafil]{.subs}, then the describer is likely to apply to the [mudafil]{.subs} and not to the [mudaf]{.subs}. So then, this interpretation is more likely:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ ٱلرَّجُلِ ٱلْكَبِيرِ.]{.ar}  
 "The boy went to the big/old man's house."  
 
-In order to apply a describer to the [mudaf]{.term} in such a case, it is better to break the [idafa]{.term} and form a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
+In order to apply a describer to the [mudaf]{.subs} in such a case, it is better to break the [idafa]{.subs} and form a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ ٱلْبَيْتِ ٱلْكَبِيرِ لِلرَّجُلِ .]{.ar}  
 "The boy went to the big house of the man."  
@@ -370,7 +370,7 @@ or
 "The student went to a great school of a city."  
 -->
 
-## Semi-flexible nouns in an [idafa]{.term}
+## Semi-flexible nouns in an [idafa]{.subs}
 
 Remember that semi-flexible nouns are not [nUn]{.trn2}ated and that when indefinite, their i-state is indicated by an [a]{.trn}-mark [◌َ]{.ar}. 
 But when definite with [ٱَلْ]{.ar} then they behave just like fully-flexible nouns.
@@ -383,11 +383,11 @@ u-state| [صَحْرَاءُ]{.ar} | [ٱَلصَّحْرَاءُ]{.ar}
 a-state| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءَ]{.ar}
 i-state| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءِ]{.ar}
 
-We will now see how semi-flexible nouns behave in an [idafa]{.term}.
+We will now see how semi-flexible nouns behave in an [idafa]{.subs}.
 
-### A semi-flexible noun as the [mudafil]{.term}
+### A semi-flexible noun as the [mudafil]{.subs}
 
-Here are examples of the semi-flexible noun ^2^[صَحْرَاء]{.ar} "a desert" as the [mudafil]{.term} in an [idafa]{.term}:
+Here are examples of the semi-flexible noun ^2^[صَحْرَاء]{.ar} "a desert" as the [mudafil]{.subs} in an [idafa]{.subs}:
 
 [ٱَلْقَرْيَةُ فِي وَسَطِ ٱلصَّحْرَاءِ.]{.ar}  
 "The village is in the middle of the desert."
@@ -403,21 +403,21 @@ its i-state is indicate by an [a]{.trn}-mark [◌َ]{.ar}.
 
 This is consistent with the general behavior of semi-flexible nouns that we are familiar with.
 
-### A semi-flexible noun as the [mudaf]{.term}
+### A semi-flexible noun as the [mudaf]{.subs}
 
-Contrary from expected behavior, a semi-flexible [mudaf]{.term}, even when indefinite, takes an [i]{.trn}-mark\ [◌ِ]{.ar} in the i-state instead of an [a]{.trn}-mark\ [◌َ]{.ar}. Example,
+Contrary from expected behavior, a semi-flexible [mudaf]{.subs}, even when indefinite, takes an [i]{.trn}-mark\ [◌ِ]{.ar} in the i-state instead of an [a]{.trn}-mark\ [◌َ]{.ar}. Example,
 
 [قَدِمَ ٱلْأَعْرَابِيُّ مِنْ صَحْرَاءِ أَرْضٍ بَعِيدَةٍ.]{.ar}  
 "The bedouin came from the desert of a far land."
 
 In the above example,
-^2^[صَحْرَاء]{.ar} "a desert" is indefinite because it is the [mudaf]{.term} to an indefinite [mudafil]{.term} [أَرْض]{.ar} "a land". 
+^2^[صَحْرَاء]{.ar} "a desert" is indefinite because it is the [mudaf]{.subs} to an indefinite [mudafil]{.subs} [أَرْض]{.ar} "a land". 
 It is in the i-state because it is preceded by the preposition [مِنْ]{.ar} "from". 
 Nevertheless, it takes an [i]{.trn}-mark [مِنْ صَحْرَاءِ أَرْضٍ]{.ar}, not an [a]{.trn}-mark, which would be incorrect: $\times$\ [مِنْ صَحْرَاءَ أَرْضٍ]{.ar}.
 
-## [_idafa]{.term}s with more than two nouns
+## [_idafa]{.subs}s with more than two nouns
 
-So far we have seen [idafa]{.term}s with two nouns. [_idafa]{.term}s may be arbitrarily long. Here is an example of a noun-chain with more than two nouns:
+So far we have seen [idafa]{.subs}s with two nouns. [_idafa]{.subs}s may be arbitrarily long. Here is an example of a noun-chain with more than two nouns:
 
 <!--
 [مِفْتَاحُ بَابِ ٱلْبَيْتِ]{.ar}  
@@ -463,56 +463,56 @@ So far we have seen [idafa]{.term}s with two nouns. [_idafa]{.term}s may be arbi
 
 %\draw [decoration={brace, mirror, raise=3ex}, decorate] 
 %   (word-1.south west) -- (word-2.south east)
-%      node [midway, below=3ex] {[idafa]{.term}};
+%      node [midway, below=3ex] {[idafa]{.subs}};
 \end{tikzpicture}
 ```
 
-The above [idafa]{.term} consists of three nouns. It may be divided into two sub-[idafa]{.term}s:
+The above [idafa]{.subs} consists of three nouns. It may be divided into two sub-[idafa]{.subs}s:
 
-i. [مِفْتَاحُ بَابِ]{.ar} "door's key". Its [mudaf]{.term} $a_1$\ is [مِفْتَاح]{.ar} and its [mudafil]{.term}\ $b_1$ is [بَابِ]{.ar}.
-i. [بَابِ ٱلْبَيْتِ]{.ar} "the house's door". Its [mudaf]{.term} $a_2$\ is [بَابِ]{.ar} and its [mudafil]{.term}\ $b_2$ is [ٱلْبَيْتِ]{.ar}.
+i. [مِفْتَاحُ بَابِ]{.ar} "door's key". Its [mudaf]{.subs} $a_1$\ is [مِفْتَاح]{.ar} and its [mudafil]{.subs}\ $b_1$ is [بَابِ]{.ar}.
+i. [بَابِ ٱلْبَيْتِ]{.ar} "the house's door". Its [mudaf]{.subs} $a_2$\ is [بَابِ]{.ar} and its [mudafil]{.subs}\ $b_2$ is [ٱلْبَيْتِ]{.ar}.
 
-The noun [بَاب]{.ar} "door" is common to both sub-[idafa]{.term}s. It is the [mudafil]{.term} of the first sub-[idafa]{.term}
+The noun [بَاب]{.ar} "door" is common to both sub-[idafa]{.subs}s. It is the [mudafil]{.subs} of the first sub-[idafa]{.subs}
 [مِفْتَاحُ بَابِ]{.ar} "door's key".
-At the same time, it is also the [mudaf]{.term} of the second sub-[idafa]{.term}
+At the same time, it is also the [mudaf]{.subs} of the second sub-[idafa]{.subs}
 [بَابِ ٱلْبَيْتِ]{.ar} "the house's door".
 
-Only the final [mudafil]{.term} may have [ٱَلْ]{.ar} or be [nUn]{.trn2}ated. If the final [mudafil]{.term} has [ٱَلْ]{.ar} (as above) then all the nouns in the [idafa]{.term} are definite. 
+Only the final [mudafil]{.subs} may have [ٱَلْ]{.ar} or be [nUn]{.trn2}ated. If the final [mudafil]{.subs} has [ٱَلْ]{.ar} (as above) then all the nouns in the [idafa]{.subs} are definite. 
 
-And if the final [mudafil]{.term} is indefinite, as in the example below, then all the nouns in the [idafa]{.term} are indefinite.
+And if the final [mudafil]{.subs} is indefinite, as in the example below, then all the nouns in the [idafa]{.subs} are indefinite.
 
 [مِفْتَاحُ بَابِ بَيْتٍ]{.ar}  
 "a house's door's key"
 
-All the nouns except the first [mudaf]{.term} must be in the i-state. Consistent with 
+All the nouns except the first [mudaf]{.subs} must be in the i-state. Consistent with 
 section\ \@ref(a-semi-flexible-noun-as-the-annexe-noun)
-if a semi-flexible noun is any of the [mudaf]{.term}s and is in the i-state, then its i-state is indicated by an [a]{.trn}-mark [◌َ]{.ar}. Example:
+if a semi-flexible noun is any of the [mudaf]{.subs}s and is in the i-state, then its i-state is indicated by an [a]{.trn}-mark [◌َ]{.ar}. Example:
 
 [مِنْ بِئْرِ صَحْرَاءِ أَرْضٍ]{.ar}  
 "from the well of the desert of a land"
 
-## Pronouns as [mudafil]{.term}s
+## Pronouns as [mudafil]{.subs}s
 
 Consider the expression:
 
 "his book"
 
-This expression is very similar to the [idafa]{.term}:
+This expression is very similar to the [idafa]{.subs}:
 
 [كِتَابُ ٱلْغُلَامِ]{.ar}  
 "the boy's book" 
 
-The difference is that we would like to replace the [mudafil]{.term} [ٱَلْغُلَام]{.ar} "the boy" with the pronoun "his". For this we use the attached pronoun [هُ]{.ar}. When we place this pronoun as the [mudafil]{.term}, we get:
+The difference is that we would like to replace the [mudafil]{.subs} [ٱَلْغُلَام]{.ar} "the boy" with the pronoun "his". For this we use the attached pronoun [هُ]{.ar}. When we place this pronoun as the [mudafil]{.subs}, we get:
 
 [كِتَابُهُ]{.ar}  
 "his book"
 
-This [idafa]{.term} follows the same rules as the other [idafa]{.term}s we have been studying so far:
+This [idafa]{.subs} follows the same rules as the other [idafa]{.subs}s we have been studying so far:
 
-+ The [mudaf]{.term} may be in any state, depending on its function in the sentence.
-+ The [mudafil]{.term} is in the i-state. But because the [mudafil]{.term} is a pronoun, and pronouns are rigid nouns (see section\ \@ref(rigidity-of-pronouns) that don't change their ending based on their state, therefore it's i-state will not be apparent.
++ The [mudaf]{.subs} may be in any state, depending on its function in the sentence.
++ The [mudafil]{.subs} is in the i-state. But because the [mudafil]{.subs} is a pronoun, and pronouns are rigid nouns (see section\ \@ref(rigidity-of-pronouns) that don't change their ending based on their state, therefore it's i-state will not be apparent.
 
-Here are some examples of this [idafa]{.term} used in sentences:
+Here are some examples of this [idafa]{.subs} used in sentences:
 
 [كِتَابُهُ ثَقِيلٌ.]{.ar}  
 "His book is heavy"
@@ -523,7 +523,7 @@ Here are some examples of this [idafa]{.term} used in sentences:
 [كَتَبَ ٱلْمُعَلِّمُ فِي كِتَابهِ.]{.ar}  
 "The teacher~m~ wrote in his book."
 
-If the [mudaf]{.term} ends with [ة]{.ar} then it is converted to a [ت]{.ar} when annexing it to an attached pronoun. For example:
+If the [mudaf]{.subs} ends with [ة]{.ar} then it is converted to a [ت]{.ar} when annexing it to an attached pronoun. For example:
 
 [ذَهَبُوا إِلَىٰ مَدْرَسَتِهِمْ.]{.ar}  
 "They went to their school."
@@ -542,12 +542,12 @@ Here are some more examples of annexing to the different attached pronouns:
 [هُوَ إِمَامُ مَسْجِدِنَا.]{.ar}  
 "He is the [E#imAm]{.trn2} of our mosque."
 
-If the [mudaf]{.term} is semi-flexible then it gets a [◌ِ]{.ar} in the i-state, as we've already learned. Example with the semi-flexible broken plural ^2^[حَدَائِق]{.ar} "gardens".
+If the [mudaf]{.subs} is semi-flexible then it gets a [◌ِ]{.ar} in the i-state, as we've already learned. Example with the semi-flexible broken plural ^2^[حَدَائِق]{.ar} "gardens".
 
 [لَعِبْنَ فِي حَدَائِقِهِنَّ.]{.ar}  
 "They~3,f~ played in their~3,f~ gardens."
 
-If an [mudaf]{.term} ends with [ىٰ]{.ar} then it gets converted to an [alif]{.trn2} when annexing it to an attached pronoun. Example with ^2^[فَتَاوَىٰ]{.ar} "legal opinions":
+If an [mudaf]{.subs} ends with [ىٰ]{.ar} then it gets converted to an [alif]{.trn2} when annexing it to an attached pronoun. Example with ^2^[فَتَاوَىٰ]{.ar} "legal opinions":
 
 [كَتَبَ تَلَامِذَةُ ٱلشَّيْخِ فَتَاوَاهُ فِي كُتُبِهِمْ.]{.ar}  
 "The pupils of the religious scholar wrote down his legal opinions in their books."
@@ -565,7 +565,7 @@ The first ([ي]{.ar} [-I]{.trn}) is more commonly used. Example:
 [أَقْلَامِي قَصِيرَة.]{.ar}  
 "My pens are short."
 
-If, however, the [mudaf]{.term} ends in a long vowel or a semi-vowel then 
+If, however, the [mudaf]{.subs} ends in a long vowel or a semi-vowel then 
 ([ي]{.ar} [-I]{.trn}) is disallowed and only
 ([يَ]{.ar} [-ya]{.trn}) shall be used. 
 Example with the semi-flexible broken plural ^2^[هَدَايَا]{.ar} "gifts":
@@ -573,17 +573,17 @@ Example with the semi-flexible broken plural ^2^[هَدَايَا]{.ar} "gifts":
 [أَعْجَبَتْهُمْ هَدَايَايَ.]{.ar}  
 "My gifts pleased them."
 
-### Describers with [idafa]{.term}s to pronouns
+### Describers with [idafa]{.subs}s to pronouns
 
-Consider the [idafa]{.term}:
+Consider the [idafa]{.subs}:
 
 [كِتَابُهُ]{.ar}  
 "his book"
 
-The [mudaf]{.term} is [كِتَاب]{.ar} and the [mudafil]{.term} is the pronoun [ه]{.ar}.
+The [mudaf]{.subs} is [كِتَاب]{.ar} and the [mudafil]{.subs} is the pronoun [ه]{.ar}.
 We would like add a describer to this expression.
-Remember from section\ \@ref(definiteness-of-pronouns) that pronouns are definite nouns. That makes the [mudaf]{.term} [كِتَاب]{.ar} also definite.
-Therefore, any describer for this [idafa]{.term} will need to be definite too.
+Remember from section\ \@ref(definiteness-of-pronouns) that pronouns are definite nouns. That makes the [mudaf]{.subs} [كِتَاب]{.ar} also definite.
+Therefore, any describer for this [idafa]{.subs} will need to be definite too.
 
 Here is a new rule: Pronouns may not be describees. That is: they are not allowed to have describers.
 Even in English you may say:
@@ -594,7 +594,7 @@ but you can't say:
 
 $\times$\ "The good _he_ went."
 
-So, any describers for the [idafa]{.term} must necessarily only describe the [mudaf]{.term}, not the base pronoun. Example:
+So, any describers for the [idafa]{.subs} must necessarily only describe the [mudaf]{.subs}, not the base pronoun. Example:
 
 [كِتَابُهُ الأَحْمَرُ]{.ar}  
 "his red book"
@@ -608,17 +608,17 @@ Here are some more examples:
 "The village boys carried their heavy bags to their distant school."  
 (literally: the village's boys.)
 
-## Duals and [Un]{.trn} sound plurals in [idafa]{.term}s {#duals-and-sound-un-plurals-in-[idafa]{.term}s}
+## Duals and [Un]{.trn} sound plurals in [idafa]{.subs}s {#duals-and-sound-un-plurals-in-[idafa]{.subs}s}
 
-We have already dealt with broken plurals and [At]{.trn} sound plurals in [idafa]{.term}s in 
-section\ \@ref(broken-plurals-and-at-sound-plurals-in-[idafa]{.term}s).
+We have already dealt with broken plurals and [At]{.trn} sound plurals in [idafa]{.subs}s in 
+section\ \@ref(broken-plurals-and-at-sound-plurals-in-[idafa]{.subs}s).
 
 In this section we will deal with 
-duals and [Un]{.trn} sound plurals in [idafa]{.term}s.
+duals and [Un]{.trn} sound plurals in [idafa]{.subs}s.
 
-### Duals and [Un]{.trn} sound plurals as [mudafil]{.term}s
+### Duals and [Un]{.trn} sound plurals as [mudafil]{.subs}s
 
-As [mudafil]{.term}, duals and [Un]{.trn} sound plurals behave no differently than other nouns. Being [mudafil]{.term}s they will be in the i-state and this shall be indicated by:
+As [mudafil]{.subs}, duals and [Un]{.trn} sound plurals behave no differently than other nouns. Being [mudafil]{.subs}s they will be in the i-state and this shall be indicated by:
 
 i. [◌َيْنِ]{.ar} [-ayni]{.trn} for duals
 i. [◌ِينَ]{.ar} [-Ina]{.trn} for [Un]{.trn} sound plurals
@@ -634,22 +634,22 @@ Here are some examples:
 [هِيَ طَالِبَةُ مُعَلِّمَتَيْنِ كَرِيمَتَيْنِ.]{.ar}  
 "She is the student~f~ of noble teachers~2,f~."
 
-### Duals and [Un]{.trn} sound plurals as [mudaf]{.term}s
+### Duals and [Un]{.trn} sound plurals as [mudaf]{.subs}s
 
-When duals and [Un]{.trn} sound plurals are [mudaf]{.term}s, then their final [ن]{.ar} is treated as a sort of [nUn]{.trn2}ation and is, therefore, deleted before annexing them to a [mudafil]{.term}. For example:
+When duals and [Un]{.trn} sound plurals are [mudaf]{.subs}s, then their final [ن]{.ar} is treated as a sort of [nUn]{.trn2}ation and is, therefore, deleted before annexing them to a [mudafil]{.subs}. For example:
 
 [بَيْتَا ٱلرَّجُلِ]{.ar}  
 "the man's houses~2~"  
 not  
 $\times$\ [بَيْتَانِ ٱلرَّجُلِ]{.ar}
 
-Note, also, that because the [mudafil]{.term} [ٱَلرَّجُلِ]{.ar} begins with a connecting [hamzah]{.trn2} [ٱ]{.ar}, therefore the long vowel [A]{.trn} at the end of [بَيْتَا]{.ar} is pronounced as a short vowel [a]{.trn}, thus:
+Note, also, that because the [mudafil]{.subs} [ٱَلرَّجُلِ]{.ar} begins with a connecting [hamzah]{.trn2} [ٱ]{.ar}, therefore the long vowel [A]{.trn} at the end of [بَيْتَا]{.ar} is pronounced as a short vowel [a]{.trn}, thus:
 
 [bayta -rrajuli]{.trn}  
 not  
 $\times$\ [baytA -rrajuli]{.trn}
 
-If the dual [mudaf]{.term} were in the i-state then the final [ي]{.ar} gets an [i]{.trn}-mark [◌ِ]{.trn} if there is following connecting [hamzah]{.trn2}. Example:
+If the dual [mudaf]{.subs} were in the i-state then the final [ي]{.ar} gets an [i]{.trn}-mark [◌ِ]{.trn} if there is following connecting [hamzah]{.trn2}. Example:
 
 [قَرَأْتُ كِتَابَيِ ٱلرَّجُلِ.]{.ar}  
 [qaraEtu kitAbayi -rrajul]{.trn}  
@@ -660,7 +660,7 @@ Here are some more examples including [Un]{.trn} sound plurals:
 [مُعَلِّمُو ٱلْغُلَامِ كِرَامٌ.]{.ar}  
 [mueallimu -lgulAmi kirAm.]{.trn}  
 "The boy's teachers~3~ are noble."  
-(Note that there is no silent [alif]{.trn2} after [مُعَلِّمُو]{.ar} as there is after a verb with a plural absentee-participant [fail]{.term} pronoun, e.g. [لَعِبُوا]{.ar} "they~3,m~ played")
+(Note that there is no silent [alif]{.trn2} after [مُعَلِّمُو]{.ar} as there is after a verb with a plural absentee-participant [fail]{.subs} pronoun, e.g. [لَعِبُوا]{.ar} "they~3,m~ played")
 
 [لَعِبَ ٱبْنَا ٱلرَّجُلِ مَعَ لَاعِبِي مَدِينَتِهِمْ.]{.ar}  
 [laeiba -bna -rrajuli maea lAeibI madInatihim.]{.trn}  
@@ -687,7 +687,7 @@ There are also two special cases in this category and we will examine them below
 
 ##### Annexing an [Un]{.trn} sound plural to the singular speaker participant pronoun {-} 
 
-When an [Un]{.trn} sound plural is annexed to the singular speaker participant pronoun, then again, only the [يَ]{.ar} variant can be used. However, in addition, the expression will appear the same regardless of the state of the [mudaf]{.term}. So for all states (u-state, a-state, and i-state), we will get:
+When an [Un]{.trn} sound plural is annexed to the singular speaker participant pronoun, then again, only the [يَ]{.ar} variant can be used. However, in addition, the expression will appear the same regardless of the state of the [mudaf]{.subs}. So for all states (u-state, a-state, and i-state), we will get:
 
 [مُعَلِّمِيَّ]{.ar}
 
@@ -708,7 +708,7 @@ We don't say $\times$\ [مُعَلِّمُويَ]{.ar} for the u-state. Examples
 ##### Annexing an dual noun to a dual pronoun {-} 
 
 <!-- see فقد صغت قلوبكما-->
-When a dual noun is to be annexed to a dual pronoun, then the dual [mudaf]{.term} is often converted to a plural. For example, instead of saying 
+When a dual noun is to be annexed to a dual pronoun, then the dual [mudaf]{.subs} is often converted to a plural. For example, instead of saying 
 
 [نَظَرْتُ إِلَىٰ رَأْسَيْهِمَا]{.ar}
 "I looked at their~2~ heads~2~."
@@ -718,17 +718,17 @@ it is in fact, more common, to say
 [نَظَرْتُ إِلَىٰ رُؤُوسِهِمَا]{.ar}
 "I looked at their~2~ heads~3~."
 
-Although the former is also correct. This is because the [idafa]{.term} of a dual to a dual is considered burdensome upon the tongue to utter, and so the plural is prefered.
+Although the former is also correct. This is because the [idafa]{.subs} of a dual to a dual is considered burdensome upon the tongue to utter, and so the plural is prefered.
 
 <!--
 
-Compare this with describing the [mudafil]{.term} with the same adjectival noun.
+Compare this with describing the [mudafil]{.subs} with the same adjectival noun.
 
 [كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرَةِ]{.ar}  
 "the girl's small book"
 
 As you can see, the adjectival noun [صَغِير]{.ar} "a small one" is in the same location, but its gender and state are different in both expressions because they match a different describee. 
-The definiteness, however, is the same in the two expressions because the [mudaf]{.term} has the same definiteness as the [mudafil]{.term}.
+The definiteness, however, is the same in the two expressions because the [mudaf]{.subs} has the same definiteness as the [mudafil]{.subs}.
 
 
 
@@ -1040,11 +1040,11 @@ Here are some notes regarding the use of pronouns in noun-chains.
   By the way, describers will obviously only be for nouns preceding the pronoun and never for the pronoun itself.
 -->
 
-## [_idafa]{.term}s with "and"
+## [_idafa]{.subs}s with "and"
 
-### Multiple [mudaf]{.term}s and one [mudafil]{.term}
+### Multiple [mudaf]{.subs}s and one [mudafil]{.subs}
 
-In English we can have an expression like "the pen and the book of the boy" = "the boy's pen and book". In this sentence there are two [mudaf]{.term}s and one [mudafil]{.term}.
+In English we can have an expression like "the pen and the book of the boy" = "the boy's pen and book". In this sentence there are two [mudaf]{.subs}s and one [mudafil]{.subs}.
 
 In order to express this in Arabic, we will say:
 
@@ -1052,9 +1052,9 @@ In order to express this in Arabic, we will say:
 [qalamu -lgulAmi wakitAbuhu]{.trn}  
 "the boy's pen and his book" = "the boy's pen and book"
 
-Note that the [idafa]{.term} is not broken by the insertion of [وَ]{.ar} [wa]{.trn} "and". Rather a second [idafa]{.term} is used and the two are separated by [وَ]{.ar} [wa]{.trn} "and". This is the preferred way of expressing such expressions.
+Note that the [idafa]{.subs} is not broken by the insertion of [وَ]{.ar} [wa]{.trn} "and". Rather a second [idafa]{.subs} is used and the two are separated by [وَ]{.ar} [wa]{.trn} "and". This is the preferred way of expressing such expressions.
 
-There is another, less preferred way of expressing this. And this is by breaking the first [idafa]{.term} and inserting [وَ]{.ar} [wa]{.trn} "and":
+There is another, less preferred way of expressing this. And this is by breaking the first [idafa]{.subs} and inserting [وَ]{.ar} [wa]{.trn} "and":
 
 [قَلَمُ وَكِتَابُ ٱلْغُلَامِ]{.ar}  
 [qalamu wakitAbu -lgulAmi]{.trn}  
@@ -1064,15 +1064,15 @@ This second method is not considered as eloquent. Some even consider it incorrec
 
 #### With pronouns
 
-If the [mudafil]{.term} in the first [idafa]{.term} is replaced with a pronoun then only the first method is allowed. For example,
+If the [mudafil]{.subs} in the first [idafa]{.subs} is replaced with a pronoun then only the first method is allowed. For example,
 
 [قَلَمُهُ وَكِتَابُهُ]{.ar}  
 [qalamuhu wakitAbuhu]{.trn}  
 "his pen and his book"
 
-### One [mudaf]{.term} and multiple [mudafil]{.term}s
+### One [mudaf]{.subs} and multiple [mudafil]{.subs}s
 
-We can also have expressions like "the house of the boy and the girl". In this sentence there is one [mudaf]{.term} and two [mudafil]{.term}s.
+We can also have expressions like "the house of the boy and the girl". In this sentence there is one [mudaf]{.subs} and two [mudafil]{.subs}s.
 
 To express this in Arabic we will say:
 
@@ -1081,11 +1081,11 @@ To express this in Arabic we will say:
 "the house of the boy and the girl"
 
 Note that both 
-[ٱلْغُلَامِ]{.ar} [EalgulAmi]{.trn} and [ٱَلْجَارِيَةِ]{.ar} [EaljAriyati]{.trn} are in the i-state because they are both [mudafil]{.term}s in the [idafa]{.term}.
+[ٱلْغُلَامِ]{.ar} [EalgulAmi]{.trn} and [ٱَلْجَارِيَةِ]{.ar} [EaljAriyati]{.trn} are in the i-state because they are both [mudafil]{.subs}s in the [idafa]{.subs}.
 
 #### With pronouns
 
-If one or both of the [mudafil]{.term}s in the [idafa]{.term} is replaced with a pronoun then the first noun must be repeated. For example,
+If one or both of the [mudafil]{.subs}s in the [idafa]{.subs} is replaced with a pronoun then the first noun must be repeated. For example,
 
 [بَيْتُ ٱلْغُلَامِ وَبَيْتُهَا]{.ar}  
 "the boy's house and her house"
@@ -1106,10 +1106,10 @@ However, it must be said that these expressions are ambiguous because they could
 piece of bread, man of wealth, rule of law, nahru -lEurdunn
 -->
 
-## [_idafa]{.term} to a sentence
+## [_idafa]{.subs} to a sentence
 
-So far we have studied the [idafa]{.term} of an [mudaf]{.term} to a [mudafil]{.term}.
-It is also possible to have an annnexation where the [mudafil]{.term} is replaced by a sentence or a clause.
+So far we have studied the [idafa]{.subs} of an [mudaf]{.subs} to a [mudafil]{.subs}.
+It is also possible to have an annnexation where the [mudafil]{.subs} is replaced by a sentence or a clause.
 For example,
 
 <!--
@@ -1130,30 +1130,30 @@ For example,
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize [mudaf]{.term}};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize [mudaf]{.subs}};
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize sentence in place of [mudafil]{.term}};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize sentence in place of [mudafil]{.subs}};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
-      node [midway, below] {\scriptsize [idafa]{.term}};
+      node [midway, below] {\scriptsize [idafa]{.subs}};
 
 \path (0,0) node [midway, below=6ex, right=0ex, align=left] {``I accompanied my friend the day we left the city.''};
 
 \end{tikzpicture}
 ```
 
-The word [يَوْم]{.ar} is the [mudaf]{.term} and is used as an adverb or time.
+The word [يَوْم]{.ar} is the [mudaf]{.subs} and is used as an adverb or time.
 The entire sentence
 [خَرَجْنَا مِنَ ٱلْمَدِينَةِ.]{.ar}
-occupies the place of the [mudafil]{.term}.
+occupies the place of the [mudafil]{.subs}.
 We will study the adverb of time in chapter\ (give ref),
 if [_allAh]{.trn2} wills,
-where such [idafa]{.term}s are common.
+where such [idafa]{.subs}s are common.
 
-[_idafa]{.term} to a sentence also occurs besides adverbs.^[[https://ar.wikipedia.org/wiki/[الجملة_الفعلية_الواقعة_مضافا_إليه]{.ar}](https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AC%D9%85%D9%84%D8%A9_%D8%A7%D9%84%D9%81%D8%B9%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D9%88%D8%A7%D9%82%D8%B9%D8%A9_%D9%85%D8%B6%D8%A7%D9%81%D8%A7_%D8%A5%D9%84%D9%8A%D9%87)]
+[_idafa]{.subs} to a sentence also occurs besides adverbs.^[[https://ar.wikipedia.org/wiki/[الجملة_الفعلية_الواقعة_مضافا_إليه]{.ar}](https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AC%D9%85%D9%84%D8%A9_%D8%A7%D9%84%D9%81%D8%B9%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D9%88%D8%A7%D9%82%D8%B9%D8%A9_%D9%85%D8%B6%D8%A7%D9%81%D8%A7_%D8%A5%D9%84%D9%8A%D9%87)]
 For another example, see section\ (ref to idaafah to a [أن يفعلَ]{.ar}).
 
 
@@ -1268,7 +1268,7 @@ the feminine number has a [sukUn]{.trn2} on the [ش]{.ar}
 ([عَشْر]{.ar} [eacr]{.trn}).
 
 Consistent with the numbers 1 and 2, the numbers from 3--10 may be used as describers.
-But they are more often used as [mudaf]{.term}s.
+But they are more often used as [mudaf]{.subs}s.
 As mentioned earlier, we will treat numbers more fully later, if [_allAh]{.trn2} wills.
 But here are some examples for now:
 
@@ -1311,7 +1311,7 @@ For example,
 
 
 
-## Usage of the [idafa]{.term}
+## Usage of the [idafa]{.subs}
 
 ### Primarily belonging
 
@@ -1325,7 +1325,7 @@ Don't become definite when annexed to pronoun
 
 [قالت لِي نَفسي]{.ar}
 
-### [idafa]{.term} of material
+### [idafa]{.subs} of material
 
 [خاتمُ ذَهَبٍ]{.ar}
 

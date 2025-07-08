@@ -60,7 +60,7 @@ filters:
   - filters/lingex.lua
   - filters/footnotesize.lua
   - filters/citex.lua
-  - filters/term.lua
+  - filters/subs.lua
 
 tikzarabic:
   cache: true

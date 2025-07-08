@@ -4,8 +4,8 @@
 
 ## Introduction
 
-We have learned that a verb must have a [fail]{.term} in the u-state and can have a [mafulb]{.term} in the a-state.
-In this chapter, we will learn about a new type of verb, whose [fail]{.term} is called its subject, and whose [mafulb]{.term} is called its information.
+We have learned that a verb must have a [fail]{.subs} in the u-state and can have a [mafulb]{.subs} in the a-state.
+In this chapter, we will learn about a new type of verb, whose [fail]{.subs} is called its subject, and whose [mafulb]{.subs} is called its information.
 
 The principal verb of this type is [كَانَ]{.ar} which is used to mean "was". There are other verbs which behave in a similar manner and they are called the _sisters_ of [كَانَ]{.ar}.
 
@@ -42,7 +42,7 @@ Consider now the following sentence:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex, align=left] {\scriptsize [mafulb]{.term}/\\\scriptsize information};
+      node [midway, rotate=90, anchor=south, left=0ex, align=left] {\scriptsize [mafulb]{.subs}/\\\scriptsize information};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
@@ -55,10 +55,10 @@ Consider now the following sentence:
 
 Now, as you can see, Arabic does express a word for "was". It is the past verb [كَانَ]{.ar} [kAna]{.trn}.
 [كَانَ]{.ar} is a hollow verb from the root [كون]{.ar}. 
-It's [mudarie]{.term} verb is [يَكُونُ]{.ar} [yakUnu]{.trn}.
-The complete table for this verb for all [fail]{.term} pronouns is given below:
+It's [mudarie]{.subs} verb is [يَكُونُ]{.ar} [yakUnu]{.trn}.
+The complete table for this verb for all [fail]{.subs} pronouns is given below:
 
-|[_fail]{.term} pronoun|past verb|[mudarie]{.term} verb|
+|[_fail]{.subs} pronoun|past verb|[mudarie]{.subs} verb|
 |:----|:----|:----|
 | he        | [كَانَ]{.ar}   | [يَكُونُ]{.ar}   |
 | she       | [كَانَتْ]{.ar}  | [تَكُونُ]{.ar}   |
@@ -75,20 +75,20 @@ The complete table for this verb for all [fail]{.term} pronouns is given below:
 | we        | [كُنَّا]{.ar}   | [نَكُونُ]{.ar}   |
 
 Like, for other verbs, 
-the [fail]{.term} of [كَانَ]{.ar},
+the [fail]{.subs} of [كَانَ]{.ar},
 [ٱلرَّجُلُ]{.ar}, is in the u-state, and
-and its [mafulb]{.term}, [مُعَلِّمًا]{.ar}, is in the a-state.
+and its [mafulb]{.subs}, [مُعَلِّمًا]{.ar}, is in the a-state.
 
 However, unlike most other verbs,
-the [fail]{.term} of [كَانَ]{.ar},
+the [fail]{.subs} of [كَانَ]{.ar},
 [ٱلرَّجُلُ]{.ar}, is also called its subject
-and its [mafulb]{.term}, [مُعَلِّمًا]{.ar}, is also called its information.
+and its [mafulb]{.subs}, [مُعَلِّمًا]{.ar}, is also called its information.
 
 So a sentence with [كَانَ]{.ar} used in this way is a subject-information sentence.
 If it begins with [كَانَ]{.ar} then it is also a verbal sentence at the same time.
 
 This property also applies to the sisters of [كَانَ]{.ar} that we will learn later in this chapter. 
-Together, these verbs are also called _deficient_ verbs, because, besides their [fail]{.term}/subject, they also need an information to complete the meaning of the sentence.
+Together, these verbs are also called _deficient_ verbs, because, besides their [fail]{.subs}/subject, they also need an information to complete the meaning of the sentence.
 That is, without the information, the sentence is deficient.
 
 "Is" subject-information sentences can be converted to "was" subject-information sentences using the verb [كَانَ]{.ar}. Here are some examples:
@@ -233,7 +233,7 @@ may be negated by preceding it with the particle [مَا]{.ar}. For example:
 
 A similar meaning may be obtained with the particle [لَمْ]{.ar} followed by the
 0-state
-[mudarie]{.term} verb
+[mudarie]{.subs} verb
 [يَكُنْ]{.ar}.
 This is dealt with in section\ \@ref(lam-yakun) below.
 
@@ -257,16 +257,16 @@ Note, how, in the above examples, [كَانَتْ]{.ar} has a [ت]{.ar} of femin
 
 TODO
 
-## The [mudarie]{.term} verb [يَكُونُ]{.ar}
+## The [mudarie]{.subs} verb [يَكُونُ]{.ar}
 
-The rules related to [كَانَ]{.ar}, its subject, and its information, that we have given above apply also to its [mudarie]{.term} verb [يَكُونُ]{.ar}.
+The rules related to [كَانَ]{.ar}, its subject, and its information, that we have given above apply also to its [mudarie]{.subs} verb [يَكُونُ]{.ar}.
 
-We will now discuss the usages of the specific states of the [mudarie]{.term} verb.
+We will now discuss the usages of the specific states of the [mudarie]{.subs} verb.
 
-### The u-state [mudarie]{.term} verb [يَكُونُ]{.ar}
+### The u-state [mudarie]{.subs} verb [يَكُونُ]{.ar}
 
 We have already mentioned that Arabic does not usually express any word for "is".
-So when, then, is the u-state [mudarie]{.term} verb [يَكُونُ]{.ar} used?
+So when, then, is the u-state [mudarie]{.subs} verb [يَكُونُ]{.ar} used?
 There are actually a few uses of this verb. We will explain them below:
 
 #### [يَكُونُ]{.ar} used for habitual "is"
@@ -291,7 +291,7 @@ But for the verb "is", Arabic can distinguish between the present and the habitu
 So if we say [السَّمَاءُ زَرْقَاءُ]{.ar}, then this can, in general, mean both
 (i) that the sky is blue at present, and
 (ii) that it is habitually blue.
-If we wish to emphasize the habitual meaning, we may use the [mudarie]{.term} verb [يَكُونُ]{.ar}, thus:
+If we wish to emphasize the habitual meaning, we may use the [mudarie]{.subs} verb [يَكُونُ]{.ar}, thus:
 
 [تَكُونُ السَّمَاءُ زَرْقَاءَ.]{.ar}  
 "The sky is [habitually] blue."
@@ -300,7 +300,7 @@ While we call this the
 habitual [يَكُونُ]{.ar},
 it can include a range of meanings, including
 continually, recurringly, regularly, typically, generally, often, sometimes, can, may, etc.
-Habitual [يَكُونُ]{.ar} is negated using [مَا]{.ar} or [لَا]{.ar}, just like other u-state [mudarie]{.term} verbs.
+Habitual [يَكُونُ]{.ar} is negated using [مَا]{.ar} or [لَا]{.ar}, just like other u-state [mudarie]{.subs} verbs.
 
 Here are some examples:
 
@@ -324,7 +324,7 @@ From [جامع الترمذي]{.ar}:2137)-->
 ##### [قَدْ يَكُونُ]{.ar} for "may be"
 
 When the meaning "may be" is desired, the 
-the [mudarie]{.term} verb
+the [mudarie]{.subs} verb
 [يَكُونُ]{.ar}
 may be preceded by the particle [قَدْ]{.ar}. For example,
 
@@ -333,7 +333,7 @@ may be preceded by the particle [قَدْ]{.ar}. For example,
 
 #### [يَكُونُ]{.ar} used for future "will be"
 
-Another usage of the [mudarie]{.term} verb
+Another usage of the [mudarie]{.subs} verb
 [يَكُونُ]{.ar}
 is for the future tense to mean "will be".
 In this case, it is often preceded by [سَ]{.ar} or [سَوْفَ]{.ar}.
@@ -355,16 +355,16 @@ Here are some examples:
 [<https://quran.com/101:4>]{.aside}  
 "It is the Day when people will be like moths, dispersed,"  
 
-### The a-state [mudarie]{.term} verb [يَكُونَ]{.ar}
+### The a-state [mudarie]{.subs} verb [يَكُونَ]{.ar}
 
-Like a-state [mudarie]{.term} verbs in general, [يَكُونَ]{.ar} "be" expresses the meaning of purpose, wish, or expectation. It occurs after the particles
+Like a-state [mudarie]{.subs} verbs in general, [يَكُونَ]{.ar} "be" expresses the meaning of purpose, wish, or expectation. It occurs after the particles
 [أَنْ]{.ar},
 [لَنْ]{.ar},
 [لِ]{.ar},
 [كَيْ]{.ar},
 [حَتَّىٰ]{.ar}, and
 [إِذَنْ]{.ar}.
-All this is consistent with what we have learned about a-state [mudarie]{.term} verbs in chapter\ \@ref(a-state-[mudarie]{.term}-verbs).
+All this is consistent with what we have learned about a-state [mudarie]{.subs} verbs in chapter\ \@ref(a-state-[mudarie]{.subs}-verbs).
 Here are some examples:
 
 [نَزَلَ بِهِ ٱلرُّوحُ ٱلْأَمِينُ. عَلَىٰ قَلْبِكَ لِتَكُونَ مِنَ ٱلْمُنذِرِينَ]{.ar}
@@ -379,12 +379,12 @@ Here are some examples:
 [<https://quran.com/10/99>]{.aside}  
 "Then, [O Muḥammad], would you compel the people in order that they become believers?"
 
-### The 0-state [mudarie]{.term} verb [يَكُنْ]{.ar} {#lam-yakun}
+### The 0-state [mudarie]{.subs} verb [يَكُنْ]{.ar} {#lam-yakun}
 
-The 0-state [mudarie]{.term} verb [يَكُنْ]{.ar} 
+The 0-state [mudarie]{.subs} verb [يَكُنْ]{.ar} 
 is used consistent with the usage of 
-0-state [mudarie]{.term} verbs in general.
-(See chapter\ \@ref(0-state-[mudarie]{.term}-verbs).)
+0-state [mudarie]{.subs} verbs in general.
+(See chapter\ \@ref(0-state-[mudarie]{.subs}-verbs).)
 
 For example:
 
@@ -403,7 +403,7 @@ For example:
 #### Deletion of [ن]{.ar}
 
 The [ن]{.ar} may (irregularly) be deleted
-for the 0-state [mudarie]{.term} verbs that don't have a [و]{.ar} before them. 
+for the 0-state [mudarie]{.subs} verbs that don't have a [و]{.ar} before them. 
 These are:
 
 + [يَكُنْ]{.ar}, becomes [يَكُ]{.ar}
@@ -567,15 +567,15 @@ For example:
 
 The past verb
 [كَانَ]{.ar}
-and its [mudarie]{.term} verb
+and its [mudarie]{.subs} verb
 [يَكُونُ]{.ar}
 are combined with other verbs to express complex tenses in the past and the future, respectively.
 We will explain these combinations below.
 
-### [كَانَ]{.ar} combined with a [mudarie]{.term} verb
+### [كَانَ]{.ar} combined with a [mudarie]{.subs} verb
 
 [كَانَ]{.ar}
-is combined with a following [mudarie]{.term} verb to express that the action of the verb was repeatedly or continually ocurring in the past.
+is combined with a following [mudarie]{.subs} verb to express that the action of the verb was repeatedly or continually ocurring in the past.
 For example:
 
 [كَانَ زَيْدٌ يَكْتُبُ.]{.ar}  
@@ -591,17 +591,17 @@ The subject of
 is [زَيْد]{.ar} and it is the topic of the sentence.
 The information of [كَانَ]{.ar} is itself a sentence [يَكْتُبُ]{.ar} "he writes", and it is the comment of the main sentence.
 
-The order of the subject and the [mudarie]{.term} verb can be re-arranged for the same meaning thus:
+The order of the subject and the [mudarie]{.subs} verb can be re-arranged for the same meaning thus:
 
 [كَانَ يَكْتُبُ زَيْدٌ.]{.ar}  
 
 Now, two grammatical analyses are possible:
 
-1. [زَيْد]{.ar} is the [fail]{.term} of [يَكْتُبُ]{.ar}, and the subject of [كَانَ]{.ar} is a hidden pronoun of the fact.
-2. [زَيْد]{.ar} is the delayed subject of [كَانَ]{.ar} and [يَكْتُبُ]{.ar} is the information of [كَانَ]{.ar}. The [fail]{.term} of [يَكْتُبُ]{.ar} is a hidden pronoun.
+1. [زَيْد]{.ar} is the [fail]{.subs} of [يَكْتُبُ]{.ar}, and the subject of [كَانَ]{.ar} is a hidden pronoun of the fact.
+2. [زَيْد]{.ar} is the delayed subject of [كَانَ]{.ar} and [يَكْتُبُ]{.ar} is the information of [كَانَ]{.ar}. The [fail]{.subs} of [يَكْتُبُ]{.ar} is a hidden pronoun.
 
 Either way, the meaning, as we have mentioned, is the same.
-Here are some more examples for different types of [fail]{.term}s/subjects:
+Here are some more examples for different types of [fail]{.subs}s/subjects:
 
 <!--[كَانَ يُحِبُّ ٱلشِّعْرَ وٱلشُّعَرَاءَ.]{.ar}  
 "He used to love poetry and the poets."
@@ -625,21 +625,21 @@ or
 [<https://sunnah.com/bukhari:6130>]{.aside}  
 "I used to play with dolls in the presence of the Prophet, and I had companions~f~ playing with me."
 
-Occasionally, the particle [قَدْ]{.ar} precedes the combination of [كَانَ]{.ar} and the [mudarie]{.term} verb. Example:
+Occasionally, the particle [قَدْ]{.ar} precedes the combination of [كَانَ]{.ar} and the [mudarie]{.subs} verb. Example:
 
 [قَالُوا هَذَا قَدْ كَانَ يَكْتُبُ لِمُحَمَّدٍ]{.ar}
 [<https://sunnah.com/muslim:2781>]{.aside}  
 "They said, 'This [person] used to transcribe for [_muHammad]{.trn2} [ﷺ]{.aralt}'"
 
-The following [mudarie]{.term} verb may also be an [passive]{.term} verb. Example:
+The following [mudarie]{.subs} verb may also be an [passive]{.subs} verb. Example:
 
 [إِنَّ أُنَاسًا كَانُوا يُؤْخَذُونَ بِالْوَحْىِ فِي عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم]{.ar}
 [<https://sunnah.com/bukhari:2641>]{.aside}  
 "Indeed people were (sometimes) judged (literally: held) by the [revealing of] divine inspiration in the lifetime of the Prophet."
 
-#### One [كَانَ]{.ar} suffices multiple [mudarie]{.term} verbs
+#### One [كَانَ]{.ar} suffices multiple [mudarie]{.subs} verbs
 
-If the signification of an action ocurring continually in the past applies to more that one [mudarie]{.term} verb, then it is sufficient to prefix 
+If the signification of an action ocurring continually in the past applies to more that one [mudarie]{.subs} verb, then it is sufficient to prefix 
 [كَانَ]{.ar}
 to only the first one. Example:
 
@@ -648,12 +648,12 @@ to only the first one. Example:
 "She used to work with her hand and spend (that income) on charity."  
 ([تَتَصَدَّقُ]{.ar} is abbreviated to [تَصَدَّقُ]{.ar}. See section\ \@ref(form-5-verbs-abbrev).)
 
-#### Negation of [كَانَ]{.ar} and a [mudarie]{.term} verb
+#### Negation of [كَانَ]{.ar} and a [mudarie]{.subs} verb
 
 In order to negate the combination of
 [كَانَ]{.ar}
-and the following [mudarie]{.term} verb,
-multiple options are available. Using [يَفْعَلُ]{.ar} as an example [mudarie]{.term} verb, we can have:
+and the following [mudarie]{.subs} verb,
+multiple options are available. Using [يَفْعَلُ]{.ar} as an example [mudarie]{.subs} verb, we can have:
 
 + [مَا كَانَ يَفْعَلُ]{.ar}
 + [لَمْ يَكُنْ يَفْعَلُ]{.ar}
@@ -713,7 +713,7 @@ Whereas
 
 Occasionally, 
 [كَانَ]{.ar}
-can be combined with its own [mudarie]{.term} verb
+can be combined with its own [mudarie]{.subs} verb
 [يَكُونُ]{.ar}
 This gives the meaning "was being" or "used to be".
 [يَكُونُ]{.ar} is, in this combination, often optional and may be dropped for no change in meaning. Examples:
@@ -741,7 +741,7 @@ and
 
 Sometimes
 [كَانَ]{.ar}
-is used with a [mudarie]{.term} verb to express an action that could, should, or would have occurred. Examples:
+is used with a [mudarie]{.subs} verb to express an action that could, should, or would have occurred. Examples:
 
 [كَانَ يَكُونُ سُوءَ أَدَبٍ.]{.ar}
 [Fischer, §192.3, p.\ 108]{.aside}  
@@ -759,10 +759,10 @@ This meaning can also be for the future, for example in a question:
 
 #### Omission of [كَانَ]{.ar}
 
-If one or more past verbs precedes the [mudarie]{.term} verb 
+If one or more past verbs precedes the [mudarie]{.subs} verb 
 or if the context indicates that the action was occurring in the past, then
 [كَانَ]{.ar}
-can be omitted, and the [mudarie]{.term} verb is used by itself.^[Wright, vol.\ ii, §9, p.\ 21C] For example:
+can be omitted, and the [mudarie]{.subs} verb is used by itself.^[Wright, vol.\ ii, §9, p.\ 21C] For example:
 
 [قُلْ فَلِمَ تَقْتُلُونَ أَنۢبِيَآءَ ٱللَّهِ مِن قَبْلُ]{.ar}
 [<https://quran.com/2/91>]{.aside}  
@@ -774,9 +774,9 @@ can be omitted, and the [mudarie]{.term} verb is used by itself.^[Wright, vol.\ 
 "And they followed [instead] what the devils had recited during the reign of Solomon"  
 (No [كَانَتْ]{.ar} before [تَتْلُو]{.ar}.)
 
-#### [كَانَ]{.ar} followed by a [ismfail]{.term} or [ismmaful]{.term} instead of a [mudarie]{.term} verb
+#### [كَانَ]{.ar} followed by a [ismfail]{.subs} or [ismmaful]{.subs} instead of a [mudarie]{.subs} verb
 
-Instead of a [mudarie]{.term} verb after [كَانَ]{.ar}, its [ismfail]{.term} or [ismmaful]{.term} may be used instead. 
+Instead of a [mudarie]{.subs} verb after [كَانَ]{.ar}, its [ismfail]{.subs} or [ismmaful]{.subs} may be used instead. 
 And this can give the effect of a state of being rather than an action being done.
 For example:
 
@@ -866,7 +866,7 @@ This combination may, again, be negated in multiple ways. Examples:
 
 ### [يَكُونُ]{.ar} combined with a past verb
 
-The [mudarie]{.term} verb
+The [mudarie]{.subs} verb
 [يَكُونُ]{.ar}
 is compined with a past verb (often with an interposed [قَدْ]{.ar})
 to express that the action is conceived of having been completed in the future.
@@ -897,10 +897,10 @@ or that might have occurred. For example:
 [يَشْتَرِطُ فِي ٱلنَّائِبِ أَنْ يَكُونَ قَدْ حَجَّ عَنْ نَفْسِهِ]{.ar}  
 "It is conditional for the deputy that he be in as state of already having performed the [_Hajj]{.trn2} for himself."
 
-### Verb of command [كُنْ]{.ar} combined with a [mudarie]{.term} verb
+### Verb of command [كُنْ]{.ar} combined with a [mudarie]{.subs} verb
 
 Ocassionally,
-the verb of command [كُنْ]{.ar} is combined with a [mudarie]{.term} verb, thus:
+the verb of command [كُنْ]{.ar} is combined with a [mudarie]{.subs} verb, thus:
 
 [كُنْ أَنْتَ تُكَلِّمُهُمْ]{.ar}
 [Fischer, §222.2, p.\ 121]{.aside}  
@@ -920,7 +920,7 @@ This is a negative
 or
 [لَمْ يَكُنْ]{.ar} with the appropriate suffixes or prefixes for the subject)
 followed by [لِ]{.ar}
-and then an a-state [mudarie]{.term} verb.
+and then an a-state [mudarie]{.subs} verb.
 This expresses the meaning of:
 
  i. to deny being the one to do something, or 
@@ -958,7 +958,7 @@ This is, again, a negative
 [كَانَ]{.ar} 
 followed by the preposition [لِ]{.ar}
 and a following i-state noun,
-and then [أَنْ]{.ar} followed by an a-state [mudarie]{.term} verb.
+and then [أَنْ]{.ar} followed by an a-state [mudarie]{.subs} verb.
 This signifies that the action of the verb does not behoove, or is not appropriate or desrving or possibly for the person denoted by the noun after [لِ]{.ar}.^[<https://tafsir.app/albahr-almuheet/3/79>, <https://tafsir.app/ibn-aashoor/3/79>]
 For example:
 

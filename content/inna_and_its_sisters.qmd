@@ -156,12 +156,12 @@ or
 
 TODO: Multiple pronoun subjects: [إِنِّ وَ إِيَّاكَ ...]{.ar}
 
-[إِنَّ]{.ar} with the speaker pronouns are often used with [ismfail]{.term}s to signify that the speaker intends to to the action of the verb. For example,
+[إِنَّ]{.ar} with the speaker pronouns are often used with [ismfail]{.subs}s to signify that the speaker intends to to the action of the verb. For example,
 
 [إِنِّي ذَاهِبٌ إِلَىٰ ٱلْمَسْجِدِ.]{.ar}  
 "I'm going to the mosque."
 
-We also mentioned this point in section\ \@ref([ismfail]{.term}-for-intended-future-action).
+We also mentioned this point in section\ \@ref([ismfail]{.subs}-for-intended-future-action).
 
 ### [إِنَّ]{.ar} [Einna]{.trn} with a strengthening [لَ]{.ar} {#inna-strengthening-la}
 
@@ -222,7 +222,7 @@ We need to additional words, external to the
 clause
 to complete the sentence. We will see examples of this below.
 
-### The [أَنَّ]{.ar} clause in place of the [mafulb]{.term}
+### The [أَنَّ]{.ar} clause in place of the [mafulb]{.subs}
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -237,7 +237,7 @@ to complete the sentence. We will see examples of this below.
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize [mafulb]{.term}};
+      node [midway, below] {\scriptsize [mafulb]{.subs}};
 
 %\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``I know that Zayd is truthful.''};
 
@@ -250,13 +250,13 @@ Note how, in the example above the
 [أَنَّ]{.ar}
 clause
 ([أَنَّ زَيْدًا صَادِقٌ]{.ar})
-has occupied the place of the [mafulb]{.term} of the verb [أَعْلَمُ]{.ar}.
+has occupied the place of the [mafulb]{.subs} of the verb [أَعْلَمُ]{.ar}.
 
 In a similar manner,
 [أَنَّ]{.ar}
-clauses can be placed where one would expect other noun positions, such as: a subject, an information, a [fail]{.term}, and more. Here are some examples:
+clauses can be placed where one would expect other noun positions, such as: a subject, an information, a [fail]{.subs}, and more. Here are some examples:
 
-### The [أَنَّ]{.ar} clause in place of the [fail]{.term}
+### The [أَنَّ]{.ar} clause in place of the [fail]{.subs}
 
 Example:
 
@@ -336,7 +336,7 @@ Example:
 
 ### [أَنَّ]{.ar} with [كَانَ]{.ar}
 
-As you know, [كَانَ]{.ar}'s [fail]{.term} is also its subject, and its [mafulb]{.term} is also its information.
+As you know, [كَانَ]{.ar}'s [fail]{.subs} is also its subject, and its [mafulb]{.subs} is also its information.
 The [أَنَّ]{.ar} clause can occur in either the subject or the information of [كَنَ]{.ar}. 
 For example, the [أَنَّ]{.ar} clause as the information:
 
@@ -390,7 +390,7 @@ Note that in the latter case, the information precedes the subject.
 
 ### The [أَنَّ]{.ar} clause in place of an i-state noun
 
-The [أَنَّ]{.ar} clause can occur in place of an i-state [mudafil]{.term} in an [idafa]{.term}. Example:
+The [أَنَّ]{.ar} clause can occur in place of an i-state [mudafil]{.subs} in an [idafa]{.subs}. Example:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -405,7 +405,7 @@ The [أَنَّ]{.ar} clause can occur in place of an i-state [mudafil]{.term} i
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize [mudafil]{.term}};
+      node [midway, below] {\scriptsize [mudafil]{.subs}};
 
 %\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``The truth is that he went.''};
 
@@ -455,10 +455,10 @@ The combination of the preposition [لِ]{.ar} "for" and [أَنَّ]{.ar} is us
 [أَكَلْتُ ٱلطَّعَامَ لِأَنَّنِي كُنْتُ جَائِعًا.]{.ar}  
 "I ate the food because I was hungry."
 
-### Equivalence of the [أَنَّ]{.ar} clause with a [masdar]{.term}
+### Equivalence of the [أَنَّ]{.ar} clause with a [masdar]{.subs}
 
 As a matter of grammatical theory, the
-[أَنَّ]{.ar} clause, i.e. ([أَنَّ]{.ar} itself, its subject, and its information) is considered equivalent to a [masdar]{.term} (typically in an [idafa]{.term}, and possibly with a [mafulb]{.term} as well). It is this equivalence that allows it to thake the place of a [fail]{.term}, [mafulb]{.term}, and the other categories we have given above.
+[أَنَّ]{.ar} clause, i.e. ([أَنَّ]{.ar} itself, its subject, and its information) is considered equivalent to a [masdar]{.subs} (typically in an [idafa]{.subs}, and possibly with a [mafulb]{.subs} as well). It is this equivalence that allows it to thake the place of a [fail]{.subs}, [mafulb]{.subs}, and the other categories we have given above.
 For instance, consider the example:
 
 [عَجِبْتُ مِنْ أَنَّ زَيْدًا ذَهَب.]{.ar}  
@@ -484,7 +484,7 @@ is equivalent to the verbal noun phrase [كَرَامَتِهِ]{.ar} "his gener
 "His generosity is from his characteristics."
 
 This grammatical equivalence is more a matter of theory than of practical usefulness to us.
-And you have seen this grammatical equivalence before with [أَنْ]{.ar} and a-state [mudarie]{.term} verbs in chanpter\ \@ref(a-state-[mudarie]{.term}-verbs-verbal-noun).
+And you have seen this grammatical equivalence before with [أَنْ]{.ar} and a-state [mudarie]{.subs} verbs in chanpter\ \@ref(a-state-[mudarie]{.subs}-verbs-verbal-noun).
 
 ## [كَأَنَّ]{.ar} [kaEanna]{.trn}
 
@@ -556,7 +556,7 @@ In the example
 
 Similarly, in the example
 [ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}
-the linker pronoun is the invisible [fail]{.term} pronoun "he" of the verb [كَتَبَ]{.ar} "he wrote" that links back to the topic [ٱَلرَّجُلُ]{.ar} "the man".
+the linker pronoun is the invisible [fail]{.subs} pronoun "he" of the verb [كَتَبَ]{.ar} "he wrote" that links back to the topic [ٱَلرَّجُلُ]{.ar} "the man".
 
 #### Topic-comment sentences with [إِنَّ]{.ar} and its sisters
 
@@ -760,7 +760,7 @@ is a verbal sentence, then it is  preferred to separate the verb from [أَنْ]
    [أَعْلَمُ أَنْ لَا يَذْهَبُ.]{.ar}  
    "I know that he does/will not go."
 
-   Note that, in writing, we have not combined the lightened [أَنْ]{.ar} and [لَا]{.ar} to form [أَلَّا]{.ar}, as is done for the a-state-verbal [أَنْ]{.ar} (for example: [أَلَّا يَذْهَبَ]{.ar} "that he not go") in chapter\ \@ref(chapter-a-state-[mudarie]{.term}-verbs). This distinction in spelling is not obligatory, but some authorities recommend it. In any case, they are both pronounced the same: [EallA]{.trn}. <!--al nahw al wafi 4/298, cited by Arik Sadan p.30 -->
+   Note that, in writing, we have not combined the lightened [أَنْ]{.ar} and [لَا]{.ar} to form [أَلَّا]{.ar}, as is done for the a-state-verbal [أَنْ]{.ar} (for example: [أَلَّا يَذْهَبَ]{.ar} "that he not go") in chapter\ \@ref(chapter-a-state-[mudarie]{.subs}-verbs). This distinction in spelling is not obligatory, but some authorities recommend it. In any case, they are both pronounced the same: [EallA]{.trn}. <!--al nahw al wafi 4/298, cited by Arik Sadan p.30 -->
 
    More examples:
 
@@ -770,7 +770,7 @@ is a verbal sentence, then it is  preferred to separate the verb from [أَنْ]
    [أَعْلَمُ أَنْ لَمْ يَذْهَبْ.]{.ar}  
    "I know that he did not go."
 
-   Note that the [لَنْ]{.ar} and [لَمْ]{.ar}, even when after the lightened [أَنْ]{.ar}, change the state of the following [mudarie]{.term} verb to the a-state and 0-state respectively.
+   Note that the [لَنْ]{.ar} and [لَمْ]{.ar}, even when after the lightened [أَنْ]{.ar}, change the state of the following [mudarie]{.subs} verb to the a-state and 0-state respectively.
 
 4. The conditional particle [لَوْ]{.ar}. We will study conditional sentences in chapter\ \@ref(conditional-sentences). TODO: add example.
 
@@ -783,9 +783,9 @@ Rigid verbs like [لَيْسَ]{.ar} and verbs expressing supplications are exem
 
 Although they are similar in meaning,
 care must be taken to distinguish between this lightened [أَنْ]{.ar} and the a-state-verbal [أَنْ]{.ar} 
-(that we learned in chapter\ \@ref(chapter-a-state-[mudarie]{.term}-verbs)),
-The a-state-verbal [أَنْ]{.ar} puts the following [mudarie]{.term} verb in the a-state.
-Whereas the [mudarie]{.term} verb directly after the lightened [أَنْ]{.ar} remains in the u-state.
+(that we learned in chapter\ \@ref(chapter-a-state-[mudarie]{.subs}-verbs)),
+The a-state-verbal [أَنْ]{.ar} puts the following [mudarie]{.subs} verb in the a-state.
+Whereas the [mudarie]{.subs} verb directly after the lightened [أَنْ]{.ar} remains in the u-state.
 The following guidelines can help to distinguish  between these two [أَنْ]{.ar}s:
 
 + If the verb before [أَنْ]{.ar} signifies certainty then only [أَنَّ]{.ar} and its lightened version [أَنْ]{.ar} is used. For example,
@@ -815,7 +815,7 @@ The following guidelines can help to distinguish  between these two [أَنْ]{.
   [سَرَّنِي أَنْ تَنْجَحَ]{.ar}  
   "That you succeed [will have] gladdened me."
 
-  Remember from chapter\ \@ref(chapter-a-state-[mudarie]{.term}-verbs)), that the a-state-verbal [أَنْ]{.ar} can occur with [madi]{.term} verbs as well. Example:
+  Remember from chapter\ \@ref(chapter-a-state-[mudarie]{.subs}-verbs)), that the a-state-verbal [أَنْ]{.ar} can occur with [madi]{.subs} verbs as well. Example:
 
   [سَرَّنِي أَنْ نَجَحْتَ]{.ar}  
   "That you have succeeded [has] gladdened me."

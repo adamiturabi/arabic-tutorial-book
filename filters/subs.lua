@@ -85,7 +85,7 @@ function get_output_text(input_text)
   --local mapped = map_table[input_text]
   local mapped = get_map_table_value(input_text)
   if not mapped then
-    print("bad term input text: " .. input_text)
+    print("bad subs input text: " .. input_text)
     error()
   end
   if mapped[2] == nil then
@@ -106,7 +106,7 @@ function get_output_text(input_text)
   --return pandoc.Span(mapped[1], {class=mapped[2]})
 end
 function Span(el)
-  if el.classes:includes 'term' then
+  if el.classes:includes 'subs' then
     local input_text = pandoc.utils.stringify(el)
     return get_output_text(input_text)
   end
