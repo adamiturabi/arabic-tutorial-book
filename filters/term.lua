@@ -4,6 +4,7 @@ local ar_span = require("ar_span")
 
 local map_table = {}
 
+-- diacritics
 map_table["amark"] = {"fatHah", "trn2"}
 map_table["imark"] = {"kasrah", "trn2"}
 map_table["umark"] = {"Dammah", "trn2"}
@@ -11,6 +12,18 @@ map_table["0mark"] = {"sukUn", "trn2"}
 map_table["shaddah"] = {"caddah", "trn2"}
 map_table["tanwin"] = {"tanwIn", "trn2"}
 
+-- person
+map_table["first"] = {"speaker", nil}
+map_table["second"] = {"adressee", nil}
+map_table["third"] = {"absentee", nil}
+
+-- mabny and mutasarrif
+map_table["mabny"] = {"rigid", nil}
+map_table["diptote"] = {"semi-flexible", nil}
+map_table["triptote"] = {"fully-flexible", nil}
+map_table["tote"] = {"flexible", nil}
+
+-- alphabetical
 map_table["badal"] = {"replacement", nil}
 
 map_table["fail"] = {"doer", nil}
@@ -43,14 +56,13 @@ map_table["mutaddi"] = {"transitive", nil}
 map_table["naib"] = {"deputy", nil}
 map_table["nat"] = {"describer", nil}
 
+map_table["passive"] = {"passive", nil}
+
 map_table["sifah"] = {"adjectival noun", nil}
 map_table["silah"] = {"connecting sentence", nil}
 
 map_table["xabar"] = {"comment", nil}
 
---map_table["mabny"] = {"rigid", nil}
---map_table["mamnu"] = {"semi-flexible", nil}
---map_table["mtsrf"] = {"flexible", nil}
 
 function get_map_table_value(input_text)
   return map_table[input_text]
