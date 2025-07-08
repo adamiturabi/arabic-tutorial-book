@@ -1,9 +1,11 @@
 project:
   type: book
   #output-dir: docs
+  pre-render:
+    - scripts/prerender_subs.py
   post-render:
     - "rm -rf images"
-    - "rm -rf srcqmd/images"
+    - "rm -rf content/images"
 
 profile:
   group:
@@ -16,37 +18,37 @@ book:
   date: now
   chapters:
     - index.qmd
-    - srcqmd/intro.qmd
-    - srcqmd/script.qmd
-    - srcqmd/nouns.qmd
-    - srcqmd/simple_sentences.qmd
-    - srcqmd/prepositions.qmd
-    - srcqmd/past_verbs.qmd
-    - srcqmd/describing_nouns.qmd
-    - srcqmd/diptotes.qmd
-    - srcqmd/duals.qmd
-    - srcqmd/sound_plurals.qmd
-    - srcqmd/broken_plurals.qmd
-    - srcqmd/idafa.qmd
-    - srcqmd/irregular_nouns.qmd
-    - srcqmd/proper_nouns.qmd
-    - srcqmd/vocative.qmd
-    - srcqmd/ism_ishara.qmd
-    - srcqmd/imperfect_verb_indic.qmd
-    - srcqmd/doing_verbal_noun.qmd
-    - srcqmd/imperfect_verb_subj.qmd
-    - srcqmd/imperfect_verb_juss.qmd
-    - srcqmd/additional_forms.qmd
-    #- srcqmd/elatives.qmd
-    - srcqmd/dharf.qmd
-    - srcqmd/maf3ool_mutlaq.qmd
-    - srcqmd/passive_voice.qmd
-    - srcqmd/doer_verbal_noun.qmd
-    - srcqmd/kaana.qmd
-    - srcqmd/inna_and_its_sisters.qmd
-    - srcqmd/ism_mawsuul.qmd
-    - srcqmd/question_nouns.qmd
-    - srcqmd/yes_no_questions.qmd
+    #- content/intro.qmd
+    #- content/script.qmd
+    #- content/nouns.qmd
+    - content/simple_sentences.qmd
+    #- content/prepositions.qmd
+    #- content/past_verbs.qmd
+    #- content/describing_nouns.qmd
+    #- content/diptotes.qmd
+    #- content/duals.qmd
+    #- content/sound_plurals.qmd
+    #- content/broken_plurals.qmd
+    #- content/idafa.qmd
+    #- content/irregular_nouns.qmd
+    #- content/proper_nouns.qmd
+    #- content/vocative.qmd
+    #- content/ism_ishara.qmd
+    #- content/imperfect_verb_indic.qmd
+    #- content/doing_verbal_noun.qmd
+    #- content/imperfect_verb_subj.qmd
+    #- content/imperfect_verb_juss.qmd
+    #- content/additional_forms.qmd
+    ##- content/elatives.qmd
+    #- content/dharf.qmd
+    - content/maf3ool_mutlaq.qmd
+    #- content/passive_voice.qmd
+    #- content/doer_verbal_noun.qmd
+    #- content/kaana.qmd
+    #- content/inna_and_its_sisters.qmd
+    #- content/ism_mawsuul.qmd
+    #- content/question_nouns.qmd
+    #- content/yes_no_questions.qmd
   downloads: [pdf]
   site-url: https://adamiturabi.github.io/arabic-tutorial-book/
   #cover-image: srchtml/favicon.png
