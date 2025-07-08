@@ -26,12 +26,12 @@ map_table["lnj"] = {"لا النافية للجنس", "ar"}
 
 map_table["madi"] = {"past", nil}
 map_table["maful"] = {"doee", nil}
-map_table["mafulbih"] = {"direct doee", nil}
+map_table["mafulb"] = {"direct doee", nil}
 map_table["manut"] = {"describee", nil}
 map_table["masdar"] = {"maSdar", "trn2"}
 map_table["mawsul"] = {"connected noun", nil}
 map_table["mmutlaq"] = {"absolute doee", nil}
-map_table["mubdalbih"] = {"replacemee", nil}
+map_table["mubdalb"] = {"replacemee", nil}
 map_table["mubtada"] = {"topic", nil}
 map_table["mudaf"] = {"annexe noun", nil}
 map_table["mudafil"] = {"base noun", nil}
