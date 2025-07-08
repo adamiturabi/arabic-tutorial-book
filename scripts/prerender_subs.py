@@ -7,6 +7,10 @@ def read_file(filename):
     import re
 
     out_str = re.sub(';([#a-zA-Z0-9_]+);', r'[\1]{.term}', in_str, flags = re.M)
+    
+    warning_str = "!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!"
+
+    out_str = warning_str + out_str
 
     #with open(filename, 'w') as file:
     #    file.write(in_str)
