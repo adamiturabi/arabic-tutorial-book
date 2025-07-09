@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In the basic ;mubtada;-;xabar; sentence, both the ;mubtada; and the ;xabar; are in the u-state. For example:
+In the basic ;mubtada;-;xabar; sentence, both the ;mubtada; and the ;xabar; are in the ;ustate;. For example:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -30,15 +30,15 @@ In the basic ;mubtada;-;xabar; sentence, both the ;mubtada; and the ;xabar; are 
 
 "This man is a teacher."
 
-In the above sentence both the ;mubtada; [ٱَلرَّجُلَ]{.ar} "the man", and the ;xabar; [مُعَلِّمٌ]{.ar} "a teacher" are in the u-state. In this chapter we will study a family of particles, called
+In the above sentence both the ;mubtada; [ٱَلرَّجُلَ]{.ar} "the man", and the ;xabar; [مُعَلِّمٌ]{.ar} "a teacher" are in the ;ustate;. In this chapter we will study a family of particles, called
 [إِنَّ]{.ar} and its sisters,
-that modify the ;mubtada;-;xabar; sentence by placing the ;mubtada; in the a-state instead of the u-state. For example,
+that modify the ;mubtada;-;xabar; sentence by placing the ;mubtada; in the a-state instead of the ;ustate;. For example,
 
 [إِنَّ ٱلرَّجُلَ مُعَلِّمٌ.]{.ar}  
 [Einna -rrajula mueallimun.]{.trn}  
 "Indeed the man is a teacher."
 
-Note how, in the above example, the ;mubtada; [ٱَلرَّجُلَ]{.ar} "the man" is now in the a-state. The ;xabar; [مُعَلِّمٌ]{.ar} "a teacher" remains in the u-state. 
+Note how, in the above example, the ;mubtada; [ٱَلرَّجُلَ]{.ar} "the man" is now in the a-state. The ;xabar; [مُعَلِّمٌ]{.ar} "a teacher" remains in the ;ustate;. 
 
 The particles constituting the family of 
 [إِنَّ]{.ar} and its sisters
@@ -81,7 +81,7 @@ may be a noun phrase, in which case, any ;naat;s or replacements of the ;ismof; 
 [إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَاتِ يَعْبُدُونَ ٱللَّـٰهَ.]{.ar}  
 "Indeed the Muslim men and Muslim women worship [_allAh]{.trn2}."
 
-If the ;xabar; of the first ;ismof; has been mentioned before the second ;ismof;, then the second ;ismof; may optionally be in the a-state or the u-state. For example:
+If the ;xabar; of the first ;ismof; has been mentioned before the second ;ismof;, then the second ;ismof; may optionally be in the a-state or the ;ustate;. For example:
 
 [إِنَّ زَيْدًا جَالِسٌ وَعَمْرًا.]{.ar}  
 or  
@@ -662,7 +662,7 @@ can be used in either of the following ways:
     However, this method is not as common as the second way (below):
 
 
-ii. The ;ismof; is not put in the a-state but is rather in the u-state.
+ii. The ;ismof; is not put in the a-state but is rather in the ;ustate;.
     However, the strengthening [لَ]{.ar} (see section\ \@ref(inna-strengthening-la) above), that was optional with the heavy [إِنَّ]{.ar}, is now mandatory with the lightened [إِنْ]{.ar}. For example,
 
     [إِنْ زَيْدٌ لَمُسْلِمٌ.]{.ar}  
@@ -787,7 +787,7 @@ Although they are similar in meaning,
 care must be taken to distinguish between this lightened [أَنْ]{.ar} and the a-state-verbal [أَنْ]{.ar} 
 (that we learned in chapter\ \@ref(chapter-a-state-;mudarie;-verbs)),
 The a-state-verbal [أَنْ]{.ar} puts the following ;mudarie; verb in the a-state.
-Whereas the ;mudarie; verb directly after the lightened [أَنْ]{.ar} remains in the u-state.
+Whereas the ;mudarie; verb directly after the lightened [أَنْ]{.ar} remains in the ;ustate;.
 The following guidelines can help to distinguish  between these two [أَنْ]{.ar}s:
 
 + If the verb before [أَنْ]{.ar} signifies certainty then only [أَنَّ]{.ar} and its lightened version [أَنْ]{.ar} is used. For example,
