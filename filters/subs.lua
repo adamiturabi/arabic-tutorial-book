@@ -64,6 +64,7 @@ map_table["mubtada"] = {"subject", nil}
 map_table["mudaf"] = {"annexe noun", nil}
 map_table["mudafil"] = {"base noun", nil}
 map_table["mudarie"] = {"resembling", nil} -- {"muDArie", "trn2"}
+map_table["mushar_il"] = {"pointed-to noun", nil} -- {"muDArie", "trn2"}
 map_table["mutaddi"] = {"transitive", nil}
 
 map_table["naib"] = {"deputy", nil}
