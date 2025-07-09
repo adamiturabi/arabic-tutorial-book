@@ -1,6 +1,6 @@
 <!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
 
-# Sound plurals
+# The sound plural
 
 ## Introduction
 
@@ -224,7 +224,7 @@ There are two separate rules to consider:
     + [ظُلْمَة]{.ar} [Pulmah]{.trn} "a darkness" can become, optionally, either [ظُلْمَات]{.ar} [PulmAt]{.trn} or [ظُلَمَات]{.ar} [PulamAt]{.trn}, or [ظُلُمَات]{.ar} [PulumAt]{.trn} "darknesses".
     + [كِسْرَة]{.ar} [kisrah]{.trn} "a piece" can become, optionally, either [كِسْرَات]{.ar} [kisrAt]{.trn} or [كِسَرَات]{.ar} [kisarAt]{.trn}, or [كِسِرَات]{.ar} [kisirAt]{.trn} "pieces".
 
-Note that this rule of changing the vowel mark is only true for common nouns. [_sifah]{.subs}s on these patterns will retain the [0mark]{.subs} when forming the [At]{.trn} sound plural. So [صَعْب]{.ar} [Saeb]{.trn} and [صَعْبَة]{.ar} [Saebah]{.trn} "a difficult one" become only [صَعْبَات]{.ar} [SaebAt]{.trn}, not $\times$\ [صَعَبَات]{.ar} [SaeabAt]{.trn}.
+Note that this rule of changing the vowel mark is only true for common nouns. [#sifah]{.subs}s on these patterns will retain the [0mark]{.subs} when forming the [At]{.trn} sound plural. So [صَعْب]{.ar} [Saeb]{.trn} and [صَعْبَة]{.ar} [Saebah]{.trn} "a difficult one" become only [صَعْبَات]{.ar} [SaebAt]{.trn}, not $\times$\ [صَعَبَات]{.ar} [SaeabAt]{.trn}.
 
 ### Applicability of the [At]{.trn} sound plural
 
@@ -311,7 +311,7 @@ In later chapters, once we have studied the patterns of the derived nouns, we wi
 -->
 Once you become more familiar with Arabic word patterns, distinguishing between primitive and derived nouns will become clearer, if [_allAh]{.trn2} wills.
 
-#### [_sifah]{.subs}s
+#### [#sifah]{.subs}s
 
 If an [sifah]{.subs} forms its feminine by adding the feminine marker [ة]{.ar} to the masculine noun, then we may assume that it forms the [Un]{.trn} sound plural. 
 
@@ -366,9 +366,9 @@ Examples are:
 
 The following are exceptions to this general rule, and don't form [At]{.trn} sound plurals:
 
-+ [_sifah]{.subs}s of the pattern ^2^[فَعْلَاء]{.ar} which is the feminine of the masculine [sifah]{.subs} pattern ^2^[أَفْعَل]{.ar}. For example, [حَمْرَاء]{.ar} [HamrAE]{.trn} "red~f~".
++ [#sifah]{.subs}s of the pattern ^2^[فَعْلَاء]{.ar} which is the feminine of the masculine [sifah]{.subs} pattern ^2^[أَفْعَل]{.ar}. For example, [حَمْرَاء]{.ar} [HamrAE]{.trn} "red~f~".
 
-+ [_sifah]{.subs}s of the pattern ^2^[فَعْلَىٰ]{.ar} which is the feminine of the masculine [sifah]{.subs} pattern ^2^[فَعْلَان]{.ar}. For example, [غَضْبَىٰ]{.ar} [gaDbA]{.trn} "very angry~f~".
++ [#sifah]{.subs}s of the pattern ^2^[فَعْلَىٰ]{.ar} which is the feminine of the masculine [sifah]{.subs} pattern ^2^[فَعْلَان]{.ar}. For example, [غَضْبَىٰ]{.ar} [gaDbA]{.trn} "very angry~f~".
 
 + The following exceptional nouns:
 
@@ -615,7 +615,7 @@ These same verbs are used when the [fail]{.subs} noun is a plural. Examples:
 
 We have already learned the singular and dual [fail]{.subs} pronouns. They are repeated here:
 
-|Participant | [_fail]{.subs} pronoun |Meaning| [_fail]{.subs} pronoun with verb|
+|Participant | [#fail]{.subs} pronoun |Meaning| [#fail]{.subs} pronoun with verb|
 |:--|:--|:--|:--|
 |Absentee  sing. masc.   | invisible            |"he"      | [فَعَلَ]{.ar} [faeala]{.trn}|
 |Absentee  sing. fem.    | invisible            |"she"     | [فَعَلَتْ]{.ar} [faealat]{.trn}|
@@ -628,7 +628,7 @@ We have already learned the singular and dual [fail]{.subs} pronouns. They are r
 
 Now we will learn the plural [fail]{.subs} pronouns:
 
-|plural participant | [_fail]{.subs} pronoun | Meaning |[_fail]{.subs} pronoun with verb|
+|plural participant | [#fail]{.subs} pronoun | Meaning |[#fail]{.subs} pronoun with verb|
 |:--|:--|:--|:---|
 |Absentee  pl. masc.   | [و]{.ar}                 |"they~3,m~" | [فَعَلُوا]{.ar} [faealU]{.trn}|
 |Absentee  pl. fem.    | [نَ]{.ar} [-na]{.trn}     |"they~3,f~" | [فَعَلْنَ]{.ar}  [faealna]{.trn}|
@@ -754,7 +754,7 @@ and
 
 Here are the detached, attached, and [fail]{.subs} pronouns for the plural:
 
-|Person|Detached pronoun|[_madi]{.subs} verb [fail]{.subs} pronoun|[_madi]{.subs} verb with [fail]{.subs} pronoun|Attached pronoun|
+|Person|Detached pronoun|[#madi]{.subs} verb [fail]{.subs} pronoun|[#madi]{.subs} verb with [fail]{.subs} pronoun|Attached pronoun|
 |:---|:----|:----|:----|
 | they/them~pl.\ masc.~ |[هُمْ]{.ar} [hum]{.trn}        | [◌ُو]{.ar} [-U]{.trn}     |[فَعَلُوا]{.ar} [faealU]{.trn}     |[هُمْ]{.ar} [-hum]{.trn}|
 | they/them~pl.\ fem.~  |[هُنَّ]{.ar} [hunna]{.trn}      | [نَ]{.ar} [-na]{.trn}     |[فَعَلْنَ]{.ar} [faealna]{.trn}     |[هُنَّ]{.ar} [-hunna]{.trn}|

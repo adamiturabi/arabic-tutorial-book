@@ -1,19 +1,19 @@
 <!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
 
-# [_sifah]{.subs}s and descriptive noun phrases
+# The [sifah]{.subs} and the [manut]{.subs}-[naat]{.subs} phrase
 
 ## Introduction
 
 So far we have studied common nouns like [رَجُل]{.ar} [rajul]{.trn} "a man" and  [بَيْت]{.ar} [bayt]{.trn} "a house". 
 <!--These are called designative nouns because the noun designates a specific object or entity.-->
 
-In this chapter we will study *[sifah]{.subs}s*. [_sifah]{.subs}s are a class of nouns that don't denote objects. Rather they describe some quality of an object.
+In this chapter we will study *[sifah]{.subs}s*. [#sifah]{.subs}s are a class of nouns that don't denote objects. Rather they describe some quality of an object.
 
 ## Adjectives in English
 
 In English we usually use adjectives to describe nouns. For example, the word "big" is an adjective. It can be used in a couple of different ways:
 
-1. It can be used to describe a noun in an descriptive noun-phrase. For example:
+1. It can be used to describe a noun in an [manut]{.subs}-[naat]{.subs} phrase. For example:
 
    "a big car"
 
@@ -33,7 +33,7 @@ instead.
 
 ## Terminology: the _[naat]{.subs}_ and the _[manut]{.subs}_
 
-We take this opportunity to introduce some grammatical terminology. The descriptive noun-phrase "a big car" consists of two parts:
+We take this opportunity to introduce some grammatical terminology. The [manut]{.subs}-[naat]{.subs} phrase "a big car" consists of two parts:
 
 i. The adjective "big". It is describing the car. We will call it the _[naat]{.subs}_ in the noun-phrase.
 ii. The common noun "a car": It is being described by the [naat]{.subs}. We will call it the _[manut]{.subs}_.
@@ -51,16 +51,16 @@ ii. The common noun "a car": It is being described by the [naat]{.subs}. We will
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize [naat]{.subs}};
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize describer};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-3.south east)
-      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize [manut]{.subs}};
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize describee};
 
 \end{tikzpicture}
 ```
 
-We will reserve this terminology of _[naat]{.subs}_ and _[manut]{.subs}_ only for the noun and adjective in an descriptive noun-phrase. So we won't use this terminology for the sentence: "The car is big."
+We will reserve this terminology of _[naat]{.subs}_ and _[manut]{.subs}_ only for the noun and adjective in an [manut]{.subs}-[naat]{.subs} phrase. So we won't use this terminology for the sentence: "The car is big."
 
 Instead, here we will continue to use the existing terminology of _[mubtada]{.subs}_ and _[xabar]{.subs}_. The definite noun "the car" is the [mubtada]{.subs} of this sentence, and the adjective "big" is the [xabar]{.subs}.
 
@@ -86,7 +86,7 @@ Instead, here we will continue to use the existing terminology of _[mubtada]{.su
 \end{tikzpicture}
 ```
 
-## [_sifah]{.subs}s in English
+## [#sifah]{.subs}s in English
 
 Consider the English word "antique". It is what we will call a _[sifah]{.subs}_. 
 <!--It describes some quality of the object it refers to.-->
@@ -107,9 +107,9 @@ But what makes it different from an normal adjective is that it can also be used
 
 Here "the antique" could refer to any entity that can be described by the quality of being old and valuable. The [sifah]{.subs} does not require any other noun in this sentence and can stand on its own as the [mubtada]{.subs} of the sentence.
 
-[_sifah]{.subs}s are rare in English. Instead, adjectives are usually used when we want to describe a noun.
+[#sifah]{.subs}s are rare in English. Instead, adjectives are usually used when we want to describe a noun.
 
-## [_sifah]{.subs}s in Arabic and genderizability
+## [#sifah]{.subs}s in Arabic and genderizability
 
 <!--In Arabic, however, the situation is reversed. -->
 Arabic does not have adjectives. It only has [sifah]{.subs}s.
@@ -119,7 +119,7 @@ The word [صَغِير]{.ar} [SagIr]{.trn} is an example of an indefinite [sifah
 Being a noun [صَغِير]{.ar} [SagIr]{.trn}, like all other nouns in Arabic, will have a grammatical gender. Since it does not end with a feminine marker like [ة]{.ar}, we can state that 
 [صَغِير]{.ar} [SagIr]{.trn} is a masculine noun.
 
-[_sifah]{.subs}s, typically, are genderizable. This means that we can feminize 
+[#sifah]{.subs}s, typically, are genderizable. This means that we can feminize 
 [صَغِير]{.ar} [SagIr]{.trn} (masc.) to get the feminine noun.
 We will feminize 
 [صَغِير]{.ar} [SagIr]{.trn} (masc.) with the feminine marker [ة]{.ar} to get the feminine [sifah]{.subs}
@@ -160,16 +160,16 @@ Arabic [sifah]{.subs}    | Meaning
 [عَرَبِيّ]{.ar}    [earabiyy]{.trn} | an Arab
 [مَشْهُور]{.ar}   [machUr]{.trn} | a famous one
 
-## The [naat]{.subs} and the [manut]{.subs} in descriptive noun-phrases
+## The [naat]{.subs} and the [manut]{.subs} in [manut]{.subs}-[naat]{.subs} phrases
 
-Let's learn how descriptive noun-phrases are formed in Arabic.
+Let's learn how [manut]{.subs}-[naat]{.subs} phrases are formed in Arabic.
 
 We learned in section\ \@ref(terminology-the-[naat]{.subs}-and-the-[manut]{.subs})
-above that descriptive noun-phrases consist of a [naat]{.subs} and a [manut]{.subs}. 
+above that [manut]{.subs}-[naat]{.subs} phrases consist of a [naat]{.subs} and a [manut]{.subs}. 
 
-In English descriptive noun-phrases, like "the small house", the adjective [naat]{.subs} ("small") comes before the [manut]{.subs} ("house"). Also, only one definite article ("the") is used before the entire noun-phrase.
+In English [manut]{.subs}-[naat]{.subs} phrases, like "the small house", the adjective [naat]{.subs} ("small") comes before the [manut]{.subs} ("house"). Also, only one definite article ("the") is used before the entire noun-phrase.
 
-Here is the equivalent Arabic descriptive noun-phrase:
+Here is the equivalent Arabic [manut]{.subs}-[naat]{.subs} phrase:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -184,15 +184,15 @@ Here is the equivalent Arabic descriptive noun-phrase:
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize [naat]{.subs}};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describer};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize [manut]{.subs}};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describee};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
-      node [midway, below] {\scriptsize descriptive noun-phrase};
+      node [midway, below] {\scriptsize describee-describer phrase};
 
 \path (0,0) node [midway, below=10ex, right=0ex, align=left] {``the small house''\\(literally: ``the small-one house'')};
 
@@ -211,7 +211,7 @@ Note the following:
 + Both the [sifah]{.subs} [naat]{.subs} [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" and the [manut]{.subs} [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" get the definite article [ٱَلْ]{.ar} "the".
 + The [sifah]{.subs} [naat]{.subs} [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" is genderized to match the [manut]{.subs} [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" in gender.
 + The [sifah]{.subs} [naat]{.subs} [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" matches the [manut]{.subs} [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" in state. In this example, they were both in the [ustate]{.subs} but we will see examples in the other states as well.
-+ The word-for-word equivalence of the above descriptive noun-phrase is "the small-one house" but we will usually give the more natural translation: "the small house"
++ The word-for-word equivalence of the above [manut]{.subs}-[naat]{.subs} phrase is "the small-one house" but we will usually give the more natural translation: "the small house"
 
 Let's try another example: let's try to translate the sentence: "The little girl took a new book from the good mother."
 
@@ -221,25 +221,25 @@ Here is the sentence in Arabic:
 [Eaxapati -ljAriyatu -SSagIratu kitaban jadIdan mina -lEummi -TTayyibah.]{.trn}  
 "The little girl took a new book from the good mother."
 
-This sentence has three descriptive noun-phrases. We will analyze each one individually:
+This sentence has three [manut]{.subs}-[naat]{.subs} phrases. We will analyze each one individually:
 
 i. [ٱَلْجَارِيَةُ ٱلصَّغِيرَةُ]{.ar}  
    [EaljAriyatu -SSagIratu]{.trn}  
    "the little girl"
 
-   In this phrase the definite feminine noun [ٱلْجَارِيَةُ]{.ar} [EaljAriyatu]{.trn} is the [fail]{.subs} of the verb [أَخَذَ]{.ar} [Eaxapa]{.trn} "took". Therefore it is in the [ustate]{.subs}. It is also the [manut]{.subs} in the descriptive noun-phrase. Its [naat]{.subs} [ٱَلصَّغِيرَةُ]{.ar} [EaSSagIratu]{.trn} follows the [manut]{.subs} and is made to match the [manut]{.subs} in state ([ustate]{.subs}), gender (feminine), and definiteness (definite).
+   In this phrase the definite feminine noun [ٱلْجَارِيَةُ]{.ar} [EaljAriyatu]{.trn} is the [fail]{.subs} of the verb [أَخَذَ]{.ar} [Eaxapa]{.trn} "took". Therefore it is in the [ustate]{.subs}. It is also the [manut]{.subs} in the [manut]{.subs}-[naat]{.subs} phrase. Its [naat]{.subs} [ٱَلصَّغِيرَةُ]{.ar} [EaSSagIratu]{.trn} follows the [manut]{.subs} and is made to match the [manut]{.subs} in state ([ustate]{.subs}), gender (feminine), and definiteness (definite).
 
 ii. [كِتَابًا جَدِيدًا]{.ar}  
     [kitAban jadIdan]{.trn}  
     "a new book"
 
-    In this phrase the indefinite masculine noun [كِتَابًا]{.ar} [kitAban]{.trn} is the [mafulb]{.subs} of the verb [أَخَذَ]{.ar} [Eaxapa]{.trn} "took". Therefore it is in the [astate]{.subs}. It is also the [manut]{.subs} in the descriptive noun-phrase. Its [naat]{.subs} [جَدِيدًا]{.ar} [jadIdan]{.trn} follows the [manut]{.subs} and is made to match the [manut]{.subs} in state ([astate]{.subs}), gender (masculine), and definiteness (indefinite).
+    In this phrase the indefinite masculine noun [كِتَابًا]{.ar} [kitAban]{.trn} is the [mafulb]{.subs} of the verb [أَخَذَ]{.ar} [Eaxapa]{.trn} "took". Therefore it is in the [astate]{.subs}. It is also the [manut]{.subs} in the [manut]{.subs}-[naat]{.subs} phrase. Its [naat]{.subs} [جَدِيدًا]{.ar} [jadIdan]{.trn} follows the [manut]{.subs} and is made to match the [manut]{.subs} in state ([astate]{.subs}), gender (masculine), and definiteness (indefinite).
 
 iii. [ٱَلْأُمِّ ٱلطَّيِّبَةِ]{.ar}  
      [EalEummi -TTayyibati]{.trn}  
      "the good mother"
 
-      In this phrase the definite feminine noun [ٱلْأُمِّ]{.ar} [EalEummi]{.trn} is following the preposition [مِنْ]{.ar} [min]{.trn} "from". Therefore it is in the [istate]{.subs}. It is also the [manut]{.subs} in the descriptive noun-phrase. Its [naat]{.subs} [ٱَلطَيِّبَةِ]{.ar} [EaTTayyibati]{.trn} follows the [manut]{.subs} and is made to match the [manut]{.subs} in state ([istate]{.subs}), gender (feminine), and definiteness (definite). 
+      In this phrase the definite feminine noun [ٱلْأُمِّ]{.ar} [EalEummi]{.trn} is following the preposition [مِنْ]{.ar} [min]{.trn} "from". Therefore it is in the [istate]{.subs}. It is also the [manut]{.subs} in the [manut]{.subs}-[naat]{.subs} phrase. Its [naat]{.subs} [ٱَلطَيِّبَةِ]{.ar} [EaTTayyibati]{.trn} follows the [manut]{.subs} and is made to match the [manut]{.subs} in state ([istate]{.subs}), gender (feminine), and definiteness (definite). 
 
       Note carefully that the [naat]{.subs} matches the [manut]{.subs} in gender, not necessarily in having the same [ة]{.ar} ending. The feminine [sifah]{.subs} [naat]{.subs} [ٱَلطَيِّبَة]{.ar} [EaTTayyibah]{.trn} is still formed using the feminine marker [ة]{.ar}, despite the feminine [manut]{.subs} [ٱَلْأُمّ]{.ar} not having the [ة]{.ar} feminine marker.
 
@@ -261,7 +261,7 @@ If such a noun is a [manut]{.subs}, then we will prefer to match the [naat]{.sub
 
 See how we preferred to use the masculine [sifah]{.subs} [طَيِّب]{.ar} [Tayyib]{.trn} instead of using the feminine [طَيِّبَة]{.ar} [Tayyibah]{.trn}.
 
-## [_sifah]{.subs}s as the [xabar]{.subs} of a sentence
+## [#sifah]{.subs}s as the [xabar]{.subs} of a sentence
 
 ### Indefinite [sifah]{.subs}
 
@@ -334,7 +334,7 @@ The solution, too, is the same. We insert a detached pronoun, that matches the g
 [Eaccajaratu -lqadImatu hiya -lkabIratu.]{.trn}  
 "The old tree is the big one."
 
-## [_sifah]{.subs}s used without a described noun
+## [#sifah]{.subs}s used without a described noun
 
 We have mentioned that [sifah]{.subs}s are just like other nouns that we have learned so far, in that they have gender, state, and definiteness. Can we then use
 an [sifah]{.subs} by itself and not when it is describing another noun?
@@ -355,7 +355,7 @@ Here is the same sentence again, but this time with some clarifying context.
 
 So now we can tell that what is meant by [ٱلصَّغِير]{.ar} [EaSSagIr]{.trn} "the little one" here is "the baby".
 
-## [_sifah]{.subs}s re-used as common nouns
+## [#sifah]{.subs}s re-used as common nouns
 
 Sometimes, an [sifah]{.subs}, through much usage, acquires the meaning of a common noun. It then gets listed with this meaning in the dictionary. We actually just saw an example above. The [sifah]{.subs} 
 [صَغِير]{.ar} [SagIr]{.trn} "a little one" is commonly used to mean "a baby". Of course, context would be needed to know whether, in a particular sentence, it has its common noun meaning: "a baby", or its general [sifah]{.subs} meaning: "a little one".
@@ -400,7 +400,7 @@ Context would be needed to tell us which meaning is intended.
 
 ## Common-nouns used as [naat]{.subs}s in a noun-phrase
 
-Usually, [sifah]{.subs}s are used as the [naat]{.subs} in an descriptive noun-phrase. However, we also often find a common noun used as a [naat]{.subs}. For example,
+Usually, [sifah]{.subs}s are used as the [naat]{.subs} in an [manut]{.subs}-[naat]{.subs} phrase. However, we also often find a common noun used as a [naat]{.subs}. For example,
 
 [هُوَ رَجُلٌ مُعَلِّمٌ.]{.ar}  
 [huwa rajulun mueallim.]{.trn}  
@@ -415,7 +415,7 @@ In English we can have a noun described by multiple adjectives separated by comm
 [EalbinAEu kabIrun waTawIlun wawAsiEun]{.trn}  
 "The building is big and tall and wide."
 
-In an English descriptive noun-phrase, multiple [naat]{.subs}s may describe the same [manut]{.subs}, without being separated by the word "and". For example, "The man is a famous Arab writer." In Arabic, we can do the same, except the [manut]{.subs}s will be in the reverse order:
+In an English [manut]{.subs}-[naat]{.subs} phrase, multiple [naat]{.subs}s may describe the same [manut]{.subs}, without being separated by the word "and". For example, "The man is a famous Arab writer." In Arabic, we can do the same, except the [manut]{.subs}s will be in the reverse order:
 
 [ٱَلرَّجُلُ كَاتِبٌ عَرَبِيٌّ مَشْهُورٌ.]{.ar}  
 [Earrujulu kAtibun earabiyyun machUr.]{.trn}  
