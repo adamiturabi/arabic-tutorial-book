@@ -25,13 +25,13 @@ Before we begin our discussion about broken plurals, we will do a quick review o
 
 Most words in Arabic are formed from three letter roots. We use the paradigm root [فعل]{.ar} to show word patterns. For example, the noun [رَجُل]{.ar} [rajul]{.trn} "a man" is formed from the root [رجل]{.ar} on the pattern [فَعُل]{.ar} [faeul]{.trn}.
 
-Most nouns in Arabic are _fully-flexible_. This means that, when indefinite, they are [nUn]{.trn2}ated and the indefinite i-state is shown by a [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar} at the end of the noun. For example, [رَجُل]{.ar} [rajul]{.trn} "a man" and [بَيْت]{.ar} [bayt]{.trn} "a house" are fully-flexible nouns. So, you can see, below, that they are [nUn]{.trn2}ated, and the indefinite i-state is indicated by a [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar}:
+Most nouns in Arabic are _fully-flexible_. This means that, when indefinite, they are [tanwin]{.subs}ed and the indefinite i-state is shown by a [tanwin]{.subs}ed [imark]{.subs} [◌ٍ]{.ar} at the end of the noun. For example, [رَجُل]{.ar} [rajul]{.trn} "a man" and [بَيْت]{.ar} [bayt]{.trn} "a house" are fully-flexible nouns. So, you can see, below, that they are [tanwin]{.subs}ed, and the indefinite i-state is indicated by a [tanwin]{.subs}ed [imark]{.subs} [◌ٍ]{.ar}:
 
 [ذَهَبَ رَجُلٌ إِلَىٰ بَيْتٍ.]{.ar}  
 [pahaba rajulun EilA bayt.]{.trn}  
 "A man went to a house."
 
-Some nouns are _semi-flexible_. This means that they are not [nUn]{.trn2}ated, and also, the indefinite i-state is indicated by an [a]{.trn} mark [◌َ]{.ar}. Examples of such nouns are:
+Some nouns are _semi-flexible_. This means that they are not [tanwin]{.subs}ed, and also, the indefinite i-state is indicated by an [amark]{.subs} [◌َ]{.ar}. Examples of such nouns are:
 
 + ^2^[غَضْبَىٰ]{.ar} [gaDbA]{.trn}^2^ _adj._ (fem.) "a very angry one~f~" from the root [غضب]{.ar}
 + ^2^[صَحْرَاء]{.ar} [SaHrAE]{.trn}^2^ (fem.) "a desert~f~" from the root [صحر]{.ar}
@@ -494,7 +494,7 @@ Note the following from the above broken plural patterns and examples:
     |:-|:--|:--|:--
     |[هدي]{.ar} |^2^[فَعَالَىٰ]{.ar} |$\times$\ ^2^[هَدَايَىٰ]{.ar} |^2^[هَدَايَا]{.ar}
 
-  + A [ي]{.ar} at the end of a word, in some states, gets omitted  and replaced by a [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar} on the preceding letter. This happens even when the [ي]{.ar} is extrinsic to the root, and even if the word is semi-flexible (and thus would not normally be [nUn]{.trn2}ated). Examples:
+  + A [ي]{.ar} at the end of a word, in some states, gets omitted  and replaced by a [tanwin]{.subs}ed [imark]{.subs} [◌ٍ]{.ar} on the preceding letter. This happens even when the [ي]{.ar} is extrinsic to the root, and even if the word is semi-flexible (and thus would not normally be [tanwin]{.subs}ed). Examples:
 
     |Root | Word pattern | Expected word  | Actual word 
     |:-|:--|:--|:--
@@ -847,7 +847,7 @@ It doesn't matter what the grammatical or physical gender of the singular is or 
 [فِي ٱلصُّنْدُوقُ أَشْيَاءُ عَجِيبَةٌ.]{.ar}  
 <!--[فِي ٱلصُّنْدُوقُ أَشْيَاءُ عَجِيبَاتٌ.]{.ar}  -->
 "In the box are wonderful things."  
-(Note how ^2^[أَشْيَاء]{.ar} is indefinite but is not [nUn]{.trn2}ated. This is because it is irregularly semi-flexible.)
+(Note how ^2^[أَشْيَاء]{.ar} is indefinite but is not [tanwin]{.subs}ed. This is because it is irregularly semi-flexible.)
 
 By the way, this rule only applies to adjectival nouns in the describee or the information. A common noun in the describer or information will continue match the describee or subject in gender and number.
 
