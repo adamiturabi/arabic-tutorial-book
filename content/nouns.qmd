@@ -1,6 +1,6 @@
 <!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
 
-# Nouns
+# The noun
 <!-- title not called "Common nouns" because concepts are general to all nouns. However, only common nouns are discussed here.-->
 ## Introduction
 
@@ -144,47 +144,21 @@ They are:
 3. [istate]{.subs}: indicated by an [imark]{.subs} [◌ِ]{.ar} (for definite nouns) and a [tanwin]{.subs}ed [imark]{.subs} [◌ٍ]{.ar} (for indefinite nouns) on the final letter of the word.
 -->
 
-1. the [u]{.smallcaps}-state, indicated, for most nouns, by a [◌ُ]{.ar} on the final letter of the noun.
-1. the [a]{.smallcaps}-state, indicated, for most nouns, by a [◌َ]{.ar} on the final letter of the noun.
-1. the [i]{.smallcaps}-state, indicated, for most nouns, by a [◌ِ]{.ar} on the final letter of the noun.
+1. the [ustate]{.subs}, indicated, for most nouns, by a [umark]{.subs} on the final letter of the noun.
+1. the [astate]{.subs}, indicated, for most nouns, by a [amark]{.subs} on the final letter of the noun.
+1. the [istate]{.subs}, indicated, for most nouns, by a [imark]{.subs} on the final letter of the noun.
 
 When a noun is indefinite, then, for most nouns, it<!--s final (state-indicating) vowel--> is also [tanwin]{.subs}ed.
 Here, for example, is the noun [كِتَاب]{.ar} [kitAb]{.trn} "book" in its three states:
 
 State         | Indefinite "a book" | Definite "the book"
 :-------------|:-----------------|:--------------
-[u]{.smallcaps}-state       |[كِتَابٌ]{.ar} [kitAbun]{.trn}  |[ٱَلْكِتَابُ]{.ar} [EalkitAbu]{.trn} 
-[a]{.smallcaps}-state       |[كِتَابًا]{.ar} [kitAban]{.trn} |[ٱَلْكِتَابَ]{.ar} [EalkitAba]{.trn} 
-[i]{.smallcaps}-state       |[كِتَابٍ]{.ar} [kitAbin]{.trn}  |[ٱَلْكِتَابِ]{.ar} [EalkitAbi]{.trn} 
+[ustate]{.subs}       |[كِتَابٌ]{.ar} [kitAbun]{.trn}  |[ٱَلْكِتَابُ]{.ar} [EalkitAbu]{.trn} 
+[astate]{.subs}       |[كِتَابًا]{.ar} [kitAban]{.trn} |[ٱَلْكِتَابَ]{.ar} [EalkitAba]{.trn} 
+[istate]{.subs}       |[كِتَابٍ]{.ar} [kitAbin]{.trn}  |[ٱَلْكِتَابِ]{.ar} [EalkitAbi]{.trn} 
 
-<!--
-You can use the following mnemonic to help you remember the states:
-
-+ The [r]{.smallcaps}-state is called so because it is the **r**egular state. This is the state a noun will be in by default, and there needs to be a reason to take the noun out of this state into another state.
-+ The [n]{.smallcaps}-state is called so because it is the **n**ext state built upon the regular state. 
-+ The [j]{.smallcaps}-state is called so because it is the **j**ammed state or closed state.
--->
-The [u]{.smallcaps}-state is a noun's normal state in a sentence, and there needs to be a reason to take the noun out of this state into another state.
-We will begin to use state more in the next chapter if [_allAh]{.trn2} wills, where we learn how to form sentences.
-<!--
-The state of a noun is indicated by the noun's ending. 
-For most nouns,
-the [r]{.smallcaps}-state is indicated by a [◌ُ]{.ar} on the final letter of the noun,
-the [n]{.smallcaps}-state is indicated by a [◌َ]{.ar} on the final letter of the noun,
-the [j]{.smallcaps}-state is indicated by a [◌ِ]{.ar} on the final letter of the noun,
-
-Here are the nouns "a book" and "the book" in their three states:
-
-State         | Indefinite "a book" | Definite "the book"
-:-------------|:-----------------|:--------------
-[r]{.smallcaps}-state       |[كِتَابٌ]{.ar} [kitAbun]{.trn}  |[ٱَلْكِتَابُ]{.ar} [EalkitAbu]{.trn} 
-[n]{.smallcaps}-state       |[كِتَابًا]{.ar} [kitAban]{.trn} |[ٱَلْكِتَابَ]{.ar} [EalkitAba]{.trn} 
-[j]{.smallcaps}-state       |[كِتَابٍ]{.ar} [kitAbin]{.trn}  |[ٱَلْكِتَابِ]{.ar} [EalkitAbi]{.trn} 
-
-
-The choice of which state a noun is in depends on its function in a sentence. For example, if the noun is a [mubtada]{.subs} of a sentence, it will usually be in the [ustate]{.subs}. And if it is used adverbially, it will often be in the [astate]{.subs}. And if it occurs after a preposition, it will be in the [istate]{.subs}. We will learn more about putting nouns in their different states throughout this book. 
-Generally speaking, the [ustate]{.subs} is the normal state. And there needs to be a reason to take the noun out of the [ustate]{.subs} and into one of the other states.
--->
+The [ustate]{.subs} is a noun's normal state in a sentence, and there needs to be a reason to take the noun out of this state into another state.
+We will begin to use state more in the next chapter if [#allAh]{.trn2} wills, where we learn how to form sentences.
 
 <!--
 ## Flexibility of nouns
@@ -216,7 +190,7 @@ Conversely, the indefinite nouns is used only when an indefinite meaning is desi
 
 In a similar manner, the nouns "home" or "school" are often used in English without either "the" or "a". For example, "He goes to school." and "She went home.". In these cases, we will us the definite article [ٱَلْ]{.ar} in Arabic. So we will say [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the home" for English "home" and [ٱَلْمَدْرَسَة]{.ar} [Ealmadrasah]{.trn} "the school" for English "school".
 
-But there is an additional complication: note that English often does not use an indefinte article, even when an indefinite meaning is intended. For example, "We don't need to leave right now; we have time." meaning "we have [_some_] time." Because of the indefinite meaning intended we will use [وَقْت]{.ar} [waqt]{.trn} "a time" here.
+But there is an additional complication: note that English often does not use an indefinte article, even when an indefinite meaning is intended. For example, "We don't need to leave right now; we have time." meaning "we have [#some_] time." Because of the indefinite meaning intended we will use [وَقْت]{.ar} [waqt]{.trn} "a time" here.
 
 This English usage of an indefinite meaning without an indefnite article is especially true with plurals. For example, "There are books in the bag." Here the intended meaning is "There are [some] books in the bag." Consequently, in Arabic, we will use the indefinite noun here: [كُتُب]{.ar} [kutub]{.trn} "[some] books" not [ٱَلْكُتُب]{.ar} [Ealkutub]{.trn} "the books".
 
@@ -297,7 +271,7 @@ In each of the words in the table above, the feminine noun is basically the same
 [طِفْل]{.ar}  [Tifl]{.trn} is masculine, and its feminine is
 [طِفْلَة]{.ar} [Tiflah]{.trn} (fem.).
 
-As a matter of fact, the [ة]{.ar} is called a feminine marker for singular nouns. There are a couple of other, less common, feminine markers besides [ة]{.ar} that we will learn them later, if [_allAh]{.trn2} wills.
+As a matter of fact, the [ة]{.ar} is called a feminine marker for singular nouns. There are a couple of other, less common, feminine markers besides [ة]{.ar} that we will learn them later, if [#allAh]{.trn2} wills.
  
 Note that the vowel-mark before the [ة]{.ar} is always an [amark]{.subs}. 
 <!--For example, in the case of [كَلْب]{.ar} [kalb]{.trn} "a male dog", in order to get the feminine noun [كَلْبَة]{.ar} [kalbatun]{.trn} "a female dog", [ب]{.ar} gets an [amark]{.subs}.-->
@@ -310,7 +284,7 @@ ii. Derived nouns
 Primitve nouns have a primitive meaning, without a primarily adjectival or verbal quality in the meaning, for example "human" "cat", etc. 
 For derived nouns, their meaning is derived from an adjectival or verbal quality. For example, a "teacher" is someone who teaches. A "friend" is someone who is friendly. And so on.
 
-<!--This grouping will become important when, if [_allAh]{.trn2} wills, you study morphology, and the classification of nouns into primitive and derived nouns. But we can give a short preview here: -->
+<!--This grouping will become important when, if [#allAh]{.trn2} wills, you study morphology, and the classification of nouns into primitive and derived nouns. But we can give a short preview here: -->
 
 For derived nouns, the formation of the feminine noun by adding a feminine marker (like [ة]{.ar}) to the masculine noun is normal and expected. 
 Whereas, for primitive nouns, the fact that the feminine and masuline nouns match each other and differ only by the feminine marker [ة]{.ar} is something that, although somewhat common, is more of a coincidence.
@@ -393,7 +367,7 @@ While, [نَفْس]{.ar} [nafs]{.trn} is a feminine noun meaning "self". While r
 Note also that [نَفْس]{.ar} [nafs]{.trn} "self" is a feminine noun but it does not end in a [ة]{.ar}. 
 It is one of the small number of feminine nouns that don't have a female marker, like [أُمّ]{.ar} [Eumm]{.trn} (fem.) "mother".
 
-<!--Notably, [نَفْس]{.ar}  [nafs]{.trn} is treated as feminine when it refers to the soul of a person. However, in constructions like "yourself", "himself", etc. it will conform to the gender of the person it is referring to. We shall see this in later chapters, if [_allAh]{.trn2} wills.-->
+<!--Notably, [نَفْس]{.ar}  [nafs]{.trn} is treated as feminine when it refers to the soul of a person. However, in constructions like "yourself", "himself", etc. it will conform to the gender of the person it is referring to. We shall see this in later chapters, if [#allAh]{.trn2} wills.-->
 
 ### Nouns that designate inanimate objects
 
@@ -420,7 +394,7 @@ Arabic word  |Gender | Definition
 In these nouns as well, we note that feminine nouns usually end with the feminine marker [ة]{.ar}. 
 But here too, we find another exception:
 [شَمْس]{.ar} [cams]{.trn} "sun" which is feminine but does not end with a feminine marker.
-These exceptions are not very many and, if [_allAh]{.trn2} wills, we will not find it hard to memorize them.
+These exceptions are not very many and, if [#allAh]{.trn2} wills, we will not find it hard to memorize them.
 
 There is a sub-group of nouns that designate inanimate objects, but can also be used to refer to animate beings. Here are a couple of examples:
 
@@ -589,6 +563,6 @@ Here are some general guidelines that can help determine whether a noun is gende
 
 Sometimes, it may not be easy to figure out just from the meaning of the noun whether it is genderizable or not. For example, [صَدِيق]{.ar} [SadIq]{.trn} (masc.) "a (male) friend" is genderizable. But [عَدُوّ]{.ar} [eaduww]{.trn} "an enemy" is not genderizable.
 
-As you continue studying, you will, if [_allAh]{.trn2} wills, get a feel for which nouns are genderizable. And if, at a later advanced stage in your Arabic studies, you study topics like morphology, and classification of nouns into primitive and derived nouns, that will help as well.
+As you continue studying, you will, if [#allAh]{.trn2} wills, get a feel for which nouns are genderizable. And if, at a later advanced stage in your Arabic studies, you study topics like morphology, and classification of nouns into primitive and derived nouns, that will help as well.
 -->
 
