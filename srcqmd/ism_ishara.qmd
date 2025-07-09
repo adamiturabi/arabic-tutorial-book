@@ -1,4 +1,4 @@
-# The pointing nouns
+# The ;ism_isharah;s
 
 ## Introduction
 
@@ -26,18 +26,18 @@ Consider the following expression:
 \end{tikzpicture}
 ```
 
-The word "this" is what we will call a _pointing noun_. We call it this because we can imagine standing next to a book and pointing to it and saying "this book".
+The word "this" is what we will call a _;ism_isharah;_. We call it this because we can imagine standing next to a book and pointing to it and saying "this book".
 
-The word "book" here is similarly called the _pointed-to_ noun. It refers to the object being pointed to.
+The word "book" here is similarly called the _;mushar_il;_ noun. It refers to the object being pointed to.
 
-## The pointing nouns in Arabic
+## The ;ism_isharah;s in Arabic
 
-There are two types of pointing nouns:
+There are two types of ;ism_isharah;s:
 
-i. Near pointing nouns: "this-one" (singular) and "these-ones" (dual and plural).
-i. Far  pointing nouns: "that-one" (singular) and "those-ones" (dual and plural).
+i. Near ;ism_isharah;s: "this-one" (singular) and "these-ones" (dual and plural).
+i. Far  ;ism_isharah;s: "that-one" (singular) and "those-ones" (dual and plural).
 
-The following are the pointing nouns in Arabic:
+The following are the ;ism_isharah;s in Arabic:
 
 | Participant |State| Near pointing  noun || Far pointing  noun ||
 |:----|:-|--:|:----|--:|:----|
@@ -51,39 +51,39 @@ The following are the pointing nouns in Arabic:
 
 Note the following:
 
-+ Many of the pointing nouns contain small [alif]{.trn2} [◌ٰ]{.ar}. For most of them, this is how they must be written. It would be incorrect to write [هَـٰذَا]{.ar} [hApA]{.trn} as [هَاذَا]{.ar}.
-+ All the near pointing nouns begin with a [ه]{.ar}. And all the far pointing nouns end with [ك]{.ar}.
++ Many of the ;ism_isharah;s contain small [alif]{.trn2} [◌ٰ]{.ar}. For most of them, this is how they must be written. It would be incorrect to write [هَـٰذَا]{.ar} [hApA]{.trn} as [هَاذَا]{.ar}.
++ All the near ;ism_isharah;s begin with a [ه]{.ar}. And all the far ;ism_isharah;s end with [ك]{.ar}.
 + The [و]{.ar} in [أُولَـٰئِكَ]{.ar} [EulAEika]{.trn} is silent and not pronounced. That is, the first syllable has a short vowel [u]{.trn}, not the long vowel [U]{.trn}.
-+ Most of the pointing nouns are rigid nouns. That is: their endings are not modified for their state. 
++ Most of the ;ism_isharah;s are rigid nouns. That is: their endings are not modified for their state. 
 
-  The dual pointing nouns, however, are flexible nouns, for example: [هَـٰذَانِ]{.ar}  (;ustate;)   / [هَـٰذَيْنِ]{.ar}  [hApayni]{.trn} (;astate; and ;istate;).
+  The dual ;ism_isharah;s, however, are flexible nouns, for example: [هَـٰذَانِ]{.ar}  (;ustate;)   / [هَـٰذَيْنِ]{.ar}  [hApayni]{.trn} (;astate; and ;istate;).
 
-+ The pointing nouns for the plural are the same for both masculine and feminine genders.
++ The ;ism_isharah;s for the plural are the same for both masculine and feminine genders.
 
-## Definiteness of pointing nouns
+## Definiteness of ;ism_isharah;s
 
-The pointing nouns share some similarities with pronouns [هُوَ]{.ar}, [هِيَ]{.ar}, etc. Just like pronouns, pointing nouns, too, are definite nouns even though they don't have [ٱَلْ]{.ar}.
+The ;ism_isharah;s share some similarities with pronouns [هُوَ]{.ar}, [هِيَ]{.ar}, etc. Just like pronouns, ;ism_isharah;s, too, are definite nouns even though they don't have [ٱَلْ]{.ar}.
 
 Remember, however, from section\ \@ref(;naat;s-with-;idafa;s-to-pronouns), that pronouns may not be ;manut;s.
-Pointing nouns are different from pronouns in this regard. It is allowed to describe a pointing noun with a ;naat; in a noun phrase.
+;#ism_isharah;s are different from pronouns in this regard. It is allowed to describe a ;ism_isharah; with a ;naat; in a noun phrase.
 
 Both these facts will prove useful in the next section.
 
-## Pointing noun for plurals of non-intelligent beings
+## ;#ism_isharah; for plurals of non-intelligent beings
 
 Consistent with how we have been dealing with the so far,
-, we can choose between the following pointing nouns for 
+, we can choose between the following ;ism_isharah;s for 
 the plurals of non-intelligent beings:
 
-||Near pointing noun |Far pointing noun|
+||Near ;ism_isharah; |Far ;ism_isharah;|
 |:----|:-|--:|:----|--:|:----|
 |sing. fem. |all|[هَـٰذِهِ]{.ar}  |this one~f~    |[تِلْكَ]{.ar}   |that one~f~  |
 |plural     |all|[هَـٰؤُلَاءِ]{.ar}|these ones~3~  |[أُولَـٰئِكَ]{.ar}|those ones~3~  |
 
-The singular feminine pointing noun is usually preferred, unless the plural plural pointing noun is needed to indicate that there is more than one.
+The singular feminine ;ism_isharah; is usually preferred, unless the plural plural ;ism_isharah; is needed to indicate that there is more than one.
 We will be giving examples throughout this chapter.
 
-## The pointing noun phrase
+## The ;ism_isharah; phrase
 
 Remember from chapter\ \@ref(;sifah;s-and-descriptive-noun-phrases) that a descriptive noun-phrase consists of a ;naat; and a ;manut;. The ;naat; follows the ;naat; and matches it in definiteness, state, gender, and number. 
 
@@ -102,11 +102,11 @@ Here is an example of a descriptive noun-phrase in a sentence.
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ;naat;};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describer};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ;manut;};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describee};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
@@ -117,7 +117,7 @@ Here is an example of a descriptive noun-phrase in a sentence.
 \end{tikzpicture}
 ```
 
-We will now see how this same descriptive noun-phrase can be used with pointing nouns.
+We will now see how this same descriptive noun-phrase can be used with ;ism_isharah;s.
 
 ### Pointing to a single noun
 
@@ -125,12 +125,12 @@ We will first deal with nouns that are single words, like [ٱَلْكِتَاب�
 In section\ \@ref(pointing-to-an-;idafa;)
 below, we will deal with nouns that are part of an ;idafa;, like [كِتَابَيِ ٱلرَّجُلِ]{.ar}.
 
-#### The pointed-to noun is definite with [ٱَلْ]{.ar} {#phrase-single-pointed-to-noun-with-al}
+#### The ;mushar_il; noun is definite with [ٱَلْ]{.ar} {#phrase-single-pointed-to-noun-with-al}
 
-Just like an ;sifah;, a pointing noun can be a ;naat; in a noun-phrase. But remember from 
-section\ \@ref(definiteness-of-pointing-nouns)
-above that pointing nouns are definite.
-So, if a pointing noun is a ;naat; in a noun-phrase, the ;manut; has to be definite too.
+Just like an ;sifah;, a ;ism_isharah; can be a ;naat; in a noun-phrase. But remember from 
+section\ \@ref(definiteness-of-;ism_isharah;s)
+above that ;ism_isharah;s are definite.
+So, if a ;ism_isharah; is a ;naat; in a noun-phrase, the ;manut; has to be definite too.
 Example:
 
 ```{.tikzarabic}
@@ -146,11 +146,11 @@ Example:
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ;naat;};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describer};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ;manut;};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describee};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
@@ -161,14 +161,14 @@ Example:
 \end{tikzpicture}
 ```
 
-In the above example, the pointed-to noun [ٱَلْكِتَابَيْنِ]{.ar} is the ;manut; in a descriptive noun-phrase. It is definite, in the ;astate;, masculine, and dual.
+In the above example, the ;mushar_il; noun [ٱَلْكِتَابَيْنِ]{.ar} is the ;manut; in a descriptive noun-phrase. It is definite, in the ;astate;, masculine, and dual.
 
-The pointing noun [هَـٰذَيْنِ]{.ar} is its ;naat;. It follows the ;manut; and matches it being dual, in the ;astate;, masculine, and dual.
+The ;ism_isharah; [هَـٰذَيْنِ]{.ar} is its ;naat;. It follows the ;manut; and matches it being dual, in the ;astate;, masculine, and dual.
 
-As a special case, when the pointed-to noun has [ٱَلْ]{.ar} (as in this case: [ٱَلْكِتَابَيْنِ]{.ar}), then the order of the pointing noun and the pointed to noun is permitted to be reversed. 
-<!--The pointing noun can be the ;manut;, and the pointed-to noun can be the ;naat;.-->
+As a special case, when the ;mushar_il; noun has [ٱَلْ]{.ar} (as in this case: [ٱَلْكِتَابَيْنِ]{.ar}), then the order of the ;ism_isharah; and the ;mushar_il; noun is permitted to be reversed. 
+<!--The ;ism_isharah; can be the ;manut;, and the ;mushar_il; noun can be the ;naat;.-->
 
-The pointing noun is then a replacee (see section\ \@ref(the-replacement)), and the pointed-to noun is its replacement.
+The ;ism_isharah; is then a replacee (see section\ \@ref(the-replacement)), and the ;mushar_il; noun is its replacement.
 
 Example:
 
@@ -197,22 +197,22 @@ Example:
 ```
 
 In the above example, the 
-pointing noun [هَـٰذَيْنِ]{.ar} 
+;ism_isharah; [هَـٰذَيْنِ]{.ar} 
 is a replacee. It is definite, in the ;astate;, masculine, and dual.
 
 The 
-pointed-to noun [ٱَلْكِتَابَيْنِ]{.ar} 
+;mushar_il; noun [ٱَلْكِتَابَيْنِ]{.ar} 
 is its replacement. It follows the replacee and matches it being dual, in the ;astate;, masculine, and dual.
 
-As a matter of fact, even though both orders are permitted, this reverse order of placing the pointing noun first and following it with the pointed-to noun is more common.
+As a matter of fact, even though both orders are permitted, this reverse order of placing the ;ism_isharah; first and following it with the ;mushar_il; noun is more common.
 
-Here are some more examples of pointing noun phrases when the pointed-to noun is definite with [ٱَلْ]{.ar}:
+Here are some more examples of ;ism_isharah; phrases when the ;mushar_il; noun is definite with [ٱَلْ]{.ar}:
 
 [هَـٰذَا ٱَلرَّجُلُ ٱلْكَرِيمُ إِمَامٌ.]{.ar}  
 [ٱَلرَّجُلُ ٱلْكَرِيمُ هَـٰذَا إِمَامٌ.]{.ar}  
 "This noble man is an [imAm]{.trn2}."
 
-#### The pointed-to noun is a proper noun
+#### The ;mushar_il; noun is a proper noun
 
 Remember that proper noun are definite nouns, even though they usually don't begin with [ٱَلْ]{.ar}. For example:
 
@@ -221,8 +221,8 @@ Remember that proper noun are definite nouns, even though they usually don't beg
 |[زَيْد]{.ar}     |Zayd   |[ٱَلْحَارِث]{.ar}  |[al-#HAriv]{.trn2}|
 |^2^[زَيْنَب]{.ar} |Zaynab |[قُرَيْش]{.ar}    |[#qurayc]{.trn2}  |
 
-Such names may also be part of a pointing noun phrase. 
-If they don't begin with [ٱَلْ]{.ar} then only the [pointed-to noun first, then pointing noun] order is permitted.
+Such names may also be part of a ;ism_isharah; phrase. 
+If they don't begin with [ٱَلْ]{.ar} then only the [;mushar_il; noun first, then ;ism_isharah;] order is permitted.
 Example:
 
 [زَيْدٌ هَـٰذَا أَخُو زَيْنَبَ تِلْكَ.]{.ar}  
@@ -245,7 +245,7 @@ Consider the following expression:
 
 "the man's book"
 
-We can apply the pointing noun "this" to either "the book" or to "the man" in a pointing noun phrase. So we have two options:
+We can apply the ;ism_isharah; "this" to either "the book" or to "the man" in a ;ism_isharah; phrase. So we have two options:
 
 i. "the book of this man"
 i. "this book of the man"
@@ -254,12 +254,12 @@ Similarly, consider the following expression:
 
 "Zayd's book"
 
-We can, again, apply the pointing noun "this" to either "the book" or to "Zayd":
+We can, again, apply the ;ism_isharah; "this" to either "the book" or to "Zayd":
 
 i. "the book of this Zayd"
 i. "this book of Zayd"
 
-In this section we will learn how to construct these pointing noun phrases in Arabic.
+In this section we will learn how to construct these ;ism_isharah; phrases in Arabic.
 Arabic uses ;idafa;s to express the above meanings. So we will discuss ;idafa;s like:
 
 [كِتَابُ ٱلرَّجُلِ]{.ar}  
@@ -274,7 +274,7 @@ Note that both the above ;idafa;s are definite because their ;mudafil;s are defi
 
 Indefinite ;idafa;s like 
 [كِتَاب رَجُلٍ]{.ar} "a man's book"
-cannot be used in pointing noun phrases.
+cannot be used in ;ism_isharah; phrases.
 
 #### The definite ;mudafil; begins with [ٱَلْ]{.ar}
 
@@ -289,13 +289,13 @@ We would like to express the phrase:
 
 "the book of this man"
 
-In order to point to the ;mudafil; [ٱَلرَّجُل]{.ar} "the man" with the pointing noun [هَـٰذَا]{.ar} "this-one~m~", we can put the pointing noun either before or after the ;mudafil;, thus:
+In order to point to the ;mudafil; [ٱَلرَّجُل]{.ar} "the man" with the ;ism_isharah; [هَـٰذَا]{.ar} "this-one~m~", we can put the ;ism_isharah; either before or after the ;mudafil;, thus:
 
 [كِتَابُ هَـٰذَا ٱلرَّجُلِ]{.ar}  
 [كِتَابُ ٱلرَّجُلِ هَـٰذَا]{.ar}  
 "the book of this man"
 
-Both these pointing noun phrases give the same meaning: "the book of this man".
+Both these ;ism_isharah; phrases give the same meaning: "the book of this man".
 However, the first phrase
 [كِتَابُ هَـٰذَا ٱلرَّجُلِ]{.ar}
 is preferred, consistent with what we learned in 
@@ -315,7 +315,7 @@ Here is how these phrases could be used in complete sentences:
 
 Before we give more examples, let's analyze these phrases in detail.
 
-Consider the first pointing noun phrase:
+Consider the first ;ism_isharah; phrase:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -349,7 +349,7 @@ Consider the first pointing noun phrase:
 \end{tikzpicture}
 ```
 
-As you can see the pointing noun
+As you can see the ;ism_isharah;
 [هَـٰذَا]{.ar} has taken the place of 
 [ٱَلرَّجُل]{.ar} as the ;mudafil; in the ;idafa;.
 In addition to being the ;mudafil;,
@@ -363,7 +363,7 @@ The more natural translation is:
 
 "the book of this man"
 
-Consider, now, the second pointing noun phrase:
+Consider, now, the second ;ism_isharah; phrase:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -386,11 +386,11 @@ Consider, now, the second pointing noun phrase:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize ;naat;};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describer};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize ;manut;};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
 
 \path (0,0) node [midway, below=15ex, right=0ex, align=left] {``the book of this man''\\(literally: ``the book of the this-one man'')};
 
@@ -400,7 +400,7 @@ Consider, now, the second pointing noun phrase:
 [ٱَلرَّجُل]{.ar}, here, keeps its place as the ;mudafil; in the ;idafa;.
 In addition to being the ;mudafil;,
 [ٱَلرَّجُل]{.ar}
-is also a ;manut;, whose ;naat; is the pointing noun
+is also a ;manut;, whose ;naat; is the ;ism_isharah;
 [هَـٰذَا]{.ar}.
 The literal, word-for-word, translation of this phrase is:
 
@@ -419,17 +419,17 @@ Consider, again, the ;idafa;:
 
 We have already discussed how to point to the ;mudafil;
 [ٱَلرَّجُل]{.ar}
-in a pointing noun phrase.
+in a ;ism_isharah; phrase.
 Now, we would like to point to the ;mudaf; 
 [كِتَاب]{.ar}
-in a pointing noun phrase.
+in a ;ism_isharah; phrase.
 
 In other words, we would like to express the meaning:
 
 "this book of the man"
 
 <!--
-There are three possible locations to place the pointing noun
+There are three possible locations to place the ;ism_isharah;
 [هَـٰذَا]{.ar}:
 
 i. $\times$ [هَـٰذَا كِتَابُ ٱلرَّجُلِ]{.ar},
@@ -481,11 +481,11 @@ in detail:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize ;naat;};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describer};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-3.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize ;manut;};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
 
 \path (0,0) node [midway, below=15ex, right=0ex, align=left] {``this book of the man''\\(literally: ``the this-one book of the man'')};
 
@@ -493,7 +493,7 @@ in detail:
 ```
 
 [كِتَاب]{.ar}, here, is both and ;mudaf; and a ;manut;.
-Its ;naat; is the pointing noun
+Its ;naat; is the ;ism_isharah;
 [هَـٰذَا]{.ar}.
 The literal, word-for-word, translation of this phrase is:
 
@@ -503,7 +503,7 @@ The more natural translation is:
 
 "this book of the man"
 
-Here is this pointing noun phrase in a complete sentence:
+Here is this ;ism_isharah; phrase in a complete sentence:
 
 [كِتَابُ ٱلرَّجُلِ هَـٰذَا أَخْضَر.]{.ar}  
 "This book of the man is green."
@@ -516,7 +516,7 @@ A quick note about the ambiguity of this expression:
 "this book of the man" (usual)  
 "the book of this man" (rare)
 
-The ambiguity of whether the pointing noun [هَـٰذَا]{.ar} points to the ;mudaf; 
+The ambiguity of whether the ;ism_isharah; [هَـٰذَا]{.ar} points to the ;mudaf; 
 [كِتَابُ]{.ar}
 or the ;mudafil;
 [ٱلرَّجُلِ]{.ar}
@@ -570,7 +570,7 @@ Consider the ;idafa;:
 [كِتَابُ زَيْدٍ]{.ar}  
 "the book of Zayd"
 
-Because the ;mudafil; [زَيْد]{.ar} does not begin with [ٱَلْ]{.ar}, any pointing nouns can come only after the entire ;idafa;, thus:
+Because the ;mudafil; [زَيْد]{.ar} does not begin with [ٱَلْ]{.ar}, any ;ism_isharah;s can come only after the entire ;idafa;, thus:
 
 [كِتَابُ زَيْدٍ هَـٰذَا]{.ar}
 
@@ -582,7 +582,7 @@ i. "the book of this Zayd"
 In practice, however, the first meaning 
 ("this book of Zayd")
 is much more likely.
-Pointing to a proper noun in a pointing noun phrase 
+Pointing to a proper noun in a ;ism_isharah; phrase 
 ("the book of this Zayd")
 is uncommon, generally.
 
@@ -601,12 +601,12 @@ Example:
 "his book"
 
 Neither the ;mudaf; [كِتَاب]{.ar}, nor the attached pronoun [هُ]{.ar} begin with [ٱَلْ]{.ar}.
-So if we want to add the pointing noun [هَـٰذَا]{.ar} to this ;idafa; to form a pointing noun phrase,
+So if we want to add the ;ism_isharah; [هَـٰذَا]{.ar} to this ;idafa; to form a ;ism_isharah; phrase,
 then we have to place it at the end, after the ;idafa;, thus:
 
 [كِتَابُهُ هَـٰذَا]{.ar}  
 
-The pointing noun [هَـٰذَا]{.ar}, here, is a ;manut;. But what is its ;naat;?
+The ;ism_isharah; [هَـٰذَا]{.ar}, here, is a ;manut;. But what is its ;naat;?
 
 We have also learned, in
 section\ \@ref(;naat;s-with-;idafa;s-to-pronouns)
@@ -638,11 +638,11 @@ So, we are left with only one option: the ;mudaf; [كِتَاب]{.ar} is the des
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize ;naat;};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describer};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-3.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize ;manut;};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
 
 \path (0,0) node [midway, below=15ex, right=0ex, align=left] {``this book of his''};
 
@@ -651,9 +651,9 @@ So, we are left with only one option: the ;mudaf; [كِتَاب]{.ar} is the des
 
 Here are some more examples:
 
-## Pointing nouns as ;mubtada;s
+## ;#ism_isharah;s as ;mubtada;s
 
-Besides their use in pointing noun phrases, pointing nouns are very often used as the ;mubtada; of a sentence. For example:
+Besides their use in ;ism_isharah; phrases, ;ism_isharah;s are very often used as the ;mubtada; of a sentence. For example:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -679,7 +679,7 @@ Besides their use in pointing noun phrases, pointing nouns are very often used a
 \end{tikzpicture}
 ```
 
-The pointing noun is (usually) made to match the ;xabar; in number and gender. Examples:
+The ;ism_isharah; is (usually) made to match the ;xabar; in number and gender. Examples:
 
 [هَاتَانِ جَارِيَتَانِ.]{.ar}  
 "These are girls~2~."
@@ -713,7 +713,7 @@ The ;xabar; may be a single word (as above) or more complex (as below):
 [هَـٰذَانِ بَيْتَانِ كَبِيرَانِ..]{.ar}  
 "These are big houses~2~."
 
-If the ;xabar; is a noun that begins with [ٱَلْ]{.ar} then it may be placed after the pointing noun ;mubtada; in the same manner:
+If the ;xabar; is a noun that begins with [ٱَلْ]{.ar} then it may be placed after the ;ism_isharah; ;mubtada; in the same manner:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -739,7 +739,7 @@ If the ;xabar; is a noun that begins with [ٱَلْ]{.ar} then it may be placed 
 \end{tikzpicture}
 ```
 
-While the this is permitted and correct, it may be sometimes confused with for the pointing noun phrase "this man". So, in the same way that we learned in
+While the this is permitted and correct, it may be sometimes confused with for the ;ism_isharah; phrase "this man". So, in the same way that we learned in
 section\ \@ref(chap-smp-sent-sec-def-info),
 we insert a detached pronoun between the ;mubtada; and the ;xabar;, thus:
 
@@ -763,9 +763,9 @@ Here are some more examples:
 [هَـٰذَانِ هُمَ ٱلصَّغِيرَانِ.]{.ar}  
 "These are the small ones~2~."
 
-### Mismatched pointing noun ;mubtada;
+### Mismatched ;ism_isharah; ;mubtada;
 
-When the pointing noun is a ;mubtada; we usually match its number and gender with the number and gender of the ;xabar;, as we have been doing so far. However, when the pointing noun ;mubtada; refers to a noun in a previous sentence, then we may prefer to match to the previous noun than to the the following ;xabar;. Example:
+When the ;ism_isharah; is a ;mubtada; we usually match its number and gender with the number and gender of the ;xabar;, as we have been doing so far. However, when the ;ism_isharah; ;mubtada; refers to a noun in a previous sentence, then we may prefer to match to the previous noun than to the the following ;xabar;. Example:
 
 [بَلَغَنَا خَبَرُ ٱلْمَطَرِ عَلَى ٱلْجَبَالِ. ذَ\ ٰلِكَ بُشْرَىٰ لِلزُّرَّاعِ.]{.ar}  
 "The news of the rain on the mountains has reached us. That is a good tiding for the sowers."
@@ -782,9 +782,9 @@ This is because
 [ذَ\ ٰلِكَ]{.ar}
 is actually referring to [خَبَر]{.ar} in the previous sentence which is a masculine noun.
 
-## Pointing nouns as other parts of speech
+## ;#ism_isharah;s as other parts of speech
 
-Besides their use in pointing noun phrases and as ;mubtada;s, pointing nouns may be used as other parts of speech as well, typically where one would expect pronouns. Here are some examples:
+Besides their use in ;ism_isharah; phrases and as ;mubtada;s, ;ism_isharah;s may be used as other parts of speech as well, typically where one would expect pronouns. Here are some examples:
 
 [أَخَذْتُ ٱلْكِتَابَيْنِ مِنَ ٱلْمَكْتَبَةِ. قَرَأْتُ هَـٰذا وَمَا قَرَأْتُ ذَ\ ٰلِكَ.]{.ar}  
 "I took the books~2~ from the library. I read this one and I didn't read that one."
