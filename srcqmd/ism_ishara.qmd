@@ -64,8 +64,8 @@ Note the following:
 
 The pointing nouns share some similarities with pronouns [هُوَ]{.ar}, [هِيَ]{.ar}, etc. Just like pronouns, pointing nouns, too, are definite nouns even though they don't have [ٱَلْ]{.ar}.
 
-Remember, however, from section\ \@ref(describers-with-;idafa;s-to-pronouns), that pronouns may not be describees.
-Pointing nouns are different from pronouns in this regard. It is allowed to describe a pointing noun with a describer in a noun phrase.
+Remember, however, from section\ \@ref(;naat;s-with-;idafa;s-to-pronouns), that pronouns may not be ;manut;s.
+Pointing nouns are different from pronouns in this regard. It is allowed to describe a pointing noun with a ;naat; in a noun phrase.
 
 Both these facts will prove useful in the next section.
 
@@ -85,7 +85,7 @@ We will be giving examples throughout this chapter.
 
 ## The pointing noun phrase
 
-Remember from chapter\ \@ref(adjectival-nouns-and-descriptive-noun-phrases) that a descriptive noun-phrase consists of a describer and a describee. The describer follows the describer and matches it in definiteness, state, gender, and number. 
+Remember from chapter\ \@ref(;sifah;s-and-descriptive-noun-phrases) that a descriptive noun-phrase consists of a ;naat; and a ;manut;. The ;naat; follows the ;naat; and matches it in definiteness, state, gender, and number. 
 
 Here is an example of a descriptive noun-phrase in a sentence.
 
@@ -102,11 +102,11 @@ Here is an example of a descriptive noun-phrase in a sentence.
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ;naat;};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ;manut;};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
@@ -127,10 +127,10 @@ below, we will deal with nouns that are part of an ;idafa;, like [كِتَابَ
 
 #### The pointed-to noun is definite with [ٱَلْ]{.ar} {#phrase-single-pointed-to-noun-with-al}
 
-Just like an adjectival noun, a pointing noun can be a describer in a noun-phrase. But remember from 
+Just like an ;sifah;, a pointing noun can be a ;naat; in a noun-phrase. But remember from 
 section\ \@ref(definiteness-of-pointing-nouns)
 above that pointing nouns are definite.
-So, if a pointing noun is a describer in a noun-phrase, the describee has to be definite too.
+So, if a pointing noun is a ;naat; in a noun-phrase, the ;manut; has to be definite too.
 Example:
 
 ```{.tikzarabic}
@@ -146,11 +146,11 @@ Example:
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ;naat;};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ;manut;};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
@@ -161,12 +161,12 @@ Example:
 \end{tikzpicture}
 ```
 
-In the above example, the pointed-to noun [ٱَلْكِتَابَيْنِ]{.ar} is the describee in a descriptive noun-phrase. It is definite, in the a-state, masculine, and dual.
+In the above example, the pointed-to noun [ٱَلْكِتَابَيْنِ]{.ar} is the ;manut; in a descriptive noun-phrase. It is definite, in the a-state, masculine, and dual.
 
-The pointing noun [هَـٰذَيْنِ]{.ar} is its describer. It follows the describee and matches it being dual, in the a-state, masculine, and dual.
+The pointing noun [هَـٰذَيْنِ]{.ar} is its ;naat;. It follows the ;manut; and matches it being dual, in the a-state, masculine, and dual.
 
 As a special case, when the pointed-to noun has [ٱَلْ]{.ar} (as in this case: [ٱَلْكِتَابَيْنِ]{.ar}), then the order of the pointing noun and the pointed to noun is permitted to be reversed. 
-<!--The pointing noun can be the describee, and the pointed-to noun can be the describer.-->
+<!--The pointing noun can be the ;manut;, and the pointed-to noun can be the ;naat;.-->
 
 The pointing noun is then a replacee (see section\ \@ref(the-replacement)), and the pointed-to noun is its replacement.
 
@@ -386,11 +386,11 @@ Consider, now, the second pointing noun phrase:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize ;naat;};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize ;manut;};
 
 \path (0,0) node [midway, below=15ex, right=0ex, align=left] {``the book of this man''\\(literally: ``the book of the this-one man'')};
 
@@ -400,7 +400,7 @@ Consider, now, the second pointing noun phrase:
 [ٱَلرَّجُل]{.ar}, here, keeps its place as the ;mudafil; in the ;idafa;.
 In addition to being the ;mudafil;,
 [ٱَلرَّجُل]{.ar}
-is also a describee, whose describer is the pointing noun
+is also a ;manut;, whose ;naat; is the pointing noun
 [هَـٰذَا]{.ar}.
 The literal, word-for-word, translation of this phrase is:
 
@@ -481,19 +481,19 @@ in detail:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize ;naat;};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-3.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize ;manut;};
 
 \path (0,0) node [midway, below=15ex, right=0ex, align=left] {``this book of the man''\\(literally: ``the this-one book of the man'')};
 
 \end{tikzpicture}
 ```
 
-[كِتَاب]{.ar}, here, is both and ;mudaf; and a describee.
-Its describer is the pointing noun
+[كِتَاب]{.ar}, here, is both and ;mudaf; and a ;manut;.
+Its ;naat; is the pointing noun
 [هَـٰذَا]{.ar}.
 The literal, word-for-word, translation of this phrase is:
 
@@ -606,11 +606,11 @@ then we have to place it at the end, after the ;idafa;, thus:
 
 [كِتَابُهُ هَـٰذَا]{.ar}  
 
-The pointing noun [هَـٰذَا]{.ar}, here, is a describee. But what is its describer?
+The pointing noun [هَـٰذَا]{.ar}, here, is a ;manut;. But what is its ;naat;?
 
 We have also learned, in
-section\ \@ref(describers-with-;idafa;s-to-pronouns)
-that pronouns may not be describees in a descriptive noun phrase.
+section\ \@ref(;naat;s-with-;idafa;s-to-pronouns)
+that pronouns may not be ;manut;s in a descriptive noun phrase.
 
 So, we are left with only one option: the ;mudaf; [كِتَاب]{.ar} is the desceibee. And the meaning of the phrase is:
 
@@ -638,11 +638,11 @@ So, we are left with only one option: the ;mudaf; [كِتَاب]{.ar} is the des
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize ;naat;};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-3.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize ;manut;};
 
 \path (0,0) node [midway, below=15ex, right=0ex, align=left] {``this book of his''};
 
