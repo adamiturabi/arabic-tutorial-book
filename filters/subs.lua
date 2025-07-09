@@ -39,11 +39,14 @@ map_table["fail"] = {"doer", nil}
 
 map_table["idafa"] = {"annexation", nil}
 map_table["indir_mafulb"] = {"indirect doee", nil}
-map_table["ishara"] = {"pointing noun", nil}
 map_table["ismfail"] = {"doer participle", nil}
+map_table["ismishara"] = {"pointing noun", nil}
 map_table["ismof"] = {"subject", nil}
 map_table["ismmaful"] = {"doee participle", nil}
 map_table["ismmarrah"] = {"one-time noun", nil}
+map_table["ismmawsul"] = {"connected noun", nil}
+
+map_table["jawab"] = {"consequence", nil}
 
 map_table["lazim"] = {"intransitive", nil}
 map_table["lnj"] = {"لا النافية للجنس", "ar"}
@@ -53,7 +56,6 @@ map_table["maful"] = {"doee", nil}
 map_table["mafulb"] = {"direct doee", nil}
 map_table["manut"] = {"describee", nil}
 map_table["masdar"] = {"maSdar", "trn2"}
-map_table["mawsul"] = {"connected noun", nil}
 map_table["mmutlaq"] = {"absolute doee", nil}
 map_table["mubdalb"] = {"replacee", nil}
 map_table["mubtada"] = {"subject", nil}
@@ -69,6 +71,7 @@ map_table["passive"] = {"passive", nil}
 
 map_table["sifah"] = {"adjectival noun", nil}
 map_table["silah"] = {"connecting sentence", nil}
+map_table["shart"] = {"condition", nil}
 
 map_table["xabar"] = {"comment", nil}
 
