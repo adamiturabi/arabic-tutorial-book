@@ -651,9 +651,9 @@ So, we are left with only one option: the ;mudaf; [كِتَاب]{.ar} is the des
 
 Here are some more examples:
 
-## Pointing nouns as subjects
+## Pointing nouns as ;mubtada;s
 
-Besides their use in pointing noun phrases, pointing nouns are very often used as the subject of a sentence. For example:
+Besides their use in pointing noun phrases, pointing nouns are very often used as the ;mubtada; of a sentence. For example:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -713,7 +713,7 @@ The ;xabar; may be a single word (as above) or more complex (as below):
 [هَـٰذَانِ بَيْتَانِ كَبِيرَانِ..]{.ar}  
 "These are big houses~2~."
 
-If the ;xabar; is a noun that begins with [ٱَلْ]{.ar} then it may be placed after the pointing noun subject in the same manner:
+If the ;xabar; is a noun that begins with [ٱَلْ]{.ar} then it may be placed after the pointing noun ;mubtada; in the same manner:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -741,7 +741,7 @@ If the ;xabar; is a noun that begins with [ٱَلْ]{.ar} then it may be placed 
 
 While the this is permitted and correct, it may be sometimes confused with for the pointing noun phrase "this man". So, in the same way that we learned in
 section\ \@ref(chap-smp-sent-sec-def-info),
-we insert a detached pronoun between the subject and the ;xabar;, thus:
+we insert a detached pronoun between the ;mubtada; and the ;xabar;, thus:
 
 [هَـٰذَا هُوَ ٱلرَّجُلُ.]{.ar}  
 "This is the man."
@@ -763,20 +763,20 @@ Here are some more examples:
 [هَـٰذَانِ هُمَ ٱلصَّغِيرَانِ.]{.ar}  
 "These are the small ones~2~."
 
-### Mismatched pointing noun subject
+### Mismatched pointing noun ;mubtada;
 
-When the pointing noun is a subject we usually match its number and gender with the number and gender of the ;xabar;, as we have been doing so far. However, when the pointing noun subject refers to a noun in a previous sentence, then we may prefer to match to the previous noun than to the the following ;xabar;. Example:
+When the pointing noun is a ;mubtada; we usually match its number and gender with the number and gender of the ;xabar;, as we have been doing so far. However, when the pointing noun ;mubtada; refers to a noun in a previous sentence, then we may prefer to match to the previous noun than to the the following ;xabar;. Example:
 
 [بَلَغَنَا خَبَرُ ٱلْمَطَرِ عَلَى ٱلْجَبَالِ. ذَ\ ٰلِكَ بُشْرَىٰ لِلزُّرَّاعِ.]{.ar}  
 "The news of the rain on the mountains has reached us. That is a good tiding for the sowers."
 
-Note that the second sentence's subject and ;xabar; mismatch: 
+Note that the second sentence's ;mubtada; and ;xabar; mismatch: 
 
 [ذَ\ ٰلِكَ بُشْرَىٰ]{.ar}  
 "That is a good tiding."
 
 The ;xabar;
-[بُشٌرَىٰ]{.ar} "a good tiding" is a feminine noun but the subject
+[بُشٌرَىٰ]{.ar} "a good tiding" is a feminine noun but the ;mubtada;
 [ذَ\ ٰلِكَ]{.ar} is masculine.
 This is because
 [ذَ\ ٰلِكَ]{.ar}
@@ -784,7 +784,7 @@ is actually referring to [خَبَر]{.ar} in the previous sentence which is a m
 
 ## Pointing nouns as other parts of speech
 
-Besides their use in pointing noun phrases and as subjects, pointing nouns may be used as other parts of speech as well, typically where one would expect pronouns. Here are some examples:
+Besides their use in pointing noun phrases and as ;mubtada;s, pointing nouns may be used as other parts of speech as well, typically where one would expect pronouns. Here are some examples:
 
 [أَخَذْتُ ٱلْكِتَابَيْنِ مِنَ ٱلْمَكْتَبَةِ. قَرَأْتُ هَـٰذا وَمَا قَرَأْتُ ذَ\ ٰلِكَ.]{.ar}  
 "I took the books~2~ from the library. I read this one and I didn't read that one."
