@@ -2,7 +2,7 @@
 
 ## Introduction
 
-We have learned that a verb must have a ;fail; in the ;ustate; and can have a ;mafulb; in the a-state.
+We have learned that a verb must have a ;fail; in the ;ustate; and can have a ;mafulb; in the ;astate;.
 In this chapter, we will learn about a new type of verb, whose ;fail; is called its ;ismof;, and whose ;mafulb; is called its ;xabar;.
 
 The principal verb of this type is [كَانَ]{.ar} which is used to mean "was". There are other verbs which behave in a similar manner and they are called the _sisters_ of [كَانَ]{.ar}.
@@ -75,7 +75,7 @@ The complete table for this verb for all ;fail; pronouns is given below:
 Like, for other verbs, 
 the ;fail; of [كَانَ]{.ar},
 [ٱلرَّجُلُ]{.ar}, is in the ;ustate;, and
-and its ;mafulb;, [مُعَلِّمًا]{.ar}, is in the a-state.
+and its ;mafulb;, [مُعَلِّمًا]{.ar}, is in the ;astate;.
 
 However, unlike most other verbs,
 the ;fail; of [كَانَ]{.ar},
@@ -195,8 +195,8 @@ For example,
 "The believers were the winners."
 
 The separating pronoun [هُمْ]{.ar} does not, in this case, serve to disambiguate the ;xabar; [ٱلْفَائزِينَ]{.ar} "the winners", from being a ;naat;, as it did in sentences without [كَانَ]{.ar} (see section\ \@ref(;ismof;-;xabar;-sentences-separating-pronoun)).
-This is because the a-state of [ٱلْفَائزِينَ]{.ar} already tells us that it is the ;xabar; of [كَانَ]{.ar}. 
-If [ٱلْفَائزِينَ]{.ar} were a ;naat; of the ;ustate; ;ismof; [ٱَلْمُوْمِنُونَ]{.ar}, then it too would be in the ;ustate;, not the a-state.
+This is because the ;astate; of [ٱلْفَائزِينَ]{.ar} already tells us that it is the ;xabar; of [كَانَ]{.ar}. 
+If [ٱلْفَائزِينَ]{.ar} were a ;naat; of the ;ustate; ;ismof; [ٱَلْمُوْمِنُونَ]{.ar}, then it too would be in the ;ustate;, not the ;astate;.
 So the separating pronoun serves more, here, to emphasize the ;ismof;.
 
 Most of the time, separating pronouns are used in [كَانَ]{.ar} sentences when the ;ismof; of [كَانَ]{.ar} is itself a pronoun. Examples:
@@ -347,22 +347,22 @@ Here are some examples:
 [لا يَكونُ اللَّعَّانُونَ شُفَعَاءَ وَلَا شُهَدَاءَ يَومَ القِيَامَةِ]{.ar}
 [<https://sunnah.com/riyadussalihin:1553>]{.aside}  
 "The frequent cursers will be neither intercessors nor witnesses [on] the day of resurrection."  
-([يَوْمَ]{.ar} is in the a-state because it is an adverb of time, see chapter\ \@ref(adverb-of-time).)
+([يَوْمَ]{.ar} is in the ;astate; because it is an adverb of time, see chapter\ \@ref(adverb-of-time).)
 
 [يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ]{.ar}
 [<https://quran.com/101:4>]{.aside}  
 "It is the Day when people will be like moths, dispersed,"  
 
-### The a-state ;mudarie; verb [يَكُونَ]{.ar}
+### The ;astate; ;mudarie; verb [يَكُونَ]{.ar}
 
-Like a-state ;mudarie; verbs in general, [يَكُونَ]{.ar} "be" expresses the meaning of purpose, wish, or expectation. It occurs after the particles
+Like ;astate; ;mudarie; verbs in general, [يَكُونَ]{.ar} "be" expresses the meaning of purpose, wish, or expectation. It occurs after the particles
 [أَنْ]{.ar},
 [لَنْ]{.ar},
 [لِ]{.ar},
 [كَيْ]{.ar},
 [حَتَّىٰ]{.ar}, and
 [إِذَنْ]{.ar}.
-All this is consistent with what we have learned about a-state ;mudarie; verbs in chapter\ \@ref(a-state-;mudarie;-verbs).
+All this is consistent with what we have learned about ;astate; ;mudarie; verbs in chapter\ \@ref(a-state-;mudarie;-verbs).
 Here are some examples:
 
 [نَزَلَ بِهِ ٱلرُّوحُ ٱلْأَمِينُ. عَلَىٰ قَلْبِكَ لِتَكُونَ مِنَ ٱلْمُنذِرِينَ]{.ar}
@@ -377,9 +377,9 @@ Here are some examples:
 [<https://quran.com/10/99>]{.aside}  
 "Then, [O Muḥammad], would you compel the people in order that they become believers?"
 
-### The 0-state ;mudarie; verb [يَكُنْ]{.ar} {#lam-yakun}
+### The ;0state; ;mudarie; verb [يَكُنْ]{.ar} {#lam-yakun}
 
-The 0-state ;mudarie; verb [يَكُنْ]{.ar} 
+The ;0state; ;mudarie; verb [يَكُنْ]{.ar} 
 is used consistent with the usage of 
 0-state ;mudarie; verbs in general.
 (See chapter\ \@ref(0-state-;mudarie;-verbs).)
@@ -401,7 +401,7 @@ For example:
 #### Deletion of [ن]{.ar}
 
 The [ن]{.ar} may (irregularly) be deleted
-for the 0-state ;mudarie; verbs that don't have a [و]{.ar} before them. 
+for the ;0state; ;mudarie; verbs that don't have a [و]{.ar} before them. 
 These are:
 
 + [يَكُنْ]{.ar}, becomes [يَكُ]{.ar}
@@ -442,7 +442,7 @@ We [i.e., Allāh] said, "O fire, be coolness and safety upon Abraham."
 [<https://quran.com/2:65>]{.aside}  
 "and We said to them, 'Be apes, despised.'  
 
-The verb of command [كُنْ]{.ar} followed by the name of a person in the a-state is used to express one's guessing that the person whom one sees is the individual named. For example:
+The verb of command [كُنْ]{.ar} followed by the name of a person in the ;astate; is used to express one's guessing that the person whom one sees is the individual named. For example:
 
 [كُنْ أَبَا ذَرٍّ]{.ar}
 [Wright, vol.\ ii, §20, rem.\ b, p.\ 44C]{.aside}  
@@ -477,7 +477,7 @@ In English, we usually express this meaning using "there was". For example,
 (literally: "A king was.")
 
 Note that [مَلِك]{.ar} "king" is in the ;ustate; as the ;ismof;.
-If it were in the a-state, then it would change the meaning:
+If it were in the ;astate;, then it would change the meaning:
 
 [كَانَ مَلِكًا.]{.ar}  
 "He was a king."
@@ -878,9 +878,9 @@ Examples:
 [Fischer, §193, p.\ 108]{.aside}  
 "Let us take him for (then) we will have taken a substitute"
 
-#### a-state [يَكُونَ]{.ar} combined with a past verb
+#### ;astate; [يَكُونَ]{.ar} combined with a past verb
 
-An a-state [يَكُونَ]{.ar} is combined with a past verb
+An ;astate; [يَكُونَ]{.ar} is combined with a past verb
 to express being in a state of an action having occurred
 or that might have occurred. For example:
 
@@ -918,7 +918,7 @@ This is a negative
 or
 [لَمْ يَكُنْ]{.ar} with the appropriate suffixes or prefixes for the ;ismof;)
 followed by [لِ]{.ar}
-and then an a-state ;mudarie; verb.
+and then an ;astate; ;mudarie; verb.
 This expresses the meaning of:
 
  i. to deny being the one to do something, or 
@@ -955,8 +955,8 @@ the use of
 This is, again, a negative 
 [كَانَ]{.ar} 
 followed by the preposition [لِ]{.ar}
-and a following i-state noun,
-and then [أَنْ]{.ar} followed by an a-state ;mudarie; verb.
+and a following ;istate; noun,
+and then [أَنْ]{.ar} followed by an ;astate; ;mudarie; verb.
 This signifies that the action of the verb does not behoove, or is not appropriate or desrving or possibly for the person denoted by the noun after [لِ]{.ar}.^[<https://tafsir.app/albahr-almuheet/3/79>, <https://tafsir.app/ibn-aashoor/3/79>]
 For example:
 
