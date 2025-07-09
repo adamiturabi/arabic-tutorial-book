@@ -27,7 +27,7 @@ Here is a [mubtada]{.subs}-[xabar]{.subs} sentence:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize topic};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize subject};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-4.south west) -- (word-5.south east)
@@ -73,7 +73,7 @@ In order to form this sentence in Arabic, we put the [mubtada]{.subs} first and 
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize topic};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize subject};
 
 \path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {\emph{ʾalbaytu bināʾ.}\\``The building is a house.''};
 

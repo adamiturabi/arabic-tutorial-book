@@ -8,10 +8,10 @@ local map_table = {}
 map_table["ia"] = {"if Allāh wills", nil}
 
 -- states
-map_table["ustate"] = {"raised state", nil}
-map_table["astate"] = {"standing state", nil}
-map_table["istate"] = {"lowered state", nil}
-map_table["0state"] = {"cut state", nil}
+map_table["ustate"] = {"raised-state", nil}
+map_table["astate"] = {"propped-state", nil}
+map_table["istate"] = {"lowered-state", nil}
+map_table["0state"] = {"clipped-state", nil}
 
 -- diacritics
 map_table["amark"] = {"fatHah", "trn2"}
