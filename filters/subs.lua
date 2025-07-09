@@ -33,18 +33,20 @@ map_table["triptote"] = {"fully-flexible", nil}
 map_table["tote"] = {"flexible", nil}
 
 -- alphabetical
+map_table["aaid"] = {"refer-back pronoun", nil}
+
 map_table["badal"] = {"replacement", nil}
 
 map_table["fail"] = {"doer", nil}
 
 map_table["idafa"] = {"annexation", nil}
 map_table["indir_mafulb"] = {"indirect doee", nil}
-map_table["ismfail"] = {"doer participle", nil}
-map_table["ismishara"] = {"pointing noun", nil}
-map_table["ismof"] = {"subject", nil}
-map_table["ismmaful"] = {"doee participle", nil}
-map_table["ismmarrah"] = {"one-time noun", nil}
-map_table["ismmawsul"] = {"connected noun", nil}
+map_table["ism_fail"] = {"doer participle", nil}
+map_table["ism_ishara"] = {"pointing noun", nil}
+map_table["ism_of"] = {"subject", nil}
+map_table["ism_maful"] = {"doee participle", nil}
+map_table["ism_marrah"] = {"one-time noun", nil}
+map_table["ism_mawsul"] = {"connected noun", nil}
 
 map_table["jawab"] = {"consequence", nil}
 
