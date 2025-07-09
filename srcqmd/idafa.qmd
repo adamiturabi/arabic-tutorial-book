@@ -377,9 +377,9 @@ Example of the semi-flexible noun
 
 State  | Indefinite | Definite
 :------|:-----------|:---------
-u-state| [صَحْرَاءُ]{.ar} | [ٱَلصَّحْرَاءُ]{.ar}
-a-state| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءَ]{.ar}
-i-state| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءِ]{.ar}
+;ustate;| [صَحْرَاءُ]{.ar} | [ٱَلصَّحْرَاءُ]{.ar}
+;astate;| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءَ]{.ar}
+;istate;| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءِ]{.ar}
 
 We will now see how semi-flexible nouns behave in an ;idafa;.
 
@@ -685,7 +685,7 @@ There are also two special cases in this category and we will examine them below
 
 ##### Annexing an [Un]{.trn} sound plural to the singular speaker participant pronoun {-} 
 
-When an [Un]{.trn} sound plural is annexed to the singular speaker participant pronoun, then again, only the [يَ]{.ar} variant can be used. However, in addition, the expression will appear the same regardless of the state of the ;mudaf;. So for all states (u-state, ;astate;, and ;istate;), we will get:
+When an [Un]{.trn} sound plural is annexed to the singular speaker participant pronoun, then again, only the [يَ]{.ar} variant can be used. However, in addition, the expression will appear the same regardless of the state of the ;mudaf;. So for all states (;ustate;, ;astate;, and ;istate;), we will get:
 
 [مُعَلِّمِيَّ]{.ar}
 
@@ -693,15 +693,15 @@ We don't say $\times$\ [مُعَلِّمُويَ]{.ar} for the ;ustate;. Example
 
 [مُعَلِّمِيَّ كِرَامٌ.]{.ar}  
 "My teachers~3,m~ are noble."  
-(u-state)
+(;ustate;)
 
 [سَأَلْتُ مُعَلِّمِيَّ]{.ar}  
 "I asked my teachers~3,m~."  
-(a-state)
+(;astate;)
 
 [أَخَذْتُ كِتَابًا مِنْ مُعَلِّمِيَّ]{.ar}  
 "I took a book from my teachers~3,m~."  
-(i-state)
+(;istate;)
 
 ##### Annexing an dual noun to a dual pronoun {-} 
 
@@ -978,20 +978,20 @@ Here are some notes regarding the use of pronouns in noun-chains.
 + An attached pronoun may be only the last noun in a noun-chain. It cannot be the first noun in a noun-chain.
 + A looped [tAE]{.trn2} [ة]{.ar} in the first noun becomes an open [tAE]{.trn2} [ت]{.ar} when a pronoun is attached as the second noun in the noun-chain. For example [مَدْرَسَةٌ]{.ar} [madrasatun]{.trn} "a school" becomes [مَدْرَسَتُهُ]{.ar} [madrasatuhu]{.trn} "his school".
 + The first noun in the noun-chain, before the attached pronoun, may be in any state. So, for example, we can have:
-  + [دَخَلَ بَيْتَهُ.]{.ar} (a-state)  
+  + [دَخَلَ بَيْتَهُ.]{.ar} (;astate;)  
     [daxala baytahu]{.trn}  
     "He entered his house."
-  + [فِي بَيْتِهِ.]{.ar} (i-state)  
+  + [فِي بَيْتِهِ.]{.ar} (;istate;)  
     [fI baytihi]{.trn}  
     "in his house"
 + With the pronoun [ـِي]{.ar} [-I]{.trn}, the first noun in the noun-chain will generally appear the same in all states. For example,
-  + [بَيْتِي كَبِيرٌ]{.ar} (u-state)  
+  + [بَيْتِي كَبِيرٌ]{.ar} (;ustate;)  
     [baytI kabIrun.]{.trn}  
     "My house is big."
-  + [دَخَلَ بَيْتِي.]{.ar} (a-state)  
+  + [دَخَلَ بَيْتِي.]{.ar} (;astate;)  
     [daxala baytI]{.trn}  
     "He entered my house."
-  + [فِي بَيْتِي]{.ar} (i-state)  
+  + [فِي بَيْتِي]{.ar} (;istate;)  
     [fI baytI]{.trn}  
     "in my house"
 + We have mentioned that when a dual noun or sound [Un]{.trn} plural noun is first noun in a noun-chain its [ن]{.ar} is dropped. This rule remains valid when the last noun in the noun-chain is an attached pronoun. So we get:

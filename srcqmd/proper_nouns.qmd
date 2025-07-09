@@ -114,15 +114,15 @@ This is because noun beginning with with [ٱَلْ]{.ar} display their state ful
 
 [ٱَلْحَسَنُ حَفِيدُ رَسُولِ ٱللَّـٰهِ صلى اللّه عليه وسلم.]{.ar}  
 "[al-#Hasan]{.trn2} is the grandson of the messenger of [_allAh]{.trn2} (may [_allAh]{.trn2} grant peace and confer blessing upon him)."
-(u-state displayed with [◌ُ]{.ar}.)
+(;ustate; displayed with [◌ُ]{.ar}.)
 
 [سَأَلَ ٱلرَّجُلُ ٱلنُّعْمَانَ عَنْ أَمْرٍ.]{.ar}  
 "The man asked [al-#nuemAn]{.trn2} about a matter."  
-(a-state displayed with [◌َ]{.ar}.)
+(;astate; displayed with [◌َ]{.ar}.)
 
 [ذَهَبْتُ إِلَى ٱلْقَاهِرَةِ.]{.ar}  
 "I went to Cairo."  
-(i-state displayed with [◌ِ]{.ar}.)
+(;istate; displayed with [◌ِ]{.ar}.)
 
 Examples of names that begin with [ٱَلْ]{.ar} are:
 
@@ -260,7 +260,7 @@ Names of the pattern [فُعَل]{.ar} shall be semi-flexible. Examples:
 <!--
 Interestingly, the fully-flexible name [_eamr]{.trn2} is written with a silent [و]{.ar} at its end: [عَمْرو]{.ar} when in the ;ustate; and ;istate; in order to distinguish it from the more common name [_eumar]{.trn2}. Otherwise, both names would appear identical when written without vowel marks, thus: [عمر]{.ar}.
 
-Name|u-state|a-state|i-state
+Name|;ustate;|;astate;|;istate;
 :-|:--|:--|:--
 [_eamr]{.trn2}|[عَمْرٌو]{.ar} [eamrun]{.trn}| [عَمْرًا]{.ar} [eamran]{.trn}|[عَمْرٍو]{.ar} [eamrin]{.trn}
 [_eumar]{.trn2}|[عُمَرُ]{.ar} [eumaru]{.trn}| [عُمَرَ]{.ar} [eumara]{.trn}|[عُمَرَ]{.ar} [eumara]{.trn}
@@ -341,7 +341,7 @@ For females, the name ^2^[فُلَانَة]{.ar} is used.
 Irregularly, the fully-flexible name [_eamr]{.trn2} is written with a unpronounced [و]{.ar} at its end: [عَمْرو]{.ar} when in the ;ustate; and ;istate;.
 In the ;astate;, the [و]{.ar} is not added.
 
-Name|u-state|a-state|i-state
+Name|;ustate;|;astate;|;istate;
 :-|:--|:--|:--
 [_eamr]{.trn2}|[عَمْرٌو]{.ar} [eamrun]{.trn}| [عَمْرًا]{.ar} [eamran]{.trn}|[عَمْرٍو]{.ar} [eamrin]{.trn}
 
@@ -350,7 +350,7 @@ Or it could be the remnant of an older (pre-Islāmic) practice of appending a fi
 
 <!--Otherwise, both names would appear identical when written without vowel marks, thus: [عمر]{.ar}.
 
-Name|u-state|a-state|i-state
+Name|;ustate;|;astate;|;istate;
 :-|:--|:--|:--
 [_eamr]{.trn2}|[عَمْرٌو]{.ar} [eamrun]{.trn}| [عَمْرًا]{.ar} [eamran]{.trn}|[عَمْرٍو]{.ar} [eamrin]{.trn}
 [_eumar]{.trn2}|[عُمَرُ]{.ar} [eumaru]{.trn}| [عُمَرَ]{.ar} [eumara]{.trn}|[عُمَرَ]{.ar} [eumara]{.trn}
@@ -548,15 +548,15 @@ This is because noun beginning with with [ٱَلْ]{.ar} display their state ful
 
 [ٱَلْحَسَنُ حَفِيدُ رَسُولِ ٱللَّـٰهِ صلى اللّه عليه وسلم.]{.ar}  
 "[al-#Hasan]{.trn2} is the grandson of the messenger of [_allAh]{.trn2} (may [_allAh]{.trn2} grant peace and confer blessing upon him)."  
-(u-state displayed with [◌ُ]{.ar}.)
+(;ustate; displayed with [◌ُ]{.ar}.)
 
 [سَأَلَ ٱلرَّجُلُ ٱلنُّعْمَانَ عَنْ أَمْرٍ.]{.ar}  
 "The man asked [al-#nuemAn]{.trn2} about a matter."  
-(a-state displayed with [◌َ]{.ar}.)
+(;astate; displayed with [◌َ]{.ar}.)
 
 [ذَهَبْتُ إِلَى بَيْتِ ٱلنُّعْمَانِ.]{.ar}  
 "I went to [al-#nuemAn]{.trn2}'s house."  
-(i-state displayed with [◌ِ]{.ar}.)
+(;istate; displayed with [◌ِ]{.ar}.)
 
 Names that begin with [ٱَلْ]{.ar} can sometimes lose their initial [ٱَلْ]{.ar}. Sometimes, this is systematic, as we will lear in section\ \@ref(calling-names-with-al).
 Other times, it's hard to tell why. 
