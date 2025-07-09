@@ -31,7 +31,7 @@ function romanize.RomanizeMapping(text2, is_italic)
   mylcase["U"] = "ū"
   mylcase["="] = "·" -- to insert middot explicitly. middot is automatically inserted before 'h' if digraph_en=true
 
-  -- upper case mapping. use hash '_' before desired uppercase character
+  -- upper case mapping. use hash '#' before desired uppercase character
   myucase = {}
   myucase["E"] = "ʾ"
   myucase["A"] = "Ā"
@@ -109,7 +109,7 @@ function romanize.RomanizeMapping(text2, is_italic)
   local prev_charv = ''
   for index3 = 1, #text2 do
     local charv = text2:sub(index3, index3)
-    if charv == "_" then
+    if charv == "#" then
       caps = true
     else
       if caps then

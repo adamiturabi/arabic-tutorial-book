@@ -84,7 +84,7 @@ function get_output_text(input_text)
   --  capitalize = true
   --end
   --input_text = string.lower(input_text)
-  if string.match(input_text:sub(1,1), "_") then
+  if string.match(input_text:sub(1,1), "#") then
     capitalize = true
     input_text = input_text:sub(2)
   end
@@ -103,7 +103,7 @@ function get_output_text(input_text)
   if mapped[2] == "trn2" then
     if capitalize then
       --mapped[1] = "_" .. mapped[1]
-      return romanize.RomanizeMapping("_" .. mapped[1], false)
+      return romanize.RomanizeMapping("#" .. mapped[1], false)
     end
     return romanize.RomanizeMapping(mapped[1], false)
   elseif mapped[2] == "ar" then
