@@ -49,11 +49,11 @@ ii. The common noun "a car": It is being described by the ;naat;. We will call i
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize ;naat;};
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize describer};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-3.south east)
-      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize ;manut;};
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize describee};
 
 \end{tikzpicture}
 ```
@@ -182,11 +182,11 @@ Here is the equivalent Arabic ;manut;-;naat; phrase:
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ;naat;};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describer};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ;manut;};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describee};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
