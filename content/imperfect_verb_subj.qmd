@@ -196,7 +196,7 @@ We show other examples below where the
 [أَنْ]{.ar} clause
 occurs in place of other noun positions.
 
-As the subject:
+As the [mubtada]{.subs}:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -221,7 +221,7 @@ As the subject:
 which is grammatically equivalent to: [نَجَاحَكَ هُوَ ٱلْمَقْصِدُ.]{.ar}.
 
 
-As the information:
+As the [xabar]{.subs}:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -236,7 +236,7 @@ As the information:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize information};
+      node [midway, below] {\scriptsize comment};
 
 \path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The purpose is that you succeed.''};
 
@@ -478,9 +478,9 @@ Consider now yet another variant of this sentence:
 
 Now
 [رَأْس]{.ar}
-is in the u-state because it is actually the subject of a new sentence, whose information is (an either expressed or implied) [أَكَلْتُهَا]{.ar} "I ate it".
+is in the u-state because it is actually the [mubtada]{.subs} of a new sentence, whose [xabar]{.subs} is (an either expressed or implied) [أَكَلْتُهَا]{.ar} "I ate it".
 [حَتَّىٰ]{.ar},
-here, serves as an introductory particle to the second subject and does not affect the state of the following noun.
+here, serves as an introductory particle to the second [mubtada]{.subs} and does not affect the state of the following noun.
 
 ### [حَتَّىٰ]{.ar} [HattA]{.trn} with a following verb
 

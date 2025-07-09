@@ -35,7 +35,7 @@ map_table["idafa"] = {"annexation", nil}
 map_table["indir_mafulb"] = {"indirect doee", nil}
 map_table["ishara"] = {"pointing noun", nil}
 map_table["ismfail"] = {"doer participle", nil}
-map_table["ismkn"] = {"subject", nil}
+map_table["ismof"] = {"subject", nil}
 map_table["ismmaful"] = {"doee participle", nil}
 map_table["ismmarrah"] = {"one-time noun", nil}
 
@@ -50,7 +50,7 @@ map_table["masdar"] = {"maSdar", "trn2"}
 map_table["mawsul"] = {"connected noun", nil}
 map_table["mmutlaq"] = {"absolute doee", nil}
 map_table["mubdalb"] = {"replacee", nil}
-map_table["mubtada"] = {"topic", nil}
+map_table["mubtada"] = {"subject", nil}
 map_table["mudaf"] = {"annexe noun", nil}
 map_table["mudafil"] = {"base noun", nil}
 map_table["mudarie"] = {"resembling", nil} -- {"muDArie", "trn2"}

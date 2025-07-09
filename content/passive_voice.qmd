@@ -52,7 +52,7 @@ For example:
 
 The complete table showing the doer pronouns is given in appendix\ \@ref(verb-tables).
 
-## The deputy doer
+## The [naib]{.subs} doer
 
 Consider again this sentence with an [passive]{.subs} verb construction:
 
@@ -69,7 +69,7 @@ Consider again this sentence with an [passive]{.subs} verb construction:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize deputy doer};
+      node [midway, below] {\scriptsize [naib]{.subs} doer};
 
 \path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The water was drunk.''};
 
@@ -82,9 +82,9 @@ Consider again this sentence with an [passive]{.subs} verb construction:
 "The water was drunk."
 -->
 
-Note that the noun [ٱَلْمَاءُ]{.ar} [EalmAEu]{.trn} "the water" is in the u-state. This is because, in the absence of the doer, the [mafulb]{.subs} of the known-doer verb ([ٱَلْمَاءَ]{.ar}) is deputized to take doer's place in the u-state. It is then known as the _deputy doer_.
+Note that the noun [ٱَلْمَاءُ]{.ar} [EalmAEu]{.trn} "the water" is in the u-state. This is because, in the absence of the doer, the [mafulb]{.subs} of the known-doer verb ([ٱَلْمَاءَ]{.ar}) is deputized to take doer's place in the u-state. It is then known as the _[naib]{.subs} doer_.
 
-The doer pronouns for the [passive]{.subs} verb shall therefore match the gender and number of the deputy doer. Here are some examples:
+The doer pronouns for the [passive]{.subs} verb shall therefore match the gender and number of the [naib]{.subs} doer. Here are some examples:
 
 [شُكِرَتِ ٱلأُمَّهَاتُ وَمُدِحْنَ.]{.ar}  
 [cukirati -lEummahAtu wamudiHn.]{.trn}  
@@ -98,7 +98,7 @@ The doer pronouns for the [passive]{.subs} verb shall therefore match the gender
 [mA quTieati -ccajarah.]{.trn}  
 "The tree was not cut."
 
-### The deputy doer for multiple [mafulb]{.subs}s
+### The [naib]{.subs} doer for multiple [mafulb]{.subs}s
 
 Some verbs, in the known-doer construction, take multiple [mafulb]{.subs}. These verbs can be classified into two classes:
 <!--Wright vol. ii., p. 47D, sect. 24-->
@@ -126,7 +126,7 @@ b. Verbs that siginify an action of the heart or of intention, like thinking, de
    [جَعَلَ ٱللَّـٰهُ ٱلْمَاءَ بَرَكَةً.]{.ar}  
    "[_allAh]{.trn2} has made the water a blessing."
 
-When such verbs are converted to the [passive]{.subs} verb construction, then one, and only one, [mafulb]{.subs} shall be chosen to be the deputy doer. It is generally preferred to make the first [mafulb]{.subs} the deputy-doer, and leave the second [mafulb]{.subs}, as is, in the a-state.
+When such verbs are converted to the [passive]{.subs} verb construction, then one, and only one, [mafulb]{.subs} shall be chosen to be the [naib]{.subs} doer. It is generally preferred to make the first [mafulb]{.subs} the [naib]{.subs}-doer, and leave the second [mafulb]{.subs}, as is, in the a-state.
 Here are the same sentences in the [passive]{.subs} construction:
 
 [مُلِئَتِ ٱلدَّلْوُ مَاءً.]{.ar} ([دَلْو]{.ar} "bucket" is feminine.)  
@@ -163,9 +163,9 @@ Other verbs, which can take a [mafulb]{.subs}, may be used without one, and agai
 [كَتَبَ ٱلْكَاتِبُ بِٱلْقَلَمِ.]{.ar}  
 "The scribe wrote with the pen."
 
-When such sentences are converted to the [passive]{.subs} verb construction then the prepositional phrase may be taken as the deputy doer. 
-However, the preposition causes the noun following it to remain in the i-state. So the deputy doer is not indicated by an apparent [umark]{.subs} (or by the other indicators of the u-state).
-The verb then appears to be in the singular masculine, with its deputy doer following it.
+When such sentences are converted to the [passive]{.subs} verb construction then the prepositional phrase may be taken as the [naib]{.subs} doer. 
+However, the preposition causes the noun following it to remain in the i-state. So the [naib]{.subs} doer is not indicated by an apparent [umark]{.subs} (or by the other indicators of the u-state).
+The verb then appears to be in the singular masculine, with its [naib]{.subs} doer following it.
 For example:
 
 ```{.tikzarabic}
@@ -181,7 +181,7 @@ For example:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize deputy doer};
+      node [midway, below] {\scriptsize [naib]{.subs} doer};
 
 \path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The ground was sat upon.''};
 
@@ -222,12 +222,12 @@ Here is an example:
 
 <!--[سَهَرَتِ ٱلْأُمُّ ٱللَّيلَةَ.]{.ar}  
 "The mother stayed up the (whole) night."-->
-When this sentence is converted to an [passive]{.subs} construction then the adverb of time or place can be taken as the deputy doer in the u-state:
+When this sentence is converted to an [passive]{.subs} construction then the adverb of time or place can be taken as the [naib]{.subs} doer in the u-state:
 
 [سُهِرَتْ لَيلَةُ ٱلْقَدْرِ.]{.ar}  
 "The Night of Power was stayed up [in]."
 
-Note the u-state of [لَيْلَةُ]{.ar} [laylatu]{.trn} as the deputy doer.
+Note the u-state of [لَيْلَةُ]{.ar} [laylatu]{.trn} as the [naib]{.subs} doer.
 
 ### With the [masdar]{.subs}
 
@@ -240,21 +240,21 @@ For example:
 "The old man understood, a deep understanding."
 
 
-When such sentences are converted to the [passive]{.subs} verb construction, then the [masdar]{.subs} may be taken as the deputy doer in the u-state.
+When such sentences are converted to the [passive]{.subs} verb construction, then the [masdar]{.subs} may be taken as the [naib]{.subs} doer in the u-state.
 
 [فُهِمَ فَهْمٌ عَمِيقٌ.]{.ar}  
 "A deep understanding was understood."
 
 ### Requirement of specialization
 
-When a prepositional phrase, or an adverb of time or place, or a [masdar]{.subs} is to be used as a deputy doer in an [passive]{.subs} verb construction, then it is required that they be specialized in meaning, and not used in a general sense. So for example, if we have the sentence:
+When a prepositional phrase, or an adverb of time or place, or a [masdar]{.subs} is to be used as a [naib]{.subs} doer in an [passive]{.subs} verb construction, then it is required that they be specialized in meaning, and not used in a general sense. So for example, if we have the sentence:
 
 [سَهَرَتِ ٱلْأُمُّ لَيلَةً.]{.ar}  
 "The mother stayed up a night."
 
 then because of the non-specialized meaning of [لَيْلَةً]{.ar}, such a sentence is typically not suitable for being converted to a [passive]{.subs} verb construction.
 
-### Choosing the deputy doer
+### Choosing the [naib]{.subs} doer
 
 If a sentence is to be converted to an [passive]{.subs} verb construction and it has more than one of the following:
 
@@ -263,12 +263,12 @@ If a sentence is to be converted to an [passive]{.subs} verb construction and it
 + a specialized adverb of time or place
 + a specialized [masdar]{.subs}
 
-Then only one shall be chosen as the deputy doer. If a [mafulb]{.subs} exists, then it is typically chosen. If a [mafulb]{.subs} does not exist, then the one desired to be emphasized may be chosen as the deputy doer. For example:
+Then only one shall be chosen as the [naib]{.subs} doer. If a [mafulb]{.subs} exists, then it is typically chosen. If a [mafulb]{.subs} does not exist, then the one desired to be emphasized may be chosen as the [naib]{.subs} doer. For example:
 
 [سُهِرَ فِي ٱلْمَسْجِدِ لَيلَةَ ٱلْقَدْرِ.]{.ar}  
 "The mosque was stayed up in [on] the Night of Power."
 
-In the above sentence the prepositional phrase [فِي ٱلْمَسْجِدِ]{.ar} was chosen as the deputy doer, and the adverb of time [لَيْلَةَ]{.ar} remains, as is, in the a-state.
+In the above sentence the prepositional phrase [فِي ٱلْمَسْجِدِ]{.ar} was chosen as the [naib]{.subs} doer, and the adverb of time [لَيْلَةَ]{.ar} remains, as is, in the a-state.
 
 ## States of the [mudarie]{.subs} [passive]{.subs} verb
 
@@ -291,7 +291,7 @@ The a-state verb is used for expressing wish or purpose:
 
 [يَأْمُلُ ٱلْمُسْلِمُونَ أَنْ يُغْفَرُ لَهُمْ.]{.ar}  
 "The Muslims hope that they be forgiven."  
-(Note that [يُغْفَرَ]{.ar} has a singular masculine deputy doer because there is no [mafulb]{.subs}.)
+(Note that [يُغْفَرَ]{.ar} has a singular masculine [naib]{.subs} doer because there is no [mafulb]{.subs}.)
 
 [لَنْ تُسْمَعَا.]{.ar}  
 "You~2~ shall not be heard."

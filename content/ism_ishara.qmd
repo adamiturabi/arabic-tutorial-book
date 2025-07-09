@@ -66,8 +66,8 @@ Note the following:
 
 The pointing nouns share some similarities with pronouns [هُوَ]{.ar}, [هِيَ]{.ar}, etc. Just like pronouns, pointing nouns, too, are definite nouns even though they don't have [ٱَلْ]{.ar}.
 
-Remember, however, from section\ \@ref(describers-with-[idafa]{.subs}s-to-pronouns), that pronouns may not be describees.
-Pointing nouns are different from pronouns in this regard. It is allowed to describe a pointing noun with a describer in a noun phrase.
+Remember, however, from section\ \@ref([naat]{.subs}s-with-[idafa]{.subs}s-to-pronouns), that pronouns may not be [manut]{.subs}s.
+Pointing nouns are different from pronouns in this regard. It is allowed to describe a pointing noun with a [naat]{.subs} in a noun phrase.
 
 Both these facts will prove useful in the next section.
 
@@ -87,7 +87,7 @@ We will be giving examples throughout this chapter.
 
 ## The pointing noun phrase
 
-Remember from chapter\ \@ref(adjectival-nouns-and-descriptive-noun-phrases) that a descriptive noun-phrase consists of a describer and a describee. The describer follows the describer and matches it in definiteness, state, gender, and number. 
+Remember from chapter\ \@ref([sifah]{.subs}s-and-descriptive-noun-phrases) that a descriptive noun-phrase consists of a [naat]{.subs} and a [manut]{.subs}. The [naat]{.subs} follows the [naat]{.subs} and matches it in definiteness, state, gender, and number. 
 
 Here is an example of a descriptive noun-phrase in a sentence.
 
@@ -104,11 +104,11 @@ Here is an example of a descriptive noun-phrase in a sentence.
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize [naat]{.subs}};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize [manut]{.subs}};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
@@ -129,10 +129,10 @@ below, we will deal with nouns that are part of an [idafa]{.subs}, like [كِت�
 
 #### The pointed-to noun is definite with [ٱَلْ]{.ar} {#phrase-single-pointed-to-noun-with-al}
 
-Just like an adjectival noun, a pointing noun can be a describer in a noun-phrase. But remember from 
+Just like an [sifah]{.subs}, a pointing noun can be a [naat]{.subs} in a noun-phrase. But remember from 
 section\ \@ref(definiteness-of-pointing-nouns)
 above that pointing nouns are definite.
-So, if a pointing noun is a describer in a noun-phrase, the describee has to be definite too.
+So, if a pointing noun is a [naat]{.subs} in a noun-phrase, the [manut]{.subs} has to be definite too.
 Example:
 
 ```{.tikzarabic}
@@ -148,11 +148,11 @@ Example:
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize [naat]{.subs}};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize [manut]{.subs}};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
@@ -163,12 +163,12 @@ Example:
 \end{tikzpicture}
 ```
 
-In the above example, the pointed-to noun [ٱَلْكِتَابَيْنِ]{.ar} is the describee in a descriptive noun-phrase. It is definite, in the a-state, masculine, and dual.
+In the above example, the pointed-to noun [ٱَلْكِتَابَيْنِ]{.ar} is the [manut]{.subs} in a descriptive noun-phrase. It is definite, in the a-state, masculine, and dual.
 
-The pointing noun [هَـٰذَيْنِ]{.ar} is its describer. It follows the describee and matches it being dual, in the a-state, masculine, and dual.
+The pointing noun [هَـٰذَيْنِ]{.ar} is its [naat]{.subs}. It follows the [manut]{.subs} and matches it being dual, in the a-state, masculine, and dual.
 
 As a special case, when the pointed-to noun has [ٱَلْ]{.ar} (as in this case: [ٱَلْكِتَابَيْنِ]{.ar}), then the order of the pointing noun and the pointed to noun is permitted to be reversed. 
-<!--The pointing noun can be the describee, and the pointed-to noun can be the describer.-->
+<!--The pointing noun can be the [manut]{.subs}, and the pointed-to noun can be the [naat]{.subs}.-->
 
 The pointing noun is then a replacee (see section\ \@ref(the-replacement)), and the pointed-to noun is its replacement.
 
@@ -388,11 +388,11 @@ Consider, now, the second pointing noun phrase:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize [naat]{.subs}};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize [manut]{.subs}};
 
 \path (0,0) node [midway, below=15ex, right=0ex, align=left] {``the book of this man''\\(literally: ``the book of the this-one man'')};
 
@@ -402,7 +402,7 @@ Consider, now, the second pointing noun phrase:
 [ٱَلرَّجُل]{.ar}, here, keeps its place as the [mudafil]{.subs} in the [idafa]{.subs}.
 In addition to being the [mudafil]{.subs},
 [ٱَلرَّجُل]{.ar}
-is also a describee, whose describer is the pointing noun
+is also a [manut]{.subs}, whose [naat]{.subs} is the pointing noun
 [هَـٰذَا]{.ar}.
 The literal, word-for-word, translation of this phrase is:
 
@@ -483,19 +483,19 @@ in detail:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize [naat]{.subs}};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-3.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize [manut]{.subs}};
 
 \path (0,0) node [midway, below=15ex, right=0ex, align=left] {``this book of the man''\\(literally: ``the this-one book of the man'')};
 
 \end{tikzpicture}
 ```
 
-[كِتَاب]{.ar}, here, is both and [mudaf]{.subs} and a describee.
-Its describer is the pointing noun
+[كِتَاب]{.ar}, here, is both and [mudaf]{.subs} and a [manut]{.subs}.
+Its [naat]{.subs} is the pointing noun
 [هَـٰذَا]{.ar}.
 The literal, word-for-word, translation of this phrase is:
 
@@ -608,11 +608,11 @@ then we have to place it at the end, after the [idafa]{.subs}, thus:
 
 [كِتَابُهُ هَـٰذَا]{.ar}  
 
-The pointing noun [هَـٰذَا]{.ar}, here, is a describee. But what is its describer?
+The pointing noun [هَـٰذَا]{.ar}, here, is a [manut]{.subs}. But what is its [naat]{.subs}?
 
 We have also learned, in
-section\ \@ref(describers-with-[idafa]{.subs}s-to-pronouns)
-that pronouns may not be describees in a descriptive noun phrase.
+section\ \@ref([naat]{.subs}s-with-[idafa]{.subs}s-to-pronouns)
+that pronouns may not be [manut]{.subs}s in a descriptive noun phrase.
 
 So, we are left with only one option: the [mudaf]{.subs} [كِتَاب]{.ar} is the desceibee. And the meaning of the phrase is:
 
@@ -640,11 +640,11 @@ So, we are left with only one option: the [mudaf]{.subs} [كِتَاب]{.ar} is 
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize [naat]{.subs}};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-3.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize [manut]{.subs}};
 
 \path (0,0) node [midway, below=15ex, right=0ex, align=left] {``this book of his''};
 
@@ -653,9 +653,9 @@ So, we are left with only one option: the [mudaf]{.subs} [كِتَاب]{.ar} is 
 
 Here are some more examples:
 
-## Pointing nouns as subjects
+## Pointing nouns as [mubtada]{.subs}s
 
-Besides their use in pointing noun phrases, pointing nouns are very often used as the subject of a sentence. For example:
+Besides their use in pointing noun phrases, pointing nouns are very often used as the [mubtada]{.subs} of a sentence. For example:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -674,14 +674,14 @@ Besides their use in pointing noun phrases, pointing nouns are very often used a
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize information};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize comment};
 
 \path (0,0) node [midway, below=17ex, right=0ex, align=left] {``This is a man.''\\(literally: ``This-one is a man.'')};
 
 \end{tikzpicture}
 ```
 
-The pointing noun is (usually) made to match the information in number and gender. Examples:
+The pointing noun is (usually) made to match the [xabar]{.subs} in number and gender. Examples:
 
 [هَاتَانِ جَارِيَتَانِ.]{.ar}  
 "These are girls~2~."
@@ -698,7 +698,7 @@ The pointing noun is (usually) made to match the information in number and gende
 [هَـٰذَانِ صَغِيرَانِ.]{.ar}  
 "These are small ones~2~."
 
-The information may be a single word (as above) or more complex (as below):
+The [xabar]{.subs} may be a single word (as above) or more complex (as below):
 
 [ذَ\ ٰلِكَ أَمِيرُ ٱلْمُؤِْمِنِينَ.]{.ar}  
 "That is the commander of the believers."
@@ -715,7 +715,7 @@ The information may be a single word (as above) or more complex (as below):
 [هَـٰذَانِ بَيْتَانِ كَبِيرَانِ..]{.ar}  
 "These are big houses~2~."
 
-If the information is a noun that begins with [ٱَلْ]{.ar} then it may be placed after the pointing noun subject in the same manner:
+If the [xabar]{.subs} is a noun that begins with [ٱَلْ]{.ar} then it may be placed after the pointing noun [mubtada]{.subs} in the same manner:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -734,7 +734,7 @@ If the information is a noun that begins with [ٱَلْ]{.ar} then it may be pla
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize information};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize comment};
 
 \path (0,0) node [midway, below=17ex, right=0ex, align=left] {``This is the man.''\\(literally: ``This-one is the man.'')};
 
@@ -743,7 +743,7 @@ If the information is a noun that begins with [ٱَلْ]{.ar} then it may be pla
 
 While the this is permitted and correct, it may be sometimes confused with for the pointing noun phrase "this man". So, in the same way that we learned in
 section\ \@ref(chap-smp-sent-sec-def-info),
-we insert a detached pronoun between the subject and the information, thus:
+we insert a detached pronoun between the [mubtada]{.subs} and the [xabar]{.subs}, thus:
 
 [هَـٰذَا هُوَ ٱلرَّجُلُ.]{.ar}  
 "This is the man."
@@ -765,20 +765,20 @@ Here are some more examples:
 [هَـٰذَانِ هُمَ ٱلصَّغِيرَانِ.]{.ar}  
 "These are the small ones~2~."
 
-### Mismatched pointing noun subject
+### Mismatched pointing noun [mubtada]{.subs}
 
-When the pointing noun is a subject we usually match its number and gender with the number and gender of the information, as we have been doing so far. However, when the pointing noun subject refers to a noun in a previous sentence, then we may prefer to match to the previous noun than to the the following information. Example:
+When the pointing noun is a [mubtada]{.subs} we usually match its number and gender with the number and gender of the [xabar]{.subs}, as we have been doing so far. However, when the pointing noun [mubtada]{.subs} refers to a noun in a previous sentence, then we may prefer to match to the previous noun than to the the following [xabar]{.subs}. Example:
 
 [بَلَغَنَا خَبَرُ ٱلْمَطَرِ عَلَى ٱلْجَبَالِ. ذَ\ ٰلِكَ بُشْرَىٰ لِلزُّرَّاعِ.]{.ar}  
 "The news of the rain on the mountains has reached us. That is a good tiding for the sowers."
 
-Note that the second sentence's subject and information mismatch: 
+Note that the second sentence's [mubtada]{.subs} and [xabar]{.subs} mismatch: 
 
 [ذَ\ ٰلِكَ بُشْرَىٰ]{.ar}  
 "That is a good tiding."
 
-The information
-[بُشٌرَىٰ]{.ar} "a good tiding" is a feminine noun but the subject
+The [xabar]{.subs}
+[بُشٌرَىٰ]{.ar} "a good tiding" is a feminine noun but the [mubtada]{.subs}
 [ذَ\ ٰلِكَ]{.ar} is masculine.
 This is because
 [ذَ\ ٰلِكَ]{.ar}
@@ -786,7 +786,7 @@ is actually referring to [خَبَر]{.ar} in the previous sentence which is a m
 
 ## Pointing nouns as other parts of speech
 
-Besides their use in pointing noun phrases and as subjects, pointing nouns may be used as other parts of speech as well, typically where one would expect pronouns. Here are some examples:
+Besides their use in pointing noun phrases and as [mubtada]{.subs}s, pointing nouns may be used as other parts of speech as well, typically where one would expect pronouns. Here are some examples:
 
 [أَخَذْتُ ٱلْكِتَابَيْنِ مِنَ ٱلْمَكْتَبَةِ. قَرَأْتُ هَـٰذا وَمَا قَرَأْتُ ذَ\ ٰلِكَ.]{.ar}  
 "I took the books~2~ from the library. I read this one and I didn't read that one."

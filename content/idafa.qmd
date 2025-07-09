@@ -244,7 +244,7 @@ There is no special rules for broken plurals and [At]{.trn} sound plurals in [id
 
 Contrary to broken plurals and [At]{.trn} plurals, duals and [Un]{.trn} sound plurals behave differently in [idafa]{.subs}s. We will deal with them in section\ \@ref(duals-and-sound-un-plurals-in-[idafa]{.subs}s)
 
-## Describers in an [idafa]{.subs}
+## [_naat]{.subs}s in an [idafa]{.subs}
 
 ### Describing the [mudafil]{.subs}
 
@@ -254,15 +254,15 @@ Consider the following expression:
 "the girl's book"
 
 Now say that we want to form an descriptive noun-phrase "the small girl's book". 
-Basically, we want to describe the [mudafil]{.subs} [ٱَلْجَارِيَة]{.ar} "the girl" with the adjectival noun [صَغِير]{.ar} "a small one". 
+Basically, we want to describe the [mudafil]{.subs} [ٱَلْجَارِيَة]{.ar} "the girl" with the [sifah]{.subs} [صَغِير]{.ar} "a small one". 
 Here is how we will express this in Arabic:
 
 [كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرَةِ]{.ar}  
 "the small girl's book"
 
-In the manner we are already familiar with, we place the describer [صَغِير]{.ar} "a small one" after the describee
+In the manner we are already familiar with, we place the [naat]{.subs} [صَغِير]{.ar} "a small one" after the [manut]{.subs}
 [ٱَلْجَارِيَة]{.ar} "the girl"
-and match the describer with the describee in definiteness, state, gender and number (singular, dual, or plural).
+and match the [naat]{.subs} with the [manut]{.subs} in definiteness, state, gender and number (singular, dual, or plural).
 
 Similarly, if we had an indefinite [idafa]{.subs}, we would get:
 
@@ -287,15 +287,15 @@ Consider, again, the same [idafa]{.subs}:
 [كِتَابُ ٱلْجَارِيَةِ]{.ar}  
 "the girl's book"
 
-Say, now, that we want to describe the [mudaf]{.subs} [كِتَاب]{.ar} "book" with the adjectival noun [صَغِير]{.ar} "a small one". Normally, nothing can come between the [mudaf]{.subs} and the [mudafil]{.subs} in an [idafa]{.subs}. So, the describer needs to be placed, again, after the [mudafil]{.subs}.
+Say, now, that we want to describe the [mudaf]{.subs} [كِتَاب]{.ar} "book" with the [sifah]{.subs} [صَغِير]{.ar} "a small one". Normally, nothing can come between the [mudaf]{.subs} and the [mudafil]{.subs} in an [idafa]{.subs}. So, the [naat]{.subs} needs to be placed, again, after the [mudafil]{.subs}.
 However, this time it will match the [mudaf]{.subs}, not the [mudafil]{.subs}, in state, definiteness, gender, and number. So we get:
 
 [كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرُ]{.ar}  
 "the girl's small book"
 
-Note how the describer 
+Note how the [naat]{.subs} 
 [ٱَلصَّغِيرُ]{.ar} matches the [mudaf]{.subs} [كِتَابُ]{.ar} in state and gender.
-Note also how the describer is definite with an [ٱَلْ]{.ar}. This is because it is matching the [mudaf]{.subs} [كِتَابُ]{.ar} in definiteness.
+Note also how the [naat]{.subs} is definite with an [ٱَلْ]{.ar}. This is because it is matching the [mudaf]{.subs} [كِتَابُ]{.ar} in definiteness.
 The [mudaf]{.subs} [كِتَاب]{.ar} is definite, not with [ٱَلْ]{.ar}, but rather because of the definite [mudafil]{.subs} [ٱَلْجَارِيَةِ]{.ar} "the girl".
 We've already learned this rule in 
 section\ \@ref(definiteness-of-the-[idafa]{.subs})
@@ -307,7 +307,7 @@ Similarly, if we describe the [mudaf]{.subs} [كِتَاب]{.ar} in an indefinit
 "a girl's small book"
 
 This time
-the describer 
+the [naat]{.subs} 
 [صَغِيرٌ]{.ar}
 is indefinite with a [tanwin]{.subs}ed [umark]{.subs} [◌ٌ]{.ar}. 
 This is because 
@@ -320,7 +320,7 @@ Now, you might be foreseeing a problem. What if the [mudaf]{.subs} and the [muda
 or  
 "The boy went to the man's big house."  
 
-How do we know whether the describer [كَبِير]{.ar} is meant to describe the [mudaf]{.subs} [بَيْتِ]{.ar} or the [mudafil]{.subs} [ٱَلرَّجُل]{.ar}?
+How do we know whether the [naat]{.subs} [كَبِير]{.ar} is meant to describe the [mudaf]{.subs} [بَيْتِ]{.ar} or the [mudafil]{.subs} [ٱَلرَّجُل]{.ar}?
 The [mudaf]{.subs} [بَيْتِ]{.ar} and the [mudafil]{.subs} [ٱَلرَّجُل]{.ar} are both masculine, singular, definite, and in the i-state.
 
 The answer is that in such cases, context will have to be clear to tell us which of the two meanings is intended.
@@ -328,19 +328,19 @@ If the context makes it clear then there is no harm in using such a sentence for
 <!--https://www.m-a-arabia.com/vb/showthread.php?t=40547
 دفع اللبس في احتمالية النعت للمضاف والمضاف إليه-->
 
-Also, sometimes, the meaning of the describer is such that it will likely apply to only one of the two nouns. For example,
+Also, sometimes, the meaning of the [naat]{.subs} is such that it will likely apply to only one of the two nouns. For example,
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ ٱلرَّجُلِ ٱلْكَرِيمِ.]{.ar}  
 "The boy went to a noble/generous man's house."  
 
-In the sentence above the describer [كَرِيم]{.ar} "noble/generous" is likely to apply to a man, and not to a house.
+In the sentence above the [naat]{.subs} [كَرِيم]{.ar} "noble/generous" is likely to apply to a man, and not to a house.
 
-If, however, the context is not clear, and the meaning of the describer can apply to both the [mudaf]{.subs} and the [mudafil]{.subs}, then the describer is likely to apply to the [mudafil]{.subs} and not to the [mudaf]{.subs}. So then, this interpretation is more likely:
+If, however, the context is not clear, and the meaning of the [naat]{.subs} can apply to both the [mudaf]{.subs} and the [mudafil]{.subs}, then the [naat]{.subs} is likely to apply to the [mudafil]{.subs} and not to the [mudaf]{.subs}. So then, this interpretation is more likely:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ ٱلرَّجُلِ ٱلْكَبِيرِ.]{.ar}  
 "The boy went to the big/old man's house."  
 
-In order to apply a describer to the [mudaf]{.subs} in such a case, it is better to break the [idafa]{.subs} and form a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
+In order to apply a [naat]{.subs} to the [mudaf]{.subs} in such a case, it is better to break the [idafa]{.subs} and form a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ ٱلْبَيْتِ ٱلْكَبِيرِ لِلرَّجُلِ .]{.ar}  
 "The boy went to the big house of the man."  
@@ -573,7 +573,7 @@ Example with the semi-flexible broken plural ^2^[هَدَايَا]{.ar} "gifts":
 [أَعْجَبَتْهُمْ هَدَايَايَ.]{.ar}  
 "My gifts pleased them."
 
-### Describers with [idafa]{.subs}s to pronouns
+### [_naat]{.subs}s with [idafa]{.subs}s to pronouns
 
 Consider the [idafa]{.subs}:
 
@@ -581,11 +581,11 @@ Consider the [idafa]{.subs}:
 "his book"
 
 The [mudaf]{.subs} is [كِتَاب]{.ar} and the [mudafil]{.subs} is the pronoun [ه]{.ar}.
-We would like add a describer to this expression.
+We would like add a [naat]{.subs} to this expression.
 Remember from section\ \@ref(definiteness-of-pronouns) that pronouns are definite nouns. That makes the [mudaf]{.subs} [كِتَاب]{.ar} also definite.
-Therefore, any describer for this [idafa]{.subs} will need to be definite too.
+Therefore, any [naat]{.subs} for this [idafa]{.subs} will need to be definite too.
 
-Here is a new rule: Pronouns may not be describees. That is: they are not allowed to have describers.
+Here is a new rule: Pronouns may not be [manut]{.subs}s. That is: they are not allowed to have [naat]{.subs}s.
 Even in English you may say:
 
 "The good boy went."
@@ -594,7 +594,7 @@ but you can't say:
 
 $\times$\ "The good _he_ went."
 
-So, any describers for the [idafa]{.subs} must necessarily only describe the [mudaf]{.subs}, not the base pronoun. Example:
+So, any [naat]{.subs}s for the [idafa]{.subs} must necessarily only describe the [mudaf]{.subs}, not the base pronoun. Example:
 
 [كِتَابُهُ الأَحْمَرُ]{.ar}  
 "his red book"
@@ -722,12 +722,12 @@ Although the former is also correct. This is because the [idafa]{.subs} of a dua
 
 <!--
 
-Compare this with describing the [mudafil]{.subs} with the same adjectival noun.
+Compare this with describing the [mudafil]{.subs} with the same [sifah]{.subs}.
 
 [كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرَةِ]{.ar}  
 "the girl's small book"
 
-As you can see, the adjectival noun [صَغِير]{.ar} "a small one" is in the same location, but its gender and state are different in both expressions because they match a different describee. 
+As you can see, the [sifah]{.subs} [صَغِير]{.ar} "a small one" is in the same location, but its gender and state are different in both expressions because they match a different [manut]{.subs}. 
 The definiteness, however, is the same in the two expressions because the [mudaf]{.subs} has the same definiteness as the [mudafil]{.subs}.
 
 
@@ -742,7 +742,7 @@ If the second noun in a chain is to be described using a qualitative noun, then 
 [buyUtu -rrijAli -lkibAri]{.trn}  
 "houses of the old/big men" = "the old/big men's houses"
 
-If the first noun in a chain is to be described using a qualitative noun, then we will actually place the qualitative noun after the second noun, not the first noun, in the chain. This way we don't break the chain of the two nouns. The describer will match the first noun definiteness, state, gender, and number (depending on whether it denotes a rational or non-rational being). Examples: 
+If the first noun in a chain is to be described using a qualitative noun, then we will actually place the qualitative noun after the second noun, not the first noun, in the chain. This way we don't break the chain of the two nouns. The [naat]{.subs} will match the first noun definiteness, state, gender, and number (depending on whether it denotes a rational or non-rational being). Examples: 
 
 [بَيْتُ رَجُلٍ كَبِيرٌ]{.ar}  
 [baytu rajulin kabIrun]{.trn}  
@@ -757,7 +757,7 @@ Consider, however, the sentence:
 [ذَهَبَ إِلَىٰ بَيْتِ رَجُلٍ كَبِيرٍ.]{.ar}  
 [pahaba EilA bayti rajulin kabIrin.]{.trn}  
 
-In this sentence both the first noun in the chain [بَيْتِ]{.ar} [bayti]{.trn} and second noun [رَجُلٍ]{.ar} [rajulin]{.trn} are indefinite, singular, masculine, and in the i-state. So the describer [كَبِيرٍ]{.ar} [kabirin]{.trn} could be applicable to either. And the meaning of the sentence could be either,
+In this sentence both the first noun in the chain [بَيْتِ]{.ar} [bayti]{.trn} and second noun [رَجُلٍ]{.ar} [rajulin]{.trn} are indefinite, singular, masculine, and in the i-state. So the [naat]{.subs} [كَبِيرٍ]{.ar} [kabirin]{.trn} could be applicable to either. And the meaning of the sentence could be either,
 
 "He went to a man's big house."
 
@@ -912,7 +912,7 @@ Note the following:
 + All the nouns except the first must be in the i-state. 
 + The [ن]{.ar} of the dual and the [Un]{.trn} plural is dropped for all nouns except the last.
 + Any non-fully-changing noun in the i-state in any position but the last will take an [imark]{.subs} on it's last letter. If a non-fully-changing noun is the last noun in the chain, and it does not have [ٱَلْ]{.ar} then it will take an [amark]{.subs} on it's last letter.
-+ Describers for any of the nouns in the chain will appear at the end. Practically, only one of the nouns will have a describer.
++ [_naat]{.subs}s for any of the nouns in the chain will appear at the end. Practically, only one of the nouns will have a [naat]{.subs}.
 
 ## Mismatched definiteness in noun-chains
 
@@ -1026,7 +1026,7 @@ Here are some notes regarding the use of pronouns in noun-chains.
     [mueallimiyya TayyibUna.]{.trn}  
     "My (male) teachers~pl.~ are good."
 
-+ Pronouns are always definite. So when a pronoun is the last noun in a noun-chain, all preceding nouns will be definite. This is important to know because if a describer is to be used for any of the preceding nouns, it will be definite too and will therefore have [ٱَلْ]{.ar}. Examples:
++ Pronouns are always definite. So when a pronoun is the last noun in a noun-chain, all preceding nouns will be definite. This is important to know because if a [naat]{.subs} is to be used for any of the preceding nouns, it will be definite too and will therefore have [ٱَلْ]{.ar}. Examples:
   + [بَيْتِي ٱلْكَبِيرُ وَاسِعٌ.]{.ar}  
     [bayti -lkabIru wAsieun.]{.trn}  
     "My big house is spacious."
@@ -1037,7 +1037,7 @@ Here are some notes regarding the use of pronouns in noun-chains.
     [mueallimiyya -lkirAmu fI madrasatihimu -lqadImati.]{.trn}  
     "My noble (male) teachers are in their old school."
 
-  By the way, describers will obviously only be for nouns preceding the pronoun and never for the pronoun itself.
+  By the way, [naat]{.subs}s will obviously only be for nouns preceding the pronoun and never for the pronoun itself.
 -->
 
 ## [_idafa]{.subs}s with "and"
@@ -1167,13 +1167,13 @@ For now, we will give a short preview of the numbers from one to ten.
 
 The word for the number "one" is
 [وَاحِد]{.ar} [wAHid]{.trn}.
-It is an adjectival noun and can be used as a describer.
+It is an [sifah]{.subs} and can be used as a [naat]{.subs}.
 For example,
 
 [قَرَأْتُ كِتَابًا وَاحِدًا.]{.ar}  
 "I read one book."
 
-As usual, when the described noun is feminine, then the describer too [وَاحِد]{.ar} is feminized:
+As usual, when the described noun is feminine, then the [naat]{.subs} too [وَاحِد]{.ar} is feminized:
 
 [أَكَلْتُ تَمْرَةً وَاحِدَةً.]{.ar}  
 "I ate one date."
@@ -1193,7 +1193,7 @@ is a singular noun.
 Correspondingly, the number for "two" 
 [ٱثْنَانِ]{.ar} [ivnAni]{.trn}
 is a dual noun.
-It too can be used as describer.
+It too can be used as [naat]{.subs}.
 For example,
 
 [دَخَلَ رَجْلَانِ ٱثْنَانِ.]{.ar}  
@@ -1267,7 +1267,7 @@ Whereas
 the feminine number has a [sukUn]{.trn2} on the [ش]{.ar} 
 ([عَشْر]{.ar} [eacr]{.trn}).
 
-Consistent with the numbers 1 and 2, the numbers from 3--10 may be used as describers.
+Consistent with the numbers 1 and 2, the numbers from 3--10 may be used as [naat]{.subs}s.
 But they are more often used as [mudaf]{.subs}s.
 As mentioned earlier, we will treat numbers more fully later, if [_allAh]{.trn2} wills.
 But here are some examples for now:
