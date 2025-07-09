@@ -308,9 +308,9 @@ Examples:
 
 Arabic has six vowels. There are three short vowels which don't have letters in the alphabet. Instead they are shown with pronunciation marks:
 
-1.  [a]{.trn} as the first vowel in English “manipulate”, written with an [a]{.trn}-mark [◌َ]{.ar} which is a small diagonal line above the letter like [مَـ]{.ar} [ma]{.trn}.
-1.  [i]{.trn} as in English “bit”, written with an [i]{.trn}-mark [◌ِ]{.ar} which is a small diagonal line under the letter like [بِـ]{.ar} [bi]{.trn}.
-1.  [u]{.trn} as in English “put”, written with an [u]{.trn}-mark [◌ُ]{.ar} which is like a tiny [و]{.ar} [wAw]{.trn2} above the letter like [فُـ]{.ar} [fu]{.trn}.
+1.  [a]{.trn} as the first vowel in English “manipulate”, written with an ;amark; [◌َ]{.ar} which is a small diagonal line above the letter like [مَـ]{.ar} [ma]{.trn}.
+1.  [i]{.trn} as in English “bit”, written with an ;imark; [◌ِ]{.ar} which is a small diagonal line under the letter like [بِـ]{.ar} [bi]{.trn}.
+1.  [u]{.trn} as in English “put”, written with an ;umark; [◌ُ]{.ar} which is like a tiny [و]{.ar} [wAw]{.trn2} above the letter like [فُـ]{.ar} [fu]{.trn}.
 
 Examples of words with short vowels:
 
@@ -322,9 +322,9 @@ Examples of words with short vowels:
 
 There are also three long vowels which are part of the alphabet:
 
-1.  [A]{.trn} generally written with an unmarked [alif]{.trn2} [ا]{.ar} and with the preceding letter having an [a]{.trn}-mark. Example [مَا]{.ar} [mA]{.trn}. This vowel is mostly pronounced like the vowel in English “man”. If however, it comes after these letters [خ،ر،ص،ض،ط،ظ،غ،ق]{.ar} it is pronounced like English "awe".
-1.  [I]{.trn} like in English “meek” written with an unmarked [ي]{.ar} [yAE]{.trn2} with the preceding letter having an [i]{.trn}-mark. Example [فِي]{.ar} [fI]{.trn}.
-1.  [U]{.trn} like in English “moon” written with an unmarked [و]{.ar} [wAw]{.trn2} with the preceding letter having an [u]{.trn}-mark. Example [ذُو]{.ar} [pU]{.trn}.
+1.  [A]{.trn} generally written with an unmarked [alif]{.trn2} [ا]{.ar} and with the preceding letter having an ;amark;. Example [مَا]{.ar} [mA]{.trn}. This vowel is mostly pronounced like the vowel in English “man”. If however, it comes after these letters [خ،ر،ص،ض،ط،ظ،غ،ق]{.ar} it is pronounced like English "awe".
+1.  [I]{.trn} like in English “meek” written with an unmarked [ي]{.ar} [yAE]{.trn2} with the preceding letter having an ;imark;. Example [فِي]{.ar} [fI]{.trn}.
+1.  [U]{.trn} like in English “moon” written with an unmarked [و]{.ar} [wAw]{.trn2} with the preceding letter having an ;umark;. Example [ذُو]{.ar} [pU]{.trn}.
 
 Examples of words with long and short vowels:
 
@@ -380,7 +380,7 @@ A word may contain "doubled" letters. This is when the same letter occurs, one a
 + [كَبَّرَ]{.ar} [kabbara]{.trn}
 + [حَدُّهُ]{.ar} [Hadduhu]{.trn}
 + [فَعَّالَ]{.ar} [faeeAla]{.trn}
-+ [سِكِّينُ]{.ar} [sikkInu]{.trn}. Note that the [i]{.trn}-mark is below the doubling mark but above the letter [ك]{.ar}. This is the most common way to write this, although having the [i]{.trn}-mark below the letter is also sometimes done as well. (In this case, the doubling mark will still be above the letter.)
++ [سِكِّينُ]{.ar} [sikkInu]{.trn}. Note that the ;imark; is below the doubling mark but above the letter [ك]{.ar}. This is the most common way to write this, although having the ;imark; below the letter is also sometimes done as well. (In this case, the doubling mark will still be above the letter.)
 + [سَفُّودُ]{.ar} [saffUdu]{.trn}
 + [ضَالِّينَ]{.ar} [DAllIna]{.trn}
 + [مُزَّمِّلُ]{.ar} [muzzammilu]{.trn}
@@ -400,18 +400,18 @@ but by writing the final vowel mark twice, thus:
 1. [◌ٍ]{.ar} [in]{.trn}, for example [بَيْتٍ]{.ar} [baytin]{.trn}.
 
 <!--
-Arabic also has three distinctive pronunciation marks, collectively called [n]{.trn}-marks.
+Arabic also has three distinctive pronunciation marks, collectively called ;nmark;s.
 
-1. [nUn]{.trn2}ated [a]{.trn}-mark [◌ً]{.ar}
-1. [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar}
-1. [nUn]{.trn2}ated [u]{.trn}-mark [◌ٌ]{.ar}
+1. [nUn]{.trn2}ated ;amark; [◌ً]{.ar}
+1. [nUn]{.trn2}ated ;imark; [◌ٍ]{.ar}
+1. [nUn]{.trn2}ated ;umark; [◌ٌ]{.ar}
 
-These [n]{.trn}-marks may only occur on a letter at the end of a word. They are pronounced as a short vowel ([a]{.trn}, [i]{.trn}, or [u]{.trn}) followed by an [n]{.trn}. For example, [سَالِمٌ]{.ar} [sAlimun]{.trn}, [سَالِمٍ]{.ar} [sAlimin]{.trn}.
+These ;nmark;s may only occur on a letter at the end of a word. They are pronounced as a short vowel ([a]{.trn}, [i]{.trn}, or [u]{.trn}) followed by an [n]{.trn}. For example, [سَالِمٌ]{.ar} [sAlimun]{.trn}, [سَالِمٍ]{.ar} [sAlimin]{.trn}.
 
 As a spelling rule, if a word ends with an [an]{.trn} mark, we will generally add a silent [alif]{.trn2} after it, for example [سَالِم]{.ar} becomes [سَالِمًا]{.ar} [sAliman]{.trn}. This is done for all words except:
 -->
 
-The [nUn]{.trn2}ated [a]{.trn}-mark [◌ً]{.ar} has specific spelling rules: Generally, 
+The [nUn]{.trn2}ated ;amark; [◌ً]{.ar} has specific spelling rules: Generally, 
 we will generally add a silent [alif]{.trn2} after it, for example [سَالِم]{.ar} becomes [سَالِمًا]{.ar} [sAliman]{.trn}. This is done for all words except:
 
 1. If the word ends with a [ة]{.ar}. In this case we don't add the silent [alif]{.trn2}. For example, [غَاضِبَة]{.ar} becomes [غَاضِبَةً]{.ar} [gADibatan]{.trn}. <!--, not [غَاضِبَةًا]{.ar} or [غَاضِبَتًا]{.ar}.-->
