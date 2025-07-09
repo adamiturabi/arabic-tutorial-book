@@ -46,8 +46,8 @@ And the [mudarie]{.subs} [passive]{.subs} verb has the same three states as the 
 For example:
 
 + [فُعِلُوا]{.ar} [fueilU]{.trn} "they~3m~" ([madi]{.subs})
-+ [تُفْعَلَانِ]{.ar} [tufealAni]{.trn} "you~2~" or "they~2f~" (u-state [mudarie]{.subs})
-+ [أُفْعَلَ]{.ar} [Eufeala]{.trn} "I" (a-state [mudarie]{.subs})
++ [تُفْعَلَانِ]{.ar} [tufealAni]{.trn} "you~2~" or "they~2f~" ([ustate]{.subs} [mudarie]{.subs})
++ [أُفْعَلَ]{.ar} [Eufeala]{.trn} "I" ([astate]{.subs} [mudarie]{.subs})
 + etc.
 
 The complete table showing the doer pronouns is given in appendix\ \@ref(verb-tables).
@@ -82,7 +82,7 @@ Consider again this sentence with an [passive]{.subs} verb construction:
 "The water was drunk."
 -->
 
-Note that the noun [ٱَلْمَاءُ]{.ar} [EalmAEu]{.trn} "the water" is in the u-state. This is because, in the absence of the doer, the [mafulb]{.subs} of the known-doer verb ([ٱَلْمَاءَ]{.ar}) is deputized to take doer's place in the u-state. It is then known as the _[naib]{.subs} doer_.
+Note that the noun [ٱَلْمَاءُ]{.ar} [EalmAEu]{.trn} "the water" is in the [ustate]{.subs}. This is because, in the absence of the doer, the [mafulb]{.subs} of the known-doer verb ([ٱَلْمَاءَ]{.ar}) is deputized to take doer's place in the [ustate]{.subs}. It is then known as the _[naib]{.subs} doer_.
 
 The doer pronouns for the [passive]{.subs} verb shall therefore match the gender and number of the [naib]{.subs} doer. Here are some examples:
 
@@ -126,7 +126,7 @@ b. Verbs that siginify an action of the heart or of intention, like thinking, de
    [جَعَلَ ٱللَّـٰهُ ٱلْمَاءَ بَرَكَةً.]{.ar}  
    "[_allAh]{.trn2} has made the water a blessing."
 
-When such verbs are converted to the [passive]{.subs} verb construction, then one, and only one, [mafulb]{.subs} shall be chosen to be the [naib]{.subs} doer. It is generally preferred to make the first [mafulb]{.subs} the [naib]{.subs}-doer, and leave the second [mafulb]{.subs}, as is, in the a-state.
+When such verbs are converted to the [passive]{.subs} verb construction, then one, and only one, [mafulb]{.subs} shall be chosen to be the [naib]{.subs} doer. It is generally preferred to make the first [mafulb]{.subs} the [naib]{.subs}-doer, and leave the second [mafulb]{.subs}, as is, in the [astate]{.subs}.
 Here are the same sentences in the [passive]{.subs} construction:
 
 [مُلِئَتِ ٱلدَّلْوُ مَاءً.]{.ar} ([دَلْو]{.ar} "bucket" is feminine.)  
@@ -164,7 +164,7 @@ Other verbs, which can take a [mafulb]{.subs}, may be used without one, and agai
 "The scribe wrote with the pen."
 
 When such sentences are converted to the [passive]{.subs} verb construction then the prepositional phrase may be taken as the [naib]{.subs} doer. 
-However, the preposition causes the noun following it to remain in the i-state. So the [naib]{.subs} doer is not indicated by an apparent [umark]{.subs} (or by the other indicators of the u-state).
+However, the preposition causes the noun following it to remain in the [istate]{.subs}. So the [naib]{.subs} doer is not indicated by an apparent [umark]{.subs} (or by the other indicators of the [ustate]{.subs}).
 The verb then appears to be in the singular masculine, with its [naib]{.subs} doer following it.
 For example:
 
@@ -196,7 +196,7 @@ For example:
 
 ### With adverbs of time or place
 
-Other verbs don't take a [mafulb]{.subs} but may be used with an adverb of time or place in the a-state. 
+Other verbs don't take a [mafulb]{.subs} but may be used with an adverb of time or place in the [astate]{.subs}. 
 (We will study adverbs of time and place in chapter\ \@ref(adverbs-of-time-and-place), if [_allAh]{.trn2} wills.)
 Here is an example:
 
@@ -213,7 +213,7 @@ Here is an example:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize a-state adverb of time};
+      node [midway, below] {\scriptsize [astate]{.subs} adverb of time};
 
 \path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The mother stayed up the Night of Power.''};
 
@@ -222,12 +222,12 @@ Here is an example:
 
 <!--[سَهَرَتِ ٱلْأُمُّ ٱللَّيلَةَ.]{.ar}  
 "The mother stayed up the (whole) night."-->
-When this sentence is converted to an [passive]{.subs} construction then the adverb of time or place can be taken as the [naib]{.subs} doer in the u-state:
+When this sentence is converted to an [passive]{.subs} construction then the adverb of time or place can be taken as the [naib]{.subs} doer in the [ustate]{.subs}:
 
 [سُهِرَتْ لَيلَةُ ٱلْقَدْرِ.]{.ar}  
 "The Night of Power was stayed up [in]."
 
-Note the u-state of [لَيْلَةُ]{.ar} [laylatu]{.trn} as the [naib]{.subs} doer.
+Note the [ustate]{.subs} of [لَيْلَةُ]{.ar} [laylatu]{.trn} as the [naib]{.subs} doer.
 
 ### With the [masdar]{.subs}
 
@@ -240,7 +240,7 @@ For example:
 "The old man understood, a deep understanding."
 
 
-When such sentences are converted to the [passive]{.subs} verb construction, then the [masdar]{.subs} may be taken as the [naib]{.subs} doer in the u-state.
+When such sentences are converted to the [passive]{.subs} verb construction, then the [masdar]{.subs} may be taken as the [naib]{.subs} doer in the [ustate]{.subs}.
 
 [فُهِمَ فَهْمٌ عَمِيقٌ.]{.ar}  
 "A deep understanding was understood."
@@ -268,7 +268,7 @@ Then only one shall be chosen as the [naib]{.subs} doer. If a [mafulb]{.subs} ex
 [سُهِرَ فِي ٱلْمَسْجِدِ لَيلَةَ ٱلْقَدْرِ.]{.ar}  
 "The mosque was stayed up in [on] the Night of Power."
 
-In the above sentence the prepositional phrase [فِي ٱلْمَسْجِدِ]{.ar} was chosen as the [naib]{.subs} doer, and the adverb of time [لَيْلَةَ]{.ar} remains, as is, in the a-state.
+In the above sentence the prepositional phrase [فِي ٱلْمَسْجِدِ]{.ar} was chosen as the [naib]{.subs} doer, and the adverb of time [لَيْلَةَ]{.ar} remains, as is, in the [astate]{.subs}.
 
 ## States of the [mudarie]{.subs} [passive]{.subs} verb
 
@@ -276,10 +276,10 @@ The
 [mudarie]{.subs} verb [passive]{.subs} verb
 has three states, just like the
 [mudarie]{.subs} verb known-doer verb:
-The u-state, the a-state, and the 0-state.
+The [ustate]{.subs}, the [astate]{.subs}, and the [0state]{.subs}.
 The three states are used in the same circumstances, and with the same rules that we have already learned.
 
-So the u-state verb is used for making plain statements:
+So the [ustate]{.subs} verb is used for making plain statements:
 
 [تُذْكَرُ قِصَّةُ ٱلْمَلِكِ فِي كُتُبِ ٱلتَّأْرِيخِ.]{.ar}  
 "The story of the king is mentioned in the books of history."
@@ -287,7 +287,7 @@ So the u-state verb is used for making plain statements:
 [لَا تُرْفَعُ ٱلْأَصْوَاتُ فِي ٱلْمَكْتَبَةِ.]{.ar}  
 "Voices are not raised in the library."
 
-The a-state verb is used for expressing wish or purpose:
+The [astate]{.subs} verb is used for expressing wish or purpose:
 
 [يَأْمُلُ ٱلْمُسْلِمُونَ أَنْ يُغْفَرُ لَهُمْ.]{.ar}  
 "The Muslims hope that they be forgiven."  
@@ -299,7 +299,7 @@ The a-state verb is used for expressing wish or purpose:
 [دُفِعَ ٱلْبَابُ حَتَّىٰ يُفْتَحَ.]{.ar}  
 "The door was pushed for the result that it open."
 
-Similarly, the 0-state verb is used in the following cases:
+Similarly, the [0state]{.subs} verb is used in the following cases:
 
 + With [لَمْ]{.ar} "was not":
   

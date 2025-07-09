@@ -11,7 +11,7 @@ There are some nouns in Arabic which are _irregular_ and behave a little differe
 There are five nouns in Arabic which are irregular in the same basic way. Collectively, they are called "the five nouns".
 They behave a little differently from regular nouns in how they display their state.
 <!--
-We have learned that regular nouns have three states: the u-state, a-state, and i-state. For singular nouns, the u-state is marked by the [umark]{.subs} [◌ُ]{.ar}, the a-state is marked by the [amark]{.subs} [◌َ]{.ar}, and the i-state is marked by the [imark]{.subs} [◌ِ]{.ar}. The [tanwin]{.subs}s [◌ٌ]{.ar}, [◌ً]{.ar} and [◌ٍ]{.ar} are only but extensions of [◌ُ]{.ar}, [◌َ]{.ar}, and [◌ِ]{.ar} respectively.
+We have learned that regular nouns have three states: the [ustate]{.subs}, [astate]{.subs}, and [istate]{.subs}. For singular nouns, the [ustate]{.subs} is marked by the [umark]{.subs} [◌ُ]{.ar}, the [astate]{.subs} is marked by the [amark]{.subs} [◌َ]{.ar}, and the [istate]{.subs} is marked by the [imark]{.subs} [◌ِ]{.ar}. The [tanwin]{.subs}s [◌ٌ]{.ar}, [◌ً]{.ar} and [◌ٍ]{.ar} are only but extensions of [◌ُ]{.ar}, [◌َ]{.ar}, and [◌ِ]{.ar} respectively.
 
 We now present the five irregular nouns that behave differently.
 -->
@@ -70,11 +70,11 @@ When these nouns are annexed to attached pronouns, then in most cases they will 
 
 [أَبُوهُ]{.ar}  
 [EabUhu]{.trn}  
-"his father" (u-state).
+"his father" ([ustate]{.subs}).
 
 [أَخَانَا]{.ar}  
 [EaxAnA]{.trn}  
-"our brother" (a-state).
+"our brother" ([astate]{.subs}).
 
 However, if the attached pronoun is [ي]{.ar} (for the singular speaker participant), then in that case, the attached pronoun [ي]{.ar} attaches to the [mudaf]{.subs} directly, without any intervening long vowel:
 
@@ -84,15 +84,15 @@ Even when the [mudafil]{.subs} in the noun-chain is an attached pronoun, these n
 
 [أَخِي]{.ar}  
 [EaxI]{.trn}  
-"my brother" (u-state, a-state, and i-state).
+"my brother" ([ustate]{.subs}, [astate]{.subs}, and [istate]{.subs}).
 
 [أَبِي]{.ar}  
 [EabI]{.trn}  
-"my father" (u-state, a-state, and i-state).
+"my father" ([ustate]{.subs}, [astate]{.subs}, and [istate]{.subs}).
 
 [حَمِي]{.ar}  
 [HamI]{.trn}  
-"my father-in-law" (u-state, a-state, and i-state).
+"my father-in-law" ([ustate]{.subs}, [astate]{.subs}, and [istate]{.subs}).
 
 Here are some more examples in sentences:
 
@@ -130,7 +130,7 @@ When these nouns form their duals and plurals, then the final root letter [و]{.
 In forming the broken plural, the final root letter [و]{.ar}, being a weak letter, sometimes converts to a [ء]{.ar}.
 The following table shows their duals and plurals.
 
-|Word | Dual (u-state) | Dual (a-state and i-state)|Plural|
+|Word | Dual ([ustate]{.subs}) | Dual ([astate]{.subs} and [istate]{.subs})|Plural|
 |:-|:--|:---|:---|
 |[أَب]{.ar} [Eab]{.trn}|[أَبَوَانِ]{.ar} [EabawAni]{.trn}|[أَبَوَيْنِ]{.ar} [Eabawayni]{.trn}|[آبَاء]{.ar} [EAbAE]{.trn}|
 |[أَخ]{.ar} [Eax]{.trn}|[أَخَوَانِ]{.ar} [EaxawAni]{.trn}|[أَخَوَيْنِ]{.ar} [Eaxawayni]{.trn}|[إِخْوَة]{.ar} [Eixwah]{.trn}, [إِخْوَان]{.ar} [EixwAn]{.trn}|
@@ -158,9 +158,9 @@ So, for example, [ذُو ٱلْمَالِ]{.ar} [pu -lmAli]{.trn} means "possess
 
 |State|Singular|Dual|Plural|
 |:--|:---|:---|:---|
-|u-state|[ذُو]{.ar} [pU]{.trn} |[ذَوَا]{.ar} [pawA]{.trn}|[ذَوُو]{.ar} [pawU]{.trn}|
-|a-state|[ذَا]{.ar} [pA]{.trn} |[ذَوَيْ]{.ar} [paway]{.trn}|[ذَوِي]{.ar} [pawI]{.trn}|
-|i-state|[ذِي]{.ar} [pI]{.trn} |same as a-state|same as a-state|
+|[ustate]{.subs}|[ذُو]{.ar} [pU]{.trn} |[ذَوَا]{.ar} [pawA]{.trn}|[ذَوُو]{.ar} [pawU]{.trn}|
+|[astate]{.subs}|[ذَا]{.ar} [pA]{.trn} |[ذَوَيْ]{.ar} [paway]{.trn}|[ذَوِي]{.ar} [pawI]{.trn}|
+|[istate]{.subs}|[ذِي]{.ar} [pI]{.trn} |same as [astate]{.subs}|same as [astate]{.subs}|
 
 The noun [ذُو]{.ar} [pU]{.trn} and its duals and plurals are only ever used as [mudaf]{.subs}s in [idafa]{.subs}s. Furthermore, they may not be annexed to pronouns. Here are some examples:
 
@@ -172,9 +172,9 @@ The word [ذَات]{.ar} is the feminine of [ذُو]{.ar}. When used as an [muda
 
 |State|Singular|Dual|Plural|
 |:--|:---|:---|:---|
-|u-state|[ذَاتُ]{.ar} [pAtu]{.trn} |[ذَوَاتَا]{.ar} [pawAtA]{.trn} |[ذَوَاتُ]{.ar} [pawAtu]{.trn}|
-|a-state|[ذَاتَ]{.ar} [pAta]{.trn} |[ذَوَاتَيْ]{.ar} [pawAtay]{.trn}|[ذَوَاتِ]{.ar} [pawAti]{.trn}|
-|i-state|[ذَاتِ]{.ar} [pAti]{.trn} |same as a-state|same as a-state|
+|[ustate]{.subs}|[ذَاتُ]{.ar} [pAtu]{.trn} |[ذَوَاتَا]{.ar} [pawAtA]{.trn} |[ذَوَاتُ]{.ar} [pawAtu]{.trn}|
+|[astate]{.subs}|[ذَاتَ]{.ar} [pAta]{.trn} |[ذَوَاتَيْ]{.ar} [pawAtay]{.trn}|[ذَوَاتِ]{.ar} [pawAti]{.trn}|
+|[istate]{.subs}|[ذَاتِ]{.ar} [pAti]{.trn} |same as [astate]{.subs}|same as [astate]{.subs}|
 
 Examples:
 
@@ -218,7 +218,7 @@ The three states of the singular [فُو]{.ar} [fU]{.trn} are shown in the table
 
 Here is how it will appear as a singular [mudaf]{.subs} in the three states:
 
-|u-state|a-state|i-state|
+|[ustate]{.subs}|[astate]{.subs}|[istate]{.subs}|
 |:---|:---|:---|
 |[فُو]{.ar} [fU]{.trn} |[فَا]{.ar} [fA]{.trn} |[فِي]{.ar} [fI]{.trn}|
 
@@ -299,7 +299,7 @@ There is no singular or dual of this noun.
 
 Here is its form in the different states:
 
-|u-state|a-and i-state|
+|[ustate]{.subs}|a-and [istate]{.subs}|
 |:---|:---|
 |[أُولُو]{.ar} [EulU]{.trn}| [أُولِي]{.ar} [EulI]{.trn}|
 
@@ -315,7 +315,7 @@ is
 [أُولَات]{.ar} [EulAt]{.trn} "women of".
 The first syllable again has a short vowel with a silent [و]{.ar}.
 
-|u-state|a-and i-state|
+|[ustate]{.subs}|a-and [istate]{.subs}|
 |:---|:---|
 |[أُولَاتُ]{.ar} [EulAtu]{.trn}| [أُولَاتِ]{.ar} [EulAti]{.trn}|
 
@@ -353,7 +353,7 @@ that a few nouns that don't denote male intelligent beings have [Un]{.trn} sound
 
 In both plurals, the singular noun is modified irregularly.
 
-|Singular |[At]{.trn} sound plural |[Un]{.trn} sound plural (u-state) |[Un]{.trn} sound plural (a- and i-states)|
+|Singular |[At]{.trn} sound plural |[Un]{.trn} sound plural ([ustate]{.subs}) |[Un]{.trn} sound plural ([astate]{.subs} and [istate]{.subs})|
 |:--|:---|:---|:---|
 |[سَنَة]{.ar} [sanah]{.trn} |[سَنَوَات]{.ar} [sanawAt]{.trn} |[سِنُونَ]{.ar} [sinUna]{.trn} |[سِنِينَ]{.ar} [sinIna]{.trn}|
 
@@ -392,7 +392,7 @@ In forming the
 [Un]{.trn} sound plural,
 the singular noun is modified irregularly:
 
-|Singular |[Un]{.trn} sound plural (u-state) |[Un]{.trn} sound plural (a- and i-states)|
+|Singular |[Un]{.trn} sound plural ([ustate]{.subs}) |[Un]{.trn} sound plural ([astate]{.subs} and [istate]{.subs})|
 |:--|:---|:---|
 |[ٱِبْن]{.ar} [Eibn]{.trn} |[بَنُونَ]{.ar} [banUna]{.trn} |[بَنِينَ]{.ar} [banIna]{.trn} |
 
@@ -405,7 +405,7 @@ form the irregular [At]{.trn} sound plural
 [بَنَات]{.trn} [banAt]{.trn} "daughters".
 Note that 
 [بَنَات]{.ar} [banAt]{.trn}
-is not a broken plural from the root [بنت]{.ar}. Therefore, it obeys the rules of [At]{.trn} sound plurals and does not end with [◌َ]{.ar} or [◌ً]{.ar} in the a-state.
+is not a broken plural from the root [بنت]{.ar}. Therefore, it obeys the rules of [At]{.trn} sound plurals and does not end with [◌َ]{.ar} or [◌ً]{.ar} in the [astate]{.subs}.
 
 Here are some examples using these nouns:
 
@@ -467,9 +467,9 @@ When [ٱَلْ]{.ar} is prefixed to these nouns to make them definite, they lose
 
 State         | Definite of [ٱِمْرَأ]{.ar}     | Definite of [ٱِمْرَأَة]{.ar}
 :-------------|:----------------------------|:----------------------------
-u-state       |[ٱَلْمَرْءُ]{.ar} [EalmarEu]{.trn}|[ٱَلْمَرْأَةُ]{.ar} [EalmarEatu]{.trn}
-a-state       |[ٱَلْمَرْءَ]{.ar} [EalmarEa]{.trn}|[ٱَلْمَرْأَةَ]{.ar} [EalmarEata]{.trn}
-i-state       |[ٱَلْمَرْءِ]{.ar} [EalmarEi]{.trn}|[ٱَلْمَرْأَةِ]{.ar} [EalmarEati]{.trn}
+[ustate]{.subs}       |[ٱَلْمَرْءُ]{.ar} [EalmarEu]{.trn}|[ٱَلْمَرْأَةُ]{.ar} [EalmarEatu]{.trn}
+[astate]{.subs}       |[ٱَلْمَرْءَ]{.ar} [EalmarEa]{.trn}|[ٱَلْمَرْأَةَ]{.ar} [EalmarEata]{.trn}
+[istate]{.subs}       |[ٱَلْمَرْءِ]{.ar} [EalmarEi]{.trn}|[ٱَلْمَرْأَةِ]{.ar} [EalmarEati]{.trn}
 
 The masculine noun
 [ٱِمْرَأ]{.ar} [EimraE]{.trn}
@@ -482,9 +482,9 @@ This table shows what we mean:
 
 State         | Regular indefinite (less common) | Irregular indefinite (more common)
 :-------------|:-----------------|:--------------
-u-state       |[ٱِمْرَأٌ]{.ar} [EimraEun]{.trn} |[ٱِمْرُؤٌ]{.ar} [EimruEun]{.trn}
-a-state       |[ٱِمْرَءًا]{.ar} [EimraEan]{.trn}|[ٱِمْرَءًا]{.ar} [EimraEan]{.trn}
-i-state       |[ٱِمْرَأٍ]{.ar} [EimraEin]{.trn} |[ٱِمْرِئٍ]{.ar} [EimriEin]{.trn}
+[ustate]{.subs}       |[ٱِمْرَأٌ]{.ar} [EimraEun]{.trn} |[ٱِمْرُؤٌ]{.ar} [EimruEun]{.trn}
+[astate]{.subs}       |[ٱِمْرَءًا]{.ar} [EimraEan]{.trn}|[ٱِمْرَءًا]{.ar} [EimraEan]{.trn}
+[istate]{.subs}       |[ٱِمْرَأٍ]{.ar} [EimraEin]{.trn} |[ٱِمْرِئٍ]{.ar} [EimriEin]{.trn}
 
 Here are some examples of these nouns:
 

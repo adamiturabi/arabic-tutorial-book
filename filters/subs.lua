@@ -7,6 +7,12 @@ local map_table = {}
 -- phrases
 map_table["ia"] = {"if Allāh wills", nil}
 
+-- states
+map_table["ustate"] = {"raised state", nil}
+map_table["astate"] = {"standing state", nil}
+map_table["istate"] = {"lowered state", nil}
+map_table["0state"] = {"cut state", nil}
+
 -- diacritics
 map_table["amark"] = {"fatHah", "trn2"}
 map_table["imark"] = {"kasrah", "trn2"}

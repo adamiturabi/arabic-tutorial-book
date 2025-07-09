@@ -4,7 +4,7 @@
 
 ## Introduction
 
-In the basic [mubtada]{.subs}-[xabar]{.subs} sentence, both the [mubtada]{.subs} and the [xabar]{.subs} are in the u-state. For example:
+In the basic [mubtada]{.subs}-[xabar]{.subs} sentence, both the [mubtada]{.subs} and the [xabar]{.subs} are in the [ustate]{.subs}. For example:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -32,15 +32,15 @@ In the basic [mubtada]{.subs}-[xabar]{.subs} sentence, both the [mubtada]{.subs}
 
 "This man is a teacher."
 
-In the above sentence both the [mubtada]{.subs} [ٱَلرَّجُلَ]{.ar} "the man", and the [xabar]{.subs} [مُعَلِّمٌ]{.ar} "a teacher" are in the u-state. In this chapter we will study a family of particles, called
+In the above sentence both the [mubtada]{.subs} [ٱَلرَّجُلَ]{.ar} "the man", and the [xabar]{.subs} [مُعَلِّمٌ]{.ar} "a teacher" are in the [ustate]{.subs}. In this chapter we will study a family of particles, called
 [إِنَّ]{.ar} and its sisters,
-that modify the [mubtada]{.subs}-[xabar]{.subs} sentence by placing the [mubtada]{.subs} in the a-state instead of the u-state. For example,
+that modify the [mubtada]{.subs}-[xabar]{.subs} sentence by placing the [mubtada]{.subs} in the [astate]{.subs} instead of the [ustate]{.subs}. For example,
 
 [إِنَّ ٱلرَّجُلَ مُعَلِّمٌ.]{.ar}  
 [Einna -rrajula mueallimun.]{.trn}  
 "Indeed the man is a teacher."
 
-Note how, in the above example, the [mubtada]{.subs} [ٱَلرَّجُلَ]{.ar} "the man" is now in the a-state. The [xabar]{.subs} [مُعَلِّمٌ]{.ar} "a teacher" remains in the u-state. 
+Note how, in the above example, the [mubtada]{.subs} [ٱَلرَّجُلَ]{.ar} "the man" is now in the [astate]{.subs}. The [xabar]{.subs} [مُعَلِّمٌ]{.ar} "a teacher" remains in the [ustate]{.subs}. 
 
 The particles constituting the family of 
 [إِنَّ]{.ar} and its sisters
@@ -73,17 +73,17 @@ may be preceded by other particles like [وَ]{.ar} "and", [فَ]{.ar} "so", and
 
 The [ismof]{.subs} of
 [إِنَّ]{.ar} [Einna]{.trn} 
-may be a noun phrase, in which case, any [naat]{.subs}s or replacements of the [ismof]{.subs} are also in the a-state. Examples:
+may be a noun phrase, in which case, any [naat]{.subs}s or replacements of the [ismof]{.subs} are also in the [astate]{.subs}. Examples:
 
 [إِنَّ هَـٰؤُلَاءِ ٱلرِّجَالَ ٱلْكِرَامَ أَصْدِقَائِي.]{.ar}  
 "Indeed these noble men are my friends."
 
-[إِنَّ]{.ar} [Einna]{.trn} may have multiple [ismof]{.subs}s, each in the a-state, separated by [وَ]{.ar}. Example,
+[إِنَّ]{.ar} [Einna]{.trn} may have multiple [ismof]{.subs}s, each in the [astate]{.subs}, separated by [وَ]{.ar}. Example,
 
 [إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَاتِ يَعْبُدُونَ ٱللَّـٰهَ.]{.ar}  
 "Indeed the Muslim men and Muslim women worship [_allAh]{.trn2}."
 
-If the [xabar]{.subs} of the first [ismof]{.subs} has been mentioned before the second [ismof]{.subs}, then the second [ismof]{.subs} may optionally be in the a-state or the u-state. For example:
+If the [xabar]{.subs} of the first [ismof]{.subs} has been mentioned before the second [ismof]{.subs}, then the second [ismof]{.subs} may optionally be in the [astate]{.subs} or the [ustate]{.subs}. For example:
 
 [إِنَّ زَيْدًا جَالِسٌ وَعَمْرًا.]{.ar}  
 or  
@@ -102,7 +102,7 @@ or
 
 Note that in all the above examples that
 [إِنَّ]{.ar} [Einna]{.trn} is only used to begin [mubtada]{.subs}-[xabar]{.subs} sentences. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.).
-By default, the [ismof]{.subs} of [إِنَّ]{.ar} [Einna]{.trn} must directly follow it with no intervening words or particles. The only exception is when the [xabar]{.subs} consists of a prepositional or adverbial phrase, it is then allowed to precede the [ismof]{.subs}. The [ismof]{.subs}, in any case, shall be in the a-state. For example,
+By default, the [ismof]{.subs} of [إِنَّ]{.ar} [Einna]{.trn} must directly follow it with no intervening words or particles. The only exception is when the [xabar]{.subs} consists of a prepositional or adverbial phrase, it is then allowed to precede the [ismof]{.subs}. The [ismof]{.subs}, in any case, shall be in the [astate]{.subs}. For example,
 
 [إِنَّ فِي ٱلْبَيْتِ رَجُلًا.]{.ar}  
 "Indeed, in the house, is a man."
@@ -188,7 +188,7 @@ The strengthening particle [لَ]{.ar} is only used with [إِنَّ]{.ar} and n
 
 Unless otherwise noted, the rules we have presented above for 
 [إِنَّ]{.ar},
-for example, the [ismof]{.subs} being in the a-state, the order of the [ismof]{.subs} and the [xabar]{.subs}, the use of attached pronouns for the [ismof]{.subs}, etc.,
+for example, the [ismof]{.subs} being in the [astate]{.subs}, the order of the [ismof]{.subs} and the [xabar]{.subs}, the use of attached pronouns for the [ismof]{.subs}, etc.,
 apply also to its other sisters. 
 
 The strengthening particle [لَ]{.ar}, as mentioned above, is only used with [إِنَّ]{.ar} and not for any of its other sisters.
@@ -388,9 +388,9 @@ Now, the [أَنَّ]{.ar} clause as the [ismof]{.subs}:
 
 Note that in the latter case, the [xabar]{.subs} precedes the [ismof]{.subs}.
 
-### The [أَنَّ]{.ar} clause in place of an i-state noun
+### The [أَنَّ]{.ar} clause in place of an [istate]{.subs} noun
 
-The [أَنَّ]{.ar} clause can occur in place of an i-state [mudafil]{.subs} in an [idafa]{.subs}. Example:
+The [أَنَّ]{.ar} clause can occur in place of an [istate]{.subs} [mudafil]{.subs} in an [idafa]{.subs}. Example:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -414,7 +414,7 @@ The [أَنَّ]{.ar} clause can occur in place of an i-state [mudafil]{.subs} i
 
 "The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous."
 
-The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly following a preposition. Example:
+The [أَنَّ]{.ar} clause can occur in place of an [istate]{.subs}  noun directly following a preposition. Example:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -429,7 +429,7 @@ The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly fol
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize i-state after preposition};
+      node [midway, below] {\scriptsize [istate]{.subs} after preposition};
 
 %\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``The truth is that he went.''};
 
@@ -484,7 +484,7 @@ is equivalent to the verbal noun phrase [كَرَامَتِهِ]{.ar} "his gener
 "His generosity is from his characteristics."
 
 This grammatical equivalence is more a matter of theory than of practical usefulness to us.
-And you have seen this grammatical equivalence before with [أَنْ]{.ar} and a-state [mudarie]{.subs} verbs in chanpter\ \@ref(a-state-[mudarie]{.subs}-verbs-verbal-noun).
+And you have seen this grammatical equivalence before with [أَنْ]{.ar} and [astate]{.subs} [mudarie]{.subs} verbs in chanpter\ \@ref([astate]{.subs}-[mudarie]{.subs}-verbs-verbal-noun).
 
 ## [كَأَنَّ]{.ar} [kaEanna]{.trn}
 
@@ -654,7 +654,7 @@ The lightened
 [إِنْ]{.ar}
 can be used in either of the following ways:
 
- i. With the same rules as the heavy [إِنَّ]{.ar}. The [ismof]{.subs} is put in the a-state and the use of the strengthening [لَ]{.ar} is optional. For example,
+ i. With the same rules as the heavy [إِنَّ]{.ar}. The [ismof]{.subs} is put in the [astate]{.subs} and the use of the strengthening [لَ]{.ar} is optional. For example,
 
     [إِنْ زَيْدًا مُسْلِمٌ.]{.ar}  
     or  
@@ -664,7 +664,7 @@ can be used in either of the following ways:
     However, this method is not as common as the second way (below):
 
 
-ii. The [ismof]{.subs} is not put in the a-state but is rather in the u-state.
+ii. The [ismof]{.subs} is not put in the [astate]{.subs} but is rather in the [ustate]{.subs}.
     However, the strengthening [لَ]{.ar} (see section\ \@ref(inna-strengthening-la) above), that was optional with the heavy [إِنَّ]{.ar}, is now mandatory with the lightened [إِنْ]{.ar}. For example,
 
     [إِنْ زَيْدٌ لَمُسْلِمٌ.]{.ar}  
@@ -691,7 +691,7 @@ The second, less common way, of using
 the lightened [إِنْ]{.ar}
 is following the same rules as the 
 the heavy [إِنَّ]{.ar}.
-Where the [ismof]{.subs} is in the a-state and the use of the strengthening [لَ]{.ar} is optional. For example,
+Where the [ismof]{.subs} is in the [astate]{.subs} and the use of the strengthening [لَ]{.ar} is optional. For example,
 
 [إِنْ زَيْدًا مُسْلِمٌ.]{.ar}  
 "Indeed Zayd is a Muslim."
@@ -764,7 +764,7 @@ is a verbal sentence, then it is  preferred to separate the verb from [أَنْ]
    [أَعْلَمُ أَنْ لَا يَذْهَبُ.]{.ar}  
    "I know that he does/will not go."
 
-   Note that, in writing, we have not combined the lightened [أَنْ]{.ar} and [لَا]{.ar} to form [أَلَّا]{.ar}, as is done for the a-state-verbal [أَنْ]{.ar} (for example: [أَلَّا يَذْهَبَ]{.ar} "that he not go") in chapter\ \@ref(chapter-a-state-[mudarie]{.subs}-verbs). This distinction in spelling is not obligatory, but some authorities recommend it. In any case, they are both pronounced the same: [EallA]{.trn}. <!--al nahw al wafi 4/298, cited by Arik Sadan p.30 -->
+   Note that, in writing, we have not combined the lightened [أَنْ]{.ar} and [لَا]{.ar} to form [أَلَّا]{.ar}, as is done for the [astate]{.subs}-verbal [أَنْ]{.ar} (for example: [أَلَّا يَذْهَبَ]{.ar} "that he not go") in chapter\ \@ref(chapter-[astate]{.subs}-[mudarie]{.subs}-verbs). This distinction in spelling is not obligatory, but some authorities recommend it. In any case, they are both pronounced the same: [EallA]{.trn}. <!--al nahw al wafi 4/298, cited by Arik Sadan p.30 -->
 
    More examples:
 
@@ -774,7 +774,7 @@ is a verbal sentence, then it is  preferred to separate the verb from [أَنْ]
    [أَعْلَمُ أَنْ لَمْ يَذْهَبْ.]{.ar}  
    "I know that he did not go."
 
-   Note that the [لَنْ]{.ar} and [لَمْ]{.ar}, even when after the lightened [أَنْ]{.ar}, change the state of the following [mudarie]{.subs} verb to the a-state and 0-state respectively.
+   Note that the [لَنْ]{.ar} and [لَمْ]{.ar}, even when after the lightened [أَنْ]{.ar}, change the state of the following [mudarie]{.subs} verb to the [astate]{.subs} and [0state]{.subs} respectively.
 
 4. The conditional particle [لَوْ]{.ar}. We will study conditional sentences in chapter\ \@ref(conditional-sentences). TODO: add example.
 
@@ -783,13 +783,13 @@ Rigid verbs like [لَيْسَ]{.ar} and verbs expressing supplications are exem
 [ظَنَنْتُ أَنْ لَيْسَ ٱلْبَرْدُ شَدِيدًا.]{.ar}  
 "I thought that the cold is not intense."
 
-#### Distinguishing between the lightened [أَنْ]{.ar} and the a-state-verbal [أَنْ]{.ar} 
+#### Distinguishing between the lightened [أَنْ]{.ar} and the [astate]{.subs}-verbal [أَنْ]{.ar} 
 
 Although they are similar in meaning,
-care must be taken to distinguish between this lightened [أَنْ]{.ar} and the a-state-verbal [أَنْ]{.ar} 
-(that we learned in chapter\ \@ref(chapter-a-state-[mudarie]{.subs}-verbs)),
-The a-state-verbal [أَنْ]{.ar} puts the following [mudarie]{.subs} verb in the a-state.
-Whereas the [mudarie]{.subs} verb directly after the lightened [أَنْ]{.ar} remains in the u-state.
+care must be taken to distinguish between this lightened [أَنْ]{.ar} and the [astate]{.subs}-verbal [أَنْ]{.ar} 
+(that we learned in chapter\ \@ref(chapter-[astate]{.subs}-[mudarie]{.subs}-verbs)),
+The [astate]{.subs}-verbal [أَنْ]{.ar} puts the following [mudarie]{.subs} verb in the [astate]{.subs}.
+Whereas the [mudarie]{.subs} verb directly after the lightened [أَنْ]{.ar} remains in the [ustate]{.subs}.
 The following guidelines can help to distinguish  between these two [أَنْ]{.ar}s:
 
 + If the verb before [أَنْ]{.ar} signifies certainty then only [أَنَّ]{.ar} and its lightened version [أَنْ]{.ar} is used. For example,
@@ -797,16 +797,16 @@ The following guidelines can help to distinguish  between these two [أَنْ]{.
   [أَعْلَمُ أَنْ قَدْ ذَهَبَ وَأَنْ سَيَرْجِعُ.]{.ar}  
   "I know that he has gone and that he will return."
 
-+ If the verb before [أَنْ]{.ar} signifies wanting, hoping, or expecting, then the [أَنْ]{.ar} puts the following verb in the a-state. For example,
++ If the verb before [أَنْ]{.ar} signifies wanting, hoping, or expecting, then the [أَنْ]{.ar} puts the following verb in the [astate]{.subs}. For example,
 
   [أَطْمَعُ أَلَّا يَذْهَبَ.]{.ar}  
   "I hope that he not go."
 
-  Note that the verb [يَذْهَبَ]{.ar} is in the a-state.
+  Note that the verb [يَذْهَبَ]{.ar} is in the [astate]{.subs}.
 
 + If the verb before [أَنْ]{.ar} reflects a view of something going to occur, and signifies neither certainty nor expectation, but rather doubt or neutrality, then either of the [أَنْ]{.ar}s may be used, depending on the intended meaning. Such verbs include [ظَنَّ يَظُنُّ]{.ar} "to think" and [حَسِبَ يَحْسِبُ]{.ar} "to deem". For example,
 
-  a-state-verbal [أَنْ]{.ar}:  
+  [astate]{.subs}-verbal [أَنْ]{.ar}:  
   [ظَنَنْتُ أَنْ يَرْجِعَ.]{.ar}  
   "I thought that he should return."  
 
@@ -814,12 +814,12 @@ The following guidelines can help to distinguish  between these two [أَنْ]{.
   [ظَنَنْتُ أَنْ يَرْجِعُ.]{.ar}  
   "I thought that he will return."
 
-+ If the verb before [أَنْ]{.ar} does not reflect a view of something going to occur then the [أَنْ]{.ar} is typically the a-state-verbal [أَنْ]{.ar}. For example,
++ If the verb before [أَنْ]{.ar} does not reflect a view of something going to occur then the [أَنْ]{.ar} is typically the [astate]{.subs}-verbal [أَنْ]{.ar}. For example,
 
   [سَرَّنِي أَنْ تَنْجَحَ]{.ar}  
   "That you succeed [will have] gladdened me."
 
-  Remember from chapter\ \@ref(chapter-a-state-[mudarie]{.subs}-verbs)), that the a-state-verbal [أَنْ]{.ar} can occur with [madi]{.subs} verbs as well. Example:
+  Remember from chapter\ \@ref(chapter-[astate]{.subs}-[mudarie]{.subs}-verbs)), that the [astate]{.subs}-verbal [أَنْ]{.ar} can occur with [madi]{.subs} verbs as well. Example:
 
   [سَرَّنِي أَنْ نَجَحْتَ]{.ar}  
   "That you have succeeded [has] gladdened me."
