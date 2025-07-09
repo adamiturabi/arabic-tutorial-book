@@ -15,7 +15,7 @@ In English we usually use adjectives to describe nouns. For example, the word "b
 
    "a big car"
 
-2. The adjective "big" can also be used as the information of a sentence, describing the subject noun. For example:
+2. The adjective "big" can also be used as the ;xabar; of a sentence, describing the subject noun. For example:
 
    "The car is big."
 
@@ -60,7 +60,7 @@ ii. The common noun "a car": It is being described by the describer. We will cal
 
 We will reserve this terminology of _describer_ and _describee_ only for the noun and adjective in an descriptive noun-phrase. So we won't use this terminology for the sentence: "The car is big."
 
-Instead, here we will continue to use the existing terminology of _subject_ and _information_. The definite noun "the car" is the subject of this sentence, and the adjective "big" is the information.
+Instead, here we will continue to use the existing terminology of _subject_ and _;xabar;_. The definite noun "the car" is the subject of this sentence, and the adjective "big" is the ;xabar;.
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -79,7 +79,7 @@ Instead, here we will continue to use the existing terminology of _subject_ and 
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-4.south west) -- (word-4.south east)
-      node [midway, below=0.5ex] {\scriptsize information};
+      node [midway, below=0.5ex] {\scriptsize comment};
 
 \end{tikzpicture}
 ```
@@ -95,7 +95,7 @@ It can be used just like an adjective to describe a noun as part of a noun-phras
 
 In the above sentence the adjective "antique" is a describer and is describing the noun "table".
 
-It can also be used as the information of a sentence, just like an adjective. For example:
+It can also be used as the ;xabar; of a sentence, just like an adjective. For example:
 
 "The table is antique."
 
@@ -259,11 +259,11 @@ If such a noun is a describee, then we will prefer to match the describer to the
 
 See how we preferred to use the masculine adjectival noun [طَيِّب]{.ar} [Tayyib]{.trn} instead of using the feminine [طَيِّبَة]{.ar} [Tayyibah]{.trn}.
 
-## Adjectival nouns as the information of a sentence
+## Adjectival nouns as the ;xabar; of a sentence
 
 ### Indefinite adjectival noun
 
-Let's see how to use Arabic adjectival nouns as the information of a sentence.
+Let's see how to use Arabic adjectival nouns as the ;xabar; of a sentence.
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -278,7 +278,7 @@ Let's see how to use Arabic adjectival nouns as the information of a sentence.
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize information};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize comment};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
@@ -297,9 +297,9 @@ Let's see how to use Arabic adjectival nouns as the information of a sentence.
 
 In the above sentence, the indefinite adjectival noun 
 [صَغِير]{.ar} [SagIr]{.trn} "a small one"
-is used as the information of a sentence. Its indefiniteness and u-state is indicated by the ;tanwin;ed ;umark; [◌ٌ]{.ar} on its end.
+is used as the ;xabar; of a sentence. Its indefiniteness and u-state is indicated by the ;tanwin;ed ;umark; [◌ٌ]{.ar} on its end.
 
-When an adjectival noun is the information of a sentence, then it shall be genderized to match the gender of the subject noun. The subject noun in this case ([ٱَلْبَيْت]{.ar}) is masculine. Therefore, the masculine adjectival noun ([صَغِير]{.ar}) is chosen.
+When an adjectival noun is the ;xabar; of a sentence, then it shall be genderized to match the gender of the subject noun. The subject noun in this case ([ٱَلْبَيْت]{.ar}) is masculine. Therefore, the masculine adjectival noun ([صَغِير]{.ar}) is chosen.
 
 Technically, the translation of this sentence is "The house is a small one."
 However, because Arabic has only adjectival nouns and not adjectives, it is how we can express the English sentence "The house is small." Therefore we can also translate it into English as such.
@@ -316,17 +316,17 @@ and used the feminine adjectival noun in the sentence.
 
 ### Definite adjectival noun
 
-Let's see if a definite adjectival noun can be used in the information. For example, we would like to say "The old tree is the big one."
+Let's see if a definite adjectival noun can be used in the ;xabar;. For example, we would like to say "The old tree is the big one."
 
 The subject of the sentence is [ٱَلشَّجَرَةُ ٱلْقَدِيمَةُ]{.ar} [Eaccajaratu -lqadImuiatu]{.trn} "the old tree".
-And the information is [ٱلْكَبِيرَةُ]{.ar} [EalkabIratu]{.trn} "the big one". When we put the two together we get:
+And the ;xabar; is [ٱلْكَبِيرَةُ]{.ar} [EalkabIratu]{.trn} "the big one". When we put the two together we get:
 
 [ٱَلشَّجَرَةُ ٱلْقَدِيمَةُ ٱلْكَبِيرَةُ]{.ar}  
 [Eaccajaratu -lqadImatu -lkabIratu]{.trn}
 
 The problem is that the above could also be interpreted as one phrase "the big old tree", and not as the complete sentence "The old tree is the big one." This is the same problem that we highlighted in section\ \@ref(chap-smp-sent-sec-def-info).
 
-The solution, too, is the same. We insert a detached pronoun, that matches the gender of the subject, between the subject and the information. So in order to get our intended meaning, we will say:
+The solution, too, is the same. We insert a detached pronoun, that matches the gender of the subject, between the subject and the ;xabar;. So in order to get our intended meaning, we will say:
 
 [ٱَلشَّجَرَةُ ٱلْقَدِيمَةُ هِيَ ٱلْكَبِيرَةُ.]{.ar}  
 [Eaccajaratu -lqadImatu hiya -lkabIratu.]{.trn}  
@@ -374,8 +374,8 @@ For example, the feminine adjectival noun [حَسَنَة]{.ar} [Hasanah]{.trn} 
 "Fasting is a good deed."
 
 The subject in this sentence is the masculine noun [ٱَلصِّيَام]{.ar} [EaSSiyAm]{.trn} "fasting". 
-And the information is the feminine noun [حَسَنَة]{.ar} [Hasanah]{.trn} "a good deed".
-Note that the information does not match the subject in gender. This is because it lost its genderizability since it is no longer acting as an adjectival noun "a good one~f~", but rather as the common noun "a good deed".
+And the ;xabar; is the feminine noun [حَسَنَة]{.ar} [Hasanah]{.trn} "a good deed".
+Note that the ;xabar; does not match the subject in gender. This is because it lost its genderizability since it is no longer acting as an adjectival noun "a good one~f~", but rather as the common noun "a good deed".
 
 What if we have the sentence:
 
@@ -384,13 +384,13 @@ What if we have the sentence:
 
 The feminine gender of the subject 
 [ٱَلصَّدَقَة.]{.ar} 
-[EaSSadaqah]{.trn} "charity" now matches the gender of the information
+[EaSSadaqah]{.trn} "charity" now matches the gender of the ;xabar;
 [حَسَنَة]{.ar} [Hasanah]{.trn}.
-So now, technically, the information could be the adjectival noun, meaning "a good one~f~". So the sentence could mean:
+So now, technically, the ;xabar; could be the adjectival noun, meaning "a good one~f~". So the sentence could mean:
 
 "Charity is good."
 
-Or the information could be the common noun, meaning "a good deed". Then the sentence would mean:
+Or the ;xabar; could be the common noun, meaning "a good deed". Then the sentence would mean:
 
 "Charity is a good deed."
 

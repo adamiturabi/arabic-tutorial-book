@@ -3,20 +3,20 @@
 ## Introduction
 
 We have learned that a verb must have a ;fail; in the u-state and can have a ;mafulb; in the a-state.
-In this chapter, we will learn about a new type of verb, whose ;fail; is called its subject, and whose ;mafulb; is called its information.
+In this chapter, we will learn about a new type of verb, whose ;fail; is called its ;ismof;, and whose ;mafulb; is called its ;xabar;.
 
 The principal verb of this type is [كَانَ]{.ar} which is used to mean "was". There are other verbs which behave in a similar manner and they are called the _sisters_ of [كَانَ]{.ar}.
 
-## [كَانَ]{.ar}, its subject, and its information
+## [كَانَ]{.ar}, its ;ismof;, and its ;xabar;
 
 Consider the sentence:
 
 [ٱلرَّجُلُ مُعَلِّمٌ.]{.ar}  
 "The man is a teacher."
 
-This is a subject-information sentence. 
-[ٱلرَّجُلُ]{.ar} is the subject in the u-state, and
-[مُعَلِّمٌ]{.ar} is the information, also in the u-state.
+This is a ;mubtada;-;xabar; sentence. 
+[ٱلرَّجُلُ]{.ar} is the ;mubtada; in the u-state, and
+[مُعَلِّمٌ]{.ar} is the ;xabar;, also in the u-state.
 Arabic does not, in this case, express any word for "is".
 
 Consider now the following sentence:
@@ -40,7 +40,7 @@ Consider now the following sentence:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex, align=left] {\scriptsize ;mafulb;/\\\scriptsize information};
+      node [midway, rotate=90, anchor=south, left=0ex, align=left] {\scriptsize ;mafulb;/\\\scriptsize comment};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
@@ -79,17 +79,17 @@ and its ;mafulb;, [مُعَلِّمًا]{.ar}, is in the a-state.
 
 However, unlike most other verbs,
 the ;fail; of [كَانَ]{.ar},
-[ٱلرَّجُلُ]{.ar}, is also called its subject
-and its ;mafulb;, [مُعَلِّمًا]{.ar}, is also called its information.
+[ٱلرَّجُلُ]{.ar}, is also called its ;ismof;
+and its ;mafulb;, [مُعَلِّمًا]{.ar}, is also called its ;xabar;.
 
-So a sentence with [كَانَ]{.ar} used in this way is a subject-information sentence.
+So a sentence with [كَانَ]{.ar} used in this way is a ;mubtada;-;xabar; sentence.
 If it begins with [كَانَ]{.ar} then it is also a verbal sentence at the same time.
 
 This property also applies to the sisters of [كَانَ]{.ar} that we will learn later in this chapter. 
-Together, these verbs are also called _deficient_ verbs, because, besides their ;fail;/subject, they also need an information to complete the meaning of the sentence.
-That is, without the information, the sentence is deficient.
+Together, these verbs are also called _deficient_ verbs, because, besides their ;fail;/;ismof;, they also need an ;xabar; to complete the meaning of the sentence.
+That is, without the ;xabar;, the sentence is deficient.
 
-"Is" subject-information sentences can be converted to "was" subject-information sentences using the verb [كَانَ]{.ar}. Here are some examples:
+"Is" ;mubtada;-;xabar; sentences can be converted to "was" ;ismof;-;xabar; sentences using the verb [كَانَ]{.ar}. Here are some examples:
 
 | "is" | "was" |
 |:-|:-|
@@ -106,22 +106,22 @@ That is, without the information, the sentence is deficient.
 | [أَنْتَ لِي أَخٌ.]{.ar}               | [كُنْتَ لِي أَخًا.]{.ar}            |
 | "You~1m~ are a brother to me.   | "You~1m~ were a brother to me.|
 
-### Sequence of [كَانَ]{.ar}, its subject, and its information
+### Sequence of [كَانَ]{.ar}, its ;ismof;, and its ;xabar;
 
 In sentence word order, the natural sequence is 
-verb, subject, information.
+verb, ;ismof;, ;xabar;.
 
 [كَانَ زَيْدٌ قَائِمًا.]{.ar}
 [Wright, vol.\ ii, §41, rem.\ a, p.\ 100B]{.aside}  
 "Zayd was standing."
 
-but we may also, for the same meaning, apply the sequence verb, information, subject:
+but we may also, for the same meaning, apply the sequence verb, ;xabar;, ;ismof;:
 
 [كَانَ قَائِمًا زَيْدٌ.]{.ar}
 [Wright, vol.\ ii, §41, rem.\ a, p.\ 100B]{.aside}  
 "Zayd was standing."
 
-and also the sequence information, verb, subject:
+and also the sequence ;xabar;, verb, ;ismof;:
 
 [قَائِمًا كَانَ زَيْدٌ.]{.ar}
 [Wright, vol.\ ii, §41, rem.\ a, p.\ 100B]{.aside}  
@@ -157,16 +157,16 @@ The following apparent sequence is also possible:
 [زَيْدٌ كَانَ قَائِمًا.]{.ar}  
 "Zayd: he was standing."
 
-But this is actually a topic-comment sentence.
-[زَيْدٌ]{.ar} is the topic.
-And the comment is [كَانَ قَائِمًا]{.ar}, which is itself a [كَانَ]{.ar} subject-information sentence in the sequence verb, subject, information.
-The subject is the hidden pronoun "he" and the information is [قَائِمًا]{.ar}.
+But this is actually a ;mubtada;-;xabar; sentence.
+[زَيْدٌ]{.ar} is the ;mubtada;.
+And the ;xabar; is [كَانَ قَائِمًا]{.ar}, which is itself a [كَانَ]{.ar} ;ismof;-;xabar; sentence in the sequence verb, ;ismof;, ;xabar;.
+The ;ismof; is the hidden pronoun "he" and the ;xabar; is [قَائِمًا]{.ar}.
 
 ### Plurals of non-rational beings with [كَانَ]{.ar}
 
-Because [كَانَ]{.ar} sentences are subject-information being sentences, 
-many of the rules that we have learned for subject-information sentences also apply to [كَانَ]{.ar} sentences.
-One such rule is that when the subject of a sentence is a plural of non-rational beings, and the information is a adjectival noun, then the feminine singular adjectival noun is often used. (See section\ \@ref(usage-of-plurals-of-non-intelligent-beings).)
+Because [كَانَ]{.ar} sentences are ;mubtada;-;xabar; being sentences, 
+many of the rules that we have learned for ;mubtada;-;xabar; sentences also apply to [كَانَ]{.ar} sentences.
+One such rule is that when the ;mubtada; of a sentence is a plural of non-rational beings, and the ;xabar; is a adjectival noun, then the feminine singular adjectival noun is often used. (See section\ \@ref(usage-of-plurals-of-non-intelligent-beings).)
 For example:
 
 [كَانَتِ ٱلْبُيُوتُ صَغِيرَةً.]{.ar} (typical)  
@@ -185,21 +185,21 @@ Also allowed, but not as common:
 
 ### [كَانَ]{.ar} with a separating pronoun
 
-Another rule that applies to subject-information sentences, and that carries over to 
+Another rule that applies to ;mubtada;-;xabar; sentences, and that carries over to 
 [كَانَ]{.ar} sentences, is that
-when the subject and information are both definite, 
-then a separating pronoun, which is a detached pronoun that matches the subject, can be inserted between them.
+when the ;ismof; and ;xabar; are both definite, 
+then a separating pronoun, which is a detached pronoun that matches the ;ismof;, can be inserted between them.
 For example,
 
 [كَانَ ٱلْمُؤْمِنُونَ هُمُ ٱلْفَائِزِينَ.]{.ar}  
 "The believers were the winners."
 
-The separating pronoun [هُمْ]{.ar} does not, in this case, serve to disambiguate the information [ٱلْفَائزِينَ]{.ar} "the winners", from being a describer, as it did in sentences without [كَانَ]{.ar} (see section\ \@ref(subject-information-sentences-separating-pronoun)).
-This is because the a-state of [ٱلْفَائزِينَ]{.ar} already tells us that it is the information of [كَانَ]{.ar}. 
-If [ٱلْفَائزِينَ]{.ar} were a describer of the u-state subject [ٱَلْمُوْمِنُونَ]{.ar}, then it too would be in the u-state, not the a-state.
-So the separating pronoun serves more, here, to emphasize the subject.
+The separating pronoun [هُمْ]{.ar} does not, in this case, serve to disambiguate the ;xabar; [ٱلْفَائزِينَ]{.ar} "the winners", from being a describer, as it did in sentences without [كَانَ]{.ar} (see section\ \@ref(;ismof;-;xabar;-sentences-separating-pronoun)).
+This is because the a-state of [ٱلْفَائزِينَ]{.ar} already tells us that it is the ;xabar; of [كَانَ]{.ar}. 
+If [ٱلْفَائزِينَ]{.ar} were a describer of the u-state ;ismof; [ٱَلْمُوْمِنُونَ]{.ar}, then it too would be in the u-state, not the a-state.
+So the separating pronoun serves more, here, to emphasize the ;ismof;.
 
-Most of the time, separating pronouns are used in [كَانَ]{.ar} sentences when the subject of [كَانَ]{.ar} is itself a pronoun. Examples:
+Most of the time, separating pronouns are used in [كَانَ]{.ar} sentences when the ;ismof; of [كَانَ]{.ar} is itself a pronoun. Examples:
 
 [وَكُنَّا نَحْنُ ٱلْوَارِثِينَ]{.ar}
 [<https://quran.com/28:58>]{.aside}  
@@ -214,10 +214,10 @@ Sometimes a pronoun may appear to be a separating pronoun, but actually is not o
 [كَانَ ٱلْمُؤْمِنُونَ هُمُ ٱلْفَائِزُونَ.]{.ar}  
 "The believers were the winners."
 
-Note that [ٱَلْفَائِزُونَ]{.ar} is in the u-state, so it is not, by itself, the information of [كَانَ]{.ar}.
-So this is, in fact, a topic-comment sentence.
-[ٱَلْمُوْمِنُونَ]{.ar} is the topic and the subject of [كَانَ]{.ar}.
-The information of [كَانَ]{.ar} is the comment [هُمُ ٱلفَائِزُونَ]{.ar}, which is itself a subject-information sentence with a u-state subject ([هُمْ]{.ar}) and a u-state information ([ٱلْفَائزُونَ]{.ar}).
+Note that [ٱَلْفَائِزُونَ]{.ar} is in the u-state, so it is not, by itself, the ;xabar; of [كَانَ]{.ar}.
+So this is, in fact, a ;mubtada;-;xabar; sentence.
+[ٱَلْمُوْمِنُونَ]{.ar} is the ;ismof; of [كَانَ]{.ar}.
+The ;xabar; of [كَانَ]{.ar} is the ;xabar; [هُمُ ٱلفَائِزُونَ]{.ar}, which is itself a ;mubtada;-;xabar; sentence with a u-state ;mubtada; ([هُمْ]{.ar}) and a u-state ;xabar; ([ٱلْفَائزُونَ]{.ar}).
 
 ### Negating [كَانَ]{.ar}
 
@@ -235,12 +235,12 @@ A similar meaning may be obtained with the particle [لَمْ]{.ar} followed by 
 [يَكُنْ]{.ar}.
 This is dealt with in section\ \@ref(lam-yakun) below.
 
-### Gender of a pronoun subject of [كان]{.ar}
+### Gender of a pronoun ;ismof; of [كان]{.ar}
 
-Remember from section\ \@ref(gender-of-pronoun-subject) that when the subject of a sentence is a pronoun, 
+Remember from section\ \@ref(gender-of-pronoun-subject) that when the ;mubtada; of a sentence is a pronoun, 
 then it may optionally either match the gender of the noun it refers to,
 or the the gender of the predicate.
-This rules carries over to [كَانَ]{.ar} subject-information sentences as well. For example:
+This rules carries over to [كَانَ]{.ar} ;ismof;-;xabar; sentences as well. For example:
 
 [ذَهَبْتُ إِلَى ٱلسُّوقِ فِي ٱلصَّبَاحِ. وَكَانَتْ لِي عَادَةً.]{.ar}  
 "I went to the market in the morning. And it was a habit for me."
@@ -249,15 +249,15 @@ This rules carries over to [كَانَ]{.ar} subject-information sentences as we
 [Wright, vol.\ ii, §152, p.\ 298C]{.aside}  
 "And they bore down upon them and it was their defeat."
 
-Note, how, in the above examples, [كَانَتْ]{.ar} has a [ت]{.ar} of femininity to match the feminine gender of the information [عَادَة]{.ar} "habit", and [هَزِيمَتَهُمْ]{.ar} "their defeat".
+Note, how, in the above examples, [كَانَتْ]{.ar} has a [ت]{.ar} of femininity to match the feminine gender of the ;xabar; [عَادَة]{.ar} "habit", and [هَزِيمَتَهُمْ]{.ar} "their defeat".
 
-### A pronoun as the information of [كَانَ]{.ar}
+### A pronoun as the ;xabar; of [كَانَ]{.ar}
 
 TODO
 
 ## The ;mudarie; verb [يَكُونُ]{.ar}
 
-The rules related to [كَانَ]{.ar}, its subject, and its information, that we have given above apply also to its ;mudarie; verb [يَكُونُ]{.ar}.
+The rules related to [كَانَ]{.ar}, its ;ismof;, and its ;xabar;, that we have given above apply also to its ;mudarie; verb [يَكُونُ]{.ar}.
 
 We will now discuss the usages of the specific states of the ;mudarie; verb.
 
@@ -456,9 +456,9 @@ The verb of command [كُنْ]{.ar} followed by the name of a person in the a-st
 
 The verb [كَانَ]{.ar} that we have been using so far is called the _deficient_
 [كَانَ]{.ar}.
-It is called so because its meaning is deficient without its information. For example, in the sentence
+It is called so because its meaning is deficient without its ;xabar;. For example, in the sentence
 [كَانَ زَيْدٌ قَائِمًا]{.ar} "Zayd was standing,"
-if we remove the information [قَائِمًا]{.ar} then the sentence is not complete for the desired meaning.
+if we remove the ;xabar; [قَائِمًا]{.ar} then the sentence is not complete for the desired meaning.
 
 There is another type of
 [كَانَ]{.ar}
@@ -466,7 +466,7 @@ called the _complete_
 [كَانَ]{.ar}.
 This 
 [كَانَ]{.ar}
-does not need an information to complete its meaning. 
+does not need an ;xabar; to complete its meaning. 
 This 
 [كَانَ]{.ar}
 gives the meaning of "exists".
@@ -476,7 +476,7 @@ In English, we usually express this meaning using "there was". For example,
 "There was a king."  
 (literally: "A king was.")
 
-Note that [مَلِك]{.ar} "king" is in the u-state as the subject.
+Note that [مَلِك]{.ar} "king" is in the u-state as the ;ismof;.
 If it were in the a-state, then it would change the meaning:
 
 [كَانَ مَلِكًا.]{.ar}  
@@ -583,23 +583,23 @@ or
 or  
 "Zayd would write."  
 
-This sentence can be analyzed grammatically as a topic-comment sentence.
-The subject of 
+This sentence can be analyzed grammatically as a ;mubtada;-;xabar; sentence.
+The ;ismof; of 
 [كَانَ]{.ar}
-is [زَيْد]{.ar} and it is the topic of the sentence.
-The information of [كَانَ]{.ar} is itself a sentence [يَكْتُبُ]{.ar} "he writes", and it is the comment of the main sentence.
+is [زَيْد]{.ar} and it is the ;mubtada; of the sentence.
+The ;xabar; of [كَانَ]{.ar} is itself a sentence [يَكْتُبُ]{.ar} "he writes", and it is the ;xabar; of the main sentence.
 
-The order of the subject and the ;mudarie; verb can be re-arranged for the same meaning thus:
+The order of the ;ismof; and the ;mudarie; verb can be re-arranged for the same meaning thus:
 
 [كَانَ يَكْتُبُ زَيْدٌ.]{.ar}  
 
 Now, two grammatical analyses are possible:
 
-1. [زَيْد]{.ar} is the ;fail; of [يَكْتُبُ]{.ar}, and the subject of [كَانَ]{.ar} is a hidden pronoun of the fact.
-2. [زَيْد]{.ar} is the delayed subject of [كَانَ]{.ar} and [يَكْتُبُ]{.ar} is the information of [كَانَ]{.ar}. The ;fail; of [يَكْتُبُ]{.ar} is a hidden pronoun.
+1. [زَيْد]{.ar} is the ;fail; of [يَكْتُبُ]{.ar}, and the ;ismof; of [كَانَ]{.ar} is a hidden pronoun of the fact.
+2. [زَيْد]{.ar} is the delayed ;ismof; of [كَانَ]{.ar} and [يَكْتُبُ]{.ar} is the ;xabar; of [كَانَ]{.ar}. The ;fail; of [يَكْتُبُ]{.ar} is a hidden pronoun.
 
 Either way, the meaning, as we have mentioned, is the same.
-Here are some more examples for different types of ;fail;s/subjects:
+Here are some more examples for different types of ;fail;s/;ismof;s:
 
 <!--[كَانَ يُحِبُّ ٱلشِّعْرَ وٱلشُّعَرَاءَ.]{.ar}  
 "He used to love poetry and the poets."
@@ -916,7 +916,7 @@ This is a negative
 (either
 [مَا كَانَ]{.ar} 
 or
-[لَمْ يَكُنْ]{.ar} with the appropriate suffixes or prefixes for the subject)
+[لَمْ يَكُنْ]{.ar} with the appropriate suffixes or prefixes for the ;ismof;)
 followed by [لِ]{.ar}
 and then an a-state ;mudarie; verb.
 This expresses the meaning of:

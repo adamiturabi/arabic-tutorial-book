@@ -672,14 +672,14 @@ Besides their use in pointing noun phrases, pointing nouns are very often used a
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize information};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize comment};
 
 \path (0,0) node [midway, below=17ex, right=0ex, align=left] {``This is a man.''\\(literally: ``This-one is a man.'')};
 
 \end{tikzpicture}
 ```
 
-The pointing noun is (usually) made to match the information in number and gender. Examples:
+The pointing noun is (usually) made to match the ;xabar; in number and gender. Examples:
 
 [هَاتَانِ جَارِيَتَانِ.]{.ar}  
 "These are girls~2~."
@@ -696,7 +696,7 @@ The pointing noun is (usually) made to match the information in number and gende
 [هَـٰذَانِ صَغِيرَانِ.]{.ar}  
 "These are small ones~2~."
 
-The information may be a single word (as above) or more complex (as below):
+The ;xabar; may be a single word (as above) or more complex (as below):
 
 [ذَ\ ٰلِكَ أَمِيرُ ٱلْمُؤِْمِنِينَ.]{.ar}  
 "That is the commander of the believers."
@@ -713,7 +713,7 @@ The information may be a single word (as above) or more complex (as below):
 [هَـٰذَانِ بَيْتَانِ كَبِيرَانِ..]{.ar}  
 "These are big houses~2~."
 
-If the information is a noun that begins with [ٱَلْ]{.ar} then it may be placed after the pointing noun subject in the same manner:
+If the ;xabar; is a noun that begins with [ٱَلْ]{.ar} then it may be placed after the pointing noun subject in the same manner:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -732,7 +732,7 @@ If the information is a noun that begins with [ٱَلْ]{.ar} then it may be pla
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize information};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize comment};
 
 \path (0,0) node [midway, below=17ex, right=0ex, align=left] {``This is the man.''\\(literally: ``This-one is the man.'')};
 
@@ -741,7 +741,7 @@ If the information is a noun that begins with [ٱَلْ]{.ar} then it may be pla
 
 While the this is permitted and correct, it may be sometimes confused with for the pointing noun phrase "this man". So, in the same way that we learned in
 section\ \@ref(chap-smp-sent-sec-def-info),
-we insert a detached pronoun between the subject and the information, thus:
+we insert a detached pronoun between the subject and the ;xabar;, thus:
 
 [هَـٰذَا هُوَ ٱلرَّجُلُ.]{.ar}  
 "This is the man."
@@ -765,17 +765,17 @@ Here are some more examples:
 
 ### Mismatched pointing noun subject
 
-When the pointing noun is a subject we usually match its number and gender with the number and gender of the information, as we have been doing so far. However, when the pointing noun subject refers to a noun in a previous sentence, then we may prefer to match to the previous noun than to the the following information. Example:
+When the pointing noun is a subject we usually match its number and gender with the number and gender of the ;xabar;, as we have been doing so far. However, when the pointing noun subject refers to a noun in a previous sentence, then we may prefer to match to the previous noun than to the the following ;xabar;. Example:
 
 [بَلَغَنَا خَبَرُ ٱلْمَطَرِ عَلَى ٱلْجَبَالِ. ذَ\ ٰلِكَ بُشْرَىٰ لِلزُّرَّاعِ.]{.ar}  
 "The news of the rain on the mountains has reached us. That is a good tiding for the sowers."
 
-Note that the second sentence's subject and information mismatch: 
+Note that the second sentence's subject and ;xabar; mismatch: 
 
 [ذَ\ ٰلِكَ بُشْرَىٰ]{.ar}  
 "That is a good tiding."
 
-The information
+The ;xabar;
 [بُشٌرَىٰ]{.ar} "a good tiding" is a feminine noun but the subject
 [ذَ\ ٰلِكَ]{.ar} is masculine.
 This is because
