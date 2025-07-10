@@ -1,0 +1,475 @@
+<!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
+
+# Ideas
+
+## Terminology
+
+Classification of nouns:
+
+### Inflection
+
++ [مبني]{.ar}: Rigid, fixed, flexible. Use flexible because rigid and fixed may be confused with [جامد]{.ar}
++ [معرب]{.ar}: flexible
+  + [متصرف]{.ar}: fully-flexible
+  + [غير متصرف = ممنوع من الصرف]{.ar}: semi-flexible
+
+### [جامد]{.ar} and [مشتق]{.ar}
+
++ [جامد]{.ar}: Primitive
++ [مشتق]{.ar}: Derived
+
+### [اسم الجمع]{.ar} and [اسم الجنس]{.ar}
+
++ [اسم الجمع]{.ar} : group nouns
++ [اسم الجنس]{.ar} : class nouns
+
+collective nouns?
+
+
+## Vocabulary
+
+https://ia800701.us.archive.org/32/items/ArabicVocabularyBankBk1/Arabic%20Vocabulary%20Bank%20Bk%201.pdf
+
+## Some topics regarding adjectives
+
+Nouns like [حرام، حلال، حِلّ، فَضْل، فُضُول، ثِقَة (ثِقات)، عَدْل]{.ar} 
+
+### Adjectives separated from described noun
+
+Adjectives may be separated from the described noun.
+
+This is usually done in a couple of circumstances
+
+**Move to chapter on prepositions:**
+
+by phrases
+
+[رجلٌ في البيت سعيدٌ]{.ar}
+
+**Move to chapter on iDaafa:**
+
+by attachment
+
+[كِتابُ الرجلِ الكبيرُ]{.ar}
+
+## Different types of structures with subject and information
+
+Early in this book we studied the simple sentence, for example:
+
+"The man is a teacher."
+
+We said that this sentence consists of two parts:
+
+1. The part before "is": "the man". This is the subject.
+2. The part after "is": "a teacher". This is the information which tells us something about the subject.
+
+In the following examples, in addition to the simple sentence above, we will give other sentences (or parts of sentences) that have the same subject and information but give somewhat different meanings.
+
+Number|English                             | Arabic
+:--|:-----------------------------------|:-----------------------------------
+1. |"The man is a teacher."             |[الرّجلُ معلمٌ]{.ar}
+2. |"Indeed the man is a teacher."      |[إنّ الرّجلَ معلمٌ]{.ar}
+3. |"that the man is a teacher."        |[أنّ الرّجلَ معلمٌ]{.ar}
+4. |"but the man is a teacher."         |[لٰكِنّ الرّجلَ معلمٌ]{.ar}
+5. |"maybe the man is a teacher."       |[لَعَلّ الرّجلَ معلمٌ]{.ar}
+6. |"as if the man were a teacher."     |[كَأنّ الرّجلَ معلمٌ]{.ar}
+7. |"if only the man were a teacher."   |[لَيْتَ الرّجلَ معلمٌ]{.ar}
+8. |"The man was a teacher."            |[كانَ الرّجلُ معلمًا]{.ar}
+9. |"The man became a teacher."         |[صارَ الرّجلُ معلمًا]{.ar}
+
+FIXME: add لأنّ
+
+In all of these examples there is a subject "the man", and an information "a teacher". Arabic uses different ways to express these kinds of sentences.
+
+For examples 2 through 7 we use a particle before the subject that puts the subject in the [astate]{.subs}. The information remains in the [ustate]{.subs}. We call these particles "the [إنّ]{.ar} family".
+
+For examples 8 and 9 Arabic uses verbs. The subject is the doer of the verb and the information is the object. And just like all verbs, the doer is in the [ustate]{.subs} while the object is in the [astate]{.subs}. There are a few other verbs that express a similar meaning of "became". We call these verbs "the [كان]{.ar} family".
+
+
+### The [إنّ]{.ar} family
+
+The particle has to come before the subject. Usually the subject comes right after this particle, and the information comes after the subject as in the examples above. However, if the subject is an indefinite noun, and the information is a prepositional phrase, then it is permissible to have the order {particle, information, subject}, although the normal order {particle subject information} is also possible. Here is an example:
+
+Indeed a man is in the house.  
+[إن رجلا في البيت]{.ar}  
+[إن في البيت رجلا]{.ar}  
+
+#### Adjectives
+
+### The [كان]{.ar} family
+
+[كان]{.ar} can be used with only a subject and no information as a complete sentence. For example,
+
+[كان مَلِكٌ]{.ar}  
+"A king was."
+
+In English we would usually express this by saying "There was a king." But Arabic does not use "There" in this manner. Instead it uses the verb [كان]{.ar} with a subject and no information as we have just shown.
+
+By the way, if this is howe we express "There was a king." then how to we express "There is a king"? This is not straightforward to express in Arabic but we will learn a few techniques later if Allah wills.
+
+Similarly the verbs [أصبح]{.ar}, [أمسى]{.ar} and similar verbs may be used without an information as well. For example
+
+[أصبح الرجلُ]{.ar}  
+The man entered the morning (**rework**)
+
+## Verb conjugation
+
+### Terminology
+
+Instead of 1st person, etc use:
+
++ He did
++ She did
++ They (masc. 2) did
++ They (fem. 3+) do
++ You (2) did
++ I did
++ We do
+
+Table headings: I/we, you, he/she/they
+
+##
+
+prepositional phrase after a definite noun:
+http://islamport.com/k/nhw/5561/195.htm
+https://al-maktaba.org/book/31874/27357#p1
+
+## Chapter order
+
+### 04/2022
+
++ [#mudarie]{.subs} verbs: [ustate]{.subs}
+  + sa, sawfa
++ [#mudarie]{.subs} verbs: [astate]{.subs}
+  + adaa2 al-naSb
++ [#mudarie]{.subs} verbs: null-state
+  + command, polite command
++ Hollow verbs
++ Subject-information verbs (kaana and its sisters)
+  + was doing (kaana yafealu)
+  + will be (an yakuuna)
++ Negation
+  + subject-information sentences: laysa, maa al-Hijaaziyyah
+  + Verbs:
+    + Completed action:
+      + maa faeala, maa kaana isman, maa kaana yafealu
+      + lam yafeal, lam yakun isman, lam yakun yafealu
+    + [#mudarie]{.subs}
+      + maa yafealu
+      + laa yafealu
+      + laa yafeala
+      + laa yafeal, Command: laa tafeal
++ Irregular nouns
+  + imraEun imruEun
+  + sanah sinuun
+  + bint banaat
+  + ibn banuun
+    + zaydu -bnu 3amrin, not zayduni -bnu 3amrin
+  + the five nouns
+
+
+
+### Next:
+
++ Of relationship
+  + Examples:
+    + much of wealth
+    + mujarrad = bare result; mujarrad x = bare result of x
+    + hadiith al-sinn = young of age
+  + with dual and sound plural
+  + with [naat]{.subs}s
+  + real chaining
+  + virtual chaining
+    + first noun is descriptive noun
++ pronouns
+  + detached pronouns
+  + attached pronouns
+    + as muDAf ilayh
++ pointing nouns
+  + with iDaafah
+...
++ ism tafdeel
+  + af3alu shayEin : the X-est thing
+  + katheer, akthar as comparative
++ numbers from 1-10 (after nouns with weak last radical because of thamaanin)
+  + counting numbers
+  + ordering numbers
+  + numbers as proper nouns
+    + 1, 2, 3
+    + 4 is half of 8
++ group nouns, quantifiers, and collectives
+  + group nouns
+    + singular technically: qawm aqwAm, nAs, nafar. but with plural meaning
+    + gender agreement
+      + adjectives
+      + verbs
+  + quantifiers (after group nouns because of katiirun min an-naas, and after numbers because of bid3at rijaal, and after ism tafdeel because of akthar al-naas)
+    + kull
+      + gender agreement with complement
+      + kullu shayEin: everything
+    + ba3D, biD3, 3adad, 3adeed, 3iddah, etc. see Karin Ryding
+    + kaithIr, kathIrUna, aktharuhum
+  + numbers with ism al-jins: use At pl. of ism wahdah: sab3u baqarAtin
+
+### General:
+
++ Script
++ Common nouns
++ Gender
++ Equational sentence
++ Descriptive noun
+  + Adjectives
++ Diptotes (Find better name)
++ Dual and Plural
++ Proper nouns
++ Detached pronouns
++ Pointing nouns
++ Prepositions and attached pronouns
+  + True prepositions and pseudo-prepositions
+  + Adjectives
+    + Adjective separated from described noun by prepositonal phrase
+  + Attached pronouns
+    + alif bi Soorat yaa becomes regular yaa
++ Particles
+  + true prepositions already mentioned
+  + and, but لكنْ, so, or
+  + is?, yes, no
++ Attachment (iDaafa)
+  + Adjectives
+    + Adjective separated from described noun by attachment
+  + The honour of a man, the head of a man: use indef iDaafa
++ form 1 strong verb (break into multiple chapters?)
+  + Three letters
+  + maDI and muDArie conjugations
+  + Doer noun and doee noun
+  + Transitive and intransitive
+  + Two direct objects
++ muDari3 moods (states)
+  + command:
+    + addressed to lower in status: Command
+    + addressed to higher in status: supplication
+  + Hamzated verbs
+    + order mur, khudh, kul
++ form 1 hollow verb
++ Family of inna and kaana
++ Complex tenses
++ masdar
+  + No infinitve so masdar used instead
+  + with iDaafa
+    + muDaaf ilayh can be doer or doee. Sometimes one is more likely, like qatlu fulaan. fulaan is more likely the killed person.
+    + with both doer and doee. doee is in the [astate]{.subs}
+  + an+muDarie can sometimes be replaced with masDar
++ Connecting sentences
+  + already seen using "and"
+  + noun+that+noun: anna
+  + "noun+that+verb":
+    + can't use anna directly because anna must be followed by a subject which is a noun.
+      + can use annahu + verb sometimes but not always palatable.
+    + indef: just use verb
+    + def: use "the one" alladhii
++ If/when sentences
+  + conditional
+  + non-conditional
++ Questions and answers
++ passive verb
+  + Two direct objects in active form (example in form 1: [jaeala jueila]{.trn})
++ form 1 weak ending
++ form 1 doubled verb
++ Comparative, elative
+  + Verb of wonder
++ higher form verb conjugations (strong, weak, doubled, passive, masdar)
+  + form 4 passive is identical to form 1 passive
+  + Probably multiple chapters
+  + Should be pretty much at the end otherwise student gets bored and stuck in the various conjugations.
++ Quadriliteral verbs
++ af3al with higher order verbs
++ masdar as na3t
++ Numerals
++ Modern Standard Arabic
+
+Appendices:
+
++ hamza rules
++ masc nouns with fem marker (ضوضى، خليفة) and fem nouns without a fem marker
++ spaced learning with anki
++ arab to eng dict from anki
++ eng to arabic dict
++ glossary of terms with western and arabic equiv
++ uncommon usages in classical arabic
+  + gender/number agreement
+  + fuDla al-nisaa'
+  + maybe excerpts from or references to wright only?
+
+Where to fit in?:
+
++ collective nouns
++ ism jam3
++ all, every
++ Haal
++ Diptotes
++ Triliteral root, dictionary
++ Sentences with indefinite subjects
++ Nouns of place and instrument
++ Traditional classification of nouns: jAmida and muctaqqa
+  + adjectives like xAm "raw", fuDUl "extra", maHD "pure" are not modified for gender agreement
++ ism masdar
++ masdar mImiyy
++ nisba
++ noun formed by iyyah
++ Masdars and Descriptive nouns becoming common nouns
++ Feminine adjectives with masc described nouns
++ masdar as na3t
++ Interjections
+  + ajal, 'ee,
+  + kallaa: no way, etc.
+  + bal, balA
+  + bakh
+  + wayHaka
+  + iyyaaka wa
++ numbers treated as proper nouns: four is half of eight. see alnahw alwaafi vol 4 p. 546
+
+## Sentences with indefinite subjects
+
+[دراسة جديدة في قضية الابتداء بالنكرة في التراكيب اللغوية]{.ar}  
+[ياسر الحروب]{.ar}  
+http://mohamedrabeea.net/library/pdf/f16c8c74-a0ce-45c3-919f-da4854aea82f.pdf
+
+## Fonts
+
+Options:
+
++ New Computer Modern: Add usepackage fontsetup to preamble.tex
+  + hamza is small c, U+02be
+  + no double macron below, U+035F
++ Computer Modern
+  + hamza is small c, U+02be
+  + no double macron below, U+035F
++ New Computer Modern
+  + hamza is small c, bad kerning with it
+  + has double macrons
+  + but double breves need work
++ CMU Serif: 
+  + hamza is small c, U+02be
+  + no double macron below, U+035F
++ Latin Modern: 
+  + hamza is small c, U+02be
+  + no double macron below, U+035F
+  + no 3ayn equiv: U+025b
++ STIX Text Two
+  + no double macron below, U+035F
+  + Regular is too similar to TNR
+  + Good italic and bold, though
++ Junicode
+  + Too similar to TNR
++ FreeSerif
+  + Too similar to TNR
++ Brill
+  + double macron below, U+035F clashes with U+0323 dot below
+  + Free version not licensed for publication
+  + Non-free version available for commercial use (OTF & WOFF) on ilovetypography.com
++ Baskervaldx, erewhon, and other fonts by same designer
+  + Baskervaldx very nice but missing greek e, breves, etc
++ Castoro
+  + Looks nice, like brill, but missing greek e, etc
++ Gentium Plus
+  + Too lively(?) for body text
++ Adobe Source Code Pro
+  + no double macron below, U+035F
+  + no 3ayn equiv: U+025b
++ Minion Pro
+  + No hamza U+02be
++ Charis SIL
+  + Good, might be too bold
+  + has breves
+  + not enough spacing between section number and section title in table of contents
++ Worth mentioning: Might have missing glyphs for ayn and other issues
+  + Cardo
+  + Cormorant Garamond
+  + Tex Gyre fonts: Pagella, Bomun, Schola
+  + Chrysanthi
++ Adobe Minion 3: very good
++ https://scholarlytype.com/resources/
+  + Amiri Arabic typeface- link #
+  + Monotype Baskerville#
+  + Monotype Bembo*
+  + Brill Publisher’s typeface – link #
+  + Charis SIL – link #
+  + Robert Slimbach’s Adobe Minion 3#
+  + Robert Slimbach’s Adobe Text#
+  + Robert Slimbach’s Adobe Ten Oldstyle#
+  + Thomas W. Phinney II’s Hypatia Sans Pro#
+  + Hermann Zapf’s Palatino #
+  + Adobe Caslon Pro*
+  + Adobe Cronos Pro* and Adobe Brioso Pro*
+  + Adobe Garamond Premier Pro^
+  + Cormorant Garamond – link #
+  + Cormorant#
+  + Latin Modern – link #
+  + Martin Majoor’s Scala Pro* and Scala Sans Pro*
+  + Alegreya font – from Huerta Tipográfica – link #
+  + Bruce Rogers’s Centaur Pro*
+  + Jan Tschichold’s Sabon Pro*
+  + Fred Smeijers’ Quadraat*
+  + František Štorm’s Walbaum*
+  + Junicode – font for medievalists – link
+  + Poster and Billboard font: Adobe Trajan Pro# (Upper case and without Italics)
+
+
+## Primitive and derived nouns
+
+The aSl for designative nouns is that they are primitive nouns. Some descriptive nouns through much usage can become designative nouns: jAriyah "a girl", Hasanah "a good deed"
+
+Descriptive nouns are typically sourced from derived nouns. Rarely, a primitive noun can be used as a descriptive noun: asad "lion" to describe bravery.
+
+Rules for sound masculine plural based on derived nouns.
+
+## topics in gender agreement
+
+https://diwanalarab.com/%D9%81%D9%8A-%D8%AA%D8%B0%D9%83%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%A4%D9%86%D8%AB-%D9%88%D8%AA%D8%A3%D9%86%D9%8A%D8%AB-%D8%A7%D9%84%D9%85%D8%B0%D9%83%D8%B1
+
+استمرارًا لما ذكرت من تبادل الصيغ في العربية فقد أحببت أن أدوّن بعض ما قرأته من حمل اللفظ على المعنى في تذكير المؤنث وتأنيث المذكر، ومراجعي في ذلك كتب أسرار العربية ومعاجم اللغة.
+
+نجد في لغة العرب تركَ حكْم ظاهر اللفظ وحملَه على معناه كما يقولون:
+
+ثلاثة أنفس، والنفس مؤنثة، وإنما حملوه على معنى الإنسان أو معنى الشخص.
+قال الشاعر:
+
+    ما عندنا إلا ثلاثةُ أنفس
+    مثلُ النجوم تلألأت في الحِنْدِسِ
+
+وقال عمر بن أبي ربيعة:
+
+    فكان مجنّي دون ما كنت أتّقي
+    ثلاث شخوص: كاعبان ومُعْصِرُ
+
+فحمل ذلك على أنهن نساء.
+
+قال الأعشى:
+
+    لقومٍ وكانوا هم المُنْفِدين
+    شرابَهم قبل تنفادِها
+
+فأنّث الشراب (تنفادها) لما كان الخمر في المعنى وهي مؤنثة،
+كما ذكر الكفّ وهي مؤنثة في قوله:
+
+    أرى رجلاً منهم أسيفًا كأنما
+    يضم إلى كَشْحيه كفًّا مُخضَّبا
+
+(مخضب) بالتذكير، فحمل الكلام على العضو، وهو مذكر.
+
+وقال رُويشد بن كثير الطائي:
+
+    يا أيها الراكبُ المُزْجي مطيتَه
+    سائلْ بني أسَدٍ ما هذه الصوتُ
+
+أي: ما هذه الجلبة؟
+
+وفي القرآن نماذج من ذلك:
+
+وأعتدنا لمن كذب بالساعة سعيرًا- الفرقان، 11 ، والسعير مذكر، ثم قال في الآية التالية: إذا رأتهم من مكان بعيد، فحمله على النار فأنثه.
+
+وقال تعالى: وأحيينا به بلدة ميتًا- ق، 11، ولم يقل "ميتة" لأنه حمله على المكان.
+وقال السماء منفطِر به- المزمل، 18 ، فذكر السماء وهي مؤنثة، لأنه حمل الكلام على السقف، وكل ما علاك وأظل فهو سماء.
+
+(الضمير في كلمة "به" يعود ليوم الحساب، ومنفطر به أي متشققة لشدته وهوله.
+

@@ -1,4 +1,4 @@
-# Broken plurals
+# The broken plural
 
 ## Introduction
 
@@ -23,13 +23,13 @@ Before we begin our discussion about broken plurals, we will do a quick review o
 
 Most words in Arabic are formed from three letter roots. We use the paradigm root [فعل]{.ar} to show word patterns. For example, the noun [رَجُل]{.ar} [rajul]{.trn} "a man" is formed from the root [رجل]{.ar} on the pattern [فَعُل]{.ar} [faeul]{.trn}.
 
-Most nouns in Arabic are _fully-flexible_. This means that, when indefinite, they are [nUn]{.trn2}ated and the indefinite i-state is shown by a [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar} at the end of the noun. For example, [رَجُل]{.ar} [rajul]{.trn} "a man" and [بَيْت]{.ar} [bayt]{.trn} "a house" are fully-flexible nouns. So, you can see, below, that they are [nUn]{.trn2}ated, and the indefinite i-state is indicated by a [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar}:
+Most nouns in Arabic are _fully-flexible_. This means that, when indefinite, they are ;tanwin;ed and the indefinite ;istate; is shown by a ;tanwin;ed ;imark; [◌ٍ]{.ar} at the end of the noun. For example, [رَجُل]{.ar} [rajul]{.trn} "a man" and [بَيْت]{.ar} [bayt]{.trn} "a house" are fully-flexible nouns. So, you can see, below, that they are ;tanwin;ed, and the indefinite ;istate; is indicated by a ;tanwin;ed ;imark; [◌ٍ]{.ar}:
 
 [ذَهَبَ رَجُلٌ إِلَىٰ بَيْتٍ.]{.ar}  
 [pahaba rajulun EilA bayt.]{.trn}  
 "A man went to a house."
 
-Some nouns are _semi-flexible_. This means that they are not [nUn]{.trn2}ated, and also, the indefinite i-state is indicated by an [a]{.trn} mark [◌َ]{.ar}. Examples of such nouns are:
+Some nouns are _semi-flexible_. This means that they are not ;tanwin;ed, and also, the indefinite ;istate; is indicated by an ;amark; [◌َ]{.ar}. Examples of such nouns are:
 
 + ^2^[غَضْبَىٰ]{.ar} [gaDbA]{.trn}^2^ _adj._ (fem.) "a very angry one~f~" from the root [غضب]{.ar}
 + ^2^[صَحْرَاء]{.ar} [SaHrAE]{.trn}^2^ (fem.) "a desert~f~" from the root [صحر]{.ar}
@@ -345,13 +345,13 @@ We now give all but the rarest broken plural patterns below.
 
 Note the following from the above broken plural patterns and examples:
 
-+ Both common nouns and adjectival nouns form broken plurals.
++ Both common nouns and ;sifah;s form broken plurals.
 
 + There are comparatively fewer broken plurals for female intelligent beings than for male intelligent beings. We will expand on this in a subsequent section.
 
 + Some patterns of the broken plural are also patterns singular nouns. For example, the pattern [فِعَال]{.ar} [fieAl]{.trn} has both singular nouns, like [كِتَاب]{.ar} [kitAb]{.trn} "a book" and broken plurals, like [رِجَال]{.ar} [rijAl]{.trn} "men"
 
-+ The broken plural patterns [فِعْلَان]{.ar} [fielAn]{.trn} and [فُعْلَان]{.ar} [fuelAn]{.trn} are fully-flexible nouns. Although they end with the [ان]{.ar} ending which is extrinsic to the root, they are not semi-flexible nouns. Only singular adjectival nouns that end with an extrinsic [ان]{.ar} on the pattern [فَعْلَان]{.ar}, and that also fulfil the other conitions listed in section\ \@ref(adjectival-noun-an-diptote), are semi-flexible.
++ The broken plural patterns [فِعْلَان]{.ar} [fielAn]{.trn} and [فُعْلَان]{.ar} [fuelAn]{.trn} are fully-flexible nouns. Although they end with the [ان]{.ar} ending which is extrinsic to the root, they are not semi-flexible nouns. Only singular ;sifah;s that end with an extrinsic [ان]{.ar} on the pattern [فَعْلَان]{.ar}, and that also fulfil the other conitions listed in section\ \@ref(;sifah;-an-diptote), are semi-flexible.
 
 + There is often a correlation between the pattern of a singular noun and the pattern of its plural.
 
@@ -492,7 +492,7 @@ Note the following from the above broken plural patterns and examples:
     |:-|:--|:--|:--
     |[هدي]{.ar} |^2^[فَعَالَىٰ]{.ar} |$\times$\ ^2^[هَدَايَىٰ]{.ar} |^2^[هَدَايَا]{.ar}
 
-  + A [ي]{.ar} at the end of a word, in some states, gets omitted  and replaced by a [nUn]{.trn2}ated [i]{.trn}-mark [◌ٍ]{.ar} on the preceding letter. This happens even when the [ي]{.ar} is extrinsic to the root, and even if the word is semi-flexible (and thus would not normally be [nUn]{.trn2}ated). Examples:
+  + A [ي]{.ar} at the end of a word, in some states, gets omitted  and replaced by a ;tanwin;ed ;imark; [◌ٍ]{.ar} on the preceding letter. This happens even when the [ي]{.ar} is extrinsic to the root, and even if the word is semi-flexible (and thus would not normally be ;tanwin;ed). Examples:
 
     |Root | Word pattern | Expected word  | Actual word 
     |:-|:--|:--|:--
@@ -547,9 +547,9 @@ We will deal with the co-existence of sound and broken plurals in the next secti
 [جُدُر]{.ar}, [جُدْرَان]{.ar}
 Either could be used, more or less, interchangeably.
 
-2. Sometimes, the usage of one of the plurals may be restricted. For example, [ضِعَاف]{.ar} and [ضُعَفَاء]{.ar} are both broken plurals of the masculine adjectival noun [ضَعِيف]{.ar} "a weak one~m~". For male intelligent beings, like "weak men", either of the two plurals could be used. But remember that broken plurals that end with an extrinsic [اء]{.ar} ending may only be used for male intelligent beings. So the plural [ضُعَفَاء]{.ar} may only be used for male intelligent beings like "men" or "boys", and not for masculine nouns that denote non-intelligent beings like "lions" or "pens", etc.
+2. Sometimes, the usage of one of the plurals may be restricted. For example, [ضِعَاف]{.ar} and [ضُعَفَاء]{.ar} are both broken plurals of the masculine ;sifah; [ضَعِيف]{.ar} "a weak one~m~". For male intelligent beings, like "weak men", either of the two plurals could be used. But remember that broken plurals that end with an extrinsic [اء]{.ar} ending may only be used for male intelligent beings. So the plural [ضُعَفَاء]{.ar} may only be used for male intelligent beings like "men" or "boys", and not for masculine nouns that denote non-intelligent beings like "lions" or "pens", etc.
 
-   Interestingly, [ضِعَاف]{.ar} is also shared as the broken plural for the feminine adjectival noun [ضَعِيفَة]{.ar} "a weak one~f~". So it can be used for plurals of feminine nouns, both for female intelligent beings like "women" and "girls", and for feminie nouns that denote non-intelligent beings like "trees".
+   Interestingly, [ضِعَاف]{.ar} is also shared as the broken plural for the feminine ;sifah; [ضَعِيفَة]{.ar} "a weak one~f~". So it can be used for plurals of feminine nouns, both for female intelligent beings like "women" and "girls", and for feminie nouns that denote non-intelligent beings like "trees".
 
 3. Other times, the singular has multiple distinct meanings, and each of these distinct meanings is associated with its own broken plural(s). Here are some examples:
 
@@ -624,9 +624,9 @@ can form the [At]{.trn} sound plural.
 
 There are some nouns that are excepted from this statement. These nouns only have broken plurals and don't form sound plurals. For female intelligent beings, these nouns are:
 
-+ Adjectival nouns of the pattern ^2^[فَعْلَاء]{.ar} which is the feminine of the masculine adjectival noun pattern ^2^[أَفْعَل]{.ar}. For example, [حور]{.ar} [حَوْرَاء]{.ar} [HawrAE]{.trn} "a beautiful eyed one~f~" uses the broken plural [حُور]{.ar} [HUr]{.trn}
++ ;#sifah;s of the pattern ^2^[فَعْلَاء]{.ar} which is the feminine of the masculine ;sifah; pattern ^2^[أَفْعَل]{.ar}. For example, [حور]{.ar} [حَوْرَاء]{.ar} [HawrAE]{.trn} "a beautiful eyed one~f~" uses the broken plural [حُور]{.ar} [HUr]{.trn}
 
-+ Adjectival nouns of the pattern ^2^[فَعْلَىٰ]{.ar} which is the feminine of the masculine adjectival noun pattern ^2^[فَعْلَان]{.ar}. For example, [غضب]{.ar} [غَضْبَىٰ]{.ar} [gaDbA]{.trn} "very angry~f~" uses the broken plural [غِضَاب]{.ar} [giDAb]{.trn}.
++ ;#sifah;s of the pattern ^2^[فَعْلَىٰ]{.ar} which is the feminine of the masculine ;sifah; pattern ^2^[فَعْلَان]{.ar}. For example, [غضب]{.ar} [غَضْبَىٰ]{.ar} [gaDbA]{.trn} "very angry~f~" uses the broken plural [غِضَاب]{.ar} [giDAb]{.trn}.
 
 + The following exceptional nouns:
 
@@ -643,7 +643,7 @@ the use of the [At]{.trn} sound plural
 [صَغِيرَات]{.ar}
 is preferred over the broken plural
 [صِغَار]{.ar} 
-for the adjectival noun
+for the ;sifah;
 [صَغِيرَة]{.ar} 
 "a small one~f~".
 However, both are permitted.
@@ -681,9 +681,9 @@ We will discuss the plurals of intelligent beings and non-intelligent beings sep
 
 ### Plurals of intelligent beings in descriptive noun-phrases
 
-Consistent with what we have learned so far, when the describee in a noun-phrase is plural, then the describer comes after it, and matches it in state, definiteness, gender, and number.
+Consistent with what we have learned so far, when the ;manut; in a noun-phrase is plural, then the ;naat; comes after it, and matches it in state, definiteness, gender, and number.
 
-Either or both of the describer and the describee may be sound plurals or broken plurals.
+Either or both of the ;naat; and the ;manut; may be sound plurals or broken plurals.
 
 Here are some examples:
 
@@ -707,9 +707,9 @@ Here are some examples:
 [xadama -rrajulu -SSAliHu -lganiyyu -lfuqarAEa -DDieAfa mina -lyatAmA -SSigAr.]{.trn}  
 "The rich righteous man served the weak poor ones from the little orphans."
 
-### Plurals of intelligent beings in subject-information sentences
+### Plurals of intelligent beings in ;mubtada;-;xabar; sentences
 
-If the subject of a sentence is a plural denoting intelligent beings then the information typically matches it in being a plural. This is especially the case if the information is an adjectival noun. For example:
+If the ;mubtada; of a sentence is a plural denoting intelligent beings then the ;xabar; typically matches it in being a plural. This is especially the case if the ;xabar; is an ;sifah;. For example:
 
 [ٱلْغِلْمَانُ أَطْفَالٌ طَيِّبُونَ.]{.ar}  
 [EalgilmAnu EaTfAlun TayyibUn.]{.trn}  
@@ -723,7 +723,7 @@ If the subject of a sentence is a plural denoting intelligent beings then the in
 [EalmueallimAtu eAlimAt,]{.trn}  
 "The teachers~f~ are scholars~f~."
 
-Sometimes the information may not match the subject in plurality because of the meaning of the sentence. For example:
+Sometimes the ;xabar; may not match the ;mubtada; in plurality because of the meaning of the sentence. For example:
 
 [ٱَلْمُسْلِمُونَ أَمَّةٌ.]{.ar}  
 [EalmuslimUna Eummah.]{.trn}  
@@ -758,7 +758,7 @@ The use of detached pronouns is consistent with what we learned in section\ \@re
 
 ### Plurals of intelligent beings with verbs
 
-We have already studied verbs with sound plurals in section\ \@ref(verbs-with-plural-doers). The same discussion applies to broken plurals as well. The doer and doee pronouns are the same. Here are a couple of examples:
+We have already studied verbs with sound plurals in section\ (ref). The same discussion applies to broken plurals as well. Here are a couple of examples:
 
 [قَرَأَتِ ٱلنِّسَاءُ وَكَتَبْنَ.]{.ar}  
 [qaraEati -nnisAEu wakatabn.]{.trn}  
@@ -781,7 +781,7 @@ We have already studied verbs with sound plurals in section\ \@ref(verbs-with-pl
 We now turn our attention to plurals of non-intelligent beings. 
 The treatment of plurals of non-intelligent beings is very different from everything we have learned so far. 
 In this basic, simplified, explanation:
-regardless of the grammatical or physical gender of the singular noun, plurals of non-intelligent beings are treated, for the purposes of matching adjectival nouns and pronouns, as
+regardless of the grammatical or physical gender of the singular noun, plurals of non-intelligent beings are treated, for the purposes of matching ;sifah;s and pronouns, as
 grammatically feminine singular.
 
 <!--
@@ -790,7 +790,7 @@ i. grammatically feminine plural
 
 It is optional which of the above two treatments one uses. However, the former option (feminine singular) is more common and is generally preferred.
 
-For the second option (feminine plural), in addition to the sound feminine plural of adjectival nouns, broken plurals are allowed to be used as well, as long as their meaning allows them to be used for non-intelligent beings.
+For the second option (feminine plural), in addition to the sound feminine plural of ;sifah;s, broken plurals are allowed to be used as well, as long as their meaning allows them to be used for non-intelligent beings.
 -->
 <!--not specifc to male intelligent beings (those that end with [اء]{.ar}).-->
 
@@ -845,16 +845,16 @@ It doesn't matter what the grammatical or physical gender of the singular is or 
 [فِي ٱلصُّنْدُوقُ أَشْيَاءُ عَجِيبَةٌ.]{.ar}  
 <!--[فِي ٱلصُّنْدُوقُ أَشْيَاءُ عَجِيبَاتٌ.]{.ar}  -->
 "In the box are wonderful things."  
-(Note how ^2^[أَشْيَاء]{.ar} is indefinite but is not [nUn]{.trn2}ated. This is because it is irregularly semi-flexible.)
+(Note how ^2^[أَشْيَاء]{.ar} is indefinite but is not ;tanwin;ed. This is because it is irregularly semi-flexible.)
 
-By the way, this rule only applies to adjectival nouns in the describee or the information. A common noun in the describer or information will continue match the describee or subject in gender and number.
+By the way, this rule only applies to ;sifah;s in the ;manut; or the ;xabar;. A common noun in the ;naat; or ;xabar; will continue match the ;manut; or ;mubtada; in gender and number.
 
 For example, if you say:
 
 [ٱَلْأَفْعَالُ ٱلصَّالِحَةُ هِيَ ٱلْحَسَنَةُ.]{.ar}  
 "The righteous acts are the good ones."
 
-then [حَسَنَة]{.ar} may only be the feminine adjectival noun "a good one".
+then [حَسَنَة]{.ar} may only be the feminine ;sifah; "a good one".
 
 If instead you want to use [حَسَنَة]{.ar} with its common noun meaning of "a good deed", then you have the use the plural:
 
@@ -866,7 +866,7 @@ The plural [هِي]{.ar} may continue to be used instead of [هُنَّ]{.ar}, a
 [ٱَلْأَفْعَالُ ٱلصَّالِحَةُ هُنَّ ٱلْحَسَنَاتُ.]{.ar}  
 "The acts are the good deeds."
 
-Similarly, if an adjectival noun connoting a non-intelligent being is used not as a describer or an information in a sentence, then it should be pluralized to indicate plurality.
+Similarly, if an ;sifah; connoting a non-intelligent being is used not as a ;naat; or an ;xabar; in a sentence, then it should be pluralized to indicate plurality.
 
 [ٱَلْحَيَوَانَاتُ صَغِيرَةٌ وَكَبِيرَةٌ. ٱَلْكَبِيرَاتُ وَحْشَةٌ.]{.ar}  
 "The animals are big and small. The big ones are wild."
