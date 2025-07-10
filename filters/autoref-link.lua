@@ -1,22 +1,7 @@
 package.path = package.path .. ';../_extensions/arabic-support/?.lua'
 local ar_span = require("ar_span")
 
-
-function Link(el)
-  stringify = pandoc.utils.stringify
-  if #el.content == 1 then
-    local ft = stringify(el.content[1])
-    if not string.find(ft, " ") then -- only use this filter if the link comprises the entire footnote
-      local i, j = string.find(ft, "https://quran.com/")
-      if i ~= nil then
-        local surah_and_verse = string.sub(ft, j+1, -1)
-        local sep_loc = string.find(surah_and_verse, ":")
-        if sep_loc == nil then
-          sep_loc = string.find(surah_and_verse, "/")
-        end
-        local surah_index = string.sub(surah_and_verse, 1, sep_loc-1)
-        local verse_index = string.sub(surah_and_verse, sep_loc+1, -1)
-        local surah_names = {
+local surah_names = {
 [1] = "الفاتحة",
 [2] = "البقرة",
 [3] = "آل عمران",
@@ -131,30 +116,9 @@ function Link(el)
 [112] = "الإخلاص",
 [113] = "الفلق",
 [114] = "الناس",
+}
 
-
-        }
-        local arabic_text = "سورة " .. surah_names[tonumber(surah_index)]
-        local index_text = " " .. surah_index .. ":" .. verse_index
-        --local arabic_span
-        --if FORMAT:match 'latex' then
-        --  arabic_span = pandoc.Span(surah_name, {class="reg-ar-span", lang='ar'})
-        --elseif FORMAT:match 'html' then
-        --  arabic_span = pandoc.Span(surah_name, {class="reg-ar-span", lang='ar', dir='rtl'})
-        --end
-        --return pandoc.Link({arabic_span, index_text}, ft)
-        return pandoc.Link({ar_span.ArabicSpan(pandoc.Span(arabic_text, {class="ar"})), index_text}, ft)
-      end
-      local i, j = string.find(ft, "https://sunnah.com/")
-      if i ~= nil then
-        local book_and_hadith = string.sub(ft, j+1, -1)
-        local sep_loc = string.find(book_and_hadith, ":")
-        if sep_loc == nil then
-          sep_loc = string.find(book_and_hadith, "/")
-        end
-        local book_index = string.sub(book_and_hadith, 1, sep_loc-1)
-        local hadith_index = string.sub(book_and_hadith, sep_loc+1, -1)
-        local book_names = {
+local hadith_book_names = {
 ["bukhari"] = "صحيح البخاري",
 ["muslim"] = "صحيح مسلم",
 ["nasai"] = "سنن النسائي",
@@ -172,17 +136,83 @@ function Link(el)
 ["bulugh"] = "بلوغ المرام",
 ["forty"] = "الأربعينات",
 ["hisn"] = " حصن المسلم",
-        }
-        local arabic_text = book_names[book_index]
+}
+local tafsir_book_names = {
+["albahr-almuheet"] = "البحر المحيط لأبي حيان",
+["ibn-aashoor"]     = "تفسير التحرير والتنوير لابن عاشور",
+["tabari"]          = "تفسير الطبري",
+["ibn-katheer"]     = "تفسير ابن كثير",
+["ibn-alqayyim"]    = "تفسير ابن القيم",
+["ibn-taymiyyah"]   = "تفسير ابن تيمية",
+["ibn-uthaymeen"]   = "تفسير ابن عثيمين",
+["qurtubi"]         = "تفسير القرطبي",
+}
+
+function Link(el)
+  stringify = pandoc.utils.stringify
+  if #el.content == 1 then
+    local url_text = stringify(el.content[1])
+    if not string.find(url_text, " ") then -- no space in url
+      -- quran.com
+      local i, j = string.find(url_text, "https://quran.com/")
+      if i ~= nil then
+        local surah_and_verse = string.sub(url_text, j+1, -1)
+        local sep_loc = string.find(surah_and_verse, ":")
+        if sep_loc == nil then
+          sep_loc = string.find(surah_and_verse, "/")
+        end
+        local surah_index = string.sub(surah_and_verse, 1, sep_loc-1)
+        local verse_index = string.sub(surah_and_verse, sep_loc+1, -1)
+        local surah_name = surah_names[tonumber(surah_index)]
+        if not surah_name then
+          print("bad surah_index: " .. surah_index)
+        end
+        local arabic_text = "سورة " .. surah_name
+        local index_text = " " .. surah_index .. ":" .. verse_index
+        return pandoc.Link({ar_span.ArabicSpan(pandoc.Span(arabic_text, {class="ar"})), index_text}, url_text)
+      end
+      -- https://tafsir.app/
+      local i, j = string.find(url_text, "https://tafsir.app/")
+      if i ~= nil then
+        local tafsir_book_name_and_surah_and_verse = string.sub(url_text, j+1, -1)
+        local i, j = string.find(tafsir_book_name_and_surah_and_verse, "/")
+        local book_index = string.sub(tafsir_book_name_and_surah_and_verse, 1, j-1)
+        local tafsir_book_name = tafsir_book_names[book_index]
+        if not tafsir_book_name then
+          print("bad tafsir book name: " .. book_index)
+        end
+        local surah_and_verse = string.sub(tafsir_book_name_and_surah_and_verse, j+1, -1)
+        local sep_loc = string.find(surah_and_verse, ":")
+        if sep_loc == nil then
+          sep_loc = string.find(surah_and_verse, "/")
+        end
+        local surah_index = string.sub(surah_and_verse, 1, sep_loc-1)
+        local surah_name = surah_names[tonumber(surah_index)]
+        if not surah_name then
+          print("bad surah_index: " .. surah_index)
+        end
+        local verse_index = string.sub(surah_and_verse, sep_loc+1, -1)
+        local arabic_text = tafsir_book_name .. " لسورة " .. surah_name
+        local index_text = " " .. surah_index .. ":" .. verse_index
+        return pandoc.Link({ar_span.ArabicSpan(pandoc.Span(arabic_text, {class="ar"})), index_text}, url_text)
+      end
+
+      -- sunnah.com
+      local i, j = string.find(url_text, "https://sunnah.com/")
+      if i ~= nil then
+        local book_and_hadith = string.sub(url_text, j+1, -1)
+        local sep_loc = string.find(book_and_hadith, ":")
+        if sep_loc == nil then
+          sep_loc = string.find(book_and_hadith, "/")
+        end
+        local book_index = string.sub(book_and_hadith, 1, sep_loc-1)
+        local hadith_index = string.sub(book_and_hadith, sep_loc+1, -1)
+        local arabic_text = hadith_book_names[book_index]
+        if not arabic_text then
+          print("bad hadith book name: " .. book_index)
+        end
         local index_text = " :" .. hadith_index
-        --local arabic_span
-        --if FORMAT:match 'latex' then
-        --  arabic_span = pandoc.Span(book_name, {class="reg-ar-span", lang='ar'})
-        --elseif FORMAT:match 'html' then
-        --  arabic_span = pandoc.Span(book_name, {class="reg-ar-span", lang='ar', dir='rtl'})
-        --end
-        --return pandoc.Link({arabic_span, index_text}, ft)
-        return pandoc.Link({ar_span.ArabicSpan(pandoc.Span(arabic_text, {class="ar"})), index_text}, ft)
+        return pandoc.Link({ar_span.ArabicSpan(pandoc.Span(arabic_text, {class="ar"})), index_text}, url_text)
       end
     end
   end
