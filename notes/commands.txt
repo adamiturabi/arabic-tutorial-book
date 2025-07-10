@@ -1,0 +1,1 @@
+perl -i -pe's/;([#\w]+);/[$1]{.term}/g' *.qmd

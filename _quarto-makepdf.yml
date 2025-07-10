@@ -3,9 +3,9 @@ project:
 
 book:
   appendices:
-    - srcqmd/hamzarules.qmd
-    - srcqmd/gloss_terms.qmd
-    - srcqmd/usage_and_style.qmd
+    - content/hamzarules.qmd
+    - content/gloss_terms.qmd
+    - content/usage_and_style.qmd
 
 format:
   pdf:

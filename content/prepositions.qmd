@@ -1,0 +1,515 @@
+<!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
+
+# The prepositions
+
+## Introduction
+
+Prepositions are words like "in", "on", "from", etc. They are placed directly before a noun, for example: "in a house". The preposition "in" is placed directly before the noun "a house".
+
+In Arabic prepositions, when placed before a noun, put it in the [istate]{.subs}. For example the preposition [فِي]{.ar} [fI]{.trn} means "in". We can put it before the noun [بَيْت]{.ar} [bayt]{.trn} "a house":
+
+[فِي بَيْتٍ]{.ar}  
+[fI baytin]{.trn}  
+"in a house"
+
+Note how the noun [بَيْتٍ]{.ar} [baytin]{.trn} "a house" is in the [istate]{.subs} because of the preposition [فِي]{.ar} [fI]{.trn} "in" before it. The [istate]{.subs} is indicated by the [tanwin]{.subs}ed [imark]{.subs} [◌ٍ]{.ar} on the final letter of [بَيْت]{.ar}.
+
+Arabic has two types of prepositions: _true_ prepositions and _pseudo_-prepositions.
+
+## True prepositions
+
+True prepositions are _particles_. Particles are a class of words, like nouns and verbs. Particles don't have the properties of nouns. Thus, they cannot be definite or indefinite. They cannot be preceded by [ٱَلْ]{.ar} [al]{.trn} nor may they be [tanwin]{.subs}ed. And they don't have state ([ustate]{.subs}, [astate]{.subs}, [istate]{.subs}). 
+
+Here is a list of the more common true prepositions:
+
+Preposition | Meaning
+:--------------|:-------------
+[بِ]{.ar}   [bi]{.trn}   | with, by, next to
+[لِ]{.ar}   [li]{.trn}   | for, to
+[فِي]{.ar}  [fI]{.trn}   | in
+[عَلَىٰ]{.ar} [ealA]{.trn} | on
+[إِلَىٰ]{.ar} [EilA]{.trn} | to, toward
+[مِنْ]{.ar}  [min]{.trn}  | from
+[عَنْ]{.ar}  [ean]{.trn}  | from, about
+[كَ]{.ar}   [ka]{.trn}   | like
+
+Notes:
+
++ Prepositions that are a single letter (like 
+[بِ]{.ar} [bi]{.trn}, [ل]{.ar} [li]{.trn}, [كَ]{.ar} [ka]{.trn}) are joined to the following noun in writing. Example:
+  
+  [بِقَلَمٍ]{.ar}  
+  [biqalamin]{.trn}  
+  "with a pen"
+
+  [لِرَجُلٍ]{.ar}  
+  [lirajulin]{.trn}  
+  "for a man"
+
+  [كَٱبْنٍ]{.ar}  
+  [ka-bnin]{.trn}  
+  "like a son"
+
++ When a single letter preposition comes before a definite noun with [ٱَلْ]{.ar} [al]{.trn}, the preposition is generally joined to the [alif]{.trn2} in the [ٱَلْ]{.ar} [al]{.trn}. The [alif]{.trn2} is now not pronounced (because as we know it has a connecting [hamzah]{.trn2}). Example:
+
+  [بِٱلْقَلَمِ]{.ar}  
+  [bi-lqalami]{.trn}  
+  "with the pen"
+
+  If the noun begins with a connecting [hamzah]{.trn2} then the [ل]{.ar} in [ٱَلْ]{.ar} gets an [imark]{.subs} [◌ِ]{.ar} instead of its usual [0mark]{.subs} [◌ْ]{.ar}. We described this in 
+section\ \@ref(the-definite-article-with-nouns-with-an-initial-connecting-hamzah).
+Example:
+
+  [كَٱلِٱبْنِ]{.ar}  
+  [ka-li-bni]{.trn}  
+  "like the son"
+
++ The only exception is the preposition [لِ]{.ar} [li]{.trn}. When joined to a definite noun with [ٱَلْ]{.ar} [al]{.trn}, the [alif]{.trn2} in [ٱَلْ]{.ar} is dropped and we write the two [lAm]{.trn}s together. Example:
+
+  [لِلرَّجُلِ]{.ar}  
+  [li-rrajuli]{.trn}  
+  "for the man"
+
+  [لِلْجَارِيَةِ]{.ar}  
+  [li-ljAriyati]{.trn}  
+  "for the girl"
+
+  [لِلِٱبْنِ]{.ar}  
+  [li-li-bni]{.trn}  
+  "for the son"
+
+  However, in this case, if the noun too starts with a [lAm]{.trn}, then we drop the entire [ٱَلْ]{.ar} [al]{.trn} (in writing, not in meaning). This is to avoid having three [lAm]{.trn}s joined to each other. Example:
+
+  [ٱَللُّعْبَةُ]{.ar}  
+  [Ealluebatu]{.trn}  
+  "the toy"
+
+  becomes
+
+  [لِلُّعْبَةِ]{.ar}  
+  [li-lluebati]{.trn}  
+  "for the toy"
+
+  not 
+
+  $\times$\ [لِللُّعْبَةِ]{.ar}  
+
+  This is also true for the phrase:
+
+  [لِلَّـٰهِ]{.ar}  
+  [lillAhi]{.trn}  
+  "for [#allAh]{.trn2}"
+
+  which is formed from [لِ + ٱللَّـٰهِ]{.ar}
+
++ The prepositions 
+[عَلَىٰ]{.ar} [ealA]{.trn} "on" and
+[إِلَىٰ]{.ar} [EilA]{.trn} "to" have a long-[A]{.trn} vowel at the end but it is written with a dotless [yAE]{.trn2} [ىٰ]{.ar} instead of an [alif]{.trn2}. (We have already learned that some words are written this way in section\ \@ref(a-vowel-written-with-a-ya).)
+
++ Prepositions that are composed of multiple letters are not joined to the following noun. Example:
+
+  [إِلَىٰ مَدْرَسَةٍ]{.ar}  
+  [EilA madrasatin]{.trn}  
+  "to a school"
+
++ If a preposition ends with a long vowel, then, as usual, it get shortened to a short vowel when it is followed by a word which begins with a connecting [hamzah]{.trn2}. Examples:
+
+  [فِي ٱلْبَيْتِ]{.ar}  
+  [fi -lbayti]{.trn}  
+  "in the house"
+
+  [إِلَى ٱبْنٍ]{.ar}  
+  [Eila -bnin]{.trn}  
+  "to a son"
+
++ If a preposition ends with a [0mark]{.subs} [◌ْ ]{.ar} and it is followed by a word that begins with a connecting [hamzah]{.trn2}, then the [0mark]{.subs} is changed to a short vowel according to the following rules:
+
+  + The ending of the preposition [عَنْ]{.ar} [ean]{.trn} gets an [imark]{.subs} and becomes [عَنِ]{.ar} [eani]{.trn}. Examples:
+    
+    [عَنِ ٱلرَّجُلِ]{.ar}  
+    [eani -rrajuli]{.trn}  
+    "from the man"
+
+    [عَنِ ٱبْنٍ]{.ar}  
+    [eani -bnin]{.trn}  
+    "from the son"
+
+  + The ending of the preposition [مِنْ]{.ar} [min]{.trn} gets an [amark]{.subs} if followed by the [ٱَلْ]{.ar} [al]{.trn} of a definite noun. Otherwise it gets an [imark]{.subs} if followed by any other connecting [hamzah]{.trn2}. Examples:
+
+    [مِنَ ٱلرَّجُلِ]{.ar}  
+    [mina -rrajuli]{.trn}  
+    "from the man"
+
+    [مِنِ ٱبْنٍ]{.ar}  
+    [mini -bnin]{.trn}  
+    "from a son"
+
+## Pseudo-prepositions
+
+Pseudo-prepositions are actually nouns but they are used as prepositions. The above rules of writing and pronunciation apply to them as well.
+
+Here is a list of some common pseudo-prepositions:
+
+Preposition | Transcription | Meaning
+:-------|:-------|:-------------
+[عِنْدَ]{.ar} | [einda]{.trn} | at
+[لَدَىٰ]{.ar} | [ladA]{.trn}  | at
+[لَدُنْ]{.ar} | [ladun]{.trn} | at
+[مَعَ]{.ar}  | [maea]{.trn}  | together with
+[بَيْنَ]{.ar} | [bayna]{.trn} | between, among
+
+There are three different prepositions above that we have translated as "at". [لَدُنْ]{.ar} is relatively rarer compared to the others. Otherwise, they are largely interchangeable but there are some differences in meaning that we will explain later, if [#allAh]{.trn2} wills.
+
+Here are some examples using pseudo-prepositions:
+
+[مَعَ ٱلْغُلَامِ]{.ar}  
+[maea -lgulAmi]{.trn}  
+"with the boy"
+
+[عِنْدَ ٱلْبَيْتِ]{.ar}  
+[einda -lbayti]{.trn}  
+"at the house"
+
+[لَدَى ٱلْبَابِ]{.ar}  
+[lada -lbAbi]{.trn}  
+"at the door"
+
+[بَيْنَ ٱلنَّاسِ]{.ar}  
+[bayna -nnAsi]{.trn}  
+"among the people"
+
+<!--The preposition [عِنْدَ]{.ar} [einda]{.trn} "at" can be used with a person to mean  "the place of the person". For example
+
+[عِنْدَ ٱلرَّجُلِ]{.ar}  
+[einda -rrajuli]{.trn}  
+
+can be used to mean "at the man's [house, etc]."
+
+bayna repeated
+-->
+## Attached pronouns
+
+We have already learned detached pronouns [هُوَ]{.ar}, [هِيَ]{.ar}, and [أَنَا]{.ar} in section\ \@ref(detached-pronouns). 
+Detached pronouns are the equivalent of "he", "she", and "I", etc. They are used in place of nouns that are in the [ustate]{.subs}.
+
+Now we will learn about _attached pronouns_. Attached pronouns are, more or less, the equivalent of "him", "her", and "me", etc.
+They are used in place of nouns that are in the [astate]{.subs} and the [istate]{.subs}. One place where attached pronouns are used is when the replace the noun directly following a preposition.
+
+The singular attached pronouns are listed below. The detached pronouns are included as well for easy comparison.
+
+Participant | Detached pronoun | Attached pronoun
+:------|:----|:----
+Masc. absentee | [هُوَ]{.ar}  [huwa]{.trn} "him"      | [هُ]{.ar} [-hu]{.trn} "him"
+Fem. absentee  | [هِيَ]{.ar}  [hiya]{.trn} "her"      | [هَا]{.ar} [-hA]{.trn} "her"
+Masc. addressee| [أَنْتَ]{.ar} [Eanta]{.trn} "you~1,m~"| [كَ]{.ar} [-ka]{.trn} "you~1,m~"
+Fem. addressee | [أَنْتِ]{.ar} [Eanti]{.trn} "you~1,f~"| [كِ]{.ar} [-ki]{.trn} "you~1,f~"
+Speaker        | [أَنَا]{.ar} [Eana]{.trn} "I"        | [ي]{.ar} "me"
+
+<!--
+Attached pronouns have many uses and we will see in later chapters, if [#allAh]{.trn2} wills, how they attach to nouns and particles. Here we will learn how they are attach to prepositions. 
+
+Attached pronouns are used with prepositions when we want to replace the noun after a preposition with a pronoun. For example, if instead of saying "from the man" we would like to say "from him", or "from me", etc., we will attach the one of attached pronouns above to the end of the preposition.
+-->
+
+### Attached pronouns with prepositions
+
+As mentioned above, one place the attached pronouns are used are after prepositions.
+Here are some notes regarding how they attach to prepositions:
+
+1. Generally, these pronouns attach to the last letter of the preposition before it. Examples:
+   + [مِنْكَ]{.ar} [minka]{.trn} "from you"
+   + [مَعَهُ]{.ar} [maeahu]{.trn} "with him"
+   + [عَنْهَا]{.ar} [eanhA]{.trn} "from her"
+2. The [ىٰ]{.ar} [A]{.trn} ending of prepositions become [◌َيْ]{.ar} [-ay]{.trn} when attaching an attached pronoun. Examples:
+   + [إِلَيْهَا]{.ar} [EilayhA]{.trn} "to her"
+   + [عَلَيْكَ]{.ar} [ealayka]{.trn} "on you~m~"
+6. The pronoun [هُ]{.ar} [-hu]{.trn} "him" becomes [هِ]{.ar} [hi]{.trn} when it is preceded by the vowels [◌ِ]{.ar} [-i]{.trn}, [◌ِي]{.ar} [-I]{.trn}, or the semi-vowel [◌َيْ]{.ar} [-ay]{.trn}. So we get
+   + [بِهِ]{.ar} [bihi]{.trn} "with him"
+   + [فِيهِ]{.ar} [fIhi]{.trn} "in him"
+   + [إِلَيْهِ]{.ar} [Eilayhi]{.trn} "to him"
+4. The attached pronoun for the speaker deserves special attention.  The pronoun itself is the letter [ي]{.ar}. But it has two variants:
+   i.  [◌ِي]{.ar} [-I]{.trn}
+   ii. [◌ِيَ]{.ar} [-iya]{.trn} <!--This has a sub-variant: [يَ]{.ar} [-ya]{.trn}-->
+
+   Generally, both of these variants cause the final letter of the word before them, if a consonant, to have an [imark]{.subs} [◌ِ]{.ar}, regardless of the whether or not that letter originally had an [imark]{.subs}. Examples:
+   + [لِي]{.ar} [lI]{.trn} and      [لِيَ]{.ar} [liya]{.trn} "for me"
+   + [بِي]{.ar} [bI]{.trn} and      [بِي]{.ar} [biya]{.trn} "with/by me"
+   + [مَعِي]{.ar} [maeI]{.trn} and   [مَعِيَ]{.ar} [maeiya]{.trn} "together with me"
+   + [عِنْدِي]{.ar} [eindI]{.trn} and [عِنْدِيَ]{.ar} [eindiya]{.trn} "at me"
+
+   Between these two, variants, [◌ِي]{.ar} [-I]{.trn} is more commonly used generally, except in the cases described in the next point, below:
+3. For any word that ends with a long vowel ([-A]{.trn}, [-I]{.trn}, or [-U]{.trn}) or a semi-vowel ([-ay]{.trn} or [-aw]{.trn}), the variant [◌ِي]{.ar} [-I]{.trn} for the speaker attached pronoun is not used. Instead, only the variant [يَ]{.ar} [-ya]{.trn} may be used with such words. 
+
+   Prepositions that fall under this category are [فِي]{.ar} [fI]{.trn}, [عَلَىٰ]{.ar} [ealA]{.trn}, [إِلَىٰ]{.ar} [EilA]{.trn}, and [لَدَىٰ]{.ar} [ladA]{.trn}. Furthermore, the [ىٰ]{.ar} [-A]{.trn} ending in these will become [◌َيْ]{.ar} [ay]{.trn} instead when attaching the pronoun.
+
+   In addition, the pronoun [يَ]{.ar} [-ya]{.trn} will not cause the final letter of word before it to have an [imark]{.subs} because it does that only to consonants, not to vowels or semivowels.
+
+   So we get:
+
+   + [يَ]{.ar} + [فِي]{.ar} = [فِيَّ]{.ar} [fiyya]{.trn} "in me"
+   + [يَ]{.ar} + [إِلَيْ]{.ar} = [إِلَيَّ]{.ar} [Eilayya]{.trn} "to me"
+   + [يَ]{.ar} + [عَلَيْ]{.ar} = [عَلَيَّ]{.ar} [ealayya]{.trn} "on me"
+   + [يَ]{.ar} + [لَدَيْ]{.ar} = [لَدَيَّ]{.ar} [ladayya]{.trn} "at me".
+7. The preposition [كَ]{.ar} [ka]{.trn} "like" is not used with any attached pronoun. So, for example, we don't say:
+
+   + $\times$\ [كَهُ]{.ar} [kahu]{.trn} for "like him."
+
+   Instead, we will learn another method to express this meaning in later chapters, if [#allAh]{.trn2} wills.
+8. The word "between", because of its meaning, is typically used with two or more individuals. For example, "between us", "between you and him", etc. In Arabic, when the pseudo-preposition [بَيْنَ]{.ar} [bayna]{.trn} is used with a singular attached pronoun, it is repeated. For example,
+
+   + [بَيْنِي وَبَيْنَكَ]{.ar} [baynI wabaynaka]{.trn} "between me and you"
+
+<!--
+1. When the attached pronoun for the speaker is attached to prepositions that end with [نْ]{.ar}, like [مِنْ]{.ar} [min]{.trn}, [عَنْ]{.ar} [ean]{.trn}, and [لَدُنْ]{.ar} [ladun]{.trn}, an additional intervening [ن]{.ar} is added between the preposition and the attached pronoun. We then get: 
+   + [ي]{.ar} + [نِ]{.ar} + [مِنْ]{.ar} = [مِنِّي]{.ar} [minnI]{.trn}
+   + [ي]{.ar} + [نِ]{.ar} + [عَنْ]{.ar} = [عَنِّي]{.ar} [eannI]{.trn}
+   + [ي]{.ar} + [نِ]{.ar} + [لَدُنْ]{.ar} = [لَدُنِّي]{.ar} [ladunnI]{.trn}
+5. The preposition [لِ]{.ar} [li]{.trn} "for" becomes [لَ]{.ar} [la]{.trn} when followed by an attached pronoun, for all pronouns except the speaking person pronoun, where it remains [لِ]{.ar} [li]{.trn}:
+   + [لَهُ]{.ar} [lahu]{.trn} "for him"
+   + [لَهَا]{.ar} [lahA]{.trn} "for her"
+   + [لَكَ]{.ar} [laka]{.trn} "for you~m~"
+   + [لَكِ]{.ar} [laki]{.trn} "for you~f~"
+   + [لِي]{.ar} [lI]{.trn} and [لِيَ]{.ar} [liya]{.trn} "for me"
+
+1. There are two attached pronouns for the singular person: the long vowel [-I]{.trn}, written as [◌ِي]{.ar}, and [يَ]{.ar} [-ya]{.trn}. 
+Generally speaking, they are interchangeable but in normal usage [◌ِي]{.ar} [-I]{.trn} is much more commonly used than [يَ]{.ar} [-ya]{.trn}. 
+However, there are certain cases where the long vowel [◌ِي]{.ar} [-I]{.trn} is not permitted and [يَ]{.ar} [-ya]{.trn} is required. 
+We will mention those cases below.
+2. When using the speaking person attached pronouns [◌ِي]{.ar} [-I]{.trn} and [يَ]{.ar} [-ya]{.trn}, if there is a consonant before either of them it is forced to have a short [i]{.trn}-vowel [◌ِ]{.ar}, if it already doesn't have one. For example:
+   + [عِنْدَ]{.ar} [einda]{.trn} followed by [◌ِي]{.ar} [-I]{.trn} becomes [عِنْدِي]{.ar} [eindI]{.trn}.
+   + [مَعَ]{.ar} [maea]{.trn} followed by [يَ]{.ar} [-ya]{.trn} becomes [مَعِيَ]{.ar} [maeiya]{.trn}.
+1. When the speaking person attached pronoun is attached to prepositions that end with [نْ]{.ar}, like [مِنْ]{.ar} [min]{.trn}, [عَنْ]{.ar} [ean]{.trn}, and [لَدُنْ]{.ar} [ladun]{.trn}, an additional intervening [ن]{.ar} is added between the preposition and the attached pronoun. Being a consonant, this [ن]{.ar} is forced to have a short [i]{.trn}-vowel [◌ِ]{.ar} according to the rule above, and becomes [نِ]{.ar}. In writing, [ن]{.ar} is written only once and is doubled with a [shaddah]{.subs} [◌ّ]{.ar} on it. So we get:
+   + [ي]{.ar} + [نِ]{.ar} + [مِنْ]{.ar} = [مِنِّي]{.ar} [minnI]{.trn}
+   + [ي]{.ar} + [نِ]{.ar} + [عَنْ]{.ar} = [عَنِّي]{.ar} [eannI]{.trn}
+   + [ي]{.ar} + [نِ]{.ar} + [لَدُنْ]{.ar} = [لَدُنِّي]{.ar} [ladunnI]{.trn}
+2. The [ىٰ]{.ar} [A]{.trn} ending of prepositions is forced to become [◌َيْ]{.ar} [ay]{.trn} when attaching an attached pronoun. Examples:
+   + [إِلَيْهَا]{.ar} [EilayhA]{.trn} "to her"
+   + [عَلَيْكَ]{.ar} [ealayka]{.trn} "on you~masc.~"
+3. The speaking person attached pronoun [◌ِي]{.ar} [-I]{.trn} is not permitted to used with any word that ends with a long vowel ([-A]{.trn}, [-I]{.trn}, or [-U]{.trn}) or a semi-vowel ([-ay]{.trn} or [-aw]{.trn}). Instead, only [يَ]{.ar} [-ya]{.trn} may be used with such words. 
+
+   Prepositions that end with long vowels and semi-vowels include [فِي]{.ar} [fI]{.trn}, [عَلَىٰ]{.ar} [ealA]{.trn}, [إِلَىٰ]{.ar} [EilA]{.trn}, and [لَدَىٰ]{.ar}  [ladA]{.trn}. 
+   And remember that the previous rule forces [ىٰ]{.ar} [A]{.trn} ending in prepositions to become [◌َيْ]{.ar} [ay]{.trn} when attaching a pronoun.
+
+   So when adding the speaking person attached pronoun [يَ]{.ar} [-ya]{.trn} with these prepositions, only one [◌ِي]{.ar} is written and it is doubled thus: [يَّ]{.ar}. Examples:
+
+   + [يَ]{.ar} + [فِي]{.ar} = [فِيَّ]{.ar} [fiyya]{.trn} "in me"
+   + [يَ]{.ar} + [إِلَيْ]{.ar} = [إِلَيَّ]{.ar} [Eilayya]{.trn} "to me"
+   + [يَ]{.ar} + [عَلَيْ]{.ar} = [عَلَيَّ]{.ar} [ealayya]{.trn} "on me"
+   + [يَ]{.ar} + [لَدَيْ]{.ar} = [لَدَيَّ]{.ar} [ladayya]{.trn} "at me".
+
+   Note that the letter before the speaking person attached pronoun [يَ]{.ar} [-ya]{.trn} in these prepositions is not a consonant so it is not forced to have a short [i]{.trn}-vowel [◌ِ]{.ar}.
+5. The preposition [لِ]{.ar} [li]{.trn} "for" becomes [لَ]{.ar} [la]{.trn} when followed by an attached pronoun, for all pronouns except the speaking person pronouns [◌ِي]{.ar} [-I]{.trn} and [يَ]{.ar} [ya]{.trn} "me", where it remains [لِ]{.ar} [li]{.trn}:
+   + [لَهُ]{.ar} [lahu]{.trn} "for him"
+   + [لَهَا]{.ar} [lahA]{.trn} "for her"
+   + [لَكَ]{.ar} [laka]{.trn} "for you~masc.~"
+   + [لَكِ]{.ar} [laki]{.trn} "for you~fem.~"
+   + [لِي]{.ar} [lI]{.trn} and [لِيَ]{.ar} [liya]{.trn} "for me"
+6. The pronoun [ـهُ]{.ar} [-hu]{.trn} "him" becomes[هِ]{.ar} [hi]{.trn} when it is preceded by the vowels [◌ِ]{.ar} [i]{.trn}, [ـِي]{.ar} [I]{.trn}, or the semi-vowel [ـَيْ]{.ar} [ay]{.trn}. So we get
+   + [بِهِ]{.ar} [bihi]{.trn} "with him"
+   + [فِيهِ]{.ar} [fIhi]{.trn} "in him"
+   + [إِلَيْهِ]{.ar} [Eilayhi]{.trn} "to him"
+7. The preposition [كَ]{.ar} [ka]{.trn} "like" is not used with attached pronouns. So, for example, [كَهُ]{.ar} [kahu]{.trn} is not allowed for "like him."
+
+bayna repeated with pronouns
+-->
+
+## Translating prepositions
+
+For each preposition that we have listed above, we have also given its meaning. For example,
+
++ [فِي]{.ar} [fI]{.trn} "in"
++ [بِ]{.ar} [bi]{.trn} "with", "by", "next to"
+
+These meanings are not always fixed. And there is some degree of overlap in meanings as well. For example, in order to say "in the city" we will usually say
+[فِي ٱلْمَدِينَةِ]{.ar} [fi -lmadInati]{.trn} but sometimes we can also say
+[بِٱلْمَدِينَةِ]{.ar} [bi -lmadInati]{.trn} with the same meaning. As you keep learning, practicing, and reading Arabic, you will learn how to choose which preposition to use, if Allah wills.
+
+Similarly, sometimes we have two or more prepositions with almost the same meaning. For example,
+
++ [مِنْ]{.ar}  [min]{.trn}   "from"
++ [عَنْ]{.ar}  [ean]{.trn}   "from", "about"
+
+Knowing when to use one or the other will also take practice.
+
+<!--We will also see that English often uses one preposition to express a meaning, while Arabic will use another preposition to express the same meaning. For example, in English we say "angry _with_".  But Arabic usually uses the preposition [مِنْ]{.ar} [min]{.trn} "from" with [غَاضِبٌ]{.ar} [gADibun]{.trn} "angry" instead of using [بِ]{.ar} [bi]{.trn} "with". So in Arabic we would say [غَاضِبٌ مِنْ]{.ar} [gADibun min]{.trn} but we will still translate it as "angry with". This usage is idiomatic, and as you keep learning you will learn which prepositions to use in which circumstances.-->
+
+## Sentences and phrases with prepositions
+
+We have seen how a noun can be used after a preposition to get a prepositional phrase, for example:
+
+[فِي ٱلْبَيْتِ]{.ar}  
+[fi -lbayti]{.trn}  
+"in the house"
+<!--
+[ إِلَى ٱلْمَدِينَةِ]{.ar}  
+[Eila -lmadInati]{.trn}  
+"to the city"
+-->
+
+We can put an indefinite noun in front of this structure:
+
+<!--
+[طَريقٌ إِلَى ٱلْمَدِينَةِ]{.ar}  
+[TarIqun Eila -lmadInati]{.trn}  
+"a way to the city"  
+-->
+
+[رَجُلٌ فِي ٱلْبَيْتِ]{.ar}  
+[rajulun fi -lbayti]{.trn}  
+"a man in the house"
+
+This is a phrase and not a complete sentence.
+Note that the preposition [فِي]{.ar} [fI]{.trn} "in" only puts the noun after it ([ٱلْبَيْتِ]{.ar} [Ealbayti]{.trn} "the house") in the [istate]{.subs}. It has no effect on the state of the noun before it ([رَجُلٌ]{.ar} [rajulun]{.trn} "a man"). In this case, it is in the [ustate]{.subs}.
+
+Instead of an indefnite noun, we can also put a definite noun in front of the prepositional phrase. Now the resulting structure can, in general, have two meanings: (i) a complete sentence, and (ii) an incomplete sentence. For example,
+
+<!--
+[ٱَلطَّريقُ إِلَى ٱلْمَدِينَةِ]{.ar}  
+[EaTTarIqu Eila -lmadInati]{.trn}  
+1. "The way is to the city."  
+2. "The way to the city"
+-->
+
+[ٱَلرَّجُلُ فِي ٱلْبَيْتِ]{.ar}  
+[Earrujulu fi -lbayti]{.trn}  
+(i) "The man is in the house."  
+(ii) "The man in the house"
+
+Usually, it will be clear from the context which of the two meanings is valid. For example, the second meaning, "The man in the house", can be part of a complete sentence:
+<!--
+[ٱَلطَّريقُ إِلَى ٱلْمَدِينَةِ طَوِيلٌ]{.ar}  
+[EaTTarIqu Eila -lmadInati TawIlun]{.trn}  
+"The way to the city is long."
+-->
+
+[ٱَلرَّجُلُ فِي ٱلْبَيْتِ مُعَلِّمٌ.]{.ar}  
+[Earrujulu fi -lbayti mueallim.]{.trn}  
+"The man in the house is a teacher~m~."
+
+## Sentences with an indefinite [mubtada]{.subs}
+
+We said, in section\ \@ref(an-indefinite-noun-as-the-subject), that the [mubtada]{.subs} of a sentence is usually a definite noun. Now, we shall explore one way of allowing a sentence with an indefinite [mubtada]{.subs}.
+
+We have seen that if an indefinite noun is placed in front of a prepositional phrase, we get an incomplete sentence. For example,
+
+[رَجُلٌ فِي ٱلْبَيْتِ]{.ar}  
+[rajulun fi -lbayti]{.trn}  
+"a man in the house"
+
+Now we will see how to make the complete sentence (with an indefinite [mubtada]{.subs}): 
+
+"A man **is** in the house."
+
+<!--We have already stated that sentences with indefinite [mubtada]{.subs}s are not straightforward in Arabic. -->
+In order to express this sentence, we put the prepositional phrase first, and place the indefinite [mubtada]{.subs} after it:
+
+[فِي ٱلْبَيْتِ رَجُلٌ.]{.ar}  
+[fi -lbayti rajul.]{.trn}  
+"In the house is a man." = "A man is in the house."
+
+In English, it may sometimes be more convenient to translate this type of sentence using the expression "there is":
+
+"There is a man in the house."
+
+<!--In Arabic, however, we will not use the equivalent of "there" and will express this, as we have just explained, by placing the prepositional phrase first, and the indefinite [mubtada]{.subs} after it.-->
+
+## Prepositions with multiple nouns/pronouns
+
+In English, we can use a preposition with multiple nouns separated by "and", thus:
+
+"The boy went to the school and the house."
+
+A similar meaning can be achieved by repeating the preposition before each noun:
+
+"The boy went to the school and **to** the house."
+
+In Arabic as well, if there are multiple nouns associated with a preposition then you may choose to repeat the preposition or not. Examples:
+
+[إِلَى ٱلمَدْرَسَةِ وَإِلَى ٱلْبَيْتِ]{.ar}  
+[Eila -lbayti walmadrasati]{.trn}  
+"to the school to and the house"
+
+[إِلَى ٱلمَدْرَسَةِ وَٱلْبَيْتِ]{.ar}  
+[Eila -lbayti walmadrasati]{.trn}  
+"to the school and the house"
+
+Note that when you don't repeat the preposition, the second noun is still in the [istate]{.subs}.
+
+In English, you have a similar option when you use pronouns instead of nouns. All of the following should be acceptable:
+
+"to the boy and me"  
+"to the boy and to me"  
+"to him and me"  
+"to him and to me"
+
+In Arabic, however, if one or more pronouns is used then the prepositions must be repeated. Examples:
+
+[إِلَيَّ وَإِلَى ٱلْغُلَامِ]{.ar}  
+[Eilayya waEila -lgulAmi]{.trn}  
+"to me and to the boy"
+
+[إِلَيَّ وَإِلَيْهِ]{.ar}  
+[Eilayya waEilayhi]{.trn}  
+"to me and to him"
+
+## To have something
+
+English uses the verb "have" or "has" to express that someone 
+Arabic does not have a verb for "have" or "has". In order to express sentences like
+
+"I have a book."  
+"The boy has a father."  
+
+Arabic uses prepositions like 
+
++ [لِ]{.ar} [li]{.trn} "for"
++ [عِنْدَ]{.ar} [einda]{.trn} "at"
++ [لَدَىٰ]{.ar} [ladA]{.trn} "at"
++ [مَعَ]{.ar} [maea]{.trn} "together with"
+
+Here are some examples:
+
+[لِلْغُلَامِ أَبٌ.]{.ar}  
+[li -lgulAmi Eab.]{.trn}  
+"The boy has a father." (literally: "For the boy is a father.")
+
+[عِنْدَ ٱلرَّجُلِ كِتَابٌ.]{.ar}  
+[einda -rrajuli kitAb.]{.trn}  
+"The man has a book." (literally: "At the man is a book.")
+
+[مَعَ ٱلْجَارِيَةِ لُعْبَةٌ.]{.ar}  
+[maea -ljAriyati luebah.]{.trn}  
+"The girl has a toy." (literally: "With the girl is a toy.")
+
+Here are some notes that can help you choose which preposition to use to express "has" or "have":
+
++ [لِ]{.ar} [li]{.trn} "for" is used to express personal relationships, like "I have a friend", "I have a son", etc. It is also used when you wish to imply that you own the object. For example, the sentence
+
+  [لِلرَّجُلِ كِتَابٌ.]{.ar}  
+  [li -rrajuli kitAb.]{.trn}  
+
+  implies that the man owns a book. But it is possible that he has lent it to someone else so he does not actually have it on his person or at his house, etc.
+
++ [عِنْدَ]{.ar} [einda]{.trn} "at" is used to express that the person has the object in his possession, but not necessarily that he has it with him right now. For example the sentence
+
+  [عِنْدَ ٱلرَّجُلِ كِتَابٌ.]{.ar}  
+  [einda -rrajuli kitAb.]{.trn}  
+
+  implies that the man has a book in his possession. But it is possible that it may not be with him right now. It may be at his house or elsewhere.
+
++ [لَدَىٰ]{.ar} [ladA]{.trn} "at" is used to express that the person has the object in his possession and that he has it with him right now. For example the sentence
+
+  [لَدَى ٱلرَّجُلِ كِتَابٌ.]{.ar}  
+  [lada -rrajuli kitAb.]{.trn}  
+
+  implies that the man has a book in his possession and that he has it with him right now.
+
++ [مَعَ]{.ar} [maea]{.trn} "together with" is used to express that the person has the object with him right now. But it doesn't necessarily imply ownership. For example, the sentence 
+
+  [مَعَ ٱلرَّجُلِ كِتَابٌ.]{.ar}  
+  [maea -rrajuli kitAb.]{.trn}  
+
+  means that the man has a book with him right now. But it is possible that he does not own it and that someone else has lent it to him.
+
+There is some degree of overlap in meaning and you will get a feeling of which preposition is more appropriate in which circumstance as you progress in your learning, if Allah wills. For now, if you find that the object can be used with all of these prepositions, you might go with [عِنْدَ]{.ar} [einda]{.trn} as it is the more commonly used.
+

@@ -1,0 +1,1339 @@
+<!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
+
+# [#idafa]{.subs}
+
+## Introduction
+
+Consider the following expression:
+
+"the boy's book"
+
+This expression establishes a relation of _belonging_ between the two nouns: (i)\ "the boy", and (ii)\ "the book". It says that the book _belongs_ to the boy.
+
+Arabic expresses this meaning using a construction called _[idafa]{.subs}_. In this chapter we will learn about this construction.
+
+## Forming the [idafa]{.subs}
+
+The word "[idafa]{.subs}" means the addition of a new _annexed_ item to an existing _base_ item. We use the term _[idafa]{.subs}_ in Arabic grammar when an _[mudaf]{.subs}_ is annexed to a _[mudafil]{.subs}_ by being placed right before it. Here is an example of an [idafa]{.subs}:
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{ٱلْغُلَامِ} \txarb{كِتَابُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe noun};
+
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize base noun};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-2.south east)
+      node [midway, below] {\scriptsize [idafa]{.subs}};
+
+\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``the boy's book''};
+
+\end{tikzpicture}
+```
+
+<!--"the boy's book"  -->
+
+The [idafa]{.subs} construction consists of two nouns:
+
+1. The _[mudaf]{.subs}_: This is the first noun in the [idafa]{.subs}.
+1. The _[mudafil]{.subs}_: This is the second noun in the [idafa]{.subs}.
+
+The [mudaf]{.subs} [كِتَاب]{.ar} is annexed to, and belongs to, the [mudafil]{.subs} [ٱَلْغُلَام]{.ar}. 
+You can use the alphabetical  order (A,\ B) to help you remember that the **a**nnexe noun comes before the **b**ase noun.
+
+<!--
+Take note of the following points regarding the [idafa]{.subs} construction:
+
++ The [mudafil]{.subs} in an [idafa]{.subs} shall always be in the [istate]{.subs}.
++ The state of the [mudaf]{.subs} is variable and shall depend on its function in the sentence.
++ The [mudaf]{.subs} in an [idafa]{.subs} shall neither have an [tanwin]{.subs} nor the prefix [ٱَلْ]{.ar}.
+
+## Remove
+
+In Arabic we may chain two or more nouns in a sequence to establish an "of" relationship between them, in order to express, for example,
+
++ "the mother of the boy", or, equivalently" "the boy's mother".
++ "a house of a man", or, equivalently, "a man's house".
++ "the sword of Zayd", or equivalently, "Zayd's sword".
+
+In English, as you can see there we can express this relationship using the word "of" or using apostrophe-s "'s" between two nouns. In some phrases, using apostrophe-s is more natural than using the word "of".
+
+In Arabic we express these types of phrases by chaining the two nouns together thus:
+
+[أُمُّ ٱلْغُلَامِ]{.ar}  
+[Eummu -lgulAmi]{.trn}  
+"the mother of the boy", or, equivalently" "the boy's mother"
+
+We can identify noun-chains by noting that the first noun in the chain has neither an [tanwin]{.subs}, nor an [ٱَلْ]{.ar}, and the second noun in the chain will be in the [istate]{.subs}. 
+
+The first noun in the chain is the noun before "of" and the second noun in the chain is the noun after "of".
+-->
+## State of the [mudaf]{.subs} and [mudafil]{.subs}
+
+The [mudafil]{.subs} in an [idafa]{.subs} is always in the [istate]{.subs}. The [mudaf]{.subs} may be in any state, depending on its function in the sentence. For example,
+<!--
+   + [أُمُّ ٱلْغُلَامِ مُعَلِّمَةٌ.]{.ar}  
+     [Eummu -lgulAmi mueallimatun.]{.trn}  
+     "The mother of the boy is a teacher.", or, equivalently, "The boy's mother is a teacher."
+   + [وَجَدَ أُمَّ ٱلْغُلَامِ.]{.ar}  
+     [wajada Eumma -lgulAmi.]{.trn}  
+     "He found the boy's mother." (Note that [أُمَّ]{.ar} is in the [astate]{.subs}.)
+   + [كَتَبَتْ إِلَىٰ أُمِّ ٱلْغُلَامِ.]{.ar}  
+     [katabat EilA Eummi -lgulAmi.]{.trn}  
+     "She wrote to the boy's mother." (Note that [أُمِّ]{.ar} is in the [istate]{.subs}.)
+-->
+
+[كِتَابُ ٱلْغُلَامِ ثَقِيلٌ.]{.ar}  
+"The boy's book is heavy."  
+(The [mudaf]{.subs} is in the [ustate]{.subs}.)
+
+[أَخَذَتِ ٱلْجَارِيَةُ كِتَابَ ٱلْغُلَامِ.]{.ar}  
+"The girl took the boy's book."  
+(The [mudaf]{.subs} is in the [astate]{.subs}.)
+
+[كَتَبَ ٱلْمُعَلِّمُ فِي كِتَابِ ٱلْغُلَامِ.]{.ar}  
+"The teacher~m~ wrote in the boy's book."  
+(The [mudaf]{.subs} is in the [istate]{.subs}.)
+
+## Definiteness of the [idafa]{.subs}
+
+Consider again the [idafa]{.subs} expression we have been using so far:
+
+[كِتَابُ ٱلْغُلَامِ]{.ar}  
+"the boy's book"  
+
+The [mudafil]{.subs} [ٱَلْغُلَام]{.ar} is definite because it is prefixed by [ٱَلْ]{.ar} "the".
+Therefore we have translated it as "the boy".
+The [mudaf]{.subs} [كِتَاب]{.ar} is not made definite by [ٱَلْ]{.ar}.
+Nor is it made indefinite by [tanwin]{.subs}. 
+<!--Its definiteness is determined by the [mudafil]{.subs}. -->
+Rather, its definiteness is determined by the [mudafil]{.subs}.
+Because the [mudafil]{.subs} [ٱَلْغُلَام]{.ar} is definite, therefore the [mudaf]{.subs} [كِتَاب]{.ar} is also definite.
+The entire [idafa]{.subs} is definite.
+<!--If the [mudafil]{.subs} is definite (as it is above) then the [mudaf]{.subs} shall also be definite.
+And if the [mudafil]{.subs} is indefinite (as below) then the [mudaf]{.subs} shall also be indefinite.-->
+
+Consider now the case when the [mudafil]{.subs} is indefinite.
+
+[كِتَابُ غُلَامٍ]{.ar}  
+"a boy's book"  
+
+In the above example, the [mudafil]{.subs} [غُلَامٍ]{.ar} is indefinite because it is [tanwin]{.subs}ed and because it does not prefixed by [ٱَلْ]{.ar}. Therefore we have translated it as "a boy".
+The [mudaf]{.subs} [كِتَاب]{.ar} is neither [tanwin]{.subs}ed, nor does it have [ٱَلْ]{.ar}.
+Its definiteness is, again, determined by the [mudafil]{.subs}.
+Because the [mudafil]{.subs} [غُلَامٍ]{.ar} is indefinite, therefore the [mudaf]{.subs} [كِتَاب]{.ar} is also indefinite.
+The entire [idafa]{.subs} is indefinite.
+
+We will see soon, if [#allAh]{.trn2} wills, why the definiteness of the [mudaf]{.subs} is important.
+
+<!--
+
+As you can see above English has two constructs to translate the [idafa]{.subs}:
+
+i. using "'s"
+ii. using "of"
+
+Sometimes both of the above constructs will fit for the translation, and sometimes only one will fit. For convenience, we will often translate with only one of them.
+
+The [mudaf]{.subs} in an [idafa]{.subs} can have neither an [tanwin]{.subs}, nor an [ٱَلْ]{.ar}. 
+The [mudafil]{.subs} is permitted to have an [tanwin]{.subs} or an [ٱَلْ]{.ar} prefix. 
+The definiteness of the [mudafil]{.subs} then determines the definiteness of the [idafa]{.subs}. If the second noun is definite, then both the [mudaf]{.subs} and the [mudafil]{.subs}s be definite. And if the [mudafil]{.subs} is indefinite, then both the nouns in the chain will be indefinite. 
+
+[بَيْتُ مُحَمَّدٍ]{.ar}  
+[baytu muHammadin]{.trn}  
+"the  house of [#muHammad]{.trn2}"
+
+[بَيْتُ ٱلرَّجُلِ]{.ar}  
+[baytu -rrajuli]{.trn}  
+"The house of the man"
+
+[بَيْتُ رَجُلٍ]{.ar}  
+[baytu rajulin]{.trn}  
+"a house of a man"
+-->
+
+Here are some examples of definite and indefinite [idafa]{.subs}s.
+
+[لَبِسَ ٱلطِّفْلُ قَمِيصَ رَجُلٍ.]{.ar}  
+"The child wore _a_ man's shirt."
+
+[أَخَذَ أَمِيرُ ٱلْجَيْشِ رَايَةَ ٱلْمَلِكِ وَرَفَعَهَا.]{.ar}  
+"_The_ army's commander took _the_ king's flag and raised it."
+
+[جَلَسَ ٱلرَّجُلُ فِي ظِلِّ شَجَرَةٍ.]{.ar}  
+"The man sat in _a_ tree's shade."
+
+### Translating the [idafa]{.subs} using "of"
+
+So far we have been using the English "'s" to translate the Arabic [idafa]{.subs}. Examples:
+
+[بَيْتُ رَجُلٍ]{.ar}  
+"a man's house"
+
+[بَيْتُ ٱلرَّجُلِ]{.ar}  
+"the man's house"
+
+Instead of using "'s" we may use "of" as well. For example:
+
+[بَيْتُ رَجُلٍ]{.ar}  
+"a/the house of a man"
+
+[بَيْتُ ٱلرَّجُلِ]{.ar}  
+"a/the house of the man"
+
+Note that the [mudaf]{.subs} "house" may be prefixed with either "a" or "the". This will depend on what is more natural in English. Often time both will fit. Here are some examples:
+
+[لَبِسَ ٱلطِّفْلُ قَمِيصَ رَجُلٍ.]{.ar}  
+"The child wore a/the shirt of a man."
+
+[أَخَذَ أَمِيرُ ٱلْجَيْشِ رَايَةَ ٱلْمَلِكِ وَرَفَعَهَا.]{.ar}  
+"_The_ commander of the army took _the_ flag of the king and raised it."
+
+[جَلَسَ ٱلرَّجُلُ فِي ظِلِّ شَجَرَةٍ.]{.ar}  
+"The man sat in _the_ shade of a tree."
+
+[فَتَحَ ٱللِّصُّ شُبَّاكَ ٱلْبَيْتِ وَدَخَلَ ٱلْبَيْتَ.]{.ar}  
+"The thief opened _a/the_ window of the house and entered the house."
+
+It is important to understand that translating the [mudaf]{.subs} into English with "a" or "the" is purely for the reason of obtaining a natural translation. This does not affect whether or not the [mudaf]{.subs} is grammatically considered definite in Arabic.
+
+As we mentioned earlier, the definiteness of the [mudaf]{.subs} in Arabic depends only on the definiteness of the [mudafil]{.subs}. 
+If the [mudafil]{.subs} is definite then the [mudaf]{.subs} shall be considered definite as well.
+And if the [mudafil]{.subs} is indefinite then the [mudaf]{.subs} shall be considered indefinite as well.
+
+The need to maintain this distinction will become apparent in the next section.
+
+If the [mudafil]{.subs} is definite, and it is desired to make the [mudaf]{.subs} grammatically indefinite, then it is necassary to break the [idafa]{.subs}, and use a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
+
+[ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتٍ لِلرَّجُلِ.]{.ar}  
+"The boy went to a house of the man."
+
+[فَتَحَ ٱللِّصُّ شُبَّاكًّا مِنَ ٱلْبَيْتِ وَدَخَلَ ٱلْبَيْتَ.]{.ar}  
+"The thief opened a window of the house and entered the house."
+
+## Broken plurals and [At]{.trn} sound plurals in [idafa]{.subs}s {#broken-plurals-and-at-sound-plurals-in-[idafa]{.subs}s}
+
+There is no special rules for broken plurals and [At]{.trn} sound plurals in [idafa]{.subs}s. They behave just like singular nouns. Remember only that [At]{.trn} plurals end with [◌ٍ]{.ar} and [◌ِ]{.ar} in the [astate]{.subs}. Here are some examples:
+
+[حَيَوَانَاتُ ٱلْغَابَةِ وَحْشَةٌ.]{.ar}  
+"The animals of the forest are wild."
+
+<!--
+[كَتَبَتْ طَالِبَاتُ ٱلْمَدْرَسَةِ بِأَقْلَامِ مُعَلِّمَاتٍ.]{.ar}  
+"The school's students~f~ wrote with teachers'~f~ pens."
+-->
+
+[قَرَأَتْ طَالِبَاتُ ٱلْمَدْرَسَةِ صَفَحَاتِ ٱلْكُتُبِ]{.ar}  
+"The school's students~f~ read the pages of the books."
+
+[فِي ٱلْخِزَانَةِ أَقْلَامُ مُعَلِّمَاتٍ.]{.ar}  
+"In the cupboard are teachers'~f~ pens.
+
+Contrary to broken plurals and [At]{.trn} plurals, duals and [Un]{.trn} sound plurals behave differently in [idafa]{.subs}s. We will deal with them in section\ \@ref(duals-and-sound-un-plurals-in-[idafa]{.subs}s)
+
+## [#naat]{.subs}s in an [idafa]{.subs}
+
+### Describing the [mudafil]{.subs}
+
+Consider the following expression:
+
+[كِتَابُ ٱلْجَارِيَةِ]{.ar}  
+"the girl's book"
+
+Now say that we want to form an descriptive noun-phrase "the small girl's book". 
+Basically, we want to describe the [mudafil]{.subs} [ٱَلْجَارِيَة]{.ar} "the girl" with the [sifah]{.subs} [صَغِير]{.ar} "a small one". 
+Here is how we will express this in Arabic:
+
+[كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرَةِ]{.ar}  
+"the small girl's book"
+
+In the manner we are already familiar with, we place the [naat]{.subs} [صَغِير]{.ar} "a small one" after the [manut]{.subs}
+[ٱَلْجَارِيَة]{.ar} "the girl"
+and match the [naat]{.subs} with the [manut]{.subs} in definiteness, state, gender and number (singular, dual, or plural).
+
+Similarly, if we had an indefinite [idafa]{.subs}, we would get:
+
+[كِتَابُ جَارِيَةٍِ صَغِيرَةٍ]{.ar}  
+"a small girl's book"
+
+Here are some more examples:
+
+[لَعِبَتِ ٱلْجَارِيَةُ فِي حَدِيقَةِ ٱلْبَيْتِ ٱلْكَبِيرِ.]{.ar}  
+"The girl played in the garden of the big house."
+
+[قَرَأَ ٱلْغُلَامُ سُورَةَ ٱلْقُرْآنِ ٱلْكَرِيمِ.]{.ar}  
+"The boy read the [sUrah]{.trn2} of the Noble [#qurEAn]{.trn2}."
+
+[جَلَسَ ٱلرَّجُلُ فِي ظِلِّ شَجَرَةٍ عَرِيضَةٍ وَسِيعَةٍ.]{.ar}  
+"The man sat in the shade of a wide broad tree."
+
+### Describing the [mudaf]{.subs}
+
+Consider, again, the same [idafa]{.subs}:
+
+[كِتَابُ ٱلْجَارِيَةِ]{.ar}  
+"the girl's book"
+
+Say, now, that we want to describe the [mudaf]{.subs} [كِتَاب]{.ar} "book" with the [sifah]{.subs} [صَغِير]{.ar} "a small one". Normally, nothing can come between the [mudaf]{.subs} and the [mudafil]{.subs} in an [idafa]{.subs}. So, the [naat]{.subs} needs to be placed, again, after the [mudafil]{.subs}.
+However, this time it will match the [mudaf]{.subs}, not the [mudafil]{.subs}, in state, definiteness, gender, and number. So we get:
+
+[كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرُ]{.ar}  
+"the girl's small book"
+
+Note how the [naat]{.subs} 
+[ٱَلصَّغِيرُ]{.ar} matches the [mudaf]{.subs} [كِتَابُ]{.ar} in state and gender.
+Note also how the [naat]{.subs} is definite with an [ٱَلْ]{.ar}. This is because it is matching the [mudaf]{.subs} [كِتَابُ]{.ar} in definiteness.
+The [mudaf]{.subs} [كِتَاب]{.ar} is definite, not with [ٱَلْ]{.ar}, but rather because of the definite [mudafil]{.subs} [ٱَلْجَارِيَةِ]{.ar} "the girl".
+We've already learned this rule in 
+section\ \@ref(definiteness-of-the-[idafa]{.subs})
+above.
+
+Similarly, if we describe the [mudaf]{.subs} [كِتَاب]{.ar} in an indefinite [idafa]{.subs}, we get:
+
+[كِتَابُ جَارِيَةٍ صَغِيرٌ]{.ar}  
+"a girl's small book"
+
+This time
+the [naat]{.subs} 
+[صَغِيرٌ]{.ar}
+is indefinite with a [tanwin]{.subs}ed [umark]{.subs} [◌ٌ]{.ar}. 
+This is because 
+the [mudaf]{.subs} [كِتَابُ]{.ar} is indefinite. It is indefinite because [mudafil]{.subs} [جَارِيَةٍ]{.ar} "a girl" is indefinite.
+
+Now, you might be foreseeing a problem. What if the [mudaf]{.subs} and the [mudafil]{.subs} have the same gender, and the [mudaf]{.subs} too is in the [istate]{.subs}? For example, in the sentence:
+
+[ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ ٱلرَّجُلِ ٱلْكَبِيرِ.]{.ar}  
+"The boy went to the big/old man's house."  
+or  
+"The boy went to the man's big house."  
+
+How do we know whether the [naat]{.subs} [كَبِير]{.ar} is meant to describe the [mudaf]{.subs} [بَيْتِ]{.ar} or the [mudafil]{.subs} [ٱَلرَّجُل]{.ar}?
+The [mudaf]{.subs} [بَيْتِ]{.ar} and the [mudafil]{.subs} [ٱَلرَّجُل]{.ar} are both masculine, singular, definite, and in the [istate]{.subs}.
+
+The answer is that in such cases, context will have to be clear to tell us which of the two meanings is intended.
+If the context makes it clear then there is no harm in using such a sentence for either of the two meanings.
+<!--https://www.m-a-arabia.com/vb/showthread.php?t=40547
+دفع اللبس في احتمالية النعت للمضاف والمضاف إليه-->
+
+Also, sometimes, the meaning of the [naat]{.subs} is such that it will likely apply to only one of the two nouns. For example,
+
+[ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ ٱلرَّجُلِ ٱلْكَرِيمِ.]{.ar}  
+"The boy went to a noble/generous man's house."  
+
+In the sentence above the [naat]{.subs} [كَرِيم]{.ar} "noble/generous" is likely to apply to a man, and not to a house.
+
+If, however, the context is not clear, and the meaning of the [naat]{.subs} can apply to both the [mudaf]{.subs} and the [mudafil]{.subs}, then the [naat]{.subs} is likely to apply to the [mudafil]{.subs} and not to the [mudaf]{.subs}. So then, this interpretation is more likely:
+
+[ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ ٱلرَّجُلِ ٱلْكَبِيرِ.]{.ar}  
+"The boy went to the big/old man's house."  
+
+In order to apply a [naat]{.subs} to the [mudaf]{.subs} in such a case, it is better to break the [idafa]{.subs} and form a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
+
+[ذَهَبَ ٱلْغُلَامُ إِلَىٰ ٱلْبَيْتِ ٱلْكَبِيرِ لِلرَّجُلِ .]{.ar}  
+"The boy went to the big house of the man."  
+
+Here are some more examples:
+
+[لَعِبَتِ ٱلْجَارِيَةُ بِكُرَةِ ٱلْغُلَامِ ٱلْحَمرَاءِ.]{.ar}  
+"The girl played with the boy's red ball."  
+(Note that [حَمْرَاء]{.ar} feminine to match [كُرَة]{.ar}.)
+
+[سَقَطَتْ وَرَقَةُ ٱلشَّجَرَةِ ٱلْخَضْرَاءُ عَلَىٰ مَاءِ ٱلنَّعْرِ ٱلْعَرِيضِ.]{.ar}  
+"The green leaf of the tree fell on the water of the broad river."  
+(Note that [خَضْرَاء]{.ar} is in the [ustate]{.subs} to match [وَرَقَة]{.ar})
+
+[حَمَلَ ٱلْغُلَامُ حَقِيبَةَ ٱلْمَدْرَسَةِ ٱلثَّقِيلَةَ.]{.ar}  
+"The boy carried the heavy school-bag."  
+(literally: the heavy bag of the school).
+
+[كَتَبَ ٱلرَّجُلُ عَلَىٰ صَفْحَةِ كِتَابٍ بَيْضَاءَ.]{.ar}  
+"The man wrote on the white page of a book."  
+(Note that [بَيْضَاءَ]{.ar} is feminine to match [صَفْحَة]{.ar}. However, also note that it has an a-mark [◌َ]{.ar} in the [istate]{.subs} because it is semi-flexible.)
+
+<!--
+[ذَهَبَ ٱلطَّالِبُ إِلَىٰ مَدْرَسَةِ مَدِينَةٍ عَظِيمَةٍ.]{.ar}
+"The student went to a great city's school."  
+or  
+"The student went to a great school of a city."  
+-->
+
+## Semi-flexible nouns in an [idafa]{.subs}
+
+Remember that semi-flexible nouns are not [tanwin]{.subs}ed and that when indefinite, their [istate]{.subs} is indicated by an [amark]{.subs} [◌َ]{.ar}. 
+But when definite with [ٱَلْ]{.ar} then they behave just like fully-flexible nouns.
+Example of the semi-flexible noun 
+^2^[صَحْرَاء]{.ar} "a desert":
+
+State  | Indefinite | Definite
+:------|:-----------|:---------
+[ustate]{.subs}| [صَحْرَاءُ]{.ar} | [ٱَلصَّحْرَاءُ]{.ar}
+[astate]{.subs}| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءَ]{.ar}
+[istate]{.subs}| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءِ]{.ar}
+
+We will now see how semi-flexible nouns behave in an [idafa]{.subs}.
+
+### A semi-flexible noun as the [mudafil]{.subs}
+
+Here are examples of the semi-flexible noun ^2^[صَحْرَاء]{.ar} "a desert" as the [mudafil]{.subs} in an [idafa]{.subs}:
+
+[ٱَلْقَرْيَةُ فِي وَسَطِ ٱلصَّحْرَاءِ.]{.ar}  
+"The village is in the middle of the desert."
+
+[شَرِبَ ٱلْأَعْرَابِيُّ مَاءً مِنْ بِئْرِ صَحْرَاءَ.]{.ar}  
+"The bedouin drank some water from a desert's well."
+
+As you can see, when 
+^2^[صَحْرَاء]{.ar}
+is definite, then its [istate]{.subs} is indicate by an [imark]{.subs} [◌ِ]{.ar}, just like fully-flexible nouns. 
+However, when it is indefinite, then 
+its [istate]{.subs} is indicate by an [amark]{.subs} [◌َ]{.ar}.
+
+This is consistent with the general behavior of semi-flexible nouns that we are familiar with.
+
+### A semi-flexible noun as the [mudaf]{.subs}
+
+Contrary from expected behavior, a semi-flexible [mudaf]{.subs}, even when indefinite, takes an [imark]{.subs}\ [◌ِ]{.ar} in the [istate]{.subs} instead of an [amark]{.subs}\ [◌َ]{.ar}. Example,
+
+[قَدِمَ ٱلْأَعْرَابِيُّ مِنْ صَحْرَاءِ أَرْضٍ بَعِيدَةٍ.]{.ar}  
+"The bedouin came from the desert of a far land."
+
+In the above example,
+^2^[صَحْرَاء]{.ar} "a desert" is indefinite because it is the [mudaf]{.subs} to an indefinite [mudafil]{.subs} [أَرْض]{.ar} "a land". 
+It is in the [istate]{.subs} because it is preceded by the preposition [مِنْ]{.ar} "from". 
+Nevertheless, it takes an [imark]{.subs} [مِنْ صَحْرَاءِ أَرْضٍ]{.ar}, not an [amark]{.subs}, which would be incorrect: $\times$\ [مِنْ صَحْرَاءَ أَرْضٍ]{.ar}.
+
+## [#idafa]{.subs}s with more than two nouns
+
+So far we have seen [idafa]{.subs}s with two nouns. [#idafa]{.subs}s may be arbitrarily long. Here is an example of a noun-chain with more than two nouns:
+
+<!--
+[مِفْتَاحُ بَابِ ٱلْبَيْتِ]{.ar}  
+"the house's door's key"
+-->
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{ٱلْبَيْتِ} \txarb{بَابِ} \txarb{مِفْتَاحُ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-3.south west) -- (word-3.south east)
+      node [midway, below=0.5ex] {$a_1$};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, below=0.5ex] {$b_1$};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, below=2.75ex] {$a_2$};
+
+\draw [decoration={brace, mirror}, decorate, below=3ex] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below=2.75ex] {$b_2$};
+
+
+\path [decoration={text effects along path, 
+  text={``the house's door's key"},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate, below=6.75ex] (0,0);
+
+
+%\draw [decoration={brace, mirror, raise=3ex}, decorate] 
+%   (word-1.south west) -- (word-2.south east)
+%      node [midway, below=3ex] {[idafa]{.subs}};
+\end{tikzpicture}
+```
+
+The above [idafa]{.subs} consists of three nouns. It may be divided into two sub-[idafa]{.subs}s:
+
+i. [مِفْتَاحُ بَابِ]{.ar} "door's key". Its [mudaf]{.subs} $a_1$\ is [مِفْتَاح]{.ar} and its [mudafil]{.subs}\ $b_1$ is [بَابِ]{.ar}.
+i. [بَابِ ٱلْبَيْتِ]{.ar} "the house's door". Its [mudaf]{.subs} $a_2$\ is [بَابِ]{.ar} and its [mudafil]{.subs}\ $b_2$ is [ٱلْبَيْتِ]{.ar}.
+
+The noun [بَاب]{.ar} "door" is common to both sub-[idafa]{.subs}s. It is the [mudafil]{.subs} of the first sub-[idafa]{.subs}
+[مِفْتَاحُ بَابِ]{.ar} "door's key".
+At the same time, it is also the [mudaf]{.subs} of the second sub-[idafa]{.subs}
+[بَابِ ٱلْبَيْتِ]{.ar} "the house's door".
+
+Only the final [mudafil]{.subs} may have [ٱَلْ]{.ar} or be [tanwin]{.subs}ed. If the final [mudafil]{.subs} has [ٱَلْ]{.ar} (as above) then all the nouns in the [idafa]{.subs} are definite. 
+
+And if the final [mudafil]{.subs} is indefinite, as in the example below, then all the nouns in the [idafa]{.subs} are indefinite.
+
+[مِفْتَاحُ بَابِ بَيْتٍ]{.ar}  
+"a house's door's key"
+
+All the nouns except the first [mudaf]{.subs} must be in the [istate]{.subs}. Consistent with 
+section\ \@ref(a-semi-flexible-noun-as-the-annexe-noun)
+if a semi-flexible noun is any of the [mudaf]{.subs}s and is in the [istate]{.subs}, then its [istate]{.subs} is indicated by an [amark]{.subs} [◌َ]{.ar}. Example:
+
+[مِنْ بِئْرِ صَحْرَاءِ أَرْضٍ]{.ar}  
+"from the well of the desert of a land"
+
+## Pronouns as [mudafil]{.subs}s
+
+Consider the expression:
+
+"his book"
+
+This expression is very similar to the [idafa]{.subs}:
+
+[كِتَابُ ٱلْغُلَامِ]{.ar}  
+"the boy's book" 
+
+The difference is that we would like to replace the [mudafil]{.subs} [ٱَلْغُلَام]{.ar} "the boy" with the pronoun "his". For this we use the attached pronoun [هُ]{.ar}. When we place this pronoun as the [mudafil]{.subs}, we get:
+
+[كِتَابُهُ]{.ar}  
+"his book"
+
+This [idafa]{.subs} follows the same rules as the other [idafa]{.subs}s we have been studying so far:
+
++ The [mudaf]{.subs} may be in any state, depending on its function in the sentence.
++ The [mudafil]{.subs} is in the [istate]{.subs}. But because the [mudafil]{.subs} is a pronoun, and pronouns are rigid nouns (see section\ \@ref(rigidity-of-pronouns) that don't change their ending based on their state, therefore it's [istate]{.subs} will not be apparent.
+
+Here are some examples of this [idafa]{.subs} used in sentences:
+
+[كِتَابُهُ ثَقِيلٌ.]{.ar}  
+"His book is heavy"
+
+[قَرَأَ ٱلرَّجُلُ كِتَابَهُ.]{.ar}  
+"The man read his book."
+
+[كَتَبَ ٱلْمُعَلِّمُ فِي كِتَابهِ.]{.ar}  
+"The teacher~m~ wrote in his book."
+
+If the [mudaf]{.subs} ends with [ة]{.ar} then it is converted to a [ت]{.ar} when annexing it to an attached pronoun. For example:
+
+[ذَهَبُوا إِلَىٰ مَدْرَسَتِهِمْ.]{.ar}  
+"They went to their school."
+
+Here are some more examples of annexing to the different attached pronouns:
+
+[دَخَلْتَ بَيْتَكَ.]{.ar}  
+"You~1,m~ entered your~1,m~ house."
+
+[أَكَلَتَا طَعَامَهُمَا.]{.ar}  
+"They~2,f~ ate their~2~ food."
+
+[قَدِمْتُ إِلَىٰ مَدِينَتِكُمْ]{.ar}  
+"I have arrived to your~3,m~ city."
+
+[هُوَ إِمَامُ مَسْجِدِنَا.]{.ar}  
+"He is the [E#imAm]{.trn2} of our mosque."
+
+If the [mudaf]{.subs} is semi-flexible then it gets a [◌ِ]{.ar} in the [istate]{.subs}, as we've already learned. Example with the semi-flexible broken plural ^2^[حَدَائِق]{.ar} "gardens".
+
+[لَعِبْنَ فِي حَدَائِقِهِنَّ.]{.ar}  
+"They~3,f~ played in their~3,f~ gardens."
+
+If an [mudaf]{.subs} ends with [ىٰ]{.ar} then it gets converted to an [alif]{.trn2} when annexing it to an attached pronoun. Example with ^2^[فَتَاوَىٰ]{.ar} "legal opinions":
+
+[كَتَبَ تَلَامِذَةُ ٱلشَّيْخِ فَتَاوَاهُ فِي كُتُبِهِمْ.]{.ar}  
+"The pupils of the religious scholar wrote down his legal opinions in their books."
+
+For the singular speaker-participant there are two variants for the attached pronoun:
+
+i. [ي]{.ar} [-I]{.trn}
+ii. [يَ]{.ar} [-ya]{.trn}
+
+The first ([ي]{.ar} [-I]{.trn}) is more commonly used. Example:
+
+[قَرَأْتُ كِتَابِي]{.ar}  
+"I read my book."
+
+[أَقْلَامِي قَصِيرَة.]{.ar}  
+"My pens are short."
+
+If, however, the [mudaf]{.subs} ends in a long vowel or a semi-vowel then 
+([ي]{.ar} [-I]{.trn}) is disallowed and only
+([يَ]{.ar} [-ya]{.trn}) shall be used. 
+Example with the semi-flexible broken plural ^2^[هَدَايَا]{.ar} "gifts":
+
+[أَعْجَبَتْهُمْ هَدَايَايَ.]{.ar}  
+"My gifts pleased them."
+
+### [#naat]{.subs}s with [idafa]{.subs}s to pronouns
+
+Consider the [idafa]{.subs}:
+
+[كِتَابُهُ]{.ar}  
+"his book"
+
+The [mudaf]{.subs} is [كِتَاب]{.ar} and the [mudafil]{.subs} is the pronoun [ه]{.ar}.
+We would like add a [naat]{.subs} to this expression.
+Remember from section\ \@ref(definiteness-of-pronouns) that pronouns are definite nouns. That makes the [mudaf]{.subs} [كِتَاب]{.ar} also definite.
+Therefore, any [naat]{.subs} for this [idafa]{.subs} will need to be definite too.
+
+Here is a new rule: Pronouns may not be [manut]{.subs}s. That is: they are not allowed to have [naat]{.subs}s.
+Even in English you may say:
+
+"The good boy went."
+
+but you can't say:
+
+$\times$\ "The good _he_ went."
+
+So, any [naat]{.subs}s for the [idafa]{.subs} must necessarily only describe the [mudaf]{.subs}, not the base pronoun. Example:
+
+[كِتَابُهُ الأَحْمَرُ]{.ar}  
+"his red book"
+
+Here are some more examples:
+
+[كَتَبْتُ بِقَلَمِيَ ٱلْأَسْوَدِ]{.ar}  
+"I wrote with my black pen."
+
+[حَمَلَ غِلْمَانُ ٱلْقَرْيَةِ حَقَائبَهُمُ ٱلثَّقِيلَة إِلَىٰ مَدْرَسَتِهِمُ ٱلْبَعِيدَةِ.]{.ar}  
+"The village boys carried their heavy bags to their distant school."  
+(literally: the village's boys.)
+
+## Duals and [Un]{.trn} sound plurals in [idafa]{.subs}s {#duals-and-sound-un-plurals-in-[idafa]{.subs}s}
+
+We have already dealt with broken plurals and [At]{.trn} sound plurals in [idafa]{.subs}s in 
+section\ \@ref(broken-plurals-and-at-sound-plurals-in-[idafa]{.subs}s).
+
+In this section we will deal with 
+duals and [Un]{.trn} sound plurals in [idafa]{.subs}s.
+
+### Duals and [Un]{.trn} sound plurals as [mudafil]{.subs}s
+
+As [mudafil]{.subs}, duals and [Un]{.trn} sound plurals behave no differently than other nouns. Being [mudafil]{.subs}s they will be in the [istate]{.subs} and this shall be indicated by:
+
+i. [◌َيْنِ]{.ar} [-ayni]{.trn} for duals
+i. [◌ِينَ]{.ar} [-Ina]{.trn} for [Un]{.trn} sound plurals
+
+Here are some examples:
+
+[لَجِئَ ٱلْمَظْلُومُنَ ٱلضُّعَفَاءُ فِي بِلَادِ ٱلْمُسْلِمِينَ ٱلْآمِنَةِ.]{.ar}  
+"The weak wronged ones took refuge in the secure lands of the Muslims."
+
+[أُخُتُ ٱلْغُلَامَيْنِ ٱلطَّوِيلَيْنِ صَغِيرَةِ.]{.ar}  
+"The tall boys'~2~ sister is little."
+
+[هِيَ طَالِبَةُ مُعَلِّمَتَيْنِ كَرِيمَتَيْنِ.]{.ar}  
+"She is the student~f~ of noble teachers~2,f~."
+
+### Duals and [Un]{.trn} sound plurals as [mudaf]{.subs}s
+
+When duals and [Un]{.trn} sound plurals are [mudaf]{.subs}s, then their final [ن]{.ar} is treated as a sort of [tanwin]{.subs} and is, therefore, deleted before annexing them to a [mudafil]{.subs}. For example:
+
+[بَيْتَا ٱلرَّجُلِ]{.ar}  
+"the man's houses~2~"  
+not  
+$\times$\ [بَيْتَانِ ٱلرَّجُلِ]{.ar}
+
+Note, also, that because the [mudafil]{.subs} [ٱَلرَّجُلِ]{.ar} begins with a connecting [hamzah]{.trn2} [ٱ]{.ar}, therefore the long vowel [A]{.trn} at the end of [بَيْتَا]{.ar} is pronounced as a short vowel [a]{.trn}, thus:
+
+[bayta -rrajuli]{.trn}  
+not  
+$\times$\ [baytA -rrajuli]{.trn}
+
+If the dual [mudaf]{.subs} were in the [istate]{.subs} then the final [ي]{.ar} gets an [imark]{.subs} [◌ِ]{.trn} if there is following connecting [hamzah]{.trn2}. Example:
+
+[قَرَأْتُ كِتَابَيِ ٱلرَّجُلِ.]{.ar}  
+[qaraEtu kitAbayi -rrajul]{.trn}  
+"I read the man's books~2~."
+
+Here are some more examples including [Un]{.trn} sound plurals:
+
+[مُعَلِّمُو ٱلْغُلَامِ كِرَامٌ.]{.ar}  
+[mueallimu -lgulAmi kirAm.]{.trn}  
+"The boy's teachers~3~ are noble."  
+(Note that there is no silent [alif]{.trn2} after [مُعَلِّمُو]{.ar} as there is after a verb with a plural absentee-participant [fail]{.subs} pronoun, e.g. [لَعِبُوا]{.ar} "they~3,m~ played")
+
+[لَعِبَ ٱبْنَا ٱلرَّجُلِ مَعَ لَاعِبِي مَدِينَتِهِمْ.]{.ar}  
+[laeiba -bna -rrajuli maea lAeibI madInatihim.]{.trn}  
+"The man's sons~2~ played with the players of their city."
+
+#### Annexing duals and [Un]{.trn} sound plurals to pronouns
+
+Duals and [Un]{.trn} sound plurals can be annexed to attached pronouns, and in this case too, they will lose their final [ن]{.ar}. Examples:
+
+[مُعَلِّمُونَا طَيِّبُونَ.]{.ar}  
+"Our teachers~3,m~ are good."
+
+[لَعِبَتِ ٱلْجَارِيَةُ مَعَ صَدِيقَتَيْهَا]{.ar}  
+"The girl played with her friends~2,f~."
+
+[بَيْتَايَ كَبِيرَانِ.]{.ar}  
+"My houses~2~ are big."  
+(Note that only the [يَ]{.ar} variant is allowed to be used because of [بَيْتَا]{.ar} ending with a long vowel.)
+
+[قَرَأْتُ كِتَابَيَّ]{.ar}  
+(Note how [كِتَابَيْ + يَ]{.ar} becomes [كِتَابَيَّ]{.ar}.)
+
+There are also two special cases in this category and we will examine them below:
+
+##### Annexing an [Un]{.trn} sound plural to the singular speaker participant pronoun {-} 
+
+When an [Un]{.trn} sound plural is annexed to the singular speaker participant pronoun, then again, only the [يَ]{.ar} variant can be used. However, in addition, the expression will appear the same regardless of the state of the [mudaf]{.subs}. So for all states ([ustate]{.subs}, [astate]{.subs}, and [istate]{.subs}), we will get:
+
+[مُعَلِّمِيَّ]{.ar}
+
+We don't say $\times$\ [مُعَلِّمُويَ]{.ar} for the [ustate]{.subs}. Examples:
+
+[مُعَلِّمِيَّ كِرَامٌ.]{.ar}  
+"My teachers~3,m~ are noble."  
+([ustate]{.subs})
+
+[سَأَلْتُ مُعَلِّمِيَّ]{.ar}  
+"I asked my teachers~3,m~."  
+([astate]{.subs})
+
+[أَخَذْتُ كِتَابًا مِنْ مُعَلِّمِيَّ]{.ar}  
+"I took a book from my teachers~3,m~."  
+([istate]{.subs})
+
+##### Annexing an dual noun to a dual pronoun {-} 
+
+<!-- see فقد صغت قلوبكما-->
+When a dual noun is to be annexed to a dual pronoun, then the dual [mudaf]{.subs} is often converted to a plural. For example, instead of saying 
+
+[نَظَرْتُ إِلَىٰ رَأْسَيْهِمَا]{.ar}
+"I looked at their~2~ heads~2~."
+
+it is in fact, more common, to say
+
+[نَظَرْتُ إِلَىٰ رُؤُوسِهِمَا]{.ar}
+"I looked at their~2~ heads~3~."
+
+Although the former is also correct. This is because the [idafa]{.subs} of a dual to a dual is considered burdensome upon the tongue to utter, and so the plural is prefered.
+
+<!--
+
+Compare this with describing the [mudafil]{.subs} with the same [sifah]{.subs}.
+
+[كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرَةِ]{.ar}  
+"the girl's small book"
+
+As you can see, the [sifah]{.subs} [صَغِير]{.ar} "a small one" is in the same location, but its gender and state are different in both expressions because they match a different [manut]{.subs}. 
+The definiteness, however, is the same in the two expressions because the [mudaf]{.subs} has the same definiteness as the [mudafil]{.subs}.
+
+
+
+If the second noun in a chain is to be described using a qualitative noun, then just like we have learned, we will place the qualitative noun after the second noun in the chain and match it definiteness, state, gender, and number (depending on whether it denotes a rational or non-rational being). Examples: 
+
+[بَيْتُ رَجُلٍ كَبِيرٍ]{.ar}  
+[baytu rajulin kabIrin]{.trn}  
+"a house of an old/big man" = "an old/big man's house"
+
+[بُيُوتُ ٱلرِّجالِ ٱلْكِبَارِ]{.ar}  
+[buyUtu -rrijAli -lkibAri]{.trn}  
+"houses of the old/big men" = "the old/big men's houses"
+
+If the first noun in a chain is to be described using a qualitative noun, then we will actually place the qualitative noun after the second noun, not the first noun, in the chain. This way we don't break the chain of the two nouns. The [naat]{.subs} will match the first noun definiteness, state, gender, and number (depending on whether it denotes a rational or non-rational being). Examples: 
+
+[بَيْتُ رَجُلٍ كَبِيرٌ]{.ar}  
+[baytu rajulin kabIrun]{.trn}  
+"a big house of a man" = "a man's big house"
+
+[بُيُوتُ  ٱلْمَرْأَةِ ٱلْكَبِيرَةُ]{.ar}  
+[buyUtu -lmarEati -lkabIratu]{.trn}  
+"the big houses of the woman" = "the woman's big houses"
+
+Consider, however, the sentence:
+
+[ذَهَبَ إِلَىٰ بَيْتِ رَجُلٍ كَبِيرٍ.]{.ar}  
+[pahaba EilA bayti rajulin kabIrin.]{.trn}  
+
+In this sentence both the first noun in the chain [بَيْتِ]{.ar} [bayti]{.trn} and second noun [رَجُلٍ]{.ar} [rajulin]{.trn} are indefinite, singular, masculine, and in the [istate]{.subs}. So the [naat]{.subs} [كَبِيرٍ]{.ar} [kabirin]{.trn} could be applicable to either. And the meaning of the sentence could be either,
+
+"He went to a man's big house."
+
+or,
+
+"He went to a big/old man's house."
+
+The listener would know from context which of the two meanings is intended. If the speaker wished to explicitly disambiguate the meanings without relying on context, he could use the preposition [لِ]{.ar} instead of using a noun-chain. Here the preposition [لِ]{.ar} gives the meaning of "of", rather than "for".
+
+[ذَهَبَ إِلَىٰ بَيْتٍ كَبِيرٍ لِرَجُلٍ.]{.ar}  
+[pahaba EilA baytin kabIrin lirajulin.]{.trn}  
+"He went to a big house of a man." = "He went to a man's big house."
+
+and,
+
+[ذَهَبَ إِلَىٰ بَيْتٍ لِرَجُلٍ  كَبِيرٍ.]{.ar}  
+[pahaba EilA baytin kabIrin lirajulin.]{.trn}  
+"He went to a big/old man's house."
+
+## Duals and plurals in noun chains
+
+### Duals
+
+Remember that duals are expressed by suffixing [ـَانِ]{.ar} [Ani]{.trn} to the noun when it is in the [ustate]{.subs} and [ـَيْنِ]{.ar} [ayni]{.trn} when it is in the [astate]{.subs} and [istate]{.subs}.
+
+If a dual is the second noun in a chain, then it is not treated any differently from any other noun. For example,
+
+[بَيْتُ ٱلرَّجُلَيْنِ]{.ar}  
+[baytu -rrajulayni]{.trn}  
+"the house of the two men"
+
+If a dual is the first noun in a chain, then the [ن]{.ar} in the dual suffix is dropped. For example,
+
++ [بَيْتَا ٱلرَّجُلِ وَاسِعَانِ.]{.ar}  
+  [bayta -rrajuli wAsieAni.]{.trn}  
+  "The two houses of the man are spacious."
+
+  Note that [بَيْتَا ٱلرَّجُلِ ]{.ar} [bayta -rrajuli]{.trn} is technically pronounced identically to [بَيْتَ ٱلرَّجُلِ]{.ar} [bayta -rrajuli]{.trn}. The [alif]{.trn2} in [بَيْتَا]{.ar} is not pronounced because of the connecting [hamzah]{.trn2} after it. Some say that extra stress may be placed on the vowel [ta]{.trn} in order to convey that it is the dual: [bay#t#a -rrajuli]{.trn}.
+
++ [ذَهَبَ إِلَىٰ مَدِنَتَيْ بَلَدٍ.]{.ar}  
+  [pahaba EilA madInatay baladin.]{.trn}  
+  "He went to two cities of a country."
++ [فَتَحَ بَابَيِ ٱلْبَيْتِ.]{.ar}  
+  [fataHa bAbayi -lbayti.]{.trn}  
+  "He opened the two doors of the house."
+
+  Note that a helper [imark]{.subs} is placed on the [ي]{.ar} in [بَابَيِ]{.ar} [bAbayi]{.trn} instead of the [0mark]{.subs} because of the connecting [hamzah]{.trn2} after it.
+
+### Plurals
+
+We have learned three kinds of plurals:
+
+1. The sound [Un]{.trn} plural.
+2. The sound [At]{.trn} plural.
+3. The broken plural.
+
+The sound [Un]{.trn} plural behaves similarly to the dual in that when it is the first noun in a chain, the [ن]{.ar} is dropped. Examples:
+
++ [مُعَلِّمُو ٱلْغُلَامِ فِي ٱلْمَدْرَسَةِ.]{.ar}  
+  [mueallimu -lgulAmi fi -lmadrasati.]{.trn}  
+  "The teachers of the boy are in the school."
+
+  Note, again, that [مُعَلِّمُو ٱلْغُلَامِ]{.ar} is technically pronounced identically to [مُعَلِّمُ ٱلْغُلَامِ]{.ar} [mueallimu -lgulAmi]{.trn}, except some say that extra stress may be placed on the vowel [مُ]{.ar} in the case of the plural [muealli#m#u -lgulAmi]{.trn}. This can serve to differentiate it from the singular when heard orally:
+
+  [مُعَلِّمُ ٱلْغُلَامِ فِي ٱلْمَدْرَسَةِ.]{.ar}  
+  [mueallimu -lgulAmi fi -lmadrasati.]{.trn}  
+  "The teacher of the boy is in the school."
+
++ [وَجَدَ مُعَلِّمي غُلَامٍ.]{.ar}  
+  [wajada mueallimI gulAmin.]{.trn}  
+  "He found teachers of a boy."
+
++ [ذَهَبَ إِلَىٰ مُعَلِّمِي ٱلْغُلَامِ.]{.ar}  
+  [pahaba EilA mueallimi -lgulAmi.]{.trn}  
+  "He went to the teachers of the boy."
+
+  Here too, some say to place extra stress on the vowel [مِ]{.ar} [muealli#m#i -lgulAmi]{.trn} in order to differentiate it to the listener from the singular:
+
++ [ذَهَبَ إِلَىٰ مُعَلِّمِ ٱلْغُلَامِ.]{.ar}  
+  [pahaba EilA mueallimi -lgulAmi.]{.trn}  
+  "He went to the teacher of the boy."
+
+The other two types of plurals: the sound [At]{.trn} plural and the broken plural are not treated any differently from other nouns when used in chains. Examples:
+
++ [بُيُوتِ الرَّجُلِ وَاسِعَةٌ.]{.ar}  
+  [buyUtu -rrajuli wAsieatun.]{.trn}  
+  "The houses of the man are spacious."
+
++ [ذَهَبَتِ ٱلْمَعَلِّمَةُ إِلَىٰ طَالِبَاتِ ٱلْمَدْرَسَةِ.]{.ar}  
+  [pahabati -lmueallimatu EilA TAlibAti -lmadrsati.]{.trn}  
+  "The (female) teacher went to the (girl) students of the school."
+
+## Non-fully changing nouns in noun-chains
+
+Remember that a non-fully changing noun without [ٱَلْ]{.ar} is not [tanwin]{.subs}ed and its last letter keeps an [amark]{.subs} instead of an [imark]{.subs} when in the [istate]{.subs}. When definite with [ٱَلْ]{.ar}, it is similar to fully-changing nouns.
+
+So when a non-fully changing noun without [ٱَلْ]{.ar} is the second noun in a noun-chain, it will have an [amark]{.subs} instead of an [imark]{.subs}.
+
+For example, [صَحْرَاءُ]{.ar} [SaHrAEu]{.trn} "a desert" is a non-fully-changing noun. "A desert's sky" will be expressed as:
+
+[سَمَاءُ صَحْرَاءَ]{.ar}  
+[samAEu SaHrAEa]{.trn}
+
+not:
+
+[سَمَاءُ صَحْرَاءِ]{.ar}  
+[samAEu SaHrAEi]{.trn}
+
+Similarly, [جَمِيلَةُ]{.ar} "[#jamIlah]{.trn2}" as a woman's name is a proper noun and is a non-fully-changing noun. "[#jamIlah]{.trn2}'s house" will be expressed as:
+
+[بَيْتُ جَمِيلَةَ]{.ar}  
+[baytu jamIlata]{.trn}  
+
+not:
+
+[بَيْتُ جَمِيلَةِ]{.ar}  
+[baytu jamIlati]{.trn}  
+
+However, as an exception, when an indefinite non-full-changing noun is the first noun in a noun-chain and is in the [istate]{.subs}, it will actually take an [imark]{.subs} on its last letter. For example, [صَحْرَاءُ]{.ar} [SaHrAEu]{.trn} "a desert" is a non-fully-changing noun.
+
+"in the desert of [#makkah]{.trn2}" will be expressed as,
+
+[فِي صَحْرَاءِ مَكَّةَ]{.ar}  
+[fI SaHrAEi makkata]{.trn}  
+
+As you can see, [صَحْرَاءِ]{.ar} [SaHrAEi]{.trn} has an [imark]{.subs} despite being a non-fully-changing noun, exemplifying the exceptional rule we have just stated. Also note, by the way, that [مَكَّةَ]{.ar} [makkata]{.trn} has an [amark]{.subs} on it's last letter in the [istate]{.subs} because it is a non-fully-changing noun without [ٱَلْ]{.ar} as the second noun in a noun-chain.
+
+## Noun chains with more than two nouns
+
+So far we have seen noun-chains with two nouns. Noun-chains can be arbitrarily long, although practically they will usually be less than five nouns long. Here is an example of a noun-chain with more than two nouns:
+
++ [مِفْتَاحُ بَابِ بَيْتِ ٱلرَّجُلِ]{.ar}  
+  [miftAHu bAbi bayti -rrajuli]{.trn}  
+  "the key of the door of the man's house"
+
++ [سَمَاءُ صَحْرَاءِ مَكَّةَ]{.ar}  
+  [samAEu SaHrAEi makkata]{.trn}  
+  "the sky of the desert of Makkah"
+
++ [كِتَابَا جَارِيَتَيْ مَدِينَةِ دَمِشْقَ]{.ar}  
+  [kitAbA jAriyatay madInati damicqa]{.trn}  
+  "the two books of the two girls of the city of Damascus"
+
++ [مِنْ وَرَقَتَيْ شَجَرَةِ حَدِيقَةٍ صَغِيرَتَيْنِ]{.ar}  
+  [min waraqatay cajarati HadIqatin]{.trn}  
+  "from two small leaves of a tree of a garden"
+
+Note the following:
+
++ Only the last noun may have [ٱَلْ]{.ar} or [tanwin]{.subs}. 
++ The definiteness of the last noun determines the definiteness of the rest of the nouns in the chain. 
++ All the nouns except the first must be in the [istate]{.subs}. 
++ The [ن]{.ar} of the dual and the [Un]{.trn} plural is dropped for all nouns except the last.
++ Any non-fully-changing noun in the [istate]{.subs} in any position but the last will take an [imark]{.subs} on it's last letter. If a non-fully-changing noun is the last noun in the chain, and it does not have [ٱَلْ]{.ar} then it will take an [amark]{.subs} on it's last letter.
++ [#naat]{.subs}s for any of the nouns in the chain will appear at the end. Practically, only one of the nouns will have a [naat]{.subs}.
+
+## Mismatched definiteness in noun-chains
+
+We have learned that if the second noun is definite (either by having [ٱَلْ]{.ar}, or by being a proper noun), then both the nouns in the chain will be definite. And if the second noun is indefinite, then both the nouns in the chain will be indefinite. 
+
+What if we need to express an of-relationship where the two nouns are not both definite or both indefinite? For example, how then do we express phrases like "a house of the man" and "the house of a man"? 
+In order to express the former, we can employ the preposition [لِ]{.ar}:
+
+[ذَهَبَ إِلَىٰ بَيْتٍ لِلرَّجُلِ.]{.ar}  
+[pahaba EilA baytin lirrajuli]{.trn}  
+"He went to a house of the man."
+
+Another way to express this is that we may interpret the phrase "a house of the man" to understand that the man has more than one house and that we are talking about one of them. In this case, we can use the plural to say,
+
+[ذَهَبَ إِلَىٰ بَيْتٍ مِنْ بُيُوتِ ٱلرَّجُلِ]{.ar}  
+[pahaba EilA baytin min buyUti -rrajuli.]{.trn}  
+"He went to a house from the houses of the man."
+
+This use of the plural, although fairly common, may be more appropriate in some cases than others, depending on the meaning of the sentence. 
+
+The question remains: how to express a phrase of the type "the house of a man", where the first noun in definite and the second noun is indefinite?
+
+In this case we will use the same expression as we did for "a house of a man":
+
+[بَيْتُ رَجُلٍ]{.ar}  
+[baytu rajulin]{.trn}  
+"a house of a man"
+
+Technically, "house" is indefinite in this expression, but it can still be used idiomatically to translate "the house of a man." It may help to use apostrophe-s in the translation where the definiteness of "house" is not apparent: "a man's house".
+
+## Pronouns in a noun-chain
+
+Consider the noun-chain:
+
+[بَيْتُ ٱلرَّجُلِ]{.ar}  
+[baytu -rrajuli]{.trn}  
+"the house of the man" = "the man's house"
+
+We can replace the noun "the man" with the attached pronoun [ـهُ]{.ar} [-hu]{.trn} "him" to get:
+
+[بَيْتُهُ]{.ar}  
+[baytuhu]{.trn}  
+"the house of him" = "his house"
+
+This can be done with all the attached pronouns:
+
+|Arabic|English|
+|:---|:----|
+|[بَيْتُهُ]{.ar} [baytuhu]{.trn}    |  his house |
+|[بَيْتُهَا]{.ar} [baytuhA]{.trn}   |  her house |
+|[بَيْتُهُمَا]{.ar} [baytuhumA]{.trn}|  their~dual\ masc.~ house |
+|[بَيْتُهُمَا]{.ar} [baytuhumA]{.trn}|  their~dual\ fem.~ house |
+|[بَيْتُهُمْ]{.ar} [baytuhum]{.trn}  |  their~pl.\ masc.~ house |
+|[بَيْتُهُنَّ]{.ar} [baytuhunna]{.trn}|  their~pl.\ fem.~ house |
+|[بَيْتُكَ]{.ar} [baytuka]{.trn}    |  your~sing.\ masc.~ house |
+|[بَيْتُكِ]{.ar} [baytuki]{.trn}    |  your~sing.\ fem.~ house |
+|[بَيْتُكُمَا]{.ar} [baytukumA]{.trn}|  your~dual~ house |
+|[بَيْتُكُمْ]{.ar} [baytukum]{.trn}  |  your~pl.\ masc.~ house |
+|[بَيْتُكُنَّ]{.ar} [baytukunna]{.trn}|  your~pl.\ fem.~ house |
+|[بَيْتِي]{.ar} [baytI]{.trn}      |  my house |
+|[بَيْتُنَا]{.ar} [baytunA]{.trn}   |  our house |
+
+Here are some notes regarding the use of pronouns in noun-chains.
+
++ An attached pronoun may be only the last noun in a noun-chain. It cannot be the first noun in a noun-chain.
++ A looped [tAE]{.trn2} [ة]{.ar} in the first noun becomes an open [tAE]{.trn2} [ت]{.ar} when a pronoun is attached as the second noun in the noun-chain. For example [مَدْرَسَةٌ]{.ar} [madrasatun]{.trn} "a school" becomes [مَدْرَسَتُهُ]{.ar} [madrasatuhu]{.trn} "his school".
++ The first noun in the noun-chain, before the attached pronoun, may be in any state. So, for example, we can have:
+  + [دَخَلَ بَيْتَهُ.]{.ar} ([astate]{.subs})  
+    [daxala baytahu]{.trn}  
+    "He entered his house."
+  + [فِي بَيْتِهِ.]{.ar} ([istate]{.subs})  
+    [fI baytihi]{.trn}  
+    "in his house"
++ With the pronoun [ـِي]{.ar} [-I]{.trn}, the first noun in the noun-chain will generally appear the same in all states. For example,
+  + [بَيْتِي كَبِيرٌ]{.ar} ([ustate]{.subs})  
+    [baytI kabIrun.]{.trn}  
+    "My house is big."
+  + [دَخَلَ بَيْتِي.]{.ar} ([astate]{.subs})  
+    [daxala baytI]{.trn}  
+    "He entered my house."
+  + [فِي بَيْتِي]{.ar} ([istate]{.subs})  
+    [fI baytI]{.trn}  
+    "in my house"
++ We have mentioned that when a dual noun or sound [Un]{.trn} plural noun is first noun in a noun-chain its [ن]{.ar} is dropped. This rule remains valid when the last noun in the noun-chain is an attached pronoun. So we get:
+  + [بَيْتَاهُ]{.ar}  
+    [baytAhu]{.trn}  
+    "his two houses"
+  + [إِلَىٰ بَيْتَيْهِمَا]{.ar}  
+    [EilA baytayhimA]{.trn}  
+    "to their~dual~ two houses"
+  + [مُعَلِّمُوكَ]{.ar}  
+    [mueallimUka]{.trn}
+    "your~sing.\ masc.~ (male) teachers"
+  + [مِنْ مُعَلِّمِيهِ]{.ar}  
+    [min mueallimIhi]{.trn}  
+    "from his (male) teachers"
+
++ With dual nouns and sound [Un]{.trn} plural nouns, when the last noun in the noun-chain is [ـِي]{.ar} [-I]{.trn} "my", the [ـِي]{.ar} [-I]{.trn} becomes a [يَ]{.ar} [ya]{.trn} when preceded by an unvowelled [ا]{.ar} [alif]{.trn2} or [ي]{.ar} [yAE]{.trn2}. The [يَ]{.ar} gets doubled when preceded by an unvowelled [ي]{.ar}. Examples:
+  + [مُعَلِّمَايَ طَيِّبَانِ.]{.ar}  
+    [mueallimAya TayyibAni.]{.trn}  
+    "My two (male) teachers are good."
+  + [مِنْ مُعَلِّمَيَّ]{.ar}  
+    [min mueallimayya]{.trn}  
+    "from my two (male) teachers"
+  + [إِلَىٰ مُعَلِّمِيَّ]{.ar}  
+    [EilA mueallimiyya]{.trn}  
+    "to my (male) teachers"
+
++ As a special rule, however, when the sound [Un]{.trn} plural is in the [ustate]{.subs} and is the first-noun in a noun-chain followed by [ـِي]{.ar} [-I]{.trn} "my", the ending will not become [ـُويَ]{.ar} [-Uya]{.trn} as we might expect. Instead, it will become identical to the [astate]{.subs} and [istate]{.subs} [ـِيَّ.]{.ar} [-iyya]{.trn}. For example:
+  + [مُعَلِّمِيَّ طَيِّبُونَ.]{.ar}  
+    [mueallimiyya TayyibUna.]{.trn}  
+    "My (male) teachers~pl.~ are good."
+
++ Pronouns are always definite. So when a pronoun is the last noun in a noun-chain, all preceding nouns will be definite. This is important to know because if a [naat]{.subs} is to be used for any of the preceding nouns, it will be definite too and will therefore have [ٱَلْ]{.ar}. Examples:
+  + [بَيْتِي ٱلْكَبِيرُ وَاسِعٌ.]{.ar}  
+    [bayti -lkabIru wAsieun.]{.trn}  
+    "My big house is spacious."
+  + [قَرَءَا كِتَابَيْهِمَا ٱلْجَدِيدَيْنِ.]{.ar}  
+    [qaraEA kitAbayhima -ljadIdayni.]{.trn}  
+    "They~dual~ read their two new books."
+  + [مُعَلِّمِيَّ ٱلْكِرَامُ فِي مَدْرَسَتِهِمُ ٱلْقَدِيمَةِ.]{.ar}  
+    [mueallimiyya -lkirAmu fI madrasatihimu -lqadImati.]{.trn}  
+    "My noble (male) teachers are in their old school."
+
+  By the way, [naat]{.subs}s will obviously only be for nouns preceding the pronoun and never for the pronoun itself.
+-->
+
+## [#idafa]{.subs}s with "and"
+
+### Multiple [mudaf]{.subs}s and one [mudafil]{.subs}
+
+In English we can have an expression like "the pen and the book of the boy" = "the boy's pen and book". In this sentence there are two [mudaf]{.subs}s and one [mudafil]{.subs}.
+
+In order to express this in Arabic, we will say:
+
+[قَلَمُ ٱلْغُلَامِ وَكِتَابُهُ]{.ar}  
+[qalamu -lgulAmi wakitAbuhu]{.trn}  
+"the boy's pen and his book" = "the boy's pen and book"
+
+Note that the [idafa]{.subs} is not broken by the insertion of [وَ]{.ar} [wa]{.trn} "and". Rather a second [idafa]{.subs} is used and the two are separated by [وَ]{.ar} [wa]{.trn} "and". This is the preferred way of expressing such expressions.
+
+There is another, less preferred way of expressing this. And this is by breaking the first [idafa]{.subs} and inserting [وَ]{.ar} [wa]{.trn} "and":
+
+[قَلَمُ وَكِتَابُ ٱلْغُلَامِ]{.ar}  
+[qalamu wakitAbu -lgulAmi]{.trn}  
+"the boy's pen and book"
+
+This second method is not considered as eloquent. Some even consider it incorrect. So we advise you to use the first method whenever possible.
+
+#### With pronouns
+
+If the [mudafil]{.subs} in the first [idafa]{.subs} is replaced with a pronoun then only the first method is allowed. For example,
+
+[قَلَمُهُ وَكِتَابُهُ]{.ar}  
+[qalamuhu wakitAbuhu]{.trn}  
+"his pen and his book"
+
+### One [mudaf]{.subs} and multiple [mudafil]{.subs}s
+
+We can also have expressions like "the house of the boy and the girl". In this sentence there is one [mudaf]{.subs} and two [mudafil]{.subs}s.
+
+To express this in Arabic we will say:
+
+[بَيْتُ ٱلْغُلَامِ وَٱلْجَارِيَةِ]{.ar}  
+[baytu -lgulAmi wa-ljAriyati]{.trn}  
+"the house of the boy and the girl"
+
+Note that both 
+[ٱلْغُلَامِ]{.ar} [EalgulAmi]{.trn} and [ٱَلْجَارِيَةِ]{.ar} [EaljAriyati]{.trn} are in the [istate]{.subs} because they are both [mudafil]{.subs}s in the [idafa]{.subs}.
+
+#### With pronouns
+
+If one or both of the [mudafil]{.subs}s in the [idafa]{.subs} is replaced with a pronoun then the first noun must be repeated. For example,
+
+[بَيْتُ ٱلْغُلَامِ وَبَيْتُهَا]{.ar}  
+"the boy's house and her house"
+
+[بَيْتُهُ وَبَيْتُهَا]{.ar}  
+[baytuhu wabaytuhA]{.trn}  
+"his house and her house"
+
+<!--
+However, it must be said that these expressions are ambiguous because they could be interpreted to mean that there are two houses: one that is "his" and the second that is "her's". One way to remove this ambiguity, when only a single house is intended, is to use the dual pronoun instead:
+
+[بَيْتُهُمَا]{.ar}  
+[baytuhumA]{.trn}  
+"their~dual~ house"
+
+## Non-possessive noun-chains
+
+piece of bread, man of wealth, rule of law, nahru -lEurdunn
+-->
+
+## [#idafa]{.subs} to a sentence
+
+So far we have studied the [idafa]{.subs} of an [mudaf]{.subs} to a [mudafil]{.subs}.
+It is also possible to have an annnexation where the [mudafil]{.subs} is replaced by a sentence or a clause.
+For example,
+
+<!--
+[صَحَبْتُ صَدِيقِي يَوْمَ خَرَجْنَا مِنَ ٱلْمَدِينَةِ.]{.ar}  
+"I accompanied my friend the day we left the city."
+-->
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{خَرَجْنَا مِنَ ٱلْمَدِينَةِ} \txarb{يَوْمَ} \txarb{صَحَبْتُ صَدِيقِي}, 
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize [mudaf]{.subs}};
+
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize sentence in place of [mudafil]{.subs}};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-2.south east)
+      node [midway, below] {\scriptsize [idafa]{.subs}};
+
+\path (0,0) node [midway, below=6ex, right=0ex, align=left] {``I accompanied my friend the day we left the city.''};
+
+\end{tikzpicture}
+```
+
+The word [يَوْم]{.ar} is the [mudaf]{.subs} and is used as an adverb or time.
+The entire sentence
+[خَرَجْنَا مِنَ ٱلْمَدِينَةِ.]{.ar}
+occupies the place of the [mudafil]{.subs}.
+We will study the adverb of time in chapter\ (give ref),
+if [#allAh]{.trn2} wills,
+where such [idafa]{.subs}s are common.
+
+[#idafa]{.subs} to a sentence also occurs besides adverbs.^[[https://ar.wikipedia.org/wiki/[الجملة_الفعلية_الواقعة_مضافا_إليه]{.ar}](https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AC%D9%85%D9%84%D8%A9_%D8%A7%D9%84%D9%81%D8%B9%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D9%88%D8%A7%D9%82%D8%B9%D8%A9_%D9%85%D8%B6%D8%A7%D9%81%D8%A7_%D8%A5%D9%84%D9%8A%D9%87)]
+For another example, see section\ (ref to idaafah to a [أن يفعلَ]{.ar}).
+
+
+## Numbers from one to ten
+
+Arabic numbers are complicated and we will treat them more fully in chapter\ (give ref),
+if [#allAh]{.trn2} wills.
+For now, we will give a short preview of the numbers from one to ten.
+
+### The number one
+
+The word for the number "one" is
+[وَاحِد]{.ar} [wAHid]{.trn}.
+It is an [sifah]{.subs} and can be used as a [naat]{.subs}.
+For example,
+
+[قَرَأْتُ كِتَابًا وَاحِدًا.]{.ar}  
+"I read one book."
+
+As usual, when the described noun is feminine, then the [naat]{.subs} too [وَاحِد]{.ar} is feminized:
+
+[أَكَلْتُ تَمْرَةً وَاحِدَةً.]{.ar}  
+"I ate one date."
+
+Often, as in English, using the number 
+[وَاحِد]{.ar} "one" is optional.
+For example,
+
+[قَرَأْتُ كِتَابً.]{.ar}  
+"I read a book."
+
+### The number two
+
+The number for "one"
+[وَاحِد]{.ar}
+is a singular noun.
+Correspondingly, the number for "two" 
+[ٱثْنَانِ]{.ar} [ivnAni]{.trn}
+is a dual noun.
+It too can be used as [naat]{.subs}.
+For example,
+
+[دَخَلَ رَجْلَانِ ٱثْنَانِ.]{.ar}  
+[daxala rajulAni -vnAn]{.trn}  
+"Two men entered."
+
+In the the [astate]{.subs} and [istate]{.subs}, it becomes
+[ٱثْنَيْنِ]{.ar} [ivnayni]{.trn}.
+For example,
+
+[قَرَأْتُ كِتَابَيْنِ ٱثْنَيْنِ.]{.ar}  
+[qaraEtu kitAbayni -vnayn]{.trn}  
+"I read two books."
+
+When feminized it becomes
+[ٱثْنَتَانِ]{.ar} [ivnatAni]{.trn}.
+For example,
+
+[دَخَلَتْ جَارِيَتَانِ ٱثْنَتَانِ وَأَكَلَتَا تَمْرَتَيْنِ ٱثْنَتَيْنِ.]{.ar}  
+[daxala jAriyatAni -vnatAni waEakalatA tamratayni -vnatayn.]{.trn}  
+"Two girls entered and ate two dates."
+
+As with
+[وَاحِد]{.ar}
+"one",
+the use of the number two is optional because its meaning is inherent in the dual.
+For example,
+
+[دَخَلَتْ جَارِيَتَانِ وَأَكَلَتَا تَمْرَتَيْنِ.]{.ar}  
+[daxala jAriyatAni waEakalatA tamratayn.]{.trn}  
+"Two girls entered and ate two dates."
+
+### The numbers from three to ten
+
+We saw that the number
+[وَاحِد]{.ar}
+"one"
+is a singular noun, and that the number
+[ٱثْنَانِ]{.ar} [ivnAni]{.trn}
+"two"
+is a dual noun.
+
+So it should come as no surprise that the numbers three to ten are treated as plural nouns.
+(We say _treated as plurals_ because they're not technically plurals.
+For example, they don't conform to the broken plural patterns.
+But let's not worry about that for now.)
+
+Now, remember that [ة]{.ar} is a feminine marker for singular nouns, but not for plural nouns.
+In fact, recall that there is almost a role reversal for [ة]{.ar} in plural nouns, where it tends to occur for plurals of masculine nouns, and is missing for plurals of feminine nouns.
+For example, the plural of [هِرّ]{.ar} "a male cat" is [هِرَرَة]{.ar},
+and the plural of [هِرَّة]{.ar} "a female cat" is [هِرَر]{.ar},
+We will now see this role reversal of [ة]{.ar} in the numbers three to ten.
+When a number from 3--10 is used for a masculine noun then it shall have [ة]{.ar}
+and when it is used for a feminine noun then it shall not have [ة]{.ar}.
+Here then are the numbers from 3--10:
+
+| Number | Masculine | Feminine |
+|:---|---:|---:|
+| three  | [ثَلَاثَة]{.ar}   | [ثَلَاث]{.ar}   |
+| four   | [أَرْبَعَة]{.ar}   | [أَرْبَع]{.ar}   |
+| five   | [خَمْسَة]{.ar}    | [خَمْس]{.ar}    |
+| six    | [سِتَّة]{.ar}     | [سِتّ]{.ar}     |
+| seven  | [سَبْعَة]{.ar}    | [سَبْع]{.ar}    |
+| eight  | [ثَمَانِيَة]{.ar}  | [ثَمَانِي]{.ar}  |
+| nine   | [تِسْعَة]{.ar}    | [تِسْع]{.ar}    |
+| ten    | [عَشَرَة]{.ar}    | [عَشْر]{.ar}    |
+
+The number 10 is irregular in that the masculine number has a [fatHah]{.trn2} on the [ش]{.ar} 
+([عَشَرَة]{.ar} [eacarah]{.trn}).
+Whereas
+the feminine number has a [sukUn]{.trn2} on the [ش]{.ar} 
+([عَشْر]{.ar} [eacr]{.trn}).
+
+Consistent with the numbers 1 and 2, the numbers from 3--10 may be used as [naat]{.subs}s.
+But they are more often used as [mudaf]{.subs}s.
+As mentioned earlier, we will treat numbers more fully later, if [#allAh]{.trn2} wills.
+But here are some examples for now:
+
+[لِلْمَرْأَةِ ثَلَاثَةُ أَبْنَاءٍ وَأَرْبَعُ بَنَاتٍ.]{.ar}  
+[lilmarEati valAvatu EabnAEin waEarbaeu banAt.]{.trn}  
+"The woman has three sons and four daughters."
+
+[وَضَعْتُ عَشَرَةَ أَقْلَامٍ فِي عَشْرِ حَقِيبَاتٍ.]{.ar}  
+[waDaetu eacarata EaqlAmin fI eacri HaqIbAt.]{.trn}  
+"I put ten pens in ten bags."
+
+The feminine number [ثَمَانِي]{.ar} "eight" has a final weak letter [ي]{.ar}.
+As we will learn in chapter\ (give ref), this final letter cannot take a [kasrah]{.trn2} or a [Dammah]{.trn2}.
+For example,
+
+[أَكَلَتْ ثَمَانِي هِرَرٍ ثَمَانِيَ كِسَرَاتٍ مِنَ ٱللَّحْمِ فِي ثَمَانِي سَاعَاتٍ.]{.ar}  
+[Eakalat vamAnI hirarin vamAniya kisarAtin mina -llaHmi fI vamAnI sAeAt.]{.trn}  
+"Eight cats~f~ ate eight pieces of meat in eight hours."
+
+<!--
+| [ثَلَاث]{.ar}
+| [أَرْبَع]{.ar}
+| [خَمْس]{.ar}
+| [سِتّ]{.ar}
+| [سَبْ]{.ar}
+| [ثَمَانِي]{.ar}
+| [تِسْع]{.ar}
+| [عَشْر]{.ar}
+
+| [ثَلَاثَة]{.ar} 
+| [أَرْبَعَة]{.ar} 
+| [خَمْسَة]{.ar} 
+| [سِتَّة]{.ar} 
+| [سَبَْة]{.ar} 
+| [ثَمَانِيَة]{.ar} 
+| [تِسْعَة]{.ar} 
+| [عَشْرَة]{.ar} 
+-->
+
+
+
+
+## Usage of the [idafa]{.subs}
+
+### Primarily belonging
+
+### [نحو، مثل، شبه]{.ar}
+
+Don't become definite when annexed to pronoun
+
+### [نفس]{.ar} "self"
+
+[ضَرَبا أنفسهما]{.ar}
+
+[قالت لِي نَفسي]{.ar}
+
+### [idafa]{.subs} of material
+
+[خاتمُ ذَهَبٍ]{.ar}
+
+[خاتمٌ ذَهَبٌ]{.ar}
+
+[خاتمٌ مِن ذَهَبٍ]{.ar}
+
+### [مَدينَةُ دَمشق]{.ar}
+
+### [مجرد ترفيه]{.ar}
+

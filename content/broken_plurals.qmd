@@ -1,0 +1,960 @@
+<!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
+
+# The broken plural
+
+## Introduction
+
+In the previous chapter we introduced sound plurals, which are formed by appending suffixes to the singular noun. The singular noun in these plurals remains, more or less, intact when forming these plurals. The sound plurals correspond to English regular plurals which are formed by appending "s" to the singular noun. However, English has some plurals that are not formed by adding the plural ending "s". Here are some examples,
+
+| Singular | Plural |
+|:-----------|:-----------|
+| man        | men        |
+| woman      | women      |
+| child      | children   |
+| mouse      | mice       |
+
+In these plurals, the singular noun is altered to form the plural.
+
+Arabic also forms such plurals. They are called _broken_ plurals because the singular noun is not kept intact but its structure is, in most cases, altered, or "broken-up" when forming the plural.
+
+While English only forms such plurals for a handful of nouns, Arabic forms broken plurals for many nouns.
+
+## Review of word patterns and semi-flexible nouns
+
+Before we begin our discussion about broken plurals, we will do a quick review of word patterns and semi-flexible nouns. This will, if [#allAh]{.trn2} wills, facilitate the explanation of broken plurals.
+
+Most words in Arabic are formed from three letter roots. We use the paradigm root [فعل]{.ar} to show word patterns. For example, the noun [رَجُل]{.ar} [rajul]{.trn} "a man" is formed from the root [رجل]{.ar} on the pattern [فَعُل]{.ar} [faeul]{.trn}.
+
+Most nouns in Arabic are _fully-flexible_. This means that, when indefinite, they are [tanwin]{.subs}ed and the indefinite [istate]{.subs} is shown by a [tanwin]{.subs}ed [imark]{.subs} [◌ٍ]{.ar} at the end of the noun. For example, [رَجُل]{.ar} [rajul]{.trn} "a man" and [بَيْت]{.ar} [bayt]{.trn} "a house" are fully-flexible nouns. So, you can see, below, that they are [tanwin]{.subs}ed, and the indefinite [istate]{.subs} is indicated by a [tanwin]{.subs}ed [imark]{.subs} [◌ٍ]{.ar}:
+
+[ذَهَبَ رَجُلٌ إِلَىٰ بَيْتٍ.]{.ar}  
+[pahaba rajulun EilA bayt.]{.trn}  
+"A man went to a house."
+
+Some nouns are _semi-flexible_. This means that they are not [tanwin]{.subs}ed, and also, the indefinite [istate]{.subs} is indicated by an [amark]{.subs} [◌َ]{.ar}. Examples of such nouns are:
+
++ ^2^[غَضْبَىٰ]{.ar} [gaDbA]{.trn}^2^ _adj._ (fem.) "a very angry one~f~" from the root [غضب]{.ar}
++ ^2^[صَحْرَاء]{.ar} [SaHrAE]{.trn}^2^ (fem.) "a desert~f~" from the root [صحر]{.ar}
+
+[ذَهَبَتْ جَارِيَةٌ غَضْبَىٰ إِلَىٰ صَحْرَاءَ.]{.ar}  
+[pahabat jAriyatun gaDbA EilA SaHrAE.]{.trn}  
+"A very angry girl went to a desert."
+
+When definite, semi-flexible nouns are identical to fully-flexible nouns:
+
+[ذَهَبَتِ ٱلْجَارِيَةُ ٱلْغَضْبَىٰ إِلَى ٱلصَّحْرَاءِ.]{.ar}  
+[pahabati -ljAriyatu -lgaDbA Eila -SSaHrAE.]{.trn}  
+"The very angry girl went to the desert."
+
+All nouns that have the endings [اء]{.ar} and [ىٰ]{.ar}, that are extrinsic to the word's root, are semi-flexible.
+[اء]{.ar} and [ىٰ]{.ar} are also feminine markers for singular nouns, just like [ة]{.ar}. (Except that [ة]{.ar} does not, in general, make a noun semi-flexible.) 
+
+It is important to note that [ة]{.ar}, [اء]{.ar}, and [ىٰ]{.ar} are only feminine markers for singular nouns. We will see that they are also endings for broken plural nouns and, in that case, they are not feminine markers. However, 
+[اء]{.ar} and [ىٰ]{.ar}, when endings for broken plural nouns, will make the broken plural nouns semi-flexible, just as they do for singular nouns.
+
+Nouns that are of the patterns [فَفَافِف]{.ar} and [فَفَافِيف]{.ar} are also semi-flexible nouns. Here each letter [ف]{.ar} could be any letter of the alphabet. 
+These are patterns for broken plurals, as we will see very soon. 
+We had mentioned this in section\ \@ref(fafafif-diptote).
+
+This concludes our short review of word patterns and semi-flexible nouns. We will use these concepts in our discussion of broken plurals.
+
+## Patterns of the broken plural
+
+Broken plurals occur in specific patterns, which we will show using the paradigm [فعل]{.ar} for three-letter roots. Ararbic also has (comparatively fewer) four-letter roots and we will show patterns for broken plurals of four-letter roots using the paradigm root [فعلل]{.ar}. We will also use the letter [ف]{.ar}, when needed, to indicate any letter of the alphabet.
+
+We now give all but the rarest broken plural patterns below. 
+<!--The singular and plural and given together separated by a colon character ":", the singular on the right, and its plural on the left.-->
+
+1.  **[فُعَل]{.ar} [fueal]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[صُورَة]{.ar} | [صُوَر]{.ar}  |a picture|[دَوْلَة]{.ar} | [دُوَل]{.ar} |a dynasty/state
+    |[أُمَّة]{.ar} | [أُمَم]{.ar}   |a nation |[رُكْبَة]{.ar} | [رُكَب]{.ar} |a knee
+
+2.  **[فُعْل]{.ar} [fuel]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |^2^[أَحْمَر]{.ar}  | [حُمْر]{.ar}  |red~m~                  |^2^[أَعْمَىٰ]{.ar}  | [عُمْي]{.ar}  |blind~m~
+    |^2^[حَمْرَاء]{.ar} | [حُمْر]{.ar}  |red~f~                  |^2^[عَمْيَاء]{.ar} | [عُمْي]{.ar}  |blind~f~
+    |^2^[أَحْوَر]{.ar}  | [حُور]{.ar}  |a beautiful eyed one~m~ |^2^[أَصَمّ]{.ar}   | [صُمّ]{.ar}   |deaf~m~
+    |^2^[حَوْرَاء]{.ar} | [حُور]{.ar}  |a beautiful eyed one~f~ |^2^[صَمّاء]{.ar}  | [صُمّ]{.ar}   |deaf~f~
+    |^2^[أَسْوَد]{.ar}  | [سُود]{.ar}  |black~m~                |^2^[أَبْكَم]{.ar}  | [بُكْم]{.ar}  |mute~m~
+    |^2^[سَوْدَاء]{.ar} | [سُود]{.ar}  |black~f~                |^2^[بَكْمَاء]{.ar} | [بُكْم]{.ar}  |mute~f~
+    |^2^[أَبْيَض]{.ar}  | [بِيض]{.ar}  |white~m~                |[نَاقَة]{.ar}  | [نُوق]{.ar}               |a camel~f~
+    |^2^[بَيْضَاء]{.ar} | [بِيض]{.ar}  |white~f~                | |                |
+
+3.  **[فُعُل]{.ar} [fueul]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[كِتَاب]{.ar} | [كُتُب]{.ar}  |a book|[رَسُول]{.ar} | [رُسُل]{.ar}  |a messenger
+    |[جِدَار]{.ar} | [جُدُر]{.ar}  |a wall|[سَفِينَة]{.ar} | [سُفُن]{.ar} |a ship
+ 
+4.  **[فِعَل]{.ar} [fieal]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[قِطْعَة]{.ar} | [قِطَع]{.ar}  |a piece|[سِيرَة]{.ar} | [سِيَر]{.ar}  |a course of life
+    |[هِرَّة]{.ar} | [هِرَر]{.ar}   |a cat~f~||
+
+5.  **[فِعَال]{.ar} [fieAl]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[رَجُل]{.ar} | [رِجَال]{.ar}     |a man             |[حَسَن]{.ar} | [حِسَان]{.ar}     |_adj._ a good one~m~
+    |[ٱِمْرَأَة]{.ar} | [نِسَاء]{.ar}   |a woman           |[حَسَنَة]{.ar} | [حِسَان]{.ar}    |_adj._ a good one~f~
+    |^2^[أُنْثَىٰ]{.ar} | [إِنَاث]{.ar} |a female          |[صَعْب]{.ar} | [صِعَاب]{.ar}     |_adj._ a difficult one~m~
+    |[عَبْد]{.ar} | [عِبَاد]{.ar}     |a slave~m~        |[صَعْبَة]{.ar} | [صِعَاب]{.ar}    |_adj._ a difficult one~f~
+    |[أَمَة]{.ar} | [إِمَاء]{.ar}     |a slave~f~        |[صَغِير]{.ar} | [صِغَار]{.ar}    |_adj._ a small one~m~
+    |[جَبَل]{.ar} | [جِبَال]{.ar}     |a mountain        |[صَغِيرَة]{.ar} | [صِغَار]{.ar}   |_adj._ a small one~f~
+    |[ثَوب]{.ar} | [ثِيَاب]{.ar}     |a garment         |[كَبِير]{.ar} | [كِبَار]{.ar}    |_adj._ a big one~m~
+    |[رِيح]{.ar} | [رِيَاح]{.ar}     |a wind            |[كَبِيرَة]{.ar} | [كِبَار]{.ar}   |_adj._ a big one~f~
+    |[مَرَّة]{.ar} | [مِرَار]{.ar}     |an occasion       |[ضَعِيف]{.ar} | [ضِعَاف]{.ar}    |_adj._ a weak one~m~
+    |[بَحْر]{.ar} | [بِحَار]{.ar}     |a sea             |[ضَعِيفَة]{.ar} | [ضِعَاف]{.ar}   |_adj._ a weak one~f~
+    |[عَمُود]{.ar} | [عِمَاد]{.ar}    |a pillar          |[كَرِيم]{.ar} | [كِرَام]{.ar}    |_adj._ a generous one~m~
+    |[رَوْضَة]{.ar} | [رِيَاض]{.ar}    |a garden          |^2^[غَضْبَان]{.ar} | [غِضَاب]{.ar}|_adj._ a very angry~m~
+    |[رُمْح]{.ar} | [رِمَاح]{.ar}     |a spear           |^2^[غَضْبَىٰ]{.ar} | [غِضَاب]{.ar} |_adj._ a very angry~f~
+
+6.  **[فُعُول]{.ar} [fueUl]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[أَمْر]{.ar} | [أُمُور]{.ar} |a matter         |[جَيْش]{.ar} | [جُيُوش]{.ar} |an army
+    |[بَيْت]{.ar} | [بُيُوت]{.ar} |a house          |[قَلْب]{.ar} | [قُلُوب]{.ar} |a heart
+    |[حَقّ]{.ar} | [حُقُوق]{.ar}  |a truth, a right |[رَأْس]{.ar} | [رُؤُوس]{.ar} |a head
+    |[مَلِك]{.ar} | [مُلُوك]{.ar} |a king           |[شَهْر]{.ar} | [شُهُور]{.ar} |a month
+    |[سَيْف]{.ar} | [سُيُوف]{.ar} |a sword          |[نَفْس]{.ar} | [نُفُوس]{.ar} |a self
+    |[شَيْخ]{.ar} | [شُيُوخ]{.ar} |an old man       |[عَيْن]{.ar} | [عُيُون]{.ar} |a (water) spring
+    |[شَاهِد]{.ar} | [شُهُود]{.ar}|a witness        ||
+
+7.  **[فُعَّل]{.ar} [fueeal]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[رَاكِع]{.ar} | [رُكَّع]{.ar}  |one who bowes~m~ |[غَائِب]{.ar} | [غُيَّب]{.ar} |absent
+    |[راكعَة]{.ar} | [رُكَّع]{.ar} |one who bowes~f~ ||
+
+8.  **[فُعَّال]{.ar} [fueeAl]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[قَارِئ]{.ar} | [قُرَّاء]{.ar}  |a reader~m~       |[كَافِر]{.ar} | [كُفَّار]{.ar}    |a disbeliever~m~
+    |[تَاجِر]{.ar} | [تُجَّار]{.ar}  |a trader~m~       |[جَاهِل]{.ar} | [جُهَّال]{.ar}    |an ignorant one~m~
+    |[عَامِل]{.ar} | [عُمَّال]{.ar}  |a worker~m~       ||
+
+9.  **[فَعَلَة]{.ar} [faealah]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[سَاحِر]{.ar} | [سَحَرَة]{.ar}  |a magician~m~     |[قَاتِل]{.ar} | [قَتَلَة]{.ar}   |a killer~m~
+    |[عَامِل]{.ar} | [عَمَلَة]{.ar}  |a labourer~m~     |[سَيِّد]{.ar} | [سَادَة]{.ar}    |a chief~m~
+
+10. **[فُعَلَة]{.ar} [fuealah]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[قَاضٍ]{.ar} | [قُضَاة]{.ar}  |a judge~m~     |[رَاوٍ]{.ar} | [رُوَاة]{.ar}   |a narrator~m~
+
+11. **[فِعَلَة]{.ar} [fiealah]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[دُبّ]{.ar} | [دِبَبَة]{.ar}  |a bear     |[قِرْد]{.ar} | [قِرَدَة]{.ar}   |a monkey
+    |[هِرّ]{.ar} | [هِرَرَة]{.ar}  |a cat~m~   ||
+
+12. **[فِعْلَة]{.ar} [fielah]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[أَخ]{.ar} | [إِخْوَة]{.ar}  |a brother     |[فَتًى]{.ar} | [فِتْيَة]{.ar}   |a young man
+
+13. **[أَفْعُل]{.ar} [Eafeul]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[رِجْل]{.ar} | [أَرْجُل]{.ar}  |a leg         |[شَهْر]{.ar} | [أَشْهُر]{.ar}   |a month
+    |[نَفْس]{.ar} | [أَنْفُس]{.ar}  |a self        |[عَيْن]{.ar} | [أَعْيُن]{.ar}   |an eye
+
+14. **[أَفْعَال]{.ar} [EafeAl]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[بَاب]{.ar} | [أَبْوَاب]{.ar}  |a door        |[مَيِّت]{.ar} | [أَمْوَات]{.ar}    |dead
+    |[قَلَم]{.ar} | [أَقْلَام]{.ar}  |a pen         |[شَيْء]{.ar} | ^2^[أَشْيَاء]{.ar} |a thing
+    |[قَدَم]{.ar} | [أَقْدَام]{.ar}  |a foot        |[ٱِسْم]{.ar} | [أَسْمَاء]{.ar}    |a name
+    |[صَاحِب]{.ar} | [أَصْحَاب]{.ar} |a companion~m~|[يَوْم]{.ar} | [أَيَّام]{.ar}     |a day
+    |[شَرِيف]{.ar} | [أَشْرَاف]{.ar} |a noble one~m~|[عَدُوّ]{.ar} | [أَعْدَاء]{.ar}    |an enemy
+    |[طِفْل]{.ar} | [أَطْفَال]{.ar}  |a child       |[عَيْن]{.ar} | [أَعْيَان]{.ar}    |an eminent person
+    |[بِئْر]{.ar} | [آبَار]{.ar}   |a (water) well||
+
+15. **[أَفْعِلَة]{.ar} [Eafeilah]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[لِسَان]{.ar} | [أَلْسِنَة]{.ar}  |a tongue      |[طَعَام]{.ar} | [أَطْعِمَة]{.ar} |a food
+    |[إِمَام]{.ar} | [أَئِمَّة]{.ar}   |a leader~m~   |[إِلَـٰه]{.ar} | [آلِهَة]{.ar}  |a god
+
+16. **^2^[فَوَاعِل]{.ar} [fawAeil]{.trn}^2^**. (Semi-flexible because of ^2^[فَفَافِف]{.ar} pattern.) Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[صَاحِبَة]{.ar} | ^2^[صَوَاحِب]{.ar} |a companion~f~      |[عَامِل]{.ar} | ^2^[عَوَامِل]{.ar} |a factor
+    |[جَارِيَة]{.ar} | ^2^[جَوَارٍ]{.ar}  |a girl              |[شَاهِد]{.ar} | ^2^[شَوَاهِد]{.ar} |a corroborating evidence
+    |[أَمْر]{.ar}   | ^2^[أَوَامِر]{.ar} |a command           |[خَاتَم]{.ar} | ^2^[خَوَاتِم]{.ar} |a ring (jewelry)
+    |[نَادِرَة]{.ar} | ^2^[نَوَادِر]{.ar} |a joke, a witticism |[فَارِس]{.ar} | ^2^[فَوَارِس]{.ar} |a horseman
+
+17. **^2^[فَعَائِل]{.ar} [faeAEil]{.trn}^2^**. (Semi-flexible because of ^2^[فَفَافِف]{.ar} pattern.) Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[حُرَة]{.ar}   | ^2^[حَرَائِر]{.ar}    |a free woman|[جَزِيرَة]{.ar} | ^2^[جَزَائِر]{.ar} |an island
+    |[ضَرّة]{.ar}   | ^2^[ضَرَائِر]{.ar}    |a co-wife   |[رِسَالَة]{.ar} | ^2^[رَسَائل]{.ar} |a message
+    |[حَدِيقَة]{.ar} | ^2^[حَدَائِق]{.ar}    |a garden    |[حَاجَة]{.ar}  | ^2^[حَوَائِج]{.ar}  |a need
+    |[حَقِيبَة]{.ar} | ^2^[حَقَائِب]{.ar}    |a bag       |[دَلِيل]{.ar}  | ^2^[دَلَائِل]{.ar}  |an evidence
+    |[كَبِيرَة]{.ar} | ^2^[كَبَائِر]{.ar}    |a major sin |[خَلِيفَة]{.ar} | ^2^[خَلَائِف]{.ar} |a successor
+    |[كَرِيمَة]{.ar} | ^2^[كَرَائِم]{.ar}    |a generous one~f~ ||
+
+18. **[فِعْلَان]{.ar} [fielAn]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[غُلَام]{.ar} | [غِلْمَان]{.ar}  |a boy     |[ثَوْر]{.ar} | [ثِيرَان]{.ar}   |a bull
+    |[جَار]{.ar} | [جِيرَان]{.ar}   |a neighbor|[غُرَاب]{.ar} | [غِرْبَان]{.ar}  |a crow
+    |[أَخ]{.ar} | [إِخْوَان]{.ar}    |a brother |[فَأْر]{.ar} | [فِئْرَان]{.ar}   |a mouse
+    
+19. **[فُعْلَان]{.ar} [fuelAn]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[بَلَد]{.ar} | [بُلْدَان]{.ar}  |a country     |[شُجَاع]{.ar} | [شُجْعَان]{.ar} |a brave one
+    |[جِدَار]{.ar} | [جُدْرَان]{.ar} |a wall        |[شَابّ]{.ar} | [شُبَّان]{.ar}   |a young man
+
+20. **^2^[فُعَلَاء]{.ar} [fuealAE]{.trn}^2^**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[أَمِير]{.ar} | ^2^[أُمَرَاء]{.ar} |a commander~m~ |[خَلِيفَة]{.ar}| ^2^[خُلَفَاء]{.ar}  |a caliph
+    |[فَقِير]{.ar} | ^2^[فُقَرَاء]{.ar} |a poor one~m~  |[عَالِم]{.ar} | ^2^[عُلَمَاء]{.ar}  |a scholar~m~
+    |[بَخِيل]{.ar} | ^2^[بُخَلَاء]{.ar} |a miser~m~     |[شَاعِر]{.ar} | ^2^[شُعَرَاء]{.ar}  |a poet~m~
+    |[ضَعِيف]{.ar} | ^2^[ضُعَفَاء]{.ar} |a weak one~m~  ||
+
+21. **^2^[أَفْعِلَاء]{.ar} [EafeilAE]{.trn}^2^**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[نَبِيّ]{.ar} | ^2^[أَنْبِيَاء]{.ar} |a prophet~m~  |[شَدِيد]{.ar} | ^2^[أَشِدَّاء]{.ar}  |a forceful one~m~
+    |[صَدِيق]{.ar}| ^2^[أَصْدِقَاء]{.ar} |a friend~m~   |[قَوِيّ]{.ar}  | ^2^[أَقْوِيَاء]{.ar} |a strong one~m~
+    |[غَنِيّ]{.ar} | ^2^[أُغْنِيَاء]{.ar} |a rich one~m~ |[شَقِيّ]{.ar}  | ^2^[أَشْقِيَاء]{.ar} |a wretched one~m~
+
+22. **^2^[فَعْلَىٰ]{.ar} [faelA]{.trn}^2^**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[مَرِيض]{.ar} | ^2^[مَرْضَىٰ]{.ar} |a sick one~m~  |[جَرِيح]{.ar} | ^2^[جَرْحَىٰ]{.ar} |a wounded person
+    |[أَسِير]{.ar} | ^2^[أَسْرَىٰ]{.ar} |a captive      ||
+
+23. **^2^[فَعَالِي]{.ar} [faeAlI]{.trn}^2^**. (Semi-flexible because of ^2^[فَفَافِف]{.ar} pattern.) Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[لَيْلَة]{.ar} | ^2^[لَيَالٍ]{.ar}|a night  |[أَرْض]{.ar} | ^2^[أَرَاضٍ]{.ar} |a land, an earth
+    |[أَهْل]{.ar}  | ^2^[أَهَالٍ]{.ar} |a family ||
+
+24. **^2^[فَعَالَىٰ]{.ar} [faeAlA]{.trn}^2^**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |^2^[صَحْرَاء]{.ar} | ^2^[صَحَارَىٰ]{.ar}|a desert  |^2^[فَتْوَىٰ]{.ar} | ^2^[فَتَاوَىٰ]{.ar} |a formal legal opinion
+    |^2^[يَتِيم]{.ar}  | ^2^[يَتَامَىٰ]{.ar}|an orphan |^2^[هَدِيَّة]{.ar} | ^2^[هَدَايَا]{.ar} |a gift
+
+25. **[فَعِيل]{.ar} [faeIl]{.trn}** (rare). Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[عَبْد]{.ar} | [عَبِيد]{.ar}|a slave~m~  |[حِمَار]{.ar} | [حَمِير]{.ar} |a donkey~m~
+
+26. **[فُعُولَة]{.ar} [fueUlah]{.trn}** (rare). Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[بَعْل]{.ar} | [بُعُولَة]{.ar}|a husband  ||
+
+27. **[فِعَالَة]{.ar} [fieAlah]{.trn}** (rare). Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[حَجَر]{.ar} | [حِجَارَة]{.ar}|a stone  ||
+
+28. **[فَعَل]{.ar} [faeal]{.trn}** (rare). Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[حَلْقَة]{.ar} | [حَلَق]{.ar}|a circular ring  ||
+
+29. **[فَعْل]{.ar} [fael]{.trn}** (very rare). Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[صَاحِب]{.ar} | [صَحْب]{.ar}|a companion  ||
+
+30. **^2^[فَفَافِف]{.ar} [fafAfif]{.trn}^2^**. Includes the sub-patterns:
+
+    + **^2^[فَعَالِل]{.ar} [faeAlil]{.trn}^2^**
+    + **^2^[أَفَاعِل]{.ar} [EafAeil]{.trn}^2^**
+    + **^2^[تَفَاعِل]{.ar} [tafAeil]{.trn}^2^**
+    + **^2^[مَفَاعِل]{.ar} [mafAeil]{.trn}^2^**
+
+    Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[ثَعْلَب]{.ar}   | ^2^[ثَعَالِب]{.ar}  |a fox         |[تَجْرِبَة]{.ar} | ^2^[تَجَارِب]{.ar} |an experience
+    |[عَنْكَبُوت]{.ar} | ^2^[عَنَاكِب]{.ar}  |a spider      |[مَسْجِد]{.ar}  | ^2^[مَسَاجِد]{.ar}  |a mosque      
+    |[دِرْهَم]{.ar}   | ^2^[دَرَاهِم]{.ar}  |a dirham      |[مَعَانٍ]{.ar}  | ^2^[مَعْنًى]{.ar}   |a meaning     
+    |[جَوْهَر]{.ar}   | ^2^[جَوَاهِر]{.ar}  |a gem         |[مَحَالّ]{.ar}  | ^2^[مَحَلَّة]{.ar}   |a locality
+    |[إِصْبَع]{.ar}   | ^2^[أَصَابِع]{.ar}  |a finger      |[مَعِيشَة]{.ar} | ^2^[مَعَاىِش]{.ar} |a means of subsistence      
+    |[أَنْمُلَة]{.ar}  | ^2^[أَنَامِل]{.ar}  |a finger tip  ||
+
+31. **^2^[فَفَافِيف]{.ar} [fafAfIf]{.trn}^2^**. Includes the sub-patterns:
+
+    + **^2^[فَعَالِيل]{.ar} [faeAlIl]{.trn}^2^**
+    + **^2^[أَفَاعِيل]{.ar} [EafAeIl]{.trn}^2^**
+    + **^2^[تَفَاعِيل]{.ar} [tafAeIl]{.trn}^2^**
+    + **^2^[مَفَاعِيل]{.ar} [mafAeIl]{.trn}^2^**
+    + **^2^[يَفَاعِيل]{.ar} [yafAeIl]{.trn}^2^**
+    + **^2^[فَوَاعِيل]{.ar} [fawAeIl]{.trn}^2^**
+
+    Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[سُلْطَان]{.ar} | ^2^[سَلَاطِين]{.ar}  |a sultan         |[إِعْصَار]{.ar} | ^2^[أَعَاصِير]{.ar}  |a whirlwind
+    |[شَيْطَان]{.ar} | ^2^[شَيَاطِين]{.ar}  |a devil          |[تَأْرِيخ]{.ar} | ^2^[تَوَارِيخ]{.ar}  |a history
+    |[سِكِّين]{.ar}  | ^2^[سَكَاكِين]{.ar}  |a knife          |[تَصْوِير]{.ar} | ^2^[تَصَاوِير]{.ar}  |a picture
+    |[دِينَار]{.ar} | ^2^[دَنَانِير]{.ar}  |a [dInAr]{.trn2} |[مِفْتَاح]{.ar} | ^2^[مَفَاتِيح]{.ar}  |a key       
+    |[مِسْكِين]{.ar} | ^2^[مَسَاكِين]{.ar}  |a needy person   |[مَلْعُون]{.ar} | ^2^[مَلَاعِين]{.ar}  |an accursed one~m~
+    |[كُرْسِيّ]{.ar}  | ^2^[كَرَاسِيّ]{.ar}   |a chair          |[يُنْبُوع]{.ar} | ^2^[يَنَابِيع]{.ar}  |a (water) spring
+    |[أُمْنِيَّة]{.ar} | ^2^[أَمَانِيّ]{.ar}   |a wish           |[جَامُوس]{.ar} | ^2^[جَوَامِيس]{.ar}  |a buffalo
+
+32. **[فَعَالِلَة]{.ar} [faeAlilah]{.trn}**. Examples:
+
+    |Singular|Plural|Meaning|Singular|Plural|Meaning
+    |---:|:---|:---|---:|:---|:---
+    |[أُسْتَاذ]{.ar} | [أَسَاتِذَة]{.ar}  |a professor  |[مَلَك]{.ar} | [مَلَائِكَة]{.ar}  |an angel
+    |[فَيْلَسُوف]{.ar} | [فَلَاسِفَة]{.ar} |a philosopher|[جَبَّار]{.ar} | [جَبَابِرَة]{.ar} |a tyrant
+
+Note the following from the above broken plural patterns and examples:
+
++ Both common nouns and [sifah]{.subs}s form broken plurals.
+
++ There are comparatively fewer broken plurals for female intelligent beings than for male intelligent beings. We will expand on this in a subsequent section.
+
++ Some patterns of the broken plural are also patterns singular nouns. For example, the pattern [فِعَال]{.ar} [fieAl]{.trn} has both singular nouns, like [كِتَاب]{.ar} [kitAb]{.trn} "a book" and broken plurals, like [رِجَال]{.ar} [rijAl]{.trn} "men"
+
++ The broken plural patterns [فِعْلَان]{.ar} [fielAn]{.trn} and [فُعْلَان]{.ar} [fuelAn]{.trn} are fully-flexible nouns. Although they end with the [ان]{.ar} ending which is extrinsic to the root, they are not semi-flexible nouns. Only singular [sifah]{.subs}s that end with an extrinsic [ان]{.ar} on the pattern [فَعْلَان]{.ar}, and that also fulfil the other conitions listed in section\ \@ref([sifah]{.subs}-an-diptote), are semi-flexible.
+
++ There is often a correlation between the pattern of a singular noun and the pattern of its plural.
+
+  Sometimes this correlation is very strong:
+
+  + All singular nouns of the patterns ^2^[أَفْعَل]{.ar} [Eafeal]{.trn}^2^ and ^2^[فَعْلَاء]{.ar} [faelAE]{.trn} that denote colors and physical characteristics, have broken plurals on the pattern [فُعْل]{.ar} [fuel]{.trn}. Example:
+
+    |Singular | Plural|
+    |:---|:---|
+    |^2^[أَحْمَر]{.ar}, ^2^[حَمْرَاء]{.ar}  "red"  |[حُمْر]{.ar} |
+    |^2^[أَبْكَم]{.ar}, ^2^[بَكْمَاء]{.ar}  "mute" |[بُكْم]{.ar} |
+
+  + Singular nouns that have four or more consonant letters (excluding [ة]{.ar}) regularly form their broken plurals on the patterns ^2^[فَفَافِف]{.ar} and ^2^[فَفَافِيف]{.ar}. The pattern ^2^[فَفَافِيف]{.ar} is used when there is an intermendiate long vowel between the consonants. Examples:
+
+    |Singular | Plural|
+    |:---|:---|
+    |[إِصْبَع]{.ar} "a finger" |^2^[أَصَابِع]{.ar} |  
+    |[مِفْتَاح]{.ar}  "a key"  |^2^[مَفَاتِيح]{.ar}|
+
+  + Singular nouns of the patterns [فِعْلَة]{.ar} [fielah]{.trn} and [فُعْلَة]{.ar} [fuelah]{.trn} regularly form their broken plurals on the pattern [فِعَل]{.ar} [fieal]{.trn} and [فُعَل]{.ar} [fueal]{.trn} respectively. Examples:
+    
+    |Singular | Plural|
+    |:---|:---|
+    |[قِطْعَة]{.ar}  "a piece"|[قِطَع]{.ar} |
+    |[رُكْبَة]{.ar}  "a knee" |[رُكَب]{.ar} |
+
+  Other times, this correlation is more like a tendency:
+
+  + Singular nouns on the pattern [فَعِيلَة]{.ar} [faeIlah]{.trn} tend to form broken plurals on the pattern ^2^[فَعَائِل]{.ar} [faeAEil]{.trn}^2^. Examples:
+
+    |Singular | Plural|
+    |:---|:---|
+    |[حَدِيقَة]{.ar}     "a garden"|^2^[حَدَائِق]{.ar} |
+    |[حَقِيبَة]{.ar}     "a bag"   |^2^[حَقَائِب]{.ar} |
+
+  + Singular nouns on the pattern [فَاعِل]{.ar} [fAeil]{.trn}, that denote male intelligent beings, tend to form broken plurals on the pattern [فُعَّل]{.ar} [fueeal]{.trn}, [فُعَّال]{.ar} [fueeAl]{.trn}, and [فَعَلَة]{.ar} [faealah]{.trn}. Examples:
+
+    |Singular | Plural|
+    |:---|:---|
+    |[غَائِب]{.ar}  "absent"     |[غُيَّب]{.ar}  |
+    |[قَارِئ]{.ar}  "a reader~m~"|[قُرَّاء]{.ar} |
+    |[قَاتِل]{.ar}  "a killer~m~"|[قَتَلَة]{.ar} |
+
+  + Singular nouns on the pattern [فَاعِل]{.ar} [fAeil]{.trn} and [فَاعِلَة]{.ar} [fAeilah]{.trn}, that don't denote male intelligent beings, tend to form broken plurals on the pattern [فَوَاعِل]{.ar} [fawAeil]{.trn}. Examples:
+
+    |Singular | Plural|
+    |:---|:---|
+    |[صَاحِبَة]{.ar}  "a companion~f~"|^2^[صَوَاحِب]{.ar} |
+    |[عَامِل]{.ar}   "a factor"      |^2^[عَوَامِل]{.ar} |
+
+    [فَارِس]{.ar} [fAris]{.trn} "a horseman" with the plural ^2^[فَوَارِس]{.ar} is one of a number of exceptions.
+
++ Some words have roots that have the same letter repeated in the root. These are called _doubled_ roots. 
+
+  + For example:
+  
+    |Root | Word | Pattern
+    |:----|:--|:--
+    |[دبّ]{.ar}|[دُبّ]{.ar}   "a bear"            | [فُعْل]{.ar}
+    |[حلّ]{.ar}|[مَحَلَّة]{.ar} "a locality"        | [مَفْعَلَة]{.ar}
+    |[أمّ]{.ar}|[إِمَام]{.ar} "a leader"          | [فِعَال]{.ar}
+    |[حقّ]{.ar}|[حَقّ]{.ar}   "a truth, a right"  | [فَعْل]{.ar}
+    |[هرّ]{.ar}|[هِرّ]{.ar}   "a cat~m~"          | [فِعْل]{.ar}
+
+  We will discuss doubled roots in detail in chapter\ \@ref(doubled-roots). For now we will mention the following:
+
+  + The repeated letter in the word root may get doubled or separated in the word's pattern. Frequently, the repeated letter may be doubled in the singular, and separated in the plural. Examples:
+
+    |Singular | Plural|
+    |:---|:---|
+    |[حَقّ]{.ar}   "a truth, a right"|[حُقُوق]{.ar} |
+    |[دُبّ]{.ar}   "a bear"          |[دِبَبَة]{.ar} |
+    |[هِرّ]{.ar}   "a cat~m~"        |[هِرَرَة]{.ar} |
+
+    The reverse also occurs, where the repeated letter may be separated in the singular, and doubled in the plural. Examples:
+
+    |Singular | Plural|
+    |:---|:---|
+    |[إِمَام]{.ar}    "a leader~m~"|[أَئِمَّة]{.ar} |
+
+  + The doubled letter may modify the basic word pattern somewhat. For example:
+
+    |Root | Word pattern | Expected word | Actual word
+    |:-|:--|:--|:--
+    |[شدّ]{.ar} |^2^[أَفْعِلَاء]{.ar} |$\times$\ ^2^[أَشْدِدَاء]{.ar} |^2^[أَشِدَّاء]{.ar}
+    |[حلّ]{.ar} |^2^[مَفَاعِل]{.ar}  |$\times$\ ^2^[مَحَالِل]{.ar}  |^2^[مَحَالّ]{.ar} 
+    |[صمّ]{.ar} |^2^[أَفْعَل]{.ar}  |$\times$\ ^2^[أَصْمَم]{.ar}  |^2^[أَصَمّ]{.ar} 
+
++ We have previously learned that the endings [ة]{.ar}, [اء]{.ar}, and [ىٰ]{.ar} that are extrinsic to the word's root are feminine markers for singular nouns. These extrinsic endings also occur for broken plurals but there, they are _not_ feminine markers.
+
+  In fact, in a sort of role reversal, the endings [ة]{.ar} in a broken plural tends to indicate that the singular is a masculine noun. And the [اء]{.ar} ending is only for broken plurals of male intelligent beings.  Examples:
+
+  |Singular | Plural|
+  |:---|:---|
+  |[لِسَان]{.ar} "a tongue"      |[أَلْسِنَة]{.ar} |
+  |[هِرّ]{.ar}   "a cat~m~"      |[هِرَرَة]{.ar}  |
+  |[أَمِير]{.ar} "a commander~m~"|[أُمَرَاء]{.ar} |
+  |[صَدِيق]{.ar} "a friend~m~"   |[أَصْدِقَاء]{.ar}|
+
++ There often exist multiple broken plurals for the same singular noun. Many times, in fact, a singular noun may have a sound plural in addition to one or more broken plurals. Examples:
+
+  |Singular | Plural
+  |:---|---:
+  |[شَهْر]{.ar} |[أَشْهُر]{.ar}, [شُهُور]{.ar}
+  |[عَيْن]{.ar} |[أَعْيُن]{.ar}, [عُيُون]{.ar}, [أَعْيَان]{.ar}
+  |[عَامِل]{.ar}|[عَامِلُونَ]{.ar}, ^2^[عَوَامِل]{.ar}, [عَمَلَة]{.ar}, [عُمَّال]{.ar}
+
+  We will discuss how to manage these multiple plurals in a subsequent section.
+
++ Occasionally, multiple singular nouns will share the same broken plural. Examples:
+
+  |Singular | Plural
+  |:---|---:
+  |[مَكْتَب]{.ar} "an office" |^2^[مَكَاتِب]{.ar}
+  |[مَكْتَبَة]{.ar} "a library"|^2^[مَكَاتِب]{.ar}
+
+  Context will then tell us which of two meanings is intended.
+
++ The letters [ء]{.ar}, [ا]{.ar}, [و]{.ar}, and [ي]{.ar} are considered _weak_ letters. Words that one or more these weak letters in their roots are called _defective_ words. We will discuss defective words more completely in later chapters, if [#allAh]{.trn2} wills. For now, we will note the following:
+
+  + Weak letters often get interchanged with one another when going from a singular to a plural. Examples:
+
+    |Root |Singular | Plural|
+    |:--|:---|:---|
+    |[أرخ]{.ar} | [تَأْرِيخ]{.ar} | ^2^[تَوَارِيخ]{.ar}
+    |[نوق]{.ar} | [نَاقَة]{.ar}  | [نُوق]{.ar}
+    |[ثور]{.ar} | [ثَوْر]{.ar}   | [ثِيرَان]{.ar}
+
+  + Weak letters can affect surrounding vowels. For example:
+
+    |Root | Word pattern | Expected word | Actual word
+    |:-|:--|:--|:--
+    |[بيض]{.ar} |[فُعْل]{.ar} |$\times$\ [بُيْض]{.ar} |[بِيض]{.ar}
+
+  + The weak letter [ي]{.ar}, when followed by the [ىٰ]{.ar} ending, usually modifies (in writing) it to an [ِEalif]{.trn} instead. The pronunciation is the same. For example:
+
+    |Root | Word pattern | Expected word | Actual word
+    |:-|:--|:--|:--
+    |[هدي]{.ar} |^2^[فَعَالَىٰ]{.ar} |$\times$\ ^2^[هَدَايَىٰ]{.ar} |^2^[هَدَايَا]{.ar}
+
+  + A [ي]{.ar} at the end of a word, in some states, gets omitted  and replaced by a [tanwin]{.subs}ed [imark]{.subs} [◌ٍ]{.ar} on the preceding letter. This happens even when the [ي]{.ar} is extrinsic to the root, and even if the word is semi-flexible (and thus would not normally be [tanwin]{.subs}ed). Examples:
+
+    |Root | Word pattern | Expected word  | Actual word 
+    |:-|:--|:--|:--
+    |[قضي]{.ar} |[فَاعِل]{.ar} |$\times$\ [قَاضِي]{.ar} |[قَاضٍ]{.ar}
+    |[جري]{.ar} |^2^[فَوَاعِل]{.ar} |$\times$\ ^2^[جَوَارِي]{.ar} |^2^[جَوَارٍ]{.ar}
+    |[ليل]{.ar} |^2^[فَعَالِي]{.ar} |$\times$\ ^2^[لَيَالِي]{.ar} |^2^[لَيَالٍ]{.ar}
+
+  + Weak letters can also get omitted in the singular and resurface in the plural. Examples:
+
+    |Root |Singular | Plural|
+    |:--|:---|:---|
+    |[أخو]{.ar} | [أَخ]{.ar} | [إِخْوَان]{.ar}, [إِخْوَة]{.ar}
+    |[أمو]{.ar} | [أَمَة]{.ar} | [إِمَاء]{.ar}
+
+
++ If there are more than four consonant letters in a word, then only four of them are selected to form the broken plural. For example:
+
+  |Singular | Plural
+  |:---|---:
+  |[عَنْكَبُوت]{.ar} "a spider" |^2^[عَنَاكِب]{.ar}
+
++ Some words have individual irrgularities as well and we will discuss them below:
+
+  + The word [ٱِمْرَأَة]{.ar} and its plural [نِسَاء]{.ar} are both irregular and we will discuss them separately in chapter\ \@ref(irregular-nouns).
+
+  + The broken plural ^2^[أَشْيَاء]{.ar} [EacyAE]{.trn} (of the singular noun [شَيْء]{.ar} [cayE]{.trn} "a thing") is irregular in that it is semi-flexible. Otherwise its pattern [أَفْعَال]{.ar} [EafeAl]{.trn} is regularly fully-flexible.
+
+  + The broken plural of the singular noun [مَلَك]{.ar} [malak]{.trn} "an angel" is [مَلَائِكَة]{.ar} [malAEikah]{.trn}. It is on the pattern [فَعَالِلَة]{.ar} [faeAlilah]{.trn}. But it is unusual in that the plural has an extra letter [ء]{.ar} that is missing in the singular. This is because the singular has a lesser-used variant: [مَلْأَك]{.ar} [malEak]{.trn} that is used to form the plural.
+
+  + The broken plural of the singular noun [دِينَار]{.ar} "a [dInAr]{.trn2}" is ^2^[دَنَانِير]{.ar}. It is on the pattern ^2^[فَعَالِيل]{.ar}. It is irregular in that there are two [ن]{.ar}'s in the plural whereas the singular only has one.
+
+  + The root of [بِئْر]{.ar} [biEr]{.trn} "a (water) well" is [بأر]{.ar}. The pattern of its broken plural is [أَفْعَال]{.ar}. Based on its root letters, its plural on this pattern ought regularly to have been [أَبْآر]{.ar} [EabEAr]{.trn}. And this plural exists but is not very commonly used. Instead, in forming the plural, the root letters [ب]{.ar} and [أ]{.ar} get swapped irregularly, and the more commonly used plural is actually [آبَار]{.ar} ['EAbAr]{.trn}.
+
+  There are other words as well with similar irregularities.
+
+## Co-existence of multiple broken plurals
+
+We noted that there are often multiple broken plurals for the same singular noun. Many singular nouns even have a sound plural in addition to one or more broken plurals. Here are some examples.
+
+  |Singular | Meanings | Plural
+  |:---|:---|---:
+  |[جِدَار]{.ar}|a wall              |[جُدُر]{.ar}, [جُدْرَان]{.ar}
+  |[شَهْر]{.ar} |a month             |[أَشْهُر]{.ar}, [شُهُور]{.ar}
+  |[ضَعِيف]{.ar}|a weak one~m~       |[ضِعَاف]{.ar}, ^2^[ضُعَفَاء]{.ar}
+  |[أَمْر]{.ar} |a matter; a command |[أُمُور]{.ar}, ^2^[أَوَامِر]{.ar}
+  |[عَيْن]{.ar} |an eye; a (water) spring; an eminent person |[أَعْيُن]{.ar}, [عُيُون]{.ar}, [أَعْيَان]{.ar}
+  |[عَامِل]{.ar}|a worker; a labourer; a factor              |[عَامِلُونَ]{.ar}, ^2^[عَوَامِل]{.ar}, [عَمَلَة]{.ar}, [عُمَّال]{.ar}
+
+We will deal with the co-existence of sound and broken plurals in the next section. In this section, we will explain the existence of multiple broken plurals, and when one of them is preferred or required to be used over the other. Basically, there could be a few things going on:
+
+1. Sometimes it is more or less optional which of the multiple broken plurals to use. For example, the singular noun [جِدَار]{.ar} has two broken plurals:
+[جُدُر]{.ar}, [جُدْرَان]{.ar}
+Either could be used, more or less, interchangeably.
+
+2. Sometimes, the usage of one of the plurals may be restricted. For example, [ضِعَاف]{.ar} and [ضُعَفَاء]{.ar} are both broken plurals of the masculine [sifah]{.subs} [ضَعِيف]{.ar} "a weak one~m~". For male intelligent beings, like "weak men", either of the two plurals could be used. But remember that broken plurals that end with an extrinsic [اء]{.ar} ending may only be used for male intelligent beings. So the plural [ضُعَفَاء]{.ar} may only be used for male intelligent beings like "men" or "boys", and not for masculine nouns that denote non-intelligent beings like "lions" or "pens", etc.
+
+   Interestingly, [ضِعَاف]{.ar} is also shared as the broken plural for the feminine [sifah]{.subs} [ضَعِيفَة]{.ar} "a weak one~f~". So it can be used for plurals of feminine nouns, both for female intelligent beings like "women" and "girls", and for feminie nouns that denote non-intelligent beings like "trees".
+
+3. Other times, the singular has multiple distinct meanings, and each of these distinct meanings is associated with its own broken plural(s). Here are some examples:
+
+   + The word [أَمْر]{.ar} [Eamr]{.trn} has two distinct meanings, each with it's own plural:
+
+     i. "a matter". This has the broken plural [أُمُور]{.ar} [EumUr]{.trn}.
+     ii. "a command". This has the broken plural ^2^[أَوَامِر]{.ar} [EawAmir]{.trn}^2^.
+
+   + The word [عَيْن]{.ar} [Eayn]{.trn} has multiple distinct meanings. There are three main meanings, and they share the broken plural with each other in the following way:
+
+     i. "an eye". This meaning primarily uses the plural [أَعْيُن]{.ar} [Eaeyun]{.trn} but it may also use the plural [عُيُون]{.ar} [euyUn]{.trn}, and rarely also the plural [أَعْيَان]{.ar} [EaeyAn]{.trn}.
+     ii. "a (water) spring". This meaning primarily uses the plural [عُيُون]{.ar} [euyUn]{.trn} but it may also use the plural [أَعْيُن]{.ar} [Eaeyun]{.trn}, and rarely also the plural [أَعْيَان]{.ar} [EaeyAn]{.trn}.
+     iii. "an eminent person". This meaning only uses the plural [أَعْيَان]{.ar} [EaeyAn]{.trn}.
+
+   + The word [عَامِل]{.ar} [eAmil]{.trn} has the following meanings and plurals:
+     
+     i. "a worker~m~". Generally, this has the plural [عُمَّال]{.ar} [eummAl]{.trn}.
+     ii. "a labourer~m~". This uses the plural [عَمَلَة]{.ar} [eamalah]{.trn}.
+     iii. "a factor". This uses the plural ^2^[عَوَامِل]{.ar} [eawAmil]{.trn}^2^.
+
+4. Arabic has what are known as _plurals of fewness_. These are specific patterns that may (sometimes, but not always) be used when the persons or things denoted by the plural are only a few (ten or less) and not many. These patterns are:
+
+   i. [فِعْلَة]{.ar} [fielah]{.trn}
+   ii. [أَفْعُل]{.ar} [Eafeul]{.trn}
+   iii. [أَفْعَال]{.ar} [EafeAl]{.trn}
+   iv. [أَفْعِلَة]{.ar} [Eafeilah]{.trn}
+
+   For example:
+   
+   i. [شَهْر]{.ar} [cahr]{.trn} "a month", plurals: [أَشْهُر]{.ar}, [شُهُور]{.ar}. The plural [أَشْهُر]{.ar} could be used when the number of months are only a few (ten or less), and the plural [شُهُور]{.ar} could be used when the number of months are large.
+   ii. The plurals [أَعْيُن]{.ar} and [عُيُون]{.ar} of the word [عَيْن]{.ar} could also possibly be used similarly in this manner for both meanings: "an eye" and "a (water) spring". (But not for the meaning "an eminent person" which only uses the plural [أَعْيَان]{.ar}).
+
+   Of course, this distinction only applies when the singular noun has additional plurals, not just one from the above four patterns. If a noun has only one of the about four plural patterns then it may be used indiscriminately and will not indicate any limitation in number.
+
+## Co-existence of sound and broken plurals
+
+Some nouns have both sound and broken plurals for more or less the same meaning. Here are some examples:
+
+|Singular | Meaning | Sound plural |Broken plural
+|:---|:---|:---|:---
+|[قَاتِل]{.ar}  | a killer       |[قَاتِلُونَ]{.ar} |[قَتَلَة]{.ar}
+|[كَافِر]{.ar}  | a disbeliever  |[كَافِرُونَ]{.ar} |[كُفَّار]{.ar}
+|[كَبِير]{.ar}  | a big one~m~   |[كَبِيرُونَ]{.ar} |[كِبَار]{.ar}
+|[كَبِيرَة]{.ar} | a big one~f~   |[كَبِيرَات]{.ar} |[كِبَار]{.ar}
+|[صَغِير]{.ar}  | a small one~m~ |[صَغِيرُونَ]{.ar} |[صِغَار]{.ar}
+|[صَغِيرَة]{.ar} | a small one~f~ |[صَغِيرَات]{.ar} |[صِغَار]{.ar}
+|[رَاكِع]{.ar}  | one who bows~m~|[رَاكِعُونَ]{.ar} |[رُكَّع]{.ar}
+|[رَاكِعَة]{.ar} | one who bows~f~|[رَاكِعَات]{.ar} |[رُكَّع]{.ar}
+|[صَاحِبَة]{.ar} | a companion~f~ |[صَاحِبَات]{.ar} |^2^[صَوَاحِب]{.ar}
+|[جَارِيَة]{.ar} | a girl         |[جَارِيَات]{.ar} |^2^[جَوَارٍ]{.ar}
+|[حَدِيقَة]{.ar} | a garden       |[حَدِيقَات]{.ar} |^2^[حَدَائِق]{.ar}
+
+We will treat the [Un]{.trn} and [At]{.trn} sound plurals separately.
+
+### [Un]{.trn} plurals and broken plurals
+
+Remember from chapter\ \@ref(sound-plurals) that [Un]{.trn} plurals are, with very few exceptions, only used for male intelligent beings.
+
+If a singular noun has both an [Un]{.trn} sound plural and one or more broken plurals, then the use of the broken plural is generally preferred. The sound plural is then, generally, reserved for certain verbal usages. (We will study these in later chapters, if [#allAh]{.trn2} wills.)
+
+So, for example, [قَتَلَة]{.ar} is preferred over [قَاتِلُونَ]{.ar} generally for the meaning: "killers".
+
+### [At]{.trn} plurals and broken plurals
+
+[At]{.trn} plurals are used for both female intelligent beings and non-intelligent beings. We will discuss each of these separately.
+
+#### Female intelligent beings
+
+Remember from section\ \@ref(conditions-for-the-at-plural) that, generally, all nouns that end with feminine markers
+([ة]{.ar}, [اء]{.ar}, and [ىٰ]{.ar}) 
+can form the [At]{.trn} sound plural.
+
+There are some nouns that are excepted from this statement. These nouns only have broken plurals and don't form sound plurals. For female intelligent beings, these nouns are:
+
++ [#sifah]{.subs}s of the pattern ^2^[فَعْلَاء]{.ar} which is the feminine of the masculine [sifah]{.subs} pattern ^2^[أَفْعَل]{.ar}. For example, [حور]{.ar} [حَوْرَاء]{.ar} [HawrAE]{.trn} "a beautiful eyed one~f~" uses the broken plural [حُور]{.ar} [HUr]{.trn}
+
++ [#sifah]{.subs}s of the pattern ^2^[فَعْلَىٰ]{.ar} which is the feminine of the masculine [sifah]{.subs} pattern ^2^[فَعْلَان]{.ar}. For example, [غضب]{.ar} [غَضْبَىٰ]{.ar} [gaDbA]{.trn} "very angry~f~" uses the broken plural [غِضَاب]{.ar} [giDAb]{.trn}.
+
++ The following exceptional nouns:
+
+  + [ٱِمْرَأَة]{.ar} "a woman", broken plural: [نِسَاء]{.ar}
+  + [أَمَة]{.ar} "a slave~f~", broken plural: [إِمَاء]{.ar}
+  + [أُمَّة]{.ar} "a nation", broken plural: [أُمَم]{.ar}
+
+In the case of these nouns we have no choice but to use the broken plural.
+
+For other nouns that denote female intelligent beings, the use of the [At]{.trn} sound plural is preferred over any broken plurals that the noun may have.
+
+So, for example,
+the use of the [At]{.trn} sound plural
+[صَغِيرَات]{.ar}
+is preferred over the broken plural
+[صِغَار]{.ar} 
+for the [sifah]{.subs}
+[صَغِيرَة]{.ar} 
+"a small one~f~".
+However, both are permitted.
+
+The following are excepted from this general statement:
+
++ [أُنْثَىٰ]{.ar} "a female", plural: [إِنَاث]{.ar}. The [At]{.trn} sound plural is almost unused for this word.
+
++ Broken plurals of the patterns:
+ 
+  + ^2^[فَوَاعِل]{.ar} [fawAeil]{.trn}^2^
+  + ^2^[فَعَائِل]{.ar} [faeAEil]{.trn}^2^
+
+  These broken plural patterns are, in fact, predominantly used for female intelligent beings and non-intelligent beings, and only rarely for male intelligent beings. So the broken plural ^2^[جَوَارٍ]{.ar} "girls" may be used freely as the plural of [جَارِيَة]{.ar} "a girl" and is not preferred over by [جَارِيَات]{.ar}. Similarly, ^2^[صَوَاحِب]{.ar} may freely be used as the plural of [صَاحِبَة]{.ar}.
+
+  Only a few nouns denoting male intelligent beings have broken plurals on these patterns, like:
+
+  + [فَارِس]{.ar} "a horseman", plural: ^2^[فَوَارِس]{.ar}
+  + [خَلِيفَة]{.ar} "a successor", plural: ^2^[خَلَائِف]{.ar}
+
+In conclusion, with the general preference of using the [At]{.trn} sound plural over the broken plural for female intelligent beings, you will find that [نِسَاء]{.ar} [nisAE]{.trn} "women" is the only widely found broken plural for female intelligent beings in normal usage.
+
+#### Non-intelligent beings
+
+For non-intelligent beings, the broken plural is preferred for use over [At]{.trn} sound plurals.
+
+So, for example, ^2^[حَدَائِق]{.ar} [HadAEiq]{.trn}^2^ is preferred over [حَدِيقَات]{.ar} [HadIqAt]{.trn} as the plural of [حَدِيقَة]{.ar}, though both are correct. 
+
+## Usage of plurals
+
+The treatment of plurals in sentences is quite complicated.
+Here we will give a simplified explanation that should suffice for basic usage, until we give a fuller treatment in (TODO: give chapter reference).
+
+We will discuss the plurals of intelligent beings and non-intelligent beings separately.
+
+### Plurals of intelligent beings in descriptive noun-phrases
+
+Consistent with what we have learned so far, when the [manut]{.subs} in a noun-phrase is plural, then the [naat]{.subs} comes after it, and matches it in state, definiteness, gender, and number.
+
+Either or both of the [naat]{.subs} and the [manut]{.subs} may be sound plurals or broken plurals.
+
+Here are some examples:
+
+[لَعِبَ ٱلطِّفْلُ ٱلصَّغِيرُ مَعَ ٱلْغِلْمَانِ ٱلْكِبَارِ.]{.ar}  
+[laeiba -TTiflu -SSagIru maea -lgilmAni -lkibAr.]{.trn}  
+"The small child played with the big boys."
+
+[أَخَذَ ٱلتِّلْمِيذُ ٱلْعِلْمَ عَنِ ٱلْمُعَلِّمِينَ ٱلْكِرَامِ.]{.ar}  
+[Eaxapa -ttilmIpu -leilma eani -lmueallimIna -lkirAm.]{.trn}  
+"The pupil took knowledge from the noble teachers."
+
+[لِلْجَارِيَةِ صَوَاحِبُ طَيِّبَاتٌ.]{.ar}  
+[liljAriyati SawAhibu TayyibAt.]{.trn}  
+"The girl has good companions~f~."
+
+[فِي ٱلسُّوقِ تُجَّارٌ صَادِقُونَ.]{.ar}  
+[fi -ssUqi tujjArun SadiqUn.]{.trn}  
+"In the market are honest traders."
+
+[خَدَمَ ٱلرَّجُلُ ٱلصَّالِحُ ٱلْغَنِيُّ ٱلْفُقَرَاءَ ٱلضِّعَافَ مِنَ ٱلْيَتَامَىٰ ٱلصِّغَارِ.]{.ar}  
+[xadama -rrajulu -SSAliHu -lganiyyu -lfuqarAEa -DDieAfa mina -lyatAmA -SSigAr.]{.trn}  
+"The rich righteous man served the weak poor ones from the little orphans."
+
+### Plurals of intelligent beings in [mubtada]{.subs}-[xabar]{.subs} sentences
+
+If the [mubtada]{.subs} of a sentence is a plural denoting intelligent beings then the [xabar]{.subs} typically matches it in being a plural. This is especially the case if the [xabar]{.subs} is an [sifah]{.subs}. For example:
+
+[ٱلْغِلْمَانُ أَطْفَالٌ طَيِّبُونَ.]{.ar}  
+[EalgilmAnu EaTfAlun TayyibUn.]{.trn}  
+"The boys are good children."
+
+[ٱَلرِّجَالُ أَغْنِيَاءُ.]{.ar}  
+[EarrijAlu EagniyAE.]{.trn}  
+"The men are rich."
+
+[ٱَلْمُعَلِّمَاتُ عَالِمَاتٌ.]{.ar}  
+[EalmueallimAtu eAlimAt,]{.trn}  
+"The teachers~f~ are scholars~f~."
+
+Sometimes the [xabar]{.subs} may not match the [mubtada]{.subs} in plurality because of the meaning of the sentence. For example:
+
+[ٱَلْمُسْلِمُونَ أَمَّةٌ.]{.ar}  
+[EalmuslimUna Eummah.]{.trn}  
+"The Muslims are a nation."
+
+[ٱَلْجِيرَانُ ٱلطَّيِّبُونَ نِعْمَةٌ مِنَ ٱللَّـٰهِ.]{.ar}  
+[EaljIrAnu -TTayyibUna niematun mina -llAh.]{.trn}  
+"Good neighbors are a blessing from Allah."
+
+<!--With regards to detached pronouns, the same detached pronouns are used with detached plurals that we learned for in section\ \@ref(detached-plural-pronouns) for sound plurals. Examples:-->
+The use of detached pronouns is consistent with what we learned in section\ \@ref(detached-plural-pronouns). Examples:
+
+[أَنْتُنَّ نِسَاءٌ كَرِيمَاتٌ.]{.ar}  
+[Eantunna nisAEun karImAt.]{.trn}  
+"You~3,f~ are generous women."
+
+[أَنْتُمْ شُبَّانٌ شُجْعَانٌ.]{.ar}  
+[Eantum cubbAnun cujeAnun]{.trn}  
+"You~m,3~ are courageous young men."
+
+[ٱَلشَّيَاطِينُ هُمُ ٱلْمَلَاعِنُ.]{.ar}  
+[EaccayATInu humu -lmalAeIn.]{.trn}  
+"The devils are the accursed ones."
+
+[هُنَّ نِسَاءٌ غَنِيَّاتٌ.]{.ar}  
+[hunna nisAEun ganiyyAt.]{.trn}  
+"They~3,f~ are rich women."
+
+[نَحْنُ غِلْمَانٌ أَصْدِقَاءُ.]{.ar}  
+[naHnu gilmAnun EaSdiqAE.]{.trn}  
+"We are boys who are friends."
+
+### Plurals of intelligent beings with verbs
+
+We have already studied verbs with sound plurals in section\ (ref). The same discussion applies to broken plurals as well. Here are a couple of examples:
+
+[قَرَأَتِ ٱلنِّسَاءُ وَكَتَبْنَ.]{.ar}  
+[qaraEati -nnisAEu wakatabn.]{.trn}  
+"The women read and wrote."
+
+[ٱَلْغِلْمَانُ لَعِبُوا بِكُرَةٍ حَمْرَاءَ.]{.ar}  
+[EalgilmAnu laeibU bikuratin HamrAE.]{.trn}  
+"The boys, they played with a red ball."
+
+[طَبَخَتِ ٱلنِّسَاءُ طَعَامًا لِلرِّجَال فَأَكَلُوهُ وَشَكَرُوهُنَّ.]{.ar}  
+[Tabaxati -nnisAEu TaeAman lirrijAli faEakalUhu wacakarUhunn.]{.trn}  
+"The women prepared some food for the men, so they~3,m~ ate it and they~3,m~ thanked them~3,f~.
+
+[ظَلَمَ ٱلْجَبَابِرَةُ ٱلْمَسَاكِينَ وَقَتَلُوهُمْ.]{.ar}  
+[Palama -ljabAbiratu -lmasAkIna waqatalUhum.]{.trn}  
+"The tyrants wronged the needy ones~3,m~ and killed them~3,m~."
+
+### Usage of plurals of non-intelligent beings {#usage-of-plurals-of-non-intelligent-beings}
+
+We now turn our attention to plurals of non-intelligent beings. 
+The treatment of plurals of non-intelligent beings is very different from everything we have learned so far. 
+In this basic, simplified, explanation:
+regardless of the grammatical or physical gender of the singular noun, plurals of non-intelligent beings are treated, for the purposes of matching [sifah]{.subs}s and pronouns, as
+grammatically feminine singular.
+
+<!--
+i. grammatically feminine singular
+i. grammatically feminine plural
+
+It is optional which of the above two treatments one uses. However, the former option (feminine singular) is more common and is generally preferred.
+
+For the second option (feminine plural), in addition to the sound feminine plural of [sifah]{.subs}s, broken plurals are allowed to be used as well, as long as their meaning allows them to be used for non-intelligent beings.
+-->
+<!--not specifc to male intelligent beings (those that end with [اء]{.ar}).-->
+
+So, for example, the noun [بَيت]{.ar} [bayt]{.trn} denotes the inanimate object "a house". 
+It's plural is [بُيُوت]{.ar}. 
+This plural is treated as a feminine singular noun.
+This is despite the fact that the singular noun [بَيْت]{.ar} [bayt]{.trn} "a house" is grammatically masculine. 
+See how the [بُيُوت]{.ar} [buyUt]{.trn} is used in the examples below:
+
+[ٱَلْبُيُوتُ كَبِيرَةٌ.]{.ar}  
+<!-- [ٱَلْبُيُوتُ كَبِيرَاتٌ.]{.ar}  
+[ٱَلْبُيُوتُ كِبَارٌ.]{.ar}  -->
+"The houses are big."
+
+[سَكَنُوا فِي بُيُوتٍ صَغِيرَةٍ.]{.ar}  
+<!--[سَكَنُوا فِي بُيُوتٍ صَغِيرَاتٍ.]{.ar}  
+[سَكَنُوا فِي بُيُوتٍ صِغَارٍ.]{.ar}  -->
+"They~3,m~ lived in small houses."
+
+[سَقَطَتِ ٱلْبُيُوتُ.]{.ar}  
+"The houses fell."
+
+[ٱَلْبُيُوتُ سَقَطَتْ.]{.ar}  
+<!--[ٱَلْبُيُوتُ سَقَطْنَ.]{.ar}  -->
+"The houses, they fell."
+
+[هِيَ بُيُوتٌ لِلْفُقَرَاءِ.]{.ar}  
+<!--[هُنَّ بُيُوتٌ لِلْفُقَرَاءِ.]{.ar}  -->
+"They are houses for the poor."
+
+Plurals of inanimate objects and animals (both male and female) are treated the same way. 
+It doesn't matter what the grammatical or physical gender of the singular is or whether it has a sound or broken plural. Examples:
+
+[هِيَ ثِيرَانٌ وَحْشَةٌ.]{.ar}  
+<!--[هِيَ ثِيرَانٌ وُحُوشٌ.]{.ar}  
+[هُنَّ ثِيرَانٌ وَحْشَاتٌ.]{.ar}  -->
+"They are wild bulls."
+
+[ٱَلْهِرَرَةُ شَرِبَتِ ٱلْحَلِيبَ.]{.ar}  
+<!--[ٱَلْهِرَرَةُ شَرِبْنَ ٱلْحَلِيبَ.]{.ar}  -->
+"The cats~m~, they drank the milk."
+
+[ٱَلْهِرَرُ شَرِبَتِ ٱلْحَلِيبَ.]{.ar}  
+<!--[ٱَلْهِرَرُ شَرِبْنَ ٱلْحَلِيبَ.]{.ar}  -->
+"The cats~f~, they drank the milk."
+
+[ٱَلسُّفُنُ طَوِيلَة.]{.ar}  
+<!--[ٱَلسُّفُنُ طِوَالٌ.]{.ar}  
+[ٱَلسُّفُنُ طَوِيلَاتٌ.]{.ar}  -->
+"The ships are tall."
+
+[فِي ٱلصُّنْدُوقُ أَشْيَاءُ عَجِيبَةٌ.]{.ar}  
+<!--[فِي ٱلصُّنْدُوقُ أَشْيَاءُ عَجِيبَاتٌ.]{.ar}  -->
+"In the box are wonderful things."  
+(Note how ^2^[أَشْيَاء]{.ar} is indefinite but is not [tanwin]{.subs}ed. This is because it is irregularly semi-flexible.)
+
+By the way, this rule only applies to [sifah]{.subs}s in the [manut]{.subs} or the [xabar]{.subs}. A common noun in the [naat]{.subs} or [xabar]{.subs} will continue match the [manut]{.subs} or [mubtada]{.subs} in gender and number.
+
+For example, if you say:
+
+[ٱَلْأَفْعَالُ ٱلصَّالِحَةُ هِيَ ٱلْحَسَنَةُ.]{.ar}  
+"The righteous acts are the good ones."
+
+then [حَسَنَة]{.ar} may only be the feminine [sifah]{.subs} "a good one".
+
+If instead you want to use [حَسَنَة]{.ar} with its common noun meaning of "a good deed", then you have the use the plural:
+
+[ٱَلْأَفْعَالُ ٱلصَّالِحَةُ هِيَ ٱلْحَسَنَاتُ.]{.ar}  
+"The acts are the good deeds."
+
+The plural [هِي]{.ar} may continue to be used instead of [هُنَّ]{.ar}, although the latter is also valid:
+
+[ٱَلْأَفْعَالُ ٱلصَّالِحَةُ هُنَّ ٱلْحَسَنَاتُ.]{.ar}  
+"The acts are the good deeds."
+
+Similarly, if an [sifah]{.subs} connoting a non-intelligent being is used not as a [naat]{.subs} or an [xabar]{.subs} in a sentence, then it should be pluralized to indicate plurality.
+
+[ٱَلْحَيَوَانَاتُ صَغِيرَةٌ وَكَبِيرَةٌ. ٱَلْكَبِيرَاتُ وَحْشَةٌ.]{.ar}  
+"The animals are big and small. The big ones are wild."
+
+In the second sentence above, we could not have said (for the same meaning):
+
+$\times$\ [ٱَلْحَيَوَانَاتُ صَغِيرَةٌ وَكَبِيرَةٌ. __ٱَلْكَبِيرَةُ__ وَحْشَةٌ.]{.ar}  
+
+<!--
+[ٱَلْحَيَوَانَاتُ كِلَاب.]{.ar}  
+for  
+"They are male dogs."
+not  
+$\times$\ [ٱَلْحَيَوَانَاتُ كَلْبَة.]{.ar}
+-->
+
+It is important to note that treating non-intelligent beings as grammatically feminine is only for the plural. 
+Singular and dual nouns for non-intelligent beings are treated according to the gender of singular noun, as we have learned in previous chapters. So, for example,
+
+[ٱَلْبَيْتُ كَبِيرٌ.]{.ar}  
+"The house is big."  
+not  
+$\times$\ [ٱَلْبَيْتُ كَبِيرَة.]{.ar}
+
+[أَكَلَ ٱلْأَسَدَانِ ٱلظَّبْيَ.]{.ar}  
+"The lions~2~ ate the gazelle."  
+not  
+$\times$\ [أَكَلَتِ ٱلْأَسَدَانِ ٱلظَّبْيَ.]{.ar}  
+
+<!--
+### Preferring the feminine plural instead of the feminine singular
+
+In most cases we will prefer to use the feminine singular over the feminine plural for plurals of non-intelligent beings. So,
+
+[ٱلْأُسُودُ أَكَلَتِ ٱلظَّبْيَ.]{.ar}  
+"The lions, they ate the gazelle."
+
+is generally preferred over 
+
+[ٱلْأُسُودُ أَكَلْنَ ٱلظَّبْيَ.]{.ar}  
+"The lions, they ate the gazelle."
+
+However, there may be a couple of reasons to prefer the feminine plural instead of the feminine singular. We will explain them below.
+
+#### Using the feminine plural to indicate fewness
+
+In some circumstances 
+the feminine plural may be used to indicate fewness
+whereas
+the feminine singular will be used to indicate a multitude.
+
+So if we say,
+
+[ٱلْأُسُودُ أَكَلْنَ ٱلظَّبْيَ.]{.ar}  
+"The lions, they ate the gazelle."
+
+then this would indicate that there were only a few lions (say ten or less).
+
+And if, instead, we said:
+
+[ٱلْأُسُودُ أَكَلَتِ ٱلظَّبْيَ.]{.ar}  
+"The lions, they ate the gazelle."
+
+then this would indicate that there were many lions.
+
+This may seem counter-intuitive at first but you may understand it this way: 
+
+If there are many lions then we treat them as _one_ group.
+
+And if there are only a few lions, then we treat them _one-by-one_.
+
+#### Using the feminine plural to avoid confusion
+
+Sometimes, if the plural noun is not immediately mentioned, then using the feminine singular may be misinterpreted to only mean one instead of the plural. For example, consider the following example:
+
+[شَرِبَتِ ٱلْهِرَرُ ٱلْحَلِيبَ وَمَا شَرِبَتْهُ هِرَّةٌ.]{.ar}  
+"The cats~f~ drank the milk and one cat~f~ didn't drink it."
+
+If we want to follow this sentence with another sentence: "Then they went.", if we use the feminine singular:
+
+[ثُمَّ ذَهَبَتْ.]{.ar}  
+
+then this might be misinterpreted to mean that only one cat (the one that didn't drink the milk) went.
+
+So we might prefer to say, instead:
+
+[ثُمَّ ذَهَبْنَ.]{.ar}  
+-->
+
