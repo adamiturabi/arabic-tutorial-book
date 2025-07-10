@@ -4,10 +4,10 @@ project:
 book:
   subtitle: "An online book for learning Arabic"
   appendices:
-    - content/hamzarules.qmd
+    - content/hamzah_rules.qmd
     - content/gloss_terms.qmd
     - content/usage_and_style.qmd
-    - content/notes.qmd
+    - content/chapter_notes.qmd
 
 format:
   html:
