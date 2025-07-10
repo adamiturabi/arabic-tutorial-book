@@ -6,7 +6,7 @@ def read_file(filename):
 
     import re
 
-    out_str = re.sub(';([#a-zA-Z0-9_]+);', r'[\1]{.subs}', in_str, flags = re.M)
+    out_str = re.sub('(#*);([a-zA-Z0-9_]+);', r'[\1\2]{.subs}', in_str, flags = re.M)
     
     warning_str = "<!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->\n\n"
 
