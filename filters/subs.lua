@@ -4,8 +4,9 @@ local ar_span = require("ar_span")
 
 local map_table = {}
 
--- phrases
+-- text terms
 map_table["ia"] = {"if Allāh wills", nil}
+map_table["quran"] = {"Qurʾān", nil}
 
 -- states
 map_table["ustate"] = {"raised-state", nil}
