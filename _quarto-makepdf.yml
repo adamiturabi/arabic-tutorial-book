@@ -14,6 +14,7 @@ format:
     documentclass: scrbook # new chapter page only on right but adds \frontmatter command for roman numeral pagination
     toc: true
     toc-depth: 2
+    toc-title: Contents
     # DON'T USE geometry PACKAGE BECAUSE IT MESSES WITH WORD WRAP IN MARGIN ASIDES. USE NATIVE KOMASCRIPT TYPEAREA AND AREASETOPTIONS IN include-in-header
     # === PAGE DESIGN ===
     # font size and top,bottom,outer margins match my measurements of some books from my library
