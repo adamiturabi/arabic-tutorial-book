@@ -34,13 +34,13 @@ map_table["triptote"] = {"fully-flexible", nil}
 map_table["tote"] = {"flexible", nil}
 
 -- alphabetical
-map_table["aaid"] = {"refer-back pronoun", nil}
+map_table["3aaid"] = {"refer-back pronoun", nil}
 
 map_table["badal"] = {"replacement", nil}
 
-map_table["fail"] = {"doer", nil}
+map_table["faa3il"] = {"doer", nil}
 
-map_table["idafa"] = {"annexation", nil}
+map_table["idaafah"] = {"annexation", nil}
 map_table["indir_mafulb"] = {"indirect doee", nil}
 map_table["ism_fail"] = {"doer participle", nil}
 map_table["ism_isharah"] = {"pointing noun", nil}
@@ -54,7 +54,7 @@ map_table["jawab"] = {"consequence", nil}
 map_table["lazim"] = {"intransitive", nil}
 map_table["lnj"] = {"لا النافية للجنس", "ar"}
 
-map_table["madi"] = {"past", nil}
+map_table["madi"] = {"past", nil}  -- "stateless" verb?
 map_table["maful"] = {"doee", nil}
 map_table["mafulb"] = {"direct doee", nil}
 map_table["manut"] = {"describee", nil}
@@ -64,16 +64,17 @@ map_table["mubdalb"] = {"replacee", nil}
 map_table["mubtada"] = {"subject", nil}
 map_table["mudaf"] = {"annexe noun", nil}
 map_table["mudafil"] = {"base noun", nil}
-map_table["mudarie"] = {"resembling", nil} -- {"muDArie", "trn2"}
+map_table["mudarie"] = {"resembling", nil} -- {"muDArie", "trn2"} -- "stateful" verb?
 map_table["mushar_il"] = {"pointed-to noun", nil} -- {"muDArie", "trn2"}
 map_table["mutaddi"] = {"transitive", nil}
 
 map_table["naib"] = {"deputy", nil}
-map_table["naat"] = {"describer", nil}
+map_table["na3t"] = {"describer", nil}
 
 map_table["passive"] = {"passive", nil}
 
 map_table["sifah"] = {"adjectival noun", nil}
+map_table["sifah_mush"] = {"participlish adjectival noun", nil} -- "participle-like"?
 map_table["silah"] = {"connecting sentence", nil}
 map_table["shart"] = {"condition", nil}
 

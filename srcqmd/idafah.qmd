@@ -1,4 +1,4 @@
-# #;idafa;
+# #;idaafah;
 
 ## Introduction
 
@@ -8,11 +8,11 @@ Consider the following expression:
 
 This expression establishes a relation of _belonging_ between the two nouns: (i)\ "the boy", and (ii)\ "the book". It says that the book _belongs_ to the boy.
 
-Arabic expresses this meaning using a construction called _;idafa;_. In this chapter we will learn about this construction.
+Arabic expresses this meaning using a construction called _;idaafah;_. In this chapter we will learn about this construction.
 
-## Forming the ;idafa;
+## Forming the ;idaafah;
 
-The word ";idafa;" means the addition of a new _annexed_ item to an existing _base_ item. We use the term _;idafa;_ in Arabic grammar when an _;mudaf;_ is annexed to a _;mudafil;_ by being placed right before it. Here is an example of an ;idafa;:
+The word ";idaafah;" means the addition of a new _annexed_ item to an existing _base_ item. We use the term _;idaafah;_ in Arabic grammar when an _;mudaf;_ is annexed to a _;mudafil;_ by being placed right before it. Here is an example of an ;idaafah;:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -35,7 +35,7 @@ The word ";idafa;" means the addition of a new _annexed_ item to an existing _ba
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
-      node [midway, below] {\scriptsize ;idafa;};
+      node [midway, below] {\scriptsize ;idaafah;};
 
 \path (0,0) node [midway, below=8ex, right=0ex, align=left] {``the boy's book''};
 
@@ -44,20 +44,20 @@ The word ";idafa;" means the addition of a new _annexed_ item to an existing _ba
 
 <!--"the boy's book"  -->
 
-The ;idafa; construction consists of two nouns:
+The ;idaafah; construction consists of two nouns:
 
-1. The _;mudaf;_: This is the first noun in the ;idafa;.
-1. The _;mudafil;_: This is the second noun in the ;idafa;.
+1. The _;mudaf;_: This is the first noun in the ;idaafah;.
+1. The _;mudafil;_: This is the second noun in the ;idaafah;.
 
 The ;mudaf; [كِتَاب]{.ar} is annexed to, and belongs to, the ;mudafil; [ٱَلْغُلَام]{.ar}. 
 You can use the alphabetical  order (A,\ B) to help you remember that the **a**nnexe noun comes before the **b**ase noun.
 
 <!--
-Take note of the following points regarding the ;idafa; construction:
+Take note of the following points regarding the ;idaafah; construction:
 
-+ The ;mudafil; in an ;idafa; shall always be in the ;istate;.
++ The ;mudafil; in an ;idaafah; shall always be in the ;istate;.
 + The state of the ;mudaf; is variable and shall depend on its function in the sentence.
-+ The ;mudaf; in an ;idafa; shall neither have an ;tanwin; nor the prefix [ٱَلْ]{.ar}.
++ The ;mudaf; in an ;idaafah; shall neither have an ;tanwin; nor the prefix [ٱَلْ]{.ar}.
 
 ## Remove
 
@@ -81,7 +81,7 @@ The first noun in the chain is the noun before "of" and the second noun in the c
 -->
 ## State of the ;mudaf; and ;mudafil;
 
-The ;mudafil; in an ;idafa; is always in the ;istate;. The ;mudaf; may be in any state, depending on its function in the sentence. For example,
+The ;mudafil; in an ;idaafah; is always in the ;istate;. The ;mudaf; may be in any state, depending on its function in the sentence. For example,
 <!--
    + [أُمُّ ٱلْغُلَامِ مُعَلِّمَةٌ.]{.ar}  
      [Eummu -lgulAmi mueallimatun.]{.trn}  
@@ -106,9 +106,9 @@ The ;mudafil; in an ;idafa; is always in the ;istate;. The ;mudaf; may be in any
 "The teacher~m~ wrote in the boy's book."  
 (The ;mudaf; is in the ;istate;.)
 
-## Definiteness of the ;idafa;
+## Definiteness of the ;idaafah;
 
-Consider again the ;idafa; expression we have been using so far:
+Consider again the ;idaafah; expression we have been using so far:
 
 [كِتَابُ ٱلْغُلَامِ]{.ar}  
 "the boy's book"  
@@ -120,7 +120,7 @@ Nor is it made indefinite by ;tanwin;.
 <!--Its definiteness is determined by the ;mudafil;. -->
 Rather, its definiteness is determined by the ;mudafil;.
 Because the ;mudafil; [ٱَلْغُلَام]{.ar} is definite, therefore the ;mudaf; [كِتَاب]{.ar} is also definite.
-The entire ;idafa; is definite.
+The entire ;idaafah; is definite.
 <!--If the ;mudafil; is definite (as it is above) then the ;mudaf; shall also be definite.
 And if the ;mudafil; is indefinite (as below) then the ;mudaf; shall also be indefinite.-->
 
@@ -133,22 +133,22 @@ In the above example, the ;mudafil; [غُلَامٍ]{.ar} is indefinite because 
 The ;mudaf; [كِتَاب]{.ar} is neither ;tanwin;ed, nor does it have [ٱَلْ]{.ar}.
 Its definiteness is, again, determined by the ;mudafil;.
 Because the ;mudafil; [غُلَامٍ]{.ar} is indefinite, therefore the ;mudaf; [كِتَاب]{.ar} is also indefinite.
-The entire ;idafa; is indefinite.
+The entire ;idaafah; is indefinite.
 
 We will see soon, if [#allAh]{.trn2} wills, why the definiteness of the ;mudaf; is important.
 
 <!--
 
-As you can see above English has two constructs to translate the ;idafa;:
+As you can see above English has two constructs to translate the ;idaafah;:
 
 i. using "'s"
 ii. using "of"
 
 Sometimes both of the above constructs will fit for the translation, and sometimes only one will fit. For convenience, we will often translate with only one of them.
 
-The ;mudaf; in an ;idafa; can have neither an ;tanwin;, nor an [ٱَلْ]{.ar}. 
+The ;mudaf; in an ;idaafah; can have neither an ;tanwin;, nor an [ٱَلْ]{.ar}. 
 The ;mudafil; is permitted to have an ;tanwin; or an [ٱَلْ]{.ar} prefix. 
-The definiteness of the ;mudafil; then determines the definiteness of the ;idafa;. If the second noun is definite, then both the ;mudaf; and the ;mudafil;s be definite. And if the ;mudafil; is indefinite, then both the nouns in the chain will be indefinite. 
+The definiteness of the ;mudafil; then determines the definiteness of the ;idaafah;. If the second noun is definite, then both the ;mudaf; and the ;mudafil;s be definite. And if the ;mudafil; is indefinite, then both the nouns in the chain will be indefinite. 
 
 [بَيْتُ مُحَمَّدٍ]{.ar}  
 [baytu muHammadin]{.trn}  
@@ -163,7 +163,7 @@ The definiteness of the ;mudafil; then determines the definiteness of the ;idafa
 "a house of a man"
 -->
 
-Here are some examples of definite and indefinite ;idafa;s.
+Here are some examples of definite and indefinite ;idaafah;s.
 
 [لَبِسَ ٱلطِّفْلُ قَمِيصَ رَجُلٍ.]{.ar}  
 "The child wore _a_ man's shirt."
@@ -174,9 +174,9 @@ Here are some examples of definite and indefinite ;idafa;s.
 [جَلَسَ ٱلرَّجُلُ فِي ظِلِّ شَجَرَةٍ.]{.ar}  
 "The man sat in _a_ tree's shade."
 
-### Translating the ;idafa; using "of"
+### Translating the ;idaafah; using "of"
 
-So far we have been using the English "'s" to translate the Arabic ;idafa;. Examples:
+So far we have been using the English "'s" to translate the Arabic ;idaafah;. Examples:
 
 [بَيْتُ رَجُلٍ]{.ar}  
 "a man's house"
@@ -214,7 +214,7 @@ And if the ;mudafil; is indefinite then the ;mudaf; shall be considered indefini
 
 The need to maintain this distinction will become apparent in the next section.
 
-If the ;mudafil; is definite, and it is desired to make the ;mudaf; grammatically indefinite, then it is necassary to break the ;idafa;, and use a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
+If the ;mudafil; is definite, and it is desired to make the ;mudaf; grammatically indefinite, then it is necassary to break the ;idaafah;, and use a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتٍ لِلرَّجُلِ.]{.ar}  
 "The boy went to a house of the man."
@@ -222,9 +222,9 @@ If the ;mudafil; is definite, and it is desired to make the ;mudaf; grammaticall
 [فَتَحَ ٱللِّصُّ شُبَّاكًّا مِنَ ٱلْبَيْتِ وَدَخَلَ ٱلْبَيْتَ.]{.ar}  
 "The thief opened a window of the house and entered the house."
 
-## Broken plurals and [At]{.trn} sound plurals in ;idafa;s {#broken-plurals-and-at-sound-plurals-in-;idafa;s}
+## Broken plurals and [At]{.trn} sound plurals in ;idaafah;s {#broken-plurals-and-at-sound-plurals-in-;idaafah;s}
 
-There is no special rules for broken plurals and [At]{.trn} sound plurals in ;idafa;s. They behave just like singular nouns. Remember only that [At]{.trn} plurals end with [◌ٍ]{.ar} and [◌ِ]{.ar} in the ;astate;. Here are some examples:
+There is no special rules for broken plurals and [At]{.trn} sound plurals in ;idaafah;s. They behave just like singular nouns. Remember only that [At]{.trn} plurals end with [◌ٍ]{.ar} and [◌ِ]{.ar} in the ;astate;. Here are some examples:
 
 [حَيَوَانَاتُ ٱلْغَابَةِ وَحْشَةٌ.]{.ar}  
 "The animals of the forest are wild."
@@ -240,9 +240,9 @@ There is no special rules for broken plurals and [At]{.trn} sound plurals in ;id
 [فِي ٱلْخِزَانَةِ أَقْلَامُ مُعَلِّمَاتٍ.]{.ar}  
 "In the cupboard are teachers'~f~ pens.
 
-Contrary to broken plurals and [At]{.trn} plurals, duals and [Un]{.trn} sound plurals behave differently in ;idafa;s. We will deal with them in section\ \@ref(duals-and-sound-un-plurals-in-;idafa;s)
+Contrary to broken plurals and [At]{.trn} plurals, duals and [Un]{.trn} sound plurals behave differently in ;idaafah;s. We will deal with them in section\ \@ref(duals-and-sound-un-plurals-in-;idaafah;s)
 
-## #;naat;s in an ;idafa;
+## #;na3t;s in an ;idaafah;
 
 ### Describing the ;mudafil;
 
@@ -258,11 +258,11 @@ Here is how we will express this in Arabic:
 [كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرَةِ]{.ar}  
 "the small girl's book"
 
-In the manner we are already familiar with, we place the ;naat; [صَغِير]{.ar} "a small one" after the ;manut;
+In the manner we are already familiar with, we place the ;na3t; [صَغِير]{.ar} "a small one" after the ;manut;
 [ٱَلْجَارِيَة]{.ar} "the girl"
-and match the ;naat; with the ;manut; in definiteness, state, gender and number (singular, dual, or plural).
+and match the ;na3t; with the ;manut; in definiteness, state, gender and number (singular, dual, or plural).
 
-Similarly, if we had an indefinite ;idafa;, we would get:
+Similarly, if we had an indefinite ;idaafah;, we would get:
 
 [كِتَابُ جَارِيَةٍِ صَغِيرَةٍ]{.ar}  
 "a small girl's book"
@@ -280,32 +280,32 @@ Here are some more examples:
 
 ### Describing the ;mudaf;
 
-Consider, again, the same ;idafa;:
+Consider, again, the same ;idaafah;:
 
 [كِتَابُ ٱلْجَارِيَةِ]{.ar}  
 "the girl's book"
 
-Say, now, that we want to describe the ;mudaf; [كِتَاب]{.ar} "book" with the ;sifah; [صَغِير]{.ar} "a small one". Normally, nothing can come between the ;mudaf; and the ;mudafil; in an ;idafa;. So, the ;naat; needs to be placed, again, after the ;mudafil;.
+Say, now, that we want to describe the ;mudaf; [كِتَاب]{.ar} "book" with the ;sifah; [صَغِير]{.ar} "a small one". Normally, nothing can come between the ;mudaf; and the ;mudafil; in an ;idaafah;. So, the ;na3t; needs to be placed, again, after the ;mudafil;.
 However, this time it will match the ;mudaf;, not the ;mudafil;, in state, definiteness, gender, and number. So we get:
 
 [كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرُ]{.ar}  
 "the girl's small book"
 
-Note how the ;naat; 
+Note how the ;na3t; 
 [ٱَلصَّغِيرُ]{.ar} matches the ;mudaf; [كِتَابُ]{.ar} in state and gender.
-Note also how the ;naat; is definite with an [ٱَلْ]{.ar}. This is because it is matching the ;mudaf; [كِتَابُ]{.ar} in definiteness.
+Note also how the ;na3t; is definite with an [ٱَلْ]{.ar}. This is because it is matching the ;mudaf; [كِتَابُ]{.ar} in definiteness.
 The ;mudaf; [كِتَاب]{.ar} is definite, not with [ٱَلْ]{.ar}, but rather because of the definite ;mudafil; [ٱَلْجَارِيَةِ]{.ar} "the girl".
 We've already learned this rule in 
-section\ \@ref(definiteness-of-the-;idafa;)
+section\ \@ref(definiteness-of-the-;idaafah;)
 above.
 
-Similarly, if we describe the ;mudaf; [كِتَاب]{.ar} in an indefinite ;idafa;, we get:
+Similarly, if we describe the ;mudaf; [كِتَاب]{.ar} in an indefinite ;idaafah;, we get:
 
 [كِتَابُ جَارِيَةٍ صَغِيرٌ]{.ar}  
 "a girl's small book"
 
 This time
-the ;naat; 
+the ;na3t; 
 [صَغِيرٌ]{.ar}
 is indefinite with a ;tanwin;ed ;umark; [◌ٌ]{.ar}. 
 This is because 
@@ -318,7 +318,7 @@ Now, you might be foreseeing a problem. What if the ;mudaf; and the ;mudafil; ha
 or  
 "The boy went to the man's big house."  
 
-How do we know whether the ;naat; [كَبِير]{.ar} is meant to describe the ;mudaf; [بَيْتِ]{.ar} or the ;mudafil; [ٱَلرَّجُل]{.ar}?
+How do we know whether the ;na3t; [كَبِير]{.ar} is meant to describe the ;mudaf; [بَيْتِ]{.ar} or the ;mudafil; [ٱَلرَّجُل]{.ar}?
 The ;mudaf; [بَيْتِ]{.ar} and the ;mudafil; [ٱَلرَّجُل]{.ar} are both masculine, singular, definite, and in the ;istate;.
 
 The answer is that in such cases, context will have to be clear to tell us which of the two meanings is intended.
@@ -326,19 +326,19 @@ If the context makes it clear then there is no harm in using such a sentence for
 <!--https://www.m-a-arabia.com/vb/showthread.php?t=40547
 دفع اللبس في احتمالية النعت للمضاف والمضاف إليه-->
 
-Also, sometimes, the meaning of the ;naat; is such that it will likely apply to only one of the two nouns. For example,
+Also, sometimes, the meaning of the ;na3t; is such that it will likely apply to only one of the two nouns. For example,
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ ٱلرَّجُلِ ٱلْكَرِيمِ.]{.ar}  
 "The boy went to a noble/generous man's house."  
 
-In the sentence above the ;naat; [كَرِيم]{.ar} "noble/generous" is likely to apply to a man, and not to a house.
+In the sentence above the ;na3t; [كَرِيم]{.ar} "noble/generous" is likely to apply to a man, and not to a house.
 
-If, however, the context is not clear, and the meaning of the ;naat; can apply to both the ;mudaf; and the ;mudafil;, then the ;naat; is likely to apply to the ;mudafil; and not to the ;mudaf;. So then, this interpretation is more likely:
+If, however, the context is not clear, and the meaning of the ;na3t; can apply to both the ;mudaf; and the ;mudafil;, then the ;na3t; is likely to apply to the ;mudafil; and not to the ;mudaf;. So then, this interpretation is more likely:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ ٱلرَّجُلِ ٱلْكَبِيرِ.]{.ar}  
 "The boy went to the big/old man's house."  
 
-In order to apply a ;naat; to the ;mudaf; in such a case, it is better to break the ;idafa; and form a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
+In order to apply a ;na3t; to the ;mudaf; in such a case, it is better to break the ;idaafah; and form a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ ٱلْبَيْتِ ٱلْكَبِيرِ لِلرَّجُلِ .]{.ar}  
 "The boy went to the big house of the man."  
@@ -368,7 +368,7 @@ or
 "The student went to a great school of a city."  
 -->
 
-## Semi-flexible nouns in an ;idafa;
+## Semi-flexible nouns in an ;idaafah;
 
 Remember that semi-flexible nouns are not ;tanwin;ed and that when indefinite, their ;istate; is indicated by an ;amark; [◌َ]{.ar}. 
 But when definite with [ٱَلْ]{.ar} then they behave just like fully-flexible nouns.
@@ -381,11 +381,11 @@ State  | Indefinite | Definite
 ;astate;| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءَ]{.ar}
 ;istate;| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءِ]{.ar}
 
-We will now see how semi-flexible nouns behave in an ;idafa;.
+We will now see how semi-flexible nouns behave in an ;idaafah;.
 
 ### A semi-flexible noun as the ;mudafil;
 
-Here are examples of the semi-flexible noun ^2^[صَحْرَاء]{.ar} "a desert" as the ;mudafil; in an ;idafa;:
+Here are examples of the semi-flexible noun ^2^[صَحْرَاء]{.ar} "a desert" as the ;mudafil; in an ;idaafah;:
 
 [ٱَلْقَرْيَةُ فِي وَسَطِ ٱلصَّحْرَاءِ.]{.ar}  
 "The village is in the middle of the desert."
@@ -413,9 +413,9 @@ In the above example,
 It is in the ;istate; because it is preceded by the preposition [مِنْ]{.ar} "from". 
 Nevertheless, it takes an ;imark; [مِنْ صَحْرَاءِ أَرْضٍ]{.ar}, not an ;amark;, which would be incorrect: $\times$\ [مِنْ صَحْرَاءَ أَرْضٍ]{.ar}.
 
-## #;idafa;s with more than two nouns
+## #;idaafah;s with more than two nouns
 
-So far we have seen ;idafa;s with two nouns. #;idafa;s may be arbitrarily long. Here is an example of a noun-chain with more than two nouns:
+So far we have seen ;idaafah;s with two nouns. #;idaafah;s may be arbitrarily long. Here is an example of a noun-chain with more than two nouns:
 
 <!--
 [مِفْتَاحُ بَابِ ٱلْبَيْتِ]{.ar}  
@@ -461,23 +461,23 @@ So far we have seen ;idafa;s with two nouns. #;idafa;s may be arbitrarily long. 
 
 %\draw [decoration={brace, mirror, raise=3ex}, decorate] 
 %   (word-1.south west) -- (word-2.south east)
-%      node [midway, below=3ex] {;idafa;};
+%      node [midway, below=3ex] {;idaafah;};
 \end{tikzpicture}
 ```
 
-The above ;idafa; consists of three nouns. It may be divided into two sub-;idafa;s:
+The above ;idaafah; consists of three nouns. It may be divided into two sub-;idaafah;s:
 
 i. [مِفْتَاحُ بَابِ]{.ar} "door's key". Its ;mudaf; $a_1$\ is [مِفْتَاح]{.ar} and its ;mudafil;\ $b_1$ is [بَابِ]{.ar}.
 i. [بَابِ ٱلْبَيْتِ]{.ar} "the house's door". Its ;mudaf; $a_2$\ is [بَابِ]{.ar} and its ;mudafil;\ $b_2$ is [ٱلْبَيْتِ]{.ar}.
 
-The noun [بَاب]{.ar} "door" is common to both sub-;idafa;s. It is the ;mudafil; of the first sub-;idafa;
+The noun [بَاب]{.ar} "door" is common to both sub-;idaafah;s. It is the ;mudafil; of the first sub-;idaafah;
 [مِفْتَاحُ بَابِ]{.ar} "door's key".
-At the same time, it is also the ;mudaf; of the second sub-;idafa;
+At the same time, it is also the ;mudaf; of the second sub-;idaafah;
 [بَابِ ٱلْبَيْتِ]{.ar} "the house's door".
 
-Only the final ;mudafil; may have [ٱَلْ]{.ar} or be ;tanwin;ed. If the final ;mudafil; has [ٱَلْ]{.ar} (as above) then all the nouns in the ;idafa; are definite. 
+Only the final ;mudafil; may have [ٱَلْ]{.ar} or be ;tanwin;ed. If the final ;mudafil; has [ٱَلْ]{.ar} (as above) then all the nouns in the ;idaafah; are definite. 
 
-And if the final ;mudafil; is indefinite, as in the example below, then all the nouns in the ;idafa; are indefinite.
+And if the final ;mudafil; is indefinite, as in the example below, then all the nouns in the ;idaafah; are indefinite.
 
 [مِفْتَاحُ بَابِ بَيْتٍ]{.ar}  
 "a house's door's key"
@@ -495,7 +495,7 @@ Consider the expression:
 
 "his book"
 
-This expression is very similar to the ;idafa;:
+This expression is very similar to the ;idaafah;:
 
 [كِتَابُ ٱلْغُلَامِ]{.ar}  
 "the boy's book" 
@@ -505,12 +505,12 @@ The difference is that we would like to replace the ;mudafil; [ٱَلْغُلَ�
 [كِتَابُهُ]{.ar}  
 "his book"
 
-This ;idafa; follows the same rules as the other ;idafa;s we have been studying so far:
+This ;idaafah; follows the same rules as the other ;idaafah;s we have been studying so far:
 
 + The ;mudaf; may be in any state, depending on its function in the sentence.
 + The ;mudafil; is in the ;istate;. But because the ;mudafil; is a pronoun, and pronouns are rigid nouns (see section\ \@ref(rigidity-of-pronouns) that don't change their ending based on their state, therefore it's ;istate; will not be apparent.
 
-Here are some examples of this ;idafa; used in sentences:
+Here are some examples of this ;idaafah; used in sentences:
 
 [كِتَابُهُ ثَقِيلٌ.]{.ar}  
 "His book is heavy"
@@ -571,19 +571,19 @@ Example with the semi-flexible broken plural ^2^[هَدَايَا]{.ar} "gifts":
 [أَعْجَبَتْهُمْ هَدَايَايَ.]{.ar}  
 "My gifts pleased them."
 
-### #;naat;s with ;idafa;s to pronouns
+### #;na3t;s with ;idaafah;s to pronouns
 
-Consider the ;idafa;:
+Consider the ;idaafah;:
 
 [كِتَابُهُ]{.ar}  
 "his book"
 
 The ;mudaf; is [كِتَاب]{.ar} and the ;mudafil; is the pronoun [ه]{.ar}.
-We would like add a ;naat; to this expression.
+We would like add a ;na3t; to this expression.
 Remember from section\ \@ref(definiteness-of-pronouns) that pronouns are definite nouns. That makes the ;mudaf; [كِتَاب]{.ar} also definite.
-Therefore, any ;naat; for this ;idafa; will need to be definite too.
+Therefore, any ;na3t; for this ;idaafah; will need to be definite too.
 
-Here is a new rule: Pronouns may not be ;manut;s. That is: they are not allowed to have ;naat;s.
+Here is a new rule: Pronouns may not be ;manut;s. That is: they are not allowed to have ;na3t;s.
 Even in English you may say:
 
 "The good boy went."
@@ -592,7 +592,7 @@ but you can't say:
 
 $\times$\ "The good _he_ went."
 
-So, any ;naat;s for the ;idafa; must necessarily only describe the ;mudaf;, not the base pronoun. Example:
+So, any ;na3t;s for the ;idaafah; must necessarily only describe the ;mudaf;, not the base pronoun. Example:
 
 [كِتَابُهُ الأَحْمَرُ]{.ar}  
 "his red book"
@@ -606,13 +606,13 @@ Here are some more examples:
 "The village boys carried their heavy bags to their distant school."  
 (literally: the village's boys.)
 
-## Duals and [Un]{.trn} sound plurals in ;idafa;s {#duals-and-sound-un-plurals-in-;idafa;s}
+## Duals and [Un]{.trn} sound plurals in ;idaafah;s {#duals-and-sound-un-plurals-in-;idaafah;s}
 
-We have already dealt with broken plurals and [At]{.trn} sound plurals in ;idafa;s in 
-section\ \@ref(broken-plurals-and-at-sound-plurals-in-;idafa;s).
+We have already dealt with broken plurals and [At]{.trn} sound plurals in ;idaafah;s in 
+section\ \@ref(broken-plurals-and-at-sound-plurals-in-;idaafah;s).
 
 In this section we will deal with 
-duals and [Un]{.trn} sound plurals in ;idafa;s.
+duals and [Un]{.trn} sound plurals in ;idaafah;s.
 
 ### Duals and [Un]{.trn} sound plurals as ;mudafil;s
 
@@ -658,7 +658,7 @@ Here are some more examples including [Un]{.trn} sound plurals:
 [مُعَلِّمُو ٱلْغُلَامِ كِرَامٌ.]{.ar}  
 [mueallimu -lgulAmi kirAm.]{.trn}  
 "The boy's teachers~3~ are noble."  
-(Note that there is no silent [alif]{.trn2} after [مُعَلِّمُو]{.ar} as there is after a verb with a plural absentee-participant ;fail; pronoun, e.g. [لَعِبُوا]{.ar} "they~3,m~ played")
+(Note that there is no silent [alif]{.trn2} after [مُعَلِّمُو]{.ar} as there is after a verb with a plural absentee-participant ;faa3il; pronoun, e.g. [لَعِبُوا]{.ar} "they~3,m~ played")
 
 [لَعِبَ ٱبْنَا ٱلرَّجُلِ مَعَ لَاعِبِي مَدِينَتِهِمْ.]{.ar}  
 [laeiba -bna -rrajuli maea lAeibI madInatihim.]{.trn}  
@@ -716,7 +716,7 @@ it is in fact, more common, to say
 [نَظَرْتُ إِلَىٰ رُؤُوسِهِمَا]{.ar}
 "I looked at their~2~ heads~3~."
 
-Although the former is also correct. This is because the ;idafa; of a dual to a dual is considered burdensome upon the tongue to utter, and so the plural is prefered.
+Although the former is also correct. This is because the ;idaafah; of a dual to a dual is considered burdensome upon the tongue to utter, and so the plural is prefered.
 
 <!--
 
@@ -740,7 +740,7 @@ If the second noun in a chain is to be described using a qualitative noun, then 
 [buyUtu -rrijAli -lkibAri]{.trn}  
 "houses of the old/big men" = "the old/big men's houses"
 
-If the first noun in a chain is to be described using a qualitative noun, then we will actually place the qualitative noun after the second noun, not the first noun, in the chain. This way we don't break the chain of the two nouns. The ;naat; will match the first noun definiteness, state, gender, and number (depending on whether it denotes a rational or non-rational being). Examples: 
+If the first noun in a chain is to be described using a qualitative noun, then we will actually place the qualitative noun after the second noun, not the first noun, in the chain. This way we don't break the chain of the two nouns. The ;na3t; will match the first noun definiteness, state, gender, and number (depending on whether it denotes a rational or non-rational being). Examples: 
 
 [بَيْتُ رَجُلٍ كَبِيرٌ]{.ar}  
 [baytu rajulin kabIrun]{.trn}  
@@ -755,7 +755,7 @@ Consider, however, the sentence:
 [ذَهَبَ إِلَىٰ بَيْتِ رَجُلٍ كَبِيرٍ.]{.ar}  
 [pahaba EilA bayti rajulin kabIrin.]{.trn}  
 
-In this sentence both the first noun in the chain [بَيْتِ]{.ar} [bayti]{.trn} and second noun [رَجُلٍ]{.ar} [rajulin]{.trn} are indefinite, singular, masculine, and in the ;istate;. So the ;naat; [كَبِيرٍ]{.ar} [kabirin]{.trn} could be applicable to either. And the meaning of the sentence could be either,
+In this sentence both the first noun in the chain [بَيْتِ]{.ar} [bayti]{.trn} and second noun [رَجُلٍ]{.ar} [rajulin]{.trn} are indefinite, singular, masculine, and in the ;istate;. So the ;na3t; [كَبِيرٍ]{.ar} [kabirin]{.trn} could be applicable to either. And the meaning of the sentence could be either,
 
 "He went to a man's big house."
 
@@ -910,7 +910,7 @@ Note the following:
 + All the nouns except the first must be in the ;istate;. 
 + The [ن]{.ar} of the dual and the [Un]{.trn} plural is dropped for all nouns except the last.
 + Any non-fully-changing noun in the ;istate; in any position but the last will take an ;imark; on it's last letter. If a non-fully-changing noun is the last noun in the chain, and it does not have [ٱَلْ]{.ar} then it will take an ;amark; on it's last letter.
-+ #;naat;s for any of the nouns in the chain will appear at the end. Practically, only one of the nouns will have a ;naat;.
++ #;na3t;s for any of the nouns in the chain will appear at the end. Practically, only one of the nouns will have a ;na3t;.
 
 ## Mismatched definiteness in noun-chains
 
@@ -1024,7 +1024,7 @@ Here are some notes regarding the use of pronouns in noun-chains.
     [mueallimiyya TayyibUna.]{.trn}  
     "My (male) teachers~pl.~ are good."
 
-+ Pronouns are always definite. So when a pronoun is the last noun in a noun-chain, all preceding nouns will be definite. This is important to know because if a ;naat; is to be used for any of the preceding nouns, it will be definite too and will therefore have [ٱَلْ]{.ar}. Examples:
++ Pronouns are always definite. So when a pronoun is the last noun in a noun-chain, all preceding nouns will be definite. This is important to know because if a ;na3t; is to be used for any of the preceding nouns, it will be definite too and will therefore have [ٱَلْ]{.ar}. Examples:
   + [بَيْتِي ٱلْكَبِيرُ وَاسِعٌ.]{.ar}  
     [bayti -lkabIru wAsieun.]{.trn}  
     "My big house is spacious."
@@ -1035,10 +1035,10 @@ Here are some notes regarding the use of pronouns in noun-chains.
     [mueallimiyya -lkirAmu fI madrasatihimu -lqadImati.]{.trn}  
     "My noble (male) teachers are in their old school."
 
-  By the way, ;naat;s will obviously only be for nouns preceding the pronoun and never for the pronoun itself.
+  By the way, ;na3t;s will obviously only be for nouns preceding the pronoun and never for the pronoun itself.
 -->
 
-## #;idafa;s with "and"
+## #;idaafah;s with "and"
 
 ### Multiple ;mudaf;s and one ;mudafil;
 
@@ -1050,9 +1050,9 @@ In order to express this in Arabic, we will say:
 [qalamu -lgulAmi wakitAbuhu]{.trn}  
 "the boy's pen and his book" = "the boy's pen and book"
 
-Note that the ;idafa; is not broken by the insertion of [وَ]{.ar} [wa]{.trn} "and". Rather a second ;idafa; is used and the two are separated by [وَ]{.ar} [wa]{.trn} "and". This is the preferred way of expressing such expressions.
+Note that the ;idaafah; is not broken by the insertion of [وَ]{.ar} [wa]{.trn} "and". Rather a second ;idaafah; is used and the two are separated by [وَ]{.ar} [wa]{.trn} "and". This is the preferred way of expressing such expressions.
 
-There is another, less preferred way of expressing this. And this is by breaking the first ;idafa; and inserting [وَ]{.ar} [wa]{.trn} "and":
+There is another, less preferred way of expressing this. And this is by breaking the first ;idaafah; and inserting [وَ]{.ar} [wa]{.trn} "and":
 
 [قَلَمُ وَكِتَابُ ٱلْغُلَامِ]{.ar}  
 [qalamu wakitAbu -lgulAmi]{.trn}  
@@ -1062,7 +1062,7 @@ This second method is not considered as eloquent. Some even consider it incorrec
 
 #### With pronouns
 
-If the ;mudafil; in the first ;idafa; is replaced with a pronoun then only the first method is allowed. For example,
+If the ;mudafil; in the first ;idaafah; is replaced with a pronoun then only the first method is allowed. For example,
 
 [قَلَمُهُ وَكِتَابُهُ]{.ar}  
 [qalamuhu wakitAbuhu]{.trn}  
@@ -1079,11 +1079,11 @@ To express this in Arabic we will say:
 "the house of the boy and the girl"
 
 Note that both 
-[ٱلْغُلَامِ]{.ar} [EalgulAmi]{.trn} and [ٱَلْجَارِيَةِ]{.ar} [EaljAriyati]{.trn} are in the ;istate; because they are both ;mudafil;s in the ;idafa;.
+[ٱلْغُلَامِ]{.ar} [EalgulAmi]{.trn} and [ٱَلْجَارِيَةِ]{.ar} [EaljAriyati]{.trn} are in the ;istate; because they are both ;mudafil;s in the ;idaafah;.
 
 #### With pronouns
 
-If one or both of the ;mudafil;s in the ;idafa; is replaced with a pronoun then the first noun must be repeated. For example,
+If one or both of the ;mudafil;s in the ;idaafah; is replaced with a pronoun then the first noun must be repeated. For example,
 
 [بَيْتُ ٱلْغُلَامِ وَبَيْتُهَا]{.ar}  
 "the boy's house and her house"
@@ -1104,9 +1104,9 @@ However, it must be said that these expressions are ambiguous because they could
 piece of bread, man of wealth, rule of law, nahru -lEurdunn
 -->
 
-## #;idafa; to a sentence
+## #;idaafah; to a sentence
 
-So far we have studied the ;idafa; of an ;mudaf; to a ;mudafil;.
+So far we have studied the ;idaafah; of an ;mudaf; to a ;mudafil;.
 It is also possible to have an annnexation where the ;mudafil; is replaced by a sentence or a clause.
 For example,
 
@@ -1136,7 +1136,7 @@ For example,
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
-      node [midway, below] {\scriptsize ;idafa;};
+      node [midway, below] {\scriptsize ;idaafah;};
 
 \path (0,0) node [midway, below=6ex, right=0ex, align=left] {``I accompanied my friend the day we left the city.''};
 
@@ -1149,9 +1149,9 @@ The entire sentence
 occupies the place of the ;mudafil;.
 We will study the adverb of time in chapter\ (give ref),
 if [#allAh]{.trn2} wills,
-where such ;idafa;s are common.
+where such ;idaafah;s are common.
 
-#;idafa; to a sentence also occurs besides adverbs.^[[https://ar.wikipedia.org/wiki/[الجملة_الفعلية_الواقعة_مضافا_إليه]{.ar}](https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AC%D9%85%D9%84%D8%A9_%D8%A7%D9%84%D9%81%D8%B9%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D9%88%D8%A7%D9%82%D8%B9%D8%A9_%D9%85%D8%B6%D8%A7%D9%81%D8%A7_%D8%A5%D9%84%D9%8A%D9%87)]
+#;idaafah; to a sentence also occurs besides adverbs.^[[https://ar.wikipedia.org/wiki/[الجملة_الفعلية_الواقعة_مضافا_إليه]{.ar}](https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AC%D9%85%D9%84%D8%A9_%D8%A7%D9%84%D9%81%D8%B9%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D9%88%D8%A7%D9%82%D8%B9%D8%A9_%D9%85%D8%B6%D8%A7%D9%81%D8%A7_%D8%A5%D9%84%D9%8A%D9%87)]
 For another example, see section\ (ref to idaafah to a [أن يفعلَ]{.ar}).
 
 
@@ -1165,13 +1165,13 @@ For now, we will give a short preview of the numbers from one to ten.
 
 The word for the number "one" is
 [وَاحِد]{.ar} [wAHid]{.trn}.
-It is an ;sifah; and can be used as a ;naat;.
+It is an ;sifah; and can be used as a ;na3t;.
 For example,
 
 [قَرَأْتُ كِتَابًا وَاحِدًا.]{.ar}  
 "I read one book."
 
-As usual, when the described noun is feminine, then the ;naat; too [وَاحِد]{.ar} is feminized:
+As usual, when the described noun is feminine, then the ;na3t; too [وَاحِد]{.ar} is feminized:
 
 [أَكَلْتُ تَمْرَةً وَاحِدَةً.]{.ar}  
 "I ate one date."
@@ -1191,7 +1191,7 @@ is a singular noun.
 Correspondingly, the number for "two" 
 [ٱثْنَانِ]{.ar} [ivnAni]{.trn}
 is a dual noun.
-It too can be used as ;naat;.
+It too can be used as ;na3t;.
 For example,
 
 [دَخَلَ رَجْلَانِ ٱثْنَانِ.]{.ar}  
@@ -1265,7 +1265,7 @@ Whereas
 the feminine number has a [sukUn]{.trn2} on the [ش]{.ar} 
 ([عَشْر]{.ar} [eacr]{.trn}).
 
-Consistent with the numbers 1 and 2, the numbers from 3--10 may be used as ;naat;s.
+Consistent with the numbers 1 and 2, the numbers from 3--10 may be used as ;na3t;s.
 But they are more often used as ;mudaf;s.
 As mentioned earlier, we will treat numbers more fully later, if [#allAh]{.trn2} wills.
 But here are some examples for now:
@@ -1309,7 +1309,7 @@ For example,
 
 
 
-## Usage of the ;idafa;
+## Usage of the ;idaafah;
 
 ### Primarily belonging
 
@@ -1323,7 +1323,7 @@ Don't become definite when annexed to pronoun
 
 [قالت لِي نَفسي]{.ar}
 
-### ;idafa; of material
+### ;idaafah; of material
 
 [خاتمُ ذَهَبٍ]{.ar}
 
