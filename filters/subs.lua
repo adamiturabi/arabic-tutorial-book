@@ -33,6 +33,10 @@ map_table["diptote"] = {"semi-flexible", nil}
 map_table["triptote"] = {"fully-flexible", nil}
 map_table["tote"] = {"flexible", nil}
 
+-- active and passive voice
+map_table["active"] = {"active", nil} -- "known-doer" verb?
+map_table["passive"] = {"passive", nil} -- "unknown-doer" verb?
+
 -- alphabetical
 map_table["3aaid"] = {"refer-back pronoun", nil}
 
@@ -70,8 +74,6 @@ map_table["mutaddi"] = {"transitive", nil}
 
 map_table["naib"] = {"deputy", nil}
 map_table["na3t"] = {"describer", nil}
-
-map_table["passive"] = {"passive", nil}
 
 map_table["sifah"] = {"adjectival noun", nil}
 map_table["sifah_mush"] = {"participlish adjectival noun", nil} -- "participle-like"?
