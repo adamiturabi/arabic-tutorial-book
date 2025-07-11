@@ -1,9 +1,6 @@
 # About
 
-This repository contains the source files for my online book: "A Learner's Grammar of Standard Classical Arabic".
-It is a work in progress. So far I have written approximately 25 chapters, with at least as many remaining.
-In addition to writing the remaining chapters, I also have to add chapter exercises and vocabulary lists.
-There is much editing and work needed even in the chapters already written so it is not ready for study yet.
+This repository contains the source files for my online book: "A Grammar of Standard Classical Arabic".
 
 The output (such as it is) is published here in HTML: https://adamiturabi.github.io/arabic-tutorial-book/
 
