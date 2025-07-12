@@ -192,9 +192,18 @@ function Link(el)
           print("bad surah_index: " .. surah_index)
         end
         local verse_index = string.sub(surah_and_verse, sep_loc+1, -1)
-        local arabic_text = tafsir_book_name .. " لسورة " .. surah_name
+        --local arabic_text = tafsir_book_name .. " لسورة " .. surah_name
+        local arabic_text1 = tafsir_book_name
+        local arabic_text2 = "سورة " .. surah_name
         local index_text = " " .. surah_index .. ":" .. verse_index
-        return pandoc.Link({ar_span.ArabicSpan(pandoc.Span(arabic_text, {class="ar"})), index_text}, url_text)
+        return pandoc.Link(
+          {
+            ar_span.ArabicSpan(pandoc.Span(arabic_text1, {class="ar"})),
+            " for ",
+            ar_span.ArabicSpan(pandoc.Span(arabic_text2, {class="ar"})),
+            index_text
+          },
+          url_text)
       end
 
       -- sunnah.com
