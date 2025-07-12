@@ -42,6 +42,9 @@ map_table["3aaid"] = {"refer-back pronoun", nil}
 
 map_table["badal"] = {"replacement", nil}
 
+map_table["dharf_makan"] = {"adverb of place", nil}
+map_table["dharf_zaman"] = {"adverb of time", nil}
+
 map_table["faa3il"] = {"doer", nil}
 
 map_table["idaafah"] = {"annexation", nil}
@@ -51,6 +54,7 @@ map_table["ism_isharah"] = {"pointing noun", nil}
 map_table["ism_of"] = {"subject", nil}
 map_table["ism_maful"] = {"doee participle", nil}
 map_table["ism_marrah"] = {"one-time noun", nil}
+map_table["ism_masdar"] = {"maṣdarish noun", nil}
 map_table["ism_mawsul"] = {"connected noun", nil}
 
 map_table["jawab"] = {"consequence", nil}
