@@ -88,6 +88,11 @@ For example,
     [Wright, 2/54B]{.citex}  
     "He beat him (with) the beating of an oppressor."
 
+Such a qualifying ;mmutlaq; may also be signified simply with the definite article [ٱل]{.ar}.^[[النحو الوافي]{.ar} 2/207 (footnote 4)]. For example, if a specific kind of beating is known before-hand to both the speaker and addressee, then the speaker may simply say:
+
+(@) [أَضْرِبُهُ ٱلضَّرْبَ]{.ar}  
+    "I will beat him (with) _the_ beating."
+
 The quantity of the action the verb frequenty uses the _;ism_marrah;_ and it may be dualized or pluralized.
 For example,
 
@@ -167,7 +172,7 @@ For example:
 
 (@) [رَحِمَهُ رَحْمَةً وَاحِدَةً]{.ar}
     [Wright 1/123C]{.citex}  
-    "He had mercy upon him once."
+    "He took one mercy upon him."
 
 It is also important to mention that the qualifying ;mmutlaq; includes the reinforcing meaning.^[[النحو الوافي]{.ar} 2/207--209]
 We cannot use the qualifying ;mmutlaq; without also emphasizing the meaning of the verb.
@@ -186,26 +191,109 @@ For example:
     [[النحو الوافي]{.ar} 2/209]{.citex}  
     "I read the book two useful readings."
 
-## The ;naib; to the ;mmutlaq;
+## The ;naib; to the ;masdar; as an ;mmutlaq;
 
-Frequently, instead of using the ;mmutlaq; directly,
+<!--
+لا يوجد ما يسمى النائب عن المفعول المطلق، وإنما يوجد ما ينوب عن المصدر في انتصابه على المفعولية المطلقة، يعني أن المفعول المطلق إما أن يكون مصدرا وهو الأصل أو غير مصدر، فإذا كان غير مصدر سمي نائبا عن المصدر
+https://al-maktaba.org/book/31874/5197
+-->
+
+Frequently, instead of using the ;masdar; as the ;mmutlaq; directly,
 it is substituted by another word.
+This word is then called the ;naib; to the ;masdar; as an ;mmutlaq; because it fulfils the ;mmutlaq;'s role.
+The ;masdar; may still figure in the expression.
+It will just not technically be the ;mmutlaq;, because the first ;astate; ;maful; in that position is now its ;naib;.
 
-(@) [ضربته شديدا]{.ar}
+The ;naib; to the ;masdar; can be one of several categories:
 
-The ;masdar; may still figure in the expression. It will just not technically be the ;mmutlaq;, because the first ;astate; ;maful; in that position is now its ;naib;.
-For example,
+#### An ;ism_masdar; {.unnumbered}
 
-When the ;masdar; is substituted with a ;na3t;, then the masculine ;sifah; will be used for the ;na3t;,
+(see (ref)).
+
+For example:
+
+(@) [فَرَجَعَ إِلَى قَوْمِهِ فَقَالَ يَا قَوْمِ أَسْلِمُوا فَإِنَّ مُحَمَّدًا يُعْطِي عَطَاءً لاَ يَخْشَى الْفَاقَةَ]{.ar}
+    [<https://sunnah.com/muslim:2312a>]{.citex}  
+    "So he returned to his people and said, 'O my people, embrace [#islAm]{.trn2} for indeed [#muHammad]{.trn2} gives a gift that does not fear want.'"  
+    ([عَطَاء]{.ar} "gift" is a ;ism_masdar; for the actual ;masdar; [إِعْطَاء]{.ar}.)
+
+#### A ;na3t; to a deleted ;masdar; {.unnumbered}
+
+For example:
+
+(@) [ضَرَبْتُهُ شَدِيدًا]{.ar}
+    [Wright, 2/54A]{.citex}  
+    "I beat him severely."  
+    (for [ضَرَبْتُهُ ضَرْبًا شَدِيدًا]{.ar} "I beat him a severe beating.")
+
+(@) [سِرْتُ أَحْسَنَ ٱلسَّيْرِ]{.ar}
+    [[[أوضح المسالك إلى ألفية ابن مالك لابن هشام]{.ar} 2/184](https://shamela.ws/book/11825/551)]{.citex}  
+    "I travelled the best (kind) of travelling."  
+    (for [سِرْتُ ٱلسَّيْرِ أَحْسَنَ ٱلسَّيْرِ]{.ar})
+
+When the ;masdar; is thus substituted with its ;na3t;, then the masculine ;sifah; is typically used for the ;na3t;,
 even if the ;masdar; was a feminine noun.
+For example:
+
+(@) [كَتَبُوا سَرِيعًا]{.ar}  
+    "They wrote quickly."  
+    (for [كَتَبُوا كِتَابَةً سَرِيعَةً]{.ar})
+
 This is because even when
 ;masdar;s
 end with a feminine marker,
 they are abstract enough in their meaning that when they are absent,
 only the idea of them retains influence, not their actual wording.
-And that abstract idea is not strongly feminine enough to cause the ;na3t; to match the wording of the ;masdar; in gender.
-And so, by default, the masculine ;sifah;.
+And because that abstract idea is not feminine in its meaning,
+it doesn't cause the ;na3t; to match the feminine wording of the ;masdar; in gender.
+So, by default, the masculine ;sifah; is used for the ;na3t;.
 
+Also, the ;astate; ;sifah; in such phrases as 
+[ضَرَبْتُهُ شَدِيدًا]{.ar}
+may, where the sense allows or requires it, be a ;naib; to the ;dharf_zaman;
+instead of a ;naib; to the ;mmutlaq;.^[Wright 2/54D]
+For example: [سَارُوا طَوِيلًا]{.ar} "They travelled a long time,"
+(for [سَارُوا زَمَنًا طَوِيلًا]{.ar}. See section\ (ref).)
+
+In fact, according to some authorities,
+when the ;astate; noun in such phrases could be applied to both
+a deleted ;mmutlaq;
+or a deleted ;dharf_zaman;
+(or, for that matter, other ;astate; functions like a ;mafulb;),
+then it is possible that both meanings could be intended.^[[معاني النحو]{.ar} 2/196--199]
+For example,
+[ضَرَبْتُهُ كَثِيرًا]{.ar}
+could mean, at the same time, both 
+[ضَرَبْتُهُ ضَرْبًا كَثِيرًا]{.ar}
+"I beat him a lot [of beatings]," and
+[ضَرَبْتُهُ زَمَنًا كَثِيرًا]{.ar}
+"I beat him (for) a lot [of time]."
+
+#### A pronoun {.unnumbered}
+
+A ;mmutlaq; can be substituted by a pronoun that refers to it.^[See also <https://tafsir.app/ibn-aashoor/5/115> ([فَإنِّي أُعَذِّبُهُ عَذابًا لا أُعَذِّبُهُ أحَدًا مِنَ العالَمِينَ]{.ar})]
+For example:
+
+(@) [أَحْسَنَ ٱلْإِكْرَامَ وَأَكْرَمَهُ ضَيْفَهُ]{.ar}  
+    "He perfected generosity and was generous (with it) [to] his guest."  
+    (i.e., he was generous with the generosity)
+
+#### A ;ism_isharah; {.unnumbered}
+
+Similar to the pronoun as a ;naib; ;masdar; ;mmutlaq;, a ;ism_isharah; may be used in the same vein.
+For example
+
+(@) [ٱلرَّجُلُ ٱلْمُهَذَّبُ لاَ يُعَامِلُ ٱلنَّاسَ هَـٰذِهِ ٱلْمُعَامَلَةَ]{.ar}
+    [[[النحو الواضح لعلي الجارم]{.ar} 2/159](https://shamela.ws/book/10018/571#p1)]{.citex}
+
+(@) [يَحْفَظُونَ أَسْرَارَهُمْ هَـٰذَا ٱلْحِفْظَ]{.ar}
+    [Wright 2/54A]{.citex}  
+    "They keep their secrets (with) this keeping"
+    (i.e. so carefully)
+
+#### A synonym, or a near-synonym, of the actual ;masdar; {.unnumbered}
+
+For example:
 
 ## Substituting the governing verb with the ;mmutlaq; as its ;naib;
 

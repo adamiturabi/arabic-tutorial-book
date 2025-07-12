@@ -54,5 +54,5 @@ format:
     #  - file: srctex/before_body.tex
     template-partials:
       - srctex/before-title.tex
-
+    #block-headings: false
 
