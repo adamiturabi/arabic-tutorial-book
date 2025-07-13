@@ -54,7 +54,8 @@ map_table["ism_isharah"] = {"pointing noun", nil}
 map_table["ism_of"] = {"subject", nil}
 map_table["ism_maful"] = {"doee participle", nil}
 map_table["ism_marrah"] = {"one-time noun", nil}
-map_table["ism_masdar"] = {"maṣdarish noun", nil}
+map_table["ism_hay2ah"] = {"noun of kind", nil}
+map_table["ism_masdar"] = {"maṣdar-substitute", nil}
 map_table["ism_mawsul"] = {"connected noun", nil}
 
 map_table["jawab"] = {"consequence", nil}
