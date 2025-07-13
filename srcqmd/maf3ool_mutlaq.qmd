@@ -358,6 +358,19 @@ may make sense both as a ;mmutlaq; or as a ;mafulb;.^[[معاني النحو]{.a
     [<https://quran.com/4/36>]{.citex}  
     "and associate nothing with Him"
 
+<!--
+Also included in this category are nouns like
+[عَامَّة]{.ar} "generally",
+and
+[خَاصَّة]{.ar} "specially, specifically".
+
+(@) [فَقَالَ أَصْحَابُهُ يَا رَسُولَ اللَّهِ أَلِهَذَا خَاصَّةً أَمْ لِلنَّاسِ عَامَّةً]{.ar}
+    [<https://sunnah.com/tirmidhi:3115>]{.citex}  
+    "So his companions said, 'O Messenger of [#allAh]{.trn}, is [it] for this [person] specifically, or for the people generally?"
+
+^ probably wrong. should be Haal.See tafsirs for خاصة and كافة.
+-->
+
 #### The instrument or implement used in the action {.unnumbered}
 
 The type of action may be indicated with the
@@ -527,8 +540,8 @@ Here are some more examples:
 In the above example,
 the following alternative (using the ;mmutlaq;) is also possible:
 
-(@) (1) [وَيْحًا لِزَيْدٍ]{.ar}[Lane's Lexicon, root [ويح]{.ar}]{.citex}
-    (2) [وَيْحَ زَيْدٍ]{.ar}[Lane's Lexicon, root [ويح]{.ar}]{.citex}  
+(@) (1) [وَيْحًا لِزَيْدٍ]{.ar} [Lane's Lexicon, root [ويح]{.ar}]{.citex}
+    (2) [وَيْحَ زَيْدٍ]{.ar} [Lane's Lexicon, root [ويح]{.ar}]{.citex}  
     "A mercy on Zayd"  
     (as though one were to say: [أَلْزَمَهُ ٱللَّـٰهُ وَيْحًا]{.ar} "May [#allAh]{.trn} may mercy to attend him constantly!")
 
@@ -549,11 +562,9 @@ and
 [وَيْب]{.ar}
 typically signify a severe chiding, calling for misfortune and destruction.
 
-### The dualized ;mmutlaq; as a ;naib; of the verb
+### The ;mmutlaq; as a ;naib; of a verb that is a ;xabar;
 
-### Other circumstances of the ;mmutlaq; as a ;naib; of the verb
-
-There is a specific set of other circumstances where
+There is a set of circumstances where
 the governing verb can deleted, and its place is taken by the ;mmutlaq; as its ;naib.
 This is when the verb is the ;xabar; of a ;mubtada;-;xabar; sentence,
 and the verb's ;masdar; wouldn't ordinarily be a ;xabar; in the ;ustate; for the ;mubtada;.^[[معاني النحو]{.ar} 2/209]
@@ -563,7 +574,7 @@ Here are some examples that should illustrate what we mean:
 Consider the sentence
 [أَنْتَ تَأْكُلُ وَتَشْرَبُ]{.ar}
 "You are eating and drinking."
-The verbs in this sentence may be deleted and substituted with their respective ;astate; ;mmutlaq;s as their ;naib;s.
+The verbs in this sentence may be deleted and each is substituted with its ;astate; ;mmutlaq;s as a ;naib;.
 So we can say:
 
 (@) [أَنْتَ أَكْلًا وَشُرْبًا]{.ar}
@@ -579,7 +590,7 @@ wouldn't oridinarily work as ;ustate; ;xabar;s for this ;mubtada;.
 That is, we can't say $\times$\ [أَنْتَ أَكْلٌ وَشُرْبٌ]{.ar}.
 So when we use the ;masdar;s in the ;astate; as ;mmutlaq;s
 ([أَنْتَ أَكْلًا وَشُرْبًا]{.ar}),
-it is understood that they are acting as ;naib;s for their respected deleted verbs.
+it is understood that they are acting as a ;naib; for their respected deleted verbs.
 
 Here are some more examples:
 
@@ -608,11 +619,40 @@ Here are some more examples:
 As you can see from the examples above, these circumstances are usually limited to one of the following kind of sentences:
 
 * a repeated ;masdar;
-* multiple ;masdar;s joined with conjunctive particles.
+* multiple ;masdar;s joined with conjunctive particles
 * a restricted ;masdar;
 * a ;masdar; that is asked about in a question
 
-## Other possibilities for governing the ;mmutlaq;
+### The ;mmutlaq; as a ;naib; for a verb in detailing a vague consequential action
+
+This is a very specific circumstance where the ;mmutlaq; may occur as a ;naib; to a verb.
+Consider an action that is done as a consequence of some matter.
+If this consequential action is expressed only vaguely,
+then the following sentence can add detail to this vague action using ;mmutlaq;s.^[[النحو العربي للسمرائي]{.ar} 1/459]
+Here is an example:
+
+(@) [إِنْ أَسَاءَ إِلَيْكَ ٱلصَّدِيقُ فَٱسْلُكْ مَسْلَكَ ٱلْعُقَلَاءِ. فَإٍمَّا عِتَابًا كَرِيمًا وَإِمَّا صَفْحًا جَمِيلًا]{.ar}
+    [[النحو الوافي]{.ar} 2/224]{.citex}  
+    If a friend does you wrong then take the path of the intelligent: So either an honorable reproving or a gracious pardoning"
+
+In the example above, the consequential vague action is
+[فَٱسْلُكْ مَسْلَكَ ٱلْعُقَلَاءِ]{.ar} "take the path of the intelligent".
+The ;masdar;s
+[عِتَاب]{.ar} "reproving" and [صَفْح]{.ar} "pardoning"
+are then used as ;mmutlaq;s
+to detail this vague action,
+[فَإٍمَّا عِتَابًا كَرِيمًا وَإِمَّا صَفْحًا جَمِيلًا]{.ar}
+"So either an honorable reproving or a gracious pardoning."^[See also <https://quran.com/47/4> ([فَإِمَّا مَنًّا بَعْدُ وَإِمَّا فِدَاءً]{.ar})]
+
+### The ;mmutlaq; as a ;naib; for a verb in emphasizing the meaning of an entire sentence
+
+
+
+### The dualized ;mmutlaq; as a ;naib; of the verb
+
+
+
+## Other candidates for governing the ;mmutlaq;
 
 * ;ism_fail;
 * ;sifah_mush;
