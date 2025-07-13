@@ -325,7 +325,7 @@ For example:
 Words like
 [كُلّ]{.ar}, [جَمِيع]{.ar} "all";
 [بَعْض]{.ar} "some";
-[شَطْر]{.ar} "half"
+[نِصْف]{.ar}, [شَطْر]{.ar} "half"
 can be used to indicate how much of an action is done.
 
 For example:
@@ -337,6 +337,26 @@ For example:
 (@) [أَهْمَلَ ٱلطَّالِبُ بَعْضَ ٱلْإِهْمَالِ]{.ar}
     [[النحو العربي للسامرائي]{.ar} 1/452]{.citex}  
     "The student was negligent somewhat"
+
+Included in this category i the word [شَيْء]{.ar} "thing".
+When used in the ;astate; giverned by a verb it can signify the meaning "a bit" or "somewhat", etc.^[See also <https://tafsir.app/ibn-aashoor/17/74> ([كِدتَّ تَرۡكَنُ إِلَیۡهِمۡ شَیۡـࣰٔا قَلِیلًا]{.ar})]
+For example:
+
+(@) [فَسَارَ عَلِيٌّ شَیۡـࣰٔا ثُمَّ وَقَفَ]{.ar}
+    [<https://sunnah.com/muslim:2405>]{.citex}
+    "So [#ealiyy]{.trn2} went a bit, then he stopped"
+
+The ;astate; noun [شَیۡـࣰٔا]{.ar} isn't always a ;mmutlaq; after a verb.
+It may be, depending on the meaning of the sentence, a ;mafulb;
+For example, in the [وَجَدْتُ شَیۡـࣰٔا]{.ar} "I found something."
+However, in some circumstances,
+[شَیۡـࣰٔا]{.ar}
+may make sense both as a ;mmutlaq; or as a ;mafulb;.^[[معاني النحو]{.ar} 2/199]
+
+(@) [وَلَا تُشۡرِكُوا۟ بِهِۦ شَیۡـࣰٔا]{.ar}
+    ^[See <https://tafsir.app/ibn-aashoor/4/36>]
+    [<https::/quran.com/4/36>]{.citex}  
+    "and associate nothing with Him"
 
 #### The instrument or implement used in the action {.unnumbered}
 
@@ -403,7 +423,7 @@ In some cases, the deleted governing verb is replaced by the ;mmutlaq;.
 The ;mmutlaq; is then a ;naib; of the deleted verb.
 This can be done in the following circumstances:
 
-### The ;mmutlaq; used for a command or supplication
+### The ;mmutlaq; as a ;naib; of the verb in a command or supplication
 
 For example, instead of using the verb of command [ٱصْبِرُوا]{.ar} "Be patient," one may say:
 
@@ -510,7 +530,7 @@ the following alternative (using the ;mmutlaq;) is also possible:
 (@) (1) [وَيْحًا لِزَيْدٍ]{.ar}[Lane's Lexicon, root [ويح]{.ar}]{.citex}
     (2) [وَيْحَ زَيْدٍ]{.ar}[Lane's Lexicon, root [ويح]{.ar}]{.citex}  
     "A mercy on Zayd"  
-    (as though one said: [أَلْزَمَهُ ٱللَّـٰهُ وَيْحًا]{.ar} "May [#allAh]{.trn} may mercy to attend him constantly!")
+    (as though one were to say: [أَلْزَمَهُ ٱللَّـٰهُ وَيْحًا]{.ar} "May [#allAh]{.trn} may mercy to attend him constantly!")
 
 The words 
 [وَيْل]{.ar},
@@ -518,6 +538,7 @@ The words
 and
 [وَيْس]{.ar}
 are used in a similar manner to [وَيْح]{.ar} above.
+These are all ;masdar;s of disused verbs.
 [وَيْح]{.ar}
 and 
 [وَيْس]{.ar}
@@ -527,6 +548,69 @@ Whereas
 and
 [وَيْب]{.ar}
 typically signify a severe chiding, calling for misfortune and destruction.
+
+### The dualized ;mmutlaq; as a ;naib; of the verb
+
+### Other circumstances of the ;mmutlaq; as a ;naib; of the verb
+
+There is a specific set of other circumstances where
+the governing verb can deleted, and its place is taken by the ;mmutlaq; as its ;naib.
+This is when the ;verb; is the ;xabar; of a ;mubtada;-;xabar; sentence,
+and the verb's ;masdar; wouldn't ordinarily be a ;xabar; in the ;ustate; for the ;mubtada;.^[[معاني النحو]{.ar} 2/209]
+
+Here are some examples that should illustrate what we mean:
+
+Consider the sentence
+[أَنْتَ تَأْكُلُ وَتَشْرَبُ]{.ar}
+"You are eating and drinking."
+The verbs in this sentence may be deleted and substituted with their respective ;astate; ;mmutlaq;s as their ;naib;s.
+So we can say:
+
+(@) [أَنْتَ أَكْلًا وَشُرْبًا]{.ar}
+    [[معاني النحو]{.ar} 2/208]{.citex}  
+    "You are eating and drinking."  
+    (for [أَنْتَ تَأْكُلُ وَتَشْرَبُ]{.ar})
+
+What allows this is that
+the ;masdars;s
+[أَكْل]{.ar}
+[شُرْب]{.ar}
+wouldn't oridinarily work as ;ustate; ;xabar;s for this ;mubtada;.
+That is, we can't say $\times$\ [أَنْتَ أَكْلٌ وَشُرْبٌ]{.ar}.
+So when we use the ;masdar;s in the ;astate; as ;mmutlaq;s
+([أَنْتَ أَكْلًا وَشُرْبًا]{.ar}),
+it is understood that they are acting as ;naib;s for their respected deleted verbs.
+
+Here are some more examples:
+
+(@) [ٱلْمَطَرُ سَحًّا سَحًّا]{.ar}
+    [[النحو الوافي]{.ar} 2/225]  
+    "The rain (is) pouring (and) pouring."  
+    ([سَحّ]{.ar} is the ;masdar; of the verb [سَحَّ يَسُحُّ]{.ar} "to pour down abundantly (of rain)")
+
+<!--
+(@) [مَا ٱلنّمِرُ عِنْدَ لِقَاءِ ٱلْفِيلِ إِلَّ غَدْرًا]{.ar}
+    [[النحو الوافي]{.ar} 2/226]  
+    "The leopard is, at meeting the elephant, nothing but cowardly."  
+    ([غَدْرًا]{.ar} is the ;masdar; of [غَدَرَ يَغْدِرُ]{.ar} "to act perfidiously")
+-->
+
+(@) [مَا ٱلْأَسَدُ مَعَ فَرِيسَتِهِ إِلَّا فَتْكًا]{.ar}
+    [[النحو الوافي]{.ar} 2/226]  
+    "The lion is not, with his prey, [anything] but slaying"  
+    ([فَتْك]{.ar} is the ;masdar; of [فَتَكَ يَفْتُكُ]{.ar} "to assault and slay")
+
+(@) [أَسَفَاهَةً وَأَنْتَ مُثَقَّفٌ؟]{.ar}
+    [[النحو الوافي]{.ar} 2/222]  
+    "[Do you act] foolishly while you are an educated [person]?"  
+    ([سَفَاهَة]{.ar} is the ;masdar; of [سَفِهَ يَسْفَهُ]{.ar} "to be foolish")
+
+As you can see from the examples above, these circumstances are usually limited to one of the following kind of sentences:
+
+* a repeated ;masdar;
+* multiple ;masdar;s joined with conjunctive particles.
+* a restricted ;masdar;
+* a ;masdar; that is asked about in a question
 
 ## Other possibilities for governing the ;mmutlaq;
 
