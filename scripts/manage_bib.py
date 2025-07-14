@@ -32,6 +32,9 @@ class Resource:
 
     return s
 
+  def __eq__(self, other):
+    return self.cit_key == other.cit_key
+
   def __lt__(self, other):
     # strip whitespace
     tmp_list = [self.sort_key, other.sort_key]
@@ -67,10 +70,12 @@ resource_list.append(Resource(
   ))
 
 
-resource_list = sorted(resource_list)
+#resource_list = sorted(resource_list)
+cited_resource_list = []
 
 #sorted(resource_list, key=lambda word: [alphabet.index(c) for c in word])
 def get_cite_text(match):
+  global cited_resource_list
   key = match.group()
 
   # remove @s
@@ -78,6 +83,8 @@ def get_cite_text(match):
 
   for idx, val in enumerate(resource_list):
     if val.cit_key == key:
+      if val not in cited_resource_list:
+        cited_resource_list.append(val)
       return val.cit_text
   raise SyntaxError("Unknown ref key: " + key)
   
@@ -93,9 +100,14 @@ Western works are alphabetized according to author last name and occur after the
 
 """
 
+  global cited_resource_list
+
+  # sort alphabetically
+  cited_resource_list = sorted(cited_resource_list)
+
   bib_str += '#### Arabic works {.unnumbered}\n\n'
   western_started = False
-  for idx, val in enumerate(resource_list):
+  for idx, val in enumerate(cited_resource_list):
 
     if not western_started and val.sort_key[0] >= 'a' and val.sort_key[0] <= 'z':
       western_started = True
@@ -109,7 +121,12 @@ Western works are alphabetized according to author last name and occur after the
     if not western_started:
       bib_str += ':::\n\n'
 
+  # print unused ones
+  print("The following references are not cited, fyi:")
 
+  for val in resource_list:
+    if val not in cited_resource_list:
+      print(val.cit_text)
 
   return bib_str
 
