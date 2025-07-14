@@ -47,38 +47,38 @@ resource_list = []
 resource_list.append(Resource(
   "nahw_wafi"
   , cit_text = "[النحو الوافي]{.ar}"
-  , bib_text = "[النحو الوافي, تأليف: عباس حسن. دار المعارف]{.ar}"
+  , bib_text = "[النحو الوافي، تأليف: عباس حسن. دار المعارف.]{.ar}"
   ))
 
 resource_list.append(Resource(
   "maani_nahw"
   , cit_text = "[معاني النحو]{.ar}"
-  , bib_text = "[معاني النحو, تأليف: فاضل صالح السامرائي. الطبعة الثالثة، دار ابن كثير، 2022\ م.]{.ar}"
+  , bib_text = "[معاني النحو, تأليف: فاضل صالح السامرائي. الطبعة الثالثة، دار ابن كثير، 2022\\ م.]{.ar}"
   ))
 
 resource_list.append(Resource(
   "nahw_arabi"
   , cit_text = "[النحو العربي: أحكام ومعان]{.ar}"
-  , bib_text = "[النحو العربي: أحكام ومعان, تأليف: فاضل صالح السامرائي. الطبعة الأولى، دار ابن كثير، 2014\ م.]{.ar}"
+  , bib_text = "[النحو العربي: أحكام ومعان, تأليف: فاضل صالح السامرائي. الطبعة الأولى، دار ابن كثير، 2014\\ م.]{.ar}"
   ))
 
 resource_list.append(Resource(
   "radiy_kafiyah"
   , cit_text = "[شرح الرضي على الكافية]{.ar}"
-  , bib_text = "[شرح الكافية في النحو، تأليف: رضي الدين محمد بن الحسن الاستراباذي (ت: 686\ هـ).]{.ar}"
+  , bib_text = "[شرح الكافية في النحو، تأليف: رضي الدين محمد بن الحسن الاستراباذي (ت: 686\\ هـ).]{.ar}"
   , sort_key = "شرح الرضي على الكافية"
   ))
 
 resource_list.append(Resource(
   "wright"
   , cit_text = "Wright"
-  , bib_text = "Wright,\ W., _Arabic grammar_, 3rd ed."
+  , bib_text = "Wright,\\ W., _Arabic grammar_, 3rd ed."
   ))
 
 resource_list.append(Resource(
   "fischer"
   , cit_text = "Fischer"
-  , bib_text = "Fischer,\ W., _A grammar of classical Arabic_, 3rd rev. ed., translated by J.\ Rodgers, Yale University Press."
+  , bib_text = "Fischer,\\ W., _A grammar of classical Arabic_, 3rd rev. ed., translated by J.\\ Rodgers, Yale University Press."
   ))
 
 

@@ -1,5 +1,6 @@
 #!/usr/local/bin/bash
 rm -rf content/*
+touch content/refs.qmd
 cp srcqmd/*.qmd content
 quarto render --profile makepdf
 quarto render --profile makehtml
