@@ -54,7 +54,8 @@ map_table["ism_isharah"] = {"pointing noun", nil}
 map_table["ism_of"] = {"subject", nil}
 map_table["ism_maful"] = {"doee participle", nil}
 map_table["ism_marrah"] = {"one-time noun", nil}
-map_table["ism_masdar"] = {"maṣdarish noun", nil}
+map_table["ism_hay2ah"] = {"noun of kind", nil}
+map_table["ism_masdar"] = {"maṣdar-substitute", nil}
 map_table["ism_mawsul"] = {"connected noun", nil}
 
 map_table["jawab"] = {"consequence", nil}
@@ -65,6 +66,7 @@ map_table["lnj"] = {"لا النافية للجنس", "ar"}
 map_table["madi"] = {"past", nil}  -- "stateless" verb?
 map_table["maful"] = {"doee", nil}
 map_table["mafulb"] = {"direct doee", nil}
+map_table["mafull"] = {"adverb of reason", nil}
 map_table["manut"] = {"describee", nil}
 map_table["masdar"] = {"maSdar", "trn2"}
 map_table["mmutlaq"] = {"absolute doee", nil}
