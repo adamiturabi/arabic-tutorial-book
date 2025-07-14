@@ -1,3 +1,5 @@
+import manage_bib
+
 def read_file(filename):
     in_str = ""
     with open(filename, 'r') as in_file:
@@ -6,7 +8,15 @@ def read_file(filename):
 
     import re
 
+    # search replace for subs filter
     out_str = re.sub('(#*);([a-zA-Z0-9_]+);', r'[\1\2]{.subs}', in_str, flags = re.M)
+
+    # search replace for citations
+    out_str = re.sub('@[a-zA-Z0-9_]+@', manage_bib.get_cite_text, out_str, flags = re.M)
+    #for match in re.finditer('@[a-zA-Z0-9_]@', out_str):
+    #    print(match.group())
+    #    replaced_str = manage_bib.get_cite_text(match.group())
+    #    out_str = out_str[:match.start()] + replaced_str + out_str[match.end():]
     
     warning_str = "<!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->\n\n"
 
@@ -44,3 +54,9 @@ if __name__ == "__main__":
             #print("Writing to " + output_file)
             write_into_file(file_data_str, output_file)
             #print("Done.")
+
+    bib_str = manage_bib.get_bib_str()
+    filename = 'refs.qmd'
+    output_file = os.path.join(out_dir, os.fsencode(filename))
+    with open(output_file, 'w') as file:
+        file.write(bib_str)
