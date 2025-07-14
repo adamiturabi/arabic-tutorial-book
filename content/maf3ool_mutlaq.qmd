@@ -194,11 +194,6 @@ For example:
 
 ## The [naib]{.subs} to the [masdar]{.subs} as an [mmutlaq]{.subs}
 
-<!--
-لا يوجد ما يسمى النائب عن المفعول المطلق، وإنما يوجد ما ينوب عن المصدر في انتصابه على المفعولية المطلقة، يعني أن المفعول المطلق إما أن يكون مصدرا وهو الأصل أو غير مصدر، فإذا كان غير مصدر سمي نائبا عن المصدر
-https://al-maktaba.org/book/31874/5197
--->
-
 Frequently, instead of using the [masdar]{.subs} as the [mmutlaq]{.subs} directly,
 it is substituted by another word.
 This word is then called the [naib]{.subs} to the [masdar]{.subs} as an [mmutlaq]{.subs} because it fulfils the [mmutlaq]{.subs}'s role.
@@ -252,8 +247,11 @@ or a deleted [dharf_zaman]{.subs}
 (or, for that matter, other [astate]{.subs} functions like a [mafulb]{.subs}),
 then it is possible that both meanings could be intended.^[[معاني النحو]{.ar} 2/196--199]
 For example,
-[ضَرَبْتُهُ كَثِيرًا]{.ar}
-could mean, at the same time, both 
+
+(@mmutlaq_mmutlaq_dharf) [ضَرَبْتُهُ كَثِيرًا]{.ar}  
+    "I beat him a lot."
+
+This sentence could mean, at the same time, both 
 [ضَرَبْتُهُ ضَرْبًا كَثِيرًا]{.ar}
 "I beat him a lot [of beatings]," and
 [ضَرَبْتُهُ زَمَنًا كَثِيرًا]{.ar}
@@ -268,7 +266,7 @@ For example:
 
 (@) [فَرَجَعَ إِلَى قَوْمِهِ فَقَالَ يَا قَوْمِ أَسْلِمُوا فَإِنَّ مُحَمَّدًا يُعْطِي عَطَاءً لاَ يَخْشَى الْفَاقَةَ]{.ar}
     [<https://sunnah.com/muslim:2312a>]{.citex}  
-    "So he returned to his people and said, 'O my people, embrace [#islAm]{.trn2} for indeed [#muHammad]{.trn2} gives a gift that does not fear want.'"  
+    "So he returned to his people and said, 'O my people, embrace [#islAm]{.trn2} for indeed [#muHammad]{.trn2} gives a gift not fearing want.'"  
     ([عَطَاء]{.ar} "gift" is a [ism_masdar]{.subs} for the actual [masdar]{.subs} [إِعْطَاء]{.ar}.)
 
 (@) [ٱنْهَزَمُوا هَزِيمَةً شَنِيعَةً]{.ar}  
@@ -297,16 +295,16 @@ For example:
     [Wright, 2/56C]{.citex}  
     "I sat (with) a sitting"
 
-#### A noun that indicates the type of [masdar]{.subs}
+#### A noun that indicates the type of [masdar]{.subs} {.unnumbered}
 
 For example:
 
 (@) [رَجَعَ ٱاْقَهْقَرَىٰ]{.ar}
     [Wright 2/56C]{.citex}  
-    "He returned walking backwards."
+    "He returned walking backwards."  
     [قَهْقَرَىٰ]{.ar} is a noun which means "backward walk".
 
-#### A [ism_hay2ah]{.subs} of the pattern [فِعْلَة]{.ar}
+#### A [ism_hay2ah]{.subs} of the pattern [فِعْلَة]{.ar} {.unnumbered}
 
 For example:
 
@@ -314,7 +312,7 @@ For example:
     [[النحو الوافي]{.ar} 2/218]{.citex}  
     "The cat walked (with) the gait of a lion"
 
-#### The number of the [masdar]{.subs}
+#### The number of the [masdar]{.subs} {.unnumbered}
 
 For example:
 
@@ -326,13 +324,14 @@ For example:
 
 (@) [ضَرَبْتُ ثَلَاثًا]{.ar}  
     "I beat him three (blows)"
+    (Note the feminine number [ثَلَاث]{.ar} instead of the masculine [ثَلَاثَة]{.ar} because the deleted base noun will be feminine in such circumstances.)
 
-#### A partial or whole fraction
+#### A partial or whole fraction {.unnumbered}
 
 Words like
 [كُلّ]{.ar}, [جَمِيع]{.ar} "all";
 [بَعْض]{.ar} "some";
-[شَطْر]{.ar} "half"
+[نِصْف]{.ar}, [شَطْر]{.ar} "half", etc.
 can be used to indicate how much of an action is done.
 
 For example:
@@ -345,7 +344,40 @@ For example:
     [[النحو العربي للسامرائي]{.ar} 1/452]{.citex}  
     "The student was negligent somewhat"
 
-#### The instrument or implement used in the action
+Included in this category is the word [شَيْء]{.ar} "thing".
+When used in the [astate]{.subs} governed by a verb it can signify the meaning "a bit" or "somewhat", etc.^[See, for example, <https://tafsir.app/ibn-aashoor/17/74> ([كِدتَّ تَرْكَنُ إِلَيْهِمْ شَيْـًٔا قَلِیلًا]{.ar})]
+For example:
+
+(@) [فَسَارَ عَلِيٌّ شَيْـًٔا ثُمَّ وَقَفَ]{.ar}
+    [<https://sunnah.com/muslim:2405>]{.citex}  
+    "So [#ealiyy]{.trn2} went a bit, then he stopped"
+
+The [astate]{.subs} noun [شَيْـًٔا]{.ar} isn't always a [mmutlaq]{.subs} after a verb.
+It may be, depending on the meaning of the sentence, a [mafulb]{.subs}
+For example, in the [وَجَدْتُ شَيْـًٔا]{.ar} "I found something."
+However, in some circumstances,
+[شَيْـًٔا]{.ar}
+may make sense both as a [mmutlaq]{.subs} or as a [mafulb]{.subs}.^[[معاني النحو]{.ar} 2/199]
+
+(@mmutlaq_shirk_mafulb_mmutlaq) [وَلَا تُشْرِكُوا بِهِ شَيْـًٔا]{.ar}
+    ^[See <https://tafsir.app/ibn-aashoor/4/36>]
+    [<https://quran.com/4/36>]{.citex}  
+    "and associate nothing with Him"
+
+<!--
+Also included in this category are nouns like
+[عَامَّة]{.ar} "generally",
+and
+[خَاصَّة]{.ar} "specially, specifically".
+
+(@) [فَقَالَ أَصْحَابُهُ يَا رَسُولَ اللَّهِ أَلِهَذَا خَاصَّةً أَمْ لِلنَّاسِ عَامَّةً]{.ar}
+    [<https://sunnah.com/tirmidhi:3115>]{.citex}  
+    "So his companions said, 'O Messenger of [#allAh]{.trn}, is [it] for this [person] specifically, or for the people generally?"
+
+^ probably wrong. should be Haal.See tafsirs for خاصة and كافة.
+-->
+
+#### The instrument or implement used in the action {.unnumbered}
 
 The type of action may be indicated with the
 the instrument or implement used in the action.
@@ -371,7 +403,8 @@ Similar to the pronoun as a [naib]{.subs} [masdar]{.subs} [mmutlaq]{.subs}, a [i
 For example
 
 (@) [ٱلرَّجُلُ ٱلْمُهَذَّبُ لاَ يُعَامِلُ ٱلنَّاسَ هَـٰذِهِ ٱلْمُعَامَلَةَ]{.ar}
-    [[[النحو الواضح لعلي الجارم]{.ar} 2/159](https://shamela.ws/book/10018/571#p1)]{.citex}
+    [[[النحو الواضح لعلي الجارم]{.ar} 2/159](https://shamela.ws/book/10018/571#p1)]{.citex}  
+    "The refined man does not deal with the people (with) this dealing."
 
 (@) [يَحْفَظُونَ أَسْرَارَهُمْ هَـٰذَا ٱلْحِفْظَ]{.ar}
     [Wright 2/54A]{.citex}  
@@ -407,29 +440,389 @@ So the complete sentence includes both the implied governing verb, and the [mmut
 ## The [mmutlaq]{.subs} as a [naib]{.subs} of the deleted governing verb
 
 In some cases, the deleted governing verb is replaced by the [mmutlaq]{.subs}.
-For example, instead of using the verb of command [ٱصْبِرْ]{.ar} "Be patient," one may say:
+The [mmutlaq]{.subs} is then a [naib]{.subs} of the deleted verb.
+This can be done in the following circumstances:
 
-(@) [صَبْرًا]{.ar}
+### The [mmutlaq]{.subs} as a [naib]{.subs} of the verb in a command or supplication
+
+For example, instead of using the verb of command [ٱصْبِرُوا]{.ar} "Be patient," one may say:
+
+(@) [صَبْرًا]{.ar}  
     "Patience"
 
+In terms of governance, the complete sentence is
+[ٱصْبِرُوا صَبْرًا]{.ar}.
+<!--
 In this case, the complete sentence is not
-[ٱصْبِرْ صَبْرًا]{.ar}.
-Rather the governing verb 
-[ٱصْبِرْ]{.ar}.
-is substituted with the [mmutlaq]{.subs},
-such that [mmutlaq]{.subs} is now a [naib]{.subs} of the governing verb.
-
+[ٱصْبِرُوا صَبْرًا]{.ar}.
+-->
 The sentence
-[ٱصْبِرْ صَبْرًا]{.ar}
+[ٱصْبِرُوا صَبْرًا]{.ar}
 is valid on its own right as a use of the reinforcing [mmutlaq]{.subs}.
+But that is not exactly what the utterance 
+[صَبْرًا]{.ar}, by itself,
+signifies.
+Rather the governing verb 
+[ٱصْبِرُوا]{.ar}.
+is substituted with the [mmutlaq]{.subs},
+such that the verb is no longer present in meaning,
+and the [mmutlaq]{.subs} is now its [naib]{.subs},
+fulfilling its role.
+
+<!--
 But it gives a different meaning from 
 [صَبْرًا]{.ar},
-where the [mmutlaq]{.subs} is a [naib]{.subs} of the governing verb.^[[معاني النحو]{.ar} 2/203]
+where the [mmutlaq]{.subs} is a [naib]{.subs} of the governing verb.
+-->
 
+Why then would one choose to use a [mmutlaq]{.subs} instead of a verb?^[[معاني النحو]{.ar} 2/203]
+The [masdar]{.subs} signifies only a meaning of the action of the verb.
+The verb signifies both the meaning of its [masdar]{.subs} and is also linked to a time in which the action originates, continues, or renews. So the verb is more temporary than its [masdar]{.subs}.
+Therefore, if we use a [mmutlaq]{.subs} instead of a verb, then it is not explicitly linked to any time, nor does it explicitly imply a renewal of the action.
+So the [mmutlaq]{.subs} as a [naib]{.subs} for the verb signifies a constancy and inseperableness of the action.
+Whereas the verb is a direct application of the action.
 
-## Other possibilities for governing the [mmutlaq]{.subs}
+Secondly, the verb is necessarily tied to its [faa3il]{.subs}.
+So, also in circumstances where the objective is the action itself, and not who does it, the [mmutlaq]{.subs} may be used as a [naib]{.subs} to the verb.
 
-* [ism_fail]{.subs}
-* [sifah_mush]{.subs}
-* another [masdar]{.subs}
+Here are some more examples of a
+[mmutlaq]{.subs} as a [naib]{.subs} for the verb:
+
+(@) [قَالَ أَبُو لَهَبٍ تَبًّا لَكَ أَلِهَذَا جَمَعْتَنَا فَنَزَلَتْ تَبَّتْ يَدَا أَبِي لَهَبٍ]{.ar}
+    [<https://sunnah.com/bukhari:4973>]{.citex}  
+    "[#abU #lahab]{.trn2} said: 'A perishing for you! Is it for this (that) you have gathered us?' So there was revealed: 'May the hands of Abū Lahab be ruined'" [<https://quran.com/111/1>]{.citex}  
+    ([تَبًّا]{.ar} is a [mmutlaq]{.subs} of the verb [تَبَّ]{.ar} "to perish".)
+
+(@) [شُكْرًا لَكُمْ]{.ar}  
+    "A thanking for you"  
+    (for [أَشْكُرُكَ]{.ar} "I thank you.")
+
+(@) [سُبْحَانَ ٱللَّـٰهِ]{.ar}
+    "The glorification of [#allAh]{.trn2}!"  
+    ([سُبْحَانَ]{.ar} is a [ism_masdar]{.subs} for the verb [سَبَّحَ]{.ar} "to glorify".)
+
+In the above example,
+the sentence with the verb could be, e.g.,
+[أُسَبِّحُ سُبْحَانَ ٱللَّـٰهِ]{.ar}
+"I glorify the glorification of [#allAh]{.trn2}."
+But again, though this may be a valid sentence on its own right,
+it is not exactly what
+the utterance
+[سُبْحَانَ ٱللَّـٰهِ]{.ar},
+by itself, signifies.
+The [ism_masdar]{.subs} [سُبْحَان]{.ar}, as a [naib]{.subs} to the verb
+does not explicitly specify the verb or its doer.
+Rather, the [ism_masdar]{.subs} [سُبْحَان]{.ar}
+replaces its governing verb.
+The purpose is to mention the glorification of [#allAh]{.trn2} without being limited by a time limit for the action of the verb, or a need to mention the [faa3il]{.subs} of the verb.^[[معاني النحو]{.ar} 2/206]
+
+Similarly,
+
+(@) [مَعَاذَ ٱللَّـٰهِ]{.ar}  
+    "The refuge of [#allAh]{.trn2}"  
+    ([مَعَاذ]{.ar} is a [masdar]{.subs} of [عَاذَ يَعُوذُ]{.ar} "to seek refuge".)
+
+#### Using the [ustate]{.subs} [masdar]{.subs} instead of the [mmutlaq]{.subs} {.unnumbered}
+
+In situations that call for a course of action,
+the [ustate]{.subs} [masdar]{.subs} may optionally be used
+instead of using the ([astate]{.subs}) [mmutlaq]{.subs}.
+
+For example, in a situation that calls for patience, one might say
+
+(@) [صَبْرٌ جَمِيلٌ]{.ar}
+    [[معاني النحو]{.ar} 2/206]{.citex}  
+    "A beautiful patience"
+
+instead of saying 
+[صَبْرًا جَمِيلًا]{.ar}.
+Here, the implied meaning is [ٱلْأَمْرُ فِيهِ صَبْرٌ جَمِيلٌ]{.ar} "The thing to be done in the matter is a beautiful patience."^[See also <https://tafsir.app/albahr-almuheet/12/18> ([فَصَبْرٌ جَمِيلٌ]{.ar})]
+
+The [ustate]{.subs} [masdar]{.subs} (instead of the [astate]{.subs} [mmutlaq]{.subs}) has the force of more constancy and generality.
+Additionally, it can imply that the action called for has, in the speaker's estimation, already begun and become established.
+Here are some more examples:
+
+(@) [رَحْمَةُ ٱللَّـٰهِ عَلَيْهِ]{.ar}
+    [[معاني النحو]{.ar} 2/206]{.citex}  
+    "The mercy of [#allAh]{.trn2} on him"
+
+(@) [وَيْحٌ لِزَيْدٍ]{.ar}
+    [Lane's Lexicon, root [ويح]{.ar}]{.citex}  
+    "A mercy on Zayd"
+
+In the above example,
+the following alternative (using the [mmutlaq]{.subs}) is also possible:
+
+(@) (1) [وَيْحًا لِزَيْدٍ]{.ar} [Lane's Lexicon, root [ويح]{.ar}]{.citex}
+    (2) [وَيْحَ زَيْدٍ]{.ar} [Lane's Lexicon, root [ويح]{.ar}]{.citex}  
+    "A mercy on Zayd"  
+    (as though one were to say: [أَلْزَمَهُ ٱللَّـٰهُ وَيْحًا]{.ar} "May [#allAh]{.trn} may mercy to attend him constantly!")
+
+The words 
+[وَيْل]{.ar},
+[وَيْب]{.ar},
+and
+[وَيْس]{.ar}
+are used in a similar manner to [وَيْح]{.ar} above.
+These are all [masdar]{.subs}s of disused verbs.
+[وَيْح]{.ar}
+and 
+[وَيْس]{.ar}
+typically signify compassion and a mild chiding.
+Whereas 
+[وَيْل]{.ar}
+and
+[وَيْب]{.ar}
+typically signify a severe chiding, calling for misfortune and destruction.
+
+### The [mmutlaq]{.subs} as a [naib]{.subs} of a verb that is a [xabar]{.subs}
+
+There is a set of circumstances where
+the governing verb can deleted, and its place is taken by the [mmutlaq]{.subs} as its [naib]{.subs}.
+This is when the verb is the [xabar]{.subs} of a [mubtada]{.subs}-[xabar]{.subs} sentence,
+and the verb's [masdar]{.subs} wouldn't ordinarily be a [xabar]{.subs} in the [ustate]{.subs} for the [mubtada]{.subs}.^[[معاني النحو]{.ar} 2/209]
+
+Here are some examples that should illustrate what we mean:
+
+Consider the sentence
+[أَنْتَ تَأْكُلُ وَتَشْرَبُ]{.ar}
+"You are eating and drinking."
+The verbs in this sentence may be deleted and each is substituted with its [astate]{.subs} [mmutlaq]{.subs}s as a [naib]{.subs}.
+So we can say:
+
+(@) [أَنْتَ أَكْلًا وَشُرْبًا]{.ar}
+    [[معاني النحو]{.ar} 2/208]{.citex}  
+    "You are eating and drinking."  
+    (for [أَنْتَ تَأْكُلُ وَتَشْرَبُ]{.ar})
+
+What allows this is that
+the [masdar]{.subs}s
+[أَكْل]{.ar}
+[شُرْب]{.ar}
+wouldn't oridinarily work as [ustate]{.subs} [xabar]{.subs}s for this [mubtada]{.subs}.
+That is, we can't say $\times$\ [أَنْتَ أَكْلٌ وَشُرْبٌ]{.ar}.
+So when we use the [masdar]{.subs}s in the [astate]{.subs} as [mmutlaq]{.subs}s
+([أَنْتَ أَكْلًا وَشُرْبًا]{.ar}),
+it is understood that they are acting as a [naib]{.subs} for their respected deleted verbs.
+
+Here are some more examples:
+
+(@) [ٱلْمَطَرُ سَحًّا سَحًّا]{.ar}
+    [[النحو الوافي]{.ar} 2/225]{.citex}  
+    "The rain (is) pouring (and) pouring."  
+    ([سَحّ]{.ar} is the [masdar]{.subs} of the verb [سَحَّ يَسُحُّ]{.ar} "to pour down abundantly (of rain)")
+
+<!--
+(@) [مَا ٱلنّمِرُ عِنْدَ لِقَاءِ ٱلْفِيلِ إِلَّ غَدْرًا]{.ar}
+    [[النحو الوافي]{.ar} 2/226]  
+    "The leopard is, at meeting the elephant, nothing but cowardly."  
+    ([غَدْرًا]{.ar} is the [masdar]{.subs} of [غَدَرَ يَغْدِرُ]{.ar} "to act perfidiously")
+-->
+
+(@) [مَا ٱلْأَسَدُ مَعَ فَرِيسَتِهِ إِلَّا فَتْكًا]{.ar}
+    [[النحو الوافي]{.ar} 2/226]{.citex}  
+    "The lion is not, with his prey, [anything] but slaying"  
+    ([فَتْك]{.ar} is the [masdar]{.subs} of [فَتَكَ يَفْتُكُ]{.ar} "to assault and slay")
+
+(@) [أَسَفَاهَةً وَأَنْتَ مُثَقَّفٌ؟]{.ar}
+    [[النحو الوافي]{.ar} 2/222]{.citex}  
+    "[Do you act] foolishly while you are an educated [person]?"  
+    ([سَفَاهَة]{.ar} is the [masdar]{.subs} of [سَفِهَ يَسْفَهُ]{.ar} "to be foolish")
+
+As you can see from the examples above, these circumstances are usually limited to one of the following kind of sentences:
+
+* a repeated [masdar]{.subs}
+* multiple [masdar]{.subs}s joined with conjunctive particles
+* a restricted [masdar]{.subs}
+* a [masdar]{.subs} that is asked about in a question
+
+### The [mmutlaq]{.subs} as a [naib]{.subs} for a verb in detailing a vague consequential action
+
+This is a very specific circumstance where the [mmutlaq]{.subs} may occur as a [naib]{.subs} to a verb.
+Consider an action that is done as a consequence of some matter.
+If this consequential action is expressed only vaguely,
+then the following sentence can add detail to this vague action using [mmutlaq]{.subs}s.^[[النحو العربي للسمرائي]{.ar} 1/459]
+Here is an example:
+
+(@) [إِنْ أَسَاءَ إِلَيْكَ ٱلصَّدِيقُ فَٱسْلُكْ مَسْلَكَ ٱلْعُقَلَاءِ. فَإٍمَّا عِتَابًا كَرِيمًا وَإِمَّا صَفْحًا جَمِيلًا]{.ar}
+    [[النحو الوافي]{.ar} 2/224]{.citex}  
+    If a friend does you wrong then take the path of the intelligent: So either an honorable reproving or a gracious pardoning"
+
+In the example above, the consequential vague action is
+[فَٱسْلُكْ مَسْلَكَ ٱلْعُقَلَاءِ]{.ar} "take the path of the intelligent".
+The [masdar]{.subs}s
+[عِتَاب]{.ar} "reproving" and [صَفْح]{.ar} "pardoning"
+are then used as [mmutlaq]{.subs}s
+to detail this vague action,
+[فَإٍمَّا عِتَابًا كَرِيمًا وَإِمَّا صَفْحًا جَمِيلًا]{.ar}
+"So either an honorable reproving or a gracious pardoning."^[See also <https://quran.com/47/4> ([فَإِمَّا مَنًّا بَعْدُ وَإِمَّا فِدَاءً]{.ar})]
+
+### The [mmutlaq]{.subs} as a [naib]{.subs} for a verb in emphasizing the meaning of an entire sentence
+
+One usage of the
+[mmutlaq]{.subs} as a [naib]{.subs} for a verb is in emphasizing the meaning of an entire sentence.
+The [mmutlaq]{.subs} in such cases are [masdar]{.subs}s (or [ism_masdar]{.subs}s) like:
+
+* [حَقًّا]{.ar} "truly" for [أُحِقُّ حَقًّا]{.ar} "I assert a truth"
+* [يَقِينًا]{.ar} "certainly" for [أُوقِنُ يَقِينًا]{.ar} "I ascertain a certainty"
+
+For example,
+
+(@) [تَبَدَّى لَهُ جِبْرِيلُ فَقَالَ يَا مُحَمَّدُ إِنَّكَ رَسُولُ اللَّهِ حَقًّا]{.ar}
+    [<https://sunnah.com/bukhari:6982>]{.citex}  
+    "Gabriel would appear before him and say, 'O [#muHammad]{.trn2}! Indeed you are [#allAh]{.trn2}'s Messenger [ﷺ]{.aralt} truly'"
+
+(@) [وَمَا قَتَلُوهُ يَقِينًا]{.ar}
+    [<https://quran.com/4/157>]{.citex}  
+    "And they did not kill him, for certain."
+
+### The dualized [mmutlaq]{.subs} as a [naib]{.subs} of the verb
+
+There are some [mmutlaq]{.subs}s that are dualized and annexed to a pronoun in set phrases.
+The dual indicates a recurringness of the action.
+These include:
+
+* [لَبَّيْكَ]{.ar} -- [لَبّ]{.ar} is the [ism_masdar]{.subs} of the verb [أَلَبّ يُلِبُّ]{.ar} "to remain." The [astate]{.subs} dualized [masdar]{.subs} annexed to the addressee pronoun, [لَبَّيْكَ]{.ar}, signifies "I remain for you (i.e. at your service] time after time." A verb [لَبَّىٰ يُلَبِّي تَلْبِيَةً]{.ar} "to utter [لَبَّيْكَ]{.ar}" is derived from this phrase.
+* [سَعْدَيْكَ]{.ar} -- [سَعْد]{.ar} is the [ism_masdar]{.subs} of the verb [أَسْعَدَ يُسْعِدُ]{.ar} "to help" The [astate]{.subs} dualized [masdar]{.subs} annexed to the addressee pronoun, [سَعْدَيْكَ]{.ar}, signifies "I am at your aid time after time." 
+* [حَنَانَيْكَ]{.ar} -- from [حَنَان]{.ar} "mercy". [حَنَانَيْكَ]{.ar} signifies "Let your mercy be continuous to me."
+* [دَوَالَيْكَ]{.ar} -- from [دَوَال]{.ar} which is equivalent to [مُدَاوَلَة]{.ar} and [تَدَاوُل]{.ar} "taking by turns".
+[دَوَالَيْكَ]{.ar} signifies "Make (you) the action to be done by turns."
+* [حَذَارَيْكَ]{.ar} -- from [حَذَار]{.ar} "Beware". [حَذَارَيْكَ]{.ar} signifies "Twice beware!"
+
+## Differentiating the [mmutlaq]{.subs} from the other [astate]{.subs} [maful]{.subs}s
+
+The [mmutlaq]{.subs} is a kind of [maful]{.subs}.
+Other kinds of [maful]{.subs}s include the [mafulb]{.subs},
+the [dharf_zaman]{.subs} and the [dharf_makan]{.subs},
+and
+the [mafull]{.subs}.
+Generally, all adverbs can be considered to be in the category of [maful]{.subs}s.
+All [maful]{.subs}s are governed by verbs and occur in the [astate]{.subs}.
+
+Sometimes it is not easy to disambiguate the exact function of an [astate]{.subs} noun occurring as a [maful]{.subs}.
+We have already seen some instances of this. For example, we mentioned that in example\ (@mmutlaq_mmutlaq_dharf)
+[ضَرَبْتُهُ كَثِيرًا]{.ar},
+that the [astate]{.subs} [maful]{.subs} 
+[كَثِيرًا]{.ar}
+could be analyzed as either a [mmutlaq]{.subs} or a [dharf_zaman]{.subs}, depending on context.
+
+Similarly,
+in example\ (@mmutlaq_shirk_mafulb_mmutlaq)
+[وَلَا تُشْرِكُوا بِهِ شَيْـًٔا]{.ar}
+[<https://quran.com/4/36>]{.citex}
+"and associate nothing with Him",
+[شَيْـًٔا]{.ar}
+has been analyzed to support both a [mmutlaq]{.subs} meaning and a [mafulb]{.subs} meaning.
+
+For some verbs, their [masdar]{.subs}s are re-used as common nouns. For example:
+
+* [أَكَلَ يَأْكُلُ أَكْلًا]{.ar}  --  [أَكْل]{.ar} is re-used to mean "a food"
+* [صَادَ يَصِيدُ صَيْدًا]{.ar}  --  [صَيْد]{.ar} is re-used to mean "a prey"
+* [قَالَ يَقُولُ قَوْلًا]{.ar}  --  [قَوْل]{.ar} is re-used to mean "a saying" or "a speech"
+* [سَأَلَ يَسْأَلُ سُؤَالًل]{.ar} --  [سُؤَال]{.ar} is re-used to mean "a question"
+
+When these nouns are in the [astate]{.subs} governed by their verb, then how do we tell whether they are a [mmutlaq]{.subs} or a [mafulb]{.subs}?
+For example:
+
+(@) [أَكَلَ زَيْدٌ أَكْلًا]{.ar}  
+    "Zayd ate an eating."  
+    or  
+    "Zayd ate a food."
+
+By itself, [أَكْلًا]{.ar} supports both functions of the [mafulb]{.subs} and the [mmutlaq]{.subs}.
+And we have to look at context to see which of the two meanings the speaker intended.
+
+Sometimes, if the [astate]{.subs} [maful]{.subs} is qualified, then that can help us distinguish between the two functions.
+For example,
+
+(@) [أَكَلَ زَيْدٌ أَكْلًا سَرِيعًا]{.ar}  
+    "Zayd ate a fast eating"  
+    (i.e. "Zayd ate quickly.")
+
+<!--In the above example, the [na3t]{.subs} [سَرِيع]{.ar} "fast" can only be meaningfully applied to the [masdar]{.subs} "eating" and not to the common noun "food."-->
+In the above example, the [na3t]{.subs} [سَرِيع]{.ar} "fast" is applied to the [manut]{.subs} [أَكْلًا]{.ar}.
+Now, unless Zayd was eating "fast food" (unlikely in classical times),
+the [na3t]{.subs} 
+applies to the manner in which Zayd was eating.
+Hence [أَكْلًا]{.ar} is a [mmutlaq]{.subs} and not a [mafulb]{.subs}.
+
+Sometimes, the qualifier may be applicable to both the [mmutlaq]{.subs} and the [maful]{.subs}.
+Yet each meaning will be distinct.
+For example,
+
+(@) [صَادَ زَيْدٌ صَيْدَ ٱلْأَسَدِ]{.ar}  
+    "Zayd hunted (in the manner of) the hunting of a lion."  
+    or  
+    "Zayd hunted the lion's prey."
+
+In the above example, the [maful]{.subs} [صَيْد]{.ar} is qualified in an annexation with the [mudafil]{.subs} [ٱلْأَسَد]{.ar} "the lion".
+But the qualifier is applicable to both
+meanings of
+[صَيْد]{.ar}:
+the [mmutlaq]{.subs} meaning: "hunting",
+and
+the [mafulb]{.subs} meaning: "prey".
+When applied to the [mmutlaq]{.subs} meaning then the sentence means that Zayd hunted in a ferocious and daring manner, like a lion does.
+And when applied to the [mafulb]{.subs} meaning then the sentence means that Zayd hunted a prey which was (previously) the prey of a lion.
+However, both of these meanings are distinct from each other, and only one of them ought to be valid for the speaker's intention.
+In this sort of case, context should help in figuring out the intended meaning.
+
+In the case of [masdar]{.subs}s like
+[أَكْل]{.ar}
+and
+[صَيْد]{.ar},
+when they are re-used as common nouns,
+then their existence is not tied to the action of the verb.
+For example,
+[أَكْل]{.ar}, meaning "food", exists prior to the action of eating.
+And 
+[صَيْد]{.ar}, meaning "prey" exists prior to the action of hunting.
+
+But in the case of [masdar]{.subs}s like
+[قَوْل]{.ar}
+and
+[سُؤَال]{.ar},
+even when they are a [mafulb]{.subs},
+they only come into existence with the action of their verb.
+So there is no [قَوْل]{.ar},
+either as a [mmutlaq]{.subs} or as a [mafulb]{.subs}, before the action of "saying"
+And there is no [سُؤَال]{.ar},
+either as a [mmutlaq]{.subs} or as a [mafulb]{.subs}, before the action of "asking".
+
+In such cases, even when a qualifier is applied, the line between the [mmutlaq]{.subs} and the [mafulb]{.subs} can remain blurry.
+And that is not really a big problem because both will have similar meanings.
+For example,
+
+(@) [سَأَلَ زَيْدٌ عَمْرًا سُؤَالًا صَعْبًا]{.ar}  
+    "He asked a difficult questioning."  
+    (i.e. the questioning was difficult upon [#eamr]{.trn2})  
+    or  
+    "He asked a difficult question."
+
+This sort of ambiguity can sometimes be found in the other adverb [maful]{.subs}s as well.
+
+## Candidates for governing the [mmutlaq]{.subs}
+
+The verb is the fundamental governor of the [faa3il]{.subs} and the [maful]{.subs}.
+But we have seen (in sections\ (ref)), that nouns that have a verbal quality to them,
+like the [masdar]{.subs},
+the [ism_fail]{.subs}, etc., can also govern a [faa3il]{.subs} and a [maful]{.subs}.
+
+So a [mmutlaq]{.subs} may occur, governed by either a verb (as we have seen),
+or a [ism_fail]{.subs},
+or a [ism_maful]{.subs},
+or a [sifah_mush]{.subs},
+or even another [masdar]{.subs}.
+
+Here are some examples:
+
+(@) [فَرَحْتُ بِٱجْتِهَادِكَ ٱجْتِهَادًا حَسَنًا]{.ar}  
+    [[النحو العربي للسامرائي]{.ar} 1/449]{.citex}  
+    "I rejoiced at your striving a good striving"  
+    (the [mmutlaq]{.subs} [ٱجْتِهَادًا]{.ar} is governed by the preceding [masdar]{.subs} [ٱجْتِهَاد]{.ar})
+
+(@) [أَنَا مُكْرِمٌ خَالِدًا إِكْرَامًا عَظِيمًا]{.ar}  
+    [[النحو العربي للسامرائي]{.ar} 1/449]{.citex}  
+    "I will honor [#xAlid]{.trn2} a great honoring."  
+    (the [mmutlaq]{.subs} [إِكْرَامًا]{.ar} is governed by the [ism_fail]{.subs} [مُكْرِم]{.ar})
 
