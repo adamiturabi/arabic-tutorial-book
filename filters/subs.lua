@@ -66,6 +66,7 @@ map_table["lnj"] = {"لا النافية للجنس", "ar"}
 map_table["madi"] = {"past", nil}  -- "stateless" verb?
 map_table["maful"] = {"doee", nil}
 map_table["mafulb"] = {"direct doee", nil}
+map_table["mafull"] = {"adverb of reason", nil}
 map_table["manut"] = {"describee", nil}
 map_table["masdar"] = {"maSdar", "trn2"}
 map_table["mmutlaq"] = {"absolute doee", nil}
