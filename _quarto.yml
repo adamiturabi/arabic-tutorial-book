@@ -19,39 +19,42 @@ book:
   chapters:
     - index.qmd
     - content/intro.qmd
-    - content/script.qmd
-    - content/noun.qmd
-    - content/jumlah_ismiyyah.qmd
-    - content/prepositions.qmd
-    - content/fi3l_madi.qmd
-    - content/na3t.qmd
-    - content/diptote.qmd
-    - content/dual.qmd
-    - content/sound_plural.qmd
-    - content/broken_plural.qmd
-    - content/idafah.qmd
-    - content/irregular_nouns.qmd
-    - content/proper_noun.qmd
-    - content/vocative.qmd
-    - content/ism_ishara.qmd
-    - content/mudari3_marfoo3.qmd
-    - content/masdar.qmd
-    - content/mushtaqqaat.qmd
-    - content/mudari3_mansoob.qmd
-    - content/mudari3_majzoom.qmd
-    - content/additional_forms.qmd
-    - content/dharf.qmd
-    - content/maf3ool_mutlaq.qmd
-    - content/passive_voice.qmd
-    - content/ism_faa3il.qmd
-    - content/kaana.qmd
-    - content/inna_and_its_sisters.qmd
-    - content/ism_mawsuul.qmd
-    - content/istifhaam.qmd
+  #  - content/script.qmd
+  #  - content/noun.qmd
+  #  - content/jumlah_ismiyyah.qmd
+  #  - content/prepositions.qmd
+  #  - content/fi3l_madi.qmd
+  #  - content/na3t.qmd
+  #  - content/diptote.qmd
+  #  - content/dual.qmd
+  #  - content/sound_plural.qmd
+  #  - content/broken_plural.qmd
+  #  - content/idafah.qmd
+  #  - content/irregular_nouns.qmd
+  #  - content/proper_noun.qmd
+  #  - content/vocative.qmd
+  #  - content/ism_ishara.qmd
+  #  - content/mudari3_marfoo3.qmd
+  #  - content/masdar.qmd
+  #  - content/mushtaqqaat.qmd
+  #  - content/mudari3_mansoob.qmd
+  #  - content/mudari3_majzoom.qmd
+  #  - content/additional_forms.qmd
+  #  - content/dharf.qmd
+  #  - content/maf3ool_mutlaq.qmd
+  #  - content/passive_voice.qmd
+  #  - content/ism_faa3il.qmd
+  #  - content/kaana.qmd
+  #  - content/inna_and_its_sisters.qmd
+  #  - content/ism_mawsuul.qmd
+  #  - content/istifhaam.qmd
+    - srcqmd/refs.qmd
+
 
   downloads: [pdf]
   site-url: https://adamiturabi.github.io/arabic-tutorial-book/
   #cover-image: srchtml/favicon.png
+bibliography: srctex/references.bib
 
 #keep-md: true
 filters:
