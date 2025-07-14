@@ -179,46 +179,6 @@ Disjoint | Joined (simplified) | Joined (traditional)
 [ف-ي]{.ar}       | [في]{.ar}    | [في]{.aralt}
 [ب-ت-ث-ب-ي-ت-ت-ي-ن]{.ar} | [بتثبيتتين]{.ar}    | [بتثبيتتين]{.aralt}
 
-<!--
-```{r, eval=knitr::is_html_output(), echo=FALSE}
-  knitr::asis_output('
-Disjoint | Joined (simplified) | Joined (traditional)
-:------------|:---------|:---------
-[ت-م-ر]{.ar} | [تمر]{.ar}| [تمر]{lang="ar" dir="rtl" style="font-family: Amiri;"}
-[ا-ل-ح-ج-ج]{.ar} | [الحجج]{.ar} | [الحجج]{lang="ar" dir="rtl" style="font-family: Amiri;"}
-[ا-ل-م-ا-س]{.ar} | [الماس]{.ar} | [الماس]{lang="ar" dir="rtl" style="font-family: Amiri;"}
-[ل-م-ح-ة]{.ar} | [لمحة]{.ar} | [لمحة]{lang="ar" dir="rtl" style="font-family: Amiri;"}
-[ب-ح-ر]{.ar} | [بحر]{.ar} | [بحر]{lang="ar" dir="rtl" style="font-family: Amiri;"}
-[س-ح-ر]{.ar} | [سحر]{.ar} | [سحر]{lang="ar" dir="rtl" style="font-family: Amiri;"}
-[ف-ي]{.ar} | [في]{.ar} | [في]{lang="ar" dir="rtl" style="font-family: Amiri;"}
-')
-```
-
-```{=latex}
-\begin{longtable}[]{@{}lll@{}}
-\toprule
-Disjoint & Joined (simplified) & Joined (traditional)\tabularnewline
-\midrule
-\endhead
-\arabicfont{ت-م-ر} & \arabicfont{تمر} &
-\tradarab{تمر}\tabularnewline
-\arabicfont{ا-ل-ح-ج-ج} & \arabicfont{الحجج} &
-\tradarab{الحجج}\tabularnewline
-\arabicfont{ا-ل-م-ا-س} & \arabicfont{الماس} &
-\tradarab{الماس}\tabularnewline
-\arabicfont{ل-م-ح-ة} & \arabicfont{لمحة} &
-\tradarab{لمحة}\tabularnewline
-\arabicfont{ب-ح-ر} & \arabicfont{بحر} &
-\tradarab{بحر}\tabularnewline
-\arabicfont{س-ح-ر} & \arabicfont{سحر} &
-\tradarab{سحر}\tabularnewline
-\arabicfont{ف-ي} & \arabicfont{في} &
-\tradarab{في}\tabularnewline
-\bottomrule
-\end{longtable}
-```
--->
-
 ### [ة]{.ar} (closed [tAE]{.trn2})
 
 [ة]{.ar} is a special letter which is merged from two letters of the alphabet. It is a [ت]{.ar} but it is written as a [ه]{.ar} with two dots above it. [ة]{.ar} is pronounced exactly as a [ت]{.ar}, except when it is at the end of a sentence in which case it is pronounced as a [ه]{.ar} as we'll explain later, if [#allAh]{.trn2} wills. [ة]{.ar} occurs only at the end of a word so it has only an end form and an isolated form (used when the letter before it is a partially-joining letter). 
