@@ -47,7 +47,7 @@ resource_list = []
 resource_list.append(Resource(
   "nahw_wafi"
   , cit_text = "[النحو الوافي]{.ar}"
-  , bib_text = "[النحو الوافي، تأليف: عباس حسن. دار المعارف.]{.ar}"
+  , bib_text = "[النحو الوافي، تأليف: عباس حسن، دار المعارف.]{.ar}"
   ))
 
 resource_list.append(Resource(
@@ -81,7 +81,6 @@ resource_list.append(Resource(
   , cit_text = "Fischer"
   , bib_text = "Fischer,\\ W., _A grammar of classical Arabic_, 3rd rev. ed., translated by J.\\ Rodgers, Yale University Press."
   ))
-
 
 #resource_list = sorted(resource_list)
 cited_resource_list = []
