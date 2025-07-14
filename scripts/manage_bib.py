@@ -36,7 +36,6 @@ class Resource:
     return self.cit_key == other.cit_key
 
   def __lt__(self, other):
-    # strip whitespace
     tmp_list = [self.sort_key, other.sort_key]
     out_list = sorted(tmp_list, key=lambda word: [self.alphabet.index(c) for c in word])
     return out_list[0] == tmp_list[0]
@@ -44,29 +43,42 @@ class Resource:
 
 resource_list = []
 
+
 resource_list.append(Resource(
-  "wright"
-  , cit_text = "Wright"
-  , bib_text = "Wright, W., _A grammar of the Arabic Language_, 1880"
+  "nahw_wafi"
+  , cit_text = "[النحو الوافي]{.ar}"
+  , bib_text = "[النحو الوافي, تأليف: عباس حسن. دار المعارف]{.ar}"
+  ))
+
+resource_list.append(Resource(
+  "maani_nahw"
+  , cit_text = "[معاني النحو]{.ar}"
+  , bib_text = "[معاني النحو, تأليف: فاضل صالح السامرائي. الطبعة الثالثة، دار ابن كثير، 2022\ م.]{.ar}"
+  ))
+
+resource_list.append(Resource(
+  "nahw_arabi"
+  , cit_text = "[النحو العربي: أحكام ومعان]{.ar}"
+  , bib_text = "[النحو العربي: أحكام ومعان, تأليف: فاضل صالح السامرائي. الطبعة الأولى، دار ابن كثير، 2014\ م.]{.ar}"
   ))
 
 resource_list.append(Resource(
   "radiy_kafiyah"
-  , cit_text = "[شرح الرضيّ على الكافية]{.ar}"
-  , bib_text = "[شرح الكافية في النحو لرضي الدين محمد بن الحسن الاستراباذي (ت: 686 هـ), دار فلان 2000 م]{.ar}"
+  , cit_text = "[شرح الرضي على الكافية]{.ar}"
+  , bib_text = "[شرح الكافية في النحو، تأليف: رضي الدين محمد بن الحسن الاستراباذي (ت: 686\ هـ).]{.ar}"
   , sort_key = "شرح الرضي على الكافية"
+  ))
+
+resource_list.append(Resource(
+  "wright"
+  , cit_text = "Wright"
+  , bib_text = "Wright,\ W., _Arabic grammar_, 3rd ed."
   ))
 
 resource_list.append(Resource(
   "fischer"
   , cit_text = "Fischer"
-  , bib_text = "Fischer, W., _A grammar of Classical Arabic_, 1990"
-  ))
-
-resource_list.append(Resource(
-  "nahw_wafi"
-  , cit_text = "[النحو الوافي]{.ar}"
-  , bib_text = "[النحو الوافي لعباس حسن، دار المعارف]{.ar}"
+  , bib_text = "Fischer,\ W., _A grammar of classical Arabic_, 3rd rev. ed., translated by J.\ Rodgers, Yale University Press."
   ))
 
 
