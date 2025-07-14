@@ -48,13 +48,13 @@ book:
   #  - content/inna_and_its_sisters.qmd
   #  - content/ism_mawsuul.qmd
   #  - content/istifhaam.qmd
-    - srcqmd/refs.qmd
+    - content/refs.qmd
 
 
   downloads: [pdf]
   site-url: https://adamiturabi.github.io/arabic-tutorial-book/
   #cover-image: srchtml/favicon.png
-bibliography: srctex/references.bib
+#bibliography: srctex/references.bib
 
 #keep-md: true
 filters:
