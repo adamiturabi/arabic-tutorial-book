@@ -192,7 +192,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "radiy_kafiyah"
     , cit_text = "[شرح الرضي على الكافية]{.ar}"
-    , bib_text = "شرح الرضي على الكافية، تأليف: الرضي الأستراباذي، تحقيق يوسف حسن عمر، جامعة قار يونس، ليبيا، 1395\\هـ - 1975\\ م" +format_url_ar("https://ketabonline.com/ar/books/23090")
+    , bib_text = "شرح الرضي على الكافية، تأليف: الرضي الأستراباذي، تحقيق يوسف حسن عمر، جامعة قار يونس، ليبيا، 1395\\ هـ/1975\\ م " +format_url_ar("https://ketabonline.com/ar/books/23090")
     ))
 
   resource_list.append(BibResource(
@@ -212,7 +212,20 @@ def populate_resource_list():
     "ibn_aqil_alfiyyah"
     , cit_text = "[شرح ابن عقيل على الألفية]{.ar}"
     , bib_text = "شرح ابن عقيل على الألفية، "+format_url_ar("https://shamela.ws/book/9904")
-    , sort_key = "[شرح ابن عقيل على الالفية]{.ar}"
+    , sort_key = "شرح ابن عقيل على الالفية"
+    ))
+
+  resource_list.append(BibResource(
+    "za3balawi_dirasat"
+    , cit_text = "[دراسات في النحو للزعبلاوي]{.ar}"
+    , bib_text = "دراسات في النحو، تأليف: صلاح الدين الزعبلاوي، "+format_url_ar("https://shamela.ws/book/2120")
+    , sort_key = "دراسات في النحو للزعبلاوي"
+    ))
+
+  resource_list.append(BibResource(
+    "kafawi_kulliyyaat"
+    , cit_text = "[الكليات للكفوي]{.ar}"
+    , bib_text = "الكليات، تأليف: أبو البقاء الكفوي "+format_url_ar("https://shamela.ws/book/7037")
     ))
 
   resource_list.append(BibResource(
