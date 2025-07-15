@@ -18,6 +18,7 @@ def get_cite_text(match):
     import cit_link
     cit_text, new_key = cit_link.process(key)
     if new_key is None:
+      # quran.com, don't add to references
       return cit_text
 
 

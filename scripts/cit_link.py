@@ -29,6 +29,43 @@ def get_quran_cit_text(end_str):
 
   return cit_text
 
+def get_tafsir_app_key_and_cit_text(end_str):
+  # remove begin slash
+  assert(end_str[0] == '/')
+  end_str = end_str[1:]
+
+  ret_surah_and_ayah = True
+
+  # remove end slash if any, but use it to determine whether to append surah and ayah
+  if end_str[-1] == '/':
+    end_str = end_str[:-1]
+    ret_surah_and_ayah = False
+
+  # try splitting with slash
+  book_and_surah_and_ayah = end_str.split('/')
+
+  #if len(surah_and_ayah) == 1:
+  #  # try splitting with colon
+  #  surah_and_ayah = end_str.split(':')
+
+  #print("surah_and_ayah= ", surah_and_ayah)
+
+  assert(len(book_and_surah_and_ayah) == 3)
+  book_str = book_and_surah_and_ayah[0]
+  surah_index_str = book_and_surah_and_ayah[1]
+  ayah_index_str = book_and_surah_and_ayah[2]
+
+  key = book_str
+  cit_text = ''
+
+  if ret_surah_and_ayah:
+    cit_text = "سورة "
+    cit_text += surah_names[int(surah_index_str) - 1] # python index starts from zero
+
+    cit_text += ' ' + surah_index_str + ':' + ayah_index_str
+
+  return key, cit_text
+
 def get_sunnah_com_key_and_cit_text(end_str):
   # remove begin slash
   assert(end_str[0] == '/')
@@ -78,7 +115,11 @@ def process(key):
       return None, '<' + key + '>'
     new_key, cit_text = get_sunnah_com_key_and_cit_text(end_str[1])
   elif tafsir_app_url in key:
-    new_key = tafsir_app_key
+    end_str = key.split(tafsir_app_url)
+    assert len(end_str) == 2
+    if end_str[1] == '' or end_str[1] == '/':
+      return None, '<' + key + '>'
+    new_key, cit_text = get_tafsir_app_key_and_cit_text(end_str[1])
 
   return new_key, cit_text
 
