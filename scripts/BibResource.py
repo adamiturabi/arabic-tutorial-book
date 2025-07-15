@@ -29,6 +29,9 @@ class BibResource:
     import unicodedata
     s = unicodedata.normalize('NFD',s)
 
+    # remove characters not in alphabet
+    #f = filter(lambda x: x in self.alphabet, s)
+
     return s
 
   def __eq__(self, other):
