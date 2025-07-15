@@ -14,19 +14,35 @@ def get_cite_text(match):
   key = key[1:-1]
 
   cit_appended_text = ""
+  has_link = False
+  link_added = False
   if len(key) > 4 and key[:4] == 'http':
+    link = key
+    has_link = True
     import cit_link
-    cit_text, new_key = cit_link.process(key)
+    new_key, cit_appended_text, link_added = cit_link.process(key, link)
     if new_key is None:
       # quran.com, don't add to references
-      return cit_text
+      assert(link_added)
+      return cit_appended_text
+      #return "[" + cit_text + "](" + link + ")"
+
+    key = new_key
 
 
   for idx, val in enumerate(resource_list):
     if val.cit_key == key:
       if val not in cited_resource_list:
         cited_resource_list.append(val)
-      return val.cit_text + cit_appended_text
+      ret_text = ''
+      if has_link and not link_added:
+        if 'tafsir.app' in link:
+          ret_text = "[" + val.cit_text + "](" + link + ")" + cit_appended_text
+        else:
+          ret_text = "[" + val.cit_text + cit_appended_text + "](" + link + ")"
+      else:
+        ret_text = val.cit_text + cit_appended_text
+      return ret_text
   raise SyntaxError("Unknown ref key: " + key)
   
 def get_bib_str():
