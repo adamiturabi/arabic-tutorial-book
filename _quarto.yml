@@ -60,7 +60,7 @@ book:
 #keep-md: true
 filters:
   - arabic-support
-  - filters/autoref-link.lua
+  #- filters/autoref-link.lua
   - filters/lingex.lua
   - filters/footnotesize.lua
   - filters/citex.lua
