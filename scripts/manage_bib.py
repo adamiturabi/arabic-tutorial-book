@@ -13,11 +13,19 @@ def get_cite_text(match):
   # remove @s
   key = key[1:-1]
 
+  cit_appended_text = ""
+  if len(key) > 4 and key[:4] == 'http':
+    import cit_link
+    cit_text, new_key = cit_link.process(key)
+    if new_key is None:
+      return cit_text
+
+
   for idx, val in enumerate(resource_list):
     if val.cit_key == key:
       if val not in cited_resource_list:
         cited_resource_list.append(val)
-      return val.cit_text
+      return val.cit_text + cit_appended_text
   raise SyntaxError("Unknown ref key: " + key)
   
 def get_bib_str():
