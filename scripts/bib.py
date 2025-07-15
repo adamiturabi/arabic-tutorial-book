@@ -231,7 +231,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "wright"
     , cit_text = "Wright"
-    , bib_text = "Wright,\\ W., _A grammar of the Arabic Language_, 3rd ed., Cambridge University Press, 1896--1898"
+    , bib_text = "Wright,\\ W., _A grammar of the Arabic Language_, 3rd ed., Cambridge University Press, 1896--1898."
     ))
   
   resource_list.append(BibResource(
@@ -242,15 +242,15 @@ def populate_resource_list():
 
   resource_list.append(BibResource(
     "sadan_subj"
-    , cit_text = "Sadan,\\ A., _The Subjunctive Mood in Arabic Grammatical Thought_"
-    , bib_text = "Sadan,\\ A., _The Subjunctive Mood in Arabic Grammatical Thought_, Brill, 2012. <https://doi.org/10.1163/9789004234239>"
+    , cit_text = "Sadan,\\ A., _The subjunctive mood in Arabic grammatical thought_"
+    , bib_text = "Sadan,\\ A., _The subjunctive mood in Arabic grammatical thought_, Brill, 2012. <https://doi.org/10.1163/9789004234239>"
     , sort_key = "Sadan A Subjunctive Mood in Arabic Grammatical Thought"
     ))
 
   resource_list.append(BibResource(
     "jallad_wawation"
     , cit_text = 'Al-Jallad,\\ A., "One wāw to rule them all: The origins and fate of wawation in Arabic and its orthography"'
-    , bib_text = 'Al-Jallad,\\ A., "One wāw to rule them all: The origins and fate of wawation in Arabic and its orthography," in: _Scripts and scripture: Writing and religion in Arabia circa 500-700\\ CE_, pp.\\ 87--104, 2022'
+    , bib_text = 'Al-Jallad,\\ A., "One wāw to rule them all: The origins and fate of wawation in Arabic and its orthography," in: _Scripts and scripture: Writing and religion in Arabia circa 500--700\\ [ce]{.smallcaps}_, pp.\\ 87--104, 2022.'
     , sort_key = "Jallad A One waw to rule them all"
     ))
 
