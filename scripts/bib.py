@@ -192,39 +192,39 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "radiy_kafiyah"
     , cit_text = "[شرح الرضي على الكافية]{.ar}"
-    , bib_text = "شرح الكافية في النحو، تأليف: رضي الدين الأستراباذي (ت: 686\\ هـ)."
+    , bib_text = "شرح الرضي على الكافية، تأليف: الرضي الأستراباذي، تحقيق يوسف حسن عمر، جامعة قار يونس، ليبيا، 1395\\هـ - 1975\\ م" +format_url_ar("https://ketabonline.com/ar/books/23090")
     ))
 
   resource_list.append(BibResource(
     "ibn_ya3ish_mufassal"
     , cit_text = "[شرح ابن يعيش على المفصل]{.ar}"
-    , bib_text = "شرح ابن يعيش على المفصل، قدم له الدكتور إميل بديع يعقوب، دار الكتب العلمية، بيروت، الطبعة الأولى، ١٤٢٢\\ هـ - ٢٠٠١\\ م" + format_url_ar("https://shamela.ws/book/13301")
+    , bib_text = "شرح ابن يعيش على المفصل، " + format_url_ar("https://shamela.ws/book/13301")
     ))
 
   resource_list.append(BibResource(
     "qawa3id_shaykh_zadeh"
     , cit_text = "[شرح شيخ زاده على قواعد الإعراب]{.ar}"
-    , bib_text = "شرح قواعد الإعراب، تأليف: محمد بن مصطفى القُوجَوي المعروف بشيخ زاده (ت ٩٥٠ هـ)، دراسة وتحقيق: إسماعيل إسماعيل مروة، دار الفكر المعاصر، بيروت، الطبعة الأولى، ١٤١٦\\ هـ - ١٩٩٥\\ م" + format_url_ar("https://shamela.ws/book/19236")
+    , bib_text = "شرح قواعد الإعراب، تأليف: محمد بن مصطفى القُوجَوي المعروف بشيخ زاده " + format_url_ar("https://shamela.ws/book/19236")
     , sort_key = "شرح شيخ زاده على قواعد الاعراب"
     ))
 
   resource_list.append(BibResource(
     "ibn_aqil_alfiyyah"
     , cit_text = "[شرح ابن عقيل على الألفية]{.ar}"
-    , bib_text = "شرح ابن عقيل على الألفية، دار التراث - القاهرة، الطبعة العشرون ١٤٠٠\\ هـ - ١٩٨٠\\ م."+format_url_ar("https://shamela.ws/book/9904")
+    , bib_text = "شرح ابن عقيل على الألفية، "+format_url_ar("https://shamela.ws/book/9904")
     , sort_key = "[شرح ابن عقيل على الالفية]{.ar}"
     ))
 
   resource_list.append(BibResource(
     "wright"
     , cit_text = "Wright"
-    , bib_text = "Wright,\\ W., _Arabic grammar_, 3rd ed."
+    , bib_text = "Wright,\\ W., _A grammar of the Arabic Language_, 3rd ed., Cambridge University Press, 1896--1898"
     ))
   
   resource_list.append(BibResource(
     "fischer"
     , cit_text = "Fischer"
-    , bib_text = "Fischer,\\ W., _A grammar of classical Arabic_, 3rd rev. ed., translated by J.\\ Rodgers, Yale University Press."
+    , bib_text = "Fischer,\\ W., _A grammar of classical Arabic_, 3rd rev. ed., translated by J.\\ Rodgers, Yale University Press, 2001."
     ))
 
   resource_list.append(BibResource(
@@ -242,3 +242,4 @@ def populate_resource_list():
     ))
 
   return resource_list
+
