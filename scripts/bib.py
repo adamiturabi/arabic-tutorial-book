@@ -127,8 +127,9 @@ def populate_resource_list():
  
   resource_list.append(BibResource(
     "ibn-aashoor"
-    , cit_text = "[تفسير التحرير والتنوير]{.ar}"
+    , cit_text = "[تفسير ابن عاشور]{.ar}"
     , bib_text = "[تفسير التحرير والتنوير، تأليف: ابن عاشور]{.ar}، " + format_url_for_ar_div("https://tafsir.app")
+    , sort_key = "تفسير التحرير والتنوير"
     ))
  
   resource_list.append(BibResource(
