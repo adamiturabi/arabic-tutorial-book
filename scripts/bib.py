@@ -117,6 +117,20 @@ def populate_resource_list():
     , bib_text = "حصن المسلم، " + format_url_ar("https://sunnah.com/hisn")
     ))
 
+  resource_list.append(BibResource(
+    "ibn_abi_shaybah"
+    , cit_text = "[مصنف ابن أبي شيبة]{.ar}"
+    , bib_text = "مصنف ابن أبي شيبة، تقديم وضبط: الحوت " + format_url_ar("https://shamela.ws/book/9944")
+    , sort_key = "مصنف ابن ابي شيبة"
+    ))
+
+  resource_list.append(BibResource(
+    "musnad_ahmad_risalah"
+    , cit_text = "[مسند أحمد ط الرسالة]{.ar}"
+    , bib_text = "مسند أحمد، تحقيق: شعيب الأرنؤوط، مؤسسة الرسالة  \n      " + format_url_ar("https://shamela.ws/book/25794")
+    , sort_key = "مسند احمد ط الرسالة"
+    ))
+
   # Tafsirs
   resource_list.append(BibResource(
     "albahr-almuheet"
@@ -192,7 +206,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "radiy_kafiyah"
     , cit_text = "[شرح الرضي على الكافية]{.ar}"
-    , bib_text = "شرح الرضي على الكافية، تأليف: الرضي الأستراباذي، تحقيق يوسف حسن عمر، جامعة قار يونس، ليبيا، 1395\\ هـ/1975\\ م " +format_url_ar("https://ketabonline.com/ar/books/23090")
+    , bib_text = "شرح الرضي على الكافية، تأليف: الرضي الأستراباذي، تحقيق يوسف حسن عمر، جامعة قار يونس، ليبيا، 1395\\ هـ/1975\\ م  \n      " +format_url_ar("https://ketabonline.com/ar/books/23090")
     ))
 
   resource_list.append(BibResource(
@@ -204,7 +218,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "qawa3id_shaykh_zadeh"
     , cit_text = "[شرح شيخ زاده على قواعد الإعراب]{.ar}"
-    , bib_text = "شرح قواعد الإعراب، تأليف: محمد بن مصطفى القُوجَوي المعروف بشيخ زاده " + format_url_ar("https://shamela.ws/book/19236")
+    , bib_text = "شرح قواعد الإعراب، تأليف: محمد بن مصطفى القُوجَوي المعروف بشيخ زاده  \n      " + format_url_ar("https://shamela.ws/book/19236")
     , sort_key = "شرح شيخ زاده على قواعد الاعراب"
     ))
 
@@ -226,6 +240,7 @@ def populate_resource_list():
     "kafawi_kulliyyaat"
     , cit_text = "[الكليات للكفوي]{.ar}"
     , bib_text = "الكليات، تأليف: أبو البقاء الكفوي "+format_url_ar("https://shamela.ws/book/7037")
+    , sort_key = "كليات للكفوي"
     ))
 
   resource_list.append(BibResource(
