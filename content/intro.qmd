@@ -21,25 +21,60 @@ So too did the Classical Arabic dialects begin to change.
 But as part of preserving His religion, [#allAh]{.trn2} preserved the Arabic language as well.
 This was by means of the efforts of scholars who recorded the Classical Arabic language of the time of the revelation.
 
-In the process of preserving Arabic, one particular variety became standardized and gained prevalence as a literary language over the other dialects of the Arabic of the early-[#islAm]{.trn2}ic period.
+In the process of preserving Classical Arabic, one particular variety became standardized and gained prevalence as a literary language over the other dialects of the Arabic of the early-[#islAm]{.trn2}ic period.
+We will call this variety Standard Classical Arabic ([sca]{.smallcaps}).
+<!--
 This standard Arabic, in its early period after standardization, is called _Standard Classical Arabic_.
+-->
 <!--or simply Classical Arabic[^1].
 -->
+<!--
 The pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic Arabic dialects (of which Standard Classical Arabic is but a standardized variety) are then referred to, collectively, as pre-Standard Classical Arabic.
-Standard Classical Arabic was used as the language of religious scholarship, science, and literature in the [#islAm]{.trn2}ic world.
-As scholars developed new branches of religious and secular sciences, new terms and meanings were added to it that are termed post-classical.
+-->
+
+[sca]{.smallcaps} became the language of religious scholarship, science, and literature in the [#islAm]{.trn2}ic world.
+As scholars developed new branches of religious and secular sciences, new terms and meanings were added (which are termed post-classical).
 A few words were also borrowed from foreign languages and Arabicized, as needed by the different scientific disciplines.
-(Pre-Standard Classical Arabic itself had a few Arabicized foreign borrowings from neighboring languages.) These additions were, by and large, deliberate, done by scholars who were experts in their fields and also well versed in Standard Classical Arabic, and validated by subsequent generations of scholarly discourse.
+Classical Arabic itself had a few Arabicized foreign borrowings from neighboring languages.
+
+
+While [sca]{.smallcaps} was preserved and used for literary purposes, the vernacular language that was spoken by Arabs in their day-to-day lives continued to change over time and in the different regions where Arabic was spoken.
+And so, there began to exist two very distinct types of Arabic: the preserved [sca]{.smallcaps} which was taught by formal education and which is primarily a written language, and the vernacular Arabic dialects which Arabs learned as their mother tongue and which are primarily only spoken and not written.
+
+
+
+<!--These additions were, by and large, deliberate, done by scholars who were experts in their fields and also well versed in Standard Classical Arabic, and validated by subsequent generations of scholarly discourse.
 Besides these needed additions, the grammar and core language remained remarkably unchanged.
+-->
+
+In modern times, many new words and meanings were added to [sca]{.smallcaps}, often via translation from Western languages, to keep up with technological advancements and modern media. 
+<!--However, it must be said that these additions have often been done by translators rather than scholars in the field, and have sometimes lacked the deliberation seen in the post-classical additions to Standard Arabic. -->
+This modern development of [sca]{.smallcaps} is called Modern Standard Arabic ([msa]{.smallcaps}). 
+<!--
+There are also a small amount of words, meanings, and grammatical usages, which existed in [sca]{.smallcaps}, but which are deemed archaic, and are therefore largely unused, in [msa]{.smallcaps}.
+-->
+
+
+<!--
+### What constitutes [sca]{.smallcaps}?
+
+Because [sca]{.smallcaps} ceased to be a native language, any literary output in [sca]{.smallcaps} is
+is only an attempt to conform to it.
+That is, 
+-->
+
 
 <!--
 [^1]: This definition of the term _Classical Arabic_ is not universally accepted, and other authors may use it to also include the Arabic of the late pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic period.
 -->
 
-<!--Ahmad Al-Jallad, Damascus Psalm Fragment, p.
-69-->
+<!--Ahmad Al-Jallad, Damascus Psalm Fragment, p.  69-->
+<!--
 While Standard Arabic was thus preserved from major change and was used for literary purposes, the language that was spoken by Arabs in their day-to-day lives continued to change over time from the pre-[#islAm]{.trn2}ic Arabic dialects into the modern colloquial Arabic dialects.
 And so today, there exist two very distinct types of Arabic: the preserved Standard Arabic which is taught at schools and is primarily a written language, and the modern colloquial Arabic dialects which Arabs learn as their mother tongue and which are primarily only spoken and not written.
+-->
+
+The figure below depicts the historical development of [sca]{.smallcaps}
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -59,8 +94,8 @@ And so today, there exist two very distinct types of Arabic: the preserved Stand
   %\def\lo{0.30} %  one tick length
 
   % help functions
-  \def\yearLabel(#1,#2){\node[above] at ({((#1-\yearOne)/\n/\interv)*\w},\lt) {\scriptsize #2};}
-  \def\yearLabelBelow(#1,#2){\node[below] at ({((#1-\yearOne)/\n/\interv)*\w},-\lt) {\scriptsize #2};}
+  \def\yearLabel(#1,#2){\node[above] at ({((#1-\yearOne)/\n/\interv)*\w},\lt) {#2};}
+  \def\yearLabelBelow(#1,#2){\node[below] at ({((#1-\yearOne)/\n/\interv)*\w},-\lt) {#2};}
   \def\yearLabelLine(#1,#2){\node[] at ({((#1-\yearOne)/\n/\interv)*\w},0) {#2};}
   \def\yearArrowLabel(#1,#2,#3,#4){
     \def\xy{{(#1-\yearOne)*\w/\n/\interv}}; \pgfmathparse{int(#2*100)};
@@ -82,7 +117,7 @@ And so today, there exist two very distinct types of Arabic: the preserved Stand
     \def\year{\the\numexpr \yearOne+\tick*\interv \relax}
 	  \ifnum \year>0
       \draw[thick] (\x,\lt) -- (\x,-\lt) % marker tick
-	             node[below] {\scriptsize \year};
+	             node[below] {\year};
     \else
 	    \ifnum \year=0
         \draw[thick] (\x,\lt) -- (\x,-\lt) % marker tick
@@ -101,35 +136,64 @@ And so today, there exist two very distinct types of Arabic: the preserved Stand
   %\node[above] at ({14},\lt) {Modern Standard Arabic};
 
   % label
-  \yearLabel(300,Std.\,Class.\,Arabic)
-  \yearLabel(1300,Modern\,Std.\,Arabic)
-  \yearLabel(-100,pre-Std.\,Class.\,Arabic)
+  \yearLabel(300,SCA)
+  \yearLabel(1330,MSA)
+  \yearLabel(0,Classical\,Arabic)
   \yearLabelBelow(0,the Hijrah)
   \yearLabelBelow(1470,\textsc{ah})
   %\yearArrowLabel(175, 1.0,3.0,Emergence of Standard Arabic)
   %\yearArrowLabel(1, 0.0,1.5,Quran revealed)
-  %\yearArrowLabel(1,-1.0,2.0,\small Quran revealed)
+  %\yearArrowLabel(1,-1.0,2.0,Quran revealed)
   %\yearArrowLabel(1924.2,-1.2,1.2,$p\lambda=h$)
 
 \end{tikzpicture}
 ```
 
-In modern times, many new words and meanings have been added to Standard Arabic, often via translation from Western languages, to keep up with technological advancements and modern media. 
-<!--However, it must be said that these additions have often been done by translators rather than scholars in the field, and have sometimes lacked the deliberation seen in the post-classical additions to Standard Arabic. -->
-This modern development of Standard Arabic is called Modern Standard Arabic. 
-There are also a small amount of words, meanings, and grammatical usages, which existed in Classical Arabic, but which are deemed archaic, and are therefore largely unused, in Modern Standard Arabic.
+## What constitutes [sca]{.smallcaps}
 
-Figure\ 1.1 (above) depicts this historical development of Standard Arabic.
+<!--
+In this context, 
+-->
+It may be appropriate to say a few words about what constitutes [sca]{.smallcaps} proper.
+When the Arab grammarians were first recording and describing Classical Arabic.
+they would only accept samples of speech and texts from authoritative sources.
+And they had criteria for determining what constituted an authoritative source.
+One such criterion was that the text sample be from native Classical Arabic speech.^[[مجموع مقالات فيصل المنصور]{.ar} 93--95]
 
-## About this book <!--([إن شاء الله]{.ar})-->
+Once [sca]{.smallcaps} emerged as a standard variety,
+Classical Arabic itself had more or less ceased to be a native language.
+All literary output produced in
+[sca]{.smallcaps}
+was then only an attempt to conform to a standard.
+So, even though proficiency in
+[sca]{.smallcaps}
+was generally pretty high,
+texts written in
+[sca]{.smallcaps}
+are not generally, themselves, definitive of
+[sca]{.smallcaps}.
+
+As a new learner, this exactitude is fairly academic, and you may feel free to emulate the writing of good writers of [sca]{.smallcaps}.
+But it is good to be aware of such niceties when reading the works of the scholars.
+
+## About this book
 
 ### Scope
 
-In this book, we will study the grammar of Standard Classical Arabic. If [#allAh]{.trn2} wills, this will help you to begin to understand the language of the [quran]{.subs}, the [#HadIv]{.trn2}, and [#islAm]{.trn2}ic literature.
+In this book, we will study the grammar of [sca]{.smallcaps}. If [#allAh]{.trn2} wills, this will help you to begin to understand the language of the [quran]{.subs}, the [#HadIv]{.trn2}, and [#islAm]{.trn2}ic literature.
 
-If your goal is to learn Modern Standard Arabic, then this book may still be of help because the core language and the grammar are essentially the same. However, you may prefer to study from a resource that focuses on the modern language.
+If your goal is to learn [msa]{.smallcaps}, then this book may still be of help because the core language and the grammar are essentially the same. However, you may prefer to study from a resource that focuses on the modern language.
 
-This book does not touch at all upon the modern colloquial dialects that are spoken in the Arab world today.
+This book does not touch at all upon the modern vernacular dialects that are spoken in the Arab world today.
+
+This exclusivity on our part is largely a matter of scope.
+Practically speaking, it can be useful to have some breadth in your learning of Arabic.
+As a spoken language, [sca]{.smallcaps} proper is, today, heard only in religious and very formal settings.
+Even in religious lectures, the speaker often relaxes his conformance to [sca]{.smallcaps} rules.
+Within the same speech, a speaker may dip in and out of [sca/msa]{.smallcaps} and a vernacular dialect.
+This is a very natural process and is familiar to the audience.
+A strict adherence to all [sca]{.smallcaps} grammar and enunciation rules in informal settings may, today, come across as turgid or pedantic.
+
 
 ### Current status
 
@@ -144,13 +208,19 @@ We publish updates online while the book is still a work in progress in the hope
 ### Methodology
 
 We will start, if [#allAh]{.trn2} wills, with the Arabic script and present, in each chapter, a new concept of Arabic grammar, together with examples. 
-Though there is none right now, we will also give, if [#allAh]{.trn2} wills, a vocabulary list and exercises for each chapter. 
+Though there is none right now, we also plan to give, if [#allAh]{.trn2} wills, a vocabulary list and exercises for each chapter. 
 
+We have generally tried to organize content coherently for convenience reference during learning.
+Sometimes, this can mean that on encountering a new topic, we present it in more detail than is strictly necessary for learning at that stage.
+Although identifying such material may not be easy for the learner, you may feel free to skim over such material and refer back to it later, as needed.
+
+<!--
 In order to organize content in a manageable and referrable way, 
 we will give a reasonably full treatment of every topic upon its first encounter.
 But in actuality, an exhaustive understanding of the topic may not be absolutely essential to the core understanding of grammar that a learner needs at that stage.
 An example of such a topic is _semi-flexible nouns_ (_diptotes_ in Western grammars).
 Although identifying such material may not be easy for the learner, you may feel free to skim over such material and refer back to it later, as needed.
+-->
 
 Some of the sentences we present, both as examples and as chapter exercises, because of their contrived nature, may seem of dubious usefulness to a learner wanting to learn practical usage. 
 Also, when translating examples, we usually steer toward a literal, word-for-word, translation rather than an idiomatic one. 
