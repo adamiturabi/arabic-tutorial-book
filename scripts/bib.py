@@ -253,7 +253,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "wright"
     , cit_text = "Wright"
-    , bib_text = "Wright,\\ W., _A grammar of the Arabic Language_, 3rd ed., Cambridge University Press, 1896--1898."
+    , bib_text = "Wright,\\ W., _A grammar of the Arabic language_, 3rd ed., Cambridge University Press, 1896--1898."
     ))
   
   resource_list.append(BibResource(
