@@ -246,7 +246,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "faysal_mansoor_articles"
     , cit_text = "[مجموع مقالات فيصل المنصور]{.ar}"
-    , bib_text = "مجموع مقالات الدكتور فيصل بن علي المنصور في علوم العربية، النسخة الأولى، ١٤٤٢\ هـ.  \n      "+format_url_ar("https://archive.org/details/riga2")
+    , bib_text = "مجموع مقالات الدكتور فيصل بن علي المنصور في علوم العربية، النسخة الأولى، ١٤٤٢\\ هـ.  \n      "+format_url_ar("https://archive.org/details/riga2")
     , sort_key = "مجموع مقالات فيصل المنصور"
     ))
 
@@ -274,6 +274,13 @@ def populate_resource_list():
     , cit_text = 'Al-Jallad,\\ A., "One wāw to rule them all: The origins and fate of wawation in Arabic and its orthography"'
     , bib_text = 'Al-Jallad,\\ A., "One wāw to rule them all: The origins and fate of wawation in Arabic and its orthography," in: _Scripts and scripture: Writing and religion in Arabia circa 500--700\\ [ce]{.smallcaps}_, pp.\\ 87--104, 2022.'
     , sort_key = "Jallad A One waw to rule them all"
+    ))
+
+  resource_list.append(BibResource(
+    "hallberg_thesis"
+    , cit_text = 'Hallberg,\ A., _Case endings in Spoken Standard Arabic_'
+    , bib_text = 'Hallberg,\\ A., _Case endings in Spoken Standard Arabic_. Doctoral thesis, Lund University, 2016. <https://lup.lub.lu.se/record/8524489>'
+    , sort_key = "Hallberg A Case endings in Spoken Standard Arabic"
     ))
 
   return resource_list
