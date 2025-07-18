@@ -45,7 +45,7 @@ And so, there began to exist two very distinct types of Arabic: the preserved [s
 Besides these needed additions, the grammar and core language remained remarkably unchanged.
 -->
 
-In modern times, many new words and meanings were been added to Standard Arabic, often via translation from Western languages, to keep up with technological advancements and modern media. 
+In modern times, many new words and meanings were added to [sca]{.smallcaps}, often via translation from Western languages, to keep up with technological advancements and modern media. 
 <!--However, it must be said that these additions have often been done by translators rather than scholars in the field, and have sometimes lacked the deliberation seen in the post-classical additions to Standard Arabic. -->
 This modern development of [sca]{.smallcaps} is called Modern Standard Arabic ([msa]{.smallcaps}). 
 <!--
@@ -134,8 +134,8 @@ The figure below depicts the historical development of [sca]{.smallcaps}
   %\node[above] at ({14},\lt) {Modern Standard Arabic};
 
   % label
-  \yearLabel(300,\textsc{sca})
-  \yearLabel(1330,\textsc{msa})
+  \yearLabel(300,SCA)
+  \yearLabel(1330,MSA)
   \yearLabel(0,Classical\,Arabic)
   \yearLabelBelow(0,the Hijrah)
   \yearLabelBelow(1470,\textsc{ah})
@@ -165,6 +165,28 @@ Within the same speech, a speaker may dip in and out of [sca/msa]{.smallcaps} an
 This is a very natural process and is familiar to the audience.
 A strict adherence to all [sca]{.smallcaps} grammar and enunciation rules in informal settings may, today, come across as turgid or pedantic.
 
+In this context, it may be appropriate to say a few words about what constitutes [sca]{.smallcaps} proper.
+When the Arab grammarians were first recording and describing Classical Arabic.
+they would only accept samples of speech and texts from authoritative sources.
+And they had criteria for determining what constituted an authoritative source.
+One such criterion was that the text sample be from native Classical Arabic speech.^[@faysal_mansour_articles@ 555]
+
+Once [sca]{.smallcaps} emerged as a standard variety,
+Classical Arabic itself had more or less ceased to be a native language.
+All literary output produced in
+[sca]{.smallcaps}
+was then only an attempt to conform to a standard.
+So, even though proficiency in
+[sca]{.smallcaps}
+was generally pretty high,
+texts written in
+[sca]{.smallcaps}
+are not generally, themselves, definitive of
+[sca]{.smallcaps}.
+
+As a new learner, this exactitude is fairly academic, and you may feel free to emulate the writing of good writers of [sca]{.smallcaps}.
+But it is good to be aware of such niceties when reading the works of the scholars.
+
 ### Current status
 
 This book is currently a work in progress, and not yet ready for study.
@@ -178,13 +200,19 @@ We publish updates online while the book is still a work in progress in the hope
 ### Methodology
 
 We will start, if [#allAh]{.trn2} wills, with the Arabic script and present, in each chapter, a new concept of Arabic grammar, together with examples. 
-Though there is none right now, we will also give, if [#allAh]{.trn2} wills, a vocabulary list and exercises for each chapter. 
+Though there is none right now, we also plan to give, if [#allAh]{.trn2} wills, a vocabulary list and exercises for each chapter. 
 
+We have generally tried to organize content coherently for convenience reference during learning.
+Sometimes, this can mean that on encountering a new topic, we present it in more detail than is strictly necessary for learning at that stage.
+Although identifying such material may not be easy for the learner, you may feel free to skim over such material and refer back to it later, as needed.
+
+<!--
 In order to organize content in a manageable and referrable way, 
 we will give a reasonably full treatment of every topic upon its first encounter.
 But in actuality, an exhaustive understanding of the topic may not be absolutely essential to the core understanding of grammar that a learner needs at that stage.
 An example of such a topic is _semi-flexible nouns_ (_diptotes_ in Western grammars).
 Although identifying such material may not be easy for the learner, you may feel free to skim over such material and refer back to it later, as needed.
+-->
 
 Some of the sentences we present, both as examples and as chapter exercises, because of their contrived nature, may seem of dubious usefulness to a learner wanting to learn practical usage. 
 Also, when translating examples, we usually steer toward a literal, word-for-word, translation rather than an idiomatic one. 
