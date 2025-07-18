@@ -244,6 +244,13 @@ def populate_resource_list():
     ))
 
   resource_list.append(BibResource(
+    "faysal_mansoor_articles"
+    , cit_text = "[مجموع مقالات فيصل المنصور]{.ar}"
+    , bib_text = "مجموع مقالات الدكتور فيصل بن علي المنصور في علوم العربية، النسخة الأولى، ١٤٤٢\ هـ.  \n      "+format_url_ar("https://archive.org/details/riga2")
+    , sort_key = "مجموع مقالات فيصل المنصور"
+    ))
+
+  resource_list.append(BibResource(
     "wright"
     , cit_text = "Wright"
     , bib_text = "Wright,\\ W., _A grammar of the Arabic Language_, 3rd ed., Cambridge University Press, 1896--1898."
@@ -252,7 +259,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "fischer"
     , cit_text = "Fischer"
-    , bib_text = "Fischer,\\ W., _A grammar of classical Arabic_, 3rd rev. ed., translated by J.\\ Rodgers, Yale University Press, 2001."
+    , bib_text = "Fischer,\\ W., _A grammar of Classical Arabic_, 3rd rev. ed., translated by J.\\ Rodgers, Yale University Press, 2001."
     ))
 
   resource_list.append(BibResource(
