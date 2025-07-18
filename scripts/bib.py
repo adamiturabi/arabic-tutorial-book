@@ -272,7 +272,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "jallad_wawation"
     , cit_text = 'Al-Jallad,\\ A., "One wāw to rule them all: The origins and fate of wawation in Arabic and its orthography"'
-    , bib_text = 'Al-Jallad,\\ A., "One wāw to rule them all: The origins and fate of wawation in Arabic and its orthography," in: _Scripts and scripture: Writing and religion in Arabia circa 500--700\\ [ce]{.smallcaps}_, pp.\\ 87--104, 2022.'
+    , bib_text = 'Al-Jallad,\\ A., "One wāw to rule them all: The origins and fate of wawation in Arabic and its orthography," in: _Scripts and scripture: Writing and religion in Arabia circa 500--700\\ [ce]{.smallcaps}_, pp.\\ 87--104. The Oriental Institute of the University of Chicago, 2022.'
     , sort_key = "Jallad A One waw to rule them all"
     ))
 
