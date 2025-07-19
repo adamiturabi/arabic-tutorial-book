@@ -186,7 +186,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "nahw_wafi"
     , cit_text = "[النحو الوافي]{.ar}"
-    , bib_text = "النحو الوافي، تأليف: عباس حسن، دار المعارف."
+    , bib_text = "النحو الوافي، تأليف: عباس حسن، دار المعارف.  \n      " + format_url_ar("https://shamela.ws/book/10641")
     , sort_key = "نحو الوافي"
     ))
   
@@ -250,10 +250,12 @@ def populate_resource_list():
     , sort_key = "مجموع مقالات فيصل المنصور"
     ))
 
+  # Western
+
   resource_list.append(BibResource(
     "wright"
     , cit_text = "Wright"
-    , bib_text = "Wright,\\ W., _A grammar of the Arabic language_, 3rd ed., Cambridge University Press, 1896--1898."
+    , bib_text = "Wright,\\ W., _A grammar of the Arabic language_, 3rd ed., Cambridge University Press, 1896--1898. <https://archive.org/details/AGrammarOfTheArabicLanguageV1>"
     ))
   
   resource_list.append(BibResource(
@@ -272,7 +274,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "jallad_wawation"
     , cit_text = 'Al-Jallad,\\ A., "One wāw to rule them all: The origins and fate of wawation in Arabic and its orthography"'
-    , bib_text = 'Al-Jallad,\\ A., "One wāw to rule them all: The origins and fate of wawation in Arabic and its orthography," in: _Scripts and scripture: Writing and religion in Arabia circa 500--700\\ [ce]{.smallcaps}_, pp.\\ 87--104. The Oriental Institute of the University of Chicago, 2022.'
+    , bib_text = 'Al-Jallad,\\ A., "One wāw to rule them all: The origins and fate of wawation in Arabic and its orthography," in: _Scripts and scripture: Writing and religion in Arabia circa 500--700\\ [ce]{.smallcaps}_, pp.\\ 87--104. The Oriental Institute of the University of Chicago, 2022. <https://www.academia.edu/33017695>'
     , sort_key = "Jallad A One waw to rule them all"
     ))
 
@@ -283,5 +285,17 @@ def populate_resource_list():
     , sort_key = "Hallberg A Case endings in Spoken Standard Arabic"
     ))
 
+  resource_list.append(BibResource(
+    "cantarino_smap"
+    , cit_text = 'Cantarino,\\ V., _Syntax of modern Arabic prose_'
+    , bib_text = 'Cantarino,\\ V., _Syntax of modern Arabic prose_, Indiana University Press, 1974.'
+    , sort_key = 'Cantarino V Syntax of modern Arabic prose'
+    ))
+  resource_list.append(BibResource(
+    "brock_grund"
+    , cit_text = 'Brockelmann,\\ C., _Grundriss der vergleichenden Grammatik der semitischen Sprachen_'
+    , bib_text = 'Brockelmann,\\ C., _Grundriss der vergleichenden Grammatik der semitischen Sprachen_, Verlag von Reuther & Reichard, 1908--1913.'
+    , sort_key = 'Brockelmann C Grundriss der vergleichenden Grammatik der semitischen Sprachen'
+    ))
   return resource_list
 
