@@ -55,7 +55,7 @@ map_table["ism_of"] = {"subject", nil}
 map_table["ism_maful"] = {"doee participle", nil}
 map_table["ism_marrah"] = {"one-time noun", nil}
 map_table["ism_hay2ah"] = {"noun of kind", nil}
-map_table["ism_masdar"] = {"maṣdar-substitute", nil}
+map_table["ism_masdar"] = {"quasi-maṣdar", nil}
 map_table["ism_mawsul"] = {"connected noun", nil}
 
 map_table["jawab"] = {"consequence", nil}
@@ -82,9 +82,10 @@ map_table["naib"] = {"deputy", nil}
 map_table["na3t"] = {"describer", nil}
 
 map_table["sifah"] = {"adjectival noun", nil}
-map_table["sifah_mush"] = {"participlish adjectival noun", nil} -- "participle-like"?
+map_table["sifah_mush"] = {"quasi-participle", nil} -- {"participlish adjectival noun", nil} -- "participle-like"?
 map_table["silah"] = {"connecting sentence", nil}
 map_table["shart"] = {"condition", nil}
+map_table["shibh_jumlah"] = {"quasi-sentence", nil}
 
 map_table["xabar"] = {"comment", nil}
 
