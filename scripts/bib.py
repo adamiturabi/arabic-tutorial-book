@@ -288,14 +288,16 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "cantarino_smap"
     , cit_text = 'Cantarino,\\ V., _Syntax of modern Arabic prose_'
-    , bib_text = 'Cantarino,\\ V., _Syntax of modern Arabic prose_, Indiana University Press, 1974.'
+    , bib_text = 'Cantarino,\\ V., _Syntax of modern Arabic prose_, Indiana University Press, 1974--1975.'
     , sort_key = 'Cantarino V Syntax of modern Arabic prose'
     ))
-  resource_list.append(BibResource(
-    "brock_grund"
-    , cit_text = 'Brockelmann,\\ C., _Grundriss der vergleichenden Grammatik der semitischen Sprachen_'
-    , bib_text = 'Brockelmann,\\ C., _Grundriss der vergleichenden Grammatik der semitischen Sprachen_, Verlag von Reuther & Reichard, 1908--1913.'
-    , sort_key = 'Brockelmann C Grundriss der vergleichenden Grammatik der semitischen Sprachen'
-    ))
+
+  #resource_list.append(BibResource(
+  #  "brock_grund"
+  #  , cit_text = 'Brockelmann,\\ C., _Grundriss der vergleichenden Grammatik der semitischen Sprachen_'
+  #  , bib_text = 'Brockelmann,\\ C., _Grundriss der vergleichenden Grammatik der semitischen Sprachen_, Verlag von Reuther & Reichard, 1908--1913.'
+  #  , sort_key = 'Brockelmann C Grundriss der vergleichenden Grammatik der semitischen Sprachen'
+  #  ))
+
   return resource_list
 
