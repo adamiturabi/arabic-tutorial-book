@@ -2,19 +2,55 @@
 
 ## Introduction
 
-The _;hal;_ is a kind of adverb that describes the temporal state of the _;sahib_hal;_.
+The _;hal;_ 
+([ٱلْحَال]{.ar})
+is a kind of adverb that describes the temporal state of the _;sahib_hal;_ 
+during the action of the ;hal;'s ;3aamil;.
+Here is an example of a ;hal;:
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{رَاكِضًا} \txarb{زَيْدٌ} \txarb{جَاءَ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ḥāl};
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize person of ḥāl};
+
+\draw [decoration={brace}, decorate] 
+   (word-3.north west) -- (word-3.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize governor};
+
+\path (0,0) node [midway, below=3ex, right=-1ex, align=left] {``Zayd came running''};
+
+\end{tikzpicture}
+```
+
 What we mean by
 "temporal state of the ;sahib_hal;"
-is how the ;sahib_hal; appeared.
-(We are not not using "state" terminologically as in ;ustate;, ;astate;, etc.
-Rather we are using it here to mean the condition or mode of being.)
-
-Here is an example of a ;hal;:
+is that
+Zayd, while he was coming, was in a running state.
+It is a temporary state because Zayd cannot be always described as running.
+His running state is tied to his coming.
+By the way,
+we are not not using "state" terminologically as in ;ustate;, ;astate;, etc.
+Rather we are using it here to mean Zayd's condition or mode of being.
 
 Note that, like adverbs in general, the ;hal; is in the ;astate;.
 
 ## Topics
 
+* ;hal; is typically an ;sifah;
 * Governor of the ;hal;
 * ;sahib_hal; can be ;faa3il; or ;mafulb; of governing verb. Can also be noun in oher functions
 
