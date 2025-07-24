@@ -47,6 +47,8 @@ map_table["dharf_zaman"] = {"adverb of time", nil}
 
 map_table["faa3il"] = {"doer", nil}
 
+map_table["hal"] = {"HAl", "trn2"}
+
 map_table["idaafah"] = {"annexation", nil}
 map_table["indir_mafulb"] = {"indirect doee", nil}
 map_table["ism_fail"] = {"doer participle", nil}
@@ -81,6 +83,7 @@ map_table["mutaddi"] = {"transitive", nil}
 map_table["naib"] = {"deputy", nil}
 map_table["na3t"] = {"describer", nil}
 
+map_table["sahib_hal"] = {"person of ḥāl", nil}
 map_table["sifah"] = {"adjectival noun", nil}
 map_table["sifah_mush"] = {"quasi-participle", nil} -- {"participlish adjectival noun", nil} -- "participle-like"?
 map_table["silah"] = {"connecting sentence", nil}
