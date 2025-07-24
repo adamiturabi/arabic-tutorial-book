@@ -37,6 +37,11 @@ map_table["tote"] = {"flexible", nil}
 map_table["active"] = {"active", nil} -- "known-doer" verb?
 map_table["passive"] = {"passive", nil} -- "unknown-doer" verb?
 
+-- government
+map_table["3aamil"] = {"governor", nil}
+map_table["ma3mul"] = {"governee", nil}
+map_table["3amal"] = {"government", nil}
+
 -- alphabetical
 map_table["3aaid"] = {"refer-back pronoun", nil}
 
