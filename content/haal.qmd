@@ -4,19 +4,110 @@
 
 ## Introduction
 
-The _[hal]{.subs}_ is a kind of adverb that describes the temporal state of the _[sahib_hal]{.subs}_.
-What we mean by
-"temporal state of the [sahib_hal]{.subs}"
-is how the [sahib_hal]{.subs} appeared.
-(We are not not using "state" terminologically as in [ustate]{.subs}, [astate]{.subs}, etc.
-Rather we are using it here to mean the condition or mode of being.)
-
+The _[hal]{.subs}_ 
+([ٱلْحَال]{.ar})
+is a kind of adverb that describes the temporal state of the _[sahib_hal]{.subs}_ 
+while the [hal]{.subs}'s governing verb is taking place.
+<!--
+during the action of the [hal]{.subs}'s [3aamil]{.subs}.
+-->
 Here is an example of a [hal]{.subs}:
 
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{رَاكِضًا} \txarb{زَيْدٌ} \txarb{جَاءَ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ḥāl};
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize person of ḥāl};
+
+\draw [decoration={brace}, decorate] 
+   (word-3.north west) -- (word-3.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize governor};
+
+\path (0,0) node [midway, below=3ex, right=-1ex, align=left] {``Zayd came running''};
+
+\end{tikzpicture}
+```
+
+What we mean by
+"temporal state of the [sahib_hal]{.subs}"
+is that
+Zayd, while he was coming, was in a running state.
+It is a temporary state because Zayd is only described as running while he is coming.
+By the way,
+we are not not using "state" here terminologically, as in [ustate]{.subs}, [astate]{.subs}, etc.
+Rather we are using it to mean Zayd's condition or mode of being.
+
 Note that, like adverbs in general, the [hal]{.subs} is in the [astate]{.subs}.
+Typically, the [hal]{.subs} is an [sifah]{.subs}, its [3aamil]{.subs} is a verb, and the [hal]{.subs} describes the [sahib_hal]{.subs}.
+But, as we will see later in this chapter [ia]{.subs}, sometimes the [hal]{.subs} may have differing behavior.
+
 
 ## Topics
 
+```yml
+sahib_haal:
+  - faa3il of 3aamil
+  - maf3ul bih of 3aamil
+  - both faa3il and maf3ul bih
+  - other functions
+Temporary nature of haal:
+  mostly temporary: ~
+  sometimes permanent: ~
+Types of words used for haal:
+  mostly mushtaqq: ~
+  sometimea jamid: ~
+definiteness of haal:
+  - وحده
+The masdar as a haal:
+  possibility of multiple interpretations:
+    - as a haal
+    - as a maf3ul mutlaq
+Concurrence of the haal:
+  mostly concurrent with governing verb: ~
+  sometimes future: ~
+  Multiple haals: ~
+Fundamental and emphasizing haals:
+  mostly fundamental: ~
+  sometimes emphasizing: ~
+Definiteness of the sahib_haal:
+  mostly definite: ~
+  sometimes indefinite: ~
+Order of the haal, the sahib_haal:
+  the haal of a mudaf_ilayh: ~
+Sentences as haal:
+  Definiteness of sahib_hal:
+    - if after maHD definite then haal
+    - otherwise can be na3t or haal
+  link bw haal and sahib_haal:
+    - pronoun
+    - waw of haal
+  Rules of waw of haal: ~
+The 3aamil of the haal:
+  - verb
+  - quasi-verb
+  - a verb stand-in
+  order of haal and 3aamil: ~
+  deleting the 3aamil: ~
+```
+
+* [hal]{.subs} is typically an [sifah]{.subs}
 * Governor of the [hal]{.subs}
 * [sahib_hal]{.subs} can be [faa3il]{.subs} or [mafulb]{.subs} of governing verb. Can also be noun in oher functions
+
+Typically, the [hal]{.subs} is an [sifah]{.subs}, its [3aamil]{.subs} is a verb, and the [hal]{.subs} describes the [sahib_hal]{.subs}.
+But occasionally, each of these statements may be relaxed.
+That is,
 

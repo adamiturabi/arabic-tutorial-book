@@ -21,6 +21,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -314,6 +349,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">References</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/ack.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Acknowledgements</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
@@ -394,16 +435,64 @@ Not ready for study.
 <!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
 <section id="introduction" class="level2" data-number="29.1">
 <h2 data-number="29.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">29.1</span> Introduction</h2>
-<p>The <em>ḥāl</em> is a kind of adverb that describes the temporal state of the <em>person of ḥāl</em>. What we mean by “temporal state of the person of ḥāl” is how the person of ḥāl appeared. (We are not not using “state” terminologically as in raised-state, propped-state, etc. Rather we are using it here to mean the condition or mode of being.)</p>
-<p>Here is an example of a ḥāl:</p>
-<p>Note that, like adverbs in general, the ḥāl is in the propped-state.</p>
+<p>The <em>ḥāl</em> (<span class="reg-ar-span" dir="rtl" lang="ar">ٱلْحَال</span>) is a kind of adverb that describes the temporal state of the <em>person of ḥāl</em> while the ḥāl’s governing verb is taking place. <!--
+during the action of the [hal]{.subs}'s [3aamil]{.subs}.
+--> Here is an example of a ḥāl:</p>
+<img src="./images/haal-tikz-output-1.svg" class="img-fluid">
+<p>What we mean by “temporal state of the person of ḥāl” is that Zayd, while he was coming, was in a running state. It is a temporary state because Zayd is only described as running while he is coming. By the way, we are not not using “state” here terminologically, as in raised-state, propped-state, etc. Rather we are using it to mean Zayd’s condition or mode of being.</p>
+<p>Note that, like adverbs in general, the ḥāl is in the propped-state. Typically, the ḥāl is an adjectival noun, its governor is a verb, and the ḥāl describes the person of ḥāl. But, as we will see later in this chapter if Allāh wills, sometimes the ḥāl may have differing behavior.</p>
 </section>
 <section id="topics" class="level2" data-number="29.2">
 <h2 data-number="29.2" class="anchored" data-anchor-id="topics"><span class="header-section-number">29.2</span> Topics</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode yml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sahib_haal</span><span class="kw">:</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> faa3il of 3aamil</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> maf3ul bih of 3aamil</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> both faa3il and maf3ul bih</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> other functions</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">Temporary nature of haal</span><span class="kw">:</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">mostly temporary</span><span class="kw">:</span><span class="at"> </span><span class="ch">~</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">sometimes permanent</span><span class="kw">:</span><span class="at"> </span><span class="ch">~</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">Types of words used for haal</span><span class="kw">:</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">mostly mushtaqq</span><span class="kw">:</span><span class="at"> </span><span class="ch">~</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">sometimea jamid</span><span class="kw">:</span><span class="at"> </span><span class="ch">~</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="fu">definiteness of haal</span><span class="kw">:</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> وحده</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">The masdar as a haal</span><span class="kw">:</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">possibility of multiple interpretations</span><span class="kw">:</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> as a haal</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> as a maf3ul mutlaq</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">Concurrence of the haal</span><span class="kw">:</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">mostly concurrent with governing verb</span><span class="kw">:</span><span class="at"> </span><span class="ch">~</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">sometimes future</span><span class="kw">:</span><span class="at"> </span><span class="ch">~</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">Multiple haals</span><span class="kw">:</span><span class="at"> </span><span class="ch">~</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="fu">Fundamental and emphasizing haals</span><span class="kw">:</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">mostly fundamental</span><span class="kw">:</span><span class="at"> </span><span class="ch">~</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">sometimes emphasizing</span><span class="kw">:</span><span class="at"> </span><span class="ch">~</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="fu">Definiteness of the sahib_haal</span><span class="kw">:</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">mostly definite</span><span class="kw">:</span><span class="at"> </span><span class="ch">~</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">sometimes indefinite</span><span class="kw">:</span><span class="at"> </span><span class="ch">~</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">Order of the haal, the sahib_haal</span><span class="kw">:</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">the haal of a mudaf_ilayh</span><span class="kw">:</span><span class="at"> </span><span class="ch">~</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="fu">Sentences as haal</span><span class="kw">:</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">Definiteness of sahib_hal</span><span class="kw">:</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> if after maHD definite then haal</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> otherwise can be na3t or haal</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">link bw haal and sahib_haal</span><span class="kw">:</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> pronoun</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> waw of haal</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">Rules of waw of haal</span><span class="kw">:</span><span class="at"> </span><span class="ch">~</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="fu">The 3aamil of the haal</span><span class="kw">:</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> verb</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> quasi-verb</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> a verb stand-in</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">order of haal and 3aamil</span><span class="kw">:</span><span class="at"> </span><span class="ch">~</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">deleting the 3aamil</span><span class="kw">:</span><span class="at"> </span><span class="ch">~</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
+<li>ḥāl is typically an adjectival noun</li>
 <li>Governor of the ḥāl</li>
 <li>person of ḥāl can be doer or direct doee of governing verb. Can also be noun in oher functions</li>
 </ul>
+<p>Typically, the ḥāl is an adjectival noun, its governor is a verb, and the ḥāl describes the person of ḥāl. But occasionally, each of these statements may be relaxed. That is,</p>
 
 
 </section>
