@@ -141,7 +141,7 @@ The ;sahib_hal; as a ;mubtada;:
     [@nahw_arabi@ 2/28]{.citex}  
     "The fruit is delicious (when it is) fresh."
 
-(The governor in the above and also in the below example is not apparent but is implied. See section\ (ref) later in this chapter.)
+(The governor in the above (and also in the below) example is not apparent but is implied. See section\ (ref) later in this chapter.)
 
 The ;sahib_hal; as a ;xabar;:
 
@@ -153,7 +153,7 @@ The ;sahib_hal; in the ;istate;:
 
 (@) [مَرَرْتُ بِزَيْدٍ جَالِسًا]{.ar}
     [@wright@ 2/113A]{.citex}  
-    "I passed by Zaid (as he was) sitting."
+    "I passed by Zayd (as he was) sitting."
 
 (@) [كُنْتُ فِي ٱلْبُسْتَانِ زَاهِرًا]{.ar}
     [@wright@ 2/113B]{.citex}  
@@ -164,11 +164,58 @@ usually the meaning, gender, or number is sufficient to determine whom the ;hal;
 But sometimes context will be needed to determine who the ;sahib_hal; is.
 For example:
 
-(@) [لَقِيتُٱلسُّلْطَانَ عِنْدَهُ بَاكِيًا]{.ar}
+<!--
+(@) [لَقِيتُ ٱلسُّلْطَانَ عِنْدَهُ بَاكِيًا]{.ar}
     [@wright@ 2/113A]{.citex}  
     "I met the sultan in his house, crying."
+-->
+
+(@) [قَابَلْتُ ٱلْأَخَ رَاكِبًا]{.ar}
+    [@nahw_wafi@ 2/386A]{.citex}  
+    "I met the brother riding"
+
+In the example above,
+the ;hal;
+[رَاكِبًا]{.ar}
+may be applicable to either the speaker
+(assuming he is male),
+or to [ٱلْأَخ]{.ar} "the brother".
+Context should tell us which is intended.
+<!--
+In such cases it is better that the ;sahib_hal; be the one that is closest to the ;hal;.^[@nahw_wafi@ 2/386]
+-->
 
 ## Multiple ;hal;s or ;sahibs_hal;
+
+There can be a
+one-to-one,
+many-to-one,
+or
+one-to-many
+relationship between the 
+;hal; and ;sahib_hal;.
+So far,
+we have seen the
+one-to-one
+;hal; and ;sahib_hal;,
+where there is one ;hal; for one ;sahib_hal;
+Now we will see that there can be
+multiple ;hal;s for one ;sahib_hal;,
+and also
+one ;hal; for multiple ;sahibs_hal;.
+
+### Multiple ;hal;s for one ;sahib_hal;
+
+(@) [مَا لَكِ يَا عَائِشُ حَشْيَا رَابِيَةً]{.ar}
+    [@https://sunnah.com/muslim:974b@]{.citex}  
+    "Why are you, O [#eAEicah]{.trn2}, panting, short of breath?"  
+    ([حَشْيَا]{.ar}, on the pattern [فَعْلَىٰ]{.ar}, is the feminine of [حَشْيَان]{.ar} meaning "short of breath". [رَابِيَة]{.ar} has a similar meaning.)
+
+### One ;hal;s for multiple ;sahibs_hal;
+
+## Transitory nature of the ;hal;
+
+## The types of words used for the ;hal;
 
 <!--
 One ;hal; (appropriately dualized or pluralized) may even suffice for multiple individually mentioned ;sahibs_hal;.
@@ -193,10 +240,11 @@ Types of words used for haal:
   sometimea jamid: ~
 definiteness of haal:
   - وحده
-The masdar as a haal:
-  possibility of multiple interpretations:
-    - as a haal
-    - as a maf3ul mutlaq
+Definiteness of the sahib_haal:
+  mostly definite: ~
+  sometimes indefinite: ~
+Order of the haal, the sahib_haal:
+  the haal of a mudaf_ilayh: ~
 Concurrence of the haal:
   mostly concurrent with governing verb: ~
   sometimes future: ~
@@ -204,11 +252,10 @@ Concurrence of the haal:
 Fundamental and emphasizing haals:
   mostly fundamental: ~
   sometimes emphasizing: ~
-Definiteness of the sahib_haal:
-  mostly definite: ~
-  sometimes indefinite: ~
-Order of the haal, the sahib_haal:
-  the haal of a mudaf_ilayh: ~
+The masdar as a haal:
+  possibility of multiple interpretations:
+    - as a haal
+    - as a maf3ul mutlaq
 Sentences as haal:
   Definiteness of sahib_hal:
     - if after maHD definite then haal
