@@ -4,8 +4,11 @@
 
 The _;hal;_ 
 ([ٱلْحَال]{.ar})
-is a kind of adverb that describes the temporal state of the _;sahib_hal;_ 
-while the ;hal;'s governing verb is taking place.
+is a kind of adverb,
+governed typically by a verb,
+that describes the state
+of the _;sahib_hal;_ 
+during the time that the ;hal;'s governing verb is taking place.
 <!--
 during the action of the ;hal;'s ;3aamil;.
 -->
@@ -15,7 +18,7 @@ Here is an example of a ;hal;:
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
-  text=.\txarb{رَاكِضًا} \txarb{زَيْدٌ} \txarb{جَاءَ},
+  text=.\txarb{رَاكِبًا} \txarb{زَيْدٌ} \txarb{جَاءَ},
   text effects/.cd, 
     path from text, text along path,
     group letters, word count=\w,
@@ -34,24 +37,83 @@ Here is an example of a ;hal;:
    (word-3.north west) -- (word-3.north east)
       node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize governor};
 
-\path (0,0) node [midway, below=3ex, right=-1ex, align=left] {``Zayd came running''};
+\path (0,0) node [midway, below=3ex, right=-1ex, align=left] {``Zayd came riding''};
 
 \end{tikzpicture}
 ```
 
+In the example above,
+the usage of the ;hal; signifies that
+Zayd, while he was coming, was in a riding state.
+
+By the way,
+we are not not using "state" here terminologically, as in ;ustate;, ;astate;, etc.  Rather we are using it to mean Zayd's condition or mode of being.
+<!--
 What we mean by
 "temporal state of the ;sahib_hal;"
 is that
-Zayd, while he was coming, was in a running state.
-It is a temporary state because Zayd is only described as running while he is coming.
-By the way,
-we are not not using "state" here terminologically, as in ;ustate;, ;astate;, etc.
-Rather we are using it to mean Zayd's condition or mode of being.
+It is a temporary state because Zayd is only described as angry while he is coming.
+-->
 
+<!--
 Note that, like adverbs in general, the ;hal; is in the ;astate;.
 Typically, the ;hal; is an ;sifah;, its ;3aamil; is a verb, and the ;hal; describes the ;sahib_hal;.
 But, as we will see later in this chapter ;ia;, sometimes the ;hal; may have differing behavior.
+-->
 
+## Matching the ;hal; to the ;sahib_hal;
+
+Consider again the example:
+
+(@) [جَاءَ زَيْدٌ رَاكِبًا]{.ar}
+    [@wright@ 2/112C]{.citex}  
+    "Zayd came riding"
+
+The ;hal;
+[رَاكِبًا]{.ar}
+is an adjectival noun matching the ;sahib_hal; [زَيْد]{.ar} in number (singular) and gender (masculine).
+
+If the ;sahib_hal; is feminine in gender or more than one in number, then the ;hal; will match it accordingly.
+For example:
+
+(@) [وَٱدْخُلُوا ٱلْبَابَ سُجَّدًا]{.ar}
+    [@https://quran.com/2/58@]{.citex}  
+    "and enter the gate bowing humbly"  
+    (The ;sahib_hal; is the plural masculine ;faa3il; pronoun in [ٱدْخُلُوا]{.ar} and the ;hal; [سُجَّد]{.ar} is the plural of [سَاجِد]{.ar}.)
+
+(@) [قَامَتِ ٱبْنَتُهُ إِلَيْهِ بَاكِيَةً]{.ar}
+    [@fischer@ 196D]{.citex}
+    "His daughter [went and] stood to him crying"
+
+As with ;na3t;s and ;xabar;s, when the ;sahib_hal; is a plural of
+non-intelligent beings,
+the singular feminine is typically used for the ;hal;.
+For example:
+
+(@) [صَالَتِ ٱلْأُسُودُ عَلَى ٱلْفَرِيسَةِ فَاتِكَةً]{.ar}  
+    "The lions pounced on the prey slaying"
+
+## Valid candidates for the ;sahib_hal;
+
+The ;sahib_hal; may be the ;faa3il; of the governing verb
+(as in the examples above),
+but it may also be the ;mafulb;,
+or even other nouns in a sentence.
+
+Let's see some examples.
+
+As a ;mafulb;
+
+Often context will be needed to determine who the ;sahib_hal; is.
+
+## Multiple ;hal;s or ;sahibs_hal;
+
+<!--
+One ;hal; (appropriately dualized or pluralized) may even suffice for multiple individually mentioned ;sahibs_hal;.
+For example:
+
+We will discuss ;hal;s of this type separat
+-->
 
 ## Topics
 
@@ -93,10 +155,13 @@ Sentences as haal:
     - pronoun
     - waw of haal
   Rules of waw of haal: ~
+Blurriness of haal with other adverbs:
+  see ma3aani al-nahw: ~
 The 3aamil of the haal:
   - verb
   - quasi-verb
   - a verb stand-in
+  - Wright 2/113D
   order of haal and 3aamil: ~
   deleting the 3aamil: ~
 ```
