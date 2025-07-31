@@ -84,6 +84,10 @@ For example:
     [@https://sunnah.com/bukhari:4794@]{.citex}  
     "they~2m~ got up quickly"
 
+(@) [جَاءَ سَعِيدٌ وَخَالِدٌ رَاكِبَيْنِ]{.ar}
+    [@nahw_arabi@ 2/38]{.citex}  
+    "[#saeId]{.trn2} and [#xAlid]{.trn2} came riding."
+
 For plurals, both sound and broken plurals may be used:
 
 (@) [وَٱدْخُلُوا ٱلْبَابَ سُجَّدًا]{.ar}
@@ -181,10 +185,10 @@ may be applicable to either the speaker
 (assuming he is male),
 or to [ٱلْأَخ]{.ar} "the brother".
 Context should tell us which is intended.
-<!--
-In such cases it is better that the ;sahib_hal; be the one that is closest to the ;hal;.^[@nahw_wafi@ 2/386]
--->
+If context is not sufficient then is more suitable for the closer of the two to the ;hal; to be the ;sahib_hal;.
+Or, to avoid ambiguity, it may be better that the expression not be used at all in this case.^[@nahw_wafi@ 2/386]
 
+<!--
 ## Multiple ;hal;s or ;sahibs_hal;
 
 There can be a
@@ -205,11 +209,48 @@ and also
 one ;hal; for multiple ;sahibs_hal;.
 
 ### Multiple ;hal;s for one ;sahib_hal;
+-->
+
+## Multiple ;hal;s or ;sahibs_hal;
+
+There may be multiple ;hal;s that correspond to one or many ;sahibs_hal;.
+We will explain both cases below:
+
+### Multiple ;hal;s for one ;sahib_hal;
+
+These are examples of 
+multiple ;hal;s corresponding to one ;sahib_hal;:
+
+(@) [وَلَمَّا رَجَعَ مُوسى إِلى قَوْمِهِ غَضْبانَ أَسِفًا]{.ar}
+    [@https://quran.com/7/150@]{.citex}  
+    "And when Moses returned to his people, angry and grieved"
+
+(@) [ارْجِعِي إِلَى رَبِّكِ رَاضِيَةً مَرْضِيَّةً]{.ar}
+    [@https://quran.com/89/28@]{.citex}  
+    "Return to your Lord, well-pleased and pleasing [to Him]"
 
 (@) [مَا لَكِ يَا عَائِشُ حَشْيَا رَابِيَةً]{.ar}
     [@https://sunnah.com/muslim:974b@]{.citex}  
-    "Why are you, O [#eAEicah]{.trn2}, panting, short of breath?"  
+    "Why are you, O [#eAEicah]{.trn2}, panting and short of breath?"  
     ([حَشْيَا]{.ar}, on the pattern [فَعْلَىٰ]{.ar}, is the feminine of [حَشْيَان]{.ar} meaning "short of breath". [رَابِيَة]{.ar} has a similar meaning.)
+
+As you can see, there is no need for a ;3atf; like [و]{.ar} to connect the multiple ;hal;s
+(though we may use the word "and" in the translation).
+If such a [و]{.ar} is inserted, then the noun(s) following it is technically no longer a ;hal;.
+Rather, it is now a ;ma3toof; to the preceding ;hal;.^[@nahw_wafi@ 2/386]
+For example:
+
+(@) [أَقْبَلَ ٱلْمُنْتَصِرُ فَرِحًا وَمُسْرِعًا وَمُصَافِحًا رِفَاقَهُ]{.ar}
+    [@nahw_wafi@ 2/430]{.citex}  
+    "The victor approached rejoicing, hastening, and shaking hands with his companions."
+
+In the above example,
+[فَرِحًا]{.ar}
+is a ;hal;,
+[مُسْرِعًا]{.ar}
+and
+[مُصَافِحًا]{.ar}
+are ;ma3toof;s.
 
 ### One ;hal;s for multiple ;sahibs_hal;
 
