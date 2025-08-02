@@ -46,6 +46,8 @@ map_table["3amal"] = {"government", nil}
 map_table["3aaid"] = {"refer-back pronoun", nil}
 map_table["3atf"] = {"conjunction", nil}
 
+map_table["adat_istifham"] = {"question word", nil}
+
 map_table["badal"] = {"replacement", nil}
 
 map_table["dharf_makan"] = {"adverb of place", nil}
