@@ -84,7 +84,7 @@ For example:
     [@https://sunnah.com/bukhari:4794@]{.citex}  
     "they~2m~ got up quickly"
 
-(@) [جَاءَ سَعِيدٌ وَخَالِدٌ رَاكِبَيْنِ]{.ar}
+(@haal_two_sahibs_hal_dual_hal) [جَاءَ سَعِيدٌ وَخَالِدٌ رَاكِبَيْنِ]{.ar}
     [@nahw_arabi@ 2/38]{.citex}  
     "[#saeId]{.trn2} and [#xAlid]{.trn2} came riding."
 
@@ -213,8 +213,8 @@ one ;hal; for multiple ;sahibs_hal;.
 
 ## Multiple ;hal;s or ;sahibs_hal;
 
-There may be multiple ;hal;s that correspond to one or many ;sahibs_hal;.
-We will explain both cases below:
+There may be one or multiple ;hal;s that correspond to one or multiple ;sahibs_hal;.
+This occurs in the following cases:
 
 ### Multiple ;hal;s for one ;sahib_hal;
 
@@ -252,7 +252,61 @@ and
 [مُصَافِحًا]{.ar}
 are ;ma3toof;s.
 
-### One ;hal;s for multiple ;sahibs_hal;
+### One ;hal; for multiple ;sahibs_hal;
+
+If there are multiple ;sahibs_hal; and the same ;hal; can be used to describe all of them,
+then one ;hal;, appropriately dualized or pluralized, may be used.
+We have already seen an example of this in example
+(@haal_two_sahibs_hal_dual_hal) earlier in this chapter:
+
+(@haal_two_sahibs_hal_dual_hal) [جَاءَ سَعِيدٌ وَخَالِدٌ رَاكِبَيْنِ]{.ar}
+    [@nahw_arabi@ 2/38]{.citex}  
+    "[#saeId]{.trn2} and [#xAlid]{.trn2} came riding."
+
+Here is another example:
+
+(@) [وَسَخَّرَ لَكُمُ ٱلشَّمْسَ وَٱلْقَمَرَ دَائِبَيْنِ]{.ar}
+    [@https://quran.com/14/33@]{.citex}  
+    "And He subjected for you the sun and the moon, continuous [in orbit]"
+
+Sometimes the multiple ;sahibs_hal; may even occur in different functions in the sentence.
+For example:
+
+(@) [قَابَلَ عَلِيٌّ صَدِيقَهُ مَسْرُورَيْنِ]{.ar}
+    [@nahw_arabi@ 2/28]{.citex}  
+    "[#ealiyy]{.trn2} met his friend (while they both were) happy."
+
+(@) [لَقِيتُهُ رَاكِبَيْنِ]{.ar}
+    [@wright@ 2/113B]{.citex}  
+    "I met him (while we both were) riding"
+
+### Multiple ;hal;s for multiple ;sahibs_hal;
+
+If there are multiple ;sahibs_hal;,
+and each is to be described by different ;hal;s,
+then the individual ;hal;s may occur in the sentence without any conjunction.
+If context and meaning are not sufficient to determine which ;hal; applies to which ;sahib_hal;,
+then the first ;hal; (in sentence word order) should apply to the second ;sahib_hal;,
+and the second ;hal; should apply to the first ;sahib_hal;.
+For example:
+
+(@) [لَقِيتُ خَالِدًا مُصْعِدًا مُنْحَدِرًا]{.ar}
+    [@nahw_arabi@ 2/39]{.citex}  
+    "I met [#xAlid]{.trn2} (while he was) going up (and I~m~ was) coming down."
+
+But if meaning and context are sufficient to disambiguate, then the ;hal;s may occur in either order.
+For example:
+
+(@) [لَقِيتُ هِنْدًا مُصْعِدًا مُنْحَدِرَةً]{.ar}
+    [@nahw_arabi@ 2/39]{.citex}  
+    "I met Hind (while I~m~ was) going up (and she was) coming down."
+
+<!--
+(@) [حَدَّثَ ٱلْمُحَاضِرُ طُلَّابَهُ جَالِسِينَ وَاقِفًا]{.ar}
+    [@nahw_arabi@ 2/38]{.citex}
+    "The lecturer "
+-->
+
 
 ## Transitory nature of the ;hal;
 
