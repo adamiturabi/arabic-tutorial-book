@@ -294,6 +294,32 @@ The ;mudafil; in an ;idaafah; is permitted to be a ;sahib_hal; if it satisfies a
  ii. When the ;mudaf; is a real part of the ;mudafil;.
      For example:
 
+     (@) [وَنَزَعْنَا مَا فِي صُدُورِهِم مِّنْ غِلٍّ إِخْوَانًا]{.ar}
+         [@https://quran.com/15/47@]{.citex}  
+         "And We will remove whatever is in their breasts of resentment, [so they will be] brothers"  
+         (The ;mudaf; [صُدُور]{.ar} is a real part of the ;mudafil; ;sahib_hal; [هِمْ]{.ar}.)
+
+     (@) [أَيُحِبُّ أَحَدُكُمْ أَنْ يَأْكُلَ لَحْمَ أَخِيهِ مَيْتًا]{.ar}
+         [@https://quran.com/49/12@]{.citex}  
+         "Would one of you like to eat the flesh of his brother when dead?"  
+         (The ;mudaf; [لَحْم]{.ar} is a real part of the ;mudafil; ;sahib_hal; [أَخ]{.ar}.)
+
+iii. When the ;mudaf; is not really but is virtually a part of the ;mudafil;. 
+     Such that the meaning would still be correct if the ;mudaf; was removed.
+     For example:
+
+     (@) [ثُمَّ أَوْحَيْنَا إِلَيْكَ أَنِ ٱتَّبِعْ مِلَّةَ إِبْرَاهِيمَ حَنِيفًا]{.ar}
+         [@https://quran.com/16/123@]{.citex}  
+         "Then We revealed to you, [O Muḥammad], to follow the religion of Abraham, inclining toward truth"  
+         ([حَنِيفًا]{.ar} is a ;hal; of the ;sahib_hal; [إِبْرَاهِيم]{.ar}. [مِلَّة]{.ar} is virtually a part of [إِبْرَاهِيم]{.ar} such that the meaning is correct without it: [ٱتَّبِعْ إِبْرَاهِيمَ حَنِيفًا]{.ar}.)
+
+When non of these conditions are satisfied then the ;mudafil; cannot be a ;sahib_hal;.
+So we cannot say:
+
+(@) ;x; [مَرَرْتُ بِغُلَامِ هِنْدٍ جَالِسَةً]{.ar}
+    [@nahw_arabi@ 2/51]{.citex}  
+    "I passed by Hind's slave boy (when she was) sitting."
+
 #### Determining the ;sahib_hal; when there is more than one possibility {.unnumbered}
 
 When the sentence has more than one noun as a possible ;sahib_hal;, 
