@@ -1,0 +1,978 @@
+# The ;hal;
+
+## Introduction
+
+The _;hal;_ 
+([ٱلْحَال]{.ar})
+is a kind of adverb,
+governed typically by a verb,
+that describes the state
+of the _;sahib_hal;_ 
+during the time that the ;hal;'s governing verb is taking place.
+<!--
+during the action of the ;hal;'s ;3aamil;.
+-->
+Here is an example of a ;hal;:
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=.\txarb{رَاكِبًا} \txarb{زَيْدٌ} \txarb{جَاءَ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ḥāl};
+
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-2.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize person of ḥāl};
+
+\draw [decoration={brace}, decorate] 
+   (word-3.north west) -- (word-3.north east)
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize governor};
+
+\path (0,0) node [midway, below=3ex, right=-1ex, align=left] {``Zayd came riding''};
+
+\end{tikzpicture}
+```
+
+In the example above,
+the usage of the ;hal; signifies that
+Zayd, while he was coming, was in a riding state.
+
+By the way,
+we are not not using "state" here terminologically, as in ;ustate;, ;astate;, etc.  Rather we are using it to mean Zayd's condition or mode of being.
+<!--
+What we mean by
+"temporal state of the ;sahib_hal;"
+is that
+It is a temporary state because Zayd is only described as angry while he is coming.
+-->
+
+<!--
+Note that, like adverbs in general, the ;hal; is in the ;astate;.
+Typically, the ;hal; is an ;sifah;, its ;3aamil; is a verb, and the ;hal; describes the ;sahib_hal;.
+But, as we will see later in this chapter ;ia;, sometimes the ;hal; may have differing behavior.
+-->
+
+## Matching the ;hal; to the ;sahib_hal;
+
+Consider again the example:
+
+(@) [جَاءَ زَيْدٌ رَاكِبًا]{.ar}
+    [@wright@ 2/112C]{.citex}  
+    "Zayd came riding"
+
+The ;hal;
+[رَاكِبًا]{.ar}
+is an adjectival noun matching the ;sahib_hal; [زَيْد]{.ar} in number (singular) and gender (masculine).
+
+If the ;sahib_hal; is feminine in gender or more than one in number, then the ;hal; will match it accordingly.
+For example:
+
+(@) [قَامَتِ ٱبْنَتُهُ إِلَيْهِ بَاكِيَةً]{.ar}
+    [@fischer@ 196D]{.citex}  
+    "His daughter [went and] stood to him crying"
+
+(@) [وَثَبَا مُسْرِعَيْنِ]{.ar}
+    [@https://sunnah.com/bukhari:4794@]{.citex}  
+    "they~2m~ got up hastening"
+
+(@haal_two_sahibs_hal_dual_hal) [جَاءَ سَعِيدٌ وَخَالِدٌ رَاكِبَيْنِ]{.ar}
+    [@nahw_arabi@ 2/38]{.citex}  
+    "[#saeId]{.trn2} and [#xAlid]{.trn2} came riding."
+
+For plurals, both sound and broken plurals may be used:
+
+(@) [وَٱدْخُلُوا ٱلْبَابَ سُجَّدًا]{.ar}
+    [@https://quran.com/2/58@]{.citex}  
+    "and enter the gate bowing humbly"  
+    (The ;sahib_hal; is the plural masculine ;faa3il; pronoun in [ٱدْخُلُوا]{.ar} and the ;hal; [سُجَّد]{.ar} is the plural of [سَاجِد]{.ar}.)
+
+(@) [خَرَجْنَا مُتَوَجِّهِينَ إِلَىٰ ٱلْيَمَنِ]{.ar}
+    [@fischer@ 196D]{.citex}  
+    "We left heading towards Yemen"
+
+
+As with ;na3t;s and ;xabar;s, when the ;sahib_hal; is a plural of
+non-intelligent beings,
+the singular feminine is typically used for the ;hal;.
+For example:
+
+(@) [صَالَتِ ٱلْأُسُودُ عَلَى ٱلْفَرِيسَةِ فَاتِكَةً]{.ar}  
+    "The lions pounced on the prey slaying"
+
+## The ;3aamil; of the ;hal;
+
+The ;3aamil; of the ;hal; may be one of the following:
+
+##### A verb {.unnumbered}
+
+The verb is the typical ;3aamil; of the ;hal;.
+For example:
+
+(@) [جَاءَ زَيْدٌ رَاكِبًا]{.ar}
+    [@wright@ 2/113D]{.citex}  
+    "Zayd came riding"
+
+##### A ;masdar; {.unnumbered}
+
+(@) [رُكُوبُكَ ٱلسَّيَارَةَ مُسْرِعَةً خَطَرٌ عَلَيْكَ]{.ar}
+    [@nahw_arabi@ 2/51]{.citex}  
+    "Your riding the car speeding is a danger for you."
+
+##### A ;shibh_fi3l; {.unnumbered}
+
+A ;shibh_fi3l; is a ;mushtaqq; verbal noun like an ;ism_fail; or an ;ism_maful;, or an ;sifah;, etc.
+For example:
+
+(@) [زَيْدٌ ضَارِبٌ عَمْرًا قَائِمًا]{.ar}
+    [@wright@ 2/113D]{.citex}  
+    "Zayd is beating [#eamr]{.trn2} standing."
+
+(@) [زَيْدٌ حَسَنٌ قَائِمًا]{.ar}
+    [@wright@ 2/113D]{.citex}  
+    "Zayd is handsome standing."
+
+(@) [زَيْدٌ قَائِمًا أَحْسَنُ مِنْهُ قَاعِدًا]{.ar}
+    [@wright@ 2/114A]{.citex}  
+    "Zayd, standing, is more handsome than him sitting."
+
+##### An expression that has verbal force  {.unnumbered}
+
+An expression that has verbal force could be:
+
+* a preposition or adverb of time or place with a following noun in the ;istate;
+* a ;ism_isharah;
+* a ;adat_istifham;
+* a word like [لَيْتَ]{.ar}, [كَأَنَّ]{.ar}, [لَعَلَّ]{.ar}
+
+In such cases there will typically be the implicit existential verb "is" providing the verbal force.
+
+Examples:
+
+(@) [زَيْدٌ فِي ٱلدَّارِ قَائِمًا]{.ar}
+    [@wright@ 2/114A]{.citex}  
+    "Zayd is in the house standing."
+    (the existential verb "is" is implied)
+
+(@) [هَـٰذَا عَمْرٌو مُنْطَلِقٌ]{.ar}
+    [@wright@ 2/114B]{.citex}  
+    "This is [#eamr]{.trn2} setting out."
+
+(@) [وَهَـٰذَا بَعْلِي شَيْخًا]{.ar}
+    [@https://quran.com/11/72@ cited by @wright@ 2/114B]{.citex}  
+    "and this, my husband, is an old man"
+
+(@) [مَا شَأْنُكَ قَائِمًا]{.ar}
+    [@wright@ 2/114B]{.citex}  
+    "What is your matter, standing?"  
+    (i.e. "Why are you standing?")
+
+(@) [مَا لَكَ وَاقِفًا]{.ar}
+    [@wright@ 2/114B]{.citex}  
+    "What (happened) to you, standing?"  
+    (i.e. "Why are you standing?")
+
+<!--
+(@) [خَالِدٌ مُسَافِرٌ رَاكِبًا]{.ar}
+    [@nahw_arabi@ 2/52]{.citex}  
+    "[#xAlid]{.trn2} is a traveller as he is riding."
+
+(@) [زَيْدٌ مَضْرُوبٌ وَاقِفًا]{.ar}
+    [@nahw_arabi@ 2/52]{.citex}  
+    "Zayd is beaten standing."
+
+##### The existential verb "is" as the ;3aamil; of the ;hal; {.unnumbered}
+
+Arabic does not usually express the existential verb "is".
+However, it is implicit and may be the govern the ;hal;.
+For example,
+
+(@) [هَـٰذَا كِتَابُكَ جَمِيلًا]{.ar}
+    [@nahw_arabi@ 2/52]{.citex}  
+    "This is your book (being) beautiful."
+
+This is frequently the case in questions like:
+
+(@) [مَا شَأْنُكَ وَاقِفًا]{.ar}
+    [@nahw_arabi@ 2/52]{.citex}  
+    "What is your matter, standing?"  
+    (i.e. "Why are you standing?")
+
+(@) [مَا لَكَ مُنْطَلِقًا]{.ar}
+    [@nahw_arabi@ 2/52]{.citex}  
+    "What (happened) to you, setting out?"  
+    (i.e. "Why are you setting out?")
+-->
+
+
+## Valid ;sahibs_hal;
+
+The ;sahib_hal; may be the ;faa3il; of the governing verb
+but it may also be the ;mafulb;,
+or even other nouns in a sentence.
+
+Let's see some examples.
+
+#### The ;sahib_hal; as a ;faa3il; {.unnumbered}
+
+(@) [فَخَرَجَ مِنْهَا خَائِفًا]{.ar}
+    [@https://quran.com/28/21@]{.citex}  
+    "So he left it, fearful"
+
+#### The ;sahib_hal; as a ;mafulb; {.unnumbered}
+
+(@) [وَأَرْسَلْنَاكَ لِلنَّاسِ رَسُولًا]{.ar}
+    [@https://quran.com/4/79@]{.citex}  
+    "And We have sent you, [O Muḥammad], to the people as a messenger"
+
+(@) [رَكِبْتُ ٱلْفَرَسَ مُسْرَجًا]{.ar}
+    [@wright@ 2/113A]{.citex}  
+    "I rode the horse saddled"
+
+#### The ;sahib_hal; as a ;naib; ;faa3il; {.unnumbered}
+
+(@) [تُؤْكَلُ ٱلْفَاكِهَةُ نَاضِجَةً]{.ar}
+    [@nahw_arabi@ 2/28]{.citex}  
+    "The fruit is eaten fresh"
+
+#### The ;sahib_hal; as a ;mubtada; {.unnumbered}
+
+(@) [ٱلْفَاكِهَةُ لَذِيذَةٌ نَاضِجَةً]{.ar}
+    [@nahw_arabi@ 2/28]{.citex}  
+    "The fruit is delicious (when it is) fresh."
+
+<!--
+(The ;3aamil; in the above (and also in the below) example is not apparent but is implied. See section\ (ref) later in this chapter.)
+-->
+
+#### The ;sahib_hal; as a ;xabar; {.unnumbered}
+
+(@) [هَـٰذَا هُوَ ٱلْهِلَالُ طَالِعًا]{.ar}
+    [@nahw_arabi@ 2/28]{.citex}  
+    "This is the crescent (as it is) rising."
+
+#### The ;sahib_hal; in the ;istate; following a preposition {.unnumbered}
+
+(@) [مَرَرْتُ بِزَيْدٍ جَالِسًا]{.ar}
+    [@wright@ 2/113A]{.citex}  
+    "I passed by Zayd (as he was) sitting."
+
+(@) [كُنْتُ فِي ٱلْبُسْتَانِ زَاهِرًا]{.ar}
+    [@wright@ 2/113B]{.citex}  
+    "I was in the garden (while it was) in bloom."
+
+#### The ;sahib_hal; in the ;istate; in as the ;mudafil; in an ;idaafah; {.unnumbered}
+
+The ;mudafil; in an ;idaafah; is permitted to be a ;sahib_hal; if it satisfies any one of the following conditions:
+
+  i. When the ;mudaf; is naturally capable of being the ;3aamil; of the ;hal; (as a ;masdar; or ;ism_fail;, etc.).
+     For example:
+
+     (@) [أَعْجَبَنِي قِيَامُ زَيْدٍ مُسْرِعًا]{.ar}
+         [@wright@ 2/119C]{.citex}  
+         "Zayd's standing speedily pleased me."  
+         (The ;3aamil; is the ;mudaf; [قِيَام]{.ar} which is a ;masdar;)
+
+     (@) [إِلَى ٱللَّـٰهِ مَرْجِعُكمْ جَمِيعًا]{.ar}
+         [@https://quran.com/5/105@]{.citex}  
+         "To Allāh is your return all together"  
+         (The ;3aamil; is the ;mudaf; [مَرْجِع]{.ar} which is a ;masdar;)
+
+     (@) [أَنْتَ شَارِبُ ٱلْمَاءِ صَافِيًا]{.ar}
+         [@nahw_arabi@ 2/50]{.citex}  
+         "You are drinking the water clear."
+         (The ;3aamil; is the ;mudaf; [شَارِب]{.ar} which is a ;ism_fail;)
+
+ ii. When the ;mudaf; is a real part of the ;mudafil;.
+     For example:
+
+     (@) [وَنَزَعْنَا مَا فِي صُدُورِهِم مِّنْ غِلٍّ إِخْوَانًا]{.ar}
+         [@https://quran.com/15/47@]{.citex}  
+         "And We will remove whatever is in their breasts of resentment, [so they will be] brothers"  
+         (The ;mudaf; [صُدُور]{.ar} is a real part of the ;mudafil; ;sahib_hal; [هِمْ]{.ar}.)
+
+     (@) [أَيُحِبُّ أَحَدُكُمْ أَنْ يَأْكُلَ لَحْمَ أَخِيهِ مَيْتًا]{.ar}
+         [@https://quran.com/49/12@]{.citex}  
+         "Would one of you like to eat the flesh of his brother when dead?"  
+         (The ;mudaf; [لَحْم]{.ar} is a real part of the ;mudafil; ;sahib_hal; [أَخ]{.ar}.)
+
+iii. When the ;mudaf; is not really but is virtually a part of the ;mudafil;. 
+     Such that the meaning would still be correct if the ;mudaf; was removed.
+     For example:
+
+     (@) [ثُمَّ أَوْحَيْنَا إِلَيْكَ أَنِ ٱتَّبِعْ مِلَّةَ إِبْرَاهِيمَ حَنِيفًا]{.ar}
+         [@https://quran.com/16/123@]{.citex}  
+         "Then We revealed to you, [O Muḥammad], to follow the religion of Abraham, inclining toward truth"  
+         ([حَنِيفًا]{.ar} is a ;hal; of the ;sahib_hal; [إِبْرَاهِيم]{.ar}. [مِلَّة]{.ar} is virtually a part of [إِبْرَاهِيم]{.ar} such that the meaning is correct without it: [ٱتَّبِعْ إِبْرَاهِيمَ حَنِيفًا]{.ar}.)
+
+When non of these conditions are satisfied then the ;mudafil; cannot be a ;sahib_hal;.
+So we cannot say:
+
+(@) ;x; [مَرَرْتُ بِغُلَامِ هِنْدٍ جَالِسَةً]{.ar}
+    [@nahw_arabi@ 2/51]{.citex}  
+    "I passed by Hind's slave boy (when she was) sitting."
+
+#### Determining the ;sahib_hal; when there is more than one possibility {.unnumbered}
+
+When the sentence has more than one noun as a possible ;sahib_hal;, 
+usually the meaning, gender, or number is sufficient to determine whom the ;hal; is describing.
+But sometimes context will be needed to determine who the ;sahib_hal; is.
+For example:
+
+<!--
+(@) [لَقِيتُ ٱلسُّلْطَانَ عِنْدَهُ بَاكِيًا]{.ar}
+    [@wright@ 2/113A]{.citex}  
+    "I met the sultan in his house, crying."
+-->
+
+(@) [قَابَلْتُ ٱلْأَخَ رَاكِبًا]{.ar}
+    [@nahw_wafi@ 2/386A]{.citex}  
+    "I met the brother riding"
+
+In the example above,
+the ;hal;
+[رَاكِبًا]{.ar}
+may be applicable to either the speaker
+(assuming he is male),
+or to [ٱلْأَخ]{.ar} "the brother".
+Context should tell us which is intended.
+If context is not sufficient then is more suitable for the closer of the two to the ;hal; to be the ;sahib_hal;.
+Or, to avoid ambiguity, it may be better that the expression not be used in this case.^[@nahw_wafi@ 2/386]
+
+
+<!--
+## Multiple ;hal;s or ;sahibs_hal;
+
+There can be a
+one-to-one,
+many-to-one,
+or
+one-to-many
+relationship between the 
+;hal; and ;sahib_hal;.
+So far,
+we have seen the
+one-to-one
+;hal; and ;sahib_hal;,
+where there is one ;hal; for one ;sahib_hal;
+Now we will see that there can be
+multiple ;hal;s for one ;sahib_hal;,
+and also
+one ;hal; for multiple ;sahibs_hal;.
+
+### Multiple ;hal;s for one ;sahib_hal;
+-->
+
+## Multiple ;hal;s or ;sahibs_hal;
+
+There may be one or multiple ;hal;s that correspond to one or multiple ;sahibs_hal;.
+This occurs in the following cases:
+
+### Multiple ;hal;s for one ;sahib_hal;
+
+These are examples of 
+multiple ;hal;s corresponding to one ;sahib_hal;:
+
+(@) [وَلَمَّا رَجَعَ مُوسى إِلى قَوْمِهِ غَضْبانَ أَسِفًا]{.ar}
+    [@https://quran.com/7/150@]{.citex}  
+    "And when Moses returned to his people, angry and grieved"
+
+(@) [ارْجِعِي إِلَى رَبِّكِ رَاضِيَةً مَرْضِيَّةً]{.ar}
+    [@https://quran.com/89/28@]{.citex}  
+    "Return to your Lord, well-pleased and pleasing [to Him]"
+
+(@) [مَا لَكِ يَا عَائِشُ حَشْيَا رَابِيَةً]{.ar}
+    [@https://sunnah.com/muslim:974b@]{.citex}  
+    "Why are you, O [#eAEicah]{.trn2}, panting and short of breath?"  
+    ([حَشْيَا]{.ar}, on the pattern [فَعْلَىٰ]{.ar}, is the feminine of [حَشْيَان]{.ar} meaning "short of breath". [رَابِيَة]{.ar} has a similar meaning.)
+
+As you can see, there is no need for a ;3atf; like [و]{.ar} to connect the multiple ;hal;s
+(though we may use the word "and" in the translation).
+If such a [و]{.ar} is inserted, then the noun(s) following it is technically no longer a ;hal;.
+Rather, it is now a ;ma3toof; to the preceding ;hal;.^[@nahw_wafi@ 2/386]
+For example:
+
+(@) [أَقْبَلَ ٱلْمُنْتَصِرُ فَرِحًا وَمُسْرِعًا وَمُصَافِحًا رِفَاقَهُ]{.ar}
+    [@nahw_wafi@ 2/430]{.citex}  
+    "The victor approached rejoicing, hastening, and shaking hands with his companions."
+
+In the above example,
+[فَرِحًا]{.ar}
+is a ;hal;,
+[مُسْرِعًا]{.ar}
+and
+[مُصَافِحًا]{.ar}
+are ;ma3toof;s.
+
+### One ;hal; for multiple ;sahibs_hal;
+
+If there are multiple ;sahibs_hal; and the same ;hal; can be used to describe all of them,
+then one ;hal;, appropriately dualized or pluralized, may be used.
+We have already seen an example of this in example
+(@haal_two_sahibs_hal_dual_hal) earlier in this chapter:
+
+(@haal_two_sahibs_hal_dual_hal) [جَاءَ سَعِيدٌ وَخَالِدٌ رَاكِبَيْنِ]{.ar}
+    [@nahw_arabi@ 2/38]{.citex}  
+    "[#saeId]{.trn2} and [#xAlid]{.trn2} came riding."
+
+Here is another example:
+
+(@) [وَسَخَّرَ لَكُمُ ٱلشَّمْسَ وَٱلْقَمَرَ دَائِبَيْنِ]{.ar}
+    [@https://quran.com/14/33@]{.citex}  
+    "And He subjected for you the sun and the moon, continuous [in orbit]"
+
+Sometimes the multiple ;sahibs_hal; may even occur in different functions in the sentence.
+For example:
+
+(@) [قَابَلَ عَلِيٌّ صَدِيقَهُ مَسْرُورَيْنِ]{.ar}
+    [@nahw_arabi@ 2/28]{.citex}  
+    "[#ealiyy]{.trn2} met his friend (while they both were) happy."
+
+(@) [لَقِيتُهُ رَاكِبَيْنِ]{.ar}
+    [@wright@ 2/113B]{.citex}  
+    "I met him (while we both were) riding"
+
+### Multiple ;hal;s for multiple ;sahibs_hal;
+
+If there are multiple ;sahibs_hal;,
+and each is to be described by different ;hal;s,
+then the individual ;hal;s may occur in the sentence without any conjunction.
+If context and meaning are not sufficient to determine which ;hal; applies to which ;sahib_hal;,
+then the first ;hal; (in sentence word order) should apply to the second ;sahib_hal;,
+and the second ;hal; should apply to the first ;sahib_hal;.^[@nahw_wafi@ 2/387, @nahw_arabi@ 2/38--39. But see also @wright@ 2/115CD]
+For example:
+
+(@) [لَقِيتُ خَالِدًا مُصْعِدًا مُنْحَدِرًا]{.ar}
+    [@nahw_arabi@ 2/39]{.citex}  
+    "I met [#xAlid]{.trn2} (while he was) going up (and I~m~ was) coming down."
+
+But if meaning and context are sufficient to disambiguate, then the ;hal;s may occur in either order.
+For example:
+
+(@) [لَقِيتُ هِنْدًا مُصْعِدًا مُنْحَدِرَةً]{.ar}
+    [@nahw_arabi@ 2/39]{.citex}  
+    "I met Hind (while I~m~ was) going up (and she was) coming down."
+
+<!--
+(@) [حَدَّثَ ٱلْمُحَاضِرُ طُلَّابَهُ جَالِسِينَ وَاقِفًا]{.ar}
+    [@nahw_arabi@ 2/38]{.citex}
+    "The lecturer "
+-->
+
+## Definiteness of the ;hal;
+
+The ;hal; is typically an indefinite noun,
+as we have seen in all the examples so far.
+Occasionally, however, it does occur as a definite noun.
+The most common such ;hal; is the noun [وَحْد]{.ar} annexed to a pronoun, meaning "alone".
+For example:
+
+(@) [جَاءَ ٱلضَّيْفَ وَحْدَهُ]{.ar}
+    [@nahw_wafi@ 2/375]{.citex}  
+    "The guest came by himself."
+
+Other definite nouns may also occur as ;hal;s.
+For example:
+
+(@) [ٱدْخُلُوا ٱلْأَوَّلَ فَٱلْأَوَّلَ]{.ar}  
+    [@nahw_wafi@ 2/376]{.citex}  
+    "Enter! the first then the first"  
+    (i.e. "Enter in order")
+     
+(@) [كَلَّمْتُهُ فَاهُ إِلَىٰ فِيَّ]{.ar}
+    [@nahw_arabi@ 2/34]{.citex}  
+    "I spoke to him his mouth to my mouth."  
+    (i.e. face to face)
+
+The definite ;hal; may also occur in a comparative statement.
+For example:
+
+(@) [زَيْدٌ ٱلرَّاكِبَ أَحْسَنُ مِنْهُ ٱلْمَاشِي]{.ar}
+    [@wright@ 2/116D]{.citex}  
+    "Zayd as the rider is more handsome than he is (as) the walker."
+
+Although, it is more usual to use the indefinite ;hal; in this case: 
+[زَيْدٌ رَاكِبًا أَحْسَنُ مِنْهُ مَاشِيًا]{.ar}.
+
+## Definiteness of the ;sahib_hal;
+
+The ;sahib_hal; is typically a definite noun,
+as we have seen in all the examples so far.
+Sometimes, however, it does occur as an indefinite noun.
+Usually, when the ;sahib_hal; is indefinite, it occurs in the following circumstances:
+
+##### The ;hal; precedes the indefinite  ;sahib_hal; {.unnumbered}
+
+(@) [فِيهَا قَائِمًا رَجُلًا]{.ar}
+    [@wright@ 2/117B]{.citex}  
+    "in it (i.e. the house) is a man standing"
+
+The order of the ;hal; and the ;sahib_hal; is treated in more detail in section\ (ref).
+
+##### The indefinite ;sahib_hal; is qualified by a describer or a ;mudafil; {.unnumbered}
+
+(@) [عِنْدِي غُلَامُ رَجُلٍ قَائِمًا]{.ar}
+    [@wright@ 2/117D]{.citex}  
+    "in my house is a man's slave standing"
+
+(@) [قَدِمَ طِفْلٌ صَغِيرٌ بَاكِيًا]{.ar}
+    [@nahw_arabi@ 2/45]{.citex}  
+    "a small child came crying"
+
+(@) [وَبَارَكَ فِيهَا وَقَدَّرَ فِيهَا أَقْوَاتَهَا فِي أَرْبَعَةِ أَيَّامٍ سَوَاءً لِّلسَّائِلِينَ]{.ar}
+    [@https://quran.com/41/10@ cited by @nahw_arabi@ 2/45]{.citex}  
+    "and He blessed it and determined therein its [creatures'] sustenance in four days without distinction - for [the information of] those who ask."
+
+##### The indefinite ;sahib_hal; is in a negative statement or a question {.unnumbered}
+
+(@) [مَا خَابَ عَامِلٌ مُخْلِصًا]{.ar}
+    [@nahw_wafi@ 2/403]{.citex}  
+    "A worker, when sincere, does not fail."
+
+(@) [لَا تَشْرَبْ فِي كُوبٍ مَكْسُورًا]{.ar}
+    [@nahw_wafi@ 2/403]{.citex}  
+    "Don't drink in a cup (when it is) broken."
+
+(@) [أَجَاءَ أَحَدٌ رَاكِبًا]{.ar}
+    [@nahw_arabi@ 2/44]{.citex}  
+    "Did anyone come riding?"
+
+
+##### The indefinite ;sahib_hal; without any special circumstance {.unnumbered}
+
+Occasionally, 
+the ;sahib_hal; may be indefinite without any special circumstance.^[@nahw_arabi@ 2/45--47]
+For example:
+
+(@) [وَصَلَّى وَرَاءَهُ قَوْمٌ قِيَامًا]{.ar}
+    [@https://sunnah.com/bukhari:1113@]{.citex}  
+    "and [some] people prayed behind him standing"
+
+## The order of the ;hal;, the ;sahib_hal; and the ;3aamil;
+
+The normal order is: first the ;3aamil;, then the ;sahib_hal;, then the ;hal;.
+However, there is much variability permitted, subject to certain rules.
+
+### The ;hal; preceding the ;3aamil;
+
+The ;hal; may precede the ;3aamil; if
+the ;3aamil; is an verb
+or ;shibh_fi3l;
+that flexes based on the doer.
+
+So we can say:
+
+(@) [رَاكِبًا جَاءَ زَيْدٌ]{.ar}
+    [@wright@ 2/118B]{.citex}  
+    "Zayd came riding."
+
+(@) [مُسْرِعًا ذَا رَاحِلٌ]{.ar}
+    [@wright@ 2/118B and @nahw_arabi@ 2/53]{.citex}  
+    "In haste is this this (man) departing."  
+    ([ذَا]{.ar} is a pointing noun like [هَـٰدَا]{.ar}. See section\ (ref).)
+
+If the ;3aamil; is a verb or ;sifah; that is rigid (does not flex based on the doer),
+then the ;hal; may not precede the ;3aamil;.
+Examples of such ;3aamil;s are the verb of wonder and the ;af3al;.
+For example:
+
+(@) [مَا أَحْسَنَ زَيْدٌ ضَاحِكًا]{.ar}
+    [@wright@ 2/118B]{.citex}  
+    (not ;x; [ضَاحِكًا مَا أَحْسَنَ زَيْدٌ]{.ar})  
+    "How handsome is Zayd (when) laughing!"
+
+(@) [زَيْدٌ أَحْسَنُ مِنْ عَمْرٍو ضَاحِكًا]{.ar}
+    [@wright@ 2/118B]{.citex}  
+    (not ;x; [زَيْدٌ ضَاحِكًا أَحْسَنُ مِنْ عَمْرٍو]{.ar})  
+    "Zayd is more handsome than [#eamr]{.trn2} (when) laughing."
+
+An exception is permitted with a noun, in one ;hal;, is compared with itself or another noun in another ;hal;.
+For example:
+
+(@) [زَيْدٌ قَائِمًا أَحْسَنُ مِنْهُ قَاعِدًا]{.ar}
+    [@wright@ 2/118C]{.citex}  
+    "Zayd when standing is more handsome than [himself] when sitting."
+
+(@) [زَيْدٌ مُفْرَدًا أَنْفَعُ مِنْ عَمْرٍو مُعَانًا]{.ar}
+    [@wright@ 2/118C]{.citex}  
+    "Zayd when alone is more useful than [#eamr]{.trn2} when assisted (by others)."
+
+If the ;3aamil; is not a verb or a ;shibh_fi3l; but an expression that has verbal force,
+then the ;hal; is generally not permitted to precede the ;3aamil;.^[See, however, @https://tafsir.app/albahr-almuheet/39/67@ for the recitation [والسماوات مطوياتٍ بيمينه]{.ar}. Also mentioned by @wright@ 2/118D]
+
+(@) [كَأَنَّ زَيْدٌ رَاكِبًا أَسَدٌ]{.ar}
+    [@wright@ 2/118D]{.citex}  
+    (not ;x; [رَاكِبًا كَأَنَّ زَيْدٌ أَسَدٌ]{.ar})  
+    "[It is] as if Zayd, when riding, is a lion."
+
+(@) [زَيْدٌ فِي ٱلدَّارِ قَائِمًا]{.ar}
+    [@wright@ 2/118D]{.citex}  
+    (not ;x; [زَيْدٌ قَائِمًا فِي ٱلدَّارِ]{.ar})  
+    "Zayd is in the house standing."
+
+(@) [تِلْكَ هِنْدٌ بَاحِثَةً]{.ar}
+    [@nahw_arabi@ 2/53]{.citex}  
+    (not ;x; [بَاحِثَةً تِلْكَ هِنْدٌ]{.ar})  
+    "That is Hind, searching."
+
+### The ;hal; preceding the ;sahib_hal;
+
+The ;hal; is generally allowed to precede the ;sahib_hal; when the ;sahib_hal; is in the ;ustate; or ;astate;.
+For example:
+
+(@) [جَاءَ ضَاحِكًا زَيْدٌ]{.ar}
+    [@wright@ 2/119A]{.citex}  
+    "Zayd came riding."
+
+(@) [شَرِبْتُ ٱلْمَاءَ صَافِيًا]{.ar}
+    [@nahw_arabi@ 2/48]{.citex}  
+    "I drank the water clear."
+
+Excepted from this general permissibility is if the ;sahib_hal; is restricted by [إِلَّا]{.ar}.
+For example:
+
+(@) [مَا جَاءَ أُسَامَةُ إِلَّا رَاكِبًا]{.ar}
+    [@nahw_arabi@ 2/48]{.citex}  
+    "[#usAmah]{.trn2} did not come except riding."
+
+(@) [وَمَا نُرْسِلُ ٱلْمُرْسَلِينَ إِلَّا مُبَشِّرِينَ وَمُنْذِرِينَ]{.ar}
+    [@https://quran.com/6/48@]{.citex}  
+    "And We send not the messengers except as bringers of good tidings and warners."
+
+When the ;sahib_hal; is in the ;istate; then:
+if it is a ;mudafil; in an ;idaafah;, then the ;hal; should follow the ;sahib_hal; and not precede it.
+
+For example:
+
+(@) [أَعْجَبَنِي قِيَامُ زَيْدٍ مُسْرِعًا]{.ar}
+    [@wright@ 2/119C]{.citex}  
+    "Zayd's standing speedily pleased me."
+
+If the ;sahib_hal; is in the ;istate; due to a preceding preposition, then
+the ;hal; will usually follow it and not precede it.
+For example:
+
+(@) [مَرَرْتُ بِهِنْدٍ جَالِسَةً]{.ar}
+    [@wright@ 2/119B]{.citex}  
+    "I passed by Hind (when she was) sitting."
+
+Occasionally, however, the ;hal; has been found to precede the ;istate; ;sahib_hal; preceded by a preposition.
+For example:
+
+(@) [وَمَا أَرْسَلْنَاكَ إِلَّا كَافَّةً لِلنَّاسِ]{.ar}
+    [@https://quran.com/34/28@]{.citex}  
+    "And We have not sent you except comprehensively to mankind"
+
+### Reasons for varying the normal order
+
+The natural order, as we have mentioned, is:
+first the ;3aamil;, then the ;sahib_hal;, then the ;hal;.
+So normally we would say:
+
+(@) [حَضَرَ مُحَمَّدٌ مَاشِيًا]{.ar}
+    [@nahw_arabi@ 2/55]{.citex}  
+    "[#muHammad]{.trn2} came walking."
+
+The speaker may choose to vary this normal order for a variety of reasons.
+For example, if 
+[#muHammad]{.trn2}
+had been previously hampered from walking due to an illness or injury, then
+in order to emphasize his being able to walk, the speaker may say:
+
+(@) [حَضَرَ مَاشِيًا مُحَمَّدٌ]{.ar}
+    [@nahw_arabi@ 2/55]{.citex}
+
+Or if the listener was incorrectly assuming that
+[#muHammad]{.trn2}
+came riding and not walking, then the speaker may wish to disabuse him by saying
+
+(@) [مَاشِيًا حَضَرَ مُحَمَّدٌ]{.ar}
+    [@nahw_arabi@ 2/55]{.citex}
+
+There may be other reasons as well.^[@maani_nahw@ 2/354]
+
+## Transitory and permanent meanings for the ;hal;
+
+Fundamentally, the ;hal; is transitory in its meaning;
+i.e. it is not meant to be a permanent description of the ;sahib_hal;.
+For example:
+
+(@) [جَاءَ سَعِيدٌ غَاضِبًا]{.ar}
+    [@nahw_arabi@ 2/28]{.citex}  
+    "[#saeId]{.trn2} came angry"
+
+(@) [أَقْبَلَ خَالِدٌ رَاكِبًا]{.ar}
+    [@nahw_arabi@ 2/28]{.citex}  
+    "[#xAlid]{.trn2} came riding."
+
+In the above examples, the ;hal;s
+[غَاضِبًا]{.ar} "angry"
+and
+[رَاكِبًا]{.ar} "riding"
+are meant to be transitory descriptions,
+such that it is conceivable that
+[#saeId]{.trn2} may cease to be angry,
+and that
+[#xAlid]{.trn2} could come walking instead of riding.
+
+<!--
+However, there are circumstances in which the ;hal; may be a more permanent description of the ;sahib_hal;.
+These circumstances are:
+
+#### The ;hal; describes ;sahib_hal; coming in to existence {.unnumbered}
+
+When the ;hal; describes ;sahib_hal; as it comes in to existence or relevance,
+then it may have a permanent meaning.
+-->
+
+However, it is possible that the ;hal; have a more permanent meaning.
+This is primarily when 
+the ;hal; describes ;sahib_hal; as it comes in to existence or relevance.
+
+For example:
+
+(@) [وَخُلِقَ ٱلْإِنْسَانُ ضَعِيفًا]{.ar}
+    [@https://quran.com/4/28@]{.citex}  
+    "and mankind was created weak"
+
+(@) [قَالَتْ رَبِّ إِنِّي وَضَعْتُهَا أُنْثَىٰ]{.ar}
+    [@https://quran.com/3/36@]{.citex}  
+    "she said, 'My Lord, I have delivered a female.'"
+
+(@) [وَلَدَتْهُ أَزْرَقَ ٱلْعَيْنَينِ أَفْطَسَ ٱلْأَنْفِ]{.ar}
+    [@nahw_arabi@ 2/29]{.citex}  
+    "She gave birth to him blue-eyed (and) snub-nosed"
+
+The ;hal; may also have a more permanent meaning in the sense that
+while it describes the ;sahib_hal; linked in time to the ;3aamil;,
+its meaning also applies more permanently to the ;sahib_hal;.
+For example:
+
+(@) [وَهَـٰذَا صِرَاطُ رَبِّكَ مُسْتَقِيمًا]{.ar}
+    [@https://quran.com/6/126@ cited by @nahw_arabi@ 2/30]{.citex}  
+    "And this is the path of your Lord, [leading] straight"  
+    (The ;hal; [مُسْتَقِيمًا]{.ar} "straight" applies permanently to the ;sahib_hal; [صِرَاطُ رَبِّكَ]{.ar} "path of your Lord")
+
+## Difference in meaning between using a ;hal; and using a ;na3t;
+
+The ;hal; and the the ;na3t; are typically both sourced from ;sifah;s.
+And generally when you use the ;sifah; as a ;hal; it will have a different meaning from when it is used as a ;sifah;.
+
+Consider the following two examples:
+
+(@) [هَـٰذَا ٱلْفَرَسُ ٱلسَّابِقُ]{.ar}
+    [@maani_nahw@ 2/334]{.citex}  
+    "This is the foremost horse."
+
+(@) [هَـٰذَا ٱلْفَرَسُ سَابِقًا]{.ar}
+    [@maani_nahw@ 2/334]{.citex}  
+    "This is the horse (when it is) foremost"
+
+The former sentence is describing the horse as being foremost,
+but not necessarily at the time when the speaker is pointing to it.
+So, at the moment of pointing to it, the horse may actually be tethered.
+Whereas the latter sentence is describing the horse at the moment of pointing at it. 
+It would likely be running and and being foremost at that time.
+
+Similarly, consider:
+
+(@) [أَقْبَلَ ٱلطَّالِبُ ٱلْمُقَصِّرُ]{.ar}
+    [@maani_nahw@ 2/333]{.citex}  
+    "The slacking student approached."
+
+(@) [أَقْبَلَ ٱلطَّالِبُ مُقَصِّرًا]{.ar}
+    [@maani_nahw@ 2/333]{.citex}  
+    "The student approached (while) slacking."
+
+The same distinction appiles to the above two examples.
+The former sentence describes the student as a slacker generally.
+But he may not be slacking at the moment when he is approaching.
+Whereas the latter sentence describes the student as slacking when he is approaching.
+He may not be a slacker in general.
+
+<!--
+Even when the ;sifah; used for the ;hal; has a more permanent meaning,
+there can be a distinction from it being used as a ;na3t;.
+-->
+
+However, there can sometimes be some overlap in meaning.^[See also [شرح إبي سعيد بهامش كتاب سيبويه]{.ar} 1/272 cited by @maani_nahw@ 2/350]
+For example, in the scenario when all the following conditions are satisfied:
+
+* the ;hal; has a transitory meaning,
+* the meaning of the ;hal; is a description of motion or posture (like "sitting", "standing", "sleeping", "running", etc.),
+* the ;sahib_hal; is indefinite,
+* the ;3aamil; is an expression that has verbal force (see section\ (ref)).
+
+In such a case, the ;sifah; used as a ;na3t; may have a somewhat similar meaning to it being used a ;hal;.
+For example:
+<!--
+(@) [فِي ٱلْبَيْتِ رَجُلٌ نَائمٌ]{.ar}  
+    "In the house, is a sleeping man."  
+    (;na3t;)
+
+(@) [فِي ٱلْبَيْتِ رَجُلٌ نَائِمًا]{.ar}  
+    "In the house, is a man sleeping."  
+    (;hal;)
+-->
+
+(@) [فِيهَا رَجُلٌ قَائِمٌ]{.ar}  
+    "In it (i.e. the house), is a standing man."  
+    (;na3t;)
+
+(@) [فِيهَا رَجُلٌ قَائِمًا]{.ar}  
+    [[سيبويه]{.ar} 1/272 cited by @maani_nahw@ 2/352]{.citex}  
+    "In the house, is a man standing."  
+    (;hal;)
+
+There may also be a case where the ;hal; is indistinguishable from the ;na3t; due to the ;sahib_hal; being indefinite and in the ;astate;.
+For example:
+
+(@) [رَأَيْتُ طَالِبًا مُقَصِّرًا]{.ar}
+    [@maani_nahw@ 2/352]{.citex}  
+    "I saw a student slacking."  
+    or  
+    "I saw a slacking student."  
+
+## An ;jamid; noun as the ;hal;
+
+Because the ;hal; is a description of the ;sahib_hal;,
+and a description is likely to be a ;sifah;,
+and ;sifah;s are typically ;mushtaqq; nouns,
+it therefore follows that the ;hal; is likely to be a ;mushtaqq; noun.
+Most of the examples we have seen so far have been of the ;hal; as a
+;mushtaqq; noun.
+For example:
+[رَاكِبًا]{.ar},
+[غَاضِبًا]{.ar}, etc.
+However, it is possible for the
+;hal; to be ;jamid; noun.
+Here are some examples:
+
+(@) [طَلَعَ ٱلْقَمَرُ بَدْرًا]{.ar}
+    [@wright@ 2/115A]{.citex}  
+    "The moon rose (as) a full moon."
+
+(@) [كَرَّ زَيْدٌ أَسَدًا]{.ar}
+    [@wright@ 2/115A]{.citex}  
+    "Zayd charged (like) a lion." 
+
+(@) [بِعْهُ مُدًّا بِدِرْهَمٍ]{.ar}
+    [@wright@ 2/115A]{.citex}  
+    "Sell it (at the rate of) a mudd for a dirham"  
+    (a mudd is a measure of volume)
+
+(@) [بِعْتُ ٱلشَّاءَ شَاةً وَدِرْهَمًا]{.ar}
+    [@wright@ 2/115A]{.citex}  
+    "I sold the sheep (at the rate of) a sheep [for] a dirham."
+
+(@) [بَايَعْتُهُ يَدًا بِيَدٍ]{.ar}
+    [@wright@ 2/115A]{.citex}  
+    "I traded with him hand in hand"  
+    (i.e. for ready money)
+
+(@) [بَيَّنْتُ لَهُ حِسَابَهُ بَابًا بَابًا]{.ar}
+    [@wright@ 2/115A]{.citex}  
+    "I explained his account for him item by item."
+
+(@) [دَخَلَ ٱلْقَوْمُ رَجُلًا رَجُلًا]{.ar}
+    [@nahw_arabi@ 2/30]{.citex}  
+    "The people entered, man by man."
+
+(@) [كَلَّمْتُهُ فَاهُ إِلَىٰ فِيَّ]{.ar}
+    [@wright@ 2/115B]{.citex}  
+    "I spoke to him his mouth to my mouth."  
+    (i.e. face to face)
+
+(@) [هَـٰذَا عِنَبًا أَطْيَبُ مِنْهُ زَبِيبًا]{.ar}
+    [@wright@ 2/115B]{.citex}  
+    "This (fruit), as a grape, is better than it as a raisin."
+
+(@) [وَكَذَ ٰلِكَ أَنْزَلْنَاهُ قُرْآنًا عَرَبِيًّا]{.ar}
+    [@https://quran.com/20/113@ cited by @nahw_arabi@ 2/33]{.citex}  
+    "And thus We have sent it down as an Arabic Qur’ān"
+
+(@) [هَـٰذِهِ أَمْوَالُكَ ذَهَبًا]{.ar}
+    [@nahw_arabi@ 2/34]{.citex}  
+    "These are your wealths, as gold."
+
+(@) [هَـٰذِهِ فِضَّتُكَ خَاتَمًا]{.ar}
+    [@nahw_arabi@ 2/34]{.citex}  
+    "This is your silver, as a ring."
+
+(@) [هَـٰذَا خَاتَمُكَ فِضَّةً]{.ar}
+    [@nahw_arabi@ 2/34]{.citex}  
+    "This is your ring, in silver"
+
+## A ;masdar; as the ;hal;
+
+While the ;hal; is usually a ;sifah; it does frequently occur as an indefinite ;masdar;.
+
+(TODO: mention blurriness)
+
+## Topics
+
+```yml
+sahib_haal:
+  - faa3il of 3aamil
+  - maf3ul bih of 3aamil
+  - both faa3il and maf3ul bih
+  - other functions
+Temporary nature of haal:
+  mostly temporary: ~
+  sometimes permanent: ~
+Types of words used for haal:
+  mostly mushtaqq: ~
+  sometimea jamid: ~
+definiteness of haal:
+  - وحده
+Definiteness of the sahib_haal:
+  mostly definite: ~
+  sometimes indefinite: ~
+Order of the haal, the sahib_haal:
+  the haal of a mudaf_ilayh: ~
+Concurrence of the haal:
+  mostly concurrent with governing verb: ~
+  sometimes future: ~
+  Multiple haals: ~
+Fundamental and emphasizing haals:
+  mostly fundamental: ~
+  sometimes emphasizing: ~
+The masdar as a haal:
+  possibility of multiple interpretations:
+    - as a haal
+    - as a maf3ul mutlaq
+Sentences as haal:
+  Definiteness of sahib_hal:
+    - if after maHD definite then haal
+    - otherwise can be na3t or haal
+  link bw haal and sahib_haal:
+    - pronoun
+    - waw of haal
+  Rules of waw of haal: ~
+Blurriness of haal with other adverbs:
+  see ma3aani al-nahw: ~
+The 3aamil of the haal:
+  - verb
+  - quasi-verb
+  - a verb stand-in
+  - Wright 2/113D
+  order of haal and 3aamil: ~
+  deleting the 3aamil: ~
+```
+
+* ;hal; is typically an ;sifah;
+* ;3aamil; of the ;hal;
+* ;sahib_hal; can be ;faa3il; or ;mafulb; of governing verb. Can also be noun in oher functions
+
+Typically, the ;hal; is an ;sifah;, its ;3aamil; is a verb, and the ;hal; describes the ;sahib_hal;.
+But occasionally, each of these statements may be relaxed.
+That is,
+

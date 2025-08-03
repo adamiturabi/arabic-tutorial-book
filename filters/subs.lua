@@ -37,8 +37,17 @@ map_table["tote"] = {"flexible", nil}
 map_table["active"] = {"active", nil} -- "known-doer" verb?
 map_table["passive"] = {"passive", nil} -- "unknown-doer" verb?
 
+-- government
+map_table["3aamil"] = {"governor", nil}
+map_table["ma3mul"] = {"governee", nil}
+map_table["3amal"] = {"government", nil}
+
 -- alphabetical
 map_table["3aaid"] = {"refer-back pronoun", nil}
+map_table["3atf"] = {"conjunction", nil}
+
+map_table["adat_istifham"] = {"question word", nil}
+map_table["af3al"] = {"comparative noun", nil}
 
 map_table["badal"] = {"replacement", nil}
 
@@ -46,6 +55,8 @@ map_table["dharf_makan"] = {"adverb of place", nil}
 map_table["dharf_zaman"] = {"adverb of time", nil}
 
 map_table["faa3il"] = {"doer", nil}
+
+map_table["hal"] = {"HAl", "trn2"}
 
 map_table["idaafah"] = {"annexation", nil}
 map_table["indir_mafulb"] = {"indirect doee", nil}
@@ -58,11 +69,13 @@ map_table["ism_hay2ah"] = {"noun of kind", nil}
 map_table["ism_masdar"] = {"quasi-maṣdar", nil}
 map_table["ism_mawsul"] = {"connected noun", nil}
 
+map_table["jamid"] = {"underived", nil}
 map_table["jawab"] = {"consequence", nil}
 
 map_table["lazim"] = {"intransitive", nil}
 map_table["lnj"] = {"لا النافية للجنس", "ar"}
 
+map_table["ma3toof"] = {"conjunctee", nil}  -- "stateless" verb?
 map_table["madi"] = {"past", nil}  -- "stateless" verb?
 map_table["maful"] = {"doee", nil}
 map_table["mafulb"] = {"direct doee", nil}
@@ -76,17 +89,22 @@ map_table["mudaf"] = {"annexe noun", nil}
 map_table["mudafil"] = {"base noun", nil}
 map_table["mudarie"] = {"resembling", nil} -- {"muDArie", "trn2"} -- "stateful" verb?
 map_table["mushar_il"] = {"pointed-to noun", nil} -- {"muDArie", "trn2"}
+map_table["mushtaqq"] = {"derived", nil}
 map_table["mutaddi"] = {"transitive", nil}
 
 map_table["naib"] = {"deputy", nil}
 map_table["na3t"] = {"describer", nil}
 
+map_table["sahib_hal"] = {"person of ḥāl", nil}
+map_table["sahibs_hal"] = {"persons of ḥāl", nil}
 map_table["sifah"] = {"adjectival noun", nil}
 map_table["sifah_mush"] = {"quasi-participle", nil} -- {"participlish adjectival noun", nil} -- "participle-like"?
 map_table["silah"] = {"connecting sentence", nil}
 map_table["shart"] = {"condition", nil}
+map_table["shibh_fi3l"] = {"quasi-verb", nil}
 map_table["shibh_jumlah"] = {"quasi-sentence", nil}
 
+map_table["x"] = {"✗", nil}
 map_table["xabar"] = {"comment", nil}
 
 
