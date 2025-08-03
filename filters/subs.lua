@@ -47,6 +47,7 @@ map_table["3aaid"] = {"refer-back pronoun", nil}
 map_table["3atf"] = {"conjunction", nil}
 
 map_table["adat_istifham"] = {"question word", nil}
+map_table["af3al"] = {"comparative noun", nil}
 
 map_table["badal"] = {"replacement", nil}
 
@@ -103,6 +104,7 @@ map_table["shart"] = {"condition", nil}
 map_table["shibh_fi3l"] = {"quasi-verb", nil}
 map_table["shibh_jumlah"] = {"quasi-sentence", nil}
 
+map_table["x"] = {"✗", nil}
 map_table["xabar"] = {"comment", nil}
 
 

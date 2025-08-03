@@ -108,7 +108,7 @@ For example:
 (@) [صَالَتِ ٱلْأُسُودُ عَلَى ٱلْفَرِيسَةِ فَاتِكَةً]{.ar}  
     "The lions pounced on the prey slaying"
 
-## Valid candidates for the ;sahib_hal;
+## Valid ;sahibs_hal;
 
 The ;sahib_hal; may be the ;faa3il; of the governing verb
 (as in the examples above),
@@ -503,8 +503,57 @@ This is frequently the case in questions like:
 
 ## The order of the ;hal;, the ;sahib_hal; and the governor
 
-Generally, the governor comes first, then the ;sahib_hal;, then the ;hal;.
-However, there is much flexibility permitted, subject to certain rules.
+The normal order is: first the governor, then the ;sahib_hal;, then the ;hal;.
+However, there is much variability permitted, subject to certain rules.
+
+### The ;hal; preceding the governor
+
+The ;hal; may precede the governor if
+the governor is an verb
+or ;shibh_fi3l;
+that flexes based on the doer.
+
+So we can say:
+
+(@) [رَاكِبًا جَاءَ زَيْدٌ]{.ar}
+    [@wright@ 2/118B]{.citex}  
+    "Zayd came riding."
+
+(@) [مُسْرِعًا ذَا رَاحِلٌ]{.ar}
+    [@wright@ 2/118B and @nahw_arabi@ 2/53]{.citex}  
+    "In haste is this this (man) departing."  
+    ([ذَا]{.ar} is a pointing noun like [هَـٰدَا]{.ar}. See section\ (ref).)
+
+If the governor is a verb or ;sifah; that is rigid (does not flex based on the doer),
+then the ;hal; may not precede the governor.
+Examples of such governors are the verb of wonder and the ;af3al;.
+For example:
+
+(@) [مَا أَحْسَنَ زَيْدٌ ضَاحِكًا]{.ar}
+    [@wright@ 2/118B]{.citex}  
+    (not ;x; [ضَاحِكًا مَا أَحْسَنَ زَيْدٌ]{.ar})  
+    "How handsome is Zayd (when) laughing!"
+
+(@) [زَيْدٌ أَحْسَنُ مِنْ عَمْرٍو ضَاحِكًا]{.ar}
+    [@wright@ 2/118B]{.citex}  
+    (not ;x; [زَيْدٌ ضَاحِكًا أَحْسَنُ مِنْ عَمْرٍو]{.ar})  
+    "Zayd is more handsome than [#eamr]{.trn2} (when) laughing."
+
+An exception is permitted with a noun, in one ;hal;, is compared with itself or another noun in another ;hal;.
+For example:
+
+(@) [زَيْدٌ قَائِمًا أَحْسَنُ مِنْهُ قَاعِدًا]{.ar}
+    [@wright@ 2/118C]{.citex}  
+    "Zayd when standing is more handsome than [himself] when sitting."
+
+(@) [زَيْدٌ مُفْرَدًا أَنْفَعُ مِنْ عَمْرٍو مُعَانًا]{.ar}
+    [@wright@ 2/118C]{.citex}  
+    "Zayd when alone is more useful than [#eamr]{.trn2} when assisted (by others)."
+
+### The ;hal; preceding the ;sahib_hal;
+
+
+### Reasons for varying the normal order
 
 
 ## Transitory and permanent ;hal;s
