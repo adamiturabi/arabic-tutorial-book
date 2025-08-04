@@ -12,7 +12,7 @@ def read_file(filename):
     out_str = re.sub('(#*);([a-zA-Z0-9_]+);', r'[\1\2]{.subs}', in_str, flags = re.M)
 
     # search replace for citations
-    out_str = re.sub('@[^ ]+@', manage_bib.get_cite_text, out_str, flags = re.M)
+    out_str = re.sub('@[^ \n]+@', manage_bib.get_cite_text, out_str, flags = re.M)
     #for match in re.finditer('@[a-zA-Z0-9_]@', out_str):
     #    print(match.group())
     #    replaced_str = manage_bib.get_cite_text(match.group())
