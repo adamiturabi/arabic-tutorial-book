@@ -95,6 +95,8 @@ map_table["mutaddi"] = {"transitive", nil}
 map_table["naib"] = {"deputy", nil}
 map_table["na3t"] = {"describer", nil}
 
+map_table["pbuh"] = {"ﷺ", "aralt" }
+
 map_table["sahib_hal"] = {"person of ḥāl", nil}
 map_table["sahibs_hal"] = {"persons of ḥāl", nil}
 map_table["sifah"] = {"adjectival noun", nil}
@@ -143,6 +145,8 @@ function get_output_text(input_text)
     return romanize.RomanizeMapping(mapped[1], false)
   elseif mapped[2] == "ar" then
     return ar_span.ArabicSpan(pandoc.Span(mapped[1], {class="ar"}))
+  elseif mapped[2] == "aralt" then
+    return ar_span.ArabicSpan(pandoc.Span(mapped[1], {class="aralt"}))
   end
   --return pandoc.Span(mapped[1], {class=mapped[2]})
 end
