@@ -269,6 +269,12 @@ def populate_resource_list():
     , bib_text = "وجوب الربط بالواو لعبد الجبار فتحي زيدان  \n      " + format_url_ar("https://www.alukah.net/literature_language/0/173870")
     ))
 
+  resource_list.append(BibResource(
+    "zidan_haalaat_rabt_waw"
+    , cit_text = "[حالات الربط بواو الحال الجبار فتحي زيدان]{.ar}"
+    , bib_text = "حالات الربط بواو الحال الجبار فتحي زيدان  \n      " + format_url_ar("https://www.alukah.net/literature_language/0/173759")
+    ))
+
 
   # Western
 
