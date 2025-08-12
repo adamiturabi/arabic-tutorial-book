@@ -204,6 +204,12 @@ def populate_resource_list():
     ))
   
   resource_list.append(BibResource(
+    "muqtadab"
+    , cit_text = "[المقتضب للمبرد]{.ar}"
+    , bib_text = "المقتضب للمبرد" +format_url_ar("https://shamela.ws/book/6965")
+    ))
+
+  resource_list.append(BibResource(
     "radiy_kafiyah"
     , cit_text = "[شرح الرضي على الكافية]{.ar}"
     , bib_text = "شرح الرضي على الكافية، تأليف: الرضي الأستراباذي، تحقيق يوسف حسن عمر، جامعة قار يونس، ليبيا، 1395\\ هـ/1975\\ م  \n      " +format_url_ar("https://ketabonline.com/ar/books/23090")
@@ -249,6 +255,13 @@ def populate_resource_list():
     , bib_text = "مجموع مقالات الدكتور فيصل بن علي المنصور في علوم العربية، النسخة الأولى، ١٤٤٢\\ هـ.  \n      "+format_url_ar("https://archive.org/details/riga2")
     , sort_key = "مجموع مقالات فيصل المنصور"
     ))
+
+  resource_list.append(BibResource(
+    "zidan_wujoob_waw"
+    , cit_text = "[وجوب الربط بالواو لعبد الجبار فتحي زيدان]{.ar}"
+    , bib_text = "وجوب الربط بالواو لعبد الجبار فتحي زيدان  \n      " + format_url_ar("https://www.alukah.net/literature_language/0/173870")
+    ))
+
 
   # Western
 

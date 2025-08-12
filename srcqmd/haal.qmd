@@ -1131,7 +1131,7 @@ For example:
     [@wright@ 2/331A]{.citex}  
     "Zayd went while [#eamr]{.trn2} was busy."
 
-In the examples above,
+In the example above,
 the ;hal;'s
 description of the ;sahib_hal; is only circumstantial,
 in that it alludes to the time in which the action of the governing verb occurred.
@@ -1139,7 +1139,38 @@ In such cases
 the meaning of the ;hal; approaches that of the adverb of time.
 This is another of the cases where the lines between different types of adverbs get blurred.
 We have seen similar cases in sections\ (ref).
+Here are some more examples:
 
+### Rules of the [و]{.ar} of ;hal;
+
+Depending on the sentence,
+the [و]{.ar} of ;hal;
+can be either mandatory, optional, or disallowed.
+Let's go over each of these cases.
+
+#### When is the [و]{.ar} of ;hal; mandatory
+
+The [و]{.ar} of ;hal; mandatory
+in the following cases:
+
+  i. When the sentence ;hal; is a ;mubtada;-;xabar; sentence that is devoid of a pronoun referring back to the ;sahib_hal;.
+     For example:
+
+     (@) [مَرَرْتُ بِزَيْدٍ وَعَمْرٌو فِي ٱلدَّارِ]{.ar}
+         [@muqtadab@ 4/125 cited by @zidan_wujoob_waw@]{.citex}  
+         "I passed by Zayd while [#eamr]{.trn2} (was) in the house."
+
+     In the above example the ;sahib_hal; is [زَيْد]{.ar}
+     and the ;hal; is the ;mubtada;-;xabar; sentence
+     [عَمْرٌو فِي ٱلدَّارِ]{.ar}.
+     The sentence ;hal; does not have a pronoun that refers back to the ;sahib_hal;.
+     Therefore the [و]{.ar} of ;hal; is necessary to link the sentence ;hal; to the ;sahib_hal;.
+
+     Here is another example:
+
+     (@) [لَا تَقْرَبُوا ٱلصَّلَاةَ وَأَنتُمْ سُكَارَىٰ]{.ar}
+         [@https://quran.com/4/43@ cited by @nahw_arabi@ 2/58]{.citex}  
+         "do not approach prayer while you are intoxicated"
 
 
 Depending on the use case,
