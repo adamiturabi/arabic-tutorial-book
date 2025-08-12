@@ -1151,6 +1151,14 @@ Let's go over the different types of ;hal; sentences, and discuss the ruling of
 the [و]{.ar} of ;hal;
 in each type of sentence.
 
+Keep in mind that in the cases where
+the [و]{.ar} of ;hal; is optional,
+the sentence will often have a different meaning with
+the [و]{.ar} of ;hal;
+versus without it.
+We will discuss these difference in meanings in section\ (ref).
+
+
 #### The ;hal; sentence is a ;mubtada;-;xabar; sentence
 
 When the ;hal; sentence is a ;mubtada;-;xabar; sentence,
@@ -1226,7 +1234,84 @@ iii. The ;hal; sentence has a pronoun that refers to the ;sahib_hal; but it does
          [@nahw_arabi@ 2/61]{.citex}  
          [#muHammad]{.trn2} came (with) his hand in his pocket."
 
+#### The ;hal; sentence is a verbal sentence that begins with a ;madi; verb
 
+There are several possible cases here:
+
+  i. The ;hal; sentence is devoid of a pronoun that refers back to the ;sahib_hal;.
+     In this case
+     the [و]{.ar}\ of ;hal;
+     is mandatory.
+     Furthermore, if the ;hal; sentence is affirmative, the ;madi; verb shall be preceded by the particle [قَدْ]{.ar}.
+     And if the ;hal; sentence is negative, the ;madi; verb shall not be preceded by the particle [قَدْ]{.ar}.
+     Examples:
+
+     (@) [جِئْتُ وَقَدْ طَلَعَتِ ٱلشَّمْسُ]{.ar}
+         [@nahw_arabi@ 2/58]{.citex}  
+         "I came while the sun had already risen."
+
+     (@) [جِئْتُ وَمَا طَلَعَتِ ٱلشَّمْسُ]{.ar}
+         [@nahw_arabi@ 2/58]{.citex}  
+         "I came while the sun had not risen."
+
+ ii. The ;hal; sentence has a pronoun that refers back to the ;sahib_hal;.
+     In this case
+     the [و]{.ar}\ of ;hal;
+     is optional.
+     Furthermore, if the ;hal; sentence is affirmative, the ;madi; verb can optionally be preceded by the particle [قَدْ]{.ar}.
+     And if the ;hal; sentence is negative, the ;madi; verb shall not be preceded by the particle [قَدْ]{.ar}.
+     Here are some examples:
+
+     Affirmative with [و]{.ar}\ of ;hal; and with [قَدْ]{.ar}. (This is the most common case.):
+
+     (@) [وَمَا لَنَا أَلَّا نُقَاتِلَ فِى سَبِيلِ ٱللَّهِ وَقَدْ أُخْرِجْنَا مِنْ دِيَارِنَا وَأَبْنَائِنَا]{.ar}
+         [@https://quran.com/2/246@ cited by @wright@ 2/332B]{.citex}  
+         "And why should we not fight in the cause of Allāh when we have been driven out from our homes and from our children?"
+
+     Affirmative with [و]{.ar}\ of ;hal; and without [قَدْ]{.ar}:
+
+     (@) [قَالُوا۟ أَنُؤْمِنُ لَكَ وَٱتَّبَعَكَ ٱلْأَرْذَلُونَ]{.ar}
+         [@https://quran.com/26/111@ cited by @nahw_arabi@ 2/62]{.citex}  
+         "They said, 'Should we believe you while you are followed by the lowest [class of people]?'"
+
+     Affirmative without [و]{.ar}\ of ;hal; and without [قَدْ]{.ar}:
+
+     (@) [أَوْ جَاءُوكُمْ حَصِرَتْ صُدُورُهُمْ أَنْ يُقَاتِلُوكُمْ]{.ar}
+         [@https://quran.com/4/90@ cited by @nahw_arabi@ 2/62 and @wright@ 2/332B]{.citex}  
+         "or those who come to you, their hearts strained at [the prospect of] fighting you"
+
+     Affirmative without [و]{.ar}\ of ;hal; and with [قَدْ]{.ar}:
+
+     (@) [رَأَيْنَاهُ قَدْ تَغَيَّرَ لِزَيْدٍ وَكَانَ عَلَىٰ جُنْدِهِ]{.ar}
+         [@wright@ 2/332C]{.citex}  
+         "We saw him (when) he had changed [color due to being enraged] at Zayd who (was) [in command of] his army."
+
+     Negative with [و]{.ar} of ;hal; (more common):
+
+     (@) [جَاءَ زَيْدٌ وَمَا قَامَ أَبُوهُ]{.ar}
+         [@wright@ 2/332D]{.citex}  
+         "Zayd came without his father having stood up."
+
+     Negative without [و]{.ar} of ;hal; (less common):
+
+     (@) [جَاءَ زَيْدٌ مَا قَامَ أَبُوهُ]{.ar}
+         [@wright@ 2/332D]{.citex}  
+         "Zayd came without his father having stood up."
+
+iii. The ;hal; sentence is an exception, preceded by [إِلَّا]{.ar}.
+     In this case
+     the [و]{.ar}\ of ;hal;
+     is prohibited.
+     For example:
+
+     (@) [وَمَا يَأْتِيهِم مِّن رَّسُولٍ إِلَّا كَانُوا بِهِ يَسْتَهْزِءُونَ]{.ar}
+         [@https://quran.com/15/11@ cited by @nahw_arabi@ 2/61]{.citex}  
+         "And no messenger would come to them except that they ridiculed him."  
+         (The sentence [كَانُوا بِهِ يَسْتَهْزِءُونَ]{.ar} is the ;hal; beginning with a ;madi; verb.)
+
+     Some grammarians allowed 
+     the [و]{.ar}\ of ;hal;
+     in this case, but the examples they cite are considered irregular to normal usage.^[@zidan_haalaat_rabt_waw@]
 
 
 
@@ -1305,6 +1390,7 @@ But here we will discuss the difference in meaning between when the
 
 - Spectrum of ;hal;s: ;sifah;, ;mudarie; verb, sentence with pronoun link, sentence with waw al-haal link
 - أو instead of واو الحال: alukah
+- sentence can bi sifah or haal
 
 
 ### Multiple ;hal;s when one or more is a sentence ;hal;
