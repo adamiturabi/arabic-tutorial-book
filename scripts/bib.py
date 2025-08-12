@@ -210,6 +210,13 @@ def populate_resource_list():
     ))
 
   resource_list.append(BibResource(
+    "maani_zajjaj"
+    , cit_text = "[معاني القرآن وإعرابه للزجاج]{.ar}"
+    , bib_text = "معاني القرآن وإعرابه للزجاج" +format_url_ar("https://shamela.ws/book/922")
+    , sort_key = "[معاني القران واعرابه للزجاج]{.ar}"
+    ))
+
+  resource_list.append(BibResource(
     "radiy_kafiyah"
     , cit_text = "[شرح الرضي على الكافية]{.ar}"
     , bib_text = "شرح الرضي على الكافية، تأليف: الرضي الأستراباذي، تحقيق يوسف حسن عمر، جامعة قار يونس، ليبيا، 1395\\ هـ/1975\\ م  \n      " +format_url_ar("https://ketabonline.com/ar/books/23090")
@@ -293,7 +300,7 @@ def populate_resource_list():
 
   resource_list.append(BibResource(
     "hallberg_thesis"
-    , cit_text = 'Hallberg,\ A., _Case endings in Spoken Standard Arabic_'
+    , cit_text = 'Hallberg,\\ A., _Case endings in Spoken Standard Arabic_'
     , bib_text = 'Hallberg,\\ A., _Case endings in Spoken Standard Arabic_. Doctoral thesis, Lund University, 2016. <https://lup.lub.lu.se/record/8524489>'
     , sort_key = "Hallberg A Case endings in Spoken Standard Arabic"
     ))
