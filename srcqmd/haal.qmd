@@ -1053,7 +1053,7 @@ For example:
     "Zayd will come laughing."
 
 In fact, it is not permitted for the ;hal; sentence that begins with the ;mudarie; verb to itself be prefixed with [سَ]{.ar} or [سَوْفَ]{.ar}.^[@maani_nahw@ 2/354 citing @radiy_kafiyah@]
-So we cannot say:
+So we cannot say (intending [سَيَضْحَكُ]{.ar} to be a ;hal;):
 
 (@) ;x; [سَيَأْتِي زَيْدٌ سَيَضْحَكُ]{.ar} or  
     ;x; [يَأْتِي زَيْدٌ سَيَضْحَكُ]{.ar}
@@ -1081,7 +1081,7 @@ And the ;sahib_hal; need not always be the ;faa3il; of the verb in the sentence.
 But the sentence ;hal; needs to have a link between it and the ;sahib_hal;.
 This link is often a pronoun that refers back to the ;sahib_hal;.
 In the examples above this link pronoun was the ;faa3il; pronoun of the ;mudarie; verb.
-Here are some more examples of ;hal; sentences where the ;hal; sentence is a more complex kind of sentence:
+Here is an example of a more complex ;hal; sentence:
 
 (@) [جَاءَ زَيْدٌ يَدُهُ عَلَىٰ رَأْسِهِ]{.ar}
     [@wright@, 2/331A]{.citex}  
@@ -1094,6 +1094,8 @@ It is not in the ;astate; because it is not, by itself, the ;hal;.
 The entire sentence
 [يَدُهُ عَلَىٰ رَأْسِهِ]{.ar} is considered to be in the ;astate; as the ;hal;.
 The link is the pronoun [ه]{.ar} in [يَدُهُ]{.ar} and [رَأْسِهِ]{.ar}.
+
+Here are some more examples:
 
 (@) [ٱهْبِطُوا۟ بَعْضُكُمْ لِبَعْضٍ عَدُوٍّ]{.ar}
     [@https://quran.com/2/36@]{.citex}  
@@ -1314,7 +1316,13 @@ iii. The ;hal; sentence is an exception, preceded by [إِلَّا]{.ar}.
 
 #### The ;hal; sentence is a verbal sentence that begins with a ;mudarie; verb
 
-There are again a number of possible cases:
+When a sentence ;hal; begins with a ;mudarie; verb,
+then, if the ;mudarie; is used with a present continuous meaning (i.e. not with [لَمْ]{.ar} or [لَمَّا]{.ar}),
+then the ;hal; sentence will contain a pronoun that refers to the ;sahib_hal;.
+If the ;mudarie; is used with a past meaning (i.e. with [لَمْ]{.ar} or [لَمَّا]{.ar}),
+then the ;hal; sentence may or may not have a pronoun that refers to the ;sahib_hal;.^[Derived from sections [علةُ امتناع ربط المضارع المثبت بالواو]{.ar} and [علّة امتناع ربط المضارع المنفي بـ(لا) و(ما) بالواو]{.ar} in @zidan_haalaat_rabt_waw@]
+
+There are again a number of possible cases.
 
   i. The sentence is affirmative and the ;mudarie; verb is preceded by the particle [قَدْ]{.ar}.
      In this case,
@@ -1327,12 +1335,14 @@ There are again a number of possible cases:
          "why do you harm me while you certainly know that I am the messenger of Allāh to you?"
 
  ii. The sentence is affirmative and the ;mudarie; verb is not preceded by the particle [قَدْ]{.ar}.
+     We assume here that the sentence ;hal; contains a pronoun that refers to the ;sahib_hal;.
+
      In this case,
-     normal usage dictates that
      the [و]{.ar}\ of ;hal;
-     not be used.
-     We have already seen examples of this earlier, like (@haal-sentence-mudarie-zayd-laughing) [جَاءَ زَيْدٌ يَضْحَكُ]{.ar}
+     is usually not used.
+     We have already seen examples of this case earlier, like (@haal-sentence-mudarie-zayd-laughing) [جَاءَ زَيْدٌ يَضْحَكُ]{.ar}
      and (@haal-quran-12-16) [وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ]{.ar}.
+
      Here are some more examples:
 
      (@) [جَاءَ ٱلْأَمِيرُ تُقَادُ ٱلْجَنَائِبُ بَيْنَ يَدَيْهِ]{.ar}
@@ -1344,7 +1354,7 @@ There are again a number of possible cases:
          [@https://quran.com/28/20@]{.citex}  
          "And a man came from the farthest end of the city, running."
 
-     What we have shown above constitutes the normal usage.
+     What we have shown above constitutes the more common usage.
      However, we do sometimes see a ;hal; sentence beginning with a ;mudarie; verb with
      the [و]{.ar}\ of ;hal;
      and without [قَدْ]{.ar}.
@@ -1368,16 +1378,34 @@ There are again a number of possible cases:
      In any case, here is an example from ;quran;
      where a sentence beginning with a ;mudarie; verb not preceded by [قَدْ]{.ar} has been interpreted as a ;hal;
 
-     (@) [إِذْ قَالَتِ ٱلْمَلَاىِٕكَةُ يَا مَرْیَمُ إِنَّ ٱللَّهَ یُبَشِّرُكِ بِكَلِمَةٍ مِنْهُ ٱسْمُهُ ٱلْمَسِیحُ عِیسَى ٱبْنُ مَرْیَمَ وَجِیهًا فِی ٱلدُّنْيَا وَٱلْآخِرَةِ وَمِنَ ٱلْمُقَرَّبِینَ ۝ وَیُكَلِّمُ ٱلنَّاسَ فِی ٱٱلْمَهْدِ وَكَهْلًا وَمِنَ ٱلصَّالِحِینَ ۝]{.ar}  
+     (@) [إِذْ قَالَتِ ٱلْمَلَاىِٕكَةُ يَا مَرْیَمُ إِنَّ ٱللَّهَ یُبَشِّرُكِ بِكَلِمَةٍ مِنْهُ ٱسْمُهُ ٱلْمَسِیحُ عِیسَى ٱبْنُ مَرْیَمَ وَجِیهًا فِی ٱلدُّنْيَا وَٱلْآخِرَةِ وَمِنَ ٱلْمُقَرَّبِینَ ۝ وَیُكَلِّمُ ٱلنَّاسَ فِی ٱلْمَهْدِ وَكَهْلًا وَمِنَ ٱلصَّالِحِینَ ۝]{.ar}  
          [@https://quran.com/3/45-46@ cited by @zidan_haalaat_rabt_waw@]{.citex}  
          [And mention] when the angels said, "O Mary, indeed Allāh gives you good tidings of a word from Him, whose name will be the Messiah, Jesus, the son of Mary - distinguished in this world and the Hereafter and among those brought near [to Allāh]. He will speak to the people in the cradle and in maturity and will be of the righteous."  
          (The sentence [وَيُكَلِّمُ]{.ar} has been analyzed as a ;hal;.^[@https://tafsir.app/albahr-almuheet/3/46@])
 
-iii. The sentence is negative and the ;mudarie; verb is negated with [لَا]{.ar}.
+iii. The sentence is negative and the ;mudarie; verb is negated with [لَا]{.ar} or [مَا]{.ar}.
+     We again assume here that the sentence ;hal; contains a pronoun that refers to the ;sahib_hal;.
+     In this case,
+     the [و]{.ar}\ of ;hal;
+     is prohibited.
 
- iv. The sentence is negative and the ;mudarie; verb is negated with [لَمْ]{.ar} or [لَمَّا]{.ar}.
+ iv. The sentence is negative and the ;mudarie; verb is negated with [لَمْ]{.ar}.
+     Here, the sentence ;hal; need not contain a pronoun that refers to the ;sahib_hal;.
 
-  v. The sentence is negative and the ;mudarie; verb is negated with [مَا]{.ar}.
+  v. The sentence is negative and the ;mudarie; verb is negated with [لَمَّا]{.ar}.
+     Here again, the sentence ;hal; need not contain a pronoun that refers to the ;sahib_hal;.
+     In this case,
+     the [و]{.ar} of ;hal;
+     is typically chosen to be used.^[@https://tafsir.app/iraab-aldarweesh/7/4@]
+     For example:
+
+     (@) [أَمْ حَسِبْتُمْ أَن تَدْخُلُوا ٱلْجَنَّةَ وَلَمَّا يَعْلَمِ ٱللَّهُ ٱلَّذِينَ جَاهَدُوا مِنكُمْ وَيَعْلَمَ ٱلصَّابِرِينَ]{.ar}
+         [@https://quran.com/3/142@]{.citex}  
+         "Or do you think that you will enter Paradise while Allāh has not yet made evident those of you who fight in His cause and made evident those who are steadfast?"
+
+<!--
+ vi. The sentence is negative and the ;mudarie; verb is negated with [مَا]{.ar}.
+-->
 
 <!--
 Let's go over each of these cases.

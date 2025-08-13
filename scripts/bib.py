@@ -182,6 +182,13 @@ def populate_resource_list():
     , bib_text = "تفسير القرطبي، " + format_url_ar("https://tafsir.app")
     ))
 
+  resource_list.append(BibResource(
+    "iraab-aldarweesh"
+    , cit_text = "[إعراب القرآن للدرويش]{.ar}"
+    , bib_text = "إعراب القرآن للدرويش، " + format_url_ar("https://tafsir.app")
+    , sort_key = "اعراب القران للدرويش"
+    ))
+
   # General
   resource_list.append(BibResource(
     "nahw_wafi"
