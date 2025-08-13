@@ -1027,7 +1027,7 @@ Instead, of using the ;sifah;
 we can instead use the ;ustate; ;mudarie; verb
 [يَضْحَكُ]{.ar}:
 
-(@) [جَاءَ زَيْدٌ يَضْحَكُ]{.ar}
+(@haal-sentence-mudarie-zayd-laughing) [جَاءَ زَيْدٌ يَضْحَكُ]{.ar}
     [@wright@, 2/331C]{.citex}  
     "Zayd came laughing."
 
@@ -1068,7 +1068,7 @@ For example:
 
 Here are some more examples of sentence ;hal;s comprised of a ;mudarie; verb and a ;faa3il; (or ;naib; ;faa3il;) pronoun:
 
-(@) [وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ]{.ar}
+(@haal-quran-12-16) [وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ]{.ar}
     [@https://quran.com/12/16@]{.citex}  
     "And they came to their father at night, weeping."
 
@@ -1311,6 +1311,39 @@ iii. The ;hal; sentence is an exception, preceded by [إِلَّا]{.ar}.
      Some grammarians allowed 
      the [و]{.ar}\ of ;hal;
      in this case, but the examples they cite are considered irregular to normal usage.^[@zidan_haalaat_rabt_waw@]
+
+#### The ;hal; sentence is a verbal sentence that begins with a ;mudarie; verb
+
+There are again a number of possible cases:
+
+  i. The sentence is affirmative and the ;mudarie; verb is preceded by the particle [قَدْ]{.ar}.
+     In this case,
+     the [و]{.ar}\ of ;hal;
+     is obligatory.
+     For example,
+
+     (@) [لِمَ تُؤْذُونَنِى وَقَدْ تَعْلَمُونَ أَنِّى رَسُولُ ٱللَّهِ إِلَيْكُمْ]{.ar}
+         [@https://quran.com/61/5@ cited by @wright@ 2/331C]{.citex}  
+         "why do you harm me while you certainly know that I am the messenger of Allāh to you?"
+
+ ii. The sentence is affirmative and the ;mudarie; verb is not preceded by the particle [قَدْ]{.ar}.
+     In this case,
+     normal usage dictates that
+     the [و]{.ar}\ of ;hal;
+     not be used.
+     We have already seen examples of this earlier, like (@haal-sentence-mudarie-zayd-laughing) [جَاءَ زَيْدٌ يَضْحَكُ]{.ar}
+     and (@haal-quran-12-16) [وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ]{.ar}.
+     Here are some more examples:
+
+     (@) [جَاءَ ٱلْأَمِيرُ تُقَادُ ٱلْجَنَائِبُ بَيْنَ يَدَيْهِ]{.ar}
+         [@wright@ 2/331C]{.citex}  
+         "The commander came with the horses led in front of him."  
+         ([جَنَائِب]{.ar} is the plural of [جَنِيب]{.ar} which is a word for a tractable horse that is led.)
+
+     (@) [وَلَا تَمْنُن تَسْتَكْثِرُ]{.ar}
+         [@https://quran.com/74/6@ cited by @nahw_arabi@ 2/58]{.citex}  
+         "And do not confer favor to acquire more"
+
 
 
 
