@@ -182,6 +182,20 @@ def populate_resource_list():
     , bib_text = "تفسير القرطبي، " + format_url_ar("https://tafsir.app")
     ))
 
+  resource_list.append(BibResource(
+    "farraa"
+    , cit_text = "[معاني القرآن للفراء]{.ar}"
+    , bib_text = "معاني القرآن للفراء، " + format_url_ar("https://tafsir.app")
+    , sort_key = "[معاني القران للفرا]{.ar}"
+    ))
+
+  resource_list.append(BibResource(
+    "iraab-aldarweesh"
+    , cit_text = "[إعراب القرآن للدرويش]{.ar}"
+    , bib_text = "إعراب القرآن للدرويش، " + format_url_ar("https://tafsir.app")
+    , sort_key = "اعراب القران للدرويش"
+    ))
+
   # General
   resource_list.append(BibResource(
     "nahw_wafi"
@@ -240,6 +254,13 @@ def populate_resource_list():
     , cit_text = "[شرح ابن عقيل على الألفية]{.ar}"
     , bib_text = "شرح ابن عقيل على الألفية، "+format_url_ar("https://shamela.ws/book/9904")
     , sort_key = "شرح ابن عقيل على الالفية"
+    ))
+
+  resource_list.append(BibResource(
+    "ibn_hisham_awdah_almasaalik"
+    , cit_text = "[أوضح المسالك لابن هشام]{.ar}"
+    , bib_text = "أوضح المسالك إلى ألفية ابن مالك لابن هشام  \n      "+format_url_ar("https://shamela.ws/book/11825")
+    , sort_key = "اوضح المسالك الى الفية ابن مالك لابن هشام"
     ))
 
   resource_list.append(BibResource(

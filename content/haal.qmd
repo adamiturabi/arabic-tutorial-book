@@ -1055,7 +1055,7 @@ For example:
     "Zayd will come laughing."
 
 In fact, it is not permitted for the [hal]{.subs} sentence that begins with the [mudarie]{.subs} verb to itself be prefixed with [سَ]{.ar} or [سَوْفَ]{.ar}.^[[معاني النحو]{.ar} 2/354 citing [شرح الرضي على الكافية]{.ar}]
-So we cannot say:
+So we cannot say (intending [سَيَضْحَكُ]{.ar} to be a [hal]{.subs}):
 
 (@) [x]{.subs} [سَيَأْتِي زَيْدٌ سَيَضْحَكُ]{.ar} or  
     [x]{.subs} [يَأْتِي زَيْدٌ سَيَضْحَكُ]{.ar}
@@ -1083,7 +1083,7 @@ And the [sahib_hal]{.subs} need not always be the [faa3il]{.subs} of the verb in
 But the sentence [hal]{.subs} needs to have a link between it and the [sahib_hal]{.subs}.
 This link is often a pronoun that refers back to the [sahib_hal]{.subs}.
 In the examples above this link pronoun was the [faa3il]{.subs} pronoun of the [mudarie]{.subs} verb.
-Here are some more examples of [hal]{.subs} sentences where the [hal]{.subs} sentence is a more complex kind of sentence:
+Here is an example of a more complex [hal]{.subs} sentence:
 
 (@) [جَاءَ زَيْدٌ يَدُهُ عَلَىٰ رَأْسِهِ]{.ar}
     [Wright, 2/331A]{.citex}  
@@ -1096,6 +1096,8 @@ It is not in the [astate]{.subs} because it is not, by itself, the [hal]{.subs}.
 The entire sentence
 [يَدُهُ عَلَىٰ رَأْسِهِ]{.ar} is considered to be in the [astate]{.subs} as the [hal]{.subs}.
 The link is the pronoun [ه]{.ar} in [يَدُهُ]{.ar} and [رَأْسِهِ]{.ar}.
+
+Here are some more examples:
 
 (@) [ٱهْبِطُوا۟ بَعْضُكُمْ لِبَعْضٍ عَدُوٍّ]{.ar}
     [[[سورة البقرة]{.ar} 2:36](https://quran.com/2/36)]{.citex}  
@@ -1314,9 +1316,26 @@ iii. The [hal]{.subs} sentence is an exception, preceded by [إِلَّا]{.ar}.
      the [و]{.ar}\ of [hal]{.subs}
      in this case, but the examples they cite are considered irregular to normal usage.^[[حالات الربط بواو الحال الجبار فتحي زيدان]{.ar}]
 
+ iv. The [madi]{.subs} verb is followed by the [3atf]{.subs} [أَوْ]{.ar}.
+     In this case, the [madi]{.subs} verb is used with a conditional meaning.
+     For example:
+
+     (@) [أَحْفَظُ زَوْجِي غَابَ أَوْ حَضَرَ]{.ar}
+         [[النحو العربي: أحكام ومعان]{.ar} 2/61]{.citex}  
+
+     (@) [لأضربنَّه ذهب أو مكث]{.ar}
+         [[حالات الربط بواو الحال الجبار فتحي زيدان]{.ar} and [أوضح المسالك لابن هشام]{.ar} 2/289]{.citex}  
+         "I will certainly beat him [whether] he went or stayed."
+
 #### The [hal]{.subs} sentence is a verbal sentence that begins with a [mudarie]{.subs} verb
 
-There are again a number of possible cases:
+When a sentence [hal]{.subs} begins with a [mudarie]{.subs} verb,
+then, if the [mudarie]{.subs} is used with a continuous meaning (i.e. not with [لَمْ]{.ar} or [لَمَّا]{.ar}),
+then the [hal]{.subs} sentence will contain a pronoun that refers to the [sahib_hal]{.subs}.
+If the [mudarie]{.subs} is used with a past meaning (i.e. with [لَمْ]{.ar} or [لَمَّا]{.ar}),
+then the [hal]{.subs} sentence may or may not have a pronoun that refers to the [sahib_hal]{.subs}.^[Derived from sections [علةُ امتناع ربط المضارع المثبت بالواو]{.ar} and [علّة امتناع ربط المضارع المنفي بـ(لا) و(ما) بالواو]{.ar} in [حالات الربط بواو الحال الجبار فتحي زيدان]{.ar}]
+
+There are again a number of possible cases.
 
   i. The sentence is affirmative and the [mudarie]{.subs} verb is preceded by the particle [قَدْ]{.ar}.
      In this case,
@@ -1329,12 +1348,14 @@ There are again a number of possible cases:
          "why do you harm me while you certainly know that I am the messenger of Allāh to you?"
 
  ii. The sentence is affirmative and the [mudarie]{.subs} verb is not preceded by the particle [قَدْ]{.ar}.
+     We assume here that the sentence [hal]{.subs} contains a pronoun that refers to the [sahib_hal]{.subs}.
+
      In this case,
-     normal usage dictates that
      the [و]{.ar}\ of [hal]{.subs}
-     not be used.
-     We have already seen examples of this earlier, like (@haal-sentence-mudarie-zayd-laughing) [جَاءَ زَيْدٌ يَضْحَكُ]{.ar}
+     is usually not used.
+     We have already seen examples of this case earlier, like (@haal-sentence-mudarie-zayd-laughing) [جَاءَ زَيْدٌ يَضْحَكُ]{.ar}
      and (@haal-quran-12-16) [وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ]{.ar}.
+
      Here are some more examples:
 
      (@) [جَاءَ ٱلْأَمِيرُ تُقَادُ ٱلْجَنَائِبُ بَيْنَ يَدَيْهِ]{.ar}
@@ -1346,7 +1367,7 @@ There are again a number of possible cases:
          [[[سورة القصص]{.ar} 28:20](https://quran.com/28/20)]{.citex}  
          "And a man came from the farthest end of the city, running."
 
-     What we have shown above constitutes the normal usage.
+     What we have shown above constitutes the more common usage.
      However, we do sometimes see a [hal]{.subs} sentence beginning with a [mudarie]{.subs} verb with
      the [و]{.ar}\ of [hal]{.subs}
      and without [قَدْ]{.ar}.
@@ -1370,88 +1391,111 @@ There are again a number of possible cases:
      In any case, here is an example from [quran]{.subs}
      where a sentence beginning with a [mudarie]{.subs} verb not preceded by [قَدْ]{.ar} has been interpreted as a [hal]{.subs}
 
-     (@) [إِذْ قَالَتِ ٱلْمَلَاىِٕكَةُ يَا مَرْیَمُ إِنَّ ٱللَّهَ یُبَشِّرُكِ بِكَلِمَةٍ مِنْهُ ٱسْمُهُ ٱلْمَسِیحُ عِیسَى ٱبْنُ مَرْیَمَ وَجِیهًا فِی ٱلدُّنْيَا وَٱلْآخِرَةِ وَمِنَ ٱلْمُقَرَّبِینَ ۝ وَیُكَلِّمُ ٱلنَّاسَ فِی ٱٱلْمَهْدِ وَكَهْلًا وَمِنَ ٱلصَّالِحِینَ ۝]{.ar}  
+     (@) [إِذْ قَالَتِ ٱلْمَلَاىِٕكَةُ يَا مَرْیَمُ إِنَّ ٱللَّهَ یُبَشِّرُكِ بِكَلِمَةٍ مِنْهُ ٱسْمُهُ ٱلْمَسِیحُ عِیسَى ٱبْنُ مَرْیَمَ وَجِیهًا فِی ٱلدُّنْيَا وَٱلْآخِرَةِ وَمِنَ ٱلْمُقَرَّبِینَ ۝ وَیُكَلِّمُ ٱلنَّاسَ فِی ٱلْمَهْدِ وَكَهْلًا وَمِنَ ٱلصَّالِحِینَ ۝]{.ar}  
          [[[سورة آل عمران]{.ar} 3:45-46](https://quran.com/3/45-46) cited by [حالات الربط بواو الحال الجبار فتحي زيدان]{.ar}]{.citex}  
          [And mention] when the angels said, "O Mary, indeed Allāh gives you good tidings of a word from Him, whose name will be the Messiah, Jesus, the son of Mary - distinguished in this world and the Hereafter and among those brought near [to Allāh]. He will speak to the people in the cradle and in maturity and will be of the righteous."  
          (The sentence [وَيُكَلِّمُ]{.ar} has been analyzed as a [hal]{.subs}.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/3/46) for [سورة آل عمران]{.ar} 3:46])
 
-iii. The sentence is negative and the [mudarie]{.subs} verb is negated with [لَا]{.ar}.
+iii. The sentence is negative and the [mudarie]{.subs} verb is negated with [لَا]{.ar} or [مَا]{.ar}.
+     We again assume here that the sentence [hal]{.subs} contains a pronoun that refers to the [sahib_hal]{.subs}.
+     In this case,
+     the [و]{.ar}\ of [hal]{.subs}
+     is prohibited.
 
- iv. The sentence is negative and the [mudarie]{.subs} verb is negated with [لَمْ]{.ar} or [لَمَّا]{.ar}.
+     (@) [وَمَا لَنَا لَا نُؤْمِنُ بِٱللَّهِ]{.ar}
+         [[[سورة المائدة]{.ar} 5:84](https://quran.com/5/84) cited by [النحو العربي: أحكام ومعان]{.ar} 2/59 and [أوضح المسالك لابن هشام]{.ar} 2/289]{.citex}  
+         "And why should we not believe in Allāh"
 
-  v. The sentence is negative and the [mudarie]{.subs} verb is negated with [مَا]{.ar}.
+     (@) [عَهَدْتُكَ مَا تَصْبُو وَفِيكَ شَبِيبَةٌ]{.ar}
+         [[النحو العربي: أحكام ومعان]{.ar} 2/60 and [أوضح المسالك لابن هشام]{.ar} 2/290]{.citex}  
+         "I knew you when you were not childish while [you had] in you youth."  
+         ([مَا تَصْبُوا]{.ar} "You were not childish" is a sentence [hal]{.subs})
 
-<!--
-Let's go over each of these cases.
-
-#### When is the [و]{.ar} of [hal]{.subs} mandatory
-
-The [و]{.ar} of [hal]{.subs} mandatory
-in the following cases:
-
-  i. When the sentence [hal]{.subs} is a [mubtada]{.subs}-[xabar]{.subs} sentence that is devoid of a pronoun referring back to the [sahib_hal]{.subs}.
+ iv. The sentence is negative and the [mudarie]{.subs} verb is negated with [لَمْ]{.ar}.
+     Here, the sentence [hal]{.subs} need not contain a pronoun that refers to the [sahib_hal]{.subs}.
+     In this case,
+     the [و]{.ar}\ of [hal]{.subs}
+     is usually kept,
+     although it is permissible to drop it.
      For example:
 
-     (@) [مَرَرْتُ بِزَيْدٍ وَعَمْرٌو فِي ٱلدَّارِ]{.ar}
-         [[المقتضب للمبرد]{.ar} 4/125 cited by [وجوب الربط بالواو لعبد الجبار فتحي زيدان]{.ar}]{.citex}  
-         "I passed by Zayd while [#eamr]{.trn2} (was) in the house."
+     (@) [أَوْ قَالَ أُوحِىَ إِلَىَّ وَلَمْ يُوحَ إِلَيْهِ شَىْءٌ]{.ar}
+         [[[سورة الأنعام]{.ar} 6:93](https://quran.com/6/93) cited by [النحو العربي: أحكام ومعان]{.ar} 2/60]{.citex}  
+         "or says, 'It has been inspired to me,' while nothing has been inspired to him"
 
-     In the above example the [sahib_hal]{.subs} is [زَيْد]{.ar}
-     and the [hal]{.subs} is the [mubtada]{.subs}-[xabar]{.subs} sentence
-     [عَمْرٌو فِي ٱلدَّارِ]{.ar}.
-     The sentence [hal]{.subs} does not have a pronoun that refers back to the [sahib_hal]{.subs}.
-     Therefore the [و]{.ar} of [hal]{.subs} is necessary to link the sentence [hal]{.subs} to the [sahib_hal]{.subs}.
+     (@) [فَٱنْقَلَبُوا بِنِعْمَةٍ مِنَ ٱللَّهِ وَفَضْلٍ لَمْ يَمْسَسْهُمْ سُوءٌ]{.ar}
+         [[[سورة الأنعام]{.ar} 6:93](https://quran.com/6/93) cited by [النحو العربي: أحكام ومعان]{.ar} 2/60]{.citex}  
+         "So they returned with favor from Allāh and bounty, no harm having touched them."
 
-     We have also already seen this usage in example (@haal-waw-haal-zayd-busy) [ذَهَبَ زَيْدٌ وَعَمْرٌو يَشْتَغِلُ]{.ar}.
-     Here are more examples:
+     (@) [أَقْبَلَ مُحَمَّدٌ وَلَمْ يَحْمِلْ كُتُبَهُ]{.ar}
+         [[النحو العربي: أحكام ومعان]{.ar} 2/60]{.citex}  
+         [أَقْبَلَ سَعِيدٌ لَمْ يَحْمِلْ كُتُبَهُ]{.ar}
+         [[النحو العربي: أحكام ومعان]{.ar} 2/60]{.citex}  
+         "[#muHammad]{.trn2}/[#saeId]{.trn2} approached while he didn't carry his books."
 
-     (@) [كَمَا أَخْرَجَكَ رَبُّكَ مِنْ بَيْتِكَ بِٱلْحَقِّ وَإِنَّ فَرِيقًا مِّنَ ٱلْمُؤْمِنِينَ لَكَارِهُونَ]{.ar}
-         [[[سورة الأنفال]{.ar} 8:5](https://quran.com/8/5) cited by [النحو العربي: أحكام ومعان]{.ar} 2/58]{.citex}  
-         "[It is] just as when your Lord brought you out of your home [for the battle of Badr] in truth, while indeed, a party among the believers were unwilling,"
-
-     (@) [قَالُوا لَئِنْ أَكَلَهُ ٱلذِّئْبُ وَنَحْنُ عُصْبَةٌ]{.ar}
-         [[[سورة يوسف]{.ar} 12:14](https://quran.com/12/14) cited by [النحو العربي: أحكام ومعان]{.ar} 2/58]{.citex}  
-         "They said, 'If a wolf should eat him while we are a [strong] clan,"
-
- ii. When the sentence [hal]{.subs} begins a pronoun that refers to [sahib_hal]{.subs}.
-     The link between the sentence [hal]{.subs} and the [sahib_hal]{.subs} is now both the pronoun and the [و]{.ar}\ of [hal]{.subs}.
-     We saw this usage in examples (@haal-waw-haal-zayd-crying) [قَامَ زَيْدٌ وَهَوَ بَاكٍ]{.ar} and (@haal-waw-haal-wudoo) [أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم  مَرَّ بِسَعْدٍ وَهُوَ يَتَوَضَّأُ]{.ar}.
-
-     Here are some more examples:
-
-     (@) [لَا تَقْرَبُوا ٱلصَّلَاةَ وَأَنتُمْ سُكَارَىٰ]{.ar}
-         [[[سورة النساء]{.ar} 4:43](https://quran.com/4/43) cited by [النحو العربي: أحكام ومعان]{.ar} 2/58]{.citex}  
-         "do not approach prayer while you are intoxicated"
-
-     (@) [كَذَبْتُمْ وَأَنْتُمْ تَعْلَمُونَ]{.ar}
-         [Wright 2/330D]{.citex}  
-         "You lied, knowing (that you did so)."
-     
-     Some grammarians admitted optionally dropping the [و]{.ar}\ of [hal]{.subs} in this case to allow sentences like:
-
-     (@) [جَاءَنِي زَيْدٌ هُوَ فَارِسٌ]{.ar}
-         [[معاني القرآن وإعرابه للزجاج]{.ar} 2/317 cited by [وجوب الربط بالواو لعبد الجبار فتحي زيدان]{.ar}]{.citex}  
-         instead of  
-         [جَاءَنِي زَيْدٌ وَهُوَ فَارِسٌ]{.ar}  
-         "Zayd came to me while he (was) on horseback."
-        
-     But this opinion is considered anomalous by the majority of the grammarians.^[[وجوب الربط بالواو لعبد الجبار فتحي زيدان]{.ar}]
-
-iii. When the [hal]{.subs} is an affirmative verbal sentence beginning with a [ustate]{.subs} [mudarie]{.subs} verb that is preceded by the particle [قَدْ]{.ar}.
+     If the sentence [hal]{.subs} does not have a pronoun that links to the [sahib_hal]{.subs} then
+     the [و]{.ar}\ of [hal]{.subs}
+     is to be used.
      For example:
 
-     (@) [لِمَ تُؤْذُونَنِى وَقَدْ تَعْلَمُونَ أَنِّى رَسُولُ ٱللَّهِ إِلَيْكُمْ]{.ar}
-         [[[سورة الصف]{.ar} 61:5](https://quran.com/61/5) cited by Wright 2/331C]{.citex}  
-         "why do you harm me while you certainly know that I am the messenger of Allāh to you?"
+     (@) [أَقْبَلَ سَعِيدٌ وَلَمْ تَطْلُعِ ٱلشَّمْسُ]{.ar}
+         [[النحو العربي: أحكام ومعان]{.ar} 2/60]{.citex}  
+         "[#saeId]{.trn2} approached while the sun had not risen."
 
- iv. When the [hal]{.subs} is a neg
--->
-Depending on the use case,
+     (@) [وَلَقَدْ خَشِيتُ بِأَنْ أَمُوتَ وَلَمْ تَدُرْ لِلْحَرْبِ دَائِرَةٌ عَلَى ابْنَيْ ضَمْضَمِ]{.ar}
+         [[النحو العربي: أحكام ومعان]{.ar} 2/60]{.citex}  
+         "And indeed I feared that I would die, while a turn [of misfortune] had not [yet] turned, in battle, on the two sons of [#DamDam]{.trn2}"  
+         ([وَلَمْ تَدُرْ لِلْحَرْبِ دَائِرَةٌ]{.ar} is the sentence [hal]{.subs})
+
+
+  v. The sentence is negative and the [mudarie]{.subs} verb is negated with [لَمَّا]{.ar}.
+     Here again, the sentence [hal]{.subs} need not contain a pronoun that refers to the [sahib_hal]{.subs}.
+     In this case,
+     the [و]{.ar} of [hal]{.subs}
+     is typically chosen to be used.^[From [[إعراب القرآن للدرويش]{.ar}](https://tafsir.app/iraab-aldarweesh/7/4) for [سورة الأعراف]{.ar} 7:4: [وإن كانت منفية ب «لما» فالمختار ربطها بالواو]{.ar}]
+     For example:
+
+     (@) [أَمْ حَسِبْتُمْ أَن تَدْخُلُوا ٱلْجَنَّةَ وَلَمَّا يَعْلَمِ ٱللَّهُ ٱلَّذِينَ جَاهَدُوا مِنكُمْ وَيَعْلَمَ ٱلصَّابِرِينَ]{.ar}
+         [[[سورة آل عمران]{.ar} 3:142](https://quran.com/3/142)]{.citex}  
+         "Or do you think that you will enter Paradise while Allāh has not yet made evident those of you who fight in His cause and made evident those who are steadfast?"
+
+#### The sentence [hal]{.subs} strengthens the meaning of the preceding sentence as a whole
+
+Sometimes the [hal]{.subs} describes, not just a single word as the [sahib_hal]{.subs} but the preceding sentence as a whole.
+(See section\ (ref)).
+If the [hal]{.subs} is itself a sentence, then
 the [و]{.ar} of [hal]{.subs}
-may be mandatory, optional, or forbidden.
-And we will go over these cases in the next section.
-But here we will discuss the difference in meaning between when the 
+is not used.
 
+For example:
+
+(@) [ذَ ٰلِكَ ٱلْكِتَابُ لَا رَيْبَ فِيهِ]{.ar}
+    [[[سورة البقرة]{.ar} 2:2](https://quran.com/2/2) cited by [أوضح المسالك لابن هشام]{.ar} 2/289 and [حالات الربط بواو الحال الجبار فتحي زيدان]{.ar}]{.citex}  
+    "This is the Book about which there is no doubt"  
+    (The sentence [لَا رَيْبَ فِيهِ]{.ar}, in this interpretation, is analyzed as a [hal]{.subs} to the preceding sentence [ذَ ٰلِكَ ٱلْكِتَابُ]{.ar}.^[])
+
+#### The sentence [hal]{.subs} is a [ma3toof]{.subs}
+
+If a sentence [hal]{.subs} is preceded by a [3atf]{.subs} (see section (multiple hals) above),
+then an additional
+[و]{.ar} of [hal]{.subs}
+is not typically tacked on to the [3atf]{.subs}.
+
+For example:
+
+(@) [فَجَاءَهَا بَأْسُنَا بَيَاتًا أَوْ هُمْ قَائِلُونَ]{.ar}
+    [[[سورة الأعراف]{.ar} 7:4](https://quran.com/7/4)]{.citex}  
+    "and Our punishment came to them at night or while they were sleeping at noon."  
+    (An additional [و]{.ar} of [hal]{.subs} is not tacked on to the [3atf]{.subs} [أَوْ]{.ar}.)
+
+However, according to some grammarians, a
+[و]{.ar} of [hal]{.subs},
+can be added to the [3atf]{.subs} and it would be acceptable.^[[حالات الربط بواو الحال الجبار فتحي زيدان]{.ar} citing [معاني القرآن للفراء]{.ar}]
+For example:
+
+(@) [أَتَيْتَنِى وَالِيًا أَوْ وَأَنَا مَعْزُولٌ]{.ar}
+    [[[معاني القرآن للفراء]{.ar}](https://tafsir.app/farraa/7/4) for [سورة الأعراف]{.ar} 7:4]{.citex}  
+    "You came to me, while I was adjacent, or while I was remote."
 
 - Spectrum of [hal]{.subs}s: [sifah]{.subs}, [mudarie]{.subs} verb, sentence with pronoun link, sentence with waw al-haal link
 - أو instead of واو الحال: alukah
