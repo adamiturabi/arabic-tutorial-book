@@ -183,6 +183,13 @@ def populate_resource_list():
     ))
 
   resource_list.append(BibResource(
+    "farraa"
+    , cit_text = "[معاني القرآن للفراء]{.ar}"
+    , bib_text = "معاني القرآن للفراء، " + format_url_ar("https://tafsir.app")
+    , sort_key = "[معاني القران للفرا]{.ar}"
+    ))
+
+  resource_list.append(BibResource(
     "iraab-aldarweesh"
     , cit_text = "[إعراب القرآن للدرويش]{.ar}"
     , bib_text = "إعراب القرآن للدرويش، " + format_url_ar("https://tafsir.app")
