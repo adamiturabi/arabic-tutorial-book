@@ -250,6 +250,13 @@ def populate_resource_list():
     ))
 
   resource_list.append(BibResource(
+    "ibn_hisham_awdah_almasaalik"
+    , cit_text = "[أوضح المسالك لابن هشام]{.ar}"
+    , bib_text = "أوضح المسالك إلى ألفية ابن مالك لابن هشام  \n      "+format_url_ar("https://shamela.ws/book/11825")
+    , sort_key = "اوضح المسالك الى الفية ابن مالك لابن هشام"
+    ))
+
+  resource_list.append(BibResource(
     "za3balawi_dirasat"
     , cit_text = "[دراسات في النحو للزعبلاوي]{.ar}"
     , bib_text = "دراسات في النحو، تأليف: صلاح الدين الزعبلاوي، "+format_url_ar("https://shamela.ws/book/2120")
