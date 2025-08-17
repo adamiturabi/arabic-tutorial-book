@@ -1759,15 +1759,89 @@ is a ;hal; vs. when it is a ;na3t;?
 
 We may use the following guidelines:
 
-When
-a sentence
-(or ;shibh_jumlah;)
-occurs after a specific definite noun,
-then it is more likely to be a ;hal;.
+* When
+  a sentence
+  (or ;shibh_jumlah;)
+  occurs after a specific definite noun,
+  then it will be a ;hal;.
+
+* And when
+  a sentence
+  (or ;shibh_jumlah;)
+  occurs after a unspecified indefinite noun,
+  then it will be a ;na3t;.
+
+* And when 
+  a sentence
+  (or ;shibh_jumlah;)
+  occurs after a generic definite noun
+  or an specified indefinite noun
+  then it may be interpreted as either a ;hal; or a ;na3t;.
+  However, one or the other might be preferred to convey the desired meaning.
+
+Consider the following example:
+
+(@) [وَقَالَ رَجُلٌ مُؤْمِنٌ مِنْ آلِ فِرْعَوْنَ يَكْتُمُ إِيمَانَهُ]{.ar}
+    [@https://quran.com/40/28@]{.citex}  
+    "And a believing man from the family of Pharaoh who concealed his faith said,"
+
+In the above example, there are two (quasi-) sentences after the first ;na3t; [مُؤْمِن]{.ar}:
+
+ i. [مِنْ آلِ فِرْعَوْنَ]{.ar}
+ii. [يَكْتُمُ إِيمَانَهُ]{.ar}
+
+There are now multiple possible interpretations:
+
+Since [رَجُلٌ]{.ar} is now a specified indefinite noun
+(having been described by the ;na3t; [مُؤْمِنٌ]{.ar})
+it is permissible for both
+[مِنْ آلِ فِرْعَوْنَ]{.ar}
+and
+[يَكْتُمُ إِيمَانَهُ]{.ar}
+to be ;hal;s.
+
+Or 
+[مِنْ آلِ فِرْعَوْنَ]{.ar}
+can be a ;na3t;
+and
+[يَكْتُمُ إِيمَانَهُ]{.ar}
+can be a ;hal;.
+
+Or both
+[مِنْ آلِ فِرْعَوْنَ]{.ar}
+and
+[يَكْتُمُ إِيمَانَهُ]{.ar}
+can be a ;na3t;s.^[@https://tafsir.app/ibn-uthaymeen/40/28@]
+
+
 So the sentence, in this case, will be describing the state of the ;sahib_hal;
+
+What we mean by a _specific definite_ noun is one that refers to a specific entity.
+Not one that refers to a generic type
+(for which Arabic also uses the definite).
+
+For example,
+in the sentence
+[زَيْدٌ فِي ٱلدَّارِ]{.ar} "Zayd is in the house,"
+[زَيْدٌ]{.ar} is a specific definite noun
+because it refers to a specific person.
+On the other hand,
+if we say
+[ٱلْفِيلُ حَيَوانٌ]{.ar} "The elephant is an animal,"
+then we may be using
+[ٱاْفِيل]{.ar}
+to refer to the species,
+and not a specific elephant.
+In this case,
+[ٱاْفِيل]{.ar}
+is a _generic definite_ noun.
+
+Here are some examples of sentence ;hal;s occurring after specific definite nouns.
+
+
+So the sentence, in this case, 
+will be specifying or identifying the ;manut;.
 For example:
-
-
 
 When
 a sentence
@@ -1790,15 +1864,6 @@ And as a ;hal;, the sentence will be describing the state of the ;sahib_hal;.
 For example:
 
 
-
-When
-a sentence
-(or ;shibh_jumlah;)
-occurs after a unspecified indefinite noun,
-then it is more likely to be a ;na3t;.
-So the sentence, in this case, 
-will be specifying or identifying the ;manut;.
-For example:
 
 ## The order of multiple ;hal;s when one or more is a sentence or ;shibh_jumlah;
 
