@@ -1104,7 +1104,7 @@ Here are some more examples:
     "Go down, [all of you], as enemies to one another"  
     (The sentence [بَعْضُكُمْ لِبَعْضٍ عَدُوٍّ]{.ar} is the [hal]{.subs}. The link is the pronoun [كُمْ]{.ar} in [بَعْضُكُمْ]{.ar}.)
 
-### The [و]{.ar} of [hal]{.subs}
+## The [و]{.ar} of [hal]{.subs} and its rules
 
 Instead of, or in addition to, a pronoun as the link between the sentence [hal]{.subs} and the [sahib_hal]{.subs},
 a special [و]{.ar}, called the
@@ -1145,7 +1145,9 @@ This is another of the cases where the lines between different types of adverbs 
 We have seen similar cases in sections\ (ref).
 Here are some more examples:
 
+<!--
 ### Rules of the [و]{.ar} of [hal]{.subs}
+-->
 
 Depending on the sentence,
 the [و]{.ar} of [hal]{.subs}
@@ -1155,15 +1157,17 @@ Let's go over the different types of [hal]{.subs} sentences, and discuss the rul
 the [و]{.ar} of [hal]{.subs}
 in each type of sentence.
 
+<!--
 Keep in mind that in the cases where
 the [و]{.ar} of [hal]{.subs} is optional,
 the sentence will often have a different meaning with
 the [و]{.ar} of [hal]{.subs}
 versus without it.
 We will discuss these difference in meanings in section\ (ref).
+-->
 
 
-#### The [hal]{.subs} sentence is a [mubtada]{.subs}-[xabar]{.subs} sentence
+### The [hal]{.subs} sentence is a [mubtada]{.subs}-[xabar]{.subs} sentence
 
 When the [hal]{.subs} sentence is a [mubtada]{.subs}-[xabar]{.subs} sentence,
 then there are three possibilities:
@@ -1229,15 +1233,28 @@ iii. The [hal]{.subs} sentence has a pronoun that refers to the [sahib_hal]{.sub
      In this case,
      the [و]{.ar}\ of [hal]{.subs}
      is optional.
+     But generally, it will be preferred to have
+     the [و]{.ar}\ of [hal]{.subs}.
      For example:
 
-     (@) [جَاءَ مُحَمَّدٌ يَدُهُ فِي جَيْبِهِ.]{.ar}
-         [[النحو العربي: أحكام ومعان]{.ar} 2/61]{.citex}  
-         [جَاءَ مُحَمَّدٌ وَيَدُهُ فِي جَيْبِهِ.]{.ar}
-         [[النحو العربي: أحكام ومعان]{.ar} 2/61]{.citex}  
+     (@) [جَاءَ مُحَمَّدٌ وَيَدُهُ فِي جَيْبِهِ.]{.ar}
+         [[النحو العربي: أحكام ومعان]{.ar} 2/61]{.citex} (more preferred)  
+         [جَاءَ مُحَمَّدٌ يَدُهُ فِي جَيْبِهِ.]{.ar}
+         [[النحو العربي: أحكام ومعان]{.ar} 2/61]{.citex} (less preferred)  
          [#muHammad]{.trn2} came (with) his hand in his pocket."
 
-#### The [hal]{.subs} sentence is a verbal sentence that begins with a [madi]{.subs} verb
+     If the [hal]{.subs} sentence's [xabar]{.subs} is a [shibh_jumlah]{.subs} (consisting of an prepositional or adverbial phrase),
+     and the [xabar]{.subs} precedes the [mubtada]{.subs},
+     then dropping
+     the [و]{.ar}\ of [hal]{.subs}
+     is normal.^[[دلائل الإعجاز للجرجاني]{.ar} 1/203]
+     For example:
+
+     (@) [جَاء زَيْدٌ فِي يَدِهِ سَوْطٌ]{.ar}  
+         "Zayd came (with) a whip in his hand."  
+         (The [hal]{.subs} sentence is [فِي يَدِهِ سَوْطٌ]{.ar}. Its [xabar]{.subs} [فِي يَدِهِ]{.ar} precedes its [mubtada]{.subs} [سَوْطٌ]{.ar}.)
+
+### The [hal]{.subs} sentence is a verbal sentence that begins with a [madi]{.subs} verb
 
 There are several possible cases here:
 
@@ -1327,7 +1344,7 @@ iii. The [hal]{.subs} sentence is an exception, preceded by [إِلَّا]{.ar}.
          [[حالات الربط بواو الحال الجبار فتحي زيدان]{.ar} and [أوضح المسالك لابن هشام]{.ar} 2/289]{.citex}  
          "I will certainly beat him [whether] he went or stayed."
 
-#### The [hal]{.subs} sentence is a verbal sentence that begins with a [mudarie]{.subs} verb
+### The [hal]{.subs} sentence is a verbal sentence that begins with a [mudarie]{.subs} verb
 
 When a sentence [hal]{.subs} begins with a [mudarie]{.subs} verb,
 then, if the [mudarie]{.subs} is used with a continuous meaning (i.e. not with [لَمْ]{.ar} or [لَمَّا]{.ar}),
@@ -1459,7 +1476,7 @@ iii. The sentence is negative and the [mudarie]{.subs} verb is negated with [ل�
          [[[سورة آل عمران]{.ar} 3:142](https://quran.com/3/142)]{.citex}  
          "Or do you think that you will enter Paradise while Allāh has not yet made evident those of you who fight in His cause and made evident those who are steadfast?"
 
-#### The sentence [hal]{.subs} strengthens the meaning of the preceding sentence as a whole
+### The sentence [hal]{.subs} strengthens the meaning of the preceding sentence as a whole
 
 Sometimes the [hal]{.subs} describes, not just a single word as the [sahib_hal]{.subs} but the preceding sentence as a whole.
 (See section\ (ref)).
@@ -1474,7 +1491,7 @@ For example:
     "This is the Book about which there is no doubt"  
     (The sentence [لَا رَيْبَ فِيهِ]{.ar}, in this interpretation, is analyzed as a [hal]{.subs} to the preceding sentence [ذَ ٰلِكَ ٱلْكِتَابُ]{.ar}.^[])
 
-#### The sentence [hal]{.subs} is a [ma3toof]{.subs}
+### The sentence [hal]{.subs} is a [ma3toof]{.subs}
 
 If a sentence [hal]{.subs} is preceded by a [3atf]{.subs} (see section (multiple hals) above),
 then an additional
@@ -1497,12 +1514,141 @@ For example:
     [[[معاني القرآن للفراء]{.ar}](https://tafsir.app/farraa/7/4) for [سورة الأعراف]{.ar} 7:4]{.citex}  
     "You came to me, while I was adjacent, or while I was remote."
 
+## Purposes of the [و]{.ar} of [hal]{.subs}
+
+The
+[و]{.ar} of [hal]{.subs}
+essentially distances the [hal]{.subs} from the influence of the governing verb.^[[دلائل الإعجاز للجرجاني]{.ar} 1/213--214 cited by [معاني النحو]{.ar} 357--358]
+For example, consider the expression:
+
+(@) [جَاءَنِي زَيْدٌ يُسْرِعُ]{.ar}
+    [[دلائل الإعجاز للجرجاني]{.ar} 1/213]{.citex}  
+    "Zayd came to me hastening."
+
+The above example is almost equivalent to saying
+[جَاءَنِي زَيْدٌ مُسْرِعًا]{.ar}.
+The [hal]{.subs} [يُسْرِعُ]{.ar} is tightly bound to the [3aamil]{.subs} [جَاءَ]{.ar}.
+So the expression asserts Zayd's coming and his hastening as one assertion.
+<!--
+Zayd's hastening is contained within his action of coming.
+-->
+
+Consider now the expression with the [و]{.ar} of [hal]{.subs}:
+
+(@) [جَاءَنِي زَيْدٌ وَهُوَ يُسْرِعُ]{.ar}
+    [[دلائل الإعجاز للجرجاني]{.ar} 1/214]{.citex}  
+    "Zayd came to me while he was hastening."
+
+Here the [hal]{.subs} sentence
+[وَهُوَ يُسْرِعُ]{.ar}
+is a more independent assertion.
+Now, the only link between the [hal]{.subs} and its governing verb is
+that the [hal]{.subs} expresses the state of the [sahib_hal]{.subs} when the action of the governing verb took place.
+
+<!--This distancing effect of the [و]{.ar} of [hal]{.subs} can be used for several purposes.-->
+The [و]{.ar} of [hal]{.subs} can be used for a different purposes.
+We will list them below.
+In the following discussion, there will be three distinct expressions that we will refer to:
+
+Here are some purposes of the [و]{.ar} of [hal]{.subs}:
+
+  i. The [و]{.ar} of [hal]{.subs}
+ ii. The [hal]{.subs} sentence which follows the [و]{.ar} of [hal]{.subs}
+iii. The _preceding statement_ which precedes the [و]{.ar} of [hal]{.subs}
+
+* The [و]{.ar} of [hal]{.subs} indicates that the event in the preceding statement took place at the time when the [hal]{.subs} occurred.
+  For example:
+
+  (@) [جَاءَ زَيْدٌ وٱلشَّمْسُ طَالِعَة]{.ar}
+      [[مغني اللبيب لابن هشام]{.ar} 606 cited by [معاني النحو]{.ar} 2/361]{.citex}  
+      "Zayd came when the sun was risen."
+
+  (@) [سَأَزُورُكَ وٱلْقَمَرُ طَالِعٌ]{.ar}
+      [[معاني النحو]{.ar} 2/367]{.citex}  
+      "I will visit you when the moon is risen."
+
+* The [و]{.ar} of [hal]{.subs} indicates that the [sahib_hal]{.subs} was already in the state described by the [hal]{.subs} before the event in the preceding statement occurred.
+  For example:
+
+  (@) [وَمَا لَنَا أَلَّا نُقَاتِلَ فِي سَبِيلِ ٱللَّهِ وَقَدْ أُخْرِجْنَا مِنْ دِيَارِنَا وَأَبْنَائِنَا]{.ar}
+      [[[سورة البقرة]{.ar} 2:246](https://quran.com/2/246) cited by [معاني النحو]{.ar} 2/368]{.citex}  
+      ""And why should we not fight in the cause of Allāh when we have been driven out from our homes and from our children?"
+
+
+* The [و]{.ar} of [hal]{.subs} indicates that the [hal]{.subs} after it is something obvious and should be taken into account, when considering the preceding statement.
+  For example:
+
+  (@) [أَمْ حَسِبْتُمْ أَنْ تَدْخُلُوا ٱلْجَنَّةَ وَلَمَّا يَأْتِكُمْ مَثَلُ ٱلَّذِينَ خَلَوْا مِنْ قَبْلِكُمْ]{.ar}
+      [[[سورة البقرة]{.ar} 2:214](https://quran.com/2/214) cited by [معاني النحو]{.ar} 2/367]{.citex}  
+      "Or do you think that you will enter Paradise while such [trial] has not yet come to you as came to those who passed on before you?"
+
+  (@) [أَرَأَيْتَ لَوْ مَضْمَضْتَ مِنَ الْمَاءِ وَأَنْتَ صَائِمٌ]{.ar}
+      [[[سنن أبي داود]{.ar} :2385](https://sunnah.com/abudawud:2385)]{.citex}  
+      "What do you think if you rinse your mouth with water while you are fasting?"
+
+* The [و]{.ar} of [hal]{.subs} indicates that the [hal]{.subs} sentence is is describing something extraordinary.
+  For example:
+
+  (@) [عَبَرَ ٱلنَّهْرَ وَلَمْ يُحَرِّكْ يَدَهُ]{.ar}
+      [[معاني النحو]{.ar} 2/368]{.citex}  
+      "He crossed the river while not (even) moving his hand!"
+
+  (@) [دَخَلَ عَلَى ٱلْأَمِيرِ وَبِيَدِهِ سَيْفُهُ]{.ar}
+      [[معاني النحو]{.ar} 2/368]{.citex}  
+      "He entered upon the commander while in his hand was his sword!"
+
+* To differentiate between a [hal]{.subs} and a [na3t]{.subs}.
+  For example:
+
+  (@) [رَأَيْتُ رَجُلًا عِنْدَهُ مَالٌ]{.ar}
+      [[معاني النحو]{.ar} 2/368]{.citex}  
+      "I saw a man (who) had wealth."  
+      (The sentence [عِنْدَهُ مَالٌ]{.ar} can be analyzed as a [na3t]{.subs}.)
+
+  (@) [رَأَيْتُ رَجُلًا وَعِنْدَهُ مَالٌ]{.ar}
+      [[معاني النحو]{.ar} 2/368]{.citex}  
+      "I saw a man while he had wealth."  
+      (The sentence [عِنْدَهُ مَالٌ]{.ar} can only be analyzed as a [hal]{.subs}.)
+
+There may be other purposes as well.^[[معاني النحو]{.ar} 2/368--369]
+      
+
 - Spectrum of [hal]{.subs}s: [sifah]{.subs}, [mudarie]{.subs} verb, sentence with pronoun link, sentence with waw al-haal link
 - أو instead of واو الحال: alukah
 - sentence can bi sifah or haal
 
+## A [shibh_jumlah]{.subs} as the [hal]{.subs}
 
-### Multiple [hal]{.subs}s when one or more is a sentence [hal]{.subs}
+A [shibh_jumlah]{.subs}, in this context, is a prepositional or adverbial phrase.
+For example: 
+[عَلَى ٱلْغُصْنِ]{.ar}
+"on the branch"
+and
+[بَيْنَ ٱلسَّحَابِ]{.ar}
+"between the clouds".
+
+Just like a complete sentence,
+a [shibh_jumlah]{.subs} too may occur as a [hal]{.subs}.
+For example:
+
+(@) [رَأَيْتُ ٱلْهِلَالَ بَيْنَ ٱلسَّحَابِ]{.ar}
+    [[أوضح المسالك لابن هشام]{.ar} 2/285]{.citex}  
+    "I saw the crescent between the clouds."  
+    ([بَيْنَ ٱلسَّحَابِ]{.ar} is analyzed as a [hal]{.subs}.)
+
+(@) [فَخَرَجَ عَلَىٰ قَوْمِهِ فِى زِينَتِهِ]{.ar}
+    [[[سورة القصص]{.ar} 28:79](https://quran.com/28/79) cited by [أوضح المسالك لابن هشام]{.ar} 2/285]{.citex}  
+    "So he came out before his people in his adornment."  
+    ([فِى زِينَتِهِ]{.ar} is analyzed as a [hal]{.subs}.^[See [[تفسير ابن عاشور]{.ar}](https://tafsir.app/ibn-aashoor/28/79) for [سورة القصص]{.ar} 28:79])
+
+Now, you might be thinking: Didn't we learn that
+in chapter\ (ref) [بَيْنَ]{.ar} is an [dharf_makan]{.subs}?
+So why are we now saying that it is a [hal]{.subs}?
+
+
+## The possibility for a sentence of being a [hal]{.subs} or a [na3t]{.subs}
+
+## The order of multiple [hal]{.subs}s when one or more is a sentence or [shibh_jumlah]{.subs}
 
 (@) [فَنَادَتۡهُ ٱلۡمَلَـٰۤىِٕكَةُ وَهُوَ قَاۤىِٕمࣱ یُصَلِّی فِی ٱلۡمِحۡرَابِ]{.ar}
     [[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/3/39) for [سورة آل عمران]{.ar} 3:39]{.citex}  

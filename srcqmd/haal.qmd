@@ -1102,7 +1102,7 @@ Here are some more examples:
     "Go down, [all of you], as enemies to one another"  
     (The sentence [بَعْضُكُمْ لِبَعْضٍ عَدُوٍّ]{.ar} is the ;hal;. The link is the pronoun [كُمْ]{.ar} in [بَعْضُكُمْ]{.ar}.)
 
-### The [و]{.ar} of ;hal;
+## The [و]{.ar} of ;hal; and its rules
 
 Instead of, or in addition to, a pronoun as the link between the sentence ;hal; and the ;sahib_hal;,
 a special [و]{.ar}, called the
@@ -1143,7 +1143,9 @@ This is another of the cases where the lines between different types of adverbs 
 We have seen similar cases in sections\ (ref).
 Here are some more examples:
 
+<!--
 ### Rules of the [و]{.ar} of ;hal;
+-->
 
 Depending on the sentence,
 the [و]{.ar} of ;hal;
@@ -1153,15 +1155,17 @@ Let's go over the different types of ;hal; sentences, and discuss the ruling of
 the [و]{.ar} of ;hal;
 in each type of sentence.
 
+<!--
 Keep in mind that in the cases where
 the [و]{.ar} of ;hal; is optional,
 the sentence will often have a different meaning with
 the [و]{.ar} of ;hal;
 versus without it.
 We will discuss these difference in meanings in section\ (ref).
+-->
 
 
-#### The ;hal; sentence is a ;mubtada;-;xabar; sentence
+### The ;hal; sentence is a ;mubtada;-;xabar; sentence
 
 When the ;hal; sentence is a ;mubtada;-;xabar; sentence,
 then there are three possibilities:
@@ -1227,15 +1231,28 @@ iii. The ;hal; sentence has a pronoun that refers to the ;sahib_hal; but it does
      In this case,
      the [و]{.ar}\ of ;hal;
      is optional.
+     But generally, it will be preferred to have
+     the [و]{.ar}\ of ;hal;.
      For example:
 
-     (@) [جَاءَ مُحَمَّدٌ يَدُهُ فِي جَيْبِهِ.]{.ar}
-         [@nahw_arabi@ 2/61]{.citex}  
-         [جَاءَ مُحَمَّدٌ وَيَدُهُ فِي جَيْبِهِ.]{.ar}
-         [@nahw_arabi@ 2/61]{.citex}  
+     (@) [جَاءَ مُحَمَّدٌ وَيَدُهُ فِي جَيْبِهِ.]{.ar}
+         [@nahw_arabi@ 2/61]{.citex} (more preferred)  
+         [جَاءَ مُحَمَّدٌ يَدُهُ فِي جَيْبِهِ.]{.ar}
+         [@nahw_arabi@ 2/61]{.citex} (less preferred)  
          [#muHammad]{.trn2} came (with) his hand in his pocket."
 
-#### The ;hal; sentence is a verbal sentence that begins with a ;madi; verb
+     If the ;hal; sentence's ;xabar; is a ;shibh_jumlah; (consisting of an prepositional or adverbial phrase),
+     and the ;xabar; precedes the ;mubtada;,
+     then dropping
+     the [و]{.ar}\ of ;hal;
+     is normal.^[@dalaail_jurjani@ 1/203]
+     For example:
+
+     (@) [جَاء زَيْدٌ فِي يَدِهِ سَوْطٌ]{.ar}  
+         "Zayd came (with) a whip in his hand."  
+         (The ;hal; sentence is [فِي يَدِهِ سَوْطٌ]{.ar}. Its ;xabar; [فِي يَدِهِ]{.ar} precedes its ;mubtada; [سَوْطٌ]{.ar}.)
+
+### The ;hal; sentence is a verbal sentence that begins with a ;madi; verb
 
 There are several possible cases here:
 
@@ -1325,7 +1342,7 @@ iii. The ;hal; sentence is an exception, preceded by [إِلَّا]{.ar}.
          [@zidan_haalaat_rabt_waw@ and @ibn_hisham_awdah_almasaalik@ 2/289]{.citex}  
          "I will certainly beat him [whether] he went or stayed."
 
-#### The ;hal; sentence is a verbal sentence that begins with a ;mudarie; verb
+### The ;hal; sentence is a verbal sentence that begins with a ;mudarie; verb
 
 When a sentence ;hal; begins with a ;mudarie; verb,
 then, if the ;mudarie; is used with a continuous meaning (i.e. not with [لَمْ]{.ar} or [لَمَّا]{.ar}),
@@ -1457,7 +1474,7 @@ iii. The sentence is negative and the ;mudarie; verb is negated with [لَا]{.a
          [@https://quran.com/3/142@]{.citex}  
          "Or do you think that you will enter Paradise while Allāh has not yet made evident those of you who fight in His cause and made evident those who are steadfast?"
 
-#### The sentence ;hal; strengthens the meaning of the preceding sentence as a whole
+### The sentence ;hal; strengthens the meaning of the preceding sentence as a whole
 
 Sometimes the ;hal; describes, not just a single word as the ;sahib_hal; but the preceding sentence as a whole.
 (See section\ (ref)).
@@ -1472,7 +1489,7 @@ For example:
     "This is the Book about which there is no doubt"  
     (The sentence [لَا رَيْبَ فِيهِ]{.ar}, in this interpretation, is analyzed as a ;hal; to the preceding sentence [ذَ ٰلِكَ ٱلْكِتَابُ]{.ar}.^[])
 
-#### The sentence ;hal; is a ;ma3toof;
+### The sentence ;hal; is a ;ma3toof;
 
 If a sentence ;hal; is preceded by a ;3atf; (see section (multiple hals) above),
 then an additional
@@ -1495,12 +1512,141 @@ For example:
     [@https://tafsir.app/farraa/7/4@]{.citex}  
     "You came to me, while I was adjacent, or while I was remote."
 
+## Purposes of the [و]{.ar} of ;hal;
+
+The
+[و]{.ar} of ;hal;
+essentially distances the ;hal; from the influence of the governing verb.^[@dalaail_jurjani@ 1/213--214 cited by @maani_nahw@ 357--358]
+For example, consider the expression:
+
+(@) [جَاءَنِي زَيْدٌ يُسْرِعُ]{.ar}
+    [@dalaail_jurjani@ 1/213]{.citex}  
+    "Zayd came to me hastening."
+
+The above example is almost equivalent to saying
+[جَاءَنِي زَيْدٌ مُسْرِعًا]{.ar}.
+The ;hal; [يُسْرِعُ]{.ar} is tightly bound to the ;3aamil; [جَاءَ]{.ar}.
+So the expression asserts Zayd's coming and his hastening as one assertion.
+<!--
+Zayd's hastening is contained within his action of coming.
+-->
+
+Consider now the expression with the [و]{.ar} of ;hal;:
+
+(@) [جَاءَنِي زَيْدٌ وَهُوَ يُسْرِعُ]{.ar}
+    [@dalaail_jurjani@ 1/214]{.citex}  
+    "Zayd came to me while he was hastening."
+
+Here the ;hal; sentence
+[وَهُوَ يُسْرِعُ]{.ar}
+is a more independent assertion.
+Now, the only link between the ;hal; and its governing verb is
+that the ;hal; expresses the state of the ;sahib_hal; when the action of the governing verb took place.
+
+<!--This distancing effect of the [و]{.ar} of ;hal; can be used for several purposes.-->
+The [و]{.ar} of ;hal; can be used for a different purposes.
+We will list them below.
+In the following discussion, there will be three distinct expressions that we will refer to:
+
+Here are some purposes of the [و]{.ar} of ;hal;:
+
+  i. The [و]{.ar} of ;hal;
+ ii. The ;hal; sentence which follows the [و]{.ar} of ;hal;
+iii. The _preceding statement_ which precedes the [و]{.ar} of ;hal;
+
+* The [و]{.ar} of ;hal; indicates that the event in the preceding statement took place at the time when the ;hal; occurred.
+  For example:
+
+  (@) [جَاءَ زَيْدٌ وٱلشَّمْسُ طَالِعَة]{.ar}
+      [@ibn_hisham_mughni@ 606 cited by @maani_nahw@ 2/361]{.citex}  
+      "Zayd came when the sun was risen."
+
+  (@) [سَأَزُورُكَ وٱلْقَمَرُ طَالِعٌ]{.ar}
+      [@maani_nahw@ 2/367]{.citex}  
+      "I will visit you when the moon is risen."
+
+* The [و]{.ar} of ;hal; indicates that the ;sahib_hal; was already in the state described by the ;hal; before the event in the preceding statement occurred.
+  For example:
+
+  (@) [وَمَا لَنَا أَلَّا نُقَاتِلَ فِي سَبِيلِ ٱللَّهِ وَقَدْ أُخْرِجْنَا مِنْ دِيَارِنَا وَأَبْنَائِنَا]{.ar}
+      [@https://quran.com/2/246@ cited by @maani_nahw@ 2/368]{.citex}  
+      ""And why should we not fight in the cause of Allāh when we have been driven out from our homes and from our children?"
+
+
+* The [و]{.ar} of ;hal; indicates that the ;hal; after it is something obvious and should be taken into account, when considering the preceding statement.
+  For example:
+
+  (@) [أَمْ حَسِبْتُمْ أَنْ تَدْخُلُوا ٱلْجَنَّةَ وَلَمَّا يَأْتِكُمْ مَثَلُ ٱلَّذِينَ خَلَوْا مِنْ قَبْلِكُمْ]{.ar}
+      [@https://quran.com/2/214@ cited by @maani_nahw@ 2/367]{.citex}  
+      "Or do you think that you will enter Paradise while such [trial] has not yet come to you as came to those who passed on before you?"
+
+  (@) [أَرَأَيْتَ لَوْ مَضْمَضْتَ مِنَ الْمَاءِ وَأَنْتَ صَائِمٌ]{.ar}
+      [@https://sunnah.com/abudawud:2385@]{.citex}  
+      "What do you think if you rinse your mouth with water while you are fasting?"
+
+* The [و]{.ar} of ;hal; indicates that the ;hal; sentence is is describing something extraordinary.
+  For example:
+
+  (@) [عَبَرَ ٱلنَّهْرَ وَلَمْ يُحَرِّكْ يَدَهُ]{.ar}
+      [@maani_nahw@ 2/368]{.citex}  
+      "He crossed the river while not (even) moving his hand!"
+
+  (@) [دَخَلَ عَلَى ٱلْأَمِيرِ وَبِيَدِهِ سَيْفُهُ]{.ar}
+      [@maani_nahw@ 2/368]{.citex}  
+      "He entered upon the commander while in his hand was his sword!"
+
+* To differentiate between a ;hal; and a ;na3t;.
+  For example:
+
+  (@) [رَأَيْتُ رَجُلًا عِنْدَهُ مَالٌ]{.ar}
+      [@maani_nahw@ 2/368]{.citex}  
+      "I saw a man (who) had wealth."  
+      (The sentence [عِنْدَهُ مَالٌ]{.ar} can be analyzed as a ;na3t;.)
+
+  (@) [رَأَيْتُ رَجُلًا وَعِنْدَهُ مَالٌ]{.ar}
+      [@maani_nahw@ 2/368]{.citex}  
+      "I saw a man while he had wealth."  
+      (The sentence [عِنْدَهُ مَالٌ]{.ar} can only be analyzed as a ;hal;.)
+
+There may be other purposes as well.^[@maani_nahw@ 2/368--369]
+      
+
 - Spectrum of ;hal;s: ;sifah;, ;mudarie; verb, sentence with pronoun link, sentence with waw al-haal link
 - أو instead of واو الحال: alukah
 - sentence can bi sifah or haal
 
+## A ;shibh_jumlah; as the ;hal;
 
-### Multiple ;hal;s when one or more is a sentence ;hal;
+A ;shibh_jumlah;, in this context, is a prepositional or adverbial phrase.
+For example: 
+[عَلَى ٱلْغُصْنِ]{.ar}
+"on the branch"
+and
+[بَيْنَ ٱلسَّحَابِ]{.ar}
+"between the clouds".
+
+Just like a complete sentence,
+a ;shibh_jumlah; too may occur as a ;hal;.
+For example:
+
+(@) [رَأَيْتُ ٱلْهِلَالَ بَيْنَ ٱلسَّحَابِ]{.ar}
+    [@ibn_hisham_awdah_almasaalik@ 2/285]{.citex}  
+    "I saw the crescent between the clouds."  
+    ([بَيْنَ ٱلسَّحَابِ]{.ar} is analyzed as a ;hal;.)
+
+(@) [فَخَرَجَ عَلَىٰ قَوْمِهِ فِى زِينَتِهِ]{.ar}
+    [@https://quran.com/28/79@ cited by @ibn_hisham_awdah_almasaalik@ 2/285]{.citex}  
+    "So he came out before his people in his adornment."  
+    ([فِى زِينَتِهِ]{.ar} is analyzed as a ;hal;.^[See @https://tafsir.app/ibn-aashoor/28/79@])
+
+Now, you might be thinking: Didn't we learn that
+in chapter\ (ref) [بَيْنَ]{.ar} is an ;dharf_makan;?
+So why are we now saying that it is a ;hal;?
+
+
+## The possibility for a sentence of being a ;hal; or a ;na3t;
+
+## The order of multiple ;hal;s when one or more is a sentence or ;shibh_jumlah;
 
 (@) [فَنَادَتۡهُ ٱلۡمَلَـٰۤىِٕكَةُ وَهُوَ قَاۤىِٕمࣱ یُصَلِّی فِی ٱلۡمِحۡرَابِ]{.ar}
     [@https://tafsir.app/albahr-almuheet/3/39@]{.citex}  
