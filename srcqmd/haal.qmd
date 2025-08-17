@@ -1557,7 +1557,7 @@ iii. The _preceding statement_ which precedes the [و]{.ar} of ;hal;
 * The [و]{.ar} of ;hal; indicates that the event in the preceding statement took place at the time when the ;hal; occurred.
   For example:
 
-  (@) [جَاءَ زَيْدٌ وٱلشَّمْسُ طَالِعَة]{.ar}
+  (@) [جَاءَ زَيْدٌ وٱلشَّمْسُ طَالِعَةٌ]{.ar}
       [@ibn_hisham_mughni@ 606 cited by @maani_nahw@ 2/361]{.citex}  
       "Zayd came when the sun was risen."
 
@@ -1629,7 +1629,7 @@ Just like a complete sentence,
 a ;shibh_jumlah; too may occur as a ;hal;.
 For example:
 
-(@) [رَأَيْتُ ٱلْهِلَالَ بَيْنَ ٱلسَّحَابِ]{.ar}
+(@haal-shibh-jumlah-crescent) [رَأَيْتُ ٱلْهِلَالَ بَيْنَ ٱلسَّحَابِ]{.ar}
     [@ibn_hisham_awdah_almasaalik@ 2/285]{.citex}  
     "I saw the crescent between the clouds."  
     ([بَيْنَ ٱلسَّحَابِ]{.ar} is analyzed as a ;hal;.)
@@ -1639,10 +1639,111 @@ For example:
     "So he came out before his people in his adornment."  
     ([فِى زِينَتِهِ]{.ar} is analyzed as a ;hal;.^[See @https://tafsir.app/ibn-aashoor/28/79@])
 
-Now, you might be thinking: Didn't we learn that
-in chapter\ (ref) [بَيْنَ]{.ar} is an ;dharf_makan;?
+(@haal-shibh-jumlah-sparrow) [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar}
+    [@ghalayini_jaami3@ 3/101]{.citex}  
+    "I looked at the sparrow on the branch."
+
+Now, you might be thinking: Didn't we learn
+in chapter\ (ref) that [بَيْنَ]{.ar} is an ;dharf_makan;?
 So why are we now saying that it is a ;hal;?
 
+Well, first of all,
+we are saying that the ;shibh_jumlah;
+[بَيْنَ ٱلسَّحَابِ]{.ar}
+is a ;hal;, not just 
+[بَيْنَ]{.ar}.
+Secondly, we say that the ;shibh_jumlah; is a ;hal; only loosely speaking.
+
+Remember that an adverb of time or place is governed by a verb.
+And the adverb of time or place indicates the time or place where the action of the verb occurred.
+In a sentence like (@haal-shibh-jumlah-crescent) [رَأَيْتُ ٱلْهِلَالَ بَيْنَ ٱلسَّحَابِ]{.ar},
+the crescent was between the clouds before the action of seeing took place.
+So, in this case, we say that
+[بَيْنَ]{.ar}
+is an adverb of place, but it is governed,
+not by the verb
+[رَأَىٰ]{.ar},
+but by an implied verb (or verbal noun) that has the meaning of "is" or "being".
+So it is as if we are saying,
+"I saw the crescent _being_ between the clouds."
+And it is this implied ;3aamil; "being" which is technically the ;hal;.^[@ghalayini_jaami3@ 3/101]
+While
+[بَيْنَ]{.ar}
+remains (technically) an ;dharf_makan;.
+
+Because the actual ;hal; "being" is (necessarily) unexpressed and only implied,
+we can loosely say that the ;shibh_jumlah;
+[بَيْنَ ٱلسَّحَابِ]{.ar}
+is a ;hal;.
+
+Similarly,
+in example (@haal-shibh-jumlah-sparrow) [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar},
+the prepositional phrase
+[عَلَى ٱلْغُصْنِ]{.ar}
+is governed, not by the verb
+[نَظَرَ]{.ar}
+but by an implied verb "being" which is the true ;hal;.
+But, loosely speaking, we may say that the ;shibh_jumlah;
+[عَلَى ٱلْغُصْنِ]{.ar}
+is the ;hal;.
+
+This is yet another instance of where the lines between different types of adverbs get blurry.
+In fact, some grammarians have classified the ;hal; to be of the same class of adverbs as the ;dharf_zaman; and the ;dharf_makan;.^[@muqtadab@ 4/166]
+
+From the perspective of meaning,
+the ;shibh_jumlah;
+[بَيْنَ ٱلسَّحَابِ]{.ar}
+"between the clouds"
+describes the state of the ;sahib_hal;
+[ٱلْهِلَالُ]{.ar}
+during the occurrence of the verb [رَأَىٰ]{.ar}.
+Similarly,
+the ;shibh_jumlah;
+[عَلَى ٱلْغُصْنِ]{.ar}
+"on the branch"
+describes the state of the ;sahib_hal;
+[ٱلْعُصْفُور]{.ar}
+during the occurrence of the verb [نَظَرَ]{.ar}.
+
+A ;shibh_jumlah; can thus only be a ;hal; if it is governed by an implied (unexpressed) ;3aamil; which has the meaning of "is" or "being".^[@ibn_hisham_awdah_almasaalik@ 2/285, @ibn_aqil_alfiyyah@ 1/213].
+So the ;shibh_jumlah; ;hal; must be uninfluenced, or pre-existing, before the action of any overt verb in the preceding statement.
+
+Here is an example of where the ;shibh_jumlah; does not work as a ;hal;:
+
+(@) [وَقَعَ ٱلْحَجَرُ فِي ٱلْحُفْرَةِ]{.ar}  
+    "The stone fell in the pit."
+
+In the above example,
+the stone went in the pit due to the action of the verb [وَقَعَ]{.ar}.
+So the preposition [فِي]{.ar} is governed by the verb [وَقَعَ]{.ar}.
+Because [فِي]{.ar} is not governed by an implied ;3aamil; meaning "being",
+therefore, the ;shibh_jumlah;
+[فِي ٱلْحُفْرَةِ]{.ar}
+is not a ;hal;.
+
+One indicator to test if the ;shibh_jumlah; is valid as ;hal; in any particular sentence,
+is to insert a [و]{.ar} of ;hal; and a pronoun
+(referring to the ;sahib_hal;)
+before the ;shibh_jumlah;
+(thus making it a complete sentence).
+The purpose of the [و]{.ar} of ;hal;, here, is to make the ;hal; a pre-existing state.
+If the resulting expression
+(with the [و]{.ar} of ;hal; is interpreted as making the ;hal; a pre-existing state)
+retains the same meaning as the original, then
+the ;shibh_jumlah; could be valid as a ;hal;.
+Let's use this test on some of the examples above.
+
+(@) [وَقَعَ ٱلْحَجَرُ وَهُوَ فِي ٱلْحُفْرَةِ]{.ar}  
+    "The stone fell while it had already been in the pit."  
+    (This does not retain the same meaning as the original [وَقَعَ ٱلْحَجَرُ فِي ٱلْحُفْرَةِ]{.ar}. So the ;shibh_jumlah; in the original example is not a ;hal;.)
+
+(@) [رَأَيْتُ ٱلْهِلَالَ وَهُوَ بَيْنَ ٱلسَّحَابِ]{.ar}  
+    "I saw the crescent while it had already been between the clouds."  
+    (This retains the meaning of the original [رَأَيْتُ ٱلْهِلَالَ بَيْنَ ٱلسَّحَابِ]{.ar}. So the ;shibh_jumlah; in the original example is valid as a ;hal;.)
+
+(@) [نَظَرْتُ ٱلْعُصْفُورَ وَهُوَ عَلَى ٱلْغُصْنِ]{.ar}  
+    "I looked at the sparrow while it had already been on the branch."  
+    (This retains the meaning of the original [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar}. So the ;shibh_jumlah; in the original example is valid as a ;hal;.)
 
 ## The possibility for a sentence of being a ;hal; or a ;na3t;
 

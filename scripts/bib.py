@@ -311,6 +311,13 @@ def populate_resource_list():
     , sort_key = "مغني اللبيب لابن هشام"
     ))
 
+  resource_list.append(BibResource(
+    "ghalayini_jaami3"
+    , cit_text = "[جامع الدروس العربية لمصطفى الغلاييني]{.ar}"
+    , bib_text = "جامع الدروس العربية لمصطفى الغلاييني  \n      " + format_url_ar("https://shamela.ws/book/6972")
+    , sort_key = "جامع الدروس العربيه لمصطفي الغلاييني"
+    ))
+
   # Western
 
   resource_list.append(BibResource(
