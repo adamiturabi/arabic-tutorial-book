@@ -1757,7 +1757,7 @@ a sentence
 (or ;shibh_jumlah;)
 is a ;hal; vs. when it is a ;na3t;?
 
-We may use the following guidelines:
+We may use the following guidelines^[@ibn_hisham_mughni@ 560]:
 
 * When
   a sentence
@@ -1777,9 +1777,64 @@ We may use the following guidelines:
   occurs after a generic definite noun
   or an specified indefinite noun
   then it may be interpreted as either a ;hal; or a ;na3t;.
-  However, one or the other might be preferred to convey the desired meaning.
 
-Consider the following example:
+When a sentence is interpreted as a ;hal; then it will be describing the state of the ;sahib_hal;.
+And when a sentence is interpreted as a ;na3t; then it will be specifying or identifying the ;manut;.
+
+What we mean by a _specific definite_ noun is one that refers to a specific entity.
+Not one that refers to a generic type
+(for which Arabic also uses the definite).
+
+For example,
+in the sentence
+[زَيْدٌ فِي ٱلدَّارِ]{.ar} "Zayd is in the house,"
+[زَيْدٌ]{.ar} is a specific definite noun
+because it refers to a specific person.
+On the other hand,
+if we say
+[ٱلْفِيلُ حَيَوانٌ]{.ar} "The elephant is an animal,"
+then we may be using
+[ٱلْفِيل]{.ar}
+to refer to the species,
+and not a specific elephant.
+In this case,
+[ٱلْفِيل]{.ar}
+is a _generic definite_ noun.
+
+And what we mean by an unspecified indefinite noun is one that is not restricted by a ;na3t; or other qualifier.
+So it is applicable to any entity denoted by that noun.
+For example, [رَجُل]{.ar} in
+[فِي ٱلدَّارِ رَجُلٌ]{.ar}
+is an unspecified indefinite noun.
+But in 
+[فِي ٱلدَّارِ رَجُلٌ كَبِيرٌ]{.ar}
+and
+[فِي ٱلدَّارِ رَجُلُ خَيْرٍ]{.ar}
+it is a specified indefinite noun.
+
+Here are some examples of sentence ;hal;s occurring after definite and indefinite nouns:
+
+(@) [حَتَّىٰ تُنَزِّلَ عَلَيْنَا كِتَابًا نَقْرَؤُهُ]{.ar}
+    [@https://quran.com/17/93@ cited by @ibn_hisham_mughni@ 560]{.citex}  
+    "until you bring down to us a book we may read"  
+    ([نَقُرَؤُهُ]{.ar} is analyzed as a ;na3t; because [كِتَاب]{.ar} is an unspecified indefinite noun.)
+
+(@) [فَلَقَدْ رَأَيْتُهُ يَقِيهَا مِنَ الْحِجَارَةِ بِنَفْسِهِ]{.ar}
+    [@https://sunnah.com/muslim:1699a@]{.citex}  
+    "for indeed I saw him protecting her from the stones with his [body]."  
+    ([يَقِيهَا]{.ar} is analyzed as a ;hal; because the pronoun [ه]{.ar} in [رَأَيْتُهُ]{.ar} is a specific definite noun.)
+
+(@) [وَقَالُوا لَوْلَا نُزِّلَ هَـٰذَا ٱلْقُرْءَانُ عَلَىٰ رَجُلٍ مِنَ ٱلْقَرْيَتَيْنِ عَظِيمٍ]{.ar}
+    [@https://quran.com/43/31@]{.citex}  
+    And they said, "Why was this Qur’ān not sent down upon a great man from [one of] the two cities?"  
+    ([مِنَ ٱلْقَرْيَتَيْنِ]{.ar} is a ;na3t;. [عَظِيم]{.ar} is a second ;na3t;.)
+
+(@) [كَمَثَلِ ٱلْحِمَارِ يَحْمِلُ أَسْفَارًا]{.ar}
+    [@https://quran.com/62/5@ cited by @ibn_hisham_mughni@ 561]{.citex}  
+    "is like that of a donkey who carries volumes [of books]"  
+    ([ٱلْحِمَارِ]{.ar} is a generic definite noun. So, the sentence [يَحْمِلُ أَسْفَارًا]{.ar} has been analyzed as either a ;hal; or a ;na3t;.^[@https://tafsir.app/kashaf/62/5@])
+
+Consider now the following example:
 
 (@) [وَقَالَ رَجُلٌ مُؤْمِنٌ مِنْ آلِ فِرْعَوْنَ يَكْتُمُ إِيمَانَهُ]{.ar}
     [@https://quran.com/40/28@]{.citex}  
@@ -1799,44 +1854,17 @@ it is permissible for both
 and
 [يَكْتُمُ إِيمَانَهُ]{.ar}
 to be ;hal;s.
-
 Or 
 [مِنْ آلِ فِرْعَوْنَ]{.ar}
 can be a ;na3t;
 and
 [يَكْتُمُ إِيمَانَهُ]{.ar}
 can be a ;hal;.
-
 Or both
 [مِنْ آلِ فِرْعَوْنَ]{.ar}
 and
 [يَكْتُمُ إِيمَانَهُ]{.ar}
-can be a ;na3t;s.^[@https://tafsir.app/ibn-uthaymeen/40/28@]
-
-
-So the sentence, in this case, will be describing the state of the ;sahib_hal;
-
-What we mean by a _specific definite_ noun is one that refers to a specific entity.
-Not one that refers to a generic type
-(for which Arabic also uses the definite).
-
-For example,
-in the sentence
-[زَيْدٌ فِي ٱلدَّارِ]{.ar} "Zayd is in the house,"
-[زَيْدٌ]{.ar} is a specific definite noun
-because it refers to a specific person.
-On the other hand,
-if we say
-[ٱلْفِيلُ حَيَوانٌ]{.ar} "The elephant is an animal,"
-then we may be using
-[ٱاْفِيل]{.ar}
-to refer to the species,
-and not a specific elephant.
-In this case,
-[ٱاْفِيل]{.ar}
-is a _generic definite_ noun.
-
-Here are some examples of sentence ;hal;s occurring after specific definite nouns.
+can be ;na3t;s.^[@https://tafsir.app/ibn-uthaymeen/40/28@]
 
 
 So the sentence, in this case, 
