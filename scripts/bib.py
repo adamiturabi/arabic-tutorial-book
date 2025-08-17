@@ -175,6 +175,12 @@ def populate_resource_list():
     , cit_text = "[تفسير ابن عثيمين]{.ar}"
     , bib_text = "تفسير ابن عثيمين، " + format_url_ar("https://tafsir.app")
     ))
+
+  resource_list.append(BibResource(
+    "kashaf"
+    , cit_text = "[الكشاف للزمخشري]{.ar}"
+    , bib_text = "الكشاف للزمخشري، " + format_url_ar("https://tafsir.app")
+    ))
  
   resource_list.append(BibResource(
     "qurtubi"
@@ -309,6 +315,13 @@ def populate_resource_list():
     , cit_text = "[مغني اللبيب لابن هشام]{.ar}"
     , bib_text = "مغني اللبيب عن كتب الأعاريب لابن هشام  \n      " + format_url_ar("https://shamela.ws/book/6972")
     , sort_key = "مغني اللبيب لابن هشام"
+    ))
+
+  resource_list.append(BibResource(
+    "ghalayini_jaami3"
+    , cit_text = "[جامع الدروس العربية لمصطفى الغلاييني]{.ar}"
+    , bib_text = "جامع الدروس العربية لمصطفى الغلاييني  \n      " + format_url_ar("https://shamela.ws/book/6972")
+    , sort_key = "جامع الدروس العربيه لمصطفي الغلاييني"
     ))
 
   # Western

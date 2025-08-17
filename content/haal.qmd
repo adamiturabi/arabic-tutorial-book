@@ -1489,7 +1489,7 @@ For example:
 (@) [ذَ ٰلِكَ ٱلْكِتَابُ لَا رَيْبَ فِيهِ]{.ar}
     [[[سورة البقرة]{.ar} 2:2](https://quran.com/2/2) cited by [أوضح المسالك لابن هشام]{.ar} 2/289 and [حالات الربط بواو الحال الجبار فتحي زيدان]{.ar}]{.citex}  
     "This is the Book about which there is no doubt"  
-    (The sentence [لَا رَيْبَ فِيهِ]{.ar}, in this interpretation, is analyzed as a [hal]{.subs} to the preceding sentence [ذَ ٰلِكَ ٱلْكِتَابُ]{.ar}.^[])
+    (The sentence [لَا رَيْبَ فِيهِ]{.ar}, in this interpretation, is analyzed as a [hal]{.subs} to the preceding sentence [ذَ ٰلِكَ ٱلْكِتَابُ]{.ar}.)
 
 ### The sentence [hal]{.subs} is a [ma3toof]{.subs}
 
@@ -1550,16 +1550,16 @@ The [و]{.ar} of [hal]{.subs} can be used for a different purposes.
 We will list them below.
 In the following discussion, there will be three distinct expressions that we will refer to:
 
-Here are some purposes of the [و]{.ar} of [hal]{.subs}:
-
   i. The [و]{.ar} of [hal]{.subs}
  ii. The [hal]{.subs} sentence which follows the [و]{.ar} of [hal]{.subs}
 iii. The _preceding statement_ which precedes the [و]{.ar} of [hal]{.subs}
 
+Here are some purposes of the [و]{.ar} of [hal]{.subs}:
+
 * The [و]{.ar} of [hal]{.subs} indicates that the event in the preceding statement took place at the time when the [hal]{.subs} occurred.
   For example:
 
-  (@) [جَاءَ زَيْدٌ وٱلشَّمْسُ طَالِعَة]{.ar}
+  (@) [جَاءَ زَيْدٌ وٱلشَّمْسُ طَالِعَةٌ]{.ar}
       [[مغني اللبيب لابن هشام]{.ar} 606 cited by [معاني النحو]{.ar} 2/361]{.citex}  
       "Zayd came when the sun was risen."
 
@@ -1612,11 +1612,6 @@ iii. The _preceding statement_ which precedes the [و]{.ar} of [hal]{.subs}
 
 There may be other purposes as well.^[[معاني النحو]{.ar} 2/368--369]
       
-
-- Spectrum of [hal]{.subs}s: [sifah]{.subs}, [mudarie]{.subs} verb, sentence with pronoun link, sentence with waw al-haal link
-- أو instead of واو الحال: alukah
-- sentence can bi sifah or haal
-
 ## A [shibh_jumlah]{.subs} as the [hal]{.subs}
 
 A [shibh_jumlah]{.subs}, in this context, is a prepositional or adverbial phrase.
@@ -1631,7 +1626,7 @@ Just like a complete sentence,
 a [shibh_jumlah]{.subs} too may occur as a [hal]{.subs}.
 For example:
 
-(@) [رَأَيْتُ ٱلْهِلَالَ بَيْنَ ٱلسَّحَابِ]{.ar}
+(@haal-shibh-jumlah-crescent) [رَأَيْتُ ٱلْهِلَالَ بَيْنَ ٱلسَّحَابِ]{.ar}
     [[أوضح المسالك لابن هشام]{.ar} 2/285]{.citex}  
     "I saw the crescent between the clouds."  
     ([بَيْنَ ٱلسَّحَابِ]{.ar} is analyzed as a [hal]{.subs}.)
@@ -1641,19 +1636,267 @@ For example:
     "So he came out before his people in his adornment."  
     ([فِى زِينَتِهِ]{.ar} is analyzed as a [hal]{.subs}.^[See [[تفسير ابن عاشور]{.ar}](https://tafsir.app/ibn-aashoor/28/79) for [سورة القصص]{.ar} 28:79])
 
-Now, you might be thinking: Didn't we learn that
-in chapter\ (ref) [بَيْنَ]{.ar} is an [dharf_makan]{.subs}?
+(@haal-shibh-jumlah-sparrow) [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar}
+    [[جامع الدروس العربية لمصطفى الغلاييني]{.ar} 3/101]{.citex}  
+    "I looked at the sparrow on the branch."
+
+Now, you might be thinking: Didn't we learn
+in chapter\ (ref) that [بَيْنَ]{.ar} is an [dharf_makan]{.subs}?
 So why are we now saying that it is a [hal]{.subs}?
 
+Well, first of all,
+we are saying that the [shibh_jumlah]{.subs}
+[بَيْنَ ٱلسَّحَابِ]{.ar}
+is a [hal]{.subs}, not just 
+[بَيْنَ]{.ar}.
+Secondly, we say that the [shibh_jumlah]{.subs} is a [hal]{.subs} only loosely speaking.
 
-## The possibility for a sentence of being a [hal]{.subs} or a [na3t]{.subs}
+Remember that an adverb of time or place is governed by a verb.
+And the adverb of time or place indicates the time or place where the action of the verb occurred.
+In a sentence like (@haal-shibh-jumlah-crescent) [رَأَيْتُ ٱلْهِلَالَ بَيْنَ ٱلسَّحَابِ]{.ar},
+the crescent was between the clouds before the action of seeing took place.
+So, in this case, we say that
+[بَيْنَ]{.ar}
+is an adverb of place, but it is governed,
+not by the verb
+[رَأَىٰ]{.ar},
+but by an implied verb (or verbal noun) that has the meaning of "is" or "being".
+So it is as if we are saying,
+"I saw the crescent _being_ between the clouds."
+And it is this implied [3aamil]{.subs} "being" which is technically the [hal]{.subs}.^[[جامع الدروس العربية لمصطفى الغلاييني]{.ar} 3/101]
+While
+[بَيْنَ]{.ar}
+remains (technically) an [dharf_makan]{.subs}.
 
-## The order of multiple [hal]{.subs}s when one or more is a sentence or [shibh_jumlah]{.subs}
+Because the actual [hal]{.subs} "being" is (necessarily) unexpressed and only implied,
+we can loosely say that the [shibh_jumlah]{.subs}
+[بَيْنَ ٱلسَّحَابِ]{.ar}
+is a [hal]{.subs}.
 
-(@) [فَنَادَتۡهُ ٱلۡمَلَـٰۤىِٕكَةُ وَهُوَ قَاۤىِٕمࣱ یُصَلِّی فِی ٱلۡمِحۡرَابِ]{.ar}
-    [[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/3/39) for [سورة آل عمران]{.ar} 3:39]{.citex}  
+Similarly,
+in example (@haal-shibh-jumlah-sparrow) [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar},
+the prepositional phrase
+[عَلَى ٱلْغُصْنِ]{.ar}
+is governed, not by the verb
+[نَظَرَ]{.ar}
+but by an implied verb "being" which is the true [hal]{.subs}.
+But, loosely speaking, we may say that the [shibh_jumlah]{.subs}
+[عَلَى ٱلْغُصْنِ]{.ar}
+is the [hal]{.subs}.
+
+This is yet another instance of where the lines between different types of adverbs get blurry.
+In fact, some grammarians have classified the [hal]{.subs} to be of the same class of adverbs as the [dharf_zaman]{.subs} and the [dharf_makan]{.subs}.^[[المقتضب للمبرد]{.ar} 4/166]
+
+From the perspective of meaning,
+the [shibh_jumlah]{.subs}
+[بَيْنَ ٱلسَّحَابِ]{.ar}
+"between the clouds"
+describes the state of the [sahib_hal]{.subs}
+[ٱلْهِلَالُ]{.ar}
+during the occurrence of the verb [رَأَىٰ]{.ar}.
+Similarly,
+the [shibh_jumlah]{.subs}
+[عَلَى ٱلْغُصْنِ]{.ar}
+"on the branch"
+describes the state of the [sahib_hal]{.subs}
+[ٱلْعُصْفُور]{.ar}
+during the occurrence of the verb [نَظَرَ]{.ar}.
+
+A [shibh_jumlah]{.subs} can thus only be a [hal]{.subs} if it is governed by an implied (unexpressed) [3aamil]{.subs} which has the meaning of "is" or "being".^[[أوضح المسالك لابن هشام]{.ar} 2/285, [شرح ابن عقيل على الألفية]{.ar} 1/213].
+So the [shibh_jumlah]{.subs} [hal]{.subs} must be uninfluenced, or pre-existing, before the action of any overt verb in the preceding statement.
+
+Here is an example of where the [shibh_jumlah]{.subs} does not work as a [hal]{.subs}:
+
+(@) [وَقَعَ ٱلْحَجَرُ فِي ٱلْحُفْرَةِ]{.ar}  
+    "The stone fell in the pit."
+
+In the above example,
+the stone went in the pit due to the action of the verb [وَقَعَ]{.ar}.
+So the preposition [فِي]{.ar} is governed by the verb [وَقَعَ]{.ar}.
+Because [فِي]{.ar} is not governed by an implied [3aamil]{.subs} meaning "being",
+therefore, the [shibh_jumlah]{.subs}
+[فِي ٱلْحُفْرَةِ]{.ar}
+is not a [hal]{.subs}.
+
+One indicator to test if the [shibh_jumlah]{.subs} is valid as [hal]{.subs} in any particular sentence,
+is to insert a [و]{.ar} of [hal]{.subs} and a pronoun
+(referring to the [sahib_hal]{.subs})
+before the [shibh_jumlah]{.subs}
+(thus making it a complete sentence).
+The purpose of the [و]{.ar} of [hal]{.subs}, here, is to make the [hal]{.subs} a pre-existing state.
+If the resulting expression
+(with the [و]{.ar} of [hal]{.subs} is interpreted as making the [hal]{.subs} a pre-existing state)
+retains the same meaning as the original, then
+the [shibh_jumlah]{.subs} could be valid as a [hal]{.subs}.
+Let's use this test on some of the examples above.
+
+(@) [وَقَعَ ٱلْحَجَرُ وَهُوَ فِي ٱلْحُفْرَةِ]{.ar}  
+    "The stone fell while it had already been in the pit."  
+    (This does not retain the same meaning as the original [وَقَعَ ٱلْحَجَرُ فِي ٱلْحُفْرَةِ]{.ar}. So the [shibh_jumlah]{.subs} in the original example is not a [hal]{.subs}.)
+
+(@) [رَأَيْتُ ٱلْهِلَالَ وَهُوَ بَيْنَ ٱلسَّحَابِ]{.ar}  
+    "I saw the crescent while it had already been between the clouds."  
+    (This retains the meaning of the original [رَأَيْتُ ٱلْهِلَالَ بَيْنَ ٱلسَّحَابِ]{.ar}. So the [shibh_jumlah]{.subs} in the original example is valid as a [hal]{.subs}.)
+
+(@) [نَظَرْتُ ٱلْعُصْفُورَ وَهُوَ عَلَى ٱلْغُصْنِ]{.ar}  
+    "I looked at the sparrow while it had already been on the branch."  
+    (This retains the meaning of the original [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar}. So the [shibh_jumlah]{.subs} in the original example is valid as a [hal]{.subs}.)
+
+There may be examples where a [shibh_jumlah]{.subs} could be validly interpreted either as a [hal]{.subs} 
+(governed by an implied [3aamil]{.subs} meaning "being"),
+or as governed by an overt verb.^[See, for example, the [tafsIr]{.trn2} of [تَحْتَ ٱلشَّجَرَةِ]{.ar} in [[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/48/18) for [سورة الفتح]{.ar} 48:18]
+
+## Interpreting a sentence as a [hal]{.subs} vs. a [na3t]{.subs}
+
+We have just seen how a sentence
+(or [shibh_jumlah]{.subs})
+can be intrepreted as a [hal]{.subs}.
+And we already know that a sentence
+(or [shibh_jumlah]{.subs})
+can be intrepreted as a [na3t]{.subs}.
+So how can we tell when
+a sentence
+(or [shibh_jumlah]{.subs})
+is a [hal]{.subs} vs. when it is a [na3t]{.subs}?
+
+We may use the following guidelines^[[مغني اللبيب لابن هشام]{.ar} 560]:
+
+* When
+  a sentence
+  (or [shibh_jumlah]{.subs})
+  occurs after a specific definite noun,
+  then it will be a [hal]{.subs}.
+
+* And when
+  a sentence
+  (or [shibh_jumlah]{.subs})
+  occurs after a unspecified indefinite noun,
+  then it will be a [na3t]{.subs}.
+
+* And when 
+  a sentence
+  (or [shibh_jumlah]{.subs})
+  occurs after a generic definite noun
+  or an specified indefinite noun
+  then it may be interpreted as either a [hal]{.subs} or a [na3t]{.subs}.
+
+When a sentence is interpreted as a [hal]{.subs} then it will be describing the state of the [sahib_hal]{.subs}.
+And when a sentence is interpreted as a [na3t]{.subs} then it will be specifying or identifying the [manut]{.subs}.
+
+What we mean by a _specific definite_ noun is one that refers to a specific entity.
+Not one that refers to a generic type
+(for which Arabic also uses the definite).
+
+For example,
+in the sentence
+[زَيْدٌ فِي ٱلدَّارِ]{.ar} "Zayd is in the house,"
+[زَيْدٌ]{.ar} is a specific definite noun
+because it refers to a specific person.
+On the other hand,
+if we say
+[ٱلْفِيلُ حَيَوانٌ]{.ar} "The elephant is an animal,"
+then we may be using
+[ٱلْفِيل]{.ar}
+to refer to the species,
+and not a specific elephant.
+In this case,
+[ٱلْفِيل]{.ar}
+is a _generic definite_ noun.
+
+And what we mean by an unspecified indefinite noun is one that is not restricted by a [na3t]{.subs} or other qualifier.
+So it is applicable to any entity denoted by that noun.
+For example, [رَجُل]{.ar} in
+[فِي ٱلدَّارِ رَجُلٌ]{.ar}
+is an unspecified indefinite noun.
+But in 
+[فِي ٱلدَّارِ رَجُلٌ كَبِيرٌ]{.ar}
+and
+[فِي ٱلدَّارِ رَجُلُ خَيْرٍ]{.ar}
+it is a specified indefinite noun.
+
+Here are some examples of sentence [hal]{.subs}s occurring after definite and indefinite nouns:
+
+(@) [حَتَّىٰ تُنَزِّلَ عَلَيْنَا كِتَابًا نَقْرَؤُهُ]{.ar}
+    [[[سورة الإسراء]{.ar} 17:93](https://quran.com/17/93) cited by [مغني اللبيب لابن هشام]{.ar} 560]{.citex}  
+    "until you bring down to us a book we may read"  
+    ([نَقُرَؤُهُ]{.ar} is analyzed as a [na3t]{.subs} because [كِتَاب]{.ar} is an unspecified indefinite noun.)
+
+(@) [فَلَقَدْ رَأَيْتُهُ يَقِيهَا مِنَ الْحِجَارَةِ بِنَفْسِهِ]{.ar}
+    [[[صحيح مسلم]{.ar} :1699a](https://sunnah.com/muslim:1699a)]{.citex}  
+    "for indeed I saw him protecting her from the stones with his [body]."  
+    ([يَقِيهَا]{.ar} is analyzed as a [hal]{.subs} because the pronoun [ه]{.ar} in [رَأَيْتُهُ]{.ar} is a specific definite noun.)
+
+(@) [وَقَالُوا لَوْلَا نُزِّلَ هَـٰذَا ٱلْقُرْءَانُ عَلَىٰ رَجُلٍ مِنَ ٱلْقَرْيَتَيْنِ عَظِيمٍ]{.ar}
+    [[[سورة الزخرف]{.ar} 43:31](https://quran.com/43/31)]{.citex}  
+    And they said, "Why was this Qur’ān not sent down upon a great man from [one of] the two cities?"  
+    ([مِنَ ٱلْقَرْيَتَيْنِ]{.ar} is a [na3t]{.subs} to [رَجُل]{.ar}. [عَظِيم]{.ar} is a second [na3t]{.subs}.)
+
+(@) [كَمَثَلِ ٱلْحِمَارِ يَحْمِلُ أَسْفَارًا]{.ar}
+    [[[سورة الجمعة]{.ar} 62:5](https://quran.com/62/5) cited by [مغني اللبيب لابن هشام]{.ar} 561]{.citex}  
+    "is like that of a donkey who carries volumes [of books]"  
+    ([ٱلْحِمَارِ]{.ar} is a generic definite noun. So, the sentence [يَحْمِلُ أَسْفَارًا]{.ar} has been analyzed as either a [hal]{.subs} or a [na3t]{.subs}.^[[[الكشاف للزمخشري]{.ar}](https://tafsir.app/kashaf/62/5) for [سورة الجمعة]{.ar} 62:5])
+
+Consider now the following example:
+
+(@) [وَقَالَ رَجُلٌ مُؤْمِنٌ مِنْ آلِ فِرْعَوْنَ يَكْتُمُ إِيمَانَهُ]{.ar}
+    [[[سورة غافر]{.ar} 40:28](https://quran.com/40/28)]{.citex}  
+    "And a believing man from the family of Pharaoh who concealed his faith said,"
+
+In the above example, there are two (quasi-) sentences after the first [na3t]{.subs} [مُؤْمِن]{.ar}:
+
+ i. [مِنْ آلِ فِرْعَوْنَ]{.ar}
+ii. [يَكْتُمُ إِيمَانَهُ]{.ar}
+
+There are now multiple possible interpretations:
+
+Since [رَجُلٌ]{.ar} is now a specified indefinite noun
+(having been described by the [na3t]{.subs} [مُؤْمِنٌ]{.ar})
+it is permissible for both
+[مِنْ آلِ فِرْعَوْنَ]{.ar}
+and
+[يَكْتُمُ إِيمَانَهُ]{.ar}
+to be [hal]{.subs}s.
+Or 
+[مِنْ آلِ فِرْعَوْنَ]{.ar}
+can be a [na3t]{.subs}
+and
+[يَكْتُمُ إِيمَانَهُ]{.ar}
+can be a [hal]{.subs}.
+Or both
+[مِنْ آلِ فِرْعَوْنَ]{.ar}
+and
+[يَكْتُمُ إِيمَانَهُ]{.ar}
+can be [na3t]{.subs}s.^[[[تفسير ابن عثيمين]{.ar}](https://tafsir.app/ibn-uthaymeen/40/28) for [سورة غافر]{.ar} 40:28]
+
+## Multiple [hal]{.subs}s when one or more is a sentence or [shibh_jumlah]{.subs}
+
+From section\ (ref) earlier in this chapter,
+we learned that there may be more than one [hal]{.subs} for one [sahib_hal]{.subs}.
+These multiple [hal]{.subs}s may consist of sentence and [shibh_jumlah]{.subs} [hal]{.subs}s.
+For example:
+
+(@) [فَنَادَتْهُ ٱلْمَلَائِكَةُ وَهُوَ قَائِمٌ يُصَلِّی فِی ٱلْمِحْرَابِ]{.ar}
+    [[[سورة آل عمران]{.ar} 3:39](https://quran.com/3/39)]{.citex}  
+    "So the angels called him while he was standing in prayer in the chamber,"  
+    ([هُوَ قَائِمٌ]{.ar} and  [يُصَلِّی فِی ٱلْمِحْرَابِ]{.ar} have both been analyzed as [hal]{.subs}s as one interpretation.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/3/39) for [سورة آل عمران]{.ar} 3:39])
+
+When one or more of these multiple [hal]{.subs}s is a sentence
+or [shibh_jumlah]{.subs},
+then it is usual,
+though not imperative,
+that the [hal]{.subs}s be in the following order^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/3/46) for [سورة آل عمران]{.ar} 3:46]:
+
+1. First, any [hal]{.subs}s that are comprised of a single word
+2. Then any [shibh_jumlah]{.subs} [hal]{.subs}s
+3. Then any sentence [hal]{.subs}s
+
+This is the same order that is usually followed for [na3t]{.subs}s as well.
+
+Here is an example:
 
 (@) [فَخَرَجَ مِنْهَا خَائِفًا يَتَرَقَّبُ]{.ar}
+    [[[سورة القصص]{.ar} 28:21](https://quran.com/28/21)]{.citex}  
+    "So he left it, fearful and anticipating [apprehension]."
 
 ## Topics
 
