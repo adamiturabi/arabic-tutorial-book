@@ -175,6 +175,12 @@ def populate_resource_list():
     , cit_text = "[تفسير ابن عثيمين]{.ar}"
     , bib_text = "تفسير ابن عثيمين، " + format_url_ar("https://tafsir.app")
     ))
+
+  resource_list.append(BibResource(
+    "kashaf"
+    , cit_text = "[الكشاف للزمخشري]{.ar}"
+    , bib_text = "الكشاف للزمخشري، " + format_url_ar("https://tafsir.app")
+    ))
  
   resource_list.append(BibResource(
     "qurtubi"
