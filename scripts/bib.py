@@ -296,6 +296,19 @@ def populate_resource_list():
     , bib_text = "حالات الربط بواو الحال الجبار فتحي زيدان  \n      " + format_url_ar("https://www.alukah.net/literature_language/0/173759")
     ))
 
+  resource_list.append(BibResource(
+    "dalaail_jurjani"
+    , cit_text = "[دلائل الإعجاز للجرجاني]{.ar}"
+    , bib_text = "دلائل الإعجاز للجرجاني  \n      " + format_url_ar("https://shamela.ws/book/12055")
+    , sort_key = "دلايل الاعجاز للجرجاني"
+    ))
+
+  resource_list.append(BibResource(
+    "ibn_hisham_mughni"
+    , cit_text = "[مغني اللبيب لابن هشام]{.ar}"
+    , bib_text = "مغني اللبيب عن كتب الأعاريب لابن هشام  \n      " + format_url_ar("https://shamela.ws/book/6972")
+    , sort_key = "مغني اللبيب لابن هشام"
+    ))
 
   # Western
 

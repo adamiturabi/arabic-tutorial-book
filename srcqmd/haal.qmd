@@ -1153,12 +1153,14 @@ Let's go over the different types of ;hal; sentences, and discuss the ruling of
 the [و]{.ar} of ;hal;
 in each type of sentence.
 
+<!--
 Keep in mind that in the cases where
 the [و]{.ar} of ;hal; is optional,
 the sentence will often have a different meaning with
 the [و]{.ar} of ;hal;
 versus without it.
 We will discuss these difference in meanings in section\ (ref).
+-->
 
 
 #### The ;hal; sentence is a ;mubtada;-;xabar; sentence
@@ -1227,13 +1229,26 @@ iii. The ;hal; sentence has a pronoun that refers to the ;sahib_hal; but it does
      In this case,
      the [و]{.ar}\ of ;hal;
      is optional.
+     But generally, it will be preferred to have
+     the [و]{.ar}\ of ;hal;.
      For example:
 
-     (@) [جَاءَ مُحَمَّدٌ يَدُهُ فِي جَيْبِهِ.]{.ar}
-         [@nahw_arabi@ 2/61]{.citex}  
-         [جَاءَ مُحَمَّدٌ وَيَدُهُ فِي جَيْبِهِ.]{.ar}
-         [@nahw_arabi@ 2/61]{.citex}  
+     (@) [جَاءَ مُحَمَّدٌ وَيَدُهُ فِي جَيْبِهِ.]{.ar}
+         [@nahw_arabi@ 2/61]{.citex} (more preferred)  
+         [جَاءَ مُحَمَّدٌ يَدُهُ فِي جَيْبِهِ.]{.ar}
+         [@nahw_arabi@ 2/61]{.citex} (less preferred)  
          [#muHammad]{.trn2} came (with) his hand in his pocket."
+
+     If the ;hal; sentence's ;xabar; is a ;shibh_jumlah; (consisting of an prepositional or adverbial phrase),
+     and the ;xabar; precedes the ;mubtada;,
+     then dropping
+     the [و]{.ar}\ of ;hal;
+     is normal.^[@dalaail_jurjani@ 1/203]
+     For example:
+
+     (@) [جَاء زَيْدٌ فِي يَدِهِ سَوْطٌ]{.ar}  
+         "Zayd came (with) a whip in his hand."  
+         (The ;hal; sentence is [فِي يَدِهِ سَوْطٌ]{.ar}. Its ;xabar; ([فِي يَدِهِ]{.ar}) precedes its ;mubtada; [سَوْطٌ]{.ar}.)
 
 #### The ;hal; sentence is a verbal sentence that begins with a ;madi; verb
 
@@ -1495,17 +1510,68 @@ For example:
     [@https://tafsir.app/farraa/7/4@]{.citex}  
     "You came to me, while I was adjacent, or while I was remote."
 
-### Difference in meaning when using a [و]{.ar} of ;hal;
+### Significance in meaning of the [و]{.ar} of ;hal;
 
 The
 [و]{.ar} of ;hal;
-essentially distances the ;hal; from the influence of the governing verb.^[@dalaail_jurjani@ 164--165 cited by @maani_nahw@ 357--358]
+essentially distances the ;hal; from the influence of the governing verb.^[@dalaail_jurjani@ 1/213--214 cited by @maani_nahw@ 357--358]
+For example, consider the expression:
+
+(@) [جَاءَنِي زَيْدٌ يُسْرِعُ]{.ar}
+    [@dalaail_jurjani@ 1/213]{.citex}  
+    "Zayd came to me hastening."
+
+The above example is almost equivalent to saying
+[جَاءَنِي زَيْدٌ مُسْرِعًا]{.ar}.
+The ;hal; [يُسْرِعُ]{.ar} is tightly bound to the ;3aamil; [جَاءَ]{.ar}.
+So the expression asserts Zayd's coming and his hastening as one assertion.
+<!--
+Zayd's hastening is contained within his action of coming.
+-->
+
+Consider now the expression with the [و]{.ar} of ;hal;:
+
+(@) [جَاءَنِي زَيْدٌ وَهُوَ يُسْرِعُ]{.ar}
+    [@dalaail_jurjani@ 1/214]{.citex}  
+    "Zayd came to me while he was hastening."
+
+Here the ;hal; sentence
+[وَهُوَ يُسْرِعُ]{.ar}
+is a more independent assertion.
+Now, the only link between the ;hal; and its governing verb is
+that the ;hal; expresses the state of the ;sahib_hal; when the action of the governing verb took place.
+
+This distancing effect of the [و]{.ar} of ;hal; can be used for the following purposes:
+
+* The sentence ;hal; indicates the time when an action took place.
+  For example:
+
+  (@) [جَاءَ زَيْدٌ وٱلشَّمْسُ طَالِعَة]{.ar}
+      [@ibn_hisham_mughni@ 606 cited by @maani_nahw@ 2/361]{.citex}  
+      "Zayd came when the sun was risen."
+
+  (@) [سَأَزُورُكَ وٱلْقَمَرُ طَالِعٌ]{.ar}
+      [@maani_nahw@ 2/367]{.citex}  
+      "I will visit you when the moon is risen."
+
+
+<!--
+So when the ;hal; sentence begins with a 
+[و]{.ar} of ;hal;
+then it is 
 
 Sometimes this distance can indicate that 
 the ;hal; was a pre-existing state of the ;sahib_hal;.
 
 Consider the following example:
 
+(@) [كَيْفَ جِئْتَ لَيْسَ لَكَ مَالٌ؟]{.ar}
+    "How did you come, not having any wealth?"
+
+The ;hal; [لَيْسَ لَكَ مَالٌ]{.ar} is strongly tied to the ;3aamil; [جَاء]{.ar}.
+So the question is asking about the manner in which the ;sahib_hal; came 
+
+    "How will you go sick?"
 (@) [كَيْفَ تَذْهَبُ تَمْرُضُ؟]{.ar}  
     "How will you go sick?"
 
@@ -1524,7 +1590,7 @@ Consider now the example with
 
 Now the ;hal; [مَرِيضًا]{.ar} is not distanced from the ;3aamil; [يَذْهَبُ]{.ar}.
 then may be asking if the person will be able to go at all because of his being sick.
-
+-->
 
 
 - Spectrum of ;hal;s: ;sifah;, ;mudarie; verb, sentence with pronoun link, sentence with waw al-haal link
