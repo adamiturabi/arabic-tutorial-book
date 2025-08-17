@@ -220,7 +220,8 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "muqtadab"
     , cit_text = "[المقتضب للمبرد]{.ar}"
-    , bib_text = "المقتضب للمبرد" +format_url_ar("https://shamela.ws/book/6965")
+    , bib_text = "المقتضب للمبرد، " +format_url_ar("https://shamela.ws/book/6965")
+    , sort_key = "مقتضب للمبرد"
     ))
 
   resource_list.append(BibResource(
