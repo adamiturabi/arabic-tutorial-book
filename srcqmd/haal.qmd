@@ -586,7 +586,7 @@ So we can say:
 (@) [مُسْرِعًا ذَا رَاحِلٌ]{.ar}
     [@wright@ 2/118B and @nahw_arabi@ 2/53]{.citex}  
     "In haste is this this (man) departing."  
-    ([ذَا]{.ar} is a pointing noun like [هَـٰدَا]{.ar}. See section\ (ref).)
+    ([ذَا]{.ar} is a pointing noun like [هَـٰذَا]{.ar}. See section\ (ref).)
 
 If the ;3aamil; is a verb or ;sifah; that is rigid (does not flex based on the doer),
 then the ;hal; may not precede the ;3aamil;.
@@ -603,7 +603,8 @@ For example:
     (not ;x; [زَيْدٌ ضَاحِكًا أَحْسَنُ مِنْ عَمْرٍو]{.ar})  
     "Zayd is more handsome than [#eamr]{.trn2} (when) laughing."
 
-An exception is permitted with a noun, in one ;hal;, is compared with itself or another noun in another ;hal;.
+An exception is permitted when a noun, in one ;hal;, is compared with itself or another noun in another ;hal;.
+In this case, the ;af3al; is allowd to be a ;hal;'s ;3aamil;.
 For example:
 
 (@) [زَيْدٌ قَائِمًا أَحْسَنُ مِنْهُ قَاعِدًا]{.ar}
@@ -1682,7 +1683,7 @@ But, loosely speaking, we may say that the ;shibh_jumlah;
 [عَلَى ٱلْغُصْنِ]{.ar}
 is the ;hal;.
 
-This is yet another instance of where the lines between different types of adverbs get blurry.
+This is yet another instance of where the lines between different types of adverbs get blurred.
 In fact, some grammarians have classified the ;hal; to be of the same class of adverbs as the ;dharf_zaman; and the ;dharf_makan;.^[@muqtadab@ 4/166]
 
 From the perspective of meaning,
@@ -1896,63 +1897,10 @@ Here is an example:
     [@https://quran.com/28/21@]{.citex}  
     "So he left it, fearful and anticipating [apprehension]."
 
-## Topics
+## TODO topics
 
-```yml
-sahib_haal:
-  - faa3il of 3aamil
-  - maf3ul bih of 3aamil
-  - both faa3il and maf3ul bih
-  - other functions
-Temporary nature of haal:
-  mostly temporary: ~
-  sometimes permanent: ~
-Types of words used for haal:
-  mostly mushtaqq: ~
-  sometimea jamid: ~
-definiteness of haal:
-  - وحده
-Definiteness of the sahib_haal:
-  mostly definite: ~
-  sometimes indefinite: ~
-Order of the haal, the sahib_haal:
-  the haal of a mudaf_ilayh: ~
-Concurrence of the haal:
-  mostly concurrent with governing verb: ~
-  sometimes future: ~
-  Multiple haals: ~
-Fundamental and emphasizing haals:
-  mostly fundamental: ~
-  sometimes emphasizing: ~
-The masdar as a haal:
-  possibility of multiple interpretations:
-    - as a haal
-    - as a maf3ul mutlaq
-Sentences as haal:
-  Definiteness of sahib_hal:
-    - if after maHD definite then haal
-    - otherwise can be na3t or haal
-  link bw haal and sahib_haal:
-    - pronoun
-    - waw of haal
-  Rules of waw of haal: ~
-Blurriness of haal with other adverbs:
-  see ma3aani al-nahw: ~
-The 3aamil of the haal:
-  - verb
-  - quasi-verb
-  - a verb stand-in
-  - Wright 2/113D
-  order of haal and 3aamil: ~
-  deleting the 3aamil: ~
-The sababi haal: nahw wafi 2/400
-```
-
-* ;hal; is typically an ;sifah;
-* ;3aamil; of the ;hal;
-* ;sahib_hal; can be ;faa3il; or ;mafulb; of governing verb. Can also be noun in oher functions
-
-Typically, the ;hal; is an ;sifah;, its ;3aamil; is a verb, and the ;hal; describes the ;sahib_hal;.
-But occasionally, each of these statements may be relaxed.
-That is,
+* [حذف عامل الحال]{.ar}
+* [الحال المؤكدة]{.ar}
+* [الحال المقدرة]{.ar}/[الحال من حيث الزمن]{.ar}
+* [الحال السببي]{.ar} [@nahw_wafi@ 2/400]
 
