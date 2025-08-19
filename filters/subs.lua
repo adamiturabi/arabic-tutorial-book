@@ -48,6 +48,7 @@ map_table["3atf"] = {"conjunction", nil}
 
 map_table["adat_istifham"] = {"question word", nil}
 map_table["af3al"] = {"comparative noun", nil}
+map_table["af3aal_quloob"] = {"verbs of the heart", nil}
 
 map_table["badal"] = {"replacement", nil}
 
