@@ -1,5 +1,102 @@
 # Sentence and government theory
 
+## Basic components of the sentence
+
+There are two types of sentences in Arabic:
+
+ i. The ;mubtada;-;xabar; sentence.
+    It begins with a noun.
+    For example:
+
+    (@) [زَيْدٌ رَجُلٌ]{.ar}  
+        "Zayd is a man."
+
+    (@) [زَيْدٌ كَتَبَ]{.ar}  
+        "Zayd, he wrote."
+
+ii. The verbal sentence.
+    It begins with a verb.
+    For example:
+
+    (@) [كَتَبَ زَيْدٌ]{.ar}  
+        "Zayd wrote."
+
+Particles like [وَ]{.ar} "and", [مَا]{.ar} are allowed to precede the sentences
+(if applicable)
+without affecting their being a
+;mubtada;-;xabar;
+or verbal sentence.
+So [وَزَيْدٌ رَجُلٌ]{.ar} is still a 
+;mubtada;-;xabar;
+sentence.
+And 
+[مَا كَتَبَ زَيْدٌ]{.ar} "Zayd did not write" is a verbal sentence.
+
+The Arabic sentence,
+(whether a
+;mubtada;-;xabar; sentence,
+or a verbal sentence)
+has two basic components:
+
+ i. The _;musnadi;_
+ii. The _;musnad;_
+
+The _;musnadi;_
+and
+the _;musnad;_
+complement each other.
+The ;musnadi; provides support to the ;musnad;.
+And the ;musnad; relies upon the ;musnadi;.
+
+In the 
+;mubtada;-;xabar;
+the ;mubtada; is the ;musnadi;.
+And the ;xabar; is the ;musnad;.
+
+And in the verbal sentence,
+the ;faa3il; is the ;musnadi;.
+And the verb is the ;musnad;.
+
+The _;musnadi;_
+and
+the _;musnad;_
+are the two _;3umdah;_ components of a sentence, without which the sentence is not complete.
+Any other components that are added are considered _;fadlah;_.
+
+Consider the following example:
+
+(@) [كَتَبَ زَيْدٌ كِتَابًا]{.ar}  
+    "Zayd wrote a book."
+
+In the above example, the ;mafulb; [كِتًابًا]{.ar} is considered a ;fadlah; component.
+If we remove it from the sentence, the sentence remains grammatically complete.
+
+(@) [كَتَبَ زَيْدٌ]{.ar}  
+    "Zayd wrote."
+
+By the way,
+a ;fadlah; component 
+is not necessary to make a sentence grammatically complete.
+But it may affect the meaning drastically.
+
+Consider the following example:
+
+(@) [مَا رَأَيْتُ زَيْدًا]{.ar}  
+    "I did not see Zayd."
+
+If we remove the ;mafulb; [زَيْدًا]{.ar}, the sentence is grammatically complete but will have a very different meaning from the original:
+
+(@) [مَا رَأَيْتُ]{.ar}  
+    "I did not see."
+
+
+
+
+```yml
+non-essential components
+nested sentences
+```
+
 Some fact.^[@liheibi_sentence@ 245]
 
 Sometimes the ;3aamil; is required to be implicit.
