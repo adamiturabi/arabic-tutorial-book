@@ -1,5 +1,8 @@
 # Sentence and government theory
 
+## Introduction
+
+
 ## Basic components of the sentence
 
 There are two types of sentences in Arabic:
@@ -10,9 +13,10 @@ There are two types of sentences in Arabic:
 
     (@) [زَيْدٌ رَجُلٌ]{.ar}  
         "Zayd is a man."
-
+<!--
     (@) [زَيْدٌ كَتَبَ]{.ar}  
         "Zayd, he wrote."
+-->
 
 ii. The verbal sentence.
     It begins with a verb.
@@ -81,13 +85,57 @@ But it may affect the meaning drastically.
 
 Consider the following example:
 
-(@) [مَا رَأَيْتُ زَيْدًا]{.ar}  
+(@government-not-see-zayd) [مَا رَأَيْتُ زَيْدًا]{.ar}  
     "I did not see Zayd."
 
 If we remove the ;mafulb; [زَيْدًا]{.ar}, the sentence is grammatically complete but will have a very different meaning from the original:
 
 (@) [مَا رَأَيْتُ]{.ar}  
     "I did not see."
+
+## The theory of government
+
+We know that nouns and ;mudarie; verbs have a concept called _state_.
+When such a _stateful_ element is in a sentence, it will be in a particular state.
+But how do we know in which state we should put a stateful element?
+To determine this we use the theory of _government_.
+
+The theory of government states that every stateful element is governed by a _governor_.
+And that governor determines what state the stateful element will be in.
+The element governed by a governor is called a _governee_.
+For example,
+the rule for the government of a ;mafulb; is that the
+;mafulb; is governed typically by a verb.
+And the verb governs the
+;mafulb; in the ;astate;.
+
+So when we say (@government-not-see-zayd) [مَا رَأَيْتُ زَيْدًا]{.ar} 
+then the verb
+[رَأَيْتُ]{.ar} is the governor of the
+;mafulb; [زَيْدًا]{.ar} and governs it in the ;astate;.
+We can also say that
+the ;mafulb; [زَيْدًا]{.ar}
+is the governee of the governor
+[رَأَيْتُ]{.ar}.
+
+Similarly,
+the particle [لَمْ]{.ar} governs a ;mudarie; verb in the ;istate;.
+So if we say [لَمْ يَذْهَبْ زَيْدٌ]{.ar},
+then [لَمْ]{.ar} is the governor of the governee 
+[يَذْهَبْ]{.ar}.
+
+In a similar manner, other stateful elements like
+the ;mubtada;,
+the ;xabar;,
+the ;faa3il;,
+the ;mudafi;,
+etc.
+will have governors that are discussed in the literature.^[See @liheibi_sentence@]
+
+## The government of the preposition
+
+It is not just stateful elements that are governed
+
 
 ## Adding ;fadlah; elements to a sentence: the theory of government
 
