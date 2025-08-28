@@ -100,7 +100,8 @@ When such a _stateful_ element is in a sentence, it will be in a particular stat
 But how do we know in which state we should put a stateful element?
 To determine this we use the theory of _government_.^[@liheibi_sentence@ 107]
 
-The theory of government states that every stateful element is governed by a _governor_.
+The theory of government states that every stateful element is governed by one, and only one, _governor_.
+(One governor may, however, may govern multiple separate elements.)
 And that governor determines what state the stateful element will be in.
 The element governed by a governor is called a _governee_.
 For example,
@@ -171,7 +172,7 @@ is added as a ;ma3mul; of the conceptual ;3aamil; "existing."
 ## Governing a preposition
 
 In the Arabic grammatical model, prepositional phrases are ;fadlah; elements.
-In order to bring a ;fadlah; element into a sentence, a suitable element of the original sentence must act as governor of the new ;fadlah; element.
+In order to bring a ;fadlah; stateful element into a sentence, a suitable element of the original sentence must act as governor of the new ;fadlah; element.
 For example, consider the sentence
 
 (@) [جَلَسَ زَيْدٌ]{.ar}  
@@ -197,7 +198,7 @@ we introduced the concept of government for determining the state of an element.
 But prepositions don't have state. So why should they need to be governed, and in what manner may they be governed?
 
 This is a valid objection. 
-"Governing" a preposition is terminologically problematic.^[@owens_foundations_grammar@ 177]
+"Governing" a preposition is definitively problematic.^[@owens_foundations_grammar@ 177]
 However, we can get around it using the following reasoning:
 
 <!--
