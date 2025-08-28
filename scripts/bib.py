@@ -311,6 +311,13 @@ def populate_resource_list():
     ))
 
   resource_list.append(BibResource(
+    "abu_hayyan_tadhyeel"
+    , cit_text = "[التذييل والتكميل لأبي حيان]{.ar}"
+    , bib_text = "التذييل والتكميل في شرح كتاب التسهيل لأبي حيان الأندلسي  \n      " + format_url_ar("https://shamela.ws/book/17116")
+    , sort_key = "التذييل والتكميل لابي حيان"
+    ))
+
+  resource_list.append(BibResource(
     "ibn_hisham_mughni"
     , cit_text = "[مغني اللبيب لابن هشام]{.ar}"
     , bib_text = "مغني اللبيب عن كتب الأعاريب لابن هشام  \n      " + format_url_ar("https://shamela.ws/book/6972")
@@ -378,6 +385,13 @@ def populate_resource_list():
     , cit_text = 'Al-Liheibi,\\ F.\\ M.\\ M.\\, _Aspects of sentence analysis in the Arabic linguistic tradition_'
     , bib_text = 'Al-Liheibi,\\ F.\\ M.\\ M.\\, _Aspects of sentence analysis in the Arabic linguistic tradition, with particular reference to ellipsis_, Doctoral dissertation, Durham University, 1999. <https://etheses.dur.ac.uk/1494/>'
     , sort_key = 'Liheibi F M M Aspects of sentence analysis in the Arabic linguistic tradition'
+    ))
+
+  resource_list.append(BibResource(
+    "owens_foundations_grammar"
+    , cit_text = 'Owens,\\ J., _The foundations of grammar_'
+    , bib_text = 'Owens,\\ J., _The foundations of grammar: An introduction to medieval Arabic grammatical theory_, John Benjamins Publishing, 1988.'
+    , sort_key = 'Owens J The foundations of grammar'
     ))
 
   return resource_list
