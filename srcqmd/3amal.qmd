@@ -3,7 +3,7 @@
 ## Introduction
 
 
-## Basic components of the sentence
+## Basic elements of the sentence
 
 There are two types of sentences in Arabic:
 
@@ -40,14 +40,14 @@ The Arabic sentence,
 (whether a
 ;mubtada;-;xabar; sentence,
 or a verbal sentence)
-has two basic components:
+has two basic elements:
 
  i. The _;musnadi;_
 ii. The _;musnad;_
 
-The _;musnadi;_
+The ;musnadi;
 and
-the _;musnad;_
+the ;musnad;
 complement each other.
 The ;musnadi; provides support to the ;musnad;.
 And the ;musnad; relies upon the ;musnadi;.
@@ -61,27 +61,27 @@ And in the verbal sentence,
 the ;faa3il; is the ;musnadi;.
 And the verb is the ;musnad;.
 
-The _;musnadi;_
+The ;musnadi;
 and
-the _;musnad;_
-are the two _;3umdah;_ components of a sentence, without which the sentence is not complete.
-Any other components that are added are considered _;fadlah;_.
+the ;musnad;
+are the two _;3umdah;_ elements of a sentence, without which the sentence is not complete.
+Any other elements that are added are considered _;fadlah;_.
 
 Consider the following example:
 
 (@) [كَتَبَ زَيْدٌ كِتَابًا]{.ar}  
     "Zayd wrote a book."
 
-In the above example, the ;mafulb; [كِتًابًا]{.ar} is considered a ;fadlah; component.
+In the above example, the ;mafulb; [كِتًابًا]{.ar} is considered a ;fadlah; element.
 If we remove it from the sentence, the sentence remains grammatically complete.
 
 (@) [كَتَبَ زَيْدٌ]{.ar}  
     "Zayd wrote."
 
 By the way,
-a ;fadlah; component 
-is not necessary to make a sentence grammatically complete.
-But it may affect the meaning drastically.
+even though a ;fadlah; element 
+is not necessary to make a sentence grammatically complete,
+removing it may affect the meaning drastically.
 
 Consider the following example:
 
@@ -149,7 +149,7 @@ a governor
 
 
 ```yml
-non-essential components
+non-essential elements
 nested sentences
 ```
 
@@ -199,7 +199,7 @@ But prepositions don't have state. So why should they need to be governed, and i
 
 This is a valid objection. 
 "Governing" a preposition is definitively problematic.^[@owens_foundations_grammar@ 177]
-However, we can get around it using the following reasoning:
+However, we can work around this problem with the following reasoning:
 
 <!--
 The preposition

@@ -41,6 +41,7 @@ map_table["passive"] = {"passive", nil} -- "unknown-doer" verb?
 map_table["3aamil"] = {"governor", nil}
 map_table["ma3mul"] = {"governee", nil}
 map_table["3amal"] = {"government", nil}
+map_table["3umdah"] = {"indispensable", nil}
 
 -- alphabetical
 map_table["3aaid"] = {"refer-back pronoun", nil}
@@ -56,6 +57,7 @@ map_table["dharf_makan"] = {"adverb of place", nil}
 map_table["dharf_zaman"] = {"adverb of time", nil}
 
 map_table["faa3il"] = {"doer", nil}
+map_table["fadlah"] = {"redundant", nil} -- dispensable
 
 map_table["hal"] = {"HAl", "trn2"}
 
@@ -91,6 +93,8 @@ map_table["mudafil"] = {"base noun", nil}
 map_table["mudarie"] = {"resembling", nil} -- {"muDArie", "trn2"} -- "stateful" verb?
 map_table["mushar_il"] = {"pointed-to noun", nil} -- {"muDArie", "trn2"}
 map_table["mushtaqq"] = {"derived", nil}
+map_table["musnad"] = {"supported element", nil} -- complement
+map_table["musnadi"] = {"supporting element", nil} -- rock, mainstay, anchor
 map_table["mutaddi"] = {"transitive", nil}
 
 map_table["naib"] = {"deputy", nil}
