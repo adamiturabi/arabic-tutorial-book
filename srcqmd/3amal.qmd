@@ -98,7 +98,7 @@ If we remove the ;mafulb; [زَيْدًا]{.ar}, the sentence is grammatically c
 We know that nouns and ;mudarie; verbs have a concept called _state_.
 When such a _stateful_ element is in a sentence, it will be in a particular state.
 But how do we know in which state we should put a stateful element?
-To determine this we use the theory of _government_.
+To determine this we use the theory of _government_.^[@liheibi_sentence@ 107]
 
 The theory of government states that every stateful element is governed by a _governor_.
 And that governor determines what state the stateful element will be in.
@@ -132,7 +132,6 @@ the ;faa3il;,
 the ;mudafi;,
 etc.
 will have governors that are discussed in the literature.^[See @liheibi_sentence@]
--->
 
 ## The government of the preposition
 
@@ -166,6 +165,66 @@ where "great" and "existing" are the ;na3t;s.
 Then the ;shibh_jumlah; 
 [مِنَ ٱلْقَرْيَتَيْنِ]{.ar}
 is added as a ;ma3mul; of the conceptual ;3aamil; "existing."
+
+-->
+
+## Governing a preposition
+
+In the Arabic grammatical model, prepositional phrases are ;fadlah; elements.
+In order to bring a ;fadlah; element into a sentence, a suitable element of the original sentence must act as governor of the new ;fadlah; element.
+For example, consider the sentence
+
+(@) [جَلَسَ زَيْدٌ]{.ar}  
+    "Zayd sat."
+
+We would like to add the prepositional phrase
+[عَلَى ٱلْأَرْضِ]{.ar}
+"on the ground" to the sentence, thus:
+
+(@) [جَلَسَ زَيْدٌ عَلَى ٱلْأَرْضِ]{.ar}  
+    "Zayd sat on the ground."
+
+In order to do this, a suitable element in the original sentence 
+([جَلَسَ زَيْدٌ]{.ar})
+must act as the governor for the preposition
+[عَلَىٰ]{.ar}.
+The verb
+[جَلَسَ]{.ar}
+is this suitable element.
+
+Now, you may be thinking:
+we introduced the concept of government for determining the state of an element.
+But prepositions don't have state. So why should they need to be governed, and in what manner may they be governed?
+
+This is a valid objection. 
+"Governing" a preposition is terminologically problematic.^[@owens_foundations_grammar@ 177]
+However, we can get around it using the following reasoning:
+
+<!--
+The preposition
+[عَلَىٰ]{.ar}
+is followed by the
+[ٱلْأَرْضِ]{.ar}
+in the ;istate;.
+-->
+The noun
+[ٱلْأَرْضِ]{.ar}
+is governed by the preposition
+[عَلَىٰ]{.ar}
+and not directly by the verb
+[جَلَسَ]{.ar}
+This is because it is the preposition which _causes_ the noun following it to be in the ;istate;.
+So in order to bring the stateful (;fadlah;) element
+[ٱلْأَرْض]{.ar}
+in the sentence, it has to be by means of its governor
+[عَلَىٰ]{.ar}.
+So saying that
+[عَلَىٰ]{.ar}
+is governed by
+[جَلَسَ]{.ar}
+allows us to have a (necessarily) unbroken chain of governorns to the ;fadlah; (and stateful) element 
+[ٱلْأَرْض]{.ar}.
+
 
 ## Notes
 
