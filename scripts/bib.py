@@ -271,6 +271,13 @@ def populate_resource_list():
     ))
 
   resource_list.append(BibResource(
+    "sarraj_usool"
+    , cit_text = "[الأصول في النحو لابن السراج]{.ar}"
+    , bib_text = "الأصول في النحو لابن السراج  \n      "+format_url_ar("https://shamela.ws/book/7365")
+    , sort_key = "اصول في النحو لابن السراج"
+    ))
+
+  resource_list.append(BibResource(
     "za3balawi_dirasat"
     , cit_text = "[دراسات في النحو للزعبلاوي]{.ar}"
     , bib_text = "دراسات في النحو، تأليف: صلاح الدين الزعبلاوي، "+format_url_ar("https://shamela.ws/book/2120")
@@ -331,6 +338,12 @@ def populate_resource_list():
     , sort_key = "جامع الدروس العربيه لمصطفي الغلاييني"
     ))
 
+  resource_list.append(BibResource(
+    "ali_hani_min_ba3d"
+    , cit_text = "[من الفرق بين بعد ومن بعد في اللفظ القرآني لعلي هاني]{.ar}"
+    , bib_text = "من الفرق بين بعد ومن بعد في اللفظ القرآني لعلي هاني"
+    , sort_key = "من الفرق بين بعد ومن بعد في اللفظ القراني لعلي هاني"
+    ))
   # Western
 
   resource_list.append(BibResource(

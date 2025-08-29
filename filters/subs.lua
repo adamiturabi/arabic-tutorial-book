@@ -57,7 +57,7 @@ map_table["dharf_makan"] = {"adverb of place", nil}
 map_table["dharf_zaman"] = {"adverb of time", nil}
 
 map_table["faa3il"] = {"doer", nil}
-map_table["fadlah"] = {"redundant", nil} -- dispensable
+map_table["fadlah"] = {"dispensable", nil} -- dispensable, redundant
 
 map_table["hal"] = {"HAl", "trn2"}
 
@@ -69,8 +69,10 @@ map_table["ism_of"] = {"subject", nil}
 map_table["ism_maful"] = {"doee participle", nil}
 map_table["ism_marrah"] = {"one-time noun", nil}
 map_table["ism_hay2ah"] = {"noun of kind", nil}
+map_table["ism_makan"] = {"noun of place", nil}
 map_table["ism_masdar"] = {"quasi-maṣdar", nil}
 map_table["ism_mawsul"] = {"connected noun", nil}
+map_table["ism_zaman"] = {"noun of time", nil}
 
 map_table["jamid"] = {"underived", nil}
 map_table["jawab"] = {"consequence", nil}
@@ -113,6 +115,8 @@ map_table["shibh_jumlah"] = {"quasi-sentence", nil}
 
 map_table["x"] = {"✗", nil}
 map_table["xabar"] = {"comment", nil}
+
+map_table["zaaid"] = {"redundant", nil}
 
 
 function get_map_table_value(input_text)

@@ -1673,6 +1673,10 @@ For example:
     [@ghalayini_jaami3@ 3/101]{.citex}  
     "I looked at the sparrow on the branch."
 
+(@haal-shibh-jumlah-wrote) [كتب عمر إلى أبي عبيدة بالشام]{.ar}
+    [@sarraj_usool@ 2/52]{.citex}  
+    "[#eumar]{.trn2} wrote to [#abI #eubaydah]{.trn2} in Syria."
+
 (@) [فَخَرَجَ عَلَىٰ قَوْمِهِ فِى زِينَتِهِ]{.ar}
     [@https://quran.com/28/79@ cited by @ibn_hisham_awdah_almasaalik@ 2/285]{.citex}  
     "So he came out before his people in his adornment."  
@@ -1730,8 +1734,19 @@ But, loosely speaking, we may say that the ;shibh_jumlah;
 [عَلَى ٱلْغُصْنِ]{.ar}
 is the ;hal;.
 
+Similarly,
+in example (@haal-shibh-jumlah-wrote) [كتب عمر إلى أبي عبيدة بالشام]{.ar},
+the act of writing was dony by [#eumar]{.trn2} in [al-#HijAz]{.trn2}, not in Syria.
+So the prepositional phrase
+[بالشام]{.ar}
+is describing the state of
+[#abU #eubaydah]{.trn2}
+while he was in Syria.
+
 This is yet another instance of where the lines between different types of adverbs get blurred.
 In fact, some grammarians have classified the ;hal; to be of the same class of adverbs as the ;dharf_zaman; and the ;dharf_makan;.^[@muqtadab@ 4/166]
+
+
 
 From the perspective of meaning,
 the ;shibh_jumlah;
@@ -1790,7 +1805,17 @@ Let's use this test on some of the examples above.
 
 There may be examples where a ;shibh_jumlah; could be validly interpreted either as a ;hal; 
 (governed by an implied ;3aamil; meaning "being"),
-or as governed by an overt verb.^[See, for example, the [tafsIr]{.trn2} of [تَحْتَ ٱلشَّجَرَةِ]{.ar} in @https://tafsir.app/albahr-almuheet/48/18@]
+or as governed by an overt verb.^[See also, for example, the [tafsIr]{.trn2} of [تَحْتَ ٱلشَّجَرَةِ]{.ar} in @https://tafsir.app/albahr-almuheet/48/18@]
+For example:
+
+(@) [رأيتُ زيدًا في الدار]{.ar}
+    [@sarraj_usool@ 2/52]{.citex}  
+    "I saw Zayd in the house."
+
+Without context, the prepositional phrase
+[في الدار]{.ar}
+could either be governed by [رَأَىٰ]{.ar}, signifying that the act of seeing was done in the house.
+Or it could be governed by the implication of general beingness, as a ;hal; for [زَيْد]{.ar}.^[@sarraj_usool@ 2/52]
 
 ## Interpreting a sentence as a ;hal; vs. a ;na3t;
 
