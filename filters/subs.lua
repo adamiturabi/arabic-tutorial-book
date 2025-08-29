@@ -108,6 +108,7 @@ map_table["sahib_hal"] = {"person of ḥāl", nil}
 map_table["sahibs_hal"] = {"persons of ḥāl", nil}
 map_table["sifah"] = {"adjectival noun", nil}
 map_table["sifah_mush"] = {"quasi-participle", nil} -- {"participlish adjectival noun", nil} -- "participle-like"?
+map_table["sighah_mub"] = {"emphatic noun", nil} -- {"participlish adjectival noun", nil} -- "participle-like"?
 map_table["silah"] = {"connecting sentence", nil}
 map_table["shart"] = {"condition", nil}
 map_table["shibh_fi3l"] = {"quasi-verb", nil}
