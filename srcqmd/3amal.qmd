@@ -545,7 +545,7 @@ is in example (@sentence-prep-phrase-na3t) above.
 In the case where the prepositional phrase occurs after a definite noun,
 (like in [رأيتُ ٱلطائر على الغصن]{.ar})
 it will typically be analyzed as a ;hal;.
-We will discuss this in more detail in section\ (ref) ;ia;.
+We will discuss this in more detail in chapter\ (ref) section\ (ref) ;ia;.
 
 Here are some more examples of prepositional phrases as ;na3t;s:
 
@@ -557,24 +557,38 @@ Here are some more examples of prepositional phrases as ;na3t;s:
 -->
 
 (@) [كَمَثَلِ جَنَّةٍ بِرَبْوَةٍ]{.ar}
-    [@https://quran.com/9/128@]{.citex}  
-    "like a garden on high ground"
+    [@https://quran.com/2/265@]{.citex}  
+    "like a garden on high ground"  
     ([بِرَبْوَةٍ]{.ar} is analyzed as a ;na3t;.^[@https://tafsir.app/albahr-almuheet/2/265@])
 
 (@) [رَبَّنَا وَٱبْعَثْ فِیهِمْ رَسُولًا مِّنْمْهُ]{.ar}
-    [@https://quran.com/2/265@]{.citex}  
+    [@https://quran.com/2/129@]{.citex}  
+    "Our Lord, and send among them a messenger from themselves"  
     ([مِنْهُمْ]{.ar} is analyzed as a ;na3t;.^[@https://tafsir.app/albahr-almuheet/2/129@])
+
+<!--
+(@) [وَقَالُوا لَوْلَا نُزِّلَ هَـٰذَا ٱلْقُرْءَانُ عَلَىٰ رَجُلٍ مِنَ ٱلْقَرْيَتَيْنِ عَظِيمٍ]{.ar}
+    [@https://quran.com/43/31@]{.citex}  
+    And they said, "Why was this Qur’ān not sent down upon a great man from [one of] the two cities?"  
+-->
+
 
 When a prepositional phrase is, loosely speaking, a ;na3t;,
 its governor is typically the implicated general beingness.^[@ibn_hisham_awdah_almasaalik@ 2/285, @ibn_aqil_alfiyyah@ 1/213].
 In fact, some grammarians insist that the implied governor can only be general beingness.^[@https://tafsir.app/albahr-almuheet/3/194@ ([مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ]{.ar})]
 However, it is conceivable that the implied governor of the preposition be some other verb (or verbal noun).^[For example, [رِجْسًا إِلَىٰ رِجْسِهِمْ]{.ar} is explained as [كفراً مضموما إلى كفرهم]{.ar} in @https://tafsir.app/kashaf/9/125@.]
 
+<!--
 ### The order of different ;na3t;s
 
+When a ;manut; is described by more than one ;na3t; and 
 @nahw_wafi@ 3/496
+-->
 
 ### The prepositional phrase in other functions
+
+Besides the ;xabar; and the ;na3t; a prepositional phrase may also occur as a ;hal; and a ;silah;.
+We will cover these two remaining topics in their respective chapters in sections\ (ref) and (ref) respectively.
 
 ## The government of the ;mudafil; in an ;idaafah;
 
@@ -589,6 +603,8 @@ There is some dispute with regard to what element governs the ;mudafil;.
 The obvious contender is the ;mudaf;, ([كِتَاب]{.ar}) since apparently it _causes_ the ;mudafil; to be in the ;istate;.
 However, some grammarians disliked the idea of a noun being a governor and so they have provided altenate theories.^[@owens_foundations_grammar@ §9.2.2.2.5 242--243]
 But for our purposes, we can ignore those theories and consider the ;mudaf; to govern the ;mudafil;.
+
+## Nested sentences
 
 ## Notes
 
