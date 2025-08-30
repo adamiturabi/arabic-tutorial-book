@@ -261,10 +261,10 @@ will govern
 
 ADD DIAGRAM
 
-Another way to look at this is that a prepositional phrase may be parsed (virtually) as a ;mafulb;.^[@kasher_intransitive_verb@ §3.1 124 citing [ابن جني]{.ar}; @nahw_wafi@ 2/439; @owens_foundations_grammar@ 176 citing [المبرد]{.ar}, [ابن جني]{.ar}, [الزجاجب]{.ar}.]
+Another way to look at this is that a prepositional phrase may be parsed (virtually) as a ;mafulb;.^[@kasher_intransitive_verb@ §3.1 124 citing [ابن جني]{.ar}; @nahw_wafi@ 2/439; @owens_foundations_grammar@ 176 citing [المبرد]{.ar}, [ابن جني]{.ar}, [الزجاجي]{.ar}.]
 Consider the example:
 
-(@) [مَرَرْتُ بِزَيْدٍ]{.ar}
+(@sentence-pass-zayd) [مَرَرْتُ بِزَيْدٍ]{.ar}  
     "I passed by Zayd."
 
 In the above example, the prepositional phrase
@@ -273,7 +273,8 @@ may be parsed (virtually) as in the ;astate; as a ;mafulb;.
 So much so, that if we wish to add a second ;maful; using a ;3atf; then it may be added in the ;astate;.
 For example:
 
-(@) [مَرَرْتُ بِزَيْدٍ وَعَمْرًا]{.ar} ^[Not all grammarians permit this. See @ali_hani_ta3alluq@ footnote 34 for details.]
+(@) [مَرَرْتُ بِزَيْدٍ وَعَمْرًا]{.ar}
+    ^[Not all grammarians permit this. See @ali_hani_ta3alluq@ footnote 34 for details.]  
     "I passed by Zayd and [#eamr]{.trn2}."
 
 Of course the more usual 
@@ -306,6 +307,35 @@ allows us to have a (necessarily) unbroken dependency of governorns to add the ;
 -->
 
 ### Prepositions not needing a governor
+
+What we have just said regarding a preposition requiring a governor is true of _essential_ prepositions.
+An essential preposition is that which, by its addition, gives a distinctly new meaning to the sentence.
+They are also used to connect an indirect ;maful; to its governing verb.
+The preposition [ب]{.ar} in (@sentence-pass-zayd) [مَرَرْتُ بِزَيْدٍ]{.ar} is an example of an essential preposition.
+
+There also exist _non-essential_ prepositions.
+These merely give emphasis to an existing meaning in the sentence.
+Non-essential prepositions do not need a governor.
+Here is an example of a non-essential preposition:
+
+(@) [ما جاء من رجلٍ]{.ar}
+    [@ali_hani_ta3alluq@]{.citex}  
+    "Not a man came."
+
+The preposition [مِنْ]{.ar} only emphasizes the meaning of the sentence.
+If we drop if the basic meaning would remain the same:
+
+(@) [ما جاء رجلٌ]{.ar}
+    [@ali_hani_ta3alluq@]{.citex}  
+    "Not a man came."
+
+By the way,
+[مِنْ]{.ar} happens to be a non-essential preposition in the example above.
+But it may be an essential preposition in other sentences.
+For example:
+
+(@) [خَرَجَ زَيْدٌ مِنَ ٱلْبَيْتِ]{.ar}  
+    "Zayd came out from the house."
 
 ### Valid governors of the preposition
 
@@ -479,12 +509,82 @@ the preposition in
 not
 [كَفَرَ]{.ar}.^[@https://tafsir.app/aldur-almasoon/5/3@]
 
-###
+### The combination of verbs with prepostions: the indirect ;maful;
 
 In theory,
-prepositions impart their own meanings.
-And there is no restriction on which prepositions may be used with a given governing verb (or verbal noun).
-The only condition is that the prepositional phrase be meaningfully connected with its governor.
+prepositions impart their own meanings.^[@kasher_intransitive_verb@ §2.7 124]
+And there is no restriction on which prepositions may be used with a given governing verb (or verbal noun),
+as long as the prepositional phrase be meaningfully connected with its governor.^[@nahw_wafi@ 2/161]
+
+The following examples show a possible set of prepositions that are meaningfully governed by the verb
+[ٱنْصَرَفَ]{.ar} "to turn around, leave":
+
+(@) [ٱنْصَرَفَ إِلَىٰ مَصْنَعِهِ]{.ar}
+    [@nahw_wafi@ 2/161]{.citex}  
+    "He left to his workplace."
+
+(@) [ٱنْصَرَفَ مِنَ ٱلْمَصْنَعِ إِلَىٰ بَيْتِهِ]{.ar}
+    [@nahw_wafi@ 2/161]{.citex}  
+    "He left from the workplace to his house."
+
+(@) [ٱنْصَرَفَ ٱلْعَالِمُ عَنِ ٱلْهَزْلِ]{.ar}
+    [@nahw_wafi@ 2/161]{.citex}  
+    "The scholar left off joking."
+
+(@) [ٱنْصَرَفَ فِي سَيَّارَتِهِ]{.ar}
+    [@nahw_wafi@ 2/161]{.citex}  
+    "He left in his caravan."
+
+Having said that,
+in practice,
+certain verbs are more meaningfully connected with certain prepositions, sometimes almost to the exclusion of others.^[@kasher_intransitive_verb@ §3.3]
+For example, the verb
+[أَقْسَمَ]{.ar} "to swear"
+requires the preposition [بِ]{.ar} in order to transit to what is being sworn by.^[@kasher_intransitive_verb@ §3.3 129 citing [ابن الأنباري]{.ar}]
+For example,
+
+(@) [أقسم بالله]{.ar}
+    [@anbari_asrar@ 203]{.citex}  
+    "I swear by [#allAh]{.trn2}"
+
+The combination of a verb and its governed preposition can even acquire a specific meaning.
+Consider, for example, the verb
+[وَجَدَ]{.ar}.
+It's basic meaning is "to find."
+It may be used with prepositions like
+[بِ]{.ar},
+[عَلَىٰ]{.ar},
+[فِي]{.ar}
+with this basic meaning.
+For example:
+
+(@) [وَجَدْتُ ٱلْكِتَابَ بِجَهْدٍ]{.ar}  
+    "I found the book with effort."
+
+(@) [وَجَدْتُ ٱلْكِتَابَ فِي ٱلْبَيْتِ]{.ar}  
+    "I found the book in the house."
+
+(@) [وَجَدْتُ ٱلْكِتَابَ عَلَى ٱلْخِزَانَةِ]{.ar}  
+    "I found the book on the cupboard."
+
+But this verb also has specific meanings when used with these prepositions and certain indirect ;maful;s
+(albeit possibly with different ;masdar;s).
+For example:
+
+(@) [وَجَدَ عَلَيْهِ]{.ar}
+    [Lane: root [وجد]{.ar}]{.citex}  
+    "He was angry with him."
+
+(@) [وَجَدَ بِهَا]{.ar}
+    [Lane: root [وجد]{.ar}]{.citex}  
+    "He loved her."
+
+(@) [قَدْ وَجَدَ فِي نَفْسِهِ عَلَىَّ]{.ar}
+    [@https://sunnah.com/muslim:1649b@]{.citex}  
+    "he may have some feelings against me"
+
+In such cases, the preposition almost seems to lose some of its independent meaning.
+Instead, the meaning of the expression is obtained from the combination of the verb with the prepostion.
 
 ### The implication of general beingness
 

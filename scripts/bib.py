@@ -180,6 +180,7 @@ def populate_resource_list():
     "kashaf"
     , cit_text = "[الكشاف للزمخشري]{.ar}"
     , bib_text = "الكشاف للزمخشري، " + format_url_ar("https://tafsir.app")
+    , sort_key = "كشاف للزمخشري"
     ))
  
   resource_list.append(BibResource(
@@ -192,7 +193,7 @@ def populate_resource_list():
     "farraa"
     , cit_text = "[معاني القرآن للفراء]{.ar}"
     , bib_text = "معاني القرآن للفراء، " + format_url_ar("https://tafsir.app")
-    , sort_key = "[معاني القران للفرا]{.ar}"
+    , sort_key = "معاني القران للفرا"
     ))
 
   resource_list.append(BibResource(
@@ -200,6 +201,13 @@ def populate_resource_list():
     , cit_text = "[إعراب القرآن للدرويش]{.ar}"
     , bib_text = "إعراب القرآن للدرويش، " + format_url_ar("https://tafsir.app")
     , sort_key = "اعراب القران للدرويش"
+    ))
+
+  resource_list.append(BibResource(
+    "aldur-almasoon"
+    , cit_text = "[الدر المصون للسمين الحلبي]{.ar}"
+    , bib_text = "الدر المصون للسمين الحلبي، " + format_url_ar("https://tafsir.app")
+    , sort_key = "الدر المصون للسمين الحلبي"
     ))
 
   # General
@@ -278,6 +286,20 @@ def populate_resource_list():
     ))
 
   resource_list.append(BibResource(
+    "sabban"
+    , cit_text = "[حاشية الصبان على شرح الأشمونى لألفية ابن مالك]{.ar}"
+    , bib_text = "حاشية الصبان على شرح الأشمونى لألفية ابن مالك  \n      "+format_url_ar("https://shamela.ws/book/11539")
+    , sort_key = "حاشيه الصبان على شرح الاشمونى لالفية ابن مالك"
+    ))
+
+  resource_list.append(BibResource(
+    "ibn_jinni_khasaais"
+    , cit_text = "[الخصائص لابن جني]{.ar}"
+    , bib_text = "الخصائص لابن جني  \n      "+format_url_ar("https://shamela.ws/book/9986")
+    , sort_key = "خصايص لابن جني"
+    ))
+
+  resource_list.append(BibResource(
     "za3balawi_dirasat"
     , cit_text = "[دراسات في النحو للزعبلاوي]{.ar}"
     , bib_text = "دراسات في النحو، تأليف: صلاح الدين الزعبلاوي، "+format_url_ar("https://shamela.ws/book/2120")
@@ -321,7 +343,7 @@ def populate_resource_list():
     "abu_hayyan_tadhyeel"
     , cit_text = "[التذييل والتكميل لأبي حيان]{.ar}"
     , bib_text = "التذييل والتكميل في شرح كتاب التسهيل لأبي حيان الأندلسي  \n      " + format_url_ar("https://shamela.ws/book/17116")
-    , sort_key = "التذييل والتكميل لابي حيان"
+    , sort_key = "تذييل والتكميل لابي حيان"
     ))
 
   resource_list.append(BibResource(
@@ -329,6 +351,27 @@ def populate_resource_list():
     , cit_text = "[مغني اللبيب لابن هشام]{.ar}"
     , bib_text = "مغني اللبيب عن كتب الأعاريب لابن هشام  \n      " + format_url_ar("https://shamela.ws/book/6972")
     , sort_key = "مغني اللبيب لابن هشام"
+    ))
+
+  resource_list.append(BibResource(
+    "tasreeh_hashiyat_yasin"
+    , cit_text = "[شرح التصريح وحاشية ياسين]{.ar}"
+    , bib_text = "شرح التصريح وحاشية ياسين  \n      " + format_url_ar("https://archive.org/details/hmmt00291/")
+    , sort_key = "شرح التصريح وحاشية ياسين"
+    ))
+
+  resource_list.append(BibResource(
+    "3akbari_tibyan"
+    , cit_text = "[التبيان في إعراب القرآن للعكبري]{.ar}"
+    , bib_text = "التبيان في إعراب القرآن للعكبري  \n      " + format_url_ar("https://shamela.ws/book/22928")
+    , sort_key = "تبيان في اعراب القران للعكبري"
+    ))
+
+  resource_list.append(BibResource(
+    "anbari_asrar"
+    , cit_text = "[أسرار العربية للأنباري]{.ar}"
+    , bib_text = "أسرار العربية للأنباري  \n      " + format_url_ar("https://shamela.ws/book/7502")
+    , sort_key = "اسرار العربية للانباري"
     ))
 
   resource_list.append(BibResource(
@@ -344,6 +387,14 @@ def populate_resource_list():
     , bib_text = "من الفرق بين بعد ومن بعد في اللفظ القرآني لعلي هاني"
     , sort_key = "من الفرق بين بعد ومن بعد في اللفظ القراني لعلي هاني"
     ))
+
+  resource_list.append(BibResource(
+    "ali_hani_ta3alluq"
+    , cit_text = "[استيفاء حالات تعلق الجار والمجرور و الظرف وأثره في المعنى لعلي هاني]{.ar}"
+    , bib_text = "استيفاء حالات تعلق الجار والمجرور و الظرف وأثره في المعنى لعلي هاني"
+    , sort_key = "استيفا حالات تعلق الجار والمجرور و الظرف واثره في المعنى لعلي هاني"
+    ))
+
   # Western
 
   resource_list.append(BibResource(
@@ -407,5 +458,11 @@ def populate_resource_list():
     , sort_key = 'Owens J The foundations of grammar'
     ))
 
+  resource_list.append(BibResource(
+    "kasher_intransitive_verb"
+    , cit_text = 'Kasher,\\ A., "The term _al-fiʿl al-mutaʿaddī bi-ḥarf jarr_"'
+    , bib_text = 'Kasher,\\ A., "The term _al-fiʿl al-mutaʿaddī bi-ḥarf jarr_ (lit. “the verb which ‘passes over’ through a preposition”) in medieval Arabic grammatical tradition", in _Journal of Arabic and Islamic Studies_, 13, pp. 115--145, 2013. <https://doi.org/10.5617/jais.4630>'
+    , sort_key = 'Kasher A The term alfil almutaaddi biharf jarr'
+    ))
   return resource_list
 
