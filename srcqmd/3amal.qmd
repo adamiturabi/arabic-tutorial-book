@@ -332,10 +332,30 @@ For example:
 
 ### One governor governing multiple prepositions
 
-One governor can govern multiple governees of different types with no problems.
+One governor can govern multiple different prepositions with no problems.
 For example:
 
-But if the governees are of the same type, in this case prepositions, then there may be restrictions.
+But if the multiple governees are the same prepositon, then in general they may not be governed by the same governor.^[@nahw_wafi@ 2/444 footnote 3]
+So we can't say:
+
+(@) ;x; [مَرَرْتُ بِزَيْدٍ بِعَمْرٍو]{.ar}
+    [@tasreeh_hashiyat_yasin@ 1/378]{.citex}  
+    "I passed by Zayd by [#eamr]{.trn2}"  
+    (although, separting the second preposition with a ;3atf; is of course allowed: [مَرَرْتُ بِزَيْدٍ وَبِعَمْرٍو]{.ar}.)
+
+But if the same preposition is used with different meanings then it is permissible to have them being governed by the same governor.
+For example:
+
+(@) [مَرَرْتُ بِزَيْدٍ بِٱلْبَادِيَةِ]{.ar}
+    [@tasreeh_hashiyat_yasin@ 1/378]{.citex}  
+    "I passed _by_ Zayd _in_ the desert."
+
+If the first preposition restricts the verb, and the second preposition is applied after the verb has been restricted, then too may the multiple same prepositions be used.^[@nahw_wafi@ 2/444 footnote 3]
+For example:
+
+(@) [كُلَّمَا رُزِقُوا مِنْهَا مِنْ ثَمَرَةٍ رِّزْقًا]{.ar}
+    [@https://quran.com/2/25@]{.citex}  
+    (The first [مِنْ]{.ar} restricts the governing verb [رُزِقُوا]{.ar} to [ٱلْجَنًّات]{.ar} "the gardens". And the second [مِنْ]{.ar} is restricted to "from the fruit from the gardens."^[@https://tafsir.app/kashaf/2/25@])
 
 ### The preposition preceding its governor
 
