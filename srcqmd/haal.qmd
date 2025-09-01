@@ -1657,6 +1657,7 @@ There may be other purposes as well.^[@maani_nahw@ 2/368--369]
       
 ## A ;shibh_jumlah; as the ;hal;
 
+(Compare this section to section\ (ref).)
 A ;shibh_jumlah;, in this context, is a prepositional or adverbial phrase.
 For example: 
 [عَلَى ٱلْغُصْنِ]{.ar}
@@ -1713,12 +1714,12 @@ So, in this case, we say that
 is an adverb of place, but it is governed,
 not by the verb
 [رَأَىٰ]{.ar},
-but by an implied conceptual ;3aamil; that has the meaning of "existing" or "being".
+but by an implied general beingness (see section\ (ref))
 So it is as if we are saying:
 
 "I saw the crescent (while it was) [being]^between\ the\ clouds^."
 
-And it is this implied conceptual ;3aamil; "being" which is technically the ;hal;.^[@ghalayini_jaami3@ 3/101]
+And it is this implied general beingness which is technically the ;hal;.^[@ghalayini_jaami3@ 3/101]
 While
 [بَيْنَ]{.ar}
 remains (technically) an ;dharf_makan;.
@@ -1768,8 +1769,9 @@ describes the state of the ;sahib_hal;
 [ٱلْعُصْفُور]{.ar}
 during the occurrence of the verb [نَظَرَ]{.ar}.
 
-A ;shibh_jumlah; can thus only be a ;hal; if it is governed by an implied (unexpressed) ;3aamil; which has the meaning of "is" or "being".^[@ibn_hisham_awdah_almasaalik@ 2/285, @ibn_aqil_alfiyyah@ 1/213].
+<!--
 So the ;shibh_jumlah; ;hal; must be uninfluenced, or pre-existing, before the action of any overt verb in the preceding statement.
+-->
 
 Here is an example of where the ;shibh_jumlah; does not work as a ;hal;:
 
@@ -1821,6 +1823,28 @@ Without context, the prepositional phrase
 [في الدار]{.ar}
 could either be governed by [رَأَىٰ]{.ar}, signifying that the act of seeing was done in the house.
 Or it could be governed by the implication of general beingness, as a ;hal; for [زَيْد]{.ar}.^[@sarraj_usool@ 2/52]
+
+A ;shibh_jumlah; can only be a ;hal; if it is governed by an implied (unexpressed) ;3aamil;.
+This implicated ;3aamil; will typically be general beingness, as in the examples above.^[@ibn_hisham_awdah_almasaalik@ 2/285, @ibn_aqil_alfiyyah@ 1/213]
+In fact, some grammarians insist that the implied governor can only be general beingness.^[@https://tafsir.app/albahr-almuheet/3/194@ ([مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ]{.ar})]
+However, it is conceivable that the implied governor of the preposition be interpreted, if not formally then at least in meaning, as some other verb (or verbal noun).^[@nahw_wafi@ 2/447 footnote]
+For example:
+
+(@) [رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ]{.ar}
+    [@https://quran.com/3/194@]{.citex}  
+    "Our Lord, and grant us what You promised us through Your messengers"
+
+In one interpretation of the above [Ayah]{.trn2},
+the 
+prepositional phrase
+[عَلَىٰ رُسُلِكَ]{.ar}
+"through Your messengers"
+has been analyzed as ;hal; of
+[مَا وَعَدتَّنَا]{.ar}
+"what You promised us"
+The meaning with the implicated governor has been explained as
+[مُنَزَّلًا عَلَيْهِمْ]{.ar}
+"_sent down_ on [Your messengers]."^[@https://tafsir.app/ibn-aashoor/3/194@]
 
 ## Interpreting a sentence as a ;hal; vs. a ;na3t;
 
