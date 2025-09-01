@@ -464,5 +464,13 @@ def populate_resource_list():
     , bib_text = 'Kasher,\\ A., "The term _al-fiʿl al-mutaʿaddī bi-ḥarf jarr_ (lit. “the verb which ‘passes over’ through a preposition”) in medieval Arabic grammatical tradition", in _Journal of Arabic and Islamic Studies_, 13, pp. 115--145, 2013. <https://doi.org/10.5617/jais.4630>'
     , sort_key = 'Kasher A The term alfil almutaaddi biharf jarr'
     ))
+
+  resource_list.append(BibResource(
+    "peled_sentence_types"
+    , cit_text = 'Peled,\\ Y., _Sentence types and word-order patterns in written Arabic_'
+    , bib_text = 'Peled,\\ Y., _Sentence types and word-order patterns in written Arabic: Medieval and modern perspectives_, Brill, 2008. <https://doi.org/10.1163/ej.9789004170629.i-250>'
+    , sort_key = 'Peled Y Sentence types and word-order patterns in written Arabic'
+    ))
+
   return resource_list
 
