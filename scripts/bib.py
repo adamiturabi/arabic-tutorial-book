@@ -469,7 +469,7 @@ def populate_resource_list():
     "peled_sentence_types"
     , cit_text = 'Peled,\\ Y., _Sentence types and word-order patterns in written Arabic_'
     , bib_text = 'Peled,\\ Y., _Sentence types and word-order patterns in written Arabic: Medieval and modern perspectives_, Brill, 2008. <https://doi.org/10.1163/ej.9789004170629.i-250>'
-    , sort_key = 'Peled Y Sentence types and word-order patterns in written Arabic'
+    , sort_key = 'Peled Y Sentence types and word order patterns in written Arabic'
     ))
 
   return resource_list
