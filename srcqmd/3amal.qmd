@@ -190,45 +190,7 @@ is added as a ;ma3mul; of the conceptual ;3aamil; "existing."
 
 -->
 
-### The order of the governor and its governee
-
-By default, the governor will precede its governee.
-For example:
-
-(@sentence-zayd-beat-3amr) [ضَرَبَ زَيْدٌ عَمْرًا]{.ar}  
-    "Zayd beat [#eamr]{.trn2}."
-
-In example (@sentence-zayd-beat-3amr) above,
-the governing verb
-[ضَرَبَ]{.ar}
-precedes its governees:
-the ;faa3il;
-[زَيْدٌ]{.ar},
-and the ;mafulb;
-[عَمْرًا]{.ar}.
-
-However, this order is often varied in order to convey a desired meaning.
-For example:
-
-(@sentence-zayd-beat-3amr-object-first) [عَمْرًا ضَرَبَ زَيْدٌ]{.ar}  
-    "Zayd beat _[#eamr]{.trn2}_."
-
-In example (@sentence-zayd-beat-3amr-object-first) above,
-the ;mafulb;
-[عَمْرًا]{.ar}
-has been placed before its governor
-[ضَرَبَ]{.ar},
-possibly to emphasize it.
-
-This varying of the order of the words of the sentence is subject to certain rules, depending on:
-
-* the type of the governor (whether it is a verb, or a verbal noun, etc.)
-* the type of the governee (whether it is a preposition, or an adverb, etc.)
-* the desired meaning of the expression.
-
-We will discuss
-the word-order rules for each governee in the section where we discuss its government, ;ia;.
-And we will discuss sentence word-order generally in chapter\ (ref) ;ia;.
+## The government of the ;mafulb;
 
 ## The government of the preposition
 
@@ -451,76 +413,6 @@ For example:
 (@) [كُلَّمَا رُزِقُوا مِنْهَا مِنْ ثَمَرَةٍ رِّزْقًا]{.ar}
     [@https://quran.com/2/25@]{.citex}  
     (The first [مِنْ]{.ar} restricts the governing verb [رُزِقُوا]{.ar} to [ٱلْجَنًّات]{.ar} "the gardens". And the second [مِنْ]{.ar} is restricted to "from the fruit from the gardens."^[@https://tafsir.app/kashaf/2/25@])
-
-### The preposition preceding its governor
-
-<!--
-As a general tendency, a governor will typically precede its governee(s) in sentence word order.
-This is rule is more strict for some governor-governee relationships than for others.
--->
-A prepositional phrase may freely precede its governor.^[@nahw_wafi@ 2/444A]
-This may be done for a number of purposes:
-
-##### To limit and particularize the effect of the governor to the noun following the preposition.^[@maani_nahw@ 3/121] {.unnumbered}
-
-For example:
-
-(@) [وَمِنْهُ تَفَجَّرُ أَنْهَارُ الْجَنَّةِ]{.ar}
-    [@https://sunnah.com/bukhari:2790@]{.citex}  
-    "and from it originate the rivers of Paradise"
-
-(@) [وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ]{.ar}
-    [@https://quran.com/3/122@ cited by @maani_nahw@ 3/121]{.citex}  
-    "and upon Allāh the believers should rely."  
-
-##### For drawing attention to the noun following the preposition^[@maani_nahw@ 3/121] {.unnumbered}
-
-(@) [وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ]{.ar}
-    [@https://quran.com/3/180@ cited by @maani_nahw@ 3/123]{.citex}  
-    "And Allāh, of what you do, is [fully] Aware."
-
-(@) [أَلِهَـٰذَا جَمَعْتَنَا]{.ar}
-    [@https://sunnah.com/bukhari:4770@]{.citex}  
-    "Is it for _this_ (that) you have gathered us?"
-
-(@) [وَبِٱلْأَسْحَارِ هُمْ يَسْتَغْفِرُونَ]{.ar}
-    [@https://quran.com/51/18@]{.citex}  
-    "And in the hours before dawn they would ask forgiveness"  
-    (The prepositional phrase [بِٱلْأَسْحَارِ]{.ar} is placed not just before its governor in the ;xabar; [يَسْتَغْفِرُونَ]{.ar}, but also before the ;mubtada; [هُمْ]{.ar}.)
-
-
-When governing the preposition (and also the adverbs of time and place (section\ ref)),
-the placement of the governee is especially flexible.^[@radiy_kafiyah@ 1/289D--290A]
-We will see, in sections\ (refs) ;ia; that the governee, in this case,
-are permitted to be placed where other types of governees are not.
-
-TODO: Add content to:
-
-* [إِنَّ]{.ar} and its sisters: ibn_aqil 1/278 fn; 1/349
-* [كَانَ]{.ar} and its sisters
-* [#HijAzi]{.trn2} [مَا]{.ar}:  sharh uthaymeen 22/4 ([مكا بي أنت معينا]{.ar})
-
-<!--
-When the prepositional phrase (and adverb of time and place) is governed by the ;xabar;
-of a ;mubtada;-;xabar; sentence,
-then
-the prepositional phrase may even precede the ;mubtada;.
-For example,
-
-
-It is rare, or even impermissible, for other types of governees of the ;xabar; to precede the ;mubtada;.
-(See the discussion on (@some-ref) [عمرا زيد ضرب]{.ar} in section\ (ref).)
-
-In fact, when the governor of the prepositional phrase (and adverb of time and place) is the ;xabar;
-of [إِنَّ]{.ar} (or its sisters),
-or of [كَانَ]{.ar} (or its sisters),
-or of the [#HijAzi]{.trn2} [مَا]{.ar},
-even
-then may the prepositional phrase be placed before the subject.
-This latitude is expressly granted only to prepositional phrases and adverbs of time and place,
-and not to other types of governees.
-Examples:
--->
 
 ### A meaningful connection between the preposition and its governor
 
@@ -872,7 +764,136 @@ But for our purposes, we can ignore those theories and consider the ;mudaf; to g
 
 ## Nested sentences
 
-## The government of the ;mafulb;
+
+
+## Word-order of the governor and its governee
+
+By default, the governor will precede its governee.
+For example:
+
+(@sentence-zayd-beat-3amr) [ضَرَبَ زَيْدٌ عَمْرًا]{.ar}  
+    "Zayd beat [#eamr]{.trn2}."
+
+In example (@sentence-zayd-beat-3amr) above,
+the governing verb
+[ضَرَبَ]{.ar}
+precedes its governees:
+the ;faa3il;
+[زَيْدٌ]{.ar},
+and the ;mafulb;
+[عَمْرًا]{.ar}.
+
+However, this order is often varied in order to convey a desired meaning.
+For example:
+
+(@sentence-zayd-beat-3amr-object-first) [عَمْرًا ضَرَبَ زَيْدٌ]{.ar}  
+    "Zayd beat _[#eamr]{.trn2}_."
+
+In example (@sentence-zayd-beat-3amr-object-first) above,
+the ;mafulb;
+[عَمْرًا]{.ar}
+has been placed before its governor
+[ضَرَبَ]{.ar},
+possibly to emphasize it.
+
+This varying of the order of the words of the sentence is subject to certain rules, depending on:
+
+* the type of the governor (whether it is a verb, or a verbal noun, etc.)
+* the type of the governee (whether it is a preposition, or an adverb, etc.)
+* the desired meaning of the expression.
+
+We will discuss
+the word-order rules for some governees here.
+For new types of governees, we will discuss their word-order in their respective chapters, ;ia;.
+And we will discuss sentence word-order generally in chapter\ (ref) ;ia;.
+
+TODO: move to word order chapter:
+
+(@) [ضرب موسى عيسى]
+
+(@) [اشترى كمثرى موسى]{.ar}
+
+(@) [وضرب ليلى عيسى]{.ar}
+
+@nahw_wafi@ 2/54
+
+### Word order of the ;mudafil; ;ma3mul; and its ;mudaf; ;3aamil;
+
+Must be directly followed
+
+### Word order of the preposition and its governee
+
+Must be directly followed
+
+### Word order of the preposition and its governor
+
+<!--
+As a general tendency, a governor will typically precede its governee(s) in sentence word order.
+This is rule is more strict for some governor-governee relationships than for others.
+-->
+A prepositional phrase may freely precede its governor.^[@nahw_wafi@ 2/444A]
+This may be done for a number of purposes:
+
+##### To limit and particularize the effect of the governor to the noun following the preposition.^[@maani_nahw@ 3/121] {.unnumbered}
+
+For example:
+
+(@) [وَمِنْهُ تَفَجَّرُ أَنْهَارُ الْجَنَّةِ]{.ar}
+    [@https://sunnah.com/bukhari:2790@]{.citex}  
+    "and from it originate the rivers of Paradise"
+
+(@) [وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ]{.ar}
+    [@https://quran.com/3/122@ cited by @maani_nahw@ 3/121]{.citex}  
+    "and upon Allāh the believers should rely."  
+
+##### For drawing attention to the noun following the preposition^[@maani_nahw@ 3/121] {.unnumbered}
+
+(@) [وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ]{.ar}
+    [@https://quran.com/3/180@ cited by @maani_nahw@ 3/123]{.citex}  
+    "And Allāh, of what you do, is [fully] Aware."
+
+(@) [أَلِهَـٰذَا جَمَعْتَنَا]{.ar}
+    [@https://sunnah.com/bukhari:4770@]{.citex}  
+    "Is it for _this_ (that) you have gathered us?"
+
+(@) [وَبِٱلْأَسْحَارِ هُمْ يَسْتَغْفِرُونَ]{.ar}
+    [@https://quran.com/51/18@]{.citex}  
+    "And in the hours before dawn they would ask forgiveness"  
+    (The prepositional phrase [بِٱلْأَسْحَارِ]{.ar} is placed not just before its governor in the ;xabar; [يَسْتَغْفِرُونَ]{.ar}, but also before the ;mubtada; [هُمْ]{.ar}.)
+
+
+When governing the preposition (and also the adverbs of time and place (section\ ref)),
+the placement of the governee is especially flexible.^[@radiy_kafiyah@ 1/289D--290A]
+We will see, in sections\ (refs) ;ia; that the governee, in this case,
+are permitted to be placed where other types of governees are not.
+
+TODO: Add content to:
+
+* [إِنَّ]{.ar} and its sisters: ibn_aqil 1/278 fn; 1/349
+* [كَانَ]{.ar} and its sisters
+* [#HijAzi]{.trn2} [مَا]{.ar}:  sharh uthaymeen 22/4 ([مكا بي أنت معينا]{.ar})
+
+<!--
+When the prepositional phrase (and adverb of time and place) is governed by the ;xabar;
+of a ;mubtada;-;xabar; sentence,
+then
+the prepositional phrase may even precede the ;mubtada;.
+For example,
+
+
+It is rare, or even impermissible, for other types of governees of the ;xabar; to precede the ;mubtada;.
+(See the discussion on (@some-ref) [عمرا زيد ضرب]{.ar} in section\ (ref).)
+
+In fact, when the governor of the prepositional phrase (and adverb of time and place) is the ;xabar;
+of [إِنَّ]{.ar} (or its sisters),
+or of [كَانَ]{.ar} (or its sisters),
+or of the [#HijAzi]{.trn2} [مَا]{.ar},
+even
+then may the prepositional phrase be placed before the subject.
+This latitude is expressly granted only to prepositional phrases and adverbs of time and place,
+and not to other types of governees.
+Examples:
+-->
 
 ### Word-order of the ;mafulb; and its governor
 
@@ -887,7 +908,22 @@ There are six possible permutations of word-order of the above example.
 
 (@) [عمرا زيد ضرب]{.ar}
 
+In examples ... the ;maful; [عمرا]{.ar} precedes its governor [ضرب]{.ar}.
+This is generally permitted for stylistic (?) aspects, as we will discuss in chapter (ref).
+
+Lets consider exaple ... in more detail.
+This is because the ;maful; is governed by ضرب in the ;xabar;. 
+But it precedes, not just its ;3aamil; but also the ;mubtada; of the larger sentence.
+This is normal for some types of governees (like the prep).
+But for the mafulb some grammarians consider it impermissible.
+Others allow it, but consider it rare or weak in its structure.
+
+
 @peled_sentence_types@ considers this dubious or unattested. Search for OSV in the text. However, others consider it permissible (search sabban, batalyusi for this sentence).
+
+### Word-order of the ;faa3il; and its governor
+
+### Word-order of the ;mubtada; and the ;xabar;
 
 ## Notes
 
