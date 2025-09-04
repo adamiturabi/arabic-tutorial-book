@@ -76,6 +76,8 @@ map_table["ism_zaman"] = {"noun of time", nil}
 
 map_table["jamid"] = {"underived", nil}
 map_table["jawab"] = {"consequence", nil}
+map_table["j_ism"] = {"subject-sentence", nil}
+map_table["j_f3l"] = {"doer-sentence", nil}
 
 map_table["lazim"] = {"intransitive", nil}
 map_table["lnj"] = {"لا النافية للجنس", "ar"}
@@ -97,6 +99,8 @@ map_table["mushar_il"] = {"pointed-to noun", nil} -- {"muDArie", "trn2"}
 map_table["mushtaqq"] = {"derived", nil}
 map_table["musnad"] = {"supported element", nil} -- complement
 map_table["musnadi"] = {"supporting element", nil} -- rock, mainstay, anchor
+map_table["muxbar3"] = {"topic", nil} -- rock, mainstay, anchor
+map_table["muxbar"] = {"comment", nil} -- complement
 map_table["mutaddi"] = {"transitive", nil}
 
 map_table["naib"] = {"deputy", nil}
@@ -115,7 +119,7 @@ map_table["shibh_fi3l"] = {"quasi-verb", nil}
 map_table["shibh_jumlah"] = {"quasi-sentence", nil}
 
 map_table["x"] = {"✗", nil}
-map_table["xabar"] = {"comment", nil}
+map_table["xabar"] = {"information", nil}
 
 map_table["zaaid"] = {"redundant", nil}
 
