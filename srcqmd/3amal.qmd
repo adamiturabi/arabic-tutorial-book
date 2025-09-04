@@ -1038,7 +1038,7 @@ Of these elements, some have the quality of state.
 These are called _stateful_ elements.
 The stateful elements are nouns and ;mudarie; verbs.
 A noun may be either in the ;ustate;, ;astate;, or ;istate;.
-And a verb may be either in the ;ustate;, ;astate;, or ;0state;.
+And a ;mudarie; verb may be either in the ;ustate;, ;astate;, or ;0state;.
 The theory of government states that a stateful element is put in a particular state by a governor.
 For example:
 
@@ -1131,28 +1131,18 @@ We will see later, ;ia; that
 in a ;j_f3l;
 the ;muxbar; may be another element, instead of the verb that governs the ;faa3il;.
 
-## The initial governor
+
+## Initial government
 
 Besides the two ;3umdah; elements,
-a sentence also needs an initial governor.[Owens §2.3.6.1 54]
+a sentence also needs an initial government.[Owens §2.3.6.1 54]
 <!--
 The initial governor governs the highest governing element(s) of the two ;3umdah; elements of the sentence.
 -->
+<!--
 The initial governor is the source of all government in the sentence.
-
-#### A third element as the initial governor {.unnumbered}
-
-The intitial governor may be a third element, besides the two ;3umdah; elements.
-For example:
-
-(@) lam yaDrib al-rajulu gulAma zaydin
-    [owens §2.2.3 (16) 41]
-
-DIAGRAM
-
-(@) inna
-
-(@) kaana
+-->
+Initial government is any and all government prior to, and until, the first governed ;3umdah; element.
 
 #### One of the two ;3umdah; elements as the initial governor {.unnumbered}
 
@@ -1167,21 +1157,37 @@ In the above example, the initial governor is the verb pahaba.
 The madi verb has no state and needs no governor.
 So it is itself, the initial governor.
 
-#### The conceptual initial governor {.unnumbered}
+#### An internal non-;3umdah; element as the initial governor {.unnumbered}
 
-Very commonly, the initial governor is not a word, but only a concept.
+The intitial governor may be internal to the sentence but not one of the two ;3umdah; elements.
+For example:
+
+(@) lam yaDrib al-rajulu gulAma zaydin
+    [owens §2.2.3 (16) 41]
+
+DIAGRAM
+
+(@) inna
+
+(@) kaana
+
+
+
+#### The abstract initial governor {.unnumbered}
+
+Very commonly, the initial governor is not an actual word, but only an abstract concept.
 When there is one or more stateful ;3umdah; elements in a sentence with no overt (i.e. observable) governor,
 then this necessitates bringing in a _conceptual_ initial governor.[ owens 55; peled 88 fn 7]
 For example:
 
 (@) zaydun muntaliqun
 
-The conceptual initial governor governs both the ;muxbar3; (the ;mubtada; zayd),
+The abstract initial governor governs both the ;muxbar3; (the ;mubtada; zayd),
 and the ;muxbar; (the ;xabar; muntaliqun) in the ;ustate;.
 
 (@) yaphabu zaydun
 
-The conceptual initial governor governs both the ;muxbar; (the ;mudarie; verb yaphabu) in the ;ustate;.
+The abstract initial governor governs both the ;muxbar; (the ;mudarie; verb yaphabu) in the ;ustate;.
 And, as usual, the verb yaphabu governs its ;faa3il; zaydun (the ;muxbar3;) in the ;ustate;.
 
 #### An external element as the initial governor {.unnumbered}
@@ -1258,6 +1264,19 @@ and its ;faa3il; abUhu.
 muntaliq governs abUhu.
 But muntaliq itself is also governed by an initial governor (the verb kaana) that is not in this inner sentence.
 
+#### More than one initial governor {.unnumbered}
+
+Sometimes, there may be more than one initial governor in a chain, before one reaches the first governed ;3umdah; element.
+For example:
+
+(@) lam yakun 
+
+## #;fadlah; elements
+
+A ;fadlah; element is any stateful element in a sentence that is not either of the ;3umdah; elements, but is governed (directly or indirectly) by either of the ;3umdah; elements.
+[Get info from prev section]
+For example:
+
 ## The supporting element
 
 In addition to the ;3umdah; elements, and the initial governor,
@@ -1290,8 +1309,6 @@ Here are examples of sentences which do not require a supporting element:
 
 (@) yantaliqu abUhu
 
-## #;fadlah; elements
-
 ## The two types of sentences
 
 There are two types of sentences in the Arabic grammatical model:
@@ -1299,7 +1316,7 @@ There are two types of sentences in the Arabic grammatical model:
  i. The ;j_ism;
 ii. The ;j_f3l;
 
-We have previously defined the sentences thus:
+We have previously defined the two types of sentences thus:
 
 A _;j_ism;_ typically begins with a noun. It has a ;mubtada; and a ;xabar;.
 A _;j_f3l;_ begins with a verb.
@@ -1307,17 +1324,12 @@ A _;j_f3l;_ begins with a verb.
 These definitions lack some rigor.
 We will attempt to refine these definitions below:
 
+<!--
 ::: {#def-j_f3l}
 
 In a ;j_f3l; the ;muxbar3; is a ;faa3il;.
 It must be preceded and governed by the ;muxbar;.
 The ;muxbar; may be either a verb, or a verb-like noun that is allowed to govern a ;faa3il;.
-<!--
-The ;3umdah; elements of a ;j_f3l; are:
-
- i. A ;faa3il;. This is the ;muxbar3;.
-ii. A preceding governor for the ;faa3il;. This is the ;muxbar;.
--->
 
 :::
 
@@ -1327,4 +1339,50 @@ In a ;j_ism; the ;muxbar3; is not a ;faa3il;. It is called the ;mubtada;.
 The ;muxbar; is called the ;xabar;. It may be either a noun, or an inner sentence.
 
 :::
+-->
+
+::: {#def-j_f3l}
+
+In a _;j_f3l;_ the ;muxbar3; shall be a ;faa3il;.
+The ;faa3il;'s governor shall precede the ;faa3il; and be internal to the sentence.
+The ;faa3il;'s governor shall be either a verb, or a verb-like noun that is allowed to govern a ;faa3il;.
+
+The ;faa3il;'s governor will often, but not always, be the ;muxbar; of the sentence.
+If the ;faa3il;'s governor is not the ;muxbar;, then the sentence shall require a another element, the ;xabar;, to be the ;muxbar;.
+:::
+
+::: {#def-j_ism}
+
+In a _;j_ism;_ the ;muxbar3; shall be a noun. The ;muxbar3; shall not governed by a verb or a verb-like noun as a ;faa3il;.
+The ;muxbar3; is called the ;mubtada;.
+It will require a ;xabar; as the ;muxbar;.
+
+:::
+
+We will also define the ;xabar;:
+
+::: {#def-xabar}
+
+The ;xabar;, when required, shall fulfil the role of the ;muxbar; of a sentence.
+The ;xabar; may be either a noun, or an inner sentence.
+
+:::
+
+From the above definitions we can infer the following:
+
+<!--
+::: {#cor-verb-sentence}
+
+The verb can only occur, with its ;faa3il;, in a ;j_f3l; sentence.
+
+:::
+-->
+
+Let's go through some examples and try to classify them according to the above definitions.
+
+(@) lam yaphab zaydun
+
+(@) kaana zaydun qaa'iman
+
+(@) eamran daraba zaydun
 
