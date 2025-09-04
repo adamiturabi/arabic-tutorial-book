@@ -1097,11 +1097,11 @@ a sentence requires two ;3umdah; elements
 to be grammatically complete.
 These two ;3umdah; elements are:
 
- i. The ;muxbar3; element
-ii. The ;muxbar; element
+ i. The ;muxbar3;
+ii. The ;muxbar;
 
-The ;muxbar3; element is typically the topic of the sentence.
-And the ;muxbar; element is a comment on the ;muxbar3; element.
+The ;muxbar3; represents whom the sentence is about, i.e. it's topic.
+And the ;muxbar; is meant to provide some interesting comment about the ;muxbar3;.
 Here are some examples:
 
 (@3amal_zayd_qaimun) zaydun qaaimun
@@ -1109,27 +1109,27 @@ Here are some examples:
 DIAGRAM
 
 In example (@3amal_zayd_qaaimun) zaydun qaaimun above,
-zayd is the ;muxbar3; element. It is the topic of the sentence.
-And qaaimun is the ;muxbar; element. It is a comment on the topic, giving us some information about zayd.
+zayd is the ;muxbar3;. It is the topic of the sentence.
+And qaaimun is the ;muxbar;. It is a comment on the topic, giving us some information about zayd.
 
 We have previously referred to this type of sentence as a ;j_ism;.
-In this ;j_ism; the ;mubtada; is the ;muxbar3; element,
-and the ;xabar; is the ;muxbar; element.
+In this ;j_ism; the ;mubtada; is the ;muxbar3;,
+and the ;xabar; is the ;muxbar;.
 
 (@3amal_qaama_zaydun) qaama zaydun
 
 DIAGRAM
 
 In example (@3amal_zayd_qaaimun) zaydun qaaimun above,
-zayd is the ;muxbar3; element. It is the topic of the sentence.
-And qaama is the ;muxbar; element. It is a comment on the topic.
+zayd is the ;muxbar3;. It is the topic of the sentence.
+And qaama is the ;muxbar;. It is a comment on the topic.
 
 We have previously referred to this type of sentence as a ;j_f3l;.
-In this ;j_f3l; the verb is the ;muxbar; element,
-and the ;faa3il; is the ;muxbar3; element.
+In this ;j_f3l; the verb is the ;muxbar;,
+and the ;faa3il; is the ;muxbar3;.
 We will see later, ;ia; that 
 in a ;j_f3l;
-the ;muxbar; may be another element, instead of the verb that governs the ;faa3il;.
+the ;muxbar; may sometimes be another element, instead of the verb that governs the ;faa3il;.
 
 
 ## Initial government
@@ -1343,19 +1343,21 @@ The ;muxbar; is called the ;xabar;. It may be either a noun, or an inner sentenc
 
 ::: {#def-j_f3l}
 
-In a _;j_f3l;_ the ;muxbar3; shall be a ;faa3il;.
+In a _;j_f3l;_,
+the ;muxbar3; shall be a _;faa3il;_.
 The ;faa3il;'s governor shall precede the ;faa3il; and be internal to the sentence.
 The ;faa3il;'s governor shall be either a verb, or a verb-like noun that is allowed to govern a ;faa3il;.
 
-The ;faa3il;'s governor will often, but not always, be the ;muxbar; of the sentence.
-If the ;faa3il;'s governor is not the ;muxbar;, then the sentence shall require a another element, the ;xabar;, to be the ;muxbar;.
+In a _;j_f3l;_,
+the ;faa3il;'s governor will often, but not always, be the ;muxbar; of the sentence.
+If the ;faa3il;'s governor is not the ;muxbar;, then the sentence shall require a another element, the _;xabar;_, to be the ;muxbar;.
 :::
 
 ::: {#def-j_ism}
 
 In a _;j_ism;_ the ;muxbar3; shall be a noun. The ;muxbar3; shall not governed by a verb or a verb-like noun as a ;faa3il;.
-The ;muxbar3; is called the ;mubtada;.
-It will require a ;xabar; as the ;muxbar;.
+The ;muxbar3; is called the _;mubtada;_ of its governor.
+It will require a _;xabar;_ as the ;muxbar;.
 
 :::
 
@@ -1385,4 +1387,12 @@ Let's go through some examples and try to classify them according to the above d
 (@) kaana zaydun qaa'iman
 
 (@) eamran daraba zaydun
+
+## The sababi sentence
+
+An element of the outer sentence also serves as the first element of the inner sentence
+
+(@) kaana zaydun muntaliqan abUhu // sababi (muntaliqan is astate)
+
+(@) kaana zaydun muntaliqun abUhu // NOT sababi (muntaliqan is ustate)
 
