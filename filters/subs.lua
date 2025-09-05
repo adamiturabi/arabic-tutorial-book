@@ -41,7 +41,7 @@ map_table["passive"] = {"passive", nil} -- "unknown-doer" verb?
 map_table["3aamil"] = {"governor", nil}
 map_table["ma3mul"] = {"governee", nil}
 map_table["3amal"] = {"government", nil}
-map_table["3umdah"] = {"indispensable", nil}
+map_table["3umdah"] = {"foundational", nil} -- indispensable
 
 -- alphabetical
 map_table["3aaid"] = {"refer-back pronoun", nil}
@@ -57,7 +57,7 @@ map_table["dharf_makan"] = {"adverb of place", nil}
 map_table["dharf_zaman"] = {"adverb of time", nil}
 
 map_table["faa3il"] = {"doer", nil}
-map_table["fadlah"] = {"dispensable", nil} -- dispensable, redundant
+map_table["fadlah"] = {"extra", nil} -- dispensable, redundant
 
 map_table["hal"] = {"HAl", "trn2"}
 
@@ -76,8 +76,8 @@ map_table["ism_zaman"] = {"noun of time", nil}
 
 map_table["jamid"] = {"underived", nil}
 map_table["jawab"] = {"consequence", nil}
-map_table["j_ism"] = {"subject-sentence", nil}
-map_table["j_f3l"] = {"doer-sentence", nil}
+map_table["j_ism"] = {"nominal sentence", nil}
+map_table["j_f3l"] = {"verbal sentence", nil}
 
 map_table["lazim"] = {"intransitive", nil}
 map_table["lnj"] = {"لا النافية للجنس", "ar"}
@@ -99,8 +99,8 @@ map_table["mushar_il"] = {"pointed-to noun", nil} -- {"muDArie", "trn2"}
 map_table["mushtaqq"] = {"derived", nil}
 map_table["musnad"] = {"supported element", nil} -- complement
 map_table["musnadi"] = {"supporting element", nil} -- rock, mainstay, anchor
-map_table["muxbar3"] = {"theme", nil} -- rock, mainstay, anchor
-map_table["muxbar"] = {"rheme", nil} -- complement
+map_table["muxbar3"] = {"subject", nil} -- theme,rock, mainstay, anchor
+map_table["muxbar"] = {"predicate", nil} -- rheme, complement
 map_table["mutaddi"] = {"transitive", nil}
 
 map_table["naib"] = {"deputy", nil}
@@ -119,7 +119,7 @@ map_table["shibh_fi3l"] = {"quasi-verb", nil}
 map_table["shibh_jumlah"] = {"quasi-sentence", nil}
 
 map_table["x"] = {"✗", nil}
-map_table["xabar"] = {"information", nil}
+map_table["xabar"] = {"newsworthy expression", nil}
 
 map_table["zaaid"] = {"redundant", nil}
 
