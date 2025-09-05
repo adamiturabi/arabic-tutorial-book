@@ -1273,7 +1273,10 @@ For example:
 
 ## #;fadlah; elements
 
-A ;fadlah; element is any stateful element in a sentence that is not either of the ;3umdah; elements, but is governed (directly or indirectly) by either of the ;3umdah; elements.
+A ;fadlah; element is any stateful element in a sentence that is not either of the ;3umdah; elements,
+but is governed,
+directly or indirectly,
+by any one of the ;3umdah; elements.
 [Get info from prev section]
 For example:
 
@@ -1344,9 +1347,9 @@ The ;muxbar; is called the ;xabar;. It may be either a noun, or an inner sentenc
 ::: {#def-j_f3l}
 
 In a _;j_f3l;_,
-the ;muxbar3; is _;faa3il;_
+the ;muxbar3; is a _;faa3il;_
 that is preceded by its governor.
-The ;faa3il;'s governor may either be a verb, or a verb-like noun that is allowed to govern a ;faa3il;.
+The ;faa3il;'s governor may either be a verb, or a verb-like noun that can govern a ;faa3il;.
 <!--
 the ;muxbar3; shall be a _;faa3il;_.
 The ;faa3il;'s governor shall precede the ;faa3il; and be internal to the sentence.
@@ -1355,7 +1358,8 @@ The ;faa3il;'s governor shall be either a verb, or a verb-like noun that is allo
 
 In a _;j_f3l;_,
 the ;faa3il;'s governor will often, but not always, be the ;muxbar; of the sentence.
-If the ;faa3il;'s governor does not have sufficient meaning to express information about the ;muxbar3;, then the sentence will not be grammatically complete until a ;xabar; is provided to be the ;muxbar;.
+If the ;faa3il;'s governor is not meaningfully sufficient to be the ;muxbar;,
+then a _;xabar;_ is required as the ;muxbar; to complete the sentence grammatically.
 <!--
 sufficiently express a  the ;muxbar3;, then the sentence shall require a another element, the _;xabar;_, to be the ;muxbar;.
 If the ;faa3il;'s governor is not the ;muxbar;, then the sentence shall require a another element, the _;xabar;_, to be the ;muxbar;.
@@ -1364,9 +1368,12 @@ If the ;faa3il;'s governor is not the ;muxbar;, then the sentence shall require 
 
 ::: {#def-j_ism}
 
-In a _;j_ism;_ the ;muxbar3; shall be a noun. The ;muxbar3; shall not governed by a verb or a verb-like noun as a ;faa3il;.
+In a _;j_ism;_ the ;muxbar3; shall not be a ;faa3il;.
+<!--
+The ;muxbar3; shall not governed by a verb or a verb-like noun as a ;faa3il;.
 The ;muxbar3; is called the _;mubtada;_ of its governor.
-It will require a _;xabar;_ as the ;muxbar;.
+-->
+The ;muxbar3; will require a _;xabar;_ as the ;muxbar;.
 
 :::
 
@@ -1397,31 +1404,33 @@ Let's go through some examples and try to classify them according to the above d
 
 (@) eamran daraba zaydun
 
-## Determining the ;muxbar3; and the ;muxbar;
+## Determining the ;muxbar3;
 
 <!--
 In a ;j_f3l;, determining the ;muxbar3; and the ;muxbar; is relatively straightforward.
 The ;muxbar3; is the ;faa3il; and the ;muxbar; is the element which completes the sentence by expresses a property about the ;muxbar3;.
 However, in a ;j_ism; determining the ;muxbar3; and the ;muxbar; can be a little complicated.
 -->
-Sometimes determining the ;muxbar3; and the ;muxbar; can be a little complicated.
+Sometimes determining the ;muxbar3; can be a little complicated.
 Consider for example, the following sentence:
 
 (@) zaydan ra'aytu
 
 Pragmatically, it seems that the zayd is the topic of the sentence because it is whom the sentence is about.
-But actually zayd here is a ;fadla; element.
-Stripping the sentence of the ;fadla; elements, we are left with ra'aytu.
-This is a ;j_fi3l;.
+But actually zayd here is a ;fadlah; element.
+Stripping the sentence of the ;fadlah; elements, we are left with ra'aytu.
+This is a ;j_f3l;.
 The ;muxbar3; is the ;faa3il; (the pronoun tu "I").
 And the ;muxbar3; is the verb ra'A.
 
+<!--
 Consider another example:
 
 (@) kaana zaydan naai'man
 
 So we can see that the ;muxbar3; and the ;muxbar; are determined by, first, their syntactical role and their semantic content.
 The above examples for for ;j_f3l;s.
+-->
 
 Determining the ;muxbar3; and the ;muxbar; in a ;j_ism; can be similarly complicated.
 In order to help us there are a set of rules:
