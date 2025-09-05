@@ -1030,7 +1030,9 @@ def/indef
 
 Sometimes, it is not immediately clear from the functional aspect, who should be the muxbar3 and who should be the muxbar.
 
-## Syntax, semantics, and pragmatics
+## Introduction
+
+### Syntax, semantics, and pragmatics
 
 Define:
 
@@ -1041,12 +1043,12 @@ Define:
 
 #### Syntax {.unnumbered}
 
-Syntax is the study of how elements combine to form phrases and sentences.^[wiki]
-It deals with the grammatical relationships between the elements in a sentence.
+Syntax is the study of how words combine to form phrases and sentences.^[wiki]
+It deals with the grammatical relationships between the words in a sentence.
 For example, consider the adjectival noun kabIr.
 When it is by itself, we cannot speak of any of its syntax.
 But when it is in a linguistic environment, like a phrase or a sentence,
-then its syntactical role is determined by the grammatical relationships it has with other elements in the sentence.
+then its syntactical role is determined by the grammatical relationships it has with other words in the sentence.
 
 Consider the following sentence:
 
@@ -1144,13 +1146,25 @@ For example, the ;maful; may occur before its governing verb, thus:
 
 (@3amal_3amran_Daraba_zaydun) eamran Daraba zaydun
 
+<!--
 But the ;faa3il; must always follow its governing verb.
 So that is another example of an obligatory word-order for the governor and the governee.
+-->
 
 #### Some elements are not governed {.unnumbered}
 
 Not every element in a sentence is governed by a governor.
 For example, the ;madi; verb has not state, and thus, no governor.
+
+## Some common governor-governees
+
+prep-istate
+
+mudaf-istate
+
+verb-faa3il
+
+verb-mafulb
 
 ## The two ;3umdah; elements of a sentence
 
@@ -1163,7 +1177,10 @@ These two ;3umdah; elements are:
 ii. The ;muxbar;
 
 The ;muxbar3; represents whom the sentence is about, i.e. it's topic.
+<!--
 And the ;muxbar; is meant to provide some interesting comment about the ;muxbar3;.
+-->
+And the ;muxbar; expresses some property about the ;muxbar3; that completes the meaning of the sentence.
 Here are some examples:
 
 (@3amal_zayd_qaimun) zaydun qaaimun
@@ -1213,7 +1230,7 @@ For example:
 
 (@) pahaba zaydun
 
-DIADRAM
+DIAGRAM
 
 In the above example, the initial governor is the verb pahaba.
 The madi verb has no state and needs no governor.
@@ -1342,6 +1359,23 @@ by any one of the ;3umdah; elements.
 [Get info from prev section]
 For example:
 
+#### The ;mafulb; {.unnumbered}
+
+The ;mafulb; is typically a ;fadlah; element.
+In most sentences, if we remove the ;mafulb; the sentence remains grammatically complete.
+For example:
+
+However, if a verb is semantically deficient,
+like for kaana and its sisters (see chapter\ (ref)),
+then its ;mafulb;(s) may become an ;3umdah; element.
+For example:
+
+(@) kaana zaydun  qaa'iman
+          doer    mafulb
+          muxbar3 muxbar
+
+DIAGRAM
+
 ## The supporting element
 
 In addition to the ;3umdah; elements, and the initial governor,
@@ -1406,15 +1440,14 @@ The ;muxbar; is called the ;xabar;. It may be either a noun, or an inner sentenc
 :::
 -->
 
-::: {#def-j_f3l}
+#### The ;j_f3l; {.unnumbered}
 
-A _;j_f3l;_ is one that has a ;faa3il;.
+A _;j_f3l;_ has a ;faa3il; as its ;muxbar3;.
 <!--
 In a _;j_f3l;_,
 the ;muxbar3; is a _;faa3il;_
 -->
-The ;faa3il; is the subject
-and it is preceded by its governor.
+The ;faa3il; is preceded by its governor.
 The ;faa3il;'s governor may either be a verb, or a verb-like noun that can govern a ;faa3il;.
 <!--
 the ;muxbar3; shall be a _;faa3il;_.
@@ -1425,37 +1458,38 @@ The ;faa3il;'s governor shall be either a verb, or a verb-like noun that is allo
 In a _;j_f3l;_,
 the ;faa3il;'s governor will often, but not always, be the ;muxbar; of the sentence.
 If the ;faa3il;'s governor is not meaningfully sufficient to be the ;muxbar;,
+then it will, in its stead, also govern a
+_;xabar;_ (as the ;muxbar;) in order to complete the sentence grammatically.
+<!--
 then a _;xabar;_ is required as the ;muxbar; to complete the sentence grammatically.
+-->
 <!--
 sufficiently express a  the ;muxbar3;, then the sentence shall require a another element, the _;xabar;_, to be the ;muxbar;.
 If the ;faa3il;'s governor is not the ;muxbar;, then the sentence shall require a another element, the _;xabar;_, to be the ;muxbar;.
 -->
-:::
 
-::: {#def-j_ism}
+#### The ;j_ism; {.unnumbered}
 
-A _;j_ism;_ is one that does not have a ;faa3il;.
+The _;j_ism;_ does not have a ;faa3il; as its ;muxbar3;.
 <!--
 In a _;j_ism;_ the ;muxbar3; shall not be a ;faa3il;.
 The ;muxbar3; shall not governed by a verb or a verb-like noun as a ;faa3il;.
 The ;muxbar3; is called the _;mubtada;_ of its governor.
 -->
-The ;muxbar3; shall be a noun governed by an initial governor.
+The ;muxbar3; is a noun governed by an initial governor.
 The ;muxbar3; will require a _;xabar;_ as the ;muxbar;.
 
-:::
 
 We will also define the ;xabar;:
 
-::: {#def-xabar}
+#### The ;xabar; {.unnumbered}
 
-The ;xabar;, when required, shall fulfil the role of the ;muxbar; of a sentence.
+The _;xabar;_, when required, shall fulfil the role of the ;muxbar; of a sentence.
 <!--
 The ;xabar; may be either a noun, or an inner sentence.
 -->
-The ;xabar; is usually a noun, but an inner sentence may occur _in the place_^[Peled 91 citing ibn abi l-rabI3] of the noun instead.
+The ;xabar; is typically a noun, but an inner sentence may occur _in the place_^[Peled 91 citing ibn abi l-rabI3] of the ;xabar;.
 
-:::
 
 <!--
 From the above definitions we can infer the following:

@@ -119,7 +119,7 @@ map_table["shibh_fi3l"] = {"quasi-verb", nil}
 map_table["shibh_jumlah"] = {"quasi-sentence", nil}
 
 map_table["x"] = {"✗", nil}
-map_table["xabar"] = {"newsworthy expression", nil}
+map_table["xabar"] = {"info", nil} -- newsworthy expression, information, comment, remark, info
 
 map_table["zaaid"] = {"redundant", nil}
 
