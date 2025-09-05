@@ -1094,7 +1094,7 @@ For example, the ;madi; verb has not state, and thus, no governor.
 
 In the Arabic grammatical model,
 a sentence requires two ;3umdah; elements
-to be grammatically complete.
+in order to be grammatically complete.
 These two ;3umdah; elements are:
 
  i. The ;muxbar3;
@@ -1344,13 +1344,22 @@ The ;muxbar; is called the ;xabar;. It may be either a noun, or an inner sentenc
 ::: {#def-j_f3l}
 
 In a _;j_f3l;_,
+the ;muxbar3; is _;faa3il;_
+that is preceded by its governor.
+The ;faa3il;'s governor may either be a verb, or a verb-like noun that is allowed to govern a ;faa3il;.
+<!--
 the ;muxbar3; shall be a _;faa3il;_.
 The ;faa3il;'s governor shall precede the ;faa3il; and be internal to the sentence.
 The ;faa3il;'s governor shall be either a verb, or a verb-like noun that is allowed to govern a ;faa3il;.
+-->
 
 In a _;j_f3l;_,
 the ;faa3il;'s governor will often, but not always, be the ;muxbar; of the sentence.
+If the ;faa3il;'s governor does not have sufficient meaning to express information about the ;muxbar3;, then the sentence will not be grammatically complete until a ;xabar; is provided to be the ;muxbar;.
+<!--
+sufficiently express a  the ;muxbar3;, then the sentence shall require a another element, the _;xabar;_, to be the ;muxbar;.
 If the ;faa3il;'s governor is not the ;muxbar;, then the sentence shall require a another element, the _;xabar;_, to be the ;muxbar;.
+-->
 :::
 
 ::: {#def-j_ism}
@@ -1387,6 +1396,40 @@ Let's go through some examples and try to classify them according to the above d
 (@) kaana zaydun qaa'iman
 
 (@) eamran daraba zaydun
+
+## Determining the ;muxbar3; and the ;muxbar;
+
+<!--
+In a ;j_f3l;, determining the ;muxbar3; and the ;muxbar; is relatively straightforward.
+The ;muxbar3; is the ;faa3il; and the ;muxbar; is the element which completes the sentence by expresses a property about the ;muxbar3;.
+However, in a ;j_ism; determining the ;muxbar3; and the ;muxbar; can be a little complicated.
+-->
+Sometimes determining the ;muxbar3; and the ;muxbar; can be a little complicated.
+Consider for example, the following sentence:
+
+(@) zaydan ra'aytu
+
+Pragmatically, it seems that the zayd is the topic of the sentence because it is whom the sentence is about.
+But actually zayd here is a ;fadla; element.
+Stripping the sentence of the ;fadla; elements, we are left with ra'aytu.
+This is a ;j_fi3l;.
+The ;muxbar3; is the ;faa3il; (the pronoun tu "I").
+And the ;muxbar3; is the verb ra'A.
+
+Consider another example:
+
+(@) kaana zaydan naai'man
+
+So we can see that the ;muxbar3; and the ;muxbar; are determined by, first, their syntactical role and their semantic content.
+The above examples for for ;j_f3l;s.
+
+Determining the ;muxbar3; and the ;muxbar; in a ;j_ism; can be similarly complicated.
+In order to help us there are a set of rules:
+
+1. If one of the ;3umdah; elements is definite and the other is indefinite then the definite element shall be the ;muxbar3;.
+   For example:
+
+## Nested sentences
 
 ## The sababi sentence
 
