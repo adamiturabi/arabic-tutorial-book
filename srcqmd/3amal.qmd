@@ -1030,6 +1030,68 @@ def/indef
 
 Sometimes, it is not immediately clear from the functional aspect, who should be the muxbar3 and who should be the muxbar.
 
+## Syntax, semantics, and pragmatics
+
+Define:
+
+* Syntax
+* Semantics
+* Pragmatics
+* Functional aspects
+
+#### Syntax {.unnumbered}
+
+Syntax is the study of how elements combine to form phrases and sentences.^[wiki]
+It deals with the grammatical relationships between the elements in a sentence.
+For example, consider the adjectival noun kabIr.
+When it is by itself, we cannot speak of any of its syntax.
+But when it is in a linguistic environment, like a phrase or a sentence,
+then its syntactical role is determined by the grammatical relationships it has with other elements in the sentence.
+
+Consider the following sentence:
+
+(@) albaytu kabir
+
+In the above sentence, kabIr is _syntactically_ a ;xabar;.
+
+Now consider this example:
+
+(@) daxala baytan kabIran
+
+In example () kabIr is syntactically a ;na3t;.
+In both examples, the meaning of kabIr is exactly the same.
+
+#### Semantics {.unnumbered}
+
+Semantics is the study of the meanings of words.
+Consider the following sentence:
+
+(@) taHaddatha fi al-bayt.
+
+Here the semantic meaning of fi determines the meaning of the sentence.
+If fi means "in" then the sentence means "He talked in the house."
+And if fi means "regarding", then the sentence means "He talked about the house."
+
+Semantics can affect the syntax of a sentence.
+
+(@) al-af3Alu Hasanatun  
+    "The acts are good."
+
+(@) al-af3Alu HasanAtun  
+    "The acts are good deeds."
+
+
+#### Pragmatics {.unnumbered}
+
+Pragmatics is the study of what sentences mean in context, and with regard to needs of the speaker and the listener.
+
+<!--
+#### Functional aspects {.unnumbered}
+
+Semantics and pragmatics
+-->
+
+
 ## The theory of government
 
 A sentence in Arabic is constituted from elements.
@@ -1388,7 +1450,10 @@ We will also define the ;xabar;:
 ::: {#def-xabar}
 
 The ;xabar;, when required, shall fulfil the role of the ;muxbar; of a sentence.
+<!--
 The ;xabar; may be either a noun, or an inner sentence.
+-->
+The ;xabar; is usually a noun, but an inner sentence may occur _in the place_^[Peled 91 citing ibn abi l-rabI3] of the noun instead.
 
 :::
 
@@ -1410,17 +1475,44 @@ Let's go through some examples and try to classify them according to the above d
 
 (@) eamran daraba zaydun
 
-## Determining the ;muxbar3;
+## Determining the ;muxbar3; and the ;muxbar;
 
 <!--
 In a ;j_f3l;, determining the ;muxbar3; and the ;muxbar; is relatively straightforward.
 The ;muxbar3; is the ;faa3il; and the ;muxbar; is the element which completes the sentence by expresses a property about the ;muxbar3;.
 However, in a ;j_ism; determining the ;muxbar3; and the ;muxbar; can be a little complicated.
 -->
-Sometimes determining the ;muxbar3; can be a little complicated.
+In terms of pragmatics, the ;muxbar3; and the ;muxbar; represent 'given' and 'new' information.
+That is, the listener knows who the ;muxbar3; is and can identify him or it. So the ;muxbar3; is a 'given' to the listener.
+And the speaker is providing 'new' information about the ;muxbar3; to the listener.
+
+For example:
+
+(@) ana tamimiyyun
+
+In the above example, the listener already knows who the ;muxbar3; ("I") is.
+And the speaker is providing new information (via the ;muxbar; "tamimiyyun") about the ;muxbar3; to the listener.
+This new information is that the ;muxbar3; "is a Tamimi".
+
+If we reverse the order of words in the sentence thus:
+
+(@) tamimiyyun ana
+
+then the ;muxbar3; and the ;muxbar; remain the same.
+The ;muxbar3; is ana because that is 'given' information to the listener.
+And the ;muxbar; is tamimiyyun becayse that represents 'new' information for the listener.
+
+So much for the pragmatic perspective.
+
+From the perspective of grammar, the ;muxbar3; and the ;muxbar; are determined 
+first using syntactical rules, then with semantic considerations, and finally (only when needed) using pragmatics.
+
+Usually the synactico-semantic perspective will align with the pragmatic perspective.
+But sometimes they may mis-align.
 Consider for example, the following sentence:
 
 (@) zaydan ra'aytu
+    [peled 28]{.citex}
 
 Pragmatically, it seems that the zayd is the topic of the sentence because it is whom the sentence is about.
 But actually zayd here is a ;fadlah; element.
@@ -1428,6 +1520,21 @@ Stripping the sentence of the ;fadlah; elements, we are left with ra'aytu.
 This is a ;j_f3l;.
 The ;muxbar3; is the ;faa3il; (the pronoun tu "I").
 And the ;muxbar3; is the verb ra'A.
+
+Here are the syntactico-semantic rules for determining the ;muxbar3; and the ;muxbar; in a grammatically complete sentence:
+
+1. First, the two ;3umdah; elements are identified.
+2. If one of the two ;3umdah; elements is a ;faa3il; then it is a ;j_f3l; sentence, and the ;faa3il; is the ;muxbar3;.
+   If the ;faa3il;'s governor is semantically sufficient to complete the sentence, then it is the ;muxbar;
+   Example:
+
+   Otherwise, the ;muxbar; will be a ;xabar; that semantically provides sufficient information about the ;muxbar;.
+   Example:
+
+3. If none of the two ;3umdah; elements is a ;faa3il; then it is a ;j_ism; sentence. The two ;3umdah; elements are compared.
+   a. If one of the ;3umdah; elements is definite and the other is indefinite, then the definite element is the ;muxbar3; and the indefinite element is the ;muxbar;.^[Peled 87]
+   b. If both are definite or both are indefinite
+
 
 <!--
 Consider another example:
@@ -1446,6 +1553,11 @@ In order to help us there are a set of rules:
 
 ## Nested sentences
 
+(@) ;x; Zaydun qāma ʿAmrun  
+    [peled 94 citing ibn ya3eesh]{.citex}
+
+;3aaid; can be substituted [peled 94]
+
 ## The sababi sentence
 
 An element of the outer sentence also serves as the first element of the inner sentence
@@ -1453,4 +1565,16 @@ An element of the outer sentence also serves as the first element of the inner s
 (@) kaana zaydun muntaliqan abUhu // sababi (muntaliqan is astate)
 
 (@) kaana zaydun muntaliqun abUhu // NOT sababi (muntaliqan is ustate)
+
+## Notes
+
+### Word order
+
+maani_nahw ([تعريف المبتدأ والخبر]{.ar}) vol. 1
+
+ibn_aqil 1/233
+
+ibn uthaymeen sharh alfiyyah (search for ibn al-qayyin ibn taymiyyah)
+
+
 
