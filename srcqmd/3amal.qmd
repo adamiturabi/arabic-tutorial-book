@@ -1032,6 +1032,9 @@ Sometimes, it is not immediately clear from the functional aspect, who should be
 
 ## Introduction
 
+ jumlah inshaa'iyyah
+ jumlah khabariyyah
+
 ### Syntax, semantics, and pragmatics
 
 Define:
@@ -1360,7 +1363,7 @@ directly or indirectly,
 by any one of the ;3umdah; elements.
 By the way,
 when we say _;fadlah;_,
-we mean that it is ;fadlah; in the sense that it is not one of the ;3umdah; elements of the sentence.
+we mean that it is ;fadlah; in the sense that it is not required to complete the sentence _grammatically_.
 We don't mean that it is superfluous in terms of its meaning.
 In fact, a ;fadlah; element may be essential for the correct meaning of the sentence.
 For example, consider the ;Ayah;:
@@ -1369,10 +1372,10 @@ For example, consider the ;Ayah;:
     [ cited by maani_nahw]{.citex}
 
 
-[لاعبين]{.ar} is a ;hal;, which we will discuss in chapter\ (ref).
+[لاعبين]{.ar} is a ;hal; (see in chapter\ (ref)),
+which is a ;fadlah; element.
 If we remove it from the sentence,
-then the sentence will have a completely different meaning from what is intended.
-
+then the sentence will be complete grammatically but it will have an incorrect meaning.
 
 We will discuss some of the ;fadlah; elements below:
 
@@ -1741,16 +1744,166 @@ ibn uthaymeen sharh alfiyyah (search for ibn al-qayyin ibn taymiyyah)
 <https://asjp.cerist.dz/en/downArticle/312/6/1/100540#:~:text=%D8%A7%D8%A5%D9%84%D8%AE%D8%A8%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%86%D9%83%D8%B1%D8%A9%20%D8%A8%D8%A7%D9%84%D9%85%D8%B9%D8%B1%D9%81%D8%A9%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86%20%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85,-%D8%AF.&text=%D9%88%D9%83%D8%B0%D9%84%D9%83%20%D8%A7%D8%A5%D9%84%D8%AE%D8%A8%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D9%83%D9%88%D8%B1%20%D8%A7%D9%84,%D9%81%D9%8A%20%D8%A7%D9%84%D8%AE%D8%A8%D8%B1%20%D8%A3%D9%86%20%D9%8A%D9%83%D9%88%D9%86%20%D9%86%D9%83%D8%B1%D8%A9.>
 اإلخبار عن النكرة بالمعرفة في القرآن الكريم د. حممد دلوم
 
-## Nested sentences
+## The compound sentence
 
+<!--
 In the definition of the ;xabar;
 (section\ (ref) above)
-we mentioned that the ;xabar; is 
+we mentioned that the ;xabar; is,
 in principle,
 a noun.
 But an inner sentence may occur _in the place_^[Peled 91 citing ibn abi l-rabI3] of the ;xabar;.
+-->
 
-But i
+Consider the sentence:
+
+(@) yaqUmu zaydun
+
+This is a ;j_f3l;
+zaydun is the ;faa3il; and
+yaqUmu is its governor.
+
+The word-order in () yaqoomu zaydun is the normal word-order that one would employ.
+But it is also possible to flip the word-order and say:
+
+(@) zaydun yaqoomu
+
+As for why we would want to flip the word-order,
+we will discuss this in more detail in chapter\ (Word-order).
+For now, we will simply discuss the grammar of the new sentence.
+The new sentence () zaydun yaqoom is actually no longer simply a ;j_f3l;.
+
+Why? Because the word-order of a ;faa3il; and it's governor is strictly fixed in the Arabic grammatical model.
+The ;faa3il;'s governor must precede it.
+So zaydun cannot be a ;faa3il; of yaqoom.
+But yaqoom is a verb, and a verb needs a ;faa3il;
+The ;faa3il; of yaqoom is an implied pronoun after the verb, implying "he".
+So yaqoom is actually a ;j_f3l; by itself.
+So what is Zayd?
+Zayd is the ;mubtada; of a sentence, whose ;xabar; is the ;j_ism; yaqoom.
+
+DIAGRAM
+
+So we can see that we have
+a _compound_ sentence,
+consisting of
+an outer sentence and an inner sentence.
+The inner sentence is _nested_ in the outer sentence.
+
+One important thing to note is that
+simply changing the word-order in a sentence (when permitted)
+can result in a different grammar for the new sentence, compared to the original sentence.
+
+<!--
+#### Composing a compound sentence {.unnumbered}
+
+In example () zaydun yaqoom we created a compound sentence by flipping the word order of an original sentence.
+But this is not the only way or reason to create compound sentences.
+A compound sentence may be composed without being flipped from an original.
+For example:
+-->
+
+### What is valid as an inner sentence
+
+#### Both the ;j_ism; and the ;j_f3l; are valid {.unnumbered}
+
+The inner sentence that is a ;xabar; of an outer sentence
+may be a ;j_f3l; (as in example () above),
+or a ;j_ism;, as in the following example:
+
+(@) [زيد أبوه قائم]{.ar}
+    [@abu_hayyan_tadhyeel@ 4/26]{.citex}
+
+#### A ;xabari; sentence is valid {.unnumbered}
+
+The ;xabar; is always the ;muxbar; of a sentence.
+And the ;muxbar; is defined as expressing some property about the ;muxbar3;.
+In the sentence
+<!--
+zaydun qaaim
+qaaim is the ;xabar; (and thus ;muxbar;).
+The property that the ;xabar; (qaaim) expresses about zayd that he is standing.
+-->
+zaydun yaqoom
+we saw that
+the inner sentence yaqoom is the ;xabar; (and thus ;muxbar;) of the outer sentence.
+The ;muxbar3; of the outer sentence is zaydun.
+The property that the ;xabar; (the inner sentence yaqoom) expresses about zayd that he is standing.
+This is a ;xabari; property.
+
+<!--
+But this rule of expressing a property about the ;muxbar3; is relaxed for a ;xabar;s that is an inner sentence.
+-->
+#### A ;inshai; sentence is valid {.unnumbered}
+
+The property that the ;xabar; expresses about the ;muxbar3; need not be ;xabari;
+(although it usually is).
+For example we can say:
+
+(@3amal_where_is_3amr) [أين عمرو؟]{.ar}
+    [@abu_hayyan_tadhyeel@ 4/27]{.citex}  
+    "Where is [#eamr]{.trn2}?"
+
+The ;xabar; [أَيْنَ]{.ar} in example (@3amal_where_is_3amr) is not ;xabari;.
+Yet the sentence is perfectly valid.
+
+Similarly,
+the inner sentence that is a ;xabar; of an outer sentence need not be ;xabari; either.^[@abu_hayyan_tadhyeel@ 4/27]
+So we can say:
+
+(@) zaydun iDribhu
+
+(@) zaydun hal darabtahu
+
+[Ibn Abi -r-RabI3, BasIT 706]{.citex}
+
+In examples () and () above, the inner sentence ;xabar;s are ;inshai;, not ;xabari;.
+But they are valid as a ;xabar; for their outer sentences,
+and due to them,
+the outer sentences are grammatically complete.
+
+#### Invalid sentences {.unnumbered}
+
+Some sentences, however, are not valid as inner sentences:
+
+* A sentence beginning with lAkin, HattA, or bal is not valid.^[@abu_hayyan_tadhyeel@ 4/28]
+* A vocative sentence is not valid.^[@abu_hayyan_tadhyeel@ 4/28]
+  So. we cannot say, for example:
+
+  (@) ;x; [زيد يا أخاه]{.ar}
+      [@abu_hayyan_tadhyeel@ 4/28]{.citex}  
+      "Zayd: O his brother."
+
+---
+
+(@) zaydun muntaliqun  
+    Zayd is setting out.
+
+The word muntaliqun is the ;xabar;.
+We can replace the word muntaliqun with the ;j_f3l;
+yantaliqu "he sets out."
+
+(@) zaydun yantaliqu
+    Zayd sets out.
+
+Now we have _nested_ sentences which consists of two sentences:
+ i. The inner sentence yantaliqu, which 
+    is a ;j_f3l; sentence, consisting of the verb and the implied ;faa3il; "he".
+ii. The outer sentence which is a ;j_ism;.
+    The ;mubtada; of the outer sentence is the noun zaydun.
+    And the ;xabar; of the outer sentence is the inner sentence.
+
+The ;xabar; is,
+in principle,
+a noun.
+But an inner sentence may occur,
+as in the example above,
+in its stead.
+
+### Purpose of using a nested sentence
+
+A sentence is used as a ;xabar; to contain more information than it would be to convey in a single word.
+
 
 (@) ;x; Zaydun qāma ʿAmrun  
     [peled 94 citing ibn ya3eesh]{.citex}
@@ -1761,6 +1914,8 @@ But i
 
 [قَائِمٌ زَيْدٌ]{.ar}
 represents a much discussed sentence structure in sentence theory.^[Peled]
+
+qaai'm's gov is the same sa yaqoomu's in "yaqoomu zaydun"
 
 ## Overlapping sentences (sababi sentence)
 
