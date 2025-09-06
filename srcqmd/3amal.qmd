@@ -1844,10 +1844,16 @@ For example we can say:
     [@abu_hayyan_tadhyeel@ 4/27]{.citex}  
     "Where is [#eamr]{.trn2}?"
 
-The ;xabar; [أَيْنَ]{.ar} in example (@3amal_where_is_3amr) is not ;xabari;.
+The ;xabar; [أَيْنَ]{.ar} in example (@3amal_where_is_3amr) is not ;xabari;.^[@abu_hayyan_tadhyeel@ 4/27]{.citex}  
 Yet the sentence is perfectly valid.
 
-Similarly,
+Similarly, a ;j_ism; (that has a ;xabar;) need not be ;xabari; itself.^[ibn_3usfoor_sharh_jumal 1/347]
+For example:
+
+(@) [أَيُّ رَجُلٍ أَخُوكَ]{.ar}
+    [ibn_3usfoor_sharh_jumal 1/347]{.citex}
+
+Therefore,
 the inner sentence that is a ;xabar; of an outer sentence need not be ;xabari; either.^[@abu_hayyan_tadhyeel@ 4/27]
 So we can say:
 
@@ -1873,6 +1879,78 @@ Some sentences, however, are not valid as inner sentences:
   (@) ;x; [زيد يا أخاه]{.ar}
       [@abu_hayyan_tadhyeel@ 4/28]{.citex}  
       "Zayd: O his brother."
+
+### The ;rabt; between the inner and outer sentence
+
+It is usually necessary for there to be a ;rabt; between the inner sentence, and the ;mubtada; of the outer sentence.
+This ;rabt; is usually supplied by a pronoun.
+Let's look at some examples:
+
+(@) [زَيْدٌ قَامَ أَبُوهُ]{.ar}
+    [jurjani_muqtasid 1/278]{.citex}  
+
+DIAGRAM
+
+In example () above, the ;rabt; is the pronoun [هُ]{.ar} in abuuhu.
+
+(@) [زَيْدٌ قَامَ]{.ar}
+    [jurjani_muqtasid 1/278]{.citex}  
+
+DIAGRAM
+
+In example () above, the ;rabt; is the implied singular masculine pronoun that is the ;faa3il; of qaama.
+
+If there is no such ;rabt; between the inner sentence and the ;mubtada; of the outer sentence,
+then the compound sentence is invalid.
+So we cannot say, for example:
+
+(@) ;x; Zaydun qāma ʿAmrun  
+    [peled 94 citing ibn ya3eesh; jurjani_muqtasid 1/279]{.citex}
+
+#### A ;ism_isharah; as the ;rabt; {.unnumbered}
+
+Instead of a pronoun,
+an ;ism_isharah; may serve as the ;rabt;.
+For example:
+
+(@) [وَلِبَاسُ التَّقْوَى ذَلِكَ خَيْرٌ]{.ar}
+    [cited by ibn_uthaymeen_sharh 17/2, ibn_aqil 1/204]{.citex}  
+
+#### A repeated ;mubtada; as the ;rabt; {.unnumbered}
+
+The ;mubtada; of the outer sentence may be repeated in the inner sentence, and this is sufficient as the ;rabt;.
+For example:
+
+(@) [الْحَاقَّةُ * مَا الْحَاقَّةُ]{.ar}
+    [cited by ibn_uthaymeen_sharh 17/2, ibn_aqil 1/204]{.citex}  
+
+#### No need for the ;rabt;
+
+In cases where the ;xabar; of the outer sentence is more general than its ;mubtada; a ;rabt; is not needed.
+For example:
+
+(@) zaydun ni3ma al-rajulu
+    [@wright@ 2/256D, ibn_aqil 1/204]{.citex}
+
+The ;rabt; is also not needed when the ;mubtada; of the outer sentence and its ;xabar; are perfectly identical in meaning.
+For example:
+
+(@) [نطقي الله حسبي]{.ar}
+    [@wright@ 2/256D, ibn_aqil 1/204]{.citex}
+
+(@) [قولي لا إله إلا الله]{.ar}
+    [@wright@ 2/256D, ibn_aqil 1/204]{.citex}
+
+#### Omitting the ;rabt; {.unnumbered}
+
+The ;rabt;, when it is technically required, is sometimes omitted in cases in which the sense is perfectly clear without it.^[@wright@ 2/256B]
+For example:
+
+(@) [ٱلسَّمْنُ مَنَوَانِ بِدِرْهَمٍ]{.ar}  
+    [@wright@ 2/256C; jurjani_muqtasid 1/278; radiyy 1/238]{.citex}  
+    (The sentence with the ;rabt; restored is [ٱلسَّمْنُ مَنَوَانِ مِنْهُ بِدِرْهَمٍ]{.ar} "two [manA]{.trn2}s _of it_ for a dirham.")
+
+## The pronoun of the fact
 
 ---
 

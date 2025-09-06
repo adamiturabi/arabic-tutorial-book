@@ -43,6 +43,10 @@ map_table["ma3mul"] = {"governee", nil}
 map_table["3amal"] = {"government", nil}
 map_table["3umdah"] = {"foundational", nil} -- indispensable
 
+-- jumlah khabariyyah and inshaa'iyyah
+map_table["xabari"] = {"truth-evaluable", nil} -- falsifiable
+map_table["inshai"] = {"non-truth-evaluable", nil} -- non-falsifiable
+
 -- alphabetical
 map_table["3aaid"] = {"refer-back pronoun", nil}
 map_table["3atf"] = {"conjunction", nil}
@@ -109,6 +113,8 @@ map_table["naib"] = {"deputy", nil}
 map_table["na3t"] = {"describer", nil}
 
 map_table["pbuh"] = {"ﷺ", "aralt" }
+
+map_table["rabt"] = {"link", nil}
 
 map_table["sahib_hal"] = {"person of ḥāl", nil}
 map_table["sahibs_hal"] = {"persons of ḥāl", nil}
