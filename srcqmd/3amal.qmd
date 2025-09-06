@@ -1156,7 +1156,7 @@ So that is another example of an obligatory word-order for the governor and the 
 Not every element in a sentence is governed by a governor.
 For example, the ;madi; verb has not state, and thus, no governor.
 
-## Some common governor-governees
+## Some common governees
 
 prep-istate
 
@@ -1165,6 +1165,8 @@ mudaf-istate
 verb-faa3il
 
 verb-mafulb
+
+na3t
 
 ## The two ;3umdah; elements of a sentence
 
@@ -1356,12 +1358,23 @@ A ;fadlah; element is any stateful element in a sentence that is not either of t
 but is governed,
 directly or indirectly,
 by any one of the ;3umdah; elements.
-[Get info from prev section]
-For example:
+We will discuss some of them below:
 
-#### The ;mafulb; {.unnumbered}
+#### The ;astate; governees of a verb {.unnumbered}
 
-The ;mafulb; is typically a ;fadlah; element.
+The most prominent ;fadlah; elements are 
+all ;astate; elements that a verb governs.
+These include:
+
+* the ;mafulb;
+* the ;mmutlaq; (see chapter\ (ref))
+* the ;dharf_zaman; and the ;dharf_makan; (see chapter\ (ref))
+* the ;mafull; (see chapter\ (ref))
+* the ;mafulm; (see chapter\ (ref))
+* the ;hal; (see chapter\ (ref))
+* the ;tamyiz; (see chapter\ (ref))
+
+The ;mafulb; is usually a ;fadlah; element.
 In most sentences, if we remove the ;mafulb; the sentence remains grammatically complete.
 For example:
 
@@ -1370,11 +1383,46 @@ like for kaana and its sisters (see chapter\ (ref)),
 then its ;mafulb;(s) may become an ;3umdah; element.
 For example:
 
-(@) kaana zaydun  qaa'iman
-          doer    mafulb
-          muxbar3 muxbar
+(@) kaana zaydun  qaa'iman  
+          doer    mafulb  
+          muxbar3 muxbar  
 
 DIAGRAM
+
+We will discuss this in more detail in section\ (ref) below and also in chapter\ (ref), ;ia;.
+
+#### The ;mudafil; in an ;idaafah; {.unnumbered}
+
+Technically,
+the ;mudafil; in an ;idaafah; is considered a ;fadlah; unit.
+Consider the following example:
+
+(@) abU zaydin axU eamrin
+
+If we remove the ;mudafil; nouns from the sentence we get:
+
+(@) al-abu al-axu
+
+This is a complete sentence.
+al-abu is the ;mubtada;.
+And al-axu is the ;xabar; (the ;muxbar;).
+
+However, for convenience, we will often (loosely) treat
+the annexation as one unit.
+So we may say that the ;mubtada; is
+abu zaydin
+and that the ;muxbar; is axu 3amr.
+
+#### The ;tabi3;s {.unnumbered}
+
+The ;tabi3;s are considered ;fadlah; elements.
+These include:
+
+* The ;na3t; (see chapter\ (ref))
+* The ;badal; (see chapter\ (ref))
+* The ;tawkeed; (see chapter\ (ref))
+* The ;3atf_bayan; (see chapter\ (ref))
+
 
 ## The supporting element
 
@@ -1488,7 +1536,10 @@ The _;xabar;_, when required, shall fulfil the role of the ;muxbar; of a sentenc
 <!--
 The ;xabar; may be either a noun, or an inner sentence.
 -->
-The ;xabar; is typically a noun, but an inner sentence may occur _in the place_^[Peled 91 citing ibn abi l-rabI3] of the ;xabar;.
+The ;xabar; is,
+in principle,
+a noun.
+But an inner sentence may occur _in the place_^[Peled 91 citing ibn abi l-rabI3] of the ;xabar;.
 
 
 <!--
@@ -1675,6 +1726,15 @@ ibn uthaymeen sharh alfiyyah (search for ibn al-qayyin ibn taymiyyah)
 اإلخبار عن النكرة بالمعرفة في القرآن الكريم د. حممد دلوم
 
 ## Nested sentences
+
+In the definition of the ;xabar;
+(section\ (ref) above)
+we mentioned that the ;xabar; is 
+in principle,
+a noun.
+But an inner sentence may occur _in the place_^[Peled 91 citing ibn abi l-rabI3] of the ;xabar;.
+
+But i
 
 (@) ;x; Zaydun qāma ʿAmrun  
     [peled 94 citing ibn ya3eesh]{.citex}

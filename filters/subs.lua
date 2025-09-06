@@ -46,6 +46,7 @@ map_table["3umdah"] = {"foundational", nil} -- indispensable
 -- alphabetical
 map_table["3aaid"] = {"refer-back pronoun", nil}
 map_table["3atf"] = {"conjunction", nil}
+map_table["3atf_bayan"] = {"clarifying follower", nil}
 
 map_table["adat_istifham"] = {"question word", nil}
 map_table["af3al"] = {"comparative noun", nil}
@@ -87,6 +88,7 @@ map_table["madi"] = {"past", nil}  -- "stateless" verb?
 map_table["maful"] = {"doee", nil}
 map_table["mafulb"] = {"direct doee", nil}
 map_table["mafull"] = {"adverb of reason", nil}
+map_table["mafulm"] = {"accompanying doee", nil}
 map_table["manut"] = {"describee", nil}
 map_table["masdar"] = {"maSdar", "trn2"}
 map_table["mmutlaq"] = {"absolute doee", nil}
@@ -117,6 +119,9 @@ map_table["silah"] = {"connecting sentence", nil}
 map_table["shart"] = {"condition", nil}
 map_table["shibh_fi3l"] = {"quasi-verb", nil}
 map_table["shibh_jumlah"] = {"quasi-sentence", nil}
+map_table["shibh_jumlah"] = {"quasi-sentence", nil}
+
+map_table["tawkeed"] = {"emphatic follower", nil}
 
 map_table["x"] = {"✗", nil}
 map_table["xabar"] = {"info", nil} -- newsworthy expression, information, comment, remark, info
