@@ -7,6 +7,8 @@ local map_table = {}
 -- text terms
 map_table["ia"] = {"if Allāh wills", nil}
 map_table["quran"] = {"Qurʾān", nil}
+map_table["ayah"] = {"Ayah", "trn2"}
+map_table["surah"] = {"sUrah", "trn2"}
 
 -- states
 map_table["ustate"] = {"raised-state", nil}
@@ -127,6 +129,8 @@ map_table["shibh_fi3l"] = {"quasi-verb", nil}
 map_table["shibh_jumlah"] = {"quasi-sentence", nil}
 map_table["shibh_jumlah"] = {"quasi-sentence", nil}
 
+map_table["tabi3"] = {"follower", nil}
+map_table["tamyiz"] = {"tamyIz", "trn2"}
 map_table["tawkeed"] = {"emphatic follower", nil}
 
 map_table["x"] = {"✗", nil}
