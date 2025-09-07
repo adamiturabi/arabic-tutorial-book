@@ -107,6 +107,7 @@ map_table["mushar_il"] = {"pointed-to noun", nil} -- {"muDArie", "trn2"}
 map_table["mushtaqq"] = {"derived", nil}
 map_table["musnad"] = {"supported element", nil} -- complement
 map_table["musnadi"] = {"supporting element", nil} -- rock, mainstay, anchor
+map_table["mustatir"] = {"latent", nil} -- assumed, hidden, invisible, implied
 map_table["muxbar3"] = {"subject", nil} -- theme,rock, mainstay, anchor
 map_table["muxbar"] = {"predicate", nil} -- rheme, complement
 map_table["mutaddi"] = {"transitive", nil}

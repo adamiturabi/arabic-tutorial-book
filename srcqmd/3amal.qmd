@@ -1032,17 +1032,41 @@ Sometimes, it is not immediately clear from the functional aspect, who should be
 
 ## Introduction
 
- jumlah inshaa'iyyah
- jumlah khabariyyah
+In this chapter, we will study the Arabic grammatical model for constructing sentences.
+We will first define some linguistic terms.
+
+### Truth-evaluability
+
+Statements are classified into two types:
+
+ i. a ;xabari; statement
+ii. a ;inshai; statement
+
+A _;xabari;_ statement is one that can be judged to be true or false.
+In other words it is falsifiable.
+For example, if we have a statement:
+
+(@) zaydun qaaimun
+
+The above statement may be judged to have a truth value.
+If zayd is actually standing, then the statement is true.
+And if zayd is not standing, then the statement is false.
+
+A _;inshai;_ statement,
+on the other hand,
+does not have a truth value.
+Here are some examples of ;inshai; statements:
+
+(@) iDribh zaydan
+
+(@) laa taf3al
+
+(@) O zayd
+
+(@) man huwa?
+
 
 ### Syntax, semantics, and pragmatics
-
-Define:
-
-* Syntax
-* Semantics
-* Pragmatics
-* Functional aspects
 
 #### Syntax {.unnumbered}
 
@@ -1776,19 +1800,19 @@ Why? Because the word-order of a ;faa3il; and it's governor is strictly fixed in
 The ;faa3il;'s governor must precede it.
 So zaydun cannot be a ;faa3il; of yaqoom.
 But yaqoom is a verb, and a verb needs a ;faa3il;
-The ;faa3il; of yaqoom is an implied pronoun after the verb, implying "he".
-So yaqoom is actually a ;j_f3l; by itself.
-So what is Zayd?
+The ;faa3il; of yaqoom is the ;mustatir; singular masculine pronoun (signifying "he") within the verb.
+So yaqoom, by itself, is a complete ;j_f3l;.
+So what, then, is Zayd?
 Zayd is the ;mubtada; of a sentence, whose ;xabar; is the ;j_ism; yaqoom.
 
 DIAGRAM
 
 So we can see that we have
-a _compound_ sentence.
+a _compound_ sentence,
 consisting of
 an outer sentence and an inner sentence.
 A compound sentence is one that has a ;xabar; that is itself a sentence.
-As opposed to compound sentences, a _simple_ sentence does not contain another sentence within it.
+As opposed to compound sentences, a _simple_ sentence is one that does not contain another sentence within it.
 <!--
 The inner sentence is _nested_ in the outer sentence.
 -->
@@ -1884,7 +1908,7 @@ But they are valid as a ;xabar; for their outer sentences,
 and due to them,
 the outer sentences are grammatically complete.
 
-#### Invalid sentences {.unnumbered}
+#### Invalid inner sentences {.unnumbered}
 
 Some sentences, however, are not valid as inner sentences:
 
@@ -1899,7 +1923,7 @@ Some sentences, however, are not valid as inner sentences:
 ### The ;rabt; between the inner and outer sentence
 
 It is usually necessary for there to be a ;rabt; between the inner sentence, and the ;mubtada; of the outer sentence.
-This ;rabt; is usually supplied by a pronoun.
+This ;rabt; is typically supplied by a pronoun.
 Let's look at some examples:
 
 (@) [زَيْدٌ قَامَ أَبُوهُ]{.ar}
@@ -1916,7 +1940,7 @@ DIAGRAM
 
 In example () above, the ;rabt; is the implied singular masculine pronoun that is the ;faa3il; of qaama.
 
-If there is no such ;rabt; between the inner sentence and the ;mubtada; of the outer sentence,
+Generally, if there is no such ;rabt; between the inner sentence and the ;mubtada; of the outer sentence,
 then the compound sentence is invalid.
 So we cannot say, for example:
 
@@ -1940,7 +1964,7 @@ For example:
 (@) [الْحَاقَّةُ * مَا الْحَاقَّةُ]{.ar}
     [cited by ibn_uthaymeen_sharh 17/2, ibn_aqil 1/204]{.citex}  
 
-#### No need for the ;rabt;
+#### No need for the ;rabt; {.unnumbered}
 
 In cases where the ;xabar; of the outer sentence is more general than its ;mubtada; a ;rabt; is not needed.
 For example:
