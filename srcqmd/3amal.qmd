@@ -1301,7 +1301,7 @@ And, as usual, the verb yaphabu governs its ;faa3il; zaydun (the ;muxbar3;) in t
 #### An external element as the initial governor {.unnumbered}
 
 Sometimes, it is possible for an element that is external to the sentence under question, to be its initial governor.
-For example:
+We will learn moe about this case in sections\ (ref) and (ref) below.
 
 <!--
 (@) zaydun DAribun abUhu eamran
@@ -1346,6 +1346,7 @@ But DAribun is a stateful element that itself needs a governor.
 It is put in the ;ustate; because it is the ;xabar; of the initial governor inna.
 -->
 
+<!--
 (@) kāna Zaydun munṭaliqan ʾabūhu
     [peled 207 citing zajjaji]{.citex}
 
@@ -1371,6 +1372,7 @@ and its ;faa3il; abUhu.
 (Remember from section\ (ref) that an ;ism_fail; can have a ;faa3il;)
 muntaliq governs abUhu.
 But muntaliq itself is also governed by an initial governor (the verb kaana) that is not in this inner sentence.
+-->
 
 #### More than one initial governor {.unnumbered}
 
@@ -2278,10 +2280,21 @@ that points back to the first sentence.
 In example () above, the ;rabt; is the pronoun [ه]{.ar} in [أَبُوهُ]{.ar}, that points back to Zayd.
 However,
 But this ;rabt; does not necessarily point back to the ;muxbar3; of the first sentence.
-It will point back to the _syntactical_ ;muxbar3; of the overlapping element.
+It will point back to the _original_ referent of the overlapping element.
+That is, the referent of the overlapping element, had the second sentence not been there.
 It example () above,
-the syntactical ;muxbar3; of
-muntaliqan also happens to be the ;muxbar3; of the first sentence.
+if the second sentence had not been there,
+the overlapping element
+muntaliqan
+would refer to
+zayd.
+So the ;rabt; points back to zayd.
+
+In this sentence
+the original referent
+of the 
+overlapping element
+also happens to be the ;muxbar3; of the first sentence.
 But in section\ (ref) below, we will see cases where it need not be so.
 
 #### The anchoring element for the overlapping element {.unnumbered}
@@ -2300,7 +2313,7 @@ kaana zaydun muntaliqan.^[But see also peled 208]
 Just like in section\ (ref) above,
 the verb-like noun that is the overlapping element will remain in the singular,
 regardless of the number of its ;faa3il;,
-or of the number of its syntactical ;muxbar3;.
+or of the number of its original referent.
 It will however modify for gender to match the gender of the ;faa3il;.
 
 Here are examples of some possibilities:
@@ -2354,7 +2367,7 @@ Consider the following example:
 This is a case of overlapping sentences.
 The word
 [حَسَنًا]{.ar}
-is syntactically a ;na3t;
+is originally a ;na3t;
 for the ;manut;
 [رَجُلًا]{.ar}
 in the first sentence.
@@ -2372,28 +2385,56 @@ which is the pronoun [ه]{.ar} in
 doesn't point to the ;muxbar3; of the first sentence
 (which is the pronoun [تُ]{.ar} ("I") in
 [رَأَيْتُ]{.ar}).
-Rather, it points to the _syntactical_ ;muxbar3; of the overlapping element,
+Rather, it points to the _original_ referent of the overlapping element,
 i.e. whom the overlapping element
 [حَسَنًا]{.ar}
-is referring to.
-In this case it is the syntactical ;manut;
+would be referring to, if the second sentence were not there.
+In this case it is the original ;manut;
 [رَجُلًا]{.ar}.
 
-As usual, the overlapping member
-will remain in the singular
-regardless of the number of its ;faa3il;,
-or of the number of its syntactical ;muxbar3;.
-It will however modify for gender to match the gender of the ;faa3il; following it.
-It will also match its syntactical ;muxbar3; in definiteness and state.
+We already know that a ;na3t; must match its ;manut; in four aspects:
 
-Here are some examples:
+  i. number
+ ii. gender
+iii. state
+ iv. definiteness
+
+As for number,
+because the ;na3t; is acting as a verb and governing an expressed ;faa3il;
+it will remain in the singular
+regardless of the number of its ;faa3il;,
+or of the number of its original referent.
+
+And as for gender, the ;na3t; will match the ;faa3il;, not the original referent.
+This is because, again, it is acting as a verb and a verb matches its ;faa3il; in gender.
+
+But as for state,
+then a (stateful i.e. ;mudarie;) verb's state is not governed by its ;faa3il;.
+Since the overlapping member is part of the first sentence,
+it will be governed (in its state) by whatever would govern it, if the second sentence were not there.
+In the case of a ;na3t;,
+we learned in section\ (ref) above,
+that it is governed by the governor of its ;manut;.
+So the overlapping member will match its original referent in state.
+
+And as for definiteness,
+then a real verb has no definiteness.
+So here too it will match its original referent, i.e., the original ;manut;.
+
+Here are some examples of overlapping ;na3t;s:
 
 (@) [جَاءَنِي رَجُلٌ حَسَنٌ أَخُوهُ]{.ar}
     [@wright@ 2/283B]
 
 ...
 
-## Substitution of sentences for nouns
+[فاقع لونها]{.ar}
+
+[القرية الظالم أهلها]{.ar}
+
+[سَائِغٌ شَرَابُهُ]{.ar}
+
+## Substituting nouns with sentences
 
 The ;xabar; of a sentence is, in principle, a noun.
 However, we saw in section\ (ref) above,
