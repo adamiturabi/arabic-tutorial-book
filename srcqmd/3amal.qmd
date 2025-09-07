@@ -2250,7 +2250,7 @@ The ;ism_fail; muntaliq is now assigned to be the ;xabar; of kaana thus:
 (@) kaana zaydun muntaliqan
 
 But wait!
-Example () above is saying that Zayd was setting out, not his parents.
+Example () above is saying that Zayd was setting out, not his father.
 And where is his father anyway?
 What we'll do is consider the ;ism_fail;
 muntaliqan
@@ -2259,20 +2259,77 @@ And we'll add Zayd's father as the ;faa3il; of the ;ism_fail; thus:
 
 (@) kaana zaydun muntaliqan abawaahu
 
+DIAGRAM
+
+Even though
+the _overlapping element_
+muntaliqan
+is part of the first sentence
+(as its ;xabar;),
+its meaning applies to the second sentence.
+So it is not Zayd who is setting out, but his father.
+
+#### The ;rabt; between the overlapping sentences {.unnumbered}
+
+Note that,
+just like in the case of the compound sentence,
+overlapping sentences also require a ;rabt; in the second sentence
+that points back to the first sentence.
+In example () above, the ;rabt; is the pronoun [ه]{.ar} in [أَبُوهُ]{.ar}, that points back to Zayd.
+However,
+But this ;rabt; does not necessarily point back to the ;muxbar3; of the first sentence.
+It will point back to the _syntactical_ ;muxbar3; of the overlapping element.
+It example () above,
+the syntactical ;muxbar3; of
+muntaliqan also happens to be the ;muxbar3; of the first sentence.
+But in section\ (ref) below, we will see cases where it need not be so.
+
+#### The anchoring element for the overlapping element {.unnumbered}
+
 By the way, remember in section\ (ref) above,
-we said that the ;ism_fail; can govern a ;faa3il; when anchored by an anchoring element.
-For overlapping sentences, the ;ism_fail; is anchored by its being a syntactical part of the first sentence.
+we said that the verb-like noun can govern a ;faa3il; when anchored by an anchoring element.
+For overlapping sentences, the overlapping element is the verb-like noun.
+It is anchored by its being a syntactical part of the first sentence.
 In our example,
 muntaliqan
 is anchored by bain a ;xabar; of the first sentence
 kaana zaydun muntaliqan.^[But see also peled 208]
 
+#### The effect of gender and number on the overlapping element {.unnumbered}
+
+Just like in section\ (ref) above,
+the verb-like noun that is the overlapping element will remain in the singular,
+regardless of the number of its ;faa3il;,
+or of the number of its syntactical ;muxbar3;.
+It will however modify for gender to match the gender of the ;faa3il;.
+
+Here are examples of some possibilities:
+
+(@) kāna l-Zaydāni munṭaliqan ʾabawāhumā
+    [Peled 208]{.citex}
+
+(@) kāna l-Zaydūna ḥisānan ʾābāʾuhum
+    [Peled 208 fn]{.citex}
+
+(@) kāna zaydun munṭaliqan ʾabawāhumā
+
+(@) kāna l-Zaydāni munṭaliqan mu3allimuhuma
+
+(@) kānat hindun munṭaliqan abUhu
+
+(@) kānat hindun munṭaliqatan UmmuhA
+
+(@) kānat alhindAni munṭaliqatan UmmAhumA
+
+(@) kānat alhindAni munṭaliqan AbawAhu
+
 #### A non-overlapping compound sentence to express the same meaning {.unnumbered}
+
+Instead of using an overlapping sentence, we could also have used a compound sentence to express the same meaning:
 
 (@) kaana zaydun muntaliqun abUhu
     [Peled 208]{.citex}
 
-This is not an overlapping sentence.
 Here muntaliqun abUhu is an inner sentence with a fronted ;xabar;
 And the inner sentence is the ;xabar; of the outer sentence.^[See Peled 209 fn 35]
 DIAGRAM
@@ -2284,18 +2341,71 @@ If we were to change the number of the inner sentence's ;mubtada; then its ;xaba
 
 (@) kāna zaydun munṭaliqāni ʾabawāhumā
 
+## The overlapping ;na3t;
 
-(See also Peled 207--208
-What
-and the ;xabar; of kaana may be the inner sentence
-abUhu muntaliqun.
+Overlapping sentences are very common for one particular case,
+called the _overlapping ;na3t;_.
+Consider the following example:
 
-An element of the outer sentence also serves as the first element of the inner sentence.
-In other words, the sentence has an external initial governor.
+(@) [رَأَيْتُ رَجُلًا حَسَنًا أَخُوهُ]{.ar}
+    [@wright@ 2/283C]  
+    "I saw a man [whose] brother is handsome."
 
-(@) kaana zaydun muntaliqan abUhu // sababi (muntaliqan is astate)
+This is a case of overlapping sentences.
+The word
+[حَسَنًا]{.ar}
+is syntactically a ;na3t;
+for the ;manut;
+[رَجُلًا]{.ar}
+in the first sentence.
+But it is also the overlapping element that begins the second sentence
+and serves as the governing verb-like noun for the ;faa3il;
+[أَخُوهُ]{.ar}.
 
-(@) kaana zaydun muntaliqun abUhu // NOT sababi (muntaliqan is ustate)
+DIAGRAM
+
+Note that,
+as we mentioned above,
+the ;rabt;,
+which is the pronoun [ه]{.ar} in 
+[أَخُوهُ]{.ar},
+doesn't point to the ;muxbar3; of the first sentence
+(which is the pronoun [تُ]{.ar} ("I") in
+[رَأَيْتُ]{.ar}).
+Rather, it points to the _syntactical_ ;muxbar3; of the overlapping element,
+i.e. whom the overlapping element
+[حَسَنًا]{.ar}
+is referring to.
+In this case it is the syntactical ;manut;
+[رَجُلًا]{.ar}.
+
+As usual, the overlapping member
+will remain in the singular
+regardless of the number of its ;faa3il;,
+or of the number of its syntactical ;muxbar3;.
+It will however modify for gender to match the gender of the ;faa3il; following it.
+It will also match its syntactical ;muxbar3; in definiteness and state.
+
+Here are some examples:
+
+(@) [جَاءَنِي رَجُلٌ حَسَنٌ أَخُوهُ]{.ar}
+    [@wright@ 2/283B]
+
+...
+
+## Substitution of sentences for nouns
+
+The ;xabar; of a sentence is, in principle, a noun.
+However, we saw in section\ (ref) above,
+that a sentence may occur in place of it.
+This formed a compound sentence.
+
+This substitution of sentences in place a noun can be done for other syntactical elements as well.
+We will discuss some of these cases here.
+
+### A sentence as the ;na3t;
+
+### A sentence as the ;mudafil; in an ;idaafah;
 
 ## Notes
 
