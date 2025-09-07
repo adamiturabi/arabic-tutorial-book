@@ -2208,7 +2208,7 @@ is not
 would require a supporting element
 -->
 
-### Traditional analysis of [قَائِمٌ زَيْدٌ]{.ar}
+### Traditional analysis of [قَائِمٌ ٱلزَّيْدَانِ]{.ar}
 
 Traditionally, grammarians have analyzed this challenging sentence as a kind of hybrid sentence
 that has aspects of both a ;j_ism; and a ;j_f3l;.
@@ -2216,7 +2216,7 @@ According to this mainstream view,
 [قَائِمٌ]{.ar}
 is a ;mubtada;,
 and
-[زَيْدٌ]{.ar}
+[ٱلزَّيْدَانِ]{.ar}
 is a ;faa3il;
 "substituting for the ;xabar;."^[Peled 143 citing ibn_aqil 1/189 and Carter]
 However, not all grammarians agreed with this mainstream view.^[Peled 143 citing astarabadi 1/225]
@@ -2224,14 +2224,71 @@ However, not all grammarians agreed with this mainstream view.^[Peled 143 citing
 As for us, we have attempted to make this kind of sentence fit within the Arabic grammatical model
 by defining the ;j_f3l; in a way that it may begin with a verb-like noun.
 
-## Overlapping sentences (sababi sentence)
+### TODO: Add ;ism_maful; + ;naib; ;faa3il;
 
-Also at the edge of the Arabic grammatical model is what we will call the case of two overlapping sentences.
+## Overlapping sentences
+
+Also at the edge of the Arabic grammatical model is what we will call
+the case of overlapping sentences.
 This is when last (stateful) element of one sentence serves as the first element of the next sentence.
 In other words, the sentence has an external initial governor
 (see section\ (ref) above).
 It also utilizes the kind of analysis which we developed for the sentence
 [قَائِمٌ زَيْدٌ]{.ar}.
+
+Let's say we wish to express the meaning,
+"Zayd's father were setting out."
+The normal way to express this in Arabic would be:
+
+(@) kaana abU zaydin munTaliqan
+
+Now, for pragmatic, or stylistic reasons, we wish to make Zayd the topic of the sentence.
+One way to do this could be to make
+make Zayd the ;ism_of; of kaana.
+The ;ism_fail; muntaliq is now assigned to be the ;xabar; of kaana thus:
+
+(@) kaana zaydun muntaliqan
+
+But wait!
+Example () above is saying that Zayd was setting out, not his parents.
+And where is his father anyway?
+What we'll do is consider the ;ism_fail;
+muntaliqan
+to be a verb-like noun that can govern a ;faa3il;.
+And we'll add Zayd's father as the ;faa3il; of the ;ism_fail; thus:
+
+(@) kaana zaydun muntaliqan abawaahu
+
+By the way, remember in section\ (ref) above,
+we said that the ;ism_fail; can govern a ;faa3il; when anchored by an anchoring element.
+For overlapping sentences, the ;ism_fail; is anchored by its being a syntactical part of the first sentence.
+In our example,
+muntaliqan
+is anchored by bain a ;xabar; of the first sentence
+kaana zaydun muntaliqan.^[But see also peled 208]
+
+#### A non-overlapping compound sentence to express the same meaning {.unnumbered}
+
+(@) kaana zaydun muntaliqun abUhu
+    [Peled 208]{.citex}
+
+This is not an overlapping sentence.
+Here muntaliqun abUhu is an inner sentence with a fronted ;xabar;
+And the inner sentence is the ;xabar; of the outer sentence.^[See Peled 209 fn 35]
+DIAGRAM
+
+If we were to change the number of the inner sentence's ;mubtada; then its ;xabar; would follow suit:
+
+(@) kāna al-Zaydāni munṭaliqāni ʾabawāhumā
+    [Peled 208]{.citex}
+
+(@) kāna zaydun munṭaliqāni ʾabawāhumā
+
+
+(See also Peled 207--208
+What
+and the ;xabar; of kaana may be the inner sentence
+abUhu muntaliqun.
 
 An element of the outer sentence also serves as the first element of the inner sentence.
 In other words, the sentence has an external initial governor.
