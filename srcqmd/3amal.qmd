@@ -1759,9 +1759,9 @@ However, if it is known from context that one if the two elements is the 'given'
 
 For example, consider a situation where one wishes to say that Abu Yusuf is [like] Abu Hanifa.
 (Imam Abu Yusuf was the foremost student of Imam Abu Hanifa.)
-The the normal way to express this sentence is:
+The normal way to express this sentence is:
 
-(@) Abu Yusuf Abu Hanifa
+(@) Abu Yusuf Abu Hanifa.
 
 DIAGRAM
 
@@ -1845,9 +1845,11 @@ As opposed to compound sentences, a _simple_ sentence is one that does not conta
 The inner sentence is _nested_ in the outer sentence.
 -->
 
-One important thing to note is that
-simply changing the word-order in a sentence (when permitted)
+::: {.callout-note}
+Simply changing the word-order in a sentence (when permitted)
 can result in a different grammar for the new sentence, compared to the original sentence.
+This is a very important observation and we will make use of it later, ;ia;.
+:::
 
 ### What is valid as an outer sentence
 
@@ -1859,7 +1861,7 @@ For example:
 
 DIAGRAM
 
-We will study compound sentences that have the kaana in more detail in chapter\ (ref).
+We will study compound sentences that start with kaana in more detail in chapter\ (ref).
 
 <!--
 #### Composing a compound sentence {.unnumbered}
@@ -1931,7 +1933,7 @@ So we can say:
 
 [Ibn Abi -r-RabI3, BasIT 706]{.citex}
 
-In examples () and () above, the inner sentence ;xabar;s are ;inshai;, not ;xabari;.
+In examples () and () above, the inner sentence ;xabar;s are ;inshai;.
 But they are valid as a ;xabar; for their outer sentences,
 and due to them,
 the outer sentences are grammatically complete.
@@ -2060,8 +2062,37 @@ A sentence is used as a ;xabar; to contain more information than it would be to 
 
 ## [قَائِمٌ زَيْدٌ]{.ar}
 
-[قَائِمٌ زَيْدٌ]{.ar}
-represents a much discussed sentence structure in sentence theory.^[Peled]
+(@3amal_qaaimun_zaydun) [قَائِمٌ زَيْدٌ]{.ar}  
+    "Standing is Zayd."
+
+Example (@3amal_qaaimun_zaydun) above represents a much discussed sentence structure in sentence theory.^[Peled]
+The normal word-order for expressing this sentence is:
+
+(@) [زَيْدٌ قَائِمٌ]{.ar}  
+    "Zayd is standing."
+
+DIAGRAM
+
+But the word-order of the sentence is flipped.
+Now, we know from section\ () above that changing the order of words in a sentence (when permitted)
+can result in a different grammar for the new sentence, compared to the original sentence.
+
+As a matter of fact, for this particular sentence,
+the grammar of flipped sentence can be the same as the original sentence:
+
+DIAGRAM
+
+But another interpretation is also possible.
+Sometimes a flipped sentence of this sort is anchored to a preceding supporting element
+(see section\ (ref) above).
+For example:
+
+<!--
+By the way, the flipped word-order sentence (@3amal_qaaimun_zaydun) [قَائِمٌ زَيْدٌ]{.ar}
+is not 
+would require a supporting element
+-->
+
 
 qaai'm's gov is the same sa yaqoomu's in "yaqoomu zaydun"
 
