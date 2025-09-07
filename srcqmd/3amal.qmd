@@ -1611,6 +1611,16 @@ In a ;j_f3l;, determining the ;muxbar3; and the ;muxbar; is relatively straightf
 The ;muxbar3; is the ;faa3il; and the ;muxbar; is the element which completes the sentence by expresses a property about the ;muxbar3;.
 However, in a ;j_ism; determining the ;muxbar3; and the ;muxbar; can be a little complicated.
 -->
+The terms
+;muxbar3;,
+;muxbar;,
+;faa3il;,
+;3aamil;,
+;xabar;,
+etc.
+are syntatical terms.
+But they are determined using syntax, semantics, and pragmatics.
+
 In terms of pragmatics, the ;muxbar3; and the ;muxbar; represent 'given' and 'new' information.
 That is, the listener knows who the ;muxbar3; is and can identify him or it. So the ;muxbar3; is a 'given' to the listener.
 And the speaker is providing 'new' information about the ;muxbar3; to the listener.
@@ -1631,6 +1641,7 @@ then the ;muxbar3; and the ;muxbar; remain the same.
 The ;muxbar3; is ana because that is 'given' information to the listener.
 And the ;muxbar; is tamimiyyun becayse that represents 'new' information for the listener.
 
+<!--
 So much for the pragmatic perspective.
 
 From the perspective of grammar, the ;muxbar3; and the ;muxbar; are determined 
@@ -1638,13 +1649,17 @@ first using syntactical rules, then with semantic considerations, and finally (o
 
 Usually the synactico-semantic perspective will align with the pragmatic perspective.
 But sometimes they may mis-align.
+-->
+
+Sometimes, what is pragmatically the topic of sentence, may not align with the syntactic ;muxbar3;.
 Consider for example, the following sentence:
 
 (@) zaydan ra'aytu
     [peled 28]{.citex}
 
-Pragmatically, it seems that the zayd is the topic of the sentence because it is whom the sentence is about.
-But actually zayd here is a ;fadlah; element.
+Pragmatically, it may seem that zayd is the topic of the sentence because it is whom the sentence is about.
+But actually zayd is the ;mafulb; of a semantically complete verb ra'A.
+So zayd is a ;fadlah; element.
 Stripping the sentence of the ;fadlah; elements, we are left with ra'aytu.
 This is a ;j_f3l;.
 The ;muxbar3; is the ;faa3il; (the pronoun tu "I").
@@ -1714,8 +1729,14 @@ Besides these two special cases,
 there are words like
 Hasb, naHw, mivl, etc.
 Remember from section\ (ref) that these words (exceptionally) remain indefinite when annexed to a definite noun.
-Some grammarians hold that these nouns, when annexed to a definite noun, may occur as a ;mubtada; even if the ;xabar; is definite.
-For example,
+There is some debate amongst the grammarians with regards to whether these indefinite noun may occur as a ;mubtada; to a definite ;xabar;.^[Sabban sharh ashmooni 1/277]
+So if we have a sentence: 
+
+(@) [حسبُك زَيْدٌ]{.ar}
+
+then one may deem zayd as the ;mubtada; because it is more definite than hasbuka.
+
+But see also the ;tafsir;s of the following ;ayah;s:
 
 (@) faHasbuhu jahannamu
 
@@ -1732,15 +1753,16 @@ However, if it is known from context that one if the two elements is the 'given'
 
 For example, consider a situation where one wishes to say that Abu Yusuf is [like] Abu Hanifa.
 (Imam Abu Yusuf was the foremost student of Imam Abu Hanifa.)
-Then the normal way to express this is:
+The the normal way to express this sentence is:
 
 (@) Abu Yusuf Abu Hanifa
 
 DIAGRAM
 
-However, if the speaker and the listener know that Abu Yusuf is the topic of the conversation then this represents the given information.
+However, if the speaker and the listener know that Abu Yusuf is the topic of the conversation then Abu Yusuf is the given information.
 And likening him to Abu Hanifa is the new information which then speaker is giving to the listener.
-In this case the speaker may place the ;xabar; (Abu Hanifa) before the ;mubtada; (Abu Yusuf)
+With the pragamatic knowledge that the listener would know what he means,
+the speaker may choose, for stylistic reasons, to place the ;xabar; (Abu Hanifa) before the ;mubtada; (Abu Yusuf)
 
 (@) Abu Hanifa Abu Yusuf 
 
