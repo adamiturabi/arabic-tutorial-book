@@ -2024,7 +2024,7 @@ For example:
 
 ## The pronoun of the fact
 
----
+<!--
 
 (@) zaydun muntaliqun  
     Zayd is setting out.
@@ -2059,33 +2059,148 @@ A sentence is used as a ;xabar; to contain more information than it would be to 
     [peled 94 citing ibn ya3eesh]{.citex}
 
 ;3aaid; can be substituted [peled 94]
+-->
 
 ## [قَائِمٌ زَيْدٌ]{.ar}
+
+In this section we will make extensive use of the example:
 
 (@3amal_qaaimun_zaydun) [قَائِمٌ زَيْدٌ]{.ar}  
     "Standing is Zayd."
 
-Example (@3amal_qaaimun_zaydun) above represents a much discussed sentence structure in sentence theory.^[Peled]
+Example (@3amal_qaaimun_zaydun) above represents a much discussed structure in Arabic sentence theory.
+It presented a serious challenge to the grammarians' theory of government and sentence types.^[Peled 122]
+
+### [قَائِمٌ زَيْدٌ]{.ar} analyzed as a ;j_ism;
+
 The normal word-order for expressing this sentence is:
 
-(@) [زَيْدٌ قَائِمٌ]{.ar}  
+(@3amal_zaydun_qaaimun) [زَيْدٌ قَائِمٌ]{.ar}  
     "Zayd is standing."
 
 DIAGRAM
 
-But the word-order of the sentence is flipped.
+But the word-order of the sentence is flipped in example (@3amal_qaaimun_zaydun) [قَائِمٌ زَيْدٌ]{.ar}.
+Again, we will discuss the stylistic reasons for changing the word-order in chapter\ (ref).
+In this particular case, 
+a speaker may choose to say (@3amal_qaaimun_zaydun) [قَائِمٌ زَيْدٌ]{.ar} 
+instead of the more normal (@3amal_zaydun_qaaimun) [زَيْدٌ قَائِمٌ]{.ar}
+when the listener is under an incorrect impression that Zayd is sitting.^[@maani_nahw@ 1/[المبتدأ الذي له مرفوع أغني عن الخبر]{.ar}]
+
+Anyway, for now, let's focus on the grammar of the sentence, once the word-order has been changed.
 Now, we know from section\ () above that changing the order of words in a sentence (when permitted)
 can result in a different grammar for the new sentence, compared to the original sentence.
 
 As a matter of fact, for this particular sentence,
-the grammar of flipped sentence can be the same as the original sentence:
+the grammatical parsing of the flipped sentence can be the same as the original sentence:
 
 DIAGRAM
 
-But another interpretation is also possible.
-Sometimes a flipped sentence of this sort is anchored to a preceding supporting element
-(see section\ (ref) above).
+So if we change the gender or number of the ;mubtada;,
+then the gender and number of the ;xabar; will also be changed to match it.
 For example:
+
+(@) [قَائِمَةٌ هِنْدٌ]{.ar}  
+    "Hind is standing."
+
+<!--
+(@) [قَائِمَانِ ٱلزَّيْدَانِ]{.ar}  
+    "The (two) Zayds are standing."
+-->
+
+(@) [مَا قَائِمُونَ ٱلزَّيْدَونَ]{.ar}  
+    "The Zayds are not standing."
+
+(@) [أَقَائِمَتَانِ ٱلْهِنْدَانِ]{.ar}  
+    "Are the (two) Hinds standing?"
+
+So far so good.
+Now let's get to the more problematic analysis:
+
+### [قَائِمٌ زَيْدٌ]{.ar} analyzed as a ;j_f3l;
+
+Sometimes a flipped sentence of this sort is anchored to a preceding anchoring element
+(see section\ (ref) above).
+For example,
+
+(@) [أَقَائِمٌ زَيْدٌ]{.ar}  
+    "Is Zayd standing?"
+    (The question particle [أَ]{.ar} is the anchoring element.)
+
+(@) [مَا قَائِمٌ زَيْدٌ]{.ar}  
+    "Zayd is not standing."
+    (The negative particle [مَا]{.ar} is the anchoring element.)
+
+The anchoring element is usually a question particle 
+or a negative particle^[Peled 143]
+(as in examples () and () above).
+But we will see in section\ (overlapping sentences) below, that it may even be an element of a previous sentence.
+
+Now, with this anchoring element,
+another grammatical parsing is possible.^[Peled 140]
+The ;ism_fail;
+[قَائِمٌ]{.ar}
+is a verb-like noun.
+In fact, it is the closest of the ;mushtaqq; nouns to the ;mudarie; verb [يَقُومُ]{.ar}.^[Peled 122]
+This resemblance of the ;ism_fail; to the verb allows it to
+serve as the governor of the ;muxbar3;
+its ;faa3il;.
+And the ;muxbar3;
+[زَيْدٌ]{.ar}
+can now parsed as a ;faa3il;.
+And the sentence becomes a ;j_f3l;.
+
+As for the governor of the (stateful) ;muxbar;
+[قَائِمٌ]{.ar},
+it is governed by an abstract governor,
+just as if it had been the ;mudarie; verb [يَقُومُ]{.ar}.
+
+DIAGRAM
+
+The proof of this analysis is that when
+<!--
+the ;faa3il; ;muxbar3; is feminized,
+its governor is feminized to match it.
+
+And if the 
+-->
+the ;faa3il; ;muxbar3; is dualized or pluralized,
+its governor remains in the singular,
+just like for a verb:
+
+(@) [أَقَائِمٌ ٱلزَّيْدَانِ]{.ar}  
+    "Are the (two) Zayds standing?"
+
+(@) [مَا قَائِمٌ ٱلزَّيْدُونَ]{.ar}  
+    "The Zayds are not standing."
+
+By the way, if
+the ;faa3il; ;muxbar3; is feminized,
+its governor would be feminized to match it.
+This too would be done for actual verbs.
+For example:
+
+(@) [أَقَائِمَةٌ ٱلْهِنْدَانِ]{.ar}  
+    "Are the (two) Hinds standing?"
+
+<!--
+So according to the ;j_f3l; analysis of (@3amal_qaaimun_zaydun) [قَائِمٌ زَيْدٌ]{.ar},
+the ;muxbar3; 
+[زَيْدٌ]{.ar}.
+is a ;faa3il; governed by
+[قَائِمٌ]{.ar}.
+But the question remains:
+[قَائِمٌ]{.ar}
+is a stateful element in the ;ustate;;
+so who is its governor?
+The answer is:
+[قَائِمٌ]{.ar}
+is governed by an abstract governor, just as if it had been an actual verb like [يَقُومُ]{.ar}.
+
+DIAGRAM
+aqaaimun zaydun
+ayaqoomu zaydun
+-->
 
 <!--
 By the way, the flipped word-order sentence (@3amal_qaaimun_zaydun) [قَائِمٌ زَيْدٌ]{.ar}
@@ -2093,10 +2208,30 @@ is not
 would require a supporting element
 -->
 
+### Traditional analysis of [قَائِمٌ زَيْدٌ]{.ar}
 
-qaai'm's gov is the same sa yaqoomu's in "yaqoomu zaydun"
+Traditionally, grammarians have analyzed this challenging sentence as a kind of hybrid sentence
+that has aspects of both a ;j_ism; and a ;j_f3l;.
+According to this mainstream view,
+[قَائِمٌ]{.ar}
+is a ;mubtada;,
+and
+[زَيْدٌ]{.ar}
+is a ;faa3il;
+"substituting for the ;xabar;."^[Peled 143 citing ibn_aqil 1/189 and Carter]
+However, not all grammarians agreed with this mainstream view.^[Peled 143 citing astarabadi 1/225]
+
+As for us, we have attempted to make this kind of sentence fit within the Arabic grammatical model
+by defining the ;j_f3l; in a way that it may begin with a verb-like noun.
 
 ## Overlapping sentences (sababi sentence)
+
+Also at the edge of the Arabic grammatical model is what we will call the case of two overlapping sentences.
+This is when last (stateful) element of one sentence serves as the first element of the next sentence.
+In other words, the sentence has an external initial governor
+(see section\ (ref) above).
+It also utilizes the kind of analysis which we developed for the sentence
+[قَائِمٌ زَيْدٌ]{.ar}.
 
 An element of the outer sentence also serves as the first element of the inner sentence.
 In other words, the sentence has an external initial governor.
