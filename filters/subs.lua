@@ -9,6 +9,7 @@ map_table["ia"] = {"if Allāh wills", nil}
 map_table["quran"] = {"Qurʾān", nil}
 map_table["ayah"] = {"Ayah", "trn2"}
 map_table["surah"] = {"sUrah", "trn2"}
+map_table["tafsir"] = {"tafsIr", "trn2"}
 
 -- states
 map_table["ustate"] = {"raised-state", nil}
@@ -177,6 +178,8 @@ function get_output_text(input_text)
     return ar_span.ArabicSpan(pandoc.Span(mapped[1], {class="ar"}))
   elseif mapped[2] == "aralt" then
     return ar_span.ArabicSpan(pandoc.Span(mapped[1], {class="aralt"}))
+  else
+    return pandoc.Span(mapped[1], {class=mapped[2]})
   end
   --return pandoc.Span(mapped[1], {class=mapped[2]})
 end
