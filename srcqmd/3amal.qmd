@@ -174,14 +174,27 @@ na3t
 ## The two ;3umdah; elements of a sentence
 
 In the Arabic grammatical model,
-a sentence requires two ;3umdah; elements
+a sentence is analagous to a rudimentary (two-dimensional) building.
+A building is built upon a foundation.
+The foundation of the Arabic sentence
+requires two ;3umdah; elements
 in order to be grammatically complete.
 These two ;3umdah; elements are:
 
  i. The ;muxbar3;
 ii. The ;muxbar;
 
-The ;muxbar3; represents whom the sentence is about, i.e. it's topic.
+DIAGRAM (post, beam, extra)
+
+Once the two ;3umdah; elements are in place,
+the sentence is grammatically complete.
+Other _;fadlah;_ elements may be added on top of ;3umdah; elements to add meaning to the sentence,
+but they are not required to make the sentence grammatically complete.
+
+Note the that ;muxbar3; is the basic ;3umdah; element.
+The ;muxbar; rests upon the ;muxbar3;.
+The ;muxbar3; 
+represents whom the sentence is about, i.e. it's topic.
 <!--
 And the ;muxbar; is meant to provide some interesting comment about the ;muxbar3;.
 -->
@@ -218,8 +231,12 @@ the ;muxbar; may sometimes be another element, instead of the verb that governs 
 
 ## Initial government
 
+<!--
 Besides the two ;3umdah; elements,
 a sentence also needs an initial government.[Owens §2.3.6.1 54]
+-->
+In order to build the ;3umdah; elements,
+a sentence needs _initial government_.[Owens §2.3.6.1 54]
 <!--
 The initial governor governs the highest governing element(s) of the two ;3umdah; elements of the sentence.
 -->
@@ -1117,6 +1134,35 @@ If not ;xabari; then مقول is implied.
 
 ### A sentence as the ;mudafil; in an ;idaafah;
 
+<!--
+## The anchored ;j_f3l;
+
+Consider the sentence:
+
+(@) zaydun yaDribu 3amran  
+
+
+For stylistic reasons, we can replcace the ;mudarie; verb 
+yaDribu
+with its ;ism_fail;
+DAribun
+thus:
+
+(@) zaydun DAribun 3amran  
+    "Zayd is beating 3amr"
+
+(@3amal_zaydun_qaaimun) [زَيْدٌ قَائِمٌ]{.ar}  
+    "Zayd is standing."
+
+This is a ;j_ism;.
+[زَيْدٌ]{.ar}
+is the ;mubtada;.
+And
+[قَائِمٌ]{.ar}
+is the ;xabar;.
+
+For pragmatic or stylistic reasons we may wish
+-->
 
 ## [قَائِمٌ زَيْدٌ]{.ar}
 

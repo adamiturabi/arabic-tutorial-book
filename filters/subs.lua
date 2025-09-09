@@ -109,8 +109,8 @@ map_table["mushtaqq"] = {"deverbal", nil} -- deverbal, derived
 map_table["musnad"] = {"supported element", nil} -- complement
 map_table["musnadi"] = {"supporting element", nil} -- rock, mainstay, anchor
 map_table["mustatir"] = {"latent", nil} -- assumed, hidden, invisible, implied
-map_table["muxbar3"] = {"subject", nil} -- theme,rock, mainstay, anchor
-map_table["muxbar"] = {"predicate", nil} -- rheme, complement
+map_table["muxbar3"] = {"pillar", "smallcaps"} -- theme,rock, mainstay, anchor, subject, keystone, cornerstone, post, mast, pillar
+map_table["muxbar"] = {"beam", "smallcaps"} -- rheme, complement, predicate, cornerstone, keystone, capstone, rafter
 map_table["mutaddi"] = {"transitive", nil}
 
 map_table["naib"] = {"deputy", nil}
