@@ -120,6 +120,7 @@ map_table["pbuh"] = {"ﷺ", "aralt" }
 
 map_table["rabt"] = {"link", nil}
 
+map_table["sababi"] = {"takeover", nil}
 map_table["sahib_hal"] = {"person of ḥāl", nil}
 map_table["sahibs_hal"] = {"persons of ḥāl", nil}
 map_table["sifah"] = {"adjectival noun", nil}
