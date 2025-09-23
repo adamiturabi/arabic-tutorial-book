@@ -352,7 +352,10 @@ We will discuss each of these cases separately below:
 When the ;ism_fail; is not defined by [ٱلْ]{.ar},
 then two conditions must be satisfied:
 
-1. The verbal action must be in a continuous or future tense.
+1. The verbal action must have the meaning of the ;mudarie; verb.
+   That is, its aspect should be continuous,
+   whether in the past, present or future.
+   Examples:
 
    * present continuous:
 
@@ -370,11 +373,11 @@ then two conditions must be satisfied:
          [@https://quran.com/18/18@ cited by @ibn_aqil_alfiyyah@ 3/106]{.citex}  
          "while their dog stretched his forelegs at the entrance"
 
-   * future:
+   * future continuous:
 
      (@) [هذا ضارب زيدا الآن]{.ar}
          [@ibn_aqil_alfiyyah@ 3/106]{.citex}  
-         "This [person] [will] beat Zayd tomorrow."
+         "This [person] will be beating Zayd tomorrow."
 
 2. The ;ism_fail; must be _supported_ by a preceding element.
    This can take the following forms:
@@ -385,6 +388,10 @@ then two conditions must be satisfied:
      (@) [أضارب زيد عمرا]{.ar}
          [@ibn_aqil_alfiyyah@ 3/107]{.citex}  
          "Is Zayd beating [#eamr]{.trn2}?"
+
+     (@) [هَلْ مُكْرِمٌ أَنْتَ زَيْدًا]{.ar}
+         [@wright@ 2/65D]{.citex}  
+         "Will you be treating Zayd with respect?"
 
    * The ;ism_fail; occurs after a ;nidaa; particle:
      Example:
@@ -400,6 +407,14 @@ then two conditions must be satisfied:
          [@ibn_aqil_alfiyyah@ 3/107]{.citex}  
          "Zayd is not beating [#eamr]{.trn2}."
 
+     (@) [مَا أَنْتَ بِتَابِعٍ قِبْلَتَهُمْ]{.ar}
+         [@https://quran.com/2/145@ cited by @wright@ 2/65D]{.citex}  
+         "Nor will you be a follower of their qiblah"
+
+     (@) [مَا مُجِيرٌ أَحَدٌ عَدُوَّ أَحِبَّاءِهِ]{.ar}
+         [@wright@ 2/65D]{.citex}  
+         "No one gives protection to the enemy of his loved ones"
+
    * The ;ism_fail; occurs as a ;na3t;.
      Example:
 
@@ -407,13 +422,25 @@ then two conditions must be satisfied:
          [@ibn_aqil_alfiyyah@ 3/107]{.citex}  
          "I passed by a man beating Zayd."
 
+     (@) [مَرَرْتُ بِفَارِسٍ طَالِبٍ ثَأْرَ أَبِيهِ]{.ar}
+         [@wright@ 2/65C]{.citex}  
+         "I passed by a horseman (who was) seeking vengeance for (the murder of) his father"
+
      An implied ;na3t; is also considered permissible.
      Example:
 
-     (@) [كَنَاطِحٍ صَخْرَةً يَوْمًا لِيُوهِنَهَا فَلَمْ يَضُرَّهَا وَأَوْهَىٰ قَرْنَهُ ٱلْوَعِلُ]{.ar}
-         [@ibn_aqil_alfiyyah@ 3/109]{.citex}  
-         "Like the gorer of a rock, one day, to try to weaken it. But the mountain-goat does not harm it and he injures his horn."  
-         ([نَاطِحٍ]{.ar} "gorer" can be considered to be a ;na3t; of an implied ;manut; [وَعِلٍ]{.ar} "a mountain goat".)
+     (@) [كَمْ مَالِئٍ عَيْنَيْهِ مِنْ شَيْءِ غَيْرِهِ]{.ar}
+         [@wright@ 2/65C; @ibn_aqil_alfiyyah@ 3/108]{.citex}  
+         "How many a one fills his eyes with a thing of [someone] other than him"  
+         (i.e. [كَمْ شَخْصٍ مَالِئٍ]{.ar} "How many a person fills..."
+
+
+       
+     (@) [كَنَاطِحٍ صَخْرَةً يَوْمًا لِيُوهِنَهَا]{.ar}
+         [@wright@ 2/65C; @ibn_aqil_alfiyyah@ 3/109]{.citex}  
+         "Like the gorer of a rock, one day, to try to weaken it"  
+         (i.e. [كَوَعِلٍ نَاطِحٍ]{.ar} "like a goring mountain goat...")
+
 
 
 
@@ -453,20 +480,23 @@ then two conditions must be satisfied:
 
 <https://www.alukah.net/literature_language/0/108787/%D8%A7%D8%B3%D9%85-%D8%A7%D9%84%D9%81%D8%A7%D8%B9%D9%84-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%AD%D8%A7%D9%84-%D9%88%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%A8%D8%A7%D9%84-%D9%88%D8%A7%D9%84%D9%85%D8%B6%D9%8A/#014>
 
-If the verbal action is in the past but not continuous,
-and an ;ism_fail; is chosen to represent the past action,
+If the verbal action is not continuous,
+and an ;ism_fail; is chosen to represent the action,
 then the ;ism_fail; is, typically, not allowed to govern a ;mafulb;.
+<!--
+The ;ism_fail; will then is not used with the meaning of a verb.
+Instead, it approaches more nearly to the nature of the noun that springs from the verb.^[@wright@ 2/64D]
+-->
+
 If the
 semantic ;mafulb; is to be linked to the ;ism_fail;,
-then they may be in a _;ma3nawi;_ ;idaafah;.
+then they may be in a (_;ma3nawi;_) ;idaafah;.
 (See section\ (ref) below for _;ma3nawi;_ vs _;lafzi;_ ;idaafah;s.)
 For example,
 
 (@) [هذا ضارب زيد أمس]{.ar}
+    [@ibn_aqil_alfiyyah@ 3/106]{.citex}  
     "This [person] was the beater of Zayd yesterday."
-
-In such cases, the ;ism_fail; will be annexed to its semantic ;mafulb;.
-For example:
 
 An exception is made for the case where the ;ism_fail; is prevented from being annexed to its semantic ;mafulb;.
 This usually occurs
