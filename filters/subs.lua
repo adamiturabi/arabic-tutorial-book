@@ -111,11 +111,11 @@ map_table["mudafil"] = {"base noun", nil}
 map_table["mudarie"] = {"resembling", nil} -- {"muDArie", "trn2"} -- "stateful" verb?
 map_table["mushar_il"] = {"pointed-to noun", nil} -- {"muDArie", "trn2"}
 map_table["mushtaqq"] = {"deverbal", nil} -- deverbal, derived
-map_table["musnad"] = {"leaned element", nil} -- complement
-map_table["musnadi"] = {"leaned-to element", nil} -- rock, mainstay, anchor
+map_table["musnad"] = {"leaning element", nil} -- complement
+map_table["musnadi"] = {"pillar element", nil} -- rock, mainstay, anchor
 map_table["mustatir"] = {"latent", nil} -- assumed, hidden, invisible, implied
-map_table["muxbar3"] = {"leaned-to element", nil} -- theme,rock, mainstay, anchor, subject, keystone, cornerstone, post, mast, pillar
-map_table["muxbar"] = {"leaned element", nil} -- rheme, complement, predicate, cornerstone, keystone, capstone, rafter, beam
+map_table["muxbar3"] = map_table["musnadi"] -- theme,rock, mainstay, anchor, subject, keystone, cornerstone, post, mast, pillar
+map_table["muxbar"] = map_table["musnad"] -- rheme, complement, predicate, cornerstone, keystone, capstone, rafter, beam
 map_table["mutaddi"] = {"transitive", nil}
 
 map_table["naib"] = {"deputy", nil}

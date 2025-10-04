@@ -174,13 +174,13 @@ na3t
 ## The two ;3umdah; elements of a sentence
 
 In the Arabic grammatical model,
-a sentence is analagous to a _lean-to_ structure.
+a sentence is analagous to the structure of a _lean-to_ building.
 <!--
 A building is built upon a foundation.
 The foundation of the Arabic sentence
 -->
 This structure
-requires two ;3umdah; elements
+requires two _;3umdah;_ elements
 in order to be grammatically complete.
 These two ;3umdah; elements are:
 
@@ -192,17 +192,17 @@ ii. The ;muxbar;
 \usetikzlibrary{patterns}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 
-\draw[pattern=north west lines, pattern, draw=none] (0,0) rectangle (6,-0.2);
+\draw[pattern=north west lines, pattern, draw=none] (0,0) rectangle (6,-0.4);
 \draw (0,0) -- (6,0);
-\draw[fill=white] (2,-0.3) rectangle node [rotate=90] {leaned-to element} (2.4, 5);
-\draw[fill=white, rotate around={30:(5.05,-0.3)}] (5.05,-0.3) rectangle node [rotate=-60] {leaned element} (5.45, 5);
+\draw[fill=lightgray] (2,-0.3) rectangle node [rotate=90] {pillar element} (2.4, 5);
+\draw[fill=lightgray, rotate around={30:(5.05,-0.3)}] (5.05,-0.3) rectangle node [rotate=-60] {leaning element} (5.45, 5);
 
 \end{tikzpicture}
 ```
 
 
-The ;muxbar3; is the basic ;3umdah; element.
-It represents whom the sentence is about, i.e. it's topic.
+The ;muxbar3; is the primary ;3umdah; element.
+It represents whom the sentence is about, i.e. its topic.
 The ;muxbar; rests against the ;muxbar3;.
 <!--
 And the ;muxbar; is meant to provide some interesting comment about the ;muxbar3;.
@@ -211,7 +211,7 @@ It expresses some property about the ;muxbar3; that completes the meaning of the
 
 Once the two ;3umdah; elements are in place,
 the sentence is grammatically complete.
-Other _;fadlah;_ elements may be added on top of ;3umdah; elements to add meaning to the sentence,
+Other _;fadlah;_ elements may be added in addition to the ;3umdah; elements to add meaning to the sentence,
 but they are not required to make the sentence grammatically complete.
 
 Here are some examples of sentences with only ;3umdah; elements:
