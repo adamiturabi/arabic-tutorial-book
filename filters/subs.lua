@@ -44,11 +44,16 @@ map_table["passive"] = {"passive", nil} -- "unknown-doer" verb?
 map_table["3aamil"] = {"governor", nil}
 map_table["ma3mul"] = {"governee", nil}
 map_table["3amal"] = {"government", nil}
-map_table["3umdah"] = {"foundational", nil} -- indispensable
+map_table["3umdah"] = {"indispensable", nil} -- indispensable, foundational, basic
+map_table["fadlah"] = {"dispensable", nil} -- dispensable, redundant, extra
 
 -- jumlah khabariyyah and inshaa'iyyah
 map_table["xabari"] = {"truth-evaluable", nil} -- falsifiable
 map_table["inshai"] = {"non-truth-evaluable", nil} -- non-falsifiable
+
+-- idaafah types
+map_table["ma3nawi"] = {"real", nil} 
+map_table["lafzi"] = {"fake", nil} 
 
 -- alphabetical
 map_table["3aaid"] = {"refer-back pronoun", nil}
@@ -65,7 +70,6 @@ map_table["dharf_makan"] = {"adverb of place", nil}
 map_table["dharf_zaman"] = {"adverb of time", nil}
 
 map_table["faa3il"] = {"doer", nil}
-map_table["fadlah"] = {"extra", nil} -- dispensable, redundant
 
 map_table["hal"] = {"HAl", "trn2"}
 
@@ -81,6 +85,7 @@ map_table["ism_makan"] = {"noun of place", nil}
 map_table["ism_masdar"] = {"quasi-maṣdar", nil}
 map_table["ism_mawsul"] = {"connected noun", nil}
 map_table["ism_zaman"] = {"noun of time", nil}
+map_table["isnaad"] = {"sentence-completion", nil}
 
 map_table["jamid"] = {"underived", nil}
 map_table["jawab"] = {"consequence", nil}
@@ -106,15 +111,17 @@ map_table["mudafil"] = {"base noun", nil}
 map_table["mudarie"] = {"resembling", nil} -- {"muDArie", "trn2"} -- "stateful" verb?
 map_table["mushar_il"] = {"pointed-to noun", nil} -- {"muDArie", "trn2"}
 map_table["mushtaqq"] = {"deverbal", nil} -- deverbal, derived
-map_table["musnad"] = {"supported element", nil} -- complement
-map_table["musnadi"] = {"supporting element", nil} -- rock, mainstay, anchor
+map_table["musnad"] = {"leaned element", nil} -- complement
+map_table["musnadi"] = {"leaned-to element", nil} -- rock, mainstay, anchor
 map_table["mustatir"] = {"latent", nil} -- assumed, hidden, invisible, implied
-map_table["muxbar3"] = {"pillar", "smallcaps"} -- theme,rock, mainstay, anchor, subject, keystone, cornerstone, post, mast, pillar
-map_table["muxbar"] = {"beam", "smallcaps"} -- rheme, complement, predicate, cornerstone, keystone, capstone, rafter
+map_table["muxbar3"] = {"leaned-to element", nil} -- theme,rock, mainstay, anchor, subject, keystone, cornerstone, post, mast, pillar
+map_table["muxbar"] = {"leaned element", nil} -- rheme, complement, predicate, cornerstone, keystone, capstone, rafter, beam
 map_table["mutaddi"] = {"transitive", nil}
 
 map_table["naib"] = {"deputy", nil}
 map_table["na3t"] = {"describer", nil}
+map_table["nidaa"] = {"vocative", nil}
+map_table["nasix"] = {"canceling", nil}
 
 map_table["pbuh"] = {"ﷺ", "aralt" }
 
@@ -124,7 +131,7 @@ map_table["sababi"] = {"sababi", nil} -- takeover
 map_table["sahib_hal"] = {"person of ḥāl", nil}
 map_table["sahibs_hal"] = {"persons of ḥāl", nil}
 map_table["sifah"] = {"adjectival noun", nil}
-map_table["sifah_mush"] = {"quasi-participle", nil} -- {"participlish adjectival noun", nil} -- "participle-like"?
+map_table["sifah_mush"] = {"participle-like noun", nil} -- {"participlish adjectival noun", nil} -- "participle-like"?
 map_table["sighah_mub"] = {"emphatic noun", nil} -- {"participlish adjectival noun", nil} -- "participle-like"?
 map_table["silah"] = {"connecting sentence", nil}
 map_table["shart"] = {"condition", nil}
