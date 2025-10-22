@@ -2,8 +2,9 @@
 local ar_span = {}
 
 function ar_span.ArabicSpan(el)
-    text = pandoc.utils.stringify(el)
-    contents = {pandoc.Str(text)}
+    --text = pandoc.utils.stringify(el)
+    --contents = {pandoc.Str(text)}
+    contents = el.content
     if FORMAT:match 'latex' then
       -- for handling alternate Arabic font
       if el.classes:includes 'aralt' then
