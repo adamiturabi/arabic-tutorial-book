@@ -394,7 +394,12 @@ def populate_resource_list():
     , bib_text = "استيفاء حالات تعلق الجار والمجرور و الظرف وأثره في المعنى لعلي هاني"
     , sort_key = "استيفا حالات تعلق الجار والمجرور و الظرف واثره في المعنى لعلي هاني"
     ))
-
+  resource_list.append(BibResource(
+    "ibn_qayyim_juyoosh"
+    , cit_text = "[اجتماع الجيوش الإسلامية لابن القيم]{.ar}"
+    , bib_text = "اجتماع الجيوش الإسلامية لابن القيم  \n      " + format_url_ar("https://shamela.ws/book/18632/80")
+    , sort_key = "اجتماع الجيوش الاسلامية لابن القيم"
+    ))
   # Western
 
   resource_list.append(BibResource(
@@ -470,6 +475,13 @@ def populate_resource_list():
     , cit_text = 'Peled,\\ Y., _Sentence types and word-order patterns in written Arabic_'
     , bib_text = 'Peled,\\ Y., _Sentence types and word-order patterns in written Arabic: Medieval and modern perspectives_, Brill, 2008. <https://doi.org/10.1163/ej.9789004170629.i-250>'
     , sort_key = 'Peled Y Sentence types and word order patterns in written Arabic'
+    ))
+
+  resource_list.append(BibResource(
+    "marmor_tense"
+    , cit_text = 'Marmorstein,\\ M., _Tense and Text in Classical Arabic_'
+    , bib_text = 'Marmorstein,\\ M., _Tense and Text in Classical Arabic_, Brill, 2016. <https://doi.org/10.1163/9789004310483>'
+    , sort_key = 'marmorstein m tense and text in classical arabic'
     ))
 
   return resource_list
