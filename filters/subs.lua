@@ -101,7 +101,7 @@ map_table["maful"] = {"doee", nil}
 map_table["mafulb"] = {"direct doee", nil}
 map_table["mafull"] = {"adverb of reason", nil}
 map_table["mafulm"] = {"accompanying doee", nil}
-map_table["manut"] = {"describee", nil}
+map_table["manut"] = {"attributee", nil}
 map_table["masdar"] = {"maSdar", "trn2"}
 map_table["mmutlaq"] = {"absolute doee", nil}
 map_table["mubdalb"] = {"replacee", nil}
@@ -119,7 +119,7 @@ map_table["muxbar"] = map_table["musnad"] -- rheme, complement, predicate, corne
 map_table["mutaddi"] = {"transitive", nil}
 
 map_table["naib"] = {"deputy", nil}
-map_table["na3t"] = {"describer", nil}
+map_table["na3t"] = {"attributive", nil}
 map_table["nidaa"] = {"vocative", nil}
 map_table["nasix"] = {"canceling", nil}
 
