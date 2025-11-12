@@ -2,13 +2,16 @@ class BibResource:
 
   alphabet = "ابتثجحخدذرزسشصضطظعغفقكلمنهةويىabcdefghijklmnopqrstuvwxyz"
 
-  def __init__(self, cit_key, cit_text, bib_text=None, sort_key=None):
+  def __init__(self, cit_key, cit_type, cit_text, bib_text=None, sort_key=None):
     if bib_text is None:
       bib_text = cit_text
     if sort_key is None:
       sort_key = cit_text
 
+    assert(cit_type in ["corpus", "ar_ref", "ws_ref"])
+
     self.cit_key = cit_key
+    self.cit_type = cit_type
     self.cit_text = cit_text
     self.bib_text = bib_text
     self.sort_key = self.sanitize_sort_key(sort_key)
