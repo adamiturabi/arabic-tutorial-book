@@ -20,6 +20,12 @@
          url('./fonts/Amiri-Regular.woff') format('woff');
 }
 @font-face {
+    font-family: AmiriQuran;
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/AmiriQuran.ttf') format('truetype');
+}
+@font-face {
   font-family: "CharisW";
   src: url('./fonts/Charis-Regular.woff2') format('woff2'),
        url('./fonts/Charis-Regular.woff') format('woff');
@@ -156,6 +162,11 @@ li {
   font-size: 1.2em; 
   /* line-height: 100%; */
 }
+.quran-ar-span {
+  font-family: AmiriQuran, serif;
+  font-size: 1.2em; 
+  line-height: 200%;
+}
 .reg-ar-div {
   font-family: Vazirmatn, serif;
   font-size: 1.0em; 
@@ -170,6 +181,11 @@ li {
   font-family: AmiriWeb, serif;
   font-size: 1.2em; 
   /* line-height: 100%; */
+}
+.quran-ar-div {
+  font-family: AmiriQuran, serif;
+  font-size: 1.2em; 
+  line-height: 200%;
 }
 .sourceCode {
   /* adjust monofont size for code listings */
