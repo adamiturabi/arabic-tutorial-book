@@ -24,7 +24,7 @@ book:
     #- content/jumlah_ismiyyah.qmd
     #- content/prepositions.qmd
     #- content/fi3l_madi.qmd
-    - content/na3t.qmd
+    #- content/na3t.qmd
     #- content/diptote.qmd
     #- content/dual.qmd
     #- content/sound_plural.qmd
@@ -43,11 +43,13 @@ book:
     #- content/additional_forms.qmd
     - content/3amal.qmd
     - content/ta3alluq_harf_jarr.qmd
+    - content/3amal_verbal_nouns.qmd
+    - content/ism_fail.qmd
     #- content/kaana.qmd
     #- content/inna_and_its_sisters.qmd
-    - content/dharf.qmd
+    #- content/dharf.qmd
     #- content/maf3ool_mutlaq.qmd
-    - content/haal.qmd
+    #- content/haal.qmd
     #- content/ism_mawsuul.qmd
     #- content/istifhaam.qmd
     #- content/ism_faa3il.qmd
@@ -69,6 +71,7 @@ filters:
   - filters/lingex.lua
   - filters/footnotesize.lua
   - filters/citex.lua
+  - filters/translation.lua
   - filters/subs.lua
 
 tikzarabic:
