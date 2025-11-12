@@ -23,6 +23,8 @@ def get_cite_text(match):
     new_key, cit_appended_text, link_added = cit_link.process(key, link)
     if new_key is None:
       # quran.com, don't add to references
+      if not link_added:
+        print(link)
       assert(link_added)
       return cit_appended_text
       #return "[" + cit_text + "](" + link + ")"
