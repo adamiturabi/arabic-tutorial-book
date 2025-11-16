@@ -96,7 +96,11 @@ Semantics can affect the syntax of a sentence.
 
 #### Pragmatics {.unnumbered}
 
+<!--
 Pragmatics is the study of what sentences mean in context, and with regard to needs of the speaker and the listener.
+-->
+Pragmatics is the study of what sentences mean in a specific context or situation.
+
 
 <!--
 #### Functional aspects {.unnumbered}
@@ -172,11 +176,12 @@ But the ;faa3il; must always follow its governing verb.
 So that is another example of an obligatory word-order for the governor and the governee.
 -->
 
-#### Some elements are not governed {.unnumbered}
+#### Ungoverned elements {.unnumbered}
 
 Not every element in a sentence is governed by a governor.
 For example, the ;madi; verb has not state, and thus, no governor.
 
+<!--
 ## Some common governees
 
 prep-istate
@@ -188,6 +193,7 @@ verb-faa3il
 verb-mafulb
 
 na3t
+-->
 
 ## The two ;3umdah; elements of a sentence
 
@@ -234,32 +240,39 @@ but they are not required to make the sentence grammatically complete.
 
 Here are some examples of sentences with only ;3umdah; elements:
 
-(@3amal_zayd_qaimun) zaydun qaaimun
+(@3amal_zayd_qaimun) [زَيْدٌ قَائِمٌ]{.ar}  
+    [Zayd is standing.]{.trans}
 
 DIAGRAM
 
-In example (@3amal_zayd_qaaimun) zaydun qaaimun above,
-zayd is the ;muxbar3;. It is the topic of the sentence.
-And qaaimun is the ;muxbar;. It is a comment on the topic, giving us some information about zayd.
+In example (@3amal_zayd_qaimun) above,
+[زَيْدٌ]{.ar}
+is the ;muxbar3;. It is the topic of the sentence.
+[قَائِمٌ]{.ar}
+is the ;muxbar;. It is a comment on the topic, giving us some information about
+[زَيْدٌ]{.ar}.
 
 We have previously referred to this type of sentence as a ;j_ism;.
 In this ;j_ism; the ;mubtada; is the ;muxbar3;,
 and the ;xabar; is the ;muxbar;.
 
-(@3amal_qaama_zaydun) qaama zaydun
+(@3amal_qaama_zaydun) [قَامَ زَيْدٌ]{.ar}
 
 DIAGRAM
 
-In example (@3amal_zayd_qaaimun) zaydun qaaimun above,
-zayd is the ;muxbar3;. It is the topic of the sentence.
-And qaama is the ;muxbar;. It is a comment on the topic.
+In example (@3amal_qaama_zaydun) above,
+[زَيْدٌ]{.ar}
+is the ;muxbar3;. It is the topic of the sentence.
+And [قَامَ]{.ar} is the ;muxbar;. It is a comment on the topic.
 
 We have previously referred to this type of sentence as a ;j_f3l;.
 In this ;j_f3l; the verb is the ;muxbar;,
 and the ;faa3il; is the ;muxbar3;.
+<!--
 We will see later, ;ia; that 
 in a ;j_f3l;
 the ;muxbar; may sometimes be another element, instead of the verb that governs the ;faa3il;.
+-->
 
 
 ## Initial government
@@ -278,32 +291,35 @@ The initial governor is the source of all government in the sentence.
 -->
 Initial government is any and all government prior to, and until, the first governed ;3umdah; element.
 
-#### One of the two ;3umdah; elements as the initial governor {.unnumbered}
+#### One of the two ;3umdah; elements is the initial governor {.unnumbered}
 
 In some sentences, the intitial governor may be one of the two ;3umdah; elements.
-For example:
-
-(@) pahaba zaydun
+In example (@3amal_qaama_zaydun) above,
+the verb [قَامَ]{.ar} governs its ;faa3il; [زَيْدٌ]{.ar}.
+The ;madi; verb [قَامَ]{.ar} has no state and thus needs no governor.
+So it is, itself, the initial governor.
 
 DIAGRAM
 
-In the above example, the initial governor is the verb pahaba.
-The madi verb has no state and needs no governor.
-So it is itself, the initial governor.
-
-#### An internal non-;3umdah; element as the initial governor {.unnumbered}
+#### Another (non-;3umdah;) element is the initial governor {.unnumbered}
 
 The intitial governor may be internal to the sentence but not one of the two ;3umdah; elements.
 For example:
 
-(@) lam yaDrib al-rajulu gulAma zaydin
-    [owens §2.2.3 (16) 41]
+(@) [لَمْ يَضْرِبِ الرَّجُلُ غُلَلمَ زَيْدٍ]{.ar}
+    [@owens_foundations_grammar@ §2.2.3 41]  
+    [The man did not beat Zayd's slave.]{.trans}
 
 DIAGRAM
 
-(@) inna
+(@) [إِنَّ زَيْدًا قَائِمٌ]{.ar}  
+    [Indeed Zayd is standing.]{.trans}
 
-(@) kaana
+DIAGRAM
+    
+
+(@) [كَانَ زَيْدٌ قَائِمًا]{.ar}  
+    [Zayd was standing.]{.trans}
 
 
 
