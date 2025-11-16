@@ -176,24 +176,87 @@ But the ;faa3il; must always follow its governing verb.
 So that is another example of an obligatory word-order for the governor and the governee.
 -->
 
+## Some common governees
+
+Let's look at some common governor-governee relationships.
+We will make use of the following example:
+
+(@) [قَرَأَ الْغُلَامُ الطَّوِيلُ كِتَابَ الجَارِيَةِ فِي الدَّارِ الْكَبِيرَةِ]{.ar}
+
+#### The ;istate; noun {.unnumbered}
+
+A noun in the ;istate; is governed by a preceding preposition or ;mudaf;.
+We have already seen that the
+;istate; noun [الدَّار]{.ar} is governed by the preceding preposition [فِي]{.ar}.
+<!--
+We saw an example of a governing preposition in (@3amal_in_house) [فِي الدَّارِ]{.ar} above.
+-->
+We also see that the ;istate; ;mudafil; [الجَارِيَةِ]{.ar}
+is governed by the ;mudaf; [كِتَابَ]{.ar}.
+
+#### The ;faa3il; {.unnumbered}
+
+The ;faa3il; of a verb is governed by its preceding verb.
+In our example the verb [قَرَأَ]{.ar} governs its ;faa3il; [الْغُلَامُ]{.ar} in the ;ustate;.
+
+#### The ;mafulb; {.unnumbered}
+
+The ;mafulb; is also governed by its verb.
+In our example the verb [قَرَأَ]{.ar} governs its ;mafulb; [كِتَابَ]{.ar} in the ;astate;.
+
+#### The ;na3t; {.unnumbered}
+
+A ;na3t; is governed by governor of its ;manut;.
+In our example, the ;na3t; [الطَّوِيلُ]{.ar} is governed in the ;ustate; by [قَرَأَ]{.ar}, which is the governor of its ;manut;
+[الْغُلَامُ]{.ar}.
+Similarly, the ;na3t;
+[الْكَبِيرَةِ]{.ar}
+is governed in the ;istate; by the preposition [فِي]{.ar} because [فِي]{.ar} also governs its ;manut; [الدَّارِ]{.ar}.
+
+<!--
+Here is an example of an ;istate; noun 
+([زَيْدٍ]{.ar})
+being governed by a preceding ;mudaf;
+([كِتَابُ]{.ar}):
+
+(@) [كِتَابُ زَيْدٍ]{.ar}  
+    [Zayd's book]{.trans}
+
+#### The ;faa3il; {.unnumbered}
+
+The ;faa3il; of a verb is governed by its preceding verb.
+For example:
+
+(@Daraba_zaydun_3amran) [ضَرَبَ زَيْدٌ عَمْرًا]{.ar}
+    [Zayd beat [#eamr]{.trn2}.]{.trans}  
+
+In example (@Daraba_zaydun_3amran) above,
+the verb [ضَرَبَ]{.ar}
+governs its ;faa3il;
+[زَيْدٌ]{.ar} in the ;ustate;.
+
+#### The ;mafulb; {.unnumbered}
+
+The ;faa3il; of a verb is governed by its preceding verb.
+For example:
+
+(@Daraba_zaydun_3amran) [ضَرَبَ زَيْدٌ عَمْرًا]{.ar}
+    [Zayd beat [#eamr]{.trn2}.]{.trans}  
+
+In example (@Daraba_zaydun_3amran) above,
+the verb [ضَرَبَ]{.ar}
+governs its ;faa3il;
+[زَيْدٌ]{.ar} in the ;ustate;.
+-->
+
 #### Ungoverned elements {.unnumbered}
 
 Not every element in a sentence is governed by a governor.
-For example, the ;madi; verb has not state, and thus, no governor.
+For example, the ;madi; verb [قَرَأَ]{.ar} has no state, and thus, no governor.
 
-<!--
-## Some common governees
+Here is a diagram depicting the above governor-governee relationships:
 
-prep-istate
-
-mudaf-istate
-
-verb-faa3il
-
-verb-mafulb
-
-na3t
--->
+DIAGRAM
 
 ## The two ;3umdah; elements of a sentence
 
@@ -281,8 +344,8 @@ the ;muxbar; may sometimes be another element, instead of the verb that governs 
 Besides the two ;3umdah; elements,
 a sentence also needs an initial government.[Owens §2.3.6.1 54]
 -->
-In order to build the ;3umdah; elements,
-a sentence needs _initial government_.[Owens §2.3.6.1 54]
+In order to build a sentence from the ;3umdah; elements,
+a sentence needs _initial government_.[Owens §2.3.6.1, 54]
 <!--
 The initial governor governs the highest governing element(s) of the two ;3umdah; elements of the sentence.
 -->
@@ -304,10 +367,14 @@ DIAGRAM
 #### Another (non-;3umdah;) element is the initial governor {.unnumbered}
 
 The intitial governor may be internal to the sentence but not one of the two ;3umdah; elements.
-For example:
+In such cases,
+even though the initial governor is not one of the two ;3umdah; elements,
+we don't call it an ;fadlah; element.
 
-(@) [لَمْ يَضْرِبِ الرَّجُلُ غُلَلمَ زَيْدٍ]{.ar}
-    [@owens_foundations_grammar@ §2.2.3 41]  
+Here are some examples:
+
+(@) [لَمْ يَضْرِبِ الرَّجُلُ غُلَامَ زَيْدٍ]{.ar}
+    [@owens_foundations_grammar@ §2.2.3, 41]  
     [The man did not beat Zayd's slave.]{.trans}
 
 DIAGRAM
@@ -318,32 +385,46 @@ DIAGRAM
 DIAGRAM
     
 
-(@) [كَانَ زَيْدٌ قَائِمًا]{.ar}  
+(@kaana_zaydun_qaaiman) [كَانَ زَيْدٌ قَائِمًا]{.ar}  
     [Zayd was standing.]{.trans}
 
+DIAGRAM
 
+In example (@kaana_zaydun_qaaiman) above,
+the verb [كَانَ]{.ar} is the initial governor.
+But because it is a ;naqis; verb, it does not complete the sentence grammatically.
+Therefore, it is not an ;3umdah; element.
+But it is needed to govern the ;3umdah; elements.
 
 #### The abstract initial governor {.unnumbered}
 
 Very commonly, the initial governor is not an actual word, but only an abstract concept.
 When there is one or more stateful ;3umdah; elements in a sentence with no overt (i.e. observable) governor,
-then this necessitates bringing in a _abstract_ initial governor.[ owens 55; peled 88 fn 7]
+then this necessitates bringing in a _abstract_ initial governor.^[@owens_foundations_grammar@ 55; @peled_sentence_types@ 87--88]
 For example:
 
-(@) zaydun muntaliqun
+(@) [زَيْدٌ مُنْطَلِقٌ]{.ar}
+    [@peled_sentence_types@ 87]{.citex}  
+    [Zayd is setting out.]{.trans}
 
-The abstract initial governor governs both the ;muxbar3; (the ;mubtada; zayd),
-and the ;muxbar; (the ;xabar; muntaliqun) in the ;ustate;.
+The abstract initial governor governs both the ;muxbar3; (the ;mubtada; [زَيْدٌ]{.ar}),
+and the ;muxbar; (the ;xabar; 
+[مُنْطَلِقٌ]{.ar})
+in the ;ustate;.
 
-(@) yaphabu zaydun
+(@) [يَقُومُ زَيْدٌ]{.ar}  
+    [Zayd stands]{.trans}
 
-The abstract initial governor governs both the ;muxbar; (the ;mudarie; verb yaphabu) in the ;ustate;.
-And, as usual, the verb yaphabu governs its ;faa3il; zaydun (the ;muxbar3;) in the ;ustate;.
+The abstract initial governor governs the ;muxbar; (the ;mudarie; verb [يَقُومُ]{.ar}) in the ;ustate;.
+And, as usual, the verb [يَقُومُ]{.ar} governs its ;faa3il; [زَيْدٌ]{.ar} (the ;muxbar3;) in the ;ustate;.
+
+<!--
 
 #### An external element as the initial governor {.unnumbered}
 
 Sometimes, it is possible for an element that is external to the sentence under question, to be its initial governor.
 We will learn moe about this case in sections\ (ref) and (ref) below.
+-->
 
 <!--
 (@) zaydun DAribun abUhu eamran
@@ -416,12 +497,18 @@ muntaliq governs abUhu.
 But muntaliq itself is also governed by an initial governor (the verb kaana) that is not in this inner sentence.
 -->
 
-#### More than one initial governor {.unnumbered}
+#### More than one element in the initial government {.unnumbered}
 
-Sometimes, there may be more than one initial governor in a chain, before one reaches the first governed ;3umdah; element.
+Sometimes, there may be more than one element (in a chain) in the initial government, before one reaches the first governed ;3umdah; element.
 For example:
 
-(@) lam yakun 
+(@) [لَمْ يَكُنْ زَيْدٌ قَائِمًا]{.ar}  
+    [Zayd was not standing.]{.trans}
+
+In the example above,
+the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the ;0state;.
+The verb [يَكُنْ]{.ar}, being a ;naqis; verb, is not an ;3umdah; element.
+Therefore it is still part of the initial government.
 
 ## #;fadlah; elements
 
