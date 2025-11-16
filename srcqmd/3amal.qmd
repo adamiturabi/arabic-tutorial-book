@@ -301,42 +301,84 @@ the sentence is grammatically complete.
 Other _;fadlah;_ elements may be added in addition to the ;3umdah; elements to add meaning to the sentence,
 but they are not required to make the sentence grammatically complete.
 
+Let's look at the ;3umdah; elements for the two typesof Arabic sentences:
+
+<!--
 Here are some examples of sentences with only ;3umdah; elements:
+-->
+
+### The ;3umdah; elements of a ;j_ism;
+
+Consider the following sentence:
 
 (@3amal_zayd_qaimun) [زَيْدٌ قَائِمٌ]{.ar}  
     [Zayd is standing.]{.trans}
 
 DIAGRAM
 
-In example (@3amal_zayd_qaimun) above,
-[زَيْدٌ]{.ar}
+Example (@3amal_zayd_qaimun) above is a ;j_ism:.
+The ;mubtada; [زَيْدٌ]{.ar}
 is the ;muxbar3;. It is the topic of the sentence.
+The ;xabar;
 [قَائِمٌ]{.ar}
 is the ;muxbar;. It is a comment on the topic, giving us some information about
 [زَيْدٌ]{.ar}.
 
+<!--
 We have previously referred to this type of sentence as a ;j_ism;.
 In this ;j_ism; the ;mubtada; is the ;muxbar3;,
 and the ;xabar; is the ;muxbar;.
+-->
+
+### The ;3umdah; elements of a ;j_f3l;
 
 (@3amal_qaama_zaydun) [قَامَ زَيْدٌ]{.ar}
 
 DIAGRAM
 
-In example (@3amal_qaama_zaydun) above,
+Example (@3amal_qaama_zaydun) above is a ;j_f3l;.
+The ;faa3il;
 [زَيْدٌ]{.ar}
 is the ;muxbar3;. It is the topic of the sentence.
-And [قَامَ]{.ar} is the ;muxbar;. It is a comment on the topic.
+And the verb [قَامَ]{.ar} is the ;muxbar;. It is a comment on the topic.
 
+<!--
 We have previously referred to this type of sentence as a ;j_f3l;.
 In this ;j_f3l; the verb is the ;muxbar;,
 and the ;faa3il; is the ;muxbar3;.
+-->
 <!--
 We will see later, ;ia; that 
 in a ;j_f3l;
 the ;muxbar; may sometimes be another element, instead of the verb that governs the ;faa3il;.
 -->
 
+### The ;3umdah; elements of a hybrid sentence
+
+Some sentences do not fall neatly into the categories of a ;j_ism; or a ;j_f3l;.
+We will refer to such sentences as hybrid sentences.
+
+One example of a hybrid sentence is one that has the verb [كَانَ]{.ar}.
+Example:
+
+(@) [كَانَ زَيْدٌ قَائِمًا]{.ar}  
+    [Zayd was standing]{.trans}
+
+[زَيْدٌ]{.ar}
+in example (@kaana_zaydun_qaaiman) above is the ;muxbar3;, as usual.
+But
+[كَانَ]{.ar}, above,
+is a ;naqis; verb
+(see chapter\ (ref).)
+This means that it does not have sufficient meaning to grammatically complete the sentence by itself.
+So it cannot be a ;3umdah; element.
+So
+[كَانَ]{.ar}
+requires a ;xabar; 
+([قَائِمًا]{.ar} above)
+to be the ;muxbar;.
+
+We will see another example of a hybrid sentence in section\ (aqaaimun zaydun).
 
 ## Initial government
 
@@ -597,6 +639,25 @@ These include:
 * The ;tawkeed; (see chapter\ (ref))
 * The ;3atf_bayan; (see chapter\ (ref))
 
+## Sentence types
+
+As we already know,
+there are two basic types of sentences in Arabic:
+
+ i. The ;j_ism;
+ii. The ;j_f3l;
+
+In its basic form,
+the ;j_ism;'s two ;3umdah; elements are a ;ism_of; and a ;xabar;.
+The ;ism_of; constitutes the ;muxbar3; of the sentence.
+The ;xabar; constitutes the ;muxbar; and completes the sentence grammatically by expressing some property about the ;ism_of;.
+
+The ;j_f3l;, in its basic form, consists of a verb and its ;faa3il; as its two ;3umdah; elements.
+The ;faa3il; constitutes the ;muxbar3; of the sentence.
+The verb constitutes the ;muxbar; and completes the sentence grammatically by expressing some property about the ;faa3il;.
+
+Examples (@3amal_zayd_qaimun) [زَيْدٌ قَائِمٌ]{.ar}
+and (@3amal_qaama_zaydun) [قَامَ زَيْدٌ]{.ar} above are examples of a ;j_ism; and a ;j_f3l; respectively.
 
 ## The anchoring element
 
