@@ -281,8 +281,8 @@ ii. The ;muxbar;
 
 \draw[pattern=north west lines, pattern, draw=none] (0,0) rectangle (6,-0.4);
 \draw (0,0) -- (6,0);
-\draw[fill=lightgray] (2,-0.3) rectangle node [rotate=90] {pillar element} (2.4, 5);
-\draw[fill=lightgray, rotate around={30:(5.05,-0.3)}] (5.05,-0.3) rectangle node [rotate=-60] {leaning element} (5.45, 5);
+\draw[fill=lightgray] (2,-0.3) rectangle node [rotate=90] {supporting element} (2.4, 5);
+\draw[fill=lightgray, rotate around={30:(5.05,-0.3)}] (5.05,-0.3) rectangle node [rotate=-60] {leaning element} (5.45, 6);
 
 \end{tikzpicture}
 ```
@@ -316,12 +316,13 @@ Consider the following sentence:
 
 DIAGRAM
 
-Example (@3amal_zayd_qaimun) above is a ;j_ism:.
+Example (@3amal_zayd_qaimun) above is a ;j_ism;.
 The ;mubtada; [زَيْدٌ]{.ar}
 is the ;muxbar3;. It is the topic of the sentence.
 The ;xabar;
 [قَائِمٌ]{.ar}
-is the ;muxbar;. It is a comment on the topic, giving us some information about
+is the ;muxbar;.
+It is a comment on the topic, giving us some information about
 [زَيْدٌ]{.ar}.
 
 <!--
@@ -550,14 +551,18 @@ For example:
 In the example above,
 the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the ;0state;.
 The verb [يَكُنْ]{.ar}, being a ;naqis; verb, is not an ;3umdah; element.
-Therefore it is still part of the initial government.
+But [يَكُنْ]{.ar} governs the ;muxbar3; [زَيْدٌ]{.ar} in the ;ustate;
+and the ;muxbar; [قَائِمًا]{.ar} in the ;astate;.
+Therefore [يَكُنْ]{.ar} is part of the initial government.
 
 ## #;fadlah; elements
 
-A ;fadlah; element is any stateful element in a sentence that is not either of the ;3umdah; elements,
-but is governed,
+A ;fadlah; element is any stateful element in a sentence that is not either of the two ;3umdah; elements,
+or part of the initial government.
+The source of government for 
+a ;fadlah; element must be,
 directly or indirectly,
-by any one of the ;3umdah; elements.
+one of the ;3umdah; elements.
 By the way,
 when we say _;fadlah;_,
 we mean that it is ;fadlah; in the sense that it is not required to complete the sentence _grammatically_.
@@ -574,7 +579,7 @@ which is a ;fadlah; element.
 If we remove it from the sentence,
 then the sentence will be complete grammatically but it will have an incorrect meaning.
 
-We will discuss some of the ;fadlah; elements below:
+We will discuss some of ;fadlah; elements below:
 
 #### The ;astate; governees of a verb {.unnumbered}
 
@@ -594,18 +599,11 @@ The ;mafulb; is usually a ;fadlah; element.
 In most sentences, if we remove the ;mafulb; the sentence remains grammatically complete.
 For example:
 
-However, if a verb is semantically deficient,
-like for kaana and its sisters (see chapter\ (ref)),
-then its ;mafulb;(s) may become an ;3umdah; element.
-For example:
+However, if a verb is ;naqis;
+(for example [كَانَ]{.ar}),
+then its ;mafulb; is renamed to be the ;xabar;
 
-(@) kaana zaydun  qaa'iman  
-          doer    mafulb  
-          muxbar3 muxbar  
-
-DIAGRAM
-
-We will discuss this in more detail in section\ (ref) below and also in chapter\ (ref), ;ia;.
+We saw an example of this in example (@kaana_zaydun_qaaiman) above.
 
 #### The ;mudafil; in an ;idaafah; {.unnumbered}
 

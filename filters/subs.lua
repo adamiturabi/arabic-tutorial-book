@@ -44,8 +44,8 @@ map_table["passive"] = {"passive", nil} -- "unknown-doer" verb?
 map_table["3aamil"] = {"governor", nil}
 map_table["ma3mul"] = {"governee", nil}
 map_table["3amal"] = {"government", nil}
-map_table["3umdah"] = {"indispensable", nil} -- indispensable, foundational, basic
-map_table["fadlah"] = {"dispensable", nil} -- dispensable, redundant, extra
+map_table["3umdah"] = {"load-bearing", nil} -- indispensable, foundational, basic
+map_table["fadlah"] = {"redundant", nil} -- dispensable, redundant, extra
 
 -- jumlah khabariyyah and inshaa'iyyah
 map_table["xabari"] = {"truth-evaluable", nil} -- falsifiable
@@ -64,7 +64,7 @@ map_table["adat_istifham"] = {"question word", nil}
 map_table["af3al"] = {"comparative noun", nil}
 map_table["af3aal_quloob"] = {"verbs of the heart", nil}
 
-map_table["badal"] = {"replacement", nil}
+map_table["badal"] = {"substitute", nil} -- replacement, substitute
 
 map_table["dharf_makan"] = {"adverb of place", nil}
 map_table["dharf_zaman"] = {"adverb of time", nil}
@@ -104,7 +104,7 @@ map_table["mafulm"] = {"accompanying doee", nil}
 map_table["manut"] = {"attributee", nil}
 map_table["masdar"] = {"maSdar", "trn2"}
 map_table["mmutlaq"] = {"absolute doee", nil}
-map_table["mubdalb"] = {"replacee", nil}
+map_table["mubdalb"] = {"substitutee", nil} -- replacee, substitutee
 map_table["mubtada"] = {"subject", nil}
 map_table["mudaf"] = {"annexe noun", nil}
 map_table["mudafil"] = {"base noun", nil}
@@ -112,15 +112,16 @@ map_table["mudarie"] = {"prefixed", nil} -- {"muDArie", "trn2"} -- "stateful", r
 map_table["mushar_il"] = {"pointed-to noun", nil} -- {"muDArie", "trn2"}
 map_table["mushtaqq"] = {"deverbal", nil} -- deverbal, derived
 map_table["musnad"] = {"leaning element", nil} -- complement
-map_table["musnadi"] = {"pillar element", nil} -- rock, mainstay, anchor
+map_table["musnadi"] = {"supporting element", nil} -- rock, mainstay, anchor, pillar
 map_table["mustatir"] = {"latent", nil} -- assumed, hidden, invisible, implied
 map_table["muxbar3"] = map_table["musnadi"] -- theme,rock, mainstay, anchor, subject, keystone, cornerstone, post, mast, pillar
 map_table["muxbar"] = map_table["musnad"] -- rheme, complement, predicate, cornerstone, keystone, capstone, rafter, beam
 map_table["mutaddi"] = {"transitive", nil}
 
 map_table["naib"] = {"deputy", nil}
-map_table["na3t"] = {"attributive", nil}
+map_table["na3t"] = {"attribute", nil}
 map_table["nidaa"] = {"vocative", nil}
+map_table["naqis"] = {"deficient", nil}
 map_table["nasix"] = {"canceling", nil}
 
 map_table["pbuh"] = {"ﷺ", "aralt" }
