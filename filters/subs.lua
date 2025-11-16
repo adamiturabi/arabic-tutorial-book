@@ -66,6 +66,7 @@ map_table["af3aal_quloob"] = {"verbs of the heart", nil}
 
 map_table["badal"] = {"substitute", nil} -- replacement, substitute
 
+map_table["damir_shan"] = {"pronoun of fact", nil}
 map_table["dharf_makan"] = {"adverb of place", nil}
 map_table["dharf_zaman"] = {"adverb of time", nil}
 
