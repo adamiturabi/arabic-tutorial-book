@@ -16,7 +16,8 @@ A _;xabari;_ statement is one that can be judged to be true or false.
 In other words it is falsifiable.
 For example, if we have a statement:
 
-(@) zaydun qaaimun
+(@) [زَيْدٌ قَائِمٌ]{.ar}  
+    [Zayd is standing.]{.trans}
 
 The above statement may be judged to have a truth value.
 If zayd is actually standing, then the statement is true.
@@ -27,39 +28,52 @@ on the other hand,
 does not have a truth value.
 Here are some examples of ;inshai; statements:
 
-(@) iDribh zaydan
+(@) [اضْرِبْ زَيْدًا]{.ar}  
+    [Beat Zayd!]{.trans}
 
-(@) laa taf3al
+(@) [لَا تَفْعَلْ]{.ar}  
+    [Don't do [it]!]{.trans}
 
-(@) O zayd
+(@) [يَا زَيْدُ]{.ar}  
+    [O Zayd]{.trans}
 
-(@) man huwa?
+(@) [مَنْ هُوَ]{.ar}  
+    [Who is he?]{.trans}
 
 
 ### Syntax, semantics, pragmatics, and stylistics
 
-#### Syntax {.unnumbered}
+#### Syntax and semantics {.unnumbered}
 
-Syntax is the study of how words combine to form phrases and sentences.^[wiki]
-It deals with the grammatical relationships between the words in a sentence.
-For example, consider the adjectival noun kabIr.
-When it is by itself, we cannot speak of any of its syntax.
-But when it is in a linguistic environment, like a phrase or a sentence,
+_Semantics_ is the study of the meanings of words.
+And _syntax_ is the study of how words combine to form phrases and sentences.
+Syntax deals with the grammatical relationships between the words in a sentence.
+For example, consider the ;sifah; [كَبِير]{.ar}.
+Semantically, it gives the meaning of something being big.
+When it is in a linguistic environment, like a phrase or a sentence,
 then its syntactical role is determined by the grammatical relationships it has with other words in the sentence.
 
 Consider the following sentence:
 
-(@) albaytu kabir
+(@) [الْبَيْتُ كَبِيرٌ]{.ar}  
+    [The house is big]{.trans}
 
-In the above sentence, kabIr is _syntactically_ a ;xabar;.
+In the above sentence, 
+[كَبِير]{.ar}
+is _syntactically_ a ;xabar;.
 
-Now consider this example:
+Now consider the following sentence:
 
-(@) daxala baytan kabIran
+(@) [دَخَلَ بَيْتًا كَبِيرًا]{.ar}  
+    [He entered a big house.]{.trans}
 
-In example () kabIr is syntactically a ;na3t;.
-In both examples, the meaning of kabIr is exactly the same.
+Now the same noun
+[كَبِير]{.ar}
+is syntactically a ;na3t;.
+In both examples,
+[كَبِير]{.ar} has the same semantic signification.
 
+<!--
 #### Semantics {.unnumbered}
 
 Semantics is the study of the meanings of words.
@@ -78,7 +92,7 @@ Semantics can affect the syntax of a sentence.
 
 (@) al-af3Alu HasanAtun  
     "The acts are good deeds."
-
+-->
 
 #### Pragmatics {.unnumbered}
 
@@ -100,23 +114,27 @@ then he is doing so for stylistic reasons.^[Hickey, L, "Stylistics, Pragmatics, 
 ## The theory of government
 
 A sentence in Arabic is constituted from elements.
-An element is a noun, a verb, or a particle.
+An element can be a noun, a verb, or a particle.
 Of these elements, some have the quality of state.
 These are called _stateful_ elements.
 The stateful elements are nouns and ;mudarie; verbs.
 A noun may be either in the ;ustate;, ;astate;, or ;istate;.
 And a ;mudarie; verb may be either in the ;ustate;, ;astate;, or ;0state;.
-The theory of government states that a stateful element is put in a particular state by a governor.
+The theory of government states that a stateful element is put in a particular state by a _governor_.
 For example:
 
-(@3amal_in_house) fii al-daari
+(@3amal_in_house) [فِي الدَّارِ]{.ar}  
+    [in the house]{.trans}
 
 In the above example,
 <!--
 the particle fii is the governor of the noun al-daari.
 The noun al-daar is the governee of its governor fii.
 -->
-the governor fii governs its governee al-daar in the ;istate;.
+the gpreposition [فِي]{.ar} causes the noun [الدَّار]{.ar} to be in the ;istate;.
+So we say that 
+the governor [فِي]{.ar} _governs_ [الدَّار]{.ar} (the _governee_) in the ;istate;.
+<!--
 We say that
 the preposition fii is the governor of ;istate; noun al-daar because it is the reason or cause of the noun al-daar being in the ;istate;.
 
