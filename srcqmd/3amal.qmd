@@ -566,7 +566,7 @@ The most prominent ;fadlah; elements are
 all ;astate; elements that a verb governs.
 These include:
 
-* the ;mafulb;
+* the ;mafulb; (usually)
 * the ;mmutlaq; (see chapter\ (ref))
 * the ;dharf_zaman; and the ;dharf_makan; (see chapter\ (ref))
 * the ;mafull; (see chapter\ (ref))
@@ -574,6 +574,7 @@ These include:
 * the ;hal; (see chapter\ (ref))
 * the ;tamyiz; (see chapter\ (ref))
 
+<!--
 The ;mafulb; is usually a ;fadlah; element.
 In most sentences, if we remove the ;mafulb; the sentence remains grammatically complete.
 For example:
@@ -583,6 +584,7 @@ However, if a verb is ;naqis;
 then its ;mafulb; is renamed to be the ;xabar;
 
 We saw an example of this in example (@kaana_zaydun_qaaiman) above.
+-->
 
 #### The ;mudafil; in an ;idaafah; {.unnumbered}
 
@@ -666,15 +668,20 @@ Example:
     [@peled_sentence_types@ 171]{.citex}  
     [Zayd was standing]{.trans}
 
+On the surface, 
+example (@kaana_zaydun_qaaiman) above
+looks like a verbal sentence because it begins with
+[كَانَ]{.ar}, which is a verb.
+Its ;faa3il;
 [زَيْدٌ]{.ar}
-in example (@kaana_zaydun_qaaiman) above is the ;muxbar3;, as usual.
+is the ;muxbar3;, as usual.
 But
-[كَانَ]{.ar}, above,
+[كَانَ]{.ar}, as used above,
 is a ;naqis; verb
 (see chapter\ (ref).)
 This means that it does not have sufficient meaning to grammatically complete the sentence by itself.
-So it cannot be a ;3umdah; element.
-So
+So it cannot be a ;3umdah; ;muxbar;.
+Instead,
 [كَانَ]{.ar}
 requires a ;xabar; 
 ([قَائِمًا]{.ar} above)
