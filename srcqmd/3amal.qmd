@@ -298,10 +298,39 @@ It expresses some property about the ;muxbar3; that completes the meaning of the
 
 Once the two ;3umdah; elements are in place,
 the sentence is grammatically complete.
-Other _;fadlah;_ elements may be added in addition to the ;3umdah; elements to add meaning to the sentence,
+Other _;fadlah;_ elements
+(see section\ (ref) below)
+may be added in addition to the ;3umdah; elements to add meaning to the sentence,
 but they are not required to make the sentence grammatically complete.
 
-Let's look at the ;3umdah; elements for the two typesof Arabic sentences:
+### Identifying sentence type
+
+We know that there are two basic types of Arabic sentences:
+
+ i. The ;j_ism;
+ii. The ;j_f3l;
+
+Previously we had said that a ;j_ism; is one that begins with a noun.
+And a ;j_ism; is one that begins with a verb.
+We will now refine these definitions:
+
+A _;j_ism;_ is one whose first ;3umdah; element is a noun.
+And
+a _;j_f3l;_ is one whose first ;3umdah; element is a verb.
+Consider, for example, the following sentence:
+
+(@) [زَيْدًا رَأَيْتُ]{.ar}
+    [@peled_sentence_types@ 28]{.citex}
+
+The first word in the sentence is [زَيْدًا]{.ar}.
+It is a ;mafulb;.
+We will learn in section\ (ref) below that ;mafulb;s are not usually ;3umdah; elements.
+They are usually ;fadlah; elements.
+Stripping the sentence of its ;fadlah; elements we are left with
+[رَأَيْتُ]{.ar} [I saw]{.trans}.
+This is a ;j_f3l;.
+
+Let's look at the ;3umdah; elements for the two types of Arabic sentences:
 
 <!--
 Here are some examples of sentences with only ;3umdah; elements:
@@ -380,6 +409,7 @@ requires a ;xabar;
 to be the ;muxbar;.
 
 We will see another example of a hybrid sentence in section\ (aqaaimun zaydun).
+
 
 ## Initial government
 
