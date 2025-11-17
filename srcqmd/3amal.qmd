@@ -303,33 +303,6 @@ Other _;fadlah;_ elements
 may be added in addition to the ;3umdah; elements to add meaning to the sentence,
 but they are not required to make the sentence grammatically complete.
 
-### Identifying sentence type
-
-We know that there are two basic types of Arabic sentences:
-
- i. The ;j_ism;
-ii. The ;j_f3l;
-
-Previously we had said that a ;j_ism; is one that begins with a noun.
-And a ;j_ism; is one that begins with a verb.
-We will now refine these definitions:
-
-A _;j_ism;_ is one whose first ;3umdah; element is a noun.
-And
-a _;j_f3l;_ is one whose first ;3umdah; element is a verb.
-Consider, for example, the following sentence:
-
-(@) [زَيْدًا رَأَيْتُ]{.ar}
-    [@peled_sentence_types@ 28]{.citex}
-
-The first word in the sentence is [زَيْدًا]{.ar}.
-It is a ;mafulb;.
-We will learn in section\ (ref) below that ;mafulb;s are not usually ;3umdah; elements.
-They are usually ;fadlah; elements.
-Stripping the sentence of its ;fadlah; elements we are left with
-[رَأَيْتُ]{.ar} [I saw]{.trans}.
-This is a ;j_f3l;.
-
 Let's look at the ;3umdah; elements for the two types of Arabic sentences:
 
 <!--
@@ -338,7 +311,7 @@ Here are some examples of sentences with only ;3umdah; elements:
 
 ### The ;3umdah; elements of a ;j_ism;
 
-Consider the following sentence:
+Consider the following ;j_ism;:
 
 (@3amal_zayd_qaimun) [زَيْدٌ قَائِمٌ]{.ar}  
     [Zayd is standing.]{.trans}
@@ -362,6 +335,8 @@ and the ;xabar; is the ;muxbar;.
 
 ### The ;3umdah; elements of a ;j_f3l;
 
+Consider the following ;j_f3l;:
+
 (@3amal_qaama_zaydun) [قَامَ زَيْدٌ]{.ar}
 
 DIAGRAM
@@ -382,34 +357,6 @@ We will see later, ;ia; that
 in a ;j_f3l;
 the ;muxbar; may sometimes be another element, instead of the verb that governs the ;faa3il;.
 -->
-
-### The ;3umdah; elements of a hybrid sentence
-
-Some sentences do not fall neatly into the categories of a ;j_ism; or a ;j_f3l;.
-We will refer to such sentences as hybrid sentences.
-
-One example of a hybrid sentence is one that has the verb [كَانَ]{.ar}.
-Example:
-
-(@kaana_zaydun_qaaiman) [كَانَ زَيْدٌ قَائِمًا]{.ar}  
-    [Zayd was standing]{.trans}
-
-[زَيْدٌ]{.ar}
-in example (@kaana_zaydun_qaaiman) above is the ;muxbar3;, as usual.
-But
-[كَانَ]{.ar}, above,
-is a ;naqis; verb
-(see chapter\ (ref).)
-This means that it does not have sufficient meaning to grammatically complete the sentence by itself.
-So it cannot be a ;3umdah; element.
-So
-[كَانَ]{.ar}
-requires a ;xabar; 
-([قَائِمًا]{.ar} above)
-to be the ;muxbar;.
-
-We will see another example of a hybrid sentence in section\ (aqaaimun zaydun).
-
 
 ## Initial government
 
@@ -447,7 +394,7 @@ we don't call it an ;fadlah; element.
 Here are some examples:
 
 (@) [لَمْ يَضْرِبِ الرَّجُلُ غُلَامَ زَيْدٍ]{.ar}
-    [@owens_foundations_grammar@ §2.2.3, 41]  
+    [@owens_foundations_grammar@ §2.2.3, 41]{.citex}  
     [The man did not beat Zayd's slave.]{.trans}
 
 DIAGRAM
@@ -457,7 +404,7 @@ DIAGRAM
 
 DIAGRAM
     
-
+<!--
 (@kaana_zaydun_qaaiman) [كَانَ زَيْدٌ قَائِمًا]{.ar}  
     [Zayd was standing.]{.trans}
 
@@ -468,6 +415,7 @@ the verb [كَانَ]{.ar} is the initial governor.
 But because it is a ;naqis; verb, it does not complete the sentence grammatically.
 Therefore, it is not an ;3umdah; element.
 But it is needed to govern the ;3umdah; elements.
+-->
 
 #### The abstract initial governor {.unnumbered}
 
@@ -569,7 +517,7 @@ and its ;faa3il; abUhu.
 muntaliq governs abUhu.
 But muntaliq itself is also governed by an initial governor (the verb kaana) that is not in this inner sentence.
 -->
-
+<!--
 #### More than one element in the initial government {.unnumbered}
 
 Sometimes, there may be more than one element (in a chain) in the initial government, before one reaches the first governed ;3umdah; element.
@@ -584,6 +532,7 @@ The verb [يَكُنْ]{.ar}, being a ;naqis; verb, is not an ;3umdah; element.
 But [يَكُنْ]{.ar} governs the ;muxbar3; [زَيْدٌ]{.ar} in the ;ustate;
 and the ;muxbar; [قَائِمًا]{.ar} in the ;astate;.
 Therefore [يَكُنْ]{.ar} is part of the initial government.
+-->
 
 ## #;fadlah; elements
 
@@ -667,6 +616,109 @@ These include:
 * The ;tawkeed; (see chapter\ (ref))
 * The ;3atf_bayan; (see chapter\ (ref))
 
+## Defining the ;j_ism; and the ;j_f3l;
+
+We know that there are two basic types of Arabic sentences:
+
+ i. The ;j_ism;
+ii. The ;j_f3l;
+
+Previously we had said that a ;j_ism; is one that begins with a noun.
+And a ;j_ism; is one that begins with a verb.
+We will now refine these definitions:
+
+A _;j_ism;_ is one whose first ;3umdah; element is a noun.
+And
+a _;j_f3l;_ is one whose first ;3umdah; element is a verb.
+Consider, for example, the following sentence:
+
+(@) [بَلْ زَيْدٌ قَائِمٌ]{.ar}  
+    [Rather Zayd is standing.]{.trans}
+
+The first word in the sentence above is [بَلْ]{.ar}.
+It is a particle and not a ;3umdah; element.
+Removing it from the sentence, we see that the first of the remaining ;3umdah; elements is [زَيْدٌ]{.ar},
+which is a noun. So the sentence is a ;j_ism;.
+
+Let's take a look at another example:
+
+(@) [زَيْدًا رَأَيْتُ]{.ar}
+    [@peled_sentence_types@ 28]{.citex}  
+    [[It was] Zayd I saw.]{.trans}
+
+The first word in the sentence is [زَيْدًا]{.ar}.
+It is a ;mafulb;.
+We will learn in section\ (ref) below that ;mafulb;s are not usually ;3umdah; elements.
+They are usually ;fadlah; elements.
+Stripping the sentence of its ;fadlah; elements we are left with
+[رَأَيْتُ]{.ar} [I saw]{.trans}.
+This is a ;j_f3l;.
+
+## The hybrid sentence
+
+Some sentences do not fall neatly into the categories of a ;j_ism; or a ;j_f3l;.
+We will refer to such sentences as hybrid sentences.
+
+One example of a hybrid sentence is one that has the verb [كَانَ]{.ar}.
+Example:
+
+(@kaana_zaydun_qaaiman) [كَانَ زَيْدٌ قَائِمًا]{.ar}
+    [@peled_sentence_types@ 171]{.citex}  
+    [Zayd was standing]{.trans}
+
+[زَيْدٌ]{.ar}
+in example (@kaana_zaydun_qaaiman) above is the ;muxbar3;, as usual.
+But
+[كَانَ]{.ar}, above,
+is a ;naqis; verb
+(see chapter\ (ref).)
+This means that it does not have sufficient meaning to grammatically complete the sentence by itself.
+So it cannot be a ;3umdah; element.
+So
+[كَانَ]{.ar}
+requires a ;xabar; 
+([قَائِمًا]{.ar} above)
+to be the ;muxbar;.
+
+In such a sentence,
+[كَانَ]{.ar}
+can be considered to be the initial governor, and the sentence may be considered a ;j_ism;.
+
+Similarly consider the sentence:
+
+(@) [لَمْ يَكُنْ زَيْدٌ قَائِمًا]{.ar}  
+    [Zayd was not standing.]{.trans}
+
+In the example above,
+the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the ;0state;.
+The verb [يَكُنْ]{.ar}, being a ;naqis; verb, is not an ;3umdah; element.
+But [يَكُنْ]{.ar} governs the ;muxbar3; [زَيْدٌ]{.ar} in the ;ustate;
+and the ;muxbar; [قَائِمًا]{.ar} in the ;astate;.
+Therefore both [لَمْ]{.ar} and [يَكُنْ]{.ar} form the initial government.
+
+[كَانَ]{.ar} and its sisters are discussed in more detail in chapters\ (ref).
+
+<!--
+Similarly, consider the sentence:
+
+(@) [ظَنَنْتُ زَيْدًا قَائِمًا]{.ar}
+    [@peled_sentence_types@ 171]{.citex}  
+    [I believed him [to be] standing.]{.trans}
+
+The sentence above begins with the verb [ظَنَّ]{.ar},
+which would normally make this a ;j_f3l;.
+But the sentence with just the verb and its ;faa3il; 
+[ظَنَنْتُ]{.ar}
+[I believed]{.trans}
+seems incomplete.
+
+[ظَنَّ]{.ar} and its sisters are discussed in more detail in chapters\ (ref).
+-->
+
+We will see another example of a hybrid sentence in section\ (aqaaimun zaydun).
+
+
+<!--
 ## Identifying the ;3umdah; elements
 
 ### Identifying the ;3umdah; elements in a ;j_f3l;
@@ -683,19 +735,20 @@ like [كَانَ]{.ar},
 the verb does not complete the sentence grammatically.
 So the ;mafulb; of the verb becomes the ;muxbar;.
 We saw an example of the ;3umdah; elements of a ;j_f3l; with a ;naqis; verb in example (@kaana_zaydun_qaaiman) above.
+-->
 
-### Identifying the ;3umdah; elements in a ;j_ism;
+## Identifying the ;3umdah; elements in a ;j_ism;
 
 Identifying the ;3umdah; elements in a ;j_ism; can sometimes be complicated.
 We will discuss several cases below:
 
-#### There is a particle as the initial governor {.unnumbered}
+### A particle is the initial governor
 
-#### One ;3umdah; element is definite and the other ;3umdah; element is indefinite {.unnumbered}
+### One ;3umdah; element is definite and the other ;3umdah; element is indefinite
 
-#### Both ;3umdah; elements are definite {.unnumbered}
+### Both ;3umdah; elements are definite
 
-#### Both ;3umdah; elements are indefinite {.unnumbered}
+### Both ;3umdah; elements are indefinite
 
 ## The compound sentence
 
