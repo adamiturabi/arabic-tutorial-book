@@ -44,8 +44,8 @@ map_table["passive"] = {"passive", nil} -- "unknown-doer" verb?
 map_table["3aamil"] = {"governor", nil}
 map_table["ma3mul"] = {"governee", nil}
 map_table["3amal"] = {"government", nil}
-map_table["3umdah"] = {"load-bearing", nil} -- indispensable, foundational, basic
-map_table["fadlah"] = {"redundant", nil} -- dispensable, redundant, extra
+map_table["3umdah"] = {"structural", nil} -- indispensable, foundational, basic, load-bearing, structural
+map_table["fadlah"] = {"dispensable", nil} -- dispensable, redundant, extra
 
 -- jumlah khabariyyah and inshaa'iyyah
 map_table["xabari"] = {"truth-evaluable", nil} -- falsifiable
@@ -53,7 +53,7 @@ map_table["inshai"] = {"non-truth-evaluable", nil} -- non-falsifiable
 
 -- idaafah types
 map_table["ma3nawi"] = {"real", nil} 
-map_table["lafzi"] = {"fake", nil} 
+map_table["lafzi"] = {"superficial", nil} -- fakse, superficial
 
 -- alphabetical
 map_table["3aaid"] = {"refer-back pronoun", nil}
@@ -66,7 +66,7 @@ map_table["af3aal_quloob"] = {"verbs of the heart", nil}
 
 map_table["badal"] = {"substitute", nil} -- replacement, substitute
 
-map_table["damir_shan"] = {"pronoun of fact", nil}
+map_table["damir_shan"] = {"s͡haʾn-pronoun", nil} -- pronoun-of-fact
 map_table["dharf_makan"] = {"adverb of place", nil}
 map_table["dharf_zaman"] = {"adverb of time", nil}
 
@@ -90,7 +90,7 @@ map_table["isnaad"] = {"sentence-completion", nil}
 
 map_table["jamid"] = {"underived", nil}
 map_table["jawab"] = {"consequence", nil}
-map_table["j_ism"] = {"nominal sentence", nil}
+map_table["j_ism"] = {"nounal sentence", nil}
 map_table["j_f3l"] = {"verbal sentence", nil}
 
 map_table["lazim"] = {"intransitive", nil}
@@ -146,7 +146,7 @@ map_table["tamyiz"] = {"tamyIz", "trn2"}
 map_table["tawkeed"] = {"emphatic follower", nil}
 
 map_table["x"] = {"✗", nil}
-map_table["xabar"] = {"remark", nil} -- newsworthy expression, information, comment, remark, info, report, news, expression
+map_table["xabar"] = {"info", nil} -- newsworthy expression, information, comment, remark, info, report, news, expression
 
 map_table["zaaid"] = {"redundant", nil}
 
