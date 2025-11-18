@@ -746,14 +746,142 @@ We saw an example of the ;3umdah; elements of a ;j_f3l; with a ;naqis; verb in e
 
 ## Identifying the ;3umdah; elements in a ;j_ism;
 
-Identifying the ;3umdah; elements in a ;j_ism; can sometimes be complicated.
+It can sometimes be complicated to tell
+which of the twp ;3umdah; elements in a ;j_ism; is the ;muxbar3; and which is the ;muxbar;.
 We will discuss several cases below:
 
-### A particle is the initial governor
+### When there is an overt initial governor
+
+When there is an overt initial governor,
+like [إِنَّ]{.ar},
+[كَانَ]{.ar}, etc.,
+then it is usually easy to tell which is the ;muxbar3; and which is the ;muxbar;.
+For example:
+
+(@3amal_fainna_hasbaka_allahu) [فَإِنَّ حَسۡبَكَ ٱللَّهُ]{.quran}
+    [@https://quran.com/8/62@]{.citex}  
+    [then sufficient for you is Allāh]{.trans}
+
+In example (@3amal_fainna_hasbaka_allahu) above,
+[حَسْب]{.ar} is in the ;astate; as the ;ism_of; and 
+the word [ٱللَّهُ]{.ar} is in the ;ustate; as the ;xabar;.
+This tells us that
+[حَسْب]{.ar} is the ;muxbar3; and the word
+[ٱللَّهُ]{.ar} is the ;muxbar;.
+
 
 ### One ;3umdah; element is definite and the other ;3umdah; element is indefinite
 
+When 
+one ;3umdah; element is definite and the other ;3umdah; element is indefinite,
+then it is usually the case that the definite element is the ;muxbar3; (as the ;mubtada;)
+and the indefinite element is the ;muxbar; (as the ;xabar;).
+
+In terms of pragmatics, the ;muxbar3; and the ;muxbar; represent 'given' and 'new' information.
+That is, the listener knows who the ;muxbar3; is and can identify him or it. So the ;muxbar3; is a 'given' to the listener.
+And the speaker is providing 'new' information about the ;muxbar3; to the listener.
+The definite element represents the 'given' information, which the listener already knows.
+And the indefinite element represents 'new' information.
+
+Let's take a look at an example:
+
+(@3amal_tamimiyyun_ana) [تَمِيمِيٌّ أَنَا]{.ar}
+    [@peled_sentence_types@ 121]{.citex}  
+    [A [#tamIm]{.trn2}ite I am.]{.trans}
+
+The pronoun [أَنَا]{.ar} is definite. Therefore it is the ;muxbar3; (as the ;mubtada;).
+And the word
+[تَمِيمِيٌّ]{.ar}
+is indefinite.
+Therefore it is the ;muxbar; (as the ;xabar;).
+Example (@3amal_tamimiyyun_ana) is an inverted order sentence where the ;xabar; is fronted and the ;mubtada; is placed after it.
+
+In special cases, some grammarians hold that it is possible to have an indefinite ;mubtada; and a definite ;xabar;.^[<https://alababmisr.com/%D8%B3%D8%A4%D8%A7%D9%84-%D9%87%D9%84-%D9%8A%D8%AC%D9%88%D8%B2-%D8%A3%D9%86-%D9%8A%D8%A3%D8%AA%D9%8A-%D8%A7%D9%84%D9%85%D8%A8%D8%AA%D8%AF%D8%A3-%D9%86%D9%83%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%AE/>]
+One special case is when a question noun is the ;mubtada;.
+(Question nouns are considered indefinite.)
+For example:
+
+(@) [كَمْ مَالُكَ]{.ar}
+    [@sabban@ 1/231]{.citex}  
+    [How much is your wealth?]{.trans}
+
+(@) [أَيُّ لَيْلَةٍ لَيْلَةُ الْقَدْرِ]{.ar}
+    [@https://sunnah.com/tirmidhi:3513@]{.citex}  
+    [Which night is the night of Decree]{.trans}
+
+Another special case is when the ;mubtada; is an indefinite ;af3al; in sentences like:
+
+(@) [خَيْرٌ مِنْكَ زَيْدٌ]{.ar}
+    [@sabban@ 1/231]{.citex}  
+    [Better than you is Zayd]{.trans}
+
+In the above sentence, [خَيْرٌ]{.ar} is considered the ;mubtada; of the sentence.
+<!--
+Typically, an indefinite ;af3al; would be a ;xabar; instead of a ;mubtada;.
+For example: zaydun xayrun minka.
+But imagine a scenario where someone says:
+3amrun xayrun minni.
+In response to this, another person may reply
+xayrun minka zaydun.
+The given information is xayrun minka.
+And the new information is zayd.
+-->
+<!--
+Besides these two special cases,
+there are words like
+[حَسْب]{.ar},
+[مِثْل]{.ar},
+[نَحْو]{.ar}, etc.
+We will see in chapter\ (ref) that these words (exceptionally) remain indefinite when annexed to a definite noun.
+So, for example, these words (as ;mudaf;s to definite ;mudafil;s) may be used as ;na3t;s to an indefinite noun.
+For example:
+
+(@) [مَرَرْتُ بِرَجُلٍ حَسْبِكَ ِمْن َرُجٍل]{.ar}
+    [@ibn_hisham_awdah_almasaalik@ 3/139]{.citex}
+
+There is some debate amongst the grammarians with regards to whether these indefinite noun may occur as a ;mubtada; to a definite ;xabar;.^[@sabban@ 1/277]
+So if we have a sentence: 
+
+(@) [حسبُك زَيْدٌ]{.ar}  
+    [Sufficient for you is Zayd.]{.trans}
+
+then one may deem zayd as the ;mubtada; because it is more definite than hasbuka.
+
+But see also the ;tafsir;s of the following ;ayah;s:
+
+(@) faHasbuhu jahannamu
+
+(@) Hasbuhum jahannamu yaSlawnahA
+-->
+
 ### Both ;3umdah; elements are definite
+
+When both ;3umdah; elements are definite, then typically the first is the ;mubtada; and the second is the ;xabar;.
+For example:
+
+(@) [الدِّينُ النَّصِيحَةُ]{.ar}
+    [@https://sunnah.com/muslim:55a@]{.citex}  
+    [The Religion is sincerity.]{.trans}
+
+However, if it is known from context that one if the two elements is the 'given' information and the other is the 'new' information, then the given information will be the ;mubtada; and the new information will be the ;xabar;, regardless of word-order.^[ibn_aqil 1/233, maani_nahw 1/ta3reef al mutdada wal xabar]
+
+For example, consider a situation where one wishes to say that Abu Yusuf is [like] Abu Hanifa.
+(Imam Abu Yusuf was the foremost student of Imam Abu Hanifa.)
+The normal way to express this sentence is:
+
+(@) Abu Yusuf Abu Hanifa.
+
+DIAGRAM
+
+However, if the speaker and the listener know that Abu Yusuf is the topic of the conversation then Abu Yusuf is the given information.
+And likening him to Abu Hanifa is the new information which then speaker is giving to the listener.
+With the pragamatic knowledge that the listener would know what he means,
+the speaker may choose, for stylistic reasons, to place the ;xabar; (Abu Hanifa) before the ;mubtada; (Abu Yusuf)
+
+(@) Abu Hanifa Abu Yusuf 
+
+DIAGRAM
+
 
 ### Both ;3umdah; elements are indefinite
 
