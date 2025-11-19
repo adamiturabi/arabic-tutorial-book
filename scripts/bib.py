@@ -396,6 +396,13 @@ def populate_resource_list():
     , bib_text = "دلائل الإعجاز للجرجاني  \n      " + format_url_ar("https://shamela.ws/book/12055")
     , sort_key = "دلايل الاعجاز للجرجاني"
     ))
+  resource_list.append(BibResource(
+    "jurjani_muqtasid"
+    , cit_type = "ar_ref"
+    , cit_text = "[المقتصد للجرجاني]{.ar}"
+    , bib_text = "المقتصد في شرح الإيضاح للجرجاني  \n      " + format_url_ar("https://archive.org/details/2271pdf_201912")
+    , sort_key = "المقتصد في شرح الايضاح للجرجاني"
+    ))
 
   resource_list.append(BibResource(
     "abu_hayyan_tadhyeel"

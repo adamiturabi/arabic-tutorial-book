@@ -932,7 +932,7 @@ the ;xabar; is itself a complete sentence.
 For example:
 
 (@3amal_zaydun_yaqoomu) [زَيْدٌ يَقُومُ]{.ar}  
-    [Zayd: he stands]{.trans}
+    [Zayd -- he stands]{.trans}
 
 In example (@3amal_zaydun_yaqoomu) above,
 [زَيْدٌ]{.ar}
@@ -952,7 +952,7 @@ Here is example of a compound ;j_ism;, whose ;xabar; is also a ;j_ism;:
 
 (@3amal_zaydun_aboohu_qaaimun) [زَيْدٌ أَبُوهُ قَائِمٌ]{.ar}
     [[@abu_hayyan_tadhyeel@ 4/26](https://shamela.ws/book/17116/1040)]{.citex}  
-    [Zayd: his father is standing.]{.trans}
+    [Zayd -- his father is standing.]{.trans}
 
 (FIXME: MOVE THIS TO KAANA CHAPTER):
 
@@ -979,7 +979,7 @@ For example:
 
 (@) [زَيْدٌ اضْرِبْهُ]{.ar}
     [@abu_hayyan_tadhyeel@ 4/27]{.citex}  
-    [Zayd: hit him!]{.trans}  
+    [Zayd -- hit him!]{.trans}  
     (i.e. [Hit Zayd!]{.trans})
 
 ### The government of the compound ;j_ism; sentence
@@ -991,7 +991,7 @@ But the _entire_ ;xabar; is governed, albeit not markedly,  by a governor in the
 For example, consider the following compound ;j_ism;:
 
 (@3amal_inna_zaydan_lam_yadrib_3amran) [إِنَّ زَيْدًا لَمْ يَضْرِبْ عَمْرًا]{.ar}  
-    [Indeed Zayd: he did not hit [#eamr]{.trn2}]{.trans}
+    [Indeed Zayd -- he did not hit [#eamr]{.trn2}]{.trans}
 
 In example (@3amal_inna_zaydan_lam_yadrib_3amran) above,
 [لَمْ يَضْرِبْ عَمْرًا]{.ar}
@@ -1024,15 +1024,100 @@ The governments of the other examples of compound sentences that we gave above, 
 
 Some sentences are not valid as inner sentences:
 
-* A sentence beginning with lAkin, HattA, or bal is not valid.^[@abu_hayyan_tadhyeel@ 4/28]
+* A sentence beginning with [لَـٰكِنْ]{.ar}, [حَتَّى]{.ar}, or [بَلْ]{.ar} is not valid.^[@abu_hayyan_tadhyeel@ 4/28]
 * A vocative sentence is not valid.^[@abu_hayyan_tadhyeel@ 4/28]
   So. we cannot say, for example:
 
   (@) ;x; [زيد يا أخاه]{.ar}
       [@abu_hayyan_tadhyeel@ 4/28]{.citex}  
-      "Zayd: O his brother."
+      "Zayd -- O his brother."
 
 ### The ;rabt; between the inner and outer sentence
+
+It is usually necessary for there to be a ;rabt; between the inner sentence, and the ;mubtada; of the outer sentence.
+This ;rabt; is typically supplied by a pronoun.
+Let's look at some examples:
+
+(@3amal_zaydun_qaama_aboohu) [زَيْدٌ قَامَ أَبُوهُ]{.ar}
+    [@jurjani_muqtasid@ 1/278]{.citex}  
+    [Zayd -- his father stood up.]{.trans}
+
+DIAGRAM
+
+In example (@3amal_zaydun_qaama_aboohu) above, the ;rabt; is the pronoun [هُ]{.ar} in abuuhu.
+
+(@3amal_zaydun_qaama) [زَيْدٌ قَامَ]{.ar}
+    [@jurjani_muqtasid@ 1/278]{.citex}  
+    [Zayd -- he stood up.]{.trans}
+
+DIAGRAM
+
+In example (@3amal_zaydun_qaama) above, the ;rabt; is the implied singular masculine pronoun that is the ;faa3il; of [قَامَ]{.ar}.
+
+Generally, if there is no such ;rabt; between the inner sentence and the ;mubtada; of the outer sentence,
+then the compound sentence is invalid.^[@peled_sentence_types@ 94 citing @ibn_ya3ish_mufassal@; @jurjani_muqtasid@]{.citex}
+So we cannot say, for example:
+
+(@) ;x; [زَيْدٌ قَامَ عَمْرٌ]{.ar}
+    [@peled_sentence_types@ 94 citing @ibn_ya3ish_mufassal@]{.citex}  
+    [Zayd -- [#eamr]{.trn2} stood up]{.trans}
+
+#### A ;ism_isharah; as the ;rabt; {.unnumbered}
+
+Instead of a pronoun,
+an ;ism_isharah; may serve as the ;rabt;.
+For example:
+
+(@) [وَلِبَاسُ ٱلتَّقۡوَىٰ ذَ ٰ⁠لِكَ خَیۡرࣱۚ]{.quran}
+    [@https://quran.com/7/26@ cited by @ibn_aqil_alfiyyah@ 1/204]{.citex}  
+    [But the clothing of righteousness - that is best.]{.trans}
+
+#### A repeated ;mubtada; as the ;rabt; {.unnumbered}
+
+The ;mubtada; of the outer sentence may be repeated in the inner sentence, and this is sufficient as the ;rabt;.
+For example:
+
+(@) [ٱلۡحَاۤقَّةُ ۝١ مَا ٱلۡحَاۤقَّةُ ۝٢]{.quran}
+    [@https://quran.com/69/1-2@ cited by @ibn_aqil_alfiyyah@ 1/204]{.citex}  
+    [The Inevitable Reality - What is the Inevitable Reality?]{.trans}
+
+
+#### No need for the ;rabt; {.unnumbered}
+
+In cases where the ;xabar; of the outer sentence is more general than its ;mubtada; a ;rabt; is not needed.
+For example:
+
+(@) [زَيْدٌ نِعْمَ الرَّجُلُ]{.ar}
+    [@wright@ 2/256D, @ibn_aqil_alfiyyah@ 1/204]{.citex}  
+    [Zayd -- an excellent man]{.trans}
+
+The ;rabt; is also not needed when the ;mubtada; of the outer sentence and its ;xabar; are perfectly identical in meaning.
+For example:
+
+(@) [نُطْقِي اللَّهُ حَسْبِي]{.ar}
+    [@wright@ 2/256D, @ibn_aqil_alfiyyah@ 1/204]{.citex}  
+    [My utterance is "[#allAh]{.trn2} is sufficient for me."]{.trans}
+
+(@) [قَوْلِي لَا إِلَهَ إِلاَّ اللَّهُ]{.ar}
+    [@wright@ 2/256D, @ibn_aqil_alfiyyah@ 1/204]{.citex}  
+    [My saying is "There is no god but [#allAh]{.trn2}."]{.trans}
+
+#### An implied ;rabt; {.unnumbered}
+
+The ;rabt;, even when technically required, is sometimes omitted.
+But it remains implied.
+This is in cases in which the sense is perfectly clear without it.^[@wright@ 2/256B]
+For example:
+
+(@) [ٱلسَّمْنُ مَنَوَانِ بِدِرْهَمٍ]{.ar}
+    [@wright@ 2/256C; @jurjani_muqtasid@ 1/278; @radiy_kafiyah@ 1/238]{.citex}  
+    [The ghee is (at the rate of) two [manA]{.trn2}s for a dirham.]{.trans}  
+
+In the example above,
+the sentence with the ;rabt; restored is 
+[ٱلسَّمْنُ مَنَوَانِ **مِنْهُ** بِدِرْهَمٍ]{.ar} 
+[two [manA]{.trn2}s **of it** for a dirham.]{.trans}
+
 
 
 ## Other complete sentences in place of nouns
@@ -1551,7 +1636,7 @@ Some sentences, however, are not valid as inner sentences:
 
   (@) ;x; [زيد يا أخاه]{.ar}
       [@abu_hayyan_tadhyeel@ 4/28]{.citex}  
-      "Zayd: O his brother."
+      "Zayd -- O his brother."
 
 ### The ;rabt; between the inner and outer sentence
 
