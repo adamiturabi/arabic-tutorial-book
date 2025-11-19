@@ -16,7 +16,7 @@ A _;xabari;_ statement is one that can be judged to be true or false.
 In other words it is falsifiable.
 For example, if we have a statement:
 
-(@) [زَيْدٌ قَائِمٌ]{.ar}  
+(@3amal_zaydun_qaaimun) [زَيْدٌ قَائِمٌ]{.ar}  
     [Zayd is standing.]{.trans}
 
 The above statement may be judged to have a truth value.
@@ -912,7 +912,131 @@ Examples:
     [@https://quran.com/42/40@]{.citex}  
     [And the retribution for an evil act is an evil one like it]{.trans}
 
-## The compound sentence
+## The compound ;j_ism;
+
+In a ;j_ism;,
+the ;xabar; is, by default, a single noun.
+See example (@3amal_zaydun_qaaimun) again:
+
+(@3amal_zaydun_qaaimun) [زَيْدٌ قَائِمٌ]{.ar}  
+    [Zayd is standing.]{.trans}
+
+In example (@3amal_zaydun_qaaimun),
+[قَائِمٌ]{.ar}
+is a single word and it is the ;xabar;.
+This is what we may call a _simple_ ;j_ism;.
+
+In contrast,
+in a _compound_ ;j_ism;,
+the ;xabar; is itself a complete sentence.
+For example:
+
+(@3amal_zaydun_yaqoomu) [زَيْدٌ يَقُومُ]{.ar}  
+    [Zayd: he stands]{.trans}
+
+In example (@3amal_zaydun_yaqoomu) above,
+[زَيْدٌ]{.ar}
+is the ;mubtada; and
+[يَقُومُ]{.ar}
+is the ;xabar;.
+But 
+[يَقُومُ]{.ar}
+is not a single word here.
+It is in fact a complete sentence.
+This is because, as we know, a verb _must_ be followed by its ;faa3il;.
+And if there is no overt ;faa3il;, then a ;mustatir; ;faa3il; pronoun is implicated.
+So [يَقُومُ]{.ar} is a a ;j_f3l; with the meaning
+[he stands]{.trans}.
+
+Here is example of a compound ;j_ism;, whose ;xabar; is also a ;j_ism;:
+
+(@3amal_zaydun_aboohu_qaaimun) [زَيْدٌ أَبُوهُ قَائِمٌ]{.ar}
+    [[@abu_hayyan_tadhyeel@ 4/26](https://shamela.ws/book/17116/1040)]{.citex}  
+    [Zayd: his father is standing.]{.trans}
+
+(FIXME: MOVE THIS TO KAANA CHAPTER):
+
+Compound sentences are very common with [كَانَ]{.ar}.
+Remember from section\ (ref) above that
+[كَانَ]{.ar}
+is a ;naqis; verb, and thus needs a ;xabar; to grammatically the sentence.
+This ;xabar; may be a single word, like:
+
+(@) [كَانَ زَيْدٌ قَائِمًا]{.ar}  
+    [Zayd was standing.]{.trans}
+
+Or the ;xabar; of [كَانَ]{.ar} may be a complete sentence:
+
+(@) [كَانَ زَيْدٌ يَقُومُ]{.ar}  
+    [Zayd used to stand.]{.trans}
+
+(END FIXME)
+
+The ;xabar; of a compound ;j_ism; is typically a ;xabari; sentence.
+But it need not be so.
+A ;inshai; sentence is also valid as a ;xabar;^[@ibn_3usfoor_sharh_jumal@ 1/347; @abu_hayyan_tadhyeel@ 4/27]
+For example:
+
+(@) [زَيْدٌ اضْرِبْهُ]{.ar}
+    [@abu_hayyan_tadhyeel@ 4/27]{.citex}  
+    [Zayd: hit him!]{.trans}  
+    (i.e. [Hit Zayd!]{.trans})
+
+### The government of the compound ;j_ism; sentence
+
+The ;xabar; of a compound ;j_ism; is a complete sentence.
+Therefore, it has its own independent internal government for all elements within it
+(including its own initial government).
+But the _entire_ ;xabar; is governed, albeit not markedly,  by a governor in the outer sentence.
+For example, consider the following compound ;j_ism;:
+
+(@3amal_inna_zaydan_lam_yadrib_3amran) [إِنَّ زَيْدًا لَمْ يَضْرِبْ عَمْرًا]{.ar}  
+    [Indeed Zayd: he did not hit [#eamr]{.trn2}]{.trans}
+
+In example (@3amal_inna_zaydan_lam_yadrib_3amran) above,
+[لَمْ يَضْرِبْ عَمْرًا]{.ar}
+is a complete sentence that is the ;xabar; of the outer sentence.
+This inner sentence has its own internal government,
+starting with its initial governor [لَمْ]{.ar}.
+The initial governor [لَمْ]{.ar}
+governs the verb [يَضْرِبْ]{.ar} in the ;0state;.
+And the verb [يَضْرِبْ]{.ar}
+governs an implicated ;mustatir; ;faa3il; pronoun ([هُوَ]{.ar}) in the ;ustate;,
+and the ;mafulb; [عَمْرًا]{.ar} in the ;astate;.
+
+Now this entire inner sentence
+[لَمْ يَضْرِبْ عَمْرًا]{.ar}
+is governed in the ;ustate; as the ;xabar; of the initial governor of the outer sentence [إِنَّ]{.ar}.
+This particular governance is not marked because the complete inner sentence cannot be marked with a ;umark;.
+So we will say that the inner sentence 
+[لَمْ يَضْرِبْ عَمْرًا]{.ar}
+is _in place_ of a ;ustate; noun as the ;xabar; of [إِنَّ]{.ar}.
+
+The government of this compound sentence is illustrated in the diagram below:
+
+DIAGRAM
+
+<!--
+The governments of the other examples of compound sentences that we gave above, is ilustrated in the diagrams below:
+-->
+
+### Invalid inner sentences
+
+Some sentences are not valid as inner sentences:
+
+* A sentence beginning with lAkin, HattA, or bal is not valid.^[@abu_hayyan_tadhyeel@ 4/28]
+* A vocative sentence is not valid.^[@abu_hayyan_tadhyeel@ 4/28]
+  So. we cannot say, for example:
+
+  (@) ;x; [زيد يا أخاه]{.ar}
+      [@abu_hayyan_tadhyeel@ 4/28]{.citex}  
+      "Zayd: O his brother."
+
+### The ;rabt; between the inner and outer sentence
+
+
+
+
 
 ## The ;damir_shan;
 

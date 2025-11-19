@@ -467,6 +467,14 @@ def populate_resource_list():
     , bib_text = "اجتماع الجيوش الإسلامية لابن القيم  \n      " + format_url_ar("https://shamela.ws/book/18632/80")
     , sort_key = "اجتماع الجيوش الاسلامية لابن القيم"
     ))
+  resource_list.append(BibResource(
+    "ibn_3usfoor_sharh_jumal"
+    , cit_type = "ar_ref"
+    , cit_text = "[شرح جمل الزجاجي لابن عصفور]{.ar}"
+    , bib_text = "الكتاب : شرح جمل الزجاجي تأليف : ابن عصفور الإشبيلي"
+    , sort_key = "شرح جمل الزجاجي لابن عصفور"
+    ))
+
   # Western
 
   resource_list.append(BibResource(
