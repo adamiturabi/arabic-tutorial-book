@@ -481,7 +481,18 @@ def populate_resource_list():
     , bib_text = "الكتاب : شرح جمل الزجاجي تأليف : ابن عصفور الإشبيلي"
     , sort_key = "شرح جمل الزجاجي لابن عصفور"
     ))
-
+  resource_list.append(BibResource(
+    "farisi_idah"
+    , cit_type = "ar_ref"
+    , cit_text = "[الإيضاح للفارسي]{.ar}"
+    , bib_text = """
+      الكتاب: الإيضاح العضدي  
+      المؤلف: أبو علي الفارسيّ (٢٨٨ - ٣٧٧ هـ)  
+      المحقق: د. حسن شاذلي فرهود (كلية الآداب - جامعة الرياض)  
+      الطبعة: الأولى، ١٣٨٩ هـ - ١٩٦٩ م.  
+      """ + format_url_ar("https://shamela.ws/book/20961")
+    , sort_key = "الايضاح للفارسي"
+    ))
   # Western
 
   resource_list.append(BibResource(
