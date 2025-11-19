@@ -1153,17 +1153,23 @@ Substituing a single-noun ;na3t; with its corresponding ;mudarie; verb is the mo
 However, more complex sentence-;na3t;s may also be formed.
 For example:
 
+(@3amal_quran_2_281) [وَٱتَّقُوا۟ یَوۡمࣰا تُرۡجَعُونَ فِیهِ إِلَى ٱللَّهِۖ]{.quran}
+    [@https://quran.com/2/281@ cited by @ibn_hisham_awdah_almasaalik@ 3/276]{.citex}  
+    [And fear a Day when you will be returned to Allāh.]{.trans}
 
-(@) [وَاتَّقُوا يَوْمًا تُرْجَعُونَ فِيهِ إِلَى اللَّهِ]{.ar}
-    [cited by @ibn_hisham_awdah_almasaalik@ 3/277]{.citex}  
-    (The ;na3t; is the sentence [تُرْجَعُونَ فِيهِ إِلَى اللَّهِ]{.ar}.)
+In example (@3amal_quran_2_281) above,
+the sentence
+[تُرۡجَعُونَ فِیهِ إِلَى ٱللَّهِ]{.quran}
+is a ;na3t; of [يَوْمًا]{.ar}.
 
+<!--
 Also note that when we translate such sentences into English, we need to use a _relative pronoun_ like
 _that_, _which_, _who_, etc.
 But in Arabic no such relative pronoun is needed or used.
 Arabic does have the equivalent of the relative pronoun, called the _;ism_mawsul;_,
 but it has its own use cases.
 We will discuss the ;ism_mawsul; in chapter\ (ref), ;ia;.
+-->
 
 There are three conditions that must be met in order for a sentence to occur as a ;na3t;^:
     [@ibn_hisham_awdah_almasaalik@ 3/275--278]{.citex}  
@@ -1172,22 +1178,45 @@ There are three conditions that must be met in order for a sentence to occur as 
 2. The sentence-;na3t; must contain a ;rabt; that links back to the ;manut;.
 2. The sentence-;na3t; should be ;xabari;.
 
-Let's discuss each of these conditions:
+Let's discuss each of these conditions.
 
-A more complex sentence-;na3t;
+#### Indefiniteness of the ;manut; {.unnumbered}
 
-;rabt; may be deleted:
-[@ibn_hisham_awdah_almasaalik@ 3/277]
+We already saw an example of an indefinite (in wording) ;manut; in example (@3amal_quran_2_281) above.
+Here is an example of a ;manut; which is definite in wording, but indefinite in meaning:
 
-Conditions:
+(@3amal_walaqad_amurru) [وَلَقَدْ أَمُرُّ عَلَى اللَّئِيمِ يَسُبُّنِي]{.ar}
+    [@ibn_hisham_awdah_almasaalik@ 3/276]{.citex}  
+    [And indeed I pass by the ignoble [person that] insults me]{.trans}
 
-manut must be indefinite.
+In example (@3amal_walaqad_amurru)
+the ;manut; [اللَّئِيمِ]{.ar} is referring to a general person, and is therefore indefinite in meaning.
 
+#### A ;rabt; that links back to the ;manut; {.unnumbered}
 
-sentence must be ;xabari;
-If not ;xabari; then مقول is implied.
-[@ibn_hisham_awdah_almasaalik@ 3/278]
+In example (@3amal_quran_2_281), the ;rabt;,
+which links back to the ;manut; [يَوْمًا]{.ar},
+is the pronoun [ه]{.ar} in [فِيهِ]{.ar}.
 
+Sometimes the ;rabt; is not explicit, but is implied.
+For example:
+
+(@) [وَٱتَّقُوا۟ یَوۡمࣰا لَّا تَجۡزِی نَفۡسٌ عَن نَّفۡسࣲ شَیۡـࣰٔا]{.quran}
+    [@https://quran.com/2/123@ cited by @ibn_hisham_awdah_almasaalik@ 3/277]{.citex}  
+    [And fear a Day when no soul will suffice for another soul at all]{.trans}
+
+The implied ;rabt;
+is the pronoun [ه]{.ar} in an implied [فِيهِ]{.ar},
+i.e. [لَا تُجْزَى فِيهِ]{.ar}.
+
+#### The sentence-;na3t; should be ;xabari; {.unnumbered}
+
+The following sentence is impermissible because the ;na3t; [اضْرِبْهُ]{.ar} is a ;inshai; sentence.
+
+(@) ;x; [مَرَرْتُ بِرَجُلٍ اضْرِبْهُ]{.ar}
+    [@ibn_hisham_awdah_almasaalik@ 3/278]{.citex}  
+    [I passed by a man -- hit him]{.trans}
+    
 ### A complete sentence as a ;mudafil; in an ;idaafah;
 
 
