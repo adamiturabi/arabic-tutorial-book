@@ -9,7 +9,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "quran"
     , cit_type = "corpus"
-    , cit_text = "[القرآن]{.ar}"
+    , cit_text = ""
     , bib_text = "القرآن، " + format_url_ar("https://quran.com")
     , sort_key = "اااااا"
     ))
@@ -550,7 +550,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "peled_sentence_types"
     , cit_type = "ws_ref"
-    , cit_text = 'Peled,\\ Y., _Sentence types and word-order patterns in written Arabic_'
+    , cit_text = 'Peled, _Sentence types_'
     , bib_text = 'Peled,\\ Y., _Sentence types and word-order patterns in written Arabic: Medieval and modern perspectives_, Brill, 2008. <https://doi.org/10.1163/ej.9789004170629.i-250>'
     , sort_key = 'Peled Y Sentence types and word order patterns in written Arabic'
     ))
