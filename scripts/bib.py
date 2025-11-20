@@ -584,10 +584,44 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "marmor_tense"
     , cit_type = "ws_ref"
-    , cit_text = 'Marmorstein,\\ M., _Tense and Text in Classical Arabic_'
-    , bib_text = 'Marmorstein,\\ M., _Tense and Text in Classical Arabic_, Brill, 2016. <https://doi.org/10.1163/9789004310483>'
+    , cit_text = 'Marmorstein,\\ M., _Tense and text in Classical Arabic_'
+    , bib_text = 'Marmorstein,\\ M., _Tense and text in Classical Arabic_, Brill, 2016. <https://doi.org/10.1163/9789004310483>'
     , sort_key = 'marmorstein m tense and text in classical arabic'
     ))
-
+  resource_list.append(BibResource(
+    "odilavadze_participle"
+    , cit_type = "ws_ref"
+    , cit_text = """Odilavadze, N., _Western Scholars' Opinions on Rendering the Tense by Means of the Participle in Arabic_"""
+    , bib_text = """Odilavadze, N., "Western Scholars' Opinions on Rendering the Tense by Means of the Participle in Arabic", _IBSU Scientific Journal_ 2010, 4(1), 63-80."""
+    , sort_key = 'odilavadze n western scholars opinions on rendering the tense by means of the participle in arabic'
+    ))
+  resource_list.append(BibResource(
+    "putten_participles"
+    , cit_type = "ws_ref"
+    , cit_text = 'van Putten, M., _The morphosyntax of objects to participles in the Qurʾān_'
+    , bib_text = 'van Putten, M., "The morphosyntax of objects to participles in the Qurʾān," _Journal of Semitic Studies LXIX/1 Spring 2024_ <https://doi.org/10.1093/jss/fgad029>'
+    , sort_key = 'van putten m the morphosyntax of objects to participles in the quran'
+    ))
+  resource_list.append(BibResource(
+    "kinberg_participal"
+    , cit_type = "ws_ref"
+    , cit_text = 'Kinberg, N., _Semi-imperfectives and imperfectives: A case study of aspect and tense in Arabic participal clauses_'
+    , bib_text = 'Kinberg, N., "Semi-imperfectives and imperfectives: A case study of aspect and tense in Arabic participal clauses," _Lingua 86_ (1992) pp.\\ 301--330'
+    , sort_key = 'kinberg n semiimperfectives and imperfectives a case study of aspect and tense in arabic participal clauses'
+    ))
+  resource_list.append(BibResource(
+    "waltisberg_satzkomplex"
+    , cit_type = "ws_ref"
+    , cit_text = 'Waltisberg, M., _Satzkomplex Und Funktion_'
+    , bib_text = 'Waltisberg, M., _Satzkomplex Und Funktion: Syndese Und Asyndese Im Althocharabischen_, Harrassowitz Verlag, 2009. <https://doi.org/10.2307/j.ctvbnm2b2>'
+    , sort_key = 'waltisberg m satzkomplex und funktion'
+    ))
+  resource_list.append(BibResource(
+    "owens_participle"
+    , cit_type = "ws_ref"
+    , cit_text = 'Owens, J., and M. Yavrumyan,  "The Participle"'
+    , bib_text = 'Owens, J., and M. Yavrumyan,  "The Participle" in _Encyclopedia of Arabic Language and Linguistics_, (2007) pp.\\ 541-46, Brill.'
+    , sort_key = 'owens j and m yavrumyan the participle'
+    ))
   return resource_list
 
