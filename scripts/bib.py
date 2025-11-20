@@ -591,8 +591,8 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "odilavadze_participle"
     , cit_type = "ws_ref"
-    , cit_text = """Odilavadze, N., _Western Scholars' Opinions on Rendering the Tense by Means of the Participle in Arabic_"""
-    , bib_text = """Odilavadze, N., "Western Scholars' Opinions on Rendering the Tense by Means of the Participle in Arabic", _IBSU Scientific Journal_ 2010, 4(1), 63-80."""
+    , cit_text = """Odilavadze, N., _Western scholars' opinions on rendering the tense by means of the participle in Arabic_"""
+    , bib_text = """Odilavadze, N., "Western scholars' opinions on rendering the tense by means of the participle in Arabic", _IBSU Scientific Journal_ 2010, 4(1), 63-80. <https://journal.ibsu.edu.ge/index.php/ibsusj/article/download/143/120/0>"""
     , sort_key = 'odilavadze n western scholars opinions on rendering the tense by means of the participle in arabic'
     ))
   resource_list.append(BibResource(
@@ -619,8 +619,8 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "owens_participle"
     , cit_type = "ws_ref"
-    , cit_text = 'Owens, J., and M. Yavrumyan,  _The Participle_'
-    , bib_text = 'Owens, J., and M. Yavrumyan,  "The Participle" in _Encyclopedia of Arabic Language and Linguistics_, (2007) pp.\\ 541-46, Brill.'
+    , cit_text = 'Owens, J., and M. Yavrumyan,  _The participle_'
+    , bib_text = 'Owens, J., and M. Yavrumyan,  "The participle" in _Encyclopedia of Arabic language and linguistics_, (2007) pp.\\ 541-46, Brill.'
     , sort_key = 'owens j and m yavrumyan the participle'
     ))
   resource_list.append(BibResource(
