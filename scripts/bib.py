@@ -612,16 +612,23 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "waltisberg_satzkomplex"
     , cit_type = "ws_ref"
-    , cit_text = 'Waltisberg, M., _Satzkomplex Und Funktion_'
-    , bib_text = 'Waltisberg, M., _Satzkomplex Und Funktion: Syndese Und Asyndese Im Althocharabischen_, Harrassowitz Verlag, 2009. <https://doi.org/10.2307/j.ctvbnm2b2>'
+    , cit_text = 'Waltisberg, M., _Satzkomplex und funktion_'
+    , bib_text = 'Waltisberg, M., _Satzkomplex und funktion: Syndese und asyndese im Althocharabischen_, Harrassowitz Verlag, 2009. <https://doi.org/10.2307/j.ctvbnm2b2>'
     , sort_key = 'waltisberg m satzkomplex und funktion'
     ))
   resource_list.append(BibResource(
     "owens_participle"
     , cit_type = "ws_ref"
-    , cit_text = 'Owens, J., and M. Yavrumyan,  "The Participle"'
+    , cit_text = 'Owens, J., and M. Yavrumyan,  _The Participle_'
     , bib_text = 'Owens, J., and M. Yavrumyan,  "The Participle" in _Encyclopedia of Arabic Language and Linguistics_, (2007) pp.\\ 541-46, Brill.'
     , sort_key = 'owens j and m yavrumyan the participle'
+    ))
+  resource_list.append(BibResource(
+    "youssef_partizip"
+    , cit_type = "ws_ref"
+    , cit_text = 'Youssef, Z., _Das partizip im Arabischen_'
+    , bib_text = 'Youssef, Z., _Das partizip im Arabischen_, Ph.D. diss., University Erlangen-Nürnberg, 1990.'
+    , sort_key = 'youssef z das partizip im arabischen'
     ))
   return resource_list
 
