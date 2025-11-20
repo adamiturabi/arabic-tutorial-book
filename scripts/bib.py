@@ -401,7 +401,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[المقتصد للجرجاني]{.ar}"
     , bib_text = "المقتصد في شرح الإيضاح للجرجاني  \n      " + format_url_ar("https://archive.org/details/2271pdf_201912")
-    , sort_key = "المقتصد في شرح الايضاح للجرجاني"
+    , sort_key = "مقتصد في شرح الايضاح للجرجاني"
     ))
 
   resource_list.append(BibResource(
@@ -491,7 +491,19 @@ def populate_resource_list():
       المحقق: د. حسن شاذلي فرهود (كلية الآداب - جامعة الرياض)  
       الطبعة: الأولى، ١٣٨٩ هـ - ١٩٦٩ م.  
       """ + format_url_ar("https://shamela.ws/book/20961")
-    , sort_key = "الايضاح للفارسي"
+    , sort_key = "ايضاح للفارسي"
+    ))
+  resource_list.append(BibResource(
+    "shadi_ism_faa3il"
+    , cit_type = "ar_ref"
+    , cit_text = "[دلالة سياق اسم الفاعل في الحديث النبوي الشريف صحيح مسلم أنموذجًا لشادي محمد جميل عايش]{.ar}"
+    , bib_text = """
+      الكتاب: دلالة سياق اسم الفاعل في الحديث النبوي الشريف صحيح مسلم أنموذجًا
+      المؤلف: شادي محمد جميل عايش
+      رسالة درجة الماجستر
+      جامعة الشرق الأوسط
+      """
+    , sort_key = "دلالة سياق اسم الفاعل في الحديث النبوي الشريف صحيح مسلم"
     ))
   # Western
 
