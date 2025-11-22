@@ -62,7 +62,7 @@ map_table["3atf_bayan"] = {"clarifying follower", nil}
 
 map_table["adat_istifham"] = {"question word", nil}
 map_table["af3al"] = {"comparative noun", nil}
-map_table["af3aal_quloob"] = {"verbs of the heart", nil}
+map_table["af3aal_quloob"] = {"verbs of perception", nil}
 
 map_table["badal"] = {"substitute", nil} -- replacement, substitute
 
@@ -90,6 +90,7 @@ map_table["isnaad"] = {"sentence-completion", nil}
 
 map_table["jamid"] = {"underived", nil}
 map_table["jawab"] = {"consequence", nil}
+map_table["jawab_shart"] = {"condition-response", nil}
 map_table["j_ism"] = {"nounal sentence", nil}
 map_table["j_f3l"] = {"verbal sentence", nil}
 
