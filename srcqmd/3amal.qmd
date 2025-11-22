@@ -311,6 +311,7 @@ Here are some examples of sentences with only ;3umdah; elements:
 
 ### The ;3umdah; elements of a ;j_ism;
 
+In a ;j_ism; the ;mubtada; is hthe ;muxbar3; and the ;xabar; is the ;muxbar;.
 Consider the following ;j_ism;:
 
 (@3amal_zayd_qaimun) [زَيْدٌ قَائِمٌ]{.ar}  
@@ -335,6 +336,7 @@ and the ;xabar; is the ;muxbar;.
 
 ### The ;3umdah; elements of a ;j_f3l;
 
+In a ;j_f3l; the verb is the ;muxbar; and its ;faa3il; is the ;muxbar3;.
 Consider the following ;j_f3l;:
 
 (@3amal_qaama_zaydun) [قَامَ زَيْدٌ]{.ar}
@@ -387,9 +389,11 @@ DIAGRAM
 #### Another (non-;3umdah;) element is the initial governor {.unnumbered}
 
 The intitial governor may be internal to the sentence but not one of the two ;3umdah; elements.
+<!--
 In such cases,
 even though the initial governor is not one of the two ;3umdah; elements,
 we don't call it an ;fadlah; element.
+-->
 
 Here are some examples:
 
@@ -536,8 +540,9 @@ Therefore [يَكُنْ]{.ar} is part of the initial government.
 
 ## #;fadlah; elements
 
-A ;fadlah; element is any stateful element in a sentence that is not either of the two ;3umdah; elements,
-or part of the initial government.
+A ;fadlah; element is any stateful element in a sentence,
+after the initial government,
+that is not either of the two ;3umdah; elements.
 The source of government for 
 a ;fadlah; element must be,
 directly or indirectly,
@@ -558,6 +563,16 @@ which is a ;fadlah; element.
 If we remove it from the sentence,
 then the sentence will be complete grammatically but it will have an incorrect meaning.
 
+We know from section\ (ref) above,
+that in a ;j_ism; the ;3umdah; elements are the ;mubtada; and the ;xabar;.
+And that in
+a ;j_f3l; the ;3umdah; elements are the verb and its ;faa3il;.
+So all other elements besides these 
+(and elements that constitute the initial government)
+are ;fadlah; elements:
+
+Here is an (incomplete) list of some common ;fadlah; elements:
+<!--
 We will discuss some of ;fadlah; elements below:
 
 #### The ;astate; governees of a verb {.unnumbered}
@@ -565,7 +580,9 @@ We will discuss some of ;fadlah; elements below:
 The most prominent ;fadlah; elements are 
 all ;astate; elements that a verb governs.
 These include:
+-->
 
+* The ;na3t;
 * the ;mafulb; (usually)
 * the ;mmutlaq; (see chapter\ (ref))
 * the ;dharf_zaman; and the ;dharf_makan; (see chapter\ (ref))
@@ -585,7 +602,7 @@ then its ;mafulb; is renamed to be the ;xabar;
 
 We saw an example of this in example (@kaana_zaydun_qaaiman) above.
 -->
-
+<!--
 #### The ;mudafil; in an ;idaafah; {.unnumbered}
 
 Technically,
@@ -617,8 +634,9 @@ These include:
 * The ;badal; (see chapter\ (ref))
 * The ;tawkeed; (see chapter\ (ref))
 * The ;3atf_bayan; (see chapter\ (ref))
+-->
 
-## Defining the ;j_ism; and the ;j_f3l;
+## Refining the definitions of the ;j_ism; and the ;j_f3l;
 
 We know that there are two basic types of Arabic sentences:
 
