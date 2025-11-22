@@ -506,6 +506,16 @@ def populate_resource_list():
     , sort_key = "دلالة سياق اسم الفاعل في الحديث النبوي الشريف صحيح مسلم"
     ))
   resource_list.append(BibResource(
+    "samarrai_jumlah"
+    , cit_type = "ar_ref"
+    , cit_text = "[الجملة العربية لفاضل السامرائي]{.ar}"
+    , bib_text = """
+      الكتاب: الجملة العربية تأليفها وأقسامها 
+      المؤلف: فاضل السامرائي
+      """
+    , sort_key = "الجملة العربية لفاضل السامرايي"
+    ))
+  resource_list.append(BibResource(
     "hamid_ism_faa3il"
     , cit_type = "ar_ref"
     , cit_text = "[تحرير اسم الفاعل من مزاعم المجاراة لحامد علي أبو صعيليك]{.ar}"
@@ -516,6 +526,7 @@ def populate_resource_list():
       """ + format_url_ar("https://ketabonline.com/ar/books/105878")
     , sort_key = "تحرير اسم الفاعل من مزاعم المجاراة لحامد علي ابو صعيليك"
     ))
+
 
   # Western
 
