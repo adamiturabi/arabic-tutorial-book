@@ -27,30 +27,26 @@ Example (@3amal_mush_zaydun_yadribu_3amran) is parsed as follows:
 * [عَمْرًا]{.ar} is a ;mafulb;, governed in the ;astate; by  the verb [يَضْرِبُ]{.ar}.
 * [يَضْرِبُ عَمْرًا]{.ar} is an inner sentence which is in place of a ;ustate; noun as the ;xabar; of the ;mubtada; [زَيْدٌ]{.ar}.
 
-DIAGRAM with dotted line for rabt/3aaid
+The figure below depicts the government of this sentence:
 
-Let's consider the inner sentence
+[DIAGRAM with dotted line for rabt/3aaid]
+
+The inner sentence
 [يَضْرِبُ عَمْرًا]{.ar}.
-It is a complete sentence consisting a two ;3umdah; elements:
+is a complete sentence consisting a two ;3umdah; elements:
 
-[زَيْدٌ]{.ar}
-[يَضْرِبُ]{.ar}
-[عَمْرًا]{.ar}
-[يَضْرِبُ عَمْرًا]{.ar}
-
- i. The ;muxbar3;: the ;mustatir; singular masculine ;faa3il; pronoun of the verb [يَضْرِبُ]{.ar}
-ii. The ;muxbar;: the verb [يَضْرِبُ]{.ar}
+ i. The ;muxbar3;: the ;mustatir; ;faa3il; pronoun ([هُوَ]{.ar}) of the verb [يَضْرِبُ]{.ar}.
+ii. The ;muxbar;: the verb [يَضْرِبُ]{.ar}.
 
 The ;mafulb; [عَمْرًا]{.ar} is a ;fadlah; element.
 
 The above analysis is our starting point.
 Now we come to our discussion regarding the ;ism_fail;.
 The ;ism_fail; is technically a noun.
-But because of it derivation from the verb, it has some verbal qualities.
-
+But because it is derived from a verb, it has some verbal qualities.
 Instead of using the verb [يَضْرِبُ]{.ar} in example (@3amal_mush_zaydun_yadribu_3amran) above
 we may instead use its ;ism_fail;
-[ضَارِب], thus:
+[ضَارِب]{.ar}, thus:
 
 (@3amal_mush_zaydun_daaribun_3amran) [زَيْدٌ ضَارِبٌ عَمْرًا]{.ar}  
     [Zayd beats [#amr]{.trn2}]{.trans}
@@ -58,7 +54,7 @@ we may instead use its ;ism_fail;
 For now, we have translated examples (@3amal_mush_zaydun_yadribu_3amran) and (@3amal_mush_zaydun_daaribun_3amran)
 identically:
 [Zayd beats [#amr]{.trn2}]{.trans}.
-But actually the ;ism_fail; can signify a different meaning from the ;mudarie; verb.
+But actually the ;ism_fail; can signify a somewhat different meaning from the ;mudarie; verb.
 We wil study the meaning implications of using an ;ism_fail; instead of a verb in more detail in chapter\ (ref).
 For now, let's focus on the grammar of the new sentence.
 Example (@3amal_mush_zaydun_daaribun_3amran) is parsed as follows:
@@ -71,6 +67,34 @@ Example (@3amal_mush_zaydun_daaribun_3amran) is parsed as follows:
 
 Let's note some similarities and differences in the analyses of 
 examples (@3amal_mush_zaydun_yadribu_3amran) and (@3amal_mush_zaydun_daaribun_3amran):
+
+Some similarities:
+
+* [زَيْدٌ]{.ar} is the ;mubtada; of a ;j_ism;.
+* Both [يَضْرِبُ]{.ar} and [ضَارِبٌ]{.ar} govern a ;mustatir; ;faa3il; pronoun (implicated as [هُوَ]{.ar}).
+* Both [يَضْرِبُ]{.ar} and [ضَارِبٌ]{.ar} govern the ;mafulb; [عَمْرًا]{.ar}.
+
+The difference:
+
+* In example (@3amal_mush_zaydun_yadribu_3amran),
+  the ;xabar; of [زَيْدٌ]{.ar} is the inner sentence [يَضْرِبُ عَمْرًا]{.ar}.
+
+  But in example (@3amal_mush_zaydun_daaribun_3amran):
+  the ;xabar; of [زَيْدٌ]{.ar} is the single noun [ضَارِبٌ]{.ar}.
+  Even though [ضَارِبٌ]{.ar} governs a ;faa3il; ([هُوَ]{.ar}).
+  it does not form a complete sentence with its ;faa3il; (unlike [يَضْرِبُ]{.ar}).
+
+This difference is essential to understand to what degree the ;ism_fail; can act like a verb-like governor.
+The ;ism_fail;, with its ;faa3il;, does not, in most circumstances, constitute a complete sentence.
+^[sharh alfiyyah Haazimi 30/5. But see also Peled 207]
+
+<!--
+
+[زَيْدٌ]{.ar}
+[يَضْرِبُ]{.ar}
+[ضَارِبٌ]{.ar}
+[عَمْرًا]{.ar}
+[يَضْرِبُ عَمْرًا]{.ar}
 
 
 
@@ -104,9 +128,6 @@ The single word DAribun itself is the ;xabar; of zaydun.
 The two ;3umdah; elements are:
 zayd (the ;muxbar3;), and DAribun (the ;muxbar;).
 The ;mustatir; singular masculine ;faa3il; pronoun) does not make an inner sentence with its governor DAribun.
-<!--
-We can understanding this by seeing that we can say 
--->
 So
 yaDribu 3amran
 as a complete sentence to mean "He beat 3amr."
@@ -126,7 +147,7 @@ This is similar to:
 (@) kaana zaydun muntaliqan
 
 where muntaliqan, as a sinle noun, is the ;xabar; of kaana.^[But see also Peled 207]
-
+-->
 <!--
 Nevertheless,
 the ;mustatir; ;faa3il; pronoun is an integral part of the ;ism_fail; DArib and is governed by it in the ;ustate;.
