@@ -10,41 +10,70 @@ In this chapter we will study their ability to govern a ;faa3il; or a ;maful;.
 
 ## The ;ism_fail; as a governor
 
-Consider the verb
-yaDribu.
-For example:
+Before we discuss
+the ;ism_fail; as a verb-like governor,
+we will discuss, as our starting point, the verb as a governor.
+Consider the following example:
 
-(@) zaydun yaDribu 3amran
+(@3amal_mush_zaydun_yadribu_3amran) [زَيْدٌ يَضْرِبُ عَمْرًا]{.ar}  
+    [Zayd beats [#amr]{.trn2}]{.trans}
 
-The sentence is parsed as follows:
-* zaydun is a ;mubtada;
-* The ;xabar; of zaydun is the inner sentence yaDribu 3amran
-* yaDribu is a ;ustate; verb. It governs its a singular masculine ;mustatir; pronoun in the ;ustate; as its ;faa3il;.
-  The ;mustatir; pronoun refers back to the mubtada.
-* 3amran is a ;mafulb; governed in the ;astate; by yaDribu.
+Example (@3amal_mush_zaydun_yadribu_3amran) is parsed as follows:
 
+* [زَيْدٌ]{.ar} is a ;mubtada;.
+* [يَضْرِبُ]{.ar} is a ;mudarie; verb in the ;ustate;.
+  It governs a ;mustatir; pronoun (implicated as [هُوَ]{.ar}) in the ;ustate; as its ;faa3il;. 
+  The ;mustatir; ;faa3il; pronoun [هُوَ]{.ar} refers back to the ;mubtada; [زَيْدٌ]{.ar}.
+* [عَمْرًا]{.ar} is a ;mafulb;, governed in the ;astate; by  the verb [يَضْرِبُ]{.ar}.
+* [يَضْرِبُ عَمْرًا]{.ar} is an inner sentence which is in place of a ;ustate; noun as the ;xabar; of the ;mubtada; [زَيْدٌ]{.ar}.
 
 DIAGRAM with dotted line for rabt/3aaid
 
 Let's consider the inner sentence
-yaDribu 3amran
+[يَضْرِبُ عَمْرًا]{.ar}.
 It is a complete sentence consisting a two ;3umdah; elements:
 
- i. The ;muxbar3;: the singular masculine ;faa3il; pronoun of the verb yaDribu
-ii. The ;muxbar;: the verb yaDribu
+[زَيْدٌ]{.ar}
+[يَضْرِبُ]{.ar}
+[عَمْرًا]{.ar}
+[يَضْرِبُ عَمْرًا]{.ar}
 
-The ;mafulb; is a ;fadlah; element, and the inner sentence will be grammatically complete without it.
+ i. The ;muxbar3;: the ;mustatir; singular masculine ;faa3il; pronoun of the verb [يَضْرِبُ]{.ar}
+ii. The ;muxbar;: the verb [يَضْرِبُ]{.ar}
+
+The ;mafulb; [عَمْرًا]{.ar} is a ;fadlah; element.
 
 The above analysis is our starting point.
 Now we come to our discussion regarding the ;ism_fail;.
 The ;ism_fail; is technically a noun.
 But because of it derivation from the verb, it has some verbal qualities.
 
-Instead of using the verb yaDribu in example () above
+Instead of using the verb [يَضْرِبُ]{.ar} in example (@3amal_mush_zaydun_yadribu_3amran) above
 we may instead use its ;ism_fail;
-DArib, thus:
+[ضَارِب], thus:
 
-(@) zaydun DAribun 3amran
+(@3amal_mush_zaydun_daaribun_3amran) [زَيْدٌ ضَارِبٌ عَمْرًا]{.ar}  
+    [Zayd beats [#amr]{.trn2}]{.trans}
+
+For now, we have translated examples (@3amal_mush_zaydun_yadribu_3amran) and (@3amal_mush_zaydun_daaribun_3amran)
+identically:
+[Zayd beats [#amr]{.trn2}]{.trans}.
+But actually the ;ism_fail; can signify a different meaning from the ;mudarie; verb.
+We wil study the meaning implications of using an ;ism_fail; instead of a verb in more detail in chapter\ (ref).
+For now, let's focus on the grammar of the new sentence.
+Example (@3amal_mush_zaydun_daaribun_3amran) is parsed as follows:
+
+* [زَيْدٌ]{.ar} is a ;mubtada;.
+* [ضَارِبٌ]{.ar} is the ;xabar; of the ;mubtada; [زَيْدٌ]{.ar}.
+  It governs a ;mustatir; pronoun (implicated as [هُوَ]{.ar}) in the ;ustate; as its ;faa3il;. 
+  The ;mustatir; ;faa3il; pronoun [هُوَ]{.ar} refers back to the ;mubtada; [زَيْدٌ]{.ar}.
+* [عَمْرًا]{.ar} is a ;mafulb;, governed in the ;astate; by the ;ism_fail; [ضَارِبٌ]{.ar}.
+
+Let's note some similarities and differences in the analyses of 
+examples (@3amal_mush_zaydun_yadribu_3amran) and (@3amal_mush_zaydun_daaribun_3amran):
+
+
+
 
 Using the ;ism_fail; instead of the verb affects the meaning of the sentence.
 Using DArib instead of yaDrib can be seen as asserting the fact that Zayd is beating 3amr.
