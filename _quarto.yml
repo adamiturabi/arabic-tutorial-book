@@ -43,8 +43,10 @@ book:
     #- content/additional_forms.qmd
     - content/3amal.qmd
     - content/ta3alluq_harf_jarr.qmd
-    - content/3amal_verbal_nouns.qmd
-    - content/ism_fail.qmd
+    - content/3amal_mushtaqqaat.qmd
+    - content/idafah_lafziyyah.qmd
+    - content/ma3aani_ism_faa3il.qmd
+    - content/3amal_masdar.qmd
     #- content/kaana.qmd
     #- content/inna_and_its_sisters.qmd
     #- content/dharf.qmd
@@ -53,7 +55,6 @@ book:
     #- content/ism_mawsuul.qmd
     #- content/istifhaam.qmd
     #- content/ism_faa3il.qmd
-    - content/idafah_lafziyyah.qmd
     - content/refs.qmd
     #- content/ack.qmd
 
