@@ -526,7 +526,18 @@ def populate_resource_list():
       """ + format_url_ar("https://ketabonline.com/ar/books/105878")
     , sort_key = "تحرير اسم الفاعل من مزاعم المجاراة لحامد علي ابو صعيليك"
     ))
-
+  resource_list.append(BibResource(
+    "taftazani_mukhtasar_maani"
+    , cit_type = "ar_ref"
+    , cit_text = "[مختصر المعاني للتفتازاني]{.ar}"
+    , bib_text = """
+      الكتاب: مختصر المعاني )مختصر لشرح تلخيص المفتاح(
+      المؤلف: سعد الدين مسعود بن عمر بن عبد الله التفتازاني الشافعي )المتوفى: 793 هـ(
+      الناشر: دار الفكر - قم
+      الطبعة: الأولى، 1411 هـ
+      """ + format_url_ar("https://ketabonline.com/ar/books/16360")
+    , sort_key = "مختصر المعاني للتفتازاني"
+    ))
 
   # Western
 

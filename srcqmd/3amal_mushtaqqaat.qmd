@@ -299,7 +299,7 @@ DIAGRAM (pronoun points to rajulan)
 The ;mustatir; ;faa3il; pronoun points back to its referent rajul.
 
 <!--
-## Substituting the ;mustatir; ;faa3il; pronoun with an apparent noun
+## Substituting the ;mustatir; ;faa3il; pronoun with an ;zaahir; noun
 -->
 
 ## The ;mustatir; ;faa3il; pronoun can become ;zaahir;
@@ -318,7 +318,7 @@ This grammar is parsed as follows:
 * The pronoun [هُ]{.ar} is a ;mudafil;.
 * The inner sentence [الْحِصَانُ مُتْبِعُهُ]{.ar} is the ;xabar; of the ;mubtada; ([الْفَارِسُ]{.ar}) of outer sentence.
 
-The ;xabar; of the inner sentence [مُتْبِع]{.a} [one who makes tired]{.trans}
+The ;xabar; of the inner sentence [مُتْبِع]{.ar} [one who makes tired]{.trans}
 has a ;mustatir; ;faa3il; pronoun, implicated as [[هُوَ]{.ar}].
 It is possible for this ;mustatir; ;faa3il; pronoun
 to refer to either 
@@ -327,7 +327,8 @@ or
 [الْحِصَانُ]{.ar}.
 Let's discuss both these meanings:
 
- i. If it refers to 
+ i. If
+    the ;mustatir; ;faa3il; pronoun [[هُوَ]{.ar}] in
     [الْحِصَانُ]{.ar}
     then the meaning is that
     [the horse makes the horseman tired]{.trans}.
@@ -348,8 +349,46 @@ ii. And if
 Both meanings are possible.
 
 If only the second meaning is desired,
-then 
+then the ;mustatir; ;faa3il; pronoun [[هُوَ]{.ar}] can be made ;zaahir; and added after the ;ism_fail; [مُتْبِع]{.ar}, thus:
 
+(@) [الفارس الحصانُ مُتْعِبُه **هُوَ**]{.ar}
+    [@nahw_wafi@ 1/464]{.citex}  
+    [The horseman -- the horse -- [he] makes him tired.]{.trans}  
+    (i.e. [The horseman makes the horse tired.]{.trans})
+
+Now only the second meaning is possible.
+If the first meaning is desired, the ;faa3il; pronoun of 
+[مُتْبِع]{.ar}
+must stay ;mustatir; and the ambiguity will remain.
+
+By the way, the ambiguity arose in the original sentence
+([الفارس الحصانُ مُتْعِبُه]{.ar})
+only because both ;mubtada;s
+([الْفَارِسُ]{.ar}
+and
+[الْحِصَانُ]{.ar})
+are singular masculine nouns.
+If the two ;mubtada;s are distinguishable in number or gender then there will be no ambiguity.
+However, even in this case,
+according to some grammarians,
+if the ;xabar; is to refer to the ;mubtada; of the outer sentence,
+then the ;faa3il; pronoun of the ;ism_fail; in the ;xabar; should be made ;zaahir;.
+For example:
+
+(@) [زَيْدٌ هِنْدٌ ضَارِبُهَا **هُوَ**]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/207](https://shamela.ws/book/9904/206#p1)]{.citex}  
+    [Zayd -- Hind -- [he] beats her.]{.trans}  
+    (i.e. [Zayd beats Hind.]{.trans})
+
+But according to other grammarians, 
+because [ضَارِب]{.ar} can refer only to Zayd and not to Hind,
+the ;ism_fail;'s ;faa3il; pronoun can remain latent,^[[@ibn_aqil_alfiyyah@ 1/207](https://shamela.ws/book/9904/206#p1)] thus:
+
+(@) [زَيْدٌ هِنْدٌ ضَارِبُهَا]{.ar}   
+    [Zayd -- Hind -- [he] beats her.]{.trans}  
+    (i.e. [Zayd beats Hind.]{.trans})
+
+<!--
 (@) [زَيْدٌ عَمْرٌو ضَارِبُهُ]{.ar}
     [@ibn_aqil_alfiyyah@ 1/208]{.citex}  
 
@@ -357,42 +396,83 @@ This sentence can have two different meanings:
 
  i. [Zayd -- [#eamr]{.trn2} beats him]{.trans}
 ii. [Zayd -- [#eamr]{.trn2} beats him]{.trans}
+-->
 
 ## The ;sababi; ;xabar;
 
-Consider again example () zaydun yaDribu 3amran.
-From this original sentence, we replaced the verb yaDribu with its ;ism_fail; and came up with example () zaydun DAribun 3amran.
+Another circumstance, in which the originally ;mustatir; ;faa3il; pronoun of an ;ism_fail; can be made ;zaahir; is in the case of a ;sababi; ;xabar;.
+
+
+<!--
+[Zayd beats [#amr]{.trn2}]{.trans}
+-->
+
+Consider again example (@3amal_mush_zaydun_yadribu_3amran) [زَيْدٌ يَضْرِبُ عَمْرًا]{.ar}.
+From this original sentence, we replaced the verb 
+[يَضْرِبُ]{.ar}
+with its ;ism_fail; and came up with
+(@3amal_mush_zaydun_daaribun_3amran) [زَيْدٌ ضَارِبٌ عَمْرًا]{.ar}.
 
 Now consider the following example:
 
-(@) zaydun yaDribu aBuuhu 3amran
-    Zayd: his father is beating 3amr.
+(@3amal_mush_zaydun_yadribu_aboohu_3amran) [زَيْدٌ يَضْرِبُ أَبُوهُ عَمْرًا]{.ar}  
+    [Zayd -- his father beats [#eamr]{.trn2}]{.trans}
 
-In example () the ;faa3il; of yaDribu is not Zayd but Zayd's father.
+In example (@3amal_mush_zaydun_yadribu_aboohu_3amran) above
+the ;faa3il; of 
+[يَضْرِبُ]{.ar}
+is not Zayd but Zayd's father.
 If we use this sentence as our starting point,
-we can again replace the verb yaDrib with its ;ism_fail; DArib and say:
+we can again replace the verb
+[يَضْرِبُ]{.ar}
+with its ;ism_fail; 
+[ضَارِبٌ]{.ar}
+and say:
 
-(@) zaydun DAribun aBuuhu 3amran
-    Zayd: his father is beating 3amr.
+(@3amal_mush_zaydun_daaribun_aboohu_3amran) [زَيْدٌ ضَارِبٌ أَبُوهُ عَمْرًا]{.ar}  
+    [Zayd -- his father beats [#eamr]{.trn2}]{.trans}
 
-So just like a verb can have an apparent noun as its ;faa3il; instead of a ;mustatir; pronoun,
-so too can the ;ism_fail; have an apparent noun as its ;faa3il; instead of a ;mustatir; pronoun.
+[أَبُوهُ]{.ar} is the (;zaahir;) ;faa3il; of the ;ism_fail;
+[ضَارِبٌ]{.ar}.
+And [عَمْرًا]{.ar} is its ;mafulb;.
+So just like a verb can have an ;zaahir; noun as its ;faa3il; instead of a ;mustatir; pronoun,
+so too can the ;ism_fail; have an ;zaahir; noun as its ;faa3il; instead of a ;mustatir; pronoun.
 
-And again, there is one important difference between using the verb (yaDrib) vs using its ;ism_fail; (DArib).
+Again, there is one important difference between using the verb
+[يَضْرِبُ]{.ar}
+vs using its ;ism_fail; 
+[ضَارِبٌ]{.ar}.
 And that is that 
-yaDrib abuuhu 3amran
+[يَضْرِبُ أَبُوهُ عَمْرًا]{.ar}
+in example (@3amal_mush_zaydun_yadribu_aboohu_3amran)
 is a complete sentence.
+This inner sentence is the ;xabar; of the outer sentence.
+Therefore, example (@3amal_mush_zaydun_yadribu_aboohu_3amran) is a compound sentence.
+
+However,
+[ضَارِبٌ أَبُوهُ عَمْرًا]{.ar}
+in example (@3amal_mush_zaydun_daaribun_aboohu_3amran) 
+is not a complete sentence.
+[ضَارِبٌ]{.ar}
+itself, as a single word, is the ;xabar; of the ;mubtada; [زَيْدٌ]{.ar}.^[[@taftazani_mukhtasar_maani@ 86](https://ketabonline.com/ar/books/16360/read?part=1&page=82&index=72272/72275)]
+So example (@3amal_mush_zaydun_daaribun_aboohu_3amran) [زَيْدٌ ضَارِبٌ أَبُوهُ عَمْرًا]{.ar}
+is not a compound sentence.
+
+<!--
 In example () it is an inner sentence as the ;xabar; of the outer sentence.
 Therefore () zaydun yaDrib abuuhu 3amran is a compound sentence.
 But DAribun abuuhu 3amran is not a complete sentence by itself.
 Rather DAribun comprises the ;xabar; as a single word.^[subki, mukhtasar al-ma3aani lil-taftaazaani 86]
 So () zaydun DAribun aBuuhu 3amran is not a compound sentence.
+-->
 
 This kind of a ;xabar;
 <!--
 where the ;faa3il; of the ;xabar; (abuhu) does not refer to the same person as the ;mubtada; (zaydun),
 -->
-where the ;xabar; (DAribun) expresses a property,
+where the ;xabar;
+([ضَارِبٌ]{.ar} in this example)
+expresses a property,
 not directly about the ;mubtada; (Zayd) but someone linked to the ;mubtada; (Zayd's father),
 is called a ;sababi; ;xabar;.^[<https://alababmisr.com/%D8%A7%D9%84%D8%AE%D8%A8%D8%B1-%D8%A7%D9%84%D8%B3%D8%A8%D8%A8%D9%8A-%D8%AF-%D9%88%D8%AC%D9%8A%D9%87%D8%A9-%D8%A7%D9%84%D8%B3%D8%B7%D9%84/>, see also 3uroos al-afraa7 lil-subki 1/314]
 
@@ -402,6 +482,21 @@ This can be made clear by looking at the following example:
 (@) kaana zaydun muntaliqan
 
 -->
+
+### Varying the number or gender of the ;zaahir; ;faa3il; of the ;sababi; ;xabar;
+
+Here is another example of a sentence with a ;sababi; ;xabar;:
+
+(@) [كَانَ زَيْدٌ مُنْطَلِقٌ أَبُوهُ]{.ar}
+    [@peled_sentence_types@ 208]{.citex}  
+    [Zayd -- his father was setting out.]{.trans}
+
+In example (@3amal_mush_zaydun_daaribun_aboohu_3amran) [زَيْدٌ ضَارِبٌ أَبُوهُ عَمْرًا]{.ar}
+above,
+the ;zaahir; ;faa3il; of the [ضَارِبٌ]{.ar} is the singular masculine noun [أَبُوه]{.ar} [his father]{.trans}.
+
+Let's see what happend when
+we vary the number or gender of this ;zaahir; ;faa3il; of the ;sababi; ;xabar;
 
 Similarly, we can say:
 
@@ -440,7 +535,7 @@ For example:
 
 (@) kaana al-zaydUna qiyaaman aabaauhum
 
-By the way, when the ;faa3il; of the ;ism_fail; is an apparent noun,
+By the way, when the ;faa3il; of the ;ism_fail; is an ;zaahir; noun,
 there is a non-;sababi; way to form the sentence.
 And that is to consider the ;ism_fail; the fronted ;xabar; of an inner sentence, thus:
 
@@ -496,7 +591,7 @@ The ;mubtada; acts an supporting element for the ;ism_fail;.
 
 From the discussion above,
 we can see that the ;ism_fail; typically governs a ;faa3il; that occurs after it in sentence word-order.
-This ;faa3il; is usually ;mustatir; but can be apparent, for example in ;sababi; sentences.
+This ;faa3il; is usually ;mustatir; but can be ;zaahir;, for example in ;sababi; sentences.
 There are, however, some cases where the ;ism_fail; will not have a ;faa3il;.
 These are:
 
@@ -853,7 +948,7 @@ This is in the following cases:
 When the ;ism_fail; is used as a common noun.
 
 
-## Replacing the ;mustatir; ;faa3il; pronoun with an apparent noun
+## Replacing the ;mustatir; ;faa3il; pronoun with an ;zaahir; noun
 
 zaydun hindun DAribuhaa huwa
 
@@ -875,7 +970,7 @@ And again it is the reason why the ;ism_fail; gets a mark of femininity to match
 
 DIAGRAM use [hiya] as implicated faa3il.
 
-Now, just like the ;mustatir; faa3il pronoun can replaced with an apparent noun when it is a xabar,
+Now, just like the ;mustatir; faa3il pronoun can replaced with an ;zaahir; noun when it is a xabar,
 so too
 
 ** Important ** : Hidden pronoun requires gender matching of ism_fail to its mufassir
