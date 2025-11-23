@@ -23,7 +23,7 @@ Example (@3amal_mush_zaydun_yadribu_3amran) is parsed as follows:
 * [زَيْدٌ]{.ar} is a ;mubtada;.
 * [يَضْرِبُ]{.ar} is a ;mudarie; verb in the ;ustate;.
   It governs a ;mustatir; pronoun (implicated as [هُوَ]{.ar}) in the ;ustate; as its ;faa3il;. 
-  The ;mustatir; ;faa3il; pronoun [هُوَ]{.ar} refers back to the ;mubtada; [زَيْدٌ]{.ar}.
+  The ;mustatir; ;faa3il; pronoun [هُوَ]{.ar} refers back to its referent: the ;mubtada; [زَيْدٌ]{.ar}.
 * [عَمْرًا]{.ar} is a ;mafulb;, governed in the ;astate; by  the verb [يَضْرِبُ]{.ar}.
 * [يَضْرِبُ عَمْرًا]{.ar} is an inner sentence which is in place of a ;ustate; noun as the ;xabar; of the ;mubtada; [زَيْدٌ]{.ar}.
 
@@ -87,7 +87,10 @@ The difference:
   it does not form a complete sentence with its ;faa3il; (unlike [يَضْرِبُ]{.ar}).
 
 This difference is important to note in order to understand to what degree the ;ism_fail; can act like a verb-like governor.
-The ;ism_fail;, with its ;faa3il;, does not, in most circumstances, constitute a complete sentence.
+The ;ism_fail; with its ;faa3il;
+([ضَارِبٌ]{.ar} and [[هُوَ]{.ar}]
+in this example),
+does not, in most circumstances, constitute a complete sentence.
 
 <!--
 
@@ -162,28 +165,87 @@ we stated that the ;ism_fail;
 has a ;mustatir; ;faa3il; pronoun
 (implicated as [هُوَ]{.ar}).
 
+<!--
 The ;ism_fail; requires a ;faa3il; whenever it is acting in a verb-like capacity.
 This includes when the ;ism_fail; is used as a ;sifah;,
 like qaaim "standing".
 This is because the ;sifah; meaning of an ;ism_fail; is derived from its verbal meaning
 (qaama yaqoom "he stands").
+-->
 
+The ;ism_fail; will thus usually have
+a ;mustatir; ;faa3il; pronoun with it.
 So, for example, if we say:
 
-(@) zaydun qaaimun
+(@) [زَيْدٌ قَائِمٌ]{.ar}  
+    [Zayd is standing.]{.trans}
 
-then qaaimun has a ;mustatir; ;faa3il; pronoun attached after it, just like if we had said
-zaydun yaqoom.
-This ;faa3il; pronoun points back to the ;mubtada; zaydun.
+then [قَائِمٌ]{.ar} has a ;mustatir; ;faa3il; pronoun [[هُوَ]{.ar}] attached after it, just like if we had said
+[زَيْدٌ يَقُومُ]{.ar}.
+This ;faa3il; pronoun refers back to its referent: the ;mubtada; [زَيْدٌ]{.ar}.
 
 DIAGRAM
 
-The fact that the verbal/adjectival ;ism_fail; requires a ;faa3il;
+Similarly, if we say:
+
+(@) [صَاحَ الرَّجُلُ الْقَائِمُ]{.ar}  
+    [The standing man shouted.]{.trans}
+
+then [الْقَائِمُ]{.ar} has a ;mustatir; ;faa3il; pronoun [[هُوَ]{.ar}] attached after it, that refers back to [الرَّجُلُ]{.ar}.
+
+The fact that the ;ism_fail; requires a ;faa3il;
 is,
 in fact,
-the reason why a ;ism_fail; (when used with its verbal/adjectival meaning) in the ;xabar; will match the ;mubtada; in gender.^[drvaniya]
+the reason why a ;ism_fail; in the ;xabar; will match the ;mubtada; in gender.^[[Non-agreement of Mubtada and Khabar](https://drvaniya.com/wp-content/uploads/2016/12/Q33-Non-agreement-of-Mubtada-and-Khabar.pdf)]
 
-hindun qaaimatun
+For example, if we say:
+
+(@) [هِنْدٌ قَائِمَةٌ]{.ar}  
+    [Hind is standing.]{.trans}
+
+then the feminine marker [ة]{.ar} is added to the ;ism_fail; [قَائِم]{.ar} only because it has to match the feminine gender of the ;mustatir; ;faa3il; pronoun [[هِيَ]{.ar}] that is attached to the ;ism_fail;.
+(The ;mustatir; ;faa3il; pronoun [[هِيَ]{.ar}] refers back to [هِنْد]{.ar}.)
+
+<!--
+This is analagous to when a ;madi; verb has a feminine ;faa3il;. 
+The [ت]{.ar} of femininity is appended to the verb in order to match the gender of the ;faa3il;.
+For example:
+
+(@) [هِنْدٌ قَامَتْ]{.ar}
+-->
+
+When the referent of the ;mustatir; ;faa3il; pronoun changes for number or gender,
+then the ;mustatir; ;faa3il; pronoun will change to match it.
+For example:
+
+(@3amal_mush_zaydaan_qaaimaan) [الزَّيْدَانِ قَائِمَانِ]{.ar}
+    [[@sabban@ 1/291](https://shamela.ws/book/11539/288#p1)]{.citex}  
+    [The two Zayds are standing.]{.trans}
+
+(@3amal_mush_zaydoon_qaaimoon) [الزَّيْدُونَ قَائِمُونَ]{.ar}
+    [[@sabban@ 1/291](https://shamela.ws/book/11539/288#p1)]{.citex}  
+    [The Zayds are standing.]{.trans}
+
+In example (@3amal_mush_zaydaan_qaaimaan) above,
+the ;mustatir; ;faa3il; pronoun of [قَائِمَانِ]{.ar} is implicated as [هُمَا]{.ar}.
+
+And in example (@3amal_mush_zaydoon_qaaimoon) 
+the ;mustatir; ;faa3il; pronoun of [قَائِمُونَ]{.ar} is implicated as [هُمْ]{.ar}.
+
+But as a point of technicality,
+the alif in the dual suffix of [قَائِمَانِ]{.ar} and the [و]{.ar} in the plural suffix of [قَائِمُونَ]{.ar}, are not themselves the ;faa3il; pronouns.
+This is because, 
+[قَائِمَانِ]{.ar} and 
+[قَائِمُونَ]{.ar},
+even with their ;mustatir; ;faa3il; pronouns
+are still considered single words,
+from the perspective of sentence completion.^[haazimi 30/5 <https://shamela.ws/book/36130/531>]
+
+This is different from verbs, where alif for the dual and [و]{.ar} for the plural are themselves the ;faa3il; pronouns.
+So [يَقُومَانِ]{.ar} and [يَقُومُونَ]{.ar} are both complete sentences comprised of two ;3umdah; elements:
+the verb and its ;faa3il;.
+
+### END SECTION
 
 DIAGRAM
 
@@ -239,6 +301,62 @@ The ;mustatir; ;faa3il; pronoun points back to its referent rajul.
 <!--
 ## Substituting the ;mustatir; ;faa3il; pronoun with an apparent noun
 -->
+
+## The ;mustatir; ;faa3il; pronoun can become ;zaahir;
+
+The ;mustatir; ;faa3il; pronoun becomes ;zaahir; in some circumstances.
+Consider the sentence:
+
+(@) [الفارس الحصانُ مُتْعِبُه]{.ar}
+    [@nahw_wafi@ 1/463]{.citex}  
+
+This grammar is parsed as follows:
+
+* [الْفَارِسُ]{.ar} is the ;mubtada; of the outer sentence.
+* [الْحِصَانُ]{.ar} is a second ;mubtada;. It is the ;mubtada; of the inner sentence.
+* [مُتْبِع]{.ar} is the ;xabar; of the inner sentence. It is also a ;mudaf;.
+* The pronoun [هُ]{.ar} is a ;mudafil;.
+* The inner sentence [الْحِصَانُ مُتْبِعُهُ]{.ar} is the ;xabar; of the ;mubtada; ([الْفَارِسُ]{.ar}) of outer sentence.
+
+The ;xabar; of the inner sentence [مُتْبِع]{.a} [one who makes tired]{.trans}
+has a ;mustatir; ;faa3il; pronoun, implicated as [[هُوَ]{.ar}].
+It is possible for this ;mustatir; ;faa3il; pronoun
+to refer to either 
+[الْفَارِسُ]{.ar}
+or
+[الْحِصَانُ]{.ar}.
+Let's discuss both these meanings:
+
+ i. If it refers to 
+    [الْحِصَانُ]{.ar}
+    then the meaning is that
+    [the horse makes the horseman tired]{.trans}.
+    In this case, 
+    the pronoun [هُ]{.ar} in [مُتْبِعُهُ]{.ar} refers to 
+    [الْفَارِسُ]{.ar}.
+    
+ii. And if 
+    the ;mustatir; ;faa3il; pronoun [[هُوَ]{.ar}] in
+    [مُتْبِع]{.ar} refers to
+    [الْفَارِسُ]{.ar}
+    then the meaning is that
+    [the horseman makes the horse tired]{.trans}.
+    In this case, 
+    the pronoun [هُ]{.ar} in [مُتْبِعُهُ]{.ar} refers to 
+    [الْحِصَانُ]{.ar}.
+
+Both meanings are possible.
+
+If only the second meaning is desired,
+then 
+
+(@) [زَيْدٌ عَمْرٌو ضَارِبُهُ]{.ar}
+    [@ibn_aqil_alfiyyah@ 1/208]{.citex}  
+
+This sentence can have two different meanings:
+
+ i. [Zayd -- [#eamr]{.trn2} beats him]{.trans}
+ii. [Zayd -- [#eamr]{.trn2} beats him]{.trans}
 
 ## The ;sababi; ;xabar;
 
