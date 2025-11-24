@@ -531,14 +531,35 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[مختصر المعاني للتفتازاني]{.ar}"
     , bib_text = """
-      الكتاب: مختصر المعاني )مختصر لشرح تلخيص المفتاح(
-      المؤلف: سعد الدين مسعود بن عمر بن عبد الله التفتازاني الشافعي )المتوفى: 793 هـ(
+      الكتاب: مختصر المعاني (مختصر لشرح تلخيص المفتاح)
+      المؤلف: سعد الدين مسعود بن عمر بن عبد الله التفتازاني الشافعي (المتوفى: 793 هـ)
       الناشر: دار الفكر - قم
       الطبعة: الأولى، 1411 هـ
       """ + format_url_ar("https://ketabonline.com/ar/books/16360")
     , sort_key = "مختصر المعاني للتفتازاني"
     ))
-
+  resource_list.append(BibResource(
+    "suyooti_ashbaah"
+    , cit_type = "ar_ref"
+    , cit_text = "[الأشباه والنظائر للسيوطي]{.ar}"
+    , bib_text = """
+      الكتاب: الأشباه والنظائر في قواعد وفروع فقه الشافعية
+      المؤلف: جلال الدين عبد الرحمن السيوطي (ت ٩١١ هـ)
+      الناشر: دار الكتب العلمية
+      الطبعة: الأولى، ١٤٠٣ هـ - ١٩٨٣ م
+      """ + format_url_ar("https://archive.org/details/ashbhnzer1/ashbhnzer0/")
+    , sort_key = "اشباه والنظاير للسيوطي"
+    ))
+  resource_list.append(BibResource(
+    "baseet_ibn_abi_rabee3"
+    , cit_type = "ar_ref"
+    , cit_text = "[البسيط لابن أبي الربيع]{.ar}"
+    , bib_text = """
+      البسيط في شرح جُمَل الزجاجي
+      ابن أبي الربيع
+      """ + format_url_ar("https://archive.org/details/0969pdf_201912/")
+    , sort_key = "البسيط لابن ابي الربيع"
+    ))
   # Western
 
   resource_list.append(BibResource(
