@@ -86,76 +86,82 @@ The difference:
   Even though [ضَارِبٌ]{.ar} governs a ;faa3il; (an implicated [هُوَ]{.ar}).
   it does not form a complete sentence with its ;faa3il; (unlike [يَضْرِبُ]{.ar}).
 
-This difference is important to note in order to understand to what degree the ;ism_fail; can act like a verb-like governor.
+<!--
+This difference is important to note in order to understand in what manner the ;ism_fail; can act like a verb-like governor.
 The ;ism_fail; with its ;faa3il;
 ([ضَارِبٌ]{.ar} and [[هُوَ]{.ar}]
 in this example),
 does not, in most circumstances, constitute a complete sentence.
+We will elaborate on this in the next section.
+-->
 
-<!--
+## Differences between the ;faa3il; of a verb and the ;faa3il; of a ;ism_fail;
 
-[زَيْدٌ]{.ar}
-[يَضْرِبُ]{.ar}
+In example (@3amal_mush_zaydun_daaribun_3amran) [زَيْدٌ ضَارِبٌ عَمْرًا]{.ar}
+we stated that the ;ism_fail;
 [ضَارِبٌ]{.ar}
-[عَمْرًا]{.ar}
-[يَضْرِبُ عَمْرًا]{.ar}
+has a ;mustatir; ;faa3il; pronoun
+(implicated as [هُوَ]{.ar}).
+In this respect, it is similar to a verb.
+Because a verb is always followed by its ;faa3il;.
 
+But there are some differences between
+between the ;faa3il; of a verb and the ;faa3il; of a ;ism_fail;:
 
+Firstly, the ;ism_fail; governs a ;faa3il; in most circumstances, but not in all circumstances.
+In contrast, a verb always governs a ;faa3il;.
+(We will discuss the conditions under which a ;ism_fail; governs a ;faa3il; in section (ref) below.)
 
+Secondly,
+the verb and its ;faa3il; are ;3umdah; elements and,
+together,
+always constitute a complete sentence.
+For example,
+if we say:
 
-Using the ;ism_fail; instead of the verb affects the meaning of the sentence.
-Using DArib instead of yaDrib can be seen as asserting the fact that Zayd is beating 3amr.
-We wil study the meaning implications of using an ;ism_fail; vs a verb in more detail in section\ (ref) below.
-For now, let's focus on the grammar of the new sentence.
-If we parse example () we get the following analysis:
+(@) [يَقُومُ زَيْدٌ]{.ar}  
+    [Zayd stands.]{.trans}
 
-* zaydun is a ;mubtada; in the ;ustate;.
-* DAribun is the ;xabar; of the ;mubtada; in the ;ustate;.
-  It governs its a singular masculine ;mustatir; pronoun in the ;ustate; as its ;faa3il;.
-  The ;mustatir; pronoun refers back to the mubtada.
-* 3amran is a ;mafulb; governed in the ;astate; by yaDribu.
+then
+[زَيْدٌ]{.ar} is the ;muxbar3; and
+[يَقُومُ]{.ar} is the ;muxbar;.
 
-DIAGRAM with dotted line for rabt/3aaid
+In contrast, the ;ism_fail; and its ;faa3il; do not,
+in most circumstances, constitute a complete sentence.
+This is because the ;ism_fail;,
+when governing a ;faa3il;
+is always,
+as a single element,
+part of a prior sentence.
+So it cannot be an ;3umdah; element of a new sentence (with its ;faa3il;).
+The following examples should illustrate what we mean.
+Let's begin with the previous example:
 
-Note that, just like the verb yaDribu,
-DAribun now governs a ;faa3il; and the ;mafulb;.
+(@3amal_mush_zaydun_daaribun_3amran) [زَيْدٌ ضَارِبٌ عَمْرًا]{.ar}  
+    [Zayd beats [#eamr]{.trn2}]{.trans}
 
-Implicating the ;mustatir; ;faa3il; pronoun is essential for the grammar of the sentence.
-And we will get to it in section\ (ref) below.
-But before we do that, let's discuss an important difference of the new sentence () zaydun DAribun 3amran from the old sentence () zaydun yaDribu 3amran:
+In example (@3amal_mush_zaydun_daaribun_3amran) above,
+[زَيْدٌ]{.ar} and
+[ضَارِبٌ]{.ar} form a complete sentence as ;3umdah; elements.
+[زَيْدٌ]{.ar} is the ;muxbar3; and
+[ضَارِبٌ]{.ar} is the ;muxbar;.
+The ;faa3il; of
+[ضَارِبٌ]{.ar} ([[هُوَ]{.ar}]) then cannot be a ;muxbar3; of new sentence with
+[ضَارِبٌ]{.ar} as its ;muxbar; because
+[ضَارِبٌ]{.ar} is already the ;muxbar; of the sentence
+[زَيْدٌ ضَارِبٌ]{.ar}.
 
-And that is that
-Daribun 3amran
-is not an inner sentence.
-This is because it is not a complete sentence.
-The single word DAribun itself is the ;xabar; of zaydun.
-The two ;3umdah; elements are:
-zayd (the ;muxbar3;), and DAribun (the ;muxbar;).
-The ;mustatir; singular masculine ;faa3il; pronoun) does not make an inner sentence with its governor DAribun.
-So
-yaDribu 3amran
-as a complete sentence to mean "He beat 3amr."
-But we cannot say
-DAribun 3amran.
-as a complete sentence.
-DAribun 3amran
-requires Zaydun as a ;mubtada; to form one complete sentence.
+Here is another example:
 
-So, for example, if this was a sentence with kaana,
-then DArib (alone) will be in the ;astate; as the ;xabar; of kaana.
+(@) [مَرَرْتُ بٍرَجُلٍ قَائِمٍ]{.ar}  
+    [I passed by a standing man.]{.trans}
 
-(@) kaana zaydun DAriban 3amran
+This sentence is parsed as follows:
 
-This is similar to:
+* [مَرَرْتُ]{.ar} is a verb and its ;faa3il; pronoun ([تُ]{.ar}).
+* [بٍرَجُلٍ]{.ar}
+[قَائِمٍ]{.ar}  
 
-(@) kaana zaydun muntaliqan
-
-where muntaliqan, as a sinle noun, is the ;xabar; of kaana.^[But see also Peled 207]
--->
-<!--
-Nevertheless,
-the ;mustatir; ;faa3il; pronoun is an integral part of the ;ism_fail; DArib and is governed by it in the ;ustate;.
--->
 
 ## The ;mustatir; ;faa3il; pronoun of the ;ism_fail;
 
