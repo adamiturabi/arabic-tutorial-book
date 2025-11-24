@@ -70,21 +70,21 @@ DIAGRAM
 Let's note some similarities and differences in the analyses of 
 examples (@3amal_mush_zaydun_yadribu_3amran) and (@3amal_mush_zaydun_daaribun_3amran):
 
-The similarities:
+The similarities are:
 
 * [زَيْدٌ]{.ar} is the ;mubtada; of a ;j_ism;.
 * Both [يَضْرِبُ]{.ar} and [ضَارِبٌ]{.ar} govern a ;mustatir; ;faa3il; pronoun (implicated as [هُوَ]{.ar}).
 * Both [يَضْرِبُ]{.ar} and [ضَارِبٌ]{.ar} govern the ;mafulb; [عَمْرًا]{.ar}.
 
-The difference:
+The difference is that
+in example (@3amal_mush_zaydun_yadribu_3amran),
+the ;xabar; of [زَيْدٌ]{.ar} is the inner sentence [يَضْرِبُ عَمْرًا]{.ar}.
 
-* In example (@3amal_mush_zaydun_yadribu_3amran),
-  the ;xabar; of [زَيْدٌ]{.ar} is the inner sentence [يَضْرِبُ عَمْرًا]{.ar}.
-
-  But in example (@3amal_mush_zaydun_daaribun_3amran):
-  the ;xabar; of [زَيْدٌ]{.ar} is the single noun [ضَارِبٌ]{.ar}.
-  Even though [ضَارِبٌ]{.ar} governs a ;faa3il; (an implicated [هُوَ]{.ar}).
-  it does not form a complete sentence with its ;faa3il; (unlike [يَضْرِبُ]{.ar}).
+But in example (@3amal_mush_zaydun_daaribun_3amran):
+the ;xabar; of [زَيْدٌ]{.ar} is the single noun [ضَارِبٌ]{.ar}.
+Even though [ضَارِبٌ]{.ar} governs a ;faa3il; (an implicated [هُوَ]{.ar}).
+it does not form a complete sentence with its ;faa3il; (unlike [يَضْرِبُ]{.ar}).
+We will elaborate on this in the next section.
 
 <!--
 This difference is important to note in order to understand in what manner the ;ism_fail; can act like a verb-like governor.
@@ -146,9 +146,9 @@ In example (@3amal_mush_zaydun_daaribun_3amran) above,
 [زَيْدٌ]{.ar} is the ;muxbar3; and
 [ضَارِبٌ]{.ar} is the ;muxbar;.
 The ;faa3il; of
-[ضَارِبٌ]{.ar} ([[هُوَ]{.ar}]) then cannot be a ;muxbar3; of new sentence with
+[ضَارِبٌ]{.ar} (the pronoun [[هُوَ]{.ar}]) then cannot be a ;muxbar3; of new sentence with
 [ضَارِبٌ]{.ar} as its ;muxbar; because
-[ضَارِبٌ]{.ar} is already the ;muxbar; of the sentence
+[ضَارِبٌ]{.ar}, as a single element, is already the ;muxbar; of the sentence
 [زَيْدٌ ضَارِبٌ]{.ar}.
 
 Here is another example:
@@ -156,13 +156,33 @@ Here is another example:
 (@) [مَرَرْتُ بٍرَجُلٍ قَائِمٍ]{.ar}  
     [I passed by a standing man.]{.trans}
 
-This sentence is parsed as follows:
+The ;3umdah; elements of this sentence are 
+[مَرَرْتُ]{.ar}: the verb [مَرَّ]{.ar} and its ;faa3il; pronoun [تُ]{.ar}.
+The entire phrase
+[بٍرَجُلٍ قَائِمٍ]{.ar} has only ;fadlah; elements.
+[قَائِمٍ]{.ar} is a ;na3t; of [رَجُلٍ]{.ar}, governed by the verb [مَرَّ]{.ar}.
+[قَائِمٍ]{.ar} has a ;mustatir; ;faa3il; pronoun
+[[هُوَ]{.ar}] that refers back to [رَجُلٍ]{.ar}.
+But because 
+[قَائِمٍ]{.ar} is a (;fadlah;) element of an existing sentence ([مَرَرْتُ]{.ar}),
+it cannot be the ;3umdah; ;muxbar; of a new sentence with its ;mustatir; ;faa3il; pronoun 
+[[هُوَ]{.ar}].
 
-* [مَرَرْتُ]{.ar} is a verb and its ;faa3il; pronoun ([تُ]{.ar}).
-* [بٍرَجُلٍ]{.ar}
-[قَائِمٍ]{.ar}  
+So, as you can see, whenever the ;ism_fail; has a ;mustatir; ;faa3il; pronoun,
+that ;faa3il; pronoun is not the ;muxbar3; of any sentence.
+This is because the ;ism_fail;, as a single element, is already a member of an existing sentence.
 
+In contrast, a verb always forms a sentence (as the ;muxbar;) with its ;faa3il; (as the ;muxbar3;).
+We already saw how the [يَضْرِبُ]{.ar}, as a complete sentence, is the ;xabar; in example (@3amal_mush_zaydun_yadribu_3amran) [زَيْدٌ يَضْرِبُ عَمْرًا]{.ar}.
 
+And if we replace the ;ism_fail; [قَائِمٍ]{.ar} with the verb [يَقُومُ]{.ar} thus:
+
+(@) [مَرَرْتُ بٍرَجُلٍ **يَقُومُ**]{.ar}
+
+then [يَقُومُ]{.ar} is as a complete sentence with the verb and its ;mustatir; ;faa3il; pronoun as ;3umdah; elements.
+This complete sentence is the ;na3t; of [رَجُلٍ]{.ar}.
+
+<!--
 ## The ;mustatir; ;faa3il; pronoun of the ;ism_fail;
 
 In example (@3amal_mush_zaydun_daaribun_3amran) [زَيْدٌ ضَارِبٌ عَمْرًا]{.ar}
@@ -170,6 +190,7 @@ we stated that the ;ism_fail;
 [ضَارِبٌ]{.ar}
 has a ;mustatir; ;faa3il; pronoun
 (implicated as [هُوَ]{.ar}).
+-->
 
 <!--
 The ;ism_fail; requires a ;faa3il; whenever it is acting in a verb-like capacity.
@@ -178,7 +199,7 @@ like qaaim "standing".
 This is because the ;sifah; meaning of an ;ism_fail; is derived from its verbal meaning
 (qaama yaqoom "he stands").
 -->
-
+<!--
 The ;ism_fail; will thus usually have
 a ;mustatir; ;faa3il; pronoun with it.^[@su3ood_dameer_mustatir@ 136ff]
 So, for example, if we say:
@@ -211,7 +232,7 @@ For example, if we say:
 
 then the feminine marker [ة]{.ar} is added to the ;ism_fail; [قَائِم]{.ar} only because it has to match the feminine gender of the ;mustatir; ;faa3il; pronoun [[هِيَ]{.ar}] that is attached to the ;ism_fail;.
 (The ;mustatir; ;faa3il; pronoun [[هِيَ]{.ar}] refers back to [هِنْد]{.ar}.)
-
+-->
 <!--
 This is analagous to when a ;madi; verb has a feminine ;faa3il;. 
 The [ت]{.ar} of femininity is appended to the verb in order to match the gender of the ;faa3il;.
@@ -243,70 +264,12 @@ the alif in the dual suffix of [قَائِمَانِ]{.ar} and the [و]{.ar} in 
 This is because, 
 [قَائِمَانِ]{.ar} and 
 [قَائِمُونَ]{.ar},
-even with their ;mustatir; ;faa3il; pronouns
-are still considered single words,
-from the perspective of sentence completion.^[haazimi 30/5 <https://shamela.ws/book/36130/531>]
+even with their ;mustatir; ;faa3il; pronouns,
+are not complete sentences.^[haazimi 30/5 <https://shamela.ws/book/36130/531>]
 
 This is different from verbs, where alif for the dual and [و]{.ar} for the plural are themselves the ;faa3il; pronouns.
 So [يَقُومَانِ]{.ar} and [يَقُومُونَ]{.ar} are both complete sentences comprised of two ;3umdah; elements:
 the verb and its ;faa3il;.
-
-### END SECTION
-
-DIAGRAM
-
-The mark of femininity [ة]{.ar} indicates the the ;faa3il; (the ;mustatir; pronoun which refers back the the ;mubtada; hindun) is feminine.
-This is perfectly analagous to when a verb (that has the mark of femininity) is used in the ;xabar;
-
-hindun qAmat
-
-<!--
-## The ;baariz; ;faa3il; pronoun
-
-Consider sentence:
-
-(@) zaydun 3amrun DAribuhu
-
-In the above sentence
--->
-
-If we dualize or pluralize the ;mubtada;,
-then the ;xabar;, and its ;mustatir; ;faa3il; pronoun is also dualized or pluralized (repectively).
-For example:
-
-(@) al-zaydaani qaaimani
-    (The ;mustatir; ;faa3il; of qaaimani is now theorized to be humaa, not huwa.)
-
-Note, however, that the ;faa3il; remains a ;mustatir; pronoun.
-That is, the alif in the dual ending Ani is not considered the ;faa3il; pronoun.
-This is unlike the case of the verb where the alif in the dual (yaqoomaani) is considered the ;faa3il; pronoun.
-The reason for this is that yaqoomAni is actually two (;3umdah;) elements:
-the verb yaqoom and its doer.
-Whereas qaaimAni is considered still one word, even with its (;mustatir;) ;faa3il; pronoun.^[sharh alfiyyah Haazimi 30/5]
-
-<!--
-The ;mustatir; ;faa3il; of the ;ism_fail; is not considered a word
-(in terms of the sentence's ;3umdah; elements)
-because it is a pronoun only within the confines of the sentence.
-Its referent exists prior to it within the sentence
--->
-
-Similarly, the waw in qaaimUna is simply an indicator of the plural and not the ;faa3il; pronoun.
-The ;faa3il; pronoun remains ;mustatir;.
-
-We have seen example, above, of the ;mustatir; ;faa3il; of an ;ism_fail; that is the ;xabar; of a sentence.
-Similarly, an ;ism_fail; that is the ;na3t; also has a ;mustatir; ;faa3il; pronoun.
-For example:
-
-(@) ra2aytu rajulan qaaiman
-
-DIAGRAM (pronoun points to rajulan)
-
-The ;mustatir; ;faa3il; pronoun points back to its referent rajul.
-
-<!--
-## Substituting the ;mustatir; ;faa3il; pronoun with an ;zaahir; noun
--->
 
 ## A ;zaahir; ;faa3il; pronoun for the ;ism_fail;
 
