@@ -426,7 +426,7 @@ then two conditions must be satisfied:
 
      (@) [أعلمت زيدا عمرا ضاربا بكرا]{.ar}
          [@ibn_aqil_alfiyyah@ 3/107]{.citex}  
-         [I let Zayd know [#eamr]{.trn2} [was] beating Bakr.]{.trans}  
+         [I let Zayd know [#eamr]{.trn2} is beating Bakr.]{.trans}  
          (See chapter\ (zanna).)
 
 <!--
@@ -435,7 +435,309 @@ then two conditions must be satisfied:
          [Zayd, his father is beating a brother of mine.]{.trans}  
 -->
 
+### When the ;ism_fail; is defined by [ٱلْ]{.ar}
 
+When the ;ism_fail; is defined by [ٱلْ]{.ar},
+then it is permitted to govern a ;mafulb; for a perfect or imperfect aspect.
+So we can say:
+
+(@) [هذا الضارب زيدا الآن أو غدا أو أمس]{.ar}
+    [@ibn_aqil_alfiyyah@ 3/110]{.citex}  
+    [This [person] is the beater of Zayd now/tomorrow/yesterday.]{.trans}
+
+Furthermore, no supporting element is required for it to be a governor,
+(as was required for the ;ism_fail; without [ٱلْ]{.ar} in section\ (ref) above).
+
+
+## The ;ism_fail; as the governor of an ;zaahir; ;faa3il; pronoun
+
+The ;mustatir; ;faa3il; pronoun becomes ;zaahir; in some circumstances.
+In this section,
+we will discuss one such circumstance.
+Consider the sentence:
+
+(@) [الفارس الحصانُ مُتْعِبُه]{.ar}
+    [@nahw_wafi@ 1/463]{.citex}  
+
+This grammar is parsed as follows:
+
+* [الْفَارِسُ]{.ar} is the ;mubtada; of the outer sentence.
+* [الْحِصَانُ]{.ar} is a second ;mubtada;. It is the ;mubtada; of the inner sentence.
+* [مُتْبِع]{.ar} is the ;xabar; of the inner sentence. It is also a ;mudaf;.
+* The pronoun [هُ]{.ar} is a ;mudafil;.
+* The inner sentence [الْحِصَانُ مُتْبِعُهُ]{.ar} is the ;xabar; of the ;mubtada; ([الْفَارِسُ]{.ar}) of outer sentence.
+
+The ;xabar; of the inner sentence [مُتْبِع]{.ar} [one who makes tired]{.trans}
+has a ;mustatir; ;faa3il; pronoun, implicated as [[هُوَ]{.ar}].
+It is possible for this ;mustatir; ;faa3il; pronoun
+to refer to either 
+[الْفَارِسُ]{.ar}
+or
+[الْحِصَانُ]{.ar}.
+Let's discuss both these meanings:
+
+ i. If
+    the ;mustatir; ;faa3il; pronoun [[هُوَ]{.ar}] in
+    [مُتْبِع]{.ar} refers to
+    [الْحِصَانُ]{.ar}
+    then the meaning is that
+    [the horse makes the horseman tired]{.trans}.
+    In this case, 
+    the pronoun [هُ]{.ar} in [مُتْبِعُهُ]{.ar} refers to 
+    [الْفَارِسُ]{.ar}.
+    
+ii. And if 
+    the ;mustatir; ;faa3il; pronoun [[هُوَ]{.ar}] in
+    [مُتْبِع]{.ar} refers to
+    [الْفَارِسُ]{.ar}
+    then the meaning is that
+    [the horseman makes the horse tired]{.trans}.
+    In this case, 
+    the pronoun [هُ]{.ar} in [مُتْبِعُهُ]{.ar} refers to 
+    [الْحِصَانُ]{.ar}.
+
+Both meanings are possible.
+
+If only the second meaning is desired,
+then the ;mustatir; ;faa3il; pronoun [[هُوَ]{.ar}] can be made ;zaahir; and added after the ;ism_fail; [مُتْبِع]{.ar}, thus:
+
+(@) [الفارس الحصانُ مُتْعِبُه **هُوَ**]{.ar}
+    [@nahw_wafi@ 1/464]{.citex}  
+    [The horseman -- the horse -- [he] makes him tired.]{.trans}  
+    (i.e. [The horseman makes the horse tired.]{.trans})
+
+Now only the second meaning is possible.
+If the first meaning is desired, the ;faa3il; pronoun of 
+[مُتْبِع]{.ar}
+must stay ;mustatir; and the ambiguity will remain.
+
+By the way, the ambiguity arose in the original sentence
+([الفارس الحصانُ مُتْعِبُه]{.ar})
+only because both ;mubtada;s
+([الْفَارِسُ]{.ar}
+and
+[الْحِصَانُ]{.ar})
+are singular masculine nouns.
+If the two ;mubtada;s are distinguishable in number or gender then there will be no ambiguity.
+However, even in this case,
+according to some grammarians,
+if the ;xabar; is to refer to the ;mubtada; of the outer sentence,
+then the ;faa3il; pronoun of the ;ism_fail; in the ;xabar; should be made ;zaahir;.
+For example:
+
+(@) [زَيْدٌ هِنْدٌ ضَارِبُهَا **هُوَ**]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/207](https://shamela.ws/book/9904/206#p1)]{.citex}  
+    [Zayd -- Hind -- [he] beats her.]{.trans}  
+    (i.e. [Zayd beats Hind.]{.trans})
+
+But according to other grammarians, 
+because [ضَارِب]{.ar} can refer only to Zayd and not to Hind,
+the ;ism_fail;'s ;faa3il; pronoun can remain latent,^[[@ibn_aqil_alfiyyah@ 1/207](https://shamela.ws/book/9904/206#p1)] thus:
+
+(@) [زَيْدٌ هِنْدٌ ضَارِبُهَا]{.ar}   
+    [Zayd -- Hind -- [he] beats her.]{.trans}  
+    (i.e. [Zayd beats Hind.]{.trans})
+
+<!--
+(@) [زَيْدٌ عَمْرٌو ضَارِبُهُ]{.ar}
+    [@ibn_aqil_alfiyyah@ 1/208]{.citex}  
+
+This sentence can have two different meanings:
+
+ i. [Zayd -- [#eamr]{.trn2} beats him]{.trans}
+ii. [Zayd -- [#eamr]{.trn2} beats him]{.trans}
+-->
+
+## The ;sababi; ;xabar;
+
+<!--
+[Zayd beats [#amr]{.trn2}]{.trans}
+-->
+
+Consider again example (@3amal_mush_zaydun_yadribu_3amran) [زَيْدٌ يَضْرِبُ عَمْرًا]{.ar}.
+From this original sentence, we replaced the verb 
+[يَضْرِبُ]{.ar}
+with its ;ism_fail; and came up with
+(@3amal_mush_zaydun_daaribun_3amran) [زَيْدٌ ضَارِبٌ عَمْرًا]{.ar}.
+
+Now consider the following example:
+
+(@3amal_mush_zaydun_yadribu_aboohu_3amran) [زَيْدٌ يَضْرِبُ أَبُوهُ عَمْرًا]{.ar}  
+    [Zayd -- his father beats [#eamr]{.trn2}]{.trans}
+
+In example (@3amal_mush_zaydun_yadribu_aboohu_3amran) above
+the ;faa3il; of 
+[يَضْرِبُ]{.ar}
+is not Zayd but Zayd's father.
+If we use this sentence as our starting point,
+we can again replace the verb
+[يَضْرِبُ]{.ar}
+with its ;ism_fail; 
+[ضَارِبٌ]{.ar}
+and say:
+
+(@3amal_mush_zaydun_daaribun_aboohu_3amran) [زَيْدٌ ضَارِبٌ أَبُوهُ عَمْرًا]{.ar}  
+    [Zayd -- his father beats [#eamr]{.trn2}]{.trans}
+
+[أَبُوهُ]{.ar} is the (;zaahir;) ;faa3il; of the ;ism_fail;
+[ضَارِبٌ]{.ar}.
+And [عَمْرًا]{.ar} is its ;mafulb;.
+So just like a verb can have an ;zaahir; noun as its ;faa3il; instead of a ;mustatir; pronoun,
+so too can the ;ism_fail; have an ;zaahir; noun as its ;faa3il; instead of a ;mustatir; pronoun.
+
+Again, there is one important difference between using the verb
+[يَضْرِبُ]{.ar}
+vs using its ;ism_fail; 
+[ضَارِبٌ]{.ar}.
+And that is that 
+[يَضْرِبُ أَبُوهُ عَمْرًا]{.ar}
+in example (@3amal_mush_zaydun_yadribu_aboohu_3amran)
+is a complete sentence.
+This inner sentence is the ;xabar; of the outer sentence.
+Therefore, example (@3amal_mush_zaydun_yadribu_aboohu_3amran) is a compound sentence.
+
+However,
+[ضَارِبٌ أَبُوهُ عَمْرًا]{.ar}
+in example (@3amal_mush_zaydun_daaribun_aboohu_3amran) 
+is not a complete sentence.
+[ضَارِبٌ]{.ar}
+itself, as a single word, is the ;xabar; of the ;mubtada; [زَيْدٌ]{.ar}.^[[@taftazani_mukhtasar_maani@ 86](https://ketabonline.com/ar/books/16360/read?part=1&page=82&index=72272/72275)]
+So example (@3amal_mush_zaydun_daaribun_aboohu_3amran) [زَيْدٌ ضَارِبٌ أَبُوهُ عَمْرًا]{.ar}
+is not a compound sentence.
+
+<!--
+In example () it is an inner sentence as the ;xabar; of the outer sentence.
+Therefore () zaydun yaDrib abuuhu 3amran is a compound sentence.
+But DAribun abuuhu 3amran is not a complete sentence by itself.
+Rather DAribun comprises the ;xabar; as a single word.^[subki, mukhtasar al-ma3aani lil-taftaazaani 86]
+So () zaydun DAribun aBuuhu 3amran is not a compound sentence.
+-->
+
+This kind of a ;xabar;
+<!--
+where the ;faa3il; of the ;xabar; (abuhu) does not refer to the same person as the ;mubtada; (zaydun),
+-->
+([ضَارِبٌ]{.ar} in this example)
+that expresses a property,
+not directly about the ;mubtada; (Zayd),
+but about someone linked to the ;mubtada; (Zayd's father),
+is called a ;sababi; ;xabar;.^[[[الخبر السببي لوجيهة السطل]{.ar}](https://alababmisr.com/%D8%A7%D9%84%D8%AE%D8%A8%D8%B1-%D8%A7%D9%84%D8%B3%D8%A8%D8%A8%D9%8A-%D8%AF-%D9%88%D8%AC%D9%8A%D9%87%D8%A9-%D8%A7%D9%84%D8%B3%D8%B7%D9%84/)]
+
+<!--
+This can be made clear by looking at the following example:
+
+(@) kaana zaydun muntaliqan
+
+-->
+
+### Varying the number or gender of the ;zaahir; ;faa3il; of the ;sababi; ;xabar;
+
+Here is another example of a sentence with a ;sababi; ;xabar;:
+
+(@3amal_mush_kaana_zaydun_muntaliqan_aboohu) [كَانَ زَيْدٌ مُنْطَلِقًا أَبُوهُ]{.ar}
+    [@peled_sentence_types@ 208]{.citex}  
+    [Zayd -- his father was setting out.]{.trans}
+
+In example (@3amal_mush_kaana_zaydun_muntaliqan_aboohu) 
+above,
+[مُنْطَلِقًا]{.ar} is the ;sababi; ;xabar; of [كَانَ]{.ar}.
+The ;zaahir; ;faa3il; of the [مُنْطَلِقًا]{.ar} is the singular masculine noun [أَبُوه]{.ar} [his father]{.trans}.
+
+Let's see what happens when
+we vary the number or gender of this ;zaahir; ;faa3il; of the ;sababi; ;xabar;.
+
+(@3amal_mush_kaana_alzaydaani_muntaliqan_abawaahuma) [كَانَ الزَيْدَانِ **مُنْطَلِقًا** أَبَوَاهُمَا]{.ar}
+    [@peled_sentence_types@ 208]{.citex}  
+    [The two Zayds -- their fathers were setting out.]{.trans}
+
+In example (@3amal_mush_kaana_alzaydaani_muntaliqan_abawaahuma) above,
+the ;sababi; ;xabar; 
+[مُنْطَلِقًا]{.ar}
+remains in the singular, 
+even though its ;faa3il; is the dual
+[أَبَوَاهُمَا]{.ar}.
+
+This is analagous to a verb, which remains in the singular for dual and plural ;faa3il;s.
+For example
+[كَانَ الزَيْدَانِ **يَنْطَلِقُ** أَبَوَاهُمَا]{.ar}, etc.
+
+If the gender of the ;ism_fail;'s ;faa3il; is feminine,
+then the ;ism_fail; remains in the singular but it is feminized.
+For example:
+
+(@) [زَيْدٌ **مُنْطَلِقَةٌ** أُمُّهُ]{.ar}  
+    [Zayd -- his mother is setting out.]{.trans}
+
+(@) [كَانَتْ هِنْدٌ **مُنْطَلِقَةً** خَالَتَاهَا]{.ar}  
+    [Hind -- her two maternal aunts were setting out.]{.trans}
+
+This again is analagous to the feminizing a verb that has a feminine ;faa3il;.
+
+If the ;faa3il; of the ;ism_fail; is a plural, then we have an choice:
+
+If the ;ism_fail; has a sound plural, then, again, it is not used and the ;ism_fail; remains in the singular.
+For example:
+
+(@) [كَانَ الزَيْدُونَ **مُنْطَلِقًا** آبَاؤُهُمْ]{.ar}  
+    [The Zayds -- their fathers were setting out.]{.trans}
+
+(@) [زَيْدٌ **مُنْطَلِقَةٌ** خَالَاتُهُ]{.ar}  
+    [Zayd -- his maternal aunts are setting out.]{.trans}
+
+But if
+the ;ism_fail; has a broken plural, then it is allowed to be used, and is indeed preferred.^[@baseet_ibn_abi_rabee3@ 693--694 cited by @peled_sentence_types@ 208 (footnote)]
+For example:
+
+(@) [كَانَ الزَّيْدُونَ **قِيَامًا** آبَاؤُهُمْ]{.ar}  
+    [The Zayds -- their fathers were standing]{.trans}
+
+Here are some examples of ;sababi; ;xabar;s from the [#qurEAn]{.trn2}:
+
+(@) [فَإِنَّهُۥۤ **ءَاثِمࣱ** قَلۡبُهُۥۗ]{.quran}
+    [@https://quran.com/2/283@]{.citex}  
+    [his heart is indeed sinful]{.trans}  
+    (Other analyses besides a ;sababi; ;xabar; are also possible.^[@https://tafsir.app/aldur-almasoon/2/283@])
+
+(@) [وَظَنُّوۤا۟ أَنَّهُم **مَّانِعَتُهُمۡ** حُصُونُهُم مِّنَ ٱللَّهِ]{.quran}
+    [@https://quran.com/59/2@]{.citex}  
+    [and they thought that their fortresses would protect them from Allāh]{.trans}  
+    (Another analysis is also possible: [حُصُونُهُمْ]{.ar} can be a ;mubtada;, and [مَانِعَتُهُمْ]{.ar} is its fronted ;xabar;.^[@https://tafsir.app/aldur-almasoon/59/2@])
+
+## The ;sababi; ;na3t;
+
+(@) [يَتِيهُ قَوْمٌ قِبَلَ الْمَشْرِقِ مُحَلَّقَةٌ رُءُوسُهُمْ]{.ar}
+    [@https://sunnah.com/muslim:1068c@]{.citex}  
+
+Broken plural ok.^[@nahw_wafi@ 3/453--454]
+
+::: {.ar}
+مَرَرْت برجللين قَائِم أبواهما وبرجال قَائِم آباؤهم كَمَا تَقول قَامَ أبواهما وَقَامَ آباؤهم وَمن قَالَ قاما أبواهما وأكلوني البراغيث ثنى الْوَصْف وَجمعه جمع السَّلامَة فَقَالَ قَائِمين آبواهما قَائِمين آباؤهم وَأَجَازَ الْجَمِيع أَن تجمع الصّفة جمع التكسير إِذا كَانَ الِاسْم الْمَرْفُوع جمعا فَتَقول مَرَرْت بِرِجَال قيام آباؤهم وبرجل قعُود غلمانه
+:::
+
+[[[شرح قطر الندى]{.ar} 288](https://shamela.ws/book/6970/263)]{.citex}
+
+## Conditions for the ;ism_fail; to govern a ;faa3il;
+
+The ;ism_fail; can have either an ;zaahir; ;faa3il; (either as a noun or as a pronoun),
+or a ;mustatir; ;faa3il; pronoun.
+We will treat each of these separately below:
+
+## Conditions for the ;ism_fail; to govern an ;zaahir; ;faa3il;
+
+The grammarians differed with regard to the
+conditions under which the ;ism_fail; is allowed to govern an ;zaahir; ;faa3il;.
+According to some, the same conditions are applicable as for governing a ;mafulb;,
+namely that it can only govern in for an imperfect aspect.
+And it is not allowed to govern an ;zaahir; faa3il for a perfect aspect.
+The following example would then be disallowed:
+
+(@) ;x; [زَيْدٌ قَائِمٌ أَبُوهُ أَمْسِ]{.ar}
+    [@su3ood_dameer_mustatir@ 134]{.citex}  
+    [Zayd -- his father stood yesterday.]{.trans}
+
+Other grammarians, however, allowed such a sentence.^[@su3ood_dameer_mustatir@ 134]
+
+## Conditions for the ;ism_fail; to govern a ;mustatir; ;faa3il; pronoun
 
 ## Introduction
 
@@ -748,6 +1050,8 @@ the verb and its ;faa3il;.
 ## A ;zaahir; ;faa3il; pronoun for the ;ism_fail;
 
 The ;mustatir; ;faa3il; pronoun becomes ;zaahir; in some circumstances.
+In this section,
+we will discuss one such circumstance.
 Consider the sentence:
 
 (@) [الفارس الحصانُ مُتْعِبُه]{.ar}
