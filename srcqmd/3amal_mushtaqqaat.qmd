@@ -307,7 +307,7 @@ then two conditions must be satisfied:
    And [زَيْد]{.ar} will have to be a ;mudafil; in a  ;idaafah;.
    Furthermore, this ;idaafah; will be _;ma3nawi;_ (see chapter\ (ref)).
 
-   (@) [هذا ضارب زيد أمس]{.ar}
+   (@3amal_mush_hadha_daaribu_zaydin_amsi) [هذا ضارب زيد أمس]{.ar}
        [@ibn_aqil_alfiyyah@ 3/106]{.citex}  
        [This [person] was the beater of Zayd yesterday.]{.trans}
 
@@ -525,18 +525,18 @@ if the ;xabar; is to refer to the ;mubtada; of the outer sentence,
 then the ;faa3il; pronoun of the ;ism_fail; in the ;xabar; should be made ;zaahir;.
 For example:
 
-(@) [زَيْدٌ هِنْدٌ ضَارِبُهَا **هُوَ**]{.ar}
+(@3amal_mush_zaydun_hindun_daaribuhaa_huwa) [زَيْدٌ هِنْدٌ ضَارِبُهَا **هُوَ**]{.ar}
     [[@ibn_aqil_alfiyyah@ 1/207](https://shamela.ws/book/9904/206#p1)]{.citex}  
-    [Zayd -- Hind -- [he] beats her.]{.trans}  
-    (i.e. [Zayd beats Hind.]{.trans})
+    [Zayd -- Hind -- [he] is beating her.]{.trans}  
+    (i.e. [Zayd is beating Hind.]{.trans})
 
 But according to other grammarians, 
 because [ضَارِب]{.ar} can refer only to Zayd and not to Hind,
 the ;ism_fail;'s ;faa3il; pronoun can remain latent,^[[@ibn_aqil_alfiyyah@ 1/207](https://shamela.ws/book/9904/206#p1)] thus:
 
 (@) [زَيْدٌ هِنْدٌ ضَارِبُهَا]{.ar}   
-    [Zayd -- Hind -- [he] beats her.]{.trans}  
-    (i.e. [Zayd beats Hind.]{.trans})
+    [Zayd -- Hind -- [he] is beating her.]{.trans}  
+    (i.e. [Zayd is beating Hind.]{.trans})
 
 <!--
 (@) [زَيْدٌ عَمْرٌو ضَارِبُهُ]{.ar}
@@ -577,7 +577,7 @@ with its ;ism_fail;
 and say:
 
 (@3amal_mush_zaydun_daaribun_aboohu_3amran) [زَيْدٌ ضَارِبٌ أَبُوهُ عَمْرًا]{.ar}  
-    [Zayd -- his father beats [#eamr]{.trn2}]{.trans}
+    [Zayd -- his father is beating [#eamr]{.trn2}]{.trans}
 
 [أَبُوهُ]{.ar} is the (;zaahir;) ;faa3il; of the ;ism_fail;
 [ضَارِبٌ]{.ar}.
@@ -718,17 +718,23 @@ Broken plural ok.^[@nahw_wafi@ 3/453--454]
 
 ## Conditions for the ;ism_fail; to govern a ;faa3il;
 
+In section\ (ref) above,
+we discussed the
+conditions for the ;ism_fail; to govern a ;mafulb;.
+Correspondingly, there exist
+conditions for the ;ism_fail; to govern a ;faa3il;.
+
 The ;ism_fail; can have either an ;zaahir; ;faa3il; (either as a noun or as a pronoun),
 or a ;mustatir; ;faa3il; pronoun.
 We will treat each of these separately below:
 
-## Conditions for the ;ism_fail; to govern an ;zaahir; ;faa3il;
+### Conditions for the ;ism_fail; to govern an ;zaahir; ;faa3il;
 
 The grammarians differed with regard to the
 conditions under which the ;ism_fail; is allowed to govern an ;zaahir; ;faa3il;.
 According to some, the same conditions are applicable as for governing a ;mafulb;,
-namely that it can only govern in for an imperfect aspect.
-And it is not allowed to govern an ;zaahir; faa3il for a perfect aspect.
+namely that the ;ism_fail; can only govern an ;zaahir; ;faa3il; when it has an imperfect aspect.
+And it is not allowed to govern an ;zaahir; ;faa3il; for a perfect aspect.
 The following example would then be disallowed:
 
 (@) ;x; [زَيْدٌ قَائِمٌ أَبُوهُ أَمْسِ]{.ar}
@@ -737,7 +743,73 @@ The following example would then be disallowed:
 
 Other grammarians, however, allowed such a sentence.^[@su3ood_dameer_mustatir@ 134]
 
-## Conditions for the ;ism_fail; to govern a ;mustatir; ;faa3il; pronoun
+### Conditions for the ;ism_fail; to govern a ;mustatir; ;faa3il; pronoun
+
+As a default,
+the ;ism_fail; requires
+a ;mustatir; ;faa3il; pronoun.
+So it governs
+a ;mustatir; ;faa3il; pronoun unconditionally except in the following cases:
+
+#### The ;ism_fail; is already governing an ;zaahir; ;faa3il; noun {.unnumbered}
+
+If the ;ism_fail; is already governing an ;zaahir; ;faa3il;,
+then it will not also have a ;mustatir; ;faa3il; pronoun.
+This is because one ;ism_fail; cannot have two ;faa3il;s.^[@su3ood_dameer_mustatir@ 139]
+Example:
+
+(@) [زَيْدٌ قَائِمٌ أَبُوهُ]{.ar}
+    [@su3ood_dameer_mustatir@ 139]{.citex}  
+    [Zayd -- his father is standing]{.trans}
+
+#### The ;ism_fail; is already governing an ;zaahir; ;faa3il; pronoun {.unnumbered}
+
+We discussed in section\ (ref) above, a situation in which the originally ;mustatir; ;faa3il; pronoun of a ;ism_fail; becomes ;zaahir;.
+Because the ;faa3il; is now ;zaahir; the ;ism_fail; will not govern an additional ;mustatir; ;faa3il;.^[@su3ood_dameer_mustatir@ 144]
+
+(@3amal_mush_zaydun_hindun_daaribuhaa_huwa) [زَيْدٌ هِنْدٌ ضَارِبُهَا هُوَ]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/207](https://shamela.ws/book/9904/206#p1)]{.citex}  
+    [Zayd -- Hind -- [he] is beating her.]{.trans}  
+    (i.e. [Zayd is beating Hind.]{.trans})
+
+#### The ;ism_fail; is the ;mudaf; in a ;ma3nawi; ;idaafah; {.unnumbered}
+
+When ;ism_fail; is the ;mudaf; in a ;ma3nawi; ;idaafah;,
+then it will not govern a ;mustatir; ;faa3il; pronoun.^[@su3ood_dameer_mustatir@ 142]
+This can happen when the ;ism_fail; indicates a perfective aspect.
+We saw an example of this in the conditions for governing a ;mafulb; above:
+
+@3amal_mush_hadha_daaribu_zaydin_amsi) [هذا ضارب زيد أمس]{.ar}
+   [@ibn_aqil_alfiyyah@ 3/106]{.citex}  
+   [This [person] was the beater of Zayd yesterday.]{.trans}
+
+By the way, this does not mean that the ;ism_fail; cannot govern a ;mustatir; ;faa3il; pronoun whenever it signifies a perfective aspect.
+It only cannot do so in a ;ma3nawi; ;idaafah;.
+So ;ism_fail; will govern a ;mustatir; ;faa3il; pronoun when it has a perfective aspect, but no ;idaafah;.
+For example:
+
+@) [هذا ضاربٌ أمس]{.ar}  
+   [This [person] was a beater yesterday.]{.trans}
+
+#### The ;ism_fail; does not have verbal force {.unnumbered}
+
+When the ;ism_fail; does not verbal force, then it does not govern a ;mustatir; ;faa3il; pronoun.^[See citations in @su3ood_dameer_mustatir@ 154].
+For example:
+
+(@) [قَامَ **عَاقِلٌ** مِنْ بَنِي فُلَانٍ]{.ar}
+    [@su3ood_dameer_mustatir@ 154]{.citex}  
+    [An intelligent one from [such-and-such tribe] stood up.]{.trans}
+
+#### Multiple ;ism_fail;s refer to the same referent {.unnumbered}
+
+When there are multiple ;ism_fail;s that occur together and that refer to the same referent,
+then only the first will have a ;mustatir; ;faa3il; pronoun and not the subsequent ones.
+For example:
+
+(@) [مَرَرْتُ بِرَجُلٍ قَائِمٍ لَا قَاعِدٍ]{.ar}
+    [@su3ood_dameer_mustatir@ 156]{.citex}  
+    [I passed by a standing, not a sitting, man.]{.trans}
+
 
 ## Introduction
 
