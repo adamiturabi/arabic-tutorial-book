@@ -40,7 +40,8 @@ The
 [يَقُومُ]{.ar},
 and the ;ism_fail;
 [قَائِمٌ]{.ar}
-are governing a ;mustatir; ;faa3il; pronoun,
+both govern
+a ;mustatir; ;faa3il; pronoun,
 implicated as [[هُوَ]{.ar}].
 
 ##### The difference {.unnumbered}
@@ -85,16 +86,50 @@ This is a simple sentence,
 not a compound sentence.
 The ;mustatir; ;faa3il; pronoun
 [[هُوَ]{.ar}] is not the ;3umdah; element of any sentence.
-Rather it is only a governee of the ;ism_fail;.
-It is ;fadlah; from the perspective of sentence completion.
-However, it is an integral part of the ;ism_fail;.
 
-## The ;mustatir; ;faa3il; pronoun of the ;ism_fail;
+However,
+despite being
+;fadlah; from the perspective of sentence completion,
+the ;mustatir; ;faa3il; pronoun
+is an essential governee of the ;ism_fail;.
+
+Let's take a look at another example:
+
+(@) [رَأَيْتُ رَجُلًا قَائِمًا]{.ar}  
+    [I saw a standing man.]{.trans}
+
+The ;3umdah; elements of this sentence are 
+[رَأَيْتُ]{.ar}: the verb [رَأَى]{.ar} and its ;faa3il; pronoun [تُ]{.ar}.
+The entire phrase
+[رَجُلًا قَائِمًا]{.ar} has only ;fadlah; elements.
+[قَائِمًا]{.ar} is a ;na3t; of [رَجُلًا]{.ar}, governed by the verb [رَأَى]{.ar}.
+The ;ism_fail;
+[قَائِمًا]{.ar} has a ;mustatir; ;faa3il; pronoun
+[[هُوَ]{.ar}] that refers back to [رَجُلًا]{.ar}.
+But because 
+[قَائِمًا]{.ar} is a (;fadlah;) element of an existing sentence
+(whose ;3umdah; elements are [رَأَيْتُ]{.ar}),
+therefore it cannot be the ;3umdah; ;muxbar; of a new sentence with its ;mustatir; ;faa3il; pronoun 
+[[هُوَ]{.ar}].
+
+So, as you can see, whenever the ;ism_fail; has a ;mustatir; ;faa3il; pronoun,
+that ;faa3il; pronoun is not the ;muxbar3; of any sentence.
+This is because the ;ism_fail;, as a single element, is already a member of an existing sentence.
+
+In contrast, a verb always forms a sentence (as the ;muxbar;) with its ;faa3il; (as the ;muxbar3;).
+If we replace the ;ism_fail; [قَائِمًا]{.ar} with the verb [يَقُومُ]{.ar} thus:
+
+(@) [رَأَيْتُ رَجُلًا **يَقُومُ**]{.ar}  
+
+then [يَقُومُ]{.ar} is a complete sentence with the verb and its ;mustatir; ;faa3il; pronoun as ;3umdah; elements.
+This complete sentence is the ;na3t; of [رَجُلًا]{.ar}.
+
+## The ;ism_fail; as a governor of a ;mustatir; ;faa3il; pronoun
 
 Let us look into the
 ;mustatir; ;faa3il; pronoun of the ;ism_fail; in more detail.
 It makes sense for a verb to have a ;faa3il; but how can a noun have a ;faa3il;?
-The answer is that the ;ism_fail;,
+The reason is that the ;ism_fail;,
 because of its closeness to the verb,
 can act like one.
 When acting with verbal force,
@@ -133,6 +168,169 @@ For example, if we say:
 
 then the feminine marker [ة]{.ar} is added to the ;ism_fail; [قَائِم]{.ar} only because it has to match the feminine gender of the ;mustatir; ;faa3il; pronoun [[هِيَ]{.ar}] that occurs with, and is governed by, the ;ism_fail;.
 (The ;mustatir; ;faa3il; pronoun [[هِيَ]{.ar}] refers back to [هِنْد]{.ar}.)
+
+When the referent of the ;mustatir; ;faa3il; pronoun changes for number or gender,
+then the ;mustatir; ;faa3il; pronoun will change to match it.
+For example:
+
+(@3amal_mush_zaydaan_qaaimaan) [الزَّيْدَانِ قَائِمَانِ]{.ar}
+    [[@sabban@ 1/291](https://shamela.ws/book/11539/288#p1)]{.citex}  
+    [The two Zayds are standing.]{.trans}
+
+(@3amal_mush_zaydoon_qaaimoon) [الزَّيْدُونَ قَائِمُونَ]{.ar}
+    [[@sabban@ 1/291](https://shamela.ws/book/11539/288#p1)]{.citex}  
+    [The Zayds are standing.]{.trans}
+
+In example (@3amal_mush_zaydaan_qaaimaan) above,
+the ;mustatir; ;faa3il; pronoun of [قَائِمَانِ]{.ar} is implicated as [هُمَا]{.ar}.
+
+And in example (@3amal_mush_zaydoon_qaaimoon) 
+the ;mustatir; ;faa3il; pronoun of [قَائِمُونَ]{.ar} is implicated as [هُمْ]{.ar}.
+
+As a point of technicality,
+the alif in the dual suffix of [قَائِمَانِ]{.ar} and the [و]{.ar} in the plural suffix of [قَائِمُونَ]{.ar}, are not themselves the ;faa3il; pronouns.^[haazimi 30/5 <https://shamela.ws/book/36130/531>]
+Rather, the ;faa3il; pronouns for the ;ism_fail;s above are ;mustatir;.
+
+This is different than for verbs.
+In the verbs
+[يَقُومَانِ]{.ar} and [يَقُومُونَ]{.ar},
+the alif in [انِ]{.ar} and the [و]{.ar} in [ونَ]{.ar} are, themselves, considered the ;faa3il; pronouns.
+And these pronouns are _;zaahir;_, not ;mustatir;.
+
+## The ;ism_fail; as a governor of a ;mafulb;
+
+We have seen that the ;ism_fail;,
+when acting with verbal force, governs a ;faa3il;.
+In a similar manner,
+the ;ism_fail; for transitive verbs can, optionally, govern a ;mafulb;.
+In order to introduce this behavior,
+we use again, as our starting point, the ;ustate; ;mudarie; verb.
+Consider the following example:
+
+(@3amal_mush_zaydun_yadribu_3amran) [زَيْدٌ يَضْرِبُ عَمْرًا]{.ar}  
+    [Zayd beats [#amr]{.trn2}]{.trans}
+
+Example (@3amal_mush_zaydun_yadribu_3amran) above is parsed as follows:
+
+* [زَيْدٌ]{.ar} is a ;mubtada;.
+* [يَضْرِبُ]{.ar} is a ;mudarie; verb in the ;ustate;.
+  It governs a ;mustatir; pronoun (implicated as [هُوَ]{.ar}) in the ;ustate; as its ;faa3il;. 
+  The ;mustatir; ;faa3il; pronoun [هُوَ]{.ar} refers back to its referent: the ;mubtada; [زَيْدٌ]{.ar}.
+* [عَمْرًا]{.ar} is a ;mafulb;, governed in the ;astate; by  the verb [يَضْرِبُ]{.ar}.
+* [يَضْرِبُ عَمْرًا]{.ar} is an inner sentence which is in place of a ;ustate; noun as the ;xabar; of the ;mubtada; [زَيْدٌ]{.ar}.
+
+Instead of using the verb [يَضْرِبُ]{.ar} in example (@3amal_mush_zaydun_yadribu_3amran) above
+we may instead use its ;ism_fail;
+[ضَارِب]{.ar}, thus:
+
+(@3amal_mush_zaydun_daaribun_3amran) [زَيْدٌ ضَارِبٌ عَمْرًا]{.ar}  
+    [Zayd is beating [#amr]{.trn2}]{.trans}
+
+Example (@3amal_mush_zaydun_daaribun_3amran) is parsed as follows:
+
+* [زَيْدٌ]{.ar} is a ;mubtada;.
+* [ضَارِبٌ]{.ar} is the ;xabar; of the ;mubtada; [زَيْدٌ]{.ar}.
+  It governs a ;mustatir; pronoun (implicated as [هُوَ]{.ar}) in the ;ustate; as its ;faa3il;. 
+  The ;mustatir; ;faa3il; pronoun [هُوَ]{.ar} refers back to the ;mubtada; [زَيْدٌ]{.ar}.
+* [عَمْرًا]{.ar} is a ;mafulb;, governed in the ;astate; by the ;ism_fail; [ضَارِبٌ]{.ar}.
+
+As you can see,
+the ;ism_fail;
+[ضَارِبٌ]{.ar} can govern a ;mafulb; just like 
+the verb [يَضْرِبُ]{.ar}.
+
+However, while a transitive verb can govern a ;mafulb; unconditionally,
+a ;ism_fail; can only govern a ;mafulb; if certain conditions are satisfied.
+We will discuss these conditions in section\ (ref) below.
+
+By the way,
+we again highlight the difference in
+the ;faa3il; of
+the verb [يَضْرِبُ]{.ar}
+vs 
+the ;faa3il; of the ;ism_fail;
+[ضَارِبٌ]{.ar}:
+The verb [يَضْرِبُ]{.ar} and its ;faa3il; are complementary ;3umdah; pairs that constitute a complete sentence.
+Whereas,
+the ;ism_fail;
+[ضَارِبٌ]{.ar} does not form a new sentence with its ;faa3il;.
+
+
+## Conditions for the ;ism_fail; to govern a ;mafulb;
+
+As we mentioned above,
+there are conditions that must be satisfied in order for an ;ism_fail; to be able to govern a ;mafulb; in this manner.
+The conditions are different for when the ;ism_fail; is defined by [ٱلْ]{.ar},
+and when it is not defined by [ٱلْ]{.ar}.
+We will discuss each of these cases separately below:
+
+### When the ;ism_fail; is not defined by [ٱلْ]{.ar}
+
+When the ;ism_fail; is not defined by [ٱلْ]{.ar},
+then two conditions must be satisfied:
+
+1. The verbal aspect of the ;ism_fail; must be imperfect.
+   That is, it must indicate an ongoing (whether present or past) or future action.
+   Examples:
+
+   * present ongoing:
+
+     (@) [هذا ضارب زيدا الآن]{.ar}
+         [@ibn_aqil_alfiyyah@ 3/106]{.citex}  
+         [This [person] is beating Zayd now.]{.trans}
+
+   * past ongoing:
+
+     (@) [كان زيد ضاربا عمرا]{.ar}
+         [@ibn_aqil_alfiyyah@ 3/107]{.citex}  
+         [Zayd was beating [#eamr]{.trn2}.]{.trans}
+
+     (@) [وَكَلْبُهُمْ بَاسِطٌ ذِرَاعَيْهِ بَٱلْوَصِيدِ]{.quran}
+         [@https://quran.com/18/18@ cited by @ibn_aqil_alfiyyah@ 3/106]{.citex}  
+         [while their dog stretched his forelegs at the entrance]{.trans}
+
+   * future:
+
+     (@) [هذا ضارب زيدا غَدًا]{.ar}
+         [@ibn_aqil_alfiyyah@ 3/106]{.citex}  
+         [This [person] will beat Zayd tomorrow.]{.trans}
+
+   If the verbal aspect indicated by the ;ism_fail; is perfect,
+   then the ;ism_fail; may not govern a ;mafulb;.
+   So, for example, we cannot say:
+
+   (@) ;x; [هذا ضارب **زيدا** أمس]{.ar}
+       [@ibn_aqil_alfiyyah@ 3/106]{.citex}  
+       [This [person] beat Zayd yesterday.]{.trans}
+
+   If we desire to use the ;ism_fail;, then it will not have verbal force.
+   And [زَيْد]{.ar} will have to be a ;mudafil; in a  ;idaafah;.
+   Furthermore, this ;idaafah; will be _;ma3nawi;_ (see chapter\ (ref)).
+
+   (@) [هذا ضارب زيد أمس]{.ar}
+       [@ibn_aqil_alfiyyah@ 3/106]{.citex}  
+       [This [person] was the beater of Zayd yesterday.]{.trans}
+
+   An exception is made for
+   for transitive verbs that take more than one ;mafulb;,
+   like [جعل]{.ar}, [أَعطى]{.ar}, etc.
+   When the ;ism_fail; of such a verb is annexed to what would have been the first ;mafulb;,
+   then second ;mafulb; is permitted to be in the ;astate;, 
+   even if the aspect is perfect.^[See also @https://tafsir.app/albahr-almuheet/35/1@ and @https://tafsir.app/aldur-almasoon/35/1@]
+   For example:
+   
+   (@) [هذا معطي زيد أمس درهما]{.ar}
+       [[@ibn_malik_sharh_tasheel@ 3/78](https://shamela.ws/book/13257/894#p1)]{.citex}  
+       [This [person] was the giver of Zayd, yesterday, a dirham.]{.trans}  
+
+   
+   Even the first ;mafulb; may remain in the ;astate;, if separated from the ;ism_fail;.
+   For example:
+   
+   (@) [هذا ظان أمس زيدا فاضلا]{.ar}
+       [[@ibn_malik_sharh_tasheel@ 3/78](https://shamela.ws/book/13257/894#p1)]{.citex}  
+       [This [person] was the believer, yesterday, of Zayd as an eminent person.]{.trans}  
+
 
 ## Introduction
 
