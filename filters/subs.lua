@@ -86,7 +86,7 @@ map_table["ism_makan"] = {"noun of place", nil}
 map_table["ism_masdar"] = {"quasi-maṣdar", nil}
 map_table["ism_mawsul"] = {"connected noun", nil}
 map_table["ism_zaman"] = {"noun of time", nil}
-map_table["isnaad"] = {"sentence-completion", nil}
+--map_table["isnaad"] = {"sentence-completion", nil}
 
 map_table["jamid"] = {"underived", nil}
 map_table["jawab"] = {"consequence", nil}
@@ -110,7 +110,7 @@ map_table["mubdalb"] = {"substitutee", nil} -- replacee, substitutee
 map_table["mubtada"] = {"subject", nil}
 map_table["mudaf"] = {"annexe noun", nil}
 map_table["mudafil"] = {"base noun", nil}
-map_table["mudarie"] = {"prefixed", nil} -- {"muDArie", "trn2"} -- "stateful", resembling, prefixed
+map_table["mudarie"] = {"stateful", nil} -- {"muDArie", "trn2"} -- "stateful", resembling, prefixed
 map_table["mushar_il"] = {"pointed-to noun", nil} -- {"muDArie", "trn2"}
 map_table["mushtaqq"] = {"deverbal", nil} -- deverbal, derived
 map_table["musnad"] = {"leaning element", nil} -- complement
@@ -141,6 +141,7 @@ map_table["shart"] = {"condition", nil}
 map_table["shibh_fi3l"] = {"quasi-verb", nil}
 map_table["shibh_jumlah"] = {"quasi-sentence", nil}
 map_table["shibh_jumlah"] = {"quasi-sentence", nil}
+map_table["substantive"] = {"substantive", nil}
 
 map_table["tabi3"] = {"follower", nil}
 map_table["tamyiz"] = {"tamyIz", "trn2"}
@@ -150,6 +151,7 @@ map_table["x"] = {"✗", nil}
 map_table["xabar"] = {"info", nil} -- newsworthy expression, information, comment, remark, info, report, news, expression
 
 map_table["zaaid"] = {"redundant", nil}
+map_table["zaahir"] = {"overt", nil}
 
 
 function get_map_table_value(input_text)
