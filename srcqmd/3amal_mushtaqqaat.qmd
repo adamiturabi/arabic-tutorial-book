@@ -326,7 +326,7 @@ So we can say:
     [[@sirafi_sibawayhi@ 2/40](https://shamela.ws/book/17726/538)]{.citex}  
     [These are the beaters of the man.]{.trans}
 
-(@) [وَٱلۡمُقِیمِینَ ٱلصَّلَوٰةَۚ وَٱلۡمُؤۡتُونَ ٱلزَّكَوٰةَ]{.ar}
+(@) [وَٱلۡمُقِیمِینَ ٱلصَّلَوٰةَۚ وَٱلۡمُؤۡتُونَ ٱلزَّكَوٰةَ]{.quran}
     [@https://quran.com/4/162@ cited by [@sirafi_sibawayhi@ 2/40](https://shamela.ws/book/17726/538)]{.citex}  
     [And the establishers of prayer [especially] and the givers of zakāh]{.trans}
 
@@ -363,6 +363,8 @@ Flexible word order is again permitted for the dual and the plural as it was for
 
 
 ## #;lafzi; ;idaafah;
+
+#### #;lafzi; ;idaafah; used to eliminate ;tanwin; {.unnumbered}
 
 Consider again the sentence:
 
@@ -416,6 +418,8 @@ For example:
     [beating~f,3+~ [#eamr]{.trn2}]{.trans}  
     (instead of [ضواربُ زيدًا]{.ar})
 
+#### #;lafzi; ;idaafah; used to eliminate the [ن]{.ar} of a dual or plural suffix {.unnumbered}
+
 The ;lafzi; ;idaafah; is used in situations when the governing ;ism_fail; has ;tanwin; (as above),
 and also in situations when it ends with a [ن]{.ar} arising from a dual or sound plural.
 Examples:
@@ -425,6 +429,66 @@ Examples:
     [[two] beating Zayd]{.trans}  
     (instead of [ضاربانِ زَيْدًا]{.ar})
 
+#### A definite ;ism_fail; in a ;lafzi; ;idaafah; {.unnumbered}
+
+Because this is a ;lafzi; and not a ;ma3nawi; ;idaafah;,
+the ;mudaf; 
+is not made definite  by a definite ;mudafil;.
+In the examples so far, the ;mudafil;s have been proper nouns 
+([زَيْد]{.ar}, [عَمْرو]{.ar})
+which are definite.
+But the ;ism_fail;s
+([ضَارِب]{.ar},
+[ضَارِبَا]{.ar},
+etc.)
+remain indefinite, because they did not originally have [ٱل]{.ar} when governing a ;mafulb;.
+
+If the ;ism_fail; is to be made definite in a ;lafzi; ;idaafah; then a [ٱل]{.ar} is added to it.
+For example:
+
+(@) [هذان الضاربا زيدٍ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 2/132](https://shamela.ws/book/13301/582#p1)]{.citex}  
+    [These two are the beaters of Zayd.]{.trans}  
+    (instead of [هذان الضاربان زيدًا]{.ar})
+
+(@) [وَٱلۡمُقِیمِی ٱلصَّلَوٰةِ]{.quran}
+    [@https://quran.com/22/35@ cited by [@ibn_ya3ish_mufassal@ 2/132](https://shamela.ws/book/13301/582#p1)]{.citex}  
+    [and the establishers of prayer]{.trans}
+
+#### A case where ;lafzi; ;idaafah; is not permitted {.unnumbered}
+
+Consider the following case of a ;ism_fail; governing a ;mafulb;:
+
+(@) [الضَّارِبُ زَيْدًا]{.ar}  
+    [the beater of Zayd]{.trans}  
+
+There is no ;tanwin; of suffixed [ن]{.ar} after the ;ism_fail;.
+Therefore, a ;lafzi; ;idaafah; is not permitted, and we cannot say:
+
+(@) ;x; [الضَّارِبُ زَيْدٍ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 2/132](https://shamela.ws/book/13301/582#p1)]{.citex}  
+
+If, however, the ;mafulb; is defined by [ٱل]{.ar},
+or is itself a ;mudaf; to a ;mudafil;
+that is defined by [ٱل]{.ar},
+then the ;lafzi; ;idaafah; is again permitted.^[@wright@ 2/66A]
+For example:
+
+(@) [الضَّارِبُ الْعَبْدِ]{.ar}
+    [@wright@ 2/66A]{.citex}  
+    [the beater of the slave]{.trans}  
+
+(@) [الضَّارِبُ رَأْسِ الْعَبْدِ]{.ar}
+    [@wright@ 2/66A]{.citex}  
+    [the beater of the head of the slave]{.trans}  
+
+We will also see in section\ (ref), ;ia;, that when the governor is used with a ;sifah; meaning,
+then too such a ;lafzi; ;idaafah; is permitted.^[[@ibn_ya3ish_mufassal@ 2/132--133](https://shamela.ws/book/13301/582#p1)]
+For example:
+
+(@) [الضَّارِبُ الرَّجُلِ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 2/132](https://shamela.ws/book/13301/582#p1)]{.citex}  
+    [the man-beater]{.trans}
 
 ### 3aTf:
 
@@ -434,6 +498,8 @@ Examples:
 ## The ;ism_fail; with a pronoun as its ;mafulb;
 
 <https://shamela.ws/book/13301/585>
+
+@wright@ 2/67AB
 
 ## Conditions for the ;ism_fail; to govern a ;mafulb;
 
