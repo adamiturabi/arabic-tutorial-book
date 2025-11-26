@@ -94,6 +94,7 @@ map_table["jawab_shart"] = {"condition-response", nil}
 map_table["j_ism"] = {"nounal sentence", nil}
 map_table["j_f3l"] = {"verbal sentence", nil}
 
+map_table["laam_taqwiya"] = {"strengthening [ل]{.ar}", nil}
 map_table["lazim"] = {"intransitive", nil}
 map_table["lnj"] = {"لا النافية للجنس", "ar"}
 
