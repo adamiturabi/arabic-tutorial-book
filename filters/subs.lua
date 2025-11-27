@@ -127,6 +127,7 @@ map_table["nidaa"] = {"vocative", nil}
 map_table["naqis"] = {"deficient", nil}
 map_table["nasix"] = {"canceling", nil}
 
+map_table["participle"] = {"participle", nil}
 map_table["pbuh"] = {"ﷺ", "aralt" }
 
 map_table["rabt"] = {"link", nil}
