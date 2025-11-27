@@ -1,5 +1,71 @@
 # The verb [كَانَ]{.ar} {#the-verb-kaana}
 
+## [كَانَ]{.ar} as a ;naqis; verb
+
+In chapter\ (gov), we learned that a ;j_f3l; is formed from a verb and its ;faa3il;.
+The verb constitutes the ;muxbar; and its ;faa3il; constitutes the ;muxbar3;.
+For example:
+
+(@kaana_qaama_zaydun) [قَامَ زَيْدٌ]{.ar}  
+    [Zayd stood up.]{.trans}  
+
+In example (@kaana_qaama_zaydun)  above
+[قَامَ]{.ar} is the ;muxbar; and
+[زَيْدٌ]{.ar} is the ;muxbar3;.
+
+Most verbs behave in this manner.
+They are termed _;taamm;_ verbs
+because the verb contains sufficient meaning to be the ;muxbar; by expressing some property about its ;faa3il; (the ;muxbar3;).
+
+There are some verbs, however, that do not contain sufficient meaning to be the ;muxbar; of a sentence.
+These verbs are termed _;naqis;_ verbs.
+For such verbs, the verb's ;mafulb; is needed to complete the meaning of the sentence.
+The verb
+[كَانَ]{.ar}, which means "[was]{.trans}", is one such verb.
+If we say
+[كَانَ زَيْدٌ]{.ar}
+[Zayd was]{.trans}
+then the meaning is, in general, incomplete.
+The listener would be left wondering, "Zayd was what?"
+<!--
+[كَانَ]{.ar},
+and verbs like it,
+are termed ;naqis; verbs.
+-->
+We have to add the ;mafulb; to complete the meaning of the sentence.
+For example:
+
+(@kaana_kaana_zaydun_qaaiman) [كَانَ زَيْدٌ قَائِمًا]{.ar}
+    [@peled_sentence_types@ 171]{.citex}  
+    [Zayd was standing]{.trans}  
+
+In example (@kaana_kaana_zaydun_qaaiman) 
+the ;faa3il;
+[زَيْدٌ]{.ar}
+is the ;muxbar3;, as usual.
+But the ;muxbar; is not the verb
+[كَانَ]{.ar}.
+Rather it is the ;mafulb;
+[قَائِمًا]{.ar}.
+
+[كَانَ]{.ar} is not a ;3umdah; element in this sentence.
+However, it governs both ;3umdah; elements.
+So it is the initial government of the sentence (see section\ (ref)).
+
+By the way, this also changes the classification of the sentence.
+The first ;3umdah; element in (@kaana_kaana_zaydun_qaaiman) is a noun
+(the ;faa3il; [زَيْدٌ]{.ar}).
+Therefore, the sentence is a ;j_ism;, not a ;j_f3l;.^[@peled_sentence_types@ 171]
+
+We leaned in section\ (ref) that the ;3umdah; elements of a ;j_ism; are its ;ism_of; and its ;xabar;.
+So now that a [كَانَ]{.ar} sentence is reclassified as a ;j_ism;,
+we also rename its ;3umdah; elements.
+The ;faa3il; of [كَانَ]{.ar} is termed its ;ism_of;.
+And the ;mafulb; of [كَانَ]{.ar} is termed its ;xabar;.
+The diagram below depicts the government of example (@kaana_kaana_zaydun_qaaiman).
+
+DIAGRAM
+
 ## Introduction
 
 We have learned that a verb must have a ;faa3il; in the ;ustate; and can have a ;mafulb; in the ;astate;.
