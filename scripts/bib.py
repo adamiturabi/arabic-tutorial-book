@@ -541,14 +541,26 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "suyooti_ashbaah"
     , cit_type = "ar_ref"
-    , cit_text = "[الأشباه والنظائر للسيوطي]{.ar}"
+    , cit_text = "[الأشباه والنظائر في النحو للسيوطي]{.ar}"
     , bib_text = """
-      الكتاب: الأشباه والنظائر في قواعد وفروع فقه الشافعية  
+      الكتاب: الأشباه والنظائر في في النحو
       المؤلف: جلال الدين عبد الرحمن السيوطي (ت ٩١١ هـ)  
       الناشر: دار الكتب العلمية  
-      الطبعة: الأولى، ١٤٠٣ هـ - ١٩٨٣ م  
-      """ + format_url_ar("https://archive.org/details/ashbhnzer1/ashbhnzer0/")
+      """ + format_url_ar("https://lib.eshia.ir/71585/1/2")
     , sort_key = "اشباه والنظاير للسيوطي"
+    ))
+  resource_list.append(BibResource(
+    "suyooti_hama3"
+    , cit_type = "ar_ref"
+    , cit_text = "[همع الهوامع في شرح جمع الجوامع للسيوطي]{.ar}"
+    , bib_text = """
+      الكتاب: همع الهوامع في شرح جمع الجوامع  
+      المؤلف: عبد الرحمن بن أبي بكر، جلال الدين السيوطي (ت ٩١١هـ)  
+      المحقق: عبد الحميد هنداوي  
+      الناشر: المكتبة التوفيقية - مصر  
+      عدد الأجزاء: ٣  
+      """ + format_url_ar("https://shamela.ws/book/6975")
+    , sort_key = "همع الهوامع في شرح جمع الجوامع للسيوطي"
     ))
   resource_list.append(BibResource(
     "baseet_ibn_abi_rabee3"

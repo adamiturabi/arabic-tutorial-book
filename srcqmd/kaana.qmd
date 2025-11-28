@@ -113,6 +113,10 @@ Here are some examples showing some of the different conjugations:
 
 ## Word order of [كَانَ]{.ar}, its ;ism_of;, and its ;xabar;
 
+<!--
+### Word order when [كَانَ]{.ar}'s ;xabar; does not have a ;mafulb;
+-->
+
 #### verb, ;ism_of;, ;xabar; {.unnumbered}
 
 In sentence word order, the natural sequence is 
@@ -176,7 +180,96 @@ And the ;xabar; of the outer sentence is the inner sentence
 [كَانَ قَائِمًا]{.ar}.
 The ;ism_of; of [كَانَ]{.ar} is a ;mustatir; pronoun, implicated a [[هُوَ]]{.ar}.
 
-#### Word order when the ;xabar; of [كَانَ]{.ar} has a governee {.unnumbered}
+#### Word order when [كَانَ]{.ar}'s ;xabar; has a ;astate; governee {.unnumbered}
+
+We know from chapter\ (ref) that a ;mushtaqq; noun can have a ;maful;.
+The natural work order is for this ;maful; to occur after its governor, thus:
+
+(@) [كَانَ زَيْدٌ آكِلًا طَعَامَكَ]{.ar} [@suyooti_ashbaah@\ 2/59]{.citex}  
+    [Zayd was eating your food.]{.trans}  
+
+We will discuss the combinations in word order for this sentence below.
+
+(@) Basic order: [كَانَ زَيْدٌ آكِلًا]{.ar}  
+    (a) [كَانَ زَيْدٌ آكِلًا طَعَامَكَ]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
+    (c) [كَانَ زَيْدٌ طَعَامَكَ آكِلًا]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
+    (d) [طَعَامَكَ كَانَ زَيْدٌ آكِلًا]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
+    (b) ;x; [كَانَ طَعَامَكَ زَيْدٌ آكِلًا]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
+
+(@) Basic order: [كَانَ آكِلًا زَيْدٌ]{.ar}  
+    (a) [كَانَ آكِلًا طَعَامَكَ زَيْدٌ]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
+    (b) [كَانَ آكِلًا زَيْدٌ طَعَامَكَ]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
+    (d) [طَعَامَكَ كَانَ آكِلًا زَيْدٌ]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
+    (c) ;x; [كَانَ طَعَامَكَ آكِلًا زَيْدٌ]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
+
+(@kaana_aakilan_kaana_zaydun) Basic order: [آكِلًا كَانَ زَيْدٌ]{.ar}  
+    (a) [آكِلًا طَعَامَكَ كَانَ زَيْدٌ]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
+    (b) [طَعَامَكَ آكِلًا كَانَ زَيْدٌ]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
+    (c) [آكِلًا كَانَ زَيْدٌ طَعَامَكَ]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
+    (d) ;x; [آكِلًا كَانَ طَعَامَكَ زَيْدٌ]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
+
+As you can see, only three of the combinations are disallowed.^[There is some difference of opinion regarding the permissibility of some of the combinations. See @ibn_aqil_alfiyyah@\ 1/280; @suyooti_ashbaah@\ 2/59; @suyooti_hama3@ 1/432.]
+And in all three 
+[كَانَ]{.ar} 
+is separated
+from its ;ism_of; 
+([زَيْدٌ]{.ar} )
+by the governee
+([طَعَامَكَ]{.ar})
+of its ;xabar;
+([آكِلًا]{.ar}).
+
+Even some of these disallowed combinations become permitted 
+if the governee of the ;xabar; of
+[كَانَ]{.ar} 
+is not a ;mafulb;
+but a preposition or an adverb of time and place.
+Recall from section\ (ref)
+that the word order of prepositions and adverbs of time and place is especially flexible.
+So we can say:
+
+(@) [كَانَ عِنْدَكَ زَيْدٌ مُقِيمًا]{.ar}
+    [@ibn_aqil_alfiyyah@\ 1/280]{.citex}  
+    [Zayd was, at your place, staying.]{.trans}
+
+(@) [كَانَ فِيكَ زَيْدٌ رَاغِبًا]{.ar}
+    [@ibn_aqil_alfiyyah@\ 1/280]{.citex}  
+    [Zayd was, of [your favour], desirous]{.trans}
+
+Some of the combinations above, though allowed, are considered ungainly by some grammarians^[@suyooti_hama3@ 1/432],
+like (@kaana_aakilan_kaana_zaydun)\ (3)\ [آكِلًا كَانَ زَيْدٌ طَعَامَكَ]{.ar}.
+But again,
+if the governee of the ;xabar; of
+[كَانَ]{.ar} 
+is not a ;mafulb;
+but a preposition or an adverb of time and place,
+then there is no problem.
+For example:
+
+(@) [مُسَافِرًا كَانَ زَيْدٌ الْيَوْمَ]{.ar}
+    [@suyooti_hama3@ 1/432]{.citex}  
+    [Journeying Zayd was today]{.trans}  
+
+(@) [رَاغِبًا كَانَ زَيْدٌ فِيكَ]{.ar}
+    [@suyooti_hama3@ 1/432]{.citex}  
+    [Desirous Zayd was, of [your favour]]{.trans}  
+
+#### Word order of a compound sentence when [كَانَ]{.ar}'s ;xabar; has a ;astate; governee {.unnumbered}
+
+The ;ism_of; can made to precede [كَانَ]{.ar}, such that it becomes a compound sentence:
+
+(@) [زَيْدٌ كَانَ آكِلًا طَعَامَكَ]{.ar}
+    [@suyooti_ashbaah@\ 2/59]{.citex}  
+
+Now the ;ism_of; of [كَانَ]{.ar} is a ;mustatir; pronoun [[هُوَ]{.ar}].
+Since this ;mustatir; pronoun is attached to [كَانَ]{.ar},
+the ;xabar; [آكِلًا]{.ar}'s governee [طَعَامَك]{.ar} can no longer come between [كَانَ]{.ar} and its ;ism_of;.
+Now all 12 combinations are permissible.
+Here is a sampling out of them:
+
+(@) (a) [زَيْدٌ كَانَ آكِلًا طَعَامَكَ]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
+    (a) [زَيْدٌ طَعَامَكَ آكِلًا كَانَ]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
+    (a) [طَعَامَكَ آكِلًا زَيْدٌ كَانَ]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
 
 ### TODO: 
 
