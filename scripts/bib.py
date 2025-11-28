@@ -615,7 +615,20 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/9985")
     , sort_key = "شرح التصريح على التوضيح"
     ))
-
+  resource_list.append(BibResource(
+    "shatibi_sharf_alfiyyah"
+    , cit_type = "ar_ref"
+    , cit_text = "[شرح ألفية ابن مالك للشاطبي]{.ar}"
+    , bib_text = """
+      الكتاب: المقاصد الشافية في شرح الخلاصة الكافية (شرح ألفية ابن مالك)  
+      المؤلف: أبو إسحق إبراهيم بن موسى الشاطبي (المتوفى ٧٩٠ هـ)  
+      الناشر: معهد البحوث العلمية وإحياء التراث الإسلامي بجامعة أم القرى - مكة المكرمة  
+      الطبعة: الأولى، ١٤٢٨ هـ - ٢٠٠٧ م.  
+      عدد الأجزاء: ١٠ (الأخير فهارس)  
+      """ + format_url_ar("https://shamela.ws/book/20562")
+    , sort_key = "شرح الفية ابن مالك للشاطبي"
+    ))
+      
   # Western
 
   resource_list.append(BibResource(
