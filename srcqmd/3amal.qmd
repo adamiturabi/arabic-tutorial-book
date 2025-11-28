@@ -360,38 +360,38 @@ in a ;j_f3l;
 the ;muxbar; may sometimes be another element, instead of the verb that governs the ;faa3il;.
 -->
 
-## Initial government
+## #;pregov;
 
 <!--
 Besides the two ;3umdah; elements,
-a sentence also needs an initial government.[Owens §2.3.6.1 54]
+a sentence also needs an ;pregov;.[Owens §2.3.6.1 54]
 -->
 In order to build a sentence from the ;3umdah; elements,
-a sentence needs _initial government_.[Owens §2.3.6.1, 54]
+a sentence needs _;pregov;_.[Owens §2.3.6.1, 54]
 <!--
-The initial governor governs the highest governing element(s) of the two ;3umdah; elements of the sentence.
+The ;pregov; governs the highest governing element(s) of the two ;3umdah; elements of the sentence.
 -->
 <!--
-The initial governor is the source of all government in the sentence.
+The ;pregov; is the source of all government in the sentence.
 -->
-Initial government is any and all government prior to, and until, the first governed ;3umdah; element.
+#;pregov; is any and all government prior to, and until, the first governed ;3umdah; element.
 
-#### One of the two ;3umdah; elements is the initial governor {.unnumbered}
+#### One of the two ;3umdah; elements is the ;pregov; {.unnumbered}
 
 In some sentences, the intitial governor may be one of the two ;3umdah; elements.
 In example (@3amal_qaama_zaydun) above,
 the verb [قَامَ]{.ar} governs its ;faa3il; [زَيْدٌ]{.ar}.
 The ;madi; verb [قَامَ]{.ar} has no state and thus needs no governor.
-So it is, itself, the initial governor.
+So it is, itself, the ;pregov;.
 
 DIAGRAM
 
-#### Another (non-;3umdah;) element is the initial governor {.unnumbered}
+#### Another (non-;3umdah;) element is the ;pregov; {.unnumbered}
 
 The intitial governor may be internal to the sentence but not one of the two ;3umdah; elements.
 <!--
 In such cases,
-even though the initial governor is not one of the two ;3umdah; elements,
+even though the ;pregov; is not one of the two ;3umdah; elements,
 we don't call it an ;fadlah; element.
 -->
 
@@ -415,24 +415,24 @@ DIAGRAM
 DIAGRAM
 
 In example (@kaana_zaydun_qaaiman) above,
-the verb [كَانَ]{.ar} is the initial governor.
+the verb [كَانَ]{.ar} is the ;pregov;.
 But because it is a ;naqis; verb, it does not complete the sentence grammatically.
 Therefore, it is not an ;3umdah; element.
 But it is needed to govern the ;3umdah; elements.
 -->
 
-#### The abstract initial governor {.unnumbered}
+#### The abstract ;pregov; {.unnumbered}
 
-Very commonly, the initial governor is not an actual word, but only an abstract concept.
+Very commonly, the ;pregov; is not an actual word, but only an abstract concept.
 When there is one or more stateful ;3umdah; elements in a sentence with no overt (i.e. observable) governor,
-then this necessitates bringing in a _abstract_ initial governor.^[@owens_foundations_grammar@ 55; @peled_sentence_types@ 87--88]
+then this necessitates bringing in a _abstract_ ;pregov;.^[@owens_foundations_grammar@ 55; @peled_sentence_types@ 87--88]
 For example:
 
 (@) [زَيْدٌ مُنْطَلِقٌ]{.ar}
     [@peled_sentence_types@ 87]{.citex}  
     [Zayd is setting out.]{.trans}
 
-The abstract initial governor governs both the ;muxbar3; (the ;mubtada; [زَيْدٌ]{.ar}),
+The abstract ;pregov; governs both the ;muxbar3; (the ;mubtada; [زَيْدٌ]{.ar}),
 and the ;muxbar; (the ;xabar; 
 [مُنْطَلِقٌ]{.ar})
 in the ;ustate;.
@@ -440,14 +440,14 @@ in the ;ustate;.
 (@) [يَقُومُ زَيْدٌ]{.ar}  
     [Zayd stands]{.trans}
 
-The abstract initial governor governs the ;muxbar; (the ;mudarie; verb [يَقُومُ]{.ar}) in the ;ustate;.
+The abstract ;pregov; governs the ;muxbar; (the ;mudarie; verb [يَقُومُ]{.ar}) in the ;ustate;.
 And, as usual, the verb [يَقُومُ]{.ar} governs its ;faa3il; [زَيْدٌ]{.ar} (the ;muxbar3;) in the ;ustate;.
 
 <!--
 
-#### An external element as the initial governor {.unnumbered}
+#### An external element as the ;pregov; {.unnumbered}
 
-Sometimes, it is possible for an element that is external to the sentence under question, to be its initial governor.
+Sometimes, it is possible for an element that is external to the sentence under question, to be its ;pregov;.
 We will learn moe about this case in sections\ (ref) and (ref) below.
 -->
 
@@ -479,7 +479,7 @@ We will study these types of sentences in more detail in later sections, ;ia;.
 For now, we will give a brief overview specific to this example.
 
 In the above example,
-the initial governor is the particle inna.
+the ;pregov; is the particle inna.
 It governs its ;ism_of; zaydun in the ;astate;.
 And it governs its ;xabar; DAribun in the ;ustate;.
 However, its ;xabar; 
@@ -491,7 +491,7 @@ and its ;mafulb; 3amr,
 (and also its implied ;faa3il; "he").
 (Remember from section\ (ref) that an ;ism_fail; may have a ;faa3il; and a ;mafulb;.)
 But DAribun is a stateful element that itself needs a governor.
-It is put in the ;ustate; because it is the ;xabar; of the initial governor inna.
+It is put in the ;ustate; because it is the ;xabar; of the ;pregov; inna.
 -->
 
 <!--
@@ -505,7 +505,7 @@ We will study these types of sentences in more detail in later sections, ;ia;.
 For now, we will give a brief overview specific to this example.
 
 In the above example,
-the initial governor of the outer sentence is the verb kaana.
+the ;pregov; of the outer sentence is the verb kaana.
 It governs its ;faa3il; zaydun in the ;ustate;.
 And it governs its ;xabar; muntaliqan in the ;astate;.
 However,
@@ -519,12 +519,12 @@ the ;ism_fail; muntaliq,
 and its ;faa3il; abUhu.
 (Remember from section\ (ref) that an ;ism_fail; can have a ;faa3il;)
 muntaliq governs abUhu.
-But muntaliq itself is also governed by an initial governor (the verb kaana) that is not in this inner sentence.
+But muntaliq itself is also governed by an ;pregov; (the verb kaana) that is not in this inner sentence.
 -->
 <!--
-#### More than one element in the initial government {.unnumbered}
+#### More than one element in the ;pregov; {.unnumbered}
 
-Sometimes, there may be more than one element (in a chain) in the initial government, before one reaches the first governed ;3umdah; element.
+Sometimes, there may be more than one element (in a chain) in the ;pregov;, before one reaches the first governed ;3umdah; element.
 For example:
 
 (@) [لَمْ يَكُنْ زَيْدٌ قَائِمًا]{.ar}  
@@ -535,13 +535,13 @@ the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the ;0state
 The verb [يَكُنْ]{.ar}, being a ;naqis; verb, is not an ;3umdah; element.
 But [يَكُنْ]{.ar} governs the ;muxbar3; [زَيْدٌ]{.ar} in the ;ustate;
 and the ;muxbar; [قَائِمًا]{.ar} in the ;astate;.
-Therefore [يَكُنْ]{.ar} is part of the initial government.
+Therefore [يَكُنْ]{.ar} is part of the ;pregov;.
 -->
 
 ## #;fadlah; elements
 
 A ;fadlah; element is any stateful element in a sentence,
-after the initial government,
+after the ;pregov;,
 that is not either of the two ;3umdah; elements.
 The source of government for 
 a ;fadlah; element must be,
@@ -568,7 +568,7 @@ that in a ;j_ism; the ;3umdah; elements are the ;mubtada; and the ;xabar;.
 And that in
 a ;j_f3l; the ;3umdah; elements are the verb and its ;faa3il;.
 So all other elements besides these 
-(and elements that constitute the initial government)
+(and elements that constitute the ;pregov;)
 are ;fadlah; elements:
 
 Here is an (incomplete) list of some common ;fadlah; elements:
@@ -718,7 +718,7 @@ to be the ;muxbar;.
 
 In such a sentence,
 [كَانَ]{.ar}
-can be considered to be the initial governor, and the sentence may be considered a ;j_ism;.
+can be considered to be the ;pregov;, and the sentence may be considered a ;j_ism;.
 
 Similarly consider the sentence:
 
@@ -730,7 +730,7 @@ the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the ;0state
 The verb [يَكُنْ]{.ar}, being a ;naqis; verb, is not an ;3umdah; element.
 But [يَكُنْ]{.ar} governs the ;muxbar3; [زَيْدٌ]{.ar} in the ;ustate;
 and the ;muxbar; [قَائِمًا]{.ar} in the ;astate;.
-Therefore both [لَمْ]{.ar} and [يَكُنْ]{.ar} form the initial government.
+Therefore both [لَمْ]{.ar} and [يَكُنْ]{.ar} form the ;pregov;.
 
 [كَانَ]{.ar} and its sisters are discussed in more detail in chapters\ (ref).
 -->
@@ -780,9 +780,9 @@ It can sometimes be complicated to tell
 which of the twp ;3umdah; elements in a ;j_ism; is the ;muxbar3; and which is the ;muxbar;.
 We will discuss several cases below:
 
-### When there is an overt initial governor
+### When there is an overt ;pregov;
 
-When there is an overt initial governor,
+When there is an overt ;pregov;,
 like [إِنَّ]{.ar},
 [كَانَ]{.ar}, etc.,
 then it is usually easy to tell which is the ;muxbar3; and which is the ;muxbar;.
@@ -1016,7 +1016,7 @@ For example:
 
 The ;xabar; of a compound ;j_ism; is a complete sentence.
 Therefore, it has its own independent internal government for all elements within it
-(including its own initial government).
+(including its own ;pregov;).
 But the _entire_ ;xabar; is governed, albeit not markedly,  by a governor in the outer sentence.
 For example, consider the following compound ;j_ism;:
 
@@ -1027,8 +1027,8 @@ In example (@3amal_zaydun_lam_yadrib_3amran) above,
 [لَمْ يَضْرِبْ عَمْرًا]{.ar}
 is a complete sentence that is the ;xabar; of the outer sentence.
 This inner sentence has its own internal government,
-starting with its initial governor [لَمْ]{.ar}.
-The initial governor [لَمْ]{.ar}
+starting with its ;pregov; [لَمْ]{.ar}.
+The ;pregov; [لَمْ]{.ar}
 governs the verb [يَضْرِبْ]{.ar} in the ;0state;.
 And the verb [يَضْرِبْ]{.ar}
 governs an implicated ;mustatir; ;faa3il; pronoun ([هُوَ]{.ar}) in the ;ustate;,
@@ -1364,7 +1364,7 @@ and (@3amal_qaama_zaydun) [قَامَ زَيْدٌ]{.ar} above are examples of a
 
 ## The anchoring element
 
-In addition to the ;3umdah; elements, and the initial governor,
+In addition to the ;3umdah; elements, and the ;pregov;,
 some, but not all, sentences also require a _anchoring_ element [peled 140].
 The anchoring element serves as an anchor to start the sentence and justify its structure.
 It may either be a part of the sentence or external to it.
@@ -1462,7 +1462,7 @@ In a _;j_ism;_ the ;muxbar3; shall not be a ;faa3il;.
 The ;muxbar3; shall not governed by a verb or a verb-like noun as a ;faa3il;.
 The ;muxbar3; is called the _;mubtada;_ of its governor.
 -->
-The ;muxbar3; is a noun governed by an initial governor.
+The ;muxbar3; is a noun governed by an ;pregov;.
 The ;muxbar3; will require a _;xabar;_ as the ;muxbar;.
 
 
@@ -1566,13 +1566,13 @@ We will discuss it below:
 
 ### Determining the ;mubtada; and the ;xabar; in a ;j_ism;
 
-If the ;j_ism; has a word as the initial governor, then determining the ;mubtada; and the ;xabar; is easy.
+If the ;j_ism; has a word as the ;pregov;, then determining the ;mubtada; and the ;xabar; is easy.
 For example:
 
 (@) fainna Hasbaka Allah
     [@https://quran.com/8/62]{.citex}
 
-If the initial governor is abstract then the situation can be more tricky.
+If the ;pregov; is abstract then the situation can be more tricky.
 Regarding the definiteness of the two ;3umdah; elements,
 there are three possibilities:
 
@@ -2253,7 +2253,7 @@ by defining the ;j_f3l; in a way that it may begin not only with a verb, but als
 Also at the edge of the Arabic grammatical model is what we will call
 the case of overlapping sentences.
 This is when last (stateful) element of one sentence serves as the first element of the next sentence.
-In other words, the sentence has an external initial governor
+In other words, the sentence has an external ;pregov;
 (see section\ (ref) above).
 It also utilizes the kind of analysis which we developed for the sentence
 [قَائِمٌ زَيْدٌ]{.ar}.

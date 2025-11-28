@@ -76,6 +76,7 @@ map_table["hal"] = {"HAl", "trn2"}
 
 map_table["idaafah"] = {"annexation", nil}
 map_table["indir_mafulb"] = {"indirect doee", nil}
+map_table["pregov"] = {"foundational government", nil} -- initial gov, pre-gov, foundational gov
 map_table["ism_fail"] = {"doer participle", nil}
 map_table["ism_isharah"] = {"pointing noun", nil}
 map_table["ism_of"] = {"subject", nil}
@@ -145,6 +146,7 @@ map_table["shibh_jumlah"] = {"quasi-sentence", nil}
 map_table["shibh_jumlah"] = {"quasi-sentence", nil}
 map_table["substantive"] = {"substantive", nil}
 
+map_table["taamm"] = {"sufficient", nil}
 map_table["tabi3"] = {"follower", nil}
 map_table["tamyiz"] = {"tamyIz", "trn2"}
 map_table["tawkeed"] = {"emphatic follower", nil}
