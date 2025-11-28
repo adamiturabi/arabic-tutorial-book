@@ -541,7 +541,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "suyooti_ashbaah"
     , cit_type = "ar_ref"
-    , cit_text = "[الأشباه والنظائر في النحو للسيوطي]{.ar}"
+    , cit_text = "[الأشباه والنظائر للسيوطي]{.ar}"
     , bib_text = """
       الكتاب: الأشباه والنظائر في في النحو
       المؤلف: جلال الدين عبد الرحمن السيوطي (ت ٩١١ هـ)  
@@ -552,7 +552,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "suyooti_hama3"
     , cit_type = "ar_ref"
-    , cit_text = "[همع الهوامع في شرح جمع الجوامع للسيوطي]{.ar}"
+    , cit_text = "[الهمع للسيوطي]{.ar}"
     , bib_text = """
       الكتاب: همع الهوامع في شرح جمع الجوامع  
       المؤلف: عبد الرحمن بن أبي بكر، جلال الدين السيوطي (ت ٩١١هـ)  
