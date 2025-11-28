@@ -647,9 +647,15 @@ Previously we had said that a ;j_ism; is one that begins with a noun.
 And a ;j_ism; is one that begins with a verb.
 We will now refine these definitions:
 
+<!--
 A _;j_ism;_ is one whose first ;3umdah; element is a noun.
 And
 a _;j_f3l;_ is one whose first ;3umdah; element is a verb.
+-->
+A _;j_ism;_ is one whose ;3umdah; elements are two nouns: a ;ism_of; (as the ;muxbar3;) and an ;xabar; (as the ;muxbar;).
+And
+a _;j_f3l;_ is one whose ;3umdah; elements are a verb (as the ;muxbar3;) and and its ;faa3il; (as the ;muxbar;).
+
 Consider, for example, the following sentence:
 
 (@) [بَلْ زَيْدٌ قَائِمٌ]{.ar}  
@@ -657,8 +663,9 @@ Consider, for example, the following sentence:
 
 The first word in the sentence above is [بَلْ]{.ar}.
 It is a particle and not a ;3umdah; element.
-Removing it from the sentence, we see that the first of the remaining ;3umdah; elements is [زَيْدٌ]{.ar},
-which is a noun. So the sentence is a ;j_ism;.
+Removing it from the sentence, we see that the remaining ;3umdah; elements are two nouns:
+[زَيْدٌ]{.ar} (the ;mubtada;) and [قَائِمٌ]{.ar} (as the ;xabar;).
+So the sentence is a ;j_ism;.
 
 Let's take a look at another example:
 
@@ -674,6 +681,9 @@ it is usually a ;fadlah; elements
 Stripping the sentence of this ;fadlah; element, we are left with
 [رَأَيْتُ]{.ar} [I saw]{.trans}.
 This is a ;j_f3l;.
+The verb [رَأى]{.ar} is the ;muxbar; and its ;faa3il;, the pronoun [تُ]{.ar}, is the ;muxbar3;.
+
+<!--
 
 ## The hybrid sentence
 
@@ -723,7 +733,7 @@ and the ;muxbar; [قَائِمًا]{.ar} in the ;astate;.
 Therefore both [لَمْ]{.ar} and [يَكُنْ]{.ar} form the initial government.
 
 [كَانَ]{.ar} and its sisters are discussed in more detail in chapters\ (ref).
-
+-->
 <!--
 Similarly, consider the sentence:
 
@@ -740,8 +750,9 @@ seems incomplete.
 
 [ظَنَّ]{.ar} and its sisters are discussed in more detail in chapters\ (ref).
 -->
-
+<!--
 We will see another example of a hybrid sentence in section\ (aqaaimun zaydun).
+-->
 
 
 <!--
