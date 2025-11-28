@@ -74,21 +74,21 @@ DIAGRAM
 [كَانَ]{.ar} is a hollow verb.
 Here is its conjugation table for easy reference:
 
-|#;faa3il; pronoun|past verb|;mudarie; verb|
-|:----|:----|:----|
-| he        | [كَانَ]{.ar}   | [يَكُونُ]{.ar}   |
-| she       | [كَانَتْ]{.ar}  | [تَكُونُ]{.ar}   |
-| you~1m~   | [كُنْتَ]{.ar}   | [تَكُونُ]{.ar}   |
-| you~1f~   | [كُنْتِ]{.ar}   | [تَكُونِينَ]{.ar} |
-| I         | [كُنْتُ]{.ar}   | [أَكُونُ]{.ar}   |
-| they~2m~  | [كَانَا]{.ar}  | [يَكُونَانِ]{.ar} |
-| they~2f~  | [كَانَتَا]{.ar} | [تَكُونَانِ]{.ar} |
-| you~2~    | [كُنْتُمَا]{.ar} | [تَكُونَانِ]{.ar} |
-| they~3m~  | [كَانُوا]{.ar} | [يَكُونُونَ]{.ar} |
-| they~3f~  | [كُنَّ]{.ar}    | [يَكُنَّ]{.ar}    |
-| you~3m~   | [كُنْتُمْ]{.ar}  | [تَكُونُونَ]{.ar} |
-| you~3f~   | [كُنْتُنَّ]{.ar}  | [تَكُنَّ]{.ar}    |
-| we        | [كُنَّا]{.ar}   | [نَكُونُ]{.ar}   |
+|#;faa3il; pronoun|past verb|;ustate; ;mudarie; verb|;astate; ;mudarie; verb|;0state; ;mudarie; verb|
+|:--|:----|:----|:----|:----|
+| he        | [كَانَ]{.ar}   | [يَكُونُ]{.ar}   | [يَكُونَ]{.ar}   | [يَكُنْ]{.ar}   |
+| she       | [كَانَتْ]{.ar}  | [تَكُونُ]{.ar}   | [تَكُونَ]{.ar}   | [تَكُنْ]{.ar}   |
+| you~1m~   | [كُنْتَ]{.ar}   | [تَكُونُ]{.ar}   | [تَكُونَ]{.ar}   | [تَكُنْ]{.ar}   |
+| you~1f~   | [كُنْتِ]{.ar}   | [تَكُونِينَ]{.ar} | [تَكُونِي]{.ar}  | [تَكُونِي]{.ar}  |
+| I         | [كُنْتُ]{.ar}   | [أَكُونُ]{.ar}   | [أَكُونَ]{.ar}   | [أَكُنْ]{.ar}   |
+| they~2m~  | [كَانَا]{.ar}  | [يَكُونَانِ]{.ar} | [يَكُونَا]{.ar}  | [يَكُونَا]{.ar}  |
+| they~2f~  | [كَانَتَا]{.ar} | [تَكُونَانِ]{.ar} | [تَكُونَا]{.ar}  | [تَكُونَا]{.ar}  |
+| you~2~    | [كُنْتُمَا]{.ar} | [تَكُونَانِ]{.ar} | [تَكُونَا]{.ar}  | [تَكُونَا]{.ar}  |
+| they~3m~  | [كَانُوا]{.ar} | [يَكُونُونَ]{.ar} | [يَكُونُوا]{.ar} | [يَكُونُوا]{.ar} |
+| they~3f~  | [كُنَّ]{.ar}    | [يَكُنَّ]{.ar}    | [يَكُنَّ]{.ar}    | [يَكُنَّ]{.ar}    |
+| you~3m~   | [كُنْتُمْ]{.ar}  | [تَكُونُونَ]{.ar} | [تَكُونُوا]{.ar} | [تَكُونُوا]{.ar} |
+| you~3f~   | [كُنْتُنَّ]{.ar}  | [تَكُنَّ]{.ar}    | [تَكُنَّ]{.ar}    | [تَكُنَّ]{.ar}    |
+| we        | [كُنَّا]{.ar}   | [نَكُونُ]{.ar}   | [نَكُونَ]{.ar}   | [نَكُنْ]{.ar}   |
 
 Here are some examples showing some of the different conjugations:
 
@@ -112,6 +112,8 @@ Here are some examples showing some of the different conjugations:
 
 ### Word order of [كَانَ]{.ar}, its ;ism_of;, and its ;xabar;
 
+#### verb, ;ism_of;, ;xabar; {.unnumbered}
+
 In sentence word order, the natural sequence is 
 verb, ;ism_of;, ;xabar;.
 
@@ -119,13 +121,17 @@ verb, ;ism_of;, ;xabar;.
   [@wright@ 2/100B]{.citex}  
   [Zayd was standing.]{.trans}  
 
-but we may also apply the sequence verb, ;xabar;, ;ism_of;:
+#### verb, ;xabar;, ;ism_of; {.unnumbered}
+
+The sequence verb, ;xabar;, ;ism_of; is also permissible.
 
 (@) [كَانَ قَائِمًا زَيْدٌ]{.ar}
     [@wright@ 2/100B]{.citex}  
     [Zayd was standing.]{.trans}
 
-and also the sequence ;xabar;, verb, ;ism_of;:
+#### ;xabar;, verb, ;ism_of; {.unnumbered}
+
+So is the sequence ;xabar;, verb, ;ism_of;:
 
 (@) [قَائِمًا كَانَ زَيْدٌ]{.ar}
     [@wright@ 2/100B]{.citex}  
@@ -155,16 +161,20 @@ This is because, if we invert it, it would naturally mean:
     [@wright@ 2/100C]{.citex}  
     [My companion was my brother.]{.trans}
 
+####  The sequence: ;ism_of;, verb, ;xabar;
+
 What about the sequence: ;ism_of;, verb, ;xabar;? For example:
 
 (@) [زَيْدٌ كَانَ قَائِمًا]{.ar}  
-    [Zayd: he was standing.]{.trans}
+    [Zayd -- he was standing.]{.trans}
 
 Actually this is a compound sentence.
 [زَيْدٌ]{.ar} is the ;mubtada; of the outer sentence.
 And the ;xabar; of the outer sentence is the inner sentence
 [كَانَ قَائِمًا]{.ar}.
 The ;ism_of; of [كَانَ]{.ar} is a ;mustatir; pronoun, implicated a [[هُوَ]]{.ar}.
+
+#### Word order when the ;xabar; of [كَانَ]{.ar} has a governee {.unnumbered}
 
 ### TODO: 
 
