@@ -1356,7 +1356,7 @@ Here is an example of a sentence with a ;damir_shan;:
 
 (@) [هُوَ زَيْدٌ مُنْطَلِقٌ]{.ar}
     [[@maani_nahw@ 1/57](https://shamela.ws/book/17801/56)]{.citex}  
-    [The state of affairs is: Zayd is setting out.]{.trans}  
+    [[The state of affairs] is: Zayd is setting out.]{.trans}  
 
 The pronoun [هُوَ]{.ar} is the ;damir_shan;
 It is the ;mubtada; of the outer sentence.
@@ -1367,14 +1367,86 @@ The ;damir_shan;'s referent is the entire sentence
 that occurs after it.
 
 The ;damir_shan; is typically used for statements that are momentous.
+Consider, for example, a situation where one hears some hubbub, and wonders,
+"What is the state of affairs that is causing this hubbub?"
+The answer to this question is:
+
+(@3amal_huwa_alameeru_muqbilun) [هُوَ الأَمِيرُ مُقْبِلٌ]{.ar}
+    [@radiy_kafiyah@ 2/464]{.citex}  
+    [It is: the commander is approaching.]{.trans}  
+    (the pronoun "it" is referring to "the state of affairs".)
+
+This pronoun is often left untranslated.
+So example (@3amal_huwa_alameeru_muqbilun) may simply be translated as
+[The commander is approaching.]{.trans}
+
+Here are some rules and guidelines regarding the ;damir_shan;:
+
+#### The gender of the ;damir_shan; {.unnumbered}
+
+The ;damir_shan; is generally the masculine pronoun [هُوَ]{.ar} if the ;mubtada; of the following sentence is masculine.
+And the ;damir_shan; is generally the feminine pronoun [هِيَ]{.ar} if the ;mubtada; of the following sentence is feminine.
+Examples:
+
+(@) [**هُوَ** زَيْدٌ قَائِمٌ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 745]{.citex}  
+    [[The state of affairs] is: Zayd is standing.]{.trans}
+
+(@) [**هِيَ** هِنْدٌ قَائِمَةٌ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 745]{.citex}  
+    [[The state of affairs] is: Hind is standing.]{.trans}
+
+As mentioned,
+the gender of the ;damir_shan; generally matches the gender of the following ;mubtada; (as above).
+Sometimes, however, it is found to mismatch. For example:
+
+(@) [**هِيَ** زَيْدٌ قَائِمٌ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 745]{.citex}  
+    [[The state of affairs] is: Zayd is standing.]{.trans}
+
+(@) [**هُوَ** هِنْدٌ قَائِمَةٌ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 745--756]{.citex}  
+    [[The state of affairs] is: Hind is standing.]{.trans}
+
+#### The ;damir_shan; is always a singular pronoun {.unnumbered}
+
+The ;damir_shan; is always a singular pronoun, regardless of whether the subject of the following ;mubtada; is singular, dual, or plural.^[[@maani_nahw@ 1/59](https://shamela.ws/book/17801/58#p1)]
+
+(@) [**هُوَ** الزَّيْدَانِ قَائِمَانِ]{.ar}  
+    [[The state of affairs] is: the two Zayds are standing.]{.trans}
+
+(@) [**هِيَ** الْهِنْدَاتُ قَائِمَاتٌ]{.ar}  
+    [[The state of affairs] is: the Hinds are standing.]{.trans}
+
+#### The ;damir_shan; is always a pronoun of for the ;third; person {.unnumbered}
+
+Even if the ;mubtada; of the inner sentence is a pronoun for the ;first; or ;second; persons,
+the ;damir_shan; is always a pronoun of for the ;third; person.
 For example:
 
-[@radiy_kafiyah@ 2/ 464]{.citex}
+(@) [هُوَ أَنَا زَيْدٌ]{.ar}
+    [[@maani_nahw@ 1/59](https://shamela.ws/book/17801/58#p1)]{.citex}  
+    [[The fact] is: I am Zayd.]{.trans}  
 
-<https://jamharah.net/showthread.php?p=62739>
+The sentence 
+(@) [أَنَا أَنَا زَيْدٌ]{.ar}
+is possible, but in this case the pronoun [أَنَا]{.ar} is not a ;damir_shan;.
+Rather it is repeated for emphasis.^[[@maani_nahw@ 1/59](https://shamela.ws/book/17801/58#p1)]
 
-[إذا لم يدخله نواسخ المبتدأ فلا بد أن يكون مفسره جملة اسمية]{.ar}
-[@radiy_kafiyah@ 2/ 467]{.citex}
+#### The ;damir_shan;s [هُوَ]{.ar} and [هِيَ]{.ar} only introduce ;j_ism;s
+
+The ;damir_shan;s [هُوَ]{.ar} and [هِيَ]{.ar} only introduce ;j_ism;s.^[@radiy_kafiyah@ 2/467]
+This can be seen in the examples above.
+
+We will see, in sections\ (kaana) and (inna),
+that the ;damir_shan; can also be used with
+[كَانَ]{.ar} and [إِنَّ]{.ar} (and its sisters).
+In these cases, the ;damir_shan; may introduce ;j_f3l;s.
+For example:
+
+(@) [فَإِنَّهَا لَا تَعۡمَى ٱلۡأَبۡصَـٰرُ]{.quran}
+    [@https://quran.com/22/46@ cited by @radiy_kafiyah@ 2/467]{.citex}  
+    [For indeed, it is not eyes that are blinded]{.trans}  
 
 ## FINI
 
