@@ -26,19 +26,26 @@ If we say
 [كَانَ زَيْدٌ]{.ar}
 [Zayd was]{.trans}
 then the meaning is, in general, incomplete.
-The listener would be left wondering, "Zayd was what?"
+The listener would be left wondering,
+[Zayd was what?]{.trans}
 <!--
 [كَانَ]{.ar},
 and verbs like it,
 are termed ;naqis; verbs.
 -->
-We have to add the ;mafulb; to complete the meaning of the sentence.
+So,
+in order
+to complete the meaning of the sentence,
+we have to add a ;mafulb; for [كَانَ]{.ar}.
 For example:
 
 (@kaana_kaana_zaydun_qaaiman) [كَانَ زَيْدٌ قَائِمًا]{.ar}
     [@peled_sentence_types@ 171]{.citex}  
     [Zayd was standing]{.trans}  
 
+Now the sentence is structurally complete.
+
+<!--
 In example (@kaana_kaana_zaydun_qaaiman) 
 the ;faa3il;
 [زَيْدٌ]{.ar}
@@ -47,31 +54,61 @@ But the ;muxbar; is not the verb
 [كَانَ]{.ar}.
 Rather it is the ;mafulb;
 [قَائِمًا]{.ar}.
+-->
 
 ## A [كَانَ]{.ar} sentence as a ;j_ism;
 
-In example (@kaana_kaana_zaydun_qaaiman) [كَانَ زَيْدٌ قَائِمًا]{.ar},
-the  verb
-[كَانَ]{.ar} is not a ;3umdah; element.
-However, it governs both ;3umdah; elements.
-So it is the ;pregov; of the sentence (see section\ (ref)).
-
 The fact that [كَانَ]{.ar} is not a ;3umdah; element of its sentence
 also changes the classification of the sentence.
-The ;3umdah; elements in (@kaana_kaana_zaydun_qaaiman) are the ;ism_of;
-([زَيْدٌ]{.ar})
-and the ;xabar;
-([قَائِمًا]{.ar}),
+The ;muxbar3;
+in example (@kaana_kaana_zaydun_qaaiman)
+[زَيْدٌ]{.ar}
+needs
+a ;muxbar; to complete the sentence.
+Because
+the  verb
+[كَانَ]{.ar}
+does not complete the meaning of the sentence,
+therefore
+it cannot be the ;muxbar;.
+The sentence becomes structurally complete when we add the ;mafulb;
+[قَائِمًا]{.ar}.
+Therefore, the ;mafulb;
+[قَائِمًا]{.ar}
+is the ;muxbar;.
+
+So ;3umdah; elements in example (@kaana_kaana_zaydun_qaaiman) become
+[زَيْدٌ]{.ar}
+(the ;muxbar3;)
+and 
+[قَائِمًا]{.ar}
+(the ;muxbar;).
+These two are nouns, not a verb and its ;faa3il;.
+Therefore the sentence is reclassified as a ;j_ism;, not a ;j_f3l;
+(see section\ (3amal)).^[See also @peled_sentence_types@ 171]
+[زَيْدٌ]{.ar}
+is consisdered the ;ism_of;,
+and 
+[قَائِمًا]{.ar}
+is considered the ;xabar;.^[This is according to the classification of the [#baSr]{.trn2}ans. The [#kUf]{.trn2}ans considred the ;astate; governee of [كَانَ]{.ar} its ;hal;. See [@shatibi_sharf_alfiyyah@\ 2/137](https://shamela.ws/book/20562/798#p1)]
+
+Although
+[كَانَ]{.ar}
+is not a ;3umdah; element anymore,
+it still governs both ;3umdah; elements.
+Therefore, it is the ;pregov; of the sentence (see section\ (ref)).
+
+<!--
 not the verb ([كَانَ]{.ar}) and its ;faa3il;
 ([زَيْدٌ]{.ar}).
 Therefore, the sentence is a ;j_ism;, not a ;j_f3l;
-(see section\ (3amal)).^[See also @peled_sentence_types@ 171]
 
 We leaned in section\ (ref) that the ;3umdah; elements of a ;j_ism; are its ;ism_of; and its ;xabar;.
 So now that a [كَانَ]{.ar} sentence is reclassified as a ;j_ism;,
 we also rename its ;3umdah; elements.
 The ;faa3il; of [كَانَ]{.ar} is termed its ;ism_of;.
-And the ;mafulb; of [كَانَ]{.ar} is termed its ;xabar;.^[This is according to the classification of the [#baSr]{.trn2}ans. The [#kUf]{.trn2}ans considred the ;astate; governee of [كَانَ]{.ar} its ;hal;. See [@shatibi_sharf_alfiyyah@\ 2/137](https://shamela.ws/book/20562/798#p1)]
+And the ;mafulb; of [كَانَ]{.ar} is termed its ;xabar;.
+-->
 The diagram below depicts the government of example (@kaana_kaana_zaydun_qaaiman).
 
 DIAGRAM

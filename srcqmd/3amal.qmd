@@ -268,7 +268,7 @@ The foundation of the Arabic sentence
 -->
 This structure
 requires two _;3umdah;_ elements
-in order to be complete.
+in order to be ;isnaad_comp;.^[@wright@ 2/250ff; @samarrai_jumlah@ 13ff]
 These two ;3umdah; elements are:
 
  i. The ;muxbar3;
@@ -281,8 +281,8 @@ ii. The ;muxbar;
 
 \draw[pattern=north west lines, pattern, draw=none] (0,0) rectangle (6,-0.4);
 \draw (0,0) -- (6,0);
-\draw[fill=lightgray] (2,-0.3) rectangle node [rotate=90] {supporting element} (2.4, 5);
-\draw[fill=lightgray, rotate around={30:(5.05,-0.3)}] (5.05,-0.3) rectangle node [rotate=-60] {leaning element} (5.45, 6);
+\draw[fill=lightgray] (2,-0.3) rectangle node [rotate=90] {structure-starter} (2.4, 5);
+\draw[fill=lightgray, rotate around={30:(5.05,-0.3)}] (5.05,-0.3) rectangle node [rotate=-60] {structure-completer} (5.45, 6);
 
 \end{tikzpicture}
 ```
@@ -297,11 +297,11 @@ And the ;muxbar; is meant to provide some interesting comment about the ;muxbar3
 It expresses some property about the ;muxbar3; that completes the meaning of the sentence.
 
 Once the two ;3umdah; elements are in place,
-the sentence is grammatically complete.
+the sentence is ;isnaad_comp;.
 Other _;fadlah;_ elements
 (see section\ (ref) below)
 may be added in addition to the ;3umdah; elements to add meaning to the sentence,
-but they are not required to make the sentence grammatically complete.
+but they are not required to make the sentence ;isnaad_comp;.
 
 Let's look at the ;3umdah; elements for the two types of Arabic sentences:
 
@@ -547,21 +547,6 @@ The source of government for
 a ;fadlah; element must be,
 directly or indirectly,
 one of the ;3umdah; elements.
-By the way,
-when we say _;fadlah;_,
-we mean that it is ;fadlah; in the sense that it is not required to complete the sentence _grammatically_.
-We don't mean that it is superfluous in terms of its meaning.
-In fact, a ;fadlah; element may be essential for the correct meaning of the sentence.
-For example, consider the ;ayah;:
-
-(@) [وَمَا خَلَقۡنَا ٱلسَّمَاۤءَ وَٱلۡأَرۡضَ وَمَا بَیۡنَهُمَا لَـٰعِبِینَ]{.quran}
-    [@https://quran.com/21/16@ cited by [@maani_nahw@ 1/14](https://shamela.ws/book/17801/13)]{.citex}  
-    [And We did not create the heaven and earth and that between them in play.]{.trans}
-
-[لَاعِبِينَ]{.ar} is a ;hal; (see in chapter\ (ref)),
-which is a ;fadlah; element.
-If we remove it from the sentence,
-then the sentence will be complete grammatically but it will have an incorrect meaning.
 
 We know from section\ (ref) above,
 that in a ;j_ism; the ;3umdah; elements are the ;mubtada; and the ;xabar;.
@@ -569,8 +554,7 @@ And that in
 a ;j_f3l; the ;3umdah; elements are the verb and its ;faa3il;.
 So all other elements besides these 
 (and elements that constitute the ;pregov;)
-are ;fadlah; elements:
-
+are ;fadlah; elements.
 Here is an (incomplete) list of some common ;fadlah; elements:
 <!--
 We will discuss some of ;fadlah; elements below:
@@ -591,9 +575,26 @@ These include:
 * the ;hal; (see chapter\ (ref))
 * the ;tamyiz; (see chapter\ (ref))
 
+
+By the way,
+when we say _;fadlah;_,
+we mean that an element is ;fadlah; in the sense that it is not required to complete the sentence _structurally_.
+We don't mean that it is superfluous in terms of its meaning.
+In fact, a ;fadlah; element may be essential for the correct meaning of the sentence.
+For example, consider the ;ayah;:
+
+(@) [وَمَا خَلَقۡنَا ٱلسَّمَاۤءَ وَٱلۡأَرۡضَ وَمَا بَیۡنَهُمَا لَـٰعِبِینَ]{.quran}
+    [@https://quran.com/21/16@ cited by [@maani_nahw@ 1/14](https://shamela.ws/book/17801/13)]{.citex}  
+    [And We did not create the heaven and earth and that between them in play.]{.trans}
+
+[لَاعِبِينَ]{.ar} is a ;hal; (see in chapter\ (ref)),
+which is a ;fadlah; element.
+If we remove it from the sentence,
+then the sentence will be ;isnaad_comp; but it will have an incorrect meaning.
+
 <!--
 The ;mafulb; is usually a ;fadlah; element.
-In most sentences, if we remove the ;mafulb; the sentence remains grammatically complete.
+In most sentences, if we remove the ;mafulb; the sentence remains ;isnaad_comp;.
 For example:
 
 However, if a verb is ;naqis;
@@ -708,7 +709,7 @@ But
 [كَانَ]{.ar}, as used above,
 is a ;naqis; verb
 (see chapter\ (ref).)
-This means that it does not have sufficient meaning to grammatically complete the sentence by itself.
+This means that it does not have sufficient meaning to ;isnaad_comp; the sentence by itself.
 So it cannot be a ;3umdah; ;muxbar;.
 Instead,
 [كَانَ]{.ar}
@@ -1947,7 +1948,7 @@ So we can say:
 In examples () and () above, the inner sentence ;xabar;s are ;inshai;.
 But they are valid as a ;xabar; for their outer sentences,
 and due to them,
-the outer sentences are grammatically complete.
+the outer sentences are ;isnaad_comp;.
 
 #### Invalid inner sentences {.unnumbered}
 
