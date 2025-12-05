@@ -66,7 +66,7 @@ map_table["af3aal_quloob"] = {"verbs of perception", nil}
 
 map_table["badal"] = {"substitute", nil} -- replacement, substitute
 
-map_table["damir_shan"] = {"s͡haʾn-pronoun", nil} -- pronoun-of-fact
+map_table["damir_shan"] = {"state-of-affairs pronoun", nil} -- pronoun-of-fact, pronoun of s͡haʾn
 map_table["dharf_makan"] = {"adverb of place", nil}
 map_table["dharf_zaman"] = {"adverb of time", nil}
 
@@ -74,6 +74,7 @@ map_table["faa3il"] = {"doer", nil}
 
 map_table["hal"] = {"HAl", "trn2"}
 
+map_table["i3timaad"] = {"governing support", nil}
 map_table["idaafah"] = {"annexation", nil}
 map_table["indir_mafulb"] = {"indirect doee", nil}
 map_table["pregov"] = {"foundational government", nil} -- initial gov, pre-gov, foundational gov
@@ -87,7 +88,7 @@ map_table["ism_makan"] = {"noun of place", nil}
 map_table["ism_masdar"] = {"quasi-maṣdar", nil}
 map_table["ism_mawsul"] = {"connected noun", nil}
 map_table["ism_zaman"] = {"noun of time", nil}
---map_table["isnaad"] = {"sentence-completion", nil}
+map_table["isnaad_comp"] = {"structurally complete", nil}
 
 map_table["jamid"] = {"underived", nil}
 map_table["jawab"] = {"consequence", nil}
@@ -115,8 +116,8 @@ map_table["mudafil"] = {"base noun", nil}
 map_table["mudarie"] = {"stateful", nil} -- {"muDArie", "trn2"} -- "stateful", resembling, prefixed
 map_table["mushar_il"] = {"pointed-to noun", nil} -- {"muDArie", "trn2"}
 map_table["mushtaqq"] = {"deverbal", nil} -- deverbal, derived
-map_table["musnad"] = {"leaning element", nil} -- complement
-map_table["musnadi"] = {"supporting element", nil} -- rock, mainstay, anchor, pillar
+map_table["musnad"] = {"structure-completer", nil} -- complement, leaning element
+map_table["musnadi"] = {"structure-starter", nil} -- rock, mainstay, anchor, pillar, supporting element
 map_table["mustatir"] = {"latent", nil} -- assumed, hidden, invisible, implied
 map_table["muxbar3"] = map_table["musnadi"] -- theme,rock, mainstay, anchor, subject, keystone, cornerstone, post, mast, pillar
 map_table["muxbar"] = map_table["musnad"] -- rheme, complement, predicate, cornerstone, keystone, capstone, rafter, beam
