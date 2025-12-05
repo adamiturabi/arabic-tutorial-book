@@ -557,25 +557,21 @@ then two conditions must be satisfied:
 
 When the ;ism_fail; is defined by [ٱلْ]{.ar},
 then it is permitted to govern a ;mafulb; for a perfect or imperfect aspect.
+<!--
 So we can say:
 
 (@) [هذا الضارب زيدا الآن أو غدا أو أمس]{.ar}
     [@ibn_aqil_alfiyyah@ 3/110]{.citex}  
     [This [person] is the beater of Zayd now/tomorrow/yesterday.]{.trans}
-
+-->
 Furthermore, no governing support is required for it to be a governor,^[[@nahw_wafi@ 3/254](https://shamela.ws/book/10641/1480)]
 (as was required for the ;ism_fail; without [ٱلْ]{.ar} in section\ (ref) above).
 
 So we can say:
 
-(@) [جاءني القائم أبوه]{.ar}
-    [[@shatibi_sharf_alfiyyah@ 1/449](https://shamela.ws/book/20562/449)]{.citex}  
-    [The one whose father is standing came.]{.trans}  
-
-(@) [القائم أبوه ضاحك]{.ar}
-    [[@abu_hayyan_tadhyeel@ 3/257](https://shamela.ws/book/17116/917#p1)]{.citex}  
-    [The one whose father is standing is laughing.]{.trans}  
-
+(@) [جاء الضارب زيداً أمسِ أو الآن أو غداً]{.ar}
+    [[@sharh_shudhoor_aldhahab@ 2/683](https://shamela.ws/book/9134/666)]{.citex}  
+    [The beater of Zayd came yesterday/today/tomorrow]{.trans}
 
 ## The ;ism_fail; as the governor of an ;zaahir; ;faa3il; pronoun
 
@@ -894,8 +890,15 @@ We will treat each of these separately below:
 The grammarians differed with regard to the
 conditions under which the ;ism_fail; is allowed to govern an ;zaahir; ;faa3il;.
 According to some, the same conditions are applicable as for governing a ;mafulb;,
-namely that the ;ism_fail; can only govern an ;zaahir; ;faa3il; when it has an imperfect aspect.
-And it is not allowed to govern an ;zaahir; ;faa3il; for a perfect aspect.
+namely that 
+when an ;ism_fail; is not defined by [ٱل]{.ar},
+then
+it can only govern an ;zaahir; ;faa3il; when 
+
+ i. It has an imperfect aspect.
+ii. It has governing support
+
+So it is not allowed to govern an ;zaahir; ;faa3il; for a perfect aspect.
 The following example would then be disallowed:
 
 (@) ;x; [زَيْدٌ قَائِمٌ أَبُوهُ أَمْسِ]{.ar}
@@ -903,6 +906,26 @@ The following example would then be disallowed:
     [Zayd -- his father stood yesterday.]{.trans}
 
 Other grammarians, however, allowed such a sentence.^[@su3ood_dameer_mustatir@ 134]
+
+when an ;ism_fail; is defined by [ٱل]{.ar},
+then
+it can only govern an ;zaahir; ;faa3il; unconditionally.
+So it can govern with perfective aspect and without governing support.
+Examples:
+
+(@) [جاءني القائم أبوه]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 1/449](https://shamela.ws/book/20562/449)]{.citex}  
+    [The one whose father is standing came.]{.trans}  
+
+(@) [القائم أبوه ضاحك]{.ar}
+    [[@abu_hayyan_tadhyeel@ 3/257](https://shamela.ws/book/17116/917#p1)]{.citex}  
+    [The one whose father is standing is laughing.]{.trans}  
+
+(@) [جاء الضارب أبوه زيدًا أمس]{.ar}
+    [[@sharh_ibn_naazim_alfiyyah@ 59](https://shamela.ws/book/18115/57)]{.citex}  
+    [The one whose father beat Zayd yesterday came.]{.trans}  
+
+
 
 ### Conditions for the ;ism_fail; to govern a ;mustatir; ;faa3il; pronoun
 
