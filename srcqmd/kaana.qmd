@@ -840,14 +840,16 @@ Examples:
 
 ### Deletion of [ن]{.ar}
 
-The [ن]{.ar} in the following ;0state; ;mudarie; verbs may, optionally, be deleted:
+For the ;0state; ;mudarie; conjugations of [كَانَ]{.ar} that don't have a [و]{.ar} between [ك]{.ar} and [ن]{.ar},
+the [ن]{.ar} may optionally be deleted if certaun conditions are satisfied.
+These conjugations are:
 
 + [يَكُنْ]{.ar} can become [يَكُ]{.ar}
 + [تَكُنْ]{.ar} can become [تَكُ]{.ar}
 + [نَكُنْ]{.ar} can become [نَكُ]{.ar}
 + [أَكُنْ]{.ar} can become [أَكُ]{.ar}
 
-This is done under the following conditions^[Conditions and examples taken from <https://github.com/zahidsyed/learning-nahw-analytically>]:
+These are the conditions, all of whom must be satisfied^[Conditions and examples taken from <https://github.com/zahidsyed/learning-nahw-analytically>]:
 
   i. The verb is not followed by a ;0mark;. Examples:
 
@@ -874,7 +876,7 @@ iii. The verb is not at the end of a sentence. Example:
          [@https://quran.com/19/20@]{.citex}  
          [and I have not been unchaste]{.trans}
 
-Here are some examples which satisfy the conditions so the [ن]{.ar} is deleted.
+Here are some more examples which satisfy the conditions so the [ن]{.ar} is deleted.
 Examples:
 
 (@) [وَلَا **تَكُ** فِى ضَيْقٍۢ مِّمَّا يَمْكُرُونَ]{.quran}
@@ -884,6 +886,14 @@ Examples:
 (@) [وَقَدْ خَلَقْتُكَ مِن قَبْلُ وَلَمْ **تَكُ** شَيْـًۭٔا]{.quran}
     [@https://quran.com/19/9@]{.citex}  
     [for I created you before, while you were nothing]{.trans}
+
+(@) [قَالُوا۟ لَمۡ نَكُ مِنَ ٱلۡمُصَلِّینَ ۝٤٣ وَلَمۡ نَكُ نُطۡعِمُ ٱلۡمِسۡكِینَ ۝٤]{.quran}
+    [@https://quran.com/74/43-44@]{.citex}  
+    [They will say, "We were not of those who prayed, Nor did we used to feed the poor.]{.trans}  
+
+(@) [أَلَمۡ یَكُ نُطۡفَةࣰ مِّن مَّنِیࣲّ یُمۡنَىٰ]{.quran}
+    [@https://quran.com/75/37@]{.citex}  
+    [Had he not been a sperm from semen emitted?]{.trans}
 
 <!--
 But we can't say:
