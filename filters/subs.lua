@@ -153,6 +153,7 @@ map_table["tamyiz"] = {"tamyIz", "trn2"}
 map_table["tawkeed"] = {"emphatic follower", nil}
 
 map_table["x"] = {"✗", nil}
+map_table["v"] = {"✓", nil}
 map_table["xabar"] = {"info", nil} -- newsworthy expression, information, comment, remark, info, report, news, expression
 
 map_table["zaaid"] = {"redundant", nil}
