@@ -1033,48 +1033,87 @@ is the ;mustatir; pronoun
 that refers back to the ;ism_of;
 [زَيْدٌ]{.ar}.
 
-The word order
+The sequence
 ([كَانَ]{.ar},
-its ;ism_of;,
-a ;mudarie; verb,
-;mustatir; ;faa3il; pronoun)
-is a very commonly used seqence.
+;ism_of;,
+;mudarie; verb)
+is a very commonly used word order.
 But there is also another word order which is also very frequently used.
-And that is to move the ;ism_of; to after the ;mudarie; verb, such that it becomes the ;faa3il; of the ;mudarie; verb.
-The ;ism_of; of
-is then a ;mustatir; ;damir_shan;.
+And that is
+([كَانَ]{.ar},
+;mudarie; verb,
+;ism_of;).
 For example:
 
 (@kaana_kaana_yaqoomu_zaydun) [كَانَ يَقُومُ زَيْدٌ]{.ar}  
     [Zayd used to stand.]{.trans}  
-    (literally: [[The state of affairs] was -- Zayd stands.]{.trans})  
 
-As mentioned above,
-in example (@kaana_kaana_yaqoomu_zaydun) above
+There are two methods to anaylyze example (@kaana_kaana_yaqoomu_zaydun) above.^[For details on the dispute amongst the grammarians on the parsing of this word order, see [@sabban@ 2/137](https://shamela.ws/book/11539/566); [@abu_hayyan_tadhyeel@ 4/184](https://shamela.ws/book/17116/1198); @https://tafsir.app/aldur-almasoon/7/137@ for [مَا كَانَ یَصۡنَعُ فِرۡعَوۡنُ]{.quran}; @https://tafsir.app/aldur-almasoon/9/117@ for [مَا كَادَ یَزِیغُ قُلُوبُ فَرِیقࣲ مِّنۡهُمۡ]{.quran}]
+
+The first method is to consider
 [زَيْدٌ]{.ar}
-is the ;faa3il; of the ;mudarie; verb
+the ;faa3il; of the ;mudarie; verb
 [يَقُومُ]{.ar}.
+The sentence
+[يَقُومُ زَيْدٌ]{.ar}
+[Zayd stands]{.trans}
+is then the ;xabar; of
+[كَانَ]{.ar}.
 And the ;ism_of; of
 [كَانَ]{.ar}
 is a ;mustatir; ;damir_shan;
 [[هُوَ]{.ar}].
+The ;damir_shan; will typically go untranslated in this case.
 
-The ;damir_shan; will typically go untranslated when thus combined with a ;mudarie; verb in the ;xabar; of
+The second method is to consider
+[زَيْدٌ]{.ar}
+the ;ism_of; of
 [كَانَ]{.ar}.
-So both options will have,
+The sentence
+[يَقُومُ]{.ar}
+[he stands]{.trans}
+is then the ;xabar; of
+[كَانَ]{.ar},
+but which is made to precede its ;ism_of;.
+
+Both word orders (@kaana_kaana_zaydun_yaqoomu) [كَانَ زَيْدٌ يَقُومُ]{.ar}
+and (@kaana_kaana_yaqoomu_zaydun) [كَانَ يَقُومُ زَيْدٌ]{.ar}.
+have,
 more or less,
 a similar meaning.
 
-But choosing whether or not to use the ;damir_shan; option
+But choosing one of two word orders
 can affect the conjugation of the ;mudarie; verb for different ;ism_of;s.
 Here is a table that compares conjugations for the two options,
 and also,
 as a reference,
 lists the ;ism_fail; option.
 
-See @https://tafsir.app/aldur-almasoon/7/137@ for [مَا كَانَ یَصۡنَعُ فِرۡعَوۡنُ]{.quran}
+TABLE OF SING/DUAL/PLURAL/MASC/FEM of
 
-See @https://tafsir.app/aldur-almasoon/9/117@ for [ مَا كَادَ یَزِیغُ قُلُوبُ فَرِیقࣲ مِّنۡهُمۡ]{.quran}
+1. kaana + ism + ism_fail
+2. kaana + ism + mudarie
+3. kaana + mudarie + faa3il
+
+When the ;ism_of; of
+[كَانَ]{.ar}
+is a dual or plural pronoun,
+then it seems that only the
+([كَانَ]{.ar},
+;ism_of;,
+;mudarie; verb)
+is used.
+And the
+([كَانَ]{.ar},
+;mudarie; verb,
+;ism_of;)
+is unused.
+For example:
+
+(@) ;tick; [كَانُوا يَقُومُونَ]{.ar}  
+    ;x; [كَانَ يَقُومُونَ]{.ar}  
+    [They were standing.]{.trans}
+
 
 Search in general for ["كان يقوم زيد"]{.ar}
 
@@ -1089,10 +1128,6 @@ Search in general for ["كان يقوم زيد"]{.ar}
 #### Conjugations when ;ism_of;/;faa3il; is a pronoun: {.unnumbered}
 
 
-TABLE OF SING/DUAL/PLURAL/MASC/FEM of
-1. kaana + ism + ism_fail
-2. kaana + ism + mudarie
-3. kaana + mudarie + faa3il
 
 
 [كَانَ زَيْدٌ يَكْتُبُ]{.ar}  
