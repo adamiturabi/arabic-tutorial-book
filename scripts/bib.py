@@ -190,6 +190,14 @@ def populate_resource_list():
     ))
  
   resource_list.append(BibResource(
+    "m-sahabah"
+    , cit_type = "ar_ref"
+    , cit_text = "[القراءات العشر من الشاطبية والدرة — دار الصحابة]{.ar}"
+    , bib_text = "القراءات العشر من الشاطبية والدرة — دار الصحابة، " + format_url_ar("https://tafsir.app")
+    , sort_key = "قراات العشر من الشاطبية والدرة"
+    ))
+
+  resource_list.append(BibResource(
     "ibn-alqayyim"
     , cit_type = "ar_ref"
     , cit_text = "[تفسير ابن القيم]{.ar}"
