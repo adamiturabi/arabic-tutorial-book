@@ -164,9 +164,9 @@ Examples:
     "Zayd is in the house standing."
     (the existential verb "is" is implied)
 
-(@) [هَـٰذَا عَمْرٌو مُنْطَلِقٌ]{.ar}
-    [Wright 2/114B]{.citex}  
-    "This is [#eamr]{.trn2} setting out."
+(@) [هَـٰذَا عَمْرٌو مُنْطَلِقًا]{.ar}
+    [Wright 2/114A]{.citex}  
+    "This is [#eamr]{.trn2} (in the act of) setting out."
 
 (@) [وَهَـٰذَا بَعْلِي شَيْخًا]{.ar}
     [[[سورة هود]{.ar} 11:72](https://quran.com/11/72) cited by Wright 2/114B]{.citex}  
@@ -315,7 +315,7 @@ iii. When the [mudaf]{.subs} is not really but is virtually a part of the [mudaf
          "Then We revealed to you, [O Muḥammad], to follow the religion of Abraham, inclining toward truth"  
          ([حَنِيفًا]{.ar} is a [hal]{.subs} of the [sahib_hal]{.subs} [إِبْرَاهِيم]{.ar}. [مِلَّة]{.ar} is virtually a part of [إِبْرَاهِيم]{.ar} such that the meaning is correct without it: [ٱتَّبِعْ إِبْرَاهِيمَ حَنِيفًا]{.ar}.)
 
-When non of these conditions are satisfied then the [mudafil]{.subs} cannot be a [sahib_hal]{.subs}.
+When none of these conditions are satisfied then the [mudafil]{.subs} cannot be a [sahib_hal]{.subs}.
 So we cannot say:
 
 (@) [x]{.subs} [مَرَرْتُ بِغُلَامِ هِنْدٍ جَالِسَةً]{.ar}
@@ -372,6 +372,42 @@ one [hal]{.subs} for multiple [sahibs_hal]{.subs}.
 
 ### Multiple [hal]{.subs}s for one [sahib_hal]{.subs}
 -->
+
+## The [hal]{.subs} after verbs like [رَأَىٰ]{.ar} and [وَجَدَ]{.ar}
+
+The verbs
+[رَأَىٰ]{.ar} and [وَجَدَ]{.ar}
+are what are known as
+[af3aal_quloob]{.subs}
+(see chapter\ (ref)).
+That is, they signify an act that takes place in the mind.
+So they may take two [mafulb]{.subs}s.
+For example:
+
+(@) [إِنَّهُمْ يَرَوْنَهُ بَعِيدًا]{.ar}
+    [[[سورة المعارج]{.ar} 70:6](https://quran.com/70/6)]{.citex}  
+    "Indeed, they see it [as] distant,"  
+    ([بَعِيدًا]{.ar} has been analyzed as a second [mafulb]{.subs}^[[[إعراب القرآن للدرويش]{.ar}](https://tafsir.app/iraab-aldarweesh/70/6) for [سورة المعارج]{.ar} 70:6])
+
+(@) [لَوَجَدُوا ٱللَّهَ تَوَّابًا رَحِيمًا]{.ar}
+    [[[سورة النساء]{.ar} 4:64](https://quran.com/4/64)]{.citex}  
+    "they would have found Allāh Accepting of Repentance and Merciful."  
+    ([تَوَّابًا]{.ar} has been analyzed as a second [mafulb]{.subs}^[[[إعراب القرآن للدرويش]{.ar}](https://tafsir.app/iraab-aldarweesh/4/64) for [سورة النساء]{.ar} 4:64])
+
+However, if these verbs are mere verbs of sense,
+i.e. they express nothing but acts of the external organs of sense,
+then they may still have two [ma3mul]{.subs}s in the [astate]{.subs}
+but the second [ma3mul]{.subs} will no longer be a [mafulb]{.subs}
+but a [hal]{.subs}.^[Wright 2/50B]
+For example:
+
+(@) [رَأَيْتُكَ نَائِمًا]{.ar}
+    [Wright 2/50C]{.citex}  
+    "I saw you sleeping."
+
+(@) [وَجَدْتُهُ مَرِيضًا]{.ar}
+    [Wright 2/50C]{.citex}  
+    "I found him sick."
 
 ## Multiple [hal]{.subs}s or [sahibs_hal]{.subs}
 
@@ -528,7 +564,7 @@ Usually, when the [sahib_hal]{.subs} is indefinite, it occurs in the following c
 
 The order of the [hal]{.subs} and the [sahib_hal]{.subs} is treated in more detail in section\ (ref).
 
-##### The indefinite [sahib_hal]{.subs} is qualified by a describer or a [mudafil]{.subs} {.unnumbered}
+##### The indefinite [sahib_hal]{.subs} is qualified by a [na3t]{.subs} or a [mudafil]{.subs} {.unnumbered}
 
 (@) [عِنْدِي غُلَامُ رَجُلٍ قَائِمًا]{.ar}
     [Wright 2/117D]{.citex}  
@@ -590,8 +626,13 @@ So we can say:
     "In haste is this this (man) departing."  
     ([ذَا]{.ar} is a pointing noun like [هَـٰذَا]{.ar}. See section\ (ref).)
 
+(@) [مُخْلِصًا زَيْدٌ دَعَا]{.ar}
+    [add ref to alfiyyah ibn malik]  
+    "Sincerely did Zayd supplicate."  
+    (The [hal]{.subs} [مُخْلِصًا]{.ar} precedes not just its [3aamil]{.subs} in the [xabar]{.subs} [دَعَا]{.ar}, but also the [mubtada]{.subs} [زَيْدٌ]{.ar}.)
+
 If the [3aamil]{.subs} is a verb or [sifah]{.subs} that is rigid (does not flex based on the doer),
-then the [hal]{.subs} may not precede the [3aamil]{.subs}.
+then the [hal]{.subs} rarely^[ibn uthaymeen], if ever^[wright], precedes the [3aamil]{.subs}.
 Examples of such [3aamil]{.subs}s are the verb of wonder and the [af3al]{.subs}.
 For example:
 
@@ -606,7 +647,7 @@ For example:
     "Zayd is more handsome than [#eamr]{.trn2} (when) laughing."
 
 An exception is permitted when a noun, in one [hal]{.subs}, is compared with itself or another noun in another [hal]{.subs}.
-In this case, the [af3al]{.subs} is allowd to be a [hal]{.subs}'s [3aamil]{.subs}.
+In this case, the [hal]{.subs} regularly precedes its [af3al]{.subs} [3aamil]{.subs}.
 For example:
 
 (@) [زَيْدٌ قَائِمًا أَحْسَنُ مِنْهُ قَاعِدًا]{.ar}
@@ -618,7 +659,7 @@ For example:
     "Zayd when alone is more useful than [#eamr]{.trn2} when assisted (by others)."
 
 If the [3aamil]{.subs} is not a verb or a [shibh_fi3l]{.subs} but an expression that has verbal force,
-then the [hal]{.subs} is generally not permitted to precede the [3aamil]{.subs}.^[See, however, [[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/39/67) for [سورة الزمر]{.ar} 39:67 for the recitation [والسماوات مطوياتٍ بيمينه]{.ar}. Also mentioned by Wright 2/118D]
+then the [hal]{.subs} usually does not precede the [3aamil]{.subs}.^[See, however, [[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/39/67) for [سورة الزمر]{.ar} 39:67 for the recitation [والسماوات مطوياتٍ بيمينه]{.ar}. Also mentioned by Wright 2/118D]
 
 (@) [كَأَنَّ زَيْدٌ رَاكِبًا أَسَدٌ]{.ar}
     [Wright 2/118D]{.citex}  
@@ -1055,7 +1096,7 @@ For example:
 (@) [سَيَأْتِي زَيْدٌ يَضْحَكُ]{.ar}  
     "Zayd will come laughing."
 
-In fact, it is not permitted for the [hal]{.subs} sentence that begins with the [mudarie]{.subs} verb to itself be prefixed with [سَ]{.ar} or [سَوْفَ]{.ar}.^[[معاني النحو]{.ar} 2/354 citing [شرح الرضي على الكافية]{.ar}]
+In fact, it is not permitted for the [hal]{.subs} sentence that begins with the [mudarie]{.subs} verb to itself be prefixed with [سَ]{.ar} or [سَوْفَ]{.ar}.^[[معاني النحو]{.ar} 2/354 citing [شرح الرضي على الكافية]{.ar}. But see [[تفسير ابن عاشور]{.ar}](https://tafsir.app/ibn-aashoor/37/99) for [سورة الصافات]{.ar} 37:99 for a dissenting opinion.]
 So we cannot say (intending [سَيَضْحَكُ]{.ar} to be a [hal]{.subs}):
 
 (@) [x]{.subs} [سَيَأْتِي زَيْدٌ سَيَضْحَكُ]{.ar} or  
@@ -1168,9 +1209,9 @@ We will discuss these difference in meanings in section\ (ref).
 -->
 
 
-### The [hal]{.subs} sentence is a [mubtada]{.subs}-[xabar]{.subs} sentence
+### The [hal]{.subs} sentence is a [j_ism]{.subs}
 
-When the [hal]{.subs} sentence is a [mubtada]{.subs}-[xabar]{.subs} sentence,
+When the [hal]{.subs} sentence is a [j_ism]{.subs},
 then there are three possibilities:
 
   i. The [hal]{.subs} sentence is devoid of a pronoun referring back to the [sahib_hal]{.subs}.
@@ -1184,7 +1225,7 @@ then there are three possibilities:
          "I passed by Zayd while [#eamr]{.trn2} (was) in the house."
 
      In the above example the [sahib_hal]{.subs} is [زَيْد]{.ar}
-     and the [hal]{.subs} is the [mubtada]{.subs}-[xabar]{.subs} sentence
+     and the [hal]{.subs} is the [j_ism]{.subs}
      [عَمْرٌو فِي ٱلدَّارِ]{.ar}.
      The sentence [hal]{.subs} does not have a pronoun that refers back to the [sahib_hal]{.subs}.
      Therefore the [و]{.ar} of [hal]{.subs} is necessary to link the sentence [hal]{.subs} to the [sahib_hal]{.subs}.
@@ -1399,7 +1440,7 @@ There are again a number of possible cases.
      if
      a [و]{.ar}\ of [hal]{.subs}
      is to be used with a [mudarie]{.subs} verb,
-     then a pronoun referring to the [faa3il]{.subs} is inserted before it, converting the [hal]{.subs} sentence to a [mubtada]{.subs}-[xabar]{.subs} sentence, thus:
+     then a pronoun referring to the [faa3il]{.subs} is inserted before it, converting the [hal]{.subs} sentence to a [j_ism]{.subs}, thus:
 
      (@) [قُمْتُ وَأَنَا أَصُّكُ عَيْنَهُ]{.ar}  
          "I stood up, slapping his eye."
@@ -1618,6 +1659,7 @@ There may be other purposes as well.^[[معاني النحو]{.ar} 2/368--369]
       
 ## A [shibh_jumlah]{.subs} as the [hal]{.subs}
 
+(Compare this section to section\ (ref).)
 A [shibh_jumlah]{.subs}, in this context, is a prepositional or adverbial phrase.
 For example: 
 [عَلَى ٱلْغُصْنِ]{.ar}
@@ -1635,14 +1677,24 @@ For example:
     "I saw the crescent between the clouds."  
     ([بَيْنَ ٱلسَّحَابِ]{.ar} is analyzed as a [hal]{.subs}.)
 
+(@haal-shibh-jumlah-sparrow) [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar}
+    [[جامع الدروس العربية لمصطفى الغلاييني]{.ar} 3/101]{.citex}  
+    "I looked at the sparrow on the branch."
+
+(@haal-shibh-jumlah-wrote) [كتب عمر إلى أبي عبيدة بالشام]{.ar}
+    [[الأصول في النحو لابن السراج]{.ar} 2/52]{.citex}  
+    "[#eumar]{.trn2} wrote to [#abI #eubaydah]{.trn2} in Syria."
+
 (@) [فَخَرَجَ عَلَىٰ قَوْمِهِ فِى زِينَتِهِ]{.ar}
     [[[سورة القصص]{.ar} 28:79](https://quran.com/28/79) cited by [أوضح المسالك لابن هشام]{.ar} 2/285]{.citex}  
     "So he came out before his people in his adornment."  
     ([فِى زِينَتِهِ]{.ar} is analyzed as a [hal]{.subs}.^[See [[تفسير ابن عاشور]{.ar}](https://tafsir.app/ibn-aashoor/28/79) for [سورة القصص]{.ar} 28:79])
 
-(@haal-shibh-jumlah-sparrow) [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar}
-    [[جامع الدروس العربية لمصطفى الغلاييني]{.ar} 3/101]{.citex}  
-    "I looked at the sparrow on the branch."
+(@) [وَيُكَلِّمُ ٱلنَّاسَ فِي ٱلْمَهْدِ]{.ar}
+    [[[سورة آل عمران]{.ar} 3:46](https://quran.com/3/46)]{.citex}  
+    "He will speak to the people in the cradle"  
+    ([فِي ٱلْمَهْدِ]{.ar} has been analyzed as a [hal]{.subs}.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/3/46) for [سورة آل عمران]{.ar} 3:46])
+
 
 Now, you might be thinking: Didn't we learn
 in chapter\ (ref) that [بَيْنَ]{.ar} is an [dharf_makan]{.subs}?
@@ -1664,10 +1716,12 @@ So, in this case, we say that
 is an adverb of place, but it is governed,
 not by the verb
 [رَأَىٰ]{.ar},
-but by an implied verb (or verbal noun) that has the meaning of "is" or "being".
-So it is as if we are saying,
-"I saw the crescent _being_ between the clouds."
-And it is this implied [3aamil]{.subs} "being" which is technically the [hal]{.subs}.^[[جامع الدروس العربية لمصطفى الغلاييني]{.ar} 3/101]
+but by an implied general beingness (see section\ (ref))
+So it is as if we are saying:
+
+"I saw the crescent (while it was) [being]^between\ the\ clouds^."
+
+And it is this implied general beingness which is technically the [hal]{.subs}.^[[جامع الدروس العربية لمصطفى الغلاييني]{.ar} 3/101]
 While
 [بَيْنَ]{.ar}
 remains (technically) an [dharf_makan]{.subs}.
@@ -1688,8 +1742,19 @@ But, loosely speaking, we may say that the [shibh_jumlah]{.subs}
 [عَلَى ٱلْغُصْنِ]{.ar}
 is the [hal]{.subs}.
 
+Similarly,
+in example (@haal-shibh-jumlah-wrote) [كتب عمر إلى أبي عبيدة بالشام]{.ar},
+the act of writing was dony by [#eumar]{.trn2} in [al-#HijAz]{.trn2}, not in Syria.
+So the prepositional phrase
+[بالشام]{.ar}
+is describing the state of
+[#abU #eubaydah]{.trn2}
+while he was in Syria.
+
 This is yet another instance of where the lines between different types of adverbs get blurred.
 In fact, some grammarians have classified the [hal]{.subs} to be of the same class of adverbs as the [dharf_zaman]{.subs} and the [dharf_makan]{.subs}.^[[المقتضب للمبرد]{.ar} 4/166]
+
+
 
 From the perspective of meaning,
 the [shibh_jumlah]{.subs}
@@ -1706,8 +1771,9 @@ describes the state of the [sahib_hal]{.subs}
 [ٱلْعُصْفُور]{.ar}
 during the occurrence of the verb [نَظَرَ]{.ar}.
 
-A [shibh_jumlah]{.subs} can thus only be a [hal]{.subs} if it is governed by an implied (unexpressed) [3aamil]{.subs} which has the meaning of "is" or "being".^[[أوضح المسالك لابن هشام]{.ar} 2/285, [شرح ابن عقيل على الألفية]{.ar} 1/213].
+<!--
 So the [shibh_jumlah]{.subs} [hal]{.subs} must be uninfluenced, or pre-existing, before the action of any overt verb in the preceding statement.
+-->
 
 Here is an example of where the [shibh_jumlah]{.subs} does not work as a [hal]{.subs}:
 
@@ -1748,7 +1814,39 @@ Let's use this test on some of the examples above.
 
 There may be examples where a [shibh_jumlah]{.subs} could be validly interpreted either as a [hal]{.subs} 
 (governed by an implied [3aamil]{.subs} meaning "being"),
-or as governed by an overt verb.^[See, for example, the [tafsIr]{.trn2} of [تَحْتَ ٱلشَّجَرَةِ]{.ar} in [[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/48/18) for [سورة الفتح]{.ar} 48:18]
+or as governed by an overt verb.^[See also, for example, the [tafsIr]{.trn2} of [تَحْتَ ٱلشَّجَرَةِ]{.ar} in [[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/48/18) for [سورة الفتح]{.ar} 48:18]
+For example:
+
+(@) [رأيتُ زيدًا في الدار]{.ar}
+    [[الأصول في النحو لابن السراج]{.ar} 2/52]{.citex}  
+    "I saw Zayd in the house."
+
+Without context, the prepositional phrase
+[في الدار]{.ar}
+could either be governed by [رَأَىٰ]{.ar}, signifying that the act of seeing was done in the house.
+Or it could be governed by the implication of general beingness, as a [hal]{.subs} for [زَيْد]{.ar}.^[[الأصول في النحو لابن السراج]{.ar} 2/52]
+
+A [shibh_jumlah]{.subs} can only be a [hal]{.subs} if it is governed by an implied (unexpressed) [3aamil]{.subs}.
+This implicated [3aamil]{.subs} will typically be general beingness, as in the examples above.^[[أوضح المسالك لابن هشام]{.ar} 2/285, [شرح ابن عقيل على الألفية]{.ar} 1/213]
+In fact, some grammarians insist that the implied governor can only be general beingness.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/3/194) for [سورة آل عمران]{.ar} 3:194 ([مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ]{.ar})]
+However, it is conceivable that the implied governor of the preposition be interpreted, if not formally then at least in meaning, as some other verb (or verbal noun).^[[النحو الوافي]{.ar} 2/447 footnote]
+For example:
+
+(@) [رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ]{.ar}
+    [[[سورة آل عمران]{.ar} 3:194](https://quran.com/3/194)]{.citex}  
+    "Our Lord, and grant us what You promised us through Your messengers"
+
+In one interpretation of the above [Ayah]{.trn2},
+the 
+prepositional phrase
+[عَلَىٰ رُسُلِكَ]{.ar}
+"through Your messengers"
+has been analyzed as [hal]{.subs} of
+[مَا وَعَدتَّنَا]{.ar}
+"what You promised us"
+The meaning with the implicated governor has been explained as
+[مُنَزَّلًا عَلَيْهِمْ]{.ar}
+"_sent down_ on [Your messengers]."^[[[تفسير ابن عاشور]{.ar}](https://tafsir.app/ibn-aashoor/3/194) for [سورة آل عمران]{.ar} 3:194]
 
 ## Interpreting a sentence as a [hal]{.subs} vs. a [na3t]{.subs}
 
@@ -1784,8 +1882,13 @@ We may use the following guidelines^[[مغني اللبيب لابن هشام]{.
   or an specified indefinite noun
   then it may be interpreted as either a [hal]{.subs} or a [na3t]{.subs}.
 
-When a sentence is interpreted as a [hal]{.subs} then it will be describing the state of the [sahib_hal]{.subs}.
-And when a sentence is interpreted as a [na3t]{.subs} then it will be specifying or identifying the [manut]{.subs}.
+  However, in this case when both the [na3t]{.subs} and the [hal]{.subs} interpretations are possible,
+  one may still be preferred over the other 
+  depending on what the overall meaning and context demands.^[[النحو الوافي]{.ar} 3/477]
+
+  This is because
+  when a sentence is interpreted as a [hal]{.subs} then it will be describing the state of the [sahib_hal]{.subs}.
+  And when a sentence is interpreted as a [na3t]{.subs} then it will be specifying or identifying the [manut]{.subs}.
 
 What we mean by a _specific definite_ noun is one that refers to a specific entity.
 Not one that refers to a generic type
@@ -1818,7 +1921,7 @@ and
 [فِي ٱلدَّارِ رَجُلُ خَيْرٍ]{.ar}
 it is a specified indefinite noun.
 
-Here are some examples of sentence [hal]{.subs}s occurring after definite and indefinite nouns:
+Here are some examples of sentences analyzed as [na3t]{.subs}s or [hal]{.subs}s:
 
 (@) [حَتَّىٰ تُنَزِّلَ عَلَيْنَا كِتَابًا نَقْرَؤُهُ]{.ar}
     [[[سورة الإسراء]{.ar} 17:93](https://quran.com/17/93) cited by [مغني اللبيب لابن هشام]{.ar} 560]{.citex}  
@@ -1901,6 +2004,23 @@ Here is an example:
 (@) [فَخَرَجَ مِنْهَا خَائِفًا يَتَرَقَّبُ]{.ar}
     [[[سورة القصص]{.ar} 28:21](https://quran.com/28/21)]{.citex}  
     "So he left it, fearful and anticipating [apprehension]."
+
+## Suppressing the [3aamil]{.subs} of the [hal]{.subs}
+
+The 
+[3aamil]{.subs} of the [hal]{.subs}
+may be suppressed
+(i.e. omitted)
+in some cases optionally,
+and in other cases necessarily.
+We will discuss these cases below
+
+### Optional suppressing of the [3aamil]{.subs} of the [hal]{.subs}
+
+### Necessary suppressing of the [3aamil]{.subs} of the [hal]{.subs}
+
+The [3aamil]{.subs} is also omitted when it is conceptual with the meaning "existing" or "being".
+We have seen this in section\ (ref) above.
 
 ## TODO topics
 

@@ -1,6 +1,6 @@
 <!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
 
-# The [sifah]{.subs} and the [manut]{.subs}-[na3t]{.subs} phrase
+# The [na3t]{.subs}
 
 ## Introduction
 
@@ -51,11 +51,11 @@ ii. The common noun "a car": It is being described by the [na3t]{.subs}. We will
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize describer};
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize attribute};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-3.south east)
-      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize describee};
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize attributee};
 
 \end{tikzpicture}
 ```
@@ -81,7 +81,7 @@ Instead, here we will continue to use the existing terminology of _[mubtada]{.su
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-4.south west) -- (word-4.south east)
-      node [midway, below=0.5ex] {\scriptsize comment};
+      node [midway, below=0.5ex] {\scriptsize info};
 
 \end{tikzpicture}
 ```
@@ -184,15 +184,15 @@ Here is the equivalent Arabic [manut]{.subs}-[na3t]{.subs} phrase:
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize attribute};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize attributee};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
-      node [midway, below] {\scriptsize describee-describer phrase};
+      node [midway, below] {\scriptsize attributee-attribute phrase};
 
 \path (0,0) node [midway, below=10ex, right=0ex, align=left] {``the small house''\\(literally: ``the small-one house'')};
 
@@ -260,8 +260,11 @@ If such a noun is a [manut]{.subs}, then we will prefer to match the [na3t]{.sub
 "The girl is a good person."
 
 See how we preferred to use the masculine [sifah]{.subs} [طَيِّب]{.ar} [Tayyib]{.trn} instead of using the feminine [طَيِّبَة]{.ar} [Tayyibah]{.trn}.
+But the feminine [sifah]{.subs}
+[طَيِّبَة]{.ar} [Tayyibah]{.trn}
+would also have been acceptable.^[See the example [ثَلَاثُ شُخُوصٍ كَاعِبَانِ وَمُعْصِرُ]{.ar} in [الأصول في النحو لابن السراج]{.ar} 3/476]
 
-## [#sifah]{.subs}s as the [xabar]{.subs} of a sentence
+## The [#sifah]{.subs} as the [xabar]{.subs} of a sentence
 
 ### Indefinite [sifah]{.subs}
 
@@ -280,7 +283,7 @@ Let's see how to use Arabic [sifah]{.subs}s as the [xabar]{.subs} of a sentence.
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize comment};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize info};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)

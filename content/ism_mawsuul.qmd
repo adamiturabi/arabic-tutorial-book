@@ -347,17 +347,28 @@ the general [ism_mawsul]{.subs}s do not vary for number and gender.
 
 For example:
 
-[أُحِبُّّ مَنْ يَعْدِلُ]{.ar}  
+[أُحِبُّّ مَنْ يَعْدِلُ]{.ar}
+[Wright 2/322A]{.citex}  
 "I love [him] who is just."
 
+<!--
 [أُحِبُّّ مَنْ يَعْدِلُونَ]{.ar}  
 "I love [them] who are just."
+-->
+
+[وَمِنْهُم مَّن يَسْتَمِعُونَ إِلَيْكَ]{.ar}  
+[[[سورة يونس]{.ar} 10:42](https://quran.com/10/42)]{.citex}
+"And among them are those who listen to you."
 
 [ٱِصْنَعْ مَا بَدَا لَكَ.]{.ar}  
 "Do what seems (good) to you."
 
 [مَرَرْتُ بِمَا يُعْجِبُكَ.]{.ar}  
 "I passed by what will please you."
+
+[عرفت ما اشتريته، وما اشتريتهما، وما اشتريتها، وما اشتريتهن]{.ar}
+[https://shamela.ws/book/13257/195]{.citex}  
+
 
 ### [مَنْ]{.ar} and [مَا]{.ar} after prepositions
 
@@ -384,7 +395,7 @@ However, they can be used to signify persons or things of any number and gender.
 
 Their [3aaid]{.subs}s can then, optionally:
 
- i. Either match the gender and number of the persons or things meant by the [ism_mawsul]{.subs}. For example:
+ i. Either match the gender and number of the persons or things meant by the [ism_mawsul]{.subs}. For example, for [مَنْ]{.ar}:
 
     [وَمِنْهُمْ مَنْ يَسْتَمِعُونَ إِلَيْكَ]{.ar}
     ^[[[سورة يونس]{.ar} 10:42](https://quran.com/10:42)]^  
@@ -397,6 +408,8 @@ Their [3aaid]{.subs}s can then, optionally:
     Note also how, in this example how, in addition to the feminine refer-back [faa3il]{.subs} pronouns in [فَعَلَتْ]{.ar} and [خَسِرَتْ]{.ar},
     the feminine gender of the person signified by [مَنْ]{.ar} has also caused the [تْ]{.ar} of femininity to be added to the verb [خَابَ]{.ar} (of which [مَنْ]{.ar} is the [faa3il]{.subs} noun).
 
+    Examples for [مَا]{.ar}:
+<!--
     [جَمَعْتُ مِنَ ٱلْوَرَقِ مَا سَقَطْنَ.]{.ar}  
     "I gathered what fell from the leaves."
 
@@ -404,6 +417,10 @@ Their [3aaid]{.subs}s can then, optionally:
     or  
     [صَلِّ مِنَ ٱلرَّكَعَاتِ مَا تَتَيَسَّرُ.]{.ar}  
     "Pray from the units (of prayer) what is easy."
+-->
+
+    [عرفت ما اشتريته، وما اشتريتهما، وما اشتريتها، وما اشتريتهن]{.ar}
+    [https://shamela.ws/book/13257/195]{.citex}  
 
 ii. Or be singular masculine to match the [ism_mawsul]{.subs} itself. This is generally more common for [مَا]{.ar}. For example:
 
@@ -654,7 +671,7 @@ For example:
 The [3aaid]{.subs} may be deleted (and its meaning is then implicit) if some conditions are satisfied.
 Some conditions are specific to the state of the [3aaid]{.subs}. These are:
 
-(a) When the [3aaid]{.subs} is the [mubtada]{.subs} of a [mubtada]{.subs}-[xabar]{.subs} sentence, then it may be deleted, and its meaning will be implied.
+(a) When the [3aaid]{.subs} is the [mubtada]{.subs} of a [j_ism]{.subs}, then it may be deleted, and its meaning will be implied.
     When deleting the [3aaid]{.subs} in this case, it is preferred that the [silah]{.subs} not be too short.
     <!--In such cases, the incomplete sentence [silah]{.subs} implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.-->
 
@@ -701,10 +718,15 @@ Some conditions are specific to the state of the [3aaid]{.subs}. These are:
 
     (i) When the [3aaid]{.subs} is the [mudafil]{.subs} in an [idaafah]{.subs} whose [mudaf]{.subs} is a [ism_fail]{.subs} or the [mafulb]{.subs} implying a present or future meaning. For example:
 
-        [فَاقْضِ مَا أَنتَ قَاضٍ]{.ar}
-	^[[[سورة طه]{.ar} 20:72](https://quran.com/20:72)]^  
-        "So decree whatever you are to decree."  
-        (instead of [فَاقْضِ مَا أَنتَ قَاضِيهِ]{.ar})
+        (@) [فَاقْضِ مَا أَنتَ قَاضٍ]{.ar}
+	          [[[سورة طه]{.ar} 20:72](https://quran.com/20:72)]{.citex}  
+            "So decree whatever you are to decree."  
+            (instead of [فَاقْضِ مَا أَنتَ قَاضِيهِ]{.ar})
+
+        (@) [قَالَ أَتَبْعَثُ إِلَيَّ مَا لَسْتَ آكِلًا]{.ar}
+	          [https://hadithweb.com/ahmad:21023]{.citex}  
+            "He said: Do you send to me what you do not eat?"  
+            (instead of [مَا لَسْتَ آكِلَهُ]{.ar})
 
 	<!--
         [أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلٌ.]{.ar}  
@@ -909,6 +931,10 @@ iii. A parenthetical clause, which is a sentence within the main sentence that a
 ## Deleting the [ism_mawsul]{.subs} and/or the [silah]{.subs}
 
 TODO. See النحو الوافي
+
+(@) [أَنَا أَوَّلُ الْعَرَبِ سَأَلَهُ]{.ar}
+    [[[سنن النسائي]{.ar} :5687](https://sunnah.com/nasai:5687)]{.citex}  
+    I [was] the first of the Arabs **[who]** asked him
 
 ## Sentences without [ism_mawsul]{.subs}s
 

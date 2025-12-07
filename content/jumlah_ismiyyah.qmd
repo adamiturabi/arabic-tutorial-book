@@ -1,18 +1,18 @@
 <!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
 
-# The [mubtada]{.subs}-[xabar]{.subs} sentence
+# The [j_ism]{.subs}
 
 ## Introduction
 
-In this chapter we will learn about a class of sentences called _[mubtada]{.subs}-[xabar]{.subs} sentences._ 
-[#mubtada]{.subs}-[xabar]{.subs} sentences consist of two parts:
+In this chapter we will learn about a class of sentences called _[j_ism]{.subs}s._ 
+[#j_ism]{.subs}s consist of two parts:
 
 i. The _[mubtada]{.subs}_. This is the topic of the sentence.
 ii. The _[xabar]{.subs}_. This gives us some information about the [mubtada]{.subs}.
 
-## Forming [mubtada]{.subs}-[xabar]{.subs} sentences
+## Forming [j_ism]{.subs}s
 
-Here is a [mubtada]{.subs}-[xabar]{.subs} sentence:
+Here is a [j_ism]{.subs}:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -31,7 +31,7 @@ Here is a [mubtada]{.subs}-[xabar]{.subs} sentence:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-4.south west) -- (word-5.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize comment};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize info};
 
 \end{tikzpicture}
 ```
@@ -49,7 +49,7 @@ First we assemble the individual parts:
 i. "The building" in Arabic is [ٱَلْبِنَاء]{.ar} [EalbinAE]{.trn} (masc.).
 ii. "A house" is [بَيْت]{.ar} [bayt]{.trn} (masc.).
 
-Next we put them both in the [ustate]{.subs}. For [mubtada]{.subs}-[xabar]{.subs} sentences, both the [mubtada]{.subs} and the [xabar]{.subs} shall be in the [ustate]{.subs}. Remember that the [ustate]{.subs} is formed by putting a [tanwin]{.subs}ed [umark]{.subs} [◌ٌ]{.ar} at the end of an indefinite noun, and a [umark]{.subs} [◌ُ]{.ar} at the end of a definite noun. Here are the two nouns in the [ustate]{.subs}:
+Next we put them both in the [ustate]{.subs}. For [j_ism]{.subs}s, both the [mubtada]{.subs} and the [xabar]{.subs} shall be in the [ustate]{.subs}. Remember that the [ustate]{.subs} is formed by putting a [tanwin]{.subs}ed [umark]{.subs} [◌ٌ]{.ar} at the end of an indefinite noun, and a [umark]{.subs} [◌ُ]{.ar} at the end of a definite noun. Here are the two nouns in the [ustate]{.subs}:
 
 i. [ٱَلْبِنَاءُ]{.ar} [EalbinAEu]{.trn} (masc.) "the building" ([ustate]{.subs})
 ii. [بَيْتٌ]{.ar} [baytun]{.trn} (masc.) "a house" ([ustate]{.subs})
@@ -69,7 +69,7 @@ In order to form this sentence in Arabic, we put the [mubtada]{.subs} first and 
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize comment};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize info};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
