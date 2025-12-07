@@ -1,11 +1,11 @@
 project:
   output-dir: pdf_out_dir
 
-#book:
-#  appendices:
-#    - content/hamzah_rules.qmd
-#    - content/gloss_terms.qmd
-#    - content/usage_and_style.qmd
+book:
+  appendices:
+    - content/hamzah_rules.qmd
+    - content/gloss_terms.qmd
+    - content/usage_and_style.qmd
 
 format:
   pdf:

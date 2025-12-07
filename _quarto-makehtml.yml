@@ -2,12 +2,12 @@ project:
   output-dir: docs
 
 book:
-  #subtitle: "An online book for learning Arabic"
-  #appendices:
-  #  - content/hamzah_rules.qmd
-  #  - content/gloss_terms.qmd
-  #  - content/usage_and_style.qmd
-  #  - content/chapter_notes.qmd
+  subtitle: "An online book for learning Arabic"
+  appendices:
+    - content/hamzah_rules.qmd
+    - content/gloss_terms.qmd
+    - content/usage_and_style.qmd
+    - content/chapter_notes.qmd
   description: |
     An online textbook for learning Arabic
   site-url: https://adamiturabi.github.io/arabic-tutorial-book
