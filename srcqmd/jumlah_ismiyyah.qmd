@@ -1,16 +1,16 @@
-# The ;mubtada;-;xabar; sentence
+# The ;j_ism;
 
 ## Introduction
 
-In this chapter we will learn about a class of sentences called _;mubtada;-;xabar; sentences._ 
-#;mubtada;-;xabar; sentences consist of two parts:
+In this chapter we will learn about a class of sentences called _;j_ism;s._ 
+#;j_ism;s consist of two parts:
 
 i. The _;mubtada;_. This is the topic of the sentence.
 ii. The _;xabar;_. This gives us some information about the ;mubtada;.
 
-## Forming ;mubtada;-;xabar; sentences
+## Forming ;j_ism;s
 
-Here is a ;mubtada;-;xabar; sentence:
+Here is a ;j_ism;:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -29,7 +29,7 @@ Here is a ;mubtada;-;xabar; sentence:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-4.south west) -- (word-5.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize comment};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize info};
 
 \end{tikzpicture}
 ```
@@ -47,7 +47,7 @@ First we assemble the individual parts:
 i. "The building" in Arabic is [ٱَلْبِنَاء]{.ar} [EalbinAE]{.trn} (masc.).
 ii. "A house" is [بَيْت]{.ar} [bayt]{.trn} (masc.).
 
-Next we put them both in the ;ustate;. For ;mubtada;-;xabar; sentences, both the ;mubtada; and the ;xabar; shall be in the ;ustate;. Remember that the ;ustate; is formed by putting a ;tanwin;ed ;umark; [◌ٌ]{.ar} at the end of an indefinite noun, and a ;umark; [◌ُ]{.ar} at the end of a definite noun. Here are the two nouns in the ;ustate;:
+Next we put them both in the ;ustate;. For ;j_ism;s, both the ;mubtada; and the ;xabar; shall be in the ;ustate;. Remember that the ;ustate; is formed by putting a ;tanwin;ed ;umark; [◌ٌ]{.ar} at the end of an indefinite noun, and a ;umark; [◌ُ]{.ar} at the end of a definite noun. Here are the two nouns in the ;ustate;:
 
 i. [ٱَلْبِنَاءُ]{.ar} [EalbinAEu]{.trn} (masc.) "the building" (;ustate;)
 ii. [بَيْتٌ]{.ar} [baytun]{.trn} (masc.) "a house" (;ustate;)
@@ -67,7 +67,7 @@ In order to form this sentence in Arabic, we put the ;mubtada; first and then th
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize comment};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize info};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)

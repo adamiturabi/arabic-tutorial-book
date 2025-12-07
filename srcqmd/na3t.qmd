@@ -1,4 +1,4 @@
-# The ;sifah; and the ;manut;-;na3t; phrase
+# The ;na3t;
 
 ## Introduction
 
@@ -49,11 +49,11 @@ ii. The common noun "a car": It is being described by the ;na3t;. We will call i
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize describer};
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize attribute};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-3.south east)
-      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize describee};
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize attributee};
 
 \end{tikzpicture}
 ```
@@ -79,7 +79,7 @@ Instead, here we will continue to use the existing terminology of _;mubtada;_ an
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-4.south west) -- (word-4.south east)
-      node [midway, below=0.5ex] {\scriptsize comment};
+      node [midway, below=0.5ex] {\scriptsize info};
 
 \end{tikzpicture}
 ```
@@ -182,15 +182,15 @@ Here is the equivalent Arabic ;manut;-;na3t; phrase:
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize attribute};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize attributee};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
-      node [midway, below] {\scriptsize describee-describer phrase};
+      node [midway, below] {\scriptsize attributee-attribute phrase};
 
 \path (0,0) node [midway, below=10ex, right=0ex, align=left] {``the small house''\\(literally: ``the small-one house'')};
 
@@ -281,7 +281,7 @@ Let's see how to use Arabic ;sifah;s as the ;xabar; of a sentence.
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize comment};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize info};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
