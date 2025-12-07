@@ -12,10 +12,10 @@ map_table["surah"] = {"sUrah", "trn2"}
 map_table["tafsir"] = {"tafsIr", "trn2"}
 
 -- states
-map_table["ustate"] = {"raised-state", nil}
-map_table["astate"] = {"propped-state", nil}
-map_table["istate"] = {"lowered-state", nil}
-map_table["0state"] = {"clipped-state", nil}
+map_table["ustate"] = {"u-state", nil}   -- raised-state"
+map_table["astate"] = {"a-state", nil}  -- propped-state
+map_table["istate"] = {"i-state", nil}  -- lowered-state
+map_table["0state"] = {"0-state", nil}  -- clipped-state
 
 -- diacritics
 map_table["amark"] = {"fatHah", "trn2"}
@@ -108,6 +108,7 @@ map_table["mafull"] = {"adverb of reason", nil}
 map_table["mafulm"] = {"accompanying doee", nil}
 map_table["manut"] = {"attributee", nil}
 map_table["masdar"] = {"maSdar", "trn2"}
+map_table["masdari_an"] = {"maSdari Ean", "trn2"}
 map_table["mmutlaq"] = {"absolute doee", nil}
 map_table["mubdalb"] = {"substitutee", nil} -- replacee, substitutee
 map_table["mubtada"] = {"subject", nil}
@@ -137,7 +138,7 @@ map_table["rabt"] = {"link", nil}
 map_table["sababi"] = {"sababi", nil} -- takeover
 map_table["sahib_hal"] = {"person of ḥāl", nil}
 map_table["sahibs_hal"] = {"persons of ḥāl", nil}
-map_table["sifah"] = {"adjective", nil}
+map_table["sifah"] = {"adjectival noun", nil}
 map_table["sifah_mush"] = {"participle-like adjective", nil} -- {"participlish adjectival noun", nil} -- "participle-like"?
 map_table["sighah_mub"] = {"emphatic noun", nil} -- {"participlish adjectival noun", nil} -- "participle-like"?
 map_table["silah"] = {"connecting sentence", nil}
