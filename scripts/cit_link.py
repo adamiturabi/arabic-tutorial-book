@@ -28,7 +28,7 @@ def get_quran_cit_text(end_str, link):
     ayah_index_str = surah_and_ayah[1]
     cit_text += ' ' + surah_index_str + ':' + ayah_index_str
 
-  return "[" + cit_text + "](" + link + ")", True
+  return "quran", "[" + cit_text + "](" + link + ")", True
 
 def get_tafsir_app_key_and_cit_text(end_str, link):
   # remove begin slash
@@ -111,7 +111,7 @@ def process(key, link):
     assert len(end_str) == 2
     if end_str[1] == '' or end_str[1] == '/':
       return None, '<' + key + '>', True
-    cit_text, link_added = get_quran_cit_text(end_str[1], link)
+    new_key, cit_text, link_added = get_quran_cit_text(end_str[1], link)
   elif sunnah_com_url in key:
     end_str = key.split(sunnah_com_url)
     assert len(end_str) == 2

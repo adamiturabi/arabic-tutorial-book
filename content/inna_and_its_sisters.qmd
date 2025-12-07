@@ -4,7 +4,7 @@
 
 ## Introduction
 
-In the basic [mubtada]{.subs}-[xabar]{.subs} sentence, both the [mubtada]{.subs} and the [xabar]{.subs} are in the [ustate]{.subs}. For example:
+In the basic [j_ism]{.subs}, both the [mubtada]{.subs} and the [xabar]{.subs} are in the [ustate]{.subs}. For example:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -19,7 +19,7 @@ In the basic [mubtada]{.subs}-[xabar]{.subs} sentence, both the [mubtada]{.subs}
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize comment};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize info};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
@@ -34,7 +34,7 @@ In the basic [mubtada]{.subs}-[xabar]{.subs} sentence, both the [mubtada]{.subs}
 
 In the above sentence both the [mubtada]{.subs} [ٱَلرَّجُلَ]{.ar} "the man", and the [xabar]{.subs} [مُعَلِّمٌ]{.ar} "a teacher" are in the [ustate]{.subs}. In this chapter we will study a family of particles, called
 [إِنَّ]{.ar} and its sisters,
-that modify the [mubtada]{.subs}-[xabar]{.subs} sentence by placing the [mubtada]{.subs} in the [astate]{.subs} instead of the [ustate]{.subs}. For example,
+that modify the [j_ism]{.subs} by placing the [mubtada]{.subs} in the [astate]{.subs} instead of the [ustate]{.subs}. For example,
 
 [إِنَّ ٱلرَّجُلَ مُعَلِّمٌ.]{.ar}  
 [Einna -rrajula mueallimun.]{.trn}  
@@ -59,7 +59,7 @@ We shall now study each of these particles.
 
 [إِنَّ]{.ar} [Einna]{.trn} is used to begin independent sentences. It has an emphatic meaning, as if the speaker is asserting the [xabar]{.subs} about the [ism_of]{.subs}. It is often translated into English as "indeed" or "verily", but it is also often left untranslated.
 
-[إِنَّ]{.ar} [Einna]{.trn} is only used to begin [mubtada]{.subs}-[xabar]{.subs} sentences. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.). For example,
+[إِنَّ]{.ar} [Einna]{.trn} is only used to begin [j_ism]{.subs}s. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.). For example,
 
 [إِنَّ ٱلدِّينَ عِنْدَ ٱللَّـٰهِ ٱلْإِسْلَامُ.]{.ar}  
 [Einna -ddIna einda -llAhi -lEislAmu.]{.trn}  
@@ -101,7 +101,7 @@ or
 "Indeed a king from India wrote to one of his ministers."
 
 Note that in all the above examples that
-[إِنَّ]{.ar} [Einna]{.trn} is only used to begin [mubtada]{.subs}-[xabar]{.subs} sentences. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.).
+[إِنَّ]{.ar} [Einna]{.trn} is only used to begin [j_ism]{.subs}s. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.).
 By default, the [ism_of]{.subs} of [إِنَّ]{.ar} [Einna]{.trn} must directly follow it with no intervening words or particles. The only exception is when the [xabar]{.subs} consists of a prepositional or adverbial phrase, it is then allowed to precede the [ism_of]{.subs}. The [ism_of]{.subs}, in any case, shall be in the [astate]{.subs}. For example,
 
 [إِنَّ فِي ٱلْبَيْتِ رَجُلًا.]{.ar}  
@@ -127,6 +127,14 @@ If the [ism_of]{.subs} contains a pronoun that refers to a noun in the [xabar]{.
 
 [إِنَّ أَمَامَ ٱلدَّارِ حَارِسَهَا.]{.ar}  
 "Indeed, in front of the door, is its guard."
+
+### TODO: 
+
+[إن زيدا آكل طعامك]{.ar}
+
+See [[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)
+
+Tie in with separating 3aamil from ma3muul
 
 ### Pronoun [ism_of]{.subs}s
 
@@ -325,7 +333,7 @@ Example:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize comment};
+      node [midway, below] {\scriptsize info};
 
 %\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``The truth is that he went.''};
 
@@ -353,7 +361,7 @@ For example, the [أَنَّ]{.ar} clause as the [xabar]{.subs}:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize comment};
+      node [midway, below] {\scriptsize info};
 
 %\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``The truth is that he went.''};
 
@@ -510,11 +518,42 @@ TODO
 
 TODO
 
+## The [damir_shan]{.subs} with [إِنَّ]{.ar} and its sisters
+
+The [damir_shan]{.subs} 
+(see section\ (ref))
+is used very commonly with [إِنَّ]{.ar} and its sisters.
+For example:
+
+(@) [يَـٰمُوسَىٰٓ **إِنَّهُۥٓ** أَنَا ٱللَّهُ ٱلْعَزِيزُ ٱلْحَكِيمُ]{.quran}
+    [[[سورة النمل]{.ar} 27:9](https://quran.com/27/9) cited by [النحو العربي: أحكام ومعان]{.ar} 1/89]{.citex}  
+    [O Moses, indeed it is I - Allāh, the Exalted in Might, the Wise.]{.trans}
+
+
+The [damir_shan]{.subs} 
+also functions as a device to enable
+a [j_f3l]{.subs}
+to directly follow
+[إِنَّ]{.ar} (or one of its sisters)
+without having to specify a [ism_of]{.subs} for
+[إِنَّ]{.ar}.^[[النحو العربي: أحكام ومعان]{.ar} 1/89]
+Examples:
+
+(@) [**إِنَّهُۥ** لَا یُفۡلِحُ ٱلظَّـٰلِمُونَ]{.quran}
+    [[[سورة الأنعام]{.ar} 6:21](https://quran.com/6/21) cited by [النحو العربي: أحكام ومعان]{.ar} 1/89]{.citex}  
+    [Indeed, the wrongdoers will not succeed.]{.trans}
+
+(@) [**فَإِنَّهَا** لَا تَعۡمَى ٱلۡأَبۡصَـٰرُ وَلَـٰكِن تَعۡمَى ٱلۡقُلُوبُ ٱلَّتِی فِی ٱلصُّدُورِ]{.quran}
+    [[[سورة الحج]{.ar} 22:46](https://quran.com/22/46) cited by [النحو العربي: أحكام ومعان]{.ar} 1/89]{.citex}  
+    [For indeed, it is not eyes that are blinded, but blinded are the hearts which are within the breasts.]{.trans}
+
+
+
 ## The [xabar]{.subs} as a complete sentence and the pronoun of the fact
 
 ### The [xabar]{.subs} as a complete sentence
 
-There is a sub-type of [mubtada]{.subs}-[xabar]{.subs} sentence
+There is a sub-type of [j_ism]{.subs}
 where the [xabar]{.subs} is a complete sentence.
 Here is an example:
 
@@ -535,7 +574,7 @@ Here is an example:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize comment};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize info};
 
 %\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``The truth is that he went.''};
 
@@ -545,14 +584,14 @@ Here is an example:
 "The tree: its branches are long."
 
 In these kinds of sentences, the [mubtada]{.subs} introduces a topic, and the [xabar]{.subs} is itself a sentence which comments on the topic/[mubtada]{.subs}.
-We have, in fact, already seen sentences like this in section\ \@ref(past-verbs-order-of-words), when we take a verbal sentence and convert it to a [mubtada]{.subs}-[xabar]{.subs} sentence. This is the example we discussed there:
+We have, in fact, already seen sentences like this in section\ \@ref(past-verbs-order-of-words), when we take a verbal sentence and convert it to a [j_ism]{.subs}. This is the example we discussed there:
 
 [ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}  
 "The man: he wrote a book."
 
 #### The linker pronoun
 
-A [mubtada]{.subs}-[xabar]{.subs} sentence,
+A [j_ism]{.subs},
 in which the [xabar]{.subs} is itself a sentence;
 typically requires a pronoun in the [xabar]{.subs} that links back to the [mubtada]{.subs}. 
 In the example
@@ -562,9 +601,9 @@ Similarly, in the example
 [ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}
 the linker pronoun is the invisible [faa3il]{.subs} pronoun "he" of the verb [كَتَبَ]{.ar} "he wrote" that links back to the [ism_of]{.subs} [ٱَلرَّجُلُ]{.ar} "the man".
 
-#### [#mubtada]{.subs}-[xabar]{.subs} sentences with [إِنَّ]{.ar} and its sisters
+#### [#j_ism]{.subs}s with [إِنَّ]{.ar} and its sisters
 
-[إِنَّ]{.ar} and its sisters are very often used in [mubtada]{.subs}-[xabar]{.subs} sentences. (With [أَنَّ]{.ar} it is, as usual, an incomplete sentence.) Here are some examples:
+[إِنَّ]{.ar} and its sisters are very often used in [j_ism]{.subs}s. (With [أَنَّ]{.ar} it is, as usual, an incomplete sentence.) Here are some examples:
 
 [إِنَّ زَيْدًا لَهُ أَخٌ وَأُخْتٌ.]{.ar}  
 "Indeed Zayd: he has a brother and sister."
@@ -572,9 +611,9 @@ the linker pronoun is the invisible [faa3il]{.subs} pronoun "he" of the verb [ك
 [ٱِعْلَمْ أَنَّ ٱلْعِلْمَ حُصُولُهُ يَتَطَلَّبُ جُهْدًا.]{.ar}  
 "Know that knowledge: its obtaining requires effort."
 
-#### [#mubtada]{.subs}-[xabar]{.subs} sentences with a pronoun [ism_of]{.subs}
+#### [#j_ism]{.subs}s with a pronoun [ism_of]{.subs}
 
-The [ism_of]{.subs}, in a [mubtada]{.subs}-[xabar]{.subs} sentence, is frequently a pronoun. For example,
+The [ism_of]{.subs}, in a [j_ism]{.subs}, is frequently a pronoun. For example,
 
 [أَنَا ٱسْمِي زَيْدٌ.]{.ar}  
 "I: my name is Zayd."
@@ -591,7 +630,7 @@ Mostly, pronouns are used in place of nouns when it is already known to whom the
 
 the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
 
-There is a special pronoun, called the _pronoun of the fact_ that begins [mubtada]{.subs}-[xabar]{.subs} sentences. This pronoun does not refer to any previously known entity, but rather refers to the [xabar]{.subs} that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
+There is a special pronoun, called the _pronoun of the fact_ that begins [j_ism]{.subs}s. This pronoun does not refer to any previously known entity, but rather refers to the [xabar]{.subs} that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -610,7 +649,7 @@ There is a special pronoun, called the _pronoun of the fact_ that begins [mubtad
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize comment};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize info};
 
 \end{tikzpicture}
 ```
@@ -675,7 +714,7 @@ the lightened [إِنْ]{.ar}
 and
 the heavy [إِنَّ]{.ar}
 is that 
-the heavy [إِنَّ]{.ar} is only used to introduce [mubtada]{.subs}-[xabar]{.subs} sentences.
+the heavy [إِنَّ]{.ar} is only used to introduce [j_ism]{.subs}s.
 The lightened [إِنْ]{.ar},
 however, can be used to introduce verbal sentences, but only those that begin with the verbs:
 [كَانَ]{.ar} and its sisters,
@@ -740,7 +779,7 @@ If we replace the heavy [أَنَّ]{.ar} in the above example with the lightene
 
 In the above example, 
 the lightened [أَنْ]{.ar}
-introduces a [xabar]{.subs} which is a [mubtada]{.subs}-[xabar]{.subs} sentence.
+introduces a [xabar]{.subs} which is a [j_ism]{.subs}.
 But the more common use of 
 the lightened [أَنْ]{.ar}
 is to introduce [xabar]{.subs}s that are verbal sentences.
@@ -785,6 +824,9 @@ Rigid verbs like [لَيْسَ]{.ar} and verbs expressing supplications are exem
 
 #### Distinguishing between the lightened [أَنْ]{.ar} and the [astate]{.subs}-verbal [أَنْ]{.ar} 
 
+See
+[[دليل السالك إلى ألفية ابن مالك]{.ar} vol 3 p 4](https://ketabonline.com/ar/books/22032/read?part=3&page=667&index=2025083&q=%D8%A7%D9%84%D9%85%D8%AE%D9%81%D9%81%D8%A9)
+
 Although they are similar in meaning,
 care must be taken to distinguish between this lightened [أَنْ]{.ar} and the [astate]{.subs}-verbal [أَنْ]{.ar} 
 (that we learned in chapter\ \@ref(chapter-[astate]{.subs}-[mudarie]{.subs}-verbs)),
@@ -826,7 +868,7 @@ The following guidelines can help to distinguish  between these two [أَنْ]{.
 
 ### The lightened [كَأَنْ]{.ar}
 
-The lightened [كَأَنْ]{.ar} is similar to the lightened [أَنْ]{.ar} in that it introduces a [mubtada]{.subs}-[xabar]{.subs} sentence and the [ism_of]{.subs} is usually a deleted pronoun of the fact. For example,
+The lightened [كَأَنْ]{.ar} is similar to the lightened [أَنْ]{.ar} in that it introduces a [j_ism]{.subs} and the [ism_of]{.subs} is usually a deleted pronoun of the fact. For example,
 
 [كَأَنِ ٱلْبَرْدُ ذَهَبَ.]{.ar}  
 "[It is] as if the cold has gone."
@@ -838,7 +880,7 @@ Also similar to the lightened [أَنْ]{.ar}, the lightened [كَأَنْ]{.ar}
 
 ### The lightened [لَـٰكِنْ]{.ar}
 
-The lightened [لَـٰكِنْ]{.ar} has the same meaning as the heavy [لَـٰكِنَّ]{.ar} but it has no grammatical effect on the word or sentence after it. It may introduce either [mubtada]{.subs}-[xabar]{.subs} or verbal sentences. For example,
+The lightened [لَـٰكِنْ]{.ar} has the same meaning as the heavy [لَـٰكِنَّ]{.ar} but it has no grammatical effect on the word or sentence after it. It may introduce either [j_ism]{.subs}s or verbal sentences. For example,
 
 [نَجَحَ زَيْدٌ لَـٰكِنْ صَدِيقُهُ لَمْ يَنْجَحْ.]{.ar}  
 "Zayd succeeded but his friend did not succeed."

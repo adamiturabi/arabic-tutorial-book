@@ -1,0 +1,1455 @@
+# Sentence and government theory
+
+## Introduction
+
+In this chapter, we will study the Arabic grammatical model for constructing sentences.
+We will first define some linguistic terms.
+
+### Truth-evaluability
+
+Statements are classified into two types:
+
+ i. a ;xabari; statement
+ii. a ;inshai; statement
+
+A _;xabari;_ statement is one that can be judged to be true or false.
+In other words it is falsifiable.
+For example, if we have a statement:
+
+(@3amal_zaydun_qaaimun) [زَيْدٌ قَائِمٌ]{.ar}  
+    [Zayd is standing.]{.trans}
+
+The above statement may be judged to have a truth value.
+If zayd is actually standing, then the statement is true.
+And if zayd is not standing, then the statement is false.
+
+A _;inshai;_ statement,
+on the other hand,
+does not have a truth value.
+Here are some examples of ;inshai; statements:
+
+(@) [اضْرِبْ زَيْدًا]{.ar}  
+    [Beat Zayd!]{.trans}
+
+(@) [لَا تَفْعَلْ]{.ar}  
+    [Don't do [it]!]{.trans}
+
+(@) [يَا زَيْدُ]{.ar}  
+    [O Zayd]{.trans}
+
+(@) [مَنْ هُوَ]{.ar}  
+    [Who is he?]{.trans}
+
+
+### Syntax, semantics, pragmatics, and stylistics
+
+#### Syntax and semantics {.unnumbered}
+
+_Semantics_ is the study of the meanings of words.
+And _syntax_ is the study of how words combine to form phrases and sentences.
+Syntax deals with the grammatical relationships between the words in a sentence.
+For example, consider the ;sifah; [كَبِير]{.ar}.
+Semantically, it gives the meaning of something being big.
+When it is in a linguistic environment, like a phrase or a sentence,
+then its syntactical role is determined by the grammatical relationships it has with other words in the sentence.
+
+Consider the following sentence:
+
+(@) [الْبَيْتُ كَبِيرٌ]{.ar}  
+    [The house is big]{.trans}
+
+In the above sentence, 
+[كَبِير]{.ar}
+is _syntactically_ a ;xabar;.
+
+Now consider the following sentence:
+
+(@) [دَخَلَ بَيْتًا كَبِيرًا]{.ar}  
+    [He entered a big house.]{.trans}
+
+Now the same noun
+[كَبِير]{.ar}
+is syntactically a ;na3t;.
+In both examples,
+[كَبِير]{.ar} has the same semantic signification.
+
+<!--
+#### Semantics {.unnumbered}
+
+Semantics is the study of the meanings of words.
+Consider the following sentence:
+
+(@) taHaddatha fi al-bayt.
+
+Here the semantic meaning of fi determines the meaning of the sentence.
+If fi means "in" then the sentence means "He talked in the house."
+And if fi means "regarding", then the sentence means "He talked about the house."
+
+Semantics can affect the syntax of a sentence.
+
+(@) al-af3Alu Hasanatun  
+    "The acts are good."
+
+(@) al-af3Alu HasanAtun  
+    "The acts are good deeds."
+-->
+
+#### Pragmatics {.unnumbered}
+
+<!--
+Pragmatics is the study of what sentences mean in context, and with regard to needs of the speaker and the listener.
+-->
+Pragmatics is the study of what sentences mean in a specific context or situation.
+
+
+<!--
+#### Functional aspects {.unnumbered}
+
+Semantics and pragmatics
+-->
+
+#### Stylistics {.unnumbered}
+
+In order to express a meaning, there will often be a normal way to choose words or construct a sentence's structure.
+If, for some effect (rhetorical, persuasive, literary, etc.), the speaker chooses to deviate from this norm,
+then he is doing so for stylistic reasons.^[Hickey, L, "Stylistics, Pragmatics, and Pragmastylistics"]
+
+
+## The theory of government
+
+A sentence in Arabic is constituted from elements.
+An element can be a noun, a verb, or a particle.
+Of these elements, some have the quality of state.
+These are called _stateful_ elements.
+The stateful elements are nouns and ;mudarie; verbs.
+A noun may be either in the ;ustate;, ;astate;, or ;istate;.
+And a ;mudarie; verb may be either in the ;ustate;, ;astate;, or ;0state;.
+The theory of government states that a stateful element is put in a particular state by a _governor_.
+For example:
+
+(@3amal_in_house) [فِي الدَّارِ]{.ar}  
+    [in the house]{.trans}
+
+In the above example,
+<!--
+the particle fii is the governor of the noun al-daari.
+The noun al-daar is the governee of its governor fii.
+-->
+the gpreposition [فِي]{.ar} causes the noun [الدَّار]{.ar} to be in the ;istate;.
+So we say that 
+the governor [فِي]{.ar} _governs_ [الدَّار]{.ar} (the _governee_) in the ;istate;.
+<!--
+We say that
+the preposition fii is the governor of ;istate; noun al-daar because it is the reason or cause of the noun al-daar being in the ;istate;.
+
+Here is another example:
+
+(@3amal_zayd_beat_3amr) Daraba zaydun eamran.
+
+In this example, the governor is the verb Daraba.
+It has two governees:
+the ;faa3il; zayd,
+and the ;mafulb; eamr.
+The governor Daraba governs the ;faa3il; zayd in the ;ustate;
+and it governs the ;mafulb; in the ;astate;.
+
+#### A governee can only have one governor  {.unnumbered}
+
+From example (@3amal_zayd_beat_3amr),
+you can see that one goveror may govern multiple governees.
+However, one governee cannot be be governed by multiple governors.
+In other words, there can be only one governor that causes a stateful element to be in a particular state.
+
+#### The word-order of a governor and its governee(s)  {.unnumbered}
+
+From the above examples,
+you can see that a governor typically occurs before its governees in word-order.
+For some governor-governee relationships, this word-order is obligatory,
+like in example (@3amal_in_house).
+For other governor-governee relationships, this word-order is more flexible.
+For example, the ;maful; may occur before its governing verb, thus:
+
+(@3amal_3amran_Daraba_zaydun) eamran Daraba zaydun
+
+<!--
+But the ;faa3il; must always follow its governing verb.
+So that is another example of an obligatory word-order for the governor and the governee.
+-->
+
+## Some common governees
+
+Let's look at some common governor-governee relationships.
+We will make use of the following example:
+
+(@) [قَرَأَ الْغُلَامُ الطَّوِيلُ كِتَابَ الجَارِيَةِ فِي الدَّارِ الْكَبِيرَةِ]{.ar}
+
+#### The ;istate; noun {.unnumbered}
+
+A noun in the ;istate; is governed by a preceding preposition or ;mudaf;.
+We have already seen that the
+;istate; noun [الدَّار]{.ar} is governed by the preceding preposition [فِي]{.ar}.
+<!--
+We saw an example of a governing preposition in (@3amal_in_house) [فِي الدَّارِ]{.ar} above.
+-->
+We also see that the ;istate; ;mudafil; [الجَارِيَةِ]{.ar}
+is governed by the ;mudaf; [كِتَابَ]{.ar}.
+
+#### The ;faa3il; {.unnumbered}
+
+The ;faa3il; of a verb is governed by its preceding verb.
+In our example the verb [قَرَأَ]{.ar} governs its ;faa3il; [الْغُلَامُ]{.ar} in the ;ustate;.
+
+#### The ;mafulb; {.unnumbered}
+
+The ;mafulb; is also governed by its verb.
+In our example the verb [قَرَأَ]{.ar} governs its ;mafulb; [كِتَابَ]{.ar} in the ;astate;.
+
+#### The ;na3t; {.unnumbered}
+
+A ;na3t; is governed by governor of its ;manut;.
+In our example, the ;na3t; [الطَّوِيلُ]{.ar} is governed in the ;ustate; by [قَرَأَ]{.ar}, which is the governor of its ;manut;
+[الْغُلَامُ]{.ar}.
+Similarly, the ;na3t;
+[الْكَبِيرَةِ]{.ar}
+is governed in the ;istate; by the preposition [فِي]{.ar} because [فِي]{.ar} also governs its ;manut; [الدَّارِ]{.ar}.
+
+<!--
+Here is an example of an ;istate; noun 
+([زَيْدٍ]{.ar})
+being governed by a preceding ;mudaf;
+([كِتَابُ]{.ar}):
+
+(@) [كِتَابُ زَيْدٍ]{.ar}  
+    [Zayd's book]{.trans}
+
+#### The ;faa3il; {.unnumbered}
+
+The ;faa3il; of a verb is governed by its preceding verb.
+For example:
+
+(@Daraba_zaydun_3amran) [ضَرَبَ زَيْدٌ عَمْرًا]{.ar}
+    [Zayd beat [#eamr]{.trn2}.]{.trans}  
+
+In example (@Daraba_zaydun_3amran) above,
+the verb [ضَرَبَ]{.ar}
+governs its ;faa3il;
+[زَيْدٌ]{.ar} in the ;ustate;.
+
+#### The ;mafulb; {.unnumbered}
+
+The ;faa3il; of a verb is governed by its preceding verb.
+For example:
+
+(@Daraba_zaydun_3amran) [ضَرَبَ زَيْدٌ عَمْرًا]{.ar}
+    [Zayd beat [#eamr]{.trn2}.]{.trans}  
+
+In example (@Daraba_zaydun_3amran) above,
+the verb [ضَرَبَ]{.ar}
+governs its ;faa3il;
+[زَيْدٌ]{.ar} in the ;ustate;.
+-->
+
+#### Ungoverned elements {.unnumbered}
+
+Not every element in a sentence is governed by a governor.
+For example, the ;madi; verb [قَرَأَ]{.ar} has no state, and thus, no governor.
+
+Here is a diagram depicting the above governor-governee relationships:
+
+DIAGRAM
+
+## The two ;3umdah; elements of a sentence
+
+In the Arabic grammatical model,
+a sentence is analagous to the structure of a simple _lean-to_ building.
+<!--
+A building is built upon a foundation.
+The foundation of the Arabic sentence
+-->
+This structure
+requires two _;3umdah;_ elements
+in order to be ;isnaad_comp;.^[@wright@ 2/250ff; @samarrai_jumlah@ 13ff]
+These two ;3umdah; elements are:
+
+ i. The ;muxbar3;
+ii. The ;muxbar;
+
+```{.tikzarabic}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\usetikzlibrary{patterns}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+
+\draw[pattern=north west lines, pattern, draw=none] (0,0) rectangle (6,-0.4);
+\draw (0,0) -- (6,0);
+\draw[fill=lightgray] (2,-0.3) rectangle node [rotate=90] {structure-starter} (2.4, 5);
+\draw[fill=lightgray, rotate around={30:(5.05,-0.3)}] (5.05,-0.3) rectangle node [rotate=-60] {structure-completer} (5.45, 6);
+
+\end{tikzpicture}
+```
+
+
+The ;muxbar3; is the primary ;3umdah; element.
+It represents whom the sentence is about, i.e. its topic.
+The ;muxbar; rests against the ;muxbar3;.
+<!--
+And the ;muxbar; is meant to provide some interesting comment about the ;muxbar3;.
+-->
+It expresses some property about the ;muxbar3; that completes the meaning of the sentence.
+
+Once the two ;3umdah; elements are in place,
+the sentence is ;isnaad_comp;.
+Other _;fadlah;_ elements
+(see section\ (ref) below)
+may be added in addition to the ;3umdah; elements to add meaning to the sentence,
+but they are not required to make the sentence ;isnaad_comp;.
+
+Let's look at the ;3umdah; elements for the two types of Arabic sentences:
+
+<!--
+Here are some examples of sentences with only ;3umdah; elements:
+-->
+
+### The ;3umdah; elements of a ;j_ism;
+
+In a ;j_ism; the ;mubtada; is the ;muxbar3; and the ;xabar; is the ;muxbar;.
+Consider the following ;j_ism;:
+
+(@3amal_zayd_qaimun) [زَيْدٌ قَائِمٌ]{.ar}  
+    [Zayd is standing.]{.trans}
+
+DIAGRAM
+
+Example (@3amal_zayd_qaimun) above is a ;j_ism;.
+The ;mubtada; [زَيْدٌ]{.ar}
+is the ;muxbar3;. It is the topic of the sentence.
+The ;xabar;
+[قَائِمٌ]{.ar}
+is the ;muxbar;.
+It is a comment on the topic, giving us some information about
+[زَيْدٌ]{.ar}.
+
+<!--
+We have previously referred to this type of sentence as a ;j_ism;.
+In this ;j_ism; the ;mubtada; is the ;muxbar3;,
+and the ;xabar; is the ;muxbar;.
+-->
+
+### The ;3umdah; elements of a ;j_f3l;
+
+In a ;j_f3l; the verb is the ;muxbar; and its ;faa3il; is the ;muxbar3;.
+Consider the following ;j_f3l;:
+
+(@3amal_qaama_zaydun) [قَامَ زَيْدٌ]{.ar}
+
+DIAGRAM
+
+Example (@3amal_qaama_zaydun) above is a ;j_f3l;.
+The ;faa3il;
+[زَيْدٌ]{.ar}
+is the ;muxbar3;. It is the topic of the sentence.
+And the verb [قَامَ]{.ar} is the ;muxbar;. It is a comment on the topic.
+
+<!--
+We have previously referred to this type of sentence as a ;j_f3l;.
+In this ;j_f3l; the verb is the ;muxbar;,
+and the ;faa3il; is the ;muxbar3;.
+-->
+<!--
+We will see later, ;ia; that 
+in a ;j_f3l;
+the ;muxbar; may sometimes be another element, instead of the verb that governs the ;faa3il;.
+-->
+
+## #;pregov;
+
+<!--
+Besides the two ;3umdah; elements,
+a sentence also needs an ;pregov;.[Owens §2.3.6.1 54]
+-->
+In order to build a sentence from the ;3umdah; elements,
+a sentence needs _;pregov;_.[Owens §2.3.6.1, 54]
+<!--
+The ;pregov; governs the highest governing element(s) of the two ;3umdah; elements of the sentence.
+-->
+<!--
+The ;pregov; is the source of all government in the sentence.
+-->
+#;pregov; is any and all government prior to, and until, the first governed ;3umdah; element.
+
+#### One of the two ;3umdah; elements is the ;pregov; {.unnumbered}
+
+In some sentences, the intitial governor may be one of the two ;3umdah; elements.
+In example (@3amal_qaama_zaydun) above,
+the verb [قَامَ]{.ar} governs its ;faa3il; [زَيْدٌ]{.ar}.
+The ;madi; verb [قَامَ]{.ar} has no state and thus needs no governor.
+So it is, itself, the ;pregov;.
+
+DIAGRAM
+
+#### Another (non-;3umdah;) element is the ;pregov; {.unnumbered}
+
+The intitial governor may be internal to the sentence but not one of the two ;3umdah; elements.
+<!--
+In such cases,
+even though the ;pregov; is not one of the two ;3umdah; elements,
+we don't call it an ;fadlah; element.
+-->
+
+Here are some examples:
+
+(@) [لَمْ يَضْرِبِ الرَّجُلُ غُلَامَ زَيْدٍ]{.ar}
+    [@owens_foundations_grammar@ §2.2.3, 41]{.citex}  
+    [The man did not beat Zayd's slave.]{.trans}
+
+DIAGRAM
+
+(@) [إِنَّ زَيْدًا قَائِمٌ]{.ar}  
+    [Indeed Zayd is standing.]{.trans}
+
+DIAGRAM
+    
+<!--
+(@kaana_zaydun_qaaiman) [كَانَ زَيْدٌ قَائِمًا]{.ar}  
+    [Zayd was standing.]{.trans}
+
+DIAGRAM
+
+In example (@kaana_zaydun_qaaiman) above,
+the verb [كَانَ]{.ar} is the ;pregov;.
+But because it is a ;naqis; verb, it does not complete the sentence grammatically.
+Therefore, it is not an ;3umdah; element.
+But it is needed to govern the ;3umdah; elements.
+-->
+
+#### The abstract ;pregov; {.unnumbered}
+
+Very commonly, the ;pregov; is not an actual word, but only an abstract concept.
+When there is one or more stateful ;3umdah; elements in a sentence with no overt (i.e. observable) governor,
+then this necessitates bringing in a _abstract_ ;pregov;.^[@owens_foundations_grammar@ 55; @peled_sentence_types@ 87--88]
+For example:
+
+(@) [زَيْدٌ مُنْطَلِقٌ]{.ar}
+    [@peled_sentence_types@ 87]{.citex}  
+    [Zayd is setting out.]{.trans}
+
+The abstract ;pregov; governs both the ;muxbar3; (the ;mubtada; [زَيْدٌ]{.ar}),
+and the ;muxbar; (the ;xabar; 
+[مُنْطَلِقٌ]{.ar})
+in the ;ustate;.
+
+(@) [يَقُومُ زَيْدٌ]{.ar}  
+    [Zayd stands]{.trans}
+
+The abstract ;pregov; governs the ;muxbar; (the ;mudarie; verb [يَقُومُ]{.ar}) in the ;ustate;.
+And, as usual, the verb [يَقُومُ]{.ar} governs its ;faa3il; [زَيْدٌ]{.ar} (the ;muxbar3;) in the ;ustate;.
+
+<!--
+
+#### An external element as the ;pregov; {.unnumbered}
+
+Sometimes, it is possible for an element that is external to the sentence under question, to be its ;pregov;.
+We will learn moe about this case in sections\ (ref) and (ref) below.
+-->
+
+<!--
+(@) zaydun DAribun abUhu eamran
+
+DIAGRAM
+
+This is an example of a nested sentence.
+We will study these types of sentences in more detail in later sections, ;ia;.
+For now, we will give a brief overview specific to this example.
+
+In the above example, the smaller sentence is
+DAribun abUhu eamran
+"His father is beating eamr."
+The ;ism_fail; DAribun governs the its ;faa3il; abUhu,
+and its ;mafulb; 3amr.
+(Remember from section\ (ref) that an ;ism_fail; may have a ;faa3il; and a ;mafulb;.)
+But DAribun is a stateful element that itself needs a governor.
+It is put in the ;ustate; because it is the ;xabar; of the ;mubtada; zaydun.
+by the conceptual governor that governs the larger sentence.
+
+(@) inna zaydan DAribun eamran
+
+DIAGRAM
+
+This is an example of a nested sentence.
+We will study these types of sentences in more detail in later sections, ;ia;.
+For now, we will give a brief overview specific to this example.
+
+In the above example,
+the ;pregov; is the particle inna.
+It governs its ;ism_of; zaydun in the ;astate;.
+And it governs its ;xabar; DAribun in the ;ustate;.
+However, its ;xabar; 
+the smaller sentence is
+DAribun eamran
+"He is beating eamr."
+The ;ism_fail; DAribun governs
+and its ;mafulb; 3amr,
+(and also its implied ;faa3il; "he").
+(Remember from section\ (ref) that an ;ism_fail; may have a ;faa3il; and a ;mafulb;.)
+But DAribun is a stateful element that itself needs a governor.
+It is put in the ;ustate; because it is the ;xabar; of the ;pregov; inna.
+-->
+
+<!--
+(@) kāna Zaydun munṭaliqan ʾabūhu
+    [peled 207 citing zajjaji]{.citex}
+
+DIAGRAM
+
+This is an example of a nested sentence.
+We will study these types of sentences in more detail in later sections, ;ia;.
+For now, we will give a brief overview specific to this example.
+
+In the above example,
+the ;pregov; of the outer sentence is the verb kaana.
+It governs its ;faa3il; zaydun in the ;ustate;.
+And it governs its ;xabar; muntaliqan in the ;astate;.
+However,
+muntaliqan and its ;faa3il; abUhu
+also constitute a sentence by themselves.
+This is the inner sentence within the outer sentence.
+This inner sentence 
+muntaliqan abuhu
+has two ;3umdah; elements: 
+the ;ism_fail; muntaliq,
+and its ;faa3il; abUhu.
+(Remember from section\ (ref) that an ;ism_fail; can have a ;faa3il;)
+muntaliq governs abUhu.
+But muntaliq itself is also governed by an ;pregov; (the verb kaana) that is not in this inner sentence.
+-->
+<!--
+#### More than one element in the ;pregov; {.unnumbered}
+
+Sometimes, there may be more than one element (in a chain) in the ;pregov;, before one reaches the first governed ;3umdah; element.
+For example:
+
+(@) [لَمْ يَكُنْ زَيْدٌ قَائِمًا]{.ar}  
+    [Zayd was not standing.]{.trans}
+
+In the example above,
+the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the ;0state;.
+The verb [يَكُنْ]{.ar}, being a ;naqis; verb, is not an ;3umdah; element.
+But [يَكُنْ]{.ar} governs the ;muxbar3; [زَيْدٌ]{.ar} in the ;ustate;
+and the ;muxbar; [قَائِمًا]{.ar} in the ;astate;.
+Therefore [يَكُنْ]{.ar} is part of the ;pregov;.
+-->
+
+## #;fadlah; elements
+
+A ;fadlah; element is any stateful element in a sentence,
+after the ;pregov;,
+that is not either of the two ;3umdah; elements.
+The source of government for 
+a ;fadlah; element must be,
+directly or indirectly,
+one of the ;3umdah; elements.
+
+We know from section\ (ref) above,
+that in a ;j_ism; the ;3umdah; elements are the ;mubtada; and the ;xabar;.
+And that in
+a ;j_f3l; the ;3umdah; elements are the verb and its ;faa3il;.
+So all other elements besides these 
+(and elements that constitute the ;pregov;)
+are ;fadlah; elements.
+Here is an (incomplete) list of some common ;fadlah; elements:
+<!--
+We will discuss some of ;fadlah; elements below:
+
+#### The ;astate; governees of a verb {.unnumbered}
+
+The most prominent ;fadlah; elements are 
+all ;astate; elements that a verb governs.
+These include:
+-->
+
+* the ;na3t;
+* the ;mafulb; (usually)
+* the ;mmutlaq; (see chapter\ (ref))
+* the ;dharf_zaman; and the ;dharf_makan; (see chapter\ (ref))
+* the ;mafull; (see chapter\ (ref))
+* the ;mafulm; (see chapter\ (ref))
+* the ;hal; (see chapter\ (ref))
+* the ;tamyiz; (see chapter\ (ref))
+
+
+By the way,
+when we say _;fadlah;_,
+we mean that an element is ;fadlah; in the sense that it is not required to complete the sentence _structurally_.
+We don't mean that it is superfluous in terms of its meaning.
+In fact, a ;fadlah; element may be essential for the correct meaning of the sentence.
+For example, consider the ;ayah;:
+
+(@) [وَمَا خَلَقۡنَا ٱلسَّمَاۤءَ وَٱلۡأَرۡضَ وَمَا بَیۡنَهُمَا لَـٰعِبِینَ]{.quran}
+    [@https://quran.com/21/16@ cited by [@maani_nahw@ 1/14](https://shamela.ws/book/17801/13)]{.citex}  
+    [And We did not create the heaven and earth and that between them in play.]{.trans}
+
+[لَاعِبِينَ]{.ar} is a ;hal; (see in chapter\ (ref)),
+which is a ;fadlah; element.
+If we remove it from the sentence,
+then the sentence will be ;isnaad_comp; but it will have an incorrect meaning.
+
+<!--
+The ;mafulb; is usually a ;fadlah; element.
+In most sentences, if we remove the ;mafulb; the sentence remains ;isnaad_comp;.
+For example:
+
+However, if a verb is ;naqis;
+(for example [كَانَ]{.ar}),
+then its ;mafulb; is renamed to be the ;xabar;
+
+We saw an example of this in example (@kaana_zaydun_qaaiman) above.
+-->
+<!--
+#### The ;mudafil; in an ;idaafah; {.unnumbered}
+
+Technically,
+the ;mudafil; in an ;idaafah; is considered a ;fadlah; unit.
+Consider the following example:
+
+(@) abU zaydin axU eamrin
+
+If we remove the ;mudafil; nouns from the sentence we get:
+
+(@) al-abu al-axu
+
+This is a complete sentence.
+al-abu is the ;mubtada;.
+And al-axu is the ;xabar; (the ;muxbar;).
+
+However, for convenience, we will often (loosely) treat
+the annexation as one unit.
+So we may say that the ;mubtada; is
+abu zaydin
+and that the ;muxbar; is axu 3amr.
+
+#### The ;tabi3;s {.unnumbered}
+
+The ;tabi3;s are considered ;fadlah; elements.
+These include:
+
+* The ;na3t; (see chapter\ (ref))
+* The ;badal; (see chapter\ (ref))
+* The ;tawkeed; (see chapter\ (ref))
+* The ;3atf_bayan; (see chapter\ (ref))
+-->
+
+## Refining the definitions of the ;j_ism; and the ;j_f3l;
+
+We know that there are two basic types of Arabic sentences:
+
+ i. The ;j_ism;
+ii. The ;j_f3l;
+
+Previously we had said that a ;j_ism; is one that begins with a noun.
+And a ;j_ism; is one that begins with a verb.
+We will now refine these definitions:
+
+<!--
+A _;j_ism;_ is one whose first ;3umdah; element is a noun.
+And
+a _;j_f3l;_ is one whose first ;3umdah; element is a verb.
+-->
+A _;j_ism;_ is one whose ;3umdah; elements are two nouns: a ;ism_of; (as the ;muxbar3;) and an ;xabar; (as the ;muxbar;).
+And
+a _;j_f3l;_ is one whose ;3umdah; elements are a verb (as the ;muxbar3;) and and its ;faa3il; (as the ;muxbar;).
+
+Consider, for example, the following sentence:
+
+(@) [بَلْ زَيْدٌ قَائِمٌ]{.ar}  
+    [Rather Zayd is standing.]{.trans}
+
+The first word in the sentence above is [بَلْ]{.ar}.
+It is a particle and not a ;3umdah; element.
+Removing it from the sentence, we see that the remaining ;3umdah; elements are two nouns:
+[زَيْدٌ]{.ar} (the ;mubtada;) and [قَائِمٌ]{.ar} (as the ;xabar;).
+So the sentence is a ;j_ism;.
+
+Let's take a look at another example:
+
+(@) [زَيْدًا رَأَيْتُ]{.ar}
+    [@peled_sentence_types@ 28]{.citex}  
+    [[It was] Zayd I saw.]{.trans}
+
+The first word in the sentence is [زَيْدًا]{.ar}.
+It is a ;mafulb;.
+We learned in section\ (ref) above that a ;mafulb; is not usually a ;3umdah; element.
+Rather,
+it is usually a ;fadlah; elements
+Stripping the sentence of this ;fadlah; element, we are left with
+[رَأَيْتُ]{.ar} [I saw]{.trans}.
+This is a ;j_f3l;.
+The verb [رَأى]{.ar} is the ;muxbar; and its ;faa3il;, the pronoun [تُ]{.ar}, is the ;muxbar3;.
+
+<!--
+
+## The hybrid sentence
+
+Some sentences do not fall neatly into the categories of a ;j_ism; or a ;j_f3l;.
+We will refer to such sentences as hybrid sentences.
+
+One example of a hybrid sentence is one that has the verb [كَانَ]{.ar}.
+Example:
+
+(@kaana_zaydun_qaaiman) [كَانَ زَيْدٌ قَائِمًا]{.ar}
+    [@peled_sentence_types@ 171]{.citex}  
+    [Zayd was standing]{.trans}
+
+On the surface, 
+example (@kaana_zaydun_qaaiman) above
+looks like a verbal sentence because it begins with
+[كَانَ]{.ar}, which is a verb.
+Its ;faa3il;
+[زَيْدٌ]{.ar}
+is the ;muxbar3;, as usual.
+But
+[كَانَ]{.ar}, as used above,
+is a ;naqis; verb
+(see chapter\ (ref).)
+This means that it does not have sufficient meaning to ;isnaad_comp; the sentence by itself.
+So it cannot be a ;3umdah; ;muxbar;.
+Instead,
+[كَانَ]{.ar}
+requires a ;xabar; 
+([قَائِمًا]{.ar} above)
+to be the ;muxbar;.
+
+In such a sentence,
+[كَانَ]{.ar}
+can be considered to be the ;pregov;, and the sentence may be considered a ;j_ism;.
+
+Similarly consider the sentence:
+
+(@) [لَمْ يَكُنْ زَيْدٌ قَائِمًا]{.ar}  
+    [Zayd was not standing.]{.trans}
+
+In the example above,
+the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the ;0state;.
+The verb [يَكُنْ]{.ar}, being a ;naqis; verb, is not an ;3umdah; element.
+But [يَكُنْ]{.ar} governs the ;muxbar3; [زَيْدٌ]{.ar} in the ;ustate;
+and the ;muxbar; [قَائِمًا]{.ar} in the ;astate;.
+Therefore both [لَمْ]{.ar} and [يَكُنْ]{.ar} form the ;pregov;.
+
+[كَانَ]{.ar} and its sisters are discussed in more detail in chapters\ (ref).
+-->
+<!--
+Similarly, consider the sentence:
+
+(@) [ظَنَنْتُ زَيْدًا قَائِمًا]{.ar}
+    [@peled_sentence_types@ 171]{.citex}  
+    [I believed him [to be] standing.]{.trans}
+
+The sentence above begins with the verb [ظَنَّ]{.ar},
+which would normally make this a ;j_f3l;.
+But the sentence with just the verb and its ;faa3il; 
+[ظَنَنْتُ]{.ar}
+[I believed]{.trans}
+seems incomplete.
+
+[ظَنَّ]{.ar} and its sisters are discussed in more detail in chapters\ (ref).
+-->
+<!--
+We will see another example of a hybrid sentence in section\ (aqaaimun zaydun).
+-->
+
+
+<!--
+## Identifying the ;3umdah; elements
+
+### Identifying the ;3umdah; elements in a ;j_f3l;
+
+Identifying the ;3umdah; elements in a ;j_f3l; is relatively straightforward.
+The ;muxbar3; is always the ;faa3il; of the verb.
+And 
+except in the case of a ;naqis; verb,
+the ;muxbar; is usually the verb.
+We saw an example of the ;3umdah; elements of a ;j_f3l; in example (@3amal_qaama_zaydun) above.
+
+In the case of a ;naqis; verb,
+like [كَانَ]{.ar},
+the verb does not complete the sentence grammatically.
+So the ;mafulb; of the verb becomes the ;muxbar;.
+We saw an example of the ;3umdah; elements of a ;j_f3l; with a ;naqis; verb in example (@kaana_zaydun_qaaiman) above.
+-->
+
+## Identifying the ;3umdah; elements in a ;j_ism;
+
+It can sometimes be complicated to tell
+which of the twp ;3umdah; elements in a ;j_ism; is the ;muxbar3; and which is the ;muxbar;.
+We will discuss several cases below:
+
+### When there is an overt ;pregov;
+
+When there is an overt ;pregov;,
+like [إِنَّ]{.ar},
+[كَانَ]{.ar}, etc.,
+then it is usually easy to tell which is the ;muxbar3; and which is the ;muxbar;.
+For example:
+
+(@3amal_fainna_hasbaka_allahu) [فَإِنَّ حَسۡبَكَ ٱللَّهُ]{.quran}
+    [@https://quran.com/8/62@]{.citex}  
+    [then sufficient for you is Allāh]{.trans}
+
+In example (@3amal_fainna_hasbaka_allahu) above,
+[حَسْب]{.ar} is in the ;astate; as the ;ism_of; and 
+the word [ٱللَّهُ]{.ar} is in the ;ustate; as the ;xabar;.
+This tells us that
+[حَسْب]{.ar} is the ;muxbar3; and the word
+[ٱللَّهُ]{.ar} is the ;muxbar;.
+
+
+### One ;3umdah; element is definite and the other ;3umdah; element is indefinite
+
+When 
+one ;3umdah; element is definite and the other ;3umdah; element is indefinite,
+then it is usually the case that the definite element is the ;muxbar3; (as the ;mubtada;)
+and the indefinite element is the ;muxbar; (as the ;xabar;).
+
+In terms of pragmatics, the ;muxbar3; and the ;muxbar; represent 'given' and 'new' information.
+That is, the listener knows who the ;muxbar3; is and can identify him or it. So the ;muxbar3; is a 'given' to the listener.
+And the speaker is providing 'new' information about the ;muxbar3; to the listener.
+The definite element represents the 'given' information, which the listener already knows.
+And the indefinite element represents 'new' information.
+
+Let's take a look at an example:
+
+(@3amal_tamimiyyun_ana) [تَمِيمِيٌّ أَنَا]{.ar}
+    [@peled_sentence_types@ 121]{.citex}  
+    [A [#tamIm]{.trn2}ite I am.]{.trans}
+
+The pronoun [أَنَا]{.ar} is definite. Therefore it is the ;muxbar3; (as the ;mubtada;).
+And the word
+[تَمِيمِيٌّ]{.ar}
+is indefinite.
+Therefore it is the ;muxbar; (as the ;xabar;).
+Example (@3amal_tamimiyyun_ana) is an inverted order sentence where the ;xabar; is fronted and the ;mubtada; is placed after it.
+
+In special cases, some grammarians hold that it is possible to have an indefinite ;mubtada; and a definite ;xabar;.^[<https://alababmisr.com/%D8%B3%D8%A4%D8%A7%D9%84-%D9%87%D9%84-%D9%8A%D8%AC%D9%88%D8%B2-%D8%A3%D9%86-%D9%8A%D8%A3%D8%AA%D9%8A-%D8%A7%D9%84%D9%85%D8%A8%D8%AA%D8%AF%D8%A3-%D9%86%D9%83%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%AE/>]
+One special case is when a question noun is the ;mubtada;.
+(Question nouns are considered indefinite.)
+For example:
+
+(@) [كَمْ مَالُكَ]{.ar}
+    [@sabban@ 1/231]{.citex}  
+    [How much is your wealth?]{.trans}
+
+(@) [أَيُّ لَيْلَةٍ لَيْلَةُ الْقَدْرِ]{.ar}
+    [@https://sunnah.com/tirmidhi:3513@]{.citex}  
+    [Which night is the night of Decree]{.trans}
+
+Another special case is when the ;mubtada; is an indefinite ;af3al; in sentences like:
+
+(@) [خَيْرٌ مِنْكَ زَيْدٌ]{.ar}
+    [@sabban@ 1/231]{.citex}  
+    [Better than you is Zayd]{.trans}
+
+In the above sentence, [خَيْرٌ]{.ar} is considered the ;mubtada; of the sentence.
+<!--
+Typically, an indefinite ;af3al; would be a ;xabar; instead of a ;mubtada;.
+For example: zaydun xayrun minka.
+But imagine a scenario where someone says:
+3amrun xayrun minni.
+In response to this, another person may reply
+xayrun minka zaydun.
+The given information is xayrun minka.
+And the new information is zayd.
+-->
+<!--
+Besides these two special cases,
+there are words like
+[حَسْب]{.ar},
+[مِثْل]{.ar},
+[نَحْو]{.ar}, etc.
+We will see in chapter\ (ref) that these words (exceptionally) remain indefinite when annexed to a definite noun.
+So, for example, these words (as ;mudaf;s to definite ;mudafil;s) may be used as ;na3t;s to an indefinite noun.
+For example:
+
+(@) [مَرَرْتُ بِرَجُلٍ حَسْبِكَ ِمْن َرُجٍل]{.ar}
+    [@ibn_hisham_awdah_almasaalik@ 3/139]{.citex}
+
+There is some debate amongst the grammarians with regards to whether these indefinite noun may occur as a ;mubtada; to a definite ;xabar;.^[@sabban@ 1/277]
+So if we have a sentence: 
+
+(@) [حسبُك زَيْدٌ]{.ar}  
+    [Sufficient for you is Zayd.]{.trans}
+
+then one may deem zayd as the ;mubtada; because it is more definite than hasbuka.
+
+But see also the ;tafsir;s of the following ;ayah;s:
+
+(@) faHasbuhu jahannamu
+
+(@) Hasbuhum jahannamu yaSlawnahA
+-->
+
+### Both ;3umdah; elements are definite
+
+When both ;3umdah; elements are definite, then typically the first is the ;mubtada; and the second is the ;xabar;.
+For example:
+
+(@) [الدِّينُ النَّصِيحَةُ]{.ar}
+    [@https://sunnah.com/muslim:55a@]{.citex}  
+    [The Religion is sincerity.]{.trans}
+
+However, if it is known from context that one if the two elements is the 'given' information and the other is the 'new' information,
+then the given information will be the ;mubtada; and the new information will be the ;xabar;, regardless of word-order.^[[@ibn_aqil_alfiyyah@ 1/233](https://shamela.ws/book/9904/232); [@maani_nahw@ 1/168](https://shamela.ws/book/17801/167)]
+
+For example, consider a situation where one wishes to say, 
+"[#abU #yUsuf]{.trn2} is [like] [#abU #HanIfah]{.trn2}."
+([#imAm #abU #yUsuf]{.trn2}
+was the foremost student of
+[#imAm #abU #HanIfah]{.trn2}.)
+The normal way to express this sentence is:
+
+(@3amal_abu_hanifah_abu_yusuf) [أَبُو يُوسُفَ أَبُو حَنِيفَةَ]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/233](https://shamela.ws/book/9904/232)]{.citex}  
+    [[#abU #yUsuf]{.trn2} is [like] [#abU #HanIfah]{.trn2}.]{.trans}
+
+DIAGRAM
+
+However, if it is pragmatically known that the topic of the sentence is 
+[أَبُو يُوسُفَ]{.ar},
+then it is 'given' that
+[أَبُو يُوسُفَ]{.ar}
+is the ;muxbar3; (as the ;mubtada;).
+Similarly, it is known that likening him to
+[أَبُو حَنِيفَةَ]{.ar}
+is the 'new' information.
+Therefore,
+[أَبُو حَنِيفَةَ]{.ar} is the ;muxbar; (as the ;xabar;).
+In this case, the sentence order can be flexible, and the ;xabar; can be fronted (stylistically), for the same meaning, thus:
+
+(@) [أَبُو حَنِيفَةَ أَبُو يُوسُفَ]{.ar}  
+    [[Like] [#abU #HanIfah]{.trn2}, [#abU #yUsuf]{.trn2} is.]{.trans}
+
+DIAGRAM
+
+### Both ;3umdah; elements are indefinite
+
+When both ;3umdah; elements are indefinite then,
+again,
+the first is likely to be the ;mubtada;
+and the second to be the ;xabar;.
+Examples:
+
+(@) [أَفْضَلُ مِنْ زَيْدٍ أَفْضَلُ مِنْ عَمْرٍو]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/232](https://shamela.ws/book/9904/231#p1)]{.citex}  
+    [[The person] better than Zayd is better than [#eamr]{.trn2}.]{.trans}
+
+(@) [وَجَزَ ٰ⁠ۤؤُا۟ سَیِّئَةࣲ سَیِّئَةࣱ مِّثۡلُهَاۖ]{.quran}
+    [@https://quran.com/42/40@]{.citex}  
+    [And the retribution for an evil act is an evil one like it]{.trans}
+
+## The ;xabar; as a complete sentence
+
+In a ;j_ism;,
+the ;xabar; is, by default, a single noun.
+See example (@3amal_zaydun_qaaimun) again:
+
+(@3amal_zaydun_qaaimun) [زَيْدٌ قَائِمٌ]{.ar}  
+    [Zayd is standing.]{.trans}
+
+In example (@3amal_zaydun_qaaimun),
+[قَائِمٌ]{.ar}
+is a single word and it is the ;xabar;.
+This is what we may call a _simple_ ;j_ism;.
+
+In contrast,
+in a _compound_ ;j_ism;,
+the ;xabar; is itself a complete sentence.
+For example:
+
+(@3amal_zaydun_yaqoomu) [زَيْدٌ يَقُومُ]{.ar}  
+    [Zayd -- he stands]{.trans}
+
+In example (@3amal_zaydun_yaqoomu) above,
+[زَيْدٌ]{.ar}
+is the ;mubtada; and
+[يَقُومُ]{.ar}
+is the ;xabar;.
+But 
+[يَقُومُ]{.ar}
+is not a single word here.
+It is in fact a complete sentence.
+This is because, as we know, a verb _must_ be followed by its ;faa3il;.
+And if there is no overt ;faa3il;, then a ;mustatir; ;faa3il; pronoun is implicated.
+So [يَقُومُ]{.ar} is a a ;j_f3l; with the meaning
+[he stands]{.trans}.
+
+Here is example of a compound ;j_ism;, whose ;xabar; is also a ;j_ism;:
+
+(@3amal_zaydun_aboohu_qaaimun) [زَيْدٌ أَبُوهُ قَائِمٌ]{.ar}
+    [[@abu_hayyan_tadhyeel@ 4/26](https://shamela.ws/book/17116/1040)]{.citex}  
+    [Zayd -- his father is standing.]{.trans}
+
+(FIXME: MOVE THIS TO KAANA CHAPTER):
+
+Compound sentences are very common with [كَانَ]{.ar}.
+Remember from section\ (ref) above that
+[كَانَ]{.ar}
+is a ;naqis; verb, and thus needs a ;xabar; to grammatically the sentence.
+This ;xabar; may be a single word, like:
+
+(@) [كَانَ زَيْدٌ قَائِمًا]{.ar}  
+    [Zayd was standing.]{.trans}
+
+Or the ;xabar; of [كَانَ]{.ar} may be a complete sentence:
+
+(@) [كَانَ زَيْدٌ يَقُومُ]{.ar}  
+    [Zayd used to stand.]{.trans}
+
+(END FIXME)
+
+The ;xabar; of a compound ;j_ism; is typically a ;xabari; sentence.
+But it need not be so.
+A ;inshai; sentence is also valid as a ;xabar;^[@ibn_3usfoor_sharh_jumal@ 1/347; @abu_hayyan_tadhyeel@ 4/27]
+For example:
+
+(@) [زَيْدٌ اضْرِبْهُ]{.ar}
+    [@abu_hayyan_tadhyeel@ 4/27]{.citex}  
+    [Zayd -- hit him!]{.trans}  
+    (i.e. [Hit Zayd!]{.trans})
+
+### The government of the compound ;j_ism; sentence
+
+The ;xabar; of a compound ;j_ism; is a complete sentence.
+Therefore, it has its own independent internal government for all elements within it
+(including its own ;pregov;).
+But the _entire_ ;xabar; is governed, albeit not markedly,  by a governor in the outer sentence.
+For example, consider the following compound ;j_ism;:
+
+(@3amal_zaydun_lam_yadrib_3amran) [زَيْدٌ لَمْ يَضْرِبْ عَمْرًا]{.ar}  
+    [Zayd -- he did not hit [#eamr]{.trn2}]{.trans}
+
+In example (@3amal_zaydun_lam_yadrib_3amran) above,
+[لَمْ يَضْرِبْ عَمْرًا]{.ar}
+is a complete sentence that is the ;xabar; of the outer sentence.
+This inner sentence has its own internal government,
+starting with its ;pregov; [لَمْ]{.ar}.
+The ;pregov; [لَمْ]{.ar}
+governs the verb [يَضْرِبْ]{.ar} in the ;0state;.
+And the verb [يَضْرِبْ]{.ar}
+governs an implicated ;mustatir; ;faa3il; pronoun ([هُوَ]{.ar}) in the ;ustate;,
+and the ;mafulb; [عَمْرًا]{.ar} in the ;astate;.
+
+We will say that the inner sentence 
+[لَمْ يَضْرِبْ عَمْرًا]{.ar}
+is _in place_ of a ;ustate; noun as the ;xabar; of the outer sentence.
+
+The government of this compound sentence is illustrated in the diagram below:
+
+DIAGRAM
+
+<!--
+The governments of the other examples of compound sentences that we gave above, is ilustrated in the diagrams below:
+-->
+
+### Invalid inner sentences
+
+Some sentences are not valid as inner sentences:
+
+* A sentence beginning with [لَـٰكِنْ]{.ar}, [حَتَّى]{.ar}, or [بَلْ]{.ar} is not valid.^[@abu_hayyan_tadhyeel@ 4/28]
+* A vocative sentence is not valid.^[@abu_hayyan_tadhyeel@ 4/28]
+  So. we cannot say, for example:
+
+  (@) ;x; [زيد يا أخاه]{.ar}
+      [@abu_hayyan_tadhyeel@ 4/28]{.citex}  
+      "Zayd -- O his brother."
+
+### The ;rabt; between the inner and outer sentence
+
+It is usually necessary for there to be a ;rabt; between the inner sentence, and the ;mubtada; of the outer sentence.
+This ;rabt; is typically supplied by a pronoun.
+Let's look at some examples:
+
+(@3amal_zaydun_qaama_aboohu) [زَيْدٌ قَامَ أَبُوهُ]{.ar}
+    [@jurjani_muqtasid@ 1/278]{.citex}  
+    [Zayd -- his father stood up.]{.trans}
+
+DIAGRAM
+
+In example (@3amal_zaydun_qaama_aboohu) above, the ;rabt; is the pronoun [هُ]{.ar} in abuuhu.
+
+(@3amal_zaydun_qaama) [زَيْدٌ قَامَ]{.ar}
+    [@jurjani_muqtasid@ 1/278]{.citex}  
+    [Zayd -- he stood up.]{.trans}
+
+DIAGRAM
+
+In example (@3amal_zaydun_qaama) above, the ;rabt; is the implied singular masculine pronoun that is the ;faa3il; of [قَامَ]{.ar}.
+
+Generally, if there is no such ;rabt; between the inner sentence and the ;mubtada; of the outer sentence,
+then the compound sentence is invalid.^[@peled_sentence_types@ 94 citing @ibn_ya3ish_mufassal@; @jurjani_muqtasid@]{.citex}
+So we cannot say, for example:
+
+(@) ;x; [زَيْدٌ قَامَ عَمْرٌ]{.ar}
+    [@peled_sentence_types@ 94 citing @ibn_ya3ish_mufassal@]{.citex}  
+    [Zayd -- [#eamr]{.trn2} stood up]{.trans}
+
+#### A ;ism_isharah; as the ;rabt; {.unnumbered}
+
+Instead of a pronoun,
+an ;ism_isharah; may serve as the ;rabt;.
+For example:
+
+(@) [وَلِبَاسُ ٱلتَّقۡوَىٰ ذَ ٰ⁠لِكَ خَیۡرࣱۚ]{.quran}
+    [@https://quran.com/7/26@ cited by @ibn_aqil_alfiyyah@ 1/204]{.citex}  
+    [But the clothing of righteousness - that is best.]{.trans}
+
+#### A repeated ;mubtada; as the ;rabt; {.unnumbered}
+
+The ;mubtada; of the outer sentence may be repeated in the inner sentence, and this is sufficient as the ;rabt;.
+For example:
+
+(@) [ٱلۡحَاۤقَّةُ ۝١ مَا ٱلۡحَاۤقَّةُ ۝٢]{.quran}
+    [@https://quran.com/69/1-2@ cited by @ibn_aqil_alfiyyah@ 1/204]{.citex}  
+    [The Inevitable Reality - What is the Inevitable Reality?]{.trans}
+
+
+#### No need for the ;rabt; {.unnumbered}
+
+In cases where the ;xabar; of the outer sentence is more general than its ;mubtada; a ;rabt; is not needed.
+For example:
+
+(@) [زَيْدٌ نِعْمَ الرَّجُلُ]{.ar}
+    [@wright@ 2/256D, @ibn_aqil_alfiyyah@ 1/204]{.citex}  
+    [Zayd -- an excellent man]{.trans}
+
+The ;rabt; is also not needed when the ;mubtada; of the outer sentence and its ;xabar; are perfectly identical in meaning.
+For example:
+
+(@) [نُطْقِي اللَّهُ حَسْبِي]{.ar}
+    [@wright@ 2/256D, @ibn_aqil_alfiyyah@ 1/204]{.citex}  
+    [My utterance is "[#allAh]{.trn2} is sufficient for me."]{.trans}
+
+(@) [قَوْلِي لَا إِلَهَ إِلاَّ اللَّهُ]{.ar}
+    [@wright@ 2/256D, @ibn_aqil_alfiyyah@ 1/204]{.citex}  
+    [My saying is "There is no god but [#allAh]{.trn2}."]{.trans}
+
+#### An implied ;rabt; {.unnumbered}
+
+The ;rabt;, even when technically required, is sometimes omitted.
+But it remains implied.
+This is in cases in which the sense is perfectly clear without it.^[@wright@ 2/256B]
+For example:
+
+(@) [ٱلسَّمْنُ مَنَوَانِ بِدِرْهَمٍ]{.ar}
+    [@wright@ 2/256C; @jurjani_muqtasid@ 1/278; @radiy_kafiyah@ 1/238]{.citex}  
+    [The ghee is (at the rate of) two [manA]{.trn2}s for a dirham.]{.trans}  
+
+In the example above,
+the sentence with the ;rabt; restored is 
+[ٱلسَّمْنُ مَنَوَانِ **مِنْهُ** بِدِرْهَمٍ]{.ar} 
+[two [manA]{.trn2}s **of it** for a dirham.]{.trans}
+
+
+
+## Other complete sentences in place of nouns
+
+It is not only the ;xabar; which can be replaced with a complete sentence.
+Other grammatical categories are also, by default, a single noun, but which can be replaced with complete sentences.
+We will discuss some of these categories below,
+and treat other categories in their respective chapters
+(like the ;hal;, the ;jawab_shart;, and ;af3aal_quloob;).
+
+<!--
+### The ;naib; ;faa3il; as a complete sentence
+-->
+
+### The ;mafulb; as a complete sentence
+
+A sentence which is direct speech occurs in the place of a ;mafulb;.
+For example:
+
+(@) [قَالَ إِنِّی عَبۡدُ ٱللَّهِ]{.quran}
+    [@https://quran.com/19/30@ cited by [@qawa3id_shaykh_zadeh@ 1/23](https://shamela.ws/book/19236/32#p1)]{.citex}  
+    [[Jesus] said, "Indeed, I am the servant of Allāh.]{.trans}
+
+In the example above, the sentence 
+[إِنِّی عَبۡدُ ٱللَّهِ]{.ar}
+is in place of the ;astate; ;mafulb; of [قَالَ]{.ar}.
+
+A complete sentence can also occur as a ;mafulb; with ;af3aal_quloob;.
+Examples:
+
+(@) [ظَنَنْتُ زَيْدًا يَقْرَأُ]{.ar}
+    [[@qawa3id_shaykh_zadeh@ 1/24](https://shamela.ws/book/19236/33#p1)]{.citex}  
+    [I believed Zayd [to be] reading.]{.trans}
+
+In the example above,
+the ;j_f3l;
+[يَقْرَأُ]{.ar}
+is in place of the ;astate; ;mafulb; of [ظَنَنْتُ]{.ar}.
+We will learn more about this category in chapter\ (ref), ;ia;.
+
+### The ;na3t; as a complete sentence
+
+The ;na3t; is,
+in principle,
+a single noun.
+
+However, an sentence entire sentence may occur in place of the single noun.
+For example, instead of saying
+[مَرَرْتُ بِرَجُلٍ قَائِمٍ]{.ar},
+we can replace
+the single word ;na3t;
+[قَائِمٍ]{.ar}
+with the sentence
+[يَقُومُ]{.ar}, thus:
+
+(@) [مَرَرْتُ بِرَجُلٍ يَقُومُ]{.ar}
+    [@farisi_idah@ 308]{.citex}  
+    [I passed by a man [that] stands.]{.trans}  
+    (literally: [I passed by a 'he stands' man.]{.trans}
+
+Note that the ;mudarie; verb
+[يَقُومُ]{.ar}
+is in the ;ustate;.
+This is because
+[يَقُومُ]{.ar}
+is a complete sentence (with an implied ;faa3il; pronoun).
+So it has its own internal government that is not affected by any element in the outer sentence.
+Thus, the state of the ;manut;
+[رَجُلٍ]{.ar} has no effect on any state within the sentence-;na3t;.
+However, the entire sentence ;na3t; is _in place_ of a ;istate; noun as the ;na3t; of 
+[رَجُلٍ]{.ar}.
+
+Substituing a single-noun ;na3t; with its corresponding ;mudarie; verb is the most basic form of the sentence-;na3t;.
+However, more complex sentence-;na3t;s may also be formed.
+For example:
+
+(@3amal_quran_2_281) [وَٱتَّقُوا۟ یَوۡمࣰا تُرۡجَعُونَ فِیهِ إِلَى ٱللَّهِۖ]{.quran}
+    [@https://quran.com/2/281@ cited by @ibn_hisham_awdah_almasaalik@ 3/276]{.citex}  
+    [And fear a Day when you will be returned to Allāh.]{.trans}
+
+In example (@3amal_quran_2_281) above,
+the sentence
+[تُرۡجَعُونَ فِیهِ إِلَى ٱللَّهِ]{.quran}
+is a ;na3t; of [يَوْمًا]{.ar}.
+
+<!--
+Also note that when we translate such sentences into English, we need to use a _relative pronoun_ like
+_that_, _which_, _who_, etc.
+But in Arabic no such relative pronoun is needed or used.
+Arabic does have the equivalent of the relative pronoun, called the _;ism_mawsul;_,
+but it has its own use cases.
+We will discuss the ;ism_mawsul; in chapter\ (ref), ;ia;.
+-->
+
+There are three conditions that must be met in order for a sentence to occur as a ;na3t;^:
+    [@ibn_hisham_awdah_almasaalik@ 3/275--278]{.citex}  
+
+1. The ;manut; must be indefinite, either in wording or in meaning.
+2. The sentence-;na3t; must contain a ;rabt; that links back to the ;manut;.
+2. The sentence-;na3t; should be ;xabari;.
+
+Let's discuss each of these conditions.
+
+#### Indefiniteness of the ;manut; {.unnumbered}
+
+We already saw an example of an indefinite (in wording) ;manut; in example (@3amal_quran_2_281) above.
+Here is an example of a ;manut; which is definite in wording, but indefinite in meaning:
+
+(@3amal_walaqad_amurru) [وَلَقَدْ أَمُرُّ عَلَى اللَّئِيمِ يَسُبُّنِي]{.ar}
+    [@ibn_hisham_awdah_almasaalik@ 3/276]{.citex}  
+    [And indeed I pass by the ignoble [person that] insults me]{.trans}
+
+In example (@3amal_walaqad_amurru)
+the ;manut; [اللَّئِيمِ]{.ar} is referring to a general person, and is therefore indefinite in meaning.
+
+#### A ;rabt; that links back to the ;manut; {.unnumbered}
+
+In example (@3amal_quran_2_281), the ;rabt;,
+which links back to the ;manut; [يَوْمًا]{.ar},
+is the pronoun [ه]{.ar} in [فِيهِ]{.ar}.
+
+Sometimes the ;rabt; is not explicit, but is implied.
+For example:
+
+(@) [وَٱتَّقُوا۟ یَوۡمࣰا لَّا تَجۡزِی نَفۡسٌ عَن نَّفۡسࣲ شَیۡـࣰٔا]{.quran}
+    [@https://quran.com/2/123@ cited by @ibn_hisham_awdah_almasaalik@ 3/277]{.citex}  
+    [And fear a Day when no soul will suffice for another soul at all]{.trans}
+
+The implied ;rabt;
+is the pronoun [ه]{.ar} in an implied [فِيهِ]{.ar},
+i.e. [لَا تَجْزِی **فِيهِ**]{.ar}.
+
+#### The sentence-;na3t; should be ;xabari; {.unnumbered}
+
+The following sentence is impermissible because the ;na3t; [اضْرِبْهُ]{.ar} is a ;inshai; sentence.
+
+(@) ;x; [مَرَرْتُ بِرَجُلٍ اضْرِبْهُ]{.ar}
+    [@ibn_hisham_awdah_almasaalik@ 3/278]{.citex}  
+    [I passed by a man -- hit him]{.trans}
+    
+### The ;mudafil; in an ;idaafah; as a complete sentence
+
+The ;mudafil; in an ;idaafah; may be a complete sentence instead of a single noun.
+For example:
+
+(@3amal_yawmu_yanfa3) [هَـٰذَا یَوۡمُ یَنفَعُ ٱلصَّـٰدِقِینَ صِدۡقُهُمۡۚ]{.quran}
+    [@https://quran.com/5/119@ cited by [@qawa3id_shaykh_zadeh@ 1/28](https://shamela.ws/book/19236/37)]{.citex}  
+    [This is the Day when the truthful will benefit from their truthfulness.]{.trans}
+
+In example (@3amal_yawmu_yanfa3) above the entire sentence
+[یَنفَعُ ٱلصَّادِقِینَ صِدْقُهُمْ]{.ar}
+is the ;mudafil; to the ;mudaf; [يَوْمُ]{.ar}.
+As with sentence-;xabar;s and sentence-;na3t;s,
+the sentence-;mudafil; has its own internal government.
+And the sentence-;mudafil; is _in place_ of an ;istate; noun.
+
+Here is another example:
+
+(@) [یَوۡمَ هُم بَـٰرِزُونَۖ]{.quran}
+    [@https://quran.com/40/16@ cited by [@qawa3id_shaykh_zadeh@ 1/29](https://shamela.ws/book/19236/38#p1)]{.citex}  
+    [The Day they come forth]{.trans}
+
+## A foreign element separating a governor from its governee
+
+A foreign element is one that is not _directly_ governed by a governor.
+In most cases,
+a foreign element should not come between (and thus separate) a governor from its governee(s).
+For example, consider the following sentence:
+
+(@) [عَلِمْتُ مُحَمَّدًا يُؤَلِّفُ كِتَابًا]{.ar}
+    [@samarrai_jumlah@ 66]{.citex}  
+    [I knew [#muHammad]{.trn2} [to be] writing a book.]{.trans}
+
+In the example above the ;j_f3l;
+[يُؤَلِّفُ كِتَابًا]{.ar}
+is in place of the second ;mafulb; of
+[عَلِمْتُ]{.ar}.
+The noun
+[كِتَابًا]{.ar}
+is governed directly by the verb
+[يُؤَلِّفُ]{.ar}.
+So 
+[كِتَابًا]{.ar}
+is a foreign element for the verb
+[عَلِمْتُ]{.ar}.
+Therefore, the following sentence is impermissible:
+
+(@) ;x; [عَلِمْتُ كِتَابًا مُحَمَّدًا يُؤَلِّفُ]{.ar}
+    [@samarrai_jumlah@ 66]{.citex}  
+
+
+## The ;damir_shan;
+
+Usually, for pronouns, the pronoun's referent is a single noun that occurs before it.
+For example,
+if we say 
+
+(@) [زَيْدٌ هَوَ مُنْطَلِقٌ]{.ar}  
+    [Zayd is setting out.]{.trans}
+
+Then the pronoun
+[هُوَ]{.ar}
+refers to the noun [زَيْدٌ]{.ar} which occurs before it.
+
+There is a special pronoun, called the _;damir_shan;_
+([ضَمِيرُ الشَّأْنِ]{.ar})
+that behaves differently from other pronouns
+It is used to begin compound ;j_ism;s.
+Here is an example of a sentence with a ;damir_shan;:
+
+(@) [هُوَ زَيْدٌ مُنْطَلِقٌ]{.ar}
+    [[@maani_nahw@ 1/57](https://shamela.ws/book/17801/56)]{.citex}  
+    [[The state of affairs] is: Zayd is setting out.]{.trans}  
+
+The pronoun [هُوَ]{.ar} is the ;damir_shan;
+It is the ;mubtada; of the outer sentence.
+Its ;xabar; is the inner sentence
+[زَيْدٌ مُنْطَلِقٌ]{.ar}.
+What the ;damir_shan; is referring to
+is explained by the entire sentence
+[زَيْدٌ مُنْطَلِقٌ]{.ar}
+that occurs after it.
+
+The ;damir_shan; is typically used for statements that are momentous.
+Consider, for example, a situation where one hears some hubbub, and wonders,
+"What is the state of affairs that is causing this hubbub?"
+The answer to this question is:
+
+(@3amal_huwa_alameeru_muqbilun) [هُوَ الأَمِيرُ مُقْبِلٌ]{.ar}
+    [@radiy_kafiyah@ 2/464]{.citex}  
+    [It is: the commander is approaching.]{.trans}  
+    (the pronoun "it" is referring to "the state of affairs".)
+
+This pronoun is often left untranslated.
+So example (@3amal_huwa_alameeru_muqbilun) may simply be translated as
+[The commander is approaching.]{.trans}
+
+Here are some rules and guidelines regarding the ;damir_shan;:
+
+#### The gender of the ;damir_shan; {.unnumbered}
+
+If the ;mubtada; of the following sentence is masculine,
+then the ;damir_shan; is generally the masculine pronoun [هُوَ]{.ar}.
+And
+if the ;mubtada; of the following sentence is feminine,
+then the ;damir_shan; is generally the feminine pronoun [هِيَ]{.ar}.
+Examples:
+
+(@) [**هُوَ** زَيْدٌ قَائِمٌ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 745]{.citex}  
+    [[The state of affairs] is: Zayd is standing.]{.trans}
+
+(@) [**هِيَ** هِنْدٌ قَائِمَةٌ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 745]{.citex}  
+    [[The state of affairs] is: Hind is standing.]{.trans}
+
+As mentioned,
+the gender of the ;damir_shan; generally matches the gender of the following ;mubtada; (as above).
+Sometimes, however, it is found to mismatch. For example:
+
+(@) [**هِيَ** زَيْدٌ قَائِمٌ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 745]{.citex}  
+    [[The state of affairs] is: Zayd is standing.]{.trans}
+
+(@) [**هُوَ** هِنْدٌ قَائِمَةٌ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 745--756]{.citex}  
+    [[The state of affairs] is: Hind is standing.]{.trans}
+
+#### The ;damir_shan; is always a singular pronoun {.unnumbered}
+
+The ;damir_shan; is always a singular pronoun, regardless of whether the subject of the following ;mubtada; is singular, dual, or plural.^[[@maani_nahw@ 1/59](https://shamela.ws/book/17801/58#p1)]
+
+(@) [**هُوَ** الزَّيْدَانِ قَائِمَانِ]{.ar}  
+    [[The state of affairs] is: the two Zayds are standing.]{.trans}
+
+(@) [**هِيَ** الْهِنْدَاتُ قَائِمَاتٌ]{.ar}  
+    [[The state of affairs] is: the Hinds are standing.]{.trans}
+
+#### The ;damir_shan; is always a pronoun for the ;third; person {.unnumbered}
+
+Even if the ;mubtada; of the inner sentence is a pronoun for the ;first; or ;second; persons,
+the ;damir_shan; is always a pronoun of for the ;third; person.
+For example:
+
+(@) [هُوَ أَنَا زَيْدٌ]{.ar}
+    [[@maani_nahw@ 1/59](https://shamela.ws/book/17801/58#p1)]{.citex}  
+    [[The fact] is: I am Zayd.]{.trans}  
+
+The sentence 
+[أَنَا أَنَا زَيْدٌ]{.ar}
+is possible, but in this case the pronoun [أَنَا]{.ar} is not a ;damir_shan;.
+Rather it is repeated for emphasis.^[[@maani_nahw@ 1/59](https://shamela.ws/book/17801/58#p1)]
+
+#### The ;damir_shan;s [هُوَ]{.ar} and [هِيَ]{.ar} only introduce ;j_ism;s {.unnumbered}
+
+The ;damir_shan;s [هُوَ]{.ar} and [هِيَ]{.ar} only introduce ;j_ism;s.^[@radiy_kafiyah@ 2/467]
+This can be seen in the examples above.
+
+We will see, in sections\ (kaana) and (inna),
+that the ;damir_shan; can also be used with
+[كَانَ]{.ar} and [إِنَّ]{.ar} (and its sisters).
+In these cases, the ;damir_shan; may introduce ;j_f3l;s.
+For example:
+
+(@) [فَإِنَّهَا لَا تَعۡمَى ٱلۡأَبۡصَـٰرُ]{.quran}
+    [@https://quran.com/22/46@ cited by @radiy_kafiyah@ 2/467]{.citex}  
+    [For indeed, it is not eyes that are blinded]{.trans}  
+

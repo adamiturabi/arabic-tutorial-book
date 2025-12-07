@@ -41,14 +41,19 @@ book:
     - content/mudari3_majzoom.qmd
     - content/passive_voice.qmd
     - content/additional_forms.qmd
+    - content/3amal.qmd
+    - content/3amal_mushtaqqaat.qmd
+    - content/ta3alluq_harf_jarr.qmd
+    #- content/3amal_masdar.qmd
     - content/kaana.qmd
     - content/inna_and_its_sisters.qmd
+    - content/ma3aani_ism_faa3il.qmd
     - content/dharf.qmd
     - content/maf3ool_mutlaq.qmd
     - content/haal.qmd
     - content/ism_mawsuul.qmd
     - content/istifhaam.qmd
-    - content/ism_faa3il.qmd
+    #- content/ism_faa3il.qmd
     - content/refs.qmd
     - content/ack.qmd
 
@@ -66,6 +71,7 @@ filters:
   - filters/lingex.lua
   - filters/footnotesize.lua
   - filters/citex.lua
+  - filters/translation.lua
   - filters/subs.lua
 
 tikzarabic:

@@ -7,519 +7,698 @@ In this chapter, we will learn about a new type of verb, whose ;faa3il; is calle
 
 The principal verb of this type is [كَانَ]{.ar} which is used to mean "was". There are other verbs which behave in a similar manner and they are called the _sisters_ of [كَانَ]{.ar}.
 
-## [كَانَ]{.ar}, its ;ism_of;, and its ;xabar;
 
-Consider the sentence:
+## [كَانَ]{.ar} as a ;naqis; verb
 
-[ٱلرَّجُلُ مُعَلِّمٌ.]{.ar}  
-"The man is a teacher."
+In chapter\ (gov), we learned that a ;j_f3l; is formed from a verb and its ;faa3il;.
+The verb constitutes the ;muxbar; and its ;faa3il; constitutes the ;muxbar3;.
+For example:
 
-This is a ;mubtada;-;xabar; sentence. 
-[ٱلرَّجُلُ]{.ar} is the ;mubtada; in the ;ustate;, and
-[مُعَلِّمٌ]{.ar} is the ;xabar;, also in the ;ustate;.
-Arabic does not, in this case, express any word for "is".
+(@kaana_qaama_zaydun) [قَامَ زَيْدٌ]{.ar}  
+    [Zayd stood up.]{.trans}  
 
-Consider now the following sentence:
+In example (@kaana_qaama_zaydun)  above
+[قَامَ]{.ar} is the ;muxbar; and
+[زَيْدٌ]{.ar} is the ;muxbar3;.
+
+Most verbs behave in this manner.
+They are termed _;taamm;_ verbs
+because the verb contains sufficient meaning to be the ;muxbar; by expressing some property about its ;faa3il; (the ;muxbar3;).
+
+There are some verbs, however, that do not contain sufficient meaning to be the ;muxbar; of a sentence.
+These verbs are termed _;naqis;_ verbs.
+For such verbs, the verb's ;mafulb; is needed to complete the meaning of the sentence.
+The verb
+[كَانَ]{.ar}, which means "[was]{.trans}", is one such verb.
+If we say
+[كَانَ زَيْدٌ]{.ar}
+[Zayd was]{.trans}
+then the meaning is, in general, incomplete.
+The listener would be left wondering,
+[Zayd was what?]{.trans}
+<!--
+[كَانَ]{.ar},
+and verbs like it,
+are termed ;naqis; verbs.
+-->
+So,
+in order
+to complete the meaning of the sentence,
+we have to add a ;mafulb; for [كَانَ]{.ar}.
+For example:
+
+(@kaana_kaana_zaydun_qaaiman) [كَانَ زَيْدٌ قَائِمًا]{.ar}
+    [@peled_sentence_types@ 171]{.citex}  
+    [Zayd was standing]{.trans}  
+
+Now the sentence is structurally complete.
 
 <!--
-[كَانَ ٱلرَّجُلُ مُعَلِّمًا.]{.ar}  
-"The man was a teacher."
+In example (@kaana_kaana_zaydun_qaaiman) 
+the ;faa3il;
+[زَيْدٌ]{.ar}
+is the ;muxbar3;, as usual.
+But the ;muxbar; is not the verb
+[كَانَ]{.ar}.
+Rather it is the ;mafulb;
+[قَائِمًا]{.ar}.
 -->
 
+## A [كَانَ]{.ar} sentence as a ;j_ism;
 
-```{.tikzarabic}
-\usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=2.0ex}]
-\path [decoration={text effects along path, 
-  text=.\txarb{مُعَلِّمًا} \txarb{ٱلرَّجُلُ} \txarb{كَانَ},
-  text effects/.cd, 
-    path from text, text along path,
-    group letters, word count=\w,
-    every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate] (0,0);
+The fact that [كَانَ]{.ar} is not a ;3umdah; element of its sentence
+also changes the classification of the sentence.
+The ;muxbar3;
+in example (@kaana_kaana_zaydun_qaaiman)
+[زَيْدٌ]{.ar}
+needs
+a ;muxbar; to complete the sentence.
+Because
+the  verb
+[كَانَ]{.ar}
+does not complete the meaning of the sentence,
+therefore
+it cannot be the ;muxbar;.
+The sentence becomes structurally complete when we add the ;mafulb;
+[قَائِمًا]{.ar}.
+Therefore, the ;mafulb;
+[قَائِمًا]{.ar}
+is the ;muxbar;.
 
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex, align=left] {\scriptsize ;mafulb;/\\\scriptsize comment};
+So ;3umdah; elements in example (@kaana_kaana_zaydun_qaaiman) become
+[زَيْدٌ]{.ar}
+(the ;muxbar3;)
+and 
+[قَائِمًا]{.ar}
+(the ;muxbar;).
+These two are nouns, not a verb and its ;faa3il;.
+Therefore the sentence is reclassified as a ;j_ism;, not a ;j_f3l;
+(see section\ (3amal)).^[See also @peled_sentence_types@ 171]
+[زَيْدٌ]{.ar}
+is considered the ;ism_of;,
+and 
+[قَائِمًا]{.ar}
+is considered the ;xabar;.^[This is according to the classification of the [#baSr]{.trn2}ans. The [#kUf]{.trn2}ans considered the ;astate; governee of [كَانَ]{.ar} its ;hal;. See [@shatibi_sharf_alfiyyah@\ 2/137](https://shamela.ws/book/20562/798#p1)]
 
-\draw [decoration={brace, mirror}, decorate] 
-   (word-2.south west) -- (word-2.south east)
-      node [midway, rotate=90, anchor=south, left=0ex, align=left] {\scriptsize doer/\\\scriptsize subject};
+Although
+[كَانَ]{.ar}
+is not a ;3umdah; element anymore,
+it still governs both ;3umdah; elements.
+Therefore, it is the ;pregov; of the sentence (see section\ (ref)).
 
-%\path (0,0) node [midway, below=4.5ex, right=0ex, align=left] {``The man was a teacher.''};
+<!--
+not the verb ([كَانَ]{.ar}) and its ;faa3il;
+([زَيْدٌ]{.ar}).
+Therefore, the sentence is a ;j_ism;, not a ;j_f3l;
 
-\end{tikzpicture}
-```
+We leaned in section\ (ref) that the ;3umdah; elements of a ;j_ism; are its ;ism_of; and its ;xabar;.
+So now that a [كَانَ]{.ar} sentence is reclassified as a ;j_ism;,
+we also rename its ;3umdah; elements.
+The ;faa3il; of [كَانَ]{.ar} is termed its ;ism_of;.
+And the ;mafulb; of [كَانَ]{.ar} is termed its ;xabar;.
+-->
+The diagram below depicts the government of example (@kaana_kaana_zaydun_qaaiman).
 
-Now, as you can see, Arabic does express a word for "was". It is the past verb [كَانَ]{.ar} [kAna]{.trn}.
-[كَانَ]{.ar} is a hollow verb from the root [كون]{.ar}. 
-It's ;mudarie; verb is [يَكُونُ]{.ar} [yakUnu]{.trn}.
-The complete table for this verb for all ;faa3il; pronouns is given below:
+DIAGRAM
 
-|#;faa3il; pronoun|past verb|;mudarie; verb|
-|:----|:----|:----|
-| he        | [كَانَ]{.ar}   | [يَكُونُ]{.ar}   |
-| she       | [كَانَتْ]{.ar}  | [تَكُونُ]{.ar}   |
-| you~1m~   | [كُنْتَ]{.ar}   | [تَكُونُ]{.ar}   |
-| you~1f~   | [كُنْتِ]{.ar}   | [تَكُونِينَ]{.ar} |
-| I         | [كُنْتُ]{.ar}   | [أَكُونُ]{.ar}   |
-| they~2m~  | [كَانَا]{.ar}  | [يَكُونَانِ]{.ar} |
-| they~2f~  | [كَانَتَا]{.ar} | [تَكُونَانِ]{.ar} |
-| you~2~    | [كُنْتُمَا]{.ar} | [تَكُونَانِ]{.ar} |
-| they~3m~  | [كَانُوا]{.ar} | [يَكُونُونَ]{.ar} |
-| they~3f~  | [كُنَّ]{.ar}    | [يَكُنَّ]{.ar}    |
-| you~3m~   | [كُنْتُمْ]{.ar}  | [تَكُونُونَ]{.ar} |
-| you~3f~   | [كُنْتُنَّ]{.ar}  | [تَكُنَّ]{.ar}    |
-| we        | [كُنَّا]{.ar}   | [نَكُونُ]{.ar}   |
+## Conjugation table for [كَانَ]{.ar}
 
-Like, for other verbs, 
-the ;faa3il; of [كَانَ]{.ar},
-[ٱلرَّجُلُ]{.ar}, is in the ;ustate;, and
-and its ;mafulb;, [مُعَلِّمًا]{.ar}, is in the ;astate;.
+[كَانَ]{.ar} is a hollow verb.
+Here is its conjugation table for easy reference:
 
-However, unlike most other verbs,
-the ;faa3il; of [كَانَ]{.ar},
-[ٱلرَّجُلُ]{.ar}, is also called its ;ism_of;
-and its ;mafulb;, [مُعَلِّمًا]{.ar}, is also called its ;xabar;.
+|#;faa3il; pronoun|;madi; verb|;ustate; ;mudarie; verb|;astate; ;mudarie; verb|;0state; ;mudarie; verb|
+|:--|:----|:----|:----|:----|
+| he        | [كَانَ]{.ar}   | [يَكُونُ]{.ar}   | [يَكُونَ]{.ar}   | [يَكُنْ]{.ar}   |
+| she       | [كَانَتْ]{.ar}  | [تَكُونُ]{.ar}   | [تَكُونَ]{.ar}   | [تَكُنْ]{.ar}   |
+| you~1m~   | [كُنْتَ]{.ar}   | [تَكُونُ]{.ar}   | [تَكُونَ]{.ar}   | [تَكُنْ]{.ar}   |
+| you~1f~   | [كُنْتِ]{.ar}   | [تَكُونِينَ]{.ar} | [تَكُونِي]{.ar}  | [تَكُونِي]{.ar}  |
+| I         | [كُنْتُ]{.ar}   | [أَكُونُ]{.ar}   | [أَكُونَ]{.ar}   | [أَكُنْ]{.ar}   |
+| they~2m~  | [كَانَا]{.ar}  | [يَكُونَانِ]{.ar} | [يَكُونَا]{.ar}  | [يَكُونَا]{.ar}  |
+| they~2f~  | [كَانَتَا]{.ar} | [تَكُونَانِ]{.ar} | [تَكُونَا]{.ar}  | [تَكُونَا]{.ar}  |
+| you~2~    | [كُنْتُمَا]{.ar} | [تَكُونَانِ]{.ar} | [تَكُونَا]{.ar}  | [تَكُونَا]{.ar}  |
+| they~3m~  | [كَانُوا]{.ar} | [يَكُونُونَ]{.ar} | [يَكُونُوا]{.ar} | [يَكُونُوا]{.ar} |
+| they~3f~  | [كُنَّ]{.ar}    | [يَكُنَّ]{.ar}    | [يَكُنَّ]{.ar}    | [يَكُنَّ]{.ar}    |
+| you~3m~   | [كُنْتُمْ]{.ar}  | [تَكُونُونَ]{.ar} | [تَكُونُوا]{.ar} | [تَكُونُوا]{.ar} |
+| you~3f~   | [كُنْتُنَّ]{.ar}  | [تَكُنَّ]{.ar}    | [تَكُنَّ]{.ar}    | [تَكُنَّ]{.ar}    |
+| we        | [كُنَّا]{.ar}   | [نَكُونُ]{.ar}   | [نَكُونَ]{.ar}   | [نَكُنْ]{.ar}   |
 
-So a sentence with [كَانَ]{.ar} used in this way is a ;mubtada;-;xabar; sentence.
-If it begins with [كَانَ]{.ar} then it is also a verbal sentence at the same time.
+Here are some examples showing some of the different conjugations:
 
-This property also applies to the sisters of [كَانَ]{.ar} that we will learn later in this chapter. 
-Together, these verbs are also called _deficient_ verbs, because, besides their ;faa3il;/;ism_of;, they also need an ;xabar; to complete the meaning of the sentence.
-That is, without the ;xabar;, the sentence is deficient.
+(@) [كَانَتْ زَيْنَبُ جَائِعَةً]{.ar}  
+    [Zaynab was hungry.]{.trans}
 
-"Is" ;mubtada;-;xabar; sentences can be converted to "was" ;ism_of;-;xabar; sentences using the verb [كَانَ]{.ar}. Here are some examples:
+(@) [كَانَ ٱلْغُلَامُ زَيْدًا]{.ar}  
+    [The boy was Zayd.]{.trans}  
 
-| "is" | "was" |
-|:-|:-|
-| [زَيْنَبُ جَائِعَةٌ.]{.ar}  |[كَانَتْ زَيْنَبُ جَائِعَةً.]{.ar}  |
-| "Zaynab is hungry." |"Zaynab was hungry."     |
-| [ٱَلْغُلَامُ زَيْدٌ.]{.ar}  |[كَانَ ٱلْغُلَامُ زَيْدًا.]{.ar} |
-| "The boy is Zayd."  |"The boy was Zayd."     |
-| [ٱَلنِّسَاءُ فِي بُيُوتِهِنَّ.]{.ar}         |[كَانَتْ ٱلنِّسَاءُ فِي بُيُوتِهِنَّ.]{.ar}     |
-| "The women are in their houses." |"The women were in their houses." |
-| [هُمْ مَسْرُورُونَ وَفَرِحُونَ.]{.ar}            | [كَانُوا مَسْرُورِينَ وَفَرِحِينَ.]{.ar}     |
-| "They~3m~ are happy and rejoicing."  | "They~3m~ were happy and rejoicing." |
-| [أَنَا نَائِمَةٌ.]{.ar}                | [كُنْتُ نَائِمَةً.]{.ar}       |
-| "I~1f~ am sleeping."             | "I~1f~ was sleeping."|
-| [أَنْتَ لِي أَخٌ.]{.ar}               | [كُنْتَ لِي أَخًا.]{.ar}            |
-| "You~1m~ are a brother to me.   | "You~1m~ were a brother to me.|
+(@) [كَانَتِ ٱلنِّسَاءُ فِي بُيُوتِهِنَّ]{.ar}  
+    [The women were in their houses.]{.trans} 
 
-### Sequence of [كَانَ]{.ar}, its ;ism_of;, and its ;xabar;
+(@) [كَانُوا مَسْرُورِينَ وَفَرِحِينَ]{.ar}  
+    [They~3m~ were happy and rejoicing.]{.trans} 
+
+(@) [كُنْتُ نَائِمَةً]{.ar}  
+    [I~1f~ was sleeping.]{.trans}
+
+(@) [كُنْتَ لِي أَخًا]{.ar}  
+    [You~1m~ were a brother to me.]{.trans}
+
+## Word order of [كَانَ]{.ar}, its ;ism_of;, and its ;xabar;
+
+<!--
+### Word order when [كَانَ]{.ar}'s ;xabar; does not have a ;mafulb;
+-->
+
+#### Verb, ;ism_of;, ;xabar; {.unnumbered}
 
 In sentence word order, the natural sequence is 
 verb, ;ism_of;, ;xabar;.
 
-[كَانَ زَيْدٌ قَائِمًا.]{.ar}
-[@wright@ 2/100B]{.aside}  
-"Zayd was standing."
+@) [كَانَ زَيْدٌ قَائِمًا]{.ar}
+  [@wright@ 2/100B]{.citex}  
+  [Zayd was standing.]{.trans}  
 
-but we may also, for the same meaning, apply the sequence verb, ;xabar;, ;ism_of;:
+#### Verb, ;xabar;, ;ism_of; {.unnumbered}
 
-[كَانَ قَائِمًا زَيْدٌ.]{.ar}
-[@wright@ 2/100B]{.aside}  
-"Zayd was standing."
+The sequence verb, ;xabar;, ;ism_of; is also permissible.
 
-and also the sequence ;xabar;, verb, ;ism_of;:
+(@) [كَانَ قَائِمًا زَيْدٌ]{.ar}
+    [@wright@ 2/100B]{.citex}  
+    [Zayd was standing.]{.trans}
 
-[قَائِمًا كَانَ زَيْدٌ.]{.ar}
-[@wright@ 2/100B]{.aside}  
-"Zayd was standing."
+#### #;xabar;, verb, ;ism_of; {.unnumbered}
 
-This last order is common in questions and alternative sentence sentences.
+So is the sequence ;xabar;, verb, ;ism_of;:
+
+(@) [قَائِمًا كَانَ زَيْدٌ]{.ar}
+    [@wright@ 2/100B]{.citex}  
+    [Zayd was standing.]{.trans}
+
+This last order is common in questions and alternative sentence sentences.^[@wright@ 2/100B]
 For example:
 
-[أَقَائِمًا كَانَ زَيْدٌ.]{.ar}  
-"Was Zayd standing?"
+(@) [أَقَائِمًا كَانَ زَيْدٌ]{.ar}  
+    [Was Zayd standing?]{.trans}
 
-[ٱُدْعُ زَيْدًا قَائِمًا كَانَ أَوْ جَالِسًا!]{.ar}  
-"Call Zayd, be he standing or sitting!"
-
-<!--See Wright vol. ii. Section 41 Rem a, p. 100B -->
+(@) [أَكْرِمْ الضَّيْفَ غَنِيًّا كَانَ أَوْ فَقِيرًا]{.ar}
+    [@wright@ 2/100B]{.citex}  
+    [Honor the guest, be he rich or poor.]{.trans}  
 
 Sometimes, however, this inversion is impossible because of an indistinguishable state of the two nouns.
 
-For example, in order to express "My brother was my companion," we must say:
+For example, in order to express [My brother was my companion,]{.trans} we must say:
 
-[كَانَ أَخِي رَفِيقِي.]{.ar}
-[@wright@ 2/100C]{.aside}  
-"My brother was my companion."
+(@) [كَانَ أَخِي رَفِيقِي]{.ar}
+    [@wright@ 2/100C]{.citex}  
+    [My brother was my companion.]{.trans}
 
 This is because, if we invert it, it would naturally mean:
 
-[كَانَ رَفِيقِي أَخِي.]{.ar}
-[@wright@ 2/100C]{.aside}  
-"My companion was my brother."
+(@) [كَانَ رَفِيقِي أَخِي]{.ar}
+    [@wright@ 2/100C]{.citex}  
+    [My companion was my brother.]{.trans}
 
-The following apparent sequence is also possible:
+#### #;ism_of;, verb, ;xabar; {.unnumbered}
 
-[زَيْدٌ كَانَ قَائِمًا.]{.ar}  
-"Zayd: he was standing."
+What about the sequence: ;ism_of;, verb, ;xabar;? For example:
 
-But this is actually a ;mubtada;-;xabar; sentence.
-[زَيْدٌ]{.ar} is the ;mubtada;.
-And the ;xabar; is [كَانَ قَائِمًا]{.ar}, which is itself a [كَانَ]{.ar} ;ism_of;-;xabar; sentence in the sequence verb, ;ism_of;, ;xabar;.
-The ;ism_of; is the hidden pronoun "he" and the ;xabar; is [قَائِمًا]{.ar}.
+(@) [زَيْدٌ كَانَ قَائِمًا]{.ar}  
+    [Zayd -- he was standing.]{.trans}
 
-### Plurals of non-rational beings with [كَانَ]{.ar}
+Remember that a verb must be followed by its ;faa3il;.
+So this is actually a compound sentence.
+[زَيْدٌ]{.ar} is the ;mubtada; of the outer sentence.
+And the ;xabar; of the outer sentence is the inner sentence
+[كَانَ قَائِمًا]{.ar}.
+The ;ism_of; of [كَانَ]{.ar} is a ;mustatir; pronoun, implicated a [[هُوَ]]{.ar}.
 
-Because [كَانَ]{.ar} sentences are ;mubtada;-;xabar; being sentences, 
-many of the rules that we have learned for ;mubtada;-;xabar; sentences also apply to [كَانَ]{.ar} sentences.
-One such rule is that when the ;mubtada; of a sentence is a plural of non-rational beings, and the ;xabar; is a ;sifah;, then the feminine singular ;sifah; is often used. (See section\ \@ref(usage-of-plurals-of-non-intelligent-beings).)
+#### Word order when [كَانَ]{.ar}'s ;xabar; has a ;astate; governee {.unnumbered}
+
+We know from chapter\ (ref) that a ;mushtaqq; noun can have a ;maful;.
+The natural word order is for this ;maful; to occur after its governor, thus:
+
+(@kaana_kaana_zaydun_aakilan_ta3aamaka) [كَانَ زَيْدٌ آكِلًا طَعَامَكَ]{.ar} [@suyooti_ashbaah@\ 2/59]{.citex}  
+    [Zayd was eating your food.]{.trans}  
+
+Other word orders are also possible.
+We will discuss the different combinations below:
+
+(@) Basic order: [كَانَ زَيْدٌ آكِلًا]{.ar}  
+    (a) ;v; [كَانَ زَيْدٌ آكِلًا طَعَامَكَ]{.ar}  
+    (c) ;v; [كَانَ زَيْدٌ طَعَامَكَ آكِلًا]{.ar}  
+    (d) ;v; [طَعَامَكَ كَانَ زَيْدٌ آكِلًا]{.ar}  
+    (b) ;x; [كَانَ طَعَامَكَ زَيْدٌ آكِلًا]{.ar}  
+
+(@) Basic order: [كَانَ آكِلًا زَيْدٌ]{.ar}  
+    (a) ;v; [كَانَ آكِلًا طَعَامَكَ زَيْدٌ]{.ar}  
+    (b) ;v; [كَانَ آكِلًا زَيْدٌ طَعَامَكَ]{.ar}  
+    (d) ;v; [طَعَامَكَ كَانَ آكِلًا زَيْدٌ]{.ar}  
+    (c) ;x; [كَانَ طَعَامَكَ آكِلًا زَيْدٌ]{.ar}  
+
+(@kaana_aakilan_kaana_zaydun) Basic order: [آكِلًا كَانَ زَيْدٌ]{.ar}  
+    (a) ;v; [آكِلًا طَعَامَكَ كَانَ زَيْدٌ]{.ar}  
+    (b) ;v; [طَعَامَكَ آكِلًا كَانَ زَيْدٌ]{.ar}  
+    (c) ;v; [آكِلًا كَانَ زَيْدٌ طَعَامَكَ]{.ar}  
+    (d) ;x; [آكِلًا كَانَ طَعَامَكَ زَيْدٌ]{.ar}  
+
+As you can see, only three of the combinations are disallowed.^[There is some difference of opinion regarding the permissibility of some of the combinations. See @ibn_aqil_alfiyyah@\ 1/280; @suyooti_ashbaah@\ 2/59; @suyooti_hama3@ 1/432.]
+And in all three 
+[كَانَ]{.ar} 
+is separated
+from its ;ism_of; 
+([زَيْدٌ]{.ar} )
+by the governee
+([طَعَامَكَ]{.ar})
+of its ;xabar;
+([آكِلًا]{.ar}).
+
+Even some of these disallowed combinations become permitted 
+if the governee of the ;xabar; of
+[كَانَ]{.ar} 
+is not a ;mafulb;
+but a preposition or an adverb of time and place.
+Recall from section\ (ref)
+that the word order of prepositions and adverbs of time and place is especially flexible.
+So we can say:
+
+(@) [كَانَ عِنْدَكَ زَيْدٌ مُقِيمًا]{.ar}
+    [@ibn_aqil_alfiyyah@\ 1/280]{.citex}  
+    [Zayd was, at your place, staying.]{.trans}
+
+(@) [كَانَ فِيكَ زَيْدٌ رَاغِبًا]{.ar}
+    [@ibn_aqil_alfiyyah@\ 1/280]{.citex}  
+    [Zayd was, of [your favour], desirous]{.trans}
+
+Some of the combinations above, though allowed, are considered ungainly by some grammarians^[@suyooti_hama3@ 1/432],
+like (@kaana_aakilan_kaana_zaydun)\ (3)\ [آكِلًا كَانَ زَيْدٌ طَعَامَكَ]{.ar}.
+But again,
+if the governee of the ;xabar; of
+[كَانَ]{.ar} 
+is not a ;mafulb;
+but a preposition or an adverb of time and place,
+then there is no problem.
 For example:
 
-[كَانَتِ ٱلْبُيُوتُ صَغِيرَةً.]{.ar} (typical)  
-"The houses were small."  
+(@) [مُسَافِرًا كَانَ زَيْدٌ الْيَوْمَ]{.ar}
+    [@suyooti_hama3@ 1/432]{.citex}  
+    [Journeying Zayd was today]{.trans}  
 
-Also allowed, but not as common:  
-[كَانَتِ ٱلْبُيُوتُ صَغِيرَاتٍ.]{.ar}  
-[كَانَتِ ٱلْبُيُوتُ صِغَارًا.]{.ar}  
+(@) [رَاغِبًا كَانَ زَيْدٌ فِيكَ]{.ar}
+    [@suyooti_hama3@ 1/432]{.citex}  
+    [Desirous Zayd was, of [your favour]]{.trans}  
 
-[ٱلثِّيرَانُ كَانَتْ ضَخْمَةً.]{.ar} (typical)  
-"The bulls were large."
+#### Word order of a compound sentence when [كَانَ]{.ar}'s ;xabar; has a ;astate; governee {.unnumbered}
 
-Also allowed, but not as common:  
-[ٱلثِّيرَانُ كَانَتْ ضِخَامًا.]{.ar}  
-[ٱلثِّيرَانُ كُنَّ ضَخْمَاتٍ.]{.ar}  
+The ;ism_of; can made to precede [كَانَ]{.ar}, such that it becomes a compound sentence:
 
-### [كَانَ]{.ar} with a separating pronoun
+(@) [زَيْدٌ كَانَ آكِلًا طَعَامَكَ]{.ar}
+    [@suyooti_ashbaah@\ 2/59]{.citex}  
 
-Another rule that applies to ;mubtada;-;xabar; sentences, and that carries over to 
-[كَانَ]{.ar} sentences, is that
-when the ;ism_of; and ;xabar; are both definite, 
-then a separating pronoun, which is a detached pronoun that matches the ;ism_of;, can be inserted between them.
-For example,
+Now the ;ism_of; of [كَانَ]{.ar} is a ;mustatir; pronoun [[هُوَ]{.ar}].
+Since this ;mustatir; pronoun is attached to [كَانَ]{.ar},
+the ;xabar; [آكِلًا]{.ar}'s governee [طَعَامَك]{.ar} can no longer come between [كَانَ]{.ar} and its ;ism_of;.
+Now all twelve combinations are permissible.^[inferred from @suyooti_hama3@ 1/433],
+Here is a sampling out of them:
 
-[كَانَ ٱلْمُؤْمِنُونَ هُمُ ٱلْفَائِزِينَ.]{.ar}  
-"The believers were the winners."
+(@) (a) [طَعَامَكَ زَيْدٌ كَانَ آكِلًا]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
+    (a) [زَيْدٌ طَعَامَكَ آكِلًا كَانَ]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
+    (a) [طَعَامَكَ آكِلًا زَيْدٌ كَانَ]{.ar}   [@suyooti_ashbaah@\ 2/59]{.citex}  
 
-The separating pronoun [هُمْ]{.ar} does not, in this case, serve to disambiguate the ;xabar; [ٱلْفَائزِينَ]{.ar} "the winners", from being a ;na3t;, as it did in sentences without [كَانَ]{.ar} (see section\ \@ref(;ism_of;-;xabar;-sentences-separating-pronoun)).
-This is because the ;astate; of [ٱلْفَائزِينَ]{.ar} already tells us that it is the ;xabar; of [كَانَ]{.ar}. 
-If [ٱلْفَائزِينَ]{.ar} were a ;na3t; of the ;ustate; ;ism_of; [ٱَلْمُوْمِنُونَ]{.ar}, then it too would be in the ;ustate;, not the ;astate;.
-So the separating pronoun serves more, here, to emphasize the ;ism_of;.
+## Negation of [كَانَ]{.ar}
 
-Most of the time, separating pronouns are used in [كَانَ]{.ar} sentences when the ;ism_of; of [كَانَ]{.ar} is itself a pronoun. Examples:
+## A pronoun as the ;xabar; of [كَانَ]{.ar}
 
-[وَكُنَّا نَحْنُ ٱلْوَارِثِينَ]{.ar}
-[@https://quran.com/28:58@]{.aside}  
-"And it is We who were the inheritors"
+When a pronoun is the ;xabar; of [كَانَ]{.ar},
+then it may optionally be attached to 
+[كَانَ]{.ar}
+or separated using the prefix
+[إِيَّا]{.ar}.
 
-[كُنْتَ أَنْتَ ٱلرَّقِيبَ عَلَيْهِمْ]{.ar}
-[@https://quran.com/5:117@]{.aside}  
-"You were the Observer over them"
-
-Sometimes a pronoun may appear to be a separating pronoun, but actually is not one. Consider, for example, the following sentence:
-
-[كَانَ ٱلْمُؤْمِنُونَ هُمُ ٱلْفَائِزُونَ.]{.ar}  
-"The believers were the winners."
-
-Note that [ٱَلْفَائِزُونَ]{.ar} is in the ;ustate;, so it is not, by itself, the ;xabar; of [كَانَ]{.ar}.
-So this is, in fact, a ;mubtada;-;xabar; sentence.
-[ٱَلْمُوْمِنُونَ]{.ar} is the ;ism_of; of [كَانَ]{.ar}.
-The ;xabar; of [كَانَ]{.ar} is the ;xabar; [هُمُ ٱلفَائِزُونَ]{.ar}, which is itself a ;mubtada;-;xabar; sentence with a ;ustate; ;mubtada; ([هُمْ]{.ar}) and a ;ustate; ;xabar; ([ٱلْفَائزُونَ]{.ar}).
-
-### Negating [كَانَ]{.ar}
-
-Like other past verbs,
-the verb [كَانَ]{.ar}
-may be negated by preceding it with the particle [مَا]{.ar}. For example:
-
-[مَا كَانَ إِبْرَٰهِيمُ يَهُودِيًّۭا وَلَا نَصْرَانِيًّۭا وَلَـٰكِن كَانَ حَنِيفًۭا مُّسْلِمًۭا وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ]{.ar}
-[@https://quran.com/3:67@]{.aside}  
-"Abraham was neither a Jew nor a Christian, but he was one inclining toward truth, a Muslim [submitting to Allāh]. And he was not of the polytheists."
-
-A similar meaning may be obtained with the particle [لَمْ]{.ar} followed by the
-;0state;
-;mudarie; verb
-[يَكُنْ]{.ar}.
-This is dealt with in section\ \@ref(lam-yakun) below.
-
-### Gender of a pronoun ;ism_of; of [كان]{.ar}
-
-Remember from section\ \@ref(gender-of-pronoun-subject) that when the ;mubtada; of a sentence is a pronoun, 
-then it may optionally either match the gender of the noun it refers to,
-or the the gender of the predicate.
-This rules carries over to [كَانَ]{.ar} ;ism_of;-;xabar; sentences as well. For example:
-
-[ذَهَبْتُ إِلَى ٱلسُّوقِ فِي ٱلصَّبَاحِ. وَكَانَتْ لِي عَادَةً.]{.ar}  
-"I went to the market in the morning. And it was a habit for me."
-
-[وَرَكِبُوهُمْ فَكَانَتْ هَزِيمَتَهُمْ]{.ar}
-[@wright@ 2/298C]{.aside}  
-"And they bore down upon them and it was their defeat."
-
-Note, how, in the above examples, [كَانَتْ]{.ar} has a [ت]{.ar} of femininity to match the feminine gender of the ;xabar; [عَادَة]{.ar} "habit", and [هَزِيمَتَهُمْ]{.ar} "their defeat".
-
-### A pronoun as the ;xabar; of [كَانَ]{.ar}
-
-TODO
-
-## The ;mudarie; verb [يَكُونُ]{.ar}
-
-The rules related to [كَانَ]{.ar}, its ;ism_of;, and its ;xabar;, that we have given above apply also to its ;mudarie; verb [يَكُونُ]{.ar}.
-
-We will now discuss the usages of the specific states of the ;mudarie; verb.
-
-### The ;ustate; ;mudarie; verb [يَكُونُ]{.ar}
-
-We have already mentioned that Arabic does not usually express any word for "is".
-So when, then, is the ;ustate; ;mudarie; verb [يَكُونُ]{.ar} used?
-There are actually a few uses of this verb. We will explain them below:
-
-#### [يَكُونُ]{.ar} used for habitual "is"
-
-Consider the sentence, "The mother cooks the food." 
-The verb "cooks" implies that the action is habitually done, not necessarily that it is being done at present. 
-If we wished to say that the action is being done at present, we might instead say, "The mother _is cooking_ the food."
-English maintains this distinction between the present and the habitual for most verbs.
-But it does not for ther verb "is".
-So if we say, "The sky is blue," then it can mean both 
-(i) that the sky is blue at present, or 
-(ii) that it is habitually blue, not necessarily that it is blue at present.
-
-In Arabic the situation is somewhat different.
-Arabic does not usually have a distinction between the present and the habitual for most verbs. So [تَطْبُخُ الْأُمُّ الطَّعَامَ.]{.ar}  may mean both
-(i) that the mother is cooking the food at present, or
-(ii) that she habitually does.
-
-<!--However, interestingly, Arabic does have the distinction between the present and the habitual for the verb "is".
-As you know, Arabic does not usually express a word for the present "is".-->
-But for the verb "is", Arabic can distinguish between the present and the habitual.
-So if we say [السَّمَاءُ زَرْقَاءُ]{.ar}, then this can, in general, mean both
-(i) that the sky is blue at present, and
-(ii) that it is habitually blue.
-If we wish to emphasize the habitual meaning, we may use the ;mudarie; verb [يَكُونُ]{.ar}, thus:
-
-[تَكُونُ السَّمَاءُ زَرْقَاءَ.]{.ar}  
-"The sky is [habitually] blue."
-
-While we call this the 
-habitual [يَكُونُ]{.ar},
-it can include a range of meanings, including
-continually, recurringly, regularly, typically, generally, often, sometimes, can, may, etc.
-Habitual [يَكُونُ]{.ar} is negated using [مَا]{.ar} or [لَا]{.ar}, just like other ;ustate; ;mudarie; verbs.
-
-Here are some examples:
-
-[قَالَ وَمَا الْبِتْعُ وَالْمِزْرُ؟ قُلْتُ شَرَابٌ يَكُونُ مِنَ الْعَسَلِ وَالْمِزْرُ يَكُونُ مِنَ الشَّعِيرِ]{.ar}
-[@https://sunnah.com/nasai:5604@]{.aside}  
-"He said: 'What is mead and beer?' I said: 'A drink: it is from honey, and beer: it is from barley.'"
-<!--(From [سنن النسائي]{.ar}:5604)-->
-
-<!--
-[إِنَّ أَحَدَكُمْ لَيَعْمَلُ بِعَمَلِ أَهْلِ الْجَنَّةِ حَتَّى مَا يَكُونُ بَيْنَهُ وَبَيْنَهَا إِلاَّ ذِرَاعٌ]{.ar}  
-"One of you will do deeds of the people of Paradise, until there is between him and it but a forearm span"  
-(Part of [HadIv]{.trn2} 2137 from [#jAmie al-#tirmipI]{.trn2})
-From [جامع الترمذي]{.ar}:2137)-->
-
-[يَكُونُ اللِّحَافُ وِسَادَةً وَلَا تَكُونُ الْوِسَادَةُ لِحَافًا.]{.ar}  
-"The blanket can be a pillow but the pillow cannot be a blanket."
-
-[مَا يَكُونُ الرَّجُلُ صَدِيقَكَ حَتّى يَصْدُقَكَ.]{.ar}  
-"A man is not your friend until he is truthful to you."
-
-##### [قَدْ يَكُونُ]{.ar} for "may be"
-
-When the meaning "may be" is desired, the 
-the ;mudarie; verb
-[يَكُونُ]{.ar}
-may be preceded by the particle [قَدْ]{.ar}. For example,
-
-[قَدْ يَكُونُ الاسْتِهْزَاءُ كُفْرًا.]{.ar}  
-"Mocking may be a disbelief."
-
-#### [يَكُونُ]{.ar} used for future "will be"
-
-Another usage of the ;mudarie; verb
-[يَكُونُ]{.ar}
-is for the future tense to mean "will be".
-In this case, it is often preceded by [سَ]{.ar} or [سَوْفَ]{.ar}.
-[سَ]{.ar} and [سَوْفَ]{.ar} are optional and are commonly dropped, especially when the context indicates the future.
-Future [يَكُونُ]{.ar}
-is negated by [لَا]{.ar}.
-Here are some examples:
-
-[فَقَدْ كَذَّبْتُمْ فَسَوْفَ يَكُونُ لِزَامًا]{.ar}
-[@https://quran.com/25:77@]{.aside}  
-"For you [disbelievers] have denied, so it [i.e., your denial] is going to be adherent."  
-
-[لا يَكونُ اللَّعَّانُونَ شُفَعَاءَ وَلَا شُهَدَاءَ يَومَ القِيَامَةِ]{.ar}
-[@https://sunnah.com/riyadussalihin:1553@]{.aside}  
-"The frequent cursers will be neither intercessors nor witnesses [on] the day of resurrection."  
-([يَوْمَ]{.ar} is in the ;astate; because it is an adverb of time, see chapter\ \@ref(adverb-of-time).)
-
-[يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ]{.ar}
-[@https://quran.com/101:4@]{.aside}  
-"It is the Day when people will be like moths, dispersed,"  
-
-### The ;astate; ;mudarie; verb [يَكُونَ]{.ar}
-
-Like ;astate; ;mudarie; verbs in general, [يَكُونَ]{.ar} "be" expresses the meaning of purpose, wish, or expectation. It occurs after the particles
-[أَنْ]{.ar},
-[لَنْ]{.ar},
-[لِ]{.ar},
-[كَيْ]{.ar},
-[حَتَّىٰ]{.ar}, and
-[إِذَنْ]{.ar}.
-All this is consistent with what we have learned about ;astate; ;mudarie; verbs in chapter\ \@ref(;astate;-;mudarie;-verbs).
-Here are some examples:
-
-[نَزَلَ بِهِ ٱلرُّوحُ ٱلْأَمِينُ. عَلَىٰ قَلْبِكَ لِتَكُونَ مِنَ ٱلْمُنذِرِينَ]{.ar}
-[@https://quran.com/26/193-194@]{.aside}  
-"The Trustworthy Spirit [i.e., Gabriel] has brought it down. Upon your heart, [O Muḥammad] - that you may be of the warners -"
-
-[لَّن يَسْتَنكِفَ ٱلْمَسِيحُ أَن يَكُونَ عَبْدًۭا لِّلَّهِ وَلَا ٱلْمَلَـٰٓئِكَةُ ٱلْمُقَرَّبُونَ]{.ar}
-[@https://quran.com/4/172@]{.aside}  
-"Never would the Messiah disdain to be a servant of Allāh, nor would the angels near [to Him]"
-
-[أَفَأَنتَ تُكْرِهُ ٱلنَّاسَ حَتَّىٰ يَكُونُوا۟ مُؤْمِنِينَ]{.ar}
-[@https://quran.com/10/99@]{.aside}  
-"Then, [O Muḥammad], would you compel the people in order that they become believers?"
-
-### The ;0state; ;mudarie; verb [يَكُنْ]{.ar} {#lam-yakun}
-
-The ;0state; ;mudarie; verb [يَكُنْ]{.ar} 
-is used consistent with the usage of 
-;0state; ;mudarie; verbs in general.
-(See chapter\ \@ref(;0state;-;mudarie;-verbs).)
-
-For example:
-
-[وَلْتَكُن مِّنكُمْ أُمَّةٌۭ يَدْعُونَ إِلَى ٱلْخَيْرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ]{.ar}
-[@https://quran.com/3/104@]{.aside}  
-"And let there be [arising] from you a nation inviting to [all that is] good, enjoining what is right and forbidding what is wrong,1 and those will be the successful."
-
-[ٱلْحَقُّ مِن رَّبِّكَ فَلَا تَكُن مِّنَ ٱلْمُمْتَرِينَ]{.ar}
-[@https://quran.com/3/60@]{.aside}  
-"The truth is from your Lord, so do not be among the doubters."
-
-[لَمْ يَكُنِ النَّبِيُّ صلى الله عليه وسلم سَبَّابًا وَلاَ فَحَّاشًا وَلاَ لَعَّانًا]{.ar}
-[@https://sunnah.com/bukhari:6031@]{.aside}  
-"The Prophet [ﷺ]{.aralt} was not one who would abuse (others) or say obscene words, or curse (others)"
-
-#### Deletion of [ن]{.ar}
-
-The [ن]{.ar} may (irregularly) be deleted
-for the ;0state; ;mudarie; verbs that don't have a [و]{.ar} before them. 
-These are:
-
-+ [يَكُنْ]{.ar}, becomes [يَكُ]{.ar}
-+ [تَكُنْ]{.ar}, becomes [تَكُ]{.ar}
-+ [نَكُنْ]{.ar}, becomes [نَكُ]{.ar}
-+ [أَكُنْ]{.ar}, becomes [أَكُ]{.ar}
-
-This may only be done when the word following the verb does not begin with a connecting hamzah [ٱ]{.ar}.
 Examples:
 
-[وَلَا تَكُ فِى ضَيْقٍۢ مِّمَّا يَمْكُرُونَ]{.ar}
-[@https://quran.com/16/127@]{.aside}  
-"and do not be in distress over what they conspire."
+(@) [إِنْ **يَكُنْهُ** فَلَنْ تُسَلَّطَ عَلَيْهِ وَإِنْ لَمْ **يَكُنْهُ** فَلاَ خَيْرَ لَكَ فِي قَتْلِهِ]{.ar}
+    [@https://sunnah.com/muslim:2930a@ cited by [@ibn_malik_sharh_alkafiya@ 1/231](https://shamela.ws/book/12024/230#p1 )]{.citex}  
+    [If he is he (i.e. the [#dajjAl]{.trn2}), you would not be able to overpower him, and if he is not he there is no good for you in killing him]{.trans}
 
-[وَقَدْ خَلَقْتُكَ مِن قَبْلُ وَلَمْ تَكُ شَيْـًۭٔا]{.ar}
-[@https://quran.com/19/9@]{.aside}  
-"for I created you before, while you were nothing"
+(@) [الصَّدِيقُ كُنْتَهُ]{.ar}
+    [[@ibn_hisham_awdah_almasaalik@ 1/114](https://shamela.ws/book/11825/116)]{.citex}  
+    [The friend -- you are he.]{.trans}  
+    ([الصَّدِيقُ كُنْتَ إِيَّاهُ]{.ar} is also permitted.^[@ibn_aqil_alfiyyah@ 1/104, @nahw_wafi@ 1/275])
 
-But we can't say:
+(@) [كَانَهُ زَيْدٌ]{.ar}
+    [[@ibn_hisham_awdah_almasaalik@ 1/114](https://shamela.ws/book/11825/116)]{.citex}  
+    [Zayd was he.]{.trans}  
 
-$\times$ [لَمْ تَكُ ٱلرَّجُلَ.]{.ar}  
+For the other sisters of [كَانَ]{.ar}
+it is preferred that the pronoun be separated using the prefix
+[إِيَّا]{.ar}.
+An attached pronoun for the other sisters is rare.^[[@abu_hayyan_tadhyeel@ 2/245](https://shamela.ws/book/17116/573#p1)]
 
-This is because [ٱلرَّجُل]{.ar} begins with with a connecting hamzah [ٱ]{.ar}. So we have to say instead:
+## A ;masdari_an; as the ;ism_of; or ;xabar; of [كَانَ]{.ar}
 
-[لَمْ تَكُنِ ٱلرَّجُلَ.]{.ar}  
-"You were not the man."
+Recall from chapter\ (ref) that
+the clause of a ;masdari_an; is equivalent to a ;masdar;, which is a noun.
+Consider the following example:
 
+<!--
+(@) [فَمَا كَانَ جَوَابَ قَوۡمِهِۦۤ إِلَّاۤ أَن قَالُوا۟]{.quran}
+    [@https://quran.com/29/24@ cited by @baseet_ibn_abi_rabee3@ 714]{.citex}  
+    [And the answer of his [i.e., Abraham's] people was not but that they said,]{.trans}  
+-->
 
-## The verb of command [كُنْ]{.ar} {#kun}
+(@kaana_quran_6_23) [ثُمَّ لَمۡ تَكُن فِتۡنَتُهُمۡ إِلَّاۤ أَن قَالُوا۟ وَٱللَّهِ رَبِّنَا مَا كُنَّا مُشۡرِكِینَ]{.quran}
+    [@https://quran.com/6/23@ cited by @baseet_ibn_abi_rabee3@ 714]{.citex}  
+    [Then there will be no [excuse upon] examination except they will say, "By Allāh, our Lord, we were not those who associated."]{.trans}  
 
-The verb of command [كُنْ]{.ar} is used to mean "Be!". Examples:
+The clause
+[أَنْ قَالُوا]{.ar} is
+equivalent to
+[قَوْلُهُمْ]{.ar}
+[their saying]{.trans}.
+Due to this equivalence to a noun,
+a ;masdari_an; can be the ;ism_of; or the ;xabar; of [كَانَ]{.ar}.
+For the ;ayah; in example (@kaana_quran_6_23),
+[فِتْنَة]{.ar} is read in both 
+the ;ustate; 
+([فِتْنَتُهُمْ]{.ar})
+and the ;astate;
+([فِتْنَتَهُمْ]{.ar})
+in different recitations.^[@https://tafsir.app/m-sahabah/6/23@]
+So the 
+[أَنْ قَالُوا]{.ar} clause 
+is analyzed as the ;ism_of; of [كَانَ]{.ar}
+when
+[فِتْنَة]{.ar} is read in the ;astate; as the ;xabar;.
+and it
+is analyzed as the ;xabar; of [كَانَ]{.ar}
+when
+[فِتْنَة]{.ar} is read in the ;ustate; as the ;ism_of;.
 
-[قُلْنَا يَـٰنَارُ كُونِى بَرْدًۭا وَسَلَـٰمًا عَلَىٰٓ إِبْرَٰهِيمَ]{.ar}
-[@https://quran.com/21:69@]{.aside}  
-We [i.e., Allāh] said, "O fire, be coolness and safety upon Abraham."  
+In general,
+a ;masdari_an; 
+will be more likely to be 
+the ;ism_of;.^[@baseet_ibn_abi_rabee3@ 715]
 
-[فَقُلْنَا لَهُمْ كُونُوا۟ قِرَدَةً خَـٰسِـِٔينَ]{.ar}
-[@https://quran.com/2:65@]{.aside}  
-"and We said to them, 'Be apes, despised.'  
+## A complete sentence as the ;xabar; of [كَانَ]{.ar}
 
-The verb of command [كُنْ]{.ar} followed by the name of a person in the ;astate; is used to express one's guessing that the person whom one sees is the individual named. For example:
+So far we have seen examples where the ;xabar; of 
+[كَانَ]{.ar}
+is a single noun in the ;astate;.
+In example (@kaana_kaana_zaydun_aakilan_ta3aamaka) [كَانَ زَيْدٌ آكِلًا طَعَامَكَ]{.ar}
+the ;xabar; of the
+[كَانَ]{.ar}
+is the noun
+[آكِلًا]{.ar}.
+The ;xabar; [آكِلًا]{.ar} is governing a ;mustatir; ;faa3il; pronoun [[هُوَ]{.ar}] and the ;mafulb; [طَعَامَكَ]{.ar},
+but still, the ;xabar; itself is a single noun, not a complete sentence.
 
-[كُنْ أَبَا ذَرٍّ]{.ar}
-[@wright@ 2/44C]{.aside}  
-"I presume that the person approaching is [#abU #parr]{.trn2}"
+Here is another example:
 
-[كُنْ أَبَا زَيْدٍ]{.ar}
-[@wright@ 2/44C]{.aside}  
-"I guess that you are [#abU]{.trn2} Zayd."
+(@kaana_kaana_zaydun_muntaliqan) [كَانَ زَيْدٌ مُنْطَلِقًا]{.ar}
+    [@baseet_ibn_abi_rabee3@ 662]{.citex}  
+    [Zayd was setting out.]{.trans}  
 
-## The complete [كَانَ]{.ar}
+In example (@kaana_kaana_zaydun_muntaliqan) above
+the ;xabar; of
+[كَانَ]{.ar}
+is the noun
+[مُنْطَلِقًا]{.ar}.
 
-The verb [كَانَ]{.ar} that we have been using so far is called the _deficient_
+In section\ (ref),
+we learned that the ;xabar; of a ;j_ism; can be a complete sentence.
+So, the ;xabar; of
+[كَانَ]{.ar}
+can be a complete sentence.
+For example:
+
+(@kaana_kaana_zaydun_aboohu_muntaliqun) [كَانَ زَيْدٌ أَبُوهُ مُنْطَلِقٌ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 692]{.citex}  
+    [Zayd -- his father was setting out.]{.trans}  
+    (literally: [Zayd was -- his father is setting out.]{.trans})
+
+In example (@kaana_kaana_zaydun_aboohu_muntaliqun),
+the ;xabar; of
+[كَانَ]{.ar}
+is the complete sentence
+[أَبُوهُ مُنْطَلِقٌ]{.ar}
+[His father is setting out]{.trans}.
+As we stated in section (ref),
+when the ;xabar; is a sentence, then internally it is governed independently with its own ;pregov;.
+So
+[كَانَ]{.ar}
+has no governing effect _within_ the ;xabar; sentence.^[@baseet_ibn_abi_rabee3@ 683]
+The inner sentence
+[زَيْدٌ مُنْطَلِقٌ]{.ar}
+has its own internal government with
+[زَيْدٌ]{.ar} as the ;mubtada;
+and
+[مُنْطَلِقٌ]{.ar}
+as the ;xabar;.
+That is why
+[مُنْطَلِقٌ]{.ar}
+is in the ;ustate; and not in the ;astate;.
+
+The entire ;xabar; sentence
+[أَبُوهُ مُنْطَلِقٌ]{.ar}
+in in place of a ;astate; noun as the ;xabar; of 
 [كَانَ]{.ar}.
-It is called so because its meaning is deficient without its ;xabar;. For example, in the sentence
-[كَانَ زَيْدٌ قَائِمًا]{.ar} "Zayd was standing,"
-if we remove the ;xabar; [قَائِمًا]{.ar} then the sentence is not complete for the desired meaning.
+
+Here are some more examples of 
+[كَانَ]{.ar}
+with a sentence as its ;xabar;:
+
+(@) [كَانَ زَيْدٌ أَخُوهُ ضَاحِكٌ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 692]{.citex}  
+    [Zayd -- his brother was laughing.]{.trans}  
+
+
+(@kaana_kaana_zaydun_muntaliqun_aboohu) [كَانَ زَيْدٌ مُنْطَلِقٌ أَبُوهُ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 692]{.citex}  
+    [Zayd -- setting out, his father was.]{.trans}  
+    (literally: [Zayd was -- setting out, his father is.]{.trans})
+
+In example,
+(@kaana_kaana_zaydun_muntaliqun_aboohu) above,
+the sentence ;xabar; is 
+[مُنْطَلِقٌ أَبُوهُ]{.ar}.
+[مُنْطَلِقٌ]{.ar} is the fronted ;xabar; and
+[أَبُوهُ]{.ar} is the ;mubtada;.
+Although this sentence is grammatically correct,
+we will see in the next section that a ;sababi; ;xabar; is more likely to be used instead.
+
+When [كَانَ]{.ar} has a ;xabar; that is a complete sentence, then
+the ;xabar; of the inner sentence will match its ;mubtada; in number and gender.
+For example:
+
+(@) [كَانَ الزَّيْدَانِ أَبَوَاهُمَا حَسَنَانِ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 693]{.citex}  
+    [The two Zayds -- their fathers [were] handsome.]{.trans}
+
+(@) [كَانَ الزَّيْدَانِ حَسَنَانِ أَبَوَاهُمَا]{.ar}
+    [@baseet_ibn_abi_rabee3@ 693 footnote 3]{.citex}  
+    [The two Zayds -- handsome, their fathers [were].]{.trans}  
+    (fronted ;xabar;.)
+
+(@) [كَانَ الزَّيْدُونَ حَسَنُونَ آبَاؤُهُمْ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 693 footnote 3]{.citex}  
+    [The Zayds -- handsome, their fathers [were].]{.trans}  
+    (sound plural as the fronted ;xabar;.)
+
+(@) [كَانَ الزَّيْدُونَ حِسَانٌ آبَاؤُهُمْ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 693 footnote 3]{.citex}  
+    [The Zayds -- handsome, their fathers [were].]{.trans}  
+    (broken plural as the fronted ;xabar;.)
+
+<!--
+(@) [كَانَتْ هِنْدٌ أَخَوَاهُ ضَاحِكَانِ]{.ar}  
+    [Hind -- her two brothers were laughing.]{.trans}  
+-->
+
+## A ;damir_shan; as the ;ism_of; of [كَانَ]{.ar}
+
+[كَانَ]{.ar}
+may have
+a ;damir_shan; as its ;ism_of;.
+And the ;xabar; of 
+[كَانَ]{.ar}
+will be an inner sentence.
+For example
+
+(@kaana_kaana_zaydun_qaaimun) [كَانَ زَيْدٌ قَائِمٌ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 745]{.citex}  
+    [[The state of affairs] was -- Zayd is standing.]{.trans}  
+
+In example (@kaana_kaana_zaydun_qaaimun) above,
+the ;ism_of; of
+[كَانَ]{.ar}
+is a ;mustatir; ;damir_shan; [[هُوَ]{.ar}].
+And the ;xabar; of 
+[كَانَ]{.ar}
+is the inner sentence
+[زَيْدٌ قَائِمٌ]{.ar}
+[Zayd is standing]{.trans}.
+Compare example (@kaana_kaana_zaydun_qaaimun) with
+example (@kaana_kaana_zaydun_qaaiman) [كَانَ زَيْدٌ قَائِمًا]{.ar},
+where
+the ;ism_of; of
+[كَانَ]{.ar}
+is [زَيْدٌ]{.ar}.
+And the ;xabar; of 
+[كَانَ]{.ar}
+is the single element
+[قَائِمًا]{.ar}.
+
+Similarly, if the ;ism_of; of the inner sentence is a feminine noun,
+then the ;damir_shan; ;ism_of; of
+[كَانَ]{.ar}
+is typically feminine, thus:
+
+(@) [كَانَتْ هِنْدٌ قَائِمَةٌ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 745]{.citex}  
+    [[The state of affairs] was -- Hind is standing.]{.trans}  
+
+By the way, although the gender of the ;damir_shan; usually matches the gender of the ;ism_of; of its ;xabar;, it is possible for it to mismatch.^[@baseet_ibn_abi_rabee3@ 745, 746 footnote 1]
+(We also mentioned this in section\ (ref).)
+
+In practice, usage of the ;damir_shan; in sentences like
+example (@kaana_kaana_zaydun_qaaimun) [كَانَ زَيْدٌ قَائِمٌ]{.ar} is uncommon, but nevertheless existent.^[See the analysis of the reading [فَكانَ أبَواهُ مُؤْمِنانِ]{.quran} in @https://tafsir.app/albahr-almuheet/18/80@]
+Instead the construction in example (@kaana_kaana_zaydun_qaaiman) [كَانَ زَيْدٌ قَائِمًا]{.ar}
+is far more likely to be used.
+But,
+as we will see in sections\ (ref) and (ref), ;ia;,
+when the ;xabar; of [كَانَ]{.ar} is a ;j_f3l;,
+then the ;damir_shan; is very commonly used as the ;ism_of; of [كَانَ]{.ar}.
+
+## [كَانَ]{.ar} with a ;sababi; ;xabar;
+
+Consider again example (@kaana_kaana_zaydun_muntaliqun_aboohu) [كَانَ زَيْدٌ مُنْطَلِقٌ أَبُوهُ]{.ar}.
+Instead of using a sentence ;xabar;,
+we can reconstruct the sentence to have
+[مُنْطَلِقًا]{.ar}
+to be the ;xabar; of
+[كَانَ]{.ar},
+and have
+[أَبُوهُ]{.ar} as the ;faa3il; of the ;ism_fail;
+[مُنْطَلِقًا]{.ar}, thus:
+
+(@kaana_kaana_zaydun_muntaliqan_aboohu) [كَانَ زَيْدٌ مُنْطَلِقًا أَبُوهُ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 692]{.citex}  
+    [Zayd -- his father was setting out.]{.trans}  
+
+This is a ;sababi; ;xabar; construction.
+(See section\ (ref) for an introduction to the ;sababi; ;xabar;.)
+The ;xabar; of
+[كَانَ]{.ar}
+in example (@kaana_kaana_zaydun_muntaliqan_aboohu) above
+is not a complete sentence.
+Rather, it
+is the single element 
+[مُنْطَلِقًا]{.ar}.
+A sentence with a ;sababi; ;xabar; like (@kaana_kaana_zaydun_muntaliqan_aboohu) [كَانَ زَيْدٌ مُنْطَلِقًا أَبُوهُ]{.ar}
+will be preferred over a sentence with a fronted ;xabar; like (@kaana_kaana_zaydun_muntaliqun_aboohu) [كَانَ زَيْدٌ مُنْطَلِقٌ أَبُوهُ]{.ar}.^[@baseet_ibn_abi_rabee3@ 694]
+
+When 
+[كَانَ]{.ar}
+has a ;sababi; ;xabar;,
+then,
+as mentioned in section\ (ref),
+it generally remains singular regardless whether its ;faa3il; is dual or plural.
+So we get:
+
+(@) [كَانَ الزَّيْدَانِ **مُنْطَلِقًا** أَبَوَاهُمَا]{.ar}  
+    [The two Zayds -- their fathers [were] setting out.]{.trans}  
+
+(@) [كَانَ الزَّيْدُونَ **مُنْطَلِقَةً** جَدَّاتُهُمْ]{.ar}  
+    [The Zayds -- their grandmothers [were] setting out.]{.trans}  
+
+But if the ;xabar; has a broken plural, then it is permitted (and in fact preferred) to be used.^[@baseet_ibn_abi_rabee3@ 693]
+
+(@) [كَانَ الزَّيْدُونَ **حِسَانًا** آبَاؤُهُمْ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 693]{.citex}  
+    [The Zayds -- their fathers [were] handsome.]{.trans}  
+
+## [كَانَ]{.ar} with a prepositional or adverbial ;xabar;
+
+It is possible for the ;xabar; of
+[كَانَ]{.ar}
+to be
+a prepositional or adverbial ;xabar;.
+For example:
+
+(@) [كَانَ زَيْدٌ **فِي** الدَّارِ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 682]{.citex}  
+    [Zayd was in the house.]{.trans}  
+
+(@) [كَانَ مُحَمَّدٌ عِنْدَكَ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 682]{.citex}  
+    [[#muHammad]{.trn2} was at your place.]{.trans}  
+
+In such cases, the ;xabar; of
+[كَانَ]{.ar}
+is technically the implication of _general beingness_ 
+[[مُسْتَقِرًّا]{.ar}]
+(see section\ (ta3alluq)).
+The implicated general beingness governs the preposition/adverb.
+The preposition or adverb is not directly governed by
+[كَانَ]{.ar}.^[@baseet_ibn_abi_rabee3@ 682; But see the [tafsIr]{.trn2}s of [أَكَانَ لِلنَّاسِ عَجَبًا]{.quran} [@https://quran.com/10/2@] for a possible exception to this rule.]
+
+
+## [كَانَ]{.ar} as a ;taamm; verb
+
+As we mentioned in section\ (ref) above,
+the verb [كَانَ]{.ar} that we have been using so far is called the _;naqis;_
+[كَانَ]{.ar}.
 
 There is another type of
 [كَانَ]{.ar}
-called the _complete_
+called the _;taamm;_
 [كَانَ]{.ar}.
 This 
 [كَانَ]{.ar}
-does not need an ;xabar; to complete its meaning. 
-This 
+has sufficient meaning to
+not need an ;xabar;.
+The meaning that the ;taamm; 
 [كَانَ]{.ar}
-gives the meaning of "exists".
-In English, we usually express this meaning using "there was". For example,
+gives is the meaning of [exists]{.trans}.
+In English, we usually express this meaning using [there was]{.trans}. For example,
 
-[كَانَ مَلِكٌ.]{.ar}  
-"There was a king."  
-(literally: "A king was.")
+(@) [كَانَ مَلِكٌ]{.ar}  
+    [[There] was a king.]{.trans}  
+    (literally: [A king was.]{.trans})
 
-Note that [مَلِك]{.ar} "king" is in the ;ustate; as the ;ism_of;.
+Note that [مَلِك]{.ar} [king]{.trans} is in the ;ustate; as the ;ism_of;.
 If it were in the ;astate;, then it would change the meaning:
 
-[كَانَ مَلِكًا.]{.ar}  
-"He was a king."
+(@) [كَانَ مَلِكًا]{.ar}  
+    [He was a king.]{.trans}
 
-Here are some more examples:
+When
+[كَانَ]{.ar}
+is ;taamm; then it serves as the ;muxbar;.
+So the sentence is a ;j_f3l;.
 
-[كَانَ تَاجِرٌ وَكَانَ لَهُ بَنُونَ.]{.ar}
-[@wright@ 2/99D]{.aside}  
-"There was a trader, and he had sons."
+Here is another example of a ;taamm; [كَانَ]{.ar}:
 
-Incidentally, as you can see, the past verb of "have": "has" is expressed using [كَانَ]{.ar}:
+(@kaana_kaana_taajirun) [كَانَ تَاجِرٌ وَكَانَ لَهُ بَنُونَ]{.ar}
+    [@wright@ 2/99D]{.citex}  
+    [There was a trader, and he had sons.]{.trans}
 
-[كَانَ عِنْدِي كِتَابٌ.]{.ar}  
-"I had a book."  
-(literally: "A book was for me.")
+Incidentally, 
+in example (@kaana_kaana_taajirun),
+the past verb of [have]{.trans}: [had]{.trans} is expressed using [كَانَ]{.ar} with the preposition [لِ]{.ar}.
 
-[يَكُونُ فِي آخِرِ الزَّمَانِ دَجَّالُونَ كَذَّابُونَ]{.ar}
-[@https://sunnah.com/muslim:7@]{.aside}  
-"There will be in the end of time charlatan liars"  
-[From [#HadIv]{.trn2} in [#SaHIH #muslim]{.trn2}:7]
+## Significations of the ;madi; verb [كَانَ]{.ar}
 
-[إِنَّهَا تَكُونُ الظُّلْمَةُ وَالسَّيْلُ]{.ar}
-[@https://sunnah.com/bukhari:667@]{.aside}  
-"[At times there] is darkness and flooding"  
-
-[لَمْ تَكُنِ ٱلْحَرْبُ.]{.ar}  
-"The war didn't occur."  
-(literally: "The war was not.")
-
-## Time signification of the past verb [كَانَ]{.ar}
-
-The general siginification of the past verb 
+The general siginification of the ;madi; verb 
 [كَانَ]{.ar}
 is to indicate a state that existed in the past, and that has possibly ceased.
 For example:
 
-[كَانَ زَيْدٌ قَائِمًا]{.ar}  
-"Zayd was standing."
+(@) [كَانَ زَيْدٌ قَائِمًا]{.ar}  
+    [Zayd was standing.]{.trans}
 
 This statement is regarding Zayd's state in the past and the implication is that he is possibly no longer standing.
 
-This is the most common signification of the past verb
+This is the most common signification of the ;madi; verb
 [كَانَ]{.ar}
 and the one that we have been using so far.
 But
@@ -529,14 +708,15 @@ is special in that it admits additional significations:
 The second signification of
 [كَانَ]{.ar}
 is to indicate a state that, at first, had not yet begun, and which then began and remained, possibly up to the present.
-It has, in this sense, the meaning "became", "has become", or "happened". Examples:
+It has, in this sense, the meaning [became]{.trans}, [has become]{.trans}, or [happened]{.trans}. Examples:
 
-[أَبَىٰ وَٱسْتَكْبَرَ وَكَانَ مِنَ ٱلْكَـٰفِرِينَ]{.ar}
-[@https://quran.com/2/34@]{.aside}  
-"He refused and was arrogant and became of the disbelievers."  
+(@) [أَبَىٰ وَٱسْتَكْبَرَ وَكَانَ مِنَ ٱلْكَـٰفِرِينَ]{.quran}
+    [@https://quran.com/2/34@]{.citex}  
+    [He refused and was arrogant and became of the disbelievers.]{.trans}  
 
-[احْتَرَقَ الْخَشَبُ فَكَانَ تُرَابًا.]{.ar}  
-"The wood burned and so became dust."
+(@) [احْتَرَقَ الْخَشَبُ فَكَانَ تُرَابًا]{.ar}  
+    [@nahw_wafi@ 1/548]{.citex}  
+    [The wood burned and so became dust.]{.trans}
 
 A third signification of
 [كَانَ]{.ar}
@@ -544,109 +724,499 @@ is
 to indicate a state that will be in the future.
 For example:
 
-[وَيَخَافُونَ يَوْمًۭا كَانَ شَرُّهُۥ مُسْتَطِيرًۭا]{.ar}
-[@https://quran.com/76/7@]{.aside}  
-"and [they] fear a Day whose evil will be widespread."  
+(@) [وَيَخَافُونَ يَوْمًۭا كَانَ شَرُّهُۥ مُسْتَطِيرًۭا]{.quran}
+    [@https://quran.com/76/7@]{.citex}  
+    [and [they] fear a Day whose evil will be widespread.]{.trans}  
 
 A fourth signification of 
 [كَانَ]{.ar}
 is to indicate a state that always existed and will always exist.^[@https://tafsir.app/albahr-almuheet/3/110@]
 For example:
 
-[وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۢا]{.ar}
-[@https://quran.com/33/73@]{.aside}  
-"And ever is Allāh Forgiving and Merciful."  
+(@) [وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۢا]{.quran}
+    [@https://quran.com/33/73@]{.citex}  
+    [And ever is Allāh Forgiving and Merciful.]{.trans}  
 
-[وَلَا تَقْرَبُوا۟ ٱلزِّنَىٰٓ ۖ إِنَّهُۥ كَانَ فَـٰحِشَةًۭ وَسَآءَ سَبِيلًۭا]{.ar}
-[@https://quran.com/17/32@]{.aside}  
-"And do not approach unlawful sexual intercourse.1 Indeed, it is ever an immorality and is evil as a way."  
+(@) [وَلَا تَقْرَبُوا۟ ٱلزِّنَىٰٓ ۖ إِنَّهُۥ كَانَ فَـٰحِشَةًۭ وَسَآءَ سَبِيلًۭا]{.quran}
+    [@https://quran.com/17/32@]{.citex}  
+    [And do not approach unlawful sexual intercourse.1 Indeed, it is ever an immorality and is evil as a way.]{.trans}  
 
-## [كَانَ]{.ar} combined with other verbs
+## Significations of the ;ustate; ;mudarie; verb [يَكُونُ]{.ar}
 
-The past verb
-[كَانَ]{.ar}
-and its ;mudarie; verb
-[يَكُونُ]{.ar}
-are combined with other verbs to express complex tenses in the past and the future, respectively.
-We will explain these combinations below.
+### [يَكُونُ]{.ar} used for habitual [is]{.trans}
 
-### [كَانَ]{.ar} combined with a ;mudarie; verb
+Consider the sentence, [The mother cooks the food.]{.trans} 
+The verb [cooks]{.trans} implies that the action is habitually done, not necessarily that it is being done at present. 
+If we wished to say that the action is being done at present, we might instead say, [The mother _is cooking_ the food.]{.trans}
+English maintains this distinction between the present and the habitual for most verbs.
+But it does not for ther verb [is]{.trans}.
+So if we say, [The sky is blue,]{.trans} then it can mean both 
+(i) that the sky is blue at present, or 
+(ii) that it is habitually blue, not necessarily that it is blue at present.
 
-[كَانَ]{.ar}
-is combined with a following ;mudarie; verb to express that the action of the verb was repeatedly or continually ocurring in the past.
-For example:
+In Arabic the situation is somewhat different.
+Arabic does not usually have a distinction between the present and the habitual for most verbs. So [تَطْبُخُ الْأُمُّ الطَّعَامَ]{.ar}  may mean both
+(i) that the mother is cooking the food at present, or
+(ii) that she habitually does.
 
-[كَانَ زَيْدٌ يَكْتُبُ.]{.ar}  
-"Zayd was writing."  
-or  
-"Zayd used to write."  
-or  
-"Zayd would write."  
+<!--However, interestingly, Arabic does have the distinction between the present and the habitual for the verb [is]{.trans}.
+As you know, Arabic does not usually express a word for the present [is]{.trans}.-->
+But for the verb [is]{.trans}, Arabic can distinguish between the present and the habitual.
+So if we say [السَّمَاءُ زَرْقَاءُ]{.ar}, then this can, in general, mean both
+(i) that the sky is blue at present, and
+(ii) that it is habitually blue.
+If we wish to specify the habitual meaning, we may use the ;mudarie; verb [يَكُونُ]{.ar}, thus:
 
-This sentence can be analyzed grammatically as a ;mubtada;-;xabar; sentence.
-The ;ism_of; of 
-[كَانَ]{.ar}
-is [زَيْد]{.ar} and it is the ;mubtada; of the sentence.
-The ;xabar; of [كَانَ]{.ar} is itself a sentence [يَكْتُبُ]{.ar} "he writes", and it is the ;xabar; of the main sentence.
+(@) [تَكُونُ السَّمَاءُ زَرْقَاءَ]{.ar}  
+    [The sky is (habitually) blue.]{.trans}
 
-The order of the ;ism_of; and the ;mudarie; verb can be re-arranged for the same meaning thus:
+While we call this the 
+habitual [يَكُونُ]{.ar},
+it can include a range of meanings, including
+continually, recurringly, regularly, typically, generally, often, sometimes, can, may, etc.
+Habitual [يَكُونُ]{.ar} is negated using [مَا]{.ar} or [لَا]{.ar}, just like other ;ustate; ;mudarie; verbs.
 
-[كَانَ يَكْتُبُ زَيْدٌ.]{.ar}  
+Here are some examples:
 
-Now, two grammatical analyses are possible:
+(@) [قَالَ وَمَا الْبِتْعُ وَالْمِزْرُ؟ قُلْتُ شَرَابٌ **يَكُونُ** مِنَ الْعَسَلِ وَالْمِزْرُ **يَكُونُ** مِنَ الشَّعِيرِ]{.ar}
+    [@https://sunnah.com/nasai:5604@]{.citex}  
+    [He said: 'What is mead and beer?' I said: 'A drink that **is** from honey, and beer **is** from barley.']{.trans}
+<!--(From [سنن النسائي]{.ar}:5604)-->
 
-1. [زَيْد]{.ar} is the ;faa3il; of [يَكْتُبُ]{.ar}, and the ;ism_of; of [كَانَ]{.ar} is a hidden pronoun of the fact.
-2. [زَيْد]{.ar} is the delayed ;ism_of; of [كَانَ]{.ar} and [يَكْتُبُ]{.ar} is the ;xabar; of [كَانَ]{.ar}. The ;faa3il; of [يَكْتُبُ]{.ar} is a hidden pronoun.
+(@) [إِنَّهَا **تَكُونُ** الظُّلْمَةُ وَالسَّيْلُ]{.ar}
+    [@https://sunnah.com/bukhari:667@]{.citex}  
+    [[At times there] is darkness and flooding]{.trans}  
 
-Either way, the meaning, as we have mentioned, is the same.
-Here are some more examples for different types of ;faa3il;s/;ism_of;s:
 
-<!--[كَانَ يُحِبُّ ٱلشِّعْرَ وٱلشُّعَرَاءَ.]{.ar}  
-"He used to love poetry and the poets."
+<!--
+[إِنَّ أَحَدَكُمْ لَيَعْمَلُ بِعَمَلِ أَهْلِ الْجَنَّةِ حَتَّى مَا يَكُونُ بَيْنَهُ وَبَيْنَهَا إِلاَّ ذِرَاعٌ]{.ar}  
+[One of you will do deeds of the people of Paradise, until there is between him and it but a forearm span]{.trans}  
+(Part of [HadIv]{.trn2} 2137 from [#jAmie al-#tirmipI]{.trn2})
+From [جامع الترمذي]{.ar}:2137)-->
+<!--
+[يَكُونُ اللِّحَافُ وِسَادَةً وَلَا تَكُونُ الْوِسَادَةُ لِحَافًا]{.ar}  
+[The blanket can be a pillow but the pillow cannot be a blanket.]{.trans}
+
+[مَا يَكُونُ الرَّجُلُ صَدِيقَكَ حَتّى يَصْدُقَكَ]{.ar}  
+[A man is not your friend until he is truthful to you.]{.trans}
 -->
 
-[كَانَ يَعْبُدُ مُشْرِكُو مَكَّةَ ٱلْأَصْنَامَ.]{.ar}  
-or  
-[كَانَ مُشْرِكُو مَكَّةَ يَعْبُدُونَ ٱلْأَصْنَامَ.]{.ar}  
-"The polytheists of Makkah used to worship idols."
+### [قَدْ يَكُونُ]{.ar} for [may be]{.trans}
 
-[كَانَتْ تُحِبُّ الصَّدَقَةَ.]{.ar}
-[@https://sunnah.com/bukhari:1420@]{.aside}  
-"She used to love [to practice] charity."
+When the meaning [may be]{.trans} is desired, the 
+the ;mudarie; verb
+[يَكُونُ]{.ar}
+may be preceded by the particle [قَدْ]{.ar}. For example,
+
+(@) [قَالَ أَبُو الدَّرْدَاء يَا رَسُولَ اللهِ يَسْرِقُ الْمُؤْمِنُ قَالَ قَدْ يَكُونُ ذَلكَ]{.ar}
+    [https://hadithunlocked.com/suyuti:401-5b]{.citex}^[See <https://islamqa.info/ar/answers/264450> for the [taxrIj]{.trn2} of this [HadIv]{.trn2}.]  
+    [[#abU al-#dardAE]{.trn2} said, "O Messenger of Allah, Can a believer steal?" He said, "That may be."]{.trans}
+
+### [يَكُونُ]{.ar} used for future [will be]{.trans}
+
+Another usage of the ;mudarie; verb
+[يَكُونُ]{.ar}
+is for the future tense to mean [will be]{.trans}.
+In this case, it is often preceded by [سَ]{.ar} or [سَوْفَ]{.ar}.
+[سَ]{.ar} and [سَوْفَ]{.ar} are optional and are commonly dropped, especially when the context indicates the future.
+Future [يَكُونُ]{.ar}
+is negated by [لَا]{.ar}.
+Here are some examples:
+
+(@) [فَقَدْ كَذَّبْتُمْ فَسَوْفَ يَكُونُ لِزَامًا]{.quran}
+    [@https://quran.com/25:77@]{.citex}  
+    [For you [disbelievers] have denied, so it [i.e., your denial] is going to be adherent.]{.trans}  
+
+(@) [لا يَكونُ اللَّعَّانُونَ شُفَعَاءَ وَلَا شُهَدَاءَ يَومَ القِيَامَةِ]{.ar}
+    [@https://sunnah.com/riyadussalihin:1553@]{.citex}  
+    [The frequent cursers will be neither intercessors nor witnesses [on] the day of resurrection.]{.trans}  
+    ([يَوْمَ]{.ar} is in the ;astate; because it is an adverb of time, see chapter\ \@ref(adverb-of-time).)
+
+(@) [يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ]{.quran}
+    [@https://quran.com/101:4@]{.citex}  
+    [It is the Day when people will be like moths, dispersed,]{.trans}  
+
+(@) [يَكُونُ فِي آخِرِ الزَّمَانِ دَجَّالُونَ كَذَّابُونَ]{.ar}
+    [@https://sunnah.com/muslim:7@]{.citex}  
+    [There will be in the end of time charlatan liars]{.trans}  
+
+## Significance of the ;astate; ;mudarie; verb [يَكُونَ]{.ar}
+
+Like ;astate; ;mudarie; verbs in general, [يَكُونَ]{.ar} [be]{.trans} expresses the meaning of purpose, wish, or expectation. It occurs after the particles
+[أَنْ]{.ar},
+[لَنْ]{.ar},
+[لِ]{.ar},
+[كَيْ]{.ar},
+[حَتَّىٰ]{.ar}, and
+[إِذَنْ]{.ar}.
+All this is consistent with what we have learned about ;astate; ;mudarie; verbs in chapter\ \@ref(;astate;-;mudarie;-verbs).
+Here are some examples:
+
+(@) [نَزَلَ بِهِ ٱلرُّوحُ ٱلْأَمِينُ. عَلَىٰ قَلْبِكَ لِتَكُونَ مِنَ ٱلْمُنذِرِينَ]{.quran}
+    [@https://quran.com/26/193-194@]{.citex}  
+    [The Trustworthy Spirit [i.e., Gabriel] has brought it down. Upon your heart, [O Muḥammad] - that you may be of the warners -]{.trans}
+
+(@) [لَّن يَسْتَنكِفَ ٱلْمَسِيحُ أَن يَكُونَ عَبْدًۭا لِّلَّهِ وَلَا ٱلْمَلَـٰٓئِكَةُ ٱلْمُقَرَّبُونَ]{.quran}
+    [@https://quran.com/4/172@]{.citex}  
+    [Never would the Messiah disdain to be a servant of Allāh, nor would the angels near [to Him]]{.trans}
+
+(@) [أَفَأَنتَ تُكْرِهُ ٱلنَّاسَ حَتَّىٰ يَكُونُوا۟ مُؤْمِنِينَ]{.quran}
+    [@https://quran.com/10/99@]{.citex}  
+    [Then, [O Muḥammad], would you compel the people in order that they become believers?]{.trans}
+
+## The ;0state; ;mudarie; verb [يَكُنْ]{.ar} {#lam-yakun}
+
+As with other verbs,
+the ;0state; ;mudarie; verb [يَكُنْ]{.ar} 
+is used for negative commands, indirect commands, and with [لَمْ]{.ar} for negation, etc.
+Examples:
+
+(@) [**وَلْتَكُن** مِّنكُمْ أُمَّةٌۭ يَدْعُونَ إِلَى ٱلْخَيْرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ]{.quran}
+    [@https://quran.com/3/104@]{.citex}  
+    [And let there be [arising] from you a nation inviting to [all that is] good, enjoining what is right and forbidding what is wrong,1 and those will be the successful.]{.trans}
+
+(@) [ٱلْحَقُّ مِن رَّبِّكَ فَلَا **تَكُن** مِّنَ ٱلْمُمْتَرِينَ]{.quran}
+    [@https://quran.com/3/60@]{.citex}  
+    [The truth is from your Lord, so do not be among the doubters.]{.trans}
+
+(@) [لَمْ **يَكُنِ** النَّبِيُّ صلى الله عليه وسلم سَبَّابًا وَلاَ فَحَّاشًا وَلاَ لَعَّانًا]{.ar}
+    [@https://sunnah.com/bukhari:6031@]{.citex}  
+    [The Prophet ;pbuh; was not one who would abuse (others) or say obscene words, or curse (others)]{.trans}
+
+### Deletion of [ن]{.ar}
+
+For the ;0state; ;mudarie; conjugations of [كَانَ]{.ar} that don't have a [و]{.ar} between [ك]{.ar} and [ن]{.ar},
+the [ن]{.ar} may optionally be deleted if certain conditions are satisfied.
+These conjugations are:
+
++ [يَكُنْ]{.ar} which becomes [يَكُ]{.ar}
++ [تَكُنْ]{.ar} which becomes [تَكُ]{.ar}
++ [نَكُنْ]{.ar} which becomes [نَكُ]{.ar}
++ [أَكُنْ]{.ar} which becomes [أَكُ]{.ar}
+
+These are the conditions, all of whom must be satisfied^[Conditions and examples taken from <https://github.com/zahidsyed/learning-nahw-analytically>]:
+
+  i. The verb is not followed by a ;0mark;. Examples:
+
+     (@) ;x; [لَمْ **يَكُ** الَّذِينَ ...]{.ar}  
+         ;v; [لَمۡ **یَكُنِ** ٱلَّذِینَ كَفَرُوا۟ مِنۡ أَهۡلِ ٱلۡكِتَـٰبِ وَٱلۡمُشۡرِكِینَ مُنفَكِّینَ حَتَّىٰ تَأۡتِیَهُمُ ٱلۡبَیِّنَةُ]{.quran}
+         [@https://quran.com/98/1@]{.citex}  
+         [Those who disbelieved among the People of the Scripture and the polytheists were not to be parted [from misbelief]1 until there came to them clear evidence]{.trans}
+
+     (@) ;x; [لَمْ **يَكُ** الرَّجُلُ حَاضِرًا]{.ar}  
+         ;v; [لَمْ **يَكُنِ** الرَّجُلُ حَاضِرًا]{.ar}  
+         [The man was not present.]{.trans}
+
+ ii. The verb is not followed by an attached pronoun. Example:
+
+     (@) ;x; [إِنْ **يَكُهُ** فَلَنْ ... وَإِنْ لَمْ **يَكُهُ** ...]{.ar}  
+         ;v; [إِنْ **يَكُنْهُ** فَلَنْ تُسَلَّطَ عَلَيْهِ وَإِنْ لَمْ **يَكُنْهُ** فَلاَ خَيْرَ لَكَ فِي قَتْلِهِ]{.ar}
+         [@https://sunnah.com/muslim:2930a@]{.citex}  
+         [If he is he (i.e. the [#dajjAl]{.trn2}), you would not be able to overpower him, and if he is not he there is no good for you in killing him]{.trans}
+
+iii. The verb is not at the end of a sentence. Example:
+
+     (@) ;x; [وَلَمْ **أَكُ**]{.ar}  
+         ;v; [وَلَمۡ **أَكُ** بَغِیࣰّا]{.quran}
+         [@https://quran.com/19/20@]{.citex}  
+         [and I have not been unchaste]{.trans}
+
+Here are some more examples which satisfy the conditions so the [ن]{.ar} is deleted.
+Examples:
+
+(@) [وَلَا **تَكُ** فِى ضَيْقٍۢ مِّمَّا يَمْكُرُونَ]{.quran}
+    [@https://quran.com/16/127@]{.citex}  
+    [and do not be in distress over what they conspire.]{.trans}
+
+(@) [وَقَدْ خَلَقْتُكَ مِن قَبْلُ وَلَمْ **تَكُ** شَيْـًۭٔا]{.quran}
+    [@https://quran.com/19/9@]{.citex}  
+    [for I created you before, while you were nothing]{.trans}
+
+(@) [ قَالُوا۟ لَمۡ نَكُ مِنَ ٱلۡمُصَلِّینَ ۝٤٣ وَلَمۡ نَكُ نُطۡعِمُ ٱلۡمِسۡكِینَ ۝٤٤ ]{.quran}
+    [@https://quran.com/74/43-44@]{.citex}  
+    [They will say, "We were not of those who prayed, Nor did we used to feed the poor.]{.trans}  
+
+(@) [أَلَمۡ یَكُ نُطۡفَةࣰ مِّن مَّنِیࣲّ یُمۡنَىٰ]{.quran}
+    [@https://quran.com/75/37@]{.citex}  
+    [Had he not been a sperm from semen emitted?]{.trans}
+
+<!--
+But we can't say:
+
+(@) ;x; [لَمْ تَكُ ٱلرَّجُلَ]{.ar}  
+
+This is because [ٱلرَّجُل]{.ar} begins with with a connecting hamzah [ٱ]{.ar}. So we have to say instead:
+
+(@) [لَمْ تَكُنِ ٱلرَّجُلَ]{.ar}  
+    [You were not the man.]{.trans}
+-->
+
+## The verb of command [كُنْ]{.ar} {#kun}
+
+The verb of command [كُنْ]{.ar} is used to mean [Be!]{.trans}. Examples:
+
+(@) [قُلْنَا يَـٰنَارُ كُونِى بَرْدًۭا وَسَلَـٰمًا عَلَىٰٓ إِبْرَٰهِيمَ]{.quran}
+    [@https://quran.com/21:69@]{.citex}  
+    We [i.e., Allāh] said, [O fire, be coolness and safety upon Abraham.]{.trans}  
+
+(@) [فَقُلْنَا لَهُمْ كُونُوا۟ قِرَدَةً خَـٰسِـِٔينَ]{.quran}
+    [@https://quran.com/2:65@]{.citex}  
+    "and We said to them, 'Be apes, despised.'  
+
+The verb of command [كُنْ]{.ar} followed by the name of a person in the ;astate; is used to express one's guessing that the person whom one sees is the individual named. For example:
+
+(@) [كُنْ أَبَا ذَرٍّ]{.ar}
+    [@wright@ 2/44C]{.citex}  
+    [I presume that the person approaching is [#abU #parr]{.trn2}]{.trans}
+
+(@) [كُنْ أَبَا زَيْدٍ]{.ar}
+    [@wright@ 2/44C]{.citex}  
+    [I guess that you are [#abU]{.trn2} Zayd.]{.trans}
+
+
+## The ;madi; verb [كَانَ]{.ar} combined with a ;mudarie; verb
+
+In section\ (ref) above, we mentioned that the ;xabar;
+[كَانَ]{.ar}
+can be a complete sentence.
+The examples we gave were where the ;xabar; of
+[كَانَ]{.ar}
+were ;j_ism;s.
+<!--
+One such example was (@kaana_kaana_zaydun_aboohu_muntaliqun) [كَانَ زَيْدٌ أَبُوهُ مُنْطَلِقٌ]{.ar}
+[Zayd -- his father was setting out.]{.trans}.
+In this example the ;xabar; of
+[كَانَ]{.ar}
+is the (complete) inner sentence
+[أَبُوهُ مُنْطَلِقٌ]{.ar}
+[His father is setting out]{.trans}.
+-->
+
+Instead of a ;j_ism; as the ;xabar; of
+[كَانَ]{.ar},
+the ;xabar; is very often a ;j_f3l;.
+[كَانَ]{.ar}
+combined with ;j_f3l;s to express complex tenses.
+The most common combination is the ;madi; verb
+[كَانَ]{.ar}
+with a ;mudarie; verb in its ;xabar;.
+
+<!--
+[كَانَ]{.ar}
+is combined with a following ;mudarie; verb to express that the action of the verb was repeatedly or continually ocurring in the past.
+-->
+Consider again example (@kaana_kaana_zaydun_qaaiman):
+
+(@kaana_kaana_zaydun_qaaiman) [كَانَ زَيْدٌ قَائِمًا]{.ar}
+    [@peled_sentence_types@ 171]{.citex}  
+    [Zayd was standing]{.trans}  
+
+The ;xabar; of
+[كَانَ]{.ar}
+is 
+(as a single element)
+the ;ism_fail;
+[قَائِمًا]{.ar}.
+Let's try to replace the ;ism_fail;
+[قَائِمًا]{.ar}
+with its ;mudarie; verb
+[يَقُومُ]{.ar}.
+We get:
+
+(@kaana_kaana_zaydun_yaqoomu) [كَانَ زَيْدٌ يَقُومُ]{.ar}  
+    [Zayd used to stand.]{.trans}  
+    (literally: [Zayd was -- he stands.]{.trans})
+
+<!--
+We have translated (@kaana_kaana_zaydun_yaqoomu) [كَانَ زَيْدٌ يَقُومُ]{.ar}
+as
+[Zayd used to stand.]{.trans}.
+And we translated (@kaana_kaana_zaydun_qaaiman) [كَانَ زَيْدٌ قَائِمًا]{.ar}
+as
+[Zayd was standing]{.trans}.
+The exact difference in signification between the ;ism_fail; and its ;mudarie; verb is discussed in more detail in chapter\ (ref).
+For now, we will say that,
+in general,
+-->
+When
+[كَانَ]{.ar}
+is combined with a following ;mudarie; verb, or its ;ism_fail;,
+it indicates an imperfect action that was occurring in the past.
+The tense is usually either:
+
+ i. Past-continuous ([he was doing]{.trans}), or
+ii. Past-habitual ([he used to do]{.trans}).
+
+In general,
+[كَانَ]{.ar}
+with a
+;mudarie; verb
+can indicate either
+tense.
+Whereas
+[كَانَ]{.ar}
+with a ;ism_fail;
+typically indicates the past-continuous tense.
+The exact difference in signification between the ;ism_fail; and its ;mudarie; verb is discussed in more detail in chapter\ (ref).
+
+Let's discuss the grammar of the new sentence
+ (@kaana_kaana_zaydun_yaqoomu) [كَانَ زَيْدٌ يَقُومُ]{.ar}.
+The ;ism_of; of
+[كَانَ]{.ar}
+is
+[زَيْدٌ]{.ar}.
+And
+the ;xabar; of
+[كَانَ]{.ar}
+is the complete ;j_f3l;
+[يَقُومُ]{.ar}
+[he stands]{.trans}.
+The ;faa3il; of the ;mudarie; verb
+[يَقُومُ]{.ar}
+is the ;mustatir; pronoun
+[[هُوَ]{.ar}]
+that refers back to the ;ism_of;
+[زَيْدٌ]{.ar}.
+
+### The word order of [كَانَ]{.ar}, its ;ism_of;, and the ;mudarie; verb {.unnumbered}
+
+The sequence
+([كَانَ]{.ar},
+;ism_of;,
+;mudarie; verb)
+is a very commonly used word order.
+But there is also another word order which is also very frequently used.
+And that is
+([كَانَ]{.ar},
+;mudarie; verb,
+;ism_of;).
+For example:
+
+(@kaana_kaana_yaqoomu_zaydun) [كَانَ يَقُومُ زَيْدٌ]{.ar}  
+    [Zayd used to stand.]{.trans}  
+
+There are two methods to anaylyze example (@kaana_kaana_yaqoomu_zaydun) above^[For details on the dispute amongst the grammarians on the parsing of this word order, see [@sabban@ 2/137](https://shamela.ws/book/11539/566); [@abu_hayyan_tadhyeel@ 4/184](https://shamela.ws/book/17116/1198); @https://tafsir.app/aldur-almasoon/7/137@ for [مَا كَانَ یَصۡنَعُ فِرۡعَوۡنُ]{.quran}; @https://tafsir.app/aldur-almasoon/9/117@ for [مَا كَادَ یَزِیغُ قُلُوبُ فَرِیقࣲ مِّنۡهُمۡ]{.quran}]:
+
+The first method is to consider
+[زَيْدٌ]{.ar}
+the ;faa3il; of the ;mudarie; verb
+[يَقُومُ]{.ar}.
+The sentence
+[يَقُومُ زَيْدٌ]{.ar}
+[Zayd stands]{.trans}
+is then the ;xabar; of
+[كَانَ]{.ar}.
+And the ;ism_of; of
+[كَانَ]{.ar}
+is a ;mustatir; ;damir_shan;
+[[هُوَ]{.ar}].
+The ;damir_shan; will typically go untranslated in this case.
+
+The second method is to consider
+[زَيْدٌ]{.ar}
+the ;ism_of; of
+[كَانَ]{.ar}.
+The sentence
+[يَقُومُ]{.ar}
+[he stands]{.trans}
+(with a ;mustatir; ;faa3il; pronoun)
+is then the ;xabar; of
+[كَانَ]{.ar},
+but which is made to precede its ;ism_of;.
+By the way, it seems that this second method is not used when the ;ism_of; is dual or plural.
+This is because we typically always find the ;mudarie; verb in the singular when it precedes the ;ism_of;, regardless of whether the ;ism_of; is singular, dual, or plural.
+For example:
+
+(@) ;v; [كَانَ يَقُومُ الزَّيْدَانِ]{.ar}  
+    ;x; [كَانَ يَقُومَانِ الزَّيْدَانِ]{.ar}  
+    [The two Zayds were standing.]{.trans}
+
+Both word orders (@kaana_kaana_zaydun_yaqoomu) [كَانَ زَيْدٌ يَقُومُ]{.ar}
+and (@kaana_kaana_yaqoomu_zaydun) [كَانَ يَقُومُ زَيْدٌ]{.ar}.
+have,
+more or less,
+a similar meaning.
+
+But choosing one of two word orders
+can affect the conjugation of the ;mudarie; verb for dual and plural ;ism_of;s.
+Here is a table that compares conjugations for the two options:
+
+|||
+|:-----|:-----|
+| [كَانَ زَيْدٌ يَقُومُ]{.ar}         | [كَانَ يَقُومُ زَيْدٌ]{.ar}      |
+| [كَانَتْ هِنْدٌ تَقُومُ]{.ar}        | [كَانَتْ تَقُومُ هِنْدٌ]{.ar}     |
+| [كَانَالزَّيْدَانِ يَقُومَانِ]{.ar}    | [كَانَ يَقُومُ الزَّيْدَانِ]{.ar}  |
+| [كَانَتِ الْهِنْدَانِ تَقُومَانِ]{.ar}  | [كَانَتْ تَقُومُ الْهِنْدَانِ]{.ar} |
+| [كَانَ الزَّيْدُونَ يَقُومُونَ]{.ar}   | [كَانَ يَقُومُ الزَّيْدُونَ]{.ar}  |
+| [كَانَتِ الْهِنْدَاتُ يَقُمْنَ]{.ar}    | [كَانَتْ تَقُومُ الْهِنْدَاتُ]{.ar} |
+
+When the ;ism_of; of
+[كَانَ]{.ar}
+is a dual or plural pronoun,
+then it seems that only the
+([كَانَ]{.ar},
+;ism_of;,
+;mudarie; verb)
+is used.
+And the
+([كَانَ]{.ar},
+;mudarie; verb,
+;ism_of;)
+is unused.
+For example:
+
+(@) ;v; [كَانُوا يَقُومُونَ]{.ar}  
+    ;x; [كَانَ يَقُومُونَ]{.ar}  
+    [They were standing.]{.trans}
+
+Here are some more examples of [كَانَ]{.ar} followed by a ;mudarie; verb:
+
+<!--[كَانَ يُحِبُّ ٱلشِّعْرَ وٱلشُّعَرَاءَ]{.ar}  
+[He used to love poetry and the poets.]{.trans}
+-->
+
+[كَانَ يَعْبُدُ مُشْرِكُو مَكَّةَ ٱلْأَصْنَامَ]{.ar}  
+or  
+[كَانَ مُشْرِكُو مَكَّةَ يَعْبُدُونَ ٱلْأَصْنَامَ]{.ar}  
+[The polytheists of Makkah used to worship idols.]{.trans}
+
+[كَانَتْ تُحِبُّ الصَّدَقَةَ]{.ar}
+[@https://sunnah.com/bukhari:1420@]{.citex}  
+[She used to love [to practice] charity.]{.trans}
 
 [كَانَت تَّأْتِيهِمْ رُسُلُهُم بِٱلْبَيِّنَـٰتِ]{.ar}
-[@https://quran.com/64:6@]{.aside}  
-"their messengers used to come to them with clear evidences"  
+[@https://quran.com/64:6@]{.citex}  
+[their messengers used to come to them with clear evidences]{.trans}  
 (Sound plurals, even of rational beings, may be treated as grammatically singular feminine. See section\ \@ref(sound-plurals-sing-fem).)
 
 [كُنْتُ أَلْعَبُ بِالْبَنَاتِ عِنْدَ النَّبِيِّ صلى الله عليه وسلم وَكَانَ لِي صَوَاحِبُ يَلْعَبْنَ مَعِي]{.ar}
-[@https://sunnah.com/bukhari:6130@]{.aside}  
-"I used to play with dolls in the presence of the Prophet, and I had companions~f~ playing with me."
+[@https://sunnah.com/bukhari:6130@]{.citex}  
+[I used to play with dolls in the presence of the Prophet, and I had companions~f~ playing with me.]{.trans}
 
 Occasionally, the particle [قَدْ]{.ar} precedes the combination of [كَانَ]{.ar} and the ;mudarie; verb. Example:
 
 [قَالُوا هَذَا قَدْ كَانَ يَكْتُبُ لِمُحَمَّدٍ]{.ar}
-[@https://sunnah.com/muslim:2781@]{.aside}  
-"They said, 'This [person] used to transcribe for [#muHammad]{.trn2} [ﷺ]{.aralt}'"
+[@https://sunnah.com/muslim:2781@]{.citex}  
+[They said, 'This [person] used to transcribe for [#muHammad]{.trn2} [ﷺ]{.aralt}']{.trans}
 
 The following ;mudarie; verb may also be an ;passive; verb. Example:
 
 [إِنَّ أُنَاسًا كَانُوا يُؤْخَذُونَ بِالْوَحْىِ فِي عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم]{.ar}
-[@https://sunnah.com/bukhari:2641@]{.aside}  
-"Indeed people were (sometimes) judged (literally: held) by the [revealing of] divine inspiration in the lifetime of the Prophet."
+[@https://sunnah.com/bukhari:2641@]{.citex}  
+[Indeed people were (sometimes) judged (literally: held) by the [revealing of] divine inspiration in the lifetime of the Prophet.]{.trans}
 
-#### One [كَانَ]{.ar} suffices multiple ;mudarie; verbs
+### One [كَانَ]{.ar} suffices multiple ;mudarie; verbs
 
 If the signification of an action ocurring continually in the past applies to more that one ;mudarie; verb, then it is sufficient to prefix 
 [كَانَ]{.ar}
 to only the first one. Example:
 
 [كَانَتْ تَعْمَلُ بِيَدِهَا وَتَصَدَّقُ]{.ar}
-[@https://sunnah.com/muslim:2452@]{.aside}  
-"She used to work with her hand and spend (that income) on charity."  
+[@https://sunnah.com/muslim:2452@]{.citex}  
+[She used to work with her hand and spend (that income) on charity.]{.trans}  
 ([تَتَصَدَّقُ]{.ar} is abbreviated to [تَصَدَّقُ]{.ar}. See section\ \@ref(form-5-verbs-abbrev).)
 
-#### Negation of [كَانَ]{.ar} and a ;mudarie; verb
+### Negation of [كَانَ]{.ar} and a ;mudarie; verb
 
 In order to negate the combination of
 [كَانَ]{.ar}
@@ -660,16 +1230,16 @@ multiple options are available. Using [يَفْعَلُ]{.ar} as an example ;mud
 Examples:
 
 [مَا كَانَ أَحَدٌ يَبْدَأُ، أَوْ يَبْدُرُ، ابْنَ عُمَرَ بِالسَّلامِ]{.ar}
-[@https://sunnah.com/adab:982@]{.aside}  
-"No one preceded or got ahead of Ibn [#eumar]{.trn2} with (giving) the greeting."  
+[@https://sunnah.com/adab:982@]{.citex}  
+[No one preceded or got ahead of Ibn [#eumar]{.trn2} with (giving) the greeting.]{.trans}  
 
 [كَانُوا۟ لَا يَتَنَاهَوْنَ عَن مُّنكَرٍۢ فَعَلُوهُ]{.ar}
-[@https://quran.com/5/79@]{.aside}  
-"They used not to prevent one another from wrongdoing that they did."   
+[@https://quran.com/5/79@]{.citex}  
+[They used not to prevent one another from wrongdoing that they did.]{.trans}   
 
 [لَمْ يَكُونُوا يَسْأَلُونَ عَنِ الإِسْنَادِ]{.ar}
-[@https://sunnah.com/muslim/introduction/26@]{.aside}  
-"They would not ask about the chains of narration"  
+[@https://sunnah.com/muslim/introduction/26@]{.citex}  
+[They would not ask about the chains of narration]{.trans}  
 
 In terms of the differences between these constructions
 [مَا كَانَ يَفْعَلُ]{.ar}
@@ -681,20 +1251,20 @@ There is also difference between the options
 and
 [كَانَ لَا يَفْعَلُ]{.ar}
 in terms of when one would be used instead of the other.^[@maani_nahw@ 1/222].
-For example, if someone says to you: "I thought I saw you writing yesterday."
+For example, if someone says to you: [I thought I saw you writing yesterday.]{.trans}
 To reply in the negative, you would say:
 [مَا كُنْتُ أَكْتُبُ]{.ar}
 instead of
 [كُنْتُ لَا أَكْتُبُ]{.ar}
-to mean "I was not writing."
+to mean [I was not writing.]{.trans}
 
 The construction 
 [مَا كَانَ يَفْعَلُ]{.ar}
 is also used when one wishes to say that one never used to do something due to one's circumstances And also to mean that one did not know how to do something in the past.
 For example,
 
-[مَا كُنْتُ أَحْفَظُ شِعْرًا.]{.ar}  
-"I used to not memorize any poetry."
+[مَا كُنْتُ أَحْفَظُ شِعْرًا]{.ar}  
+[I used to not memorize any poetry.]{.trans}
 
 As for
 [كَانَ لَا يَفْعَلُ]{.ar},
@@ -707,125 +1277,125 @@ For example,
 Whereas
 [مَا كَانَ يَقْرَأُ ٱلْقُرْآنَ]{.ar} does not convey the intentionality of the lack of action. For example, the person may not have been reading the ;quran; because he did not know how to.
 
-#### The combination of [كَانَ]{.ar} with [يَكُونُ]{.ar}
+### The combination [كَانَ يَكُونُ]{.ar}
 
 Occasionally, 
 [كَانَ]{.ar}
 can be combined with its own ;mudarie; verb
 [يَكُونُ]{.ar}
-This gives the meaning "was being" or "used to be".
+This gives the meaning [was being]{.trans} or [used to be]{.trans}.
 [يَكُونُ]{.ar} is, in this combination, often optional and may be dropped for no change in meaning. Examples:
 
 [كَانَ يَكُونُ فِي مِهْنَةِ أَهْلِهِ]{.ar}
-[@https://sunnah.com/bukhari:676@]{.aside}  
+[@https://sunnah.com/bukhari:676@]{.citex}  
 and  
 [كَانَ فِي مِهْنَةِ أَهْلِهِ]{.ar}
-[@https://sunnah.com/bukhari:6039@]{.aside}  
-"He used to keep himself busy serving his family"
+[@https://sunnah.com/bukhari:6039@]{.citex}  
+[He used to keep himself busy serving his family]{.trans}
 
 [قَدْ كَانَ يَكُونُ فِي الأُمَمِ مُحَدَّثُونَ]{.ar}
-[@https://sunnah.com/tirmidhi:2398@]{.aside}  
-"There used to be in the nations inspired persons"  
+[@https://sunnah.com/tirmidhi:2398@]{.citex}  
+[There used to be in the nations inspired persons]{.trans}  
 
 [رِجَالٌ كَانُوا يَكُونُونَ مَعَ ٱلْمُلُوكِ]{.ar}
-[@wright@ 2/21C]{.aside}  
-"men that used to be with the kings"
+[@wright@ 2/21C]{.citex}  
+[men that used to be with the kings]{.trans}
 
 [كَانَ يَكُونُ فِي ٱلْبَيْتِ]{.ar}
-[@fischer@ 107]{.aside}  
-"He used to be in the house."
+[@fischer@ 107]{.citex}  
+[He used to be in the house.]{.trans}
 
-#### Possible occurrence
+### Possible occurrence
 
 Sometimes
 [كَانَ]{.ar}
 is used with a ;mudarie; verb to express an action that could, should, or would have occurred. Examples:
 
-[كَانَ يَكُونُ سُوءَ أَدَبٍ.]{.ar}
-[@fischer@ 108]{.aside}  
-"It would have been a misbehavior."
+[كَانَ يَكُونُ سُوءَ أَدَبٍ]{.ar}
+[@fischer@ 108]{.citex}  
+[It would have been a misbehavior.]{.trans}
 
 [فَقَالَ حُذَيْفَةُ أَنْتَ كُنْتَ تَفْعَلُ ذَلِكَ]{.ar}
-[@https://sunnah.com/muslim:1788@]{.aside}  
-"[#Hupayfah]{.trn2} said: 'You might have done that.'"  
+[@https://sunnah.com/muslim:1788@]{.citex}  
+[[#Hupayfah]{.trn2} said: 'You might have done that.']{.trans}  
 
 This meaning can also be for the future, for example in a question:
 
 [أَىَّ شَىْءٍ كُنْتَ تَصْنَعُ]{.ar}
-[@https://sunnah.com/ibnmajah:2606@]{.aside}  
-"Which thing would you do?"
+[@https://sunnah.com/ibnmajah:2606@]{.citex}  
+[Which thing would you do?]{.trans}
 
-#### Omission of [كَانَ]{.ar}
+### Omission of [كَانَ]{.ar}
 
-If one or more past verbs precedes the ;mudarie; verb 
+If one or more ;madi; verbs precedes the ;mudarie; verb 
 or if the context indicates that the action was occurring in the past, then
 [كَانَ]{.ar}
 can be omitted, and the ;mudarie; verb is used by itself.^[@wright@ 2/21C] For example:
 
 [قُلْ فَلِمَ تَقْتُلُونَ أَنۢبِيَآءَ ٱللَّهِ مِن قَبْلُ]{.ar}
-[@https://quran.com/2/91@]{.aside}  
-"Say, "Then why did you kill the prophets of Allāh before"  
+[@https://quran.com/2/91@]{.citex}  
+[Say, ]{.trans}Then why did you kill the prophets of Allāh before"  
 (No [كُنْتُمْ]{.ar} before [تَقْتُلُونَ]{.ar}.)
 
 [وَٱتَّبَعُوا۟ مَا تَتْلُوا۟ ٱلشَّيَـٰطِينُ عَلَىٰ مُلْكِ سُلَيْمَـٰنَ ۖ]{.ar}
-[@https://quran.com/2/102@]{.aside}  
-"And they followed [instead] what the devils had recited during the reign of Solomon"  
+[@https://quran.com/2/102@]{.citex}  
+[And they followed [instead] what the devils had recited during the reign of Solomon]{.trans}  
 (No [كَانَتْ]{.ar} before [تَتْلُو]{.ar}.)
 
-#### [كَانَ]{.ar} followed by a ;ism_fail; or ;ism_maful; instead of a ;mudarie; verb
+### [كَانَ]{.ar} followed by a ;ism_fail; or ;ism_maful; instead of a ;mudarie; verb
 
 Instead of a ;mudarie; verb after [كَانَ]{.ar}, its ;ism_fail; or ;ism_maful; may be used instead. 
 And this can give the effect of a state of being rather than an action being done.
 For example:
 
 [كَانَ سَاكِنًا]{.ar}
-[@wright@ 2/198A]{.aside}  
-"He was dwelling"
+[@wright@ 2/198A]{.citex}  
+[He was dwelling]{.trans}
 
-[كَانَتِ ٱلْعُصِيُّ مَرْكُوزَةً فِي ٱلْأَرْضِ.]{.ar}
-[@wright@ 2/198A]{.aside}  
-"The staffs were sticking in the ground."  
+[كَانَتِ ٱلْعُصِيُّ مَرْكُوزَةً فِي ٱلْأَرْضِ]{.ar}
+[@wright@ 2/198A]{.citex}  
+[The staffs were sticking in the ground.]{.trans}  
 ([كَانَتْ تُرْكَزُ]{.ar} would imply that they were being stuck.)
 
 When the verbal noun refers to an action taking place in the future, the idea of futurity is transferred to a past time. For example:
 
 [أَمْرٌ كَانَ مَفْعُولًا]{.ar}
-[@wright@ 2/196A]{.aside}  
-"a matter which was to be done"
+[@wright@ 2/196A]{.citex}  
+[a matter which was to be done]{.trans}
 
-### [كَانَ]{.ar} combined with a past verb
+## The ;madi; verb [كَانَ]{.ar} combined with a ;madi; verb
 
 [كَانَ]{.ar}
-is combined with a following past verb to denote 
+is combined with a following ;madi; verb to denote 
 an action completed prior to some past (specified or implied) point in time.
 Example:
 
 :::{.ar}
 مَاتَ ٱلرَّشِيدُ بِطُوسَ وَكَانَ خَرَجَ إِلَىٰ خُرَاسَانَ لِمُحَارَبَةِ رَافِعِ بْنِ ٱللَّيْثِ
 :::
-[@wright@ 2/5C]{.aside}
+[@wright@ 2/5C]{.citex}
 
-"[al-#racId]{.trn2} died at [#TUs]{.trn2} after (literally: and) he had set out for [#xurAsAn]{.trn2} to combat [#rAfie ibn al-#layv]{.trn2}."
+[[al-#racId]{.trn2} died at [#TUs]{.trn2} after (literally: and) he had set out for [#xurAsAn]{.trn2} to combat [#rAfie ibn al-#layv]{.trn2}.]{.trans}
 
 
 The particle [قَدْ]{.ar} is often used when
-[كَانَ]{.ar} is combined with a past verb.
+[كَانَ]{.ar} is combined with a ;madi; verb.
 [قَدْ]{.ar}
 may be placed either between
 [كَانَ]{.ar}
-and the following past verb, or before
+and the following ;madi; verb, or before
 [كَانَ]{.ar}.
 Examples:
 
 [كُنْتُ قَدْ رَبَّيْتُ جَارِيَةً]{.ar}
-[@wright@ 2/5C]{.aside}  
-<!--[[نوادر الكرام في الجاهلية والإسلام لإبراهيم زيدان]{.ar} p.\ 13]{.aside}  -->
-"I had brought up a girl"
+[@wright@ 2/5C]{.citex}  
+<!--[[نوادر الكرام في الجاهلية والإسلام لإبراهيم زيدان]{.ar} p.\ 13]{.citex}  -->
+[I had brought up a girl]{.trans}
 
-[قَدْ كَانَتْ فَرَغَتْ مِنْ عَمَلِهَا.]{.ar}  
-"She had been done with her work."
+[قَدْ كَانَتْ فَرَغَتْ مِنْ عَمَلِهَا]{.ar}  
+[She had been done with her work.]{.trans}
 
-When their are multiple past verbs, and one (or more) of them occurred
+When their are multiple ;madi; verbs, and one (or more) of them occurred
 farther in the past than the others, it is indicated with 
 [قَدْ]{.ar},
 the others having merely
@@ -836,7 +1406,7 @@ We re-use a previous example here and extend it:
 مَاتَ ٱلرَّشِيدُ بِطُوسَ وَكَانَ خَرَجَ إِلَىٰ خُرَاسَانَ لِمُحَارَبَةِ رَافِعِ بْنِ ٱللَّيْثِ.
 وَكَانَ رَافِعٌ هَـٰذَا قَدْ خَرَجَ وَخَلَعَ ٱلطَّاعَةَ وَتَغَلَّبَ عَلَىٰ سَمَرْقَنْدَ.
 :::
-[@wright@ 2/6A]{.aside}
+[@wright@ 2/6A]{.citex}
 
 "[al-#racId]{.trn2} died at [#TUs]{.trn2} after he had set out for [#xurAsAn]{.trn2} to combat [#rAfie ibn al-#layv]{.trn2}.
 And this [#rAfie]{.trn2} had already rebelled and cast off his allegiance and taken forcible posession of Samarqand."  
@@ -846,63 +1416,63 @@ is only used before
 [#rAfie]{.trn2}'s action of rebelling.)
 
 
-#### Negation
+### Negation
 
 This combination may, again, be negated in multiple ways. Examples:
 
 [لاَ يَأْتِي ابْنَ آدَمَ النَّذْرُ بِشَىْءٍ لَمْ يَكُنْ قَدْ قَدَّرْتُهُ]{.ar}
-[@https://sunnah.com/bukhari:6609@]{.aside}  
-"Vowing does not bring to the son of Adam anything I have not already written in his fate,"
+[@https://sunnah.com/bukhari:6609@]{.citex}  
+[Vowing does not bring to the son of Adam anything I have not already written in his fate,]{.trans}
 
 [وَدِدْتُ أَنِّي لَمْ أَكُنْ خَرَجْتُ الْعَامَ]{.ar}
-[@https://sunnah.com/abudawud:1778@]{.aside}  
-"I wish I had not come out (for [#Hajj]{.trn2}) this year"
+[@https://sunnah.com/abudawud:1778@]{.citex}  
+[I wish I had not come out (for [#Hajj]{.trn2}) this year]{.trans}
 
 [وَمَا كَانَ قَدْ أَتَاهَا بِشَيْءٍ]{.ar}
-[A report narrated in [[إحياء علوم الدين لأبي حامد الغزالي]{.ar} 3/139](https://shamela.ws/book/9472/885) without a chain]{.aside}  
-"And he had not brought her anything"
+[A report narrated in [[إحياء علوم الدين لأبي حامد الغزالي]{.ar} 3/139](https://shamela.ws/book/9472/885) without a chain]{.citex}  
+[And he had not brought her anything]{.trans}
 
-### [يَكُونُ]{.ar} combined with a past verb
+## The ;mudarie; verb [يَكُونُ]{.ar} combined with a ;madi; verb
 
 The ;mudarie; verb
 [يَكُونُ]{.ar}
-is compined with a past verb (often with an interposed [قَدْ]{.ar})
+is compined with a ;madi; verb (often with an interposed [قَدْ]{.ar})
 to express that the action is conceived of having been completed in the future.
 Examples:
 
 [يَكُونُ قَدْ وَجَبَ عَلَيْكَ صَدَقَةٌ]{.ar}
-[@https://sunnah.com/mishkat:1793@]{.aside}  
-"Charity will have been incumbent upon you"
+[@https://sunnah.com/mishkat:1793@]{.citex}  
+[Charity will have been incumbent upon you]{.trans}
 
 [فَلْنَأْخُذْهُ فَنَكُونُ قَدْ أَخَْذْنَا عِوَضًا]{.ar}
-[@fischer@ 108]{.aside}  
-"Let us take him for (then) we will have taken a substitute"
+[@fischer@ 108]{.citex}  
+[Let us take him for (then) we will have taken a substitute]{.trans}
 
-#### ;astate; [يَكُونَ]{.ar} combined with a past verb
+#### The ;astate; verb [يَكُونَ]{.ar} combined with a ;madi; verb
 
-An ;astate; [يَكُونَ]{.ar} is combined with a past verb
+An ;astate; [يَكُونَ]{.ar} is combined with a ;madi; verb
 to express being in a state of an action having occurred
 or that might have occurred. For example:
 
 [خَافَ أَنْ يَكُونَ قَدْ أَخْطَأَ]{.ar}
-[@fischer@ 110]{.aside}  
-"He feared that he could have erred."
+[@fischer@ 110]{.citex}  
+[He feared that he could have erred.]{.trans}
 
 [وَيَجُوزُ أَنْ يَكُونُوا سُبِقُوا]{.ar}
-[[[المهذب فيما وقع في القرآن من المعرب للسيوطي]{.ar} p.\ 59](https://shamela.ws/book/26097/3)]{.aside}  
-"And that they might have been preceded is possible"
+[[[المهذب فيما وقع في القرآن من المعرب للسيوطي]{.ar} p.\ 59](https://shamela.ws/book/26097/3)]{.citex}  
+[And that they might have been preceded is possible]{.trans}
 
 [يَشْتَرِطُ فِي ٱلنَّائِبِ أَنْ يَكُونَ قَدْ حَجَّ عَنْ نَفْسِهِ]{.ar}  
-"It is conditional for the ;naib; that he be in as state of already having performed the [#Hajj]{.trn2} for himself."
+[It is conditional for the ;naib; that he be in as state of already having performed the [#Hajj]{.trn2} for himself.]{.trans}
 
-### Verb of command [كُنْ]{.ar} combined with a ;mudarie; verb
+## The verb of command [كُنْ]{.ar} combined with a ;mudarie; verb
 
 Ocassionally,
 the verb of command [كُنْ]{.ar} is combined with a ;mudarie; verb, thus:
 
 [كُنْ أَنْتَ تُكَلِّمُهُمْ]{.ar}
-[@fischer@ 121]{.aside}  
-"You be speaking to them!"
+[@fischer@ 121]{.citex}  
+[You be speaking to them!]{.trans}
 
 ## [كَانَ]{.ar} with the [ل]{.ar} of denial
 
@@ -927,21 +1497,21 @@ ii. to deny going to do something
 Here are some examples:
 
 [لَمْ تَكُنْ زَيْنَبُ لِتَضْرِبَ وَلَدَهَا]{.ar}  
-"Zaynab was not one to beat her child."  
+[Zaynab was not one to beat her child.]{.trans}  
 or  
-"Zaynab was not going to beat her child."  
+[Zaynab was not going to beat her child.]{.trans}  
 
 [وَمَا كَانَ ٱللَّهُ لِيُعَذِّبَهُمْ وَأَنتَ فِيهِمْ ۚ]{.ar}
-[@https://quran.com/8/33@]{.aside}  
-"But Allāh would not punish them while you, [O Muḥammad], are among them"  
+[@https://quran.com/8/33@]{.citex}  
+[But Allāh would not punish them while you, [O Muḥammad], are among them]{.trans}  
 
 [فَقَالَ أَتَخْشَيْنَ أَنْ أَقْتُلَهُ مَا كُنْتُ لأَفْعَلَ ذَلِكَ]{.ar}
-[@https://sunnah.com/abudawud:3112@]{.aside}  
-"He said: Do you fear that I shall kill him ? I am not going to do that."  
+[@https://sunnah.com/abudawud:3112@]{.citex}  
+[He said: Do you fear that I shall kill him ? I am not going to do that.]{.trans}  
 
 [قَالَ لَمْ أَكُنْ لأَفْعَلَ]{.ar}
-[@https://sunnah.com/ibnmajah:1503@]{.aside}  
-"He said: I was not going to do that."
+[@https://sunnah.com/ibnmajah:1503@]{.citex}  
+[He said: I was not going to do that.]{.trans}
 
 ## [كَانَ]{.ar} with the [ل]{.ar} of deserving
 
@@ -961,14 +1531,35 @@ This signifies that the action of the verb does not behoove, or is not appropria
 For example:
 
 [فَأَنۢبَتْنَا بِهِۦ حَدَآئِقَ ذَاتَ بَهْجَةٍۢ مَّا كَانَ لَكُمْ أَن تُنۢبِتُوا۟ شَجَرَهَآ ۗ]{.ar}
-[@https://quran.com/27/60@]{.aside}  
-"causing to grow thereby gardens of joyful beauty which you could not [otherwise] have grown the trees thereof"  
+[@https://quran.com/27/60@]{.citex}  
+[causing to grow thereby gardens of joyful beauty which you could not [otherwise] have grown the trees thereof]{.trans}  
 
 [مَا كَانَ لِبَشَرٍ أَن يُؤْتِيَهُ ٱللَّهُ ٱلْكِتَـٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُوا۟ عِبَادًۭا لِّى مِن دُونِ ٱللَّهِ]{.ar}
-[@https://quran.com/3/79@]{.aside}  
-"It is not for a human [prophet] that Allāh should give him the Scripture and authority and prophethood and then he would say to the people, 'Be servants to me rather than Allāh,'"
+[@https://quran.com/3/79@]{.citex}  
+[It is not for a human [prophet] that Allāh should give him the Scripture and authority and prophethood and then he would say to the people, 'Be servants to me rather than Allāh,']{.trans}
 
 [قَالَ أَبُو بَكْرٍ مَا كَانَ لاِبْنِ أَبِي قُحَافَةَ أَنْ يُصَلِّيَ بَيْنَ يَدَىْ رَسُولِ اللَّهِ صلى الله عليه وسلم]{.ar}
-[@https://sunnah.com/abudawud:940@]{.aside}  
-"[#abU]{.trn2} Bakr said ; it was not befitting for the son of [#abU #quHAfah]{.trn2} to lead the prayer in the presence of the Messenger of [#allAh]{.trn2} [ﷺ]{.aralt}"
+[@https://sunnah.com/abudawud:940@]{.citex}  
+[[#abU]{.trn2} Bakr said ; it was not befitting for the son of [#abU #quHAfah]{.trn2} to lead the prayer in the presence of the Messenger of [#allAh]{.trn2} [ﷺ]{.aralt}]{.trans}
+
+
+
+
+## FINI
+
+## TODO: 
+
+[كان زيد آكلا طعامك]{.ar}
+
+See [@ibn_aqil_alfiyyah@ 1/280--284](https://shamela.ws/book/9904/279)
+
+[كانت الحمى تأخذ زيدا]{.ar}
+[@samarrai_jumlah@ 66]{.citex}
+
+[أن المصدرية]{.ar} as ;ism_of; or ;xabar; of kaana. Both permitted but ;ism_of; more worthy.
+[basit 714--715A]{.citex}
+
+[[شرح جمل الزجاجي لأبن عصفور]{.ar}  p 411](https://archive.org/details/sadokhafouda_yahoo/page/n411/mode/2up)
+
+;xabar; of kaana is a pronoun
 

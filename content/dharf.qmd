@@ -186,7 +186,7 @@ Such nouns include:
 + [يَمِين]{.ar} "right"
 + [شِمَال]{.ar}, [يَسَار]{.ar} "left"
 
-Permitted also are general spatial nouns like:
+Permitted also are general spatial nouns including, but not limited to:
 
 + [وَسْط]{.ar} "in the middle (of)"
 + [حَوْل]{.ar} "around"
@@ -211,8 +211,13 @@ Here is an example of the use of these nouns as adverbs of place:
 
 
 <!--But they are more likely to be used as [mudaf]{.subs}s.-->
-Most of
-these nouns can be, and often are, [mudaf]{.subs}s.
+Generally,
+these nouns 
+indicate place 
+by being annexed to a [mudafil]{.subs} reference point.
+For example
+[أَمَامَ ٱلْبَيْتِ]{.ar}
+"in front of the house".
 When they are annexed to a definite noun then they too will be definite.
 But this in no way restricts their vagueness and thus ability to be used as adverbs of place.^[[شرح الرضي على الكافية]{.ar} 1/488]
 For example,
@@ -264,8 +269,7 @@ For example,
     [[شرح الرضي على الكافية]{.ar} 1/489]{.citex}  
     "Zayd is outside the house."
 
-But they may be used, less commonly, as adverbs of place as well.
-For example,
+But there are (rare) examples of them being used as adverbs of place as well:
 
 
 
@@ -299,17 +303,36 @@ For example,
 
 Some place nouns are vague in that they mean "place", like
 [مَكَان]{.ar},
+<!--
 [مَوْضِع]{.ar},
+-->
 and
 [مَقَام]{.ar}.
-These nouns are permitted to be used as adverbs of place when indefinite.
+These nouns are permitted to be used as adverbs of place when unspecified and indefinite.
 For example:
 
 (@) [فَتُصَلِّيَ فِي بَيْتِي مَكَانًا]{.ar}
     [[[سنن ابن ماجه]{.ar} :754](https://sunnah.com/ibnmajah:754)]{.citex}  
     "that you may pray in my house (at) a place"
 
-When definite then they may only be used as nouns of place when
+(@) [وَلَكِنْ وَاللهِ لَا تَجْتَمِعُ ابْنَةُ رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، وَابْنَةُ عَدُوِّ اللهِ مَكَانًا وَاحِدًا أَبَدًا]{.ar}  
+    <https://shamela.ws/book/25794/15437>
+
+The word
+[مَكَان]{.ar}
+may be be annexed to a vague expression like [كَذَا وَكَذَا]{.ar} and remain vague.
+For example:
+
+(@) [ثُمَّ مَوْعِدُكِ مَكَانَ كَذَا وَكَذَا]{.ar}  
+    <https://shamela.ws/book/25794/21044#p1>
+
+(@) [وَلَكِنِّي رَأَيْتُهُ انْطَلَقَ مَكَانَ كَذَا وَكَذَا]{.ar}  
+     <https://shamela.ws/book/25794/19824>
+
+However, when these nouns are specified,
+typically by definiteness,
+then it is better that they
+only be used as nouns of place when
 construed with a verb conveying the idea of stopping or remaining.
 For example,
 
@@ -320,6 +343,10 @@ For example,
 (@) [امْكُثْ مَكَانَكَ]{.ar}
     [[[سنن أبي داود]{.ar} :940](https://sunnah.com/abudawud:940)]{.citex}  
     "Stay (at) your place."
+
+(@) [اجْلِسُوا مَكَانَكُمْ]{.ar}
+    [[[صحيح البخاري]{.ar} :4039](https://sunnah.com/bukhari:4039)]{.citex}  
+    "Sit (at) your places."
 
 The noun
 [مَكَان]{.ar}
@@ -336,18 +363,6 @@ So too may the noun [بَدَل]{.ar} "replacement" be used in this way.
 (@) [خُذْ هَـٰذَا بَدَلَ ذَ\ ٰلِكَ]{.ar}
     [[النحو الوافي]{.ar} 2/261]{.citex}  
     "Take this in replacement of that."
-
-Excluded from this restriction of vagueness are nouns used with the verbs [دَخَلَ]{.ar} "to enter", [سَكَنَ]{.ar} "to dwell", and [نَزَلَ]{.ar} "to alight".^[[النحو الوافي]{.ar} 2/253]
-So we can say
-[دَخَلْتُ ٱلدَّارَ]{.ar}
-"I entered the house,"
-[سَكَنْتُ ٱلْبَيْتَ]{.ar}
-"I dwelled (in) the house,"
-and
-[نَزَلْتُ ٱلْبَلَدَ]{.ar}
-"I alighted (in) the country."
-The [astate]{.subs} nouns with these verbs may be considered either [mafulb]{.subs}s or adverbs of place.
-Excluded also, is the country name [ٱلشَّأْم]{.ar} "Syria" with the verb [ذَهَبَ]{.ar} "to go." So we can say [ذَهَبْتُ ٱلشَّأْمَ]{.ar} for "I went (to) Syria."
 
 ### Units of distance and space
 
@@ -371,6 +386,18 @@ For example:
 (@) [جَرَىٰ غَلْوَةً]{.ar}
     [Wright 2/111B]{.citex}  
     "He ran the distance of a bowshot."
+
+<!--
+A noun like [مَكَان]{.ar},
+even when annexed to a definite noun,
+can be used to indicate distance.
+For example:
+
+(@) [إِنَّ الشَّيْطَانَ إِذَا سَمِعَ النِّدَاءَ بِالصَّلاَةِ ذَهَبَ حَتَّى يَكُونَ مَكَانَ الرَّوْحَاءِ]{.ar}
+    [[[صحيح مسلم]{.ar} :388a](https://sunnah.com/muslim:388a)]{.citex}  
+    "When Satan hears the call to prayer, he goes (away) until he is (at) [the distance] of [al-#rawHAE]{.trn2}."  
+    ([al-#rawHAE]{.trn2} is a place some 36 miles from [al-#madInah]{.trn2}.)
+-->
 
 ### Nouns of place
 
@@ -400,6 +427,98 @@ For example,
 (@) [قاتلت موضع القتال]{.ar}
     [[شرح الرضي على الكافية]{.ar} 1/490]{.citex}  
     "I fought (in) the place of fighting."
+
+Some grammarians allow using the noun of place of one verb as an adverb of place with another verb, when both verbs are close in meaning, or when one verb is used with the meaning of another verb.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/9/5) for [سورة التوبة]{.ar} 9:5 ([واقْعُدُوا لَهم كُلَّ مَرْصَدٍ]{.ar})]
+So according to these grammarians, we can say:
+
+(@) [جَلَسْتُ مَجْلِسَ زِيدٍ]{.ar}
+    [[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/9/5) for [سورة التوبة]{.ar} 9:5]{.citex}  
+    [قَعَدْتُ مَجْلِسَ زِيدٍ]{.ar}
+    [[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/9/5) for [سورة التوبة]{.ar} 9:5]{.citex}  
+    "I sat (in) Zayd's seat."
+
+According to other grammarians, it is the meaning of remaining stopped (in either the verb or the noun of place) that allows freedom in mixing and matching verbs and nouns of place.^[[شرح الرضي على الكافية]{.ar} 1/490]
+So according to these grammarians, we can say:
+
+(@) [جلست موضع القيام]{.ar}
+    [[شرح الرضي على الكافية]{.ar} 1/490]{.citex}  
+    "I sat in the place of standing."
+
+(@) [تحركت مكان السكون]{.ar}
+    [[شرح الرضي على الكافية]{.ar} 1/490]{.citex}  
+    "I moved in the place of resting."
+
+(@) [قعدت موضعك]{.ar}
+    [[شرح الرضي على الكافية]{.ar} 1/490]{.citex}  
+    "I sat in your place."
+
+(@) [جلست منزل فلان]{.ar}
+    [[شرح الرضي على الكافية]{.ar} 1/490]{.citex}  
+    "I sat in the so-and-so's place of alighting."
+
+(@) [نمت مبيته]{.ar}
+    [[شرح الرضي على الكافية]{.ar} 1/490]{.citex}  
+    "I slept in his place of spending the night."
+
+### Gray area in vagueness
+
+There is actually considerable difference of opinion among the grammarians with regard to which nouns are permissible as adverbs of place.
+We got a taste of this in the previous section with respect of nouns of place as adverbs.
+Most of this disagreement centers around whether a noun is sufficiently vague.
+Consider the following example:
+
+(@) [ٱقْتُلُوا یُوسُفَ أَوِ ٱطْرَحُوهُ أَرْضًا]{.ar}
+    [[[سورة يوسف]{.ar} 12:9](https://quran.com/12/9)]{.citex}  
+    "Kill Joseph or cast him out to [another] land;"
+
+The noun [أَرْضًا]{.ar} is in the [astate]{.subs}.
+Our first thought would be that it is an adverb of place.
+However, in the [tafsIr]{.trn} of this [Ayah]{.trn2},
+scholars have differed with regard to how to analyze
+[أَرْضًا]{.ar}.
+
+Some do analyze it as an adverb of place.^[[[الكشاف للزمخشري]{.ar}](https://tafsir.app/kashaf/12/9) for [سورة يوسف]{.ar} 12:9].
+Others deem
+the noun
+[أَرْضًا]{.ar}
+not vague enough to be an adverb of place.
+^[#[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/12/9) for [سورة يوسف]{.ar} 12:9 and [[تفسير ابن عاشور]{.ar}](https://tafsir.app/ibn-aashoor/12/9) for [سورة يوسف]{.ar} 12:9]
+Other analyses are then proposed like it's being in the [astate]{.subs} is due to the dropping of a preposition (see (ref)) or
+because the verb [ٱطْرَح]{.ar} "to cast" is used with the meaning of another (transitive) verb (section\ (ref)) like [أَوْدِع]{.ar} "to deposit".
+
+### Irregular adverbs of place
+
+There are some examples of adverbs of place that don't align with the examples that we have given.
+They are considered irregular adverbs of place.
+We will list these irregular adverbs of place below:
+
+The verbs [دَخَلَ]{.ar} "to enter", [سَكَنَ]{.ar} "to dwell", and [نَزَلَ]{.ar} "to alight"
+may govern place nouns in the [astate]{.subs} without an intermediate preposition.^[[النحو الوافي]{.ar} 2/253]
+So we can say:
+
+(@) [دَخَلْتُ ٱلدَّارَ]{.ar}  
+    "I entered the house,"
+
+(@) [سَكَنْتُ ٱلْبَيْتَ]{.ar}  
+    "I dwelled (in) the house,"
+
+(@) [نَزَلْتُ ٱلْبَلَدَ]{.ar}  
+    "I alighted (in) the country."
+
+Also permitted is the country name [ٱلشَّأْم]{.ar} "Syria" with the verb [ذَهَبَ]{.ar} "to go."
+So we can say:
+
+(@) [ذَهَبْتُ ٱلشَّأْمَ]{.ar}  
+    "I went (to) Syria."
+
+Some grammarians consider the nouns governed by these verbs as [mafulb]{.subs}s,
+whereas others consider them adverbs of place.^[[التذييل والتكميل لأبي حيان]{.ar} 7/251]
+
+The expressions below are also irregular in that they contain specific, i.e. non-vague, adverbs of place:
+
+(@) [مُطِرْنَا ٱلسَّهْلَ وَٱلْجَبَلَ]{.ar}
+
+(@) [قُلِبَ زَيْدٌ ٱلظَّهْرَ وَٱلْبَطْنَ]{.ar}
 
 ## The [naib]{.subs} adverb of time and place
 
@@ -598,8 +717,7 @@ Example (@dharf-with-min) specifies the _beginning of the time period_ that is i
 Technically, this is not necessarily when the action of the verb began.
 But
 this usage of [مِنْ]{.ar} could be used to signify that the action started very close to the beginning of the time period.
-That is, it could indicate that I started to read the [quran]{.subs} right after the [eaSr]{.trn2} prayer.^[[معاني النحو]{.ar}  2/193--201, and [من الفرق بين بعد ومن بعد في اللفظ القرآني لعلي هاني]{.ar}]
-
+That is, it could indicate that I started to read the [quran]{.subs} right after the [eaSr]{.trn2} prayer.^[[معاني النحو]{.ar}  2/193--201, [من الفرق بين بعد ومن بعد في اللفظ القرآني لعلي هاني]{.ar}, and [التذييل والتكميل لأبي حيان]{.ar} 11/142]
 Often, when the meaning of [مِنْ]{.ar} is subtle, it is not translated as "from".
 For example:
 
@@ -723,7 +841,18 @@ Here are some more examples:
 The words [أَوَّل]{.ar} and [أَسْفَل]{.ar} also have some rules that are specific to them and we will treat them separately in section\ (ref).
 
 
-## The use of an adverb without an obvious verb
+## The governor of the adverb of time and place
+
+(TODO)
+
+Like the preposition (see (ref)),
+the adverb of time and place is governed by a verb, or what has the effect of a verb.
+
+### The adverb of time and place as a [xabar]{.subs}
+
+[[مشكاة المصابيح]{.ar} :674](https://sunnah.com/mishkat:674)
+
+### The use of an adverb without an obvious verb
 
 The adverb of time and place is associated with the verb in a sentence.
 It indicates the time or place in which the action of the verb occurs.
@@ -1051,7 +1180,7 @@ is probably not as uncommon as it is for
 
 Just like [أَسْفَل]{.ar},
 [أَوَّل]{.ar} need not be used adverbially. 
-Here it is as the comment of a sentence and an [mudaf]{.subs}:
+Here it is as the [xabar]{.subs} of a sentence and an [mudaf]{.subs}:
 
 (@) [وَأَنَا أَوَّلُ ٱلْمُسْلِمِینَ]{.ar}
     [[[سورة الأنعام]{.ar} 6:163](https://quran.com/6/163)]{.citex}  
@@ -1072,5 +1201,18 @@ For example, here it is the [mubtada]{.subs} of [إنَّ]{.ar} in the [astate]{
 
 ### [ذَات]{.ar}
 
+## TODO
 
+
+(@) [ثُمَّ مَوْعِدُكِ مَكَانَ كَذَا وَكَذَا]{.ar}  
+    <https://shamela.ws/book/25794/21044#p1>
+
+(@) [وَلَكِنِّي رَأَيْتُهُ انْطَلَقَ مَكَانَ كَذَا وَكَذَا]{.ar}  
+     <https://shamela.ws/book/25794/19824>
+
+(@) [وَلَكِنْ وَاللهِ لَا تَجْتَمِعُ ابْنَةُ رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، وَابْنَةُ عَدُوِّ اللهِ مَكَانًا وَاحِدًا أَبَدًا]{.ar}  
+    <https://shamela.ws/book/25794/15437>
+
+(@) [إِنَّ الشَّيْطَانَ إِذَا سَمِعَ النِّدَاءَ بِالصَّلاَةِ ذَهَبَ حَتَّى يَكُونَ مَكَانَ الرَّوْحَاءِ]{.ar}
+    [[[صحيح مسلم]{.ar} :388a](https://sunnah.com/muslim:388a)]{.citex}  
 

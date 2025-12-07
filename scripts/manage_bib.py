@@ -21,11 +21,13 @@ def get_cite_text(match):
     has_link = True
     import cit_link
     new_key, cit_appended_text, link_added = cit_link.process(key, link)
-    if new_key is None:
-      # quran.com, don't add to references
-      assert(link_added)
-      return cit_appended_text
-      #return "[" + cit_text + "](" + link + ")"
+    #if new_key is None:
+    #  # quran.com, don't add to references
+    #  if not link_added:
+    #    print(link)
+    #  assert(link_added)
+    #  return cit_appended_text
+    #  #return "[" + cit_text + "](" + link + ")"
 
     key = new_key
 
@@ -62,21 +64,46 @@ Western works are alphabetized according to author last name and occur after the
   # sort alphabetically
   cited_resource_list = sorted(cited_resource_list)
 
-  bib_str += '#### Arabic works {.unnumbered}\n\n'
-  western_started = False
+  #bib_str += '#### Arabic works {.unnumbered}\n\n'
+  corpus_str = '\n\n#### Corpora {.unnumbered}\n\n'
+  ar_ref_str = '\n\n#### Arabic works {.unnumbered}\n\n'
+  ws_ref_str = '\n\n#### Western works {.unnumbered}\n\n'
+  #western_started = False
+  corpus_idx = 0
+  ar_ref_idx = 0
+  ws_ref_idx = 0
+
   for idx, val in enumerate(cited_resource_list):
 
-    if not western_started and val.sort_key[0] >= 'a' and val.sort_key[0] <= 'z':
-      western_started = True
-      bib_str += '\n#### Western works {.unnumbered}\n\n'
+    def get_ref_str(idx, val):
+      return '{: 4d}'.format(idx+1) + '. ' + val.bib_text + '\n'
 
-    if not western_started:
-      bib_str += '::: {.ar}\n'
+    if val.cit_type == "corpus":
+      corpus_str += '::: {.ar}\n'
+      corpus_str += get_ref_str(corpus_idx, val)
+      corpus_str += ':::\n\n'
+      corpus_idx += 1
+    elif val.cit_type == "ws_ref":
+      ws_ref_str += get_ref_str(ws_ref_idx, val)
+      ws_ref_idx += 1
+    else:
+      assert(val.cit_type == "ar_ref")
+      ar_ref_str += '::: {.ar}\n'
+      ar_ref_str += get_ref_str(ar_ref_idx, val)
+      ar_ref_str += ':::\n\n'
+      ar_ref_idx += 1
 
-    bib_str += '{: 4d}'.format(idx+1) + '. ' + val.bib_text + '\n'
+    #if not western_started and val.sort_key[0] >= 'a' and val.sort_key[0] <= 'z':
+    #  western_started = True
+    #  bib_str += '\n#### Western works {.unnumbered}\n\n'
 
-    if not western_started:
-      bib_str += ':::\n\n'
+    #if not western_started:
+    #  bib_str += '::: {.ar}\n'
+
+    #bib_str += '{: 4d}'.format(idx+1) + '. ' + val.bib_text + '\n'
+
+    #if not western_started:
+    #  bib_str += ':::\n\n'
 
   # print unused ones
   print("The following references are not cited, fyi:")
@@ -85,5 +112,8 @@ Western works are alphabetized according to author last name and occur after the
     if val not in cited_resource_list:
       print(val.cit_text)
 
+  bib_str += corpus_str
+  bib_str += ar_ref_str
+  bib_str += ws_ref_str
   return bib_str
 

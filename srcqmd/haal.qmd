@@ -162,9 +162,9 @@ Examples:
     "Zayd is in the house standing."
     (the existential verb "is" is implied)
 
-(@) [هَـٰذَا عَمْرٌو مُنْطَلِقٌ]{.ar}
-    [@wright@ 2/114B]{.citex}  
-    "This is [#eamr]{.trn2} setting out."
+(@) [هَـٰذَا عَمْرٌو مُنْطَلِقًا]{.ar}
+    [@wright@ 2/114A]{.citex}  
+    "This is [#eamr]{.trn2} (in the act of) setting out."
 
 (@) [وَهَـٰذَا بَعْلِي شَيْخًا]{.ar}
     [@https://quran.com/11/72@ cited by @wright@ 2/114B]{.citex}  
@@ -313,7 +313,7 @@ iii. When the ;mudaf; is not really but is virtually a part of the ;mudafil;.
          "Then We revealed to you, [O Muḥammad], to follow the religion of Abraham, inclining toward truth"  
          ([حَنِيفًا]{.ar} is a ;hal; of the ;sahib_hal; [إِبْرَاهِيم]{.ar}. [مِلَّة]{.ar} is virtually a part of [إِبْرَاهِيم]{.ar} such that the meaning is correct without it: [ٱتَّبِعْ إِبْرَاهِيمَ حَنِيفًا]{.ar}.)
 
-When non of these conditions are satisfied then the ;mudafil; cannot be a ;sahib_hal;.
+When none of these conditions are satisfied then the ;mudafil; cannot be a ;sahib_hal;.
 So we cannot say:
 
 (@) ;x; [مَرَرْتُ بِغُلَامِ هِنْدٍ جَالِسَةً]{.ar}
@@ -370,6 +370,42 @@ one ;hal; for multiple ;sahibs_hal;.
 
 ### Multiple ;hal;s for one ;sahib_hal;
 -->
+
+## The ;hal; after verbs like [رَأَىٰ]{.ar} and [وَجَدَ]{.ar}
+
+The verbs
+[رَأَىٰ]{.ar} and [وَجَدَ]{.ar}
+are what are known as
+;af3aal_quloob;
+(see chapter\ (ref)).
+That is, they signify an act that takes place in the mind.
+So they may take two ;mafulb;s.
+For example:
+
+(@) [إِنَّهُمْ يَرَوْنَهُ بَعِيدًا]{.ar}
+    [@https://quran.com/70/6@]{.citex}  
+    "Indeed, they see it [as] distant,"  
+    ([بَعِيدًا]{.ar} has been analyzed as a second ;mafulb;^[@https://tafsir.app/iraab-aldarweesh/70/6@])
+
+(@) [لَوَجَدُوا ٱللَّهَ تَوَّابًا رَحِيمًا]{.ar}
+    [@https://quran.com/4/64@]{.citex}  
+    "they would have found Allāh Accepting of Repentance and Merciful."  
+    ([تَوَّابًا]{.ar} has been analyzed as a second ;mafulb;^[@https://tafsir.app/iraab-aldarweesh/4/64@])
+
+However, if these verbs are mere verbs of sense,
+i.e. they express nothing but acts of the external organs of sense,
+then they may still have two ;ma3mul;s in the ;astate;
+but the second ;ma3mul; will no longer be a ;mafulb;
+but a ;hal;.^[@wright@ 2/50B]
+For example:
+
+(@) [رَأَيْتُكَ نَائِمًا]{.ar}
+    [@wright@ 2/50C]{.citex}  
+    "I saw you sleeping."
+
+(@) [وَجَدْتُهُ مَرِيضًا]{.ar}
+    [@wright@ 2/50C]{.citex}  
+    "I found him sick."
 
 ## Multiple ;hal;s or ;sahibs_hal;
 
@@ -526,7 +562,7 @@ Usually, when the ;sahib_hal; is indefinite, it occurs in the following circumst
 
 The order of the ;hal; and the ;sahib_hal; is treated in more detail in section\ (ref).
 
-##### The indefinite ;sahib_hal; is qualified by a describer or a ;mudafil; {.unnumbered}
+##### The indefinite ;sahib_hal; is qualified by a ;na3t; or a ;mudafil; {.unnumbered}
 
 (@) [عِنْدِي غُلَامُ رَجُلٍ قَائِمًا]{.ar}
     [@wright@ 2/117D]{.citex}  
@@ -588,8 +624,13 @@ So we can say:
     "In haste is this this (man) departing."  
     ([ذَا]{.ar} is a pointing noun like [هَـٰذَا]{.ar}. See section\ (ref).)
 
+(@) [مُخْلِصًا زَيْدٌ دَعَا]{.ar}
+    [add ref to alfiyyah ibn malik]  
+    "Sincerely did Zayd supplicate."  
+    (The ;hal; [مُخْلِصًا]{.ar} precedes not just its ;3aamil; in the ;xabar; [دَعَا]{.ar}, but also the ;mubtada; [زَيْدٌ]{.ar}.)
+
 If the ;3aamil; is a verb or ;sifah; that is rigid (does not flex based on the doer),
-then the ;hal; may not precede the ;3aamil;.
+then the ;hal; rarely^[ibn uthaymeen], if ever^[wright], precedes the ;3aamil;.
 Examples of such ;3aamil;s are the verb of wonder and the ;af3al;.
 For example:
 
@@ -604,7 +645,7 @@ For example:
     "Zayd is more handsome than [#eamr]{.trn2} (when) laughing."
 
 An exception is permitted when a noun, in one ;hal;, is compared with itself or another noun in another ;hal;.
-In this case, the ;af3al; is allowd to be a ;hal;'s ;3aamil;.
+In this case, the ;hal; regularly precedes its ;af3al; ;3aamil;.
 For example:
 
 (@) [زَيْدٌ قَائِمًا أَحْسَنُ مِنْهُ قَاعِدًا]{.ar}
@@ -616,7 +657,7 @@ For example:
     "Zayd when alone is more useful than [#eamr]{.trn2} when assisted (by others)."
 
 If the ;3aamil; is not a verb or a ;shibh_fi3l; but an expression that has verbal force,
-then the ;hal; is generally not permitted to precede the ;3aamil;.^[See, however, @https://tafsir.app/albahr-almuheet/39/67@ for the recitation [والسماوات مطوياتٍ بيمينه]{.ar}. Also mentioned by @wright@ 2/118D]
+then the ;hal; usually does not precede the ;3aamil;.^[See, however, @https://tafsir.app/albahr-almuheet/39/67@ for the recitation [والسماوات مطوياتٍ بيمينه]{.ar}. Also mentioned by @wright@ 2/118D]
 
 (@) [كَأَنَّ زَيْدٌ رَاكِبًا أَسَدٌ]{.ar}
     [@wright@ 2/118D]{.citex}  
@@ -1053,7 +1094,7 @@ For example:
 (@) [سَيَأْتِي زَيْدٌ يَضْحَكُ]{.ar}  
     "Zayd will come laughing."
 
-In fact, it is not permitted for the ;hal; sentence that begins with the ;mudarie; verb to itself be prefixed with [سَ]{.ar} or [سَوْفَ]{.ar}.^[@maani_nahw@ 2/354 citing @radiy_kafiyah@]
+In fact, it is not permitted for the ;hal; sentence that begins with the ;mudarie; verb to itself be prefixed with [سَ]{.ar} or [سَوْفَ]{.ar}.^[@maani_nahw@ 2/354 citing @radiy_kafiyah@. But see @https://tafsir.app/ibn-aashoor/37/99@ for a dissenting opinion.]
 So we cannot say (intending [سَيَضْحَكُ]{.ar} to be a ;hal;):
 
 (@) ;x; [سَيَأْتِي زَيْدٌ سَيَضْحَكُ]{.ar} or  
@@ -1166,9 +1207,9 @@ We will discuss these difference in meanings in section\ (ref).
 -->
 
 
-### The ;hal; sentence is a ;mubtada;-;xabar; sentence
+### The ;hal; sentence is a ;j_ism;
 
-When the ;hal; sentence is a ;mubtada;-;xabar; sentence,
+When the ;hal; sentence is a ;j_ism;,
 then there are three possibilities:
 
   i. The ;hal; sentence is devoid of a pronoun referring back to the ;sahib_hal;.
@@ -1182,7 +1223,7 @@ then there are three possibilities:
          "I passed by Zayd while [#eamr]{.trn2} (was) in the house."
 
      In the above example the ;sahib_hal; is [زَيْد]{.ar}
-     and the ;hal; is the ;mubtada;-;xabar; sentence
+     and the ;hal; is the ;j_ism;
      [عَمْرٌو فِي ٱلدَّارِ]{.ar}.
      The sentence ;hal; does not have a pronoun that refers back to the ;sahib_hal;.
      Therefore the [و]{.ar} of ;hal; is necessary to link the sentence ;hal; to the ;sahib_hal;.
@@ -1397,7 +1438,7 @@ There are again a number of possible cases.
      if
      a [و]{.ar}\ of ;hal;
      is to be used with a ;mudarie; verb,
-     then a pronoun referring to the ;faa3il; is inserted before it, converting the ;hal; sentence to a ;mubtada;-;xabar; sentence, thus:
+     then a pronoun referring to the ;faa3il; is inserted before it, converting the ;hal; sentence to a ;j_ism;, thus:
 
      (@) [قُمْتُ وَأَنَا أَصُّكُ عَيْنَهُ]{.ar}  
          "I stood up, slapping his eye."
@@ -1616,6 +1657,7 @@ There may be other purposes as well.^[@maani_nahw@ 2/368--369]
       
 ## A ;shibh_jumlah; as the ;hal;
 
+(Compare this section to section\ (ref).)
 A ;shibh_jumlah;, in this context, is a prepositional or adverbial phrase.
 For example: 
 [عَلَى ٱلْغُصْنِ]{.ar}
@@ -1633,14 +1675,24 @@ For example:
     "I saw the crescent between the clouds."  
     ([بَيْنَ ٱلسَّحَابِ]{.ar} is analyzed as a ;hal;.)
 
+(@haal-shibh-jumlah-sparrow) [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar}
+    [@ghalayini_jaami3@ 3/101]{.citex}  
+    "I looked at the sparrow on the branch."
+
+(@haal-shibh-jumlah-wrote) [كتب عمر إلى أبي عبيدة بالشام]{.ar}
+    [@sarraj_usool@ 2/52]{.citex}  
+    "[#eumar]{.trn2} wrote to [#abI #eubaydah]{.trn2} in Syria."
+
 (@) [فَخَرَجَ عَلَىٰ قَوْمِهِ فِى زِينَتِهِ]{.ar}
     [@https://quran.com/28/79@ cited by @ibn_hisham_awdah_almasaalik@ 2/285]{.citex}  
     "So he came out before his people in his adornment."  
     ([فِى زِينَتِهِ]{.ar} is analyzed as a ;hal;.^[See @https://tafsir.app/ibn-aashoor/28/79@])
 
-(@haal-shibh-jumlah-sparrow) [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar}
-    [@ghalayini_jaami3@ 3/101]{.citex}  
-    "I looked at the sparrow on the branch."
+(@) [وَيُكَلِّمُ ٱلنَّاسَ فِي ٱلْمَهْدِ]{.ar}
+    [@https://quran.com/3/46@]{.citex}  
+    "He will speak to the people in the cradle"  
+    ([فِي ٱلْمَهْدِ]{.ar} has been analyzed as a ;hal;.^[@https://tafsir.app/albahr-almuheet/3/46@])
+
 
 Now, you might be thinking: Didn't we learn
 in chapter\ (ref) that [بَيْنَ]{.ar} is an ;dharf_makan;?
@@ -1662,10 +1714,12 @@ So, in this case, we say that
 is an adverb of place, but it is governed,
 not by the verb
 [رَأَىٰ]{.ar},
-but by an implied verb (or verbal noun) that has the meaning of "is" or "being".
-So it is as if we are saying,
-"I saw the crescent _being_ between the clouds."
-And it is this implied ;3aamil; "being" which is technically the ;hal;.^[@ghalayini_jaami3@ 3/101]
+but by an implied general beingness (see section\ (ref))
+So it is as if we are saying:
+
+"I saw the crescent (while it was) [being]^between\ the\ clouds^."
+
+And it is this implied general beingness which is technically the ;hal;.^[@ghalayini_jaami3@ 3/101]
 While
 [بَيْنَ]{.ar}
 remains (technically) an ;dharf_makan;.
@@ -1686,8 +1740,19 @@ But, loosely speaking, we may say that the ;shibh_jumlah;
 [عَلَى ٱلْغُصْنِ]{.ar}
 is the ;hal;.
 
+Similarly,
+in example (@haal-shibh-jumlah-wrote) [كتب عمر إلى أبي عبيدة بالشام]{.ar},
+the act of writing was dony by [#eumar]{.trn2} in [al-#HijAz]{.trn2}, not in Syria.
+So the prepositional phrase
+[بالشام]{.ar}
+is describing the state of
+[#abU #eubaydah]{.trn2}
+while he was in Syria.
+
 This is yet another instance of where the lines between different types of adverbs get blurred.
 In fact, some grammarians have classified the ;hal; to be of the same class of adverbs as the ;dharf_zaman; and the ;dharf_makan;.^[@muqtadab@ 4/166]
+
+
 
 From the perspective of meaning,
 the ;shibh_jumlah;
@@ -1704,8 +1769,9 @@ describes the state of the ;sahib_hal;
 [ٱلْعُصْفُور]{.ar}
 during the occurrence of the verb [نَظَرَ]{.ar}.
 
-A ;shibh_jumlah; can thus only be a ;hal; if it is governed by an implied (unexpressed) ;3aamil; which has the meaning of "is" or "being".^[@ibn_hisham_awdah_almasaalik@ 2/285, @ibn_aqil_alfiyyah@ 1/213].
+<!--
 So the ;shibh_jumlah; ;hal; must be uninfluenced, or pre-existing, before the action of any overt verb in the preceding statement.
+-->
 
 Here is an example of where the ;shibh_jumlah; does not work as a ;hal;:
 
@@ -1746,7 +1812,39 @@ Let's use this test on some of the examples above.
 
 There may be examples where a ;shibh_jumlah; could be validly interpreted either as a ;hal; 
 (governed by an implied ;3aamil; meaning "being"),
-or as governed by an overt verb.^[See, for example, the [tafsIr]{.trn2} of [تَحْتَ ٱلشَّجَرَةِ]{.ar} in @https://tafsir.app/albahr-almuheet/48/18@]
+or as governed by an overt verb.^[See also, for example, the [tafsIr]{.trn2} of [تَحْتَ ٱلشَّجَرَةِ]{.ar} in @https://tafsir.app/albahr-almuheet/48/18@]
+For example:
+
+(@) [رأيتُ زيدًا في الدار]{.ar}
+    [@sarraj_usool@ 2/52]{.citex}  
+    "I saw Zayd in the house."
+
+Without context, the prepositional phrase
+[في الدار]{.ar}
+could either be governed by [رَأَىٰ]{.ar}, signifying that the act of seeing was done in the house.
+Or it could be governed by the implication of general beingness, as a ;hal; for [زَيْد]{.ar}.^[@sarraj_usool@ 2/52]
+
+A ;shibh_jumlah; can only be a ;hal; if it is governed by an implied (unexpressed) ;3aamil;.
+This implicated ;3aamil; will typically be general beingness, as in the examples above.^[@ibn_hisham_awdah_almasaalik@ 2/285, @ibn_aqil_alfiyyah@ 1/213]
+In fact, some grammarians insist that the implied governor can only be general beingness.^[@https://tafsir.app/albahr-almuheet/3/194@ ([مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ]{.ar})]
+However, it is conceivable that the implied governor of the preposition be interpreted, if not formally then at least in meaning, as some other verb (or verbal noun).^[@nahw_wafi@ 2/447 footnote]
+For example:
+
+(@) [رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ]{.ar}
+    [@https://quran.com/3/194@]{.citex}  
+    "Our Lord, and grant us what You promised us through Your messengers"
+
+In one interpretation of the above [Ayah]{.trn2},
+the 
+prepositional phrase
+[عَلَىٰ رُسُلِكَ]{.ar}
+"through Your messengers"
+has been analyzed as ;hal; of
+[مَا وَعَدتَّنَا]{.ar}
+"what You promised us"
+The meaning with the implicated governor has been explained as
+[مُنَزَّلًا عَلَيْهِمْ]{.ar}
+"_sent down_ on [Your messengers]."^[@https://tafsir.app/ibn-aashoor/3/194@]
 
 ## Interpreting a sentence as a ;hal; vs. a ;na3t;
 
@@ -1782,8 +1880,13 @@ We may use the following guidelines^[@ibn_hisham_mughni@ 560]:
   or an specified indefinite noun
   then it may be interpreted as either a ;hal; or a ;na3t;.
 
-When a sentence is interpreted as a ;hal; then it will be describing the state of the ;sahib_hal;.
-And when a sentence is interpreted as a ;na3t; then it will be specifying or identifying the ;manut;.
+  However, in this case when both the ;na3t; and the ;hal; interpretations are possible,
+  one may still be preferred over the other 
+  depending on what the overall meaning and context demands.^[@nahw_wafi@ 3/477]
+
+  This is because
+  when a sentence is interpreted as a ;hal; then it will be describing the state of the ;sahib_hal;.
+  And when a sentence is interpreted as a ;na3t; then it will be specifying or identifying the ;manut;.
 
 What we mean by a _specific definite_ noun is one that refers to a specific entity.
 Not one that refers to a generic type
@@ -1816,7 +1919,7 @@ and
 [فِي ٱلدَّارِ رَجُلُ خَيْرٍ]{.ar}
 it is a specified indefinite noun.
 
-Here are some examples of sentence ;hal;s occurring after definite and indefinite nouns:
+Here are some examples of sentences analyzed as ;na3t;s or ;hal;s:
 
 (@) [حَتَّىٰ تُنَزِّلَ عَلَيْنَا كِتَابًا نَقْرَؤُهُ]{.ar}
     [@https://quran.com/17/93@ cited by @ibn_hisham_mughni@ 560]{.citex}  
@@ -1899,6 +2002,23 @@ Here is an example:
 (@) [فَخَرَجَ مِنْهَا خَائِفًا يَتَرَقَّبُ]{.ar}
     [@https://quran.com/28/21@]{.citex}  
     "So he left it, fearful and anticipating [apprehension]."
+
+## Suppressing the ;3aamil; of the ;hal;
+
+The 
+;3aamil; of the ;hal;
+may be suppressed
+(i.e. omitted)
+in some cases optionally,
+and in other cases necessarily.
+We will discuss these cases below
+
+### Optional suppressing of the ;3aamil; of the ;hal;
+
+### Necessary suppressing of the ;3aamil; of the ;hal;
+
+The ;3aamil; is also omitted when it is conceptual with the meaning "existing" or "being".
+We have seen this in section\ (ref) above.
 
 ## TODO topics
 

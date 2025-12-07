@@ -104,11 +104,11 @@ Here is an example of a descriptive noun-phrase in a sentence.
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize attribute};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize attributee};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
@@ -148,11 +148,11 @@ Example:
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize attribute};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize attributee};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
@@ -388,11 +388,11 @@ Consider, now, the second [ism_isharah]{.subs} phrase:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize attribute};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize attributee};
 
 \path (0,0) node [midway, below=15ex, right=0ex, align=left] {``the book of this man''\\(literally: ``the book of the this-one man'')};
 
@@ -483,11 +483,11 @@ in detail:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize attribute};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-3.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize attributee};
 
 \path (0,0) node [midway, below=15ex, right=0ex, align=left] {``this book of the man''\\(literally: ``the this-one book of the man'')};
 
@@ -640,11 +640,11 @@ So, we are left with only one option: the [mudaf]{.subs} [كِتَاب]{.ar} is 
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describer};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize attribute};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-3.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize describee};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize attributee};
 
 \path (0,0) node [midway, below=15ex, right=0ex, align=left] {``this book of his''};
 
@@ -674,7 +674,7 @@ Besides their use in [ism_isharah]{.subs} phrases, [ism_isharah]{.subs}s are ver
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize comment};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize info};
 
 \path (0,0) node [midway, below=17ex, right=0ex, align=left] {``This is a man.''\\(literally: ``This-one is a man.'')};
 
@@ -734,7 +734,7 @@ If the [xabar]{.subs} is a noun that begins with [ٱَلْ]{.ar} then it may be 
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize comment};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize info};
 
 \path (0,0) node [midway, below=17ex, right=0ex, align=left] {``This is the man.''\\(literally: ``This-one is the man.'')};
 

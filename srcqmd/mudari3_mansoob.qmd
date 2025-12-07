@@ -234,7 +234,7 @@ As the ;xabar;:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize comment};
+      node [midway, below] {\scriptsize info};
 
 \path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The purpose is that you succeed.''};
 
