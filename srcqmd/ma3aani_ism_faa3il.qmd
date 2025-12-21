@@ -30,7 +30,7 @@ that its referent can be described as the doer of the action of its verb.
 Consider the example:
 
 (@ma3aami_mush_zaydun_muntaliqun) [زيد منطلق]{.ar}
-    [diraasat citing jurjani]{.citex}  
+    [@za3balawi_dirasat@ 486 citing [الجرجاني]{.ar}]{.citex}
     [Zayd is a setter out.]{.trans}
 
 In example () above
@@ -43,7 +43,7 @@ the essential significance of the ;mudarie; verb is the dynamic execution of the
 For example:
 
 (@ma3aami_mush_zaydun_yantaliqu) [زيد ينطلق]{.ar}
-    [diraasat citing jurjani]{.citex}  
+    [@za3balawi_dirasat@ 486 citing [الجرجاني]{.ar}]{.citex}
     [Zayd is setting out.]{.trans}  
     or [Zayd sets out.]{.trans}  
     or [Zayd will set out.]{.trans} 
@@ -847,15 +847,33 @@ is governing a ;mustatir; ;faa3il; pronoun [[هِيَ]{.ar}].
 And in the following example,
 the ;ism_fail; is also governing a ;mafulb;:
 
+<!--
 (@) [مَرَرْتُ بالضَّارِبِ الْعَبْدَ]{.ar}  
     [I passed by the beater of the slave.]{.trans}
+-->
+
+(@) [مَنِ الْقَائِلُ كَلِمَةَ كَذَا وَكَذَا]{.ar}
+    [@https://sunnah.com/muslim:601@]{.citex}  
+    [Who is the sayer of such and such speech?]{.trans}
+
+
+(@) [عَاتَبْتُ الْمُخْلِفَ الْوَعْدَ]{.ar}  
+    [I reproved the promise-breaker.]{.trans}
 
 The construction
+[الْمُخْلِفَ الْوَعْدَ]{.ar}
+<!--
 [الضَّارِبِ الْعَبْدَ]{.ar}
+-->
 can also be converted to a ;lafzi; ;idaafah;, thus:
 
+<!--
 (@) [مَرَرْتُ بالضَّارِبِ الْعَبْدِ]{.ar}  
     [I passed by the beater of the slave.]{.trans}
+-->
+
+(@) [عَاتَبْتُ الْمُخْلِفَ الْوَعْدِ]{.ar}  
+    [I reproved the promise-breaker.]{.trans}
 
 When
 the _;ism_mawsul;_ [ٱل]{.ar}
@@ -876,8 +894,97 @@ When this happens, it loses its purely verbal meaning of the doer of a verb,
 and signifies only an entity, just like a ;substantive; noun.
 
 For example,
+the ;ism_fail;
+[صَاحِب]{.ar}
+is predominantly used as a ;substantive; noun to mean [companion]{.trans}.
+With this meaning, it can no longer act as a verb-like governor.
+So any
+[ٱل]{.ar}
+that is prefixed to it cannot be
+the _;ism_mawsul;_ [ٱل]{.ar}.
+And and when it is the ;mudaf; in an ;idaafah; then it must be a ;ma3nawi; ;idaafah;.
 
-[عَالِم]{.ar} can
+So we can say:
+
+(@) [صَحِبَ حَسَّامٌ يَاسِرًا فَهُوَ **صَاحِبُهُ**]{.ar}
+    [@za3balawi_dirasat@ 487 citing [العدناني]{.ar}]{.citex}  
+    [[#HassAm]{.trn2} accompanied [#yAsir]{.trn2} so he is **his companion**.]{.trans}
+
+We cannot make [صَاحِب]{.ar} govern a ;mafulb;. So we cannot say:
+
+(@) ;x; [حَسَّامٌ صَاحِبٌ يَاسِرًا]{.ar}
+    [@za3balawi_dirasat@ 487 citing [العدناني]{.ar}]{.citex}
+
+With regard to their plurals,
+the default behavior for the ;ism_fail;, especially when used with a verbal meaning, is to have a sound plural.
+But when the ;ism_fail; crosses-over to a ;substantive; then it is more likely to have a broken plural.^[[@za3balawi_dirasat@ 503](https://shamela.ws/book/2120/503) citing [السيوطي]{.ar}]
+
+Here are some examples of ;substantive;s from cross-over ;ism_fail;s:
+
+|;substantive; | meaning | plural | verb |
+|:---|:----|:---|:---------|
+|[عَالِم]{.ar}   | a scholar                |[عُلَمَاء]{.ar}   | [عَلِمَ يَعْلَمُ]{.ar}  to know     |
+|[قَاضٍ]{.ar}    | a judge                  |[قُضَاة]{.ar}    | [قَضَى يَقْضِي]{.ar}  to decree   |
+|[كَاتِب]{.ar}   | a scribe                 |[كَتَبَة]{.ar}    | [كَتَبَ يَكْتُبُ]{.ar}  to write    |
+|[شَاعِر]{.ar}   | a poet                   |[شُعَرَاء]{.ar}   | [شَعَرَ يَشْعُرُ]{.ar}  to be aware |
+|[بَالِغ]{.ar}   | a legally mature person  |[بَالِغُونَ]{.ar}  | [بَلَغَ يَبْلُغُ]{.ar}  to reach    |
+|[مُصِيبَة]{.ar}  | a calamity               |[مَصَائِب]{.ar}   | [أَصَابَ يُصِيبُ]{.ar} to strike   |
+|[جَارِيَة]{.ar}  | a girl                   |[جَوَارٍ]{.ar}    | [جَرَى يَجْرِي]{.ar}  to run      |
+|[طَالِب]{.ar}   | a student                |[طَلَبَة]{.ar}, [طُلَّاب]{.ar}    | [طَلَبَ يَطْلُبُ]{.ar}  to seek     |
+|[شَارِب]{.ar}   | a moustache              |[شَوَارِب]{.ar}   | [شَرِبَ يَشْرَبُ]{.ar}  to drink    |
+|[سَاحِل]{.ar}   | a shore                  |[سَوَاحِل]{.ar}   | [سَحَلَ يَسْحَلُ]{.ar}  to abrade   |
+|[جَامِع]{.ar}   | a large mosque           |[جَوَامِع]{.ar}   | [جَمَعَ يَجْمَعُ]{.ar}  to gather   |
+|[جَامِعَة]{.ar}  | a university             |[جَامِعَات]{.ar}  | [جَمَعَ يَجْمَعُ]{.ar}  to gather   |
+|[قَائِمَة]{.ar}  | a leg (of a beast, furniture)             |[قَوَائِم]{.ar}  | [قَامَ يَقُومُ]{.ar}  to stand   |
+
+In the above examples, the ;substantive; has a different (albeit often linked) meaning from the verb-doer meaning of the ;ism_fail;
+In these cases it is easy to tell that the ;ism_fail; has crossed over to a ;substantive;.
+In other cases, the ;ism_fail; crossover to ;substantive; can keep the original meaning of the verb-doer
+but it will now be a stable innate quality, rather than the relatively incidental and temporary meaning that the ;ism_fail; has.
+Here are some examples:
+
+
+|;substantive; | meaning | plural | verb |
+|:---|:----|:---|:---------|
+|[آثِم]{.ar}     | a sinner            |[أُثَمَاء]{.ar}              | [أَثِمَ يَأْثَمُ]{.ar} to fall into sin |
+|[وَارِث]{.ar}    | an heir             |[وَرَثَة]{.ar}, [وُرَّاث]{.ar}  | [وَرَثَ يَرِثُ]{.ar}  to inherit   |
+|[وَالِدٌ]{.ar}    | a parent            |[وَالِدُونَ]{.ar}             | [وَلَدَ يَلِدُ]{.ar}  to beget (offspring)   |
+
+Even for such cases, where the ;substantive; has the same (but more stable) meaning as the ;ism_fail;,
+the ;substantive; can (generally) now no longer govern in a verb-like manner.
+So it will not govern a ;mustatir; ;faa3il; pronoun, or a ;mafulb;.
+
+An exception is made for the ;ism_fail; of transitive verb that has two ;mafulb;s.
+In a ;ma3nawi; ;idaafah; with the ;ism_fail; of these verbs, the second ;mafulb; is put in the ;astate;. See section\ (ref) for details.
+
+
+
+When the ;ism_fail; that has crossed over to a ;substantive; refers to human beings,
+then often, but not always, a feminine version of the crossed over ;substantive; will also exist, with a [ة]{.ar}.
+So [صَاحِبَة]{.ar} is a female companion,
+[وَالِدَة]{.ar} is a female parent, etc.
+Sometimes, however, the ;substantive; exists for only one gender and not for the other,
+e.g. [جَارِيَة]{.ar} [a girl]{.trans}.
+Also sometimes, the same ;substantive; is used for both genders,
+e.g.
+[بَالِغ]{.ar}   [a legally mature person]{.trans},
+[آثِم]{.ar} [a sinner]{.trans}.
+There is often some flexibility in these cases, so 
+[بَالِغَة]{.ar} can be used for  a female legally mature person.
+The dictionary is the best guide in these matters.
+
+
+When a cross-over ;substantive; exists, it does not mean that the original ;ism_fail; meaning has ceased to exist.
+Both can continue to exist and context will clue us in as to which meaning is intended.
+For example, [بَالِغ]{.ar} is used as an ;ism_fail; here:
+
+(@3amal_mush_hadyan_baaligha_lka3bati) [هَدۡیَۢا بَـٰلِغَ ٱلۡكَعۡبَةِ]{.quran}
+    [@https://quran.com/5/95@]{.citex}  
+    [as an offering [to Allāh] delivered to the Kaʿbah]{.trans}
+
+For some cross-over ;substantive;s, however, the ;substantive; usage is predominant and the original ;ism_fail; meaning is virtually non-existent.
+Such is the case for [صَاحِب]{.ar} [a companion]{trans} and [وَالِد]{.ar} [a parent]{.trans}.^[@za3balawi_dirasat@ 488 citing [سيبويه]{.ar} and others]{.citex}
+
 
 ## Verbs for which the ;ism_fail; is rarely used with verbal force
 
