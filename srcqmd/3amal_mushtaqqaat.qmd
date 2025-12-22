@@ -286,12 +286,21 @@ This is touched upon in section\ (ma3aani_ism_faa3il).
 
 As with verbs, the ;mafulb; usually follows its governing ;ism_fail;
 (as in the examples above).
-But the ;mafulb; is allowed to precede its governing ;ism_fail;.
+But 
+when an ;ism_fail; is not prefixed by [ال]{.ar}, then its
+;mafulb; is allowed to precede it.
 So we can say:
 
 (@) [هذا زيدا ضارب]{.ar}
     [[@sirafi_sibawayhi@ 1/259](https://shamela.ws/book/17726/257)]{.citex}  
     [This [person] is beating Zayd.]{.trans}
+
+However,
+when an ;ism_fail; is prefixed by [ال]{.ar}, then its
+;mafulb; is not allowed to precede it.^[@nahw_wafi@ 3/263](https://shamela.ws/book/10641/1489#p1)
+So we cannot say:
+
+(@) ;x; [هذا زيدا الضارب]{.ar}
 
 While the ;mafulb; is permitted 
 to precede its governing ;ism_fail;
@@ -1044,6 +1053,7 @@ Because the ;faa3il; is now ;zaahir; the ;ism_fail; will not govern an additiona
     [Zayd -- Hind -- [he] is beating her.]{.trans}  
     (i.e. [Zayd is beating Hind.]{.trans})
 
+<!--
 #### The ;ism_fail; is the ;mudaf; in a ;ma3nawi; ;idaafah; {.unnumbered}
 
 When ;ism_fail; is the ;mudaf; in a ;ma3nawi; ;idaafah;,
@@ -1081,6 +1091,7 @@ For example:
 (@) [مَرَرْتُ بِرَجُلٍ قَائِمٍ لَا قَاعِدٍ]{.ar}
     [@su3ood_dameer_mustatir@ 156]{.citex}  
     [I passed by a standing, not a sitting, man.]{.trans}
+-->
 
 ## #;lafzi; ;idaafah;
 
