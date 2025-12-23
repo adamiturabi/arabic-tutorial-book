@@ -932,23 +932,36 @@ the ;ism_fail;
 (from the verb [صَحِبَ يَصْحَبُ]{.ar} [to accompany]{.trans})
 is predominantly used as a ;substantive; noun to mean [companion]{.trans}.
 With this meaning, it can no longer act as a verb-like governor.
-So any
+So it will not have a ;mustatir; ;faa3il; pronoun,
+and 
+it will not govern a ;mafulb;.
+So we cannot say:
+
+(@) ;x; [حَسَّامٌ صَاحِبٌ يَاسِرًا]{.ar}
+    [@za3balawi_dirasat@ 487 citing [العدناني]{.ar}]{.citex}  
+    [[#HassAm]{.trn2} is a companion of [#yAsir]{.trn2}.]{.trans}
+
+
+Additionally any
 [ٱل]{.ar}
-that is prefixed to it cannot be
+that is prefixed to a
+;ism_fail;-crossover-to-;substantive;
+cannot be
 the 
 ;ism_mawsul; [ٱل]{.ar}.
-And and when it is the ;mudaf; in an ;idaafah; then it must be a ;ma3nawi; ;idaafah;.
+It will be the regular
+[ٱل]{.ar}
+that is prefixed to ;substantive;s.^[[@za3balawi_dirasat@ 484](https://shamela.ws/book/2120/484)]
+So when it is the ;mudaf; in an ;idaafah; then it must be a ;ma3nawi; ;idaafah;,
+and the
+[ٱل]{.ar}
+is dropped.
 
-So we can say:
+So we will say:
 
 (@) [صَحِبَ حَسَّامٌ يَاسِرًا فَهُوَ **صَاحِبُهُ**]{.ar}
     [@za3balawi_dirasat@ 487 citing [العدناني]{.ar}]{.citex}  
     [[#HassAm]{.trn2} accompanied [#yAsir]{.trn2} so he is **his companion**.]{.trans}
-
-We cannot make [صَاحِب]{.ar} govern a ;mafulb;. So we cannot say:
-
-(@) ;x; [حَسَّامٌ صَاحِبٌ يَاسِرًا]{.ar}
-    [@za3balawi_dirasat@ 487 citing [العدناني]{.ar}]{.citex}
 
 With regard to their plurals,
 the default behavior for the ;ism_fail;, especially when used with a verbal meaning, is to have a sound plural.
@@ -958,6 +971,7 @@ Here are some examples of ;substantive;s from cross-over ;ism_fail;s:
 
 |;substantive; | meaning | plural | verb |
 |:---|:----|:---|:---------|
+|[صَاحِب]{.ar}   | a companion              |[أَصْحَاب]{.ar}   | [صَحِبَ يَصْحَبُ]{.ar}  to accompany|
 |[عَالِم]{.ar}   | a scholar                |[عُلَمَاء]{.ar}   | [عَلِمَ يَعْلَمُ]{.ar}  to know     |
 |[قَاضٍ]{.ar}    | a judge                  |[قُضَاة]{.ar}    | [قَضَى يَقْضِي]{.ar}  to decree   |
 |[كَاتِب]{.ar}   | a scribe                 |[كَتَبَة]{.ar}    | [كَتَبَ يَكْتُبُ]{.ar}  to write    |
@@ -975,6 +989,7 @@ Here are some examples of ;substantive;s from cross-over ;ism_fail;s:
 |[وَالِدٌ]{.ar}   | a parent                 |[وَالِدُونَ]{.ar}             | [وَلَدَ يَلِدُ]{.ar}  to beget (offspring)   |
 |[حَامِل]{.ar}   | a carrier                |[حَمَلَة]{.ar}               | [حَمَلَ يَحْمِلُ]{.ar} to carry |
 |[قَارِئ]{.ar}   | a reciter                |[قُرَّاء]{.ar}               | [قَرَأَ يَقٌرَأُ]{.ar} to read, recite |
+|[مُعَلِّم]{.ar}   | a teacher                |[مُعَلِّمُونَ]{.ar}             | [عَلَّمَ يُعَلِّمُ]{.ar} to teach |
 
 
 When the ;ism_fail; that has crossed over to a ;substantive; refers to human beings,
@@ -996,8 +1011,48 @@ There is often some flexibility in these cases, so
 [بَالِغَة]{.ar} can be used for  a female legally mature person.
 The dictionary is the best guide in these matters.
 
+Recall from section\ (ref) that the [ة]{.ar} that exists in a
+feminine ;ism_fail; is
+because of its
+;mustatir; ;faa3il; pronoun.
+So when we say
+[هِنْدٌ قَائِمَةٌ]{.ar}
+[Hind is standing]{.trans}
+then the
+[ة]{.ar}
+in
+[قَائِمَةٌ]{.ar}
+is to match its
+;mustatir; ;faa3il; pronoun
+[[هِيَ]{.ar}]
+that refers to
+[هِنْدٌ]{.ar}.
+But
+the [ة]{.ar} that exists in a
+;ism_fail;-crossover-to-;substantive;
+is no longer because of a ;mustatir; ;faa3il; pronoun.
+This is because,
+as mentioned previously,
+the
+;ism_fail;-crossover-to-;substantive;
+is not a verb-like governor, so it will not govern
+a ;mustatir; ;faa3il; pronoun.
+So the
+[ة]{.ar}
+in the
+;ism_fail;-crossover-to-;substantive;s
+[صَاحِبَة]{.ar} [female companion]{.trans}
+and
+[وَالِدَة]{.ar} [female parent]{.trans}
+is a fixed feminine marker, just like the
+[ة]{.ar}
+in any other feminine ;substantive;, e.g.
+[شَجَرَة]{.ar} [tree]{.trans},
+[امْرَأَة]{.ar} [woman]{.trans},
+etc.
 
-Once a ;ism_fail; has crossed over to a ;substantive;,
+Additionally,
+once a ;ism_fail; has crossed over to a ;substantive;,
 then like all ;substantive;s, it loses its genderizability.
 So we cannot add or remove a feminine marker (like [ة]{.ar}) at will.
 For example, if we wish to say
@@ -1028,7 +1083,7 @@ then it is likely that it is a
 ;ism_fail;-crossover-to-;substantive;.
 Another clue is that it is used with a broken plural.^[[@za3balawi_dirasat@ 503](https://shamela.ws/book/2120/503)]
 A more reliable indicator is if it is made definite by being annexed to a definite ;mudafil; in a ;ma3nawi; ;idaafah;.
-Here are examples that use a broken plural, and also a ;ma3nawi; ;idaafah;.
+Here are some examples:
 
 (@) [هؤلاء حملة الأقلام]{.ar}
     [[@za3balawi_dirasat@ 503](https://shamela.ws/book/2120/503)]{.citex}  
