@@ -1100,7 +1100,23 @@ Here are some examples:
     [[[سنن أبي داود]{.ar} :2899](https://sunnah.com/abudawud:2899)]{.citex}  
     [Whoever leaves wealth then [it is] for his heirs. And I am **the heir** of he who has no heir, paying blood-wit for him and inheriting from him. And the maternal uncle is the heir of he who has no heir, paying blood-wit for him and inheriting from him.]{.trans}
 
-Another indicator is whether
+Another possible indicator is whether
+the [ism_fail]{.subs} as an [xabar]{.subs} mismatches in gender with the [mubtada]{.subs}.
+For example:
+
+(@) [الْعُودُ قَائِمَةٌ]{.ar}  
+    [The stick is a leg (of some furniture or other structure).]{.trans}  
+    (If the [ism_fail]{.subs} was intended, then we would say [الْعُودُ قَائِمٌ]{.ar} [The stick is standing]{.trans}.)
+
+But this isn't always reliable because the [mubtada]{.subs} may match in gender with the [ism_fail]{.subs}-crossover-to-[substantive]{.subs} anyway.
+For example:
+
+(@) [الْعَصَا قَائِمَةٌ]{.ar}  
+    [The stick is a leg.]{.trans}  
+    or [The stick is standing.]{.trans}  
+    ([عَصًا]{.ar} is a feminine noun.)
+
+Another indicator also whether
 the singular feminine of the [ism_fail]{.subs} is used as a [xabar]{.subs} or [na3t]{.subs} for [g_3aaqil]{.subs}s.
 For example:
 
@@ -1111,7 +1127,7 @@ In the above example
 [قَائِمَةٌ]{.ar}
 is likely to be an [ism_fail]{.subs}.
 (By the way, a [substantive]{.subs} reading is also possible:
-[the sticks (collectively) are a leg (of some furniture or other structure)]{.trans}.)
+[the sticks (collectively) are a leg]{.trans}.)
 But if we say:
 
 (@) [الْأَعْوَادُ قَوَائِمُ]{.ar}  
