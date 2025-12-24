@@ -124,20 +124,49 @@ We will describe this usage of the ;ism_fail; in place of a verb in the next few
 
 ## The ;ism_fail; without [ٱلْ]{.ar} used to indicate a imperfect static state
 
+When we discuss the significance of the ;ism_fail;,
+we will talk about how _static_ or _dynamic_ a lexeme is.
+A dynamic lexeme is one which indicates continual activity or change, e.g.
+[جَرَى]{.ar} [to run]{.trans},
+[أَكَلَ]{.ar} [to eat]{.trans},
+etc.
+A static lexeme
+on the other hand,
+indicates remaining in an steady and relatively unchanging state, e.g.
+[نَامَ]{.ar} [to sleep]{.trans},
+[قَامَ]{.ar} [to stand]{.trans},
+[طَهُرَ]{.ar} [to be pure]{.trans},
+etc.
+
+Even within these verbs, there is considerable variation in staticity.
+For example,
+[طَهُرَ]{.ar} [to be pure]{.trans}
+involves virtually no dynamicity.
+Other verbs can have both a static and a dynamic aspect.
+For example:
+[جَلَسَ]{.ar} to sit,
+[قَامَ]{.ar} to stand,
+[نَامَ]{.ar} to sleep,
+[لَبِسَ]{.ar} to wear,
+etc.
+These verbs often mean both: to do an action of entering into a state, and also to remain in such a state.
+For example,
+[جَلَسَ]{.ar} can mean both: to enter into a seated state (from another position like standing, etc.), and also to remain in a seated state.
+Similarly,
+[لَبِسَ]{.ar} can mean both: to put on a garment, and also to be in a state of having put on the garment.
+
+
+
+<!--
 One of the more common usages of the ;ism_fail; is to indicate that the ;faa3il; is in an imperfect static state.
 The term _static state_ here means remaining in a stationary condition or position as opposed to a dynamic action.
-
+-->
 <!--
 The word "static" here signifies that the state of the ;faa3il; 
 is steady and relatively unchanging.
 -->
 
-The ;ism_fail; indicates being in a state from a semantic aspect.
-And we have already studied that the ;hal; syntactically indicates being in a state.
-These two (semantic and syntactic) aspects of indicating being in a state are often combined.
-So, we will see from the examples in this section that
-the ;ism_fail; is often (but not always) either a ;hal;, or part of a ;hal; sentence.
-
+<!--
 As we discuss the state indicated by an ;ism_fail; we will often deal with _stative_ verbs.
 _Stative_ verbs are those which mean to be in a state.
 For example:
@@ -151,8 +180,20 @@ For example,
 [جَلَسَ]{.ar} can mean both: to enter into a seated state (from another position like standing, etc.), and also to remain in a seated state.
 Similarly,
 [لَبِسَ]{.ar} can mean both: to put on a garment, and also to be in a state of having put on the garment.
+-->
 
+As a general trend,
+the ;ism_fail; is used to indicate a static state.
 In contrast to the ;ism_fail;, the ;mudarie; verb indicates that the doer is doing a dynamic action.
+
+The ;ism_fail; indicates being in a state from a semantic aspect.
+By the way,
+when we say "static state" we mean it semantically.
+The state or condition of an entity can also be indicated syntactically using the ;hal;.
+These two (semantic and syntactic) aspects of indicating being in a state are often combined.
+So, we will see from the examples in this section that
+the ;ism_fail; is often (but not always) either a ;hal;, or part of a ;hal; sentence.
+
 Consider the following example:
 
 (@) [كُنْتُ مُسَافِرًا فَأَتَيْتُ النَّبِيَّ صلى الله عليه وسلم وَهُوَ **يَأْكُلُ** وَأَنَا **صَائِمٌ**]{.ar}
@@ -1349,36 +1390,48 @@ can be used
 
 ## Verbs for which the ;ism_fail; is rarely used
 
+There are some verbs which are extremely static,
+in that they involve virtually no dynamic action.
+For example:
+
+[كَرُمَ]{.ar} [to be noble, generous]{.ar},
+[بَخِلَ]{.ar} [to be stingy]{.ar},
+[فَرِحَ]{.ar} [to by joyous]{.ar},
+[ضَاقَ]{.ar} [to be narrow]{.ar},
+
 
 TODO: add:
 [حاسن كلرم بلخل مائت فارح]{.ar}
 nahw_wafi 3/240++
 
 
-The ;ism_fail;, when signifying verbal force, is only rarely used for some verbs.
-These include verbs like
+The ;ism_fail; is also
+not found used in place of a ;mudarie; verb for various other classes of verbs,
+including verbs  that indicate mental states, perception, or action.^[See @marmor_tense@ 124]
+Such verbs include
 [رَأَى]{.ar} to see,
 [رَجَا]{.ar} to hope,
 [أَرَادَ]{.ar} to want,
 and others.
-For such verbs, the ;mudarie; verb is typically used when verbal force is needed.
+For such verbs, only the verb is typically used when the meaning of the verb is needed.
 Nevertheless, the ;ism_fail; for such verbs has been found to be used on occasion.
 Examples:
 
-<!--
-(@) [وَكَمْ مِنْ **مُرِيدٍ** لِلْخَيْرِ لَنْ يُصِيبَهُ]{.ar}
-    [https://hadithunlocked.com/darimi:210]{.citex}  
-    How many of a seeker of goodness shall not achieve it.
--->
-
 (@) [أَنَّ رَسُولَ اللَّهِ ص لَمَّا انْصَرَفَ مِنَ الطَّائِفِ **مُرِيدًا** مَكَّةَ مَرَّ بِهِ بَعْضُ أَهْلِ مَكَّةَ]{.ar}
-    [https://shamela.ws/book/9783/972]{.citex}  
-    that the Messenger of Allah, when he departed from [al-#TAEif]{.trn2} seeking Makkah, one of the people of Makkah passed by him
+    [[@tarikh_tabari@ 2/347](https://shamela.ws/book/9783/972) cited by @waltisberg_satzkomplex@ 293]{.citex}  
+    that the Messenger of Allah, when he departed from [al-#TAEif]{.trn2} intending (as his destination) Makkah, one of the people of Makkah passed by him.
 
 (@) [أُرَانِي اللَّيْلَةَ عِنْدَ الْكَعْبَةِ فَرَأَيْتُ رَجُلاً آدَمَ كَأَحْسَنِ مَا أَنْتَ **رَاءٍ** مِنْ أُدْمِ الرِّجَالِ]{.ar}
     [@https://sunnah.com/bukhari:6999@]{.citex}  
-    I saw myself (in a dream) near the [#kaebah]{.trn2} last night, and I saw a man with whitish red complexion, the best you may see amongst men of that complexion
+    I saw myself (in a dream) near the [#kaebah]{.trn2} last night, and I saw a man with whitish red complexion, the best you may see amongst men of that complexion.
 
+
+The ;ism_fail; of such verbs may also freely be used when its essential "doer" meaning is intended.
+For example:
+
+(@) [وَكَمْ مِنْ **مُرِيدٍ** لِلْخَيْرِ لَنْ يُصِيبَهُ]{.ar}
+    [https://hadithunlocked.com/darimi:210]{.citex}  
+    [How many of an intender of goodness shall not achieve it.]{.trans}
 
 
 ## Temporariness or permanence of the meaning of ;ism_fail;
