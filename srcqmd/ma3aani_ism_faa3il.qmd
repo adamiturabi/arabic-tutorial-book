@@ -1424,19 +1424,60 @@ can be used
 
 ## Verbs for which the ;ism_fail; is rarely used
 
-There are some verbs which are extremely static,
-in that they involve virtually no dynamic action.
+Technically, an ;ism_fail; can be formed from any verb.^[@nahw_wafi@ 3/242]
+For form\ 1 verbs, it will always be on the pattern [فَاعِل]{.ar}.
+However, there are some verbs for which their ;ism_fail;s are rarely used.
+
+These are verbs which indicate only being in a static state,
+with virtually no dynamic action.
+For such verb, the their ;sifah_mush;s
+(see chapter\ (ref))
+are generally used instead of their ;ism_fail;s.
+The following table lists some such verbs,
+along with their rarely used ;ism_fail;s,
+and their commonly used ;sifah_mush;s.
+
+|verb|meaning|;ism_fail;|;sifah_mush;|
+|:--|:-----|:--|:-----|
+|[كَرُمَ]{.ar} |[to be noble, generous]{.trans}  |[كَارِم]{.ar}|[كَرِيم]{.ar} [noble, generous]{.trans}|
+|[بَخِلَ]{.ar} |[to be stingy]{.trans}           |[بَاخِل]{.ar}|[بَخِيل]{.ar} [stingy]{.trans}|
+|[فَرِحَ]{.ar} |[to by joyous]{.trans}           |[فَارِح]{.ar}|[فَرِح]{.ar}  [joyous]{.trans}|
+|[ضَاقَ]{.ar} |[to be narrow]{.trans}           |[ضَائِق]{.ar}|[ضَيِّق]{.ar}  [narrow]{.trans}|
+|[حَسُنَ]{.ar} |[to be handsome]{.trans}         |[حَاسِن]{.ar}|[حَسَن]{.ar}  [handsome]{.trans}|
+
+
+Nevertheless,
+the ;ism_fail;s for such verbs can be used,
+on occasion,
+to indicate a incidental state that has only temporary occurred.
+As opposed to the more permanent state that the ;sifah_mush; would signify.^[@nahw_wafi@ 3/240 footnote 3; @nahw_wafi@ 3/292]
 For example:
 
-[كَرُمَ]{.ar} [to be noble, generous]{.ar},
-[بَخِلَ]{.ar} [to be stingy]{.ar},
-[فَرِحَ]{.ar} [to by joyous]{.ar},
-[ضَاقَ]{.ar} [to be narrow]{.ar},
+(@) [فَلَعَلَّكَ تَارِكُۢ بَعۡضَ مَا یُوحَىٰۤ إِلَیۡكَ **وَضَاۤىِٕقُۢ** بِهِۦ صَدۡرُكَ أَن یَقُولُوا۟ لَوۡلَاۤ أُنزِلَ عَلَیۡهِ كَنزٌ أَوۡ جَاۤءَ مَعَهُۥ مَلَكٌۚ]{.quran}
+    [@https://quran.com/11/12@ cited by @nahw_wafi@ 3/240 footnote 3]{.citex}  
+    [Then would you possibly leave [out] some of what is revealed to you, or is your breast constrained by it because they say, "Why has there not been sent down to him a treasure or come with him an angel?"]{.trans}
 
+According to the ;tafsir; of the ;ayah;,
+[ضَائِق]{.ar} is used in place of he more commonly used [ضَيِّق]{.ar} to indicate a temporary constrictness.^[@nahw_wafi@ 3/240 footnote 3 citing @ibn_ya3ish_mufassal@ and others; @https://tafsir.app/kashaf/11/12@]
 
-TODO: add:
-[حاسن كلرم بلخل مائت فارح]{.ar}
-nahw_wafi 3/240++
+<!--
+Here is another example:
+
+(@) [وَمَا أَنَا مِنْ رُزْءٍ وَإِنْ جَلَّ جَازِعٌ وَلَا بِسُرُورٍ بَعْدَ مَوْتِكَ فَارِحُ]{.ar}
+    [And I am not, because of a calamity, even if be great, impatient. Nor [am I] in happiness after your death, [and] joyous]{.trans}
+-->
+
+Sometimes, what would appear to be an ;ism_fail; is used for verbs like these.
+But actually, these are from the class of ;ism_fail;-crossover-to-;sifah_mush;s.
+Here are some examples:
+
+|verb|meaning|;ism_fail;-crossover-to-;sifah_mush;|
+|:--|:-----|:-----|
+|[عَدَلَ]{.ar} |[to be just]{.trans}           |[عَادِل]{.ar} [just]{.trans}|
+|[بَسُلَ]{.ar} |[to by courageous]{.trans}     |[بَاسِل]{.ar} [courageous]{.trans}|
+|[صَلُحَ]{.ar} |[to be righteous]{.trans}      |[صَالِح]{.ar} [righteous]{.trans}|
+
+We will study this category in more detail in section\ (ref), ;ia;.
 
 
 The ;ism_fail; is also
