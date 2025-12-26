@@ -618,6 +618,68 @@ For example:
     [lean of flank]{.trans}  
     (derived from [ضَامِرٌ كَشْحُهُ]{.ar} which is then transformed into [ضَامِرٌ الْكَشْحَ]{.ar}.)
 
+The process above is normal and straightforward when it comes to
+;ism_fail;-crossover-to-;sifah_mush;s
+that are derived from intransitive verbs.
+But if a
+;ism_fail;-crossover-to-;sifah_mush;
+is derived from a transitive verb, then there is more care required when using it in a ;lafzi; ;idaafah;.
+For example, consider the following two
+;ism_fail;-crossover-to-;sifah_mush;s
+that are derived from transitive verbs:
+
+|verb|meaning|;ism_fail;-crossover-to-;sifah_mush;|
+|:--|:-----|:-----|
+|[ظَلَمَ]{.ar} |[to wrong (s.o.)]{.trans}         |[ظَالِم]{.ar} [unjust, tyrannical]{.trans}|
+|[رَحِمَ]{.ar} |[to have mercy (on s.o.)]{.trans} |[رَاحِم]{.ar} [merciful]{.trans}|
+
+Now let's say that we wish to use the
+;ism_fail;-crossover-to-;sifah_mush;
+[رَاحِم]{.ar}
+in a ;lafzi; ;idaafah;.
+Then, it is preferred that the actual ;mafulb; of the ;ism_fail; not be mentioned.
+So, for example, we can say
+
+(@) [زَيْدٌ رَاحِمُ الْقَلْبِ]{.ar}  
+    [Zayd is merciful of heart.]{.trans}
+
+But we shouldn't say:
+
+(@) ;x; [زَيْدٌ رَاحِمُ الْقَلْبِ النَّاسَ]{.ar}  
+    [Zayd is merciful of heart to the people.]{.trans}
+
+Sometimes, the meaning of the syntactic ;mudafil; can cause ambiguity.
+For example if we say:
+
+(@) [زَيْدٌ رَاحِمُ الْأَبْنَاءِ]{.ar}  
+
+then there are two routes to end up with this construction:
+
+ i. [رَاحِم]{.ar} is a ;ism_fail; and [الأَبْنَاء]{.ar} is its ;mafulb;.
+    The original sentence is:
+
+    (@) [زَيْدٌ رَاحِمٌ الْأَبْنَاءَ]{.ar}  
+        [Zayd is/will be having mercy on the sons.]{.trans}
+
+ii. [رَاحِم]{.ar} is a
+    ;ism_fail;-crossover-to-;sifah_mush;
+    and [الأَبْنَاء]{.ar} is its semantic ;faa3il;.
+    The original sentence is:
+
+    (@) [زَيْدٌ رَاحِمٌ أَبْنَاؤُهُ]{.ar}  
+        [Zayd is merciful of sons.]{.trans}  
+        i.e. [Zayd has merciful sons.]{.trans}  
+        (the semantic ;faa3il; [أَبْنَاؤُهُ]{.ar} gets transformed to a ;mafulb;-like governee [الْأَبْنَاءَ]{.ar})
+
+In such a case, there is no problem with using
+[رَاحِمُ الْقَلْبِ]{.ar} as a
+;ism_fail;-crossover-to-;sifah_mush;
+to mean
+[merciful of sons]{.trans}.
+But only if context makes it clear that Zayd has merciful sons, not that he is having mercy on the sons.
+
+Similarly,
+
 The lexical ;ism_fail;-crossover-to-;sifah_mush; is not as common for form\ 1 verbs as the true ;sifah_mush;.
 But for form\ 2+ verbs,
 the
