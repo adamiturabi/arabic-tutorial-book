@@ -4,12 +4,22 @@ local ar_span = require("ar_span")
 
 local map_table = {}
 
+-- symbols
+map_table["x"] = {"✗", nil}
+map_table["v"] = {"✓", nil}
+map_table["rarr"] = {"→", nil}
+map_table["larr"] = {"←", nil}
+
 -- text terms
 map_table["ia"] = {"if Allāh wills", nil}
 map_table["quran"] = {"Qurʾān", nil}
 map_table["ayah"] = {"Ayah", "trn2"}
 map_table["surah"] = {"sUrah", "trn2"}
 map_table["tafsir"] = {"tafsIr", "trn2"}
+
+-- 3aaqil
+map_table["3aaqil"]   = {"intelligent being", nil}   -- raised-state"
+map_table["g_3aaqil"] = {"non-intelligent being", nil}  -- propped-state
 
 -- states
 map_table["ustate"] = {"u-state", nil}   -- raised-state"
@@ -153,8 +163,6 @@ map_table["tabi3"] = {"follower", nil}
 map_table["tamyiz"] = {"tamyIz", "trn2"}
 map_table["tawkeed"] = {"emphatic follower", nil}
 
-map_table["x"] = {"✗", nil}
-map_table["v"] = {"✓", nil}
 map_table["xabar"] = {"info", nil} -- newsworthy expression, information, comment, remark, info, report, news, expression
 
 map_table["zaaid"] = {"redundant", nil}

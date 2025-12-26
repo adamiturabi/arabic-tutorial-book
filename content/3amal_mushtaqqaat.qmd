@@ -297,13 +297,6 @@ So we can say:
     [[[شرح كتاب سيبويه للسيرافي]{.ar} 1/259](https://shamela.ws/book/17726/257)]{.citex}  
     [This [person] is beating Zayd.]{.trans}
 
-However,
-when an [ism_fail]{.subs} is prefixed by [ال]{.ar}, then its
-[mafulb]{.subs} is not allowed to precede it.^[[النحو الوافي]{.ar} 3/263](https://shamela.ws/book/10641/1489#p1)
-So we cannot say:
-
-(@) [x]{.subs} [هذا زيدا الضارب]{.ar}
-
 While the [mafulb]{.subs} is permitted 
 to precede its governing [ism_fail]{.subs}
 (as above),
@@ -320,6 +313,19 @@ for a [laam_taqwiya]{.subs} to be used with an [indir_mafulb]{.subs} instead, th
     (i.e. [honoring the guest]{.trans})  
 
 The [laam_taqwiya]{.subs} is discussed in more detail in section\ (later chapter).^[See also Wright 2/69CD, Fischer §203 Note\ 2 p.\ 113 (who consider this [laam_taqwiya]{.subs} obligatory), and [النحو الوافي]{.ar} 2/475--476 (who doesn't consider it obligatory).]
+
+Also,
+the freedom for the governee of a [ism_fail]{.subs} to precede it is only given to the [ism_fail]{.subs} not prefixed by [ال]{.ar}.
+When an [ism_fail]{.subs} is prefixed by [ال]{.ar}, then its
+[mafulb]{.subs} is not allowed to precede it.^[[النحو الوافي]{.ar} 3/263](https://shamela.ws/book/10641/1489#p1)
+So we cannot say:
+
+(@) [x]{.subs} [هذا زيدا الضارب]{.ar}
+
+We would have to say instead
+
+(@) [v]{.subs} [هذا الضارب زيدا]{.ar}
+
 
 TODO: Fronting the [mafulb]{.subs} is not permitted for [sifah_mush]{.subs}. See link in example above. Add to section on [sifah_mush]{.subs}
 
@@ -1123,6 +1129,14 @@ as opposed to a [ma3nawi]{.subs} [idaafah]{.subs},
 which is what we have been studying so far.
 This is because it is only an [idaafah]{.subs} for the purposes of easing the pronunciation,
 not in meaning.
+
+Regarding terminology,
+[عَمْرٍو]{.ar}
+syntactically
+becomes a [mudafil]{.subs} in the [lafzi]{.subs} [idaafah]{.subs}.
+But in meaning, it is still the [mafulb]{.subs} of the [ism_fail]{.subs}
+[ضَارِب]{.ar}.
+We will refer to it as the _semantic [mafulb]{.subs}_.
 
 By the way, the sentence
 [زَيْدٌ ضَارِبُ عَمْرٍو]{.ar}
