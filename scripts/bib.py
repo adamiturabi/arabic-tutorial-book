@@ -609,6 +609,20 @@ def populate_resource_list():
     , sort_key = "شرح التسهيل لابن مالك"
     ))
   resource_list.append(BibResource(
+    "ibn_aqil_musaa3id"
+    , cit_type = "ar_ref"
+    , cit_text = "[المساعد على تسهيل الفوائد لابن عقيل]{.ar}"
+    , bib_text = """
+      الكتاب: المساعد على تسهيل الفوائد  
+      المؤلف: بهاء الدين بن عقيل  
+      المحقق: د. محمد كامل بركات  
+      الناشر: جامعة أم القرى (دار الفكر، دمشق - دار المدني، جدة)  
+      الطبعة: الأولى، (١٤٠٠ - ١٤٠٥ هـ)  
+      عدد الأجزاء: ٤  
+      """ + format_url_ar("https://shamela.ws/book/133358")
+    , sort_key = "مساعد على تسهيل الفوايد لابن عقيل"
+    ))
+  resource_list.append(BibResource(
     "sirafi_sibawayhi"
     , cit_type = "ar_ref"
     , cit_text = "[شرح كتاب سيبويه للسيرافي]{.ar}"
@@ -752,6 +766,20 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/9783")
     , sort_key = "تاريخ الطبري"
     ))
+  resource_list.append(BibResource(
+    "sharh_ashmooni"
+    , cit_type = "ar_ref"
+    , cit_text = "[شرح الأشمونى لألفية ابن مالك]{.ar}"
+    , bib_text = """
+      الكتاب: شرح الأشموني على ألفية ابن مالك  
+      المؤلف: علي بن محمد بن عيسى، أبو الحسن، نور الدين الأُشْمُوني الشافعي (ت ٩٠٠هـ)  
+      الناشر: دار الكتب العلمية بيروت- لبنان  
+      الطبعة: الأولى ١٤١٩هـ- ١٩٩٨مـ  
+      عدد الأجزاء: ٤  
+      """ + format_url_ar("https://shamela.ws/book/11742")
+    , sort_key = "شرح الاشمونى لافية ابن مالك"
+    ))
+
 
 
   # Western
@@ -890,6 +918,13 @@ def populate_resource_list():
     , cit_text = 'Youssef, Z., _Das partizip im Arabischen_'
     , bib_text = 'Youssef, Z., _Das partizip im Arabischen_, Ph.D. diss., University Erlangen-Nürnberg, 1990.'
     , sort_key = 'youssef z das partizip im arabischen'
+    ))
+  resource_list.append(BibResource(
+    "lane"
+    , cit_type = "ws_ref"
+    , cit_text = "Lane's Lexicon"
+    , bib_text = 'Lane, E.\\ W., _An Arabic-English Lexicon_, <https://ejtaal.net/aa>'
+    , sort_key = 'lanes lexicon'
     ))
   return resource_list
 
