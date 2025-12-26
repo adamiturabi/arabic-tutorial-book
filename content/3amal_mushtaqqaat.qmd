@@ -288,7 +288,9 @@ This is touched upon in section\ (ma3aani_ism_faa3il).
 
 As with verbs, the [mafulb]{.subs} usually follows its governing [ism_fail]{.subs}
 (as in the examples above).
-But the [mafulb]{.subs} is allowed to precede its governing [ism_fail]{.subs}.
+But 
+when an [ism_fail]{.subs} is not prefixed by [ال]{.ar}, then its
+[mafulb]{.subs} is allowed to precede it.
 So we can say:
 
 (@) [هذا زيدا ضارب]{.ar}
@@ -311,6 +313,19 @@ for a [laam_taqwiya]{.subs} to be used with an [indir_mafulb]{.subs} instead, th
     (i.e. [honoring the guest]{.trans})  
 
 The [laam_taqwiya]{.subs} is discussed in more detail in section\ (later chapter).^[See also Wright 2/69CD, Fischer §203 Note\ 2 p.\ 113 (who consider this [laam_taqwiya]{.subs} obligatory), and [النحو الوافي]{.ar} 2/475--476 (who doesn't consider it obligatory).]
+
+Also,
+the freedom for the governee of a [ism_fail]{.subs} to precede it is only given to the [ism_fail]{.subs} not prefixed by [ال]{.ar}.
+When an [ism_fail]{.subs} is prefixed by [ال]{.ar}, then its
+[mafulb]{.subs} is not allowed to precede it.^[[النحو الوافي]{.ar} 3/263](https://shamela.ws/book/10641/1489#p1)
+So we cannot say:
+
+(@) [x]{.subs} [هذا زيدا الضارب]{.ar}
+
+We would have to say instead
+
+(@) [v]{.subs} [هذا الضارب زيدا]{.ar}
+
 
 TODO: Fronting the [mafulb]{.subs} is not permitted for [sifah_mush]{.subs}. See link in example above. Add to section on [sifah_mush]{.subs}
 
@@ -931,6 +946,25 @@ Examples:
     [I passed by a man whose slave-boys are sitting]{.trans}  
     (Note that the [manut]{.subs} [رَجُل]{.ar} is singular in this case.)
 
+## The [ism_fail]{.subs} as the governor of a non-[sababi]{.subs} [zaahir]{.subs} [faa3il]{.subs}
+
+When the [faa3il]{.subs} of the [ism_fail]{.subs} is [zaahir]{.subs} then it will often be a [sababi]{.subs} [faa3il]{.subs},
+as we have seen in sections\ (sababi-xabar) and (sababi-na3t) above.
+However, it is also possible for the [ism_fail]{.subs} to govern a non-[sababi]{.subs} [zaahir]{.subs} [faa3il]{.subs}.
+For example:
+
+(@) [مررت برجل متكلمٍ محمدٌ في داره]{.ar}
+    [[البسيط لابن أبي الربيع]{.ar} 1075]{.citex}  
+    [I passed by a man [whom] [#muHammad]{.trn2} was speaking in his house.]{.ar}
+
+In the example above
+[محمد]{.ar}
+is the [faa3il]{.subs} of the [ism_fail]{.subs}
+[متكلم]{.ar}.
+But because it is not annexed to a pronoun which refers back to
+[رجل]{.ar},
+therefore it is not a [sababi]{.subs} [faa3il]{.subs}.
+
 ## Conditions for the [ism_fail]{.subs} to govern a [faa3il]{.subs}
 
 In section\ (ref) above,
@@ -1027,6 +1061,7 @@ Because the [faa3il]{.subs} is now [zaahir]{.subs} the [ism_fail]{.subs} will no
     [Zayd -- Hind -- [he] is beating her.]{.trans}  
     (i.e. [Zayd is beating Hind.]{.trans})
 
+<!--
 #### The [ism_fail]{.subs} is the [mudaf]{.subs} in a [ma3nawi]{.subs} [idaafah]{.subs} {.unnumbered}
 
 When [ism_fail]{.subs} is the [mudaf]{.subs} in a [ma3nawi]{.subs} [idaafah]{.subs},
@@ -1064,6 +1099,7 @@ For example:
 (@) [مَرَرْتُ بِرَجُلٍ قَائِمٍ لَا قَاعِدٍ]{.ar}
     [[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar} 156]{.citex}  
     [I passed by a standing, not a sitting, man.]{.trans}
+-->
 
 ## [#lafzi]{.subs} [idaafah]{.subs}
 
@@ -1093,6 +1129,14 @@ as opposed to a [ma3nawi]{.subs} [idaafah]{.subs},
 which is what we have been studying so far.
 This is because it is only an [idaafah]{.subs} for the purposes of easing the pronunciation,
 not in meaning.
+
+Regarding terminology,
+[عَمْرٍو]{.ar}
+syntactically
+becomes a [mudafil]{.subs} in the [lafzi]{.subs} [idaafah]{.subs}.
+But in meaning, it is still the [mafulb]{.subs} of the [ism_fail]{.subs}
+[ضَارِب]{.ar}.
+We will refer to it as the _semantic [mafulb]{.subs}_.
 
 By the way, the sentence
 [زَيْدٌ ضَارِبُ عَمْرٍو]{.ar}

@@ -286,7 +286,9 @@ This is touched upon in section\ (ma3aani_ism_faa3il).
 
 As with verbs, the ;mafulb; usually follows its governing ;ism_fail;
 (as in the examples above).
-But the ;mafulb; is allowed to precede its governing ;ism_fail;.
+But 
+when an ;ism_fail; is not prefixed by [ال]{.ar}, then its
+;mafulb; is allowed to precede it.
 So we can say:
 
 (@) [هذا زيدا ضارب]{.ar}
@@ -309,6 +311,19 @@ for a ;laam_taqwiya; to be used with an ;indir_mafulb; instead, thus:
     (i.e. [honoring the guest]{.trans})  
 
 The ;laam_taqwiya; is discussed in more detail in section\ (later chapter).^[See also @wright@ 2/69CD, @fischer@ §203 Note\ 2 p.\ 113 (who consider this ;laam_taqwiya; obligatory), and @nahw_wafi@ 2/475--476 (who doesn't consider it obligatory).]
+
+Also,
+the freedom for the governee of a ;ism_fail; to precede it is only given to the ;ism_fail; not prefixed by [ال]{.ar}.
+When an ;ism_fail; is prefixed by [ال]{.ar}, then its
+;mafulb; is not allowed to precede it.^[@nahw_wafi@ 3/263](https://shamela.ws/book/10641/1489#p1)
+So we cannot say:
+
+(@) ;x; [هذا زيدا الضارب]{.ar}
+
+We would have to say instead
+
+(@) ;v; [هذا الضارب زيدا]{.ar}
+
 
 TODO: Fronting the ;mafulb; is not permitted for ;sifah_mush;. See link in example above. Add to section on ;sifah_mush;
 
@@ -929,6 +944,25 @@ Examples:
     [I passed by a man whose slave-boys are sitting]{.trans}  
     (Note that the ;manut; [رَجُل]{.ar} is singular in this case.)
 
+## The ;ism_fail; as the governor of a non-;sababi; ;zaahir; ;faa3il;
+
+When the ;faa3il; of the ;ism_fail; is ;zaahir; then it will often be a ;sababi; ;faa3il;,
+as we have seen in sections\ (sababi-xabar) and (sababi-na3t) above.
+However, it is also possible for the ;ism_fail; to govern a non-;sababi; ;zaahir; ;faa3il;.
+For example:
+
+(@) [مررت برجل متكلمٍ محمدٌ في داره]{.ar}
+    [@baseet_ibn_abi_rabee3@ 1075]{.citex}  
+    [I passed by a man [whom] [#muHammad]{.trn2} was speaking in his house.]{.ar}
+
+In the example above
+[محمد]{.ar}
+is the ;faa3il; of the ;ism_fail;
+[متكلم]{.ar}.
+But because it is not annexed to a pronoun which refers back to
+[رجل]{.ar},
+therefore it is not a ;sababi; ;faa3il;.
+
 ## Conditions for the ;ism_fail; to govern a ;faa3il;
 
 In section\ (ref) above,
@@ -1025,6 +1059,7 @@ Because the ;faa3il; is now ;zaahir; the ;ism_fail; will not govern an additiona
     [Zayd -- Hind -- [he] is beating her.]{.trans}  
     (i.e. [Zayd is beating Hind.]{.trans})
 
+<!--
 #### The ;ism_fail; is the ;mudaf; in a ;ma3nawi; ;idaafah; {.unnumbered}
 
 When ;ism_fail; is the ;mudaf; in a ;ma3nawi; ;idaafah;,
@@ -1062,6 +1097,7 @@ For example:
 (@) [مَرَرْتُ بِرَجُلٍ قَائِمٍ لَا قَاعِدٍ]{.ar}
     [@su3ood_dameer_mustatir@ 156]{.citex}  
     [I passed by a standing, not a sitting, man.]{.trans}
+-->
 
 ## #;lafzi; ;idaafah;
 
@@ -1091,6 +1127,14 @@ as opposed to a ;ma3nawi; ;idaafah;,
 which is what we have been studying so far.
 This is because it is only an ;idaafah; for the purposes of easing the pronunciation,
 not in meaning.
+
+Regarding terminology,
+[عَمْرٍو]{.ar}
+syntactically
+becomes a ;mudafil; in the ;lafzi; ;idaafah;.
+But in meaning, it is still the ;mafulb; of the ;ism_fail;
+[ضَارِب]{.ar}.
+We will refer to it as the _semantic ;mafulb;_.
 
 By the way, the sentence
 [زَيْدٌ ضَارِبُ عَمْرٍو]{.ar}

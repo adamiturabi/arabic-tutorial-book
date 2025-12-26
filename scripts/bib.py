@@ -609,6 +609,20 @@ def populate_resource_list():
     , sort_key = "شرح التسهيل لابن مالك"
     ))
   resource_list.append(BibResource(
+    "ibn_aqil_musaa3id"
+    , cit_type = "ar_ref"
+    , cit_text = "[المساعد على تسهيل الفوائد لابن عقيل]{.ar}"
+    , bib_text = """
+      الكتاب: المساعد على تسهيل الفوائد  
+      المؤلف: بهاء الدين بن عقيل  
+      المحقق: د. محمد كامل بركات  
+      الناشر: جامعة أم القرى (دار الفكر، دمشق - دار المدني، جدة)  
+      الطبعة: الأولى، (١٤٠٠ - ١٤٠٥ هـ)  
+      عدد الأجزاء: ٤  
+      """ + format_url_ar("https://shamela.ws/book/133358")
+    , sort_key = "مساعد على تسهيل الفوايد لابن عقيل"
+    ))
+  resource_list.append(BibResource(
     "sirafi_sibawayhi"
     , cit_type = "ar_ref"
     , cit_text = "[شرح كتاب سيبويه للسيرافي]{.ar}"
@@ -706,7 +720,68 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/12024")
     , sort_key = "شرح الكافية الشافية لابن مالك"
     ))
-    
+  resource_list.append(BibResource(
+    "ibn_alanbaari_mudhakkar"
+    , cit_type = "ar_ref"
+    , cit_text = "[المذكر والمؤنث لابن الأنباري]{.ar}"
+    , bib_text = """
+      الكتاب: المذكر والمؤنث  
+      المؤلف: أبو بكر، محمد بن القاسم بن محمد بن بشار بن الحسن بن بيان بن سماعة بن فَروة بن قَطَن بن دعامة الأنباري (ت ٣٢٨ هـ)  
+      المحقق: محمد عبد الخالق عضيمة  
+      مراجعة: د. رمضان عبد التواب  
+      الناشر: جمهورية مصر العربية - وزارة الأوقاف - المجلس الأعلى للشؤون الإسلامية - لجنة إحياء التراث  
+      سنة النشر: ١٤٠١ هـ - ١٩٨١ م  
+      عدد الأجزاء: ٢  
+      """ + format_url_ar("https://shamela.ws/book/17819")
+    , sort_key = "مذكر والمونث لابن الانباري"
+    ))
+  resource_list.append(BibResource(
+    "maghazi_waqidi"
+    , cit_type = "corpus"
+    , cit_text = "[مغازي الواقدي]{.ar}"
+    , bib_text = """
+      الكتاب: المغازي  
+      المؤلف: محمد بن عمر بن واقد [الواقدي] (ت ٢٠٧ هـ)  
+      تحقيق: د مارسدن جونس  
+      الناشر: جامعة أكسفورد - لندن، ١٩٦٦ م  
+      (وصورته دور نشر مثل دار الأعلمي، وعالم الكتب)  
+      عدد الأجزاء: ٣ (متسلسلة الترقيم)  
+      """ + format_url_ar("https://shamela.ws/book/23680")
+    , sort_key = "مغازي الواقدي"
+    ))
+  resource_list.append(BibResource(
+    "tarikh_tabari"
+    , cit_type = "corpus"
+    , cit_text = "[تاريخ الطبري]{.ar}"
+    , bib_text = """
+      الكتاب: تاريخ الطبري = تاريخ الرسل والملوك  
+      المؤلف: أبو جعفر، محمد بن جرير الطبري (٢٢٤ - ٣١٠ هـ)  
+      ويليه بالجزء ١١: «صلة تاريخ الطبري» لعريب بن سعد القرطبي [ت ٣٦٩ هـ]  
+      ويليه: «تكملة تاريخ الطبري» لمحمد بن عبد الملك الهمذاني [ت ٥٢١ هـ]  
+      ويليه: «المنتخب من كتاب ذيل المذيل من تاريخ الصحابة والتابعين لمحمد بن جرير الطبري» لأحد العلماء  
+      المحقق: محمد أبو الفضل إبراهيم [ت ١٤٠١ هـ]  
+      الناشر: دار المعارف بمصر  
+      الطبعة: الثانية ١٣٨٧ هـ - ١٩٦٧ م  
+      عدد الأجزاء: ١١  
+      """ + format_url_ar("https://shamela.ws/book/9783")
+    , sort_key = "تاريخ الطبري"
+    ))
+  resource_list.append(BibResource(
+    "sharh_ashmooni"
+    , cit_type = "ar_ref"
+    , cit_text = "[شرح الأشمونى لألفية ابن مالك]{.ar}"
+    , bib_text = """
+      الكتاب: شرح الأشموني على ألفية ابن مالك  
+      المؤلف: علي بن محمد بن عيسى، أبو الحسن، نور الدين الأُشْمُوني الشافعي (ت ٩٠٠هـ)  
+      الناشر: دار الكتب العلمية بيروت- لبنان  
+      الطبعة: الأولى ١٤١٩هـ- ١٩٩٨مـ  
+      عدد الأجزاء: ٤  
+      """ + format_url_ar("https://shamela.ws/book/11742")
+    , sort_key = "شرح الاشمونى لافية ابن مالك"
+    ))
+
+
+
   # Western
 
   resource_list.append(BibResource(
@@ -843,6 +918,13 @@ def populate_resource_list():
     , cit_text = 'Youssef, Z., _Das partizip im Arabischen_'
     , bib_text = 'Youssef, Z., _Das partizip im Arabischen_, Ph.D. diss., University Erlangen-Nürnberg, 1990.'
     , sort_key = 'youssef z das partizip im arabischen'
+    ))
+  resource_list.append(BibResource(
+    "lane"
+    , cit_type = "ws_ref"
+    , cit_text = "Lane's Lexicon"
+    , bib_text = 'Lane, E.\\ W., _An Arabic-English Lexicon_, <https://ejtaal.net/aa>'
+    , sort_key = 'lanes lexicon'
     ))
   return resource_list
 
