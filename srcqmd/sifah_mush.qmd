@@ -239,6 +239,26 @@ So we cannot say:
 
 ## The ;sifah_mush; in a ;lafzi; ;idaafah;
 
+Like the ;ism_fail;,
+the ;sifah_mush; forms a ;lafzi; ;idaafah; with its governee.
+In section\ (ref),
+we learned that
+the ;ism_fail; forms a ;lafzi; ;idaafah; between the ;ism_fail; and its semantic ;mafulb;.
+The ;sifah_mush; is typically from an intransitive verb.
+so it will not have a ;mafulb;.
+Instead, it
+forms a ;lafzi; ;idaafah; in two ways:
+
+ i. A ;lafzi; ;idaafah; between the ;sifah_mush; and its semantic _;faa3il;_.
+ii. A ;lafzi; ;idaafah; between the ;sifah_mush; and its ;tamyiz;.
+
+### #;lafzi; ;idaafah; between the ;sifah_mush; and its semantic ;faa3il;
+
+The ;sifah_mush; can form a
+;lafzi; ;idaafah; between the ;sifah_mush; and its semantic ;faa3il;.
+It does this by first transforming its ;faa3il; into a _;mafulb;-like_ governee.
+Wil will explaing this process below:
+
 Consider the sentence:
 
 (@) [مررت برجل حسنٍ وجهُه]{.ar}
@@ -249,12 +269,16 @@ the ;sifah_mush; has a definite ;sababi; ;faa3il;
 [وجهه]{.ar}.
 This sentence is transformed in the following manner^[@baseet_ibn_abi_rabee3@ 1080]:
 
+#### First step of the transformation {.unnumbered}
+
 Firstly, the base noun pronoun
 [ه]{.ar}
 in
 [وجهه]{.ar}
 is transferred to being a ;mustatir; ;faa3il; pronoun of the ;sifah_mush;
 [حسن]{.ar}.
+
+#### Second step of the transformation {.unnumbered}
 
 Secondly,
 [وجه]{.ar},
@@ -265,8 +289,7 @@ eliminated, is made into
 to keep it definite
 (to match [وجهه]{.ar} which was also definite).
 
-Thirdly,
-because
+Now that
 the ;sifah_mush;
 [حسن]{.ar}
 already has a ;faa3il;
@@ -300,21 +323,50 @@ is still describing a quality of [الوجه]{.ar},
 not [رجل]{.ar}.
 
 But now that [الوجه]{.ar} is not syntactically the ;faa3il; of the ;sifah_mush;,
-the ;sifah_mush; is dualized in number and gender to match its syntactic referent ([رجل]{.ar} in example () above).
+the ;sifah_mush; match its syntactic referent [رجل]{.ar}
+in gender and number,
+not its semantic ;faa3il;
+[الوجه]{.ar}.
 So we will say:
 
 (@) [مررت برجلين حسنين الوجهين]{.ar}
+
+(@) [مررت برجالٍ حسانٍ الوجوهَ]{.ar}
+
+(@) [مررت بمرأة حسنة الوجهَ]{.ar}
+
+(@) [مررت بمرأتين حسنتين الوجهين]{.ar}
+
+Remember, that it
+[الوجه]{.ar}
+were syntactically the ;faa3il;,
+then we would have said instead:
+
+(@) [مررت برجلين حسنين وجهاهما]{.ar}
+
+(@) [مررت بمرأة حَسَنٍ وجهُهَا]{.ar}
+
+etc.
+
+The transformation that we have described above works exactly the same for definite ;sifah_mush;s.
+So we will say:
+
+(@) [مررت بالرجل الحسن الوجهَ]{.ar}
+
 (@) [جاءت المرأتان الحسنتان الوجهين]{.ar}
 
+etc.
+
+#### Final step of the transformation {.unnumbered}
 
 A sentence with a ;mafulb;-like governee,
 like in example ()
 [مررت برجل حسنٍ الوجهَ]{.ar}
 above,
 while grammatically correct, is rarely used in practice.^[@su3ood_dameer_mustatir@ 166]
-The main purpose of the ;mafulb;-like governee is that it is used as a stepping stone for another transformation:
+The main purpose of the ;mafulb;-like governee is that it is used as a intermediate step for another transformation:
 and that is into a ;lafzi; ;idaafah;^[@su3ood_dameer_mustatir@ 167]
-We will see this in section\ (ref) below, ;ia;.
+This is done by converting the ;mafulb;-like governee into a syntactic ;mudafil;.
 
 <!--
 #### Transformation of ;faa3il; which is an ;mudaf; {.unnumbered}
@@ -379,6 +431,7 @@ do not form a ;lafzi; ;idaafah;:
 * Indefinite ;sifah_mush;: [حَسَنٌ وَجْهُهُ]{.ar}
 * Definite ;sifah_mush;: [الْحَسَنُ وَجْهُهُ]{.ar}
 -->
+<!--
 We have discussed the following constructions of a ;sifah_mush; with a ;astate; governee:
  
 1. The ;sifah_mush; with a (definite) ;mafulb;-like governee 
@@ -393,15 +446,31 @@ We have discussed the following constructions of a ;sifah_mush; with a ;astate; 
 
 Constructions 1a and 1b are both form a ;lafzi; ;idaafah;.^[@su3ood_dameer_mustatir@ 171]
 In fact, the ;lafzi; ;idaafah; is the dominant form of usage for such constructions.
-So we will say:
+-->
 
-(@) [مررت برجل حسنِ الوجهِ]{.ar}
+Lets start with ;sifah_mush;s with their ;mafulb;-like governees:
+
+* Indefinite ;sifah_mush;: [حَسَنٌ الْوَجْهَ]{.ar}
+* Definite ;sifah_mush;: [الْحَسَنُ الْوَجْهَ]{.ar}
+
+The
+;astate; ;mafulb;-like governees
+are converted into ;mudafil;s in the ;istate;:
+
+* Indefinite ;sifah_mush;: [حَسَنُ الْوَجْهِ]{.ar}
+* Definite ;sifah_mush;: [الْحَسَنُ الْوَجْهِ]{.ar}
+
+
+Here are some examples using this ;lafzi; ;idaafah;:
+
+(@sifah_mush_marartu_birajulin_hasanil_wajhi) [مررت برجل حسنِ الوجهِ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 1078, 1081]{.citex}
 
 (@) [جاء الرجل الحسنُ الوجهِ]{.ar}
 
-Here are some more examples with the feminine, dual, and plural.
 Note that, because [الوجه]{.ar} is a ;astate; governee, and not the ;faa3il;,
 of the ;sifah_mush;, therefore, the ;sifah_mush; is feminized, dualized, or pluralized to match its referent, not [الوجه]{.ar}.
+Examples:
 
 (@) [هند حسنة الوجه]{.ar}
     [@radiy_kafiyah@ 3/439]{.citex}
@@ -412,6 +481,69 @@ of the ;sifah_mush;, therefore, the ;sifah_mush; is feminized, dualized, or plur
 (@) [الزيدون حسنو الوجوه]{.ar}
     [@radiy_kafiyah@ 3/439]{.citex}
 
+## The ;sifah_mush; with a ;tamyiz;
+
+Remember from section\ (ref),
+that the ;tamyiz; is a ;astate; governee that specifies the scope of its governor.
+As a verb-like noun,
+the ;sifah_mush;
+can govern a ;tamyiz;.
+So we can say, for example:
+
+(@) [مررت برجل حسن وجهًا]{.ar}
+    [@baseet_ibn_abi_rabee3@ 1080]{.citex}
+
+(@) [جاءت المرأة الحسنة وجهًا]{.ar}
+
+(@) [الزيدون حسنون وجوها]{.ar}
+    [@abu_hayyan_tadhyeel@ 9/241]{.citex}  
+
+### #;lafzi; ;idaafah; of the ;sifah_mush; with a ;tamyiz;
+
+As with the ;sifah_mush; that has a ;mafulb;-like governee,
+the ;sifah_mush; with a ;tamyiz;
+also can also form a
+;lafzi; ;idaafah;.
+
+So
+[حَسَنٌ وَجْهًا]{.ar} will become:
+
+(@) [حسنُ وجهٍ]{.ar}
+    [@su3ood_dameer_mustatir@ 171]{.citex}
+
+Again, the ;sifah_mush; will not match its referent in gender and number.
+So, for example, we will say:
+
+(@) [هم حسنو وجوه]{.ar}
+    [[@abu_hayyan_tadhyeel@ 9/227](https://shamela.ws/book/17116/3012)]{.citex}  
+
+Unlike, the ;sifah_mush; with a ;mafulb;-like governee,
+a ;sifah_mush; prefixed by [ال]{.ar} with a ;tamyiz; does not form a ;lafzi; ;idaafah;
+This is because a definite ;mudaf; 
+with an indefinite ;mudafil; is fundamentally inconsistent with an ;idaafah; construction.^[@su3ood_dameer_mustatir@ 169]{.citex}
+So
+[الْحَسَنُ وَجْهًا]{.ar}, 
+however, does not
+form a ;lafzi; ;idaafah;
+to become:
+
+(@) ;x; [الحسنةُ وجهٍ]{.ar}
+    [@su3ood_dameer_mustatir@ 169]{.citex}
+
+Finally,
+whereas the ;sifah_mush; with its ;mafulb;-like governee
+(e.g. [حَسَنُ الْوَجْهَ]{.ar})
+is pretty much only used as an intermediate step to form a ;lafzi; ;idaafah;,
+such is not the case for 
+the
+;sifah_mush; with a ;tamyiz;.
+The
+;sifah_mush; with a ;tamyiz;
+can be used, as is, without converting it into a
+;lafzi; ;idaafah;.^[@su3ood_dameer_mustatir@ 167 citing @radiy_kafiyah@ 3/439]
+
+
+<!--
 Construction 2a
 [حَسَنٌ وَجْهًا]{.ar}
 can also form a ;lafzi; ;idaafah;.^[@su3ood_dameer_mustatir@ 171]
@@ -426,6 +558,29 @@ form a ;lafzi; ;idaafah;.^[@su3ood_dameer_mustatir@ 169]
 So we cannot say:
 
 (@) ;x; [جاءت المرأة الحسنةُ وجهٍ]{.ar}
+-->
+
+## The word order of the ;sifah_mush; and its ;astate; governee
+
+Recall from section\ (ref) above that the ;astate; governee of a ;ism_fail; is permitted to precede its governing ;ism_fail; in word order.
+So we can say:
+
+(@) [زيد عمرا ضارب]{.ar}
+    [@ibn_aqil_alfiyyah@ 3/143]{.citex}
+
+But this is not permitted for the ;sifah_mush;.^ [@sirafi_sibawayhi@ 1/259; @ibn_aqil_alfiyyah@ 3/143]
+So we cannot say:
+
+(@) ;x; [زَيْدٌ الْوَجْهَ حَسَنٌ]{.ar}
+    [@ibn_aqil_alfiyyah@ 3/143]{.citex}
+
+Nor is the ;tamyiz; allowed to precede its governing ;sifah_mush;
+(see section\ (ref)).
+So we cannot say:
+
+(@) ;x; [زيد وَجها حسن]{.ar}
+    [[@muqtadab@ 4/164](https://shamela.ws/book/6965/1178)]{.citex}  
+
 
 ## Uncommon constructions of the ;sifah_mush;
 
@@ -1016,6 +1171,69 @@ For example:
 
 (@) [حِصْنٌ مَنِيعٌ وَقَلْعَةٌ مَنِيعَةٌ]{.ar}  
     [an impregnable fort and an impregnable citadel]{.trans}
+
+## Definiteness of a ;sifah_mush; in a ;lafzi; ;idaafah; 
+
+We learned in section\ (ref)
+that the ;mudaf; in a
+;lafzi; ;idaafah; is not made definite by a definite ;mudafil;.
+We saw this in example (@sifah_mush_marartu_birajulin_hasanil_wajhi) [مررت برجل حسنِ الوجهِ]{.ar},
+where
+[حَسَن]{.ar}
+in the ;lafzi; ;idaafah; remains indefinite
+even though it is a ;mudaf; to a definite ;mudafil;
+[الْوَجْهِ]{.ar}.
+Therefore,
+the indefinite
+[حَسَن]{.ar}
+is a ;na3t; to the indefinite ;manut;
+[رَجُل]{.ar}.
+
+If the ;manut; is definite,
+then the ;sifah_mush; ;mudaf; is prefixed by [ال]{.ar}.
+
+(@) [مررت بالرجل الحسنِ الوجهِ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/116](https://shamela.ws/book/13301/1480)]{.citex}
+
+(@) [مررتُ بزيدٍ الحسنِ الوجهِ، وهندٍ الجائلةِ الوِشاح]{.ar}
+    [[@ibn_ya3ish_mufassal@ 2/132](https://shamela.ws/book/13301/582)]{.citex}
+
+This rule of a ;sifah_mush; not becoming definite because of a definite ;mudafil;
+is followed more strictly than for the ;ism_fail;.
+In the case of an ;ism_fail;,
+we saw in section\ (ref) that it can cross over to a ;substantive; in an ad\ hoc manner.
+When this happens, then it it becomes definite when it is a ;mudaf; to a definite ;mudafil;
+(section\ (ref)).
+
+But the ;sifah_mush;, when it is a ;mudaf; to its semantic ;faa3il;,
+cannot be understood as a ;ma3nawi; ;idaafah;.
+That is 
+[حَسَنُ الْوَجْهِ]{.ar}
+[handsome of face]{.trans}
+can only be understood to mean that the face is handsome,
+never [the face's handsome-one]{.trans}.
+So we cannot, in general, say:
+
+(@) ;x; [مررت بزيد حسن الوجه]{.ar}
+    [[@za3balawi_dirasat@ 496](https://shamela.ws/book/2120/496) citing [الجامي]{.ar}]{.citex}  
+
+We would have to say [مررتُ بزيدٍ الحسنِ الوجهِ]{.ar} instead, as in example () above.
+
+All this notwithstanding,
+some grammarians allow,
+on occasion,
+a ;sifah_mush;,
+when a ;mudaf; to its semantic ;faa3il;,
+to become definite by a definite ;mudafil;.
+This is by reason of aligning to form of a ;ma3nawi; ;idaafah;.
+For more discussion on this, see
+@https://tafsir.app/ibn-uthaymeen/40/3@:
+
+(@) [غَافِرِ ٱلذَّنۢبِ وَقَابِلِ ٱلتَّوۡبِ **شَدِیدِ ٱلۡعِقَابِ** ذِی ٱلطَّوۡلِۖ لَاۤ إِلَـٰهَ إِلَّا هُوَۖ إِلَیۡهِ ٱلۡمَصِیرُ]{.quran}
+    [@https://quran.com/40/3@]{.citex}  
+    [The forgiver of sin, acceptor of repentance, severe in punishment, owner of abundance. There is no deity except Him; to Him is the destination.]{.trans}
+
+
 
 ## Further reading
 

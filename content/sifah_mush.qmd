@@ -241,6 +241,26 @@ So we cannot say:
 
 ## The [sifah_mush]{.subs} in a [lafzi]{.subs} [idaafah]{.subs}
 
+Like the [ism_fail]{.subs},
+the [sifah_mush]{.subs} forms a [lafzi]{.subs} [idaafah]{.subs} with its governee.
+In section\ (ref),
+we learned that
+the [ism_fail]{.subs} forms a [lafzi]{.subs} [idaafah]{.subs} between the [ism_fail]{.subs} and its semantic [mafulb]{.subs}.
+The [sifah_mush]{.subs} is typically from an intransitive verb.
+so it will not have a [mafulb]{.subs}.
+Instead, it
+forms a [lafzi]{.subs} [idaafah]{.subs} in two ways:
+
+ i. A [lafzi]{.subs} [idaafah]{.subs} between the [sifah_mush]{.subs} and its semantic _[faa3il]{.subs}_.
+ii. A [lafzi]{.subs} [idaafah]{.subs} between the [sifah_mush]{.subs} and its [tamyiz]{.subs}.
+
+### [#lafzi]{.subs} [idaafah]{.subs} between the [sifah_mush]{.subs} and its semantic [faa3il]{.subs}
+
+The [sifah_mush]{.subs} can form a
+[lafzi]{.subs} [idaafah]{.subs} between the [sifah_mush]{.subs} and its semantic [faa3il]{.subs}.
+It does this by first transforming its [faa3il]{.subs} into a _[mafulb]{.subs}-like_ governee.
+Wil will explaing this process below:
+
 Consider the sentence:
 
 (@) [مررت برجل حسنٍ وجهُه]{.ar}
@@ -251,12 +271,16 @@ the [sifah_mush]{.subs} has a definite [sababi]{.subs} [faa3il]{.subs}
 [وجهه]{.ar}.
 This sentence is transformed in the following manner^[[البسيط لابن أبي الربيع]{.ar} 1080]:
 
+#### First step of the transformation {.unnumbered}
+
 Firstly, the base noun pronoun
 [ه]{.ar}
 in
 [وجهه]{.ar}
 is transferred to being a [mustatir]{.subs} [faa3il]{.subs} pronoun of the [sifah_mush]{.subs}
 [حسن]{.ar}.
+
+#### Second step of the transformation {.unnumbered}
 
 Secondly,
 [وجه]{.ar},
@@ -267,8 +291,7 @@ eliminated, is made into
 to keep it definite
 (to match [وجهه]{.ar} which was also definite).
 
-Thirdly,
-because
+Now that
 the [sifah_mush]{.subs}
 [حسن]{.ar}
 already has a [faa3il]{.subs}
@@ -302,21 +325,50 @@ is still describing a quality of [الوجه]{.ar},
 not [رجل]{.ar}.
 
 But now that [الوجه]{.ar} is not syntactically the [faa3il]{.subs} of the [sifah_mush]{.subs},
-the [sifah_mush]{.subs} is dualized in number and gender to match its syntactic referent ([رجل]{.ar} in example () above).
+the [sifah_mush]{.subs} match its syntactic referent [رجل]{.ar}
+in gender and number,
+not its semantic [faa3il]{.subs}
+[الوجه]{.ar}.
 So we will say:
 
 (@) [مررت برجلين حسنين الوجهين]{.ar}
+
+(@) [مررت برجالٍ حسانٍ الوجوهَ]{.ar}
+
+(@) [مررت بمرأة حسنة الوجهَ]{.ar}
+
+(@) [مررت بمرأتين حسنتين الوجهين]{.ar}
+
+Remember, that it
+[الوجه]{.ar}
+were syntactically the [faa3il]{.subs},
+then we would have said instead:
+
+(@) [مررت برجلين حسنين وجهاهما]{.ar}
+
+(@) [مررت بمرأة حَسَنٍ وجهُهَا]{.ar}
+
+etc.
+
+The transformation that we have described above works exactly the same for definite [sifah_mush]{.subs}s.
+So we will say:
+
+(@) [مررت بالرجل الحسن الوجهَ]{.ar}
+
 (@) [جاءت المرأتان الحسنتان الوجهين]{.ar}
 
+etc.
+
+#### Final step of the transformation {.unnumbered}
 
 A sentence with a [mafulb]{.subs}-like governee,
 like in example ()
 [مررت برجل حسنٍ الوجهَ]{.ar}
 above,
 while grammatically correct, is rarely used in practice.^[[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar} 166]
-The main purpose of the [mafulb]{.subs}-like governee is that it is used as a stepping stone for another transformation:
+The main purpose of the [mafulb]{.subs}-like governee is that it is used as a intermediate step for another transformation:
 and that is into a [lafzi]{.subs} [idaafah]{.subs}^[[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar} 167]
-We will see this in section\ (ref) below, [ia]{.subs}.
+This is done by converting the [mafulb]{.subs}-like governee into a syntactic [mudafil]{.subs}.
 
 <!--
 #### Transformation of [faa3il]{.subs} which is an [mudaf]{.subs} {.unnumbered}
@@ -381,6 +433,7 @@ do not form a [lafzi]{.subs} [idaafah]{.subs}:
 * Indefinite [sifah_mush]{.subs}: [حَسَنٌ وَجْهُهُ]{.ar}
 * Definite [sifah_mush]{.subs}: [الْحَسَنُ وَجْهُهُ]{.ar}
 -->
+<!--
 We have discussed the following constructions of a [sifah_mush]{.subs} with a [astate]{.subs} governee:
  
 1. The [sifah_mush]{.subs} with a (definite) [mafulb]{.subs}-like governee 
@@ -395,15 +448,31 @@ We have discussed the following constructions of a [sifah_mush]{.subs} with a [a
 
 Constructions 1a and 1b are both form a [lafzi]{.subs} [idaafah]{.subs}.^[[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar} 171]
 In fact, the [lafzi]{.subs} [idaafah]{.subs} is the dominant form of usage for such constructions.
-So we will say:
+-->
 
-(@) [مررت برجل حسنِ الوجهِ]{.ar}
+Lets start with [sifah_mush]{.subs}s with their [mafulb]{.subs}-like governees:
+
+* Indefinite [sifah_mush]{.subs}: [حَسَنٌ الْوَجْهَ]{.ar}
+* Definite [sifah_mush]{.subs}: [الْحَسَنُ الْوَجْهَ]{.ar}
+
+The
+[astate]{.subs} [mafulb]{.subs}-like governees
+are converted into [mudafil]{.subs}s in the [istate]{.subs}:
+
+* Indefinite [sifah_mush]{.subs}: [حَسَنُ الْوَجْهِ]{.ar}
+* Definite [sifah_mush]{.subs}: [الْحَسَنُ الْوَجْهِ]{.ar}
+
+
+Here are some examples using this [lafzi]{.subs} [idaafah]{.subs}:
+
+(@sifah_mush_marartu_birajulin_hasanil_wajhi) [مررت برجل حسنِ الوجهِ]{.ar}
+    [[البسيط لابن أبي الربيع]{.ar} 1078, 1081]{.citex}
 
 (@) [جاء الرجل الحسنُ الوجهِ]{.ar}
 
-Here are some more examples with the feminine, dual, and plural.
 Note that, because [الوجه]{.ar} is a [astate]{.subs} governee, and not the [faa3il]{.subs},
 of the [sifah_mush]{.subs}, therefore, the [sifah_mush]{.subs} is feminized, dualized, or pluralized to match its referent, not [الوجه]{.ar}.
+Examples:
 
 (@) [هند حسنة الوجه]{.ar}
     [[شرح الرضي على الكافية]{.ar} 3/439]{.citex}
@@ -414,6 +483,69 @@ of the [sifah_mush]{.subs}, therefore, the [sifah_mush]{.subs} is feminized, dua
 (@) [الزيدون حسنو الوجوه]{.ar}
     [[شرح الرضي على الكافية]{.ar} 3/439]{.citex}
 
+## The [sifah_mush]{.subs} with a [tamyiz]{.subs}
+
+Remember from section\ (ref),
+that the [tamyiz]{.subs} is a [astate]{.subs} governee that specifies the scope of its governor.
+As a verb-like noun,
+the [sifah_mush]{.subs}
+can govern a [tamyiz]{.subs}.
+So we can say, for example:
+
+(@) [مررت برجل حسن وجهًا]{.ar}
+    [[البسيط لابن أبي الربيع]{.ar} 1080]{.citex}
+
+(@) [جاءت المرأة الحسنة وجهًا]{.ar}
+
+(@) [الزيدون حسنون وجوها]{.ar}
+    [[التذييل والتكميل لأبي حيان]{.ar} 9/241]{.citex}  
+
+### [#lafzi]{.subs} [idaafah]{.subs} of the [sifah_mush]{.subs} with a [tamyiz]{.subs}
+
+As with the [sifah_mush]{.subs} that has a [mafulb]{.subs}-like governee,
+the [sifah_mush]{.subs} with a [tamyiz]{.subs}
+also can also form a
+[lafzi]{.subs} [idaafah]{.subs}.
+
+So
+[حَسَنٌ وَجْهًا]{.ar} will become:
+
+(@) [حسنُ وجهٍ]{.ar}
+    [[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar} 171]{.citex}
+
+Again, the [sifah_mush]{.subs} will not match its referent in gender and number.
+So, for example, we will say:
+
+(@) [هم حسنو وجوه]{.ar}
+    [[[التذييل والتكميل لأبي حيان]{.ar} 9/227](https://shamela.ws/book/17116/3012)]{.citex}  
+
+Unlike, the [sifah_mush]{.subs} with a [mafulb]{.subs}-like governee,
+a [sifah_mush]{.subs} prefixed by [ال]{.ar} with a [tamyiz]{.subs} does not form a [lafzi]{.subs} [idaafah]{.subs}
+This is because a definite [mudaf]{.subs} 
+with an indefinite [mudafil]{.subs} is fundamentally inconsistent with an [idaafah]{.subs} construction.^[[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar} 169]{.citex}
+So
+[الْحَسَنُ وَجْهًا]{.ar}, 
+however, does not
+form a [lafzi]{.subs} [idaafah]{.subs}
+to become:
+
+(@) [x]{.subs} [الحسنةُ وجهٍ]{.ar}
+    [[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar} 169]{.citex}
+
+Finally,
+whereas the [sifah_mush]{.subs} with its [mafulb]{.subs}-like governee
+(e.g. [حَسَنُ الْوَجْهَ]{.ar})
+is pretty much only used as an intermediate step to form a [lafzi]{.subs} [idaafah]{.subs},
+such is not the case for 
+the
+[sifah_mush]{.subs} with a [tamyiz]{.subs}.
+The
+[sifah_mush]{.subs} with a [tamyiz]{.subs}
+can be used, as is, without converting it into a
+[lafzi]{.subs} [idaafah]{.subs}.^[[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar} 167 citing [شرح الرضي على الكافية]{.ar} 3/439]
+
+
+<!--
 Construction 2a
 [حَسَنٌ وَجْهًا]{.ar}
 can also form a [lafzi]{.subs} [idaafah]{.subs}.^[[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar} 171]
@@ -428,6 +560,29 @@ form a [lafzi]{.subs} [idaafah]{.subs}.^[[الضمير المستتر لسعود
 So we cannot say:
 
 (@) [x]{.subs} [جاءت المرأة الحسنةُ وجهٍ]{.ar}
+-->
+
+## The word order of the [sifah_mush]{.subs} and its [astate]{.subs} governee
+
+Recall from section\ (ref) above that the [astate]{.subs} governee of a [ism_fail]{.subs} is permitted to precede its governing [ism_fail]{.subs} in word order.
+So we can say:
+
+(@) [زيد عمرا ضارب]{.ar}
+    [[شرح ابن عقيل على الألفية]{.ar} 3/143]{.citex}
+
+But this is not permitted for the [sifah_mush]{.subs}.^ [[شرح كتاب سيبويه للسيرافي]{.ar} 1/259; [شرح ابن عقيل على الألفية]{.ar} 3/143]
+So we cannot say:
+
+(@) [x]{.subs} [زَيْدٌ الْوَجْهَ حَسَنٌ]{.ar}
+    [[شرح ابن عقيل على الألفية]{.ar} 3/143]{.citex}
+
+Nor is the [tamyiz]{.subs} allowed to precede its governing [sifah_mush]{.subs}
+(see section\ (ref)).
+So we cannot say:
+
+(@) [x]{.subs} [زيد وَجها حسن]{.ar}
+    [[[المقتضب للمبرد]{.ar} 4/164](https://shamela.ws/book/6965/1178)]{.citex}  
+
 
 ## Uncommon constructions of the [sifah_mush]{.subs}
 
@@ -1018,6 +1173,69 @@ For example:
 
 (@) [حِصْنٌ مَنِيعٌ وَقَلْعَةٌ مَنِيعَةٌ]{.ar}  
     [an impregnable fort and an impregnable citadel]{.trans}
+
+## Definiteness of a [sifah_mush]{.subs} in a [lafzi]{.subs} [idaafah]{.subs} 
+
+We learned in section\ (ref)
+that the [mudaf]{.subs} in a
+[lafzi]{.subs} [idaafah]{.subs} is not made definite by a definite [mudafil]{.subs}.
+We saw this in example (@sifah_mush_marartu_birajulin_hasanil_wajhi) [مررت برجل حسنِ الوجهِ]{.ar},
+where
+[حَسَن]{.ar}
+in the [lafzi]{.subs} [idaafah]{.subs} remains indefinite
+even though it is a [mudaf]{.subs} to a definite [mudafil]{.subs}
+[الْوَجْهِ]{.ar}.
+Therefore,
+the indefinite
+[حَسَن]{.ar}
+is a [na3t]{.subs} to the indefinite [manut]{.subs}
+[رَجُل]{.ar}.
+
+If the [manut]{.subs} is definite,
+then the [sifah_mush]{.subs} [mudaf]{.subs} is prefixed by [ال]{.ar}.
+
+(@) [مررت بالرجل الحسنِ الوجهِ]{.ar}
+    [[[شرح ابن يعيش على المفصل]{.ar} 4/116](https://shamela.ws/book/13301/1480)]{.citex}
+
+(@) [مررتُ بزيدٍ الحسنِ الوجهِ، وهندٍ الجائلةِ الوِشاح]{.ar}
+    [[[شرح ابن يعيش على المفصل]{.ar} 2/132](https://shamela.ws/book/13301/582)]{.citex}
+
+This rule of a [sifah_mush]{.subs} not becoming definite because of a definite [mudafil]{.subs}
+is followed more strictly than for the [ism_fail]{.subs}.
+In the case of an [ism_fail]{.subs},
+we saw in section\ (ref) that it can cross over to a [substantive]{.subs} in an ad\ hoc manner.
+When this happens, then it it becomes definite when it is a [mudaf]{.subs} to a definite [mudafil]{.subs}
+(section\ (ref)).
+
+But the [sifah_mush]{.subs}, when it is a [mudaf]{.subs} to its semantic [faa3il]{.subs},
+cannot be understood as a [ma3nawi]{.subs} [idaafah]{.subs}.
+That is 
+[حَسَنُ الْوَجْهِ]{.ar}
+[handsome of face]{.trans}
+can only be understood to mean that the face is handsome,
+never [the face's handsome-one]{.trans}.
+So we cannot, in general, say:
+
+(@) [x]{.subs} [مررت بزيد حسن الوجه]{.ar}
+    [[[دراسات في النحو للزعبلاوي]{.ar} 496](https://shamela.ws/book/2120/496) citing [الجامي]{.ar}]{.citex}  
+
+We would have to say [مررتُ بزيدٍ الحسنِ الوجهِ]{.ar} instead, as in example () above.
+
+All this notwithstanding,
+some grammarians allow,
+on occasion,
+a [sifah_mush]{.subs},
+when a [mudaf]{.subs} to its semantic [faa3il]{.subs},
+to become definite by a definite [mudafil]{.subs}.
+This is by reason of aligning to form of a [ma3nawi]{.subs} [idaafah]{.subs}.
+For more discussion on this, see
+[[تفسير ابن عثيمين]{.ar}](https://tafsir.app/ibn-uthaymeen/40/3) for [سورة غافر]{.ar} 40:3:
+
+(@) [غَافِرِ ٱلذَّنۢبِ وَقَابِلِ ٱلتَّوۡبِ **شَدِیدِ ٱلۡعِقَابِ** ذِی ٱلطَّوۡلِۖ لَاۤ إِلَـٰهَ إِلَّا هُوَۖ إِلَیۡهِ ٱلۡمَصِیرُ]{.quran}
+    [[[سورة غافر]{.ar} 40:3](https://quran.com/40/3)]{.citex}  
+    [The forgiver of sin, acceptor of repentance, severe in punishment, owner of abundance. There is no deity except Him; to Him is the destination.]{.trans}
+
+
 
 ## Further reading
 
