@@ -269,12 +269,16 @@ the ;sifah_mush; has a definite ;sababi; ;faa3il;
 [وجهه]{.ar}.
 This sentence is transformed in the following manner^[@baseet_ibn_abi_rabee3@ 1080]:
 
+#### First step of the transformation {.unnumbered}
+
 Firstly, the base noun pronoun
 [ه]{.ar}
 in
 [وجهه]{.ar}
 is transferred to being a ;mustatir; ;faa3il; pronoun of the ;sifah_mush;
 [حسن]{.ar}.
+
+#### Second step of the transformation {.unnumbered}
 
 Secondly,
 [وجه]{.ar},
@@ -285,8 +289,7 @@ eliminated, is made into
 to keep it definite
 (to match [وجهه]{.ar} which was also definite).
 
-Thirdly,
-because
+Now that
 the ;sifah_mush;
 [حسن]{.ar}
 already has a ;faa3il;
@@ -354,6 +357,7 @@ So we will say:
 
 etc.
 
+#### Final step of the transformation {.unnumbered}
 
 A sentence with a ;mafulb;-like governee,
 like in example ()
@@ -453,13 +457,14 @@ The
 ;astate; ;mafulb;-like governees
 are converted into ;mudafil;s in the ;istate;:
 
-* Indefinite ;sifah_mush;: [حَسَنٌ الْوَجْهِ]{.ar}
+* Indefinite ;sifah_mush;: [حَسَنُ الْوَجْهِ]{.ar}
 * Definite ;sifah_mush;: [الْحَسَنُ الْوَجْهِ]{.ar}
 
 
 Here are some examples using this ;lafzi; ;idaafah;:
 
-(@) [مررت برجل حسنِ الوجهِ]{.ar}
+(@sifah_mush_marartu_birajulin_hasanil_wajhi) [مررت برجل حسنِ الوجهِ]{.ar}
+    [@baseet_ibn_abi_rabee3@ 1078, 1081]{.citex}
 
 (@) [جاء الرجل الحسنُ الوجهِ]{.ar}
 
@@ -554,15 +559,6 @@ So we cannot say:
 
 (@) ;x; [جاءت المرأة الحسنةُ وجهٍ]{.ar}
 -->
-
-### Definiteness of the ;lafzi; ;idaafah;
-
-We learned in section\ (ref)
-that the ;mudaf; in a
-;lafzi; ;idaafah; is not made definite by a definite ;mudafil;.
-So for example
-
-[شديد العقاب]{.ar}
 
 ## The word order of the ;sifah_mush; and its ;astate; governee
 
@@ -1175,6 +1171,68 @@ For example:
 
 (@) [حِصْنٌ مَنِيعٌ وَقَلْعَةٌ مَنِيعَةٌ]{.ar}  
     [an impregnable fort and an impregnable citadel]{.trans}
+
+## Definiteness of a ;sifah_mush; in a ;lafzi; ;idaafah; 
+
+We learned in section\ (ref)
+that the ;mudaf; in a
+;lafzi; ;idaafah; is not made definite by a definite ;mudafil;.
+We saw this in example (@sifah_mush_marartu_birajulin_hasanil_wajhi) [مررت برجل حسنِ الوجهِ]{.ar},
+where
+[حَسَن]{.ar}
+in the ;lafzi; ;idaafah; remains indefinite
+even though it is a ;mudaf; to a definite ;mudafil;
+[الْوَجْهِ]{.ar}.
+Therefore,
+the indefinite
+[حَسَن]{.ar}
+is a ;na3t; to the indefinite ;manut;
+[رَجُل]{.ar}.
+
+If the ;manut; is definite,
+then the ;sifah_mush; ;mudaf; is prefixed by [ال]{.ar}.
+
+(@) [مررت بالرجل الحسنِ الوجهِ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/116](https://shamela.ws/book/13301/1480)]{.citex}
+
+(@) [مررتُ بزيدٍ الحسنِ الوجهِ، وهندٍ الجائلةِ الوِشاح]{.ar}
+    [[@ibn_ya3ish_mufassal@ 2/132](https://shamela.ws/book/13301/582)]{.citex}
+
+This rule of a ;sifah_mush; not becoming definite because of a definite ;mudafil;
+is followed more strictly than for the ;ism_fail;.
+In the case of an ;ism_fail;,
+we saw in section\ (ref) that it can cross over to a ;substantive; in an ad\ hoc manner.
+When this happens, then it it becomes definite when it is a ;mudaf; to a definite ;mudafil;
+(section\ (ref)).
+
+But the ;sifah_mush;, when it is a ;mudaf; to its semantic ;faa3il;,
+cannot be understood as a ;ma3nawi; ;idaafah;.
+That is 
+[حَسَنُ الْوَجْهِ]{.ar}
+[handsome of face]{.trans}
+can only be understood to mean that the face is handsome,
+never [the face's handsome-one]{.trans}.
+So we cannot, in general, say:
+
+(@) ;x; [مررت بزيد حسن الوجه]{.ar}
+    [[@za3balawi_dirasat@ 496](https://shamela.ws/book/2120/496) citing [الجامي]{.ar}]{.citex}  
+
+We would have to say [مررتُ بزيدٍ الحسنِ الوجهِ]{.ar} instead, as in example () above.
+
+All this notwithstanding,
+some grammarians allow,
+on occasion,
+a ;sifah_mush;,
+when a ;mudaf; to its semantic ;faa3il;,
+to become definite by a definite ;mudafil;.
+For more discussion on this, see
+@https://tafsir.app/ibn-uthaymeen/40/3@:
+
+(@) [غَافِرِ ٱلذَّنۢبِ وَقَابِلِ ٱلتَّوۡبِ **شَدِیدِ ٱلۡعِقَابِ** ذِی ٱلطَّوۡلِۖ لَاۤ إِلَـٰهَ إِلَّا هُوَۖ إِلَیۡهِ ٱلۡمَصِیرُ]{.quran}
+    [@https://quran.com/40/3@]{.citex}  
+    [The forgiver of sin, acceptor of repentance, severe in punishment, owner of abundance. There is no deity except Him; to Him is the destination.]{.trans}
+
+
 
 ## Further reading
 
