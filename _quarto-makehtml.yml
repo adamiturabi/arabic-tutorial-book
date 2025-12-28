@@ -2,7 +2,7 @@ project:
   output-dir: docs
 
 book:
-  subtitle: "An online book for learning Arabic"
+  #subtitle: "An online book for learning Arabic"
   appendices:
     - content/hamzah_rules.qmd
     - content/gloss_terms.qmd
