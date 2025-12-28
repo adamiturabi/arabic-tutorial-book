@@ -44,7 +44,6 @@ book:
     - content/3amal.qmd
     - content/3amal_ism_faa3il.qmd
     - content/ta3alluq_harf_jarr.qmd
-    #- content/3amal_masdar.qmd
     - content/kaana.qmd
     - content/inna_and_its_sisters.qmd
     - content/ma3aani_ism_faa3il.qmd
@@ -57,6 +56,13 @@ book:
     - content/refs.qmd
     - content/ack.qmd
 
+    # Unused:
+    #- content/3amal_masdar.qmd
+    #- content/agreement.qmd
+    #- content/elatives.qmd
+    #- content/group_nouns.qmd
+    #- content/ism_faa3il.qmd
+    #- content/yes_no_questions.qmd
 
   downloads: [pdf]
   site-url: https://adamiturabi.github.io/arabic-tutorial-book/
