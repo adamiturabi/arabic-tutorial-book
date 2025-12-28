@@ -623,6 +623,20 @@ def populate_resource_list():
     , sort_key = "مساعد على تسهيل الفوايد لابن عقيل"
     ))
   resource_list.append(BibResource(
+    "sibawayhi"
+    , cit_type = "ar_ref"
+    , cit_text = "[الكتاب لسيبويه]{.ar}"
+    , bib_text = """
+      الكتاب: الكتاب  
+      المؤلف: عمرو بن عثمان بن قنبر الحارثي بالولاء، أبو بشر، الملقب سيبويه (ت ١٨٠هـ)  
+      المحقق: عبد السلام محمد هارون  
+      الناشر: مكتبة الخانجي، القاهرة  
+      الطبعة: الثالثة، ١٤٠٨ هـ - ١٩٨٨ م  
+      عدد الأجزاء: ٤  
+      """ + format_url_ar("https://shamela.ws/book/23018")
+    , sort_key = "كتاب سيبويه"
+    ))
+  resource_list.append(BibResource(
     "sirafi_sibawayhi"
     , cit_type = "ar_ref"
     , cit_text = "[شرح كتاب سيبويه للسيرافي]{.ar}"
