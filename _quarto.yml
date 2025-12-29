@@ -78,7 +78,7 @@ filters:
   - filters/footnotesize.lua
   - filters/citex.lua
   - filters/translation.lua
-  - filters/subs.lua
+  #- filters/subs.lua
 
 tikzarabic:
   cache: true

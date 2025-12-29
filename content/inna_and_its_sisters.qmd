@@ -4,7 +4,7 @@
 
 ## Introduction
 
-In the basic [j_ism]{.subs}, both the [mubtada]{.subs} and the [xabar]{.subs} are in the [ustate]{.subs}. For example:
+In the basic nounal sentence, both the subject and the info are in the u-state. For example:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -32,15 +32,15 @@ In the basic [j_ism]{.subs}, both the [mubtada]{.subs} and the [xabar]{.subs} ar
 
 "This man is a teacher."
 
-In the above sentence both the [mubtada]{.subs} [ٱَلرَّجُلَ]{.ar} "the man", and the [xabar]{.subs} [مُعَلِّمٌ]{.ar} "a teacher" are in the [ustate]{.subs}. In this chapter we will study a family of particles, called
+In the above sentence both the subject [ٱَلرَّجُلَ]{.ar} "the man", and the info [مُعَلِّمٌ]{.ar} "a teacher" are in the u-state. In this chapter we will study a family of particles, called
 [إِنَّ]{.ar} and its sisters,
-that modify the [j_ism]{.subs} by placing the [mubtada]{.subs} in the [astate]{.subs} instead of the [ustate]{.subs}. For example,
+that modify the nounal sentence by placing the subject in the a-state instead of the u-state. For example,
 
 [إِنَّ ٱلرَّجُلَ مُعَلِّمٌ.]{.ar}  
 [Einna -rrajula mueallimun.]{.trn}  
 "Indeed the man is a teacher."
 
-Note how, in the above example, the [mubtada]{.subs} [ٱَلرَّجُلَ]{.ar} "the man" is now in the [astate]{.subs}. The [xabar]{.subs} [مُعَلِّمٌ]{.ar} "a teacher" remains in the [ustate]{.subs}. 
+Note how, in the above example, the subject [ٱَلرَّجُلَ]{.ar} "the man" is now in the a-state. The info [مُعَلِّمٌ]{.ar} "a teacher" remains in the u-state. 
 
 The particles constituting the family of 
 [إِنَّ]{.ar} and its sisters
@@ -57,13 +57,13 @@ We shall now study each of these particles.
 
 ## [إِنَّ]{.ar} [Einna]{.trn}
 
-[إِنَّ]{.ar} [Einna]{.trn} is used to begin independent sentences. It has an emphatic meaning, as if the speaker is asserting the [xabar]{.subs} about the [ism_of]{.subs}. It is often translated into English as "indeed" or "verily", but it is also often left untranslated.
+[إِنَّ]{.ar} [Einna]{.trn} is used to begin independent sentences. It has an emphatic meaning, as if the speaker is asserting the info about the subject. It is often translated into English as "indeed" or "verily", but it is also often left untranslated.
 
-[إِنَّ]{.ar} [Einna]{.trn} is only used to begin [j_ism]{.subs}s. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.). For example,
+[إِنَّ]{.ar} [Einna]{.trn} is only used to begin nounal sentences. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.). For example,
 
 [إِنَّ ٱلدِّينَ عِنْدَ ٱللَّـٰهِ ٱلْإِسْلَامُ.]{.ar}  
 [Einna -ddIna einda -llAhi -lEislAmu.]{.trn}  
-"Indeed, the religion in the sight of [#allAh]{.trn2} is [#islAm]{.trn2}." ([quran]{.subs}\ 3:19, trans. Saheeh International)
+"Indeed, the religion in the sight of [#allAh]{.trn2} is [#islAm]{.trn2}." (Qurʾān\ 3:19, trans. Saheeh International)
 
 [إِنَّ]{.ar} [Einna]{.trn} 
 may be preceded by other particles like [وَ]{.ar} "and", [فَ]{.ar} "so", and [ثُمَّ]{.ar} "then". For example,
@@ -71,19 +71,19 @@ may be preceded by other particles like [وَ]{.ar} "and", [فَ]{.ar} "so", and
 [ٱُطْلُبِ ٱلْعِلْمَ ٱلنَّافِعَ. فَإِنَّ طَلَبَ ٱلْعِلْمَ ٱلنَّافِعَ عَمَلٌ صَالِحٌ. وَإِنَّ تَرْكَهُ غَفْلَةٌ.]{.ar}
 "Seek the useful knowledge. For indeed the seeking of the useful knowledge is a good deed. And indeed leaving it is a negligence."
 
-The [ism_of]{.subs} of
+The subject of
 [إِنَّ]{.ar} [Einna]{.trn} 
-may be a noun phrase, in which case, any [na3t]{.subs}s or replacements of the [ism_of]{.subs} are also in the [astate]{.subs}. Examples:
+may be a noun phrase, in which case, any attributes or replacements of the subject are also in the a-state. Examples:
 
 [إِنَّ هَـٰؤُلَاءِ ٱلرِّجَالَ ٱلْكِرَامَ أَصْدِقَائِي.]{.ar}  
 "Indeed these noble men are my friends."
 
-[إِنَّ]{.ar} [Einna]{.trn} may have multiple [ism_of]{.subs}s, each in the [astate]{.subs}, separated by [وَ]{.ar}. Example,
+[إِنَّ]{.ar} [Einna]{.trn} may have multiple subjects, each in the a-state, separated by [وَ]{.ar}. Example,
 
 [إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَاتِ يَعْبُدُونَ ٱللَّـٰهَ.]{.ar}  
 "Indeed the Muslim men and Muslim women worship [#allAh]{.trn2}."
 
-If the [xabar]{.subs} of the first [ism_of]{.subs} has been mentioned before the second [ism_of]{.subs}, then the second [ism_of]{.subs} may optionally be in the [astate]{.subs} or the [ustate]{.subs}. For example:
+If the info of the first subject has been mentioned before the second subject, then the second subject may optionally be in the a-state or the u-state. For example:
 
 [إِنَّ زَيْدًا جَالِسٌ وَعَمْرًا.]{.ar}  
 or  
@@ -95,14 +95,14 @@ or
 [إِنَّ هَـٰذَا ٱلْكِتَابَ لِي وَذَ ٰلِكَ ٱلْكِتَاكُ لَكَ.]{.ar}  
 "Indeed this book is for me and that book is for you."
 
-[إِنَّ]{.ar} [Einna]{.trn} may be used to begin sentences with an indefinite [ism_of]{.subs}. For example,
+[إِنَّ]{.ar} [Einna]{.trn} may be used to begin sentences with an indefinite subject. For example,
 
 [إِنَّ مَلِكًا مِنَ ٱلْهِنْدِ كَتَبَ إِلَىٰ أَحَدِ وُزَرَائِهِ.]{.ar}  
 "Indeed a king from India wrote to one of his ministers."
 
 Note that in all the above examples that
-[إِنَّ]{.ar} [Einna]{.trn} is only used to begin [j_ism]{.subs}s. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.).
-By default, the [ism_of]{.subs} of [إِنَّ]{.ar} [Einna]{.trn} must directly follow it with no intervening words or particles. The only exception is when the [xabar]{.subs} consists of a prepositional or adverbial phrase, it is then allowed to precede the [ism_of]{.subs}. The [ism_of]{.subs}, in any case, shall be in the [astate]{.subs}. For example,
+[إِنَّ]{.ar} [Einna]{.trn} is only used to begin nounal sentences. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.).
+By default, the subject of [إِنَّ]{.ar} [Einna]{.trn} must directly follow it with no intervening words or particles. The only exception is when the info consists of a prepositional or adverbial phrase, it is then allowed to precede the subject. The subject, in any case, shall be in the a-state. For example,
 
 [إِنَّ فِي ٱلْبَيْتِ رَجُلًا.]{.ar}  
 "Indeed, in the house, is a man."
@@ -110,17 +110,17 @@ By default, the [ism_of]{.subs} of [إِنَّ]{.ar} [Einna]{.trn} must directly
 [إِنَّ تَحْتَ ٱلشَّجَرَةِ كَنْزًا ثَمِينًا.]{.ar}  
 "Indeed, under the tree, is a precious treasure."
 
-This reverse order is permitted even when the [ism_of]{.subs} is definite. For example,
+This reverse order is permitted even when the subject is definite. For example,
 
 [إِنَّ مَعَكَ صَاحِبَكَ.]{.ar}  
 "Indeed, with you, is _your companion_."
 
-This puts the logical accent on the [ism_of]{.subs} [صَاحِبَكَ]{.ar} "your companion". If the [ism_of]{.subs} is placed first then this puts the logical accent on the [xabar]{.subs}:
+This puts the logical accent on the subject [صَاحِبَكَ]{.ar} "your companion". If the subject is placed first then this puts the logical accent on the info:
 
 [إِنَّ صَاحِبَكَ مَعَكَ.]{.ar}  
 "Indeed your companion is _with_ you."
 
-If the [ism_of]{.subs} contains a pronoun that refers to a noun in the [xabar]{.subs} then the [xabar]{.subs} must precede the [ism_of]{.subs}. For example,
+If the subject contains a pronoun that refers to a noun in the info then the info must precede the subject. For example,
 
 [إِنَّ فِي ٱلْمَصْنَعِ عُمَّالَهُ.]{.ar}  
 "Indeed, in the factory, are its workers."
@@ -136,10 +136,10 @@ See [[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.
 
 Tie in with separating 3aamil from ma3muul
 
-### Pronoun [ism_of]{.subs}s
+### Pronoun subjects
 
-<!--In the examples above, the [ism_of]{.subs} of [إِنَّ]{.ar} has been a noun. -->
-The [ism_of]{.subs} of [إِنَّ]{.ar} may be a pronoun instead of a noun. For this the attached pronouns are used. For example,
+<!--In the examples above, the subject of [إِنَّ]{.ar} has been a noun. -->
+The subject of [إِنَّ]{.ar} may be a pronoun instead of a noun. For this the attached pronouns are used. For example,
 
 [لَا تَقْطَعْ تِلْكَ ٱلشَّجَرَةَ فَإِنَّهَا ظَلِيلَةٌ.]{.ar}  
 "Don't cut that tree, for it is shady."
@@ -162,24 +162,24 @@ or
 [إِنَّا كَاتِبُو هَـٰذَا ٱلْكِتَابَ.]{.ar}  
 "Indeed we are the writers of this book."
 
-TODO: Multiple pronoun [ism_of]{.subs}s: [إِنِّ وَ إِيَّاكَ ...]{.ar}
+TODO: Multiple pronoun subjects: [إِنِّ وَ إِيَّاكَ ...]{.ar}
 
-[إِنَّ]{.ar} with the speaker pronouns are often used with [ism_fail]{.subs}s to signify that the speaker intends to to the action of the verb. For example,
+[إِنَّ]{.ar} with the speaker pronouns are often used with doer participles to signify that the speaker intends to to the action of the verb. For example,
 
 [إِنِّي ذَاهِبٌ إِلَىٰ ٱلْمَسْجِدِ.]{.ar}  
 "I'm going to the mosque."
 
-We also mentioned this point in section\ \@ref([ism_fail]{.subs}-for-intended-future-action).
+We also mentioned this point in section\ \@ref(doer participle-for-intended-future-action).
 
 ### [إِنَّ]{.ar} [Einna]{.trn} with a strengthening [لَ]{.ar} {#inna-strengthening-la}
 
-The strengthening particle [لَ]{.ar} adds extra emphasis and may optionally be used between the [ism_of]{.subs} of [إِنَّ]{.ar} and its [xabar]{.subs}.
-If the [ism_of]{.subs} occurs first (as is the default) then [لَ]{.ar} is connected to and placed directly before the [xabar]{.subs}. For example:
+The strengthening particle [لَ]{.ar} adds extra emphasis and may optionally be used between the subject of [إِنَّ]{.ar} and its info.
+If the subject occurs first (as is the default) then [لَ]{.ar} is connected to and placed directly before the info. For example:
 
 [إِنَّ زَيْدًا لَقَائِمٌ.]{.ar}  
 "Indeed Zayd is definitely standing."
 
-If the [xabar]{.subs} precedes the [ism_of]{.subs}, then then [لَ]{.ar} is connected to and placed directly before the [ism_of]{.subs}. For example:
+If the info precedes the subject, then then [لَ]{.ar} is connected to and placed directly before the subject. For example:
 
 [إِنَّ فِي ٱلْبَيْتِ لَرَجُلًا.]{.ar}  
 "Indeed, in the house, is definitely a man."
@@ -196,7 +196,7 @@ The strengthening particle [لَ]{.ar} is only used with [إِنَّ]{.ar} and n
 
 Unless otherwise noted, the rules we have presented above for 
 [إِنَّ]{.ar},
-for example, the [ism_of]{.subs} being in the [astate]{.subs}, the order of the [ism_of]{.subs} and the [xabar]{.subs}, the use of attached pronouns for the [ism_of]{.subs}, etc.,
+for example, the subject being in the a-state, the order of the subject and the info, the use of attached pronouns for the subject, etc.,
 apply also to its other sisters. 
 
 The strengthening particle [لَ]{.ar}, as mentioned above, is only used with [إِنَّ]{.ar} and not for any of its other sisters.
@@ -206,15 +206,15 @@ The strengthening particle [لَ]{.ar}, as mentioned above, is only used with [�
 The particle 
 [أَنَّ]{.ar} [Eanna]{.trn}
 can be translated as "that".
-It is similar to [إِنَّ]{.ar} in that it is asserts the [xabar]{.subs} about the [ism_of]{.subs}.
+It is similar to [إِنَّ]{.ar} in that it is asserts the info about the subject.
 But 
-[أَنَّ]{.ar} is different from [إِنَّ]{.ar} in that [إِنَّ]{.ar}, its [ism_of]{.subs}, and its [xabar]{.subs} together constitute a complete sentence.
+[أَنَّ]{.ar} is different from [إِنَّ]{.ar} in that [إِنَّ]{.ar}, its subject, and its info together constitute a complete sentence.
 Whereas 
 the
 [أَنَّ]{.ar}
 clause
 ([أَنَّ]{.ar}
-, its [ism_of]{.subs}, and its [xabar]{.subs} together) does not constitute a complete sentence. For example, consider the expression:
+, its subject, and its info together) does not constitute a complete sentence. For example, consider the expression:
 
 [زَيْدٌ صَادِقٌ.]{.ar}  
 "Zayd is truthful."
@@ -230,7 +230,7 @@ We need to additional words, external to the
 clause
 to complete the sentence. We will see examples of this below.
 
-### The [أَنَّ]{.ar} clause in place of the [mafulb]{.subs}
+### The [أَنَّ]{.ar} clause in place of the direct doee
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -245,7 +245,7 @@ to complete the sentence. We will see examples of this below.
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize [mafulb]{.subs}};
+      node [midway, below] {\scriptsize direct doee};
 
 %\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``I know that Zayd is truthful.''};
 
@@ -258,13 +258,13 @@ Note how, in the example above the
 [أَنَّ]{.ar}
 clause
 ([أَنَّ زَيْدًا صَادِقٌ]{.ar})
-has occupied the place of the [mafulb]{.subs} of the verb [أَعْلَمُ]{.ar}.
+has occupied the place of the direct doee of the verb [أَعْلَمُ]{.ar}.
 
 In a similar manner,
 [أَنَّ]{.ar}
-clauses can be placed where one would expect other noun positions, such as: a [mubtada]{.subs}, an [xabar]{.subs}, a [faa3il]{.subs}, and more. Here are some examples:
+clauses can be placed where one would expect other noun positions, such as: a subject, an info, a doer, and more. Here are some examples:
 
-### The [أَنَّ]{.ar} clause in place of the [faa3il]{.subs}
+### The [أَنَّ]{.ar} clause in place of the doer
 
 Example:
 
@@ -290,9 +290,9 @@ Example:
 
 "That you are sick has reached me." ("It has reached me that you are sick.")
 
-### The [أَنَّ]{.ar} clause in place of the [mubtada]{.subs}
+### The [أَنَّ]{.ar} clause in place of the subject
 
-Example (with [xabar]{.subs} before [mubtada]{.subs} in sentence word order):
+Example (with info before subject in sentence word order):
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -316,7 +316,7 @@ Example (with [xabar]{.subs} before [mubtada]{.subs} in sentence word order):
 
 "From his characteristeics is that he is noble."
 
-### The [أَنَّ]{.ar} clause in place of the [xabar]{.subs}
+### The [أَنَّ]{.ar} clause in place of the info
 
 Example:
 
@@ -344,9 +344,9 @@ Example:
 
 ### [أَنَّ]{.ar} with [كَانَ]{.ar}
 
-As you know, [كَانَ]{.ar}'s [faa3il]{.subs} is also its [ism_of]{.subs}, and its [mafulb]{.subs} is also its [xabar]{.subs}.
-The [أَنَّ]{.ar} clause can occur in either the [ism_of]{.subs} or the [xabar]{.subs} of [كَنَ]{.ar}. 
-For example, the [أَنَّ]{.ar} clause as the [xabar]{.subs}:
+As you know, [كَانَ]{.ar}'s doer is also its subject, and its direct doee is also its info.
+The [أَنَّ]{.ar} clause can occur in either the subject or the info of [كَنَ]{.ar}. 
+For example, the [أَنَّ]{.ar} clause as the info:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -370,7 +370,7 @@ For example, the [أَنَّ]{.ar} clause as the [xabar]{.subs}:
 
 "The matter was that he didn't do his obligation."
 
-Now, the [أَنَّ]{.ar} clause as the [ism_of]{.subs}:
+Now, the [أَنَّ]{.ar} clause as the subject:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -394,11 +394,11 @@ Now, the [أَنَّ]{.ar} clause as the [ism_of]{.subs}:
 
 "That he didn't do his obligation was the matter."
 
-Note that in the latter case, the [xabar]{.subs} precedes the [ism_of]{.subs}.
+Note that in the latter case, the info precedes the subject.
 
-### The [أَنَّ]{.ar} clause in place of an [istate]{.subs} noun
+### The [أَنَّ]{.ar} clause in place of an i-state noun
 
-The [أَنَّ]{.ar} clause can occur in place of an [istate]{.subs} [mudafil]{.subs} in an [idaafah]{.subs}. Example:
+The [أَنَّ]{.ar} clause can occur in place of an i-state base noun in an annexation. Example:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -413,7 +413,7 @@ The [أَنَّ]{.ar} clause can occur in place of an [istate]{.subs} [mudafil]{
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize [mudafil]{.subs}};
+      node [midway, below] {\scriptsize base noun};
 
 %\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``The truth is that he went.''};
 
@@ -422,7 +422,7 @@ The [أَنَّ]{.ar} clause can occur in place of an [istate]{.subs} [mudafil]{
 
 "The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous."
 
-The [أَنَّ]{.ar} clause can occur in place of an [istate]{.subs}  noun directly following a preposition. Example:
+The [أَنَّ]{.ar} clause can occur in place of an i-state  noun directly following a preposition. Example:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -437,7 +437,7 @@ The [أَنَّ]{.ar} clause can occur in place of an [istate]{.subs}  noun dire
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize [istate]{.subs} after preposition};
+      node [midway, below] {\scriptsize i-state after preposition};
 
 %\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``The truth is that he went.''};
 
@@ -463,10 +463,10 @@ The combination of the preposition [لِ]{.ar} "for" and [أَنَّ]{.ar} is us
 [أَكَلْتُ ٱلطَّعَامَ لِأَنَّنِي كُنْتُ جَائِعًا.]{.ar}  
 "I ate the food because I was hungry."
 
-### Equivalence of the [أَنَّ]{.ar} clause with a [masdar]{.subs}
+### Equivalence of the [أَنَّ]{.ar} clause with a [maSdar]{.trn2}
 
 As a matter of grammatical theory, the
-[أَنَّ]{.ar} clause, i.e. ([أَنَّ]{.ar} itself, its [ism_of]{.subs}, and its [xabar]{.subs}) is considered equivalent to a [masdar]{.subs} (typically in an [idaafah]{.subs}, and possibly with a [mafulb]{.subs} as well). It is this equivalence that allows it to thake the place of a [faa3il]{.subs}, [mafulb]{.subs}, and the other categories we have given above.
+[أَنَّ]{.ar} clause, i.e. ([أَنَّ]{.ar} itself, its subject, and its info) is considered equivalent to a [maSdar]{.trn2} (typically in an annexation, and possibly with a direct doee as well). It is this equivalence that allows it to thake the place of a doer, direct doee, and the other categories we have given above.
 For instance, consider the example:
 
 [عَجِبْتُ مِنْ أَنَّ زَيْدًا ذَهَب.]{.ar}  
@@ -492,14 +492,14 @@ is equivalent to the verbal noun phrase [كَرَامَتِهِ]{.ar} "his gener
 "His generosity is from his characteristics."
 
 This grammatical equivalence is more a matter of theory than of practical usefulness to us.
-And you have seen this grammatical equivalence before with [أَنْ]{.ar} and [astate]{.subs} [mudarie]{.subs} verbs in chanpter\ \@ref([astate]{.subs}-[mudarie]{.subs}-verbs-verbal-noun).
+And you have seen this grammatical equivalence before with [أَنْ]{.ar} and a-state stateful verbs in chanpter\ \@ref(a-state-stateful-verbs-verbal-noun).
 
 ## [كَأَنَّ]{.ar} [kaEanna]{.trn}
 
 [كَأَنَّ]{.ar} [kaEanna]{.trn}
 may be translated as "[It is] as if".
 It is actually simply the preposition [كَ]{.ar} "like" attached to [أَنَّ]{.ar}. But it is treated separately because, unlike [أَنَّ]{.ar},
-[كَأَنَّ]{.ar} [kaEanna]{.trn}, its [ism_of]{.subs}, and its [xabar]{.subs} constitute a complete sentence. For example,
+[كَأَنَّ]{.ar} [kaEanna]{.trn}, its subject, and its info constitute a complete sentence. For example,
 
 [كَأَنَّ ٱلْأُمُّ مَدْرَسَةٌ.]{.ar}  
 "[It is] as if the mother is a school."
@@ -518,9 +518,9 @@ TODO
 
 TODO
 
-## The [damir_shan]{.subs} with [إِنَّ]{.ar} and its sisters
+## The state-of-affairs pronoun with [إِنَّ]{.ar} and its sisters
 
-The [damir_shan]{.subs} 
+The state-of-affairs pronoun 
 (see section\ (ref))
 is used very commonly with [إِنَّ]{.ar} and its sisters.
 For example:
@@ -530,12 +530,12 @@ For example:
     [O Moses, indeed it is I - Allāh, the Exalted in Might, the Wise.]{.trans}
 
 
-The [damir_shan]{.subs} 
+The state-of-affairs pronoun 
 also functions as a device to enable
-a [j_f3l]{.subs}
+a verbal sentence
 to directly follow
 [إِنَّ]{.ar} (or one of its sisters)
-without having to specify a [ism_of]{.subs} for
+without having to specify a subject for
 [إِنَّ]{.ar}.^[[النحو العربي: أحكام ومعان]{.ar} 1/89]
 Examples:
 
@@ -549,12 +549,12 @@ Examples:
 
 
 
-## The [xabar]{.subs} as a complete sentence and the pronoun of the fact
+## The info as a complete sentence and the pronoun of the fact
 
-### The [xabar]{.subs} as a complete sentence
+### The info as a complete sentence
 
-There is a sub-type of [j_ism]{.subs}
-where the [xabar]{.subs} is a complete sentence.
+There is a sub-type of nounal sentence
+where the info is a complete sentence.
 Here is an example:
 
 ```{.tikzarabic}
@@ -583,27 +583,27 @@ Here is an example:
 
 "The tree: its branches are long."
 
-In these kinds of sentences, the [mubtada]{.subs} introduces a topic, and the [xabar]{.subs} is itself a sentence which comments on the topic/[mubtada]{.subs}.
-We have, in fact, already seen sentences like this in section\ \@ref(past-verbs-order-of-words), when we take a verbal sentence and convert it to a [j_ism]{.subs}. This is the example we discussed there:
+In these kinds of sentences, the subject introduces a topic, and the info is itself a sentence which comments on the topic/subject.
+We have, in fact, already seen sentences like this in section\ \@ref(past-verbs-order-of-words), when we take a verbal sentence and convert it to a nounal sentence. This is the example we discussed there:
 
 [ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}  
 "The man: he wrote a book."
 
 #### The linker pronoun
 
-A [j_ism]{.subs},
-in which the [xabar]{.subs} is itself a sentence;
-typically requires a pronoun in the [xabar]{.subs} that links back to the [mubtada]{.subs}. 
+A nounal sentence,
+in which the info is itself a sentence;
+typically requires a pronoun in the info that links back to the subject. 
 In the example
-[ٱَلشَّجَرَةُفُرُوعُهَا طَوِيلَةٌ.]{.ar}, the attached pronoun [هَا]{.ar} "it" in [فُرُوعُهَا]{.ar} "its tree" is the linker pronoun that links back to the [ism_of]{.subs} [ٱَلشَّجَرَةُ]{.ar} "the tree".
+[ٱَلشَّجَرَةُفُرُوعُهَا طَوِيلَةٌ.]{.ar}, the attached pronoun [هَا]{.ar} "it" in [فُرُوعُهَا]{.ar} "its tree" is the linker pronoun that links back to the subject [ٱَلشَّجَرَةُ]{.ar} "the tree".
 
 Similarly, in the example
 [ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}
-the linker pronoun is the invisible [faa3il]{.subs} pronoun "he" of the verb [كَتَبَ]{.ar} "he wrote" that links back to the [ism_of]{.subs} [ٱَلرَّجُلُ]{.ar} "the man".
+the linker pronoun is the invisible doer pronoun "he" of the verb [كَتَبَ]{.ar} "he wrote" that links back to the subject [ٱَلرَّجُلُ]{.ar} "the man".
 
-#### [#j_ism]{.subs}s with [إِنَّ]{.ar} and its sisters
+#### Nounal sentences with [إِنَّ]{.ar} and its sisters
 
-[إِنَّ]{.ar} and its sisters are very often used in [j_ism]{.subs}s. (With [أَنَّ]{.ar} it is, as usual, an incomplete sentence.) Here are some examples:
+[إِنَّ]{.ar} and its sisters are very often used in nounal sentences. (With [أَنَّ]{.ar} it is, as usual, an incomplete sentence.) Here are some examples:
 
 [إِنَّ زَيْدًا لَهُ أَخٌ وَأُخْتٌ.]{.ar}  
 "Indeed Zayd: he has a brother and sister."
@@ -611,9 +611,9 @@ the linker pronoun is the invisible [faa3il]{.subs} pronoun "he" of the verb [ك
 [ٱِعْلَمْ أَنَّ ٱلْعِلْمَ حُصُولُهُ يَتَطَلَّبُ جُهْدًا.]{.ar}  
 "Know that knowledge: its obtaining requires effort."
 
-#### [#j_ism]{.subs}s with a pronoun [ism_of]{.subs}
+#### Nounal sentences with a pronoun subject
 
-The [ism_of]{.subs}, in a [j_ism]{.subs}, is frequently a pronoun. For example,
+The subject, in a nounal sentence, is frequently a pronoun. For example,
 
 [أَنَا ٱسْمِي زَيْدٌ.]{.ar}  
 "I: my name is Zayd."
@@ -630,7 +630,7 @@ Mostly, pronouns are used in place of nouns when it is already known to whom the
 
 the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
 
-There is a special pronoun, called the _pronoun of the fact_ that begins [j_ism]{.subs}s. This pronoun does not refer to any previously known entity, but rather refers to the [xabar]{.subs} that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
+There is a special pronoun, called the _pronoun of the fact_ that begins nounal sentences. This pronoun does not refer to any previously known entity, but rather refers to the info that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -658,13 +658,13 @@ There is a special pronoun, called the _pronoun of the fact_ that begins [j_ism]
 
 This pronoun is usually the singular masculine pronoun (as above) but it is also sometimes the singular feminine pronoun [هِيَ]{.ar}.
 It is typically used with statements of import, to which the speaker wishes to draw attention.
-The [xabar]{.subs} does not contain a linker pronoun because the whole [xabar]{.subs} refers back to the [ism_of]{.subs}.
+The info does not contain a linker pronoun because the whole info refers back to the subject.
 The pronoun of the fact is frequently used with [إِنَّ]{.ar} and its sisters. 
 Here are some examples:
 
 [إِنَّهُ لَا يُفْلِحُ ٱلْكَافِرُونَ.]{.ar}  
 "Indeed, the disbelievers will not succeed."  
-([quran]{.subs} 23:117, trans. Saheeh International)
+(Qurʾān 23:117, trans. Saheeh International)
 
 Sometimes, one can choose between using the pronoun of the fact and a pronoun matching the participant resulting in different emphasis. For example,
 
@@ -682,7 +682,7 @@ There exist _lightened_ versions of these particles that are:
 These lightened versions have similar meanings to their heavy counterparts but they have somewhat different rules. We will discuss them below.
 In terms of their usage 
 [إِنْ]{.ar} and
-[كَأَنْ]{.ar} are not very commonly used except in the [quran]{.subs}, poetry, and other rhetorical texts.
+[كَأَنْ]{.ar} are not very commonly used except in the Qurʾān, poetry, and other rhetorical texts.
 [أَنْ]{.ar} and
 [لَـٰكِنْ]{.ar}
 are relatively more common.
@@ -693,7 +693,7 @@ The lightened
 [إِنْ]{.ar}
 can be used in either of the following ways:
 
- i. With the same rules as the heavy [إِنَّ]{.ar}. The [ism_of]{.subs} is put in the [astate]{.subs} and the use of the strengthening [لَ]{.ar} is optional. For example,
+ i. With the same rules as the heavy [إِنَّ]{.ar}. The subject is put in the a-state and the use of the strengthening [لَ]{.ar} is optional. For example,
 
     [إِنْ زَيْدًا مُسْلِمٌ.]{.ar}  
     or  
@@ -703,7 +703,7 @@ can be used in either of the following ways:
     However, this method is not as common as the second way (below):
 
 
-ii. The [ism_of]{.subs} is not put in the [astate]{.subs} but is rather in the [ustate]{.subs}.
+ii. The subject is not put in the a-state but is rather in the u-state.
     However, the strengthening [لَ]{.ar} (see section\ \@ref(inna-strengthening-la) above), that was optional with the heavy [إِنَّ]{.ar}, is now mandatory with the lightened [إِنْ]{.ar}. For example,
 
     [إِنْ زَيْدٌ لَمُسْلِمٌ.]{.ar}  
@@ -714,7 +714,7 @@ the lightened [إِنْ]{.ar}
 and
 the heavy [إِنَّ]{.ar}
 is that 
-the heavy [إِنَّ]{.ar} is only used to introduce [j_ism]{.subs}s.
+the heavy [إِنَّ]{.ar} is only used to introduce nounal sentences.
 The lightened [إِنْ]{.ar},
 however, can be used to introduce verbal sentences, but only those that begin with the verbs:
 [كَانَ]{.ar} and its sisters,
@@ -730,7 +730,7 @@ The second, less common way, of using
 the lightened [إِنْ]{.ar}
 is following the same rules as the 
 the heavy [إِنَّ]{.ar}.
-Where the [ism_of]{.subs} is in the [astate]{.subs} and the use of the strengthening [لَ]{.ar} is optional. For example,
+Where the subject is in the a-state and the use of the strengthening [لَ]{.ar} is optional. For example,
 
 [إِنْ زَيْدًا مُسْلِمٌ.]{.ar}  
 "Indeed Zayd is a Muslim."
@@ -763,15 +763,15 @@ The combination of a heavy [أَنَّ]{.ar} with a following pronoun of the fac
 a lightened [أَنْ]{.ar}. 
 The pronoun of the fact ([هُ]{.ar}/[هَا]{.ar}) is then deleted.
 
-only introduces [mubtada]{.subs}-[xabar]{.subs} clauses whose [ism_of]{.subs} is understood to be a deleted pronoun of the fact. 
-The lightened [أَنْ]{.ar} only introduces [mubtada]{.subs}-[xabar]{.subs} clauses whose [ism_of]{.subs} is understood to be a deleted pronoun of the fact. 
-The [xabar]{.subs} is, as usual, a complete sentence. 
+only introduces subject-info clauses whose subject is understood to be a deleted pronoun of the fact. 
+The lightened [أَنْ]{.ar} only introduces subject-info clauses whose subject is understood to be a deleted pronoun of the fact. 
+The info is, as usual, a complete sentence. 
 For example, consider the following sentence with a heavy [أَنَّ]{.ar}:
 
 [أَعْلَمُ أَنَّهُ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
 "I know that the fact is: the cold is intense."
 
-If we replace the heavy [أَنَّ]{.ar} in the above example with the lightened [أَنْ]{.ar} then we pronoun of the fact [ism_of]{.subs} is deleted, thus:
+If we replace the heavy [أَنَّ]{.ar} in the above example with the lightened [أَنْ]{.ar} then we pronoun of the fact subject is deleted, thus:
 
 [أَعْلَمُ أَنِ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
 "I know that the cold is intense."
@@ -779,12 +779,12 @@ If we replace the heavy [أَنَّ]{.ar} in the above example with the lightene
 
 In the above example, 
 the lightened [أَنْ]{.ar}
-introduces a [xabar]{.subs} which is a [j_ism]{.subs}.
+introduces a info which is a nounal sentence.
 But the more common use of 
 the lightened [أَنْ]{.ar}
-is to introduce [xabar]{.subs}s that are verbal sentences.
+is to introduce infos that are verbal sentences.
 
-When the [xabar]{.subs} of the 
+When the info of the 
 lightened [أَنْ]{.ar}
 is a verbal sentence, then it is  preferred to separate the verb from [أَنْ]{.ar} with one of the following:
 
@@ -803,7 +803,7 @@ is a verbal sentence, then it is  preferred to separate the verb from [أَنْ]
    [أَعْلَمُ أَنْ لَا يَذْهَبُ.]{.ar}  
    "I know that he does/will not go."
 
-   Note that, in writing, we have not combined the lightened [أَنْ]{.ar} and [لَا]{.ar} to form [أَلَّا]{.ar}, as is done for the [astate]{.subs}-verbal [أَنْ]{.ar} (for example: [أَلَّا يَذْهَبَ]{.ar} "that he not go") in chapter\ \@ref(chapter-[astate]{.subs}-[mudarie]{.subs}-verbs). This distinction in spelling is not obligatory, but some authorities recommend it. In any case, they are both pronounced the same: [EallA]{.trn}. <!--al nahw al wafi 4/298, cited by Arik Sadan p.30 -->
+   Note that, in writing, we have not combined the lightened [أَنْ]{.ar} and [لَا]{.ar} to form [أَلَّا]{.ar}, as is done for the a-state-verbal [أَنْ]{.ar} (for example: [أَلَّا يَذْهَبَ]{.ar} "that he not go") in chapter\ \@ref(chapter-a-state-stateful-verbs). This distinction in spelling is not obligatory, but some authorities recommend it. In any case, they are both pronounced the same: [EallA]{.trn}. <!--al nahw al wafi 4/298, cited by Arik Sadan p.30 -->
 
    More examples:
 
@@ -813,7 +813,7 @@ is a verbal sentence, then it is  preferred to separate the verb from [أَنْ]
    [أَعْلَمُ أَنْ لَمْ يَذْهَبْ.]{.ar}  
    "I know that he did not go."
 
-   Note that the [لَنْ]{.ar} and [لَمْ]{.ar}, even when after the lightened [أَنْ]{.ar}, change the state of the following [mudarie]{.subs} verb to the [astate]{.subs} and [0state]{.subs} respectively.
+   Note that the [لَنْ]{.ar} and [لَمْ]{.ar}, even when after the lightened [أَنْ]{.ar}, change the state of the following stateful verb to the a-state and 0-state respectively.
 
 4. The conditional particle [لَوْ]{.ar}. We will study conditional sentences in chapter\ \@ref(conditional-sentences). TODO: add example.
 
@@ -822,16 +822,16 @@ Rigid verbs like [لَيْسَ]{.ar} and verbs expressing supplications are exem
 [ظَنَنْتُ أَنْ لَيْسَ ٱلْبَرْدُ شَدِيدًا.]{.ar}  
 "I thought that the cold is not intense."
 
-#### Distinguishing between the lightened [أَنْ]{.ar} and the [astate]{.subs}-verbal [أَنْ]{.ar} 
+#### Distinguishing between the lightened [أَنْ]{.ar} and the a-state-verbal [أَنْ]{.ar} 
 
 See
 [[دليل السالك إلى ألفية ابن مالك]{.ar} vol 3 p 4](https://ketabonline.com/ar/books/22032/read?part=3&page=667&index=2025083&q=%D8%A7%D9%84%D9%85%D8%AE%D9%81%D9%81%D8%A9)
 
 Although they are similar in meaning,
-care must be taken to distinguish between this lightened [أَنْ]{.ar} and the [astate]{.subs}-verbal [أَنْ]{.ar} 
-(that we learned in chapter\ \@ref(chapter-[astate]{.subs}-[mudarie]{.subs}-verbs)),
-The [astate]{.subs}-verbal [أَنْ]{.ar} puts the following [mudarie]{.subs} verb in the [astate]{.subs}.
-Whereas the [mudarie]{.subs} verb directly after the lightened [أَنْ]{.ar} remains in the [ustate]{.subs}.
+care must be taken to distinguish between this lightened [أَنْ]{.ar} and the a-state-verbal [أَنْ]{.ar} 
+(that we learned in chapter\ \@ref(chapter-a-state-stateful-verbs)),
+The a-state-verbal [أَنْ]{.ar} puts the following stateful verb in the a-state.
+Whereas the stateful verb directly after the lightened [أَنْ]{.ar} remains in the u-state.
 The following guidelines can help to distinguish  between these two [أَنْ]{.ar}s:
 
 + If the verb before [أَنْ]{.ar} signifies certainty then only [أَنَّ]{.ar} and its lightened version [أَنْ]{.ar} is used. For example,
@@ -839,16 +839,16 @@ The following guidelines can help to distinguish  between these two [أَنْ]{.
   [أَعْلَمُ أَنْ قَدْ ذَهَبَ وَأَنْ سَيَرْجِعُ.]{.ar}  
   "I know that he has gone and that he will return."
 
-+ If the verb before [أَنْ]{.ar} signifies wanting, hoping, or expecting, then the [أَنْ]{.ar} puts the following verb in the [astate]{.subs}. For example,
++ If the verb before [أَنْ]{.ar} signifies wanting, hoping, or expecting, then the [أَنْ]{.ar} puts the following verb in the a-state. For example,
 
   [أَطْمَعُ أَلَّا يَذْهَبَ.]{.ar}  
   "I hope that he not go."
 
-  Note that the verb [يَذْهَبَ]{.ar} is in the [astate]{.subs}.
+  Note that the verb [يَذْهَبَ]{.ar} is in the a-state.
 
 + If the verb before [أَنْ]{.ar} reflects a view of something going to occur, and signifies neither certainty nor expectation, but rather doubt or neutrality, then either of the [أَنْ]{.ar}s may be used, depending on the intended meaning. Such verbs include [ظَنَّ يَظُنُّ]{.ar} "to think" and [حَسِبَ يَحْسِبُ]{.ar} "to deem". For example,
 
-  [astate]{.subs}-verbal [أَنْ]{.ar}:  
+  a-state-verbal [أَنْ]{.ar}:  
   [ظَنَنْتُ أَنْ يَرْجِعَ.]{.ar}  
   "I thought that he should return."  
 
@@ -856,19 +856,19 @@ The following guidelines can help to distinguish  between these two [أَنْ]{.
   [ظَنَنْتُ أَنْ يَرْجِعُ.]{.ar}  
   "I thought that he will return."
 
-+ If the verb before [أَنْ]{.ar} does not reflect a view of something going to occur then the [أَنْ]{.ar} is typically the [astate]{.subs}-verbal [أَنْ]{.ar}. For example,
++ If the verb before [أَنْ]{.ar} does not reflect a view of something going to occur then the [أَنْ]{.ar} is typically the a-state-verbal [أَنْ]{.ar}. For example,
 
   [سَرَّنِي أَنْ تَنْجَحَ]{.ar}  
   "That you succeed [will have] gladdened me."
 
-  Remember from chapter\ \@ref(chapter-[astate]{.subs}-[mudarie]{.subs}-verbs)), that the [astate]{.subs}-verbal [أَنْ]{.ar} can occur with [madi]{.subs} verbs as well. Example:
+  Remember from chapter\ \@ref(chapter-a-state-stateful-verbs)), that the a-state-verbal [أَنْ]{.ar} can occur with perfect verbs as well. Example:
 
   [سَرَّنِي أَنْ نَجَحْتَ]{.ar}  
   "That you have succeeded [has] gladdened me."
 
 ### The lightened [كَأَنْ]{.ar}
 
-The lightened [كَأَنْ]{.ar} is similar to the lightened [أَنْ]{.ar} in that it introduces a [j_ism]{.subs} and the [ism_of]{.subs} is usually a deleted pronoun of the fact. For example,
+The lightened [كَأَنْ]{.ar} is similar to the lightened [أَنْ]{.ar} in that it introduces a nounal sentence and the subject is usually a deleted pronoun of the fact. For example,
 
 [كَأَنِ ٱلْبَرْدُ ذَهَبَ.]{.ar}  
 "[It is] as if the cold has gone."
@@ -880,7 +880,7 @@ Also similar to the lightened [أَنْ]{.ar}, the lightened [كَأَنْ]{.ar}
 
 ### The lightened [لَـٰكِنْ]{.ar}
 
-The lightened [لَـٰكِنْ]{.ar} has the same meaning as the heavy [لَـٰكِنَّ]{.ar} but it has no grammatical effect on the word or sentence after it. It may introduce either [j_ism]{.subs}s or verbal sentences. For example,
+The lightened [لَـٰكِنْ]{.ar} has the same meaning as the heavy [لَـٰكِنَّ]{.ar} but it has no grammatical effect on the word or sentence after it. It may introduce either nounal sentences or verbal sentences. For example,
 
 [نَجَحَ زَيْدٌ لَـٰكِنْ صَدِيقُهُ لَمْ يَنْجَحْ.]{.ar}  
 "Zayd succeeded but his friend did not succeed."

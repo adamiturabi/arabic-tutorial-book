@@ -1,20 +1,20 @@
 <!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
 
-# The [hal]{.subs}
+# The [HAl]{.trn2}
 
 ## Introduction
 
-The _[hal]{.subs}_ 
+The _[HAl]{.trn2}_ 
 ([ٱلْحَال]{.ar})
 is a kind of adverb,
 governed typically by a verb,
 that describes the state
-of the _[sahib_hal]{.subs}_ 
-during the time that the [hal]{.subs}'s governing verb is taking place.
+of the _person of ḥāl_ 
+during the time that the [HAl]{.trn2}'s governing verb is taking place.
 <!--
-during the action of the [hal]{.subs}'s [3aamil]{.subs}.
+during the action of the [HAl]{.trn2}'s governor.
 -->
-Here is an example of a [hal]{.subs}:
+Here is an example of a [HAl]{.trn2}:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -45,25 +45,25 @@ Here is an example of a [hal]{.subs}:
 ```
 
 In the example above,
-the usage of the [hal]{.subs} signifies that
+the usage of the [HAl]{.trn2} signifies that
 Zayd, while he was coming, was in a riding state.
 
 By the way,
-we are not not using "state" here terminologically, as in [ustate]{.subs}, [astate]{.subs}, etc.  Rather we are using it to mean Zayd's condition or mode of being.
+we are not not using "state" here terminologically, as in u-state, a-state, etc.  Rather we are using it to mean Zayd's condition or mode of being.
 <!--
 What we mean by
-"temporal state of the [sahib_hal]{.subs}"
+"temporal state of the person of ḥāl"
 is that
 It is a temporary state because Zayd is only described as angry while he is coming.
 -->
 
 <!--
-Note that, like adverbs in general, the [hal]{.subs} is in the [astate]{.subs}.
-Typically, the [hal]{.subs} is an [sifah]{.subs}, its [3aamil]{.subs} is a verb, and the [hal]{.subs} describes the [sahib_hal]{.subs}.
-But, as we will see later in this chapter [ia]{.subs}, sometimes the [hal]{.subs} may have differing behavior.
+Note that, like adverbs in general, the [HAl]{.trn2} is in the a-state.
+Typically, the [HAl]{.trn2} is an adjectival noun, its governor is a verb, and the [HAl]{.trn2} describes the person of ḥāl.
+But, as we will see later in this chapter if Allāh wills, sometimes the [HAl]{.trn2} may have differing behavior.
 -->
 
-## Matching the [hal]{.subs} to the [sahib_hal]{.subs}
+## Matching the [HAl]{.trn2} to the person of ḥāl
 
 Consider again the example:
 
@@ -71,11 +71,11 @@ Consider again the example:
     [Wright 2/112C]{.citex}  
     "Zayd came riding"
 
-The [hal]{.subs}
+The [HAl]{.trn2}
 [رَاكِبًا]{.ar}
-is an adjectival noun matching the [sahib_hal]{.subs} [زَيْد]{.ar} in number (singular) and gender (masculine).
+is an adjectival noun matching the person of ḥāl [زَيْد]{.ar} in number (singular) and gender (masculine).
 
-If the [sahib_hal]{.subs} is feminine in gender or more than one in number, then the [hal]{.subs} will match it accordingly.
+If the person of ḥāl is feminine in gender or more than one in number, then the [HAl]{.trn2} will match it accordingly.
 For example:
 
 (@) [قَامَتِ ٱبْنَتُهُ إِلَيْهِ بَاكِيَةً]{.ar}
@@ -95,43 +95,43 @@ For plurals, both sound and broken plurals may be used:
 (@) [وَٱدْخُلُوا ٱلْبَابَ سُجَّدًا]{.ar}
     [[[سورة البقرة]{.ar} 2:58](https://quran.com/2/58)]{.citex}  
     "and enter the gate bowing humbly"  
-    (The [sahib_hal]{.subs} is the plural masculine [faa3il]{.subs} pronoun in [ٱدْخُلُوا]{.ar} and the [hal]{.subs} [سُجَّد]{.ar} is the plural of [سَاجِد]{.ar}.)
+    (The person of ḥāl is the plural masculine doer pronoun in [ٱدْخُلُوا]{.ar} and the [HAl]{.trn2} [سُجَّد]{.ar} is the plural of [سَاجِد]{.ar}.)
 
 (@) [خَرَجْنَا مُتَوَجِّهِينَ إِلَىٰ ٱلْيَمَنِ]{.ar}
     [Fischer 196D]{.citex}  
     "We left heading towards Yemen"
 
 
-As with [na3t]{.subs}s and [xabar]{.subs}s, when the [sahib_hal]{.subs} is a plural of
+As with attributes and infos, when the person of ḥāl is a plural of
 non-intelligent beings,
-the singular feminine is typically used for the [hal]{.subs}.
+the singular feminine is typically used for the [HAl]{.trn2}.
 For example:
 
 (@) [صَالَتِ ٱلْأُسُودُ عَلَى ٱلْفَرِيسَةِ فَاتِكَةً]{.ar}  
     "The lions pounced on the prey slaying"
 
-## The [3aamil]{.subs} of the [hal]{.subs}
+## The governor of the [HAl]{.trn2}
 
-The [3aamil]{.subs} of the [hal]{.subs} may be one of the following:
+The governor of the [HAl]{.trn2} may be one of the following:
 
 ##### A verb {.unnumbered}
 
-The verb is the typical [3aamil]{.subs} of the [hal]{.subs}.
+The verb is the typical governor of the [HAl]{.trn2}.
 For example:
 
 (@) [جَاءَ زَيْدٌ رَاكِبًا]{.ar}
     [Wright 2/113D]{.citex}  
     "Zayd came riding"
 
-##### A [masdar]{.subs} {.unnumbered}
+##### A [maSdar]{.trn2} {.unnumbered}
 
 (@) [رُكُوبُكَ ٱلسَّيَارَةَ مُسْرِعَةً خَطَرٌ عَلَيْكَ]{.ar}
     [[النحو العربي: أحكام ومعان]{.ar} 2/51]{.citex}  
     "Your riding the car speeding is a danger for you."
 
-##### A [shibh_fi3l]{.subs} {.unnumbered}
+##### A quasi-verb {.unnumbered}
 
-A [shibh_fi3l]{.subs} is a [mushtaqq]{.subs} verbal noun like an [ism_fail]{.subs} or an [ism_maful]{.subs}, or an [sifah]{.subs}, etc.
+A quasi-verb is a deverbal verbal noun like an doer participle or an doee participle, or an adjectival noun, etc.
 For example:
 
 (@) [زَيْدٌ ضَارِبٌ عَمْرًا قَائِمًا]{.ar}
@@ -150,9 +150,9 @@ For example:
 
 An expression that has verbal force could be:
 
-* a preposition or adverb of time or place with a following noun in the [istate]{.subs}
-* a [ism_isharah]{.subs}
-* a [adat_istifham]{.subs}
+* a preposition or adverb of time or place with a following noun in the i-state
+* a pointing noun
+* a question word
 * a word like [لَيْتَ]{.ar}, [كَأَنَّ]{.ar}, [لَعَلَّ]{.ar}
 
 In such cases there will typically be the implicit existential verb "is" providing the verbal force.
@@ -191,10 +191,10 @@ Examples:
     [[النحو العربي: أحكام ومعان]{.ar} 2/52]{.citex}  
     "Zayd is beaten standing."
 
-##### The existential verb "is" as the [3aamil]{.subs} of the [hal]{.subs} {.unnumbered}
+##### The existential verb "is" as the governor of the [HAl]{.trn2} {.unnumbered}
 
 Arabic does not usually express the existential verb "is".
-However, it is implicit and may be the govern the [hal]{.subs}.
+However, it is implicit and may be the govern the [HAl]{.trn2}.
 For example,
 
 (@) [هَـٰذَا كِتَابُكَ جَمِيلًا]{.ar}
@@ -215,21 +215,21 @@ This is frequently the case in questions like:
 -->
 
 
-## Valid [sahibs_hal]{.subs}
+## Valid persons of ḥāl
 
-The [sahib_hal]{.subs} may be the [faa3il]{.subs} of the governing verb
-but it may also be the [mafulb]{.subs},
+The person of ḥāl may be the doer of the governing verb
+but it may also be the direct doee,
 or even other nouns in a sentence.
 
 Let's see some examples.
 
-#### The [sahib_hal]{.subs} as a [faa3il]{.subs} {.unnumbered}
+#### The person of ḥāl as a doer {.unnumbered}
 
 (@) [فَخَرَجَ مِنْهَا خَائِفًا]{.ar}
     [[[سورة القصص]{.ar} 28:21](https://quran.com/28/21)]{.citex}  
     "So he left it, fearful"
 
-#### The [sahib_hal]{.subs} as a [mafulb]{.subs} {.unnumbered}
+#### The person of ḥāl as a direct doee {.unnumbered}
 
 (@) [وَأَرْسَلْنَاكَ لِلنَّاسِ رَسُولًا]{.ar}
     [[[سورة النساء]{.ar} 4:79](https://quran.com/4/79)]{.citex}  
@@ -239,29 +239,29 @@ Let's see some examples.
     [Wright 2/113A]{.citex}  
     "I rode the horse saddled"
 
-#### The [sahib_hal]{.subs} as a [naib]{.subs} [faa3il]{.subs} {.unnumbered}
+#### The person of ḥāl as a deputy doer {.unnumbered}
 
 (@) [تُؤْكَلُ ٱلْفَاكِهَةُ نَاضِجَةً]{.ar}
     [[النحو العربي: أحكام ومعان]{.ar} 2/28]{.citex}  
     "The fruit is eaten fresh"
 
-#### The [sahib_hal]{.subs} as a [mubtada]{.subs} {.unnumbered}
+#### The person of ḥāl as a subject {.unnumbered}
 
 (@) [ٱلْفَاكِهَةُ لَذِيذَةٌ نَاضِجَةً]{.ar}
     [[النحو العربي: أحكام ومعان]{.ar} 2/28]{.citex}  
     "The fruit is delicious (when it is) fresh."
 
 <!--
-(The [3aamil]{.subs} in the above (and also in the below) example is not apparent but is implied. See section\ (ref) later in this chapter.)
+(The governor in the above (and also in the below) example is not apparent but is implied. See section\ (ref) later in this chapter.)
 -->
 
-#### The [sahib_hal]{.subs} as a [xabar]{.subs} {.unnumbered}
+#### The person of ḥāl as a info {.unnumbered}
 
 (@) [هَـٰذَا هُوَ ٱلْهِلَالُ طَالِعًا]{.ar}
     [[النحو العربي: أحكام ومعان]{.ar} 2/28]{.citex}  
     "This is the crescent (as it is) rising."
 
-#### The [sahib_hal]{.subs} in the [istate]{.subs} following a preposition {.unnumbered}
+#### The person of ḥāl in the i-state following a preposition {.unnumbered}
 
 (@) [مَرَرْتُ بِزَيْدٍ جَالِسًا]{.ar}
     [Wright 2/113A]{.citex}  
@@ -271,62 +271,62 @@ Let's see some examples.
     [Wright 2/113B]{.citex}  
     "I was in the garden (while it was) in bloom."
 
-#### The [sahib_hal]{.subs} in the [istate]{.subs} in as the [mudafil]{.subs} in an [idaafah]{.subs} {.unnumbered}
+#### The person of ḥāl in the i-state in as the base noun in an annexation {.unnumbered}
 
-The [mudafil]{.subs} in an [idaafah]{.subs} is permitted to be a [sahib_hal]{.subs} if it satisfies any one of the following conditions:
+The base noun in an annexation is permitted to be a person of ḥāl if it satisfies any one of the following conditions:
 
-  i. When the [mudaf]{.subs} is naturally capable of being the [3aamil]{.subs} of the [hal]{.subs} (as a [masdar]{.subs} or [ism_fail]{.subs}, etc.).
+  i. When the annexe noun is naturally capable of being the governor of the [HAl]{.trn2} (as a [maSdar]{.trn2} or doer participle, etc.).
      For example:
 
      (@) [أَعْجَبَنِي قِيَامُ زَيْدٍ مُسْرِعًا]{.ar}
          [Wright 2/119C]{.citex}  
          "Zayd's standing speedily pleased me."  
-         (The [3aamil]{.subs} is the [mudaf]{.subs} [قِيَام]{.ar} which is a [masdar]{.subs})
+         (The governor is the annexe noun [قِيَام]{.ar} which is a [maSdar]{.trn2})
 
      (@) [إِلَى ٱللَّـٰهِ مَرْجِعُكمْ جَمِيعًا]{.ar}
          [[[سورة المائدة]{.ar} 5:105](https://quran.com/5/105)]{.citex}  
          "To Allāh is your return all together"  
-         (The [3aamil]{.subs} is the [mudaf]{.subs} [مَرْجِع]{.ar} which is a [masdar]{.subs})
+         (The governor is the annexe noun [مَرْجِع]{.ar} which is a [maSdar]{.trn2})
 
      (@) [أَنْتَ شَارِبُ ٱلْمَاءِ صَافِيًا]{.ar}
          [[النحو العربي: أحكام ومعان]{.ar} 2/50]{.citex}  
          "You are drinking the water clear."
-         (The [3aamil]{.subs} is the [mudaf]{.subs} [شَارِب]{.ar} which is a [ism_fail]{.subs})
+         (The governor is the annexe noun [شَارِب]{.ar} which is a doer participle)
 
- ii. When the [mudaf]{.subs} is a real part of the [mudafil]{.subs}.
+ ii. When the annexe noun is a real part of the base noun.
      For example:
 
      (@) [وَنَزَعْنَا مَا فِي صُدُورِهِم مِّنْ غِلٍّ إِخْوَانًا]{.ar}
          [[[سورة الحجر]{.ar} 15:47](https://quran.com/15/47)]{.citex}  
          "And We will remove whatever is in their breasts of resentment, [so they will be] brothers"  
-         (The [mudaf]{.subs} [صُدُور]{.ar} is a real part of the [mudafil]{.subs} [sahib_hal]{.subs} [هِمْ]{.ar}.)
+         (The annexe noun [صُدُور]{.ar} is a real part of the base noun person of ḥāl [هِمْ]{.ar}.)
 
      (@) [أَيُحِبُّ أَحَدُكُمْ أَنْ يَأْكُلَ لَحْمَ أَخِيهِ مَيْتًا]{.ar}
          [[[سورة الحجرات]{.ar} 49:12](https://quran.com/49/12)]{.citex}  
          "Would one of you like to eat the flesh of his brother when dead?"  
-         (The [mudaf]{.subs} [لَحْم]{.ar} is a real part of the [mudafil]{.subs} [sahib_hal]{.subs} [أَخ]{.ar}.)
+         (The annexe noun [لَحْم]{.ar} is a real part of the base noun person of ḥāl [أَخ]{.ar}.)
 
-iii. When the [mudaf]{.subs} is not really but is virtually a part of the [mudafil]{.subs}. 
-     Such that the meaning would still be correct if the [mudaf]{.subs} was removed.
+iii. When the annexe noun is not really but is virtually a part of the base noun. 
+     Such that the meaning would still be correct if the annexe noun was removed.
      For example:
 
      (@) [ثُمَّ أَوْحَيْنَا إِلَيْكَ أَنِ ٱتَّبِعْ مِلَّةَ إِبْرَاهِيمَ حَنِيفًا]{.ar}
          [[[سورة النحل]{.ar} 16:123](https://quran.com/16/123)]{.citex}  
          "Then We revealed to you, [O Muḥammad], to follow the religion of Abraham, inclining toward truth"  
-         ([حَنِيفًا]{.ar} is a [hal]{.subs} of the [sahib_hal]{.subs} [إِبْرَاهِيم]{.ar}. [مِلَّة]{.ar} is virtually a part of [إِبْرَاهِيم]{.ar} such that the meaning is correct without it: [ٱتَّبِعْ إِبْرَاهِيمَ حَنِيفًا]{.ar}.)
+         ([حَنِيفًا]{.ar} is a [HAl]{.trn2} of the person of ḥāl [إِبْرَاهِيم]{.ar}. [مِلَّة]{.ar} is virtually a part of [إِبْرَاهِيم]{.ar} such that the meaning is correct without it: [ٱتَّبِعْ إِبْرَاهِيمَ حَنِيفًا]{.ar}.)
 
-When none of these conditions are satisfied then the [mudafil]{.subs} cannot be a [sahib_hal]{.subs}.
+When none of these conditions are satisfied then the base noun cannot be a person of ḥāl.
 So we cannot say:
 
-(@) [x]{.subs} [مَرَرْتُ بِغُلَامِ هِنْدٍ جَالِسَةً]{.ar}
+(@) ✗ [مَرَرْتُ بِغُلَامِ هِنْدٍ جَالِسَةً]{.ar}
     [[النحو العربي: أحكام ومعان]{.ar} 2/51]{.citex}  
     "I passed by Hind's slave boy (when she was) sitting."
 
-#### Determining the [sahib_hal]{.subs} when there is more than one possibility {.unnumbered}
+#### Determining the person of ḥāl when there is more than one possibility {.unnumbered}
 
-When the sentence has more than one noun as a possible [sahib_hal]{.subs}, 
-usually the meaning, gender, or number is sufficient to determine whom the [hal]{.subs} is describing.
-But sometimes context will be needed to determine who the [sahib_hal]{.subs} is.
+When the sentence has more than one noun as a possible person of ḥāl, 
+usually the meaning, gender, or number is sufficient to determine whom the [HAl]{.trn2} is describing.
+But sometimes context will be needed to determine who the person of ḥāl is.
 For example:
 
 <!--
@@ -340,18 +340,18 @@ For example:
     "I met the brother riding"
 
 In the example above,
-the [hal]{.subs}
+the [HAl]{.trn2}
 [رَاكِبًا]{.ar}
 may be applicable to either the speaker
 (assuming he is male),
 or to [ٱلْأَخ]{.ar} "the brother".
 Context should tell us which is intended.
-If context is not sufficient then is more suitable for the closer of the two to the [hal]{.subs} to be the [sahib_hal]{.subs}.
+If context is not sufficient then is more suitable for the closer of the two to the [HAl]{.trn2} to be the person of ḥāl.
 Or, to avoid ambiguity, it may be better that the expression not be used in this case.^[[النحو الوافي]{.ar} 2/386]
 
 
 <!--
-## Multiple [hal]{.subs}s or [sahibs_hal]{.subs}
+## Multiple [HAl]{.trn2}s or persons of ḥāl
 
 There can be a
 one-to-one,
@@ -359,46 +359,46 @@ many-to-one,
 or
 one-to-many
 relationship between the 
-[hal]{.subs} and [sahib_hal]{.subs}.
+[HAl]{.trn2} and person of ḥāl.
 So far,
 we have seen the
 one-to-one
-[hal]{.subs} and [sahib_hal]{.subs},
-where there is one [hal]{.subs} for one [sahib_hal]{.subs}
+[HAl]{.trn2} and person of ḥāl,
+where there is one [HAl]{.trn2} for one person of ḥāl
 Now we will see that there can be
-multiple [hal]{.subs}s for one [sahib_hal]{.subs},
+multiple [HAl]{.trn2}s for one person of ḥāl,
 and also
-one [hal]{.subs} for multiple [sahibs_hal]{.subs}.
+one [HAl]{.trn2} for multiple persons of ḥāl.
 
-### Multiple [hal]{.subs}s for one [sahib_hal]{.subs}
+### Multiple [HAl]{.trn2}s for one person of ḥāl
 -->
 
-## The [hal]{.subs} after verbs like [رَأَىٰ]{.ar} and [وَجَدَ]{.ar}
+## The [HAl]{.trn2} after verbs like [رَأَىٰ]{.ar} and [وَجَدَ]{.ar}
 
 The verbs
 [رَأَىٰ]{.ar} and [وَجَدَ]{.ar}
 are what are known as
-[af3aal_quloob]{.subs}
+verbs of perception
 (see chapter\ (ref)).
 That is, they signify an act that takes place in the mind.
-So they may take two [mafulb]{.subs}s.
+So they may take two direct doees.
 For example:
 
 (@) [إِنَّهُمْ يَرَوْنَهُ بَعِيدًا]{.ar}
     [[[سورة المعارج]{.ar} 70:6](https://quran.com/70/6)]{.citex}  
     "Indeed, they see it [as] distant,"  
-    ([بَعِيدًا]{.ar} has been analyzed as a second [mafulb]{.subs}^[[[إعراب القرآن للدرويش]{.ar}](https://tafsir.app/iraab-aldarweesh/70/6) for [سورة المعارج]{.ar} 70:6])
+    ([بَعِيدًا]{.ar} has been analyzed as a second direct doee^[[[إعراب القرآن للدرويش]{.ar}](https://tafsir.app/iraab-aldarweesh/70/6) for [سورة المعارج]{.ar} 70:6])
 
 (@) [لَوَجَدُوا ٱللَّهَ تَوَّابًا رَحِيمًا]{.ar}
     [[[سورة النساء]{.ar} 4:64](https://quran.com/4/64)]{.citex}  
     "they would have found Allāh Accepting of Repentance and Merciful."  
-    ([تَوَّابًا]{.ar} has been analyzed as a second [mafulb]{.subs}^[[[إعراب القرآن للدرويش]{.ar}](https://tafsir.app/iraab-aldarweesh/4/64) for [سورة النساء]{.ar} 4:64])
+    ([تَوَّابًا]{.ar} has been analyzed as a second direct doee^[[[إعراب القرآن للدرويش]{.ar}](https://tafsir.app/iraab-aldarweesh/4/64) for [سورة النساء]{.ar} 4:64])
 
 However, if these verbs are mere verbs of sense,
 i.e. they express nothing but acts of the external organs of sense,
-then they may still have two [ma3mul]{.subs}s in the [astate]{.subs}
-but the second [ma3mul]{.subs} will no longer be a [mafulb]{.subs}
-but a [hal]{.subs}.^[Wright 2/50B]
+then they may still have two governees in the a-state
+but the second governee will no longer be a direct doee
+but a [HAl]{.trn2}.^[Wright 2/50B]
 For example:
 
 (@) [رَأَيْتُكَ نَائِمًا]{.ar}
@@ -409,15 +409,15 @@ For example:
     [Wright 2/50C]{.citex}  
     "I found him sick."
 
-## Multiple [hal]{.subs}s or [sahibs_hal]{.subs}
+## Multiple [HAl]{.trn2}s or persons of ḥāl
 
-There may be one or multiple [hal]{.subs}s that correspond to one or multiple [sahibs_hal]{.subs}.
+There may be one or multiple [HAl]{.trn2}s that correspond to one or multiple persons of ḥāl.
 This occurs in the following cases:
 
-### Multiple [hal]{.subs}s for one [sahib_hal]{.subs}
+### Multiple [HAl]{.trn2}s for one person of ḥāl
 
 These are examples of 
-multiple [hal]{.subs}s corresponding to one [sahib_hal]{.subs}:
+multiple [HAl]{.trn2}s corresponding to one person of ḥāl:
 
 (@) [وَلَمَّا رَجَعَ مُوسى إِلى قَوْمِهِ غَضْبانَ أَسِفًا]{.ar}
     [[[سورة الأعراف]{.ar} 7:150](https://quran.com/7/150)]{.citex}  
@@ -432,10 +432,10 @@ multiple [hal]{.subs}s corresponding to one [sahib_hal]{.subs}:
     "Why are you, O [#eAEicah]{.trn2}, panting and short of breath?"  
     ([حَشْيَا]{.ar}, on the pattern [فَعْلَىٰ]{.ar}, is the feminine of [حَشْيَان]{.ar} meaning "short of breath". [رَابِيَة]{.ar} has a similar meaning.)
 
-As you can see, there is no need for a [3atf]{.subs} like [و]{.ar} to connect the multiple [hal]{.subs}s
+As you can see, there is no need for a conjunction like [و]{.ar} to connect the multiple [HAl]{.trn2}s
 (though we may use the word "and" in the translation).
-If such a [و]{.ar} is inserted, then the noun(s) following it is technically no longer a [hal]{.subs}.
-Rather, it is now a [ma3toof]{.subs} to the preceding [hal]{.subs}.^[[النحو الوافي]{.ar} 2/386]
+If such a [و]{.ar} is inserted, then the noun(s) following it is technically no longer a [HAl]{.trn2}.
+Rather, it is now a conjunctee to the preceding [HAl]{.trn2}.^[[النحو الوافي]{.ar} 2/386]
 For example:
 
 (@) [أَقْبَلَ ٱلْمُنْتَصِرُ فَرِحًا وَمُسْرِعًا وَمُصَافِحًا رِفَاقَهُ]{.ar}
@@ -444,25 +444,25 @@ For example:
 
 In the above example,
 [فَرِحًا]{.ar}
-is a [hal]{.subs},
+is a [HAl]{.trn2},
 [مُسْرِعًا]{.ar}
 and
 [مُصَافِحًا]{.ar}
-are [ma3toof]{.subs}s.
+are conjunctees.
 
 This distinction is technically correct.
 However, loosely speaking, words like 
 [مُسْرِعًا]{.ar}
 and
 [مُصَافِحًا]{.ar}
-in the example above may be referred to as [hal]{.subs}s.^[See, for example, the analysis of [طَمَعًا]{.ar} in [[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/32/16) for [سورة السجدة]{.ar} 32:16 ([يَدْعُونَ رَبَّهم خَوْفًا وطَمَعًا]{.ar})]
+in the example above may be referred to as [HAl]{.trn2}s.^[See, for example, the analysis of [طَمَعًا]{.ar} in [[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/32/16) for [سورة السجدة]{.ar} 32:16 ([يَدْعُونَ رَبَّهم خَوْفًا وطَمَعًا]{.ar})]
 
-See also section\ (ref) later in this chapter for multiple [hal]{.subs}s when one or more is a _sentence [hal]{.subs}_.
+See also section\ (ref) later in this chapter for multiple [HAl]{.trn2}s when one or more is a _sentence [HAl]{.trn2}_.
 
-### One [hal]{.subs} for multiple [sahibs_hal]{.subs}
+### One [HAl]{.trn2} for multiple persons of ḥāl
 
-If there are multiple [sahibs_hal]{.subs} and the same [hal]{.subs} can be used to describe all of them,
-then one [hal]{.subs}, appropriately dualized or pluralized, may be used.
+If there are multiple persons of ḥāl and the same [HAl]{.trn2} can be used to describe all of them,
+then one [HAl]{.trn2}, appropriately dualized or pluralized, may be used.
 We have already seen an example of this in example
 (@haal_two_sahibs_hal_dual_hal) earlier in this chapter:
 
@@ -476,7 +476,7 @@ Here is another example:
     [[[سورة إبراهيم]{.ar} 14:33](https://quran.com/14/33)]{.citex}  
     "And He subjected for you the sun and the moon, continuous [in orbit]"
 
-Sometimes the multiple [sahibs_hal]{.subs} may even occur in different functions in the sentence.
+Sometimes the multiple persons of ḥāl may even occur in different functions in the sentence.
 For example:
 
 (@) [قَابَلَ عَلِيٌّ صَدِيقَهُ مَسْرُورَيْنِ]{.ar}
@@ -487,21 +487,21 @@ For example:
     [Wright 2/113B]{.citex}  
     "I met him (while we both were) riding"
 
-### Multiple [hal]{.subs}s for multiple [sahibs_hal]{.subs}
+### Multiple [HAl]{.trn2}s for multiple persons of ḥāl
 
-If there are multiple [sahibs_hal]{.subs},
-and each is to be described by different [hal]{.subs}s,
-then the individual [hal]{.subs}s may occur in the sentence without any conjunction.
-If context and meaning are not sufficient to determine which [hal]{.subs} applies to which [sahib_hal]{.subs},
-then the first [hal]{.subs} (in sentence word order) should apply to the second [sahib_hal]{.subs},
-and the second [hal]{.subs} should apply to the first [sahib_hal]{.subs}.^[[النحو الوافي]{.ar} 2/387, [النحو العربي: أحكام ومعان]{.ar} 2/38--39. But see also Wright 2/115CD]
+If there are multiple persons of ḥāl,
+and each is to be described by different [HAl]{.trn2}s,
+then the individual [HAl]{.trn2}s may occur in the sentence without any conjunction.
+If context and meaning are not sufficient to determine which [HAl]{.trn2} applies to which person of ḥāl,
+then the first [HAl]{.trn2} (in sentence word order) should apply to the second person of ḥāl,
+and the second [HAl]{.trn2} should apply to the first person of ḥāl.^[[النحو الوافي]{.ar} 2/387, [النحو العربي: أحكام ومعان]{.ar} 2/38--39. But see also Wright 2/115CD]
 For example:
 
 (@) [لَقِيتُ خَالِدًا مُصْعِدًا مُنْحَدِرًا]{.ar}
     [[النحو العربي: أحكام ومعان]{.ar} 2/39]{.citex}  
     "I met [#xAlid]{.trn2} (while he was) going up (and I~m~ was) coming down."
 
-But if meaning and context are sufficient to disambiguate, then the [hal]{.subs}s may occur in either order.
+But if meaning and context are sufficient to disambiguate, then the [HAl]{.trn2}s may occur in either order.
 For example:
 
 (@) [لَقِيتُ هِنْدًا مُصْعِدًا مُنْحَدِرَةً]{.ar}
@@ -514,19 +514,19 @@ For example:
     "The lecturer "
 -->
 
-## Definiteness of the [hal]{.subs}
+## Definiteness of the [HAl]{.trn2}
 
-The [hal]{.subs} is typically an indefinite noun,
+The [HAl]{.trn2} is typically an indefinite noun,
 as we have seen in all the examples so far.
 Occasionally, however, it does occur as a definite noun.
-The most common such [hal]{.subs} is the noun [وَحْد]{.ar} annexed to a pronoun, meaning "alone".
+The most common such [HAl]{.trn2} is the noun [وَحْد]{.ar} annexed to a pronoun, meaning "alone".
 For example:
 
 (@) [جَاءَ ٱلضَّيْفَ وَحْدَهُ]{.ar}
     [[النحو الوافي]{.ar} 2/375]{.citex}  
     "The guest came by himself."
 
-Other definite nouns may also occur as [hal]{.subs}s.
+Other definite nouns may also occur as [HAl]{.trn2}s.
 For example:
 
 (@) [ٱدْخُلُوا ٱلْأَوَّلَ فَٱلْأَوَّلَ]{.ar}  
@@ -539,32 +539,32 @@ For example:
     "I spoke to him his mouth to my mouth."  
     (i.e. face to face)
 
-The definite [hal]{.subs} may also occur in a comparative statement.
+The definite [HAl]{.trn2} may also occur in a comparative statement.
 For example:
 
 (@) [زَيْدٌ ٱلرَّاكِبَ أَحْسَنُ مِنْهُ ٱلْمَاشِي]{.ar}
     [Wright 2/116D]{.citex}  
     "Zayd as the rider is more handsome than he is (as) the walker."
 
-Although, it is more usual to use the indefinite [hal]{.subs} in this case: 
+Although, it is more usual to use the indefinite [HAl]{.trn2} in this case: 
 [زَيْدٌ رَاكِبًا أَحْسَنُ مِنْهُ مَاشِيًا]{.ar}.
 
-## Definiteness of the [sahib_hal]{.subs}
+## Definiteness of the person of ḥāl
 
-The [sahib_hal]{.subs} is typically a definite noun,
+The person of ḥāl is typically a definite noun,
 as we have seen in all the examples so far.
 Sometimes, however, it does occur as an indefinite noun.
-Usually, when the [sahib_hal]{.subs} is indefinite, it occurs in the following circumstances:
+Usually, when the person of ḥāl is indefinite, it occurs in the following circumstances:
 
-##### The [hal]{.subs} precedes the indefinite  [sahib_hal]{.subs} {.unnumbered}
+##### The [HAl]{.trn2} precedes the indefinite  person of ḥāl {.unnumbered}
 
 (@) [فِيهَا قَائِمًا رَجُلًا]{.ar}
     [Wright 2/117B]{.citex}  
     "in it (i.e. the house) is a man standing"
 
-The order of the [hal]{.subs} and the [sahib_hal]{.subs} is treated in more detail in section\ (ref).
+The order of the [HAl]{.trn2} and the person of ḥāl is treated in more detail in section\ (ref).
 
-##### The indefinite [sahib_hal]{.subs} is qualified by a [na3t]{.subs} or a [mudafil]{.subs} {.unnumbered}
+##### The indefinite person of ḥāl is qualified by a attribute or a base noun {.unnumbered}
 
 (@) [عِنْدِي غُلَامُ رَجُلٍ قَائِمًا]{.ar}
     [Wright 2/117D]{.citex}  
@@ -578,7 +578,7 @@ The order of the [hal]{.subs} and the [sahib_hal]{.subs} is treated in more deta
     [[[سورة فصلت]{.ar} 41:10](https://quran.com/41/10) cited by [النحو العربي: أحكام ومعان]{.ar} 2/45]{.citex}  
     "and He blessed it and determined therein its [creatures'] sustenance in four days without distinction - for [the information of] those who ask."
 
-##### The indefinite [sahib_hal]{.subs} is in a negative statement or a question {.unnumbered}
+##### The indefinite person of ḥāl is in a negative statement or a question {.unnumbered}
 
 (@) [مَا خَابَ عَامِلٌ مُخْلِصًا]{.ar}
     [[النحو الوافي]{.ar} 2/403]{.citex}  
@@ -593,26 +593,26 @@ The order of the [hal]{.subs} and the [sahib_hal]{.subs} is treated in more deta
     "Did anyone come riding?"
 
 
-##### The indefinite [sahib_hal]{.subs} without any special circumstance {.unnumbered}
+##### The indefinite person of ḥāl without any special circumstance {.unnumbered}
 
 Occasionally, 
-the [sahib_hal]{.subs} may be indefinite without any special circumstance.^[[النحو العربي: أحكام ومعان]{.ar} 2/45--47]
+the person of ḥāl may be indefinite without any special circumstance.^[[النحو العربي: أحكام ومعان]{.ar} 2/45--47]
 For example:
 
 (@) [وَصَلَّى وَرَاءَهُ قَوْمٌ قِيَامًا]{.ar}
     [[[صحيح البخاري]{.ar} :1113](https://sunnah.com/bukhari:1113)]{.citex}  
     "and [some] people prayed behind him standing"
 
-## The order of the [hal]{.subs}, the [sahib_hal]{.subs} and the [3aamil]{.subs}
+## The order of the [HAl]{.trn2}, the person of ḥāl and the governor
 
-The normal order is: first the [3aamil]{.subs}, then the [sahib_hal]{.subs}, then the [hal]{.subs}.
+The normal order is: first the governor, then the person of ḥāl, then the [HAl]{.trn2}.
 However, there is much variability permitted, subject to certain rules.
 
-### The [hal]{.subs} preceding the [3aamil]{.subs}
+### The [HAl]{.trn2} preceding the governor
 
-The [hal]{.subs} may precede the [3aamil]{.subs} if
-the [3aamil]{.subs} is an verb
-or [shibh_fi3l]{.subs}
+The [HAl]{.trn2} may precede the governor if
+the governor is an verb
+or quasi-verb
 that flexes based on the doer.
 
 So we can say:
@@ -629,25 +629,25 @@ So we can say:
 (@) [مُخْلِصًا زَيْدٌ دَعَا]{.ar}
     [add ref to alfiyyah ibn malik]  
     "Sincerely did Zayd supplicate."  
-    (The [hal]{.subs} [مُخْلِصًا]{.ar} precedes not just its [3aamil]{.subs} in the [xabar]{.subs} [دَعَا]{.ar}, but also the [mubtada]{.subs} [زَيْدٌ]{.ar}.)
+    (The [HAl]{.trn2} [مُخْلِصًا]{.ar} precedes not just its governor in the info [دَعَا]{.ar}, but also the subject [زَيْدٌ]{.ar}.)
 
-If the [3aamil]{.subs} is a verb or [sifah]{.subs} that is rigid (does not flex based on the doer),
-then the [hal]{.subs} rarely^[ibn uthaymeen], if ever^[wright], precedes the [3aamil]{.subs}.
-Examples of such [3aamil]{.subs}s are the verb of wonder and the [af3al]{.subs}.
+If the governor is a verb or adjectival noun that is rigid (does not flex based on the doer),
+then the [HAl]{.trn2} rarely^[ibn uthaymeen], if ever^[wright], precedes the governor.
+Examples of such governors are the verb of wonder and the comparative noun.
 For example:
 
 (@) [مَا أَحْسَنَ زَيْدٌ ضَاحِكًا]{.ar}
     [Wright 2/118B]{.citex}  
-    (not [x]{.subs} [ضَاحِكًا مَا أَحْسَنَ زَيْدٌ]{.ar})  
+    (not ✗ [ضَاحِكًا مَا أَحْسَنَ زَيْدٌ]{.ar})  
     "How handsome is Zayd (when) laughing!"
 
 (@) [زَيْدٌ أَحْسَنُ مِنْ عَمْرٍو ضَاحِكًا]{.ar}
     [Wright 2/118B]{.citex}  
-    (not [x]{.subs} [زَيْدٌ ضَاحِكًا أَحْسَنُ مِنْ عَمْرٍو]{.ar})  
+    (not ✗ [زَيْدٌ ضَاحِكًا أَحْسَنُ مِنْ عَمْرٍو]{.ar})  
     "Zayd is more handsome than [#eamr]{.trn2} (when) laughing."
 
-An exception is permitted when a noun, in one [hal]{.subs}, is compared with itself or another noun in another [hal]{.subs}.
-In this case, the [hal]{.subs} regularly precedes its [af3al]{.subs} [3aamil]{.subs}.
+An exception is permitted when a noun, in one [HAl]{.trn2}, is compared with itself or another noun in another [HAl]{.trn2}.
+In this case, the [HAl]{.trn2} regularly precedes its comparative noun governor.
 For example:
 
 (@) [زَيْدٌ قَائِمًا أَحْسَنُ مِنْهُ قَاعِدًا]{.ar}
@@ -658,27 +658,27 @@ For example:
     [Wright 2/118C]{.citex}  
     "Zayd when alone is more useful than [#eamr]{.trn2} when assisted (by others)."
 
-If the [3aamil]{.subs} is not a verb or a [shibh_fi3l]{.subs} but an expression that has verbal force,
-then the [hal]{.subs} usually does not precede the [3aamil]{.subs}.^[See, however, [[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/39/67) for [سورة الزمر]{.ar} 39:67 for the recitation [والسماوات مطوياتٍ بيمينه]{.ar}. Also mentioned by Wright 2/118D]
+If the governor is not a verb or a quasi-verb but an expression that has verbal force,
+then the [HAl]{.trn2} usually does not precede the governor.^[See, however, [[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/39/67) for [سورة الزمر]{.ar} 39:67 for the recitation [والسماوات مطوياتٍ بيمينه]{.ar}. Also mentioned by Wright 2/118D]
 
 (@) [كَأَنَّ زَيْدٌ رَاكِبًا أَسَدٌ]{.ar}
     [Wright 2/118D]{.citex}  
-    (not [x]{.subs} [رَاكِبًا كَأَنَّ زَيْدٌ أَسَدٌ]{.ar})  
+    (not ✗ [رَاكِبًا كَأَنَّ زَيْدٌ أَسَدٌ]{.ar})  
     "[It is] as if Zayd, when riding, is a lion."
 
 (@) [زَيْدٌ فِي ٱلدَّارِ قَائِمًا]{.ar}
     [Wright 2/118D]{.citex}  
-    (not [x]{.subs} [زَيْدٌ قَائِمًا فِي ٱلدَّارِ]{.ar})  
+    (not ✗ [زَيْدٌ قَائِمًا فِي ٱلدَّارِ]{.ar})  
     "Zayd is in the house standing."
 
 (@) [تِلْكَ هِنْدٌ بَاحِثَةً]{.ar}
     [[النحو العربي: أحكام ومعان]{.ar} 2/53]{.citex}  
-    (not [x]{.subs} [بَاحِثَةً تِلْكَ هِنْدٌ]{.ar})  
+    (not ✗ [بَاحِثَةً تِلْكَ هِنْدٌ]{.ar})  
     "That is Hind, searching."
 
-### The [hal]{.subs} preceding the [sahib_hal]{.subs}
+### The [HAl]{.trn2} preceding the person of ḥāl
 
-The [hal]{.subs} is generally allowed to precede the [sahib_hal]{.subs} when the [sahib_hal]{.subs} is in the [ustate]{.subs} or [astate]{.subs}.
+The [HAl]{.trn2} is generally allowed to precede the person of ḥāl when the person of ḥāl is in the u-state or a-state.
 For example:
 
 (@) [جَاءَ ضَاحِكًا زَيْدٌ]{.ar}
@@ -689,7 +689,7 @@ For example:
     [[النحو العربي: أحكام ومعان]{.ar} 2/48]{.citex}  
     "I drank the water clear."
 
-Excepted from this general permissibility is if the [sahib_hal]{.subs} is restricted by [إِلَّا]{.ar}.
+Excepted from this general permissibility is if the person of ḥāl is restricted by [إِلَّا]{.ar}.
 For example:
 
 (@) [مَا جَاءَ أُسَامَةُ إِلَّا رَاكِبًا]{.ar}
@@ -700,8 +700,8 @@ For example:
     [[[سورة الأنعام]{.ar} 6:48](https://quran.com/6/48)]{.citex}  
     "And We send not the messengers except as bringers of good tidings and warners."
 
-When the [sahib_hal]{.subs} is in the [istate]{.subs} then:
-if it is a [mudafil]{.subs} in an [idaafah]{.subs}, then the [hal]{.subs} should follow the [sahib_hal]{.subs} and not precede it.
+When the person of ḥāl is in the i-state then:
+if it is a base noun in an annexation, then the [HAl]{.trn2} should follow the person of ḥāl and not precede it.
 
 For example:
 
@@ -709,15 +709,15 @@ For example:
     [Wright 2/119C]{.citex}  
     "Zayd's standing speedily pleased me."
 
-If the [sahib_hal]{.subs} is in the [istate]{.subs} due to a preceding preposition, then
-the [hal]{.subs} will usually follow it and not precede it.
+If the person of ḥāl is in the i-state due to a preceding preposition, then
+the [HAl]{.trn2} will usually follow it and not precede it.
 For example:
 
 (@) [مَرَرْتُ بِهِنْدٍ جَالِسَةً]{.ar}
     [Wright 2/119B]{.citex}  
     "I passed by Hind (when she was) sitting."
 
-Occasionally, however, the [hal]{.subs} has been found to precede the [istate]{.subs} [sahib_hal]{.subs} preceded by a preposition.
+Occasionally, however, the [HAl]{.trn2} has been found to precede the i-state person of ḥāl preceded by a preposition.
 For example:
 
 (@) [وَمَا أَرْسَلْنَاكَ إِلَّا كَافَّةً لِلنَّاسِ]{.ar}
@@ -727,7 +727,7 @@ For example:
 ### Reasons for varying the normal order
 
 The natural order, as we have mentioned, is:
-first the [3aamil]{.subs}, then the [sahib_hal]{.subs}, then the [hal]{.subs}.
+first the governor, then the person of ḥāl, then the [HAl]{.trn2}.
 So normally we would say:
 
 (@) [حَضَرَ مُحَمَّدٌ مَاشِيًا]{.ar}
@@ -752,10 +752,10 @@ came riding and not walking, then the speaker may wish to disabuse him by saying
 
 There may be other reasons as well.^[[معاني النحو]{.ar} 2/354]
 
-## Transitory and permanent meanings for the [hal]{.subs}
+## Transitory and permanent meanings for the [HAl]{.trn2}
 
-Fundamentally, the [hal]{.subs} is transitory in its meaning;
-i.e. it is not meant to be a permanent description of the [sahib_hal]{.subs}.
+Fundamentally, the [HAl]{.trn2} is transitory in its meaning;
+i.e. it is not meant to be a permanent description of the person of ḥāl.
 For example:
 
 (@) [جَاءَ سَعِيدٌ غَاضِبًا]{.ar}
@@ -766,7 +766,7 @@ For example:
     [[النحو العربي: أحكام ومعان]{.ar} 2/28]{.citex}  
     "[#xAlid]{.trn2} came riding."
 
-In the above examples, the [hal]{.subs}s
+In the above examples, the [HAl]{.trn2}s
 [غَاضِبًا]{.ar} "angry"
 and
 [رَاكِبًا]{.ar} "riding"
@@ -777,18 +777,18 @@ and that
 [#xAlid]{.trn2} could come walking instead of riding.
 
 <!--
-However, there are circumstances in which the [hal]{.subs} may be a more permanent description of the [sahib_hal]{.subs}.
+However, there are circumstances in which the [HAl]{.trn2} may be a more permanent description of the person of ḥāl.
 These circumstances are:
 
-#### The [hal]{.subs} describes [sahib_hal]{.subs} coming in to existence {.unnumbered}
+#### The [HAl]{.trn2} describes person of ḥāl coming in to existence {.unnumbered}
 
-When the [hal]{.subs} describes [sahib_hal]{.subs} as it comes in to existence or relevance,
+When the [HAl]{.trn2} describes person of ḥāl as it comes in to existence or relevance,
 then it may have a permanent meaning.
 -->
 
-However, it is possible that the [hal]{.subs} have a more permanent meaning.
+However, it is possible that the [HAl]{.trn2} have a more permanent meaning.
 This is primarily when 
-the [hal]{.subs} describes [sahib_hal]{.subs} as it comes in to existence or relevance.
+the [HAl]{.trn2} describes person of ḥāl as it comes in to existence or relevance.
 
 For example:
 
@@ -804,20 +804,20 @@ For example:
     [[النحو العربي: أحكام ومعان]{.ar} 2/29]{.citex}  
     "She gave birth to him blue-eyed (and) snub-nosed"
 
-The [hal]{.subs} may also have a more permanent meaning in the sense that
-while it describes the [sahib_hal]{.subs} linked in time to the [3aamil]{.subs},
-its meaning also applies more permanently to the [sahib_hal]{.subs}.
+The [HAl]{.trn2} may also have a more permanent meaning in the sense that
+while it describes the person of ḥāl linked in time to the governor,
+its meaning also applies more permanently to the person of ḥāl.
 For example:
 
 (@) [وَهَـٰذَا صِرَاطُ رَبِّكَ مُسْتَقِيمًا]{.ar}
     [[[سورة الأنعام]{.ar} 6:126](https://quran.com/6/126) cited by [النحو العربي: أحكام ومعان]{.ar} 2/30]{.citex}  
     "And this is the path of your Lord, [leading] straight"  
-    (The [hal]{.subs} [مُسْتَقِيمًا]{.ar} "straight" applies permanently to the [sahib_hal]{.subs} [صِرَاطُ رَبِّكَ]{.ar} "path of your Lord")
+    (The [HAl]{.trn2} [مُسْتَقِيمًا]{.ar} "straight" applies permanently to the person of ḥāl [صِرَاطُ رَبِّكَ]{.ar} "path of your Lord")
 
-## Difference in meaning between the [hal]{.subs} and the [na3t]{.subs}
+## Difference in meaning between the [HAl]{.trn2} and the attribute
 
-The [hal]{.subs} and the the [na3t]{.subs} are typically both sourced from [sifah]{.subs}s.
-And generally when you use the [sifah]{.subs} as a [hal]{.subs} it will have a different meaning from when it is used as a [sifah]{.subs}.
+The [HAl]{.trn2} and the the attribute are typically both sourced from adjectival nouns.
+And generally when you use the adjectival noun as a [HAl]{.trn2} it will have a different meaning from when it is used as a adjectival noun.
 
 Consider the following two examples:
 
@@ -852,40 +852,40 @@ Whereas the latter sentence describes the student as slacking when he is approac
 He may not be a slacker in general.
 
 <!--
-Even when the [sifah]{.subs} used for the [hal]{.subs} has a more permanent meaning,
-there can be a distinction from it being used as a [na3t]{.subs}.
+Even when the adjectival noun used for the [HAl]{.trn2} has a more permanent meaning,
+there can be a distinction from it being used as a attribute.
 -->
 
 However, there can sometimes be some overlap in meaning.^[See also [شرح إبي سعيد بهامش كتاب سيبويه]{.ar} 1/272 cited by [معاني النحو]{.ar} 2/350]
 For example, in the scenario when all the following conditions are satisfied:
 
-* the [hal]{.subs} has a transitory meaning,
-* the meaning of the [hal]{.subs} is a description of motion or posture (like "sitting", "standing", "sleeping", "running", etc.),
-* the [sahib_hal]{.subs} is indefinite,
-* the [3aamil]{.subs} is an expression that has verbal force (see section\ (ref)).
+* the [HAl]{.trn2} has a transitory meaning,
+* the meaning of the [HAl]{.trn2} is a description of motion or posture (like "sitting", "standing", "sleeping", "running", etc.),
+* the person of ḥāl is indefinite,
+* the governor is an expression that has verbal force (see section\ (ref)).
 
-In such a case, the [sifah]{.subs} used as a [na3t]{.subs} may have a somewhat similar meaning to it being used a [hal]{.subs}.
+In such a case, the adjectival noun used as a attribute may have a somewhat similar meaning to it being used a [HAl]{.trn2}.
 For example:
 <!--
 (@) [فِي ٱلْبَيْتِ رَجُلٌ نَائمٌ]{.ar}  
     "In the house, is a sleeping man."  
-    ([na3t]{.subs})
+    (attribute)
 
 (@) [فِي ٱلْبَيْتِ رَجُلٌ نَائِمًا]{.ar}  
     "In the house, is a man sleeping."  
-    ([hal]{.subs})
+    ([HAl]{.trn2})
 -->
 
 (@) [فِيهَا رَجُلٌ قَائِمٌ]{.ar}  
     "In it (i.e. the house), is a standing man."  
-    ([na3t]{.subs})
+    (attribute)
 
 (@) [فِيهَا رَجُلٌ قَائِمًا]{.ar}  
     [[سيبويه]{.ar} 1/272 cited by [معاني النحو]{.ar} 2/352]{.citex}  
     "In the house, is a man standing."  
-    ([hal]{.subs})
+    ([HAl]{.trn2})
 
-There may also be a case where the [hal]{.subs} is indistinguishable from the [na3t]{.subs} due to the [sahib_hal]{.subs} being indefinite and in the [astate]{.subs}.
+There may also be a case where the [HAl]{.trn2} is indistinguishable from the attribute due to the person of ḥāl being indefinite and in the a-state.
 For example:
 
 (@) [رَأَيْتُ طَالِبًا مُقَصِّرًا]{.ar}
@@ -894,19 +894,19 @@ For example:
     or  
     "I saw a slacking student."  
 
-## An [jamid]{.subs} noun as the [hal]{.subs}
+## An underived noun as the [HAl]{.trn2}
 
-Because the [hal]{.subs} is a description of the [sahib_hal]{.subs},
-and a description is likely to be a [sifah]{.subs},
-and [sifah]{.subs}s are typically [mushtaqq]{.subs} nouns,
-it therefore follows that the [hal]{.subs} is likely to be a [mushtaqq]{.subs} noun.
-Most of the examples we have seen so far have been of the [hal]{.subs} as a
-[mushtaqq]{.subs} noun.
+Because the [HAl]{.trn2} is a description of the person of ḥāl,
+and a description is likely to be a adjectival noun,
+and adjectival nouns are typically deverbal nouns,
+it therefore follows that the [HAl]{.trn2} is likely to be a deverbal noun.
+Most of the examples we have seen so far have been of the [HAl]{.trn2} as a
+deverbal noun.
 For example:
 [رَاكِبًا]{.ar},
 [غَاضِبًا]{.ar}, etc.
 However, it is possible for the
-[hal]{.subs} to be [jamid]{.subs} noun.
+[HAl]{.trn2} to be underived noun.
 Here are some examples:
 
 (@) [طَلَعَ ٱلْقَمَرُ بَدْرًا]{.ar}
@@ -964,12 +964,12 @@ Here are some examples:
     [[النحو العربي: أحكام ومعان]{.ar} 2/34]{.citex}  
     "This is your ring, in silver"
 
-## A [masdar]{.subs} as the [hal]{.subs}
+## A [maSdar]{.trn2} as the [HAl]{.trn2}
 
 <!--
-While the [hal]{.subs} is usually a [sifah]{.subs} it does frequently occur as an indefinite [masdar]{.subs}.
+While the [HAl]{.trn2} is usually a adjectival noun it does frequently occur as an indefinite [maSdar]{.trn2}.
 -->
-The [masdar]{.subs} can sometimes _appear_ to be a [hal]{.subs}.
+The [maSdar]{.trn2} can sometimes _appear_ to be a [HAl]{.trn2}.
 For example:
 
 (@) [أَقْبَلَ عَلِيٌّ رَكْضًا]{.ar}
@@ -977,48 +977,48 @@ For example:
     "[#ealiyy]{.trn2} approached (in the state of) running."
 
 In the above example, the opinion of some scholars would be that
-the [masdar]{.subs}
+the [maSdar]{.trn2}
 [رَكْضًا]{.ar}
-is a [hal]{.subs}.
+is a [HAl]{.trn2}.
 And this is a substitute for saying 
 [أَقْبَلَ عَلِيٌّ رَاكِضًا]{.ar}.
 
-When the [masdar]{.subs} is used thus it remains in the indefinite singular regardless of the number of the [sahibs_hal]{.subs}.
+When the [maSdar]{.trn2} is used thus it remains in the indefinite singular regardless of the number of the persons of ḥāl.
 For example:
 
 (@) [أَقْبَلَ ٱلْقَوْمُ رَكْضًا]{.ar}  
     "The people approached running."
 
-The reasons for using a [masdar]{.subs}
+The reasons for using a [maSdar]{.trn2}
 [رَكْضًا]{.ar}
-in this way instead of the [sifah]{.subs}
+in this way instead of the adjectival noun
 [رَاكِضًا]{.ar}
 may be:
 
- i. Emphasis. The [masdar]{.subs} signifies purely the meaning of the verb "to run".
-    Whereas the [sifah]{.subs} signifies the meaning of the verb along with person described by the [sifah]{.subs} (the runner).
-    So using the [masdar]{.subs} as a [hal]{.subs} draws attention to the meaning of running rather than the person who is running.
-    The [masdar]{.subs} used in this way can also be seen as a sort of metaphor,
+ i. Emphasis. The [maSdar]{.trn2} signifies purely the meaning of the verb "to run".
+    Whereas the adjectival noun signifies the meaning of the verb along with person described by the adjectival noun (the runner).
+    So using the [maSdar]{.trn2} as a [HAl]{.trn2} draws attention to the meaning of running rather than the person who is running.
+    The [maSdar]{.trn2} used in this way can also be seen as a sort of metaphor,
     as if [#ealiyy]{.trn2}, while executing the action of running, _became_ the act of running.^[[معاني النحو]{.ar} 2/348]
 
 ii. Expanding the sense of the adverb to incorporate other adverbs.
-    The [masdar]{.subs} 
+    The [maSdar]{.trn2} 
     [رَكْضًا]{.ar},
-    in the above example, can also be analyzed as an [mmutlaq]{.subs} (being a [naib]{.subs} to the [masdar]{.subs} [إِقْبَال]{.ar}) meaning:
+    in the above example, can also be analyzed as an absolute doee (being a deputy to the [maSdar]{.trn2} [إِقْبَال]{.ar}) meaning:
 
     (@) [أَقْبَلَ عَلِيٌّ إِقْبَالَ رَكْضٍ]{.ar}
         [[معاني النحو]{.ar} 2/348]{.citex}  
        "[#ealiyy]{.trn2} approached (in) the type of approaching (that is) running."
 
-    The use of the [masdar]{.subs} in this way could then be used to intend both the [hal]{.subs} meaning and the [mmutlaq]{.subs} meaning together.
+    The use of the [maSdar]{.trn2} in this way could then be used to intend both the [HAl]{.trn2} meaning and the absolute doee meaning together.
     That is [#ealiyy]{.trn2}'s type and state of approaching was running.
 
-    Depending on the meaning of the [masdar]{.subs}, other types of adverbs, like the [mafull]{.subs}, may be included in this expanded sense as well.^[[معاني النحو]{.ar} 2/348]
+    Depending on the meaning of the [maSdar]{.trn2}, other types of adverbs, like the adverb of reason, may be included in this expanded sense as well.^[[معاني النحو]{.ar} 2/348]
 
-Some scholars are conservative in analyzing a [masdar]{.subs} as a [hal]{.subs}, and instead prefer that it be analyzed as another adverb, like a ([naib]{.subs}) [mmutlaq]{.subs} or an [mafull]{.subs}, etc.^[See [مجموع مقالات فيصل المنصور]{.ar} 529--530]
-And if the meaning of the [masdar]{.subs} does not allow it to be analyzed as another adverb, and only as a [hal]{.subs} then it is accepted as a permitted usage but one that is restricted to what has been recorded from Classical Arabic.
+Some scholars are conservative in analyzing a [maSdar]{.trn2} as a [HAl]{.trn2}, and instead prefer that it be analyzed as another adverb, like a (deputy) absolute doee or an adverb of reason, etc.^[See [مجموع مقالات فيصل المنصور]{.ar} 529--530]
+And if the meaning of the [maSdar]{.trn2} does not allow it to be analyzed as another adverb, and only as a [HAl]{.trn2} then it is accepted as a permitted usage but one that is restricted to what has been recorded from Classical Arabic.
 
-Here are some examples of [masdar]{.subs}s having being analyzed as [hal]{.subs}.
+Here are some examples of [maSdar]{.trn2}s having being analyzed as [HAl]{.trn2}.
 They may fit other adverbs instead or as well.
 
 (@) [قَتَلْتُهُ صَبْرًا]{.ar}
@@ -1032,43 +1032,43 @@ They may fit other adverbs instead or as well.
 (@) [يَدْعُونَ رَبَّهم خَوْفًا وطَمَعًا]{.ar}
     [[[سورة السجدة]{.ar} 32:16](https://quran.com/32/16)]{.citex}  
     "they supplicate their Lord in fear and aspiration"  
-    ([خَوْفًا]{.ar} (above) is analyzed as either a [mafull]{.subs} or a [hal]{.subs}.^[See [[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/32/16) for [سورة السجدة]{.ar} 32:16])
+    ([خَوْفًا]{.ar} (above) is analyzed as either a adverb of reason or a [HAl]{.trn2}.^[See [[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/32/16) for [سورة السجدة]{.ar} 32:16])
 
 
 (@) [ٱلَّذِینَ یُنْفِقُونَ أَمْوَالَهُمْ بِٱلَّيْلِ وَٱلنَّهَارِ سِرًّا وَعَلَانِیَةً]{.ar}
     [[[سورة البقرة]{.ar} 2:274](https://quran.com/2/274)]{.citex}  
     "Those who spend their wealth [in Allāh's way] by night and by day, secretly and publicly"  
-    ([سِرًّا]{.ar} is analyzed as either a [hal]{.subs} or a [na3t]{.subs} to a deleted [mmutlaq]{.subs} [إِنْفَاقًا]{.ar}.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/2/274) for [سورة البقرة]{.ar} 2:274])
+    ([سِرًّا]{.ar} is analyzed as either a [HAl]{.trn2} or a attribute to a deleted absolute doee [إِنْفَاقًا]{.ar}.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/2/274) for [سورة البقرة]{.ar} 2:274])
 
 
 (@) [إنَّ الَّذِينَ يَأْكُلُونَ أمْوالَ اليَتامى ظُلْمًا]{.ar}
     [[[سورة النساء]{.ar} 4:10](https://quran.com/4/10)]{.citex}  
     "Indeed, those who devour the property of orphans unjustly"  
-    ([ظُلْمًا]{.ar} (above) is analyzed as either a [mafull]{.subs} or a [hal]{.subs}.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/4/10) for [سورة النساء]{.ar} 4:10])
+    ([ظُلْمًا]{.ar} (above) is analyzed as either a adverb of reason or a [HAl]{.trn2}.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/4/10) for [سورة النساء]{.ar} 4:10])
 
 
 (@) [حَتَّىٰ إِذَا جَاءَتْهُمُ ٱلسَّاعَةُ بَغْتَةً]{.ar}
     [[[سورة الأنعام]{.ar} 6:31](https://quran.com/6/31)]{.citex}  
     "until when the Hour [of resurrection] comes upon them unexpectedly"  
-    ([بَغْتَةً]{.ar} (above) is analyzed as either a [hal]{.subs} or a [mmutlaq]{.subs}.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/6/30) for [سورة الأنعام]{.ar} 6:30])
+    ([بَغْتَةً]{.ar} (above) is analyzed as either a [HAl]{.trn2} or a absolute doee.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/6/30) for [سورة الأنعام]{.ar} 6:30])
 
 <!--
-[خَوْفًا]{.ar} (above) is analyzed as either a [mafull]{.subs} or a [hal]{.subs}.^[See https://tafsir.app/albahr-almuheet/32/16]
-[سِرًّا]{.ar} is analyzed as either a [hal]{.subs} or a [na3t]{.subs} to a deleted [mmutlaq]{.subs} [إِنْفَاقًا]{.ar}.^[https://tafsir.app/albahr-almuheet/2/274]
-([ظُلْمًا]{.ar} (above) is analyzed as either a [mafull]{.subs} or a [hal]{.subs}.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/4/10) for [سورة النساء]{.ar} 4:10])
-([بَغْتَةً]{.ar} (above) is analyzed as either a [hal]{.subs} or a [mmutlaq]{.subs}.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/6/30) for [سورة الأنعام]{.ar} 6:30])
+[خَوْفًا]{.ar} (above) is analyzed as either a adverb of reason or a [HAl]{.trn2}.^[See https://tafsir.app/albahr-almuheet/32/16]
+[سِرًّا]{.ar} is analyzed as either a [HAl]{.trn2} or a attribute to a deleted absolute doee [إِنْفَاقًا]{.ar}.^[https://tafsir.app/albahr-almuheet/2/274]
+([ظُلْمًا]{.ar} (above) is analyzed as either a adverb of reason or a [HAl]{.trn2}.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/4/10) for [سورة النساء]{.ar} 4:10])
+([بَغْتَةً]{.ar} (above) is analyzed as either a [HAl]{.trn2} or a absolute doee.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/6/30) for [سورة الأنعام]{.ar} 6:30])
 -->
 
-## A sentence as the [hal]{.subs}
+## A sentence as the [HAl]{.trn2}
 
 In the examples so far,
-the [hal]{.subs} has always been a single word,
-usually an [sifah]{.subs}.
+the [HAl]{.trn2} has always been a single word,
+usually an adjectival noun.
 For example,
 [جَاءَ زَيْدٌ ضَاحِكًا]{.ar} "Zayd came laughing".
-Instead, of using the [sifah]{.subs}
+Instead, of using the adjectival noun
 [ضَاحِكًا]{.ar},
-we can instead use the [ustate]{.subs} [mudarie]{.subs} verb
+we can instead use the u-state stateful verb
 [يَضْحَكُ]{.ar}:
 
 (@haal-sentence-mudarie-zayd-laughing) [جَاءَ زَيْدٌ يَضْحَكُ]{.ar}
@@ -1079,64 +1079,64 @@ Actually,
 [يَضْحَكُ]{.ar}
 is not just a verb.
 Rather, it is a complete sentence
-comprising of the verb itself and the [faa3il]{.subs}
+comprising of the verb itself and the doer
 which, in this case, is the hidden pronoun "he".
-So the [hal]{.subs} here is a sentence.
+So the [HAl]{.trn2} here is a sentence.
 
-As we know, the [hal]{.subs} describes the [sahib_hal]{.subs} during time of [hal]{.subs}'s governing verb.
-The use of the [mudarie]{.subs} verb
+As we know, the [HAl]{.trn2} describes the person of ḥāl during time of [HAl]{.trn2}'s governing verb.
+The use of the stateful verb
 [يَضْحَكُ]{.ar}
-signifies that Zayd's action of laughing was ongoing during the time of the [3aamil]{.subs} [جَاءَ]{.ar}.
-So [يَضْحَكُ]{.ar} has a past meaning because of the [madi]{.subs} verb [جَاءَ]{.ar}.
+signifies that Zayd's action of laughing was ongoing during the time of the governor [جَاءَ]{.ar}.
+So [يَضْحَكُ]{.ar} has a past meaning because of the perfect verb [جَاءَ]{.ar}.
 An additional verb like [كَانَ]{.ar} is not needed to transport the verb
 [يَضْحَكُ]{.ar} to the past.
-Similarly, if the [3aamil]{.subs} was in the present or the future, the [mudarie]{.subs} verb in the [hal]{.subs} would automatically be transported to the present or future as well.
+Similarly, if the governor was in the present or the future, the stateful verb in the [HAl]{.trn2} would automatically be transported to the present or future as well.
 For example:
 
 (@) [سَيَأْتِي زَيْدٌ يَضْحَكُ]{.ar}  
     "Zayd will come laughing."
 
-In fact, it is not permitted for the [hal]{.subs} sentence that begins with the [mudarie]{.subs} verb to itself be prefixed with [سَ]{.ar} or [سَوْفَ]{.ar}.^[[معاني النحو]{.ar} 2/354 citing [شرح الرضي على الكافية]{.ar}. But see [[تفسير ابن عاشور]{.ar}](https://tafsir.app/ibn-aashoor/37/99) for [سورة الصافات]{.ar} 37:99 for a dissenting opinion.]
-So we cannot say (intending [سَيَضْحَكُ]{.ar} to be a [hal]{.subs}):
+In fact, it is not permitted for the [HAl]{.trn2} sentence that begins with the stateful verb to itself be prefixed with [سَ]{.ar} or [سَوْفَ]{.ar}.^[[معاني النحو]{.ar} 2/354 citing [شرح الرضي على الكافية]{.ar}. But see [[تفسير ابن عاشور]{.ar}](https://tafsir.app/ibn-aashoor/37/99) for [سورة الصافات]{.ar} 37:99 for a dissenting opinion.]
+So we cannot say (intending [سَيَضْحَكُ]{.ar} to be a [HAl]{.trn2}):
 
-(@) [x]{.subs} [سَيَأْتِي زَيْدٌ سَيَضْحَكُ]{.ar} or  
-    [x]{.subs} [يَأْتِي زَيْدٌ سَيَضْحَكُ]{.ar}
+(@) ✗ [سَيَأْتِي زَيْدٌ سَيَضْحَكُ]{.ar} or  
+    ✗ [يَأْتِي زَيْدٌ سَيَضْحَكُ]{.ar}
 
-This restriction only applies to [mudarie]{.subs} verbs that begin a sentence [hal]{.subs}.
-If a [mudarie]{.subs} verb begins a sentence that is not a [hal]{.subs} then it may begin with [سَ]{.ar} or [سَوْفَ]{.ar}.
+This restriction only applies to stateful verbs that begin a sentence [HAl]{.trn2}.
+If a stateful verb begins a sentence that is not a [HAl]{.trn2} then it may begin with [سَ]{.ar} or [سَوْفَ]{.ar}.
 For example:
 
 (@) [وَقَالَ إِنِّى ذَاهِبٌ إِلَىٰ رَبِّى سَيَهْدِينِ]{.ar}
     [[[سورة الصافات]{.ar} 37:99](https://quran.com/37/99)]{.citex}  
     "And [then] he said, 'Indeed, I will go to [where I am ordered by] my Lord; He will guide me."
 
-Here are some more examples of sentence [hal]{.subs}s comprised of a [mudarie]{.subs} verb and a [faa3il]{.subs} (or [naib]{.subs} [faa3il]{.subs}) pronoun:
+Here are some more examples of sentence [HAl]{.trn2}s comprised of a stateful verb and a doer (or deputy doer) pronoun:
 
 (@haal-quran-12-16) [وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ]{.ar}
     [[[سورة يوسف]{.ar} 12:16](https://quran.com/12/16)]{.citex}  
     "And they came to their father at night, weeping."
 
-### The link between the sentence [hal]{.subs} and the [sahib_hal]{.subs}
+### The link between the sentence [HAl]{.trn2} and the person of ḥāl
 
-The sentence comprising of only the [mudarie]{.subs} verb and its doer is the simplest, and one of the most common, kind of [hal]{.subs} sentence.
-However, more complex [hal]{.subs} sentences are also possible.
-And the [sahib_hal]{.subs} need not always be the [faa3il]{.subs} of the verb in the sentence.
+The sentence comprising of only the stateful verb and its doer is the simplest, and one of the most common, kind of [HAl]{.trn2} sentence.
+However, more complex [HAl]{.trn2} sentences are also possible.
+And the person of ḥāl need not always be the doer of the verb in the sentence.
 
-But the sentence [hal]{.subs} needs to have a link between it and the [sahib_hal]{.subs}.
-This link is often a pronoun that refers back to the [sahib_hal]{.subs}.
-In the examples above this link pronoun was the [faa3il]{.subs} pronoun of the [mudarie]{.subs} verb.
-Here is an example of a more complex [hal]{.subs} sentence:
+But the sentence [HAl]{.trn2} needs to have a link between it and the person of ḥāl.
+This link is often a pronoun that refers back to the person of ḥāl.
+In the examples above this link pronoun was the doer pronoun of the stateful verb.
+Here is an example of a more complex [HAl]{.trn2} sentence:
 
 (@) [جَاءَ زَيْدٌ يَدُهُ عَلَىٰ رَأْسِهِ]{.ar}
     [Wright, 2/331A]{.citex}  
     "Zayd came (with) his hand on his head."  
 
 In the example above,
-the sentence [يَدُهُ عَلَىٰ رَأْسِهِ]{.ar} is the [hal]{.subs}. 
-Note that [يَد]{.ar} is in the [ustate]{.subs} because it is the [mubtada]{.subs} of the sentence.
-It is not in the [astate]{.subs} because it is not, by itself, the [hal]{.subs}.
+the sentence [يَدُهُ عَلَىٰ رَأْسِهِ]{.ar} is the [HAl]{.trn2}. 
+Note that [يَد]{.ar} is in the u-state because it is the subject of the sentence.
+It is not in the a-state because it is not, by itself, the [HAl]{.trn2}.
 The entire sentence
-[يَدُهُ عَلَىٰ رَأْسِهِ]{.ar} is considered to be in the [astate]{.subs} as the [hal]{.subs}.
+[يَدُهُ عَلَىٰ رَأْسِهِ]{.ar} is considered to be in the a-state as the [HAl]{.trn2}.
 The link is the pronoun [ه]{.ar} in [يَدُهُ]{.ar} and [رَأْسِهِ]{.ar}.
 
 Here are some more examples:
@@ -1144,18 +1144,18 @@ Here are some more examples:
 (@) [ٱهْبِطُوا۟ بَعْضُكُمْ لِبَعْضٍ عَدُوٍّ]{.ar}
     [[[سورة البقرة]{.ar} 2:36](https://quran.com/2/36)]{.citex}  
     "Go down, [all of you], as enemies to one another"  
-    (The sentence [بَعْضُكُمْ لِبَعْضٍ عَدُوٍّ]{.ar} is the [hal]{.subs}. The link is the pronoun [كُمْ]{.ar} in [بَعْضُكُمْ]{.ar}.)
+    (The sentence [بَعْضُكُمْ لِبَعْضٍ عَدُوٍّ]{.ar} is the [HAl]{.trn2}. The link is the pronoun [كُمْ]{.ar} in [بَعْضُكُمْ]{.ar}.)
 
-## The [و]{.ar} of [hal]{.subs} and its rules
+## The [و]{.ar} of [HAl]{.trn2} and its rules
 
-Instead of, or in addition to, a pronoun as the link between the sentence [hal]{.subs} and the [sahib_hal]{.subs},
+Instead of, or in addition to, a pronoun as the link between the sentence [HAl]{.trn2} and the person of ḥāl,
 a special [و]{.ar}, called the
-[و]{.ar}\ _of [hal]{.subs}_,
+[و]{.ar}\ _of [HAl]{.trn2}_,
 may be used.
-The [و]{.ar} of [hal]{.subs}
-signifies that the sentence [hal]{.subs} occurred _while_ the governing verb took place.
+The [و]{.ar} of [HAl]{.trn2}
+signifies that the sentence [HAl]{.trn2} occurred _while_ the governing verb took place.
 Here are some examples of the
-the [و]{.ar} of [hal]{.subs}:
+the [و]{.ar} of [HAl]{.trn2}:
 
 (@haal-waw-haal-zayd-crying) [قَامَ زَيْدٌ وَهَوَ بَاكٍ]{.ar}
     [Wright 2/330C]{.citex}  
@@ -1163,14 +1163,14 @@ the [و]{.ar} of [hal]{.subs}:
 
 (@haal-waw-haal-wudoo) [أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم  مَرَّ بِسَعْدٍ وَهُوَ يَتَوَضَّأُ]{.ar}
     [[[سنن ابن ماجه]{.ar} :425](https://sunnah.com/ibnmajah:425)]{.citex}  
-    "that the Messenger of [#allAh]{.trn2} [pbuh]{.subs} passed by [#saed]{.trn2} while he was performing ablution"
+    "that the Messenger of [#allAh]{.trn2} [ﷺ]{.aralt} passed by [#saed]{.trn2} while he was performing ablution"
 
-We have defined the [hal]{.subs} as an adverb that describes the [sahib_hal]{.subs}.
+We have defined the [HAl]{.trn2} as an adverb that describes the person of ḥāl.
 However,
-sometimes, the [hal]{.subs} sentence that is linked with a
-[و]{.ar} of [hal]{.subs}
-won't apparently describe the [sahib_hal]{.subs}.
-In fact, it may not even refer to the [sahib_hal]{.subs} at all.
+sometimes, the [HAl]{.trn2} sentence that is linked with a
+[و]{.ar} of [HAl]{.trn2}
+won't apparently describe the person of ḥāl.
+In fact, it may not even refer to the person of ḥāl at all.
 For example:
 
 (@haal-waw-haal-zayd-busy) [ذَهَبَ زَيْدٌ وَعَمْرٌو يَشْتَغِلُ]{.ar}
@@ -1178,45 +1178,45 @@ For example:
     "Zayd went while [#eamr]{.trn2} was busy."
 
 In the example above,
-the [hal]{.subs}'s
-description of the [sahib_hal]{.subs} is only circumstantial,
+the [HAl]{.trn2}'s
+description of the person of ḥāl is only circumstantial,
 in that it alludes to the time in which the action of the governing verb occurred.
 In such cases
-the meaning of the [hal]{.subs} approaches that of the adverb of time.
+the meaning of the [HAl]{.trn2} approaches that of the adverb of time.
 This is another of the cases where the lines between different types of adverbs get blurred.
 We have seen similar cases in sections\ (ref).
 Here are some more examples:
 
 <!--
-### Rules of the [و]{.ar} of [hal]{.subs}
+### Rules of the [و]{.ar} of [HAl]{.trn2}
 -->
 
 Depending on the sentence,
-the [و]{.ar} of [hal]{.subs}
+the [و]{.ar} of [HAl]{.trn2}
 can be either mandatory, optional, or disallowed.
 
-Let's go over the different types of [hal]{.subs} sentences, and discuss the ruling of
-the [و]{.ar} of [hal]{.subs}
+Let's go over the different types of [HAl]{.trn2} sentences, and discuss the ruling of
+the [و]{.ar} of [HAl]{.trn2}
 in each type of sentence.
 
 <!--
 Keep in mind that in the cases where
-the [و]{.ar} of [hal]{.subs} is optional,
+the [و]{.ar} of [HAl]{.trn2} is optional,
 the sentence will often have a different meaning with
-the [و]{.ar} of [hal]{.subs}
+the [و]{.ar} of [HAl]{.trn2}
 versus without it.
 We will discuss these difference in meanings in section\ (ref).
 -->
 
 
-### The [hal]{.subs} sentence is a [j_ism]{.subs}
+### The [HAl]{.trn2} sentence is a nounal sentence
 
-When the [hal]{.subs} sentence is a [j_ism]{.subs},
+When the [HAl]{.trn2} sentence is a nounal sentence,
 then there are three possibilities:
 
-  i. The [hal]{.subs} sentence is devoid of a pronoun referring back to the [sahib_hal]{.subs}.
+  i. The [HAl]{.trn2} sentence is devoid of a pronoun referring back to the person of ḥāl.
      In this case,
-     the [و]{.ar}\ of [hal]{.subs}
+     the [و]{.ar}\ of [HAl]{.trn2}
      is obligatory.
      For example:
 
@@ -1224,11 +1224,11 @@ then there are three possibilities:
          [[المقتضب للمبرد]{.ar} 4/125 cited by [وجوب الربط بالواو لعبد الجبار فتحي زيدان]{.ar}]{.citex}  
          "I passed by Zayd while [#eamr]{.trn2} (was) in the house."
 
-     In the above example the [sahib_hal]{.subs} is [زَيْد]{.ar}
-     and the [hal]{.subs} is the [j_ism]{.subs}
+     In the above example the person of ḥāl is [زَيْد]{.ar}
+     and the [HAl]{.trn2} is the nounal sentence
      [عَمْرٌو فِي ٱلدَّارِ]{.ar}.
-     The sentence [hal]{.subs} does not have a pronoun that refers back to the [sahib_hal]{.subs}.
-     Therefore the [و]{.ar} of [hal]{.subs} is necessary to link the sentence [hal]{.subs} to the [sahib_hal]{.subs}.
+     The sentence [HAl]{.trn2} does not have a pronoun that refers back to the person of ḥāl.
+     Therefore the [و]{.ar} of [HAl]{.trn2} is necessary to link the sentence [HAl]{.trn2} to the person of ḥāl.
 
      We have also already seen this usage in example (@haal-waw-haal-zayd-busy) [ذَهَبَ زَيْدٌ وَعَمْرٌو يَشْتَغِلُ]{.ar}.
      Here are more examples:
@@ -1241,11 +1241,11 @@ then there are three possibilities:
          [[[سورة يوسف]{.ar} 12:14](https://quran.com/12/14) cited by [النحو العربي: أحكام ومعان]{.ar} 2/58]{.citex}  
          "They said, 'If a wolf should eat him while we are a [strong] clan,"
 
- ii. The sentence [hal]{.subs} begins with a pronoun that refers to [sahib_hal]{.subs}.
+ ii. The sentence [HAl]{.trn2} begins with a pronoun that refers to person of ḥāl.
      In this case as well,
-     the [و]{.ar}\ of [hal]{.subs}
+     the [و]{.ar}\ of [HAl]{.trn2}
      is obligatory.
-     The link between the sentence [hal]{.subs} and the [sahib_hal]{.subs} is now both the pronoun and the [و]{.ar}\ of [hal]{.subs}.
+     The link between the sentence [HAl]{.trn2} and the person of ḥāl is now both the pronoun and the [و]{.ar}\ of [HAl]{.trn2}.
      We saw this usage in examples (@haal-waw-haal-zayd-crying) [قَامَ زَيْدٌ وَهَوَ بَاكٍ]{.ar} and (@haal-waw-haal-wudoo) [أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم  مَرَّ بِسَعْدٍ وَهُوَ يَتَوَضَّأُ]{.ar}.
 
      Here are some more examples:
@@ -1262,21 +1262,21 @@ then there are three possibilities:
          [[[سورة التوبة]{.ar} 9:54](https://quran.com/9/54)]{.citex}  
          "and that they come not to prayer except while they are lazy"
 
-     Some grammarians admitted optionally dropping the [و]{.ar}\ of [hal]{.subs} in this case to allow sentences like:
+     Some grammarians admitted optionally dropping the [و]{.ar}\ of [HAl]{.trn2} in this case to allow sentences like:
 
      (@) [جَاءَنِي زَيْدٌ هُوَ فَارِسٌ]{.ar}
          [[معاني القرآن وإعرابه للزجاج]{.ar} 2/317 cited by [وجوب الربط بالواو لعبد الجبار فتحي زيدان]{.ar}]{.citex}  
          "Zayd came to me while he (was) on horseback."  
-         (instead of the more normal usage with the [و]{.ar}\ of [hal]{.subs}: [جَاءَنِي زَيْدٌ وَهُوَ فَارِسٌ]{.ar})
+         (instead of the more normal usage with the [و]{.ar}\ of [HAl]{.trn2}: [جَاءَنِي زَيْدٌ وَهُوَ فَارِسٌ]{.ar})
         
      But this opinion is considered anomalous by the majority of the grammarians.^[[وجوب الربط بالواو لعبد الجبار فتحي زيدان]{.ar}]
 
-iii. The [hal]{.subs} sentence has a pronoun that refers to the [sahib_hal]{.subs} but it does not begin the [hal]{.subs} sentence.
+iii. The [HAl]{.trn2} sentence has a pronoun that refers to the person of ḥāl but it does not begin the [HAl]{.trn2} sentence.
      In this case,
-     the [و]{.ar}\ of [hal]{.subs}
+     the [و]{.ar}\ of [HAl]{.trn2}
      is optional.
      But generally, it will be preferred to have
-     the [و]{.ar}\ of [hal]{.subs}.
+     the [و]{.ar}\ of [HAl]{.trn2}.
      For example:
 
      (@) [جَاءَ مُحَمَّدٌ وَيَدُهُ فِي جَيْبِهِ.]{.ar}
@@ -1285,27 +1285,27 @@ iii. The [hal]{.subs} sentence has a pronoun that refers to the [sahib_hal]{.sub
          [[النحو العربي: أحكام ومعان]{.ar} 2/61]{.citex} (less preferred)  
          [#muHammad]{.trn2} came (with) his hand in his pocket."
 
-     If the [hal]{.subs} sentence's [xabar]{.subs} is a [shibh_jumlah]{.subs} (consisting of an prepositional or adverbial phrase),
-     and the [xabar]{.subs} precedes the [mubtada]{.subs},
+     If the [HAl]{.trn2} sentence's info is a quasi-sentence (consisting of an prepositional or adverbial phrase),
+     and the info precedes the subject,
      then dropping
-     the [و]{.ar}\ of [hal]{.subs}
+     the [و]{.ar}\ of [HAl]{.trn2}
      is normal.^[[دلائل الإعجاز للجرجاني]{.ar} 1/203]
      For example:
 
      (@) [جَاء زَيْدٌ فِي يَدِهِ سَوْطٌ]{.ar}  
          "Zayd came (with) a whip in his hand."  
-         (The [hal]{.subs} sentence is [فِي يَدِهِ سَوْطٌ]{.ar}. Its [xabar]{.subs} [فِي يَدِهِ]{.ar} precedes its [mubtada]{.subs} [سَوْطٌ]{.ar}.)
+         (The [HAl]{.trn2} sentence is [فِي يَدِهِ سَوْطٌ]{.ar}. Its info [فِي يَدِهِ]{.ar} precedes its subject [سَوْطٌ]{.ar}.)
 
-### The [hal]{.subs} sentence is a verbal sentence that begins with a [madi]{.subs} verb
+### The [HAl]{.trn2} sentence is a verbal sentence that begins with a perfect verb
 
 There are several possible cases here:
 
-  i. The [hal]{.subs} sentence is devoid of a pronoun that refers back to the [sahib_hal]{.subs}.
+  i. The [HAl]{.trn2} sentence is devoid of a pronoun that refers back to the person of ḥāl.
      In this case
-     the [و]{.ar}\ of [hal]{.subs}
+     the [و]{.ar}\ of [HAl]{.trn2}
      is mandatory.
-     Furthermore, if the [hal]{.subs} sentence is affirmative, the [madi]{.subs} verb shall be preceded by the particle [قَدْ]{.ar}.
-     And if the [hal]{.subs} sentence is negative, the [madi]{.subs} verb shall not be preceded by the particle [قَدْ]{.ar}.
+     Furthermore, if the [HAl]{.trn2} sentence is affirmative, the perfect verb shall be preceded by the particle [قَدْ]{.ar}.
+     And if the [HAl]{.trn2} sentence is negative, the perfect verb shall not be preceded by the particle [قَدْ]{.ar}.
      Examples:
 
      (@) [جِئْتُ وَقَدْ طَلَعَتِ ٱلشَّمْسُ]{.ar}
@@ -1316,67 +1316,67 @@ There are several possible cases here:
          [[النحو العربي: أحكام ومعان]{.ar} 2/58]{.citex}  
          "I came while the sun had not risen."
 
- ii. The [hal]{.subs} sentence has a pronoun that refers back to the [sahib_hal]{.subs}.
+ ii. The [HAl]{.trn2} sentence has a pronoun that refers back to the person of ḥāl.
      In this case
-     the [و]{.ar}\ of [hal]{.subs}
+     the [و]{.ar}\ of [HAl]{.trn2}
      is optional.
-     Furthermore, if the [hal]{.subs} sentence is affirmative, the [madi]{.subs} verb can optionally be preceded by the particle [قَدْ]{.ar}.
-     And if the [hal]{.subs} sentence is negative, the [madi]{.subs} verb shall not be preceded by the particle [قَدْ]{.ar}.
+     Furthermore, if the [HAl]{.trn2} sentence is affirmative, the perfect verb can optionally be preceded by the particle [قَدْ]{.ar}.
+     And if the [HAl]{.trn2} sentence is negative, the perfect verb shall not be preceded by the particle [قَدْ]{.ar}.
      Here are some examples:
 
-     Affirmative with [و]{.ar}\ of [hal]{.subs} and with [قَدْ]{.ar}. (This is the most common case.):
+     Affirmative with [و]{.ar}\ of [HAl]{.trn2} and with [قَدْ]{.ar}. (This is the most common case.):
 
      (@) [وَمَا لَنَا أَلَّا نُقَاتِلَ فِى سَبِيلِ ٱللَّهِ وَقَدْ أُخْرِجْنَا مِنْ دِيَارِنَا وَأَبْنَائِنَا]{.ar}
          [[[سورة البقرة]{.ar} 2:246](https://quran.com/2/246) cited by Wright 2/332B]{.citex}  
          "And why should we not fight in the cause of Allāh when we have been driven out from our homes and from our children?"
 
-     Affirmative with [و]{.ar}\ of [hal]{.subs} and without [قَدْ]{.ar}:
+     Affirmative with [و]{.ar}\ of [HAl]{.trn2} and without [قَدْ]{.ar}:
 
      (@) [قَالُوا۟ أَنُؤْمِنُ لَكَ وَٱتَّبَعَكَ ٱلْأَرْذَلُونَ]{.ar}
          [[[سورة الشعراء]{.ar} 26:111](https://quran.com/26/111) cited by [النحو العربي: أحكام ومعان]{.ar} 2/62]{.citex}  
          "They said, 'Should we believe you while you are followed by the lowest [class of people]?'"
 
-     Affirmative without [و]{.ar}\ of [hal]{.subs} and without [قَدْ]{.ar}:
+     Affirmative without [و]{.ar}\ of [HAl]{.trn2} and without [قَدْ]{.ar}:
 
      (@) [أَوْ جَاءُوكُمْ حَصِرَتْ صُدُورُهُمْ أَنْ يُقَاتِلُوكُمْ]{.ar}
          [[[سورة النساء]{.ar} 4:90](https://quran.com/4/90) cited by [النحو العربي: أحكام ومعان]{.ar} 2/62 and Wright 2/332B]{.citex}  
          "or those who come to you, their hearts strained at [the prospect of] fighting you"
 
-     Affirmative without [و]{.ar}\ of [hal]{.subs} and with [قَدْ]{.ar}:
+     Affirmative without [و]{.ar}\ of [HAl]{.trn2} and with [قَدْ]{.ar}:
 
      (@) [رَأَيْنَاهُ قَدْ تَغَيَّرَ لِزَيْدٍ وَكَانَ عَلَىٰ جُنْدِهِ]{.ar}
          [Wright 2/332C]{.citex}  
          "We saw him (when) he had changed [color due to being enraged] at Zayd who (was) [in command of] his army."
 
-     Negative with [و]{.ar} of [hal]{.subs} (more common):
+     Negative with [و]{.ar} of [HAl]{.trn2} (more common):
 
      (@) [جَاءَ زَيْدٌ وَمَا قَامَ أَبُوهُ]{.ar}
          [Wright 2/332D]{.citex}  
          "Zayd came without his father having stood up."
 
-     Negative without [و]{.ar} of [hal]{.subs} (less common):
+     Negative without [و]{.ar} of [HAl]{.trn2} (less common):
 
      (@) [جَاءَ زَيْدٌ مَا قَامَ أَبُوهُ]{.ar}
          [Wright 2/332D]{.citex}  
          "Zayd came without his father having stood up."
 
-iii. The [hal]{.subs} sentence is an exception, preceded by [إِلَّا]{.ar}.
+iii. The [HAl]{.trn2} sentence is an exception, preceded by [إِلَّا]{.ar}.
      In this case
-     the [و]{.ar}\ of [hal]{.subs}
+     the [و]{.ar}\ of [HAl]{.trn2}
      is prohibited.
      For example:
 
      (@) [وَمَا يَأْتِيهِم مِّن رَّسُولٍ إِلَّا كَانُوا بِهِ يَسْتَهْزِءُونَ]{.ar}
          [[[سورة الحجر]{.ar} 15:11](https://quran.com/15/11) cited by [النحو العربي: أحكام ومعان]{.ar} 2/61]{.citex}  
          "And no messenger would come to them except that they ridiculed him."  
-         (The sentence [كَانُوا بِهِ يَسْتَهْزِءُونَ]{.ar} is the [hal]{.subs} beginning with a [madi]{.subs} verb.)
+         (The sentence [كَانُوا بِهِ يَسْتَهْزِءُونَ]{.ar} is the [HAl]{.trn2} beginning with a perfect verb.)
 
      Some grammarians allowed 
-     the [و]{.ar}\ of [hal]{.subs}
+     the [و]{.ar}\ of [HAl]{.trn2}
      in this case, but the examples they cite are considered irregular to normal usage.^[[حالات الربط بواو الحال الجبار فتحي زيدان]{.ar}]
 
- iv. The [madi]{.subs} verb is followed by the [3atf]{.subs} [أَوْ]{.ar}.
-     In this case, the [madi]{.subs} verb is used with a conditional meaning.
+ iv. The perfect verb is followed by the conjunction [أَوْ]{.ar}.
+     In this case, the perfect verb is used with a conditional meaning.
      For example:
 
      (@) [أَحْفَظُ زَوْجِي غَابَ أَوْ حَضَرَ]{.ar}
@@ -1386,19 +1386,19 @@ iii. The [hal]{.subs} sentence is an exception, preceded by [إِلَّا]{.ar}.
          [[حالات الربط بواو الحال الجبار فتحي زيدان]{.ar} and [أوضح المسالك لابن هشام]{.ar} 2/289]{.citex}  
          "I will certainly beat him [whether] he went or stayed."
 
-### The [hal]{.subs} sentence is a verbal sentence that begins with a [mudarie]{.subs} verb
+### The [HAl]{.trn2} sentence is a verbal sentence that begins with a stateful verb
 
-When a sentence [hal]{.subs} begins with a [mudarie]{.subs} verb,
-then, if the [mudarie]{.subs} is used with a continuous meaning (i.e. not with [لَمْ]{.ar} or [لَمَّا]{.ar}),
-then the [hal]{.subs} sentence will contain a pronoun that refers to the [sahib_hal]{.subs}.
-If the [mudarie]{.subs} is used with a past meaning (i.e. with [لَمْ]{.ar} or [لَمَّا]{.ar}),
-then the [hal]{.subs} sentence may or may not have a pronoun that refers to the [sahib_hal]{.subs}.^[Derived from sections [علةُ امتناع ربط المضارع المثبت بالواو]{.ar} and [علّة امتناع ربط المضارع المنفي بـ(لا) و(ما) بالواو]{.ar} in [حالات الربط بواو الحال الجبار فتحي زيدان]{.ar}]
+When a sentence [HAl]{.trn2} begins with a stateful verb,
+then, if the stateful is used with a continuous meaning (i.e. not with [لَمْ]{.ar} or [لَمَّا]{.ar}),
+then the [HAl]{.trn2} sentence will contain a pronoun that refers to the person of ḥāl.
+If the stateful is used with a past meaning (i.e. with [لَمْ]{.ar} or [لَمَّا]{.ar}),
+then the [HAl]{.trn2} sentence may or may not have a pronoun that refers to the person of ḥāl.^[Derived from sections [علةُ امتناع ربط المضارع المثبت بالواو]{.ar} and [علّة امتناع ربط المضارع المنفي بـ(لا) و(ما) بالواو]{.ar} in [حالات الربط بواو الحال الجبار فتحي زيدان]{.ar}]
 
 There are again a number of possible cases.
 
-  i. The sentence is affirmative and the [mudarie]{.subs} verb is preceded by the particle [قَدْ]{.ar}.
+  i. The sentence is affirmative and the stateful verb is preceded by the particle [قَدْ]{.ar}.
      In this case,
-     the [و]{.ar}\ of [hal]{.subs}
+     the [و]{.ar}\ of [HAl]{.trn2}
      is obligatory.
      For example,
 
@@ -1406,11 +1406,11 @@ There are again a number of possible cases.
          [[[سورة الصف]{.ar} 61:5](https://quran.com/61/5) cited by Wright 2/331C]{.citex}  
          "why do you harm me while you certainly know that I am the messenger of Allāh to you?"
 
- ii. The sentence is affirmative and the [mudarie]{.subs} verb is not preceded by the particle [قَدْ]{.ar}.
-     We assume here that the sentence [hal]{.subs} contains a pronoun that refers to the [sahib_hal]{.subs}.
+ ii. The sentence is affirmative and the stateful verb is not preceded by the particle [قَدْ]{.ar}.
+     We assume here that the sentence [HAl]{.trn2} contains a pronoun that refers to the person of ḥāl.
 
      In this case,
-     the [و]{.ar}\ of [hal]{.subs}
+     the [و]{.ar}\ of [HAl]{.trn2}
      is usually not used.
      We have already seen examples of this case earlier, like (@haal-sentence-mudarie-zayd-laughing) [جَاءَ زَيْدٌ يَضْحَكُ]{.ar}
      and (@haal-quran-12-16) [وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ]{.ar}.
@@ -1427,8 +1427,8 @@ There are again a number of possible cases.
          "And a man came from the farthest end of the city, running."
 
      What we have shown above constitutes the more common usage.
-     However, we do sometimes see a [hal]{.subs} sentence beginning with a [mudarie]{.subs} verb with
-     the [و]{.ar}\ of [hal]{.subs}
+     However, we do sometimes see a [HAl]{.trn2} sentence beginning with a stateful verb with
+     the [و]{.ar}\ of [HAl]{.trn2}
      and without [قَدْ]{.ar}.
      For example,
 
@@ -1438,30 +1438,30 @@ There are again a number of possible cases.
 
      More usually though,
      if
-     a [و]{.ar}\ of [hal]{.subs}
-     is to be used with a [mudarie]{.subs} verb,
-     then a pronoun referring to the [faa3il]{.subs} is inserted before it, converting the [hal]{.subs} sentence to a [j_ism]{.subs}, thus:
+     a [و]{.ar}\ of [HAl]{.trn2}
+     is to be used with a stateful verb,
+     then a pronoun referring to the doer is inserted before it, converting the [HAl]{.trn2} sentence to a nounal sentence, thus:
 
      (@) [قُمْتُ وَأَنَا أَصُّكُ عَيْنَهُ]{.ar}  
          "I stood up, slapping his eye."
 
-     We have already covered this type of [hal]{.subs} sentence in section\ (ref) above.
+     We have already covered this type of [HAl]{.trn2} sentence in section\ (ref) above.
 
 <!--
 The و in ويكلم may be a واو عطف?
-     In any case, here is an example from [quran]{.subs}
-     where a sentence beginning with a [mudarie]{.subs} verb not preceded by [قَدْ]{.ar} has been interpreted as a [hal]{.subs}
+     In any case, here is an example from Qurʾān
+     where a sentence beginning with a stateful verb not preceded by [قَدْ]{.ar} has been interpreted as a [HAl]{.trn2}
 
      (@) [إِذْ قَالَتِ ٱلْمَلَاىِٕكَةُ يَا مَرْیَمُ إِنَّ ٱللَّهَ یُبَشِّرُكِ بِكَلِمَةٍ مِنْهُ ٱسْمُهُ ٱلْمَسِیحُ عِیسَى ٱبْنُ مَرْیَمَ وَجِیهًا فِی ٱلدُّنْيَا وَٱلْآخِرَةِ وَمِنَ ٱلْمُقَرَّبِینَ ۝ وَیُكَلِّمُ ٱلنَّاسَ فِی ٱلْمَهْدِ وَكَهْلًا وَمِنَ ٱلصَّالِحِینَ ۝]{.ar}  
          [[[سورة آل عمران]{.ar} 3:45-46](https://quran.com/3/45-46) cited by [حالات الربط بواو الحال الجبار فتحي زيدان]{.ar}]{.citex}  
          [And mention] when the angels said, "O Mary, indeed Allāh gives you good tidings of a word from Him, whose name will be the Messiah, Jesus, the son of Mary - distinguished in this world and the Hereafter and among those brought near [to Allāh]. He will speak to the people in the cradle and in maturity and will be of the righteous."  
-         (The sentence [وَيُكَلِّمُ]{.ar} has been analyzed as a [hal]{.subs}.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/3/46) for [سورة آل عمران]{.ar} 3:46])
+         (The sentence [وَيُكَلِّمُ]{.ar} has been analyzed as a [HAl]{.trn2}.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/3/46) for [سورة آل عمران]{.ar} 3:46])
 -->
 
-iii. The sentence is negative and the [mudarie]{.subs} verb is negated with [لَا]{.ar} or [مَا]{.ar}.
-     We again assume here that the sentence [hal]{.subs} contains a pronoun that refers to the [sahib_hal]{.subs}.
+iii. The sentence is negative and the stateful verb is negated with [لَا]{.ar} or [مَا]{.ar}.
+     We again assume here that the sentence [HAl]{.trn2} contains a pronoun that refers to the person of ḥāl.
      In this case,
-     the [و]{.ar}\ of [hal]{.subs}
+     the [و]{.ar}\ of [HAl]{.trn2}
      is prohibited.
 
      (@) [وَمَا لَنَا لَا نُؤْمِنُ بِٱللَّهِ]{.ar}
@@ -1471,12 +1471,12 @@ iii. The sentence is negative and the [mudarie]{.subs} verb is negated with [ل�
      (@) [عَهَدْتُكَ مَا تَصْبُو وَفِيكَ شَبِيبَةٌ]{.ar}
          [[النحو العربي: أحكام ومعان]{.ar} 2/60 and [أوضح المسالك لابن هشام]{.ar} 2/290]{.citex}  
          "I knew you when you were not childish while [you had] in you youth."  
-         ([مَا تَصْبُوا]{.ar} "You were not childish" is a sentence [hal]{.subs})
+         ([مَا تَصْبُوا]{.ar} "You were not childish" is a sentence [HAl]{.trn2})
 
- iv. The sentence is negative and the [mudarie]{.subs} verb is negated with [لَمْ]{.ar}.
-     Here, the sentence [hal]{.subs} need not contain a pronoun that refers to the [sahib_hal]{.subs}.
+ iv. The sentence is negative and the stateful verb is negated with [لَمْ]{.ar}.
+     Here, the sentence [HAl]{.trn2} need not contain a pronoun that refers to the person of ḥāl.
      In this case,
-     the [و]{.ar}\ of [hal]{.subs}
+     the [و]{.ar}\ of [HAl]{.trn2}
      is usually kept,
      although it is permissible to drop it.
      For example:
@@ -1495,8 +1495,8 @@ iii. The sentence is negative and the [mudarie]{.subs} verb is negated with [ل�
          [[النحو العربي: أحكام ومعان]{.ar} 2/60]{.citex}  
          "[#muHammad]{.trn2}/[#saeId]{.trn2} approached while he didn't carry his books."
 
-     If the sentence [hal]{.subs} does not have a pronoun that links to the [sahib_hal]{.subs} then
-     the [و]{.ar}\ of [hal]{.subs}
+     If the sentence [HAl]{.trn2} does not have a pronoun that links to the person of ḥāl then
+     the [و]{.ar}\ of [HAl]{.trn2}
      is to be used.
      For example:
 
@@ -1507,13 +1507,13 @@ iii. The sentence is negative and the [mudarie]{.subs} verb is negated with [ل�
      (@) [وَلَقَدْ خَشِيتُ بِأَنْ أَمُوتَ وَلَمْ تَدُرْ لِلْحَرْبِ دَائِرَةٌ عَلَى ابْنَيْ ضَمْضَمِ]{.ar}
          [[النحو العربي: أحكام ومعان]{.ar} 2/60]{.citex}  
          "And indeed I feared that I would die, while a turn [of misfortune] had not [yet] turned, in battle, on the two sons of [#DamDam]{.trn2}"  
-         ([وَلَمْ تَدُرْ لِلْحَرْبِ دَائِرَةٌ]{.ar} is the sentence [hal]{.subs})
+         ([وَلَمْ تَدُرْ لِلْحَرْبِ دَائِرَةٌ]{.ar} is the sentence [HAl]{.trn2})
 
 
-  v. The sentence is negative and the [mudarie]{.subs} verb is negated with [لَمَّا]{.ar}.
-     Here again, the sentence [hal]{.subs} need not contain a pronoun that refers to the [sahib_hal]{.subs}.
+  v. The sentence is negative and the stateful verb is negated with [لَمَّا]{.ar}.
+     Here again, the sentence [HAl]{.trn2} need not contain a pronoun that refers to the person of ḥāl.
      In this case,
-     the [و]{.ar} of [hal]{.subs}
+     the [و]{.ar} of [HAl]{.trn2}
      is typically chosen to be used.^[From [[إعراب القرآن للدرويش]{.ar}](https://tafsir.app/iraab-aldarweesh/7/4) for [سورة الأعراف]{.ar} 7:4: [وإن كانت منفية ب «لما» فالمختار ربطها بالواو]{.ar}]
      For example:
 
@@ -1521,12 +1521,12 @@ iii. The sentence is negative and the [mudarie]{.subs} verb is negated with [ل�
          [[[سورة آل عمران]{.ar} 3:142](https://quran.com/3/142)]{.citex}  
          "Or do you think that you will enter Paradise while Allāh has not yet made evident those of you who fight in His cause and made evident those who are steadfast?"
 
-### The sentence [hal]{.subs} strengthens the meaning of the preceding sentence as a whole
+### The sentence [HAl]{.trn2} strengthens the meaning of the preceding sentence as a whole
 
-Sometimes the [hal]{.subs} describes, not just a single word as the [sahib_hal]{.subs} but the preceding sentence as a whole.
+Sometimes the [HAl]{.trn2} describes, not just a single word as the person of ḥāl but the preceding sentence as a whole.
 (See section\ (ref)).
-If the [hal]{.subs} is itself a sentence, then
-the [و]{.ar} of [hal]{.subs}
+If the [HAl]{.trn2} is itself a sentence, then
+the [و]{.ar} of [HAl]{.trn2}
 is not used.
 
 For example:
@@ -1534,36 +1534,36 @@ For example:
 (@) [ذَ ٰلِكَ ٱلْكِتَابُ لَا رَيْبَ فِيهِ]{.ar}
     [[[سورة البقرة]{.ar} 2:2](https://quran.com/2/2) cited by [أوضح المسالك لابن هشام]{.ar} 2/289 and [حالات الربط بواو الحال الجبار فتحي زيدان]{.ar}]{.citex}  
     "This is the Book about which there is no doubt"  
-    (The sentence [لَا رَيْبَ فِيهِ]{.ar}, in this interpretation, is analyzed as a [hal]{.subs} to the preceding sentence [ذَ ٰلِكَ ٱلْكِتَابُ]{.ar}.)
+    (The sentence [لَا رَيْبَ فِيهِ]{.ar}, in this interpretation, is analyzed as a [HAl]{.trn2} to the preceding sentence [ذَ ٰلِكَ ٱلْكِتَابُ]{.ar}.)
 
-### The sentence [hal]{.subs} is a [ma3toof]{.subs}
+### The sentence [HAl]{.trn2} is a conjunctee
 
-If a sentence [hal]{.subs} is preceded by a [3atf]{.subs} (see section (multiple hals) above),
+If a sentence [HAl]{.trn2} is preceded by a conjunction (see section (multiple hals) above),
 then an additional
-[و]{.ar} of [hal]{.subs}
-is not typically tacked on to the [3atf]{.subs}.
+[و]{.ar} of [HAl]{.trn2}
+is not typically tacked on to the conjunction.
 
 For example:
 
 (@) [فَجَاءَهَا بَأْسُنَا بَيَاتًا أَوْ هُمْ قَائِلُونَ]{.ar}
     [[[سورة الأعراف]{.ar} 7:4](https://quran.com/7/4)]{.citex}  
     "and Our punishment came to them at night or while they were sleeping at noon."  
-    (An additional [و]{.ar} of [hal]{.subs} is not tacked on to the [3atf]{.subs} [أَوْ]{.ar}.)
+    (An additional [و]{.ar} of [HAl]{.trn2} is not tacked on to the conjunction [أَوْ]{.ar}.)
 
 However, according to some grammarians, a
-[و]{.ar} of [hal]{.subs},
-can be added to the [3atf]{.subs} and it would be acceptable.^[[حالات الربط بواو الحال الجبار فتحي زيدان]{.ar} citing [معاني القرآن للفراء]{.ar}]
+[و]{.ar} of [HAl]{.trn2},
+can be added to the conjunction and it would be acceptable.^[[حالات الربط بواو الحال الجبار فتحي زيدان]{.ar} citing [معاني القرآن للفراء]{.ar}]
 For example:
 
 (@) [أَتَيْتَنِى وَالِيًا أَوْ وَأَنَا مَعْزُولٌ]{.ar}
     [[[معاني القرآن للفراء]{.ar}](https://tafsir.app/farraa/7/4) for [سورة الأعراف]{.ar} 7:4]{.citex}  
     "You came to me, while I was adjacent, or while I was remote."
 
-## Purposes of the [و]{.ar} of [hal]{.subs}
+## Purposes of the [و]{.ar} of [HAl]{.trn2}
 
 The
-[و]{.ar} of [hal]{.subs}
-essentially distances the [hal]{.subs} from the influence of the governing verb.^[[دلائل الإعجاز للجرجاني]{.ar} 1/213--214 cited by [معاني النحو]{.ar} 357--358]
+[و]{.ar} of [HAl]{.trn2}
+essentially distances the [HAl]{.trn2} from the influence of the governing verb.^[[دلائل الإعجاز للجرجاني]{.ar} 1/213--214 cited by [معاني النحو]{.ar} 357--358]
 For example, consider the expression:
 
 (@) [جَاءَنِي زَيْدٌ يُسْرِعُ]{.ar}
@@ -1572,36 +1572,36 @@ For example, consider the expression:
 
 The above example is almost equivalent to saying
 [جَاءَنِي زَيْدٌ مُسْرِعًا]{.ar}.
-The [hal]{.subs} [يُسْرِعُ]{.ar} is tightly bound to the [3aamil]{.subs} [جَاءَ]{.ar}.
+The [HAl]{.trn2} [يُسْرِعُ]{.ar} is tightly bound to the governor [جَاءَ]{.ar}.
 So the expression asserts Zayd's coming and his hastening as one assertion.
 <!--
 Zayd's hastening is contained within his action of coming.
 -->
 
-Consider now the expression with the [و]{.ar} of [hal]{.subs}:
+Consider now the expression with the [و]{.ar} of [HAl]{.trn2}:
 
 (@) [جَاءَنِي زَيْدٌ وَهُوَ يُسْرِعُ]{.ar}
     [[دلائل الإعجاز للجرجاني]{.ar} 1/214]{.citex}  
     "Zayd came to me while he was hastening."
 
-Here the [hal]{.subs} sentence
+Here the [HAl]{.trn2} sentence
 [وَهُوَ يُسْرِعُ]{.ar}
 is a more independent assertion.
-Now, the only link between the [hal]{.subs} and its governing verb is
-that the [hal]{.subs} expresses the state of the [sahib_hal]{.subs} when the action of the governing verb took place.
+Now, the only link between the [HAl]{.trn2} and its governing verb is
+that the [HAl]{.trn2} expresses the state of the person of ḥāl when the action of the governing verb took place.
 
-<!--This distancing effect of the [و]{.ar} of [hal]{.subs} can be used for several purposes.-->
-The [و]{.ar} of [hal]{.subs} can be used for a different purposes.
+<!--This distancing effect of the [و]{.ar} of [HAl]{.trn2} can be used for several purposes.-->
+The [و]{.ar} of [HAl]{.trn2} can be used for a different purposes.
 We will list them below.
 In the following discussion, there will be three distinct expressions that we will refer to:
 
-  i. The [و]{.ar} of [hal]{.subs}
- ii. The [hal]{.subs} sentence which follows the [و]{.ar} of [hal]{.subs}
-iii. The _preceding statement_ which precedes the [و]{.ar} of [hal]{.subs}
+  i. The [و]{.ar} of [HAl]{.trn2}
+ ii. The [HAl]{.trn2} sentence which follows the [و]{.ar} of [HAl]{.trn2}
+iii. The _preceding statement_ which precedes the [و]{.ar} of [HAl]{.trn2}
 
-Here are some purposes of the [و]{.ar} of [hal]{.subs}:
+Here are some purposes of the [و]{.ar} of [HAl]{.trn2}:
 
-* The [و]{.ar} of [hal]{.subs} indicates that the event in the preceding statement took place at the time when the [hal]{.subs} occurred.
+* The [و]{.ar} of [HAl]{.trn2} indicates that the event in the preceding statement took place at the time when the [HAl]{.trn2} occurred.
   For example:
 
   (@) [جَاءَ زَيْدٌ وٱلشَّمْسُ طَالِعَةٌ]{.ar}
@@ -1612,7 +1612,7 @@ Here are some purposes of the [و]{.ar} of [hal]{.subs}:
       [[معاني النحو]{.ar} 2/367]{.citex}  
       "I will visit you when the moon is risen."
 
-* The [و]{.ar} of [hal]{.subs} indicates that the [sahib_hal]{.subs} was already in the state described by the [hal]{.subs} before the event in the preceding statement occurred.
+* The [و]{.ar} of [HAl]{.trn2} indicates that the person of ḥāl was already in the state described by the [HAl]{.trn2} before the event in the preceding statement occurred.
   For example:
 
   (@) [وَمَا لَنَا أَلَّا نُقَاتِلَ فِي سَبِيلِ ٱللَّهِ وَقَدْ أُخْرِجْنَا مِنْ دِيَارِنَا وَأَبْنَائِنَا]{.ar}
@@ -1620,7 +1620,7 @@ Here are some purposes of the [و]{.ar} of [hal]{.subs}:
       ""And why should we not fight in the cause of Allāh when we have been driven out from our homes and from our children?"
 
 
-* The [و]{.ar} of [hal]{.subs} indicates that the [hal]{.subs} after it is something obvious and should be taken into account, when considering the preceding statement.
+* The [و]{.ar} of [HAl]{.trn2} indicates that the [HAl]{.trn2} after it is something obvious and should be taken into account, when considering the preceding statement.
   For example:
 
   (@) [أَمْ حَسِبْتُمْ أَنْ تَدْخُلُوا ٱلْجَنَّةَ وَلَمَّا يَأْتِكُمْ مَثَلُ ٱلَّذِينَ خَلَوْا مِنْ قَبْلِكُمْ]{.ar}
@@ -1631,7 +1631,7 @@ Here are some purposes of the [و]{.ar} of [hal]{.subs}:
       [[[سنن أبي داود]{.ar} :2385](https://sunnah.com/abudawud:2385)]{.citex}  
       "What do you think if you rinse your mouth with water while you are fasting?"
 
-* The [و]{.ar} of [hal]{.subs} indicates that the [hal]{.subs} sentence is is describing something extraordinary.
+* The [و]{.ar} of [HAl]{.trn2} indicates that the [HAl]{.trn2} sentence is is describing something extraordinary.
   For example:
 
   (@) [عَبَرَ ٱلنَّهْرَ وَلَمْ يُحَرِّكْ يَدَهُ]{.ar}
@@ -1642,25 +1642,25 @@ Here are some purposes of the [و]{.ar} of [hal]{.subs}:
       [[معاني النحو]{.ar} 2/368]{.citex}  
       "He entered upon the commander while in his hand was his sword!"
 
-* To differentiate between a [hal]{.subs} and a [na3t]{.subs}.
+* To differentiate between a [HAl]{.trn2} and a attribute.
   For example:
 
   (@) [رَأَيْتُ رَجُلًا عِنْدَهُ مَالٌ]{.ar}
       [[معاني النحو]{.ar} 2/368]{.citex}  
       "I saw a man (who) had wealth."  
-      (The sentence [عِنْدَهُ مَالٌ]{.ar} can be analyzed as a [na3t]{.subs}.)
+      (The sentence [عِنْدَهُ مَالٌ]{.ar} can be analyzed as a attribute.)
 
   (@) [رَأَيْتُ رَجُلًا وَعِنْدَهُ مَالٌ]{.ar}
       [[معاني النحو]{.ar} 2/368]{.citex}  
       "I saw a man while he had wealth."  
-      (The sentence [عِنْدَهُ مَالٌ]{.ar} can only be analyzed as a [hal]{.subs}.)
+      (The sentence [عِنْدَهُ مَالٌ]{.ar} can only be analyzed as a [HAl]{.trn2}.)
 
 There may be other purposes as well.^[[معاني النحو]{.ar} 2/368--369]
       
-## A [shibh_jumlah]{.subs} as the [hal]{.subs}
+## A quasi-sentence as the [HAl]{.trn2}
 
 (Compare this section to section\ (ref).)
-A [shibh_jumlah]{.subs}, in this context, is a prepositional or adverbial phrase.
+A quasi-sentence, in this context, is a prepositional or adverbial phrase.
 For example: 
 [عَلَى ٱلْغُصْنِ]{.ar}
 "on the branch"
@@ -1669,13 +1669,13 @@ and
 "between the clouds".
 
 Just like a complete sentence,
-a [shibh_jumlah]{.subs} too may occur as a [hal]{.subs}.
+a quasi-sentence too may occur as a [HAl]{.trn2}.
 For example:
 
 (@haal-shibh-jumlah-crescent) [رَأَيْتُ ٱلْهِلَالَ بَيْنَ ٱلسَّحَابِ]{.ar}
     [[أوضح المسالك لابن هشام]{.ar} 2/285]{.citex}  
     "I saw the crescent between the clouds."  
-    ([بَيْنَ ٱلسَّحَابِ]{.ar} is analyzed as a [hal]{.subs}.)
+    ([بَيْنَ ٱلسَّحَابِ]{.ar} is analyzed as a [HAl]{.trn2}.)
 
 (@haal-shibh-jumlah-sparrow) [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar}
     [[جامع الدروس العربية لمصطفى الغلاييني]{.ar} 3/101]{.citex}  
@@ -1688,24 +1688,24 @@ For example:
 (@) [فَخَرَجَ عَلَىٰ قَوْمِهِ فِى زِينَتِهِ]{.ar}
     [[[سورة القصص]{.ar} 28:79](https://quran.com/28/79) cited by [أوضح المسالك لابن هشام]{.ar} 2/285]{.citex}  
     "So he came out before his people in his adornment."  
-    ([فِى زِينَتِهِ]{.ar} is analyzed as a [hal]{.subs}.^[See [[تفسير ابن عاشور]{.ar}](https://tafsir.app/ibn-aashoor/28/79) for [سورة القصص]{.ar} 28:79])
+    ([فِى زِينَتِهِ]{.ar} is analyzed as a [HAl]{.trn2}.^[See [[تفسير ابن عاشور]{.ar}](https://tafsir.app/ibn-aashoor/28/79) for [سورة القصص]{.ar} 28:79])
 
 (@) [وَيُكَلِّمُ ٱلنَّاسَ فِي ٱلْمَهْدِ]{.ar}
     [[[سورة آل عمران]{.ar} 3:46](https://quran.com/3/46)]{.citex}  
     "He will speak to the people in the cradle"  
-    ([فِي ٱلْمَهْدِ]{.ar} has been analyzed as a [hal]{.subs}.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/3/46) for [سورة آل عمران]{.ar} 3:46])
+    ([فِي ٱلْمَهْدِ]{.ar} has been analyzed as a [HAl]{.trn2}.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/3/46) for [سورة آل عمران]{.ar} 3:46])
 
 
 Now, you might be thinking: Didn't we learn
-in chapter\ (ref) that [بَيْنَ]{.ar} is an [dharf_makan]{.subs}?
-So why are we now saying that it is a [hal]{.subs}?
+in chapter\ (ref) that [بَيْنَ]{.ar} is an adverb of place?
+So why are we now saying that it is a [HAl]{.trn2}?
 
 Well, first of all,
-we are saying that the [shibh_jumlah]{.subs}
+we are saying that the quasi-sentence
 [بَيْنَ ٱلسَّحَابِ]{.ar}
-is a [hal]{.subs}, not just 
+is a [HAl]{.trn2}, not just 
 [بَيْنَ]{.ar}.
-Secondly, we say that the [shibh_jumlah]{.subs} is a [hal]{.subs} only loosely speaking.
+Secondly, we say that the quasi-sentence is a [HAl]{.trn2} only loosely speaking.
 
 Remember that an adverb of time or place is governed by a verb.
 And the adverb of time or place indicates the time or place where the action of the verb occurred.
@@ -1721,15 +1721,15 @@ So it is as if we are saying:
 
 "I saw the crescent (while it was) [being]^between\ the\ clouds^."
 
-And it is this implied general beingness which is technically the [hal]{.subs}.^[[جامع الدروس العربية لمصطفى الغلاييني]{.ar} 3/101]
+And it is this implied general beingness which is technically the [HAl]{.trn2}.^[[جامع الدروس العربية لمصطفى الغلاييني]{.ar} 3/101]
 While
 [بَيْنَ]{.ar}
-remains (technically) an [dharf_makan]{.subs}.
+remains (technically) an adverb of place.
 
-Because the actual [hal]{.subs} "being" is (necessarily) unexpressed and only implied,
-we can loosely say that the [shibh_jumlah]{.subs}
+Because the actual [HAl]{.trn2} "being" is (necessarily) unexpressed and only implied,
+we can loosely say that the quasi-sentence
 [بَيْنَ ٱلسَّحَابِ]{.ar}
-is a [hal]{.subs}.
+is a [HAl]{.trn2}.
 
 Similarly,
 in example (@haal-shibh-jumlah-sparrow) [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar},
@@ -1737,10 +1737,10 @@ the prepositional phrase
 [عَلَى ٱلْغُصْنِ]{.ar}
 is governed, not by the verb
 [نَظَرَ]{.ar}
-but by an implied verb "being" which is the true [hal]{.subs}.
-But, loosely speaking, we may say that the [shibh_jumlah]{.subs}
+but by an implied verb "being" which is the true [HAl]{.trn2}.
+But, loosely speaking, we may say that the quasi-sentence
 [عَلَى ٱلْغُصْنِ]{.ar}
-is the [hal]{.subs}.
+is the [HAl]{.trn2}.
 
 Similarly,
 in example (@haal-shibh-jumlah-wrote) [كتب عمر إلى أبي عبيدة بالشام]{.ar},
@@ -1752,30 +1752,30 @@ is describing the state of
 while he was in Syria.
 
 This is yet another instance of where the lines between different types of adverbs get blurred.
-In fact, some grammarians have classified the [hal]{.subs} to be of the same class of adverbs as the [dharf_zaman]{.subs} and the [dharf_makan]{.subs}.^[[المقتضب للمبرد]{.ar} 4/166]
+In fact, some grammarians have classified the [HAl]{.trn2} to be of the same class of adverbs as the adverb of time and the adverb of place.^[[المقتضب للمبرد]{.ar} 4/166]
 
 
 
 From the perspective of meaning,
-the [shibh_jumlah]{.subs}
+the quasi-sentence
 [بَيْنَ ٱلسَّحَابِ]{.ar}
 "between the clouds"
-describes the state of the [sahib_hal]{.subs}
+describes the state of the person of ḥāl
 [ٱلْهِلَالُ]{.ar}
 during the occurrence of the verb [رَأَىٰ]{.ar}.
 Similarly,
-the [shibh_jumlah]{.subs}
+the quasi-sentence
 [عَلَى ٱلْغُصْنِ]{.ar}
 "on the branch"
-describes the state of the [sahib_hal]{.subs}
+describes the state of the person of ḥāl
 [ٱلْعُصْفُور]{.ar}
 during the occurrence of the verb [نَظَرَ]{.ar}.
 
 <!--
-So the [shibh_jumlah]{.subs} [hal]{.subs} must be uninfluenced, or pre-existing, before the action of any overt verb in the preceding statement.
+So the quasi-sentence [HAl]{.trn2} must be uninfluenced, or pre-existing, before the action of any overt verb in the preceding statement.
 -->
 
-Here is an example of where the [shibh_jumlah]{.subs} does not work as a [hal]{.subs}:
+Here is an example of where the quasi-sentence does not work as a [HAl]{.trn2}:
 
 (@) [وَقَعَ ٱلْحَجَرُ فِي ٱلْحُفْرَةِ]{.ar}  
     "The stone fell in the pit."
@@ -1783,37 +1783,37 @@ Here is an example of where the [shibh_jumlah]{.subs} does not work as a [hal]{.
 In the above example,
 the stone went in the pit due to the action of the verb [وَقَعَ]{.ar}.
 So the preposition [فِي]{.ar} is governed by the verb [وَقَعَ]{.ar}.
-Because [فِي]{.ar} is not governed by an implied [3aamil]{.subs} meaning "being",
-therefore, the [shibh_jumlah]{.subs}
+Because [فِي]{.ar} is not governed by an implied governor meaning "being",
+therefore, the quasi-sentence
 [فِي ٱلْحُفْرَةِ]{.ar}
-is not a [hal]{.subs}.
+is not a [HAl]{.trn2}.
 
-One indicator to test if the [shibh_jumlah]{.subs} is valid as [hal]{.subs} in any particular sentence,
-is to insert a [و]{.ar} of [hal]{.subs} and a pronoun
-(referring to the [sahib_hal]{.subs})
-before the [shibh_jumlah]{.subs}
+One indicator to test if the quasi-sentence is valid as [HAl]{.trn2} in any particular sentence,
+is to insert a [و]{.ar} of [HAl]{.trn2} and a pronoun
+(referring to the person of ḥāl)
+before the quasi-sentence
 (thus making it a complete sentence).
-The purpose of the [و]{.ar} of [hal]{.subs}, here, is to make the [hal]{.subs} a pre-existing state.
+The purpose of the [و]{.ar} of [HAl]{.trn2}, here, is to make the [HAl]{.trn2} a pre-existing state.
 If the resulting expression
-(with the [و]{.ar} of [hal]{.subs} is interpreted as making the [hal]{.subs} a pre-existing state)
+(with the [و]{.ar} of [HAl]{.trn2} is interpreted as making the [HAl]{.trn2} a pre-existing state)
 retains the same meaning as the original, then
-the [shibh_jumlah]{.subs} could be valid as a [hal]{.subs}.
+the quasi-sentence could be valid as a [HAl]{.trn2}.
 Let's use this test on some of the examples above.
 
 (@) [وَقَعَ ٱلْحَجَرُ وَهُوَ فِي ٱلْحُفْرَةِ]{.ar}  
     "The stone fell while it had already been in the pit."  
-    (This does not retain the same meaning as the original [وَقَعَ ٱلْحَجَرُ فِي ٱلْحُفْرَةِ]{.ar}. So the [shibh_jumlah]{.subs} in the original example is not a [hal]{.subs}.)
+    (This does not retain the same meaning as the original [وَقَعَ ٱلْحَجَرُ فِي ٱلْحُفْرَةِ]{.ar}. So the quasi-sentence in the original example is not a [HAl]{.trn2}.)
 
 (@) [رَأَيْتُ ٱلْهِلَالَ وَهُوَ بَيْنَ ٱلسَّحَابِ]{.ar}  
     "I saw the crescent while it had already been between the clouds."  
-    (This retains the meaning of the original [رَأَيْتُ ٱلْهِلَالَ بَيْنَ ٱلسَّحَابِ]{.ar}. So the [shibh_jumlah]{.subs} in the original example is valid as a [hal]{.subs}.)
+    (This retains the meaning of the original [رَأَيْتُ ٱلْهِلَالَ بَيْنَ ٱلسَّحَابِ]{.ar}. So the quasi-sentence in the original example is valid as a [HAl]{.trn2}.)
 
 (@) [نَظَرْتُ ٱلْعُصْفُورَ وَهُوَ عَلَى ٱلْغُصْنِ]{.ar}  
     "I looked at the sparrow while it had already been on the branch."  
-    (This retains the meaning of the original [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar}. So the [shibh_jumlah]{.subs} in the original example is valid as a [hal]{.subs}.)
+    (This retains the meaning of the original [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar}. So the quasi-sentence in the original example is valid as a [HAl]{.trn2}.)
 
-There may be examples where a [shibh_jumlah]{.subs} could be validly interpreted either as a [hal]{.subs} 
-(governed by an implied [3aamil]{.subs} meaning "being"),
+There may be examples where a quasi-sentence could be validly interpreted either as a [HAl]{.trn2} 
+(governed by an implied governor meaning "being"),
 or as governed by an overt verb.^[See also, for example, the [tafsIr]{.trn2} of [تَحْتَ ٱلشَّجَرَةِ]{.ar} in [[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/48/18) for [سورة الفتح]{.ar} 48:18]
 For example:
 
@@ -1824,10 +1824,10 @@ For example:
 Without context, the prepositional phrase
 [في الدار]{.ar}
 could either be governed by [رَأَىٰ]{.ar}, signifying that the act of seeing was done in the house.
-Or it could be governed by the implication of general beingness, as a [hal]{.subs} for [زَيْد]{.ar}.^[[الأصول في النحو لابن السراج]{.ar} 2/52]
+Or it could be governed by the implication of general beingness, as a [HAl]{.trn2} for [زَيْد]{.ar}.^[[الأصول في النحو لابن السراج]{.ar} 2/52]
 
-A [shibh_jumlah]{.subs} can only be a [hal]{.subs} if it is governed by an implied (unexpressed) [3aamil]{.subs}.
-This implicated [3aamil]{.subs} will typically be general beingness, as in the examples above.^[[أوضح المسالك لابن هشام]{.ar} 2/285, [شرح ابن عقيل على الألفية]{.ar} 1/213]
+A quasi-sentence can only be a [HAl]{.trn2} if it is governed by an implied (unexpressed) governor.
+This implicated governor will typically be general beingness, as in the examples above.^[[أوضح المسالك لابن هشام]{.ar} 2/285, [شرح ابن عقيل على الألفية]{.ar} 1/213]
 In fact, some grammarians insist that the implied governor can only be general beingness.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/3/194) for [سورة آل عمران]{.ar} 3:194 ([مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ]{.ar})]
 However, it is conceivable that the implied governor of the preposition be interpreted, if not formally then at least in meaning, as some other verb (or verbal noun).^[[النحو الوافي]{.ar} 2/447 footnote]
 For example:
@@ -1841,54 +1841,54 @@ the
 prepositional phrase
 [عَلَىٰ رُسُلِكَ]{.ar}
 "through Your messengers"
-has been analyzed as [hal]{.subs} of
+has been analyzed as [HAl]{.trn2} of
 [مَا وَعَدتَّنَا]{.ar}
 "what You promised us"
 The meaning with the implicated governor has been explained as
 [مُنَزَّلًا عَلَيْهِمْ]{.ar}
 "_sent down_ on [Your messengers]."^[[[تفسير ابن عاشور]{.ar}](https://tafsir.app/ibn-aashoor/3/194) for [سورة آل عمران]{.ar} 3:194]
 
-## Interpreting a sentence as a [hal]{.subs} vs. a [na3t]{.subs}
+## Interpreting a sentence as a [HAl]{.trn2} vs. a attribute
 
 We have just seen how a sentence
-(or [shibh_jumlah]{.subs})
-can be intrepreted as a [hal]{.subs}.
+(or quasi-sentence)
+can be intrepreted as a [HAl]{.trn2}.
 And we already know that a sentence
-(or [shibh_jumlah]{.subs})
-can be intrepreted as a [na3t]{.subs}.
+(or quasi-sentence)
+can be intrepreted as a attribute.
 So how can we tell when
 a sentence
-(or [shibh_jumlah]{.subs})
-is a [hal]{.subs} vs. when it is a [na3t]{.subs}?
+(or quasi-sentence)
+is a [HAl]{.trn2} vs. when it is a attribute?
 
 We may use the following guidelines^[[مغني اللبيب لابن هشام]{.ar} 560]:
 
 * When
   a sentence
-  (or [shibh_jumlah]{.subs})
+  (or quasi-sentence)
   occurs after a specific definite noun,
-  then it will be a [hal]{.subs}.
+  then it will be a [HAl]{.trn2}.
 
 * And when
   a sentence
-  (or [shibh_jumlah]{.subs})
+  (or quasi-sentence)
   occurs after a unspecified indefinite noun,
-  then it will be a [na3t]{.subs}.
+  then it will be a attribute.
 
 * And when 
   a sentence
-  (or [shibh_jumlah]{.subs})
+  (or quasi-sentence)
   occurs after a generic definite noun
   or an specified indefinite noun
-  then it may be interpreted as either a [hal]{.subs} or a [na3t]{.subs}.
+  then it may be interpreted as either a [HAl]{.trn2} or a attribute.
 
-  However, in this case when both the [na3t]{.subs} and the [hal]{.subs} interpretations are possible,
+  However, in this case when both the attribute and the [HAl]{.trn2} interpretations are possible,
   one may still be preferred over the other 
   depending on what the overall meaning and context demands.^[[النحو الوافي]{.ar} 3/477]
 
   This is because
-  when a sentence is interpreted as a [hal]{.subs} then it will be describing the state of the [sahib_hal]{.subs}.
-  And when a sentence is interpreted as a [na3t]{.subs} then it will be specifying or identifying the [manut]{.subs}.
+  when a sentence is interpreted as a [HAl]{.trn2} then it will be describing the state of the person of ḥāl.
+  And when a sentence is interpreted as a attribute then it will be specifying or identifying the attributee.
 
 What we mean by a _specific definite_ noun is one that refers to a specific entity.
 Not one that refers to a generic type
@@ -1910,7 +1910,7 @@ In this case,
 [ٱلْفِيل]{.ar}
 is a _generic definite_ noun.
 
-And what we mean by an unspecified indefinite noun is one that is not restricted by a [na3t]{.subs} or other qualifier.
+And what we mean by an unspecified indefinite noun is one that is not restricted by a attribute or other qualifier.
 So it is applicable to any entity denoted by that noun.
 For example, [رَجُل]{.ar} in
 [فِي ٱلدَّارِ رَجُلٌ]{.ar}
@@ -1921,27 +1921,27 @@ and
 [فِي ٱلدَّارِ رَجُلُ خَيْرٍ]{.ar}
 it is a specified indefinite noun.
 
-Here are some examples of sentences analyzed as [na3t]{.subs}s or [hal]{.subs}s:
+Here are some examples of sentences analyzed as attributes or [HAl]{.trn2}s:
 
 (@) [حَتَّىٰ تُنَزِّلَ عَلَيْنَا كِتَابًا نَقْرَؤُهُ]{.ar}
     [[[سورة الإسراء]{.ar} 17:93](https://quran.com/17/93) cited by [مغني اللبيب لابن هشام]{.ar} 560]{.citex}  
     "until you bring down to us a book we may read"  
-    ([نَقُرَؤُهُ]{.ar} is analyzed as a [na3t]{.subs} because [كِتَاب]{.ar} is an unspecified indefinite noun.)
+    ([نَقُرَؤُهُ]{.ar} is analyzed as a attribute because [كِتَاب]{.ar} is an unspecified indefinite noun.)
 
 (@) [فَلَقَدْ رَأَيْتُهُ يَقِيهَا مِنَ الْحِجَارَةِ بِنَفْسِهِ]{.ar}
     [[[صحيح مسلم]{.ar} :1699a](https://sunnah.com/muslim:1699a)]{.citex}  
     "for indeed I saw him protecting her from the stones with his [body]."  
-    ([يَقِيهَا]{.ar} is analyzed as a [hal]{.subs} because the pronoun [ه]{.ar} in [رَأَيْتُهُ]{.ar} is a specific definite noun.)
+    ([يَقِيهَا]{.ar} is analyzed as a [HAl]{.trn2} because the pronoun [ه]{.ar} in [رَأَيْتُهُ]{.ar} is a specific definite noun.)
 
 (@) [وَقَالُوا لَوْلَا نُزِّلَ هَـٰذَا ٱلْقُرْءَانُ عَلَىٰ رَجُلٍ مِنَ ٱلْقَرْيَتَيْنِ عَظِيمٍ]{.ar}
     [[[سورة الزخرف]{.ar} 43:31](https://quran.com/43/31)]{.citex}  
     And they said, "Why was this Qur’ān not sent down upon a great man from [one of] the two cities?"  
-    ([مِنَ ٱلْقَرْيَتَيْنِ]{.ar} is a [na3t]{.subs} to [رَجُل]{.ar}. [عَظِيم]{.ar} is a second [na3t]{.subs}.)
+    ([مِنَ ٱلْقَرْيَتَيْنِ]{.ar} is a attribute to [رَجُل]{.ar}. [عَظِيم]{.ar} is a second attribute.)
 
 (@) [كَمَثَلِ ٱلْحِمَارِ يَحْمِلُ أَسْفَارًا]{.ar}
     [[[سورة الجمعة]{.ar} 62:5](https://quran.com/62/5) cited by [مغني اللبيب لابن هشام]{.ar} 561]{.citex}  
     "is like that of a donkey who carries volumes [of books]"  
-    ([ٱلْحِمَارِ]{.ar} is a generic definite noun. So, the sentence [يَحْمِلُ أَسْفَارًا]{.ar} has been analyzed as either a [hal]{.subs} or a [na3t]{.subs}.^[[[الكشاف للزمخشري]{.ar}](https://tafsir.app/kashaf/62/5) for [سورة الجمعة]{.ar} 62:5])
+    ([ٱلْحِمَارِ]{.ar} is a generic definite noun. So, the sentence [يَحْمِلُ أَسْفَارًا]{.ar} has been analyzed as either a [HAl]{.trn2} or a attribute.^[[[الكشاف للزمخشري]{.ar}](https://tafsir.app/kashaf/62/5) for [سورة الجمعة]{.ar} 62:5])
 
 Consider now the following example:
 
@@ -1949,7 +1949,7 @@ Consider now the following example:
     [[[سورة غافر]{.ar} 40:28](https://quran.com/40/28)]{.citex}  
     "And a believing man from the family of Pharaoh who concealed his faith said,"
 
-In the above example, there are two (quasi-) sentences after the first [na3t]{.subs} [مُؤْمِن]{.ar}:
+In the above example, there are two (quasi-) sentences after the first attribute [مُؤْمِن]{.ar}:
 
  i. [مِنْ آلِ فِرْعَوْنَ]{.ar}
 ii. [يَكْتُمُ إِيمَانَهُ]{.ar}
@@ -1957,47 +1957,47 @@ ii. [يَكْتُمُ إِيمَانَهُ]{.ar}
 There are now multiple possible interpretations:
 
 Since [رَجُلٌ]{.ar} is now a specified indefinite noun
-(having been described by the [na3t]{.subs} [مُؤْمِنٌ]{.ar})
+(having been described by the attribute [مُؤْمِنٌ]{.ar})
 it is permissible for both
 [مِنْ آلِ فِرْعَوْنَ]{.ar}
 and
 [يَكْتُمُ إِيمَانَهُ]{.ar}
-to be [hal]{.subs}s.
+to be [HAl]{.trn2}s.
 Or 
 [مِنْ آلِ فِرْعَوْنَ]{.ar}
-can be a [na3t]{.subs}
+can be a attribute
 and
 [يَكْتُمُ إِيمَانَهُ]{.ar}
-can be a [hal]{.subs}.
+can be a [HAl]{.trn2}.
 Or both
 [مِنْ آلِ فِرْعَوْنَ]{.ar}
 and
 [يَكْتُمُ إِيمَانَهُ]{.ar}
-can be [na3t]{.subs}s.^[[[تفسير ابن عثيمين]{.ar}](https://tafsir.app/ibn-uthaymeen/40/28) for [سورة غافر]{.ar} 40:28]
+can be attributes.^[[[تفسير ابن عثيمين]{.ar}](https://tafsir.app/ibn-uthaymeen/40/28) for [سورة غافر]{.ar} 40:28]
 
-## Multiple [hal]{.subs}s when one or more is a sentence or [shibh_jumlah]{.subs}
+## Multiple [HAl]{.trn2}s when one or more is a sentence or quasi-sentence
 
 From section\ (ref) earlier in this chapter,
-we learned that there may be more than one [hal]{.subs} for one [sahib_hal]{.subs}.
-These multiple [hal]{.subs}s may consist of sentence and [shibh_jumlah]{.subs} [hal]{.subs}s.
+we learned that there may be more than one [HAl]{.trn2} for one person of ḥāl.
+These multiple [HAl]{.trn2}s may consist of sentence and quasi-sentence [HAl]{.trn2}s.
 For example:
 
 (@) [فَنَادَتْهُ ٱلْمَلَائِكَةُ وَهُوَ قَائِمٌ يُصَلِّی فِی ٱلْمِحْرَابِ]{.ar}
     [[[سورة آل عمران]{.ar} 3:39](https://quran.com/3/39)]{.citex}  
     "So the angels called him while he was standing in prayer in the chamber,"  
-    ([هُوَ قَائِمٌ]{.ar} and  [يُصَلِّی فِی ٱلْمِحْرَابِ]{.ar} have both been analyzed as [hal]{.subs}s as one interpretation.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/3/39) for [سورة آل عمران]{.ar} 3:39])
+    ([هُوَ قَائِمٌ]{.ar} and  [يُصَلِّی فِی ٱلْمِحْرَابِ]{.ar} have both been analyzed as [HAl]{.trn2}s as one interpretation.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/3/39) for [سورة آل عمران]{.ar} 3:39])
 
-When one or more of these multiple [hal]{.subs}s is a sentence
-or [shibh_jumlah]{.subs},
+When one or more of these multiple [HAl]{.trn2}s is a sentence
+or quasi-sentence,
 then it is usual,
 though not imperative,
-that the [hal]{.subs}s be in the following order^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/3/46) for [سورة آل عمران]{.ar} 3:46]:
+that the [HAl]{.trn2}s be in the following order^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/3/46) for [سورة آل عمران]{.ar} 3:46]:
 
-1. First, any [hal]{.subs}s that are comprised of a single word
-2. Then any [shibh_jumlah]{.subs} [hal]{.subs}s
-3. Then any sentence [hal]{.subs}s
+1. First, any [HAl]{.trn2}s that are comprised of a single word
+2. Then any quasi-sentence [HAl]{.trn2}s
+3. Then any sentence [HAl]{.trn2}s
 
-This is the same order that is usually followed for [na3t]{.subs}s as well.
+This is the same order that is usually followed for attributes as well.
 
 Here is an example:
 
@@ -2005,21 +2005,21 @@ Here is an example:
     [[[سورة القصص]{.ar} 28:21](https://quran.com/28/21)]{.citex}  
     "So he left it, fearful and anticipating [apprehension]."
 
-## Suppressing the [3aamil]{.subs} of the [hal]{.subs}
+## Suppressing the governor of the [HAl]{.trn2}
 
 The 
-[3aamil]{.subs} of the [hal]{.subs}
+governor of the [HAl]{.trn2}
 may be suppressed
 (i.e. omitted)
 in some cases optionally,
 and in other cases necessarily.
 We will discuss these cases below
 
-### Optional suppressing of the [3aamil]{.subs} of the [hal]{.subs}
+### Optional suppressing of the governor of the [HAl]{.trn2}
 
-### Necessary suppressing of the [3aamil]{.subs} of the [hal]{.subs}
+### Necessary suppressing of the governor of the [HAl]{.trn2}
 
-The [3aamil]{.subs} is also omitted when it is conceptual with the meaning "existing" or "being".
+The governor is also omitted when it is conceptual with the meaning "existing" or "being".
 We have seen this in section\ (ref) above.
 
 ## TODO topics

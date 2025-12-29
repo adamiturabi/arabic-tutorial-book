@@ -1,6 +1,6 @@
 <!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
 
-# The [passive]{.subs} verb
+# The passive verb
 
 ## Introduction
 
@@ -11,7 +11,7 @@ Consider the sentence:
 "Zayd drank the water."
 
 In this sentence, [زَيْدٌ]{.ar} "Zayd" is the doer of the verb [شَرِبَ]{.ar} "drank". 
-This construction of the verb, which we have been using so far, is called the _[active]{.subs} verb_ construction,
+This construction of the verb, which we have been using so far, is called the _active verb_ construction,
 because the doer of the verb, in this case "Zayd" is known.
 Now consider the following sentence:
 
@@ -21,40 +21,40 @@ Now consider the following sentence:
 
 In this sentence, the doer of the verb, i.e. the person who is doing the action of the verb "to drink", is not mentioned. 
 From the sentence itself it is unknown who the doer is. 
-This construction of the verb is called the _[passive]{.subs} verb_ construction.
+This construction of the verb is called the _passive verb_ construction.
 
-## Forming the [passive]{.subs} verb
+## Forming the passive verb
 
 So far we have been studing form\ 1 verbs, which use only the three root letters.
-As we know, the vowel on the middle root letter is variable for [active]{.subs} verbs, for example:
+As we know, the vowel on the middle root letter is variable for active verbs, for example:
 
 + [شَرِبَ يَشْرَبُ]{.ar} "to drink".
 + [فَتَحَ يَفْتَحُ]{.ar} "to open"
 + [كَبُرَ يَكْبُرُ]{.ar} "to become big"
 + etc.
 
-The pattern of [passive]{.subs} verb for form 1 verbs is always:
+The pattern of passive verb for form 1 verbs is always:
 
 [فُعِلَ يُفْعَلُ]{.ar}  
 [fueila yufealu]{.trn}
 
-This is regardless of the vowel on the middle root letter in the [active]{.subs} verb.
-If there is more than one verb from the same root, with different middle root letter vowels for the [active]{.subs} verb, then they will share the same [passive]{.subs} verb. For example, the [active]{.subs} verbs: [حَسَبَ يَحْسُبُ]{.ar} "to reckon" and [حَسِبَ يَحْسِبُ]{.ar} "to deem" share the same [passive]{.subs} verb: [حُسِبَ يُحْسَبُ]{.ar}.
+This is regardless of the vowel on the middle root letter in the active verb.
+If there is more than one verb from the same root, with different middle root letter vowels for the active verb, then they will share the same passive verb. For example, the active verbs: [حَسَبَ يَحْسُبُ]{.ar} "to reckon" and [حَسِبَ يَحْسِبُ]{.ar} "to deem" share the same passive verb: [حُسِبَ يُحْسَبُ]{.ar}.
 
-The same doer pronouns are used for the [passive]{.subs} verb as for the [active]{.subs} verb.
-And the [passive]{.subs} [mudarie]{.subs} verb has the same three states as the [active]{.subs} [mudarie]{.subs} verb.
+The same doer pronouns are used for the passive verb as for the active verb.
+And the passive stateful verb has the same three states as the active stateful verb.
 For example:
 
-+ [فُعِلُوا]{.ar} [fueilU]{.trn} "they~3m~" ([madi]{.subs})
-+ [تُفْعَلَانِ]{.ar} [tufealAni]{.trn} "you~2~" or "they~2f~" ([ustate]{.subs} [mudarie]{.subs})
-+ [أُفْعَلَ]{.ar} [Eufeala]{.trn} "I" ([astate]{.subs} [mudarie]{.subs})
++ [فُعِلُوا]{.ar} [fueilU]{.trn} "they~3m~" (perfect)
++ [تُفْعَلَانِ]{.ar} [tufealAni]{.trn} "you~2~" or "they~2f~" (u-state stateful)
++ [أُفْعَلَ]{.ar} [Eufeala]{.trn} "I" (a-state stateful)
 + etc.
 
 The complete table showing the doer pronouns is given in appendix\ \@ref(verb-tables).
 
-## The [naib]{.subs} doer
+## The deputy doer
 
-Consider again this sentence with an [passive]{.subs} verb construction:
+Consider again this sentence with an passive verb construction:
 
 ```{.tikzarabic}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -69,7 +69,7 @@ Consider again this sentence with an [passive]{.subs} verb construction:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize [naib]{.subs} doer};
+      node [midway, below] {\scriptsize deputy doer};
 
 \path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The water was drunk.''};
 
@@ -82,9 +82,9 @@ Consider again this sentence with an [passive]{.subs} verb construction:
 "The water was drunk."
 -->
 
-Note that the noun [ٱَلْمَاءُ]{.ar} [EalmAEu]{.trn} "the water" is in the [ustate]{.subs}. This is because, in the absence of the doer, the [mafulb]{.subs} of the [active]{.subs} verb ([ٱَلْمَاءَ]{.ar}) is deputized to take doer's place in the [ustate]{.subs}. It is then known as the _[naib]{.subs} doer_.
+Note that the noun [ٱَلْمَاءُ]{.ar} [EalmAEu]{.trn} "the water" is in the u-state. This is because, in the absence of the doer, the direct doee of the active verb ([ٱَلْمَاءَ]{.ar}) is deputized to take doer's place in the u-state. It is then known as the _deputy doer_.
 
-The doer pronouns for the [passive]{.subs} verb shall therefore match the gender and number of the [naib]{.subs} doer. Here are some examples:
+The doer pronouns for the passive verb shall therefore match the gender and number of the deputy doer. Here are some examples:
 
 [شُكِرَتِ ٱلأُمَّهَاتُ وَمُدِحْنَ.]{.ar}  
 [cukirati -lEummahAtu wamudiHn.]{.trn}  
@@ -98,12 +98,12 @@ The doer pronouns for the [passive]{.subs} verb shall therefore match the gender
 [mA quTieati -ccajarah.]{.trn}  
 "The tree was not cut."
 
-### The [naib]{.subs} doer for multiple [mafulb]{.subs}s
+### The deputy doer for multiple direct doees
 
-Some verbs, in the [active]{.subs} construction, take multiple [mafulb]{.subs}. These verbs can be classified into two classes:
+Some verbs, in the active construction, take multiple direct doee. These verbs can be classified into two classes:
 <!--Wright vol. ii., p. 47D, sect. 24-->
 
-a. Verbs that cause the first [mafulb]{.subs} to be affected by, or asked for, the second [mafulb]{.subs}. Examples:
+a. Verbs that cause the first direct doee to be affected by, or asked for, the second direct doee. Examples:
 <!--[وَعَدَ ٱللَّـٰهُ ٱلْمُؤْمِنِينَ ٱلْجَنَّةَ.]{.ar}  -->
 
    [مَلَأَ ٱلْغُلَامُ ٱلدَّلْوَ مَاءً.]{.ar}  
@@ -126,8 +126,8 @@ b. Verbs that siginify an action of the heart or of intention, like thinking, de
    [جَعَلَ ٱللَّـٰهُ ٱلْمَاءَ بَرَكَةً.]{.ar}  
    "[#allAh]{.trn2} has made the water a blessing."
 
-When such verbs are converted to the [passive]{.subs} verb construction, then one, and only one, [mafulb]{.subs} shall be chosen to be the [naib]{.subs} doer. It is generally preferred to make the first [mafulb]{.subs} the [naib]{.subs}-doer, and leave the second [mafulb]{.subs}, as is, in the [astate]{.subs}.
-Here are the same sentences in the [passive]{.subs} construction:
+When such verbs are converted to the passive verb construction, then one, and only one, direct doee shall be chosen to be the deputy doer. It is generally preferred to make the first direct doee the deputy-doer, and leave the second direct doee, as is, in the a-state.
+Here are the same sentences in the passive construction:
 
 [مُلِئَتِ ٱلدَّلْوُ مَاءً.]{.ar} ([دَلْو]{.ar} "bucket" is feminine.)  
 "The bucket was filled (with) water."
@@ -151,23 +151,23 @@ Here are the same sentences in the [passive]{.subs} construction:
 
 TODO: add examples from Wright p. 268
 
-When verbs are used without a [mafulb]{.subs}, then their [passive]{.subs} construction gives in an impersonal meaning. There are a few such usages that we will explain in the following subsections.
+When verbs are used without a direct doee, then their passive construction gives in an impersonal meaning. There are a few such usages that we will explain in the following subsections.
 
 ### With prepositional phrases
 
-Some verbs take no [mafulb]{.subs}s, but are used with prepositional phrases. For example,
+Some verbs take no direct doees, but are used with prepositional phrases. For example,
 
 [جَلَسَ ٱلنَّاسُ عَلَى ٱلْأَرْضِ.]{.ar}  
 "The people sat upon the ground."
 
-Other verbs, which can take a [mafulb]{.subs}, may be used without one, and again with a prepositional phrase instead. For example:
+Other verbs, which can take a direct doee, may be used without one, and again with a prepositional phrase instead. For example:
 
 [كَتَبَ ٱلْكَاتِبُ بِٱلْقَلَمِ.]{.ar}  
 "The scribe wrote with the pen."
 
-When such sentences are converted to the [passive]{.subs} verb construction then the prepositional phrase may be taken as the [naib]{.subs} doer. 
-However, the preposition causes the noun following it to remain in the [istate]{.subs}. So the [naib]{.subs} doer is not indicated by an apparent [umark]{.subs} (or by the other indicators of the [ustate]{.subs}).
-The verb then appears to be in the singular masculine, with its [naib]{.subs} doer following it.
+When such sentences are converted to the passive verb construction then the prepositional phrase may be taken as the deputy doer. 
+However, the preposition causes the noun following it to remain in the i-state. So the deputy doer is not indicated by an apparent [Dammah]{.trn2} (or by the other indicators of the u-state).
+The verb then appears to be in the singular masculine, with its deputy doer following it.
 For example:
 
 ```{.tikzarabic}
@@ -183,7 +183,7 @@ For example:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize [naib]{.subs} doer};
+      node [midway, below] {\scriptsize deputy doer};
 
 \path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The ground was sat upon.''};
 
@@ -198,7 +198,7 @@ For example:
 
 ### With adverbs of time or place
 
-Other verbs don't take a [mafulb]{.subs} but may be used with an adverb of time or place in the [astate]{.subs}. 
+Other verbs don't take a direct doee but may be used with an adverb of time or place in the a-state. 
 (We will study adverbs of time and place in chapter\ \@ref(adverbs-of-time-and-place), if [#allAh]{.trn2} wills.)
 Here is an example:
 
@@ -215,7 +215,7 @@ Here is an example:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize [astate]{.subs} adverb of time};
+      node [midway, below] {\scriptsize a-state adverb of time};
 
 \path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The mother stayed up the Night of Power.''};
 
@@ -224,17 +224,17 @@ Here is an example:
 
 <!--[سَهَرَتِ ٱلْأُمُّ ٱللَّيلَةَ.]{.ar}  
 "The mother stayed up the (whole) night."-->
-When this sentence is converted to an [passive]{.subs} construction then the adverb of time or place can be taken as the [naib]{.subs} doer in the [ustate]{.subs}:
+When this sentence is converted to an passive construction then the adverb of time or place can be taken as the deputy doer in the u-state:
 
 [سُهِرَتْ لَيلَةُ ٱلْقَدْرِ.]{.ar}  
 "The Night of Power was stayed up [in]."
 
-Note the [ustate]{.subs} of [لَيْلَةُ]{.ar} [laylatu]{.trn} as the [naib]{.subs} doer.
+Note the u-state of [لَيْلَةُ]{.ar} [laylatu]{.trn} as the deputy doer.
 
-### With the [masdar]{.subs}
+### With the [maSdar]{.trn2}
 
-The [masdar]{.subs}, because it is the action being done may be considered a kind of [mafulb]{.subs}. 
-(We will study the use of the [masdar]{.subs} as a [maful]{.subs} in chapter\ \@ref(absolute-doee), if [#allAh]{.trn2} wills.)
+The [maSdar]{.trn2}, because it is the action being done may be considered a kind of direct doee. 
+(We will study the use of the [maSdar]{.trn2} as a doee in chapter\ \@ref(absolute-doee), if [#allAh]{.trn2} wills.)
 For example:
 
 
@@ -242,46 +242,46 @@ For example:
 "The old man understood, a deep understanding."
 
 
-When such sentences are converted to the [passive]{.subs} verb construction, then the [masdar]{.subs} may be taken as the [naib]{.subs} doer in the [ustate]{.subs}.
+When such sentences are converted to the passive verb construction, then the [maSdar]{.trn2} may be taken as the deputy doer in the u-state.
 
 [فُهِمَ فَهْمٌ عَمِيقٌ.]{.ar}  
 "A deep understanding was understood."
 
 ### Requirement of specialization
 
-When a prepositional phrase, or an adverb of time or place, or a [masdar]{.subs} is to be used as a [naib]{.subs} doer in an [passive]{.subs} verb construction, then it is required that they be specialized in meaning, and not used in a general sense. So for example, if we have the sentence:
+When a prepositional phrase, or an adverb of time or place, or a [maSdar]{.trn2} is to be used as a deputy doer in an passive verb construction, then it is required that they be specialized in meaning, and not used in a general sense. So for example, if we have the sentence:
 
 [سَهَرَتِ ٱلْأُمُّ لَيلَةً.]{.ar}  
 "The mother stayed up a night."
 
-then because of the non-specialized meaning of [لَيْلَةً]{.ar}, such a sentence is typically not suitable for being converted to a [passive]{.subs} verb construction.
+then because of the non-specialized meaning of [لَيْلَةً]{.ar}, such a sentence is typically not suitable for being converted to a passive verb construction.
 
-### Choosing the [naib]{.subs} doer
+### Choosing the deputy doer
 
-If a sentence is to be converted to an [passive]{.subs} verb construction and it has more than one of the following:
+If a sentence is to be converted to an passive verb construction and it has more than one of the following:
 
-+ a [mafulb]{.subs}
++ a direct doee
 + a specialized prepositional phrase
 + a specialized adverb of time or place
-+ a specialized [masdar]{.subs}
++ a specialized [maSdar]{.trn2}
 
-Then only one shall be chosen as the [naib]{.subs} doer. If a [mafulb]{.subs} exists, then it is typically chosen. If a [mafulb]{.subs} does not exist, then the one desired to be emphasized may be chosen as the [naib]{.subs} doer. For example:
+Then only one shall be chosen as the deputy doer. If a direct doee exists, then it is typically chosen. If a direct doee does not exist, then the one desired to be emphasized may be chosen as the deputy doer. For example:
 
 [سُهِرَ فِي ٱلْمَسْجِدِ لَيلَةَ ٱلْقَدْرِ.]{.ar}  
 "The mosque was stayed up in [on] the Night of Power."
 
-In the above sentence the prepositional phrase [فِي ٱلْمَسْجِدِ]{.ar} was chosen as the [naib]{.subs} doer, and the adverb of time [لَيْلَةَ]{.ar} remains, as is, in the [astate]{.subs}.
+In the above sentence the prepositional phrase [فِي ٱلْمَسْجِدِ]{.ar} was chosen as the deputy doer, and the adverb of time [لَيْلَةَ]{.ar} remains, as is, in the a-state.
 
-## States of the [passive]{.subs} [mudarie]{.subs} verb
+## States of the passive stateful verb
 
 The 
-[passive]{.subs} [mudarie]{.subs} verb
+passive stateful verb
 has three states, just like the
-[active]{.subs} [mudarie]{.subs} verb:
-the [ustate]{.subs}, the [astate]{.subs}, and the [0state]{.subs}.
+active stateful verb:
+the u-state, the a-state, and the 0-state.
 The three states are used in the same circumstances, and with the same rules that we have already learned.
 
-So the [ustate]{.subs} verb is used for making plain statements:
+So the u-state verb is used for making plain statements:
 
 [تُذْكَرُ قِصَّةُ ٱلْمَلِكِ فِي كُتُبِ ٱلتَّأْرِيخِ.]{.ar}  
 "The story of the king is mentioned in the books of history."
@@ -289,11 +289,11 @@ So the [ustate]{.subs} verb is used for making plain statements:
 [لَا تُرْفَعُ ٱلْأَصْوَاتُ فِي ٱلْمَكْتَبَةِ.]{.ar}  
 "Voices are not raised in the library."
 
-The [astate]{.subs} verb is used for expressing wish or purpose:
+The a-state verb is used for expressing wish or purpose:
 
 [يَأْمُلُ ٱلْمُسْلِمُونَ أَنْ يُغْفَرُ لَهُمْ.]{.ar}  
 "The Muslims hope that they be forgiven."  
-(Note that [يُغْفَرَ]{.ar} has a singular masculine [naib]{.subs} doer because there is no [mafulb]{.subs}.)
+(Note that [يُغْفَرَ]{.ar} has a singular masculine deputy doer because there is no direct doee.)
 
 [لَنْ تُسْمَعَا.]{.ar}  
 "You~2~ shall not be heard."
@@ -301,7 +301,7 @@ The [astate]{.subs} verb is used for expressing wish or purpose:
 [دُفِعَ ٱلْبَابُ حَتَّىٰ يُفْتَحَ.]{.ar}  
 "The door was pushed for the result that it open."
 
-Similarly, the [0state]{.subs} verb is used in the following cases:
+Similarly, the 0-state verb is used in the following cases:
 
 + With [لَمْ]{.ar} "was not":
   
@@ -318,28 +318,28 @@ Similarly, the [0state]{.subs} verb is used in the following cases:
   [لِيُسْمَعْ صَوْتُهُ!]{.ar}  
   "Let his voice be heard!"
 
-  There is no verb of command for [passive]{.subs} verbs. So while indirect commands are typically not used for the addressee participant for [active]{.subs} verbs (see section\ \@ref(indirect-commands)), they are the only way to issue commands for the addressee participant in the [passive]{.subs} verb construction:
+  There is no verb of command for passive verbs. So while indirect commands are typically not used for the addressee participant for active verbs (see section\ \@ref(indirect-commands)), they are the only way to issue commands for the addressee participant in the passive verb construction:
 
   [لِتُنْصَرُوا!]{.ar}  
   "Let you~3m~ be aided!"
 
-## Usage of the [passive]{.subs} verb
+## Usage of the passive verb
 
 There are cases where it is permissible to 
-use of the [passive]{.subs} verb construction,
+use of the passive verb construction,
 and cases where it is _not_ permissible to 
-use of the [passive]{.subs} verb construction. We will explain them below:
+use of the passive verb construction. We will explain them below:
 
-### Permissible use of the [passive]{.subs} verb
+### Permissible use of the passive verb
 
-There can be a number of reasons why a speaker is forced to, or chooses to, use the [passive]{.subs} verb construction. Among these reasons are:
+There can be a number of reasons why a speaker is forced to, or chooses to, use the passive verb construction. Among these reasons are:
 
-a. When the doer is actually unknown to the speaker. This is the classic use-case, as indicated by the name _[passive]{.subs} verb_. (But, as we shall see below, it is not the only use case.) So, if we say:
+a. When the doer is actually unknown to the speaker. This is the classic use-case, as indicated by the name _passive verb_. (But, as we shall see below, it is not the only use case.) So, if we say:
 
    [كُسِرَتِ ٱلزُّجَاجَةُ.]{.ar}  
    "The glass was broken."
 
-   then, it may be that we don't know who broke the glass, and that is why we are expressing it in the [passive]{.subs} verb construction.
+   then, it may be that we don't know who broke the glass, and that is why we are expressing it in the passive verb construction.
 
 b. When the doer is known to the speaker, but he does not wish to make him known to others. So the same sentence above [كُسِرَتِ ٱلزُّجَاجَةُ.]{.ar} could be used when the speaker knows that it was actually [زَيْد]{.ar} "Zayd", for example, who broke the glass, but the speaker does not wish that others find out that it was Zayd. This itself could be for any reason, for example: the speaker fears Zayd, for fears for Zayd, etc.
 
@@ -353,11 +353,11 @@ c. When the speaker wishes to draw attention to the act itself rather than the d
 d. For stylistic reasons, when it is obvious and known who the doer is. For example:
 
    [خُلِقَ ٱلْإِنْسَانُ مِنْ ْعَجَلٍ]{.ar}  
-   "Man was created of haste [i.e., impatience]." ([quran]{.subs} 21:37. Trans. Saheeh International)
+   "Man was created of haste [i.e., impatience]." (Qurʾān 21:37. Trans. Saheeh International)
 
    In the above [EAyah]{.trn2} it is known and obvious that [#allAh]{.trn2} created man.
 
-e. In order to glorify the doer. So we might the [passive]{.subs} verb construction to say:
+e. In order to glorify the doer. So we might the passive verb construction to say:
 
    [خُلِقَ ٱلْخِنْزِيرُ.]{.ar}  
    "The pig was created."
@@ -371,11 +371,11 @@ f. When the doer is not mentioned due to contempt for him. For example:
 
    In this sentence we chose not to name the killer due to contempt for him.
 
-These reasons are not mutually exclusive, and sometimes the [passive]{.subs} verb construction is used for a combination of them.
+These reasons are not mutually exclusive, and sometimes the passive verb construction is used for a combination of them.
 
-### Impermissible use of the [passive]{.subs} verb
+### Impermissible use of the passive verb
 
-The [passive]{.subs} verb may not be used when the doer is mentioned with the verb. This is different from English which can use the word "by" to indicate the doer in a passive voice construction, as in: "The book was written by Zayd.". Such a sentence, in Arabic can only be expressed with the [active]{.subs} verb construction:
+The passive verb may not be used when the doer is mentioned with the verb. This is different from English which can use the word "by" to indicate the doer in a passive voice construction, as in: "The book was written by Zayd.". Such a sentence, in Arabic can only be expressed with the active verb construction:
 
 [كَتَبَ زَيْدٌ ٱلْكِتَابَ.]{.ar}  
 [kataba zayduni -lkitAb.]{.trn}  
@@ -387,7 +387,7 @@ It may seem like this rule is broken in sentences like:
 [qutila bi-ssayf.]{.trn}  
 "He was killed by the sword."
 
-But such is not the case. The [active]{.subs} verb constuction would be something like:
+But such is not the case. The active verb constuction would be something like:
 
 [قَتَلَهُ فُلَانٌ بِٱلسَّيْفِ.]{.ar}  
 [qatalahu fulAnun bi-ssayf.]{.trn}  

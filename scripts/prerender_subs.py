@@ -1,30 +1,53 @@
 import manage_bib
 
 def read_file(filename):
-    in_str = ""
+    #in_str = ""
     with open(filename, 'r') as in_file:
-        in_str = in_file.read()
+        out_str = ""
+        in_lines = in_file.readlines()
         #in_str += '\nkjhawkjhe'
 
-    import re
+        import re
 
-    # search replace for subs filter
-    out_str = re.sub('(#*);([a-zA-Z0-9_]+);', r'[\1\2]{.subs}', in_str, flags = re.M)
+        # search replace for subs filter
+        #out_str = re.sub('(#*);([a-zA-Z0-9_]+);', r'[\1\2]{.subs}', in_str, flags = re.M)
+        import manage_subs
+        line_count = 1
+        for in_line in in_lines:
+            out_line = ""
+            try:
+                out_line = re.sub('(#*);([a-zA-Z0-9_]+);', manage_subs.get_sub_text, in_line, flags = re.M)
+            except TypeError:
+                print("Term sub error in ", filename, " line number ", line_count);
+                print(in_line)
+                raise
 
-    # search replace for citations
-    out_str = re.sub('@[^ \n]+@', manage_bib.get_cite_text, out_str, flags = re.M)
-    #for match in re.finditer('@[a-zA-Z0-9_]@', out_str):
-    #    print(match.group())
-    #    replaced_str = manage_bib.get_cite_text(match.group())
-    #    out_str = out_str[:match.start()] + replaced_str + out_str[match.end():]
-    
-    warning_str = "<!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->\n\n"
+            try:
+                out_line = re.sub('@[^ \n]+@', manage_bib.get_cite_text, out_line, flags = re.M)
+            except TypeError:
+                print("Cite sub error in ", filename, " line number ", line_count);
+                print(in_line)
+                raise
 
-    out_str = warning_str + out_str
+            out_str += out_line
+            line_count += 1
 
-    #with open(filename, 'w') as file:
-    #    file.write(in_str)
-    return out_str
+            #out_str = re.sub('(#*);([a-zA-Z0-9_]+);', manage_subs.get_sub_text, in_str, flags = re.M)
+
+        # search replace for citations
+        #out_str = re.sub('@[^ \n]+@', manage_bib.get_cite_text, out_str, flags = re.M)
+        #for match in re.finditer('@[a-zA-Z0-9_]@', out_str):
+        #    print(match.group())
+        #    replaced_str = manage_bib.get_cite_text(match.group())
+        #    out_str = out_str[:match.start()] + replaced_str + out_str[match.end():]
+        
+        warning_str = "<!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->\n\n"
+
+        out_str = warning_str + out_str
+
+        #with open(filename, 'w') as file:
+        #    file.write(in_str)
+        return out_str
 
 def write_into_file(file_data_str: str, destination_path) -> None:
 

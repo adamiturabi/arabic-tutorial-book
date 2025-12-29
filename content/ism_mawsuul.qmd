@@ -1,6 +1,6 @@
 <!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
 
-# The [ism_mawsul]{.subs}s
+# The connected nouns
 
 ## Introduction
 
@@ -16,20 +16,20 @@ then there is no problem with this sentence.
 But often, further clarification is needed for the listener to correctly identify the individual to whom the speaker is referring.
 This further clarification can be provided in a number of ways.
 
-One way is to use an [sifah]{.subs} to describe the noun. For example:
+One way is to use an adjectival noun to describe the noun. For example:
 
 [رَأَيْتُ ٱلرَّجُلَ ٱلطَّوِيلَ.]{.ar}  
 "I saw the _tall_ man."
 
-Another way is to use a [ism_isharah]{.subs}, thus:
+Another way is to use a pointing noun, thus:
 
 [رَأَيْتُ ذَ ٰلِكَ ٱلرَّجُلَ.]{.ar}  
 "I saw _that_ man."
 
 But sometimes, a whole sentence is needed to provide the needed identification. 
-In this case, Arabic uses what is called a _[ism_mawsul]{.subs}_ and a _[silah]{.subs}_. 
-<!--A [ism_mawsul]{.subs} is itself a vague noun, which is then connected to by a qualifying sentence directly following it called the _[silah]{.subs}_. 
-The [silah]{.subs} contains sufficient information to identify the individual intended by the speaker. -->
+In this case, Arabic uses what is called a _connected noun_ and a _connecting sentence_. 
+<!--A connected noun is itself a vague noun, which is then connected to by a qualifying sentence directly following it called the _connecting sentence_. 
+The connecting sentence contains sufficient information to identify the individual intended by the speaker. -->
 This example should help you understand what we mean:
 
 
@@ -57,75 +57,75 @@ This example should help you understand what we mean:
 \end{tikzpicture}
 ```
 
-In the above sentence, the [ism_mawsul]{.subs} is [ٱَلَّذِي]{.ar} [EallapI]{.trn}.
+In the above sentence, the connected noun is [ٱَلَّذِي]{.ar} [EallapI]{.trn}.
 It is applied to singular masculine nouns, like [ٱلرَّجُل]{.ar}.
 <!--It signifies a specific individual denoted by a singular masculine noun.-->
 By itself it may be translated as "the one~1m~ that/which/who/whom".
 <!--Sometimes in sentences it is left untranslated (as above) and an implied "who", "whom", "that", or "which" is used to aid the translation.-->
-It is called a [ism_mawsul]{.subs} because it is directly followed by, i.e. _connected_ to, a [silah]{.subs}.
-The [silah]{.subs} contains necessary information for the listener to correctly identify the individual that the [ism_mawsul]{.subs} refers to.
-The [silah]{.subs} in the above example is the sentence [لَقِيتُهُ بِٱلْأَمْسِ]{.ar} "I met him yesterday."
+It is called a connected noun because it is directly followed by, i.e. _connected_ to, a connecting sentence.
+The connecting sentence contains necessary information for the listener to correctly identify the individual that the connected noun refers to.
+The connecting sentence in the above example is the sentence [لَقِيتُهُ بِٱلْأَمْسِ]{.ar} "I met him yesterday."
 
 Note by the way, that we did not translate the pronoun "him" in our original translation (above). 
 This is because it would sound unnatural in English to say: "I saw the [specific] man (whom) I met _him_ yesterday."
-But this pronoun is an essential part of the Arabic [silah]{.subs} and is called the _[3aaid]{.subs}_. 
+But this pronoun is an essential part of the Arabic connecting sentence and is called the _refer-back pronoun_. 
 We will deal with it in section\ \@ref(refer-back-pronoun) later in this chapter.
 
-There are two types of [ism_mawsul]{.subs}s:
+There are two types of connected nouns:
 
- 1. The specific [ism_mawsul]{.subs}s
- 2. The general [ism_mawsul]{.subs}s
+ 1. The specific connected nouns
+ 2. The general connected nouns
 
 We will study both these types separately within this chapter.
 
-## The specific [ism_mawsul]{.subs}s
+## The specific connected nouns
 
-The specific [ism_mawsul]{.subs}s have a significance which is restricted to a specific individual or category of individuals, 
-and its [silah]{.subs} should contain sufficient information to identify that specific individual.
+The specific connected nouns have a significance which is restricted to a specific individual or category of individuals, 
+and its connecting sentence should contain sufficient information to identify that specific individual.
 
-The specific [ism_mawsul]{.subs}s is a group of nouns where each noun is applied to a gender and number of individuals. They are:
+The specific connected nouns is a group of nouns where each noun is applied to a gender and number of individuals. They are:
 
-|[ism_mawsul]{.subs}|Description|
+|connected noun|Description|
 |:--|:----------------|
 |[ٱَلَّذِي]{.ar} [EallapI]{.trn}|Singular masculine. For both intelligent and non-intelligent beings. Rigid. Only one [ل]{.ar} in its spelling.|
 |[ٱَلَّتِي]{.ar} [EallatI]{.trn}|Singular feminine. For both intelligent and non-intelligent beings. Also used for plural non-intelligent beings of both genders. Rigid. Only one [ل]{.ar} in its spelling.|
-|[ٱَللَّذَانِ]{.ar} [EallapAnI]{.trn}|Dual masculine. For both intelligent and non-intelligent beings. Flexible: [ٱَللَّذَيْنِ]{.ar} [Eallapayni]{.trn} in the [astate]{.subs} and [istate]{.subs}. Two [ل]{.ar}'s in its spelling.|
-|[ٱَللَّتَانِ]{.ar} [EallatAnI]{.trn}|Dual feminine. For both intelligent and non-intelligent beings. Flexible: [ٱَللَّتَيْنِ]{.ar} [Eallatayni]{.trn} in the [astate]{.subs} and [istate]{.subs}. Two [ل]{.ar}'s in its spelling.|
+|[ٱَللَّذَانِ]{.ar} [EallapAnI]{.trn}|Dual masculine. For both intelligent and non-intelligent beings. Flexible: [ٱَللَّذَيْنِ]{.ar} [Eallapayni]{.trn} in the a-state and i-state. Two [ل]{.ar}'s in its spelling.|
+|[ٱَللَّتَانِ]{.ar} [EallatAnI]{.trn}|Dual feminine. For both intelligent and non-intelligent beings. Flexible: [ٱَللَّتَيْنِ]{.ar} [Eallatayni]{.trn} in the a-state and i-state. Two [ل]{.ar}'s in its spelling.|
 |[ٱَلَّذِينَ]{.ar} [EallapIna]{.trn}|Plural masculine. For both intelligent beings. Rigid. Only one [ل]{.ar} in its spelling.|
 |[ٱَللَّاتِي]{.ar} [EallAtI]{.trn} |For plural feminine intelligent beings. Also used for non-intelligent beings of both genders but [ٱَلَّتِي]{.ar} is more common there. Rigid. Two [ل]{.ar}'s in its spelling. Has the following variants: [ٱَللَّاتِ]{.ar} [EallAti]{.trn}, [ٱَللَّائِي]{.ar} [EallAEI]{.trn}, [ٱَللَّوَاتِي]{.ar} [EallawAtI]{.trn}|
 
-### Grammatical position of the specific [ism_mawsul]{.subs}
+### Grammatical position of the specific connected noun
 
 Consider again the same example:
 
 [رَأَيْتُ ٱلرَّجُلَ ٱلَّذِي لَقِيتُهُ بِٱلْأَمْسِ.]{.ar}  
 "I saw the [specific] man whom I met yesterday."
 
-In this example, the [ism_mawsul]{.subs}
+In this example, the connected noun
 [ٱَلَّذِي]{.ar} [EallapI]{.trn}
-is a [na3t]{.subs} (in the [astate]{.subs}) to the described noun
+is a attribute (in the a-state) to the described noun
 <!--
 [ٱلرَّجُل]{.ar}.
 [ٱَلَّذِي]{.ar} 
-is in the [astate]{.subs} to match the described noun
+is in the a-state to match the described noun
 -->
 [ٱلرَّجُلَ]{.ar}.
 Because 
 [ٱَلَّذِي]{.ar} 
 is a rigid noun, it will appear the same in all states without any change to its ending.
 
-As a [na3t]{.subs}, the [ism_mawsul]{.subs} may also come as the last in a series of [na3t]{.subs}s, and can also be combined with a [ism_isharah]{.subs}. 
+As a attribute, the connected noun may also come as the last in a series of attributes, and can also be combined with a pointing noun. 
 For example:
 
 [رَأَيْتُ ذَ ٰلِكَ ٱلرَّجُلَ ٱلطَّوِيلَ ٱلَّذِي لَقِيتُهُ بِٱلْأَمْسِ.]{.ar}  
 "I saw that [specific] tall man whom I met yesterday."
 
-But [ism_mawsul]{.subs}s need not only occur as [na3t]{.subs}s.
-<!--They may occur as a [mubtada]{.subs}, an information, a [faa3il]{.subs}, a [mafulb]{.subs}, following a preposition, and as a [mudafil]{.subs} in an [idaafah]{.subs}.-->
+But connected nouns need not only occur as attributes.
+<!--They may occur as a subject, an information, a doer, a direct doee, following a preposition, and as a base noun in an annexation.-->
 They may occur in various grammatical positions. 
 Here are some examples:
 <!--
-As a [mubtada]{.subs}:
+As a subject:
 
 [ٱَلَّذِي رَزَقَنَا بِٱلْأَمْسِ سَيَرْزُقُنَا بِالْغَدِ.]{.ar}  
 "The [specific] one (who) provided for us yesterday will provide for us tomorrow."
@@ -135,12 +135,12 @@ As an information:
 [هَـٰذَا هُوَ ٱلَّذِي لَقِيتُهُ.]{.ar}  
 "This is the [specific] one (whom) I met."
 
-As a [faa3il]{.subs}:
+As a doer:
 
 [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
 "The [specific] one (thing that) you said has reached us."
 
-As a [mafulb]{.subs}:
+As a direct doee:
 
 [نَهَيْتُ ٱلَّذِي أَسَاءَ.]{.ar}  
 "I forbade the [specific] one (who) did evil."
@@ -151,19 +151,19 @@ Following a preposition:
 "he wanted to strike the one who was an enemy to both of them"  
 (28:19)
 
-As a [mudafil]{.subs} in an [idaafah]{.subs}:
+As a base noun in an annexation:
 
 [هَـٰذَا بَيْتُ ٱلَّذِي لَقِيتُهُ.]{.ar}  
 "This is the house of the [specific] one (whom) I met."
 -->
 
-As a [mubtada]{.subs}:
+As a subject:
 
 [وَالَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ وَلَا يُنْفِقُونَهَا فِي سَبِيلِ ٱللَّـٰهِ فَبَشِّرْهُمْ بِعَذَابٍ أَلِيمٍ]{.ar}
 [[[سورة التوبة]{.ar} 9:34](https://quran.com/9:34)]{.aside}  
 "And those who hoard gold and silver and spend it not in the way of Allāh - give them tidings of a painful punishment."  
 
-As an [xabar]{.subs}:
+As an info:
 
 [خِيَارُ أَئِمَّتِكُمُ الَّذِينَ تُحِبُّونَهُمْ وَيُحِبُّونَكُمْ]{.ar}
 [[[صحيح مسلم]{.ar} :1855](https://sunnah.com/muslim:1855)]{.aside}  
@@ -173,12 +173,12 @@ As an [xabar]{.subs}:
 [[[سنن الدارمي]{.ar} :36](https://sunnah.com/darimi:36)]{.aside}  
 "They are the ones which (are) on the pulpit."  
 
-As a [faa3il]{.subs}:
+As a doer:
 
 [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
 "The [specific] one (thing) that you said has reached us."
 
-As a [mafulb]{.subs}:
+As a direct doee:
 
 [رَبَّنَا أَرِنَا ٱللَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنْسِ]{.ar}
 [[[سورة فصلت]{.ar} 41:29](https://quran.com/41:29)]{.aside}  
@@ -190,22 +190,22 @@ Following a preposition:
 [[[سورة البقرة]{.ar} 2:259](https://quran.com/2:259)]{.aside}  
 "Or [consider such an example] as the one who passed by a township"  
 
-As a [mudafil]{.subs} in an [idaafah]{.subs}:
+As a base noun in an annexation:
 
 [قَدْ سَمِعَ ٱللَّـٰهُ قَوْلَ ٱلَّتِي تُجَادِلُكَ فِي زَوْجِهَا]{.ar}
 [[[سورة المجادلة]{.ar} 58:1](https://quran.com/58:1)]{.aside}  
 "Certainly has Allāh heard the speech of the one who argues [i.e., pleads] with you, [O Muḥammad]"  
 
-## The [3aaid]{.subs} {#refer-back-pronoun}
+## The refer-back pronoun {#refer-back-pronoun}
 
-The [silah]{.subs} is directly follows the [ism_mawsul]{.subs}. 
+The connecting sentence is directly follows the connected noun. 
 As we mentioned in the introduction,
-the [silah]{.subs} provides clarifying information for the listener (or reader) to identify the individual referred to by the [ism_mawsul]{.subs}.
+the connecting sentence provides clarifying information for the listener (or reader) to identify the individual referred to by the connected noun.
 
 <!--
-### An incomplete sentence as the [silah]{.subs}
+### An incomplete sentence as the connecting sentence
 
-The [silah]{.subs} is, by default, a complete sentence. 
+The connecting sentence is, by default, a complete sentence. 
 It is, however, allowed to be an incomplete sentence if it is one of the following:
 
  i. A prepositional phrase. For example:
@@ -213,7 +213,7 @@ It is, however, allowed to be an incomplete sentence if it is one of the followi
     [نَامَ ٱلَّذِي فِي ٱلْغُرْفَةِ.]{.ar}  
     "The one (who is) in the room has slept."
 
-    The [silah]{.subs} is the incomplete sentence [فِي ٱلْغُرْفَةِ]{.ar} "(is) in the room".
+    The connecting sentence is the incomplete sentence [فِي ٱلْغُرْفَةِ]{.ar} "(is) in the room".
 
 ii. An adverbial phrase. For example:
 
@@ -221,70 +221,70 @@ ii. An adverbial phrase. For example:
     "The one (who is) with you spoke."
 
     (Remember that [عِنْدَ]{.ar} is technically a noun used adverbially, not a preposition.)
-    The [silah]{.subs} is the incomplete sentence [عِنْدَكَ]{.ar} "(is) with you". 
+    The connecting sentence is the incomplete sentence [عِنْدَكَ]{.ar} "(is) with you". 
 
-In such cases, the incomplete sentence [silah]{.subs} implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
+In such cases, the incomplete sentence connecting sentence implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.
 
-### The [3aaid]{.subs} {#refer-back-pronoun}
+### The refer-back pronoun {#refer-back-pronoun}
 -->
 
-In the [silah]{.subs} is a pronoun that refers back to the [ism_mawsul]{.subs}.
-This pronoun is called the _[3aaid]{.subs}_.
-and it is an essential (though not always apparent) part of the [silah]{.subs}.
+In the connecting sentence is a pronoun that refers back to the connected noun.
+This pronoun is called the _refer-back pronoun_.
+and it is an essential (though not always apparent) part of the connecting sentence.
 
-Let us identify some of the [3aaid]{.subs}s in the examples we have given.
+Let us identify some of the refer-back pronouns in the examples we have given.
 
 
 [وَالَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ]{.ar}  
 "And those who hoard gold and silver"  
-[3aaid]{.subs}: the plural masculine [faa3il]{.subs} pronoun [و]{.ar} in [يَكْنِزُونَ]{.ar}
+refer-back pronoun: the plural masculine doer pronoun [و]{.ar} in [يَكْنِزُونَ]{.ar}
 
 [خِيَارُ أَئِمَّتِكُمُ الَّذِينَ تُحِبُّونَهُمْ]{.ar}  
 "The best of your rulers are the ones whom you love and who love you"  
-[3aaid]{.subs}: the plural masculine [mafulb]{.subs} attached pronoun [هُمْ]{.ar} in [تُحِبُّونَهُمْ]{.ar}
+refer-back pronoun: the plural masculine direct doee attached pronoun [هُمْ]{.ar} in [تُحِبُّونَهُمْ]{.ar}
 
 [قَدْ بَلَغَنَا ٱلَّذِي قُلْتُمُوهُ.]{.ar}  
 "The [specific] one (thing) that you said has reached us."  
-[3aaid]{.subs}: the singular masculine [mafulb]{.subs} attached pronoun [هُ]{.ar} in [قُلْتُمُوهُ]{.ar}
+refer-back pronoun: the singular masculine direct doee attached pronoun [هُ]{.ar} in [قُلْتُمُوهُ]{.ar}
 
 [رَبَّنَا أَرِنَا ٱللَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنْسِ]{.ar}  
 "Our Lord, show us those who misled us of the jinn and men"  
-[3aaid]{.subs}: the dual masculine [faa3il]{.subs} pronoun [ا]{.ar} in [أَضَلَّانَا]{.ar}
+refer-back pronoun: the dual masculine doer pronoun [ا]{.ar} in [أَضَلَّانَا]{.ar}
 
 [أَوْ كَٱلَّذِي مَرَّ عَلَىٰ قَرْيَةٍ]{.ar}  
 "Or [consider such an example] as the one who passed by a township"  
-[3aaid]{.subs}: the implied singular masculine [faa3il]{.subs} pronoun "he" in [مَرَّ]{.ar}
+refer-back pronoun: the implied singular masculine doer pronoun "he" in [مَرَّ]{.ar}
 
 [قَدْ سَمِعَ ٱللَّـٰهُ قَوْلَ ٱلَّتِي تُجَادِلُكَ فِي زَوْجِهَا]{.ar}  
 "Certainly has Allāh heard the speech of the one who argues [i.e., pleads] with you, [O Muḥammad]"  
-[3aaid]{.subs}: the implied singular feminine [faa3il]{.subs} pronoun "she" in [تُجَادِلُكَ]{.ar}
+refer-back pronoun: the implied singular feminine doer pronoun "she" in [تُجَادِلُكَ]{.ar}
 
-### Matching the [3aaid]{.subs} with the [ism_mawsul]{.subs}
+### Matching the refer-back pronoun with the connected noun
 
-The [3aaid]{.subs} matches the specific [ism_mawsul]{.subs} in gender and number.
-And the [3aaid]{.subs} is generally an absent-person pronoun ([هُ]{.ar}, [هَا]{.ar}, [هُوَ]{.ar}, [هُمْ]{.ar}, etc.).
+The refer-back pronoun matches the specific connected noun in gender and number.
+And the refer-back pronoun is generally an absent-person pronoun ([هُ]{.ar}, [هَا]{.ar}, [هُوَ]{.ar}, [هُمْ]{.ar}, etc.).
 In the example
 [وَالَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ]{.ar}
 "And those who hoard gold and silver,"
-the [3aaid]{.subs} is the plural masculine absent-person [faa3il]{.subs} pronoun [و]{.ar} "they" in [يَكْنِزُونَ]{.ar} "they hoard".
-And it matches the plural masculine [ism_mawsul]{.subs} [ٱلَّذِينَ]{.ar}.
+the refer-back pronoun is the plural masculine absent-person doer pronoun [و]{.ar} "they" in [يَكْنِزُونَ]{.ar} "they hoard".
+And it matches the plural masculine connected noun [ٱلَّذِينَ]{.ar}.
 
-However, there is an exception to the [3aaid]{.subs} being an absent-person pronoun.
-And that is when the [ism_mawsul]{.subs} refers to the speaker or the addressed person, like 
+However, there is an exception to the refer-back pronoun being an absent-person pronoun.
+And that is when the connected noun refers to the speaker or the addressed person, like 
 [أَنَا ٱلَّذِي]{.ar}, or [أَنْتُمُ ٱلَّذِينَ]{.ar}, etc.
-In these cases, the [3aaid]{.subs} may optionally:
+In these cases, the refer-back pronoun may optionally:
 
- i. either be an absent-person pronoun to match the [ism_mawsul]{.subs} (as usual),
+ i. either be an absent-person pronoun to match the connected noun (as usual),
 ii. or match the pronoun for the speaker or addressed person (as the case may be)
 
 The latter is generally more common but both options are permissible.
 For example:
 
 [أَنَا ٱلَّذِي حَضَرْتُ.]{.ar}  
-[3aaid]{.subs}: the singular masculine [faa3il]{.subs} pronoun for the speaker [تُ]{.ar} in [حَضَرْتُ]{.ar}  
+refer-back pronoun: the singular masculine doer pronoun for the speaker [تُ]{.ar} in [حَضَرْتُ]{.ar}  
 or  
 [أَنَا ٱلَّذِي حَضَرَ.]{.ar}  
-[3aaid]{.subs}: the implied singular masculine [faa3il]{.subs} pronoun for the absent person "he" in [حَضَرَ]{.ar}  
+refer-back pronoun: the implied singular masculine doer pronoun for the absent person "he" in [حَضَرَ]{.ar}  
 "I am the one (who) was present."
 
 Here are some examples from Classical Arabic:
@@ -292,15 +292,15 @@ Here are some examples from Classical Arabic:
 [أَنَا ٱلَّذِي سَمَّتْنِ أُمِّي حَيْدَرَهْ]{.ar}
 [Wright 2/324B]{.aside}  
 "I am the one whom my mother named [#Haydarah]{.trn2}"  
-(The [3aaid]{.subs} is the speaker person's [mafulb]{.subs} pronoun in [سَمَّتْنِ]{.ar}, which is an abbreviation of [سَمَّتْنِي]{.ar} "she named me".)
+(The refer-back pronoun is the speaker person's direct doee pronoun in [سَمَّتْنِ]{.ar}, which is an abbreviation of [سَمَّتْنِي]{.ar} "she named me".)
 
 [فَقَالَ مُوسَى يَا آدَمُ أَنْتَ الَّذِي خَلَقَكَ اللَّهُ بِيَدِهِ]{.ar}
 [[[جامع الترمذي]{.ar} :2134](https://sunnah.com/tirmidhi:2134)]{.aside}  
 "[#mUsA]{.trn2} said: O [#Adam]{.trn2}, you are the one whom [#allAh]{.trn2} created with His Hand"  
-(The [3aaid]{.subs} is the addressed person's [mafulb]{.subs} pronoun [كَ]{.ar} in [خَلَقَكَ]{.ar}.)
+(The refer-back pronoun is the addressed person's direct doee pronoun [كَ]{.ar} in [خَلَقَكَ]{.ar}.)
 
-There is one circumstance where matching the [3aaid]{.subs} to the (absent person) [ism_mawsul]{.subs} is mandated.
-And that is when the [ism_mawsul]{.subs} is the called-out person using the particle [أَيُّهَا]{.ar} or [أَيَّتُهَا]{.ar}.
+There is one circumstance where matching the refer-back pronoun to the (absent person) connected noun is mandated.
+And that is when the connected noun is the called-out person using the particle [أَيُّهَا]{.ar} or [أَيَّتُهَا]{.ar}.
 For example,
 
 [يَاأَيُّهَا ٱلَّذِينَ  آمَنُوا]{.ar}  
@@ -316,7 +316,7 @@ Similarly,
 
 <!--
 If 
-the [ism_mawsul]{.subs} is called-out to using the another particle, then again, both options are permissible.
+the connected noun is called-out to using the another particle, then again, both options are permissible.
 For example,
 
 [يَا هَـٰذَا ٱلَّذِي قَامَ]{.ar}  
@@ -325,16 +325,16 @@ or
 "O the one (who) stood up"  
 -->
 
-## The general [ism_mawsul]{.subs}s [مَنْ]{.ar} and [مَا]{.ar}
+## The general connected nouns [مَنْ]{.ar} and [مَا]{.ar}
 
-The general [ism_mawsul]{.subs}s are unrestricted in significance, and may be applied to any individual who fits the criteria given in the [silah]{.subs}.
-The most commonly general [ism_mawsul]{.subs}s are:
+The general connected nouns are unrestricted in significance, and may be applied to any individual who fits the criteria given in the connecting sentence.
+The most commonly general connected nouns are:
 
 + [مَنْ]{.ar} [man]{.trn}. Typically used for intelligent beings and translated as "who".
 + [مَا]{.ar} [mA]{.trn}. Typically used for non-intelligent beings and translated as "what".
 + [أَيّ]{.ar} [Eayy]{.trn}. Used for both intelligent and non-intelligent beings. Translated as "which", "whichever" or "any".
 
-There are also a couple of rarely or dialectally used general [ism_mawsul]{.subs}s that we will not cover. 
+There are also a couple of rarely or dialectally used general connected nouns that we will not cover. 
 These are 
 <!--[أَيّ]{.ar} [Eayy]{.trn},--> 
 [ذُو]{.ar} [pU]{.trn}, and [ذَا]{.ar} [pA]{.trn}.
@@ -342,8 +342,8 @@ These are
 In this section we will deal with [مَنْ]{.ar} and [مَا]{.ar}.
 We will deal with [أَيّ]{.ar} separately in section\ (give ref) later in this chapter.
 
-Unlike the specific [ism_mawsul]{.subs}s ([ٱَلَّذِي]{.ar}, etc.),
-the general [ism_mawsul]{.subs}s do not vary for number and gender.
+Unlike the specific connected nouns ([ٱَلَّذِي]{.ar}, etc.),
+the general connected nouns do not vary for number and gender.
 
 For example:
 
@@ -379,23 +379,23 @@ For example:
 [عَمَّنْ]{.ar} [eamman]{.trn},
 [عَمَّا]{.ar} [eammA]{.trn}.
 
-The preposition [فِي]{.ar} is also often (though not always) optionally attached to these [ism_mawsul]{.subs}s, thus: [فِيمَنْ]{.ar} [fIman]{.trn}, [فِيمَا]{.ar} [fImA]{.trn}.
+The preposition [فِي]{.ar} is also often (though not always) optionally attached to these connected nouns, thus: [فِيمَنْ]{.ar} [fIman]{.trn}, [فِيمَا]{.ar} [fImA]{.trn}.
 
 The remaining prepositions follow the normal rules: [عَلَى مَا]{.ar}, [كَمَنْ]{.ar}, etc.
 But we will see, if [#allAh]{.trn2} wills, in chapter\ \@ref(questions), that [مَا]{.ar} and [مَنْ]{.ar} are also used as question nouns, in which case the rules of joining prepositions to them will differ.
 
-### The [3aaid]{.subs} for the general [ism_mawsul]{.subs}s
+### The refer-back pronoun for the general connected nouns
 
-The general [ism_mawsul]{.subs}s
+The general connected nouns
 [مَنْ]{.ar}
 and
 [مَا]{.ar}
 are themselves singular masculine in number and gender.
 However, they can be used to signify persons or things of any number and gender.
 
-Their [3aaid]{.subs}s can then, optionally:
+Their refer-back pronouns can then, optionally:
 
- i. Either match the gender and number of the persons or things meant by the [ism_mawsul]{.subs}. For example, for [مَنْ]{.ar}:
+ i. Either match the gender and number of the persons or things meant by the connected noun. For example, for [مَنْ]{.ar}:
 
     [وَمِنْهُمْ مَنْ يَسْتَمِعُونَ إِلَيْكَ]{.ar}
     ^[[[سورة يونس]{.ar} 10:42](https://quran.com/10:42)]^  
@@ -405,8 +405,8 @@ Their [3aaid]{.subs}s can then, optionally:
     ^[[[جامع الترمذي]{.ar} :3318](https://sunnah.com/tirmidhi:3318)]^  
     "She has thwarted herself, whoever did that from them~3f~, and lost."  
 
-    Note also how, in this example how, in addition to the feminine refer-back [faa3il]{.subs} pronouns in [فَعَلَتْ]{.ar} and [خَسِرَتْ]{.ar},
-    the feminine gender of the person signified by [مَنْ]{.ar} has also caused the [تْ]{.ar} of femininity to be added to the verb [خَابَ]{.ar} (of which [مَنْ]{.ar} is the [faa3il]{.subs} noun).
+    Note also how, in this example how, in addition to the feminine refer-back doer pronouns in [فَعَلَتْ]{.ar} and [خَسِرَتْ]{.ar},
+    the feminine gender of the person signified by [مَنْ]{.ar} has also caused the [تْ]{.ar} of femininity to be added to the verb [خَابَ]{.ar} (of which [مَنْ]{.ar} is the doer noun).
 
     Examples for [مَا]{.ar}:
 <!--
@@ -422,7 +422,7 @@ Their [3aaid]{.subs}s can then, optionally:
     [عرفت ما اشتريته، وما اشتريتهما، وما اشتريتها، وما اشتريتهن]{.ar}
     [https://shamela.ws/book/13257/195]{.citex}  
 
-ii. Or be singular masculine to match the [ism_mawsul]{.subs} itself. This is generally more common for [مَا]{.ar}. For example:
+ii. Or be singular masculine to match the connected noun itself. This is generally more common for [مَا]{.ar}. For example:
 
     [وَمِنْهُم مَّن يُؤْمِنُ بِهِۦ وَمِنْهُم مَّن لَّا يُؤْمِنُ بِهِ]{.ar}
     ^[[[سورة يونس]{.ar} 10:40](https://quran.com/10:40)]^  
@@ -449,9 +449,9 @@ Both options can be utilized together as well. For example:
 "whoever follows My guidance - there will be no fear concerning them, nor will they grieve."  
 
 <!--
-[ٱُشْكُرْ مَنْ أَحْسَنَ إِلَيْكَ.]{.ar} ([3aaid]{.subs} is the implied sing. masc. [faa3il]{.subs} pronoun of the verb [أَحْسَنَ]{.ar}.)  
+[ٱُشْكُرْ مَنْ أَحْسَنَ إِلَيْكَ.]{.ar} (refer-back pronoun is the implied sing. masc. doer pronoun of the verb [أَحْسَنَ]{.ar}.)  
 or  
-[ٱُشْكُرْ مَنْ أَحْسَنُوا إِلَيْكَ.]{.ar} ([3aaid]{.subs} is the implied pl. masc. [faa3il]{.subs} pronoun of the verb [أَحْسَنُوا]{.ar}.)  
+[ٱُشْكُرْ مَنْ أَحْسَنُوا إِلَيْكَ.]{.ar} (refer-back pronoun is the implied pl. masc. doer pronoun of the verb [أَحْسَنُوا]{.ar}.)  
 "Thank who did good to you."
 -->
 
@@ -540,30 +540,30 @@ http://shiaonlinelibrary.com/%D8%A7%D9%84%D9%83%D8%AA%D8%A8/3954_%D8%B4%D8%B1%D8
 footnotes on شرح ابن عقيل ١/١٤٠
 -->
 
-### Grammatical position of the general [ism_mawsul]{.subs}s
+### Grammatical position of the general connected nouns
 
-The general [ism_mawsul]{.subs} may occur in various grammatical positions. 
+The general connected noun may occur in various grammatical positions. 
 Here are some examples:
 
-As a [mubtada]{.subs}:
+As a subject:
 
 [ما عِنْدَكُمْ يَنْفَدُ]{.ar}
 [[[سورة النحل]{.ar} 16:96](https://quran.com/16:96)]{.aside}  
 "Whatever you have will end"  
 
-As an [xabar]{.subs}:
+As an info:
 
 [مَالُكَ مَا قَدَّمْتَ، وَمَالُ وَارِثِكَ مَا أَخَّرْتَ]{.ar}
 [[[الأدب المفرد]{.ar} :153](https://sunnah.com/adab:153)]{.aside}  
 "Your wealth is what you have sent forward, and the wealth of your inheritors is what you have left behind."  
 
-As a [faa3il]{.subs}:
+As a doer:
 
 [فَعَلَهُ مَنْ هُوَ خَيْرٌ مِنِّي]{.ar}
 [[[صحيح البخاري]{.ar} :668](https://sunnah.com/bukhari:668)]{.aside}  
 "it was done by one who was better than I"  
 
-As a [mafulb]{.subs}:
+As a direct doee:
 
 [اعْمَلُوا مَا شِئْتُمْ]{.ar}
 [[[سورة فصلت]{.ar} 41:40](https://quran.com/41:40)]{.aside}  
@@ -575,7 +575,7 @@ Following a preposition:
 [[[جامع الترمذي]{.ar} :3563](https://sunnah.com/tirmidhi:3563)]{.aside}  
 "and make me independent from (all) who are besides You"  
 
-As a [mudafil]{.subs} in an [idaafah]{.subs}:
+As a base noun in an annexation:
 
 <!--
 [أَنَا وَارِثُ مَنْ لاَ وَارِثَ لَهُ]{.ar}
@@ -596,9 +596,9 @@ As a [mudafil]{.subs} in an [idaafah]{.subs}:
 [Fischer 218]{.aside}  
 "the matter of which you are wary"
 
-Unlike the specific [ism_mawsul]{.subs}s 
+Unlike the specific connected nouns 
 ([ٱَلَّذِي]{.ar}, etc),
-the general [ism_mawsul]{.subs}s do not occur as [na3t]{.subs}s.
+the general connected nouns do not occur as attributes.
 So while we can say:
 
 [مَرَرْتُ بِٱلرَّجُلِ ٱلَّذِي أَحْسَنَ إِلَيّ.]{.ar}  
@@ -612,7 +612,7 @@ We will have to say instead:
 
 [مَرَرْتُ بِمَنْ أَحْسَنَ إِلَيّ.]{.ar}  
 
-The general [ism_mawsul]{.subs} can, however, occur as a replacement.
+The general connected noun can, however, occur as a replacement.
 For example,
 
 [والمسلمون مَن تبع رسول الله صلى الله عليه وسلم كثير]{.ar}
@@ -621,8 +621,8 @@ For example,
 
 ### Use with the preposition [مِنْ]{.ar}
 
-The preposition [مِنْ]{.ar} is frequently used with the general [ism_mawsul]{.subs}s to restrict the applicability of the [ism_mawsul]{.subs} to a group or type. 
-This [مِنْ]{.ar} may come either before the [ism_mawsul]{.subs}, or after its [silah]{.subs}.
+The preposition [مِنْ]{.ar} is frequently used with the general connected nouns to restrict the applicability of the connected noun to a group or type. 
+This [مِنْ]{.ar} may come either before the connected noun, or after its connecting sentence.
 For example:
 
 <!--[سَأُعْطِيهِ مَا عِنْدِي مِنْ خُبْزٍ.]{.ar}  
@@ -644,11 +644,11 @@ For example:
 [اللَّهُمَّ اقْسِمْ لَنَا مِنْ خَشْيَتِكَ مَا يَحُولُ بَيْنَنَا وَبَيْنَ مَعَاصِيكَ]{.ar}
 [[[جامع الترمذي]{.ar} :3502](https://sunnah.com/tirmidhi:3502)]{.aside}  
 O [#allAh]{.trn2}, apportion for us, from the fear of You, (that) what shall come between us and disobedience of You  
-(The [ism_mawsul]{.subs} [مَا]{.ar} is the [mafulb]{.subs} of the verb of command [اقْسِمْ]{.ar}.)
+(The connected noun [مَا]{.ar} is the direct doee of the verb of command [اقْسِمْ]{.ar}.)
 
 ### Use with a repeated word to express vagueness or uncertainty
 
-The general [ism_mawsul]{.subs}s
+The general connected nouns
 [مَنْ]{.ar} and [مَا]{.ar}
 are used with a word that is repeated to express a vague or uncertain quantity or quality.
 For example:
@@ -666,20 +666,20 @@ For example:
 [Fischer 218]{.aside}  
 "I gathered what I gathered."
 
-## Deleting the [3aaid]{.subs}
+## Deleting the refer-back pronoun
 
-The [3aaid]{.subs} may be deleted (and its meaning is then implicit) if some conditions are satisfied.
-Some conditions are specific to the state of the [3aaid]{.subs}. These are:
+The refer-back pronoun may be deleted (and its meaning is then implicit) if some conditions are satisfied.
+Some conditions are specific to the state of the refer-back pronoun. These are:
 
-(a) When the [3aaid]{.subs} is the [mubtada]{.subs} of a [j_ism]{.subs}, then it may be deleted, and its meaning will be implied.
-    When deleting the [3aaid]{.subs} in this case, it is preferred that the [silah]{.subs} not be too short.
-    <!--In such cases, the incomplete sentence [silah]{.subs} implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.-->
+(a) When the refer-back pronoun is the subject of a nounal sentence, then it may be deleted, and its meaning will be implied.
+    When deleting the refer-back pronoun in this case, it is preferred that the connecting sentence not be too short.
+    <!--In such cases, the incomplete sentence connecting sentence implcitly includes the meaning of a verb which is usually the verb "being", like "is", "are", "am", etc.-->
 
     For example:
 
     [انْظُرُوا إِلَى مَنْ أَسْفَلَ مِنْكُمْ]{.ar}
     ^[[[صحيح مسلم]{.ar} :2963c](https://sunnah.com/muslim:2963c)]^
-    ^[See also [[صحيح مسلم]{.ar} :2963c](https://sunnah.com/muslim:2963c) and [[سنن ابن ماجه]{.ar} :4142](https://sunnah.com/ibnmajah:4142) for variants with the [3aaid]{.subs}.]  
+    ^[See also [[صحيح مسلم]{.ar} :2963c](https://sunnah.com/muslim:2963c) and [[سنن ابن ماجه]{.ar} :4142](https://sunnah.com/ibnmajah:4142) for variants with the refer-back pronoun.]  
     "Look at who is lower than you."  
     (instead of [انْظُرُوا إِلَى مَنْ هُوَ أَسْفَلَ مِنْكُمْ]{.ar}.)
 
@@ -693,7 +693,7 @@ Some conditions are specific to the state of the [3aaid]{.subs}. These are:
     I am not the one who says anything to you.  
     (instead of [مَا أَنَا بِٱلَّذِي هُوَ قَائِلٌ لَكَ شَيْـًٔا]{.ar})
 
-    If the [silah]{.subs} is very short, the deleting the [3aaid]{.subs} [mubtada]{.subs} is permissible, though rare. For example:
+    If the connecting sentence is very short, the deleting the refer-back pronoun subject is permissible, though rare. For example:
 
     <!--
     [جاء الذي ذَكِيٌّ]{.ar}  
@@ -707,16 +707,16 @@ Some conditions are specific to the state of the [3aaid]{.subs}. These are:
     "He does not speak what is foolish."  
     (instead of [بِمَا هُوَ سَفَهٌ]{.ar})
 
-(b) When the [3aaid]{.subs} is an attached pronoun for the [mafulb]{.subs} it is permissible to delete it. For example:
+(b) When the refer-back pronoun is an attached pronoun for the direct doee it is permissible to delete it. For example:
 
     [هَـٰذَا مَا كَنَزْتُمْ لِأَنْفُسِكُمْ]{.ar}
     ^[[[سورة التوبة]{.ar} 9:35](https://quran.com/9:35)]^  
     "This is what you hoarded for yourselves"  
     (instead of [مَا كَنَزْتُمُوهُ]{.ar})
 
-(c) When the [3aaid]{.subs} is in the [istate]{.subs}, it is permissible to delete it:
+(c) When the refer-back pronoun is in the i-state, it is permissible to delete it:
 
-    (i) When the [3aaid]{.subs} is the [mudafil]{.subs} in an [idaafah]{.subs} whose [mudaf]{.subs} is a [ism_fail]{.subs} or the [mafulb]{.subs} implying a present or future meaning. For example:
+    (i) When the refer-back pronoun is the base noun in an annexation whose annexe noun is a doer participle or the direct doee implying a present or future meaning. For example:
 
         (@) [فَاقْضِ مَا أَنتَ قَاضٍ]{.ar}
 	          [[[سورة طه]{.ar} 20:72](https://quran.com/20:72)]{.citex}  
@@ -732,17 +732,17 @@ Some conditions are specific to the state of the [3aaid]{.subs}. These are:
         [أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلٌ.]{.ar}  
         "I fear from him the wrong that he will do."
 
-        With the [3aaid]{.subs} restored, the sentence is  
+        With the refer-back pronoun restored, the sentence is  
         [أَخَافُ مِنْهُ ٱلظُّلْمَ ٱلَّذِي هُوَ فَاعِلُهُ.]{.ar}  
 	-->
 
-    (ii) When the [3aaid]{.subs} is attached to a preposition or adverb, and the same preposition or adverb has already been used (with the same meaning) with the connecting noun or its described noun. The preposition/adverb is deleted along with its attached pronoun. For example:
+    (ii) When the refer-back pronoun is attached to a preposition or adverb, and the same preposition or adverb has already been used (with the same meaning) with the connecting noun or its described noun. The preposition/adverb is deleted along with its attached pronoun. For example:
 
          <!--
          [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ.]{.ar}  
          "I walked in the (same) garden [in] which you walked."
 
-         With the [3aaid]{.subs} restored, the sentence is  
+         With the refer-back pronoun restored, the sentence is  
          [سِرْتُ فِي ٱلْحَدِيقَةِ ٱلَّتِي سِرْتَ فِيهَا.]{.ar}  
          -->
 
@@ -756,13 +756,13 @@ Some conditions are specific to the state of the [3aaid]{.subs}. These are:
          "I passed by the (same) one that [#sulaymAn]{.trn2} did."  
          (instead of [مَرَرْتُ بِٱلَّذِي مَرَّ بِهِ سُلَيْمَانُ.]{.ar})
 
-In addition to the above conditions that are specific to the state of the [3aaid]{.subs},
+In addition to the above conditions that are specific to the state of the refer-back pronoun,
 a further, general, condition should be satisfied, which is:
-that the omission of the [3aaid]{.subs} be obvious to the listener, and the listener can re-construct the original meaning by restoring the [3aaid]{.subs} to get the intended meaning.
+that the omission of the refer-back pronoun be obvious to the listener, and the listener can re-construct the original meaning by restoring the refer-back pronoun to get the intended meaning.
 
-If the [3aaid]{.subs} is deleted, and the remaining [silah]{.subs} (with the [3aaid]{.subs} deleted) is valid as a [silah]{.subs} on its own right, then it will give a different meaning (even if slightly) from the original. 
-And the listener will not know that the [3aaid]{.subs} has been deleted. 
-In this case, it is not permitted to delete the [3aaid]{.subs}. Here is an example that should explain what we mean:
+If the refer-back pronoun is deleted, and the remaining connecting sentence (with the refer-back pronoun deleted) is valid as a connecting sentence on its own right, then it will give a different meaning (even if slightly) from the original. 
+And the listener will not know that the refer-back pronoun has been deleted. 
+In this case, it is not permitted to delete the refer-back pronoun. Here is an example that should explain what we mean:
 
 Consider the sentence:
 
@@ -770,21 +770,21 @@ Consider the sentence:
 [[[شرح ابن عقيل على الألفية]{.ar} 1/168](https://shamela.ws/book/9904/167)]{.aside}  
 "The one whom I beat (him) in his house, came.  
 
-The [silah]{.subs} is 
+The connecting sentence is 
 [ضربته في داره.]{.ar} "I beat him in his house."
-and the [3aaid]{.subs} is the [astate]{.subs} [mafulb]{.subs} pronoun [ه]{.ar} "him".
+and the refer-back pronoun is the a-state direct doee pronoun [ه]{.ar} "him".
 If we delete this pronoun, the sentence becomes
 
 [جاء الذي ضربت في داره.]{.ar}  
 "The one who I beat in his house, came.
 
-Now the meaning of the sentence is markedly different. The [silah]{.subs} [ضربت فِي دَارِهِ]{.ar} is valid on its own right but it gives a different meaning from the original.
+Now the meaning of the sentence is markedly different. The connecting sentence [ضربت فِي دَارِهِ]{.ar} is valid on its own right but it gives a different meaning from the original.
 It does not specify that I beat _him_ in his house, just that I beat in his house, possibly others.
-Because the omission of the [3aaid]{.subs} is not obvious, the sentence now does not siginify the original intent. And so deleting the [3aaid]{.subs} in this case is not permitted.
+Because the omission of the refer-back pronoun is not obvious, the sentence now does not siginify the original intent. And so deleting the refer-back pronoun in this case is not permitted.
 
-## The general [ism_mawsul]{.subs} [أَيّ]{.ar}
+## The general connected noun [أَيّ]{.ar}
 
-[أَيّ]{.ar} [Eayy]{.trn} "which/whichever" is a general [ism_mawsul]{.subs} similar to [مَا]{.ar} "what" and [مَنْ]{.ar} "who".
+[أَيّ]{.ar} [Eayy]{.trn} "which/whichever" is a general connected noun similar to [مَا]{.ar} "what" and [مَنْ]{.ar} "who".
 But it differs from 
 [مَا]{.ar} and [مَنْ]{.ar} in a few aspects:
 
@@ -797,13 +797,13 @@ Whereas
 
 Secondly,
 [أيّ]{.ar}
-can be, and, in fact, properly is, the [mudaf]{.subs} in an [idaafah]{.subs}.
-Whereas [مَا]{.ar} and [مَنْ]{.ar} cannot be [mudaf]{.subs}s.
+can be, and, in fact, properly is, the annexe noun in an annexation.
+Whereas [مَا]{.ar} and [مَنْ]{.ar} cannot be annexe nouns.
 For example,
 
 [يُعْجِبُنِي أَيُّ ٱلتَّلَامِذَةِ يَجْتَهِدُ.]{.ar}  
 "Whichever of the students strives, pleases me."  
-([أيّ]{.ar} is in the [ustate]{.subs})
+([أيّ]{.ar} is in the u-state)
 
 <!--
 [أَيُّ ٱلرِّجَالِ]{.ar}  
@@ -815,7 +815,7 @@ For example,
 
 [فَأْوِ إِلَى أَيِّهِمْ يَحْمِيكَ.]{.ar}  
 "So take shelter with whichever of them protects you."  
-([أيّ]{.ar} is in the [istate]{.subs})
+([أيّ]{.ar} is in the i-state)
 
 Also,
 [أيّ]{.ar}
@@ -823,7 +823,7 @@ is used indiscriminately for both intelligent and non-intelligent beings. For ex
 
 [أَحْمِلُ أَيَّ ٱلْحَقِيبَتَيْنِ هِيَ ٱلْأَثْقَلُ]{.ar}  
 "I shall carry whichever of the two bags is the heavier."  
-([أيّ]{.ar} is in the [astate]{.subs})
+([أيّ]{.ar} is in the a-state)
 
 Note how, in the above examples, the final vowel mark on 
 [أيّ]{.ar}
@@ -840,8 +840,8 @@ can be used, unchanged, for both genders.
 The previous example used
 [أَيّ]{.ar}
 with [حَقِيبَة]{.ar} which is a feminine noun.
-But a feminine version [أَيَّة]{.ar} does exist and can be used with feminine [mudafil]{.subs}s.
-It is, however, only commonly used if its [mudafil]{.subs} is a feminine pronoun.
+But a feminine version [أَيَّة]{.ar} does exist and can be used with feminine base nouns.
+It is, however, only commonly used if its base noun is a feminine pronoun.
 For example,
 
 [صَادِقِي أَيَّتَهُنَّ تَنْصَحُكِ.]{.ar}  
@@ -849,21 +849,21 @@ For example,
 
 By the way, [أَيّ]{.ar} [Eayy]{.trn} (like [مَا]{.ar} and [مَنْ]{.ar}) is also a question noun and we will discuss its properties in more detail in section ...
 
-### The [ism_mawsul]{.subs} [أَيّ]{.ar} without a [mudafil]{.subs}
+### The connected noun [أَيّ]{.ar} without a base noun
 
 [أيّ]{.ar}
-can sometimes occur without a [mudafil]{.subs}.
-Technically, it will then be indefinite, and thus [tanwin]{.subs}ed.
-However, it will carry the meaning of an implied [idaafah]{.subs}.
+can sometimes occur without a base noun.
+Technically, it will then be indefinite, and thus [tanwIn]{.trn2}ed.
+However, it will carry the meaning of an implied annexation.
 For example,
 
 [سَأُقَاتِلُ أَيًّا يُقَاوِمُنِي.]{.ar}  
 "I will fight whichever [of them, the enemies, etc.] resists me."
 
-### The [ism_mawsul]{.subs} [أَيّ]{.ar} with a deleted [3aaid]{.subs}
+### The connected noun [أَيّ]{.ar} with a deleted refer-back pronoun
 
-Consistent with what we have already learned for the other [ism_mawsul]{.subs}s,
-the [3aaid]{.subs} may be deleted in connected sentences for the [ism_mawsul]{.subs}
+Consistent with what we have already learned for the other connected nouns,
+the refer-back pronoun may be deleted in connected sentences for the connected noun
 [أيّ]{.ar}.
 
 For example,
@@ -880,8 +880,8 @@ is generally fully flexible.
 However, there is one circumstance in which it may optionally be a rigid noun with the final vowel mark [◌ُ]{.ar} thus: [أَيُّ]{.ar}.
 This is when both of the following conditions are satisfied:
 
- i. [أَيّ]{.ar} is an [mudaf]{.subs}.
-ii. The [3aaid]{.subs} to [أَيّ]{.ar} is the [mubtada]{.subs} of the [silah]{.subs} and it is deleted.
+ i. [أَيّ]{.ar} is an annexe noun.
+ii. The refer-back pronoun to [أَيّ]{.ar} is the subject of the connecting sentence and it is deleted.
 
 For example,
 
@@ -904,10 +904,10 @@ shall remain fully-flexible. For example,
 [أَجْزِي أَيًّا صَادِقٌ.]{.ar}
 ^[The examples generally quoted by the grammarians are (1) the verse of poetry [إِذَا مَا لَقِيتَ بَنِي مَالِكٍ  فَسَلِّمْ عَلَى أَيُّهُمْ أَفْضَلُ]{.ar}, and (2) the [Ayah]{.trn2} [ثُمَّ لَنَنْزِعَنَّ مِنْ كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى الرَّحْمَنِ عِتِيّاً]{.ar} [[[سورة مريم]{.ar} 19:69](https://quran.com/19:69)]]
 
-## Separating the [silah]{.subs} from the [ism_mawsul]{.subs}
+## Separating the connecting sentence from the connected noun
 
-Generally, the [silah]{.subs} directly follows the [ism_mawsul]{.subs}, as in all the examples we have given so far.
-However, the [silah]{.subs} may be separated from the [ism_mawsul]{.subs} by one of the following:
+Generally, the connecting sentence directly follows the connected noun, as in all the examples we have given so far.
+However, the connecting sentence may be separated from the connected noun by one of the following:
 
   i. An oath. For example:
 
@@ -928,7 +928,7 @@ iii. A parenthetical clause, which is a sentence within the main sentence that a
      "The one who - and he is smiling - was good to me has arrived."
 
 
-## Deleting the [ism_mawsul]{.subs} and/or the [silah]{.subs}
+## Deleting the connected noun and/or the connecting sentence
 
 TODO. See النحو الوافي
 
@@ -936,17 +936,17 @@ TODO. See النحو الوافي
     [[[سنن النسائي]{.ar} :5687](https://sunnah.com/nasai:5687)]{.citex}  
     I [was] the first of the Arabs **[who]** asked him
 
-## Sentences without [ism_mawsul]{.subs}s
+## Sentences without connected nouns
 
-There are some sentences where we might expect a [ism_mawsul]{.subs} but which are always, or often (as the case may be), expressed in Arabic without a [ism_mawsul]{.subs}. These sentences are of different types:
+There are some sentences where we might expect a connected noun but which are always, or often (as the case may be), expressed in Arabic without a connected noun. These sentences are of different types:
 
 ### Sentences with indefinite nouns needing a qualifying sentence
 
 When an indefinite noun needs a qualifying sentence, it is natural in English to insert "that", "which", "who", etc. between the noun and the following sentence. For example, "I passed by a man _who_ was sleeping."
 
-In Arabic, however, we will not use any [ism_mawsul]{.subs} in such sentences. 
-This is because the [ism_mawsul]{.subs}s are considered definite nouns.
-And therefore they may not be a [na3t]{.subs} to an indefinite noun.
+In Arabic, however, we will not use any connected noun in such sentences. 
+This is because the connected nouns are considered definite nouns.
+And therefore they may not be a attribute to an indefinite noun.
 So while we can say:
 
 [مَرَرْتُ بِٱلرَّجُلِ ٱلَّذِي يَنَامُ.]{.ar}  
@@ -956,7 +956,7 @@ we cannot say
 
 $\times$ [مَرَرْتُ بِرَجُلٍ ٱلَّذِي يَنَامُ.]{.ar}  
 
-Instead, we put the qualifying sentence directly after the indefinite noun. The qualifying sentence will then not be a [silah]{.subs}, but will itself be the [na3t]{.subs} to the described noun:
+Instead, we put the qualifying sentence directly after the indefinite noun. The qualifying sentence will then not be a connecting sentence, but will itself be the attribute to the described noun:
 
 [مَرَرْتُ بِرَجُلٍ يَنَامُ.]{.ar}  
 "I passed by a man (who) is sleeping."
@@ -971,7 +971,7 @@ Here is another example:
 [جَلَسْتُ فِي مَجْلِسٍ قَدْ رُشَّ بِمَاءِ ٱلْوَرْدِ.]{.ar}  
 "I sat in a sitting (that) had been sprinkled with rose-water."
 
-A [ism_mawsul]{.subs} can, however, follow an indefinite noun, if we intend to start a separate sentence with it, or if it is a _replacement_ (see chapter\ \@ref(the-replacement)). For example.
+A connected noun can, however, follow an indefinite noun, if we intend to start a separate sentence with it, or if it is a _replacement_ (see chapter\ \@ref(the-replacement)). For example.
 
 [وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ]{.ar}
 [[[صحيح البخاري]{.ar} :614](https://sunnah.com/bukhari:614)]{.aside}  
@@ -988,8 +988,8 @@ Who collects wealth and [continuously] counts it."
 Sometimes the definite article [ٱَلْ]{.ar} 
 does not determine a particular individual, but
 makes a noun definite only in a generic way.
-In this case a qualifying sentence may directly follow it without any intermediate [ism_mawsul]{.subs} used as a [na3t]{.subs}.^[Wright 2/318C]
-Because there is no [ism_mawsul]{.subs}, the qualifying sentence is, again, not analyzed as a [silah]{.subs}.
+In this case a qualifying sentence may directly follow it without any intermediate connected noun used as a attribute.^[Wright 2/318C]
+Because there is no connected noun, the qualifying sentence is, again, not analyzed as a connecting sentence.
 For example:
 
 [كَمَثَلِ الْحِمَارِ يَحْمِلُ أَسْفَارًا]{.ar}
@@ -1008,10 +1008,10 @@ For example:
 
 ### Sentences with prepositional or adverbial phrases
 
-If a sentence has a definite noun which is to be qualified by a prepositional or adverbial phrase, then in many cases, that phrase may directly follow the definite noun without any intermediate [ism_mawsul]{.subs} used a [na3t]{.subs}.
-But using a [ism_mawsul]{.subs} is also permissible if one wishes to emphasize that the specificity of the noun.
-When there is no [ism_mawsul]{.subs}, the prepositional or adverbial phrase is not analyzed as a [silah]{.subs}, but is considered attached to an implied verb that has the idea of "being", like "is", "are", etc.
-When there is a [ism_mawsul]{.subs}, then it is analyzed as a [silah]{.subs}, as usual.
+If a sentence has a definite noun which is to be qualified by a prepositional or adverbial phrase, then in many cases, that phrase may directly follow the definite noun without any intermediate connected noun used a attribute.
+But using a connected noun is also permissible if one wishes to emphasize that the specificity of the noun.
+When there is no connected noun, the prepositional or adverbial phrase is not analyzed as a connecting sentence, but is considered attached to an implied verb that has the idea of "being", like "is", "are", etc.
+When there is a connected noun, then it is analyzed as a connecting sentence, as usual.
 For example:
 
 [سِرْتُ فِي ٱلْحَدِيقَةِ عِنْدَ ٱلْمَسْجِدِ.]{.ar}  

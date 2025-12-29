@@ -19,7 +19,7 @@ Here are some of notes about writing hamzah in the above four methods:
 
 + When unseated hamzah is followed by an [alif]{.trn2}: [ءا]{.aralt},  the combination of hamzah and [alif]{.trn2} is usually written as [آ]{.aralt} as a convention. Examples: [آمَنَ]{.aralt} [EAmana]{.trn}, [ظَمْآن]{.aralt} [PamEAn]{.trn}, [شَنَآن]{.aralt} [canaEAn]{.trn}. However, when the [alif]{.trn2} is a suffix or part of a suffix, or the hamzah is doubled, or there is an [alif]{.trn2} before the hamzah then we will write [ءا]{.aralt}, not [آ]{.aralt}. Examples: [شَيْءَانِ]{.aralt} [cayEAni]{.trn}, [سَءَّال]{.aralt} [saEEAl]{.trn}, [قِرَاءَات]{.aralt} [qirAEAt]{.trn}. 
 
-+ When hamzah is seated on [alif]{.trn2}, if it has an [imark]{.subs}, it is written below the [alif]{.trn2}: [إِ]{.aralt}. Otherwise, it is written above the [alif]{.trn2}: [أَ]{.aralt}, [أُ]{.aralt}, [أْ]{.aralt}.
++ When hamzah is seated on [alif]{.trn2}, if it has an [kasrah]{.trn2}, it is written below the [alif]{.trn2}: [إِ]{.aralt}. Otherwise, it is written above the [alif]{.trn2}: [أَ]{.aralt}, [أُ]{.aralt}, [أْ]{.aralt}.
 
 + When hamzah is seated on [yAE]{.trn2} [ئ]{.aralt} the dots of the [yAE]{.trn2} are no longer written. Here's how it will appear in different positions:
 
@@ -57,7 +57,7 @@ b. If the hamzah carries any other vowel, it is written seated on an [alif]{.trn
 
 <!--The most general case is when hamzah is in the middle of a word. -->
 
-Arabic has three short vowels, three long vowels, two semi-vowels, and a zero-vowel indicated by a [0mark]{.subs} [◌ْ]{.aralt}. Each of these has an order of precedence and a hamzah seat, that we have shown in the table below:
+Arabic has three short vowels, three long vowels, two semi-vowels, and a zero-vowel indicated by a [sukUn]{.trn2} [◌ْ]{.aralt}. Each of these has an order of precedence and a hamzah seat, that we have shown in the table below:
 
 Precedence | Vowel | Seated hamzah
 :--|:------|:-----
@@ -69,7 +69,7 @@ Precedence | Vowel | Seated hamzah
 6. | [a]{.trn}            | [أ]{.aralt}
 7. | [◌ْ]{.aralt}         | [ء]{.aralt}
 
-**Main rule:** Disregard any [shaddah]{.subs} [◌ّ]{.aralt}. Consider the vowel on the consonant before the hamzah and the vowel on the hamzah itself. Determine which of the two vowels wins by being higher in precedence in the above table. The winning vowel's seat will be the seat of the hamzah.
+**Main rule:** Disregard any [caddah]{.trn2} [◌ّ]{.aralt}. Consider the vowel on the consonant before the hamzah and the vowel on the hamzah itself. Determine which of the two vowels wins by being higher in precedence in the above table. The winning vowel's seat will be the seat of the hamzah.
 
 **Exception:** If the vowel [A]{.trn} wins, but it is written not as an [alif]{.trn2} but as a [ىٰ]{.aralt}, then the hamzah will be seated on an [alif]{.trn2}.
 
@@ -145,10 +145,10 @@ Plug it into the precedence table as above to determine the seat of hamzah.
 |\vphantom{\huge J} [يَهْدَأُ]{.aralt} [yahdaEu]{.trn}    | [a]{.trn}  | [أ]{.aralt} |
 |\vphantom{\huge J} [مُبْتَدَإِ]{.aralt} [mubtadaEi]{.trn} | [a]{.trn}  | [إ]{.aralt} |
 
-The exception to this rule is when the previous letter is a doubled [wAw]{.trn2} with an [umark]{.subs}.
+The exception to this rule is when the previous letter is a doubled [wAw]{.trn2} with an [Dammah]{.trn2}.
 In this case the hamzah will again be unseated. Example [تَبَوُّءُ]{.aralt} [tabawwuEu]{.trn}.
 
-Note also that [مُبْتَدَإِ]{.aralt} [mubtadaEi]{.trn} can be written with the hamzah below the [alif]{.trn2} because of the [imark]{.subs} on the hamzah.
+Note also that [مُبْتَدَإِ]{.aralt} [mubtadaEi]{.trn} can be written with the hamzah below the [alif]{.trn2} because of the [kasrah]{.trn2} on the hamzah.
 But it is also common to write it as [مُبْتَدَأ]{.aralt} [mubtadaE]{.trn}, especially when the hamzah is unvoweled.
 
 ### With prefixes and suffixes
@@ -214,7 +214,7 @@ Examples:
 
 There are some exceptions:
 
-+ If the letter before the hamzah has a [0mark]{.subs} and is not [wAw]{.trn2} or [yAE]{.trn2},
++ If the letter before the hamzah has a [sukUn]{.trn2} and is not [wAw]{.trn2} or [yAE]{.trn2},
 then the hamzah will be written unseated. Examples:
 
   + \vphantom{\huge J}  [جُزْءَانِ]{.aralt} [juzEAni]{.trn}  
@@ -225,7 +225,7 @@ then the hamzah will be written unseated. Examples:
   + \vphantom{\huge J}  [بُطْءِهِ]{.aralt} [buTEihi]{.trn}
 
 <!--
-+ If the hamzah is after a long-[U]{.trn} vowel or an [aw]{.trn} semi-vowel, and the hamzah does not have an [imark]{.subs}, then it is written unseated. Example:
++ If the hamzah is after a long-[U]{.trn} vowel or an [aw]{.trn} semi-vowel, and the hamzah does not have an [kasrah]{.trn2}, then it is written unseated. Example:
 
   + \vphantom{\huge J} [يَسُوءُونَ]{.aralt} [yasUEUna]{.trn}
 
@@ -235,13 +235,13 @@ then the hamzah will be written unseated. Examples:
 ([انِ]{.aralt}, [يْنِ]{.aralt}, [هُ]{.aralt}, and [هِ]{.aralt} are suffixes.)
 Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [alif]{.trn2} is part of the suffix.
 
-### [#tanwin]{.subs} on final hamzah
+### [tanwIn]{.trn2} on final hamzah
 
-[#tanwin]{.subs} on final hamzah does not affect the writing of the hamzah except in the case of a [tanwin]{.subs}ed [amark]{.subs} [◌ً]{.ar}. When writing a [tanwin]{.subs}ed [amark]{.subs} [◌ً]{.ar} on a hamzah at the end of a word:
+[tanwIn]{.trn2} on final hamzah does not affect the writing of the hamzah except in the case of a [tanwIn]{.trn2}ed [fatHah]{.trn2} [◌ً]{.ar}. When writing a [tanwIn]{.trn2}ed [fatHah]{.trn2} [◌ً]{.ar} on a hamzah at the end of a word:
 
-1. If there is an [alif]{.trn2} before a unseated hamzah [اء]{.aralt}, then we don't add a silent [alif]{.trn2} when writing the [tanwin]{.subs}ed [amark]{.subs} [◌ً]{.ar}. For example [دَاء]{.aralt} becomes [دَاءً]{.aralt} [dAEan]{.trn}, not [دَاءًا]{.aralt}.
+1. If there is an [alif]{.trn2} before a unseated hamzah [اء]{.aralt}, then we don't add a silent [alif]{.trn2} when writing the [tanwIn]{.trn2}ed [fatHah]{.trn2} [◌ً]{.ar}. For example [دَاء]{.aralt} becomes [دَاءً]{.aralt} [dAEan]{.trn}, not [دَاءًا]{.aralt}.
 
-2. Otherwise, we add the silent [alif]{.trn2} after the hamzah so that the hamzah is now in the middle of the word with a suffix [alif]{.trn2} after it. We now pretend that the hamzah has an [amark]{.subs} and that the [alif]{.trn2} after it is a long-[A]{.trn} vowel. Then we go through the rules for writing hamzah in the middle of a word (given above) to determine how hamzah will be written. We then write the [tanwin]{.subs}ed [amark]{.subs} [◌ً]{.ar} on the hamzah. Examples:
+2. Otherwise, we add the silent [alif]{.trn2} after the hamzah so that the hamzah is now in the middle of the word with a suffix [alif]{.trn2} after it. We now pretend that the hamzah has an [fatHah]{.trn2} and that the [alif]{.trn2} after it is a long-[A]{.trn} vowel. Then we go through the rules for writing hamzah in the middle of a word (given above) to determine how hamzah will be written. We then write the [tanwIn]{.trn2}ed [fatHah]{.trn2} [◌ً]{.ar} on the hamzah. Examples:
 
 + \vphantom{\huge J} [مُبْتَدَأ]{.aralt} becomes [مُبْتَدَأٌ، مُبْتَدَءًا، مُبْتَدَإٍ]{.aralt} 
 + \vphantom{\huge J} [مَلْجَأ]{.aralt} becomes [مَلْجَأٌ، مَلْجَءًا، مَلْجَإٍ]{.aralt}
@@ -251,7 +251,7 @@ Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [alif
 
 ### Variants {#hamza-variants}
 
-There are some historical and regional variants to the above rules. The main one is when the letter before hamzah has a [0mark]{.subs}, the hamzah is generally written unseated. So with this variant, we write:
+There are some historical and regional variants to the above rules. The main one is when the letter before hamzah has a [sukUn]{.trn2}, the hamzah is generally written unseated. So with this variant, we write:
 
 + \vphantom{\huge J} [مَسْءَلَة]{.aralt} instead of [مَسْأَلَة]{.aralt}
 
@@ -264,7 +264,7 @@ A second variant is to avoid the repetition of vowel letters like [و]{.aralt} a
 + \vphantom{\huge J} [رَءِيس]{.aralt} instead of [رَئِيس]{.aralt}.
 -->
 
-Another variant is that when word final hamzah has an [imark]{.subs} and is followed by a suffix starting with [U]{.trn}, then the hamzah is written unseated instead of as [ئ]{.ar}. Examples:
+Another variant is that when word final hamzah has an [kasrah]{.trn2} and is followed by a suffix starting with [U]{.trn}, then the hamzah is written unseated instead of as [ئ]{.ar}. Examples:
 
 + \vphantom{\huge J} [مُتَّكِءُون]{.aralt} [muttakiEUn]{.trn}      instead of [مُتَّكِئُون]{.aralt} 
 + \vphantom{\huge J} [يُطْفِءُوا]{.aralt} [yuTfiEU]{.trn}      instead of [يُطْفِئُوا]{.aralt} 
