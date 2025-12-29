@@ -1,6 +1,12 @@
 
 map_table = {}
 
+map_table["wip_warn"] = """
+::: {.callout-warning}
+**THIS BOOK IS A WORK IN PROGRESS. IT IS INCOMPLETE AND MAY HAVE TYPOGRAPHICAL AND OTHER ERRORS. IT IS NOT YET READY FOR STUDY.**
+:::
+"""
+
 # symbols
 map_table["x"] = "✗"
 map_table["v"] = "✓"
