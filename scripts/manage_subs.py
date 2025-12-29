@@ -14,8 +14,11 @@ map_table["rarr"] = "→"
 map_table["larr"] = "←"
 
 # text terms
+map_table["Allah"] = "Allāh"
 map_table["ia"] = "if Allāh wills"
 map_table["quran"] = "Qurʾān"
+map_table["hadith"] = "[HadIv]{.trn2}"
+map_table["islam"] = "[#islAm]{.trn2}"
 map_table["ayah"] = "[Ayah]{.trn2}"
 map_table["surah"] = "[sUrah]{.trn2}"
 map_table["tafsir"] = "[tafsIr]{.trn2}"
