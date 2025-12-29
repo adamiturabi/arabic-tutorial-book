@@ -940,5 +940,20 @@ def populate_resource_list():
     , bib_text = 'Lane, E.\\ W., _An Arabic-English Lexicon_, <https://ejtaal.net/aa>'
     , sort_key = 'lanes lexicon'
     ))
+  resource_list.append(BibResource(
+    "zarabozo_approach"
+    , cit_type = "ws_ref"
+    , cit_text = "Zarabozo, _How to approach and understand the Quran_"
+    , bib_text = "Zarabozo, J. M., _How to approach and understand the Quran_, Al-Basheer Company, 1999."
+    , sort_key = 'zarabozo how to approach'
+    ))
+  resource_list.append(BibResource(
+    "ibn_kathir_english"
+    , cit_type = "ws_ref"
+    , cit_text = "_Tafsir ibn Kathir_ (abridged, English translation)"
+    , bib_text = "Al-Mubarakpuri, _Tafsir ibn Kathir_ (abridged, English translation), Darrussalam, 2nd edition, 2003"
+    , sort_key = 'tafsir ibn kathir english'
+    ))
+
   return resource_list
 
