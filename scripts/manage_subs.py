@@ -15,6 +15,8 @@ map_table["larr"] = "←"
 
 # text terms
 map_table["Allah"] = "Allāh"
+map_table["arch"] = "archetypical"
+map_table["archly"] = "archetypically"
 map_table["ia"] = "if Allāh wills"
 map_table["quran"] = "Qurʾān"
 map_table["hadith"] = "[HadIv]{.trn2}"
@@ -22,6 +24,14 @@ map_table["islam"] = "[#islAm]{.trn2}"
 map_table["ayah"] = "[Ayah]{.trn2}"
 map_table["surah"] = "[sUrah]{.trn2}"
 map_table["tafsir"] = "[tafsIr]{.trn2}"
+
+# inna and its sisters
+map_table["inna"] = "[إِنَّ]{.ar}"
+map_table["anna"] = "[أَنَّ]{.ar}"
+map_table["ka_anna"] = "[كَأَنَّ]{.ar}"
+map_table["lakinna"] = "[لَـٰكِنَّ]{.ar}"
+map_table["layta"]   = "[لَيْتَ]{.ar}"
+map_table["la3alla"] = "[لَعَلَّ]{.ar}"
 
 # 3aaqil
 map_table["3aaqil"]   = "intelligent being"   # raised-state"
