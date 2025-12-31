@@ -12,7 +12,7 @@ May the peace and blessings of [#allAh]{.trn2} be upon the Prophet [#muHammad]{.
 The language of the ;quran; is the Arabic language, as it was understood by the Arabs at that time.
 The sayings and actions of the Prophet, may [#allAh]{.trn2} grant peace and confer blessing upon him, were recorded by his companions also in this Arabic language.
 Also, composed in this Arabic language, was a vast body of poetry that the Arabs would consider eloquent and worth transmitting.
-We will call the Arabic of this pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic era as Classical Arabic.^[Some researchers term the Arabic of this era as pre-classical Arabic. They use the Classical Arabic to refer to the later use of what we call [sca]{.smallcaps}. Our choice is based on the contention that [sca]{.smallcaps} is but a variety of Classical Arabic (even if it was standardized later), and not a later development.]
+We will call the Arabic of this pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic era as Classical Arabic.^[Some researchers term the Arabic of this era as pre-classical Arabic. They use the term Classical Arabic to refer to the later use of what we call [sca]{.smallcaps}. Our choice is based on the contention that [sca]{.smallcaps} is but a variety of Classical Arabic (even if it was standardized later), and not a later development.]
 The Classical Arabic language consisted of multiple dialects that were spoken by the different tribes and in the different regions of the Arabian peninsula.
 
 All languages change naturally over time.
@@ -126,8 +126,8 @@ The figure below depicts the historical development of the different varieties o
 \draw [axes] (-1.5,-1) -- node [above, rotate=90, xshift=3.5cm] {\footnotesize language/variety} (-1.5,6);
 %\draw [->,postaction={decorate,decoration={text along path,text align=right,text={|\scriptsize|time}}}] (-3,-0.5) to (13,-0.5);
 
-\node (hijrah) [below of=class, yshift=0.25cm] {\scriptsize the Hijrah};
-\node (hijrah) [below of=vern, yshift=0.25cm,xshift=-1.75cm] {\scriptsize 1400\textsc{ah}};
+\node (hijrah) [below of=class, yshift=0.2cm] {\footnotesize the Hijrah};
+\node (hijrah) [below of=vern, yshift=0.2cm,xshift=-1.75cm] {\footnotesize 1400\textsc{ah}};
 
 \end{tikzpicture}
 ```
