@@ -12,7 +12,7 @@ May the peace and blessings of [#allAh]{.trn2} be upon the Prophet [#muHammad]{.
 The language of the ;quran; is the Arabic language, as it was understood by the Arabs at that time.
 The sayings and actions of the Prophet, may [#allAh]{.trn2} grant peace and confer blessing upon him, were recorded by his companions also in this Arabic language.
 Also, composed in this Arabic language, was a vast body of poetry that the Arabs would consider eloquent and worth transmitting.
-We will call the Arabic of this pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic era as Classical Arabic.
+We will call the Arabic of this pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic era as Classical Arabic.^[Some researchers term the Arabic of this era as pre-classical Arabic. They use the Classical Arabic to refer to the later use of what we call [sca]{.smallcaps}.{.smallcaps}.]
 The Classical Arabic language consisted of multiple dialects that were spoken by the different tribes and in the different regions of the Arabian peninsula.
 
 All languages change naturally over time.
@@ -38,7 +38,7 @@ A few words were also borrowed from foreign languages and Arabicized, as needed 
 Even Classical Arabic itself had a few Arabicized foreign borrowings from neighboring languages.
 
 
-While [sca]{.smallcaps} was thus preserved and used for literary purposes, the vernacular language that was spoken by Arabs in their day-to-day lives continued to evolve over time and in the different regions where Arabic was spoken.
+While [sca]{.smallcaps} was thus preserved and used for literary purposes, the vernacular language that was spoken by Arabs in their day-to-day lives continued to evolve naturally over time and in the different regions where Arabic was spoken.
 And so, there began to exist two very distinct types of Arabic: the preserved [sca]{.smallcaps}
 which is taught by formal education and which is primarily a written language,
 and the vernacular Arabic dialects which Arabs learn as their mother tongue and which are primarily only spoken and not written.
@@ -76,77 +76,58 @@ While Standard Arabic was thus preserved from major change and was used for lite
 And so today, there exist two very distinct types of Arabic: the preserved Standard Arabic which is taught at schools and is primarily a written language, and the modern colloquial Arabic dialects which Arabs learn as their mother tongue and which are primarily only spoken and not written.
 -->
 
-The figure below depicts the historical development of [sca]{.smallcaps}
+The figure below depicts the historical development of the different varieties of Arabic.
 
 ```{.tikzarabic}
-\usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 
-%\tikzset{>=latex} % for LaTeX arrow head
+\usetikzlibrary{arrows.meta, decorations.text}
+\tikzstyle{arrow} = [thick,->,>=stealth]
+%\tikzstyle{doublearr} = [line width=1pt, double distance=5pt, arrows = {-Classical TikZ Rightarrow[length=0pt 3 0]}]
+\tikzstyle{doublearr} = [line width=0.5pt, double distance=7pt, arrows = {-Implies}]
+%\tikzstyle{dottedcurved} = [line width=0.5pt, double distance=7pt, arrows = {-Implies}]
+\tikzstyle{dashedarrow} = [dashed,->,>=stealth]
+\tikzstyle{axes} = [->,>=stealth]
 
-% TIMELINE - simple test
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=2.0ex}]
+\node (old) at (0,0) {Old Arabic};
+\node (class) [right of=old, xshift=2cm] {Classical Arabic};
+\node (vern) [right of=class, xshift=7cm] {Modern Vernactular Arabic};
+\draw [arrow] (old) -- (class);
+\draw [doublearr] (class) -- node [midway,yshift=1.5pt] {\footnotesize dialects} (vern);
 
-  % limits
-  \newcount\yearOne; \yearOne=-200
-  \def\w{15}    % width of axes
-  \def\n{8}     % number of markers
-  \def\interv{200}     % number of years between markers
-  \def\lt{0.20} %  marker tick length
-  %\def\lf{0.36} % five tick length
-  %\def\lo{0.30} %  one tick length
+\node (sca) [above of=class, xshift=1cm, yshift=1cm] {};
+\node (msa) [right of=sca, xshift=4.2cm] {MSA};
+\draw [arrow] (sca) -- (msa);
+%\draw[-stealth] (class) to[bend left] (sca);
+\draw [->,thick,postaction={decorate,decoration={text along path,text align=center,text={|\scriptsize|SCA emerges}}}] (class) to [bend left=45] (sca);
 
-  % help functions
-  \def\yearLabel(#1,#2){\node[above] at ({((#1-\yearOne)/\n/\interv)*\w},\lt) {#2};}
-  \def\yearLabelBelow(#1,#2){\node[below] at ({((#1-\yearOne)/\n/\interv)*\w},-\lt) {#2};}
-  \def\yearLabelLine(#1,#2){\node[] at ({((#1-\yearOne)/\n/\interv)*\w},0) {#2};}
-  \def\yearArrowLabel(#1,#2,#3,#4){
-    \def\xy{{(#1-\yearOne)*\w/\n/\interv}}; \pgfmathparse{int(#2*100)};
-    \ifnum \pgfmathresult<0
-      \def\yyp{{(\lt*(0.90+#2))}}; \def\yyw{{(\yyp-\lt*#3)}}
-      \draw[<-,thick,black,align=center] (\xy,\yyp) -- (\xy,\yyw) node[below,black] at (\xy,\yyw) {#4};
-    \else
-      \def\yyp{{(\lt*(0.10+#2)}}; \def\yyw{{(\yyp+\lt*#3)}}
-      \draw[<-,thick,black,align=center] (\xy,\yyp) -- (\xy,\yyw) node[above,black] at (\xy,\yyw) {#4};
-    \fi}
+\draw [dashedarrow] ([xshift=-1cm]msa.south west) -- (vern.north west);
+\draw [dashedarrow] ([xshift=-1cm]vern.north west) -- (msa.south west);
+\node (msavern) [below of=msa, xshift=-0.1cm, yshift=0.07cm] {\scriptsize cross-influence};
 
-  % axis
-  %\draw[thick] (0,0) -- (\w,0);
-  \draw[->,thick] (-\w*0.03,0) -- (\w*1.03,0);
+\node (native) [left of=old, xshift=-1cm, align=right] {\footnotesize native\\\footnotesize Arabic};
+%\node (nonnative) [above of=native,align=right] {\footnotesize non-native\\\footnotesize SCA};
+\node (nonnative) at (sca -| native) [xshift=-0.3cm,align=right] {\footnotesize non-native\\\footnotesize SCA};
 
-  % ticks
-  \foreach \tick in {0,1,...,\n}{
-    \def\x{{\tick*\w/\n}}
-    \def\year{\the\numexpr \yearOne+\tick*\interv \relax}
-	  \ifnum \year>0
-      \draw[thick] (\x,\lt) -- (\x,-\lt) % marker tick
-	             node[below] {\year};
-    \else
-	    \ifnum \year=0
-        \draw[thick] (\x,\lt) -- (\x,-\lt) % marker tick
-	             node[below] {};
-      \fi
-    \fi
+\node (classborrow) [above of=old,yshift=3cm,align=center] {\scriptsize Arabicized loanwords from\\\scriptsize Persian, Aramaic, etc.};
+\draw [dashedarrow] (classborrow) -- (class.north west);
 
-	%\ifnum \tick<\n
-	%  \draw[thick] ({(\x+\w/\n/2)},0) -- ({(\x+\w/\n/2)},\lf); % five tick
-  %    \foreach \ticko in {1,2,3,4,6,7,8,9}{
-  %      \def\xo{{(\x+\ticko*\w/\n/10)}}
-  %	    \draw[thick] (\xo,0) -- (\xo,\lo);  % one tick
-	%}\fi
-  }
+\node (scaborrow) [right of=classborrow,xshift=3cm,align=center] {\scriptsize Arabicized loanwords from\\\scriptsize Persian, Greek, etc.};
+\draw [dashedarrow] (scaborrow) -- ([xshift=1cm]sca.north west);
 
-  %\node[above] at ({14},\lt) {Modern Standard Arabic};
+\node (msaborrow) [right of=classborrow,xshift=7cm,align=center] {\scriptsize translated vocabulary, style and grammar\\\scriptsize from English, French, etc.};
+\draw [dashedarrow] (msaborrow) -- (msa.north west);
 
-  % label
-  \yearLabel(200,SCA)
-  \yearLabel(1330,MSA)
-  \yearLabel(0,Classical\,Arabic)
-  \yearLabelBelow(0,the Hijrah)
-  \yearLabelBelow(1470,\textsc{ah})
-  %\yearArrowLabel(175, 1.0,3.0,Emergence of Standard Arabic)
-  %\yearArrowLabel(1, 0.0,1.5,Quran revealed)
-  %\yearArrowLabel(1,-1.0,2.0,Quran revealed)
-  %\yearArrowLabel(1924.2,-1.2,1.2,$p\lambda=h$)
+\node (foreign) at (classborrow -| native) [xshift=-0.3cm,align=right] {\footnotesize foreign\\\footnotesize languages};
+
+%\node (lang) [above of=foreign,yshift=1cm,xshift=1cm,align=right,rotate=90] {\scriptsize language/variety};
+
+\draw [axes] (-3,-0.5) -- node [below,xshift=7cm] {\footnotesize time axis} (13,-0.5);
+\draw [axes] (-1.5,-1) -- node [above, rotate=90, xshift=3.5cm] {\footnotesize language/variety} (-1.5,6);
+%\draw [->,postaction={decorate,decoration={text along path,text align=right,text={|\scriptsize|time}}}] (-3,-0.5) to (13,-0.5);
+
+\node (hijrah) [below of=class, yshift=0.25cm] {\scriptsize the Hijrah};
+\node (hijrah) [below of=vern, yshift=0.25cm,xshift=-1.75cm] {\scriptsize 1400\textsc{ah}};
 
 \end{tikzpicture}
 ```
@@ -465,6 +446,16 @@ And try to start this early on, even before you have completed your grammar cour
 In the beginning, trying to read a real book will seem difficult, especially when you haven't yet learned the complete Arabic grammar. 
 But, keep at it, at intervals. If [#allAh]{.trn2} wills, it will become easier, and there will be a tipping point when you are able to understand many of the words and the gist of a sentence.
 -->
+
+## Intention for learning Arabic
+
+Before and during learning Arabic,
+my advice to myself and to the reader,
+is to make the correct intention for learning Arabic.
+Our purpose in this life is to be believing and thankful slaves of ;Allah;.
+Learning Arabic can be a means,
+by which we can gain knowledge which can guide us, ;ia;,
+to achieve that purpose.
 
 ## Interpreting the ;quran;
 
