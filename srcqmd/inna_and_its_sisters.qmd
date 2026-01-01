@@ -211,6 +211,53 @@ the ;anna; clause as the ;faa3il; in
 example (@yu3jibuni_anna_zaydan_qaaimun) [يُعْجِبُنِي أَنَّ زَيْدًا قَائِمٌ]{.ar}.
 Here is another example:
 
+(@) [بلغني أن زيدًا منطَلِقٌ]{.ar}
+    [[@qawa3id_shaykh_zadeh@ 1/176](https://shamela.ws/book/19236/185#p1)]{.citex}  
+    [[The news] that Zayd is setting out has reached me.]{.trans}
+
+If we replace the ;anna; clause with its interpreted ;masdar; we get:
+
+(@) [بلغني انطلاق زيدٍ]{.ar}
+    [[@qawa3id_shaykh_zadeh@ 1/176](https://shamela.ws/book/19236/185#p1)]{.citex}  
+    [Zayd's setting out has reached me.]{.trans}
+
+#### The ;anna; clause as a ;naib; ;faa3il; {.unnumbered}
+
+(@) [عرف أن السارق جريء]{.ar}
+    [[nawh_waadiH 1/264](https://shamela.ws/book/10018/256)]{.citex}  
+    [That the thief is bold was known.]{.trans}  
+
+If we replace the ;anna; clause with its interpreted ;masdar; we get:
+
+(@) [عرف جراءة السارق]{.ar}
+    [[nawh_waadiH 1/264](https://shamela.ws/book/10018/256)]{.citex}  
+    [The thief's boldness was known.]{.trans}  
+
+
+#### The ;anna; clause as a ;mafulb; {.unnumbered}
+
+The ;anna; clause can occur in the position of a ;mafulb;.
+Here is an example:
+
+(@) [عَلِمْتُ أنّكَ فَاضِلٌ]{.ar}  
+    [I knew that you are excellent.]{.trans}  
+    
+If we replace the ;anna; clause with its interpreted ;masdar; we get:
+
+(@) [عَلِمْتُ فَضْلَكَ]{.ar}  
+    [I knew your excellence.]{.trans}  
+
+<!--
+(@) [سمعت أن عَمْرًا عالمٌ]{.ar}
+    [[@qawa3id_shaykh_zadeh@ 1/177](https://shamela.ws/book/19236/186#p1)]{.citex}  
+    [I heard that [#eamr]{.trn2} is knowledgeable.]{.trans}  
+
+If we replace the ;anna; clause with its interpreted ;masdar; we get:
+
+(@) [سمعت عِلْمَ عمرو]{.ar}
+    [[@qawa3id_shaykh_zadeh@ 1/177](https://shamela.ws/book/19236/186#p1)]{.citex}  
+    [I heard the knowledge of [#eamr]{.trn2}]{.trans}
+
 <https://shamela.ws/book/19236/186#p1>:
 
 ::: {.ar}
@@ -222,6 +269,29 @@ Here is another example:
 Besides these more common elements,
 an ;anna; clause may constitute other elements as well,
 like a ;mubtada; and a ;xabar; 
+-->
+
+#### The ;anna; clause in the ;istate;  {.unnumbered}
+
+The ;anna; clause can occur after a preposition.
+For example:
+
+(@) [عَجِبْتُ من أنّ بكرًا واقفٌ]{.ar}
+    [[@qawa3id_shaykh_zadeh@ 1/177](https://shamela.ws/book/19236/186#p1)]{.citex}  
+    [I wondered at that Zayd is stopped standing.]{.trans}  
+
+If we replace the ;anna; clause with its interpreted ;masdar; we get:
+
+(@) [عجبت من وقوف بكرٍ]{.ar}
+    [[@qawa3id_shaykh_zadeh@ 1/177](https://shamela.ws/book/19236/186#p1)]{.citex}  
+    [I wondered at Zayd's being stopped standing.]{.trans}  
+
+The ;anna; clause can even occur as a ;mudafil;.
+For example:
+
+(@) [قَالَ أَيْنَ تُرِيدُ قَالَ أُرِيدُ أَخًا لِي فِي هَذِهِ الْقَرْيَةِ  قَالَ هَلْ لَكَ عَلَيْهِ مِنْ نِعْمَةٍ تَرُبُّهَا قَالَ لاَ **غَيْرَ أَنِّي** أَحْبَبْتُهُ فِي اللَّهِ عَزَّ وَجَلَّ]{.ar}  
+    [https://sunnah.com/muslim:2567a@]{.citex}  
+    [[He said, "Where are you intending [to go]?" He said, "I intend [to go to] a brother of mine in this town." He said, "Do you have upon him a favor that [you are seeking repayment for]?" He said, "No, *except that* I have loved him [for the sake of] ;Allah; the Exalted and Glorious."]{.trans}  
 
 #### The ;anna; clause as a ;mubtada; {.unnumbered}
 
@@ -281,10 +351,23 @@ As the ;ism_of; of ;inna;, the ;anna; clause must be separated from ;inna;:
     [Your state-of-affairs is that you are going.]{.trans}  
     (The interpreted ;masdar; [ذَهَابُكَ]{.ar} is the ;xabar;.)
 
-### xabar of anna is a ;substantive;
+### The interpreted ;masdar; when the ;xabar; of ;anna; is a ;substantive; or prepositional/adverbial phrase
+
+Consider the following sentences:
+
+anna zaydun asadun
+
+3indaka
+
+fi al-dari
 
 When xabar of anna is jaamid then kawn is implied:
+
 <https://shamela.ws/book/174/492#p1>
+
+<https://shamela.ws/book/36130/688>
+
+<https://shamela.ws/book/36130/419>
 
 ### Optionally drop prep before ;anna;
 
@@ -322,9 +405,11 @@ assertive, from @nahw_arabi@
 وقدره بعضهم بـ"أن" الناصبة للفعل؛ لأن صلتها تكون بالماضي، نحو: عجبت من أن قام زيد، وبالمضارع فتخلصه للاستقبال، نحو: عجبت من أن يقوم زيد. وبـ"ما"؛ لأنها تصلح للحال، وتوصل به، نحو: عجبت مما تضرب زيداً.
 :::
 
+<https://al-maktaba.org/book/31874/4114>
+
 ## FINI
 
-### Differene between interpreted ;masdar; and actual ;masdar;
+### Difference between interpreted ;masdar; and actual ;masdar;
 
 Move to chapter on subjunctive verb:
 
