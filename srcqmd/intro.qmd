@@ -98,8 +98,7 @@ The figure below depicts the historical development of the different varieties o
 \node (sca) [above of=class, xshift=1cm, yshift=1cm] {};
 \node (msa) [right of=sca, xshift=4.2cm] {MSA};
 \draw [arrow] (sca) -- (msa);
-%\draw[-stealth] (class) to[bend left] (sca);
-\draw [->,thick,postaction={decorate,decoration={text along path,text align=center,text={|\scriptsize|SCA emerges}}}] (class) to [bend left=45] (sca);
+\draw [->,thick,postaction={decorate,decoration={text along path,text align=center,text={SCA}}}] (class) to [bend left=45] (sca);
 
 \draw [dashedarrow] ([xshift=-1cm]msa.south west) -- (vern.north west);
 \draw [dashedarrow] ([xshift=-1cm]vern.north west) -- (msa.south west);
@@ -144,6 +143,12 @@ So the grammarians would seek out and record
 samples of speech and texts from only authoritative sources.
 And they had criteria for determining what constituted an authority in the language.
 One such criterion was that the text sample be native Classical Arabic speech.
+What we mean by 
+"native Classical Arabic"
+is a small child's growing up hearing
+(native) Classical Arabic
+from the people around him and learning to speak it
+naturally, without perceptible change.
 
 By the time [sca]{.smallcaps} emerged as a standard,
 Classical Arabic itself had more or less ceased to be a native language.
