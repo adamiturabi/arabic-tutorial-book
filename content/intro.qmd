@@ -18,7 +18,7 @@ May the peace and blessings of [#allAh]{.trn2} be upon the Prophet [#muHammad]{.
 The language of the Qurʾān is the Arabic language, as it was understood by the Arabs at that time.
 The sayings and actions of the Prophet, may [#allAh]{.trn2} grant peace and confer blessing upon him, were recorded by his companions also in this Arabic language.
 Also, composed in this Arabic language, was a vast body of poetry that the Arabs would consider eloquent and worth transmitting.
-We will call the Arabic of this pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic era as Classical Arabic.
+We will call the Arabic of this pre-[#islAm]{.trn2}ic and early [#islAm]{.trn2}ic era as Classical Arabic.^[Some researchers term the Arabic of this era as pre-classical Arabic. They use the term Classical Arabic to refer to the later use of what we call [sca]{.smallcaps}. Our choice is based on the contention that [sca]{.smallcaps} is but a variety of Classical Arabic (even if it was standardized later), and not a later development.]
 The Classical Arabic language consisted of multiple dialects that were spoken by the different tribes and in the different regions of the Arabian peninsula.
 
 All languages change naturally over time.
@@ -44,7 +44,7 @@ A few words were also borrowed from foreign languages and Arabicized, as needed 
 Even Classical Arabic itself had a few Arabicized foreign borrowings from neighboring languages.
 
 
-While [sca]{.smallcaps} was thus preserved and used for literary purposes, the vernacular language that was spoken by Arabs in their day-to-day lives continued to evolve over time and in the different regions where Arabic was spoken.
+While [sca]{.smallcaps} was thus preserved and used for literary purposes, the vernacular language that was spoken by Arabs in their day-to-day lives continued to evolve naturally over time and in the different regions where Arabic was spoken.
 And so, there began to exist two very distinct types of Arabic: the preserved [sca]{.smallcaps}
 which is taught by formal education and which is primarily a written language,
 and the vernacular Arabic dialects which Arabs learn as their mother tongue and which are primarily only spoken and not written.
@@ -82,77 +82,57 @@ While Standard Arabic was thus preserved from major change and was used for lite
 And so today, there exist two very distinct types of Arabic: the preserved Standard Arabic which is taught at schools and is primarily a written language, and the modern colloquial Arabic dialects which Arabs learn as their mother tongue and which are primarily only spoken and not written.
 -->
 
-The figure below depicts the historical development of [sca]{.smallcaps}
+The figure below depicts the historical development of the different varieties of Arabic.
 
 ```{.tikzarabic}
-\usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 
-%\tikzset{>=latex} % for LaTeX arrow head
+\usetikzlibrary{arrows.meta, decorations.text}
+\tikzstyle{arrow} = [thick,->,>=stealth]
+%\tikzstyle{doublearr} = [line width=1pt, double distance=5pt, arrows = {-Classical TikZ Rightarrow[length=0pt 3 0]}]
+\tikzstyle{doublearr} = [line width=0.5pt, double distance=7pt, arrows = {-Implies}]
+%\tikzstyle{dottedcurved} = [line width=0.5pt, double distance=7pt, arrows = {-Implies}]
+\tikzstyle{dashedarrow} = [dashed,->,>=stealth]
+\tikzstyle{axes} = [->,>=stealth]
 
-% TIMELINE - simple test
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=2.0ex}]
+\node (old) at (0,0) {Old Arabic};
+\node (class) [right of=old, xshift=2cm] {Classical Arabic};
+\node (vern) [right of=class, xshift=7cm] {Modern Vernactular Arabic};
+\draw [arrow] (old) -- (class);
+\draw [doublearr] (class) -- node [midway,yshift=1.5pt] {\footnotesize dialects} (vern);
 
-  % limits
-  \newcount\yearOne; \yearOne=-200
-  \def\w{15}    % width of axes
-  \def\n{8}     % number of markers
-  \def\interv{200}     % number of years between markers
-  \def\lt{0.20} %  marker tick length
-  %\def\lf{0.36} % five tick length
-  %\def\lo{0.30} %  one tick length
+\node (sca) [above of=class, xshift=1cm, yshift=1cm] {};
+\node (msa) [right of=sca, xshift=4.2cm] {MSA};
+\draw [arrow] (sca) -- (msa);
+\draw [->,thick,postaction={decorate,decoration={text along path,text align=center,text={SCA}}}] (class) to [bend left=45] (sca);
 
-  % help functions
-  \def\yearLabel(#1,#2){\node[above] at ({((#1-\yearOne)/\n/\interv)*\w},\lt) {#2};}
-  \def\yearLabelBelow(#1,#2){\node[below] at ({((#1-\yearOne)/\n/\interv)*\w},-\lt) {#2};}
-  \def\yearLabelLine(#1,#2){\node[] at ({((#1-\yearOne)/\n/\interv)*\w},0) {#2};}
-  \def\yearArrowLabel(#1,#2,#3,#4){
-    \def\xy{{(#1-\yearOne)*\w/\n/\interv}}; \pgfmathparse{int(#2*100)};
-    \ifnum \pgfmathresult<0
-      \def\yyp{{(\lt*(0.90+#2))}}; \def\yyw{{(\yyp-\lt*#3)}}
-      \draw[<-,thick,black,align=center] (\xy,\yyp) -- (\xy,\yyw) node[below,black] at (\xy,\yyw) {#4};
-    \else
-      \def\yyp{{(\lt*(0.10+#2)}}; \def\yyw{{(\yyp+\lt*#3)}}
-      \draw[<-,thick,black,align=center] (\xy,\yyp) -- (\xy,\yyw) node[above,black] at (\xy,\yyw) {#4};
-    \fi}
+\draw [dashedarrow] ([xshift=-1cm]msa.south west) -- (vern.north west);
+\draw [dashedarrow] ([xshift=-1cm]vern.north west) -- (msa.south west);
+\node (msavern) [below of=msa, xshift=-0.1cm, yshift=0.07cm] {\scriptsize cross-influence};
 
-  % axis
-  %\draw[thick] (0,0) -- (\w,0);
-  \draw[->,thick] (-\w*0.03,0) -- (\w*1.03,0);
+\node (native) [left of=old, xshift=-1cm, align=right] {\footnotesize native\\\footnotesize Arabic};
+%\node (nonnative) [above of=native,align=right] {\footnotesize non-native\\\footnotesize SCA};
+\node (nonnative) at (sca -| native) [xshift=-0.3cm,align=right] {\footnotesize non-native\\\footnotesize SCA};
 
-  % ticks
-  \foreach \tick in {0,1,...,\n}{
-    \def\x{{\tick*\w/\n}}
-    \def\year{\the\numexpr \yearOne+\tick*\interv \relax}
-	  \ifnum \year>0
-      \draw[thick] (\x,\lt) -- (\x,-\lt) % marker tick
-	             node[below] {\year};
-    \else
-	    \ifnum \year=0
-        \draw[thick] (\x,\lt) -- (\x,-\lt) % marker tick
-	             node[below] {};
-      \fi
-    \fi
+\node (classborrow) [above of=old,yshift=3cm,align=center] {\scriptsize Arabicized loanwords from\\\scriptsize Persian, Aramaic, etc.};
+\draw [dashedarrow] (classborrow) -- (class.north west);
 
-	%\ifnum \tick<\n
-	%  \draw[thick] ({(\x+\w/\n/2)},0) -- ({(\x+\w/\n/2)},\lf); % five tick
-  %    \foreach \ticko in {1,2,3,4,6,7,8,9}{
-  %      \def\xo{{(\x+\ticko*\w/\n/10)}}
-  %	    \draw[thick] (\xo,0) -- (\xo,\lo);  % one tick
-	%}\fi
-  }
+\node (scaborrow) [right of=classborrow,xshift=3cm,align=center] {\scriptsize Arabicized loanwords from\\\scriptsize Persian, Greek, etc.};
+\draw [dashedarrow] (scaborrow) -- ([xshift=1cm]sca.north west);
 
-  %\node[above] at ({14},\lt) {Modern Standard Arabic};
+\node (msaborrow) [right of=classborrow,xshift=7cm,align=center] {\scriptsize translated vocabulary, style and grammar\\\scriptsize from English, French, etc.};
+\draw [dashedarrow] (msaborrow) -- (msa.north west);
 
-  % label
-  \yearLabel(200,SCA)
-  \yearLabel(1330,MSA)
-  \yearLabel(0,Classical\,Arabic)
-  \yearLabelBelow(0,the Hijrah)
-  \yearLabelBelow(1470,\textsc{ah})
-  %\yearArrowLabel(175, 1.0,3.0,Emergence of Standard Arabic)
-  %\yearArrowLabel(1, 0.0,1.5,Quran revealed)
-  %\yearArrowLabel(1,-1.0,2.0,Quran revealed)
-  %\yearArrowLabel(1924.2,-1.2,1.2,$p\lambda=h$)
+\node (foreign) at (classborrow -| native) [xshift=-0.3cm,align=right] {\footnotesize foreign\\\footnotesize languages};
+
+%\node (lang) [above of=foreign,yshift=1cm,xshift=1cm,align=right,rotate=90] {\scriptsize language/variety};
+
+\draw [axes] (-3,-0.5) -- node [below,xshift=7cm] {\footnotesize time axis} (13,-0.5);
+\draw [axes] (-1.5,-1) -- node [above, rotate=90, xshift=3.5cm] {\footnotesize language/variety} (-1.5,6);
+%\draw [->,postaction={decorate,decoration={text along path,text align=right,text={|\scriptsize|time}}}] (-3,-0.5) to (13,-0.5);
+
+\node (hijrah) [below of=class, yshift=0.2cm] {\footnotesize the Hijrah};
+\node (hijrah) [below of=vern, yshift=0.2cm,xshift=-1.75cm] {\footnotesize 1400\textsc{ah}};
 
 \end{tikzpicture}
 ```
@@ -169,6 +149,12 @@ So the grammarians would seek out and record
 samples of speech and texts from only authoritative sources.
 And they had criteria for determining what constituted an authority in the language.
 One such criterion was that the text sample be native Classical Arabic speech.
+What we mean by 
+"native Classical Arabic"
+is a small child's growing up hearing
+(native) Classical Arabic
+from the people around him and learning to speak it
+naturally, without perceptible change.
 
 By the time [sca]{.smallcaps} emerged as a standard,
 Classical Arabic itself had more or less ceased to be a native language.
@@ -183,18 +169,75 @@ texts written in
 are not generally, themselves, definitive of
 [sca]{.smallcaps}.^[See also [[علة رفض الاحتجاج بكبار الشعراء والكتاب الذين جاءوا بعد زمن الفصاحة]{.ar}](https://archive.org/details/riga2/page/n91/mode/2up) in [مجموع مقالات فيصل المنصور]{.ar} 93--95]
 
+<!--
+Versions of
+[sca]{.smallcaps}
+are used to this day as a literary language,
+in formally produced news media and published literature.
+-->
+
+## [msa]{.smallcaps}
+
+As we have mentioned earlier,
+[sca]{.smallcaps}
+when produced today will tend to have a lot of modern vocabulary, 
+and will generally be referred to as
+[msa]{.smallcaps}.
+[msa]{.smallcaps}
+is used today as the language of
+published literature
+and formally produced news media.
+
+[msa]{.smallcaps},
+in theory,
+still attempts to conform to the grammar of
+[sca]{.smallcaps}.
+In practice,
+however,
+[msa]{.smallcaps}
+is influenced
+<!--
+(mainly in its style,
+but also occasionally in its grammar), 
+-->
+noticeably by
+European languages.
+This is because much 
+written material, like books and news articles, was and is translated wholesale from European languages.
+This translation, along with adding vocabulary, has also
+influenced the style, and also in places, the grammar of
+the [msa]{.smallcaps} which you are likely to find printed today.
+<!--
+In a sense,
+this [msa]{.smallcaps}
+has taken a life of its own.
+This is because
+when modern books and news media may form the brunt of a persons formative exposure to formal Arabic,
+then that is the kind of Arabic that he will be likely to produce and in turn proliferate.
+-->
+That is not to say that all
+[msa]{.smallcaps} produced today
+has deviated from the grammar and style of
+[sca]{.smallcaps}.
+Persons who have been more exposed to
+classical books are more likely to stay closer to
+[sca]{.smallcaps}.
+In any case, as we have mentioned earlier,
+all Arabic that is produced
+today that attempts to
+conform to
+[sca]{.smallcaps},
+is merely that:
+an attempt to
+conform to
+[sca]{.smallcaps},
+and not definitive of
+[sca]{.smallcaps}.
+
+
 As a new learner, this exactitude is largely academic.
 Excepting the Qurʾān, which is inimitable,
 you may feel free to emulate the writing of good writers of [sca]{.smallcaps}.
-
-
-## Scope of this book
-
-In this book, we will study the grammar of [sca]{.smallcaps}. If [#allAh]{.trn2} wills, this will help you to begin to understand the language of the Qurʾān, the [#HadIv]{.trn2}, and [#islAm]{.trn2}ic literature.
-
-If your goal is to learn [msa]{.smallcaps}, then this book may still be of help because the core language and the grammar are essentially the same. However, you may prefer to study from a resource that focuses on the modern language.
-
-This book does not touch at all upon the modern vernacular dialects that are spoken in the Arab world today.
 
 ## Spoken [sca]{.smallcaps}
 
@@ -314,6 +357,15 @@ This is a very natural process and is familiar to the audience.
 A strict adherence to all [sca]{.smallcaps} grammar and enunciation rules in informal settings may, today, come across as turgid or pedantic.^[Hallberg,\ A., _Case endings in Spoken Standard Arabic_ 54--55, 86]
 -->
 
+
+
+## Scope of this book
+
+In this book, we will study the grammar of [sca]{.smallcaps}. If [#allAh]{.trn2} wills, this will help you to begin to understand the language of the Qurʾān, the [#HadIv]{.trn2}, and [#islAm]{.trn2}ic literature.
+
+If your goal is to learn [msa]{.smallcaps}, then this book may still be of help because the core language and the grammar are essentially the same. However, you may prefer to study from a resource that focuses on the modern language.
+
+This book does not touch at all upon the modern vernacular dialects that are spoken in the Arab world today.
 <!--
 ## Current status
 
@@ -352,7 +404,6 @@ and
 [I like the one amongst them whom I beat in his house]{.trans}.
 Even the most excellent of people wasn't spared!
 And a man was not safe from the grammarians even in his own house and even if he was someone they liked!]
-
 Also, when translating examples, we usually steer toward a literal, word-for-word, translation rather than an idiomatic one. 
 This is in order to illustrate the function of each word,
 and to show a correspondence between the words in the Arabic sentence and the English translation.
@@ -361,6 +412,25 @@ Our excuse is that our aim in this book is to teach Arabic,
 not how to translate Arabic into English.
 
 We request the reader's patience and indulgence in these and other matters.
+
+<!--
+## Indications of deviation from the norm
+
+The rules of [sca]{.smallcaps} grammar were derived by the grammarians from recordings of authoritative Classical Arabic.
+While many of the rules are generaly agreed upon,
+some 
+
+Vagueness:
+
+* typically
+* generally
+* usually
+* seems: We are not sure enough to assert definitively
+
+No vagueness:
+
+* archetypical
+-->
 
 ## How to study from this book
 
@@ -392,8 +462,7 @@ But, keep at it, at intervals. If [#allAh]{.trn2} wills, it will become easier, 
 ## Interpreting the Qurʾān
 
 As you proceed in your Arabic studies,
-you will, if Allāh wills, begin to understand the meanings of some of the words in the Qurʾān.
-And putting the meanings of those words together, you may start to form an understanding of the meaning of complete sentences and [Ayah]{.trn2}s.
+you may begin to form an understanding of the meanings of some of the [Ayah]{.trn2}s of the Qurʾān.
 Pondering over the [Ayah]{.trn2}s of the Qurʾān, to understand it, obtain guidance from it, and act upon it is one of the foremost goals of the Qurʾān.^[Zarabozo, _How to approach and understand the Quran_ 96 citing [الفوزان]{.ar}]
 Know, however, that forming this understanding should be done with a proper methodology: one that is based on sound and confirmed knowledge.^[Zarabozo, _How to approach and understand the Quran_ 187]
 Interpreting the Qurʾān is one of the branches of [#islAm]{.trn2}ic knowledge known as [tafsIr]{.trn2}.
