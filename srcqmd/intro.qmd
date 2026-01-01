@@ -91,7 +91,7 @@ The figure below depicts the historical development of the different varieties o
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=2.0ex}]
 \node (old) at (0,0) {Old Arabic};
 \node (class) [right of=old, xshift=2cm] {Classical Arabic};
-\node (vern) [right of=class, xshift=7cm] {Modern Vernactular Arabic};
+\node (vern) [right of=class, xshift=7cm] {Modern Vernacular Arabic};
 \draw [arrow] (old) -- (class);
 \draw [doublearr] (class) -- node [midway,yshift=1.5pt] {\footnotesize dialects} (vern);
 
