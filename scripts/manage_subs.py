@@ -33,6 +33,8 @@ map_table["lakinna"] = "[لَـٰكِنَّ]{.ar}"
 map_table["layta"]   = "[لَيْتَ]{.ar}"
 map_table["la3alla"] = "[لَعَلَّ]{.ar}"
 
+map_table["kaana"] = "[كَانَ]{.ar}"
+
 # 3aaqil
 map_table["3aaqil"]   = "intelligent being"   # raised-state"
 map_table["g_3aaqil"] = "non-intelligent being"  # propped-state
