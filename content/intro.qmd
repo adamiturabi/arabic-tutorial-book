@@ -82,11 +82,11 @@ While Standard Arabic was thus preserved from major change and was used for lite
 And so today, there exist two very distinct types of Arabic: the preserved Standard Arabic which is taught at schools and is primarily a written language, and the modern colloquial Arabic dialects which Arabs learn as their mother tongue and which are primarily only spoken and not written.
 -->
 
-The figure below depicts the historical development of the different varieties of Arabic.
+The figure below presents a simplified view the historical development of the different varieties of Arabic.
 
 ```{.tikzarabic}
 
-\usetikzlibrary{arrows.meta, decorations.text}
+\usetikzlibrary{arrows.meta, decorations.text, decorations.pathreplacing}
 \tikzstyle{arrow} = [thick,->,>=stealth]
 %\tikzstyle{doublearr} = [line width=1pt, double distance=5pt, arrows = {-Classical TikZ Rightarrow[length=0pt 3 0]}]
 \tikzstyle{doublearr} = [thick, double distance=7pt, arrows = {-Implies}]
@@ -108,9 +108,15 @@ The figure below depicts the historical development of the different varieties o
 \draw [doublearr] (class) -- node [midway,yshift=1.5pt] {\footnotesize dialects} (vern);
 
 \draw [arrow] (sca) -- (msa);
+
+\draw [decoration={brace,raise=-0.2cm,amplitude=0.2cm,aspect=0.85}, decorate] 
+   (class.north west) -- (class.north east);
+      %node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize SCA};
+
 %\draw [->,>=stealth,thick,postaction={decorate,decoration={text along path,raise=3pt,text align=center,text={SCA}}}] (class) to [bend left=45] (sca);
-\draw [->,>=stealth,thick] ([xshift=-0.57cm]class.north east) to [bend left=30] (sca);
-\draw [->,>=stealth,thick,postaction={decorate,decoration={text along path,raise=1.5pt,text align=left,text={|\footnotesize|SCA}}}] ([xshift=-0.25cm]class.north east) to [bend left=25] (sca);
+%\draw [->,>=stealth,thick] ([xshift=-0.57cm]class.north east) to [bend left=30] (sca);
+%\draw [->,>=stealth,thick,postaction={decorate,decoration={text along path,raise=1.5pt,text align=left,text={|\footnotesize|SCA}}}] ([xshift=-0.25cm]class.north east) to [bend left=25] (sca);
+\draw [->,>=stealth,thick,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={SCA}}}] ([xshift=-0.4cm]class.north east) to [bend left=25] (sca);
 
 \draw [dashedarrow] ([xshift=-1cm]msa.south west) -- (vern.north west);
 \draw [dashedarrow] ([xshift=-1cm]vern.north west) -- (msa.south west);
@@ -145,6 +151,30 @@ The figure below depicts the historical development of the different varieties o
 
 \end{tikzpicture}
 ```
+
+In the figure above, the extraction of
+[sca]{.smallcaps}
+towards the end of the Classical Arabic period does not imply that only later stages of Classical Arabic
+contributed to
+[sca]{.smallcaps}.
+Rather, it only implies that that is when
+[sca]{.smallcaps}
+emerged as the standard literary language for non-native Classical Arabic users.
+In fact,
+the source material for
+[sca]{.smallcaps}
+includes
+not only the speech of contemporary native Classical Arabic speakers,
+but also transmitted texts from throughout the Classical Arabic period,
+even texts from before the time of the Prophet [ﷺ]{.aralt}.
+
+Nor does the diagram intend to imply that only
+[sca]{.smallcaps}
+was preserved
+amongst all the dialects of Classical Arabic.
+[sca]{.smallcaps}
+is the variety of Classical Arabic which became a standard that continued to be used later.
+But the scholars of the Arabic language made notes regarding the other dialects of Classical Arabic as well.
 
 ## What defines [sca]{.smallcaps}
 
