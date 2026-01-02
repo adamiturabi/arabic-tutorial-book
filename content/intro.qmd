@@ -124,7 +124,7 @@ The figure below presents a simplified view the historical development of the di
 
 \node (native) [left of=old, xshift=-1cm, align=right] {\footnotesize native\\\footnotesize Arabic};
 %\node (nonnative) [above of=native,align=right] {\footnotesize non-native\\\footnotesize SCA};
-\node (nonnative) at (sca -| native) [xshift=-0.3cm,align=right] {\footnotesize non-native\\\footnotesize SCA};
+\node (nonnative) at (sca -| native) [xshift=-0.3cm,align=right] {\footnotesize non-native\\\footnotesize formal Arabic};
 
 \node (classborrow) [above of=old,yshift=3cm,align=center] {\scriptsize Arabicized loanwords from\\\scriptsize Persian, Aramaic, etc.};
 \draw [dashedarrow] (classborrow) -- (class.north west);
