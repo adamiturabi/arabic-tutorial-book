@@ -109,7 +109,7 @@ The figure below depicts the historical development of the different varieties o
 
 \draw [arrow] (sca) -- (msa);
 %\draw [->,>=stealth,thick,postaction={decorate,decoration={text along path,raise=3pt,text align=center,text={SCA}}}] (class) to [bend left=45] (sca);
-\draw [->,>=stealth,thick] ([xshift=-0.6cm]class.north east) to [bend left=30] (sca);
+\draw [->,>=stealth,thick] ([xshift=-0.57cm]class.north east) to [bend left=30] (sca);
 \draw [->,>=stealth,thick,postaction={decorate,decoration={text along path,raise=1.5pt,text align=left,text={|\footnotesize|SCA}}}] ([xshift=-0.25cm]class.north east) to [bend left=25] (sca);
 
 \draw [dashedarrow] ([xshift=-1cm]msa.south west) -- (vern.north west);
