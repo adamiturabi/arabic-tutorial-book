@@ -122,7 +122,7 @@ The figure below presents a simplified view the historical development of the di
 \draw [dashedarrow] ([xshift=-1cm]vern.north west) -- (msa.south west);
 \node (msavern) [below of=msa, xshift=-0.9cm, yshift=0.07cm] {\scriptsize cross-influence};
 
-\node (native) [left of=old, xshift=-1cm, align=right] {\footnotesize native\\\footnotesize Arabic};
+\node (native) [left of=old, xshift=-1.1cm, align=right] {\footnotesize native\\\footnotesize Arabic};
 %\node (nonnative) [above of=native,align=right] {\footnotesize non-native\\\footnotesize SCA};
 \node (nonnative) at (sca -| native) [xshift=-0.3cm,align=right] {\footnotesize non-native\\\footnotesize formal Arabic};
 
