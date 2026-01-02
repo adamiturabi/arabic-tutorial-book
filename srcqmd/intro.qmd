@@ -81,9 +81,9 @@ The figure below depicts the historical development of the different varieties o
 ```{.tikzarabic}
 
 \usetikzlibrary{arrows.meta, decorations.text}
-\tikzstyle{arrow} = [ultra thick,->,>=stealth]
+\tikzstyle{arrow} = [thick,->,>=stealth]
 %\tikzstyle{doublearr} = [line width=1pt, double distance=5pt, arrows = {-Classical TikZ Rightarrow[length=0pt 3 0]}]
-\tikzstyle{doublearr} = [ultra thick, double distance=7pt, arrows = {-Implies}]
+\tikzstyle{doublearr} = [thick, double distance=7pt, arrows = {-Implies}]
 %\tikzstyle{dottedcurved} = [line width=0.5pt, double distance=7pt, arrows = {-Implies}]
 \tikzstyle{dashedarrow} = [dashed,->,>=stealth]
 \tikzstyle{axes} = [->,>=stealth]
@@ -91,7 +91,7 @@ The figure below depicts the historical development of the different varieties o
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=2.0ex}]
 \node (old) at (0,0) {Old Arabic};
 \node (class) [right of=old, xshift=3cm] {Classical Arabic};
-\node (sca) [above of=class, xshift=1.3cm, yshift=1cm] {};
+\node (sca) [above of=class, xshift=1.8cm, yshift=1cm] {};
 \node (msa) [right of=sca, xshift=3.5cm] {MSA};
 %\node (vern) [right of=class, xshift=7cm, align=center] {\small Modern\\\small Vernacular\\\small Arabic};
 %\node (vern) at (class -| msa) [xshift=0.4cm] {\small Modern\\\small Vernacular\\\small Arabic};
@@ -102,7 +102,9 @@ The figure below depicts the historical development of the different varieties o
 \draw [doublearr] (class) -- node [midway,yshift=1.5pt] {\footnotesize dialects} (vern);
 
 \draw [arrow] (sca) -- (msa);
-\draw [->,>=stealth,ultra thick,postaction={decorate,decoration={text along path,raise=3pt,text align=center,text={SCA}}}] (class) to [bend left=45] (sca);
+%\draw [->,>=stealth,thick,postaction={decorate,decoration={text along path,raise=3pt,text align=center,text={SCA}}}] (class) to [bend left=45] (sca);
+\draw [->,>=stealth,thick] ([xshift=-0.57cm]class.north east) to [bend left=30] (sca);
+\draw [->,>=stealth,thick,postaction={decorate,decoration={text along path,raise=1.5pt,text align=left,text={|\footnotesize|SCA}}}] ([xshift=-0.25cm]class.north east) to [bend left=25] (sca);
 
 \draw [dashedarrow] ([xshift=-1cm]msa.south west) -- (vern.north west);
 \draw [dashedarrow] ([xshift=-1cm]vern.north west) -- (msa.south west);
