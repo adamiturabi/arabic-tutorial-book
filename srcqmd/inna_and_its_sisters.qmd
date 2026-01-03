@@ -351,25 +351,86 @@ As the ;ism_of; of ;inna;, the ;anna; clause must be separated from ;inna;:
     [Your state-of-affairs is that you are going.]{.trans}  
     (The interpreted ;masdar; [ذَهَابُكَ]{.ar} is the ;xabar;.)
 
-### The interpreted ;masdar; when the ;xabar; of ;anna; is a ;substantive; or prepositional/adverbial phrase
+### The interpreted ;masdar; when the ;xabar; of ;anna; is a prepositional/adverbial phrase
 
-Consider the following sentences:
+Consider the following sentences,
+where the ;xabar; of ;anna; is a prepositional or adverbial phrase:
 
-anna zaydun asadun
+(@) [عجبتُ من أن زيداً عندك]{.ar}
+    [[haazimi 24/10](https://shamela.ws/book/36130/419)]{.citex}  
+    [I wondered at that Zayd is at [your place].]{.trans}  
+    (The ;xabar; of ;anna; is an adverbial phrase: [عِنْدَكَ]{.ar} [at your place]{.trans}.)
 
-3indaka
+<!--
+(@) [عجبت من أن زيداً في الدار]{.ar}
+    [[haazimi 24/10](https://shamela.ws/book/36130/419)]{.citex}  
+    [I wondered at that Zayd is in the house.]{.trans}  
+-->
 
-fi al-dari
+(@) [علمت أن زيداً في الدار]{.ar}
+    [[haazimi 37/15](https://shamela.ws/book/36130/688)]{.citex}  
+    [I knew that Zayd is in the house.]{.trans}  
+    (The ;xabar; of ;anna; is an adverbial phrase: [فِي الدَّارِ]{.ar} [in the house]{.trans}.)
 
-When xabar of anna is jaamid then kawn is implied:
 
-<https://shamela.ws/book/174/492#p1>
+In such cases, the interpreted ;masdar; is general beingness, represented by the ;masdar;
+[كَوْن]{.ar}
+or
+[اسْتِقْرَار]{.ar},
+as
+below:
 
-<https://shamela.ws/book/36130/688>
+(@) [عجبت من استقرار زيدٍ عندك]{.ar}
+    [[haazimi 24/10](https://shamela.ws/book/36130/419)]{.citex}  
+    [I wondered at Zayd's being at [your place].]{.trans}  
 
-<https://shamela.ws/book/36130/419>
+(@) [علمت كون زيد في الدار]{.ar}
+    [[haazimi 37/15](https://shamela.ws/book/36130/688)]{.citex}  
+    [I knew Zayd's being in the house.]{.trans}  
 
-### Optionally drop prep before ;anna;
+### The interpreted ;masdar; when the ;xabar; of ;anna; is a ;substantive;
+
+Consider the following sentence,
+where the ;xabar; of ;anna; is a ;substantive;:
+
+
+(@) [علمت أن زيداً أسد]{.ar}
+    [[haazimi 37/15](https://shamela.ws/book/36130/688)]{.citex}  
+    [I knew that Zayd is a lion.]{.trans}  
+    (The ;xabar; of ;anna; is a substantive noun: [أَسَدٌ]{.ar} [a lion]{.trans}.)
+
+In this case as well, the interpreted ;masdar; can be general beingness:
+
+(@) [علمت كون زيد أسداً]{.ar}
+    [[haazimi 37/15](https://shamela.ws/book/36130/688)]{.citex}  
+    [I knew Zayd's being a lion.]{.trans}  
+
+Or the interpreted ;masdar; can be formed from the ;substantive;, using the suffix
+[ـِيَّة]{.ar} [-iyyah]{.trn}
+(see section\ (ref)),
+as below:
+
+(@) [علمت أسدية زيد]{.ar}
+    [[haazimi 37/15](https://shamela.ws/book/36130/688)]{.citex}  
+    [I knew Zayd's lion-like-ness.]{.trans}  
+
+### Optionally delete the preposition before ;anna;
+
+When the ;anna; clause is in the ;istate; following a preposition,
+then it is allowed to (optionally) delete the preposition, for the same meaning,
+as long as the meaning remains clear.
+So, instead of saying:
+
+(@) [عجبت **من** أنك قائم]{.ar}
+    [[@ibn_aqil_alfiyyah@ 2/151](https://shamela.ws/book/9904/538)]{.citex}  
+    [I wondered at that you are standing.]{.trans}  
+
+ we can say:
+
+(@) [عجبت أنك قائم]{.ar}
+    [[@ibn_aqil_alfiyyah@ 2/151](https://shamela.ws/book/9904/538)]{.citex}  
+    [I wondered that you are standing.]{.trans}  
+
 
 ### ;anna; with ;kaana;
 
