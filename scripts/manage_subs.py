@@ -124,7 +124,8 @@ map_table["jawab_shart"] = "condition-response"
 map_table["j_ism"] = "nounal sentence"
 map_table["j_f3l"] = "verbal sentence"
 
-map_table["laam_taqwiya"] = "strengthening [ل]{.ar}"
+map_table["laam_ibt"] = "beginning-[لَ]{.ar}"
+map_table["laam_taqwiya"] = "strengthening-[لِ]{.ar}"
 map_table["lazim"] = "intransitive"
 map_table["lnj"] = {"لا النافية للجنس", "ar"}
 
