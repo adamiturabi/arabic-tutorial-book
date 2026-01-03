@@ -461,11 +461,133 @@ assertive, from @nahw_arabi@
 
 ## pronoun ;ism_of;
 
-## a prep/adverb as info
+## A prepositional/adverbial phrase as the ;xabar; of ;inna; and its sisters
 
-## word order
+A prepositional/adverbial phrase can occurs as the ;xabar; of ;inna; and its sisters.
+For example:
 
-## complete sentence as the ;xabar;
+(@) [إِنَّ زَيْدٌ فِي الدَّارِ]{.ar}  
+    [Indeed Zayd is in the house.]{.trans}  
+
+(@) [عَلِمْتُ أَنَّ زَيْدًا عِنْدَكَ]{.ar}
+    [Indeed Zayd is at [your place].]{.trans}  
+
+In such cases,
+based on what we have learned in section\ (ref),
+the ;xabar; is actually implicated as general beingness,
+and the preposition or adverb is its governee.
+But loosely speaking we may say that
+the prepositional/adverbial phrase is the ;xabar;.
+
+## A complete sentence as the ;xabar; of ;inna; and its sisters
+
+The ;xabar; of ;inna; and its sisters may be a complete sentence.
+Examples:
+
+(@) [إِنَّ الْعِلْمَ يُعَزِّزُ صَاحِبَهُ]{.ar}
+    [@nahw_arabi@ 272]{.citex}  
+    [Indeed the knowledge -- it makes esteemed its companion.]{.trans}  
+    (The ;xabar; of ;inna; is the ;j_f3l; [يُعَزِّزُ صَاحِبَهُ]{.ar} [it makes esteemed its companion]{.trans}.)
+
+(@) [إِنَّ الْعَالِمَ قَدْرُهُ مُرْتَفِعٌ]{.ar}
+    [@nahw_arabi@ 1/272]{.citex}  
+    [Indeed the scholar -- his worth is high.]{.trans}  
+    (The ;xabar; of ;inna; is the ;j_ism; [قَدْرُهُ مُرْتَفِعٌ]{.ar} [his worth is high]{.trans}.)
+
+(@) [لَعَلَّكَ اجْتَهَدْتَ]{.ar}
+    [@nahw_arabi@ 1/272]{.citex}  
+    [Perhaps you may exert yourself.]{.trans}  
+    (The ;xabar; of ;la3alla; is the ;j_f3l; [اجْتَهَدْتَ]{.ar} [you exert yourself]{.trans}.)
+
+The ;xabar; of ;inna; (and its sisters) 
+can even be a compound itself itself.
+Here is an example where the ;xabar; of ;inna;
+is a ;kaana; sentence with its own ;ism_of; and ;j_f3l; ;xabar;:
+
+(@) [وَإِنَّ أَبَا هُرَيْرَةَ **كَانَ يَلْزَمُ** رَسُولَ اللَّهِ صلى الله عليه وسلم بِشِبَعِ بَطْنِهِ وَيَحْضُرُ مَا لاَ يَحْضُرُونَ وَيَحْفَظُ مَا لاَ يَحْفَظُونَ]{.ar}
+    [@https://sunnah.com/bukhari:118@]{.citex}  
+    [And indeed [#abU #hurayrah]{.trn2} used to stick with the Messenger of ;Allah; with the fill of his stomach and be present for what they [were] not present for, and memorize what they [were] not memorizing.]{.trans}
+
+## Word order of the ;ism_of; and the ;xabar; with ;inna; and its sisters
+
+The ;ism_of; of ;inna; (and its sisters) must always follow it in word order.
+And its ;xabar; must always follow the ;ism_of;.
+So, for example,
+we cannot say:
+
+(@) ;x; [إِنَّ قَائِمٌ زَيْدًا]{.ar}
+    [[@sharh_qatr_alnada@ 162](https://shamela.ws/book/6970/137)]{.citex}  
+
+We must say instead:
+
+(@) [إِنَّ زَيْدًا قَائِمٌ]{.ar}  
+    [Indeed Zayd is standing.]{.trans}
+
+If the ;xabar; has a governee, then it too
+should not, in general, preceded the ;ism_of;.
+So we cannot say:
+
+(@) ;x; [إن **طعامك** زيدا آكل]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
+
+We must say instead:
+
+(@) [إن زيدا آكل **طعامك**]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
+    [Indeed Zayd is eating your food.]{.trans}  
+
+But when the governee of the ;xabar; is a prepositional or adverbial phrase,
+then there is some diagreement amongst the grammarians.^[[@irtishaaf@ 3/1244](https://shamela.ws/book/16595/1244); [@sirafi_sibawayhi@ 2/464](https://shamela.ws/book/17726/962)]
+Some grammarians allowed
+sentences like:
+
+(@) [إِنَّ **عِنْدَكَ** زَيْدًا جَالِسٌ]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
+    [Indeed with you Zayd is sitting.]{.trans}  
+
+(@) [إن **بك** زيدا واثق]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
+    [Indeed in you Zayd is trusting.]{.trans}  
+    
+Others disallowed such sentences and mandated the following order^[[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]:
+
+(@) [إِنَّ زَيْدًا جَالِسٌ **عِنْدَكَ**]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
+    [Indeed Zayd is sitting with you.]{.trans}  
+
+(@) [إن زيدا واثق **بك**]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
+    [Indeed Zayd is trusting in you.]{.trans}  
+
+But when the ;xabar; is itself
+(loosely speaking) the prepositional or adverbial phrase,
+then then it may be placed before the ;ism_of; undisputably.
+Sometimes, placing the 
+prepositional/adverbial phrase
+before the ;ism_of; is optional.
+For example:
+
+(@) [إِنَّ فِي الدَّارِ ضُيُوفًا كِرَامًا]{.ar}
+    [@nahw_arabi@ 1/273]{.citex}  
+    [Indeed in the house are noble guests.]{.trans}  
+
+(@) [لَيْتَ عِنْدَكَ مُحَمَّدًا]{.ar}
+    [@nahw_arabi@ 1/273]{.citex}  
+    [O that with you was [#muHammad]{.trn2}]{.trans}  
+
+
+But
+when the prepositional/adverbial phrase has a pronoun that refers to the ;ism_of;,
+then it must obligatorily be placed before the ;ism_of;.
+For example:
+
+(@) [إِنَّ فِي الدَّارِ سَاكِنَهَا]{.ar}
+    [[@irtishaaf@ 3/1244](https://shamela.ws/book/16595/1244)]{.citex}  
+    [Indeed in the house is its resident.]{.trans}
+
+(@) [إِنَّ عِنْدَ هِنْدٍ بَعْلَهَا]{.ar}
+    [[@irtishaaf@ 3/1244](https://shamela.ws/book/16595/1244)]{.citex}  
+    [Indeed with Hind is her husband.]{.trans}
 
 ## ;damir_shan; as the ;ism_of;
 
