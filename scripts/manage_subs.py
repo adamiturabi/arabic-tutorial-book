@@ -95,6 +95,7 @@ map_table["af3aal_quloob"] = "verbs of perception"
 
 map_table["badal"] = "substitute" # replacement, substitute
 
+map_table["damir_fasl"] = "separating-pronoun"
 map_table["damir_shan"] = "state-of-affairs pronoun" # pronoun-of-fact, pronoun of s͡haʾn
 map_table["dharf_makan"] = "adverb of place"
 map_table["dharf_zaman"] = "adverb of time"
