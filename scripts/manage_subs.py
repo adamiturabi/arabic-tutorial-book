@@ -34,6 +34,7 @@ map_table["layta"]   = "[لَيْتَ]{.ar}"
 map_table["la3alla"] = "[لَعَلَّ]{.ar}"
 
 map_table["kaana"] = "[كَانَ]{.ar}"
+map_table["laysa"] = "[لَيْسَ]{.ar}"
 
 # 3aaqil
 map_table["3aaqil"]   = "intelligent being"   # raised-state"
@@ -100,6 +101,7 @@ map_table["dharf_zaman"] = "adverb of time"
 
 map_table["faa3il"] = "doer"
 
+map_table["ghair_mutasarrif"] = "frozen"
 map_table["hal"] = "[HAl]{.trn2}"
 
 map_table["i3timaad"] = "governing support"

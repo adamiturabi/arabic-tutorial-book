@@ -612,22 +612,120 @@ For example:
     [The state-of-affairs is: [there] is [at times] darkness and flooding]{.trans}  
 
 
-## ;inna; with the ;laam_ibt;
+## ;inna; with a ;laam_ibt;
 
 The _;laam_ibt;_ is a particle which generally occurs in the beginning of a sentence signifies an assertive meaning.
 For example, if we start with:
 
-(@) [زَيْدٌ قَائِمٌ]{.ar}
+(@) [زَيْدٌ قَائِمٌ]{.ar}  
     [Zayd is standing.]{.trans}  
 
 then we can make the sentence more assertive by using ;laam_ibt; in its beginning:
 
-(@) [لَزَيْدٌ قَائِمٌ]{.ar}
+(@) [لَزَيْدٌ قَائِمٌ]{.ar}  
+    [Indeed Zayd is standing.]{.trans}  
+
+The ;laam_ibt;, in sentences without ;inna; (as above),
+is placed in the beginning of the sentence
+and is attached only to the ;mubtada;.
+If the ;xabar; were fronted, we wouldn't say:
+
+(@) ;x; [لَقَائِمٌ زَيْدٌ]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/353](https://shamela.ws/book/20562/1014#p1)]{.citex}  
+
+
+### The ;laam_ibt; place before the ;xabar; of ;inna;
+
+This ;laam_ibt; is frequently found used with ;inna;.
+But instead of occurring before ;inna; thus:
+
+(@) ;x; [لَإِنَّ]{.ar}
+
+it is placed between the ;ism_of; of ;inna; and its ;xabar;, thus:
+
+(@) [إِنَّ زَيْدٌ لَقَائِمٌ]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/352](https://shamela.ws/book/20562/1013)]{.citex}  
     [Indeed Zayd is standing.]{.trans}  
 
 
-The _;laam_ibt;_ is frequently found used with ;inna;.
-The particle ;inna;
+When [إِنَّ]{.ar} is used together with ;laam_ibt; as in the example above,
+then the sentence signifies extra assertion,
+compared to if had only ;inna; or only the ;laam_ibt;.
+
+In a similar manner to example () above,
+we can say:
+
+(@) [إن زيدًا لفي الدار]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/352](https://shamela.ws/book/20562/1013)]{.citex}  
+    [Indeed Zayd is in the house.]{.trans}  
+
+The ;laam_ibt; 
+has certain restrictions placed on its usage,
+when used with ;inna;:
+
+Firstly, it caan only be used with ;inna; and not with any of its sisters.
+
+Secondly, the ;inna; sentence should be an affirmative sentence, not a negative sentence.
+So we cannot say:
+
+(@) ;x; [إِنَّ عَلِيًّا **لَمَا** حَضَرَ]{.ar}
+    [@nahw_arabi@ 1/288]{.citex}
+
+Instead, we should say (without the ;laam_ibt;):
+
+(@) [إِنَّ عَلِيًّا مَا حَضَرَ]{.ar}
+    [@nahw_arabi@ 1/288]{.citex}  
+    [Indeed [#ealiyy]{.trn2} was not present.]{.trans}
+
+Additionally, when the ;xabar; of ;inna; is a ;j_f3l; with a ;madi; verb, then the ;laam_ibt; cannot attached to the ;madi; verb.
+But if [قَدْ]{.ar} is used before the ;madi; verb, then the ;laam_ibt; may be used.
+So we cannot say:
+
+(@) ;x; [إِنَّ الْعِلْمَ لَرَفَعَ قَدْرَ صَاحِبِهِ]{.ar}
+    [@nahw_arabi@ 1/288]{.citex}  
+
+But we can say:
+
+(@) [إِنَّ الْعِلْمَ لَقَدْ رَفَعَ قَدْرَ صَاحِبِهِ]{.ar}
+    [@nahw_arabi@ 1/288]{.citex}  
+    [Indeed the knowledge -- it has raised the worth of its companion.]{.trans}  
+
+Or we can say without both the ;laam_ibt; and [قَدْ]{.ar}
+
+(@) ;x; [إِنَّ الْعِلْمَ رَفَعَ قَدْرَ صَاحِبِهِ]{.ar}
+    [@nahw_arabi@ 1/288]{.citex}  
+    [Indeed the knowledge -- it raised the worth of its companion.]{.trans}  
+
+This restriction is not placed on a ;xabar which is a ;j_f3l; with a ;mudarie; verb.
+So we can say:
+
+(@) [إن زيدًا ليخرج اليوم]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/352](https://shamela.ws/book/20562/1013)]{.citex}  
+    [Indeed Zayd will go out today.]{.trans}  
+
+ Also, ;ghair_mutasarrif; ;madi; verbs are exempted and may be used with ;laam_ibt; directly.
+ For example:
+
+(@) [إنّ زيدًا النِعْم الرجلُ]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/352](https://shamela.ws/book/20562/1013)]{.citex}  
+    [Indeed Zayd -- how excellent the man.]{.trans}  
+
+(@) [إنّ عمرًا لِبِئْسَ الغلامُ]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/352](https://shamela.ws/book/20562/1013)]{.citex}  
+    [Indeed Zayd -- how wretched the boy.]{.trans}  
+
+However,
+;laysa; is a ;ghair_mutasarrif; verb, but ;laam_ibt; does not attach to it because of the
+undesirableness of two [ل]{.ar}s coming togather.
+So we won't say:
+
+(@) [إنّ زيدًا لليس بقائم]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/352](https://shamela.ws/book/20562/1013)]{.citex}  
+    [Indeed Zayd -- he is not standing.]{.trans}  
+
+### The ;laam_ibt; place before the ;ism_of; of ;inna;
+
+So far, we have seen the ;laam_ibt; placed before the ;xabar; of ;inna;.
 
 @shatibi_sharf_alfiyyah@ 2/346++
 
