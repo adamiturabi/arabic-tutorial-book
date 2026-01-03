@@ -793,6 +793,22 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/11742")
     , sort_key = "شرح الاشمونى لافية ابن مالك"
     ))
+  resource_list.append(BibResource(
+    "mu3allimi"
+    , cit_type = "ar_ref"
+    , cit_text = "[تحقيق الكلام في المسائل الثلاث ضمن آثار المعلمي]{.ar}"
+    , bib_text = """
+      الكتاب: تحقيق الكلام في المسائل الثلاث
+      [آثار عبد الرحمن بن يحيى المعلمي اليماني (٤)]
+      المؤلف: عبد الرحمن بن يحيى المُعَلِّمي اليماني (١٣١٣ - ١٣٨٦ هـ)
+      المحقق: علي بن محمد العمران - محمد عزير شمس
+      راجعه: عبد الرحمن بن صالح السُديس - سليمان بن عبد الله العُمير
+      الناشر: دار عالم الفوائد للنشر والتوزيع
+      الطبعة: الأولى، ١٤٣٤ هـ
+      """ + format_url_ar("https://shamela.ws/book/328")
+    , sort_key = "تحقيق الكلام في المسايل الثلاث ضمن اثار المعلمي"
+    ))
+
 
 
 
@@ -950,8 +966,8 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "ibn_kathir_english"
     , cit_type = "ws_ref"
-    , cit_text = "_Tafsir ibn Kathir_ (abridged, English translation)"
-    , bib_text = "Al-Mubarakpuri, _Tafsir ibn Kathir_ (abridged, English translation), Darrussalam, 2nd edition, 2003"
+    , cit_text = "Al-Mubarakpuri, _Tafsir ibn Kathir_ (abridged, English translation), Darussalam, 2nd edition, 2003"
+    , bib_text = "Al-Mubarakpuri, _Tafsir ibn Kathir_ (abridged, English translation), Darussalam, 2nd edition, 2003"
     , sort_key = 'tafsir ibn kathir english'
     ))
 
