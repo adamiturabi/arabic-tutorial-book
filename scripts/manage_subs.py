@@ -107,6 +107,7 @@ map_table["hal"] = "[HAl]{.trn2}"
 
 map_table["i3timaad"] = "governing support"
 map_table["idaafah"] = "annexation"
+map_table["idh_sudden"] = "[إِذَا]{.ar} or suddenness"
 map_table["indir_mafulb"] = "indirect doee"
 map_table["pregov"] = "foundational government" # initial gov, pre-gov, foundational gov
 map_table["ism_fail"] = "doer participle"
