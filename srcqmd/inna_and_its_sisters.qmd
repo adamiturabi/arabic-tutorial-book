@@ -71,6 +71,13 @@ We will discuss them in the following sections.
 (@inna_zaydun_qaaimun) [زَيْدٌ قَائِمٌ]{.ar}  
     [Zayd is standing.]{.trans}
 
+
+An ;inna; sentence can itself 
+
+(@) [زَيْدٌ إِنَّهُ قَائِمٌ]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/355](https://shamela.ws/book/9904/354#p1)]{.citex}  
+    [Zayd -- indeed he is standing.]{.trans}  
+
 ## ;anna;
 
 ### Interpretation of the ;anna; clause as a ;masdar; construction
@@ -810,9 +817,139 @@ we get:
     [Indeed Zayd is the standing one.]{.trans}  
 
 
-## When is inna used vs  anna
+## When to use ;inna; vs ;anna;
 
 @nahw_arabi@ 274
+
+The basic principle in choosing whether to use
+;inna; vs ;anna; is:
+
+* ;inna; is used to begin a complete sentence. As a complete sentence, it can then be a part of an larger sentence.
+* ;anna; is used to begin a clause which is part of a larger sentence.
+  The larger sentence,
+  in order for its meaning to work,
+  requires a ;masdar;i interpretation of the ;anna; clause.
+
+In theory, this is a pretty clear demarcation.
+But in practice it can be a little tricky to tell when to use ;inna; vs ;anna;.
+Let's work through some examples:
+
+(@) [نُطْقِي اللَّهُ حَسْبِي]{.ar}  
+    [@wright@ 2/256D, @ibn_aqil_alfiyyah@ 1/204, previously cited in section\ (ref)]{.citex}  
+    [My utterance is "[#allAh]{.trn2} is sufficient for me."]{.trans}
+
+In the example above,
+<!--
+the complete sentence
+[اللَّهُ حَسْبِي]{.ar}
+[[#allAh]{.trn2} is sufficient for me]{.trans},
+as a ;xabar;,
+is the ;musnad; of the outer sentence,
+with the ;mubtada;
+[نُطْقِي]{.ar}
+as its ;musnadi;.
+
+In such a case,
+because the ;xabar; is a complete sentence that stands on its own,
+it can begin with ;inna; but not ;anna;.
+-->
+the sentence ;xabar;
+[اللَّهُ حَسْبِي]{.ar}
+[[#allAh]{.trn2} is sufficient for me]{.trans},
+is simply being reported as speech.
+It's not an interpreted ;masdar; of the ;xabar; which is expressing a property about the ;mubtada;
+[نُطْقِي]{.ar}.
+Rather, the ;xabar;, as a complete sentence, is the complement of the ;mubtada;.
+So it can begin with ;inna; but not ;anna;, thus:
+[نُطْقِي إِنَّ اللَّهُ حَسْبِي]{.ar}.
+
+Here are a couple more examples:
+
+(@) [خَيْرُ الْقَوْلِ إِنِّي أَحْمَدُ]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/355](https://shamela.ws/book/9904/354#p1)]{.citex}  
+    [The best of speech is: Indeed I praise.]{.trans}  
+
+(@) [قَوْلِي إِنَّهُ فَاضِلٌ]{.ar}
+    [[@ibn_hisham_awdah_almasaalik@ 1/325](https://shamela.ws/book/11825/327#p1)]{.citex}  
+    [My saying is: Indeed he is excellent.]{.trans}  
+
+But if the ;xabar; expresses a property about the ;mubtada;, not as a complete sentence,
+but as an interpreted ;masdar;,
+then ;anna; is used.
+For example:
+
+(@) [اعْتِقَادِي أَنَّهُ فَاضِلٌ]{.ar}
+    [[@ibn_hisham_awdah_almasaalik@ 1/325](https://shamela.ws/book/11825/327#p1)]{.citex}  
+    [My belief is that he is excellent.]{.trans}  
+    (i.e. [اعْتِقَادِي فَضْلُهُ]{.ar} [My belief is his being excellent.]{.trans})
+
+In the example above, it is not exactly the sentence
+[هُوَ فَاضِلٌ]{.ar}
+"he is excellent"
+which is my belief.
+Rather my belief is his _being_ excellent.
+
+Here are some more examples of a complete sentence with [إِنَّ]{.ar} in a larger sentence.
+In all the examples,
+the ;inna; sentence is part of the larger sentence, _as is_.
+It does not need to be interpreted as a ;masdar; construction.
+
+(@) [زَيْدٌ إِنَّهُ فَاضِلٌ]{.ar}
+    [[@ibn_hisham_awdah_almasaalik@ 1/324](https://shamela.ws/book/11825/326#p1)]{.citex}  
+    [Zayd -- indeed he is excellent.]{.trans}  
+
+(@) [مَرَرْتُ بِرَجُلٍ إِنَّهُ فَاضِلٌ]{.ar}
+    [[@ibn_hisham_awdah_almasaalik@ 1/323](https://shamela.ws/book/11825/325#p1)]{.citex}  
+    [I passed by a indeed-he-is-excellent man.]{.trans}  
+    (The sentence [إِنَّهُ فَاضِلٌ]{.ar} is the ;na3t; of [رَجُل]{.ar}.)
+
+(@) [أَحْتَرِمُ الَّذِي إِنَّهُ مُخُلِصٌ فِي عَمَلِهِ]{.ar}
+    [@nahw_arabi@ 1/275]{.citex}  
+    [I respect the one who -- indeed he is sincere in his work.]{.trans}  
+    (The ;inna; sentence [إِنَّهُ مُخُلِصٌ فِي عَمَلِهِ]{.ar} is the ;silah; of the ;ism_mawsul; [الَّذِي]{.ar}. See chapter\ (ref).)
+
+(@) [جِئْتُ وَإِنَّ الشَّمْسَ تَغْرُبُ]{.ar}
+    [@nahw_arabi@ 1/276]{.citex}  
+    [I came while the sun was setting.]{.trans}  
+    (The ;inna; sentence [جِئْتُ وَإِنَّ الشَّمْسَ تَغْرُبُ]{.ar} is a ;hal;. See chapter\ (ref).)
+
+Now let's again consider some tricky areas:
+
+#### When ;inna; or ;anna; occur as a ;mudafil; {.unnumbered}
+
+Consider the following sentence:
+
+(@) [اجْلِسْ حَيْثُ إِنَّ زَيْدًا جَالِسٌ]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/355](https://shamela.ws/book/9904/354)]{.citex}  
+    [Sit where -- indeed Zayd is sitting.]{.trans}  
+
+In the above example
+[حَيْثُ]{.ar} is an adverb of place (see chapter\ (ref)) which is a ;mudaf; to the sentence-;mudafil;
+[إِنَّ زَيْدًا جَالِسٌ]{.ar}.
+The ;inna; sentence does not require the ;masdar;i interpretation [جُلُوس]{.ar} for the meaning to work.
+
+Now consider this sentence:
+
+(@) [قَالَ كَعْبُ بْنُ مَالِكٍ لَمْ أَتَخَلَّفْ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم فِي غَزْوَةٍ غَزَاهَا قَطُّ إِلاَّ فِي غَزْوَةِ تَبُوكَ **غَيْرَ أَنِّي قَدْ تَخَلَّفْتُ** فِي غَزْوَةِ بَدْرٍ ...]{.ar}
+    [@https://sunnah.com/muslim:2769a@]{.citex}  
+    [[#kaeb ibn #mAlik]{.trn2} said, "I didn't remain behind the Messenger of ;Allah; ;pbuh; in any expedition that he went on, ever, except in the expedition of [#tabUk]{.trn2}, other than that I remained behind in the expedition of Badr ...]{.trans}
+
+In this example, the ;anna; clause 
+[أَنِّي قَدْ تَخَلَّفْتُ]{.ar}
+is ;mudafil; of [غَيْرَ]{.ar}.
+;anna; is used instead of ;inna; because, in order for the meaning to work,
+the ;masdar; of [تَخَلَّفَ]{.ar} is interpreted, thus:
+[غَيْرَ تَخَلُّفِي]{.ar}
+[other than my remaining behind]{.trans}.
+
+#### In reported speech {.unnumbered}
+
+When a sentence is reported as speech,
+whether direct or indirect,
+then it will typically begin with ;inna;.
+For example:
+
+
 
 ## A ;3atf; following ;anna;
 
