@@ -196,6 +196,8 @@ map_table["tawkeed"] = "emphatic follower"
 
 map_table["xabar"] = "info" # newsworthy expression, information, comment, remark, info, report, news, expression
 
+map_table["ya_nida"] = "vocative [يَا]{.ar}"
+
 map_table["zaaid"] = "redundant"
 map_table["zaahir"] = "overt"
 
