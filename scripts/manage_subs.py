@@ -32,6 +32,10 @@ map_table["ka_anna"] = "[كَأَنَّ]{.ar}"
 map_table["lakinna"] = "[لَـٰكِنَّ]{.ar}"
 map_table["layta"]   = "[لَيْتَ]{.ar}"
 map_table["la3alla"] = "[لَعَلَّ]{.ar}"
+map_table["in"] = "[إِنْ]{.ar}"
+map_table["an"] = "[أَنْ]{.ar}"
+map_table["ka_an"] = "[كَأَنْ]{.ar}"
+map_table["lakin"] = "[لَـٰكِنْ]{.ar}"
 
 map_table["kaana"] = "[كَانَ]{.ar}"
 map_table["laysa"] = "[لَيْسَ]{.ar}"
@@ -58,6 +62,7 @@ map_table["tanwin"] = "[tanwIn]{.trn2}"
 map_table["first"] = "speaker"
 map_table["second"] = "adressee"
 map_table["third"] = "absentee"
+map_table["person"] = "participant"
 
 # mabny and mutasarrif
 map_table["mabny"] = "rigid"
@@ -153,6 +158,7 @@ map_table["mushtaqq"] = "deverbal" # deverbal, derived
 map_table["musnad"] = "structure-completer" # complement, leaning element
 map_table["musnadi"] = "structure-starter" # rock, mainstay, anchor, pillar, supporting element
 map_table["mustatir"] = "latent" # assumed, hidden, invisible, implied
+map_table["muxaffaf"] = "lightened"
 map_table["muxbar3"] = map_table["musnadi"] # theme,rock, mainstay, anchor, subject, keystone, cornerstone, post, mast, pillar
 map_table["muxbar"] = map_table["musnad"] # rheme, complement, predicate, cornerstone, keystone, capstone, rafter, beam
 map_table["mutaddi"] = "transitive"
@@ -162,6 +168,8 @@ map_table["na3t"] = "attribute"
 map_table["nidaa"] = "vocative"
 map_table["naqis"] = "deficient"
 map_table["nasix"] = "canceling"
+map_table["nasibah"] = map_table["astate"] + "-izing"
+map_table["noon_wiq"] = "guarding-[ن]{.ar}"
 
 map_table["participle"] = "participle"
 map_table["pbuh"] = "[ﷺ]{.aralt}"

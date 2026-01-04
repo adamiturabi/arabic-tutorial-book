@@ -44,6 +44,7 @@ its ;xabar;
 [قَائِم]{.ar} in the ;ustate;.
 It has also added the assertive meaning "[indeed]{.trans}".
 
+<!--
 When the ;ism_of; of ;inna; or its sisters is a pronoun,
 then then the attached pronouns are used.
 (This is discussed in more detail in section\ (ref) below.)
@@ -51,32 +52,72 @@ For example:
 
 (@) [إِنَّكَ قَائِمٌ]{.ar}  
     [Indeed you are standing.]{.trans} . 
+-->
 
 
 The set of
 ;inna; and its sisters
 is:
 
-  i. ;inna;
- ii. ;anna;
-iii. ;ka_anna;
- iv. ;lakinna;
-  v. ;layta;
- vi. ;la3alla;
+  i. ;inna; [indeed]{.trans}
+ ii. ;anna; [that]{.trans}
+iii. ;ka_anna; [as if]{.trans}
+ iv. ;lakinna; [but]{.trans}
+  v. ;layta; [were that]{.trans}
+ vi. ;la3alla; [perhaps]{.trans}
 
 We will discuss them in the following sections.
 
 ## ;inna;
 
+<!--
 (@inna_zaydun_qaaimun) [زَيْدٌ قَائِمٌ]{.ar}  
     [Zayd is standing.]{.trans}
+-->
+
+### Basic meaning of ;inna;
+
+;inna; has an assertive meaning.
+It asserts the property which its ;xabar; expresses about its ;ism_of;.
+
+<!--
+;inna; is also a means for a sentence to begin with an indefinite ;ism_of;
+(after ;inna; itself, of course).
+For example:
+-->
+
+### ;inna; with a pronoun ;ism_of;
+
+When the ;ism_of; of ;inna; (or any of its sisters) is a pronoun,
+then the attached pronouns are used.
+So we will say, for example:
 
 
-An ;inna; sentence can itself 
+When the ;ism_of; is a pronoun for the singular ;first;-;person; [ي]{.ar},
+then a ;noon_wiq; may optionally be inserted:
+For example:
+
+And when 
+the ;ism_of; is a pronoun for the plural ;first;-;person; [نَا]{.ar},
+then the [ن]{.ar} of the pronoun can optionally be dropped.
+For example:
+
+The above rules, which allow adding or dropping a [ن]{.ar},
+are common for all of the sisters of ;inna;,
+except for ;layta; and ;la3alla; which have slightly modified rules.
+
+### An ;inna; as part of a larger sentence
+
+An ;inna; sentence can itself,
+be a part of a larger sentence.
+For example:
 
 (@) [زَيْدٌ إِنَّهُ قَائِمٌ]{.ar}
     [[@ibn_aqil_alfiyyah@ 1/355](https://shamela.ws/book/9904/354#p1)]{.citex}  
     [Zayd -- indeed he is standing.]{.trans}  
+    (The sentence [إِنَّهُ قَائِمٌ]{.ar} is the ;xabar; of the ;mubtada; [زَيْدٌ]{.ar}.)
+
+We will explore this more in section\ (inna vs anna) below).
 
 ## ;anna;
 
@@ -168,10 +209,10 @@ as a
 ;anna; is also known as
 the _;masdar;i_ ;anna;.
 
-We have already studied in chapter\ (ref) a similar particle
-the ;masdar;i [أَنْ]{.ar}.
-The _;masdar;i_ ;anna; and
-the ;masdar;i [أَنْ]{.ar}
+We have already studied in chapter\ (ref) a similar ;masdar;i particle:
+the ;nasibah; ;an;.
+The ;masdar;i ;anna; and
+the ;nasibah; ;an;
 are actually closely linked and we will study some aspects of
 their relationship in section\ (ref) below ;ia;.
 
@@ -463,16 +504,30 @@ That is why it frequently (but not exclusively) occurs after nouns indicating kn
 assertive, from @nahw_arabi@
 -->
 
+### ;anna; with the meaning of ;la3alla;
+
+TODO
+
+<https://shamela.ws/book/9977/106>:
+
+::: {.ar}
+وتكون "إن": بمعنى "لَعَلّ" فِي قوله عزّ وجلّ: {وَمَا يُشْعِرُكُمْ أَنَّهَا إِذَا جَاءَتْ} ٢ بمعنى "لعلَّها إذا جاءت". وحكى الخليل: "إئتِ السوقَ أنْكَ تشتري لَنَا شيئاً" بمعنى "لعلَّك".
+
+و"أنّ" إذا كَانَتْ اسماً كَانَتْ فِي قولك "ظننت أن زيداً قائم" فيكون "أن" والذي بعدها قصةً وشأناً، نحو "ظننت ذَاكَ" فيكون محلّه نصباً، وإذا قلْت "بلغني أن زيداً عالمٌ" فهذا فِي موضع رفع. وإذا قلنا "عجبت من أنّ زيداً كلّمكَ" فمحله خفض عَلَى مَا رتبناه من أنه اسم
+:::
+
 ## rest of sisters in turn
 
-## pronoun ;ism_of;
+TODO
+
+## A pronoun as the ;ism_of; ;inna; and its sisters
 
 ## A prepositional/adverbial phrase as the ;xabar; of ;inna; and its sisters
 
 A prepositional/adverbial phrase can occurs as the ;xabar; of ;inna; and its sisters.
 For example:
 
-(@) [إِنَّ زَيْدٌ فِي الدَّارِ]{.ar}  
+(@) [إِنَّ زَيْدًا فِي الدَّارِ]{.ar}  
     [Indeed Zayd is in the house.]{.trans}  
 
 (@) [عَلِمْتُ أَنَّ زَيْدًا عِنْدَكَ]{.ar}
@@ -587,9 +642,23 @@ For example:
     [@nahw_arabi@ 1/273]{.citex}  
     [O that with you was [#muHammad]{.trn2}]{.trans}  
 
+In such cases, where the prepositional/adverbial phrase ;xabar; may be placed either before or after the ;ism_of;,
+the signification can be slightly diferent.
+For example, if we say:
 
-But
-when the prepositional/adverbial phrase has a pronoun that refers to the ;ism_of;,
+(@) [إِنَّ مَعَكَ صَاحِبَكَ.]{.ar}
+    [@wright@ 2/80C]{.citex}  
+    [Indeed, with you, is **your companion**.]{.trans}
+
+This puts the logical accent on the ;ism_of; [صَاحِبَكَ]{.ar} "your companion". If the ;ism_of; is placed first then this puts the logical accent on the ;xabar;:
+
+(@) [إِنَّ صَاحِبَكَ مَعَكَ.]{.ar}
+    [@wright@ 2/80C]{.citex}  
+    [Indeed your companion is **with you**.]{.trans}
+
+
+
+When the prepositional/adverbial phrase has a pronoun that refers to the ;ism_of;,
 then it must obligatorily be placed before the ;ism_of;.
 For example:
 
@@ -1018,9 +1087,19 @@ either ;inna; or ;anna; may be used^[@nahw_arabi@ 1/277; [@ibn_aqil_alfiyyah@ 1/
 ### After an oath
 
 @nahw_arabi@ 278
+
 @nahw_wafi@ 1/650
 
 ### After [ف]{.ar} in a ;jawab_shart;
+
+When the ;jawab_shart; begins with a [فَ]{.ar},
+either ;inna; or ;anna; (or neither) may be used.^[@nahw_arabi@ 1/279]
+For example:
+
+(@) [إِنْ تَجْتَهِدْ فَإِنَّكَ/فَأَنَّكَ نَاجِحٌ]{.ar}
+    [@nahw_arabi@ 1/279]{.citex}  
+    [If you exert yourself then you will be successful.]{.trans}  
+
 
 @nahw_arabi@ 278
 
@@ -1032,14 +1111,32 @@ either ;inna; or ;anna; may be used^[@nahw_arabi@ 1/277; [@ibn_aqil_alfiyyah@ 1/
 
 @nahw_arabi@ 290
 
+<!--
+## The ;muxaffaf; ;in;, ;an;, ;ka_an;, and ;lakin;
+-->
 
-
-## the lightened in, an, and laakin
+## The ;muxaffaf; ;in;
 
 @nahw_arabi@ 296
 
+The particles
+;inna;, ;anna;, ;ka_anna;, and ;lakinna;,
+because of the ;shaddah; on the [ن]{.ar}, can be termed _heavy_.
+They have
+have ;muxaffaf; versions:
+;in;, ;an;, ;ka_an;, and ;lakin;.
+The ;muxaffaf; particles have somewhat different rules from their original heavy counterparts.
+In this section we will treat the ;muxaffaf; ;in;.
+We will treat the rest of the ;muxaffaf; particles in subsequent sections, ;ia;.
 
-## Differentiating between the lightened an and the ;masdar;i an
+
+## The ;muxaffaf; ;an;
+
+The ;muxaffaf; ;an; is to be distinguished from the light ;nasibah; ;an;
+(which governs a ;mudarie; verb in the ;astate;).
+
+
+## Differentiating between the ;muxaffaf; an and the ;nasibah; ;an;
 
 ;anna;, like ;inna; essentially signifies an assertive meaning.
 
