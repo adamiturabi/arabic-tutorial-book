@@ -99,7 +99,8 @@ map_table["adat_istifham"] = "question word"
 map_table["af3al"] = "comparative noun"
 map_table["af3aal_quloob"] = "verbs of perception"
 
-map_table["badal"] = "substitute" # replacement, substitute
+map_table["badal"] = "sub" # replacement, substitute
+map_table["mubdalb"] = "subbee" # replacee, substitutee
 
 map_table["damir_fasl"] = "separating-pronoun"
 map_table["damir_shan"] = "state-of-affairs pronoun" # pronoun-of-fact, pronoun of s͡haʾn
@@ -150,7 +151,6 @@ map_table["manut"] = "attributee"
 map_table["masdar"] = "[maSdar]{.trn2}"
 map_table["masdari_an"] = "[maSdari Ean]{.trn2}"
 map_table["mmutlaq"] = "absolute doee"
-map_table["mubdalb"] = "substitutee" # replacee, substitutee
 map_table["mubtada"] = "subject"
 map_table["mudaf"] = "annexe noun"
 map_table["mudafil"] = "base noun"
