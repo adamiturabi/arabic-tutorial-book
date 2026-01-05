@@ -133,6 +133,7 @@ li {
 }
 */
 .watermark {
+  transform: rotate(300deg);
   opacity: 0.10;
   position: fixed;
   pointer-events:none; /* allows scrolling when cursor over watermark */
