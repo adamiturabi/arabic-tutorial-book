@@ -844,6 +844,19 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/328")
     , sort_key = "تحقيق الكلام في المسايل الثلاث ضمن اثار المعلمي"
     ))
+  resource_list.append(BibResource(
+    "utheymeen_alfiyyah"
+    , cit_type = "ar_ref"
+    , cit_text = "[شرح ألفية ابن مالك للعثيمين]{.ar}"
+    , bib_text = """
+      الكتاب: شرح ألفية ابن مالك  
+      المؤلف: محمد بن صالح بن محمد العثيمين (ت ١٤٢١هـ)  
+      مصدر الكتاب: دروس صوتية قام بتفريغها موقع الشبكة الإسلامية  
+      http://www.islamweb.net  
+      """ + format_url_ar("https://shamela.ws/book/36954")
+    , sort_key = "شرح الفية ابن مالك للعثيمين"
+    ))
+
 
 
 
