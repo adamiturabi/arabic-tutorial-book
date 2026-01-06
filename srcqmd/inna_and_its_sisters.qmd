@@ -1485,40 +1485,161 @@ https://sunnah.com/bukhari:2940
 
   In non-;quran;ic Standard Arabic,
   [أَنْ]{.ar} is not joined in writing to the following particle.
-  So we will write [أَنْ لَا]{.ar}^[@nahw_wafi@], [أَنْ لَنْ]{.ar}, and [أَنْ لَمْ]{.ar}.
+  So we will write [أَنْ لَا]{.ar}^[@nahw_wafi@ 4/291 footnote 2], [أَنْ لَنْ]{.ar}, and [أَنْ لَمْ]{.ar}.
   But in pronunciation, the [ن]{.ar} is assimilated with the [ل]{.ar}, as usual,
   so we will say [EallA]{.trn}, [Eallan]{.trn}, and [Eallam]{.trn}.
 
+* The conditional particle [لَوْ]{.ar}
 
 
-وَأَنَا أَرْجُو أَنْ يُبَرِّئَنِي اللَّهُ، وَلَكِنْ وَاللَّهِ مَا ظَنَنْتُ أَنْ يُنْزِلَ فِي شَأْنِي وَحْيًا
-https://sunnah.com/bukhari:2661
+### When to use the ;muxaffaf; ;an; vs the ;nasibah; ;an;
 
-فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ وَفَخِذُهُ عَلَى فَخِذِي فَثَقُلَتْ عَلَىَّ حَتَّى ظَنَنْتُ أَنْ سَتُرَضُّ فَخِذِي
-https://sunnah.com/nasai:3099
+When ;an; is to be followed by a ;mudarie; verb
+(whether or not separated by a particle like [لَا]{.ar}),
+then the question is should we use
+the ;muxaffaf; ;an; or the ;nasibah; ;an;?
 
-وَحَسِبْتُ أَنْ قَدْ قَالَ ‏"‏ وَالرَّجُلُ رَاعٍ فِي مَالِ أَبِيهِ
-https://sunnah.com/bukhari:2751
+If we choose the ;muxaffaf; ;an;,
+then the ;mudarie; verb is put in the ;ustate;.
+For example:
 
-وَاعْلَمُوا أَنْ لَنْ يُدْخِلَ أَحَدَكُمْ عَمَلُهُ الْجَنَّةَ
-https://hadithunlocked.com/bukhari:6464
+(@) [عَلِمْتُ أَنْ لاَ **يَخْرُجُ** زَيْدٌ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/553](https://shamela.ws/book/13301/1917#p1)]{.citex}  
+    [I knew that Zayd will not go out.]{.trans}
 
-فَوَدِدْتُ أَنْ لَمْ أَسْأَلْهُ
-https://hadithunlocked.com/hakim:3944
+And if we choose the ;nasibah; ;an;,
+then the ;mudarie; verb is put in the ;ustate;.
+For example:
 
-تَمَنَّيْتُ أَنِّي لَمْ أَكُنْ أَسْلَمْتُ قَبْلَ ذَلِكَ الْيَوْمِ
-تَمَنَّيْتُ أَنِّي لَمْ أَكُنْ أَسْلَمْتُ قَبْلَ ذَلِكَ الْيَوْمِ
-https://hadithunlocked.com/muslim:96b
+(@) [اشْتَهَيْتُ أَنْ لاَ **يَخْرُجَ** زَيْدٌ]{.ar}
+    [[@sirafi_sibawayhi@ 3/406](https://shamela.ws/book/17726/1402)]{.citex}^[The term [مخخفة]{.ar} is used by the authour here to mean [أن الخفيفة الناصبة للمضارع]{.ar} as can be seen from the statement [أفعال العلم واليقين والمعرفة وما جرى مجراها من أفعال التحقيق تختص به " أنّ " المشددة الناصبة للأسماء دون " أن " **المخففة الناصبة للأفعال**]{.ar}]  
+    [I desired that Zayd not go out.]{.trans}
+
+The general principle is that
+the ;muxaffaf; ;an; is 
+used when the verb before it signifies certainty,
+like [عَلِمَ]{.ar} [to know]{.trans}.
+This is because it is the ;muxaffaf; from the heavy ;anna;, which is used assertively.
+
+As for the ;nasibah; ;an;, it is used when the verb before it signfies a wanting for something to happen,
+or a fearing that something not happen.
+Here are some examples that can illustrate this:
+
+(@) [عَلِمْتُ أَنْ **سَيَخْرُجُ** زَيْدٌ]{.ar}
+    [modified from [@ibn_ya3ish_mufassal@ 4/554](https://shamela.ws/book/13301/1918#p1)]{.citex}  
+    [I knew that Zayd will go out.]{.trans}
+
+(@) [أَرْجُو أَنْ **تُحْسِنَ** إِلَيََّ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/554](https://shamela.ws/book/13301/1918#p1)]{.citex}  
+    [I hope that you will do good to me.]{.trans}  
+
+(@) [أَخَافُ أَنْ **تُسِيءَ** إِلَيََّ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/554](https://shamela.ws/book/13301/1918#p1)]{.citex}  
+    [I fear that you will do evil to me.]{.trans}  
+
+There are a class of verbs that vary in the amount of certainty or wanting that they signify.
+Such verbs include:
+[ظَنَّ]{.ar} [to conjecture]{.trans},
+[حَسِبَ]{.ar} [to deem]{.trans},
+[خَالَ]{.ar} [to imagine]{.trans},
+[رَأَىٰ]{.ar} [to opine]{.trans},
+etc.
+They can usually in idiomatic English be translated as [to think]{.trans}.
+Furthermore, the ;madi; verb can be used where in Eng;ish we would use the present tense
+(in accordance with what we learned in section\ (madi used for moment of utterance)).
+
+With such verbs, both the ;muxaffaf; ;an; (and therefore also the heavy ;anna;),
+and the ;nasibah; ;an; can be used.
+In theory,
+the ;muxaffaf; ;an; (and the heavy ;anna;) is used when
+the speaker _believes_ the following statement to be true.^[[@sirafi_sibawayhi@ 3/406](https://shamela.ws/book/17726/1402)]
+
+For example:
+
+(@) [ظَنَنْتُ أَنَّكَ تَخْرُجُ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/554](https://shamela.ws/book/13301/1918#p1)]{.citex}  
+    [I [believe] that you are going out.]{.trans}  
+    or [I [believe] that you will go out.]{.trans}  
+
+(@) [ظَنَنْتُ أَنْ سَتَخْرُجُ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/554](https://shamela.ws/book/13301/1918#p1)]{.citex}  
+    [I [believe] that you will go out.]{.trans}  
+
+(@) [حسبت أن زيدا منطلق]{.ar}
+    [[@sirafi_sibawayhi@ 3/406](https://shamela.ws/book/17726/1402)]{.citex}  
+    [I [believe] that Zayd is setting out.]{.trans}  
+
+(@) [ظننت أنك أخونا]{.ar}
+    [[@sirafi_sibawayhi@ 3/406](https://shamela.ws/book/17726/1402)]{.citex}  
+    [I [believe] that you are our brother.]{.trans}  
+
+(@) [قَدْ حَسِبْتُ أَنْ لَا تَقُولُ ذَلِكَ]{.ar}
+    [[@sirafi_sibawayhi@ 3/406](https://shamela.ws/book/17726/1402)]{.citex}  
+    [I [believe] that you will not say that.]{.trans}
+
+(@) [أَرَىٰ أَنْ سَيَفْعَلُ]{.ar}
+    [[@sirafi_sibawayhi@ 3/407](https://shamela.ws/book/17726/1403#p1)]{.citex}  
+    [I [believe] that he will do [it].]{.trans}
+
+Conversely, the ;nasibah; ;an; is used when the
+the speaker _feels_ the following statement, without any strong evidence or indicator which is guiding his feeling.^[[@sirafi_sibawayhi@ 3/407](https://shamela.ws/book/17726/1403#p1)]
+
+merely as a feeling in his heart without 
+without there being any indicator that 
+not out of any indication that something will or won't happen,
+but rather out of wanting or not wanting it to happen.
+
+(@) [ظننت أن تَخْرُجَ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/554](https://shamela.ws/book/13301/1918#p1)]{.citex}  
+    [I [feel] that you will go out.]{.trans}
+
+(@) [ظَنَنْتُ أَنْ لاَ **تَفُعَلَ**]{.ar}
+    [[@sirafi_sibawayhi@ 3/407](https://shamela.ws/book/17726/1403#p1)]{.citex}  
+    [I [feel] that you will not do [it]]{.trans}
+
+(@) [تَظُنُّ أَن یُفۡعَلَ بِهَا فَاقِرَةࣱ]{.quran}
+    [@https://quran.com/75/25@ cited by [@sirafi_sibawayhi@ 3/407](https://shamela.ws/book/17726/1403#p1)]{.citex}  
+
+(@) [فَلَا جُنَاحَ عَلَیۡهِمَاۤ أَن یَتَرَاجَعَاۤ إِن ظَنَّاۤ أَن یُقِیمَا حُدُودَ ٱللَّهِۗ]{.quran}
+    [@https://quran.com/2/230@ cited by [@sirafi_sibawayhi@ 3/407](https://shamela.ws/book/17726/1403#p1)]{.citex}  
 
 
-وَدِدْتُ أَنِّي نَجَوْتُ مِنْهَا كَفَافًا لاَ لِي وَلاَ عَلَىَّ
-https://hadithunlocked.com/bukhari:7218
+Despite, this theoretical difference between the two uses,
+practically,
+the ;nasibah; ;an; is used more commonly in such situations because it is the default.^[[@sharh_qatr_alnada@ 64](https://shamela.ws/book/6970/49)]
 
-إِنِّي وَدِدْتُ أَنْ أَتَخَلَّصَ مِنْهَا لَا عَلَيَّ وَلَا لِي
-https://hadithunlocked.com/ibnhibban:4478
+We list the following examples to illustrate the range of ;an;:
+In some of them,
+it is not clear to us whether the ;an; is ;muxaffaf; or ;nasibah; because it does not determine the state of any ;mudarie; verb that may be following it.
 
 
+(@) [وَأَنَا أَرْجُو أَنْ يُبَرِّئَنِي اللَّهُ، وَلَكِنْ وَاللَّهِ مَا ظَنَنْتُ أَنْ يُنْزِلَ فِي شَأْنِي وَحْيًا]{.ar}
+    [@https://sunnah.com/bukhari:2661@]{.citex}  
 
+(@) [فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ وَفَخِذُهُ عَلَى فَخِذِي فَثَقُلَتْ عَلَىَّ حَتَّى ظَنَنْتُ أَنْ سَتُرَضُّ فَخِذِي]{.ar}
+    [@https://sunnah.com/nasai:3099@]{.citex}  
+
+(@) [وَحَسِبْتُ أَنْ قَدْ قَالَ وَالرَّجُلُ رَاعٍ فِي مَالِ أَبِيهِ]{.ar}
+    [@https://sunnah.com/bukhari:2751@]{.citex}  
+
+(@) [وَاعْلَمُوا أَنْ لَنْ يُدْخِلَ أَحَدَكُمْ عَمَلُهُ الْجَنَّةَ]{.ar}
+    [@https://sunnah.com/bukhari:6464@]{.citex}  
+
+(@) [فَوَدِدْتُ أَنْ لَمْ أَسْأَلْهُ]{.ar}
+    [https://hadithunlocked.com/hakim:3944]{.citex}
+
+(@) [تَمَنَّيْتُ أَنِّي لَمْ أَكُنْ أَسْلَمْتُ قَبْلَ ذَلِكَ الْيَوْمِ]{.ar}
+    [@https://sunnah.com/muslim:96b@]{.citex}  
+
+
+(@) [وَدِدْتُ أَنِّي نَجَوْتُ مِنْهَا كَفَافًا لاَ لِي وَلاَ عَلَىَّ]{.ar}
+    [@https://sunnah.com/bukhari:7218@]{.citex}  
+
+(@) [إِنِّي وَدِدْتُ أَنْ أَتَخَلَّصَ مِنْهَا لَا عَلَيَّ وَلَا لِي]{.ar}
+    [https://hadithunlocked.com/ibnhibban:4478]{.citex}  
+
+
+<!--
 https://shamela.ws/book/13301/1918#p1
 
 https://ketabonline.com/ar/books/2325/read?part=3&page=1409&index=3497286
@@ -1542,6 +1663,7 @@ by one of the following:
 https://shamela.ws/book/6970/48
 
 an is separated from la [@nahw_wafi@ 4/291 footnote 2]
+-->
 
 ### Differentiating between the ;muxaffaf; an and the ;nasibah; ;an;
 
