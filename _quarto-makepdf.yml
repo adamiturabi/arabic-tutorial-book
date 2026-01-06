@@ -47,7 +47,7 @@ format:
     monofont: "DejaVu Sans Mono"
     monofontoptions: "Scale=0.7"
     fontsize: 9pt
-    pdf-engine: xelatex
+    #pdf-engine: xelatex
     include-in-header:
       - file: srctex/include_in_header.tex
     #include-before-body:
