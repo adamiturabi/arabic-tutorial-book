@@ -66,10 +66,12 @@ map_table["third"] = "absentee"
 map_table["person"] = "participant"
 
 # mabny and mutasarrif
-map_table["mabny"] = "rigid"
+map_table["mabny"] = "inflexible"
 map_table["diptote"] = "semi-flexible"
 map_table["triptote"] = "fully-flexible"
 map_table["tote"] = "flexible"
+map_table["ghair_mutasarrif"] = "rigid"
+map_table["mutasarrif"] = "flexible"
 
 # active and passive voice
 map_table["active"] = "active" # "known-doer" verb?
@@ -109,7 +111,6 @@ map_table["dharf_zaman"] = "adverb of time"
 
 map_table["faa3il"] = "doer"
 
-map_table["ghair_mutasarrif"] = "frozen"
 map_table["hal"] = "[HAl]{.trn2}"
 
 map_table["i3timaad"] = "governing support"
@@ -193,6 +194,7 @@ map_table["substantive"] = "substantive"
 
 map_table["taamm"] = "sufficient"
 map_table["tabi3"] = "follower"
+map_table["tafsiri"] = "explanatory"
 map_table["tamyiz"] = "[tamyIz]{.trn2}"
 map_table["tawkeed"] = "emphatic follower"
 
