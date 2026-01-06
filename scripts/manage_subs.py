@@ -94,7 +94,7 @@ map_table["lafzi"] = "superficial" # false, superficial
 
 # alphabetical
 map_table["3aaid"] = "refer-back pronoun"
-map_table["3atf"] = "conjunction"
+map_table["3atf"] = "conjunct"
 map_table["3atf_bayan"] = "clarifying follower"
 
 map_table["adat_istifham"] = "question word"
@@ -142,7 +142,8 @@ map_table["laam_taqwiya"] = "strengthening-[لِ]{.ar}"
 map_table["lazim"] = "intransitive"
 map_table["lnj"] = {"لا النافية للجنس", "ar"}
 
-map_table["ma3toof"] = "conjunctee"  # "stateless" verb?
+map_table["ma3toof"] = "pre-conjunctee"  # "stateless" verb?
+map_table["ma3toof3"] = "post-conjunctee"  # "stateless" verb?
 map_table["madi"] = "perfect"  # "stateless" verb?
 map_table["maful"] = "doee"
 map_table["mafulb"] = "direct doee"
