@@ -256,6 +256,14 @@ def populate_resource_list():
     , bib_text = "الدر المصون للسمين الحلبي، " + format_url_ar("https://tafsir.app")
     , sort_key = "الدر المصون للسمين الحلبي"
     ))
+  resource_list.append(BibResource(
+    "iraab-daas"
+    , cit_type = "ar_ref"
+    , cit_text = "[إعراب القرآن للدعاس]{.ar}"
+    , bib_text = "إعراب القرآن للدعاس، " + format_url_ar("https://tafsir.app")
+    , sort_key = "اعراب القران للدعاس"
+    ))
+
 
   # General
   resource_list.append(BibResource(
@@ -794,6 +802,34 @@ def populate_resource_list():
     , sort_key = "شرح الاشمونى لافية ابن مالك"
     ))
   resource_list.append(BibResource(
+    "aljani_aldani"
+    , cit_type = "ar_ref"
+    , cit_text = "[الجنى الداني]{.ar}"
+    , bib_text = """
+      الكتاب: الجنى الداني في حروف المعاني  
+      المؤلف: أبو محمد بدر الدين حسن بن قاسم بن عبد الله بن عليّ المرادي المصري المالكي (ت ٧٤٩هـ)  
+      المحقق: د فخر الدين قباوة -الأستاذ محمد نديم فاضل  
+      الناشر: دار الكتب العلمية، بيروت - لبنان  
+      الطبعة: الأولى، ١٤١٣ هـ - ١٩٩٢ م  
+    """ + format_url_ar("https://shamela.ws/book/26099")
+    , sort_key = "جنى الداني"
+    ))
+  resource_list.append(BibResource(
+    "irtishaaf"
+    , cit_type = "ar_ref"
+    , cit_text = "[ارتشاف الضرب من لسان العرب]{.ar}"
+    , bib_text = """
+      الكتاب: ارتشاف الضرب من لسان العرب
+      المؤلف: أبو حيان محمد بن يوسف بن علي بن يوسف بن حيان أثير الدين الأندلسي (ت ٧٤٥ هـ)
+      تحقيق وشرح ودراسة: رجب عثمان محمد
+      مراجعة: رمضان عبد التواب
+      الناشر: مكتبة الخانجي بالقاهرة
+      الطبعة: الأولى، ١٤١٨ هـ - ١٩٩٨ م
+      عدد الأجزاء: ٥ (متسلسلة الترقيم)
+    """ + format_url_ar("https://shamela.ws/book/16595")
+    , sort_key = "ارتشاف الضرب من لسان العرب"
+    ))
+  resource_list.append(BibResource(
     "mu3allimi"
     , cit_type = "ar_ref"
     , cit_text = "[تحقيق الكلام في المسائل الثلاث ضمن آثار المعلمي]{.ar}"
@@ -808,6 +844,19 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/328")
     , sort_key = "تحقيق الكلام في المسايل الثلاث ضمن اثار المعلمي"
     ))
+  resource_list.append(BibResource(
+    "utheymeen_alfiyyah"
+    , cit_type = "ar_ref"
+    , cit_text = "[شرح ألفية ابن مالك للعثيمين]{.ar}"
+    , bib_text = """
+      الكتاب: شرح ألفية ابن مالك  
+      المؤلف: محمد بن صالح بن محمد العثيمين (ت ١٤٢١هـ)  
+      مصدر الكتاب: دروس صوتية قام بتفريغها موقع الشبكة الإسلامية  
+      http://www.islamweb.net  
+      """ + format_url_ar("https://shamela.ws/book/36954")
+    , sort_key = "شرح الفية ابن مالك للعثيمين"
+    ))
+
 
 
 

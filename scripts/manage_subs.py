@@ -15,6 +15,8 @@ map_table["larr"] = "←"
 
 # text terms
 map_table["Allah"] = "Allāh"
+map_table["arch"] = "archetypical"
+map_table["archly"] = "archetypically"
 map_table["ia"] = "if Allāh wills"
 map_table["quran"] = "Qurʾān"
 map_table["hadith"] = "[HadIv]{.trn2}"
@@ -22,6 +24,22 @@ map_table["islam"] = "[#islAm]{.trn2}"
 map_table["ayah"] = "[Ayah]{.trn2}"
 map_table["surah"] = "[sUrah]{.trn2}"
 map_table["tafsir"] = "[tafsIr]{.trn2}"
+
+# inna and its sisters
+map_table["inna"] = "[إِنَّ]{.ar}"
+map_table["anna"] = "[أَنَّ]{.ar}"
+map_table["ka_anna"] = "[كَأَنَّ]{.ar}"
+map_table["lakinna"] = "[لَـٰكِنَّ]{.ar}"
+map_table["layta"]   = "[لَيْتَ]{.ar}"
+map_table["la3alla"] = "[لَعَلَّ]{.ar}"
+map_table["in"] = "[إِنْ]{.ar}"
+map_table["an"] = "[أَنْ]{.ar}"
+map_table["ka_an"] = "[كَأَنْ]{.ar}"
+map_table["lakin"] = "[لَـٰكِنْ]{.ar}"
+map_table["in_nfy"] = "negating-[إِنْ]{.ar}"
+
+map_table["kaana"] = "[كَانَ]{.ar}"
+map_table["laysa"] = "[لَيْسَ]{.ar}"
 
 # 3aaqil
 map_table["3aaqil"]   = "intelligent being"   # raised-state"
@@ -45,12 +63,15 @@ map_table["tanwin"] = "[tanwIn]{.trn2}"
 map_table["first"] = "speaker"
 map_table["second"] = "adressee"
 map_table["third"] = "absentee"
+map_table["person"] = "participant"
 
 # mabny and mutasarrif
-map_table["mabny"] = "rigid"
+map_table["mabny"] = "inflexible"
 map_table["diptote"] = "semi-flexible"
 map_table["triptote"] = "fully-flexible"
 map_table["tote"] = "flexible"
+map_table["ghair_mutasarrif"] = "rigid"
+map_table["mutasarrif"] = "flexible"
 
 # active and passive voice
 map_table["active"] = "active" # "known-doer" verb?
@@ -73,15 +94,19 @@ map_table["lafzi"] = "superficial" # false, superficial
 
 # alphabetical
 map_table["3aaid"] = "refer-back pronoun"
-map_table["3atf"] = "conjunction"
+map_table["3atf"] = "conjunct"
+map_table["ma3toof"] = "post-conjunctee"
+map_table["ma3toof3"] = "pre-conjunctee"
 map_table["3atf_bayan"] = "clarifying follower"
 
 map_table["adat_istifham"] = "question word"
 map_table["af3al"] = "comparative noun"
 map_table["af3aal_quloob"] = "verbs of perception"
 
-map_table["badal"] = "substitute" # replacement, substitute
+map_table["badal"] = "sub" # replacement, substitute
+map_table["mubdalb"] = "subbee" # replacee, substitutee
 
+map_table["damir_fasl"] = "separating-pronoun"
 map_table["damir_shan"] = "state-of-affairs pronoun" # pronoun-of-fact, pronoun of s͡haʾn
 map_table["dharf_makan"] = "adverb of place"
 map_table["dharf_zaman"] = "adverb of time"
@@ -92,6 +117,7 @@ map_table["hal"] = "[HAl]{.trn2}"
 
 map_table["i3timaad"] = "governing support"
 map_table["idaafah"] = "annexation"
+map_table["idh_sudden"] = "[إِذَا]{.ar} or suddenness"
 map_table["indir_mafulb"] = "indirect doee"
 map_table["pregov"] = "foundational government" # initial gov, pre-gov, foundational gov
 map_table["ism_fail"] = "doer participle"
@@ -112,11 +138,12 @@ map_table["jawab_shart"] = "condition-response"
 map_table["j_ism"] = "nounal sentence"
 map_table["j_f3l"] = "verbal sentence"
 
-map_table["laam_taqwiya"] = "strengthening [ل]{.ar}"
+map_table["laam_ibt"] = "[لَ]{.ar} of beginning"
+map_table["laam_frq"] = "differentiator [لَ]{.ar}"
+map_table["laam_taqwiya"] = "strengthening-[لِ]{.ar}"
 map_table["lazim"] = "intransitive"
 map_table["lnj"] = {"لا النافية للجنس", "ar"}
 
-map_table["ma3toof"] = "conjunctee"  # "stateless" verb?
 map_table["madi"] = "perfect"  # "stateless" verb?
 map_table["maful"] = "doee"
 map_table["mafulb"] = "direct doee"
@@ -126,7 +153,6 @@ map_table["manut"] = "attributee"
 map_table["masdar"] = "[maSdar]{.trn2}"
 map_table["masdari_an"] = "[maSdari Ean]{.trn2}"
 map_table["mmutlaq"] = "absolute doee"
-map_table["mubdalb"] = "substitutee" # replacee, substitutee
 map_table["mubtada"] = "subject"
 map_table["mudaf"] = "annexe noun"
 map_table["mudafil"] = "base noun"
@@ -136,6 +162,7 @@ map_table["mushtaqq"] = "deverbal" # deverbal, derived
 map_table["musnad"] = "structure-completer" # complement, leaning element
 map_table["musnadi"] = "structure-starter" # rock, mainstay, anchor, pillar, supporting element
 map_table["mustatir"] = "latent" # assumed, hidden, invisible, implied
+map_table["muxaffaf"] = "lightened"
 map_table["muxbar3"] = map_table["musnadi"] # theme,rock, mainstay, anchor, subject, keystone, cornerstone, post, mast, pillar
 map_table["muxbar"] = map_table["musnad"] # rheme, complement, predicate, cornerstone, keystone, capstone, rafter, beam
 map_table["mutaddi"] = "transitive"
@@ -145,6 +172,8 @@ map_table["na3t"] = "attribute"
 map_table["nidaa"] = "vocative"
 map_table["naqis"] = "deficient"
 map_table["nasix"] = "canceling"
+map_table["nasibah"] = map_table["astate"] + "-izing"
+map_table["noon_wiq"] = "guarding-[ن]{.ar}"
 
 map_table["participle"] = "participle"
 map_table["pbuh"] = "[ﷺ]{.aralt}"
@@ -166,10 +195,13 @@ map_table["substantive"] = "substantive"
 
 map_table["taamm"] = "sufficient"
 map_table["tabi3"] = "follower"
+map_table["tafsiri"] = "explanatory"
 map_table["tamyiz"] = "[tamyIz]{.trn2}"
 map_table["tawkeed"] = "emphatic follower"
 
 map_table["xabar"] = "info" # newsworthy expression, information, comment, remark, info, report, news, expression
+
+map_table["ya_nida"] = "vocative [يَا]{.ar}"
 
 map_table["zaaid"] = "redundant"
 map_table["zaahir"] = "overt"

@@ -1,888 +1,1884 @@
-# [إِنَّ]{.ar} and its sisters {#inna-and-its-sisters}
+# ;inna; and its sisters
 
 ;wip_warn;
 
-
 ## Introduction
 
-In the basic ;j_ism;, both the ;mubtada; and the ;xabar; are in the ;ustate;. For example:
+The ;arch; ;j_ism; is governed by an abstract ;pregov; that governs
+a ;mubtada; and its ;xabar;, both in the ;ustate;.
 
-```{.tikzarabic}
-\usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
-\path [decoration={text effects along path, 
-  text=.\txarb{مُعَلِّمٌ} \txarb{ٱَلرَّجُلُ},
-  text effects/.cd, 
-    path from text, text along path,
-    group letters, word count=\w,
-    every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate] (0,0);
+For example:
 
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize info};
+(@inna_zaydun_qaaimun) [زَيْدٌ قَائِمٌ]{.ar}  
+    [Zayd is standing.]{.trans} . 
 
-\draw [decoration={brace, mirror}, decorate] 
-   (word-2.south west) -- (word-2.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize subject};
+In example (@inna_zaydun_qaaimun)
+above, an abstract ;pregov; governs the ;mubtada;
+[زَيْد]{.ar}
+and
+its ;xabar;
+[قَائِم]{.ar}
+both in the ;ustate;.
 
-%\path (0,0) node [midway, below=4.5ex, right=0ex, align=left] {``The man is a teacher.''};
+;inna; and its sisters
+are a set of six ;pregov; particles
+that take an ;arch; ;j_ism; as their input and
+transform it, by governing
+the ;mubtada; in the ;ustate; and the ;xabar; in the ;ustate;.
+Furthermore, each particle has its own meaning that it imparts to the input sentence.
+<!--
+When the ;ism_of; of ;inna; or its sisters is a pronoun,
+then then the attached pronouns are used.
+(This is discussed in more detail in section\ (ref) below.)
+For example:
 
-\end{tikzpicture}
-```
+(@) [إِنَّكَ قَائِمٌ]{.ar}  
+    [Indeed you are standing.]{.trans} . 
+-->
 
-"This man is a teacher."
 
-In the above sentence both the ;mubtada; [ٱَلرَّجُلَ]{.ar} "the man", and the ;xabar; [مُعَلِّمٌ]{.ar} "a teacher" are in the ;ustate;. In this chapter we will study a family of particles, called
-[إِنَّ]{.ar} and its sisters,
-that modify the ;j_ism; by placing the ;mubtada; in the ;astate; instead of the ;ustate;. For example,
+The set of
+;inna; and its sisters
+is:
 
-[إِنَّ ٱلرَّجُلَ مُعَلِّمٌ.]{.ar}  
-[Einna -rrajula mueallimun.]{.trn}  
-"Indeed the man is a teacher."
+  i. ;inna; [indeed]{.trans}
+ ii. ;anna; [that]{.trans}
+iii. ;ka_anna; [as if]{.trans}
+ iv. ;lakinna; [but]{.trans}
+  v. ;layta; [would that]{.trans}
+ vi. ;la3alla; [perhaps]{.trans}
 
-Note how, in the above example, the ;mubtada; [ٱَلرَّجُلَ]{.ar} "the man" is now in the ;astate;. The ;xabar; [مُعَلِّمٌ]{.ar} "a teacher" remains in the ;ustate;. 
+We will discuss them in the following sections.
 
-The particles constituting the family of 
-[إِنَّ]{.ar} and its sisters
-are:
+## ;inna; [inna]{.trn}
 
-1. [إِنَّ]{.ar}  [Einna]{.trn}     \vphantom{\huge J}
-1. [أَنَّ]{.ar}  [Eanna]{.trn}     \vphantom{\huge J}
-1. [كَأَنَّ]{.ar}  [kaEanna]{.trn}  \vphantom{\huge J}
-1. [لَـٰكِنَّ]{.ar}  [lAkinna]{.trn} \vphantom{\huge J}
-1. [لَيْتَ]{.ar}  [layta]{.trn}    \vphantom{\huge J}
-1. [لَعَلَّ]{.ar}  [laealla]{.trn}  \vphantom{\huge J}
+<!--
+(@inna_zaydun_qaaimun) [زَيْدٌ قَائِمٌ]{.ar}  
+    [Zayd is standing.]{.trans}
+-->
 
-We shall now study each of these particles.
+### Basic meaning of ;inna;
 
-## [إِنَّ]{.ar} [Einna]{.trn}
+;inna; has an assertive meaning.
+It asserts the property which its ;xabar; expresses about its ;ism_of;.
+For example:
 
-[إِنَّ]{.ar} [Einna]{.trn} is used to begin independent sentences. It has an emphatic meaning, as if the speaker is asserting the ;xabar; about the ;ism_of;. It is often translated into English as "indeed" or "verily", but it is also often left untranslated.
+<!--
+For example, the particle ;inna; can take 
+example (@inna_zaydun_qaaimun) [زَيْدٌ قَائِمٌ]{.ar}
+as input and transform it into:
+-->
 
-[إِنَّ]{.ar} [Einna]{.trn} is only used to begin ;j_ism;s. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.). For example,
+(@inna_zaydan_qaaimun) [إِنَّ زَيْدًا قَائِمٌ]{.ar}  
+    [Indeed Zayd is standing.]{.trans} . 
 
-[إِنَّ ٱلدِّينَ عِنْدَ ٱللَّـٰهِ ٱلْإِسْلَامُ.]{.ar}  
-[Einna -ddIna einda -llAhi -lEislAmu.]{.trn}  
-"Indeed, the religion in the sight of [#allAh]{.trn2} is [#islAm]{.trn2}." (;quran;\ 3:19, trans. Saheeh International)
+As you can see,
+the ;pregov; particle ;inna;
+has transformed the input example (@inna_zaydun_qaaimun)
+by governing the ;ism_of;
+[زَيْد]{.ar} in the ;astate;
+and
+its ;xabar;
+[قَائِم]{.ar} in the ;ustate;.
+It has also added the assertive meaning "[indeed]{.trans}".
 
-[إِنَّ]{.ar} [Einna]{.trn} 
-may be preceded by other particles like [وَ]{.ar} "and", [فَ]{.ar} "so", and [ثُمَّ]{.ar} "then". For example,
 
-[ٱُطْلُبِ ٱلْعِلْمَ ٱلنَّافِعَ. فَإِنَّ طَلَبَ ٱلْعِلْمَ ٱلنَّافِعَ عَمَلٌ صَالِحٌ. وَإِنَّ تَرْكَهُ غَفْلَةٌ.]{.ar}
-"Seek the useful knowledge. For indeed the seeking of the useful knowledge is a good deed. And indeed leaving it is a negligence."
+<!--
+;inna; is also a means for a sentence to begin with an indefinite ;ism_of;
+(after ;inna; itself, of course).
+For example:
+-->
 
-The ;ism_of; of
-[إِنَّ]{.ar} [Einna]{.trn} 
-may be a noun phrase, in which case, any ;na3t;s or replacements of the ;ism_of; are also in the ;astate;. Examples:
+### ;inna; with a pronoun ;ism_of;
 
-[إِنَّ هَـٰؤُلَاءِ ٱلرِّجَالَ ٱلْكِرَامَ أَصْدِقَائِي.]{.ar}  
-"Indeed these noble men are my friends."
+When the ;ism_of; of ;inna; (or any of its sisters) is a pronoun,
+then the attached pronouns are used.
+So we will say, for example:
 
-[إِنَّ]{.ar} [Einna]{.trn} may have multiple ;ism_of;s, each in the ;astate;, separated by [وَ]{.ar}. Example,
+(@) [إنه قائم وإنها جالسة و إنكما قائمان وإنهم جالسون]{.ar}
 
-[إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَاتِ يَعْبُدُونَ ٱللَّـٰهَ.]{.ar}  
-"Indeed the Muslim men and Muslim women worship [#allAh]{.trn2}."
+When the ;ism_of; is a pronoun for the singular ;first;-;person; [ي]{.ar},
+then a ;noon_wiq; may optionally be inserted.
+So we can say either
+[إِنَّنِي]{.ar} or [إِنِّي]{.ar}.
+Examples:
 
-If the ;xabar; of the first ;ism_of; has been mentioned before the second ;ism_of;, then the second ;ism_of; may optionally be in the ;astate; or the ;ustate;. For example:
+(@) [إني/إنني قائم]{.ar}
 
-[إِنَّ زَيْدًا جَالِسٌ وَعَمْرًا.]{.ar}  
-or  
-[إِنَّ زَيْدًا جَالِسٌ وَعَمْرٌو.]{.ar}  
-"Indeed Zayd is sitting and [#eamr]{.trn2} [as well]."
+And when 
+the ;ism_of; is a pronoun for the plural ;first;-;person; [نَا]{.ar},
+then the two [ن]{.ar}s can optionally be combined.
+So we can say either
+[إِنَّنَا]{.ar} or [إِنَّا]{.ar}.
+Examples:
 
-[إِنَّ هَـٰذَا ٱلْكِتَابَ لِي وَذَ ٰلِكَ ٱلْكِتَابَ لَكَ.]{.ar}  
-or  
-[إِنَّ هَـٰذَا ٱلْكِتَابَ لِي وَذَ ٰلِكَ ٱلْكِتَاكُ لَكَ.]{.ar}  
-"Indeed this book is for me and that book is for you."
+(@) [إنا/إننا قائمون]{.ar}
 
-[إِنَّ]{.ar} [Einna]{.trn} may be used to begin sentences with an indefinite ;ism_of;. For example,
+The above rules, which allow adding or dropping a [ن]{.ar},
+are common for all of the sisters of ;inna; that end with [ن]{.ar}:
+So we can say:
 
-[إِنَّ مَلِكًا مِنَ ٱلْهِنْدِ كَتَبَ إِلَىٰ أَحَدِ وُزَرَائِهِ.]{.ar}  
-"Indeed a king from India wrote to one of his ministers."
+* [إِنَّنِي]{.ar} or [إِنِّي]{.ar} and [إِنَّنَا]{.ar} or [إِنَّا]{.ar}.
+* [أَنَّنِي]{.ar} or [أَنِّي]{.ar} and [أَنَّنَا]{.ar} or [أَنَّا]{.ar}.
+* [كَأَنَّنِي]{.ar} or [كَأَنِّي]{.ar} and [كَأَنَّنَا]{.ar} or [كَأَنَّا]{.ar}.
+* [لَـٰكِنَّنِي]{.ar} or [لَـٰكِنِّي]{.ar} and [لَـٰكِنَّنَا]{.ar} or [لَـٰكِنَّا]{.ar}.
 
-Note that in all the above examples that
-[إِنَّ]{.ar} [Einna]{.trn} is only used to begin ;j_ism;s. Verbal sentences cannot be introduced by [إِنَّ]{.ar} [Einna]{.trn} directly. (Later, in section\ \@ref(damiir-al-shan), we shall see how to overcome this restriction.).
-By default, the ;ism_of; of [إِنَّ]{.ar} [Einna]{.trn} must directly follow it with no intervening words or particles. The only exception is when the ;xabar; consists of a prepositional or adverbial phrase, it is then allowed to precede the ;ism_of;. The ;ism_of;, in any case, shall be in the ;astate;. For example,
+;layta; and ;la3alla; have modified rules, which will be covered in their respective sections, ;ia;.
 
-[إِنَّ فِي ٱلْبَيْتِ رَجُلًا.]{.ar}  
-"Indeed, in the house, is a man."
+### An ;inna; as part of a larger sentence
 
-[إِنَّ تَحْتَ ٱلشَّجَرَةِ كَنْزًا ثَمِينًا.]{.ar}  
-"Indeed, under the tree, is a precious treasure."
+An ;inna; sentence can itself,
+be a part of a larger sentence.
+For example:
 
-This reverse order is permitted even when the ;ism_of; is definite. For example,
+(@) [زَيْدٌ إِنَّهُ قَائِمٌ]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/355](https://shamela.ws/book/9904/354#p1)]{.citex}  
+    [Zayd -- indeed he is standing.]{.trans}  
+    (The sentence [إِنَّهُ قَائِمٌ]{.ar} is the ;xabar; of the ;mubtada; [زَيْدٌ]{.ar}.)
 
-[إِنَّ مَعَكَ صَاحِبَكَ.]{.ar}  
-"Indeed, with you, is _your companion_."
+We will explore this more in section\ (inna vs anna) below).
+
+## ;anna; [anna]{.trn}
+
+### Interpretation of the ;anna; clause as a ;masdar; construction
+
+;anna; may be translated as "[that]{.trans}".
+;anna; is unique amongst
+;inna; and its sisters
+that when it transforms an input ;j_ism;
+the output is actually not a ;isnaad_comp; sentence anymore.
+Here is its output after transforming example (@inna_zaydun_qaaimun):
+
+(@anna_zaydan_qaaimun) [أَنَّ زَيْدًا قَائِمٌ]{.ar}  
+    [that Zayd is standing]{.trans}
+
+As you can see above,
+example (@anna_zaydan_qaaimun)
+does not stand by itself as a complete sentence.
+Terminologically,
+[زَيْدًا]{.ar}
+is the ;ism_of; of ;anna;
+and 
+[قَائِمٌ]{.ar} is
+its ;xabar;.
+But once ;anna; has been added to the sentence, then the resulting output actually
+only constitutes a single element of a sentence
+(in terms of sentence structure).
+Let's explain what we mean
+by making example (@anna_zaydan_qaaimun)
+a part of a larger sentence:
+
+<!--
+In order to make example () structutally complete
+it has to be part of a larger sentence.
+So for example, we could say:
+-->
+
+(@yu3jibuni_anna_zaydan_qaaimun) [يُعْجِبُنِي أَنَّ زَيْدًا قَائِمٌ]{.ar}  
+    [That Zayd is standing pleases me.]{.trans}
+
+Now the sentence is ;isnaad_comp;.
+In this sentence,
+the ;anna; clause
+(i.e. ;anna;, its ;ism_of;, and its ;xabar; together)
+constitutes the ;musnadi; element of the sentence
+as the ;faa3il; of the verb
+[يُعْجِبُنِي]{.ar}.
+The verb
+[يُعْجِبُنِي]{.ar}
+is the ;musnad; of the sentence.
+
+The grammarians have theorized that 
+the ;anna; clause
+is able to constitute a single sentence element
+because it is interpreted
+;masdar; construction.
+And the ;masdar; is then able to take the place of a single element of the sentence.
+In example (@yu3jibuni_anna_zaydan_qaaimun)
+the ;masdar; interpretation of
+the ;anna; clause
+[أَنَّ زَيْدًا قَائِمٌ]{.ar}
+[that Zayd is standing]{.trans}
+is theorized as
+[قِيَامُ زَيْدٍ]{.ar}
+[Zayd's standing(ness)]{.trans}.
+If we replace 
+the ;anna; clause
+in example (@yu3jibuni_anna_zaydan_qaaimun)
+with this interpreted ;masdar; construction,
+we get:
+
+(@) [يُعْجِبُنِي قِيَامُ زَيْدٍ]{.ar}  
+    [Zayd's standing(ness) pleases me.]{.trans}.
+
+Now we can see how
+the interpreted ;masdar; construction
+[قِيَامُ زَيْدٍ]{.ar}
+constitutes the ;musnadi; of the sentence.
+(Technically,
+the ;mudaf;
+[قِيَامُ]{.ar} is the ;musnadi; and
+[زَيْدٍ]{.ar}
+is it its ;mudafil; governee,
+but loosely speaking they can be considered one unit.)
+
+Because of this interpretation of
+the ;anna; clause
+as a 
+;masdar; construction,
+;anna; is also known as
+the _;masdar;i_ ;anna;.
+
+We have already studied in chapter\ (ref) a similar ;masdar;i particle:
+the ;nasibah; ;an;.
+The ;masdar;i ;anna; and
+the ;nasibah; ;an;
+are actually closely linked and we will study some aspects of
+their relationship in section\ (ref) below ;ia;.
+
+By the way,
+the interpretation of
+the ;anna; clause
+as a
+;masdar; construction
+does not mean that
+the sentence with the
+;masdar; construction
+will have exactly the same meaning as the
+sentence with ;anna;.
+Rather the 
+;masdar; interpretation only helps us analyze the sentence grammatically.
+And it will also help us determine when we can use
+the ;masdar;i ;anna; as opposed to other alternatives.
+
+### ;anna; clauses as different elements of a sentence
+
+Let's get back to
+example (@yu3jibuni_anna_zaydan_qaaimun) [يُعْجِبُنِي أَنَّ زَيْدًا قَائِمٌ]{.ar}
+[That Zayd is standing pleases me]{.trans}.
+In this sentence,
+as we just discussed,
+[أَنَّ زَيْدًا قَائِمٌ]{.ar},
+because of its interpretation as
+the ;masdar; construction
+[قِيَامُ زَيْدٍ]{.ar},
+constitutes a single element, in terms of sentence structure.
+In
+example (@yu3jibuni_anna_zaydan_qaaimun),
+it constitutes the ;faa3il; of a ;j_f3l;,
+which is a ;3umdah; element.
+But an ;anna; clause need not only constitute a ;faa3il;,
+or a ;3umdah; element for that matter.
+An ;anna; clause may constitute various elements of a sentence.
+We will discuss them below:
+
+#### The ;anna; clause as a ;faa3il; {.unnumbered}
+
+We have already seen an example of
+the ;anna; clause as the ;faa3il; in
+example (@yu3jibuni_anna_zaydan_qaaimun) [يُعْجِبُنِي أَنَّ زَيْدًا قَائِمٌ]{.ar}.
+Here is another example:
+
+(@) [بلغني أن زيدًا منطَلِقٌ]{.ar}
+    [[@qawa3id_shaykh_zadeh@ 1/176](https://shamela.ws/book/19236/185#p1)]{.citex}  
+    [[The news] that Zayd is setting out has reached me.]{.trans}
+
+If we replace the ;anna; clause with its interpreted ;masdar; we get:
+
+(@) [بلغني انطلاق زيدٍ]{.ar}
+    [[@qawa3id_shaykh_zadeh@ 1/176](https://shamela.ws/book/19236/185#p1)]{.citex}  
+    [Zayd's setting out has reached me.]{.trans}
+
+#### The ;anna; clause as a ;naib; ;faa3il; {.unnumbered}
+
+(@) [عرف أن السارق جريء]{.ar}
+    [[nawh_waadiH 1/264](https://shamela.ws/book/10018/256)]{.citex}  
+    [That the thief is bold was known.]{.trans}  
+
+If we replace the ;anna; clause with its interpreted ;masdar; we get:
+
+(@) [عرف جراءة السارق]{.ar}
+    [[nawh_waadiH 1/264](https://shamela.ws/book/10018/256)]{.citex}  
+    [The thief's boldness was known.]{.trans}  
+
+
+#### The ;anna; clause as a ;mafulb; {.unnumbered}
+
+The ;anna; clause can occur in the position of a ;mafulb;.
+Here is an example:
+
+(@) [عَلِمْتُ أنّكَ فَاضِلٌ]{.ar}  
+    [I knew that you are excellent.]{.trans}  
+    
+If we replace the ;anna; clause with its interpreted ;masdar; we get:
+
+(@) [عَلِمْتُ فَضْلَكَ]{.ar}  
+    [I knew your excellence.]{.trans}  
+
+<!--
+(@) [سمعت أن عَمْرًا عالمٌ]{.ar}
+    [[@qawa3id_shaykh_zadeh@ 1/177](https://shamela.ws/book/19236/186#p1)]{.citex}  
+    [I heard that [#eamr]{.trn2} is knowledgeable.]{.trans}  
+
+If we replace the ;anna; clause with its interpreted ;masdar; we get:
+
+(@) [سمعت عِلْمَ عمرو]{.ar}
+    [[@qawa3id_shaykh_zadeh@ 1/177](https://shamela.ws/book/19236/186#p1)]{.citex}  
+    [I heard the knowledge of [#eamr]{.trn2}]{.trans}
+
+<https://shamela.ws/book/19236/186#p1>:
+
+::: {.ar}
+ومفعولًا نحو: سمعت أن عَمْرًا عالمٌ، وهو مؤوّل بـ (سمعت عِلْمَ عمرو).
+
+ومضافًا إليه نحو: عَجِبْتُ من أنّ بكرًا واقفٌ، وهو مؤوّل بـ (عجبت من وقوف بكرٍ)
+:::
+
+Besides these more common elements,
+an ;anna; clause may constitute other elements as well,
+like a ;mubtada; and a ;xabar; 
+-->
+
+#### The ;anna; clause in the ;istate;  {.unnumbered}
+
+The ;anna; clause can occur after a preposition.
+For example:
+
+(@) [عَجِبْتُ من أنّ بكرًا واقفٌ]{.ar}
+    [[@qawa3id_shaykh_zadeh@ 1/177](https://shamela.ws/book/19236/186#p1)]{.citex}  
+    [I wondered at that Zayd is stopped standing.]{.trans}  
+
+If we replace the ;anna; clause with its interpreted ;masdar; we get:
+
+(@) [عجبت من وقوف بكرٍ]{.ar}
+    [[@qawa3id_shaykh_zadeh@ 1/177](https://shamela.ws/book/19236/186#p1)]{.citex}  
+    [I wondered at Zayd's being stopped standing.]{.trans}  
+
+The ;anna; clause can even occur as a ;mudafil;.
+For example:
+
+(@) [قَالَ أَيْنَ تُرِيدُ قَالَ أُرِيدُ أَخًا لِي فِي هَذِهِ الْقَرْيَةِ  قَالَ هَلْ لَكَ عَلَيْهِ مِنْ نِعْمَةٍ تَرُبُّهَا قَالَ لاَ **غَيْرَ أَنِّي** أَحْبَبْتُهُ فِي اللَّهِ عَزَّ وَجَلَّ]{.ar}  
+    [@https://sunnah.com/muslim:2567a@]{.citex}  
+    [[He said, "Where are you intending [to go]?" He said, "I intend [to go to] a brother of mine in this town." He said, "Do you have upon him a favor that [you are seeking repayment for]?" He said, "No, **except that** I have loved him [for the sake of] ;Allah; the Exalted and Glorious."]{.trans}  
+
+#### The ;anna; clause as a ;mubtada; {.unnumbered}
+
+The ;anna; clause as a ;mubtada; is not as common as the other categories,
+and has some restrictions.
+Generally, it won't begin the sentence.
+Instead, its ;xabar; will usually precede it.^[See [@aljani_aldani@ 408](https://shamela.ws/book/26099/390#p1) for an exception. See also [@sharh_ashmooni@ 1/204 (editor's footnote)](https://shamela.ws/book/11742/195) for another example.]
+For example:
+
+(@) [في ظني أنك فاضل]{.ar}
+    [[@aljani_aldani@ 408](https://shamela.ws/book/26099/390#p1)]{.citex}  
+    [[It is] in my estimation that you are excellent.]{.trans}  
+    ([في ظني]{.ar} is analyzed as a fronted ;xabar; and the interpreted ;masdar; construction
+    [فَضْلُكَ]{.ar} [your excellence]{.trans} is the backed ;mubtada;.)
+
+(@) [وَمِنۡ ءَایَـٰتِهِۦۤ أَنَّكَ تَرَى ٱلۡأَرۡضَ خَـٰشِعَةࣰ]{.quran}
+    [@https://quran.com/41/39@]{.citex}^[See @https://tafsir.app/iraab-daas/41/39@ and [@ibn_hisham_awdah_almasaalik@ 2/206 (editor's footnote)](https://shamela.ws/book/11825/573).]  
+    [And of His signs is that you see the earth stilled]{.trans}
+
+
+(@) [أحقا أنك ذاهب]{.ar}
+    [[@ibn_hisham_awdah_almasaalik@ 2/205](https://shamela.ws/book/11825/572)]{.citex}  
+    [[Is it] really that you are going?]{.trans}  
+    (The interpreted ;masdar; [ذَهَابُكَ]{.ar} is the ;mubtada;.
+    [حَقًّا]{.ar} is analyzed as an adverb ;xabar;.^[See [@ibn_hisham_awdah_almasaalik@ 2/206 (editor's footnote)](https://shamela.ws/book/11825/573).])
+
+<!--
+But when preceded by
+[أَمَا]{.ar}
+[OOO]{.trans},
+then the ;mubtada; ;anna; clause is allowed to precede its ;xabar;.^[[@aljani_aldani@ 408](https://shamela.ws/book/26099/390#p1)]
+For example:
+
+(@) [أما أنك فاضل ففي ظني]{.ar}
+    [[@aljani_aldani@ 408](https://shamela.ws/book/26099/390#p1)]{.citex}^[See also [@sharh_ashmooni@ 1/204 (editor's footnote)](https://shamela.ws/book/11742/195)]
+    [Verily, that you are excellent, then [it is] in my estimation]{.trans}  
+-->
+
+The ;anna; may even be an ;ism_of; of ;inna; and [كَانَ]{.ar}.
+Examples:
+
+(@) [كان في ظني أنك فاضل]{.ar}
+    [[@aljani_aldani@ 408](https://shamela.ws/book/26099/390#p1)]{.citex}  
+    [[It] was in my estimation that you are excellent.]{.trans}  
+
+As the ;ism_of; of ;inna;, the ;anna; clause must be separated from ;inna;:
+
+(@) [إن عندي أنك فاضل]{.ar}
+    [[@aljani_aldani@ 408](https://shamela.ws/book/26099/390#p1)]{.citex}  
+    [Indeed [it is your rank] with me that you are excellent.]{.trans}  
+    i.e. [You are excellent in my sight.]{.trans}
+
+#### The ;anna; clause as a ;xabar; {.unnumbered}
+
+(@) [أمرك أنك ذاهب]{.ar}
+    [[@aljani_aldani@ 409](https://shamela.ws/book/26099/391#p1)]{.citex}  
+    [Your state-of-affairs is that you are going.]{.trans}  
+    (The interpreted ;masdar; [ذَهَابُكَ]{.ar} is the ;xabar;.)
+
+### The interpreted ;masdar; when the ;xabar; of ;anna; is a prepositional/adverbial phrase
+
+Consider the following sentences,
+where the ;xabar; of ;anna; is a prepositional or adverbial phrase:
+
+(@) [عجبتُ من أن زيداً عندك]{.ar}
+    [[haazimi 24/10](https://shamela.ws/book/36130/419)]{.citex}  
+    [I wondered at that Zayd is at [your place].]{.trans}  
+    (The ;xabar; of ;anna; is an adverbial phrase: [عِنْدَكَ]{.ar} [at your place]{.trans}.)
+
+<!--
+(@) [عجبت من أن زيداً في الدار]{.ar}
+    [[haazimi 24/10](https://shamela.ws/book/36130/419)]{.citex}  
+    [I wondered at that Zayd is in the house.]{.trans}  
+-->
+
+(@) [علمت أن زيداً في الدار]{.ar}
+    [[haazimi 37/15](https://shamela.ws/book/36130/688)]{.citex}  
+    [I knew that Zayd is in the house.]{.trans}  
+    (The ;xabar; of ;anna; is an adverbial phrase: [فِي الدَّارِ]{.ar} [in the house]{.trans}.)
+
+
+In such cases, the interpreted ;masdar; is general beingness, represented by the ;masdar;
+[كَوْن]{.ar}
+or
+[اسْتِقْرَار]{.ar},
+as
+below:
+
+(@) [عجبت من استقرار زيدٍ عندك]{.ar}
+    [[haazimi 24/10](https://shamela.ws/book/36130/419)]{.citex}  
+    [I wondered at Zayd's being at [your place].]{.trans}  
+
+(@) [علمت كون زيد في الدار]{.ar}
+    [[haazimi 37/15](https://shamela.ws/book/36130/688)]{.citex}  
+    [I knew Zayd's being in the house.]{.trans}  
+
+### The interpreted ;masdar; when the ;xabar; of ;anna; is a ;substantive;
+
+Consider the following sentence,
+where the ;xabar; of ;anna; is a ;substantive;:
+
+
+(@) [علمت أن زيداً أسد]{.ar}
+    [[haazimi 37/15](https://shamela.ws/book/36130/688)]{.citex}  
+    [I knew that Zayd is a lion.]{.trans}  
+    (The ;xabar; of ;anna; is a substantive noun: [أَسَدٌ]{.ar} [a lion]{.trans}.)
+
+In this case as well, the interpreted ;masdar; can be general beingness:
+
+(@) [علمت كون زيد أسداً]{.ar}
+    [[haazimi 37/15](https://shamela.ws/book/36130/688)]{.citex}  
+    [I knew Zayd's being a lion.]{.trans}  
+
+Or the interpreted ;masdar; can be formed from the ;substantive;, using the suffix
+[ـِيَّة]{.ar} [-iyyah]{.trn}
+(see section\ (ref)),
+as below:
+
+(@) [علمت أسدية زيد]{.ar}
+    [[haazimi 37/15](https://shamela.ws/book/36130/688)]{.citex}  
+    [I knew Zayd's lion-like-ness.]{.trans}  
+
+### Optionally delete the preposition before ;anna;
+
+When the ;anna; clause is in the ;istate; following a preposition,
+then it is allowed to (optionally) delete the preposition, for the same meaning,
+as long as the meaning remains clear.
+So, instead of saying:
+
+(@) [عجبت **من** أنك قائم]{.ar}
+    [[@ibn_aqil_alfiyyah@ 2/151](https://shamela.ws/book/9904/538)]{.citex}  
+    [I wondered at that you are standing.]{.trans}  
+
+ we can say:
+
+(@) [عجبت أنك قائم]{.ar}
+    [[@ibn_aqil_alfiyyah@ 2/151](https://shamela.ws/book/9904/538)]{.citex}  
+    [I wondered that you are standing.]{.trans}  
+
+<!--
+### ;anna; with ;kaana;
+
+See TODO for ;kaana; chapter
+-->
+
+
+### [لِأَنَّ]{.ar} [because]{.trans}
+
+The preposition [لِ]{.ar} when attached before ;anna; can signify the meaning
+[because]{.trans}.^[@wright@ 1/293B]
+For example:
+
+(@) [قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا أُتِيَ بِطَعَامٍ أَكَلَ مِنْهُ وَبَعَثَ بِفَضْلِهِ إِلَىَّ وَإِنَّهُ بَعَثَ إِلَىَّ يَوْمًا بِفَضْلَةٍ لَمْ يَأْكُلْ مِنْهَا **لأَنَّ** فِيهَا ثُومًا فَسَأَلْتُهُ أَحَرَامٌ هُوَ قَالَ لاَ وَلَكِنِّي أَكْرَهُهُ مِنْ أَجْلِ رِيحِهِ]{.ar}
+    [@https://sunnah.com/muslim:2053@]{.citex}  
+    [He said, "The Messenger of ;Allah; ;pbuh; would, when he was brought some food, eat from it and send its extra to me. And indeed he sent to me, one day, some extra having not eaten from it **because** in it was some garlic. So I asked him, 'Is it unlawful?' He said, 'No, but I dislike it because of its odor.'"]{.trans}
+
+<!--
+### Significance of ;anna;
+
+;anna;, like ;inna; essentially signifies an assertive meaning.
+That is why it frequently (but not exclusively) occurs after nouns indicating knowledge with certainty.
+assertive, from @nahw_arabi@
+-->
+
+### ;anna; with the meaning of ;la3alla;
+
+As a niche use,
+;anna; can be used with the meaning of ;la3alla; (see section\ (ref) below).
+For example:
+
+(@) [ائتِ السوقَ أنكَ تشتري لَنَا شيئا]{.ar}
+    [[@abu_hayyan_tadhyeel@ 5/178](https://shamela.ws/book/17116/1561)]{.citex}  
+    [Come to the market [so] that you may buy for us something.]{.trans}  
+
+(@) [ما أدري أنه صاحبها]{.ar}
+    [[@abu_hayyan_tadhyeel@ 5/178](https://shamela.ws/book/17116/1561)]{.citex}  
+    [I don't know, perhaps he is his companion.]{.trans}  
+
+
+## ;ka_anna; [kaEanna]{.trn}
+
+;ka_anna; signifies [as if]{.trans}.
+Examples:
+
+(@) [كَأَنَّ الْعِلْمَ نُورٌ]{.ar}
+    [@nahw_arabi@ 1/272]{.citex}  
+    [[It is] as if knowledge is a light.]{.trans}  
+
+(@) [كَأَنَّ عَلِيًّا أَسَدٌ]{.ar}
+    [@nahw_arabi@ 1/272]{.citex}  
+    [[It is] as if [#ealiyy]{.trn2} is a lion.]{.trans}  
+
+(@) [ فَجِيءَ بِنَا كَأَنَّا أَفْرُخٌ]{.ar}
+    [@https://sunnah.com/abudawud:4192@]{.citex}  
+    [So we were brought [and it was] as if we [were] chicks.]{.trans}  
+
+(@) [كَأَنَّهُمۡ حُمُرࣱ مُّسۡتَنفِرَةࣱ]{.quran}
+    [@https://quran.com/74/50@]{.citex}  
+    [As if they were alarmed donkeys]{.trans}
+
+(@) [كَأَنِّي أَنْظُرُ إِلَى بَيَاضِهِ فِي يَدِهِ]{.ar}
+    [@https://sunnah.com/bukhari:65@]{.citex}  
+    [It is as if I am looking at its whiteness in his hand.]{.trans}  
+
+## ;lakinna; [lAkinna]{.trn}
+
+;lakinna; signifies [but]{.trans}.
+It forms a complete sentence with its ;ism_of; and its ;xabar;.
+But it will usually follow a previous sentence and contrast it.
+Examples:
+
+(@) [الشَّمْسُ مُشْرِقَةٌ لَكِنَّ الْجَوَّ بَارِدٌ]{.ar}  
+    [@nahw_arabi@ 1/272]{.citex}  
+    [The sun is bright but the air is cold.]{.trans}  
+
+(@) [قَالَ یَـٰقَوۡمِ لَیۡسَ بِی ضَلَـٰلَةࣱ وَلَـٰكِنِّی رَسُولࣱ مِّن رَّبِّ ٱلۡعَـٰلَمِینَ]{.quran}
+    [@https://quran.com/7/61@]{.citex}  
+    [[Noah] said, "O my people, there is not error in me, but I am a messenger from the Lord of the worlds."]{.trans}  
+
+## ;layta; [layta]{.trn}
+
+;layta; has a wishful meaning.
+For example:
+
+(@) [ليت زيداً قائمًا]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/568](https://shamela.ws/book/13301/1932)]{.citex}  
+    [Would that Zayd were standing.]{.trans}  
+
+The ;ya_nida;
+is frequently used before
+;layta;.
+For example:
+
+(@) [قَالَ يَـٰلَيْتَ قَوْمِى يَعْلَمُونَ]{.quran}
+    [@https://quran.com/36/26@]{.citex}  
+    [He said, "I wish my people could know"]{.trans}
+
+When the ;ism_of; is a pronoun for the singular ;first;-;person; [ي]{.ar},
+then a ;noon_wiq; is inserted by default, thus:
+[لَيْتَنِي]{.ar}.
+For example:
+
+(@) [وَيَقُولُ ٱلْكَافِرُ يَـٰلَيْتَنِى كُنتُ تُرَٰبًۢا]{.quran}
+    [@https://quran.com/78/40@]{.citex}  
+    [and the disbeliever will say, "Oh, I wish that I were dust!"]{.trans}  
+
+Very rarely, the ;noon_wiq; can be omitted.^[[@shatibi_sharf_alfiyyah@ 1/332](https://shamela.ws/book/20562/332#p1)]
+
+
+And when 
+the ;ism_of; is a pronoun for the plural ;first;-;person; [نَا]{.ar},
+then the [ن]{.ar} of the pronoun is kept separate, thus:
+[لَيْتَنَا]{.ar}.
+For example:
+
+(@) [يَـٰلَيْتَنَآ أَطَعْنَا ٱللَّهَ وَأَطَعْنَا ٱلرَّسُولَا۠]{.quran}
+    [@https://quran.com/33/66@]{.citex}  
+    [How we wish we had obeyed Allāh and obeyed the Messenger.]{.trans}  
+    
+;anna; can be  combined with ;layta; thus:
+
+(@) [**ليت أنّ** زيدًا خارجٌ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/569](https://shamela.ws/book/13301/1933#p1)]{.citex}  
+    [Would that Zayd were going out.]{.trans}  
+
+(@) [لَيْتَ أَنَّهُ شَاعِرٌ]{.ar}
+    [@fischer@ 180]{.citex}  
+    [Would that he were a poet.]{.trans}
+
+## ;la3alla; [laealla]{.trn}
+
+;la3alla; signifies [perhaps]{.trans}.
+It tends to be used in situations signifying hope for, or apprehension from, an impending event.^[[@ibn_ya3ish_mufassal@ 4/569](https://shamela.ws/book/13301/1933#p1)]
+
+Example of hope:
+
+(@) [لعل زيدا يكرمني]{.ar}
+    [[@maani_nahw@ 1/305](https://shamela.ws/book/17801/304)]{.citex}  
+    [Perhaps (i.e. I hope) Zayd will honor me.]{.trans}
+
+Example of apprehension:
+
+(@) [لعلّ بكرًا يضرب]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/570](https://shamela.ws/book/13301/1934#p1)]{.citex}  
+    [Perhaps (i.e. I fear) Bakr will beat.]{.trans}  
+
+Opposite to ;layta;,
+when the ;ism_of; is a pronoun for the singular ;first;-;person; [ي]{.ar},
+then a ;noon_wiq; is not inserted by default, thus:
+[لَعَلِّي]{.ar}.
+For example:
+
+(@) [إِذْ رَءَا نَارًۭا فَقَالَ لِأَهْلِهِ ٱمْكُثُوٓا۟ إِنِّىٓ ءَانَسْتُ نَارًۭا **لَّعَلِّىٓ** ءَاتِيكُم مِّنْهَا بِقَبَسٍ أَوْ أَجِدُ عَلَى ٱلنَّارِ هُدًۭى]{.quran}
+    [@https://quran.com/20/10@]{.citex}  
+    [When he saw a fire and said to his family, "Stay here; indeed, I have perceived a fire; perhaps I can bring you a torch or find at the fire some guidance."]{.trans}  
+
+Very rarely, the ;noon_wiq; can be omitted.^[[@shatibi_sharf_alfiyyah@ 1/333](https://shamela.ws/book/20562/333#p1)]
+
+But like ;layta;,
+the ;ism_of; is a pronoun for the plural ;first;-;person; [نَا]{.ar},
+then the [ن]{.ar} of the pronoun is separate, thus:
+[لَعَلَّنَا]{.ar}.
+For example:
+
+
+(@) [أَخْبِرْ صَاحِبَكَ أَنَّا قَدْ جِئْنَا **وَلَعَلَّنَا** سَنَعُودُ إِنْ شَاءَ اللَّهُ]{.ar}
+    [@https://sunnah.com/bukhari:4359@]{.citex}  
+    [Inform your companion that we came and perhaps we will come again, ;ia;.]{.trans}  
+
+Here are some more examples showing the semantic range of ;la3alla;:
+
+(@) [**لَعَلَّكُمْ** لَوْ لَمْ تَفْعَلُوا كَانَ خَيْرًا]{.ar}
+    [@https://sunnah.com/muslim:2362@]{.citex}  
+    [Perhaps if you did not do [it], it would be better.]{.trans}  
+
+
+(@) [إِنَّكُمْ لاَ تَدْرُونَ **لَعَلَّكُمْ** أَنْ تُبْتَلَوْا]{.ar}
+    [@https://sunnah.com/ibnmajah:4029@]{.citex}  
+    [Indeed you do not know, perhaps you will be tested.]{.trans}  
+
+(@) [قَالَ كُنَّا عِنْدَ عُمَرَ فَقَالَ أَيُّكُمْ سَمِعَ رَسُولَ اللَّهِ صلى الله عليه وسلم يَذْكُرُ الْفِتَنَ فَقَالَ قَوْمٌ نَحْنُ سَمِعْنَاهُ فَقَالَ **لَعَلَّكُمْ** تَعْنُونَ فِتْنَةَ الرَّجُلِ فِي أَهْلِهِ وَجَارِهِ قَالُوا أَجَلْ]{.ar}
+    [@https://sunnah.com/muslim:144a@]{.citex}  
+    [We were with [#eumar]{.trn2} and he said, "Which of you has heard the Messenger of ;Allah; mention the tribulations?" Some people said, "We did hear him." So he said, "Perhaps you are meaning the tribulation of a man in regard to his household and his neighbor?"]{.trans}  
+
+;la3alla; can also be used for a past event.
+For example:
+
+(@) [**لَعَلَّكَ** قَبَّلْتَ أَوْ غَمَزْتَ أَوْ نَظَرْتَ]{.ar}
+    [@https://sunnah.com/bukhari:6824@]{.citex}  
+    [Perhaps you (only) kissed or winked or looked?]{.trans}  
+
+(@) [**لَعَلَّنَا** أَعْجَلْنَاكَ]{.ar}
+    [@https://sunnah.com/bukhari:180@]{.citex}  
+    [Perhaps we have forced you to hurry?]{.trans}  
+
+;la3alla; is often connected in meaning to a previous sentence.
+signifying in its meaning a connotation of [in order to]{.trans}.
+In this sense, it approaches the meaning of [كَيْ]{.ar}.^[See (with caution) also @https://tafsir.app/kashaf/2/21@ and @https://tafsir.app/ibn-aashoor/2/21@ [یَـٰۤأَیُّهَا ٱلنَّاسُ ٱعۡبُدُوا۟ رَبَّكُمُ ٱلَّذِی خَلَقَكُمۡ وَٱلَّذِینَ مِن قَبۡلِكُمۡ لَعَلَّكُمۡ تَتَّقُونَ]{.quran}]
+For example:
+
+(@) [فَلَمَّا قُبِضَ رَسُولُ اللَّهِ صلى الله عليه وسلم فَخَرَجَ مُسَيْلِمَةُ الْكَذَّابُ قُلْتُ لأَخْرُجَنَّ إِلَى مُسَيْلِمَةَ **لَعَلِّي** أَقْتُلُهُ فَأُكَافِئَ بِهِ حَمْزَةَ]{.ar}
+    [@https://sunnah.com/bukhari:4072@]{.citex}  
+    [When the Messenger of ;Allah; ;pbuh; passed away, and then Musaylimah the Liar appeared, I said, "I will surely go out to Musaylimah **so that** I may kill him and so make amends for [killing] [#Hamzah]{.trn2}.]{.trans}  
+
+## A prepositional/adverbial phrase as the ;xabar; of ;inna; and its sisters
+
+A prepositional/adverbial phrase can occurs as the ;xabar; of ;inna; and its sisters.
+For example:
+
+(@) [إِنَّ زَيْدًا فِي الدَّارِ]{.ar}  
+    [Indeed Zayd is in the house.]{.trans}  
+
+(@) [عَلِمْتُ أَنَّ زَيْدًا عِنْدَكَ]{.ar}
+    [Indeed Zayd is at [your place].]{.trans}  
+
+In such cases,
+based on what we have learned in section\ (ref),
+the ;xabar; is actually implicated as general beingness,
+and the preposition or adverb is its governee.
+But loosely speaking we may say that
+the prepositional/adverbial phrase is the ;xabar;.
+
+## A complete sentence as the ;xabar; of ;inna; and its sisters
+
+The ;xabar; of ;inna; and its sisters may be a complete sentence.
+Examples:
+
+(@) [إِنَّ الْعِلْمَ يُعَزِّزُ صَاحِبَهُ]{.ar}
+    [@nahw_arabi@ 272]{.citex}  
+    [Indeed the knowledge -- it makes esteemed its companion.]{.trans}  
+    (The ;xabar; of ;inna; is the ;j_f3l; [يُعَزِّزُ صَاحِبَهُ]{.ar} [it makes esteemed its companion]{.trans}.)
+
+(@) [إِنَّ الْعَالِمَ قَدْرُهُ مُرْتَفِعٌ]{.ar}
+    [@nahw_arabi@ 1/272]{.citex}  
+    [Indeed the scholar -- his worth is high.]{.trans}  
+    (The ;xabar; of ;inna; is the ;j_ism; [قَدْرُهُ مُرْتَفِعٌ]{.ar} [his worth is high]{.trans}.)
+
+(@) [لَعَلَّكَ اجْتَهَدْتَ]{.ar}
+    [@nahw_arabi@ 1/272]{.citex}  
+    [Perhaps you may exert yourself.]{.trans}  
+    (The ;xabar; of ;la3alla; is the ;j_f3l; [اجْتَهَدْتَ]{.ar} [you exert yourself]{.trans}.)
+
+The ;xabar; of ;inna; (and its sisters) 
+can even be a compound itself itself.
+Here is an example where the ;xabar; of ;inna;
+is a ;kaana; sentence with its own ;ism_of; and ;j_f3l; ;xabar;:
+
+(@) [وَإِنَّ أَبَا هُرَيْرَةَ **كَانَ يَلْزَمُ** رَسُولَ اللَّهِ صلى الله عليه وسلم بِشِبَعِ بَطْنِهِ وَيَحْضُرُ مَا لاَ يَحْضُرُونَ وَيَحْفَظُ مَا لاَ يَحْفَظُونَ]{.ar}
+    [@https://sunnah.com/bukhari:118@]{.citex}  
+    [And indeed [#abU #hurayrah]{.trn2} used to stick with the Messenger of ;Allah; with the fill of his stomach and be present for what they [were] not present for, and memorize what they [were] not memorizing.]{.trans}
+
+## Word order of the ;ism_of; and the ;xabar; with ;inna; and its sisters
+
+The ;ism_of; of ;inna; (and its sisters) must always follow it in word order.
+And its ;xabar; must always follow the ;ism_of;.
+So, for example,
+we cannot say:
+
+(@) ;x; [إِنَّ قَائِمٌ زَيْدًا]{.ar}
+    [[@sharh_qatr_alnada@ 162](https://shamela.ws/book/6970/137)]{.citex}  
+
+We must say instead:
+
+(@) [إِنَّ زَيْدًا قَائِمٌ]{.ar}  
+    [Indeed Zayd is standing.]{.trans}
+
+If the ;xabar; has a governee, then it too
+should not, in general, preceded the ;ism_of;.
+So we cannot say:
+
+(@) ;x; [إن **طعامك** زيدا آكل]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
+
+We must say instead:
+
+(@) [إن زيدا آكل **طعامك**]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
+    [Indeed Zayd is eating your food.]{.trans}  
+
+The following word order is also permissible, for the same meaning:
+
+(@) [إن زيدا **طعامك** آكل]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/317](https://shamela.ws/book/20562/978)]{.citex}  
+    [Indeed Zayd is eating your food.]{.trans}  
+
+But when the governee of the ;xabar; is a prepositional or adverbial phrase,
+then there is some diagreement amongst the grammarians.^[[@irtishaaf@ 3/1244](https://shamela.ws/book/16595/1244); [@sirafi_sibawayhi@ 2/464](https://shamela.ws/book/17726/962)]
+Some grammarians allowed
+sentences like:
+
+(@) [إِنَّ **عِنْدَكَ** زَيْدًا جَالِسٌ]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
+    [Indeed with you Zayd is sitting.]{.trans}  
+
+(@) [إن **بك** زيدا واثق]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
+    [Indeed in you Zayd is trusting.]{.trans}  
+    
+Others disallowed such sentences and mandated the following order^[[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]:
+
+(@) [إِنَّ زَيْدًا جَالِسٌ **عِنْدَكَ**]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
+    [Indeed Zayd is sitting with you.]{.trans}  
+
+(@) [إن زيدا واثق **بك**]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
+    [Indeed Zayd is trusting in you.]{.trans}  
+
+But when the ;xabar; is itself
+(loosely speaking) the prepositional or adverbial phrase,
+then then it may be placed before the ;ism_of; undisputably.
+Sometimes, placing the 
+prepositional/adverbial phrase
+before the ;ism_of; is optional.
+For example:
+
+(@) [إِنَّ فِي الدَّارِ ضُيُوفًا كِرَامًا]{.ar}
+    [@nahw_arabi@ 1/273]{.citex}  
+    [Indeed in the house are noble guests.]{.trans}  
+
+(@) [لَيْتَ عِنْدَكَ مُحَمَّدًا]{.ar}
+    [@nahw_arabi@ 1/273]{.citex}  
+    [O that with you was [#muHammad]{.trn2}]{.trans}  
+
+In such cases, where the prepositional/adverbial phrase ;xabar; may be placed either before or after the ;ism_of;,
+the signification can be slightly diferent.
+For example, if we say:
+
+(@) [إِنَّ مَعَكَ صَاحِبَكَ.]{.ar}
+    [@wright@ 2/80C]{.citex}  
+    [Indeed, with you, is **your companion**.]{.trans}
 
 This puts the logical accent on the ;ism_of; [صَاحِبَكَ]{.ar} "your companion". If the ;ism_of; is placed first then this puts the logical accent on the ;xabar;:
 
-[إِنَّ صَاحِبَكَ مَعَكَ.]{.ar}  
-"Indeed your companion is _with_ you."
+(@) [إِنَّ صَاحِبَكَ مَعَكَ.]{.ar}
+    [@wright@ 2/80C]{.citex}  
+    [Indeed your companion is **with you**.]{.trans}
 
-If the ;ism_of; contains a pronoun that refers to a noun in the ;xabar; then the ;xabar; must precede the ;ism_of;. For example,
 
-[إِنَّ فِي ٱلْمَصْنَعِ عُمَّالَهُ.]{.ar}  
-"Indeed, in the factory, are its workers."
 
-[إِنَّ أَمَامَ ٱلدَّارِ حَارِسَهَا.]{.ar}  
-"Indeed, in front of the door, is its guard."
-
-### TODO: 
-
-[إن زيدا آكل طعامك]{.ar}
-
-See [@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)
-
-Tie in with separating 3aamil from ma3muul
-
-### Pronoun ;ism_of;s
-
-<!--In the examples above, the ;ism_of; of [إِنَّ]{.ar} has been a noun. -->
-The ;ism_of; of [إِنَّ]{.ar} may be a pronoun instead of a noun. For this the attached pronouns are used. For example,
-
-[لَا تَقْطَعْ تِلْكَ ٱلشَّجَرَةَ فَإِنَّهَا ظَلِيلَةٌ.]{.ar}  
-"Don't cut that tree, for it is shady."
-
-[إِنَّكُمَا صَدِيقَايَ.]{.ar}  
-"You~2~ are my friends."
-
-The speaker pronouns, both singular and plural, may optionally keep or drop their [ن]{.ar}. 
-So for the singular speaker pronoun both [إِنَّنِي]{.ar} [EinnanI]{.trn} and [إِنِّي]{.ar} [EinnI]{.trn} may be used.
-And for the plural speaker pronoun both [إِنَّنَا]{.ar} [EinnanA]{.trn} and [إِنَّا]{.ar} [EinnA]{.trn} may be used.
-Examples:
-
-[إِنِّي مُسْلِمٌ.]{.ar}  
-or  
-[إِنَّنِي مُسْلِمٌ.]{.ar}  
-"Indeed I am a Muslim."
-
-[إِنَّنَا كَاتِبُو هَـٰذَا ٱلْكِتَابَ.]{.ar}  
-or  
-[إِنَّا كَاتِبُو هَـٰذَا ٱلْكِتَابَ.]{.ar}  
-"Indeed we are the writers of this book."
-
-TODO: Multiple pronoun ;ism_of;s: [إِنِّ وَ إِيَّاكَ ...]{.ar}
-
-[إِنَّ]{.ar} with the speaker pronouns are often used with ;ism_fail;s to signify that the speaker intends to to the action of the verb. For example,
-
-[إِنِّي ذَاهِبٌ إِلَىٰ ٱلْمَسْجِدِ.]{.ar}  
-"I'm going to the mosque."
-
-We also mentioned this point in section\ \@ref(;ism_fail;-for-intended-future-action).
-
-### [إِنَّ]{.ar} [Einna]{.trn} with a strengthening [لَ]{.ar} {#inna-strengthening-la}
-
-The strengthening particle [لَ]{.ar} adds extra emphasis and may optionally be used between the ;ism_of; of [إِنَّ]{.ar} and its ;xabar;.
-If the ;ism_of; occurs first (as is the default) then [لَ]{.ar} is connected to and placed directly before the ;xabar;. For example:
-
-[إِنَّ زَيْدًا لَقَائِمٌ.]{.ar}  
-"Indeed Zayd is definitely standing."
-
-If the ;xabar; precedes the ;ism_of;, then then [لَ]{.ar} is connected to and placed directly before the ;ism_of;. For example:
-
-[إِنَّ فِي ٱلْبَيْتِ لَرَجُلًا.]{.ar}  
-"Indeed, in the house, is definitely a man."
-
-The strengthening particle [لَ]{.ar} is only used with [إِنَّ]{.ar} and not for any of its other sisters
-([إِنَّ]{.ar},
-[أَنَّ]{.ar},
-[كَأَنَّ]{.ar},
-[لَـٰكِنَّ]{.ar},
-[لَيْتَ]{.ar}, and
-[لَعَلَّ]{.ar}).
-
-### Commonality of rules for [إِنَّ]{.ar} and its sisters
-
-Unless otherwise noted, the rules we have presented above for 
-[إِنَّ]{.ar},
-for example, the ;ism_of; being in the ;astate;, the order of the ;ism_of; and the ;xabar;, the use of attached pronouns for the ;ism_of;, etc.,
-apply also to its other sisters. 
-
-The strengthening particle [لَ]{.ar}, as mentioned above, is only used with [إِنَّ]{.ar} and not for any of its other sisters.
-
-## [أَنَّ]{.ar} [Eanna]{.trn}
-
-The particle 
-[أَنَّ]{.ar} [Eanna]{.trn}
-can be translated as "that".
-It is similar to [إِنَّ]{.ar} in that it is asserts the ;xabar; about the ;ism_of;.
-But 
-[أَنَّ]{.ar} is different from [إِنَّ]{.ar} in that [إِنَّ]{.ar}, its ;ism_of;, and its ;xabar; together constitute a complete sentence.
-Whereas 
-the
-[أَنَّ]{.ar}
-clause
-([أَنَّ]{.ar}
-, its ;ism_of;, and its ;xabar; together) does not constitute a complete sentence. For example, consider the expression:
-
-[زَيْدٌ صَادِقٌ.]{.ar}  
-"Zayd is truthful."
-
-This is a complete sentence. But if we add 
-[أَنَّ]{.ar} "that" to its beginning, it no longer remains a complete sentence:
-
-[أَنَّ زَيْدًا صَادِقٌ]{.ar}  
-"that Zayd is truthful"
-
-We need to additional words, external to the 
-[أَنَّ]{.ar}
-clause
-to complete the sentence. We will see examples of this below.
-
-### The [أَنَّ]{.ar} clause in place of the ;mafulb;
-
-```{.tikzarabic}
-\usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
-\path [decoration={text effects along path, 
-  text=.\txarb{أَنَّ زَيْدًا صَادِقٌ} \txarb{أَعْلَمُ},
-  text effects/.cd, 
-    path from text, text along path,
-    group letters, word count=\w,
-    every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate] (0,0);
-
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize ;mafulb;};
-
-%\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``I know that Zayd is truthful.''};
-
-\end{tikzpicture}
-```
-
-"I know that Zayd is truthful."
-
-Note how, in the example above the 
-[أَنَّ]{.ar}
-clause
-([أَنَّ زَيْدًا صَادِقٌ]{.ar})
-has occupied the place of the ;mafulb; of the verb [أَعْلَمُ]{.ar}.
-
-In a similar manner,
-[أَنَّ]{.ar}
-clauses can be placed where one would expect other noun positions, such as: a ;mubtada;, an ;xabar;, a ;faa3il;, and more. Here are some examples:
-
-### The [أَنَّ]{.ar} clause in place of the ;faa3il;
-
-Example:
-
-```{.tikzarabic}
-\usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
-\path [decoration={text effects along path, 
-  text=.\txarb{أَنَّكَ مَرِيضٌ} \txarb{بَلَغَنِي},
-  text effects/.cd, 
-    path from text, text along path,
-    group letters, word count=\w,
-    every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate] (0,0);
-
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize doer};
-
-%\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``That you are sick has reached me.'' (``It has reached me that you are sick.'')};
-
-\end{tikzpicture}
-```
-
-"That you are sick has reached me." ("It has reached me that you are sick.")
-
-### The [أَنَّ]{.ar} clause in place of the ;mubtada;
-
-Example (with ;xabar; before ;mubtada; in sentence word order):
-
-```{.tikzarabic}
-\usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
-\path [decoration={text effects along path, 
-  text=.\txarb{أَنَّهُ كَرِيمٌ} \txarb{مِنْ صِفَاتِهِ},
-  text effects/.cd, 
-    path from text, text along path,
-    group letters, word count=\w,
-    every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate] (0,0);
-
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize subject};
-
-%\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``From his characteristics is that he is noble.''};
-
-\end{tikzpicture}
-```
-
-"From his characteristeics is that he is noble."
-
-### The [أَنَّ]{.ar} clause in place of the ;xabar;
-
-Example:
-
-```{.tikzarabic}
-\usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
-\path [decoration={text effects along path, 
-  text=.\txarb{أَنَّهُ ذَهَبَ} \txarb{ٱَلْحَقُّ},
-  text effects/.cd, 
-    path from text, text along path,
-    group letters, word count=\w,
-    every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate] (0,0);
-
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize info};
-
-%\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``The truth is that he went.''};
-
-\end{tikzpicture}
-```
-
-"The truth is that he went."
-
-### [أَنَّ]{.ar} with [كَانَ]{.ar}
-
-As you know, [كَانَ]{.ar}'s ;faa3il; is also its ;ism_of;, and its ;mafulb; is also its ;xabar;.
-The [أَنَّ]{.ar} clause can occur in either the ;ism_of; or the ;xabar; of [كَنَ]{.ar}. 
-For example, the [أَنَّ]{.ar} clause as the ;xabar;:
-
-```{.tikzarabic}
-\usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
-\path [decoration={text effects along path, 
-  text=.\txarb{أَنَّهُ لَمْ يَفْعَلْ وَاجِبَهُ} \txarb{كَانَ ٱلْأَمْرُ},
-  text effects/.cd, 
-    path from text, text along path,
-    group letters, word count=\w,
-    every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate] (0,0);
-
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize info};
-
-%\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``The truth is that he went.''};
-
-\end{tikzpicture}
-```
-
-"The matter was that he didn't do his obligation."
-
-Now, the [أَنَّ]{.ar} clause as the ;ism_of;:
-
-```{.tikzarabic}
-\usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
-\path [decoration={text effects along path, 
-  text=.\txarb{أَنَّهُ لَمْ يَفْعَلْ وَاجِبَهُ} \txarb{كَانَ ٱلْأَمْرَ},
-  text effects/.cd, 
-    path from text, text along path,
-    group letters, word count=\w,
-    every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate] (0,0);
-
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize subject};
-
-%\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``The truth is that he went.''};
-
-\end{tikzpicture}
-```
-
-"That he didn't do his obligation was the matter."
-
-Note that in the latter case, the ;xabar; precedes the ;ism_of;.
-
-### The [أَنَّ]{.ar} clause in place of an ;istate; noun
-
-The [أَنَّ]{.ar} clause can occur in place of an ;istate; ;mudafil; in an ;idaafah;. Example:
-
-```{.tikzarabic}
-\usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
-\path [decoration={text effects along path, 
-  text=.\txarb{أَنَّ ٱلسَّفَرَ خَطِرٌ} \txarb{كَثُرَ قَاطِعُو ٱلطَّرِيقِ لِدَرَجَةِ},
-  text effects/.cd, 
-    path from text, text along path,
-    group letters, word count=\w,
-    every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate] (0,0);
-
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize ;mudafil;};
-
-%\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``The truth is that he went.''};
-
-\end{tikzpicture}
-```
-
-"The highway robbers (literally: the cutters of the way) have increased to the degree that the journey is dangerous."
-
-The [أَنَّ]{.ar} clause can occur in place of an ;istate;  noun directly following a preposition. Example:
-
-```{.tikzarabic}
-\usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
-\path [decoration={text effects along path, 
-  text=.\txarb{أَنَّ زَيْدًا نَائِمٌ} \txarb{عَجِبْتُ مِنْ},
-  text effects/.cd, 
-    path from text, text along path,
-    group letters, word count=\w,
-    every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate] (0,0);
-
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize ;istate; after preposition};
-
-%\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``The truth is that he went.''};
-
-\end{tikzpicture}
-```
-
-"I wondered at that Zayd is asleep."
-
-#### Optionally deleting the preposition directlt before an [أَنَّ]{.ar} clause
-
-If an
-[أَنَّ]{.ar} clause
-directly follows a preposition, it is permissible to optionally delete the preposition as long as the meaning remains clear.
-So the previous example can be expressed without the preposition [مِنْ]{.ar} with the same meaning:
-
-[عَجِبْتُ أَنَّ زَيْدًا نَائِمٌ.]{.ar}  
-"I wondered at that Zayd is asleep."
-
-#### [لِأَنَّ]{.ar} "because"
-
-The combination of the preposition [لِ]{.ar} "for" and [أَنَّ]{.ar} is used to mean "because". For example,
-
-[أَكَلْتُ ٱلطَّعَامَ لِأَنَّنِي كُنْتُ جَائِعًا.]{.ar}  
-"I ate the food because I was hungry."
-
-### Equivalence of the [أَنَّ]{.ar} clause with a ;masdar;
-
-As a matter of grammatical theory, the
-[أَنَّ]{.ar} clause, i.e. ([أَنَّ]{.ar} itself, its ;ism_of;, and its ;xabar;) is considered equivalent to a ;masdar; (typically in an ;idaafah;, and possibly with a ;mafulb; as well). It is this equivalence that allows it to thake the place of a ;faa3il;, ;mafulb;, and the other categories we have given above.
-For instance, consider the example:
-
-[عَجِبْتُ مِنْ أَنَّ زَيْدًا ذَهَب.]{.ar}  
-"I wondered at that Zayd went."
-
-Here, the clause
-[أَنَّ زَيْدًا ذَهَب]{.ar}
-is equivalent to the verbal noun phrase [ذَهَابِ زَيْدٍ]{.ar} "Zayd's going". So the grammatically equivalent sentence with this verbal noun phrase is:
-
-[عَجِبْتُ مِنْ ذَهَابِ زَيْدٍ.]{.ar}  
-"I wondered at Zayd's going."
-
-Similarly, in the example,
-
-[مِنْ صِفَاتِهِ أَنَّهُ كَرِيمٌ.]{.ar}  
-"From his characteristics is that he is generous."
-
-the clause
-[أَنَّهُ كَرِيمٌ]{.ar}
-is equivalent to the verbal noun phrase [كَرَامَتِهِ]{.ar} "his generosity". So the grammatically equivalent sentence with this verbal noun phrase is:
-
-[كَرَامَتِهِ مِنْ صِفَاتِهِ.]{.ar}  
-"His generosity is from his characteristics."
-
-This grammatical equivalence is more a matter of theory than of practical usefulness to us.
-And you have seen this grammatical equivalence before with [أَنْ]{.ar} and ;astate; ;mudarie; verbs in chanpter\ \@ref(;astate;-;mudarie;-verbs-verbal-noun).
-
-## [كَأَنَّ]{.ar} [kaEanna]{.trn}
-
-[كَأَنَّ]{.ar} [kaEanna]{.trn}
-may be translated as "[It is] as if".
-It is actually simply the preposition [كَ]{.ar} "like" attached to [أَنَّ]{.ar}. But it is treated separately because, unlike [أَنَّ]{.ar},
-[كَأَنَّ]{.ar} [kaEanna]{.trn}, its ;ism_of;, and its ;xabar; constitute a complete sentence. For example,
-
-[كَأَنَّ ٱلْأُمُّ مَدْرَسَةٌ.]{.ar}  
-"[It is] as if the mother is a school."
-
-TODO: add more info
-
-## [لَـٰكِنَّ]{.ar} [lAkinna]{.trn}
-
-TODO
-
-## [لَيْتَ]{.ar}  [layta]{.trn}
-
-TODO
-
-## [لَعَلَّ]{.ar}  [laealla]{.trn}
-
-TODO
-
-## The ;damir_shan; with [إِنَّ]{.ar} and its sisters
-
-The ;damir_shan; 
-(see section\ (ref))
-is used very commonly with [إِنَّ]{.ar} and its sisters.
+When the prepositional/adverbial phrase has a pronoun that refers to the ;ism_of;,
+then it must obligatorily be placed before the ;ism_of;.
 For example:
 
-(@) [يَـٰمُوسَىٰٓ **إِنَّهُۥٓ** أَنَا ٱللَّهُ ٱلْعَزِيزُ ٱلْحَكِيمُ]{.quran}
-    [@https://quran.com/27/9@ cited by @nahw_arabi@ 1/89]{.citex}  
-    [O Moses, indeed it is I - Allāh, the Exalted in Might, the Wise.]{.trans}
+(@) [إِنَّ فِي الدَّارِ سَاكِنَهَا]{.ar}
+    [[@irtishaaf@ 3/1244](https://shamela.ws/book/16595/1244)]{.citex}  
+    [Indeed in the house is its resident.]{.trans}
+
+(@) [إِنَّ عِنْدَ هِنْدٍ بَعْلَهَا]{.ar}
+    [[@irtishaaf@ 3/1244](https://shamela.ws/book/16595/1244)]{.citex}  
+    [Indeed with Hind is her husband.]{.trans}
+
+## A ;damir_shan; as the ;ism_of; of ;inna; and its sisters
+
+A ;damir_shan; can occur as the ;ism_of; of ;inna; and its sisters.
+In this case,
+as usual,
+the ;xabar; will be a complete sentence.
+
+As with ;kaana;, when the ;ism_of; is a ;damir_shan;,
+then the ;xabar; can be a ;j_ism; or a ;j_f3l;.
+
+For example:
+
+(@) [**إِنَّهَا** تَكُونُ الظُّلْمَةُ وَالسَّيْلُ]{.ar}
+    [@https://sunnah.com/bukhari:667@]{.citex}  
+    [The state-of-affairs is: [there] is [at times] darkness and flooding]{.trans}  
+
+(@) [وَقَالَ إِنَّهُ قَدِ اجْتَمَعَ لَكُمْ فِي يَوْمِكُمْ هَذَا عِيدَانِ]{.ar}  
+    <https://sunnah.com/urn/504350>
+
+## ;inna; with a ;laam_ibt;
+
+The _;laam_ibt;_ is a particle which generally occurs in the beginning of a sentence signifies an assertive meaning.
+For example, if we start with:
+
+(@) [زَيْدٌ قَائِمٌ]{.ar}  
+    [Zayd is standing.]{.trans}  
+
+then we can make the sentence more assertive by using ;laam_ibt; in its beginning:
+
+(@) [لَزَيْدٌ قَائِمٌ]{.ar}  
+    [Indeed Zayd is standing.]{.trans}  
+
+The ;laam_ibt;, in sentences without ;inna; (as above),
+is placed in the beginning of the sentence
+and is attached only to the ;mubtada;.
+If the ;xabar; were fronted, we wouldn't say:
+
+(@) ;x; [لَقَائِمٌ زَيْدٌ]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/353](https://shamela.ws/book/20562/1014#p1)]{.citex}  
 
 
-The ;damir_shan; 
-also functions as a device to enable
-a ;j_f3l;
-to directly follow
-[إِنَّ]{.ar} (or one of its sisters)
-without having to specify a ;ism_of; for
-[إِنَّ]{.ar}.^[@nahw_arabi@ 1/89]
+### The ;laam_ibt; placed before the ;xabar; of ;inna;
+
+This ;laam_ibt; is frequently found used with ;inna;.
+But instead of occurring before ;inna; thus:
+
+(@) ;x; [لَإِنَّ]{.ar}
+
+it is placed between the ;ism_of; of ;inna; and its ;xabar;, thus:
+
+(@) [إِنَّ زَيْدٌ لَقَائِمٌ]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/352](https://shamela.ws/book/20562/1013)]{.citex}  
+    [Indeed Zayd is standing.]{.trans}  
+
+
+When [إِنَّ]{.ar} is used together with ;laam_ibt; as in the example above,
+then the sentence signifies extra assertion,
+compared to if had only ;inna; or only the ;laam_ibt;.
+
+In a similar manner to example () above,
+we can say:
+
+(@) [إن زيدًا لفي الدار]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/352](https://shamela.ws/book/20562/1013)]{.citex}  
+    [Indeed Zayd is in the house.]{.trans}  
+
+The ;laam_ibt; 
+has certain restrictions placed on its usage,
+when used with ;inna;:
+
+Firstly, it can only be used with ;inna; and not with any of its sisters.
+
+Secondly, the ;inna; sentence should be an affirmative sentence, not a negative sentence.
+So we cannot say:
+
+(@) ;x; [إِنَّ عَلِيًّا **لَمَا** حَضَرَ]{.ar}
+    [@nahw_arabi@ 1/288]{.citex}
+
+Instead, we should say (without the ;laam_ibt;):
+
+(@) [إِنَّ عَلِيًّا مَا حَضَرَ]{.ar}
+    [@nahw_arabi@ 1/288]{.citex}  
+    [Indeed [#ealiyy]{.trn2} was not present.]{.trans}
+
+Additionally, when the ;xabar; of ;inna; is a ;j_f3l; with a ;madi; verb, then the ;laam_ibt; is not attached to the ;madi; verb.
+But if [قَدْ]{.ar} is used before the ;madi; verb, then the ;laam_ibt; may be attached before it.
+So we cannot say:
+
+(@) ;x; [إِنَّ الْعِلْمَ لَرَفَعَ قَدْرَ صَاحِبِهِ]{.ar}
+    [@nahw_arabi@ 1/288]{.citex}  
+
+But we can say:
+
+(@) [إِنَّ الْعِلْمَ لَقَدْ رَفَعَ قَدْرَ صَاحِبِهِ]{.ar}
+    [@nahw_arabi@ 1/288]{.citex}  
+    [Indeed the knowledge -- it has raised the worth of its companion.]{.trans}  
+
+Or we can say without both the ;laam_ibt; and [قَدْ]{.ar}
+
+(@) [إِنَّ الْعِلْمَ رَفَعَ قَدْرَ صَاحِبِهِ]{.ar}
+    [@nahw_arabi@ 1/288]{.citex}  
+    [Indeed the knowledge -- it raised the worth of its companion.]{.trans}  
+
+This restriction is not placed on a ;xabar which is a ;j_f3l; with a ;mudarie; verb.
+So we can say:
+
+(@) [إن زيدًا **ليخرج** اليوم]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/352](https://shamela.ws/book/20562/1013)]{.citex}  
+    [Indeed Zayd -- he will go out today.]{.trans}  
+
+When the ;mudarie; verb has [سَوْفَ]{.ar},
+then grammarians have disagreed with regards tp allowing ;laam_ibt; to attach to it.^[@shatibi_sharf_alfiyyah@ 2/354](https://shamela.ws/book/20562/1015#p1)]
+
+(@) [إن زيدا **لسوفَ** يقوم]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/354](https://shamela.ws/book/20562/1015#p1)]{.citex}  
+    [Indeed Zayd -- he will soon stand.]{.trans}
+
+Also, ;ghair_mutasarrif; ;madi; verbs are exempted from being restricted and may be used with ;laam_ibt; directly.
+For example:
+
+(@) [إنّ زيدًا **لنِعْم** الرجلُ]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/352](https://shamela.ws/book/20562/1013)]{.citex}  
+    [Indeed Zayd -- how excellent the man.]{.trans}  
+
+(@) [إنّ عمرًا **لِبِئْسَ** الغلامُ]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/352](https://shamela.ws/book/20562/1013)]{.citex}  
+    [Indeed Zayd -- how wretched the boy.]{.trans}  
+
+However,
+;laysa; is a ;ghair_mutasarrif; verb, but ;laam_ibt; does not attach to it because of the
+undesirableness of two [ل]{.ar}s coming togather.
+So we won't say:
+
+(@) ;x; [إنّ زيدًا **لليس** بقائم]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/352](https://shamela.ws/book/20562/1013)]{.citex}  
+    [Indeed Zayd -- he is not standing.]{.trans}  
+
+When a governee of the ;xabar; is placed before it in word order
+(but still after the ;ism_of;),
+such that it comes between the ;ism_of; and the ;xabar;,
+then ;laam_ibt; will attach to the fronted governee, thus:
+
+(@) [إنّ زيدًا **لَفِى الدار** قائمٌ]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/354](https://shamela.ws/book/20562/1015#p1)]{.citex}  
+    [Indeed Zayd, in the house is standing.]{.trans}  
+
+<!--
+(@) [إنك **لَعِندي** خطِي]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/354](https://shamela.ws/book/20562/1015#p1)]{.citex}
+-->
+
+(@) [إن زيدًا **لطعامَكَ** آكلٌ]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/355](https://shamela.ws/book/20562/1016#p1)]{.citex}  
+    [Indeed Zayd, your food he is eating.]{.trans}  
+
+But if the governee of the ;xabar; is placed after the ;xabar; then the ;xabar; will have ;laam_ibt;, not its governee.
+So we won't say:
+
+(@) ;x; [إنَّ زيدًا آكلٌ **لطعامكَ**]{.ar}
+    [[@sarraj_usool@ 2/235](https://shamela.ws/book/7365/739)]{.citex}  
+
+Instead, we will say:
+
+(@) [إنَّ زيدًا **لآكلٌ** طعامَكَ]{.ar}
+    [[@sarraj_usool@ 2/235](https://shamela.ws/book/7365/739)]{.citex}  
+    [Indeed Zayd is eating your food.]{.trans}  
+
+Also, if the ;ism_of; has a ;na3t; which occurs between it and the ;xabar;,
+then again ;laam_ibt; is placed with the ;xabar;.
+For example:
+
+(@) [إِنّ زيدًا الفاضِلَ **لَقَائِمٌ**]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/355](https://shamela.ws/book/20562/1016#p1)]{.citex}  
+    [Indeed the excellent Zayd is standing]{.trans}  
+
+### The ;laam_ibt; placed before the ;ism_of; of ;inna;
+
+So far, we have seen the ;laam_ibt; attached before the ;xabar; of ;inna;.
+But,
+if the ;xabar; occurs before the ;ism_of; in word order,
+then ;laam_ibt; is actually atached before the ;ism_of;.
+In this way, ;laam_ibt; again occurs between the ;ism_of; and the ;xabar;.
+For example:
+
+(@) [إن في الدار **لزيدا**]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/373](https://shamela.ws/book/9904/372)]{.citex}  
+    [Indeed in the house is Zayd.]{.trans}  
+
+If the ;xabar; occurs after the ;ism_of; in word order,
+but a governee of the ;xabar; occurs before the ;ism_of;,
+then we have two options:
+;laam_ibt; may optionally be attached before the ;ism_of; or before the ;xabar;.
+For example:
+
+(@) [إن فيها زيدًا **لقائم**]{.ar}  
+    [إن فيها **لزيدًا** قائم]{.ar}  
+    [[@shatibi_sharf_alfiyyah@ 2/357](https://shamela.ws/book/20562/1018#p1)]{.citex}  
+    [Indeed in it Zayd is standing.]{.trans}  
+
+### The ;laam_ibt; with a ;damir_fasl;
+
+If a ;damir_fasl; occurs between the ;ism_of; and the ;xabar; of ;inna;,
+and a ;laam_ibt; is to be used, then
+the ;laam_ibt; will be attached before the ;damir_fasl;.
+For example, if we start with:
+
+(@) [إن زيدًا هو القائم]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/357](https://shamela.ws/book/20562/1018#p1)]{.citex}  
+    [Indeed Zayd is the standing one.]{.trans}  
+
+and we add ;laam_ibt;,
+we get:
+
+(@) [إن زيدًا **لَهو** القائم]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 2/357](https://shamela.ws/book/20562/1018#p1)]{.citex}  
+    [Indeed Zayd is the standing one.]{.trans}  
+
+
+## When to use ;inna; vs ;anna;
+
+### The basic principle
+
+The basic principle in choosing whether to use
+;inna; vs ;anna; is:
+
+* ;inna; is used to begin a complete sentence. As a complete sentence, it can then be a part of an larger sentence.
+* ;anna; is used to begin a clause which is part of a larger sentence.
+  The larger sentence,
+  in order for its meaning to work,
+  requires a ;masdar;i interpretation of the ;anna; clause.
+
+In theory, this is a pretty clear demarcation.
+But in practice it can be a little tricky to tell when to use ;inna; vs ;anna;.
+Let's work through some examples:
+
+(@) [نُطْقِي اللَّهُ حَسْبِي]{.ar}  
+    [@wright@ 2/256D, @ibn_aqil_alfiyyah@ 1/204, previously cited in section\ (ref)]{.citex}  
+    [My utterance is "[#allAh]{.trn2} is sufficient for me."]{.trans}
+
+In the example above,
+<!--
+the complete sentence
+[اللَّهُ حَسْبِي]{.ar}
+[[#allAh]{.trn2} is sufficient for me]{.trans},
+as a ;xabar;,
+is the ;musnad; of the outer sentence,
+with the ;mubtada;
+[نُطْقِي]{.ar}
+as its ;musnadi;.
+
+In such a case,
+because the ;xabar; is a complete sentence that stands on its own,
+it can begin with ;inna; but not ;anna;.
+-->
+the sentence ;xabar;
+[اللَّهُ حَسْبِي]{.ar}
+[[#allAh]{.trn2} is sufficient for me]{.trans},
+is simply being reported as speech.
+It's not an interpreted ;masdar; of the ;xabar; which is expressing a property about the ;mubtada;
+[نُطْقِي]{.ar}.
+Rather, the ;xabar;, as a complete sentence, is the complement of the ;mubtada;.
+So it can begin with ;inna; but not ;anna;, thus:
+[نُطْقِي إِنَّ اللَّهُ حَسْبِي]{.ar}.
+
+Here are a couple more examples:
+
+(@) [خَيْرُ الْقَوْلِ إِنِّي أَحْمَدُ]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/355](https://shamela.ws/book/9904/354#p1)]{.citex}  
+    [The best of speech is: Indeed I praise.]{.trans}  
+
+(@) [قَوْلِي إِنَّهُ فَاضِلٌ]{.ar}
+    [[@ibn_hisham_awdah_almasaalik@ 1/325](https://shamela.ws/book/11825/327#p1)]{.citex}  
+    [My saying is: Indeed he is excellent.]{.trans}  
+
+But if the ;xabar; expresses a property about the ;mubtada;, not as a complete sentence,
+but as an interpreted ;masdar;,
+then ;anna; is used.
+For example:
+
+(@) [اعْتِقَادِي أَنَّهُ فَاضِلٌ]{.ar}
+    [[@ibn_hisham_awdah_almasaalik@ 1/325](https://shamela.ws/book/11825/327#p1)]{.citex}  
+    [My belief is that he is excellent.]{.trans}  
+    (i.e. [اعْتِقَادِي فَضْلُهُ]{.ar} [My belief is his being excellent.]{.trans})
+
+In the example above, it is not exactly the sentence
+[هُوَ فَاضِلٌ]{.ar}
+"he is excellent"
+which is my belief.
+Rather my belief is his _being_ excellent.
+
+Here are some more examples of a complete sentence with [إِنَّ]{.ar} in a larger sentence.
+In all the examples,
+the ;inna; sentence is part of the larger sentence, _as is_.
+It does not need to be interpreted as a ;masdar; construction.
+
+(@) [زَيْدٌ إِنَّهُ فَاضِلٌ]{.ar}
+    [[@ibn_hisham_awdah_almasaalik@ 1/324](https://shamela.ws/book/11825/326#p1)]{.citex}  
+    [Zayd -- indeed he is excellent.]{.trans}  
+
+(@) [مَرَرْتُ بِرَجُلٍ إِنَّهُ فَاضِلٌ]{.ar}
+    [[@ibn_hisham_awdah_almasaalik@ 1/323](https://shamela.ws/book/11825/325#p1)]{.citex}  
+    [I passed by a indeed-he-is-excellent man.]{.trans}  
+    (The sentence [إِنَّهُ فَاضِلٌ]{.ar} is the ;na3t; of [رَجُل]{.ar}.)
+
+(@) [أَحْتَرِمُ الَّذِي إِنَّهُ مُخُلِصٌ فِي عَمَلِهِ]{.ar}
+    [@nahw_arabi@ 1/275]{.citex}  
+    [I respect the one who -- indeed he is sincere in his work.]{.trans}  
+    (The ;inna; sentence [إِنَّهُ مُخُلِصٌ فِي عَمَلِهِ]{.ar} is the ;silah; of the ;ism_mawsul; [الَّذِي]{.ar}. See chapter\ (ref).)
+
+(@) [جِئْتُ وَإِنَّ الشَّمْسَ تَغْرُبُ]{.ar}
+    [@nahw_arabi@ 1/276]{.citex}  
+    [I came while the sun was setting.]{.trans}  
+    (The ;inna; sentence [جِئْتُ وَإِنَّ الشَّمْسَ تَغْرُبُ]{.ar} is a ;hal;. See chapter\ (ref).)
+
+Now let's again consider some tricky areas:
+
+### When ;inna; or ;anna; occur as a ;mudafil;
+
+Consider the following sentence:
+
+(@) [اجْلِسْ حَيْثُ إِنَّ زَيْدًا جَالِسٌ]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/355](https://shamela.ws/book/9904/354)]{.citex}  
+    [Sit where -- indeed Zayd is sitting.]{.trans}  
+
+In the above example
+[حَيْثُ]{.ar} is an adverb of place (see chapter\ (ref)) which is a ;mudaf; to the sentence-;mudafil;
+[إِنَّ زَيْدًا جَالِسٌ]{.ar}.
+The ;inna; sentence does not require the ;masdar;i interpretation [جُلُوس]{.ar} for the meaning to work.
+
+Now consider this sentence:
+
+(@) [قَالَ كَعْبُ بْنُ مَالِكٍ لَمْ أَتَخَلَّفْ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم فِي غَزْوَةٍ غَزَاهَا قَطُّ إِلاَّ فِي غَزْوَةِ تَبُوكَ **غَيْرَ أَنِّي قَدْ تَخَلَّفْتُ** فِي غَزْوَةِ بَدْرٍ ...]{.ar}
+    [@https://sunnah.com/muslim:2769a@]{.citex}  
+    [[#kaeb ibn #mAlik]{.trn2} said, "I didn't remain behind the Messenger of ;Allah; ;pbuh; in any expedition that he went on, ever, except in the expedition of [#tabUk]{.trn2}, other than that I remained behind in the expedition of Badr ...]{.trans}
+
+In this example, the ;anna; clause 
+[أَنِّي قَدْ تَخَلَّفْتُ]{.ar}
+is ;mudafil; of [غَيْرَ]{.ar}.
+;anna; is used instead of ;inna; because, in order for the meaning to work,
+the ;masdar; of [تَخَلَّفَ]{.ar} is interpreted, thus:
+[غَيْرَ تَخَلُّفِي]{.ar}
+[other than my remaining behind]{.trans}.
+
+### In reported speech
+
+When a sentence is reported as (direct or indirect) speech,
+then ;inna; is used instead of ;anna; in the beginning of the reported speech.
+(By the way, direct speech can also begin without ;inna;.)
+Here are examples with ;inna;:
+
+(@) [تُعَيّرنا أنَّا قليلٌ عَدِيدنا **فقلتُ لها إنّ** الكرام قليلُ]{.ar}
+    [[@nahw_wafi@ 1/650](https://shamela.ws/book/10641/649#p1)]{.citex}  
+    [She reproaches us that we -- our number is few. So I said to her, "Indeed the noble are few."]{.trans}  
+
+(@) [**فَقِيلَ لَهَا إِنَّهُ** النَّبِيُّ صلى الله عليه وسلم]{.ar}
+    [@https://sunnah.com/bukhari:1283@]{.citex}  
+    [Then it was said to her Indeed he is the Prophet ;pbuh;]{.trans}  
+
+In the following example, the pronoun in [إِنَّهَا]{.ar} indicates indirect speech, yet still ;inna; is used instead of ;anna;:
+
+(@) [قَالَتْ إِنَّهَا حُبْلَى مِنَ الزِّنَا]{.ar}
+    [@https://sunnah.com/muslim:1695a@]{.citex}  
+    [She said that she had become pregnant as a result of fornication.]{.trans}
+
+The reason for using ;inna; instead of ;anna; is, again,
+that that the reported speech is not interpreted as a ;masdar; in order to connect it to the verb [قَالَ]{.ar} before it.
+Rather, the entire reported speech is, as is, the ;mafulb; of the verb [قَالَ]{.ar}.
+
+With other verbs that may indicate reported speech, ;anna; is typically used.
+For example:
+
+(@) [صَلَّى بِنَا سَعِيدُ بْنُ جُبَيْرٍ بِجَمْعٍ الْمَغْرِبَ ثَلاَثًا بِإِقَامَةٍ ثُمَّ سَلَّمَ ثُمَّ صَلَّى الْعِشَاءَ رَكْعَتَيْنِ ثُمَّ **ذَكَرَ أَنَّ** عَبْدَ اللَّهِ بْنَ عُمَرَ فَعَلَ ذَلِكَ **وَذَكَرَ أَنَّ** رَسُولَ اللَّهِ صلى الله عليه وسلم فَعَلَ ذَلِكَ]{.ar}
+    [@https://sunnah.com/nasai:483@]{.citex}  
+    [Sa'eed bin Jubair led us in prayer in Jam'. (He prayed) Maghrib, three Rak'ahs with an Iqamah, then he prayed 'Isha', two Rak'ahs. Then he mentioned that 'Abdullah bin 'Umar had done that, and he mentioned that the Messenger of Allah ;pbuh; had done that.]{.trans}  
+
+The reason is that now, the ;masdar;i meaning of the speech is interpreted as the ;mafulb; of [ذَكَرَ]{.ar}.
+That is, [he mentioned [#3abd] ;Allah;'s **doing** that]{.trans}.
+
+Ocassionally, we will find ;anna; used with [قَالَ]{.ar}.
+And that is when [قَالَ]{.ar} is not simply reporting speech,
+but signifying the speaker's belief, estimation, or claim of the _;masdar;i content_ of the following speech.^[[@nahw_wafi@ 1/650](https://shamela.ws/book/10641/649#p1); see also [@ibn_ya3ish_mufassal@ 4/319](https://shamela.ws/book/13301/1683)]
+For example:
+    
+
+(@) [أتقول المراصدُ **أن** الجو بارد فى الأسبوع المقبل]{.ar}
+    [[@nahw_wafi@ 1/650](https://shamela.ws/book/10641/649#p1)]{.citex}  
+    [Does the forecaster say that the weather is cold in the upcoming week?]{.trans}  
+    (i.e. [Does the forecaster estimate the weather to **be** cold ...]{.trans})
+
+### After ;af3aal_quloob;
+
+After, ;af3aal_quloob; (see chapter\ (ref),
+if a sentence suspends its government (see section\ (ref)),
+then either ;inna; or ;anna; may be used.
+For example:
+
+(@) [علمت **إن** الرياءَ بلاءٌ]{.ar}  
+    [علمت **أَن** الرياءَ بلاءٌ]{.ar}  
+    [[@nahw_wafi@ 1/651](https://shamela.ws/book/10641/650#p1)]{.citex}  
+    [I knew that showing off is a trial.]{.trans}  
+
+If ;laam_ibt; is used, then, of course; it would only be used with ;inna; not ;anna;.
+For example:
+
+(@) [علمت **إن** الإسراف **لطريق** الفقر]{.ar}
+    [[@nahw_wafi@ 1/651](https://shamela.ws/book/10641/650#p1)]{.citex}  
+    [I knew indeed extravagance is the path to poverty.]{.trans}  
+
+### After ;idh_sudden;
+
+After ;idh_sudden;
+(see chapter\ (ref)),
+either ;inna; or ;anna; may be used^[@nahw_arabi@ 1/277; [@ibn_aqil_alfiyyah@ 1/356](https://shamela.ws/book/9904/355#p1). Also see editor's footnote.]:
+
+(@) [خرجت فإذا **إن** زيدا قائم]{.ar}  
+    [خرجت فإذا **أن** زيدا قائم]{.ar}  
+    [[@ibn_aqil_alfiyyah@ 1/356](https://shamela.ws/book/9904/355#p1)]{.citex}  
+    [I came out [and] suddenly Zayd was standing.]{.trans}  
+
+### After an oath
+
+@nahw_arabi@ 278
+
+@nahw_wafi@ 1/650
+
+### After [ف]{.ar} in a ;jawab_shart;
+
+When the ;jawab_shart; begins with a [فَ]{.ar},
+either ;inna; or ;anna; (or neither) may be used.^[@nahw_arabi@ 1/279]
+For example:
+
+(@) [إِنْ تَجْتَهِدْ فَإِنَّكَ/فَأَنَّكَ نَاجِحٌ]{.ar}
+    [@nahw_arabi@ 1/279]{.citex}  
+    [If you exert yourself then you will be successful.]{.trans}  
+
+
+<!--
+@nahw_arabi@ 278
+-->
+
+## A ;3atf; following ;inna; and its sisters
+
+<!--
+@nahw_arabi@ 293
+-->
+
+When a noun is ;3atf;ed to the ;ism_of; of ;inna;
+and the ;ma3toof; is placed after the ;xabar; of ;inna;
+then it can optionally either be put in the ;astate; or the ;ustate;.
+For example:
+
+(@) [إن زيدا قائم **وعمرا**]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/375](https://shamela.ws/book/9904/374#p1)]{.citex}  
+
+(@) [إن زيدا قائم **وعمرو**]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/376](https://shamela.ws/book/9904/375#p1)]{.citex}  
+
+If the ;ma3toof; is put in the ;ustate; ([وَعَمْرٌو]{.ar}),
+then it can be thought of as the
+;mubtada; of a new sentence, i.e.:
+
+(@) [إن زيدا قائم وَعَمْرٌ [كَذَلِكَ]]{.ar}
+    [modified from [@ibn_aqil_alfiyyah@ 1/376](https://shamela.ws/book/9904/375#p1)]{.citex}  
+    [Indeed Zayd is standing and [#eamr]{.trn2} [is like that as well].]{.trans}
+
+When the noun that is ;3atf;ed is put before the ;xabar; of ;inna;,
+then according to the dominant view,
+the ;ma3toof; must be in the ;astate;.
+So we will say:
+
+(@) [إن زيدا وعمرا قائمان]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/376](https://shamela.ws/book/9904/375#p1)]{.citex}  
+
+(@) [إنك وزيدا ذاهبان]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/376](https://shamela.ws/book/9904/375#p1)]{.citex}  
+
+Some grammarians permitted the ;ma3toof; to be in the ;ustate; in this case as well.^[[@ibn_aqil_alfiyyah@ 1/376](https://shamela.ws/book/9904/375#p1)]
+
+The rules for ;anna; and ;lakinna; are the same as the rules for ;inna;.
+So we will say, for example:
+
+(@) [علمت أن زيدا قائم وعمرو/وعمرا]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/377](https://shamela.ws/book/9904/376#p1)]{.citex}  
+
+(@) [علمت أن زيدا وعمرا قائمان]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/377](https://shamela.ws/book/9904/376#p1)]{.citex}  
+
+(@) [لكن عمرا منطلق وخالدا/خالد]{.ar}
+    [modified from [@ibn_aqil_alfiyyah@ 1/377](https://shamela.ws/book/9904/376#p1)]{.citex}  
+
+(@) [لكن عمرا وخالدا منطلقان]{.ar}
+    [modified from [@ibn_aqil_alfiyyah@ 1/377](https://shamela.ws/book/9904/376#p1)]{.citex}  
+
+
+As for ;ka_anna;, ;layta;, and ;la3alla;,
+only the ;astate; is permitted for the ;,a3toof;,
+whether or not it is after the ;xabar; or before.
+So we will say, for example:
+
+(@) [ليت زيدا وعمرا قائمان]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/377](https://shamela.ws/book/9904/376#p1)]{.citex}  
+
+(@) [ليت زيدا قائم وعمرا]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/377](https://shamela.ws/book/9904/376#p1)]{.citex}  
+
+As mentioned, ;ka_anna; and ;la3alla; are treated similarly to the above two examples.
+
+
+<!--
+## The ;muxaffaf; ;in;, ;an;, ;ka_an;, and ;lakin;
+-->
+
+## The ;muxaffaf; ;in;
+
+
+@nahw_arabi@ 296
+
+The particles
+;inna;, ;anna;, ;ka_anna;, and ;lakinna;,
+because of the ;shaddah; on the [ن]{.ar}, can be termed _heavy_.
+They have
+have _;muxaffaf;-from-the-heavy_ versions:
+;in;, ;an;, ;ka_an;, and ;lakin;.
+The ;muxaffaf; particles have somewhat different rules from their original heavy counterparts.
+In this section we will treat the ;muxaffaf; ;in;.
+We will treat the rest of the ;muxaffaf; particles in subsequent sections, ;ia;.
+
+### Governance of the ;muxaffaf; ;in;
+
+The ;muxaffaf; ;in; is less assertive in meaning than the heavy ;inna;.^[@nahw_arabi@ 1/299].
+In using it there are two optional possibilities:
+
+The first, and more common, option is that the ;muxaffaf; leaves the state of its ;ism_of; in the ;ustate;, just like a basic ;j_ism;.
+But now, a [لَ]{.ar} is almost always required.
+For example:
+
+(@) [إِنْ سَعِيدٌ لَمُجْتَهِدٌ]{.ar}
+    [@nahw_arabi@ 1/296--297]{.citex}  
+    [Indeed [#saeId]{.trn2} is an exerter [of himself].]{.trans}  
+
+Note that the ;ism_of;
+[سَعِيدٌ]{.ar}
+is in the ;ustate;,
+and that a [لَ]{.ar} is used with the ;xabar;:
+[لَمُجْتَهِدٌ]{.ar}.
+This [لَ]{.ar} is now called the _;laam_frq;_,
+because it differentiates the ;muxaffaf; ;in;
+from another type of ;in; called the _;in_nfy;_ (see chapter\ (ref)).
+<!--
+The ;in_nfy; is used without a [لَ]{.ar} and it negates the meaning of the sentence.
+For example:
+
+(@) [إِنْ سَعِيدٌ مُجْتَهِدٌ]{.ar}  
+    [**Not** is [#saeId]{.trn2} an exerter [of himself].]{.trans}  
+
+We will treat the ;in_nfy; in chapter\ (ref), ;ia;.
+
+Back to the ;muxaffaf; ;in;:
+-->
+Occasionally,
+when the meaning is clear without it,
+the ;laam_frq; may be omitted.^[@nahw_arabi@ 1/297]
+For example:
+
+(@) [إِنِ الْعَاقِلُ يَتَّبِعُ سَبِيلَ الرَّشَادِ]{.ar}
+    [@nahw_arabi@ 1/297]{.citex}  
+    [Indeed the sensible one follows the path of right conduct.]{.trans}  
+
+The second, and less commonly used, option is for the ;muxaffaf; ;in; to govern its ;ism_of; in the ;astate;, just like the heavy ;inna;.
+Now the [لَ]{.ar}
+(called ;laam_ibt; again) is optional, as it was with ;inna;.
 Examples:
 
-(@) [**إِنَّهُۥ** لَا یُفۡلِحُ ٱلظَّـٰلِمُونَ]{.quran}
-    [@https://quran.com/6/21@ cited by @nahw_arabi@ 1/89]{.citex}  
-    [Indeed, the wrongdoers will not succeed.]{.trans}
+(@) [إِنْ سَعِيدًا مُجْتَهِدٌ]{.ar}
+    [@nahw_arabi@ 1/297]{.citex}  
+    [Indeed [#saeId]{.trn2} is an exerter [of himself].]{.trans}  
 
-(@) [**فَإِنَّهَا** لَا تَعۡمَى ٱلۡأَبۡصَـٰرُ وَلَـٰكِن تَعۡمَى ٱلۡقُلُوبُ ٱلَّتِی فِی ٱلصُّدُورِ]{.quran}
-    [@https://quran.com/22/46@ cited by @nahw_arabi@ 1/89]{.citex}  
-    [For indeed, it is not eyes that are blinded, but blinded are the hearts which are within the breasts.]{.trans}
+(@) [وَإِنَّ كُلࣰّا لَّمَّا لَیُوَفِّیَنَّهُمۡ رَبُّكَ أَعۡمَـٰلَهُمۡۚ]{.quran}
+    [@https://quran.com/11/111@ cited by @nahw_arabi@ 1/297]{.citex}  
+    [And indeed, each [of the believers and disbelievers] - your Lord will fully compensate them for their deeds.]{.trans}  
 
+### A ;j_f3l; after the ;muxaffaf; ;in;
 
+Unlike the heavy ;inna;,
+the ;muxaffaf; ;in; can be followed directly by a verb.
+But the verb that follows it is usually constrained to be a ;nasix; verb.
+Examples:
 
-## The ;xabar; as a complete sentence and the pronoun of the fact
+(@) [**وَإِن كَانَتۡ** لَكَبِیرَةً إِلَّا عَلَى ٱلَّذِینَ هَدَى ٱللَّهُۗ]{.quran}
+    [@https://quran.com/2/143@ cited by @nahw_arabi@ 1/297]{.citex}  
+    [And indeed, it is difficult except for those whom Allāh has guided.]{.trans}  
 
-### The ;xabar; as a complete sentence
+(@) [قَالَ تَٱللَّهِ **إِن كِدتَّ** لَتُرۡدِینِ]{.quran}
+    [@https://quran.com/37/56@ cited by @nahw_arabi@ 1/297]{.citex}  
+    [He will say, "By Allāh, you almost ruined me.]{.trans}  
 
-There is a sub-type of ;j_ism;
-where the ;xabar; is a complete sentence.
-Here is an example:
+(@) [**وَإِن نَّظُنُّكَ** لَمِنَ ٱلۡكَـٰذِبِینَ]{.quran}
+    [@https://quran.com/26/186@ cited by @nahw_arabi@ 1/297]{.citex}  
+    [and indeed, we think you are among the liars.]{.trans}  
 
-```{.tikzarabic}
-\usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
-\path [decoration={text effects along path, 
-  text=.\txarb{فُرُوعُها طَوِيلَةٌ} \txarb{ٱَلشَّجَرَةُ},
-  text effects/.cd, 
-    path from text, text along path,
-    group letters, word count=\w,
-    every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate] (0,0);
+(@) [**وَإِن یَكَادُ** ٱلَّذِینَ كَفَرُوا۟ لَیُزۡلِقُونَكَ بِأَبۡصَـٰرِهِمۡ]{.quran}
+    [@https://quran.com/68/51@ cited by @nahw_arabi@ 1/298]{.citex}  
+    [And indeed, those who disbelieve would almost make you slip with their eyes [i.e., looks]]{.trans}  
 
-\draw [decoration={brace, mirror}, decorate] 
-   (word-2.south west) -- (word-2.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize subject};
+Rarely, a non-;nasix; verb is found to occur after the ;muxaffaf; ;in;.
+For example:
 
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize info};
+(@) [إِنْ قَتَلْتَ لَمُسْلِمًا]{.ar}
+    [@nahw_arabi@ 1/298, [@ibn_aqil_alfiyyah@ 1/382](https://shamela.ws/book/9904/381#p1)]{.citex}  
+    [Indeed you killed a Muslim]{.trans}  
 
-%\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``The truth is that he went.''};
+The analysis of this sentence is that the ;ism_of; of the ;muxaffaf; ;in;
+is implicated to be a deleted ;damir_shan;.
+And the verb which follows with its governees is a sentence which
+is the ;xabar; of the ;muxaffaf; ;in;.^[[@utheymeen_alfiyyah@ 26/6](https://shamela.ws/book/36954/256)]
 
-\end{tikzpicture}
-```
+## The ;muxaffaf; ;an;
 
-"The tree: its branches are long."
+### Governance of the ;muxaffaf; ;an;
 
-In these kinds of sentences, the ;mubtada; introduces a topic, and the ;xabar; is itself a sentence which comments on the topic/;mubtada;.
-We have, in fact, already seen sentences like this in section\ \@ref(past-verbs-order-of-words), when we take a verbal sentence and convert it to a ;j_ism;. This is the example we discussed there:
+The ;muxaffaf; ;an; retains the governance of the the heavy ;inna;.^[@nahw_arabi@ 1/300]
+But its ;ism_of; is (almost) always a deleted ;damir_shan;.
+And its ;xabar; is then a complete sentence.
+For example:
 
-[ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}  
-"The man: he wrote a book."
+(@) [علمت أن زيد قائم]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/383](https://shamela.ws/book/9904/382#p1)]{.citex}  
+    [I knew that [the state-of-affairs is:] Zayd is standing.]{.trans}  
 
-#### The linker pronoun
+Note,
+in the above example,
+that [زَيدٌ]{.ar} is in the ;ustate; because it is the ;mubtada; of an independent sentence [زَيْدٌ قَائِمٌ]{.ar}.
+The ;ism_of; of ;an; is a deleted ;damir_shan;, implicated thus: [أَنْهُ]{.ar}.
 
-A ;j_ism;,
-in which the ;xabar; is itself a sentence;
-typically requires a pronoun in the ;xabar; that links back to the ;mubtada;. 
-In the example
-[ٱَلشَّجَرَةُفُرُوعُهَا طَوِيلَةٌ.]{.ar}, the attached pronoun [هَا]{.ar} "it" in [فُرُوعُهَا]{.ar} "its tree" is the linker pronoun that links back to the ;ism_of; [ٱَلشَّجَرَةُ]{.ar} "the tree".
+Occasionally, the ;ism_of; the ;muxaffaf; ;an; is not deleted,
+in which case it won't be a ;damir_shan;.^[@nahw_arabi@ 1/300; [@ibn_aqil_alfiyyah@ 1/384](https://shamela.ws/book/9904/383#p1)]
+In this case the ;xabar; may either be a single noun or a complete sentence.^[[@ibn_aqil_alfiyyah@ 1/385 editors footnote](https://shamela.ws/book/9904/384#p1)]
 
-Similarly, in the example
-[ٱَلرَّجُلُ كَتَبَ كِتَابًا.]{.ar}
-the linker pronoun is the invisible ;faa3il; pronoun "he" of the verb [كَتَبَ]{.ar} "he wrote" that links back to the ;ism_of; [ٱَلرَّجُلُ]{.ar} "the man".
+(@) [أظنُّ أنْكَ قائمٌ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/552](https://shamela.ws/book/13301/1916#p1)]{.citex}  
+    [I estimate that you are standing.]{.trans}  
 
-#### #;j_ism;s with [إِنَّ]{.ar} and its sisters
-
-[إِنَّ]{.ar} and its sisters are very often used in ;j_ism;s. (With [أَنَّ]{.ar} it is, as usual, an incomplete sentence.) Here are some examples:
-
-[إِنَّ زَيْدًا لَهُ أَخٌ وَأُخْتٌ.]{.ar}  
-"Indeed Zayd: he has a brother and sister."
-
-[ٱِعْلَمْ أَنَّ ٱلْعِلْمَ حُصُولُهُ يَتَطَلَّبُ جُهْدًا.]{.ar}  
-"Know that knowledge: its obtaining requires effort."
-
-#### #;j_ism;s with a pronoun ;ism_of;
-
-The ;ism_of;, in a ;j_ism;, is frequently a pronoun. For example,
-
-[أَنَا ٱسْمِي زَيْدٌ.]{.ar}  
-"I: my name is Zayd."
-
-[أَكَلْتُ ٱلطَّعَامَ لَـٰكِنَّكَ لَمْ تَأْكُلْ.]{.ar}  
-"I ate the food but you: you didn't eat."
-
-### The pronoun of the fact
-
-Mostly, pronouns are used in place of nouns when it is already known to whom the noun refers to. So if you say:
-
-[أَنَا ٱسْمِي زَيْدٌ.]{.ar}  
-"I: my name is Zayd."
-
-the pronoun [أَنَا]{.ar} "I" refers to the speaker, who is known.
-
-There is a special pronoun, called the _pronoun of the fact_ that begins ;j_ism;s. This pronoun does not refer to any previously known entity, but rather refers to the ;xabar; that follows it. It is sometimes translated as "the fact is" but is often left untranslated. Here is an example:
-
-```{.tikzarabic}
-\usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
-\path [decoration={text effects along path, 
-  text=.\txarb{ٱلْبَرْدُ شَدِيدٌ} \txarb{هُوَ},
-  text effects/.cd, 
-    path from text, text along path,
-    group letters, word count=\w,
-    every word/.style={name=word-\w, execute at begin node=\strut}},
-  decorate] (0,0);
-
-\draw [decoration={brace, mirror}, decorate] 
-   (word-2.south west) -- (word-2.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize pronoun of the fact};
-
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize info};
-
-\end{tikzpicture}
-```
-
-"The fact is: the cold is intense."
-
-This pronoun is usually the singular masculine pronoun (as above) but it is also sometimes the singular feminine pronoun [هِيَ]{.ar}.
-It is typically used with statements of import, to which the speaker wishes to draw attention.
-The ;xabar; does not contain a linker pronoun because the whole ;xabar; refers back to the ;ism_of;.
-The pronoun of the fact is frequently used with [إِنَّ]{.ar} and its sisters. 
-Here are some examples:
-
-[إِنَّهُ لَا يُفْلِحُ ٱلْكَافِرُونَ.]{.ar}  
-"Indeed, the disbelievers will not succeed."  
-(;quran; 23:117, trans. Saheeh International)
-
-Sometimes, one can choose between using the pronoun of the fact and a pronoun matching the participant resulting in different emphasis. For example,
-
-[إِنِّهُ هُمُ ٱلْفَاعِلُونَ]{.ar}  
-"Indeed, the fact is: they are the doers."
-
-[إِنِّهُمْ هُمُ ٱلْفَاعِلُونَ]{.ar}  
-"Indeed, _they_ are the doers."
-
-## The lightened versions [إِنْ]{.ar}, [أَنْ]{.ar}, [كَأَنْ]{.ar}, and [لَـٰكِنْ]{.ar}
-
-The particles [إِنَّ]{.ar}, [أَنَّ]{.ar}, [كَأَنَّ]{.ar}, and [لَـٰكِنَّ]{.ar}, because of the doubled [نّ]{.ar} are considered _heavy_.
-There exist _lightened_ versions of these particles that are:
-[إِنْ]{.ar}, [أَنْ]{.ar}, [كَأَنْ]{.ar}, and [لَـٰكِنْ]{.ar}.
-These lightened versions have similar meanings to their heavy counterparts but they have somewhat different rules. We will discuss them below.
-In terms of their usage 
-[إِنْ]{.ar} and
-[كَأَنْ]{.ar} are not very commonly used except in the ;quran;, poetry, and other rhetorical texts.
-[أَنْ]{.ar} and
-[لَـٰكِنْ]{.ar}
-are relatively more common.
-
-### The lightened [إِنْ]{.ar}
-
-The lightened
-[إِنْ]{.ar}
-can be used in either of the following ways:
-
- i. With the same rules as the heavy [إِنَّ]{.ar}. The ;ism_of; is put in the ;astate; and the use of the strengthening [لَ]{.ar} is optional. For example,
-
-    [إِنْ زَيْدًا مُسْلِمٌ.]{.ar}  
-    or  
-    [إِنْ زَيْدًا لَمُسْلِمٌ.]{.ar}  
-    "Indeed Zayd is a Muslim."
-
-    However, this method is not as common as the second way (below):
+(@) [أحسبُ أنْهُ ذاهبٌ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/552](https://shamela.ws/book/13301/1916#p1)]{.citex}  
+    [I deem that he is going.]{.trans}  
 
 
-ii. The ;ism_of; is not put in the ;astate; but is rather in the ;ustate;.
-    However, the strengthening [لَ]{.ar} (see section\ \@ref(inna-strengthening-la) above), that was optional with the heavy [إِنَّ]{.ar}, is now mandatory with the lightened [إِنْ]{.ar}. For example,
+But most of the time,
+the ;ism_of; of the ;muxaffaf; ;an; will be a deleted ;damir_shan;,
+and its ;xabar; will be a sentence.
+The sentence which is the ;xabar; of this
+;muxaffaf; ;an;
+can begin either with a noun or with a verb.
 
-    [إِنْ زَيْدٌ لَمُسْلِمٌ.]{.ar}  
-    "Indeed Zayd is a Muslim."
+When it begins with a noun,
+then it does not need any separation between it and the ;an;.
+For example:
 
-Another notable difference between 
-the lightened [إِنْ]{.ar}
-and
-the heavy [إِنَّ]{.ar}
-is that 
-the heavy [إِنَّ]{.ar} is only used to introduce ;j_ism;s.
-The lightened [إِنْ]{.ar},
-however, can be used to introduce verbal sentences, but only those that begin with the verbs:
-[كَانَ]{.ar} and its sisters,
-[كَادَ]{.ar} and its sisters, and
-[ظَنَّ]{.ar} and its sisters.
-For example,
+(@) [وَءَاخِرُ دَعۡوَىٰهُمۡ **أَنِ ٱلۡحَمۡدُ** لِلَّهِ رَبِّ ٱلۡعَـٰلَمِینَ]{.quran}
+    [@https://quran.com/10/10@ cited by @nahw_arabi@ 301]{.citex}  
+    [And the last of their call will be, "Praise to Allāh, Lord of the worlds!"]{.trans}  
 
-[قَرَأْتُ ٱلْكِتَابَ وَإِنْ كَانَ ٱلْكِتَابُ لَجَيِّدًا.]{.ar}  
-"I read the book and indeed the book was good."
+Similarly, if the sentence ;xabar; begins with a ;jamid; verb,
+then again no separation is needed between it and the ;an;.
+For example:
+
+(@) [**وَأَن لَّیۡسَ** لِلۡإِنسَـٰنِ إِلَّا مَا سَعَىٰ]{.quran}
+    [@https://quran.com/53/39@]{.citex}  
+    [And that there is not for man except that [good] for which he strives]{.trans}  
+
+(@) [أَوَلَمۡ یَنظُرُوا۟ فِی مَلَكُوتِ ٱلسَّمَـٰوَ ٰ⁠تِ وَٱلۡأَرۡضِ وَمَا خَلَقَ ٱللَّهُ مِن شَیۡءࣲ **وَأَنۡ عَسَىٰۤ** أَن یَكُونَ قَدِ ٱقۡتَرَبَ أَجَلُهُمۡۖ]{.quran}
+    [@https://quran.com/7/185@ cited by @nahw_arabi@ 301]{.citex}  
+    [Do they not look into the realm of the heavens and the earth and everything that Allāh has created and [think] that perhaps their appointed time has come near?]{.trans}  
+
+But if the verb is ;mutasarrif;,
+then it is preferred that it be separated from
+the ;muxaffaf; ;an; by one of the following:
+
+* [قَدْ]{.ar}.
+  For example:
+
+  (@) [قَالُوا۟ نُرِیدُ أَن نَّأۡكُلَ مِنۡهَا وَتَطۡمَىِٕنَّ قُلُوبُنَا وَنَعۡلَمَ **أَن قَدۡ** صَدَقۡتَنَا وَنَكُونَ عَلَیۡهَا مِنَ ٱلشَّـٰهِدِینَ]{.quran}
+      [@https://quran.com/5/113@ cited by @nahw_arabi@ 301]{.citex}  
+      [They said, "We wish to eat from it and let our hearts be reassured and know that you have been truthful to us and be among its witnesses."]{.trans}  
+
+
+* The particles [سَ]{.ar} or [سَوْفَ]{.ar}.
+  For example:
+
+  (@) [عَلِمَ **أَن سَیَكُونُ** مِنكُم مَّرۡضَىٰ]{.quran}
+      [@https://quran.com/73/20@ cited by @nahw_arabi@ 1/301]{.citex}
+
+
+* One of the particle of negation [لَا]{.ar}, [لَنْ]{.ar}, or [لَمْ]{.ar}
+
+  
+  (@) [أَفَلَا یَرَوۡنَ **أَلَّا** یَرۡجِعُ إِلَیۡهِمۡ قَوۡلࣰا]{.quran}
+      [@https://quran.com/20/89@ cited by @nahw_arabi@ 1/302]{.citex}
+
+  (@) [أَیَحۡسَبُ **أَن لَّمۡ** یَرَهُۥۤ أَحَدٌ]{.quran}
+      [@https://quran.com/90/7@ cited by @nahw_arabi@ 1/302]{.citex}
+
+  (@) [أَیَحۡسَبُ ٱلۡإِنسَـٰنُ **أَلَّن** نَّجۡمَعَ عِظَامَهُۥ]{.quran}
+      [@https://quran.com/73/3@ cited by @nahw_arabi@ 1/302]{.citex}
+
+
+  In non-;quran;ic Standard Arabic,
+  [أَنْ]{.ar} is not joined in writing to the following particle.
+  So we will write [أَنْ لَا]{.ar}^[@nahw_wafi@ 4/298], [أَنْ لَنْ]{.ar}, and [أَنْ لَمْ]{.ar}.
+  But in pronunciation, the [ن]{.ar} is assimilated with the [ل]{.ar}, as usual,
+  so we will say [EallA]{.trn}, [Eallan]{.trn}, and [Eallam]{.trn}, respectively.
+  For example:
+
+(@) [تَيَقَّنْتُ **أَنْ لاَ** أُسَافِرُ]{.ar}
+    [[@nahw_wafi@ 4/298](https://shamela.ws/book/10641/2230#p1)]{.citex}  
+    [I was sure that I will not journey.]{.trans}  
+
+* The conditional particle [لَوْ]{.ar}
+  For example:
+
+  (@) [**وَأَلَّوِ** ٱسۡتَقَـٰمُوا۟ عَلَى ٱلطَّرِیقَةِ لَأَسۡقَیۡنَـٰهُم مَّاۤءً غَدَقࣰا]{.quran}
+      [@https://quran.com/72/16@ cited by @nahw_arabi@ 1/302]{.citex}
+      
+### When to use the ;muxaffaf; ;an; vs the ;nasibah; ;an;
+
+When ;an; is to be followed by a ;mudarie; verb
+(whether or not separated by a particle like [لَا]{.ar}),
+then the question is should we use
+the ;muxaffaf; ;an; or the ;nasibah; ;an;?
+
+If we choose the ;muxaffaf; ;an;,
+then the ;mudarie; verb is put in the ;ustate;.
+For example:
+
+(@) [عَلِمْتُ أَنْ لاَ **يَخْرُجُ** زَيْدٌ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/553](https://shamela.ws/book/13301/1917#p1)]{.citex}  
+    [I knew that Zayd will not go out.]{.trans}
+
+And if we choose the ;nasibah; ;an;,
+then the ;mudarie; verb is put in the ;ustate;.
+For example:
+
+(@) [اشْتَهَيْتُ أَنْ لاَ **يَخْرُجَ** زَيْدٌ]{.ar}
+    [[@sirafi_sibawayhi@ 3/406](https://shamela.ws/book/17726/1402)]{.citex}^[The term [مخخفة]{.ar} is used by the authour here to mean [أن الخفيفة الناصبة للمضارع]{.ar} as can be seen from the statement [أفعال العلم واليقين والمعرفة وما جرى مجراها من أفعال التحقيق تختص به " أنّ " المشددة الناصبة للأسماء دون " أن " **المخففة الناصبة للأفعال**]{.ar}]  
+    [I desired that Zayd not go out.]{.trans}
+
+The general principle is that
+the ;muxaffaf; ;an; is 
+used when the verb before it signifies certainty,
+like [عَلِمَ]{.ar} [to know]{.trans}.
+This is because it is the ;muxaffaf; from the heavy ;anna;, which is used assertively.
+
+As for the ;nasibah; ;an;, it is used when the verb before it signfies a wanting for something to happen,
+or a fearing that something not happen.
+Here are some examples that can illustrate this:
+
+(@) [عَلِمْتُ أَنْ **سَيَخْرُجُ** زَيْدٌ]{.ar}
+    [modified from [@ibn_ya3ish_mufassal@ 4/554](https://shamela.ws/book/13301/1918#p1)]{.citex}  
+    [I knew that Zayd will go out.]{.trans}
+
+(@) [أَرْجُو أَنْ **تُحْسِنَ** إِلَيََّ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/554](https://shamela.ws/book/13301/1918#p1)]{.citex}  
+    [I hope that you will do good to me.]{.trans}  
+
+(@) [أَخَافُ أَنْ **تُسِيءَ** إِلَيََّ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/554](https://shamela.ws/book/13301/1918#p1)]{.citex}  
+    [I fear that you will do evil to me.]{.trans}  
+
+There are a class of verbs that vary in the amount of certainty or wanting that they signify.
+Such verbs include:
+[ظَنَّ]{.ar} [to conjecture]{.trans},
+[حَسِبَ]{.ar} [to deem]{.trans},
+[خَالَ]{.ar} [to imagine]{.trans},
+[رَأَىٰ]{.ar} [to opine]{.trans},
+etc.
+In this context,
+they can be translated in idiomatic English as [to think]{.trans}.
+Furthermore, the ;madi; verb can be used where in Eng;ish we would use the present tense
+(in accordance with what we learned in section\ (madi used for moment of utterance)).
+
+With such verbs, both the ;muxaffaf; ;an; (and therefore also the heavy ;anna;),
+and the ;nasibah; ;an; can be used.
+In theory,
+the ;muxaffaf; ;an; (and the heavy ;anna;) is used when
+the speaker _believes_ the following statement to be true.^[[@sirafi_sibawayhi@ 3/406](https://shamela.ws/book/17726/1402)]
+
+For example:
+
+(@) [ظَنَنْتُ أَنَّكَ تَخْرُجُ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/554](https://shamela.ws/book/13301/1918#p1)]{.citex}  
+    [I [believe] that you are going out.]{.trans}  
+    or [I [believe] that you will go out.]{.trans}  
+
+(@) [ظَنَنْتُ أَنْ سَتَخْرُجُ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/554](https://shamela.ws/book/13301/1918#p1)]{.citex}  
+    [I [believe] that you will go out.]{.trans}  
+
+(@) [حسبت أن زيدا منطلق]{.ar}
+    [[@sirafi_sibawayhi@ 3/406](https://shamela.ws/book/17726/1402)]{.citex}  
+    [I [believe] that Zayd is setting out.]{.trans}  
+
+(@) [ظننت أنك أخونا]{.ar}
+    [[@sirafi_sibawayhi@ 3/406](https://shamela.ws/book/17726/1402)]{.citex}  
+    [I [believe] that you are our brother.]{.trans}  
+
+(@) [قَدْ حَسِبْتُ أَنْ لَا تَقُولُ ذَلِكَ]{.ar}
+    [[@sirafi_sibawayhi@ 3/406](https://shamela.ws/book/17726/1402)]{.citex}  
+    [I [believe] that you will not say that.]{.trans}
+
+(@) [أَرَىٰ أَنْ سَيَفْعَلُ]{.ar}
+    [[@sirafi_sibawayhi@ 3/407](https://shamela.ws/book/17726/1403#p1)]{.citex}  
+    [I [believe] that he will do [it].]{.trans}
+
+Conversely, the ;nasibah; ;an; is used when the
+the speaker _feels_ the following statement, without any strong evidence or indicator which is guiding his feeling.^[[@sirafi_sibawayhi@ 3/407](https://shamela.ws/book/17726/1403#p1)]
+
+(@) [ظننت أن تَخْرُجَ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/554](https://shamela.ws/book/13301/1918#p1)]{.citex}  
+    [I [feel] that you will go out.]{.trans}
+
+(@) [ظَنَنْتُ أَنْ لاَ تَفْعَلَ]{.ar}
+    [[@sirafi_sibawayhi@ 3/407](https://shamela.ws/book/17726/1403#p1)]{.citex}  
+    [I [feel] that you will not do [it]]{.trans}
+
+
+Despite this theoretical difference between the two uses,
+practically,
+the ;nasibah; ;an; is used more commonly in such situations because it is the default.^[[@sharh_qatr_alnada@ 64](https://shamela.ws/book/6970/49)]
+
+When ;an;
+is followed directly be a ;madi; verb
+(without an intervening [قَدْ]{.ar}),
+then it seems that the ;an; is ;nasibah;
+(despite their being no effect of the ;nasibah; ;an; on the ;madi; verb).
+This is because the ;muxaffaf; ;an; would have required [قَدْ]{.ar}.^[But see @https://tafsir.app/albahr-almuheet/24/9@ for the recitation [أَنْ غَضِبَ ٱللَّهُ]{.ar} (cited by @nahw_arabi@ 1/301). See also @https://tafsir.app/ibn-aashoor/24/9@ for a counter-argument.]
+For example:
+
+(@) [كرِهتُ أن قمتَ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/97](https://shamela.ws/book/13301/2035#p1)]{.citex}  
+    [I disliked that you stood.]{.trans}  
+
+We list the following examples to illustrate the range of ;an;.
+
+(@) [**تَظُنُّ أَن یُفۡعَلَ بِهَا** فَاقِرَةࣱ]{.quran}
+    [@https://quran.com/75/25@ cited by [@sirafi_sibawayhi@ 3/407](https://shamela.ws/book/17726/1403#p1)]{.citex}  
+
+(@) [فَلَا جُنَاحَ عَلَیۡهِمَاۤ أَن یَتَرَاجَعَاۤ إِن **ظَنَّاۤ أَن یُقِیمَا** حُدُودَ ٱللَّهِۗ]{.quran}
+    [@https://quran.com/2/230@ cited by [@sirafi_sibawayhi@ 3/407](https://shamela.ws/book/17726/1403#p1)]{.citex}  
+
+(@) [**وَحَسِبُوۤا۟ أَلَّا تَكُونَ** فِتۡنَةࣱ]{.quran}
+    [@https://quran.com/5/71@ cited by [@sirafi_sibawayhi@ 3/407](https://shamela.ws/book/17726/1403#p1); [@ibn_ya3ish_mufassal@ 4/554](https://shamela.ws/book/13301/1918#p1)]{.citex}  
+    [And they thought there would be no [resulting] punishment]{.trans}  
+    (Some recitations have the verb following ;an; in the ;ustate;.^[[@ibn_ya3ish_mufassal@ 4/554 footnote 7](https://shamela.ws/book/13301/1918#p1)])
+
+(@) [**أَیَحۡسَبُ أَن لَّمۡ یَرَهُۥۤ** أَحَدٌ]{.quran}
+    [@https://quran.com/90/7@ cited by [@ibn_ya3ish_mufassal@ 4/554](https://shamela.ws/book/13301/1918#p1)]{.citex}  
+
+(@) [**عَلِمَ أَن سَیَكُونُ** مِنكُم مَّرۡضَىٰ]{.quran}
+    [@https://quran.com/73/20@ cited by [@ibn_ya3ish_mufassal@ 4/554](https://shamela.ws/book/13301/1918#p1)]{.citex}  
+
+(@) [أَفَلَا **یَرَوۡنَ أَلَّا یَرۡجِعُ** إِلَیۡهِمۡ قَوۡلࣰا]{.quran}
+    [@https://quran.com/20/89@ cited by [@ibn_ya3ish_mufassal@ 4/554](https://shamela.ws/book/13301/1918#p1)]{.citex}  
+
+(@) [وَٱلَّذِیۤ **أَطۡمَعُ أَن یَغۡفِرَ** لِی خَطِیۤـَٔتِی یَوۡمَ ٱلدِّینِ]{.quran}
+    [@https://quran.com/26/82@ cited by [@ibn_ya3ish_mufassal@ 4/554](https://shamela.ws/book/13301/1918#p1)]{.citex}  
+
+(@) [وَأَنَا **أَرْجُو أَنْ يُبَرِّئَنِي** اللَّهُ، وَلَكِنْ وَاللَّهِ مَا **ظَنَنْتُ أَنْ يُنْزِلَ** فِي شَأْنِي وَحْيًا]{.ar}
+    [@https://sunnah.com/bukhari:2661@]{.citex}  
+
+(@) [فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ وَفَخِذُهُ عَلَى فَخِذِي فَثَقُلَتْ عَلَىَّ حَتَّى **ظَنَنْتُ أَنْ سَتُرَضُّ** فَخِذِي]{.ar}
+    [@https://sunnah.com/nasai:3099@]{.citex}  
+
+(@) [**وَحَسِبْتُ أَنْ قَدْ قَالَ** وَالرَّجُلُ رَاعٍ فِي مَالِ أَبِيهِ]{.ar}
+    [@https://sunnah.com/bukhari:2751@]{.citex}  
+
+(@) [**وَاعْلَمُوا أَنْ لَنْ يُدْخِلَ** أَحَدَكُمْ عَمَلُهُ الْجَنَّةَ]{.ar}
+    [@https://sunnah.com/bukhari:6464@]{.citex}  
+
+(@) [أَنَّ النَّبِيَّ ﷺ قَالَ سَأَلْتُ اللَّهَ مَسْأَلَةً **وَدِدْتُ أَنِّي لَمْ أَكُنْ سَأَلْتُهُ** ذَكَرْتُ رُسُلَ رَبِّي فَقُلْتُ يَا رَبِّ سَخَّرْتَ لِسُلَيْمَانَ الرِّيحَ وَكَلَّمْتَ مُوسَى فَقَالَ تَبَارَكَ وَتَعَالَى أَلَمْ أَجِدْكَ يَتِيمًا فَآوَيْتُكَ وَضَالًّا فَهَدَيْتُكَ وَعَائِلًا فَأَغْنَيْتُكَ؟ قَالَ فَقُلْتُ نَعَمْ **فَوَدِدْتُ أَنْ لَمْ أَسْأَلْهُ**]{.ar}
+    [<https://hadithunlocked.com/hakim:3944>]{.citex}  
+
+(@) [**تَمَنَّيْتُ أَنِّي لَمْ أَكُنْ أَسْلَمْتُ** قَبْلَ ذَلِكَ الْيَوْمِ]{.ar}
+    [@https://sunnah.com/muslim:96b@]{.citex}  
+
+
+(@) [**وَدِدْتُ أَنِّي نَجَوْتُ** مِنْهَا كَفَافًا لاَ لِي وَلاَ عَلَىَّ]{.ar}
+    [@https://sunnah.com/bukhari:7218@]{.citex}  
+
+(@) [إِنِّي **وَدِدْتُ أَنْ أَتَخَلَّصَ** مِنْهَا لَا عَلَيَّ وَلَا لِي]{.ar}
+    [<https://hadithunlocked.com/ibnhibban:4478>]{.citex}  
+
+(@) [مَا زَالَ بِكُمْ صَنِيعُكُمْ حَتَّى **ظَنَنْتُ أَنْ سَتُكْتَبَ** عَلَيْكُمْ]{.ar}
+    [@https://sunnah.com/abudawud:1447@]{.citex}^[It is not clear to us why the source has [سَتُكْتَبَ]{.ar} in the ;astate;.]  
+
+(@) [فَزَعَمْتَ أَنْ قَدْ فَعَلَ]{.ar}
+    [@https://sunnah.com/bukhari:2940@]{.citex}  
+
+(@) [فَخَرَرْتُ سَاجِدًا **وَعَرَفْتُ أَنْ قَدْ جَاءَ** فَرَجٌ]{.ar}
+    [@https://sunnah.com/muslim:2769a@]{.citex}  
+    [So I fell down prostrating and I knew that a relief had come.]{.trans}  
+
+(@) [ثُمَّ يُخَلِّلُ بِيَدِهِ شَعَرَهُ، حَتَّى إِذَا **ظَنَّ أَنْ قَدْ أَرْوَى** بَشَرَتَهُ، أَفَاضَ عَلَيْهِ الْمَاءَ ثَلاَثَ مَرَّاتٍ]{.ar}
+    [@https://sunnah.com/bukhari:272@]{.citex}  
+    [Then he [would] get the water in the interstices of his hair with his hand until when he thought that he had wettened his skin, he poured on it water three times.]{.trans}
 
 <!--
-The second, less common way, of using
-the lightened [إِنْ]{.ar}
-is following the same rules as the 
-the heavy [إِنَّ]{.ar}.
-Where the ;ism_of; is in the ;astate; and the use of the strengthening [لَ]{.ar} is optional. For example,
+https://shamela.ws/book/13301/1918#p1
 
-[إِنْ زَيْدًا مُسْلِمٌ.]{.ar}  
-"Indeed Zayd is a Muslim."
+https://ketabonline.com/ar/books/2325/read?part=3&page=1409&index=3497286
+
+https://shamela.ws/book/13301/1918#p1
+
+Like the ;muxaffaf; ;in;,
+a verb can follow the ;muxaffaf; ;an;, instead of a noun.
+But
+For example:
+
+an ghaDiba
+
+When the verb which follows
+;muxaffaf; ;an;
+is a ;mudarie; verb then it is preferred that it be separated from the 
+;muxaffaf; ;an;
+by one of the following:
+
+علمت أَن قد يقوم زيد
+https://shamela.ws/book/6970/48
+
+an is separated from la [@nahw_wafi@ 4/291 footnote 2]
 -->
-
-### The lightened [أَنْ]{.ar} {#lightened-an}
-
-As we know, the heavy [أَنَّ]{.ar} is an emphatic particle and is frequently used with the pronoun of the fact, thus:
-
-[أَعْلَمُ أَنَّهُ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
-"I know that the fact is: the cold is intense."
-
-When we wish not to use much emphasis, we may replace
-the heavy [أَنَّ]{.ar} along with its following pronoun of the fact ([أَنَّهُ]{.ar}/[أَنَّهَا]{.ar}) with
-a lightened [أَنْ]{.ar}, thus:
-
-[أَعْلَمُ أَنِ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
-"I know that the cold is intense."
-
-Note that
-the lightened [أَنْ]{.ar} replaces 
-[أَنَّهُ]{.ar},
-which is the combination of
-heavy [أَنَّ]{.ar} _and_ the pronoun of the fact [هُ]{.ar}.
-So the pronoun of the fact ([هُ]{.ar}) does not appear with
-the lightened [أَنْ]{.ar}.
-
 <!--
-The combination of a heavy [أَنَّ]{.ar} with a following pronoun of the fact ([أَنَّهُ]{.ar}/[أَنَّهَا]{.ar}) may be replaced with
-a lightened [أَنْ]{.ar}. 
-The pronoun of the fact ([هُ]{.ar}/[هَا]{.ar}) is then deleted.
+### Differentiating between the ;muxaffaf; an and the ;nasibah; ;an;
 
-only introduces ;mubtada;-;xabar; clauses whose ;ism_of; is understood to be a deleted pronoun of the fact. 
-The lightened [أَنْ]{.ar} only introduces ;mubtada;-;xabar; clauses whose ;ism_of; is understood to be a deleted pronoun of the fact. 
-The ;xabar; is, as usual, a complete sentence. 
-For example, consider the following sentence with a heavy [أَنَّ]{.ar}:
+There are four types of ;an;:
 
-[أَعْلَمُ أَنَّهُ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
-"I know that the fact is: the cold is intense."
+  i. the ;nasibah; ;an;
+ ii. the ;muxaffaf; ;an;
+iii. the ;tafsiri; ;an;
+ iv. the ;zaaid; ;an;
 
-If we replace the heavy [أَنَّ]{.ar} in the above example with the lightened [أَنْ]{.ar} then we pronoun of the fact ;ism_of; is deleted, thus:
+In this section we will explain
+wow can we tell when seeing a ;an;,
+whether it is 
+a ;nasibah; ;an;, or a
+;muxaffaf; ;an;.
+We will treat
+the other two types of ;an;:
+the ;tafsiri; ;an; and the ;zaaid; ;an;,
+in chapter\ (ref), ;ia;.
 
-[أَعْلَمُ أَنِ ٱلْبَرْدُ شَدِيدٌ.]{.ar}  
-"I know that the cold is intense."
+#### When what follows ;an; is a ;j_ism; {.unnumbered}
+
+When what follows ;an; is a ;j_ism;,
+and what precedes ;an; is only part of a sentence, and not a full sentence,
+then the ;an; is the
+;muxaffaf; ;an;.
+[@nahw_wafi@ 4/291]
+For example:
+
+#### When what follows ;an; is a supplication {.unnumbered}
+
+[@nahw_wafi@ 4/291]
+
+#### When what follows ;an; is a verb {.unnumbered}
+
+When a  verb follows ;an;, then:
+
+If is a supplication, then the ;an; is
+;muxaffaf; ;an;.
+For example:
+
+Otherwise
+
+* If the ;an; is the ;nasibah; ;an;, then the verb is put in the ;astate;.
+* And if the ;an; is the ;muxaffaf; ;an; then the verb is put in the ;ustate;.
+
+The following guidelines can be used to determine when to use
+the ;nasibah; ;an; vs the
+;muxaffaf; ;an;:
+
+
+qatr p 64
+
+When the verb is a ;madi; verb,
+then the ;muxaffaf; ;an; will again be used in situations involving certainty.
+
+علمت أن قد قمت
+
+Otherwise,
+the ;an; will be the ;nasibah; ;an;
+
+أعجبني أن قمت
+
+
+
+The ;muxaffaf; ;an; is distinguished from the light ;nasibah; ;an;
+(which governs a ;mudarie; verb in the ;astate;),
+with the following reasoning.
+
+;anna;, like ;inna; essentially signifies an assertive meaning.
+
+<https://shamela.ws/book/17116/3600>:
+
+::: {.ar}
+والذي تقرر عند أصحابنا أن شرط عمل هذا المصدر أن يقدر بحرف مصدري والفعل، فقدر الحرف س بـ"أن" الثقيلة المسندة إلى ضمير الشأن؛ لأنه يعم أن تكون الصلة ماضية وحالاً ومستقبلة، فتقدر في الماضي: من أنه ضرب زيد عمراً، وفي المضارع: من أنه يضرب؛ لأنه يصلح للحال والاستقبال.
+
+وقدره بعضهم بـ"أن" الناصبة للفعل؛ لأن صلتها تكون بالماضي، نحو: عجبت من أن قام زيد، وبالمضارع فتخلصه للاستقبال، نحو: عجبت من أن يقوم زيد. وبـ"ما"؛ لأنها تصلح للحال، وتوصل به، نحو: عجبت مما تضرب زيداً.
+:::
+
+<https://al-maktaba.org/book/31874/4114>
 -->
 
-In the above example, 
-the lightened [أَنْ]{.ar}
-introduces a ;xabar; which is a ;j_ism;.
-But the more common use of 
-the lightened [أَنْ]{.ar}
-is to introduce ;xabar;s that are verbal sentences.
+## [إِنَّمَا]{.ar} and [أَنَّمَا]{.ar}
 
-When the ;xabar; of the 
-lightened [أَنْ]{.ar}
-is a verbal sentence, then it is  preferred to separate the verb from [أَنْ]{.ar} with one of the following:
+@nahw_arabi@ 290
 
-1. [قَدْ]{.ar}. Example:
-   
-   [أَظُنُّ أَنْ قَدْ غَرَبَتِ ٱلشَّمْسُ.]{.ar}  
-   "I think that the sun has set."
+TODO
 
-2. [سَ]{.ar} or [سَوْفَ]{.ar}. Example:
+## FINI
 
-   [أَعْلَمُ أَنْ سَيَذْهَبُ.]{.ar}  
-   "I know that he will go."
+### Difference between interpreted ;masdar; and actual ;masdar;
 
-3. A negative particle like [لَا]{.ar}, [لَنْ]{.ar}, or [لَمْ]{.ar}.
+Move to chapter on subjunctive verb:
 
-   [أَعْلَمُ أَنْ لَا يَذْهَبُ.]{.ar}  
-   "I know that he does/will not go."
+<https://shamela.ws/book/150600/124#p1>:
 
-   Note that, in writing, we have not combined the lightened [أَنْ]{.ar} and [لَا]{.ar} to form [أَلَّا]{.ar}, as is done for the ;astate;-verbal [أَنْ]{.ar} (for example: [أَلَّا يَذْهَبَ]{.ar} "that he not go") in chapter\ \@ref(chapter-;astate;-;mudarie;-verbs). This distinction in spelling is not obligatory, but some authorities recommend it. In any case, they are both pronounced the same: [EallA]{.trn}. <!--al nahw al wafi 4/298, cited by Arik Sadan p.30 -->
-
-   More examples:
-
-   [أَعْلَمُ أَنْ لَنْ يَذْهَبَ.]{.ar}  
-   "I know that he shall not go."
-
-   [أَعْلَمُ أَنْ لَمْ يَذْهَبْ.]{.ar}  
-   "I know that he did not go."
-
-   Note that the [لَنْ]{.ar} and [لَمْ]{.ar}, even when after the lightened [أَنْ]{.ar}, change the state of the following ;mudarie; verb to the ;astate; and ;0state; respectively.
-
-4. The conditional particle [لَوْ]{.ar}. We will study conditional sentences in chapter\ \@ref(conditional-sentences). TODO: add example.
-
-Rigid verbs like [لَيْسَ]{.ar} and verbs expressing supplications are exempted from needing to be separated from the lightened [أَنْ]{.ar}. Example:
-
-[ظَنَنْتُ أَنْ لَيْسَ ٱلْبَرْدُ شَدِيدًا.]{.ar}  
-"I thought that the cold is not intense."
-
-#### Distinguishing between the lightened [أَنْ]{.ar} and the ;astate;-verbal [أَنْ]{.ar} 
-
-See
-[[دليل السالك إلى ألفية ابن مالك]{.ar} vol 3 p 4](https://ketabonline.com/ar/books/22032/read?part=3&page=667&index=2025083&q=%D8%A7%D9%84%D9%85%D8%AE%D9%81%D9%81%D8%A9)
-
-Although they are similar in meaning,
-care must be taken to distinguish between this lightened [أَنْ]{.ar} and the ;astate;-verbal [أَنْ]{.ar} 
-(that we learned in chapter\ \@ref(chapter-;astate;-;mudarie;-verbs)),
-The ;astate;-verbal [أَنْ]{.ar} puts the following ;mudarie; verb in the ;astate;.
-Whereas the ;mudarie; verb directly after the lightened [أَنْ]{.ar} remains in the ;ustate;.
-The following guidelines can help to distinguish  between these two [أَنْ]{.ar}s:
-
-+ If the verb before [أَنْ]{.ar} signifies certainty then only [أَنَّ]{.ar} and its lightened version [أَنْ]{.ar} is used. For example,
-
-  [أَعْلَمُ أَنْ قَدْ ذَهَبَ وَأَنْ سَيَرْجِعُ.]{.ar}  
-  "I know that he has gone and that he will return."
-
-+ If the verb before [أَنْ]{.ar} signifies wanting, hoping, or expecting, then the [أَنْ]{.ar} puts the following verb in the ;astate;. For example,
-
-  [أَطْمَعُ أَلَّا يَذْهَبَ.]{.ar}  
-  "I hope that he not go."
-
-  Note that the verb [يَذْهَبَ]{.ar} is in the ;astate;.
-
-+ If the verb before [أَنْ]{.ar} reflects a view of something going to occur, and signifies neither certainty nor expectation, but rather doubt or neutrality, then either of the [أَنْ]{.ar}s may be used, depending on the intended meaning. Such verbs include [ظَنَّ يَظُنُّ]{.ar} "to think" and [حَسِبَ يَحْسِبُ]{.ar} "to deem". For example,
-
-  ;astate;-verbal [أَنْ]{.ar}:  
-  [ظَنَنْتُ أَنْ يَرْجِعَ.]{.ar}  
-  "I thought that he should return."  
-
-  lightened [أَنْ]{.ar}:  
-  [ظَنَنْتُ أَنْ يَرْجِعُ.]{.ar}  
-  "I thought that he will return."
-
-+ If the verb before [أَنْ]{.ar} does not reflect a view of something going to occur then the [أَنْ]{.ar} is typically the ;astate;-verbal [أَنْ]{.ar}. For example,
-
-  [سَرَّنِي أَنْ تَنْجَحَ]{.ar}  
-  "That you succeed [will have] gladdened me."
-
-  Remember from chapter\ \@ref(chapter-;astate;-;mudarie;-verbs)), that the ;astate;-verbal [أَنْ]{.ar} can occur with ;madi; verbs as well. Example:
-
-  [سَرَّنِي أَنْ نَجَحْتَ]{.ar}  
-  "That you have succeeded [has] gladdened me."
-
-### The lightened [كَأَنْ]{.ar}
-
-The lightened [كَأَنْ]{.ar} is similar to the lightened [أَنْ]{.ar} in that it introduces a ;j_ism; and the ;ism_of; is usually a deleted pronoun of the fact. For example,
-
-[كَأَنِ ٱلْبَرْدُ ذَهَبَ.]{.ar}  
-"[It is] as if the cold has gone."
-
-Also similar to the lightened [أَنْ]{.ar}, the lightened [كَأَنْ]{.ar} may introduce a verbal sentence but it must be separated from [كَأَنْ]{.ar} by either [قَدْ]{.ar} or [لَمْ]{.ar}. For example,
-
-[ذَهَبَ كَأَنْ لَمْ يَسْمَعْ.]{.ar}  
-"He went as if he did not hear."
-
-### The lightened [لَـٰكِنْ]{.ar}
-
-The lightened [لَـٰكِنْ]{.ar} has the same meaning as the heavy [لَـٰكِنَّ]{.ar} but it has no grammatical effect on the word or sentence after it. It may introduce either ;j_ism;s or verbal sentences. For example,
-
-[نَجَحَ زَيْدٌ لَـٰكِنْ صَدِيقُهُ لَمْ يَنْجَحْ.]{.ar}  
-"Zayd succeeded but his friend did not succeed."
+::: {>ar}
+قَالَ السّهيلي: إذا قُلت: "كرهتُ خروجك" احتمل أن يكون المكروه نفس الخروج أو هيئته، وإن قلت: "كرهتُ أنْ خرجت" كان المكروه نفس الفعل
+:::
 
