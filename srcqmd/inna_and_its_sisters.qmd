@@ -26,24 +26,6 @@ that take an ;arch; ;j_ism; as their input and
 transform it, by governing
 the ;mubtada; in the ;ustate; and the ;xabar; in the ;ustate;.
 Furthermore, each particle has its own meaning that it imparts to the input sentence.
-
-For example, the particle ;inna; can take 
-example (@inna_zaydun_qaaimun) [زَيْدٌ قَائِمٌ]{.ar}
-as input and transform it into:
-
-(@inna_zaydan_qaaimun) [إِنَّ زَيْدًا قَائِمٌ]{.ar}  
-    [Indeed Zayd is standing.]{.trans} . 
-
-As you can see,
-the ;pregov; particle ;inna;
-has transformed the input example (@inna_zaydun_qaaimun)
-by governing the ;ism_of;
-[زَيْد]{.ar} in the ;astate;
-and
-its ;xabar;
-[قَائِم]{.ar} in the ;ustate;.
-It has also added the assertive meaning "[indeed]{.trans}".
-
 <!--
 When the ;ism_of; of ;inna; or its sisters is a pronoun,
 then then the attached pronouns are used.
@@ -79,6 +61,27 @@ We will discuss them in the following sections.
 
 ;inna; has an assertive meaning.
 It asserts the property which its ;xabar; expresses about its ;ism_of;.
+For example:
+
+<!--
+For example, the particle ;inna; can take 
+example (@inna_zaydun_qaaimun) [زَيْدٌ قَائِمٌ]{.ar}
+as input and transform it into:
+-->
+
+(@inna_zaydan_qaaimun) [إِنَّ زَيْدًا قَائِمٌ]{.ar}  
+    [Indeed Zayd is standing.]{.trans} . 
+
+As you can see,
+the ;pregov; particle ;inna;
+has transformed the input example (@inna_zaydun_qaaimun)
+by governing the ;ism_of;
+[زَيْد]{.ar} in the ;astate;
+and
+its ;xabar;
+[قَائِم]{.ar} in the ;ustate;.
+It has also added the assertive meaning "[indeed]{.trans}".
+
 
 <!--
 ;inna; is also a means for a sentence to begin with an indefinite ;ism_of;
@@ -92,7 +95,7 @@ When the ;ism_of; of ;inna; (or any of its sisters) is a pronoun,
 then the attached pronouns are used.
 So we will say, for example:
 
-TODO
+(@) [إنه قائم وإنها جالسة و إنكما قائمان وإنهم جالسون]{.ar}
 
 When the ;ism_of; is a pronoun for the singular ;first;-;person; [ي]{.ar},
 then a ;noon_wiq; may optionally be inserted.
@@ -100,7 +103,7 @@ So we can say either
 [إِنَّنِي]{.ar} or [إِنِّي]{.ar}.
 Examples:
 
-TODO
+(@) [إني/إنني قائم]{.ar}
 
 And when 
 the ;ism_of; is a pronoun for the plural ;first;-;person; [نَا]{.ar},
@@ -109,7 +112,7 @@ So we can say either
 [إِنَّنَا]{.ar} or [إِنَّا]{.ar}.
 Examples:
 
-TODO
+(@) [إنا/إننا قائمون]{.ar}
 
 The above rules, which allow adding or dropping a [ن]{.ar},
 are common for all of the sisters of ;inna; that end with [ن]{.ar}:
@@ -1307,7 +1310,7 @@ then it can be thought of as the
 ;mubtada; of a new sentence, i.e.:
 
 (@) [إن زيدا قائم وَعَمْرٌ [كَذَلِكَ]]{.ar}
-    [modified from [@ibn_aqil_alfiyyah@ 1/376](https://shamela.ws/book/9904/375#p1)]{.citex}
+    [modified from [@ibn_aqil_alfiyyah@ 1/376](https://shamela.ws/book/9904/375#p1)]{.citex}  
     [Indeed Zayd is standing and [#eamr]{.trn2} [is like that as well].]{.trans}
 
 When the noun that is ;3atf;ed is put before the ;xabar; of ;inna;,
