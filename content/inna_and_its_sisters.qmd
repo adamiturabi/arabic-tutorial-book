@@ -843,7 +843,7 @@ For example:
 Optionally, the governee of the info can be made to precede it.
 For example:
 
-(@) [إن زيدا **طعامك** آكل]{.ar}
+(@inna_zaydan_ta3aamaka_aakilun) [إن زيدا **طعامك** آكل]{.ar}
     [[[شرح ألفية ابن مالك للشاطبي]{.ar} 2/317](https://shamela.ws/book/20562/978)]{.citex}  
     [Indeed Zayd is eating your food.]{.trans}  
 
@@ -868,7 +868,10 @@ sentences like:
     [[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]{.citex}  
     [Indeed in you Zayd is trusting.]{.trans}  
     
-Others disallowed such sentences and mandated the following order^[[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]:
+Others disallowed such sentences and mandated that
+the governee of the info not precede the subject
+even in the case of prepositional/adverbial phrases.^[[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]:
+So they allow:
 
 (@) [إِنَّ زَيْدًا جَالِسٌ **عِنْدَكَ**]{.ar}
     [[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]{.citex}  
@@ -877,6 +880,13 @@ Others disallowed such sentences and mandated the following order^[[[شرح اب
 (@) [إن زيدا واثق **بك**]{.ar}
     [[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]{.citex}  
     [Indeed Zayd is trusting in you.]{.trans}  
+
+Making the governee of the info precede it (but not the subject) is allow allowed
+(as in example (@inna_zaydan_ta3aamaka_aakilun) above):
+
+(@) [إِنَّ زَيْدًا **عِنْدَكَ** جَالِسٌ]{.ar},
+
+(@) [إن زيدا **بك** واثق]{.ar}
 
 <!--
 But when the info is itself

@@ -837,7 +837,7 @@ For example:
 Optionally, the governee of the ;xabar; can be made to precede it.
 For example:
 
-(@) [إن زيدا **طعامك** آكل]{.ar}
+(@inna_zaydan_ta3aamaka_aakilun) [إن زيدا **طعامك** آكل]{.ar}
     [[@shatibi_sharf_alfiyyah@ 2/317](https://shamela.ws/book/20562/978)]{.citex}  
     [Indeed Zayd is eating your food.]{.trans}  
 
@@ -862,7 +862,10 @@ sentences like:
     [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
     [Indeed in you Zayd is trusting.]{.trans}  
     
-Others disallowed such sentences and mandated the following order^[[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]:
+Others disallowed such sentences and mandated that
+the governee of the ;xabar; not precede the ;ism_of;
+even in the case of prepositional/adverbial phrases.^[[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]:
+So they allow:
 
 (@) [إِنَّ زَيْدًا جَالِسٌ **عِنْدَكَ**]{.ar}
     [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
@@ -871,6 +874,13 @@ Others disallowed such sentences and mandated the following order^[[@ibn_aqil_al
 (@) [إن زيدا واثق **بك**]{.ar}
     [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
     [Indeed Zayd is trusting in you.]{.trans}  
+
+Making the governee of the ;xabar; precede it (but not the ;ism_of;) is allow allowed
+(as in example (@inna_zaydan_ta3aamaka_aakilun) above):
+
+(@) [إِنَّ زَيْدًا **عِنْدَكَ** جَالِسٌ]{.ar},
+
+(@) [إن زيدا **بك** واثق]{.ar}
 
 <!--
 But when the ;xabar; is itself
