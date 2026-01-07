@@ -198,16 +198,24 @@ The grammarians have theorized that
 the [أَنَّ]{.ar} clause
 is able to constitute a single sentence element
 because it is interpreted
+as a
 [maSdar]{.trn2} construction.
 And the [maSdar]{.trn2} is then able to take the place of a single element of the sentence.
 In example (@yu3jibuni_anna_zaydan_qaaimun)
+the [maSdar]{.trn2} is interpreted as follows:
+
+(@) [أَنَّ زَيْدًا قَائِمٌ]{.ar} = [قِيَامُ زَيْدٍ]{.ar}
+    [that Zayd is standing]{.trans} = [Zayd's [being] standing]{.trans}
+
+<!--
 the [maSdar]{.trn2} interpretation of
 the [أَنَّ]{.ar} clause
 [أَنَّ زَيْدًا قَائِمٌ]{.ar}
-[that Zayd is standing]{.trans}
 is theorized as
 [قِيَامُ زَيْدٍ]{.ar}
 [Zayd's standing(ness)]{.trans}.
+-->
+
 If we replace 
 the [أَنَّ]{.ar} clause
 in example (@yu3jibuni_anna_zaydan_qaaimun)
@@ -215,7 +223,7 @@ with this interpreted [maSdar]{.trn2} construction,
 we get:
 
 (@) [يُعْجِبُنِي قِيَامُ زَيْدٍ]{.ar}  
-    [Zayd's standing(ness) pleases me.]{.trans}.
+    [Zayd's [being] standing pleases me.]{.trans}.
 
 Now we can see how
 the interpreted [maSdar]{.trn2} construction
@@ -228,6 +236,7 @@ the annexe noun
 is it its base noun governee,
 but loosely speaking they can be considered one unit.)
 
+<!--
 Because of this interpretation of
 the [أَنَّ]{.ar} clause
 as a 
@@ -241,6 +250,7 @@ The [maSdar]{.trn2}i [أَنَّ]{.ar} and
 the a-state-izing [أَنْ]{.ar}
 are actually closely linked and we will study some aspects of
 their relationship in section\ (ref) below if Allāh wills.
+-->
 
 By the way,
 the interpretation of
@@ -297,13 +307,13 @@ If we replace the [أَنَّ]{.ar} clause with its interpreted [maSdar]{.trn2} 
 
 #### The [أَنَّ]{.ar} clause as a deputy doer {.unnumbered}
 
-(@) [عرف أن السارق جريء]{.ar}
+(@) [عُرِفَ أَنَّ السَّارِقَ جَرِيءٌ]{.ar}
     [[nawh_waadiH 1/264](https://shamela.ws/book/10018/256)]{.citex}  
     [That the thief is bold was known.]{.trans}  
 
 If we replace the [أَنَّ]{.ar} clause with its interpreted [maSdar]{.trn2} we get:
 
-(@) [عرف جراءة السارق]{.ar}
+(@) [عُرِفَ جَرَاءَةُ السَّارِقِ]{.ar}
     [[nawh_waadiH 1/264](https://shamela.ws/book/10018/256)]{.citex}  
     [The thief's boldness was known.]{.trans}  
 
@@ -367,6 +377,13 @@ For example:
     [[[صحيح مسلم]{.ar} :2567a](https://sunnah.com/muslim:2567a)]{.citex}  
     [[He said, "Where are you intending [to go]?" He said, "I intend [to go to] a brother of mine in this town." He said, "Do you have upon him a favor that [you are seeking repayment for]?" He said, "No, **except that** I have loved him [for the sake of] Allāh the Exalted and Glorious."]{.trans}  
 
+#### The [أَنَّ]{.ar} clause as a info {.unnumbered}
+
+(@) [أمرك أنك ذاهب]{.ar}
+    [[[الجنى الداني]{.ar} 409](https://shamela.ws/book/26099/391#p1)]{.citex}  
+    [Your state-of-affairs is that you are going.]{.trans}  
+    (The interpreted [maSdar]{.trn2} [ذَهَابُكَ]{.ar} is the info.)
+
 #### The [أَنَّ]{.ar} clause as a subject {.unnumbered}
 
 The [أَنَّ]{.ar} clause as a subject is not as common as the other categories,
@@ -404,7 +421,7 @@ For example:
     [Verily, that you are excellent, then [it is] in my estimation]{.trans}  
 -->
 
-The [أَنَّ]{.ar} may even be an subject of [إِنَّ]{.ar} and [كَانَ]{.ar}.
+The [أَنَّ]{.ar} clause may even be an subject of [إِنَّ]{.ar} and [كَانَ]{.ar}.
 Examples:
 
 (@) [كان في ظني أنك فاضل]{.ar}
@@ -418,12 +435,15 @@ As the subject of [إِنَّ]{.ar}, the [أَنَّ]{.ar} clause must be separa
     [Indeed [it is your rank] with me that you are excellent.]{.trans}  
     i.e. [You are excellent in my sight.]{.trans}
 
-#### The [أَنَّ]{.ar} clause as a info {.unnumbered}
+When the [أَنَّ]{.ar} clause is a governee of [كَانَ]{.ar} then it can, in general, be either the subject or the info.
+For example:
 
-(@) [أمرك أنك ذاهب]{.ar}
-    [[[الجنى الداني]{.ar} 409](https://shamela.ws/book/26099/391#p1)]{.citex}  
-    [Your state-of-affairs is that you are going.]{.trans}  
-    (The interpreted [maSdar]{.trn2} [ذَهَابُكَ]{.ar} is the info.)
+(@) [فَكَانَ عَـٰقِبَتَهُمَاۤ أَنَّهُمَا فِی ٱلنَّارِ]{.quran}
+    [[[سورة الحشر]{.ar} 59:17](https://quran.com/59/17)]{.citex}  
+    [So the outcome for both of them is that they will be in the Fire]{.trans}  
+    (In some recitations [عَاقِبَة]{.ar} is in the u-state.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/59/17) for [سورة الحشر]{.ar} 59:17; [[معاني القرآن وإعرابه للزجاج]{.ar} 5/149](https://shamela.ws/book/922/1939); [[معاني القرآن للفراء]{.ar}](https://tafsir.app/farraa/7/5) for [سورة الأعراف]{.ar} 7:5])
+
+Compare also to section\ (masdar an in kaana chapter).
 
 ### The interpreted [maSdar]{.trn2} when the info of [أَنَّ]{.ar} is a prepositional/adverbial phrase
 
@@ -612,12 +632,12 @@ For example:
     [[[سورة النبأ]{.ar} 78:40](https://quran.com/78/40)]{.citex}  
     [and the disbeliever will say, "Oh, I wish that I were dust!"]{.trans}  
 
-Very rarely, the guarding-[ن]{.ar} can be omitted.^[[[شرح ألفية ابن مالك للشاطبي]{.ar} 1/332](https://shamela.ws/book/20562/332#p1)]
+Very rarely, the guarding-[ن]{.ar} can be omitted thus: [لَيْتِي]{.ar}.^[[[شرح ألفية ابن مالك للشاطبي]{.ar} 1/332](https://shamela.ws/book/20562/332#p1)]
 
 
-And when 
+When 
 the subject is a pronoun for the plural speaker-participant [نَا]{.ar},
-then the [ن]{.ar} of the pronoun is kept separate, thus:
+then the [ن]{.ar} of the pronoun is never omitted, and we will say:
 [لَيْتَنَا]{.ar}.
 For example:
 
@@ -662,11 +682,11 @@ For example:
     [[[سورة طه]{.ar} 20:10](https://quran.com/20/10)]{.citex}  
     [When he saw a fire and said to his family, "Stay here; indeed, I have perceived a fire; perhaps I can bring you a torch or find at the fire some guidance."]{.trans}  
 
-Very rarely, the guarding-[ن]{.ar} can be omitted.^[[[شرح ألفية ابن مالك للشاطبي]{.ar} 1/333](https://shamela.ws/book/20562/333#p1)]
+Very rarely, a guarding-[ن]{.ar} can be added thus: [لَعَلَّنِي]{.ar}.^[[[شرح ألفية ابن مالك للشاطبي]{.ar} 1/333](https://shamela.ws/book/20562/333#p1)]
 
 But like [لَيْتَ]{.ar},
 the subject is a pronoun for the plural speaker-participant [نَا]{.ar},
-then the [ن]{.ar} of the pronoun is separate, thus:
+then the [ن]{.ar} of the pronoun is not never omitted, and we will say:
 [لَعَلَّنَا]{.ar}.
 For example:
 
@@ -759,6 +779,8 @@ is a [كَانَ]{.ar} sentence with its own subject and verbal sentence info:
 
 ## Word order of the subject and the info with [إِنَّ]{.ar} and its sisters
 
+### Word order for a single element info
+
 The subject of [إِنَّ]{.ar} (and its sisters) must always follow it in word order.
 And its info must always follow the subject.
 So, for example,
@@ -772,27 +794,79 @@ We must say instead:
 (@) [إِنَّ زَيْدًا قَائِمٌ]{.ar}  
     [Indeed Zayd is standing.]{.trans}
 
-If the info has a governee, then it too
-should not, in general, preceded the subject.
-So we cannot say:
+### Word order for a prepositional or adverbial phrase info
 
-(@) ✗ [إن **طعامك** زيدا آكل]{.ar}
-    [[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]{.citex}  
+When the info is itself
+(loosely speaking) the prepositional or adverbial phrase,
+then then it may be placed before the subject.
+Sometimes, placing the 
+prepositional/adverbial phrase
+before the subject is optional.
+For example:
 
-We must say instead:
+(@) [إِنَّ فِي الدَّارِ ضُيُوفًا كِرَامًا]{.ar}
+    [[النحو العربي: أحكام ومعان]{.ar} 1/273]{.citex}  
+    [Indeed in the house are noble guests.]{.trans}  
+
+(@) [لَيْتَ عِنْدَكَ مُحَمَّدًا]{.ar}
+    [[النحو العربي: أحكام ومعان]{.ar} 1/273]{.citex}  
+    [O that with you was [#muHammad]{.trn2}]{.trans}  
+
+In such cases, where the prepositional/adverbial phrase info may be placed either before or after the subject,
+the signification can be slightly diferent.
+For example, if we say:
+
+(@) [إِنَّ مَعَكَ صَاحِبَكَ.]{.ar}
+    [Wright 2/80C]{.citex}  
+    [Indeed, with you, is **your companion**.]{.trans}
+
+This puts the logical accent on the subject [صَاحِبَكَ]{.ar} "your companion". If the subject is placed first then this puts the logical accent on the info:
+
+(@) [إِنَّ صَاحِبَكَ مَعَكَ.]{.ar}
+    [Wright 2/80C]{.citex}  
+    [Indeed your companion is **with you**.]{.trans}
+
+
+
+When the prepositional/adverbial phrase has a pronoun that refers to the subject,
+then it must obligatorily be placed before the subject.
+For example:
+
+(@) [إِنَّ فِي الدَّارِ سَاكِنَهَا]{.ar}
+    [[[ارتشاف الضرب من لسان العرب]{.ar} 3/1244](https://shamela.ws/book/16595/1244)]{.citex}  
+    [Indeed in the house is its resident.]{.trans}
+
+(@) [إِنَّ عِنْدَ هِنْدٍ بَعْلَهَا]{.ar}
+    [[[ارتشاف الضرب من لسان العرب]{.ar} 3/1244](https://shamela.ws/book/16595/1244)]{.citex}  
+    [Indeed with Hind is her husband.]{.trans}
+
+### Word order when the info has a governee
+
+If the info has a governee, then
+the normal word order is for it to follow its governor.
+For example:
 
 (@) [إن زيدا آكل **طعامك**]{.ar}
     [[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]{.citex}  
     [Indeed Zayd is eating your food.]{.trans}  
 
-The following word order is also permissible, for the same meaning:
+Optionally, the governee of the info can be made to precede it.
+For example:
 
-(@) [إن زيدا **طعامك** آكل]{.ar}
+(@inna_zaydan_ta3aamaka_aakilun) [إن زيدا **طعامك** آكل]{.ar}
     [[[شرح ألفية ابن مالك للشاطبي]{.ar} 2/317](https://shamela.ws/book/20562/978)]{.citex}  
     [Indeed Zayd is eating your food.]{.trans}  
 
-But when the governee of the info is a prepositional or adverbial phrase,
-then there is some diagreement amongst the grammarians.^[[[ارتشاف الضرب من لسان العرب]{.ar} 3/1244](https://shamela.ws/book/16595/1244); [[شرح كتاب سيبويه للسيرافي]{.ar} 2/464](https://shamela.ws/book/17726/962)]
+But the governee of the info
+should not, in general, precede the subject.
+So we cannot say:
+
+(@) ✗ [إن **طعامك** زيدا آكل]{.ar}
+    [[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]{.citex}  
+
+However, when the governee of the info is a prepositional or adverbial phrase,
+then there is some diagreement amongst the grammarians,
+with regard to whether the governee of the info can precede the subject.^[[[ارتشاف الضرب من لسان العرب]{.ar} 3/1244](https://shamela.ws/book/16595/1244); [[شرح كتاب سيبويه للسيرافي]{.ar} 2/464](https://shamela.ws/book/17726/962)]
 Some grammarians allowed
 sentences like:
 
@@ -804,7 +878,10 @@ sentences like:
     [[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]{.citex}  
     [Indeed in you Zayd is trusting.]{.trans}  
     
-Others disallowed such sentences and mandated the following order^[[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]:
+Others disallowed such sentences and mandated that
+the governee of the info not precede the subject
+even in the case of prepositional/adverbial phrases.^[[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]:
+So they allow:
 
 (@) [إِنَّ زَيْدًا جَالِسٌ **عِنْدَكَ**]{.ar}
     [[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]{.citex}  
@@ -814,6 +891,14 @@ Others disallowed such sentences and mandated the following order^[[[شرح اب
     [[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]{.citex}  
     [Indeed Zayd is trusting in you.]{.trans}  
 
+Making the governee of the info precede it (but not the subject) is allow allowed
+(as in example (@inna_zaydan_ta3aamaka_aakilun) above):
+
+(@) [إِنَّ زَيْدًا **عِنْدَكَ** جَالِسٌ]{.ar},
+
+(@) [إن زيدا **بك** واثق]{.ar}
+
+<!--
 But when the info is itself
 (loosely speaking) the prepositional or adverbial phrase,
 then then it may be placed before the subject undisputably.
@@ -857,6 +942,7 @@ For example:
 (@) [إِنَّ عِنْدَ هِنْدٍ بَعْلَهَا]{.ar}
     [[[ارتشاف الضرب من لسان العرب]{.ar} 3/1244](https://shamela.ws/book/16595/1244)]{.citex}  
     [Indeed with Hind is her husband.]{.trans}
+-->
 
 ## A state-of-affairs pronoun as the subject of [إِنَّ]{.ar} and its sisters
 
@@ -1869,6 +1955,18 @@ with the following reasoning.
 
 <https://al-maktaba.org/book/31874/4114>
 -->
+## The lightened [كَأَنْ]{.ar}
+
+Similar to 
+the lightened [أَنْ]{.ar},
+the lightened [كَأَنْ]{.ar}
+has a deleted state-of-affairs pronoun as its subject and its info is sentence.
+
+[النحو العربي: أحكام ومعان]{.ar} 1/303
+
+## The lightened [لَـٰكِنْ]{.ar}
+
+[النحو العربي: أحكام ومعان]{.ar} 1/304
 
 ## [إِنَّمَا]{.ar} and [أَنَّمَا]{.ar}
 
