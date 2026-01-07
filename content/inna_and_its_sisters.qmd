@@ -464,7 +464,7 @@ where the info of [أَنَّ]{.ar} is a prepositional or adverbial phrase:
 (@) [علمت أن زيداً في الدار]{.ar}
     [[haazimi 37/15](https://shamela.ws/book/36130/688)]{.citex}  
     [I knew that Zayd is in the house.]{.trans}  
-    (The info of [أَنَّ]{.ar} is an adverbial phrase: [فِي الدَّارِ]{.ar} [in the house]{.trans}.)
+    (The info of [أَنَّ]{.ar} is an prepositional phrase: [فِي الدَّارِ]{.ar} [in the house]{.trans}.)
 
 
 In such cases, the interpreted [maSdar]{.trn2} is general beingness, represented by the [maSdar]{.trn2}
@@ -732,7 +732,7 @@ For example:
 
 ## A prepositional/adverbial phrase as the info of [إِنَّ]{.ar} and its sisters
 
-A prepositional/adverbial phrase can occurs as the info of [إِنَّ]{.ar} and its sisters.
+A prepositional/adverbial phrase can occur as the info of [إِنَّ]{.ar} and its sisters.
 For example:
 
 (@) [إِنَّ زَيْدًا فِي الدَّارِ]{.ar}  
@@ -864,7 +864,7 @@ So we cannot say:
 (@) ✗ [إن **طعامك** زيدا آكل]{.ar}
     [[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]{.citex}  
 
-However, when the governee of the info is a prepositional or adverbial phrase,
+However, when the governee of the info is a preposition or adverb,
 then there is some diagreement amongst the grammarians,
 with regard to whether the governee of the info can precede the subject.^[[[ارتشاف الضرب من لسان العرب]{.ar} 3/1244](https://shamela.ws/book/16595/1244); [[شرح كتاب سيبويه للسيرافي]{.ar} 2/464](https://shamela.ws/book/17726/962)]
 Some grammarians allowed
@@ -877,10 +877,18 @@ sentences like:
 (@) [إن **بك** زيدا واثق]{.ar}
     [[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]{.citex}  
     [Indeed in you Zayd is trusting.]{.trans}  
-    
+
+(@) [إنَّ اليَوْمَ زَيْدًا مُسافِرٌ]{.ar}
+    [[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/11/8) for [سورة هود]{.ar} 11:8]{.citex}  
+    [Indeed today Zayd is a journeying-one.]{.trans}  
+
+(@) [علمت أن اليوم زيداً سائر]{.ar}
+    [[[المساعد على تسهيل الفوائد لابن عقيل]{.ar} 3/65](https://shamela.ws/book/133358/1340)]]{.citex}  
+    [I knew that today Zayd is a travelling-one.]{.trans}  
+
 Others disallowed such sentences and mandated that
 the governee of the info not precede the subject
-even in the case of prepositional/adverbial phrases.^[[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]:
+even in the case of preposition or adverb governee.^[[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]:
 So they allow:
 
 (@) [إِنَّ زَيْدًا جَالِسٌ **عِنْدَكَ**]{.ar}
@@ -891,8 +899,9 @@ So they allow:
     [[[شرح ابن عقيل على الألفية]{.ar} 1/349](https://shamela.ws/book/9904/348)]{.citex}  
     [Indeed Zayd is trusting in you.]{.trans}  
 
-Making the governee of the info precede it (but not the subject) is allow allowed
-(as in example (@inna_zaydan_ta3aamaka_aakilun) above):
+It is also allowed to make the governee of the info precede it (but not the subject)
+(as in example (@inna_zaydan_ta3aamaka_aakilun) above).
+For example:
 
 (@) [إِنَّ زَيْدًا **عِنْدَكَ** جَالِسٌ]{.ar},
 
@@ -1384,14 +1393,14 @@ For example:
 [النحو العربي: أحكام ومعان]{.ar} 278
 -->
 
-## A conjunct following [إِنَّ]{.ar} and its sisters
+## A conjunction following [إِنَّ]{.ar} and its sisters
 
 <!--
 [النحو العربي: أحكام ومعان]{.ar} 293
 -->
 
-When a noun is conjuncted to the subject of [إِنَّ]{.ar}
-and the post-conjunctee is placed after the info of [إِنَّ]{.ar}
+When a conjunction is used with the subject of [إِنَّ]{.ar},
+and the post-conjunction is placed after the info of [إِنَّ]{.ar}
 then it can optionally either be put in the a-state or the u-state.
 For example:
 
@@ -1401,7 +1410,7 @@ For example:
 (@) [إن زيدا قائم **وعمرو**]{.ar}
     [[[شرح ابن عقيل على الألفية]{.ar} 1/376](https://shamela.ws/book/9904/375#p1)]{.citex}  
 
-If the post-conjunctee is put in the u-state ([وَعَمْرٌو]{.ar}),
+If the post-conjunction is put in the u-state ([وَعَمْرٌو]{.ar}),
 then it can be thought of as the
 subject of a new sentence, i.e.:
 
@@ -1409,9 +1418,9 @@ subject of a new sentence, i.e.:
     [modified from [[شرح ابن عقيل على الألفية]{.ar} 1/376](https://shamela.ws/book/9904/375#p1)]{.citex}  
     [Indeed Zayd is standing and [#eamr]{.trn2} [is like that as well].]{.trans}
 
-When the noun that is conjuncted is put before the info of [إِنَّ]{.ar},
+When post-conjunction is put before the info of [إِنَّ]{.ar},
 then according to the dominant view,
-the post-conjunctee must be in the a-state.
+the post-conjunction must be in the a-state.
 So we will say:
 
 (@) [إن زيدا وعمرا قائمان]{.ar}
@@ -1420,7 +1429,7 @@ So we will say:
 (@) [إنك وزيدا ذاهبان]{.ar}
     [[[شرح ابن عقيل على الألفية]{.ar} 1/376](https://shamela.ws/book/9904/375#p1)]{.citex}  
 
-Some grammarians permitted the post-conjunctee to be in the u-state in this case as well.^[[[شرح ابن عقيل على الألفية]{.ar} 1/376](https://shamela.ws/book/9904/375#p1)]
+Some grammarians permitted the post-conjunction to be in the u-state in this case as well.^[[[شرح ابن عقيل على الألفية]{.ar} 1/376](https://shamela.ws/book/9904/375#p1)]
 
 The rules for [أَنَّ]{.ar} and [لَـٰكِنَّ]{.ar} are the same as the rules for [إِنَّ]{.ar}.
 So we will say, for example:

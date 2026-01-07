@@ -94,9 +94,9 @@ map_table["lafzi"] = "superficial" # false, superficial
 
 # alphabetical
 map_table["3aaid"] = "refer-back pronoun"
-map_table["3atf"] = "conjunct"
-map_table["ma3toof"] = "post-conjunctee"
-map_table["ma3toof3"] = "pre-conjunctee"
+map_table["3atf"] = "conjunction"
+map_table["ma3toof"] = "post-conjunction"
+map_table["ma3toof3"] = "pre-conjunction"
 map_table["3atf_bayan"] = "clarifying follower"
 
 map_table["adat_istifham"] = "question word"
