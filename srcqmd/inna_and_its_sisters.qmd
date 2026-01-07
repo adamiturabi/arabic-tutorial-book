@@ -192,16 +192,24 @@ The grammarians have theorized that
 the ;anna; clause
 is able to constitute a single sentence element
 because it is interpreted
+as a
 ;masdar; construction.
 And the ;masdar; is then able to take the place of a single element of the sentence.
 In example (@yu3jibuni_anna_zaydan_qaaimun)
+the ;masdar; is interpreted as follows:
+
+(@) [أَنَّ زَيْدًا قَائِمٌ]{.ar} = [قِيَامُ زَيْدٍ]{.ar}
+    [that Zayd is standing]{.trans} = [Zayd's [being] standing]{.trans}
+
+<!--
 the ;masdar; interpretation of
 the ;anna; clause
 [أَنَّ زَيْدًا قَائِمٌ]{.ar}
-[that Zayd is standing]{.trans}
 is theorized as
 [قِيَامُ زَيْدٍ]{.ar}
 [Zayd's standing(ness)]{.trans}.
+-->
+
 If we replace 
 the ;anna; clause
 in example (@yu3jibuni_anna_zaydan_qaaimun)
@@ -209,7 +217,7 @@ with this interpreted ;masdar; construction,
 we get:
 
 (@) [يُعْجِبُنِي قِيَامُ زَيْدٍ]{.ar}  
-    [Zayd's standing(ness) pleases me.]{.trans}.
+    [Zayd's [being] standing pleases me.]{.trans}.
 
 Now we can see how
 the interpreted ;masdar; construction
@@ -222,6 +230,7 @@ the ;mudaf;
 is it its ;mudafil; governee,
 but loosely speaking they can be considered one unit.)
 
+<!--
 Because of this interpretation of
 the ;anna; clause
 as a 
@@ -235,6 +244,7 @@ The ;masdar;i ;anna; and
 the ;nasibah; ;an;
 are actually closely linked and we will study some aspects of
 their relationship in section\ (ref) below ;ia;.
+-->
 
 By the way,
 the interpretation of
@@ -291,13 +301,13 @@ If we replace the ;anna; clause with its interpreted ;masdar; we get:
 
 #### The ;anna; clause as a ;naib; ;faa3il; {.unnumbered}
 
-(@) [عرف أن السارق جريء]{.ar}
+(@) [عُرِفَ أَنَّ السَّارِقَ جَرِيءٌ]{.ar}
     [[nawh_waadiH 1/264](https://shamela.ws/book/10018/256)]{.citex}  
     [That the thief is bold was known.]{.trans}  
 
 If we replace the ;anna; clause with its interpreted ;masdar; we get:
 
-(@) [عرف جراءة السارق]{.ar}
+(@) [عُرِفَ جَرَاءَةُ السَّارِقِ]{.ar}
     [[nawh_waadiH 1/264](https://shamela.ws/book/10018/256)]{.citex}  
     [The thief's boldness was known.]{.trans}  
 
@@ -606,12 +616,12 @@ For example:
     [@https://quran.com/78/40@]{.citex}  
     [and the disbeliever will say, "Oh, I wish that I were dust!"]{.trans}  
 
-Very rarely, the ;noon_wiq; can be omitted.^[[@shatibi_sharf_alfiyyah@ 1/332](https://shamela.ws/book/20562/332#p1)]
+Very rarely, the ;noon_wiq; can be omitted thus: [لَيْتِي]{.ar}.^[[@shatibi_sharf_alfiyyah@ 1/332](https://shamela.ws/book/20562/332#p1)]
 
 
-And when 
+When 
 the ;ism_of; is a pronoun for the plural ;first;-;person; [نَا]{.ar},
-then the [ن]{.ar} of the pronoun is kept separate, thus:
+then the [ن]{.ar} of the pronoun is never omitted, and we will say:
 [لَيْتَنَا]{.ar}.
 For example:
 
@@ -656,11 +666,11 @@ For example:
     [@https://quran.com/20/10@]{.citex}  
     [When he saw a fire and said to his family, "Stay here; indeed, I have perceived a fire; perhaps I can bring you a torch or find at the fire some guidance."]{.trans}  
 
-Very rarely, the ;noon_wiq; can be omitted.^[[@shatibi_sharf_alfiyyah@ 1/333](https://shamela.ws/book/20562/333#p1)]
+Very rarely, a ;noon_wiq; can be added thus: [لَعَلَّنِي]{.ar}.^[[@shatibi_sharf_alfiyyah@ 1/333](https://shamela.ws/book/20562/333#p1)]
 
 But like ;layta;,
 the ;ism_of; is a pronoun for the plural ;first;-;person; [نَا]{.ar},
-then the [ن]{.ar} of the pronoun is separate, thus:
+then the [ن]{.ar} of the pronoun is not never omitted, and we will say:
 [لَعَلَّنَا]{.ar}.
 For example:
 
@@ -753,6 +763,8 @@ is a ;kaana; sentence with its own ;ism_of; and ;j_f3l; ;xabar;:
 
 ## Word order of the ;ism_of; and the ;xabar; with ;inna; and its sisters
 
+### Word order for a single element ;xabar;
+
 The ;ism_of; of ;inna; (and its sisters) must always follow it in word order.
 And its ;xabar; must always follow the ;ism_of;.
 So, for example,
@@ -766,27 +778,79 @@ We must say instead:
 (@) [إِنَّ زَيْدًا قَائِمٌ]{.ar}  
     [Indeed Zayd is standing.]{.trans}
 
-If the ;xabar; has a governee, then it too
-should not, in general, preceded the ;ism_of;.
-So we cannot say:
+### Word order for a prepositional or adverbial phrase ;xabar;
 
-(@) ;x; [إن **طعامك** زيدا آكل]{.ar}
-    [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
+When the ;xabar; is itself
+(loosely speaking) the prepositional or adverbial phrase,
+then then it may be placed before the ;ism_of;.
+Sometimes, placing the 
+prepositional/adverbial phrase
+before the ;ism_of; is optional.
+For example:
 
-We must say instead:
+(@) [إِنَّ فِي الدَّارِ ضُيُوفًا كِرَامًا]{.ar}
+    [@nahw_arabi@ 1/273]{.citex}  
+    [Indeed in the house are noble guests.]{.trans}  
+
+(@) [لَيْتَ عِنْدَكَ مُحَمَّدًا]{.ar}
+    [@nahw_arabi@ 1/273]{.citex}  
+    [O that with you was [#muHammad]{.trn2}]{.trans}  
+
+In such cases, where the prepositional/adverbial phrase ;xabar; may be placed either before or after the ;ism_of;,
+the signification can be slightly diferent.
+For example, if we say:
+
+(@) [إِنَّ مَعَكَ صَاحِبَكَ.]{.ar}
+    [@wright@ 2/80C]{.citex}  
+    [Indeed, with you, is **your companion**.]{.trans}
+
+This puts the logical accent on the ;ism_of; [صَاحِبَكَ]{.ar} "your companion". If the ;ism_of; is placed first then this puts the logical accent on the ;xabar;:
+
+(@) [إِنَّ صَاحِبَكَ مَعَكَ.]{.ar}
+    [@wright@ 2/80C]{.citex}  
+    [Indeed your companion is **with you**.]{.trans}
+
+
+
+When the prepositional/adverbial phrase has a pronoun that refers to the ;ism_of;,
+then it must obligatorily be placed before the ;ism_of;.
+For example:
+
+(@) [إِنَّ فِي الدَّارِ سَاكِنَهَا]{.ar}
+    [[@irtishaaf@ 3/1244](https://shamela.ws/book/16595/1244)]{.citex}  
+    [Indeed in the house is its resident.]{.trans}
+
+(@) [إِنَّ عِنْدَ هِنْدٍ بَعْلَهَا]{.ar}
+    [[@irtishaaf@ 3/1244](https://shamela.ws/book/16595/1244)]{.citex}  
+    [Indeed with Hind is her husband.]{.trans}
+
+### Word order when the ;xabar; has a governee
+
+If the ;xabar; has a governee, then
+the normal word order is for it to follow its governor.
+For example:
 
 (@) [إن زيدا آكل **طعامك**]{.ar}
     [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
     [Indeed Zayd is eating your food.]{.trans}  
 
-The following word order is also permissible, for the same meaning:
+Optionally, the governee of the ;xabar; can be made to precede it.
+For example:
 
 (@) [إن زيدا **طعامك** آكل]{.ar}
     [[@shatibi_sharf_alfiyyah@ 2/317](https://shamela.ws/book/20562/978)]{.citex}  
     [Indeed Zayd is eating your food.]{.trans}  
 
-But when the governee of the ;xabar; is a prepositional or adverbial phrase,
-then there is some diagreement amongst the grammarians.^[[@irtishaaf@ 3/1244](https://shamela.ws/book/16595/1244); [@sirafi_sibawayhi@ 2/464](https://shamela.ws/book/17726/962)]
+But the governee of the ;xabar;
+should not, in general, precede the ;ism_of;.
+So we cannot say:
+
+(@) ;x; [إن **طعامك** زيدا آكل]{.ar}
+    [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
+
+However, when the governee of the ;xabar; is a prepositional or adverbial phrase,
+then there is some diagreement amongst the grammarians,
+with regard to whether the governee of the ;xabar; can precede the ;ism_of;.^[[@irtishaaf@ 3/1244](https://shamela.ws/book/16595/1244); [@sirafi_sibawayhi@ 2/464](https://shamela.ws/book/17726/962)]
 Some grammarians allowed
 sentences like:
 
@@ -808,6 +872,7 @@ Others disallowed such sentences and mandated the following order^[[@ibn_aqil_al
     [[@ibn_aqil_alfiyyah@ 1/349](https://shamela.ws/book/9904/348)]{.citex}  
     [Indeed Zayd is trusting in you.]{.trans}  
 
+<!--
 But when the ;xabar; is itself
 (loosely speaking) the prepositional or adverbial phrase,
 then then it may be placed before the ;ism_of; undisputably.
@@ -851,6 +916,7 @@ For example:
 (@) [إِنَّ عِنْدَ هِنْدٍ بَعْلَهَا]{.ar}
     [[@irtishaaf@ 3/1244](https://shamela.ws/book/16595/1244)]{.citex}  
     [Indeed with Hind is her husband.]{.trans}
+-->
 
 ## A ;damir_shan; as the ;ism_of; of ;inna; and its sisters
 
