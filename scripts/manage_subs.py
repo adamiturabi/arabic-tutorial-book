@@ -92,6 +92,7 @@ map_table["inshai"] = "non-truth-evaluable" # non-falsifiable
 map_table["ma3nawi"] = "real" 
 map_table["lafzi"] = "superficial" # false, superficial
 
+
 # alphabetical
 map_table["3aaid"] = "refer-back pronoun"
 map_table["3atf"] = "conjunction"
@@ -127,12 +128,11 @@ map_table["ism_maful"] = "doee participle"
 map_table["ism_marrah"] = "one-time noun"
 map_table["ism_hay2ah"] = "noun of kind"
 map_table["ism_makan"] = "noun of place"
-map_table["ism_masdar"] = "quasi-maṣdar"
 map_table["ism_mawsul"] = "connected noun"
 map_table["ism_zaman"] = "noun of time"
 map_table["isnaad_comp"] = "structurally complete"
 
-map_table["jamid"] = "underived"
+map_table["jamid"] = "primitive"
 map_table["jawab"] = "consequence"
 map_table["jawab_shart"] = "condition-response"
 map_table["j_ism"] = "nounal sentence"
@@ -191,7 +191,7 @@ map_table["shart"] = "condition"
 map_table["shibh_fi3l"] = "quasi-verb"
 map_table["shibh_jumlah"] = "quasi-sentence"
 map_table["shibh_jumlah"] = "quasi-sentence"
-map_table["substantive"] = "substantive"
+map_table["subst"] = "entity-noun"
 
 map_table["taamm"] = "sufficient"
 map_table["tabi3"] = "follower"
@@ -205,6 +205,11 @@ map_table["ya_nida"] = "vocative [يَا]{.ar}"
 
 map_table["zaaid"] = "redundant"
 map_table["zaahir"] = "overt"
+
+# crossovers
+map_table["ism_masdar"] = map_table["subst"] + "-x-" + map_table["masdar"] #"maṣdar-like noun"
+map_table["ism_failxsubst"] = map_table["ism_fail"] + "-x-" + map_table["subst"] #"maṣdar-like noun"
+
 
 def get_sub_text(match):
     global map_table
