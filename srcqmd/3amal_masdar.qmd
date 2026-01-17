@@ -169,6 +169,15 @@ For example:
     [@wright@ 2/57C]{.citex}  
     [He hindered them from saying the truth.]{.trans}  
 
+Sometimes, context would be needed to tell whether the ;mudafil; is the semantic ;faa3il; or the sementic ;mafulb;.
+For example:
+
+(@) [عجبت من ضرب زيد]{.ar}
+    [[@abu_hayyan_tadhyeel@ 11/70](https://shamela.ws/book/17116/3605#p1)]{.citex}  
+
+In example () above,
+[زيد]{.ar} may either have been the person who did the beating or the person who was beaten.^[[@abu_hayyan_tadhyeel@ 11/70](https://shamela.ws/book/17116/3605#p1)]
+Context would be needed to disambiguate.
 
 #### The ;masdar; governing a ;naib; ;faa3il; {.unnumbered}
 
@@ -191,13 +200,68 @@ For example:
 (@) [عَرَفْتُ إِعْلَامَكَ خَالِدًا جَعْفَرًا مُقِيمًا]{.ar}
     [[@ibn_malik_sharh_tasheel@ 3/109](https://shamela.ws/book/13257/925)]{.citex}  
 
-#### An adjective
+#### The ;masdar; in a ;idaafah; to an ;dharf;
 
-wright 2/59C
+The ;dharf;, like a ;mafulb, is considered a ;maful;.
+As such, it can be a ;mudafil; to a governing ;masdar;.
+Any ;faa3il; and/or ;mafulb;s will then occur after it in their respective syntactic states.
+For example:
 
-#### Conjunction 
+(@) [عَجِبْتُ مِنْ ضَرْبِ **اليَوْمِ** زَيْدٌ عَمْرًا]{.ar}
+    [[@ibn_aqil_alfiyyah@ 3/103](https://shamela.ws/book/9904/781#p1)]{.citex}  
 
-wright 2/57D-58A
+#### A ;na3t; to a governing ;masdar; in an ;idaafah; {.unnumbered}
+
+A ;masdar; which is governing a governee (like a ;faa3il; or a ;mafulb;)
+can be described by a ;na3t;,
+but that ;na3t; should occur after the ;masdar;'s governees.^[[@ibn_malik_sharh_tasheel@ 3/108](https://shamela.ws/book/13257/924#p1); @nahw_arabi@ 2/188]
+For example,
+we should not say:
+
+(@) ;x; [عرفت سوقك العنيف الإبل]{.ar}
+    [[@ibn_malik_sharh_tasheel@ 3/108](https://shamela.ws/book/13257/924#p1)]{.citex}  
+    [I knew your violent driving of the camels]{.trans}  
+
+We should say instead:
+
+(@) ;x; [عرفت سوقك الإب لالعنيف]{.ar}
+
+#### A ;na3t; to the governee of a ;masdar; in an ;idaafah; {.unnumbered}
+
+When the ;masdar; is governing a ;faa3il; or a ;mafulb; in an ;idaafah;,
+and that governee is to be described by a ;na3t;,
+then the ;na3t; may,
+optionally,
+be either in the ;istate;,
+or in the ;ustate; for the ;faa3il; and the ;astate; for the ;mafulb;.^[@nahw_arabi@ 2/189; [@ibn_aqil_alfiyyah@ 3/104--105](https://shamela.ws/book/9904/782#p1); @wright@ 2/59C]
+So we can say:
+
+(@) [عجبت من شرب زيد الظريف والظريف]{.ar}
+    [[@ibn_aqil_alfiyyah@ 3/104](https://shamela.ws/book/9904/782#p1)]{.citex}  
+
+(@) [عَجِبْتُ مِنْ أَكْلِ الطَّعَامِ الْحَارِّ/الْحَارَّ زَيْدٌ]{.ar}
+    [@nahw_arabi@ 2/189]{.citex}  
+    [I wondered at the eating of the hot food [by] Zayd]{.trans}  
+
+#### A ;3atf; to the governee of a ;masdar; in an ;idaafah; {.unnumbered}
+
+When the ;masdar; is governing a ;faa3il; or a ;mafulb; in an ;idaafah;,
+and that governee is followed by a ;3atf; and ;ma3toof;,
+then the ;ma3toof; may,
+optionally,
+be either in the ;istate;,
+or in the ;ustate; for the ;faa3il; and the ;astate; for the ;mafulb;.^[@nahw_arabi@ 2/189; @wright@ 2/57D-58A]
+So we can say:
+
+(@) [سَاءَنِي إِهْمَالُ سَعِيدٍ وَخَالِدٍ/خَالِدًا]{.ar}
+    [@nahw_arabi@ 2/189]{.citex}  
+
+(@) [كَرِهْتُ أَكْلَ الْخُبْزِ وَاللَّحْمِ/اللَّحْlمَ]{.ar}
+    [@wright@ 2/58A]{.citex}  
+    [I disliked eating the bread and the meat.]{.trans}  
+
+(@) [سَاءَنِي ضَرْبُ خَالِدٍ وَسَعِيدٍ خَلِيلٌ]{.ar}
+    [@nahw_arabi@ 2/189]{.citex}  
 
 ## The ;masdar; as a verb-like governor compared to the ;ism_fail;
 
@@ -208,6 +272,11 @@ But the ;masdar and the ;ism_fail; are different in how they govern a ;faa3il; a
 Firstly, the ;masdar; is a ;jamid; noun.
 So it does not govern a
 ;mustatir; ;faa3il; pronoun.
+When the ;masdar; is governing a ;mafulb; without a ;faa3il;
+as in example ()
+[مَنَعَهُمْ مِنْ قَوْلِ الْحَقِّ]{.ar}
+then, no ;mustatir; ;faa3il; pronoun is ;taqdir;ed.
+
 
 Secondly, ;idaafah; is ;ma3nawi;.
 
@@ -226,7 +295,7 @@ TODO:Add to mmutlaq chapter and see if it can govern in such a case
 
 ## The ;masdar; prefixed by [ال]{.ar} as a verb-like governor
 
-## The ;masdar; governing an ;indir_maful;
+## The ;masdar; governing an ;indir_mafulb;
 
 wright 2/61
 
