@@ -53,9 +53,112 @@ that it can cross over to a ;subst; and then refer to an entity.
 ## The ;masdar; as a verb-like governor
 
 As a noun which is related to a verb, a ;masdar; can govern in a verb-like manner.
+Let's start with a sentence which has a verb:
+
+(@) [يسرني أن تأتي]{.ar}
+<!--
+(@) [أرجو أن يعتدلَ الجو]{.ar}
+    [[nahw_wadih 1/54](https://shamela.ws/book/10018/48)]{.citex}  
+    [I hope that the weather becomes moderate]{.trans}  
+-->
+
+
+;an; in the above example is that ;masdar;i ;an;.
+This means that,
+as we learned in chapter\ (ref),
+it and its following verb
+can be interpreted as a ;masdar; construction, thus:
+
+<!--
+(@) [أرجو اعتدال الجو]{.ar}
+    [I hope [for] the weather's moderateness]{.trans}  
+-->
+(@) [يسرني إتيانك]{.ar}
+
+We also learned that this interpretation of the
+;masdar;i ;an; clause
+in example () above
+allows us to grammatically model the ;an; clause as one structural element.
+In example () above the ;masdar; construction
+[إتيانك]{.ar} is  modeled as the ;faa3il; of the verb [يسر]{.ar}.
+
+
+<!--
+([اعتدال]{.ar} in example () above is in the ;astate; as the ;maful; of the verb [أرجو]{.ar}.)
+-->
+
+But example () is also a legitimate sentence in its own right.
+The ;masdar; [إتيان]{.ar} signifies the occurrence of the verb
+[أتى يأتي]{.ar}.
+But unlike the verb, it does not indicate tense.
+If we had started with a ;madi; verb, for example:
+
+(@) [يسرني أن أتيت]{.ar}
+
+then it would have the same modeled ;masdar;:
+
+(@) [يسرني إتيانك]{.ar}
+
+In order to add tense to sentence with ;masdar;,
+we would have to use other means, for example, an adverb:
+
+(@) [يسرني إتيانك غدا]{.ar}
+
+(@) [يسرني إتيانك أمس]{.ar}
+
+In example () above,
+the
+;masdar; [إتيان]{.ar}
+is a ;mudaf; in an ;idaafah;.
+Syntactically,
+the pronoun [ك]{.ar}
+is in the ;istate; as the ;mudafil; in the ;idaafah;,
+but semantically, it is considered the ;faa3il; of the.
+;masdar; [إتيان]{.ar}.
+
+In example () above
+the verb
+[تأتي]{.ar}
+was used without a ;mafulb;.
+Let's see what happens when we add a ;mafulb;.
+For example:
+
+(@) [يسرني أن تأتيني]{.ar}
+
+In example () above,
+the pronoun [ي]{.ar} [me]{.ar}
+is the ;mafulb; of the verb
+[تأتي]{.ar}.
+If we model the ;an; clause in example () above as a ;masdar; construction,
+then we will get:
+
+(@) [يسرني إتيانك إِيَّايَ]{.ar}
+
+Now, the pronoun [ك]{.ar} [your]{.trans} is again the syntactic ;mudafil; and the semantic ;faa3il;
+of the
+;masdar; [إتيان]{.ar}.
+But the ;masdar; now also has a ;mafulb;
+[إِيَايَ]{.ar} in the ;astate;.
+In this manner we can see that the ;masdar; is able to govern like a verb,
+with both a ;faa3il; and a ;mafulb;.
+In the examples so far, the ;faa3il; has syntactically been a ;mudafil; to the ;masdar;.
+But we will show in the sections below, ;ia;, that the ;faa3il; can
+
+
+Now, let's see what happens 
+
+(@) [عجبت من أن ضربت زيدا]{.ar}
+    [[modified from @ibn_aqil_alfiyyah@ 3/94](https://shamela.ws/book/9904/772)]{.citex}  
+    [I wondered at that you beat Zayd.]{.trans}
+
 So it can govern a ;faa3il; and a ;mafulb;.
-We have already seen in chapter\ (ref)
-that an ;ism_fail; can also govern in a verb-like manner.
+We have already seen, in chapter\ (ref),
+that the ;ism_fail; is also
+a noun that is related to a verb, and that can govern in a verb-like manner.
+But the governance of a ;masdar; is somewhat different from that of the ;ism_fail;.
+that an ;ism_fail; 
+can also govern in a verb-like manner.
+
 But the ;ism_fail;'s governing of a ;faa3il; and a ;mafulb; is different from a ;masdar;'s.
 This is because a ;ism_fail; is a ;mushtaqq; noun and so automatically governs a 
 ;mustatir; ;faa3il; pronoun.
