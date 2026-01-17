@@ -145,19 +145,26 @@ But the ;masdar; now also has a ;mafulb;
 Here is another example of a ;masdar; governing a semantic
 ;faa3il; and a ;mafulb;:
 
-(@) [عجبت من شرب زيد العسل]{.ar}
+(@) [عَجِبْتُ مِنْ شُرْبِ زَيْدٍ الْعَسَلَ]{.ar}
     [[@ibn_aqil_alfiyyah@ 3/102](https://shamela.ws/book/9904/780)]{.citex}  
 
 But this is not the only word order which is possible.
 We can flip the order of the ;faa3il; and the ;mafulb;, thus:
 
-(@) [عجبت من شرب العسل زيد]{.ar}
+(@) [عَجِبْتُ مِنْ شُرْبِ الْعَسَلِ زَيْدٌ]{.ar}
     [[@ibn_aqil_alfiyyah@ 3/102](https://shamela.ws/book/9904/780)]{.citex}  
 
 Now the semantic ;mafulb; 
 [العسل]{.ar}
 is the ;mudafil; in the ;istate;
 and the ;faa3il; [زيد]{.ar} is in the ;ustate;.
+
+This word order of
+the ;mafulb;'s being the ;mudafil; and the ;faa3il; occurring after it in the ;ustate;
+([شُرْبِ الْعَسَلِ زَيْدٌ]{.ar})
+is not as usual as the usual word order
+([شُرْبِ الْعَسَلِ زَيْدٌ]{.ar}).^[@wright@ 2/59B]
+Nevertheless, it is common enough.^[[@ibn_aqil_alfiyyah@ 3/103](https://shamela.ws/book/9904/781#p1)]
 
 #### The ;masdar; in an ;idaafah; governing only a ;mafulb; without a ;faa3il; {.unnumbered}
 
@@ -270,9 +277,35 @@ In section\ (ref) above,
 we have seen how the ;masdar; governing in an ;idaafah;.
 However, an ;idaafah; is not the only form in which a ;masdar; can govern in a verb-like manner.
 A ;masdar; can also govern when it is ;tanwin;ed.
+For example:
+
+(@masdar_darbin_zaydan) [عَجِبتُ مِن ضَرْبٍ زيدا]{.ar}
+    [[@sibawayhi@ 1/189](https://shamela.ws/book/23018/187); [@ibn_aqil_alfiyyah@ 3/94](https://shamela.ws/book/9904/772#p1)]{.citex}
+
+(@masdar_darbin_zaydan_bakrun) [عجبتُ مِن ضَرْبٍ زيداً بكرٌ]{.ar}
+    [[@sibawayhi@ 1/189](https://shamela.ws/book/23018/187)]{.citex}
+
+(@masdar_darbin_zaydun_3amran) [عَجِبْتُ مِنْ ضَرْبٍ زَيْدٌ عَمْرًا]{.ar}
+    [modified from [@sibawayhi@ 1/189](https://shamela.ws/book/23018/187); @wright@ 2/59A]{.citex}
+
+(@) [أَوۡ إِطۡعَـٰمࣱ فِی یَوۡمࣲ ذِی مَسۡغَبَةࣲ ۝١٤ یَتِیمࣰا ذَا مَقۡرَبَةٍ ۝١٥]{.quran}
+    [@https://quran.com/90/14-15@, cited by [@ibn_malik_sharh_tasheel@ 3/115](https://shamela.ws/book/13257/931#p1)]{.citex}  
+    [Or feeding on a day of severe hunger An orphan of near relationship]{.trans}  
+
+The ;tanwin;ed ;masdar; governing a ;faa3il; and a ;mafulb; is comparatively rarer
+than the ;masdar; governing in a ;idaafah;.^[@wright@ 2/59B; [@ibn_aqil_alfiyyah@ 3/94](https://shamela.ws/book/9904/772#p1)]
+Some grammarians mandate that when a ;tanwin;ed ;masdar; is a governor then its ;faa3il; should not be mentioned after it.^[[@abu_hayyan_tadhyeel@ 11/75](https://shamela.ws/book/17116/3610)]
+So they would allow example
+(@masdar_darbin_zaydan) above but not examples (@masdar_darbin_zaydan_bakrun) and (@masdar_darbin_zaydun_3amran).
 
 ## The ;masdar; prefixed by [ال]{.ar} as a verb-like governor
 
+In addition to the ;masdar; governing in an ;idaafah; and ;tanwin;ed,
+the ;masdar; can also govern when it is prefixed by [ال]{.ar}.
+This is the rarest out of the three formations.^[[@ibn_aqil_alfiyyah@ 3/94](https://shamela.ws/book/9904/772#p1)]
+
+(@) [عجبت من الضرب زيدا]{.ar}
+    [[@ibn_aqil_alfiyyah@ 3/94](https://shamela.ws/book/9904/772#p1)]{.citex}  
 
 ## The ;masdar; as a verb-like governor compared to the ;ism_fail;
 
@@ -342,6 +375,9 @@ wright 2/61D
 ## A ;subst; crossing over to a ;masdar;
 
 ;ism_masdar;
+
+Does it govern? See
+[@ibn_aqil_alfiyyah@ 3/101](https://shamela.ws/book/9904/779#p1)
 
 ## The plural of a ;masdar;
 
