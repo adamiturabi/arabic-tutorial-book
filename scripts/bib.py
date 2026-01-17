@@ -868,6 +868,16 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/9937")
     , sort_key = "من تاريخ النحو العربي لسعيد الافعاني"
     ))
+  resource_list.append(BibResource(
+    "haazimi"
+    , cit_type = "ar_ref"
+    , cit_text = "[شرح ألفية ابن مالك للحازمي]{.ar}"
+    , bib_text = """
+      الكتاب: شرح ألفية ابن مالك  
+      المؤلف: أبو عبد الله، أحمد بن عمر بن مساعد الحازمي  
+      """ + format_url_ar("https://shamela.ws/book/36130")
+    , sort_key = "شرح الفية ابن مالك للحازمي"
+    ))
 
   # Western
 
