@@ -25,6 +25,11 @@ map_table["ayah"] = "[Ayah]{.trn2}"
 map_table["surah"] = "[sUrah]{.trn2}"
 map_table["tafsir"] = "[tafsIr]{.trn2}"
 
+map_table["samaa3"] = "attested usage"
+map_table["qiyaas"] = "analogy"
+map_table["3illah"] = "theoretical cause"
+map_table["taqdir"] = "theoretical model"
+
 # inna and its sisters
 map_table["inna"] = "[إِنَّ]{.ar}"
 map_table["anna"] = "[أَنَّ]{.ar}"

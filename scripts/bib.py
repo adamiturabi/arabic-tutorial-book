@@ -856,10 +856,18 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/36954")
     , sort_key = "شرح الفية ابن مالك للعثيمين"
     ))
-
-
-
-
+  resource_list.append(BibResource(
+    "afghani"
+    , cit_type = "ar_ref"
+    , cit_text = "[من تاريخ النحو العربي لسعيد الأفعاني]{.ar}"
+    , bib_text = """
+      الكتاب: من تاريخ النحو العربي  
+      المؤلف: سعيد بن محمد بن أحمد الأفغاني (ت ١٤١٧هـ)  
+      الناشر: مكتبة الفلاح  
+      عدد الصفحات: ٢١٤  
+      """ + format_url_ar("https://shamela.ws/book/9937")
+    , sort_key = "من تاريخ النحو العربي لسعيد الافعاني"
+    ))
 
   # Western
 
