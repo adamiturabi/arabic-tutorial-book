@@ -1019,6 +1019,14 @@ def populate_resource_list():
     , bib_text = "Al-Mubarakpuri, _Tafsir ibn Kathir_ (abridged, English translation), Darussalam, 2nd edition, 2003"
     , sort_key = 'tafsir ibn kathir english'
     ))
+  resource_list.append(BibResource(
+    "baalbaki_intro"
+    , cit_type = "ws_ref"
+    , cit_text = "Baalbaki, Introduction to _The early Islamic grammatical tradition_"
+    , bib_text = "Baalbaki, R., Introduction to _The early Islamic grammatical tradition_, Routledge, 2016."
+    , sort_key = 'baalbaki introduction early islamic grammatical tradition'
+    ))
+
 
   return resource_list
 
