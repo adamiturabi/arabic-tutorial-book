@@ -878,6 +878,18 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/36130")
     , sort_key = "شرح الفية ابن مالك للحازمي"
     ))
+  resource_list.append(BibResource(
+    "hayyani_jam3_masdar"
+    , cit_type = "ar_ref"
+    , cit_text = "[جمع المصدر وأحكامه لحياني]{.ar}"
+    , bib_text = """
+      المقالة: جمع المصدر وأحكامه  
+      المؤلف: عبد الله محمد عبد الله حياني  
+      الناشر: مجلة العلوم العربية، العدد ٧٥، ١٤٤٦هـ، الجزء الثاني  
+      """ + format_url_ar("https://imamjournals.org/index.php/jas/article/view/3160")
+    , sort_key = "جمع المصدر واحكامه لحياني"
+    ))
+
 
   # Western
 

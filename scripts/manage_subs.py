@@ -24,6 +24,7 @@ map_table["islam"] = "[#islAm]{.trn2}"
 map_table["ayah"] = "[Ayah]{.trn2}"
 map_table["surah"] = "[sUrah]{.trn2}"
 map_table["tafsir"] = "[tafsIr]{.trn2}"
+map_table["sca"] = "[sca]{.smallcaps}"
 
 map_table["samaa3"] = "attested usage"
 map_table["qiyaas"] = "analogy"
