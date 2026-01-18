@@ -214,10 +214,11 @@ map_table["zaaid"] = "redundant"
 map_table["zaahir"] = "overt"
 
 # crossovers
-map_table["ism_masdar"] = map_table["subst"] + "×" + map_table["masdar"] #"maṣdar-like noun"
-map_table["ism_failxsubst"] = map_table["ism_fail"] + "×" + map_table["subst"] #"maṣdar-like noun"
-map_table["masdarxsubst"] = map_table["masdar"] + "×" + map_table["subst"]
-map_table["masdarxsifah"] = map_table["masdar"] + "×" + map_table["sifah"]
+map_table["crossover"] = "⤮" # "⥇" #"×" + map_table["rarr"] 
+map_table["ism_masdar"] = map_table["subst"] + map_table["crossover"] + map_table["masdar"] #"maṣdar-like noun"
+map_table["ism_failxsubst"] = map_table["ism_fail"] + map_table["crossover"] + map_table["subst"] #"maṣdar-like noun"
+map_table["masdarxsubst"] = map_table["masdar"] + map_table["crossover"] + map_table["subst"]
+map_table["masdarxsifah"] = map_table["masdar"] + map_table["crossover"] + map_table["sifah"]
 
 
 def get_sub_text(match):
