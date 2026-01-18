@@ -197,7 +197,7 @@ map_table["shart"] = "condition"
 map_table["shibh_fi3l"] = "quasi-verb"
 map_table["shibh_jumlah"] = "quasi-sentence"
 map_table["shibh_jumlah"] = "quasi-sentence"
-map_table["subst"] = "entity-noun"
+map_table["subst"] = "entity noun"
 
 map_table["taamm"] = "sufficient"
 map_table["tabi3"] = "follower"
@@ -213,8 +213,10 @@ map_table["zaaid"] = "redundant"
 map_table["zaahir"] = "overt"
 
 # crossovers
-map_table["ism_masdar"] = map_table["subst"] + "-x-" + map_table["masdar"] #"maṣdar-like noun"
-map_table["ism_failxsubst"] = map_table["ism_fail"] + "-x-" + map_table["subst"] #"maṣdar-like noun"
+map_table["ism_masdar"] = map_table["subst"] + "×" + map_table["masdar"] #"maṣdar-like noun"
+map_table["ism_failxsubst"] = map_table["ism_fail"] + "×" + map_table["subst"] #"maṣdar-like noun"
+map_table["masdarxsubst"] = map_table["masdar"] + "×" + map_table["subst"]
+map_table["masdarxsifah"] = map_table["masdar"] + "×" + map_table["sifah"]
 
 
 def get_sub_text(match):
