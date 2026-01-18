@@ -889,7 +889,20 @@ def populate_resource_list():
       """ + format_url_ar("https://imamjournals.org/index.php/jas/article/view/3160")
     , sort_key = "جمع المصدر واحكامه لحياني"
     ))
-
+  resource_list.append(BibResource(
+    "faaridi_alfiyyah"
+    , cit_type = "ar_ref"
+    , cit_text = "[شرح الفارضي على ألفية ابن مالك]{.ar}"
+    , bib_text = """
+      الكتاب: شرح الإمام الفارضي على ألفية ابن مالك  
+      المؤلف: العلامة شمس الدين محمد الفارضي الحنبلي (ت ٩٨١ هـ)  
+      المحقق: أبو الكميت، محمد مصطفى الخطيب  
+      الناشر: دار الكتب العلمية، لبنان - بيروت  
+      الطبعة: الأولى، ١٤٣٩ هـ - ٢٠١٨ م  
+      عدد الأجزاء: ٤  
+      """ + format_url_ar("https://shamela.ws/book/174")
+    , sort_key = "شرح الفارضي على الفية ابن مالك"
+    ))
 
   # Western
 
