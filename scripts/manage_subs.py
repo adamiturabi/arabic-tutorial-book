@@ -173,6 +173,7 @@ map_table["muxaffaf"] = "lightened"
 map_table["muxbar3"] = map_table["musnadi"] # theme,rock, mainstay, anchor, subject, keystone, cornerstone, post, mast, pillar
 map_table["muxbar"] = map_table["musnad"] # rheme, complement, predicate, cornerstone, keystone, capstone, rafter, beam
 map_table["mutaddi"] = "transitive"
+map_table["mawsuf"] = "described noun"
 
 map_table["naib"] = "deputy"
 map_table["na3t"] = "attribute"
