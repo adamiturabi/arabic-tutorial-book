@@ -111,7 +111,7 @@ is an essential governee of the doer participle.
 
 Let's take a look at another example:
 
-(@) [رَأَيْتُ رَجُلًا قَائِمًا]{.ar}  
+(@ex000184) [رَأَيْتُ رَجُلًا قَائِمًا]{.ar}  
     [I saw a standing man.]{.trans}
 
 The structural elements of this sentence are 
@@ -135,7 +135,7 @@ This is because the doer participle, as a single element, is already a member of
 In contrast, a verb always forms a sentence (as the structure-completer) with its doer (as the structure-starter).
 If we replace the doer participle [قَائِمًا]{.ar} with the verb [يَقُومُ]{.ar} thus:
 
-(@) [رَأَيْتُ رَجُلًا **يَقُومُ**]{.ar}  
+(@ex000185) [رَأَيْتُ رَجُلًا **يَقُومُ**]{.ar}  
 
 then [يَقُومُ]{.ar} is a complete sentence with the verb and its latent doer pronoun as structural elements.
 This complete sentence is the attribute of [رَجُلًا]{.ar}.
@@ -167,7 +167,7 @@ DIAGRAM
 
 Let's see another example:
 
-(@) [صَاحَ الرَّجُلُ الْقَائِمُ]{.ar}  
+(@ex000186) [صَاحَ الرَّجُلُ الْقَائِمُ]{.ar}  
     [The standing man shouted.]{.trans}
 
 then [الْقَائِمُ]{.ar} governs a latent doer pronoun [[هُوَ]{.ar}], that refers back to [الرَّجُلُ]{.ar}.
@@ -179,7 +179,7 @@ the reason why a doer participle in the info will match the subject in gender.^[
 
 For example, if we say:
 
-(@) [هِنْدٌ قَائِمَةٌ]{.ar}  
+(@ex000187) [هِنْدٌ قَائِمَةٌ]{.ar}  
     [Hind is standing.]{.trans}
 
 then the feminine marker [ة]{.ar} is added to the doer participle [قَائِم]{.ar} only because it has to match the feminine gender of the latent doer pronoun [[هِيَ]{.ar}] that occurs with, and is governed by, the doer participle.
@@ -299,7 +299,7 @@ when an doer participle is not prefixed by [ال]{.ar}, then its
 direct doee is allowed to precede it.
 So we can say:
 
-(@) [هذا زيدا ضارب]{.ar}
+(@ex000188) [هذا زيدا ضارب]{.ar}
     [[[شرح كتاب سيبويه للسيرافي]{.ar} 1/259](https://shamela.ws/book/17726/257)]{.citex}  
     [This [person] is beating Zayd.]{.trans}
 
@@ -310,10 +310,10 @@ it is very common,
 in such a case,
 for a strengthening-[لِ]{.ar} to be used with an indirect doee instead, thus:
 
-(@) [هذا لِزيدٍ ضارب]{.ar}  
+(@ex000189) [هذا لِزيدٍ ضارب]{.ar}  
     [This [person], to Zayd, is beating.]{.trans}
 
-(@) [لِلضَّيْفِ مُكْرِمٌ]{.ar}
+(@ex000190) [لِلضَّيْفِ مُكْرِمٌ]{.ar}
     [Fischer 113]{.citex}  
     [to the guest, is honoring]{.trans}  
     (i.e. [honoring the guest]{.trans})  
@@ -326,11 +326,11 @@ When an doer participle is prefixed by [ال]{.ar}, then its
 direct doee is not allowed to precede it.^[[[النحو الوافي]{.ar} 3/263](https://shamela.ws/book/10641/1489#p1)]
 So we cannot say:
 
-(@) ✗ [هذا زيدا الضارب]{.ar}
+(@ex000191) ✗ [هذا زيدا الضارب]{.ar}
 
 We would have to say instead
 
-(@) ✓ [هذا الضارب زيدا]{.ar}
+(@ex000192) ✓ [هذا الضارب زيدا]{.ar}
 
 
 TODO: Fronting the direct doee is not permitted for participle-like adjective. See link in example above. Add to section on participle-like adjective
@@ -340,29 +340,29 @@ TODO: Fronting the direct doee is not permitted for participle-like adjective. S
 A dual or plural doer participle may govern a direct doee just like the singular.
 So we can say:
 
-(@) [هذان ضاربان زيدًا]{.ar}
+(@ex000193) [هذان ضاربان زيدًا]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 4/97](https://shamela.ws/book/13301/1461#p1)]{.citex}  
     [These two [persons] are beating Zayd.]{.trans}
 
-(@) [هم ضاربون زيدًا]{.ar}
+(@ex000194) [هم ضاربون زيدًا]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 4/97](https://shamela.ws/book/13301/1461#p1)]{.citex}  
     [These [persons] are beating Zayd.]{.trans}
 
-(@) [الهندات ضاربات عمرا]{.ar}
+(@ex000195) [الهندات ضاربات عمرا]{.ar}
     [[[شرح كتاب سيبويه للسيرافي]{.ar} 1/439](https://shamela.ws/book/17726/437)]{.citex}  
     [The Hinds are beating [#eamr]{.trn2}.]{.trans}
 
 Doer participles defined by [ٱل]{.ar} are again also permitted:
 
-(@) [هذان الضاربان زيدا]{.ar}
+(@ex000196) [هذان الضاربان زيدا]{.ar}
     [[[شرح كتاب سيبويه للسيرافي]{.ar} 2/40](https://shamela.ws/book/17726/538)]{.citex}  
     [These two are the beaters of Zayd.]{.trans}
 
-(@) [هؤلاء الضاربون الرجل]{.ar}
+(@ex000197) [هؤلاء الضاربون الرجل]{.ar}
     [[[شرح كتاب سيبويه للسيرافي]{.ar} 2/40](https://shamela.ws/book/17726/538)]{.citex}  
     [These are the beaters of the man.]{.trans}
 
-(@) [وَٱلۡمُقِیمِینَ ٱلصَّلَوٰةَۚ وَٱلۡمُؤۡتُونَ ٱلزَّكَوٰةَ]{.quran}
+(@ex000198) [وَٱلۡمُقِیمِینَ ٱلصَّلَوٰةَۚ وَٱلۡمُؤۡتُونَ ٱلزَّكَوٰةَ]{.quran}
     [[[سورة النساء]{.ar} 4:162](https://quran.com/4/162) cited by [[شرح كتاب سيبويه للسيرافي]{.ar} 2/40](https://shamela.ws/book/17726/538)]{.citex}  
     [And the establishers of prayer [especially] and the givers of zakāh]{.trans}
 
@@ -371,29 +371,29 @@ as in the examples above.
 However, broken plurals are permitted as well.
 So we can say:
 
-(@) [الزيدون ضُرّابٌ عمرًا]{.ar}
+(@ex000199) [الزيدون ضُرّابٌ عمرًا]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 4/97](https://shamela.ws/book/13301/1461#p1)]{.citex}  
     [The Zayds are beating [#eamr]{.trn2}.]{.trans}
 
-(@) [الهِنْداتُ ضواربُ عَمْرًا]{.ar}
+(@ex000200) [الهِنْداتُ ضواربُ عَمْرًا]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 4/97](https://shamela.ws/book/13301/1461#p1)]{.citex}  
     [The Hinds are beating [#eamr]{.trn2}.]{.trans}
 
 Flexible word order is again permitted for the dual and the plural as it was for the singular:
 
-(@) [الزيدان عمرا ضاربان]{.ar}
+(@ex000201) [الزيدان عمرا ضاربان]{.ar}
     [[[شرح كتاب سيبويه للسيرافي]{.ar} 1/439](https://shamela.ws/book/17726/437)]{.citex}  
     [The two Zayds are beating [#eamr]{.trn2}.]{.trans}
 
-(@) [الزيدون عَمْرًا ضُرّابٌ]{.ar}
+(@ex000202) [الزيدون عَمْرًا ضُرّابٌ]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 4/97](https://shamela.ws/book/13301/1461#p1)]{.citex}  
     [The Zayds are beating [#eamr]{.trn2}.]{.trans}
 
-(@) [الهندات عمرا ضاربات]{.ar}
+(@ex000203) [الهندات عمرا ضاربات]{.ar}
     [[[شرح كتاب سيبويه للسيرافي]{.ar} 1/439](https://shamela.ws/book/17726/437)]{.citex}  
     [The Hinds are beating [#eamr]{.trn2}.]{.trans}
 
-(@) [الهِنْداتُ عَمْرًا ضواربُ]{.ar}
+(@ex000204) [الهِنْداتُ عَمْرًا ضواربُ]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 4/97](https://shamela.ws/book/13301/1461#p1)]{.citex}  
     [The Hinds are beating [#eamr]{.trn2}.]{.trans}
 
@@ -583,7 +583,7 @@ then it is permitted to govern a direct doee for a perfect or imperfect aspect.
 <!--
 So we can say:
 
-(@) [هذا الضارب زيدا الآن أو غدا أو أمس]{.ar}
+(@ex000205) [هذا الضارب زيدا الآن أو غدا أو أمس]{.ar}
     [[شرح ابن عقيل على الألفية]{.ar} 3/110]{.citex}  
     [This [person] is the beater of Zayd now/tomorrow/yesterday.]{.trans}
 -->
@@ -592,7 +592,7 @@ Furthermore, no governing support is required for it to be a governor,^[[[الن
 
 So we can say:
 
-(@) [جاء الضارب زيداً أمسِ أو الآن أو غداً]{.ar}
+(@ex000206) [جاء الضارب زيداً أمسِ أو الآن أو غداً]{.ar}
     [[[شرح شذور الذهب للجوجري]{.ar} 2/683](https://shamela.ws/book/9134/666)]{.citex}  
     [The beater of Zayd came yesterday/today/tomorrow]{.trans}
 
@@ -603,7 +603,7 @@ In this section,
 we will discuss one such circumstance.
 Consider the sentence:
 
-(@) [الفارس الحصانُ مُتْعِبُه]{.ar}
+(@ex000207) [الفارس الحصانُ مُتْعِبُه]{.ar}
     [[النحو الوافي]{.ar} 1/463]{.citex}  
 
 This grammar is parsed as follows:
@@ -648,7 +648,7 @@ Both meanings are possible.
 If only the second meaning is desired,
 then the latent doer pronoun [[هُوَ]{.ar}] can be made overt and added after the doer participle [مُتْبِع]{.ar}, thus:
 
-(@) [الفارس الحصانُ مُتْعِبُه **هُوَ**]{.ar}
+(@ex000208) [الفارس الحصانُ مُتْعِبُه **هُوَ**]{.ar}
     [[النحو الوافي]{.ar} 1/464]{.citex}  
     [The horseman -- the horse -- [he] makes him tired.]{.trans}  
     (i.e. [The horseman makes the horse tired.]{.trans})
@@ -681,12 +681,12 @@ But according to other grammarians,
 because [ضَارِب]{.ar} can refer only to Zayd and not to Hind,
 the doer participle's doer pronoun can remain latent,^[[[شرح ابن عقيل على الألفية]{.ar} 1/207](https://shamela.ws/book/9904/206#p1)] thus:
 
-(@) [زَيْدٌ هِنْدٌ ضَارِبُهَا]{.ar}   
+(@ex000209) [زَيْدٌ هِنْدٌ ضَارِبُهَا]{.ar}   
     [Zayd -- Hind -- [he] is beating her.]{.trans}  
     (i.e. [Zayd is beating Hind.]{.trans})
 
 <!--
-(@) [زَيْدٌ عَمْرٌو ضَارِبُهُ]{.ar}
+(@ex000210) [زَيْدٌ عَمْرٌو ضَارِبُهُ]{.ar}
     [[شرح ابن عقيل على الألفية]{.ar} 1/208]{.citex}  
 
 This sentence can have two different meanings:
@@ -776,7 +776,7 @@ the subject
 <!--
 This can be made clear by looking at the following example:
 
-(@) kaana zaydun muntaliqan
+(@ex000211) kaana zaydun muntaliqan
 
 -->
 
@@ -815,10 +815,10 @@ If the gender of the doer participle's doer is feminine,
 then the doer participle remains in the singular but it is feminized.
 For example:
 
-(@) [زَيْدٌ **مُنْطَلِقَةٌ** أُمُّهُ]{.ar}  
+(@ex000212) [زَيْدٌ **مُنْطَلِقَةٌ** أُمُّهُ]{.ar}  
     [Zayd -- his mother is setting out.]{.trans}
 
-(@) [كَانَتْ هِنْدٌ **مُنْطَلِقَةً** خَالَتَاهَا]{.ar}  
+(@ex000213) [كَانَتْ هِنْدٌ **مُنْطَلِقَةً** خَالَتَاهَا]{.ar}  
     [Hind -- her two maternal aunts were setting out.]{.trans}
 
 This again is analagous to the feminizing a verb that has a feminine doer.
@@ -828,10 +828,10 @@ If the doer of the doer participle is a plural, then we have an choice:
 If the doer participle has a sound plural, then, again, it is not used and the doer participle remains in the singular.
 For example:
 
-(@) [كَانَ الزَيْدُونَ **مُنْطَلِقًا** آبَاؤُهُمْ]{.ar}  
+(@ex000214) [كَانَ الزَيْدُونَ **مُنْطَلِقًا** آبَاؤُهُمْ]{.ar}  
     [The Zayds -- their fathers were setting out.]{.trans}
 
-(@) [زَيْدٌ **مُنْطَلِقَةٌ** خَالَاتُهُ]{.ar}  
+(@ex000215) [زَيْدٌ **مُنْطَلِقَةٌ** خَالَاتُهُ]{.ar}  
     [Zayd -- his maternal aunts are setting out.]{.trans}
 
 But if
@@ -840,7 +840,7 @@ when the doer is a plural.
 
 For example:
 
-(@) [كَانَ الزَّيْدُونَ **قِيَامًا** آبَاؤُهُمْ]{.ar}  
+(@ex000216) [كَانَ الزَّيْدُونَ **قِيَامًا** آبَاؤُهُمْ]{.ar}  
     [The Zayds -- their fathers were standing]{.trans}
 
 Here are some examples of sababi infos from the [#qurEAn]{.trn2}:
@@ -850,7 +850,7 @@ Here are some examples of sababi infos from the [#qurEAn]{.trn2}:
     [his heart is indeed sinful]{.trans}  
     (Other analyses besides a sababi info are also possible.^[[[الدر المصون للسمين الحلبي]{.ar}](https://tafsir.app/aldur-almasoon/2/283) for [سورة البقرة]{.ar} 2:283] One such differing analysis is discussed in section\ (ref) below.)
 
-(@) [وَظَنُّوۤا۟ أَنَّهُم **مَّانِعَتُهُمۡ** حُصُونُهُم مِّنَ ٱللَّهِ]{.quran}
+(@ex000217) [وَظَنُّوۤا۟ أَنَّهُم **مَّانِعَتُهُمۡ** حُصُونُهُم مِّنَ ٱللَّهِ]{.quran}
     [[[سورة الحشر]{.ar} 59:2](https://quran.com/59/2)]{.citex}  
     [and they thought that their fortresses would protect them from Allāh]{.trans}  
     (Another analysis is also possible: [حُصُونُهُمْ]{.ar} can be a subject, and [مَانِعَتُهُمْ]{.ar} is its fronted info.^[[[الدر المصون للسمين الحلبي]{.ar}](https://tafsir.app/aldur-almasoon/59/2) for [سورة الحشر]{.ar} 59:2])
@@ -860,13 +860,13 @@ Here are some examples of sababi infos from the [#qurEAn]{.trn2}:
 If the doer participle is transitive, then the normal word order is doer participle, doer, direct doee.
 For example:
 
-(@) [هَذَا ضَارب أَبوهُ زيدا]{.ar}
+(@ex000218) [هَذَا ضَارب أَبوهُ زيدا]{.ar}
     [[الهمع للسيوطي]{.ar} 3/89]{.citex}  
     [This [person] -- his father is beating Zayd.]{.trans}  
 
 But the direct doee can be made to precede the doer thus:
 
-(@) [هذا ضارب زيدا أبوه]{.ar}
+(@ex000219) [هذا ضارب زيدا أبوه]{.ar}
     [[[حاشية الصبان على شرح الأشمونى لألفية ابن مالك]{.ar} 2/453](https://shamela.ws/book/11539/883)]{.citex}  
     [This [person] -- his father is beating Zayd.]{.trans}  
 
@@ -878,7 +878,7 @@ a doer participle can govern a overt doer when it is a sababi attribute.
 
 Consider the following example:
 
-(@) [مَرَرْتُ بِرَجُلٍ مُنْطَلِقٍ أَبُوهُ]{.ar}  
+(@ex000220) [مَرَرْتُ بِرَجُلٍ مُنْطَلِقٍ أَبُوهُ]{.ar}  
     [I passed by a man whose father is setting out]{.trans}
 
 The doer participle 
@@ -915,25 +915,25 @@ the sababi attribute will, in general, always be singular,
 and it will match its doer in gender.
 Here are some examples that show different combinations:
 
-(@) [مَرَرْتُ بِالرَّجُلِ الْمُنْطَلِقِ أَبُوهُ]{.ar}  
+(@ex000221) [مَرَرْتُ بِالرَّجُلِ الْمُنْطَلِقِ أَبُوهُ]{.ar}  
     [I passed by the man whose father is setting out.]{.trans}
 
-(@) [مَرَرْتُ بِرَجُلٍ مُنْطَلِقٍ أَخَوَاهُ]{.ar}  
+(@ex000222) [مَرَرْتُ بِرَجُلٍ مُنْطَلِقٍ أَخَوَاهُ]{.ar}  
     [I passed by a man whose two brothers are setting out.]{.trans}
 
-(@) [رَأَيْتُ رِجَالًا مُنْطَلِقًا آبَاؤُهُمْ]{.ar}  
+(@ex000223) [رَأَيْتُ رِجَالًا مُنْطَلِقًا آبَاؤُهُمْ]{.ar}  
     [I saw men whose fathers are setting out.]{.trans}
 
-(@) [رَأَيْتُ رَجُلًا مُنْطَلِقَةً أُمُّهُ]{.ar}  
+(@ex000224) [رَأَيْتُ رَجُلًا مُنْطَلِقَةً أُمُّهُ]{.ar}  
     [I saw a man whose mother is setting out.]{.trans}
 
-(@) [جَاءَنِي زَيْدٌ الْمُنْطَلِقَةُ أَخَوَاتُهُ]{.ar}  
+(@ex000225) [جَاءَنِي زَيْدٌ الْمُنْطَلِقَةُ أَخَوَاتُهُ]{.ar}  
     [Zayd whose sisters are setting out came to me.]{.trans}
 
-(@) [جَاءَتْنِي امْرَأَةٌ مُنْطَلِقٌ أَبُوهَا]{.ar}  
+(@ex000226) [جَاءَتْنِي امْرَأَةٌ مُنْطَلِقٌ أَبُوهَا]{.ar}  
     [A woman whose father is setting out came to me.]{.trans}
 
-(@) [مَرَرْتُ بِالْمَرْأَةِ الْمُنْطَلِقِ أَخَوَاهَا]{.ar}  
+(@ex000227) [مَرَرْتُ بِالْمَرْأَةِ الْمُنْطَلِقِ أَخَوَاهَا]{.ar}  
     [I passed by the woman whose two brothers are setting out.]{.trans}
 
 The above examples use the doer participle
@@ -943,11 +943,11 @@ Therefore it remains in the singular.
 If an doer participle has a broken plural, it is permitted (and in fact preferred) to use the broken plural for a plural doer.^[[[شرح قطر الندى وبل الصدى]{.ar} 288](https://shamela.ws/book/6970/263); [النحو الوافي]{.ar} 3/453--454]
 Examples:
 
-(@) [مَرَرْت بِرِجَال قيام آباؤهم]{.ar}
+(@ex000228) [مَرَرْت بِرِجَال قيام آباؤهم]{.ar}
     [[[شرح قطر الندى وبل الصدى]{.ar} 288](https://shamela.ws/book/6970/263)]{.citex}  
     [I passed by men whose fathers are standing.]{.trans}  
 
-(@) [مَرَرْت برجل قعُود غلمانه]{.ar}
+(@ex000229) [مَرَرْت برجل قعُود غلمانه]{.ar}
     [[[شرح قطر الندى وبل الصدى]{.ar} 288](https://shamela.ws/book/6970/263)]{.citex}  
     [I passed by a man whose slave-boys are sitting]{.trans}  
     (Note that the attributee [رَجُل]{.ar} is singular in this case.)
@@ -961,7 +961,7 @@ as we have seen in sections\ (sababi-xabar) and (sababi-na3t) above.
 However, it is also possible for the doer participle to govern a non-sababi overt doer.
 For example:
 
-(@) [مررت برجل متكلمٍ محمدٌ في داره]{.ar}
+(@ex000230) [مررت برجل متكلمٍ محمدٌ في داره]{.ar}
     [[البسيط لابن أبي الربيع]{.ar} 1075]{.citex}  
     [I passed by a man [whom] [#muHammad]{.trn2} was speaking in his house.]{.ar}
 
@@ -1001,7 +1001,7 @@ ii. It has governing support
 So it is not allowed to govern an overt doer for a perfect aspect.
 The following example would then be disallowed:
 
-(@) ✗ [زَيْدٌ قَائِمٌ أَبُوهُ أَمْسِ]{.ar}
+(@ex000231) ✗ [زَيْدٌ قَائِمٌ أَبُوهُ أَمْسِ]{.ar}
     [[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar} 134]{.citex}  
     [Zayd -- his father stood yesterday.]{.trans}
 
@@ -1013,15 +1013,15 @@ it can only govern an overt doer unconditionally.
 So it can govern with perfective aspect and without governing support.
 Examples:
 
-(@) [جاءني القائم أبوه]{.ar}
+(@ex000232) [جاءني القائم أبوه]{.ar}
     [[[شرح ألفية ابن مالك للشاطبي]{.ar} 1/449](https://shamela.ws/book/20562/449)]{.citex}  
     [The one whose father is standing came.]{.trans}  
 
-(@) [القائم أبوه ضاحك]{.ar}
+(@ex000233) [القائم أبوه ضاحك]{.ar}
     [[[التذييل والتكميل لأبي حيان]{.ar} 3/257](https://shamela.ws/book/17116/917#p1)]{.citex}  
     [The one whose father is standing is laughing.]{.trans}  
 
-(@) [جاء الضارب أبوه زيدًا أمس]{.ar}
+(@ex000234) [جاء الضارب أبوه زيدًا أمس]{.ar}
     [[[شرح ابن الناظم على ألفية ابن مالك]{.ar} 59](https://shamela.ws/book/18115/57)]{.citex}  
     [The one whose father beat Zayd yesterday came.]{.trans}  
 
@@ -1042,7 +1042,7 @@ then it will not also have a latent doer pronoun.
 This is because one doer participle cannot have two doers.^[[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar} 139]
 Example:
 
-(@) [زَيْدٌ قَائِمٌ أَبُوهُ]{.ar}
+(@ex000235) [زَيْدٌ قَائِمٌ أَبُوهُ]{.ar}
     [[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar} 139]{.citex}  
     [Zayd -- his father is standing]{.trans}
 
@@ -1098,12 +1098,12 @@ it does not govern a latent doer pronoun.^[See citations in [الضمير الم
 For example:
 
 <!--
-(@) [قَامَ **عَاقِلٌ** مِنْ بَنِي فُلَانٍ]{.ar}
+(@ex000236) [قَامَ **عَاقِلٌ** مِنْ بَنِي فُلَانٍ]{.ar}
     [[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar} 154]{.citex}  
     [An intelligent one from [such-and-such tribe] stood up.]{.trans}
 -->
 
-(@) [زَيْدٌ صَاحِبٌ]{.ar}  
+(@ex000237) [زَيْدٌ صَاحِبٌ]{.ar}  
     [Zayd is a companion]{.trans}  
 
 But even for entity nouns,
@@ -1118,7 +1118,7 @@ When there are multiple doer participles that occur together and that refer to t
 then only the first will have a latent doer pronoun and not the subsequent ones.
 For example:
 
-(@) [مَرَرْتُ بِرَجُلٍ قَائِمٍ لَا قَاعِدٍ]{.ar}
+(@ex000238) [مَرَرْتُ بِرَجُلٍ قَائِمٍ لَا قَاعِدٍ]{.ar}
     [[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar} 156]{.citex}  
     [I passed by a standing, not a sitting, man.]{.trans}
 -->
@@ -1142,7 +1142,7 @@ The direct doee is then made into a base noun in the i-state.
 The meaning remains the same.
 So the above sentence then becomes:
 
-(@) [زَيْدٌ ضَارِبُ عَمْرٍو]{.ar}  
+(@ex000239) [زَيْدٌ ضَارِبُ عَمْرٍو]{.ar}  
     [zaydun DAribu 3amrin]{.trn}  
     [Zayd is beating [#amr]{.trn2}]{.trans}
 
@@ -1173,7 +1173,7 @@ it is a real annexation or a superficial annexation.
 
 Here are some more examples of a superficial annexation used to eliminate a [tanwIn]{.trn2}:
 
-(@) [الْهِنْدَاتُ ضارباتُ عمرٍو]{.ar}
+(@ex000240) [الْهِنْدَاتُ ضارباتُ عمرٍو]{.ar}
     [modified from [[شرح التصريح على التوضيح]{.ar} 1/682](https://shamela.ws/book/9985/694)]{.citex}  
     [The Hinds are beating [#eamr]{.trn2}]{.trans}  
     (instead of [ضارباتٌ عمرًا]{.ar})
@@ -1182,7 +1182,7 @@ When the doer participle is a semi-flexible, it will not have a [tanwIn]{.trn2}.
 But the superficial annexation may still be used in such a case because a [tanwIn]{.trn2} would have been present if the word were fully-flexible.^[[[شرح التصريح على التوضيح]{.ar} 1/682](https://shamela.ws/book/9985/694)]
 For example:
 
-(@) [الْهِنْدَاتُ ضواربُ عَمْرٍو]{.ar}
+(@ex000241) [الْهِنْدَاتُ ضواربُ عَمْرٍو]{.ar}
     [modified from [[شرح التصريح على التوضيح]{.ar} 1/682](https://shamela.ws/book/9985/694)]{.citex}  
     [The Hinds are beating [#eamr]{.trn2}]{.trans}  
     (instead of [ضواربُ عمرًا]{.ar})
@@ -1193,7 +1193,7 @@ The superficial annexation is used in situations when the governing doer partici
 and also in situations when it ends with a [ن]{.ar} arising from a dual or sound plural.
 Examples:
 
-(@) [الزَّيْدَانِ ضاربا عَمْرٍو]{.ar}
+(@ex000242) [الزَّيْدَانِ ضاربا عَمْرٍو]{.ar}
     [modified from [[شرح التصريح على التوضيح]{.ar} 1/682](https://shamela.ws/book/9985/694)]{.citex}  
     [The [two] Zayds are beating [#eamr]{.trn2}]{.trans}  
     (instead of [ضاربانِ عَمْرًا]{.ar})
@@ -1231,12 +1231,12 @@ can be a attribute to the indefinite
 If the doer participle is to be made definite in a superficial annexation then a [ٱل]{.ar} is added to it.
 For example:
 
-(@) [هذان الضاربا زيدٍ]{.ar}
+(@ex000243) [هذان الضاربا زيدٍ]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 2/132](https://shamela.ws/book/13301/582#p1)]{.citex}  
     [These two are the beaters of Zayd.]{.trans}  
     (instead of [هذان الضاربان زيدًا]{.ar})
 
-(@) [وَٱلۡمُقِیمِی ٱلصَّلَوٰةِ]{.quran}
+(@ex000244) [وَٱلۡمُقِیمِی ٱلصَّلَوٰةِ]{.quran}
     [[[سورة الحج]{.ar} 22:35](https://quran.com/22/35) cited by [[شرح ابن يعيش على المفصل]{.ar} 2/132](https://shamela.ws/book/13301/582#p1)]{.citex}  
     [and the establishers of prayer]{.trans}
 
@@ -1249,26 +1249,26 @@ So when we see
 
 Consider the following case of a doer participle governing a direct doee:
 
-(@) [الضَّارِبُ زَيْدًا]{.ar}  
+(@ex000245) [الضَّارِبُ زَيْدًا]{.ar}  
     [the beater of Zayd]{.trans}  
 
 There is no [tanwIn]{.trn2} of suffixed [ن]{.ar} after the doer participle.
 Therefore, a superficial annexation is not permitted, and we cannot say:
 
-(@) ✗ [الضَّارِبُ زَيْدٍ]{.ar}
+(@ex000246) ✗ [الضَّارِبُ زَيْدٍ]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 2/132](https://shamela.ws/book/13301/582#p1)]{.citex}  
 
 The following are similarly not permitted:
 
-(@) ✗ [الضارب رجلٍ]{.ar}
+(@ex000247) ✗ [الضارب رجلٍ]{.ar}
     [[[شرح ابن عقيل على الألفية]{.ar} 3/47](https://shamela.ws/book/9904/726)]{.citex}  
     [the beater of the man]{.trans}  
 
-(@) ✗ [الضَّارِبُ عَبْدِ زَيْدٍ]{.ar}
+(@ex000248) ✗ [الضَّارِبُ عَبْدِ زَيْدٍ]{.ar}
     [Wright 2/66B]{.citex}
     [the beater of the slave of Zayd]{.trans}  
 
-(@) ✗ [الضَّارِبُ عَبْدِهِ]{.ar}
+(@ex000249) ✗ [الضَّارِبُ عَبْدِهِ]{.ar}
     [Wright 2/66B]{.citex}
     [the beater of his slave]{.trans}  
 
@@ -1280,11 +1280,11 @@ as an exception,
 the superficial annexation is again permitted.^[Wright 2/66A]
 For example:
 
-(@) [الضَّارِبُ الْعَبْدِ]{.ar}
+(@ex000250) [الضَّارِبُ الْعَبْدِ]{.ar}
     [Wright 2/66A]{.citex}  
     [the beater of the slave]{.trans}  
 
-(@) [الضَّارِبُ رَأْسِ الْعَبْدِ]{.ar}
+(@ex000251) [الضَّارِبُ رَأْسِ الْعَبْدِ]{.ar}
     [Wright 2/66A]{.citex}  
     [the beater of the head of the slave]{.trans}  
 
@@ -1294,15 +1294,15 @@ then too such a superficial annexation is permitted.^[[[شرح ابن يعيش �
 For example:
 -->
 
-(@) [الضَّارِبُ الرَّجُلِ]{.ar}
+(@ex000252) [الضَّارِبُ الرَّجُلِ]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 2/132](https://shamela.ws/book/13301/582#p1)]{.citex}  
     [the beater of the man]{.trans}
 
-(@) [الضَّوَارِبُ/الضُّرَّابُ/الضَّارِبَاتُ الرَّجُلِ]{.ar}
+(@ex000253) [الضَّوَارِبُ/الضُّرَّابُ/الضَّارِبَاتُ الرَّجُلِ]{.ar}
     [[[شرح ابن عقيل على الألفية]{.ar} 3/47](https://shamela.ws/book/9904/726)]{.citex}  
     [the beaters of the man]{.trans}
 
-(@) [الضَّوَارِبُ/الضُّرَّابُ/الضَّارِبَاتُ غُلَامِ الرَّجُلِ]{.ar}
+(@ex000254) [الضَّوَارِبُ/الضُّرَّابُ/الضَّارِبَاتُ غُلَامِ الرَّجُلِ]{.ar}
     [[[شرح ابن عقيل على الألفية]{.ar} 3/47](https://shamela.ws/book/9904/726)]{.citex}  
     [the beaters of the slave-boy of the man]{.trans}
 
@@ -1312,13 +1312,13 @@ When a doer participle governs two or more direct doees connected by [وَ]{.ar}
 then, if the first is in a superficial annexation then the second may either be in the i-state or the a-state.
 For example
 
-(@) [هذا ضاربُ زيدٍ وعمرٍو/وعمرًا]{.ar}
+(@ex000255) [هذا ضاربُ زيدٍ وعمرٍو/وعمرًا]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 4/81](https://shamela.ws/book/13301/1445)]{.citex}  
     [This [person] is beating Zayd and [#eamr]{.trn2}]{.trans}  
 
 By the way, if the first direct doee is in the a-state, then it is not an annexation and the second direct doee would follow in the a-state.
 
-(@) [هذا ضاربٌ زيدًا وعمرًا]{.ar}  
+(@ex000256) [هذا ضاربٌ زيدًا وعمرًا]{.ar}  
     [This [person] is beating Zayd and [#eamr]{.trn2}]{.trans}  
 
 #### Superficial annexation with a overt doer {.unnumbered}
@@ -1326,26 +1326,26 @@ By the way, if the first direct doee is in the a-state, then it is not an annexa
 Consider an doer participle that has a overt doer and is governing a direct doee thus:
 
 <!--
-(@) [هَذَا ضَارب أَبوهُ زيدا]{.ar}
+(@ex000257) [هَذَا ضَارب أَبوهُ زيدا]{.ar}
     [[الهمع للسيوطي]{.ar} 3/89]{.citex}  
     [This [person] -- his father is beating Zayd.]{.trans}  
 -->
 
-(@) [مررت برجل ضارب أبوه زيدا]{.ar}
+(@ex000258) [مررت برجل ضارب أبوه زيدا]{.ar}
     [[[شرح كتاب سيبويه للسيرافي]{.ar} 2/458](https://shamela.ws/book/17726/956)]{.citex}  
     [I passed by a man whose father [was] beating Zayd.]{.trans}  
 
 If we wish to use a superficial annexation, then the doer participle can only be annexed to its direct doee and not to its doer.
 So we can say:
 
-(@) [مررت برجل ضارب زيد أبوه]{.ar}
+(@ex000259) [مررت برجل ضارب زيد أبوه]{.ar}
     [[[شرح كتاب سيبويه للسيرافي]{.ar} 2/74](https://shamela.ws/book/17726/572)]{.citex}  
     [I passed by a man whose father [was] beating Zayd.]{.trans}  
     (Remember from section\ (ref) above that the word order [ضَارِبٌ زَيْدًا أَبُوهُ]{.ar} is permissible.)
    
 We cannot say:
 
-(@) ✗ [مررت برجل ضارب أَبِيهِ زيدا]{.ar}
+(@ex000260) ✗ [مررت برجل ضارب أَبِيهِ زيدا]{.ar}
     [[[التذييل والتكميل لأبي حيان]{.ar} 10/359](https://shamela.ws/book/17116/3534)]{.citex}
 
 ## The doer participle with a pronoun as its direct doee
@@ -1355,75 +1355,75 @@ there is considerable variation seen
 
 One possibility is is to separate the doer participle from its doee pronoun using the prefix [إِيَّا]{.ar}, thus:
 
-(@) [ضَارِبٌ إِيَّاكَ]{.ar}
+(@ex000261) [ضَارِبٌ إِيَّاكَ]{.ar}
     [[شرح الرضي على الكافية]{.ar} 2/434]{.citex}  
     [beating you]{.trans}  
 
-(@) [الضَارِبُ إِيَّاكَ]{.ar}
+(@ex000262) [الضَارِبُ إِيَّاكَ]{.ar}
     [[شرح الرضي على الكافية]{.ar} 2/434]{.citex}  
     [the beater of you]{.trans}  
 
-(@) [الضَارِبُونَ إِيَّاهُ]{.ar}
+(@ex000263) [الضَارِبُونَ إِيَّاهُ]{.ar}
     [Wright 2/67A]{.citex}  
     [the beaters of me]{.trans}  
 
 The second possibility, and by far the more common usage, is to use a superficial annexation, thus:
 
-(@) [ضَارِبُكَ]{.ar}
+(@ex000264) [ضَارِبُكَ]{.ar}
     [[شرح الرضي على الكافية]{.ar} 2/434]{.citex}  
     [beating you]{.trans}  
 
-(@) [الضَارِبُكَ]{.ar}
+(@ex000265) [الضَارِبُكَ]{.ar}
     [[شرح الرضي على الكافية]{.ar} 2/434]{.citex}  
     [the beater of you]{.trans}  
 
-(@) [الضارِبِي]{.ar}
+(@ex000266) [الضارِبِي]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 2/135](https://shamela.ws/book/13301/585#p1)]{.citex}  
     [the beater of me]{.trans}
 
-(@) [الضارباتِي]{.ar}
+(@ex000267) [الضارباتِي]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 2/135](https://shamela.ws/book/13301/585#p1)]{.citex}  
     [the beaters~f~ of me]{.trans}
 
 When the doer participle has a overt doer, then it will follow the attached pronoun, thus:
 
-(@) [هَذَا ضَارِبِي أَبُوهُ]{.ar}  
+(@ex000268) [هَذَا ضَارِبِي أَبُوهُ]{.ar}  
     [This [person] -- his father is beating me.]{.trans}  
 
 For the dual and sound [Un]{.trn} plural in a superficial annexation, the [ن]{.ar} of the suffix is regularly deleted.
 So we will say:
 
-(@) [هذان ضارباك]{.ar}
+(@ex000269) [هذان ضارباك]{.ar}
     [[[شرح كتاب سيبويه للسيرافي]{.ar} 1/196](https://shamela.ws/book/17726/194)]{.citex}  
     [These two are beating you.]{.trans}  
     (from [ضاربان]{.ar})
 
-(@) [هؤلاء ضاربوك]{.ar}
+(@ex000270) [هؤلاء ضاربوك]{.ar}
     [[[شرح كتاب سيبويه للسيرافي]{.ar} 1/196](https://shamela.ws/book/17726/194)]{.citex}  
     [These [persons] are beating you.]{.trans}  
     (from [ضاربون]{.ar})
 
-(@) [الضارِباك]{.ar}
+(@ex000271) [الضارِباك]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 2/135](https://shamela.ws/book/13301/585#p1)]{.citex}  
     [the two beaters of you]{.trans}  
     (from [الضاربان]{.ar})
 
-(@) [الضارِبوك]{.ar}
+(@ex000272) [الضارِبوك]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 2/135](https://shamela.ws/book/13301/585#p1)]{.citex}  
     [the beaters of you]{.trans}  
     (from [الضاربون]{.ar})
 
-(@) [ضاربايَ]{.ar}
+(@ex000273) [ضاربايَ]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 2/135](https://shamela.ws/book/13301/585#p1)]{.citex}  
     [the two beaters of me]{.trans}  
     (from [الضاربَان]{.ar})
 
-(@) [الضارِبَيَّ]{.ar}
+(@ex000274) [الضارِبَيَّ]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 2/135](https://shamela.ws/book/13301/585#p1)]{.citex}  
     [the two beaters of me]{.trans}  
     (from [الضاربَيْن]{.ar})
 
-(@) [الضارِبِيَّ]{.ar}
+(@ex000275) [الضارِبِيَّ]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 2/135](https://shamela.ws/book/13301/585#p1)]{.citex}  
     [the beaters of me]{.trans}  
     (from [الضاربِين]{.ar} and [الضاربون]{.ar})
@@ -1438,7 +1438,7 @@ This would permit words like:
 etc.
 For example:
 
-(@) [فَهَلْ أَنْتُمْ صَادِقُونِي فِيهِ]{.ar}
+(@ex000276) [فَهَلْ أَنْتُمْ صَادِقُونِي فِيهِ]{.ar}
     ^[also narrated as [صَادِقِيَّ]{.ar} in [[صحيح البخاري]{.ar} :3169](https://sunnah.com/bukhari:3169)]
     [<https://hadithunlocked.com/nasai-kubra:11291>]{.citex}  
     [So will you tell me the truth about it?]{.trans}  
@@ -1600,21 +1600,21 @@ Here are some more examples of
 doer-that-fulfils-the-role-of-the-info
 sentences:
 
-(@) [هَلْ مَضْرُوبٌ بَنُوكَ]{.ar}
+(@ex000277) [هَلْ مَضْرُوبٌ بَنُوكَ]{.ar}
     [Wright 2/257C]{.citex}  
     [Are your sons beaten?]{.trans}  
     ([بَنُو]{.ar} is a deputy doer.)
 
-(@) [أَرَاغِبٌ أَنتَ عَنۡ ءَالِهَتِی یَـٰۤإِبۡرَ ٰ⁠هِیمُۖ]{.quran}
+(@ex000278) [أَرَاغِبٌ أَنتَ عَنۡ ءَالِهَتِی یَـٰۤإِبۡرَ ٰ⁠هِیمُۖ]{.quran}
     [[[سورة مريم]{.ar} 19:46](https://quran.com/19/46) cited by Wright 2/257D]{.citex}  
     [Have you no desire for my gods, O Abraham?]{.trans}  
     (A double analysis is reportedly possible, but the doer-that-fulfils-the-role-of-the-info analysis is preferred.^[See [[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/19/46) for [سورة مريم]{.ar} 19:46])
 
-(@) [خَلِيلَيَّ مَا وَافٍ بِعَهْدِي أَنْتُمَا]{.ar}
+(@ex000279) [خَلِيلَيَّ مَا وَافٍ بِعَهْدِي أَنْتُمَا]{.ar}
     [Wright 2/257D]{.citex}  
     [My two friends, you are not keeping my promise.]{.trans}
 
-(@) [أَمُنْجِزٌ أَنْتُمْ وَعْدًا وَثِقْتُ بِهِ]{.ar}
+(@ex000280) [أَمُنْجِزٌ أَنْتُمْ وَعْدًا وَثِقْتُ بِهِ]{.ar}
     [Wright 2/257D]{.citex}  
     [Are you fulfiling a promise that I put my trust on?]{.trans}
 
