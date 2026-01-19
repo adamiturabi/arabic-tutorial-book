@@ -31,16 +31,16 @@ on the other hand,
 does not have a truth value.
 Here are some examples of ;inshai; statements:
 
-(@) [اضْرِبْ زَيْدًا]{.ar}  
+(@ex000545) [اضْرِبْ زَيْدًا]{.ar}  
     [Beat Zayd!]{.trans}
 
-(@) [لَا تَفْعَلْ]{.ar}  
+(@ex000546) [لَا تَفْعَلْ]{.ar}  
     [Don't do [it]!]{.trans}
 
-(@) [يَا زَيْدُ]{.ar}  
+(@ex000547) [يَا زَيْدُ]{.ar}  
     [O Zayd]{.trans}
 
-(@) [مَنْ هُوَ]{.ar}  
+(@ex000548) [مَنْ هُوَ]{.ar}  
     [Who is he?]{.trans}
 
 
@@ -58,7 +58,7 @@ then its syntactical role is determined by the grammatical relationships it has 
 
 Consider the following sentence:
 
-(@) [الْبَيْتُ كَبِيرٌ]{.ar}  
+(@ex000549) [الْبَيْتُ كَبِيرٌ]{.ar}  
     [The house is big]{.trans}
 
 In the above sentence, 
@@ -67,7 +67,7 @@ is _syntactically_ a ;xabar;.
 
 Now consider the following sentence:
 
-(@) [دَخَلَ بَيْتًا كَبِيرًا]{.ar}  
+(@ex000550) [دَخَلَ بَيْتًا كَبِيرًا]{.ar}  
     [He entered a big house.]{.trans}
 
 Now the same noun
@@ -82,7 +82,7 @@ In both examples,
 Semantics is the study of the meanings of words.
 Consider the following sentence:
 
-(@) taHaddatha fi al-bayt.
+(@ex000551) taHaddatha fi al-bayt.
 
 Here the semantic meaning of fi determines the meaning of the sentence.
 If fi means "in" then the sentence means "He talked in the house."
@@ -90,10 +90,10 @@ And if fi means "regarding", then the sentence means "He talked about the house.
 
 Semantics can affect the syntax of a sentence.
 
-(@) al-af3Alu Hasanatun  
+(@ex000552) al-af3Alu Hasanatun  
     "The acts are good."
 
-(@) al-af3Alu HasanAtun  
+(@ex000553) al-af3Alu HasanAtun  
     "The acts are good deeds."
 -->
 
@@ -184,7 +184,7 @@ So that is another example of an obligatory word-order for the governor and the 
 Let's look at some common governor-governee relationships.
 We will make use of the following example:
 
-(@) [قَرَأَ الْغُلَامُ الطَّوِيلُ كِتَابَ الجَارِيَةِ فِي الدَّارِ الْكَبِيرَةِ]{.ar}
+(@ex000554) [قَرَأَ الْغُلَامُ الطَّوِيلُ كِتَابَ الجَارِيَةِ فِي الدَّارِ الْكَبِيرَةِ]{.ar}
 
 #### The ;istate; noun {.unnumbered}
 
@@ -222,7 +222,7 @@ Here is an example of an ;istate; noun
 being governed by a preceding ;mudaf;
 ([كِتَابُ]{.ar}):
 
-(@) [كِتَابُ زَيْدٍ]{.ar}  
+(@ex000555) [كِتَابُ زَيْدٍ]{.ar}  
     [Zayd's book]{.trans}
 
 #### The ;faa3il; {.unnumbered}
@@ -400,13 +400,13 @@ we don't call it an ;fadlah; element.
 
 Here are some examples:
 
-(@) [لَمْ يَضْرِبِ الرَّجُلُ غُلَامَ زَيْدٍ]{.ar}
+(@ex000556) [لَمْ يَضْرِبِ الرَّجُلُ غُلَامَ زَيْدٍ]{.ar}
     [@owens_foundations_grammar@ §2.2.3, 41]{.citex}  
     [The man did not beat Zayd's slave.]{.trans}
 
 DIAGRAM
 
-(@) [إِنَّ زَيْدًا قَائِمٌ]{.ar}  
+(@ex000557) [إِنَّ زَيْدًا قَائِمٌ]{.ar}  
     [Indeed Zayd is standing.]{.trans}
 
 DIAGRAM
@@ -431,7 +431,7 @@ When there is one or more stateful ;3umdah; elements in a sentence with no overt
 then this necessitates bringing in a _abstract_ ;pregov;.^[@owens_foundations_grammar@ 55; @peled_sentence_types@ 87--88]
 For example:
 
-(@) [زَيْدٌ مُنْطَلِقٌ]{.ar}
+(@ex000558) [زَيْدٌ مُنْطَلِقٌ]{.ar}
     [@peled_sentence_types@ 87]{.citex}  
     [Zayd is setting out.]{.trans}
 
@@ -440,7 +440,7 @@ and the ;muxbar; (the ;xabar;
 [مُنْطَلِقٌ]{.ar})
 in the ;ustate;.
 
-(@) [يَقُومُ زَيْدٌ]{.ar}  
+(@ex000559) [يَقُومُ زَيْدٌ]{.ar}  
     [Zayd stands]{.trans}
 
 The abstract ;pregov; governs the ;muxbar; (the ;mudarie; verb [يَقُومُ]{.ar}) in the ;ustate;.
@@ -455,7 +455,7 @@ We will learn moe about this case in sections\ (ref) and (ref) below.
 -->
 
 <!--
-(@) zaydun DAribun abUhu eamran
+(@ex000560) zaydun DAribun abUhu eamran
 
 DIAGRAM
 
@@ -473,7 +473,7 @@ But DAribun is a stateful element that itself needs a governor.
 It is put in the ;ustate; because it is the ;xabar; of the ;mubtada; zaydun.
 by the conceptual governor that governs the larger sentence.
 
-(@) inna zaydan DAribun eamran
+(@ex000561) inna zaydan DAribun eamran
 
 DIAGRAM
 
@@ -498,7 +498,7 @@ It is put in the ;ustate; because it is the ;xabar; of the ;pregov; inna.
 -->
 
 <!--
-(@) kāna Zaydun munṭaliqan ʾabūhu
+(@ex000562) kāna Zaydun munṭaliqan ʾabūhu
     [peled 207 citing zajjaji]{.citex}
 
 DIAGRAM
@@ -530,7 +530,7 @@ But muntaliq itself is also governed by an ;pregov; (the verb kaana) that is not
 Sometimes, there may be more than one element (in a chain) in the ;pregov;, before one reaches the first governed ;3umdah; element.
 For example:
 
-(@) [لَمْ يَكُنْ زَيْدٌ قَائِمًا]{.ar}  
+(@ex000563) [لَمْ يَكُنْ زَيْدٌ قَائِمًا]{.ar}  
     [Zayd was not standing.]{.trans}
 
 In the example above,
@@ -586,7 +586,7 @@ We don't mean that it is superfluous in terms of its meaning.
 In fact, a ;fadlah; element may be essential for the correct meaning of the sentence.
 For example, consider the ;ayah;:
 
-(@) [وَمَا خَلَقۡنَا ٱلسَّمَاۤءَ وَٱلۡأَرۡضَ وَمَا بَیۡنَهُمَا لَـٰعِبِینَ]{.quran}
+(@ex000564) [وَمَا خَلَقۡنَا ٱلسَّمَاۤءَ وَٱلۡأَرۡضَ وَمَا بَیۡنَهُمَا لَـٰعِبِینَ]{.quran}
     [@https://quran.com/21/16@ cited by [@maani_nahw@ 1/14](https://shamela.ws/book/17801/13)]{.citex}  
     [And We did not create the heaven and earth and that between them in play.]{.trans}
 
@@ -613,11 +613,11 @@ Technically,
 the ;mudafil; in an ;idaafah; is considered a ;fadlah; unit.
 Consider the following example:
 
-(@) abU zaydin axU eamrin
+(@ex000565) abU zaydin axU eamrin
 
 If we remove the ;mudafil; nouns from the sentence we get:
 
-(@) al-abu al-axu
+(@ex000566) al-abu al-axu
 
 This is a complete sentence.
 al-abu is the ;mubtada;.
@@ -662,7 +662,7 @@ a _;j_f3l;_ is one whose ;3umdah; elements are a verb (as the ;muxbar3;) and and
 
 Consider, for example, the following sentence:
 
-(@) [بَلْ زَيْدٌ قَائِمٌ]{.ar}  
+(@ex000567) [بَلْ زَيْدٌ قَائِمٌ]{.ar}  
     [Rather Zayd is standing.]{.trans}
 
 The first word in the sentence above is [بَلْ]{.ar}.
@@ -673,7 +673,7 @@ So the sentence is a ;j_ism;.
 
 Let's take a look at another example:
 
-(@) [زَيْدًا رَأَيْتُ]{.ar}
+(@ex000568) [زَيْدًا رَأَيْتُ]{.ar}
     [@peled_sentence_types@ 28]{.citex}  
     [[It was] Zayd I saw.]{.trans}
 
@@ -726,7 +726,7 @@ can be considered to be the ;pregov;, and the sentence may be considered a ;j_is
 
 Similarly consider the sentence:
 
-(@) [لَمْ يَكُنْ زَيْدٌ قَائِمًا]{.ar}  
+(@ex000569) [لَمْ يَكُنْ زَيْدٌ قَائِمًا]{.ar}  
     [Zayd was not standing.]{.trans}
 
 In the example above,
@@ -741,7 +741,7 @@ Therefore both [لَمْ]{.ar} and [يَكُنْ]{.ar} form the ;pregov;.
 <!--
 Similarly, consider the sentence:
 
-(@) [ظَنَنْتُ زَيْدًا قَائِمًا]{.ar}
+(@ex000570) [ظَنَنْتُ زَيْدًا قَائِمًا]{.ar}
     [@peled_sentence_types@ 171]{.citex}  
     [I believed him [to be] standing.]{.trans}
 
@@ -835,17 +835,17 @@ One special case is when a question noun is the ;mubtada;.
 (Question nouns are considered indefinite.)
 For example:
 
-(@) [كَمْ مَالُكَ]{.ar}
+(@ex000571) [كَمْ مَالُكَ]{.ar}
     [@sabban@ 1/231]{.citex}  
     [How much is your wealth?]{.trans}
 
-(@) [أَيُّ لَيْلَةٍ لَيْلَةُ الْقَدْرِ]{.ar}
+(@ex000572) [أَيُّ لَيْلَةٍ لَيْلَةُ الْقَدْرِ]{.ar}
     [@https://sunnah.com/tirmidhi:3513@]{.citex}  
     [Which night is the night of Decree]{.trans}
 
 Another special case is when the ;mubtada; is an indefinite ;af3al; in sentences like:
 
-(@) [خَيْرٌ مِنْكَ زَيْدٌ]{.ar}
+(@ex000573) [خَيْرٌ مِنْكَ زَيْدٌ]{.ar}
     [@sabban@ 1/231]{.citex}  
     [Better than you is Zayd]{.trans}
 
@@ -870,22 +870,22 @@ We will see in chapter\ (ref) that these words (exceptionally) remain indefinite
 So, for example, these words (as ;mudaf;s to definite ;mudafil;s) may be used as ;na3t;s to an indefinite noun.
 For example:
 
-(@) [مَرَرْتُ بِرَجُلٍ حَسْبِكَ ِمْن َرُجٍل]{.ar}
+(@ex000574) [مَرَرْتُ بِرَجُلٍ حَسْبِكَ ِمْن َرُجٍل]{.ar}
     [@ibn_hisham_awdah_almasaalik@ 3/139]{.citex}
 
 There is some debate amongst the grammarians with regards to whether these indefinite noun may occur as a ;mubtada; to a definite ;xabar;.^[@sabban@ 1/277]
 So if we have a sentence: 
 
-(@) [حسبُك زَيْدٌ]{.ar}  
+(@ex000575) [حسبُك زَيْدٌ]{.ar}  
     [Sufficient for you is Zayd.]{.trans}
 
 then one may deem zayd as the ;mubtada; because it is more definite than hasbuka.
 
 But see also the ;tafsir;s of the following ;ayah;s:
 
-(@) faHasbuhu jahannamu
+(@ex000576) faHasbuhu jahannamu
 
-(@) Hasbuhum jahannamu yaSlawnahA
+(@ex000577) Hasbuhum jahannamu yaSlawnahA
 -->
 
 ### Both ;3umdah; elements are definite
@@ -893,7 +893,7 @@ But see also the ;tafsir;s of the following ;ayah;s:
 When both ;3umdah; elements are definite, then typically the first is the ;mubtada; and the second is the ;xabar;.
 For example:
 
-(@) [الدِّينُ النَّصِيحَةُ]{.ar}
+(@ex000578) [الدِّينُ النَّصِيحَةُ]{.ar}
     [@https://sunnah.com/muslim:55a@]{.citex}  
     [The Religion is sincerity.]{.trans}
 
@@ -925,7 +925,7 @@ Therefore,
 [أَبُو حَنِيفَةَ]{.ar} is the ;muxbar; (as the ;xabar;).
 In this case, the sentence order can be flexible, and the ;xabar; can be fronted (stylistically), for the same meaning, thus:
 
-(@) [أَبُو حَنِيفَةَ أَبُو يُوسُفَ]{.ar}  
+(@ex000579) [أَبُو حَنِيفَةَ أَبُو يُوسُفَ]{.ar}  
     [[Like] [#abU #HanIfah]{.trn2}, [#abU #yUsuf]{.trn2} is.]{.trans}
 
 DIAGRAM
@@ -938,11 +938,11 @@ the first is likely to be the ;mubtada;
 and the second to be the ;xabar;.
 Examples:
 
-(@) [أَفْضَلُ مِنْ زَيْدٍ أَفْضَلُ مِنْ عَمْرٍو]{.ar}
+(@ex000580) [أَفْضَلُ مِنْ زَيْدٍ أَفْضَلُ مِنْ عَمْرٍو]{.ar}
     [[@ibn_aqil_alfiyyah@ 1/232](https://shamela.ws/book/9904/231#p1)]{.citex}  
     [[The person] better than Zayd is better than [#eamr]{.trn2}.]{.trans}
 
-(@) [وَجَزَ ٰ⁠ۤؤُا۟ سَیِّئَةࣲ سَیِّئَةࣱ مِّثۡلُهَاۖ]{.quran}
+(@ex000581) [وَجَزَ ٰ⁠ۤؤُا۟ سَیِّئَةࣲ سَیِّئَةࣱ مِّثۡلُهَاۖ]{.quran}
     [@https://quran.com/42/40@]{.citex}  
     [And the retribution for an evil act is an evil one like it]{.trans}
 
@@ -996,12 +996,12 @@ Remember from section\ (ref) above that
 is a ;naqis; verb, and thus needs a ;xabar; to grammatically the sentence.
 This ;xabar; may be a single word, like:
 
-(@) [كَانَ زَيْدٌ قَائِمًا]{.ar}  
+(@ex000582) [كَانَ زَيْدٌ قَائِمًا]{.ar}  
     [Zayd was standing.]{.trans}
 
 Or the ;xabar; of [كَانَ]{.ar} may be a complete sentence:
 
-(@) [كَانَ زَيْدٌ يَقُومُ]{.ar}  
+(@ex000583) [كَانَ زَيْدٌ يَقُومُ]{.ar}  
     [Zayd used to stand.]{.trans}
 
 (END FIXME)
@@ -1011,7 +1011,7 @@ But it need not be so.
 A ;inshai; sentence is also valid as a ;xabar;^[@ibn_3usfoor_sharh_jumal@ 1/347; @abu_hayyan_tadhyeel@ 4/27]
 For example:
 
-(@) [زَيْدٌ اضْرِبْهُ]{.ar}
+(@ex000584) [زَيْدٌ اضْرِبْهُ]{.ar}
     [@abu_hayyan_tadhyeel@ 4/27]{.citex}  
     [Zayd -- hit him!]{.trans}  
     (i.e. [Hit Zayd!]{.trans})
@@ -1088,7 +1088,7 @@ Generally, if there is no such ;rabt; between the inner sentence and the ;mubtad
 then the compound sentence is invalid.^[@peled_sentence_types@ 94 citing @ibn_ya3ish_mufassal@; @jurjani_muqtasid@]{.citex}
 So we cannot say, for example:
 
-(@) ;x; [زَيْدٌ قَامَ عَمْرٌ]{.ar}
+(@ex000585) ;x; [زَيْدٌ قَامَ عَمْرٌ]{.ar}
     [@peled_sentence_types@ 94 citing @ibn_ya3ish_mufassal@]{.citex}  
     [Zayd -- [#eamr]{.trn2} stood up]{.trans}
 
@@ -1098,7 +1098,7 @@ Instead of a pronoun,
 an ;ism_isharah; may serve as the ;rabt;.
 For example:
 
-(@) [وَلِبَاسُ ٱلتَّقۡوَىٰ ذَ ٰ⁠لِكَ خَیۡرࣱۚ]{.quran}
+(@ex000586) [وَلِبَاسُ ٱلتَّقۡوَىٰ ذَ ٰ⁠لِكَ خَیۡرࣱۚ]{.quran}
     [@https://quran.com/7/26@ cited by @ibn_aqil_alfiyyah@ 1/204]{.citex}  
     [But the clothing of righteousness - that is best.]{.trans}
 
@@ -1107,7 +1107,7 @@ For example:
 The ;mubtada; of the outer sentence may be repeated in the inner sentence, and this is sufficient as the ;rabt;.
 For example:
 
-(@) [ٱلۡحَاۤقَّةُ ۝١ مَا ٱلۡحَاۤقَّةُ ۝٢]{.quran}
+(@ex000587) [ٱلۡحَاۤقَّةُ ۝١ مَا ٱلۡحَاۤقَّةُ ۝٢]{.quran}
     [@https://quran.com/69/1-2@ cited by @ibn_aqil_alfiyyah@ 1/204]{.citex}  
     [The Inevitable Reality - What is the Inevitable Reality?]{.trans}
 
@@ -1117,18 +1117,18 @@ For example:
 In cases where the ;xabar; of the outer sentence is more general than its ;mubtada; a ;rabt; is not needed.
 For example:
 
-(@) [زَيْدٌ نِعْمَ الرَّجُلُ]{.ar}
+(@ex000588) [زَيْدٌ نِعْمَ الرَّجُلُ]{.ar}
     [@wright@ 2/256D, @ibn_aqil_alfiyyah@ 1/204]{.citex}  
     [Zayd -- an excellent man]{.trans}
 
 The ;rabt; is also not needed when the ;mubtada; of the outer sentence and its ;xabar; are perfectly identical in meaning.
 For example:
 
-(@) [نُطْقِي اللَّهُ حَسْبِي]{.ar}
+(@ex000589) [نُطْقِي اللَّهُ حَسْبِي]{.ar}
     [@wright@ 2/256D, @ibn_aqil_alfiyyah@ 1/204]{.citex}  
     [My utterance is "[#allAh]{.trn2} is sufficient for me."]{.trans}
 
-(@) [قَوْلِي لَا إِلَهَ إِلاَّ اللَّهُ]{.ar}
+(@ex000590) [قَوْلِي لَا إِلَهَ إِلاَّ اللَّهُ]{.ar}
     [@wright@ 2/256D, @ibn_aqil_alfiyyah@ 1/204]{.citex}  
     [My saying is "There is no god but [#allAh]{.trn2}."]{.trans}
 
@@ -1139,7 +1139,7 @@ But it remains implied.
 This is in cases in which the sense is perfectly clear without it.^[@wright@ 2/256B]
 For example:
 
-(@) [ٱلسَّمْنُ مَنَوَانِ بِدِرْهَمٍ]{.ar}
+(@ex000591) [ٱلسَّمْنُ مَنَوَانِ بِدِرْهَمٍ]{.ar}
     [@wright@ 2/256C; @jurjani_muqtasid@ 1/278; @radiy_kafiyah@ 1/238]{.citex}  
     [The ghee is (at the rate of) two [manA]{.trn2}s for a dirham.]{.trans}  
 
@@ -1167,7 +1167,7 @@ and treat other categories in their respective chapters
 A sentence which is direct speech occurs in the place of a ;mafulb;.
 For example:
 
-(@) [قَالَ إِنِّی عَبۡدُ ٱللَّهِ]{.quran}
+(@ex000592) [قَالَ إِنِّی عَبۡدُ ٱللَّهِ]{.quran}
     [@https://quran.com/19/30@ cited by [@qawa3id_shaykh_zadeh@ 1/23](https://shamela.ws/book/19236/32#p1)]{.citex}  
     [[Jesus] said, "Indeed, I am the servant of Allāh.]{.trans}
 
@@ -1178,7 +1178,7 @@ is in place of the ;astate; ;mafulb; of [قَالَ]{.ar}.
 A complete sentence can also occur as a ;mafulb; with ;af3aal_quloob;.
 Examples:
 
-(@) [ظَنَنْتُ زَيْدًا يَقْرَأُ]{.ar}
+(@ex000593) [ظَنَنْتُ زَيْدًا يَقْرَأُ]{.ar}
     [[@qawa3id_shaykh_zadeh@ 1/24](https://shamela.ws/book/19236/33#p1)]{.citex}  
     [I believed Zayd [to be] reading.]{.trans}
 
@@ -1203,7 +1203,7 @@ the single word ;na3t;
 with the sentence
 [يَقُومُ]{.ar}, thus:
 
-(@) [مَرَرْتُ بِرَجُلٍ يَقُومُ]{.ar}
+(@ex000594) [مَرَرْتُ بِرَجُلٍ يَقُومُ]{.ar}
     [@farisi_idah@ 308]{.citex}  
     [I passed by a man [that] stands.]{.trans}  
     (literally: [I passed by a 'he stands' man.]{.trans}
@@ -1272,7 +1272,7 @@ is the pronoun [ه]{.ar} in [فِيهِ]{.ar}.
 Sometimes the ;rabt; is not explicit, but is implied.
 For example:
 
-(@) [وَٱتَّقُوا۟ یَوۡمࣰا لَّا تَجۡزِی نَفۡسٌ عَن نَّفۡسࣲ شَیۡـࣰٔا]{.quran}
+(@ex000595) [وَٱتَّقُوا۟ یَوۡمࣰا لَّا تَجۡزِی نَفۡسٌ عَن نَّفۡسࣲ شَیۡـࣰٔا]{.quran}
     [@https://quran.com/2/123@ cited by @ibn_hisham_awdah_almasaalik@ 3/277]{.citex}  
     [And fear a Day when no soul will suffice for another soul at all]{.trans}
 
@@ -1284,7 +1284,7 @@ i.e. [لَا تَجْزِی **فِيهِ**]{.ar}.
 
 The following sentence is impermissible because the ;na3t; [اضْرِبْهُ]{.ar} is a ;inshai; sentence.
 
-(@) ;x; [مَرَرْتُ بِرَجُلٍ اضْرِبْهُ]{.ar}
+(@ex000596) ;x; [مَرَرْتُ بِرَجُلٍ اضْرِبْهُ]{.ar}
     [@ibn_hisham_awdah_almasaalik@ 3/278]{.citex}  
     [I passed by a man -- hit him]{.trans}
     
@@ -1306,7 +1306,7 @@ And the sentence-;mudafil; is _in place_ of an ;istate; noun.
 
 Here is another example:
 
-(@) [یَوۡمَ هُم بَـٰرِزُونَۖ]{.quran}
+(@ex000597) [یَوۡمَ هُم بَـٰرِزُونَۖ]{.quran}
     [@https://quran.com/40/16@ cited by [@qawa3id_shaykh_zadeh@ 1/29](https://shamela.ws/book/19236/38#p1)]{.citex}  
     [The Day they come forth]{.trans}
 
@@ -1317,7 +1317,7 @@ In most cases,
 a foreign element should not come between (and thus separate) a governor from its governee(s).
 For example, consider the following sentence:
 
-(@) [عَلِمْتُ مُحَمَّدًا يُؤَلِّفُ كِتَابًا]{.ar}
+(@ex000598) [عَلِمْتُ مُحَمَّدًا يُؤَلِّفُ كِتَابًا]{.ar}
     [@samarrai_jumlah@ 66]{.citex}  
     [I knew [#muHammad]{.trn2} [to be] writing a book.]{.trans}
 
@@ -1335,7 +1335,7 @@ is a foreign element for the verb
 [عَلِمْتُ]{.ar}.
 Therefore, the following sentence is impermissible:
 
-(@) ;x; [عَلِمْتُ كِتَابًا مُحَمَّدًا يُؤَلِّفُ]{.ar}
+(@ex000599) ;x; [عَلِمْتُ كِتَابًا مُحَمَّدًا يُؤَلِّفُ]{.ar}
     [@samarrai_jumlah@ 66]{.citex}  
 
 
@@ -1345,7 +1345,7 @@ Usually, for pronouns, the pronoun's referent is a single noun that occurs befor
 For example,
 if we say 
 
-(@) [زَيْدٌ هَوَ مُنْطَلِقٌ]{.ar}  
+(@ex000600) [زَيْدٌ هَوَ مُنْطَلِقٌ]{.ar}  
     [Zayd is setting out.]{.trans}
 
 Then the pronoun
@@ -1358,7 +1358,7 @@ that behaves differently from other pronouns
 It is used to begin compound ;j_ism;s.
 Here is an example of a sentence with a ;damir_shan;:
 
-(@) [هُوَ زَيْدٌ مُنْطَلِقٌ]{.ar}
+(@ex000601) [هُوَ زَيْدٌ مُنْطَلِقٌ]{.ar}
     [[@maani_nahw@ 1/57](https://shamela.ws/book/17801/56)]{.citex}  
     [[The state of affairs] is: Zayd is setting out.]{.trans}  
 
@@ -1396,11 +1396,11 @@ if the ;mubtada; of the following sentence is feminine,
 then the ;damir_shan; is generally the feminine pronoun [هِيَ]{.ar}.
 Examples:
 
-(@) [**هُوَ** زَيْدٌ قَائِمٌ]{.ar}
+(@ex000602) [**هُوَ** زَيْدٌ قَائِمٌ]{.ar}
     [@baseet_ibn_abi_rabee3@ 745]{.citex}  
     [[The state of affairs] is: Zayd is standing.]{.trans}
 
-(@) [**هِيَ** هِنْدٌ قَائِمَةٌ]{.ar}
+(@ex000603) [**هِيَ** هِنْدٌ قَائِمَةٌ]{.ar}
     [@baseet_ibn_abi_rabee3@ 745]{.citex}  
     [[The state of affairs] is: Hind is standing.]{.trans}
 
@@ -1408,11 +1408,11 @@ As mentioned,
 the gender of the ;damir_shan; generally matches the gender of the following ;mubtada; (as above).
 Sometimes, however, it is found to mismatch. For example:
 
-(@) [**هِيَ** زَيْدٌ قَائِمٌ]{.ar}
+(@ex000604) [**هِيَ** زَيْدٌ قَائِمٌ]{.ar}
     [@baseet_ibn_abi_rabee3@ 745]{.citex}  
     [[The state of affairs] is: Zayd is standing.]{.trans}
 
-(@) [**هُوَ** هِنْدٌ قَائِمَةٌ]{.ar}
+(@ex000605) [**هُوَ** هِنْدٌ قَائِمَةٌ]{.ar}
     [@baseet_ibn_abi_rabee3@ 745--756]{.citex}  
     [[The state of affairs] is: Hind is standing.]{.trans}
 
@@ -1420,10 +1420,10 @@ Sometimes, however, it is found to mismatch. For example:
 
 The ;damir_shan; is always a singular pronoun, regardless of whether the subject of the following ;mubtada; is singular, dual, or plural.^[[@maani_nahw@ 1/59](https://shamela.ws/book/17801/58#p1)]
 
-(@) [**هُوَ** الزَّيْدَانِ قَائِمَانِ]{.ar}  
+(@ex000606) [**هُوَ** الزَّيْدَانِ قَائِمَانِ]{.ar}  
     [[The state of affairs] is: the two Zayds are standing.]{.trans}
 
-(@) [**هِيَ** الْهِنْدَاتُ قَائِمَاتٌ]{.ar}  
+(@ex000607) [**هِيَ** الْهِنْدَاتُ قَائِمَاتٌ]{.ar}  
     [[The state of affairs] is: the Hinds are standing.]{.trans}
 
 #### The ;damir_shan; is always a pronoun for the ;third; person {.unnumbered}
@@ -1432,7 +1432,7 @@ Even if the ;mubtada; of the inner sentence is a pronoun for the ;first; or ;sec
 the ;damir_shan; is always a pronoun of for the ;third; person.
 For example:
 
-(@) [هُوَ أَنَا زَيْدٌ]{.ar}
+(@ex000608) [هُوَ أَنَا زَيْدٌ]{.ar}
     [[@maani_nahw@ 1/59](https://shamela.ws/book/17801/58#p1)]{.citex}  
     [[The fact] is: I am Zayd.]{.trans}  
 
@@ -1452,7 +1452,7 @@ that the ;damir_shan; can also be used with
 In these cases, the ;damir_shan; may introduce ;j_f3l;s.
 For example:
 
-(@) [فَإِنَّهَا لَا تَعۡمَى ٱلۡأَبۡصَـٰرُ]{.quran}
+(@ex000609) [فَإِنَّهَا لَا تَعۡمَى ٱلۡأَبۡصَـٰرُ]{.quran}
     [@https://quran.com/22/46@ cited by @radiy_kafiyah@ 2/467]{.citex}  
     [For indeed, it is not eyes that are blinded]{.trans}  
 
