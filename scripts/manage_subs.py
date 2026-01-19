@@ -159,6 +159,8 @@ map_table["mafulm"] = "accompanying doee"
 map_table["manut"] = "attributee"
 map_table["masdar"] = "[maSdar]{.trn2}"
 map_table["masdari_an"] = "[maSdari Ean]{.trn2}"
+map_table["mmimi"] = "[mImi maSdar]{.trn2}"
+map_table["msinai"] = "manufactured [maSdar]{.trn2}"
 map_table["mmutlaq"] = "absolute doee"
 map_table["mubtada"] = "subject"
 map_table["mudaf"] = "annexe noun"
@@ -215,7 +217,7 @@ map_table["zaaid"] = "redundant"
 map_table["zaahir"] = "overt"
 
 # crossovers
-map_table["crossover"] = "⤮" # "⥇" #"×" + map_table["rarr"] 
+map_table["crossover"] = map_table["rarr"] #"⤮" # "⥇" #"×" + 
 map_table["ism_masdar"] = map_table["subst"] + map_table["crossover"] + map_table["masdar"] #"maṣdar-like noun"
 map_table["ism_failxsubst"] = map_table["ism_fail"] + map_table["crossover"] + map_table["subst"] #"maṣdar-like noun"
 map_table["masdarxsubst"] = map_table["masdar"] + map_table["crossover"] + map_table["subst"]
