@@ -48,7 +48,7 @@ book:
       - content/intro_adv.qmd
       - content/3amal.qmd
       - content/3amal_ism_faa3il.qmd
-      #- content/3amal_masdar.qmd
+      - content/3amal_masdar.qmd
       - content/ta3alluq_harf_jarr.qmd
       - content/kaana.qmd
       - content/inna_and_its_sisters.qmd
@@ -63,6 +63,10 @@ book:
       chapters:
       - content/refs.qmd
       - content/ack.qmd
+  appendices:
+    - content/hamzah_rules.qmd
+    - content/gloss_terms.qmd
+    - content/usage_and_style.qmd
 
     # Unused:
     #- content/agreement.qmd
