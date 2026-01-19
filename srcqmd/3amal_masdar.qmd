@@ -1,25 +1,635 @@
-# The ;masdar; as a verb-like governor
-
-## Introduction
-
-The ;masdar; is classified as
+# The ;masdar;
 
 ;wip_warn;
 
-<https://shamela.ws/book/6970/244#p1>:
+## Introduction
 
-::: {.ar}
-وَقَوله عَلَيْهِ الصَّلَاة وَالسَّلَام وَحج الْبَيْت من اسْتَطَاعَ إِلَيْهِ سَبِيلا وَبَيت الْكتاب أَي كتاب سِيبَوَيْهٍ وَهُوَ قَول الشَّاعِر تنفى يداها الْحَصَى فِي كل هاجرة نفي الدراهيم تنقاد الصياريف
-الثَّانِي الْمنون وإعماله أَقيس من إِعْمَال الْمُضَاف لِأَنَّهُ يشبه الْفِعْل بالتنكير كَقَوْلِه تَعَالَى أَو إطْعَام فِي يَوْم ذِي مسغبة يَتِيما تَقْدِيره أَو أَن يطعم فِي يَوْم ذِي مسغبة يَتِيما الثَّالِث الْمُعَرّف بأل وإعماله شَاذ قِيَاسا واستعمالا كَقَوْلِه عجبت من الرزق الْمُسِيء إلهه وَمن ترك بعض الصَّالِحين فَقِيرا أَي عجبت من أَن رزق الْمُسِيء إلهه وَمن أَن ترك بعض الصَّالِحين فَقِيرا
-:::
+Consider the example:
 
-### When ;masdar; has ;tanwin; then its ;faa3il; should not be mentioned
+(@) [ذَهَابُ زَيْدٍ]{.ar}  
+    [Zayd's going]{.trans}  
 
-<https://shamela.ws/book/17116/3610>
+The noun
+[ذَهَاب]{.ar}
+[going]{.trans}
+is the ;masdar; of the verb
+[ذَهَبَ يَذْهَبُ]{.ar}
+[to go]{.trans}.
 
-::: {.ar}
-والذي يظهر لي مذهب الفراء؛ لأن كل ما أورد س وغيره من المصدر المنون في لسان العرب لم يذكر بعده فاعل، ولم يذكره س إلا في نفس عبارته، قال: "وذلك عجبت من ضرب زيد عمراً"، وليس في لفظه ما يدل على أنه محكي عن العرب، فيحتمل أن يكون ذلك رأياً منه، بل هو ظاهر كلامه وقياس منه؛ لأنه قال: "لأنك كما تقول: عجبت من أن ضرب زيد عمراً ينبغي أن تقول: عجبت من ضرب زيد عمراً". وكأن س لم ير مانعاً يمنع من ذلك إذ نزل منزلة: أن يفعل، والفاعل يظهر مع أن يفعل، فينبغي أن يظهر مع ما نزل منزلته، وكونه يذكر مضافاً إليه المصدر يقضي بذكره معه غير مضاف إذ لا فرق.
+Like the verb
+[ذَهَبَ يَذْهَبُ]{.ar},
+the ;masdar;
+[ذَهَاب]{.ar}
+signifies the action
+of going.
+But unlike the verb,
+the ;masdar; does not include tense.
+So it doesn't say when the action of going happened or will happen.
 
-والذي ينبغي أن يعول عليه مذهب الفراء؛ لأنه سامع لغة من العرب، وقد نفى ذلك عن لسانهم، مع أن الكوفيين أوسع سماعاً وأتبع لشواذ كلام العرب من البصريين.
-:::
+The ;masdar; 
+is classified as a ;jamid; noun,
+not a ;mushtaqq; noun.
+In other words, in terms of grammatical theory,
+it is not considered to be derived from the verb.
+(Rather, the verb is considered to be derived from the ;masdar;.)
+
+
+Also the ;masdar; is not a ;sifah;.
+Technically,
+this would put it in the category of ;subst;s.
+But because the ;masdar; signifies the action of a verb, and not an actual entity,
+it is an abstract ;subst;, not a concrete ;subst;.
+In fact, we will treat it in a category of its own.
+We will see, ;ia;,
+that the ;masdar; can cross over to a concrete ;subst; and then refer to an entity.
+<!--
+But because the ;masdar; is a special noun that signifies the action of a verb, and not really an entity,
+we it is an abstract ;subst; and not a concrete ;subst;.
+In fact, in section\ (ref) below,
+we will see, ;ia;,
+that it can cross over to a ;subst; and then refer to an entity.
+-->
+
+## The ;masdar; as a verb-like governor in an ;idaafah;
+
+As a noun which is related to a verb, a ;masdar; can govern in a verb-like manner.
+Let's start with a sentence which has a verb:
+
+(@) [يسرني أن تأتي]{.ar}
+<!--
+(@) [أرجو أن يعتدلَ الجو]{.ar}
+    [[nahw_wadih 1/54](https://shamela.ws/book/10018/48)]{.citex}  
+    [I hope that the weather becomes moderate]{.trans}  
+-->
+
+
+;an; in the above example is that ;masdar;i ;an;.
+This means that,
+as we learned in chapter\ (ref),
+it and its following verb
+can be interpreted as a ;masdar; construction, thus:
+
+<!--
+(@) [أرجو اعتدال الجو]{.ar}
+    [I hope [for] the weather's moderateness]{.trans}  
+-->
+(@) [يسرني إتيانك]{.ar}
+
+We also learned that this interpretation of the
+;masdar;i ;an; clause
+in example () above
+allows us to grammatically model the ;an; clause as one structural element.
+In example () above the ;masdar; construction
+[إتيانك]{.ar} is  modeled as the ;faa3il; of the verb [يسر]{.ar}.
+
+
+<!--
+([اعتدال]{.ar} in example () above is in the ;astate; as the ;maful; of the verb [أرجو]{.ar}.)
+-->
+
+But example () is also a legitimate sentence in its own right.
+The ;masdar; [إتيان]{.ar} signifies the occurrence of the verb
+[أتى يأتي]{.ar}.
+But unlike the verb, it does not indicate tense.
+If we had started with a ;madi; verb, for example:
+
+(@) [يسرني أن أتيت]{.ar}
+
+then it would have the same modeled ;masdar;:
+
+(@) [يسرني إتيانك]{.ar}
+
+In order to add tense to sentence with ;masdar;,
+we would have to use other means, for example, an adverb:
+
+(@) [يسرني إتيانك غدا]{.ar}
+
+(@) [يسرني إتيانك أمس]{.ar}
+
+In example () above,
+the
+;masdar; [إتيان]{.ar}
+is a ;mudaf; in an ;idaafah;.
+Syntactically,
+the pronoun [ك]{.ar}
+is in the ;istate; as the ;mudafil; in the ;idaafah;,
+but semantically, it is considered the ;faa3il; of the.
+;masdar; [إتيان]{.ar}.
+
+In example () above
+the verb
+[تأتي]{.ar}
+was used without a ;mafulb;.
+Let's see what happens when we add a ;mafulb;.
+For example:
+
+(@) [يسرني أن تأتيني]{.ar}
+
+In example () above,
+the pronoun [ي]{.ar} [me]{.ar}
+is the ;mafulb; of the verb
+[تأتي]{.ar}.
+If we model the ;an; clause in example () above as a ;masdar; construction,
+then we will get:
+
+(@) [يسرني إتيانك إِيَّايَ]{.ar}
+
+Now, the pronoun [ك]{.ar} [your]{.trans} is again the syntactic ;mudafil; and the semantic ;faa3il;
+of the
+;masdar; [إتيان]{.ar}.
+But the ;masdar; now also has a ;mafulb;
+[إِيَايَ]{.ar} in the ;astate;.
+
+#### The ;masdar; in an ;idaafah; governing a ;ustate; ;faa3il; {.unnumbered}
+
+Here is another example of a ;masdar; governing a semantic
+;faa3il; and a ;mafulb;:
+
+(@) [عَجِبْتُ مِنْ شُرْبِ زَيْدٍ الْعَسَلَ]{.ar}
+    [[@ibn_aqil_alfiyyah@ 3/102](https://shamela.ws/book/9904/780)]{.citex}  
+
+But this is not the only word order which is possible.
+We can flip the order of the ;faa3il; and the ;mafulb;, thus:
+
+(@) [عَجِبْتُ مِنْ شُرْبِ الْعَسَلِ زَيْدٌ]{.ar}
+    [[@ibn_aqil_alfiyyah@ 3/102](https://shamela.ws/book/9904/780)]{.citex}  
+
+Now the semantic ;mafulb; 
+[العسل]{.ar}
+is the ;mudafil; in the ;istate;
+and the ;faa3il; [زيد]{.ar} is in the ;ustate;.
+
+This word order of
+the ;mafulb;'s being the ;mudafil; and the ;faa3il; occurring after it in the ;ustate;
+([شُرْبِ الْعَسَلِ زَيْدٌ]{.ar})
+is not as usual as the usual word order
+([شُرْبِ الْعَسَلِ زَيْدٌ]{.ar}).^[@wright@ 2/59B]
+Nevertheless, it is common enough.^[[@ibn_aqil_alfiyyah@ 3/103](https://shamela.ws/book/9904/781#p1)]
+
+#### The ;masdar; in an ;idaafah; governing only a ;mafulb; without a ;faa3il; {.unnumbered}
+
+The ;faa3il; of the ;masdar; need not be mentioned.
+In this case, the ;masdar; is a ;mudaf; noun to its sementic ;mafulb; directly.
+For example:
+
+(@) [مَنَعَهُمْ مِنْ قَوْلِ الْحَقِّ]{.ar}
+    [@wright@ 2/57C]{.citex}  
+    [He hindered them from saying the truth.]{.trans}  
+
+Sometimes, context would be needed to tell whether the ;mudafil; is the semantic ;faa3il; or the sementic ;mafulb;.
+For example:
+
+(@) [عجبت من ضرب زيد]{.ar}
+    [[@abu_hayyan_tadhyeel@ 11/70](https://shamela.ws/book/17116/3605#p1)]{.citex}  
+
+In example () above,
+[زيد]{.ar} may either have been the person who did the beating or the person who was beaten.^[[@abu_hayyan_tadhyeel@ 11/70](https://shamela.ws/book/17116/3605#p1)]
+Context would be needed to disambiguate.
+
+#### The ;masdar; governing a ;naib; ;faa3il; {.unnumbered}
+
+Just like the ;masdar; can govern a ;faa3il; in the ;ustate;
+it can similarly govern a ;naib; ;faa3il;.
+For example:
+
+(@) [سَرَّنِي إِعْطَاءُ الدَّنَانِيرِ **الْفَقِيرُ**]{.ar}
+    [[@ibn_malik_sharh_tasheel@ 3/109](https://shamela.ws/book/13257/925)]{.citex}  
+    [The giving of the [dInAr]{.trn2}s to the poor-one made me happy.]{.trans}  
+
+#### The ;masdar; governing multiple ;mafulb;s {.unnumbered}
+
+The ;masdar; can govern multiple ;mafulb;s just like its verb.
+For example:
+
+(@) [عَرَفْتُ إِعْطَاءَكَ الْفَقِيرَ دِرْهَمًا]{.ar}
+    [[@ibn_malik_sharh_tasheel@ 3/109](https://shamela.ws/book/13257/925)]{.citex}  
+
+(@) [عَرَفْتُ إِعْلَامَكَ خَالِدًا جَعْفَرًا مُقِيمًا]{.ar}
+    [[@ibn_malik_sharh_tasheel@ 3/109](https://shamela.ws/book/13257/925)]{.citex}  
+
+#### The ;masdar; in a ;idaafah; to an ;dharf;
+
+The ;dharf;, like a ;mafulb, is considered a ;maful;.
+As such, it can be a ;mudafil; to a governing ;masdar;.
+Any ;faa3il; and/or ;mafulb;s will then occur after it in their respective syntactic states.
+For example:
+
+(@) [عَجِبْتُ مِنْ ضَرْبِ **اليَوْمِ** زَيْدٌ عَمْرًا]{.ar}
+    [[@ibn_aqil_alfiyyah@ 3/103](https://shamela.ws/book/9904/781#p1)]{.citex}  
+    [I wondered at today's beating [by] Zayd [to] [#eamr]{.trn2}]{.trans}  
+
+#### A ;na3t; to a governing ;masdar; in an ;idaafah; {.unnumbered}
+
+A ;masdar; which is governing a governee (like a ;faa3il; or a ;mafulb;)
+can be described by a ;na3t;,
+but that ;na3t; should occur after the ;masdar;'s governees.^[[@ibn_malik_sharh_tasheel@ 3/108](https://shamela.ws/book/13257/924#p1); @nahw_arabi@ 2/188]
+For example,
+we should not say:
+
+(@) ;x; [عرفت سوقك **العنيف** الإبل]{.ar}
+    [[@ibn_malik_sharh_tasheel@ 3/108](https://shamela.ws/book/13257/924#p1)]{.citex}  
+    [I knew your harsh driving of the camels]{.trans}  
+
+We should say instead:
+
+(@) [عرفت سوقك الإبل **العنيف**]{.ar}
+
+#### A ;na3t; to the governee of a ;masdar; in an ;idaafah; {.unnumbered}
+
+When the ;masdar; is governing a ;faa3il; or a ;mafulb; in an ;idaafah;,
+and that governee is to be described by a ;na3t;,
+then the ;na3t; may,
+optionally,
+be either in the ;istate;,
+or in the ;ustate; for the ;faa3il; and the ;astate; for the ;mafulb;.^[@nahw_arabi@ 2/189; [@ibn_aqil_alfiyyah@ 3/104--105](https://shamela.ws/book/9904/782#p1); @wright@ 2/59C]
+So we can say:
+
+(@) [عجبت من شرب زيد الظريف والظريف]{.ar}
+    [[@ibn_aqil_alfiyyah@ 3/104](https://shamela.ws/book/9904/782#p1)]{.citex}  
+
+(@) [عَجِبْتُ مِنْ أَكْلِ الطَّعَامِ الْحَارِّ/الْحَارَّ زَيْدٌ]{.ar}
+    [@nahw_arabi@ 2/189]{.citex}  
+    [I wondered at the eating of the hot food [by] Zayd]{.trans}  
+
+#### A ;3atf; to the governee of a ;masdar; in an ;idaafah; {.unnumbered}
+
+When the ;masdar; is governing a ;faa3il; or a ;mafulb; in an ;idaafah;,
+and that governee is followed by a ;3atf; and ;ma3toof;,
+then the ;ma3toof; may,
+optionally,
+be either in the ;istate;,
+or in the ;ustate; for the ;faa3il; and the ;astate; for the ;mafulb;.^[@nahw_arabi@ 2/189; @wright@ 2/57D-58A]
+So we can say:
+
+(@) [سَاءَنِي إِهْمَالُ سَعِيدٍ وَخَالِدٍ/خَالِدٌ]{.ar}
+    [@nahw_arabi@ 2/189]{.citex}  
+
+(@) [كَرِهْتُ أَكْلَ الْخُبْزِ وَاللَّحْمِ/اللَّحْمَ]{.ar}
+    [@wright@ 2/58A]{.citex}  
+    [I disliked eating the bread and the meat.]{.trans}  
+
+(@) [سَاءَنِي ضَرْبُ خَالِدٍ وَسَعِيدٍ/سَعِيدًا خَلِيلٌ]{.ar}
+    [@nahw_arabi@ 2/189]{.citex}  
+
+## The ;tanwin;ed ;masdar; as a verb-like governor
+
+In section\ (ref) above,
+we have seen how the ;masdar; governing in an ;idaafah;.
+However, an ;idaafah; is not the only form in which a ;masdar; can govern in a verb-like manner.
+A ;masdar; can also govern when it is ;tanwin;ed.
+For example:
+
+(@masdar_darbin_zaydan) [عَجِبتُ مِن ضَرْبٍ زيدا]{.ar}
+    [[@sibawayhi@ 1/189](https://shamela.ws/book/23018/187); [@ibn_aqil_alfiyyah@ 3/94](https://shamela.ws/book/9904/772#p1)]{.citex}
+
+(@masdar_darbin_zaydan_bakrun) [عجبتُ مِن ضَرْبٍ زيداً بكرٌ]{.ar}
+    [[@sibawayhi@ 1/189](https://shamela.ws/book/23018/187)]{.citex}
+
+(@masdar_darbin_zaydun_3amran) [عَجِبْتُ مِنْ ضَرْبٍ زَيْدٌ عَمْرًا]{.ar}
+    [modified from [@sibawayhi@ 1/189](https://shamela.ws/book/23018/187); @wright@ 2/59A]{.citex}
+
+(@) [أَوۡ إِطۡعَـٰمࣱ فِی یَوۡمࣲ ذِی مَسۡغَبَةࣲ ۝١٤ یَتِیمࣰا ذَا مَقۡرَبَةٍ ۝١٥]{.quran}
+    [@https://quran.com/90/14-15@, cited by [@ibn_malik_sharh_tasheel@ 3/115](https://shamela.ws/book/13257/931#p1)]{.citex}  
+    [Or feeding on a day of severe hunger An orphan of near relationship]{.trans}  
+
+(@) [بضرب بالسيوف رؤوس قوم]{.ar}
+    [[@ibn_aqil_alfiyyah@ 3/94](https://shamela.ws/book/9904/772#p1); @wright@ 2/57C]{.citex}  
+    [by striking, with the swords, the heads of a people]{.trans}  
+
+
+The ;tanwin;ed ;masdar; governing a ;faa3il; and a ;mafulb; is comparatively rarer
+than the ;masdar; governing in a ;idaafah;.^[@wright@ 2/59B; [@ibn_aqil_alfiyyah@ 3/94](https://shamela.ws/book/9904/772#p1)]
+Some grammarians mandate that when a ;tanwin;ed ;masdar; is a governor then its ;faa3il; should not be mentioned after it.^[[@abu_hayyan_tadhyeel@ 11/75](https://shamela.ws/book/17116/3610)]
+So they would allow example
+(@masdar_darbin_zaydan) above but not examples (@masdar_darbin_zaydan_bakrun) and (@masdar_darbin_zaydun_3amran).
+
+## The ;masdar; prefixed by [ال]{.ar} as a verb-like governor
+
+In addition to the ;masdar; governing in an ;idaafah; and when ;tanwin;ed,
+the ;masdar; can also govern when it is prefixed by [ال]{.ar}.
+This is the rarest out of the three formations.^[[@ibn_aqil_alfiyyah@ 3/94](https://shamela.ws/book/9904/772#p1)]
+
+(@) [عجبت من الضرب زيدا]{.ar}
+    [[@ibn_aqil_alfiyyah@ 3/94](https://shamela.ws/book/9904/772#p1)]{.citex}  
+
+(@) [ضَعِيفُ النِّكَايَةِ أَعْدَاءَهُ]{.ar}
+    [[@ibn_malik_sharh_tasheel@ 3/116](https://shamela.ws/book/13257/932#p1); @wright@ 2/57D]{.citex}  
+    [weak in harming his enemies]{.trans}
+
+(@) [فلم أنكُلْ عن الضَّرْبِ مسْمِعا]{.ar}
+    [[@ibn_malik_sharh_tasheel@ 3/116](https://shamela.ws/book/13257/932#p1); @wright@ 2/57D]{.citex}  
+    [and I did not desist from beating [#mismae]{.trn2}]{.trans}  
+
+## The ;masdar; as a verb-like governor compared to the ;ism_fail;
+
+We have already seen, in chapter\ (ref),
+that the ;ism_fail; is also
+a noun that is related to a verb, and that can govern in a verb-like manner.
+But the ;masdar; and the ;ism_fail; are different in how they govern a ;faa3il; and a ;mafulb;.
+
+Firstly, the ;masdar; is a ;jamid; noun.
+So it does not govern a
+;mustatir; ;faa3il; pronoun.
+When the ;masdar; is governing a ;mafulb; without a ;faa3il;
+as in example ()
+[مَنَعَهُمْ مِنْ قَوْلِ الْحَقِّ]{.ar}
+then, no ;mustatir; ;faa3il; pronoun is ;taqdir;ed.
+
+Secondly, when the ;masdar; is governing in an ;idaafah;,
+(for example
+[عَجِبْتُ مِنْ ضَرْبِ زَيْدٍ عَمْرًا]{.ar})
+then this ;idaafah; is ;ma3nawi;, not ;lafzi;.^[@haazimi@ 71/9]
+However, when the ;ism_fail; is governing in an ;idaafah;, then the ;idaafah; is ;lafzi; (see section\ (ref)).
+
+Thirdly, the ;ism_fail; not prefixed by [ال]{.ar} only governs in a verb-like manner
+when it has an imperfective meaning.
+The ;masdar; on the other hand can govern for both a perfective and imperfective meaning.
+For example:
+
+(@) [عجبت من ضربك زيدا أمس/غدا/الآن]{.ar}
+    [modified from [@ibn_aqil_alfiyyah@ 3/94](https://shamela.ws/book/9904/772#p1)]{.citex}  
+
+The ;masdar; as a verb-like governor
+does have one similarity to the governing ;ism_fail;.
+And that is that both their ;faa3il;s are not the
+;musnadi; of a new sentence.
+So, for example, in the sentence:
+
+(@) [عَجِبْتُ مِنْ شُرْبِ الْعَسَلِ زَيْدٌ]{.ar}
+    [[@ibn_aqil_alfiyyah@ 3/102](https://shamela.ws/book/9904/780)]{.citex}  
+
+
+the ;faa3il; [زَيْد]{.ar} does not form an inner sentence with the ;masdar; [شُرْب]{.ar}.
+Rather, the ;masdar;
+[شُرْب]{.ar},
+as a single-word element, is in the ;istate;, governed by the preposition [مِنْ]{.ar}.
+
+An exception to the ;faa3il; of a ;masdar; not being a ;musnadi;,
+and also to the ;masdar; not governing a ;mustatir; ;faa3il; pronoun,
+is when the ;masdar; occurs as the ;naib; to a verb.
+For example:
+
+(@) [ضربا زيدا]{.ar}
+    [[@ibn_aqil_alfiyyah@ 3/93](https://shamela.ws/book/9904/771)]{.citex}  
+    [Hit Zayd!]{.trans}  
+
+The ;masdar; as a ;naib; to a verb will be covered in more detail in section\ (mmutlaq), ;ia;.
+
+TODO: Add to mmutlaq chapter
+
+## The ;masdar; governing an ;indir_mafulb;
+
+wright 2/61
+
+## The ;masdar; governing a ;mafulb; with a ;laam_taqwiya;
+
+wright 2/61D
+
+## An intervening word in the ;idaafah;
+
+## The ;mmimi;
+
+## The ;msinai;
+
+## The ;ism_marrah;
+
+
+## The ;ism_hay2ah;
+
+
+## The ;ism_masdar;
+
+The ;ism_masdar; is a concrete ;subst; that crosses over to be used like a ;masdar;.
+Examples:
+
+| ;ism_masdar; | verb | actual ;masdar; |
+|:----|:-----|:--|
+|[سَلَام]{.ar} [peace]{.trans}  |[سَلَّمَ يُسَلِّمُ]{.ar}  [to say]{.trans} [السَّلَامُ عَلَيْكُمْ]{.ar} ([عَلَى]{.ar} to s.o.) |[تَسْلِيم]{.ar} |
+|[عَطَاء]{.ar} [a gift]{.trans}   |[أَعْطَى يُعْطِي]{.ar} [to give]{.trans} |[إِعْطَاء]{.ar} |
+|[كَلَام]{.ar} [a speech]{.trans} |[كَلَّمَ يُكَلِّمُ]{.ar}  [to speak]{.trans} [(to]{.trans} [ه]{.ar} [s.o.)]{.trans} |[تَكْلِيم]{.ar} |
+|[كَلَام]{.ar} [a speech]{.trans} |[تَكَلَّمَ يَتَكَلَّمُ]{.ar}  [to speak]{.trans} |[تَكَلُّم]{.ar} |
+|[قُبْلَة]{.ar} [a kiss]{.trans} |[قَبَّلَ يُقَبِّلُ]{.ar}  [to kiss (]{.trans} [ه]{.ar} [s.o.)]{.trans}|[تَقْبِيل]{.ar} |
+|[عَذَاب]{.ar} [a punishment]{.trans} |[عَذَّبَ يُعَذِّبُ]{.ar}  [to punish ([ه]{.ar} s.o.)]{.trans}|[تَعْذِيب]{.ar} |
+|[حِمْل]{.ar} [a load]{.trans} |[حَمَلَ يَحْمِلُ]{.ar}  [to carry ([هـ]{.ar} s.th.)]{.trans}|[حَمْل]{.ar} |
+|[عِشْرَة]{.ar} [association]{.trans} |[عَاشَرَ يُعَاشِرُ]{.ar}  [to consort (with [ه]{.ar} s.o.)]{.trans}|[مُعَاشَرَة]{.ar} |
+
+The ;ism_masdar; originally signifies the meaning of a concrete ;subst;.^[[@maani_nahw@ 3/164--167](https://shamela.ws/book/17801/889)]
+So, for example
+the ;masdar; [تَكْلِيم]{.ar} signifies the action of speaking to someone,
+and the ;ism_masdar; [كَلَام]{.ar} signifies the concrete ;subst; [speech]{.trans}.
+But the ;ism_masdar;, once it crosses over to a ;masdar;,
+can signify the action of the verb, just like the actual ;masdar;.
+As such, it can even govern in a verb-like manner.^[[@ibn_aqil_alfiyyah@ 3/101](https://shamela.ws/book/9904/779#p1)]
+So we can say:
+
+(@) [**بِعِشْرَتِكَ الْكِرَامَ** تُعَدُّ مِنْهُمْ]{.ar}
+    [[@ibn_aqil_alfiyyah@ 3/100](https://shamela.ws/book/9904/778#p1)]{.citex}  
+    [By your associating with the generous-ones you will be reckoned [as one] amongst them.]{.trans}  
+    ([الْكِرَام]{.ar} is in the ;astate; as the ;mafulb; of the ;ism_masdar; [عِشْرَة]{.ar}.)  
+
+(@) [وَبَعْدَ عَطَائِكَ الْمِائَةَ]{.ar}
+    [[@ibn_aqil_alfiyyah@ 3/99](https://shamela.ws/book/9904/777#p1)]{.citex}  
+    [And after your giving of the one hundred (camels)]{.trans}  
+    ([الْمِائَة]{.ar} is in the ;astate; as the ;mafulb; of the ;ism_masdar; [عَطَاء]{.ar}.)  
+
+(@) [قَالُوا كَلَامُكَ هِنْدًا وَهِيَ مُصْغِيَةٌ يَشْفِيكَ]{.ar}
+    [[@sabban@ 2/435](https://shamela.ws/book/11539/865)]{.citex}  
+    [They said "Your speaking to Hind while she is giving ear will cure you."]{.trans}  
+    ([هِنْد]{.ar} is in the ;astate; as the ;mafulb; of the ;ism_masdar; [كَلَام]{.ar}.)  
+    
+## The ;masdarxsubst;
+
+Just like the ;ism_masdar; crosses over from a ;subst; to a ;masdar;,
+the ;masdarxsubst;
+crosses over form a ;masdar; to a ;subst;.
+Here are some examples^[mostly taken from [@za3balawi_dirasat@ 129ff](https://shamela.ws/book/2120/129)]
+
+| ;masdarxsubst; | plural | verb |
+|:----|:-|:----|
+|[عِلْم]{.ar} [a science]{.trans}   |[عُلُوم]{.ar} |[عَلِمَ يَعْلَمُ]{.ar}  [to know]{.trans} |
+|[عَقْل]{.ar} [an intellect]{.trans} |[عُقُول]{.ar} |[عَقَلَ يَعْقِلُ]{.ar}  [to make sense ([هـ]{.ar} of s.th.)]{.trans} |
+|[عَمَل]{.ar} [a deed]{.trans} |[أَعْمَال]{.ar} |[عَمِلَ يَعْمَلُ]{.ar}  [to work]{.trans} |
+|[ظَنّ]{.ar} [a conjecture]{.trans} |[ظُنُون]{.ar} |[ظَنَّ يَظُنُّ]{.ar}  [to conjecture]{.trans} |
+|[صَوْت]{.ar} [a sound]{.trans} |[أَصْوَات]{.ar} |[صَاتَ يَصُوتُ]{.ar}  [to make a sound]{.trans} |
+|[مَعِيشَة]{.ar} [a livelihood]{.trans} |[مَعَايِش]{.ar} |[عَاشَ يَعِيشُ]{.ar}  [to live]{.trans} |
+|[عَقْد]{.ar} [a contract]{.trans} |[عُقُود]{.ar} |[عَقَدَ يَعْقِدُ]{.ar}  [to enter into a contract]{.trans} |
+|[وَعْد]{.ar} [a promise]{.trans} |[وُعُود]{.ar} |[وَعَدَ يَعِدُ]{.ar}  [to promise]{.trans} |
+|[عِدَة]{.ar} [a promise]{.trans} |[عِدَات]{.ar} |[وَعَدَ يَعِدُ]{.ar}  [to promise]{.trans} |
+|[مَوْعِد/مَوْعِدَة]{.ar} [a promise]{.trans} |[مَوَاعِد]{.ar} |[وَعَدَ يَعِدُ]{.ar}  [to promise]{.trans} |
+|[تَضْعِيف]{.ar} [a double]{.trans} |[تَضَاعِيف]{.ar} |[ضَعَّفَ يُضَعِّفُ]{.ar}  [to double ([هـ]{.ar} s.th.)]{.trans} |
+|[تَجْرِبَة]{.ar} [a trial, experiment]{.trans} |[تَجَارِب]{.ar} |[جَرَّبَ يُجَرِّبُ]{.ar}  [to try ([ه، هـ]{.ar} s.o., s.th.)]{.trans} |
+
+
+As you can see,
+once
+a ;masdar; crosses over to a ;subst;,
+it can, and often does, have a plural.
+
+### Plurals of ;masdarxsubst;s
+
+As you can see, most of the
+;masdarxsubst;s
+in the table above are from stem\ 1 verbs.
+There are relatively fewer from stem\ 2 verbs.
+Most form broken plurals.
+All the plurals above
+are amongst those that are ;samaa3; from Classical Arabic.
+
+Most
+;masdar;s
+are not attested to have plurals from Classical Arabic.
+For example, perhaps we may not find the ;masdar; [اسْتِعْمَال]{.ar}
+(from the verb [اسْتَعْمَلَ يَسْتَعْمِلُ]{.ar})
+to have the its plural as ;samaa3;
+in Classical Arabic.
+This has led some grammarians to restrict plurals of ;masdar;s to only those recorded from ;samaa3;.^[@hayyani_jam3_masdar@ 96; [@za3balawi_dirasat@ 138](https://shamela.ws/book/2120/138)]
+
+After the era of native Classical Arabic,
+when ;sca;
+became the language of science and literature,
+new terms and meanings were added to the language and used with their technical meanings.
+Many of these new terms are
+;masdarxsubst;s
+and they are often from higher stem verbs.
+Here are some examples^[mostly taken from [@za3balawi_dirasat@ 141--142](https://shamela.ws/book/2120/141), @hayyani_jam3_masdar@ 99--100]
+
+| ;masdarxsubst; | plural | verb |
+|:----|:-|:----|
+|[اسْتِعْمَال]{.ar} [a use]{.trans}   |[اسْتِعْمَالَات]{.ar} |[اسْتَعْمَلَ يَسْتَعْمِلُ]{.ar}  [to use ([هـ]{.ar} s.th.)]{.trans} |
+|[احْتِمَال]{.ar} [a possible interpretation]{.trans}   |[احْتِمَالَات]{.ar} |[احْتَمَلَ يَحْتَمِلُ]{.ar}  [to bear a meaning (of a text)]{.trans} |
+|[اعْتِقَاد]{.ar} [a creed]{.trans}   |[اعْتِقَادَات]{.ar} |[اعْتَقَدَ يَعْتَقِدُ]{.ar}  [to believe (a creed)]{.trans} |
+|[إِشْكَال]{.ar} [a textual difficulty]{.trans}   |[إِشْكَالَات]{.ar} |[أَشْكَلَ يُشْكِلُ]{.ar}  [to be difficult (of a text)]{.trans} |
+|[تَعْرِيف]{.ar} [a definition]{.trans}   |[تَعْرِيفَات]{.ar} |[عَرَّفَ يُعَرِّفُ]{.ar}  [to define ([هـ]{.ar} s.th.)]{.trans} |
+|[تَفْسِير]{.ar} [an explanation]{.trans}   |[تَفَاسِير]{.ar} |[فَسَّرَ يُفَسِّرُ]{.ar}  [to explain ([هـ]{.ar} s.th.)]{.trans} |
+|[حَذْف]{.ar} [a deletion]{.trans} | [حُذُوف]{.ar} | [حَذَفَ يَحْذِفُ]{.ar} [to delete ([هـ]{.ar} s.th.)]{.trans} |
+
+Because of the need to pluralize technical terms, some scholars have permitted that
+new ;masdarxsubst;s can be pluralized without restriction.^[[@za3balawi_dirasat@ 129ff](https://shamela.ws/book/2120/129)]
+
+As you can see, many of these
+;masdarxsubst;s
+are from higher stem verbs.
+Since, broken plurals are not easily formed from words with many letters, the [At]{.trn} plural is preferred for these
+;masdarxsubst;s.
+The ;masdar; pattern [تَفْعِيل]{.ar} of stem\ 2 [فَعَّلَ]{.ar} verbs can easily form a plural on the pattern [تَفَاعِيل]{.ar},
+but even for
+new ;masdarxsubst;s
+on this pattern,
+the [At]{.trn} plural often tends to be in current usage.
+
+Remember, however, from section\ (ref), that
+there are conditions that should be satisfied in order for a word
+to have a [At]{.trn} plural.
+So if a
+;masdarxsubst;
+does not end with [ة]{.ar} and has fewer than five letters than we may prefer to form a broken plural than a [At]{.trn} plural.
+Nevertheless the [At]{.trn} plural may be more common in actual usage.
+For example:
+[بَيَان]{.ar} [a statement]{.trans}, plural: [أَبْيِنَة]{.ar}, [بَيَانَات]{.ar}.
+^[[@za3balawi_dirasat@ 147--151](https://shamela.ws/book/2120/147)]
+
+### The ability of ;masdarxsubst;s to govern in a verb-like manner
+
+The default for concrete ;subst;s is that they will not govern in a verb-like manner.
+But
+a ;masdarxsubst;,
+<!--
+only form plurals once they
+-->
+even though it
+has crossed over to a ;subst;,
+its ;masdar; origin
+retains some influence.
+Because of this,
+we do sometimes find
+<!--
+a plural of
+-->
+a ;masdarxsubst;
+governing in a verb-like manner.
+This is most apparently visible in the plural of a 
+;masdarxsubst;.
+For example:
+
+(@) [وجرّبوه فما زادتْ **تجاربُهم أبا** قدامةَ إلّا الحزمَ والفَنَعا]{.ar}
+    [[@ibn_malik_sharh_tasheel@ 107](https://shamela.ws/book/13257/923#p1)]{.citex}  
+    [And they tried him, but their tryings of [#abU #qudAmah]{.trn2} did not increase but [his] resolve and contentment]{.trans}  
+    (The plural ;masdarxsubst; [تَجَارِب]{.ar} is governing  [أَبا]{.ar} in the ;astate; as a ;mafulb;.)  
+
+## The ;masdarxsifah;
+
+A
+;masdarxsifah;
+is a ;masdar; that crosses over to be used like a ;sifah;.
+For example,
+the ;masdar;
+[عَدْل]{.ar}
+of the verb
+[عَدَلَ يَعْدِلُ]{.ar}
+[to act justly]{.trans}
+is used as a ;sifah; to mean [just]{.trans}.
+Similarly,
+the ;masdar;
+[رِضًى]{.ar}
+of the verb
+[رَضِيَ يَرْضَى]{.ar}
+[to be pleased]{.trans}
+is used as a ;sifah; to mean [pleasing]{.trans}.
+Here is an example sentence:
+
+(@) [هذا رجلٌ عدلٌ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 2/238](https://shamela.ws/book/13301/688)]{.citex}  
+    [This is a just man.]{.trans}
+
+When a ;masdar; is used as a ;sifah;,
+then, normally, it is not feminized, dualized or pluralized, regardless of the number or gender of the ;mawsuf;.
+So we will say:
+
+(@) [مررت برجل عدل أو رضي]{.ar}
+    [[@faaridi_alfiyyah@ 3/176](https://shamela.ws/book/174/1302)]{.citex}  
+
+(@) [مررت بامرأتين رضي]{.ar}
+    [[@faaridi_alfiyyah@ 3/176](https://shamela.ws/book/174/1302)]{.citex}  
+
+(@) [مررت برجلين عدل]{.ar}
+    [[@faaridi_alfiyyah@ 3/176](https://shamela.ws/book/174/1302)]{.citex}  
+
+(@) [مررت برجال عدل]{.ar}
+    [[@faaridi_alfiyyah@ 3/176](https://shamela.ws/book/174/1302)]{.citex}  
+
+Sometimes, a particular
+;masdar; is used very often as a ;sifah;.
+Then, exceptionally, it is feminized and pluralized.^[[@ibn_ya3ish_mufassal@ 2/238](https://shamela.ws/book/13301/688)]
+Such is the case with the ;masdarxsifah; [عَدْل]{.ar}.
+So we can (optionally) say:
+
+(@) [امرأة عدلة]{.ar}
+    [[@faaridi_alfiyyah@ 3/176](https://shamela.ws/book/174/1302)]{.citex}  
+
+(@) [نساء عدلات]{.ar}
+    [[@faaridi_alfiyyah@ 3/176](https://shamela.ws/book/174/1302)]{.citex}  
+
+(@) [قوم عدول]{.ar}
+    [[@faaridi_alfiyyah@ 3/176](https://shamela.ws/book/174/1302)]{.citex}  
+
+Also, excepted from the restriction of not being pluralized
+is a ;masdarxsifah; which ends with a [ة]{.ar}.
+This is readily pluralized with a [At]{.trn} plural.
+For example [ثِقَة]{.ar} [trustworthy]{.trans}.
+So we can say:
+
+(@) [رِجَالٌ ثِقَاتٌ]{.ar}  
+    [trustworthy men]{.trans}  
+
+## The ;masdar; used figuratively to describe a concrete ;subst;
+
+Along the same lines as the
+;masdarxsifah;
+we sometimes see a ;masdar; used 
+figuratively to describe a concrete ;subst;.
+For example:
+
+(@) [ترتع ما رتعت حتى إذا ادّكرت فإنما هي إقبال وإدبار]{.ar}
+    [[@maani_nahw@ 1/193](https://shamela.ws/book/17801/192)]{.citex}  
+    [[The she-camel] pastures at pleasure until she remembers [her offspring], then she is only (the act of) approaching and withdrawing.]{.trans}  
 

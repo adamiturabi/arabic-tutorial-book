@@ -856,10 +856,53 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/36954")
     , sort_key = "شرح الفية ابن مالك للعثيمين"
     ))
-
-
-
-
+  resource_list.append(BibResource(
+    "afghani"
+    , cit_type = "ar_ref"
+    , cit_text = "[من تاريخ النحو العربي لسعيد الأفعاني]{.ar}"
+    , bib_text = """
+      الكتاب: من تاريخ النحو العربي  
+      المؤلف: سعيد بن محمد بن أحمد الأفغاني (ت ١٤١٧هـ)  
+      الناشر: مكتبة الفلاح  
+      عدد الصفحات: ٢١٤  
+      """ + format_url_ar("https://shamela.ws/book/9937")
+    , sort_key = "من تاريخ النحو العربي لسعيد الافعاني"
+    ))
+  resource_list.append(BibResource(
+    "haazimi"
+    , cit_type = "ar_ref"
+    , cit_text = "[شرح ألفية ابن مالك للحازمي]{.ar}"
+    , bib_text = """
+      الكتاب: شرح ألفية ابن مالك  
+      المؤلف: أبو عبد الله، أحمد بن عمر بن مساعد الحازمي  
+      """ + format_url_ar("https://shamela.ws/book/36130")
+    , sort_key = "شرح الفية ابن مالك للحازمي"
+    ))
+  resource_list.append(BibResource(
+    "hayyani_jam3_masdar"
+    , cit_type = "ar_ref"
+    , cit_text = "[جمع المصدر وأحكامه لحياني]{.ar}"
+    , bib_text = """
+      المقالة: جمع المصدر وأحكامه  
+      المؤلف: عبد الله محمد عبد الله حياني  
+      الناشر: مجلة العلوم العربية، العدد ٧٥، ١٤٤٦هـ، الجزء الثاني  
+      """ + format_url_ar("https://imamjournals.org/index.php/jas/article/view/3160")
+    , sort_key = "جمع المصدر واحكامه لحياني"
+    ))
+  resource_list.append(BibResource(
+    "faaridi_alfiyyah"
+    , cit_type = "ar_ref"
+    , cit_text = "[شرح الفارضي على ألفية ابن مالك]{.ar}"
+    , bib_text = """
+      الكتاب: شرح الإمام الفارضي على ألفية ابن مالك  
+      المؤلف: العلامة شمس الدين محمد الفارضي الحنبلي (ت ٩٨١ هـ)  
+      المحقق: أبو الكميت، محمد مصطفى الخطيب  
+      الناشر: دار الكتب العلمية، لبنان - بيروت  
+      الطبعة: الأولى، ١٤٣٩ هـ - ٢٠١٨ م  
+      عدد الأجزاء: ٤  
+      """ + format_url_ar("https://shamela.ws/book/174")
+    , sort_key = "شرح الفارضي على الفية ابن مالك"
+    ))
 
   # Western
 
@@ -1019,6 +1062,14 @@ def populate_resource_list():
     , bib_text = "Al-Mubarakpuri, _Tafsir ibn Kathir_ (abridged, English translation), Darussalam, 2nd edition, 2003"
     , sort_key = 'tafsir ibn kathir english'
     ))
+  resource_list.append(BibResource(
+    "baalbaki_intro"
+    , cit_type = "ws_ref"
+    , cit_text = "Baalbaki, Introduction to _The early Islamic grammatical tradition_"
+    , bib_text = "Baalbaki, R., Introduction to _The early Islamic grammatical tradition_, Routledge, 2016."
+    , sort_key = 'baalbaki introduction early islamic grammatical tradition'
+    ))
+
 
   return resource_list
 

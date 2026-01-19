@@ -24,6 +24,12 @@ map_table["islam"] = "[#islAm]{.trn2}"
 map_table["ayah"] = "[Ayah]{.trn2}"
 map_table["surah"] = "[sUrah]{.trn2}"
 map_table["tafsir"] = "[tafsIr]{.trn2}"
+map_table["sca"] = "[sca]{.smallcaps}"
+
+map_table["samaa3"] = "attested usage"
+map_table["qiyaas"] = "analogy"
+map_table["3illah"] = "theoretical cause"
+map_table["taqdir"] = "theoretical model"
 
 # inna and its sisters
 map_table["inna"] = "[إِنَّ]{.ar}"
@@ -92,6 +98,7 @@ map_table["inshai"] = "non-truth-evaluable" # non-falsifiable
 map_table["ma3nawi"] = "real" 
 map_table["lafzi"] = "superficial" # false, superficial
 
+
 # alphabetical
 map_table["3aaid"] = "refer-back pronoun"
 map_table["3atf"] = "conjunction"
@@ -108,6 +115,7 @@ map_table["mubdalb"] = "subbee" # replacee, substitutee
 
 map_table["damir_fasl"] = "separating-pronoun"
 map_table["damir_shan"] = "state-of-affairs pronoun" # pronoun-of-fact, pronoun of s͡haʾn
+map_table["dharf"] = "adverb of time/place"
 map_table["dharf_makan"] = "adverb of place"
 map_table["dharf_zaman"] = "adverb of time"
 
@@ -125,14 +133,13 @@ map_table["ism_isharah"] = "pointing noun"
 map_table["ism_of"] = "subject"
 map_table["ism_maful"] = "doee participle"
 map_table["ism_marrah"] = "one-time noun"
-map_table["ism_hay2ah"] = "noun of kind"
+map_table["ism_hay2ah"] = "noun of manner" # style, form, guise, manner
 map_table["ism_makan"] = "noun of place"
-map_table["ism_masdar"] = "quasi-maṣdar"
 map_table["ism_mawsul"] = "connected noun"
 map_table["ism_zaman"] = "noun of time"
 map_table["isnaad_comp"] = "structurally complete"
 
-map_table["jamid"] = "underived"
+map_table["jamid"] = "primitive"
 map_table["jawab"] = "consequence"
 map_table["jawab_shart"] = "condition-response"
 map_table["j_ism"] = "nounal sentence"
@@ -152,6 +159,8 @@ map_table["mafulm"] = "accompanying doee"
 map_table["manut"] = "attributee"
 map_table["masdar"] = "[maSdar]{.trn2}"
 map_table["masdari_an"] = "[maSdari Ean]{.trn2}"
+map_table["mmimi"] = "[mImi maSdar]{.trn2}"
+map_table["msinai"] = "manufactured [maSdar]{.trn2}"
 map_table["mmutlaq"] = "absolute doee"
 map_table["mubtada"] = "subject"
 map_table["mudaf"] = "annexe noun"
@@ -166,6 +175,7 @@ map_table["muxaffaf"] = "lightened"
 map_table["muxbar3"] = map_table["musnadi"] # theme,rock, mainstay, anchor, subject, keystone, cornerstone, post, mast, pillar
 map_table["muxbar"] = map_table["musnad"] # rheme, complement, predicate, cornerstone, keystone, capstone, rafter, beam
 map_table["mutaddi"] = "transitive"
+map_table["mawsuf"] = "described noun"
 
 map_table["naib"] = "deputy"
 map_table["na3t"] = "attribute"
@@ -191,7 +201,7 @@ map_table["shart"] = "condition"
 map_table["shibh_fi3l"] = "quasi-verb"
 map_table["shibh_jumlah"] = "quasi-sentence"
 map_table["shibh_jumlah"] = "quasi-sentence"
-map_table["substantive"] = "substantive"
+map_table["subst"] = "entity noun"
 
 map_table["taamm"] = "sufficient"
 map_table["tabi3"] = "follower"
@@ -205,6 +215,14 @@ map_table["ya_nida"] = "vocative [يَا]{.ar}"
 
 map_table["zaaid"] = "redundant"
 map_table["zaahir"] = "overt"
+
+# crossovers
+map_table["crossover"] = map_table["rarr"] #"⤮" # "⥇" #"×" + 
+map_table["ism_masdar"] = map_table["subst"] + map_table["crossover"] + map_table["masdar"] #"maṣdar-like noun"
+map_table["ism_failxsubst"] = map_table["ism_fail"] + map_table["crossover"] + map_table["subst"] #"maṣdar-like noun"
+map_table["masdarxsubst"] = map_table["masdar"] + map_table["crossover"] + map_table["subst"]
+map_table["masdarxsifah"] = map_table["masdar"] + map_table["crossover"] + map_table["sifah"]
+
 
 def get_sub_text(match):
     global map_table
