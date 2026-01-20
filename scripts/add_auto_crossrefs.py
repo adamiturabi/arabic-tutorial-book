@@ -39,44 +39,51 @@ def write_into_file(file_data_str: str, destination_path) -> None:
 
 def main():
 
+    dump_db = {}
+
     # save max count value to use as initial value for next run
-    import shelve
-    with shelve.open("pre_render_vals.dump", 'c') as db:
-        global ex_count
-        global sec_count
+    curr_dir = os.path.dirname(__file__)
+    dump_file_path = os.path.join(curr_dir, "pre_render_vals.dump")
+    global ex_count
+    global sec_count
+    with open(dump_file_path, 'r') as dump_file:
 
-        if 'ex_count' in db.keys():
-            ex_count = db['ex_count']
-        else:
-            ex_count = 0
-        if 'sec_count' in db.keys():
-            sec_count = db['sec_count']
-        else:
-            sec_count = 0
+        import json
+        dump_db = json.loads(dump_file.read())
+
+        assert('ex_count' in dump_db.keys())
+        assert('sec_count' in dump_db.keys())
+
+        ex_count = dump_db['ex_count']
+        sec_count = dump_db['sec_count']
         
+    in_dir = os.fsencode("srcqmd")
+    out_dir = os.fsencode("srcqmd")
 
-        in_dir = os.fsencode("srcqmd")
-        out_dir = os.fsencode("srcqmd")
+    print(f"Rendering ...")
+    for file in os.listdir(in_dir):
+        filename = os.fsdecode(file)
+        if filename.endswith(".qmd"):
+            # print(os.path.join(in_dir, filename))
+            input_file = os.path.join(in_dir, file)
+            output_file = os.path.join(out_dir, file)
 
-        print(f"Rendering ...")
-        for file in os.listdir(in_dir):
-            filename = os.fsdecode(file)
-            if filename.endswith(".qmd"):
-                # print(os.path.join(in_dir, filename))
-                input_file = os.path.join(in_dir, file)
-                output_file = os.path.join(out_dir, file)
+            #print("Reading from " + input_file)
+            file_data_str = read_file(input_file)
 
-                #print("Reading from " + input_file)
-                file_data_str = read_file(input_file)
+            #print("Writing to " + output_file)
+            write_into_file(file_data_str, output_file)
+            #print("Done.")
 
-                #print("Writing to " + output_file)
-                write_into_file(file_data_str, output_file)
-                #print("Done.")
+    with open(dump_file_path, 'w') as dump_file:
 
+        assert('ex_count' in dump_db.keys())
+        assert('sec_count' in dump_db.keys())
+        dump_db['ex_count']  = ex_count
+        dump_db['sec_count'] = sec_count
 
-        db['ex_count']  = ex_count
-        db['sec_count'] = sec_count
-
+        import json
+        dump_file.write(json.dumps(dump_db))
 
 if __name__ == "__main__":
     import os
