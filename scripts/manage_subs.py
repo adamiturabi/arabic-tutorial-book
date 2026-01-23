@@ -88,7 +88,7 @@ map_table["passive"] = "passive" # "unknown-doer" verb?
 map_table["3aamil"] = "governor"
 map_table["ma3mul"] = "governee"
 map_table["3amal"] = "government"
-map_table["3umdah"] = "structural" # indispensable, foundational, basic, load-bearing, structural
+map_table["3umdah"] = "indispensable" # indispensable, foundational, basic, load-bearing, structural
 map_table["fadlah"] = "dispensable" # dispensable, redundant, extra
 
 # jumlah khabariyyah and inshaa'iyyah
