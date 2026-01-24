@@ -37,16 +37,16 @@ on the other hand,
 does not have a truth value.
 Here are some examples of non-truth-evaluable statements:
 
-(@) [اضْرِبْ زَيْدًا]{.ar}  
+(@ex000545) [اضْرِبْ زَيْدًا]{.ar}  
     [Beat Zayd!]{.trans}
 
-(@) [لَا تَفْعَلْ]{.ar}  
+(@ex000546) [لَا تَفْعَلْ]{.ar}  
     [Don't do [it]!]{.trans}
 
-(@) [يَا زَيْدُ]{.ar}  
+(@ex000547) [يَا زَيْدُ]{.ar}  
     [O Zayd]{.trans}
 
-(@) [مَنْ هُوَ]{.ar}  
+(@ex000548) [مَنْ هُوَ]{.ar}  
     [Who is he?]{.trans}
 
 
@@ -64,7 +64,7 @@ then its syntactical role is determined by the grammatical relationships it has 
 
 Consider the following sentence:
 
-(@) [الْبَيْتُ كَبِيرٌ]{.ar}  
+(@ex000549) [الْبَيْتُ كَبِيرٌ]{.ar}  
     [The house is big]{.trans}
 
 In the above sentence, 
@@ -73,7 +73,7 @@ is _syntactically_ a info.
 
 Now consider the following sentence:
 
-(@) [دَخَلَ بَيْتًا كَبِيرًا]{.ar}  
+(@ex000550) [دَخَلَ بَيْتًا كَبِيرًا]{.ar}  
     [He entered a big house.]{.trans}
 
 Now the same noun
@@ -88,7 +88,7 @@ In both examples,
 Semantics is the study of the meanings of words.
 Consider the following sentence:
 
-(@) taHaddatha fi al-bayt.
+(@ex000551) taHaddatha fi al-bayt.
 
 Here the semantic meaning of fi determines the meaning of the sentence.
 If fi means "in" then the sentence means "He talked in the house."
@@ -96,10 +96,10 @@ And if fi means "regarding", then the sentence means "He talked about the house.
 
 Semantics can affect the syntax of a sentence.
 
-(@) al-af3Alu Hasanatun  
+(@ex000552) al-af3Alu Hasanatun  
     "The acts are good."
 
-(@) al-af3Alu HasanAtun  
+(@ex000553) al-af3Alu HasanAtun  
     "The acts are good deeds."
 -->
 
@@ -190,7 +190,7 @@ So that is another example of an obligatory word-order for the governor and the 
 Let's look at some common governor-governee relationships.
 We will make use of the following example:
 
-(@) [قَرَأَ الْغُلَامُ الطَّوِيلُ كِتَابَ الجَارِيَةِ فِي الدَّارِ الْكَبِيرَةِ]{.ar}
+(@ex000554) [قَرَأَ الْغُلَامُ الطَّوِيلُ كِتَابَ الجَارِيَةِ فِي الدَّارِ الْكَبِيرَةِ]{.ar}
 
 #### The i-state noun {.unnumbered}
 
@@ -228,7 +228,7 @@ Here is an example of an i-state noun
 being governed by a preceding annexe noun
 ([كِتَابُ]{.ar}):
 
-(@) [كِتَابُ زَيْدٍ]{.ar}  
+(@ex000555) [كِتَابُ زَيْدٍ]{.ar}  
     [Zayd's book]{.trans}
 
 #### The doer {.unnumbered}
@@ -267,7 +267,7 @@ Here is a diagram depicting the above governor-governee relationships:
 
 DIAGRAM
 
-## The two structural elements of a sentence
+## The two indispensable elements of a sentence
 
 In the Arabic grammatical model,
 a sentence is analagous to the structure of a simple _lean-to_ building.
@@ -276,9 +276,9 @@ A building is built upon a foundation.
 The foundation of the Arabic sentence
 -->
 This structure
-requires two _structural_ elements
+requires two _indispensable_ elements
 in order to be structurally complete.^[Wright 2/250ff; [الجملة العربية لفاضل السامرائي]{.ar} 13ff]
-These two structural elements are:
+These two indispensable elements are:
 
  i. The structure-starter
 ii. The structure-completer
@@ -297,7 +297,7 @@ ii. The structure-completer
 ```
 
 
-The structure-starter is the primary structural element.
+The structure-starter is the primary indispensable element.
 It represents whom the sentence is about, i.e. its topic.
 The structure-completer rests against the structure-starter.
 <!--
@@ -305,20 +305,20 @@ And the structure-completer is meant to provide some interesting comment about t
 -->
 It expresses some property about the structure-starter that completes the meaning of the sentence.
 
-Once the two structural elements are in place,
+Once the two indispensable elements are in place,
 the sentence is structurally complete.
 Other _dispensable_ elements
 (see section\ (ref) below)
-may be added in addition to the structural elements to add meaning to the sentence,
+may be added in addition to the indispensable elements to add meaning to the sentence,
 but they are not required to make the sentence structurally complete.
 
-Let's look at the structural elements for the two types of Arabic sentences:
+Let's look at the indispensable elements for the two types of Arabic sentences:
 
 <!--
-Here are some examples of sentences with only structural elements:
+Here are some examples of sentences with only indispensable elements:
 -->
 
-### The structural elements of a nounal sentence
+### The indispensable elements of a nounal sentence
 
 In a nounal sentence the subject is the structure-starter and the info is the structure-completer.
 Consider the following nounal sentence:
@@ -343,7 +343,7 @@ In this nounal sentence the subject is the structure-starter,
 and the info is the structure-completer.
 -->
 
-### The structural elements of a verbal sentence
+### The indispensable elements of a verbal sentence
 
 In a verbal sentence the verb is the structure-completer and its doer is the structure-starter.
 Consider the following verbal sentence:
@@ -372,22 +372,22 @@ the structure-completer may sometimes be another element, instead of the verb th
 ## Foundational government
 
 <!--
-Besides the two structural elements,
+Besides the two indispensable elements,
 a sentence also needs an foundational government.[Owens §2.3.6.1 54]
 -->
-In order to build a sentence from the structural elements,
+In order to build a sentence from the indispensable elements,
 a sentence needs _foundational government_.[Owens §2.3.6.1, 54]
 <!--
-The foundational government governs the highest governing element(s) of the two structural elements of the sentence.
+The foundational government governs the highest governing element(s) of the two indispensable elements of the sentence.
 -->
 <!--
 The foundational government is the source of all government in the sentence.
 -->
-Foundational government is any and all government prior to, and until, the first governed structural element.
+Foundational government is any and all government prior to, and until, the first governed indispensable element.
 
-#### One of the two structural elements is the foundational government {.unnumbered}
+#### One of the two indispensable elements is the foundational government {.unnumbered}
 
-In some sentences, the intitial governor may be one of the two structural elements.
+In some sentences, the intitial governor may be one of the two indispensable elements.
 In example (@3amal_qaama_zaydun) above,
 the verb [قَامَ]{.ar} governs its doer [زَيْدٌ]{.ar}.
 The perfect verb [قَامَ]{.ar} has no state and thus needs no governor.
@@ -395,24 +395,24 @@ So it is, itself, the foundational government.
 
 DIAGRAM
 
-#### Another (non-structural) element is the foundational government {.unnumbered}
+#### Another (non-indispensable) element is the foundational government {.unnumbered}
 
-The intitial governor may be internal to the sentence but not one of the two structural elements.
+The intitial governor may be internal to the sentence but not one of the two indispensable elements.
 <!--
 In such cases,
-even though the foundational government is not one of the two structural elements,
+even though the foundational government is not one of the two indispensable elements,
 we don't call it an dispensable element.
 -->
 
 Here are some examples:
 
-(@) [لَمْ يَضْرِبِ الرَّجُلُ غُلَامَ زَيْدٍ]{.ar}
+(@ex000556) [لَمْ يَضْرِبِ الرَّجُلُ غُلَامَ زَيْدٍ]{.ar}
     [Owens,\ J., _The foundations of grammar_ §2.2.3, 41]{.citex}  
     [The man did not beat Zayd's slave.]{.trans}
 
 DIAGRAM
 
-(@) [إِنَّ زَيْدًا قَائِمٌ]{.ar}  
+(@ex000557) [إِنَّ زَيْدًا قَائِمٌ]{.ar}  
     [Indeed Zayd is standing.]{.trans}
 
 DIAGRAM
@@ -426,18 +426,18 @@ DIAGRAM
 In example (@kaana_zaydun_qaaiman) above,
 the verb [كَانَ]{.ar} is the foundational government.
 But because it is a deficient verb, it does not complete the sentence grammatically.
-Therefore, it is not an structural element.
-But it is needed to govern the structural elements.
+Therefore, it is not an indispensable element.
+But it is needed to govern the indispensable elements.
 -->
 
 #### The abstract foundational government {.unnumbered}
 
 Very commonly, the foundational government is not an actual word, but only an abstract concept.
-When there is one or more stateful structural elements in a sentence with no overt (i.e. observable) governor,
+When there is one or more stateful indispensable elements in a sentence with no overt (i.e. observable) governor,
 then this necessitates bringing in a _abstract_ foundational government.^[Owens,\ J., _The foundations of grammar_ 55; Peled, _Sentence types_ 87--88]
 For example:
 
-(@) [زَيْدٌ مُنْطَلِقٌ]{.ar}
+(@ex000558) [زَيْدٌ مُنْطَلِقٌ]{.ar}
     [Peled, _Sentence types_ 87]{.citex}  
     [Zayd is setting out.]{.trans}
 
@@ -446,7 +446,7 @@ and the structure-completer (the info
 [مُنْطَلِقٌ]{.ar})
 in the u-state.
 
-(@) [يَقُومُ زَيْدٌ]{.ar}  
+(@ex000559) [يَقُومُ زَيْدٌ]{.ar}  
     [Zayd stands]{.trans}
 
 The abstract foundational government governs the structure-completer (the stateful verb [يَقُومُ]{.ar}) in the u-state.
@@ -461,7 +461,7 @@ We will learn moe about this case in sections\ (ref) and (ref) below.
 -->
 
 <!--
-(@) zaydun DAribun abUhu eamran
+(@ex000560) zaydun DAribun abUhu eamran
 
 DIAGRAM
 
@@ -479,7 +479,7 @@ But DAribun is a stateful element that itself needs a governor.
 It is put in the u-state because it is the info of the subject zaydun.
 by the conceptual governor that governs the larger sentence.
 
-(@) inna zaydan DAribun eamran
+(@ex000561) inna zaydan DAribun eamran
 
 DIAGRAM
 
@@ -504,7 +504,7 @@ It is put in the u-state because it is the info of the foundational government i
 -->
 
 <!--
-(@) kāna Zaydun munṭaliqan ʾabūhu
+(@ex000562) kāna Zaydun munṭaliqan ʾabūhu
     [peled 207 citing zajjaji]{.citex}
 
 DIAGRAM
@@ -523,7 +523,7 @@ also constitute a sentence by themselves.
 This is the inner sentence within the outer sentence.
 This inner sentence 
 muntaliqan abuhu
-has two structural elements: 
+has two indispensable elements: 
 the doer participle muntaliq,
 and its doer abUhu.
 (Remember from section\ (ref) that an doer participle can have a doer)
@@ -533,15 +533,15 @@ But muntaliq itself is also governed by an foundational government (the verb kaa
 <!--
 #### More than one element in the foundational government {.unnumbered}
 
-Sometimes, there may be more than one element (in a chain) in the foundational government, before one reaches the first governed structural element.
+Sometimes, there may be more than one element (in a chain) in the foundational government, before one reaches the first governed indispensable element.
 For example:
 
-(@) [لَمْ يَكُنْ زَيْدٌ قَائِمًا]{.ar}  
+(@ex000563) [لَمْ يَكُنْ زَيْدٌ قَائِمًا]{.ar}  
     [Zayd was not standing.]{.trans}
 
 In the example above,
 the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the 0-state.
-The verb [يَكُنْ]{.ar}, being a deficient verb, is not an structural element.
+The verb [يَكُنْ]{.ar}, being a deficient verb, is not an indispensable element.
 But [يَكُنْ]{.ar} governs the structure-starter [زَيْدٌ]{.ar} in the u-state
 and the structure-completer [قَائِمًا]{.ar} in the a-state.
 Therefore [يَكُنْ]{.ar} is part of the foundational government.
@@ -551,16 +551,16 @@ Therefore [يَكُنْ]{.ar} is part of the foundational government.
 
 A dispensable element is any stateful element in a sentence,
 after the foundational government,
-that is not either of the two structural elements.
+that is not either of the two indispensable elements.
 The source of government for 
 a dispensable element must be,
 directly or indirectly,
-one of the structural elements.
+one of the indispensable elements.
 
 We know from section\ (ref) above,
-that in a nounal sentence the structural elements are the subject and the info.
+that in a nounal sentence the indispensable elements are the subject and the info.
 And that in
-a verbal sentence the structural elements are the verb and its doer.
+a verbal sentence the indispensable elements are the verb and its doer.
 So all other elements besides these 
 (and elements that constitute the foundational government)
 are dispensable elements.
@@ -592,7 +592,7 @@ We don't mean that it is superfluous in terms of its meaning.
 In fact, a dispensable element may be essential for the correct meaning of the sentence.
 For example, consider the [Ayah]{.trn2}:
 
-(@) [وَمَا خَلَقۡنَا ٱلسَّمَاۤءَ وَٱلۡأَرۡضَ وَمَا بَیۡنَهُمَا لَـٰعِبِینَ]{.quran}
+(@ex000564) [وَمَا خَلَقۡنَا ٱلسَّمَاۤءَ وَٱلۡأَرۡضَ وَمَا بَیۡنَهُمَا لَـٰعِبِینَ]{.quran}
     [[[سورة الأنبياء]{.ar} 21:16](https://quran.com/21/16) cited by [[معاني النحو]{.ar} 1/14](https://shamela.ws/book/17801/13)]{.citex}  
     [And We did not create the heaven and earth and that between them in play.]{.trans}
 
@@ -619,11 +619,11 @@ Technically,
 the base noun in an annexation is considered a dispensable unit.
 Consider the following example:
 
-(@) abU zaydin axU eamrin
+(@ex000565) abU zaydin axU eamrin
 
 If we remove the base noun nouns from the sentence we get:
 
-(@) al-abu al-axu
+(@ex000566) al-abu al-axu
 
 This is a complete sentence.
 al-abu is the subject.
@@ -658,34 +658,34 @@ And a nounal sentence is one that begins with a verb.
 We will now refine these definitions:
 
 <!--
-A _nounal sentence_ is one whose first structural element is a noun.
+A _nounal sentence_ is one whose first indispensable element is a noun.
 And
-a _verbal sentence_ is one whose first structural element is a verb.
+a _verbal sentence_ is one whose first indispensable element is a verb.
 -->
-A _nounal sentence_ is one whose structural elements are two nouns: a subject (as the structure-starter) and an info (as the structure-completer).
+A _nounal sentence_ is one whose indispensable elements are two nouns: a subject (as the structure-starter) and an info (as the structure-completer).
 And
-a _verbal sentence_ is one whose structural elements are a verb (as the structure-starter) and and its doer (as the structure-completer).
+a _verbal sentence_ is one whose indispensable elements are a verb (as the structure-starter) and and its doer (as the structure-completer).
 
 Consider, for example, the following sentence:
 
-(@) [بَلْ زَيْدٌ قَائِمٌ]{.ar}  
+(@ex000567) [بَلْ زَيْدٌ قَائِمٌ]{.ar}  
     [Rather Zayd is standing.]{.trans}
 
 The first word in the sentence above is [بَلْ]{.ar}.
-It is a particle and not a structural element.
-Removing it from the sentence, we see that the remaining structural elements are two nouns:
+It is a particle and not a indispensable element.
+Removing it from the sentence, we see that the remaining indispensable elements are two nouns:
 [زَيْدٌ]{.ar} (the subject) and [قَائِمٌ]{.ar} (as the info).
 So the sentence is a nounal sentence.
 
 Let's take a look at another example:
 
-(@) [زَيْدًا رَأَيْتُ]{.ar}
+(@ex000568) [زَيْدًا رَأَيْتُ]{.ar}
     [Peled, _Sentence types_ 28]{.citex}  
     [[It was] Zayd I saw.]{.trans}
 
 The first word in the sentence is [زَيْدًا]{.ar}.
 It is a direct doee.
-We learned in section\ (ref) above that a direct doee is not usually a structural element.
+We learned in section\ (ref) above that a direct doee is not usually a indispensable element.
 Rather,
 it is usually a dispensable elements
 Stripping the sentence of this dispensable element, we are left with
@@ -719,7 +719,7 @@ But
 is a deficient verb
 (see chapter\ (ref).)
 This means that it does not have sufficient meaning to structurally complete the sentence by itself.
-So it cannot be a structural structure-completer.
+So it cannot be a indispensable structure-completer.
 Instead,
 [كَانَ]{.ar}
 requires a info 
@@ -732,12 +732,12 @@ can be considered to be the foundational government, and the sentence may be con
 
 Similarly consider the sentence:
 
-(@) [لَمْ يَكُنْ زَيْدٌ قَائِمًا]{.ar}  
+(@ex000569) [لَمْ يَكُنْ زَيْدٌ قَائِمًا]{.ar}  
     [Zayd was not standing.]{.trans}
 
 In the example above,
 the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the 0-state.
-The verb [يَكُنْ]{.ar}, being a deficient verb, is not an structural element.
+The verb [يَكُنْ]{.ar}, being a deficient verb, is not an indispensable element.
 But [يَكُنْ]{.ar} governs the structure-starter [زَيْدٌ]{.ar} in the u-state
 and the structure-completer [قَائِمًا]{.ar} in the a-state.
 Therefore both [لَمْ]{.ar} and [يَكُنْ]{.ar} form the foundational government.
@@ -747,7 +747,7 @@ Therefore both [لَمْ]{.ar} and [يَكُنْ]{.ar} form the foundational gov
 <!--
 Similarly, consider the sentence:
 
-(@) [ظَنَنْتُ زَيْدًا قَائِمًا]{.ar}
+(@ex000570) [ظَنَنْتُ زَيْدًا قَائِمًا]{.ar}
     [Peled, _Sentence types_ 171]{.citex}  
     [I believed him [to be] standing.]{.trans}
 
@@ -766,28 +766,28 @@ We will see another example of a hybrid sentence in section\ (aqaaimun zaydun).
 
 
 <!--
-## Identifying the structural elements
+## Identifying the indispensable elements
 
-### Identifying the structural elements in a verbal sentence
+### Identifying the indispensable elements in a verbal sentence
 
-Identifying the structural elements in a verbal sentence is relatively straightforward.
+Identifying the indispensable elements in a verbal sentence is relatively straightforward.
 The structure-starter is always the doer of the verb.
 And 
 except in the case of a deficient verb,
 the structure-completer is usually the verb.
-We saw an example of the structural elements of a verbal sentence in example (@3amal_qaama_zaydun) above.
+We saw an example of the indispensable elements of a verbal sentence in example (@3amal_qaama_zaydun) above.
 
 In the case of a deficient verb,
 like [كَانَ]{.ar},
 the verb does not complete the sentence grammatically.
 So the direct doee of the verb becomes the structure-completer.
-We saw an example of the structural elements of a verbal sentence with a deficient verb in example (@kaana_zaydun_qaaiman) above.
+We saw an example of the indispensable elements of a verbal sentence with a deficient verb in example (@kaana_zaydun_qaaiman) above.
 -->
 
-## Identifying the structural elements in a nounal sentence
+## Identifying the indispensable elements in a nounal sentence
 
 It can sometimes be complicated to tell
-which of the twp structural elements in a nounal sentence is the structure-starter and which is the structure-completer.
+which of the twp indispensable elements in a nounal sentence is the structure-starter and which is the structure-completer.
 We will discuss several cases below:
 
 ### When there is an overt foundational government
@@ -810,10 +810,10 @@ This tells us that
 [ٱللَّهُ]{.ar} is the structure-completer.
 
 
-### One structural element is definite and the other structural element is indefinite
+### One indispensable element is definite and the other indispensable element is indefinite
 
 When 
-one structural element is definite and the other structural element is indefinite,
+one indispensable element is definite and the other indispensable element is indefinite,
 then it is usually the case that the definite element is the structure-starter (as the subject)
 and the indefinite element is the structure-completer (as the info).
 
@@ -841,17 +841,17 @@ One special case is when a question noun is the subject.
 (Question nouns are considered indefinite.)
 For example:
 
-(@) [كَمْ مَالُكَ]{.ar}
+(@ex000571) [كَمْ مَالُكَ]{.ar}
     [[حاشية الصبان على شرح الأشمونى لألفية ابن مالك]{.ar} 1/231]{.citex}  
     [How much is your wealth?]{.trans}
 
-(@) [أَيُّ لَيْلَةٍ لَيْلَةُ الْقَدْرِ]{.ar}
+(@ex000572) [أَيُّ لَيْلَةٍ لَيْلَةُ الْقَدْرِ]{.ar}
     [[[جامع الترمذي]{.ar} :3513](https://sunnah.com/tirmidhi:3513)]{.citex}  
     [Which night is the night of Decree]{.trans}
 
 Another special case is when the subject is an indefinite comparative noun in sentences like:
 
-(@) [خَيْرٌ مِنْكَ زَيْدٌ]{.ar}
+(@ex000573) [خَيْرٌ مِنْكَ زَيْدٌ]{.ar}
     [[حاشية الصبان على شرح الأشمونى لألفية ابن مالك]{.ar} 1/231]{.citex}  
     [Better than you is Zayd]{.trans}
 
@@ -876,30 +876,30 @@ We will see in chapter\ (ref) that these words (exceptionally) remain indefinite
 So, for example, these words (as annexe nouns to definite base nouns) may be used as attributes to an indefinite noun.
 For example:
 
-(@) [مَرَرْتُ بِرَجُلٍ حَسْبِكَ ِمْن َرُجٍل]{.ar}
+(@ex000574) [مَرَرْتُ بِرَجُلٍ حَسْبِكَ ِمْن َرُجٍل]{.ar}
     [[أوضح المسالك لابن هشام]{.ar} 3/139]{.citex}
 
 There is some debate amongst the grammarians with regards to whether these indefinite noun may occur as a subject to a definite info.^[[حاشية الصبان على شرح الأشمونى لألفية ابن مالك]{.ar} 1/277]
 So if we have a sentence: 
 
-(@) [حسبُك زَيْدٌ]{.ar}  
+(@ex000575) [حسبُك زَيْدٌ]{.ar}  
     [Sufficient for you is Zayd.]{.trans}
 
 then one may deem zayd as the subject because it is more definite than hasbuka.
 
 But see also the [tafsIr]{.trn2}s of the following [Ayah]{.trn2}s:
 
-(@) faHasbuhu jahannamu
+(@ex000576) faHasbuhu jahannamu
 
-(@) Hasbuhum jahannamu yaSlawnahA
+(@ex000577) Hasbuhum jahannamu yaSlawnahA
 -->
 
-### Both structural elements are definite
+### Both indispensable elements are definite
 
-When both structural elements are definite, then typically the first is the subject and the second is the info.
+When both indispensable elements are definite, then typically the first is the subject and the second is the info.
 For example:
 
-(@) [الدِّينُ النَّصِيحَةُ]{.ar}
+(@ex000578) [الدِّينُ النَّصِيحَةُ]{.ar}
     [[[صحيح مسلم]{.ar} :55a](https://sunnah.com/muslim:55a)]{.citex}  
     [The Religion is sincerity.]{.trans}
 
@@ -931,24 +931,24 @@ Therefore,
 [أَبُو حَنِيفَةَ]{.ar} is the structure-completer (as the info).
 In this case, the sentence order can be flexible, and the info can be fronted (stylistically), for the same meaning, thus:
 
-(@) [أَبُو حَنِيفَةَ أَبُو يُوسُفَ]{.ar}  
+(@ex000579) [أَبُو حَنِيفَةَ أَبُو يُوسُفَ]{.ar}  
     [[Like] [#abU #HanIfah]{.trn2}, [#abU #yUsuf]{.trn2} is.]{.trans}
 
 DIAGRAM
 
-### Both structural elements are indefinite
+### Both indispensable elements are indefinite
 
-When both structural elements are indefinite then,
+When both indispensable elements are indefinite then,
 again,
 the first is likely to be the subject
 and the second to be the info.
 Examples:
 
-(@) [أَفْضَلُ مِنْ زَيْدٍ أَفْضَلُ مِنْ عَمْرٍو]{.ar}
+(@ex000580) [أَفْضَلُ مِنْ زَيْدٍ أَفْضَلُ مِنْ عَمْرٍو]{.ar}
     [[[شرح ابن عقيل على الألفية]{.ar} 1/232](https://shamela.ws/book/9904/231#p1)]{.citex}  
     [[The person] better than Zayd is better than [#eamr]{.trn2}.]{.trans}
 
-(@) [وَجَزَ ٰ⁠ۤؤُا۟ سَیِّئَةࣲ سَیِّئَةࣱ مِّثۡلُهَاۖ]{.quran}
+(@ex000581) [وَجَزَ ٰ⁠ۤؤُا۟ سَیِّئَةࣲ سَیِّئَةࣱ مِّثۡلُهَاۖ]{.quran}
     [[[سورة الشورى]{.ar} 42:40](https://quran.com/42/40)]{.citex}  
     [And the retribution for an evil act is an evil one like it]{.trans}
 
@@ -1002,12 +1002,12 @@ Remember from section\ (ref) above that
 is a deficient verb, and thus needs a info to grammatically the sentence.
 This info may be a single word, like:
 
-(@) [كَانَ زَيْدٌ قَائِمًا]{.ar}  
+(@ex000582) [كَانَ زَيْدٌ قَائِمًا]{.ar}  
     [Zayd was standing.]{.trans}
 
 Or the info of [كَانَ]{.ar} may be a complete sentence:
 
-(@) [كَانَ زَيْدٌ يَقُومُ]{.ar}  
+(@ex000583) [كَانَ زَيْدٌ يَقُومُ]{.ar}  
     [Zayd used to stand.]{.trans}
 
 (END FIXME)
@@ -1017,7 +1017,7 @@ But it need not be so.
 A non-truth-evaluable sentence is also valid as a info^[[شرح جمل الزجاجي لابن عصفور]{.ar} 1/347; [التذييل والتكميل لأبي حيان]{.ar} 4/27]
 For example:
 
-(@) [زَيْدٌ اضْرِبْهُ]{.ar}
+(@ex000584) [زَيْدٌ اضْرِبْهُ]{.ar}
     [[التذييل والتكميل لأبي حيان]{.ar} 4/27]{.citex}  
     [Zayd -- hit him!]{.trans}  
     (i.e. [Hit Zayd!]{.trans})
@@ -1094,7 +1094,7 @@ Generally, if there is no such link between the inner sentence and the subject o
 then the compound sentence is invalid.^[Peled, _Sentence types_ 94 citing [شرح ابن يعيش على المفصل]{.ar}; [المقتصد للجرجاني]{.ar}]{.citex}
 So we cannot say, for example:
 
-(@) ✗ [زَيْدٌ قَامَ عَمْرٌ]{.ar}
+(@ex000585) ✗ [زَيْدٌ قَامَ عَمْرٌ]{.ar}
     [Peled, _Sentence types_ 94 citing [شرح ابن يعيش على المفصل]{.ar}]{.citex}  
     [Zayd -- [#eamr]{.trn2} stood up]{.trans}
 
@@ -1104,7 +1104,7 @@ Instead of a pronoun,
 an pointing noun may serve as the link.
 For example:
 
-(@) [وَلِبَاسُ ٱلتَّقۡوَىٰ ذَ ٰ⁠لِكَ خَیۡرࣱۚ]{.quran}
+(@ex000586) [وَلِبَاسُ ٱلتَّقۡوَىٰ ذَ ٰ⁠لِكَ خَیۡرࣱۚ]{.quran}
     [[[سورة الأعراف]{.ar} 7:26](https://quran.com/7/26) cited by [شرح ابن عقيل على الألفية]{.ar} 1/204]{.citex}  
     [But the clothing of righteousness - that is best.]{.trans}
 
@@ -1113,7 +1113,7 @@ For example:
 The subject of the outer sentence may be repeated in the inner sentence, and this is sufficient as the link.
 For example:
 
-(@) [ٱلۡحَاۤقَّةُ ۝١ مَا ٱلۡحَاۤقَّةُ ۝٢]{.quran}
+(@ex000587) [ٱلۡحَاۤقَّةُ ۝١ مَا ٱلۡحَاۤقَّةُ ۝٢]{.quran}
     [[[سورة الحاقة]{.ar} 69:1-2](https://quran.com/69/1-2) cited by [شرح ابن عقيل على الألفية]{.ar} 1/204]{.citex}  
     [The Inevitable Reality - What is the Inevitable Reality?]{.trans}
 
@@ -1123,18 +1123,18 @@ For example:
 In cases where the info of the outer sentence is more general than its subject a link is not needed.
 For example:
 
-(@) [زَيْدٌ نِعْمَ الرَّجُلُ]{.ar}
+(@ex000588) [زَيْدٌ نِعْمَ الرَّجُلُ]{.ar}
     [Wright 2/256D, [شرح ابن عقيل على الألفية]{.ar} 1/204]{.citex}  
     [Zayd -- an excellent man]{.trans}
 
 The link is also not needed when the subject of the outer sentence and its info are perfectly identical in meaning.
 For example:
 
-(@) [نُطْقِي اللَّهُ حَسْبِي]{.ar}
+(@ex000589) [نُطْقِي اللَّهُ حَسْبِي]{.ar}
     [Wright 2/256D, [شرح ابن عقيل على الألفية]{.ar} 1/204]{.citex}  
     [My utterance is "[#allAh]{.trn2} is sufficient for me."]{.trans}
 
-(@) [قَوْلِي لَا إِلَهَ إِلاَّ اللَّهُ]{.ar}
+(@ex000590) [قَوْلِي لَا إِلَهَ إِلاَّ اللَّهُ]{.ar}
     [Wright 2/256D, [شرح ابن عقيل على الألفية]{.ar} 1/204]{.citex}  
     [My saying is "There is no god but [#allAh]{.trn2}."]{.trans}
 
@@ -1145,7 +1145,7 @@ But it remains implied.
 This is in cases in which the sense is perfectly clear without it.^[Wright 2/256B]
 For example:
 
-(@) [ٱلسَّمْنُ مَنَوَانِ بِدِرْهَمٍ]{.ar}
+(@ex000591) [ٱلسَّمْنُ مَنَوَانِ بِدِرْهَمٍ]{.ar}
     [Wright 2/256C; [المقتصد للجرجاني]{.ar} 1/278; [شرح الرضي على الكافية]{.ar} 1/238]{.citex}  
     [The ghee is (at the rate of) two [manA]{.trn2}s for a dirham.]{.trans}  
 
@@ -1173,7 +1173,7 @@ and treat other categories in their respective chapters
 A sentence which is direct speech occurs in the place of a direct doee.
 For example:
 
-(@) [قَالَ إِنِّی عَبۡدُ ٱللَّهِ]{.quran}
+(@ex000592) [قَالَ إِنِّی عَبۡدُ ٱللَّهِ]{.quran}
     [[[سورة مريم]{.ar} 19:30](https://quran.com/19/30) cited by [[شرح شيخ زاده على قواعد الإعراب]{.ar} 1/23](https://shamela.ws/book/19236/32#p1)]{.citex}  
     [[Jesus] said, "Indeed, I am the servant of Allāh.]{.trans}
 
@@ -1184,7 +1184,7 @@ is in place of the a-state direct doee of [قَالَ]{.ar}.
 A complete sentence can also occur as a direct doee with verbs of perception.
 Examples:
 
-(@) [ظَنَنْتُ زَيْدًا يَقْرَأُ]{.ar}
+(@ex000593) [ظَنَنْتُ زَيْدًا يَقْرَأُ]{.ar}
     [[[شرح شيخ زاده على قواعد الإعراب]{.ar} 1/24](https://shamela.ws/book/19236/33#p1)]{.citex}  
     [I believed Zayd [to be] reading.]{.trans}
 
@@ -1209,7 +1209,7 @@ the single word attribute
 with the sentence
 [يَقُومُ]{.ar}, thus:
 
-(@) [مَرَرْتُ بِرَجُلٍ يَقُومُ]{.ar}
+(@ex000594) [مَرَرْتُ بِرَجُلٍ يَقُومُ]{.ar}
     [[الإيضاح للفارسي]{.ar} 308]{.citex}  
     [I passed by a man [that] stands.]{.trans}  
     (literally: [I passed by a 'he stands' man.]{.trans}
@@ -1278,7 +1278,7 @@ is the pronoun [ه]{.ar} in [فِيهِ]{.ar}.
 Sometimes the link is not explicit, but is implied.
 For example:
 
-(@) [وَٱتَّقُوا۟ یَوۡمࣰا لَّا تَجۡزِی نَفۡسٌ عَن نَّفۡسࣲ شَیۡـࣰٔا]{.quran}
+(@ex000595) [وَٱتَّقُوا۟ یَوۡمࣰا لَّا تَجۡزِی نَفۡسٌ عَن نَّفۡسࣲ شَیۡـࣰٔا]{.quran}
     [[[سورة البقرة]{.ar} 2:123](https://quran.com/2/123) cited by [أوضح المسالك لابن هشام]{.ar} 3/277]{.citex}  
     [And fear a Day when no soul will suffice for another soul at all]{.trans}
 
@@ -1290,7 +1290,7 @@ i.e. [لَا تَجْزِی **فِيهِ**]{.ar}.
 
 The following sentence is impermissible because the attribute [اضْرِبْهُ]{.ar} is a non-truth-evaluable sentence.
 
-(@) ✗ [مَرَرْتُ بِرَجُلٍ اضْرِبْهُ]{.ar}
+(@ex000596) ✗ [مَرَرْتُ بِرَجُلٍ اضْرِبْهُ]{.ar}
     [[أوضح المسالك لابن هشام]{.ar} 3/278]{.citex}  
     [I passed by a man -- hit him]{.trans}
     
@@ -1312,7 +1312,7 @@ And the sentence-base noun is _in place_ of an i-state noun.
 
 Here is another example:
 
-(@) [یَوۡمَ هُم بَـٰرِزُونَۖ]{.quran}
+(@ex000597) [یَوۡمَ هُم بَـٰرِزُونَۖ]{.quran}
     [[[سورة غافر]{.ar} 40:16](https://quran.com/40/16) cited by [[شرح شيخ زاده على قواعد الإعراب]{.ar} 1/29](https://shamela.ws/book/19236/38#p1)]{.citex}  
     [The Day they come forth]{.trans}
 
@@ -1323,7 +1323,7 @@ In most cases,
 a foreign element should not come between (and thus separate) a governor from its governee(s).
 For example, consider the following sentence:
 
-(@) [عَلِمْتُ مُحَمَّدًا يُؤَلِّفُ كِتَابًا]{.ar}
+(@ex000598) [عَلِمْتُ مُحَمَّدًا يُؤَلِّفُ كِتَابًا]{.ar}
     [[الجملة العربية لفاضل السامرائي]{.ar} 66]{.citex}  
     [I knew [#muHammad]{.trn2} [to be] writing a book.]{.trans}
 
@@ -1341,7 +1341,7 @@ is a foreign element for the verb
 [عَلِمْتُ]{.ar}.
 Therefore, the following sentence is impermissible:
 
-(@) ✗ [عَلِمْتُ كِتَابًا مُحَمَّدًا يُؤَلِّفُ]{.ar}
+(@ex000599) ✗ [عَلِمْتُ كِتَابًا مُحَمَّدًا يُؤَلِّفُ]{.ar}
     [[الجملة العربية لفاضل السامرائي]{.ar} 66]{.citex}  
 
 
@@ -1351,7 +1351,7 @@ Usually, for pronouns, the pronoun's referent is a single noun that occurs befor
 For example,
 if we say 
 
-(@) [زَيْدٌ هَوَ مُنْطَلِقٌ]{.ar}  
+(@ex000600) [زَيْدٌ هَوَ مُنْطَلِقٌ]{.ar}  
     [Zayd is setting out.]{.trans}
 
 Then the pronoun
@@ -1364,7 +1364,7 @@ that behaves differently from other pronouns
 It is used to begin compound nounal sentences.
 Here is an example of a sentence with a state-of-affairs pronoun:
 
-(@) [هُوَ زَيْدٌ مُنْطَلِقٌ]{.ar}
+(@ex000601) [هُوَ زَيْدٌ مُنْطَلِقٌ]{.ar}
     [[[معاني النحو]{.ar} 1/57](https://shamela.ws/book/17801/56)]{.citex}  
     [[The state of affairs] is: Zayd is setting out.]{.trans}  
 
@@ -1402,11 +1402,11 @@ if the subject of the following sentence is feminine,
 then the state-of-affairs pronoun is generally the feminine pronoun [هِيَ]{.ar}.
 Examples:
 
-(@) [**هُوَ** زَيْدٌ قَائِمٌ]{.ar}
+(@ex000602) [**هُوَ** زَيْدٌ قَائِمٌ]{.ar}
     [[البسيط لابن أبي الربيع]{.ar} 745]{.citex}  
     [[The state of affairs] is: Zayd is standing.]{.trans}
 
-(@) [**هِيَ** هِنْدٌ قَائِمَةٌ]{.ar}
+(@ex000603) [**هِيَ** هِنْدٌ قَائِمَةٌ]{.ar}
     [[البسيط لابن أبي الربيع]{.ar} 745]{.citex}  
     [[The state of affairs] is: Hind is standing.]{.trans}
 
@@ -1414,11 +1414,11 @@ As mentioned,
 the gender of the state-of-affairs pronoun generally matches the gender of the following subject (as above).
 Sometimes, however, it is found to mismatch. For example:
 
-(@) [**هِيَ** زَيْدٌ قَائِمٌ]{.ar}
+(@ex000604) [**هِيَ** زَيْدٌ قَائِمٌ]{.ar}
     [[البسيط لابن أبي الربيع]{.ar} 745]{.citex}  
     [[The state of affairs] is: Zayd is standing.]{.trans}
 
-(@) [**هُوَ** هِنْدٌ قَائِمَةٌ]{.ar}
+(@ex000605) [**هُوَ** هِنْدٌ قَائِمَةٌ]{.ar}
     [[البسيط لابن أبي الربيع]{.ar} 745--756]{.citex}  
     [[The state of affairs] is: Hind is standing.]{.trans}
 
@@ -1426,10 +1426,10 @@ Sometimes, however, it is found to mismatch. For example:
 
 The state-of-affairs pronoun is always a singular pronoun, regardless of whether the subject of the following subject is singular, dual, or plural.^[[[معاني النحو]{.ar} 1/59](https://shamela.ws/book/17801/58#p1)]
 
-(@) [**هُوَ** الزَّيْدَانِ قَائِمَانِ]{.ar}  
+(@ex000606) [**هُوَ** الزَّيْدَانِ قَائِمَانِ]{.ar}  
     [[The state of affairs] is: the two Zayds are standing.]{.trans}
 
-(@) [**هِيَ** الْهِنْدَاتُ قَائِمَاتٌ]{.ar}  
+(@ex000607) [**هِيَ** الْهِنْدَاتُ قَائِمَاتٌ]{.ar}  
     [[The state of affairs] is: the Hinds are standing.]{.trans}
 
 #### The state-of-affairs pronoun is always a pronoun for the absentee person {.unnumbered}
@@ -1438,7 +1438,7 @@ Even if the subject of the inner sentence is a pronoun for the speaker or adress
 the state-of-affairs pronoun is always a pronoun of for the absentee person.
 For example:
 
-(@) [هُوَ أَنَا زَيْدٌ]{.ar}
+(@ex000608) [هُوَ أَنَا زَيْدٌ]{.ar}
     [[[معاني النحو]{.ar} 1/59](https://shamela.ws/book/17801/58#p1)]{.citex}  
     [[The fact] is: I am Zayd.]{.trans}  
 
@@ -1458,7 +1458,7 @@ that the state-of-affairs pronoun can also be used with
 In these cases, the state-of-affairs pronoun may introduce verbal sentences.
 For example:
 
-(@) [فَإِنَّهَا لَا تَعۡمَى ٱلۡأَبۡصَـٰرُ]{.quran}
+(@ex000609) [فَإِنَّهَا لَا تَعۡمَى ٱلۡأَبۡصَـٰرُ]{.quran}
     [[[سورة الحج]{.ar} 22:46](https://quran.com/22/46) cited by [شرح الرضي على الكافية]{.ar} 2/467]{.citex}  
     [For indeed, it is not eyes that are blinded]{.trans}  
 

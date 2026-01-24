@@ -3,6 +3,7 @@ project:
   #output-dir: docs
   pre-render:
     - scripts/prerender_subs.py
+    - scripts/add_auto_crossrefs.py
   post-render:
     - "rm -rf images"
     - "rm -rf content/images"

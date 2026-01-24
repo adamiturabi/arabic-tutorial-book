@@ -15,7 +15,7 @@ In the Arabic grammatical model, prepositional phrases are dispensable elements.
 In order to bring a dispensable stateful element into a sentence, a suitable element of the original sentence must act as governor of the new dispensable element.
 For example, consider the sentence
 
-(@) [جَلَسَ زَيْدٌ]{.ar}  
+(@ex000142) [جَلَسَ زَيْدٌ]{.ar}  
     "Zayd sat."
 
 We would like to add the prepositional phrase
@@ -88,7 +88,7 @@ may be parsed (virtually) as in the a-state as a direct doee.
 So much so, that if we wish to add a second doee using a conjunction then it may be added in the a-state.
 For example:
 
-(@) [مَرَرْتُ بِزَيْدٍ وَعَمْرًا]{.ar}
+(@ex000143) [مَرَرْتُ بِزَيْدٍ وَعَمْرًا]{.ar}
     ^[Not all grammarians permit this. See [استيفاء حالات تعلق الجار والمجرور و الظرف وأثره في المعنى لعلي هاني]{.ar} footnote 34 for details.]  
     "I passed by Zayd and [#eamr]{.trn2}."
 
@@ -133,14 +133,14 @@ These merely give emphasis to an existing meaning in the sentence.
 Non-essential prepositions do not need a governor.
 Here is an example of a non-essential preposition:
 
-(@) [ما جاء من رجلٍ]{.ar}
+(@ex000144) [ما جاء من رجلٍ]{.ar}
     [[استيفاء حالات تعلق الجار والمجرور و الظرف وأثره في المعنى لعلي هاني]{.ar}]{.citex}  
     "Not a man came."
 
 The preposition [مِنْ]{.ar} only emphasizes the meaning of the sentence.
 If we drop if the basic meaning would remain the same:
 
-(@) [ما جاء رجلٌ]{.ar}
+(@ex000145) [ما جاء رجلٌ]{.ar}
     [[استيفاء حالات تعلق الجار والمجرور و الظرف وأثره في المعنى لعلي هاني]{.ar}]{.citex}  
     "Not a man came."
 
@@ -149,7 +149,7 @@ By the way,
 But it may be an essential preposition in other sentences.
 For example:
 
-(@) [خَرَجَ زَيْدٌ مِنَ ٱلْبَيْتِ]{.ar}  
+(@ex000146) [خَرَجَ زَيْدٌ مِنَ ٱلْبَيْتِ]{.ar}  
     "Zayd came out from the house."
 
 ## Valid governors of the preposition
@@ -188,13 +188,13 @@ Here are examples (considering them permissible) as governors:
 
 ##### The noun of time {.unnumbered}
 
-(@) [انقضى مسعاك لتأييد الحق]{.ar}
+(@ex000147) [انقضى مسعاك لتأييد الحق]{.ar}
     [[النحو الوافي]{.ar} 2/440]{.citex}  
     "Your [period of] effort for aiding the truth has ended."
 
 ##### The noun of place {.unnumbered}
 
-(@) [رأيت مدخلك إلى الدار]{.ar}
+(@ex000148) [رأيت مدخلك إلى الدار]{.ar}
     [[حاشية الصبان على شرح الأشمونى لألفية ابن مالك]{.ar} 2/443]{.citex}  
     "I saw your [place of] entrance to the house."
 
@@ -210,7 +210,7 @@ For example:
 But if the multiple governees are the same prepositon, then in general they may not be governed by the same governor.^[[النحو الوافي]{.ar} 2/444 footnote 3]
 So we can't say:
 
-(@) ✗ [مَرَرْتُ بِزَيْدٍ بِعَمْرٍو]{.ar}
+(@ex000149) ✗ [مَرَرْتُ بِزَيْدٍ بِعَمْرٍو]{.ar}
     [[شرح التصريح وحاشية ياسين]{.ar} 1/378]{.citex}  
     "I passed by Zayd by [#eamr]{.trn2}"  
     (although, separting the second preposition with a conjunction is of course allowed: [مَرَرْتُ بِزَيْدٍ وَبِعَمْرٍو]{.ar}.)
@@ -218,14 +218,14 @@ So we can't say:
 But if the same preposition is used with different meanings then it is permissible to have them being governed by the same governor.
 For example:
 
-(@) [مَرَرْتُ بِزَيْدٍ بِٱلْبَادِيَةِ]{.ar}
+(@ex000150) [مَرَرْتُ بِزَيْدٍ بِٱلْبَادِيَةِ]{.ar}
     [[شرح التصريح وحاشية ياسين]{.ar} 1/378]{.citex}  
     "I passed _by_ Zayd _in_ the desert."
 
 If the first preposition restricts the verb, and the second preposition is applied after the verb has been restricted, then too may the multiple same prepositions be used.^[[النحو الوافي]{.ar} 2/444 footnote 3]
 For example:
 
-(@) [كُلَّمَا رُزِقُوا مِنْهَا مِنْ ثَمَرَةٍ رِّزْقًا]{.ar}
+(@ex000151) [كُلَّمَا رُزِقُوا مِنْهَا مِنْ ثَمَرَةٍ رِّزْقًا]{.ar}
     [[[سورة البقرة]{.ar} 2:25](https://quran.com/2/25)]{.citex}  
     (The first [مِنْ]{.ar} restricts the governing verb [رُزِقُوا]{.ar} to [ٱلْجَنًّات]{.ar} "the gardens". And the second [مِنْ]{.ar} is restricted to "from the fruit from the gardens."^[[[الكشاف للزمخشري]{.ar}](https://tafsir.app/kashaf/2/25) for [سورة البقرة]{.ar} 2:25])
 
@@ -236,7 +236,7 @@ there needs to be a meaningful connection between the governor and the governed 
 
 Consider the following example:
 
-(@) [شَبَّهْتُ خَالِدًا وَهُوَ يَجُودُ بِمَالِهِ بِٱلْبَحْرِ]{.ar}
+(@ex000152) [شَبَّهْتُ خَالِدًا وَهُوَ يَجُودُ بِمَالِهِ بِٱلْبَحْرِ]{.ar}
     [[معاني النحو]{.ar} 3/131]{.citex}  
     "I likened [#xAlid]{.trn2}, while he (was) being generous with his wealth, with the sea."  
     (The [و]{.ar} in [وَهُوَ يَجُودُ]{.ar} is translated as "while." See section\ (ref).)
@@ -273,7 +273,7 @@ not
 
 Here is another example:
 
-(@) [ٱلْيَوْمَ يَئِسَ ٱلَّذِينَ كَفَرُوا مِنْ دِينِكُمْ]{.ar}
+(@ex000153) [ٱلْيَوْمَ يَئِسَ ٱلَّذِينَ كَفَرُوا مِنْ دِينِكُمْ]{.ar}
     [[[سورة المائدة]{.ar} 5:3](https://quran.com/5/3) cited by [معاني النحو]{.ar} 3/131]{.citex}  
     "This day those who disbelieve have despaired of [defeating] your religion;"
 
@@ -302,19 +302,19 @@ as long as the prepositional phrase be meaningfully connected with its governor.
 The following examples show a possible set of prepositions that are meaningfully governed by the verb
 [ٱنْصَرَفَ]{.ar} "to turn around, leave":
 
-(@) [ٱنْصَرَفَ إِلَىٰ مَصْنَعِهِ]{.ar}
+(@ex000154) [ٱنْصَرَفَ إِلَىٰ مَصْنَعِهِ]{.ar}
     [[النحو الوافي]{.ar} 2/161]{.citex}  
     "He left to his workplace."
 
-(@) [ٱنْصَرَفَ مِنَ ٱلْمَصْنَعِ إِلَىٰ بَيْتِهِ]{.ar}
+(@ex000155) [ٱنْصَرَفَ مِنَ ٱلْمَصْنَعِ إِلَىٰ بَيْتِهِ]{.ar}
     [[النحو الوافي]{.ar} 2/161]{.citex}  
     "He left from the workplace to his house."
 
-(@) [ٱنْصَرَفَ ٱلْعَالِمُ عَنِ ٱلْهَزْلِ]{.ar}
+(@ex000156) [ٱنْصَرَفَ ٱلْعَالِمُ عَنِ ٱلْهَزْلِ]{.ar}
     [[النحو الوافي]{.ar} 2/161]{.citex}^[See also [لَمَّا كَانَ يَوْمَ أُحُدٍ انْهَزَمَ النَّاسُ عَنِ النَّبِيِّ صلى الله عليه وسلم]{.ar} [[[صحيح البخاري]{.ar} :4064](https://sunnah.com/bukhari:4064)]{.citex}]  
     "The scholar left off joking."
 
-(@) [ٱنْصَرَفَ فِي سَيَّارَتِهِ]{.ar}
+(@ex000157) [ٱنْصَرَفَ فِي سَيَّارَتِهِ]{.ar}
     [[النحو الوافي]{.ar} 2/161]{.citex}  
     "He left in his caravan."
 
@@ -326,7 +326,7 @@ For example, the verb
 requires the preposition [بِ]{.ar} in order to transit to what is being sworn by.^[Kasher,\ A., "The term _al-fiʿl al-mutaʿaddī bi-ḥarf jarr_" §3.3 129 citing [ابن الأنباري]{.ar}]
 For example,
 
-(@) [أقسم بالله]{.ar}
+(@ex000158) [أقسم بالله]{.ar}
     [[أسرار العربية للأنباري]{.ar} 203]{.citex}  
     "I swear by [#allAh]{.trn2}"
 
@@ -341,28 +341,28 @@ It may be used with prepositions like
 with this basic meaning.
 For example:
 
-(@) [وَجَدْتُ ٱلْكِتَابَ بِجَهْدٍ]{.ar}  
+(@ex000159) [وَجَدْتُ ٱلْكِتَابَ بِجَهْدٍ]{.ar}  
     "I found the book with effort."
 
-(@) [وَجَدْتُ ٱلْكِتَابَ فِي ٱلْبَيْتِ]{.ar}  
+(@ex000160) [وَجَدْتُ ٱلْكِتَابَ فِي ٱلْبَيْتِ]{.ar}  
     "I found the book in the house."
 
-(@) [وَجَدْتُ ٱلْكِتَابَ عَلَى ٱلْخِزَانَةِ]{.ar}  
+(@ex000161) [وَجَدْتُ ٱلْكِتَابَ عَلَى ٱلْخِزَانَةِ]{.ar}  
     "I found the book on the cupboard."
 
 But this verb also has specific meanings when used with these prepositions and certain indirect doees
 (albeit possibly with different [maSdar]{.trn2}s).
 For example:
 
-(@) [وَجَدَ عَلَيْهِ]{.ar}
+(@ex000162) [وَجَدَ عَلَيْهِ]{.ar}
     [Lane: root [وجد]{.ar}]{.citex}  
     "He was angry with him."
 
-(@) [وَجَدَ بِهَا]{.ar}
+(@ex000163) [وَجَدَ بِهَا]{.ar}
     [Lane: root [وجد]{.ar}]{.citex}  
     "He loved her."
 
-(@) [قَدْ وَجَدَ فِي نَفْسِهِ عَلَىَّ]{.ar}
+(@ex000164) [قَدْ وَجَدَ فِي نَفْسِهِ عَلَىَّ]{.ar}
     [[[صحيح مسلم]{.ar} :1649b](https://sunnah.com/muslim:1649b)]{.citex}  
     "he may have some feelings against me"
 
@@ -420,7 +420,7 @@ were actually expressed.
 When expressed, they impart their own meaning.
 For example
 
-(@) [زَيْدٌ مُسْتَقِرٌّ فِي ٱلدَّارِ]{.ar}  
+(@ex000165) [زَيْدٌ مُسْتَقِرٌّ فِي ٱلدَّارِ]{.ar}  
     "Zayd is settled in the house."
 
 When implicating general beingness we only use the words
@@ -446,10 +446,10 @@ So if we remove it (and the following i-state noun [ٱلدَّار]{.ar}) from t
 we should still be left with a complete sentence.
 Let's try doing that:
 
-(@) [زَيْدٌ [مُسْتَقِرٌّ]]{.ar}  
+(@ex000166) [زَيْدٌ [مُسْتَقِرٌّ]]{.ar}  
     "Zayd is [being]."
 
-See how the implied general beingness serves as the structural structure-completer: the info.
+See how the implied general beingness serves as the indispensable structure-completer: the info.
 If we were to not implicate general beingness, we would be left with a grammatically incomplete sentence.
 
 We also take this opportunity to explain an apparent inconsistency.
@@ -469,7 +469,7 @@ other governors of prepositions too may be optionally suppressed.
 This is done on the condition that that the overall meaning or context supplies the meaning of the suppressed governor.^[[النحو الوافي]{.ar} 2/447 footnote]
 For example:
 
-(@) [ٱلْحُرُّ بٱلْحُرِّ]{.ar}
+(@ex000167) [ٱلْحُرُّ بٱلْحُرِّ]{.ar}
     [[[سورة البقرة]{.ar} 2:178](https://quran.com/2/178) cited by [النحو الوافي]{.ar} 2/447]{.citex}  
     "the free for the free"
 
@@ -497,7 +497,7 @@ So what then is governing the preposition [عَلَىٰ]{.ar}.
 
 Here again, we implicate the governor of general beingness, as if to say:
 
-(@) [رأيتُ طائرًا [مُسْتَقِرًّا] على الغصن]{.ar}  
+(@ex000168) [رأيتُ طائرًا [مُسْتَقِرًّا] على الغصن]{.ar}  
     "I saw a bird [being] on the branch."
 
 General beingness
@@ -523,24 +523,24 @@ We will discuss this in more detail in chapter\ (ref) section\ (ref) if Allāh w
 Here are some more examples of prepositional phrases as attributes:
 
 <!--
-(@) [لَقَدْ جَاءَكُمْ رَسُولٌ مِنْ أَنْفُسِكُمْ]{.ar}
+(@ex000169) [لَقَدْ جَاءَكُمْ رَسُولٌ مِنْ أَنْفُسِكُمْ]{.ar}
     [[[سورة التوبة]{.ar} 9:128](https://quran.com/9/128)]{.citex}  
     "There has certainly come to you a Messenger from among yourselves."  
     ([مِنْ أَنْفُسِكُمْ]{.ar} is analyzed as a attribute^[])
 -->
 
-(@) [كَمَثَلِ جَنَّةٍ بِرَبْوَةٍ]{.ar}
+(@ex000170) [كَمَثَلِ جَنَّةٍ بِرَبْوَةٍ]{.ar}
     [[[سورة البقرة]{.ar} 2:265](https://quran.com/2/265)]{.citex}  
     "like a garden on high ground"  
     ([بِرَبْوَةٍ]{.ar} is analyzed as a attribute.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/2/265) for [سورة البقرة]{.ar} 2:265])
 
-(@) [رَبَّنَا وَٱبْعَثْ فِیهِمْ رَسُولًا مِّنْمْهُ]{.ar}
+(@ex000171) [رَبَّنَا وَٱبْعَثْ فِیهِمْ رَسُولًا مِّنْمْهُ]{.ar}
     [[[سورة البقرة]{.ar} 2:129](https://quran.com/2/129)]{.citex}  
     "Our Lord, and send among them a messenger from themselves"  
     ([مِنْهُمْ]{.ar} is analyzed as a attribute.^[[[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/2/129) for [سورة البقرة]{.ar} 2:129])
 
 <!--
-(@) [وَقَالُوا لَوْلَا نُزِّلَ هَـٰذَا ٱلْقُرْءَانُ عَلَىٰ رَجُلٍ مِنَ ٱلْقَرْيَتَيْنِ عَظِيمٍ]{.ar}
+(@ex000172) [وَقَالُوا لَوْلَا نُزِّلَ هَـٰذَا ٱلْقُرْءَانُ عَلَىٰ رَجُلٍ مِنَ ٱلْقَرْيَتَيْنِ عَظِيمٍ]{.ar}
     [[[سورة الزخرف]{.ar} 43:31](https://quran.com/43/31)]{.citex}  
     And they said, "Why was this Qur’ān not sent down upon a great man from [one of] the two cities?"  
 -->
@@ -644,11 +644,11 @@ And we will discuss sentence word-order generally in chapter\ (ref) if Allāh wi
 
 TODO: move to word order chapter:
 
-(@) [ضرب موسى عيسى]
+(@ex000173) [ضرب موسى عيسى]
 
-(@) [اشترى كمثرى موسى]{.ar}
+(@ex000174) [اشترى كمثرى موسى]{.ar}
 
-(@) [وضرب ليلى عيسى]{.ar}
+(@ex000175) [وضرب ليلى عيسى]{.ar}
 
 [النحو الوافي]{.ar} 2/54
 -->
@@ -666,25 +666,25 @@ This may be done for a number of purposes:
 
 For example:
 
-(@) [وَمِنْهُ تَفَجَّرُ أَنْهَارُ الْجَنَّةِ]{.ar}
+(@ex000176) [وَمِنْهُ تَفَجَّرُ أَنْهَارُ الْجَنَّةِ]{.ar}
     [[[صحيح البخاري]{.ar} :2790](https://sunnah.com/bukhari:2790)]{.citex}  
     "and from it originate the rivers of Paradise"
 
-(@) [وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ]{.ar}
+(@ex000177) [وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ]{.ar}
     [[[سورة آل عمران]{.ar} 3:122](https://quran.com/3/122) cited by [معاني النحو]{.ar} 3/121]{.citex}  
     "and upon Allāh the believers should rely."  
 
 ##### For drawing attention to the noun following the preposition^[[معاني النحو]{.ar} 3/121] {.unnumbered}
 
-(@) [وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ]{.ar}
+(@ex000178) [وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ]{.ar}
     [[[سورة آل عمران]{.ar} 3:180](https://quran.com/3/180) cited by [معاني النحو]{.ar} 3/123]{.citex}  
     "And Allāh, of what you do, is [fully] Aware."
 
-(@) [أَلِهَـٰذَا جَمَعْتَنَا]{.ar}
+(@ex000179) [أَلِهَـٰذَا جَمَعْتَنَا]{.ar}
     [[[صحيح البخاري]{.ar} :4770](https://sunnah.com/bukhari:4770)]{.citex}  
     "Is it for _this_ (that) you have gathered us?"
 
-(@) [وَبِٱلْأَسْحَارِ هُمْ يَسْتَغْفِرُونَ]{.ar}
+(@ex000180) [وَبِٱلْأَسْحَارِ هُمْ يَسْتَغْفِرُونَ]{.ar}
     [[[سورة الذاريات]{.ar} 51:18](https://quran.com/51/18)]{.citex}  
     "And in the hours before dawn they would ask forgiveness"  
     (The prepositional phrase [بِٱلْأَسْحَارِ]{.ar} is placed not just before its governor in the info [يَسْتَغْفِرُونَ]{.ar}, but also before the subject [هُمْ]{.ar}.)
@@ -702,7 +702,7 @@ We have to say instead
 But an exception is made for the preposition which is governed by the doer participle.
 So we can say:
 
-(@) [أنا لك المرافق]{.ar}
+(@ex000181) [أنا لك المرافق]{.ar}
     [[النحو الوافي]{.ar} 3/263]{.citex}  
     [I am, for you, the travelling companion.]{.trans}
 
@@ -749,7 +749,7 @@ There are six possible permutations of word-order of the above example.
 
 ...
 
-(@) [عمرا زيد ضرب]{.ar}
+(@ex000182) [عمرا زيد ضرب]{.ar}
 
 In examples ... the doee [عمرا]{.ar} precedes its governor [ضرب]{.ar}.
 This is generally permitted for stylistic (?) aspects, as we will discuss in chapter (ref).
@@ -766,6 +766,6 @@ Peled, _Sentence types_ considers this dubious or unattested. Search for OSV in 
 
 ## [عطف]{.ar}
 
-(@) [مررت بزيد وعمرو، وعمرً]{.ar}
+(@ex000183) [مررت بزيد وعمرو، وعمرً]{.ar}
     [<https://shamela.ws/book/13301/1664>]{.citex}
 
