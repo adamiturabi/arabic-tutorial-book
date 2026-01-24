@@ -1069,6 +1069,14 @@ def populate_resource_list():
     , bib_text = "Baalbaki, R., Introduction to _The early Islamic grammatical tradition_, Routledge, 2016."
     , sort_key = 'baalbaki introduction early islamic grammatical tradition'
     ))
+  resource_list.append(BibResource(
+    "suleiman_ta3leel"
+    , cit_type = "ws_ref"
+    , cit_text = "Suleiman, , _The Arabic Grammatical Tradition: A study in ta‘līl_"
+    , bib_text = "Suleiman, Y., _The Arabic Grammatical Tradition: A study in ta‘līl_. Edinburgh University Press, 1999."
+    , sort_key = "suleiman arabic grammatical tradition A study in talil"
+    ))
+
 
 
   return resource_list

@@ -20,17 +20,21 @@ map_table["archly"] = "archetypically"
 map_table["ia"] = "if Allāh wills"
 map_table["quran"] = "Qurʾān"
 map_table["hadith"] = "[HadIv]{.trn2}"
+map_table["Hadith"] = "[#HadIv]{.trn2}"
 map_table["islam"] = "[#islAm]{.trn2}"
 map_table["ayah"] = "[Ayah]{.trn2}"
 map_table["surah"] = "[sUrah]{.trn2}"
 map_table["tafsir"] = "[tafsIr]{.trn2}"
 map_table["sca"] = "[sca]{.smallcaps}"
 map_table["msa"] = "[msa]{.smallcaps}"
+map_table["ah"] = "[ah]{.smallcaps}"
 
 map_table["samaa3"] = "attested usage"
 map_table["qiyaas"] = "analogy"
-map_table["3illah"] = "theoretical cause"
-map_table["taqdir"] = "theoretical model"
+map_table["3illah"] = "grammatical reason" #"theoretical cause"
+map_table["taqdir"] = "implication" # "theoretical model" imaginary utterance, virtual
+map_table["qaddar"] = "implicate"
+map_table["qaddared"] = "implicated"
 
 # inna and its sisters
 map_table["inna"] = "[إِنَّ]{.ar}"
@@ -79,6 +83,8 @@ map_table["triptote"] = "fully-flexible"
 map_table["tote"] = "flexible"
 map_table["ghair_mutasarrif"] = "rigid"
 map_table["mutasarrif"] = "flexible"
+map_table["mu3rab"] = "flexible"
+
 
 # active and passive voice
 map_table["active"] = "active" # "known-doer" verb?
