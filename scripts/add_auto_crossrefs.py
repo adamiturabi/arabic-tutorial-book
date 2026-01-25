@@ -88,8 +88,8 @@ def main():
 if __name__ == "__main__":
     import os
 
-    if not os.getenv("QUARTO_PROJECT_RENDER_ALL"):
-        exit()
+    #if not os.getenv("QUARTO_PROJECT_RENDER_ALL"):
+    #    exit()
 
     main()
 
