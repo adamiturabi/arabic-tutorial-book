@@ -1072,7 +1072,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "suleiman_ta3leel"
     , cit_type = "ws_ref"
-    , cit_text = "Suleiman, , _The Arabic Grammatical Tradition: A study in ta‘līl_"
+    , cit_text = "Suleiman, _The Arabic Grammatical Tradition: A study in ta‘līl_"
     , bib_text = "Suleiman, Y., _The Arabic Grammatical Tradition: A study in ta‘līl_. Edinburgh University Press, 1999."
     , sort_key = "suleiman arabic grammatical tradition A study in talil"
     ))
