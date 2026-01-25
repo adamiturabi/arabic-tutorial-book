@@ -1,3 +1,6 @@
+# To run:
+# python3 scripts/add_auto_crossrefs.py
+
 ex_count = 0
 sec_count = 0
 
@@ -88,8 +91,8 @@ def main():
 if __name__ == "__main__":
     import os
 
-    if not os.getenv("QUARTO_PROJECT_RENDER_ALL"):
-        exit()
+    #if not os.getenv("QUARTO_PROJECT_RENDER_ALL"):
+    #    exit()
 
     main()
 
