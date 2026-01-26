@@ -1098,6 +1098,14 @@ def populate_resource_list():
     , bib_text = "Suleiman, Y., _The Arabic Grammatical Tradition: A study in ta‘līl_. Edinburgh University Press, 1999."
     , sort_key = "suleiman arabic grammatical tradition A study in talil"
     ))
+  resource_list.append(BibResource(
+    "carter_thesis"
+    , cit_type = "ws_ref"
+    , cit_text = "Carter, _Sībawayhi's Principles_"
+    , bib_text = "Carter, M.\\ G., _Sībawayhi's Principles: Arabic grammar and law in early Islamic thought_. Lockwood Press, 2016."
+    , sort_key = "carter sibawayhis principles"
+    ))
+
 
 
 
