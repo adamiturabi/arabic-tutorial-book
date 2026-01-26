@@ -15,6 +15,7 @@ map_table["larr"] = "←"
 
 # text terms
 map_table["Allah"] = "Allāh"
+map_table["3amr"] = "[#eamr]{.trn2}"
 map_table["arch"] = "archetypical"
 map_table["archly"] = "archetypically"
 map_table["ia"] = "if Allāh wills"
@@ -32,9 +33,10 @@ map_table["ah"] = "[ah]{.smallcaps}"
 map_table["samaa3"] = "attested usage"
 map_table["qiyaas"] = "analogy"
 map_table["3illah"] = "grammatical reason" #"theoretical cause"
-map_table["taqdir"] = "implication" # "theoretical model" imaginary utterance, virtual
-map_table["qaddar"] = "implicate"
-map_table["qaddared"] = "implicated"
+map_table["ta3leel"] = "grammatical reasoning" #"theoretical cause"
+map_table["taqdir"] = "virtual model" # "theoretical model" imaginary utterance, virtual, implication
+map_table["qaddar"] = "virtually model"
+map_table["qaddared"] = "virtually modeled"
 
 # inna and its sisters
 map_table["inna"] = "[إِنَّ]{.ar}"

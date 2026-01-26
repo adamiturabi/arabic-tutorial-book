@@ -903,6 +903,28 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/174")
     , sort_key = "شرح الفارضي على الفية ابن مالك"
     ))
+  resource_list.append(BibResource(
+    "qiyaas_amsha"
+    , cit_type = "ar_ref"
+    , cit_text = "[القياس النحو لخالد حسين أبو عمشة]{.ar}"
+    , bib_text = """
+      الكتاب: القياس النحو  
+      المؤلف: لخالد حسين ابو عمشة  
+      """ + format_url_ar("https://ketabonline.com/ar/books/97698")
+    , sort_key = "القياس النحو لخالد حسين ابو عمشة"
+    ))
+  resource_list.append(BibResource(
+    "qiyaas_husain"
+    , cit_type = "ar_ref"
+    , cit_text = "[القياس في اللغة العربية لحسين محمد الخضر]{.ar}"
+    , bib_text = """
+      الكتاب: القياس في اللغة العربية  
+      المؤلف: حسين محمد الخضر  
+      الناشر: المطبعة السلفية، القاهرة  
+      الطبعة: ١٣٥٣ هـ - ١٩٣٥ م  
+      """
+    , sort_key = "القياس في اللغة العربية لحسين محمد الخضر"
+    ))
 
   # Western
 
