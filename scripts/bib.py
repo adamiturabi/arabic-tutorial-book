@@ -906,12 +906,12 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "qiyaas_amsha"
     , cit_type = "ar_ref"
-    , cit_text = "[القياس النحو لخالد حسين أبو عمشة]{.ar}"
+    , cit_text = "[القياس النحوي لخالد حسين أبو عمشة]{.ar}"
     , bib_text = """
-      الكتاب: القياس النحو  
+      الكتاب: القياس النحوي  
       المؤلف: لخالد حسين ابو عمشة  
       """ + format_url_ar("https://ketabonline.com/ar/books/97698")
-    , sort_key = "القياس النحو لخالد حسين ابو عمشة"
+    , sort_key = "القياس النحوي لخالد حسين ابو عمشة"
     ))
   resource_list.append(BibResource(
     "qiyaas_husain"
@@ -1094,15 +1094,15 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "suleiman_ta3leel"
     , cit_type = "ws_ref"
-    , cit_text = "Suleiman, _The Arabic Grammatical Tradition: A study in ta‘līl_"
-    , bib_text = "Suleiman, Y., _The Arabic Grammatical Tradition: A study in ta‘līl_. Edinburgh University Press, 1999."
-    , sort_key = "suleiman arabic grammatical tradition A study in talil"
+    , cit_text = "Suleiman, _The Arabic grammatical tradition: A study in ta‘līl_"
+    , bib_text = "Suleiman, Y., _The Arabic grammatical tradition: A study in ta‘līl_. Edinburgh University Press, 1999."
+    , sort_key = "suleiman arabic grammatical tradition a study in talil"
     ))
   resource_list.append(BibResource(
     "carter_thesis"
     , cit_type = "ws_ref"
-    , cit_text = "Carter, _Sībawayhi's Principles_"
-    , bib_text = "Carter, M.\\ G., _Sībawayhi's Principles: Arabic grammar and law in early Islamic thought_. Lockwood Press, 2016."
+    , cit_text = "Carter, _Sībawayhi's principles_"
+    , bib_text = "Carter, M.\\ G., _Sībawayhi's principles: Arabic grammar and law in early Islamic thought_. Lockwood Press, 2016."
     , sort_key = "carter sibawayhis principles"
     ))
 
