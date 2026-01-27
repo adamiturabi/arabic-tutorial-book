@@ -1,0 +1,130 @@
+\documentclass[tikz, border=5pt, multi]{standalone}
+%\usepackage [utf] {arabxetex}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fontspec}
+\usepackage{calc}
+\usepackage{xfp}
+%\defaultfontfeatures{Scale=MatchLowercase}
+%\defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\usetikzlibrary{calc, backgrounds}
+\usetikzlibrary{arrows.meta, decorations.text}
+\usetikzlibrary{shapes,positioning,intersections,quotes}
+
+\setmainfont{Charis}
+
+\newcommand\cetoah[1]{
+  \fpeval{((#1) - 622) * (365.25/(29.5*12))}
+}
+
+% Constants
+\def\begah{-100}
+\def\endah{1000}
+\def\beglong{0}
+\def\endlong{9}
+\def\regions{Spain, North Africa, Egypt, Syria, the Hijaz, Baghdad, Kufah, Basrah, Persia}
+\def\mixcolor{gray}
+
+% \dynasty{<color>}{<name>}{<startyear c.e.>}{<endyear c.e.>}{<graphical level (>0)>}
+%\dynasty{<color>}{<begregion>}{<endregion>}{<begyear ah>}{<endyear ah>}
+\newcommand\dynasty[5]{%
+\begin{pgfonlayer}{background}
+    % bar
+    %\fill [color=#1!10!\mixcolor]
+    \fill [color=#1!20]
+    ({#2-1},#4) rectangle (#3,#5);
+    % label
+    %\node [white, yshift=\dynastyvshift+#5\dynastyheight, font=\sffamily] 
+    %at ({#3+(#4-#3)/2},0) {#2};
+\end{pgfonlayer}
+}
+%x,y,xshift,yshift,label
+\newcommand\person[7]{%
+    \coordinate (pointnode)  at (#1,#2) {};
+    \node [fill, draw, circle, minimum width=2pt, inner sep=0] at (#1,#2) {};
+    \node (labelnode)  [inner sep=0, outer sep=0, #3 of=pointnode, xshift=#5, yshift=#6,anchor=#4] {\scriptsize #7};
+    \draw (pointnode)  -- (labelnode.#4);
+}
+
+\begin{document}
+\begin{tikzpicture}[y=0.1mm]
+
+\draw [help lines] (\beglong,\begah) grid (\endlong,\endah);
+
+% Axis
+\draw [->, very thick] (\beglong,0) -- (\endlong,0);
+\draw [->, very thick] (0,\begah) -- (0,\endah);
+
+% Axis ticks
+\foreach \y in {100,200,...,\endah} 
+    {\draw (0, \y) -- (-.2, \y) node [anchor=east, font=\bfseries] {\y};}
+
+\foreach [count=\i] \x in \regions {
+    %\node[label={\x}] (\i) at (\i-0.5, 0) {};
+    \node[rotate=90,align=left,anchor=east] () at (\i-0.5, 0) {\x};
+}
+    %\node[align=left,anchor=east] () at (7.5, 180) {Sibawayhi\x};
+    %\node[above right=10pt of {(7.5,180)}, outer sep=2pt,fill=white] {Spin distance=3mm,ibawayh};
+    %\node [fill, draw, circle, minimum width=3pt, inner sep=0pt, pin={[fill=white, outer sep=2pt]135:{\scriptsize Fulan}}] at (3.5,300) {};
+    %\node [fill, draw, circle, minimum width=2pt, inner sep=0pt, pin={[fill=white, outer sep=0pt]-45:{\scriptsize al-Khalil}}] at (7.5,170) {};
+    %\node (khalil) [fill, draw, circle, minimum width=2pt, inner sep=0, outer sep=0] at (7.5,170) {};
+    %\coordinate (khalil)  at (7.5,170) {};
+    %\node [fill, draw, circle, minimum width=2pt, inner sep=0] at (7.5,170) {};
+    %\node (khaliltext)  [inner sep=0, outer sep=0, right of=khalil, xshift=-1pt, yshift=-6pt] {\scriptsize al-Khalil};
+    %\draw (khalil)  -- (khaliltext);
+    % Baghdad
+    \person{7.5}{170}{right}{west}{-16}{-6}{al-Khalil}
+    \person{7.5}{180}{right}{west}{-16}{ 8}{Sibawayh}
+    \person{7.5}{182}{right}{west}{-16}{ 0}{Yunus b. Habib}
+    \person{7.5}{215}{right}{west}{-16}{ 6}{al-Akhfash al-Awsat}
+    \person{7.5}{285}{right}{west}{-16}{ 6}{al-Mubarrad}
+
+    % Kufah
+    %\person{6.5}{150}{left} {east}{ 16}{0}{Abu Hanifah}
+    \person{6.5}{189}{left} {east}{ 16}{-4}{al-Kisai}
+    \person{6.5}{207}{left} {east}{ 16}{0}{al-Farra}
+    \person{6.5}{291}{left} {east}{ 16}{0}{Thaelab}
+
+    % Baghdad
+    \person{5.5}{316}{left} {east}{ 16}{0}{Ibn al-Sarraj}
+    \person{5.5}{337}{left} {east}{ 16}{0}{al-Zajjaji}
+    \person{5.5}{368}{left} {east}{ 16}{0}{al-Sirafi}
+    \person{5.5}{384}{left} {east}{ 16}{2}{al-Rummani}
+    \person{5.5}{392}{left} {east}{ 16}{8}{Ibn Jinni}
+    \person{5.5}{577}{left} {east}{ 16}{0}{Abu al-Barakaat al-Anbari}
+
+    % Syria
+    \person{3.5}{643}{right} {west}{-16}{0}{Ibn Yaeish}
+    \person{3.5}{672}{right} {west}{-16}{0}{Ibn Malik}
+
+    % Egypt
+    %\person{2.5}{204}{right} {west}{-16}{0}{al-Shafiei}
+    \person{2.5}{745}{right} {west}{-16}{-2}{Abu Hayyan}
+    \person{2.5}{761}{right} {west}{-16}{3}{Ibn Hisham}
+    \person{2.5}{769}{right} {west}{-16}{8}{Ibn Eaqil}
+    \person{2.5}{900}{right} {west}{-16}{0}{al-Ashmuni}
+    \person{2.5}{911}{right} {west}{-16}{6}{al-Suyuti}
+
+    % Persia
+    \person{8.5}{471}{left} {east}{ 16}{0}{al-Jurjani}
+    \person{8.5}{538}{left} {east}{ 16}{0}{al-Zamakhshari}
+    \person{8.5}{684}{left} {east}{ 16}{0}{al-Radiyy al-Astarabadhi}
+
+    % Andalus
+    \person{0.5}{592}{right}{west}{-16}{ 0}{Ibn Mada}
+    \person{0.5}{669}{right}{west}{-16}{ 0}{Ibn Eusfur}
+
+    % North Africa
+    \person{1.5}{723}{right}{west}{-16}{-4}{Ibn Ajurrum}
+
+
+    %\node [fill, draw, circle, minimum width=2pt, inner sep=0pt, pin={[pin distance=0.01mm,fill=white, outer sep=0pt]0:{\scriptsize Sibawayh d.\ 180}}] at (7.5,180) {};
+
+
+
+
+    \dynasty    {OliveGreen}   {2.5}  {8.5}    {11}    {41}  % Prophet pbuh
+    \dynasty    {OliveGreen}   {5}    {5}      {0}     {11}  % rashidun
+    \dynasty    {Gray}         {2}    {9}      {41}    {132} % ummayads me
+    \dynasty    {Gray}         {1}    {1}      {\cetoah{756}}    {\cetoah{1031}} % ummayads me
+\end{tikzpicture}
+\end{document}
