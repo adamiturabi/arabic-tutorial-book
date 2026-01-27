@@ -21,20 +21,20 @@
 \def\endah{1000}
 \def\beglong{0}
 \def\endlong{9}
-\def\regions{Spain, North Africa, Egypt, Syria, the Hijaz, Baghdad, Kufah, Basrah, Persia}
+\def\regions{Spain, North Africa, Egypt, Syria, Arabia, Baghdad, Kufah, Basrah, Persia}
 \def\mixcolor{gray}
 
 % \dynasty{<color>}{<name>}{<startyear c.e.>}{<endyear c.e.>}{<graphical level (>0)>}
-%\dynasty{<color>}{<begregion>}{<endregion>}{<begyear ah>}{<endyear ah>}
-\newcommand\dynasty[5]{%
+%\dynasty{<color>}{<begregion>}{<endregion>}{<begyear ah>}{<endyear ah>}{<name>}
+\newcommand\dynasty[6]{%
 \begin{pgfonlayer}{background}
     % bar
     %\fill [color=#1!10!\mixcolor]
     \fill [color=#1!20]
     ({#2-1},#4) rectangle (#3,#5);
     % label
-    %\node [white, yshift=\dynastyvshift+#5\dynastyheight, font=\sffamily] 
-    %at ({#3+(#4-#3)/2},0) {#2};
+    \node [white, yshift=0pt, font=\sffamily] 
+    at ({#2-1+(#3-#2+1)/2},{#4+(#5-#4)/2}) {#6};
 \end{pgfonlayer}
 }
 %x,y,xshift,yshift,label
@@ -90,7 +90,7 @@
     \person{5.5}{368}{left} {east}{ 16}{0}{al-Sirafi}
     \person{5.5}{384}{left} {east}{ 16}{2}{al-Rummani}
     \person{5.5}{392}{left} {east}{ 16}{8}{Ibn Jinni}
-    \person{5.5}{577}{left} {east}{ 16}{0}{Abu al-Barakaat al-Anbari}
+    \person{5.5}{577}{right} {west}{-16}{0}{Abu al-Barakat al-Anbari}
 
     % Syria
     \person{3.5}{643}{right} {west}{-16}{0}{Ibn Yaeish}
@@ -122,9 +122,19 @@
 
 
 
-    \dynasty    {OliveGreen}   {2.5}  {8.5}    {11}    {41}  % Prophet pbuh
-    \dynasty    {OliveGreen}   {5}    {5}      {0}     {11}  % rashidun
-    \dynasty    {Gray}         {2}    {9}      {41}    {132} % ummayads me
-    \dynasty    {Gray}         {1}    {1}      {\cetoah{756}}    {\cetoah{1031}} % ummayads me
+    \dynasty    {OliveGreen}   {5}    {5}      {0}     {11}  {} % Prophet pbuh
+    \dynasty    {OliveGreen}   {2.5}  {8.5}    {11}    {41}  {RASHIDUN}
+    \dynasty    {Blue}         {2}    {9}      {41}    {132} {UMMAYADS}
+    \dynasty    {Blue}         {1}    {1}      {\cetoah{756}}    {\cetoah{1031}} {UMMAYADS}
+    \dynasty    {Yellow}       {2}    {9}      {132}    {\cetoah{930}} {ABBASIDS}
+    \dynasty    {Yellow}       {5}    {5}      {\cetoah{909}}    {600} {}% Abbasids
+    \dynasty    {Orange}       {3}    {4}      {\cetoah{930}}    {\cetoah{1171}} {FATIMIDS}
+    \dynasty    {Brown}        {3}    {4}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}
+    \dynasty    {Turquoise}    {6}    {9}      {\cetoah{1000}}   {\cetoah{1258}} {SELJUKS}
+    \dynasty    {Maroon}       {6}    {9}      {\cetoah{930}}    {\cetoah{1055}} {BUYIDS}
+    \dynasty    {Black}        {6}    {9}      {\cetoah{1258}}   {\cetoah{1335}} {MONGOLS}
+    \dynasty    {Purple}       {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {MAMLUKS}
+
+
 \end{tikzpicture}
 \end{document}
