@@ -102,9 +102,10 @@ but they were more geographically widespread.
 Many famous later grammarians operated out of
 [#bagdAd]{.trn2}, Egypt, Syria, Persia, and [al-E#andalus]{.trn2} (;islam;ic Spain).
 
-The following figure depicts a timeline of some of the more well-known grammarians.
+The following figure depicts a timeline of some of the more well-known grammarians.^[adapted from Andreas Hallberg's blog post <https://andreasmhallberg.github.io/timeline-of-arab-grammarians>, and Ovamir Anjum's presentation at the Muslim Community Association, Santa Clara, Calif., 2013. <https://www.youtube.com/watch?v=Y6lRewelwrc&list=PLCbwKYxdBxRjCjf2qpQJTGysBmeiUFOXK>]
 
-```{.tikzarabic caption="A caption"}
+```{.tikzarabic}
+
 \usetikzlibrary{calc, backgrounds}
 \usetikzlibrary{arrows.meta, decorations.text}
 \usetikzlibrary{shapes,positioning,intersections,quotes}
