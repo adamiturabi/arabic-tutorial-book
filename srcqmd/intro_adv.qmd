@@ -104,7 +104,7 @@ Many famous later grammarians operated out of
 
 The following figure depicts a timeline of some of the more well-known grammarians.
 
-```{.tikzarabic}
+```{.tikzarabic caption="A caption"}
 \usetikzlibrary{calc, backgrounds}
 \usetikzlibrary{arrows.meta, decorations.text}
 \usetikzlibrary{shapes,positioning,intersections,quotes}
@@ -219,13 +219,14 @@ The following figure depicts a timeline of some of the more well-known grammaria
     \dynasty    {OliveGreen}      {2.5}  {8.5}    {11}    {41}  {RASHIDUN}{}
     \dynasty    {Blue}            {2}    {9}      {41}    {132} {UMMAYADS}{}
     \dynasty    {Blue}            {1}    {1}      {\cetoah{756}}    {\cetoah{1031}} {UMMAYADS}{rotate=90}
-    \dynasty    {MidnightBlue}    {2}    {9}      {132}             {\cetoah{930}} {ABBASIDS}{yshift=6pt}
+    \dynasty    {MidnightBlue}    {2}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{yshift=6pt}
     \dynasty    {MidnightBlue}    {5}    {5}      {\cetoah{909}}    {600} {}{}% Abbasids
     \dynasty    {Orange}          {3}    {4}      {\cetoah{930}}    {\cetoah{1171}} {FATIMIDS}{}
+    \dynasty    {Orange}          {2}    {2}      {207}             {\cetoah{945}} {}{}
     \dynasty    {PineGreen}       {3}    {4}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
     \dynasty    {PineGreen}       {5}    {5}      {600}             {\cetoah{1250}} {}{}
     \dynasty    {Turquoise}       {6}    {9}      {\cetoah{1000}}   {\cetoah{1258}} {SELJUKS}{}
-    \dynasty    {Maroon}          {6}    {9}      {\cetoah{930}}    {\cetoah{1055}} {BUYIDS}{}
+    \dynasty    {Maroon}          {6}    {9}      {\cetoah{945}}    {\cetoah{1055}} {BUYIDS}{}
     \dynasty    {Black}           {6}    {9}      {\cetoah{1258}}   {\cetoah{1335}} {MONGOLS}{}
     \dynasty    {Purple}          {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {MAMLUKS}{yshift=15pt}
     \dynasty    {CadetBlue}       {1}    {1}      {\cetoah{1056}}   {\cetoah{1492}} {smaller dynasties}{rotate=90}
