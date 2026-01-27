@@ -229,9 +229,8 @@ The following figure depicts a timeline of some of the more well-known grammaria
     \dynasty    {Black}           {6}    {9}      {\cetoah{1258}}   {\cetoah{1335}} {MONGOLS}{}
     \dynasty    {Purple}          {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {MAMLUKS}{yshift=15pt}
     \dynasty    {CadetBlue}       {1}    {1}      {\cetoah{1056}}   {\cetoah{1492}} {smaller dynasties}{rotate=90}
-
-
-
+    \dynasty    {Sepia}           {6}    {9}      {\cetoah{1335}}   {\cetoah{1508}} {TURKMEN\\ DYNASTIES}{}
+    \dynasty    {Magenta}         {2}    {8}      {\cetoah{1517}}   {1000} {OTTOMANS}{}
 
 \end{tikzpicture}
 ```
