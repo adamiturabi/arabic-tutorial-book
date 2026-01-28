@@ -135,6 +135,12 @@ Many famous later grammarians operated out of
 
 
 The following figure depicts a (year of death) timeline and geographical distribution of some of the more well-known grammarians.^[adapted from Andreas Hallberg's blog post <https://andreasmhallberg.github.io/timeline-of-arab-grammarians>, and Ovamir Anjum's presentation at the Muslim Community Association, Santa Clara, Calif., 2013. <https://www.youtube.com/watch?v=Y6lRewelwrc&list=PLCbwKYxdBxRjCjf2qpQJTGysBmeiUFOXK>]
+For some of the earlier grammarians, a [(b)]{.smallcaps} after their name
+indicates an affiliation with the
+;Basr;an school,
+and a [(k)]{.smallcaps}
+indicates an affiliation with the
+;Kuf;an school.
 
 ```{.tikzarabic}
 % The following code is adapted from adapted from Andreas Hallberg’s https://andreasmhallberg.github.io/timeline-of-arab-grammarians
@@ -211,11 +217,11 @@ The following figure depicts a (year of death) timeline and geographical distrib
 }
 
     % Baghdad
-    \person{7.5}{170}{right}{west}{-16}{-6}{al-K͡halīl (\textsc{b})}
+    \person{7.5}{170}{right}{west}{-16}{-12}{al-K͡halīl (\textsc{b})}
+    \person{7.5}{182}{right}{west}{-16}{-8}{Yūnus (\textsc{b})}
     \person{7.5}{180}{right}{west}{-16}{ 8}{Sībawayh (\textsc{b})}
-    \person{7.5}{182}{right}{west}{-16}{ 0}{Yūnus (\textsc{b})}
-    \person{7.5}{215}{above}{south}{-16}{ 6}{al-Ak͡hfas͡h al-Awsaṭ (\textsc{b})}
-    \person{7.5}{285}{right}{west}{-26}{ 6}{al-Mubarrad (\textsc{b})}
+    \person{7.5}{215}{above}{south}{16}{ -20}{al-Ak͡hfas͡h al-Awsaṭ (\textsc{b})}
+    \person{7.5}{285}{above}{south}{20}{-20}{al-Mubarrad (\textsc{b})}
 
     % Kufah
     %\person{6.5}{150}{left} {east}{ 16}{0}{Abu Hanifah}
