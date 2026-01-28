@@ -100,12 +100,40 @@ After that, grammarians would still often be ascribed academically
 to one of the two schools,
 but they were more geographically widespread.
 Many famous later grammarians operated out of
-[#bagdAd]{.trn2}, Egypt, Syria, Persia, and [al-E#andalus]{.trn2} (;islam;ic Spain).
+[#bagdAd]{.trn2}, Egypt, Syria, Persia, and [al-#andalus]{.trn2} (;islam;ic Spain).
+
+<!--
+[al-#kisAEI]{.trn2}  
+[#yUnus]{.trn2}  
+[#sIbawayh]{.trn2}  
+[al-#xalIl]{.trn2}  
+[al-#farrAE]{.trn2}  
+[#vaelab]{.trn2}  
+[#sarrAj]{.trn2}  
+[#zajjAjI]{.trn2}  
+[#sIrAfI]{.trn2}  
+[#jinnI]{.trn2}  
+[#jurjAnI]{.trn2}  
+[#zamaxcarI]{.trn2}  
+[#abU al-#barakAt al-#anbArI]{.trn2}  
+[al-#raDiyy al-#astarAbApI]{.trn2}  
+[#yaeIc]{.trn2}  
+[#mAlik]{.trn2}  
+[#AjurrUm]{.trn2}  
+[#euSfUr]{.trn2}  
+[#maDAE]{.trn2}  
+[#abU #HayyAn]{.trn2}  
+[#eaqIl]{.trn2}  
+[#hicAm]{.trn2}  
+[#suyUTI]{.trn2}  
+[#acmUnI]{.trn2}  
+[al-#axfac al-#awsaT]{.trn2}  
+-->
 
 The following figure depicts a timeline of some of the more well-known grammarians.^[adapted from Andreas Hallberg's blog post <https://andreasmhallberg.github.io/timeline-of-arab-grammarians>, and Ovamir Anjum's presentation at the Muslim Community Association, Santa Clara, Calif., 2013. <https://www.youtube.com/watch?v=Y6lRewelwrc&list=PLCbwKYxdBxRjCjf2qpQJTGysBmeiUFOXK>]
 
 ```{.tikzarabic}
-
+% The following code is adapted from adapted from Andreas Hallberg’s https://andreasmhallberg.github.io/timeline-of-arab-grammarians
 \usetikzlibrary{patterns}
 \usetikzlibrary{calc, backgrounds}
 \usetikzlibrary{arrows.meta, decorations.text}
@@ -123,7 +151,7 @@ The following figure depicts a timeline of some of the more well-known grammaria
 \def\endah{1000}
 \def\beglong{0}
 \def\endlong{9}
-\def\regions{Spain, North Africa, Egypt, Syria, Arabia, Baghdad, Kufah, Basrah, Persia}
+\def\regions{al-Andalus, North Africa, Egypt, Syria, Arabia, Bag͡hdād, al-Kūfah, al-Baṣrah, Persia}
 \def\mixcolor{gray}
 
 %\dynasty{<color>}{<begregion>}{<endregion>}{<begyear ah>}{<endyear ah>}{<name>}{<yshift>}
@@ -174,49 +202,49 @@ The following figure depicts a timeline of some of the more well-known grammaria
 }
 
     % Baghdad
-    \person{7.5}{170}{right}{west}{-16}{-6}{al-Khalil}
-    \person{7.5}{180}{right}{west}{-16}{ 8}{Sibawayh}
-    \person{7.5}{182}{right}{west}{-16}{ 0}{Yunus b. Habib}
-    \person{7.5}{215}{right}{west}{-16}{ 6}{al-Akhfash al-Awsat}
-    \person{7.5}{285}{right}{west}{-16}{ 6}{al-Mubarrad}
+    \person{7.5}{170}{right}{west}{-16}{-6}{al-K͡halīl}
+    \person{7.5}{180}{right}{west}{-16}{ 8}{Sībawayh}
+    \person{7.5}{182}{right}{west}{-16}{ 0}{Yūnus}
+    \person{7.5}{215}{above}{south}{-16}{ 6}{al-Ak͡hfas͡h al-Awsaṭ}
+    \person{7.5}{285}{right}{west}{-26}{ 6}{al-Mubarrad}
 
     % Kufah
     %\person{6.5}{150}{left} {east}{ 16}{0}{Abu Hanifah}
-    \person{6.5}{189}{left} {east}{ 16}{-4}{al-Kisai}
-    \person{6.5}{207}{left} {east}{ 16}{0}{al-Farra}
-    \person{6.5}{291}{left} {east}{ 16}{0}{Thaelab}
+    \person{6.5}{189}{left} {east}{ 16}{-4}{al-Kisāʾī}
+    \person{6.5}{207}{left} {east}{ 16}{0}{al-Farrāʾ}
+    \person{6.5}{291}{left} {east}{ 16}{0}{T͡haɛlab}
 
     % Baghdad
-    \person{5.5}{316}{left} {east}{ 16}{0}{Ibn al-Sarraj}
-    \person{5.5}{337}{left} {east}{ 16}{0}{al-Zajjaji}
-    \person{5.5}{368}{left} {east}{ 16}{0}{al-Sirafi}
-    \person{5.5}{384}{left} {east}{ 16}{2}{al-Rummani}
-    \person{5.5}{392}{left} {east}{ 16}{8}{Ibn Jinni}
-    \person{5.5}{577}{right} {west}{-16}{6}{Abu al-Barakat al-Anbari}
+    \person{5.5}{316}{left} {east}{ 16}{0}{Ibn al-Sarrāj}
+    \person{5.5}{337}{left} {east}{ 16}{0}{al-Zajjājī}
+    \person{5.5}{368}{left} {east}{ 16}{0}{al-Sīrāfī}
+    \person{5.5}{384}{left} {east}{ 16}{2}{al-Rummānī}
+    \person{5.5}{392}{left} {east}{ 16}{8}{Ibn Jinnī}
+    \person{5.5}{577}{right} {west}{-16}{6}{Abū al-Barakāt al-Anbārī}
 
     % Syria
-    \person{3.5}{643}{right} {west}{-16}{0}{Ibn Yaeish}
-    \person{3.5}{672}{right} {west}{-16}{0}{Ibn Malik}
+    \person{3.5}{643}{right} {west}{-16}{0}{Ibn Yaɛīs͡h}
+    \person{3.5}{672}{right} {west}{-16}{0}{Ibn Mālik}
 
     % Egypt
     %\person{2.5}{204}{right} {west}{-16}{0}{al-Shafiei}
-    \person{2.5}{745}{right} {west}{-16}{-2}{Abu Hayyan}
-    \person{2.5}{761}{right} {west}{-16}{3}{Ibn Hisham}
-    \person{2.5}{769}{right} {west}{-16}{8}{Ibn Eaqil}
-    \person{2.5}{900}{right} {west}{-16}{0}{al-Ashmuni}
-    \person{2.5}{911}{right} {west}{-16}{6}{al-Suyuti}
+    \person{2.5}{745}{right} {west}{-16}{-2}{Abū Ḥayyān}
+    \person{2.5}{761}{right} {west}{-16}{3}{Ibn His͡hām}
+    \person{2.5}{769}{right} {west}{-16}{8}{Ibn Ɛaqīl}
+    \person{2.5}{900}{right} {west}{-16}{0}{al-As͡hmūnī}
+    \person{2.5}{911}{right} {west}{-16}{6}{al-Suyūṭī}
 
     % Persia
-    \person{8.5}{471}{left} {east}{ 16}{0}{al-Jurjani}
-    \person{8.5}{538}{left} {east}{ 16}{6}{al-Zamakhshari}
-    \person{8.5}{684}{left} {east}{ 16}{-6}{al-Radiyy al-Astarabadhi}
+    \person{8.5}{471}{left} {east}{ 16}{0}{al-Jurjānī}
+    \person{8.5}{538}{left} {east}{ 16}{6}{al-Zamak͡hs͡harī}
+    \person{8.5}{684}{left} {east}{ 16}{-6}{al-Raḍiyy al-Astarābād͡hī}
 
     % Andalus
-    \person{0.5}{592}{right}{west}{-16}{ 0}{Ibn Mada}
-    \person{0.5}{669}{right}{west}{-16}{ 0}{Ibn Eusfur}
+    \person{0.5}{592}{right}{west}{-16}{ 0}{Ibn Maḍāʾ}
+    \person{0.5}{669}{right}{west}{-16}{ 0}{Ibn Ɛuṣfūr}
 
     % North Africa
-    \person{1.5}{723}{right}{west}{-16}{-4}{Ibn Ajurrum}
+    \person{1.5}{723}{right}{west}{-16}{-4}{Ibn Ājurrūm}
 
     \dynasty    {bricks}            {5}    {5}      {0}     {11}  {}{} % Prophet pbuh
     \dynasty    {bricks}            {2.5}  {8.5}    {11}    {41}  {RASHIDUN}{}
