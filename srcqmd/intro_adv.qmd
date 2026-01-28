@@ -128,9 +128,13 @@ Many famous later grammarians operated out of
 [#suyUTI]{.trn2}  
 [#acmUnI]{.trn2}  
 [al-#axfac al-#awsaT]{.trn2}  
+[#abU #isHAq al-#cATibI]{.trn2}
+[#abU #ealiyy al-#fArisI]{.trn2}
+[Ibn #fAris]{.trn2}
 -->
 
-The following figure depicts a timeline and geographical distribution of some of the more well-known grammarians.^[adapted from Andreas Hallberg's blog post <https://andreasmhallberg.github.io/timeline-of-arab-grammarians>, and Ovamir Anjum's presentation at the Muslim Community Association, Santa Clara, Calif., 2013. <https://www.youtube.com/watch?v=Y6lRewelwrc&list=PLCbwKYxdBxRjCjf2qpQJTGysBmeiUFOXK>]
+
+The following figure depicts a (year of death) timeline and geographical distribution of some of the more well-known grammarians.^[adapted from Andreas Hallberg's blog post <https://andreasmhallberg.github.io/timeline-of-arab-grammarians>, and Ovamir Anjum's presentation at the Muslim Community Association, Santa Clara, Calif., 2013. <https://www.youtube.com/watch?v=Y6lRewelwrc&list=PLCbwKYxdBxRjCjf2qpQJTGysBmeiUFOXK>]
 
 ```{.tikzarabic}
 % The following code is adapted from adapted from Andreas Hallberg’s https://andreasmhallberg.github.io/timeline-of-arab-grammarians
@@ -207,25 +211,26 @@ The following figure depicts a timeline and geographical distribution of some of
 }
 
     % Baghdad
-    \person{7.5}{170}{right}{west}{-16}{-6}{al-K͡halīl}
-    \person{7.5}{180}{right}{west}{-16}{ 8}{Sībawayh}
-    \person{7.5}{182}{right}{west}{-16}{ 0}{Yūnus}
-    \person{7.5}{215}{above}{south}{-16}{ 6}{al-Ak͡hfas͡h al-Awsaṭ}
-    \person{7.5}{285}{right}{west}{-26}{ 6}{al-Mubarrad}
+    \person{7.5}{170}{right}{west}{-16}{-6}{al-K͡halīl (\textsc{b})}
+    \person{7.5}{180}{right}{west}{-16}{ 8}{Sībawayh (\textsc{b})}
+    \person{7.5}{182}{right}{west}{-16}{ 0}{Yūnus (\textsc{b})}
+    \person{7.5}{215}{above}{south}{-16}{ 6}{al-Ak͡hfas͡h al-Awsaṭ (\textsc{b})}
+    \person{7.5}{285}{right}{west}{-26}{ 6}{al-Mubarrad (\textsc{b})}
 
     % Kufah
     %\person{6.5}{150}{left} {east}{ 16}{0}{Abu Hanifah}
-    \person{6.5}{189}{left} {east}{ 16}{-4}{al-Kisāʾī}
-    \person{6.5}{207}{left} {east}{ 16}{0}{al-Farrāʾ}
-    \person{6.5}{291}{left} {east}{ 16}{0}{T͡haɛlab}
+    \person{6.5}{189}{left} {east}{ 16}{-4}{al-Kisāʾī (\textsc{k})}
+    \person{6.5}{207}{left} {east}{ 16}{0}{al-Farrāʾ (\textsc{k})}
 
     % Baghdad
-    \person{5.5}{316}{left} {east}{ 16}{-6}{Ibn al-Sarrāj}
+    \person{5.5}{291}{left} {east}{ 16}{-1}{T͡haɛlab (\textsc{k})}
+    \person{5.5}{316}{left} {east}{ 16}{-1}{Ibn al-Sarrāj (\textsc{b})}
     \person{5.5}{337}{left} {east}{ 16}{0}{al-Zajjājī}
-    \person{5.5}{368}{left} {east}{ 16}{0}{al-Sīrāfī}
+    \person{5.5}{368}{left} {east}{ 16}{0}{al-Sīrāfī (\textsc{b})}
     \person{5.5}{384}{left} {east}{ 16}{2}{al-Rummānī}
     \person{5.5}{392}{left} {east}{ 16}{8}{Ibn Jinnī}
     \person{5.5}{577}{right} {west}{-16}{6}{Abū al-Barakāt al-Anbārī}
+    \person{5.5}{377}{right} {west}{-16}{10}{Abū Ɛaliyy al-Fārisī (\textsc{b})}
 
     % Syria
     \person{3.5}{643}{right} {west}{-16}{0}{Ibn Yaɛīs͡h}
@@ -243,10 +248,12 @@ The following figure depicts a timeline and geographical distribution of some of
     \person{8.5}{471}{left} {east}{ 16}{0}{al-Jurjānī}
     \person{8.5}{538}{left} {east}{ 16}{6}{al-Zamak͡hs͡harī}
     \person{8.5}{684}{left} {east}{ 16}{-6}{al-Raḍiyy al-Astarābād͡hī}
+    \person{8.5}{395}{left} {east}{ 26}{12}{Ibn Fāris}
 
     % Andalus
     \person{0.5}{592}{right}{west}{-16}{ 0}{Ibn Maḍāʾ}
     \person{0.5}{669}{right}{west}{-16}{ 0}{Ibn Ɛuṣfūr}
+    \person{0.5}{790}{right}{west}{-16}{20}{Abū Is·ḥāq al-S͡hāṭibī}
 
     % North Africa
     \person{1.5}{723}{right}{west}{-16}{-4}{Ibn Ājurrūm}
