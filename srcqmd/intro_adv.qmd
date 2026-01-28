@@ -234,7 +234,7 @@ The following figure depicts a timeline of some of the more well-known grammaria
     \dynasty    {north west lines}  {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {MAMLUKS}{yshift=15pt}
     \dynasty    {crosshatch dots}   {1}    {1}      {\cetoah{1031}}   {\cetoah{1492}} {smaller dynasties}{rotate=90}
     \dynasty    {vertical lines}    {6}    {9}      {\cetoah{1335}}   {\cetoah{1508}} {\small TURKMEN DYNASTIES}{}
-    \dynasty    {grid}              {2}    {8}      {\cetoah{1517}}   {1000} {OTTOMANS}{}
+    \dynasty    {horizontal lines}  {2}    {8}      {\cetoah{1517}}   {1000} {OTTOMANS}{}
 
 \end{tikzpicture}
 ```
