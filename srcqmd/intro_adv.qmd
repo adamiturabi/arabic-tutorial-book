@@ -115,7 +115,7 @@ The following figure depicts a timeline of some of the more well-known grammaria
   \fpeval{((#1) - 622) * (365.25/(29.5*12))}
 }
 \newcommand\ceaxis[1]{
-    \draw (9.5, \cetoah{#1}) -- (9.7, \cetoah{#1}) node [anchor=west] {\footnotesize #1};
+    \draw (9, \cetoah{#1}) -- (9.2, \cetoah{#1}) node [anchor=west] {\footnotesize #1};
 }
 
 % Constants
@@ -160,8 +160,8 @@ The following figure depicts a timeline of some of the more well-known grammaria
 \foreach \y in {100,200,...,\endah} {
   \draw (0, \y) -- (-.2, \y) node [anchor=east] {\footnotesize \y};
 }
-\node  at (-0.5,0) {\footnotesize AH};
-\node  at (10,30) {\footnotesize CE};
+\node  at (-0.5,0) {\footnotesize 1 AH};
+\node  at (9.5,30) {\footnotesize CE};
 
 \foreach \y in {600,700,...,1600} {
   \ceaxis{\y}
@@ -228,11 +228,11 @@ The following figure depicts a timeline of some of the more well-known grammaria
     \dynasty    {fivepointed stars} {2}    {2}      {207}             {\cetoah{945}} {}{}
     \dynasty    {crosshatch}        {3}    {4}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
     \dynasty    {crosshatch}        {5}    {5}      {600}             {\cetoah{1250}} {}{}
-    \dynasty    {grid}              {6}    {9}      {\cetoah{1055}}   {\cetoah{1258}} {SELJUKS}{}
+    \dynasty    {grid}              {6}    {9}      {\cetoah{1055}}   {\cetoah{1258}} {SELJUKS}{yshift=-10pt}
     \dynasty    {sixpointed stars}  {6}    {9}      {\cetoah{945}}    {\cetoah{1055}} {BUYIDS}{}
     \dynasty    {checkerboard}      {6}    {9}      {\cetoah{1258}}   {\cetoah{1335}} {MONGOLS}{}
     \dynasty    {north west lines}  {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {MAMLUKS}{yshift=15pt}
-    \dynasty    {crosshatch dots}   {1}    {1}      {\cetoah{1056}}   {\cetoah{1492}} {smaller dynasties}{rotate=90}
+    \dynasty    {crosshatch dots}   {1}    {1}      {\cetoah{1031}}   {\cetoah{1492}} {smaller dynasties}{rotate=90}
     \dynasty    {vertical lines}    {6}    {9}      {\cetoah{1335}}   {\cetoah{1508}} {\small TURKMEN DYNASTIES}{}
     \dynasty    {grid}              {2}    {8}      {\cetoah{1517}}   {1000} {OTTOMANS}{}
 
