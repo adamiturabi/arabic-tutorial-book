@@ -281,7 +281,8 @@ indicates an affiliation with the
     \dynasty    {sixpointed stars}  {6}    {9}      {\cetoah{945}}    {\cetoah{1055}} {BUYIDS}{}
     \dynasty    {checkerboard}      {6}    {9}      {\cetoah{1258}}   {\cetoah{1335}} {MONGOLS}{}
     \dynasty    {north west lines}  {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {MAMLUKS}{yshift=15pt}
-    \dynasty    {crosshatch dots}   {1.5}    {1.5}      {\cetoah{1031}}   {\cetoah{1300}} {\small smaller dynasties}{rotate=90}
+    \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1056}}   {\cetoah{1140}} {\scriptsize ALMORAVIDS}{rotate=60}
+    \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1140}}   {\cetoah{1269}} {\scriptsize ALMOHADS}{rotate=60}
     \dynasty    {vertical lines}    {6}    {9}      {\cetoah{1335}}   {\cetoah{1508}} {\small TURKMEN DYNASTIES}{}
     \dynasty    {horizontal lines}  {2}    {8}      {\cetoah{1517}}   {1000} {OTTOMANS}{}
 
