@@ -226,11 +226,11 @@ The following figure depicts a (year of death) timeline and geographical distrib
     \person{5.5}{291}{left} {east}{ 16}{-1}{T͡haɛlab (\textsc{k})}
     \person{5.5}{316}{left} {east}{ 16}{-1}{Ibn al-Sarrāj (\textsc{b})}
     \person{5.5}{337}{left} {east}{ 16}{0}{al-Zajjājī}
-    \person{5.5}{368}{left} {east}{ 16}{0}{al-Sīrāfī (\textsc{b})}
-    \person{5.5}{384}{left} {east}{ 16}{2}{al-Rummānī}
-    \person{5.5}{392}{left} {east}{ 16}{8}{Ibn Jinnī}
+    \person{5.5}{368}{left} {east}{ 16}{-1}{al-Sīrāfī (\textsc{b})}
+    \person{5.5}{377}{left} {east}{ 16}{3}{Abū Ɛaliyy al-Fārisī (\textsc{b})}
+    \person{5.5}{384}{left} {east}{ 16}{9}{al-Rummānī}
+    \person{5.5}{392}{left} {east}{ 16}{13}{Ibn Jinnī}
     \person{5.5}{577}{right} {west}{-16}{6}{Abū al-Barakāt al-Anbārī}
-    \person{5.5}{377}{right} {west}{-16}{10}{Abū Ɛaliyy al-Fārisī (\textsc{b})}
 
     % Syria
     \person{3.5}{643}{right} {west}{-16}{0}{Ibn Yaɛīs͡h}
@@ -238,7 +238,7 @@ The following figure depicts a (year of death) timeline and geographical distrib
 
     % Egypt
     %\person{2.5}{204}{right} {west}{-16}{0}{al-Shafiei}
-    \person{2.5}{646}{left} {east}{ 16}{0}{Ibn al-Ḥājib}
+    \person{2.5}{646}{left} {east}{ 16}{-1}{Ibn al-Ḥājib}
     \person{2.5}{745}{right} {west}{-16}{-2}{Abū Ḥayyān}
     \person{2.5}{761}{right} {west}{-16}{3}{Ibn His͡hām}
     \person{2.5}{769}{right} {west}{-16}{8}{Ibn Ɛaqīl}
