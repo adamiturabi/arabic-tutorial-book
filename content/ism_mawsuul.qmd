@@ -40,7 +40,7 @@ The connecting sentence contains sufficient information to identify the individu
 This example should help you understand what we mean:
 
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=2.0ex}]
 \path [decoration={text effects along path, 

@@ -283,7 +283,7 @@ These two indispensable elements are:
  i. The structure-starter
 ii. The structure-completer
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \usetikzlibrary{patterns}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]

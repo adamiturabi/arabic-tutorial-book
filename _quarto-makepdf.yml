@@ -56,3 +56,6 @@ format:
       - srctex/before-title.tex
     #block-headings: false
 
+tikz:
+  template: srctex/tikz-template-pdf.tex
+

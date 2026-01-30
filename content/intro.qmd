@@ -48,7 +48,7 @@ This modern development of [sca]{.smallcaps} is called Modern Standard Arabic ([
 
 The figure below presents a simplified view the historical development of the different varieties of Arabic.
 
-```{.tikzarabic}
+```{.tikz}
 
 \usetikzlibrary{arrows.meta, decorations.text, decorations.pathreplacing}
 \tikzstyle{arrow} = [thick,->,>=stealth]

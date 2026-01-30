@@ -87,6 +87,7 @@ book:
 #keep-md: true
 filters:
   - arabic-support
+  - adamiturabi/tikz
   #- filters/autoref-link.lua
   - filters/lingex.lua
   - filters/footnotesize.lua
@@ -94,15 +95,10 @@ filters:
   - filters/translation.lua
   #- filters/subs.lua
 
-tikzarabic:
+tikz:
   cache: true
-  format: svg
-  scale_html: 1.27978125
-  embed_mode: link
-  engine: lualatex
-  template_html: srctex/tikz-template-html.tex
-  template_pdf: srctex/tikz-template-pdf.tex
-  libgs: /usr/local/Cellar/ghostscript/10.05.1/lib/libgs.dylib
+  #save-tex: true  # Enable saving intermediate .tex files
+  #tex-dir: tikz-tex  # Optional: Specify directory to save .tex files
 
 website:
   favicon: srchtml/favicon.png

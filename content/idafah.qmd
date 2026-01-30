@@ -23,7 +23,7 @@ Arabic expresses this meaning using a construction called _annexation_. In this 
 
 The word "annexation" means the addition of a new _annexed_ item to an existing _base_ item. We use the term _annexation_ in Arabic grammar when an _annexe noun_ is annexed to a _base noun_ by being placed right before it. Here is an example of an annexation:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -431,7 +431,7 @@ So far we have seen annexations with two nouns. Annexations may be arbitrarily l
 "the house's door's key"
 -->
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -1124,7 +1124,7 @@ For example,
 "I accompanied my friend the day we left the city."
 -->
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
