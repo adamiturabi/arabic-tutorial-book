@@ -200,8 +200,8 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 \draw [help lines] (\beglong,\begah) grid (\endlong,\endah);
 
 % Axis
-\draw [->, very thick] (\beglong,0) -- (\endlong,0);
-\draw [->, very thick] (0,\begah) -- (0,\endah);
+\draw [->, very thick] (\beglong,0) -- (\endlong+0.2,0);
+\draw [->, very thick] (0,\begah) -- (0,\endah+20);
 
 % Axis ticks
 \foreach \y in {100,200,...,\endah} {
@@ -217,7 +217,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
 \foreach [count=\i] \x in \regions {
     %\node[label={\x}] (\i) at (\i-0.5, 0) {};
-    \node[rotate=90,align=left,anchor=east] () at (\i-0.5, 0) {\x};
+    \node[rotate=60,align=left,anchor=east] () at (\i-0.2, 0) {\footnotesize \x};
 }
 
     % Baghdad
