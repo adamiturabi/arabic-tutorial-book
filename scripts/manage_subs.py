@@ -38,6 +38,9 @@ map_table["shaadh"] = "anomalous usage"
 map_table["taqdir"] = "virtual model" # "theoretical model" imaginary utterance, virtual, implication
 map_table["qaddar"] = "virtually model"
 map_table["qaddared"] = "virtually modeled"
+map_table["Kuf"] = "[#kUf]{.trn2}"
+map_table["Basr"] = "[#baSr]{.trn2}"
+
 
 # inna and its sisters
 map_table["inna"] = "[إِنَّ]{.ar}"
