@@ -159,16 +159,25 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 \def\regions{al-Andalus, North Africa, Egypt, Syria, Arabia, Bag͡hdād, al-Kūfah, al-Baṣrah, Persia}
 \def\mixcolor{gray}
 
+\IfPackageLoadedTF{xcolor}{
+\definecolor{GramNameColor}{RGB}{102, 0, 51}
+}{}
+
+\newcommand\condcolor[1]{
+\IfPackageLoadedTF{xcolor}{\textcolor{GramNameColor}{#1}}{#1}
+}
+
+
 %\dynasty{<color>}{<begregion>}{<endregion>}{<begyear ah>}{<endyear ah>}{<name>}{<yshift>}
 \newcommand\dynasty[7]{%
 \begin{pgfonlayer}{background}
     % bar
     %\fill [color=#1!10!\mixcolor]
     %\fill [color=#1!20]
-    \fill [pattern=#1,pattern color=black!15!white]
+    \fill [pattern=#1,pattern color=black!18!white]
     ({#2-1},#4) rectangle (#3,#5);
     % label
-    \node [black!20, #7, font=\bfseries\sffamily] 
+    \node [black!25, #7, font=\bfseries\sffamily] 
     at ({#2-1+(#3-#2+1)/2},{#4+(#5-#4)/2}) {#6};
 \end{pgfonlayer}
 }
@@ -176,7 +185,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 \newcommand\person[7]{%
     \coordinate (pointnode)  at (#1,#2) {};
     \node [fill, draw, circle, minimum width=2pt, inner sep=0] at (#1,#2) {};
-    \node (labelnode)  [inner sep=0, outer sep=0, #3 of=pointnode, xshift=#5, yshift=#6,anchor=#4] {\scriptsize #7};
+    \node (labelnode)  [inner sep=0, outer sep=0, #3 of=pointnode, xshift=#5, yshift=#6,anchor=#4] {\scriptsize \condcolor{#7}};
     \draw (pointnode)  -- (labelnode.#4);
 }
 
@@ -234,8 +243,8 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \person{5.5}{577}{right} {west}{-16}{6}{Abū al-Barakāt al-Anbārī}
 
     % Syria
-    \person{3.5}{643}{right} {west}{-16}{0}{Ibn Yaɛīs͡h}
-    \person{3.5}{672}{right} {west}{-16}{0}{Ibn Mālik}
+    \person{3.5}{643}{right} {west}{-16}{3}{Ibn Yaɛīs͡h}
+    \person{3.5}{672}{right} {west}{-16}{3}{Ibn Mālik}
     \draw [->, -{Latex}] (0.5,627) -- (3.5, 672);
 
     % Egypt
@@ -266,8 +275,8 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {bricks}            {2.5}  {8.5}    {11}    {41}  {RASHIDUN}{}
     \dynasty    {north east lines}  {2}    {9}      {41}    {132} {UMMAYADS}{}
     \dynasty    {north east lines}  {1}    {1}      {\cetoah{756}}    {\cetoah{1031}} {UMMAYADS}{rotate=90}
-    \dynasty    {dots}              {2}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{yshift=6pt}
-    \dynasty    {dots}              {5}    {5}      {\cetoah{909}}    {600} {}{}% Abbasids
+    \dynasty    {vertical lines}    {2}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{yshift=6pt}
+    \dynasty    {vertical lines}    {5}    {5}      {\cetoah{909}}    {600} {}{}% Abbasids
     \dynasty    {fivepointed stars} {3}    {4}      {\cetoah{930}}    {\cetoah{1171}} {FATIMIDS}{}
     \dynasty    {fivepointed stars} {2}    {2}      {207}             {\cetoah{945}} {}{}
     \dynasty    {crosshatch}        {3}    {4}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
@@ -275,11 +284,11 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {grid}              {6}    {9}      {\cetoah{1055}}   {\cetoah{1258}} {SELJUKS}{yshift=-10pt}
     \dynasty    {sixpointed stars}  {6}    {9}      {\cetoah{945}}    {\cetoah{1055}} {BUYIDS}{}
     \dynasty    {checkerboard}      {6}    {9}      {\cetoah{1258}}   {\cetoah{1335}} {MONGOLS}{}
-    \dynasty    {north west lines}  {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {MAMLUKS}{yshift=15pt}
+    \dynasty    {horizontal lines}  {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {MAMLUKS}{yshift=15pt}
     \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1056}}   {\cetoah{1140}} {\scriptsize ALMORAVIDS}{rotate=60}
     \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1140}}   {\cetoah{1269}} {\scriptsize ALMOHADS}{rotate=60}
-    \dynasty    {vertical lines}    {6}    {9}      {\cetoah{1335}}   {\cetoah{1508}} {\small TURKMEN DYNASTIES}{}
-    \dynasty    {horizontal lines}  {2}    {8}      {\cetoah{1517}}   {1000} {OTTOMANS}{}
+    \dynasty    {dots}              {6}    {9}      {\cetoah{1335}}   {\cetoah{1508}} {\small TURKMEN DYNASTIES}{}
+    \dynasty    {north west lines}  {2}    {8}      {\cetoah{1517}}   {1000} {OTTOMANS}{}
 
 % Phases
 % Data collection, formation, theroeticlaelaboration, consolidiation, degeneration
