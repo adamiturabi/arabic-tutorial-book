@@ -9,6 +9,7 @@
 \usetikzlibrary{calc, backgrounds}
 \usetikzlibrary{arrows.meta, decorations.text}
 \usetikzlibrary{shapes,positioning,intersections,quotes}
+\usetikzlibrary{patterns}
 
 \setmainfont{Charis}
 
@@ -33,13 +34,24 @@
 \begin{pgfonlayer}{background}
     % bar
     %\fill [color=#1!10!\mixcolor]
-    \fill [color=#1!20]
+    %\fill [color=#1!20]
+    \fill [pattern=#1,pattern color=black!15!white]
     ({#2-1},#4) rectangle (#3,#5);
     % label
-    \node [white, #7, font=\bfseries\sffamily] 
+    \node [black!20, #7, font=\bfseries\sffamily,align=center] 
     at ({#2-1+(#3-#2+1)/2},{#4+(#5-#4)/2}) {#6};
 \end{pgfonlayer}
 }
+
+
+% phases
+% \phase{<name>}{<begin>}{<end>}
+\newcommand{\phase}[3]{
+    \draw [thin] (-0.8,#2+2) -- (-1,#2+2) -- (-1, #3-2) node [midway, above, rotate=90,align=center, font=\sffamily] {#1} -- (-0.8,#3-2);
+}
+
+
+
 %x,y,xshift,yshift,label
 \newcommand\person[7]{%
     \coordinate (pointnode)  at (#1,#2) {};
@@ -85,9 +97,9 @@
     % Baghdad
     \person{7.5}{170}{right}{west}{-16}{-6}{al-Khalil}
     \person{7.5}{180}{right}{west}{-16}{ 8}{Sibawayh}
-    \person{7.5}{182}{right}{west}{-16}{ 0}{Yunus b. Habib}
-    \person{7.5}{215}{right}{west}{-16}{ 6}{al-Akhfash al-Awsat}
-    \person{7.5}{285}{right}{west}{-16}{ 6}{al-Mubarrad}
+    \person{7.5}{182}{right}{west}{-16}{ 0}{Yunus}
+    \person{7.5}{215}{above}{south}{-16}{ 6}{al-Akhfash al-Awsat}
+    \person{7.5}{285}{right}{west}{-26}{ 6}{al-Mubarrad}
 
     % Kufah
     %\person{6.5}{150}{left} {east}{ 16}{0}{Abu Hanifah}
@@ -133,19 +145,32 @@
 
 
 
-    \dynasty    {OliveGreen}      {5}    {5}      {0}     {11}  {}{} % Prophet pbuh
-    \dynasty    {OliveGreen}      {2.5}  {8.5}    {11}    {41}  {RASHIDUN}{}
-    \dynasty    {Blue}            {2}    {9}      {41}    {132} {UMMAYADS}{}
-    \dynasty    {Blue}            {1}    {1}      {\cetoah{756}}    {\cetoah{1031}} {UMMAYADS}{rotate=90}
-    \dynasty    {MidnightBlue}    {2}    {9}      {132}    {\cetoah{930}} {ABBASIDS}{yshift=6pt}
-    \dynasty    {MidnightBlue}    {5}    {5}      {\cetoah{909}}    {600} {}{}% Abbasids
-    \dynasty    {Orange}          {3}    {4}      {\cetoah{930}}    {\cetoah{1171}} {FATIMIDS}{}
-    \dynasty    {CornflowerBlue}  {3}    {4}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
-    \dynasty    {Turquoise}       {6}    {9}      {\cetoah{1000}}   {\cetoah{1258}} {SELJUKS}{}
-    \dynasty    {Maroon}          {6}    {9}      {\cetoah{930}}    {\cetoah{1055}} {BUYIDS}{}
-    \dynasty    {Black}           {6}    {9}      {\cetoah{1258}}   {\cetoah{1335}} {MONGOLS}{}
-    \dynasty    {Purple}          {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {MAMLUKS}{yshift=15pt}
-    \dynasty    {CadetBlue}       {1}    {1}      {\cetoah{1056}}   {\cetoah{1492}} {smaller dynasties}{rotate=90}
+    \dynasty    {bricks}           {5}    {5}      {0}     {11}  {}{} % Prophet pbuh
+    \dynasty    {bricks}           {2.5}  {8.5}    {11}    {41}  {RASHIDUN}{}
+    \dynasty    {north east lines} {2}    {9}      {41}    {132} {UMMAYADS}{}
+    \dynasty    {north east lines} {1}    {1}      {\cetoah{756}}    {\cetoah{1031}} {UMMAYADS}{rotate=90}
+    \dynasty    {dots}             {2}    {9}      {132}             {\cetoah{930}} {ABBASIDS}{yshift=6pt}
+    \dynasty    {dots}             {5}    {5}      {\cetoah{909}}    {600} {}{}% Abbasids
+    \dynasty    {fivepointed stars}{3}    {4}      {\cetoah{930}}    {\cetoah{1171}} {FATIMIDS}{}
+    \dynasty    {fivepointed stars}{2}    {2}      {207}             {\cetoah{945}} {}{}
+    \dynasty    {crosshatch}       {3}    {4}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
+    \dynasty    {crosshatch}       {5}    {5}      {600}             {\cetoah{1250}} {}{}
+    \dynasty    {grid}             {6}    {9}      {\cetoah{1055}}   {\cetoah{1258}} {SELJUKS}{yshift=-10pt}
+    \dynasty    {sixpointed stars} {6}    {9}      {\cetoah{930}}    {\cetoah{1055}} {BUYIDS}{}
+    \dynasty    {checkerboard}     {6}    {9}      {\cetoah{1258}}   {\cetoah{1335}} {MONGOLS}{}
+    \dynasty    {north west lines} {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {MAMLUKS}{yshift=15pt}
+    \dynasty    {crosshatch dots}  {1}    {1}      {\cetoah{1056}}   {\cetoah{1492}} {smaller dynasties}{rotate=90}
+    \dynasty    {vertical lines}   {6}    {9}      {\cetoah{1335}}   {\cetoah{1508}} {TURKMEN\\ DYNASTIES}{}
+    \dynasty    {horizontal lines} {2}    {8}      {\cetoah{1517}}   {1000} {OTTOMANS}{}
+
+% Phases
+% Data collection, formation, theroeticlaelaboration, consolidiation, degeneration
+% \phase{Pre-theoretical\\grammar}{650}{780}
+    \phase{\scriptsize Precursors}                           {\cetoah{660}} {\cetoah{770}}
+    \phase{\scriptsize Early\\\scriptsize grammar}                        {\cetoah{770}} {\cetoah{920}}
+    \phase{\scriptsize Codification\\\scriptsize and\\\scriptsize systematization}    {\cetoah{920}} {\cetoah{1100}}
+    \phase{\scriptsize Elaboration of forms\\\scriptsize of presentation}{\cetoah{1100}}{\cetoah{1520}}
+
 
 
 \end{tikzpicture}
