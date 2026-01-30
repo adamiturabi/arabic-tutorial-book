@@ -249,7 +249,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
     % Egypt
     %\person{2.5}{204}{right} {west}{-16}{0}{al-Shafiei}
-    \person{2.5}{646}{left} {east}{ 10}{-10}{Ibn al-Ḥājib}
+    \person{2.5}{646}{left} {north}{ 10}{-10}{Ibn al-Ḥājib}
     \person{2.5}{745}{right} {west}{-16}{-2}{Abū Ḥayyān}
     \draw [->, -{Latex}] (0.5,674) -- (2.5, 745);
     \person{2.5}{761}{right} {west}{-16}{3}{Ibn His͡hām al-Anṣārī}
@@ -274,7 +274,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {bricks}            {5}    {5}      {0}     {11}  {}{} % Prophet pbuh
     \dynasty    {bricks}            {2.5}  {8.5}    {11}    {41}  {RASHIDUN}{}
     \dynasty    {north east lines}  {2}    {9}      {41}    {132} {UMMAYADS}{}
-    \dynasty    {north east lines}  {1}    {1}      {\cetoah{756}}    {\cetoah{1031}} {UMMAYADS}{rotate=90}
+    \dynasty    {north east lines}  {1}    {1}      {\cetoah{711}}    {\cetoah{1031}} {UMMAYADS}{rotate=90}
     \dynasty    {vertical lines}    {3}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{yshift=6pt}
     \dynasty    {vertical lines}    {2}    {2}      {132}             {\cetoah{909}} {}{}% Abbasids % North Africa
     \dynasty    {vertical lines}    {5}    {5}      {\cetoah{945}}    {\cetoah{969}} {}{}% Abbasids
@@ -304,7 +304,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 \end{tikzpicture}
 ```
 
-A (year of death) timeline and geographical distribution of some of the more well-known grammarians.^[Adapted from Andreas Hallberg's blog post <https://andreasmhallberg.github.io/timeline-of-arab-grammarians>, and Ovamir Anjum's presentation at the Muslim Community Association, Santa Clara, Calif., 2013. <https://www.youtube.com/watch?v=Y6lRewelwrc&list=PLCbwKYxdBxRjCjf2qpQJTGysBmeiUFOXK>]
+A (year of death) timeline and geographical distribution of some of the more well-known grammarians.^[Adapted from Andreas Hallberg's blog post [[andreasmhallberg.github.io/timeline-of-arab-grammarians](https://andreasmhallberg.github.io/timeline-of-arab-grammarians)]{.citex}, and Ovamir Anjum's presentation at the Muslim Community Association, Santa Clara, Calif., 2013 [[youtu.be/cZ6RoRMF-kI](https://youtu.be/cZ6RoRMF-kI)]{.citex}.]
 [(b)]{.smallcaps}
 and
 [(k)]{.smallcaps}
