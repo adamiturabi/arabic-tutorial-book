@@ -133,16 +133,11 @@ Many famous later grammarians operated out of
 [Ibn #fAris]{.trn2}
 -->
 
+[@fig-gramtimeline]
+depicts a (year of death) timeline and geographical distribution of some of the more well-known grammarians.
 
-The following figure depicts a (year of death) timeline and geographical distribution of some of the more well-known grammarians.^[adapted from Andreas Hallberg's blog post <https://andreasmhallberg.github.io/timeline-of-arab-grammarians>, and Ovamir Anjum's presentation at the Muslim Community Association, Santa Clara, Calif., 2013. <https://www.youtube.com/watch?v=Y6lRewelwrc&list=PLCbwKYxdBxRjCjf2qpQJTGysBmeiUFOXK>]
-For some of the earlier grammarians, a [(b)]{.smallcaps} after their name
-indicates an affiliation with the
-;Basr;an school,
-and a [(k)]{.smallcaps}
-indicates an affiliation with the
-;Kuf;an school.
-
-```{.tikzarabic}
+::: {#fig-gramtimeline .test-class}
+```{.tikz}
 % The following code is adapted from adapted from Andreas Hallberg’s https://andreasmhallberg.github.io/timeline-of-arab-grammarians
 \usetikzlibrary{patterns}
 \usetikzlibrary{calc, backgrounds}
@@ -297,6 +292,17 @@ indicates an affiliation with the
 
 \end{tikzpicture}
 ```
+
+A (year of death) timeline and geographical distribution of some of the more well-known grammarians.^[Adapted from Andreas Hallberg's blog post <https://andreasmhallberg.github.io/timeline-of-arab-grammarians>, and Ovamir Anjum's presentation at the Muslim Community Association, Santa Clara, Calif., 2013. <https://www.youtube.com/watch?v=Y6lRewelwrc&list=PLCbwKYxdBxRjCjf2qpQJTGysBmeiUFOXK>]
+[(b)]{.smallcaps}
+and
+[(k)]{.smallcaps}
+indicate an affiliation with the
+;Basr;an
+and
+;Kuf;an schools, respectively.
+:::
+
 
 ## #;samaa3;
 
