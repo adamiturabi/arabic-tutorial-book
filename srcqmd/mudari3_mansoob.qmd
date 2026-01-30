@@ -173,7 +173,7 @@ So, in the above example, the
 [أَنْ]{.ar} clause
 is in place of the ;mafulb; of the verb [أَمَلَ]{.ar}:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
@@ -199,7 +199,7 @@ occurs in place of other noun positions.
 
 As the ;mubtada;:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
@@ -224,7 +224,7 @@ which is grammatically equivalent to: [نَجَاحَكَ هُوَ ٱلْمَق�
 
 As the ;xabar;:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
@@ -248,7 +248,7 @@ which is grammatically equivalent to: [ٱَلْمَقْصِدُ نَجَاحَك
 
 As a ;faa3il; noun:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
@@ -272,7 +272,7 @@ which is grammatically equivalent to: [يَحْزُنُنِي ذَهَابُهُ
 
 In the ;istate; as the ;mudafil; in an ;idaafah;:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
@@ -296,7 +296,7 @@ which is grammatically equivalent to: [سَكَتَتْ مِنْ خَشْيَة�
 
 In the ;istate; after a preposition:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
