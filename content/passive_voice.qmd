@@ -63,7 +63,7 @@ The complete table showing the doer pronouns is given in appendix\ \@ref(verb-ta
 
 Consider again this sentence with an passive verb construction:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
@@ -177,7 +177,7 @@ However, the preposition causes the noun following it to remain in the i-state. 
 The verb then appears to be in the singular masculine, with its deputy doer following it.
 For example:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
@@ -209,7 +209,7 @@ Other verbs don't take a direct doee but may be used with an adverb of time or p
 (We will study adverbs of time and place in chapter\ \@ref(adverbs-of-time-and-place), if [#allAh]{.trn2} wills.)
 Here is an example:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 

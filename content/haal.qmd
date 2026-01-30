@@ -23,7 +23,7 @@ during the action of the [HAl]{.trn2}'s governor.
 -->
 Here is an example of a [HAl]{.trn2}:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 

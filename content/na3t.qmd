@@ -45,7 +45,7 @@ We take this opportunity to introduce some grammatical terminology. The attribut
 i. The adjective "big". It is describing the car. We will call it the _attribute_ in the noun-phrase.
 ii. The common noun "a car": It is being described by the attribute. We will call it the _attributee_.
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -71,7 +71,7 @@ We will reserve this terminology of _attribute_ and _attributee_ only for the no
 
 Instead, here we will continue to use the existing terminology of _subject_ and _info_. The definite noun "the car" is the subject of this sentence, and the adjective "big" is the info.
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -178,7 +178,7 @@ In English attributee-attribute phrases, like "the small house", the adjective a
 
 Here is the equivalent Arabic attributee-attribute phrase:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -277,7 +277,7 @@ would also have been acceptable.^[See the example [ثَلَاثُ شُخُوصٍ
 
 Let's see how to use Arabic adjectival nouns as the info of a sentence.
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
