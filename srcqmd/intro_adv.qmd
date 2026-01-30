@@ -156,7 +156,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 \def\endah{1000}
 \def\beglong{0}
 \def\endlong{9}
-\def\regions{al-Andalus, North Africa, Egypt, Syria, Arabia, Bag͡hdād, al-Kūfah, al-Baṣrah, Persia}
+\def\regions{al-Andalus, North Africa, Egypt, Syria, al-Ḥijāz, Bag͡hdād, al-Kūfah, al-Baṣrah, Persia}
 \def\mixcolor{gray}
 
 \IfPackageLoadedTF{xcolor}{
@@ -275,12 +275,14 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {bricks}            {2.5}  {8.5}    {11}    {41}  {RASHIDUN}{}
     \dynasty    {north east lines}  {2}    {9}      {41}    {132} {UMMAYADS}{}
     \dynasty    {north east lines}  {1}    {1}      {\cetoah{756}}    {\cetoah{1031}} {UMMAYADS}{rotate=90}
-    \dynasty    {vertical lines}    {2}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{yshift=6pt}
-    \dynasty    {vertical lines}    {5}    {5}      {\cetoah{909}}    {600} {}{}% Abbasids
-    \dynasty    {fivepointed stars} {3}    {4}      {\cetoah{930}}    {\cetoah{1171}} {FATIMIDS}{}
-    \dynasty    {fivepointed stars} {2}    {2}      {207}             {\cetoah{945}} {}{}
-    \dynasty    {crosshatch}        {3}    {4}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
-    \dynasty    {crosshatch}        {5}    {5}      {600}             {\cetoah{1250}} {}{}
+    \dynasty    {vertical lines}    {3}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{yshift=6pt}
+    \dynasty    {vertical lines}    {2}    {2}      {132}             {\cetoah{909}} {}{}% Abbasids % North Africa
+    \dynasty    {vertical lines}    {5}    {5}      {\cetoah{945}}    {\cetoah{969}} {}{}% Abbasids
+    \dynasty    {fivepointed stars} {3}    {4}      {\cetoah{969}}    {\cetoah{1171}} {FATIMIDS}{}
+    \dynasty    {fivepointed stars} {5}    {5}      {\cetoah{969}}    {\cetoah{1171}} {}{} % Fatimids % Hijaz
+    \dynasty    {fivepointed stars} {2}    {2}      {\cetoah{909}}    {\cetoah{1050}} {}{} % Fatimids % North Africa
+    \dynasty    {crosshatch}        {3}    {5}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
+    %\dynasty    {crosshatch}        {5}    {5}      {600}             {\cetoah{1250}} {}{}
     \dynasty    {grid}              {6}    {9}      {\cetoah{1055}}   {\cetoah{1258}} {SELJUKS}{yshift=-10pt}
     \dynasty    {sixpointed stars}  {6}    {9}      {\cetoah{945}}    {\cetoah{1055}} {BUYIDS}{}
     \dynasty    {checkerboard}      {6}    {9}      {\cetoah{1258}}   {\cetoah{1335}} {MONGOLS}{}
