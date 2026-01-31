@@ -653,12 +653,13 @@ there could be modeled a _virtual_ utterance
 that was more amenable to being wrangled into 
 organized rules.
 
-The grammarians then considered it their role to theorize a _;taqdir;_ of the surface speech,
+The grammarians then considered it their role to theorize a _;taqdir;_,
+under the surface speech,
 and to build their grammatical framework based on the ;taqdir;.
 
 Let's explain what we mean by going through a hypothetical example.
-Let's say that when a grammarian went through the data in ;samaa3;,
-he found surface speech samples like the following:
+Let's say that a grammarian goes through some data in ;samaa3;,
+and he finds surface speech samples like the following:
 
 (@) [قَرَأَ زَيْدٌ]{.ar}  
     [Zayd read.]{.trans}  
@@ -669,23 +670,30 @@ he found surface speech samples like the following:
 (@) [يَذَهَبُ الرِّجَالُ]{.ar}  
     [The men go.]{.trans}  
 
-The grammarian aked his native Classical Arabic speaking informant what the informant understood by the above samples.
-The informant informed the grammarian that he understood them a complete sentences
-that express
-expressing an action
+The grammarian asks his native Classical Arabic speaking informant
+what the informant understands by the above samples.
+The informant tells the grammarian that he understands each one as having a complete meaning,
+a meaning
+that expresses
+an action
 (signified by the first word),
 and the ;faa3il; of that action,
 (signified by the second word).
 
-So the grammarian
-classified the first word in each sentence as a verb,
+Because each sample has a complete meaning,
+the grammarian
+determines that each sample is a complete sentence.
+He
+classifies the first word in each sentence as a verb,
 and the second word as a noun.
 Based on the abundance of sentences like the above,
-the grammarian formulated a rule,
+the grammarian formulates a rule,
 which is that a ;j_f3l; needs two parts to be a complete sentence:
 a verb, followed by its ;faa3il; (noun).
 
-The grammarian also found surface speech samples like the following:
+The grammarian 
+then continues going through ;samaa3;
+and finds surface speech samples like the following:
 
 (@) [تَصَدَّقْنَ]{.ar}  
     [They~f~ gave charity.]{.trans}  
@@ -700,15 +708,15 @@ The grammarian also found surface speech samples like the following:
     [They went.]{.trans}  
 
 Checking with his informant, he
-found that these also are complete sentences in their meaning.
+finds that these also are complete sentences in their meaning.
 The informant tells him that the ;faa3il; of each action is now a person who is not named,
 but who is known to the informant.
-That is, the ;faa3il;s are _pronouns_.
+So the grammarian classifies the ;faa3il;s as _pronouns_.
 <!--
 But the ;faa3il;s of the verbs here are not expressed as common or proper nouns.
 Rather, the  sentences' meanings signify that the ;faa3il;s are pronouns.
 -->
-The grammarian notices that the end of each verb is modified and extra sounds
+The grammarian also notices that the end of each verb is modified and extra sounds
 (expressed by letters in the script)
 are added after it.
 For example:
@@ -738,9 +746,15 @@ But now the grammarian comes across surface speech samples like the following:
 (@) [نَتَصَدَّقُ]{.ar}  
     [We give charity.]{.trans}  
 
-These samples posed a problem for our grammarian.
-Because, in their meaning, they are complete sentences with pronoun ;faa3il;s.
-But there are no extra sounds/letters after the verbs which can be considered the ;faa3il;.
+These samples pose a problem for our grammarian.
+Because, his informant tells him that he still understands these samples,
+in context, to have a complete meaning.
+The ;faa3il; of each action is again a person who is not named but who is known to the informant.
+
+So, evidently, samples () through () are complete sentences with pronoun ;faa3il;s,
+just like samples () through ().
+But the problem is that there are no apparent extra sounds/letters after the verbs which can be considered the ;faa3il;.
+
 Some of the verbs in these sentences,
 like in examples () and (),
 have extra sounds, but they are before the verb.
@@ -748,14 +762,13 @@ But some verbs,
 like in example (),
 does not even have that.
 Example () [رَجَعَتْ]{.ar}
-does have an extra [تْ]{.ar} after the verb, but that letter is kept when there is an expressed ;faa3il; noun, like in example ()
-(@) [رَجَعَتْ هِنْدٌ]{.ar}
+does have an extra [تْ]{.ar} after the verb, but that letter is kept when there is an expressed ;faa3il; noun, like in example () [رَجَعَتْ هِنْدٌ]{.ar}
 above.
 So the [تْ]{.ar} doesn't seem like it can be the ;faa3il;.
-So what should the grammarian do?
+So what is the grammarian to do?
 
 In order to keep the rule consistent,
-the grammarian ;qaddar;s a _;mustatir;_ ;faa3il;s for these sentences.
+the grammarian ;qaddar;s _;mustatir;_ ;faa3il;s for these sentences.
 For example () above, the ;mustatir; ;faa3il; is ;qaddared; as [[هُوَ]{.ar}], thus:
 
 (@) [ذَهَبَ [هُوَ]]{.ar}  
@@ -763,9 +776,23 @@ For example () above, the ;mustatir; ;faa3il; is ;qaddared; as [[هُوَ]{.ar}]
 
 Now the sentence still has two parts:
 the verb
-[ذَهَبَ]{.ar}, followed by it's ;faa3il;, the ;qaddared; [هُوَ]]{.ar}.
+[ذَهَبَ]{.ar}, followed by it's ;faa3il;, the ;qaddared; [[هُوَ]{.ar}].
+
+This ;taqdir;ing on the part of the grammarian is definitely speculative and subjective.
+But it is supported by the meaning which is in the mind of the native speaker informant.
+This is because the informant still understands each sample () through () to be a complete sentence with a pronoun ;faa3il;.
 
 Here are the other examples with their ;qaddared; ;faa3il;s:
+
+
+One point to note is that the ;qaddared; ;faa3ils;,
+([[هُوَ]{.ar}],
+[[هِيَ]{.ar}],
+[[أَنَا]{.ar}],
+and
+[[نَحْنُ]{.ar}]
+in examples () through () above)
+are not "real" representations of the ;faa3il;s.
 
 One option is to modify the rule,
 and say that some ;j_f3l;s can consist of only a verb with no expressed ;faa3il;.
