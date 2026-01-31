@@ -390,12 +390,12 @@ In addition to the transmitted texts mentioned above,
 the grammarians also used,
 as part of their source data,
 samples of speech that they obtained themselves by
-meeting and talking to native Classical Arabic speakers.
-Such speakers continued to exist, in pockets,
+meeting and talking to native Classical Arabic speaking _informants_.
+Such informants continued to exist, in pockets,
 into the second and third centuries\ ;ah;.
 In general, the speech of the bedouin Arabs was considered purer and more free from errors
 than that of the urban population.
-The grammarians would seek out such speakers,
+The grammarians would seek out such informants,
 listen to their ordinary speech in natural settings,
 and also ask them questions,
 the answers to which would betray insight into
@@ -657,8 +657,8 @@ The grammarians then considered it their role to theorize a _;taqdir;_ of the su
 and to build their grammatical framework based on the ;taqdir;.
 
 Let's explain what we mean by going through a hypothetical example.
-Let's say that when the grammarians went through the data in ;samaa3;,
-they found surface speech samples like the following:
+Let's say that when a grammarian went through the data in ;samaa3;,
+he found surface speech samples like the following:
 
 (@) [قَرَأَ زَيْدٌ]{.ar}  
     [Zayd read.]{.trans}  
@@ -669,15 +669,23 @@ they found surface speech samples like the following:
 (@) [يَذَهَبُ الرِّجَالُ]{.ar}  
     [The men go.]{.trans}  
 
-They saw that, in meaning, these are complete sentences.
-They classified the first word in each sentence as a verb,
+The grammarian aked his native Classical Arabic speaking informant what the informant understood by the above samples.
+The informant informed the grammarian that he understood them a complete sentences
+that express
+expressing an action
+(signified by the first word),
+and the ;faa3il; of that action,
+(signified by the second word).
+
+So the grammarian
+classified the first word in each sentence as a verb,
 and the second word as a noun.
 Based on the abundance of sentences like the above,
-the grammarians formulated a rule,
+the grammarian formulated a rule,
 which is that a ;j_f3l; needs two parts to be a complete sentence:
 a verb, followed by its ;faa3il; (noun).
 
-The grammarians also found surface speech samples like the following:
+The grammarian also found surface speech samples like the following:
 
 (@) [تَصَدَّقْنَ]{.ar}  
     [They~f~ gave charity.]{.trans}  
@@ -691,23 +699,82 @@ The grammarians also found surface speech samples like the following:
 (@) [ذَهَبُوا]{.ar}  
     [They went.]{.trans}  
 
-They noticed that these also are complete sentences in their meaning.
+Checking with his informant, he
+found that these also are complete sentences in their meaning.
+The informant tells him that the ;faa3il; of each action is now a person who is not named,
+but who is known to the informant.
+That is, the ;faa3il;s are _pronouns_.
+<!--
 But the ;faa3il;s of the verbs here are not expressed as common or proper nouns.
 Rather, the  sentences' meanings signify that the ;faa3il;s are pronouns.
-Secondly, the end of each verb is modified and extra sounds
+-->
+The grammarian notices that the end of each verb is modified and extra sounds
 (expressed by letters in the script)
 are added after it.
 For example:
 [عَمِلَ + تُ = عَمِلْتُ]{.ar} 
 
-The grammarians decided that these sentences can still be molded to fit into their above stated rule.
-This can be done by considering
-the extra sounds at the end of the verbs to be the ;faa3il; pronouns.
+The grammarian decides that these sentences can still be molded to fit into their above stated rule.
+He does this
+by considering
+the extra sounds at the end of the verbs
+(for example, [تُ]{.ar} in [عَمِلْتُ]{.ar})
+to be the ;faa3il; pronouns.
 Now
 the sentences can be considered to have two parts: a verb followed by its ;faa3il;.
 So far so good.
 
-But now the grammarians came across surface speech samples like the following:
+But now the grammarian comes across surface speech samples like the following:
+
+(@) [ذَهَبَ]{.ar}  
+    [He went.]{.trans}  
+
+(@) [رَجَعَتْ]{.ar}  
+    [She returned.]{.trans}  
+
+(@) [أَعْمَلُ]{.ar}  
+    [I work.]{.trans}  
+
+(@) [نَتَصَدَّقُ]{.ar}  
+    [We give charity.]{.trans}  
+
+These samples posed a problem for our grammarian.
+Because, in their meaning, they are complete sentences with pronoun ;faa3il;s.
+But there are no extra sounds/letters after the verbs which can be considered the ;faa3il;.
+Some of the verbs in these sentences,
+like in examples () and (),
+have extra sounds, but they are before the verb.
+But some verbs,
+like in example (),
+does not even have that.
+Example () [رَجَعَتْ]{.ar}
+does have an extra [تْ]{.ar} after the verb, but that letter is kept when there is an expressed ;faa3il; noun, like in example ()
+(@) [رَجَعَتْ هِنْدٌ]{.ar}
+above.
+So the [تْ]{.ar} doesn't seem like it can be the ;faa3il;.
+So what should the grammarian do?
+
+In order to keep the rule consistent,
+the grammarian ;qaddar;s a _;mustatir;_ ;faa3il;s for these sentences.
+For example () above, the ;mustatir; ;faa3il; is ;qaddared; as [[هُوَ]{.ar}], thus:
+
+(@) [ذَهَبَ [هُوَ]]{.ar}  
+    [He went.]{.trans}  
+
+Now the sentence still has two parts:
+the verb
+[ذَهَبَ]{.ar}, followed by it's ;faa3il;, the ;qaddared; [هُوَ]]{.ar}.
+
+Here are the other examples with their ;qaddared; ;faa3il;s:
+
+One option is to modify the rule,
+and say that some ;j_f3l;s can consist of only a verb with no expressed ;faa3il;.
+And he can specify which conjugations of a verb would fall under this sub-rule.
+
+The other option is to keep the rule, as is.
+That is, he states that a ;j_f3l; needs a verb followed by its ;faa3il;.
+But not kkkkkkkkkkk
+But now he lists the verb conjugations for which
 
 But instead of there being a distinct noun after the verb,
 the end of the verb has extra sounds
