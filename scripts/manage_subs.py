@@ -36,6 +36,7 @@ map_table["3illah"] = "grammatical reason" #"theoretical cause"
 map_table["ta3leel"] = "grammatical reasoning" #"theoretical cause"
 map_table["shaadh"] = "anomalous usage"
 map_table["taqdir"] = "virtual model" # "theoretical model" imaginary utterance, virtual, implication
+map_table["taqdiring"] = "virtual modeling" # "theoretical model" imaginary utterance, virtual, implication
 map_table["qaddar"] = "virtually model"
 map_table["qaddared"] = "virtually modeled"
 map_table["Kuf"] = "[#kUf]{.trn2}"
