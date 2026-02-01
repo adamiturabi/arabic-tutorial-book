@@ -1113,6 +1113,13 @@ def populate_resource_list():
     , sort_key = 'baalbaki book in the grammatical tradition'
     ))
   resource_list.append(BibResource(
+    "baalbaki_bab_al_fa"
+    , cit_type = "ws_ref"
+    , cit_text = 'Baalbaki, "Bāb al-Fāʾ"'
+    , bib_text = 'Baalbaki, R., "Bāb al-Fāʾ [Fāʾ + Subjunctive] in Arabic Grammatical Sources." Article\\ [xvii]{.smallcaps} in _Grammarians and grammatical theory in the medieval Arabic tradition_, Routledge, 2004.'
+    , sort_key = 'baalbaki bab al fa'
+    ))
+  resource_list.append(BibResource(
     "baalbaki_teaching_arabic"
     , cit_type = "ws_ref"
     , cit_text = 'Baalbaki, "Teaching Arabic at university level"'
@@ -1133,6 +1140,21 @@ def populate_resource_list():
     , bib_text = "Carter, M.\\ G., _Sībawayhi's principles: Arabic grammar and law in early Islamic thought_. Lockwood Press, 2016."
     , sort_key = "carter sibawayhis principles"
     ))
+  resource_list.append(BibResource(
+    "versteegh_taqdir"
+    , cit_type = "ws_ref"
+    , cit_text = 'Versteegh, "The notion of underlying levels"'
+    , bib_text = """Versteegh, K., "The notion of 'underlying levels' in the Arabic grammatical tradition." In _Historiographia Linguistica_ 21, 1994, p. 271‒296. """
+    , sort_key = "versteegh notion of underlying levels"
+    ))
+  resource_list.append(BibResource(
+    "levin_taqdir"
+    , cit_type = "ws_ref"
+    , cit_text = 'Levin, "The Theory of al-Taqdīr and its Terminology."'
+    , bib_text = 'Levin, A., "The Theory of al-Taqdīr and its Terminology." In _Jerusalem Studies in Arabic and Islam_,. 21 (1997), p. 142-166.'
+    , sort_key = "levin theory of al taqdir"
+    ))
+
 
 
 
