@@ -79,24 +79,19 @@ from these primitive beginnings,
 into a highly developed system of linguistic analysis.^[@baalbaki_intro@ xiii]
 
 Initially,
-grammatical activity flourished mainly
-in two urban centers:
+grammatical research centeres mainly
+in two places:
 the cities of al-;Basr;ah
-and al-;Kuf;ah
+and al-;Kuf;ah,
 in Iraq.
-These are often referred to as the
-;Basr;an
-and
-;Kuf;an
-grammatical schools respectively.
-The 
+These
 ;Basr;an
 and
 ;Kuf;an
 schools were mainly active,
 in their eponymous cities,
 into the third century\ ;ah;.
-After that, grammarians would still often be ascribed academically
+After that, grammarians would still often be affiliated academically
 to one of the two schools,
 but they were more geographically widespread.
 Many famous later grammarians operated out of
@@ -351,6 +346,7 @@ From pre-;islam;ic times into the ;islam;ic era,
 Classical Arabic poetry was composed and transmitted orally,
 from region to region, and from generation to generation.
 The grammarians used this transmitted poetry as their second major source of transmitted data.^[@suleiman_ta3leel@ 19]
+
 Some native Arabic dialects were beginning to diverge from Classical Arabic in the first and second century\ ;ah;.
 Because of this,
 the grammarians were more discerning in whether they would accept the poetry of a later poet.
@@ -373,9 +369,10 @@ Theoretically, the ;Hadith; texts should be considered a valid source of Classic
 However, as a trend, the grammarians were reluctant to consider the transmitted ;Hadith; texts as part of ;samaa3;.
 This is because they feared that some of the narrators in the chains of transmission of ;hadith; may have narrated their ;hadith; by meaning, rather than verbatim text.
 And if the narrator was himself not a native Classical Arabic speaker,
-than they could not be certain that the ;hadith; that reached them was correct Classical Arabic.
+than the grammarians could not be certain that the ;hadith; that reached them was correct Classical Arabic.
 They did not have this view regarding the ;quran; and poetry
 because the ;quran; and poetry required that they be transmitted verbatim.
+
 This policy of the grammarians has received some criticism,
 with some researchers deeming that they were unnecessarily exclusive,
 and that if the transmitters of a ;hadith; are deemed competent, then the ;hadith; should be admitted into ;samaa3;.
@@ -498,10 +495,11 @@ Sometimes a pattern occurs often enough in ;samaa3; that a rule is built upon it
 However, occurrences contrary to the pattern are also found in ;samaa3;.
 This usage which is contrary to ;qiyaas; is called _;shaadh;_.
 
-As an example of ;shaadh;,
-when the second letter of a root is [و]{.ar},
+Let's take a look at an example of ;shaadh;.
+When the second letter of a root is [و]{.ar},
 then its stem-10 ;madi; verb is regularly formed
 by transforming the [و]{.ar} into an alif.
+This is done according to ;qiyaas;.
 For example:
 
 |Root| stem-10 ;madi; verb |
@@ -593,7 +591,8 @@ is very complex and
 even if continually revised and refined,
 can perhaps never capture its full complexity.
 
-#;samaa3;, in general, cannot be rejected on the basis of ;qiyaas;.
+Because of this,
+#;samaa3;, in general, should not be rejected on the basis of ;qiyaas;.
 And an ;qiyaas;, even if it were sound, should not be applied if it
 leads to something that is contrary to ;samaa3;.^[[@intisaar_ibn_walaad@ 204](https://shamela.ws/book/29555/164#p1) cited by @baalbaki_book_agt@ 130]
 
@@ -713,7 +712,8 @@ and finds surface speech samples like the following:
 (@) [ذَهَبُوا]{.ar}  
     [They went.]{.trans}  
 
-Checking with his informant, he
+Consulting
+his informant, he
 finds that these also are complete sentences in their meaning.
 The informant tells him that the ;faa3il; of each action is now a person who is not named,
 but who is known to the informant.
@@ -722,16 +722,19 @@ So the grammarian classifies the ;faa3il;s as _pronouns_.
 But the ;faa3il;s of the verbs here are not expressed as common or proper nouns.
 Rather, the  sentences' meanings signify that the ;faa3il;s are pronouns.
 -->
+
 The grammarian also notices that the end of each verb is modified and extra sounds
 (expressed by letters in the script)
 are added after it.
 For example:
 [عَمِلَ + تُ = عَمِلْتُ]{.ar} 
-
-The grammarian then decides that these sentences can still be molded to fit into his above stated rule.
-He does this
-by analyzing
-the extra sounds at the end of the verbs
+Based on these observations,
+the grammarian
+devises a way, by which
+these sentences can still be molded to fit into his above stated rule.
+This is
+by considering
+the extra sounds/letters at the end of the verbs
 (for example, [تُ]{.ar} in [عَمِلْتُ]{.ar})
 to be the ;faa3il; pronouns.
 Now
@@ -798,6 +801,8 @@ Here are the other examples with their ;qaddared; ;faa3il;s:
 (@) [نَتَصَدَّقُ [نَحْنُ]]{.ar}  
     [We give charity.]{.trans}  
 
+In this way, a grammarian was able to formulate a ;qiyaas;-based grammatical rule
+based on observation of ;samaa3; and theorization of a ;taqdir;.
 
 ### A ;taqdir; of ;an; before ;astate; ;mudarie; verbs
 
@@ -866,11 +871,13 @@ is a preposition before the ;istate; noun
 
 We will see more examples of ;taqdiring; for the ;astate; ;mudarie; verb in chapter\ (ref), ;ia;.
 
-### Points to note regarding ;taqdiring;
+### Some aspects regarding ;taqdiring;
 
 #### The ;taqdir; often cannot actually be expressed {.unnumbered}
 
-One point is that 
+One point to note,
+regarding ;taqdiring;,
+is that 
 the ;taqdir; representation of a surface speech is often not actually correct as surface speech.^[@baalbaki_bab_al_fa@ 190; @versteegh_taqdir@ 278]
 
 If we take the ;taqdir; in () [ذَهَبَ [هُوَ]]{.ar} as an example,
@@ -891,8 +898,12 @@ This can be,
 for example,
 when the ;taqdir; restores a word or expression which is implied and was optionally deleted.
 For example,
-the ;qaddared; ;an; in example ()
+we saw that
+the ;qaddared; ;an; in example () [دَرَسْتُ لِأَنْجَحَ]{.ar}
 can actually be expressed in surface speech, thus:
+
+(@) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}  
+    [I studied for the reason that I may succeed.]{.trans}  
 
 By the way,
 coincidentally,
@@ -984,6 +995,11 @@ where
 ;an; and the following ;astate; ;mudarie; verb
 was reinterpreted
 as a ;masdar; construction: () [دَرَسْتُ لِنَجَاحِي]{.ar}.
+
+Sometimes a ;taqdir; mainly details the meaning of a sentence,
+rather than its syntactic structure.
+At all layers, however,
+;taqdir; serves to explain the grammar of the sentence.
 
 ### Benefits and risks of ;taqdiring;
 
