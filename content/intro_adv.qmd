@@ -85,7 +85,7 @@ from these primitive beginnings,
 into a highly developed system of linguistic analysis.^[Baalbaki, Introduction to _The early Islamic grammatical tradition_ xiii]
 
 Initially,
-grammatical research centeres mainly
+grammatical research was centered mainly
 in two places:
 the cities of al-[#baSr]{.trn2}ah
 and al-[#kUf]{.trn2}ah,
@@ -222,8 +222,8 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 }
 
     % Baghdad
-    \person{7.5}{170}{right}{west}{-16}{-12}{al-K͡halīl (\textsc{b})}
-    \person{7.5}{182}{right}{west}{-16}{-8}{Yūnus b. Ḥabīb (\textsc{b})}
+    %\person{7.5}{182}{right}{west}{-16}{-12}{Yūnus ibn Ḥabīb (\textsc{b})}
+    \person{7.5}{170}{right}{west}{-16}{-8}{al-K͡halīl (\textsc{b})}
     \person{7.5}{180}{right}{west}{-16}{ 8}{Sībawayh (\textsc{b})}
     \person{7.5}{215}{above}{south}{20}{ -20}{al-Ak͡hfas͡h al-Awsaṭ (\textsc{b})}
     \person{7.5}{285}{above}{south}{20}{-20}{al-Mubarrad (\textsc{b})}
@@ -879,7 +879,7 @@ We will see more examples of virtual modeling for the a-state stateful verb in c
 
 ### Some aspects regarding virtual modeling
 
-#### The virtual model often cannot actually be expressed {.unnumbered}
+#### The virtual model often cannot actually be expressed
 
 One point to note,
 regarding virtual modeling,
@@ -921,7 +921,7 @@ but it has a different meaning than the intended
 [He went]{.trans}.
 It uses the pronoun [هُوَ]{.ar} as an _emphatic follower_ (see chapter\ (ref)).
 
-#### The literal representation used in the virtual model may not be real {.unnumbered}
+#### The literal representation used in the virtual model may not be real
 
 Another point
 is that the virtually modeled doers,
@@ -951,10 +951,11 @@ as attached pronouns has benefits that keeps the grammatical framework coherent
 across different grammatical topics.
 We will see one such benefit in chapter\ (ref), when we discuss the emphatic follower.
 
-#### Virtual modeling can be used to interpret anomalous usage {.unnumbered}
+#### Virtual modeling can be used to interpret anomalous usage
 
-Grammarians also sometimes used virtual modeling as a tool to fit anomalous usage
-into their coherent grammatical framework.^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 42]
+Grammarians also sometimes used virtual modeling as a tool to make anomalous usage
+fit coherently
+into their grammatical framework.^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 42]
 For example, if we consider the line of poetry that we discussed in section\ (ref) above:
 
 (@) [جَارِيَةٌ فِي دِرْعِهَا الفَضْفَاضِ ~ **أَبْيَضُ** مِنْ أُخْتِ بَنِي إِبَاضِ]{.ar}
@@ -963,7 +964,7 @@ For example, if we consider the line of poetry that we discussed in section\ (re
 
 [أَبْيَض]{.ar}
 when taken to mean [whiter]{.trans} is anomalous usage, as we have mentioned.
-One attempt to make it fit into their analogy-based rule is by
+One attempt to make it fit into the grammarians' analogy-based rules is by
 interpreting
 [أَبْيَض]{.ar}
 not as a comparative noun,
@@ -977,14 +978,16 @@ Such that the virtual model is:
     [... in her shirt is a white body from [a woman of the tribe] of [#banU #ibAD]{.trn2}]{.trans}  
 
 Needless to say, this is pretty convoluted virtual modeling.
-Some grammarians would prefer to let such anomalous usage be, and they don't attempt to use virtual modeling to make it fit into analogy.^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 42  
+Some grammarians would prefer to let such anomalous usage be,
+and they wouldn't attempt to use such complicated virtual modeling to make it fit into analogy-based
+grammatical system.^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 42  
 Here is another example of using virtual model with anomalous usage:  
 [ولا يتقدم نعت المصدر على معموله فلا يقال عرفت سوقك العنيف الإبل، لأن معمول المصدر منه بمنزلة الصلة من الموصول، فلا يتقدم نعت المصدر على معموله، كما لا يتقدم نعت الموصول على صلته، فإن ورد ما يوهم خلاف ذلك قدر فعل بعد النعت يتعلق به المعمول المتأخر. فمن ذلك قول الحطيئة:  
 أزمَعْتُ يأسًا مُبِينا من نَوالكم ~ ولنْ ترى طارِدًا للحُرِّ كاليأسِ  
 فالمتبادر إلى فهم سامع هذا البيت تعليق من نوالكم بيأسا، وهو غير جائز كما ذكرت، بل يتعلق بيئست مضمرا]{.ar}  
 [[[شرح التسهيل لابن مالك]{.ar} 3/108--109](https://shamela.ws/book/13257/924#p1)]{.citex}]
 
-#### There can be multiple 'levels' of virtual modeling {.unnumbered}
+#### There can be multiple 'levels' of virtual modeling
 
 In order to fit a surface speech into analogy,
 there can be multiple 'levels' of virtual modeling done.
@@ -1005,7 +1008,7 @@ as a [maSdar]{.trn2} construction: () [دَرَسْتُ لِنَجَاحِي]{.a
 Sometimes a virtual model mainly details the meaning of a sentence,
 rather than its syntactic structure.
 At all layers, however,
-virtual model serves to explain the grammar of the sentence.
+virtual modeling serves to explain the grammar of the sentence.
 
 ### Benefits and risks of virtual modeling
 
