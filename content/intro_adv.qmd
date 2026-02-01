@@ -861,8 +861,8 @@ So the virtual model of () [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}
 is:
 
 (@) [دَرَسْتُ لِنَجَاحِي]{.ar}  
-    [I studied for reason of my success.]{.trans}  
-    (i.e. [so as to achieve success]{.trans}.)  
+    [I studied for the reason of my success.]{.trans}  
+    (i.e. [in order to achieve success]{.trans}.)  
 
 In the virtual model in example (),
 we can see how
@@ -881,12 +881,12 @@ the virtual model representation of a surface speech is often not actually corre
 
 If we take the virtual model in () [ذَهَبَ [هُوَ]]{.ar} as an example,
 then what we mean is that
-we don't actually say,
+we don't actually say (in surface speech)
 [ذَهَبَ هُوَ]{.ar}
 when we intend to mean [He went]{.trans}.
-Example () [ذَهَبَ]{.ar} is the only correct way to express this intended meaning.
-The representation () [ذَهَبَ [هُوَ]]{.ar}
-is only a _virtual model_ of example () [ذَهَبَ]{.ar}
+The surface speech () [ذَهَبَ]{.ar} is the only correct way to express this intended meaning.
+The representation [ذَهَبَ [هُوَ]]{.ar}
+is only a _virtual model_ of the surface speech [ذَهَبَ]{.ar}
 that elucidates the grammar of the sentence.
 
 Sometimes,
@@ -944,11 +944,30 @@ We will see one such benefit in chapter\ (ref), when we discuss the emphatic fol
 
 Grammarians also sometimes used virtual modeling as a tool to fit anomalous usage
 into their coherent grammatical framework.^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 42]
-For example:
+For example, if we consider the line of poetry that we discussed in section\ (ref) above:
 
-TODO
+(@) [جَارِيَةٌ فِي دِرْعِهَا الفَضْفَاضِ ~ **أَبْيَضُ** مِنْ أُخْتِ بَنِي إِبَاضِ]{.ar}
+    [[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 42]{.citex}  
+    [A girl in her full long shirt ~ **whiter** than a [woman of the tribe] of [#banU #ibAD]{.trn2}]{.trans}  
 
-^[Here is another example:  
+[أَبْيَض]{.ar}
+when taken to mean [whiter]{.trans} is anomalous usage, as we have mentioned.
+One attempt to make it fit into their analogy-based rule is by
+interpreting
+[أَبْيَض]{.ar}
+not as a comparative noun,
+but as a adjectival noun
+synonymous to [مُبْيَضَّ]{.ar} [white]{.trans}.
+An implied noun [جَسَد]{.ar} [body]{.trans} is also inserted.^[[[الإنصاف للأنباري]{.ar} 1/123](https://shamela.ws/book/7362/119#p1)]
+Such that the virtual model is:
+
+(@) [فِي دِرْعِهَا جَسَدٌ مُبْيَضٌّ مِنْ أُخْتِ بَنِي إِبَاضِ]{.ar}
+    [[[الإنصاف للأنباري]{.ar} 1/123](https://shamela.ws/book/7362/119#p1)]{.citex}  
+    [... in her shirt is a white body from [a woman of the tribe] of [#banU #ibAD]{.trn2}]{.trans}  
+
+Needless to say, this is pretty convoluted virtual modeling.
+Some grammarians would prefer to let such anomalous usage be, and they don't attempt to use virtual modeling to make it fit into analogy.^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 42  
+Here is another example of using virtual model with anomalous usage:  
 [ولا يتقدم نعت المصدر على معموله فلا يقال عرفت سوقك العنيف الإبل، لأن معمول المصدر منه بمنزلة الصلة من الموصول، فلا يتقدم نعت المصدر على معموله، كما لا يتقدم نعت الموصول على صلته، فإن ورد ما يوهم خلاف ذلك قدر فعل بعد النعت يتعلق به المعمول المتأخر. فمن ذلك قول الحطيئة:  
 أزمَعْتُ يأسًا مُبِينا من نَوالكم ~ ولنْ ترى طارِدًا للحُرِّ كاليأسِ  
 فالمتبادر إلى فهم سامع هذا البيت تعليق من نوالكم بيأسا، وهو غير جائز كما ذكرت، بل يتعلق بيئست مضمرا]{.ar}  
@@ -956,6 +975,8 @@ TODO
 
 #### There can be multiple 'levels' of virtual modeling {.unnumbered}
 
+In order to fit a surface speech into analogy,
+there can be multiple 'levels' of virtual modeling done.
 As an example,
 we saw in section\ (ref) above that
 in the sentence () [دَرَسْتُ لِأَنْجَحَ]{.ar},
@@ -998,16 +1019,22 @@ subjective reasoning.^[Baalbaki, "Bāb al-Fāʾ" 190]
 
 Therefore, the grammarian does,
 or should,
-attempt to substantiate his virtual modeling approach.
-This can be done
-by basing it on the understanding of native speakers,
+attempt to validate his virtual modeling approach,
+to whatever degree possible.
+One way to do this is
+by basing the virtual model on
+the meaning that
+a native speaker understands from the surface speech,
 as our grammarian did for latent doer pronouns in section\ (ref) above.
-Or by attempting to find evidence for it in the surface speech,
-as was done n section\ (ref) above,
+
+Another way is to attempt to find traces of the virtual model in the surface speech,
+as was done in section\ (ref) above,
 for the virtual modeling of [أَنْ]{.ar} between
 [لِ]{.ar}
-and a following a-state stateful verb.^[See also Baalbaki, "Bāb al-Fāʾ" 188 for another example from [كتاب سيبويه]{.ar}.]
+and a following a-state stateful verb.
 
+At the very least, any virtual model should be subservient to, and not contradict,
+the intended meaning of the surface speech.^[See also Baalbaki, "Bāb al-Fāʾ" 188]
 
 ## Difference of opinion between the grammarians
 
