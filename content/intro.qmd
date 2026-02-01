@@ -46,8 +46,10 @@ and the vernacular Arabic dialects which Arabs learn as their mother tongue and 
 In modern times, many new words and meanings were added to [sca]{.smallcaps}, often via translation from Western languages, to keep up with technological advancements and modern media. 
 This modern development of [sca]{.smallcaps} is called Modern Standard Arabic ([msa]{.smallcaps}). 
 
-The figure below presents a simplified view the historical development of the different varieties of Arabic.
+[@fig-varietiestimeline]
+presents a simplified view the historical development of the different varieties of Arabic.
 
+::: {#fig-varietiestimeline .test-class}
 ```{.tikz}
 
 \usetikzlibrary{arrows.meta, decorations.text, decorations.pathreplacing}
@@ -65,7 +67,7 @@ The figure below presents a simplified view the historical development of the di
 \node (msa) [right of=sca, xshift=3.5cm] {MSA};
 %\node (vern) [right of=class, xshift=7cm, align=center] {\small Modern\\\small Vernacular\\\small Arabic};
 %\node (vern) at (class -| msa) [xshift=0.4cm] {\small Modern\\\small Vernacular\\\small Arabic};
-\node (vern) at (class -| msa) [text centered,text width = 0.18\textwidth,text depth=0.5cm,align=left,xshift=0.7cm] {\small Modern Vernacular Arabic};
+\node (vern) at (class -| msa) [text centered,text width = 0.28\textwidth,text depth=0.5cm,align=left,xshift=0.7cm] {\small Modern Vernacular Arabic};
 
 
 \draw [doublearr] (old) -- node [midway,yshift=1.5pt] {\footnotesize dialects} (class);
@@ -82,7 +84,7 @@ The figure below presents a simplified view the historical development of the di
 %\draw [->,>=stealth,thick,postaction={decorate,decoration={text along path,raise=1.5pt,text align=left,text={|\footnotesize|SCA}}}] ([xshift=-0.25cm]class.north east) to [bend left=25] (sca);
 \draw [->,>=stealth,thick,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={SCA}}}] ([xshift=-0.4cm]class.north east) to [bend left=25] (sca);
 
-\draw [dashedarrow] ([xshift=-1cm]msa.south west) -- (vern.north west);
+\draw [dashedarrow] ([xshift=-1.65cm]msa.south west) -- ([xshift=0.65cm]vern.north west);
 \draw [dashedarrow] ([xshift=-1cm]vern.north west) -- (msa.south west);
 \node (msavern) [below of=msa, xshift=-0.9cm, yshift=0.07cm] {\scriptsize cross-influence};
 
@@ -111,10 +113,13 @@ The figure below presents a simplified view the historical development of the di
 \node (hijrah) [below of=class, yshift=0.2cm] {\footnotesize the Hijrah};
 %\node (ah1400) [below of=vern, yshift=0.2cm,xshift=-1.75cm] {\footnotesize 1400\textsc{ah}};
 \node (ah1400) at (hijrah -| msa)  {\footnotesize 1400\textsc{ah}};
-\node (timelabel) [right of=ah1400,xshift=1cm]  {\footnotesize time axis};
+%\node (timelabel) [right of=ah1400,xshift=1cm]  {\footnotesize time axis};
 
 \end{tikzpicture}
 ```
+
+A simplified view of the historical development of the different varieties of Arabic.
+:::
 
 In the figure above, the extraction of
 [sca]{.smallcaps}
