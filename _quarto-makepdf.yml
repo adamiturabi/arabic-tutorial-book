@@ -46,7 +46,7 @@ format:
     sansfontoptions: Numbers=OldStyle
     monofont: "DejaVu Sans Mono"
     monofontoptions: "Scale=0.7"
-    fontsize: 9pt
+    fontsize: 10pt
     #pdf-engine: xelatex
     include-in-header:
       - file: srctex/include_in_header.tex
