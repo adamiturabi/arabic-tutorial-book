@@ -34,4 +34,4 @@ format:
 tikz:
   template: srctex/tikz-template-html.tex
   svg-engine: scripts/pdf2svg.py
-  scale: 1.65
+  scale: 1.83
