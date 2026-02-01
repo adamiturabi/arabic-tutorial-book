@@ -85,24 +85,20 @@ from these primitive beginnings,
 into a highly developed system of linguistic analysis.^[Baalbaki, Introduction to _The early Islamic grammatical tradition_ xiii]
 
 Initially,
-grammatical activity flourished mainly
-in two urban centers:
+grammatical research centeres mainly
+in two places:
 the cities of al-[#baSr]{.trn2}ah
-and al-[#kUf]{.trn2}ah
+and al-[#kUf]{.trn2}ah,
 in Iraq.
-These are often referred to as the
-[#baSr]{.trn2}an
-and
-[#kUf]{.trn2}an
-grammatical schools respectively.
-The 
+
+These
 [#baSr]{.trn2}an
 and
 [#kUf]{.trn2}an
 schools were mainly active,
 in their eponymous cities,
 into the third century\ [ah]{.smallcaps}.
-After that, grammarians would still often be ascribed academically
+After that, grammarians would still often be affiliated academically
 to one of the two schools,
 but they were more geographically widespread.
 Many famous later grammarians operated out of
@@ -504,10 +500,11 @@ analogy.
 However, occurrences contrary to the pattern are also found in attested usage.
 This usage which is contrary to analogy is called _anomalous usage_.
 
-As an example of anomalous usage,
-when the second letter of a root is [و]{.ar},
+Let's take a look at an example of anomalous usage.
+When the second letter of a root is [و]{.ar},
 then its stem-10 perfect verb is regularly formed
 by transforming the [و]{.ar} into an alif.
+This is done according to analogy.
 For example:
 
 |Root| stem-10 perfect verb |
@@ -599,7 +596,8 @@ analogy-based rules,
 even if continually revised and refined,
 can perhaps never capture its full complexity.
 
-Attested usage, in general, cannot be rejected on the basis of analogy.
+Because of this,
+Attested usage, in general, should not be rejected on the basis of analogy.
 And an analogy, even if it were sound, should not be applied if it
 leads to something that is contrary to attested usage.^[[[الانتصار لسيبويه على المبرد لابن ولاد]{.ar} 204](https://shamela.ws/book/29555/164#p1) cited by Baalbaki, "The book in the grammatical tradition" 130]
 
@@ -719,7 +717,8 @@ and finds surface speech samples like the following:
 (@) [ذَهَبُوا]{.ar}  
     [They went.]{.trans}  
 
-Checking with his informant, he
+Consulting
+his informant, he
 finds that these also are complete sentences in their meaning.
 The informant tells him that the doer of each action is now a person who is not named,
 but who is known to the informant.
@@ -728,16 +727,19 @@ So the grammarian classifies the doers as _pronouns_.
 But the doers of the verbs here are not expressed as common or proper nouns.
 Rather, the  sentences' meanings signify that the doers are pronouns.
 -->
+
 The grammarian also notices that the end of each verb is modified and extra sounds
 (expressed by letters in the script)
 are added after it.
 For example:
 [عَمِلَ + تُ = عَمِلْتُ]{.ar} 
-
-The grammarian then decides that these sentences can still be molded to fit into his above stated rule.
-He does this
-by analyzing
-the extra sounds at the end of the verbs
+Based on these observations,
+the grammarian
+devises a way, by which
+these sentences can still be molded to fit into his above stated rule.
+This is
+by considering
+the extra sounds/letters at the end of the verbs
 (for example, [تُ]{.ar} in [عَمِلْتُ]{.ar})
 to be the doer pronouns.
 Now
@@ -804,6 +806,8 @@ Here are the other examples with their virtually modeled doers:
 (@) [نَتَصَدَّقُ [نَحْنُ]]{.ar}  
     [We give charity.]{.trans}  
 
+In this way, a grammarian was able to formulate a analogy-based grammatical rule
+based on observation of attested usage and theorization of a virtual model.
 
 ### A virtual model of [أَنْ]{.ar} before a-state stateful verbs
 
@@ -872,11 +876,13 @@ is a preposition before the i-state noun
 
 We will see more examples of virtual modeling for the a-state stateful verb in chapter\ (ref), if Allāh wills.
 
-### Points to note regarding virtual modeling
+### Some aspects regarding virtual modeling
 
 #### The virtual model often cannot actually be expressed {.unnumbered}
 
-One point is that 
+One point to note,
+regarding virtual modeling,
+is that 
 the virtual model representation of a surface speech is often not actually correct as surface speech.^[Baalbaki, "Bāb al-Fāʾ" 190; Versteegh, "The notion of underlying levels" 278]
 
 If we take the virtual model in () [ذَهَبَ [هُوَ]]{.ar} as an example,
@@ -990,6 +996,11 @@ where
 [أَنْ]{.ar} and the following a-state stateful verb
 was reinterpreted
 as a [maSdar]{.trn2} construction: () [دَرَسْتُ لِنَجَاحِي]{.ar}.
+
+Sometimes a virtual model mainly details the meaning of a sentence,
+rather than its syntactic structure.
+At all layers, however,
+virtual model serves to explain the grammar of the sentence.
 
 ### Benefits and risks of virtual modeling
 
