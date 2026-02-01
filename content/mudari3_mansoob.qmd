@@ -179,7 +179,7 @@ So, in the above example, the
 [أَنْ]{.ar} clause
 is in place of the direct doee of the verb [أَمَلَ]{.ar}:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
@@ -205,7 +205,7 @@ occurs in place of other noun positions.
 
 As the subject:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
@@ -230,7 +230,7 @@ which is grammatically equivalent to: [نَجَاحَكَ هُوَ ٱلْمَق�
 
 As the info:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
@@ -254,7 +254,7 @@ which is grammatically equivalent to: [ٱَلْمَقْصِدُ نَجَاحَك
 
 As a doer noun:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
@@ -278,7 +278,7 @@ which is grammatically equivalent to: [يَحْزُنُنِي ذَهَابُهُ
 
 In the i-state as the base noun in an annexation:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 
@@ -302,7 +302,7 @@ which is grammatically equivalent to: [سَكَتَتْ مِنْ خَشْيَة�
 
 In the i-state after a preposition:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.45ex}]
 \path [decoration={text effects along path, 

@@ -718,13 +718,13 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[شرح قطر الندى وبل الصدى]{.ar}"
     , bib_text = """
-      الكتاب: شرح قطر الندى وبل الصدى
-      المؤلف: أبو محمد، عبد الله، جمال الدين بن هشام الأنصاري (ت ٧٦١ هـ)
-      المحقق: محمد محيى الدين عبد الحميد [ت ١٣٩٢ هـ]
-      الطبعة: الحادية عشرة للمحقق ١٣٨٣ هـ- ١٩٦٣ م تمتاز بدقة الضبط والزيادة في الشروح والتحقيقات
-      الناشر: المكتبة التجارية الكبرى بمصر
-      طبع: مطبعة السعادة بمصر
-      عدد الصفحات: ٣٣٥
+      الكتاب: شرح قطر الندى وبل الصدى  
+      المؤلف: أبو محمد، عبد الله، جمال الدين بن هشام الأنصاري (ت ٧٦١ هـ)  
+      المحقق: محمد محيى الدين عبد الحميد [ت ١٣٩٢ هـ]  
+      الطبعة: الحادية عشرة للمحقق ١٣٨٣ هـ- ١٩٦٣ م تمتاز بدقة الضبط والزيادة في الشروح والتحقيقات  
+      الناشر: المكتبة التجارية الكبرى بمصر  
+      طبع: مطبعة السعادة بمصر  
+      عدد الصفحات: ٣٣٥  
       """ + format_url_ar("https://shamela.ws/book/6970")
     , sort_key = "شرح قطر الندى وبل الصدى"
     ))
@@ -819,13 +819,13 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[ارتشاف الضرب من لسان العرب]{.ar}"
     , bib_text = """
-      الكتاب: ارتشاف الضرب من لسان العرب
-      المؤلف: أبو حيان محمد بن يوسف بن علي بن يوسف بن حيان أثير الدين الأندلسي (ت ٧٤٥ هـ)
-      تحقيق وشرح ودراسة: رجب عثمان محمد
-      مراجعة: رمضان عبد التواب
-      الناشر: مكتبة الخانجي بالقاهرة
-      الطبعة: الأولى، ١٤١٨ هـ - ١٩٩٨ م
-      عدد الأجزاء: ٥ (متسلسلة الترقيم)
+      الكتاب: ارتشاف الضرب من لسان العرب  
+      المؤلف: أبو حيان محمد بن يوسف بن علي بن يوسف بن حيان أثير الدين الأندلسي (ت ٧٤٥ هـ)  
+      تحقيق وشرح ودراسة: رجب عثمان محمد  
+      مراجعة: رمضان عبد التواب  
+      الناشر: مكتبة الخانجي بالقاهرة  
+      الطبعة: الأولى، ١٤١٨ هـ - ١٩٩٨ م  
+      عدد الأجزاء: ٥ (متسلسلة الترقيم)  
     """ + format_url_ar("https://shamela.ws/book/16595")
     , sort_key = "ارتشاف الضرب من لسان العرب"
     ))
@@ -834,13 +834,13 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[تحقيق الكلام في المسائل الثلاث ضمن آثار المعلمي]{.ar}"
     , bib_text = """
-      الكتاب: تحقيق الكلام في المسائل الثلاث
-      [آثار عبد الرحمن بن يحيى المعلمي اليماني (٤)]
-      المؤلف: عبد الرحمن بن يحيى المُعَلِّمي اليماني (١٣١٣ - ١٣٨٦ هـ)
-      المحقق: علي بن محمد العمران - محمد عزير شمس
-      راجعه: عبد الرحمن بن صالح السُديس - سليمان بن عبد الله العُمير
-      الناشر: دار عالم الفوائد للنشر والتوزيع
-      الطبعة: الأولى، ١٤٣٤ هـ
+      الكتاب: تحقيق الكلام في المسائل الثلاث  
+      [آثار عبد الرحمن بن يحيى المعلمي اليماني (٤)]  
+      المؤلف: عبد الرحمن بن يحيى المُعَلِّمي اليماني (١٣١٣ - ١٣٨٦ هـ)  
+      المحقق: علي بن محمد العمران - محمد عزير شمس  
+      راجعه: عبد الرحمن بن صالح السُديس - سليمان بن عبد الله العُمير  
+      الناشر: دار عالم الفوائد للنشر والتوزيع  
+      الطبعة: الأولى، ١٤٣٤ هـ  
       """ + format_url_ar("https://shamela.ws/book/328")
     , sort_key = "تحقيق الكلام في المسايل الثلاث ضمن اثار المعلمي"
     ))
@@ -902,6 +902,42 @@ def populate_resource_list():
       عدد الأجزاء: ٤  
       """ + format_url_ar("https://shamela.ws/book/174")
     , sort_key = "شرح الفارضي على الفية ابن مالك"
+    ))
+  resource_list.append(BibResource(
+    "qiyaas_amsha"
+    , cit_type = "ar_ref"
+    , cit_text = "[القياس النحوي لخالد حسين أبو عمشة]{.ar}"
+    , bib_text = """
+      الكتاب: القياس النحوي  
+      المؤلف: لخالد حسين ابو عمشة  
+      """ + format_url_ar("https://ketabonline.com/ar/books/97698")
+    , sort_key = "القياس النحوي لخالد حسين ابو عمشة"
+    ))
+  resource_list.append(BibResource(
+    "qiyaas_husain"
+    , cit_type = "ar_ref"
+    , cit_text = "[القياس في اللغة العربية لمحمد الخضر حسين]{.ar}"
+    , bib_text = """
+      الكتاب: القياس في اللغة العربية  
+      المؤلف: محمد الخضر حسين  
+      الناشر: المطبعة السلفية، القاهرة  
+      الطبعة: ١٣٥٣ هـ - ١٩٣٥ م  
+      """
+    , sort_key = "القياس في اللغة العربية لمحمد الخضر حسين"
+    ))
+  resource_list.append(BibResource(
+    "intisaar_ibn_walaad"
+    , cit_type = "ar_ref"
+    , cit_text = "[الانتصار لسيبويه على المبرد لابن ولاد]{.ar}"
+    , bib_text = """
+      الكتاب: الانتصار لسيبويه على المبرد  
+      المؤلف: أبو العباس، أحمد بن محمد بن ولاد التميمي النحوي (ت ٣٣٢ هـ)  
+      دراسة وتحقيق: د. زهير عبد المحسن سلطان  
+      الناشر: مؤسسة الرسالة  
+      الطبعة: الأولى، ١٤١٦ هـ - ١٩٩٦ م  
+      عدد الصفحات: ٢٧١  
+      """
+    , sort_key = "الانتصار لسيبويه على المبرد لابن ولاد"
     ))
 
   # Western
@@ -1069,6 +1105,58 @@ def populate_resource_list():
     , bib_text = "Baalbaki, R., Introduction to _The early Islamic grammatical tradition_, Routledge, 2016."
     , sort_key = 'baalbaki introduction early islamic grammatical tradition'
     ))
+  resource_list.append(BibResource(
+    "baalbaki_book_agt"
+    , cit_type = "ws_ref"
+    , cit_text = 'Baalbaki, "The book in the grammatical tradition"'
+    , bib_text = 'Baalbaki, R., "The book in the grammatical tradition: Development in content and methods." Article\\ [i]{.smallcaps} in _Grammarians and grammatical theory in the medieval Arabic tradition_, Routledge, 2004.'
+    , sort_key = 'baalbaki book in the grammatical tradition'
+    ))
+  resource_list.append(BibResource(
+    "baalbaki_bab_al_fa"
+    , cit_type = "ws_ref"
+    , cit_text = 'Baalbaki, "Bāb al-Fāʾ"'
+    , bib_text = 'Baalbaki, R., "Bāb al-Fāʾ [Fāʾ + Subjunctive] in Arabic Grammatical Sources." Article\\ [xvii]{.smallcaps} in _Grammarians and grammatical theory in the medieval Arabic tradition_, Routledge, 2004.'
+    , sort_key = 'baalbaki bab al fa'
+    ))
+  resource_list.append(BibResource(
+    "baalbaki_teaching_arabic"
+    , cit_type = "ws_ref"
+    , cit_text = 'Baalbaki, "Teaching Arabic at university level"'
+    , bib_text = 'Baalbaki, R., "Teaching Arabic at university level: Problems of grammatical tradition." Article\\ [xviii]{.smallcaps} in _Grammarians and grammatical theory in the medieval Arabic tradition_, Routledge, 2004.'
+    , sort_key = 'baalbaki teaching arabic'
+    ))
+  resource_list.append(BibResource(
+    "suleiman_ta3leel"
+    , cit_type = "ws_ref"
+    , cit_text = "Suleiman, _The Arabic grammatical tradition: A study in ta‘līl_"
+    , bib_text = "Suleiman, Y., _The Arabic grammatical tradition: A study in ta‘līl_. Edinburgh University Press, 1999."
+    , sort_key = "suleiman arabic grammatical tradition a study in talil"
+    ))
+  resource_list.append(BibResource(
+    "carter_thesis"
+    , cit_type = "ws_ref"
+    , cit_text = "Carter, _Sībawayhi's principles_"
+    , bib_text = "Carter, M.\\ G., _Sībawayhi's principles: Arabic grammar and law in early Islamic thought_. Lockwood Press, 2016."
+    , sort_key = "carter sibawayhis principles"
+    ))
+  resource_list.append(BibResource(
+    "versteegh_taqdir"
+    , cit_type = "ws_ref"
+    , cit_text = 'Versteegh, "The notion of underlying levels"'
+    , bib_text = """Versteegh, K., "The notion of 'underlying levels' in the Arabic grammatical tradition." In _Historiographia Linguistica_ 21, 1994, p. 271‒296. """
+    , sort_key = "versteegh notion of underlying levels"
+    ))
+  resource_list.append(BibResource(
+    "levin_taqdir"
+    , cit_type = "ws_ref"
+    , cit_text = 'Levin, "The Theory of al-Taqdīr and its Terminology."'
+    , bib_text = 'Levin, A., "The Theory of al-Taqdīr and its Terminology." In _Jerusalem Studies in Arabic and Islam_,. 21 (1997), p. 142-166.'
+    , sort_key = "levin theory of al taqdir"
+    ))
+
+
+
 
 
   return resource_list

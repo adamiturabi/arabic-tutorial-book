@@ -3,5 +3,7 @@
 /.quarto/
 scripts/__pycache__/
 
+content/*_files/
+
 
 **/*.quarto_ipynb

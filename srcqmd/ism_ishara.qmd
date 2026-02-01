@@ -7,7 +7,7 @@
 
 Consider the following expression:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -92,7 +92,7 @@ Remember from chapter\ \@ref(;sifah;s-and-descriptive-noun-phrases) that a descr
 
 Here is an example of a descriptive noun-phrase in a sentence.
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -136,7 +136,7 @@ above that ;ism_isharah;s are definite.
 So, if a ;ism_isharah; is a ;na3t; in a noun-phrase, the ;manut; has to be definite too.
 Example:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -175,7 +175,7 @@ The ;ism_isharah; is then a replacee (see section\ \@ref(the-replacement)), and 
 
 Example:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -320,7 +320,7 @@ Before we give more examples, let's analyze these phrases in detail.
 
 Consider the first ;ism_isharah; phrase:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -368,7 +368,7 @@ The more natural translation is:
 
 Consider, now, the second ;ism_isharah; phrase:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -463,7 +463,7 @@ Let's analyze the expression
 "this book of the man"
 in detail:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -620,7 +620,7 @@ So, we are left with only one option: the ;mudaf; [كِتَاب]{.ar} is the des
 [كِتَابُهُ هَـٰذَا]{.ar}  
 "this book of his"
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -658,7 +658,7 @@ Here are some more examples:
 
 Besides their use in ;ism_isharah; phrases, ;ism_isharah;s are very often used as the ;mubtada; of a sentence. For example:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -718,7 +718,7 @@ The ;xabar; may be a single word (as above) or more complex (as below):
 
 If the ;xabar; is a noun that begins with [ٱَلْ]{.ar} then it may be placed after the ;ism_isharah; ;mubtada; in the same manner:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 

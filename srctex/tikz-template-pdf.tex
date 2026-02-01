@@ -1,21 +1,34 @@
-\RequirePackage{luatex85}
-\documentclass{article}
-\usepackage[luatex,active,tightpage]{preview}
-\usepackage{amsmath}
-\usepackage{tikz}
+\documentclass[10pt,tikz]{standalone}
+% \usepackage{tikz} % already loaded by the documentclass
 
-\usepackage{fontspec}
+\usepackage{unicode-math} % this also loads fontspec
+
 \defaultfontfeatures{Scale=MatchLowercase}
 \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
-\setmainfont{Charis}
+\usepackage[bidi=basic]{babel}
+\setmainfont[Numbers=OldStyle]{Charis}
+\setsansfont[Numbers=OldStyle]{Charis}
+\setmonofont[Scale=0.7]{DejaVu Sans Mono}
 
-\usetikzlibrary{%s}
-\usetikzlibrary{matrix}
-\usepackage{arabluatex}
-\newfontfamily{\arabicfont}[Script=Arabic,Scale=1.0]{Vazirmatn-Light}
+\usepackage[bidi=basic]{babel}
+\babelfont{rm}[Numbers=OldStyle]{Charis}
+%\usepackage[english]{selnolig} % disable illegal ligatures
 
+\babelfont[arabic]{rm}[Language=Arabic,Renderer=HarfBuzz]{Vazirmatn-Regular}
+\babelfont[arabic]{sf}[Language=Arabic,Renderer=HarfBuzz]{Vazirmatn-Regular}
+\babelfont[arabic]{alt}[Language=Arabic,Renderer=HarfBuzz]{Amiri}
+\babelfont[arabic]{quran}[Language=Arabic,Renderer=HarfBuzz]{Kitab} % need to specify HarfBuzz to fix diacritics/ligatures
+
+\newcommand\txarb[1]{
+  \foreignlanguage{arabic}{#1}
+}
+
+$additional-packages$
+$for(header-includes)$
+$it$
+$endfor$
 \begin{document}
-\begin{preview}
-%s
-\end{preview}
+$body$
 \end{document}
+      
+

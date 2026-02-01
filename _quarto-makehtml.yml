@@ -31,3 +31,7 @@ format:
     include-before-body: srchtml/watermark.html
     linkcolor: "hsl(210,10.3448275862%,47.7450980392%)" # obtained by inspecting webpage
 
+tikz:
+  template: srctex/tikz-template-html.tex
+  svg-engine: scripts/pdf2svg.py
+  scale: 1.65

@@ -13,7 +13,7 @@
 
 Consider the following expression:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -98,7 +98,7 @@ Remember from chapter\ \@ref(adjectival nouns-and-descriptive-noun-phrases) that
 
 Here is an example of a descriptive noun-phrase in a sentence.
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -142,7 +142,7 @@ above that pointing nouns are definite.
 So, if a pointing noun is a attribute in a noun-phrase, the attributee has to be definite too.
 Example:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -181,7 +181,7 @@ The pointing noun is then a replacee (see section\ \@ref(the-replacement)), and 
 
 Example:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -326,7 +326,7 @@ Before we give more examples, let's analyze these phrases in detail.
 
 Consider the first pointing noun phrase:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -374,7 +374,7 @@ The more natural translation is:
 
 Consider, now, the second pointing noun phrase:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -469,7 +469,7 @@ Let's analyze the expression
 "this book of the man"
 in detail:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -626,7 +626,7 @@ So, we are left with only one option: the annexe noun [كِتَاب]{.ar} is the
 [كِتَابُهُ هَـٰذَا]{.ar}  
 "this book of his"
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -664,7 +664,7 @@ Here are some more examples:
 
 Besides their use in pointing noun phrases, pointing nouns are very often used as the subject of a sentence. For example:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -724,7 +724,7 @@ The info may be a single word (as above) or more complex (as below):
 
 If the info is a noun that begins with [ٱَلْ]{.ar} then it may be placed after the pointing noun subject in the same manner:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 

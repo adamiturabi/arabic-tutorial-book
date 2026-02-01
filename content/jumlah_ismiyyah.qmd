@@ -21,7 +21,7 @@ ii. The _info_. This gives us some information about the subject.
 
 Here is a nounal sentence:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -63,7 +63,7 @@ ii. [بَيْتٌ]{.ar} [baytun]{.trn} (masc.) "a house" (u-state)
 
 In order to form this sentence in Arabic, we put the subject first and then the info. So we get:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 

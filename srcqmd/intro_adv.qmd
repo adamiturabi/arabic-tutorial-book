@@ -1,4 +1,1050 @@
 # The Arabic grammatical tradition
 
+;wip_warn;
+
+## History of the Arabic grammatical tradition
+
+<!--
+By the end of the second century after the Hijrah,
+we have the the first extant book on Arabic grammar titled _The Book_,
+by a famous grammarian of the name [#sIbawayh]{.trn2}.
+
+The earliest extant book on Arabic grammar
+is titled
+[الْكِتَاب]{.ar} [The Book]{.trans},
+written
+by the famous [#baSran]{.trans} grammarian [#sIbawayh]{.trn2} (died 185\ ;ah;).
+[#sIbawayh]{.trn2}'s _Book_ is a remarkably comprehensive
+-->
+
+
+During the time of the Prophet ;pbuh;,
+the Arabs spoke Classical Arabic natively.
+
+After the time of the Prophet ;pbuh;,
+<!--
+when the borders of the [#islAm]{.trn2}ic state had expanded beyond the Arabian peninsula,
+-->
+<!--
+there was an 
+increased intermingling between Arab and non-Arab populations.
+Because of this,
+-->
+<!--
+the native speech of the Arabs began to
+diverge from the Classical Arabic of the generation of the Companions of the Prophet ;pbuh;.
+-->
+during
+the [#racidUn]{.trn2} caliphate (11--41\ ;ah;),
+the borders of the [#islAm]{.trn2}ic state had expanded beyond the Arabian peninsula.
+This brought upon an increased intermingling between Arab and non-Arab populations,
+especially in the towns and urban centers.
+
+There are
+reports that,
+during this time,
+there was an increased occurrence of grammatical
+and pronunciation errors in spoken Arabic,
+especially by non-Arabs and the newer generation.
+<!--
+the older generation noticed that the kind of Arabic which was being spoken
+on the street,
+and by the newer generation,
+had begun to diverge from the Classical Arabic of the generation of the Companions of the Prophet ;pbuh;.
+Here are some examples of these reports:
+-->
+
+The reports also claim, that in order to safeguard the ;quran; from
+being read incorrectly,
+efforts began to preserve Classical Arabic.
+This outline of events is traditionally credited as
+the inception of the Arabic grammatical tradition,
+and of the profession of the grammarian.
+
+It is difficult to establish the authenticity of many of these reports.
+So we are not certain
+who would qualify to be the first grammarians,
+nor are we certain of the extent of their grammatical discourse.
+We do know that
+the early grammarians 
+of the first and early second centuries\ ;ah;,
+were definitely able to distinguish between correct and incorrect language.^[@carter_thesis@ 5--6]
+But their terminology and grammatical analysis
+were presumably rudimentary.^[@baalbaki_intro@ xv; [@afghani@ 29--30, footnote\ 2](https://shamela.ws/book/9937/27#p1)]
+
+However,
+in the latter half of the second century\ ;ah;,
+Arabic grammar had already developed,
+from these primitive beginnings,
+into a highly developed system of linguistic analysis.^[@baalbaki_intro@ xiii]
+
+Initially,
+grammatical activity flourished mainly
+in two urban centers:
+the cities of al-;Basr;ah
+and al-;Kuf;ah
+in Iraq.
+These are often referred to as the
+;Basr;an
+and
+;Kuf;an
+grammatical schools respectively.
+The 
+;Basr;an
+and
+;Kuf;an
+schools were mainly active,
+in their eponymous cities,
+into the third century\ ;ah;.
+After that, grammarians would still often be ascribed academically
+to one of the two schools,
+but they were more geographically widespread.
+Many famous later grammarians operated out of
+[#bagdAd]{.trn2}, Egypt, Syria, Persia, and [al-#andalus]{.trn2} (;islam;ic Spain).
+
+<!--
+[al-#kisAEI]{.trn2}  
+[#yUnus]{.trn2}  
+[#sIbawayh]{.trn2}  
+[al-#xalIl]{.trn2}  
+[al-#farrAE]{.trn2}  
+[#vaelab]{.trn2}  
+[#sarrAj]{.trn2}  
+[#zajjAjI]{.trn2}  
+[#sIrAfI]{.trn2}  
+[#jinnI]{.trn2}  
+[#jurjAnI]{.trn2}  
+[#zamaxcarI]{.trn2}  
+[#abU al-#barakAt al-#anbArI]{.trn2}  
+[al-#raDiyy al-#astarAbApI]{.trn2}  
+[#yaeIc]{.trn2}  
+[#mAlik]{.trn2}  
+[#AjurrUm]{.trn2}  
+[#euSfUr]{.trn2}  
+[#maDAE]{.trn2}  
+[#abU #HayyAn]{.trn2}  
+[#eaqIl]{.trn2}  
+[#hicAm]{.trn2}  
+[#suyUTI]{.trn2}  
+[#acmUnI]{.trn2}  
+[al-#axfac al-#awsaT]{.trn2}  
+[#abU #isHAq al-#cATibI]{.trn2}
+[#abU #ealiyy al-#fArisI]{.trn2}
+[Ibn #fAris]{.trn2}
+-->
+
+[@fig-gramtimeline]
+depicts a (year of death) timeline and geographical distribution of some of the more well-known grammarians.
+
+::: {#fig-gramtimeline .test-class}
+```{.tikz}
+% The following code is adapted from adapted from Andreas Hallberg’s https://andreasmhallberg.github.io/timeline-of-arab-grammarians
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc, backgrounds}
+\usetikzlibrary{arrows.meta, decorations.text}
+\usetikzlibrary{shapes,positioning,intersections,quotes}
+
+\newcommand\cetoah[1]{
+  \fpeval{((#1) - 622) * (365.25/(29.5*12))}
+}
+\newcommand\ceaxis[1]{
+    \draw (9, \cetoah{#1}) -- (9.2, \cetoah{#1}) node [anchor=west] {\footnotesize #1};
+}
+
+% Constants
+\def\begah{0}
+\def\endah{1000}
+\def\beglong{0}
+\def\endlong{9}
+\def\regions{al-Andalus, North Africa, Egypt, Syria, al-Ḥijāz, Bag͡hdād, al-Kūfah, al-Baṣrah, Persia}
+\def\mixcolor{gray}
+
+\IfPackageLoadedTF{xcolor}{
+\definecolor{GramNameColor}{RGB}{102, 0, 51}
+}{}
+
+\newcommand\condcolor[1]{
+\IfPackageLoadedTF{xcolor}{\textcolor{GramNameColor}{#1}}{#1}
+}
+
+
+%\dynasty{<color>}{<begregion>}{<endregion>}{<begyear ah>}{<endyear ah>}{<name>}{<yshift>}
+\newcommand\dynasty[7]{%
+\begin{pgfonlayer}{background}
+    % bar
+    %\fill [color=#1!10!\mixcolor]
+    %\fill [color=#1!20]
+    \fill [pattern=#1,pattern color=black!18!white]
+    ({#2-1},#4) rectangle (#3,#5);
+    % label
+    \node [black!25, #7, font=\bfseries\sffamily] 
+    at ({#2-1+(#3-#2+1)/2},{#4+(#5-#4)/2}) {#6};
+\end{pgfonlayer}
+}
+%x,y,xshift,yshift,label
+\newcommand\person[7]{%
+    \coordinate (pointnode)  at (#1,#2) {};
+    \node [fill, draw, circle, minimum width=2pt, inner sep=0] at (#1,#2) {};
+    \node (labelnode)  [inner sep=0, outer sep=0, #3 of=pointnode, xshift=#5, yshift=#6,anchor=#4] {\scriptsize \condcolor{#7}};
+    \draw (pointnode)  -- (labelnode.#4);
+}
+
+% phases
+% \phase{<name>}{<begin>}{<end>}
+\newcommand{\phase}[3]{
+    \draw [thin] (-0.8,#2+2) -- (-1,#2+2) -- (-1, #3-2) node [midway, above, rotate=90,align=center, font=\sffamily] {#1} -- (-0.8,#3-2);
+}
+
+\begin{tikzpicture}[y=0.1mm]
+
+\draw [help lines] (\beglong,\begah) grid (\endlong,\endah);
+
+% Axis
+\draw [->, very thick] (\beglong,0) -- (\endlong+0.2,0);
+\draw [->, very thick] (0,\begah) -- (0,\endah+20);
+
+% Axis ticks
+\foreach \y in {100,200,...,\endah} {
+  \draw (0, \y) -- (-.2, \y) node [anchor=east] {\footnotesize \y};
+}
+\node  at (-0.5,0) {\footnotesize 1 AH};
+\node  at (9.5,30) {\footnotesize CE};
+
+\foreach \y in {600,700,...,1600} {
+  \ceaxis{\y}
+}
+
+
+\foreach [count=\i] \x in \regions {
+    %\node[label={\x}] (\i) at (\i-0.5, 0) {};
+    \node[rotate=60,align=left,anchor=east] () at (\i-0.2, 0) {\footnotesize \x};
+}
+
+    % Baghdad
+    \person{7.5}{170}{right}{west}{-16}{-12}{al-K͡halīl (\textsc{b})}
+    \person{7.5}{182}{right}{west}{-16}{-8}{Yūnus b. Ḥabīb (\textsc{b})}
+    \person{7.5}{180}{right}{west}{-16}{ 8}{Sībawayh (\textsc{b})}
+    \person{7.5}{215}{above}{south}{20}{ -20}{al-Ak͡hfas͡h al-Awsaṭ (\textsc{b})}
+    \person{7.5}{285}{above}{south}{20}{-20}{al-Mubarrad (\textsc{b})}
+
+    % Kufah
+    %\person{6.5}{150}{left} {east}{ 16}{0}{Abu Hanifah}
+    \person{6.5}{189}{left} {east}{ 16}{-4}{al-Kisāʾī (\textsc{k})}
+    \person{6.5}{207}{left} {east}{ 16}{0}{al-Farrāʾ (\textsc{k})}
+
+    % Baghdad
+    \person{5.5}{291}{left} {east}{ 16}{-1}{T͡haɛlab (\textsc{k})}
+    \person{5.5}{316}{left} {east}{ 16}{-1}{Ibn al-Sarrāj (\textsc{b})}
+    \person{5.5}{337}{left} {east}{ 16}{0}{al-Zajjājī}
+    \person{5.5}{368}{left} {east}{ 16}{-1}{al-Sīrāfī (\textsc{b})}
+    \person{5.5}{377}{left} {east}{ 16}{3}{Abū Ɛaliyy al-Fārisī (\textsc{b})}
+    \person{5.5}{384}{left} {east}{ 16}{9}{al-Rummānī}
+    \person{5.5}{392}{left} {east}{ 16}{13}{Ibn Jinnī}
+    \person{5.5}{577}{right} {west}{-16}{6}{Abū al-Barakāt al-Anbārī}
+
+    % Syria
+    \person{3.5}{643}{right} {west}{-16}{3}{Ibn Yaɛīs͡h}
+    \person{3.5}{672}{right} {west}{-16}{3}{Ibn Mālik}
+    \draw [->, -{Latex}] (0.5,627) -- (3.5, 672);
+
+    % Egypt
+    %\person{2.5}{204}{right} {west}{-16}{0}{al-Shafiei}
+    \person{2.5}{646}{left} {north}{ 10}{-10}{Ibn al-Ḥājib}
+    \person{2.5}{745}{right} {west}{-16}{-2}{Abū Ḥayyān}
+    \draw [->, -{Latex}] (0.5,674) -- (2.5, 745);
+    \person{2.5}{761}{right} {west}{-16}{3}{Ibn His͡hām al-Anṣārī}
+    \person{2.5}{769}{right} {west}{-16}{9}{Ibn Ɛaqīl}
+    \person{2.5}{900}{right} {west}{-16}{0}{al-As͡hmūnī}
+    \person{2.5}{911}{right} {west}{-16}{6}{al-Suyūṭī}
+
+    % Persia
+    \person{8.5}{471}{left} {east}{ 16}{0}{al-Jurjānī}
+    \person{8.5}{538}{left} {east}{ 16}{6}{al-Zamak͡hs͡harī}
+    \person{8.5}{684}{left} {east}{ 16}{-6}{al-Raḍiyy al-Astarābād͡hī}
+    \person{8.5}{395}{left} {east}{ 20}{12}{Ibn Fāris}
+
+    % Andalus
+    \person{0.5}{592}{right}{west}{-16}{-10}{Ibn Maḍāʾ}
+    \person{1}{669}{right}{west}{-16}{ 3}{Ibn Ɛuṣfūr}
+    \person{0.5}{790}{right}{west}{-16}{22}{Abū Is·ḥāq al-S͡hāṭibī}
+
+    % North Africa
+    \person{1.5}{723}{above}{south}{-10}{-25}{Ibn Ājurrūm}
+
+    \dynasty    {bricks}            {5}    {5}      {0}     {11}  {}{} % Prophet pbuh
+    \dynasty    {bricks}            {2.5}  {8.5}    {11}    {41}  {RASHIDUN}{}
+    \dynasty    {north east lines}  {2}    {9}      {41}    {132} {UMMAYADS}{}
+    \dynasty    {north east lines}  {1}    {1}      {\cetoah{711}}    {\cetoah{1031}} {UMMAYADS}{rotate=90}
+    \dynasty    {vertical lines}    {3}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{yshift=6pt}
+    \dynasty    {vertical lines}    {2}    {2}      {132}             {\cetoah{909}} {}{}% Abbasids % North Africa
+    \dynasty    {vertical lines}    {5}    {5}      {\cetoah{945}}    {\cetoah{969}} {}{}% Abbasids
+    \dynasty    {fivepointed stars} {3}    {4}      {\cetoah{969}}    {\cetoah{1171}} {FATIMIDS}{}
+    \dynasty    {fivepointed stars} {5}    {5}      {\cetoah{969}}    {\cetoah{1171}} {}{} % Fatimids % Hijaz
+    \dynasty    {fivepointed stars} {2}    {2}      {\cetoah{909}}    {\cetoah{1050}} {}{} % Fatimids % North Africa
+    \dynasty    {crosshatch}        {3}    {5}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
+    %\dynasty    {crosshatch}        {5}    {5}      {600}             {\cetoah{1250}} {}{}
+    \dynasty    {grid}              {6}    {9}      {\cetoah{1055}}   {\cetoah{1258}} {SELJUKS}{yshift=-10pt}
+    \dynasty    {sixpointed stars}  {6}    {9}      {\cetoah{945}}    {\cetoah{1055}} {BUYIDS}{}
+    \dynasty    {checkerboard}      {6}    {9}      {\cetoah{1258}}   {\cetoah{1335}} {MONGOLS}{}
+    \dynasty    {horizontal lines}  {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {MAMLUKS}{yshift=15pt}
+    \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1056}}   {\cetoah{1140}} {\scriptsize ALMORAVIDS}{rotate=60}
+    \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1140}}   {\cetoah{1269}} {\scriptsize ALMOHADS}{rotate=60}
+    \dynasty    {dots}              {6}    {9}      {\cetoah{1335}}   {\cetoah{1508}} {\small TURKMEN DYNASTIES}{}
+    \dynasty    {north west lines}  {2}    {8}      {\cetoah{1517}}   {1000} {OTTOMANS}{}
+
+% Phases
+% Data collection, formation, theroeticlaelaboration, consolidiation, degeneration
+% \phase{Pre-theoretical\\grammar}{650}{780}
+    \phase{\scriptsize Precursors}                           {\cetoah{660}} {\cetoah{770}}
+    \phase{\scriptsize Early\\\scriptsize grammar}                        {\cetoah{770}} {\cetoah{920}}
+    \phase{\scriptsize Codification\\\scriptsize and\\\scriptsize systematization}    {\cetoah{920}} {\cetoah{1100}}
+    \phase{\scriptsize Elaboration of forms\\\scriptsize of presentation}{\cetoah{1100}}{\cetoah{1520}}
+
+
+\end{tikzpicture}
+```
+
+A (year of death) timeline and geographical distribution of some of the more well-known grammarians.^[Adapted from Andreas Hallberg's blog post [[andreasmhallberg.github.io/timeline-of-arab-grammarians](https://andreasmhallberg.github.io/timeline-of-arab-grammarians)]{.citex}, and Ovamir Anjum's presentation at the Muslim Community Association, Santa Clara, Calif., 2013 [[youtu.be/cZ6RoRMF-kI](https://youtu.be/cZ6RoRMF-kI)]{.citex}.]
+[(b)]{.smallcaps}
+and
+[(k)]{.smallcaps}
+indicate an affiliation with the
+;Basr;an
+and
+;Kuf;an schools, respectively.
+:::
+
+
+## #;samaa3; ([السَّماع]{.ar})
+
+
+In order to develop a grammatical framework for Classical Arabic,
+the grammarians first needed a collection of authentic Classical Arabic texts.
+The grammarians 
+used,
+as their source material for this collection,
+a corpus of Classical Arabic texts, which we will term _;samaa3;_.
+The body of ;samaa3; can be categorized into^[from @suleiman_ta3leel@ 16]:
+
+1. Transmitted texts. These include:
+   a. Authorized readings of the ;quran;
+   b. Poetry of the pre-;islam;ic and early ;islam;ic poets
+   c. A collection of the sayings and proverbs of the Arabs
+   d. the ;Hadith;
+2. Elicited speech
+
+We will discuss these categories below:
+
+#### The ;quran; {.unnumbered}
+
+The ;quran; was transmitted by the Prophet ;pbuh; to his Companions.
+When the territories under the ;islam;ic caliphate expanded,
+many of the Companions were sent or relocated to the different areas under Muslim rule,
+and there, they began teaching the ;quran; to their students from the [#tAbieIn]{.trn2}.
+Those students taught it to the next generation and so on and so forth.
+The text of the ;quran; was thus available to the grammarians
+and used by them as a primary linguistic source.^[@suleiman_ta3leel@ 18--19, [@qiyaas_amsha@ 7](https://ketabonline.com/ar/books/97698/read?part=1&page=7&index=5343316)]
+
+#### Poetry {.unnumbered}
+
+From pre-;islam;ic times into the ;islam;ic era,
+Classical Arabic poetry was composed and transmitted orally,
+from region to region, and from generation to generation.
+The grammarians used this transmitted poetry as their second major source of transmitted data.^[@suleiman_ta3leel@ 19]
+Some native Arabic dialects were beginning to diverge from Classical Arabic in the first and second century\ ;ah;.
+Because of this,
+the grammarians were more discerning in whether they would accept the poetry of a later poet.
+Generally they would only accept the poetry of a later poet if his language was determined to be uninfluenced by the newer developments in the native dialects.
+The grammarians generally have a cut-off date somewhere in the middle of the first century\ ;ah;.
+Poetry composed after this cut-off date is typically not accepted as a valid source of Classical Arabic.^[[@qiyaas_amsha@ 8](https://ketabonline.com/ar/books/97698/read?part=1&page=8&index=5343317)]
+
+#### Sayings and proverbs of the Arabs {.unnumbered}
+
+A small portion of prose material,
+consisting of sayings and proverbs of the Arabs,
+is also generally accepted as a source of Classical Arabic data.^[@suleiman_ta3leel@ 16, [@qiyaas_amsha@ 7--8](https://ketabonline.com/ar/books/97698/read?part=1&page=7&index=5343316)]
+
+#### The ;Hadith; {.unnumbered}
+
+The ;Hadith; of the Prophet ;pbuh; were transmitted by his Companions
+to their students from the [#tAbieIn]{.trn2},
+who then transmitted them to their students from the next generation, and so on.
+Theoretically, the ;Hadith; texts should be considered a valid source of Classical Arabic.
+However, as a trend, the grammarians were reluctant to consider the transmitted ;Hadith; texts as part of ;samaa3;.
+This is because they feared that some of the narrators in the chains of transmission of ;hadith; may have narrated their ;hadith; by meaning, rather than verbatim text.
+And if the narrator was himself not a native Classical Arabic speaker,
+than they could not be certain that the ;hadith; that reached them was correct Classical Arabic.
+They did not have this view regarding the ;quran; and poetry
+because the ;quran; and poetry required that they be transmitted verbatim.
+This policy of the grammarians has received some criticism,
+with some researchers deeming that they were unnecessarily exclusive,
+and that if the transmitters of a ;hadith; are deemed competent, then the ;hadith; should be admitted into ;samaa3;.
+In this sense, ;Hadith; texts
+should be considered at least as acceptable as poetry,
+since the possibility of variation in transmission is applicable to both.^[@suleiman_ta3leel@ 16--17, [@qiyaas_amsha@ 7--8](https://ketabonline.com/ar/books/97698/read?part=1&page=7&index=5343316)]
+In any case, we note that if the grammarians erred then it was on the side of caution.
+
+#### Elicited speech {.unnumbered}
+
+In addition to the transmitted texts mentioned above,
+the grammarians also used,
+as part of their source data,
+samples of speech that they obtained themselves by
+meeting and talking to native Classical Arabic speaking _informants_.
+Such informants continued to exist, in pockets,
+into the second and third centuries\ ;ah;.
+In general, the speech of the bedouin Arabs was considered purer and more free from errors
+than that of the urban population.
+The grammarians would seek out such informants,
+listen to their ordinary speech in natural settings,
+and also ask them questions,
+the answers to which would betray insight into
+the grammatical issues that they were investigating.^[@suleiman_ta3leel@ 22-24]
+
+#### Exclusion of the grammarians' writings from ;samaa3; {.unnumbered}
+
+The grammarians were scholars of Classical Arabic.
+Yet, generally speaking, they were not native speakers of Classical Arabic.
+So even though they were knowledgeable in analyzing Classical Arabic,
+they had not learned it natively.
+So their writings are not considered ;samaa3;.^[@qiyaas_husain@ 36--37]
+Excepted are
+examples that the grammarians made up and adduced to explain a particular grammatical issue.^[@suleiman_ta3leel@ 16]
+Those are admitted into ;samaa3;, though subject to critique by other grammarians.^[Here is an example:  
+[... ولم يذكره [سيبويه] إلا في نفس عبارته قال «وذلك عجبت من ضرب زيد عمرًا»، وليس في لفظه ما يدل على أنه محكي عن العرب، فيحتمل أن يكون ذلك رأيًا منه، بل هو ظاهر كلامه وقياس منه]{.ar}  
+[[@abu_hayyan_tadhyeel@ 11/75](https://shamela.ws/book/17116/3610)]{.citex}]
+
+## #;qiyaas; ([القِياس]{.ar}) and ;3illah; ([العِلّة]{.ar})
+
+Once the source material from ;samaa3; was available to the grammarians,
+they set about analyzing it
+<!--
+They did this by
+observing patterns in ;samaa3;,
+-->
+in order to develop a grammatical framework
+<!--
+that accommodated those patterns.
+-->
+The process of developing a grammatical framework is based on
+_;qiyaas;_ and _;3illah;_.
+
+#;qiyaas; is the process of observing a pattern in ;samaa3;,
+determining a ;3illah; for the pattern,
+and expounding a grammatical rule that states that whenever the ;3illah; is to be found,
+then the pattern is to be expected.^[@qiyaas_amsha@ 4--5]
+
+Let's explain what we mean.
+
+Let's say,
+hypothetically,
+the grammarian goes through the data in ;samaa3;, and comes across sentences like:
+
+(@) [**جَاء الرَّجُلُ**]{.ar}  
+    [The man came.]{.trans}  
+
+(@) [**ضَرَبَ زَيْدٌ** عَمْرًا]{.ar}  
+    [Zayd beat ;3amr;.]{.trans}  
+
+(@) [**يَدْخُلُ** الْبَيْتَ **رَجُلٌ**]{.ar}  
+    [A man enters the house.]{.trans}  
+
+(@) [لَنْ **يَضِيعَ الْعَمَلُ** الصَّالِحُ]{.ar}  
+    [The good deed shall not go waste.]{.trans}  
+
+(@) [لَمْ **تَذْهَبْ هِنْدٌ**]{.ar}  
+    [Hind did not go.]{.trans}  
+
+<!--
+(By the way, the above examples are made up and probably not actually found in ;samaa3;.)
+-->
+When the grammarian studies these sentences he notes that they are all ;j_f3l;s
+consisting of (at least) a verb and its ;faa3il;.
+He also observes a pattern.
+And that is
+that the ;faa3il; of the verb is always in the ;ustate;.
+Now, he comes up with a grammatical rule that states that
+whenever there is a ;j_f3l; (this is our ;3illah;),
+then the ;faa3il; of the verb is be in the ;ustate;.
+
+This rule is made for the benefit of the student
+who has not gone through the data in ;samaa3;.
+Let's say that a student is reading a text and comes across a sentence:
+
+(@) [ضَرَبَ عَمْرًا زَيْدٌ]{.ar}  
+    [Zayd beat ;3amr;.]{.trans}  
+
+The student determines that this is a ;j_f3l;.
+Being a ;j_f3l; is the ;3illah; that makes the above
+;qiyaas;-based rule
+applicable.
+Now the student observes that [ضَرَبَ]{.ar} is the verb,
+and following it are two nouns:
+[عَمْرًا]{.ar} in the ;astate;,
+and
+[زَيْدٌ]{.ar} in the ;ustate;.
+Applying the rule, he detrmines that the person who did the beating is Zayd, not ;3amr;.
+This will give him a correct understanding of the text.
+
+Furthermore, if the student wishes to construct his own ;j_f3l;,
+attempting to conform to ;sca;,
+then he knows that
+he will have to put the verb's ;faa3il; in the ;ustate;.
+
+## #;shaadh; ([الشَّاذّ]{.ar})
+
+Sometimes a pattern occurs often enough in ;samaa3; that a rule is built upon it using
+;qiyaas;.
+However, occurrences contrary to the pattern are also found in ;samaa3;.
+This usage which is contrary to ;qiyaas; is called _;shaadh;_.
+
+As an example of ;shaadh;,
+when the second letter of a root is [و]{.ar},
+then its stem-10 ;madi; verb is regularly formed
+by transforming the [و]{.ar} into an alif.
+For example:
+
+|Root| stem-10 ;madi; verb |
+|:--|:------|
+|[قوم]{.ar} | [اسْتَقَامَ]{.ar} [to be steadfast]{.trans}|
+|[عوذ]{.ar} | [اسْتَعَاذَ]{.ar} [to seek refuge]{.trans} |
+|[نور]{.ar} | [اسْتَنَارَ]{.ar} [to seek light]{.trans}  |
+
+In ;shaadh;, a few roots whose middle letters are [و]{.ar},
+usually form their stem-10 ;madi; verbs
+by keeping the [و]{.ar}. For example:
+
+|Root| stem-10 ;madi; verb |
+|:--|:------|
+|[حوذ]{.ar} | [اسْتَحْوَذَ]{.ar} [to gain mastery, overcome]{.trans}|
+|[صوب]{.ar} | [اسْتَصْوَبَ]{.ar} [to consider ([هـ]{.ar} s.th) to be right]{.trans}|
+
+By the way,
+[اسْتَحَاذَ]{.ar} and [اسْتَصَابَ]{.ar}
+are also found in ;samaa3;, albeit less frequently.
+
+The general principle, when dealing with ;shaadh;,
+is that it should
+be limited to what is found in ;samaa3;,
+and
+not be extended by ;qiyaas;.
+
+So the rule for forming stem-10 ;madi; verb for roots
+that have [و]{.ar} as the middle letter,
+is that
+the verbs should be formed
+generally by transforming the [و]{.ar} into an alif, like
+[اسْتَقَامَ]{.ar}
+and
+[اسْتَعَاذَ]{.ar}.
+But for the few verbs that fall into ;shaadh;,
+we should prefer to keep the [و]{.ar}, thus:
+[اسْتَحْوَذَ]{.ar}
+and
+[اسْتَصْوَبَ]{.ar}.
+The forms
+[اسْتَحَاذَ]{.ar} and [اسْتَصَابَ]{.ar}
+are permissible but less preferred.^[@qiyaas_husain@ 40]
+
+The grammarians have not always agreed over how to deal with different ;shaadh;s.
+As an example,
+when an ;sifah; is on the pattern
+[أَفْعَل]{.ar},
+like
+[أَبْيَض]{.ar} [white]{.trans}
+and
+[أَسْوَد]{.ar} [black]{.trans},
+then
+a ;af3al; for it on the same pattern
+[أَفْعَل]{.ar}
+is regularly not found to be used in ;samaa3;.
+So 
+[أَبْيَض]{.ar}
+is not usually found in ;samaa3; to mean [more white]{.trans}.
+However, this meaning is found as ;shaadh;, as in the verse of poetry:
+
+(@) [جَارِيَةٌ فِي دِرْعِهَا الفَضْفَاضِ ~ **أَبْيَضُ** مِنْ أُخْتِ بَنِي إِبَاضِ]{.ar}
+    [@qiyaas_husain@ 42]{.citex}  
+    [A girl in her full long shirt ~ **whiter** than a [woman of the tribe] of [#banU #ibAD]{.trn2}]{.trans}  
+
+Some grammarians were of the opinion,
+that because of the usage of
+[أَبْيَض]{.ar} in the above verse to mean [whiter]{.trans},
+this can be extended by analogy generally.
+So whenever a ;sifah; is on the pattern
+[أَفْعَل]{.ar},
+a ;af3al; can also be formed for it on the same pattern.
+Other grammarians were more conservative and did not extend this usage by ;qiyaas;.^[@qiyaas_husain@ 42]
+
+## The balance between ;qiyaas; and ;samaa3;
+
+The ultimate authority for what is correct Classical Arabic is ;samaa3;.
+#;qiyaas;-based rules are a means to understand ;sca; correctly,
+and a guide to form sentences that attempt to conform to ;sca;.
+
+#;qiyaas;
+is a speculative process on the part of the grammarians.^[@baalbaki_teaching_arabic@ 86]
+As such, it is subjective, and
+rules derived from ;qiyaas; may need to be revised and refined in order to sufficiently explain the language.
+Natural language,
+however,
+is very complex and
+;qiyaas;-based rules,
+even if continually revised and refined,
+can perhaps never capture its full complexity.
+
+#;samaa3;, in general, cannot be rejected on the basis of ;qiyaas;.
+And an ;qiyaas;, even if it were sound, should not be applied if it
+leads to something that is contrary to ;samaa3;.^[[@intisaar_ibn_walaad@ 204](https://shamela.ws/book/29555/164#p1) cited by @baalbaki_book_agt@ 130]
+
+
+## Classical Arabic dialects and ;sca;
+
+Classical Arabic consisted of multiple dialects
+that were spoken by the various tribes of the Arabs
+in the different regions of the Arabian peninsula.
+When the grammarians developed ;qiyaas;-based rules from ;samaa3;,
+they would often grade the usages in the different dialects.
+Even within a dialect, sometimes there are multiple permissible ways to construct an expression.
+For forming ;qiyaas;-based rules,
+the grammarians would often select,
+out of the various usages,
+a more normative one, or a more eloquent one,
+or a more preferred one, or what they deemed a more original one.
+
+Standard Classical Arabic (;sca;) is the _de facto_ standard variety
+of Classical Arabic
+that became dominant through,
+amongst other factors,
+the
+widespread adoption of the grammarians' rules.
+
+As an example,
+the grammarians discuss a dialectal usage that pluralizes a verb even when the plural ;faa3il; is mentioned.
+So speakers of this dialect would say:
+
+(@) [ضَرَبُونِي قَوْمُكَ]{.ar}
+    [[@sibawayhi@ 2/40](https://shamela.ws/book/23018/475)]{.citex}  
+    [Your people beat me.]{.trans}  
+
+instead of the more normative:
+
+(@) [ضَرَبَنِي قَوْمُكَ]{.ar}
+
+The dialectal usage of example ()
+is graded as rare.^[[@sibawayhi@ 2/40](https://shamela.ws/book/23018/475)]
+It did not make its way into ;sca;.
+Instead, the more common usage in example () became the standard.
+
+## #;taqdiring; ([التَّقْدِير]{.ar})
+
+In analyzing ;samaa3;,
+the grammarians were
+attempting to build a comprehensive and coherent grammar of Classical Arabic.
+During this process, they saw that natural speech,
+even when not ;shaadh;,
+was often too complex to be codified
+compactly.
+But
+they also realized that
+under the literally uttered speech
+(termed _surface speech_),
+there could be modeled a _virtual_ utterance
+that existed only in the mind of the speaker.^[@levin_taqdir@ 142--143]
+This _;taqdir;_
+was more amenable to being wrangled into 
+organized rules.
+
+The grammarians then considered it their role to theorize a ;taqdir;,
+when needed,
+under the surface speech,
+and to build their grammatical framework based on the ;taqdir;.
+
+We will explain what we mean by going through a hypothetical example in the following subsection below.
+
+### A ;taqdir; of ;mustatir; ;faa3il; pronouns
+
+Let's say that a grammarian goes through some data in ;samaa3;,
+and he finds surface speech samples like the following:
+
+(@) [قَرَأَ زَيْدٌ]{.ar}  
+    [Zayd read.]{.trans}  
+
+(@) [رَجَعَتْ هِنْدٌ]{.ar}  
+    [Hind returned.]{.trans}  
+
+(@) [يَذَهَبُ الرِّجَالُ]{.ar}  
+    [The men go.]{.trans}  
+
+The grammarian asks his native Classical Arabic speaking informant
+what the informant understands by the above samples.
+The informant tells the grammarian that he understands each one as having a complete meaning:
+a meaning
+that expresses
+an action
+(signified by the first word),
+and the ;faa3il; of that action,
+(signified by the second word).
+
+Because each sample has a complete meaning,
+the grammarian
+determines that each sample is a complete sentence.
+He
+classifies the first word in each sentence as a verb,
+and the second word as a noun.
+Based on the abundance of sentences like the above,
+the grammarian formulates a rule,
+which is that a ;j_f3l; needs two parts to be a complete sentence:
+a verb, followed by its ;faa3il; (noun).
+
+The grammarian 
+then continues going through ;samaa3;
+and finds surface speech samples like the following:
+
+(@) [تَصَدَّقْنَ]{.ar}  
+    [They~f~ gave charity.]{.trans}  
+
+(@) [عَمِلْتُ]{.ar}  
+    [I worked.]{.trans}  
+
+(@) [تَكْتُبَانِ]{.ar}  
+    [You~2~ are writing.]{.trans}  
+
+(@) [ذَهَبُوا]{.ar}  
+    [They went.]{.trans}  
+
+Checking with his informant, he
+finds that these also are complete sentences in their meaning.
+The informant tells him that the ;faa3il; of each action is now a person who is not named,
+but who is known to the informant.
+So the grammarian classifies the ;faa3il;s as _pronouns_.
+<!--
+But the ;faa3il;s of the verbs here are not expressed as common or proper nouns.
+Rather, the  sentences' meanings signify that the ;faa3il;s are pronouns.
+-->
+The grammarian also notices that the end of each verb is modified and extra sounds
+(expressed by letters in the script)
+are added after it.
+For example:
+[عَمِلَ + تُ = عَمِلْتُ]{.ar} 
+
+The grammarian then decides that these sentences can still be molded to fit into his above stated rule.
+He does this
+by analyzing
+the extra sounds at the end of the verbs
+(for example, [تُ]{.ar} in [عَمِلْتُ]{.ar})
+to be the ;faa3il; pronouns.
+Now
+the sentences can be considered to have two parts: a verb followed by its ;faa3il;.
+So far so good.
+
+But now the grammarian comes across surface speech samples like the following:
+
+(@) [ذَهَبَ]{.ar}  
+    [He went.]{.trans}  
+
+(@) [رَجَعَتْ]{.ar}  
+    [She returned.]{.trans}  
+
+(@) [أَعْمَلُ]{.ar}  
+    [I work.]{.trans}  
+
+(@) [نَتَصَدَّقُ]{.ar}  
+    [We give charity.]{.trans}  
+
+These samples pose a problem for our grammarian.
+Because his informant tells him that he still understands these samples,
+in context, to have a complete meaning.
+The ;faa3il; of each action is again a person who is not named but who is known to the informant.
+
+So, evidently, samples () through () are complete sentences with pronoun ;faa3il;s,
+just like samples () through ().
+But the problem is that there are no apparent extra sounds/letters after the verbs which can be considered the ;faa3il;.
+
+Some of the verbs in these sentences,
+like in examples () and (),
+have extra sounds, but they are before the verb.
+But some verbs,
+like in example (),
+don't even have that.
+Example () [رَجَعَتْ]{.ar}
+does have an extra [تْ]{.ar} after the verb,
+but that letter is kept when there is an ;zaahir; ;faa3il; noun,
+like in example () [رَجَعَتْ هِنْدٌ]{.ar}
+above.
+So the [تْ]{.ar} doesn't seem like it can be the ;faa3il;.
+So what is the grammarian to do?
+
+In order to keep the rule consistent,
+the grammarian ;qaddars; _;mustatir;_ ;faa3il;s for these sentences.
+For example () above, the ;mustatir; ;faa3il; is ;qaddared; as [[هُوَ]{.ar}], thus:
+
+(@) [ذَهَبَ [هُوَ]]{.ar}  
+    [He went.]{.trans}  
+
+Now the sentence has two parts:
+the verb
+[ذَهَبَ]{.ar}, followed by it's ;faa3il;, the ;qaddared; [[هُوَ]{.ar}].
+Thus it is compliant with the above stated rule that the grammarian developed for ;j_f3l;s.
+
+Here are the other examples with their ;qaddared; ;faa3il;s:
+
+(@) [رَجَعَتْ [هِيَ]]{.ar}  
+    [She returned.]{.trans}  
+
+(@) [أَعْمَلُ [أَنَا]]{.ar}  
+    [I work.]{.trans}  
+
+(@) [نَتَصَدَّقُ [نَحْنُ]]{.ar}  
+    [We give charity.]{.trans}  
+
+
+### A ;taqdir; of ;an; before ;astate; ;mudarie; verbs
+
+In chapter\ (ref),
+we studied how a ;astate; ;mudarie; verb can occur after the particle [لِ]{.ar}.
+For example:
+
+<!--
+(@) [جِئْتُكَ لِتُكْرِمَنِي]{.ar}  
+    [I came for the reason [that] you honor me.]{.trans}  
+-->
+
+(@) [دَرَسْتُ لِأَنْجَحَ]{.ar}  
+    [I studied for the reason [that] I may succeed.]{.trans}  
+
+The particle [لِ]{.ar} here signifies the meaning
+[for the reason]{.trans}.
+
+The grammarians theorized that
+between the
+[لِ]{.ar}
+and the
+;astate; ;mudarie;
+[أَنْجَحَ]{.ar},
+there existed a ;qaddared; ;an;, thus:
+
+(@) [دَرَسْتُ لِ[أَنْ] أَنْجَحَ]{.ar}  
+    [I studied for the reason [that] I may succeed.]{.trans}  
+
+And it was this ;an; that actually caused the ;mudarie; verb to be in the ;astate;.
+This ;taqdiring;
+allowed them to
+reduce the definition of
+[لِ]{.ar}
+to a preposition that only precedes nouns.
+And it grant to ;an; the sole privelege of causing a ;mudarie; verb to be in the ;astate;.^[@baalbaki_bab_al_fa@ 186--189]
+
+The ;taqdiring; of ;an;
+between
+[لِ]{.ar}
+and a following ;astate; ;mudarie; verb is also supported by the fact that
+the surface speech can actually have an ;an; in that position, for the same meaning.
+So we can actually also say:
+
+(@) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}  
+    [I studied for the reason that I may succeed.]{.trans}  
+
+As for the restriction of
+[لِ]{.ar}
+to a preposition that only precedes nouns,
+then this can be seen when we apply a second level of ;taqdiring;:
+and that is to interpret (a surface or ;qaddared;)
+;an; and the following ;astate; ;mudarie; verb as a ;masdar; construction.
+So the ;taqdir; of () [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}
+is:
+
+(@) [دَرَسْتُ لِنَجَاحِي]{.ar}  
+    [I studied for reason of my success.]{.trans}  
+    (i.e. [so as to achieve success]{.trans}.)  
+
+In the ;taqdir; in example (),
+we can see how
+[لِ]{.ar}
+is a preposition before the ;istate; noun
+[نَجَاح]{.ar}.
+
+We will see more examples of ;taqdiring; for the ;astate; ;mudarie; verb in chapter\ (ref), ;ia;.
+
+### Points to note regarding ;taqdiring;
+
+#### The ;taqdir; often cannot actually be expressed {.unnumbered}
+
+One point is that 
+the ;taqdir; representation of a surface speech is often not actually correct as surface speech.^[@baalbaki_bab_al_fa@ 190; @versteegh_taqdir@ 278]
+
+If we take the ;taqdir; in () [ذَهَبَ [هُوَ]]{.ar} as an example,
+then what we mean is that
+we don't actually say,
+[ذَهَبَ هُوَ]{.ar}
+when we intend to mean [He went]{.trans}.
+Example () [ذَهَبَ]{.ar} is the only correct way to express this intended meaning.
+The representation () [ذَهَبَ [هُوَ]]{.ar}
+is only a _;taqdir;_ of example () [ذَهَبَ]{.ar}
+that elucidates the grammar of the sentence.
+
+Sometimes,
+however,
+a ;taqdir; representation can actually be expressed,
+for the same or similar meaning.
+This can be,
+for example,
+when the ;taqdir; restores a word or expression which is implied and was optionally deleted.
+For example,
+the ;qaddared; ;an; in example ()
+can actually be expressed in surface speech, thus:
+
+By the way,
+coincidentally,
+[ذَهَبَ هُوَ]{.ar}
+is actually a correct sentence
+in its own right,
+but it has a different meaning than the intended
+[ذَهَبَ]{.ar}
+[He went]{.trans}.
+It uses the pronoun [هُوَ]{.ar} as an _;tawkeed;_ (see chapter\ (ref)).
+
+#### The literal representation used in the ;taqdir; may not be real {.unnumbered}
+
+Another point
+is that the ;qaddared; ;faa3il;s,
+([[هُوَ]{.ar}],
+[[هِيَ]{.ar}],
+[[أَنَا]{.ar}],
+and
+[[نَحْنُ]{.ar}]
+in examples () through () above)
+are not "real" representations of the ;mustatir; ;faa3il; pronouns.
+They are only written as such because,
+for his analysis,
+the grammarian needs some words to represent the
+;mustatir; ;faa3il; pronouns in the ;taqdir;.
+And because there are no real words to denote the ;mustatir; ;faa3il; pronouns,
+the grammarian borrows the words that denote the detached pronouns to do so.
+
+As it happens,
+the ;qaddared; ;mustatir; pronouns are theorized to be (invisible) attached pronouns,^[@su3ood_dameer_mustatir@, [تمهيد ز--ط]{.ar}]
+just like the ;zaahir; ;faa3il; pronouns
+[تُ]{.ar} [I]{.trans},
+[نَا]{.ar} [we]{.trans},
+[نَ]{.ar} [they~3f~]{.trans},
+etc.
+#;qaddaring; the ;mustatir; ;faa3il; pronouns
+as attached pronouns has benefits that keeps the grammatical framework coherent
+across different grammatical topics.
+We will see one such benefit in chapter\ (ref), when we discuss the ;tawkeed;.
+
+#### #;taqdiring; can be used to interpret ;shaadh; {.unnumbered}
+
+Grammarians also sometimes used ;taqdiring; as a tool to fit ;shaadh;
+into their coherent grammatical framework.^[@qiyaas_husain@ 42]
+For example:
+
 TODO
+
+^[Here is another example:  
+[ولا يتقدم نعت المصدر على معموله فلا يقال عرفت سوقك العنيف الإبل، لأن معمول المصدر منه بمنزلة الصلة من الموصول، فلا يتقدم نعت المصدر على معموله، كما لا يتقدم نعت الموصول على صلته، فإن ورد ما يوهم خلاف ذلك قدر فعل بعد النعت يتعلق به المعمول المتأخر. فمن ذلك قول الحطيئة:  
+أزمَعْتُ يأسًا مُبِينا من نَوالكم ~ ولنْ ترى طارِدًا للحُرِّ كاليأسِ  
+فالمتبادر إلى فهم سامع هذا البيت تعليق من نوالكم بيأسا، وهو غير جائز كما ذكرت، بل يتعلق بيئست مضمرا]{.ar}  
+[[@ibn_malik_sharh_tasheel@ 3/108--109](https://shamela.ws/book/13257/924#p1)]{.citex}]
+
+#### There can be multiple 'levels' of ;taqdiring; {.unnumbered}
+
+As an example,
+we saw in section\ (ref) above that
+in the sentence () [دَرَسْتُ لِأَنْجَحَ]{.ar},
+first an ;an; was ;qaddared; between
+[لِ]{.ar}
+and the
+;astate; ;mudarie; thus: () [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}.
+
+And then a further level of ;taqdiring; was done,
+where
+;an; and the following ;astate; ;mudarie; verb
+was reinterpreted
+as a ;masdar; construction: () [دَرَسْتُ لِنَجَاحِي]{.ar}.
+
+### Benefits and risks of ;taqdiring;
+
+#;taqdiring; is an analytic tool that allows the grammarian to discover
+and reconstruct
+a theorized structure that underlies surface speech.^[@baalbaki_bab_al_fa@ 188]
+This underlying theorized structure is more basic than the surface structure,
+and more easily described with a set of rules.^[@baalbaki_bab_al_fa@ 190]
+Without
+;taqdiring;,
+the set of rules, which the grammarian would have to formulate,
+would increase greatly to capture all the different variations in surface speech.
+Furthermore, the rules would be disparate,
+and would not easily indicate the links
+between related linguistic phenomena.
+Those links are more apparent in the ;taqdir;.
+
+Having said that,
+;taqdiring; is essentially a speculative exercise on the part of the grammarian.
+Because
+the ;taqdir;,
+by its very definition,
+does not manifest in surface speech,
+the grammarian can only theorize its existence and formulation.
+As such, ;taqdiring; entails risks because it is based on the grammarian's
+subjective reasoning.^[@baalbaki_bab_al_fa@ 190]
+
+Therefore, the grammarian does,
+or should,
+attempt to substantiate his ;taqdiring; approach.
+This can be done
+by basing it on the understanding of native speakers,
+as our grammarian did for ;mustatir; ;faa3il; pronouns in section\ (ref) above.
+Or by attempting to find evidence for it in the surface speech,
+as was done n section\ (ref) above,
+for the ;taqdiring; of ;an; between
+[لِ]{.ar}
+and a following ;astate; ;mudarie; verb.^[See also @baalbaki_bab_al_fa@ 188 for another example from [كتاب سيبويه]{.ar}.]
+
+
+## Difference of opinion between the grammarians
+
+The grammarians sometimes differed with one another
+regarding the extraction of ;qiyaas;-based rules from ;samaa3;.
+We have seen a couple of examples of their differences in the sections above.
+These differences often,
+though not always,
+occur along grammatical school lines,
+with the
+;Basr;ans having one opinion,
+and the
+;Kuf;ans another.^[See @baalbaki_intro@ §_The Basran/Kufan divide_ pp.\ xxxix--xlii] 
+Sometimes, the difference is more in terminology than anything else.
+For example,
+the ;Basr;ans in their definition of the _;faa3il;_,
+mandated that the ;faa3il; only occurs after the verb in word order.
+The ;Kuf;ans on the other hand allowed the ;faa3il; to occur before the verb.
+However, both schools allowed sentences like:
+
+(@) [زَيْدٌ جَاءَ]{.ar}  
+    [Zayd came.]{.trans}  
+
+It's just that the ;Kuf;ans would analyze
+[زَيْدٌ]{.ar} as a ;faa3il;,
+whereas the ;Basr;ans would analyze it as a ;mubtada;.^[[@maani_nahw@ 2/45](https://shamela.ws/book/17801/428)]
+
+Some more differences between the two schools are that
+the ;Kuf;ans are considered to be more lax in extending ;qiyaas;
+from ;shaadh;.
+Whereas the ;Basr;ans would attempt to interpret ;shaadh; through ;taqdiring;
+so that it aligned with their rules.^[@qiyaas_husain@ 41--42]
+Both, however, as a general rule, accepted the ;shaadh; as valid ;samaa3;.
+The ;Kuf;ans are also thought to be more grounded in that they tried to stay
+closer to ;samaa3;^[[@abu_hayyan_tadhyeel@ 11/75](https://shamela.ws/book/17116/3610)]
+rather than venturing into too much ;taqdiring;.
+
+Generally speaking,
+the ;Basr;ans formed their terminology and opinions
+with a view to building a comprehensive and coherent grammatical framework.
+And it is their terminology and opinions that became the standard among later grammarians.
+Nevertheless,
+the ;Kuf;an view is often brought in as a reality check against
+what may sometimes be deemed to be excessive rule strictness and ;taqdiring;
+on the part of the ;Basr;ans.
 

@@ -15,24 +15,41 @@ map_table["larr"] = "←"
 
 # text terms
 map_table["Allah"] = "Allāh"
+map_table["3amr"] = "[#eamr]{.trn2}"
 map_table["arch"] = "archetypical"
 map_table["archly"] = "archetypically"
 map_table["ia"] = "if Allāh wills"
 map_table["quran"] = "Qurʾān"
 map_table["hadith"] = "[HadIv]{.trn2}"
+map_table["Hadith"] = "[#HadIv]{.trn2}"
 map_table["islam"] = "[#islAm]{.trn2}"
 map_table["ayah"] = "[Ayah]{.trn2}"
 map_table["surah"] = "[sUrah]{.trn2}"
 map_table["tafsir"] = "[tafsIr]{.trn2}"
 map_table["sca"] = "[sca]{.smallcaps}"
 map_table["msa"] = "[msa]{.smallcaps}"
+map_table["ah"] = "[ah]{.smallcaps}"
 
 map_table["samaa3"] = "attested usage"
 map_table["qiyaas"] = "analogy"
-map_table["3illah"] = "theoretical cause"
-map_table["taqdir"] = "theoretical model"
+map_table["3illah"] = "grammatical reason" #"theoretical cause"
+map_table["ta3leel"] = "grammatical reasoning" #"theoretical cause"
+map_table["shaadh"] = "anomalous usage"
+map_table["taqdir"] = "virtual model" # "theoretical model" imaginary utterance, virtual, implication
+map_table["taqdiring"] = "virtual modeling" # "theoretical model" imaginary utterance, virtual, implication
+map_table["qaddar"] = "virtually model"
+map_table["qaddars"] = "virtually models"
+map_table["qaddaring"] = "virtually modeling"
+map_table["qaddared"] = "virtually modeled"
+map_table["Kuf"] = "[#kUf]{.trn2}"
+map_table["Basr"] = "[#baSr]{.trn2}"
+
 
 # inna and its sisters
+map_table["lan"] = "[لَنْ]{.ar}"
+map_table["idhan"] = "[إِذَنْ]{.ar}"
+map_table["hatta"] = "[حَتَّى]{.ar}"
+map_table["kay"] = "[كَيْ]{.ar}"
 map_table["inna"] = "[إِنَّ]{.ar}"
 map_table["anna"] = "[أَنَّ]{.ar}"
 map_table["ka_anna"] = "[كَأَنَّ]{.ar}"
@@ -79,6 +96,8 @@ map_table["triptote"] = "fully-flexible"
 map_table["tote"] = "flexible"
 map_table["ghair_mutasarrif"] = "rigid"
 map_table["mutasarrif"] = "flexible"
+map_table["mu3rab"] = "flexible"
+
 
 # active and passive voice
 map_table["active"] = "active" # "known-doer" verb?

@@ -17,7 +17,7 @@ Arabic expresses this meaning using a construction called _;idaafah;_. In this c
 
 The word ";idaafah;" means the addition of a new _annexed_ item to an existing _base_ item. We use the term _;idaafah;_ in Arabic grammar when an _;mudaf;_ is annexed to a _;mudafil;_ by being placed right before it. Here is an example of an ;idaafah;:
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -425,7 +425,7 @@ So far we have seen ;idaafah;s with two nouns. #;idaafah;s may be arbitrarily lo
 "the house's door's key"
 -->
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
@@ -1118,7 +1118,7 @@ For example,
 "I accompanied my friend the day we left the city."
 -->
 
-```{.tikzarabic}
+```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
