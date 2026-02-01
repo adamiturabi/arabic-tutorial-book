@@ -1129,8 +1129,8 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "baalbaki_bab_al_fa"
     , cit_type = "ws_ref"
-    , cit_text = 'Baalbaki, "Bāb al-Fāʾ"'
-    , bib_text = 'Baalbaki, R., "Bāb al-Fāʾ [Fāʾ + Subjunctive] in Arabic Grammatical Sources." Article\\ [xvii]{.smallcaps} in _Grammarians and grammatical theory in the medieval Arabic tradition_, Routledge, 2004.'
+    , cit_text = 'Baalbaki, "Bāb al-fāʾ"'
+    , bib_text = 'Baalbaki, R., "Bāb al-fāʾ [fāʾ + subjunctive] in Arabic grammatical sources." Article\\ [xvii]{.smallcaps} in _Grammarians and grammatical theory in the medieval Arabic tradition_, Routledge, 2004.'
     , sort_key = 'baalbaki bab al fa'
     ))
   resource_list.append(BibResource(
@@ -1164,8 +1164,8 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "levin_taqdir"
     , cit_type = "ws_ref"
-    , cit_text = 'Levin, "The Theory of al-Taqdīr and its Terminology."'
-    , bib_text = 'Levin, A., "The Theory of al-Taqdīr and its Terminology." In _Jerusalem Studies in Arabic and Islam_,. 21 (1997), p. 142-166.'
+    , cit_text = 'Levin, "The theory of al-taqdīr and its terminology."'
+    , bib_text = 'Levin, A., "The theory of al-taqdīr and its terminology." In _Jerusalem Studies in Arabic and Islam_,. 21 (1997), p. 142-166.'
     , sort_key = "levin theory of al taqdir"
     ))
 
