@@ -951,6 +951,47 @@ as attached pronouns has benefits that keeps the grammatical framework coherent
 across different grammatical topics.
 We will see one such benefit in chapter\ (ref), when we discuss the emphatic follower.
 
+#### Virtual modeling may required to correctly interpret a text
+
+Consider the following [Ayah]{.trn2} from the Qurʾān:
+
+(@) [وَجَاۤءُو عَلَىٰ قَمِیصِهِۦ بِدَمࣲ كَذِبࣲۚ قَالَ بَلۡ سَوَّلَتۡ لَكُمۡ أَنفُسُكُمۡ أَمۡرࣰاۖ فَصَبۡرࣱ جَمِیلࣱۖ وَٱللَّهُ ٱلۡمُسۡتَعَانُ عَلَىٰ مَا تَصِفُونَ]{.quran}
+    [[[سورة يوسف]{.ar} 12:18](https://quran.com/12/18)]{.citex}  
+    [And they brought upon his shirt false blood. [Jacob] said, "Rather, your souls have enticed you to something, so patience is most fitting. And Allāh is the one sought for help against that which you describe."]{.trans}
+
+The part
+[صَبْرٌ جَمِيلٌ]{.ar}
+has been analyzed
+as being able to be bear multiple interpretations,
+all requiring virtual modeling.
+One analysis is that
+[صَبْرٌ جَمِيلٌ]{.ar}
+is a subject whose info is deleted.
+The virtual model for this analysis is:
+
+(@) [صَبْرٌ جَمِيلٌ أَمْثَلُ]{.ar}
+    [[[الدر المصون للسمين الحلبي]{.ar}](https://tafsir.app/aldur-almasoon/12/18) for [سورة يوسف]{.ar} 12:18]{.citex}  
+    [A beautiful patience is exemplary.]{.trans}  
+
+The second analysis is that
+[صَبْرٌ جَمِيلٌ]{.ar}
+is a info whose subject is deleted.
+The virtual model for this analysis is:
+
+(@) [أَمْرِي صَبْرٌ جَمِيلٌ]{.ar}
+    [[[الدر المصون للسمين الحلبي]{.ar}](https://tafsir.app/aldur-almasoon/12/18) for [سورة يوسف]{.ar} 12:18]{.citex}  
+    [My affair is a beautiful patience.]{.trans}  
+
+A third analysis is that
+[صَبْرٌ جَمِيلٌ]{.ar}
+is used as a deputy to a verb (see section\ (maf3ool mutlaq))
+in a command to oneself.
+The virtual model for this analysis is:
+
+(@) [اصْبِرْ صَبْرًا جَمِيلًا]{.ar}
+    [[[تفسير ابن عاشور]{.ar}](https://tafsir.app/ibn-aashoor/12/18) for [سورة يوسف]{.ar} 12:18]{.citex}  
+    [Be patient [with] a beautiful patience!]{.trans}  
+
 #### Virtual modeling can be used to interpret anomalous usage
 
 Grammarians also sometimes used virtual modeling as a tool to make anomalous usage
@@ -979,9 +1020,11 @@ Such that the virtual model is:
 
 Needless to say, this is pretty convoluted virtual modeling.
 Some grammarians would prefer to let such anomalous usage be,
-and they wouldn't attempt to use such complicated virtual modeling to make it fit into analogy-based
+and they wouldn't attempt to force such complicated virtual modeling
+to make the anomalous usage fit into their
+analogy-based
 grammatical system.^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 42  
-Here is another example of using virtual model with anomalous usage:  
+Here is another example of using virtual modeling with anomalous usage:  
 [ولا يتقدم نعت المصدر على معموله فلا يقال عرفت سوقك العنيف الإبل، لأن معمول المصدر منه بمنزلة الصلة من الموصول، فلا يتقدم نعت المصدر على معموله، كما لا يتقدم نعت الموصول على صلته، فإن ورد ما يوهم خلاف ذلك قدر فعل بعد النعت يتعلق به المعمول المتأخر. فمن ذلك قول الحطيئة:  
 أزمَعْتُ يأسًا مُبِينا من نَوالكم ~ ولنْ ترى طارِدًا للحُرِّ كاليأسِ  
 فالمتبادر إلى فهم سامع هذا البيت تعليق من نوالكم بيأسا، وهو غير جائز كما ذكرت، بل يتعلق بيئست مضمرا]{.ar}  
@@ -1015,19 +1058,19 @@ virtual modeling serves to explain the grammar of the sentence.
 Virtual modeling is an analytic tool that allows the grammarian to discover
 and reconstruct
 a theorized structure that underlies surface speech.^[Baalbaki, "Bāb al-fāʾ" 188]
-This underlying theorized structure is more basic than the surface structure,
+This theorized underlying structure is more basic than the surface structure,
 and more easily described with a set of rules.^[Baalbaki, "Bāb al-fāʾ" 190]
 Without
 virtual modeling,
 the set of rules, which the grammarian would have to formulate,
 would increase greatly to capture all the different variations in surface speech.
 Furthermore, the rules would be disparate,
-and would not easily indicate the links
+and would not readily indicate the links
 between related linguistic phenomena.
-Those links are more apparent in the virtual model.
+Those links are more obvious in the virtual model.
 
 Having said that,
-virtual modeling is essentially a speculative exercise on the part of the grammarian.
+virtual modeling is essentially a speculative exercise which is done by the grammarian.
 Because
 the virtual model,
 by its very definition,
@@ -1066,11 +1109,11 @@ occur along grammatical school lines,
 with the
 [#baSr]{.trn2}ans having one opinion,
 and the
-[#kUf]{.trn2}ans another.^[See Baalbaki, Introduction to _The early Islamic grammatical tradition_ §_The Basran/Kufan divide_ pp.\ xxxix--xlii] 
+[#kUf]{.trn2}ans another.^[See Baalbaki, Introduction to _The early Islamic grammatical tradition_, §"The Basran/Kufan divide", pp.\ xxxix--xlii] 
 Sometimes, the difference is more in terminology than anything else.
 For example,
 the [#baSr]{.trn2}ans in their definition of the _doer_,
-mandated that the doer only occurs after the verb in word order.
+mandated that the doer can only occur after the verb in word order.
 The [#kUf]{.trn2}ans on the other hand allowed the doer to occur before the verb.
 However, both schools allowed sentences like:
 
@@ -1082,21 +1125,26 @@ It's just that the [#kUf]{.trn2}ans would analyze
 whereas the [#baSr]{.trn2}ans would analyze it as a subject.^[[[معاني النحو]{.ar} 2/45](https://shamela.ws/book/17801/428)]
 
 Some more differences between the two schools are that
-the [#kUf]{.trn2}ans are considered to be more lax in extending analogy
+the [#kUf]{.trn2}ans are considered to be more lax in extending analogy-based rules
 from anomalous usage.
-Whereas the [#baSr]{.trn2}ans would attempt to interpret anomalous usage through virtual modeling
+Whereas the [#baSr]{.trn2}ans liked to keep their rules more taut.
+And they would often attempt to interpret anomalous usage through virtual modeling
 so that it aligned with their rules.^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 41--42]
 Both, however, as a general rule, accepted the anomalous usage as valid attested usage.
+
 The [#kUf]{.trn2}ans are also thought to be more grounded in that they tried to stay
 closer to attested usage^[[[التذييل والتكميل لأبي حيان]{.ar} 11/75](https://shamela.ws/book/17116/3610)]
 rather than venturing into too much virtual modeling.
 
 Generally speaking,
 the [#baSr]{.trn2}ans formed their terminology and opinions
-with a view to building a comprehensive and coherent grammatical framework.
+with a view to building a comprehensive and coherent grammatical system.
 And it is their terminology and opinions that became the standard among later grammarians.
 Nevertheless,
 the [#kUf]{.trn2}an view is often brought in as a reality check against
-what may sometimes be deemed to be excessive rule strictness and virtual modeling
+what may sometimes be deemed to be excessive
+rule strictness
+and
+virtual modeling
 on the part of the [#baSr]{.trn2}ans.
 
