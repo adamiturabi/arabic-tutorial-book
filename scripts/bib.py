@@ -633,7 +633,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "sibawayhi"
     , cit_type = "ar_ref"
-    , cit_text = "[الكتاب لسيبويه]{.ar}"
+    , cit_text = "[كتاب سيبويه]{.ar}"
     , bib_text = """
       الكتاب: الكتاب  
       المؤلف: عمرو بن عثمان بن قنبر الحارثي بالولاء، أبو بشر، الملقب سيبويه (ت ١٨٠هـ)  
