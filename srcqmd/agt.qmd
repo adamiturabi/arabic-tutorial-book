@@ -180,7 +180,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 \newcommand\person[7]{%
     \coordinate (pointnode)  at (#1,#2) {};
     \node [fill, draw, circle, minimum width=2pt, inner sep=0] at (#1,#2) {};
-    \node (labelnode)  [inner sep=0, outer sep=0, #3 of=pointnode, xshift=#5, yshift=#6,anchor=#4] {\scriptsize #7};
+    \node (labelnode)  [inner sep=0, outer sep=0, #3 of=pointnode, xshift=#5, yshift=#6,anchor=#4] {\scriptsize \condcolor{#7}};
     \draw (pointnode)  -- (labelnode.#4);
 }
 
