@@ -273,12 +273,16 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {vertical lines}    {3}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{yshift=6pt}
     \dynasty    {vertical lines}    {2}    {2}      {132}             {\cetoah{909}} {}{}% Abbasids % North Africa
     \dynasty    {vertical lines}    {5}    {5}      {\cetoah{945}}    {\cetoah{969}} {}{}% Abbasids
-    \dynasty    {sixpointed stars}  {3}    {4}      {\cetoah{969}}    {\cetoah{1171}} {FATIMIDS}{}
-    \dynasty    {sixpointed stars}  {5}    {5}      {\cetoah{969}}    {\cetoah{1171}} {}{} % Fatimids % Hijaz
+    \dynasty    {sixpointed stars}  {3}    {3}      {\cetoah{969}}    {\cetoah{1167}} {FATIMIDS}{xshift=10pt}
+    \dynasty    {sixpointed stars}  {4}    {5}      {\cetoah{969}}    {\cetoah{1154}} {}{} % Fatimids %  syria and Hijaz
     \dynasty    {sixpointed stars}  {2}    {2}      {\cetoah{909}}    {\cetoah{1050}} {}{} % Fatimids % North Africa
     \dynasty    {crosshatch}        {3}    {5}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
     %\dynasty    {crosshatch}        {5}    {5}      {600}             {\cetoah{1250}} {}{}
-    \dynasty    {grid}              {6}    {9}      {\cetoah{1055}}   {\cetoah{1258}} {SELJUKS}{yshift=-10pt}
+    \dynasty    {grid}              {6}    {9}      {\cetoah{1055}}   {\cetoah{1194}} {SELJUKS}{yshift=-10pt}
+    \dynasty    {vertical lines}    {6}    {8}      {\cetoah{1194}}   {\cetoah{1258}} {\small ABBASIDS}{}% Abbasids % North Africa
+    \dynasty    {grid}              {4}    {5}      {\cetoah{1154}}   {\cetoah{1175}} {\scriptsize ZENGIDS}{}
+    \dynasty    {grid}              {3}    {3}      {\cetoah{1167}}   {\cetoah{1175}} {}{}
+    \dynasty    {dots}              {9}    {9}      {\cetoah{1194}}   {\cetoah{1258}} {\scriptsize KHWAREZMS}{}% Abbasids % North Africa
     \dynasty    {fivepointed stars} {6}    {9}      {\cetoah{945}}    {\cetoah{1055}} {BUYIDS}{}
     \dynasty    {checkerboard}      {6}    {9}      {\cetoah{1258}}   {\cetoah{1335}} {MONGOLS}{}
     \dynasty    {horizontal lines}  {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {MAMLUKS}{yshift=15pt}
