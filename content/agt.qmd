@@ -284,7 +284,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {sixpointed stars}  {2}    {2}      {\cetoah{909}}    {\cetoah{1050}} {}{} % Fatimids % North Africa
     \dynasty    {crosshatch}        {3}    {5}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
     %\dynasty    {crosshatch}        {5}    {5}      {600}             {\cetoah{1250}} {}{}
-    \dynasty    {grid}              {6}    {9}      {\cetoah{1055}}   {\cetoah{1194}} {SELJUKS}{yshift=-10pt}
+    \dynasty    {grid}              {6}    {9}      {\cetoah{1055}}   {\cetoah{1194}} {SELJUKS}{yshift=-3pt}
     \dynasty    {vertical lines}    {6}    {8}      {\cetoah{1194}}   {\cetoah{1258}} {\small ABBASIDS}{}% Abbasids % North Africa
     \dynasty    {grid}              {4}    {5}      {\cetoah{1154}}   {\cetoah{1175}} {\scriptsize ZENGIDS}{}
     \dynasty    {grid}              {3}    {3}      {\cetoah{1167}}   {\cetoah{1175}} {}{}
