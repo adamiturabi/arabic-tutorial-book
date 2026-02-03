@@ -169,10 +169,10 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     % bar
     %\fill [color=#1!10!\mixcolor]
     %\fill [color=#1!20]
-    \fill [pattern=#1,pattern color=black!18!white]
+    \fill [pattern=#1,pattern color=black!14!white]
     ({#2-1},#4) rectangle (#3,#5);
     % label
-    \node [black!25, #7, font=\bfseries\sffamily] 
+    \node [black!35, #7, font=\bfseries\sffamily] 
     at ({#2-1+(#3-#2+1)/2},{#4+(#5-#4)/2}) {#6};
 \end{pgfonlayer}
 }
@@ -180,7 +180,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 \newcommand\person[7]{%
     \coordinate (pointnode)  at (#1,#2) {};
     \node [fill, draw, circle, minimum width=2pt, inner sep=0] at (#1,#2) {};
-    \node (labelnode)  [inner sep=0, outer sep=0, #3 of=pointnode, xshift=#5, yshift=#6,anchor=#4] {\scriptsize \condcolor{#7}};
+    \node (labelnode)  [inner sep=0, outer sep=0, #3 of=pointnode, xshift=#5, yshift=#6,anchor=#4] {\scriptsize #7};
     \draw (pointnode)  -- (labelnode.#4);
 }
 
@@ -278,7 +278,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {sixpointed stars}  {2}    {2}      {\cetoah{909}}    {\cetoah{1050}} {}{} % Fatimids % North Africa
     \dynasty    {crosshatch}        {3}    {5}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
     %\dynasty    {crosshatch}        {5}    {5}      {600}             {\cetoah{1250}} {}{}
-    \dynasty    {grid}              {6}    {9}      {\cetoah{1055}}   {\cetoah{1194}} {SELJUKS}{yshift=-3pt}
+    \dynasty    {grid}              {6}    {9}      {\cetoah{1055}}   {\cetoah{1194}} {SELJUKS}{}
     \dynasty    {vertical lines}    {6}    {8}      {\cetoah{1194}}   {\cetoah{1258}} {\small ABBASIDS}{}% Abbasids % North Africa
     \dynasty    {grid}              {4}    {5}      {\cetoah{1154}}   {\cetoah{1175}} {\scriptsize ZENGIDS}{}
     \dynasty    {grid}              {3}    {3}      {\cetoah{1167}}   {\cetoah{1175}} {}{}
@@ -293,7 +293,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {dots}              {9}    {9}      {\cetoah{1335}}   {\cetoah{1400}} {\scriptsize MUZAFFARIDS}{}
     \dynasty    {dots}              {6}    {9}      {\cetoah{1400}}   {\cetoah{1470}} {\small TIMURIDS}{}
     \dynasty    {dots}              {6}    {9}      {\cetoah{1470}}   {\cetoah{1501}} {\scriptsize AQ QOYUNLU}{}
-    \dynasty    {fivepointed stars} {6}    {9}      {\cetoah{1501}}   {\cetoah{1533}} {\small SAFAVIDS}{}
+    \dynasty    {fivepointed stars} {6}    {9}      {\cetoah{1501}}   {\cetoah{1533}} {\small SAFAVIDS}{xshift=30pt}
     \dynasty    {fivepointed stars} {9}    {9}      {\cetoah{1533}}   {1000} {}{}
     \dynasty    {north west lines}  {2}    {5}      {\cetoah{1517}}   {1000} {OTTOMANS}{xshift=45pt}
     \dynasty    {north west lines}  {6}    {8}      {\cetoah{1533}}   {1000} {}{}
