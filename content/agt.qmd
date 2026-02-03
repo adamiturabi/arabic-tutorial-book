@@ -279,19 +279,26 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {vertical lines}    {3}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{yshift=6pt}
     \dynasty    {vertical lines}    {2}    {2}      {132}             {\cetoah{909}} {}{}% Abbasids % North Africa
     \dynasty    {vertical lines}    {5}    {5}      {\cetoah{945}}    {\cetoah{969}} {}{}% Abbasids
-    \dynasty    {fivepointed stars} {3}    {4}      {\cetoah{969}}    {\cetoah{1171}} {FATIMIDS}{}
-    \dynasty    {fivepointed stars} {5}    {5}      {\cetoah{969}}    {\cetoah{1171}} {}{} % Fatimids % Hijaz
-    \dynasty    {fivepointed stars} {2}    {2}      {\cetoah{909}}    {\cetoah{1050}} {}{} % Fatimids % North Africa
+    \dynasty    {sixpointed stars}  {3}    {4}      {\cetoah{969}}    {\cetoah{1171}} {FATIMIDS}{}
+    \dynasty    {sixpointed stars}  {5}    {5}      {\cetoah{969}}    {\cetoah{1171}} {}{} % Fatimids % Hijaz
+    \dynasty    {sixpointed stars}  {2}    {2}      {\cetoah{909}}    {\cetoah{1050}} {}{} % Fatimids % North Africa
     \dynasty    {crosshatch}        {3}    {5}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
     %\dynasty    {crosshatch}        {5}    {5}      {600}             {\cetoah{1250}} {}{}
     \dynasty    {grid}              {6}    {9}      {\cetoah{1055}}   {\cetoah{1258}} {SELJUKS}{yshift=-10pt}
-    \dynasty    {sixpointed stars}  {6}    {9}      {\cetoah{945}}    {\cetoah{1055}} {BUYIDS}{}
+    \dynasty    {fivepointed stars} {6}    {9}      {\cetoah{945}}    {\cetoah{1055}} {BUYIDS}{}
     \dynasty    {checkerboard}      {6}    {9}      {\cetoah{1258}}   {\cetoah{1335}} {MONGOLS}{}
     \dynasty    {horizontal lines}  {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {MAMLUKS}{yshift=15pt}
     \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1056}}   {\cetoah{1140}} {\scriptsize ALMORAVIDS}{rotate=60}
     \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1140}}   {\cetoah{1269}} {\scriptsize ALMOHADS}{rotate=60}
-    \dynasty    {dots}              {6}    {9}      {\cetoah{1335}}   {\cetoah{1508}} {\small TURKMEN DYNASTIES}{}
-    \dynasty    {north west lines}  {2}    {8}      {\cetoah{1517}}   {1000} {OTTOMANS}{}
+    %\dynasty    {dots}              {6}    {9}      {\cetoah{1335}}   {\cetoah{1508}} {\small TURKIC DYNASTIES}{}
+    \dynasty    {dots}              {6}    {8}      {\cetoah{1335}}   {\cetoah{1400}} {\scriptsize JALAYRIDS}{}
+    \dynasty    {dots}              {9}    {9}      {\cetoah{1335}}   {\cetoah{1400}} {\scriptsize MUZAFFARIDS}{}
+    \dynasty    {dots}              {6}    {9}      {\cetoah{1400}}   {\cetoah{1470}} {\small TIMURIDS}{}
+    \dynasty    {dots}              {6}    {9}      {\cetoah{1470}}   {\cetoah{1501}} {\scriptsize AQ QOYUNLU}{}
+    \dynasty    {fivepointed stars} {6}    {9}      {\cetoah{1501}}   {\cetoah{1533}} {\small SAFAVIDS}{}
+    \dynasty    {fivepointed stars} {9}    {9}      {\cetoah{1533}}   {1000} {}{}
+    \dynasty    {north west lines}  {2}    {5}      {\cetoah{1517}}   {1000} {OTTOMANS}{xshift=45pt}
+    \dynasty    {north west lines}  {6}    {8}      {\cetoah{1533}}   {1000} {}{}
 
 % Phases
 % Data collection, formation, theroeticlaelaboration, consolidiation, degeneration
