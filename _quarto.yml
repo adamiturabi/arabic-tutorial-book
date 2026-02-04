@@ -62,13 +62,14 @@ book:
       - content/istifhaam.qmd
     - part: "Backmatter"
       chapters:
+      - content/gloss_terms.qmd
       - content/refs.qmd
       - content/ack.qmd
   appendices:
     - content/hamzah_rules.qmd
-    - content/gloss_terms.qmd
     - content/usage_and_style.qmd
     - content/quotes.qmd
+    - content/vern.qmd
 
     # Unused:
     #- content/agreement.qmd
