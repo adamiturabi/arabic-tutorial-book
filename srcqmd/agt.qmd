@@ -151,7 +151,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 \def\endah{1000}
 \def\beglong{0}
 \def\endlong{9}
-\def\regions{al-Andalus, North Africa, Egypt, Syria, al-Ḥijāz, Bag͡hdād, al-Kūfah, al-Baṣrah, Persia}
+\def\regions{al-Andalus, North Africa, Egypt, Syria, al-Ḥijāz, al-Kūfah, Bag͡hdād, al-Baṣrah, Persia}
 \def\mixcolor{gray}
 
 \IfPackageLoadedTF{xcolor}{
@@ -224,22 +224,27 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
     % Kufah
     %\person{6.5}{150}{left} {east}{ 16}{0}{Abu Hanifah}
-    \person{6.5}{189}{left} {east}{ 16}{-4}{al-Kisāʾī (\textsc{k})}
-    \person{6.5}{207}{left} {east}{ 16}{0}{al-Farrāʾ (\textsc{k})}
+    \person{5.5}{189}{left} {east}{ 16}{-4}{al-Kisāʾī (\textsc{k})}
+    \person{5.5}{207}{left} {east}{ 16}{0}{al-Farrāʾ (\textsc{k})}
 
     % Baghdad
-    \person{5.5}{291}{left} {east}{ 16}{-1}{T͡haɛlab (\textsc{k})}
-    \person{5.5}{316}{left} {east}{ 16}{-1}{Ibn al-Sarrāj (\textsc{b})}
-    \person{5.5}{337}{left} {east}{ 16}{0}{al-Zajjājī}
-    \person{5.5}{368}{left} {east}{ 16}{-1}{al-Sīrāfī (\textsc{b})}
-    \person{5.5}{377}{left} {east}{ 16}{3}{Abū Ɛaliyy al-Fārisī (\textsc{b})}
-    \person{5.5}{384}{left} {east}{ 16}{9}{al-Rummānī}
-    \person{5.5}{392}{left} {east}{ 16}{13}{Ibn Jinnī}
-    \person{5.5}{577}{right} {west}{-16}{6}{Abū al-Barakāt al-Anbārī}
+    \person{6.5}{291}{left} {east}{ 16}{-1}{T͡haɛlab (\textsc{k})}
+    \person{6.5}{316}{left} {east}{ 16}{-1}{Ibn al-Sarrāj (\textsc{b})}
+    \person{6.5}{337}{left} {east}{ 16}{0}{al-Zajjājī}
+    \person{6.5}{368}{left} {east}{ 16}{-1}{al-Sīrāfī (\textsc{b})}
+    \person{6.5}{377}{left} {east}{ 16}{3}{Abū Ɛaliyy al-Fārisī (\textsc{b})}
+    \person{6.5}{384}{left} {east}{ 16}{9}{al-Rummānī}
+    \person{6.5}{392}{left} {east}{ 16}{13}{Ibn Jinnī}
+    \person{6.5}{577}{right} {west}{-16}{-1}{Abū al-Barakāt al-Anbārī}
+    %\person{5.5}{684}{right} {west}{-16}{-9}{al-Raḍiyy al-Astarābād͡hī}
+
+    % Hijaz
+    \person{4.5}{684}{right} {west}{-15}{10}{al-Raḍiyy al-Astarābād͡hī}
+    \draw [->, -{Latex}] (8.5,664) -- (4.5, 684);
 
     % Syria
-    \person{3.5}{643}{right} {west}{-16}{3}{Ibn Yaɛīs͡h}
-    \person{3.5}{672}{right} {west}{-16}{3}{Ibn Mālik}
+    \person{3.5}{643}{right} {west}{-16}{-3}{Ibn Yaɛīs͡h}
+    \person{3.5}{672}{right} {west}{-16}{-3}{Ibn Mālik}
     \draw [->, -{Latex}] (0.5,627) -- (3.5, 672);
 
     % Egypt
@@ -249,19 +254,19 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \draw [->, -{Latex}] (0.5,674) -- (2.5, 745);
     \person{2.5}{761}{right} {west}{-16}{3}{Ibn His͡hām al-Anṣārī}
     \person{2.5}{769}{right} {west}{-16}{9}{Ibn Ɛaqīl}
-    \person{2.5}{900}{right} {west}{-16}{0}{al-As͡hmūnī}
+    \person{2.5}{900}{right} {west}{-16}{-2}{al-As͡hmūnī}
     \person{2.5}{911}{right} {west}{-16}{6}{al-Suyūṭī}
 
     % Persia
     \person{8.5}{471}{left} {east}{ 16}{0}{al-Jurjānī}
-    \person{8.5}{538}{left} {east}{ 16}{6}{al-Zamak͡hs͡harī}
-    \person{8.5}{684}{left} {east}{ 16}{-6}{al-Raḍiyy al-Astarābād͡hī}
+    \person{8.5}{538}{left} {east}{ 16}{-1}{al-Zamak͡hs͡harī}
+    %\person{8.5}{684}{left} {east}{ 16}{-6}{al-Raḍiyy al-Astarābād͡hī}
     \person{8.5}{395}{left} {east}{ 20}{12}{Ibn Fāris}
 
     % Andalus
     \person{0.5}{592}{right}{west}{-16}{-10}{Ibn Maḍāʾ}
     \person{1}{669}{right}{west}{-16}{ 3}{Ibn Ɛuṣfūr}
-    \person{0.5}{790}{right}{west}{-16}{22}{Abū Is·ḥāq al-S͡hāṭibī}
+    %\person{0.5}{790}{right}{west}{-16}{22}{Abū Is·ḥāq al-S͡hāṭibī}
 
     % North Africa
     \person{1.5}{723}{above}{south}{-10}{-25}{Ibn Ājurrūm}
@@ -273,24 +278,24 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {vertical lines}    {3}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{yshift=6pt}
     \dynasty    {vertical lines}    {2}    {2}      {132}             {\cetoah{909}} {}{}% Abbasids % North Africa
     \dynasty    {vertical lines}    {5}    {5}      {\cetoah{945}}    {\cetoah{969}} {}{}% Abbasids
-    \dynasty    {sixpointed stars}  {3}    {3}      {\cetoah{969}}    {\cetoah{1167}} {FATIMIDS}{xshift=10pt}
     \dynasty    {sixpointed stars}  {4}    {5}      {\cetoah{969}}    {\cetoah{1154}} {}{} % Fatimids %  syria and Hijaz
+    \dynasty    {sixpointed stars}  {3}    {3}      {\cetoah{969}}    {\cetoah{1167}} {FATIMIDS}{xshift=10pt}
     \dynasty    {sixpointed stars}  {2}    {2}      {\cetoah{909}}    {\cetoah{1050}} {}{} % Fatimids % North Africa
     \dynasty    {crosshatch}        {3}    {5}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
     %\dynasty    {crosshatch}        {5}    {5}      {600}             {\cetoah{1250}} {}{}
-    \dynasty    {grid}              {6}    {9}      {\cetoah{1055}}   {\cetoah{1194}} {SELJUKS}{}
+    \dynasty    {grid}              {6}    {9}      {\cetoah{1055}}   {\cetoah{1194}} {SELJUKS}{yshift=-3pt}
     \dynasty    {vertical lines}    {6}    {8}      {\cetoah{1194}}   {\cetoah{1258}} {\small ABBASIDS}{}% Abbasids % North Africa
     \dynasty    {grid}              {4}    {5}      {\cetoah{1154}}   {\cetoah{1175}} {\scriptsize ZENGIDS}{}
     \dynasty    {grid}              {3}    {3}      {\cetoah{1167}}   {\cetoah{1175}} {}{}
     \dynasty    {dots}              {9}    {9}      {\cetoah{1194}}   {\cetoah{1258}} {\scriptsize KHWAREZMS}{xshift=5pt}% Abbasids % North Africa
-    \dynasty    {fivepointed stars} {6}    {9}      {\cetoah{945}}    {\cetoah{1055}} {BUYIDS}{}
-    \dynasty    {checkerboard}      {6}    {9}      {\cetoah{1258}}   {\cetoah{1335}} {MONGOLS}{}
+    \dynasty    {fivepointed stars} {6}    {9}      {\cetoah{945}}    {\cetoah{1055}} {BUYIDS}{xshift=10pt}
+    \dynasty    {checkerboard}      {6}    {9}      {\cetoah{1258}}   {\cetoah{1335}} {\small MONGOL ILKHANATE}{}
     \dynasty    {horizontal lines}  {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {MAMLUKS}{yshift=15pt}
     \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1056}}   {\cetoah{1140}} {\scriptsize ALMORAVIDS}{rotate=60}
     \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1140}}   {\cetoah{1269}} {\scriptsize ALMOHADS}{rotate=60}
     %\dynasty    {dots}              {6}    {9}      {\cetoah{1335}}   {\cetoah{1508}} {\small TURKIC DYNASTIES}{}
     \dynasty    {dots}              {6}    {8}      {\cetoah{1335}}   {\cetoah{1400}} {\scriptsize JALAYRIDS}{}
-    %\dynasty    {dots}              {9}    {9}      {\cetoah{1335}}   {\cetoah{1400}} {\scriptsize MUZAFFARIDS}{}
+    \dynasty    {dots}              {9}    {9}      {\cetoah{1335}}   {\cetoah{1400}} {\scriptsize MUZAFFARIDS}{xshift=5pt}
     \dynasty    {dots}              {6}    {9}      {\cetoah{1400}}   {\cetoah{1450}} {\small TIMURIDS}{}
     \dynasty    {dots}              {6}    {9}      {\cetoah{1450}}   {\cetoah{1501}} {\scriptsize TURKOMAN CONFEDERATIONS}{}
     \dynasty    {fivepointed stars} {6}    {9}      {\cetoah{1501}}   {\cetoah{1533}} {\small SAFAVIDS}{xshift=30pt}
@@ -303,7 +308,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 % \phase{Pre-theoretical\\grammar}{650}{780}
     \phase{\scriptsize Precursors}                           {\cetoah{660}} {\cetoah{770}}
     \phase{\scriptsize Early\\\scriptsize grammar}                        {\cetoah{770}} {\cetoah{920}}
-    \phase{\scriptsize Codification\\\scriptsize and\\\scriptsize systematization}    {\cetoah{920}} {\cetoah{1100}}
+    \phase{\scriptsize Codification and\\\scriptsize systematization}    {\cetoah{920}} {\cetoah{1100}}
     \phase{\scriptsize Elaboration of forms\\\scriptsize of presentation}{\cetoah{1100}}{\cetoah{1520}}
 
 
