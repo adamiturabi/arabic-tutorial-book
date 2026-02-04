@@ -236,6 +236,10 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \person{5.5}{384}{left} {east}{ 16}{9}{al-Rummānī}
     \person{5.5}{392}{left} {east}{ 16}{13}{Ibn Jinnī}
     \person{5.5}{577}{right} {west}{-16}{6}{Abū al-Barakāt al-Anbārī}
+    %\person{5.5}{684}{right} {west}{-16}{-9}{al-Raḍiyy al-Astarābād͡hī}
+    %\person{5.0}{684}{below} {north west}{15}{20}{al-Raḍiyy al-Astarābād͡hī}
+    \person{5.0}{684}{right} {west}{-15}{10}{al-Raḍiyy al-Astarābād͡hī}
+    \draw [->, -{Latex}] (8.5,664) -- (5.0, 684);
 
     % Syria
     \person{3.5}{643}{right} {west}{-16}{3}{Ibn Yaɛīs͡h}
@@ -255,7 +259,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     % Persia
     \person{8.5}{471}{left} {east}{ 16}{0}{al-Jurjānī}
     \person{8.5}{538}{left} {east}{ 16}{6}{al-Zamak͡hs͡harī}
-    \person{8.5}{684}{left} {east}{ 16}{-6}{al-Raḍiyy al-Astarābād͡hī}
+    %\person{8.5}{684}{left} {east}{ 16}{-6}{al-Raḍiyy al-Astarābād͡hī}
     \person{8.5}{395}{left} {east}{ 20}{12}{Ibn Fāris}
 
     % Andalus
