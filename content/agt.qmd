@@ -271,11 +271,13 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
     % Andalus
     \person{0.5}{592}{right}{west}{-16}{-10}{Ibn Maḍāʾ}
-    \person{1}{669}{right}{west}{-16}{ 3}{Ibn Ɛuṣfūr}
     %\person{0.5}{790}{right}{west}{-16}{22}{Abū Is·ḥāq al-S͡hāṭibī}
+    \person{0.5}{645}{left}{east}{26}{3}{al-S͡halawbīn}
 
     % North Africa
     \person{1.5}{723}{above}{south}{-10}{-25}{Ibn Ājurrūm}
+    \person{1.5}{669}{right}{west}{-16}{ 3}{Ibn Ɛuṣfūr}
+    \draw [->, -{Latex}] (0.7,650) -- (1.5, 669);
 
     \dynasty    {bricks}            {5}    {5}      {0}     {11}  {}{} % Prophet pbuh
     \dynasty    {bricks}            {2.5}  {8.5}    {11}    {41}  {RASHIDUN}{}
