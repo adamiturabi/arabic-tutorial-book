@@ -195,15 +195,17 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 \draw [help lines] (\beglong,\begah) grid (\endlong,\endah);
 
 % Axis
-\draw [->, very thick] (\beglong,0) -- (\endlong+0.2,0);
-\draw [->, very thick] (0,\begah) -- (0,\endah+20);
+%\draw [->, very thick] (\beglong,0) -- (\endlong+0.2,0);
+%\draw [->, very thick] (0,\begah) -- (0,\endah+20);
+\draw [] (\beglong,0) -- (\endlong,0);
 
 % Axis ticks
 \foreach \y in {100,200,...,\endah} {
   \draw (0, \y) -- (-.2, \y) node [anchor=east] {\footnotesize \y};
 }
-\node  at (-0.5,0) {\footnotesize 1 AH};
-\node  at (9.5,30) {\footnotesize CE};
+\draw (0, 0) -- (-.2, 0) node [anchor=east] {\footnotesize 1}; % 1AH
+\node  at (-0.5,50) {\footnotesize \textsc{ah}};
+\node  at (9.5,30) {\footnotesize  \textsc{ce}};
 
 \foreach \y in {600,700,...,1600} {
   \ceaxis{\y}
