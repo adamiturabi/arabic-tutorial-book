@@ -246,18 +246,18 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
     % Hijaz
     \person{4.5}{684}{right} {west}{-15}{10}{al-Raḍiyy al-Astarābād͡hī}
-    \draw [->, -{Latex}] (8.5,664) -- (4.5, 684);
+    \draw [dashed, ->, -{Latex}] (8.5,664) -- (4.5, 684);
 
     % Syria
     \person{3.5}{643}{right} {west}{-16}{-3}{Ibn Yaɛīs͡h}
     \person{3.5}{672}{right} {west}{-16}{-3}{Ibn Mālik}
-    \draw [->, -{Latex}] (0.5,627) -- (3.5, 672);
+    \draw [dashed, ->, -{Latex}] (0.5,627) -- (3.5, 672);
 
     % Egypt
     %\person{2.5}{204}{right} {west}{-16}{0}{al-Shafiei}
     \person{2.5}{646}{left} {north}{ 10}{-10}{Ibn al-Ḥājib}
     \person{2.5}{745}{right} {west}{-16}{-2}{Abū Ḥayyān}
-    \draw [->, -{Latex}] (0.5,674) -- (2.5, 745);
+    \draw [dashed, ->, -{Latex}] (0.5,674) -- (2.5, 745);
     \person{2.5}{761}{right} {west}{-16}{3}{Ibn His͡hām al-Anṣārī}
     \person{2.5}{769}{right} {west}{-16}{9}{Ibn Ɛaqīl}
     \person{2.5}{900}{right} {west}{-16}{-2}{al-As͡hmūnī}
@@ -271,11 +271,13 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
     % Andalus
     \person{0.5}{592}{right}{west}{-16}{-10}{Ibn Maḍāʾ}
-    \person{1}{669}{right}{west}{-16}{ 3}{Ibn Ɛuṣfūr}
     %\person{0.5}{790}{right}{west}{-16}{22}{Abū Is·ḥāq al-S͡hāṭibī}
+    \person{0.5}{645}{left}{east}{26}{3}{al-S͡halawbīn}
 
     % North Africa
     \person{1.5}{723}{above}{south}{-10}{-25}{Ibn Ājurrūm}
+    \person{1.5}{669}{right}{west}{-16}{ 3}{Ibn Ɛuṣfūr}
+    \draw [dashed, ->, -{Latex}] (0.7,650) -- (1.5, 669);
 
     \dynasty    {bricks}            {5}    {5}      {0}     {11}  {}{} % Prophet pbuh
     \dynasty    {bricks}            {2.5}  {8.5}    {11}    {41}  {RASHIDUN}{}
