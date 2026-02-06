@@ -47,6 +47,7 @@ format:
     monofont: "DejaVu Sans Mono"
     monofontoptions: "Scale=0.7"
     fontsize: 9pt
+    indent: true # indent first line of paragraph. Also seems to disable extra paragraph vertical spacing.
     #pdf-engine: xelatex
     include-in-header:
       - file: srctex/include_in_header.tex
