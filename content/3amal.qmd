@@ -269,8 +269,11 @@ DIAGRAM
 
 ## The two indispensable elements of a sentence
 
-In the Arabic grammatical model,
-a sentence is analagous to the structure of a simple _lean-to_ building.
+In the Arabic grammatical tradition,
+a sentence can be modeled as
+analogous to the structure of 
+a simple _lean-to_ building.
+@fig-leantobuilding depicts this model.
 <!--
 A building is built upon a foundation.
 The foundation of the Arabic sentence
@@ -283,6 +286,7 @@ These two indispensable elements are:
  i. The structure-starter
 ii. The structure-completer
 
+::: {#fig-leantobuilding .test-class}
 ```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \usetikzlibrary{patterns}
@@ -295,6 +299,9 @@ ii. The structure-completer
 
 \end{tikzpicture}
 ```
+
+A lean-to building as the model for an Arabic sentence.
+:::
 
 
 The structure-starter is the primary indispensable element.
