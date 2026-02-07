@@ -263,8 +263,11 @@ DIAGRAM
 
 ## The two ;3umdah; elements of a sentence
 
-In the Arabic grammatical model,
-a sentence is analagous to the structure of a simple _lean-to_ building.
+In the Arabic grammatical tradition,
+a sentence can be modeled as
+analogous to the structure of 
+a simple _lean-to_ building.
+@fig-leantobuilding depicts this model.
 <!--
 A building is built upon a foundation.
 The foundation of the Arabic sentence
@@ -277,6 +280,7 @@ These two ;3umdah; elements are:
  i. The ;muxbar3;
 ii. The ;muxbar;
 
+::: {#fig-leantobuilding .test-class}
 ```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \usetikzlibrary{patterns}
@@ -289,6 +293,9 @@ ii. The ;muxbar;
 
 \end{tikzpicture}
 ```
+
+A lean-to building as the model for an Arabic sentence.
+:::
 
 
 The ;muxbar3; is the primary ;3umdah; element.
