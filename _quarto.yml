@@ -5,8 +5,9 @@ project:
     - scripts/prerender_subs.py
     #- scripts/add_auto_crossrefs.py
   post-render:
-    - "rm -rf images"
-    - "rm -rf content/images"
+    #- "rm -rf images"
+    #- "rm -rf content/images"
+    - "rm -rf content/*_files"
 
 profile:
   group:
@@ -104,10 +105,10 @@ tikz:
 
 website:
   favicon: srchtml/favicon.png
-  announcement: 
-    icon: info-circle
-    dismissable: true
-    content: "**Alert** - this book is a work in progress and is not yet ready for study."
-    type: primary
-    position: below-navbar
+  #announcement: 
+  #  icon: info-circle
+  #  dismissable: true
+  #  content: "**Alert** - this book is a work in progress and is not yet ready for study."
+  #  type: primary
+  #  position: below-navbar
 
