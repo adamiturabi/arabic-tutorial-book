@@ -64,11 +64,11 @@ Figure @fig-shartintatiniaatika
    (word-1.south west) -- (word-2.south east)
       node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;jawab_shart;};
 
-\draw[->,decorate] ([xshift=2pt] word-5.north) to [out=90,in=80,looseness=3] node[midway,inner sep=0.3pt,fill=white] {\scriptsize 0} ([xshift=4pt,yshift=4pt] word-4.north);
-\draw[->,decorate] ([xshift=5pt] word-5.north) to [out=70,in=65,looseness=3] node[midway,inner sep=0.3pt,fill=white] {\scriptsize 0} ([xshift=-2pt] word-2.north east);
-\draw[->,decorate] ([xshift=-4pt] word-4.north) to [out=110,in=90,looseness=3] node[midway,inner sep=0.3pt,fill=white] {\scriptsize u} (word-3.north);
-\draw[->,decorate] ([xshift=5pt] word-2.north) to [out=80,in=110,looseness=3] node[midway,inner sep=0.3pt,fill=white] {\scriptsize u} ([xshift=-7pt] word-1.north);
-\draw[->,decorate] ([xshift=3pt]word-2.north) to [out=70,in=120,looseness=3] node[midway,inner sep=0.3pt,fill=white] {\scriptsize a} ([xshift=-9pt] word-2.north);
+\draw[->,decorate] ([xshift=2pt] word-5.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize 0} ([xshift=4pt,yshift=4pt] word-4.north);
+\draw[->,decorate] ([xshift=3pt] word-5.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize 0} ([xshift=-4pt] word-2.north east);
+\draw[->,decorate] ([xshift=-4pt] word-4.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize u} (word-3.north);
+\draw[->,decorate] ([xshift=5pt] word-2.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize u} ([xshift=0pt] word-1.north);
+\draw[->,decorate] ([xshift=3pt]word-2.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=-9pt] word-2.north);
 
 %\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read the small books.''};
 
