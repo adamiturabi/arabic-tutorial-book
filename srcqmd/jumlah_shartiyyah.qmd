@@ -1,0 +1,80 @@
+# The ;j_sh;
+
+;wip_warn;
+
+## Introduction
+
+## The basic ;j_sh; with ;in;
+
+In its ;arch; form,
+the ;j_sh; consists of three parts:
+
+  i. the conditional particle ;in;,
+ ii. a ;j_f3l; forming the ;shart;, and
+iii. a ;j_f3l; forming the ;jawab_shart;.
+
+In this ;arch; form of the ;j_sh;,
+the conditional particle ;in; directly
+governs the verbs in the ;shart; and the ;jawab_shart; in the ;0state;.^[@peled_cst@ 3-4 citing @sibawayhi@]
+
+Examples:
+
+(@) [إِنْ تَأْتِنِي آتِكَ]{.ar}
+    [[@sibawayhi@ 3/63](https://shamela.ws/book/23018/916)]{.citex}  
+    [If you come to me, I will come to you.]{.trans}
+
+(@) [إِنْ يَأْتِ زَيْدٌ يُكْرِمْهُ عَمْرٌو]{.ar}  
+    [If Zayd comes, ;3amr; will honor him.]{.trans}  
+
+In example () above,
+
+  i. The conditional particle is ;in;,
+ ii. the ;shart; is [تَأْتِنِي]{.ar}, and
+iii. the ;jawab_shart; is [آتِكَ]{.ar}.
+
+The conditional particle ;in; directly governs the verbs
+[]{.ar}
+in the ;shart; and
+[]{.ar}
+in the ;jawab_shart; 
+in the ;0state;.
+Figure @fig-shartintatiniaatika
+
+::: {#fig-shartintatiniaatika .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{عَمْرٌو} \txarb{يُكْرِمْهُ} \txarb{زَيْدٌ} \txarb{يَأْتِ} \txarb{إِنْ},
+  text effects/.cd, 
+    path from text, text along path,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-5.south west) -- (word-5.south east)
+      node [midway, rotate=90, below] {\scriptsize conditional\\\scriptsize particle};
+\draw [decoration={brace, mirror}, decorate] 
+   (word-3.south west) -- (word-4.south east)
+      node [midway, below] {\scriptsize ;shart;};
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-2.south east)
+      node [midway, below] {\scriptsize ;jawab_shart;};
+
+\draw[->,decorate] (word-5.north) to [out=135,in=45] node[above] {u} (word-4.north);
+
+%\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read the small books.''};
+
+\end{tikzpicture}
+
+```
+
+Caption
+:::
+
+
+The government of the elements of the ;arch; conditional sentence.
+
+No tense, but will be discussed more in section\ (ref)
