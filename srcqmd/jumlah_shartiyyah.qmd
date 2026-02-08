@@ -44,26 +44,31 @@ Figure @fig-shartintatiniaatika
 
 ```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
-\begin{tikzpicture}[nodes={text depth=0.25ex,text height=1.25ex}]
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
   text=\txarb{عَمْرٌو} \txarb{يُكْرِمْهُ} \txarb{زَيْدٌ} \txarb{يَأْتِ} \txarb{إِنْ},
   text effects/.cd, 
     path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
     group letters, word count=\w,
     every word/.style={name=word-\w, execute at begin node=\strut}},
   decorate] (0,0);
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-5.south west) -- (word-5.south east)
-      node [midway, rotate=90, below] {\scriptsize conditional\\\scriptsize particle};
+      node [midway, below, text centered,text width=1cm, xshift=10pt, yshift=-5pt] {\scriptsize conditional particle};
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-4.south east)
-      node [midway, below] {\scriptsize ;shart;};
+      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;shart;};
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
-      node [midway, below] {\scriptsize ;jawab_shart;};
+      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;jawab_shart;};
 
-\draw[->,decorate] (word-5.north) to [out=135,in=45] node[above] {u} (word-4.north);
+\draw[->,decorate] ([xshift=2pt] word-5.north) to [out=90,in=80,looseness=3] node[midway,inner sep=0.3pt,fill=white] {\scriptsize 0} ([xshift=4pt,yshift=4pt] word-4.north);
+\draw[->,decorate] ([xshift=5pt] word-5.north) to [out=70,in=65,looseness=3] node[midway,inner sep=0.3pt,fill=white] {\scriptsize 0} ([xshift=-2pt] word-2.north east);
+\draw[->,decorate] ([xshift=-4pt] word-4.north) to [out=110,in=90,looseness=3] node[midway,inner sep=0.3pt,fill=white] {\scriptsize u} (word-3.north);
+\draw[->,decorate] ([xshift=5pt] word-2.north) to [out=80,in=110,looseness=3] node[midway,inner sep=0.3pt,fill=white] {\scriptsize u} ([xshift=-7pt] word-1.north);
+\draw[->,decorate] ([xshift=3pt]word-2.north) to [out=70,in=120,looseness=3] node[midway,inner sep=0.3pt,fill=white] {\scriptsize a} ([xshift=-9pt] word-2.north);
 
 %\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read the small books.''};
 
