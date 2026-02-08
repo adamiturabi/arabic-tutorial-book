@@ -4,41 +4,42 @@
 
 ## Introduction
 
-## The basic ;j_sh; with ;in;
+## The ;arch; ;j_sh; with ;in;
+
+### Government of the ;arch; ;j_sh;
 
 In its ;arch; form,
 the ;j_sh; consists of three parts:
 
   i. the conditional particle ;in;,
- ii. a ;j_f3l; forming the ;shart;, and
-iii. a ;j_f3l; forming the ;jawab_shart;.
+ ii. a ;j_f3l; with a ;0state; ;mudarie; verb, constituting the ;shart;, and
+iii. a ;j_f3l; with a ;0state; ;mudarie; verb, constituting the ;jawab_shart;.
 
+<!--
 In this ;arch; form of the ;j_sh;,
-the conditional particle ;in; directly
+-->
+The conditional particle ;in; directly
 governs the verbs in the ;shart; and the ;jawab_shart; in the ;0state;.^[@peled_cst@ 3-4 citing @sibawayhi@]
-
-Examples:
-
-(@) [إِنْ تَأْتِنِي آتِكَ]{.ar}
-    [[@sibawayhi@ 3/63](https://shamela.ws/book/23018/916)]{.citex}  
-    [If you come to me, I will come to you.]{.trans}
+Here is an example of an ;arch; ;j_sh;
 
 (@) [إِنْ يَأْتِ زَيْدٌ يُكْرِمْهُ عَمْرٌو]{.ar}  
     [If Zayd comes, ;3amr; will honor him.]{.trans}  
 
+<!--
 In example () above,
 
   i. The conditional particle is ;in;,
  ii. the ;shart; is [تَأْتِنِي]{.ar}, and
 iii. the ;jawab_shart; is [آتِكَ]{.ar}.
+-->
 
 The conditional particle ;in; directly governs the verbs
-[]{.ar}
+[يَأْتِ]{.ar}
 in the ;shart; and
-[]{.ar}
+[يُكْرِمْ]{.ar}
 in the ;jawab_shart; 
 in the ;0state;.
-Figure @fig-shartintatiniaatika
+@fig-shartintatiniaatika depicts this government for example () above.
 
 ::: {#fig-shartintatiniaatika .test-class}
 
@@ -76,8 +77,64 @@ Figure @fig-shartintatiniaatika
 
 ```
 
-Caption
+A government diagram of the ;arch; ;j_sh;.
+The arrows flow from governor to governee and are labelled with the state of the governee.
 :::
+
+Here are some more examples of the archetypal conditional sentence:
+
+(@) [إِنْ تَأْتِنِي آتِكَ]{.ar}
+    [[@sibawayhi@ 3/63](https://shamela.ws/book/23018/916)]{.citex}  
+    [If you come to me, I will come to you.]{.trans}
+
+(@) [وإن تضرب أضرب]{.ar}
+    [[@sibawayhi@ 3/63](https://shamela.ws/book/23018/916)]{.citex}  
+    [If you beat, I will beat.]{.trans}
+
+### Negating the ;shart; or ;jawab_shart;
+
+When either of the ;0state; ;mudarie; verbs
+in the ;shart; or ;jawab_shart; are to be negated,
+then we can use the particle [لَا]{.ar}.
+The particle [لَا]{.ar}
+will not affect the government of the ;mudarie; verbs
+in the ;shart; and the ;jawab_shart;.
+The conditional particle ;in; will continue to govern these verbs in the ;0state;.
+Here are some examples:
+
+(@) [إِلَّا تَفۡعَلُوهُ تَكُن فِتۡنَةࣱ فِی ٱلۡأَرۡضِ وَفَسَادࣱ كَبِیرࣱ]{.quran}
+    [@https://quran.com/8/73@ cited by @reckendorf_syntax@ 487]{.citex}  
+    [If you do not do so [i.e., ally yourselves with other believers], there will be fitnah [i.e., disbelief and oppression] on earth and great corruption.]{.trans}  
+
+(@) [إِنْ تَدْفِنُوا الدَّاءَ **لَا نُخْفِهِ**]{.ar}
+    [@reckendorf_syntax@ 487]{.citex}  
+
+(@) [**إِنْ لَا تَكُنْ** هِنْدٌ بَكَتْهُ فَقَدْ بَكَتْ عَلَيْهِ الثُّرَيَّا]{.ar}
+    [@reckendorf_syntax@ 487]{.citex}  
+    [If Hind does not weep for him, then the Pleiades have wept for him]{.trans}  
+    (The ;jawab_shart; in this case has a ;madi; verb which will be discussed later.)  
+
+(@) [اللهُمّ إنْ تَظْهَرْ عَلَيّ هَذِهِ الْعِصَابَةُ يَظْهَرْ الشّرْكُ، وَلَا يَقُمْ لَك دِين]{.ar}
+    [[@maghazi_waqidi@ 1/67](https://shamela.ws/book/23680/108) cited by @peled_cst@ 15]{.citex}  
+
+@fig-shart_arch_laa depicts the government of the ;mudarie; verbs in example () above.
+
+While using [لَا]{.ar},
+as above, to negate the verbs in the ;shart; or ;jawab_shart; is perfectly legitimate,
+it is very rare.
+Instead, the particle [لَمْ]{.ar} is used.
+We will discuss it in section\ () below, ;ia;.
+
+## The ;madi; verb in a ;j_sh;
+
+A ;j_sh; with the conditional particle ;in; governing a
+;0state; ;mudarie; verb in both the ;shart; and the ;jawab_shart; is the ;arch; form of the ;j_sh;,
+as we have mentioned above.
+But the ;j_sh; has other other forms as well.
+One such form is where a ;madi; verb is used instead of one, or both, of the ;0state; ;mudarie;
+verbs.
+Here is an example:
+
 
 
 The government of the elements of the ;arch; conditional sentence.
