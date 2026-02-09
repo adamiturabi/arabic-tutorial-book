@@ -16,7 +16,7 @@ map_table["larr"] = "←"
 # text terms
 map_table["Allah"] = "Allāh"
 map_table["3amr"] = "[#eamr]{.trn2}"
-map_table["arch"] = "archetypical"
+map_table["arch"] = "archetypal"
 map_table["archly"] = "archetypically"
 map_table["ia"] = "if Allāh wills"
 map_table["quran"] = "Qurʾān"
@@ -161,7 +161,8 @@ map_table["isnaad_comp"] = "structurally complete"
 
 map_table["jamid"] = "primitive"
 map_table["jawab"] = "consequence"
-map_table["jawab_shart"] = "condition-response"
+map_table["jawab_shart"] = "consequence-clause" # outcome, result, consequence
+map_table["j_sh"] = "conditional sentence"
 map_table["j_ism"] = "nounal sentence"
 map_table["j_f3l"] = "verbal sentence"
 
@@ -217,7 +218,7 @@ map_table["sifah"] = "adjectival noun"
 map_table["sifah_mush"] = "participle-like adjective" # {"participlish adjectival noun", nil} # "participle-like"?
 map_table["sighah_mub"] = "emphatic noun" # {"participlish adjectival noun", nil} # "participle-like"?
 map_table["silah"] = "connecting sentence"
-map_table["shart"] = "condition"
+map_table["shart"] = "condition-clause" # condition
 map_table["shibh_fi3l"] = "quasi-verb"
 map_table["shibh_jumlah"] = "quasi-sentence"
 map_table["shibh_jumlah"] = "quasi-sentence"

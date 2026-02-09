@@ -1168,6 +1168,22 @@ def populate_resource_list():
     , bib_text = 'Levin, A., "The theory of al-taqdīr and its terminology." In _Jerusalem Studies in Arabic and Islam_,. 21 (1997), p. 142-166.'
     , sort_key = "levin theory of al taqdir"
     ))
+  resource_list.append(BibResource(
+    "peled_cst"
+    , cit_type = "ws_ref"
+    , cit_text = 'Peled, _Conditional structures in Classical Arabic_'
+    , bib_text = 'Peled, Y., _Conditional structures in Classical Arabic_, Otto Harrassowitz, 1992.'
+    , sort_key = "peled conditional structures"
+    ))
+  resource_list.append(BibResource(
+    "reckendorf_syntax"
+    , cit_type = "ws_ref"
+    , cit_text = 'Reckendorf, H., _Arabische syntax_'
+    , bib_text = 'Reckendorf, H., _Arabische syntax_, Heidelburg, 1921.'
+    , sort_key = "Reckendorf arabische syntax"
+    ))
+
+
 
 
 
