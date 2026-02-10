@@ -617,7 +617,7 @@ even if continually revised and refined,
 can perhaps never capture its full complexity.
 
 Because of this,
-#;samaa3;, in general, should not be rejected on the basis of ;qiyaas;.
+;samaa3;, in general, should not be rejected on the basis of ;qiyaas;.
 And an ;qiyaas;, even if it were sound, should not be applied if it
 leads to something that is contrary to ;samaa3;.^[[@intisaar_ibn_walaad@ 204](https://shamela.ws/book/29555/164#p1) cited by @baalbaki_book_agt@ 130]
 
@@ -662,6 +662,44 @@ Instead, the more common usage in example () became the standard.
 
 ## #;taqdiring; ([التَّقْدِير]{.ar})
 
+When the grammarians were analyzing ;samaa3;, they observed the following:
+
+1. There is an underlying harmony and order in the Classical Arabic language,^[@baalbaki_harmony@ 7ff]
+   such that it should be able to be described with a set of basic principles.
+2. These principles often don't describe surface speech directly.
+   (_Surface speech_ is defined as the literal utterance that is spoken by the speaker and heard by the listener.)
+   This is because surface speech,
+   even when not ;shaadh;,
+   has too much variation and complexity to be wrangled into a minimalist framework of grammatical principles.
+
+   Oftentimes, two surface speech utterances can differ in their apparent form.
+   Nevertheless, there seems to be a common grammatical principle at work that directs the structure of both surface speech utterances.
+3. Under the surface speech,
+   there could be modeled a _virtual speech_.
+   This modeled virtual speech exists only in the mind of the speaker.^[@levin_taqdir@ 142--143]
+   It determines what the speaker will utter as surface speech.
+
+   The virtual speech is simpler in its structure, and has less variation, than surface speech.
+   It is thus
+   more amenable to being described by a set of basic principles.
+
+Based on the above observations,
+the grammarians' goal was to come up with a set of basic principles for Classical Arabic
+that was coherent and comprehensive.
+In doing so,
+they would theorize a _;taqdir;_
+of the surface speech,
+when needed,
+and build their grammatical system based on the ;taqdir;.
+
+
+<!--
+that exists only in the speech unit of mind of the speaker.^[@levin_taqdir@ 142--143]
+This _;taqdir;_
+was more amenable to being wrangled into 
+organized rules.
+
+
 In analyzing ;samaa3;,
 the grammarians were
 attempting to build a comprehensive and coherent grammar of Classical Arabic.
@@ -679,14 +717,18 @@ This _;taqdir;_
 was more amenable to being wrangled into 
 organized rules.
 
-The grammarians then considered it their role to theorize a ;taqdir;,
+The grammarians then 
+considered it their role to theorize a ;taqdir;,
 when needed,
 under the surface speech,
 and to build their grammatical framework based on the ;taqdir;.
+-->
 
-We will explain what we mean by going through a hypothetical example in the following subsection below.
+We will explain what we mean by going through some examples in the following section below:
 
-### A ;taqdir; of ;mustatir; ;faa3il; pronouns
+### Examples of ;taqdiring;
+
+#### A ;taqdir; of ;mustatir; ;faa3il; pronouns
 
 Let's say that a grammarian goes through some data in ;samaa3;,
 and he finds surface speech samples like the following:
@@ -717,7 +759,7 @@ He
 classifies the first word in each sentence as a verb,
 and the second word as a noun.
 Based on the abundance of sentences like the above,
-the grammarian formulates a rule,
+the grammarian formulates a principle,
 which is that a ;j_f3l; needs two parts to be a complete sentence:
 a verb, followed by its ;faa3il; (noun).
 
@@ -756,7 +798,7 @@ For example:
 Based on these observations,
 the grammarian
 devises a way, by which
-these sentences can still be molded to fit into his above stated rule.
+these sentences can still be molded to fit into his above stated principle.
 This is
 by considering
 the extra sounds/letters at the end of the verbs
@@ -803,7 +845,7 @@ above.
 So the [تْ]{.ar} doesn't seem like it can be the ;faa3il;.
 So what is the grammarian to do?
 
-In order to keep the rule consistent,
+In order to keep the principle consistent,
 the grammarian ;qaddars; _;mustatir;_ ;faa3il;s for these sentences.
 For example () above, the ;mustatir; ;faa3il; is ;qaddared; as [[هُوَ]{.ar}], thus:
 
@@ -813,7 +855,7 @@ For example () above, the ;mustatir; ;faa3il; is ;qaddared; as [[هُوَ]{.ar}]
 Now the sentence has two parts:
 the verb
 [ذَهَبَ]{.ar}, followed by it's ;faa3il;, the ;qaddared; [[هُوَ]{.ar}].
-Thus it is compliant with the above stated rule that the grammarian developed for ;j_f3l;s.
+Thus it is compliant with the above stated principle that the grammarian developed for ;j_f3l;s.
 
 Here are the other examples with their ;qaddared; ;faa3il;s:
 
@@ -826,11 +868,12 @@ Here are the other examples with their ;qaddared; ;faa3il;s:
 (@) [نَتَصَدَّقُ [نَحْنُ]]{.ar}  
     [We give charity.]{.trans}  
 
-In this way, a grammarian was able to formulate a ;qiyaas;-based grammatical rule
+In this way, a grammarian was able to formulate a ;qiyaas;-based grammatical principle
 based on observation of ;samaa3; and theorization of a ;taqdir;.
 
-### A ;taqdir; of ;an; before ;astate; ;mudarie; verbs
+#### A ;taqdir; of ;an; before ;astate; ;mudarie; verbs
 
+We present another example of where ;taqdiring; is useful for coming up with grammatical principles.
 In chapter\ (ref),
 we studied how a ;astate; ;mudarie; verb can occur after the particle [لِ]{.ar}.
 For example:
@@ -895,6 +938,10 @@ is a preposition before the ;istate; noun
 [نَجَاح]{.ar}.
 
 We will see more examples of ;taqdiring; for the ;astate; ;mudarie; verb in chapter\ (ref), ;ia;.
+
+#### The ;taqdir; of the warning
+
+[[شرج ابن عثيمين]{.ar} 59/4](https://shamela.ws/book/36954/636)
 
 ### Some aspects regarding ;taqdiring;
 

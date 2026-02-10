@@ -623,7 +623,7 @@ even if continually revised and refined,
 can perhaps never capture its full complexity.
 
 Because of this,
-Attested usage, in general, should not be rejected on the basis of analogy.
+attested usage, in general, should not be rejected on the basis of analogy.
 And an analogy, even if it were sound, should not be applied if it
 leads to something that is contrary to attested usage.^[[[الانتصار لسيبويه على المبرد لابن ولاد]{.ar} 204](https://shamela.ws/book/29555/164#p1) cited by Baalbaki, "The book in the grammatical tradition" 130]
 
@@ -668,6 +668,43 @@ Instead, the more common usage in example () became the standard.
 
 ## Virtual modeling ([التَّقْدِير]{.ar})
 
+When the grammarians were analyzing attested usage, they observed the following:
+
+1. There is an underlying harmony and order in the Classical Arabic language,^[ Baalbaki, "Some aspects of harmony and hierarchy in Sībawayhi's grammatical analysis"  7ff]
+   such that it should be able to be described with a set of basic principles.
+2. These principles often don't describe surface speech directly.
+   (_Surface speech_ is defined as the literal utterance that is spoken by the speaker and heard by the listener.)
+   This is because surface speech,
+   even when not anomalous usage,
+   has too much variation and complexity to be wrangled into a minimalist framework of grammatical principles.
+
+   Often times, two surface speech utterances can differ in their apparent form.
+   Nevertheless, there seems to be a common grammatical principle at work that directs the structure of both surface speech utterances.
+3. Under the surface speech,
+   there could be modeled a _virtual speech_.
+   This modeled virtual speech exists only in the mind of the speaker.^[Levin, "The theory of al-taqdīr and its terminology." 142--143]
+   It determines what the speaker will utter as surface speech.
+   The virtual speech is simpler in its structure, and has less variation, than surface speech.
+   It is thus
+   more amenable to being described by a set of basic principles.
+
+Based on the above observations,
+the grammarians' goal was to come up with a set of basic principles for Classical Arabic
+that was coherent and comprehensive.
+In doing so,
+they would theorize a _virtual model_
+of the surface speech,
+when needed,
+and build their grammatical system based on the virtual model.
+
+
+<!--
+that exists only in the speech unit of mind of the speaker.^[Levin, "The theory of al-taqdīr and its terminology." 142--143]
+This _virtual model_
+was more amenable to being wrangled into 
+organized rules.
+
+
 In analyzing attested usage,
 the grammarians were
 attempting to build a comprehensive and coherent grammar of Classical Arabic.
@@ -685,14 +722,18 @@ This _virtual model_
 was more amenable to being wrangled into 
 organized rules.
 
-The grammarians then considered it their role to theorize a virtual model,
+The grammarians then 
+considered it their role to theorize a virtual model,
 when needed,
 under the surface speech,
 and to build their grammatical framework based on the virtual model.
+-->
 
-We will explain what we mean by going through a hypothetical example in the following subsection below.
+We will explain what we mean by going through some examples in the following section below:
 
-### A virtual model of latent doer pronouns
+### Examples of virtual modeling
+
+#### A virtual model of latent doer pronouns
 
 Let's say that a grammarian goes through some data in attested usage,
 and he finds surface speech samples like the following:
@@ -723,7 +764,7 @@ He
 classifies the first word in each sentence as a verb,
 and the second word as a noun.
 Based on the abundance of sentences like the above,
-the grammarian formulates a rule,
+the grammarian formulates a principle,
 which is that a verbal sentence needs two parts to be a complete sentence:
 a verb, followed by its doer (noun).
 
@@ -762,7 +803,7 @@ For example:
 Based on these observations,
 the grammarian
 devises a way, by which
-these sentences can still be molded to fit into his above stated rule.
+these sentences can still be molded to fit into his above stated principle.
 This is
 by considering
 the extra sounds/letters at the end of the verbs
@@ -809,7 +850,7 @@ above.
 So the [تْ]{.ar} doesn't seem like it can be the doer.
 So what is the grammarian to do?
 
-In order to keep the rule consistent,
+In order to keep the principle consistent,
 the grammarian virtually models _latent_ doers for these sentences.
 For example () above, the latent doer is virtually modeled as [[هُوَ]{.ar}], thus:
 
@@ -819,7 +860,7 @@ For example () above, the latent doer is virtually modeled as [[هُوَ]{.ar}],
 Now the sentence has two parts:
 the verb
 [ذَهَبَ]{.ar}, followed by it's doer, the virtually modeled [[هُوَ]{.ar}].
-Thus it is compliant with the above stated rule that the grammarian developed for verbal sentences.
+Thus it is compliant with the above stated principle that the grammarian developed for verbal sentences.
 
 Here are the other examples with their virtually modeled doers:
 
@@ -832,11 +873,12 @@ Here are the other examples with their virtually modeled doers:
 (@) [نَتَصَدَّقُ [نَحْنُ]]{.ar}  
     [We give charity.]{.trans}  
 
-In this way, a grammarian was able to formulate a analogy-based grammatical rule
+In this way, a grammarian was able to formulate a analogy-based grammatical principle
 based on observation of attested usage and theorization of a virtual model.
 
-### A virtual model of [أَنْ]{.ar} before a-state stateful verbs
+#### A virtual model of [أَنْ]{.ar} before a-state stateful verbs
 
+We present another example of where virtual modeling is useful for coming up with grammatical principles.
 In chapter\ (ref),
 we studied how a a-state stateful verb can occur after the particle [لِ]{.ar}.
 For example:
@@ -901,6 +943,10 @@ is a preposition before the i-state noun
 [نَجَاح]{.ar}.
 
 We will see more examples of virtual modeling for the a-state stateful verb in chapter\ (ref), if Allāh wills.
+
+#### The virtual model of the warning
+
+[[شرج ابن عثيمين]{.ar} 59/4](https://shamela.ws/book/36954/636)
 
 ### Some aspects regarding virtual modeling
 
