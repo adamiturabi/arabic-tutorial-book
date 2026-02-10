@@ -1127,6 +1127,13 @@ def populate_resource_list():
     , sort_key = 'baalbaki book in the grammatical tradition'
     ))
   resource_list.append(BibResource(
+    "baalbaki_harmony"
+    , cit_type = "ws_ref"
+    , cit_text = """ Baalbaki, "Some aspects of harmony and hierarchy in Sībawayhi's grammatical analysis" """
+    , bib_text = """Baalbaki, R., "Some aspects of harmony and hierarchy in Sībawayhi's grammatical analysis." Article\\ [ii]{.smallcaps} in _Grammarians and grammatical theory in the medieval Arabic tradition_, Routledge, 2004."""
+    , sort_key = 'baalbaki some aspects'
+    ))
+  resource_list.append(BibResource(
     "baalbaki_bab_al_fa"
     , cit_type = "ws_ref"
     , cit_text = 'Baalbaki, "Bāb al-fāʾ"'
