@@ -668,26 +668,38 @@ Instead, the more common usage in example () became the standard.
 
 ## Virtual modeling ([التَّقْدِير]{.ar})
 
-When the grammarians were analyzing attested usage, they observed the following:
+When the grammarians were analyzing attested usage, they observed that
+there is an underlying harmony and order in the Classical Arabic language,^[ Baalbaki, "Some aspects of harmony and hierarchy in Sībawayhi's grammatical analysis"  7ff]
+such that it could be described with a set of
+coherent and comprehensive
+basic principles.
+But
+these principles often will not describe surface speech directly.
+(_Surface speech_ is defined as the literal utterance that is spoken by the speaker and heard by the listener.)
+This is because surface speech,
+even when not anomalous usage,
+has too much variation and complexity to be wrangled
+into a minimalist framework of grammatical principles directly.
 
-1. There is an underlying harmony and order in the Classical Arabic language,^[ Baalbaki, "Some aspects of harmony and hierarchy in Sībawayhi's grammatical analysis"  7ff]
-   such that it should be able to be described with a set of basic principles.
-2. These principles often don't describe surface speech directly.
-   (_Surface speech_ is defined as the literal utterance that is spoken by the speaker and heard by the listener.)
-   This is because surface speech,
-   even when not anomalous usage,
-   has too much variation and complexity to be wrangled into a minimalist framework of grammatical principles.
+For example,
+oftentimes, two surface speech utterances can differ in their apparent form.
+Nevertheless, there would seem to be a common grammatical principle at work
+that directs the structure of both surface speech utterances.
 
-   Often times, two surface speech utterances can differ in their apparent form.
-   Nevertheless, there seems to be a common grammatical principle at work that directs the structure of both surface speech utterances.
-3. Under the surface speech,
-   there could be modeled a _virtual speech_.
-   This modeled virtual speech exists only in the mind of the speaker.^[Levin, "The theory of al-taqdīr and its terminology." 142--143]
-   It determines what the speaker will utter as surface speech.
-   The virtual speech is simpler in its structure, and has less variation, than surface speech.
-   It is thus
-   more amenable to being described by a set of basic principles.
+In order to describe the language using grammatical principles,
+the grammarians theorized
+a _virtual model_
+of the surface speech.
+This virtual model would exist only in the mind of the speaker,^[Levin, "The theory of al-taqdīr and its terminology." 142--143]
+under the level of surface speech.
+The links between inter-related linguisitic phenomena would be more evident in the virtual model
+than in surface speech.
+The virtual model would be simpler in its structure, and have less variation, than surface speech.
+It would thus
+be
+more amenable to being described by a set of basic principles.
 
+<!--
 Based on the above observations,
 the grammarians' goal was to come up with a set of basic principles for Classical Arabic
 that was coherent and comprehensive.
@@ -696,6 +708,7 @@ they would theorize a _virtual model_
 of the surface speech,
 when needed,
 and build their grammatical system based on the virtual model.
+-->
 
 
 <!--
@@ -729,13 +742,13 @@ under the surface speech,
 and to build their grammatical framework based on the virtual model.
 -->
 
-We will explain what we mean by going through some examples in the following section below:
+We will further explain virtual modeling by going through some examples in the section below:
 
 ### Examples of virtual modeling
 
 #### A virtual model of latent doer pronouns
 
-Let's say that a grammarian goes through some data in attested usage,
+Let's say that a hypothetical grammarian goes through some data in attested usage,
 and he finds surface speech samples like the following:
 
 (@) [قَرَأَ زَيْدٌ]{.ar}  
@@ -944,13 +957,15 @@ is a preposition before the i-state noun
 
 We will see more examples of virtual modeling for the a-state stateful verb in chapter\ (ref), if Allāh wills.
 
-#### The virtual model of the warning
+#### A virtual model of a warning statement
+
+[إِيَّانَ وَالشَّرَّ]{.ar}
 
 [[شرج ابن عثيمين]{.ar} 59/4](https://shamela.ws/book/36954/636)
 
 ### Some aspects regarding virtual modeling
 
-#### The virtual model often cannot actually be expressed
+#### The virtual model is not actually uttered
 
 One point to note,
 regarding virtual modeling,
@@ -969,8 +984,9 @@ that elucidates the grammar of the sentence.
 
 Sometimes,
 however,
-a virtual model representation can actually be expressed,
-for the same or similar meaning.
+a virtual model representation is actually correct as surface speech,
+for more-or-less the same,
+or a similar meaning.
 This can be,
 for example,
 when the virtual model restores a word or expression which is implied and was optionally deleted.
