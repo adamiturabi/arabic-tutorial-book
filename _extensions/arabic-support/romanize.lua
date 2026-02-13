@@ -30,6 +30,7 @@ function romanize.RomanizeMapping(text2, is_italic)
   mylcase["I"] = "ī"
   mylcase["U"] = "ū"
   mylcase["="] = "·" -- to insert middot explicitly. middot is automatically inserted before 'h' if digraph_en=true
+  mylcase["-"] = utf8.char(0x2011) -- use no break hyphen
 
   -- upper case mapping. use hash '#' before desired uppercase character
   myucase = {}
