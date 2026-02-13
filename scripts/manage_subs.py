@@ -42,8 +42,8 @@ map_table["qaddar"] = "virtually model"
 map_table["qaddars"] = "virtually models"
 map_table["qaddaring"] = "virtually modeling"
 map_table["qaddared"] = "virtually modeled"
-map_table["Kuf"] = "[#kUf]{.trn2}"
-map_table["Basr"] = "[#baSr]{.trn2}"
+map_table["kufan"] = "[#kUf]{.trn2}an"
+map_table["basran"] = "[#baSr]{.trn2}an"
 
 
 # inna and its sisters
