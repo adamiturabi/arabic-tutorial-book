@@ -20,6 +20,14 @@ Planning
   * static vs dynamic
   * inverted conditional
   * ;ustate; ;mudarie; in ;jawab_shart;
+* isnaad, musnadi ilayh, musnad
+* ;idha;
+  * gov
+    * also requires verbal sentences in the shart and jawab,
+    * verbs are usually idha qatala qatala
+    * can also be yaqtulu (ustate)
+    * unlike ;in;, idha does not govern the verbs. Rather verb in jawab governs idha
+
 
 
 ## The ;arch; ;j_sh; with ;in;
@@ -157,3 +165,183 @@ Here is an example:
 The government of the elements of the ;arch; conditional sentence.
 
 No tense, but will be discussed more in section\ (ref)
+
+## The ;j_sh; with ;idha;
+
+### The original temporal signification of ;idha;
+
+;idha; "[when]{.trans}"
+is a noun which originally has a
+temporal (time) signification
+rather than a conditional signification.^[@peled_cst@ 24 citing [@sibawayhi@ 3/60](https://shamela.ws/book/23018/913#p1); [@muqtadab@ 2/55-56](https://shamela.ws/book/6965/324#p1)]
+For example,
+
+(@) [آتِيكَ إِذَا احْمَرَّ الْبُسْرُ]{.ar}
+    [[@sibawayhi@ 3/60](https://shamela.ws/book/23018/913#p1)]{.citex}  
+    [I will come to you when the unripe dates redden]{.trans}
+
+In example () above,
+the
+;ustate; ;mudarie; verb
+[آتِي]{.ar}
+signifies its usual imperfect aspect
+[I come/will come]{.trans}.
+This is because example () is technically not a ;j_sh;.
+;idha; signifies
+"[when]{.trans}", not as a condition which may or may not occur,
+but as an event which is expected to occur.
+
+
+;idha; is in the ;astate; as a ;dharf_makan;.
+It is governed by the verb [آتِي]{.ar}.
+;idha; is also a ;mudaf;
+to the following ;j_f3l;
+[احْمَرَّ الْبُسْرُ]{.ar}.
+<!--
+A word-for-word translation that indicates this government is:
+[I will come to you **at the time of when** the unripe dates redden]{.trans}
+-->
+The government of example () above is depicted in @fig-aatika_idha_hmarra_lbusr.
+
+::: {#fig-aatika_idha_hmarra_lbusr .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{الْبُسْرُ} \txarb{احْمَرَّ} \txarb{إِذَا} \txarb{آتِيكَ},
+  text effects/.cd, 
+    path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+%\draw [decoration={brace, mirror}, decorate] 
+%   (word-5.south west) -- (word-5.south east)
+%      node [midway, below, text centered,text width=1cm, xshift=10pt, yshift=-5pt] {\scriptsize conditional particle};
+%\draw [decoration={brace, mirror}, decorate] 
+%   (word-3.south west) -- (word-5.south east)
+%      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;shart;};
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-2.north east)
+      node [midway, above] {};
+
+\draw[->,decorate] ([xshift=3pt] word-4.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=2pt] word-3.north);
+\draw[->,decorate] ([xshift=-2pt] word-3.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize i} ([xshift=-13pt,yshift=4pt] word-2.north);
+
+%\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read the small books.''};
+
+\end{tikzpicture}
+
+```
+:::
+
+;idha; usually indicates a future time.
+;idha; is also most commonly followed by a ;madi; verb
+in its ;mudafil;,
+(like [احْمَرَّ]{.ar} in example () above).
+But because of the future signification of ;idha; the ;madi; verb will (usually) give a future meaning:
+[when the unripe dates [**will**] redden]{.trans}.
+
+The past tense equivalent of example () above is:
+
+(@) [أَتَيْتُكَ إِذْ احْمَرَّ الْبُسْرُ]{.ar}  
+    [I **came** to you when the unripe dates **reddened**]{.trans}
+
+The ;dharf_makan;
+;idh;
+usually indicates a past time just like
+;idha; usually indicates a future time.
+
+### Conditional signification of ;idha;
+
+Example () above can be transformed into a ;j_sh;.
+This is done by taking ;idha; and its ;mudafil;
+[احْمَرَّ الْبُسْرُ]{.ar},
+and putting them in the front of
+the sentence,
+<!--
+the ;j_f3l;
+[آتِيكَ]{.ar},
+-->
+thus:
+
+(@) [إِذَا احْمَرَّ الْبُسْرُ أَتَيْتُكَ]{.ar}  
+    [When the unripe dates redden, I will come to you.]{.trans}
+
+Note that we have also replaced the ;mudarie; verb
+[آتِي]{.ar}
+with the ;madi; verb
+[أَتَيْتُ]{.ar}.
+This is because when ;idha; is a ;adat_shart; in a ;j_sh;,
+then, like ;in;,
+it requires ;j_f3l;s in both the ;shart; and the ;jawab_shart;.
+But whereas ;in; allows both (;0state;) ;mudarie; verbs and ;madi; verbs,
+;idha; strongly prefers ;madi; verbs in both clauses.
+Because of the typical future signification of ;idha;,
+both ;madi; verbs will usually have a future meaning.
+
+Also unlike ;in;, 
+even when ;idha; is a ;adat_shart;,
+it does not (directly) govern either of the verbs in the ;shart; or the ;jawab_shart;.
+Rather, ;idha; governs entire ;j_f3l; in the ;shart; in an ;idaafah;.
+And ;idha; itself is governed by the verb in the ;jawab_shart;.^[Some grammarians disagreed. Give Abu Hayyan's opinion.]
+@fig-idha_hmarra_lbusru_ataytuka
+depicts the government of example ().
+
+::: {#fig-idha_hmarra_lbusru_ataytuka .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{أَتَيْتُكَ} \txarb{الْبُسْرُ} \txarb{احْمَرَّ} \txarb{إِذَا},
+  text effects/.cd, 
+    path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+%\draw [decoration={brace, mirror}, decorate] 
+%   (word-5.south west) -- (word-5.south east)
+%      node [midway, below, text centered,text width=1cm, xshift=10pt, yshift=-5pt] {\scriptsize conditional particle};
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-4.south east)
+      node [midway, below, text centered,text width=1cm, xshift=5pt, yshift=-5pt] {\scriptsize ;shart;};
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below, text centered,text width=1cm, xshift=-5pt, yshift=-5pt] {\scriptsize ;jawab_shart;};
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-3.north east)
+      node [midway, above] {};
+
+\draw[->,decorate] ([xshift=3pt] word-1.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=2pt] word-4.north);
+\draw[->,decorate] ([xshift=-2pt] word-4.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize i} ([xshift=-13pt,yshift=4pt] word-3.north);
+
+%\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read the small books.''};
+
+\end{tikzpicture}
+
+```
+:::
+
+### ;mudarie; verbs in ;idha; ;j_sh;
+
+peled citing reckendorf, wright
+
+(@) [آتيك إذا زالت الشمس]{.ar}
+    [qazwini]{.citex}
+
+(@) [وإذا تتلى ]{.ar}
+    [;quran;]{.citex}
+
+### Certainty of the event indicated by ;idha;
+
+### ;idha; indicating a past time
+
+
+
+;idha; usually indicates a future time,
+even when following it is a ;madi; verb, as above.

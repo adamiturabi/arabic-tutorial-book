@@ -62,6 +62,8 @@ map_table["an"] = "[أَنْ]{.ar}"
 map_table["ka_an"] = "[كَأَنْ]{.ar}"
 map_table["lakin"] = "[لَـٰكِنْ]{.ar}"
 map_table["in_nfy"] = "negating-[إِنْ]{.ar}"
+map_table["idha"] = "[إِذَا]{.ar}"
+map_table["idh"] = "[إِذْ]{.ar}"
 
 map_table["kaana"] = "[كَانَ]{.ar}"
 map_table["laysa"] = "[لَيْسَ]{.ar}"
@@ -128,7 +130,7 @@ map_table["ma3toof3"] = "pre-conjunction"
 map_table["3atf_bayan"] = "clarifying follower"
 
 map_table["adat_istifham"] = "question word"
-map_table["adat_shart"] = "condition device"
+map_table["adat_shart"] = "conditional device"
 map_table["af3al"] = "comparative noun"
 map_table["af3aal_quloob"] = "verbs of perception"
 
@@ -163,7 +165,7 @@ map_table["isnaad_comp"] = "structurally complete"
 
 map_table["jamid"] = "primitive"
 map_table["jawab"] = "consequence"
-map_table["jawab_shart"] = "consequence-clause" # outcome, result, consequence
+map_table["jawab_shart"] = "consequence" # outcome, result, consequence
 map_table["j_sh"] = "conditional sentence"
 map_table["j_ism"] = "nounal sentence"
 map_table["j_f3l"] = "verbal sentence"
@@ -220,7 +222,7 @@ map_table["sifah"] = "adjectival noun"
 map_table["sifah_mush"] = "participle-like adjective" # {"participlish adjectival noun", nil} # "participle-like"?
 map_table["sighah_mub"] = "emphatic noun" # {"participlish adjectival noun", nil} # "participle-like"?
 map_table["silah"] = "connecting sentence"
-map_table["shart"] = "condition-clause" # condition
+map_table["shart"] = "condition" # condition
 map_table["shibh_fi3l"] = "quasi-verb"
 map_table["shibh_jumlah"] = "quasi-sentence"
 map_table["shibh_jumlah"] = "quasi-sentence"
