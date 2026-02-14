@@ -128,6 +128,7 @@ map_table["ma3toof3"] = "pre-conjunction"
 map_table["3atf_bayan"] = "clarifying follower"
 
 map_table["adat_istifham"] = "question word"
+map_table["adat_shart"] = "condition device"
 map_table["af3al"] = "comparative noun"
 map_table["af3aal_quloob"] = "verbs of perception"
 
