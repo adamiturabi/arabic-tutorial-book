@@ -167,11 +167,15 @@ map_table["ism_zaman"] = "noun of time"
 map_table["isnaad_comp"] = "structurally complete"
 
 map_table["jamid"] = "primitive"
+
+map_table["j_sh"] = "conditional sentence"
 map_table["shart"] = "condition clause" # condition
 map_table["adat_shart"] = "conditional device"
 map_table["jawab"] = "response"
 map_table["jawab_shart"] = "condition-response clause" # outcome, result, consequence, condition-response, response-to-the-condition
-map_table["j_sh"] = "conditional sentence"
+map_table["fi3l_shart"] = "condition verb"
+map_table["fi3l_jawab_shart"] = "condition-response verb"
+
 map_table["j_ism"] = "nounal sentence"
 map_table["j_f3l"] = "verbal sentence"
 
