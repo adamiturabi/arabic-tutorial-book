@@ -28,7 +28,91 @@ Planning
     * can also be yaqtulu (ustate)
     * unlike ;in;, idha does not govern the verbs. Rather verb in jawab governs idha
 
+---
 
+A ;j_sh; is a special sentence, which consists of two parts:
+
+1. A ;shart;.
+2. A ;jawab_shart;.
+
+Here is an example of a ;j_sh;:
+
+(@) [If you honor me, I will honor you.]{.trans}
+
+@fig-cst_eng_ex1 shows the two parts of ;j_sh;.
+
+::: {#fig-cst_eng_ex1 .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=If you honor me I will honor you.,
+  text effects/.cd, 
+    path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-4.south east)
+      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;shart;};
+\draw [decoration={brace, mirror}, decorate] 
+   (word-5.south west) -- (word-8.south east)
+      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;jawab_shart;};
+
+\end{tikzpicture}
+```
+The two parts of a ;j_sh;.
+:::
+
+<!--
+A ;j_sh; is introduced by a ;adat_shart;, like "[if]{.trans}" in the example above.
+Another common ;adat_shart; is "[when]{.trans}".
+For example:
+-->
+Here is another example of a ;j_sh;:
+
+(@) [When the sun rises, the day begins.]{.trans}
+
+Typically,
+the statement in ;jawab_shart;
+is caused by the realization of the statement in the ;shart;.
+So, in example () above,
+my honoring you is caused by,
+and dependent on,
+your honoring me.
+And in example (), the day's beginning is caused by the rising of the sun.
+
+However, the statement in the ;jawab_shart; need not always be caused by the condition.^[[@nahw_wafi@ 4/422 footnote 1](https://shamela.ws/book/10641/2354)]
+For example:
+
+(@) [If you honor me, then I already honored you yesterday.]{.trans}
+
+In example (), the ;jawab_shart;
+[then I had already honored you yesterday]{.trans}
+is not caused by the realization of the condition
+[if you honor me]{.trans}.
+Rather it is only a response that completes the sentence.
+
+#;j_sh;s in Arabic are introduced by _;adat_shart;s_ like:
+;in; [if]{.trans},
+;law; [if]{.trans},
+;idha; [when]{.trans},
+;man; [who(ever)]{.trans},
+;maa; [what(ever)]{.trans},
+etc.
+
+Amongst these ;adat_shart;s,
+;in; is considered the most basic ;adat_shart;.^[[@ibn_ya3ish_mufassal@ 5/106](https://shamela.ws/book/13301/2044)]
+It is used to form the _;arch;_ ;j_sh;.
+Other types of ;j_sh; are formed based on the
+model of
+;arch; ;j_sh; with ;in;.
+We will study 
+;in;
+first.
 
 ## The ;arch; ;j_sh; with ;in;
 
@@ -37,8 +121,10 @@ Planning
 In its ;arch; form,
 the ;j_sh; consists of two parts:
 
- i. a ;shart;, consisting of a ;adat_shart; and ;j_f3l; with a ;0state; ;mudarie; verb, and
-ii. a ;jawab_shart;, consisting of a ;j_f3l; with a ;0state; ;mudarie; verb.
+1. a ;shart;, consisting of:
+   a. the ;adat_shart; ;in;, and 
+   b. a ;j_f3l; with a ;0state; ;mudarie; verb.
+2. a ;jawab_shart;, consisting of a ;j_f3l; with a ;0state; ;mudarie; verb.
 
 <!--
 In this ;arch; form of the ;j_sh;,
