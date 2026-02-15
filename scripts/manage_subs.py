@@ -79,7 +79,8 @@ map_table["g_3aaqil"] = "non-intelligent being"  # propped-state
 map_table["ustate"] = "u-state"   # raised-state"
 map_table["astate"] = "a-state"  # propped-state
 map_table["istate"] = "i-state"  # lowered-state
-map_table["0state"] = "0-state"  # clipped-state
+map_table["0"] = "ø"  # clipped-state
+map_table["0state"] = map_table["0"] + "-state"  # clipped-state
 
 # diacritics
 map_table["amark"] = "[fatHah]{.trn2}"

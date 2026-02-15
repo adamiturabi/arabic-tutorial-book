@@ -176,8 +176,8 @@ in the ;0state;.
    (word-1.south west) -- (word-2.south east)
       node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;jawab_shart;};
 
-\draw[->,decorate] ([xshift=2pt] word-5.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize 0} ([xshift=4pt,yshift=4pt] word-4.north);
-\draw[->,decorate] ([xshift=3pt] word-5.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize 0} ([xshift=-4pt] word-2.north east);
+\draw[->,decorate] ([xshift=2pt] word-5.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=4pt,yshift=4pt] word-4.north);
+\draw[->,decorate] ([xshift=3pt] word-5.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=-4pt] word-2.north east);
 \draw[->,decorate] ([xshift=-4pt] word-4.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize u} (word-3.north);
 \draw[->,decorate] ([xshift=5pt] word-2.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize u} ([xshift=0pt] word-1.north);
 \draw[->,decorate] ([xshift=3pt]word-2.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=-9pt] word-2.north);
@@ -264,7 +264,7 @@ For example,
 
 (@) [آتِيكَ إِذَا احْمَرَّ الْبُسْرُ]{.ar}
     [[@sibawayhi@ 3/60](https://shamela.ws/book/23018/913#p1)]{.citex}  
-    [I will come to you when the unripe dates redden]{.trans}
+    [I will come to you when the unripe dates redden.]{.trans}
 
 In example () above,
 the
@@ -332,8 +332,8 @@ But because of the future signification of ;idha; the ;madi; verb will (usually)
 
 The past tense equivalent of example () above is:
 
-(@) [أَتَيْتُكَ إِذْ احْمَرَّ الْبُسْرُ]{.ar}  
-    [I **came** to you when the unripe dates **reddened**]{.trans}
+(@) [أَتَيْتُكَ إِذِ احْمَرَّ الْبُسْرُ]{.ar}  
+    [I **came** to you when the unripe dates **reddened**.]{.trans}
 
 The ;dharf_makan;
 ;idh;
