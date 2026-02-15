@@ -319,11 +319,13 @@ TODO: Meaning of mudarie vs mudari3 from maani_nahw
 
 When either of the ;0state; ;mudarie; verbs
 in the ;shart; or ;jawab_shart; are to be negated,
-then we can use the particle [لَا]{.ar}.
-The particle [لَا]{.ar}
-will not affect the government of the ;mudarie; verbs
-in the ;shart; and the ;jawab_shart;.
-The conditional particle ;in; will continue to govern these verbs in the ;0state;.
+then we have two options:
+
+ i. negate the ;0state; ;mudarie; verb with [لَا]{.ar}
+ii. negate the ;0state; ;mudarie; verb with [لَمْ]{.ar}
+
+Option (i) with [لَا]{.ar} is possibly the more original,
+but it is rarer in usage.^[@peled_cst@]
 Here are some examples:
 
 (@) [إِلَّا تَفۡعَلُوهُ تَكُن فِتۡنَةࣱ فِی ٱلۡأَرۡضِ وَفَسَادࣱ كَبِیرࣱ]{.quran}
@@ -336,18 +338,58 @@ Here are some examples:
 (@) [**إِنْ لَا تَكُنْ** هِنْدٌ بَكَتْهُ فَقَدْ بَكَتْ عَلَيْهِ الثُّرَيَّا]{.ar}
     [@reckendorf_syntax@ 487]{.citex}  
     [If Hind did not weep for him, then the Pleiades have wept over him]{.trans}  
-    (The ;jawab_shart; in this case has a ;madi; verb which will be discussed later.)  
+    (The ;jawab_shart; in this case begins with [فَ]{.ar}. We will discuss this in section\ (ref) below.)  
 
 (@) [اللهُمّ إنْ تَظْهَرْ عَلَيّ هَذِهِ الْعِصَابَةُ يَظْهَرْ الشّرْكُ، وَلَا يَقُمْ لَك دِين]{.ar}
     [[@maghazi_waqidi@ 1/67](https://shamela.ws/book/23680/108) cited by @peled_cst@ 15]{.citex}  
 
-@fig-shart_arch_laa depicts the government of the ;mudarie; verbs in example () above.
+The particle [لَا]{.ar}
+will not affect the government of the ;mudarie; verbs
+in the ;shart; and the ;jawab_shart;.
+The conditional particle ;in; will continue to govern these verbs in the ;0state;.
+@fig-in_laa depicts the government of the ;mudarie; verbs in example () above.
 
+::: {#fig-in_laa .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{نُخْفِهِ} \txarb{لَا} \txarb{الدَّاءَ} \txarb{تَدْفِنُوا} \txarb{إِنْ},
+  text effects/.cd, 
+    path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+%\draw [decoration={brace, mirror}, decorate] 
+%   (word-5.south west) -- (word-5.south east)
+%      node [midway, below, text centered,text width=1cm, xshift=10pt, yshift=-5pt] {\scriptsize conditional particle};
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=1em]word-4.south west) -- (word-4.south east)
+      node [midway, below, text centered,text width=1cm, xshift=0em, yshift=-5pt] {\scriptsize ;fi3l_shart;};
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=0.75em]word-1.south west) -- (word-1.south east)
+      node [midway, below, text centered,text width=1cm, xshift=0em, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
+
+\draw[->,decorate] ([xshift=1pt] word-5.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=0pt,yshift=1pt] word-4.north);
+\draw[->,decorate] ([xshift=2pt] word-5.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=0pt,yshift=1pt] word-1.north);
+
+\end{tikzpicture}
+
+```
+
+:::
+
+
+<!--
 While using [لَا]{.ar},
 as above, to negate the verbs in the ;shart; or ;jawab_shart; is perfectly legitimate,
 it is very rare.
 Instead, the particle [لَمْ]{.ar} is more commonly used.
 We will discuss it in section\ () below, ;ia;.
+-->
 
 ## The ;madi; verb in a ;j_sh;
 
