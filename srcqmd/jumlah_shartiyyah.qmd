@@ -396,11 +396,16 @@ Option (ii) using [لَمْ]{.ar}
 (instead of [لَا]{.ar})
 is by far the more common technique to negate
 the ;fi3l_shart; and the ;fi3l_jawab_shart;.
-As with the ;madi; verb, the meaning of
-;lam; with the ;0state; ;mudarie; verb
-as the ;fi3l_shart; and the ;fi3l_jawab_shart;
+
+When
+;lam; is used to negate
+the ;fi3l_shart; or the ;fi3l_jawab_shart;,
+it retains its future meaning.
 is shifted to the future.
-Here are some examples:
+
+Here are some examples of
+the ;fi3l_shart; and the ;fi3l_jawab_shart;,
+negated with ;lam;:
 
 
 (@) [**إن أتيتني** لم آتك]{.ar}
@@ -411,6 +416,62 @@ Here are some examples:
 
 (@) [إِنِ افْتَرَقْتُمْ **لَمْ تَجْتَمِعُوا** أَبَدًا]{.ar}
     [[@tarikh_tabari@ 4/24](https://shamela.ws/book/9783/1915) cited by @reckendorf_syntax@ 485]{.citex}  
+
+The grammarians differed regarding
+the government of the 
+the ;fi3l_shart; and the ;fi3l_jawab_shart;,
+when negated with ;lam;.
+Some grammarians are of the opinion that,
+;lam; directly governs the ;0state; mudarie verb
+and ;in; governs the ;j_f3l; which contains the ;mudarie; verb.
+This government is depicted in
+@fig-gov_in_lam_a.
+
+::: {#fig-gov_in_lam_a .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{آتِكَ} \txarb{لَمْ} \txarb{تَأْتِنِي} \txarb{لَمْ} \txarb{إِنْ},
+  text effects/.cd, 
+    path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace,raise=2em}, decorate] 
+   (word-1.north west) -- (word-2.north east)
+      node [midway, above] {};
+\draw [decoration={brace,raise=2em}, decorate] 
+   (word-3.north west) -- (word-4.north east)
+      node [midway, above] {};
+
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=1.1em]word-3.south west) -- (word-3.south east)
+      node [midway, below, text centered,text width=1cm, xshift=0em, yshift=-5pt] {\scriptsize ;fi3l_shart;};
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=0.85em]word-1.south west) -- (word-1.south east)
+      node [midway, below, text centered,text width=1cm, xshift=0em, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
+
+\draw[->,decorate] ([xshift=1pt] word-4.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=.5em,yshift=0.3em] word-3.north);
+\draw[->,decorate] ([xshift=1pt] word-2.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=.5em,yshift=0.3em] word-1.north);
+
+\draw[->,decorate] ([xshift=1pt] word-5.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=-1.5em,yshift=2.5em] word-4.north);
+\draw[->,decorate] ([xshift=2pt] word-5.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=1em,yshift=2.5em] word-1.north);
+
+\draw [dashed] ([xshift=-1pt]word-3.north west) -- ([xshift=-1pt,yshift=2em]word-3.north west);
+\draw [dashed] (word-1.north west) -- ([yshift=2em]word-1.north west);
+\draw [dashed] (word-4.north east) -- ([yshift=2em]word-4.north east);
+
+\end{tikzpicture}
+
+```
+
+:::
+
+
 
 TODO: ad gov from wafi and al-sameen al-halabi
 
