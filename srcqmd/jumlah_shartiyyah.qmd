@@ -194,11 +194,11 @@ in the ;0state;.
 \draw [dashed] (word-1.south west) -- ([yshift=-40pt]word-1.south west);
 \draw [dashed] (word-5.south east) -- ([yshift=-40pt]word-5.south east);
 
-\draw[->,decorate] ([xshift=2pt] word-5.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=4pt,yshift=4pt] word-4.north);
-\draw[->,decorate] ([xshift=3pt] word-5.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=-4pt] word-2.north east);
-\draw[->,decorate] ([xshift=-4pt] word-4.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize u} (word-3.north);
-\draw[->,decorate] ([xshift=5pt] word-2.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize u} ([xshift=0pt] word-1.north);
-\draw[->,decorate] ([xshift=3pt]word-2.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=-9pt] word-2.north);
+\draw[->,decorate] ([xshift=2pt] word-5.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=4pt,yshift=4pt] word-4.north);
+\draw[->,decorate] ([xshift=3pt] word-5.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=-4pt] word-2.north east);
+\draw[->,decorate] ([xshift=-4pt] word-4.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize u} (word-3.north);
+\draw[->,decorate] ([xshift=5pt] word-2.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize u} ([xshift=0pt] word-1.north);
+\draw[->,decorate] ([xshift=3pt]word-2.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=-9pt] word-2.north);
 
 \end{tikzpicture}
 
@@ -282,8 +282,8 @@ is itself governed in the ;mahall; ;0state;.^[haazimi]
    ([xshift=1.5em]word-1.south west) -- (word-1.south east)
       node [midway, below, text centered,text width=1cm, xshift=-1.2em, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
 
-\draw[->,decorate] ([xshift=1pt] word-3.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=5pt,yshift=1pt] word-2.north);
-\draw[->,decorate] ([xshift=2pt] word-3.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=5pt,yshift=1pt] word-1.north);
+\draw[->,decorate] ([xshift=1pt] word-3.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=5pt,yshift=1pt] word-2.north);
+\draw[->,decorate] ([xshift=2pt] word-3.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=5pt,yshift=1pt] word-1.north);
 
 \end{tikzpicture}
 
@@ -383,8 +383,8 @@ The conditional particle ;in; will continue to govern these verbs directly in th
    ([xshift=0.75em]word-1.south west) -- (word-1.south east)
       node [midway, below, text centered,text width=1cm, xshift=0em, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
 
-\draw[->,decorate] ([xshift=1pt] word-5.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=0pt,yshift=1pt] word-4.north);
-\draw[->,decorate] ([xshift=2pt] word-5.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=0pt,yshift=1pt] word-1.north);
+\draw[->,decorate] ([xshift=1pt] word-5.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=0pt,yshift=1pt] word-4.north);
+\draw[->,decorate] ([xshift=2pt] word-5.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=0pt,yshift=1pt] word-1.north);
 
 \end{tikzpicture}
 
@@ -408,11 +408,13 @@ the ;fi3l_shart; and the ;fi3l_jawab_shart;,
 negated with ;lam;:
 
 
-(@) [**إن أتيتني** لم آتك]{.ar}
+(@) [إن **أتيتني** لم آتك]{.ar}
     [[@sibawayhi@ 3/91](https://shamela.ws/book/23018/944)]{.citex}  
 
-(@) [**إن لم تأتني** أجزك]{.ar}
+(@) [إن **لم تأتني** أجزك]{.ar}
     [[@sibawayhi@ 3/68](https://shamela.ws/book/23018/921)]{.citex}  
+
+(@) [إن **لم تأتني لم آتك**]{.ar}
 
 (@) [إِنِ افْتَرَقْتُمْ **لَمْ تَجْتَمِعُوا** أَبَدًا]{.ar}
     [[@tarikh_tabari@ 4/24](https://shamela.ws/book/9783/1915) cited by @reckendorf_syntax@ 485]{.citex}  
@@ -421,11 +423,11 @@ The grammarians differed regarding
 the government of the 
 the ;fi3l_shart; and the ;fi3l_jawab_shart;,
 when negated with ;lam;.
-Some grammarians are of the opinion that,
+Some grammarians are of the opinion that
 ;lam; directly governs the ;0state; mudarie verb
-and ;in; governs the ;j_f3l; which contains the ;mudarie; verb.
+while ;in; governs the ;j_f3l;s which contain the ;mudarie; verb.
 This government is depicted in
-@fig-gov_in_lam_a.
+@fig-gov_in_lam_a for example ().
 
 ::: {#fig-gov_in_lam_a .test-class}
 
@@ -471,6 +473,42 @@ This government is depicted in
 
 :::
 
+Other grammarians were of the opinion that ;in; would continue to govern
+the ;fi3l_shart; and the ;fi3l_jawab_shart; directly,
+and that ;lam; has no governing effect in this case.
+This is depicted in
+@fig-gov_in_lam_b for the same example ().
+
+::: {#fig-gov_in_lam_b .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{آتِكَ} \txarb{لَمْ} \txarb{تَأْتِنِي} \txarb{لَمْ} \txarb{إِنْ},
+  text effects/.cd, 
+    path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=1.1em]word-3.south west) -- (word-3.south east)
+      node [midway, below, text centered,text width=1cm, xshift=0em, yshift=-5pt] {\scriptsize ;fi3l_shart;};
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=0.85em]word-1.south west) -- (word-1.south east)
+      node [midway, below, text centered,text width=1cm, xshift=0em, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
+
+\draw[->,decorate] ([xshift=1pt] word-5.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=.25em,yshift=.5em] word-3.north);
+\draw[->,decorate] ([xshift=2pt] word-5.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=0.25em,yshift=.5em] word-1.north);
+
+\end{tikzpicture}
+
+```
+
+:::
 
 
 TODO: ad gov from wafi and al-sameen al-halabi
