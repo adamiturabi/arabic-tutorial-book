@@ -317,15 +317,25 @@ TODO: Meaning of mudarie vs mudari3 from maani_nahw
 
 ### Negating the ;shart; or ;jawab_shart;
 
-When either of the ;0state; ;mudarie; verbs
-in the ;shart; or ;jawab_shart; are to be negated,
+When either of
+the ;fi3l_shart; or the ;fi3l_jawab_shart;
+are to be negated,
 then we have two options:
 
  i. negate the ;0state; ;mudarie; verb with [لَا]{.ar}
 ii. negate the ;0state; ;mudarie; verb with [لَمْ]{.ar}
 
-Option (i) with [لَا]{.ar} is possibly the more original,
-but it is rarer in usage.^[@peled_cst@]
+The ;madi; verb
+(with the negater [مَا]{.ar})
+and the ;astate; ;mudarie; verb (with [لَنْ]{.ar})
+are not used when negating
+the ;fi3l_shart; or the ;fi3l_jawab_shart;.^[@nahw_wafi@]
+(They can however be used when negating a verb
+which is not directly
+the ;fi3l_shart; or the ;fi3l_jawab_shart;, as we will see in section\ (ref), ;ia;.)
+
+Option (i) with [لَا]{.ar} is possibly the more original,^[@peled_cst@ 17]
+but it is rarer in usage.
 Here are some examples:
 
 (@) [إِلَّا تَفۡعَلُوهُ تَكُن فِتۡنَةࣱ فِی ٱلۡأَرۡضِ وَفَسَادࣱ كَبِیرࣱ]{.quran}
@@ -337,17 +347,17 @@ Here are some examples:
 
 (@) [**إِنْ لَا تَكُنْ** هِنْدٌ بَكَتْهُ فَقَدْ بَكَتْ عَلَيْهِ الثُّرَيَّا]{.ar}
     [@reckendorf_syntax@ 487]{.citex}  
-    [If Hind did not weep for him, then the Pleiades have wept over him]{.trans}  
-    (The ;jawab_shart; in this case begins with [فَ]{.ar}. We will discuss this in section\ (ref) below.)  
+    [If Hind did not weep [for] him, then the Pleiades have wept over him]{.trans}  
+    (The ;jawab_shart; in this example begins with [فَ]{.ar}. We will discuss this in section\ (ref) below.)  
 
-(@) [اللهُمّ إنْ تَظْهَرْ عَلَيّ هَذِهِ الْعِصَابَةُ يَظْهَرْ الشّرْكُ، وَلَا يَقُمْ لَك دِين]{.ar}
+(@) [اللهُمّ إنْ تَظْهَرْ عَلَيّ هَذِهِ الْعِصَابَةُ يَظْهَرْ الشّرْكُ، **وَلَا يَقُمْ** لَك دِين]{.ar}
     [[@maghazi_waqidi@ 1/67](https://shamela.ws/book/23680/108) cited by @peled_cst@ 15]{.citex}  
 
 The particle [لَا]{.ar}
-will not affect the government of the ;mudarie; verbs
-in the ;shart; and the ;jawab_shart;.
-The conditional particle ;in; will continue to govern these verbs in the ;0state;.
-@fig-in_laa depicts the government of the ;mudarie; verbs in example () above.
+will not affect the government of
+the ;fi3l_shart; or the ;fi3l_jawab_shart;.
+The conditional particle ;in; will continue to govern these verbs directly in the ;0state;.
+@fig-in_laa depicts the government of the negated ;fi3l_jawab_shart; in example () above.
 
 ::: {#fig-in_laa .test-class}
 
@@ -382,6 +392,10 @@ The conditional particle ;in; will continue to govern these verbs in the ;0state
 
 :::
 
+Option (ii) using [لَمْ]{.ar}
+(instead of [لَا]{.ar})
+is by far the more common technique to negate
+the ;fi3l_shart; and the ;fi3l_jawab_shart;.
 
 <!--
 While using [لَا]{.ar},
