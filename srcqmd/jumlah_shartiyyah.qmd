@@ -91,7 +91,7 @@ For example:
 (@) [If you honor me, then I already honored you yesterday.]{.trans}
 
 In example (), the ;jawab_shart;
-[then I had already honored you yesterday]{.trans}
+[then I already honored you yesterday]{.trans}
 is not caused by the realization of the condition
 [if you honor me]{.trans}.
 Rather it is only a response that completes the sentence.
@@ -181,8 +181,8 @@ in the ;0state;.
    (word-4.south west) -- (word-4.south east)
       node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;fi3l_shart;};
 \draw [decoration={brace, mirror}, decorate] 
-   (word-2.south west) -- (word-2.south east)
-      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
+   ([xshift=6pt]word-2.south west) -- (word-2.south east)
+      node [midway, below, text centered,text width=1cm, xshift=-5pt, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
 \draw [decoration={brace, mirror, raise=40pt}, decorate] 
    (word-3.south west) -- (word-5.south east) coordinate (bbb)
       node [midway, below, text centered,text width=1cm, yshift=-45pt] {\scriptsize ;shart;};
@@ -276,11 +276,11 @@ is itself governed in the ;mahall; ;0state;.^[haazimi]
 %   (word-5.south west) -- (word-5.south east)
 %      node [midway, below, text centered,text width=1cm, xshift=10pt, yshift=-5pt] {\scriptsize conditional particle};
 \draw [decoration={brace, mirror}, decorate] 
-   (word-2.south west) -- (word-2.south east)
-      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;fi3l_shart;};
+   ([xshift=15pt]word-2.south west) -- (word-2.south east)
+      node [midway, below, text centered,text width=1cm, xshift=1em, yshift=-5pt] {\scriptsize ;fi3l_shart;};
 \draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
+   ([xshift=1.5em]word-1.south west) -- (word-1.south east)
+      node [midway, below, text centered,text width=1cm, xshift=-1.2em, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
 
 \draw[->,decorate] ([xshift=1pt] word-3.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=5pt,yshift=1pt] word-2.north);
 \draw[->,decorate] ([xshift=2pt] word-3.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=5pt,yshift=1pt] word-1.north);
