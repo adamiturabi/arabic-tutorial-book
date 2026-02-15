@@ -233,15 +233,87 @@ we can say, any one of:
 
 (@) [إِنْ أَتَيْتَنِي آتِكَ]{.ar}
 
-All four options will have the same meaning:
+In general, all four options will have more-or-less the same meaning:
 [If you come to me, I will come to you.]{.trans}.
 By default,
 the ;adat_shart; ;in; causes the meaning of the ;madi; verb to change into an imperfect (future) meaning.
+
+The relative merits of the above four combinations,
+and their significations will be discussed in section\ (ref) below, ;ia;.
+
+For now, we will discuss only the government of the ;j_sh;s in examples () through ():
+The ;adat_shart; ;in; will continue to govern
+the ;fi3l_shart; and the ;fi3l_jawab_shart; in the ;0state; directly,
+regardless of whether the verbs are ;mudarie; verbs or ;madi; verbs.
+For ;madi; verbs, they will be in the ;0state; ;mahall;ly.^[wafi]
+
+In other words, ;in; does not govern the ;j_f3l;s
+[أَتَيْتَنِي]{.ar}
+and
+[أَتَيْتُكَ]{.ar} in the ;mahall; ;0state;.
+Rather,
+the ;madi; verb
+[أَتَى]{.ar}
+is itself governed in the ;mahall; ;0state;.^[haazimi]
+
+@fig-in_ataytani_ataytuka depicts the government of example ().
+
+::: {#fig-in_ataytani_ataytuka .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{أَتَيْتُكَ} \txarb{أَتَيْتَنِي} \txarb{إِنْ},
+  text effects/.cd, 
+    path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+%\draw [decoration={brace, mirror}, decorate] 
+%   (word-5.south west) -- (word-5.south east)
+%      node [midway, below, text centered,text width=1cm, xshift=10pt, yshift=-5pt] {\scriptsize conditional particle};
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-2.south east)
+      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;fi3l_shart;};
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
+
+\draw[->,decorate] ([xshift=1pt] word-3.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=5pt,yshift=1pt] word-2.north);
+\draw[->,decorate] ([xshift=2pt] word-3.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=5pt,yshift=1pt] word-1.north);
+
+\end{tikzpicture}
+
+```
+
+:::
+
+
+
+
+<!--
 In section\ (ref), we will see how a past tense can be explicitly specified in the ;shart; or ;jawab_shart; if needed.
+
 Of the four combinations in examples () through () above,
 examples () and () are the strongest in their composition because they display a symmetry
 between the ;fi3l_shart; and the ;fi3l_jawab_shart;.
-Here are some examples from ;samaa3;:
+The combination in example ()
+of a ;madi; ;fi3l_shart; and a ;mudarie; ;fi3l_jawab_shart; is also fairly common.
+The combination in example ()
+of a ;mudarie; ;fi3l_shart; and a ;madi; ;fi3l_jawab_shart;
+is weakest in its composition and is least commonly used.
+
+It is, nevertheless, used occasionally.
+For example:
+
+(@) [مَنْ يَقُمْ لَيْلَةَ الْقَدْرِ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ]{.ar}
+    [@https://sunnah.com/bukhari:35@]{.citex}  
+
+TODO: Meaning of mudarie vs mudari3 from maani_nahw
+-->
 
 ### Negating the ;shart; or ;jawab_shart;
 
@@ -293,6 +365,13 @@ The government of the elements of the ;arch; conditional sentence.
 
 No tense, but will be discussed more in section\ (ref)
 
+### Tense
+
+فإن قيل: فإنّهم يقولون:"إن كنتَ زُرْتَنِي أمسِ أكرمتُك اليومَ"، وقد وقع بعد "إن" الفعلُ، ومعناه المضيُّ، ومنه قوله تعالى: {إِنْ كُنْتُ قُلْتُهُ فَقَدْ عَلِمْتَهُ} (١)، قيل: قد أجاب عن ذلك المبرد، وقال: إنّما ساغ ذلك في "كانَ" لقوّة دلالتها على المضيّ، وأنّها أصلُ الأفعال وعبارتُها، فجاز لذلك أن تقلب في الدلالة "إنْ". ولذلك لا يقع شيءٌ من الأفعال غيرُ "كان" بعد "إن"، إلَّا ومعناه المضارعُ. وقال ابن السرّاج: هو على تأويلِ: "إن أكُنْ كنتُ قُلْتُه"، وكذلك ما كان مثله.
+
+<https://shamela.ws/book/13301/2044>
+
+
 ## The ;j_sh; with ;idha;
 
 ### The original temporal signification of ;idha;
@@ -321,8 +400,9 @@ but as an event which is expected to occur.
 
 ;idha; is in the ;astate; as a ;dharf_makan;.
 It is governed by the verb [آتِي]{.ar}.
-;idha; is also a ;mudaf;
-to the following ;j_f3l;
+;idha; is also a ;mudaf;.
+Its (;mahall;) ;mudafil; is
+the following ;j_f3l;
 [احْمَرَّ الْبُسْرُ]{.ar}.
 <!--
 A word-for-word translation that indicates this government is:
@@ -366,7 +446,7 @@ The government of example () above is depicted in @fig-aatika_idha_hmarra_lbusr.
 
 ;idha; usually indicates a future time.
 ;idha; is also most commonly followed by a ;madi; verb
-in its ;mudafil;,
+in its ;mahall; ;mudafil;,
 (like [احْمَرَّ]{.ar} in example () above).
 But because of the future signification of ;idha; the ;madi; verb will (usually) give a future meaning:
 [when the unripe dates [**will**] redden]{.trans}.
@@ -384,7 +464,7 @@ usually indicates a past time just like
 ### Conditional signification of ;idha;
 
 Example () above can be transformed into a ;j_sh;.
-This is done by taking ;idha; and its ;mudafil;
+This is done by taking ;idha; and its ;mahall; ;mudafil;
 [احْمَرَّ الْبُسْرُ]{.ar},
 and putting them in the front of
 the sentence,
