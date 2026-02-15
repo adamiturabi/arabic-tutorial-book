@@ -400,8 +400,7 @@ the ;fi3l_shart; and the ;fi3l_jawab_shart;.
 When
 ;lam; is used to negate
 the ;fi3l_shart; or the ;fi3l_jawab_shart;,
-it retains its future meaning.
-is shifted to the future.
+the verb retains its future meaning.
 
 Here are some examples of
 the ;fi3l_shart; and the ;fi3l_jawab_shart;,
@@ -422,7 +421,7 @@ negated with ;lam;:
 The grammarians differed regarding
 the government of the 
 the ;fi3l_shart; and the ;fi3l_jawab_shart;,
-when negated with ;lam;.
+when negated with ;lam;.^[@nahw_wafi@]
 Some grammarians are of the opinion that
 ;lam; directly governs the ;0state; mudarie verb
 while ;in; governs the ;j_f3l;s which contain the ;mudarie; verb.
@@ -510,34 +509,156 @@ This is depicted in
 
 :::
 
+### The ;jawab_shart; that begins with [فَ]{.ar}
 
-TODO: ad gov from wafi and al-sameen al-halabi
+[Maybe make it a top level section after idha?]
 
-<!--
-While using [لَا]{.ar},
-as above, to negate the verbs in the ;shart; or ;jawab_shart; is perfectly legitimate,
-it is very rare.
-Instead, the particle [لَمْ]{.ar} is more commonly used.
-We will discuss it in section\ () below, ;ia;.
--->
+So far, we have studied
 
-## The ;madi; verb in a ;j_sh;
+### The inverted conditional sentence
 
-A ;j_sh; with the conditional particle ;in; governing a
-;0state; ;mudarie; verb in both the ;shart; and the ;jawab_shart; is the ;arch; form of the ;j_sh;,
-as we have mentioned above.
-But the ;j_sh; has other other forms as well.
-One such form is where a ;madi; verb is used instead of one, or both, of the ;0state; ;mudarie;
-verbs.
-Here is an example:
+[@nahw_wafi@ 4/450-451 (footnote); @peled_cst@ 139--140; @ibn_ya3ish_mufassal@ 5/118]
+
+Oftentimes,
+we come across an _inverted_ conditional sentence,
+where what seems to be the ;jawab_shart; comes before the ;shart;.
+For example:
+
+(@) [آتِيكَ إِنْ أَتَيْتَنِى]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
+    [I will come to you if you come to me.]{.trans}  
+
+In example () above, it would seem that
+[آتِيكَ]{.ar}
+is the ;jawab_shart;
+and
+[إِنْ أَتَيْتَنِى]{.ar}
+is the ;shart;.
+
+But actually,
+the mainstream view amongst the grammarians is that
+[آتِيكَ]{.ar}
+cannot be a ;jawab_shart; because the
+;jawab_shart; is not allowed to precede the ;shart;.
+
+This view is supported by the fact that the
+verb in
+[آتِيكَ]{.ar}
+is in the ;ustate;.
+If it were a ;fi3l_jawab_shart; then it would be in the ;0state;, thus:
+[آتِكَ]{.ar}.
+But
+a ;0state; ;mudarie; verb in the beginning of sentence,
+followed by a ;shart; is not a correctly formed sentence.
+So we cannot say, for example:
+
+(@) ;x; [آتِكَ إِنْ أَتَيْتَنِى]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
+
+The way the grammarians solve this problem is by analyzing
+[آتِيكَ]{.ar}
+as an independent sentence
+that is
+;isnaad_comp;.
+[إِنْ أَتَيْتَنِى]{.ar}
+is considered to be a ;shart;,
+but one whose ;jawab_shart; has been (mandatorily) deleted.
+The ;taqdir; of the deleted ;jawab_shart; is 
+[آتِكَ]{.ar}.
+This rendition of the ;taqdir; is suggested by the preceding independent sentence
+[آتِيكَ]{.ar}.
+
+One opinion,
+regarding the government of the ;j_sh;,
+is that
+[إِنْ أَتَيْتَنِى]{.ar}
+(and its ;qaddared; ;jawab_shart;
+[آتِكَ]{.ar})
+is attached to (i.e. governed by) the verb in
+[آتِيكَ]{.ar}
+in much the same way as an ;dharf; or preposition would be in,
+for example:
+
+(@) [آتيك يومَ الجمعة]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
+    [I will come to you the day of Friday.]{.trans}  
+
+@fig-inverted_shart depicts this theorized government of example ().
+
+::: {#fig-inverted_shart .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{[آتِكَ]} \txarb{أَتَيْتَنِي} \txarb{إِنْ} \txarb{آتِيكَ},
+  text effects/.cd, 
+    path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
 
 
+\draw [decoration={brace,raise=2.3em}, decorate] 
+   (word-1.north west) -- (word-3.north east)
+      node [midway, above] {};
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=1.5em]word-2.south west) -- (word-2.south east)
+      node [midway, below, text centered,text width=1cm, xshift=0.2em, yshift=-5pt] {\scriptsize ;fi3l_shart;};
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=1.1em]word-1.south west) -- (word-1.south east)
+      node [midway, below, text centered,text width=1cm, xshift=-0.2em, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
 
-The government of the elements of the ;arch; conditional sentence.
+\draw[->,decorate] ([xshift=1pt] word-3.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=.25em,yshift=.5em] word-2.north);
+\draw[->,decorate] ([xshift=2pt] word-3.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=0.25em,yshift=.5em] word-1.north);
+\draw[->,decorate] ([xshift=2pt] word-4.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize [a]} ([xshift=2.4em,yshift=2.7em] word-1.north);
 
-No tense, but will be discussed more in section\ (ref)
+\draw [dashed] (word-1.north west) -- ([yshift=2.3em]word-1.north west);
+\draw [dashed] (word-3.north east) -- ([yshift=2.3em]word-3.north east);
+\end{tikzpicture}
+
+```
+
+:::
+
+Having said all the above,
+there is no problem if we refer to such a sentence,
+loosely speaking and for convenience,
+as an inverted ;j_sh;.^[@nahw_wafi@ citing @sibawayhi@]
+As long as we understand that the true ;jawab_shart; is deleted and ;qaddared; after the ;shart; in sentence word order.
+
+Here are some more examples of inverted ;j_sh;s:
+
+
+(@) [أًحْسِنُ إليك إن أكرمتَنى]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
+    [I will be good to you if you honor me.]{.trans}  
+
+(@) [أنتِ طالقٌ إن دخلتِ الدارَ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
+    [You~f~ are divorced if you enter the house.]{.trans}  
+
+(@) [أنا ظالمٌ إن فعلتُ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
+    [I [will be] a wrongdoer if I did [some action].]{.trans}  
+
+TODO: ;fi3l_shart; is preferred to be ;madi; or with ;lam;, not positive ;0state; ;mudarie;
+
+::: {.ar}
+واعلم أنّه لا يحسن أن تقول: "آتيك إن تأتني" ؛ لأنك جزمت بـ "إن" . وإذا أعملتها، لم يكن بدٌّ من الجواب، ولم تأتِ بجواب، ولو قلت. "أتيتك إن أتيتني" ، جاز؛ لأن حرف الشرط لم يجزم فساغ أن لا تأتي بجواب
+:::
+
+
+### A ;ustate; ;mudarie; ;fi3l_jawab_shart;
+
+[@nahw_wafi@ 4/475--476 (footnotes)]
 
 ### Tense
+
+[Maybe make it a top level section after idha?]
+
+[Has to be after MSC because [in kaana qad qatala]{.trans} has to be followed by fa]
 
 فإن قيل: فإنّهم يقولون:"إن كنتَ زُرْتَنِي أمسِ أكرمتُك اليومَ"، وقد وقع بعد "إن" الفعلُ، ومعناه المضيُّ، ومنه قوله تعالى: {إِنْ كُنْتُ قُلْتُهُ فَقَدْ عَلِمْتَهُ} (١)، قيل: قد أجاب عن ذلك المبرد، وقال: إنّما ساغ ذلك في "كانَ" لقوّة دلالتها على المضيّ، وأنّها أصلُ الأفعال وعبارتُها، فجاز لذلك أن تقلب في الدلالة "إنْ". ولذلك لا يقع شيءٌ من الأفعال غيرُ "كان" بعد "إن"، إلَّا ومعناه المضارعُ. وقال ابن السرّاج: هو على تأويلِ: "إن أكُنْ كنتُ قُلْتُه"، وكذلك ما كان مثله.
 
@@ -606,8 +727,8 @@ The government of example () above is depicted in @fig-aatika_idha_hmarra_lbusr.
    (word-1.north west) -- (word-2.north east)
       node [midway, above] {};
 
-\draw[->,decorate] ([xshift=3pt] word-4.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=2pt] word-3.north);
-\draw[->,decorate] ([xshift=-2pt] word-3.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize i} ([xshift=-13pt,yshift=4pt] word-2.north);
+\draw[->,decorate] ([xshift=3pt] word-4.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=2pt] word-3.north);
+\draw[->,decorate] ([xshift=-2pt] word-3.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize i} ([xshift=-13pt,yshift=4pt] word-2.north);
 
 %\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read the small books.''};
 
@@ -696,8 +817,8 @@ depicts the government of example ().
    (word-2.north west) -- (word-3.north east)
       node [midway, above] {};
 
-\draw[->,decorate] ([xshift=3pt] word-1.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=2pt] word-4.north);
-\draw[->,decorate] ([xshift=-2pt] word-4.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize i} ([xshift=-13pt,yshift=4pt] word-3.north);
+\draw[->,decorate] ([xshift=3pt] word-1.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=2pt] word-4.north);
+\draw[->,decorate] ([xshift=-2pt] word-4.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize i} ([xshift=-13pt,yshift=4pt] word-3.north);
 
 %\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read the small books.''};
 
