@@ -144,7 +144,7 @@ governs the ;fi3l_shart; and the ;fi3l_jawab_shart; in the ;0state;.^[@peled_cst
 Here is an example of an ;arch; ;j_sh;
 
 (@) [إِنْ يَأْتِ زَيْدٌ يُكْرِمْهُ عَمْرٌو]{.ar}  
-    [If Zayd comes, ;3amr; will honor him.]{.trans}  
+    [If Zayd would come, ;3amr; would honor him.]{.trans}  
 
 <!--
 In example () above,
@@ -215,11 +215,11 @@ Here are some more examples of the archetypal conditional sentence:
 
 (@) [إِنْ تَأْتِنِي آتِكَ]{.ar}
     [[@sibawayhi@ 3/63](https://shamela.ws/book/23018/916)]{.citex}  
-    [If you come to me, I will come to you.]{.trans}
+    [If you would come to me, I would come to you.]{.trans}
 
 (@) [وإن تضرب أضرب]{.ar}
     [[@sibawayhi@ 3/63](https://shamela.ws/book/23018/916)]{.citex}  
-    [If you beat, I will beat.]{.trans}
+    [If you would beat, I would beat.]{.trans}
 
 ### The ;madi; verb with ;in;
 
@@ -847,6 +847,16 @@ Here are some more examples of inverted ;j_sh;s:
     [[@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
     [I [will be] a wrongdoer if I did [some action].]{.trans}  
 
+
+In examples () and () above,
+the "inverted" ;jawab_shart;s
+are ;j_ism;s
+([أَنْتِ طَالِقٌ]{.ar}
+and
+[أَنَا ظَالِمٌ]{.ar})
+, not ;j_f3l;s.
+We will discuss such ;jawab_shart;s in section\ (ref), ;ia;.
+
 [find [إن شئت]{.ar} at the end of a sentence in hadith]
 
 <!--
@@ -855,8 +865,9 @@ Here are some more examples of inverted ;j_sh;s:
 -->
 
 
-Note that all the examples that we have given so far
+Note that all the examples
 of inverted ;j_sh;s,
+that we have given so far
 have
 [;_in; ;_qatala;]{.ar}
 in the ;shart;
@@ -897,7 +908,10 @@ because it is the negative counterpart to
 [;_in; ;_qatala;]{.ar}.
 For example,
 
-[TODO: find example]
+(@) [وَاعْلَمِي أَنِّي امْرُؤٌ سَأَمُوتُ إنْ لَمْ أُقْتَلِ]{.ar}
+    [@reckendorf_syntax@ 488]{.citex}  
+    [Know that I am a person-- I will die if I am not killed.]{.trans}  
+
 
 ---
 
@@ -919,7 +933,71 @@ next couple of pages also good
 
 ### A ;ustate; ;mudarie; ;fi3l_jawab_shart;
 
-[@nahw_wafi@ 4/475--476 (footnotes)]
+
+Occassionally we see a ;j_sh;
+of the form
+[;_in; ;_qatala; ;_yaqtulu;]{.ar}.
+That is, a ;mudarie; ;fi3l_jawab_shart; is in the ;ustate;,
+not the ;0state;.
+For example:
+
+(@) [إن أتيتني آتيك]{.ar}
+    [[@sibawayhi@ 3/66](https://shamela.ws/book/23018/919#p1)]{.citex}  
+    [If you come to me, I come to you.]{.trans}  
+
+This structure again requires ;taqdiring; to analyze it.
+This is
+because the underlying principle that the grammarians have theorized
+for the ;j_sh;,
+is that
+the ;adat_shart; ;in;
+governs
+both the ;fi3l_shart;
+and the ;fi3l_jawab_shart;
+in the ;0state;.
+The way the grammarians work around this problem is by modeling example ()
+to originally be an inverted ;j_sh;, thus:
+
+(@) [آتيك إن أتيتني [آتك]]{.ar}  
+    [I come to you if you come to me [I come to you].]{.trans}  
+
+Once the original ;jawab_shart;
+[آتِكَ]{.ar}
+is deleted,
+then the independent sentence
+[آتِيكَ]{.ar}
+is (optionally)
+moved to after the ;shart; to take the place of
+the original ;jawab_shart;
+[آتِكَ]{.ar}.^[@nahw_wafi@ 4/475--476 (footnotes)]
+
+Here are some more examples of this kind of ;j_sh;:
+
+(@) [**وإن أتاه** خليلٌ يومَ مسألةٍ ... **يقولُ** لا غائبٌ مالي ولا حَرِمُ]{.ar}
+    [[@sibawayhi@ 3/66](https://shamela.ws/book/23018/919#p1)]{.citex}  
+    [And if a friend came to him on a day of asking, he says, "My wealth is neither absent nor denied."]{.trans}
+
+(@) [قَالَتِ اللَّهُمَّ **إِنْ يَمُتْ يُقَالُ** هِيَ قَتَلَتْهُ]{.ar}
+    [@https://sunnah.com/bukhari:2217@ cited by @peled_cst@ 17]{.citex}  
+    [She said, "O ;Allah; if he should die, it will be said, 'She killed him.'"]{.trans}  
+
+
+Note again,
+that the ;fi3l_shart; in these examples has been ;qatala;,
+not ;yaqtul;.
+This is again consistent
+with what we mentioned in sections\ (ref) and (ref),
+that when the ;fi3l_shart; is ;yaqtul;
+then it prefers the presence of another ;yaqtul; as the ;fi3l_jawab_shart;.
+
+Having said that,
+a ;j_sh; of the form
+[;_in; ;_yaqtul; ;_yaqtulu;]{.ar}
+is found on occasion, often by poetic license.^[[@sibawayhi@ 3/67](https://shamela.ws/book/23018/920#p1)]
+
+(@) [يا أَقْرَعُ بنَ حابسٍ يا أَقْرَعُ ... إنَّك **إن يُصْرَعْ أخوك تُصْرَعُ**]{.ar}
+    [[@sibawayhi@ 3/67](https://shamela.ws/book/23018/920#p1)]{.citex}  
+    [O [#aqrae]{.trn2} son of [#HAbis]{.trn2}, O [#aqrae]{.trn2}! Indeed if your brother would be thrown down, you are being thrown down.]{.trans}  
 
 ### Tense
 
@@ -1238,6 +1316,12 @@ to say:
 then the ;madi;
 
 -->
+
+## ;kaana; as the ;fi3l_shart;
+
+;j_ism;
+
+explicit past tense
 
 ## The tense signified by the ;j_sh;
 
