@@ -783,6 +783,13 @@ For example, in:
 
 @fig-inverted_shart depicts this theorized government of example ().
 
+TODO: think about if ;in; itself should be governed by ;yaqtulu; and not the entire ;j_sh;.
+Then it will be more in line with prepositions.
+But then how about sentences like
+[اضرب مَنْ يقُمْ]{.ar},
+if indeed they are valid?
+
+
 ::: {#fig-inverted_shart .test-class}
 
 ```{.tikz}
@@ -810,7 +817,7 @@ For example, in:
 
 \draw[->,decorate] ([xshift=1pt] word-3.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=.25em,yshift=.5em] word-2.north);
 \draw[->,decorate] ([xshift=2pt] word-3.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=0.25em,yshift=.5em] word-1.north);
-\draw[->,decorate] ([xshift=2pt] word-4.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize [a]} ([xshift=2.4em,yshift=2.7em] word-1.north);
+\draw[->,decorate] ([xshift=2pt] word-4.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {} ([xshift=2.4em,yshift=2.7em] word-1.north);
 
 \draw [dashed] (word-1.north west) -- ([yshift=2.3em]word-1.north west);
 \draw [dashed] (word-3.north east) -- ([yshift=2.3em]word-3.north east);
@@ -1233,9 +1240,7 @@ then the ;madi;
 
 -->
 
-## Tense
-
-### Tense of dynamic ;j_sh;s
+## The tense signified by the ;j_sh;
 
 <!--
 So far we have deferred a detailed discussion
@@ -1365,6 +1370,10 @@ If, for example, the scenario of the condition occurred in the past,
 then the ;j_sh; will have a past tense meaning.
 For example:
 
+TODO: change to 3rd person for most general case. Because 1st/2nd person implies knowledge that condition did not actually take place in the past.
+Zayd expected ;3amr;s coming to him yesterday.
+And if ;3amr; came to Zayd [yesterday], then [I'm sure that] Zayd honored him.
+
 (@) [توقعت إتيانك إياي أمس.  وإِنْ أَتَيْتَنِي أَكْرَمْتُكَ]{.ar}  
     [I expected your coming to me yesterday.
     And
@@ -1410,5 +1419,7 @@ For example:
 (@) [يتوقع زيد إتيان عمرو غدا وإِنْ يَأْتِه يُكْرِمْهُ]{.ar}
     [Zayd expects ;3amr;'s coming tomorrow. And if he **would come** to him, he **would honor** him.]{.trans}
 
-### Tense of static ;j_sh;s
+## Static ;j_sh;s
+
+## The ;j_sh; with ;law;
 
