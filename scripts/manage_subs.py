@@ -49,6 +49,7 @@ map_table["basran"] = "[#baSr]{.trn2}an"
 # inna and its sisters
 map_table["lan"] = "[لَنْ]{.ar}"
 map_table["lam"] = "[لَمْ]{.ar}"
+map_table["laa"] = "[لَا]{.ar}"
 map_table["idhan"] = "[إِذَنْ]{.ar}"
 map_table["hatta"] = "[حَتَّى]{.ar}"
 map_table["kay"] = "[كَيْ]{.ar}"
@@ -69,8 +70,27 @@ map_table["law"] = "[لَوْ]{.ar}"
 map_table["man"] = "[مَنْ]{.ar}"
 map_table["maa"] = "[مَا]{.ar}"
 
+map_table["_in"] = "إِنْ"
+map_table["_idha"] = "إِذَا"
+map_table["_lam"] = "لَمْ"
+map_table["_laa"] = "لَا"
+map_table["_maa"] = "مَا"
+map_table["_lan"] = "لَنْ"
+
 map_table["kaana"] = "[كَانَ]{.ar}"
 map_table["laysa"] = "[لَيْسَ]{.ar}"
+
+#map_table["qatala"] = "[qatala]{.trn}"
+#map_table["yaqtul"] = "[yaqtul]{.trn}"
+#map_table["yaqtulu"] = "[yaqtulu]{.trn}"
+map_table["qatala"] = "[قَتَلَ]{.ar}"
+map_table["yaqtul"] = "[يَقْتُلْ]{.ar}"
+map_table["yaqtulu"] = "[يَقْتُلُ]{.ar}"
+map_table["yaqtula"] = "[يَقْتُلَ]{.ar}"
+map_table["_qatala"] = "قَتَلَ"
+map_table["_yaqtul"] = "يَقْتُلْ"
+map_table["_yaqtulu"] = "يَقْتُلُ"
+map_table["_yaqtula"] = "يَقْتُلَ"
 
 # 3aaqil
 map_table["3aaqil"]   = "intelligent being"   # raised-state"
@@ -170,10 +190,10 @@ map_table["isnaad_comp"] = "structurally complete"
 map_table["jamid"] = "primitive"
 
 map_table["j_sh"] = "conditional sentence"
-map_table["shart"] = "condition clause" # condition
+map_table["shart"] = "condition" # condition
 map_table["adat_shart"] = "conditional device"
 map_table["jawab"] = "response"
-map_table["jawab_shart"] = "condition-response clause" # outcome, result, consequence, condition-response, response-to-the-condition
+map_table["jawab_shart"] = "condition-response" # outcome, result, consequence, condition-response, response-to-the-condition
 map_table["fi3l_shart"] = "condition verb"
 map_table["fi3l_jawab_shart"] = "condition-response verb"
 
@@ -186,12 +206,12 @@ map_table["laam_taqwiya"] = "strengthening-[لِ]{.ar}"
 map_table["lazim"] = "intransitive"
 map_table["lnj"] = {"لا النافية للجنس", "ar"}
 
-map_table["madi"] = "perfect"  # "stateless" verb?
+map_table["madi"] = "stateless"  # perfect, perfective, "stateless" verb?
 map_table["maful"] = "doee"
 map_table["mafulb"] = "direct doee"
 map_table["mafull"] = "adverb of reason"
 map_table["mafulm"] = "accompanying doee"
-map_table["mahall"] = "positonal"
+map_table["mahall"] = "positional"
 map_table["manut"] = "attributee"
 map_table["masdar"] = "[maSdar]{.trn2}"
 map_table["masdari_an"] = "[maSdari Ean]{.trn2}"
