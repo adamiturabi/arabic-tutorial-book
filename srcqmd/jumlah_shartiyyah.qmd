@@ -841,6 +841,8 @@ Here are some more examples of inverted ;j_sh;s:
     [[@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
     [I [will be] a wrongdoer if I did [some action].]{.trans}  
 
+[find [إن شئت]{.ar} at the end of a sentence in hadith]
+
 <!--
 (@) [وإن أتاه خليلٌ يومَ مسألةٍ ... يقولُ لا غائبٌ مالي ولا حَرِمُ]{.ar}
     [@sibawayhi@ 3/66]{.citex}  
@@ -864,20 +866,20 @@ it prefers the presence of
 another
 ;yaqtul;
 after it as the ;fi3l_jawab_shart;.
-So, if we say:
+So the following example is not preferred:
 
 (@) [آتيك إن تأتني]{.ar}
     [@sibawayhi@ 3/68]{.citex}  
 
-then it is not preferred.
 This is because
 ;yaqtul;
 in the ;shart;
-[إن تأتني]{.ar}
-prefers that its ;jawab_shart;
-not be deleted,
-and that it have another ;yaqtul;
-in the ;jawab_shart;.^[ibn ya3ish, sibawayhi 3/66]
+([إن تأتني]{.ar})
+prefers 
+that it have another ;yaqtul;
+in the ;jawab_shart;,
+and that its ;jawab_shart;
+not be deleted.^[ibn ya3ish, sibawayhi 3/66]
 
 [;_in; ;_lam; ;_yaqtul;]{.ar}
 in an inverted ;j_sh;
@@ -889,7 +891,7 @@ because it is the negative counterpart to
 [;_in; ;_qatala;]{.ar}.
 For example,
 
-[find [إن شئت]{.ar} at the end of a sentence in hadith]
+[TODO: find example]
 
 ---
 
@@ -1233,6 +1235,8 @@ then the ;madi;
 
 ## Tense
 
+### Tense of dynamic ;j_sh;s
+
 <!--
 So far we have deferred a detailed discussion
 of the tense indicated by the ;shart; and the ;jawab_shart;.
@@ -1405,4 +1409,6 @@ For example:
 
 (@) [يتوقع زيد إتيان عمرو غدا وإِنْ يَأْتِه يُكْرِمْهُ]{.ar}
     [Zayd expects ;3amr;'s coming tomorrow. And if he **would come** to him, he **would honor** him.]{.trans}
+
+### Tense of static ;j_sh;s
 
