@@ -226,15 +226,15 @@ Here are some more examples of the archetypal conditional sentence:
 A ;madi; verb can be used instead of one or both of the ;0state; verbs in a ;j_sh;.
 So, for example, instead of saying:
 
-(@) [إِنْ تَأْتِنِي آتِكَ]{.ar}
+(@) [إِنْ تَأْتِنِي أُكْرِمْكَ]{.ar}
 
 we can say, any one of:
 
-(@) [إِنْ أَتَيْتَنِي أَتَيْتُكَ]{.ar}
+(@) [إِنْ أَتَيْتَنِي أَكْرَمْتُكَ]{.ar}
 
-(@) [إِنْ أَتَيْتَنِي آتِكَ]{.ar}
+(@) [إِنْ أَتَيْتَنِي أُكْرِمْكَ]{.ar}
 
-(@) [إِنْ تَأْتِنِي أَتَيْتُكَ]{.ar}
+(@) [إِنْ تَأْتِنِي أَكْرَمْتُكَ]{.ar}
 
 In general, all four options will have more-or-less the same meaning:
 [If you come to me, I will come to you.]{.trans}.
@@ -255,15 +255,31 @@ in either the
 or the
 ;fi3l_jawab_shart;.
 Similarly,
-we will use ;yaqtul; and ;yaqtulu; to refer to
-;0state; and ;ustate; ;mudarie; verbs respectively.
+we will use ;yaqtulu;, yaqtula; and ;yaqtul; to refer to
+;ustate;, ;astate;, and ;0state; ;mudarie; verbs respectively.
 
 Of the four options in examples () through (),
-the combination
+the combinations
+[;_in; ;_yaqtul; ;_yaqtul;]{.ar}
+and
+[;_in; ;_qatala; ;_qatala;]{.ar}
+are most preferred.
+This is because they exhibit
+a symmetry between the
+;fi3l_shart;
+and the
+;fi3l_jawab_shart;.^[peled]
+
+Combination
+[;_in; ;_qatala; ;_yaqtul;]{.ar},
+however,
+is by no means uncommon.
+
+But combination
 <!--
 in
 example ()
-[إِنْ تَأْتِنِي أَتَيْتُكَ]{.ar},
+[إِنْ تَأْتِنِي أَكْرَمْتُكَ]{.ar},
 where the
 ;fi3l_shart;
 is a
@@ -276,7 +292,7 @@ is a
 <!--
 ;in; ;yaqtul; ;qatala;
 -->
-[إنْ يَقْتُلْ قَتَلَ]{.ar}
+[;_in; ;_yaqtul; ;_qatala;]{.ar}
 is the least commonly
 found
 in actual usage.
@@ -287,13 +303,13 @@ is
 <!--
 ;0state; ;mudarie; verb,
 -->
-it prefers
+it prefers the presence of
 another
 ;yaqtul;
 <!--
 ;0state; ;mudarie; verb
 -->
-after it as the ;fi3l_jawab_shart;.
+after it as the ;fi3l_jawab_shart;.^[sibawayhi around 3/66]
 Nevertheless,
 this combination
 is occasionally found,
@@ -311,11 +327,11 @@ for example () above,
 ;in; does not govern the ;j_f3l;s
 [أَتَيْتَنِي]{.ar}
 and
-[أَتَيْتُكَ]{.ar} in the ;mahall; ;0state;.
+[أَكْرَمْتُكَ]{.ar} in the ;mahall; ;0state;.
 Rather,
-the ;madi; verb
-[أَتَى]{.ar}
-is,
+the ;madi; verbs
+[أَتَى]{.ar} and [أَكْرَمَ]{.ar}
+are,
 both times,
 directly governed in the ;mahall; ;0state;.^[haazimi]
 
@@ -327,7 +343,7 @@ directly governed in the ;mahall; ;0state;.^[haazimi]
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
-  text=\txarb{أَتَيْتُكَ} \txarb{أَتَيْتَنِي} \txarb{إِنْ},
+  text=\txarb{أَكْرَمْتُكَ} \txarb{أَتَيْتَنِي} \txarb{إِنْ},
   text effects/.cd, 
     path from text, text along path,
     text depth=0.25ex,text height=1.25ex,
@@ -387,6 +403,21 @@ in ;j_sh;s:
 
 [Get from Peled Cst pp. 16--17]
 
+##### Examples of [;_in; ;_yaqtul; ;_yaqtul;]{.ar}: {.unnumbered}
+
+(@) [وَإِن تَعُودُوا۟ نَعُدۡ]{.quran} 8/19
+
+##### Examples of [;_in; ;_qatala; ;_qatala;]{.ar}: {.unnumbered}
+
+(@) [إِنۡ أَحۡسَنتُمۡ أَحۡسَنتُمۡ لِأَنفُسِكُمۡۖ]{.quran} 17/7
+
+(@) [وَإِنۡ عُدتُّمۡ عُدۡنَاۚ]{.quran} 17/8
+
+##### Examples of [;_in; ;_qatala; ;_yaqtul;]{.ar}: {.unnumbered}
+
+##### Examples of [;_in; ;_yaqtul; ;_qatala;]{.ar}: {.unnumbered}
+
+
 ### Negating the ;shart; or ;jawab_shart;
 
 When either of
@@ -394,19 +425,91 @@ the ;fi3l_shart; or the ;fi3l_jawab_shart;
 are to be negated,
 then we have two options:
 
- i. negate the ;0state; ;mudarie; verb with [لَا]{.ar}
-ii. negate the ;0state; ;mudarie; verb with [لَمْ]{.ar}
+ i. [;_laa; ;_yaqtul;]{.ar}
+ii. [;_lam; ;_yaqtul;]{.ar}
 
+<!--
 The ;madi; verb
 (with the negater [مَا]{.ar})
 and the ;astate; ;mudarie; verb (with [لَنْ]{.ar})
+-->
+Negations
+[;_maa; ;_qatala;]{.ar}
+and
+[;_lan; ;_yaqtula;]{.ar}
 are not used when negating
 the ;fi3l_shart; or the ;fi3l_jawab_shart;.^[@nahw_wafi@]
 (They can however be used when negating a verb
 which is not directly
 the ;fi3l_shart; or the ;fi3l_jawab_shart;, as we will see in section\ (ref), ;ia;.)
 
-Option (i) with [لَا]{.ar} is possibly the more original,^[@peled_cst@ 17]
+The negative
+[;_laa; ;_yaqtul;]{.ar}
+is considered the negative counterpart of
+the positive ;yaqtul;.
+And
+the negative
+[;_lam; ;_yaqtul;]{.ar}
+is considered the negative counterpart of
+the positive ;qatala;.
+
+As with positive ;j_sh;s,
+a symmetry between
+the ;fi3l_shart; and the ;jawab_shart;
+is nice to have.
+
+So if the ;shart; is
+[;_in; ;_qatala;]{.ar},
+then
+[;_lam; ;_yaqtul;]{.ar}
+is preferred in the ;jawab_shart;.^[sirafi 3/295]
+For example:
+
+(@) [إِنْ أَتَيْتَنِي لَمْ آتِكَ]{.ar}
+
+And
+if the ;shart; is
+[;_in; ;_yaqtul;]{.ar},
+then
+[;_laa; ;_yaqtul;]{.ar}
+is preferred in the ;jawab_shart;.^[sirafi 3/295]
+For example:
+
+(@) [إِنْ تَأْتِنِي لَا آتِكَ]{.ar}
+
+
+The non-symmetric combination
+[;_in; ;_lam; ;_yaqtul;  ;_yaqtul;]{.ar},
+(corresponding to
+[;_in; ;_qatala;  ;_yaqtul;]{.ar}),
+is also fairly common.
+For example:
+
+(@) [إن لم تأتني أجزك]{.ar}
+    [sibawahi 3/68]{.citex}  
+
+But as with the combination
+[;_in; ;_yaqtul;  ;_qatala;]{.ar}
+in section\ (ref) above,
+the combination
+[;_in; ;_yaqtul;  ;_lam; ;_yaqtul;]{.ar}
+would be not as preferred.
+For example:
+
+(@) [إِنْ تَأْتِنِي لَمْ آتِكَ]{.ar}
+    [sirafi 3/295]{.citex}  
+
+In any case,
+symmetry is by no means mandatory,
+and the longer the distance (in words) between
+the ;fi3l_shart; and the ;jawab_shart;,
+the easier it is to disregard its being preferred.^[rummani]
+
+With regards to
+their frequencies in ;samaa3;,
+option (i)
+[;_laa; ;_yaqtul;]{.ar}
+is possibly the more original,^[@peled_cst@ 17]
 but it is rarer in usage.
 Here are some examples:
 
@@ -464,15 +567,18 @@ The conditional particle ;in; will continue to govern these verbs directly in th
 
 :::
 
-Option (ii) using [لَمْ]{.ar}
-(instead of [لَا]{.ar})
+Compared to option\ (i)
+[;_laa; ;_yaqtul;]{.ar},
+option\ (ii)
+[;_lam; ;_yaqtul;]{.ar}
 is by far the more common technique to negate
 the ;fi3l_shart; and the ;fi3l_jawab_shart;.
 
-When
+Just like the case for ;qatala;,
+when
 ;lam; is used to negate
 the ;fi3l_shart; or the ;fi3l_jawab_shart;,
-the verb retains its future meaning.
+it loses its past tense meaning.
 
 Here are some examples of
 the ;fi3l_shart; and the ;fi3l_jawab_shart;,
@@ -734,6 +840,46 @@ Here are some more examples of inverted ;j_sh;s:
 (@) [أنا ظالمٌ إن فعلتُ]{.ar}
     [[@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
     [I [will be] a wrongdoer if I did [some action].]{.trans}  
+
+<!--
+(@) [وإن أتاه خليلٌ يومَ مسألةٍ ... يقولُ لا غائبٌ مالي ولا حَرِمُ]{.ar}
+    [@sibawayhi@ 3/66]{.citex}  
+-->
+
+
+Note that all the examples that we have given so far
+of inverted ;j_sh;s,
+have
+[;_in; ;_qatala;]{.ar}
+in the ;shart;
+and not
+[;_in; ;_yaqtul;]{.ar}.
+This is because,
+as we mentioned in section\ (ref) above,
+when the
+;fi3l_shart;
+is
+;yaqtul;
+it prefers the presence of
+another
+;yaqtul;
+after it as the ;fi3l_jawab_shart;.
+So, if we say:
+
+(@) [آتيك إن تأتني]{.ar}
+    [@sibawayhi@ 3/68]{.citex}  
+
+then it is not preferred.
+This is because
+;yaqtul;
+in the ;shart;
+[آتيك إن]{.ar}
+prefers that its ;jawab_shart;
+not be deleted,
+and that it have another ;yaqtul;
+in the ;jawab_shart;.^[ibn ya3ish, sibawayhi 3/66]
+
+---
 
 TODO: ;fi3l_shart; is preferred to be ;madi; or with ;lam;, not positive ;0state; ;mudarie;
 
