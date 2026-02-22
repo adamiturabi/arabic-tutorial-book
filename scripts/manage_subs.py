@@ -69,6 +69,7 @@ map_table["idh"] = "[إِذْ]{.ar}"
 map_table["law"] = "[لَوْ]{.ar}"
 map_table["man"] = "[مَنْ]{.ar}"
 map_table["maa"] = "[مَا]{.ar}"
+map_table["fa"] = "[فَ]{.ar}"
 
 map_table["_in"] = "إِنْ"
 map_table["_idha"] = "إِذَا"

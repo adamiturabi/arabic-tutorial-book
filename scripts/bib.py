@@ -953,7 +953,34 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/7362")
     , sort_key = "انصاف للانباري"
     ))
-
+  resource_list.append(BibResource(
+    "shawahid_tawdeeh"
+    , cit_type = "ar_ref"
+    , cit_text = "[شواهد التوضيح لابن مالك]{.ar}"
+    , bib_text = """  
+      الكتاب: شَوَاهِد التَّوضيح وَالتَّصحيح لمشكلات الجامع الصَّحيح  
+      المؤلف: محمد بن عبد الله، ابن مالك الطائي الجياني، أبو عبد الله، جمال الدين (ت ٦٧٢هـ)  
+      المحقق: الدكتور طَه مُحسِن  
+      الناشر: مكتبة ابن تيمية  
+      الطبعة: الأولى، ١٤٠٥ هـ  
+      عدد الصفحات: ٢٨٣  
+      """ + format_url_ar("https://shamela.ws/book/98123")
+    , sort_key = "شواهد التوضيح"
+    ))
+  resource_list.append(BibResource(
+    "idah_qazwini"
+    , cit_type = "ar_ref"
+    , cit_text = "[الإيضاح في علوم البلاغة للقزويني]{.ar}"
+    , bib_text = """
+      الكتاب: الإيضاح في علوم البلاغة  
+      المؤلف: محمد بن عبد الرحمن بن عمر، أبو المعالي، جلال الدين القزويني الشافعي، المعروف بخطيب دمشق (ت ٧٣٩هـ)  
+      المحقق: محمد عبد المنعم خفاجي  
+      الناشر: دار الجيل - بيروت  
+      الطبعة: الثالثة  
+      عدد الأجزاء: ٣  
+      """ + format_url_ar("https://shamela.ws/book/7380")
+    , sort_key = "ايضاح في علوم البلاغة للقزويني"
+    ))
   # Western
 
   resource_list.append(BibResource(
@@ -1183,11 +1210,18 @@ def populate_resource_list():
     , sort_key = "peled conditional structures"
     ))
   resource_list.append(BibResource(
-    "reckendorf_syntax"
+    "reckendorf_1921"
     , cit_type = "ws_ref"
-    , cit_text = 'Reckendorf, H., _Arabische syntax_'
+    , cit_text = 'Reckendorf, _Arabische syntax_'
     , bib_text = 'Reckendorf, H., _Arabische syntax_, Heidelburg, 1921.'
     , sort_key = "Reckendorf arabische syntax"
+    ))
+  resource_list.append(BibResource(
+    "reckendorf_1898"
+    , cit_type = "ws_ref"
+    , cit_text = 'Reckendorf, _Die syntaktischen Verhältnisse des Arabischen_'
+    , bib_text = 'Reckendorf, H., _Die syntaktischen Verhältnisse des Arabischen_, Brill, 1898.'
+    , sort_key = "Reckendorf syntaktischen Verhaltnisse des Arabischen"
     ))
 
 

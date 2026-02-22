@@ -115,6 +115,11 @@ first.
 
 ## The ;j_sh; with ;in;
 
+;in; is considered the mother of all ;adat_shart;s.
+It forms the basic ;j_sh;.
+#;j_sh;s that employ other ;adat_shart;s are based on
+the ;j_sh; with ;in;.
+
 <!--
 is used to form the _;arch;_ ;j_sh;.
 Other types of ;j_sh; are formed based on the
@@ -122,7 +127,7 @@ model of
 ;arch; ;j_sh; with ;in;.
 -->
 
-### The ;arch; ;j_sh; with ;in;
+### The ;0state; ;mudarie; verb with ;in;
 
 In its ;arch; form,
 the ;j_sh; consists of two parts:
@@ -511,14 +516,14 @@ but it is rarer in usage.
 Here are some examples:
 
 (@) [إِلَّا تَفۡعَلُوهُ تَكُن فِتۡنَةࣱ فِی ٱلۡأَرۡضِ وَفَسَادࣱ كَبِیرࣱ]{.quran}
-    [@https://quran.com/8/73@ cited by @reckendorf_syntax@ 487]{.citex}  
+    [@https://quran.com/8/73@ cited by @reckendorf_1921@ 487]{.citex}  
     [If you do not do so [i.e., ally yourselves with other believers], there will be fitnah [i.e., disbelief and oppression] on earth and great corruption.]{.trans}  
 
 (@) [إِنْ تَدْفِنُوا الدَّاءَ **لَا نُخْفِهِ**]{.ar}
-    [@reckendorf_syntax@ 487]{.citex}  
+    [@reckendorf_1921@ 487]{.citex}  
 
 (@) [**إِنْ لَا تَكُنْ** هِنْدٌ بَكَتْهُ فَقَدْ بَكَتْ عَلَيْهِ الثُّرَيَّا]{.ar}
-    [@reckendorf_syntax@ 487]{.citex}  
+    [@reckendorf_1921@ 487]{.citex}  
     [If Hind did not weep [for] him, then the Pleiades have wept over him]{.trans}  
     (The ;jawab_shart; in this example begins with [فَ]{.ar}. We will discuss this in section\ (ref) below.)  
 
@@ -591,7 +596,7 @@ negated with ;lam;:
 (@) [إن **لم تأتني لم آتك**]{.ar}
 
 (@) [إِنِ افْتَرَقْتُمْ **لَمْ تَجْتَمِعُوا** أَبَدًا]{.ar}
-    [[@tarikh_tabari@ 4/24](https://shamela.ws/book/9783/1915) cited by @reckendorf_syntax@ 485]{.citex}  
+    [[@tarikh_tabari@ 4/24](https://shamela.ws/book/9783/1915) cited by @reckendorf_1921@ 485]{.citex}  
 
 The grammarians differed regarding
 the government of the 
@@ -914,7 +919,7 @@ because it is the negative counterpart to
 For example,
 
 (@) [وَاعْلَمِي أَنِّي امْرُؤٌ سَأَمُوتُ إنْ لَمْ أُقْتَلِ]{.ar}
-    [@reckendorf_syntax@ 488]{.citex}  
+    [[عنترة]{.ar} cited by @reckendorf_1921@ 488]{.citex}  
     [Know that I am a person-- I will die if I am not killed.]{.trans}  
 
 TODO: get more examples from [@peled_cst@ 141ff]
@@ -961,7 +966,8 @@ governs
 both the ;fi3l_shart;
 and the ;fi3l_jawab_shart;
 in the ;0state;.
-The way the grammarians work around this problem is by modeling example ()
+
+One way the grammarians work around this problem is by modeling example ()
 to originally be an inverted ;j_sh;, thus:
 
 (@) [آتيك إن أتيتني [آتك]]{.ar}  
@@ -976,6 +982,21 @@ is (optionally)
 moved to after the ;shart; to take the place of
 the original ;jawab_shart;
 [آتِكَ]{.ar}.^[@nahw_wafi@ 4/475--476 (footnotes)]
+
+There is also another technique to analyze such ;j_sh;s,
+and that is to assume a deleted ;fa;
+(and also possibly a deleted ;mubtada;)
+before the ;jawab_shart;.^[usool fi al-nahw 2/194; rummani 949; @maani_nahw@ 4/104]
+With the
+deleted elements restored,
+restored, the sentence is:
+
+(@) [إن أتيتني فآتيك]{.ar}  
+    or  
+    [إن أتيتني فأنا آتيك]{.ar}  
+    [If you come to me **then** I will come to you.]{.trans}  
+
+#;jawab_shart;s that begin with ;fa; will be treated in section\ (ref) below, ;ia;.
 
 Here are some more examples of this kind of ;j_sh;:
 
@@ -1090,6 +1111,16 @@ The government of example () above is depicted in @fig-aatika_idha_hmarra_lbusr.
 ```
 :::
 
+A ;qatala; ;j_f3l;
+typically loses its past tense
+when it is the ;mahall; ;mudafil; of
+;idha;.
+That is why we have translated
+[احْمَرَّ]{.ar} in example () as
+[redden]{.trans},
+not [reddened]{.trans}.
+
+<!--
 ;idha; usually indicates a future time.
 ;idha; is also most commonly followed by a ;madi; verb
 in its ;mahall; ;mudafil;,
@@ -1106,6 +1137,7 @@ The ;dharf_makan;
 ;idh;
 usually indicates a past time just like
 ;idha; usually indicates a future time.
+-->
 
 ### Conditional signification of ;idha;
 
@@ -1123,10 +1155,17 @@ thus:
 (@) [إِذَا احْمَرَّ الْبُسْرُ أَتَيْتُكَ]{.ar}  
     [When the unripe dates redden, I will come to you.]{.trans}
 
-Note that we have also replaced the ;mudarie; verb
-[آتِي]{.ar}
-with the ;madi; verb
+Note that we have also replaced the ;yaqtulu; ;j_f3l;
+[آتِيكَ]{.ar} in example ()
+with the ;qatala; ;j_f3l;
 [أَتَيْتُ]{.ar}.
+This is because
+now that example () is a ;j_sh;
+(with the ;jawab_shart; following
+the ;shart;),
+;qatala; as the ;fi3l_jawab_shart; also loses its past tense.
+
+<!--
 This is because when ;idha; is a ;adat_shart; in a ;j_sh;,
 then, like ;in;,
 it requires ;j_f3l;s in both the ;shart; and the ;jawab_shart;.
@@ -1134,6 +1173,7 @@ But whereas ;in; allows both (;0state;) ;mudarie; verbs and ;madi; verbs,
 ;idha; strongly prefers ;madi; verbs in both clauses.
 Because of the typical future signification of ;idha;,
 both ;madi; verbs will usually have a future meaning.
+-->
 
 Also unlike ;in;, 
 even when ;idha; is a ;adat_shart;,
@@ -1180,40 +1220,133 @@ depicts the government of example ().
 ```
 :::
 
-### ;mudarie; verbs in the ;idha; ;j_sh;
+Here are some more examples of ;j_sh;s with ;idha;:
 
-;mudarie; will be in ;ustate; because no adaat jazm
-peled citing reckendorf, wright
+### #;mudarie; verbs in the ;idha; ;j_sh;
 
-(@) [إذا زالت الشمس آتيك]{.ar}
-    [qazwini]{.citex}
+We learned
+in section\ (ref) above,
+that the ;adat_shart; ;in;
+governs the ;fi3l_shart; and the ;fi3l_jawab_shart; in the ;0state;.
 
-(@) [وإذا تتلى ]{.ar}
-    [;quran;]{.citex}
+The ;adat_shart; ;idha;, however,
+does not govern either the ;fi3l_shart; or ;fi3l_jawab_shart;,
+as we saw in @fig-idha_hmarra_lbusru_ataytuka above.
+So ;yaqtul; is not usually used in ;idha; ;j_sh;s.
+The most common form for
+;idha; ;j_sh;s,
+as we saw in example () above,
+is
+[;_idha; ;_qatala; ;_qatala;]{.ar}.
+
+Having said that,
+we do often find
+the _;ustate;_ ;mudarie; verb
+;yaqtulu;
+as either or as both
+the ;fi3l_shart;
+and the ;fi3l_jawab_shart;.
+Here are some examples:
+
+<!--
+(@) [إذا زالت الشمس **آتيك**]{.ar}
+    [[@idah_qazwini@ 2/117](https://shamela.ws/book/7380/324)]{.citex}  
+    [When the sun declines, I will come to you.]{.trans}
+-->
+
+(@) [إِذَا **تُتۡلَىٰ** عَلَیۡهِمۡ ءَایَـٰتُ ٱلرَّحۡمَـٰنِ خَرُّوا۟ سُجَّدࣰا وَبُكِیࣰّا]{.quran}
+    [@https://quran.com/19/58@ cited by @reckendorf_1898@ 648]{.citex}  
+
+(@) [إِذَا **تَكُونُ** كَرِيهَةٌ **أُدْعَى** لَهَا]{.ar}
+    [cited by @reckendorf_1898@ 647]{.citex}  
+    [When there is an inconvenience, I am called to it.]{.trans}  
+
+(@) [إِنّ الكريم إذا **يُحَرَّبُ يَغضَبُ**]{.ar}
+    [cited by @reckendorf_1898@ 647]{.citex}  
+    [The noble person -- when he is provoked, he becomes angry.]{.trans}  
+
+(@) [وإذا **تَضْحَكُ تُبْدي** حَبباً]{.ar}
+    [cited by @reckendorf_1898@ 647--648]{.citex}  
+    [When she laughs, she shows musky bubbles.]{.trans}  
+
+Very rarely, we also find ;yaqtul; used in ;idha; ;j_sh;s.
+For example:
+
+(@) [إِذَا أَخَذْتُمَا مَضَاجِعَكُمَا **تُكَبِّرَا** أَرْبَعًا وَثَلاَثِينَ **وَتُسَبِّحَا** ثَلاَثًا وَثَلاَثِينَ **وَتَحْمَدَا** ثَلاَثَةً وَثَلاَثِينَ فَهْوَ خَيْرٌ لَكُمَا مِنْ خَادِمٍ]{.ar}  
+    [@https://sunnah.com/bukhari:3705@ cited by [@shawahid_tawdeeh@ 71](https://shamela.ws/book/98123/68#p1)]{.citex}  
+    [When you go to bed, you magnify thirty-four times, and glorify thirty-three times, and praise thirty-three times.]{.trans}  
 
 ### Negation in the ;idha; ;j_sh;
 
-maa not used.
+When the negating the ;fi3l_shart;
+or the ;fi3l_jawab_shart;
+in ;idha; ;j_sh;s,
+the form
+[;_lam; ;_yaqtul;]{.ar}
+is used.
+For example:
 
-lam governs 0state mudarie verb
+(@) [إِنَّ مِمَّا أَدْرَكَ النَّاسُ مِنْ كَلاَمِ النُّبُوَّةِ الأُولَى إِذَا **لَمْ تَسْتَحِي** فَاصْنَعْ مَا شِئْتَ]{.ar}
+    [@https://sunnah.com/bukhari:6120@]{.citex}  
+    [One of the sayings of the early prophets which the people have got is: If you don't feel ashamed, then do whatever you like.]{.trans}  
 
+TODO: find more examples, also for negating jawab
+
+<!--
 ### Inverted ;j_sh;s with ;idha;
 
 Technically, not ;j_sh; because no ;jawab_shart; is needed to me modeled after ;idha;.
 But for convenience, we can say it.
 
 Examples in [peled 141--142]
-
+-->
 
 ### Certainty of the event indicated by ;idha;
 
-Not always. For example [إذا عصيت]{.ar} [peled 142]
+;idha; is typically used when the condition is certain to occur.
+The English expression,
+"It's not a matter of _if_, but _when_,"
+also indicates the fundamental difference between _if_ and _when_ ;j_sh;s.
+So, for example,
+if you say:
 
+(@) [إن تكرمني أكرمك]{.ar}
+    [[@idah_qazwini@ 2/117](https://shamela.ws/book/7380/324)]{.citex}  
+    [If you would honor me, I would honor you.]{.trans}  
+
+then you are not certain if the other person would honor you or not.
+But if you say:
+
+(@) [إذا زالت الشمس **آتيك**]{.ar}
+    [[@idah_qazwini@ 2/117](https://shamela.ws/book/7380/324)]{.citex}  
+    [When the sun declines, I will come to you.]{.trans}
+
+then you are certain that the condition
+[إذا زالت الشمس]{.ar}
+will, at some point, be valid.^[[@idah_qazwini@ 2/117](https://shamela.ws/book/7380/324)]
+
+Having said that,
+;idha; may not always indicate the certainness of the event in the condition.
+For example:
+
+(@) [فَأَقْبَلَ رَجُلٌ غَائِرُ الْعَيْنَيْنِ مُشْرِفُ الْوَجْنَتَيْنِ نَاتِئُ الْجَبِينِ كَثُّ اللِّحْيَةِ مَحْلُوقٌ فَقَالَ اتَّقِ اللَّهَ يَا مُحَمَّدُ فَقَالَ  **مَنْ يُطِعِ اللَّهَ إِذَا عَصَيْتُ** أَيَأْمَنُنِي اللَّهُ عَلَى أَهْلِ الأَرْضِ فَلاَ تَأْمَنُونِي]{.ar}  
+    [@https://sunnah.com/bukhari:3344@]{.citex}  
+    [Then a man with sunken eyes, prominent checks, a raised forehead, a thick beard and a shaven head, came in front [of the Prophet ;pbuh;] and said, "Be afraid of ;Allah;, O [#muHammad]{.trn2}!" The Prophet ;pbuh; said, "Who would obey Allah **if** I disobeyed [Him]? (Is it fair that) ;Allah; has trusted all the people of the earth to me while you do not trust me?"]{.trans}  
+
+Even though ;idha; is used in the above [HadIv]{.trn2}, it does not indicate a certain event.
+Far from it.
+In fact, there is no question that the Prophet ;pbuh; would never disobey ;Allah;.
+
+In such cases, ;idha; can retain its temporal signification,
+but the event in the ;shart; would not be considered certain.
+
+<!--
 ### ;idha; indicating a past time
 
 (@) [وَإِذَا رَأَوۡا۟ تِجَـٰرَةً أَوۡ لَهۡوًا ٱنفَضُّوۤا۟ إِلَیۡهَا وَتَرَكُوكَ قَاۤىِٕمࣰاۚ]{.quran}
     [@https://quran.com/62/11@]{.citex}  
     [But [on one occasion] when they saw a transaction or a diversion, [O Muḥammad], they rushed to it and left you standing.]{.trans}  
+-->
 
 <!--
 
