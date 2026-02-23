@@ -981,6 +981,18 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/7380")
     , sort_key = "ايضاح في علوم البلاغة للقزويني"
     ))
+  resource_list.append(BibResource(
+    "3aarif_aldin_temporal"
+    , cit_type = "ar_ref"
+    , cit_text = "[التأويل الزمني للجملة الشرطية في اللغة العربية لعارف الدين]{.ar}"
+    , bib_text = """
+      المقالة: التأويل الزمني للجملة الشرطية في اللغة العربية  
+      المؤلفون: عارف الدين عارف الدين، شمس الهادي ، سوهاندانو سوهاندانو  
+      الناشر:  مجلة دراسات: العلوم الإنسانية والاجتماعية،  الجامعة الأردنية, ٢٠٢٢
+      """ + format_url_ar("https://doi.org/10.35516/hum.v49i3.1333")
+    , sort_key = "تاويل الزمني للجملة الشرطية في اللغة العربية"
+    ))
+
   # Western
 
   resource_list.append(BibResource(
