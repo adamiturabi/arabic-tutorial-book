@@ -1180,7 +1180,7 @@ def populate_resource_list():
     "carter_arabic_grammar"
     , cit_type = "ws_ref"
     , cit_text = 'Carter, "Arabic grammar"'
-    , bib_text = 'Carter, M.\\ G., "Arabic grammar". In: 1. Young et al (eds.) _Religion, Learning and Science in the ’Abbasid Period. Cambridge University Press; 1990.'
+    , bib_text = 'Carter, M.\\ G., "Arabic grammar". In: Young et al (eds.) _Religion, Learning and Science in the ʿAbbasid Period_. Cambridge University Press; 1990.'
     , sort_key = "carter arabic grammar"
     ))
   resource_list.append(BibResource(
