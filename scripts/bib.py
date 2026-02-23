@@ -957,7 +957,7 @@ def populate_resource_list():
     "shawahid_tawdeeh"
     , cit_type = "ar_ref"
     , cit_text = "[شواهد التوضيح لابن مالك]{.ar}"
-    , bib_text = """  
+    , bib_text = """
       الكتاب: شَوَاهِد التَّوضيح وَالتَّصحيح لمشكلات الجامع الصَّحيح  
       المؤلف: محمد بن عبد الله، ابن مالك الطائي الجياني، أبو عبد الله، جمال الدين (ت ٦٧٢هـ)  
       المحقق: الدكتور طَه مُحسِن  
@@ -1222,6 +1222,13 @@ def populate_resource_list():
     , cit_text = 'Reckendorf, _Die syntaktischen Verhältnisse des Arabischen_'
     , bib_text = 'Reckendorf, H., _Die syntaktischen Verhältnisse des Arabischen_, Brill, 1898.'
     , sort_key = "Reckendorf syntaktischen Verhaltnisse des Arabischen"
+    ))
+  resource_list.append(BibResource(
+    "alfraidi_conditional"
+    , cit_type = "ws_ref"
+    , cit_text = 'Alfraidi, _Conditional sentences  in Modern Written Arabic_'
+    , bib_text = 'Alfraidi, T.\\ R.\\ K., _Conditional sentences  in Modern Written Arabic_, University of Exeter, Thesis, 2017. <https://hdl.handle.net/10871/29279>'
+    , sort_key = "Alfraidi conditional sentences"
     ))
 
 

@@ -265,6 +265,7 @@ map_table["tabi3"] = "follower"
 map_table["tafsiri"] = "explanatory"
 map_table["tamyiz"] = "[tamyIz]{.trn2}"
 map_table["tawkeed"] = "emphatic follower"
+map_table["tense"] = "time-reference"
 
 map_table["xabar"] = "info" # newsworthy expression, information, comment, remark, info, report, news, expression
 
