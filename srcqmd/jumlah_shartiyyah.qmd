@@ -1634,11 +1634,14 @@ The ;tense; is determined by when the scenario of ;shart; will occur.
 -->
 if the scenario of the condition occurred in the past,
 then the ;j_sh; will have a past ;tense;.
-For example:^[The following examples are adapted from 
-Reilly, J.\ S.\ "The acquisition of temporals and conditionals", In: Traugott, et al, (eds.) _On Conditionals_, Cambridge, 1986, p.\ 313, cited by @alfraidi_conditional@ 94]
+For example:
 
-(@) [إِنْ تَمْطُرْ مِصْرُ عَامَ الْأَوَّلِ سَالَتْ بَطَائِحُ النِّيلِ]{.ar}  
-    [If it rained in Egypt last year, the Nile delta [would have] flooded.]{.trans}
+(@) [إِنْ زُرْتَنِي أَمْسِ أَكْرَمْتُكَ]{.ar}  
+    [If you visited me yesteday, then I honored you.]{.trans}  
+
+(@) [إِنْ تَمْطُرْ مِصْرُ عَامَ الْأَوَّلِ سَالَتْ بَطَائِحُ النِّيلِ]{.ar}^[This and the following examples are adapted from 
+Reilly, J.\ S.\ "The acquisition of temporals and conditionals", In: Traugott, et al, (eds.) _On Conditionals_, Cambridge, 1986, p.\ 313, cited by @alfraidi_conditional@ 94]  
+    [If it rained in Egypt last year, the Nile delta [must have] flooded.]{.trans}
 
 (@) [إِنْ تَمْطَرْ مِصْرُ عَامَ الْأَوَّلِ تَسِلْ بَطَائِحُ النِّيلِ]{.ar}  
     [If it [may have] rained in Egypt last year, the  Nile delta [should have] flooded.]{.trans}
@@ -1654,6 +1657,9 @@ Similarly,
 if the scenario of the condition is expected in the future,
 then the ;j_sh; will have a future ;tense;.
 For example:
+
+(@) [إِنْ زُرْتَنِي غَدًا أَكْرَمْتُكَ]{.ar}  
+    [If you [will have] visited me tomorrow, I [will have] honored you.]{.trans}  
 
 (@) [إِنْ تَمْطُرْ مِصْرُ الْعَامَ الْمُقْبِلَ سَالَتْ بَطَائِحُ النِّيلِ]{.ar}  
     [If [will have] rained in Egypt next year, the Nile delta [will have] flooded.]{.trans}
