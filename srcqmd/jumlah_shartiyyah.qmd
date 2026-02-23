@@ -1634,13 +1634,9 @@ The ;tense; is determined by when the scenario of ;shart; will occur.
 -->
 if the scenario of the condition occurred in the past,
 then the ;j_sh; will have a past ;tense;.
-For example:
+For example^[The following examples are adapted from Reilly, J.\ S.\ "The acquisition of temporals and conditionals", In: Traugott, et al, (eds.) _On Conditionals_, Cambridge, 1986, p.\ 313, cited by @alfraidi_conditional@ p.\ 94.]:
 
-(@) [إِنْ زُرْتَنِي أَمْسِ أَكْرَمْتُكَ]{.ar}  
-    [If you visited me yesteday, then I honored you.]{.trans}  
-
-(@) [إِنْ تَمْطُرْ مِصْرُ عَامَ الْأَوَّلِ سَالَتْ بَطَائِحُ النِّيلِ]{.ar}^[This and the following examples are adapted from 
-Reilly, J.\ S.\ "The acquisition of temporals and conditionals", In: Traugott, et al, (eds.) _On Conditionals_, Cambridge, 1986, p.\ 313, cited by @alfraidi_conditional@ 94]  
+(@) [إِنْ تَمْطُرْ مِصْرُ عَامَ الْأَوَّلِ سَالَتْ بَطَائِحُ النِّيلِ]{.ar}  
     [If it rained in Egypt last year, the Nile delta [must have] flooded.]{.trans}
 
 (@) [إِنْ تَمْطَرْ مِصْرُ عَامَ الْأَوَّلِ تَسِلْ بَطَائِحُ النِّيلِ]{.ar}  
@@ -1677,7 +1673,28 @@ to limit
 the condition to the past or the future (respectively).
 In the absence of such an explicit delimiter,
 the ;tense; of the ;shart; will have to be determined from context.
-Or the condition may express a general truth
+Consider for example the ;j_sh;:
+
+(@) [إِنْ أَحْسَنْتَ إِلَيَّ أَحْسَنْتُ إِلَيْكَ]{.ar}  
+
+In a past context, this ;j_sh; can have a past meaning:
+
+(@) [زَعَمْتَ أَنِّي لَمْ أَجْزِكَ بَمَا أَحْسَنْتَ إِلَيَّ قُلْتُ إِنْ أَحْسَنْتَ إِلَيَّ أَحْسَنْتُ إِلَيْكَ]{.ar}  
+    [You claim that I did not pay you back for your being good to me.
+    I say that if you were good to me then I was good to you.]{.trans}  
+
+And in a future context, the same ;j_sh; can have a future meaning:
+
+(@) [أَعِدُكَ إِنْ أَحْسَنْتَ إِلَيَّ أَحْسَنْتُ إِلَيْكَ]{.ar}  
+    [I promise you: if you will be good to me, I will be good to you.]{.trans}  
+
+<!--
+(@) [إِنْ زُرْتَنِي أَمْسِ أَكْرَمْتُكَ]{.ar}  
+    [If you visited me yesteday, then I honored you.]{.trans}  
+-->
+
+
+Or a ;j_sh; may express a general truth
 that holds for all ;tense;s.
 For example:
 
