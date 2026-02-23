@@ -992,6 +992,7 @@ def populate_resource_list():
       """ + format_url_ar("https://doi.org/10.35516/hum.v49i3.1333")
     , sort_key = "تاويل الزمني للجملة الشرطية في اللغة العربية"
     ))
+  resource_list.append(BibResource(
     "sharh_muqaddimah_babashaadh"
     , cit_type = "ar_ref"
     , cit_text = "[شرح المقدمة المحسبة لابن بابشاذ]{.ar}"
