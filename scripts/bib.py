@@ -953,6 +953,21 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/7362")
     , sort_key = "انصاف للانباري"
     ))
+  resource_list.append(BibResource(
+    "sharh_muqaddimah_babashaadh"
+    , cit_type = "ar_ref"
+    , cit_text = "[شرح المقدمة المحسبة لابن بابشاذ]{.ar}"
+    , bib_text = """
+      الكتاب: شرح المقدمة المحسبة  
+      المؤلف: طاهر بن أحمد بن بابشاذ (ت ٤٦٩ هـ)  
+      المحقق: خالد عبد الكريم  
+      الناشر: المطبعة العصرية - الكويت  
+      الطبعة: الأولى، ١٩٧٧ م  
+      عدد الأجزاء: ٢ (متسلسلة الترقيم)  
+      """ + format_url_ar("https://shamela.ws/book/18278")
+    , sort_key = "شرح المقدمة المحسبة لابن بابشاذ"
+    ))
+
 
   # Western
 
@@ -1160,6 +1175,13 @@ def populate_resource_list():
     , cit_text = "Carter, _Sībawayhi's principles_"
     , bib_text = "Carter, M.\\ G., _Sībawayhi's principles: Arabic grammar and law in early Islamic thought_. Lockwood Press, 2016."
     , sort_key = "carter sibawayhis principles"
+    ))
+  resource_list.append(BibResource(
+    "carter_arabic_grammar"
+    , cit_type = "ws_ref"
+    , cit_text = 'Carter, "Arabic grammar"'
+    , bib_text = 'Carter, M.\\ G., "Arabic grammar". In: 1. Young et al (eds.) _Religion, Learning and Science in the ’Abbasid Period. Cambridge University Press; 1990.'
+    , sort_key = "carter arabic grammar"
     ))
   resource_list.append(BibResource(
     "versteegh_taqdir"
