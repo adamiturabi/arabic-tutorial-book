@@ -637,12 +637,12 @@ When the grammarians
 <!--
 developed ;qiyaas;-based rules from ;samaa3;,
 -->
-analyzed the data in ;samaa3;,
-they would list the variations of usage found in the different dialects.
-Generally speaking, all variations were accepted by the grammarians as correct Classical Arabic.
-However, the grammarians would also often grade the variations,
-sometimes listing one or another option amongst the variations as the
-more common, normative, eloquent, or original.
+described the Arabic of ;samaa3;,
+they would typically list the linguistic variations found in the different dialects of Classical Arabic.
+The grammarians would also often grade the variations,
+sometimes regarding a particular dialectal feature amongst the variations as the
+more common, normative, original, or (in their opinion) more eloquent.
+Generally speaking, however, all variations were accepted by the grammarians as correct Classical Arabic.
 
 <!--
 the usages in the different dialects.
@@ -660,17 +660,23 @@ amongst other factors,
 the
 widespread adoption of the grammarians' rules.
 -->
-
-Standard Classical Arabic (;sca;) is a
+When 
+Standard Classical Arabic (;sca;) emerged as
+literary standard,
+it typically converged to using only one out of the many variations allowed in Classical Arabic.
+Often, the option chosen by ;sca;
+aligned with the grammarians' gradings.
 <!--
 _de facto_ standard
 -->
+<!--
 variety
 of Classical Arabic
 that reflects these gradings.
+-->
 
 As an example,
-the grammarians discuss a dialectal usage that pluralizes a verb even when the plural ;faa3il; is mentioned.
+the grammarians discuss a dialectal feature that pluralizes a verb even when the plural ;faa3il; is mentioned.
 So speakers of this dialect would say:
 
 (@) [ضَرَبُونِي قَوْمُكَ]{.ar}
@@ -685,6 +691,53 @@ The dialectal usage of example ()
 is graded as rare.^[[@sibawayhi@ 2/40](https://shamela.ws/book/23018/475)]
 It did not make its way into ;sca;.
 Instead, the more common usage in example () became the standard.
+
+As an other example,
+hamzah was considered by the grammarians
+to be an original root letter.
+So for example,
+it is an original root letter in
+[رَأْس]{.ar}
+[raEs]{.trn}
+"[head]{.trans}".
+
+However,
+the preferred pronunciation
+of native Classical Arabic speakers
+in some regions
+was to elide or approximate it in favor of a vowel,
+or the letters [و]{.ar} or [ي]{.ar},
+depending on the surrounding vowels.^[[@sibawayhi@ 3/541ff](https://shamela.ws/book/23018/1392)]
+So they would pronounce
+[رَأْس]{.ar}
+as
+[رَاس]{.ar}
+[rAs]{.trn}.
+
+This variant pronunciation was not adopted in ;sca;,
+which retains the full pronunciation of hamzah for most words.
+
+As yet another example,
+Classical Arabic
+had a large variety of ;ism_isharah;s.
+For example, for [that~1f~]{.trans}
+was expressed using
+(amongst other options)
+both
+[تِلْكَ]{.ar} [tilka]{.trn}
+and
+[تِيكَ]{.ar} [tIka]{.trn}.
+;sca; uses only
+[تِلْكَ]{.ar} [tilka]{.trn}.
+
+It must be stressed that
+the variations found in ;samaa3; are,
+generally, all correct Classical Arabic.
+One cannot take the option that is used in ;sca;
+and,
+on its basis,
+pronounce judgement on a non-conforming dialectal feature
+that is found in ;samaa3;.
 
 ## #;taqdiring; ([التَّقْدِير]{.ar})
 
