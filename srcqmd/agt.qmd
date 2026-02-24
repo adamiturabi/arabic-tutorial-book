@@ -59,7 +59,7 @@ being read incorrectly,
 efforts began to preserve Classical Arabic.
 This outline of events is traditionally credited as
 the inception of the Arabic grammatical tradition,
-and of the profession of the grammarian.
+and of the profession of the grammarian.^[But see also @carter_arabic_grammar@ 119--120]
 
 It is difficult to establish the authenticity of many of these reports.
 So we are not certain
@@ -217,19 +217,23 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \node[rotate=60,align=left,anchor=east] () at (\i-0.2, 0) {\footnotesize \x};
 }
 
-    % Baghdad
+    % Basrah
     %\person{7.5}{182}{right}{west}{-16}{-12}{Yūnus ibn Ḥabīb (\textsc{b})}
     \person{7.5}{170}{right}{west}{-16}{-8}{al-K͡halīl (\textsc{b})}
-    \person{7.5}{180}{right}{west}{-16}{ 8}{Sībawayh (\textsc{b})}
-    \person{7.5}{215}{above}{south}{20}{ -20}{al-Ak͡hfas͡h al-Awsaṭ (\textsc{b})}
-    \person{7.5}{285}{above}{south}{20}{-20}{al-Mubarrad (\textsc{b})}
+    \person{7.5}{180}{right}{west}{-16}{ 4}{Sībawayh (\textsc{b})}
+    \draw [dashed, ->, -{Latex}] (8.5,170) -- (7.5, 180);
+    \person{7.5}{215}{above}{south}{30}{ -25}{al-Ak͡hfas͡h al-Awsaṭ (\textsc{b})}
 
     % Kufah
     %\person{6.5}{150}{left} {east}{ 16}{0}{Abu Hanifah}
-    \person{5.5}{189}{left} {east}{ 16}{-4}{al-Kisāʾī (\textsc{k})}
-    \person{5.5}{207}{left} {east}{ 16}{0}{al-Farrāʾ (\textsc{k})}
+    \person{6.5}{189}{left} {east}{ 16}{-10}{al-Kisāʾī (\textsc{k})}
+    \draw [dashed, ->, -{Latex}] (5.5,179) -- (6.5, 189);
+    \person{6.5}{207}{left} {east}{ 16}{2}{al-Farrāʾ (\textsc{k})}
+    \draw [dashed, ->, -{Latex}] (5.5,197) -- (6.5, 207);
 
     % Baghdad
+    \draw [dashed, ->, -{Latex}] (7.5,280) -- (6.5, 285);
+    \person{6.5}{285}{above}{south}{45}{-20}{al-Mubarrad (\textsc{b})}
     \person{6.5}{291}{left} {east}{ 16}{-1}{T͡haɛlab (\textsc{k})}
     \person{6.5}{316}{left} {east}{ 16}{-1}{Ibn al-Sarrāj (\textsc{b})}
     \person{6.5}{337}{left} {east}{ 16}{0}{al-Zajjājī}
@@ -332,6 +336,7 @@ indicate an affiliation with the
 ;basran;
 and
 ;kufan; schools, respectively.
+Arrows with dashed lined indicate a grammarian's relocation as a student or as a professional.
 :::
 
 
