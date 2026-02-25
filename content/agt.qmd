@@ -278,8 +278,9 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \draw [dashed, ->, -{Latex}] (0.5,674) -- (2.5, 745);
     \person{2.5}{761}{right} {west}{-16}{3}{Ibn His͡hām al-Anṣārī}
     \person{2.5}{769}{right} {west}{-16}{9}{Ibn Ɛaqīl}
-    \person{2.5}{900}{right} {west}{-16}{-2}{al-Us͡hmūnī}
-    \person{2.5}{911}{right} {west}{-16}{6}{al-Suyūṭī}
+    \person{2.5}{900}{right} {west}{-16}{-5}{al-Us͡hmūnī}
+    \person{2.5}{905}{right} {west}{-16}{2}{K͡hālid al-Azharī}
+    \person{2.5}{911}{right} {west}{-16}{7}{al-Suyūṭī}
 
     % Persia
     \person{8.5}{471}{left} {east}{ 16}{0}{al-Jurjānī}
@@ -288,9 +289,11 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \person{8.5}{395}{left} {east}{ 20}{12}{Ibn Fāris}
 
     % Andalus
-    \person{0.5}{592}{right}{west}{-16}{-10}{Ibn Maḍāʾ}
-    \person{0.5}{790}{right}{west}{-16}{22}{Abū Is·ḥāq al-S͡hāṭibī}
-    \person{0.5}{645}{left}{east}{26}{3}{al-S͡halawbīn}
+    %\person{0.5}{592}{right}{west}{-16}{-10}{Ibn Maḍāʾ}
+    \person{0.5}{592}{left}{east}{16}{8}{Ibn Maḍāʾ}
+    %\person{0.5}{790}{right}{west}{-16}{22}{Abū Is·ḥāq al-S͡hāṭibī}
+    \person{0.5}{790}{above}{south}{-14}{-22}{Abū Is·ḥāq al-S͡hāṭibī}
+    \person{0.5}{645}{left}{east}{24}{3}{al-S͡halawbīn}
 
     % North Africa
     \person{1.5}{723}{above}{south}{-10}{-25}{Ibn Ājurrūm}
@@ -330,7 +333,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {dots}              {6}    {9}      {\cetoah{1400}}   {\cetoah{1450}} {\small TIMURIDS}{}
     \dynasty    {dots}              {6}    {9}      {\cetoah{1450}}   {\cetoah{1501}} {\scriptsize TURKOMAN CONFEDERATIONS}{}
     \dynasty    {fivepointed stars} {6}    {9}      {\cetoah{1501}}   {\cetoah{1533}} {}{} % safavids
-    \dynasty    {fivepointed stars} {9}    {9}      {\cetoah{1533}}   {1000} {SAFAVIDS}{xshift=8pt, yshift=-5pt} % safavids
+    \dynasty    {fivepointed stars} {9}    {9}      {\cetoah{1533}}   {1000} {\small SAFAVIDS}{xshift=8pt, yshift=-5pt} % safavids
     \dynasty    {north west lines}  {6}    {8}      {\cetoah{1533}}   {1000} {}{}
     \dynasty    {north west lines}  {2}    {5}      {\cetoah{1517}}   {1000} {OTTOMANS}{xshift=45pt}
 
