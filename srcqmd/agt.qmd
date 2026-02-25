@@ -293,7 +293,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
     \dynasty    {bricks}            {5}    {5}      {0}     {11}  {}{} % Prophet pbuh
     \dynasty    {bricks}            {2.5}  {8.5}    {11}    {41}  {RASHIDUN}{}
-    \dynasty    {north east lines}  {2}    {9}      {41}    {132} {UMMAYADS}{xshift=-40pt}
+    \dynasty    {north east lines}  {2}    {9}      {41}    {132} {UMMAYADS}{xshift=-40pt,yshift=-3pt}
     \dynasty    {north east lines}  {1}    {1}      {\cetoah{711}}    {\cetoah{1031}} {UMMAYADS}{rotate=90}
     \dynasty    {vertical lines}    {3}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{xshift=30pt,yshift=6pt}
     \dynasty    {vertical lines}    {2}    {2}      {132}             {\cetoah{909}} {}{}% Abbasids % North Africa
@@ -323,8 +323,8 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {dots}              {9}    {9}      {\cetoah{1335}}   {\cetoah{1400}} {\scriptsize MUZAFFARIDS}{xshift=5pt}
     \dynasty    {dots}              {6}    {9}      {\cetoah{1400}}   {\cetoah{1450}} {\small TIMURIDS}{}
     \dynasty    {dots}              {6}    {9}      {\cetoah{1450}}   {\cetoah{1501}} {\scriptsize TURKOMAN CONFEDERATIONS}{}
-    \dynasty    {fivepointed stars} {6}    {9}      {\cetoah{1501}}   {\cetoah{1533}} {\small SAFAVIDS}{xshift=30pt}
-    \dynasty    {fivepointed stars} {9}    {9}      {\cetoah{1533}}   {1000} {}{}
+    \dynasty    {fivepointed stars} {6}    {9}      {\cetoah{1501}}   {\cetoah{1533}} {}{} % safavids
+    \dynasty    {fivepointed stars} {9}    {9}      {\cetoah{1533}}   {1000} {SAFAVIDS}{xshift=8pt, yshift=-5pt} % safavids
     \dynasty    {north west lines}  {6}    {8}      {\cetoah{1533}}   {1000} {}{}
     \dynasty    {north west lines}  {2}    {5}      {\cetoah{1517}}   {1000} {OTTOMANS}{xshift=45pt}
 
