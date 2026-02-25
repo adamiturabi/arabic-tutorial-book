@@ -59,11 +59,16 @@ being read incorrectly,
 efforts began to preserve Classical Arabic.
 This outline of events is traditionally credited as
 the inception of the Arabic grammatical tradition,
-and of the profession of the grammarian.^[But see also @carter_arabic_grammar@ 119--120]
+and of the profession of the grammarian.
+Another reason that may have propelled grammatical activity
+may have been a desire to understand
+how to correctly produce speech modeled on Classical Arabic.^[See also @carter_arabic_grammar@ 120]
 
-It is difficult to establish the authenticity of many of these reports.
+It is difficult to establish the authenticity of many of the reports
+which list specific individuals and incidents
+that purportedly launched Arabic grammar as a discipline.^[@carter_arabic_grammar@ 119]
 So we are not certain
-who would qualify to be the first grammarians,^[See also @carter_arabic_grammar@ 120--121]
+who would qualify to be the very first grammarians,
 nor are we certain of the extent of their grammatical discourse.
 We do know that
 the early grammarians 
@@ -665,10 +670,12 @@ When
 Standard Classical Arabic (;sca;) emerged as
 literary standard,
 then,
-for each dialectal feature,
-it typically converged to using only one out of the many variations allowed in Classical Arabic.
-Often, the option chosen by ;sca;
-aligned with the grammarians' gradings.
+it tended to converge to using only
+a small subset
+out of the many variations allowed in Classical Arabic.
+Often,
+the option chosen by ;sca;
+would align with the grammarians' gradings.
 <!--
 _de facto_ standard
 -->
@@ -679,7 +686,9 @@ that reflects these gradings.
 -->
 
 As an example,
-the grammarians discuss a dialectal feature that pluralizes a verb even when the plural ;faa3il; is mentioned.
+the grammarians discuss a dialectal feature that pluralizes a verb even when 
+it has a ;zaahir;
+plural ;faa3il; noun.
 So speakers of this dialect would say:
 
 (@) [ضَرَبُونِي قَوْمُكَ]{.ar}
@@ -695,7 +704,7 @@ is graded as rare.^[[@sibawayhi@ 2/40](https://shamela.ws/book/23018/475)]
 It did not make its way into ;sca;.
 Instead, the more common usage in example () became the standard.
 
-As an other example,
+As another example,
 hamzah was considered by the grammarians
 to be an original root letter.
 So for example,
@@ -703,7 +712,6 @@ it is an original root letter in
 [رَأْس]{.ar}
 [raEs]{.trn}
 "[head]{.trans}".
-
 However,
 the preferred pronunciation
 of native Classical Arabic speakers
@@ -715,15 +723,14 @@ So they would pronounce
 [رَأْس]{.ar}
 as
 [رَاس]{.ar}
-[rAs]{.trn}.
-
-This variant pronunciation was not adopted in ;sca;,
+[rAs]{.trn}.^[[@sibawayhi@ 3/543](https://shamela.ws/book/23018/1394#p1)]
+This variant pronunciation was not generally adopted in ;sca;,
 which retains the full pronunciation of hamzah for most words.
 
 As yet another example,
 Classical Arabic
 had a large variety of ;ism_isharah;s.
-For example, for [that~1f~]{.trans}
+For example, [that~1f~]{.trans}
 was expressed using
 (amongst other options)
 both
@@ -732,6 +739,18 @@ and
 [تِيكَ]{.ar} [tIka]{.trn}.
 ;sca; uses only
 [تِلْكَ]{.ar} [tilka]{.trn}.
+Furthermore,
+Classical Arabic had a curious feature,
+where the end [ك]{.ar} in a far ;ism_isharah;
+could optionally be dualized or pluralized,
+depending on the number and gender of people being spoken to.^[[@maani_nahw@ 1/99](https://shamela.ws/book/17801/98)]
+For example:
+
+(@) [وَنَادَىٰهُمَا رَبُّهُمَاۤ أَلَمۡ أَنۡهَكُمَا عَن **تِلۡكُمَا** ٱلشَّجَرَةِ وَأَقُل لَّكُمَاۤ إِنَّ ٱلشَّیۡطَـٰنَ لَكُمَا عَدُوࣱّ مُّبِینࣱ]{.quran}
+    [@https://quran.com/7/22@]{.citex}  
+    [And their Lord called to them, "Did I not forbid you from that tree and tell you that Satan is to you a clear enemy?"]{.trans}  
+
+This feature tends not to used in ;sca;.
 
 It must be stressed that
 the variations found in ;samaa3; are,
