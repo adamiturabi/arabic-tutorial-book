@@ -131,6 +131,9 @@ Many famous later grammarians operated out of
 [#abU #isHAq al-#cATibI]{.trn2}
 [#abU #ealiyy al-#fArisI]{.trn2}
 [Ibn #fAris]{.trn2}
+[#abu l-#aswad al-#duEalI]{.trn2}
+[#eIsA ibn #eumar]{.trn2}
+[#abU #jaefar al-#ruEAsI]{.trn2}
 -->
 
 [@fig-gramtimeline]
@@ -222,15 +225,19 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \node[rotate=60,align=left,anchor=east] () at (\i-0.2, 0) {\footnotesize \x};
 }
 
+
+
     % Basrah
-    %\person{7.5}{182}{right}{west}{-16}{-12}{Yūnus ibn Ḥabīb (\textsc{b})}
-    \person{7.5}{170}{right}{west}{-16}{-8}{al-K͡halīl (\textsc{b})}
-    \person{7.5}{180}{right}{west}{-16}{ 4}{Sībawayh (\textsc{b})}
-    \draw [dashed, ->, -{Latex}] (8.5,170) -- (7.5, 180);
+    \person{7.5}{69}{below}{north}{27}{26}{[Abu l‑Aswad al‑Duʾalī (\textsc{b})]}
+    \person{7.5}{149}{right}{west}{-20}{-14}{[Ɛīsā b. Ɛumar (\textsc{b})]}
+    \person{7.5}{182}{right}{west}{-20}{-7}{[Yūnus b. Ḥabīb (\textsc{b})]}
+    \person{7.5}{170}{right}{west}{-20}{-11}{al-K͡halīl (\textsc{b})}
+    \person{7.5}{180}{right}{west}{-20}{ 4}{Sībawayh (\textsc{b})}
+    %\draw [dashed, ->, -{Latex}] (8.5,170) -- (7.5, 180);
     \person{7.5}{215}{above}{south}{30}{ -25}{al-Ak͡hfas͡h al-Awsaṭ (\textsc{b})}
 
     % Kufah
-    %\person{6.5}{150}{left} {east}{ 16}{0}{Abu Hanifah}
+    \person{5.5}{187}{left} {east}{ 16}{-20}{[Abū Jaɛfar al‑Ruʾāsī (\textsc{k})]}
     \person{6.5}{189}{left} {east}{ 16}{-10}{al-Kisāʾī (\textsc{k})}
     \draw [dashed, ->, -{Latex}] (5.5,179) -- (6.5, 189);
     \person{6.5}{207}{left} {east}{ 16}{2}{al-Farrāʾ (\textsc{k})}
@@ -246,7 +253,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \person{6.5}{377}{left} {east}{ 16}{3}{Abū Ɛaliyy al-Fārisī (\textsc{b})}
     \person{6.5}{384}{left} {east}{ 16}{9}{al-Rummānī}
     \person{6.5}{392}{left} {east}{ 16}{13}{Ibn Jinnī}
-    \person{6.5}{577}{right} {west}{-16}{-1}{Abū al-Barakāt al-Anbārī}
+    \person{6.5}{577}{right} {west}{-16}{-1}{Abu l-Barakāt al-Anbārī}
     %\person{5.5}{684}{right} {west}{-16}{-9}{al-Raḍiyy al-Astarābād͡hī}
 
     % Hijaz
@@ -334,6 +341,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 ```
 
 A (year of death) timeline and geographical distribution of some of the more well-known grammarians.^[Adapted from Andreas Hallberg's blog post [[andreasmhallberg.github.io/timeline-of-arab-grammarians](https://andreasmhallberg.github.io/timeline-of-arab-grammarians)]{.citex}, and Ovamir Anjum's presentation at the Muslim Community Association, Santa Clara, Calif., 2013 [[youtu.be/cZ6RoRMF-kI](https://youtu.be/cZ6RoRMF-kI)]{.citex}.]
+Putative proto-grammarians are distinguished using brackets.
 [(b)]{.smallcaps}
 and
 [(k)]{.smallcaps}
@@ -341,7 +349,7 @@ indicate an affiliation with the
 ;basran;
 and
 ;kufan; schools, respectively.
-Arrows with dashed lined indicate a grammarian's relocation as a student or as a professional.
+Arrows with dashed lined indicate a grammarian's professional relocation.
 :::
 
 
