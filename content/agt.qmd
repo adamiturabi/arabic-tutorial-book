@@ -137,6 +137,9 @@ Many famous later grammarians operated out of
 [#abU #isHAq al-#cATibI]{.trn2}
 [#abU #ealiyy al-#fArisI]{.trn2}
 [Ibn #fAris]{.trn2}
+[#abu l-#aswad al-#duEalI]{.trn2}
+[#eIsA ibn #eumar]{.trn2}
+[#abU #jaefar al-#ruEAsI]{.trn2}
 -->
 
 [@fig-gramtimeline]
@@ -228,16 +231,20 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \node[rotate=60,align=left,anchor=east] () at (\i-0.2, 0) {\footnotesize \x};
 }
 
+
+
     % Basrah
-    %\person{7.5}{182}{right}{west}{-16}{-12}{Yūnus ibn Ḥabīb (\textsc{b})}
-    \person{7.5}{170}{right}{west}{-16}{-8}{al-K͡halīl (\textsc{b})}
-    \person{7.5}{180}{right}{west}{-16}{ 4}{Sībawayh (\textsc{b})}
-    \draw [dashed, ->, -{Latex}] (8.5,170) -- (7.5, 180);
+    \person{7.5}{69}{below}{north}{27}{26}{[Abu l‑Aswad al‑Duʾalī (\textsc{b})]}
+    \person{7.5}{149}{right}{west}{-20}{-14}{[Ɛīsā b. Ɛumar (\textsc{b})]}
+    \person{7.5}{182}{right}{west}{-20}{-7}{[Yūnus b. Ḥabīb (\textsc{b})]}
+    \person{7.5}{170}{right}{west}{-20}{-11}{al-K͡halīl (\textsc{b})}
+    \person{7.5}{180}{right}{west}{-20}{ 4}{Sībawayh (\textsc{b})}
+    %\draw [dashed, ->, -{Latex}] (8.5,170) -- (7.5, 180);
     \person{7.5}{215}{above}{south}{30}{ -25}{al-Ak͡hfas͡h al-Awsaṭ (\textsc{b})}
 
     % Kufah
-    %\person{6.5}{150}{left} {east}{ 16}{0}{Abu Hanifah}
-    \person{6.5}{189}{left} {east}{ 16}{-10}{al-Kisāʾī (\textsc{k})}
+    \person{5.5}{187}{below} {north}{-10}{10}{[Abū Jaɛfar al‑Ruʾāsī (\textsc{k})]}
+    \person{6.5}{189}{below} {north}{-16}{20}{al-Kisāʾī (\textsc{k})}
     \draw [dashed, ->, -{Latex}] (5.5,179) -- (6.5, 189);
     \person{6.5}{207}{left} {east}{ 16}{2}{al-Farrāʾ (\textsc{k})}
     \draw [dashed, ->, -{Latex}] (5.5,197) -- (6.5, 207);
@@ -252,7 +259,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \person{6.5}{377}{left} {east}{ 16}{3}{Abū Ɛaliyy al-Fārisī (\textsc{b})}
     \person{6.5}{384}{left} {east}{ 16}{9}{al-Rummānī}
     \person{6.5}{392}{left} {east}{ 16}{13}{Ibn Jinnī}
-    \person{6.5}{577}{right} {west}{-16}{-1}{Abū al-Barakāt al-Anbārī}
+    \person{6.5}{577}{right} {west}{-16}{-1}{Abu l-Barakāt al-Anbārī}
     %\person{5.5}{684}{right} {west}{-16}{-9}{al-Raḍiyy al-Astarābād͡hī}
 
     % Hijaz
@@ -292,9 +299,9 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
     \dynasty    {bricks}            {5}    {5}      {0}     {11}  {}{} % Prophet pbuh
     \dynasty    {bricks}            {2.5}  {8.5}    {11}    {41}  {RASHIDUN}{}
-    \dynasty    {north east lines}  {2}    {9}      {41}    {132} {UMMAYADS}{}
+    \dynasty    {north east lines}  {2}    {9}      {41}    {132} {UMMAYADS}{xshift=-40pt}
     \dynasty    {north east lines}  {1}    {1}      {\cetoah{711}}    {\cetoah{1031}} {UMMAYADS}{rotate=90}
-    \dynasty    {vertical lines}    {3}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{yshift=6pt}
+    \dynasty    {vertical lines}    {3}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{xshift=30pt,yshift=6pt}
     \dynasty    {vertical lines}    {2}    {2}      {132}             {\cetoah{909}} {}{}% Abbasids % North Africa
     \dynasty    {vertical lines}    {3}    {5}      {\cetoah{945}}    {\cetoah{969}} {}{}% Abbasids % egypt, syria, hijaz
     \dynasty    {dots}              {2}    {1.5}    {\cetoah{788}}    {\cetoah{909}} {\scriptsize IDRISIDS}{rotate=90}
@@ -340,6 +347,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 ```
 
 A (year of death) timeline and geographical distribution of some of the more well-known grammarians.^[Adapted from Andreas Hallberg's blog post [[andreasmhallberg.github.io/timeline-of-arab-grammarians](https://andreasmhallberg.github.io/timeline-of-arab-grammarians)]{.citex}, and Ovamir Anjum's presentation at the Muslim Community Association, Santa Clara, Calif., 2013 [[youtu.be/cZ6RoRMF-kI](https://youtu.be/cZ6RoRMF-kI)]{.citex}.]
+Putative proto-grammarians are distinguished using brackets.
 [(b)]{.smallcaps}
 and
 [(k)]{.smallcaps}
@@ -347,7 +355,7 @@ indicate an affiliation with the
 [#baSr]{.trn2}an
 and
 [#kUf]{.trn2}an schools, respectively.
-Arrows with dashed lined indicate a grammarian's relocation as a student or as a professional.
+Arrows with dashed lined indicate a grammarian's professional relocation.
 :::
 
 
@@ -705,7 +713,7 @@ instead of the more normative:
 
 (@) [ضَرَبَنِي قَوْمُكَ]{.ar}
 
-The dialectal usage of example ()
+The dialectal feature used in example ()
 is graded as rare.^[[[كتاب سيبويه]{.ar} 2/40](https://shamela.ws/book/23018/475)]
 It did not make its way into [sca]{.smallcaps}.
 Instead, the more common usage in example () became the standard.
@@ -746,10 +754,11 @@ and
 [sca]{.smallcaps} uses only
 [تِلْكَ]{.ar} [tilka]{.trn}.
 Furthermore,
-Classical Arabic had a curious feature,
+Classical Arabic had a feature,
 where the end [ك]{.ar} in a far pointing noun
 could optionally be dualized or pluralized,
-depending on the number and gender of people being spoken to.^[[[معاني النحو]{.ar} 1/99](https://shamela.ws/book/17801/98)]
+to match
+the number and gender of the persons being spoken to.^[[[معاني النحو]{.ar} 1/99](https://shamela.ws/book/17801/98)]
 For example:
 
 (@) [وَنَادَىٰهُمَا رَبُّهُمَاۤ أَلَمۡ أَنۡهَكُمَا عَن **تِلۡكُمَا** ٱلشَّجَرَةِ وَأَقُل لَّكُمَاۤ إِنَّ ٱلشَّیۡطَـٰنَ لَكُمَا عَدُوࣱّ مُّبِینࣱ]{.quran}
@@ -761,7 +770,7 @@ This feature tends to not be used in [sca]{.smallcaps}.
 It must be stressed that
 the variations found in attested usage are,
 generally, all correct Classical Arabic.
-One cannot take the option that is used in [sca]{.smallcaps}
+One cannot take the subset that is used in [sca]{.smallcaps}
 and,
 on its basis,
 pronounce judgement on a non-conforming dialectal feature
@@ -1322,7 +1331,7 @@ so that it aligned with a minimal set of rules.^[[القياس في اللغة �
 Both, however, as a general rule, accepted the anomalous usage as valid attested usage.
 
 The [#kUf]{.trn2}ans are also thought to be more grounded in that they tried to stay
-closer to attested usage^[[[التذييل والتكميل لأبي حيان]{.ar} 11/75](https://shamela.ws/book/17116/3610)]
+closer to attested usage,^[[[التذييل والتكميل لأبي حيان]{.ar} 11/75](https://shamela.ws/book/17116/3610)]
 rather than venturing into too much virtual modeling.
 
 Generally speaking,
