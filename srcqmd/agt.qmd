@@ -272,18 +272,18 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \draw [dashed, ->, -{Latex}] (0.5,674) -- (2.5, 745);
     \person{2.5}{761}{right} {west}{-16}{3}{Ibn His͡hām al-Anṣārī}
     \person{2.5}{769}{right} {west}{-16}{9}{Ibn Ɛaqīl}
-    \person{2.5}{900}{right} {west}{-16}{-2}{al-As͡hmūnī}
+    \person{2.5}{900}{right} {west}{-16}{-2}{al-Us͡hmūnī}
     \person{2.5}{911}{right} {west}{-16}{6}{al-Suyūṭī}
 
     % Persia
     \person{8.5}{471}{left} {east}{ 16}{0}{al-Jurjānī}
-    \person{8.5}{538}{left} {east}{ 16}{-1}{al-Zamak͡hs͡harī}
+    \person{9}{538}{left} {east}{ 16}{-1}{al-Zamak͡hs͡harī}
     %\person{8.5}{684}{left} {east}{ 16}{-6}{al-Raḍiyy al-Astarābād͡hī}
     \person{8.5}{395}{left} {east}{ 20}{12}{Ibn Fāris}
 
     % Andalus
     \person{0.5}{592}{right}{west}{-16}{-10}{Ibn Maḍāʾ}
-    %\person{0.5}{790}{right}{west}{-16}{22}{Abū Is·ḥāq al-S͡hāṭibī}
+    \person{0.5}{790}{right}{west}{-16}{22}{Abū Is·ḥāq al-S͡hāṭibī}
     \person{0.5}{645}{left}{east}{26}{3}{al-S͡halawbīn}
 
     % North Africa
@@ -293,8 +293,8 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
     \dynasty    {bricks}            {5}    {5}      {0}     {11}  {}{} % Prophet pbuh
     \dynasty    {bricks}            {2.5}  {8.5}    {11}    {41}  {RASHIDUN}{}
-    \dynasty    {north east lines}  {2}    {9}      {41}    {132} {UMMAYADS}{xshift=-40pt,yshift=-3pt}
-    \dynasty    {north east lines}  {1}    {1}      {\cetoah{711}}    {\cetoah{1031}} {UMMAYADS}{rotate=90}
+    \dynasty    {north east lines}  {2}    {9}      {41}    {132} {UMAYYADS}{xshift=-40pt,yshift=-3pt}
+    \dynasty    {north east lines}  {1}    {1}      {\cetoah{711}}    {\cetoah{1031}} {UMAYYADS}{rotate=90}
     \dynasty    {vertical lines}    {3}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{xshift=30pt,yshift=6pt}
     \dynasty    {vertical lines}    {2}    {2}      {132}             {\cetoah{909}} {}{}% Abbasids % North Africa
     \dynasty    {vertical lines}    {3}    {5}      {\cetoah{945}}    {\cetoah{969}} {}{}% Abbasids % egypt, syria, hijaz
