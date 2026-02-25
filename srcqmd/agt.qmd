@@ -237,8 +237,8 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \person{7.5}{215}{above}{south}{30}{ -25}{al-Ak͡hfas͡h al-Awsaṭ (\textsc{b})}
 
     % Kufah
-    \person{5.5}{187}{left} {east}{ 16}{-20}{[Abū Jaɛfar al‑Ruʾāsī (\textsc{k})]}
-    \person{6.5}{189}{left} {east}{ 16}{-10}{al-Kisāʾī (\textsc{k})}
+    \person{5.5}{187}{below} {north}{-10}{10}{[Abū Jaɛfar al‑Ruʾāsī (\textsc{k})]}
+    \person{6.5}{189}{below} {north}{-16}{20}{al-Kisāʾī (\textsc{k})}
     \draw [dashed, ->, -{Latex}] (5.5,179) -- (6.5, 189);
     \person{6.5}{207}{left} {east}{ 16}{2}{al-Farrāʾ (\textsc{k})}
     \draw [dashed, ->, -{Latex}] (5.5,197) -- (6.5, 207);
@@ -293,9 +293,9 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
     \dynasty    {bricks}            {5}    {5}      {0}     {11}  {}{} % Prophet pbuh
     \dynasty    {bricks}            {2.5}  {8.5}    {11}    {41}  {RASHIDUN}{}
-    \dynasty    {north east lines}  {2}    {9}      {41}    {132} {UMMAYADS}{}
+    \dynasty    {north east lines}  {2}    {9}      {41}    {132} {UMMAYADS}{xshift=-40pt}
     \dynasty    {north east lines}  {1}    {1}      {\cetoah{711}}    {\cetoah{1031}} {UMMAYADS}{rotate=90}
-    \dynasty    {vertical lines}    {3}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{yshift=6pt}
+    \dynasty    {vertical lines}    {3}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{xshift=30pt,yshift=6pt}
     \dynasty    {vertical lines}    {2}    {2}      {132}             {\cetoah{909}} {}{}% Abbasids % North Africa
     \dynasty    {vertical lines}    {3}    {5}      {\cetoah{945}}    {\cetoah{969}} {}{}% Abbasids % egypt, syria, hijaz
     \dynasty    {dots}              {2}    {1.5}    {\cetoah{788}}    {\cetoah{909}} {\scriptsize IDRISIDS}{rotate=90}
