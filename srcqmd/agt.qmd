@@ -84,23 +84,36 @@ from these primitive beginnings,
 into a highly developed system of linguistic analysis.^[@baalbaki_intro@ xiii]
 
 Initially,
-grammatical research was centered mainly
+in the second century\ ;ah;,
+grammatical activity was centered mainly
 in two places:
 the cities of [al-#baSrah]{.trn2}
 and [al-#kUfah]{.trn2},
 in Iraq.^[See also @carter_arabic_grammar@ 126--127]
-These
+By middle of the third century\ ;ah;,
+these
 ;basran;
 and
 ;kufan;
+schools had eventually moved to the Abbasid capital [#bagdAd]{.trn2}.
+After the fourth century\ ;ah;,
+the grammarians
+were more geographically widespread,
+with
+many famous later grammarians operating out of
+Egypt, Syria, Persia, and [al-#andalus]{.trn2} (;islam;ic Spain).
+
+<!--
 schools were mainly active,
 in their eponymous cities,
 into the third century\ ;ah;.
 After that, grammarians would still often be affiliated academically
 with one of the two schools,
-but they were more geographically widespread.
+but they 
+were more geographically widespread.
 Many famous later grammarians operated out of
 [#bagdAd]{.trn2}, Egypt, Syria, Persia, and [al-#andalus]{.trn2} (;islam;ic Spain).
+-->
 
 <!--
 [al-#kisAEI]{.trn2}  
@@ -244,16 +257,15 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \draw [dashed, ->, -{Latex}] (5.5,197) -- (6.5, 207);
 
     % Baghdad
-    \draw [dashed, ->, -{Latex}] (7.5,280) -- (6.5, 285);
-    %\person{6.5}{285}{above}{south}{45}{-20}{al-Mubarrad (\textsc{b})}
-    \person{6.5}{285}{left} {east}{ 16}{-1}{al-Mubarrad (\textsc{b})}
-    \person{6.5}{291}{left} {east}{ 16}{4}{T͡haɛlab (\textsc{k})}
-    \person{6.5}{316}{left} {east}{ 16}{3}{Ibn al-Sarrāj (\textsc{b})}
-    \person{6.5}{337}{left} {east}{ 16}{4}{al-Zajjājī}
-    \person{6.5}{368}{left} {east}{ 16}{3}{al-Sīrāfī (\textsc{b})}
-    \person{6.5}{377}{left} {east}{ 16}{7}{Abū Ɛaliyy al-Fārisī (\textsc{b})}
-    \person{6.5}{384}{left} {east}{ 16}{13}{al-Rummānī}
-    \person{6.5}{392}{left} {east}{ 16}{17}{Ibn Jinnī}
+    \draw [dashed, ->, -{Latex}] (7.5,260) -- (6.5, 285);
+    \person{6.5}{285}{left} {east}{ 16}{1}{al-Mubarrad (\textsc{b})}
+    \person{6.5}{291}{left} {east}{ 16}{6}{T͡haɛlab (\textsc{k})}
+    \person{6.5}{316}{left} {east}{ 16}{5}{Ibn al-Sarrāj (\textsc{b})}
+    \person{6.5}{337}{left} {east}{ 16}{6}{al-Zajjājī}
+    \person{6.5}{368}{left} {east}{ 16}{5}{al-Sīrāfī (\textsc{b})}
+    \person{6.5}{377}{left} {east}{ 16}{9}{Abū Ɛaliyy al-Fārisī (\textsc{b})}
+    \person{6.5}{384}{left} {east}{ 16}{15}{al-Rummānī}
+    \person{6.5}{392}{left} {east}{ 16}{19}{Ibn Jinnī}
     \person{6.5}{577}{right} {west}{-16}{-1}{Abu l-Barakāt al-Anbārī}
     %\person{5.5}{684}{right} {west}{-16}{-9}{al-Raḍiyy al-Astarābād͡hī}
 
@@ -345,7 +357,6 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 ```
 
 A (year of death) timeline and geographical distribution of some of the more well-known grammarians.^[Adapted from Andreas Hallberg's blog post [[andreasmhallberg.github.io/timeline-of-arab-grammarians](https://andreasmhallberg.github.io/timeline-of-arab-grammarians)]{.citex}, and Ovamir Anjum's presentation at the Muslim Community Association, Santa Clara, Calif., 2013 [[youtu.be/cZ6RoRMF-kI](https://youtu.be/cZ6RoRMF-kI)]{.citex}.]
-Putative proto-grammarians are distinguished using brackets.
 [(b)]{.smallcaps}
 and
 [(k)]{.smallcaps}
@@ -353,7 +364,8 @@ indicate an affiliation with the
 ;basran;
 and
 ;kufan; schools, respectively.
-Arrows with dashed lined indicate a grammarian's professional relocation.
+Brackets indicate putative proto-grammarians.
+Some professional relocations are indicated using dashed arrows.
 :::
 
 
