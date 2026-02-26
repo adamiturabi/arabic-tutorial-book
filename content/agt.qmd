@@ -251,14 +251,15 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
     % Baghdad
     \draw [dashed, ->, -{Latex}] (7.5,280) -- (6.5, 285);
-    \person{6.5}{285}{above}{south}{45}{-20}{al-Mubarrad (\textsc{b})}
-    \person{6.5}{291}{left} {east}{ 16}{-1}{T͡haɛlab (\textsc{k})}
-    \person{6.5}{316}{left} {east}{ 16}{-1}{Ibn al-Sarrāj (\textsc{b})}
-    \person{6.5}{337}{left} {east}{ 16}{0}{al-Zajjājī}
-    \person{6.5}{368}{left} {east}{ 16}{-1}{al-Sīrāfī (\textsc{b})}
-    \person{6.5}{377}{left} {east}{ 16}{3}{Abū Ɛaliyy al-Fārisī (\textsc{b})}
-    \person{6.5}{384}{left} {east}{ 16}{9}{al-Rummānī}
-    \person{6.5}{392}{left} {east}{ 16}{13}{Ibn Jinnī}
+    %\person{6.5}{285}{above}{south}{45}{-20}{al-Mubarrad (\textsc{b})}
+    \person{6.5}{285}{left} {east}{ 16}{-1}{al-Mubarrad (\textsc{b})}
+    \person{6.5}{291}{left} {east}{ 16}{4}{T͡haɛlab (\textsc{k})}
+    \person{6.5}{316}{left} {east}{ 16}{3}{Ibn al-Sarrāj (\textsc{b})}
+    \person{6.5}{337}{left} {east}{ 16}{4}{al-Zajjājī}
+    \person{6.5}{368}{left} {east}{ 16}{3}{al-Sīrāfī (\textsc{b})}
+    \person{6.5}{377}{left} {east}{ 16}{7}{Abū Ɛaliyy al-Fārisī (\textsc{b})}
+    \person{6.5}{384}{left} {east}{ 16}{13}{al-Rummānī}
+    \person{6.5}{392}{left} {east}{ 16}{17}{Ibn Jinnī}
     \person{6.5}{577}{right} {west}{-16}{-1}{Abu l-Barakāt al-Anbārī}
     %\person{5.5}{684}{right} {west}{-16}{-9}{al-Raḍiyy al-Astarābād͡hī}
 
@@ -273,7 +274,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
     % Egypt
     %\person{2.5}{204}{right} {west}{-16}{0}{al-Shafiei}
-    \person{2.5}{646}{left} {north}{ 10}{-10}{Ibn al-Ḥājib}
+    \person{2.5}{646}{left} {north}{ 10}{-8}{Ibn al-Ḥājib}
     \person{2.5}{745}{right} {west}{-16}{-2}{Abū Ḥayyān}
     \draw [dashed, ->, -{Latex}] (0.5,674) -- (2.5, 745);
     \person{2.5}{761}{right} {west}{-16}{3}{Ibn His͡hām al-Anṣārī}
@@ -292,7 +293,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     %\person{0.5}{592}{right}{west}{-16}{-10}{Ibn Maḍāʾ}
     \person{0.5}{592}{left}{east}{16}{8}{Ibn Maḍāʾ}
     %\person{0.5}{790}{right}{west}{-16}{22}{Abū Is·ḥāq al-S͡hāṭibī}
-    \person{0.5}{790}{above}{south}{-14}{-22}{Abū Is·ḥāq al-S͡hāṭibī}
+    \person{0.5}{790}{above}{south}{-13}{-22}{Abū Is·ḥāq al-S͡hāṭibī}
     \person{0.5}{645}{left}{east}{24}{3}{al-S͡halawbīn}
 
     % North Africa
