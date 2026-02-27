@@ -160,7 +160,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
 ::: {#fig-gramtimeline .test-class}
 ```{.tikz}
-% The following code is adapted from adapted from Andreas Hallberg’s https://andreasmhallberg.github.io/timeline-of-arab-grammarians
+% The following code is adapted from adapted from Andreas Hallberg’s https://andreasmhallberg.github.io/documents/alt-timeline.tex
 \usetikzlibrary{patterns}
 \usetikzlibrary{calc, backgrounds}
 \usetikzlibrary{arrows.meta, decorations.text}
@@ -362,7 +362,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 \end{tikzpicture}
 ```
 
-A (year of death) timeline and geographical distribution of some of the more well-known grammarians.^[Adapted from Andreas Hallberg's blog post [[andreasmhallberg.github.io/timeline-of-arab-grammarians](https://andreasmhallberg.github.io/timeline-of-arab-grammarians)]{.citex}, and Ovamir Anjum's presentation at the Muslim Community Association, Santa Clara, Calif., 2013 [[youtu.be/cZ6RoRMF-kI](https://youtu.be/cZ6RoRMF-kI)]{.citex}.]
+A (year of death) timeline and geographical distribution of some of the more well-known grammarians.^[Adapted from Andreas Hallberg's figure (and TikZ code) at [[`andreasmhallberg.github.io/timeline-of-arab-grammarians`](https://andreasmhallberg.github.io/timeline-of-arab-grammarians)]{.citex}, and from Ovamir Anjum's presentation at the Muslim Community Association, Santa Clara, Calif., 2013 [[`youtu.be/cZ6RoRMF-kI`](https://youtu.be/cZ6RoRMF-kI)]{.citex}.]
 [(b)]{.smallcaps}
 and
 [(k)]{.smallcaps}
@@ -698,11 +698,9 @@ widespread adoption of the grammarians' rules.
 When 
 Standard Classical Arabic ([sca]{.smallcaps}) emerged as
 literary standard,
-then,
-it tended to converge to using only
+it converged to using only
 a small subset
-out of the many variations allowed in Classical Arabic,
-for a particular linguistic feature.
+out of the many variations allowed in Classical Arabic.
 <!--
 Often,
 the option chosen by [sca]{.smallcaps}
@@ -803,7 +801,7 @@ generally, all correct Classical Arabic.
 One cannot take the subset that is used in [sca]{.smallcaps}
 and,
 on its basis,
-pronounce judgement on a non-conforming dialectal feature
+pronounce judgement on a non-conforming feature
 that is found in attested usage.
 
 ## Virtual modeling ([التَّقْدِير]{.ar})
@@ -820,13 +818,11 @@ This is because surface speech,
 even when not anomalous usage,
 has too much variation and complexity to be wrangled
 into a minimalist framework of grammatical principles directly.
-
-For example,
-oftentimes, two surface speech utterances can differ in their apparent form.
-Nevertheless, there would seem to be a common grammatical principle at work
+Oftentimes, two surface speech utterances can differ in their apparent form.
+But there would seem to be a common grammatical principle at work
 that directs the structure of both surface speech utterances.
 
-In order to describe the language using grammatical principles,
+In order to describe the language using a minimal set of grammatical principles,
 the grammarians theorized
 a _virtual model_
 of the surface speech.
@@ -987,7 +983,8 @@ The doer of each action is again a person who is not named but who is known to t
 
 So, evidently, samples () through () are complete sentences with pronoun doers,
 just like samples () through ().
-But the problem is that there are no apparent extra sounds/letters after the verbs which can be considered the doer.
+But the problem is that there are no apparent extra sounds/letters after the verbs
+which can be considered the doer.
 
 Some of the verbs in these sentences,
 like in examples () and (),
@@ -1151,7 +1148,13 @@ It uses the pronoun [هُوَ]{.ar} as an _emphatic follower_ (see chapter\ (ref
 #### The literal representation used in the virtual model may not be real
 
 Another point
-is that the virtually modeled doers,
+is that
+the grammarians' representation
+of the virtual model
+may not necessarily be real.
+
+In the example of latent doer pronouns,
+the virtually modeled doers,
 ([[هُوَ]{.ar}],
 [[هِيَ]{.ar}],
 [[أَنَا]{.ar}],
@@ -1167,7 +1170,7 @@ And because there are no real words to denote the latent doer pronouns,
 the grammarian borrows the words that denote the detached pronouns to do so.
 
 As it happens,
-the virtually modeled latent pronouns are theorized to be (invisible) attached pronouns,^[[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar}, [تمهيد ز--ط]{.ar}]
+the virtually modeled latent pronouns are theorized to be (invisible/inaudible) _attached_ pronouns,^[[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar}, [تمهيد ز--ط]{.ar}]
 just like the overt doer pronouns
 [تُ]{.ar} [I]{.trans},
 [نَا]{.ar} [we]{.trans},
