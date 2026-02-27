@@ -791,11 +791,12 @@ whereas
 [هُنَالِكَ]{.ar}
 is hardly ever used.
 
-#### Dualizing/pluralizing the [ك]{.ar} in the far pointing nouns {.unnumbered}
+#### Matching [ك]{.ar} in the far pointing nouns to the gender and number of the persons being spoken to {.unnumbered}
+
 
 Classical Arabic had a feature,
 where the end [ك]{.ar} in a far pointing noun
-could optionally be dualized or pluralized,
+could optionally be feminized, dualized, or pluralized,
 to match
 the number and gender of the persons being spoken to.^[[[معاني النحو]{.ar} 1/99](https://shamela.ws/book/17801/98)]
 For example:
@@ -817,11 +818,74 @@ For example:
 
 #### [وَهْوَ]{.ar}, [فَهْوَ]{.ar}, etc. {.unnumbered}
 
+When the conjunction [وَ]{.ar}
+or [فَ]{.ar}
+is attached to the pronouns
+[هُوَ]{.ar}
+and [هِيَ]{.ar}
+then
+Classical Arabic
+would optionally pronounce them as
+[وَهْوَ]{.ar}, [فَهْوَ]{.ar}, etc.^[[[شرح ابن يعيش على المفصل]{.ar} 5/312](https://shamela.ws/book/13301/2250)]
+For example:
+
+(@) [عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم ذَكَرَ يَوْمَ الْجُمُعَةِ فَقَالَ  فِيهِ سَاعَةٌ لاَ يُوَافِقُهَا عَبْدٌ مُسْلِمٌ، **وَهْوَ** قَائِمٌ يُصَلِّي، يَسْأَلُ اللَّهَ تَعَالَى شَيْئًا إِلاَّ أَعْطَاهُ إِيَّاهُ]{.ar}
+    [[[صحيح البخاري]{.ar} :935](https://sunnah.com/bukhari:935)]{.citex}  
+    [On the authority of [#abU #hurayrah]{.trn2}, Allāh's Messenger [ﷺ]{.aralt} mentioned the day of Friday and said, "There is an hour on Friday in which no Muslim servant stands praying and asks Allāh for something except that He will grant it to him."]{.trans}  
+
+[sca]{.smallcaps} does not typically use this option.
+
 #### [هَرَاقَ]{.ar} {.unnumbered}
 
-#### Dropping the u-state-[ن]{.ar} of the stateful verb {.unnumbered}
+In Classical Arabic the stem-4 verb
+[أَرَاقَ يُرِيقُ]{.ar} [to pour, spill]{.trans}
+had variants:
+[هَرَاقَ يُهَرِيقُ]{.ar}
+and
+[أَهْرَاقَ يُهْرِيقُ]{.ar}.
 
-<https://shamela.ws/book/13257/52#p1>
+
+<!--
+(@) [قَالُوا أَهْرِقْ هَذِهِ الْقِلاَلَ يَا أَنَسُ]{.ar}
+    [[[صحيح البخاري]{.ar} :4617](https://sunnah.com/bukhari:4617)]{.citex}  
+    [They said, "Pour out these pots, O Anas."]{.trans}
+-->
+
+(@) [فَإِنْ أَصْبَحَ مِنْهُ شَىْءٌ أَهْرَاقَهُ]{.ar}
+    [[[سنن النسائي]{.ar} :5739](https://sunnah.com/nasai:5739)]{.citex}  
+    [If anything was left of it the following morning he poured it out.]{.trans}
+
+These variants are not used in [sca]{.smallcaps}.
+
+#### The u-state-[ن]{.ar} of the stateful verb {.unnumbered}
+
+There are five stateful verbs for which the u-state is indicate using a [ن]{.ar}.
+They are:
+
+  i. [يَفْعَلُونَ]{.ar} [they~3m~]{.trans}
+ ii. [تَفْعَلُونَ]{.ar} [you~3m~]{.trans}
+iii. [يَفْعَلَانِ]{.ar} [they~2m~]{.trans}
+ iv. [تَفْعَلَانِ]{.ar} [they~2f~/you~2~]{.trans}
+  v. [تَفْعَلِينَ]{.ar} [you~1f~]{.trans}
+
+In Classical Arabic, the [ن]{.ar} could occasionally be dropped.
+For example:
+
+(@) [وَالَّذِي نَفْسِي بِيَدِهِ لاَ **تَدْخُلُوا** الْجَنَّةَ حَتَّى تُؤْمِنُوا وَلاَ تُؤْمِنُوا حَتَّى تَحَابُّوا]{.ar}
+    [[[جامع الترمذي]{.ar} :2688](https://sunnah.com/tirmidhi:2688)]{.citex}  
+    [By the One in Whose Hand is my soul! You will not enter Paradise until you believe, and you will not believe until you love one another.]{.trans}  
+
+The [ن]{.ar} is not dropped in [sca]{.smallcaps}.
+
+In addition, when these verbs have
+a speaker-participant pronoun as its direct doee,
+then Classical Arabic had three acceptable forms^[[[شرح التسهيل لابن مالك]{.ar} 1/51--53](https://shamela.ws/book/13257/50#p1)]:
+
+  i. [يَفْعَلُونَنِي]{.ar}
+ ii. [يَفْعَلُونِّي]{.ar}
+iii. [يَفْعَلُونِي]{.ar}
+
+[sca]{.smallcaps} uses only option (i).
 
 #### Summary {.unnumbered}
 
@@ -840,8 +904,7 @@ base or archetypal form,
 from which other variations would branch out.
 Alternative forms and patterns,
 once fully natural and widely used,
-gradually
-fell out of circulation as the language became standardized.
+fell into disuse as the language became standardized.
 
 It must be stressed that
 the variations found in attested usage are,
