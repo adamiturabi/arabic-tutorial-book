@@ -667,19 +667,19 @@ leads to something that is contrary to attested usage.^[[[الانتصار لس�
 Classical Arabic consisted of multiple dialects
 that were spoken by the various tribes of the Arabs
 in the different regions of the Arabian peninsula.
-
 When the grammarians
 <!--
 developed analogy-based rules from attested usage,
 -->
 described the Arabic of attested usage,
-they would typically list the linguistic variations found in the different dialects of Classical Arabic.
+they would typically list many of the linguistic variations found in the different dialects of Classical Arabic.
+<!--
 The grammarians would also often grade the variations,
 sometimes regarding 
 a particular variation as the
 more common, normative, original, or (in their opinion) more eloquent.
 Generally speaking, however, all variations were accepted by the grammarians as correct Classical Arabic.
-
+-->
 <!--
 the usages in the different dialects.
 For forming analogy-based rules,
@@ -688,7 +688,6 @@ out of the various usages,
 a more commnormative one, or a more eloquent one,
 or a more preferred one, or what they deemed a more original one.
 Even within a dialect, sometimes there are multiple permissible ways to construct an expression.
-
 Standard Classical Arabic ([sca]{.smallcaps}) is the _de facto_ standard variety
 of Classical Arabic
 that became dominant through,
@@ -702,10 +701,13 @@ literary standard,
 then,
 it tended to converge to using only
 a small subset
-out of the many variations allowed in Classical Arabic.
+out of the many variations allowed in Classical Arabic,
+for a particular linguistic feature.
+<!--
 Often,
 the option chosen by [sca]{.smallcaps}
 would align with the grammarians' gradings.
+-->
 <!--
 _de facto_ standard
 -->
@@ -730,7 +732,7 @@ instead of the more normative:
 (@) [ضَرَبَنِي قَوْمُكَ]{.ar}
 
 The dialectal feature used in example ()
-is graded as rare.^[[[كتاب سيبويه]{.ar} 2/40](https://shamela.ws/book/23018/475)]
+is graded by the grammarians as rare.^[[[كتاب سيبويه]{.ar} 2/40](https://shamela.ws/book/23018/475)]
 It did not make its way into [sca]{.smallcaps}.
 Instead, the more common usage in example () became the standard.
 
@@ -760,15 +762,27 @@ which retains the full pronunciation of hamzah for most words.
 As yet another example,
 Classical Arabic
 had a large variety of pointing nouns.
-For example, [that~1f~]{.trans}
+For example, "[that~1f~]{.trans}"
 was expressed using
-(amongst other options)
 both
 [تِلْكَ]{.ar} [tilka]{.trn}
 and
 [تِيكَ]{.ar} [tIka]{.trn}.
 [sca]{.smallcaps} uses only
 [تِلْكَ]{.ar} [tilka]{.trn}.
+Similarly,
+Classical Arabic expressed "[there]{.trans}"
+using both
+[هُنَاكَ]{.ar}
+and [هُنَالِكَ]{.ar}.
+In [sca]{.smallcaps},
+only
+[هُنَاكَ]{.ar}
+tends to be used,
+whereas
+[هُنَالِكَ]{.ar}
+is hardly ever used.
+
 Furthermore,
 Classical Arabic had a feature,
 where the end [ك]{.ar} in a far pointing noun
