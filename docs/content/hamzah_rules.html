@@ -1461,7 +1461,7 @@ A second variant is to avoid the repetition of vowel letters like [و]{.aralt} a
 </section>
 <section id="typographical-limitations" class="level2" data-number="A.4">
 <h2 data-number="A.4" class="anchored" data-anchor-id="typographical-limitations"><span class="header-section-number">A.4</span> Typographical limitations</h2>
-<p>Unfortunately, most digital fonts do not currently allow for correctly typing an unseated hamzah between two joined letters (<span class="alt-ar-span" lang="ar" dir="rtl">ـءـ</span>), as in <span class="alt-ar-span" lang="ar" dir="rtl">خَطِيءَة</span> <span class="trn2"><span class="trn"><em>k͡haṭīʾah</em></span></span>. In most fonts, the hamzah character (Unicode u+0621) will break the joining between the two letters surrounding it, and the output will be rendered incorrectly: <span class="reg-ar-span" lang="ar" dir="rtl">خَطِيءَة</span> <span class="trn2"><span class="trn"><em>k͡haṭīʾah</em></span></span>.</p>
+<p>Unfortunately, most digital fonts do not currently allow for correctly typing an unseated hamzah between two joined letters (<span class="alt-ar-span" lang="ar" dir="rtl">ـءـ</span>), as in <span class="alt-ar-span" lang="ar" dir="rtl">خَطِيءَة</span> <span class="trn2"><span class="trn"><em>k͡haṭīʾah</em></span></span>. In most fonts, the hamzah character (Unicode <code>u+0621</code>) will break the joining between the two letters surrounding it, and the output will be rendered incorrectly: <span class="reg-ar-span" lang="ar" dir="rtl">خَطِيءَة</span> <span class="trn2"><span class="trn"><em>k͡haṭīʾah</em></span></span>.</p>
 <p>Two typefaces which allow for the correct typesetting are</p>
 <ul>
 <li>Amiri from Alif Type (<a href="https://www.amirifont.org/">amirifont.org</a>)</li>
@@ -1471,8 +1471,8 @@ A second variant is to avoid the repetition of vowel letters like [و]{.aralt} a
 <p>For most other fonts, an unseated hamzah between two joined letters would have to be approximated in one of two ways:</p>
 <ol type="1">
 <li><p>Hamzah superscript on a <span class="trn2">taṭwīl</span> character: <span class="reg-ar-span" lang="ar" dir="rtl">ـٔ</span>. Example: <span class="reg-ar-span" lang="ar" dir="rtl">خَطِيـَٔة</span>. The Unicode input sequence is:</p>
-<p>u+0640 <span class="smallcaps">arabic tatweel</span><br>
-u+0654 <span class="smallcaps">arabic hamza above</span></p>
+<p><code>u+0640</code> <span class="smallcaps">arabic tatweel</span><br>
+<code>u+0654</code> <span class="smallcaps">arabic hamza above</span></p>
 <p>This is a more accurate approximation, but some fonts may not position the hamzah correctly on the <span class="trn2">taṭwīl</span>, or position vowel marks on the superscript hamzah correctly.</p></li>
 <li><p>Hamzah seated on <span class="trn2">yāʾ</span>: <span class="reg-ar-span" lang="ar" dir="rtl">ئ</span>. Example: <span class="reg-ar-span" lang="ar" dir="rtl">خَطِيئَة</span>. This is a reprehensible, yet more prevalent, and better supported, approximation.</p></li>
 </ol>
