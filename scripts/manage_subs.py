@@ -79,6 +79,7 @@ map_table["_maa"] = "مَا"
 map_table["_lan"] = "لَنْ"
 
 map_table["kaana"] = "[كَانَ]{.ar}"
+map_table["yakun"] = "[يَكُنْ]{.ar}"
 map_table["laysa"] = "[لَيْسَ]{.ar}"
 
 #map_table["qatala"] = "[qatala]{.trn}"
@@ -157,6 +158,7 @@ map_table["3atf_bayan"] = "clarifying follower"
 
 map_table["adat_istifham"] = "question word"
 map_table["af3al"] = "comparative noun"
+map_table["fi3l_qalb"] = "verb of perception"
 map_table["af3aal_quloob"] = "verbs of perception"
 
 map_table["badal"] = "sub" # replacement, substitute
