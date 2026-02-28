@@ -1494,7 +1494,15 @@ peled p. 27 examples 36 and 38; pp. 19--20
 
 
 
-## The ;tense; and significance of the verb forms
+## The ;tense; and significance of the verb forms in a ;j_sh;
+
+### The ;tense; of dynamic verbs in a ;j_sh;
+
+Dynamic verbs are those that state an event or describe a process,
+like [أَتَى]{.ar} [to come]{.trans},
+[أَكْرَمَ]{.ar} [to honor]{.trans},
+etc.
+
 
 <!--
 So far we have deferred a detailed discussion
@@ -1625,9 +1633,20 @@ or the ;jawab_shart;,
 then their essential significations,
 as listed above,
 can be retained.
+But the ;adat_shart; allows the ;tense; of the ;shart; to be open to all times.
+
+<!--
+But the ;adat_shart; can allow the scenario of the ;shart;,
+i.e. the situation in which the ;shart; occurs,
+to be transported to a different ;tense;.
+By default, it will transport the scenario of ;shart; to the future,
+but it could also be transported to the past.
+-->
+<!--
 The ;tense; of the
 entire condition, however,
 could be in the past, present, or future.
+-->
 
 So,
 <!--
@@ -1680,8 +1699,8 @@ Consider for example the ;j_sh;:
 
 In a past context, this ;j_sh; can have a past meaning:
 
-(@) [زَعَمْتَ أَنِّي لَمْ أَجْزِكَ بَمَا أَحْسَنْتَ إِلَيَّ قُلْتُ إِنْ أَحْسَنْتَ إِلَيَّ أَحْسَنْتُ إِلَيْكَ]{.ar}  
-    [You claim that I did not pay you back for your being good to me.
+(@) [زَعَمْتَ أَنِّي لَمْ أَجْزِكَ بَمَا صَنَعْتَ إِلَيَّ مَعْرُوفًا قُلْتُ إِنْ أَحْسَنْتَ إِلَيَّ أَحْسَنْتُ إِلَيْكَ]{.ar}  
+    [You claim that I did not recompense you for your doing me a favor.
     I say that if you were good to me then I was good to you.]{.trans}  
 
 And in a future context, the same ;j_sh; can have a future meaning:
@@ -1696,7 +1715,7 @@ And in a future context, the same ;j_sh; can have a future meaning:
 
 
 Or a ;j_sh; may express a general truth
-that holds for all ;tense;s.
+that holds for all times.
 For example:
 
 (@) [إِنْ مَطَرَتْ مِصْرُ سَالَتْ بَطَائِحُ النِّيلِ]{.ar}  
@@ -1790,7 +1809,155 @@ For example:
     [Zayd expects ;3amr;'s coming tomorrow. And if he **would come** to him, he **would honor** him.]{.trans}
 -->
 
-### ;kaana; as the ;fi3l_shart; or the ;fi3l_jawab_shart;
+### The ;shart; with a static verb
+
+The examples we gave in the previous section
+showed how the ;tense; of a ;shart; can be the past or the future.
+But what if we would like the ;tense; of a ;shart; to be the present?
+This is also possible, but the ;fi3l_shart; in this case is usually a *static* verb.
+We define a static verb,
+in the context of ;j_sh;s to be one of the following^[from @peled_cst@ 13]:
+
+1. ;kaana;
+2. An intransitive verb that has an adjectival meaning.
+   For example:
+   [كَثُرَ]{.ar} [to be many]{.trans},
+   [صَحَّ]{.ar} [to be correct]{.trans},
+   etc.
+3. A _modal_ verb that takes a ;an; clause as a ;mafulb;.
+   For example:
+   [شَاءَ]{.ar} [to wish, want]{.trans},
+   [اسْتَطَاعَ]{.ar} [can]{.trans},
+   etc.
+4. A ;fi3l_qalb;.
+   For example:
+   [عَلِمَ]{.ar} [to know]{.trans},
+   [ظَنَّ]{.ar} [to think]{.trans},
+   [حَسِبَ]{.ar} [to consider]{.trans},
+   etc.
+
+We will treat ;kaana; separately in the next section.
+Here we will give examples of the other kinds of static verbs in ;j_sh;s.
+
+(@) [عَنِ ابْنِ مَسْعُودٍ أَنَّ النَّبِيَّ ﷺ قَالَ الرِّبَا **وَإِنْ كَثُرَ** فَإِنَّ عَاقِبَتَهُ تَصِيرُ إِلَى قُلٍّ]{.ar}
+    [<https://hadithunlocked.com/ahmad:3754>]{.citex}  
+    [On the authority of Ibn [#maseUd]{.trn2} that the Messenger of ;Allah; ;pbuh; said, "Interest, even if it **is much**, its outcome becomes less."]{.trans}  
+
+(@) [فَإِن طَلَّقَهَا فَلَا جُنَاحَ عَلَیۡهِمَاۤ أَن یَتَرَاجَعَاۤ **إِن ظَنَّاۤ** أَن یُقِیمَا حُدُودَ ٱللَّهِۗ]{.quran}
+    [@https://quran.com/2/230@]{.citex}  
+    [And if he [i.e., the latter husband] divorces her [or dies], there is no blame upon them [i.e., the woman and her former husband] for returning to each other if **they think** that they can keep [within] the limits of Allāh.]{.trans}  
+
+For modal verbs like
+[شَاءَ]{.ar} [to wish, want]{.trans},
+[اسْتَطَاعَ]{.ar} [can]{.trans},
+etc.,
+if the ;an; clause ;mafulb; of the modal verb is in the ;shart;
+then it need not be repeated in the ;jawab_shart;.
+The ;jawab_shart;
+can then have an empty verb like [فَعَلَ]{.ar}.^[@peled_cst@ 22]
+Example:
+
+(@) [إِنْ **أَحَبَّ** أَهْلُكِ أَنْ أَصُبَّ لَهُمْ ثَمَنَكِ صَبَّةً وَاحِدَةً فَأُعْتِقَكِ فَعَلْتُ]{.ar}
+    [@https://sunnah.com/bukhari:2564@ cited by @peled_cst@ 22]{.citex}  
+    [If your people **like** that I pay them your price in a lump sum and so manumit you, I will do so.]{.trans}  
+
+Or the
+;an; clause ;mafulb; of the modal verb can be omitted from the ;shart;
+when its meaning is given in the ;jawab_shart;.
+For example:
+
+(@) [إِنْ **شِئْتَ** دَفَعْتُهَا إِلَيْكَ]{.ar}
+    [@https://sunnah.com/bukhari:3828 cited by @peled_cst@ 22]{.citex}  
+    [If you **wish**, I will give her to you]{.trans}  
+
+### Using ;kaana; to explicitly restrict the ;tense; of a ;j_f3l; in a ;shart;
+
+In section\ (ref) above,
+we learned that the 
+;adat_shart; allows the ;tense; of the ;shart; to be open to all times.
+So for example,
+if we say:
+
+(@) [إِنْ ذَهَبْتَ ذَهَبْتُ مَعَكَ]{.ar}  
+    [If you go, I go with you.]{.trans}  
+
+then its ;tense; can be the past, future, or be valid for all times.
+
+But what if we wish to explicitly restrict the ;tense; of the ;shart; to the present or the past?
+We can do this by transforming the sentence in the ;shart;
+to be the ;xabar of ;kaana;.
+;kaana; will then be the ;fi3l_shart;.
+And the ;tense; of the ;shart; will be the ;tense; of the ;xabar; or ;kaana;.
+
+For example, say that we would like to
+restrict the ;tense; of the ;shart; in example () above to the present.
+So we would like to say
+[if you are going, I will go with you]{.trans}.
+We first start with the sentence
+[you are going]{.trans}.
+This is expressed in Arabic using the ;ustate; ;mudarie; verb
+[تَذْهَبُ]{.ar}.
+In order to retain the ;tense; of the sentence in a ;shart;,
+we begin the sentence with ;kaana; and make it the ;fi3l_shart;, thus:
+
+(@) [إِنْ كُنْتَ تَذْهَبُ أَذْهَبُ مَعَكَ]{.ar}  
+    [If **you** are going, I will go with you.]{.trans}  
+
+Note that [تَذْهَبُ]{.ar} is in the ;ustate; because it is not the ;fi3l_shart;.
+
+Similarly,
+let's say we wish to say
+[If you saw him, then why didn't you invite him?]{.trans}
+We first start with the sentence of the ;shart;:
+[you saw him]{.trans}.
+This is expressed in Arabic with
+[رَأَيْتَهُ]{.ar}.
+Now we add ;kaana; before it and, optionally, a [قَدْ]{.ar} as well.
+So we say:
+
+(@) [إِنْ كُنْتَ قَدْ رَأَيْتَهُ فَمَا لَكَ لَمْ تَدْعُهُ]{.ar}  
+    [If you **saw** him, then why didn't you invite him?]{.trans}
+
+By the way, we already know, that in context, the verb
+[رَأَيْتَ]{.ar} can be sufficient for the past ;tense; as well:
+
+(@) [إِنْ رَأَيْتَهُ فَمَا لَكَ لَمْ تَدْعُهُ]{.ar}  
+    [If you saw him, why didn't you invite him?]{.trans}
+
+Now, what if the ;tense; that we would like to specify in the ;shart;
+already begins with ;kaana;?
+For example, what if we would like to say
+[If you **were** going, why didn't you take him with you?]{.trans}
+The sentence in the ;shart; is
+[you were going]{.trans}.
+This is expressed in Arabic as
+[كُنْتَ تَذْهَبُ]{.ar}.
+When we put this sentence in a ;shart;
+then we don't add another ;kaana;.
+So the full ;j_sh; is:
+
+(@) [إِنْ كُنْتَ تَذْهَبُ فَمَا لَكَ لَمْ تَذْهَبْ بِهِ]{.ar}  
+    [If you were going, why didn't you take him with you?]{.trans}
+
+So you can see from examples () and () above that
+[إِنْ كُنْتَ تَذْهَبُ]{.ar}
+can mean both
+[if you are going]{.trans}
+and
+[if you were going]{.trans}.
+But both ways, the ;tense; of the ;shart; is explicitly restricted.
+
+(@) [قَالَ فَمَا لِي لَا أَعْتَدُّ بِهَا وَإِنْ كُنْتُ قَدْ عَجَزْتُ وَاسْتَحْمَقْتُ]{.ar}
+    [@https://sunnah.com/ahmad:304@]{.citex}  
+
+
+--
+
+;kaana; is also used when we wish the ;adat_shart; to not influence the tense of the ;shart;.
+
+If you are going
+
+If you had gone
 
 We saw in the preceding section,
 that the ;tense; of ;j_sh;s is sometimes vague and determined only from context.
