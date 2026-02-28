@@ -4,35 +4,6 @@
 
 ## Introduction
 
-FIXME: consider changing madi from perfect to stateless
-
-
-Planning
-
-* ;in;
-  * in yaqtul yaqtul
-    * government
-    * ;tense; is future and also defer
-  * Negation
-    * in + laa
-    * in + lam
-    * no gov of laa or lam. Dispute regarding lam
-  * in qatala qatala
-    * can mix or match
-    * cannot use maa for negation, only lam (or rarely laa)
-  * static vs dynamic
-  * inverted conditional
-  * ;ustate; ;mudarie; in ;jawab_shart;
-* isnaad, musnadi ilayh, musnad
-* ;idha;
-  * gov
-    * also requires verbal sentences in the shart and jawab,
-    * verbs are usually idha qatala qatala
-    * can also be yaqtulu (ustate)
-    * unlike ;in;, idha does not govern the verbs. Rather verb in jawab governs idha
-
----
-
 A ;j_sh; is a special sentence, which consists of two parts:
 
 1. A ;shart;.
@@ -1415,88 +1386,10 @@ Fischer 236
 ومن تشبيه "متى" بـ "إذا" وإهمالها قول عائشة رضي الله عنها (إن أبا بكر رجلٌ أسيف، وإنه (١١٨) متى يقومُ مقامك لا يُسمعُ الناس) (١١٩)
 :::
 
-## The static ;j_sh;
-
-### ;kaana; as the ;fi3l_shart;
-
-In @sec-j_sh_msc
-we saw, that in order to have a ;jawab_shart; that is a ;j_ism;
-we usually need to begin it with ;fa;.
-
-But what do we do if we would like the ;shart; to be a ;j_ism;?
-For example,
-if we would like to say:
-[If you are sick, we shall go to Cairo]{.trans},
-then the condition clause
-[you are sick]{.trans}
-can be  translated as
-[أَنْتَ مَرِيضٌ]{.ar}.
-
-In order to form ;shart;
-from this ;j_ism;,
-we transform it to a ;kaana; sentence.
-So
-[أَنْتَ مَرِيضٌ]{.ar}
-becomes
-[كُنْتَ مَرِيضًا]{.ar}.
-The verb ;kaana; becomes the ;fi3l_shart;
-and we can now
-form our ;j_sh;:
-
-(@) [إِنْ كُنْتَ مَرِيضًا سَافَرْنَا إِلَى الْقَاهِرَةِ]{.ar}
-    [@peled_cst@ 13]{.citex}  
-    [If you are sick, we shall go to Cairo.]{.trans}
-
-The ;adat_shart; ;in;, as usual,
-governs the ;fi3l_shart; ;kaana;,
-and the ;fi3l_jawab_shart; [سَافَرَ]{.ar}
-in the (;mahall;) ;0state;.
-
-<!--
-This kind of a sentence in the ;shart;,
-which signifies not an event
-(like [you come]{.trans})
-but a state
-([you are sick]{.trans}),
-is called a static sentence.
--->
-
-Consistent with what we have learned so far,
-;kaana; does not generally hold on to its past ;tense; meaning when it is the
-;fi3l_shart;
-or the
-;fi3l_jawab_shart;.
-
-#### Another verb  after ;kaana;
-
-yakun also possible, indicates be.
-qatala vs yaqtul discussed in general in @sec-j_sh_tense below.
-
----
-
-;j_ism;
-
-explicit past ;tense;
-
-yakun with ;j_f3l; in ;xabar;: 
-
-in lam yakun yaf3alu/fa3ala
-[peled 143]
-
-in yakun yaf3alu/fa3ala
-
-in kaana lam yu2dhan li
-[peled 33]
-
-## A noun directly after the ;adat_shart;
-
-peled p. 27 examples 36 and 38; pp. 19--20
-
-
 
 ## The ;tense; of a ;j_sh;
 
-### The ;tense; of dynamic verbs in a ;j_sh;
+### The ;tense; and significance of dynamic verbs in a ;j_sh;
 
 Dynamic verbs are those that state an event or describe a process,
 like [أَتَى]{.ar} [to come]{.trans},
@@ -2052,98 +1945,9 @@ For example:
     [@https://sunnah.com/abudawud:2116@]{.citex}  
     [If this **be** correct then [it is] from ;Allah;, and if it **be** erroneous then [it is] from me and from Satan. And ;Allah; and His Messenger are free [from it].]{.trans}  
 
----
+## A noun directly after the ;adat_shart;
 
-
-;kaana; is also used when we wish the ;adat_shart; to not influence the tense of the ;shart;.
-
-If you are going
-
-If you had gone
-
-We saw in the preceding section,
-that the ;tense; of ;j_sh;s is sometimes vague and determined only from context.
-There is a technique to make the ;tense; of a ;j_sh; somewhat more determinate,
-and that is by using
-the verb ;kaana; as the ;fi3l_shart; or the ;fi3l_jawab_shart;.
-
-In order to do this we start from a
-;xabari; statement, which has a particular time reference.
-For example:
-
-(@) [أَنْتَ مَرِيضٌ]{.ar}  
-    [You **are** sick.]{.trans}  
-
-In order to use this statement in a ;shart;,
-we add the verb ;kaana; to the beginning of the statement, as the ;fi3l_shart;.
-The ;mubtada; of the sentence, if any,
-may then be transformed to be the ;ism_of; of ;kaana;.
-Now the ;shart; will have the ;tense; of the original statement:
-
-(@) [إِنْ كُنْتَ مَرِيضًا سَافَرْنَا إِلَى الْقَاهِرَةِ]{.ar}
-    [@peled_cst@ 13]{.citex}  
-    [If you **are** sick, we shall go to Cairo.]{.trans}
-
-This technique can be used for ;j_f3l;s as well.
-For example, let's start with the statement:
-
-(@) [تَذْهَبُ]{.ar}  
-    [You **are** going.]{.trans}
-
-Using the same technique, we add ;kaana; to the beginning, as the ;fi3l_shart:
-
-(@) [إن كنت تذهب فأذهب معك]{.ar}  
-    [If **you** are going, then I will go with you.]{.trans}  
-
-In example () above, the ;faa3il; of the verb
-[تَذْهَبُ]{.ar}
-is now the ;ism_of; of ;kaana;.
-
-The combination [إنْ كَانَ يَكُونُ]{.ar} is also permissible, when [يَكُونُ]{.ar}
-has the meaning [occurs]{.ar}, or [habitually is]{.ar}, or [will be]{.ar}.
-For example [search on shamela for fain/wain kaana yakuunu]
-
-If the original statement is a ;j_f3l; with ;qatala;,
-then [قَدْ]{.ar} is typically added to it as well.
-
-For example 
-
-(@) [ذَهَبَ]{.ar}  
-    [He went.]{.trans}
-
-becomes, in a ;j_sh;:
-
-(@) [إِنْ كَانَ قَدْ ذَهَبَ فَأَنْتَظِرُهُ]{.ar}
-
-If the original sentence already had ;kaana;,
-a second ;kaana; is not added.
-So some ambiguity with regards to ;tense; can remain.
-
-
-yakun will have potential meaning: if he be
-
-As a general rule,
-;kaana; is not needed before
-stative and
-modal verbs.
-Examples to such verbs are:
-
-Stative:
-
-* [كَثٌرَ]{.ar} [to be many]{.trans}
-* [صَحَّ]{.ar} [to be correct]{.trans}
-
-Modal:
-
-* [شَاء]{.ar} [to wish]{.trans}
-* [استطاع]{.ar} [can]{.trans}
-* [ظن]{.ar} [to think (that)]{.trans}
-
-Here are examples of stative verbs:
-
-(@) [إِنْ صَحَّ]{.ar}
-
-Modal verbs are discussed in section\ (ref) below.
+peled p. 27 examples 36 and 38; pp. 19--20
 
 ## The ;j_sh; with ;law;
 
