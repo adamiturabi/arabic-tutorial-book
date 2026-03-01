@@ -127,6 +127,8 @@ map_table["tote"] = "flexible"
 map_table["ghair_mutasarrif"] = "rigid"
 map_table["mutasarrif"] = "flexible"
 map_table["mu3rab"] = "flexible"
+map_table["jamid_verb"] = "fixed verb"
+map_table["jamid_noun"] = "primitive noun"
 
 
 # active and passive voice
@@ -190,7 +192,6 @@ map_table["ism_mawsul"] = "connected noun"
 map_table["ism_zaman"] = "noun of time"
 map_table["isnaad_comp"] = "structurally complete"
 
-map_table["jamid"] = "primitive"
 
 map_table["j_sh"] = "conditional sentence"
 map_table["shart"] = "condition" # condition
@@ -263,6 +264,7 @@ map_table["shibh_jumlah"] = "quasi-sentence"
 map_table["subst"] = "entity noun"
 
 map_table["taamm"] = "sufficient"
+map_table["talab"] = "imposition"
 map_table["tabi3"] = "follower"
 map_table["tafsiri"] = "explanatory"
 map_table["tamyiz"] = "[tamyIz]{.trn2}"
