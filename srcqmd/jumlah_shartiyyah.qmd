@@ -2269,17 +2269,26 @@ peled p. 27 examples 36 and 38; pp. 19--20
 
 Wright 2/39--40A
 
+The basic principle for a ;shart_int; is that it should be a ;j_f3l;.
+(We include ;kaana; sentences in ;j_f3l;s, loosely speaking.)
+And the verb which begins the ;shart_int; is classified as the ;fi3l_shart;.
+
+<!--
 We had earlier stated that the ;shart; requires a ;fi3l_shart; in its ;shart_int;.
 Based on the preponderance of data in ;samaa3;,
 the grammarians extracted a basic principle that the ;shart_int;
 containing this ;fi3l_shart; should be a ;j_f3l;.
+-->
 In all the examples we have seen so far,
 this has been the case.
+<!--
 (We include ;kaana; sentences in ;j_f3l;s, loosely speaking.)
+-->
 So, in the example:
 [إِنْ أَتَيْتَنِي أَكْرَمْتُكَ]{.ar},
 the ;shart_int; is the ;j_f3l;
-[أَتَيْتَنِي]{.ar}.
+[أَتَيْتَنِي]{.ar},
+and it is begun with the ;fi3l_shart; [أَتَى]{.ar}.
 
 Occassionally,
 however,
@@ -2289,7 +2298,7 @@ This noun is usually a detached pronoun, or an indefinite noun.
 -->
 Here are some examples:
 
-(@) [إِنْ **أَنْتَ** أَكْرَمْتَ اللَّئِيم تَمَرَّدَا]{.ar}
+(@) [إِنْ **أَنْتَ** أَكْرَمْتَ اللَّئِيمَ تَمَرَّدَا]{.ar}
     [abdelghani 96]{.citex}  
     [If you honor an ignoble [person], he rebels]{.trans}  
     (An extra alif is suffixed to [تَمَرَّدَ]{.ar} for rhyme.)
@@ -2300,23 +2309,24 @@ Here are some examples:
 Because such structures are relatively rare compared to
 ;shart_int;s that begin with a ;j_f3l;,
 the grammarians attempted to keep the basic principle consistent.
-And that is that the ;shart_int; is essentially a ;j_f3l;.
-In order to align examples like the above with the basic principle,
+Which is that the ;shart_int; should be a ;j_f3l;.
+In order to align outlier examples like () and () above with this basic principle,
 the grammarians ;qaddar; the ;shart_int; as a ;j_f3l; with a deleted verb.
-So the ;taqdir; for example () above would be:
+So the ;taqdir; of the ;shart; for example () above would be:
 
-(@) [إِنْ أَكْرَمْتَ اللَّئِيم تَمَرَّدَا]{.ar}
+(@) [إِنْ [أَكْرَمْتَ اللَّئِيم]]{.ar}
 
 The ;shart_int; in the ;taqdir; is
-[أَكْرَمْتَ اللَّئِيم]{.ar}
+[[أَكْرَمْتَ اللَّئِيم]]{.ar}
 which is a ;j_f3l;.
-In order to transform this ;taqdir; into the surface speech in example (),
+In order to transform this ;taqdir; into the surface speech
+[إِنْ أَنْتَ أَكْرَمْتَ اللَّئِيم]{.ar},
 the following theoretical steps are taken:
 
   i. The 
-     ;fi3l_shart;
-     [أَكْرَمَ]{.ar}
-     and all of its governees, except its ;faa3il;, are deleted.
+     ;qaddared; ;j_f3l;
+     [[أَكْرَمْتَ اللَّئِيم]]{.ar}
+     is deleted, except for the ;faa3il of the ;fi3l_shart;.
  ii. The ;fi3l_shart;'s ;faa3il; is left in place.
      In this case, it is the
      the attached pronoun [تَ]{.ar}.
@@ -2326,19 +2336,61 @@ the following theoretical steps are taken:
      [أَنْتَ]{.ar}.
 iii. An explanatory ;j_f3l;
      [أَكْرَمْتَ اللَّئِيم]{.ar}
-     is added after the ;faa3il; in order to give the meaning of deleted verb.
-     In this, and most, cases, the explanatory ;j_f3l; matches the ;qaddared; original ;shart_int;.
+     is added after the ;faa3il; [أَنْتَ]{.ar} in order to give the meaning of
+     ;qaddared; ;j_f3l;.
+     In this (and most) cases, the explanatory ;j_f3l; matches the ;qaddared; original ;shart_int;.
+     The verb in the explanatory ;j_f3l; is now the new ;fi3l_shart;.
 
-verb is qatala (or lam yaqtul)
 
-The benefit of this ;taqdiring; 
-and mandating a ;j_f3l; as the ;shart_int;,
-is that it prevents arbitrary ;j_ism;s from being the ;shart_int;,
-because such ;shart_int; are not found in ;samaa3;.
+The benefit of this ;taqdiring;,
+and of mandating a ;j_f3l; as the ;shart_int;,
+is that it prevents arbitrary ;j_ism;s,
+that do not have a verb as the ;fi3l_shart;,
+from being the ;shart_int;.
+This is because such ;shart_int;s are not found in ;samaa3;.
 So for example, we cannot say:
 
-(@) ;x; [إِنْ أَنْتَ كَرِيمٌ ...]{.ar}
+(@) ;x; [إِنْ أَنْتَ كَرِيمٌ ...]{.ar}  
     [If you are honorable ...]{.trans}
+
+Let's take a look at another example:
+
+(@) [ فإن أنت لم ينفعك علمك فانتسب ... لعلّك تهديك القرون الأوائل]{.ar}  
+    [cited by @abdelghani@ 101; [@ibn_malik_sharh_tasheel@ 2/140](https://shamela.ws/book/13257/536)]{.citex}  
+    [If your knowledge does not benefit you then affiliate yourself [to your predecessors]. Perhaps the earlier generations can guide you.]{.trans}
+
+The additional complication is that the ;faa3il; [أَنْتَ]{.ar}
+that begins the ;shart_int;, is not the ;faa3il; of the explanatory ;j_f3l;
+[لم ينفعك علمك]{.ar}.^[@abdelghani@ 101--102]
+But we can still mold this to fit in with out basic principle and the transformational steps that we gave above. Here's how:
+
+The ;taqdir; for the ;shart; can be ;qaddared; as:
+
+(@) [فإن [لم تنتفع بعلمك]]{.ar}
+
+The ;qaddared; ;j_f3l;
+[[لم تنتفع بعلمك]]{.ar}
+is deleted except for the ;fi3l_shart;'s ;faa3il;, the ;mustatir; pronoun [[أَنْتَ]]{.ar}.
+This ;mustatir; ;faa3il; pronoun
+is transformed to surface speech [أَنْتَ]{.ar}.
+An explanatory ;j_f3l;
+[لم ينفعك علمك]{.ar}
+is added after the ;faa3il;
+[أَنْتَ]{.ar}
+to give the meaning of
+;qaddared; ;j_f3l;.
+In this case, the explanatory ;j_f3l; does not exactly match the ;qaddared; original ;shart_int;,
+but has the same meaning.^[[@abu_hayyan_tadhyeel@ 6/313](https://shamela.ws/book/17116/2004)]
+
+Here are some more examples of this kind of ;j_sh;:
+
+TODO: get examples from ;qura; and from peled.
+
+From the above examples, we can note the following points:
+
+* The ;fi3l_shart; is always ;qatala; (or [;_lam; ;_yaqtul;]{.ar} which is equivalent).
+* The original ;faa3il; before the ;fi3l_shart; is usually either a pronoun, or a generic or indefinite noun.
+  There is only one case, in example (), where it is a definite specific noun.
 
 ## The ;law; ;j_sh;
 

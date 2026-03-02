@@ -194,12 +194,14 @@ map_table["isnaad_comp"] = "structurally complete"
 
 
 map_table["j_sh"] = "conditional sentence"
+map_table["adat_shart"] = "condition-introducer" #"conditional device"
 map_table["shart"] = "condition" # condition
-map_table["adat_shart"] = "conditional device"
 map_table["jawab"] = "response"
-map_table["jawab_shart"] = "condition-response" # outcome, result, consequence, condition-response, response-to-the-condition
-map_table["fi3l_shart"] = "condition verb"
-map_table["fi3l_jawab_shart"] = "condition-response verb"
+map_table["jawab_shart"] = "condtion-response" # outcome, result, consequence, condition-response, response-to-the-condition
+map_table["shart_int"] = "condition-internal-sentence" # "cond~int~" # condition
+map_table["jawab_shart_int"] = "condition-response-internal-sentence" #"cond-resp~int~" # outcome, result, consequence, condition-response, response-to-the-condition
+map_table["fi3l_shart"] = "condition-verb"
+map_table["fi3l_jawab_shart"] = "condition-response-verb"
 
 map_table["j_ism"] = "nounal sentence"
 map_table["j_f3l"] = "verbal sentence"

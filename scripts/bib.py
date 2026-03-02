@@ -1275,10 +1275,18 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "alfraidi_conditional"
     , cit_type = "ws_ref"
-    , cit_text = 'Alfraidi, _Conditional sentences  in Modern Written Arabic_'
-    , bib_text = 'Alfraidi, T.\\ R.\\ K., _Conditional sentences  in Modern Written Arabic_, University of Exeter, Thesis, 2017. <https://hdl.handle.net/10871/29279>'
+    , cit_text = 'Alfraidi, _Conditional sentences in Modern Written Arabic_'
+    , bib_text = 'Alfraidi, T.\\ R.\\ K., _Conditional sentences  in Modern Written Arabic_, University of Exeter, PhD thesis, 2017. <https://hdl.handle.net/10871/29279>'
     , sort_key = "Alfraidi conditional sentences"
     ))
+  resource_list.append(BibResource(
+    "abdelghani"
+    , cit_type = "ws_ref"
+    , cit_text = 'Abdel-Ghani, _Conditional sentences within the Arab grammatical tradition_'
+    , bib_text = 'Abdel-Ghani, A.\\ A., _Conditional sentences within the Arab grammatical tradition_, University of Leeds, PhD thesis, 1981. <https://etheses.whiterose.ac.uk/id/eprint/910/>'
+    , sort_key = "Abdel Ghani Conditional"
+    ))
+
 
 
 
