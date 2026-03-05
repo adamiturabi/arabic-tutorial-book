@@ -6,12 +6,19 @@
 
 A ;j_sh; is a special sentence, which consists of two parts:
 
-1. A ;shart;.
-2. A ;jawab_shart;.
+1. A _;shart;_. The ;shart; itself consists of two parts:
 
-Here is an example of a ;j_sh;:
+    i. The *;adat_shart;*
+   ii. The *;shart_int;*
 
-(@) [If you honor me, I will honor you.]{.trans}
+2. A _;jawab_shart;_. The ;jawab_shart; can also consists of two parts:
+
+    i. The *;jawab_shart_intro;*. This may be absent for some ;j_sh;s.
+   ii. The *;jawab_shart_int;*
+
+Here is an example of a ;j_sh; in English:
+
+(@) [If you come to me, then I will honor you.]{.trans}
 
 @fig-cst_eng_ex1 shows the two parts of ;j_sh;.
 
@@ -21,7 +28,7 @@ Here is an example of a ;j_sh;:
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
 \begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
 \path [decoration={text effects along path, 
-  text=If you honor me I will honor you.,
+  text=If you come to me then I will honor you.,
   text effects/.cd, 
     path from text, text along path,
     text depth=0.25ex,text height=1.25ex,
@@ -30,15 +37,30 @@ Here is an example of a ;j_sh;:
   decorate] (0,0);
 
 \draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-4.south east)
-      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;shart;};
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below, rotate=90, text centered,text width=1cm, yshift=1.5em, xshift=-2em] {\scriptsize ;adat_shart;};
 \draw [decoration={brace, mirror}, decorate] 
-   (word-5.south west) -- (word-8.south east)
-      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;jawab_shart;};
+   (word-2.south west) -- (word-5.south east)
+      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;shart_int;};
+\draw [decoration={brace, mirror, raise=5em}, decorate] 
+   (word-1.south west) -- (word-5.south east)
+      node [midway, below, text centered,text width=1cm, yshift=-6em] {\scriptsize ;shart;};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-6.south west) -- (word-6.south east)
+      node [midway, below, rotate=90, text centered,text width=1cm, yshift=1.1em, xshift=-2em] {\scriptsize c.;jawab_intro;};
+\draw [decoration={brace, mirror}, decorate] 
+   (word-7.south west) -- (word-10.south east)
+      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize c.;jawab_int;};
+\draw [decoration={brace, mirror, raise=5em}, decorate] 
+   (word-6.south west) -- (word-10.south east)
+      node [midway, below, text centered,text width=2cm, yshift=-6em] {\scriptsize ;jawab_shart;};
+
+\draw [dashed] (word-6.south west) -- ([yshift=-5em]word-6.south west);
 
 \end{tikzpicture}
 ```
-The two parts of a ;j_sh;.
+The parts of a ;j_sh;.
 :::
 
 <!--
@@ -46,6 +68,7 @@ A ;j_sh; is introduced by a ;adat_shart;, like "[if]{.trans}" in the example abo
 Another common ;adat_shart; is "[when]{.trans}".
 For example:
 -->
+<!--
 Here is another example of a ;j_sh;:
 
 (@) [When the sun rises, the day begins.]{.trans}
@@ -74,6 +97,7 @@ In example (), the ;jawab_shart;
 is not caused by the realization of the condition
 [if you honor me]{.trans}.
 Rather it is only a response that completes the sentence.
+-->
 
 #;j_sh;s in Arabic are introduced by _;adat_shart;s_ like:
 ;in; [if]{.trans},
@@ -91,7 +115,7 @@ first.
 
 ## The ;in; ;j_sh;
 
-;in; is considered the mother of all ;adat_shart;s.^[sibawayhi]
+;in; is considered the most basic of all the ;adat_shart;s.^[sibawayhi]
 It forms the basic ;j_sh;.
 #;j_sh;s that employ other ;adat_shart;s are based on
 the ;j_sh; with ;in;.
@@ -105,17 +129,20 @@ model of
 
 ### The ;0state; ;mudarie; verb with ;in;
 
-In its ;arch; form,
+In its basic form,
 the ;j_sh; consists of two parts:
 
 1. a ;shart;, consisting of:
    a. the ;adat_shart; ;in;, and 
-   b. a ;j_f3l; consisting of (at least):
+   b. the ;shart_int; which is a ;j_f3l; consisting of (at least):
       * a ;0state; ;mudarie; verb (the *;fi3l_shart;*) and
       * its ;faa3il;
-2. a ;jawab_shart;, consisting of a ;j_f3l; with (at least):
+2. a ;jawab_shart;, consisting of:
+   a. the ;jawab_shart_int; which is a ;j_f3l; consisting of (at least):
       * a ;0state; ;mudarie; verb (the *;fi3l_jawab_shart;*) and
       * its ;faa3il;
+
+   There is no ;jawab_shart_intro;.
 
 <!--
 In this ;arch; form of the ;j_sh;,
@@ -168,15 +195,24 @@ in the ;0state;.
    ([xshift=6pt]word-2.south west) -- (word-2.south east)
       node [midway, below, text centered,text width=1cm, xshift=-5pt, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
 \draw [decoration={brace, mirror, raise=40pt}, decorate] 
-   (word-3.south west) -- (word-5.south east) coordinate (bbb)
-      node [midway, below, text centered,text width=1cm, yshift=-45pt] {\scriptsize ;shart;};
+   (word-3.south west) -- (word-4.south east) coordinate (bbb)
+      node [midway, below, text centered,text width=1cm, yshift=-45pt] {\scriptsize ;shart_int;};
 \draw [decoration={brace, mirror, raise=40pt}, decorate]
    (word-1.south west) -- (word-2.south east) coordinate (aaa)
-      node [midway, below, text centered,text width=1cm, yshift=-45pt] {\scriptsize ;jawab_shart;};
+      node [midway, below, text centered,text width=1cm, yshift=-45pt] {\scriptsize ;jawab_shart_int;};
 
-\draw [dashed] ([xshift=-1pt]word-3.south west) -- ([xshift=-1pt,yshift=-40pt]word-3.south west);
-\draw [dashed] (word-1.south west) -- ([yshift=-40pt]word-1.south west);
-\draw [dashed] (word-5.south east) -- ([yshift=-40pt]word-5.south east);
+\draw [decoration={brace, mirror, raise=90pt}, decorate] 
+   (word-3.south west) -- (word-5.south east) coordinate (bbb)
+      node [midway, below, text centered,text width=1cm, yshift=-95pt] {\scriptsize ;shart;};
+\draw [decoration={brace, mirror, raise=90pt}, decorate]
+   (word-1.south west) -- (word-2.south east) coordinate (aaa)
+      node [midway, below, text centered,text width=1cm, yshift=-95pt] {\scriptsize ;jawab_shart;};
+
+\draw [dashed] ([xshift=-1pt]word-3.south west) -- ([xshift=-1pt,yshift=-90pt]word-3.south west);
+\draw [dashed] (word-1.south west) -- ([yshift=-90pt]word-1.south west);
+\draw [dashed] (word-5.south east) -- ([yshift=-90pt]word-5.south east);
+\draw [dashed] ([xshift=5pt]word-4.south east) -- ([yshift=-40pt,xshift=5pt]word-4.south east);
+
 
 \draw[->,decorate] ([xshift=2pt] word-5.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=4pt,yshift=4pt] word-4.north);
 \draw[->,decorate] ([xshift=3pt] word-5.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=-4pt] word-2.north east);
