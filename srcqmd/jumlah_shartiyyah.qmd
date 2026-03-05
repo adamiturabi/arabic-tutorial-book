@@ -11,7 +11,7 @@ A ;j_sh; is a special sentence, which consists of two parts:
     i. The *;adat_shart;*
    ii. The *;shart_int;*
 
-2. A _;jawab_shart;_. The ;jawab_shart; can also consists of two parts:
+2. A _;jawab_shart;_. The ;jawab_shart; can also consist of two parts:
 
     i. The *;jawab_shart_intro;*. This may be absent for some ;j_sh;s.
    ii. The *;jawab_shart_int;*
@@ -195,7 +195,7 @@ in the ;0state;.
    ([xshift=6pt]word-2.south west) -- (word-2.south east)
       node [midway, below, text centered,text width=1cm, xshift=-5pt, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
 \draw [decoration={brace, mirror, raise=40pt}, decorate] 
-   (word-3.south west) -- (word-4.south east) coordinate (bbb)
+   (word-3.south west) -- ([xshift=5pt]word-4.south east) coordinate (bbb)
       node [midway, below, text centered,text width=1cm, yshift=-45pt] {\scriptsize ;shart_int;};
 \draw [decoration={brace, mirror, raise=40pt}, decorate]
    (word-1.south west) -- (word-2.south east) coordinate (aaa)
@@ -224,7 +224,7 @@ in the ;0state;.
 
 ```
 
-A government diagram of the ;arch; ;j_sh;.
+A government diagram of a basic ;j_sh;.
 The arrows flow from governor to governee and are labelled with the state of the governee.
 :::
 
