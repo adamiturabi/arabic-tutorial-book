@@ -173,6 +173,7 @@ map_table["dharf_makan"] = "adverb of place"
 map_table["dharf_zaman"] = "adverb of time"
 
 map_table["faa3il"] = "doer"
+map_table["fi3l_amr"] = "verb of command"
 
 map_table["hal"] = "[HAl]{.trn2}"
 
@@ -195,11 +196,14 @@ map_table["isnaad_comp"] = "structurally complete"
 
 map_table["j_sh"] = "conditional sentence"
 map_table["adat_shart"] = "condition-introducer" #"conditional device"
+map_table["jawab_shart_intro"] = "condition-response-introducer" #"conditional device"
+map_table["jawab_intro"] = "response-introducer" #"conditional device"
 map_table["shart"] = "condition" # condition
 map_table["jawab"] = "response"
-map_table["jawab_shart"] = "condtion-response" # outcome, result, consequence, condition-response, response-to-the-condition
+map_table["jawab_shart"] = "condition-response" # outcome, result, consequence, condition-response, response-to-the-condition
 map_table["shart_int"] = "condition-internal-sentence" # "cond~int~" # condition
 map_table["jawab_shart_int"] = "condition-response-internal-sentence" #"cond-resp~int~" # outcome, result, consequence, condition-response, response-to-the-condition
+map_table["jawab_int"] = "response-internal-sentence" #"cond-resp~int~" # outcome, result, consequence, condition-response, response-to-the-condition
 map_table["fi3l_shart"] = "condition-verb"
 map_table["fi3l_jawab_shart"] = "condition-response-verb"
 
@@ -266,7 +270,7 @@ map_table["shibh_jumlah"] = "quasi-sentence"
 map_table["subst"] = "entity noun"
 
 map_table["taamm"] = "sufficient"
-map_table["talab"] = "imposition"
+map_table["talab"] = "request"
 map_table["tabi3"] = "follower"
 map_table["tafsiri"] = "explanatory"
 map_table["tamyiz"] = "[tamyIz]{.trn2}"

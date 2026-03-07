@@ -1421,7 +1421,71 @@ Wright 2/16C
 
 ## ;fa; as a ;jawab_shart_intro; {#sec-j_sh_msc}
 
+So far we have seen that the ;jawab_shart; in a ;j_sh; can take the following main forms:
+
+* A ;yaqtul; ;j_f3l; for ;in; ;j_sh;s.                  Negated using [;_laa; ;_yaqtul;]{.ar}.
+* A non-past tense ;qatala; ;j_f3l; for both ;in; and ;idha; ;j_sh;s.  Negated using [;_lam; ;_yaqtul;]{.ar}.
+
+(We have also seen the ;yaqtulu; form but we will treat it separately in section\ (ref) below.)
+
+When the ;jawab_shart; has either of the above two (;yaqtul; or non-past tense ;qatala;) forms,
+then it is not introduced by the ;jawab_shart_intro; ;fa;.
+So for example, 
+we say:
+
+(@) [إِنْ تَأْتِنِي آتِكَ]{.ar}  
+    [If you come to me, I will come to you.]{.trans}
+
+But we cannot say:
+
+(@) ;x; [إِنْ تَأْتِنِي فَآتِكَ]{.ar}
+
+However, when the ;jawab_shart; falls outside the above two main forms,
+then it will typically be introduced by ;fa;.
+For example:
+
+(@) [إِنْ يَأْتِكَ فَأَكْرِمْهُ]{.ar}  
+    [If he comes to you, then honor him.]{.trans}
+
+The ;jawab_shart; in example () above is a ;fi3l_amr; ;j_f3l;.
+Since it is not a ;yaqtul; or (non-past tense) ;qatala; form,
+we use a ;fa; to introduce it.
+
+The main reason that a ;fa; is needed in such cases,
+is to indicate that the ;jawab_shart; is linked to the ;shart;.
+Without it, the ;jawab_shart; would appear to be an independent sentence
+and its meaning would not be tied to the ;shart; being satisfied.
+So we cannot (usually) say, without ;fa;:
+
+(@) ;x; [إِنْ يَأْتِكَ أَكْرِمْهُ]{.ar}  
+
+;fa; is not needed when the ;jawab_shart; is a ;yaqtul; or (non-past tense) ;qatala; ;j_f3l;
+because in those cases the link between the ;jawab_shart; and the ;shart; is readily apparent.
+In the case of a ;yaqtul; ;jawab_shart;,
+the link is indicated by the ;0state; of the ;fi3l_jawab_shart;,
+as in example () above.
+And in the case
+of a ;qatala; ;jawab_shart;,
+it is indicated by the non-past tense meaning of the ;qatala; ;fi3l_jawab_shart;,
+as in the example below:
+
+(@) [إِذَا أَتَيْتَنِي **أَتَيْتُكَ**]{.ar}
+    [If you come to me, I will come to you.]{.trans}
+
+<!--
+* ;yaqtulu; (and [;_laa; ;_yaqtulu;]{.ar}) for both ;in; and ;idha; ;j_sh;s
+1. For ;in; ;j_sh;s:
+   * ;yaqtul;
+   * ;qatala; that loses its past tense meaning
+   * Occasionally ;yaqtulu;
+2. For ;idha; ;j_sh;s:
+   * ;qatala; that loses its past tense meaning
+   * ;yaqtulu;
+
+---
+
 In this section we will study ;jawab_shart;s that are introduced by ;fa;.
+-->
 <!--
 We will first treat ;j_sh;s that are introduced by ;in;.
 
@@ -1441,6 +1505,7 @@ explicitly makes it clear that the sentence in the ;jawab_shart; is
 a consequence of the ;shart;.
 -->
 
+<!--
 So far the ;j_sh;s that we have studied have not been introduced by ;fa;.
 For example:
 
@@ -1488,15 +1553,20 @@ the ;jawab_shart; is not a direct consequence (as defined above) of the ;shart;.
 Instead,
 the ;jawab_shart; has the force of an independent sentence,
 albeit one that is linked, in some respect, to the ;shart; taking place.
+-->
 <!--
 In order to show that the ;jawab_shart;,
 despite its force,
 is linked to ;shart;
 -->
+<!--
 Because this link would otherwise not be apparent,
 a ;fa; is typically required to
 explicitly indicate that the ;jawab_shart; is
 related to the occurrence of the ;shart;.
+-->
+
+### Types of ;jawab_shart;s requiring ;fa;
 
 Here are the main situations in which
 ;fa; is used to introduce the ;jawab_shart;:
@@ -1609,17 +1679,32 @@ When the ;jawab_shart_int;
 
 #### The ;jawab_shart_int; signifies an event which already occurred {.unnumbered}
 
-<!--
+[قَدْ]{.ar} is also typically used in such cases with ;fa;.
+For example:
+
+(@) [إِنْ تَطْعَنُوا فِي إِمَارَتِهِ **فَقَدْ** طَعَنْتُمْ فِي إِمَارَةِ أَبِيهِ مِنْ قَبْلِهِ]{.ar}
+    [@https://sunnah.com/bukhari:4250@]{.citex}  
+    [If you speak ill of his leadership, you have already spoken ill of his father's leadership before.]{.ar}
+
+If ;qad; is not used in the ;jawab_shart;, but a past event is still signified,
+then too ;fa; is used.
+For example:
+
+(@) [وَإِن كَانَ قَمِیصُهُۥ قُدَّ مِن دُبُرࣲ **فَكَذَبَتۡ** وَهُوَ مِنَ ٱلصَّـٰدِقِینَ]{.quran}
+    [@https://quran.com/12/27@ cited by @maani_nahw@ 4/105]{.citex}  
+    [But if his shirt is torn from the back, then she has lied, and he is of the truthful.]{.trans}  
+
+#### The ;shart; uses [كَانَ [قَدْ] قَتَلَ]{.ar} to signify an event which already occurred {.unnumbered}
+
+peled 72--73, wright 2/15
+
 We discuss in section\ (ref) below
 that
 [كَانَ (قَدْ) قَتَلَ]{.ar}
 can be used in the ;shart; to indicate an event which has already occurred.
-In this case, the
--->
-
-
-
-#### The ;shart; uses [كَانَ [قَدْ] قَتَلَ]{.ar} to signify an event which already occurred {.unnumbered}
+In such cases,
+the ;jawab_shart; will typically be introduced by ;fa;.
+For example:
 
 <!--
 #### The ;jawab_shart_int; signifies a event which is expected to definitely occur {.unnumbered}
@@ -1641,6 +1726,10 @@ For example:
 
 (@) [إِنْ كُنْتِ بَرِيئَةً **فَسَيُبَرِّئُكِ** اللَّهُ وَإِنْ كُنْتِ أَلْمَمْتِ بِذَنْبٍ فَاسْتَغْفِرِي اللَّهَ وَتُوبِي إِلَيْهِ]{.ar}
     [@https://sunnah.com/bukhari:4690@]{.citex}  
+
+(@) [إِن تَسۡتَغۡفِرۡ لَهُمۡ سَبۡعِینَ مَرَّةࣰ **فَلَن** یَغۡفِرَ ٱللَّهُ لَهُمۡۚ]{.quran}
+    [@https://quran.com/9/80@]{.citex}  
+    [If you should ask forgiveness for them seventy times - never will Allāh forgive them.]{.trans}  
 
 <!--
 Emphasis is on the occurrence (or non-occurrence) of ;jawab_shart;.
