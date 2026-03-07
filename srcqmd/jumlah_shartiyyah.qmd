@@ -1419,9 +1419,9 @@ Fischer 236
 Wright 2/16C
 
 
-## ;fa; before the ;jawab_shart; {#sec-j_sh_msc}
+## ;fa; as a ;jawab_shart_intro; {#sec-j_sh_msc}
 
-In this section we will study ;jawab_shart;s that begin in ;fa;.
+In this section we will study ;jawab_shart;s that are introduced by ;fa;.
 <!--
 We will first treat ;j_sh;s that are introduced by ;in;.
 
@@ -1441,7 +1441,7 @@ explicitly makes it clear that the sentence in the ;jawab_shart; is
 a consequence of the ;shart;.
 -->
 
-So far the ;j_sh;s that we have studied have not begun with a ;fa;.
+So far the ;j_sh;s that we have studied have not been introduced by ;fa;.
 For example:
 
 (@) [إِنْ أَتَيْتَنِي أَكْرَمْتُكَ]{.ar}  
@@ -1499,13 +1499,13 @@ explicitly indicate that the ;jawab_shart; is
 related to the occurrence of the ;shart;.
 
 Here are the main situations in which
-;fa; is used to begin the ;jawab_shart;:
+;fa; is used to introduce the ;jawab_shart;:
 
-#### The ;jawab_shart; is a ;talab; {.unnumbered}
+#### The ;jawab_shart_int; is a ;talab; {.unnumbered}
 
-What we mean by *;talab;* is a command, request, supplication, entreaty, or prohibition.
-When the ;jawab_shart; is a ;talab;
-then it is typically required that it begin with ;fa;.
+What we mean by *;talab;* is a command, supplication, entreaty, or prohibition.
+When the ;jawab_shart_int; is a ;talab;
+then it is typically required to be introduced by ;fa;.
 For example:
 
 
@@ -1578,7 +1578,7 @@ For example:
 yaqtulu also can be hortative peled 79
 -->
 
-#### The ;jawab_shart; begins with a ;jamid_verb; {.unnumbered}
+#### The ;jawab_shart_int; begins with a ;jamid_verb; {.unnumbered}
 
 
 (@) [إِنْ يَعِشْ هَذَا الْغُلاَمُ **فَعَسَى** أَنْ لاَ يُدْرِكَهُ الْهَرَمُ حَتَّى تَقُومَ السَّاعَةُ]{.ar}
@@ -1593,7 +1593,9 @@ yaqtulu also can be hortative peled 79
     [@https://sunnah.com/bukhari:1454@]{.citex}  
     [If the man's livestock is less than forty sheep then there is no [zakAh]{.trn2} on it.]{.trans}  
 
-#### The ;jawab_shart; is a ;j_ism; {.unnumbered}
+#### The ;jawab_shart_int; is a ;j_ism; {.unnumbered}
+
+When the ;jawab_shart_int;
 
 (@) [إِنْ قَتَلْتَ حَمْزَةَ بِعَمِّي **فَأَنْتَ** حُرٌّ]{.ar}
     [@https://sunnah.com/bukhari:4072@]{.citex}  
@@ -1603,32 +1605,54 @@ yaqtulu also can be hortative peled 79
     [@https://sunnah.com/bukhari:4547@]{.citex}  
     [If you see the people who follow what is open to different interpretations, then they are ones whom ;Allah; named, so beware of them.]{.trans}  
 
-#### The ;jawab_shart; is a question {.unnumbered}
+#### The ;jawab_shart_int; is a question {.unnumbered}
 
-#### The ;jawab_shart; signifies an event which already occurred {.unnumbered}
+#### The ;jawab_shart_int; signifies an event which already occurred {.unnumbered}
+
+<!--
+We discuss in section\ (ref) below
+that
+[كَانَ (قَدْ) قَتَلَ]{.ar}
+can be used in the ;shart; to indicate an event which has already occurred.
+In this case, the
+-->
+
+
 
 #### The ;shart; uses [كَانَ [قَدْ] قَتَلَ]{.ar} to signify an event which already occurred {.unnumbered}
 
-#### The ;jawab_shart; signifies a event which is expected to definitely occur {.unnumbered}
+<!--
+#### The ;jawab_shart_int; signifies a event which is expected to definitely occur {.unnumbered}
 
-(@) [إِنْ كُنْتِ بَرِيئَةً فَسَيُبَرِّئُكِ اللَّهُ، وَإِنْ كُنْتِ أَلْمَمْتِ بِذَنْبٍ فَاسْتَغْفِرِي اللَّهَ وَتُوبِي إِلَيْهِ]{.ar}
+;fa; can be used to introduce a ;j_f3l; ;jawab_shart;.
+to make it more independent from the ;shart;,
+and to signify that the event indicated by the ;jawab_shart; is expected to definitely occur
+(if the ;shart; is met).
+-->
+
+#### The ;fi3l_jawab_shart; is preceded by a particle other than ;lam;
+
+When the ;fi3l_jawab_shart; is preceded by ;lam;
+then it typically occurs directly in the ;jawab_shart; without being introduced by ;fa;.
+But when the ;fi3l_jawab_shart; is preceded by another particle
+like [سَ]{.ar}, [سَوْفَ]{.ar}, or [لَنْ]{.ar},
+then a ;fa; is required.
+For example:
+
+(@) [إِنْ كُنْتِ بَرِيئَةً **فَسَيُبَرِّئُكِ** اللَّهُ وَإِنْ كُنْتِ أَلْمَمْتِ بِذَنْبٍ فَاسْتَغْفِرِي اللَّهَ وَتُوبِي إِلَيْهِ]{.ar}
     [@https://sunnah.com/bukhari:4690@]{.citex}  
 
-
-* sa/sawfa. Optional if yaqtulu is without sa/sawfa
-* lan
-* lammaa
-* laa + yaqtulu
-
+<!--
 Emphasis is on the occurrence (or non-occurrence) of ;jawab_shart;.
 ;fa; is then needed to indicate that even though emphasis is on the occurrence of ;jawab_shart;,
 it is still linked to ;shart;.
 
 #### Summary {.unnumbered}
 
-In all cases where ;fa; is added to the ;jawab_shart;,
-if it were not there then it would not be apparent that ;jawab_shart; is linked to ;shart;.
+Generally, ;fa; is added to the ;jawab_shart;,
+when it may not be apparent that ;jawab_shart; is linked to ;shart;.
 So ;fa; makes it obvious.
+-->
 
 <!--
 ### ;fa; in the ;jawab_shart; for ;idha; ;j_sh;s
