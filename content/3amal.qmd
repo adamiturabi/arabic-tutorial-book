@@ -133,7 +133,11 @@ These are called _stateful_ elements.
 The stateful elements are nouns and stateful verbs.
 A noun may be either in the u-state, a-state, or i-state.
 And a stateful verb may be either in the u-state, a-state, or 0-state.
-The theory of government states that a stateful element is put in a particular state by a _governor_.
+
+The theory of government states that a stateful element
+in a sentence
+is _governed_ in a particular state by a _governor_.
+
 For example:
 
 (@3amal_in_house) [فِي الدَّارِ]{.ar}  
@@ -144,9 +148,9 @@ In the above example,
 the particle fii is the governor of the noun al-daari.
 The noun al-daar is the governee of its governor fii.
 -->
-the gpreposition [فِي]{.ar} causes the noun [الدَّار]{.ar} to be in the i-state.
+the preposition [فِي]{.ar} causes the noun [الدَّار]{.ar} to be in the i-state.
 So we say that 
-the governor [فِي]{.ar} _governs_ [الدَّار]{.ar} (the _governee_) in the i-state.
+the _governor_ [فِي]{.ar} _governs_ [الدَّار]{.ar} (the _governee_) in the i-state.
 <!--
 We say that
 the preposition fii is the governor of i-state noun al-daar because it is the reason or cause of the noun al-daar being in the i-state.
@@ -283,8 +287,8 @@ requires two _indispensable_ elements
 in order to be structurally complete.^[Wright 2/250ff; [الجملة العربية لفاضل السامرائي]{.ar} 13ff]
 These two indispensable elements are:
 
- i. The structure-starter
-ii. The structure-completer
+ i. The leaned-against element
+ii. The leaning element
 
 ::: {#fig-leantobuilding .test-class}
 ```{.tikz}
@@ -294,8 +298,8 @@ ii. The structure-completer
 
 \draw[pattern=north west lines, pattern, draw=none] (0,0) rectangle (6,-0.4);
 \draw (0,0) -- (6,0);
-\draw[fill=lightgray] (2,-0.3) rectangle node [rotate=90] {structure-starter} (2.4, 5);
-\draw[fill=lightgray, rotate around={30:(5.05,-0.3)}] (5.05,-0.3) rectangle node [rotate=-60] {structure-completer} (5.45, 6);
+\draw[fill=lightgray] (2,-0.3) rectangle node [rotate=90] {leaned-against element} (2.4, 5);
+\draw[fill=lightgray, rotate around={30:(5.05,-0.3)}] (5.05,-0.3) rectangle node [rotate=-60] {leaning element} (5.45, 6);
 
 \end{tikzpicture}
 ```
@@ -304,13 +308,13 @@ A lean-to building as the model for an Arabic sentence.
 :::
 
 
-The structure-starter is the primary indispensable element.
+The leaned-against element is the primary indispensable element.
 It represents whom the sentence is about, i.e. its topic.
-The structure-completer rests against the structure-starter.
+The leaning element rests against the leaned-against element.
 <!--
-And the structure-completer is meant to provide some interesting comment about the structure-starter.
+And the leaning element is meant to provide some interesting comment about the leaned-against element.
 -->
-It expresses some property about the structure-starter that completes the meaning of the sentence.
+It expresses some property about the leaned-against element that completes the meaning of the sentence.
 
 Once the two indispensable elements are in place,
 the sentence is structurally complete.
@@ -327,7 +331,7 @@ Here are some examples of sentences with only indispensable elements:
 
 ### The indispensable elements of a nounal sentence
 
-In a nounal sentence the subject is the structure-starter and the info is the structure-completer.
+In a nounal sentence the subject is the leaned-against element and the info is the leaning element.
 Consider the following nounal sentence:
 
 (@3amal_zayd_qaimun) [زَيْدٌ قَائِمٌ]{.ar}  
@@ -337,22 +341,22 @@ DIAGRAM
 
 Example (@3amal_zayd_qaimun) above is a nounal sentence.
 The subject [زَيْدٌ]{.ar}
-is the structure-starter. It is the topic of the sentence.
+is the leaned-against element. It is the topic of the sentence.
 The info
 [قَائِمٌ]{.ar}
-is the structure-completer.
+is the leaning element.
 It is a comment on the topic, giving us some information about
 [زَيْدٌ]{.ar}.
 
 <!--
 We have previously referred to this type of sentence as a nounal sentence.
-In this nounal sentence the subject is the structure-starter,
-and the info is the structure-completer.
+In this nounal sentence the subject is the leaned-against element,
+and the info is the leaning element.
 -->
 
 ### The indispensable elements of a verbal sentence
 
-In a verbal sentence the verb is the structure-completer and its doer is the structure-starter.
+In a verbal sentence the verb is the leaning element and its doer is the leaned-against element.
 Consider the following verbal sentence:
 
 (@3amal_qaama_zaydun) [قَامَ زَيْدٌ]{.ar}
@@ -362,18 +366,18 @@ DIAGRAM
 Example (@3amal_qaama_zaydun) above is a verbal sentence.
 The doer
 [زَيْدٌ]{.ar}
-is the structure-starter. It is the topic of the sentence.
-And the verb [قَامَ]{.ar} is the structure-completer. It is a comment on the topic.
+is the leaned-against element. It is the topic of the sentence.
+And the verb [قَامَ]{.ar} is the leaning element. It is a comment on the topic.
 
 <!--
 We have previously referred to this type of sentence as a verbal sentence.
-In this verbal sentence the verb is the structure-completer,
-and the doer is the structure-starter.
+In this verbal sentence the verb is the leaning element,
+and the doer is the leaned-against element.
 -->
 <!--
 We will see later, if Allāh wills that 
 in a verbal sentence
-the structure-completer may sometimes be another element, instead of the verb that governs the doer.
+the leaning element may sometimes be another element, instead of the verb that governs the doer.
 -->
 
 ## Foundational government
@@ -383,7 +387,8 @@ Besides the two indispensable elements,
 a sentence also needs an foundational government.[Owens §2.3.6.1 54]
 -->
 In order to build a sentence from the indispensable elements,
-a sentence needs _foundational government_.[Owens §2.3.6.1, 54]
+a sentence needs _foundational government_.^[See Owens,\ J., _The foundations of grammar_ §2.3.6.1, 54]
+
 <!--
 The foundational government governs the highest governing element(s) of the two indispensable elements of the sentence.
 -->
@@ -391,7 +396,7 @@ The foundational government governs the highest governing element(s) of the two 
 The foundational government is the source of all government in the sentence.
 -->
 Foundational government is any and all government prior to, and until, the first governed indispensable element.
-There may be different types of foundational government:
+Foundational government may be of different types:
 
 #### One of the two indispensable elements is the foundational government {.unnumbered}
 
@@ -449,16 +454,16 @@ For example:
     [Peled, _Sentence types_ 87]{.citex}  
     [Zayd is setting out.]{.trans}
 
-The abstract foundational government governs both the structure-starter (the subject [زَيْدٌ]{.ar}),
-and the structure-completer (the info 
+The abstract foundational government governs both the leaned-against element (the subject [زَيْدٌ]{.ar}),
+and the leaning element (the info 
 [مُنْطَلِقٌ]{.ar})
 in the u-state.
 
 (@ex000559) [يَقُومُ زَيْدٌ]{.ar}  
     [Zayd stands]{.trans}
 
-The abstract foundational government governs the structure-completer (the stateful verb [يَقُومُ]{.ar}) in the u-state.
-And, as usual, the verb [يَقُومُ]{.ar} governs its doer [زَيْدٌ]{.ar} (the structure-starter) in the u-state.
+The abstract foundational government governs the leaning element (the stateful verb [يَقُومُ]{.ar}) in the u-state.
+And, as usual, the verb [يَقُومُ]{.ar} governs its doer [زَيْدٌ]{.ar} (the leaned-against element) in the u-state.
 
 <!--
 
@@ -550,15 +555,15 @@ For example:
 In the example above,
 the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the 0-state.
 The verb [يَكُنْ]{.ar}, being a deficient verb, is not an indispensable element.
-But [يَكُنْ]{.ar} governs the structure-starter [زَيْدٌ]{.ar} in the u-state
-and the structure-completer [قَائِمًا]{.ar} in the a-state.
+But [يَكُنْ]{.ar} governs the leaned-against element [زَيْدٌ]{.ar} in the u-state
+and the leaning element [قَائِمًا]{.ar} in the a-state.
 Therefore [يَكُنْ]{.ar} is part of the foundational government.
 -->
 
 ## Dispensable elements
 
 A dispensable element is any stateful element in a sentence,
-after the foundational government (in government hierarchy),
+following the foundational government (in government hierarchy),
 that is not either of the two indispensable elements.
 The source of government for 
 a dispensable element must be,
@@ -569,8 +574,8 @@ We know from section\ (ref) above,
 that in a nounal sentence the indispensable elements are the subject and the info.
 And that in
 a verbal sentence the indispensable elements are the verb and its doer.
-So all other elements besides these 
-(and elements that constitute the foundational government)
+So all other elements besides these two,
+and elements that constitute the foundational government,
 are dispensable elements.
 Here is an (incomplete) list of some common dispensable elements:
 <!--
@@ -595,7 +600,7 @@ These include:
 
 By the way,
 when we say _dispensable_,
-we mean that an element is dispensable in the sense that it is not required to complete the sentence _structurally_.
+we mean that an element is dispensable in the sense that it is not required to make the sentence structurally complete.
 We don't mean that it is superfluous in terms of its meaning.
 In fact, a dispensable element may be essential for the correct meaning of the sentence.
 For example, consider the [Ayah]{.trn2}:
@@ -635,13 +640,13 @@ If we remove the base noun nouns from the sentence we get:
 
 This is a complete sentence.
 al-abu is the subject.
-And al-axu is the info (the structure-completer).
+And al-axu is the info (the leaning element).
 
 However, for convenience, we will often (loosely) treat
 the annexation as one unit.
 So we may say that the subject is
 abu zaydin
-and that the structure-completer is axu 3amr.
+and that the leaning element is axu 3amr.
 
 #### The followers {.unnumbered}
 
@@ -670,9 +675,9 @@ A _nounal sentence_ is one whose first indispensable element is a noun.
 And
 a _verbal sentence_ is one whose first indispensable element is a verb.
 -->
-A _nounal sentence_ is one whose indispensable elements are two nouns: a subject (as the structure-starter) and an info (as the structure-completer).
+A _nounal sentence_ is one whose indispensable elements are two nouns: a subject (as the leaned-against element) and an info (as the leaning element).
 And
-a _verbal sentence_ is one whose indispensable elements are a verb (as the structure-completer) and and its doer (as the structure-starter).
+a _verbal sentence_ is one whose indispensable elements are a verb (as the leaning element) and and its doer (as the leaned-against element).
 
 Consider, for example, the following sentence:
 
@@ -699,7 +704,7 @@ it is usually a dispensable element.
 Stripping the sentence of this dispensable element, we are left with
 [رَأَيْتُ]{.ar} [I saw]{.trans}.
 This is a verbal sentence.
-The verb [رَأى]{.ar} is the structure-completer and its doer, the pronoun [تُ]{.ar}, is the structure-starter.
+The verb [رَأى]{.ar} is the leaning element and its doer, the pronoun [تُ]{.ar}, is the leaned-against element.
 
 <!--
 
@@ -721,18 +726,18 @@ looks like a verbal sentence because it begins with
 [كَانَ]{.ar}, which is a verb.
 Its doer
 [زَيْدٌ]{.ar}
-is the structure-starter, as usual.
+is the leaned-against element, as usual.
 But
 [كَانَ]{.ar}, as used above,
 is a deficient verb
 (see chapter\ (ref).)
 This means that it does not have sufficient meaning to structurally complete the sentence by itself.
-So it cannot be a indispensable structure-completer.
+So it cannot be a indispensable leaning element.
 Instead,
 [كَانَ]{.ar}
 requires a info 
 ([قَائِمًا]{.ar} above)
-to be the structure-completer.
+to be the leaning element.
 
 In such a sentence,
 [كَانَ]{.ar}
@@ -746,8 +751,8 @@ Similarly consider the sentence:
 In the example above,
 the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the 0-state.
 The verb [يَكُنْ]{.ar}, being a deficient verb, is not an indispensable element.
-But [يَكُنْ]{.ar} governs the structure-starter [زَيْدٌ]{.ar} in the u-state
-and the structure-completer [قَائِمًا]{.ar} in the a-state.
+But [يَكُنْ]{.ar} governs the leaned-against element [زَيْدٌ]{.ar} in the u-state
+and the leaning element [قَائِمًا]{.ar} in the a-state.
 Therefore both [لَمْ]{.ar} and [يَكُنْ]{.ar} form the foundational government.
 
 [كَانَ]{.ar} and its sisters are discussed in more detail in chapters\ (ref).
@@ -779,23 +784,23 @@ We will see another example of a hybrid sentence in section\ (aqaaimun zaydun).
 ### Identifying the indispensable elements in a verbal sentence
 
 Identifying the indispensable elements in a verbal sentence is relatively straightforward.
-The structure-starter is always the doer of the verb.
+The leaned-against element is always the doer of the verb.
 And 
 except in the case of a deficient verb,
-the structure-completer is usually the verb.
+the leaning element is usually the verb.
 We saw an example of the indispensable elements of a verbal sentence in example (@3amal_qaama_zaydun) above.
 
 In the case of a deficient verb,
 like [كَانَ]{.ar},
 the verb does not complete the sentence grammatically.
-So the direct doee of the verb becomes the structure-completer.
+So the direct doee of the verb becomes the leaning element.
 We saw an example of the indispensable elements of a verbal sentence with a deficient verb in example (@kaana_zaydun_qaaiman) above.
 -->
 
 ## Identifying the indispensable elements in a nounal sentence
 
 It can sometimes be complicated to tell
-which of the twp indispensable elements in a nounal sentence is the structure-starter and which is the structure-completer.
+which of the twp indispensable elements in a nounal sentence is the leaned-against element and which is the leaning element.
 We will discuss several cases below:
 
 ### When there is an overt foundational government
@@ -803,7 +808,7 @@ We will discuss several cases below:
 When there is an overt foundational government,
 like [إِنَّ]{.ar},
 [كَانَ]{.ar}, etc.,
-then it is usually easy to tell which is the structure-starter and which is the structure-completer.
+then it is usually easy to tell which is the leaned-against element and which is the leaning element.
 For example:
 
 (@3amal_fainna_hasbaka_allahu) [فَإِنَّ حَسۡبَكَ ٱللَّهُ]{.quran}
@@ -814,20 +819,20 @@ In example (@3amal_fainna_hasbaka_allahu) above,
 [حَسْب]{.ar} is in the a-state as the subject and 
 the word [ٱللَّهُ]{.ar} is in the u-state as the info.
 This tells us that
-[حَسْب]{.ar} is the structure-starter and the word
-[ٱللَّهُ]{.ar} is the structure-completer.
+[حَسْب]{.ar} is the leaned-against element and the word
+[ٱللَّهُ]{.ar} is the leaning element.
 
 
 ### One indispensable element is definite and the other indispensable element is indefinite
 
 When 
 one indispensable element is definite and the other indispensable element is indefinite,
-then it is usually the case that the definite element is the structure-starter (as the subject)
-and the indefinite element is the structure-completer (as the info).
+then it is usually the case that the definite element is the leaned-against element (as the subject)
+and the indefinite element is the leaning element (as the info).
 
-In terms of pragmatics, the structure-starter and the structure-completer represent 'given' and 'new' information.
-That is, the listener knows who the structure-starter is and can identify him or it. So the structure-starter is a 'given' to the listener.
-And the speaker is providing 'new' information about the structure-starter to the listener.
+In terms of pragmatics, the leaned-against element and the leaning element represent 'given' and 'new' information.
+That is, the listener knows who the leaned-against element is and can identify him or it. So the leaned-against element is a 'given' to the listener.
+And the speaker is providing 'new' information about the leaned-against element to the listener.
 The definite element represents the 'given' information, which the listener already knows.
 And the indefinite element represents 'new' information.
 
@@ -837,11 +842,11 @@ Let's take a look at an example:
     [Peled, _Sentence types_ 121]{.citex}  
     [A [#tamIm]{.trn2}ite I am.]{.trans}
 
-The pronoun [أَنَا]{.ar} is definite. Therefore it is the structure-starter (as the subject).
+The pronoun [أَنَا]{.ar} is definite. Therefore it is the leaned-against element (as the subject).
 And the word
 [تَمِيمِيٌّ]{.ar}
 is indefinite.
-Therefore it is the structure-completer (as the info).
+Therefore it is the leaning element (as the info).
 Example (@3amal_tamimiyyun_ana) is an inverted order sentence where the info is fronted and the subject is placed after it.
 
 In special cases, some grammarians hold that it is possible to have an indefinite subject and a definite info.^[<https://alababmisr.com/%D8%B3%D8%A4%D8%A7%D9%84-%D9%87%D9%84-%D9%8A%D8%AC%D9%88%D8%B2-%D8%A3%D9%86-%D9%8A%D8%A3%D8%AA%D9%8A-%D8%A7%D9%84%D9%85%D8%A8%D8%AA%D8%AF%D8%A3-%D9%86%D9%83%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%AE/>]
@@ -931,12 +936,12 @@ However, if it is pragmatically known that the topic of the sentence is
 [أَبُو يُوسُفَ]{.ar},
 then it is 'given' that
 [أَبُو يُوسُفَ]{.ar}
-is the structure-starter (as the subject).
+is the leaned-against element (as the subject).
 Similarly, it is known that likening him to
 [أَبُو حَنِيفَةَ]{.ar}
 is the 'new' information.
 Therefore,
-[أَبُو حَنِيفَةَ]{.ar} is the structure-completer (as the info).
+[أَبُو حَنِيفَةَ]{.ar} is the leaning element (as the info).
 In this case, the sentence order can be flexible, and the info can be fronted (stylistically), for the same meaning, thus:
 
 (@ex000579) [أَبُو حَنِيفَةَ أَبُو يُوسُفَ]{.ar}  
@@ -960,7 +965,11 @@ Examples:
     [[[سورة الشورى]{.ar} 42:40](https://quran.com/42/40)]{.citex}  
     [And the retribution for an evil act is an evil one like it]{.trans}
 
+<!--
 ## The info as a complete sentence
+-->
+
+## The compound sentence
 
 In a nounal sentence,
 the info is, by default, a single noun.
@@ -1054,7 +1063,7 @@ and the direct doee [عَمْرًا]{.ar} in the a-state.
 
 We will say that the inner sentence 
 [لَمْ يَضْرِبْ عَمْرًا]{.ar}
-is _in place_ of a u-state noun as the info of the outer sentence.
+is a positional u-state noun as the info of the outer sentence.
 
 The government of this compound sentence is illustrated in the diagram below:
 
@@ -1326,7 +1335,9 @@ Here is another example:
 
 ## A foreign element separating a governor from its governee
 
-A foreign element is one that is not _directly_ governed by a governor.
+A foreign element,
+with respect to a particular governor,
+is one that is not _directly_ governed by the governor.
 In most cases,
 a foreign element should not come between (and thus separate) a governor from its governee(s).
 For example, consider the following sentence:
@@ -1347,7 +1358,14 @@ So
 [كِتَابًا]{.ar}
 is a foreign element for the verb
 [عَلِمْتُ]{.ar}.
-Therefore, the following sentence is impermissible:
+Therefore,
+[كِتَابًا]{.ar}
+should not come between the governor
+[عَلِمْتُ]{.ar}
+and its governee
+[مُحَمَّد]{.ar}.
+So
+the following sentence would be impermissible:
 
 (@ex000599) ✗ [عَلِمْتُ كِتَابًا مُحَمَّدًا يُؤَلِّفُ]{.ar}
     [[الجملة العربية لفاضل السامرائي]{.ar} 66]{.citex}  
@@ -1368,7 +1386,7 @@ refers to the noun [زَيْدٌ]{.ar} which occurs before it.
 
 There is a special pronoun, called the _state-of-affairs pronoun_
 ([ضَمِيرُ الشَّأْنِ]{.ar})
-that behaves differently from other pronouns
+that behaves differently from other pronouns.
 It is used to begin compound nounal sentences.
 Here is an example of a sentence with a state-of-affairs pronoun:
 
@@ -1376,7 +1394,9 @@ Here is an example of a sentence with a state-of-affairs pronoun:
     [[[معاني النحو]{.ar} 1/57](https://shamela.ws/book/17801/56)]{.citex}  
     [[The state of affairs] is: Zayd is setting out.]{.trans}  
 
-The pronoun [هُوَ]{.ar} is the state-of-affairs pronoun
+The pronoun [هُوَ]{.ar}
+in example () above
+is the state-of-affairs pronoun
 It is the subject of the outer sentence.
 Its info is the inner sentence
 [زَيْدٌ مُنْطَلِقٌ]{.ar}.
@@ -1418,9 +1438,14 @@ Examples:
     [[البسيط لابن أبي الربيع]{.ar} 745]{.citex}  
     [[The state of affairs] is: Hind is standing.]{.trans}
 
+<!--
 As mentioned,
 the gender of the state-of-affairs pronoun generally matches the gender of the following subject (as above).
 Sometimes, however, it is found to mismatch. For example:
+-->
+Sometimes, however,
+the gender of the state-of-affairs pronoun can mismatch the gender of the following subject.
+For example:
 
 (@ex000604) [**هِيَ** زَيْدٌ قَائِمٌ]{.ar}
     [[البسيط لابن أبي الربيع]{.ar} 745]{.citex}  

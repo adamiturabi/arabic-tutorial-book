@@ -127,7 +127,11 @@ These are called _stateful_ elements.
 The stateful elements are nouns and ;mudarie; verbs.
 A noun may be either in the ;ustate;, ;astate;, or ;istate;.
 And a ;mudarie; verb may be either in the ;ustate;, ;astate;, or ;0state;.
-The theory of government states that a stateful element is put in a particular state by a _governor_.
+
+The theory of government states that a stateful element
+in a sentence
+is _governed_ in a particular state by a _governor_.
+
 For example:
 
 (@3amal_in_house) [فِي الدَّارِ]{.ar}  
@@ -138,9 +142,9 @@ In the above example,
 the particle fii is the governor of the noun al-daari.
 The noun al-daar is the governee of its governor fii.
 -->
-the gpreposition [فِي]{.ar} causes the noun [الدَّار]{.ar} to be in the ;istate;.
+the preposition [فِي]{.ar} causes the noun [الدَّار]{.ar} to be in the ;istate;.
 So we say that 
-the governor [فِي]{.ar} _governs_ [الدَّار]{.ar} (the _governee_) in the ;istate;.
+the _governor_ [فِي]{.ar} _governs_ [الدَّار]{.ar} (the _governee_) in the ;istate;.
 <!--
 We say that
 the preposition fii is the governor of ;istate; noun al-daar because it is the reason or cause of the noun al-daar being in the ;istate;.
@@ -288,8 +292,8 @@ ii. The ;muxbar;
 
 \draw[pattern=north west lines, pattern, draw=none] (0,0) rectangle (6,-0.4);
 \draw (0,0) -- (6,0);
-\draw[fill=lightgray] (2,-0.3) rectangle node [rotate=90] {structure-starter} (2.4, 5);
-\draw[fill=lightgray, rotate around={30:(5.05,-0.3)}] (5.05,-0.3) rectangle node [rotate=-60] {structure-completer} (5.45, 6);
+\draw[fill=lightgray] (2,-0.3) rectangle node [rotate=90] {;muxbar3;} (2.4, 5);
+\draw[fill=lightgray, rotate around={30:(5.05,-0.3)}] (5.05,-0.3) rectangle node [rotate=-60] {;muxbar;} (5.45, 6);
 
 \end{tikzpicture}
 ```
@@ -377,7 +381,8 @@ Besides the two ;3umdah; elements,
 a sentence also needs an ;pregov;.[Owens §2.3.6.1 54]
 -->
 In order to build a sentence from the ;3umdah; elements,
-a sentence needs _;pregov;_.[Owens §2.3.6.1, 54]
+a sentence needs _;pregov;_.^[See @owens_foundations_grammar@ §2.3.6.1, 54]
+
 <!--
 The ;pregov; governs the highest governing element(s) of the two ;3umdah; elements of the sentence.
 -->
@@ -385,7 +390,7 @@ The ;pregov; governs the highest governing element(s) of the two ;3umdah; elemen
 The ;pregov; is the source of all government in the sentence.
 -->
 #;pregov; is any and all government prior to, and until, the first governed ;3umdah; element.
-There may be different types of ;pregov;:
+#;pregov; may be of different types:
 
 #### One of the two ;3umdah; elements is the ;pregov; {.unnumbered}
 
@@ -552,7 +557,7 @@ Therefore [يَكُنْ]{.ar} is part of the ;pregov;.
 ## #;fadlah; elements
 
 A ;fadlah; element is any stateful element in a sentence,
-after the ;pregov; (in government hierarchy),
+following the ;pregov; (in government hierarchy),
 that is not either of the two ;3umdah; elements.
 The source of government for 
 a ;fadlah; element must be,
@@ -563,8 +568,8 @@ We know from section\ (ref) above,
 that in a ;j_ism; the ;3umdah; elements are the ;mubtada; and the ;xabar;.
 And that in
 a ;j_f3l; the ;3umdah; elements are the verb and its ;faa3il;.
-So all other elements besides these 
-(and elements that constitute the ;pregov;)
+So all other elements besides these two,
+and elements that constitute the ;pregov;,
 are ;fadlah; elements.
 Here is an (incomplete) list of some common ;fadlah; elements:
 <!--
@@ -589,7 +594,7 @@ These include:
 
 By the way,
 when we say _;fadlah;_,
-we mean that an element is ;fadlah; in the sense that it is not required to complete the sentence _structurally_.
+we mean that an element is ;fadlah; in the sense that it is not required to make the sentence ;isnaad_comp;.
 We don't mean that it is superfluous in terms of its meaning.
 In fact, a ;fadlah; element may be essential for the correct meaning of the sentence.
 For example, consider the ;ayah;:
@@ -954,7 +959,11 @@ Examples:
     [@https://quran.com/42/40@]{.citex}  
     [And the retribution for an evil act is an evil one like it]{.trans}
 
+<!--
 ## The ;xabar; as a complete sentence
+-->
+
+## The compound sentence
 
 In a ;j_ism;,
 the ;xabar; is, by default, a single noun.
@@ -1048,7 +1057,7 @@ and the ;mafulb; [عَمْرًا]{.ar} in the ;astate;.
 
 We will say that the inner sentence 
 [لَمْ يَضْرِبْ عَمْرًا]{.ar}
-is _in place_ of a ;ustate; noun as the ;xabar; of the outer sentence.
+is a ;mahall; ;ustate; noun as the ;xabar; of the outer sentence.
 
 The government of this compound sentence is illustrated in the diagram below:
 
@@ -1320,7 +1329,9 @@ Here is another example:
 
 ## A foreign element separating a governor from its governee
 
-A foreign element is one that is not _directly_ governed by a governor.
+A foreign element,
+with respect to a particular governor,
+is one that is not _directly_ governed by the governor.
 In most cases,
 a foreign element should not come between (and thus separate) a governor from its governee(s).
 For example, consider the following sentence:
@@ -1341,7 +1352,14 @@ So
 [كِتَابًا]{.ar}
 is a foreign element for the verb
 [عَلِمْتُ]{.ar}.
-Therefore, the following sentence is impermissible:
+Therefore,
+[كِتَابًا]{.ar}
+should not come between the governor
+[عَلِمْتُ]{.ar}
+and its governee
+[مُحَمَّد]{.ar}.
+So
+the following sentence would be impermissible:
 
 (@ex000599) ;x; [عَلِمْتُ كِتَابًا مُحَمَّدًا يُؤَلِّفُ]{.ar}
     [@samarrai_jumlah@ 66]{.citex}  
@@ -1362,7 +1380,7 @@ refers to the noun [زَيْدٌ]{.ar} which occurs before it.
 
 There is a special pronoun, called the _;damir_shan;_
 ([ضَمِيرُ الشَّأْنِ]{.ar})
-that behaves differently from other pronouns
+that behaves differently from other pronouns.
 It is used to begin compound ;j_ism;s.
 Here is an example of a sentence with a ;damir_shan;:
 
@@ -1370,7 +1388,9 @@ Here is an example of a sentence with a ;damir_shan;:
     [[@maani_nahw@ 1/57](https://shamela.ws/book/17801/56)]{.citex}  
     [[The state of affairs] is: Zayd is setting out.]{.trans}  
 
-The pronoun [هُوَ]{.ar} is the ;damir_shan;
+The pronoun [هُوَ]{.ar}
+in example () above
+is the ;damir_shan;
 It is the ;mubtada; of the outer sentence.
 Its ;xabar; is the inner sentence
 [زَيْدٌ مُنْطَلِقٌ]{.ar}.
@@ -1412,9 +1432,14 @@ Examples:
     [@baseet_ibn_abi_rabee3@ 745]{.citex}  
     [[The state of affairs] is: Hind is standing.]{.trans}
 
+<!--
 As mentioned,
 the gender of the ;damir_shan; generally matches the gender of the following ;mubtada; (as above).
 Sometimes, however, it is found to mismatch. For example:
+-->
+Sometimes, however,
+the gender of the ;damir_shan; can mismatch the gender of the following ;mubtada;.
+For example:
 
 (@ex000604) [**هِيَ** زَيْدٌ قَائِمٌ]{.ar}
     [@baseet_ibn_abi_rabee3@ 745]{.citex}  
