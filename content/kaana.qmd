@@ -4,7 +4,8 @@
 
 
 ::: {.callout-warning}
-**THIS BOOK IS A WORK IN PROGRESS. IT IS INCOMPLETE AND MAY HAVE TYPOGRAPHICAL AND OTHER ERRORS. IT IS NOT YET READY TO BE STUDIED FROM.**
+**THIS BOOK IS A WORK IN PROGRESS. IT IS INCOMPLETE AND MAY HAVE TYPOGRAPHICAL AND OTHER ERRORS.
+IT IS NOT YET READY TO BE STUDIED FROM.**
 :::
 
 
@@ -135,7 +136,7 @@ DIAGRAM
 [كَانَ]{.ar} is a hollow verb.
 Here is its conjugation table for easy reference:
 
-|Doer pronoun|perfect verb|u-state stateful verb|a-state stateful verb|0-state stateful verb|
+|Doer pronoun|stateless verb|u-state stateful verb|a-state stateful verb|ø-state stateful verb|
 |:--|:----|:----|:----|:----|
 | he        | [كَانَ]{.ar}   | [يَكُونُ]{.ar}   | [يَكُونَ]{.ar}   | [يَكُنْ]{.ar}   |
 | she       | [كَانَتْ]{.ar}  | [تَكُونُ]{.ar}   | [تَكُونَ]{.ar}   | [تَكُنْ]{.ar}   |
@@ -705,9 +706,9 @@ Incidentally,
 in example (@kaana_kaana_taajirun),
 the past verb of [have]{.trans}: [had]{.trans} is expressed using [كَانَ]{.ar} with the preposition [لِ]{.ar}.
 
-## Significations of the perfect verb [كَانَ]{.ar}
+## Significations of the stateless verb [كَانَ]{.ar}
 
-The general siginification of the perfect verb 
+The general siginification of the stateless verb 
 [كَانَ]{.ar}
 is to indicate a state that existed in the past, and that has possibly ceased.
 For example:
@@ -717,7 +718,7 @@ For example:
 
 This statement is regarding Zayd's state in the past and the implication is that he is possibly no longer standing.
 
-This is the most common signification of the perfect verb
+This is the most common signification of the stateless verb
 [كَانَ]{.ar}
 and the one that we have been using so far.
 But
@@ -883,10 +884,10 @@ Here are some examples:
     [[[سورة يونس]{.ar} 10:99](https://quran.com/10/99)]{.citex}  
     [Then, [O Muḥammad], would you compel the people in order that they become believers?]{.trans}
 
-## The 0-state stateful verb [يَكُنْ]{.ar} {#lam-yakun}
+## The ø-state stateful verb [يَكُنْ]{.ar} {#lam-yakun}
 
 As with other verbs,
-the 0-state stateful verb [يَكُنْ]{.ar} 
+the ø-state stateful verb [يَكُنْ]{.ar} 
 is used for negative commands, indirect commands, and with [لَمْ]{.ar} for negation, etc.
 Examples:
 
@@ -904,7 +905,7 @@ Examples:
 
 ### Deletion of [ن]{.ar}
 
-For the 0-state stateful conjugations of [كَانَ]{.ar} that don't have a [و]{.ar} between [ك]{.ar} and [ن]{.ar},
+For the ø-state stateful conjugations of [كَانَ]{.ar} that don't have a [و]{.ar} between [ك]{.ar} and [ن]{.ar},
 the [ن]{.ar} may optionally be deleted if certain conditions are satisfied.
 These conjugations are:
 
@@ -993,7 +994,7 @@ The verb of command [كُنْ]{.ar} followed by the name of a person in the a-st
     [I guess that you are [#abU]{.trn2} Zayd.]{.trans}
 
 
-## The perfect verb [كَانَ]{.ar} combined with a stateful verb
+## The stateless verb [كَانَ]{.ar} combined with a stateful verb
 
 In section\ (ref) above, we mentioned that the info
 [كَانَ]{.ar}
@@ -1016,7 +1017,7 @@ Instead of a nounal sentence as the info of
 the info is very often a verbal sentence.
 [كَانَ]{.ar}
 combined with verbal sentences to express complex tenses.
-The most common combination is the perfect verb
+The most common combination is the stateless verb
 [كَانَ]{.ar}
 with a stateful verb in its info.
 
@@ -1344,9 +1345,13 @@ This meaning can also be for the future, for example in a question:
 [[[سنن ابن ماجه]{.ar} :2606](https://sunnah.com/ibnmajah:2606)]{.citex}  
 [Which thing would you do?]{.trans}
 
+(@) [مَا كُنْتَ صَانِعًا فِي حَجِّكَ]{.ar}
+    [[[سنن النسائي]{.ar} :2709](https://sunnah.com/nasai:2709)]{.citex}  
+    [What would you do for your [#Hajj]{.trn2}?]{.trans}  
+
 ### Omission of [كَانَ]{.ar}
 
-If one or more perfect verbs precedes the stateful verb 
+If one or more stateless verbs precedes the stateful verb 
 or if the context indicates that the action was occurring in the past, then
 [كَانَ]{.ar}
 can be omitted, and the stateful verb is used by itself.^[Wright 2/21C] For example:
@@ -1382,10 +1387,10 @@ When the verbal noun refers to an action taking place in the future, the idea of
 [Wright 2/196A]{.citex}  
 [a matter which was to be done]{.trans}
 
-## The perfect verb [كَانَ]{.ar} combined with a perfect verb
+## The stateless verb [كَانَ]{.ar} combined with a stateless verb
 
 [كَانَ]{.ar}
-is combined with a following perfect verb to denote 
+is combined with a following stateless verb to denote 
 an action completed prior to some past (specified or implied) point in time.
 Example:
 
@@ -1398,11 +1403,11 @@ Example:
 
 
 The particle [قَدْ]{.ar} is often used when
-[كَانَ]{.ar} is combined with a perfect verb.
+[كَانَ]{.ar} is combined with a stateless verb.
 [قَدْ]{.ar}
 may be placed either between
 [كَانَ]{.ar}
-and the following perfect verb, or before
+and the following stateless verb, or before
 [كَانَ]{.ar}.
 Examples:
 
@@ -1414,7 +1419,7 @@ Examples:
 [قَدْ كَانَتْ فَرَغَتْ مِنْ عَمَلِهَا]{.ar}  
 [She had been done with her work.]{.trans}
 
-When their are multiple perfect verbs, and one (or more) of them occurred
+When their are multiple stateless verbs, and one (or more) of them occurred
 farther in the past than the others, it is indicated with 
 [قَدْ]{.ar},
 the others having merely
@@ -1451,11 +1456,11 @@ This combination may, again, be negated in multiple ways. Examples:
 [A report narrated in [[إحياء علوم الدين لأبي حامد الغزالي]{.ar} 3/139](https://shamela.ws/book/9472/885) without a chain]{.citex}  
 [And he had not brought her anything]{.trans}
 
-## The stateful verb [يَكُونُ]{.ar} combined with a perfect verb
+## The stateful verb [يَكُونُ]{.ar} combined with a stateless verb
 
 The stateful verb
 [يَكُونُ]{.ar}
-is compined with a perfect verb (often with an interposed [قَدْ]{.ar})
+is compined with a stateless verb (often with an interposed [قَدْ]{.ar})
 to express that the action is conceived of having been completed in the future.
 Examples:
 
@@ -1467,9 +1472,9 @@ Examples:
 [Fischer 108]{.citex}  
 [Let us take him for (then) we will have taken a substitute]{.trans}
 
-#### The a-state verb [يَكُونَ]{.ar} combined with a perfect verb
+#### The a-state verb [يَكُونَ]{.ar} combined with a stateless verb
 
-An a-state [يَكُونَ]{.ar} is combined with a perfect verb
+An a-state [يَكُونَ]{.ar} is combined with a stateless verb
 to express being in a state of an action having occurred
 or that might have occurred. For example:
 
@@ -1531,6 +1536,9 @@ or
 [قَالَ لَمْ أَكُنْ لأَفْعَلَ]{.ar}
 [[[سنن ابن ماجه]{.ar} :1503](https://sunnah.com/ibnmajah:1503)]{.citex}  
 [He said: I was not going to do that.]{.trans}
+
+[فَلَمْ أَكُنْ لأُفْشِيَ سِرَّ رَسُولِ اللَّهِ صلى الله عليه وسلم]{.ar}
+[[[صحيح البخاري]{.ar} :4005](https://sunnah.com/bukhari:4005)]{.citex}  
 
 ## [كَانَ]{.ar} with the [ل]{.ar} of deserving
 

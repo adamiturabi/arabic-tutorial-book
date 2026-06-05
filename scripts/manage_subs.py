@@ -211,6 +211,8 @@ map_table["fi3l_jawab_shart"] = "condition-response-verb"
 map_table["j_ism"] = "nounal sentence"
 map_table["j_f3l"] = "verbal sentence"
 
+map_table["kawn_3aam"] = "general beingness"
+
 map_table["laam_ibt"] = "[لَ]{.ar} of beginning"
 map_table["laam_frq"] = "differentiator [لَ]{.ar}"
 map_table["laam_taqwiya"] = "strengthening-[لِ]{.ar}"
