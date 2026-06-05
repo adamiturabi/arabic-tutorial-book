@@ -3,7 +3,8 @@ map_table = {}
 
 map_table["wip_warn"] = """
 ::: {.callout-warning}
-**THIS BOOK IS A WORK IN PROGRESS. IT IS INCOMPLETE AND MAY HAVE TYPOGRAPHICAL AND OTHER ERRORS. IT IS NOT YET READY TO BE STUDIED FROM.**
+**THIS BOOK IS A WORK IN PROGRESS. IT IS INCOMPLETE AND MAY HAVE TYPOGRAPHICAL AND OTHER ERRORS.
+IT IS NOT YET READY TO BE STUDIED FROM.**
 :::
 """
 
@@ -16,7 +17,7 @@ map_table["larr"] = "←"
 # text terms
 map_table["Allah"] = "Allāh"
 map_table["3amr"] = "[#eamr]{.trn2}"
-map_table["arch"] = "archetypical"
+map_table["arch"] = "archetypal"
 map_table["archly"] = "archetypically"
 map_table["ia"] = "if Allāh wills"
 map_table["quran"] = "Qurʾān"
@@ -47,6 +48,8 @@ map_table["basran"] = "[#baSr]{.trn2}an"
 
 # inna and its sisters
 map_table["lan"] = "[لَنْ]{.ar}"
+map_table["lam"] = "[لَمْ]{.ar}"
+map_table["laa"] = "[لَا]{.ar}"
 map_table["idhan"] = "[إِذَنْ]{.ar}"
 map_table["hatta"] = "[حَتَّى]{.ar}"
 map_table["kay"] = "[كَيْ]{.ar}"
@@ -61,9 +64,36 @@ map_table["an"] = "[أَنْ]{.ar}"
 map_table["ka_an"] = "[كَأَنْ]{.ar}"
 map_table["lakin"] = "[لَـٰكِنْ]{.ar}"
 map_table["in_nfy"] = "negating-[إِنْ]{.ar}"
+map_table["idha"] = "[إِذَا]{.ar}"
+map_table["idh"] = "[إِذْ]{.ar}"
+map_table["law"] = "[لَوْ]{.ar}"
+map_table["man"] = "[مَنْ]{.ar}"
+map_table["maa"] = "[مَا]{.ar}"
+map_table["fa"] = "[فَ]{.ar}"
+map_table["qad"] = "[قَدْ]{.ar}"
+
+map_table["_in"] = "إِنْ"
+map_table["_idha"] = "إِذَا"
+map_table["_lam"] = "لَمْ"
+map_table["_laa"] = "لَا"
+map_table["_maa"] = "مَا"
+map_table["_lan"] = "لَنْ"
 
 map_table["kaana"] = "[كَانَ]{.ar}"
+map_table["yakun"] = "[يَكُنْ]{.ar}"
 map_table["laysa"] = "[لَيْسَ]{.ar}"
+
+#map_table["qatala"] = "[qatala]{.trn}"
+#map_table["yaqtul"] = "[yaqtul]{.trn}"
+#map_table["yaqtulu"] = "[yaqtulu]{.trn}"
+map_table["qatala"] = "[قَتَلَ]{.ar}"
+map_table["yaqtul"] = "[يَقْتُلْ]{.ar}"
+map_table["yaqtulu"] = "[يَقْتُلُ]{.ar}"
+map_table["yaqtula"] = "[يَقْتُلَ]{.ar}"
+map_table["_qatala"] = "قَتَلَ"
+map_table["_yaqtul"] = "يَقْتُلْ"
+map_table["_yaqtulu"] = "يَقْتُلُ"
+map_table["_yaqtula"] = "يَقْتُلَ"
 
 # 3aaqil
 map_table["3aaqil"]   = "intelligent being"   # raised-state"
@@ -73,7 +103,8 @@ map_table["g_3aaqil"] = "non-intelligent being"  # propped-state
 map_table["ustate"] = "u-state"   # raised-state"
 map_table["astate"] = "a-state"  # propped-state
 map_table["istate"] = "i-state"  # lowered-state
-map_table["0state"] = "0-state"  # clipped-state
+map_table["0"] = "ø"  # clipped-state
+map_table["0state"] = map_table["0"] + "-state"  # clipped-state
 
 # diacritics
 map_table["amark"] = "[fatHah]{.trn2}"
@@ -97,6 +128,8 @@ map_table["tote"] = "flexible"
 map_table["ghair_mutasarrif"] = "rigid"
 map_table["mutasarrif"] = "flexible"
 map_table["mu3rab"] = "flexible"
+map_table["jamid_verb"] = "fixed verb"
+map_table["jamid_noun"] = "primitive noun"
 
 
 # active and passive voice
@@ -128,6 +161,7 @@ map_table["3atf_bayan"] = "clarifying follower"
 
 map_table["adat_istifham"] = "question word"
 map_table["af3al"] = "comparative noun"
+map_table["fi3l_qalb"] = "verb of perception"
 map_table["af3aal_quloob"] = "verbs of perception"
 
 map_table["badal"] = "sub" # replacement, substitute
@@ -140,6 +174,7 @@ map_table["dharf_makan"] = "adverb of place"
 map_table["dharf_zaman"] = "adverb of time"
 
 map_table["faa3il"] = "doer"
+map_table["fi3l_amr"] = "verb of command"
 
 map_table["hal"] = "[HAl]{.trn2}"
 
@@ -159,11 +194,24 @@ map_table["ism_mawsul"] = "connected noun"
 map_table["ism_zaman"] = "noun of time"
 map_table["isnaad_comp"] = "structurally complete"
 
-map_table["jamid"] = "primitive"
-map_table["jawab"] = "consequence"
-map_table["jawab_shart"] = "condition-response"
+
+map_table["j_sh"] = "conditional sentence"
+map_table["adat_shart"] = "condition-introducer" #"conditional device"
+map_table["jawab_shart_intro"] = "condition-response-introducer" #"conditional device"
+map_table["jawab_intro"] = "response-introducer" #"conditional device"
+map_table["shart"] = "condition" # condition
+map_table["jawab"] = "response"
+map_table["jawab_shart"] = "condition-response" # outcome, result, consequence, condition-response, response-to-the-condition
+map_table["shart_int"] = "condition-internal-sentence" # "cond~int~" # condition
+map_table["jawab_shart_int"] = "condition-response-internal-sentence" #"cond-resp~int~" # outcome, result, consequence, condition-response, response-to-the-condition
+map_table["jawab_int"] = "response-internal-sentence" #"cond-resp~int~" # outcome, result, consequence, condition-response, response-to-the-condition
+map_table["fi3l_shart"] = "condition-verb"
+map_table["fi3l_jawab_shart"] = "condition-response-verb"
+
 map_table["j_ism"] = "nounal sentence"
 map_table["j_f3l"] = "verbal sentence"
+
+map_table["kawn_3aam"] = "general beingness"
 
 map_table["laam_ibt"] = "[لَ]{.ar} of beginning"
 map_table["laam_frq"] = "differentiator [لَ]{.ar}"
@@ -171,7 +219,7 @@ map_table["laam_taqwiya"] = "strengthening-[لِ]{.ar}"
 map_table["lazim"] = "intransitive"
 map_table["lnj"] = {"لا النافية للجنس", "ar"}
 
-map_table["madi"] = "perfect"  # "stateless" verb?
+map_table["madi"] = "stateless"  # perfect, perfective, "stateless" verb?
 map_table["maful"] = "doee"
 map_table["mafulb"] = "direct doee"
 map_table["mafull"] = "adverb of reason"
@@ -208,6 +256,7 @@ map_table["noon_wiq"] = "guarding-[ن]{.ar}"
 
 map_table["participle"] = "participle"
 map_table["pbuh"] = "[ﷺ]{.aralt}"
+map_table["qasam"] = "oath"
 
 map_table["rabt"] = "link"
 
@@ -218,17 +267,18 @@ map_table["sifah"] = "adjectival noun"
 map_table["sifah_mush"] = "participle-like adjective" # {"participlish adjectival noun", nil} # "participle-like"?
 map_table["sighah_mub"] = "emphatic noun" # {"participlish adjectival noun", nil} # "participle-like"?
 map_table["silah"] = "connecting sentence"
-map_table["shart"] = "condition"
 map_table["shibh_fi3l"] = "quasi-verb"
 map_table["shibh_jumlah"] = "quasi-sentence"
 map_table["shibh_jumlah"] = "quasi-sentence"
 map_table["subst"] = "entity noun"
 
 map_table["taamm"] = "sufficient"
+map_table["talab"] = "request"
 map_table["tabi3"] = "follower"
 map_table["tafsiri"] = "explanatory"
 map_table["tamyiz"] = "[tamyIz]{.trn2}"
 map_table["tawkeed"] = "emphatic follower"
+map_table["tense"] = "time-reference"
 
 map_table["xabar"] = "info" # newsworthy expression, information, comment, remark, info, report, news, expression
 

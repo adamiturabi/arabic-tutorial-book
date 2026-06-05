@@ -954,6 +954,45 @@ def populate_resource_list():
     , sort_key = "انصاف للانباري"
     ))
   resource_list.append(BibResource(
+    "shawahid_tawdeeh"
+    , cit_type = "ar_ref"
+    , cit_text = "[شواهد التوضيح لابن مالك]{.ar}"
+    , bib_text = """
+      الكتاب: شَوَاهِد التَّوضيح وَالتَّصحيح لمشكلات الجامع الصَّحيح  
+      المؤلف: محمد بن عبد الله، ابن مالك الطائي الجياني، أبو عبد الله، جمال الدين (ت ٦٧٢هـ)  
+      المحقق: الدكتور طَه مُحسِن  
+      الناشر: مكتبة ابن تيمية  
+      الطبعة: الأولى، ١٤٠٥ هـ  
+      عدد الصفحات: ٢٨٣  
+      """ + format_url_ar("https://shamela.ws/book/98123")
+    , sort_key = "شواهد التوضيح"
+    ))
+  resource_list.append(BibResource(
+    "idah_qazwini"
+    , cit_type = "ar_ref"
+    , cit_text = "[الإيضاح في علوم البلاغة للقزويني]{.ar}"
+    , bib_text = """
+      الكتاب: الإيضاح في علوم البلاغة  
+      المؤلف: محمد بن عبد الرحمن بن عمر، أبو المعالي، جلال الدين القزويني الشافعي، المعروف بخطيب دمشق (ت ٧٣٩هـ)  
+      المحقق: محمد عبد المنعم خفاجي  
+      الناشر: دار الجيل - بيروت  
+      الطبعة: الثالثة  
+      عدد الأجزاء: ٣  
+      """ + format_url_ar("https://shamela.ws/book/7380")
+    , sort_key = "ايضاح في علوم البلاغة للقزويني"
+    ))
+  resource_list.append(BibResource(
+    "3aarif_aldin_temporal"
+    , cit_type = "ar_ref"
+    , cit_text = "[التأويل الزمني للجملة الشرطية في اللغة العربية لعارف الدين]{.ar}"
+    , bib_text = """
+      المقالة: التأويل الزمني للجملة الشرطية في اللغة العربية  
+      المؤلفون: عارف الدين عارف الدين، شمس الهادي ، سوهاندانو سوهاندانو  
+      الناشر:  مجلة دراسات: العلوم الإنسانية والاجتماعية،  الجامعة الأردنية, ٢٠٢٢
+      """ + format_url_ar("https://doi.org/10.35516/hum.v49i3.1333")
+    , sort_key = "تاويل الزمني للجملة الشرطية في اللغة العربية"
+    ))
+  resource_list.append(BibResource(
     "sharh_muqaddimah_babashaadh"
     , cit_type = "ar_ref"
     , cit_text = "[شرح المقدمة المحسبة لابن بابشاذ]{.ar}"
@@ -1212,6 +1251,44 @@ def populate_resource_list():
     , bib_text = 'Levin, A., "The theory of al-taqdīr and its terminology." In _Jerusalem Studies in Arabic and Islam_,. 21 (1997), p. 142-166.'
     , sort_key = "levin theory of al taqdir"
     ))
+  resource_list.append(BibResource(
+    "peled_cst"
+    , cit_type = "ws_ref"
+    , cit_text = 'Peled, _Conditional structures in Classical Arabic_'
+    , bib_text = 'Peled, Y., _Conditional structures in Classical Arabic_, Otto Harrassowitz, 1992.'
+    , sort_key = "peled conditional structures"
+    ))
+  resource_list.append(BibResource(
+    "reckendorf_1921"
+    , cit_type = "ws_ref"
+    , cit_text = 'Reckendorf, _Arabische syntax_'
+    , bib_text = 'Reckendorf, H., _Arabische syntax_, Heidelburg, 1921.'
+    , sort_key = "Reckendorf arabische syntax"
+    ))
+  resource_list.append(BibResource(
+    "reckendorf_1898"
+    , cit_type = "ws_ref"
+    , cit_text = 'Reckendorf, _Die syntaktischen Verhältnisse des Arabischen_'
+    , bib_text = 'Reckendorf, H., _Die syntaktischen Verhältnisse des Arabischen_, Brill, 1898.'
+    , sort_key = "Reckendorf syntaktischen Verhaltnisse des Arabischen"
+    ))
+  resource_list.append(BibResource(
+    "alfraidi_conditional"
+    , cit_type = "ws_ref"
+    , cit_text = 'Alfraidi, _Conditional sentences in Modern Written Arabic_'
+    , bib_text = 'Alfraidi, T.\\ R.\\ K., _Conditional sentences  in Modern Written Arabic_, University of Exeter, PhD thesis, 2017. <https://hdl.handle.net/10871/29279>'
+    , sort_key = "Alfraidi conditional sentences"
+    ))
+  resource_list.append(BibResource(
+    "abdelghani"
+    , cit_type = "ws_ref"
+    , cit_text = 'Abdel-Ghani, _Conditional sentences within the Arab grammatical tradition_'
+    , bib_text = 'Abdel-Ghani, A.\\ A., _Conditional sentences within the Arab grammatical tradition_, University of Leeds, PhD thesis, 1981. <https://etheses.whiterose.ac.uk/id/eprint/910/>'
+    , sort_key = "Abdel Ghani Conditional"
+    ))
+
+
+
 
 
 

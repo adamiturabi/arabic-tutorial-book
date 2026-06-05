@@ -193,7 +193,7 @@ Here are examples (considering them permissible) as governors:
     "I saw your [place of] entrance to the house."
 
 
-Also permitted as governorns are ;jamid; nouns used with an adjectival meaning.
+Also permitted as governorns are ;jamid_noun;s used with an adjectival meaning.
 For example:
 
 ## One governor governing multiple prepositions
@@ -363,7 +363,7 @@ For example:
 In such cases, the preposition almost seems to lose some of its independent meaning.
 Instead, the meaning of the expression is obtained from the combination of the verb with the prepostion.
 
-## The implication of general beingness
+## The ;taqdir; of ;kawn_3aam;
 
 Consider the sentence:
 
@@ -377,12 +377,13 @@ But we find no such word in the sentence above.
 So what then is the governor of the preposition [فِي]{.ar}?
 
 In order to remain consistent with the Arabic grammatical model,
-we _implicate_ the involvement of an implied governor.
-This implied governor has the meaning given by the verb "is" or its verbal noun "being".
-We will refer to it as _general beingness_.
+we _;qaddar;_
+a governor.
+This ;qaddared; governor has the meaning given by the verb "is" or its verbal noun "being".
+We will refer to it as _;kawn_3aam;_.
 
 In Arabic grammatical terminology,
-general beingness is represented by the verb
+;kawn_3aam; is represented by the verb
 [ٱسْتَقَرَّ]{.ar}
 or its ;ism_fail;
 [مُسْتَقِرّ]{.ar},
@@ -391,7 +392,7 @@ or by the word
 which is the ;ism_fail; of the verb
 [كَانَ]{.ar}.
 
-Using these representations of general beingness,
+Using these representations of ;kawn_3aam;,
 we can explicate
 (one interpretation of)
 example (@sentence-zayd-in-house) [زَيْدٌ فِي ٱلدَّارِ]{.ar} as:
@@ -400,10 +401,10 @@ example (@sentence-zayd-in-house) [زَيْدٌ فِي ٱلدَّارِ]{.ar} as
     "Zayd is [being] in the house."
 
 The word "being" is not really needed in the translation because the verb "is" conveys the same concept.
-But we have added it to explicate the involvement of general beingness in the grammar of the sentence.
+But we have added it to explicate the involvement of ;kawn_3aam; in the grammar of the sentence.
 
 Note that
-implicating general beingness in a sentence 
+;qaddaring; ;kawn_3aam; in a sentence 
 as we did in example (@sentence-zayd-in-house-explicit) above
 is not same as if the words
 [ٱسْتَقَرَّ]{.ar} "to settle",
@@ -417,21 +418,21 @@ For example
 (@ex000165) [زَيْدٌ مُسْتَقِرٌّ فِي ٱلدَّارِ]{.ar}  
     "Zayd is settled in the house."
 
-When implicating general beingness we only use the words
+When ;qaddaring; ;kawn_3aam; we only use the words
 [ٱسْتَقَرَّ]{.ar},
 [مُسْتَقِرّ]{.ar},
 and
 [كَائِن]{.ar}
 terminologically.
 In fact, according to the prevalent opinion among the grammarians,
-general beingness can only be implied.^[@nahw_wafi@ 1/477]
+;kawn_3aam; can only be ;qaddared;.^[@nahw_wafi@ 1/477]
 If one of these (or any other) words is actually expressed,
-then it will impart a specific meaning, not the meaning of general beingness.
-Having said that, some grammarians did permit general beingness to be expressed.^[@ibn_aqil_alfiyyah@ 2/211 footnote]
+then it will impart a specific meaning, not the meaning of ;kawn_3aam;.
+Having said that, some grammarians did permit ;kawn_3aam; to be expressed.^[@ibn_aqil_alfiyyah@ 2/211 footnote]
 
-## Implied general beingness as the ;xabar; of a sentence
+## #;qaddared; ;kawn_3aam; as the ;xabar; of a sentence
 
-The implication of generall beingness in the sentence
+The ;taqdir; of ;kawn_3aam; in the sentence
 in example (@sentence-zayd-in-house) [زَيْدٌ فِي ٱلدَّارِ]{.ar}
 solves another problem for us.
 Remember how we said that, in the Arabic grammatical model,
@@ -443,22 +444,22 @@ Let's try doing that:
 (@ex000166) [زَيْدٌ [مُسْتَقِرٌّ]]{.ar}  
     "Zayd is [being]."
 
-See how the implied general beingness serves as the ;3umdah; ;musnad;: the ;xabar;.
-If we were to not implicate general beingness, we would be left with a grammatically incomplete sentence.
+See how the ;qaddared; ;kawn_3aam; serves as the ;3umdah; ;musnad;: the ;xabar;.
+If we were to not ;qaddar; ;kawn_3aam;, we would be left with a grammatically incomplete sentence.
 
 We also take this opportunity to explain an apparent inconsistency.
 Back in chapter\ (ref),
 we had said that a prepositional phrase can be the ;xabar; of a sentence.
-We now state that, strictly speaking, it is the (implied) governor of the prepostion which is the ;xabar;.
-But because the actual ;xabar; is implied and is not expressed, we can say, loosely speaking,
+We now state that, strictly speaking, it is the (;qaddared;) governor of the prepostion which is the ;xabar;.
+But because the actual ;xabar; is ;qaddared; and is not expressed, we can say, loosely speaking,
 that the prepositional phrase is the ;xabar;.
 
 This approach of applying a terminological label differently when loosely speaking vs when strictly speaking is common.^[@nahw_wafi@ 1/215, 2/118, 2/442]
 We will see other examples of it in sections\ (refs) ;ia;.
 
-## Other implied governors besides general beingness
+## Other ;qaddared; governors besides ;kawn_3aam;
 
-While general beingness is necessarily implied and never expressed (see section\ (ref) above),
+While ;kawn_3aam; is necessarily ;qaddared; and never expressed (see section\ (ref) above),
 other governors of prepositions too may be optionally suppressed.
 This is done on the condition that that the overall meaning or context supplies the meaning of the suppressed governor.^[@nahw_wafi@ 2/447 footnote]
 For example:
@@ -468,11 +469,11 @@ For example:
     "the free for the free"
 
 In the above example,
-the ;xabar; has been analyzed as the implied governor
+the ;xabar; has been analyzed as the ;qaddared; governor
 [يَقْتَصُّ]{.ar} "is retributed against"
 or
 [يُقْتَلُ]{.ar} "is killed".
-So the sentence with the implicated meaning is 
+So the sentence with the ;qaddared; meaning is 
 [الحُرُّ يَقْتَصُّ أوْ يُقْتَلُ بِالحُرِّ]{.ar}
 "the free is retributed against, or killed, for the free."^[@https://tafsir.app/ibn-aashoor/2/178@]
 
@@ -489,19 +490,19 @@ So this means that the preposition [عَلَىٰ]{.ar} is not meaningfully conne
 Therefore, [رَأَىٰ]{.ar} is not the governor of the preposition [عَلَىٰ]{.ar}.^[@ali_hani_ta3alluq@]
 So what then is governing the preposition [عَلَىٰ]{.ar}.
 
-Here again, we implicate the governor of general beingness, as if to say:
+Here again, we ;qaddar; the governor of ;kawn_3aam;, as if to say:
 
 (@ex000168) [رأيتُ طائرًا [مُسْتَقِرًّا] على الغصن]{.ar}  
     "I saw a bird [being] on the branch."
 
-General beingness
+;kawn_3aam;
 [[مُسْتَقِرًّا]]{.ar}
-is implicated as the governor of
+is ;qaddared; as the governor of
 the preposition [عَلَىٰ]{.ar}.
-The implicated general beingness is also a ;na3t; to the ;mafulb; 
+The ;qaddared; ;kawn_3aam; is also a ;na3t; to the ;mafulb; 
 [طَائِرًا]{.ar}.
 But because 
-the implied general beingness is not expressed, we may say, loosely speaking,
+the ;qaddared; ;kawn_3aam; is not expressed, we may say, loosely speaking,
 that the prepositional phrase is the ;na3t;.
 
 In order for a prepositional phrase to be a ;na3t;,
@@ -541,11 +542,11 @@ Here are some more examples of prepositional phrases as ;na3t;s:
 
 
 When a prepositional phrase is, loosely speaking, a ;na3t;,
-its governor is typically the implicated general beingness.^[@ibn_hisham_awdah_almasaalik@ 2/285, @ibn_aqil_alfiyyah@ 1/213].
+its governor is typically the ;qaddared; ;kawn_3aam;.^[@ibn_hisham_awdah_almasaalik@ 2/285, @ibn_aqil_alfiyyah@ 1/213].
 <!--
-In fact, some grammarians insist that the implied governor can only be general beingness.^[@https://tafsir.app/albahr-almuheet/3/194@ ([مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ]{.ar})]
+In fact, some grammarians insist that the ;qaddared; governor can only be ;kawn_3aam;.^[@https://tafsir.app/albahr-almuheet/3/194@ ([مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ]{.ar})]
 -->
-However, it is conceivable that the implied governor of the preposition be interpreted, if not formally then at least in meaning, as some other verb (or verbal noun).^[@nahw_wafi@ 2/447 footnote]
+However, it is conceivable that the ;qaddared; governor of the preposition be interpreted, if not formally then at least in meaning, as some other verb (or verbal noun).^[@nahw_wafi@ 2/447 footnote]
 For example:
 
 (@sentence-quran-27-12) [فِی تِسۡعِ ءَایَـٰتٍ إِلَىٰ فِرۡعَوۡنَ وَقَوۡمِهِۦۤۚ]{.quran}
@@ -560,7 +561,7 @@ prepositional phrase
 has been analyzed as ;na3t; of
 [ءَایَاتٍ]{.ar}
 "signs".
-The meaning with the implicated governor has been explained as
+The meaning with the ;qaddared; governor has been explained as
 [وَاصِلَةٌ إِلَى فِرْعَوْنَ]{.ar}
 "_arriving_ to Pharoah".^[@3akbari_tibyan@ 2/1005. But see also @https://tafsir.app/aldur-almasoon/27/12@ where this interpretation is critiqued.]
 
@@ -578,7 +579,7 @@ prepositional phrase
 has been analyzed as ;na3t; of
 [رِجْسًا]{.ar}
 "evil".
-The meaning with the implicated governor has been explained as
+The meaning with the ;qaddared; governor has been explained as
 [كُفْرًاً مَضْمُومًا إِلَىٰ كُفْرِهِمْ]{.ar}
 "in disbelief _in addition_ to their disbelief."^[@https://tafsir.app/kashaf/9/125@]
 
@@ -732,6 +733,7 @@ and not to other types of governees.
 Examples:
 -->
 
+<!--
 ### Word-order of the ;mafulb; and its governor
 
 Consider example (@sentence-zayd-beat-3amr) again:
@@ -762,4 +764,5 @@ Others allow it, but consider it rare or weak in its structure.
 
 (@ex000183) [مررت بزيد وعمرو، وعمرً]{.ar}
     [<https://shamela.ws/book/13301/1664>]{.citex}
+-->
 

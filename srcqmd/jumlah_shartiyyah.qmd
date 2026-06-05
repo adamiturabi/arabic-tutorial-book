@@ -1,0 +1,2761 @@
+# The ;j_sh;
+
+;wip_warn;
+
+## Introduction
+
+A ;j_sh; is a special sentence, which consists of two parts:
+
+1. A _;shart;_. The ;shart; itself consists of two parts:
+
+    i. The *;adat_shart;*
+   ii. The *;shart_int;*
+
+2. A _;jawab_shart;_. The ;jawab_shart; can also consist of two parts:
+
+    i. The *;jawab_shart_intro;*. This may be absent for some ;j_sh;s.
+   ii. The *;jawab_shart_int;*
+
+Here is an example of a ;j_sh; in English:
+
+(@) [If you come to me, then I will honor you.]{.trans}
+
+@fig-cst_eng_ex1 shows the two parts of ;j_sh;.
+
+::: {#fig-cst_eng_ex1 .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=If you come to me then I will honor you.,
+  text effects/.cd, 
+    path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below, rotate=90, text centered,text width=1cm, yshift=1.5em, xshift=-2em] {\scriptsize ;adat_shart;};
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-5.south east)
+      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;shart_int;};
+\draw [decoration={brace, mirror, raise=5em}, decorate] 
+   (word-1.south west) -- (word-5.south east)
+      node [midway, below, text centered,text width=1cm, yshift=-6em] {\scriptsize ;shart;};
+
+\draw [decoration={brace, mirror}, decorate] 
+   (word-6.south west) -- (word-6.south east)
+      node [midway, below, rotate=90, text centered,text width=1cm, yshift=1.1em, xshift=-2em] {\scriptsize c.;jawab_intro;};
+\draw [decoration={brace, mirror}, decorate] 
+   (word-7.south west) -- (word-10.south east)
+      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize c.;jawab_int;};
+\draw [decoration={brace, mirror, raise=5em}, decorate] 
+   (word-6.south west) -- (word-10.south east)
+      node [midway, below, text centered,text width=2cm, yshift=-6em] {\scriptsize ;jawab_shart;};
+
+\draw [dashed] (word-6.south west) -- ([yshift=-5em]word-6.south west);
+
+\end{tikzpicture}
+```
+The parts of a ;j_sh;.
+:::
+
+<!--
+A ;j_sh; is introduced by a ;adat_shart;, like "[if]{.trans}" in the example above.
+Another common ;adat_shart; is "[when]{.trans}".
+For example:
+-->
+<!--
+Here is another example of a ;j_sh;:
+
+(@) [When the sun rises, the day begins.]{.trans}
+
+Typically,
+the statement in ;jawab_shart;
+is caused by the realization of the statement in the ;shart;.
+So, in example () above,
+my honoring you is caused by,
+and dependent on,
+your honoring me.
+And in example (), the day's beginning is caused by the rising of the sun.
+
+However, the statement in the ;jawab_shart; need not always be caused by the condition.^[[@nahw_wafi@ 4/422 footnote 1](https://shamela.ws/book/10641/2354)]
+Sometimes the ;jawab_shart; 
+is only a reply, assessment, or confirmation of the assumption made in the ;shart;.^[@fischer@ 229]
+For example:
+
+(@) [If this is so, well, such and such is the case.]{.trans}
+    [@fischer@ 229]{.citex}  
+
+(@) [If you honor me, then I already honored you yesterday.]{.trans}
+
+In example (), the ;jawab_shart;
+[then I already honored you yesterday]{.trans}
+is not caused by the realization of the condition
+[if you honor me]{.trans}.
+Rather it is only a response that completes the sentence.
+-->
+
+#;j_sh;s in Arabic are introduced by _;adat_shart;s_ like:
+;in; [if]{.trans},
+;law; [if]{.trans},
+;idha; [when]{.trans},
+;man; [who(ever)]{.trans},
+;maa; [what(ever)]{.trans},
+etc.
+
+Amongst these ;adat_shart;s,
+;in; is considered the most basic ;adat_shart;.^[[@ibn_ya3ish_mufassal@ 5/106](https://shamela.ws/book/13301/2044)]
+We will study 
+it
+first.
+
+## The ;in; ;j_sh;
+
+;in; is considered the most basic of all the ;adat_shart;s.^[sibawayhi]
+It forms the basic ;j_sh;.
+#;j_sh;s that employ other ;adat_shart;s are based on
+the ;j_sh; with ;in;.
+
+<!--
+is used to form the _;arch;_ ;j_sh;.
+Other types of ;j_sh; are formed based on the
+model of
+;arch; ;j_sh; with ;in;.
+-->
+
+### The ;0state; ;mudarie; verb with ;in;
+
+In its basic form,
+the ;j_sh; consists of two parts:
+
+1. a ;shart;, consisting of:
+   a. the ;adat_shart; ;in;, and 
+   b. the ;shart_int; which is a ;j_f3l; consisting of (at least):
+      * a ;0state; ;mudarie; verb (the *;fi3l_shart;*) and
+      * its ;faa3il;
+2. a ;jawab_shart;, consisting of:
+   a. the ;jawab_shart_int; which is a ;j_f3l; consisting of (at least):
+      * a ;0state; ;mudarie; verb (the *;fi3l_jawab_shart;*) and
+      * its ;faa3il;
+
+   There is no ;jawab_shart_intro;.
+
+<!--
+In this ;arch; form of the ;j_sh;,
+-->
+The conditional particle ;in; directly
+governs the ;fi3l_shart; and the ;fi3l_jawab_shart; in the ;0state;.^[@peled_cst@ 3-4 citing @sibawayhi@]
+Here is an example of an ;arch; ;j_sh;
+
+(@) [إِنْ يَأْتِ زَيْدٌ يُكْرِمْهُ عَمْرٌو]{.ar}  
+    [If Zayd would come, ;3amr; would honor him.]{.trans}  
+
+<!--
+In example () above,
+
+  i. The conditional particle is ;in;,
+ ii. the ;shart; is [تَأْتِنِي]{.ar}, and
+iii. the ;jawab_shart; is [آتِكَ]{.ar}.
+-->
+
+The conditional particle ;in; directly governs both
+the ;fi3l_shart;
+[يَأْتِ]{.ar}
+and the ;fi3l_jawab_shart;
+[يُكْرِمْ]{.ar}
+(directly)
+in the ;0state;.
+@fig-shartintatiniaatika depicts this government for example () above.
+
+::: {#fig-shartintatiniaatika .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{عَمْرٌو} \txarb{يُكْرِمْهُ} \txarb{زَيْدٌ} \txarb{يَأْتِ} \txarb{إِنْ},
+  text effects/.cd, 
+    path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+%\draw [decoration={brace, mirror}, decorate] 
+%   (word-5.south west) -- (word-5.south east)
+%      node [midway, below, text centered,text width=1cm, xshift=10pt, yshift=-5pt] {\scriptsize conditional particle};
+\draw [decoration={brace, mirror}, decorate] 
+   (word-4.south west) -- (word-4.south east)
+      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;fi3l_shart;};
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=6pt]word-2.south west) -- (word-2.south east)
+      node [midway, below, text centered,text width=1cm, xshift=-5pt, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
+\draw [decoration={brace, mirror, raise=40pt}, decorate] 
+   (word-3.south west) -- ([xshift=5pt]word-4.south east) coordinate (bbb)
+      node [midway, below, text centered,text width=1cm, yshift=-45pt] {\scriptsize ;shart_int;};
+\draw [decoration={brace, mirror, raise=40pt}, decorate]
+   (word-1.south west) -- (word-2.south east) coordinate (aaa)
+      node [midway, below, text centered,text width=1cm, yshift=-45pt] {\scriptsize ;jawab_shart_int;};
+
+\draw [decoration={brace, mirror, raise=90pt}, decorate] 
+   (word-3.south west) -- (word-5.south east) coordinate (bbb)
+      node [midway, below, text centered,text width=1cm, yshift=-95pt] {\scriptsize ;shart;};
+\draw [decoration={brace, mirror, raise=90pt}, decorate]
+   (word-1.south west) -- (word-2.south east) coordinate (aaa)
+      node [midway, below, text centered,text width=1cm, yshift=-95pt] {\scriptsize ;jawab_shart;};
+
+\draw [dashed] ([xshift=-1pt]word-3.south west) -- ([xshift=-1pt,yshift=-90pt]word-3.south west);
+\draw [dashed] (word-1.south west) -- ([yshift=-90pt]word-1.south west);
+\draw [dashed] (word-5.south east) -- ([yshift=-90pt]word-5.south east);
+\draw [dashed] ([xshift=5pt]word-4.south east) -- ([yshift=-40pt,xshift=5pt]word-4.south east);
+
+
+\draw[->,decorate] ([xshift=2pt] word-5.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=4pt,yshift=4pt] word-4.north);
+\draw[->,decorate] ([xshift=3pt] word-5.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=-4pt] word-2.north east);
+\draw[->,decorate] ([xshift=-4pt] word-4.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize u} (word-3.north);
+\draw[->,decorate] ([xshift=5pt] word-2.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize u} ([xshift=0pt] word-1.north);
+\draw[->,decorate] ([xshift=3pt]word-2.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=-9pt] word-2.north);
+
+\end{tikzpicture}
+
+```
+
+A government diagram of a basic ;j_sh;.
+The arrows flow from governor to governee and are labelled with the state of the governee.
+:::
+
+Here are some more examples of the archetypal conditional sentence:
+
+(@) [إِنْ تَأْتِنِي آتِكَ]{.ar}
+    [[@sibawayhi@ 3/63](https://shamela.ws/book/23018/916)]{.citex}  
+    [If you would come to me, I would come to you.]{.trans}
+
+(@) [وإن تضرب أضرب]{.ar}
+    [[@sibawayhi@ 3/63](https://shamela.ws/book/23018/916)]{.citex}  
+    [If you would beat, I would beat.]{.trans}
+
+### The ;madi; verb with ;in;
+
+A ;madi; verb can be used instead of one or both of the ;0state; verbs in a ;j_sh;.
+So, for example, instead of saying:
+
+(@) [إِنْ تَأْتِنِي أُكْرِمْكَ]{.ar}
+
+we can say, any one of:
+
+(@) [إِنْ أَتَيْتَنِي أَكْرَمْتُكَ]{.ar}
+
+(@) [إِنْ أَتَيْتَنِي أُكْرِمْكَ]{.ar}
+
+(@) [إِنْ تَأْتِنِي أَكْرَمْتُكَ]{.ar}
+
+In general, all four options will have more-or-less the same meaning:
+[If you come to me, I will come to you.]{.trans}.
+In section\ (ref) below,
+we will discuss the ;tense; indicated by ;j_sh;s in more detail.
+But for now we can generally consider
+the ;madi; verb in a ;j_sh; to lose its past ;tense;.
+
+For convenience,
+in this,
+and the following sections,
+we will 
+use
+;qatala;
+to
+refer to a ;madi; verb form
+in either the
+;fi3l_shart;
+or the
+;fi3l_jawab_shart;.
+Similarly,
+we will use ;yaqtulu;, ;yaqtula; and ;yaqtul; to refer to
+;ustate;, ;astate;, and ;0state; ;mudarie; verbs respectively.
+
+Of the four options in examples () through (),
+the combinations
+[;_in; ;_yaqtul; ;_yaqtul;]{.ar}
+and
+[;_in; ;_qatala; ;_qatala;]{.ar}
+are most preferred.
+This is because they exhibit
+a symmetry between the
+;fi3l_shart;
+and the
+;fi3l_jawab_shart;.^[peled]
+
+The combination
+[;_in; ;_qatala; ;_yaqtul;]{.ar},
+however,
+is by no means uncommon.
+
+But combination
+<!--
+in
+example ()
+[إِنْ تَأْتِنِي أَكْرَمْتُكَ]{.ar},
+where the
+;fi3l_shart;
+is a
+;0state; ;mudarie; verb,
+and the
+;fi3l_jawab_shart;
+is a
+;madi; verb
+-->
+<!--
+;in; ;yaqtul; ;qatala;
+-->
+[;_in; ;_yaqtul; ;_qatala;]{.ar}
+is the least commonly
+found
+in actual usage.
+This is because when the
+;fi3l_shart;
+is
+;yaqtul;
+<!--
+;0state; ;mudarie; verb,
+-->
+it prefers the presence of
+another
+;yaqtul;
+<!--
+;0state; ;mudarie; verb
+-->
+after it as the ;fi3l_jawab_shart;.^[sibawayhi around 3/66]
+Nevertheless,
+this combination
+is occasionally found,
+as we show in example () below.
+
+
+With regards to the government of the ;j_sh;s in examples () through (),
+The ;adat_shart; ;in; will continue to govern
+the ;fi3l_shart; and the ;fi3l_jawab_shart; in the ;0state; directly,
+regardless of whether the verbs are ;yaqtul; or ;qatala;.
+For a ;qatala; verb, ;in; will govern it in the ;mahall; ;0state;.^[wafi]
+
+In other words,
+for example () above,
+;in; does not govern the ;j_f3l;s
+[أَتَيْتَنِي]{.ar}
+and
+[أَكْرَمْتُكَ]{.ar} in the ;mahall; ;0state;.
+Rather,
+the ;madi; verbs
+[أَتَى]{.ar} and [أَكْرَمَ]{.ar}
+are,
+both times,
+directly governed in the ;mahall; ;0state;.^[haazimi]
+
+@fig-in_ataytani_ataytuka depicts the government of example ().
+
+::: {#fig-in_ataytani_ataytuka .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{أَكْرَمْتُكَ} \txarb{أَتَيْتَنِي} \txarb{إِنْ},
+  text effects/.cd, 
+    path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+%\draw [decoration={brace, mirror}, decorate] 
+%   (word-5.south west) -- (word-5.south east)
+%      node [midway, below, text centered,text width=1cm, xshift=10pt, yshift=-5pt] {\scriptsize conditional particle};
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=15pt]word-2.south west) -- (word-2.south east)
+      node [midway, below, text centered,text width=1cm, xshift=1em, yshift=-5pt] {\scriptsize ;fi3l_shart;};
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=1.5em]word-1.south west) -- (word-1.south east)
+      node [midway, below, text centered,text width=1cm, xshift=-1.2em, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
+
+\draw[->,decorate] ([xshift=1pt] word-3.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=5pt,yshift=1pt] word-2.north);
+\draw[->,decorate] ([xshift=2pt] word-3.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=5pt,yshift=1pt] word-1.north);
+
+\end{tikzpicture}
+
+```
+
+:::
+
+
+
+
+<!--
+In section\ (ref), we will see how a past ;tense; can be explicitly specified in the ;shart; or ;jawab_shart; if needed.
+
+Of the four combinations in examples () through () above,
+examples () and () are the strongest in their composition because they display a symmetry
+between the ;fi3l_shart; and the ;fi3l_jawab_shart;.
+The combination in example ()
+of a ;madi; ;fi3l_shart; and a ;mudarie; ;fi3l_jawab_shart; is also fairly common.
+The combination in example ()
+of a ;mudarie; ;fi3l_shart; and a ;madi; ;fi3l_jawab_shart;
+is weakest in its composition and is least commonly used.
+
+It is, nevertheless, used occasionally.
+For example:
+
+(@) [مَنْ يَقُمْ لَيْلَةَ الْقَدْرِ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ]{.ar}
+    [@https://sunnah.com/bukhari:35@]{.citex}  
+
+TODO: Meaning of mudarie vs mudari3 from maani_nahw
+-->
+
+Here are some examples
+from ;samaa3;
+of combinations of
+;madi; verbs
+and ;mudarie; verbs
+in ;j_sh;s:
+
+[Get from Peled Cst pp. 16--17]
+
+إِنْ أَذِنْتَ لِي أَعْطَيْتُ هَؤُلاَءِ
+bukhari:2602
+
+##### Examples of [;_in; ;_yaqtul; ;_yaqtul;]{.ar}: {.unnumbered}
+
+(@) [وَإِن تَعُودُوا۟ نَعُدۡ]{.quran} 8/19
+
+##### Examples of [;_in; ;_qatala; ;_qatala;]{.ar}: {.unnumbered}
+
+(@) [إِنۡ أَحۡسَنتُمۡ أَحۡسَنتُمۡ لِأَنفُسِكُمۡۖ]{.quran} 17/7
+
+(@) [وَإِنۡ عُدتُّمۡ عُدۡنَاۚ]{.quran} 17/8
+
+##### Examples of [;_in; ;_qatala; ;_yaqtul;]{.ar}: {.unnumbered}
+
+##### Examples of [;_in; ;_yaqtul; ;_qatala;]{.ar}: {.unnumbered}
+
+
+### Negating the ;shart; or ;jawab_shart;
+
+When either of
+the ;fi3l_shart; or the ;fi3l_jawab_shart;
+are to be negated,
+then we have two options:
+
+ i. [;_laa; ;_yaqtul;]{.ar}
+ii. [;_lam; ;_yaqtul;]{.ar}
+
+<!--
+The ;madi; verb
+(with the negater [مَا]{.ar})
+and the ;astate; ;mudarie; verb (with [لَنْ]{.ar})
+-->
+Negations
+[;_maa; ;_qatala;]{.ar}
+and
+[;_lan; ;_yaqtula;]{.ar}
+are not used when negating
+the ;fi3l_shart; or the ;fi3l_jawab_shart;.^[@nahw_wafi@]
+(They can however be used when negating a verb
+which is not directly
+the ;fi3l_shart; or the ;fi3l_jawab_shart;, as we will see in section\ (ref), ;ia;.)
+
+[;_laa; ;_yaqtul;]{.ar}
+is considered the negative counterpart of
+;yaqtul;.
+And
+[;_lam; ;_yaqtul;]{.ar}
+is considered the negative counterpart of
+;qatala;.
+And as with positive ;j_sh;s,
+a symmetry between
+the ;fi3l_shart; and the ;jawab_shart;
+is preferred.
+
+So if the ;shart; is
+[;_in; ;_qatala;]{.ar},
+then
+[;_lam; ;_yaqtul;]{.ar}
+is preferred in the ;jawab_shart;.^[sirafi 3/295]
+For example:
+
+(@) [إِنْ أَتَيْتَنِي لَمْ آتِكَ]{.ar}
+
+And
+if the ;shart; is
+[;_in; ;_yaqtul;]{.ar},
+then
+[;_laa; ;_yaqtul;]{.ar}
+is preferred in the ;jawab_shart;.^[sirafi 3/295]
+For example:
+
+(@) [إِنْ تَأْتِنِي لَا آتِكَ]{.ar}
+
+
+The non-symmetric combination
+[;_in; ;_lam; ;_yaqtul;  ;_yaqtul;]{.ar},
+(corresponding to
+[;_in; ;_qatala;  ;_yaqtul;]{.ar}),
+is also fairly common.
+For example:
+
+(@) [إن لم تأتني أجزك]{.ar}
+    [sibawahi 3/68]{.citex}  
+
+But as with the combination
+[;_in; ;_yaqtul;  ;_qatala;]{.ar}
+in section\ (ref) above,
+the combination
+[;_in; ;_yaqtul;  ;_lam; ;_yaqtul;]{.ar}
+is uncommon.
+For example:
+
+(@) [إِنْ تَأْتِنِي لَمْ آتِكَ]{.ar}
+    [sirafi 3/295]{.citex}  
+
+In any case,
+symmetry is by no means mandatory,
+and the longer the distance (in words) between
+the ;fi3l_shart; and the ;jawab_shart;,
+the easier it is to disregard its being preferred.^[rummani]
+
+With regards to
+their frequencies in ;samaa3;,
+option (i)
+[;_laa; ;_yaqtul;]{.ar}
+is possibly the more original,^[@peled_cst@ 17]
+but it is rarer in usage.
+Here are some examples:
+
+(@) [إِلَّا تَفۡعَلُوهُ تَكُن فِتۡنَةࣱ فِی ٱلۡأَرۡضِ وَفَسَادࣱ كَبِیرࣱ]{.quran}
+    [@https://quran.com/8/73@ cited by @reckendorf_1921@ 487]{.citex}  
+    [If you do not do so [i.e., ally yourselves with other believers], there will be fitnah [i.e., disbelief and oppression] on earth and great corruption.]{.trans}  
+
+(@) [إِنْ تَدْفِنُوا الدَّاءَ **لَا نُخْفِهِ**]{.ar}
+    [@reckendorf_1921@ 487]{.citex}  
+
+(@) [**إِنْ لَا تَكُنْ** هِنْدٌ بَكَتْهُ فَقَدْ بَكَتْ عَلَيْهِ الثُّرَيَّا]{.ar}
+    [@reckendorf_1921@ 487]{.citex}  
+    [If Hind did not weep [for] him, then the Pleiades have wept over him]{.trans}  
+    (The ;jawab_shart; in this example begins with [فَ]{.ar}. We will discuss this in section\ (ref) below.)  
+
+(@) [اللهُمّ إنْ تَظْهَرْ عَلَيّ هَذِهِ الْعِصَابَةُ يَظْهَرْ الشّرْكُ، **وَلَا يَقُمْ** لَك دِين]{.ar}
+    [[@maghazi_waqidi@ 1/67](https://shamela.ws/book/23680/108) cited by @peled_cst@ 15]{.citex}  
+
+The particle [لَا]{.ar}
+will not affect the government of
+the ;fi3l_shart; or the ;fi3l_jawab_shart;.
+The conditional particle ;in; will continue to govern these verbs directly in the ;0state;.
+@fig-in_laa depicts the government of the negated ;fi3l_jawab_shart; in example () above.
+
+::: {#fig-in_laa .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{نُخْفِهِ} \txarb{لَا} \txarb{الدَّاءَ} \txarb{تَدْفِنُوا} \txarb{إِنْ},
+  text effects/.cd, 
+    path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+%\draw [decoration={brace, mirror}, decorate] 
+%   (word-5.south west) -- (word-5.south east)
+%      node [midway, below, text centered,text width=1cm, xshift=10pt, yshift=-5pt] {\scriptsize conditional particle};
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=1em]word-4.south west) -- (word-4.south east)
+      node [midway, below, text centered,text width=1cm, xshift=0em, yshift=-5pt] {\scriptsize ;fi3l_shart;};
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=0.75em]word-1.south west) -- (word-1.south east)
+      node [midway, below, text centered,text width=1cm, xshift=0em, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
+
+\draw[->,decorate] ([xshift=1pt] word-5.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=0pt,yshift=1pt] word-4.north);
+\draw[->,decorate] ([xshift=2pt] word-5.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=0pt,yshift=1pt] word-1.north);
+
+\end{tikzpicture}
+
+```
+
+:::
+
+Compared to option\ (i)
+[;_laa; ;_yaqtul;]{.ar},
+option\ (ii)
+[;_lam; ;_yaqtul;]{.ar}
+is by far the more common technique to negate
+the ;fi3l_shart; and the ;fi3l_jawab_shart;.
+
+Just like the case for ;qatala;,
+when
+;lam; is used to negate
+the ;fi3l_shart; or the ;fi3l_jawab_shart;,
+it also generally loses its past ;tense;.
+
+Here are some examples of
+the ;fi3l_shart; and the ;fi3l_jawab_shart;,
+negated with ;lam;:
+
+
+(@) [إن **أتيتني** لم آتك]{.ar}
+    [[@sibawayhi@ 3/91](https://shamela.ws/book/23018/944)]{.citex}  
+
+(@) [إن **لم تأتني** أجزك]{.ar}
+    [[@sibawayhi@ 3/68](https://shamela.ws/book/23018/921)]{.citex}  
+
+(@) [إن **لم تأتني لم آتك**]{.ar}
+
+(@) [إِنِ افْتَرَقْتُمْ **لَمْ تَجْتَمِعُوا** أَبَدًا]{.ar}
+    [[@tarikh_tabari@ 4/24](https://shamela.ws/book/9783/1915) cited by @reckendorf_1921@ 485]{.citex}  
+
+The grammarians differed regarding
+the government of the 
+the ;fi3l_shart; and the ;fi3l_jawab_shart;,
+when negated with ;lam;.^[@nahw_wafi@]
+Some grammarians are of the opinion that
+;lam; directly governs the ;0state; mudarie verb
+while ;in; governs the ;j_f3l;s which contain the ;mudarie; verb.
+This government is depicted in
+@fig-gov_in_lam_a for example ().
+
+::: {#fig-gov_in_lam_a .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{آتِكَ} \txarb{لَمْ} \txarb{تَأْتِنِي} \txarb{لَمْ} \txarb{إِنْ},
+  text effects/.cd, 
+    path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+\draw [decoration={brace,raise=2em}, decorate] 
+   (word-1.north west) -- (word-2.north east)
+      node [midway, above] {};
+\draw [decoration={brace,raise=2em}, decorate] 
+   (word-3.north west) -- (word-4.north east)
+      node [midway, above] {};
+
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=1.1em]word-3.south west) -- (word-3.south east)
+      node [midway, below, text centered,text width=1cm, xshift=0em, yshift=-5pt] {\scriptsize ;fi3l_shart;};
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=0.85em]word-1.south west) -- (word-1.south east)
+      node [midway, below, text centered,text width=1cm, xshift=0em, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
+
+\draw[->,decorate] ([xshift=1pt] word-4.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=.5em,yshift=0.3em] word-3.north);
+\draw[->,decorate] ([xshift=1pt] word-2.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=.5em,yshift=0.3em] word-1.north);
+
+\draw[->,decorate] ([xshift=1pt] word-5.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=-1.5em,yshift=2.5em] word-4.north);
+\draw[->,decorate] ([xshift=2pt] word-5.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=1em,yshift=2.5em] word-1.north);
+
+\draw [dashed] ([xshift=-1pt]word-3.north west) -- ([xshift=-1pt,yshift=2em]word-3.north west);
+\draw [dashed] (word-1.north west) -- ([yshift=2em]word-1.north west);
+\draw [dashed] (word-4.north east) -- ([yshift=2em]word-4.north east);
+
+\end{tikzpicture}
+
+```
+
+:::
+
+Other grammarians were of the opinion that ;in; would continue to govern
+the ;fi3l_shart; and the ;fi3l_jawab_shart; directly,
+and that ;lam; has no governing effect in this case.
+This is depicted in
+@fig-gov_in_lam_b for the same example ().
+
+::: {#fig-gov_in_lam_b .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{آتِكَ} \txarb{لَمْ} \txarb{تَأْتِنِي} \txarb{لَمْ} \txarb{إِنْ},
+  text effects/.cd, 
+    path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=1.1em]word-3.south west) -- (word-3.south east)
+      node [midway, below, text centered,text width=1cm, xshift=0em, yshift=-5pt] {\scriptsize ;fi3l_shart;};
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=0.85em]word-1.south west) -- (word-1.south east)
+      node [midway, below, text centered,text width=1cm, xshift=0em, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
+
+\draw[->,decorate] ([xshift=1pt] word-5.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=.25em,yshift=.5em] word-3.north);
+\draw[->,decorate] ([xshift=2pt] word-5.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=0.25em,yshift=.5em] word-1.north);
+
+\end{tikzpicture}
+
+```
+
+:::
+
+### The ;jawab_shart; that begins with [فَ]{.ar}
+
+[Maybe make it a top level section after idha?]
+
+So far, we have studied
+
+### The inverted conditional sentence
+
+[@nahw_wafi@ 4/450-451 (footnote); @peled_cst@ 139--140; @ibn_ya3ish_mufassal@ 5/118]
+
+Oftentimes,
+we come across an _inverted_ conditional sentence,
+where what seems to be the ;jawab_shart; comes before the ;shart;.
+For example:
+
+(@) [آتِيكَ إِنْ أَتَيْتَنِى]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
+    [I will come to you if you come to me.]{.trans}  
+
+In example () above, it would seem that
+[آتِيكَ]{.ar}
+is the ;jawab_shart;
+and
+[إِنْ أَتَيْتَنِى]{.ar}
+is the ;shart;.
+
+But actually,
+the mainstream view amongst the grammarians is that
+[آتِيكَ]{.ar}
+cannot be a ;jawab_shart; because the
+;jawab_shart; is not allowed to precede the ;shart;.
+
+This view is supported by the fact that the
+verb in
+[آتِيكَ]{.ar}
+is in the ;ustate;.
+If it were a ;fi3l_jawab_shart; then it would be in the ;0state;, thus:
+[آتِكَ]{.ar}.
+But
+a ;0state; ;mudarie; verb in the beginning of sentence,
+followed by a ;shart; is not a correctly formed sentence.
+So we cannot say, for example:
+
+(@) ;x; [آتِكَ إِنْ أَتَيْتَنِى]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
+
+The way the grammarians solve
+the analysis of example () is
+by considering
+[آتِيكَ]{.ar}
+an independent sentence
+that is
+;isnaad_comp;.
+[إِنْ أَتَيْتَنِى]{.ar}
+is then considered to be a ;shart;.
+Its
+;jawab_shart;
+[[آتِكَ]]{.ar}
+is ;qaddared;
+after it.
+The ;qaddared; ;jawab_shart;
+is deleted in surface speech
+and its meaning is indicated by the preceding independent sentence
+[آتِيكَ]{.ar}.
+
+The complete sentence with the ;taqdir; is:
+
+(@) [آتِيكَ إِنْ أَتَيْتَنِى [آتِكَ]]{.ar}
+
+<!--
+The ;taqdir; of the deleted ;jawab_shart; is 
+[آتِكَ]{.ar}.
+This rendition of the ;taqdir; is suggested by the preceding independent sentence
+[آتِيكَ]{.ar}.
+-->
+
+But how is the ;j_sh;
+[إِنْ أَتَيْتَنِى [آتِكَ]]{.ar}
+connected
+to the preceding independent sentence
+[آتِيكَ]{.ar}?
+One opinion
+is that the ;j_sh;
+[إِنْ أَتَيْتَنِى [آتِكَ]]{.ar}
+can be considered to be
+attached to (i.e. governed by) the verb in
+[آتِيكَ]{.ar}
+in much the same way as an ;dharf; or preposition would be.
+For example, in:
+
+(@) [آتيك يومَ الجمعة]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
+    [I will come to you the day of Friday.]{.trans}  
+
+<!--
+@fig-inverted_shart depicts this theorized government of example ().
+
+TODO: think about if ;in; itself should be governed by ;yaqtulu; and not the entire ;j_sh;.
+Then it will be more in line with prepositions.
+But then how about sentences like
+[اضرب مَنْ يقُمْ]{.ar},
+if indeed they are valid?
+On the other hand [آتيك في البيت]{.ar} is similar to [آتيك عند البيت]{.ar}, so then [في]{.ar}
+(and ;in;) should be governed directly by the verb.
+
+
+::: {#fig-inverted_shart .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{[آتِكَ]} \txarb{أَتَيْتَنِي} \txarb{إِنْ} \txarb{آتِيكَ},
+  text effects/.cd, 
+    path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+
+\draw [decoration={brace,raise=2.3em}, decorate] 
+   (word-1.north west) -- (word-3.north east)
+      node [midway, above] {};
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=1.5em]word-2.south west) -- (word-2.south east)
+      node [midway, below, text centered,text width=1cm, xshift=0.2em, yshift=-5pt] {\scriptsize ;fi3l_shart;};
+\draw [decoration={brace, mirror}, decorate] 
+   ([xshift=1.1em]word-1.south west) -- (word-1.south east)
+      node [midway, below, text centered,text width=1cm, xshift=-0.2em, yshift=-5pt] {\scriptsize ;fi3l_jawab_shart;};
+
+\draw[->,decorate] ([xshift=1pt] word-3.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=.25em,yshift=.5em] word-2.north);
+\draw[->,decorate] ([xshift=2pt] word-3.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=0.25em,yshift=.5em] word-1.north);
+\draw[->,decorate] ([xshift=2pt] word-4.north) to [in=90,out=90,looseness=2] node[midway,inner sep=0.5pt,fill=white] {} ([xshift=2.4em,yshift=2.7em] word-1.north);
+
+\draw [dashed] (word-1.north west) -- ([yshift=2.3em]word-1.north west);
+\draw [dashed] (word-3.north east) -- ([yshift=2.3em]word-3.north east);
+\end{tikzpicture}
+
+```
+
+:::
+-->
+
+Having said all the above,
+there is no problem if we refer to such a sentence,
+loosely speaking and for convenience,
+as an inverted ;j_sh;.^[@nahw_wafi@ citing @sibawayhi@]
+As long as we understand that the true ;jawab_shart; is deleted and ;qaddared; after the ;shart; in sentence word order.
+
+Here are some more examples of inverted ;j_sh;s:
+
+
+(@) [أًحْسِنُ إليك إن أكرمتَنى]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
+    [I will be good to you if you honor me.]{.trans}  
+
+(@) [أنتِ طالقٌ إن دخلتِ الدارَ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
+    [You~f~ are divorced if you enter the house.]{.trans}  
+
+(@) [أنا ظالمٌ إن فعلتُ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
+    [I [will be] a wrongdoer if I did [some action].]{.trans}  
+
+
+In examples () and () above,
+the "inverted" ;jawab_shart;s
+are ;j_ism;s
+([أَنْتِ طَالِقٌ]{.ar}
+and
+[أَنَا ظَالِمٌ]{.ar})
+, not ;j_f3l;s.
+We will discuss such ;jawab_shart;s in section\ (ref), ;ia;.
+
+[find [إن شئت]{.ar} at the end of a sentence in hadith]
+
+<!--
+(@) [وإن أتاه خليلٌ يومَ مسألةٍ ... يقولُ لا غائبٌ مالي ولا حَرِمُ]{.ar}
+    [@sibawayhi@ 3/66]{.citex}  
+-->
+
+
+Note that all the examples
+of inverted ;j_sh;s,
+that we have given so far
+have
+[;_in; ;_qatala;]{.ar}
+in the ;shart;
+and not
+[;_in; ;_yaqtul;]{.ar}.
+This is because,
+as we mentioned in section\ (ref) above,
+when the
+;fi3l_shart;
+is
+;yaqtul;
+it prefers the presence of
+another
+;yaqtul;
+after it as the ;fi3l_jawab_shart;.
+So the following example is not preferred:
+
+(@) [آتيك إن تأتني]{.ar}
+    [@sibawayhi@ 3/68]{.citex}  
+
+This is because
+;yaqtul;
+in the ;shart;
+([إن تأتني]{.ar})
+prefers 
+that it have another ;yaqtul;
+in the ;jawab_shart;,
+and that its ;jawab_shart;
+not be deleted.^[ibn ya3ish, sibawayhi 3/66]
+
+Having said that, an inverted
+[;_in; ;_yaqtul;]{.ar}
+;shart;
+could very rarely be found.^[@peled_cst@ 143]
+
+[;_in; ;_lam; ;_yaqtul;]{.ar}
+in an inverted ;j_sh;
+is,
+however,
+fine.
+This is
+because it is the negative counterpart to
+[;_in; ;_qatala;]{.ar}.
+For example,
+
+(@) [وَاعْلَمِي أَنِّي امْرُؤٌ سَأَمُوتُ إنْ لَمْ أُقْتَلِ]{.ar}
+    [[عنترة]{.ar} cited by @reckendorf_1921@ 488]{.citex}  
+    [Know that I am a person-- I will die if I am not killed.]{.trans}  
+
+TODO: get more examples from [@peled_cst@ 141ff]
+
+---
+
+TODO: ;fi3l_shart; is preferred to be ;madi; or with ;lam;, not positive ;0state; ;mudarie;
+
+::: {.ar}
+واعلم أنّه لا يحسن أن تقول: "آتيك إن تأتني" ؛ لأنك جزمت بـ "إن" . وإذا أعملتها، لم يكن بدٌّ من الجواب، ولم تأتِ بجواب، ولو قلت. "أتيتك إن أتيتني" ، جاز؛ لأن حرف الشرط لم يجزم فساغ أن لا تأتي بجواب
+:::
+
+[@sibawayhi@](https://shamela.ws/book/23018/919#p1):
+
+::: {.ar}
+وقبح في الكلام أن تعمل إن أو شئ من حروف الجزاء في الأفعال حتى تجزمه في اللفظ ثم لا يكون لها جواب ينجزم بما قبله. ألا ترى أنك تقول: آتيك إن أتيتني، ولا تقول آتيك إن تأتني، إلا في شعر، لأنك أخرت إن وما عملت فيه ولم تجعل لإن جوابا ينجزم بما قبله.
+:::
+
+next couple of pages also good
+
+
+
+### A ;ustate; ;mudarie; ;fi3l_jawab_shart;
+
+
+Occassionally we see a ;j_sh;
+of the form
+[;_in; ;_qatala; ;_yaqtulu;]{.ar}.
+That is, a ;mudarie; ;fi3l_jawab_shart; is in the ;ustate;,
+not the ;0state;.
+For example:
+
+(@) [إن أتيتني آتيك]{.ar}
+    [[@sibawayhi@ 3/66](https://shamela.ws/book/23018/919#p1)]{.citex}  
+    [If you come to me, I come to you.]{.trans}  
+
+This structure again requires ;taqdiring; to analyze it.
+This is
+because the underlying principle that the grammarians have theorized
+for the ;j_sh;,
+is that
+the ;adat_shart; ;in;
+governs
+both the ;fi3l_shart;
+and the ;fi3l_jawab_shart;
+in the ;0state;.
+
+One way the grammarians work around this problem is by modeling example ()
+to originally be an inverted ;j_sh;, thus:
+
+(@) [آتيك إن أتيتني [آتك]]{.ar}  
+    [I come to you if you come to me [I come to you].]{.trans}  
+
+Once the original ;jawab_shart;
+[آتِكَ]{.ar}
+is deleted,
+then the independent sentence
+[آتِيكَ]{.ar}
+is (optionally)
+moved to after the ;shart; to take the place of
+the original ;jawab_shart;
+[آتِكَ]{.ar}.^[@nahw_wafi@ 4/475--476 (footnotes)]
+
+There is also another technique to analyze such ;j_sh;s,
+and that is to assume a deleted ;fa;
+(and also possibly a deleted ;mubtada;)
+before the ;jawab_shart;.^[usool fi al-nahw 2/194; rummani 949; @maani_nahw@ 4/104]
+With the
+deleted elements restored,
+restored, the sentence is:
+
+(@) [إن أتيتني فآتيك]{.ar}  
+    or  
+    [إن أتيتني فأنا آتيك]{.ar}  
+    [If you come to me **then** I will come to you.]{.trans}  
+
+#;jawab_shart;s that begin with ;fa; will be treated in section\ (ref) below, ;ia;.
+
+Here are some more examples of this kind of ;j_sh;:
+
+(@) [**وإن أتاه** خليلٌ يومَ مسألةٍ ... **يقولُ** لا غائبٌ مالي ولا حَرِمُ]{.ar}
+    [[@sibawayhi@ 3/66](https://shamela.ws/book/23018/919#p1)]{.citex}  
+    [And if a friend came to him on a day of asking, he says, "My wealth is neither absent nor denied."]{.trans}
+
+(@) [قَالَتِ اللَّهُمَّ **إِنْ يَمُتْ يُقَالُ** هِيَ قَتَلَتْهُ]{.ar}
+    [@https://sunnah.com/bukhari:2217@ cited by @peled_cst@ 17]{.citex}  
+    [She said, "O ;Allah; if he should die, it will be said, 'She killed him.'"]{.trans}  
+
+
+Note again,
+that the ;fi3l_shart; in these examples has been ;qatala;,
+not ;yaqtul;.
+This is again consistent
+with what we mentioned in sections\ (ref) and (ref),
+that when the ;fi3l_shart; is ;yaqtul;
+then it prefers the presence of another ;yaqtul; as the ;fi3l_jawab_shart;.
+
+Having said that,
+a ;j_sh; of the form
+[;_in; ;_yaqtul; ;_yaqtulu;]{.ar}
+is found on occasion, often by poetic license.^[[@sibawayhi@ 3/67](https://shamela.ws/book/23018/920#p1)]
+For example:
+
+(@) [يا أَقْرَعُ بنَ حابسٍ يا أَقْرَعُ ... إنَّك **إن يُصْرَعْ أخوك تُصْرَعُ**]{.ar}
+    [[@sibawayhi@ 3/67](https://shamela.ws/book/23018/920#p1)]{.citex}  
+    [O [#aqrae]{.trn2} son of [#HAbis]{.trn2}, O [#aqrae]{.trn2}! Indeed if your brother would be thrown down, you are being thrown down.]{.trans}  
+
+## The ;idha; ;j_sh;
+
+### The original temporal signification of ;idha;
+
+;idha; "[when]{.trans}"
+is a noun which originally has a
+temporal (time) signification
+rather than a conditional signification.^[@peled_cst@ 24 citing [@sibawayhi@ 3/60](https://shamela.ws/book/23018/913#p1); [@muqtadab@ 2/55-56](https://shamela.ws/book/6965/324#p1)]
+For example,
+
+(@) [آتِيكَ إِذَا احْمَرَّ الْبُسْرُ]{.ar}
+    [[@sibawayhi@ 3/60](https://shamela.ws/book/23018/913#p1)]{.citex}  
+    [I will come to you when the unripe dates redden.]{.trans}
+
+In example () above,
+the
+;ustate; ;mudarie; verb
+[آتِي]{.ar}
+signifies its usual imperfect aspect
+[I come/will come]{.trans}.
+This is because example () is technically not a ;j_sh;.
+;idha; signifies
+"[when]{.trans}", not as a condition which may or may not occur,
+but as an event which is expected to occur.
+
+
+;idha; is in the ;astate; as a ;dharf_makan;.
+It is governed by the verb [آتِي]{.ar}.
+;idha; is also a ;mudaf;.
+Its (;mahall;) ;mudafil; is
+the following ;j_f3l;
+[احْمَرَّ الْبُسْرُ]{.ar}.
+<!--
+A word-for-word translation that indicates this government is:
+[I will come to you **at the time of when** the unripe dates redden]{.trans}
+-->
+The government of example () above is depicted in @fig-aatika_idha_hmarra_lbusr.
+
+::: {#fig-aatika_idha_hmarra_lbusr .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{الْبُسْرُ} \txarb{احْمَرَّ} \txarb{إِذَا} \txarb{آتِيكَ},
+  text effects/.cd, 
+    path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+%\draw [decoration={brace, mirror}, decorate] 
+%   (word-5.south west) -- (word-5.south east)
+%      node [midway, below, text centered,text width=1cm, xshift=10pt, yshift=-5pt] {\scriptsize conditional particle};
+%\draw [decoration={brace, mirror}, decorate] 
+%   (word-3.south west) -- (word-5.south east)
+%      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;shart;};
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-2.north east)
+      node [midway, above] {};
+
+\draw[->,decorate] ([xshift=3pt] word-4.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=2pt] word-3.north);
+\draw[->,decorate] ([xshift=-2pt] word-3.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize i} ([xshift=-13pt,yshift=4pt] word-2.north);
+
+%\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read the small books.''};
+
+\end{tikzpicture}
+
+```
+:::
+
+A ;qatala; ;j_f3l;
+typically does not hold on to its past ;tense;
+when it is the ;mahall; ;mudafil; of
+;idha;.
+That is why we have translated
+[احْمَرَّ]{.ar} in example () as
+[redden]{.trans},
+not [reddened]{.trans}.
+
+<!--
+;idha; usually indicates a future time.
+;idha; is also most commonly followed by a ;madi; verb
+in its ;mahall; ;mudafil;,
+(like [احْمَرَّ]{.ar} in example () above).
+But because of the future signification of ;idha; the ;madi; verb will (usually) give a future meaning:
+[when the unripe dates [**will**] redden]{.trans}.
+
+The past ;tense; equivalent of example () above is:
+
+(@) [أَتَيْتُكَ إِذِ احْمَرَّ الْبُسْرُ]{.ar}  
+    [I **came** to you when the unripe dates **reddened**.]{.trans}
+
+The ;dharf_makan;
+;idh;
+usually indicates a past time just like
+;idha; usually indicates a future time.
+-->
+
+### Conditional signification of ;idha;
+
+Example () above can be transformed into a ;j_sh;.
+This is done by taking ;idha; and its ;mahall; ;mudafil;
+[احْمَرَّ الْبُسْرُ]{.ar},
+and putting them in the front of
+the sentence,
+<!--
+the ;j_f3l;
+[آتِيكَ]{.ar},
+-->
+thus:
+
+(@) [إِذَا احْمَرَّ الْبُسْرُ أَتَيْتُكَ]{.ar}  
+    [When the unripe dates redden, I will come to you.]{.trans}
+
+Note that we have also replaced the ;yaqtulu; ;j_f3l;
+[آتِيكَ]{.ar} in example ()
+with the ;qatala; ;j_f3l;
+[أَتَيْتُ]{.ar}.
+This is because
+now that example () is a ;j_sh;
+(with the ;jawab_shart; following
+the ;shart;),
+;qatala; as the ;fi3l_jawab_shart; also does not hold on to its past ;tense; meaning.
+
+<!--
+This is because when ;idha; is a ;adat_shart; in a ;j_sh;,
+then, like ;in;,
+it requires ;j_f3l;s in both the ;shart; and the ;jawab_shart;.
+But whereas ;in; allows both (;0state;) ;mudarie; verbs and ;madi; verbs,
+;idha; strongly prefers ;madi; verbs in both clauses.
+Because of the typical future signification of ;idha;,
+both ;madi; verbs will usually have a future meaning.
+-->
+
+Also unlike ;in;, 
+even when ;idha; is a ;adat_shart;,
+it does not (directly) govern either of the verbs in the ;shart; or the ;jawab_shart;.
+Rather, ;idha; governs entire ;j_f3l; in the ;shart; in an ;idaafah;.
+And ;idha; itself is governed by the verb in the ;jawab_shart;.^[Some grammarians disagreed. Give Abu Hayyan's opinion.]
+@fig-idha_hmarra_lbusru_ataytuka
+depicts the government of example ().
+
+::: {#fig-idha_hmarra_lbusru_ataytuka .test-class}
+
+```{.tikz}
+\usetikzlibrary{decorations.text, decorations.pathreplacing}
+\begin{tikzpicture}%[nodes={text depth=0.25ex,text height=1.25ex}]
+\path [decoration={text effects along path, 
+  text=\txarb{أَتَيْتُكَ} \txarb{الْبُسْرُ} \txarb{احْمَرَّ} \txarb{إِذَا},
+  text effects/.cd, 
+    path from text, text along path,
+    text depth=0.25ex,text height=1.25ex,
+    group letters, word count=\w,
+    every word/.style={name=word-\w, execute at begin node=\strut}},
+  decorate] (0,0);
+
+%\draw [decoration={brace, mirror}, decorate] 
+%   (word-5.south west) -- (word-5.south east)
+%      node [midway, below, text centered,text width=1cm, xshift=10pt, yshift=-5pt] {\scriptsize conditional particle};
+\draw [decoration={brace, mirror}, decorate] 
+   (word-2.south west) -- (word-4.south east)
+      node [midway, below, text centered,text width=1cm, xshift=5pt, yshift=-5pt] {\scriptsize ;shart;};
+\draw [decoration={brace, mirror}, decorate] 
+   (word-1.south west) -- (word-1.south east)
+      node [midway, below, text centered,text width=1cm, xshift=-5pt, yshift=-5pt] {\scriptsize ;jawab_shart;};
+\draw [decoration={brace}, decorate] 
+   (word-2.north west) -- (word-3.north east)
+      node [midway, above] {};
+
+\draw[->,decorate] ([xshift=3pt] word-1.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=2pt] word-4.north);
+\draw[->,decorate] ([xshift=-2pt] word-4.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize i} ([xshift=-13pt,yshift=4pt] word-3.north);
+
+%\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read the small books.''};
+
+\end{tikzpicture}
+
+```
+:::
+
+Here are some more examples of ;j_sh;s with ;idha;:
+
+### #;mudarie; verbs in the ;idha; ;j_sh;
+
+We learned
+in section\ (ref) above,
+that the ;adat_shart; ;in;
+governs the ;fi3l_shart; and the ;fi3l_jawab_shart; in the ;0state;.
+
+The ;adat_shart; ;idha;, however,
+does not govern either the ;fi3l_shart; or ;fi3l_jawab_shart;,
+as we saw in @fig-idha_hmarra_lbusru_ataytuka above.
+So ;yaqtul; is not usually used in ;idha; ;j_sh;s.
+The most common form for
+;idha; ;j_sh;s,
+as we saw in example () above,
+is
+[;_idha; ;_qatala; ;_qatala;]{.ar}.
+
+Having said that,
+we do often find
+the _;ustate;_ ;mudarie; verb
+;yaqtulu;
+as either or as both
+the ;fi3l_shart;
+and the ;fi3l_jawab_shart;.
+Here are some examples:
+
+<!--
+(@) [إذا زالت الشمس **آتيك**]{.ar}
+    [[@idah_qazwini@ 2/117](https://shamela.ws/book/7380/324)]{.citex}  
+    [When the sun declines, I will come to you.]{.trans}
+-->
+
+(@) [إِذَا **تُتۡلَىٰ** عَلَیۡهِمۡ ءَایَـٰتُ ٱلرَّحۡمَـٰنِ خَرُّوا۟ سُجَّدࣰا وَبُكِیࣰّا]{.quran}
+    [@https://quran.com/19/58@ cited by @reckendorf_1898@ 648]{.citex}  
+
+(@) [إِذَا **تَكُونُ** كَرِيهَةٌ **أُدْعَى** لَهَا]{.ar}
+    [cited by @reckendorf_1898@ 647]{.citex}  
+    [When there is an inconvenience, I am called to it.]{.trans}  
+
+(@) [إِنّ الكريم إذا **يُحَرَّبُ يَغضَبُ**]{.ar}
+    [cited by @reckendorf_1898@ 647]{.citex}  
+    [The noble person -- when he is provoked, he becomes angry.]{.trans}  
+
+(@) [وإذا **تَضْحَكُ تُبْدي** حَبباً]{.ar}
+    [cited by @reckendorf_1898@ 647--648]{.citex}  
+    [When she laughs, she shows musky bubbles.]{.trans}  
+
+Very rarely, we also find ;yaqtul; used in ;idha; ;j_sh;s.
+For example:
+
+(@) [إِذَا أَخَذْتُمَا مَضَاجِعَكُمَا **تُكَبِّرَا** أَرْبَعًا وَثَلاَثِينَ **وَتُسَبِّحَا** ثَلاَثًا وَثَلاَثِينَ **وَتَحْمَدَا** ثَلاَثَةً وَثَلاَثِينَ فَهْوَ خَيْرٌ لَكُمَا مِنْ خَادِمٍ]{.ar}  
+    [@https://sunnah.com/bukhari:3705@ cited by [@shawahid_tawdeeh@ 71](https://shamela.ws/book/98123/68#p1)]{.citex}  
+    [When you go to bed, you magnify thirty-four times, and glorify thirty-three times, and praise thirty-three times.]{.trans}  
+
+(@) [إِذَا **تُصِبْكَ** خَصَاصَةٌ  فَتَجَمَّلِ]{.ar}
+    [@wright@ 2/12B]{.citex}  
+    [When poverty befalls you then bear it patiently.]{.trans}  
+    ([تَجَمَّلِ]{.ar} in rhyme for [تَجَمَّلْ]{.ar}.)  
+
+### Negation in the ;idha; ;j_sh;
+
+When the negating the ;fi3l_shart;
+or the ;fi3l_jawab_shart;
+in ;idha; ;j_sh;s,
+the form
+[;_lam; ;_yaqtul;]{.ar}
+is used.
+
+The form
+[;_laa; ;_yaqtulu;]{.ar}
+can also be used to negate
+the ;fi3l_jawab_shart;.
+
+Here are some examples:
+
+(@) [إِنَّ مِمَّا أَدْرَكَ النَّاسُ مِنْ كَلاَمِ النُّبُوَّةِ الأُولَى إِذَا **لَمْ تَسْتَحِي** فَاصْنَعْ مَا شِئْتَ]{.ar}
+    [@https://sunnah.com/bukhari:6120@]{.citex}  
+    [One of the sayings of the early prophets which the people have got is: If you don't feel ashamed, then do whatever you like.]{.trans}  
+
+(@) [إِذَا **لَمْ يَجِدِ** الْمَاءَ **لاَ يُصَلِّي**]{.ar}
+    [@https://sunnah.com/bukhari:345@ cited by @peled_cst@ 28]{.citex}  
+    [If he doesn't find water, he doesn't pray?]{.trans}  
+
+(@) [أَلَيْسَ إِذَا حَاضَتْ **لَمْ تُصَلِّ وَلَمْ تَصُمْ**]{.ar}
+    [@https://sunnah.com/bukhari:304@]{.citex}  
+    [Is it not the case [that] when she mensurates, she does not pray, and she does not fast?]{.trans}  
+
+### The inverted conditional sentence with ;idha;
+
+Let's go back to example () above:
+
+(@) [آتِيكَ إِذَا احْمَرَّ الْبُسْرُ]{.ar}
+    [[@sibawayhi@ 3/60](https://shamela.ws/book/23018/913#p1)]{.citex}  
+    [I will come to you when the unripe dates redden.]{.trans}
+
+Technically, this is not a ;j_sh;.
+Nor does it technically contain a ;j_sh;.
+This is
+because a ;j_sh;,
+according to our definition,
+requires that the ;jawab_shart; follow the ;shart; in sentence word order.
+But there is no ;jawab_shart;,
+whether surface or ;qaddared;,
+after
+[إِذَا احْمَرَّ الْبُسْرُ]{.ar}.
+(See the government of this sentence in @fig-aatika_idha_hmarra_lbusr.)
+
+Having said that,
+there is no problem if we refer to such a sentence,
+loosely speaking and for convenience,
+as an inverted ;j_sh;.
+if contains the _meaning_ of a ;shart;.
+For example:
+
+(@) [فَأَقْبَلَ رَجُلٌ غَائِرُ الْعَيْنَيْنِ مُشْرِفُ الْوَجْنَتَيْنِ نَاتِئُ الْجَبِينِ كَثُّ اللِّحْيَةِ مَحْلُوقٌ فَقَالَ اتَّقِ اللَّهَ يَا مُحَمَّدُ فَقَالَ  **مَنْ يُطِعِ اللَّهَ إِذَا عَصَيْتُ** أَيَأْمَنُنِي اللَّهُ عَلَى أَهْلِ الأَرْضِ فَلاَ تَأْمَنُونِي]{.ar}^[It is not clear to us why [يُطِع]{.ar} is in the ;0state; from this source. Peled's source [الجامع الصحيح]{.ar}, ed.\ L.\ Krehl, Leiden: Brill, 1864, II, 337 l:9 has [يُطِيعُ]{.ar} in the ;ustate;.]  
+    [@https://sunnah.com/bukhari:3344@ cited by @peled_cst@ 142]{.citex}  
+    [Then a man with sunken eyes, prominent checks, a raised forehead, a thick beard and a shaven head, came in front [of the Prophet ;pbuh;] and said, "Be afraid of ;Allah;, O [#muHammad]{.trn2}!" The Prophet ;pbuh; said, "Who would obey Allah **if** I disobeyed [Him]? (Is it fair that) ;Allah; has trusted all the people of the earth to me while you do not trust me?"]{.trans}  
+
+### Certainty of the event indicated by ;idha;
+
+;idha; is typically used when the condition is certain to occur.
+The English expression,
+"It's not a matter of _if_, but _when_,"
+also indicates the fundamental difference between _if_ and _when_ ;j_sh;s.
+So, for example,
+if you say:
+
+(@) [إن تكرمني أكرمك]{.ar}
+    [[@idah_qazwini@ 2/117](https://shamela.ws/book/7380/324)]{.citex}  
+    [If you would honor me, I would honor you.]{.trans}  
+
+then you are not certain if the other person would honor you or not.
+But if you say:
+
+(@) [إذا زالت الشمس **آتيك**]{.ar}
+    [[@idah_qazwini@ 2/117](https://shamela.ws/book/7380/324)]{.citex}  
+    [When the sun declines, I will come to you.]{.trans}
+
+then you are certain that the condition
+[إذا زالت الشمس]{.ar}
+will, at some point, be valid.^[[@idah_qazwini@ 2/117](https://shamela.ws/book/7380/324)]
+
+Having said that,
+;idha; may not always indicate the certainness of the event in the condition.
+For example:
+
+(@) [فَأَقْبَلَ رَجُلٌ غَائِرُ الْعَيْنَيْنِ مُشْرِفُ الْوَجْنَتَيْنِ نَاتِئُ الْجَبِينِ كَثُّ اللِّحْيَةِ مَحْلُوقٌ فَقَالَ اتَّقِ اللَّهَ يَا مُحَمَّدُ فَقَالَ  **مَنْ يُطِعِ اللَّهَ إِذَا عَصَيْتُ** أَيَأْمَنُنِي اللَّهُ عَلَى أَهْلِ الأَرْضِ فَلاَ تَأْمَنُونِي]{.ar}  
+    [@https://sunnah.com/bukhari:3344@]{.citex}  
+    [Then a man with sunken eyes, prominent checks, a raised forehead, a thick beard and a shaven head, came in front [of the Prophet ;pbuh;] and said, "Be afraid of ;Allah;, O [#muHammad]{.trn2}!" The Prophet ;pbuh; said, "Who would obey Allah **if** I disobeyed [Him]? (Is it fair that) ;Allah; has trusted all the people of the earth to me while you do not trust me?"]{.trans}  
+
+Even though ;idha; is used in the above [HadIv]{.trn2}, it does not indicate a certain event.
+Far from it.
+In fact, there is no question that the Prophet ;pbuh; would never disobey ;Allah;.
+
+In such cases, ;idha; can retain its temporal signification,
+but the event in the ;shart; would not be considered certain.
+
+<!--
+### ;idha; indicating a past time
+
+(@) [وَإِذَا رَأَوۡا۟ تِجَـٰرَةً أَوۡ لَهۡوًا ٱنفَضُّوۤا۟ إِلَیۡهَا وَتَرَكُوكَ قَاۤىِٕمࣰاۚ]{.quran}
+    [@https://quran.com/62/11@]{.citex}  
+    [But [on one occasion] when they saw a transaction or a diversion, [O Muḥammad], they rushed to it and left you standing.]{.trans}  
+-->
+
+## #;tense;
+
+For ;j_sh;s which have a ;fi3l_shart; or ;fi3l_jawab_shart;,
+the ;tense; of either of these two verbs
+is determined by context, regardless of whether the verb is in the
+;yaqtul; or ;qatala; form.
+
+Most contexts will steer the ;tense; to the future.
+For example:
+
+in ataytani akramtuka
+
+in ta'tini ukrimka
+
+But in some contexts,
+the ;tense; can be the past.
+Examples:
+
+
+The ;tense; can also be the present.
+This is usually for _static_ verbs...
+
+
+When the ;jawab_shart; is introduced by ;fa;,
+then
+it is treated as an independent sentence signifying a ;tense; just like a non-;j_sh; would.
+
+[Maybe make it a top level section after idha?]
+
+[Has to be after MSC because [in kaana qad qatala]{.trans} has to be followed by fa]
+
+فإن قيل: فإنّهم يقولون:"إن كنتَ زُرْتَنِي أمسِ أكرمتُك اليومَ"، وقد وقع بعد "إن" الفعلُ، ومعناه المضيُّ، ومنه قوله تعالى: {إِنْ كُنْتُ قُلْتُهُ فَقَدْ عَلِمْتَهُ} (١)، قيل: قد أجاب عن ذلك المبرد، وقال: إنّما ساغ ذلك في "كانَ" لقوّة دلالتها على المضيّ، وأنّها أصلُ الأفعال وعبارتُها، فجاز لذلك أن تقلب في الدلالة "إنْ". ولذلك لا يقع شيءٌ من الأفعال غيرُ "كان" بعد "إن"، إلَّا ومعناه المضارعُ. وقال ابن السرّاج: هو على تأويلِ: "إن أكُنْ كنتُ قُلْتُه"، وكذلك ما كان مثله.
+
+<https://shamela.ws/book/13301/2044>
+
+[@maani_nahw@ 4/79](https://shamela.ws/book/17801/1184#p1) for ;idha, prev pages for ;in;
+
+
+## ;kaana; before the ;j_sh;
+
+Fischer 236
+
+(@) [كان إذا اشتكيت رحمني]{.ar}
+
+(@) [كنت إذل قوم غزوني غزوتهم]{.ar}
+
+(@) [كانت العجوز إذا كلمها تسكت عنه]{.ar}
+
+Wright 2/16C
+
+
+## ;fa; as a ;jawab_shart_intro; {#sec-j_sh_msc}
+
+So far we have seen that the ;jawab_shart; in a ;j_sh; can take the following main forms:
+
+* A ;yaqtul; ;j_f3l; for ;in; ;j_sh;s.                  Negated using [;_laa; ;_yaqtul;]{.ar}.
+* A non-past tense ;qatala; ;j_f3l; for both ;in; and ;idha; ;j_sh;s.  Negated using [;_lam; ;_yaqtul;]{.ar}.
+
+(We have also seen the ;yaqtulu; form but we will treat it separately in section\ (ref) below.)
+
+When the ;jawab_shart; has either of the above two (;yaqtul; or non-past tense ;qatala;) forms,
+then it is not introduced by the ;jawab_shart_intro; ;fa;.
+So for example, 
+we say:
+
+(@) [إِنْ تَأْتِنِي آتِكَ]{.ar}  
+    [If you come to me, I will come to you.]{.trans}
+
+But we cannot say:
+
+(@) ;x; [إِنْ تَأْتِنِي فَآتِكَ]{.ar}
+
+However, when the ;jawab_shart; falls outside the above two main forms,
+then it will typically be introduced by ;fa;.
+For example:
+
+(@) [إِنْ يَأْتِكَ فَأَكْرِمْهُ]{.ar}  
+    [If he comes to you, then honor him.]{.trans}
+
+The ;jawab_shart; in example () above is a ;fi3l_amr; ;j_f3l;.
+Since it is not a ;yaqtul; or (non-past tense) ;qatala; form,
+we use a ;fa; to introduce it.
+
+The main reason that a ;fa; is needed in such cases,
+is to indicate that the ;jawab_shart; is linked to the ;shart;.
+Without it, the ;jawab_shart; would appear to be an independent sentence
+and its meaning would not be tied to the ;shart; being satisfied.
+So we cannot (usually) say, without ;fa;:
+
+(@) ;x; [إِنْ يَأْتِكَ أَكْرِمْهُ]{.ar}  
+
+;fa; is not needed when the ;jawab_shart; is a ;yaqtul; or (non-past tense) ;qatala; ;j_f3l;
+because in those cases the link between the ;jawab_shart; and the ;shart; is readily apparent.
+In the case of a ;yaqtul; ;jawab_shart;,
+the link is indicated by the ;0state; of the ;fi3l_jawab_shart;,
+as in example () above.
+And in the case
+of a ;qatala; ;jawab_shart;,
+it is indicated by the non-past tense meaning of the ;qatala; ;fi3l_jawab_shart;,
+as in the example below:
+
+(@) [إِذَا أَتَيْتَنِي **أَتَيْتُكَ**]{.ar}
+    [If you come to me, I will come to you.]{.trans}
+
+<!--
+* ;yaqtulu; (and [;_laa; ;_yaqtulu;]{.ar}) for both ;in; and ;idha; ;j_sh;s
+1. For ;in; ;j_sh;s:
+   * ;yaqtul;
+   * ;qatala; that loses its past tense meaning
+   * Occasionally ;yaqtulu;
+2. For ;idha; ;j_sh;s:
+   * ;qatala; that loses its past tense meaning
+   * ;yaqtulu;
+
+---
+
+In this section we will study ;jawab_shart;s that are introduced by ;fa;.
+-->
+<!--
+We will first treat ;j_sh;s that are introduced by ;in;.
+
+### ;fa; in the ;jawab_shart; for ;in; ;j_sh;s
+-->
+
+<!--
+Here is an example of an ;in; ;j_sh; whose ;jawab_shart; begins with ;fa;:
+
+(@) [إِنْ أَتَاكَ فَأَكْرِمْهُ]{.ar}  
+    [If he comes to you then honor him.]{.trans}  
+-->
+
+<!--
+;fa;, in the beginning of the ;jawab_shart;,
+explicitly makes it clear that the sentence in the ;jawab_shart; is
+a consequence of the ;shart;.
+-->
+
+<!--
+So far the ;j_sh;s that we have studied have not been introduced by ;fa;.
+For example:
+
+(@) [إِنْ أَتَيْتَنِي أَكْرَمْتُكَ]{.ar}  
+    [If you come to me, I will honor you.]{.trans}
+
+This is because the ;jawab_shart; in such ;j_sh;s is
+a direct consequence
+of the ;shart;.
+What we mean by
+*direct consequence*
+is that:
+
+1. The ;jawab_shart; occurs *because* of the ;shart; being satisfied.
+   For example, in example () above, my honoring you is *because of* your coming to me.
+   By the way, in some ;j_sh;s this causality may not be strictly met. For example:
+
+   (@) [فَمَثَلُهُۥ كَمَثَلِ ٱلۡكَلۡبِ إِن تَحۡمِلۡ عَلَیۡهِ یَلۡهَثۡ أَوۡ تَتۡرُكۡهُ یَلۡهَثۚ]{.quran}
+       [@https://quran.com/7/176@ cited by [@maani_nahw@ 4/53](https://shamela.ws/book/17801/1158)]{.citex}  
+       [So his example is like that of the dog: if you chase him, he pants, or if you leave him, he [still] pants.]{.trans}  
+
+2. The ;j_sh; matches one of the patterns of ;j_sh;s. These are:
+   
+   a. For ;in; ;j_sh;s:
+
+        i. [;_in; ;_yaqtul; ;_yaqtul;]{.ar}
+       ii. [;_in; ;_qatala; ;_qatala;]{.ar}
+      iii. [;_in; ;_qatala; ;_yaqtul;]{.ar}
+       iv. [;_in; ;_yaqtul; ;_qatala;]{.ar}
+
+   b. For ;idha; ;j_sh;s: [;_idha; ;_qatala; ;_qatala;]{.ar}
+        
+   
+   Substitutable in the above patterns are the negative constructions
+   [لَا ;_yaqtul;]{.ar}
+   (in place of ;yaqtul;)
+   and
+   [;_lam; ;_yaqtul;]{.ar}
+   (in place of ;qatala;).
+   And also ;yaqtulu; in place of ;qatala; for ;idha; ;j_sh;s.
+
+
+Sometimes,
+the ;jawab_shart; is not a direct consequence (as defined above) of the ;shart;.
+Instead,
+the ;jawab_shart; has the force of an independent sentence,
+albeit one that is linked, in some respect, to the ;shart; taking place.
+-->
+<!--
+In order to show that the ;jawab_shart;,
+despite its force,
+is linked to ;shart;
+-->
+<!--
+Because this link would otherwise not be apparent,
+a ;fa; is typically required to
+explicitly indicate that the ;jawab_shart; is
+related to the occurrence of the ;shart;.
+-->
+
+### Types of ;jawab_shart;s requiring ;fa;
+
+Here are the main situations in which
+;fa; is used to introduce the ;jawab_shart;:
+
+#### The ;jawab_shart_int; is a ;talab; {.unnumbered}
+
+What we mean by *;talab;* is a command, supplication, entreaty, or prohibition.
+When the ;jawab_shart_int; is a ;talab;
+then it is typically required to be introduced by ;fa;.
+For example:
+
+
+##### Direct commands: {.unnumbered}
+
+(@) [وَلاَ تُكَلِّفُوهُمْ مَا يَغْلِبُهُمْ، فَإِنْ كَلَّفْتُمُوهُمْ **فَأَعِينُوهُمْ**]{.ar}
+    [@https://sunnah.com/bukhari:30@]{.citex}  
+    [Do not task them with what is too much for them but if you task them, then help them.]{.trans}  
+
+<!--
+(@) [إِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الأَمْرَ خَيْرٌ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي ـ أَوْ قَالَ عَاجِلِ أَمْرِي وَآجِلِهِ ـ فَاقْدُرْهُ لِي وَيَسِّرْهُ لِي ثُمَّ بَارِكْ لِي فِيهِ]{.ar}
+    [@https://sunnah.com/bukhari:1166@]{.citex}  
+    -->
+
+(@) [فَإِنْ غُمَّ عَلَيْكُمْ **فَاقْدُرُوا** لَهُ]{.ar}
+    [@https://sunnah.com/bukhari:1906@]{.citex}  
+    [If it is overcast then estimate for it.]{.trans}
+
+(@) [إِذَا لَمْ تَسْتَحِي **فَافْعَلْ** مَا شِئْتَ]{.ar}
+    [@https://sunnah.com/bukhari:3483@]{.citex}  
+    [If you do not feel ashamed then do whatever you wish.]{.trans}
+
+(@) [فَإِذَا لَقِيتُمُوهُمْ **فَاصْبِرُوا**]{.ar}
+    [@https://sunnah.com/bukhari:2965@]{.citex}  
+    [If you meet them then be patient.]{.trans}  
+
+(@) [إِنْ لَمْ تَجِدِينِي **فَأْتِي** أَبَا بَكْرٍ]{.ar}
+    [@https://sunnah.com/bukhari:7220@]{.citex}  
+    [If you~1f~ don't find me then come to [#abU #bakr]{.trn2}.]{.trans}  
+
+##### Supplications: {.unnumbered}
+
+(@) [اللَّهُمَّ إِنْ كُنْتَ تَعْلَمُ فِيَّ خَيْرًا **فَأَرِنِي** رُؤْيَا]{.ar}
+    [@https://sunnah.com/bukhari:7028@]{.citex}  
+    [O ;Allah;, if you are knowing good in me then show me a dream.]{.trans}
+
+(@) [إِنْ كُنْتَ كَاذِبًا **فَصَيَّرَكَ** اللَّهُ إِلَى مَا كُنْتَ]{.ar}
+    [@https://sunnah.com/bukhari:3464@]{.citex}  
+    [If you are a liar then may Allah make you to what you used to be.]{.trans}
+
+##### Prohibitions: {.unnumbered}
+
+(@) [فَإِنْ وَجَدْتُمْ غَيْرَ آنِيَتِهِمْ **فَلاَ تَأْكُلُوا** فِيهَا]{.ar}
+    [@https://sunnah.com/bukhari:5488@]{.citex}  
+    [If you find other than their utensils then don't eat in them]{.trans}  
+
+(@) [وَإِنْ خَالَطَهَا كِلاَبٌ مِنْ غَيْرِهَا **فَلاَ تَأْكُلْ**]{.ar}
+    [@https://sunnah.com/bukhari:5483@]{.citex}  
+    [And if other hounds join in it then don't eat [it]]{.trans}  
+
+(@) [فَإِذَا سَمِعْتُمْ بِهِ بِأَرْضٍ **فَلاَ تَقْدَمُوا** عَلَيْهِ وَإِذَا وَقَعَ بِأَرْضٍ وَأَنْتُمْ بِهَا **فَلاَ تَخْرُجُوا** فِرَارًا مِنْهُ]{.ar}
+    [@https://sunnah.com/bukhari:3473@]{.citex}  
+    [So if you hear of it in a land then don't approach it, and if occurs in a land where you are present, then don't leave [that land] in order to flee from it.]{.trans}
+
+(@) [إِنْ رَأَيْتُمُونَا ظَهَرْنَا عَلَيْهِمْ **فَلاَ تَبْرَحُوا** وَإِنْ رَأَيْتُمُوهُمْ ظَهَرُوا عَلَيْنَا **فَلاَ تُعِينُونَا**]{.ar}
+    [@https://sunnah.com/bukhari:4043@]{.citex}  
+    [If you see us having overcome them then don't leave [this place], and if you see them having overcome us then don't help us.]{.trans}  
+
+##### Indirect commands: {.unnumbered}
+
+(@) [فَأَيُّكُمْ إِذَا أَرَادَ أَنْ يُوَاصِلَ **فَلْيُوَاصِلْ** حَتَّى السَّحَرِ]{.ar}
+    [@https://sunnah.com/bukhari:1963@]{.citex}  
+    [So whichever of you -- if he wants to continue on, then let him continue on until the last part of the night.]{.trans}  
+
+(@) [إِذَا أَتَى أَحَدَكُمْ خَادِمُهُ بِطَعَامِهِ فَإِنْ لَمْ يُجْلِسْهُ مَعَهُ **فَلْيُنَاوِلْهُ** أُكْلَةً أَوْ أُكْلَتَيْنِ أَوْ لُقْمَةً أَوْ لُقْمَتَيْنِ]{.ar}
+    [@https://sunnah.com/bukhari:5460@]{.citex}  
+    [If the servant of one of you brings him his food, then if he doesn't make him sit with him, then let him hand him a bite or two, or a morsel or two.]{.trans}
+
+<!--
+yaqtulu also can be hortative peled 79
+-->
+
+##### Indirect prohibitions: {.unnumbered}
+
+(@) [إِذَا شَرِبَ أَحَدُكُمْ **فَلاَ يَتَنَفَّسْ** فِي الإِنَاءِ]{.ar}
+    [@https://sunnah.com/bukhari:5630@ cited by @peled_cst@ 79]{.citex}  
+    [When one of you drinks then let him not breather in the vessel.]{.trans}  
+
+(@) [إِذَا كَانَ أَحَدُكُمْ يُصَلِّي، فَلاَ يَبْصُقْ قِبَلَ وَجْهِهِ]{.ar}
+    [@https://sunnah.com/bukhari:406@ cited by @peled_cst@ 79]{.citex}  
+    [When one of you is praying then let him not spit in front of him.]{.trans}  
+
+#### The ;jawab_shart_int; begins with a ;jamid_verb; {.unnumbered}
+
+
+(@) [إِنْ يَعِشْ هَذَا الْغُلاَمُ **فَعَسَى** أَنْ لاَ يُدْرِكَهُ الْهَرَمُ حَتَّى تَقُومَ السَّاعَةُ]{.ar}
+    [@https://sunnah.com/muslim:2953a@]{.citex}  
+    [If this boy should live then maybe old age will not hit him until the hour is estalished.]{.trans}  
+
+(@) [فَإِنْ صَدَقَا وَبَيَّنَا بُورِكَ لَهُمَا فِي بَيْعِهِمَا وَإِنْ كَذَبَا وَكَتَمَا **فَعَسَى** أَنْ يَرْبَحَا رِبْحًا وَيُمْحَقَا بَرَكَةَ بَيْعِهِمَا]{.ar}
+    [@https://sunnah.com/bukhari:2114@]{.citex}  
+    [If they speak the truth and mention the defects, then their bargain will be blessed, and if they tell lies and conceal the defects, they might gain some financial gain but they will be deprived of the blessing of their sale.]{.trans}
+
+(@) [فَإِذَا كَانَتْ سَائِمَةُ الرَّجُلِ نَاقِصَةً مِنْ أَرْبَعِينَ شَاةً وَاحِدَةً **فَلَيْسَ** فِيهَا صَدَقَةٌ]{.ar}
+    [@https://sunnah.com/bukhari:1454@]{.citex}  
+    [If the man's livestock is less than forty sheep then there is no [zakAh]{.trn2} on it.]{.trans}  
+
+#### The ;jawab_shart_int; is a ;j_ism; {.unnumbered}
+
+When the ;jawab_shart_int;
+
+(@) [إِنْ قَتَلْتَ حَمْزَةَ بِعَمِّي **فَأَنْتَ** حُرٌّ]{.ar}
+    [@https://sunnah.com/bukhari:4072@]{.citex}  
+    [If you kill [#Hamzah]{.trn2} [in revenge] for my uncle, then you are free.]{.trans}  
+
+(@) [فَإِذَا رَأَيْتَ الَّذِينَ يَتَّبِعُونَ مَا تَشَابَهَ مِنْهُ **فَأُولَئِكَ** الَّذِينَ سَمَّى اللَّهُ، فَاحْذَرُوهُمْ]{.ar}
+    [@https://sunnah.com/bukhari:4547@]{.citex}  
+    [If you see the people who follow what is open to different interpretations, then they are ones whom ;Allah; named, so beware of them.]{.trans}  
+
+#### The ;jawab_shart_int; is a question {.unnumbered}
+
+#### The ;jawab_shart_int; signifies an event which already occurred {.unnumbered}
+
+[قَدْ]{.ar} is also typically used in such cases with ;fa;.
+For example:
+
+(@) [إِنْ تَطْعَنُوا فِي إِمَارَتِهِ **فَقَدْ** طَعَنْتُمْ فِي إِمَارَةِ أَبِيهِ مِنْ قَبْلِهِ]{.ar}
+    [@https://sunnah.com/bukhari:4250@]{.citex}  
+    [If you speak ill of his leadership, you have already spoken ill of his father's leadership before.]{.trans}
+
+If ;qad; is not used in the ;jawab_shart;, but a past event is still signified,
+then too ;fa; is used.
+For example:
+
+(@) [وَإِن كَانَ قَمِیصُهُۥ قُدَّ مِن دُبُرࣲ **فَكَذَبَتۡ** وَهُوَ مِنَ ٱلصَّـٰدِقِینَ]{.quran}
+    [@https://quran.com/12/27@ cited by @maani_nahw@ 4/105]{.citex}  
+    [But if his shirt is torn from the back, then she has lied, and he is of the truthful.]{.trans}  
+
+;fa; is also used with ;qatala; in the ;jawab_shart; when a future perfect event is signified.
+For example:
+
+peled p. 80 (28)
+
+<!--
+#### The ;shart; uses [كَانَ [قَدْ] قَتَلَ]{.ar} to signify an event which already occurred {.unnumbered}
+
+peled 72--73, wright 2/15
+
+We discuss in section\ (ref) below
+that
+[كَانَ (قَدْ) قَتَلَ]{.ar}
+can be used in the ;shart; to indicate an event which has already occurred.
+In such cases,
+the ;jawab_shart; will typically be introduced by ;fa;.
+For example:
+-->
+
+<!--
+#### The ;jawab_shart_int; signifies a event which is expected to definitely occur {.unnumbered}
+
+;fa; can be used to introduce a ;j_f3l; ;jawab_shart;.
+to make it more independent from the ;shart;,
+and to signify that the event indicated by the ;jawab_shart; is expected to definitely occur
+(if the ;shart; is met).
+-->
+
+#### The ;fi3l_jawab_shart; is preceded by a particle other than ;lam;
+
+When the ;fi3l_jawab_shart; is preceded by ;lam;
+then it typically occurs directly in the ;jawab_shart; without being introduced by ;fa;.
+But when the ;fi3l_jawab_shart; is preceded by another particle
+like [سَ]{.ar}, [سَوْفَ]{.ar}, or [لَنْ]{.ar},
+then a ;fa; is required.
+For example:
+
+(@) [إِنْ كُنْتِ بَرِيئَةً **فَسَيُبَرِّئُكِ** اللَّهُ وَإِنْ كُنْتِ أَلْمَمْتِ بِذَنْبٍ فَاسْتَغْفِرِي اللَّهَ وَتُوبِي إِلَيْهِ]{.ar}
+    [@https://sunnah.com/bukhari:4690@]{.citex}  
+
+(@) [إِن تَسۡتَغۡفِرۡ لَهُمۡ سَبۡعِینَ مَرَّةࣰ **فَلَن** یَغۡفِرَ ٱللَّهُ لَهُمۡۚ]{.quran}
+    [@https://quran.com/9/80@]{.citex}  
+    [If you should ask forgiveness for them seventy times - never will Allāh forgive them.]{.trans}  
+
+Once ;fa; introduces the ;jawab_shart;,
+;maa; then can be used to negate a verb in the ;jawab_shart;.
+For example:
+
+
+<!--
+Emphasis is on the occurrence (or non-occurrence) of ;jawab_shart;.
+;fa; is then needed to indicate that even though emphasis is on the occurrence of ;jawab_shart;,
+it is still linked to ;shart;.
+
+#### Summary {.unnumbered}
+
+Generally, ;fa; is added to the ;jawab_shart;,
+when it may not be apparent that ;jawab_shart; is linked to ;shart;.
+So ;fa; makes it obvious.
+-->
+
+<!--
+### ;fa; in the ;jawab_shart; for ;idha; ;j_sh;s
+-->
+
+### ;idha; fujaaiyyah instead of ;fa;
+
+### Government of the ;jawab_shart; that begins with ;fa;
+
+### Omitting the ;fa; when it is required
+
+@peled_cst@ 77--78
+
+### Adding a ;fa; when it is not required
+
+
+
+---
+
+
+
+The fact that the 
+;jawab_shart; is a direct consequence of the ;shart;
+is shown by:
+
+1. The pattern of the ;j_sh;.
+1. The matching ;tense; of meanings of the ;shart; and the ;jawab_shart;.
+
+When the ;jawab_shart; is independent of the ;shart;,
+then a ;fa; is typically required to
+explicitly indicate that the ;jawab_shart; is
+a consequence of the ;shart;.
+
+---
+
+
+This is because the patterns of the ;j_sh;, that we have studied so far,
+implcitly indicate that the ;jawab_shart; is a consequence of the ;shart;.
+These patterns, as we know, are:
+
+1. [;_in; ;_yaqtul; ;_yaqtul;]{.ar}
+1. [;_in; ;_qatala; ;_qatala;]{.ar}
+1. [;_in; ;_qatala; ;_yaqtul;]{.ar}
+1. [;_in; ;_yaqtul; ;_qatala;]{.ar}
+
+Also included in the above patterns are the negative constructions
+[لَا ;_yaqtul;]{.ar}
+(in place of ;yaqtul;)
+and
+[;_lam; ;_yaqtul;]{.ar}
+(in place of ;qatala;).
+
+When an ;in; ;j_sh; falls into one of the above patterns
+and 
+
+When the ;jawab_shart; falls outside the above patterns,
+then a ;fa; is typically required to
+explicitly indicate that the ;jawab_shart; is
+a consequence of the ;shart;.
+
+---
+
+For example:
+
+In the types of ;j_sh;s that we have studied so far,
+the ;jawab_shart; is a ;j_f3l; that begins
+
+When the ;jawab_shart; is a ;j_f3l;
+and the verb in the ;jawab_shart; is the direct consequence of the ;shart;,
+then no intervening [فَ]{.ar} is needed.
+Otherwise, a ;fa; is usually needed to make it clear that the ;jawab_shart; is a consequence of the ;shart;.
+
+## The ;adat_shart; nouns that govern like ;in;
+
+<https://shamela.ws/book/98123/69#p1>:
+
+::: {.ar}
+ومن تشبيه "متى" بـ "إذا" وإهمالها قول عائشة رضي الله عنها (إن أبا بكر رجلٌ أسيف، وإنه (١١٨) متى يقومُ مقامك لا يُسمعُ الناس) (١١٩)
+:::
+
+
+## The ;tense; of a ;j_sh;
+
+For ;j_sh;s which have a ;fi3l_shart; or ;fi3l_jawab_shart;,
+the ;tense; of either of these two verbs
+is determined by context, regardless of whether the verb is in the
+;yaqtul; or ;qatala; form.
+
+Most contexts will steer the ;tense; to the future.
+For example:
+
+in ataytani akramtuka
+
+in ta'tini ukrimka
+
+
+
+### The ;tense; and significance of dynamic verbs in a ;j_sh;
+
+Dynamic verbs are those that state an event or describe a process,
+like [أَتَى]{.ar} [to come]{.trans},
+[أَكْرَمَ]{.ar} [to honor]{.trans},
+etc.
+
+
+<!--
+So far we have deferred a detailed discussion
+of the ;tense; indicated by the ;shart; and the ;jawab_shart;.
+In this section, we will try to do justice to the topic, ;ia;.
+-->
+
+Earlier we had summarily stated that
+the ;tense; signified
+in ;j_sh;s is generally the future ;tense;,
+regardless of what form of verb
+(for example: ;0state; or ;madi;)
+is used.
+
+However, there can be instances of
+of a
+;fi3l_shart;
+or a
+;fi3l_jawab_shart;
+having a past ;tense;.
+For example:
+
+(@) [قَالُوۤا۟ إِن **یَسۡرِقۡ** فَقَدۡ سَرَقَ أَخࣱ لَّهُۥ مِن قَبۡلُۚ]{.quran}^[Ibn\ [#mAlik]{.trn2} and [#abU #HayyAn]{.trn2} interpret the ;shart; in this ;ayah; as having a past ;tense;.  See [@shawahid_tawdeeh@ 231](https://shamela.ws/book/98123/228) and @https://tafsir.app/albahr-almuheet/12/77@ respectively.]
+    [@https://quran.com/12/77@]{.citex}  
+    [They said, "If he steals - a brother of his has stolen before."]{.trans}
+
+(@) [وَإِذَا **رَأَوۡا۟** تِجَـٰرَةً أَوۡ لَهۡوًا **ٱنفَضُّوۤا۟** إِلَیۡهَا وَتَرَكُوكَ قَاۤىِٕمࣰاۚ]{.quran}
+    [@https://quran.com/62/11@]{.citex}  
+    [But [on one occasion] when they **saw** a transaction or a diversion, [O Muḥammad], they **rushed** to it and left you standing.]{.trans}  
+
+(@) [أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ إِذَا أُتِيَ بِطَعَامٍ سَأَلَ عَنْهُ **فَإِنْ قِيلَ** هَدِيَّةٌ **أَكَلَ** مِنْهَا **وَإِنْ قِيلَ** صَدَقَةٌ **لَمْ يَأْكُلْ** مِنْهَا]{.ar}
+    [@https://sunnah.com/muslim:1077@]{.citex}  
+    [that the Prophet ;pbuh; would, when he was brought some food, ask about it. If it **was said** [that it was] a gift, he **ate** from it, and if it **was said** [that it was] charity, he **did not eat** from it.]{.trans}  
+
+So how do we relate the forms of the
+;fi3l_shart;
+and the ;fi3l_jawab_shart;
+to the ;tense; signified by the ;j_sh;?
+We will attempt to explain this below:
+
+As you know,
+the following positive verb forms are used in ;j_sh;s:
+
+1. The ;0state; ;mudarie; verb
+
+   (@) [إِنْ **تَأْتِنِي أُكْرِمْكَ**]{.ar}  
+
+2. The ;madi; verb. For example:
+
+   (@) [إِنْ **أَتَيْتَنِي أَكْرَمْتُكَ**]{.ar}  
+
+   (@) [إِذَا  **أَتَيْتَنِي أَكْرَمْتُكَ**]{.ar}  
+
+3. The ;ustate; ;mudarie; verb.
+
+   (@) [إِنْ أَتَيْتَنِي **أُكْرِمُكَ**]{.ar}  
+
+   (@) [إِذَا **تَأْتِينِي أُكْرِمُكَ**]{.ar}  
+
+Not all combinations of the verb forms
+are shown in examples () through () above.
+Other combinations,
+and their relative frequencies of usage,
+have been discussed
+in sections\ (refs) above.
+
+<!--
+The question is,
+when is one verb form chosen over another,
+and what difference in meaning would it signify?
+
+First, we would like to state
+that in many cases the verb forms,
+when permissible,
+are often interchangeable.
+And the nuances in meaning that we will attempt to explain below
+are more
+connotations and trends
+rather than hard and fast rules.
+Needless to say, they are also based on our subjective reasoning,
+and therefore liable to critique.
+-->
+
+We will begin by first listing the essential significances of each of the above verb forms
+independent of ;j_sh;s.
+We will then explain how those essential significances can carry over to within ;j_sh;s.
+
+The essential signification of the
+;madi; verb form
+is that an action
+has reached a completed state.
+So for example, if we say
+[أَتَيْتَنِي]{.ar},
+then the ;madi; verb form signifies that
+your action of coming to me has been completed.
+The ;madi; verb has the most certainty of the different verb forms,
+because any action that has completed has certainly occurred.
+
+The essential signification of the
+;ustate; ;mudarie; verb form
+is that
+an action
+is either on-going,
+or that it will occur in the future.
+So for example, if we say
+[تَأْتِينِي]{.ar},
+then the ;ustate; ;mudarie; verb form signifies that
+your action of coming to me is either on-going,
+or that it will occur in the future.
+
+The essential signification of the positive ;0state; ;mudarie; verb
+is that the speaker
+considers an action
+to be potentially possible.
+So for example, if we say
+[تَأْتِنِي]{.ar},
+then the ;0state; ;mudarie; verb form indicates
+that your coming to me is a potential possibility.^[@3aarif_aldin_temporal@ 49]
+<!--
+^[[التأويل الزمني للجملة الشرطية في اللغة العربية لعارف الدين ٤٩ (يستشهد أحمد المتوكل، قضايا اللغة العربية في اللسانيات الوظيفية البنية التحتية أو التمثيل الداللي التداولي. الرباط: دار الأمان، ١٩٩٥.)]{.ar}]
+-->
+
+The ;0state; ;mudarie; verb has less certainty compared to the other verb forms
+due to its signifying a potential action.
+
+When these verb forms are used in the ;shart;
+or the ;jawab_shart;,
+then their essential significations,
+as listed above,
+can be retained.
+But the ;adat_shart; allows the ;tense; of the ;shart; to be open to all times.
+
+<!--
+But the ;adat_shart; can allow the scenario of the ;shart;,
+i.e. the situation in which the ;shart; occurs,
+to be transported to a different ;tense;.
+By default, it will transport the scenario of ;shart; to the future,
+but it could also be transported to the past.
+-->
+<!--
+The ;tense; of the
+entire condition, however,
+could be in the past, present, or future.
+-->
+
+So,
+<!--
+if we use a ;madi; verb
+as a ;fi3l_shart; or a ;fi3l_jawab_shart;
+then it will indicate a completed action.
+The ;tense; is determined by when the scenario of ;shart; will occur.
+-->
+if the scenario of the condition occurred in the past,
+then the ;j_sh; will have a past ;tense;.
+For example^[The following "Nile delta" examples are adapted from Reilly, J.\ S.\ "The acquisition of temporals and conditionals", In: Traugott, et al, (eds.) _On Conditionals_, Cambridge, 1986, p.\ 313, cited by @alfraidi_conditional@ p.\ 94.]:
+
+(@) [إِنْ مَطَرَتْ مِصْرُ عَامَ الْأَوَّلِ سَالَتْ بَطَائِحُ النِّيلِ]{.ar}  
+    [If it rained in Egypt last year, the Nile delta [must have] flooded.]{.trans}
+
+(@) [إِنْ تَمْطَرْ مِصْرُ عَامَ الْأَوَّلِ تَسِلْ بَطَائِحُ النِّيلِ]{.ar}  
+    [If it [conceivably] rained in Egypt last year, the  Nile delta [should have] flooded.]{.trans}
+
+(@) [إِذَا مَطَرَتْ مِصْرُ عَامَ الْأَوَّلِ سَالَتْ بَطَائِحُ النِّيلِ]{.ar}  
+    [When it rained in Egypt last year, the Nile delta flooded.]{.trans}
+
+The verb form ;qatala; is typically used for ;shart;s that have a past ;tense;.
+;yaqtul;,
+as in example () above, would be rare.
+
+Similarly,
+if the scenario of the condition is expected in the future,
+then the ;j_sh; will have a future ;tense;.
+For example:
+
+(@) [إِنْ مَطَرَتْ مِصْرُ الْعَامَ الْمُقْبِلَ سَالَتْ بَطَائِحُ النِّيلِ]{.ar}  
+    [If it [will have] rained in Egypt next year, the Nile delta [will have] flooded.]{.trans}
+
+(@) [إِنْ تَمْطُرْ مِصْرُ الْعَامَ الْمُقْبِلَ تَسِلْ بَطَائِحُ النِّيلِ]{.ar}  
+    [If it [should] rain in Egypt next year, the Nile delta [should] flood.]{.trans}
+
+(@) [إِذَا مَطَرَتْ مِصْرُ الْعَامَ الْمُقْبِلَ سَالَتْ بَطَائِحُ النِّيلِ]{.ar}  
+    [When it [will have] rained in Egypt next year, the Nile delta [will have] flooded.]{.trans}
+
+Present:
+
+(@) [If it is raining right now then bring the clothes in.]{.trans}
+
+
+In the above examples, we have used
+explicit adverbs
+([this year, next year]{.trans})
+to limit
+the condition to the past or the future (respectively).
+In the absence of such an explicit delimiter,
+the ;tense; of the ;shart; will have to be determined from context.
+Consider for example the ;j_sh;:
+
+(@) [إِنْ أَحْسَنْتَ إِلَيَّ أَحْسَنْتُ إِلَيْكَ]{.ar}  
+
+In a past context, this ;j_sh; can have a past meaning:
+
+(@) [زَعَمْتَ أَنِّي لَمْ أَجْزِكَ بَمَا صَنَعْتَ إِلَيَّ مَعْرُوفًا قُلْتُ إِنْ أَحْسَنْتَ إِلَيَّ أَحْسَنْتُ إِلَيْكَ]{.ar}  
+    [You claim that I did not recompense you for your doing me a favor.
+    I say that if you were good to me then I was good to you.]{.trans}  
+
+And in a future context, the same ;j_sh; can have a future meaning:
+
+(@) [أَعِدُكَ إِنْ أَحْسَنْتَ إِلَيَّ أَحْسَنْتُ إِلَيْكَ]{.ar}  
+    [I promise you: if you will be good to me, I will be good to you.]{.trans}  
+
+<!--
+(@) [إِنْ زُرْتَنِي أَمْسِ أَكْرَمْتُكَ]{.ar}  
+    [If you visited me yesteday, then I honored you.]{.trans}  
+-->
+
+
+Or a ;j_sh; may express a general truth
+that holds for all times.
+For example:
+
+(@) [إِنْ مَطَرَتْ مِصْرُ سَالَتْ بَطَائِحُ النِّيلِ]{.ar}  
+    [If rains in Egypt, the Nile delta floods.]{.trans}
+
+<!--
+(@) [إِنْ تَمْطُرْ مِصْرُ تَسِلْ بَطَائِحُ النِّيلِ]{.ar}  
+    [If it [should] rain in Egypt, the Nile delta [should] flood.]{.trans}
+-->
+
+(@) [إِذَا مَطَرَتْ مِصْرُ سَالَتْ بَطَائِحُ النِّيلِ]{.ar}  
+    [When[ever] it rains in Egypt, the Nile delta floods.]{.trans}
+
+In addition to the differences in ;tense; that are signified by ;qatala; vs ;yaqtul;,
+there can also be a difference implied in how more or less certain the condition is.
+;qatala; verb signifies more certainty than ;yaqtul;
+so it is more often used for generic and general truth ;j_sh;s.
+;yaqtul;,
+on the other hand,
+implies more doubt regarding whether the condition will be (or was) satisfied or not.
+Examples:
+
+
+Above we have discussed the difference between ;qatala; and ;yaqtul;.
+As for ;yaqtulu;, it indicates more certainty than ;yaqtul;.
+So it can be used to indicate a habitual or on-going action
+that definitely occurs when the condition is satisfied. Reusing example ():
+
+(@) [وإن أتاه خليلٌ يومَ مسألةٍ ... **يقولُ** لا غائبٌ مالي ولا حَرِمُ]{.ar}
+    [[@sibawayhi@ 3/66](https://shamela.ws/book/23018/919#p1)]{.citex}  
+    [And if a friend came to him on a day of asking, he **[habitually] says**, "My wealth is neither absent nor denied."]{.trans}
+
+Or ;yaqtulu; is used when the ;jawab_shart; is meant to express an expectation or order.^[@wright@ 2/39D]
+For example:
+
+(@) [إِنْ أَفْرَجْتُ عَنْكُمْ تَخْرُجُونَ وَتَأْخُذُونَ بِأَيْدِيكُمْ مَا تَجِدُونَ فِي الْأَسْوَاقِ مِنْ آلَاتٍ وَأَخْشَابٍ]{.ar}
+    [@wright@ 2/39D]{.citex}  
+    [If I let you go, you [must] go out and take with your hands what you find in the markets of implements and timbers.]{.trans}  
+
+In summary,
+we would like to say that
+the above the differences in the significations of the verb forms
+are at best,
+our attempt to extract
+general trends,
+and not hard and fast rules.
+Many times, the verb forms are interchangeable for more or less the same meaning.
+Here are some examples:
+
+
+<!--
+TODO: change to 3rd person for most general case. Because 1st/2nd person implies knowledge that condition did not actually take place in the past.
+
+(@) [توقع زيد إتيان عمرو أمس.  وإِنْ أَتَيْتَهُ عَمرٌو أَكْرَمَهُ زَيٌدٌ.]{.ar}  
+    [Zayd expected ;3amr;s coming to him yesterday.
+     And if [it **was** the case that] ;3amr; came to him [yesterday], then ;
+    [I expected your coming to me yesterday.
+    And
+    if you **had come** to me,
+    I **would have honored** you.]{.trans}
+
+And if, the scenario of the condition is expected in the future,
+then the ;j_sh; will have a future ;tense;.
+For example:
+
+
+(@) [أَتوقع إتيانك إياي غدا.  وإِنْ أَتَيْتَنِي أَكْرَمْتُكَ]{.ar}  
+    [I expect your coming to me tomorrow.
+    And
+    if you **will have come** to me,
+    I **will have honored** you.]{.trans}
+
+Similarly,
+if we use a ;0state; ;mudarie; verb
+as a ;fi3l_shart; or a ;fi3l_jawab_shart;
+then it will indicate a potential action.
+The ;tense; is again determined by when the scenario of ;shart; will occur.
+
+If, for example, the scenario of the condition occurred in the past,
+then the ;j_sh; will have a past ;tense;.
+For example:
+
+TODO: use 3rd person as most general in order not to color from 1st and 2nd person
+
+(@) [توقع زيد إتيان عمرو أمس وإِنْ يَأْتِه أَكْرَمَهُ]{.ar}
+    [Zayd expected ;3amr;'s coming yesterday. And if he **would have come** to him, he **would have honored** him.]{.trans}
+
+Having said this, the usage of ;0state; ;fi3l_shart; with a past signification is going to be rare.
+For a desired past ;tense;, we are more likely to use ;kaana;
+with a ;madi; verb in the ;shart;, thus:
+
+(@) [ان كان قد أتاه أكرمه]{.ar}
+
+In most cases, the ;0state;; ;mudarie; verb
+will have a future signification.
+For example:
+
+(@) [يتوقع زيد إتيان عمرو غدا وإِنْ يَأْتِه يُكْرِمْهُ]{.ar}
+    [Zayd expects ;3amr;'s coming tomorrow. And if he **would come** to him, he **would honor** him.]{.trans}
+-->
+
+### The ;tense; of a ;shart; with a static verb
+
+The examples we gave in the previous section
+showed how the ;tense; of a ;shart; can be the past or the future.
+But what if we would like the ;tense; of a ;shart; to be the present?
+This is also possible, but the ;fi3l_shart; in this case is usually a *static* verb.
+We define a static verb,
+in the context of ;j_sh;s to be one of the following^[from @peled_cst@ 13]:
+
+1. ;kaana;
+2. An intransitive verb that has an adjectival meaning.
+   For example:
+   [كَثُرَ]{.ar} [to be many]{.trans},
+   [صَحَّ]{.ar} [to be correct]{.trans},
+   etc.
+3. A _modal_ verb that takes a ;an; clause as a ;mafulb;.
+   For example:
+   [شَاءَ]{.ar} [to wish, want]{.trans},
+   [اسْتَطَاعَ]{.ar} [can]{.trans},
+   etc.
+4. A ;fi3l_qalb;.
+   For example:
+   [عَلِمَ]{.ar} [to know]{.trans},
+   [ظَنَّ]{.ar} [to think]{.trans},
+   [حَسِبَ]{.ar} [to consider]{.trans},
+   etc.
+
+We will treat ;kaana; separately in the next section.
+Here we will give examples of the other kinds of static verbs in ;j_sh;s.
+
+(@) [عَنِ ابْنِ مَسْعُودٍ أَنَّ النَّبِيَّ ﷺ قَالَ الرِّبَا **وَإِنْ كَثُرَ** فَإِنَّ عَاقِبَتَهُ تَصِيرُ إِلَى قُلٍّ]{.ar}
+    [<https://hadithunlocked.com/ahmad:3754>]{.citex}  
+    [On the authority of Ibn [#maseUd]{.trn2} that the Messenger of ;Allah; ;pbuh; said, "Interest, even if it **is much**, its outcome becomes less."]{.trans}  
+
+(@) [فَإِن طَلَّقَهَا فَلَا جُنَاحَ عَلَیۡهِمَاۤ أَن یَتَرَاجَعَاۤ **إِن ظَنَّاۤ** أَن یُقِیمَا حُدُودَ ٱللَّهِۗ]{.quran}
+    [@https://quran.com/2/230@]{.citex}  
+    [And if he [i.e., the latter husband] divorces her [or dies], there is no blame upon them [i.e., the woman and her former husband] for returning to each other if **they think** that they can keep [within] the limits of Allāh.]{.trans}  
+
+For modal verbs like
+[شَاءَ]{.ar} [to wish, want]{.trans},
+[اسْتَطَاعَ]{.ar} [can]{.trans},
+etc.,
+if the ;an; clause ;mafulb; of the modal verb is in the ;shart;
+then it need not be repeated in the ;jawab_shart;.
+The ;jawab_shart;
+can then have an empty verb like [فَعَلَ]{.ar}.^[@peled_cst@ 22]
+Example:
+
+(@) [إِنْ **أَحَبَّ** أَهْلُكِ أَنْ أَصُبَّ لَهُمْ ثَمَنَكِ صَبَّةً وَاحِدَةً فَأُعْتِقَكِ فَعَلْتُ]{.ar}
+    [@https://sunnah.com/bukhari:2564@ cited by @peled_cst@ 22]{.citex}  
+    [If your people **like** that I pay them your price in a lump sum and so manumit you, I will do so.]{.trans}  
+
+<https://sunnah.com/bukhari:554>
+
+Or the
+;an; clause ;mafulb; of the modal verb can be omitted from the ;shart;
+when its meaning is given in the ;jawab_shart;.
+For example:
+
+(@) [إِنْ **شِئْتَ** دَفَعْتُهَا إِلَيْكَ]{.ar}
+    [@https://sunnah.com/bukhari:3828@ cited by @peled_cst@ 22]{.citex}  
+    [If you **wish**, I will give her to you]{.trans}  
+
+
+## ;kaana; as the ;fi3l_shart;
+
+The use of ;kaana; as the ;fi3l_shart; deserves special treatment.
+We will discuss several of its uses in the following subsections:
+
+### Using ;kaana; to explicitly restrict the ;tense; of a ;j_f3l; in a ;shart;
+
+In section\ (ref) above,
+we learned that the 
+;adat_shart; allows the ;tense; of the ;shart; to be open to all times.
+So for example,
+if we say:
+
+(@) [إِنْ ذَهَبْتَ ذَهَبْتُ مَعَكَ]{.ar}  
+    [If you go, I go with you.]{.trans}  
+
+then its ;tense; can be the past, future, or be valid for all times.
+
+But what if we wish to explicitly restrict the ;tense; of the ;shart; to the present or the past?
+We can do this by transforming the sentence in the ;shart;
+to be the ;xabar of ;kaana;.
+;kaana; will then be the ;fi3l_shart;.
+And the ;tense; of the ;shart; will be the ;tense; of the ;xabar; or ;kaana;.
+
+For example, say that we would like to
+restrict the ;tense; of the ;shart; in example () above to the present.
+So we would like to say
+[if you are going, I will go with you]{.trans}.
+We first start with the sentence
+[you are going]{.trans}.
+This is expressed in Arabic using the ;ustate; ;mudarie; verb
+[تَذْهَبُ]{.ar}.
+In order to retain the ;tense; of the sentence in a ;shart;,
+we begin the sentence with ;kaana; and make it the ;fi3l_shart;, thus:
+
+(@) [إِنْ كُنْتَ تَذْهَبُ أَذْهَبُ مَعَكَ]{.ar}  
+    [If **you** are going, I will go with you.]{.trans}  
+
+Note that [تَذْهَبُ]{.ar} is in the ;ustate; because it is not the ;fi3l_shart;.
+
+Similarly,
+let's say we wish to say
+[If you saw him, then why didn't you invite him?]{.trans}
+We first start with the sentence of the ;shart;:
+[you saw him]{.trans}.
+This is expressed in Arabic with
+[رَأَيْتَهُ]{.ar}.
+Now we add ;kaana; before it and, optionally, a [قَدْ]{.ar} as well.
+So we say:
+
+(@) [إِنْ كُنْتَ قَدْ رَأَيْتَهُ فَمَا لَكَ لَمْ تَدْعُهُ]{.ar}  
+    [If you **saw** him, then why didn't you invite him?]{.trans}
+
+By the way, we already know, that in context, the verb
+[رَأَيْتَ]{.ar} can be sufficient for the past ;tense; as well:
+
+(@) [إِنْ رَأَيْتَهُ فَمَا لَكَ لَمْ تَدْعُهُ]{.ar}  
+    [If you saw him, why didn't you invite him?]{.trans}
+
+Now, what if the ;tense; that we would like to specify in the ;shart;
+already begins with ;kaana;?
+For example, what if we would like to say
+[If you **were** going, why didn't you take him with you?]{.trans}
+The sentence in the ;shart; is
+[you were going]{.trans}.
+This is expressed in Arabic as
+[كُنْتَ تَذْهَبُ]{.ar}.
+When we put this sentence in a ;shart;
+then we don't add another ;kaana;.
+So the full ;j_sh; is:
+
+(@) [إِنْ كُنْتَ تَذْهَبُ فَمَا لَكَ لَمْ تَذْهَبْ بِهِ]{.ar}  
+    [If you were going, why didn't you take him with you?]{.trans}
+
+So you can see from examples () and () above that
+[إِنْ كُنْتَ تَذْهَبُ]{.ar}
+can mean both
+[if you are going]{.trans}
+and
+[if you were going]{.trans}.
+But both ways, the ;tense; of the ;shart; is explicitly restricted.
+
+Here are some more examples of ;shart;s with ;kaana;:
+
+(@) [قَالَ فَمَا لِي لَا أَعْتَدُّ بِهَا وَإِنْ كُنْتُ قَدْ عَجَزْتُ وَاسْتَحْمَقْتُ]{.ar}
+    [@https://sunnah.com/ahmad:304@]{.citex}  
+
+(@) [قَالَ لَهَا وَإِنْ **كَانَ لَمْ يُؤْذَنْ** لِي فِي ثَقِيفٍ يَا خُوَيْلَةُ]{.ar}
+    [[@tarikh_tabari@ 3/85](https://shamela.ws/book/9783/1359) cited by @peled_cst@ 33]{.citex}  
+    [He (;pbuh;) said to her, "And if [#vaqIf]{.trn2} **has not been permitted** for me, O [#xuwaylah]{.trn2}?"]{.trans}  
+
+(@) [إِنْ **كَانَ لَا يَضُرُّكِ وَلَا يُضَيِّقُ عَلَيْكِ** فَإِنِّي أُحِبُّ أَنْ أُدْفَنَ مَعَ صَاحِبَيَّ]{.ar}
+    [<https://hadithunlocked.com/hakim:4519>]{.citex}  
+    [If it **does not harm you or make it difficult for you** then I would like that I be buried with my two companions.]{.trans}  
+
+(@) [مَنْ قَالَ أَسْتَغْفِرُ اللَّهَ الَّذِي لاَ إِلَهَ إِلاَّ هُوَ الْحَىُّ الْقَيُّومُ وَأَتُوبُ إِلَيْهِ غُفِرَ لَهُ وَإِنْ **كَانَ فَرَّ** مِنَ الزَّحْفِ]{.ar}
+    [@https://sunnah.com/abudawud:1517@]{.citex}  
+    [Whoever says, "I seek forgiveness from ;Allah;, the one whom there is no deity except He, the Ever-Living, the Self-Sustaining, and I turn to Him in repentance," he is forgiven even if he **had fled** from battle.]{.trans}
+
+(@) [إِنْ كُنْتَ تُرِيدُ أَنْ تُصِيبَ السُّنَّةَ الْيَوْمَ فَاقْصُرِ الْخُطْبَةَ وَعَجِّلِ الْوُقُوفَ]{.ar}
+    [bukhari:1663]{.citex}  
+
+The ;0state; ;mudarie; verb ;yakun; can also be used in this manner.
+Consistent with what we learned in section\ (ref) above,
+it may indicate potentiality or possibility.
+For example:
+
+(@) [فَإِن **يكن قد علا رَأْسِي** وَغَيره ... صرف الزَّمَان وتغيير من الشّعْر]{.ar}
+    [[[جمهرة الأمثال للعسكري]{.ar} 1/263](https://shamela.ws/book/6897/261)]{.citex}  
+    [So if **it be that my head has become dignified** and the elapsing of time and a changing of hair has changed it ...]{.trans}
+
+(@) [فإن تكن الدنيا بلبنى تغيرت فللدهر والدنيا بطون وأظهر]{.ar}
+    [cited by gatge dur struktur 175]{.citex}
+
+### Using ;kaana; with a ;j_ism; in a ;shart;
+
+We have learned so far
+that both the ;shart; and the ;jawab_shart; require ;j_f3l;s.
+
+But what do we do if we would like the ;shart; to be a ;j_ism;?
+For example,
+if we would like to say:
+[If you are sick, we shall go to Cairo]{.trans},
+then the condition clause
+[you are sick]{.trans}
+can be  translated as
+[أَنْتَ مَرِيضٌ]{.ar}.
+
+In order to form ;shart;
+from this ;j_ism;,
+we again transform it to a ;kaana; sentence.
+So
+[أَنْتَ مَرِيضٌ]{.ar}
+becomes
+[كُنْتَ مَرِيضًا]{.ar}.
+The verb ;kaana; becomes the ;fi3l_shart;
+and we can now
+form our ;j_sh;:
+
+(@) [إِنْ كُنْتَ مَرِيضًا سَافَرْنَا إِلَى الْقَاهِرَةِ]{.ar}
+    [@peled_cst@ 13]{.citex}  
+    [If you are sick, we shall go to Cairo.]{.trans}
+
+Here are some more examples:
+
+(@) [وَإِن **كُنتُمۡ** فِی رَیۡبࣲ مِّمَّا نَزَّلۡنَا عَلَىٰ عَبۡدِنَا فَأۡتُوا۟ بِسُورَةࣲ مِّن مِّثۡلِهِۦ وَٱدۡعُوا۟ شُهَدَاۤءَكُم مِّن دُونِ ٱللَّهِ إِن كُنتُمۡ صَـٰدِقِینَ]{.quran}
+    [@https://quran.com/2/23@]{.citex}  
+    [And if you **are** in doubt about what We have sent down [i.e., the Qur’ān] upon Our Servant [i.e., Prophet Muḥammad (ﷺ)], then produce a sūrah the like thereof and call upon your witnesses [i.e., supporters] other than Allāh, if you should be truthful.]{.trans}
+
+(@) [إِذَا كَانَ الْمَاءُ قُلَّتَيْنِ لَمْ يَحْمِلِ الْخَبَثَ]{.ar}
+    [@https://sunnah.com/nasai:52@]{.citex}  
+    [When the water is two qullahs then it will not carry filth.]{.trans}  
+
+(@) [فَإِنْ كُنْتُمْ أَكْفَاءَ قَاتَلْنَاكُمْ]{.ar}
+    [[@maghazi_waqidi@ 1/68](https://shamela.ws/book/23680/109)]{.citex}  
+    [If you are a match for us we will fight you.]{.trans}
+
+Consistent with what we stated in section\ (ref) above,
+if the ;shart;'s sentence already has [كَانَ]{.ar}
+to indicate the past tense, then another ;kaana; is not added.
+For example:
+
+<!--
+(@) [كُنْتُ آتِي النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَأَسْتَأْذِنُ فَإِنَّ **كَانَ** فِي صَلَاةٍ سَبَّحَ وَإِنْ **كَانَ** فِي غَيْرِ صَلَاةٍ أَذِنَ لِي]{.ar}
+    [@https://sunnah.com/ahmad:809@]{.citex}  
+    [I used to come to the Prophet ;pbuh; and ask permission to enter. If he **was** in prayer he would say [subHana -llAh]{.trn} and if he **was** not in prayer, he would permit me.]{.trans}  
+-->
+
+(@) [كَانَ يَنَامُ أَوَّلَ اللَّيْلِ ثُمَّ يَقُومُ فَإِذَا **كَانَ** مِنَ السَّحَرِ أَوْتَرَ ثُمَّ أَتَى فِرَاشَهُ فَإِذَا **كَانَ** لَهُ حَاجَةٌ أَلَمَّ بِأَهْلِهِ فَإِذَا سَمِعَ الأَذَانَ وَثَبَ فَإِنْ **كَانَ** جُنُبًا أَفَاضَ عَلَيْهِ مِنَ الْمَاءِ وَإِلاَّ تَوَضَّأَ ثُمَّ خَرَجَ إِلَى الصَّلاَةِ]{.ar}
+    [@https://sunnah.com/nasai:1680@]{.citex}  
+    [He would sleep in the first part of the night. Then he would stand (for prayer). Then when it was the last part of the night, he would pray the witr. Then he would come to his bed. Then if he had a need he would go to his wife. Then when he heard the [apAn]{.trn2}, he would get up. If we was in a state of sexual impurity he poured water over himself. And if not he would perform [wudUE]{.trn2}. Then he would go out to the prayer.]{.trans}  
+
+
+;kaana; can also, in context, be used for a ;j_ism; with a future significance.
+For example:
+
+(@) [إِنْ كَانَ لَهُ عَمَلٌ صَالِحٌ أُخِذَ مِنْهُ بِقَدْرِ مَظْلَمَتِهِ]{.ar}
+    [@https://sunnah.com/bukhari:2449@]{.citex}  
+    [If he will have good deeds, they will be taken from him according to his oppression.]{.trans}  
+
+The ;0state; ;mudarie; verb ;yakun; can again be used.
+For example:
+
+(@) [إِنْ **يَكُ** هَذَا مِنْ عِنْدِ اللَّهِ يُمْضِهِ]{.ar}
+    [@https://sunnah.com/bukhari:3895@ cited by @peled_cst@ 21]{.citex}  
+    [If this **be** from ;Allah;, He will make it happen.]{.trans}
+
+(@) [فَإِنْ **يَكُ** صَوَابًا فَمِنَ اللَّهِ وَإِنْ **يَكُنْ** خَطَأً فَمِنِّي وَمِنَ الشَّيْطَانِ وَاللَّهُ وَرَسُولُهُ بَرِيئَانِ]{.ar}
+    [@https://sunnah.com/abudawud:2116@]{.citex}  
+    [If this **be** correct then [it is] from ;Allah;, and if it **be** erroneous then [it is] from me and from Satan. And ;Allah; and His Messenger are free [from it].]{.trans}  
+
+### Using ;kaana; and a ;ism_fail; to indicate intention
+
+Remember from section\ (ref)
+that the ;ism_fail; can be used to indicate an intention to do a future action.
+For example:
+
+إِنْ كُنْتَ فَاعِلاً فَوَاحِدَةً
+
+bukhari:1207
+
+This use of the ;ism_fail; can carry over to its use in a ;shart;.
+Peled 75--76
+
+
+## A noun before the ;fi3l_shart;
+
+peled p. 27 examples 36 and 38; pp. 19--20
+
+Wright 2/39--40A
+
+The basic principle for a ;shart_int; is that it should be a ;j_f3l;.
+(We include ;kaana; sentences in ;j_f3l;s, loosely speaking.)
+And the verb which begins the ;shart_int; is classified as the ;fi3l_shart;.
+
+<!--
+We had earlier stated that the ;shart; requires a ;fi3l_shart; in its ;shart_int;.
+Based on the preponderance of data in ;samaa3;,
+the grammarians extracted a basic principle that the ;shart_int;
+containing this ;fi3l_shart; should be a ;j_f3l;.
+-->
+In all the examples we have seen so far,
+this has been the case.
+<!--
+(We include ;kaana; sentences in ;j_f3l;s, loosely speaking.)
+-->
+So, in the example:
+[إِنْ أَتَيْتَنِي أَكْرَمْتُكَ]{.ar},
+the ;shart_int; is the ;j_f3l;
+[أَتَيْتَنِي]{.ar},
+and it is begun with the ;fi3l_shart; [أَتَى]{.ar}.
+
+Occassionally,
+however,
+the ;shart_int; is found to begin with a noun.
+<!--
+This noun is usually a detached pronoun, or an indefinite noun.
+-->
+Here are some examples:
+
+(@) [إِنْ **أَنْتَ** أَكْرَمْتَ اللَّئِيمَ تَمَرَّدَا]{.ar}
+    [abdelghani 96]{.citex}  
+    [If you honor an ignoble [person], he rebels]{.trans}  
+    (An extra alif is suffixed to [تَمَرَّدَ]{.ar} for rhyme.)
+
+(@) [إذا أنت لم تنفع فضرّ]{.ar}
+    [abdelghani 97]{.citex}  
+
+Because such structures are relatively rare compared to
+;shart_int;s that begin with a ;j_f3l;,
+the grammarians attempted to keep the basic principle consistent.
+Which is that the ;shart_int; should be a ;j_f3l;.
+In order to align outlier examples like () and () above with this basic principle,
+the grammarians ;qaddar; the ;shart_int; as a ;j_f3l; with a deleted verb.
+So the ;taqdir; of the ;shart; for example () above would be:
+
+(@) [إِنْ [أَكْرَمْتَ اللَّئِيم]]{.ar}
+
+The ;shart_int; in the ;taqdir; is
+[[أَكْرَمْتَ اللَّئِيم]]{.ar}
+which is a ;j_f3l;.
+In order to transform this ;taqdir; into the surface speech
+[إِنْ أَنْتَ أَكْرَمْتَ اللَّئِيم]{.ar},
+the following theoretical steps are taken:
+
+  i. The 
+     ;qaddared; ;j_f3l;
+     [[أَكْرَمْتَ اللَّئِيم]]{.ar}
+     is deleted, except for the ;faa3il; of the ;fi3l_shart;.
+ ii. The ;fi3l_shart;'s ;faa3il; is left in place.
+     In this case, it is the
+     the attached pronoun [تَ]{.ar}.
+     But because the 
+     an attached pronoun cannot occur by itself,
+     it is converted to the detached pronoun
+     [أَنْتَ]{.ar}.
+iii. An explanatory ;j_f3l;
+     [أَكْرَمْتَ اللَّئِيم]{.ar}
+     is added after the ;faa3il; [أَنْتَ]{.ar} in order to give the meaning of
+     ;qaddared; ;j_f3l;.
+     In this (and most) cases, the explanatory ;j_f3l; matches the ;qaddared; original ;shart_int;.
+     The verb in the explanatory ;j_f3l; is now the new ;fi3l_shart;.
+
+
+The benefit of this ;taqdiring;,
+and of mandating a ;j_f3l; as the ;shart_int;,
+is that it prevents arbitrary ;j_ism;s,
+that do not have a verb as the ;fi3l_shart;,
+from being the ;shart_int;.
+This is because such ;shart_int;s are not found in ;samaa3;.
+So for example, we cannot say:
+
+(@) ;x; [إِنْ أَنْتَ كَرِيمٌ ...]{.ar}  
+    [If you are honorable ...]{.trans}
+
+Let's take a look at another example:
+
+(@) [ فإن أنت لم ينفعك علمك فانتسب ... لعلّك تهديك القرون الأوائل]{.ar}  
+    [cited by @abdelghani@ 101; [@ibn_malik_sharh_tasheel@ 2/140](https://shamela.ws/book/13257/536)]{.citex}  
+    [If your knowledge does not benefit you then affiliate yourself [to your predecessors]. Perhaps the earlier generations can guide you.]{.trans}
+
+The additional complication is that the ;faa3il; [أَنْتَ]{.ar}
+that begins the ;shart_int;, does not match the ;faa3il; of the explanatory ;j_f3l;
+[لم ينفعك علمك]{.ar}.^[@abdelghani@ 101--102]
+But we can still mold this to fit in with out basic principle and the transformational steps that we gave above. Here's how:
+
+The ;taqdir; for the ;shart; can be ;qaddared; as:
+
+(@) [فإن [لم تنتفع بعلمك]]{.ar}
+
+The ;qaddared; ;j_f3l;
+[[لم تنتفع بعلمك]]{.ar}
+is deleted except for the ;fi3l_shart;'s ;faa3il;, the ;mustatir; pronoun [[أَنْتَ]]{.ar}.
+This ;mustatir; ;faa3il; pronoun
+is transformed to surface speech [أَنْتَ]{.ar}.
+An explanatory ;j_f3l;
+[لم ينفعك علمك]{.ar}
+is added after the ;faa3il;
+[أَنْتَ]{.ar}
+to give the meaning of
+;qaddared; ;j_f3l;.
+In this case, the explanatory ;j_f3l; does not exactly match the ;qaddared; original ;shart_int;,
+but has the same meaning.^[[@abu_hayyan_tadhyeel@ 6/313](https://shamela.ws/book/17116/2004)]
+
+Here are some more examples of this kind of ;j_sh;:
+
+TODO: get examples from ;quran; and from peled.
+
+From the above examples, we can note the following points:
+
+* The ;fi3l_shart; is always ;qatala; (or [;_lam; ;_yaqtul;]{.ar} which is equivalent).
+* The original ;faa3il; before the ;fi3l_shart; is usually either a pronoun, or a generic or indefinite noun.
+  There is only one case, in example (), where it is a definite specific noun.
+
+## The ;law; ;j_sh;
+
+Versteegh, "Two conceptions of irreality"
+
+## [وَإِنْ]{.ar} and [وَلَوْ]{.ar} used for [even if]{.trans}
+
+Wright 2/40A
+
+## The deleted ;shart; or ;jawab_shart;
+
+Wright 2/17 Rem b
+
+## deleted ;fi3l_jawab_shart;
+
+bukhari:1116
+
+صَلِّ قَائِمًا، فَإِنْ لَمْ تَسْتَطِعْ فَقَاعِدًا
+
+## The ;j_sh; combined with an ;qasam;
+
+Wright 2/39B
+
+[@ibn_ya3ish_mufassal@ 5/142](https://shamela.ws/book/13301/2080#p1)
+
+@nahw_wafi@ 4/482
+
+## ;3atf; in the ;shart; or the ;jawab_shart;
+
+Wright 2/40CD
+
+## Consecutive conditions
+
+@nahw_wafi@ 4/489
+
+also condition followed by question
+
+---
+
+لَئِنْ أَعْطَيْتَنِيهِ لاَ يُخْلَصُ إِلَيْهِمْ أَبَدًا
+3110
+
+لَوْ أَنَّ لَكَ مَا فِي الأَرْضِ مِنْ شَىْءٍ كُنْتَ تَفْتَدِي بِهِ
+3334
+
+إِنْ كُنْتَ كَاذِبًا فَصَيَّرَكَ اللَّهُ إِلَى مَا كُنْتَ
+3464
+
+فَإِذَا سَمِعْتُمْ بِهِ بِأَرْضٍ فَلاَ تَقْدَمُوا عَلَيْهِ، وَإِذَا وَقَعَ بِأَرْضٍ وَأَنْتُمْ بِهَا فَلاَ تَخْرُجُوا فِرَارًا مِنْهُ
+3473
+
+إِذَا لَمْ تَسْتَحِي فَافْعَلْ مَا شِئْتَ
+3482
+
+إِذَا اخْتَلَفْتُمْ أَنْتُمْ وَزَيْدُ بْنُ ثَابِتٍ فِي شَىْءٍ مِنَ الْقُرْآنِ، فَاكْتُبُوهُ بِلِسَانِ قُرَيْشٍ
+3506
+
+إِنْ كَتَمْتَ عَلَىَّ أَخْبَرْتُكَ
+3522
+
+فَإِنْ طَالَتْ بِكَ حَيَاةٌ لَتَرَيَنَّ الظَّعِينَةَ تَرْتَحِلُ مِنَ الْحِيرَةِ، حَتَّى تَطُوفَ بِالْكَعْبَةِ
+وَلَئِنْ طَالَتْ بِكَ حَيَاةٌ لَتُفْتَحَنَّ كُنُوزُ كِسْرَى
+3595
+
+لَوْ سَأَلْتَنِي هَذِهِ الْقِطْعَةَ مَا أَعْطَيْتُكَهَا، وَلَنْ تَعْدُوَ أَمْرَ اللَّهِ فِيكَ، وَلَئِنْ أَدْبَرْتَ لَيَعْقِرَنَّكَ اللَّهُ،
+3620
+
+إِنْ كُنْتَ إِنَّمَا اشْتَرَيْتَنِي لِنَفْسِكَ فَأَمْسِكْنِي، وَإِنْ كُنْتَ إِنَّمَا اشْتَرَيْتَنِي لِلَّهِ فَدَعْنِي وَعَمَلَ اللَّهِ
+3755
+
+قَالَ إِنْ أَعْطَيْتَنِي عَهْدًا وَمِيثَاقًا لَتُرْشِدَنَّنِي فَعَلْتُ
+3861
+
+لَوْلاَ أَنَّكَ مَعَ أَبِي صَفْوَانَ مَا رَجَعْتَ إِلَى أَهْلِكَ سَالِمًا. فَقَالَ لَهُ سَعْدٌ وَرَفَعَ صَوْتَهُ عَلَيْهِ أَمَا وَاللَّهِ لَئِنْ مَنَعْتَنِي هَذَا لأَمْنَعَنَّكَ مَا هُوَ أَشَدُّ عَلَيْكَ مِنْهُ
+3950
+
+إِنْ شِئْتَ أَنْكَحْتُكَ حَفْصَةَ بِنْتَ عُمَرَ
+4005
+
+إِنْ رَأَيْتُمُونَا ظَهَرْنَا عَلَيْهِمْ فَلاَ تَبْرَحُوا
+وَإِنْ رَأَيْتُمُوهُمْ ظَهَرُوا عَلَيْنَا فَلاَ تُعِينُونَا
+4043
+
+إِنْ قَتَلْتَ حَمْزَةَ بِعَمِّي فَأَنْتَ حُرٌّ
+4072
+
+فَقَالُوا لَكُمُ الْعَهْدُ وَالْمِيثَاقُ إِنْ نَزَلْتُمْ إِلَيْنَا أَنْ لاَ نَقْتُلَ مِنْكُمْ رَجُلاً.
+4086
+
+وَإِنْ كُنْتَ تُرِيدُ الْمَالَ فَسَلْ مِنْهُ مَا شِئْتَ
+4372
+
+فَإِذَا رَأَيْتَ الَّذِينَ يَتَّبِعُونَ مَا تَشَابَهَ مِنْهُ، فَأُولَئِكَ الَّذِينَ سَمَّى اللَّهُ، فَاحْذَرُوهُمْ
+4547
+
+إِنْ تَسْتَغْفِرْ لَهُمْ سَبْعِينَ مَرَّةً فَلَنْ يَغْفِرَ اللَّهُ لَهُمْ
+
+إِنْ كُنْتِ بَرِيئَةً فَسَيُبَرِّئُكِ اللَّهُ، وَإِنْ كُنْتِ أَلْمَمْتِ بِذَنْبٍ فَاسْتَغْفِرِي اللَّهَ وَتُوبِي إِلَيْهِ
+4690
+
+فَإِنْ لَمْ تَكُونُوا بَاكِينَ فَلاَ تَدْخُلُوا عَلَيْهِمْ
+4702
+
+وَإِنْ تَسْأَلِ الْجَارِيَةَ تَصْدُقْكَ
+4750
+
+فَإِنْ لَمْ تَكُنْ تَرَاهُ فَإِنَّهُ يَرَاكَ
+4777
+
+ فَإِنْ كَانَ لِي عِلْمٌ خَبَّرْتُكَ بِهِ
+ 4913
+
+إِنْ لَمْ يَكُنْ لَكَ بِهَا حَاجَةٌ فَزَوِّجْنِيهَا
+إِنْ لَبِسْتَهُ لَمْ يَكُنْ عَلَيْهَا مِنْهُ شَىْءٌ وَإِنْ لَبِسَتْهُ لَمْ يَكُنْ عَلَيْكَ شَىْءٌ
+5030
+
+فَإِذَا اخْتَلَفْتُمْ فَقُومُوا عَنْهُ
+5060
+
+إِذَا أَتَى أَحَدَكُمْ خَادِمُهُ بِطَعَامِهِ، فَإِنْ لَمْ يُجْلِسْهُ مَعَهُ فَلْيُنَاوِلْهُ أُكْلَةً أَوْ أُكْلَتَيْنِ، أَوْ لُقْمَةً أَوْ لُقْمَتَيْنِ،
+5460
+
+وَإِنْ وَجَدْتَ مَعَ كَلْبِكَ أَوْ كِلاَبِكَ كَلْبًا غَيْرَهُ فَخَشِيتَ أَنْ يَكُونَ أَخَذَهُ مَعَهُ، وَقَدْ قَتَلَهُ، فَلاَ تَأْكُلْ، فَإِنَّمَا ذَكَرْتَ اسْمَ اللَّهِ عَلَى كَلْبِكَ وَلَمْ تَذْكُرْهُ عَلَى غَيْرِهِ
+5475
+
+وَإِنْ خَالَطَهَا كِلاَبٌ مِنْ غَيْرِهَا فَلاَ تَأْكُلْ
+5483
+
+فَإِنْ وَجَدْتُمْ غَيْرَ آنِيَتِهِمْ، فَلاَ تَأْكُلُوا فِيهَا، وَإِنْ لَمْ تَجِدُوا فَاغْسِلُوهَا ثُمَّ كُلُوا فِيهَا
+5488
+
+فَإِذَا رَأَيْتُمْ مِنْهَا شَيْئًا فَصَلُّوا وَادْعُوا اللَّهَ حَتَّى يَكْشِفَهَا
+5785
+
+إِنْ كُنْتَ تَسْمَعُ صَوْتِي لَمَّا جِئْتَ
+6140
+
+فَإِنْ مُتَّ مُتَّ عَلَى الْفِطْرَةِ
+6313
+
+إِنْ أُوتِيتَهَا عَنْ مَسْأَلَةٍ وُكِلْتَ إِلَيْهَا، وَإِنْ أُوتِيتَهَا مِنْ غَيْرِ مَسْأَلَةٍ أُعِنْتَ عَلَيْهَا
+6622
+
+اللَّهُمَّ إِنْ كُنْتَ تَعْلَمُ فِيَّ خَيْرًا فَأَرِنِي رُؤْيَا
+7028
+
+إِنْ لَمْ تَجِدِينِي فَأْتِي أَبَا بَكْرٍ
+7220
+
+
