@@ -6,15 +6,15 @@
 
 A ;j_sh; is a special sentence, which consists of two parts:
 
-1. A _;shart;_. The ;shart; itself consists of two parts:
+1. A condition (_;shart;_). The ;shart; itself consists of two parts:
 
-    i. The *;adat_shart;*
-   ii. The *;shart_int;*
+    i. The condition introducer (*;adat_shart;*)
+   ii. The condition sentence (*;shart_int;*)
 
-2. A _;jawab_shart;_. The ;jawab_shart; can also consist of two parts:
+2. A condition-response (_;jawab_shart;_). The ;jawab_shart; can also consist of two parts:
 
-    i. The *;jawab_shart_intro;*. This may be absent for some ;j_sh;s.
-   ii. The *;jawab_shart_int;*
+    i. The condition-response introducer (*;jawab_shart_intro;*). This may be absent for some ;j_sh;s.
+   ii. The condition-response sentence (*;jawab_shart_int;*)
 
 Here is an example of a ;j_sh; in English:
 
@@ -38,20 +38,20 @@ Here is an example of a ;j_sh; in English:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below, rotate=90, text centered,text width=1cm, yshift=1.5em, xshift=-2em] {\scriptsize ;adat_shart;};
+      node [midway, below, rotate=90, text centered,text width=1cm, yshift=1em, xshift=-2em] {\scriptsize ;adat_shart;};
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-5.south east)
-      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;shart_int;};
+      node [midway, below, text centered,text width=1.5cm, yshift=-5pt] {\scriptsize ;shart_int;};
 \draw [decoration={brace, mirror, raise=5em}, decorate] 
    (word-1.south west) -- (word-5.south east)
       node [midway, below, text centered,text width=1cm, yshift=-6em] {\scriptsize ;shart;};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-6.south west) -- (word-6.south east)
-      node [midway, below, rotate=90, text centered,text width=1cm, yshift=1.1em, xshift=-2em] {\scriptsize c.;jawab_intro;};
+      node [midway, below, rotate=90, text centered,text width=1cm, yshift=1.1em, xshift=-2em] {\scriptsize ;jawab_shart_intro;};
 \draw [decoration={brace, mirror}, decorate] 
    (word-7.south west) -- (word-10.south east)
-      node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize c.;jawab_int;};
+      node [midway, below, text centered,text width=1.5cm, yshift=-5pt] {\scriptsize ;jawab_shart_int;};
 \draw [decoration={brace, mirror, raise=5em}, decorate] 
    (word-6.south west) -- (word-10.south east)
       node [midway, below, text centered,text width=2cm, yshift=-6em] {\scriptsize ;jawab_shart;};
