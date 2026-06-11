@@ -115,7 +115,7 @@ Here is an example of a descriptive noun-phrase in a sentence.
    (word-1.south west) -- (word-2.south east)
       node [midway, below] {\scriptsize descriptive noun-phrase};
 
-\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read the small books.'')};
+\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read the small books.''};
 
 \end{tikzpicture}
 ```

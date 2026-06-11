@@ -36,27 +36,29 @@ Here is an example of a ;j_sh; in English:
     every word/.style={name=word-\w, execute at begin node=\strut}},
   decorate] (0,0);
 
-\draw [decoration={brace, mirror}, decorate] 
-   (word-1.south west) -- (word-1.south east)
-      node [midway, below, rotate=90, text centered,text width=1cm, yshift=1em, xshift=-2em] {\scriptsize ;adat_shart;};
+\draw [decoration={brace}, decorate] 
+   (word-1.north west) -- (word-1.north east)
+      node [midway, above, text centered,text width=1cm, yshift=0.2em] {\scriptsize ;adat_shart;};
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-5.south east)
-      node [midway, below, text centered,text width=1.5cm, yshift=-5pt] {\scriptsize ;shart_int;};
-\draw [decoration={brace, mirror, raise=5em}, decorate] 
+      node [midway, below, text centered,text width=1.5cm, yshift=0em] {\scriptsize ;shart_int;};
+\draw [decoration={brace, mirror, raise=2em}, decorate] 
    (word-1.south west) -- (word-5.south east)
-      node [midway, below, text centered,text width=1cm, yshift=-6em] {\scriptsize ;shart;};
+      node [midway, below, text centered,text width=1cm, yshift=-2.1em] {\scriptsize ;shart;};
 
-\draw [decoration={brace, mirror}, decorate] 
-   (word-6.south west) -- (word-6.south east)
-      node [midway, below, rotate=90, text centered,text width=1cm, yshift=1.1em, xshift=-2em] {\scriptsize ;jawab_shart_intro;};
+\draw [decoration={brace}, decorate] 
+   (word-6.north west) -- (word-6.north east)
+      node [midway, above, text centered,text width=1cm, yshift=0.2em] {\scriptsize ;jawab_shart_intro;};
 \draw [decoration={brace, mirror}, decorate] 
    (word-7.south west) -- (word-10.south east)
-      node [midway, below, text centered,text width=1.5cm, yshift=-5pt] {\scriptsize ;jawab_shart_int;};
-\draw [decoration={brace, mirror, raise=5em}, decorate] 
+      node [midway, below, text centered,text width=1.5cm, yshift=0em] {\scriptsize ;jawab_shart_int;};
+\draw [decoration={brace, mirror, raise=2em}, decorate] 
    (word-6.south west) -- (word-10.south east)
-      node [midway, below, text centered,text width=2cm, yshift=-6em] {\scriptsize ;jawab_shart;};
+      node [midway, below, text centered,text width=2cm, yshift=-2.1em] {\scriptsize ;jawab_shart;};
 
-\draw [dashed] (word-6.south west) -- ([yshift=-5em]word-6.south west);
+\draw [dashed] (word-6.south west) -- ([yshift=-2em]word-6.south west);
+\draw [dashed] (word-1.south west) -- ([yshift=-2em]word-1.south west);
+\draw [dashed] (word-10.south east) -- ([yshift=-2em]word-10.south east);
 
 \end{tikzpicture}
 ```
@@ -193,9 +195,6 @@ in the ;0state;.
     every word/.style={name=word-\w, execute at begin node=\strut}},
   decorate] (0,0);
 
-%\draw [decoration={brace, mirror}, decorate] 
-%   (word-5.south west) -- (word-5.south east)
-%      node [midway, below, text centered,text width=1cm, xshift=10pt, yshift=-5pt] {\scriptsize conditional particle};
 \draw [decoration={brace, mirror}, decorate] 
    (word-4.south west) -- (word-4.south east)
       node [midway, below, text centered,text width=1cm, yshift=-5pt] {\scriptsize ;fi3l_shart;};
