@@ -1430,7 +1430,11 @@ As in the following examples:
     [@https://sunnah.com/muslim:1077@]{.citex}  
     [that the Prophet ;pbuh; would, when he was brought some food, ask about it. If it **was said** [that it was] a gift, he **ate** from it, and if it **was said** [that it was] charity, he **did not eat** from it.]{.trans}  
 
-### ;kaana; as the ;fi3l_shart;
+### With ;fa; as the ;jawab_shart_intro;
+
+
+
+### With ;kaana; as the ;fi3l_shart;
 
 We saw above that when ;fa; is used to introduce the ;jawab_shart;
 then its ;tense; is independent
@@ -1459,7 +1463,7 @@ the ;qad; is optional, and mey be removed for the same meaning.
 Similarly, let's say that we expressly indicate a present tense meaning for the ;shart;
 as in the example:
 
-(@) [If he is eating, then I will eat with him.]{.trans}
+(@) [If he is eating, then let him.]{.trans}
 
 [He is eating]{.trans}
 can be translated as
@@ -1474,8 +1478,8 @@ But then this would typically have the ;tense; meaning
 In order to specify a present ;tense;,
 we begin the ;shart_int; with ;kaana;, thus:
 
-(@) [إِنْ كَانَ يَأْكُلُ فَسَآكُلُ مَعَهُ]{.ar}  
-    [If he is eating, then I will eat with him.]{.trans}
+(@) [إِنْ كَانَ يَأْكُلُ فَدَعْهُ]{.ar}  
+    [If he is eating, then let him.]{.trans}
 
 By the way,
 [إِنْ كَانَ يَأْكُلُ]{.ar}
@@ -1486,7 +1490,7 @@ Context will tell us which of two is intended.
 ;kaana; can also be used to allow arbitrary sentences in the ;shart;.
 Let's say that we widh to express:
 
-(@) [If you are sitting, then I will sit with you.]{.trans}
+(@) [If you are sitting, then come to me.]{.trans}
 
 [You are sitting]{.trans}
 may be translated as
@@ -1494,20 +1498,59 @@ may be translated as
 In order to use this as the ;shart;,
 we transform it using ;kaana; thus:
 
-(@) [إِنْ كُنتَ جَالِسًا فَسَأَجْلِسُ مَعَكَ]{.ar}  
-    [If you are sitting, then I will sit with you.]{.trans}
+(@) [إِنْ كُنتَ جَالِسًا فَأْتِنِي]{.ar}  
+    [If you are sitting, then come to me.]{.trans}
 
 By the way
 [إِنْ كُنْتَ جَالِسًا]{.ar}
 could also support the past-continuous ;tense;
-[if you were eating]{.trans}.
+[if you were sitting]{.trans}.
 It could even indicate a future tense, for example:
 
 (@) [إن كنت غدا جالسا فائتني]{.ar}
     [[@radiy_kafiyah@ 4/115](https://ketabonline.com/ar/books/23090/read?part=4&page=1552)]{.citex}  
     [If you are tomorrow sitting then come to me.]{.trans}
 
-Context can help disambiguate which ;tense; is intended.
+Context can help disambiguate which meaning is intended.
+
+Here are some more examples of ;j_sh;s with ;kaana; as the ;fi3l_shart;:
+
+(@) [إِن كُنتُ قُلۡتُهُۥ فَقَدۡ عَلِمۡتَهُۥۚ]{.quran}
+    [@https://quran.com/5/116@, cited by [@maani_nahw@ 4/64](https://shamela.ws/book/17801/1169)]{.citex}  
+
+(@) [إِن كَانَ قَمِیصُهُۥ قُدَّ مِن قُبُلࣲ فَصَدَقَتۡ وَهُوَ مِنَ ٱلۡكَـٰذِبِینَ]{.quran}
+    [@https://quran.com/12/26@, cited by [@maani_nahw@ 4/64](https://shamela.ws/book/17801/1169)]{.citex}  
+
+(@) [قَالَ فَمَا لِي لَا أَعْتَدُّ بِهَا وَإِنْ كُنْتُ قَدْ عَجَزْتُ وَاسْتَحْمَقْتُ]{.ar}
+    [@https://sunnah.com/ahmad:304@]{.citex}  
+
+(@) [قَالَ لَهَا وَإِنْ **كَانَ لَمْ يُؤْذَنْ** لِي فِي ثَقِيفٍ يَا خُوَيْلَةُ]{.ar}
+    [[@tarikh_tabari@ 3/85](https://shamela.ws/book/9783/1359) cited by @peled_cst@ 33]{.citex}  
+    [He (;pbuh;) said to her, "And if [#vaqIf]{.trn2} **has not been permitted** for me, O [#xuwaylah]{.trn2}?"]{.trans}  
+
+(@) [إِنْ **كَانَ لَا يَضُرُّكِ وَلَا يُضَيِّقُ عَلَيْكِ** فَإِنِّي أُحِبُّ أَنْ أُدْفَنَ مَعَ صَاحِبَيَّ]{.ar}
+    [<https://hadithunlocked.com/hakim:4519>]{.citex}  
+    [If it **does not harm you or make it difficult for you** then I would like that I be buried with my two companions.]{.trans}  
+
+(@) [مَنْ قَالَ أَسْتَغْفِرُ اللَّهَ الَّذِي لاَ إِلَهَ إِلاَّ هُوَ الْحَىُّ الْقَيُّومُ وَأَتُوبُ إِلَيْهِ غُفِرَ لَهُ وَإِنْ **كَانَ فَرَّ** مِنَ الزَّحْفِ]{.ar}
+    [@https://sunnah.com/abudawud:1517@]{.citex}  
+    [Whoever says, "I seek forgiveness from ;Allah;, the one whom there is no deity except He, the Ever-Living, the Self-Sustaining, and I turn to Him in repentance," he is forgiven even if he **had fled** from battle.]{.trans}
+
+(@) [إِنْ كُنْتَ تُرِيدُ أَنْ تُصِيبَ السُّنَّةَ الْيَوْمَ فَاقْصُرِ الْخُطْبَةَ وَعَجِّلِ الْوُقُوفَ]{.ar}
+    [bukhari:1663]{.citex}  
+
+The ;0state; ;mudarie; verb ;yakun; can also be used in this manner.
+Consistent with what we learned in section\ (ref) above,
+it may indicate potentiality or possibility.
+For example:
+
+(@) [فَإِن **يكن قد علا رَأْسِي** وَغَيره ... صرف الزَّمَان وتغيير من الشّعْر]{.ar}
+    [[[جمهرة الأمثال للعسكري]{.ar} 1/263](https://shamela.ws/book/6897/261)]{.citex}  
+    [So if **it be that my head has become dignified** and the elapsing of time and a changing of hair has changed it ...]{.trans}
+
+(@) [فإن تكن الدنيا بلبنى تغيرت فللدهر والدنيا بطون وأظهر]{.ar}
+    [cited by gatge dur struktur 175]{.citex}
+
 
 ---
 
