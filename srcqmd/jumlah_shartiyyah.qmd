@@ -1430,14 +1430,94 @@ As in the following examples:
     [@https://sunnah.com/muslim:1077@]{.citex}  
     [that the Prophet ;pbuh; would, when he was brought some food, ask about it. If it **was said** [that it was] a gift, he **ate** from it, and if it **was said** [that it was] charity, he **did not eat** from it.]{.trans}  
 
-### The ;tense; with ;kaana; as the ;fi3l_shart;
+### ;kaana; as the ;fi3l_shart;
+
+We saw above that when ;fa; is used to introduce the ;jawab_shart;
+then its ;tense; is independent
+from the future-shifting affect of the ;adat_shart;.
+The verb ;kaana; can similarly be used to introduce the ;shart;,
+and it makes the ;tense; of the ;shart; independent
+from the future-shifting affect of the ;adat_shart;.
+
+Let's say that we wish to expressly indicate a past ;tense; for the ;shart;,
+as in the example:
+
+(@) [If he studied, then he will succeed.]{.trans}
+
+If we express the ;shart; as
+[إِنْ دَرَسَ]{.ar},
+then it will typically take a future ;tense; meaning.
+In order to specify a past ;tense;,
+we begin the ;shart_int; with ;kaana;, thus:
+
+(@) [إِنْ كَانَ قَدْ دَرَسَ فَسَيَنْجَحُ]{.ar}  
+    [If he studied, then he will succeed.]{.trans}
+
+In example () above,
+the ;qad; is optional, and mey be removed for the same meaning.
+
+Similarly, let's say that we expressly indicate a present tense meaning for the ;shart;
+as in the example:
+
+(@) [If he is eating, then I will eat with him.]{.trans}
+
+[He is eating]{.trans}
+can be translated as
+[يَأْكُلُ]{.ar}
+which is a ;ustate; ;mudarie; verb.
+We cannot use this verb directly as the ;fi3l_shart; with ;in;
+and would have to modify it to the ;0state; verb، thus:
+[إِنْ يَأْكُلْ]{.ar}.
+But then this would typically have the ;tense; meaning
+[if he will eat]{.trans}.
+
+In order to specify a present ;tense;,
+we begin the ;shart_int; with ;kaana;, thus:
+
+(@) [إِنْ كَانَ يَأْكُلُ فَسَآكُلُ مَعَهُ]{.ar}  
+    [If he is eating, then I will eat with him.]{.trans}
+
+By the way,
+[إِنْ كَانَ يَأْكُلُ]{.ar}
+could also support the past-continuous ;tense;
+[if he **was** eating]{.trans}.
+Context will tell us which of two is intended.
+
+;kaana; can also be used to allow arbitrary sentences in the ;shart;.
+Let's say that we widh to express:
+
+(@) [If you are sitting, then I will sit with you.]{.trans}
+
+[You are sitting]{.trans}
+may be translated as
+[أَنْتَ جَالِسٌ]{.ar}.
+In order to use this as the ;shart;,
+we transform it using ;kaana; thus:
+
+(@) [إِنْ كُنتَ جَالِسًا فَسَأَجْلِسُ مَعَكَ]{.ar}  
+    [If you are sitting, then I will sit with you.]{.trans}
+
+By the way
+[إِنْ كُنْتَ جَالِسًا]{.ar}
+could also support the past-continuous ;tense;
+[if you were eating]{.trans}.
+It could even indicate a future tense, for example:
+
+(@) [إن كنت غدا جالسا فائتني]{.ar}
+    [[@radiy_kafiyah@ 4/115](https://ketabonline.com/ar/books/23090/read?part=4&page=1552)]{.citex}  
+    [If you are tomorrow sitting then come to me.]{.trans}
+
+Context can help disambiguate which ;tense; is intended.
+
+---
 
 As shown above,
 the simple ;j_sh; may have a past ;tense;,
 but this is uncommon.
 The more common way of indicating a past ;tense; in the ;shart; is to use ;kaana; as the ;fi3l_shart;.
 Then a ;madi; verb
-(often preceded by ;qad; is used in the ;xabar; of ;kaana; to indicate a past ;tense;.
+(often preceded by ;qad;)
+is used in the ;xabar; of ;kaana; to indicate a past ;tense;.
 For example:
 
 (@) [إِن كُنتُ قُلۡتُهُۥ فَقَدۡ عَلِمۡتَهُۥۚ]{.quran}
@@ -1446,8 +1526,27 @@ For example:
 (@) [إِن كَانَ قَمِیصُهُۥ قُدَّ مِن قُبُلࣲ فَصَدَقَتۡ وَهُوَ مِنَ ٱلۡكَـٰذِبِینَ]{.quran}
     [@https://quran.com/12/26@, cited by [@maani_nahw@ 4/64](https://shamela.ws/book/17801/1169)]{.citex}  
 
-However, ;kaana; does not always shift the ;tense; of a ;shart; to the past.
-It is also used to indicate a present, future,
+;kaana; does not always shift the ;tense; of a ;shart; to the past.
+;kaana; is also used to
+specify other ;tense;s for the ;shart;.
+For example, let's say that we wish to translate the sentence:
+
+(@) [If Zayd is sitting, then let him come to me.]{.trans}
+
+First we consider the ;shart_int;
+[Zayd is sitting]{.trans}.
+This may be translated as
+[زَيْدٌ جَالِسٌ]{.ar}.
+In order for us to use this sentence in the ;shart;,
+we transform it to a ;kaana; sentence, thus:
+[كَانَ زَيْدٌ جَالِسًا]{.ar}.
+Now we can say:
+
+(@) [إِنْ كَانَ زَيْدٌ جَالِسٌ فَلْيَأْتِنِي]{.ar}
+    [If Zayd is sitting, then let him come to me.]{.trans}
+
+Note that ;kaana; now does not impart its past-tense "was" meaning.
+
 
 ### The ;tense; with ;fa; as a ;jawab_shart_intro;
 
