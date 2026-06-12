@@ -1713,13 +1713,25 @@ Here are the common scenarios where ;fa; is used in the ;jawab_shart;:
 
 ---
 
-So far we have seen that the ;jawab_shart; in a ;j_sh; can take the following main forms:
+In the simple ;j_sh;,
+i.e.
+one where the ;shart_int;
+and the ;jawab_shart_int;
+are simple ;j_f3l;s,
+the ;fi3l_shart; and the ;fi3l_jawab_shart;
+can take the following main forms:
 
-* A ;yaqtul; ;j_f3l; for ;in; ;j_sh;s.                  Negated using [;_laa; ;_yaqtul;]{.ar}.
-* A non-past tense ;qatala; ;j_f3l; for both ;in; and ;idha; ;j_sh;s.  Negated using [;_lam; ;_yaqtul;]{.ar}.
+* ;yaqtul;, negated using [;_laa; ;_yaqtul;]{.ar}.
+* ;qatala; , negated using [;_lam; ;_yaqtul;]{.ar}.
 
+Also, as we know,
+the ;adat_shart; has a future-shifting influence on both these verb forms.
+
+<!--
 (We have also seen the ;yaqtulu; form but we will treat it separately in section\ (ref) below.)
+-->
 
+<!--
 When the ;jawab_shart; has either of the above two (;yaqtul; or non-past tense ;qatala;) forms,
 then it is not introduced by the ;jawab_shart_intro; ;fa;.
 So for example, 
@@ -1731,8 +1743,9 @@ we say:
 But we cannot say:
 
 (@) ;x; [إِنْ تَأْتِنِي فَآتِكَ]{.ar}
+-->
 
-However, when the ;jawab_shart; falls outside the above two main forms,
+When the ;jawab_shart; falls outside the above two main forms,
 then it will typically be introduced by ;fa;.
 For example:
 
@@ -1743,14 +1756,50 @@ The ;jawab_shart; in example () above is a ;fi3l_amr; ;j_f3l;.
 Since it is not a ;yaqtul; or (non-past tense) ;qatala; form,
 we use a ;fa; to introduce it.
 
+The main purpose of the ;fa; as a ;jawab_shart_intro;,
+is to free the ;jawab_shart; from the influence 
+(and government, if applicable)
+of the ;adat_shart;.
+So,
+as we learned in section (ref) above,
+the ;tense; of the ;jawab_shart; introduced by ;fa;
+is evaluated independently.
+
+;fa; is typically mandatory when the ;jawab_shart; is not either of
+;yaqtul;, [;_laa; ;_yaqtul;]{.ar},
+;qatala;, or [;_lam; ;_yaqtul;]{.ar}.
+
+<!--
 The main reason that a ;fa; is needed in such cases,
 is to indicate that the ;jawab_shart; is linked to the ;shart;.
 Without it, the ;jawab_shart; would appear to be an independent sentence
 and its meaning would not be tied to the ;shart; being satisfied.
-So we cannot (usually) say, without ;fa;:
+-->
+So, for example,
+we cannot (usually) say, without ;fa;:
 
 (@) ;x; [إِنْ يَأْتِكَ أَكْرِمْهُ]{.ar}  
 
+And ;fa; is typically disallowed when
+the ;jawab_shart; is
+;yaqtul;, [;_laa; ;_yaqtul;]{.ar},
+;qatala;, or [;_lam; ;_yaqtul;]{.ar}.
+
+So, for example, we cannot say:
+
+(@) ;x; [إِنْ تَأْتِنِي فَآتِكَ]{.ar}
+
+However,
+as a special case, ;fa; is allowed
+when
+;qatala;, or [;_lam; ;_yaqtul;]{.ar}
+form is used in the ;jawab_shart;,
+but what is intended by these forms is a true past-tense.
+For example:
+
+(@) [إِذَا أَتَيْتَنِي فَأَكْرَمْتُكَ]{.ar}
+
+<!--
 ;fa; is not needed when the ;jawab_shart; is a ;yaqtul; or (non-past tense) ;qatala; ;j_f3l;
 because in those cases the link between the ;jawab_shart; and the ;shart; is readily apparent.
 In the case of a ;yaqtul; ;jawab_shart;,
@@ -1763,7 +1812,7 @@ as in the example below:
 
 (@) [إِذَا أَتَيْتَنِي **أَتَيْتُكَ**]{.ar}
     [If you come to me, I will come to you.]{.trans}
-
+-->
 <!--
 * ;yaqtulu; (and [;_laa; ;_yaqtulu;]{.ar}) for both ;in; and ;idha; ;j_sh;s
 1. For ;in; ;j_sh;s:
@@ -1858,7 +1907,9 @@ explicitly indicate that the ;jawab_shart; is
 related to the occurrence of the ;shart;.
 -->
 
+<!--
 ### Types of ;jawab_shart;s requiring ;fa;
+-->
 
 Here are the main situations in which
 ;fa; is used to introduce the ;jawab_shart;:
