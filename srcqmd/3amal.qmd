@@ -122,15 +122,15 @@ then he is doing so for stylistic reasons.^[Hickey, L, "Stylistics, Pragmatics, 
 
 A sentence in Arabic is constituted from elements.
 An element can be a noun, a verb, or a particle.
-Of these elements, some have the quality of state.
-These are called _stateful_ elements.
-The stateful elements are nouns and ;mudarie; verbs.
+Of these elements, some have the quality of ;case;.
+These are called _caseful_ elements.
+The caseful elements are nouns and ;mudarie; verbs.
 A noun may be either in the ;ucase;, ;acase;, or ;icase;.
 And a ;mudarie; verb may be either in the ;ucase;, ;acase;, or ;0case;.
 
-The theory of government states that a stateful element
+The theory of government states that a caseful element
 in a sentence
-is _governed_ in a particular state by a _governor_.
+is _governed_ in a particular ;case; by a _governor_.
 
 For example:
 
@@ -165,7 +165,7 @@ and it governs the ;mafulb; in the ;acase;.
 From example (@3amal_zayd_beat_3amr),
 you can see that one goveror may govern multiple governees.
 However, one governee cannot be be governed by multiple governors.
-In other words, there can be only one governor that causes a stateful element to be in a particular state.
+In other words, there can be only one governor that causes a caseful element to be in a particular ;case;.
 
 #### The word-order of a governor and its governee(s)  {.unnumbered}
 
@@ -259,7 +259,7 @@ governs its ;faa3il;
 #### Ungoverned elements {.unnumbered}
 
 Not every element in a sentence is governed by a governor.
-For example, the ;madi; verb [قَرَأَ]{.ar} has no state, and thus, no governor.
+For example, the ;madi; verb [قَرَأَ]{.ar} has no ;case;, and thus, no governor.
 
 Here is a diagram depicting the above governor-governee relationships:
 
@@ -397,7 +397,7 @@ The ;pregov; is the source of all government in the sentence.
 In some sentences, the intitial governor may be one of the two ;3umdah; elements.
 In example (@3amal_qaama_zaydun) above,
 the verb [قَامَ]{.ar} governs its ;faa3il; [زَيْدٌ]{.ar}.
-The ;madi; verb [قَامَ]{.ar} has no state and thus needs no governor.
+The ;madi; verb [قَامَ]{.ar} has no ;case; and thus needs no governor.
 So it is, itself, the ;pregov;.
 
 DIAGRAM
@@ -440,7 +440,7 @@ But it is needed to govern the ;3umdah; elements.
 #### The abstract ;pregov; {.unnumbered}
 
 Very commonly, the ;pregov; is not an actual word, but only an abstract concept.
-When there is one or more stateful ;3umdah; elements in a sentence with no overt (i.e. observable) governor,
+When there is one or more caseful ;3umdah; elements in a sentence with no overt (i.e. observable) governor,
 then this necessitates bringing in a _abstract_ ;pregov;.^[@owens_foundations_grammar@ 55; @peled_sentence_types@ 87--88]
 For example:
 
@@ -482,7 +482,7 @@ DAribun abUhu eamran
 The ;ism_fail; DAribun governs the its ;faa3il; abUhu,
 and its ;mafulb; 3amr.
 (Remember from section\ (ref) that an ;ism_fail; may have a ;faa3il; and a ;mafulb;.)
-But DAribun is a stateful element that itself needs a governor.
+But DAribun is a caseful element that itself needs a governor.
 It is put in the ;ucase; because it is the ;xabar; of the ;mubtada; zaydun.
 by the conceptual governor that governs the larger sentence.
 
@@ -506,7 +506,7 @@ The ;ism_fail; DAribun governs
 and its ;mafulb; 3amr,
 (and also its implied ;faa3il; "he").
 (Remember from section\ (ref) that an ;ism_fail; may have a ;faa3il; and a ;mafulb;.)
-But DAribun is a stateful element that itself needs a governor.
+But DAribun is a caseful element that itself needs a governor.
 It is put in the ;ucase; because it is the ;xabar; of the ;pregov; inna.
 -->
 
@@ -556,7 +556,7 @@ Therefore [يَكُنْ]{.ar} is part of the ;pregov;.
 
 ## #;fadlah; elements
 
-A ;fadlah; element is any stateful element in a sentence,
+A ;fadlah; element is any caseful element in a sentence,
 following the ;pregov; (in government hierarchy),
 that is not either of the two ;3umdah; elements.
 The source of government for 
@@ -1232,8 +1232,8 @@ This is because
 [يَقُومُ]{.ar}
 is a complete sentence (with an implied ;faa3il; pronoun).
 So it has its own internal government that is not affected by any element in the outer sentence.
-Thus, the state of the ;manut;
-[رَجُلٍ]{.ar} has no effect on any state within the sentence-;na3t;.
+Thus, the ;case; of the ;manut;
+[رَجُلٍ]{.ar} has no effect on any ;case; within the sentence-;na3t;.
 However, the entire sentence ;na3t; is _in place_ of a ;icase; noun as the ;na3t; of 
 [رَجُلٍ]{.ar}.
 
@@ -1493,7 +1493,7 @@ For example:
 
 TODO
 
-## Occupied state
+## ;mahall; ;case;
 
 [في محل رفع/نصب/جزم]{.ar}
 
