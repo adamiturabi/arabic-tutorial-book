@@ -220,7 +220,7 @@ map_table["laam_taqwiya"] = "strengthening-[لِ]{.ar}"
 map_table["lazim"] = "intransitive"
 map_table["lnj"] = {"لا النافية للجنس", "ar"}
 
-map_table["madi"] = "stateless"  # perfect, perfective, "stateless" verb?
+map_table["madi"] = map_table["case"]+"less"  # perfect, perfective, "stateless" verb?
 map_table["maful"] = "doee"
 map_table["mafulb"] = "direct doee"
 map_table["mafull"] = "adverb of reason"
@@ -235,7 +235,7 @@ map_table["mmutlaq"] = "absolute doee"
 map_table["mubtada"] = "subject"
 map_table["mudaf"] = "annexe noun"
 map_table["mudafil"] = "base noun"
-map_table["mudarie"] = "stateful" # "[muDArie]{.trn2}" # "stateful", resembling, prefixed
+map_table["mudarie"] = map_table["case"] + "ful" # "[muDArie]{.trn2}" # "stateful", resembling, prefixed
 map_table["mushar_il"] = "pointed-to noun" # "[muDArie]{.trn2}"
 map_table["mushtaqq"] = "deverbal" # deverbal, derived
 map_table["musnad"] = "leaning element" # structure-completer, complement, leaning element
