@@ -59,7 +59,7 @@ You can use the alphabetical  order (A,\ B) to help you remember that the **a**n
 Take note of the following points regarding the ;idaafah; construction:
 
 + The ;mudafil; in an ;idaafah; shall always be in the ;icase;.
-+ The state of the ;mudaf; is variable and shall depend on its function in the sentence.
++ The ;case; of the ;mudaf; is variable and shall depend on its function in the sentence.
 + The ;mudaf; in an ;idaafah; shall neither have an ;tanwin; nor the prefix [ٱَلْ]{.ar}.
 
 ## Remove
@@ -82,9 +82,9 @@ We can identify noun-chains by noting that the first noun in the chain has neith
 
 The first noun in the chain is the noun before "of" and the second noun in the chain is the noun after "of".
 -->
-## State of the ;mudaf; and ;mudafil;
+## #;case; of the ;mudaf; and ;mudafil;
 
-The ;mudafil; in an ;idaafah; is always in the ;icase;. The ;mudaf; may be in any state, depending on its function in the sentence. For example,
+The ;mudafil; in an ;idaafah; is always in the ;icase;. The ;mudaf; may be in any ;case;, depending on its function in the sentence. For example,
 <!--
    + [أُمُّ ٱلْغُلَامِ مُعَلِّمَةٌ.]{.ar}  
      [Eummu -lgulAmi mueallimatun.]{.trn}  
@@ -263,7 +263,7 @@ Here is how we will express this in Arabic:
 
 In the manner we are already familiar with, we place the ;na3t; [صَغِير]{.ar} "a small one" after the ;manut;
 [ٱَلْجَارِيَة]{.ar} "the girl"
-and match the ;na3t; with the ;manut; in definiteness, state, gender and number (singular, dual, or plural).
+and match the ;na3t; with the ;manut; in definiteness, ;case;, gender and number (singular, dual, or plural).
 
 Similarly, if we had an indefinite ;idaafah;, we would get:
 
@@ -289,13 +289,13 @@ Consider, again, the same ;idaafah;:
 "the girl's book"
 
 Say, now, that we want to describe the ;mudaf; [كِتَاب]{.ar} "book" with the ;sifah; [صَغِير]{.ar} "a small one". Normally, nothing can come between the ;mudaf; and the ;mudafil; in an ;idaafah;. So, the ;na3t; needs to be placed, again, after the ;mudafil;.
-However, this time it will match the ;mudaf;, not the ;mudafil;, in state, definiteness, gender, and number. So we get:
+However, this time it will match the ;mudaf;, not the ;mudafil;, in ;case;, definiteness, gender, and number. So we get:
 
 [كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرُ]{.ar}  
 "the girl's small book"
 
 Note how the ;na3t; 
-[ٱَلصَّغِيرُ]{.ar} matches the ;mudaf; [كِتَابُ]{.ar} in state and gender.
+[ٱَلصَّغِيرُ]{.ar} matches the ;mudaf; [كِتَابُ]{.ar} in ;case; and gender.
 Note also how the ;na3t; is definite with an [ٱَلْ]{.ar}. This is because it is matching the ;mudaf; [كِتَابُ]{.ar} in definiteness.
 The ;mudaf; [كِتَاب]{.ar} is definite, not with [ٱَلْ]{.ar}, but rather because of the definite ;mudafil; [ٱَلْجَارِيَةِ]{.ar} "the girl".
 We've already learned this rule in 
@@ -378,7 +378,7 @@ But when definite with [ٱَلْ]{.ar} then they behave just like fully-flexible
 Example of the semi-flexible noun 
 ^2^[صَحْرَاء]{.ar} "a desert":
 
-State  | Indefinite | Definite
+#;case;  | Indefinite | Definite
 :------|:-----------|:---------
 ;ucase;| [صَحْرَاءُ]{.ar} | [ٱَلصَّحْرَاءُ]{.ar}
 ;acase;| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءَ]{.ar}
@@ -510,8 +510,8 @@ The difference is that we would like to replace the ;mudafil; [ٱَلْغُلَ�
 
 This ;idaafah; follows the same rules as the other ;idaafah;s we have been studying so far:
 
-+ The ;mudaf; may be in any state, depending on its function in the sentence.
-+ The ;mudafil; is in the ;icase;. But because the ;mudafil; is a pronoun, and pronouns are rigid nouns (see section\ \@ref(rigidity-of-pronouns) that don't change their ending based on their state, therefore it's ;icase; will not be apparent.
++ The ;mudaf; may be in any ;case;, depending on its function in the sentence.
++ The ;mudafil; is in the ;icase;. But because the ;mudafil; is a pronoun, and pronouns are rigid nouns (see section\ \@ref(rigidity-of-pronouns) that don't change their ending based on their ;case;, therefore it's ;icase; will not be apparent.
 
 Here are some examples of this ;idaafah; used in sentences:
 
@@ -688,7 +688,7 @@ There are also two special cases in this category and we will examine them below
 
 ##### Annexing an [Un]{.trn} sound plural to the singular speaker participant pronoun {-} 
 
-When an [Un]{.trn} sound plural is annexed to the singular speaker participant pronoun, then again, only the [يَ]{.ar} variant can be used. However, in addition, the expression will appear the same regardless of the state of the ;mudaf;. So for all states (;ucase;, ;acase;, and ;icase;), we will get:
+When an [Un]{.trn} sound plural is annexed to the singular speaker participant pronoun, then again, only the [يَ]{.ar} variant can be used. However, in addition, the expression will appear the same regardless of the ;case; of the ;mudaf;. So for all ;case;s (;ucase;, ;acase;, and ;icase;), we will get:
 
 [مُعَلِّمِيَّ]{.ar}
 
@@ -728,12 +728,12 @@ Compare this with describing the ;mudafil; with the same ;sifah;.
 [كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرَةِ]{.ar}  
 "the girl's small book"
 
-As you can see, the ;sifah; [صَغِير]{.ar} "a small one" is in the same location, but its gender and state are different in both expressions because they match a different ;manut;. 
+As you can see, the ;sifah; [صَغِير]{.ar} "a small one" is in the same location, but its gender and ;case; are different in both expressions because they match a different ;manut;. 
 The definiteness, however, is the same in the two expressions because the ;mudaf; has the same definiteness as the ;mudafil;.
 
 
 
-If the second noun in a chain is to be described using a qualitative noun, then just like we have learned, we will place the qualitative noun after the second noun in the chain and match it definiteness, state, gender, and number (depending on whether it denotes a rational or non-rational being). Examples: 
+If the second noun in a chain is to be described using a qualitative noun, then just like we have learned, we will place the qualitative noun after the second noun in the chain and match it definiteness, ;case;, gender, and number (depending on whether it denotes a rational or non-rational being). Examples: 
 
 [بَيْتُ رَجُلٍ كَبِيرٍ]{.ar}  
 [baytu rajulin kabIrin]{.trn}  
@@ -743,7 +743,7 @@ If the second noun in a chain is to be described using a qualitative noun, then 
 [buyUtu -rrijAli -lkibAri]{.trn}  
 "houses of the old/big men" = "the old/big men's houses"
 
-If the first noun in a chain is to be described using a qualitative noun, then we will actually place the qualitative noun after the second noun, not the first noun, in the chain. This way we don't break the chain of the two nouns. The ;na3t; will match the first noun definiteness, state, gender, and number (depending on whether it denotes a rational or non-rational being). Examples: 
+If the first noun in a chain is to be described using a qualitative noun, then we will actually place the qualitative noun after the second noun, not the first noun, in the chain. This way we don't break the chain of the two nouns. The ;na3t; will match the first noun definiteness, ;case;, gender, and number (depending on whether it denotes a rational or non-rational being). Examples: 
 
 [بَيْتُ رَجُلٍ كَبِيرٌ]{.ar}  
 [baytu rajulin kabIrun]{.trn}  
@@ -980,14 +980,14 @@ Here are some notes regarding the use of pronouns in noun-chains.
 
 + An attached pronoun may be only the last noun in a noun-chain. It cannot be the first noun in a noun-chain.
 + A looped [tAE]{.trn2} [ة]{.ar} in the first noun becomes an open [tAE]{.trn2} [ت]{.ar} when a pronoun is attached as the second noun in the noun-chain. For example [مَدْرَسَةٌ]{.ar} [madrasatun]{.trn} "a school" becomes [مَدْرَسَتُهُ]{.ar} [madrasatuhu]{.trn} "his school".
-+ The first noun in the noun-chain, before the attached pronoun, may be in any state. So, for example, we can have:
++ The first noun in the noun-chain, before the attached pronoun, may be in any ;case;. So, for example, we can have:
   + [دَخَلَ بَيْتَهُ.]{.ar} (;acase;)  
     [daxala baytahu]{.trn}  
     "He entered his house."
   + [فِي بَيْتِهِ.]{.ar} (;icase;)  
     [fI baytihi]{.trn}  
     "in his house"
-+ With the pronoun [ـِي]{.ar} [-I]{.trn}, the first noun in the noun-chain will generally appear the same in all states. For example,
++ With the pronoun [ـِي]{.ar} [-I]{.trn}, the first noun in the noun-chain will generally appear the same in all ;case;s. For example,
   + [بَيْتِي كَبِيرٌ]{.ar} (;ucase;)  
     [baytI kabIrun.]{.trn}  
     "My house is big."
