@@ -100,7 +100,9 @@ map_table["3aaqil"]   = "intelligent being"
 map_table["g_3aaqil"] = "non-intelligent being"
 
 # states
-map_table["case"] = "case"   # raised-case"
+map_table["case"] = "case"
+map_table["caseful"] = "caseful"
+map_table["caseless"] = "caseless"
 map_table["ucase"] = "u-case"   # raised-case"
 map_table["acase"] = "a-case"  # propped-case
 map_table["icase"] = "i-case"  # lowered-case
