@@ -125,8 +125,8 @@ An element can be a noun, a verb, or a particle.
 Of these elements, some have the quality of state.
 These are called _stateful_ elements.
 The stateful elements are nouns and ;mudarie; verbs.
-A noun may be either in the ;ustate;, ;astate;, or ;istate;.
-And a ;mudarie; verb may be either in the ;ustate;, ;astate;, or ;0state;.
+A noun may be either in the ;ucase;, ;acase;, or ;icase;.
+And a ;mudarie; verb may be either in the ;ucase;, ;acase;, or ;0case;.
 
 The theory of government states that a stateful element
 in a sentence
@@ -142,12 +142,12 @@ In the above example,
 the particle fii is the governor of the noun al-daari.
 The noun al-daar is the governee of its governor fii.
 -->
-the preposition [فِي]{.ar} causes the noun [الدَّار]{.ar} to be in the ;istate;.
+the preposition [فِي]{.ar} causes the noun [الدَّار]{.ar} to be in the ;icase;.
 So we say that 
-the _governor_ [فِي]{.ar} _governs_ [الدَّار]{.ar} (the _governee_) in the ;istate;.
+the _governor_ [فِي]{.ar} _governs_ [الدَّار]{.ar} (the _governee_) in the ;icase;.
 <!--
 We say that
-the preposition fii is the governor of ;istate; noun al-daar because it is the reason or cause of the noun al-daar being in the ;istate;.
+the preposition fii is the governor of ;icase; noun al-daar because it is the reason or cause of the noun al-daar being in the ;icase;.
 
 Here is another example:
 
@@ -157,8 +157,8 @@ In this example, the governor is the verb Daraba.
 It has two governees:
 the ;faa3il; zayd,
 and the ;mafulb; eamr.
-The governor Daraba governs the ;faa3il; zayd in the ;ustate;
-and it governs the ;mafulb; in the ;astate;.
+The governor Daraba governs the ;faa3il; zayd in the ;ucase;
+and it governs the ;mafulb; in the ;acase;.
 
 #### A governee can only have one governor  {.unnumbered}
 
@@ -190,38 +190,38 @@ We will make use of the following example:
 
 (@ex000554) [قَرَأَ الْغُلَامُ الطَّوِيلُ كِتَابَ الجَارِيَةِ فِي الدَّارِ الْكَبِيرَةِ]{.ar}
 
-#### The ;istate; noun {.unnumbered}
+#### The ;icase; noun {.unnumbered}
 
-A noun in the ;istate; is governed by a preceding preposition or ;mudaf;.
+A noun in the ;icase; is governed by a preceding preposition or ;mudaf;.
 We have already seen that the
-;istate; noun [الدَّار]{.ar} is governed by the preceding preposition [فِي]{.ar}.
+;icase; noun [الدَّار]{.ar} is governed by the preceding preposition [فِي]{.ar}.
 <!--
 We saw an example of a governing preposition in (@3amal_in_house) [فِي الدَّارِ]{.ar} above.
 -->
-We also see that the ;istate; ;mudafil; [الجَارِيَةِ]{.ar}
+We also see that the ;icase; ;mudafil; [الجَارِيَةِ]{.ar}
 is governed by the ;mudaf; [كِتَابَ]{.ar}.
 
 #### The ;faa3il; {.unnumbered}
 
 The ;faa3il; of a verb is governed by its preceding verb.
-In our example the verb [قَرَأَ]{.ar} governs its ;faa3il; [الْغُلَامُ]{.ar} in the ;ustate;.
+In our example the verb [قَرَأَ]{.ar} governs its ;faa3il; [الْغُلَامُ]{.ar} in the ;ucase;.
 
 #### The ;mafulb; {.unnumbered}
 
 The ;mafulb; is also governed by its verb.
-In our example the verb [قَرَأَ]{.ar} governs its ;mafulb; [كِتَابَ]{.ar} in the ;astate;.
+In our example the verb [قَرَأَ]{.ar} governs its ;mafulb; [كِتَابَ]{.ar} in the ;acase;.
 
 #### The ;na3t; {.unnumbered}
 
 A ;na3t; is governed by governor of its ;manut;.
-In our example, the ;na3t; [الطَّوِيلُ]{.ar} is governed in the ;ustate; by [قَرَأَ]{.ar}, which is the governor of its ;manut;
+In our example, the ;na3t; [الطَّوِيلُ]{.ar} is governed in the ;ucase; by [قَرَأَ]{.ar}, which is the governor of its ;manut;
 [الْغُلَامُ]{.ar}.
 Similarly, the ;na3t;
 [الْكَبِيرَةِ]{.ar}
-is governed in the ;istate; by the preposition [فِي]{.ar} because [فِي]{.ar} also governs its ;manut; [الدَّارِ]{.ar}.
+is governed in the ;icase; by the preposition [فِي]{.ar} because [فِي]{.ar} also governs its ;manut; [الدَّارِ]{.ar}.
 
 <!--
-Here is an example of an ;istate; noun 
+Here is an example of an ;icase; noun 
 ([زَيْدٍ]{.ar})
 being governed by a preceding ;mudaf;
 ([كِتَابُ]{.ar}):
@@ -240,7 +240,7 @@ For example:
 In example (@Daraba_zaydun_3amran) above,
 the verb [ضَرَبَ]{.ar}
 governs its ;faa3il;
-[زَيْدٌ]{.ar} in the ;ustate;.
+[زَيْدٌ]{.ar} in the ;ucase;.
 
 #### The ;mafulb; {.unnumbered}
 
@@ -253,7 +253,7 @@ For example:
 In example (@Daraba_zaydun_3amran) above,
 the verb [ضَرَبَ]{.ar}
 governs its ;faa3il;
-[زَيْدٌ]{.ar} in the ;ustate;.
+[زَيْدٌ]{.ar} in the ;ucase;.
 -->
 
 #### Ungoverned elements {.unnumbered}
@@ -451,13 +451,13 @@ For example:
 The abstract ;pregov; governs both the ;muxbar3; (the ;mubtada; [زَيْدٌ]{.ar}),
 and the ;muxbar; (the ;xabar; 
 [مُنْطَلِقٌ]{.ar})
-in the ;ustate;.
+in the ;ucase;.
 
 (@ex000559) [يَقُومُ زَيْدٌ]{.ar}  
     [Zayd stands]{.trans}
 
-The abstract ;pregov; governs the ;muxbar; (the ;mudarie; verb [يَقُومُ]{.ar}) in the ;ustate;.
-And, as usual, the verb [يَقُومُ]{.ar} governs its ;faa3il; [زَيْدٌ]{.ar} (the ;muxbar3;) in the ;ustate;.
+The abstract ;pregov; governs the ;muxbar; (the ;mudarie; verb [يَقُومُ]{.ar}) in the ;ucase;.
+And, as usual, the verb [يَقُومُ]{.ar} governs its ;faa3il; [زَيْدٌ]{.ar} (the ;muxbar3;) in the ;ucase;.
 
 <!--
 
@@ -483,7 +483,7 @@ The ;ism_fail; DAribun governs the its ;faa3il; abUhu,
 and its ;mafulb; 3amr.
 (Remember from section\ (ref) that an ;ism_fail; may have a ;faa3il; and a ;mafulb;.)
 But DAribun is a stateful element that itself needs a governor.
-It is put in the ;ustate; because it is the ;xabar; of the ;mubtada; zaydun.
+It is put in the ;ucase; because it is the ;xabar; of the ;mubtada; zaydun.
 by the conceptual governor that governs the larger sentence.
 
 (@ex000561) inna zaydan DAribun eamran
@@ -496,8 +496,8 @@ For now, we will give a brief overview specific to this example.
 
 In the above example,
 the ;pregov; is the particle inna.
-It governs its ;ism_of; zaydun in the ;astate;.
-And it governs its ;xabar; DAribun in the ;ustate;.
+It governs its ;ism_of; zaydun in the ;acase;.
+And it governs its ;xabar; DAribun in the ;ucase;.
 However, its ;xabar; 
 the smaller sentence is
 DAribun eamran
@@ -507,7 +507,7 @@ and its ;mafulb; 3amr,
 (and also its implied ;faa3il; "he").
 (Remember from section\ (ref) that an ;ism_fail; may have a ;faa3il; and a ;mafulb;.)
 But DAribun is a stateful element that itself needs a governor.
-It is put in the ;ustate; because it is the ;xabar; of the ;pregov; inna.
+It is put in the ;ucase; because it is the ;xabar; of the ;pregov; inna.
 -->
 
 <!--
@@ -522,8 +522,8 @@ For now, we will give a brief overview specific to this example.
 
 In the above example,
 the ;pregov; of the outer sentence is the verb kaana.
-It governs its ;faa3il; zaydun in the ;ustate;.
-And it governs its ;xabar; muntaliqan in the ;astate;.
+It governs its ;faa3il; zaydun in the ;ucase;.
+And it governs its ;xabar; muntaliqan in the ;acase;.
 However,
 muntaliqan and its ;faa3il; abUhu
 also constitute a sentence by themselves.
@@ -547,10 +547,10 @@ For example:
     [Zayd was not standing.]{.trans}
 
 In the example above,
-the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the ;0state;.
+the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the ;0case;.
 The verb [يَكُنْ]{.ar}, being a ;naqis; verb, is not an ;3umdah; element.
-But [يَكُنْ]{.ar} governs the ;muxbar3; [زَيْدٌ]{.ar} in the ;ustate;
-and the ;muxbar; [قَائِمًا]{.ar} in the ;astate;.
+But [يَكُنْ]{.ar} governs the ;muxbar3; [زَيْدٌ]{.ar} in the ;ucase;
+and the ;muxbar; [قَائِمًا]{.ar} in the ;acase;.
 Therefore [يَكُنْ]{.ar} is part of the ;pregov;.
 -->
 
@@ -575,10 +575,10 @@ Here is an (incomplete) list of some common ;fadlah; elements:
 <!--
 We will discuss some of ;fadlah; elements below:
 
-#### The ;astate; governees of a verb {.unnumbered}
+#### The ;acase; governees of a verb {.unnumbered}
 
 The most prominent ;fadlah; elements are 
-all ;astate; elements that a verb governs.
+all ;acase; elements that a verb governs.
 These include:
 -->
 
@@ -743,10 +743,10 @@ Similarly consider the sentence:
     [Zayd was not standing.]{.trans}
 
 In the example above,
-the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the ;0state;.
+the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the ;0case;.
 The verb [يَكُنْ]{.ar}, being a ;naqis; verb, is not an ;3umdah; element.
-But [يَكُنْ]{.ar} governs the ;muxbar3; [زَيْدٌ]{.ar} in the ;ustate;
-and the ;muxbar; [قَائِمًا]{.ar} in the ;astate;.
+But [يَكُنْ]{.ar} governs the ;muxbar3; [زَيْدٌ]{.ar} in the ;ucase;
+and the ;muxbar; [قَائِمًا]{.ar} in the ;acase;.
 Therefore both [لَمْ]{.ar} and [يَكُنْ]{.ar} form the ;pregov;.
 
 [كَانَ]{.ar} and its sisters are discussed in more detail in chapters\ (ref).
@@ -810,8 +810,8 @@ For example:
     [then sufficient for you is Allāh]{.trans}
 
 In example (@3amal_fainna_hasbaka_allahu) above,
-[حَسْب]{.ar} is in the ;astate; as the ;ism_of; and 
-the word [ٱللَّهُ]{.ar} is in the ;ustate; as the ;xabar;.
+[حَسْب]{.ar} is in the ;acase; as the ;ism_of; and 
+the word [ٱللَّهُ]{.ar} is in the ;ucase; as the ;xabar;.
 This tells us that
 [حَسْب]{.ar} is the ;muxbar3; and the word
 [ٱللَّهُ]{.ar} is the ;muxbar;.
@@ -1050,14 +1050,14 @@ is a complete sentence that is the ;xabar; of the outer sentence.
 This inner sentence has its own internal government,
 starting with its ;pregov; [لَمْ]{.ar}.
 The ;pregov; [لَمْ]{.ar}
-governs the verb [يَضْرِبْ]{.ar} in the ;0state;.
+governs the verb [يَضْرِبْ]{.ar} in the ;0case;.
 And the verb [يَضْرِبْ]{.ar}
-governs an implicated ;mustatir; ;faa3il; pronoun ([هُوَ]{.ar}) in the ;ustate;,
-and the ;mafulb; [عَمْرًا]{.ar} in the ;astate;.
+governs an implicated ;mustatir; ;faa3il; pronoun ([هُوَ]{.ar}) in the ;ucase;,
+and the ;mafulb; [عَمْرًا]{.ar} in the ;acase;.
 
 We will say that the inner sentence 
 [لَمْ يَضْرِبْ عَمْرًا]{.ar}
-is a ;mahall; ;ustate; noun as the ;xabar; of the outer sentence.
+is a ;mahall; ;ucase; noun as the ;xabar; of the outer sentence.
 
 The government of this compound sentence is illustrated in the diagram below:
 
@@ -1190,7 +1190,7 @@ For example:
 
 In the example above, the sentence 
 [إِنِّی عَبۡدُ ٱللَّهِ]{.ar}
-is in place of the ;astate; ;mafulb; of [قَالَ]{.ar}.
+is in place of the ;acase; ;mafulb; of [قَالَ]{.ar}.
 
 A complete sentence can also occur as a ;mafulb; with ;af3aal_quloob;.
 Examples:
@@ -1202,7 +1202,7 @@ Examples:
 In the example above,
 the ;j_f3l;
 [يَقْرَأُ]{.ar}
-is in place of the ;astate; ;mafulb; of [ظَنَنْتُ]{.ar}.
+is in place of the ;acase; ;mafulb; of [ظَنَنْتُ]{.ar}.
 We will learn more about this category in chapter\ (ref), ;ia;.
 
 ### The ;na3t; as a complete sentence
@@ -1227,14 +1227,14 @@ with the sentence
 
 Note that the ;mudarie; verb
 [يَقُومُ]{.ar}
-is in the ;ustate;.
+is in the ;ucase;.
 This is because
 [يَقُومُ]{.ar}
 is a complete sentence (with an implied ;faa3il; pronoun).
 So it has its own internal government that is not affected by any element in the outer sentence.
 Thus, the state of the ;manut;
 [رَجُلٍ]{.ar} has no effect on any state within the sentence-;na3t;.
-However, the entire sentence ;na3t; is _in place_ of a ;istate; noun as the ;na3t; of 
+However, the entire sentence ;na3t; is _in place_ of a ;icase; noun as the ;na3t; of 
 [رَجُلٍ]{.ar}.
 
 Substituing a single-noun ;na3t; with its corresponding ;mudarie; verb is the most basic form of the sentence-;na3t;.
@@ -1319,7 +1319,7 @@ In example (@3amal_yawmu_yanfa3) above the entire sentence
 is the ;mudafil; to the ;mudaf; [يَوْمُ]{.ar}.
 As with sentence-;xabar;s and sentence-;na3t;s,
 the sentence-;mudafil; has its own internal government.
-And the sentence-;mudafil; is _in place_ of an ;istate; noun.
+And the sentence-;mudafil; is _in place_ of an ;icase; noun.
 
 Here is another example:
 

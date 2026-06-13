@@ -96,15 +96,16 @@ map_table["_yaqtulu"] = "يَقْتُلُ"
 map_table["_yaqtula"] = "يَقْتُلَ"
 
 # 3aaqil
-map_table["3aaqil"]   = "intelligent being"   # raised-state"
-map_table["g_3aaqil"] = "non-intelligent being"  # propped-state
+map_table["3aaqil"]   = "intelligent being"
+map_table["g_3aaqil"] = "non-intelligent being"
 
 # states
-map_table["ustate"] = "u-state"   # raised-state"
-map_table["astate"] = "a-state"  # propped-state
-map_table["istate"] = "i-state"  # lowered-state
-map_table["0"] = "ø"  # clipped-state
-map_table["0state"] = map_table["0"] + "-state"  # clipped-state
+map_table["case"] = "case"   # raised-case"
+map_table["ucase"] = "u-case"   # raised-case"
+map_table["acase"] = "a-case"  # propped-case
+map_table["icase"] = "i-case"  # lowered-case
+map_table["0"] = "ø"  # clipped-case
+map_table["0case"] = map_table["0"] + "-case"  # clipped-case
 
 # diacritics
 map_table["amark"] = "[fatHah]{.trn2}"
@@ -251,7 +252,7 @@ map_table["na3t"] = "attribute"
 map_table["nidaa"] = "vocative"
 map_table["naqis"] = "deficient"
 map_table["nasix"] = "canceling"
-map_table["nasibah"] = map_table["astate"] + "-izing"
+map_table["nasibah"] = map_table["acase"] + "-izing"
 map_table["noon_wiq"] = "guarding-[ن]{.ar}"
 
 map_table["participle"] = "participle"

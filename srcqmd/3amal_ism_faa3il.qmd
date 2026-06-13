@@ -76,7 +76,7 @@ the ;mudarie; verb
 [يَقُومُ]{.ar}
 and its ;mustatir; ;faa3il; pronoun 
 [[هُوَ]{.ar}]
-is in place of a ;ustate; noun as the ;xabar; of the ;mubtada;
+is in place of a ;ucase; noun as the ;xabar; of the ;mubtada;
 ([زَيْدٌ]{.ar})
 of the outer sentence.
 
@@ -214,7 +214,7 @@ when acting with verbal force, governs a ;faa3il;.
 In a similar manner,
 the ;ism_fail; for transitive verbs can, optionally, govern a ;mafulb;.
 In order to introduce this behavior,
-we use again, as our starting point, the ;ustate; ;mudarie; verb.
+we use again, as our starting point, the ;ucase; ;mudarie; verb.
 Consider the following example:
 
 (@3amal_mush_zaydun_yadribu_3amran) [زَيْدٌ يَضْرِبُ عَمْرًا]{.ar}  
@@ -223,11 +223,11 @@ Consider the following example:
 Example (@3amal_mush_zaydun_yadribu_3amran) above is parsed as follows:
 
 * [زَيْدٌ]{.ar} is a ;mubtada;.
-* [يَضْرِبُ]{.ar} is a ;mudarie; verb in the ;ustate;.
-  It governs a ;mustatir; pronoun (implicated as [هُوَ]{.ar}) in the ;ustate; as its ;faa3il;. 
+* [يَضْرِبُ]{.ar} is a ;mudarie; verb in the ;ucase;.
+  It governs a ;mustatir; pronoun (implicated as [هُوَ]{.ar}) in the ;ucase; as its ;faa3il;. 
   The ;mustatir; ;faa3il; pronoun [هُوَ]{.ar} refers back to its referent: the ;mubtada; [زَيْدٌ]{.ar}.
-* [عَمْرًا]{.ar} is a ;mafulb;, governed in the ;astate; by  the verb [يَضْرِبُ]{.ar}.
-* [يَضْرِبُ عَمْرًا]{.ar} is an inner sentence which is in place of a ;ustate; noun as the ;xabar; of the ;mubtada; [زَيْدٌ]{.ar}.
+* [عَمْرًا]{.ar} is a ;mafulb;, governed in the ;acase; by  the verb [يَضْرِبُ]{.ar}.
+* [يَضْرِبُ عَمْرًا]{.ar} is an inner sentence which is in place of a ;ucase; noun as the ;xabar; of the ;mubtada; [زَيْدٌ]{.ar}.
 
 Instead of using the verb [يَضْرِبُ]{.ar} in example (@3amal_mush_zaydun_yadribu_3amran) above
 we may instead use its ;ism_fail;
@@ -240,9 +240,9 @@ Example (@3amal_mush_zaydun_daaribun_3amran) is parsed as follows:
 
 * [زَيْدٌ]{.ar} is a ;mubtada;.
 * [ضَارِبٌ]{.ar} is the ;xabar; of the ;mubtada; [زَيْدٌ]{.ar}.
-  It governs a ;mustatir; pronoun (implicated as [هُوَ]{.ar}) in the ;ustate; as its ;faa3il;. 
+  It governs a ;mustatir; pronoun (implicated as [هُوَ]{.ar}) in the ;ucase; as its ;faa3il;. 
   The ;mustatir; ;faa3il; pronoun [هُوَ]{.ar} refers back to the ;mubtada; [زَيْدٌ]{.ar}.
-* [عَمْرًا]{.ar} is a ;mafulb;, governed in the ;astate; by the ;ism_fail; [ضَارِبٌ]{.ar}.
+* [عَمْرًا]{.ar} is a ;mafulb;, governed in the ;acase; by the ;ism_fail; [ضَارِبٌ]{.ar}.
 
 As you can see,
 the ;ism_fail;
@@ -450,7 +450,7 @@ then two conditions must be satisfied:
    for transitive verbs that take more than one ;mafulb;,
    like [جعل]{.ar}, [أَعطى]{.ar}, etc.
    When the ;ism_fail; of such a verb is annexed to what would have been the first ;mafulb;,
-   then second ;mafulb; is permitted to be in the ;astate;, 
+   then second ;mafulb; is permitted to be in the ;acase;, 
    even if the aspect is perfect.^[See also @https://tafsir.app/albahr-almuheet/35/1@ and @https://tafsir.app/aldur-almasoon/35/1@]
    For example:
    
@@ -459,7 +459,7 @@ then two conditions must be satisfied:
        [This [person] was the giver of Zayd, yesterday, a dirham.]{.trans}  
 
    
-   Even the first ;mafulb; may remain in the ;astate;, if separated from the ;ism_fail;.
+   Even the first ;mafulb; may remain in the ;acase;, if separated from the ;ism_fail;.
    For example:
    
    (@) [هذا ظان أمس زيدا فاضلا]{.ar}
@@ -904,7 +904,7 @@ in state and definiteness.
 [مُنْطَلِقٍ]{.ar}
 matches its ;manut;
 [رَجُلٍ]{.ar}
-in the ;istate; and in being indefinite.)
+in the ;icase; and in being indefinite.)
 But in matching gender and number the ;sababi; ;na3t; has different rules.
 Consistent with we learned for the ;sababi; ;xabar; above,
 the ;sababi; ;na3t; will, in general, always be singular,
@@ -1134,7 +1134,7 @@ The ;ism_fail;
 has a ;tanwin; which is pronounced before pronouncing the ;mafulb;
 [عَمْرًا]{.ar}.
 In an effort to make the pronunciation easier, this ;tanwin; is often eliminated and replaced with an ;idaafah;.
-The ;mafulb; is then made into a ;mudafil; in the ;istate;.
+The ;mafulb; is then made into a ;mudafil; in the ;icase;.
 The meaning remains the same.
 So the above sentence then becomes:
 
@@ -1305,14 +1305,14 @@ For example:
 #### Two or more ;mafulb;s connected by [وَ]{.ar} or [أَوْ]{.ar} {.unnumbered}
 
 When a ;ism_fail; governs two or more ;mafulb;s connected by [وَ]{.ar} or [أَوْ]{.ar}
-then, if the first is in a ;lafzi; ;idaafah; then the second may either be in the ;istate; or the ;astate;.
+then, if the first is in a ;lafzi; ;idaafah; then the second may either be in the ;icase; or the ;acase;.
 For example
 
 (@ex000255) [هذا ضاربُ زيدٍ وعمرٍو/وعمرًا]{.ar}
     [[@ibn_ya3ish_mufassal@ 4/81](https://shamela.ws/book/13301/1445)]{.citex}  
     [This [person] is beating Zayd and [#eamr]{.trn2}]{.trans}  
 
-By the way, if the first ;mafulb; is in the ;astate;, then it is not an ;idaafah; and the second ;mafulb; would follow in the ;astate;.
+By the way, if the first ;mafulb; is in the ;acase;, then it is not an ;idaafah; and the second ;mafulb; would follow in the ;acase;.
 
 (@ex000256) [هذا ضاربٌ زيدًا وعمرًا]{.ar}  
     [This [person] is beating Zayd and [#eamr]{.trn2}]{.trans}  

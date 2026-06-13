@@ -5,7 +5,7 @@
 
 ## Introduction
 
-We have learned that a verb must have a ;faa3il; in the ;ustate; and can have a ;mafulb; in the ;astate;.
+We have learned that a verb must have a ;faa3il; in the ;ucase; and can have a ;mafulb; in the ;acase;.
 In this chapter, we will learn about a new type of verb, whose ;faa3il; is called its ;ism_of;, and whose ;mafulb; is called its ;xabar;.
 
 The principal verb of this type is [كَانَ]{.ar} which is used to mean "was". There are other verbs which behave in a similar manner and they are called the _sisters_ of [كَانَ]{.ar}.
@@ -101,7 +101,7 @@ Therefore the sentence is reclassified as a ;j_ism;, not a ;j_f3l;
 is considered the ;ism_of;,
 and 
 [قَائِمًا]{.ar}
-is considered the ;xabar;.^[This is according to the classification of the [#baSr]{.trn2}ans. The [#kUf]{.trn2}ans considered the ;astate; governee of [كَانَ]{.ar} its ;hal;. See [@shatibi_sharf_alfiyyah@\ 2/137](https://shamela.ws/book/20562/798#p1)]
+is considered the ;xabar;.^[This is according to the classification of the [#baSr]{.trn2}ans. The [#kUf]{.trn2}ans considered the ;acase; governee of [كَانَ]{.ar} its ;hal;. See [@shatibi_sharf_alfiyyah@\ 2/137](https://shamela.ws/book/20562/798#p1)]
 
 Although
 [كَانَ]{.ar}
@@ -129,7 +129,7 @@ DIAGRAM
 [كَانَ]{.ar} is a hollow verb.
 Here is its conjugation table for easy reference:
 
-|#;faa3il; pronoun|;madi; verb|;ustate; ;mudarie; verb|;astate; ;mudarie; verb|;0state; ;mudarie; verb|
+|#;faa3il; pronoun|;madi; verb|;ucase; ;mudarie; verb|;acase; ;mudarie; verb|;0case; ;mudarie; verb|
 |:--|:----|:----|:----|:----|
 | he        | [كَانَ]{.ar}   | [يَكُونُ]{.ar}   | [يَكُونَ]{.ar}   | [يَكُنْ]{.ar}   |
 | she       | [كَانَتْ]{.ar}  | [تَكُونُ]{.ar}   | [تَكُونَ]{.ar}   | [تَكُنْ]{.ar}   |
@@ -234,7 +234,7 @@ And the ;xabar; of the outer sentence is the inner sentence
 [كَانَ قَائِمًا]{.ar}.
 The ;ism_of; of [كَانَ]{.ar} is a ;mustatir; pronoun, implicated a [[هُوَ]]{.ar}.
 
-#### Word order when [كَانَ]{.ar}'s ;xabar; has a ;astate; governee {.unnumbered}
+#### Word order when [كَانَ]{.ar}'s ;xabar; has a ;acase; governee {.unnumbered}
 
 We know from chapter\ (ref) that a ;mushtaqq; noun can have a ;maful;.
 The natural word order is for this ;maful; to occur after its governor, thus:
@@ -309,7 +309,7 @@ For example:
     [@suyooti_hama3@ 1/432]{.citex}  
     [Desirous Zayd was, of [your favour]]{.trans}  
 
-#### Word order of a compound sentence when [كَانَ]{.ar}'s ;xabar; has a ;astate; governee {.unnumbered}
+#### Word order of a compound sentence when [كَانَ]{.ar}'s ;xabar; has a ;acase; governee {.unnumbered}
 
 The ;ism_of; can made to precede [كَانَ]{.ar}, such that it becomes a compound sentence:
 
@@ -391,20 +391,20 @@ Due to this equivalence to a noun,
 a ;masdari_an; can be the ;ism_of; or the ;xabar; of [كَانَ]{.ar}.
 For the ;ayah; in example (@kaana_quran_6_23),
 [فِتْنَة]{.ar} is read in both 
-the ;ustate; 
+the ;ucase; 
 ([فِتْنَتُهُمْ]{.ar})
-and the ;astate;
+and the ;acase;
 ([فِتْنَتَهُمْ]{.ar})
 in different recitations.^[@https://tafsir.app/m-sahabah/6/23@]
 So the 
 [أَنْ قَالُوا]{.ar} clause 
 is analyzed as the ;ism_of; of [كَانَ]{.ar}
 when
-[فِتْنَة]{.ar} is read in the ;astate; as the ;xabar;.
+[فِتْنَة]{.ar} is read in the ;acase; as the ;xabar;.
 and it
 is analyzed as the ;xabar; of [كَانَ]{.ar}
 when
-[فِتْنَة]{.ar} is read in the ;ustate; as the ;ism_of;.
+[فِتْنَة]{.ar} is read in the ;ucase; as the ;ism_of;.
 
 In general,
 a ;masdari_an; 
@@ -415,7 +415,7 @@ the ;ism_of; because is is considered more definite.^[@baseet_ibn_abi_rabee3@ 71
 
 So far we have seen examples where the ;xabar; of 
 [كَانَ]{.ar}
-is a single noun in the ;astate;.
+is a single noun in the ;acase;.
 In example (@kaana_kaana_zaydun_aakilan_ta3aamaka) [كَانَ زَيْدٌ آكِلًا طَعَامَكَ]{.ar}
 the ;xabar; of the
 [كَانَ]{.ar}
@@ -468,11 +468,11 @@ and
 as the ;xabar;.
 That is why
 [مُنْطَلِقٌ]{.ar}
-is in the ;ustate; and not in the ;astate;.
+is in the ;ucase; and not in the ;acase;.
 
 The entire ;xabar; sentence
 [أَبُوهُ مُنْطَلِقٌ]{.ar}
-in in place of a ;astate; noun as the ;xabar; of 
+in in place of a ;acase; noun as the ;xabar; of 
 [كَانَ]{.ar}.
 
 Here are some more examples of 
@@ -678,8 +678,8 @@ In English, we usually express this meaning using [there was]{.trans}. For examp
     [[There] was a king.]{.trans}  
     (literally: [A king was.]{.trans})
 
-Note that [مَلِك]{.ar} [king]{.trans} is in the ;ustate; as the ;ism_of;.
-If it were in the ;astate;, then it would change the meaning:
+Note that [مَلِك]{.ar} [king]{.trans} is in the ;ucase; as the ;ism_of;.
+If it were in the ;acase;, then it would change the meaning:
 
 (@ex000322) [كَانَ مَلِكًا]{.ar}  
     [He was a king.]{.trans}
@@ -754,7 +754,7 @@ For example:
     [@https://quran.com/17/32@]{.citex}  
     [And do not approach unlawful sexual intercourse.1 Indeed, it is ever an immorality and is evil as a way.]{.trans}  
 
-## Significations of the ;ustate; ;mudarie; verb [يَكُونُ]{.ar}
+## Significations of the ;ucase; ;mudarie; verb [يَكُونُ]{.ar}
 
 ### [يَكُونُ]{.ar} used for habitual [is]{.trans}
 
@@ -787,7 +787,7 @@ While we call this the
 habitual [يَكُونُ]{.ar},
 it can include a range of meanings, including
 continually, recurringly, regularly, typically, generally, often, sometimes, can, may, etc.
-Habitual [يَكُونُ]{.ar} is negated using [مَا]{.ar} or [لَا]{.ar}, just like other ;ustate; ;mudarie; verbs.
+Habitual [يَكُونُ]{.ar} is negated using [مَا]{.ar} or [لَا]{.ar}, just like other ;ucase; ;mudarie; verbs.
 
 Here are some examples:
 
@@ -843,7 +843,7 @@ Here are some examples:
 (@ex000334) [لا يَكونُ اللَّعَّانُونَ شُفَعَاءَ وَلَا شُهَدَاءَ يَومَ القِيَامَةِ]{.ar}
     [@https://sunnah.com/riyadussalihin:1553@]{.citex}  
     [The frequent cursers will be neither intercessors nor witnesses [on] the day of resurrection.]{.trans}  
-    ([يَوْمَ]{.ar} is in the ;astate; because it is an adverb of time, see chapter\ \@ref(adverb-of-time).)
+    ([يَوْمَ]{.ar} is in the ;acase; because it is an adverb of time, see chapter\ \@ref(adverb-of-time).)
 
 (@ex000335) [يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ]{.quran}
     [@https://quran.com/101:4@]{.citex}  
@@ -853,16 +853,16 @@ Here are some examples:
     [@https://sunnah.com/muslim:7@]{.citex}  
     [There will be in the end of time charlatan liars]{.trans}  
 
-## Significance of the ;astate; ;mudarie; verb [يَكُونَ]{.ar}
+## Significance of the ;acase; ;mudarie; verb [يَكُونَ]{.ar}
 
-Like ;astate; ;mudarie; verbs in general, [يَكُونَ]{.ar} [be]{.trans} expresses the meaning of purpose, wish, or expectation. It occurs after the particles
+Like ;acase; ;mudarie; verbs in general, [يَكُونَ]{.ar} [be]{.trans} expresses the meaning of purpose, wish, or expectation. It occurs after the particles
 [أَنْ]{.ar},
 [لَنْ]{.ar},
 [لِ]{.ar},
 [كَيْ]{.ar},
 [حَتَّىٰ]{.ar}, and
 [إِذَنْ]{.ar}.
-All this is consistent with what we have learned about ;astate; ;mudarie; verbs in chapter\ \@ref(;astate;-;mudarie;-verbs).
+All this is consistent with what we have learned about ;acase; ;mudarie; verbs in chapter\ \@ref(;acase;-;mudarie;-verbs).
 Here are some examples:
 
 (@ex000337) [نَزَلَ بِهِ ٱلرُّوحُ ٱلْأَمِينُ. عَلَىٰ قَلْبِكَ لِتَكُونَ مِنَ ٱلْمُنذِرِينَ]{.quran}
@@ -877,10 +877,10 @@ Here are some examples:
     [@https://quran.com/10/99@]{.citex}  
     [Then, [O Muḥammad], would you compel the people in order that they become believers?]{.trans}
 
-## The ;0state; ;mudarie; verb [يَكُنْ]{.ar} {#lam-yakun}
+## The ;0case; ;mudarie; verb [يَكُنْ]{.ar} {#lam-yakun}
 
 As with other verbs,
-the ;0state; ;mudarie; verb [يَكُنْ]{.ar} 
+the ;0case; ;mudarie; verb [يَكُنْ]{.ar} 
 is used for negative commands, indirect commands, and with [لَمْ]{.ar} for negation, etc.
 Examples:
 
@@ -898,7 +898,7 @@ Examples:
 
 ### Deletion of [ن]{.ar}
 
-For the ;0state; ;mudarie; conjugations of [كَانَ]{.ar} that don't have a [و]{.ar} between [ك]{.ar} and [ن]{.ar},
+For the ;0case; ;mudarie; conjugations of [كَانَ]{.ar} that don't have a [و]{.ar} between [ك]{.ar} and [ن]{.ar},
 the [ن]{.ar} may optionally be deleted if certain conditions are satisfied.
 These conjugations are:
 
@@ -976,7 +976,7 @@ The verb of command [كُنْ]{.ar} is used to mean [Be!]{.trans}. Examples:
     [@https://quran.com/2:65@]{.citex}  
     "and We said to them, 'Be apes, despised.'  
 
-The verb of command [كُنْ]{.ar} followed by the name of a person in the ;astate; is used to express one's guessing that the person whom one sees is the individual named. For example:
+The verb of command [كُنْ]{.ar} followed by the name of a person in the ;acase; is used to express one's guessing that the person whom one sees is the individual named. For example:
 
 (@ex000351) [كُنْ أَبَا ذَرٍّ]{.ar}
     [@wright@ 2/44C]{.citex}  
@@ -1465,9 +1465,9 @@ Examples:
 [@fischer@ 108]{.citex}  
 [Let us take him for (then) we will have taken a substitute]{.trans}
 
-#### The ;astate; verb [يَكُونَ]{.ar} combined with a ;madi; verb
+#### The ;acase; verb [يَكُونَ]{.ar} combined with a ;madi; verb
 
-An ;astate; [يَكُونَ]{.ar} is combined with a ;madi; verb
+An ;acase; [يَكُونَ]{.ar} is combined with a ;madi; verb
 to express being in a state of an action having occurred
 or that might have occurred. For example:
 
@@ -1505,7 +1505,7 @@ This is a negative
 or
 [لَمْ يَكُنْ]{.ar} with the appropriate suffixes or prefixes for the ;ism_of;)
 followed by [لِ]{.ar}
-and then an ;astate; ;mudarie; verb.
+and then an ;acase; ;mudarie; verb.
 This expresses the meaning of:
 
  i. to deny being the one to do something, or 
@@ -1545,8 +1545,8 @@ the use of
 This is, again, a negative 
 [كَانَ]{.ar} 
 followed by the preposition [لِ]{.ar}
-and a following ;istate; noun,
-and then [أَنْ]{.ar} followed by an ;astate; ;mudarie; verb.
+and a following ;icase; noun,
+and then [أَنْ]{.ar} followed by an ;acase; ;mudarie; verb.
 This signifies that the action of the verb does not behoove, or is not appropriate or desrving or possibly for the person denoted by the noun after [لِ]{.ar}.^[@https://tafsir.app/albahr-almuheet/3/79/@ and @https://tafsir.app/ibn-aashoor/3/79@]
 For example:
 

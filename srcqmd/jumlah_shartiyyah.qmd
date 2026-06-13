@@ -139,17 +139,17 @@ model of
 
 The ;arch; or most basic ;in; ;j_sh;
 uses
-;0state; ;mudarie; verbs in both the ;shart; and the ;jawab_shart;.
+;0case; ;mudarie; verbs in both the ;shart; and the ;jawab_shart;.
 This ;j_sh; consists of two parts:
 
 1. a ;shart;, consisting of:
    a. the ;adat_shart; ;in;, and 
    b. the ;shart_int; which is a ;j_f3l; consisting of (at least):
-      * a ;0state; ;mudarie; verb (the *;fi3l_shart;*) and
+      * a ;0case; ;mudarie; verb (the *;fi3l_shart;*) and
       * its ;faa3il;
 2. a ;jawab_shart;, consisting of:
    a. the ;jawab_shart_int; which is a ;j_f3l; consisting of (at least):
-      * a ;0state; ;mudarie; verb (the *;fi3l_jawab_shart;*) and
+      * a ;0case; ;mudarie; verb (the *;fi3l_jawab_shart;*) and
       * its ;faa3il;
 
    There is no ;jawab_shart_intro;.
@@ -158,7 +158,7 @@ This ;j_sh; consists of two parts:
 In this ;arch; form of the ;j_sh;,
 -->
 The conditional particle ;in; directly
-governs the ;fi3l_shart; and the ;fi3l_jawab_shart; in the ;0state;.^[@peled_cst@ 3-4 citing @sibawayhi@]
+governs the ;fi3l_shart; and the ;fi3l_jawab_shart; in the ;0case;.^[@peled_cst@ 3-4 citing @sibawayhi@]
 Here is an example of an ;arch; ;j_sh;
 
 (@) [إِنْ يَأْتِ زَيْدٌ يُكْرِمْهُ عَمْرٌو]{.ar}  
@@ -178,7 +178,7 @@ the ;fi3l_shart;
 and the ;fi3l_jawab_shart;
 [يُكْرِمْ]{.ar}
 (directly)
-in the ;0state;.
+in the ;0case;.
 @fig-shartintatiniaatika depicts this government for example () above.
 
 ::: {#fig-shartintatiniaatika .test-class}
@@ -247,7 +247,7 @@ Here are some more examples of the archetypal conditional sentence:
 
 ### The ;madi; verb with ;in;
 
-A ;madi; verb can be used instead of one or both of the ;0state; verbs in a ;j_sh;.
+A ;madi; verb can be used instead of one or both of the ;0case; verbs in a ;j_sh;.
 So, for example, instead of saying:
 
 (@) [إِنْ تَأْتِنِي أُكْرِمْكَ]{.ar}
@@ -281,7 +281,7 @@ or the
 ;fi3l_jawab_shart;.
 Similarly,
 we will use ;yaqtulu;, ;yaqtula; and ;yaqtul; to refer to
-;ustate;, ;astate;, and ;0state; ;mudarie; verbs respectively.
+;ucase;, ;acase;, and ;0case; ;mudarie; verbs respectively.
 
 Of the four options in examples () through (),
 the combinations
@@ -308,7 +308,7 @@ example ()
 where the
 ;fi3l_shart;
 is a
-;0state; ;mudarie; verb,
+;0case; ;mudarie; verb,
 and the
 ;fi3l_jawab_shart;
 is a
@@ -326,13 +326,13 @@ This is because when the
 is
 ;yaqtul;
 <!--
-;0state; ;mudarie; verb,
+;0case; ;mudarie; verb,
 -->
 it prefers the presence of
 another
 ;yaqtul;
 <!--
-;0state; ;mudarie; verb
+;0case; ;mudarie; verb
 -->
 after it as the ;fi3l_jawab_shart;.^[sibawayhi around 3/66]
 Nevertheless,
@@ -343,22 +343,22 @@ as we show in example () below.
 
 With regards to the government of the ;j_sh;s in examples () through (),
 The ;adat_shart; ;in; will continue to govern
-the ;fi3l_shart; and the ;fi3l_jawab_shart; in the ;0state; directly,
+the ;fi3l_shart; and the ;fi3l_jawab_shart; in the ;0case; directly,
 regardless of whether the verbs are ;yaqtul; or ;qatala;.
-For a ;qatala; verb, ;in; will govern it in the ;mahall; ;0state;.^[wafi]
+For a ;qatala; verb, ;in; will govern it in the ;mahall; ;0case;.^[wafi]
 
 In other words,
 for example () above,
 ;in; does not govern the ;j_f3l;s
 [أَتَيْتَنِي]{.ar}
 and
-[أَكْرَمْتُكَ]{.ar} in the ;mahall; ;0state;.
+[أَكْرَمْتُكَ]{.ar} in the ;mahall; ;0case;.
 Rather,
 the ;madi; verbs
 [أَتَى]{.ar} and [أَكْرَمَ]{.ar}
 are,
 both times,
-directly governed in the ;mahall; ;0state;.^[haazimi]
+directly governed in the ;mahall; ;0case;.^[haazimi]
 
 @fig-in_ataytani_ataytuka depicts the government of example ().
 
@@ -459,7 +459,7 @@ ii. [;_lam; ;_yaqtul;]{.ar}
 <!--
 The ;madi; verb
 (with the negater [مَا]{.ar})
-and the ;astate; ;mudarie; verb (with [لَنْ]{.ar})
+and the ;acase; ;mudarie; verb (with [لَنْ]{.ar})
 -->
 Negations
 [;_maa; ;_qatala;]{.ar}
@@ -556,7 +556,7 @@ Here are some examples:
 The particle [لَا]{.ar}
 will not affect the government of
 the ;fi3l_shart; or the ;fi3l_jawab_shart;.
-The conditional particle ;in; will continue to govern these verbs directly in the ;0state;.
+The conditional particle ;in; will continue to govern these verbs directly in the ;0case;.
 @fig-in_laa depicts the government of the negated ;fi3l_jawab_shart; in example () above.
 
 ::: {#fig-in_laa .test-class}
@@ -626,7 +626,7 @@ the government of the
 the ;fi3l_shart; and the ;fi3l_jawab_shart;,
 when negated with ;lam;.^[@nahw_wafi@]
 Some grammarians are of the opinion that
-;lam; directly governs the ;0state; mudarie verb
+;lam; directly governs the ;0case; mudarie verb
 while ;in; governs the ;j_f3l;s which contain the ;mudarie; verb.
 This government is depicted in
 @fig-gov_in_lam_a for example ().
@@ -747,11 +747,11 @@ cannot be a ;jawab_shart; because the
 This view is supported by the fact that the
 verb in
 [آتِيكَ]{.ar}
-is in the ;ustate;.
-If it were a ;fi3l_jawab_shart; then it would be in the ;0state;, thus:
+is in the ;ucase;.
+If it were a ;fi3l_jawab_shart; then it would be in the ;0case;, thus:
 [آتِكَ]{.ar}.
 But
-a ;0state; ;mudarie; verb in the beginning of sentence,
+a ;0case; ;mudarie; verb in the beginning of sentence,
 followed by a ;shart; is not a correctly formed sentence.
 So we cannot say, for example:
 
@@ -951,7 +951,7 @@ TODO: get more examples from [@peled_cst@ 141ff]
 
 ---
 
-TODO: ;fi3l_shart; is preferred to be ;madi; or with ;lam;, not positive ;0state; ;mudarie;
+TODO: ;fi3l_shart; is preferred to be ;madi; or with ;lam;, not positive ;0case; ;mudarie;
 
 ::: {.ar}
 واعلم أنّه لا يحسن أن تقول: "آتيك إن تأتني" ؛ لأنك جزمت بـ "إن" . وإذا أعملتها، لم يكن بدٌّ من الجواب، ولم تأتِ بجواب، ولو قلت. "أتيتك إن أتيتني" ، جاز؛ لأن حرف الشرط لم يجزم فساغ أن لا تأتي بجواب
@@ -967,14 +967,14 @@ next couple of pages also good
 
 
 
-### A ;ustate; ;mudarie; ;fi3l_jawab_shart;
+### A ;ucase; ;mudarie; ;fi3l_jawab_shart;
 
 
 Occassionally we see a ;j_sh;
 of the form
 [;_in; ;_qatala; ;_yaqtulu;]{.ar}.
-That is, a ;mudarie; ;fi3l_jawab_shart; is in the ;ustate;,
-not the ;0state;.
+That is, a ;mudarie; ;fi3l_jawab_shart; is in the ;ucase;,
+not the ;0case;.
 For example:
 
 (@) [إن أتيتني آتيك]{.ar}
@@ -990,7 +990,7 @@ the ;adat_shart; ;in;
 governs
 both the ;fi3l_shart;
 and the ;fi3l_jawab_shart;
-in the ;0state;.
+in the ;0case;.
 
 One way the grammarians work around this problem is by modeling example ()
 to originally be an inverted ;j_sh;, thus:
@@ -1068,7 +1068,7 @@ For example,
 
 In example () above,
 the
-;ustate; ;mudarie; verb
+;ucase; ;mudarie; verb
 [آتِي]{.ar}
 signifies its usual imperfect aspect
 [I come/will come]{.trans}.
@@ -1078,7 +1078,7 @@ This is because example () is technically not a ;j_sh;.
 but as an event which is expected to occur.
 
 
-;idha; is in the ;astate; as a ;dharf_makan;.
+;idha; is in the ;acase; as a ;dharf_makan;.
 It is governed by the verb [آتِي]{.ar}.
 ;idha; is also a ;mudaf;.
 Its (;mahall;) ;mudafil; is
@@ -1182,7 +1182,7 @@ the ;shart;),
 This is because when ;idha; is a ;adat_shart; in a ;j_sh;,
 then, like ;in;,
 it requires ;j_f3l;s in both the ;shart; and the ;jawab_shart;.
-But whereas ;in; allows both (;0state;) ;mudarie; verbs and ;madi; verbs,
+But whereas ;in; allows both (;0case;) ;mudarie; verbs and ;madi; verbs,
 ;idha; strongly prefers ;madi; verbs in both clauses.
 Because of the typical future signification of ;idha;,
 both ;madi; verbs will usually have a future meaning.
@@ -1240,7 +1240,7 @@ Here are some more examples of ;j_sh;s with ;idha;:
 We learned
 in section\ (ref) above,
 that the ;adat_shart; ;in;
-governs the ;fi3l_shart; and the ;fi3l_jawab_shart; in the ;0state;.
+governs the ;fi3l_shart; and the ;fi3l_jawab_shart; in the ;0case;.
 
 The ;adat_shart; ;idha;, however,
 does not govern either the ;fi3l_shart; or ;fi3l_jawab_shart;,
@@ -1254,7 +1254,7 @@ is
 
 Having said that,
 we do often find
-the _;ustate;_ ;mudarie; verb
+the _;ucase;_ ;mudarie; verb
 ;yaqtulu;
 as either or as both
 the ;fi3l_shart;
@@ -1349,7 +1349,7 @@ as an inverted ;j_sh;.
 if contains the _meaning_ of a ;shart;.
 For example:
 
-(@) [فَأَقْبَلَ رَجُلٌ غَائِرُ الْعَيْنَيْنِ مُشْرِفُ الْوَجْنَتَيْنِ نَاتِئُ الْجَبِينِ كَثُّ اللِّحْيَةِ مَحْلُوقٌ فَقَالَ اتَّقِ اللَّهَ يَا مُحَمَّدُ فَقَالَ  **مَنْ يُطِعِ اللَّهَ إِذَا عَصَيْتُ** أَيَأْمَنُنِي اللَّهُ عَلَى أَهْلِ الأَرْضِ فَلاَ تَأْمَنُونِي]{.ar}^[It is not clear to us why [يُطِع]{.ar} is in the ;0state; from this source. Peled's source [الجامع الصحيح]{.ar}, ed.\ L.\ Krehl, Leiden: Brill, 1864, II, 337 l:9 has [يُطِيعُ]{.ar} in the ;ustate;.]  
+(@) [فَأَقْبَلَ رَجُلٌ غَائِرُ الْعَيْنَيْنِ مُشْرِفُ الْوَجْنَتَيْنِ نَاتِئُ الْجَبِينِ كَثُّ اللِّحْيَةِ مَحْلُوقٌ فَقَالَ اتَّقِ اللَّهَ يَا مُحَمَّدُ فَقَالَ  **مَنْ يُطِعِ اللَّهَ إِذَا عَصَيْتُ** أَيَأْمَنُنِي اللَّهُ عَلَى أَهْلِ الأَرْضِ فَلاَ تَأْمَنُونِي]{.ar}^[It is not clear to us why [يُطِع]{.ar} is in the ;0case; from this source. Peled's source [الجامع الصحيح]{.ar}, ed.\ L.\ Krehl, Leiden: Brill, 1864, II, 337 l:9 has [يُطِيعُ]{.ar} in the ;ucase;.]  
     [@https://sunnah.com/bukhari:3344@ cited by @peled_cst@ 142]{.citex}  
     [Then a man with sunken eyes, prominent checks, a raised forehead, a thick beard and a shaven head, came in front [of the Prophet ;pbuh;] and said, "Be afraid of ;Allah;, O [#muHammad]{.trn2}!" The Prophet ;pbuh; said, "Who would obey Allah **if** I disobeyed [Him]? (Is it fair that) ;Allah; has trusted all the people of the earth to me while you do not trust me?"]{.trans}  
 
@@ -1502,9 +1502,9 @@ as in the example:
 [He is eating]{.trans}
 can be translated as
 [يَأْكُلُ]{.ar}
-which is a ;ustate; ;mudarie; verb.
+which is a ;ucase; ;mudarie; verb.
 We cannot use this verb directly as the ;fi3l_shart; with ;in;
-and would have to modify it to the ;0state; verb، thus:
+and would have to modify it to the ;0case; verb، thus:
 [إِنْ يَأْكُلْ]{.ar}.
 But then this would typically have the ;tense; meaning
 [if he will eat]{.trans}.
@@ -1585,7 +1585,7 @@ Here are some more examples of ;j_sh;s with ;kaana; as the ;fi3l_shart;:
     [@https://sunnah.com/muslim:2770@ cited by [@maani_nahw@ 4/65](https://shamela.ws/book/17801/1170)]{.citex}  
     [If **you are innocent**, ;Allah; will acquit you, and if **you have lapsed** into a sin then seek forgiveness from ;Allah; and turn to Him in repentance.]{.trans}
 
-The ;0state; ;mudarie; verb ;yakun; can also be used in this manner.
+The ;0case; ;mudarie; verb ;yakun; can also be used in this manner.
 Consistent with what we learned in section\ (ref) above,
 it may indicate potentiality or possibility.
 For example:
@@ -1803,7 +1803,7 @@ For example:
 ;fa; is not needed when the ;jawab_shart; is a ;yaqtul; or (non-past tense) ;qatala; ;j_f3l;
 because in those cases the link between the ;jawab_shart; and the ;shart; is readily apparent.
 In the case of a ;yaqtul; ;jawab_shart;,
-the link is indicated by the ;0state; of the ;fi3l_jawab_shart;,
+the link is indicated by the ;0case; of the ;fi3l_jawab_shart;,
 as in example () above.
 And in the case
 of a ;qatala; ;jawab_shart;,
@@ -2130,7 +2130,7 @@ then ;fa; may not be used as a ;jawab_shart_intro;.
 So we cannot say:
 
 (@) ;x; [إِنْ تَأْتِنِي فَآتِكَ]{.ar}  
-    (The ;fi3l_jawab_shart; [آتِ]{.ar} is in the ;0state;.)
+    (The ;fi3l_jawab_shart; [آتِ]{.ar} is in the ;0case;.)
 
 
 ---
@@ -2234,7 +2234,7 @@ Earlier we had summarily stated that
 the ;tense; signified
 in ;j_sh;s is generally the future ;tense;,
 regardless of what form of verb
-(for example: ;0state; or ;madi;)
+(for example: ;0case; or ;madi;)
 is used.
 
 However, there can be instances of
@@ -2266,7 +2266,7 @@ We will attempt to explain this below:
 As you know,
 the following positive verb forms are used in ;j_sh;s:
 
-1. The ;0state; ;mudarie; verb
+1. The ;0case; ;mudarie; verb
 
    (@) [إِنْ **تَأْتِنِي أُكْرِمْكَ**]{.ar}  
 
@@ -2276,7 +2276,7 @@ the following positive verb forms are used in ;j_sh;s:
 
    (@) [إِذَا  **أَتَيْتَنِي أَكْرَمْتُكَ**]{.ar}  
 
-3. The ;ustate; ;mudarie; verb.
+3. The ;ucase; ;mudarie; verb.
 
    (@) [إِنْ أَتَيْتَنِي **أُكْرِمُكَ**]{.ar}  
 
@@ -2322,30 +2322,30 @@ The ;madi; verb has the most certainty of the different verb forms,
 because any action that has completed has certainly occurred.
 
 The essential signification of the
-;ustate; ;mudarie; verb form
+;ucase; ;mudarie; verb form
 is that
 an action
 is either on-going,
 or that it will occur in the future.
 So for example, if we say
 [تَأْتِينِي]{.ar},
-then the ;ustate; ;mudarie; verb form signifies that
+then the ;ucase; ;mudarie; verb form signifies that
 your action of coming to me is either on-going,
 or that it will occur in the future.
 
-The essential signification of the positive ;0state; ;mudarie; verb
+The essential signification of the positive ;0case; ;mudarie; verb
 is that the speaker
 considers an action
 to be potentially possible.
 So for example, if we say
 [تَأْتِنِي]{.ar},
-then the ;0state; ;mudarie; verb form indicates
+then the ;0case; ;mudarie; verb form indicates
 that your coming to me is a potential possibility.^[@3aarif_aldin_temporal@ 49]
 <!--
 ^[[التأويل الزمني للجملة الشرطية في اللغة العربية لعارف الدين ٤٩ (يستشهد أحمد المتوكل، قضايا اللغة العربية في اللسانيات الوظيفية البنية التحتية أو التمثيل الداللي التداولي. الرباط: دار الأمان، ١٩٩٥.)]{.ar}]
 -->
 
-The ;0state; ;mudarie; verb has less certainty compared to the other verb forms
+The ;0case; ;mudarie; verb has less certainty compared to the other verb forms
 due to its signifying a potential action.
 
 When these verb forms are used in the ;shart;
@@ -2514,7 +2514,7 @@ For example:
     I **will have honored** you.]{.trans}
 
 Similarly,
-if we use a ;0state; ;mudarie; verb
+if we use a ;0case; ;mudarie; verb
 as a ;fi3l_shart; or a ;fi3l_jawab_shart;
 then it will indicate a potential action.
 The ;tense; is again determined by when the scenario of ;shart; will occur.
@@ -2528,13 +2528,13 @@ TODO: use 3rd person as most general in order not to color from 1st and 2nd pers
 (@) [توقع زيد إتيان عمرو أمس وإِنْ يَأْتِه أَكْرَمَهُ]{.ar}
     [Zayd expected ;3amr;'s coming yesterday. And if he **would have come** to him, he **would have honored** him.]{.trans}
 
-Having said this, the usage of ;0state; ;fi3l_shart; with a past signification is going to be rare.
+Having said this, the usage of ;0case; ;fi3l_shart; with a past signification is going to be rare.
 For a desired past ;tense;, we are more likely to use ;kaana;
 with a ;madi; verb in the ;shart;, thus:
 
 (@) [ان كان قد أتاه أكرمه]{.ar}
 
-In most cases, the ;0state;; ;mudarie; verb
+In most cases, the ;0case;; ;mudarie; verb
 will have a future signification.
 For example:
 
@@ -2636,7 +2636,7 @@ So we would like to say
 [if you are going, I will go with you]{.trans}.
 We first start with the sentence
 [you are going]{.trans}.
-This is expressed in Arabic using the ;ustate; ;mudarie; verb
+This is expressed in Arabic using the ;ucase; ;mudarie; verb
 [تَذْهَبُ]{.ar}.
 In order to retain the ;tense; of the sentence in a ;shart;,
 we begin the sentence with ;kaana; and make it the ;fi3l_shart;, thus:
@@ -2644,7 +2644,7 @@ we begin the sentence with ;kaana; and make it the ;fi3l_shart;, thus:
 (@) [إِنْ كُنْتَ تَذْهَبُ أَذْهَبُ مَعَكَ]{.ar}  
     [If **you** are going, I will go with you.]{.trans}  
 
-Note that [تَذْهَبُ]{.ar} is in the ;ustate; because it is not the ;fi3l_shart;.
+Note that [تَذْهَبُ]{.ar} is in the ;ucase; because it is not the ;fi3l_shart;.
 
 Similarly,
 let's say we wish to say
@@ -2708,7 +2708,7 @@ Here are some more examples of ;shart;s with ;kaana;:
 (@) [إِنْ كُنْتَ تُرِيدُ أَنْ تُصِيبَ السُّنَّةَ الْيَوْمَ فَاقْصُرِ الْخُطْبَةَ وَعَجِّلِ الْوُقُوفَ]{.ar}
     [bukhari:1663]{.citex}  
 
-The ;0state; ;mudarie; verb ;yakun; can also be used in this manner.
+The ;0case; ;mudarie; verb ;yakun; can also be used in this manner.
 Consistent with what we learned in section\ (ref) above,
 it may indicate potentiality or possibility.
 For example:
@@ -2786,7 +2786,7 @@ For example:
     [@https://sunnah.com/bukhari:2449@]{.citex}  
     [If he will have good deeds, they will be taken from him according to his oppression.]{.trans}  
 
-The ;0state; ;mudarie; verb ;yakun; can again be used.
+The ;0case; ;mudarie; verb ;yakun; can again be used.
 For example:
 
 (@) [إِنْ **يَكُ** هَذَا مِنْ عِنْدِ اللَّهِ يُمْضِهِ]{.ar}
