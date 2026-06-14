@@ -525,10 +525,10 @@ When the grammarian studies these sentences he notes that they are all verbal se
 consisting of (at least) a verb and its doer.
 He also observes a pattern.
 And that is
-that the doer of the verb is always in the u-state.
+that the doer of the verb is always in the u-case.
 Now, he comes up with a grammatical rule that states that
 whenever there is a verbal sentence (this is our grammatical reason),
-then the doer of the verb is be in the u-state.
+then the doer of the verb is be in the u-case.
 
 This rule is made for the benefit of the student
 who has not gone through the data in attested usage.
@@ -543,16 +543,16 @@ analogy-based rule
 applicable.
 Now the student observes that [ضَرَبَ]{.ar} is the verb,
 and following it are two nouns:
-[عَمْرًا]{.ar} in the a-state,
+[عَمْرًا]{.ar} in the a-case,
 and
-[زَيْدٌ]{.ar} in the u-state.
+[زَيْدٌ]{.ar} in the u-case.
 Applying the rule, he detrmines that the person who did the beating is Zayd, not [#eamr]{.trn2}.
 This will give him a correct understanding of the text.^[[[شرح المقدمة المحسبة لابن بابشاذ]{.ar} 1/90](https://shamela.ws/book/18278/4#p1), cited by Carter, "Arabic grammar" 132]
 
 Furthermore, if the student wishes to construct his own verbal sentence,
 attempting to conform to [sca]{.smallcaps},
 then he knows that
-he will have to put the verb's doer in the u-state.
+he will have to put the verb's doer in the u-case.
 
 ## Anomalous usage ([الشَّاذّ]{.ar})
 
@@ -563,22 +563,22 @@ This usage which is contrary to analogy is called _anomalous usage_.
 
 Let's take a look at an example of anomalous usage.
 When the second letter of a root is [و]{.ar},
-then its stem-10 stateless verb is regularly formed
+then its stem-10 caseless verb is regularly formed
 by transforming the [و]{.ar} into an alif.
 This is done according to analogy.
 For example:
 
-|Root| stem-10 stateless verb |
+|Root| stem-10 caseless verb |
 |:--|:------|
 |[قوم]{.ar} | [اسْتَقَامَ]{.ar} [to be steadfast]{.trans}|
 |[عوذ]{.ar} | [اسْتَعَاذَ]{.ar} [to seek refuge]{.trans} |
 |[نور]{.ar} | [اسْتَنَارَ]{.ar} [to seek light]{.trans}  |
 
 In anomalous usage, a few roots whose middle letters are [و]{.ar},
-usually form their stem-10 stateless verbs
+usually form their stem-10 caseless verbs
 by keeping the [و]{.ar}. For example:
 
-|Root| stem-10 stateless verb |
+|Root| stem-10 caseless verb |
 |:--|:------|
 |[حوذ]{.ar} | [اسْتَحْوَذَ]{.ar} [to gain mastery, overcome]{.trans}|
 |[صوب]{.ar} | [اسْتَصْوَبَ]{.ar} [to consider ([هـ]{.ar} s.th) to be right]{.trans}|
@@ -593,7 +593,7 @@ be limited to what is found in attested usage,
 and
 not be extended by analogy.
 
-So the rule for forming stem-10 stateless verb for roots
+So the rule for forming stem-10 caseless verb for roots
 that have [و]{.ar} as the middle letter,
 is that
 the verbs should be formed
@@ -923,9 +923,9 @@ For example:
 
 These variants are not used in [sca]{.smallcaps}.
 
-#### The u-state-[ن]{.ar} of the stateful verb {.unnumbered}
+#### The u-case-[ن]{.ar} of the caseful verb {.unnumbered}
 
-There are five stateful verbs for which the u-state is indicate using a [ن]{.ar}.
+There are five caseful verbs for which the u-case is indicate using a [ن]{.ar}.
 They are:
 
   i. [يَفْعَلُونَ]{.ar} [they~3m~]{.trans}
@@ -935,7 +935,7 @@ iii. [يَفْعَلَانِ]{.ar} [they~2m~]{.trans}
   v. [تَفْعَلِينَ]{.ar} [you~1f~]{.trans}
 
 In Classical Arabic, the [ن]{.ar} could occasionally be dropped,
-even for the u-state.
+even for the u-case.
 For example:
 
 (@) [وَالَّذِي نَفْسِي بِيَدِهِ لاَ **تَدْخُلُوا** الْجَنَّةَ حَتَّى تُؤْمِنُوا وَلاَ **تُؤْمِنُوا** حَتَّى تَحَابُّوا]{.ar}
@@ -943,7 +943,7 @@ For example:
     [By the One in Whose Hand is my soul! You will not enter Paradise until you believe, and you will not believe until you love one another.]{.trans}  
 
 The [ن]{.ar} is not dropped in [sca]{.smallcaps}
-for the u-state.
+for the u-case.
 
 In addition, when these verbs have
 a speaker-participant pronoun as its direct doee,
@@ -1222,11 +1222,11 @@ Here are the other examples with their virtually modeled doers:
 In this way, a grammarian was able to formulate a analogy-based grammatical principle
 based on observation of attested usage and theorization of a virtual model.
 
-#### A virtual model of [أَنْ]{.ar} before a-state stateful verbs
+#### A virtual model of [أَنْ]{.ar} before a-case caseful verbs
 
 We present another example of where virtual modeling is useful for coming up with grammatical principles.
 In chapter\ (ref),
-we studied how a a-state stateful verb can occur after the particle [لِ]{.ar}.
+we studied how a a-case caseful verb can occur after the particle [لِ]{.ar}.
 For example:
 
 <!--
@@ -1244,25 +1244,25 @@ The grammarians theorized that
 between the
 [لِ]{.ar}
 and the
-a-state stateful
+a-case caseful
 [أَنْجَحَ]{.ar},
 there existed a virtually modeled [أَنْ]{.ar}, thus:
 
 (@) [دَرَسْتُ لِ[أَنْ] أَنْجَحَ]{.ar}  
     [I studied for the reason [that] I may succeed.]{.trans}  
 
-And it was this [أَنْ]{.ar} that actually caused the stateful verb to be in the a-state.
+And it was this [أَنْ]{.ar} that actually caused the caseful verb to be in the a-case.
 This virtual modeling
 allowed them to
 reduce the definition of
 [لِ]{.ar}
 to a preposition that only precedes nouns.
-And it granted to [أَنْ]{.ar} the (more-or-less) sole privilege of causing a stateful verb to be in the a-state.^[Baalbaki, "Bāb al-fāʾ" 186--189]
+And it granted to [أَنْ]{.ar} the (more-or-less) sole privilege of causing a caseful verb to be in the a-case.^[Baalbaki, "Bāb al-fāʾ" 186--189]
 
 The virtual modeling of [أَنْ]{.ar}
 between
 [لِ]{.ar}
-and a following a-state stateful verb is also supported by the fact that
+and a following a-case caseful verb is also supported by the fact that
 the surface speech can actually have an [أَنْ]{.ar} in that position, for the same meaning.
 So we can actually also say:
 
@@ -1274,7 +1274,7 @@ As for the restriction of
 to a preposition that only precedes nouns,
 then this can be seen when we apply a second level of virtual modeling:
 and that is to interpret (a surface or virtually modeled)
-[أَنْ]{.ar} and the following a-state stateful verb as a [maSdar]{.trn2} construction.
+[أَنْ]{.ar} and the following a-case caseful verb as a [maSdar]{.trn2} construction.
 So the virtual model of () [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}
 is:
 
@@ -1285,10 +1285,10 @@ is:
 In the virtual model in example (),
 we can see how
 [لِ]{.ar}
-is a preposition before the i-state noun
+is a preposition before the i-case noun
 [نَجَاح]{.ar}.
 
-We will see more examples of virtual modeling for the a-state stateful verb in chapter\ (ref), if Allāh wills.
+We will see more examples of virtual modeling for the a-case caseful verb in chapter\ (ref), if Allāh wills.
 
 #### A virtual model of a warning statement
 
@@ -1466,11 +1466,11 @@ in the sentence () [دَرَسْتُ لِأَنْجَحَ]{.ar},
 first an [أَنْ]{.ar} was virtually modeled between
 [لِ]{.ar}
 and the
-a-state stateful thus: () [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}.
+a-case caseful thus: () [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}.
 
 And then a further level of virtual modeling was done,
 where
-[أَنْ]{.ar} and the following a-state stateful verb
+[أَنْ]{.ar} and the following a-case caseful verb
 was reinterpreted
 as a [maSdar]{.trn2} construction: () [دَرَسْتُ لِنَجَاحِي]{.ar}.
 
@@ -1519,7 +1519,7 @@ Another way is to attempt to find traces of the virtual model in the surface spe
 as was done in section\ (ref) above,
 for the virtual modeling of [أَنْ]{.ar} between
 [لِ]{.ar}
-and a following a-state stateful verb.
+and a following a-case caseful verb.
 
 At the very least, any virtual model should be subservient to, and not contradict,
 the intended meaning of the surface speech.^[See also Baalbaki, "Bāb al-fāʾ" 188]

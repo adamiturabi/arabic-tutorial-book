@@ -59,10 +59,10 @@ The above points are exemplified in the following sentence:
 
 Note the above from the above example:
 
-+ [مُحَمَّدٍ]{.ar} is fully-flexible so it has a [tanwIn]{.trn2}ed [kasrah]{.trn2} [◌ٍ]{.ar} in the i-state.
-+ [زَيْنَبَ]{.ar} is semi-flexible so it is not [tanwIn]{.trn2}ed, and instead has an [fatHah]{.trn2} [◌َ]{.ar} in the i-state.
++ [مُحَمَّدٍ]{.ar} is fully-flexible so it has a [tanwIn]{.trn2}ed [kasrah]{.trn2} [◌ٍ]{.ar} in the i-case.
++ [زَيْنَبَ]{.ar} is semi-flexible so it is not [tanwIn]{.trn2}ed, and instead has an [fatHah]{.trn2} [◌َ]{.ar} in the i-case.
 + The proper nouns [مُحَمَّد]{.ar} and [زَيْنَب]{.ar} are attributees in descriptive noun phrases.
-+ Their attributes ([ٱلْكَرِيمِ]{.ar} and [ٱلطَّيِّبَةِ.]{.ar}, respectively) have [ٱَلْ]{.ar} to match the definiteness of the definite proper noun attributees. Furthermore, they both end with [◌ِ]{.ar} because they match the i-state of their attributees.
++ Their attributes ([ٱلْكَرِيمِ]{.ar} and [ٱلطَّيِّبَةِ.]{.ar}, respectively) have [ٱَلْ]{.ar} to match the definiteness of the definite proper noun attributees. Furthermore, they both end with [◌ِ]{.ar} because they match the i-case of their attributees.
 
 ## Meanings of names
 
@@ -120,19 +120,19 @@ Fully-flexible proper nouns may or may not begin with [ٱَلْ]{.ar}.
 #### Names that begin with [ٱَلْ]{.ar}
 
 If a proper noun begins with [ٱَلْ]{.ar} then the question of its flexibility is pretty much moot. 
-This is because noun beginning with with [ٱَلْ]{.ar} display their state fully, regardless of whether or not they are semi-flexible without the [ٱَلْ]{.ar}. Examples:
+This is because noun beginning with with [ٱَلْ]{.ar} display their case fully, regardless of whether or not they are semi-flexible without the [ٱَلْ]{.ar}. Examples:
 
 [ٱَلْحَسَنُ حَفِيدُ رَسُولِ ٱللَّـٰهِ صلى اللّه عليه وسلم.]{.ar}  
 "[al-#Hasan]{.trn2} is the grandson of the messenger of [#allAh]{.trn2} (may [#allAh]{.trn2} grant peace and confer blessing upon him)."
-(u-state displayed with [◌ُ]{.ar}.)
+(u-case displayed with [◌ُ]{.ar}.)
 
 [سَأَلَ ٱلرَّجُلُ ٱلنُّعْمَانَ عَنْ أَمْرٍ.]{.ar}  
 "The man asked [al-#nuemAn]{.trn2} about a matter."  
-(a-state displayed with [◌َ]{.ar}.)
+(a-case displayed with [◌َ]{.ar}.)
 
 [ذَهَبْتُ إِلَى ٱلْقَاهِرَةِ.]{.ar}  
 "I went to Cairo."  
-(i-state displayed with [◌ِ]{.ar}.)
+(i-case displayed with [◌ِ]{.ar}.)
 
 Examples of names that begin with [ٱَلْ]{.ar} are:
 
@@ -227,7 +227,7 @@ For example,
 [سَأَلَتْ دَرْدَاءَ أَسْمَاءُ.]{.ar}  
 "[#asmAE]{.trn2} asked [#dardAE]{.trn2}"
 
-But because words that end with [ىٰ]{.ar} never display any state, then for these words the sentence word order becomes more rigid. So the following sentence:
+But because words that end with [ىٰ]{.ar} never display any case, then for these words the sentence word order becomes more rigid. So the following sentence:
 
 [سَأَلَتْ لَيْلَىٰ سَلْمَىٰ.]{.ar}  
 would usually only mean
@@ -268,9 +268,9 @@ Names of the pattern [فُعَل]{.ar} shall be semi-flexible. Examples:
 |^2^[عُمَر]{.ar}  |[#eumar]{.trn2} |^2^[مُضَر]{.ar}     |[#muDar]{.trn2} |
 
 <!--
-Interestingly, the fully-flexible name [#eamr]{.trn2} is written with a silent [و]{.ar} at its end: [عَمْرو]{.ar} when in the u-state and i-state in order to distinguish it from the more common name [#eumar]{.trn2}. Otherwise, both names would appear identical when written without vowel marks, thus: [عمر]{.ar}.
+Interestingly, the fully-flexible name [#eamr]{.trn2} is written with a silent [و]{.ar} at its end: [عَمْرو]{.ar} when in the u-case and i-case in order to distinguish it from the more common name [#eumar]{.trn2}. Otherwise, both names would appear identical when written without vowel marks, thus: [عمر]{.ar}.
 
-Name|u-state|a-state|i-state
+Name|u-case|a-case|i-case
 :-|:--|:--|:--
 [#eamr]{.trn2}|[عَمْرٌو]{.ar} [eamrun]{.trn}| [عَمْرًا]{.ar} [eamran]{.trn}|[عَمْرٍو]{.ar} [eamrin]{.trn}
 [#eumar]{.trn2}|[عُمَرُ]{.ar} [eumaru]{.trn}| [عُمَرَ]{.ar} [eumara]{.trn}|[عُمَرَ]{.ar} [eumara]{.trn}
@@ -283,7 +283,7 @@ Names that are originally verbs are semi-flexible. Examples:
 + ^2^[يَزِيد]{.ar} [#yazId]{.trn2} "He increases"
 + ^2^[يَعِيش]{.ar} [#yaeIc]{.trn2} "He lives"
 
-Their origin as verbs will be apparent when we study stateful verbs.
+Their origin as verbs will be apparent when we study caseful verbs.
 
 #### Names of foreign origin
 
@@ -348,10 +348,10 @@ For females, the name ^2^[فُلَانَة]{.ar} is used.
 
 ## Irregular spelling of the name [عَمْرو]{.ar} [#eamr]{.trn2}
 
-Irregularly, the fully-flexible name [#eamr]{.trn2} is written with a unpronounced [و]{.ar} at its end: [عَمْرو]{.ar} when in the u-state and i-state.
-In the a-state, the [و]{.ar} is not added.
+Irregularly, the fully-flexible name [#eamr]{.trn2} is written with a unpronounced [و]{.ar} at its end: [عَمْرو]{.ar} when in the u-case and i-case.
+In the a-case, the [و]{.ar} is not added.
 
-Name|u-state|a-state|i-state
+Name|u-case|a-case|i-case
 :-|:--|:--|:--
 [#eamr]{.trn2}|[عَمْرٌو]{.ar} [eamrun]{.trn}| [عَمْرًا]{.ar} [eamran]{.trn}|[عَمْرٍو]{.ar} [eamrin]{.trn}
 
@@ -360,7 +360,7 @@ Or it could be the remnant of an older (pre-Islāmic) practice of appending a fi
 
 <!--Otherwise, both names would appear identical when written without vowel marks, thus: [عمر]{.ar}.
 
-Name|u-state|a-state|i-state
+Name|u-case|a-case|i-case
 :-|:--|:--|:--
 [#eamr]{.trn2}|[عَمْرٌو]{.ar} [eamrun]{.trn}| [عَمْرًا]{.ar} [eamran]{.trn}|[عَمْرٍو]{.ar} [eamrin]{.trn}
 [#eumar]{.trn2}|[عُمَرُ]{.ar} [eumaru]{.trn}| [عُمَرَ]{.ar} [eumara]{.trn}|[عُمَرَ]{.ar} [eumara]{.trn}
@@ -370,7 +370,7 @@ Name|u-state|a-state|i-state
 
 Before we proceed with our discussion on proper nouns, we will take a short digression to discuss a grammatical concept called the _replacement_. We will only give a short preview here and will treat it fully in chapter\ \@ref(the-replacement-chapter).
 
-A _replacement_ is a word that follows another word, the _replacee_, and replaces it from the perspective of the grammar of the sentence. The replacement is put in the same state as the replacee.
+A _replacement_ is a word that follows another word, the _replacee_, and replaces it from the perspective of the grammar of the sentence. The replacement is put in the same case as the replacee.
 Here is an example of a sentence with a replacement and a replacee:
 
 ```{.tikz}
@@ -405,14 +405,14 @@ Here is an example of a sentence with a replacement and a replacee:
 ```
 
 In the above sentence, the word [كِتَابًا]{.ar} "a book" is the replacement of 
-[شَيْـًٔا]{.ar} "something". Therefore, it is put in the same a-state.
+[شَيْـًٔا]{.ar} "something". Therefore, it is put in the same a-case.
 
 The replacement is frequently used with proper nouns. For example,
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ عَمِّهِ عَلِيٍّ.]{.ar}  
 "The boy went to his uncle [#ealI]{.trn2}'s house."
 
-In this sentence, the name [عَلِيّ]{.ar} [#ealI]{.trn2} is the replacement of the replacee [عَمّ]{.ar} "uncle". Note, again, that the replacement comes after the replacee and matches it in state. However, the replacement does not need to come directly after the replacee. We can see that there is the pronoun [ه]{.ar} "his" between them.
+In this sentence, the name [عَلِيّ]{.ar} [#ealI]{.trn2} is the replacement of the replacee [عَمّ]{.ar} "uncle". Note, again, that the replacement comes after the replacee and matches it in case. However, the replacement does not need to come directly after the replacee. We can see that there is the pronoun [ه]{.ar} "his" between them.
 
 Here is another example:
 
@@ -430,7 +430,7 @@ Some names are formed by annexing the noun [عَبْد]{.ar} [eabd]{.trn} "a sla
 + [عَبْد ٱللَّـٰه]{.ar} [#eabd #allAh]{.trn2} "the Slave of [#allAh]{.trn2}"
 + [عَبْد ٱلرَّحْمَـٰن]{.ar} [#eabd al-#raHmAn]{.trn2} "the Slave of the Most Merciful"
 
-As usual, the base noun shall always be in the i-state. And the state of the annexe noun [عَبْد]{.ar} is variable, depending on it's function in the sentence. Example:
+As usual, the base noun shall always be in the i-case. And the case of the annexe noun [عَبْد]{.ar} is variable, depending on it's function in the sentence. Example:
 
 [عَبْدُ ٱللَّـٰهِ هُوَ أَخُو عَبْدِ ٱلرَّحْمَـٰنِ.]{.ar}
 "[#eabd #allAh]{.trn2} is the brother of [#eabd al-#raHmAn]{.trn2}."
@@ -441,13 +441,13 @@ It is common to call a man, not by his own given name, but rather by calling him
 
 [ذَهَبْتُ إِلَىٰ بَيْتِ أَبِي زَيْدٍ.]{.ar}  
 "I went to [#abU #zayd]{.trn2}'s house."  
-(Note how [زَيْدٍ]{.ar} has a [tanwIn]{.trn2}ed [kasrah]{.trn2} [◌ٍ]{.ar} in the i-state because it is fully-flexible.)
+(Note how [زَيْدٍ]{.ar} has a [tanwIn]{.trn2}ed [kasrah]{.trn2} [◌ٍ]{.ar} in the i-case because it is fully-flexible.)
 
 While using the name of first-born son is more common, a daughter's name could be used as well. Example,
 
 [سَأَلْتُ أَبَا رُقَيَّةَ سُؤالًا.]{.ar}  
 "I asked [#abU #ruqayyah]{.trn2} a question."  
-(Note how [رُقَيَّةَ]{.ar} has an [fatHah]{.trn2} [◌َ]{.ar} in the i-state because it is semi-flexible.)
+(Note how [رُقَيَّةَ]{.ar} has an [fatHah]{.trn2} [◌َ]{.ar} in the i-case because it is semi-flexible.)
 
 Women, too, are similarly called as the mother of one of their children. For example, 
 the wife of the Prophet
@@ -523,7 +523,7 @@ The names of multiple forefathers may be strung together in this way separated b
 
 [ٱِسْمُ نَبِيِّنَا مُحَمَّدُ بْنُ عَبْدِ ٱللَّـٰهِ بْنِ عَبْدِ ٱلْمُطَّلِبِ.]{.ar}  
 "Our prophet's name is [#muHammad]{.trn2} the son of [#eabd #allAh]{.trn2} the son of [#eabd al-#muTTalib]{.trn2}."  
-(Note that the second [بْنِ]{.ar} is in the i-state to match the state of the annexe noun [عَبْدِ]{.ar} in [عَبْدِ ٱللّـٰه]{.ar}.)
+(Note that the second [بْنِ]{.ar} is in the i-case to match the case of the annexe noun [عَبْدِ]{.ar} in [عَبْدِ ٱللّـٰه]{.ar}.)
 
 We will deal with complete full names in section\ \@ref(complete-full-names) below.
 
@@ -554,19 +554,19 @@ Most names do not begin with [ٱَلْ]{.ar}. Some, however, do begin with [ٱَ
 |[ٱَلْعَبَّاس]{.ar}     |[al-#eabbAs]{.trn2}     |[ٱَلْحَارِث]{.ar}     |[al-#HAriv]{.trn2} |
 
 If a proper noun begins with [ٱَلْ]{.ar} then the question of its flexibility is mostly irrelevant.
-This is because noun beginning with with [ٱَلْ]{.ar} display their state fully, regardless of whether or not they are semi-flexible without the [ٱَلْ]{.ar}. Examples:
+This is because noun beginning with with [ٱَلْ]{.ar} display their case fully, regardless of whether or not they are semi-flexible without the [ٱَلْ]{.ar}. Examples:
 
 [ٱَلْحَسَنُ حَفِيدُ رَسُولِ ٱللَّـٰهِ صلى اللّه عليه وسلم.]{.ar}  
 "[al-#Hasan]{.trn2} is the grandson of the messenger of [#allAh]{.trn2} (may [#allAh]{.trn2} grant peace and confer blessing upon him)."  
-(u-state displayed with [◌ُ]{.ar}.)
+(u-case displayed with [◌ُ]{.ar}.)
 
 [سَأَلَ ٱلرَّجُلُ ٱلنُّعْمَانَ عَنْ أَمْرٍ.]{.ar}  
 "The man asked [al-#nuemAn]{.trn2} about a matter."  
-(a-state displayed with [◌َ]{.ar}.)
+(a-case displayed with [◌َ]{.ar}.)
 
 [ذَهَبْتُ إِلَى بَيْتِ ٱلنُّعْمَانِ.]{.ar}  
 "I went to [al-#nuemAn]{.trn2}'s house."  
-(i-state displayed with [◌ِ]{.ar}.)
+(i-case displayed with [◌ِ]{.ar}.)
 
 Names that begin with [ٱَلْ]{.ar} can sometimes lose their initial [ٱَلْ]{.ar}. Sometimes, this is systematic, as we will lear in section\ \@ref(calling-names-with-al).
 Other times, it's hard to tell why. 
@@ -630,7 +630,7 @@ Tribes are usually called by the name of their progenitor. For example, ^2^[إِ
 The [Un]{.trn} sound plural [بَنُونَ]{.ar} "sons/children" is annexed to the name 
 ^2^[إِسْرَائِيل]{.ar} [#isrAEIl]{.trn2}
 to get the name of the tribe
-^2^[بَنُو إِسْرَائِيل]{.ar} [#banU #isrAEIl]{.trn2} "the children of [#isrAEIl]{.trn2}". In the a-state and i-state, this becomes
+^2^[بَنُو إِسْرَائِيل]{.ar} [#banU #isrAEIl]{.trn2} "the children of [#isrAEIl]{.trn2}". In the a-case and i-case, this becomes
 ^2^[بَنِي إِسْرَائِيل]{.ar} [#banI #isrAEIl]{.trn2}.
 
 Not all tribe names have [بَنُونَ]{.ar} "sons" annexed to them, but many do. And often it is optional to keep or drop the annexed [بَنُونَ]{.ar}. Examples:
@@ -798,5 +798,5 @@ Here are some examples of full names in varying degrees of completeness:
 
 [ٱلْحَافِظُ ٱلْمُؤَرِّخُ ٱلْمُفَسِّرُ عِمَادُ ٱلدِّينِ أَبُو ٱلْفِدَاءِ إِسْمَاعِيلُ بْنُ عُمَرَ بْنِ كَثِيرٍ ٱلْقُرَشِيُّ ٱلدِّمَشْقِيُّ ٱلشَّافِعِيُّ]{.ar}  
 "The [#HAfiP]{.trn2}, the historian, the exegete, the Pillar of the Faith, the father of [al-#fidAE]{.trn2}, [#ismAEIl]{.trn2} the son of [#eumar]{.trn2} the son of [#kavIr]{.trn2}, the [#qurayc]{.trn2}ite, the Damascan, the [#cAfie]{.trn2}ite"  
-(Note how the second [بْنِ]{.ar} is in the i-state because it is a replacement of [عُمَرَ]{.ar} which is in the i-state because it is a base noun of the first [بْنُ]{.ar}.)
+(Note how the second [بْنِ]{.ar} is in the i-case because it is a replacement of [عُمَرَ]{.ar} which is in the i-case because it is a base noun of the first [بْنُ]{.ar}.)
   
