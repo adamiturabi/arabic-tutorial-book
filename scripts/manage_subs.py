@@ -96,15 +96,18 @@ map_table["_yaqtulu"] = "يَقْتُلُ"
 map_table["_yaqtula"] = "يَقْتُلَ"
 
 # 3aaqil
-map_table["3aaqil"]   = "intelligent being"   # raised-state"
-map_table["g_3aaqil"] = "non-intelligent being"  # propped-state
+map_table["3aaqil"]   = "intelligent being"
+map_table["g_3aaqil"] = "non-intelligent being"
 
 # states
-map_table["ustate"] = "u-state"   # raised-state"
-map_table["astate"] = "a-state"  # propped-state
-map_table["istate"] = "i-state"  # lowered-state
-map_table["0"] = "ø"  # clipped-state
-map_table["0state"] = map_table["0"] + "-state"  # clipped-state
+map_table["case"] = "case"
+map_table["caseful"] = "caseful"
+map_table["caseless"] = "caseless"
+map_table["ucase"] = "u-case"   # raised-case"
+map_table["acase"] = "a-case"  # propped-case
+map_table["icase"] = "i-case"  # lowered-case
+map_table["0"] = "ø"  # clipped-case
+map_table["0case"] = map_table["0"] + "-case"  # clipped-case
 
 # diacritics
 map_table["amark"] = "[fatHah]{.trn2}"
@@ -196,17 +199,17 @@ map_table["isnaad_comp"] = "structurally complete"
 
 
 map_table["j_sh"] = "conditional sentence"
-map_table["adat_shart"] = "condition-introducer" #"conditional device"
-map_table["jawab_shart_intro"] = "condition-response-introducer" #"conditional device"
-map_table["jawab_intro"] = "response-introducer" #"conditional device"
-map_table["shart"] = "condition" # condition
-map_table["jawab"] = "response"
-map_table["jawab_shart"] = "condition-response" # outcome, result, consequence, condition-response, response-to-the-condition
-map_table["shart_int"] = "condition-internal-sentence" # "cond~int~" # condition
-map_table["jawab_shart_int"] = "condition-response-internal-sentence" #"cond-resp~int~" # outcome, result, consequence, condition-response, response-to-the-condition
-map_table["jawab_int"] = "response-internal-sentence" #"cond-resp~int~" # outcome, result, consequence, condition-response, response-to-the-condition
-map_table["fi3l_shart"] = "condition-verb"
-map_table["fi3l_jawab_shart"] = "condition-response-verb"
+map_table["adat_shart"] = "C-intro" #"conditional device"
+map_table["jawab_shart_intro"] = "CR-intro" #"conditional device"
+#map_table["jawab_intro"] = "R-intro"
+map_table["shart"] = "C" # condition
+#map_table["jawab"] = "R"
+map_table["jawab_shart"] = "CR" # outcome, result, consequence, condition-response, response-to-the-condition
+map_table["shart_int"] = "C-core" # condition-internal-sentence" # "cond~int~" # condition
+map_table["jawab_shart_int"] = "CR-core" # "condition-response-internal-sentence" #"cond-resp~int~" # outcome, result, consequence, condition-response, response-to-the-condition
+#map_table["jawab_int"] = "R-sentence" # "response-internal-sentence" #"cond-resp~int~" # outcome, result, consequence, condition-response, response-to-the-condition
+map_table["fi3l_shart"] = "C-verb" # "condition-verb"
+map_table["fi3l_jawab_shart"] = "CR-verb" # "condition-response-verb"
 
 map_table["j_ism"] = "nounal sentence"
 map_table["j_f3l"] = "verbal sentence"
@@ -219,7 +222,7 @@ map_table["laam_taqwiya"] = "strengthening-[لِ]{.ar}"
 map_table["lazim"] = "intransitive"
 map_table["lnj"] = {"لا النافية للجنس", "ar"}
 
-map_table["madi"] = "stateless"  # perfect, perfective, "stateless" verb?
+map_table["madi"] = map_table["case"]+"less"  # perfect, perfective, "stateless" verb?
 map_table["maful"] = "doee"
 map_table["mafulb"] = "direct doee"
 map_table["mafull"] = "adverb of reason"
@@ -234,7 +237,7 @@ map_table["mmutlaq"] = "absolute doee"
 map_table["mubtada"] = "subject"
 map_table["mudaf"] = "annexe noun"
 map_table["mudafil"] = "base noun"
-map_table["mudarie"] = "stateful" # "[muDArie]{.trn2}" # "stateful", resembling, prefixed
+map_table["mudarie"] = map_table["case"] + "ful" # "[muDArie]{.trn2}" # "stateful", resembling, prefixed
 map_table["mushar_il"] = "pointed-to noun" # "[muDArie]{.trn2}"
 map_table["mushtaqq"] = "deverbal" # deverbal, derived
 map_table["musnad"] = "leaning element" # structure-completer, complement, leaning element
@@ -251,7 +254,7 @@ map_table["na3t"] = "attribute"
 map_table["nidaa"] = "vocative"
 map_table["naqis"] = "deficient"
 map_table["nasix"] = "canceling"
-map_table["nasibah"] = map_table["astate"] + "-izing"
+map_table["nasibah"] = map_table["acase"] + "-izing"
 map_table["noon_wiq"] = "guarding-[ن]{.ar}"
 
 map_table["participle"] = "participle"
@@ -264,7 +267,7 @@ map_table["sababi"] = "sababi" # takeover
 map_table["sahib_hal"] = "person of ḥāl"
 map_table["sahibs_hal"] = "persons of ḥāl"
 map_table["sifah"] = "adjectival noun"
-map_table["sifah_mush"] = "participle-like adjective" # {"participlish adjectival noun", nil} # "participle-like"?
+map_table["sifah_mush"] = "participle-like adjective" # {"participlish adjectival noun", nil} # "participle-like", static-adjectival noun.
 map_table["sighah_mub"] = "emphatic noun" # {"participlish adjectival noun", nil} # "participle-like"?
 map_table["silah"] = "connecting sentence"
 map_table["shibh_fi3l"] = "quasi-verb"
@@ -278,7 +281,7 @@ map_table["tabi3"] = "follower"
 map_table["tafsiri"] = "explanatory"
 map_table["tamyiz"] = "[tamyIz]{.trn2}"
 map_table["tawkeed"] = "emphatic follower"
-map_table["tense"] = "time-reference"
+map_table["tense"] = "tense"
 
 map_table["xabar"] = "info" # newsworthy expression, information, comment, remark, info, report, news, expression
 

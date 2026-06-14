@@ -49,8 +49,10 @@ In the example above,
 the usage of the ;hal; signifies that
 Zayd, while he was coming, was in a riding state.
 
+<!--
 By the way,
-we are not not using "state" here terminologically, as in ;ustate;, ;astate;, etc.  Rather we are using it to mean Zayd's condition or mode of being.
+we are not not using "state" here terminologically, as in ;ucase;, ;acase;, etc.  Rather we are using it to mean Zayd's condition or mode of being.
+-->
 <!--
 What we mean by
 "temporal state of the ;sahib_hal;"
@@ -59,7 +61,7 @@ It is a temporary state because Zayd is only described as angry while he is comi
 -->
 
 <!--
-Note that, like adverbs in general, the ;hal; is in the ;astate;.
+Note that, like adverbs in general, the ;hal; is in the ;acase;.
 Typically, the ;hal; is an ;sifah;, its ;3aamil; is a verb, and the ;hal; describes the ;sahib_hal;.
 But, as we will see later in this chapter ;ia;, sometimes the ;hal; may have differing behavior.
 -->
@@ -151,7 +153,7 @@ For example:
 
 An expression that has verbal force could be:
 
-* a preposition or adverb of time or place with a following noun in the ;istate;
+* a preposition or adverb of time or place with a following noun in the ;icase;
 * a ;ism_isharah;
 * a ;adat_istifham;
 * a word like [لَيْتَ]{.ar}, [كَأَنَّ]{.ar}, [لَعَلَّ]{.ar}
@@ -262,7 +264,7 @@ Let's see some examples.
     [@nahw_arabi@ 2/28]{.citex}  
     "This is the crescent (as it is) rising."
 
-#### The ;sahib_hal; in the ;istate; following a preposition {.unnumbered}
+#### The ;sahib_hal; in the ;icase; following a preposition {.unnumbered}
 
 (@ex000028) [مَرَرْتُ بِزَيْدٍ جَالِسًا]{.ar}
     [@wright@ 2/113A]{.citex}  
@@ -272,7 +274,7 @@ Let's see some examples.
     [@wright@ 2/113B]{.citex}  
     "I was in the garden (while it was) in bloom."
 
-#### The ;sahib_hal; in the ;istate; in as the ;mudafil; in an ;idaafah; {.unnumbered}
+#### The ;sahib_hal; in the ;icase; in as the ;mudafil; in an ;idaafah; {.unnumbered}
 
 The ;mudafil; in an ;idaafah; is permitted to be a ;sahib_hal; if it satisfies any one of the following conditions:
 
@@ -397,7 +399,7 @@ For example:
 
 However, if these verbs are mere verbs of sense,
 i.e. they express nothing but acts of the external organs of sense,
-then they may still have two ;ma3mul;s in the ;astate;
+then they may still have two ;ma3mul;s in the ;acase;
 but the second ;ma3mul; will no longer be a ;mafulb;
 but a ;hal;.^[@wright@ 2/50B]
 For example:
@@ -679,7 +681,7 @@ then the ;hal; usually does not precede the ;3aamil;.^[See, however, @https://ta
 
 ### The ;hal; preceding the ;sahib_hal;
 
-The ;hal; is generally allowed to precede the ;sahib_hal; when the ;sahib_hal; is in the ;ustate; or ;astate;.
+The ;hal; is generally allowed to precede the ;sahib_hal; when the ;sahib_hal; is in the ;ucase; or ;acase;.
 For example:
 
 (@ex000069) [جَاءَ ضَاحِكًا زَيْدٌ]{.ar}
@@ -701,7 +703,7 @@ For example:
     [@https://quran.com/6/48@]{.citex}  
     "And We send not the messengers except as bringers of good tidings and warners."
 
-When the ;sahib_hal; is in the ;istate; then:
+When the ;sahib_hal; is in the ;icase; then:
 if it is a ;mudafil; in an ;idaafah;, then the ;hal; should follow the ;sahib_hal; and not precede it.
 
 For example:
@@ -710,7 +712,7 @@ For example:
     [@wright@ 2/119C]{.citex}  
     "Zayd's standing speedily pleased me."
 
-If the ;sahib_hal; is in the ;istate; due to a preceding preposition, then
+If the ;sahib_hal; is in the ;icase; due to a preceding preposition, then
 the ;hal; will usually follow it and not precede it.
 For example:
 
@@ -718,7 +720,7 @@ For example:
     [@wright@ 2/119B]{.citex}  
     "I passed by Hind (when she was) sitting."
 
-Occasionally, however, the ;hal; has been found to precede the ;istate; ;sahib_hal; preceded by a preposition.
+Occasionally, however, the ;hal; has been found to precede the ;icase; ;sahib_hal; preceded by a preposition.
 For example:
 
 (@ex000075) [وَمَا أَرْسَلْنَاكَ إِلَّا كَافَّةً لِلنَّاسِ]{.ar}
@@ -886,7 +888,7 @@ For example:
     "In the house, is a man standing."  
     (;hal;)
 
-There may also be a case where the ;hal; is indistinguishable from the ;na3t; due to the ;sahib_hal; being indefinite and in the ;astate;.
+There may also be a case where the ;hal; is indistinguishable from the ;na3t; due to the ;sahib_hal; being indefinite and in the ;acase;.
 For example:
 
 (@ex000093) [رَأَيْتُ طَالِبًا مُقَصِّرًا]{.ar}
@@ -1069,7 +1071,7 @@ For example,
 [جَاءَ زَيْدٌ ضَاحِكًا]{.ar} "Zayd came laughing".
 Instead, of using the ;sifah;
 [ضَاحِكًا]{.ar},
-we can instead use the ;ustate; ;mudarie; verb
+we can instead use the ;ucase; ;mudarie; verb
 [يَضْحَكُ]{.ar}:
 
 (@haal-sentence-mudarie-zayd-laughing) [جَاءَ زَيْدٌ يَضْحَكُ]{.ar}
@@ -1134,10 +1136,10 @@ Here is an example of a more complex ;hal; sentence:
 
 In the example above,
 the sentence [يَدُهُ عَلَىٰ رَأْسِهِ]{.ar} is the ;hal;. 
-Note that [يَد]{.ar} is in the ;ustate; because it is the ;mubtada; of the sentence.
-It is not in the ;astate; because it is not, by itself, the ;hal;.
+Note that [يَد]{.ar} is in the ;ucase; because it is the ;mubtada; of the sentence.
+It is not in the ;acase; because it is not, by itself, the ;hal;.
 The entire sentence
-[يَدُهُ عَلَىٰ رَأْسِهِ]{.ar} is considered to be in the ;astate; as the ;hal;.
+[يَدُهُ عَلَىٰ رَأْسِهِ]{.ar} is considered to be in the ;acase; as the ;hal;.
 The link is the pronoun [ه]{.ar} in [يَدُهُ]{.ar} and [رَأْسِهِ]{.ar}.
 
 Here are some more examples:

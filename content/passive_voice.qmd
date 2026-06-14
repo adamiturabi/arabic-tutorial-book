@@ -50,12 +50,12 @@ This is regardless of the vowel on the middle root letter in the active verb.
 If there is more than one verb from the same root, with different middle root letter vowels for the active verb, then they will share the same passive verb. For example, the active verbs: [حَسَبَ يَحْسُبُ]{.ar} "to reckon" and [حَسِبَ يَحْسِبُ]{.ar} "to deem" share the same passive verb: [حُسِبَ يُحْسَبُ]{.ar}.
 
 The same doer pronouns are used for the passive verb as for the active verb.
-And the passive stateful verb has the same three states as the active stateful verb.
+And the passive caseful verb has the same three cases as the active caseful verb.
 For example:
 
-+ [فُعِلُوا]{.ar} [fueilU]{.trn} "they~3m~" (stateless)
-+ [تُفْعَلَانِ]{.ar} [tufealAni]{.trn} "you~2~" or "they~2f~" (u-state stateful)
-+ [أُفْعَلَ]{.ar} [Eufeala]{.trn} "I" (a-state stateful)
++ [فُعِلُوا]{.ar} [fueilU]{.trn} "they~3m~" (caseless)
++ [تُفْعَلَانِ]{.ar} [tufealAni]{.trn} "you~2~" or "they~2f~" (u-case caseful)
++ [أُفْعَلَ]{.ar} [Eufeala]{.trn} "I" (a-case caseful)
 + etc.
 
 The complete table showing the doer pronouns is given in appendix\ \@ref(verb-tables).
@@ -90,7 +90,7 @@ Consider again this sentence with an passive verb construction:
 "The water was drunk."
 -->
 
-Note that the noun [ٱَلْمَاءُ]{.ar} [EalmAEu]{.trn} "the water" is in the u-state. This is because, in the absence of the doer, the direct doee of the active verb ([ٱَلْمَاءَ]{.ar}) is deputized to take doer's place in the u-state. It is then known as the _deputy doer_.
+Note that the noun [ٱَلْمَاءُ]{.ar} [EalmAEu]{.trn} "the water" is in the u-case. This is because, in the absence of the doer, the direct doee of the active verb ([ٱَلْمَاءَ]{.ar}) is deputized to take doer's place in the u-case. It is then known as the _deputy doer_.
 
 The doer pronouns for the passive verb shall therefore match the gender and number of the deputy doer. Here are some examples:
 
@@ -134,7 +134,7 @@ b. Verbs that siginify an action of the heart or of intention, like thinking, de
    [جَعَلَ ٱللَّـٰهُ ٱلْمَاءَ بَرَكَةً.]{.ar}  
    "[#allAh]{.trn2} has made the water a blessing."
 
-When such verbs are converted to the passive verb construction, then one, and only one, direct doee shall be chosen to be the deputy doer. It is generally preferred to make the first direct doee the deputy-doer, and leave the second direct doee, as is, in the a-state.
+When such verbs are converted to the passive verb construction, then one, and only one, direct doee shall be chosen to be the deputy doer. It is generally preferred to make the first direct doee the deputy-doer, and leave the second direct doee, as is, in the a-case.
 Here are the same sentences in the passive construction:
 
 [مُلِئَتِ ٱلدَّلْوُ مَاءً.]{.ar} ([دَلْو]{.ar} "bucket" is feminine.)  
@@ -174,7 +174,7 @@ Other verbs, which can take a direct doee, may be used without one, and again wi
 "The scribe wrote with the pen."
 
 When such sentences are converted to the passive verb construction then the prepositional phrase may be taken as the deputy doer. 
-However, the preposition causes the noun following it to remain in the i-state. So the deputy doer is not indicated by an apparent [Dammah]{.trn2} (or by the other indicators of the u-state).
+However, the preposition causes the noun following it to remain in the i-case. So the deputy doer is not indicated by an apparent [Dammah]{.trn2} (or by the other indicators of the u-case).
 The verb then appears to be in the singular masculine, with its deputy doer following it.
 For example:
 
@@ -206,7 +206,7 @@ For example:
 
 ### With adverbs of time or place
 
-Other verbs don't take a direct doee but may be used with an adverb of time or place in the a-state. 
+Other verbs don't take a direct doee but may be used with an adverb of time or place in the a-case. 
 (We will study adverbs of time and place in chapter\ \@ref(adverbs-of-time-and-place), if [#allAh]{.trn2} wills.)
 Here is an example:
 
@@ -223,7 +223,7 @@ Here is an example:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
-      node [midway, below] {\scriptsize a-state adverb of time};
+      node [midway, below] {\scriptsize a-case adverb of time};
 
 \path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``The mother stayed up the Night of Power.''};
 
@@ -232,12 +232,12 @@ Here is an example:
 
 <!--[سَهَرَتِ ٱلْأُمُّ ٱللَّيلَةَ.]{.ar}  
 "The mother stayed up the (whole) night."-->
-When this sentence is converted to an passive construction then the adverb of time or place can be taken as the deputy doer in the u-state:
+When this sentence is converted to an passive construction then the adverb of time or place can be taken as the deputy doer in the u-case:
 
 [سُهِرَتْ لَيلَةُ ٱلْقَدْرِ.]{.ar}  
 "The Night of Power was stayed up [in]."
 
-Note the u-state of [لَيْلَةُ]{.ar} [laylatu]{.trn} as the deputy doer.
+Note the u-case of [لَيْلَةُ]{.ar} [laylatu]{.trn} as the deputy doer.
 
 ### With the [maSdar]{.trn2}
 
@@ -250,7 +250,7 @@ For example:
 "The old man understood, a deep understanding."
 
 
-When such sentences are converted to the passive verb construction, then the [maSdar]{.trn2} may be taken as the deputy doer in the u-state.
+When such sentences are converted to the passive verb construction, then the [maSdar]{.trn2} may be taken as the deputy doer in the u-case.
 
 [فُهِمَ فَهْمٌ عَمِيقٌ.]{.ar}  
 "A deep understanding was understood."
@@ -278,18 +278,18 @@ Then only one shall be chosen as the deputy doer. If a direct doee exists, then 
 [سُهِرَ فِي ٱلْمَسْجِدِ لَيلَةَ ٱلْقَدْرِ.]{.ar}  
 "The mosque was stayed up in [on] the Night of Power."
 
-In the above sentence the prepositional phrase [فِي ٱلْمَسْجِدِ]{.ar} was chosen as the deputy doer, and the adverb of time [لَيْلَةَ]{.ar} remains, as is, in the a-state.
+In the above sentence the prepositional phrase [فِي ٱلْمَسْجِدِ]{.ar} was chosen as the deputy doer, and the adverb of time [لَيْلَةَ]{.ar} remains, as is, in the a-case.
 
-## States of the passive stateful verb
+## Cases of the passive caseful verb
 
 The 
-passive stateful verb
-has three states, just like the
-active stateful verb:
-the u-state, the a-state, and the ø-state.
-The three states are used in the same circumstances, and with the same rules that we have already learned.
+passive caseful verb
+has three cases, just like the
+active caseful verb:
+the u-case, the a-case, and the ø-case.
+The three cases are used in the same circumstances, and with the same rules that we have already learned.
 
-So the u-state verb is used for making plain statements:
+So the u-case verb is used for making plain statements:
 
 [تُذْكَرُ قِصَّةُ ٱلْمَلِكِ فِي كُتُبِ ٱلتَّأْرِيخِ.]{.ar}  
 "The story of the king is mentioned in the books of history."
@@ -297,7 +297,7 @@ So the u-state verb is used for making plain statements:
 [لَا تُرْفَعُ ٱلْأَصْوَاتُ فِي ٱلْمَكْتَبَةِ.]{.ar}  
 "Voices are not raised in the library."
 
-The a-state verb is used for expressing wish or purpose:
+The a-case verb is used for expressing wish or purpose:
 
 [يَأْمُلُ ٱلْمُسْلِمُونَ أَنْ يُغْفَرُ لَهُمْ.]{.ar}  
 "The Muslims hope that they be forgiven."  
@@ -309,7 +309,7 @@ The a-state verb is used for expressing wish or purpose:
 [دُفِعَ ٱلْبَابُ حَتَّىٰ يُفْتَحَ.]{.ar}  
 "The door was pushed for the result that it open."
 
-Similarly, the ø-state verb is used in the following cases:
+Similarly, the ø-case verb is used in the following cases:
 
 + With [لَمْ]{.ar} "was not":
   

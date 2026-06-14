@@ -26,13 +26,13 @@ Before we begin our discussion about broken plurals, we will do a quick review o
 
 Most words in Arabic are formed from three letter roots. We use the paradigm root [فعل]{.ar} to show word patterns. For example, the noun [رَجُل]{.ar} [rajul]{.trn} "a man" is formed from the root [رجل]{.ar} on the pattern [فَعُل]{.ar} [faeul]{.trn}.
 
-Most nouns in Arabic are _fully-flexible_. This means that, when indefinite, they are ;tanwin;ed and the indefinite ;istate; is shown by a ;tanwin;ed ;imark; [◌ٍ]{.ar} at the end of the noun. For example, [رَجُل]{.ar} [rajul]{.trn} "a man" and [بَيْت]{.ar} [bayt]{.trn} "a house" are fully-flexible nouns. So, you can see, below, that they are ;tanwin;ed, and the indefinite ;istate; is indicated by a ;tanwin;ed ;imark; [◌ٍ]{.ar}:
+Most nouns in Arabic are _fully-flexible_. This means that, when indefinite, they are ;tanwin;ed and the indefinite ;icase; is shown by a ;tanwin;ed ;imark; [◌ٍ]{.ar} at the end of the noun. For example, [رَجُل]{.ar} [rajul]{.trn} "a man" and [بَيْت]{.ar} [bayt]{.trn} "a house" are fully-flexible nouns. So, you can see, below, that they are ;tanwin;ed, and the indefinite ;icase; is indicated by a ;tanwin;ed ;imark; [◌ٍ]{.ar}:
 
 [ذَهَبَ رَجُلٌ إِلَىٰ بَيْتٍ.]{.ar}  
 [pahaba rajulun EilA bayt.]{.trn}  
 "A man went to a house."
 
-Some nouns are _semi-flexible_. This means that they are not ;tanwin;ed, and also, the indefinite ;istate; is indicated by an ;amark; [◌َ]{.ar}. Examples of such nouns are:
+Some nouns are _semi-flexible_. This means that they are not ;tanwin;ed, and also, the indefinite ;icase; is indicated by an ;amark; [◌َ]{.ar}. Examples of such nouns are:
 
 + ^2^[غَضْبَىٰ]{.ar} [gaDbA]{.trn}^2^ _adj._ (fem.) "a very angry one~f~" from the root [غضب]{.ar}
 + ^2^[صَحْرَاء]{.ar} [SaHrAE]{.trn}^2^ (fem.) "a desert~f~" from the root [صحر]{.ar}
@@ -495,7 +495,7 @@ Note the following from the above broken plural patterns and examples:
     |:-|:--|:--|:--
     |[هدي]{.ar} |^2^[فَعَالَىٰ]{.ar} |$\times$\ ^2^[هَدَايَىٰ]{.ar} |^2^[هَدَايَا]{.ar}
 
-  + A [ي]{.ar} at the end of a word, in some states, gets omitted  and replaced by a ;tanwin;ed ;imark; [◌ٍ]{.ar} on the preceding letter. This happens even when the [ي]{.ar} is extrinsic to the root, and even if the word is semi-flexible (and thus would not normally be ;tanwin;ed). Examples:
+  + A [ي]{.ar} at the end of a word, in some ;case;s, gets omitted  and replaced by a ;tanwin;ed ;imark; [◌ٍ]{.ar} on the preceding letter. This happens even when the [ي]{.ar} is extrinsic to the root, and even if the word is semi-flexible (and thus would not normally be ;tanwin;ed). Examples:
 
     |Root | Word pattern | Expected word  | Actual word 
     |:-|:--|:--|:--
@@ -684,7 +684,7 @@ We will discuss the plurals of intelligent beings and non-intelligent beings sep
 
 ### Plurals of intelligent beings in descriptive noun-phrases
 
-Consistent with what we have learned so far, when the ;manut; in a noun-phrase is plural, then the ;na3t; comes after it, and matches it in state, definiteness, gender, and number.
+Consistent with what we have learned so far, when the ;manut; in a noun-phrase is plural, then the ;na3t; comes after it, and matches it in ;case;, definiteness, gender, and number.
 
 Either or both of the ;na3t; and the ;manut; may be sound plurals or broken plurals.
 

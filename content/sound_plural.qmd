@@ -43,39 +43,39 @@ Arabic has two categories of plurals:
 
 ## The [Un]{.trn} sound plural
 
-The [Un]{.trn} sound plural is formed by adding the ending [◌ُونَ]{.ar} [-Una]{.trn} to the singular noun when it is in the u-state, and [◌ِينَ]{.ar} [-Ina]{.trn} when the noun is in the a-state or i-state. For convenience, we will call it the "[Un]{.trn} sound plural" instead of the "[-Una]{.trn}/[-Ina]{.trn} plural".
+The [Un]{.trn} sound plural is formed by adding the ending [◌ُونَ]{.ar} [-Una]{.trn} to the singular noun when it is in the u-case, and [◌ِينَ]{.ar} [-Ina]{.trn} when the noun is in the a-case or i-case. For convenience, we will call it the "[Un]{.trn} sound plural" instead of the "[-Una]{.trn}/[-Ina]{.trn} plural".
 
 Here is the [Un]{.trn} sound plural of [مُعَلِّم]{.ar} [mueallim]{.trn} "a teacher~m~":
 
-| State | Indefinite [Un]{.trn} plural "teachers~m~"| Definite [Un]{.trn} plural "the teachers~m~"|
+| Case | Indefinite [Un]{.trn} plural "teachers~m~"| Definite [Un]{.trn} plural "the teachers~m~"|
 |:---------|:-------------|:-------------|
-| u-state         | [مُعَلِّمُونَ]{.ar} [mueallimUna]{.trn} |[ٱَلْمُعَلِّمُونَ]{.ar} [EalmueallimUna]{.trn}|
-| a-state and i-state | [مُعَلِّمِينَ]{.ar} [mueallimIna]{.trn} |[ٱَلْمُعَلِّمِينَ]{.ar} [EalmueallimIna]{.trn}|
+| u-case         | [مُعَلِّمُونَ]{.ar} [mueallimUna]{.trn} |[ٱَلْمُعَلِّمُونَ]{.ar} [EalmueallimUna]{.trn}|
+| a-case and i-case | [مُعَلِّمِينَ]{.ar} [mueallimIna]{.trn} |[ٱَلْمُعَلِّمِينَ]{.ar} [EalmueallimIna]{.trn}|
 
 Note that, just like for duals, the indefinite [Un]{.trn} sound plural is not [tanwIn]{.trn2}ed. The only difference between the definite and indefinite [Un]{.trn} sound plural is the definite article [ٱَلْ]{.ar} "the". 
 
 The duals of [مُعَلِّم]{.ar} [mueallim]{.trn} "a teacher~m~" are included here for comparison:
 
-| State | Indefinite [Un]{.trn} sound plural "teachers~m,2~" | Definite [Un]{.trn} sound plural "the teachers~m,2~"|
+| Case | Indefinite [Un]{.trn} sound plural "teachers~m,2~" | Definite [Un]{.trn} sound plural "the teachers~m,2~"|
 |:---------|:-------------|:-------------|
-| u-state         | [مُعَلِّمَانِ]{.ar} [mueallimAni]{.trn} |[ٱَلْمُعَلِّمَانِ]{.ar} [EalmueallimAni]{.trn}|
-| a-state and i-state | [مُعَلِّمَيْنِ]{.ar} [mueallimayni]{.trn} |[ٱَلْمُعَلِّمَيْنِ]{.ar} [Ealmueallimayni]{.trn}|
+| u-case         | [مُعَلِّمَانِ]{.ar} [mueallimAni]{.trn} |[ٱَلْمُعَلِّمَانِ]{.ar} [EalmueallimAni]{.trn}|
+| a-case and i-case | [مُعَلِّمَيْنِ]{.ar} [mueallimayni]{.trn} |[ٱَلْمُعَلِّمَيْنِ]{.ar} [Ealmueallimayni]{.trn}|
 
 Here are some examples of the [Un]{.trn} sound plural in sentences:
 
-+ u-state:
++ u-case:
 
   [ٱلْمُعَلِّمُونَ فِي ٱلْمَدْرَسَةِ.]{.ar}  
   [EalmueallimUna fi -lmadrasah]{.trn}  
   "The teachers are in the school."
 
-+ a-state:
++ a-case:
 
   [سَأَلَ ٱلْغُلَامُ مُعَلِّمِينَ عَنْ أَمْرٍ.]{.ar}  
   [saEala -lgulAmu mueallimIna ean Eamr.]{.trn}  
   "The boy asked some teachers about a matter."
 
-+ i-state:
++ i-case:
 
   [طَلَبَ ٱلْغُلَامُ مِنَ ٱلْمُعَلِّمِينَ عِلْمًا.]{.ar}  
   [Talaba -lgulAmu mina -lmueallimIna eilmA.]{.trn}  
@@ -87,7 +87,7 @@ Except for very few exceptions, the [Un]{.trn} sound plural is used only for mal
 
 <!--We will learn some of these exceptions in chapter\ \@ref(irregular-nouns).-->
 
-<!--Of these exceptions, the word [سَنَةٌ]{.ar} [sanatun]{.trn} "a year" is the most common. It is pluralized as [سِنُونَ]{.ar} [sinUna]{.trn} in the u-state and [سِنِينَ]{.ar} [sinIna]{.trn} in the a-state and i-state.-->
+<!--Of these exceptions, the word [سَنَةٌ]{.ar} [sanatun]{.trn} "a year" is the most common. It is pluralized as [سِنُونَ]{.ar} [sinUna]{.trn} in the u-case and [سِنِينَ]{.ar} [sinIna]{.trn} in the a-case and i-case.-->
 
 The few exceptions of common nouns that denote non-male intelligent beings, yet have an [Un]{.trn} sound plural include:
 
@@ -98,51 +98,51 @@ The few exceptions of common nouns that denote non-male intelligent beings, yet 
 
 ## The [At]{.trn} sound plural
 
-The [At]{.trn} sound plural is formed by adding the ending [ات]{.ar} [At]{.trn} to the indefinite singular noun. <!-- when it is in the u-state, and [ـَاتٍ]{.ar} [Atin]{.trn} when the noun is in the a-state or i-state.-->
+The [At]{.trn} sound plural is formed by adding the ending [ات]{.ar} [At]{.trn} to the indefinite singular noun. <!-- when it is in the u-case, and [ـَاتٍ]{.ar} [Atin]{.trn} when the noun is in the a-case or i-case.-->
 
 Here is the [At]{.trn} sound plural of [حَيَوَان]{.ar} [HayawAn]{.trn} "an animal":
 
-| State | Indefinite [Un]{.trn} plural "animals"| Definite [Un]{.trn} plural "the animals"|
+| Case | Indefinite [Un]{.trn} plural "animals"| Definite [Un]{.trn} plural "the animals"|
 |:---------|:-------------|:-------------|
-| u-state         | [حَيَوَانَاتٌ]{.ar} [HayawAnAtun]{.trn} |[ٱَلْحَيَوَانَاتُ]{.ar} [EalHayawAnAtu]{.trn}|
-| a-state and i-state | [حَيَوَانَاتٍ]{.ar} [HayawAnAtin]{.trn} |[ٱَلْحَيَوَانَاتِ]{.ar} [EalHayawAnAti]{.trn}|
+| u-case         | [حَيَوَانَاتٌ]{.ar} [HayawAnAtun]{.trn} |[ٱَلْحَيَوَانَاتُ]{.ar} [EalHayawAnAtu]{.trn}|
+| a-case and i-case | [حَيَوَانَاتٍ]{.ar} [HayawAnAtin]{.trn} |[ٱَلْحَيَوَانَاتِ]{.ar} [EalHayawAnAti]{.trn}|
 
 Note that: <!-- there _are_ [tanwIn]{.trn2}s for the [At]{.trn} sound plural. Definite plural nouns are also formed in the same way but they won't have [tanwIn]{.trn2}s:-->
 
-+ Unlike the [Un]{.trn} sound plural, the [At]{.trn} sound plural is [tanwIn]{.trn2}ed when indefinite. Also, just like for singular nouns, the final vowel on the plural ending [ات]{.ar} [At]{.trn} indicates the state of the plural.
-+ The [At]{.trn} sound plural does not take the [fatHah]{.trn2} [◌َ]{.ar} and the [tanwIn]{.trn2}ed [fatHah]{.trn2} [◌ً]{.ar}. Instead the [kasrah]{.trn2} [◌ِ]{.ar} and the [tanwIn]{.trn2}ed [kasrah]{.trn2} [◌ٍ]{.ar} are used to indicate both the a-state and the i-state.
++ Unlike the [Un]{.trn} sound plural, the [At]{.trn} sound plural is [tanwIn]{.trn2}ed when indefinite. Also, just like for singular nouns, the final vowel on the plural ending [ات]{.ar} [At]{.trn} indicates the case of the plural.
++ The [At]{.trn} sound plural does not take the [fatHah]{.trn2} [◌َ]{.ar} and the [tanwIn]{.trn2}ed [fatHah]{.trn2} [◌ً]{.ar}. Instead the [kasrah]{.trn2} [◌ِ]{.ar} and the [tanwIn]{.trn2}ed [kasrah]{.trn2} [◌ٍ]{.ar} are used to indicate both the a-case and the i-case.
 
-| State | the animal | the animals
+| Case | the animal | the animals
 |:-----------|:-------------|:-------------|
-| u-state | [ٱَلْحَيَوَانُ]{.ar} [EalHayawAnu]{.trn}| [ٱَلْحَيَوَانَاتُ]{.ar} [EalHayawAnAtu]{.trn}|
-| a-state | [ٱَلْحَيَوَانَ]{.ar} [EalHayawAna]{.trn}| [ٱَلْحَيَوَانَاتِ]{.ar} [EalHayawAnAti]{.trn}|
-| i-state | [ٱَلْحَيَوَانِ]{.ar} [EalHayawAni]{.trn}| [ٱَلْحَيَوَانَاتِ]{.ar} [EalHayawAnAti]{.trn}|
+| u-case | [ٱَلْحَيَوَانُ]{.ar} [EalHayawAnu]{.trn}| [ٱَلْحَيَوَانَاتُ]{.ar} [EalHayawAnAtu]{.trn}|
+| a-case | [ٱَلْحَيَوَانَ]{.ar} [EalHayawAna]{.trn}| [ٱَلْحَيَوَانَاتِ]{.ar} [EalHayawAnAti]{.trn}|
+| i-case | [ٱَلْحَيَوَانِ]{.ar} [EalHayawAni]{.trn}| [ٱَلْحَيَوَانَاتِ]{.ar} [EalHayawAnAti]{.trn}|
 
 ### Nouns ending in [ة]{.ar}
 
 If a noun ends with a [ة]{.ar}, then it is removed before appending the [At]{.trn} sound plural ending. 
 Here, for example, is the [At]{.trn} sound plural of [مُعَلِّمَة]{.ar} [mueallimah]{.trn} "a teacher~f~":
 
-| State | Indefinite [Un]{.trn} plural "teachers~f~"| Definite [Un]{.trn} plural "the teachers~f~"|
+| Case | Indefinite [Un]{.trn} plural "teachers~f~"| Definite [Un]{.trn} plural "the teachers~f~"|
 |:---------|:-------------|:-------------|
-| u-state         | [مُعَلِّمَاتٌ]{.ar} [mueallimAtun]{.trn} |[ٱَلْمُعَلِّمَاتُ]{.ar} [EalmueallimAtu]{.trn}|
-| a-state and i-state | [مُعَلِّمَاتٍ]{.ar} [mueallimAtin]{.trn} |[ٱَلْمُعَلِّمَاتِ]{.ar} [EalmueallimAti]{.trn}|
+| u-case         | [مُعَلِّمَاتٌ]{.ar} [mueallimAtun]{.trn} |[ٱَلْمُعَلِّمَاتُ]{.ar} [EalmueallimAtu]{.trn}|
+| a-case and i-case | [مُعَلِّمَاتٍ]{.ar} [mueallimAtin]{.trn} |[ٱَلْمُعَلِّمَاتِ]{.ar} [EalmueallimAti]{.trn}|
 
 Here are some examples of the [At]{.trn} sound plural in sentences:
 
-+ u-state:
++ u-case:
 
   [فِي ٱلْمَدْرَسَةِ مُعَلِّمَاتٌ .]{.ar}  
   [fi -lmadrasati mueallimAt.]{.trn}  
   "In the school are teachers."
 
-+ a-state:
++ a-case:
 
   [نَصَرَ ٱللَّـٰهُ ٱلْمُسْلِمِينَ.]{.ar}  
   [naSara -llAhu -lmuslimIn.]{.trn}  
   "[#allAh]{.trn2} aided the Muslims.
 
-+ i-state:
++ i-case:
 
   [نَظَرَ ٱلْغُلَامُ إِلَى ٱلْحَيَوَانَاتِ.]{.ar}  
   [naPara -lgulAmu Eila -lHayawAnAt.]{.trn}  
@@ -591,7 +591,7 @@ Examples:
 
 ### Plural nouns for the doer
 
-We learned that the stateless verb for a masculine doer is on the pattern [فَعَلَ]{.ar}. And when the doer is feminine, the [ت]{.ar} of femininity is attached to the verb thus: [فَعَلَتْ]{.ar}. We have used these verbs with singular and dual doer nouns. The doer noun always comes after the verb and shall be in the u-state. Examples:
+We learned that the caseless verb for a masculine doer is on the pattern [فَعَلَ]{.ar}. And when the doer is feminine, the [ت]{.ar} of femininity is attached to the verb thus: [فَعَلَتْ]{.ar}. We have used these verbs with singular and dual doer nouns. The doer noun always comes after the verb and shall be in the u-case. Examples:
 
 [ذَهَبَ ٱلْغُلَامُ.]{.ar}  
 [pahaba -lgulAmu.]{.trn}  
@@ -762,7 +762,7 @@ and
 
 Here are the detached, attached, and doer pronouns for the plural:
 
-|Person|Detached pronoun|Stateless verb doer pronoun|Stateless verb with doer pronoun|Attached pronoun|
+|Person|Detached pronoun|Caseless verb doer pronoun|Caseless verb with doer pronoun|Attached pronoun|
 |:---|:----|:----|:----|
 | they/them~pl.\ masc.~ |[هُمْ]{.ar} [hum]{.trn}        | [◌ُو]{.ar} [-U]{.trn}     |[فَعَلُوا]{.ar} [faealU]{.trn}     |[هُمْ]{.ar} [-hum]{.trn}|
 | they/them~pl.\ fem.~  |[هُنَّ]{.ar} [hunna]{.trn}      | [نَ]{.ar} [-na]{.trn}     |[فَعَلْنَ]{.ar} [faealna]{.trn}     |[هُنَّ]{.ar} [-hunna]{.trn}|

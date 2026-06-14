@@ -129,15 +129,15 @@ then he is doing so for stylistic reasons.^[Hickey, L, "Stylistics, Pragmatics, 
 
 A sentence in Arabic is constituted from elements.
 An element can be a noun, a verb, or a particle.
-Of these elements, some have the quality of state.
-These are called _stateful_ elements.
-The stateful elements are nouns and stateful verbs.
-A noun may be either in the u-state, a-state, or i-state.
-And a stateful verb may be either in the u-state, a-state, or ø-state.
+Of these elements, some have the quality of case.
+These are called _caseful_ elements.
+The caseful elements are nouns and caseful verbs.
+A noun may be either in the u-case, a-case, or i-case.
+And a caseful verb may be either in the u-case, a-case, or ø-case.
 
-The theory of government states that a stateful element
+The theory of government states that a caseful element
 in a sentence
-is _governed_ in a particular state by a _governor_.
+is _governed_ in a particular case by a _governor_.
 
 For example:
 
@@ -149,12 +149,12 @@ In the above example,
 the particle fii is the governor of the noun al-daari.
 The noun al-daar is the governee of its governor fii.
 -->
-the preposition [فِي]{.ar} causes the noun [الدَّار]{.ar} to be in the i-state.
+the preposition [فِي]{.ar} causes the noun [الدَّار]{.ar} to be in the i-case.
 So we say that 
-the _governor_ [فِي]{.ar} _governs_ [الدَّار]{.ar} (the _governee_) in the i-state.
+the _governor_ [فِي]{.ar} _governs_ [الدَّار]{.ar} (the _governee_) in the i-case.
 <!--
 We say that
-the preposition fii is the governor of i-state noun al-daar because it is the reason or cause of the noun al-daar being in the i-state.
+the preposition fii is the governor of i-case noun al-daar because it is the reason or cause of the noun al-daar being in the i-case.
 
 Here is another example:
 
@@ -164,15 +164,15 @@ In this example, the governor is the verb Daraba.
 It has two governees:
 the doer zayd,
 and the direct doee eamr.
-The governor Daraba governs the doer zayd in the u-state
-and it governs the direct doee in the a-state.
+The governor Daraba governs the doer zayd in the u-case
+and it governs the direct doee in the a-case.
 
 #### A governee can only have one governor  {.unnumbered}
 
 From example (@3amal_zayd_beat_3amr),
 you can see that one goveror may govern multiple governees.
 However, one governee cannot be be governed by multiple governors.
-In other words, there can be only one governor that causes a stateful element to be in a particular state.
+In other words, there can be only one governor that causes a caseful element to be in a particular case.
 
 #### The word-order of a governor and its governee(s)  {.unnumbered}
 
@@ -197,38 +197,38 @@ We will make use of the following example:
 
 (@ex000554) [قَرَأَ الْغُلَامُ الطَّوِيلُ كِتَابَ الجَارِيَةِ فِي الدَّارِ الْكَبِيرَةِ]{.ar}
 
-#### The i-state noun {.unnumbered}
+#### The i-case noun {.unnumbered}
 
-A noun in the i-state is governed by a preceding preposition or annexe noun.
+A noun in the i-case is governed by a preceding preposition or annexe noun.
 We have already seen that the
-i-state noun [الدَّار]{.ar} is governed by the preceding preposition [فِي]{.ar}.
+i-case noun [الدَّار]{.ar} is governed by the preceding preposition [فِي]{.ar}.
 <!--
 We saw an example of a governing preposition in (@3amal_in_house) [فِي الدَّارِ]{.ar} above.
 -->
-We also see that the i-state base noun [الجَارِيَةِ]{.ar}
+We also see that the i-case base noun [الجَارِيَةِ]{.ar}
 is governed by the annexe noun [كِتَابَ]{.ar}.
 
 #### The doer {.unnumbered}
 
 The doer of a verb is governed by its preceding verb.
-In our example the verb [قَرَأَ]{.ar} governs its doer [الْغُلَامُ]{.ar} in the u-state.
+In our example the verb [قَرَأَ]{.ar} governs its doer [الْغُلَامُ]{.ar} in the u-case.
 
 #### The direct doee {.unnumbered}
 
 The direct doee is also governed by its verb.
-In our example the verb [قَرَأَ]{.ar} governs its direct doee [كِتَابَ]{.ar} in the a-state.
+In our example the verb [قَرَأَ]{.ar} governs its direct doee [كِتَابَ]{.ar} in the a-case.
 
 #### The attribute {.unnumbered}
 
 A attribute is governed by governor of its attributee.
-In our example, the attribute [الطَّوِيلُ]{.ar} is governed in the u-state by [قَرَأَ]{.ar}, which is the governor of its attributee
+In our example, the attribute [الطَّوِيلُ]{.ar} is governed in the u-case by [قَرَأَ]{.ar}, which is the governor of its attributee
 [الْغُلَامُ]{.ar}.
 Similarly, the attribute
 [الْكَبِيرَةِ]{.ar}
-is governed in the i-state by the preposition [فِي]{.ar} because [فِي]{.ar} also governs its attributee [الدَّارِ]{.ar}.
+is governed in the i-case by the preposition [فِي]{.ar} because [فِي]{.ar} also governs its attributee [الدَّارِ]{.ar}.
 
 <!--
-Here is an example of an i-state noun 
+Here is an example of an i-case noun 
 ([زَيْدٍ]{.ar})
 being governed by a preceding annexe noun
 ([كِتَابُ]{.ar}):
@@ -247,7 +247,7 @@ For example:
 In example (@Daraba_zaydun_3amran) above,
 the verb [ضَرَبَ]{.ar}
 governs its doer
-[زَيْدٌ]{.ar} in the u-state.
+[زَيْدٌ]{.ar} in the u-case.
 
 #### The direct doee {.unnumbered}
 
@@ -260,13 +260,13 @@ For example:
 In example (@Daraba_zaydun_3amran) above,
 the verb [ضَرَبَ]{.ar}
 governs its doer
-[زَيْدٌ]{.ar} in the u-state.
+[زَيْدٌ]{.ar} in the u-case.
 -->
 
 #### Ungoverned elements {.unnumbered}
 
 Not every element in a sentence is governed by a governor.
-For example, the stateless verb [قَرَأَ]{.ar} has no state, and thus, no governor.
+For example, the caseless verb [قَرَأَ]{.ar} has no case, and thus, no governor.
 
 Here is a diagram depicting the above governor-governee relationships:
 
@@ -404,7 +404,7 @@ Foundational government may be of different types:
 In some sentences, the intitial governor may be one of the two indispensable elements.
 In example (@3amal_qaama_zaydun) above,
 the verb [قَامَ]{.ar} governs its doer [زَيْدٌ]{.ar}.
-The stateless verb [قَامَ]{.ar} has no state and thus needs no governor.
+The caseless verb [قَامَ]{.ar} has no case and thus needs no governor.
 So it is, itself, the foundational government.
 
 DIAGRAM
@@ -447,7 +447,7 @@ But it is needed to govern the indispensable elements.
 #### The abstract foundational government {.unnumbered}
 
 Very commonly, the foundational government is not an actual word, but only an abstract concept.
-When there is one or more stateful indispensable elements in a sentence with no overt (i.e. observable) governor,
+When there is one or more caseful indispensable elements in a sentence with no overt (i.e. observable) governor,
 then this necessitates bringing in a _abstract_ foundational government.^[Owens,\ J., _The foundations of grammar_ 55; Peled, _Sentence types_ 87--88]
 For example:
 
@@ -458,13 +458,13 @@ For example:
 The abstract foundational government governs both the leaned-against element (the subject [زَيْدٌ]{.ar}),
 and the leaning element (the info 
 [مُنْطَلِقٌ]{.ar})
-in the u-state.
+in the u-case.
 
 (@ex000559) [يَقُومُ زَيْدٌ]{.ar}  
     [Zayd stands]{.trans}
 
-The abstract foundational government governs the leaning element (the stateful verb [يَقُومُ]{.ar}) in the u-state.
-And, as usual, the verb [يَقُومُ]{.ar} governs its doer [زَيْدٌ]{.ar} (the leaned-against element) in the u-state.
+The abstract foundational government governs the leaning element (the caseful verb [يَقُومُ]{.ar}) in the u-case.
+And, as usual, the verb [يَقُومُ]{.ar} governs its doer [زَيْدٌ]{.ar} (the leaned-against element) in the u-case.
 
 <!--
 
@@ -489,8 +489,8 @@ DAribun abUhu eamran
 The doer participle DAribun governs the its doer abUhu,
 and its direct doee 3amr.
 (Remember from section\ (ref) that an doer participle may have a doer and a direct doee.)
-But DAribun is a stateful element that itself needs a governor.
-It is put in the u-state because it is the info of the subject zaydun.
+But DAribun is a caseful element that itself needs a governor.
+It is put in the u-case because it is the info of the subject zaydun.
 by the conceptual governor that governs the larger sentence.
 
 (@ex000561) inna zaydan DAribun eamran
@@ -503,8 +503,8 @@ For now, we will give a brief overview specific to this example.
 
 In the above example,
 the foundational government is the particle inna.
-It governs its subject zaydun in the a-state.
-And it governs its info DAribun in the u-state.
+It governs its subject zaydun in the a-case.
+And it governs its info DAribun in the u-case.
 However, its info 
 the smaller sentence is
 DAribun eamran
@@ -513,8 +513,8 @@ The doer participle DAribun governs
 and its direct doee 3amr,
 (and also its implied doer "he").
 (Remember from section\ (ref) that an doer participle may have a doer and a direct doee.)
-But DAribun is a stateful element that itself needs a governor.
-It is put in the u-state because it is the info of the foundational government inna.
+But DAribun is a caseful element that itself needs a governor.
+It is put in the u-case because it is the info of the foundational government inna.
 -->
 
 <!--
@@ -529,8 +529,8 @@ For now, we will give a brief overview specific to this example.
 
 In the above example,
 the foundational government of the outer sentence is the verb kaana.
-It governs its doer zaydun in the u-state.
-And it governs its info muntaliqan in the a-state.
+It governs its doer zaydun in the u-case.
+And it governs its info muntaliqan in the a-case.
 However,
 muntaliqan and its doer abUhu
 also constitute a sentence by themselves.
@@ -554,16 +554,16 @@ For example:
     [Zayd was not standing.]{.trans}
 
 In the example above,
-the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the ø-state.
+the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the ø-case.
 The verb [يَكُنْ]{.ar}, being a deficient verb, is not an indispensable element.
-But [يَكُنْ]{.ar} governs the leaned-against element [زَيْدٌ]{.ar} in the u-state
-and the leaning element [قَائِمًا]{.ar} in the a-state.
+But [يَكُنْ]{.ar} governs the leaned-against element [زَيْدٌ]{.ar} in the u-case
+and the leaning element [قَائِمًا]{.ar} in the a-case.
 Therefore [يَكُنْ]{.ar} is part of the foundational government.
 -->
 
 ## Dispensable elements
 
-A dispensable element is any stateful element in a sentence,
+A dispensable element is any caseful element in a sentence,
 following the foundational government (in government hierarchy),
 that is not either of the two indispensable elements.
 The source of government for 
@@ -582,10 +582,10 @@ Here is an (incomplete) list of some common dispensable elements:
 <!--
 We will discuss some of dispensable elements below:
 
-#### The a-state governees of a verb {.unnumbered}
+#### The a-case governees of a verb {.unnumbered}
 
 The most prominent dispensable elements are 
-all a-state elements that a verb governs.
+all a-case elements that a verb governs.
 These include:
 -->
 
@@ -750,10 +750,10 @@ Similarly consider the sentence:
     [Zayd was not standing.]{.trans}
 
 In the example above,
-the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the ø-state.
+the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the ø-case.
 The verb [يَكُنْ]{.ar}, being a deficient verb, is not an indispensable element.
-But [يَكُنْ]{.ar} governs the leaned-against element [زَيْدٌ]{.ar} in the u-state
-and the leaning element [قَائِمًا]{.ar} in the a-state.
+But [يَكُنْ]{.ar} governs the leaned-against element [زَيْدٌ]{.ar} in the u-case
+and the leaning element [قَائِمًا]{.ar} in the a-case.
 Therefore both [لَمْ]{.ar} and [يَكُنْ]{.ar} form the foundational government.
 
 [كَانَ]{.ar} and its sisters are discussed in more detail in chapters\ (ref).
@@ -817,8 +817,8 @@ For example:
     [then sufficient for you is Allāh]{.trans}
 
 In example (@3amal_fainna_hasbaka_allahu) above,
-[حَسْب]{.ar} is in the a-state as the subject and 
-the word [ٱللَّهُ]{.ar} is in the u-state as the info.
+[حَسْب]{.ar} is in the a-case as the subject and 
+the word [ٱللَّهُ]{.ar} is in the u-case as the info.
 This tells us that
 [حَسْب]{.ar} is the leaned-against element and the word
 [ٱللَّهُ]{.ar} is the leaning element.
@@ -1057,14 +1057,14 @@ is a complete sentence that is the info of the outer sentence.
 This inner sentence has its own internal government,
 starting with its foundational government [لَمْ]{.ar}.
 The foundational government [لَمْ]{.ar}
-governs the verb [يَضْرِبْ]{.ar} in the ø-state.
+governs the verb [يَضْرِبْ]{.ar} in the ø-case.
 And the verb [يَضْرِبْ]{.ar}
-governs an implicated latent doer pronoun ([هُوَ]{.ar}) in the u-state,
-and the direct doee [عَمْرًا]{.ar} in the a-state.
+governs an implicated latent doer pronoun ([هُوَ]{.ar}) in the u-case,
+and the direct doee [عَمْرًا]{.ar} in the a-case.
 
 We will say that the inner sentence 
 [لَمْ يَضْرِبْ عَمْرًا]{.ar}
-is a positional u-state noun as the info of the outer sentence.
+is a positional u-case noun as the info of the outer sentence.
 
 The government of this compound sentence is illustrated in the diagram below:
 
@@ -1180,7 +1180,7 @@ It is not only the info which can be replaced with a complete sentence.
 Other grammatical categories are also, by default, a single noun, but which can be replaced with complete sentences.
 We will discuss some of these categories below,
 and treat other categories in their respective chapters
-(like the [HAl]{.trn2}, the condition-response, and verbs of perception).
+(like the [HAl]{.trn2}, the CR, and verbs of perception).
 
 <!--
 ### The deputy doer as a complete sentence
@@ -1197,7 +1197,7 @@ For example:
 
 In the example above, the sentence 
 [إِنِّی عَبۡدُ ٱللَّهِ]{.ar}
-is in place of the a-state direct doee of [قَالَ]{.ar}.
+is in place of the a-case direct doee of [قَالَ]{.ar}.
 
 A complete sentence can also occur as a direct doee with verbs of perception.
 Examples:
@@ -1209,7 +1209,7 @@ Examples:
 In the example above,
 the verbal sentence
 [يَقْرَأُ]{.ar}
-is in place of the a-state direct doee of [ظَنَنْتُ]{.ar}.
+is in place of the a-case direct doee of [ظَنَنْتُ]{.ar}.
 We will learn more about this category in chapter\ (ref), if Allāh wills.
 
 ### The attribute as a complete sentence
@@ -1232,19 +1232,19 @@ with the sentence
     [I passed by a man [that] stands.]{.trans}  
     (literally: [I passed by a 'he stands' man.]{.trans}
 
-Note that the stateful verb
+Note that the caseful verb
 [يَقُومُ]{.ar}
-is in the u-state.
+is in the u-case.
 This is because
 [يَقُومُ]{.ar}
 is a complete sentence (with an implied doer pronoun).
 So it has its own internal government that is not affected by any element in the outer sentence.
-Thus, the state of the attributee
-[رَجُلٍ]{.ar} has no effect on any state within the sentence-attribute.
-However, the entire sentence attribute is _in place_ of a i-state noun as the attribute of 
+Thus, the case of the attributee
+[رَجُلٍ]{.ar} has no effect on any case within the sentence-attribute.
+However, the entire sentence attribute is _in place_ of a i-case noun as the attribute of 
 [رَجُلٍ]{.ar}.
 
-Substituing a single-noun attribute with its corresponding stateful verb is the most basic form of the sentence-attribute.
+Substituing a single-noun attribute with its corresponding caseful verb is the most basic form of the sentence-attribute.
 However, more complex sentence-attributes may also be formed.
 For example:
 
@@ -1326,7 +1326,7 @@ In example (@3amal_yawmu_yanfa3) above the entire sentence
 is the base noun to the annexe noun [يَوْمُ]{.ar}.
 As with sentence-infos and sentence-attributes,
 the sentence-base noun has its own internal government.
-And the sentence-base noun is _in place_ of an i-state noun.
+And the sentence-base noun is _in place_ of an i-case noun.
 
 Here is another example:
 
@@ -1500,7 +1500,7 @@ For example:
 
 TODO
 
-## Occupied state
+## positional case
 
 [في محل رفع/نصب/جزم]{.ar}
 

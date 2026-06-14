@@ -1,4 +1,4 @@
-# The ;0state; ;mudarie; verb
+# The ;0case; ;mudarie; verb
 
 ;wip_warn;
 
@@ -6,38 +6,38 @@
 ## Introduction
 
 In 
-chapter\ \@ref(;ustate;-;mudarie;-verbs)
-we mentioned that ;mudarie; verbs have three states (like nouns). 
-These states are called:
+chapter\ \@ref(;ucase;-;mudarie;-verbs)
+we mentioned that ;mudarie; verbs have three ;case;s (like nouns). 
+These ;case;s are called:
 
-i. The ;ustate;
-i. The ;astate;
-i. The ;0state;
+i. The ;ucase;
+i. The ;acase;
+i. The ;0case;
 
-We have already studied the ;ustate; of ;mudarie; verbs in 
-chapter\ \@ref(;ustate;-;mudarie;-verbs).
+We have already studied the ;ucase; of ;mudarie; verbs in 
+chapter\ \@ref(;ucase;-;mudarie;-verbs).
 And we will defer the study of 
-;astate; of ;mudarie; verbs to
-chapter\ \@ref(;astate;-;mudarie;-verbs).
+;acase; of ;mudarie; verbs to
+chapter\ \@ref(;acase;-;mudarie;-verbs).
 In this chapter we will study the 
-;0state;
+;0case;
 ;mudarie; verb.
 
 We will also study the _verb of command_ which is very similar to the 
-;0state;
+;0case;
 ;mudarie; verb.
 
-## Forming the ;0state; ;mudarie; verb
+## Forming the ;0case; ;mudarie; verb
 
-Here is the ;ustate; ;mudarie; verb for the singular masculine absentee participant ;faa3il; "he":
+Here is the ;ucase; ;mudarie; verb for the singular masculine absentee participant ;faa3il; "he":
 
 [يَفْعَلُ]{.ar}  
 [yafealu]{.trn}  
 "he does"
 
-Note that, because it is in the ;ustate;, the its final letter ends with a ;umark; [◌ُ]{.ar}.
+Note that, because it is in the ;ucase;, the its final letter ends with a ;umark; [◌ُ]{.ar}.
 In order to form the 
-;0state;
+;0case;
 ;mudarie; verb,
 we change the ;umark; into a
 ;0mark; [◌ْ]{.ar}, thus:
@@ -45,12 +45,12 @@ we change the ;umark; into a
 [يَفْعَلْ]{.ar}  
 [yafeal]{.trn}  
 
-This is done for all participants whose ;faa3il; pronoun is invisible and ;ustate; verb ends with a ;umark; [◌ُ]{.ar}.
+This is done for all participants whose ;faa3il; pronoun is invisible and ;ucase; verb ends with a ;umark; [◌ُ]{.ar}.
 
-For participants whose ;faa3il; pronoun is followed by an extra [ن]{.ar} in the ;ustate; verb, this final [ن]{.ar} is dropped in order to form the 
-;0state;
+For participants whose ;faa3il; pronoun is followed by an extra [ن]{.ar} in the ;ucase; verb, this final [ن]{.ar} is dropped in order to form the 
+;0case;
 ;mudarie; verb.
-So, for example, the ;ustate;
+So, for example, the ;ucase;
 ;mudarie; verb:
 
 [يَفْعَلَانِ]{.ar}  
@@ -58,17 +58,17 @@ So, for example, the ;ustate;
 "they~2,m~ do"
 
 becomes, for the 
-;0state;:
+;0case;:
 
 [يَفْعَلَا]{.ar}  
 [yafealA]{.trn}  
 
 Here is the complete table of the 
-;0state;
+;0case;
 ;mudarie; verb
 for all ;faa3il; participants.
 
-|Participant|#;mudarie; verb ;faa3il; pronoun|;ustate; ;mudarie; verb | ;0state; ;mudarie; verb|
+|Participant|#;mudarie; verb ;faa3il; pronoun|;ucase; ;mudarie; verb | ;0case; ;mudarie; verb|
 |:---|:--|:---|:---|
 | he          |_invisible_         |[يَفْعَلُ]{.ar}    |[يَفْعَلْ]{.ar}    |
 | she         |_invisible_         |[تَفْعَلُ]{.ar}    |[تَفْعَلْ]{.ar}    |
@@ -86,14 +86,14 @@ for all ;faa3il; participants.
 
 Take note the following:
 
-+ The ;ustate; and ;0state; verbs are the same for the feminine plural absentee and addressee participants: 
++ The ;ucase; and ;0case; verbs are the same for the feminine plural absentee and addressee participants: 
   + [يَفْعَلْنَ]{.ar} (they~3+,f~)
   + [تَفْعَلْنَ]{.ar} (you~3+,f~)
-+ The ;ustate; and ;0state; verbs for the masculine plural absentee and addressee participants have a final silent [alif]{.trn2}: 
++ The ;ucase; and ;0case; verbs for the masculine plural absentee and addressee participants have a final silent [alif]{.trn2}: 
   + [يَفْعَلُوا]{.ar} (they~3+,m~) 
   + [تَفْعَلُوا]{.ar} (you~3+,m~)
 + When the 
-;0state;
+;0case;
 ;mudarie; verb
 ends with a 
 ;0mark; [◌ْ]{.ar}, and the next word begins with a connecting [hamzah]{.trn2} [ٱ]{.ar} then the
@@ -101,10 +101,10 @@ ends with a
   + [يَفْعَلْ + ٱلرَّجُلُ = يَفْعَلِ ٱلرَّجُلُ]{.ar}
 
 <!--
-## Uses of the ;0state; ;mudarie; verb
+## Uses of the ;0case; ;mudarie; verb
 
-The ;ustate; is the default state for ;mudarie; verbs. The 
-;0state;
+The ;ucase; is the default ;case; for ;mudarie; verbs. The 
+;0case;
 is used only in specific cases. We will explain these below.
 -->
 
@@ -113,7 +113,7 @@ is used only in specific cases. We will explain these below.
 The particle [لِ]{.ar} when connected to the front of a 
 ;mudarie; verb
 causes it to be in the
-;0state;
+;0case;
 and gives it the meaning of an indirect command. In English this can be translated using "should" or "let":
 
 [لِيَذْهَبِ ٱَلرَّجُلُ]{.ar}  
@@ -144,13 +144,13 @@ The [لِ]{.ar} then loses its ;imark; and gets a
 [وَلْيَجْلِسُوا عَلَى ٱلْأَرْضِ.]{.ar}  
 "And they should sit on the ground!"
 
-Finally, the [لِ]{.ar} before a ;0state; ;mudarie; verb for the indirect command is mandatory.
+Finally, the [لِ]{.ar} before a ;0case; ;mudarie; verb for the indirect command is mandatory.
 But it may be dropped by poetic license.^[[@ibn_ya3ish_mufassal@ 4/291--292](https://shamela.ws/book/13301/1655#p1)]
 
 ## With [لَا]{.ar} for prohibitions {#la-of-prohibition}
 
 The word [لَا]{.ar} when in front of a 
-;0state;
+;0case;
 ;mudarie; verb
 gives the meaning of a prohibition. 
 In English this can be translated using "Don't".
@@ -181,10 +181,10 @@ However, rarely, they may be issued for the absentee participant as well. Exampl
 http://www.alfaseeh.com/vb/showthread.php?t=72471&p=558734&viewfull=1#post558734
 -->
 
-By the way, [لَا]{.ar} does not force a verb to be in the ;ustate;
-;0state;. We have already seen in 
-section\ \@ref(;ustate;-verb-negation-la)
-that [لَا]{.ar} can be used to negate a ;ustate; ;mudarie; verb for the present and future tense.
+By the way, [لَا]{.ar} does not force a verb to be in the ;ucase;
+;0case;. We have already seen in 
+section\ \@ref(;ucase;-verb-negation-la)
+that [لَا]{.ar} can be used to negate a ;ucase; ;mudarie; verb for the present and future tense.
 Example:
 
 [لَا يَذْهَبُ ٱلرَّجُلُ]{.ar}  
@@ -198,7 +198,7 @@ Example:
 The particle [لَمْ]{.ar} when in front of an
 ;mudarie; verb
 causes it to be in the
-;0state;
+;0case;
 and gives it the meaning of
 negating the past tense
 In English this can be translated using "did not".
@@ -224,7 +224,7 @@ Here are some more examples:
 ## With [لَمَّا]{.ar} for "did not yet"
 
 The word [لَمَّا]{.ar} when in front of a 
-;0state;
+;0case;
 ;mudarie; verb
 gives the meaning "did not yet". 
 For example,
@@ -232,9 +232,9 @@ For example,
 [لَمَّا يَذْهَبْ زَيْدٌ.]{.ar}  
 "Zayd did not go yet."
 
-## Other uses of the ;0state; ;mudarie; verb
+## Other uses of the ;0case; ;mudarie; verb
 
-The ;0state; ;mudarie; verb is also used for _consequential actions_ and in _conditional statements_. We will deal with these in
+The ;0case; ;mudarie; verb is also used for _consequential actions_ and in _conditional statements_. We will deal with these in
 chapters\ \@ref(the-consequential-action)
 and\ \@ref(conditional-statements)
 respectively
@@ -242,7 +242,7 @@ respectively
 ## The verb of command {#verb-of-command}
 
 In order to give a direct command to an addressee, Arabic uses the verb of command. The verb of command is very similar to the 
-;0state;
+;0case;
 ;mudarie; verb.
 The verb of command is only available for the addressee participant. 
 
@@ -287,7 +287,7 @@ Here are some examples of using the verb of command:
 
 The verb of command is not used to issue negative commands, like "Don't go!". 
 Instead, the 
-;0state; verb is used with [لَا]{.ar}
+;0case; verb is used with [لَا]{.ar}
 as described in
 section\ \@ref(la-of-prohibition)
 above.

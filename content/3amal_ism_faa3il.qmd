@@ -32,7 +32,7 @@ this is a compound sentence.
 The info of the outer sentence is the inner sentence
 [يَقُومُ]{.ar}.
 
-Instead of using the stateful verb
+Instead of using the caseful verb
 [يَقُومُ]{.ar},
 we can use its doer participle
 [قَائِم]{.ar}, thus:
@@ -41,11 +41,11 @@ we can use its doer participle
     [Zayd is standing]{.trans}
 
 As you can see,
-we have translated the stateful verb
+we have translated the caseful verb
 [يَقُومُ]{.ar} as [stands]{.trans}
 and the doer participle
 [قَائِم]{.ar} as [standing]{.trans}.
-We will discuss the difference in meaning between the stateful verb and the doer participle in more detail in chapter\ (ref), if Allāh wills.
+We will discuss the difference in meaning between the caseful verb and the doer participle in more detail in chapter\ (ref), if Allāh wills.
 For now, we will focus on the grammar of the two sentences.
 
 There is one notable similarity between the grammar of examples (@3amal_mush_zaydun_yaqoomu) and (@3amal_mush_zaydun_qaaimun),
@@ -54,7 +54,7 @@ and one notable difference:
 ##### The similarity {.unnumbered}
 
 The
-stateful verb
+caseful verb
 [يَقُومُ]{.ar},
 and the doer participle
 [قَائِمٌ]{.ar}
@@ -64,7 +64,7 @@ implicated as [[هُوَ]{.ar}].
 
 ##### The difference {.unnumbered}
 
-The stateful verb
+The caseful verb
 [يَقُومُ]{.ar}
 and its latent doer pronoun 
 [[هُوَ]{.ar}]
@@ -75,15 +75,15 @@ latent doer pronoun
 [[هُوَ]{.ar}]
 is the leaned-against element
 and
-the stateful verb
+the caseful verb
 [يَقُومُ]{.ar}
 is the leaning element.
 The sentence formed by
-the stateful verb
+the caseful verb
 [يَقُومُ]{.ar}
 and its latent doer pronoun 
 [[هُوَ]{.ar}]
-is in place of a u-state noun as the info of the subject
+is in place of a u-case noun as the info of the subject
 ([زَيْدٌ]{.ar})
 of the outer sentence.
 
@@ -221,7 +221,7 @@ when acting with verbal force, governs a doer.
 In a similar manner,
 the doer participle for transitive verbs can, optionally, govern a direct doee.
 In order to introduce this behavior,
-we use again, as our starting point, the u-state stateful verb.
+we use again, as our starting point, the u-case caseful verb.
 Consider the following example:
 
 (@3amal_mush_zaydun_yadribu_3amran) [زَيْدٌ يَضْرِبُ عَمْرًا]{.ar}  
@@ -230,11 +230,11 @@ Consider the following example:
 Example (@3amal_mush_zaydun_yadribu_3amran) above is parsed as follows:
 
 * [زَيْدٌ]{.ar} is a subject.
-* [يَضْرِبُ]{.ar} is a stateful verb in the u-state.
-  It governs a latent pronoun (implicated as [هُوَ]{.ar}) in the u-state as its doer. 
+* [يَضْرِبُ]{.ar} is a caseful verb in the u-case.
+  It governs a latent pronoun (implicated as [هُوَ]{.ar}) in the u-case as its doer. 
   The latent doer pronoun [هُوَ]{.ar} refers back to its referent: the subject [زَيْدٌ]{.ar}.
-* [عَمْرًا]{.ar} is a direct doee, governed in the a-state by  the verb [يَضْرِبُ]{.ar}.
-* [يَضْرِبُ عَمْرًا]{.ar} is an inner sentence which is in place of a u-state noun as the info of the subject [زَيْدٌ]{.ar}.
+* [عَمْرًا]{.ar} is a direct doee, governed in the a-case by  the verb [يَضْرِبُ]{.ar}.
+* [يَضْرِبُ عَمْرًا]{.ar} is an inner sentence which is in place of a u-case noun as the info of the subject [زَيْدٌ]{.ar}.
 
 Instead of using the verb [يَضْرِبُ]{.ar} in example (@3amal_mush_zaydun_yadribu_3amran) above
 we may instead use its doer participle
@@ -247,9 +247,9 @@ Example (@3amal_mush_zaydun_daaribun_3amran) is parsed as follows:
 
 * [زَيْدٌ]{.ar} is a subject.
 * [ضَارِبٌ]{.ar} is the info of the subject [زَيْدٌ]{.ar}.
-  It governs a latent pronoun (implicated as [هُوَ]{.ar}) in the u-state as its doer. 
+  It governs a latent pronoun (implicated as [هُوَ]{.ar}) in the u-case as its doer. 
   The latent doer pronoun [هُوَ]{.ar} refers back to the subject [زَيْدٌ]{.ar}.
-* [عَمْرًا]{.ar} is a direct doee, governed in the a-state by the doer participle [ضَارِبٌ]{.ar}.
+* [عَمْرًا]{.ar} is a direct doee, governed in the a-case by the doer participle [ضَارِبٌ]{.ar}.
 
 As you can see,
 the doer participle
@@ -457,7 +457,7 @@ then two conditions must be satisfied:
    for transitive verbs that take more than one direct doee,
    like [جعل]{.ar}, [أَعطى]{.ar}, etc.
    When the doer participle of such a verb is annexed to what would have been the first direct doee,
-   then second direct doee is permitted to be in the a-state, 
+   then second direct doee is permitted to be in the a-case, 
    even if the aspect is perfect.^[See also [[البحر المحيط لأبي حيان]{.ar}](https://tafsir.app/albahr-almuheet/35/1) for [سورة فاطر]{.ar} 35:1 and [[الدر المصون للسمين الحلبي]{.ar}](https://tafsir.app/aldur-almasoon/35/1) for [سورة فاطر]{.ar} 35:1]
    For example:
    
@@ -466,7 +466,7 @@ then two conditions must be satisfied:
        [This [person] was the giver of Zayd, yesterday, a dirham.]{.trans}  
 
    
-   Even the first direct doee may remain in the a-state, if separated from the doer participle.
+   Even the first direct doee may remain in the a-case, if separated from the doer participle.
    For example:
    
    (@) [هذا ظان أمس زيدا فاضلا]{.ar}
@@ -900,18 +900,18 @@ We know that,
 in general,
 a attribute will match its attributee in four aspects:
 
-  i. state
+  i. case
  ii. definiteness
 iii. gender
  iv. number (singular/dual/plural)
 
 The sababi attribute will also match its preceding attributee
-in state and definiteness.
+in case and definiteness.
 (You can see the attribute
 [مُنْطَلِقٍ]{.ar}
 matches its attributee
 [رَجُلٍ]{.ar}
-in the i-state and in being indefinite.)
+in the i-case and in being indefinite.)
 But in matching gender and number the sababi attribute has different rules.
 Consistent with we learned for the sababi info above,
 the sababi attribute will, in general, always be singular,
@@ -1141,7 +1141,7 @@ The doer participle
 has a [tanwIn]{.trn2} which is pronounced before pronouncing the direct doee
 [عَمْرًا]{.ar}.
 In an effort to make the pronunciation easier, this [tanwIn]{.trn2} is often eliminated and replaced with an annexation.
-The direct doee is then made into a base noun in the i-state.
+The direct doee is then made into a base noun in the i-case.
 The meaning remains the same.
 So the above sentence then becomes:
 
@@ -1312,14 +1312,14 @@ For example:
 #### Two or more direct doees connected by [وَ]{.ar} or [أَوْ]{.ar} {.unnumbered}
 
 When a doer participle governs two or more direct doees connected by [وَ]{.ar} or [أَوْ]{.ar}
-then, if the first is in a superficial annexation then the second may either be in the i-state or the a-state.
+then, if the first is in a superficial annexation then the second may either be in the i-case or the a-case.
 For example
 
 (@ex000255) [هذا ضاربُ زيدٍ وعمرٍو/وعمرًا]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 4/81](https://shamela.ws/book/13301/1445)]{.citex}  
     [This [person] is beating Zayd and [#eamr]{.trn2}]{.trans}  
 
-By the way, if the first direct doee is in the a-state, then it is not an annexation and the second direct doee would follow in the a-state.
+By the way, if the first direct doee is in the a-case, then it is not an annexation and the second direct doee would follow in the a-case.
 
 (@ex000256) [هذا ضاربٌ زيدًا وعمرًا]{.ar}  
     [This [person] is beating Zayd and [#eamr]{.trn2}]{.trans}  

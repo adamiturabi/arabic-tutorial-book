@@ -42,7 +42,7 @@ i. Far  ;ism_isharah;s: "that-one" (singular) and "those-ones" (dual and plural)
 
 The following are the ;ism_isharah;s in Arabic:
 
-| Participant |State| Near pointing  noun || Far pointing  noun ||
+| Participant |#;case;| Near pointing  noun || Far pointing  noun ||
 |:----|:-|--:|:----|--:|:----|
 |sing. masc.|all|[هَـٰذَا]{.ar}  |this one~m~    |[ذَ ٰلِكَ]{.ar}  |that one~m~  |
 |sing. fem. |all|[هَـٰذِهِ]{.ar}  |this one~f~    |[تِلْكَ]{.ar}   |that one~f~  |
@@ -57,9 +57,9 @@ Note the following:
 + Many of the ;ism_isharah;s contain small [alif]{.trn2} [◌ٰ]{.ar}. For most of them, this is how they must be written. It would be incorrect to write [هَـٰذَا]{.ar} [hApA]{.trn} as [هَاذَا]{.ar}.
 + All the near ;ism_isharah;s begin with a [ه]{.ar}. And all the far ;ism_isharah;s end with [ك]{.ar}.
 + The [و]{.ar} in [أُولَـٰئِكَ]{.ar} [EulAEika]{.trn} is silent and not pronounced. That is, the first syllable has a short vowel [u]{.trn}, not the long vowel [U]{.trn}.
-+ Most of the ;ism_isharah;s are rigid nouns. That is: their endings are not modified for their state. 
++ Most of the ;ism_isharah;s are rigid nouns. That is: their endings are not modified for their ;case;. 
 
-  The dual ;ism_isharah;s, however, are flexible nouns, for example: [هَـٰذَانِ]{.ar}  (;ustate;)   / [هَـٰذَيْنِ]{.ar}  [hApayni]{.trn} (;astate; and ;istate;).
+  The dual ;ism_isharah;s, however, are flexible nouns, for example: [هَـٰذَانِ]{.ar}  (;ucase;)   / [هَـٰذَيْنِ]{.ar}  [hApayni]{.trn} (;acase; and ;icase;).
 
 + The ;ism_isharah;s for the plural are the same for both masculine and feminine genders.
 
@@ -88,7 +88,7 @@ We will be giving examples throughout this chapter.
 
 ## The ;ism_isharah; phrase
 
-Remember from chapter\ \@ref(;sifah;s-and-descriptive-noun-phrases) that a descriptive noun-phrase consists of a ;na3t; and a ;manut;. The ;na3t; follows the ;na3t; and matches it in definiteness, state, gender, and number. 
+Remember from chapter\ \@ref(;sifah;s-and-descriptive-noun-phrases) that a descriptive noun-phrase consists of a ;na3t; and a ;manut;. The ;na3t; follows the ;na3t; and matches it in definiteness, ;case;, gender, and number. 
 
 Here is an example of a descriptive noun-phrase in a sentence.
 
@@ -115,7 +115,7 @@ Here is an example of a descriptive noun-phrase in a sentence.
    (word-1.south west) -- (word-2.south east)
       node [midway, below] {\scriptsize descriptive noun-phrase};
 
-\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read the small books.'')};
+\path (0,0) node [midway, below=7.5ex, right=0ex, align=left] {``I read the small books.''};
 
 \end{tikzpicture}
 ```
@@ -164,9 +164,9 @@ Example:
 \end{tikzpicture}
 ```
 
-In the above example, the ;mushar_il; noun [ٱَلْكِتَابَيْنِ]{.ar} is the ;manut; in a descriptive noun-phrase. It is definite, in the ;astate;, masculine, and dual.
+In the above example, the ;mushar_il; noun [ٱَلْكِتَابَيْنِ]{.ar} is the ;manut; in a descriptive noun-phrase. It is definite, in the ;acase;, masculine, and dual.
 
-The ;ism_isharah; [هَـٰذَيْنِ]{.ar} is its ;na3t;. It follows the ;manut; and matches it being dual, in the ;astate;, masculine, and dual.
+The ;ism_isharah; [هَـٰذَيْنِ]{.ar} is its ;na3t;. It follows the ;manut; and matches it being dual, in the ;acase;, masculine, and dual.
 
 As a special case, when the ;mushar_il; noun has [ٱَلْ]{.ar} (as in this case: [ٱَلْكِتَابَيْنِ]{.ar}), then the order of the ;ism_isharah; and the ;mushar_il; noun is permitted to be reversed. 
 <!--The ;ism_isharah; can be the ;manut;, and the ;mushar_il; noun can be the ;na3t;.-->
@@ -201,11 +201,11 @@ Example:
 
 In the above example, the 
 ;ism_isharah; [هَـٰذَيْنِ]{.ar} 
-is a replacee. It is definite, in the ;astate;, masculine, and dual.
+is a replacee. It is definite, in the ;acase;, masculine, and dual.
 
 The 
 ;mushar_il; noun [ٱَلْكِتَابَيْنِ]{.ar} 
-is its replacement. It follows the replacee and matches it being dual, in the ;astate;, masculine, and dual.
+is its replacement. It follows the replacee and matches it being dual, in the ;acase;, masculine, and dual.
 
 As a matter of fact, even though both orders are permitted, this reverse order of placing the ;ism_isharah; first and following it with the ;mushar_il; noun is more common.
 

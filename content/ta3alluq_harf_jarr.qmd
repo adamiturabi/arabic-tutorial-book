@@ -13,7 +13,7 @@ IT IS NOT YET READY TO BE STUDIED FROM.**
 ## The need for governing the preposition
 
 In the Arabic grammatical model, prepositional phrases are dispensable elements.
-In order to bring a dispensable stateful element into a sentence, a suitable element of the original sentence must act as governor of the new dispensable element.
+In order to bring a dispensable caseful element into a sentence, a suitable element of the original sentence must act as governor of the new dispensable element.
 For example, consider the sentence
 
 (@ex000142) [جَلَسَ زَيْدٌ]{.ar}  
@@ -35,8 +35,8 @@ The verb
 is this suitable element.
 
 Now, you may be thinking:
-we introduced the concept of government for determining the state of an element.
-But prepositions don't have state. So why should they need to be governed, and in what manner may they be governed?
+we introduced the concept of government for determining the case of an element.
+But prepositions don't have case. So why should they need to be governed, and in what manner may they be governed?
 
 This is a valid objection. 
 "Governing" a preposition is definitively problematic.^[Owens,\ J., _The foundations of grammar_ 177]
@@ -47,7 +47,7 @@ The preposition
 [عَلَىٰ]{.ar}
 is followed by the
 [ٱلْأَرْضِ]{.ar}
-in the i-state.
+in the i-case.
 -->
 The noun
 [ٱلْأَرْضِ]{.ar}
@@ -55,8 +55,8 @@ is governed by the preposition
 [عَلَىٰ]{.ar}
 and not directly by the verb
 [جَلَسَ]{.ar}
-This is because it is the preposition which _causes_ the noun following it to be in the i-state.
-In order to bring the dispensable (stateful) element
+This is because it is the preposition which _causes_ the noun following it to be in the i-case.
+In order to bring the dispensable (caseful) element
 [ٱلْأَرْض]{.ar}
 in the sentence,
 we have to establish an unbroken chain of governor-governee dependencies that links back to a governing element in the original sentence.
@@ -85,8 +85,8 @@ Consider the example:
 
 In the above example, the prepositional phrase
 [بِزَيْدٍ]{.ar}
-may be parsed (virtually) as in the a-state as a direct doee.
-So much so, that if we wish to add a second doee using a conjunction then it may be added in the a-state.
+may be parsed (virtually) as in the a-case as a direct doee.
+So much so, that if we wish to add a second doee using a conjunction then it may be added in the a-case.
 For example:
 
 (@ex000143) [مَرَرْتُ بِزَيْدٍ وَعَمْرًا]{.ar}
@@ -97,8 +97,8 @@ Of course the more usual
 [مَرَرْتُ بِزَيْدٍ وَعَمْرٍو]{.ar}
 is also permitted.
 
-So we can consider the verb as governing the entire prepositional phrase in the a-state.
-And within the prepositional phrase, the preposition governs its following noun in the i-state.
+So we can consider the verb as governing the entire prepositional phrase in the a-case.
+And within the prepositional phrase, the preposition governs its following noun in the i-case.
 
 ADD DIAGRAM
 
@@ -118,7 +118,7 @@ So saying that
 [عَلَىٰ]{.ar}
 is governed by
 [جَلَسَ]{.ar}
-allows us to have a (necessarily) unbroken dependency of governorns to add the dispensable (and stateful) element 
+allows us to have a (necessarily) unbroken dependency of governorns to add the dispensable (and caseful) element 
 [ٱلْأَرْض]{.ar}.
 -->
 
@@ -444,7 +444,7 @@ in example (@sentence-zayd-in-house) [زَيْدٌ فِي ٱلدَّارِ]{.ar}
 solves another problem for us.
 Remember how we said that, in the Arabic grammatical model,
 the preposition is a dispensable element.
-So if we remove it (and the following i-state noun [ٱلدَّار]{.ar}) from the sentence,
+So if we remove it (and the following i-case noun [ٱلدَّار]{.ar}) from the sentence,
 we should still be left with a complete sentence.
 Let's try doing that:
 

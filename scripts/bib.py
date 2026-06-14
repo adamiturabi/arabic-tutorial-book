@@ -1286,13 +1286,13 @@ def populate_resource_list():
     , bib_text = 'Abdel-Ghani, A.\\ A., _Conditional sentences within the Arab grammatical tradition_, University of Leeds, PhD thesis, 1981. <https://etheses.whiterose.ac.uk/id/eprint/910/>'
     , sort_key = "Abdel Ghani Conditional"
     ))
-
-
-
-
-
-
-
+  resource_list.append(BibResource(
+    "gatje_struktur"
+    , cit_type = "ws_ref"
+    , cit_text = 'Gätje, "Zur Struktur gestörter Konditionalgefüge im Arabischen"'
+    , bib_text = 'Gätje, H., "Zur Struktur gestörter Konditionalgefüge im Arabischen," in _Oriens_, vol.\\ 25/26 (1976), pp.\\ 148--186, <https://doi.org/10.2307/1580661>'
+    , sort_key = "gatje zur struktur"
+    ))
 
   return resource_list
 
