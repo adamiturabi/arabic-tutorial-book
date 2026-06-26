@@ -276,7 +276,7 @@ map_table["shibh_jumlah"] = "quasi-sentence"
 map_table["subst"] = "entity noun"
 
 map_table["taamm"] = "sufficient"
-map_table["talab"] = "request"
+map_table["jumlah_talabiyyah"] = "statement of seeking"
 map_table["tabi3"] = "follower"
 map_table["tafsiri"] = "explanatory"
 map_table["tamyiz"] = "[tamyIz]{.trn2}"
