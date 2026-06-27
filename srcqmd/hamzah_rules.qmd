@@ -263,6 +263,7 @@ Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [alif
 There are some historical and regional variants to the above rules. The main one is when the letter before hamzah has a ;0mark;, the hamzah is generally written unseated. So with this variant, we write:
 
 + \vphantom{\huge J} [مَسْءَلَة]{.aralt} instead of [مَسْأَلَة]{.aralt}
++ \vphantom{\huge J} [أَفْءِدَة]{.aralt} instead of [أَفْئِدَة]{.aralt}
 
 However, this rule appears to be not consistently followed. For example, [nacEah]{.trn} is generally always written [نَشْأَة]{.aralt} never [نَشْءَة]{.aralt}.
 
@@ -360,7 +361,7 @@ in one of two ways:
 
    This is a more accurate approximation, but some fonts may not position the hamzah correctly on the [taTwIl]{.trn2}, or position vowel marks on the superscript hamzah correctly.
 
-   Kitab is one font that uses this technique to correctly position the hamzah, for example: [خَطِيـَٔة]{.quran}.
+   Kitab ([github.com/nuqayah/kitab-font](https://github.com/nuqayah/kitab-font)) is one font that uses this technique to correctly position the hamzah, for example: [خَطِيـَٔة]{.quran}.
 
 Unfortunately, with either of these techniques, the digital representation of the word will have extra Unicode characters (the [ئ]{.ar} and the [tatweel]{.smallcaps}) that are not technically part of the spelling of the word.
 
