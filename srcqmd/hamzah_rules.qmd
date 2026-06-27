@@ -92,7 +92,7 @@ Examples:
 |:-----|:-|:-|:-|:------|
 |\vphantom{\huge J} [هَيْءَة]{.aralt} [hayEah]{.trn}     | [ay]{.trn} | [a]{.trn}  | [ay]{.trn} | [ء]{.aralt} |
 |\vphantom{\huge J} [خَطِيءَة]{.aralt} [xaTIEah]{.trn}   | [I]{.trn}  | [a]{.trn}  | [I]{.trn}  | [ء]{.aralt} |
-|\vphantom{\huge J} [اسْتِيءَاس]{.aralt} [EistIEAs]{.trn}| [I]{.trn}  | [a]{.trn}  | [I]{.trn}  | [ء]{.aralt} (Exception: [ءَا]{.aralt} is not written as [آ]{.aralt} when the preceding vowel is [I]{.trn}.)|
+|\vphantom{\huge J} [اسْتِيءَاس]{.aralt} [EistIEAs]{.trn}| [I]{.trn}  | [A]{.trn}  | [I]{.trn}  | [ء]{.aralt} (Exception: [ءَا]{.aralt} is not written as [آ]{.aralt} when the preceding vowel is [I]{.trn}.)|
 |\vphantom{\huge J} [تَوْءَم]{.aralt} [tawEam]{.trn}     | [aw]{.trn} | [a]{.trn}  | [aw]{.trn} | [ء]{.aralt} |
 |\vphantom{\huge J} [سَوْءَة]{.aralt} [sawEah]{.trn}     | [aw]{.trn} | [a]{.trn}  | [aw]{.trn} | [ء]{.aralt} |
 |\vphantom{\huge J} [مَوْئِل]{.aralt} [mawEil]{.trn}     | [aw]{.trn} | [i]{.trn}  | [i]{.trn} | [ئ]{.aralt} |
@@ -276,7 +276,7 @@ A second variant is to avoid the repetition of vowel letters like [و]{.aralt} a
 <!--
 Another variant is that when word final hamzah has an ;imark; and is followed by a suffix starting with [U]{.trn}, then the hamzah is written unseated instead of as [ئ]{.ar}. Examples:
 -->
-Another variant is that when an unsiffixed word has final hamzah
+Another variant is that when an unsuffixed word has final hamzah
 and is followed by a suffix starting with long vowel,
 then the hamzah is written unseated. Examples:
 
