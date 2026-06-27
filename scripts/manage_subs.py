@@ -315,8 +315,22 @@ def get_sub_text(match):
     key = key[1:-1]
 
     subbed_text = map_table[key] 
-    if capitalize:
+    if capitalize and len(subbed_text) > 1:
+      if subbed_text[0] == '[' and len(subbed_text) > 7 and (subbed_text[-7:] == '{.trn2}' or subbed_text[-6:] == '{.trn}'):
+        subbed_text = subbed_text[0] + '#' + subbed_text[1:]
+      else:
         subbed_text = subbed_text[0].upper() + subbed_text[1:] if len(subbed_text) > 1 else ""
+        #out = ""
+        #did_cap = False
+        #for char in subbed_text:
+        #  # skip bracket character
+        #  if not did_cap and char.isalpha():
+        #    print("capping:", char)
+        #    char = char.upper()
+        #    did_cap = True
+        #  out += char
+        #subbed_text = out
+        #print(subbed_text)
 
     return subbed_text
 
