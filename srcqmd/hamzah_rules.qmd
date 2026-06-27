@@ -76,7 +76,7 @@ We have shown them in the table below:
 |4. | [u]{.trn}            |  [ؤ]{.aralt} |
 |5. | [A]{.trn}            |  [ء]{.aralt} |
 |6. | [a]{.trn}            |  [أ]{.aralt} |
-|7. | [◌ْ]{.aralt}          |  [ء]{.aralt} |
+|7. | -- ([◌ْ]{.aralt})     |  [ء]{.aralt} |
 
 **Main rule:** Disregard any ;shaddah; [◌ّ]{.aralt}. Consider the vowel on the consonant before the hamzah and the vowel on the hamzah itself. Determine which of the two vowels wins by being higher in precedence in the above table. The winning vowel's seat will be the seat of the hamzah.
 
@@ -101,17 +101,18 @@ Examples:
 |\vphantom{\huge J} [تَسَاءَلَ]{.aralt} [tasAEala]{.trn}  | [A]{.trn}  | [a]{.trn}  | [A]{.trn}  | [ء]{.aralt} |
 |\vphantom{\huge J} [قِرَاءَات]{.aralt} [qirAEAt]{.trn}  | [A]{.trn}  | [A]{.trn}  | [A]{.trn}  | [ء]{.aralt} |
 |\vphantom{\huge J} [نُوآنٌ]{.aralt} [nUEAnun]{.trn}    | [U]{.trn}  | [A]{.trn} | [U]{.trn}   | [ء]{.aralt} |
-|\vphantom{\huge J} [مَسْءُول]{.aralt} [masEUl]{.trn}    | [◌ْ]{.aralt}   | [U]{.trn}  | [U]{.trn}  | [ء]{.aralt} |
-|\vphantom{\huge J} [تَرْءِيس]{.aralt} [tarEIs]{.trn}    | [◌ْ]{.aralt}   | [I]{.trn}  | [I]{.trn}  | [ء]{.aralt} |
-|\vphantom{\huge J} [مِرْآة]{.aralt} [mirEAh]{.trn}     | [◌ْ]{.aralt}   | [A]{.trn}  | [A]{.trn}  | [ء]{.aralt} |
-|\vphantom{\huge J} [ظَمْآن]{.aralt} [PamEAn]{.trn}     | [◌ْ]{.aralt}   | [A]{.trn}  | [A]{.trn}  | [ء]{.aralt} |
-|\vphantom{\huge J} [مَسْأَلَة]{.aralt} [masEalah]{.trn}  | [◌ْ]{.aralt}   | [a]{.trn}  | [a]{.trn}  | [أ]{.aralt} |
-|\vphantom{\huge J} [الْمَرْأَة]{.aralt} [almarEah]{.trn} | [◌ْ]{.aralt}   | [a]{.trn}  | [a]{.trn}  | [أ]{.aralt} |
-|\vphantom{\huge J} [أَسْئِلَة]{.aralt} [EasEilah]{.trn}  | [◌ْ]{.aralt}   | [i]{.trn}  | [i]{.trn}  | [ئ]{.aralt} |
-|\vphantom{\huge J} [أَفْئِدَة]{.aralt} [EafEidah]{.trn}  | [◌ْ]{.aralt}   | [i]{.trn}  | [i]{.trn}  | [ئ]{.aralt} |
-|\vphantom{\huge J} [بِئْسَ]{.aralt} [biEsa]{.trn}       | [i]{.trn}  | [◌ْ]{.aralt}   | [i]{.trn}  | [ئ]{.aralt} |
-|\vphantom{\huge J} [سُؤْل]{.aralt} [suEl]{.trn}        | [u]{.trn}  | [◌ْ]{.aralt}   | [u]{.trn}  | [ؤ]{.aralt} |
-|\vphantom{\huge J} [كَأْس]{.aralt} [kaEs]{.trn}        | [a]{.trn}  | [◌ْ]{.aralt}   | [a]{.trn}  | [أ]{.aralt} |
+|\vphantom{\huge J} [مَسْءُول]{.aralt} [masEUl]{.trn}    | --   | [U]{.trn}  | [U]{.trn}  | [ء]{.aralt} |
+|\vphantom{\huge J} [تَرْءِيس]{.aralt} [tarEIs]{.trn}    | --   | [I]{.trn}  | [I]{.trn}  | [ء]{.aralt} |
+|\vphantom{\huge J} [مِرْآة]{.aralt} [mirEAh]{.trn}     | --   | [A]{.trn}  | [A]{.trn}  | [ء]{.aralt} |
+|\vphantom{\huge J} [ظَمْآن]{.aralt} [PamEAn]{.trn}     | --   | [A]{.trn}  | [A]{.trn}  | [ء]{.aralt} |
+|\vphantom{\huge J} [مَسْأَلَة]{.aralt} [masEalah]{.trn}  | --   | [a]{.trn}  | [a]{.trn}  | [أ]{.aralt} |
+|\vphantom{\huge J} [الْمَرْأَة]{.aralt} [almarEah]{.trn} | --   | [a]{.trn}  | [a]{.trn}  | [أ]{.aralt} |
+|\vphantom{\huge J} [أَسْئِلَة]{.aralt} [EasEilah]{.trn}  | --   | [i]{.trn}  | [i]{.trn}  | [ئ]{.aralt} |
+|\vphantom{\huge J} [أَفْئِدَة]{.aralt} [EafEidah]{.trn}  | --   | [i]{.trn}  | [i]{.trn}  | [ئ]{.aralt} |
+|\vphantom{\huge J} [بِئْسَ]{.aralt} [biEsa]{.trn}       | [i]{.trn}  | --   | [i]{.trn}  | [ئ]{.aralt} |
+|\vphantom{\huge J} [أَبْؤُس]{.aralt} [EabEus]{.trn}     | --  | [u]{.trn}   | [u]{.trn}  | [ؤ]{.aralt} |
+|\vphantom{\huge J} [سُؤْل]{.aralt} [suEl]{.trn}        | [u]{.trn}  | --   | [u]{.trn}  | [ؤ]{.aralt} |
+|\vphantom{\huge J} [كَأْس]{.aralt} [kaEs]{.trn}        | [a]{.trn}  | --   | [a]{.trn}  | [أ]{.aralt} |
 |\vphantom{\huge J} [سُئِلَ]{.aralt} [suEila]{.trn}      | [u]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.aralt} |
 |\vphantom{\huge J} [يَئِسَ]{.aralt} [yaEisa]{.trn}      | [a]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.aralt} |
 |\vphantom{\huge J} [مُطْمَئِنّ]{.aralt} [muTmaEinn]{.trn} | [a]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.aralt} |
@@ -144,9 +145,9 @@ Plug it into the precedence table as above to determine the seat of hamzah.
 |\vphantom{\huge J} [جِيءَ]{.aralt} [jIEa]{.trn}        | [I]{.trn}  | [ء]{.aralt} |
 |\vphantom{\huge J} [ضَوْءَ]{.aralt} [DawEa]{.trn}       | [aw]{.trn} | [ء]{.aralt} |
 |\vphantom{\huge J} [شَيْءَ]{.aralt} [cayEa]{.trn}       | [ay]{.trn} | [ء]{.aralt} |
-|\vphantom{\huge J} [بُطْءُ]{.aralt} [buTEu]{.trn}       | [◌ْ]{.aralt}   | [ء]{.aralt} |
-|\vphantom{\huge J} [عِبْءُ]{.aralt} [eibEu]{.trn}       | [◌ْ]{.aralt}   | [ء]{.aralt} |
-|\vphantom{\huge J} [شَطْءُ]{.aralt} [caTEu]{.trn}       | [◌ْ]{.aralt}   | [ء]{.aralt} |
+|\vphantom{\huge J} [بُطْءُ]{.aralt} [buTEu]{.trn}       | --   | [ء]{.aralt} |
+|\vphantom{\huge J} [عِبْءُ]{.aralt} [eibEu]{.trn}       | --   | [ء]{.aralt} |
+|\vphantom{\huge J} [شَطْءُ]{.aralt} [caTEu]{.trn}       | --   | [ء]{.aralt} |
 |\vphantom{\huge J} [يُهَدِّئُ]{.aralt} [yuhaddiEu]{.trn}  | [i]{.trn}  | [ئ]{.aralt} |
 |\vphantom{\huge J} [مُتَّكِئَ]{.aralt} [muttakiEa]{.trn}  | [i]{.trn}  | [ئ]{.aralt} |
 |\vphantom{\huge J} [سَيِّئُ]{.aralt} [sayyiEu]{.trn}     | [i]{.trn}  | [ئ]{.aralt} |
