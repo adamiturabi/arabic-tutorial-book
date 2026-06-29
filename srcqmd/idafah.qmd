@@ -15,7 +15,10 @@ Arabic expresses this meaning using a construction called _;idaafah;_. In this c
 
 ## Forming the ;idaafah;
 
-The word ";idaafah;" means the addition of a new _annexed_ item to an existing _base_ item. We use the term _;idaafah;_ in Arabic grammar when an _;mudaf;_ is annexed to a _;mudafil;_ by being placed right before it. Here is an example of an ;idaafah;:
+<!--
+The word ";idaafah;" means the addition of a new _;mudaf;_ item to an existing _;mudafil;_ item. 
+-->
+We use the term _;idaafah;_ in Arabic grammar when a new _;mudaf;_ is annexed to a _;mudafil;_ by being placed right before it. Here is an example of an ;idaafah;:
 
 ```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -30,11 +33,11 @@ The word ";idaafah;" means the addition of a new _annexed_ item to an existing _
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe noun};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ;mudaf;};
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize base noun};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ;mudafil;};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
@@ -53,7 +56,9 @@ The ;idaafah; construction consists of two nouns:
 1. The _;mudafil;_: This is the second noun in the ;idaafah;.
 
 The ;mudaf; [كِتَاب]{.ar} is annexed to, and belongs to, the ;mudafil; [ٱَلْغُلَام]{.ar}. 
+<!--
 You can use the alphabetical  order (A,\ B) to help you remember that the **a**nnexe noun comes before the **b**ase noun.
+-->
 
 <!--
 Take note of the following points regarding the ;idaafah; construction:
@@ -595,7 +600,7 @@ but you can't say:
 
 $\times$\ "The good _he_ went."
 
-So, any ;na3t;s for the ;idaafah; must necessarily only describe the ;mudaf;, not the base pronoun. Example:
+So, any ;na3t;s for the ;idaafah; must necessarily only describe the ;mudaf;, not the pronoun which is the ;mudafil;. Example:
 
 [كِتَابُهُ الأَحْمَرُ]{.ar}  
 "his red book"

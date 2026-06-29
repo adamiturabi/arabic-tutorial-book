@@ -277,7 +277,7 @@ As a doer noun:
 
 which is grammatically equivalent to: [يَحْزُنُنِي ذَهَابُهُ.]{.ar}.
 
-In the i-case as the base noun in an annexation:
+In the i-case as the annexed-to noun in an annexation:
 
 ```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -292,7 +292,7 @@ In the i-case as the base noun in an annexation:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, below] {\scriptsize i-case base noun};
+      node [midway, below] {\scriptsize i-case annexed-to noun};
 
 \path (0,0) node [midway, below=6ex, right=-2ex, align=left] {``She stayed quiet from fear of that he be angry at her.''};
 
