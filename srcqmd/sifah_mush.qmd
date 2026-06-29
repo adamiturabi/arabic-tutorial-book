@@ -2,19 +2,24 @@
 
 ;wip_warn;
 
-FIXME: Use the terminology _static adjective_ or "stative adjective" for [صفة مشبهة]{.ar}.
-And describe [اسم الفاعل]{.ar} as being a _progressive adjective_.
-See Abdelghani, p.48 footnote 2.
-
 ## Introduction
 
 The ;sifah_mush; is a ;mushtaqq; noun.
-It is the quintessential ;sifah; signifying a relatively stable and unchanging meaning.
+<!--
+It is the most common type of ;sifah; signifying a relatively stable and unchanging meaning.
 [حَسَن]{.ar} [handsome, good]{.trans} is an example of a ;sifah_mush;.
-
+-->
+<!--
 The ;sifah_mush; is called such because it shares some characteristics with the ;ism_fail;.
 The ;ism_fail; is the closest of the ;mushtaqq; nouns to the verb.
 We saw in chapter\ (ref) that it can govern in a verb-like manner and even be used in place of a verb.
+-->
+The ;sifah_mush; is called as such because it assigns an adjectival quality to its referent _statically_,
+i.e. without any aspect of the progression of time.
+[حَسَن]{.ar} [handsome, good]{.trans} is an example of a ;sifah_mush;.
+
+We saw in chapter (ref) that the ;ism_fail; can be used as a _dynamic_ ;sifah; because it can signify an adjectival quality along with signifying the progression of time.^[See also @abdelghani@ 48 footnote 2]
+In this sense, the ;ism_fail; is the closest of the ;sifah;s to the verb.
 
 The ;sifah_mush;, although not as close to the verb as the ;ism_fail;,
 can also govern in a manner which is similar (but not quite exactly the same) as the governing of the ;ism_fail;.
@@ -759,7 +764,7 @@ Instead, the ;sifah_mush;
 will generally be used instead.
 But, as we also learned,
 [كَارِم]{.ar}
-could be used when temporary meaning is intended.
+could be used when a dynamic meaning is intended.
 
 The above is the general rule for ;ism_fail;s of stative verbs.
 However, there are some stative verbs, for which the ;ism_fail; is commonly used,
@@ -974,8 +979,15 @@ So, for example,
 the ;ism_fail;
 [قَائِم]{.ar}
 can cross over to a ;sifah_mush; 
-if its referent is standing more constantly than the ;ism_fail; would signify.
-Now it can follow the same transformation of
+Now it will statically signify _one who stands_.
+For example, a person who stands a lot can be described statically as
+[قَائِم]{.ar}.
+Now it will no longer signify the dynamic progression of time while standing.
+
+Once
+[قَائِم]{.ar}
+is a ;sifah_mush;,
+now it can follow the same transformation of
 governing a ;mafulb;-like governee and then into a ;lafzi; ;idaafah;.^[[@ibn_aqil_musaa3id@ 2/222](https://shamela.ws/book/133358/818); [@sharh_ashmooni@ 2/230](https://shamela.ws/book/11742/757)]
 So we can say:
 
@@ -991,7 +1003,7 @@ So we can say:
 
 But we should not use the ;lafzi; ;idaafah;
 [زَيْدٌ قَائِمُ الْأَبِ]{.ar}
-with the temporary meaning of the ;ism_fail;
+with the dynamic meaning of the ;ism_fail;
 [Zayd's father is standing]{.trans}.
 This is because then
 [قَائِم]{.ar}
