@@ -333,7 +333,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {vertical lines}    {6}    {8}      {\cetoah{1194}}   {\cetoah{1258}} {\small ABBASIDS}{}% Abbasids % North Africa
     \dynasty    {grid}              {4}    {5}      {\cetoah{1154}}   {\cetoah{1175}} {\scriptsize ZENGIDS}{}
     \dynasty    {grid}              {3}    {3}      {\cetoah{1167}}   {\cetoah{1175}} {}{}
-    \dynasty    {dots}              {9}    {9}      {\cetoah{1194}}   {\cetoah{1258}} {\scriptsize KHWARAZMS}{xshift=5pt}% Abbasids % North Africa
+    \dynasty    {dots}              {9}    {9}      {\cetoah{1194}}   {\cetoah{1258}} {\small KHWARAZMS}{xshift=9pt}% Abbasids % North Africa
     \dynasty    {fivepointed stars} {6}    {9}      {\cetoah{945}}    {\cetoah{1055}} {BUYIDS}{xshift=10pt}
     \dynasty    {checkerboard}      {6}    {9}      {\cetoah{1258}}   {\cetoah{1335}} {\small MONGOL ILKHANATE}{}
     \dynasty    {horizontal lines}  {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {MAMLUKS}{yshift=15pt}
