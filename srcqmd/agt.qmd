@@ -211,7 +211,8 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \draw [thin] (-0.8,#2+2) -- (-1,#2+2) -- (-1, #3-2) node [midway, above, rotate=90,align=center, font=\sffamily] {#1} -- (-0.8,#3-2);
 }
 
-\begin{tikzpicture}[y=0.1mm]
+\begin{tikzpicture}[y=0.1mm, yscale=-1]
+
 
 \draw [help lines] (\beglong,\begah) grid (\endlong,\endah);
 
@@ -235,83 +236,80 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
 \foreach [count=\i] \x in \regions {
     %\node[label={\x}] (\i) at (\i-0.5, 0) {};
-    \node[rotate=60,align=left,anchor=east] () at (\i-0.2, 0) {\footnotesize \x};
+    \node[rotate=60,align=left,anchor=west] () at (\i-0.7, -7) {\footnotesize \x};
 }
 
 
 
-    % Basrah
-    \person{7.5}{69}{below}{north}{27}{26}{[Abu l‑Aswad al‑Duʾalī (\textsc{b})]}
-    \person{7.5}{149}{right}{west}{-20}{-14}{[Ɛīsā b. Ɛumar (\textsc{b})]}
-    \person{7.5}{182}{right}{west}{-20}{-7}{[Yūnus b. Ḥabīb (\textsc{b})]}
-    \person{7.5}{170}{right}{west}{-20}{-11}{al-K͡halīl (\textsc{b})}
-    \person{7.5}{180}{right}{west}{-20}{ 4}{Sībawayh (\textsc{b})}
+%    % Basrah
+    \person{7.5}{69}{above}{south}{27}{-26}{[Abu l‑Aswad al‑Duʾalī (\textsc{b})]}
+    \person{7.5}{149}{right}{west}{-20}{14}{[Ɛīsā b. Ɛumar (\textsc{b})]}
+    \person{7.5}{182}{right}{west}{-20}{7}{[Yūnus b. Ḥabīb (\textsc{b})]}
+    \person{7.5}{170}{right}{west}{-20}{11}{al-K͡halīl (\textsc{b})}
+    \person{7.5}{180}{right}{west}{-20}{-4}{Sībawayh (\textsc{b})}
     %\draw [dashed, ->, -{Latex}] (8.5,170) -- (7.5, 180);
-    \person{7.5}{215}{above}{south}{30}{ -25}{al-Ak͡hfas͡h al-Awsaṭ (\textsc{b})}
+    \person{7.5}{215}{below}{north}{30}{25}{al-Ak͡hfas͡h al-Awsaṭ (\textsc{b})}
 
     % Kufah
-    \person{5.5}{187}{below} {north}{-10}{10}{[Abū Jaɛfar al‑Ruʾāsī (\textsc{k})]}
-    \person{6.5}{189}{below} {north}{-16}{20}{al-Kisāʾī (\textsc{k})}
+    \person{5.5}{187}{above} {south}{-10}{-14}{[Abū Jaɛfar al‑Ruʾāsī (\textsc{k})]}
+    \person{6.5}{189}{above} {south}{-16}{-20}{al-Kisāʾī (\textsc{k})}
     \draw [dashed, ->, -{Latex}] (5.5,179) -- (6.5, 189);
-    \person{6.5}{207}{left} {east}{ 16}{2}{al-Farrāʾ (\textsc{k})}
+    \person{6.5}{207}{left} {east}{ 16}{-2}{al-Farrāʾ (\textsc{k})}
     \draw [dashed, ->, -{Latex}] (5.5,197) -- (6.5, 207);
 
     % Baghdad
-    \draw [dashed, ->, -{Latex}] (7.5,260) -- (6.5, 285);
-    \person{6.5}{285}{left} {east}{ 16}{1}{al-Mubarrad (\textsc{b})}
-    \person{6.5}{291}{left} {east}{ 16}{6}{T͡haɛlab (\textsc{k})}
-    \person{6.5}{316}{left} {east}{ 16}{5}{Ibn al-Sarrāj (\textsc{b})}
-    \person{6.5}{337}{left} {east}{ 16}{6}{al-Zajjājī}
-    \person{6.5}{368}{left} {east}{ 16}{5}{al-Sīrāfī (\textsc{b})}
-    \person{6.5}{377}{left} {east}{ 16}{9}{Abū Ɛaliyy al-Fārisī (\textsc{b})}
-    \person{6.5}{384}{left} {east}{ 16}{15}{al-Rummānī}
-    \person{6.5}{392}{left} {east}{ 16}{19}{Ibn Jinnī}
+    \draw [dashed, ->, -{Latex}] (7.5,270) -- (6.5, 285);
+    \person{6.5}{285}{left} {east}{ 16}{-1}{al-Mubarrad (\textsc{b})}
+    \person{6.5}{291}{left} {east}{ 16}{-6}{T͡haɛlab (\textsc{k})}
+    \person{6.5}{316}{left} {east}{ 16}{-5}{Ibn al-Sarrāj (\textsc{b})}
+    \person{6.5}{337}{left} {east}{ 16}{-6}{al-Zajjājī}
+    \person{6.5}{368}{left} {east}{ 16}{-5}{al-Sīrāfī (\textsc{b})}
+    \person{6.5}{377}{left} {east}{ 16}{-9}{Abū Ɛaliyy al-Fārisī (\textsc{b})}
+    \person{6.5}{384}{left} {east}{ 16}{-15}{al-Rummānī}
+    \person{6.5}{392}{left} {east}{ 16}{-19}{Ibn Jinnī}
     \person{6.5}{577}{right} {west}{-16}{-1}{Abu l-Barakāt al-Anbārī}
     %\person{5.5}{684}{right} {west}{-16}{-9}{al-Raḍiyy al-Astarābād͡hī}
 
     % Hijaz
-    \person{4.5}{684}{right} {west}{-15}{10}{al-Raḍiyy al-Astarābād͡hī}
+    \person{4.5}{684}{right} {west}{-15}{-10}{al-Raḍiyy al-Astarābād͡hī}
     \draw [dashed, ->, -{Latex}] (8.5,664) -- (4.5, 684);
 
     % Syria
-    \person{3.5}{643}{right} {west}{-16}{-3}{Ibn Yaɛīs͡h}
-    \person{3.5}{672}{right} {west}{-16}{-3}{Ibn Mālik}
+    \person{3.5}{643}{right} {west}{-16}{3}{Ibn Yaɛīs͡h}
+    \person{3.5}{672}{right} {west}{-16}{3}{Ibn Mālik}
     \draw [dashed, ->, -{Latex}] (0.5,627) -- (3.5, 672);
 
     % Egypt
     %\person{2.5}{204}{right} {west}{-16}{0}{al-Shafiei}
-    \person{2.5}{646}{left} {north}{ 10}{-8}{Ibn al-Ḥājib}
-    \person{2.5}{745}{right} {west}{-16}{-2}{Abū Ḥayyān}
+    \person{2.5}{646}{above} {south}{-10}{-8}{Ibn al-Ḥājib}
+    \person{2.5}{745}{right} {west}{-16}{-4}{Abū Ḥayyān}
     \draw [dashed, ->, -{Latex}] (0.5,674) -- (2.5, 745);
-    \person{2.5}{761}{right} {west}{-16}{3}{Ibn His͡hām al-Anṣārī}
-    \person{2.5}{769}{right} {west}{-16}{9}{Ibn Ɛaqīl}
-    \person{2.5}{900}{right} {west}{-16}{-5}{al-Us͡hmūnī}
-    \person{2.5}{905}{right} {west}{-16}{2}{K͡hālid al-Azharī}
-    \person{2.5}{911}{right} {west}{-16}{7}{al-Suyūṭī}
+    \person{2.5}{761}{right} {west}{-16}{-7}{Ibn His͡hām al-Anṣārī}
+    \person{2.5}{769}{right} {west}{-16}{-13}{Ibn Ɛaqīl}
+    \person{2.5}{900}{right} {west}{-16}{5}{al-Us͡hmūnī}
+    \person{2.5}{905}{right} {west}{-16}{-2}{K͡hālid al-Azharī}
+    \person{2.5}{911}{right} {west}{-16}{-7}{al-Suyūṭī}
 
     % Persia
     \person{8.5}{471}{left} {east}{ 16}{0}{al-Jurjānī}
-    \person{9}{538}{left} {east}{ 16}{-1}{al-Zamak͡hs͡harī}
-    %\person{8.5}{684}{left} {east}{ 16}{-6}{al-Raḍiyy al-Astarābād͡hī}
-    \person{8.5}{395}{left} {east}{ 20}{12}{Ibn Fāris}
+    \person{9}{538}{left} {east}{ 16}{-3}{al-Zamak͡hs͡harī}
+    \person{8.5}{395}{left} {east}{ 20}{-12}{Ibn Fāris}
 
     % Andalus
-    %\person{0.5}{592}{right}{west}{-16}{-10}{Ibn Maḍāʾ}
-    \person{0.5}{592}{left}{east}{16}{8}{Ibn Maḍāʾ}
-    %\person{0.5}{790}{right}{west}{-16}{22}{Abū Is·ḥāq al-S͡hāṭibī}
-    \person{0.5}{790}{above}{south}{-13}{-22}{Abū Is·ḥāq al-S͡hāṭibī}
-    \person{0.5}{645}{left}{east}{24}{3}{al-S͡halawbīn}
+    \person{0.5}{592}{left}{east}{16}{-9}{Ibn Maḍāʾ}
+    \person{0.5}{790}{below}{north}{-13}{22}{Abū Is·ḥāq al-S͡hāṭibī}
+    \person{0.5}{645}{left}{east}{24}{-3}{al-S͡halawbīn}
 
     % North Africa
-    \person{1.5}{723}{above}{south}{-10}{-25}{Ibn Ājurrūm}
-    \person{1.5}{669}{right}{west}{-16}{ 3}{Ibn Ɛuṣfūr}
+    \person{1.5}{723}{left}{east}{10}{-5}{Ibn Ājurrūm}
+    \person{1.5}{669}{right}{west}{-16}{-3}{Ibn Ɛuṣfūr}
     \draw [dashed, ->, -{Latex}] (0.7,650) -- (1.5, 669);
 
     \dynasty    {bricks}            {5}    {5}      {0}     {11}  {}{} % Prophet pbuh
     \dynasty    {bricks}            {2.5}  {8.5}    {11}    {41}  {RASHIDUN}{}
     \dynasty    {north east lines}  {2}    {9}      {41}    {132} {UMAYYADS}{xshift=-40pt,yshift=-3pt}
     \dynasty    {north east lines}  {1}    {1}      {\cetoah{711}}    {\cetoah{1031}} {UMAYYADS}{rotate=90}
-    \dynasty    {vertical lines}    {3}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{xshift=30pt,yshift=6pt}
+    \dynasty    {vertical lines}    {3}    {9}      {132}             {\cetoah{945}} {ABBASIDS}{xshift=30pt,yshift=-3pt}
     \dynasty    {vertical lines}    {2}    {2}      {132}             {\cetoah{909}} {}{}% Abbasids % North Africa
     \dynasty    {vertical lines}    {3}    {5}      {\cetoah{945}}    {\cetoah{969}} {}{}% Abbasids % egypt, syria, hijaz
     \dynasty    {dots}              {2}    {1.5}    {\cetoah{788}}    {\cetoah{909}} {\scriptsize IDRISIDS}{rotate=90}
