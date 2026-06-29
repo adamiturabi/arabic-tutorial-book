@@ -52,11 +52,11 @@ ii. The common noun "a car": It is being described by the ;na3t;. We will call i
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize attribute};
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize ;na3t;};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-3.south east)
-      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize attributee};
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize ;manut;};
 
 \end{tikzpicture}
 ```
@@ -185,15 +185,15 @@ Here is the equivalent Arabic ;manut;-;na3t; phrase:
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize attribute};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ;na3t;};
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize attributee};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ;manut;};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
-      node [midway, below] {\scriptsize attributee-attribute phrase};
+      node [midway, below] {\scriptsize ;manut;-;na3t; phrase};
 
 \path (0,0) node [midway, below=10ex, right=0ex, align=left] {``the small house''\\(literally: ``the small-one house'')};
 
