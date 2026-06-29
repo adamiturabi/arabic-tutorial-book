@@ -267,7 +267,7 @@ map_table["sababi"] = "sababi" # takeover
 map_table["sahib_hal"] = "person of ḥāl"
 map_table["sahibs_hal"] = "persons of ḥāl"
 map_table["sifah"] = "adjectival noun"
-map_table["sifah_mush"] = "participle-like adjective" # {"participlish adjectival noun", nil} # "participle-like", static-adjectival noun.
+map_table["sifah_mush"] = "static " + map_table["sifah"] # "participle-like adjective" # {"participlish adjectival noun", nil} # "participle-like", static-adjectival noun.
 map_table["sighah_mub"] = "emphatic noun" # {"participlish adjectival noun", nil} # "participle-like"?
 map_table["silah"] = "connecting sentence"
 map_table["shibh_fi3l"] = "quasi-verb"
@@ -291,11 +291,15 @@ map_table["zaaid"] = "redundant"
 map_table["zaahir"] = "overt"
 
 # crossovers
-map_table["crossover"] = map_table["rarr"] #"⤮" # "⥇" #"×" + 
-map_table["ism_masdar"] = map_table["subst"] + map_table["crossover"] + map_table["masdar"] #"maṣdar-like noun"
-map_table["ism_failxsubst"] = map_table["ism_fail"] + map_table["crossover"] + map_table["subst"] #"maṣdar-like noun"
-map_table["masdarxsubst"] = map_table["masdar"] + map_table["crossover"] + map_table["subst"]
-map_table["masdarxsifah"] = map_table["masdar"] + map_table["crossover"] + map_table["sifah"]
+map_table["to_arr"] = map_table["rarr"] #"⤮" # "⥇" #"×" + 
+map_table["crossover"] = "crossover"
+map_table["ism_masdar"] = map_table["subst"] + map_table["to_arr"] + map_table["masdar"] + " " + map_table["crossover"] #"maṣdar-like noun"
+map_table["sifah_mushxsubst"] = map_table["sifah_mush"] + map_table["to_arr"] + map_table["subst"] + " " + map_table["crossover"] #"maṣdar-like noun"
+map_table["ism_failxsubst"] = map_table["ism_fail"] + map_table["to_arr"] + map_table["subst"] + " " + map_table["crossover"] #"maṣdar-like noun"
+map_table["ism_failxsifah_mush"] = map_table["ism_fail"] + map_table["to_arr"] + map_table["sifah_mush"] + " " + map_table["crossover"] #"maṣdar-like noun"
+map_table["masdarxsubst"] = map_table["masdar"] + map_table["to_arr"] + map_table["subst"] + " " + map_table["crossover"]
+map_table["masdarxsifah"] = map_table["masdar"] + map_table["to_arr"] + map_table["sifah"] + " " + map_table["crossover"]
+map_table["substxsifah_mush"] = map_table["subst"] + map_table["to_arr"] + map_table["sifah_mush"] + " " + map_table["crossover"]
 
 
 def get_sub_text(match):
