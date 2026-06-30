@@ -1293,6 +1293,14 @@ def populate_resource_list():
     , bib_text = 'Gätje, H., "Zur Struktur gestörter Konditionalgefüge im Arabischen," in _Oriens_, vol.\\ 25/26 (1976), pp.\\ 148--186, <https://doi.org/10.2307/1580661>'
     , sort_key = "gatje zur struktur"
     ))
+  resource_list.append(BibResource(
+    "talmon_musnad"
+    , cit_type = "ws_ref"
+    , cit_text = 'Talmon, "Musnad, musnad ilayhi and the early history of Arabic grammar: A reconsideration"'
+    , bib_text = 'Talmon, R., "Musnad, musnad ilayhi and the early history of Arabic grammar: A reconsideration," _The Journal of the Royal Asiatic Society of Great Britain and Ireland_, no.\\ 2, 1987, pp.\\ 208--22. <http://www.jstor.org/stable/25212149>'
+    , sort_key = "talmon musnad"
+    ))
+
 
   return resource_list
 
