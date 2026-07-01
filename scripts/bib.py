@@ -1142,7 +1142,7 @@ def populate_resource_list():
     , cit_type = "ws_ref"
     , cit_text = 'van Putten, M., _The morphosyntax of objects to participles in the Qurʾān_'
     , bib_text = 'van Putten, M., "The morphosyntax of objects to participles in the Qurʾān," _Journal of Semitic Studies LXIX/1 Spring 2024_ <https://doi.org/10.1093/jss/fgad029>'
-    , sort_key = 'van putten m the morphosyntax of objects to participles in the quran'
+    , sort_key = 'putten 2024'
     ))
   resource_list.append(BibResource(
     "kinberg_participal"
@@ -1191,7 +1191,7 @@ def populate_resource_list():
     , cit_type = "ws_ref"
     , cit_text = "Al-Mubarakpuri, _Tafsir ibn Kathir_ (abridged, English translation), Darussalam, 2nd edition, 2003"
     , bib_text = "Al-Mubarakpuri, _Tafsir ibn Kathir_ (abridged, English translation), Darussalam, 2nd edition, 2003"
-    , sort_key = 'tafsir ibn kathir english'
+    , sort_key = 'mubarakpuri'
     ))
   resource_list.append(BibResource(
     "baalbaki_intro"
@@ -1275,14 +1275,14 @@ def populate_resource_list():
     , cit_type = "ws_ref"
     , cit_text = 'Reckendorf, _Arabische syntax_'
     , bib_text = 'Reckendorf, H., _Arabische syntax_, Heidelburg, 1921.'
-    , sort_key = "Reckendorf arabische syntax"
+    , sort_key = "Reckendorf 1921"
     ))
   resource_list.append(BibResource(
     "reckendorf_1898"
     , cit_type = "ws_ref"
     , cit_text = 'Reckendorf, _Die syntaktischen Verhältnisse des Arabischen_'
     , bib_text = 'Reckendorf, H., _Die syntaktischen Verhältnisse des Arabischen_, Brill, 1898.'
-    , sort_key = "Reckendorf syntaktischen Verhaltnisse des Arabischen"
+    , sort_key = "Reckendorf 1898"
     ))
   resource_list.append(BibResource(
     "alfraidi_conditional"
@@ -1316,8 +1316,8 @@ def populate_resource_list():
     "putten_fasih"
     , cit_type = "ws_ref"
     , cit_text = 'van Putten, "When did faṣīḥ become qabīḥ?"'
-    , bib_text = 'van Putten, M., "When did faṣīḥ become qabīḥ? Rehabilitating classical phonological and morphological features", Journal of Semitic Studies, Volume\\ 71, Issue\\ 1, Spring 2026, pp.\\ 201–242, <https://doi.org/10.1093/jss/fgaf033>'
-    , sort_key = "putten when did fasih"
+    , bib_text = 'van Putten, M., "When did faṣīḥ become qabīḥ? Rehabilitating classical phonological and morphological features", _Journal of Semitic Studies_, Volume\\ 71, Issue\\ 1, Spring 2026, pp.\\ 201–242, <https://doi.org/10.1093/jss/fgaf033>'
+    , sort_key = "putten 2026"
     ))
 
 
