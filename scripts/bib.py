@@ -1021,6 +1021,18 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/14579")
     , sort_key = "استشهاد بالحديث في اللغة لمحمد الخضر حسين"
     ))
+  resource_list.append(BibResource(
+    "earanjiyyah"
+    , cit_type = "ar_ref"
+    , cit_text = "[العرنجية لأحمد الغامدي]{.ar}"
+    , bib_text = """
+      الكتاب: العرنجية بلسان عربي هجين  
+      المؤلف: أحمد الغامدي 
+      الناشر: مؤسسة التكوين
+      الطبعة: الأولى، ١٤٤٣ هـ - ٢٠٢١ م  
+      """ + format_url_ar("https://archive.org/details/0_20240122_20240122_1346/page/n1/mode/2up")
+    , sort_key = "عرنجية"
+    ))
 
 
   # Western
