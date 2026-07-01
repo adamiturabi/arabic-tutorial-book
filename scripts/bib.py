@@ -1300,6 +1300,13 @@ def populate_resource_list():
     , bib_text = 'Talmon, R., "Musnad, musnad ilayhi and the early history of Arabic grammar: A reconsideration," _The Journal of the Royal Asiatic Society of Great Britain and Ireland_, no.\\ 2, 1987, pp.\\ 208--22. <http://www.jstor.org/stable/25212149>'
     , sort_key = "talmon musnad"
     ))
+  resource_list.append(BibResource(
+    "putten_fasih"
+    , cit_type = "ws_ref"
+    , cit_text = 'van Putten, "When did faṣīḥ become qabīḥ?"'
+    , bib_text = 'van Putten, M., "When did faṣīḥ become qabīḥ? Rehabilitating classical phonological and morphological features", Journal of Semitic Studies, Volume\\ 71, Issue\\ 1, Spring 2026, pp.\\ 201–242, <https://doi.org/10.1093/jss/fgaf033>'
+    , sort_key = "putten when did fasih"
+    ))
 
 
   return resource_list
