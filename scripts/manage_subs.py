@@ -28,6 +28,7 @@ map_table["ayah"] = "[Ayah]{.trn2}"
 map_table["surah"] = "[sUrah]{.trn2}"
 map_table["tafsir"] = "[tafsIr]{.trn2}"
 map_table["sca"] = "[sca]{.smallcaps}"
+map_table["ca"] = "Classical Arabic"
 map_table["msa"] = "[msa]{.smallcaps}"
 map_table["ah"] = "[ah]{.smallcaps}"
 
