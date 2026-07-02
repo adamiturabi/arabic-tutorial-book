@@ -152,7 +152,7 @@ presents a simplified view the historical development of the different varieties
 %\draw [->,>=stealth,thick] ([xshift=-0.57cm]class.north east) to [bend left=30] (sca);
 %\draw [->,>=stealth,thick,postaction={decorate,decoration={text along path,raise=1.5pt,text align=left,text={|\footnotesize|SCA}}}] ([xshift=-0.25cm]class.north east) to [bend left=25] (sca);
 \draw [->,>=stealth,thick,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={|\sffamily|SCA}}}] ([xshift=-0.34cm]class.north east) to [bend left=25] (sca);
-\draw [->,>=stealth,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={|\sffamily\footnotesize|other varieties}}}] ([xshift=0cm]old.north) to [bend left=20] ([xshift=1.4cm,yshift=0.5cm]old.north);
+\draw [->,>=stealth,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={|\sffamily\footnotesize|other varieties}}}] ([xshift=0cm,yshift=-0.15cm]old.north) to [bend left=15] ([xshift=1.4cm,yshift=0.3cm]old.north);
 
 \draw [dashedarrow] ([xshift=-1.65cm]msa.south west) -- ([xshift=0.65cm]vern.north west);
 \draw [dashedarrow] ([xshift=-1cm]vern.north west) -- (msa.south west);
