@@ -96,6 +96,9 @@ So too did the ;ca; dialects begin to change.
 But when this began to happen,
 scholars took on the responsibility of preserving the language of the 
 revelation.^[[@mu3allimi@ 4/21--22](https://shamela.ws/book/328/56#p1)]
+They did this by recording a corpus of authentic ;ca; texts,
+and then analyzing it to derive grammatical rules,
+in addition to producing dictionaries and compendia.
 In the process of preserving ;ca;, one particular variety became standardized and gained prevalence as a literary language amongst the dialects of ;ca;.
 We will call this variety _Standard ;ca;_ (;sca;).
 
@@ -185,6 +188,7 @@ presents a simplified view the historical development of the different varieties
 
 \node (hijrah) [below of=class, yshift=-0.15cm] {\small the Hijrah};
 %\node (ah1400) [below of=vern, yshift=-0.15cm,xshift=-.5cm] {\footnotesize modern day};
+\node (ah1400) at (hijrah -| old)  {\small prehistory};
 \node (ah1400) at ([xshift=0.3cm]hijrah -| msa)  {\small modern day};
 %\node (timelabel) [right of=ah1400,xshift=1cm]  {\footnotesize time axis};
 
@@ -226,7 +230,7 @@ But the scholars of the Arabic language made notes regarding the other dialects 
 In this context, 
 -->
 It may be appropriate to say a few words about what defines ;sca; proper.
-When the Arab grammarians first began recording and describing ;ca;,
+When the Arabic grammarians first began recording and describing ;ca;,
 the regular, day-to-day, speech of many people had already begun to deviate from ;ca;.
 So the grammarians would seek out and record
 samples of speech and texts from only authoritative sources.
