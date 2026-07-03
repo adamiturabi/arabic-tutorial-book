@@ -141,9 +141,10 @@ presents a simplified view the historical development of the different varieties
 \node (class) [right of=old, xshift=3cm] {Classical Arabic};
 \node (sca) [above of=class, xshift=1.8cm, yshift=1cm] {};
 \node (msa) [right of=sca, xshift=3.5cm] {MSA};
+\node (other) [below of=class, xshift=-2cm,yshift=0.4cm] {other varieties};
 %\node (vern) [right of=class, xshift=7cm, align=center] {\small Modern\\\small Vernacular\\\small Arabic};
 %\node (vern) at (class -| msa) [xshift=0.4cm] {\small Modern\\\small Vernacular\\\small Arabic};
-\node (vern) at (class -| msa) [text centered,text width = 0.28\textwidth,text depth=0.5cm,align=left,xshift=0.7cm] {\small Modern Vernacular Arabic};
+\node (vern) at (class -| msa) [text centered,text width = 0.28\textwidth,text depth=0.5cm,align=left,xshift=0.7cm] {Modern Vernacular Arabic};
 
 
 \draw [doublearr] (old) -- node [midway,yshift=1.5pt] {\footnotesize dialects} (class);
@@ -159,37 +160,39 @@ presents a simplified view the historical development of the different varieties
 %\draw [->,>=stealth,thick] ([xshift=-0.57cm]class.north east) to [bend left=30] (sca);
 %\draw [->,>=stealth,thick,postaction={decorate,decoration={text along path,raise=1.5pt,text align=left,text={|\footnotesize|SCA}}}] ([xshift=-0.25cm]class.north east) to [bend left=25] (sca);
 \draw [->,>=stealth,thick,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={|\sffamily|SCA}}}] ([xshift=-0.34cm]class.north east) to [bend left=25] (sca);
-\draw [->,>=stealth,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={|\sffamily\footnotesize|other varieties}}}] ([xshift=0cm,yshift=-0.15cm]old.north) to [bend left=15] ([xshift=1.4cm,yshift=0.3cm]old.north);
+%\draw [->,>=stealth,postaction={decorate,decoration={text along path,raise=-6.5pt,text align=center,text={|\sffamily\small|other varieties}}}] ([xshift=0cm,yshift=0cm]old.south east) to [bend right=15] ([xshift=1.6cm,yshift=-0.3cm]old.south east);
+\draw [->,>=stealth] ([xshift=0cm,yshift=0cm]old.south) to [bend right=15] (other.west);
 
 \draw [dashedarrow] ([xshift=-1.65cm]msa.south west) -- ([xshift=0.65cm]vern.north west);
 \draw [dashedarrow] ([xshift=-1cm]vern.north west) -- (msa.south west);
-\node (msavern) [below of=msa, xshift=-0.9cm, yshift=0.07cm] {\scriptsize cross-influence};
+\node (msavern) [below of=msa, xshift=-0.9cm, yshift=0.07cm] {\footnotesize cross-influence};
 
-\node (native) [left of=old, xshift=-1.1cm, align=right] {\footnotesize native\\\footnotesize Arabic};
+\node (native) [left of=old, xshift=-1.1cm, yshift=-0.4cm, align=right] {\small native\\\small Arabic};
 %\node (nonnative) [above of=native,align=right] {\footnotesize non-native\\\footnotesize SCA};
-\node (nonnative) at (sca -| native) [xshift=-0.3cm,align=right] {\footnotesize non-native\\\footnotesize formal Arabic};
+\node (nonnative) at (sca -| native) [xshift=-0.3cm,align=right] {\small non-native\\\small formal Arabic};
 
-\node (classborrow) [above of=old,yshift=3cm,align=center] {\scriptsize Arabicized loanwords from\\\scriptsize Persian, Aramaic, etc.};
-\draw [dashedarrow] (classborrow) -- (class.north west);
+\node (classborrow) [above of=old,yshift=3cm,align=center] {\small Aramaic, Persian, etc.};
+\draw [dashedarrow,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={|\sffamily\footnotesize|loanwords}}}] (classborrow) -- (class.north west);
 
-\node (scaborrow) [right of=classborrow,xshift=3cm,align=center] {\scriptsize Arabicized loanwords from\\\scriptsize Persian, Greek, etc.};
-\draw [dashedarrow] (scaborrow) -- ([xshift=0.5cm]sca.north west);
+\node (scaborrow) [right of=classborrow,xshift=3cm,align=center] {\small Persian, Greek, etc.};
+\draw [dashedarrow,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={|\sffamily\footnotesize|loanwords}}}] (scaborrow) -- ([xshift=0.5cm]sca.north west);
 
-\node (msaborrow) [right of=classborrow,xshift=7cm,align=center] {\scriptsize translated vocabulary, style and grammar\\\scriptsize from English, French, etc.};
-\draw [dashedarrow] (msaborrow) -- (msa.north west);
+\node (msaborrow) [right of=classborrow,xshift=7cm,align=center] {\small English, French, etc.};
+\draw [dashedarrow,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={|\sffamily\footnotesize|loanwords, syntax}}}] (msaborrow) -- (msa.north west);
 
-\node (foreign) at (classborrow -| native) [xshift=-0.3cm,align=right] {\footnotesize foreign\\\footnotesize languages};
+\node (foreign) at (classborrow -| native) [xshift=-0.3cm,align=right] {\small foreign\\\small languages};
 
-%\node (lang) [above of=foreign,yshift=1cm,xshift=1cm,align=right,rotate=90] {\scriptsize language/\\\scriptsize variety};
+%\node (lang) [above of=foreign,yshift=1cm,xshift=1cm,align=right,rotate=90] {\small language/\\\scriptsize variety};
 
 %\draw [axes] (-3,-0.5) -- node [below,xshift=7cm] {\footnotesize time axis} (13,-0.5);
-\draw [axes] (-3,-0.5) --  (11,-0.5);
-\draw [axes] (-1.5,-1) -- node [above, rotate=90, xshift=3.5cm,align=center] {\footnotesize language/\\\footnotesize variety} (-1.5,5);
+\draw [axes] (-3,-1) --  (11,-1);
+%\draw [axes] (-1.5,-1.5) -- node [above, rotate=90, xshift=3.5cm,align=center] {\small language/\\\small variety} (-1.5,5);
+\draw [axes] (-1.5,-1.5) --  (-1.5,5);
 %\draw [->,postaction={decorate,decoration={text along path,text align=right,text={|\scriptsize|time}}}] (-3,-0.5) to (13,-0.5);
 
-\node (hijrah) [below of=class, yshift=0.2cm] {\footnotesize the Hijrah};
-%\node (ah1400) [below of=vern, yshift=0.2cm,xshift=-1.75cm] {\footnotesize modern day};
-\node (ah1400) at (hijrah -| msa)  {\footnotesize modern day};
+\node (hijrah) [below of=class, yshift=-0.15cm] {\small the Hijrah};
+%\node (ah1400) [below of=vern, yshift=-0.15cm,xshift=-1.75cm] {\footnotesize modern day};
+\node (ah1400) at (hijrah -| msa)  {\small modern day};
 %\node (timelabel) [right of=ah1400,xshift=1cm]  {\footnotesize time axis};
 
 \end{tikzpicture}
