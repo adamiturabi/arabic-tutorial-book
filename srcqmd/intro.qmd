@@ -133,11 +133,11 @@ presents a simplified view the historical development of the different varieties
 \node (old) at (0,0) {Proto-Arabic};
 \node (class) [right of=old, xshift=3cm] {;ca;};
 \node (sca) [above of=class, xshift=1.8cm, yshift=1cm] {};
-\node (msa) [right of=sca, xshift=3.5cm] {MSA};
+\node (msa) [right of=sca, xshift=1.5cm] {MSA};
 \node (other) [below of=class, xshift=-2cm,yshift=0.4cm] {other varieties};
-%\node (vern) [right of=class, xshift=7cm, align=center] {\small Modern\\\small Vernacular\\\small Arabic};
+%\node (vern) [right of=class, xshift=6cm, align=center] {\small Modern\\\small Vernacular\\\small Arabic};
 %\node (vern) at (class -| msa) [xshift=0.4cm] {\small Modern\\\small Vernacular\\\small Arabic};
-\node (vern) at (class -| msa) [text centered,text width = 0.28\textwidth,text depth=0.5cm,align=left,xshift=0.7cm] {Modern Vernacular Arabic};
+\node (vern) at ([xshift=0.5cm]class -| msa) [text centered,text width = 0.28\textwidth,text depth=0.5cm,align=left,xshift=0.7cm] { Modern\\Vernacular\\Arabic};
 
 
 \draw [doublearr] (old) -- node [midway,yshift=1.5pt] {\footnotesize dialects} (class);
@@ -154,38 +154,38 @@ presents a simplified view the historical development of the different varieties
 %\draw [->,>=stealth,thick,postaction={decorate,decoration={text along path,raise=1.5pt,text align=left,text={|\footnotesize|SCA}}}] ([xshift=-0.25cm]class.north east) to [bend left=25] (sca);
 \draw [->,>=stealth,thick,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={|\sffamily|SCA}}}] ([xshift=-0.34cm]class.north east) to [bend left=25] (sca);
 %\draw [->,>=stealth,postaction={decorate,decoration={text along path,raise=-6.5pt,text align=center,text={|\sffamily\small|other varieties}}}] ([xshift=0cm,yshift=0cm]old.south east) to [bend right=15] ([xshift=1.6cm,yshift=-0.3cm]old.south east);
-\draw [->,>=stealth] ([xshift=0cm,yshift=0cm]old.south) to [bend right=15] (other.west);
+\draw [->,>=stealth,thick] ([xshift=0cm,yshift=0cm]old.south) to [bend right=15] (other.west);
 
-\draw [dashedarrow] ([xshift=-1.65cm]msa.south west) -- ([xshift=0.65cm]vern.north west);
-\draw [dashedarrow] ([xshift=-1cm]vern.north west) -- (msa.south west);
-\node (msavern) [below of=msa, xshift=-0.9cm, yshift=0.07cm] {\footnotesize cross-influence};
+%\draw [dashedarrow] ([xshift=-1.65cm]msa.south west) -- ([xshift=0.65cm]vern.north west);
+%\draw [dashedarrow] ([xshift=-1cm]vern.north west) -- (msa.south west);
+%\node (msavern) [below of=msa, xshift=-0.9cm, yshift=0.07cm] {\footnotesize cross-influence};
 
-\node (native) [left of=old, xshift=-1.1cm, yshift=-0.4cm, align=right] {\small native\\\small Arabic};
+\node (native) [left of=old, xshift=-0.5cm, yshift=-0.4cm, align=right] {\small native\\\small Arabic};
 %\node (nonnative) [above of=native,align=right] {\footnotesize non-native\\\footnotesize SCA};
-\node (nonnative) at (sca -| native) [xshift=-0.3cm,align=right] {\small non-native\\\small formal Arabic};
+\node (nonnative) at (sca -| native) [xshift=-0.5cm,align=right] {\small non-native\\\small formal Arabic};
 
-\node (classborrow) [above of=old,yshift=3cm,align=center] {\small Aramaic, Persian, etc.};
-\draw [dashedarrow,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={|\sffamily\footnotesize|loanwords}}}] (classborrow) -- (class.north west);
+\node (classborrow) [above of=class,xshift=-2.3cm,yshift=3cm,align=center] {\small Aramaic,\\\small Persian, etc.};
+\draw [dashedarrow,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={|\sffamily\footnotesize|loanwords}}}] (classborrow) to [bend right=15] (class.north west);
 
-\node (scaborrow) [right of=classborrow,xshift=3cm,align=center] {\small Persian, Greek, etc.};
-\draw [dashedarrow,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={|\sffamily\footnotesize|loanwords}}}] (scaborrow) -- ([xshift=0.5cm]sca.north west);
+\node (scaborrow) [right of=classborrow,xshift=2cm,align=center] {\small Persian,\\\small Greek, etc.};
+\draw [dashedarrow,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={|\sffamily\footnotesize|loanwords}}}] (scaborrow) to [bend right=15] ([xshift=0.5cm]sca.north west);
 
-\node (msaborrow) [right of=classborrow,xshift=7cm,align=center] {\small English, French, etc.};
-\draw [dashedarrow,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={|\sffamily\footnotesize|loanwords, syntax}}}] (msaborrow) -- (msa.north west);
+\node (msaborrow) [right of=scaborrow,xshift=1cm,align=center] {\small English,\\\small French, etc.};
+\draw [dashedarrow,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={|\sffamily\footnotesize|loanwords, syntax}}}] (msaborrow) to [bend right=15] (msa.north west);
 
 \node (foreign) at (classborrow -| native) [xshift=-0.3cm,align=right] {\small foreign\\\small languages};
 
 %\node (lang) [above of=foreign,yshift=1cm,xshift=1cm,align=right,rotate=90] {\small language/\\\scriptsize variety};
 
 %\draw [axes] (-3,-0.5) -- node [below,xshift=7cm] {\footnotesize time axis} (13,-0.5);
-\draw [axes] (-3,-1) --  (11,-1);
+\draw [axes] (-1.5,-1) --  (9.5,-1);
 %\draw [axes] (-1.5,-1.5) -- node [above, rotate=90, xshift=3.5cm,align=center] {\small language/\\\small variety} (-1.5,5);
-\draw [axes] (-1.5,-1.5) --  (-1.5,5);
+\draw [axes] (-1,-1.5) --  (-1,5);
 %\draw [->,postaction={decorate,decoration={text along path,text align=right,text={|\scriptsize|time}}}] (-3,-0.5) to (13,-0.5);
 
 \node (hijrah) [below of=class, yshift=-0.15cm] {\small the Hijrah};
-%\node (ah1400) [below of=vern, yshift=-0.15cm,xshift=-1.75cm] {\footnotesize modern day};
-\node (ah1400) at (hijrah -| msa)  {\small modern day};
+%\node (ah1400) [below of=vern, yshift=-0.15cm,xshift=-.5cm] {\footnotesize modern day};
+\node (ah1400) at ([xshift=0.3cm]hijrah -| msa)  {\small modern day};
 %\node (timelabel) [right of=ah1400,xshift=1cm]  {\footnotesize time axis};
 
 \end{tikzpicture}
@@ -285,9 +285,9 @@ noticeably by
 European languages.
 This is because much 
 written material, like books and news articles was, and is,
-translated wholesale from European languages.
+translated from European languages.
 This translation, along with adding vocabulary, has also
-influenced the style, and also in places, the grammar of
+influenced the syntax and the style of
 the ;msa; which you are likely to find printed today.^[See also @alfraidi_conditional@ 17--21; @earanjiyyah@]
 <!--
 In a sense,
@@ -299,14 +299,14 @@ then that is the kind of Arabic that he will be likely to produce and in turn pr
 -->
 That is not to say that all
 ;msa; produced today
-has deviated from the grammar and style of
+has deviated from the syntax and style of
 ;sca;.
 Persons who have been more exposed to
 classical books are more likely to stay closer to
 ;sca;.
 In any case, as we have mentioned earlier,
-all Arabic that is produced
-today that attempts to
+all Arabic produced
+today, that attempts to
 conform to
 ;sca;,
 is merely that:
