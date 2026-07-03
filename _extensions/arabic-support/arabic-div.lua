@@ -10,7 +10,7 @@ Div = function(el)
           contents, 1,
           pandoc.RawInline('latex', '\\altfamily ')
         )
-      elseif el.classes:includes 'aralt' then
+      elseif el.classes:includes 'quran' then
         table.insert(
           contents, 1,
           pandoc.RawInline('latex', '\\quranfamily ')
