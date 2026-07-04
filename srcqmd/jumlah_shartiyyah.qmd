@@ -9,12 +9,12 @@ A ;j_sh; is a special sentence, which consists of two parts:
 1. A condition (_;shart;_). The ;shart; itself consists of two parts:
 
     i. The condition introducer (*;adat_shart;*)
-   ii. The condition sentence (*;shart_int;*)
+   ii. The condition core (*;shart_int;*)
 
 2. A condition-response (_;jawab_shart;_). The ;jawab_shart; can also consist of two parts:
 
     i. The condition-response introducer (*;jawab_shart_intro;*). This may be absent for some ;j_sh;s.
-   ii. The condition-response sentence (*;jawab_shart_int;*)
+   ii. The condition-response core (*;jawab_shart_int;*)
 
 Here is an example of a ;j_sh; in English:
 
@@ -112,15 +112,18 @@ are:
 * ;man; [who(ever)]{.trans}
 * ;maa; [what(ever)]{.trans}
 
+We will study them in the following sections.
+<!--
 Amongst these ;adat_shart;s,
 ;in; is considered the most basic ;adat_shart;.^[[@ibn_ya3ish_mufassal@ 5/106](https://shamela.ws/book/13301/2044)]
 We will study 
 it
 first.
+-->
 
 ## The ;in; ;j_sh;
 
-;in; is considered the most basic of all the ;adat_shart;s.^[sibawayhi]
+;in; is considered the most basic of all the ;adat_shart;s.^[sibawayhi; [@ibn_ya3ish_mufassal@ 5/106](https://shamela.ws/book/13301/2044)]
 It forms the basic ;j_sh;.
 #;j_sh;s that employ other ;adat_shart;s are based on
 the ;j_sh; with ;in;.
@@ -143,16 +146,16 @@ uses
 This ;j_sh; consists of two parts:
 
 1. a ;shart;, consisting of:
-   a. the ;adat_shart; ;in;, and 
-   b. the ;shart_int; which is a ;j_f3l; consisting of (at least):
-      * a ;0case; ;mudarie; verb (the *;fi3l_shart;*) and
-      * its ;faa3il;
+    i. the ;adat_shart; ;in;, and 
+   ii. the ;shart_int;, which is a ;j_f3l; containing:
+       * a ;0case; ;mudarie; verb (the *;fi3l_shart;*) and
+       * its ;faa3il;
 2. a ;jawab_shart;, consisting of:
-   a. the ;jawab_shart_int; which is a ;j_f3l; consisting of (at least):
+   i. the ;jawab_shart_int;, which is a ;j_f3l; containing:
       * a ;0case; ;mudarie; verb (the *;fi3l_jawab_shart;*) and
       * its ;faa3il;
 
-   There is no ;jawab_shart_intro;.
+   There is no ;jawab_shart_intro; in the ;arch; ;in; ;j_sh;.
 
 <!--
 In this ;arch; form of the ;j_sh;,
@@ -1029,10 +1032,6 @@ Here are some more examples of this kind of ;j_sh;:
     [[@sibawayhi@ 3/66](https://shamela.ws/book/23018/919#p1)]{.citex}  
     [And if a friend came to him on a day of asking, he says, "My wealth is neither absent nor denied."]{.trans}
 
-(@) [قَالَتِ اللَّهُمَّ **إِنْ يَمُتْ يُقَالُ** هِيَ قَتَلَتْهُ]{.ar}
-    [@https://sunnah.com/bukhari:2217@ cited by @peled_cst@ 17]{.citex}  
-    [She said, "O ;Allah; if he should die, it will be said, 'She killed him.'"]{.trans}  
-
 
 Note again,
 that the ;fi3l_shart; in these examples has been ;qatala;,
@@ -1051,6 +1050,10 @@ For example:
 (@) [يا أَقْرَعُ بنَ حابسٍ يا أَقْرَعُ ... إنَّك **إن يُصْرَعْ أخوك تُصْرَعُ**]{.ar}
     [[@sibawayhi@ 3/67](https://shamela.ws/book/23018/920#p1)]{.citex}  
     [O [#aqrae]{.trn2} son of [#HAbis]{.trn2}, O [#aqrae]{.trn2}! Indeed if your brother would be thrown down, you are being thrown down.]{.trans}  
+
+(@) [قَالَتِ اللَّهُمَّ **إِنْ يَمُتْ يُقَالُ** هِيَ قَتَلَتْهُ]{.ar}
+    [@https://sunnah.com/bukhari:2217@ cited by @peled_cst@ 17]{.citex}  
+    [She said, "O ;Allah; if he should die, it will be said, 'She killed him.'"]{.trans}  
 
 ## The ;idha; ;j_sh;
 
@@ -1351,7 +1354,7 @@ For example:
 
 (@) [فَأَقْبَلَ رَجُلٌ غَائِرُ الْعَيْنَيْنِ مُشْرِفُ الْوَجْنَتَيْنِ نَاتِئُ الْجَبِينِ كَثُّ اللِّحْيَةِ مَحْلُوقٌ فَقَالَ اتَّقِ اللَّهَ يَا مُحَمَّدُ فَقَالَ  **مَنْ يُطِعِ اللَّهَ إِذَا عَصَيْتُ** أَيَأْمَنُنِي اللَّهُ عَلَى أَهْلِ الأَرْضِ فَلاَ تَأْمَنُونِي]{.ar}^[It is not clear to us why [يُطِع]{.ar} is in the ;0case; from this source. Peled's source [الجامع الصحيح]{.ar}, ed.\ L.\ Krehl, Leiden: Brill, 1864, II, 337 l:9 has [يُطِيعُ]{.ar} in the ;ucase;.]  
     [@https://sunnah.com/bukhari:3344@ cited by @peled_cst@ 142]{.citex}  
-    [Then a man with sunken eyes, prominent checks, a raised forehead, a thick beard and a shaven head, came in front [of the Prophet ;pbuh;] and said, "Be afraid of ;Allah;, O [#muHammad]{.trn2}!" The Prophet ;pbuh; said, "Who would obey Allah **if** I disobeyed [Him]? (Is it fair that) ;Allah; has trusted all the people of the earth to me while you do not trust me?"]{.trans}  
+    [Then a man with sunken eyes, prominent checks, a raised forehead, a thick beard and a shaven head, came in front [of the Prophet ;pbuh;] and said, "Be afraid of ;Allah;, O [#muHammad]{.trn2}!" The Prophet ;pbuh; said, "**Who would obey Allah if I disobeyed [Him]?** (Is it fair that) ;Allah; has trusted all the people of the earth to me while you do not trust me?"]{.trans}  
 
 ### Certainty of the event indicated by ;idha;
 
@@ -1485,14 +1488,14 @@ as in the example:
 If we express the ;shart; as
 [إِنْ دَرَسَ]{.ar},
 then it will typically take a future ;tense; meaning.
-In order to specify a past ;tense;,
+In order to explicitly specify a past ;tense;,
 we begin the ;shart_int; with ;kaana;, thus:
 
-(@) [إِنْ كَانَ قَدْ دَرَسَ فَسَيَنْجَحُ]{.ar}  
+(@) [إِنْ **كَانَ** قَدْ دَرَسَ فَسَيَنْجَحُ]{.ar}  
     [If he studied, then he will succeed.]{.trans}
 
 In example () above,
-the ;qad; is optional, and mey be removed for the same meaning.
+the ;qad; is optional, and may be removed for the same meaning.
 
 Similarly, let's say that we expressly indicate a present tense meaning for the ;shart;
 as in the example:
@@ -1552,7 +1555,7 @@ Here is another example of ;shart;s with ;kaana; signifying a future meaning:
     [@https://sunnah.com/bukhari:2449@]{.citex}  
     [**If he will have a good deed**, it will be taken from according to his oppression, **and if he will not have good deeds**, his companion's bad deeds will be taken from and put on him.]{.trans}
 
-Context can help disambiguate which meaning is intended.
+Context will help disambiguate which meaning is intended.
 
 Here are some more examples of ;j_sh;s with ;kaana; as the ;fi3l_shart;:
 
@@ -1604,8 +1607,8 @@ we have seen that, if the ;shart; is to signify the present tense,
 then we will usually have ;kaana; as the ;fi3l_shart;.
 In this section, we add that when the ;fi3l_shart; is a _static_ verb,
 then ;kaana; is not required
-(though it may still be added)
 to signify the present ;tense;.
+^[;kaana; can still be used with a static verb. See for example @https://quran.com/6/35@، @https://quran.com/10/71@]
 We define a static verb,
 in the context of ;j_sh;s to be one of the following^[from @peled_cst@ 13]:
 
@@ -1641,7 +1644,7 @@ For modal verbs like
 [شَاءَ]{.ar} [to wish, want]{.trans},
 [اسْتَطَاعَ]{.ar} [can]{.trans},
 etc.,
-if the ;an; clause ;mafulb; of the modal verb is in the ;shart;
+if the ;an; clause that is the ;mafulb; of the modal verb is in the ;shart;
 then it need not be repeated in the ;jawab_shart;.
 The ;jawab_shart;
 can then have an empty verb like [فَعَلَ]{.ar}.^[@peled_cst@ 22]
@@ -1651,7 +1654,9 @@ Example:
     [@https://sunnah.com/bukhari:2564@ cited by @peled_cst@ 22]{.citex}  
     [If your people **like** that I pay them your price in a lump sum and so manumit you, I will do so.]{.trans}  
 
-<https://sunnah.com/bukhari:554>
+(@) [إِنَّكُمْ سَتَرَوْنَ رَبَّكُمْ كَمَا تَرَوْنَ هَذَا الْقَمَرَ لاَ تُضَامُّونَ فِي رُؤْيَتِهِ، فَإِنِ اسْتَطَعْتُمْ أَنْ لاَ تُغْلَبُوا عَلَى صَلاَةٍ قَبْلَ طُلُوعِ الشَّمْسِ وَقَبْلَ غُرُوبِهَا فَافْعَلُوا]{.ar}
+    [@https://sunnah.com/bukhari:554@]{.citex}  
+    [Certainly you will see your Lord as you see this moon and you will have no trouble in seeing Him. So if you can avoid missing a prayer before the sunrise and a prayer before sunset then do so.]{.trans}
 
 Or the
 ;an; clause ;mafulb; of the modal verb can be omitted from the ;shart;
