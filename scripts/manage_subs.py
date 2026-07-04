@@ -261,6 +261,7 @@ map_table["noon_wiq"] = "guarding-[ن]{.ar}"
 map_table["participle"] = "participle"
 map_table["pbuh"] = "[ﷺ]{.aralt}"
 map_table["qasam"] = "oath"
+map_table["jawab_qasam"] = "oath-response"
 
 map_table["rabt"] = "link"
 
