@@ -1607,8 +1607,7 @@ we have seen that, if the ;shart; is to signify the present tense,
 then we will usually have ;kaana; as the ;fi3l_shart;.
 In this section, we add that when the ;fi3l_shart; is a _static_ verb,
 then ;kaana; is not required
-to signify the present ;tense;.
-^[;kaana; can still be used with a static verb. See for example @https://quran.com/6/35@، @https://quran.com/10/71@]
+to signify the present ;tense;.^[;kaana; can still be used with a static verb. See for example @https://quran.com/6/35@, @https://quran.com/10/71@]
 We define a static verb,
 in the context of ;j_sh;s to be one of the following^[from @peled_cst@ 13]:
 
@@ -1779,19 +1778,20 @@ That is, the ;jawab_shart; is a consequence of the ;shart; being fulfilled.
 because in those cases,
 the ;jawab_shart; is directly linked to the ;adat_shart;,
 either
-by future-shifting its ;tense; (in most cases),
-or by governing the ;fi3l_jawab_shart;, if applicable.
+by the ;adat_shart;'s future-shifting the ;tense; of the ;fi3l_jawab_shart; (in most cases),
+or by the ;adat_shart;'s directly governing the ;fi3l_jawab_shart;, if applicable.
 
 Once the ;fa; is added,
 the ;jawab_shart; is freed from the
 future-shifting influence
-(and government, if applicable)
-of the ;adat_shart;.
+of the ;adat_shart;
+and its direct government (if applicable).
 So,
 as we learned in section (ref) above,
 the ;tense; of the ;jawab_shart; introduced by ;fa;
 is evaluated independently.
 
+<!--
 ;fa; is typically mandatory when the ;jawab_shart; is not
 one of the basic forms.
 So, for example,
@@ -1816,6 +1816,7 @@ Again,
 there are some exceptions
 and ;fa; can sometimes be added to ;qatala;
 and [;_laa; ;_yaqtul;]{.ar} forms in the ;jawab_shart;, as we will see in the examples below.
+-->
 
 <!--
 However,
@@ -1941,7 +1942,9 @@ related to the occurrence of the ;shart;.
 ### Types of ;jawab_shart;s requiring ;fa;
 -->
 
-Here is a (non-exhaustive) list of situations in which
+### Situations where ;fa; is used as a ;jawab_shart_intro;
+
+Here is a (non-exhaustive) list of cases where
 ;fa; is used to introduce the ;jawab_shart;:
 
 <!--
@@ -1992,10 +1995,11 @@ For example:
 ##### Prohibitions {.unnumbered}
 
 The form of the ;jawab_shart; in prohibitions is
-[لَا تَقْتُلْ]{.ar}.
-but because its meaning is not directly linked to the ;adat_shart;, a ;fa; is added.
-If it were directly linked to the ;adat_shart; then its meaning would be "you will not do...",
-not "don't do..."
+[لَا تَقْتُلْ]{.ar},
+which appears to be a basic form.
+But because the meaning that is intended by
+[لَا تَقْتُلْ]{.ar}
+is a prohibition, and not a simple future tense, a ;fa; is added before it.
 
 (@) [فَإِنْ وَجَدْتُمْ غَيْرَ آنِيَتِهِمْ **فَلاَ تَأْكُلُوا** فِيهَا]{.ar}
     [@https://sunnah.com/bukhari:5488@]{.citex}  
@@ -2069,20 +2073,35 @@ yaqtulu also can be hortative peled 79
     [@https://sunnah.com/bukhari:4547@]{.citex}  
     [If you see the people who follow what is open to different interpretations, then they are ones whom ;Allah; named, so beware of them.]{.trans}  
 
+The ;j_ism; may begin with a particle, in which case as well ;fa; is used.
+For example:
+
+(@) [مَن یُضۡلِلِ ٱللَّهُ فَلَا هَادِیَ لَهُۥۚ]{.quran}
+    [@https://quran.com/7/186@ cited by [@radiy_kafiyah@ 4/110](https://ketabonline.com/ar/books/23090/read?part=4&page=1547&index=150957/150973)]{.citex}  
+    [Whoever Allāh sends astray - there is no guide for him.]{.trans}
+
+(@) [إِن تُعَذِّبۡهُمۡ فَإِنَّهُمۡ عِبَادُكَۖ]{.quran}
+    [@https://quran.com/5/118@ cited by [@radiy_kafiyah@ 4/110](https://ketabonline.com/ar/books/23090/read?part=4&page=1547&index=150957/150973)]{.citex}  
+    [If You should punish them - indeed they are Your servants;]{.trans}
+
+<!--
 ;fa; is sometimes dropped in this scenario by poetic license.
 For example:
 
 (@) [من يفعل الحسنات الله يشكرها]{.ar}
     [radiy 4/111]
+-->
 
+<!--
 ##### The ;jawab_shart_int; is a question {.unnumbered}
 
 radiy says fa need not be added. See 4/113.
+-->
 
 ##### The ;jawab_shart_int; is a ;qatala; ;j_f3l; but it signifies the past ;tense; {.unnumbered}
 
 When the ;jawab_shart; is a ;qatala; ;j_f3l; but the verb signifies the past ;tense;
-then ;fa; is added to it.
+then ;fa; is added to it.^[See also @peled_cst@ 80]
 
 (@) [وَإِن كَانَ قَمِیصُهُۥ قُدَّ مِن دُبُرࣲ **فَكَذَبَتۡ** وَهُوَ مِنَ ٱلصَّـٰدِقِینَ]{.quran}
     [@https://quran.com/12/27@ cited by @maani_nahw@ 4/105]{.citex}  
@@ -2095,10 +2114,11 @@ For example:
     [@https://sunnah.com/bukhari:4250@]{.citex}  
     [If you speak ill of his leadership, you have already spoken ill of his father's leadership before.]{.trans}
 
+<!--
 ;fa; is also used with ;qatala; in the ;jawab_shart; when a future perfect event is signified.
 For example:
 
-peled p. 80 (28)
+-->
 
 <!--
 #### The ;shart; uses [كَانَ [قَدْ] قَتَلَ]{.ar} to signify an event which already occurred {.unnumbered}
@@ -2140,7 +2160,7 @@ For example:
     [If you should ask forgiveness for them seventy times - never will Allāh forgive them.]{.trans}  
 
 ;fa; is typically not used to introduce ;jawab_shart;s that begin with ;lam;.
-However, some grammarians disagreed and allowed it.^[See radiy 4/116 and kashshaaf [فلم تقتلوهم]{.ar}]
+However, some grammarians disagreed and allowed it.^[See @https://tafsir.app/kashaf/8/17@ [فَلَمۡ تَقۡتُلُوهُمۡ]{.quran}]
 
 <!--
 Emphasis is on the occurrence (or non-occurrence) of ;jawab_shart;.
@@ -2157,6 +2177,55 @@ So ;fa; makes it obvious.
 <!--
 ### ;fa; in the ;jawab_shart; for ;idha; ;j_sh;s
 -->
+
+### Flexibility of allowing or dropping ;fa;
+
+In section () above, we listed the main scenarios where ;fa;
+is used as a ;jawab_shart_intro;.
+In this section,
+we will give some examples
+where ;fa; would seem to be required but is dropped,
+and conversely, where ;fa; would seem to be disallowed but is added.
+Grammarians have analyzed these and similar examples either
+by virtual modeling
+or by relaxing the rules to allow flexibility in having ;fa; as a ;jawab_shart_intro;.
+
+#### The ;jawab_shart; is a ;j_ism; {.unnumbered}
+
+(@) [مَن يَفعلِ الحَسَناتِ اللهُ يَشْكُرُها]{.ar}
+    [[@sibawayhi@ 3/65](https://shamela.ws/book/23018/918)]{.citex}  
+    [Whoever does good deeds, ;Allah; will thank them.]{.trans}
+
+In example () above,
+the ;jawab_shart;
+[اللهُ يَشْكُرُها]{.ar}
+is a ;j_ism; but it does not begin with a ;fa;.
+Some allow this by poetic license only^[See [@nahw_wafi@ 4/465](https://shamela.ws/book/10641/2392#p1)]
+while others allow it generally.^[See [@shawahid_tawdeeh@ 192](https://shamela.ws/book/98123/189#p1)]
+
+(@) [إِنَّكَ إِنْ تَرَكْتَ وَلَدَكَ أَغْنِيَاءَ خَيْرٌ مِنْ أَنْ تَتْرُكَهُمْ عَالَةً]{.ar}
+    [@https://sunnah.com/bukhari:6733@ cited by [@shawahid_tawdeeh@ 192](https://shamela.ws/book/98123/189#p1) see footnote 918]{.citex}  
+    [Indeed if you leave your offspring wealthy, [then it] is better than that you leave them poor.]{.trans}
+
+In example () above
+a deleted
+[فَهُوَ]{.ar}
+is virtually modeled in the ;jawab_shart;,^[[@shawahid_tawdeeh@ 192](https://shamela.ws/book/98123/189#p1)]
+thus:
+[إِنَّكَ إِنْ تَرَكْتَ وَلَدَكَ أَغْنِيَاءَ **فَهُوَ** خَيْرٌ]{.ar}.
+
+#### The ;jawab_shart; is a command {.unnumbered}
+
+(@) [فَإِنْ جَاءَ صَاحِبُهَا وَإِلاَّ اسْتَمْتِعْ بِهَا]{.ar}  
+    [@https://sunnah.com/bukhari:2437@  cited by [@shawahid_tawdeeh@ 192](https://shamela.ws/book/98123/189#p1); [@nahw_wafi@ 4/466 footnote](https://shamela.ws/book/10641/2393#p1)]{.citex}  
+    [Then if its owner comes [then give it to him], and if not [then] utilize it]{.trans}
+
+In example () above the ;jawab_shart; is a ;fi3l_amr; but it is not preceded by a ;fa;.
+The above ;hadith; has also been narrated with a ;fa; before the ;fi3l_amr;:
+
+(@) [فَإِنْ جَاءَ صَاحِبُهَا، وَإِلاَّ فَاسْتَمْتِعْ بِهَا]{.ar}
+    [@https://sunnah.com/bukhari:2426@   cited by [@shawahid_tawdeeh@ 192 footnote 919](https://shamela.ws/book/98123/189#p1)]{.citex}  
+    [Then if its owner comes [then give it to him], and if not then utilize it]{.trans}
 
 ### ;idha; fujaaiyyah instead of ;fa;
 
