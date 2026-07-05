@@ -263,6 +263,14 @@ def populate_resource_list():
     , bib_text = "إعراب القرآن للدعاس، " + format_url_ar("https://tafsir.app")
     , sort_key = "اعراب القران للدعاس"
     ))
+  resource_list.append(BibResource(
+    "aljadwal"
+    , cit_type = "ar_ref"
+    , cit_text = "[الجدول في إعراب القرآن لمحمود صافي]{.ar}"
+    , bib_text = "الجدول في إعراب القرآن لمحمود صافي، " + format_url_ar("https://tafsir.app")
+    , sort_key = "جدول في اعراب القران لمحمود صافي"
+    ))
+
 
 
   # General
