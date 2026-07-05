@@ -2235,7 +2235,7 @@ we will give some examples
 where ;fa; would seem to be required but is dropped,
 and conversely, where ;fa; would seem to be disallowed but is added.
 Grammarians have analyzed these and similar examples either
-by virtual modeling
+by ;qaddaring;
 or by relaxing the rules to allow flexibility in having ;fa; as a ;jawab_shart_intro;.^[See @iqtiran@ for a survey of the different opinions held by the grammarians.]
 
 #### The ;jawab_shart; is a ;j_ism; {.unnumbered}
@@ -2259,7 +2259,7 @@ In example () above,
 there is no ;fa; before
 [إِنَّكُمۡ لَمُشۡرِكُونَ]{.quran}.
 In order to reconcile this,
-some have virtually modeled a deleted ;qasam;, such that
+some have ;qaddared; a deleted ;qasam;, such that
 [إِنَّكُمۡ لَمُشۡرِكُونَ]{.quran}
 is not the ;jawab_shart; but a ;jawab_qasam;.^[@https://tafsir.app/albahr-almuheet/6/121@]
 
@@ -2270,7 +2270,7 @@ is not the ;jawab_shart; but a ;jawab_qasam;.^[@https://tafsir.app/albahr-almuhe
 In example () above
 a deleted
 [فَهُوَ]{.ar}
-is virtually modeled in the ;jawab_shart;,^[[@shawahid_tawdeeh@ 192](https://shamela.ws/book/98123/189#p1)]
+is ;qaddared; in the ;jawab_shart;,^[[@shawahid_tawdeeh@ 192](https://shamela.ws/book/98123/189#p1)]
 thus:
 [إِنَّكَ إِنْ تَرَكْتَ وَلَدَكَ أَغْنِيَاءَ **فَهُوَ** خَيْرٌ]{.ar}.
 
@@ -2307,12 +2307,12 @@ For example:
 
 
 In such cases, some grammarians have treated ;fa; as being allowed because of a deleted ;mubtada;
-such that the virtual model of
+such that the ;taqdir; of
 [إِنْ تَأْتِنِي فَأُكْرِمُكَ]{.ar}
 in example () above
 is
 [فَأَنَا أُكْرِمُكَ]{.ar}.^[[@sibawayhi@ 3/69](https://shamela.ws/book/23018/922)]
-Others did not see the need for such virtual modeling.^[[@radiy_kafiyah@ 4/112](https://ketabonline.com/ar/books/23090/read?part=4&page=1549&index=150957/150973) citing [المبرد]{.ar}; See also [@maani_nahw@ 4/109](https://shamela.ws/book/17801/1214)]
+Others did not see the need for such ;taqdiring;.^[[@radiy_kafiyah@ 4/112](https://ketabonline.com/ar/books/23090/read?part=4&page=1549&index=150957/150973) citing [المبرد]{.ar}; See also [@maani_nahw@ 4/109](https://shamela.ws/book/17801/1214)]
 
 We have already analyzed ;j_sh;s where
 the ;ucase; ;mudarie; verb in the ;jawab_shart; does not begin with ;fa;
@@ -3081,10 +3081,6 @@ Peled 75--76
 
 ## A ;shart; that begins with a noun
 
-
-
-## A noun before the ;fi3l_shart;
-
 Rework: https://shamela.ws/book/23018/965,
 https://shamela.ws/book/17116/2004
 
@@ -3116,6 +3112,49 @@ and it is begun with the ;fi3l_shart; [أَتَى]{.ar}.
 Occassionally,
 however,
 the ;shart_int; is found to begin with a noun.
+For example:
+
+(@) [**إِنِ ٱمۡرُؤٌا۟ هَلَكَ** لَیۡسَ لَهُۥ وَلَدࣱ وَلَهُۥۤ أُخۡتࣱ فَلَهَا نِصۡفُ مَا تَرَكَۚ]{.quran}  
+    [@https://quran.com/4/176@ cited by [@ibn_ya3ish_mufassal@ 5/120](https://shamela.ws/book/13301/2058)]{.citex}  
+    [If a man dies, leaving no child but [only] a sister, she will have half of what he left.]{.trans}  
+
+In example () above, the ;adat_shart; ;in; is directly followed by the noun
+[امْرُوٌ]{.ar}
+and not the verb
+[هَلَكَ]{.ar}.
+The way that this,
+and similar examples,
+are made to align with the above stated principle of a
+;shart_int; always being a ;j_f3l;,
+is by ;qaddaring; a deleted verb
+[هَلَكَ]{.ar}
+directly after the ;adat_shart; ;in; as its ;fi3l_shart;, thus:
+
+(@) [إِنْ [هَلَكَ] امْرُوٌ]{.ar}
+
+Once the original ;fi3l_shart;
+[هَلَكَ]{.ar}
+is deleted,
+its ;faa3il; is left in place.
+And an explanatory verb is added after it which gives the meaning of the deleted verb.
+In this, and most cases, the explanatory verb matches the deleted verb.
+So the resulting ;shart; becomes
+[إِنْ امْرُوٌ هَلَكَ]{.ar}.
+
+In this way, the basic principle of
+the ;shart_int; always being a ;j_f3l;
+remains intact.
+And it restricts the the transformed ;shart;
+(after the deletion)
+to have a verb.
+Therefore, a ;shart; like the following would be disallowed because it does not have a verb:
+
+(@) ;x; [إِنْ عَمْرٌو خَارِجٌ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/120](https://shamela.ws/book/13301/2058)]{.citex}  
+    [If ;3amr; is outside...]{.trans}  
+
+---
+
 <!--
 This noun is usually a detached pronoun, or an indefinite noun.
 -->
