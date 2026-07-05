@@ -1033,6 +1033,17 @@ def populate_resource_list():
       """ + format_url_ar("https://archive.org/details/0_20240122_20240122_1346/page/n1/mode/2up")
     , sort_key = "عرنجية"
     ))
+  resource_list.append(BibResource(
+    "iqtiran"
+    , cit_type = "ar_ref"
+    , cit_text = "اقتران الفاء في جواب الشرط وعدمها في التعبير القراني[]{.ar}"
+    , bib_text = """
+المقالة: اقتران الفاء في جواب الشرط وعدمها في التعبير القراني
+المؤلفان: عناد مخلف مهبش الهيتي، قصي جدوع رضا الهيتي
+      """ + format_url_ar("https://www.researchgate.net/publication/333642765_aqtran_alfa_fy_jwab_alshrt_wdmha_fy_altbyr_alqrany")
+    , sort_key = "قتران"
+    ))
+  
 
 
   # Western
