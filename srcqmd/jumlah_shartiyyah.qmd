@@ -3128,7 +3128,7 @@ are made to align with the above stated principle of a
 ;shart_int; always being a ;j_f3l;,
 is by ;qaddaring; a deleted verb
 [هَلَكَ]{.ar}
-directly after the ;adat_shart; ;in; as its ;fi3l_shart;, thus:
+directly after the ;adat_shart; ;in; as its ;fi3l_shart;, thus^[The following is the standard analysis. Other analyses are described in @abdelghani@ 96--105 and [@radiy_kafiyah@ 4/93--94](https://ketabonline.com/ar/books/23090/read?part=4&page=1531&index=150957/150972)]:
 
 (@) [إِنْ [هَلَكَ] امْرُوٌ]{.ar}
 
@@ -3176,8 +3176,8 @@ The verb
 (and [لَمْ]{.ar})
 is deleted
 and its ;faa3il; is left in place.
-But because its ;faa3il; is a ;mustatir; pronoun,
-it is transformed into its detached pronoun equivalent [أَنْتَ]{.ar}.
+But because its ;faa3il; is a ;mustatir; pronoun (;qaddared; as [[أَنْتَ]]{.ar}),
+it is transformed into its detached pronoun equivalent [أَنْتَ]{.ar} so that it can appear in surface speech.
 Then an explanatory verbal expression
 [لَمْ تَنْفَعْ]{.ar}
 (which matches the deleted verbal expression)
@@ -3185,12 +3185,10 @@ is added,
 and we end up with the resultant
 [إِذَا أَنْتَ لَمْ تَنْفَعْ]{.ar}.
 
-
----
+It is also possible for the explanatorily added verb to not exactly match the ;qaddared; deleted ;fi3l_shart;.
+For example:
 
 <!--
-This noun is usually a detached pronoun, or an indefinite noun.
--->
 Here are some examples:
 
 (@) [إِنْ **أَنْتَ** أَكْرَمْتَ اللَّئِيمَ تَمَرَّدَا]{.ar}
@@ -3200,13 +3198,6 @@ Here are some examples:
 
 (@) [إذا أنت لم تنفع فضرّ]{.ar}
     [abdelghani 97]{.citex}  
-
-<!--
-Because such structures are relatively rare compared to
-;shart_int;s that begin with a ;j_f3l;,
-the grammarians attempted to keep the basic principle consistent.
-Which is that the ;shart_int; should be a ;j_f3l;.
--->
 In order to align outlier examples like () and () above with the basic principle
 that the ;shart_int; should be a ;j_f3l;,
 the grammarians ;qaddar; the ;shart_int; as a ;j_f3l; with a deleted verb.
@@ -3245,15 +3236,13 @@ and of mandating a ;j_f3l; as the ;shart_int;,
 is that it prevents arbitrary ;j_ism;s,
 that do not have a verb as the ;fi3l_shart;,
 from being the ;shart_int;.
-<!--
-This is because such ;shart_int;s are not found in ;samaa3;.
--->
 So for example, we cannot say:
 
 (@) ;x; [إِنْ أَنْتَ كَرِيمٌ ...]{.ar}  
     [If you are honorable ...]{.trans}
 
 Let's take a look at another example:
+-->
 
 (@) [ فإن أنت لم ينفعك علمك فانتسب ... لعلّك تهديك القرون الأوائل]{.ar}  
     [cited by @abdelghani@ 101; [@ibn_malik_sharh_tasheel@ 2/140](https://shamela.ws/book/13257/536)]{.citex}  
@@ -3284,20 +3273,32 @@ to give the meaning of
 a
 ;qaddared; ;j_f3l;.
 In this case, the explanatory ;j_f3l; does not exactly match the ;qaddared; original ;shart_int; in wording,
-but has a similar meaning.^[[@abu_hayyan_tadhyeel@ 6/313](https://shamela.ws/book/17116/2004)]
+but has a similar meaning.^[[@ibn_malik_sharh_tasheel@ 2/140](https://shamela.ws/book/13257/536)]{.citex}; see also [@abu_hayyan_tadhyeel@ 6/313](https://shamela.ws/book/17116/2004)]
 
-Here are some more examples of this kind of ;j_sh;:
+Here are some more examples of ;j_sh;s whose ;shart_int; begins with a noun:
 
-TODO: get examples from ;quran; and from peled.
+(@) [**وَإِنۡ أَحَدࣱ مِّنَ ٱلۡمُشۡرِكِینَ ٱسۡتَجَارَكَ** فَأَجِرۡهُ حَتَّىٰ یَسۡمَعَ كَلَـٰمَ ٱللَّهِ ثُمَّ أَبۡلِغۡهُ مَأۡمَنَهُۥۚ]{.quran}
+    [@https://quran.com/9/6@]{.citex}  
+    [And if any one of the polytheists seeks your protection, then grant him protection so that he may hear the words of Allāh [i.e., the Qur’ān].]{.trans}  
 
-(@) [فإنْ يَكُ عامِرٌ قد قالَ جَهلاً فإنَّ مَظِنَّةَ الجَهْلِ الشّبابُ]
+(@) [**فَإِنْ أَحَدٌ تَرَخَّصَ** لِقِتَالِ رَسُولِ اللَّهِ صلى الله عليه وسلم فِيهَا فَقُولُوا إِنَّ اللَّهَ قَدْ أَذِنَ لِرَسُولِهِ، وَلَمْ يَأْذَنْ لَكُمْ]{.ar}
+    [@https://sunnah.com/bukhari:104@ cited by @peled_cst@ 20]{.citex}
+    [So if anyone allows himself license because of the fighting of the Messenger of ;Allah; ;pbuh; then say to him, ";Allah; permitted His Messenger and did not permit you."]{.trans}
+
+(@) [**وَإِنْ هُمْ أَبَوْا** فَوَالَّذِي نَفْسِي بِيَدِهِ، لأُقَاتِلَنَّهُمْ عَلَى أَمْرِي هَذَا حَتَّى تَنْفَرِدَ سَالِفَتِي، وَلَيُنْفِذَنَّ اللَّهُ أَمْرَهُ]{.ar}
+    [@https://sunnah.com/bukhari:2731@ cited by @peled_cst 19]{.citex}  
+    [But if they refuse, then by Him in whose Hand my soul is, I will definitely fight them on this cause of mine until [I die], but ;Allah; will [make His cause victorious].]{.trans}  
+
+(@) [فإنْ يَكُ عامِرٌ قد قالَ جَهلاً فإنَّ مَظِنَّةَ الجَهْلِ الشّبابُ]{.ar}
     [cited by @gatje_struktur@ 174]{.citex}  
 
+<!--
 From the above examples, we can note the following points:
 
 * The ;fi3l_shart; is always ;qatala; (or [;_lam; ;_yaqtul;]{.ar} which is equivalent).
 * The original ;faa3il; before the ;fi3l_shart; is usually either a pronoun, or a generic or indefinite noun.
   There very few cases, where it is a definite specific noun.
+-->
 
 ## The ;law; ;j_sh;
 
