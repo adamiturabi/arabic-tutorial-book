@@ -1269,11 +1269,18 @@ def populate_resource_list():
     , sort_key = "carter arabic grammar"
     ))
   resource_list.append(BibResource(
+    "versteegh_irreal"
+    , cit_type = "ws_ref"
+    , cit_text = 'Versteegh, "Two conceptions of irreality in Arabic grammar: Ibn Hišām and Ibn al-Hāğib on the particle _law_"'
+    , bib_text = """Versteegh, K., "Two conceptions of irreality in Arabic grammar: Ibn Hišām and Ibn al-Hāğib on the particle _law_," _Bulletin d’études Orientales_, vol.\\ 43, 1991, pp.\\ 77--92. <http://www.jstor.org/stable/41608970>"""
+    , sort_key = "versteegh 1991"
+    ))
+  resource_list.append(BibResource(
     "versteegh_taqdir"
     , cit_type = "ws_ref"
     , cit_text = 'Versteegh, "The notion of underlying levels"'
     , bib_text = """Versteegh, K., "The notion of 'underlying levels' in the Arabic grammatical tradition." In _Historiographia Linguistica_ 21, 1994, p. 271‒296. """
-    , sort_key = "versteegh notion of underlying levels"
+    , sort_key = "versteegh 1994"
     ))
   resource_list.append(BibResource(
     "levin_taqdir"

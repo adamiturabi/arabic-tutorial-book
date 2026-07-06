@@ -48,6 +48,7 @@ map_table["basran"] = "[#baSr]{.trn2}an"
 
 
 # inna and its sisters
+map_table["la"] = "[لَ]{.ar}"
 map_table["lan"] = "[لَنْ]{.ar}"
 map_table["lam"] = "[لَمْ]{.ar}"
 map_table["laa"] = "[لَا]{.ar}"
