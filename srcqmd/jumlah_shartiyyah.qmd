@@ -3092,7 +3092,7 @@ bukhari:1207
 This use of the ;ism_fail; can carry over to its use in a ;shart;.
 Peled 75--76
 
-## The ;shart_int; that begins with a noun
+## An inverted ;j_f3l; as the ;shart_int;
 
 The basic principle for a ;shart_int; is that it should be a ;j_f3l;.
 (We include ;kaana; sentences in ;j_f3l;s, loosely speaking.)
@@ -3641,6 +3641,34 @@ allowing a ;j_ism; in the ;jawab_shart;:
 
 ### ;law_anna;
 
+;law; is frequently followed,
+not by a verb,
+but by an ;anna; clause.
+For example:
+
+(@) [لَوْ **أَنَّ زَيْدًا جَاءَ** لَأَكْرَمْتُهُ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 4/528](https://shamela.ws/book/13301/1892)]{.citex}  
+    [If Zayd had come to me, I would have honored him.]{.trans}  
+
+The grammarians analyze this in two ways^[[@ibn_ya3ish_mufassal@ 4/528](https://shamela.ws/book/13301/1892); @nahw_arabi@ 2/478]:
+
+a. That the ;anna; clause is the doer of a ;qaddared; ;fi3l_shart; that signifies occurrence, like [ثَبَتَ]{.ar} [to be ascertained]{.trans} or [وَقَعَ]{.ar} [to occur]{.trans}. So the ;taqdir; of the above example is:
+
+   (@) [لَوْ **وَقَعَ مَجِيءُ زَيْدٍ** لَأَكْرَمْتُهُ]{.ar}
+       [[@ibn_ya3ish_mufassal@ 4/528](https://shamela.ws/book/13301/1892)]{.citex}  
+       [If Zayd's coming had occurred, I would have honored him.]{.trans}  
+
+b. That ;law; in this case does not need a ;fi3l_shart;, and that the ;anna; clause is a ;mubtada; to a ;qaddared; ;xabar; which is a noun like [ثَابِتْ]{.ar} [ascertained]{.trans}. So the ;taqdir; of the above example is:
+
+   (@) [لَوْ **مَجِيءُ زَيْدٍ ثَابِتٌ** لَأَكْرَمْتُهُ]{.ar}  
+       [If Zayd's coming [was] ascertained, I would have honored him.]{.trans}  
+
+Here are some more examples of ;law_anna;:
+
+(@) [لَوْ أَنَّ لاِبْنِ آدَمَ وَادِيًا مِنْ ذَهَبٍ أَحَبَّ أَنْ يَكُونَ لَهُ وَادِيَانِ]{.ar}
+    [@https://sunnah.com/bukhari:6439@]{.citex}  
+    [If the son of [#Adam]{.trn2} had a valley of gold, he would like that he have two valleys.]{.trans}^[[@ibn_ya3ish_mufassal@ 5/120](https://shamela.ws/book/13301/2058) that the ;anna; clause be followed by a verb. So he disallows ;x; [لو أن زيدًا حاضري]{.ar} But this example would seem to disprove this requirement.]
+
 ### ;law_laa; and ;law_maa;
 
 ### ;law; as a wish particle
@@ -3655,6 +3683,19 @@ The ;jawab_shart; is  deleted.
 
 (@) [لَوْ لَمْ تَفْعَلُوا لَصَلُحَ]{.ar}
     [@https://sunnah.com/muslim:2363@]{.citex}
+
+### An inverted ;j_f3l; as the ;shart_int;
+
+FIXME: perhaps combine with the other section and move to top-level after ;law;
+
+In a manner similar to what we discussed in section () above,
+the ;shart_int; of ;law; may occasionally begin with a noun.
+For example:
+
+(@) [قَالَ أَبُو عُبَيْدَةَ بْنُ الْجَرَّاحِ أَفِرَارًا مِنْ قَدَرِ اللَّهِ فَقَالَ عُمَرُ **لَوْ غَيْرُكَ قَالَهَا** يَا أَبَا عُبَيْدَةَ، نَعَمْ نَفِرُّ مِنْ قَدَرِ اللَّهِ إِلَى قَدَرِ اللَّهِ]{.ar}
+    [@https://sunnah.com/bukhari:5729@]{.citex}  
+    [[#abU #eubaydah ibn al-#jarrAH]{.trn2} said, "Are you fleeing what ;Allah; has ordained?" [#eumar]{.trn2} said, "**Would that someone else had said [such a thing]**, O [#abU #eubaydah]{.trn2}! Yes, we are fleeing from what Allah has ordained to what Allah has ordained."]{.trans}
+
 
 ### ;law; with the meaning of ;in;
 
@@ -3703,20 +3744,24 @@ Very rarely, a ;j_ism; has been found to directly occur in the ;jawab_shart;:
 Some grammarians have analyzed [لَمَثُوبَةٌ مِنَ اللهِ خَيرٌ]{.ar} to directly be the ;jawab_shart;.
 Whereas others have used ;taqdiring; to make it fit with the general principle that the ;jawab_shart; be a ;j_f3l;.^[[[هل يقع جواب (لو) جملة اسمية؟]{.ar}](https://jamharah.net/showthread.php?p=51540&__cf_chl_f_tk=olodL9o4qULPBi9qm4OZtgPe9o9jplpGgBKAcNjX6h0-1783293637-1.0.1.1-OL1LLUhK27d_zCqCdL3yEJVDwEpQsBIyUVPqNO7aG5c)]
 
+## The deleted ;jawab_shart;
 
-## [وَإِنْ]{.ar} and [وَلَوْ]{.ar} used for [even if]{.trans}
+[@maani_nahw@ 4/120](https://shamela.ws/book/17801/1225)
 
-Wright 2/40A
+Wright 2/8 rem a; 2/17 Rem b
 
-## The deleted ;shart; or ;jawab_shart;
 
-Wright 2/17 Rem b
-
-## deleted ;fi3l_jawab_shart;
+## The deleted ;fi3l_jawab_shart;
 
 bukhari:1116
 
 صَلِّ قَائِمًا فَإِنْ لَمْ تَسْتَطِعْ فَقَاعِدًا
+
+
+
+## [وَإِنْ]{.ar} and [وَلَوْ]{.ar} used for [even if]{.trans}
+
+Wright 2/40A
 
 ## The ;j_sh; combined with an ;qasam;
 

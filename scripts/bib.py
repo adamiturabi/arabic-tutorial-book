@@ -766,6 +766,20 @@ def populate_resource_list():
     , sort_key = "مذكر والمونث لابن الانباري"
     ))
   resource_list.append(BibResource(
+    "seerah_ibn_hisham"
+    , cit_type = "corpus"
+    , cit_text = "[سيرة ابن هشام]{.ar}"
+    , bib_text = """
+      الكتاب: السيرة النبوية لابن هشام  
+      المؤلف: عبد الملك بن هشام بن أيوب الحميري المعافري، أبو محمد، جمال الدين (ت ٢١٣ هـ)  
+      تحقيق: مصطفى السقا [ت ١٣٨٩ هـ]- إبراهيم الأبياري [ت ١٤١٤ هـ]- عبد الحفيظ شلبي  
+      الناشر: شركة مكتبة ومطبعة مصطفى البابي الحلبي وأولاده بمصر  
+      الطبعة: الثانية، ١٣٧٥ هـ - ١٩٥٥ م  
+      عدد الأجزاء: ٢  
+      """ + format_url_ar("https://shamela.ws/book/23833")
+    , sort_key = "سيرة ابن هشام"
+    ))
+  resource_list.append(BibResource(
     "maghazi_waqidi"
     , cit_type = "corpus"
     , cit_text = "[مغازي الواقدي]{.ar}"
