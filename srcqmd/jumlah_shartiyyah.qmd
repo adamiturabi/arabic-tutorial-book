@@ -1727,13 +1727,29 @@ Fischer 236
 
 Wright 2/16C
 
-## ;adat_shart;s similar to ;in;
+## Other ;adat_shart;s
 
-man, maa
+In addition to ;in; and ;idha;,
+there are other ;adat_shart;s as well.
+The main other ;adat_shart; is ;law; but we will treate it separately in section () below.
+Besides ;law; the additional ;adat_shart;s can be split into two categories:
 
-## ;adat_shart;s similar to ;idha;
+ i. #;adat_shart;s like ;in; that govern a ;fi3l_shart; and a ;fi3l_jawab_shart; in the ;0case;
+ii. #;adat_shart;s  that _don't_ govern a ;fi3l_shart; and a ;fi3l_jawab_shart; in the ;0case;
 
-mataa
+We will discuss both categories below
+
+### ;0case;-izing ;adat_shart;s
+
+@nahw_arabi@ 2/459ff
+
+
+### Non-;0case;-izing ;adat_shart;s
+
+@nahw_arabi@ 2/481ff
+
+
+mataa?
 
 ## ;fa; as a ;jawab_shart_intro; {#sec-j_sh_msc}
 
@@ -3691,6 +3707,51 @@ Here are some more examples of ;law_anna;:
 
 ### ;law_laa; and ;law_maa;
 
+;law_laa; is a special ;adat_shart; that almost always^[@peled_cst@ 61 cites exceptions in poetry]
+precedes a noun in the ;shart_int;.
+The noun is treated as a ;mubtada; and its ;xabar; is usually deleted.
+For example:
+
+(@) [لَوْلَا زَيْدٌ لَغَرَقْتُ]{.ar}
+    [[@utheymeen_alfiyyah@ 19/3](https://shamela.ws/book/36954/209)]{.citex}  
+    [Were it not for Zayd, I would have drowned.]{.trans}  
+
+In example () above, [زَيْدٌ]{.ar} is a ;mubtada;.
+Its ;xabar; is a deleted noun, whose ;taqdir; is [مَوْجُودٌ]{.ar} or [حَاضِرٌ]{.ar} meaning [present]{.trans} or _there_.
+So a possible ;taqdir; of the ;shart; is:
+
+(@) [لَوْلَا زَيْدٌ [مَوْجُودٌ]]{.ar}
+    [[@utheymeen_alfiyyah@ 19/3](https://shamela.ws/book/36954/209)]{.citex}  
+    [If Zayd were not present ...]{.trans}  
+
+;law_laa; is frequently also followed by an ;anna; clause.
+In which case the ;anna; clause is treated as the ;mubtada;.
+For example:
+
+The ;xabar; of the noun after is usually but not always deleted.
+Here is an example with a ;xabar;:
+
+(@) [لولا قومك حديثو عهد بكفر لهدمت الكعبة وبنيتها على قواعد إبراهيم]{.ar}
+
+There is a difference in meaning between ;law_laa; and ;law; with a negated verb.
+Consider the following two examples:
+
+(@) [لَوْ لَمْ تَضْرِبْنِي لَأَعْطَيْتُكَ الْمَالَ]{.ar}
+    [@peled_cst@ 61]{.citex}
+
+(@) [لَوْلَا أَنَّكَ ضَرَبْتَنِي لَأَعْطَيْتُكَ الْمَالَ]{.ar}
+    [@peled_cst@ 61]{.citex}
+
+
+;law_maa; is less used than ;law_laa; but is similar in usage and meaning.
+For example:
+
+Here are some more examples of ;law_laa; and ;law_maa;
+
+#### ;law_laa; as a ;adat_istifham; {.unnumbered}
+
+Not a ;shart;. Treated in chapter (istifham).
+
 ### ;law; as a wish particle
 
 The ;jawab_shart; is  deleted.
@@ -3787,6 +3848,8 @@ Wright 2/40A
 
 Wright 2/39B
 
+@nahw_arabi@ 2/484
+
 [@ibn_ya3ish_mufassal@ 5/142](https://shamela.ws/book/13301/2080#p1)
 
 @nahw_wafi@ 4/482
@@ -3795,11 +3858,17 @@ Wright 2/39B
 
 Wright 2/40CD
 
+@nahw_arabi@ 2/468ff
+
 ## Consecutive conditions
 
 @nahw_wafi@ 4/489
 
 also condition followed by question
+
+## ;idha; al-fujaaiyyah
+
+@nahw_arabi@ 2/467
 
 ## Further reading
 
