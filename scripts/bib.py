@@ -737,6 +737,32 @@ def populate_resource_list():
     , sort_key = "شرح قطر الندى وبل الصدى"
     ))
   resource_list.append(BibResource(
+    "hama3"
+    , cit_type = "ar_ref"
+    , cit_text = "[الهمع للسيوطي]{.ar}"
+    , bib_text = """
+      الكتاب: همع الهوامع في شرح جمع الجوامع  
+      المؤلف: عبد الرحمن بن أبي بكر، جلال الدين السيوطي (ت ٩١١هـ)  
+      المحقق: عبد الحميد هنداوي  
+      الناشر: المكتبة التوفيقية - مصر  
+      عدد الأجزاء: ٣  
+      """ + format_url_ar("https://shamela.ws/book/1146")
+    , sort_key = "همع"
+    ))
+  resource_list.append(BibResource(
+    "mughni"
+    , cit_type = "ar_ref"
+    , cit_text = "[مغني اللبيب لابن هشام]{.ar}"
+    , bib_text = """
+      الكتاب: مغنى اللبيب عن كتب الأعاريب  
+      المؤلف: عبد الله بن يوسف بن أحمد بن عبد الله ابن يوسف، أبو محمد، جمال الدين، ابن هشام (المتوفى: 761 هـ)  
+      المحقق: محمّد محيى الدين عبد الحميد  
+      الناشر: منشورات مكتبة الصادق للمطبوعات  
+      عدد الأجزاء: ٢  
+      """ + format_url_ar("https://ketabonline.com/ar/books/57084")
+    , sort_key = "مغني"
+    ))
+  resource_list.append(BibResource(
     "ibn_malik_sharh_alkafiya"
     , cit_type = "ar_ref"
     , cit_text = "[شرح الكافية الشافية لابن مالك]{.ar}"
