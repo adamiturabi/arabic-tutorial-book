@@ -1381,11 +1381,17 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "putten_fasih"
     , cit_type = "ws_ref"
-    , cit_text = 'van Putten, "When did faṣīḥ become qabīḥ?"'
+    , cit_text = 'van Putten, "When did faṣīḥ become qabīḥ? Rehabilitating classical phonological and morphological features"'
     , bib_text = 'van Putten, M., "When did faṣīḥ become qabīḥ? Rehabilitating classical phonological and morphological features", _Journal of Semitic Studies_, Volume\\ 71, Issue\\ 1, Spring 2026, pp.\\ 201–242, <https://doi.org/10.1093/jss/fgaf033>'
     , sort_key = "putten 2026"
     ))
-
+  resource_list.append(BibResource(
+    "saad_conditional"
+    , cit_type = "ws_ref"
+    , cit_text = 'Al-Saad, "Conditional structure in Classical Arabic: A general descriptive study"'
+    , bib_text = 'Al-Saad, S., "Conditional structure in Classical Arabic: A general descriptive study," PhD thesis, SOAS University of London, 2010. <https://doi.org/10.25501/SOAS.00028736>'
+    , sort_key = "saad conditional"
+    ))
 
   return resource_list
 
