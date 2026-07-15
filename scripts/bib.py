@@ -1083,13 +1083,13 @@ def populate_resource_list():
     , sort_key = 'Cantarino V Syntax of modern Arabic prose'
     ))
 
-  #resource_list.append(BibResource(
-  #  "brock_grund"
-    #, cit_type = "ws_ref"
-  #  , cit_text = 'Brockelmann,\\ C., _Grundriss der vergleichenden Grammatik der semitischen Sprachen_'
-  #  , bib_text = 'Brockelmann,\\ C., _Grundriss der vergleichenden Grammatik der semitischen Sprachen_, Verlag von Reuther & Reichard, 1908--1913.'
-  #  , sort_key = 'Brockelmann C Grundriss der vergleichenden Grammatik der semitischen Sprachen'
-  #  ))
+  resource_list.append(BibResource(
+    "brock_grund"
+    , cit_type = "ws_ref"
+    , cit_text = 'Brockelmann, _Grundriss der vergleichenden Grammatik der semitischen Sprachen_'
+    , bib_text = 'Brockelmann,\\ C., _Grundriss der vergleichenden Grammatik der semitischen Sprachen_, Verlag von Reuther & Reichard, 1908--1913.'
+    , sort_key = 'Brockelmann 1908'
+    ))
 
   resource_list.append(BibResource(
     "liheibi_sentence"
