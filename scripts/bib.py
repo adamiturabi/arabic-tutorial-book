@@ -1396,7 +1396,7 @@ def populate_resource_list():
     "wilmsen_croft"
     , cit_type = "ws_ref"
     , cit_text = 'Wilmsen, D., "Another Croft cycle in Arabic: The _laysa_ negative existential cycle,"'
-    , bib_text = 'Wilmsen, D., "Another Croft cycle in Arabic: The _laysa_ negative existential cycle," _Folia Orientalia_, 2016.'
+    , bib_text = 'Wilmsen, D., "Another Croft cycle in Arabic: The _laysa_ negative existential cycle," _Folia Orientalia_, 2016. <https://www.academia.edu/32873897>'
     , sort_key = "wilmsen 2016"
     ))
   resource_list.append(BibResource(
