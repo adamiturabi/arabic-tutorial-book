@@ -1319,7 +1319,20 @@ def populate_resource_list():
     , bib_text = 'van Putten, M., "When did faṣīḥ become qabīḥ? Rehabilitating classical phonological and morphological features", _Journal of Semitic Studies_, Volume\\ 71, Issue\\ 1, Spring 2026, pp.\\ 201–242, <https://doi.org/10.1093/jss/fgaf033>'
     , sort_key = "putten 2026"
     ))
-
+  resource_list.append(BibResource(
+    "wilmsen_croft"
+    , cit_type = "ws_ref"
+    , cit_text = 'Wilmsen, D., "Another Croft cycle in Arabic: The _laysa_ negative existential cycle,"'
+    , bib_text = 'Wilmsen, D., "Another Croft cycle in Arabic: The _laysa_ negative existential cycle," _Folia Orientalia_, 2016.'
+    , sort_key = "wilmsen 2016"
+    ))
+  resource_list.append(BibResource(
+    "hapselmath_existential"
+    , cit_type = "ws_ref"
+    , cit_text = 'Haspelmath, M., "What do we mean by existential clause?"'
+    , bib_text = 'Haspelmath, M., "What do we mean by existential clause?" _Diversity Linguistics Comment_, 2021. <https://doi.org/10.58079/nswb>'
+    , sort_key = "hapsel 2021"
+    ))
 
   return resource_list
 
