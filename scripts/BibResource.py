@@ -43,6 +43,6 @@ class BibResource:
   def __lt__(self, other):
     tmp_list = [self.sort_key, other.sort_key]
     out_list = sorted(tmp_list, key=lambda word: [self.alphabet.index(c) for c in word])
+      
     return out_list[0] == tmp_list[0]
-
 
