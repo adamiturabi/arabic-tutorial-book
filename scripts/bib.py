@@ -71,7 +71,7 @@ def populate_resource_list():
     "ahmad"
     , cit_type = "corpus"
     , cit_text = "[مسند أحمد]{.ar}"
-    , bib_text = "مسند أحمد، " + format_url_ar("https://sunnah.com/ahmad")
+    , bib_text = "مسند أحمد، " + format_url_ar("https://hadithunlocked.com/ahmad")
     , sort_key = "مسند احمد"
     ))
  
@@ -79,7 +79,68 @@ def populate_resource_list():
     "darimi"
     , cit_type = "corpus"
     , cit_text = "[سنن الدارمي]{.ar}"
-    , bib_text = "سنن الدارمي، " + format_url_ar("https://sunnah.com/darimi")
+    , bib_text = "سنن الدارمي، " + format_url_ar("https://hadithunlocked.com/darimi")
+    ))
+  resource_list.append(BibResource(
+    "ibnhibban"
+    , cit_type = "corpus"
+    , cit_text = "[صحيح ابن حبان]{.ar}"
+    , bib_text = "صحيح ابن حبان، " + format_url_ar("https://hadithunlocked.com/ibnhibban")
+    ))
+  resource_list.append(BibResource(
+    "ibnkhuzaymah"
+    , cit_type = "corpus"
+    , cit_text = "[صحيح ابن خزيمة]{.ar}"
+    , bib_text = "صحيح ابن خزيمة، " + format_url_ar("https://hadithunlocked.com/ibnkhuzaymah")
+    ))
+  resource_list.append(BibResource(
+    "tabarani"
+    , cit_type = "corpus"
+    , cit_text = "[المعجم الكبير للطبراني]{.ar}"
+    , bib_text = "المعجم الكبير للطبراني، " + format_url_ar("https://hadithunlocked.com/tabarani")
+    ))
+  resource_list.append(BibResource(
+    "bazzar"
+    , cit_type = "corpus"
+    , cit_text = "[مسند البزار]{.ar}"
+    , bib_text = "مسند البزار، " + format_url_ar("https://hadithunlocked.com/bazzar")
+    ))
+  resource_list.append(BibResource(
+    "hakim"
+    , cit_type = "corpus"
+    , cit_text = "[مستدرك الحاكم]{.ar}"
+    , bib_text = "مستدرك الحاكم، " + format_url_ar("https://hadithunlocked.com/hakim")
+    ))
+  resource_list.append(BibResource(
+    "nasai-kubra"
+    , cit_type = "corpus"
+    , cit_text = "[الكبرى للنسائي]{.ar}"
+    , bib_text = "الكبرى للنسائي، " + format_url_ar("https://hadithunlocked.com/nasai-kubra")
+    , sort_key = "كبرى النسايي"
+    ))
+  resource_list.append(BibResource(
+    "bayhaqi"
+    , cit_type = "corpus"
+    , cit_text = "[السنن الكبير للبيهقي]{.ar}"
+    , bib_text = "السنن الكبير للبيهقي، " + format_url_ar("https://hadithunlocked.com/bayhaqi")
+    ))
+  resource_list.append(BibResource(
+    "ahmad-zuhd"
+    , cit_type = "corpus"
+    , cit_text = "[الزهد لأحمد]{.ar}"
+    , bib_text = "الزهد لأحمد، " + format_url_ar("https://hadithunlocked.com/ahmad-zuhd")
+    ))
+  resource_list.append(BibResource(
+    "daraqutni"
+    , cit_type = "corpus"
+    , cit_text = "[سنن الدارقطني]{.ar}"
+    , bib_text = "سنن الدارقطني، " + format_url_ar("https://hadithunlocked.com/daraqutni")
+    ))
+  resource_list.append(BibResource(
+    "suyuti"
+    , cit_type = "corpus"
+    , cit_text = "[جمع الجوامع للسيوطي]{.ar}"
+    , bib_text = "جمع الجوامع للسيوطي، " + format_url_ar("https://hadithunlocked.com/suyuti")
     ))
  
   resource_list.append(BibResource(
