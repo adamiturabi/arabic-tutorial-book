@@ -101,6 +101,7 @@ def get_sunnah_com_key_and_cit_text(end_str, link):
 def process(key, link):
   quran_com_url = 'https://quran.com'
   sunnah_com_url = 'https://sunnah.com'
+  hadithunlocked_com_url = 'https://hadithunlocked.com'
   tafsir_app_url = 'https://tafsir.app'
 
   new_key = None
@@ -112,9 +113,13 @@ def process(key, link):
     if end_str[1] == '' or end_str[1] == '/':
       return None, '<' + key + '>', True
     new_key, cit_text, link_added = get_quran_cit_text(end_str[1], link)
-  elif sunnah_com_url in key:
-    end_str = key.split(sunnah_com_url)
-    assert len(end_str) == 2
+  elif sunnah_com_url in key or hadithunlocked_com_url in key:
+    if sunnah_com_url in key:
+     split_delim = sunnah_com_url
+    else:
+     split_delim = hadithunlocked_com_url
+    end_str = key.split(split_delim)
+    assert len(end_str) == 2, end_str
     if end_str[1] == '' or end_str[1] == '/':
       return None, '<' + key + '>', True
     new_key, cit_text, link_added = get_sunnah_com_key_and_cit_text(end_str[1], link)
