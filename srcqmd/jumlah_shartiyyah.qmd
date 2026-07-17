@@ -6,15 +6,15 @@
 
 A ;j_sh; is a special sentence, which consists of two parts:
 
-1. A condition (_;shart;_). The ;shart; itself consists of two parts:
+1. A _;shart;_. The ;shart; itself consists of two parts:
 
-    i. The condition introducer (*;adat_shart;*)
-   ii. The condition core (*;shart_int;*)
+    i. The *;adat_shart;*
+   ii. The *;shart_int;*
 
-2. A condition-response (_;jawab_shart;_). The ;jawab_shart; can also consist of two parts:
+2. A _;jawab_shart;_. The ;jawab_shart; can also consist of two parts:
 
-    i. The condition-response introducer (*;jawab_shart_intro;*). This may be absent for some ;j_sh;s.
-   ii. The condition-response core (*;jawab_shart_int;*)
+    i. The *;jawab_shart_intro;*. This may be null for some ;j_sh;s.
+   ii. The *;jawab_shart_int;*
 
 Here is an example of a ;j_sh; in English:
 
@@ -3743,7 +3743,7 @@ For example:
 The ;xabar; of the noun after is usually but not always deleted.^[[@utheymeen_alfiyyah@ 19/3](https://shamela.ws/book/36954/209)]
 Here is an example with a ;xabar;:
 
-(@) [فَلَلَا بَنُوهَا حَوْلَهَا لَخَبَطْتُهَا]{.ar}
+(@) [فَلَوْلَا بَنُوهَا حَوْلَهَا لَخَبَطْتُهَا]{.ar}
     [[@ibn_malik_sharh_alkafiya@](https://shamela.ws/book/12024/359)]{.citex}  
     [Were it not for her sons around her I would have struck her]{.trans}  
     ([حَوْل]{.ar} is technically not the ;xabar; but a ;dharf_makan; governed by a ;qaddared; ;xabar;.)

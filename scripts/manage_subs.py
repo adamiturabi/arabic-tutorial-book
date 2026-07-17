@@ -207,9 +207,9 @@ map_table["isnaad_comp"] = "structurally complete"
 
 map_table["j_sh"] = "conditional sentence"
 map_table["shart"] = "condition" # condition
-map_table["jawab_shart"] = "condition-response" # outcome, result, consequence, condition-response, response-to-the-condition
-map_table["adat_shart"] = map_table["shart"] + "-intro" #"conditional device"
-map_table["jawab_shart_intro"] = map_table["jawab_shart"] + "-intro" #"conditional device"
+map_table["jawab_shart"] = "condition-result" # outcome, result, consequence, condition-response, response-to-the-condition
+map_table["adat_shart"] = map_table["shart"] + "al-device" #"conditional device"
+map_table["jawab_shart_intro"] = map_table["jawab_shart"] + "-link" #"conditional device"
 map_table["shart_int"] = map_table["shart"] + "-core" # condition-internal-sentence" # "cond~int~" # condition
 map_table["jawab_shart_int"] = map_table["jawab_shart"] + "-core" # "condition-response-internal-sentence" #"cond-resp~int~" # outcome, result, consequence, condition-response, response-to-the-condition
 #map_table["jawab_int"] = "R-sentence" # "response-internal-sentence" #"cond-resp~int~" # outcome, result, consequence, condition-response, response-to-the-condition
