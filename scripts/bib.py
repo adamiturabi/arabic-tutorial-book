@@ -1447,7 +1447,7 @@ def populate_resource_list():
     , sort_key = "putten 2026"
     ))
   resource_list.append(BibResource(
-    "saad_conditional"
+    "saad_cond"
     , cit_type = "ws_ref"
     , cit_text = 'Al-Saad, "Conditional structure in Classical Arabic: A general descriptive study"'
     , bib_text = 'Al-Saad, S., "Conditional structure in Classical Arabic: A general descriptive study," PhD thesis, SOAS University of London, 2010. <https://doi.org/10.25501/SOAS.00028736>'

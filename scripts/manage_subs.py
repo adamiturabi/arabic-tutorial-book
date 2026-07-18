@@ -161,6 +161,10 @@ map_table["inshai"] = "non-truth-evaluable" # non-falsifiable
 map_table["ma3nawi"] = "real" 
 map_table["lafzi"] = "superficial" # false, superficial
 
+# hazf
+map_table["hazf"] = "deletion" 
+map_table["mahzoof"] = "deleted"
+
 
 # alphabetical
 map_table["3aaid"] = "refer-back pronoun"
