@@ -211,7 +211,7 @@ map_table["isnaad_comp"] = "structurally complete"
 
 map_table["j_sh"] = "conditional sentence"
 map_table["shart"] = "condition" # condition
-map_table["jawab_shart"] = "condition-result" # outcome, result, consequence, condition-response, response-to-the-condition
+map_table["jawab_shart"] = "condition-response" # outcome, result, consequence, condition-response, response-to-the-condition
 map_table["adat_shart"] = map_table["shart"] + "al-device" #"conditional device"
 map_table["jawab_shart_intro"] = map_table["jawab_shart"] + "-link" #"conditional device"
 map_table["shart_int"] = map_table["shart"] + "-core" # condition-internal-sentence" # "cond~int~" # condition
@@ -287,6 +287,7 @@ map_table["subst"] = "entity noun"
 
 map_table["taamm"] = "sufficient"
 map_table["jumlah_talabiyyah"] = "statement of seeking"
+map_table["jawab_talab"] = "request-response"
 map_table["tabi3"] = "follower"
 map_table["tafsiri"] = "explanatory"
 map_table["tamyiz"] = "[tamyIz]{.trn2}"
