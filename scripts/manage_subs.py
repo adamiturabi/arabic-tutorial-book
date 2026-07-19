@@ -165,6 +165,8 @@ map_table["lafzi"] = "superficial" # false, superficial
 map_table["hazf"] = "deletion" 
 map_table["mahzoof"] = "deleted"
 
+# jawab
+map_table["jawab"] = "response"  # outcome, result, consequence, condition-response, response-to-the-condition
 
 # alphabetical
 map_table["3aaid"] = "refer-back pronoun"
@@ -212,7 +214,7 @@ map_table["isnaad_comp"] = "structurally complete"
 
 map_table["j_sh"] = "conditional sentence"
 map_table["shart"] = "condition" # condition
-map_table["jawab_shart"] = "condition-response" # outcome, result, consequence, condition-response, response-to-the-condition
+map_table["jawab_shart"] = map_table["shart"] + "-" + map_table["jawab"]
 map_table["adat_shart"] = map_table["shart"] + "al-device" #"conditional device"
 map_table["jawab_shart_intro"] = map_table["jawab_shart"] + "-link" #"conditional device"
 map_table["shart_int"] = map_table["shart"] + "-core" # condition-internal-sentence" # "cond~int~" # condition
@@ -271,7 +273,7 @@ map_table["noon_wiq"] = "guarding-[ن]{.ar}"
 map_table["participle"] = "participle"
 map_table["pbuh"] = "[ﷺ]{.aralt}"
 map_table["qasam"] = "oath"
-map_table["jawab_qasam"] = "oath-response"
+map_table["jawab_qasam"] = map_table["qasam"] + "-" + map_table["jawab"]
 
 map_table["rabt"] = "link"
 
