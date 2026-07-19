@@ -177,6 +177,7 @@ map_table["adat_istifham"] = "question word"
 map_table["af3al"] = "comparative noun"
 map_table["fi3l_qalb"] = "verb of perception"
 map_table["af3aal_quloob"] = "verbs of perception"
+map_table["amr"] = "command"
 
 map_table["badal"] = "sub" # replacement, substitute
 map_table["mubdalb"] = "subbee" # replacee, substitutee
@@ -260,6 +261,7 @@ map_table["mawsuf"] = "described noun"
 
 map_table["naib"] = "deputy"
 map_table["na3t"] = "attribute"
+map_table["nahy"] = "prohibition"
 map_table["nidaa"] = "vocative"
 map_table["naqis"] = "deficient"
 map_table["nasix"] = "canceling"
@@ -286,7 +288,8 @@ map_table["shibh_jumlah"] = "quasi-sentence"
 map_table["subst"] = "entity noun"
 
 map_table["taamm"] = "sufficient"
-map_table["jumlah_talabiyyah"] = "statement of seeking"
+map_table["jumlah_talabiyyah"] = "request sentence"
+map_table["talab"] = "request"
 map_table["jawab_talab"] = "request-response"
 map_table["tabi3"] = "follower"
 map_table["tafsiri"] = "explanatory"
