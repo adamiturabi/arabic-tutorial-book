@@ -4169,8 +4169,11 @@ And the sentence
 [آتِكَ]{.ar}
 is the ;jawab_talab;.
 
-Note that the verb [آتِ]{.ar} in the ;jawab_talab; is in the ;0case;.
-The grammarians ;qaddar; 
+Note that the verb [آتِ]{.ar} in the ;jawab_talab; is in the ;0case;,
+as the direct consequence of fulfilling the ;talab;
+[ائْتِنِي]{.ar}.
+In order to justify the ;0case; of the verb in the ;jawab_talab;,
+the grammarians ;qaddar; 
 a ;mahzoof; ;shart;
 before it
 that fulfills the objective of the ;talab;.
@@ -4264,16 +4267,72 @@ Example:
 
 #### An offer {.unnumbered}
 
-### The ;jawab_talab; may be ;ucase;
+Example:
+
+(@) [ألا تنزل تصب خيراً]{.ar}
+    [[@sibawayhi@ 3/93](https://shamela.ws/book/23018/946)]{.citex}  
+    [Won't you come settle? You will obtain benefit.]{.trans}
+
+#;taqdir;:
+
+(@) [ألا تنزل [إِنْ تَنْزِلْ] تصب خيراً]{.ar}
+    [Won't you come settle? [If you will come settle] you will obtain benefit.]{.trans}
+
+### The verb following the ;talab; may optionally be in the ;ucase;
+
+In the examples above, the 
+verb following the ;talab; may optionally be in the ;ucase;.^[[@sibawayhi@ 3/95](https://shamela.ws/book/23018/948)]
+So for example, we can say:
+
+(@) [ائتني **آتيك**]{.ar}  
+    [Come to me. I will come to you.]{.trans}  
+
+<!--
+When constructed in this way, the second sentence
+(@) [آتيك]{.ar}  
+is independent from the first sentence,
+and not necessarily its direct consequence.
+-->
+In such cases, any ;qaddared; ;shart; would not govern the ;ucase; verb.
+Here are some more examples:
+
+(@) [خُذۡ مِنۡ أَمۡوَ ٰ⁠لِهِمۡ صَدَقَةࣰ **تُطَهِّرُهُمۡ** وَتُزَكِّیهِم بِهَا]{.quran}
+    [@https://quran.com/9/103@ cited by @saad_cond@ 207]{.citex}  
+    [Take, [O Muḥammad], from their wealth a charity by which you purify them and cause them increase, and invoke [Allāh's blessings] upon them.]{.trans}
+
+(@) [فَهَبۡ لِی مِن لَّدُنكَ وَلِیࣰّا **یَرِثُنِی** وَیَرِثُ مِنۡ ءَالِ یَعۡقُوبَۖ]{.quran}
+    [@https://quran.com/19/5-6@ cited by @saad_cond@ 207]{.citex}  
+    [so give me from Yourself an heir Who will inherit me and inherit from the family of Jacob.]{.trans}
 
 ### The ;qaddared; ;shart; should fulfil the ;talab;
 
-(@) ;x; [لا تدن من الأسد ياكلك]{.ar}
+The grammarians specify that the ;jawab_talab; should be the direct consequence
+of satisfying a ;qaddared; ;shart; that fulfils the ;talab;.
+Let's explain what we mean by taking a look at the following (non-complying) example:
+
+(@) ;x; [لَا تَدْنُ مِنَ الْأَسَدِ **يَأْكُلْكَ**]{.ar}
     [[@sibawayhi@ 3/97](https://shamela.ws/book/23018/950)]{.citex}  
     [Don't go near the lion, it will eat you.]{.trans}
 
+In example () above,
+a ;qaddared; ;shart; that fulfils the ;talab; is
+[إِنْ لَمْ تَدْنُ مِنَ الْأَسَدِ]{.ar}.
+If we plug in this ;shart; into the original sentence we get:
 
-sibawayhi 3/95--96
+(@) ;x; [لا تدن من الأسد [إِنْ لَمْ تَدْنُ مِنَ الْأَسَدِ] ياكلك]{.ar}
+    [Don't go near the lion. [If you don't go near the lion] it will eat you.]{.trans}
+
+As you can see, the sentence does not now make logical sense.
+In such cases, it is better that the verb following the ;talab; be in the ;ucase;.^[[@sibawayhi@ 3/97](https://shamela.ws/book/23018/950)]
+So we should say
+
+(@) ;v; [لَا تَدْنُ مِنَ الْأَسَدِ **يَأْكُلُكَ**]{.ar}  
+    [Don't go near the lion. It will eat you.]{.trans}
+
+A ;fa; may also be prefixed to the ;ucase; verb with no problem:
+
+(@) ;v; [لَا تَدْنُ مِنَ الْأَسَدِ **فَيَأْكُلُكَ**]{.ar}  
+    [Don't go near the lion. For it will eat you.]{.trans}
 
 ## ;3atf; in the ;shart; or the ;jawab_shart;
 
