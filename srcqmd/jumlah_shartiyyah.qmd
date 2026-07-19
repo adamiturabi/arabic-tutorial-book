@@ -3118,228 +3118,6 @@ bukhari:1207
 This use of the ;ism_fail; can carry over to its use in a ;shart;.
 Peled 75--76
 
-## A ;shart_int; beginning with a noun
-
-The basic principle for a ;shart_int; is that it should be a ;j_f3l;.
-(We include ;kaana; sentences in ;j_f3l;s, loosely speaking.)
-And the verb which begins the ;shart_int; is classified as the ;fi3l_shart;.
-
-<!--
-We had earlier stated that the ;shart; requires a ;fi3l_shart; in its ;shart_int;.
-Based on the preponderance of data in ;samaa3;,
-the grammarians extracted a basic principle that the ;shart_int;
-containing this ;fi3l_shart; should be a ;j_f3l;.
--->
-In all the examples we have seen so far,
-this has been the case.
-<!--
-(We include ;kaana; sentences in ;j_f3l;s, loosely speaking.)
--->
-So, in the example:
-[إِنْ أَتَيْتَنِي أَكْرَمْتُكَ]{.ar},
-the ;shart_int; is the ;j_f3l;
-[أَتَيْتَنِي]{.ar},
-and it is begun with the ;fi3l_shart; [أَتَى]{.ar}.
-
-Occassionally,
-however,
-the ;shart_int; is found to begin with a noun.
-For example:
-
-(@) [**إِنِ ٱمۡرُؤٌا۟ هَلَكَ** لَیۡسَ لَهُۥ وَلَدࣱ وَلَهُۥۤ أُخۡتࣱ فَلَهَا نِصۡفُ مَا تَرَكَۚ]{.quran}  
-    [@https://quran.com/4/176@ cited by [@ibn_ya3ish_mufassal@ 5/120](https://shamela.ws/book/13301/2058)]{.citex}  
-    [If a man dies, leaving no child but [only] a sister, she will have half of what he left.]{.trans}  
-
-In example () above, the ;adat_shart; ;in; is directly followed by the noun
-[امْرُوٌ]{.ar}
-and not the verb
-[هَلَكَ]{.ar}.
-The way that this,
-and similar examples,
-are made to align with the above stated principle of a
-;shart_int; always being a ;j_f3l;,
-is by ;qaddaring; a deleted verb
-[هَلَكَ]{.ar}
-directly after the ;adat_shart; ;in; as its ;fi3l_shart;, thus^[The following is the standard analysis. Other analyses are described in @abdelghani@ 96--105 and [@radiy_kafiyah@ 4/93--94](https://ketabonline.com/ar/books/23090/read?part=4&page=1531&index=150957/150972)]:
-
-(@) [إِنْ [هَلَكَ] امْرُوٌ]{.ar}
-
-Once the original ;fi3l_shart;
-[هَلَكَ]{.ar}
-is deleted,
-its ;faa3il; is left in place.
-And an explanatory verb is added after it which gives the meaning of the deleted verb.
-In this, and most cases, the explanatory verb matches the deleted verb.
-So the resulting ;shart; becomes
-[إِنْ امْرُوٌ هَلَكَ]{.ar}.
-
-In this way, the basic principle of
-the ;shart_int; always being a ;j_f3l;
-remains intact.
-And it restricts the the transformed ;shart;
-(after the deletion)
-to have a verb.
-Therefore, a ;shart; like the following would be disallowed because it does not have a verb:
-
-(@) ;x; [إِنْ عَمْرٌو خَارِجٌ]{.ar}
-    [[@ibn_ya3ish_mufassal@ 5/120](https://shamela.ws/book/13301/2058)]{.citex}  
-    [If ;3amr; is outside...]{.trans}  
-
-In such ;shart;s where the ;shart_int; begins with a noun,
-it is preferred that the ;adat_shart; be ;in;,
-and that the ;fi3l_shart; be ;qatala; not ;yaqtul;.^[[@ibn_ya3ish_mufassal@ 5/121](https://shamela.ws/book/13301/2059)]
-Nevertheless,
-counterexamples do occur.
-For example:
-
-(@) [**أَيْنَمَا** الرِّيحُ **تُمَيِّلْهَا** تَمِلْ]{.ar}
-    [[@sibawayhi@ 3/112](https://shamela.ws/book/23018/966)]{.citex}  
-    [Whichever way the wind makes it incline, it inclines.]{.trans}  
-
-(@) [**إِذَا** أَنْتَ لَمْ تَنْفَعْ فَضُرَّ]{.ar}
-    [[@ibn_malik_sharh_tasheel@](https://shamela.ws/book/13257/965)]{.citex}  
-    [If you cannot benefit then harm.]{.trans}
-
-In example () above,
-the ;qaddared; original ;shart; is
-[إِذَا [لَمْ تَنْفَعْ]]{.ar}.
-The verb
-[تَنْفَعْ]{.ar}
-(and [لَمْ]{.ar})
-is deleted
-and its ;faa3il; is left in place.
-But because its ;faa3il; is a ;mustatir; pronoun (;qaddared; as [[أَنْتَ]]{.ar}),
-it is transformed into its detached pronoun equivalent [أَنْتَ]{.ar} so that it can appear in surface speech.
-Then an explanatory verbal expression
-[لَمْ تَنْفَعْ]{.ar}
-(which matches the deleted verbal expression)
-is added,
-and we end up with the resultant
-[إِذَا أَنْتَ لَمْ تَنْفَعْ]{.ar}.
-
-It is also possible for the explanatorily added verb to not exactly match the ;qaddared; deleted ;fi3l_shart;.
-For example:
-
-<!--
-Here are some examples:
-
-(@) [إِنْ **أَنْتَ** أَكْرَمْتَ اللَّئِيمَ تَمَرَّدَا]{.ar}
-    [abdelghani 96]{.citex}  
-    [If you honor an ignoble [person], he rebels]{.trans}  
-    (An extra alif is suffixed to [تَمَرَّدَ]{.ar} for rhyme.)
-
-(@) [إذا أنت لم تنفع فضرّ]{.ar}
-    [abdelghani 97]{.citex}  
-In order to align outlier examples like () and () above with the basic principle
-that the ;shart_int; should be a ;j_f3l;,
-the grammarians ;qaddar; the ;shart_int; as a ;j_f3l; with a deleted verb.
-So the ;taqdir; of the ;shart; for example () above would be:
-
-(@) [إِنْ [أَكْرَمْتَ اللَّئِيم]]{.ar}
-
-The ;shart_int; in the ;taqdir; is
-[[أَكْرَمْتَ اللَّئِيم]]{.ar}
-which is a ;j_f3l;.
-In order to transform this ;taqdir; into the surface speech
-[إِنْ أَنْتَ أَكْرَمْتَ اللَّئِيم]{.ar},
-the following theoretical steps are taken:
-
-  i. The 
-     ;qaddared; ;j_f3l;
-     [[أَكْرَمْتَ اللَّئِيم]]{.ar}
-     is deleted, except for the ;faa3il; of the ;fi3l_shart;.
- ii. The ;fi3l_shart;'s ;faa3il; is left in place.
-     In this case, it is the
-     the attached pronoun [تَ]{.ar}.
-     But because the 
-     an attached pronoun cannot occur by itself,
-     it is converted to the detached pronoun
-     [أَنْتَ]{.ar}.
-iii. An explanatory ;j_f3l;
-     [أَكْرَمْتَ اللَّئِيم]{.ar}
-     is added after the ;faa3il; [أَنْتَ]{.ar} in order to give the meaning of
-     ;qaddared; ;j_f3l;.
-     In this (and most) cases, the explanatory ;j_f3l; matches the ;qaddared; original ;shart_int;.
-     The verb in the explanatory ;j_f3l; is now the new ;fi3l_shart;.
-
-
-The benefit of this ;taqdiring;,
-and of mandating a ;j_f3l; as the ;shart_int;,
-is that it prevents arbitrary ;j_ism;s,
-that do not have a verb as the ;fi3l_shart;,
-from being the ;shart_int;.
-So for example, we cannot say:
-
-(@) ;x; [إِنْ أَنْتَ كَرِيمٌ ...]{.ar}  
-    [If you are honorable ...]{.trans}
-
-Let's take a look at another example:
--->
-
-(@) [ فإن أنت لم ينفعك علمك فانتسب ... لعلّك تهديك القرون الأوائل]{.ar}  
-    [cited by @abdelghani@ 101; [@ibn_malik_sharh_tasheel@ 2/140](https://shamela.ws/book/13257/536)]{.citex}  
-    [If your knowledge does not benefit you then affiliate yourself [to your predecessors]. Perhaps the earlier generations can guide you.]{.trans}
-
-In example () above,
-the additional complication is that the ;faa3il; [أَنْتَ]{.ar}
-that begins the ;shart_int;, does not match the ;faa3il;
-[عِلْمُكَ]{.ar}
-of the explanatory ;j_f3l;
-[لم ينفعك علمك]{.ar}.^[@abdelghani@ 101--102]
-But we can still mold this to fit in with out basic principle and the transformational steps that we gave above. Here's how:
-
-The ;taqdir; for the ;shart; can be ;qaddared; as:
-
-(@) [فإن [لم تنتفع بعلمك]]{.ar}
-
-The ;qaddared; ;j_f3l;
-[[لم تنتفع بعلمك]]{.ar}
-is deleted except for the ;fi3l_shart; [تنتفع]{.ar}'s ;faa3il;, the ;mustatir; pronoun [[أَنْتَ]]{.ar}.
-This ;mustatir; ;faa3il; pronoun
-is transformed for surface speech into the detached pronoun [أَنْتَ]{.ar}.
-An explanatory ;j_f3l;
-[لم ينفعك علمك]{.ar}
-is added after the ;faa3il;
-[أَنْتَ]{.ar}
-to give the meaning of
-a
-;qaddared; ;j_f3l;.
-In this case, the explanatory ;j_f3l; does not exactly match the ;qaddared; original ;shart_int; in wording,
-but has a similar meaning.^[[@ibn_malik_sharh_tasheel@ 2/140](https://shamela.ws/book/13257/536); see also [@abu_hayyan_tadhyeel@ 6/313](https://shamela.ws/book/17116/2004)]
-
-Here are some more examples of ;j_sh;s whose ;shart_int; begins with a noun:
-
-(@) [**وَإِنۡ أَحَدࣱ مِّنَ ٱلۡمُشۡرِكِینَ ٱسۡتَجَارَكَ** فَأَجِرۡهُ حَتَّىٰ یَسۡمَعَ كَلَـٰمَ ٱللَّهِ ثُمَّ أَبۡلِغۡهُ مَأۡمَنَهُۥۚ]{.quran}
-    [@https://quran.com/9/6@]{.citex}  
-    [And if any one of the polytheists seeks your protection, then grant him protection so that he may hear the words of Allāh [i.e., the Qur’ān].]{.trans}  
-
-(@) [**فَإِنْ أَحَدٌ تَرَخَّصَ** لِقِتَالِ رَسُولِ اللَّهِ صلى الله عليه وسلم فِيهَا فَقُولُوا إِنَّ اللَّهَ قَدْ أَذِنَ لِرَسُولِهِ وَلَمْ يَأْذَنْ لَكُمْ]{.ar}
-    [@https://sunnah.com/bukhari:104@ cited by @peled_cst@ 20]{.citex}  
-    [So if anyone allows himself license because of the fighting of the Messenger of ;Allah; ;pbuh; then say to him, ";Allah; permitted His Messenger and did not permit you."]{.trans}
-
-(@) [**وَإِنْ هُمْ أَبَوْا** فَوَالَّذِي نَفْسِي بِيَدِهِ، لأُقَاتِلَنَّهُمْ عَلَى أَمْرِي هَذَا حَتَّى تَنْفَرِدَ سَالِفَتِي، وَلَيُنْفِذَنَّ اللَّهُ أَمْرَهُ]{.ar}
-    [@https://sunnah.com/bukhari:2731@ cited by @peled_cst@ 19]{.citex}  
-    [But if they refuse, then by Him in whose Hand my soul is, I will definitely fight them on this cause of mine until [I die], but ;Allah; will [make His cause victorious].]{.trans}  
-
-(@) [إِذَا هُوَ لَمْ يُعْطِ فِيهَا حَقَّهَا تَطَؤُهُ بِأَخْفَافِهَا]{.ar}
-    [@https://sunnah.com/bukhari:1402@ cited by @peled_cst@ 27]{.citex}  
-    [If he had not given their due [[zakAt]{.trn2}] for them, then they would tread him with their hooves]{.trans}
-
-<!--
-(@) [فإنْ يَكُ عامِرٌ قد قالَ جَهلاً فإنَّ مَظِنَّةَ الجَهْلِ الشّبابُ]{.ar}
-    [cited by @gatje_struktur@ 174]{.citex} 
--->
-
-
-
-<!--
-From the above examples, we can note the following points:
-
-* The ;fi3l_shart; is always ;qatala; (or [;_lam; ;_yaqtul;]{.ar} which is equivalent).
-* The original ;faa3il; before the ;fi3l_shart; is usually either a pronoun, or a generic or indefinite noun.
-  There very few cases, where it is a definite specific noun.
--->
-
 ## The ;law; ;j_sh;
 
 Versteegh, "Two conceptions of irreality"
@@ -3811,6 +3589,7 @@ FIXME: move to istifham chapter:
 (@) [لَوْلاَ مَتَّعْتَنَا بِهِ]{.ar}
     [@https://sunnah.com/bukhari:6331@]{.citex}  
 
+<!--
 ### A ;shart_int; beginning with a noun
 
 FIXME: perhaps combine with the other section and move to top-level after ;law;
@@ -3822,7 +3601,7 @@ For example:
 (@) [قَالَ أَبُو عُبَيْدَةَ بْنُ الْجَرَّاحِ أَفِرَارًا مِنْ قَدَرِ اللَّهِ فَقَالَ عُمَرُ **لَوْ غَيْرُكَ قَالَهَا** يَا أَبَا عُبَيْدَةَ، نَعَمْ نَفِرُّ مِنْ قَدَرِ اللَّهِ إِلَى قَدَرِ اللَّهِ]{.ar}
     [@https://sunnah.com/bukhari:5729@]{.citex}  
     [[#abU #eubaydah ibn al-#jarrAH]{.trn2} said, "Are you fleeing what ;Allah; has ordained?" [#eumar]{.trn2} said, "**Would that someone else had said [such a thing]**, O [#abU #eubaydah]{.trn2}! Yes, we are fleeing from what Allah has ordained to what Allah has ordained."]{.trans}
-
+-->
 
 ### ;law; with the meaning of ;in;
 
@@ -4033,7 +3812,7 @@ The above can be considered obligatory or regular ;hazf;.
 
 Similarly, the ;jawab_shart; is obligatorily ;mahzoof; when 
 it imparts the meaning [even if]{.trans}.
-This occurs when ;shart; occurs at the end of a sentence preceded by [وَ]{.ar}.
+This occurs when ;adat_shart; is preceded by [وَ]{.ar} and is not followed by a ;jawab_shart;.
 Examples:
 
 (@) [بَلِّغُوا عَنِّي **وَلَوْ آيَةً**]{.ar}
@@ -4103,6 +3882,7 @@ Here is another example:
     [A speaker says, "I shall not come to the commander because he is unjust." So it is said (in response), "Come to him, even if."]{.trans}  
     That is: [Come to him, even if he is unjust]{.trans}
 
+<!--
 ## The deleted ;fi3l_shart;
 
 (@) [التمس ولو خاتما من حديد، واضرب ولو زيدا]{.ar}
@@ -4116,6 +3896,239 @@ Here is another example:
 ## [وَإِنْ]{.ar} and [وَلَوْ]{.ar} used for [even if]{.trans}
 
 Wright 2/40A
+-->
+
+## A ;shart_int; beginning with a noun
+
+The basic principle for a ;shart_int; is that it should be a ;j_f3l;.
+(We include ;kaana; sentences in ;j_f3l;s, loosely speaking.)
+And the verb which begins the ;shart_int; is classified as the ;fi3l_shart;.
+
+<!--
+We had earlier stated that the ;shart; requires a ;fi3l_shart; in its ;shart_int;.
+Based on the preponderance of data in ;samaa3;,
+the grammarians extracted a basic principle that the ;shart_int;
+containing this ;fi3l_shart; should be a ;j_f3l;.
+-->
+In all the examples we have seen so far,
+this has been the case.
+<!--
+(We include ;kaana; sentences in ;j_f3l;s, loosely speaking.)
+-->
+So, in the example:
+[إِنْ أَتَيْتَنِي أَكْرَمْتُكَ]{.ar},
+the ;shart_int; is the ;j_f3l;
+[أَتَيْتَنِي]{.ar},
+and it is begun with the ;fi3l_shart; [أَتَى]{.ar}.
+
+Occassionally,
+however,
+the ;shart_int; is found to begin with a noun.
+For example:
+
+(@) [**إِنِ ٱمۡرُؤٌا۟ هَلَكَ** لَیۡسَ لَهُۥ وَلَدࣱ وَلَهُۥۤ أُخۡتࣱ فَلَهَا نِصۡفُ مَا تَرَكَۚ]{.quran}  
+    [@https://quran.com/4/176@ cited by [@ibn_ya3ish_mufassal@ 5/120](https://shamela.ws/book/13301/2058)]{.citex}  
+    [If a man dies, leaving no child but [only] a sister, she will have half of what he left.]{.trans}  
+
+In example () above, the ;adat_shart; ;in; is directly followed by the noun
+[امْرُوٌ]{.ar}
+and not the verb
+[هَلَكَ]{.ar}.
+The way that this,
+and similar examples,
+are made to align with the above stated principle of a
+;shart_int; always being a ;j_f3l;,
+is by ;qaddaring; a deleted verb
+[هَلَكَ]{.ar}
+directly after the ;adat_shart; ;in; as its ;fi3l_shart;, thus^[The following is the standard analysis. Other analyses are described in @abdelghani@ 96--105 and [@radiy_kafiyah@ 4/93--94](https://ketabonline.com/ar/books/23090/read?part=4&page=1531&index=150957/150972)]:
+
+(@) [إِنْ [هَلَكَ] امْرُوٌ]{.ar}
+
+Once the original ;fi3l_shart;
+[هَلَكَ]{.ar}
+is deleted,
+its ;faa3il; is left in place.
+And an explanatory verb is added after it which gives the meaning of the deleted verb.
+In this, and most cases, the explanatory verb matches the deleted verb.
+So the resulting ;shart; becomes
+[إِنْ امْرُوٌ هَلَكَ]{.ar}.
+
+In this way, the basic principle of
+the ;shart_int; always being a ;j_f3l;
+remains intact.
+And it restricts the the transformed ;shart;
+(after the deletion)
+to have a verb.
+Therefore, a ;shart; like the following would be disallowed because it does not have a verb:
+
+(@) ;x; [إِنْ عَمْرٌو خَارِجٌ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/120](https://shamela.ws/book/13301/2058)]{.citex}  
+    [If ;3amr; is outside...]{.trans}  
+
+In such ;shart;s where the ;shart_int; begins with a noun,
+it is preferred that the ;adat_shart; be ;in;,
+and that the ;fi3l_shart; be ;qatala; not ;yaqtul;.^[[@ibn_ya3ish_mufassal@ 5/121](https://shamela.ws/book/13301/2059)]
+Nevertheless,
+counterexamples do occur.
+For example:
+
+(@) [**أَيْنَمَا** الرِّيحُ **تُمَيِّلْهَا** تَمِلْ]{.ar}
+    [[@sibawayhi@ 3/112](https://shamela.ws/book/23018/966)]{.citex}  
+    [Whichever way the wind makes it incline, it inclines.]{.trans}  
+
+(@) [**إِذَا** أَنْتَ لَمْ تَنْفَعْ فَضُرَّ]{.ar}
+    [[@ibn_malik_sharh_tasheel@](https://shamela.ws/book/13257/965)]{.citex}  
+    [If you cannot benefit then harm.]{.trans}
+
+In example () above,
+the ;qaddared; original ;shart; is
+[إِذَا [لَمْ تَنْفَعْ]]{.ar}.
+The verb
+[تَنْفَعْ]{.ar}
+(and [لَمْ]{.ar})
+is deleted
+and its ;faa3il; is left in place.
+But because its ;faa3il; is a ;mustatir; pronoun (;qaddared; as [[أَنْتَ]]{.ar}),
+it is transformed into its detached pronoun equivalent [أَنْتَ]{.ar} so that it can appear in surface speech.
+Then an explanatory verbal expression
+[لَمْ تَنْفَعْ]{.ar}
+(which matches the deleted verbal expression)
+is added,
+and we end up with the resultant
+[إِذَا أَنْتَ لَمْ تَنْفَعْ]{.ar}.
+
+It is also possible for the explanatorily added verb to not exactly match the ;qaddared; deleted ;fi3l_shart;.
+For example:
+
+<!--
+Here are some examples:
+
+(@) [إِنْ **أَنْتَ** أَكْرَمْتَ اللَّئِيمَ تَمَرَّدَا]{.ar}
+    [abdelghani 96]{.citex}  
+    [If you honor an ignoble [person], he rebels]{.trans}  
+    (An extra alif is suffixed to [تَمَرَّدَ]{.ar} for rhyme.)
+
+(@) [إذا أنت لم تنفع فضرّ]{.ar}
+    [abdelghani 97]{.citex}  
+In order to align outlier examples like () and () above with the basic principle
+that the ;shart_int; should be a ;j_f3l;,
+the grammarians ;qaddar; the ;shart_int; as a ;j_f3l; with a deleted verb.
+So the ;taqdir; of the ;shart; for example () above would be:
+
+(@) [إِنْ [أَكْرَمْتَ اللَّئِيم]]{.ar}
+
+The ;shart_int; in the ;taqdir; is
+[[أَكْرَمْتَ اللَّئِيم]]{.ar}
+which is a ;j_f3l;.
+In order to transform this ;taqdir; into the surface speech
+[إِنْ أَنْتَ أَكْرَمْتَ اللَّئِيم]{.ar},
+the following theoretical steps are taken:
+
+  i. The 
+     ;qaddared; ;j_f3l;
+     [[أَكْرَمْتَ اللَّئِيم]]{.ar}
+     is deleted, except for the ;faa3il; of the ;fi3l_shart;.
+ ii. The ;fi3l_shart;'s ;faa3il; is left in place.
+     In this case, it is the
+     the attached pronoun [تَ]{.ar}.
+     But because the 
+     an attached pronoun cannot occur by itself,
+     it is converted to the detached pronoun
+     [أَنْتَ]{.ar}.
+iii. An explanatory ;j_f3l;
+     [أَكْرَمْتَ اللَّئِيم]{.ar}
+     is added after the ;faa3il; [أَنْتَ]{.ar} in order to give the meaning of
+     ;qaddared; ;j_f3l;.
+     In this (and most) cases, the explanatory ;j_f3l; matches the ;qaddared; original ;shart_int;.
+     The verb in the explanatory ;j_f3l; is now the new ;fi3l_shart;.
+
+
+The benefit of this ;taqdiring;,
+and of mandating a ;j_f3l; as the ;shart_int;,
+is that it prevents arbitrary ;j_ism;s,
+that do not have a verb as the ;fi3l_shart;,
+from being the ;shart_int;.
+So for example, we cannot say:
+
+(@) ;x; [إِنْ أَنْتَ كَرِيمٌ ...]{.ar}  
+    [If you are honorable ...]{.trans}
+
+Let's take a look at another example:
+-->
+
+(@) [ فإن أنت لم ينفعك علمك فانتسب ... لعلّك تهديك القرون الأوائل]{.ar}  
+    [cited by @abdelghani@ 101; [@ibn_malik_sharh_tasheel@ 2/140](https://shamela.ws/book/13257/536)]{.citex}  
+    [If your knowledge does not benefit you then affiliate yourself [to your predecessors]. Perhaps the earlier generations can guide you.]{.trans}
+
+In example () above,
+the additional complication is that the ;faa3il; [أَنْتَ]{.ar}
+that begins the ;shart_int;, does not match the ;faa3il;
+[عِلْمُكَ]{.ar}
+of the explanatory ;j_f3l;
+[لم ينفعك علمك]{.ar}.^[@abdelghani@ 101--102]
+But we can still mold this to fit in with out basic principle and the transformational steps that we gave above. Here's how:
+
+The ;taqdir; for the ;shart; can be ;qaddared; as:
+
+(@) [فإن [لم تنتفع بعلمك]]{.ar}
+
+The ;qaddared; ;j_f3l;
+[[لم تنتفع بعلمك]]{.ar}
+is deleted except for the ;fi3l_shart; [تنتفع]{.ar}'s ;faa3il;, the ;mustatir; pronoun [[أَنْتَ]]{.ar}.
+This ;mustatir; ;faa3il; pronoun
+is transformed for surface speech into the detached pronoun [أَنْتَ]{.ar}.
+An explanatory ;j_f3l;
+[لم ينفعك علمك]{.ar}
+is added after the ;faa3il;
+[أَنْتَ]{.ar}
+to give the meaning of
+a
+;qaddared; ;j_f3l;.
+In this case, the explanatory ;j_f3l; does not exactly match the ;qaddared; original ;shart_int; in wording,
+but has a similar meaning.^[[@ibn_malik_sharh_tasheel@ 2/140](https://shamela.ws/book/13257/536); see also [@abu_hayyan_tadhyeel@ 6/313](https://shamela.ws/book/17116/2004)]
+
+Here are some more examples of ;j_sh;s whose ;shart_int; begins with a noun:
+
+(@) [**وَإِنۡ أَحَدࣱ مِّنَ ٱلۡمُشۡرِكِینَ ٱسۡتَجَارَكَ** فَأَجِرۡهُ حَتَّىٰ یَسۡمَعَ كَلَـٰمَ ٱللَّهِ ثُمَّ أَبۡلِغۡهُ مَأۡمَنَهُۥۚ]{.quran}
+    [@https://quran.com/9/6@]{.citex}  
+    [And if any one of the polytheists seeks your protection, then grant him protection so that he may hear the words of Allāh [i.e., the Qur’ān].]{.trans}  
+
+(@) [**فَإِنْ أَحَدٌ تَرَخَّصَ** لِقِتَالِ رَسُولِ اللَّهِ صلى الله عليه وسلم فِيهَا فَقُولُوا إِنَّ اللَّهَ قَدْ أَذِنَ لِرَسُولِهِ وَلَمْ يَأْذَنْ لَكُمْ]{.ar}
+    [@https://sunnah.com/bukhari:104@ cited by @peled_cst@ 20]{.citex}  
+    [So if anyone allows himself license because of the fighting of the Messenger of ;Allah; ;pbuh; then say to him, ";Allah; permitted His Messenger and did not permit you."]{.trans}
+
+(@) [**وَإِنْ هُمْ أَبَوْا** فَوَالَّذِي نَفْسِي بِيَدِهِ، لأُقَاتِلَنَّهُمْ عَلَى أَمْرِي هَذَا حَتَّى تَنْفَرِدَ سَالِفَتِي، وَلَيُنْفِذَنَّ اللَّهُ أَمْرَهُ]{.ar}
+    [@https://sunnah.com/bukhari:2731@ cited by @peled_cst@ 19]{.citex}  
+    [But if they refuse, then by Him in whose Hand my soul is, I will definitely fight them on this cause of mine until [I die], but ;Allah; will [make His cause victorious].]{.trans}  
+
+Here is an example with ;idha; as the ;adat_shart;:
+
+(@) [إِذَا هُوَ لَمْ يُعْطِ فِيهَا حَقَّهَا تَطَؤُهُ بِأَخْفَافِهَا]{.ar}
+    [@https://sunnah.com/bukhari:1402@ cited by @peled_cst@ 27]{.citex}  
+    [If he had not given their due [[zakAt]{.trn2}] for them, then they would tread him with their hooves]{.trans}
+
+Here is an example with ;law; as the ;adat_shart;:
+
+(@) [قَالَ أَبُو عُبَيْدَةَ بْنُ الْجَرَّاحِ أَفِرَارًا مِنْ قَدَرِ اللَّهِ فَقَالَ عُمَرُ **لَوْ غَيْرُكَ قَالَهَا** يَا أَبَا عُبَيْدَةَ، نَعَمْ نَفِرُّ مِنْ قَدَرِ اللَّهِ إِلَى قَدَرِ اللَّهِ]{.ar}
+    [@https://sunnah.com/bukhari:5729@]{.citex}  
+    [[#abU #eubaydah ibn al-#jarrAH]{.trn2} said, "Are you fleeing what ;Allah; has ordained?" [#eumar]{.trn2} said, "**Would that someone else had said [such a thing]**, O [#abU #eubaydah]{.trn2}! Yes, we are fleeing from what Allah has ordained to what Allah has ordained."]{.trans}
+
+<!--
+(@) [فإنْ يَكُ عامِرٌ قد قالَ جَهلاً فإنَّ مَظِنَّةَ الجَهْلِ الشّبابُ]{.ar}
+    [cited by @gatje_struktur@ 174]{.citex} 
+-->
+
+
+
+<!--
+From the above examples, we can note the following points:
+
+* The ;fi3l_shart; is always ;qatala; (or [;_lam; ;_yaqtul;]{.ar} which is equivalent).
+* The original ;faa3il; before the ;fi3l_shart; is usually either a pronoun, or a generic or indefinite noun.
+  There very few cases, where it is a definite specific noun.
+-->
+
+
 
 ## The ;j_sh; combined with an ;qasam;
 
@@ -4130,6 +4143,8 @@ Wright 2/39B
 ;la_in;?
 
 [[لام القسم والموطئة للقسم وجواب القسم]{.ar}](https://www.youtube.com/watch?v=ghMU0aI1Tpw)
+
+## The ;jawab_talab;
 
 ## ;3atf; in the ;shart; or the ;jawab_shart;
 
