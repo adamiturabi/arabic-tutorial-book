@@ -67,6 +67,7 @@ map_table["ka_an"] = "[كَأَنْ]{.ar}"
 map_table["lakin"] = "[لَـٰكِنْ]{.ar}"
 map_table["in_nfy"] = "negating-[إِنْ]{.ar}"
 map_table["idha"] = "[إِذَا]{.ar}"
+map_table["idha_fj"] = "sudden-[إِذَا]{.ar}"
 map_table["idh"] = "[إِذْ]{.ar}"
 map_table["law"] = "[لَوْ]{.ar}"
 map_table["law_laa"] = "[لَوْلَا]{.ar}"
@@ -192,6 +193,7 @@ map_table["dharf_zaman"] = "adverb of time"
 
 map_table["faa3il"] = "doer"
 map_table["fi3l_amr"] = "verb of command"
+map_table["fi3l_muakkad"] = "emphatic verb"
 
 map_table["hal"] = "[HAl]{.trn2}"
 
@@ -273,6 +275,7 @@ map_table["noon_wiq"] = "guarding-[ن]{.ar}"
 map_table["participle"] = "participle"
 map_table["pbuh"] = "[ﷺ]{.aralt}"
 map_table["qasam"] = "oath"
+map_table["j_qasam"] = map_table["qasam"] + "-sentence"
 map_table["jawab_qasam"] = map_table["qasam"] + "-" + map_table["jawab"]
 
 map_table["rabt"] = "link"

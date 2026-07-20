@@ -4174,11 +4174,14 @@ The ;jawab_qasam; is
 prefixed by the ;jawab_qasam;-;la;.
 
 The ;j_qasam; is often combined with the ;j_sh;.
-This can occur in two ways:
+This can occur in a few different ways:
 
- i. The ;qasam; occurs before the ;shart; in sentence word order.
-ii. The ;shart; occurs before the ;qasam; in sentence word order.
+a. The ;qasam;/;shart; sentence is not the ;xabar; of a compound sentence.
+    i. The ;qasam; occurs before the ;shart; in sentence word order.
+   ii. The ;shart; occurs before the ;qasam; in sentence word order.
+b. The ;qasam;/;shart; sentence is the ;xabar; of a compound sentence.
 
+We will discuss category (a) first.
 The general principle, when analyzing such sentences,
 is that there will be only one ;jawab;,
 either a ;jawab_qasam;, or a ;jawab_shart;.
@@ -4187,6 +4190,94 @@ And the ;jawab; will be for whichever of the ;qasam; or the ;shart; occurred fir
 We will discuss this in more detail below:
 
 ### The ;qasam; occurs before the ;shart;
+
+Consider the following example:
+
+(@) [وَاللهِ لَئِنْ أَكْرَمْتَنِي لَأُكْرِمَنَّكَ]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/141](https://shamela.ws/book/13301/2079)]{.citex}  
+    [By ;Allah;, if you honor me, I will honor you.]{.trans}  
+
+In example () above,
+the ;qasam;
+[وَاللهِ]{.ar}
+occurs before the ;shart;
+[إنْ أَكْرَمْتَنِي]{.ar}
+in sentence word order.
+Therefore,
+the ;jawab;
+[لَأُكْرِمَنَّكَ]{.ar}
+is here the ;jawab_qasam;.
+This is evinced by the
+the usage of ;fi3l_muakkad;
+and the ;la; before it,
+which are hallmarks of the ;jawab_qasam;.
+
+Note also, the usage of another ;la; that prefixes the ;adat_shart;:
+;la_in;.
+This is a special ;la; that is only used when a
+;qasam; precedes the ;adat_shart; ;in;.
+It indicates that any ;jawab; which follows is a ;jawab_qasam;.^[[@varahim_mu3jam@ 28](https://shamela.ws/book/11928/29)]
+
+Here is another example of
+a ;qasam; preceding a ;shart;:
+
+(@) [واللهِ لَئِنْ أتيتَني لأتيتُك]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/141](https://shamela.ws/book/13301/2079)]{.citex}  
+    [By ;Allah;, if you came to me, I will come to you.]{.trans}  
+
+In example () above,
+[لأتيتُك]{.ar}
+is again the ;jawab_qasam;.
+In this case, it uses a ;madi; verb,
+even though it has a future meaning.
+
+Often times,
+the actual ;qasam; may optionally be ;mahzoof;.
+For example:
+
+(@) [لَىِٕنۡ أُخۡرِجُوا۟ لَا یَخۡرُجُونَ مَعَهُمۡ وَلَىِٕن قُوتِلُوا۟ لَا یَنصُرُونَهُمۡ]{.quran}
+    [@https://quran.com/59/12@ cited by [@ibn_ya3ish_mufassal@ 5/142](https://shamela.ws/book/13301/2080)]{.citex}  
+    [If they are expelled, they will not leave with them, and if they are fought, they will not aid them.]{.trans}
+
+In example () above,
+the ;jawab; is still analyzed to be an ;jawab_qasam;.^[[@ibn_ya3ish_mufassal@ 5/142](https://shamela.ws/book/13301/2080)]
+This is again indicated by the ;la; preceding the ;adat_shart; (;la_in;),
+and also by the use of the ;ucase; of the ;mudarie; verb in the ;jawab;
+([يَخْرُجُونَ]{.ar})
+instead of the ;0case;.
+
+Occasionally,
+both the ;qasam; and the ;la; before the ;adat_shart; ;in; may optionally be ;mahzoof;.
+But the ;qasam; is implied,
+and so the ;jawab; matches the syntax of the ;jawab_shart;,
+not the ;jawab_shart;.
+For example:
+
+(@) [إن أتيتني لأكرمنك]{.ar}
+    [[@sibawayhi@ 3/66](https://shamela.ws/book/23018/919)]{.citex}  
+    [If you came to me, I will honor you]{.trans}  
+
+In example () above,
+the ;taqdir;,
+with the optionally ;mahzoof; elements restored, is:
+
+(@) [والله لئن أتيتني لأكرمنك]{.ar}
+    [[@sibawayhi@ 3/66](https://shamela.ws/book/23018/919)]{.citex}  
+    [By ;Allah;, if you came to me, I will honor you]{.trans}  
+
+---
+
+Rarely, the ;jawab; is the ;jawab_shart;,
+not the ;jawab_qasam;.
+For example:
+
+(@) [لَئِنْ كَانَ حُدِّثْتُهُ الْيَوْمَ صَادِقًا أَصُمْ فِي نَهَارِ الْقَيْظِ لِلشَّمْسِ بَادِيًا]{.ar}
+    [@nahw_arabi@ 2/476]{.citex}
+
+
+### The ;shart; occurs before the ;qasam;
+
+### The ;qasam;/;shart; sentence is the ;xabar; of a compound sentence
 
 ## The ;jawab_talab;
 

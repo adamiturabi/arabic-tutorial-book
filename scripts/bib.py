@@ -1145,15 +1145,26 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "iqtiran"
     , cit_type = "ar_ref"
-    , cit_text = "اقتران الفاء في جواب الشرط وعدمها في التعبير القراني[]{.ar}"
+    , cit_text = "[اقتران الفاء في جواب الشرط وعدمها في التعبير القراني]{.ar}"
     , bib_text = """
 المقالة: اقتران الفاء في جواب الشرط وعدمها في التعبير القراني
 المؤلفان: عناد مخلف مهبش الهيتي، قصي جدوع رضا الهيتي
       """ + format_url_ar("https://www.researchgate.net/publication/333642765_aqtran_alfa_fy_jwab_alshrt_wdmha_fy_altbyr_alqrany")
     , sort_key = "قتران"
     ))
-  
-
+  resource_list.append(BibResource(
+    "varahim_mu3jam"
+    , cit_type = "ar_ref"
+    , cit_text = "[معجم المسائل النحوية والصرفية الواردة في القرآن الكريم]{.ar}"
+    , bib_text = """
+      الكتاب: معجم المسائل النحوية والصرفية الواردة في القرآن الكريم  
+      المؤلف: الدكتور ف. عبد الرحيم [فانيامبادي عبد الرحيم]  
+      الناشر: مجمع الملك فهد لطباعة المصحف الشريف بالمدينة المنورة  
+      الطبعة: الأولى  
+      عدد الصفحات: ٣٥  
+      """ + format_url_ar("https://shamela.ws/book/11928")
+    , sort_key = "ف عبد الرجيم معجم المسايل"
+    ))
 
   # Western
 
