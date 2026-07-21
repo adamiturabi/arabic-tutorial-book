@@ -1179,7 +1179,18 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/11928")
     , sort_key = "ف عبد الرجيم معجم المسايل"
     ))
-
+  resource_list.append(BibResource(
+    "shamsan_shart"
+    , cit_type = "ar_ref"
+    , cit_text = "[الجملة الشرطية عند النحاة العرب للشمسان]{.ar}"
+    , bib_text = """
+      الكتاب: الجملة الشرطية عند النحاة العرب  
+      المؤلف: أَبو أوس إبراهيم الشمسان  
+      الناشر: مطابع الدجوى عابدين  
+      الطبعة: الأولى، ١٤٠١ هـ - ١٩٨١ م    
+      """ + format_url_ar("https://archive.org/details/aljomla-ashrtia.g")
+    , sort_key = "جملة الشرطية عند"
+    ))
   # Western
 
   resource_list.append(BibResource(
