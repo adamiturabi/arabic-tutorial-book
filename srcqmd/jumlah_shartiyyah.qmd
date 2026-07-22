@@ -4454,20 +4454,27 @@ prefixed by the ;jawab_qasam;-;la;.
 The ;j_qasam; is often combined with the ;j_sh;.
 This can occur in a few different ways:
 
+a. The ;qasam; occurs in the beginning of a sentence, before the ;shart;.
+b. The ;shart; occurs in the beginning of a sentence, before the ;qasam;.
+c. The ;qasam; and ;shart; are in the ;xabar; of a compound sentence.
+
+Let's discuss each of these in turn.
+
+<!--
 a. The ;qasam;/;shart; does not occur in the ;xabar; of a compound sentence.
     i. The ;qasam; occurs before the ;shart; in sentence word order.
    ii. The ;shart; occurs before the ;qasam; in sentence word order.
 b. The ;qasam;/;shart; occurs in the ;xabar; of a compound sentence.
+-->
 
-We will discuss category (a) first.
+### The ;qasam; occurs in the beginning of a sentence, before the ;shart;
+
 The general principle, when analyzing such sentences,
 is that there will be only one ;jawab;,
 either a ;jawab_qasam;, or a ;jawab_shart;.
-And the ;jawab; will be for whichever of the ;qasam; or the ;shart; occurred first in sentence word order.
-
-We will discuss this in more detail below:
-
-### The ;qasam; occurs before the ;shart;
+And,
+typically,
+the ;jawab; will be for whichever of the ;qasam; or the ;shart; occurred first in sentence word order.
 
 Consider the following example:
 
@@ -4519,7 +4526,10 @@ For example:
     [If they are expelled, they will not leave with them, and if they are fought, they will not aid them.]{.trans}
 
 In example () above,
-the ;jawab; is still analyzed to be an ;jawab_qasam;.^[[@ibn_ya3ish_mufassal@ 5/142](https://shamela.ws/book/13301/2080)]
+a ;qasam; is assumed to be ;mahzoof;.
+The ;jawab;
+[لَا یَخْرُجُونَ]{.ar}
+is still analyzed to be an ;jawab_qasam;.^[[@ibn_ya3ish_mufassal@ 5/142](https://shamela.ws/book/13301/2080)]
 This is again indicated by the ;la; preceding the ;adat_shart; (;la_in;),
 and also by the use of the ;ucase; of the ;mudarie; verb in the ;jawab;
 ([يَخْرُجُونَ]{.ar})
@@ -4603,7 +4613,7 @@ In example () above, the ;la; in [لَمَنْ]{.ar} has been analyzed as follow
 [لَأَمْلَأَنَّ]{.ar} is then the ;jawab_qasam;.
 Other analyses are also possible.^[@https://tafsir.app/albahr-almuheet/7/18@]
 
-### The ;shart; occurs before the ;qasam;
+### The ;shart; occurs in the beginning of a sentence, before the ;qasam;
 
 When the
 ;shart;
@@ -4614,6 +4624,10 @@ the ;jawab;
 is considered to be the ;jawab_shart;,
 and the ;jawab_qasam; is obligatorily ;mahzoof;.
 
+(@) [إِنْ أَتَيْتَنِي وَاللهِ آتِكَ]{.ar}
+    [[@shamsan_shart@ 451](https://archive.org/details/aljomla-ashrtia.g/page/n451/mode/2up) citing @radiy_kafiyah@]{.citex}  
+    [If you came to me, by ;Allah;, I will come to you.]{.trans}  
+
 (@) [إِنْ قَامَ زَيْدٌ وَاللهِ يَقُمْ عَمْرٌو]{.ar}
     [[@ibn_aqil_alfiyyah@ 4/44](https://shamela.ws/book/9904/1051)]{.citex}  
     [If Zayd stands, by ;Allah;, [#eamr]{.trn2} will stand.]{.trans}  
@@ -4622,11 +4636,22 @@ and the ;jawab_qasam; is obligatorily ;mahzoof;.
     [[@ibn_malik_sharh_tasheel@ 3/216](https://shamela.ws/book/13257/1032)]{.citex}  
     [If, by ;Allah;, you come to me, I will honor you.]{.trans}  
 
+There is also another possibility,
+which is that
+the sentence can have both a ;jawab_qasam; and a ;jawab_shart;.
+And
+the entire ;j_qasam; is the ;jawab_shart;.
+A ;fa; will be needed as the ;jawab_shart_intro;.
+Examples:
 
-### The ;qasam;/;shart; occurs in the ;xabar; of a compound sentence
+(@) [إِنْ أَتَيْتَنِي فَوَاللهِ لَآتِيَنَّكَ]{.ar}
+    [[@shamsan_shart@ 451](https://archive.org/details/aljomla-ashrtia.g/page/n451/mode/2up) citing @radiy_kafiyah@]{.citex}  
+    [If you came to me, then by ;Allah;, I will come to you.]{.trans}  
+
+### The ;qasam; and ;shart; are in the ;xabar; of a compound sentence
 
 When the
-;qasam;/;shart; sentence occurs in the ;xabar; of a compound sentence,
+;qasam; and ;shart; sentence occur in the ;xabar; of a compound sentence,
 then
 the standard position of the grammarians is that
 the ;jawab; shall be the ;jawab_shart;,
@@ -4634,17 +4659,62 @@ and that the ;jawab_qasam; be obligatorily ;mahzoof;,
 regardless of whether the ;shart; preceded the ;qasam;,
 or vice-versa.^[[@ibn_aqil_musaa3id@ 3/177](https://shamela.ws/book/133358/1452)]
 
-(@) [زيد والله إن يقم عمرو يأت]{.ar}
+(@) [زيد والله إن يقم عمرو **يأت**]{.ar}
     [[@ibn_aqil_musaa3id@ 3/177](https://shamela.ws/book/133358/1452)]{.citex}  
     [Zayd, by ;Allah;, if [#eamr]{.trn2} stands, will come.]{.trans}  
 
-(@) [زيد إن يقم عمرو والله يأت]{.ar}
+(@) [زيد إن يقم عمرو والله **يأت**]{.ar}
     [[@ibn_aqil_musaa3id@ 3/177](https://shamela.ws/book/133358/1452)]{.citex}  
     [Zayd, if [#eamr]{.trn2} stands, by ;Allah;, will come.]{.trans}  
 
+<!--
 In examples () and () above,
 [يَأْتِ]{.ar} is the ;jawab_shart; and the entire ;j_sh; is the ;xabar; of the ;mubtada; [زَيْدٌ]{.ar}.
+More examples:
+-->
 
+(@) [أَنَا وَاللهِ إِنْ تَأْتِنِي لَا آتِكَ]{.ar}
+    [[@shamsan_shart@ 448](https://archive.org/details/aljomla-ashrtia.g/page/n449/mode/2up) citing @sibawayhi@]{.citex}  
+    [I, by ;Allah;, if you come to me, I will not come to you.]{.trans}  
+
+(@) [أَنَا إِنْ أَتَيْتَنِي وَاللهِ آتِكَ]{.ar}
+    [[@shamsan_shart@ 450](https://archive.org/details/aljomla-ashrtia.g/page/n451/mode/2up) citing @radiy_kafiyah@]{.citex}  
+    [I, if you came to me, by ;Allah;, I will come to you.]{.trans}  
+
+The above is the most common opinion of the grammarians.
+However, some grammarians have allowed
+that when the ;qasam; precedes the ;shart;,
+then the ;jawab; can be the ;jawab_qasam;
+and the ;jawab_shart; is ;mahzoof;.^[[@shamsan_shart@ 449](https://archive.org/details/aljomla-ashrtia.g/page/n449/mode/2up) citing @radiy_kafiyah@ and @irtishaaf@]
+For example:
+
+(@) [أَنَا وَاللهِ إِنْ أَتَيْتَنِي **لَآتِيَنَّكَ**]{.ar}
+    [[@shamsan_shart@ 449](https://archive.org/details/aljomla-ashrtia.g/page/n449/mode/2up) citing @radiy_kafiyah@]{.citex}  
+    [I, by ;Allah;, if you came to me, I will come to you.]{.trans}  
+
+Another opinion found amongst the grammarians is that
+both the ;jawab_shart; and the ;jawab_qasam; can be ;mahzoof;.
+And so the following ;j_f3l; is directly the ;xabar;.^[[@shamsan_shart@ 449](https://archive.org/details/aljomla-ashrtia.g/page/n449/mode/2up) citing @irtishaaf@]
+For example:
+
+(@) [زَيْدٌ واللهِ إِن أَكْرَمْتَهُ **يُكْرِمُكَ**]{.ar}
+    [[@shamsan_shart@ 449](https://archive.org/details/aljomla-ashrtia.g/page/n449/mode/2up) citing @irtishaaf@]{.citex}  
+    [Zayd: by ;Allah;, if you honor him, he will honor you.]{.trans}  
+    [يُكْرِمُكَ]{.ar}, in the ;ucase; is the ;xabar; of [زَيْدٌ]{.ar}.
+
+Lastly, there is also the possibility that
+the sentence can have both a ;jawab_qasam; and a ;jawab_shart;.
+And
+the entire ;j_qasam; is the ;jawab_shart;.^[[@shamsan_shart@ 449](https://archive.org/details/aljomla-ashrtia.g/page/n449/mode/2up) citing @irtishaaf@]
+A ;fa; will be needed as the ;jawab_shart_intro;.
+For example:
+
+(@) [أَنَا إِنْ أَتَيْتَنِي فَوَاللهِ لَآتِيَنَّكَ]{.ar}
+    [[@shamsan_shart@ 450](https://archive.org/details/aljomla-ashrtia.g/page/n451/mode/2up) citing @radiy_kafiyah@]{.citex}  
+    [I, if you came to me, then by ;Allah;, I will come to you.]{.trans}  
+
+
+<!--
 However, some grammarians have allowed additional possibilities:
 
   i. That both the ;jawab_qasam; and the ;jawab_shart; are ;mahzoof;.
@@ -4672,6 +4742,7 @@ iii. That ;jawab_qasam; is ;mahzoof;.
          [[@ibn_aqil_musaa3id@ 3/178](https://shamela.ws/book/133358/1452)]{.citex}  
          [I, by ;Allah;, if you come to me, I will come to you.]{.trans}  
          [آتِكَ]{.ar}, in the ;0case; is the ;jawab_shart;. The ;j_sh; [إن تأتني آتك]{.ar} is the ;xabar; of [أَنَا]{.ar}.
+-->
 
 ### ;law; combined with a ;qasam;
 
