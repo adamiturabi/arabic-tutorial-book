@@ -1180,7 +1180,7 @@ def populate_resource_list():
     , sort_key = "ف عبد الرجيم معجم المسايل"
     ))
   resource_list.append(BibResource(
-    "shamsan_shart"
+    "shamsan_jsh"
     , cit_type = "ar_ref"
     , cit_text = "[الجملة الشرطية عند النحاة العرب للشمسان]{.ar}"
     , bib_text = """
