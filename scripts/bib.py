@@ -637,7 +637,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "suyooti_hama3"
     , cit_type = "ar_ref"
-    , cit_text = "[الهمع للسيوطي]{.ar}"
+    , cit_text = "[همع الهوامع للسيوطي]{.ar}"
     , bib_text = """
       الكتاب: همع الهوامع في شرح جمع الجوامع  
       المؤلف: عبد الرحمن بن أبي بكر، جلال الدين السيوطي (ت ٩١١هـ)  
