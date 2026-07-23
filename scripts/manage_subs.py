@@ -200,8 +200,11 @@ map_table["mubdalb"] = "subbee" # replacee, substitutee
 map_table["damir_fasl"] = "separating-pronoun"
 map_table["damir_shan"] = "state-of-affairs pronoun" # pronoun-of-fact, pronoun of s͡haʾn
 map_table["dharf"] = "adverb of time/place"
+map_table["dharfs"] = "adverbs of time/place"
 map_table["dharf_makan"] = "adverb of place"
 map_table["dharf_zaman"] = "adverb of time"
+map_table["dharfs_makan"] = "adverbs of place"
+map_table["dharfs_zaman"] = "adverbs of time"
 
 map_table["faa3il"] = "doer"
 map_table["fi3l_amr"] = "verb of command"
