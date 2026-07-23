@@ -1805,6 +1805,12 @@ Examples:
     [[@faaridi_alfiyyah@ 4/15](https://shamela.ws/book/174/1707)]{.citex}  
     [Whoever honors me, I will honor him.]{.trans}  
 
+<!--
+(@) [من يضْرب زيدا أضربه]{.ar}
+    [[@hama3@ 2/566](https://shamela.ws/book/6975/1138)]{.citex}  
+    [Whoever beats Zayd, I will beat him.]{.trans}  
+-->
+
 (@) [مَن یَعۡمَلۡ سُوۤءࣰا یُجۡزَ بِهِۦ]{.quran}
     [@https://quran.com/4/123@ cited by [@ibn_aqil_alfiyyah@ 4/27](https://shamela.ws/book/9904/1034)]{.citex}  
     [Whoever does a wrong will be recompensed for it]{.trans}  
@@ -1828,13 +1834,44 @@ Examples:
 If they refer to the ;mafulb; of the ;fi3l_shart;,
 then they are analyzed in the ;acase; as a ;mafulb;.
 
-(@) [من تضرب أضرب]{.ar}
-(@) [ما تفعل أفعل]{.ar}
-(@) [مهما تفعل أفعل]{.ar}
+(@) [مَنْ تَضْرِبْ أَضْرِبْ]{.ar}
+    [[@faaridi_alfiyyah@ 4/15](https://shamela.ws/book/174/1707)]{.citex}  
+    [Whomever you beat, I will beat.]{.trans}  
 
-And if they are preceded by a preposition, 
+(@) [مَا تَفْعَلْ أَفْعَلْ]{.ar}
+    [[@faaridi_alfiyyah@ 4/15](https://shamela.ws/book/174/1707)]{.citex}  
+    [Whatever you do, I will do.]{.trans}  
+
+(@) [مَهْمَا تَفْعَلْ أَفْعَلْ]{.ar}
+    [[@faaridi_alfiyyah@ 4/15](https://shamela.ws/book/174/1707)]{.citex}  
+    [Whatever you do, I will do.]{.trans}  
+
+
+In such cases, the ;shart_int; and/or the ;jawab_shart_int;
+may include a pronoun that refers back to the ;adat_shart;.
+Examples:
+
+(@) [من تضرب أضربه]{.ar}
+    [[@hama3@ 2/566](https://shamela.ws/book/6975/1138)]{.citex}  
+    [Whomever you beat, I will beat him.]{.trans}  
+
+(@) [من يضْربهُ زيد أضربه]{.ar}
+    [[@hama3@ 2/566](https://shamela.ws/book/6975/1138)]{.citex}  
+    [Whoever Zayd beats [him], I will beat him.]{.trans}  
+
+(@) [من تضربه أضربه]{.ar}
+    [[@hama3@ 2/566](https://shamela.ws/book/6975/1138)]{.citex}  
+    [Whomever you beat [him], I will beat him.]{.trans}  
+
+
+If the ;adat_shart; is
+preceded by a preposition, 
 or a ;mudaf;,
 then they will be in the ;icase;.
+
+(@) [غُلَامَ مَنْ تَضْرِبْ أَضْرِبْ]{.ar}
+    [[@faaridi_alfiyyah@ 2/451](https://shamela.ws/book/174/1035)]{.citex}  
+    [Whoever's slave-boy you beat, I will beat.]{.trans}  
 
 The ;adat_shart;s
 ;aynamaa;,
