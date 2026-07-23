@@ -635,7 +635,7 @@ def populate_resource_list():
     , sort_key = "اشباه والنظاير للسيوطي"
     ))
   resource_list.append(BibResource(
-    "suyooti_hama3"
+    "hama3"
     , cit_type = "ar_ref"
     , cit_text = "[همع الهوامع للسيوطي]{.ar}"
     , bib_text = """
@@ -797,19 +797,19 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/6970")
     , sort_key = "شرح قطر الندى وبل الصدى"
     ))
-  resource_list.append(BibResource(
-    "hama3"
-    , cit_type = "ar_ref"
-    , cit_text = "[الهمع للسيوطي]{.ar}"
-    , bib_text = """
-      الكتاب: همع الهوامع في شرح جمع الجوامع  
-      المؤلف: عبد الرحمن بن أبي بكر، جلال الدين السيوطي (ت ٩١١هـ)  
-      المحقق: عبد الحميد هنداوي  
-      الناشر: المكتبة التوفيقية - مصر  
-      عدد الأجزاء: ٣  
-      """ + format_url_ar("https://shamela.ws/book/1146")
-    , sort_key = "همع"
-    ))
+  #resource_list.append(BibResource(
+  #  "hama3"
+  #  , cit_type = "ar_ref"
+  #  , cit_text = "[الهمع للسيوطي]{.ar}"
+  #  , bib_text = """
+  #    الكتاب: همع الهوامع في شرح جمع الجوامع  
+  #    المؤلف: عبد الرحمن بن أبي بكر، جلال الدين السيوطي (ت ٩١١هـ)  
+  #    المحقق: عبد الحميد هنداوي  
+  #    الناشر: المكتبة التوفيقية - مصر  
+  #    عدد الأجزاء: ٣  
+  #    """ + format_url_ar("https://shamela.ws/book/1146")
+  #  , sort_key = "همع"
+  #  ))
   resource_list.append(BibResource(
     "nazir_jaish"
     , cit_type = "ar_ref"
