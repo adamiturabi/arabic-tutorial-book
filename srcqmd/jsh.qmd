@@ -1057,10 +1057,46 @@ For example:
     [@https://sunnah.com/bukhari:2217@ cited by @peled_cst@ 17]{.citex}  
     [She said, "O ;Allah; if he should die, it will be said, 'She killed him.'"]{.trans}  
 
+<!--
+### A ;ucase; ;mudarie; ;fi3l_shart;
+
+Exceedingly rarely,
+we see a ;in; ;j_sh;
+with a ;yaqtulu; form in the ;fi3l_shart;.
+That is, a ;mudarie; ;fi3l_shart; is in the ;ucase;,
+not the ;0case;.
+For example:
+
+(@) [فإما ترين]{.ar}
+    [[@shawahid_tawdeeh@ 72](https://shamela.ws/book/98123/69#p1)]{.citex}  
+-->
+
 ### ;immaa;
 
+;maa; may optionaly be suffixed to ;in;.
+The [ن]{.ar} is assimilated with the [م]{.ar},
+and
+it is then  written and pronounced as ;immaa;.
+By the way,
+this ;immaa; is distinct from the ;immaa; that is used to signify
+[either ... or]{.trans}.^[[@mughni@ 1/61](https://ketabonline.com/ar/books/57084/read?part=1&page=59&index=3271127)]
+The addition of ;maa; to ;in;
+can emphasize the meaning of the ;jawab_shart;.
+Example:
+
+(@) [إمّا تأتني آتِك]{.ar}
+    [[@ibn_ya3ish_mufassal@ 5/115](https://shamela.ws/book/13301/2053)]{.citex}  
+    [If you come to me, I will come to you.]{.trans}  
+
+;yaqtul; is only used with ;immaa; uncommonly or by poetic license.^[[@nahw_wafi@ 4/174](https://shamela.ws/book/10641/2106)]
+Instead, the ;fi3l_shart; with ;immaa; is usually a ;fi3l_muakkad;
+([يَقْتُلَنَّ]{.ar}).
+For example:
+
 (@) [فَإِمَّا تَرَیِنَّ مِنَ ٱلۡبَشَرِ أَحَدࣰا فَقُولِیۤ إِنِّی نَذَرۡتُ لِلرَّحۡمَـٰنِ صَوۡمࣰا فَلَنۡ أُكَلِّمَ ٱلۡیَوۡمَ إِنسِیࣰّا]{.quran}
-    [@https://quran.com/19/26@]{.citex}  
+    [@https://quran.com/19/26@ cited by [[@ibn_ya3ish_mufassal@ 5/115](https://shamela.ws/book/13301/2053)]{.citex}  
+    [And if you see from among humanity anyone, say, 'Indeed, I have vowed to the Most Merciful abstention, so I will not speak today to [any] man.'"]{.ar}  
+    (;fa; introducing the ;jawab_shart; is discussed in section () below.)
 
 ## The ;idha; ;j_sh;
 
@@ -1300,7 +1336,7 @@ For example:
     [When you go to bed, you magnify thirty-four times, and glorify thirty-three times, and praise thirty-three times.]{.trans}  
 
 (@) [إِذَا **تُصِبْكَ** خَصَاصَةٌ  فَتَجَمَّلِ]{.ar}
-    [@wright@ 2/12B]{.citex}  
+    [[@faaridi_alfiyyah@ 4/18](https://shamela.ws/book/174/1710); [@wright@ 2/12B]{.citex}  
     [When poverty befalls you then bear it patiently.]{.trans}  
     ([تَجَمَّلِ]{.ar} in rhyme for [تَجَمَّلْ]{.ar}.)  
 
@@ -1410,6 +1446,7 @@ but the event in the ;shart; would not be considered certain.
     [But [on one occasion] when they saw a transaction or a diversion, [O Muḥammad], they rushed to it and left you standing.]{.trans}  
 -->
 
+<!--
 ### ;idha; as a ;0case;-izing ;adat_shart;
 
 By poetic license, ;idha; may behave like ;in;,
@@ -1419,6 +1456,7 @@ For example:
 (@) [وَإِذَا **تُصِبْكَ** خَصَاصَةٌ **فَتَجَمَّلِ**]{.ar}
     [[@faaridi_alfiyyah@ 4/18](https://shamela.ws/book/174/1710)]{.citex}  
     [And when poverty strikes you, then constrain yourself to be patient.]{.trans}
+-->
 
 ### ;idhaamaa;
 
@@ -1432,6 +1470,12 @@ For example:
     [modified from [@maani_nahw@ 4/95](https://shamela.ws/book/17801/1200) citing @kafawi_kulliyyaat@]{.citex}  
     [I will come to you, [one of the days] when the sun will rise.]{.trans}
 
+Or it can imply an extra emphasis.
+For example:
+
+(@) [حَتَّىٰۤ إِذَا مَا جَاۤءُوهَا شَهِدَ عَلَیۡهِمۡ سَمۡعُهُمۡ وَأَبۡصَـٰرُهُمۡ وَجُلُودُهُم بِمَا كَانُوا۟ یَعۡمَلُونَ]{.quran}
+    [@https://quran.com/41/20@ cited by [[@maani_nahw@ 4/96ff](https://shamela.ws/book/17801/1201)]{.citex}  
+    [Until, when they reach it, their hearing and their eyes and their skins will testify against them of what they used to do.]{.trans}  
 
 <!--
 (@) [وَإِذَا مَا غَضِبُوا۟ هُمۡ یَغۡفِرُونَ]{.quran}
@@ -1809,6 +1853,8 @@ like
 ;haythu; [where]{.trans},
 and ;idh; [when]{.trans}.
 
+#### Suffixing ;maa; {.unnumbered}
+
 When the
 above nouns
 are re-used as
@@ -1821,7 +1867,7 @@ The suffixing of ;maa; to these ;adat_shart;s
 falls under three categories^[[@shamsan_jsh@ 174ff](https://archive.org/details/aljomla-ashrtia.g/page/n175/mode/2up)]:
 
   i. Those for whom suffixing a ;maa; is obligatory:
-     + ;idhmaa;   [whenever]{.trans}. (By the way, according to some grammarians, once ;maa; is suffixed to ;idh; to make it an ;adat_shart;, it ceases to be a noun and becomes a particle.^[[@shamsan_jsh@ 162](https://archive.org/details/aljomla-ashrtia.g/page/n163/mode/2up)])
+     + ;idhmaa;   [if]{.trans}. (By the way, according to some grammarians, once ;maa; is suffixed to ;idh; to make it an ;adat_shart;, it ceases to be a noun and becomes a particle.^[[@shamsan_jsh@ 162](https://archive.org/details/aljomla-ashrtia.g/page/n163/mode/2up)])
      + ;haythumaa;   [wherever]{.trans}
 
  ii. Those for whom suffixing a ;maa; is optional.
@@ -1879,6 +1925,8 @@ These include^[[@faaridi_alfiyyah@ 4/13](https://shamela.ws/book/174/1705); @nah
 + ;kayfamaa;   [however]{.trans}
 + ;ayy;/[أَيُّمَا]{.ar}        [which(ever)]{.trans}
 -->
+
+#### Examples of the ;adat_shart;s {.unnumbered}
 
 Like ;in;, these ;adat_shart;s will govern
 a ;fi3l_shart; and a ;fi3l_jawab_shart; in the ;0case;.
@@ -2037,6 +2085,8 @@ For example:
     [[@shatibi_sharf_alfiyyah@ 6/108](https://shamela.ws/book/20562/3495)]{.citex}  
     [However you will be, I will be.]{.trans}  
 
+#### The ;adat_shart; ;ayy; {.unnumbered}
+
 The ;adat_shart;
 ;ayy;
 behaves like the others above.
@@ -2086,24 +2136,22 @@ As a ;dharf;:
     [[@faaridi_alfiyyah@ 4/16](https://shamela.ws/book/174/1708)]{.citex}  
     [Whichever time you stand, I will stand.]{.trans}  
 
+#### The ;adat_shart; ;idhmaa; {.unnumbered}
 
-مَتى أَضَع الْعِمَامَة تعرفوني
-
-فأيان مَا تعدل بِهِ الرّيح تنزل
-
-88
-https://shamela.ws/book/6970/70
+;idhmaa;,
+according to the standard view,
+is a particle like ;in;.
+Examples:
 
 
-alladhi?
+(@) [إذْ ما أتيتَ على الرسول فقُلْ له حَقّاً عليك إذا اطْمَأَنَّ المَجْلِسُ]{.ar}
 
-<https://shamela.ws/book/174/1707>
 
-غلام من تضرب أضرب
+TODO: alladhi?
 
----
-
+<!--
 @nahw_arabi@ 2/459ff
+-->
 
 
 ### Non-;0case;-izing ;adat_shart;s
@@ -4000,8 +4048,12 @@ Here are some examples:
 
 ### A ;0case; ;mudarie; ;fi3l_shart;
 
-A ;0case; ;mudarie; ;fi3l_shart; is exceddingly rare with ;law; but it is occasionally found.
+A ;0case; ;mudarie; ;fi3l_shart; is exceedingly rare with ;law; but it is occasionally found.
 For example:
+
+(@) [لَوْ تَعُذْ حِينَ فَرَّ قَوْمُكَ بِي كُنْتَ مِنَ الأَمْنِ فِي أَعَزِّ مَكَانٍ]{.ar}
+    [[@shawahid_tawdeeh@ 72](https://shamela.ws/book/98123/69#p1)]{.citex}  
+    [Had you taken refuge, when your people fled, with me, you would have been, with regards to security, in the mightiest place.]{.trans}  
 
 ### ;law; expressing a wish or hope
 
