@@ -1791,14 +1791,11 @@ Here, we treat the subject summarily:
 The ;adat_shart;s
 ;man;,
 ;maa;,
-;mahmaa;,
 and
-;ayy;
+;mahmaa;,
 are,
 by default,
 in the ;ucase; as the ;mubtada; of the sentence.
-;ayy; is the only ;adat_shart; that will display its ;case;.
-The others will be in ;mahall; ;case;.
 Examples:
 
 (@) [مَنْ يُكْرِمْنِي أُكْرِمْهُ]{.ar}
@@ -1846,7 +1843,6 @@ then they are analyzed in the ;acase; as a ;mafulb;.
     [[@faaridi_alfiyyah@ 4/15](https://shamela.ws/book/174/1707)]{.citex}  
     [Whatever you do, I will do.]{.trans}  
 
-
 In such cases, the ;shart_int; and/or the ;jawab_shart_int;
 may include a pronoun that refers back to the ;adat_shart;.
 Examples:
@@ -1874,17 +1870,92 @@ it they will be in the ;icase;.
     [Whoever's slave-boy you beat, I will beat.]{.trans}  
 
 The ;adat_shart;s
-;aynamaa;,
+;ayna;/;aynamaa;,
 ;haythumaa;,
 ;mataa;,
 ;ayyaana;,
-;annaa;
 and
 ;annaa;
 are analyzed in the ;acase; as ;dharfs;.
+For example:
+
+(@) [مَتَى تَخْرُجْ أَخْرُجْ]{.ar}
+    [[@faaridi_alfiyyah@ 4/16](https://shamela.ws/book/174/1708)]{.citex}  
+    [When you will exit, I will exit.]{.trans}  
+
+(@) [أَيَّانَ تَذْهَبْ أَذْهَبْ]{.ar}
+    [[@faaridi_alfiyyah@ 4/16](https://shamela.ws/book/174/1708)]{.citex}  
+    [When you will go, I will go.]{.trans}  
+
+(@) [أَيْنَ تَجْلِسْ أَجْلِسْ]{.ar}
+    [[@faaridi_alfiyyah@ 4/16](https://shamela.ws/book/174/1708)]{.citex}  
+    [Where you will sit, I will sit.]{.trans}  
+
+(@) [أَنَّى تَذْهَبْ تُصِبْ خَيْرًا]{.ar}
+    [[@faaridi_alfiyyah@ 4/16](https://shamela.ws/book/174/1708)]{.citex}  
+    [Wherever you will go, you will strike goodness.]{.trans}  
+
+(@) [حَيْثُمَا تَسْتَقِمْ تُفْلِحْ]{.ar}
+    [[@faaridi_alfiyyah@ 4/16](https://shamela.ws/book/174/1708)]{.citex}  
+    [Wherever you stand firm, you will succeed.]{.trans}  
 
 ;kayfamaa;
 is anaylzed as a ;hal;.
+
+(@) [كَيْفَمَا تَكُنْ أَكُنْ]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 6/108](https://shamela.ws/book/20562/3495)]{.citex}  
+    [However you will be, I will be.]{.trans}  
+
+The ;adat_shart;
+;ayy;
+behaves like the others above.
+Except, it displays its ;case;.
+Examples:
+
+As a ;mubtada;:
+
+(@) [أيٌّ يُكْرِمْنِي أُكْرِمْهُ]{.ar}
+    [[@faaridi_alfiyyah@ 4/16](https://shamela.ws/book/174/1708)]{.citex}  
+    [Whichever honors me, I will honor him.]{.trans}  
+
+(@) [أيَّةٌ تُكْرِمْنِي أُكْرِمْهُا]{.ar}
+    [[@faaridi_alfiyyah@ 4/16](https://shamela.ws/book/174/1708)]{.citex}  
+    [Whichever honors me, I will honor her.]{.trans}  
+
+As a ;mafulb;:
+
+(@) [أيَّهم تَضْرِبْ أَضْرِبْ]{.ar}
+    [[@faaridi_alfiyyah@ 4/16](https://shamela.ws/book/174/1708)]{.citex}  
+    [Whichever of them you beat, I will beat.]{.trans}  
+
+(@) [أيًّا تَضْرِبْ أَضْرِبْ]{.ar}
+    [[@faaridi_alfiyyah@ 4/16](https://shamela.ws/book/174/1708)]{.citex}  
+    [Whichever you beat, I will beat.]{.trans}  
+
+(@) [أَیࣰّا مَّا تَدۡعُوا۟ فَلَهُ ٱلۡأَسۡمَاۤءُ ٱلۡحُسۡنَىٰۚ]{.quran}
+    [@https://quran.com/17/110@ cited by [@faaridi_alfiyyah@ 4/16](https://shamela.ws/book/174/1708)]{.citex}  
+    [Whichever [name] you call - to Him belong the best names.]{.trans}  
+
+
+;maa; can be added between ;ayy; and its ;mudafil;.
+For example:
+
+(@) [أَیَّمَا ٱلۡأَجَلَیۡنِ قَضَیۡتُ فَلَا عُدۡوَ ٰ⁠نَ عَلَیَّۖ]{.quran}
+    [@https://quran.com/17/110@ cited by [@faaridi_alfiyyah@ 4/16](https://shamela.ws/book/174/1708)]{.citex}  
+    [Whichever of the two terms I complete - there is no injustice to me]{.trans}  
+    (;fa; introducing the ;jawab_shart; is discussed in section () below.)
+
+As a ;dharf;:
+
+(@) [أَيَّ وَقْتٍ تَقُمْ أَقُمْ]{.ar}
+    [[@faaridi_alfiyyah@ 4/16](https://shamela.ws/book/174/1708)]{.citex}  
+    [Whichever time you stand, I will stand.]{.trans}  
+
+(@) [أَيَّ مَكَانٍ تَجْلِسْ أَجْلِسْ]{.ar}
+    [[@faaridi_alfiyyah@ 4/16](https://shamela.ws/book/174/1708)]{.citex}  
+    [Whichever time you stand, I will stand.]{.trans}  
+
+
 
 
 alladhi?
