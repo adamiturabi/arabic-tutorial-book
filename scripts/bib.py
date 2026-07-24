@@ -1105,7 +1105,7 @@ def populate_resource_list():
     , sort_key = "ايضاح في علوم البلاغة للقزويني"
     ))
   resource_list.append(BibResource(
-    "3aarif_aldin_temporal"
+    "3aarif_zaman"
     , cit_type = "ar_ref"
     , cit_text = "[التأويل الزمني للجملة الشرطية في اللغة العربية لعارف الدين]{.ar}"
     , bib_text = """
@@ -1191,6 +1191,7 @@ def populate_resource_list():
       """ + format_url_ar("https://archive.org/details/aljomla-ashrtia.g")
     , sort_key = "جملة الشرطية عند"
     ))
+
   # Western
 
   resource_list.append(BibResource(
