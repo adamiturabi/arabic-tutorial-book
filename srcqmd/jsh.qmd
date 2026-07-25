@@ -1746,11 +1746,15 @@ that the ;ism_fail; can be used to indicate an intention to do a future action.
 This use of the ;ism_fail; can carry over to its use in a ;shart;.
 For example:
 
-إِنْ كُنْتَ فَاعِلاً فَوَاحِدَةً
+(@) [إِنْ كُنْتَ فَاعِلاً فَوَاحِدَةً]{.ar}
+    [@https://sunnah.com/bukhari:1207@]{.citex}  
+    [If you are going to do it, then (only) once.]{.trans}  
 
-bukhari:1207
 
+
+<!--
 Peled 75--76
+-->
 
 ### With a static verb as the ;fi3l_shart;
 
@@ -2969,215 +2973,7 @@ For example:
     [@https://quran.com/11/63@ cited by [@radiy_kafiyah@ 4/113](https://ketabonline.com/ar/books/23090/read?part=4&page=1550&index=150957/150973)]{.citex}  
     [He said, "O my people, have you considered: if I should be upon clear evidence from my Lord and He has given me mercy from Himself, who would protect me from Allāh if I disobeyed Him?]{.trans}  
 
-## ;kaana; as the ;fi3l_shart;
-
-The use of ;kaana; as the ;fi3l_shart; deserves special treatment.
-We will discuss several of its uses in the following subsections:
-
-### Using ;kaana; to explicitly restrict the ;tense; of a ;j_f3l; in a ;shart;
-
-In section\ (ref) above,
-we learned that the 
-;adat_shart; allows the ;tense; of the ;shart; to be open to all times.
-So for example,
-if we say:
-
-(@) [إِنْ ذَهَبْتَ ذَهَبْتُ مَعَكَ]{.ar}  
-    [If you go, I go with you.]{.trans}  
-
-then its ;tense; can be the past, future, or be valid for all times.
-
-But what if we wish to explicitly restrict the ;tense; of the ;shart; to the present or the past?
-We can do this by transforming the sentence in the ;shart;
-to be the ;xabar of ;kaana;.
-;kaana; will then be the ;fi3l_shart;.
-And the ;tense; of the ;shart; will be the ;tense; of the ;xabar; or ;kaana;.
-
-For example, say that we would like to
-restrict the ;tense; of the ;shart; in example () above to the present.
-So we would like to say
-[if you are going, I will go with you]{.trans}.
-We first start with the sentence
-[you are going]{.trans}.
-This is expressed in Arabic using the ;ucase; ;mudarie; verb
-[تَذْهَبُ]{.ar}.
-In order to retain the ;tense; of the sentence in a ;shart;,
-we begin the sentence with ;kaana; and make it the ;fi3l_shart;, thus:
-
-(@) [إِنْ كُنْتَ تَذْهَبُ أَذْهَبُ مَعَكَ]{.ar}  
-    [If **you** are going, I will go with you.]{.trans}  
-
-Note that [تَذْهَبُ]{.ar} is in the ;ucase; because it is not the ;fi3l_shart;.
-
-Similarly,
-let's say we wish to say
-[If you saw him, then why didn't you invite him?]{.trans}
-We first start with the sentence of the ;shart;:
-[you saw him]{.trans}.
-This is expressed in Arabic with
-[رَأَيْتَهُ]{.ar}.
-Now we add ;kaana; before it and, optionally, a [قَدْ]{.ar} as well.
-So we say:
-
-(@) [إِنْ كُنْتَ قَدْ رَأَيْتَهُ فَمَا لَكَ لَمْ تَدْعُهُ]{.ar}  
-    [If you **saw** him, then why didn't you invite him?]{.trans}
-
-By the way, we already know, that in context, the verb
-[رَأَيْتَ]{.ar} can be sufficient for the past ;tense; as well:
-
-(@) [إِنْ رَأَيْتَهُ فَمَا لَكَ لَمْ تَدْعُهُ]{.ar}  
-    [If you saw him, why didn't you invite him?]{.trans}
-
-Now, what if the ;tense; that we would like to specify in the ;shart;
-already begins with ;kaana;?
-For example, what if we would like to say
-[If you **were** going, why didn't you take him with you?]{.trans}
-The sentence in the ;shart; is
-[you were going]{.trans}.
-This is expressed in Arabic as
-[كُنْتَ تَذْهَبُ]{.ar}.
-When we put this sentence in a ;shart;
-then we don't add another ;kaana;.
-So the full ;j_sh; is:
-
-(@) [إِنْ كُنْتَ تَذْهَبُ فَمَا لَكَ لَمْ تَذْهَبْ بِهِ]{.ar}  
-    [If you were going, why didn't you take him with you?]{.trans}
-
-So you can see from examples () and () above that
-[إِنْ كُنْتَ تَذْهَبُ]{.ar}
-can mean both
-[if you are going]{.trans}
-and
-[if you were going]{.trans}.
-But both ways, the ;tense; of the ;shart; is explicitly restricted.
-
-Here are some more examples of ;shart;s with ;kaana;:
-
-(@) [قَالَ فَمَا لِي لَا أَعْتَدُّ بِهَا وَإِنْ كُنْتُ قَدْ عَجَزْتُ وَاسْتَحْمَقْتُ]{.ar}
-    [@https://hadithunlocked.com/ahmad:304@]{.citex}  
-
-(@) [قَالَ لَهَا وَإِنْ **كَانَ لَمْ يُؤْذَنْ** لِي فِي ثَقِيفٍ يَا خُوَيْلَةُ]{.ar}
-    [[@tarikh_tabari@ 3/85](https://shamela.ws/book/9783/1359) cited by @peled_cst@ 33]{.citex}  
-    [He (;pbuh;) said to her, "And if [#vaqIf]{.trn2} **has not been permitted** for me, O [#xuwaylah]{.trn2}?"]{.trans}  
-
-(@) [إِنْ **كَانَ لَا يَضُرُّكِ وَلَا يُضَيِّقُ عَلَيْكِ** فَإِنِّي أُحِبُّ أَنْ أُدْفَنَ مَعَ صَاحِبَيَّ]{.ar}
-    [@https://hadithunlocked.com/hakim:4519@]{.citex}  
-    [If it **does not harm you or make it difficult for you** then I would like that I be buried with my two companions.]{.trans}  
-
-(@) [مَنْ قَالَ أَسْتَغْفِرُ اللَّهَ الَّذِي لاَ إِلَهَ إِلاَّ هُوَ الْحَىُّ الْقَيُّومُ وَأَتُوبُ إِلَيْهِ غُفِرَ لَهُ وَإِنْ **كَانَ فَرَّ** مِنَ الزَّحْفِ]{.ar}
-    [@https://sunnah.com/abudawud:1517@]{.citex}  
-    [Whoever says, "I seek forgiveness from ;Allah;, the one whom there is no deity except He, the Ever-Living, the Self-Sustaining, and I turn to Him in repentance," he is forgiven even if he **had fled** from battle.]{.trans}
-
-(@) [إِنْ كُنْتَ تُرِيدُ أَنْ تُصِيبَ السُّنَّةَ الْيَوْمَ فَاقْصُرِ الْخُطْبَةَ وَعَجِّلِ الْوُقُوفَ]{.ar}
-    [bukhari:1663]{.citex}  
-
-The ;0case; ;mudarie; verb ;yakun; can also be used in this manner.
-Consistent with what we learned in section\ (ref) above,
-it may indicate potentiality or possibility.
-For example:
-
-(@) [فَإِن **يكن قد علا رَأْسِي** وَغَيره ... صرف الزَّمَان وتغيير من الشّعْر]{.ar}
-    [[[جمهرة الأمثال للعسكري]{.ar} 1/263](https://shamela.ws/book/6897/261)]{.citex}  
-    [So if **it be that my head has become dignified** and the elapsing of time and a changing of hair has changed it ...]{.trans}
-
-(@) [فإن تكن الدنيا بلبنى تغيرت فللدهر والدنيا بطون وأظهر]{.ar}
-    [cited by gatge dur struktur 175]{.citex}
-
-### Using ;kaana; with a ;j_ism; in a ;shart;
-
-We have learned so far
-that both the ;shart; and the ;jawab_shart; require ;j_f3l;s.
-
-But what do we do if we would like the ;shart; to be a ;j_ism;?
-For example,
-if we would like to say:
-[If you are sick, we shall go to Cairo]{.trans},
-then the condition clause
-[you are sick]{.trans}
-can be  translated as
-[أَنْتَ مَرِيضٌ]{.ar}.
-
-In order to form ;shart;
-from this ;j_ism;,
-we again transform it to a ;kaana; sentence.
-So
-[أَنْتَ مَرِيضٌ]{.ar}
-becomes
-[كُنْتَ مَرِيضًا]{.ar}.
-The verb ;kaana; becomes the ;fi3l_shart;
-and we can now
-form our ;j_sh;:
-
-(@) [إِنْ كُنْتَ مَرِيضًا سَافَرْنَا إِلَى الْقَاهِرَةِ]{.ar}
-    [@peled_cst@ 13]{.citex}  
-    [If you are sick, we shall go to Cairo.]{.trans}
-
-Here are some more examples:
-
-(@) [وَإِن **كُنتُمۡ** فِی رَیۡبࣲ مِّمَّا نَزَّلۡنَا عَلَىٰ عَبۡدِنَا فَأۡتُوا۟ بِسُورَةࣲ مِّن مِّثۡلِهِۦ وَٱدۡعُوا۟ شُهَدَاۤءَكُم مِّن دُونِ ٱللَّهِ إِن كُنتُمۡ صَـٰدِقِینَ]{.quran}
-    [@https://quran.com/2/23@]{.citex}  
-    [And if you **are** in doubt about what We have sent down [i.e., the Qur’ān] upon Our Servant [i.e., Prophet Muḥammad (ﷺ)], then produce a sūrah the like thereof and call upon your witnesses [i.e., supporters] other than Allāh, if you should be truthful.]{.trans}
-
-(@) [إِذَا كَانَ الْمَاءُ قُلَّتَيْنِ لَمْ يَحْمِلِ الْخَبَثَ]{.ar}
-    [@https://sunnah.com/nasai:52@]{.citex}  
-    [When the water is two qullahs then it will not carry filth.]{.trans}  
-
-(@) [فَإِنْ كُنْتُمْ أَكْفَاءَ قَاتَلْنَاكُمْ]{.ar}
-    [[@maghazi_waqidi@ 1/68](https://shamela.ws/book/23680/109)]{.citex}  
-    [If you are a match for us we will fight you.]{.trans}
-
-Consistent with what we stated in section\ (ref) above,
-if the ;shart;'s sentence already has [كَانَ]{.ar}
-to indicate the past tense, then another ;kaana; is not added.
-For example:
-
-<!--
-(@) [كُنْتُ آتِي النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَأَسْتَأْذِنُ فَإِنَّ **كَانَ** فِي صَلَاةٍ سَبَّحَ وَإِنْ **كَانَ** فِي غَيْرِ صَلَاةٍ أَذِنَ لِي]{.ar}
-    [@https://hadithunlocked.com/ahmad:809@]{.citex}  
-    [I used to come to the Prophet ;pbuh; and ask permission to enter. If he **was** in prayer he would say [subHana -llAh]{.trn} and if he **was** not in prayer, he would permit me.]{.trans}  
--->
-
-(@) [كَانَ يَنَامُ أَوَّلَ اللَّيْلِ ثُمَّ يَقُومُ فَإِذَا **كَانَ** مِنَ السَّحَرِ أَوْتَرَ ثُمَّ أَتَى فِرَاشَهُ فَإِذَا **كَانَ** لَهُ حَاجَةٌ أَلَمَّ بِأَهْلِهِ فَإِذَا سَمِعَ الأَذَانَ وَثَبَ فَإِنْ **كَانَ** جُنُبًا أَفَاضَ عَلَيْهِ مِنَ الْمَاءِ وَإِلاَّ تَوَضَّأَ ثُمَّ خَرَجَ إِلَى الصَّلاَةِ]{.ar}
-    [@https://sunnah.com/nasai:1680@]{.citex}  
-    [He would sleep in the first part of the night. Then he would stand (for prayer). Then when it was the last part of the night, he would pray the witr. Then he would come to his bed. Then if he had a need he would go to his wife. Then when he heard the [apAn]{.trn2}, he would get up. If we was in a state of sexual impurity he poured water over himself. And if not he would perform [wudUE]{.trn2}. Then he would go out to the prayer.]{.trans}  
-
-
-;kaana; can also, in context, be used for a ;j_ism; with a future significance.
-For example:
-
-(@) [إِنْ كَانَ لَهُ عَمَلٌ صَالِحٌ أُخِذَ مِنْهُ بِقَدْرِ مَظْلَمَتِهِ]{.ar}
-    [@https://sunnah.com/bukhari:2449@]{.citex}  
-    [If he will have good deeds, they will be taken from him according to his oppression.]{.trans}  
-
-The ;0case; ;mudarie; verb ;yakun; can again be used.
-For example:
-
-(@) [إِنْ **يَكُ** هَذَا مِنْ عِنْدِ اللَّهِ يُمْضِهِ]{.ar}
-    [@https://sunnah.com/bukhari:3895@ cited by @peled_cst@ 21]{.citex}  
-    [If this **be** from ;Allah;, He will make it happen.]{.trans}
-
-(@) [فَإِنْ **يَكُ** صَوَابًا فَمِنَ اللَّهِ وَإِنْ **يَكُنْ** خَطَأً فَمِنِّي وَمِنَ الشَّيْطَانِ وَاللَّهُ وَرَسُولُهُ بَرِيئَانِ]{.ar}
-    [@https://sunnah.com/abudawud:2116@]{.citex}  
-    [If this **be** correct then [it is] from ;Allah;, and if it **be** erroneous then [it is] from me and from Satan. And ;Allah; and His Messenger are free [from it].]{.trans}  
-
-### Using ;kaana; and a ;ism_fail; to indicate intention
-
-Remember from section\ (ref)
-that the ;ism_fail; can be used to indicate an intention to do a future action.
-For example:
-
-إِنْ كُنْتَ فَاعِلاً فَوَاحِدَةً
-
-bukhari:1207
-
-This use of the ;ism_fail; can carry over to its use in a ;shart;.
-Peled 75--76
-
 ## The ;law; ;j_sh;
-
-Versteegh, "Two conceptions of irreality"
-
----
 
 The third main ;adat_shart; used,
 after ;in; and ;idha;,
@@ -4833,7 +4629,9 @@ also condition followed by question
 
 [@mughni@ 1/20]
 
+## Whether sentences
 
+Peled
 
 ## Further reading
 
