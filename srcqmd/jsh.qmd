@@ -2184,7 +2184,7 @@ Besides those, there are others that can be
 loosely be considered ;adat_shart;s.
 Unlike
 ;0case;-izing ;adat_shart;s,
-this is a soft category.
+this is a loosely defined category.
 We will consider a word to be
 a non-;0case;-izing ;adat_shart;
 if it establishes a dependent relationship between two clauses,
@@ -4291,15 +4291,15 @@ Examples:
 
 (@) [أإن تأتني آتك]{.ar}
     [[@sibawayhi@ 3/82](https://shamela.ws/book/23018/935)]{.citex}  
-    [Should, if you come to me, I come to you?]{.trans}
+    [Is it that if you come to me, I come to you?]{.trans}
 
 (@) [أمتى تشتمني أشتمك]{.ar}
     [[@sibawayhi@ 3/82](https://shamela.ws/book/23018/935)]{.citex}  
-    [Should, when you revile me, I revile you?]{.trans}
+    [Is it that when you revile me, I revile you?]{.trans}
 
 (@) [أمن يفعل ذاك أزره]{.ar}
     [[@sibawayhi@ 3/82](https://shamela.ws/book/23018/935)]{.citex}  
-    [Whoever does that, I should visit him?]{.trans}  
+    [Is it that whoever does that, I should visit him?]{.trans}  
 
 ### The ;j_sh; within ;pregov; sentences
 
@@ -4371,7 +4371,7 @@ Examples:
 
 (@) [كان من يأته يعطه]{.ar}
     [[@sibawayhi@ 3/72](https://shamela.ws/book/23018/925)]{.citex}  
-    [He was: who will come to him, he will give him.]{.trans}  
+    [He was: who will come to him, he will give to him.]{.trans}  
 
 (@) [ليس من يأته يحببه]{.ar}
     [[@sibawayhi@ 3/72](https://shamela.ws/book/23018/925)]{.citex}  
@@ -4391,10 +4391,108 @@ For example:
     (;inna; has a ;mahzoof; ;damir_shan; thus: [إِنَّهُ]{.ar}.)
 
 (@) [قد علمت أن من يأتني آته]{.ar}
-    [[@sibawayhi@ 3/73](https://shamela.ws/book/23018/926)]{.citex}  
+    [@https://quran.com/20/74@ cited by [@sibawayhi@ 3/73](https://shamela.ws/book/23018/926)]{.citex}  
     [You have known that [the state-of-affairs] is: whoever comes to me, I come to him.]{.trans}  
     (;anna; has a ;mahzoof; ;damir_shan; thus: [أَنَّهُ]{.ar}.)
 
+### The ;j_sh; after non-;pregov; introductory devices
+
+There are words that introduce sentences,
+but don't govern an ;ism_of; and ;xabar; directly.
+For example:
+;idh; [when]{.trans},
+;ammaa; [as for]{.trans},
+;idha; [when]{.trans},
+;lakin; [but]{.trans},
+;la; [not]{.trans},
+;maa; [not]{.trans}.
+
+#### ;idh;, ;ammaa;, and ;maa; {.unnumbered}
+
+For most such introductory devices
+will again be followed by ;ism_mawsul;s,
+and not, typically, ;adat_shart;s.
+Examples:
+
+(@) [أتذكر إذ من يأتينا نأتيه]{.ar}  
+    [[@sibawayhi@ 3/75](https://shamela.ws/book/23018/928)]{.citex}  
+    [Do you remember when who [was] coming to us, we [were] coming to him?]{.trans}
+
+(@) [ما من يأتينا نأتيه]{.ar}  
+    [[@sibawayhi@ 3/75](https://shamela.ws/book/23018/928)]{.citex}  
+    [It is not that who comes to us, we come to him.]{.trans}
+
+(@) [أما من يأتينا فنحن نأتيه]{.ar}  
+    [[@sibawayhi@ 3/75](https://shamela.ws/book/23018/928)]{.citex}  
+    [As for who comes to us, then we come to him.]{.trans}
+
+Note that again
+[يَأْتِينِي]{.ar}
+and
+[آتِيهِ]{.ar}
+are in the ;ucase;.
+And again,
+the ;adat_shart;
+;in; would typically not follow these introductory devices.
+
+Having said that,
+by poetic license,
+we can find a ;j_sh; after these introductory devices.
+In that case, sentences like the following examples would be pemissible:
+
+(@) [أتذكر إذ من يأتنا نأته]{.ar}
+    [[@sibawayhi@ 3/75](https://shamela.ws/book/23018/928)]{.citex}  
+    [Do you remember when: whoever would come to us, we would come to him?]{.trans}
+
+(@) [أتذكر إذ إن تأتنا نأتك]{.ar}
+    [[@sibawayhi@ 3/76](https://shamela.ws/book/23018/929)]{.citex}  
+    [Do you remember when: if you would come to us, we would come to you?]{.trans}
+
+When ;idh; is separated from the ;j_sh; by a noun,
+then there is no problem in having the ;j_sh;.
+For example:
+
+(@) [أتذكر إذ **نحن** من يأتنا نأته]{.ar}
+    [[@sibawayhi@ 3/76](https://shamela.ws/book/23018/929)]{.citex}  
+    [Do you remember when **we**: whoever would come to us, we would come to him?]{.trans}
+
+#### ;idha_fj; {.unnumbered}
+
+The same goes for the ;idha_fj;.
+For example:
+
+(@) [مررت به فإذا من يأتيه يعطيه]{.ar}
+    [[@sibawayhi@ 3/76](https://shamela.ws/book/23018/929)]{.citex}  
+    [I passed by him, then, suddenly, whoever [was] coming to him, he [was] giving him.]{.trans}  
+
+A ;j_sh; can also be used, if we there is a noun after ;idha;:
+
+(@) [مررت به فإذا هو من يأتيه يعطيه]{.ar}
+    [modified from [@sibawayhi@ 3/76](https://shamela.ws/book/23018/929)]{.citex}  
+    [I passed by him, then, suddenly, he: whoever would come to him, he would give to him.]{.trans}  
+    (The [هو]{.ar} may be optionally ;mahzoof;, so we can also say: [فإذا من يأتيه يعطيه]{.ar}.)
+
+#### ;lakin; {.unnumbered}
+
+;lakin; is similar to ;idha;,
+so we can say
+(with a deleted pronoun after ;lakin;):
+
+(@) [ما أنا ببخيلٍ ولكن إن تأتني أعطك]{.ar}
+    [[@sibawayhi@ 3/77](https://shamela.ws/book/23018/930)]{.citex}  
+    [I am not a miser. Rather if you come to me, I will give to you.]{.trans}  
+    (There is a ;mahzoof; pronoun after ;lakin;.)
+
+#### ;laa; {.unnumbered}
+
+;laa; is different from the other introductory devices above.
+A ;j_sh; may freely occur after it.
+For example:
+
+(@) [لا من يأتك تعطه]{.ar}
+    [modified from [@sibawayhi@ 3/76](https://shamela.ws/book/23018/929)]{.citex}  
+    [It is not that whoever will come to you, you will give to him.]{.trans}
+    
 
 ## The ;shart; combined with an ;qasam;
 
