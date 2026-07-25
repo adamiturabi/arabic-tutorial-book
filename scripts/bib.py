@@ -1277,7 +1277,15 @@ def populate_resource_list():
     , cit_type = "ws_ref"
     , cit_text = 'Peled, _Sentence types_'
     , bib_text = 'Peled,\\ Y., _Sentence types and word-order patterns in written Arabic: Medieval and modern perspectives_, Brill, 2008. <https://doi.org/10.1163/ej.9789004170629.i-250>'
-    , sort_key = 'Peled Y Sentence types and word order patterns in written Arabic'
+    , sort_key = 'Peled 2008 Sentence types and word order patterns in written Arabic'
+    ))
+
+  resource_list.append(BibResource(
+    "peled_fa"
+    , cit_type = "ws_ref"
+    , cit_text = 'Peled, On the obligatoriness of _fa-_ in Classical Arabic _ʾin_ conditional sentences'
+    , bib_text = 'Peled,\\ Y., "On the obligatoriness of _fa-_ in Classical Arabic _ʾin_ conditional sentences", _Journal of Semitic Studies_, Volume XXX, Issue 2, Autumn 1985, Pages 213–225. <https://doi.org/10.1093/jss/XXX.2.213>'
+    , sort_key = 'Peled 1985'
     ))
 
   resource_list.append(BibResource(
@@ -1432,7 +1440,7 @@ def populate_resource_list():
     , cit_type = "ws_ref"
     , cit_text = 'Peled, _Conditional structures in Classical Arabic_'
     , bib_text = 'Peled, Y., _Conditional structures in Classical Arabic_, Otto Harrassowitz, 1992.'
-    , sort_key = "peled conditional structures"
+    , sort_key = "peled 1992 conditional structures"
     ))
   resource_list.append(BibResource(
     "reckendorf_1921"
