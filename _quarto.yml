@@ -62,7 +62,7 @@ book:
       - content/haal.qmd
       - content/ism_mawsuul.qmd
       - content/istifhaam.qmd
-      #- content/jumlah_shartiyyah.qmd
+      - content/jsh.qmd
     - part: "Backmatter"
       chapters:
       - content/gloss_terms.qmd
