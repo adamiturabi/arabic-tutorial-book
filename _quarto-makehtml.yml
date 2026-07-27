@@ -30,6 +30,7 @@ format:
     css: srchtml/styles.css
     include-before-body: srchtml/watermark.html
     linkcolor: "hsl(210,10.3448275862%,47.7450980392%)" # obtained by inspecting webpage
+    toc-title: "Chapter contents"
 
 tikz:
   template: srctex/tikz-template-html.tex

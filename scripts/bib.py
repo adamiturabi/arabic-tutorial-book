@@ -324,6 +324,14 @@ def populate_resource_list():
     , bib_text = "إعراب القرآن للدعاس، " + format_url_ar("https://tafsir.app")
     , sort_key = "اعراب القران للدعاس"
     ))
+  resource_list.append(BibResource(
+    "aljadwal"
+    , cit_type = "ar_ref"
+    , cit_text = "[الجدول في إعراب القرآن لمحمود صافي]{.ar}"
+    , bib_text = "الجدول في إعراب القرآن لمحمود صافي، " + format_url_ar("https://tafsir.app")
+    , sort_key = "جدول في اعراب القران لمحمود صافي"
+    ))
+
 
 
   # General
@@ -627,9 +635,9 @@ def populate_resource_list():
     , sort_key = "اشباه والنظاير للسيوطي"
     ))
   resource_list.append(BibResource(
-    "suyooti_hama3"
+    "hama3"
     , cit_type = "ar_ref"
-    , cit_text = "[الهمع للسيوطي]{.ar}"
+    , cit_text = "[همع الهوامع للسيوطي]{.ar}"
     , bib_text = """
       الكتاب: همع الهوامع في شرح جمع الجوامع  
       المؤلف: عبد الرحمن بن أبي بكر، جلال الدين السيوطي (ت ٩١١هـ)  
@@ -789,6 +797,46 @@ def populate_resource_list():
       """ + format_url_ar("https://shamela.ws/book/6970")
     , sort_key = "شرح قطر الندى وبل الصدى"
     ))
+  #resource_list.append(BibResource(
+  #  "hama3"
+  #  , cit_type = "ar_ref"
+  #  , cit_text = "[الهمع للسيوطي]{.ar}"
+  #  , bib_text = """
+  #    الكتاب: همع الهوامع في شرح جمع الجوامع  
+  #    المؤلف: عبد الرحمن بن أبي بكر، جلال الدين السيوطي (ت ٩١١هـ)  
+  #    المحقق: عبد الحميد هنداوي  
+  #    الناشر: المكتبة التوفيقية - مصر  
+  #    عدد الأجزاء: ٣  
+  #    """ + format_url_ar("https://shamela.ws/book/1146")
+  #  , sort_key = "همع"
+  #  ))
+  resource_list.append(BibResource(
+    "nazir_jaish"
+    , cit_type = "ar_ref"
+    , cit_text = "[تمهيد القواعد بشرح تسهيل الفوائد لناظر الجيش]{.ar}"
+    , bib_text = """
+      الكتاب: شرح التسهيل المسمى «تمهيد القواعد بشرح تسهيل الفوائد»  
+      المؤلف: محمد بن يوسف بن أحمد، محب الدين الحلبي ثم المصري، المعروف بناظر الجيش (ت ٧٧٨ هـ)  
+      دراسة وتحقيق: أ. د. علي محمد فاخر وآخرون  
+      الناشر: دار السلام للطباعة والنشر والتوزيع والترجمة، القاهرة - جمهورية مصر العربية  
+      الطبعة: الأولى، ١٤٢٨ هـ  
+      عدد الأجزاء: ١١ (متسلسلة الترقيم) (١٠ ومجلد للفهارس)  
+      """ + format_url_ar("https://shamela.ws/book/16826")
+    , sort_key = "تمهيد القواعد بشرح تسهيل"
+    ))
+  resource_list.append(BibResource(
+    "mughni"
+    , cit_type = "ar_ref"
+    , cit_text = "[مغني اللبيب لابن هشام]{.ar}"
+    , bib_text = """
+      الكتاب: مغنى اللبيب عن كتب الأعاريب  
+      المؤلف: عبد الله بن يوسف بن أحمد بن عبد الله ابن يوسف، أبو محمد، جمال الدين، ابن هشام (المتوفى: 761 هـ)  
+      المحقق: محمّد محيى الدين عبد الحميد  
+      الناشر: منشورات مكتبة الصادق للمطبوعات  
+      عدد الأجزاء: ٢  
+      """ + format_url_ar("https://ketabonline.com/ar/books/57084")
+    , sort_key = "مغني"
+    ))
   resource_list.append(BibResource(
     "ibn_malik_sharh_alkafiya"
     , cit_type = "ar_ref"
@@ -817,6 +865,20 @@ def populate_resource_list():
       عدد الأجزاء: ٢  
       """ + format_url_ar("https://shamela.ws/book/17819")
     , sort_key = "مذكر والمونث لابن الانباري"
+    ))
+  resource_list.append(BibResource(
+    "seerah_ibn_hisham"
+    , cit_type = "corpus"
+    , cit_text = "[سيرة ابن هشام]{.ar}"
+    , bib_text = """
+      الكتاب: السيرة النبوية لابن هشام  
+      المؤلف: عبد الملك بن هشام بن أيوب الحميري المعافري، أبو محمد، جمال الدين (ت ٢١٣ هـ)  
+      تحقيق: مصطفى السقا [ت ١٣٨٩ هـ]- إبراهيم الأبياري [ت ١٤١٤ هـ]- عبد الحفيظ شلبي  
+      الناشر: شركة مكتبة ومطبعة مصطفى البابي الحلبي وأولاده بمصر  
+      الطبعة: الثانية، ١٣٧٥ هـ - ١٩٥٥ م  
+      عدد الأجزاء: ٢  
+      """ + format_url_ar("https://shamela.ws/book/23833")
+    , sort_key = "سيرة ابن هشام"
     ))
   resource_list.append(BibResource(
     "maghazi_waqidi"
@@ -1043,7 +1105,7 @@ def populate_resource_list():
     , sort_key = "ايضاح في علوم البلاغة للقزويني"
     ))
   resource_list.append(BibResource(
-    "3aarif_aldin_temporal"
+    "3aarif_zaman"
     , cit_type = "ar_ref"
     , cit_text = "[التأويل الزمني للجملة الشرطية في اللغة العربية لعارف الدين]{.ar}"
     , bib_text = """
@@ -1094,7 +1156,41 @@ def populate_resource_list():
       """ + format_url_ar("https://archive.org/details/0_20240122_20240122_1346/page/n1/mode/2up")
     , sort_key = "عرنجية"
     ))
-
+  resource_list.append(BibResource(
+    "iqtiran"
+    , cit_type = "ar_ref"
+    , cit_text = "[اقتران الفاء في جواب الشرط وعدمها في التعبير القراني]{.ar}"
+    , bib_text = """
+المقالة: اقتران الفاء في جواب الشرط وعدمها في التعبير القراني
+المؤلفان: عناد مخلف مهبش الهيتي، قصي جدوع رضا الهيتي
+      """ + format_url_ar("https://www.researchgate.net/publication/333642765_aqtran_alfa_fy_jwab_alshrt_wdmha_fy_altbyr_alqrany")
+    , sort_key = "قتران"
+    ))
+  resource_list.append(BibResource(
+    "varahim_mu3jam"
+    , cit_type = "ar_ref"
+    , cit_text = "[معجم المسائل النحوية والصرفية الواردة في القرآن الكريم]{.ar}"
+    , bib_text = """
+      الكتاب: معجم المسائل النحوية والصرفية الواردة في القرآن الكريم  
+      المؤلف: الدكتور ف. عبد الرحيم [فانيامبادي عبد الرحيم]  
+      الناشر: مجمع الملك فهد لطباعة المصحف الشريف بالمدينة المنورة  
+      الطبعة: الأولى  
+      عدد الصفحات: ٣٥  
+      """ + format_url_ar("https://shamela.ws/book/11928")
+    , sort_key = "ف عبد الرجيم معجم المسايل"
+    ))
+  resource_list.append(BibResource(
+    "shamsan_jsh"
+    , cit_type = "ar_ref"
+    , cit_text = "[الجملة الشرطية عند النحاة العرب للشمسان]{.ar}"
+    , bib_text = """
+      الكتاب: الجملة الشرطية عند النحاة العرب  
+      المؤلف: أَبو أوس إبراهيم الشمسان  
+      الناشر: مطابع الدجوى عابدين  
+      الطبعة: الأولى، ١٤٠١ هـ - ١٩٨١ م    
+      """ + format_url_ar("https://archive.org/details/aljomla-ashrtia.g")
+    , sort_key = "جملة الشرطية عند"
+    ))
 
   # Western
 
@@ -1181,7 +1277,15 @@ def populate_resource_list():
     , cit_type = "ws_ref"
     , cit_text = 'Peled, _Sentence types_'
     , bib_text = 'Peled,\\ Y., _Sentence types and word-order patterns in written Arabic: Medieval and modern perspectives_, Brill, 2008. <https://doi.org/10.1163/ej.9789004170629.i-250>'
-    , sort_key = 'Peled Y Sentence types and word order patterns in written Arabic'
+    , sort_key = 'Peled 2008 Sentence types and word order patterns in written Arabic'
+    ))
+
+  resource_list.append(BibResource(
+    "peled_fa"
+    , cit_type = "ws_ref"
+    , cit_text = 'Peled, On the obligatoriness of _fa-_ in Classical Arabic _ʾin_ conditional sentences'
+    , bib_text = 'Peled,\\ Y., "On the obligatoriness of _fa-_ in Classical Arabic _ʾin_ conditional sentences", _Journal of Semitic Studies_, Volume XXX, Issue 2, Autumn 1985, Pages 213–225. <https://doi.org/10.1093/jss/XXX.2.213>'
+    , sort_key = 'Peled 1985'
     ))
 
   resource_list.append(BibResource(
@@ -1311,11 +1415,18 @@ def populate_resource_list():
     , sort_key = "carter arabic grammar"
     ))
   resource_list.append(BibResource(
+    "versteegh_irreal"
+    , cit_type = "ws_ref"
+    , cit_text = 'Versteegh, "Two conceptions of irreality in Arabic grammar: Ibn Hišām and Ibn al-Hāğib on the particle _law_"'
+    , bib_text = """Versteegh, K., "Two conceptions of irreality in Arabic grammar: Ibn Hišām and Ibn al-Hāğib on the particle _law_," _Bulletin d’études Orientales_, vol.\\ 43, 1991, pp.\\ 77--92. <http://www.jstor.org/stable/41608970>"""
+    , sort_key = "versteegh 1991"
+    ))
+  resource_list.append(BibResource(
     "versteegh_taqdir"
     , cit_type = "ws_ref"
     , cit_text = 'Versteegh, "The notion of underlying levels"'
     , bib_text = """Versteegh, K., "The notion of 'underlying levels' in the Arabic grammatical tradition." In _Historiographia Linguistica_ 21, 1994, p. 271‒296. """
-    , sort_key = "versteegh notion of underlying levels"
+    , sort_key = "versteegh 1994"
     ))
   resource_list.append(BibResource(
     "levin_taqdir"
@@ -1329,7 +1440,7 @@ def populate_resource_list():
     , cit_type = "ws_ref"
     , cit_text = 'Peled, _Conditional structures in Classical Arabic_'
     , bib_text = 'Peled, Y., _Conditional structures in Classical Arabic_, Otto Harrassowitz, 1992.'
-    , sort_key = "peled conditional structures"
+    , sort_key = "peled 1992 conditional structures"
     ))
   resource_list.append(BibResource(
     "reckendorf_1921"
@@ -1376,9 +1487,16 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "putten_fasih"
     , cit_type = "ws_ref"
-    , cit_text = 'van Putten, "When did faṣīḥ become qabīḥ?"'
+    , cit_text = 'van Putten, "When did faṣīḥ become qabīḥ? Rehabilitating classical phonological and morphological features"'
     , bib_text = 'van Putten, M., "When did faṣīḥ become qabīḥ? Rehabilitating classical phonological and morphological features", _Journal of Semitic Studies_, Volume\\ 71, Issue\\ 1, Spring 2026, pp.\\ 201–242, <https://doi.org/10.1093/jss/fgaf033>'
     , sort_key = "putten 2026"
+    ))
+  resource_list.append(BibResource(
+    "saad_cond"
+    , cit_type = "ws_ref"
+    , cit_text = 'Al-Saad, _Conditional structure in Classical Arabic_'
+    , bib_text = 'Al-Saad, S., _Conditional structure in Classical Arabic: A general descriptive study_, PhD thesis, SOAS University of London, 2010. <https://doi.org/10.25501/SOAS.00028736>'
+    , sort_key = "saad conditional"
     ))
   resource_list.append(BibResource(
     "wilmsen_croft"
