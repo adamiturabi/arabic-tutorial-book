@@ -79,6 +79,7 @@ map_table["la_in"] = "[لَئِنْ]{.ar}"
 map_table["man"] = "[مَنْ]{.ar}"
 map_table["maa"] = "[مَا]{.ar}"
 map_table["fa"] = "[فَ]{.ar}"
+map_table["wa"] = "[وَ]{.ar}"
 map_table["qad"] = "[قَدْ]{.ar}"
 map_table["thamma"] = "[ثَمَّ]{.ar}"
 map_table["mahmaa"]      = "[مَهْمَا]{.ar}"
@@ -220,6 +221,7 @@ map_table["fi3l_amr"] = "verb of command"
 map_table["fi3l_muakkad"] = "emphatic verb"
 
 map_table["hal"] = "[HAl]{.trn2}"
+map_table["waw_hal"] = "[و]{.ar} of " + map_table["hal"]
 
 map_table["i3timaad"] = "governing support"
 map_table["idaafah"] = "annexation"

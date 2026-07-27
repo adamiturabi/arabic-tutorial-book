@@ -4909,23 +4909,69 @@ And that is why its verb is in the ;ucase;.
 
 The ;fi3l_shart; or ;fi3l_jawab_shart; may be followed by a ;j_f3l;
 which is an ;badal; to it.
-For example:
+Examples:
 
 (@) [إِنْ تَأْتِنَا تَسْأَلْنَا نُعْطِكَ]{.ar}
     [[@sibawayhi@ 3/87](https://shamela.ws/book/23018/940) cited by [@shamsan_jsh@ 396](https://archive.org/details/aljomla-ashrtia.g/page/n397/mode/2up)]{.citex}  
     [If you come to us, you ask us, we will give to you.]{.trans}  
+    [تَسْأَلْنَا]{.ar} is a ;badal; of [تَأْتِنَا]{.ar}.
 
-Here is another example:
+(@) [إِنْ تَأْتِنَا نُحْسِنْ إِلَيْكَ نُعْطِكَ وَنَحْمِيكَ]{.ar}
+    [[@sibawayhi@ 3/87](https://shamela.ws/book/23018/940)]{.citex}  
+    [If you come to use, we will be good to you, we will give to you and we will protect you.]{.trans}  
+    [نُعْطِكَ]{.ar} is a ;badal; of [نُحْسِنْ إِلَيْكَ]{.ar}.
 
 (@) [وَمَن **یَفۡعَلۡ** ذَ ٰ⁠لِكَ یَلۡقَ أَثَامࣰا۝ **یُضَـٰعَفۡ** لَهُ ٱلۡعَذَابُ یَوۡمَ ٱلۡقِیَـٰمَةِ وَیَخۡلُدۡ فِیهِۦ مُهَانًا]{.quran}
     [@https://quran.com/25/68-69@ cited by [@sibawayhi@ 3/87](https://shamela.ws/book/23018/940)]{.citex}  
     [And whoever should do that will meet a penalty. Multiplied for him is the punishment on the Day of Resurrection, and he will abide therein humiliated]{.trans}  
-
-[يُضَاعَفْ]{.ar},
-in the ;0case;,
-is analyzed as a ;badal; of [يَلْقَ]{.ar}.^[@https://tafsir.app/aljadwal/25/69@]
+    [يُضَاعَفْ]{.ar},
+    in the ;0case;,
+    is analyzed as a ;badal; of [يَلْقَ]{.ar}.^[@https://tafsir.app/aljadwal/25/69@]
 
 ### A ;fi3l_shart; followed by a ;3atf;
+
+If the ;fi3l_shart; is followed by a ;3atf;
+and then the second verb,
+then the second is, by default, in the ;0case; to match the ;fi3l_shart;.
+Examples:
+
+(@) [إِنْ تَأْتِنِي **ثُمََّ تَسْأَلْنِي** أُعْطِكَ]{.ar}
+    [[@sibawayhi@ 3/87](https://shamela.ws/book/23018/940)]{.citex}  
+    [If you come to me, then you ask me, I will give to you.]{.trans}  
+
+(@) [إِنْ تَأْتِنِي **فَتَسْأَلْنِي** أُعْطِكَ]{.ar}
+    [[@sibawayhi@ 3/87](https://shamela.ws/book/23018/940)]{.citex}  
+    [If you come to me, then you ask me, I will give to you.]{.trans}  
+
+(@) [إِنْ تَأْتِنِي **وَتَسْأَلْنِي** أُعْطِكَ]{.ar}
+    [[@sibawayhi@ 3/87](https://shamela.ws/book/23018/940)]{.citex}  
+    [If you come to me, and you ask me, I will give to you.]{.trans}  
+
+According to one view,^[[@muqtadab@ 2/66](https://shamela.ws/book/6965/335) cited by [@shamsan_jsh@](https://archive.org/details/aljomla-ashrtia.g/page/n405/mode/2up)]
+the ;ucase; is also permissible for the second verb
+when the ;3atf; is with ;wa;.
+And this is because
+its ;j_f3l; is considered a ;hal; with a preceding ;waw_hal;
+and a following detached pronoun is ;mahzoof;.
+For example:
+
+(@) [إِنْ تَأْتِنَا **وَتَسْأَلُنَا** نُعْطِكَ]{.ar}
+    [[@muqtadab@ 2/66](https://shamela.ws/book/6965/335) cited by [@shamsan_jsh@](https://archive.org/details/aljomla-ashrtia.g/page/n405/mode/2up)]{.citex}  
+    [If you come to us, while you are asking us, I will give to you.]{.trans}  
+    The ;taqdir; is [إِنْ تَأْتِنَا **وَ[أَنْتَ]** تَسْأَلُنَا نُعْطِكَ]{.ar}.
+
+When the ;3atf; is with ;wa; or ;fa;,
+then the 
+;acase; is also permissible for the second verb.
+Examples:
+
+(@) [إِنْ تَأْتِنِي **فَتُحَدِّثَنِي** أُحَدِّثْكَ]{.ar}
+    [[@sibawayhi@ 3/88](https://shamela.ws/book/23018/941)]{.citex}  
+    [If you come to me, then you talk to me, I will talk to you.]{.trans}  
+
+(@) [إِنْ تَأْتِنِي **وَتُحَدِّثَنِي** أُحَدِّثْكَ]{.ar}
+    [[@sibawayhi@ 3/88](https://shamela.ws/book/23018/941)]{.citex}  
+    [If you come to me, and you talk to me, I will talk to you.]{.trans}  
 
 ## ;3atf; in the ;shart; or the ;jawab_shart;
 
