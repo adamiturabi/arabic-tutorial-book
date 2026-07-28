@@ -85,10 +85,12 @@ We will study them in the following sections.
 
 ## The ;in; ;j_sh;
 
-;in; is considered the most basic of all the ;adat_shart;s.^[sibawayhi; [@ibn_ya3ish_mufassal@ 5/106](https://shamela.ws/book/13301/2044)]
+;in; is considered the most basic of all the ;adat_shart;s.^[[@sibawayhi@ 3/63](https://shamela.ws/book/23018/916); [@ibn_ya3ish_mufassal@ 5/106](https://shamela.ws/book/13301/2044)]
+<!--
 It forms the basic ;j_sh;.
 #;j_sh;s that employ other ;adat_shart;s are based on
 the ;j_sh; with ;in;.
+-->
 
 There are a few different types of ;j_sh; that can be formed with ;in;.
 We will discuss them below:
@@ -102,20 +104,39 @@ model of
 
 ### The ;arch; ;in; ;j_sh;
 
-The ;arch; or most basic ;in; ;j_sh;
+Here is an example of an ;arch;,
+or most basic, 
+;j_sh;:
+
+(@) [إِنْ يَأْتِ زَيْدٌ يُكْرِمْهُ عَمْرٌو]{.ar}  
+    [If Zayd will come, ;3amr; will honor him.]{.trans}  
+
+The ;arch;, 
+;in; ;j_sh;
 uses
 ;0case; ;mudarie; verbs in both the ;shart; and the ;jawab_shart;.
 This ;j_sh; consists of two parts:
 
-1. a ;shart;, consisting of:
-    i. the ;adat_shart; ;in;, and 
-   ii. the ;shart_int;, which is a ;j_f3l; containing:
-       * a ;0case; ;mudarie; verb (the *;fi3l_shart;*) and
+1. a ;shart;, ([إِنْ يَأْتِ زَيْدٌ]{.ar})  
+   consisting of:
+    i. the ;adat_shart; (;in;), and 
+   ii. the ;shart_int;
+       ([يَأْتِ زَيْدٌ]{.ar}),
+       which is a ;j_f3l; containing:
+       * a ;0case; ;mudarie; verb known as the *;fi3l_shart;*
+         ([يَأْتِ]{.ar})
        * its ;faa3il;
-2. a ;jawab_shart;, consisting of:
-   i. the ;jawab_shart_int;, which is a ;j_f3l; containing:
-      * a ;0case; ;mudarie; verb (the *;fi3l_jawab_shart;*) and
+         ([زَيْدٌ]{.ar})
+2. a ;jawab_shart;,
+   ([يُكْرِمْهُ عَمْرٌو]{.ar})
+   consisting of:
+   i. the ;jawab_shart_int;
+      ([يُكْرِمْهُ عَمْرٌو]{.ar}),
+      which is a ;j_f3l; containing:
+      * a ;0case; ;mudarie; verb known as the *;fi3l_jawab_shart;*
+        ([يُكْرِمْ]{.ar})
       * its ;faa3il;
+        ([عَمْرٌو]{.ar})
 
    There is no ;jawab_shart_intro; in the ;arch; ;in; ;j_sh;.
 
@@ -124,10 +145,12 @@ In this ;arch; form of the ;j_sh;,
 -->
 The conditional particle ;in; directly
 governs the ;fi3l_shart; and the ;fi3l_jawab_shart; in the ;0case;.^[@peled_cst@ 3-4 citing @sibawayhi@]
+<!--
 Here is an example of an ;arch; ;j_sh;
 
 (@) [إِنْ يَأْتِ زَيْدٌ يُكْرِمْهُ عَمْرٌو]{.ar}  
     [If Zayd would come, ;3amr; would honor him.]{.trans}  
+-->
 
 <!--
 In example () above,
@@ -137,6 +160,7 @@ In example () above,
 iii. the ;jawab_shart; is [آتِكَ]{.ar}.
 -->
 
+<!--
 The conditional particle ;in; directly governs both
 the ;fi3l_shart;
 [يَأْتِ]{.ar}
@@ -144,6 +168,7 @@ and the ;fi3l_jawab_shart;
 [يُكْرِمْ]{.ar}
 (directly)
 in the ;0case;.
+-->
 @fig-shartintatiniaatika depicts this government for example () above.
 
 ::: {#fig-shartintatiniaatika .test-class}
@@ -190,7 +215,7 @@ in the ;0case;.
 \draw[->,decorate] ([xshift=3pt] word-5.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=-4pt] word-2.north east);
 \draw[->,decorate] ([xshift=-4pt] word-4.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize u} (word-3.north);
 \draw[->,decorate] ([xshift=5pt] word-2.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize u} ([xshift=0pt] word-1.north);
-\draw[->,decorate] ([xshift=3pt]word-2.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=-9pt] word-2.north);
+%\draw[->,decorate] ([xshift=3pt]word-2.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=-9pt] word-2.north);
 
 \end{tikzpicture}
 
