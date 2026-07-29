@@ -4,23 +4,11 @@
 
 ## Introduction
 
-A ;j_sh; is a special sentence, which consists of two parts:
-
-1. A _;shart;_. The ;shart; itself consists of two parts:
-
-    i. The *;adat_shart;*
-   ii. The *;shart_int;*
-
-2. A _;jawab_shart;_. The ;jawab_shart; can also consist of two parts:
-
-    i. The *;jawab_shart_intro;*. This may be null for some ;j_sh;s.
-   ii. The *;jawab_shart_int;*
-
 Here is an example of a ;j_sh; in English:
 
 (@) [If you come to me, then I will honor you.]{.trans}
 
-@fig-cst_eng_ex1 shows the two parts of ;j_sh;.
+@fig-cst_eng_ex1 shows its parts.
 
 ::: {#fig-cst_eng_ex1 .test-class}
 
@@ -65,68 +53,44 @@ Here is an example of a ;j_sh; in English:
 The parts of a ;j_sh;.
 :::
 
-<!--
-A ;j_sh; is introduced by a ;adat_shart;, like "[if]{.trans}" in the example above.
-Another common ;adat_shart; is "[when]{.trans}".
-For example:
--->
-<!--
-Here is another example of a ;j_sh;:
+As you can see,
+a ;j_sh; is a special sentence, which consists of two parts:
 
-(@) [When the sun rises, the day begins.]{.trans}
+1. A _;shart;_ ([If you come to me]{.trans})
+   The ;shart; itself consists of two parts:
 
-Typically,
-the statement in ;jawab_shart;
-is caused by the realization of the statement in the ;shart;.
-So, in example () above,
-my honoring you is caused by,
-and dependent on,
-your honoring me.
-And in example (), the day's beginning is caused by the rising of the sun.
+    i. The *;adat_shart;*: ([if]{.trans})
+   ii. The *;shart_int;*: ([you come to me]{.trans})
 
-However, the statement in the ;jawab_shart; need not always be caused by the condition.^[[@nahw_wafi@ 4/422 footnote 1](https://shamela.ws/book/10641/2354)]
-Sometimes the ;jawab_shart; 
-is only a reply, assessment, or confirmation of the assumption made in the ;shart;.^[@fischer@ 229]
-For example:
+2. A _;jawab_shart;_. ([then I will come to you]{.trans})
+   The ;jawab_shart; can also consist of two parts:
 
-(@) [If this is so, well, such and such is the case.]{.trans}
-    [@fischer@ 229]{.citex}  
+    i. The *;jawab_shart_intro;*: ([then]{.trans}). This may be null for some ;j_sh;s.
+   ii. The *;jawab_shart_int;*: ([I will honor you]{.trans})
 
-(@) [If you honor me, then I already honored you yesterday.]{.trans}
-
-In example (), the ;jawab_shart;
-[then I already honored you yesterday]{.trans}
-is not caused by the realization of the condition
-[if you honor me]{.trans}.
-Rather it is only a response that completes the sentence.
--->
-
-#;j_sh;s in Arabic are introduced by _;adat_shart;s_.
+There are many
+_;adat_shart;s_
+in Arabic.
 Some common
-;adat_shart;s
+ones
 are:
 
 * ;in; [if]{.trans}
-* ;law; [if]{.trans}
 * ;idha; [when]{.trans}
+* ;law; [if]{.trans}
 * ;man; [who(ever)]{.trans}
 * ;maa; [what(ever)]{.trans}
 
 We will study them in the following sections.
-<!--
-Amongst these ;adat_shart;s,
-;in; is considered the most basic ;adat_shart;.^[[@ibn_ya3ish_mufassal@ 5/106](https://shamela.ws/book/13301/2044)]
-We will study 
-it
-first.
--->
 
 ## The ;in; ;j_sh;
 
-;in; is considered the most basic of all the ;adat_shart;s.^[sibawayhi; [@ibn_ya3ish_mufassal@ 5/106](https://shamela.ws/book/13301/2044)]
+;in; is considered the most basic of all the ;adat_shart;s.^[[@sibawayhi@ 3/63](https://shamela.ws/book/23018/916); [@ibn_ya3ish_mufassal@ 5/106](https://shamela.ws/book/13301/2044)]
+<!--
 It forms the basic ;j_sh;.
 #;j_sh;s that employ other ;adat_shart;s are based on
 the ;j_sh; with ;in;.
+-->
 
 There are a few different types of ;j_sh; that can be formed with ;in;.
 We will discuss them below:
@@ -140,20 +104,39 @@ model of
 
 ### The ;arch; ;in; ;j_sh;
 
-The ;arch; or most basic ;in; ;j_sh;
+Here is an example of an ;arch;,
+or most basic, 
+;j_sh;:
+
+(@) [إِنْ يَأْتِ زَيْدٌ يُكْرِمْهُ عَمْرٌو]{.ar}  
+    [If Zayd will come, ;3amr; will honor him.]{.trans}  
+
+The ;arch;, 
+;in; ;j_sh;
 uses
 ;0case; ;mudarie; verbs in both the ;shart; and the ;jawab_shart;.
 This ;j_sh; consists of two parts:
 
-1. a ;shart;, consisting of:
-    i. the ;adat_shart; ;in;, and 
-   ii. the ;shart_int;, which is a ;j_f3l; containing:
-       * a ;0case; ;mudarie; verb (the *;fi3l_shart;*) and
+1. a ;shart;, ([إِنْ يَأْتِ زَيْدٌ]{.ar})  
+   consisting of:
+    i. the ;adat_shart; (;in;), and 
+   ii. the ;shart_int;
+       ([يَأْتِ زَيْدٌ]{.ar}),
+       which is a ;j_f3l; containing:
+       * a ;0case; ;mudarie; verb known as the *;fi3l_shart;*
+         ([يَأْتِ]{.ar})
        * its ;faa3il;
-2. a ;jawab_shart;, consisting of:
-   i. the ;jawab_shart_int;, which is a ;j_f3l; containing:
-      * a ;0case; ;mudarie; verb (the *;fi3l_jawab_shart;*) and
+         ([زَيْدٌ]{.ar})
+2. a ;jawab_shart;,
+   ([يُكْرِمْهُ عَمْرٌو]{.ar})
+   consisting of:
+   i. the ;jawab_shart_int;
+      ([يُكْرِمْهُ عَمْرٌو]{.ar}),
+      which is a ;j_f3l; containing:
+      * a ;0case; ;mudarie; verb known as the *;fi3l_jawab_shart;*
+        ([يُكْرِمْ]{.ar})
       * its ;faa3il;
+        ([عَمْرٌو]{.ar})
 
    There is no ;jawab_shart_intro; in the ;arch; ;in; ;j_sh;.
 
@@ -161,11 +144,13 @@ This ;j_sh; consists of two parts:
 In this ;arch; form of the ;j_sh;,
 -->
 The conditional particle ;in; directly
-governs the ;fi3l_shart; and the ;fi3l_jawab_shart; in the ;0case;.^[@peled_cst@ 3-4 citing @sibawayhi@]
+governs the ;fi3l_shart; and the ;fi3l_jawab_shart; in the ;0case;.^[@peled_cst@ 3--4 citing @sibawayhi@]
+<!--
 Here is an example of an ;arch; ;j_sh;
 
 (@) [إِنْ يَأْتِ زَيْدٌ يُكْرِمْهُ عَمْرٌو]{.ar}  
     [If Zayd would come, ;3amr; would honor him.]{.trans}  
+-->
 
 <!--
 In example () above,
@@ -175,6 +160,7 @@ In example () above,
 iii. the ;jawab_shart; is [آتِكَ]{.ar}.
 -->
 
+<!--
 The conditional particle ;in; directly governs both
 the ;fi3l_shart;
 [يَأْتِ]{.ar}
@@ -182,6 +168,7 @@ and the ;fi3l_jawab_shart;
 [يُكْرِمْ]{.ar}
 (directly)
 in the ;0case;.
+-->
 @fig-shartintatiniaatika depicts this government for example () above.
 
 ::: {#fig-shartintatiniaatika .test-class}
@@ -228,7 +215,7 @@ in the ;0case;.
 \draw[->,decorate] ([xshift=3pt] word-5.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ;0;} ([xshift=-4pt] word-2.north east);
 \draw[->,decorate] ([xshift=-4pt] word-4.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize u} (word-3.north);
 \draw[->,decorate] ([xshift=5pt] word-2.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize u} ([xshift=0pt] word-1.north);
-\draw[->,decorate] ([xshift=3pt]word-2.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=-9pt] word-2.north);
+%\draw[->,decorate] ([xshift=3pt]word-2.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=-9pt] word-2.north);
 
 \end{tikzpicture}
 
@@ -263,6 +250,12 @@ we can say, any one of:
 
 (@) [إِنْ تَأْتِنِي أَكْرَمْتُكَ]{.ar}
 
+As a matter of fact,
+in terms of frequency of usage,
+the ;madi; verb
+is more common than the ;arch; ;0case; ;mudarie; verb
+in ;j_sh;s.^[@peled_cst@ 14--15. See also footnote\ 5 on p.\ 15]
+
 In general, all four options will have more-or-less the same meaning:
 [If you come to me, I will come to you.]{.trans}.
 In section\ (ref) below,
@@ -296,7 +289,8 @@ This is because they exhibit
 a symmetry between the
 ;fi3l_shart;
 and the
-;fi3l_jawab_shart;.^[peled]
+;fi3l_jawab_shart;.^[[@sibawayhi@ 3/91](https://shamela.ws/book/23018/944) cited by @peled_cst@ 7--8]
+
 
 The combination
 [;_in; ;_qatala; ;_yaqtul;]{.ar},
@@ -337,7 +331,7 @@ another
 <!--
 ;0case; ;mudarie; verb
 -->
-after it as the ;fi3l_jawab_shart;.^[sibawayhi around 3/66]
+after it as the ;fi3l_jawab_shart;.^[[@sibawayhi@ 3/66](https://shamela.ws/book/23018/919#p1)]
 Nevertheless,
 this combination
 is occasionally found,
@@ -348,7 +342,7 @@ With regards to the government of the ;j_sh;s in examples () through (),
 The ;adat_shart; ;in; will continue to govern
 the ;fi3l_shart; and the ;fi3l_jawab_shart; in the ;0case; directly,
 regardless of whether the verbs are ;yaqtul; or ;qatala;.
-For a ;qatala; verb, ;in; will govern it in the ;mahall; ;0case;.^[wafi]
+For a ;qatala; verb, ;in; will govern it in the ;mahall; ;0case;.^[[@nahw_wafi@ 4/22](https://shamela.ws/book/10641/2354)]
 
 In other words,
 for example () above,
@@ -361,7 +355,7 @@ the ;madi; verbs
 [أَتَى]{.ar} and [أَكْرَمَ]{.ar}
 are,
 both times,
-directly governed in the ;mahall; ;0case;.^[haazimi]
+directly governed in the ;mahall; ;0case;.^[[@haazimi@ 113/1](https://shamela.ws/book/36130/2310)]
 
 @fig-in_ataytani_ataytuka depicts the government of example ().
 
@@ -440,6 +434,14 @@ in ;j_sh;s:
     [@https://sunnah.com/bukhari:4750@]{.citex}  
     [If you ask the slave-girl, she will tell you the truth.]{.trans}  
 
+(@) [إِنْ أَنْطِقْ أُطَلَّقْ وَإِنْ أَسْكُتْ أُعَلَّقْ]{.ar}
+    [@https://sunnah.com/shamail:252@]{.citex}  
+    [If I speak, I will be divorced. And If I stay quiet, I will be left suspended.]{.trans}
+
+(@) [إِنْ تَقْتُلْنِي تَقْتُلْ ذَا دَمٍ وَإِنْ تُنْعِمْ تُنْعِمْ عَلَى شَاكِرٍ]{.ar}
+    [@https://sunnah.com/bukhari:4372@]{.citex}  
+    [If you kill me, you kill a person wanted for a killing. But if you bestow favor, you bestow favor on a grateful person.]{.trans}  
+
 ##### Examples of [;_in; ;_qatala; ;_qatala;]{.ar}: {.unnumbered}
 
 (@) [إِنۡ أَحۡسَنتُمۡ أَحۡسَنتُمۡ لِأَنفُسِكُمۡۖ]{.quran}
@@ -452,8 +454,15 @@ in ;j_sh;s:
 
 (@) [إِنْ أَذِنْتَ لِي أَعْطَيْتُ هَؤُلاَءِ]{.ar}
     [@https://sunnah.com/bukhari:2602@]{.citex}  
-    [If you permit, I will give to these [people].]{.trans}  
+    [If you permit me, I will give to these [people].]{.trans}  
 
+(@) [إِنْ أَحْسَنَ النَّاسُ أَحْسَنَّا وَإِنْ ظَلَمُوا ظَلَمْنَا]{.ar}
+    [@https://sunnah.com/tirmidhi:2007@]{.citex}  
+    [If the people are good to us, we will be good [to them]. And if they wrong us, we will wrong [them].]{.trans}  
+
+(@) [إِنْ كَرِهَ مِنْهَا خُلُقًا رَضِيَ مِنْهَا آخَرَ]{.ar}
+    [@https://sunnah.com/muslim:1468b@]{.citex}  
+    [If he dislikes a characteristic of hers, he is pleased with another [characteristic of hers].]{.trans}  
 
 ##### Examples of [;_in; ;_qatala; ;_yaqtul;]{.ar}: {.unnumbered}
 
@@ -488,7 +497,7 @@ Negations
 and
 [;_lan; ;_yaqtula;]{.ar}
 are not used when negating
-the ;fi3l_shart; or the ;fi3l_jawab_shart;.^[@nahw_wafi@]
+the ;fi3l_shart; or the ;fi3l_jawab_shart;.^[[@nahw_wafi@ 4/445](https://shamela.ws/book/10641/2372#p1)]
 (They can however be used when negating a verb
 which is not directly
 the ;fi3l_shart; or the ;fi3l_jawab_shart;, as we will see in section\ (ref), ;ia;.)
@@ -509,20 +518,24 @@ So if the ;shart; is
 [;_in; ;_qatala;]{.ar},
 then
 [;_lam; ;_yaqtul;]{.ar}
-is preferred in the ;jawab_shart;.^[sirafi 3/295]
+is preferred in the ;jawab_shart;.^[[@sirafi_sibawayhi@ 3/295](https://shamela.ws/book/17726/1291)]
 For example:
 
 (@) [إِنْ أَتَيْتَنِي لَمْ آتِكَ]{.ar}
+    [composed from [@sirafi_sibawayhi@ 3/295](https://shamela.ws/book/17726/1291)]{.citex}  
+    [If you come to me, I will not come to you.]{.trans}
 
 And
 if the ;shart; is
 [;_in; ;_yaqtul;]{.ar},
 then
 [;_laa; ;_yaqtul;]{.ar}
-is preferred in the ;jawab_shart;.^[sirafi 3/295]
+is preferred in the ;jawab_shart;.^[[@sirafi_sibawayhi@ 3/295](https://shamela.ws/book/17726/1291)]
 For example:
 
 (@) [إِنْ تَأْتِنِي لَا آتِكَ]{.ar}
+    [composed from [@sirafi_sibawayhi@ 3/295](https://shamela.ws/book/17726/1291)]{.citex}  
+    [If you come to me, I will not come to you.]{.trans}
 
 
 The non-symmetric combination
@@ -532,8 +545,9 @@ The non-symmetric combination
 is also fairly common.
 For example:
 
-(@) [إن لم تأتني أجزك]{.ar}
-    [sibawahi 3/68]{.citex}  
+(@) [إِنْ لَمْ تَأْتِنِي أَجْزِكَ]{.ar}
+    [[@sibawayhi@ 3/68](https://shamela.ws/book/23018/921)]{.citex}  
+    [If you don't come to me, I will recompense you.]{.trans}
 
 But as with the combination
 [;_in; ;_yaqtul;  ;_qatala;]{.ar}
@@ -544,13 +558,14 @@ is uncommon.
 For example:
 
 (@) [إِنْ تَأْتِنِي لَمْ آتِكَ]{.ar}
-    [sirafi 3/295]{.citex}  
+    [[@sirafi_sibawayhi@ 3/295](https://shamela.ws/book/17726/1291)]{.citex}  
+    [If you come to me, I will not come to you.]{.trans}
 
 In any case,
 symmetry is by no means mandatory,
 and the longer the distance (in words) between
 the ;fi3l_shart; and the ;jawab_shart;,
-the easier it is to disregard its being preferred.^[rummani]
+the easier it is to disregard its being preferred.^[[@rummani_sibawayhi@ 951](https://shamela.ws/book/18282/786#np787_3)]
 
 With regards to
 their frequencies in ;samaa3;,
@@ -574,6 +589,11 @@ Here are some examples:
 
 (@) [اللهُمّ إنْ تَظْهَرْ عَلَيّ هَذِهِ الْعِصَابَةُ يَظْهَرْ الشّرْكُ، **وَلَا يَقُمْ** لَك دِين]{.ar}
     [[@maghazi_waqidi@ 1/67](https://shamela.ws/book/23680/108) cited by @peled_cst@ 15]{.citex}  
+
+(@) [وَإِنْ لَا تَفْعَلْ مَلَأْتُ يَدَكَ شُغْلًا وَلَمْ أَسُدَّ فَقْرَكَ]{.ar}
+    [@https://hadithunlocked.com/ibnhibban:393@]{.ar}
+    [And if you don't do [so], I will fill your hand with preoccupation, and I will not block your poverty.]{.trans}  
+
 
 The particle [لَا]{.ar}
 will not affect the government of
@@ -632,21 +652,31 @@ the ;fi3l_shart; and the ;fi3l_jawab_shart;,
 negated with ;lam;:
 
 
-(@) [إن **أتيتني** لم آتك]{.ar}
+(@) [إِنْ أَتَيْتَنِي لَمْ آتِكَ]{.ar}
     [[@sibawayhi@ 3/91](https://shamela.ws/book/23018/944)]{.citex}  
 
-(@) [إن **لم تأتني** أجزك]{.ar}
+(@) [إِنْ لَمْ تَأْتِنِي أَجْزِكَ]{.ar}
     [[@sibawayhi@ 3/68](https://shamela.ws/book/23018/921)]{.citex}  
 
-(@) [إن **لم تأتني لم آتك**]{.ar}
+(@) [إِنْ لَمْ ُتُكْرِمْنِي لَمْ أُكْرِمْكَ]{.ar}
+    [[@shatibi_sharf_alfiyyah@ 6/133](https://shamela.ws/book/20562/3520)]{.citex}  
+    [If you don't honor me, I will not honor you.]{.trans}  
 
 (@) [إِنِ افْتَرَقْتُمْ **لَمْ تَجْتَمِعُوا** أَبَدًا]{.ar}
     [[@tarikh_tabari@ 4/24](https://shamela.ws/book/9783/1915) cited by @reckendorf_1921@ 485]{.citex}  
 
+(@) [وَإِنْ لَمْ يَعْمَلْهَا كُتِبَتْ حَسَنَةً]{.ar}
+    [@https://hadithunlocked.com/ahmad:2001@]{.citex}  
+    [And if he did not do it, a good deed is written for him.]{.trans}  
+
+(@) [فَإِنْ وَجَدْتُ بُكَاءً بَكَيْتُ **وَإِنْ لَمْ أَجِدْ** بُكَاءً تَبَاكَيْتُ لِبُكَائِكُمَا]{.ar}
+    [@https://sunnah.com/muslim:1763@]{.citex}  
+    [For if I feel [that I can cry] I will cry, and if I don't feel [I can cry], I will compel myself to cry [in sympathy] of your crying.]{.trans}  
+
 The grammarians differed regarding
 the government of the 
 the ;fi3l_shart; and the ;fi3l_jawab_shart;,
-when negated with ;lam;.^[@nahw_wafi@]
+when negated with ;lam;.^[[@nahw_wafi@ 4/414--415](https://shamela.ws/book/10641/2346)]
 Some grammarians are of the opinion that
 ;lam; directly governs the ;0case; mudarie verb
 while ;in; governs the ;j_f3l;s which contain the ;mudarie; verb.
@@ -877,7 +907,7 @@ On the other hand [آتيك في البيت]{.ar} is similar to [آتيك عند
 Having said all the above,
 there is no problem if we refer to such a sentence,
 loosely speaking and for convenience,
-as an inverted ;j_sh;.^[@nahw_wafi@ citing @sibawayhi@]
+as an inverted ;j_sh;.
 As long as we understand that the true ;jawab_shart; is deleted and ;qaddared; after the ;shart; in sentence word order.
 
 Here are some more examples of inverted ;j_sh;s:
@@ -895,6 +925,9 @@ Here are some more examples of inverted ;j_sh;s:
     [[@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
     [I [will be] a wrongdoer if I did [some action].]{.trans}  
 
+(@) [لاَ يَقُلْ أَحَدُكُمُ **اللَّهُمَّ اغْفِرْ لِي إِنْ شِئْتَ ارْحَمْنِي إِنْ شِئْتَ ارْزُقْنِي إِنْ شِئْتَ** وَلْيَعْزِمْ مَسْأَلَتَهُ إِنَّهُ يَفْعَلُ مَا يَشَاءُ لاَ مُكْرِهَ لَهُ]{.ar}
+    [@https://sunnah.com/bukhari:7477@]{.citex}  
+    [Let not any of you say, **"O ;Allah;, forgive me if You wish, have mercy on me if You wish, provide sustenance me if You wish."** [Rather,] let him be resolved in his asking. Indeed He does what He wills, there is no one to compel Him.]{.trans}
 
 In examples () and () above,
 the "inverted" ;jawab_shart;s
@@ -904,13 +937,6 @@ and
 [أَنَا ظَالِمٌ]{.ar})
 , not ;j_f3l;s.
 We will discuss such ;jawab_shart;s in section\ (ref), ;ia;.
-
-[find [إن شئت]{.ar} at the end of a sentence in hadith]
-
-<!--
-(@) [وإن أتاه خليلٌ يومَ مسألةٍ ... يقولُ لا غائبٌ مالي ولا حَرِمُ]{.ar}
-    [@sibawayhi@ 3/66]{.citex}  
--->
 
 
 Note that all the examples
@@ -933,18 +959,19 @@ another
 after it as the ;fi3l_jawab_shart;.
 So the following example is not preferred:
 
-(@) [آتيك إن تأتني]{.ar}
-    [@sibawayhi@ 3/68]{.citex}  
+(@) [آتِيكَ إِنْ تَأْتِنِي]{.ar}
+    [[@sibawayhi@ 3/68](https://shamela.ws/book/23018/921); [@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
+    [I will come to you, if you come to me.]{.trans}  
 
 This is because
 ;yaqtul;
 in the ;shart;
-([إن تأتني]{.ar})
+([إِنْ تَأْتِنِي]{.ar})
 prefers 
 that it have another ;yaqtul;
 in the ;jawab_shart;,
 and that its ;jawab_shart;
-not be deleted.^[ibn ya3ish, sibawayhi 3/66]
+not be deleted.^[[@sibawayhi@ 3/68](https://shamela.ws/book/23018/921); [@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]
 
 Having said that, an inverted
 [;_in; ;_yaqtul;]{.ar}
@@ -996,7 +1023,7 @@ That is, a ;mudarie; ;fi3l_jawab_shart; is in the ;ucase;,
 not the ;0case;.
 For example:
 
-(@) [إن أتيتني آتيك]{.ar}
+(@) [إِنْ أَتَيْتَنِي آتِيكَ]{.ar}
     [[@sibawayhi@ 3/66](https://shamela.ws/book/23018/919#p1)]{.citex}  
     [If you come to me, I come to you.]{.trans}  
 
@@ -1014,7 +1041,7 @@ in the ;0case;.
 One way the grammarians work around this problem is by modeling example ()
 to originally be an inverted ;j_sh;, thus:
 
-(@) [آتيك إن أتيتني [آتك]]{.ar}  
+(@) [آتِيكَ إِنْ أَتَيْتَنِي [آتِكَ]]{.ar}  
     [I come to you if you come to me [I come to you].]{.trans}  
 
 Once the original ;jawab_shart;
@@ -1025,26 +1052,27 @@ then the independent sentence
 is (optionally)
 moved to after the ;shart; to take the place of
 the original ;jawab_shart;
-[آتِكَ]{.ar}.^[@nahw_wafi@ 4/475--476 (footnotes)]
+[آتِكَ]{.ar}.^[[@nahw_wafi@ 4/475--476 (footnotes)](https://shamela.ws/book/10641/2402) citing @sibawayhi@]
 
 There is also another technique to analyze such ;j_sh;s,
 and that is to assume a deleted ;fa;
 (and also possibly a deleted ;mubtada;)
-before the ;jawab_shart;.^[usool fi al-nahw 2/194; rummani 949; @maani_nahw@ 4/104]
+before the ;jawab_shart;.^[[@rummani_sibawayhi@ 949](https://shamela.ws/book/18282/784#p1)]
 With the
 deleted elements restored,
 restored, the sentence is:
 
-(@) [إن أتيتني فآتيك]{.ar}  
+(@) [إِنْ أَتَيْتَنِي فَآتِيكَ]{.ar}  
     or  
-    [إن أتيتني فأنا آتيك]{.ar}  
+    [إِنْ أَتَيْتَنِي فَأَنا آتِيكَ]{.ar}  
+    [[@rummani_sibawayhi@ 949](https://shamela.ws/book/18282/784#p1)]{.citex}  
     [If you come to me **then** I will come to you.]{.trans}  
 
 #;jawab_shart;s that begin with ;fa; will be treated in section\ (ref) below, ;ia;.
 
 Here are some more examples of this kind of ;j_sh;:
 
-(@) [**وإن أتاه** خليلٌ يومَ مسألةٍ ... **يقولُ** لا غائبٌ مالي ولا حَرِمُ]{.ar}
+(@) [**وإن أتاه** خليلٌ يومَ مسألةٍ **يقولُ** لا غائبٌ مالي ولا حَرِمُ]{.ar}
     [[@sibawayhi@ 3/66](https://shamela.ws/book/23018/919#p1)]{.citex}  
     [And if a friend came to him on a day of asking, he says, "My wealth is neither absent nor denied."]{.trans}
 
@@ -1100,18 +1128,20 @@ The addition of ;maa; to ;in;
 can emphasize the meaning of the ;jawab_shart;.
 Example:
 
-(@) [إمّا تأتني آتِك]{.ar}
+(@) [إمّا تَأْتِنِي آتِكَ]{.ar}
     [[@ibn_ya3ish_mufassal@ 5/115](https://shamela.ws/book/13301/2053)]{.citex}  
     [If you come to me, I will come to you.]{.trans}  
 
-;yaqtul; is only used with ;immaa; uncommonly or by poetic license.^[[@nahw_wafi@ 4/174](https://shamela.ws/book/10641/2106)]
+;yaqtul;,
+as a ;fi3l_shart,
+is only used with ;immaa; uncommonly or by poetic license.^[[@nahw_wafi@ 4/174](https://shamela.ws/book/10641/2106)]
 Instead, the ;fi3l_shart; with ;immaa; is usually a ;fi3l_muakkad;
 ([يَقْتُلَنَّ]{.ar}).
 For example:
 
 (@) [فَإِمَّا تَرَیِنَّ مِنَ ٱلۡبَشَرِ أَحَدࣰا فَقُولِیۤ إِنِّی نَذَرۡتُ لِلرَّحۡمَـٰنِ صَوۡمࣰا فَلَنۡ أُكَلِّمَ ٱلۡیَوۡمَ إِنسِیࣰّا]{.quran}
-    [@https://quran.com/19/26@ cited by [[@ibn_ya3ish_mufassal@ 5/115](https://shamela.ws/book/13301/2053)]{.citex}  
-    [And if you see from among humanity anyone, say, 'Indeed, I have vowed to the Most Merciful abstention, so I will not speak today to [any] man.'"]{.ar}  
+    [@https://quran.com/19/26@ cited by [@ibn_ya3ish_mufassal@ 5/115](https://shamela.ws/book/13301/2053)]{.citex}  
+    [And if you see from among humanity anyone, say, 'Indeed, I have vowed to the Most Merciful abstention, so I will not speak today to [any] man.'"]{.trans}  
     (;fa; introducing the ;jawab_shart; is discussed in section () below.)
 
 ## The ;idha; ;j_sh;
@@ -1297,6 +1327,22 @@ depicts the government of example ().
 
 Here are some more examples of ;j_sh;s with ;idha;:
 
+(@) [إِذَا صَلَحَتْ صَلَحَ الْجَسَدُ كُلُّهُ وَإِذَا فَسَدَتْ فَسَدَ الْجَسَدُ كُلُّهُ]{.ar}
+    [@https://sunnah.com/bukhari:52@]{.citex}  
+    [When it is upright, the whole body is upright. And when it is corrupt, the whole body is corrupt.]{.trans}  
+
+(@) [كَانَ رَسُولُ اللهِ صلى الله عليه وسلم إِذَا سَجَدَ جَافَى حَتَّى يُرَى بَيَاضُ إِبْطَيْهِ]{.ar}
+    [@https://hadithunlocked.com/ahmad:14138@]{.citex}  
+    [When the Messenger of ;Allah; would prostrate, he would put his upper arms apart from his sides until the whiteness of his underarms could be seen.]{.trans}  
+
+(@) [كَانَ إِذَا خَرَجَ أَقْرَعَ بَيْنَ نِسَائِهِ]{.ar}
+    [@https://hadithunlocked.com/bukhari:5211@]{.citex}  
+    [When he would go out (on a journey), he would draw lots among his wives.]{.trans}  
+
+(@) [إِذَا دَخَلَ أَهْلُ الْجَنَّةِ الْجَنَّةَ، نُودُوا ...]{.ar}
+    [@https://hadithunlocked.com/ahmad:18935@]{.citex}  
+    [When the people of Paradise enter Paradise, they will be called ...]{.trans}  
+
 ### #;mudarie; verbs in the ;idha; ;j_sh;
 
 We learned
@@ -1412,9 +1458,17 @@ as an inverted ;j_sh;.
 if contains the _meaning_ of a ;shart;.
 For example:
 
+(@) [وَتَوَفَّنِي إِذَا كَانَتِ الْوَفَاةُ خَيْرًا لِي]{.ar}
+    [@https://sunnah.com/bukhari:5671@]{.citex}  
+    [And take my soul if death is better for me.]{.trans}
+
 (@) [فَأَقْبَلَ رَجُلٌ غَائِرُ الْعَيْنَيْنِ مُشْرِفُ الْوَجْنَتَيْنِ نَاتِئُ الْجَبِينِ كَثُّ اللِّحْيَةِ مَحْلُوقٌ فَقَالَ اتَّقِ اللَّهَ يَا مُحَمَّدُ فَقَالَ  **مَنْ يُطِعِ اللَّهَ إِذَا عَصَيْتُ** أَيَأْمَنُنِي اللَّهُ عَلَى أَهْلِ الأَرْضِ فَلاَ تَأْمَنُونِي]{.ar}^[It is not clear to us why [يُطِع]{.ar} is in the ;0case; from this source. Peled's source [الجامع الصحيح]{.ar}, ed.\ L.\ Krehl, Leiden: Brill, 1864, II, 337 l:9 has [يُطِيعُ]{.ar} in the ;ucase;.]  
     [@https://sunnah.com/bukhari:3344@ cited by @peled_cst@ 142]{.citex}  
     [Then a man with sunken eyes, prominent checks, a raised forehead, a thick beard and a shaven head, came in front [of the Prophet ;pbuh;] and said, "Be afraid of ;Allah;, O [#muHammad]{.trn2}!" The Prophet ;pbuh; said, "**Who would obey Allah if I disobeyed [Him]?** (Is it fair that) ;Allah; has trusted all the people of the earth to me while you do not trust me?"]{.trans}  
+
+(@) [لِلْمُسْلِمِ عَلَى الْمُسْلِمِ سِتٌّ بِالْمَعْرُوفِ يُسَلِّمُ عَلَيْهِ إِذَا لَقِيَهُ وَيُجِيبُهُ إِذَا دَعَاهُ وَيُشَمِّتُهُ إِذَا عَطَسَ وَيَعُودُهُ إِذَا مَرِضَ وَيَتْبَعُ جَنَازَتَهُ إِذَا مَاتَ وَيُحِبُّ لَهُ مَا يُحِبُّ لِنَفْسِهِ]{.ar}
+    [@https://hadithunlocked.com/tirmidhi:2736@]{.citex}  
+    [There are six courtesies due to a Muslim from another Muslim: he gives the greeting of peace when he sees him, he responds to him when he invites him, he [says [يرحمك الله]{.ar}] when he sneezes, he visits him when he is ill, he follows his funeral when he dies, and he loves for him what he loves for himself.]{.trans}  
 
 ### Certainty of the event indicated by ;idha;
 
@@ -1500,7 +1554,9 @@ For example:
 -->
 
 ;idhaamaa; is more common than ;idha;
-as a ;0case;-izing ;adat_shart;.^[[@ibn_ya3ish_mufassal@ 4/272](https://shamela.ws/book/13301/1636)]
+when the ;fi3l_shart; and/or the ;fi3l_jawab_shart;
+are ;yaqtul; instead of ;qatala;
+(see examples () and () above).^[[@ibn_ya3ish_mufassal@ 4/272](https://shamela.ws/book/13301/1636)]
 Examples:
 
 (@) [إذا ما **تأتني أُحسِنْ** إليك]{.ar}
@@ -1541,8 +1597,8 @@ all of the following ;j_sh;s will typically have a future meaning:
 
 As for the distinction in meaning between using ;yaqtul; vs. ;qatala;,
 the most we can say is that
-the ;madi; verb signifies more certainty.
-Whereas a ;0case; ;mudarie; verb signifies potentiality.^[see @3aarif_zaman@ 49]
+the ;madi; verb signifies the completion of an action.
+Whereas a ;0case; ;mudarie; verb signifies the potentiality of an action.^[see @3aarif_zaman@ 49]
 And perhaps these aspects have some influence on which of the two is chosen in a ;j_sh;.
 
 Having said all of the above,
@@ -1566,6 +1622,10 @@ Examples:
 (@) [أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ إِذَا أُتِيَ بِطَعَامٍ سَأَلَ عَنْهُ **فَإِنْ قِيلَ** هَدِيَّةٌ **أَكَلَ** مِنْهَا **وَإِنْ قِيلَ** صَدَقَةٌ **لَمْ يَأْكُلْ** مِنْهَا]{.ar}
     [@https://sunnah.com/muslim:1077@]{.citex}  
     [that the Prophet ;pbuh; would, when he was brought some food, ask about it. If it **was said** [that it was] a gift, he **ate** from it, and if it **was said** [that it was] charity, he **did not eat** from it.]{.trans}  
+
+(@) [مَا عَابَ النَّبِيُّ صلى الله عليه وسلم طَعَامًا قَطُّ إِنِ **اشْتَهَاهُ أَكَلَهُ** وَإِنْ **كَرِهَهُ تَرَكَهُ**]{.ar}
+    [@https://sunnah.com/bukhari:5409@]{.citex}  
+    [The Prophet ;pbuh; never criticized any food whatsoever. If **he liked it, he ate** it. And if **he disliked it, he left** it.]{.trans}
 
 ### With ;fa; as the ;jawab_shart_intro;
 
@@ -1998,6 +2058,10 @@ Examples:
     [@https://quran.com/4/123@ cited by [@ibn_aqil_alfiyyah@ 4/27](https://shamela.ws/book/9904/1034)]{.citex}  
     [Whoever does a wrong will be recompensed for it]{.trans}  
 
+(@) [مَنِ اتَّبَعَ عَوْرَاتِهِمْ يَتَّبِعِ اللَّهُ عَوْرَتَهُ]{.ar}
+    [@https://sunnah.com/abudawud:4880@]{.citex}  
+    [Whoever trails [them for] their faults, ;Allah; will trail [him for] his fault.]{.trans}  
+
 (@) [مَا يُعْجِبْكَ يُعْجِبْنِي]{.ar}
     [[@faaridi_alfiyyah@ 4/15](https://shamela.ws/book/174/1707)]{.citex}  
     [Whatever pleases you, it will please me.]{.trans}  
@@ -2205,7 +2269,14 @@ Besides those, there are others that can be
 loosely be considered ;adat_shart;s.
 Unlike
 ;0case;-izing ;adat_shart;s,
-this is a loosely defined category.
+this is a loosely defined category,
+with some
+;0case;-izing ;adat_shart;s
+having only a whiff of,
+or only partial
+conditionality
+in their meaning.
+
 We will consider a word to be
 a non-;0case;-izing ;adat_shart;
 if it establishes a dependent relationship between two clauses,
@@ -2928,7 +2999,7 @@ we repeat here the examples we had given there:
     [[@sibawayhi@ 3/66](https://shamela.ws/book/23018/919#p1)]{.citex}  
     [If you come to me, I come to you.]{.trans}  
 
-(@) [**وإن أتاه** خليلٌ يومَ مسألةٍ ... **يقولُ** لا غائبٌ مالي ولا حَرِمُ]{.ar}
+(@) [**وإن أتاه** خليلٌ يومَ مسألةٍ **يقولُ** لا غائبٌ مالي ولا حَرِمُ]{.ar}
     [[@sibawayhi@ 3/66](https://shamela.ws/book/23018/919#p1)]{.citex}  
     [And if a friend came to him on a day of asking, he says, "My wealth is neither absent nor denied."]{.trans}
 
@@ -2970,7 +3041,7 @@ For example:
 
 ## Alternate ;jawab_shart_intro;s
 
-### ;idha_fj;
+### #;idha_fj;
 
 
 When the ;jawab_shart; begins with ;fa;,
@@ -3009,7 +3080,7 @@ so it can be used in ;j_sh;s which don't allow ;fa; as a ;jawab_shart_intro;.
 For example:
 
 (@) [إِنْ تَزُرْنِي إِذَنْ أُكْرِمْكَ]{.ar}
-    [@irtishaaf@ 4/1652](https://shamela.ws/book/16595/1649)]{.citex}  
+    [[@irtishaaf@ 4/1652](https://shamela.ws/book/16595/1649)]{.citex}  
     [If you visit me, in that case I will honor you.]{.trans}
 
 
@@ -3475,12 +3546,14 @@ Here are some more examples of ;law_laa; and ;law_maa;
 
 #### ;law_laa; as a ;adat_istifham; {.unnumbered}
 
-Not a ;shart;. Treated in chapter (istifham).
-
-FIXME: move to istifham chapter:
+;law_laa; is also used as a ;adat_istifham; to me [why not]{.trans}.
+For example:
 
 (@) [لَوْلاَ مَتَّعْتَنَا بِهِ]{.ar}
     [@https://sunnah.com/bukhari:6331@]{.citex}  
+    [Why didn't you let us enjoy him?]{.trans}  
+
+In this case we won't consider it a ;adat_shart;.
 
 <!--
 ### A ;shart_int; beginning with a noun
@@ -3532,9 +3605,14 @@ Here are some examples:
 A ;0case; ;mudarie; ;fi3l_shart; is exceedingly rare with ;law; but it is occasionally found.
 For example:
 
-(@) [لَوْ تَعُذْ حِينَ فَرَّ قَوْمُكَ بِي كُنْتَ مِنَ الأَمْنِ فِي أَعَزِّ مَكَانٍ]{.ar}
+(@) [لَوْ **تَعُذْ** حِينَ فَرَّ قَوْمُكَ بِي كُنْتَ مِنَ الأَمْنِ فِي أَعَزِّ مَكَانٍ]{.ar}
     [[@shawahid_tawdeeh@ 72](https://shamela.ws/book/98123/69#p1)]{.citex}  
     [Had you taken refuge, when your people fled, with me, you would have been, with regards to security, in the mightiest place.]{.trans}  
+
+<!--
+(@) [لو **يشأ** طار به ذو مَيعةٍ ْلاحقُ الآطالِ نهدٌ ذو خُصل]{.ar}
+    [[@shawahid_tawdeeh@ 72](https://shamela.ws/book/98123/69#p1)]{.citex}
+-->
 
 ### ;law; expressing a wish or hope
 
@@ -3610,17 +3688,6 @@ Very rarely, a ;j_ism; has been found to directly occur in the ;jawab_shart;:
 Some grammarians have analyzed [لَمَثُوبَةٌ مِنَ اللهِ خَيرٌ]{.ar} to directly be the ;jawab_shart;.
 Whereas others have used ;taqdiring;.^[[[هل يقع جواب (لو) جملة اسمية؟]{.ar}, jamharah.net](https://jamharah.net/showthread.php?p=51540&__cf_chl_f_tk=olodL9o4qULPBi9qm4OZtgPe9o9jplpGgBKAcNjX6h0-1783293637-1.0.1.1-OL1LLUhK27d_zCqCdL3yEJVDwEpQsBIyUVPqNO7aG5c)]
 
-### ;0case;-izing ;law;
-
-Rarely, ;law; may behave like ;in;,
-in that it may govern its ;fi3l_shart; in the ;0case;.
-For examples:
-
-(@) [لوتعذ حين فَر قومك بي كنت من الأمن في أعز مكان]{.ar}
-    [[@shawahid_tawdeeh@ 72](https://shamela.ws/book/98123/69#p1)]{.citex}
-
-(@) [لو يشأ طار به ذو مَيعةٍ ْلاحقُ الآطالِ نهدٌ ذو خُصل]{.ar}
-    [[@shawahid_tawdeeh@ 72](https://shamela.ws/book/98123/69#p1)]{.citex}
 
 ## #;hazf; in the ;j_sh;
 
@@ -3741,6 +3808,10 @@ Examples:
 (@) [أَنَا زَعِيمٌ بِبَيْتٍ فِي رَبَضِ الْجَنَّةِ لِمَنْ تَرَكَ الْمِرَاءَ **وَإِنْ كَانَ مُحِقًّا**]{.ar}
     [@https://sunnah.com/abudawud:4800@]{.citex}  
     [I guarantee a house in the surroundings of Paradise for a man who avoids arguing even if he were in the right.]{.trans}
+
+(@) [قُلْتُ وَإِنْ زَنَى وَإِنْ سَرَقَ قَالَ وَإِنْ زَنَى وَإِنْ سَرَقَ]{.ar}
+    [@https://sunnah.com/muslim:94b@]{.citex}  
+    [I said, "Even if he fornicated and even if he stole?".  He said, "Even if he fornicated and even if he stole."]{.trans}  
 
 The ;jawab_shart; is also obligatorily ;mahzoof; for parenthetical ;shart;s.
 For example:
@@ -4267,11 +4338,8 @@ is valid.
 
 ## The ;j_sh; within a larger sentence
 
-@saad_cond@ chapter 6
 
-@shamsan_jsh@ [430--440](https://archive.org/details/aljomla-ashrtia.g/page/n431/mode/2up), [455ff](https://archive.org/details/aljomla-ashrtia.g/page/n455/mode/2up)
-
-The ;j_sh; can occur as an element within a larger compound sentence.
+The ;j_sh; can occur as an element within a larger compound sentence.^[@saad_cond@ chapter 6; @shamsan_jsh@ [430--440](https://archive.org/details/aljomla-ashrtia.g/page/n431/mode/2up), [455ff](https://archive.org/details/aljomla-ashrtia.g/page/n455/mode/2up)]
 It may occur in different capacities.
 We will discuss some of them below.
 
@@ -4922,6 +4990,12 @@ The ;j_f3l;
 is a ;hal;.
 And that is why its verb is in the ;ucase;.
 
+Here is another example:
+
+(@) [وَإِنْ أَتَانِي **يَمْشِي** أَتَيْتُهُ هَرْوَلَةً]{.ar}
+    [@https://sunnah.com/muslim:2675a@]{.citex}  
+    [And if he comes to Me walking, I come to him rushing.]{.trans}  
+
 ### A ;fi3l_shart; or ;fi3l_jawab_shart; with a ;badal;
 
 The ;fi3l_shart; or ;fi3l_jawab_shart; may be followed by a ;j_f3l;
@@ -4938,7 +5012,7 @@ Examples:
     [If you come to use, we will be good to you, we will give to you and we will protect you.]{.trans}  
     [نُعْطِكَ]{.ar} is a ;badal; of [نُحْسِنْ إِلَيْكَ]{.ar}.
 
-(@) [وَمَن **یَفۡعَلۡ** ذَ ٰ⁠لِكَ یَلۡقَ أَثَامࣰا۝ **یُضَـٰعَفۡ** لَهُ ٱلۡعَذَابُ یَوۡمَ ٱلۡقِیَـٰمَةِ وَیَخۡلُدۡ فِیهِۦ مُهَانًا]{.quran}
+(@) [وَمَن یَفۡعَلۡ ذَ ٰ⁠لِكَ **یَلۡقَ** أَثَامࣰا۝ **یُضَـٰعَفۡ** لَهُ ٱلۡعَذَابُ یَوۡمَ ٱلۡقِیَـٰمَةِ وَیَخۡلُدۡ فِیهِۦ مُهَانًا]{.quran}
     [@https://quran.com/25/68-69@ cited by [@sibawayhi@ 3/87](https://shamela.ws/book/23018/940)]{.citex}  
     [And whoever should do that will meet a penalty. Multiplied for him is the punishment on the Day of Resurrection, and he will abide therein humiliated]{.trans}  
     [يُضَاعَفْ]{.ar},

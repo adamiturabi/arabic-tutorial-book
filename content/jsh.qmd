@@ -11,23 +11,11 @@ IT IS NOT YET READY TO BE STUDIED FROM.**
 
 ## Introduction
 
-A conditional sentence is a special sentence, which consists of two parts:
-
-1. A _condition_. The condition itself consists of two parts:
-
-    i. The *conditional-device*
-   ii. The *condition-core*
-
-2. A _condition-response_. The condition-response can also consist of two parts:
-
-    i. The *condition-response-link*. This may be null for some conditional sentences.
-   ii. The *condition-response-core*
-
 Here is an example of a conditional sentence in English:
 
 (@) [If you come to me, then I will honor you.]{.trans}
 
-@fig-cst_eng_ex1 shows the two parts of conditional sentence.
+@fig-cst_eng_ex1 shows its parts.
 
 ::: {#fig-cst_eng_ex1 .test-class}
 
@@ -72,68 +60,44 @@ Here is an example of a conditional sentence in English:
 The parts of a conditional sentence.
 :::
 
-<!--
-A conditional sentence is introduced by a conditional-device, like "[if]{.trans}" in the example above.
-Another common conditional-device is "[when]{.trans}".
-For example:
--->
-<!--
-Here is another example of a conditional sentence:
+As you can see,
+a conditional sentence is a special sentence, which consists of two parts:
 
-(@) [When the sun rises, the day begins.]{.trans}
+1. A _condition_ ([If you come to me]{.trans})
+   The condition itself consists of two parts:
 
-Typically,
-the statement in condition-response
-is caused by the realization of the statement in the condition.
-So, in example () above,
-my honoring you is caused by,
-and dependent on,
-your honoring me.
-And in example (), the day's beginning is caused by the rising of the sun.
+    i. The *conditional-device*: ([if]{.trans})
+   ii. The *condition-core*: ([you come to me]{.trans})
 
-However, the statement in the condition-response need not always be caused by the condition.^[[[النحو الوافي]{.ar} 4/422 footnote 1](https://shamela.ws/book/10641/2354)]
-Sometimes the condition-response 
-is only a reply, assessment, or confirmation of the assumption made in the condition.^[Fischer 229]
-For example:
+2. A _condition-response_. ([then I will come to you]{.trans})
+   The condition-response can also consist of two parts:
 
-(@) [If this is so, well, such and such is the case.]{.trans}
-    [Fischer 229]{.citex}  
+    i. The *condition-response-link*: ([then]{.trans}). This may be null for some conditional sentences.
+   ii. The *condition-response-core*: ([I will honor you]{.trans})
 
-(@) [If you honor me, then I already honored you yesterday.]{.trans}
-
-In example (), the condition-response
-[then I already honored you yesterday]{.trans}
-is not caused by the realization of the condition
-[if you honor me]{.trans}.
-Rather it is only a response that completes the sentence.
--->
-
-Conditional sentences in Arabic are introduced by _conditional-devices_.
+There are many
+_conditional-devices_
+in Arabic.
 Some common
-conditional-devices
+ones
 are:
 
 * [إِنْ]{.ar} [if]{.trans}
-* [لَوْ]{.ar} [if]{.trans}
 * [إِذَا]{.ar} [when]{.trans}
+* [لَوْ]{.ar} [if]{.trans}
 * [مَنْ]{.ar} [who(ever)]{.trans}
 * [مَا]{.ar} [what(ever)]{.trans}
 
 We will study them in the following sections.
-<!--
-Amongst these conditional-devices,
-[إِنْ]{.ar} is considered the most basic conditional-device.^[[[شرح ابن يعيش على المفصل]{.ar} 5/106](https://shamela.ws/book/13301/2044)]
-We will study 
-it
-first.
--->
 
 ## The [إِنْ]{.ar} conditional sentence
 
-[إِنْ]{.ar} is considered the most basic of all the conditional-devices.^[sibawayhi; [[شرح ابن يعيش على المفصل]{.ar} 5/106](https://shamela.ws/book/13301/2044)]
+[إِنْ]{.ar} is considered the most basic of all the conditional-devices.^[[[كتاب سيبويه]{.ar} 3/63](https://shamela.ws/book/23018/916); [[شرح ابن يعيش على المفصل]{.ar} 5/106](https://shamela.ws/book/13301/2044)]
+<!--
 It forms the basic conditional sentence.
 Conditional sentences that employ other conditional-devices are based on
 the conditional sentence with [إِنْ]{.ar}.
+-->
 
 There are a few different types of conditional sentence that can be formed with [إِنْ]{.ar}.
 We will discuss them below:
@@ -147,20 +111,39 @@ archetypal conditional sentence with [إِنْ]{.ar}.
 
 ### The archetypal [إِنْ]{.ar} conditional sentence
 
-The archetypal or most basic [إِنْ]{.ar} conditional sentence
+Here is an example of an archetypal,
+or most basic, 
+conditional sentence:
+
+(@) [إِنْ يَأْتِ زَيْدٌ يُكْرِمْهُ عَمْرٌو]{.ar}  
+    [If Zayd will come, [#eamr]{.trn2} will honor him.]{.trans}  
+
+The archetypal, 
+[إِنْ]{.ar} conditional sentence
 uses
 ø-case caseful verbs in both the condition and the condition-response.
 This conditional sentence consists of two parts:
 
-1. a condition, consisting of:
-    i. the conditional-device [إِنْ]{.ar}, and 
-   ii. the condition-core, which is a verbal sentence containing:
-       * a ø-case caseful verb (the *condition-verb*) and
+1. a condition, ([إِنْ يَأْتِ زَيْدٌ]{.ar})  
+   consisting of:
+    i. the conditional-device ([إِنْ]{.ar}), and 
+   ii. the condition-core
+       ([يَأْتِ زَيْدٌ]{.ar}),
+       which is a verbal sentence containing:
+       * a ø-case caseful verb known as the *condition-verb*
+         ([يَأْتِ]{.ar})
        * its doer
-2. a condition-response, consisting of:
-   i. the condition-response-core, which is a verbal sentence containing:
-      * a ø-case caseful verb (the *condition-response-verb*) and
+         ([زَيْدٌ]{.ar})
+2. a condition-response,
+   ([يُكْرِمْهُ عَمْرٌو]{.ar})
+   consisting of:
+   i. the condition-response-core
+      ([يُكْرِمْهُ عَمْرٌو]{.ar}),
+      which is a verbal sentence containing:
+      * a ø-case caseful verb known as the *condition-response-verb*
+        ([يُكْرِمْ]{.ar})
       * its doer
+        ([عَمْرٌو]{.ar})
 
    There is no condition-response-link in the archetypal [إِنْ]{.ar} conditional sentence.
 
@@ -168,11 +151,13 @@ This conditional sentence consists of two parts:
 In this archetypal form of the conditional sentence,
 -->
 The conditional particle [إِنْ]{.ar} directly
-governs the condition-verb and the condition-response-verb in the ø-case.^[Peled, _Conditional structures in Classical Arabic_ 3-4 citing [كتاب سيبويه]{.ar}]
+governs the condition-verb and the condition-response-verb in the ø-case.^[Peled, _Conditional structures in Classical Arabic_ 3--4 citing [كتاب سيبويه]{.ar}]
+<!--
 Here is an example of an archetypal conditional sentence
 
 (@) [إِنْ يَأْتِ زَيْدٌ يُكْرِمْهُ عَمْرٌو]{.ar}  
     [If Zayd would come, [#eamr]{.trn2} would honor him.]{.trans}  
+-->
 
 <!--
 In example () above,
@@ -182,6 +167,7 @@ In example () above,
 iii. the condition-response is [آتِكَ]{.ar}.
 -->
 
+<!--
 The conditional particle [إِنْ]{.ar} directly governs both
 the condition-verb
 [يَأْتِ]{.ar}
@@ -189,6 +175,7 @@ and the condition-response-verb
 [يُكْرِمْ]{.ar}
 (directly)
 in the ø-case.
+-->
 @fig-shartintatiniaatika depicts this government for example () above.
 
 ::: {#fig-shartintatiniaatika .test-class}
@@ -235,7 +222,7 @@ in the ø-case.
 \draw[->,decorate] ([xshift=3pt] word-5.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize ø} ([xshift=-4pt] word-2.north east);
 \draw[->,decorate] ([xshift=-4pt] word-4.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize u} (word-3.north);
 \draw[->,decorate] ([xshift=5pt] word-2.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize u} ([xshift=0pt] word-1.north);
-\draw[->,decorate] ([xshift=3pt]word-2.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=-9pt] word-2.north);
+%\draw[->,decorate] ([xshift=3pt]word-2.north) to [in=90,out=90,looseness=1] node[midway,inner sep=0.5pt,fill=white] {\scriptsize a} ([xshift=-9pt] word-2.north);
 
 \end{tikzpicture}
 
@@ -270,6 +257,12 @@ we can say, any one of:
 
 (@) [إِنْ تَأْتِنِي أَكْرَمْتُكَ]{.ar}
 
+As a matter of fact,
+in terms of frequency of usage,
+the caseless verb
+is more common than the archetypal ø-case caseful verb
+in conditional sentences.^[Peled, _Conditional structures in Classical Arabic_ 14--15. See also footnote\ 5 on p.\ 15]
+
 In general, all four options will have more-or-less the same meaning:
 [If you come to me, I will come to you.]{.trans}.
 In section\ (ref) below,
@@ -303,7 +296,8 @@ This is because they exhibit
 a symmetry between the
 condition-verb
 and the
-condition-response-verb.^[peled]
+condition-response-verb.^[[[كتاب سيبويه]{.ar} 3/91](https://shamela.ws/book/23018/944) cited by Peled, _Conditional structures in Classical Arabic_ 7--8]
+
 
 The combination
 [إِنْ قَتَلَ يَقْتُلْ]{.ar},
@@ -344,7 +338,7 @@ another
 <!--
 ø-case caseful verb
 -->
-after it as the condition-response-verb.^[sibawayhi around 3/66]
+after it as the condition-response-verb.^[[[كتاب سيبويه]{.ar} 3/66](https://shamela.ws/book/23018/919#p1)]
 Nevertheless,
 this combination
 is occasionally found,
@@ -355,7 +349,7 @@ With regards to the government of the conditional sentences in examples () throu
 The conditional-device [إِنْ]{.ar} will continue to govern
 the condition-verb and the condition-response-verb in the ø-case directly,
 regardless of whether the verbs are [يَقْتُلْ]{.ar} or [قَتَلَ]{.ar}.
-For a [قَتَلَ]{.ar} verb, [إِنْ]{.ar} will govern it in the positional ø-case.^[wafi]
+For a [قَتَلَ]{.ar} verb, [إِنْ]{.ar} will govern it in the positional ø-case.^[[[النحو الوافي]{.ar} 4/22](https://shamela.ws/book/10641/2354)]
 
 In other words,
 for example () above,
@@ -368,7 +362,7 @@ the caseless verbs
 [أَتَى]{.ar} and [أَكْرَمَ]{.ar}
 are,
 both times,
-directly governed in the positional ø-case.^[haazimi]
+directly governed in the positional ø-case.^[[[شرح ألفية ابن مالك للحازمي]{.ar} 113/1](https://shamela.ws/book/36130/2310)]
 
 @fig-in_ataytani_ataytuka depicts the government of example ().
 
@@ -447,6 +441,14 @@ in conditional sentences:
     [[[صحيح البخاري]{.ar} :4750](https://sunnah.com/bukhari:4750)]{.citex}  
     [If you ask the slave-girl, she will tell you the truth.]{.trans}  
 
+(@) [إِنْ أَنْطِقْ أُطَلَّقْ وَإِنْ أَسْكُتْ أُعَلَّقْ]{.ar}
+    [[[الشمائل المحمدية]{.ar} :252](https://sunnah.com/shamail:252)]{.citex}  
+    [If I speak, I will be divorced. And If I stay quiet, I will be left suspended.]{.trans}
+
+(@) [إِنْ تَقْتُلْنِي تَقْتُلْ ذَا دَمٍ وَإِنْ تُنْعِمْ تُنْعِمْ عَلَى شَاكِرٍ]{.ar}
+    [[[صحيح البخاري]{.ar} :4372](https://sunnah.com/bukhari:4372)]{.citex}  
+    [If you kill me, you kill a person wanted for a killing. But if you bestow favor, you bestow favor on a grateful person.]{.trans}  
+
 ##### Examples of [إِنْ قَتَلَ قَتَلَ]{.ar}: {.unnumbered}
 
 (@) [إِنۡ أَحۡسَنتُمۡ أَحۡسَنتُمۡ لِأَنفُسِكُمۡۖ]{.quran}
@@ -459,8 +461,15 @@ in conditional sentences:
 
 (@) [إِنْ أَذِنْتَ لِي أَعْطَيْتُ هَؤُلاَءِ]{.ar}
     [[[صحيح البخاري]{.ar} :2602](https://sunnah.com/bukhari:2602)]{.citex}  
-    [If you permit, I will give to these [people].]{.trans}  
+    [If you permit me, I will give to these [people].]{.trans}  
 
+(@) [إِنْ أَحْسَنَ النَّاسُ أَحْسَنَّا وَإِنْ ظَلَمُوا ظَلَمْنَا]{.ar}
+    [[[جامع الترمذي]{.ar} :2007](https://sunnah.com/tirmidhi:2007)]{.citex}  
+    [If the people are good to us, we will be good [to them]. And if they wrong us, we will wrong [them].]{.trans}  
+
+(@) [إِنْ كَرِهَ مِنْهَا خُلُقًا رَضِيَ مِنْهَا آخَرَ]{.ar}
+    [[[صحيح مسلم]{.ar} :1468b](https://sunnah.com/muslim:1468b)]{.citex}  
+    [If he dislikes a characteristic of hers, he is pleased with another [characteristic of hers].]{.trans}  
 
 ##### Examples of [إِنْ قَتَلَ يَقْتُلْ]{.ar}: {.unnumbered}
 
@@ -495,7 +504,7 @@ Negations
 and
 [لَنْ يَقْتُلَ]{.ar}
 are not used when negating
-the condition-verb or the condition-response-verb.^[[النحو الوافي]{.ar}]
+the condition-verb or the condition-response-verb.^[[[النحو الوافي]{.ar} 4/445](https://shamela.ws/book/10641/2372#p1)]
 (They can however be used when negating a verb
 which is not directly
 the condition-verb or the condition-response-verb, as we will see in section\ (ref), if Allāh wills.)
@@ -516,20 +525,24 @@ So if the condition is
 [إِنْ قَتَلَ]{.ar},
 then
 [لَمْ يَقْتُلْ]{.ar}
-is preferred in the condition-response.^[sirafi 3/295]
+is preferred in the condition-response.^[[[شرح كتاب سيبويه للسيرافي]{.ar} 3/295](https://shamela.ws/book/17726/1291)]
 For example:
 
 (@) [إِنْ أَتَيْتَنِي لَمْ آتِكَ]{.ar}
+    [composed from [[شرح كتاب سيبويه للسيرافي]{.ar} 3/295](https://shamela.ws/book/17726/1291)]{.citex}  
+    [If you come to me, I will not come to you.]{.trans}
 
 And
 if the condition is
 [إِنْ يَقْتُلْ]{.ar},
 then
 [لَا يَقْتُلْ]{.ar}
-is preferred in the condition-response.^[sirafi 3/295]
+is preferred in the condition-response.^[[[شرح كتاب سيبويه للسيرافي]{.ar} 3/295](https://shamela.ws/book/17726/1291)]
 For example:
 
 (@) [إِنْ تَأْتِنِي لَا آتِكَ]{.ar}
+    [composed from [[شرح كتاب سيبويه للسيرافي]{.ar} 3/295](https://shamela.ws/book/17726/1291)]{.citex}  
+    [If you come to me, I will not come to you.]{.trans}
 
 
 The non-symmetric combination
@@ -539,8 +552,9 @@ The non-symmetric combination
 is also fairly common.
 For example:
 
-(@) [إن لم تأتني أجزك]{.ar}
-    [sibawahi 3/68]{.citex}  
+(@) [إِنْ لَمْ تَأْتِنِي أَجْزِكَ]{.ar}
+    [[[كتاب سيبويه]{.ar} 3/68](https://shamela.ws/book/23018/921)]{.citex}  
+    [If you don't come to me, I will recompense you.]{.trans}
 
 But as with the combination
 [إِنْ يَقْتُلْ  قَتَلَ]{.ar}
@@ -551,13 +565,14 @@ is uncommon.
 For example:
 
 (@) [إِنْ تَأْتِنِي لَمْ آتِكَ]{.ar}
-    [sirafi 3/295]{.citex}  
+    [[[شرح كتاب سيبويه للسيرافي]{.ar} 3/295](https://shamela.ws/book/17726/1291)]{.citex}  
+    [If you come to me, I will not come to you.]{.trans}
 
 In any case,
 symmetry is by no means mandatory,
 and the longer the distance (in words) between
 the condition-verb and the condition-response,
-the easier it is to disregard its being preferred.^[rummani]
+the easier it is to disregard its being preferred.^[[[شرح كتاب سيبويه للرماني - جزء منه]{.ar} 951](https://shamela.ws/book/18282/786#np787_3)]
 
 With regards to
 their frequencies in attested usage,
@@ -581,6 +596,11 @@ Here are some examples:
 
 (@) [اللهُمّ إنْ تَظْهَرْ عَلَيّ هَذِهِ الْعِصَابَةُ يَظْهَرْ الشّرْكُ، **وَلَا يَقُمْ** لَك دِين]{.ar}
     [[[مغازي الواقدي]{.ar} 1/67](https://shamela.ws/book/23680/108) cited by Peled, _Conditional structures in Classical Arabic_ 15]{.citex}  
+
+(@) [وَإِنْ لَا تَفْعَلْ مَلَأْتُ يَدَكَ شُغْلًا وَلَمْ أَسُدَّ فَقْرَكَ]{.ar}
+    [[[صحيح ابن حبان]{.ar} :393](https://hadithunlocked.com/ibnhibban:393)]{.ar}
+    [And if you don't do [so], I will fill your hand with preoccupation, and I will not block your poverty.]{.trans}  
+
 
 The particle [لَا]{.ar}
 will not affect the government of
@@ -639,21 +659,31 @@ the condition-verb and the condition-response-verb,
 negated with [لَمْ]{.ar}:
 
 
-(@) [إن **أتيتني** لم آتك]{.ar}
+(@) [إِنْ أَتَيْتَنِي لَمْ آتِكَ]{.ar}
     [[[كتاب سيبويه]{.ar} 3/91](https://shamela.ws/book/23018/944)]{.citex}  
 
-(@) [إن **لم تأتني** أجزك]{.ar}
+(@) [إِنْ لَمْ تَأْتِنِي أَجْزِكَ]{.ar}
     [[[كتاب سيبويه]{.ar} 3/68](https://shamela.ws/book/23018/921)]{.citex}  
 
-(@) [إن **لم تأتني لم آتك**]{.ar}
+(@) [إِنْ لَمْ ُتُكْرِمْنِي لَمْ أُكْرِمْكَ]{.ar}
+    [[[شرح ألفية ابن مالك للشاطبي]{.ar} 6/133](https://shamela.ws/book/20562/3520)]{.citex}  
+    [If you don't honor me, I will not honor you.]{.trans}  
 
 (@) [إِنِ افْتَرَقْتُمْ **لَمْ تَجْتَمِعُوا** أَبَدًا]{.ar}
     [[[تاريخ الطبري]{.ar} 4/24](https://shamela.ws/book/9783/1915) cited by Reckendorf, _Arabische syntax_ 485]{.citex}  
 
+(@) [وَإِنْ لَمْ يَعْمَلْهَا كُتِبَتْ حَسَنَةً]{.ar}
+    [[[مسند أحمد]{.ar} :2001](https://hadithunlocked.com/ahmad:2001)]{.citex}  
+    [And if he did not do it, a good deed is written for him.]{.trans}  
+
+(@) [فَإِنْ وَجَدْتُ بُكَاءً بَكَيْتُ **وَإِنْ لَمْ أَجِدْ** بُكَاءً تَبَاكَيْتُ لِبُكَائِكُمَا]{.ar}
+    [[[صحيح مسلم]{.ar} :1763](https://sunnah.com/muslim:1763)]{.citex}  
+    [For if I feel [that I can cry] I will cry, and if I don't feel [I can cry], I will compel myself to cry [in sympathy] of your crying.]{.trans}  
+
 The grammarians differed regarding
 the government of the 
 the condition-verb and the condition-response-verb,
-when negated with [لَمْ]{.ar}.^[[النحو الوافي]{.ar}]
+when negated with [لَمْ]{.ar}.^[[[النحو الوافي]{.ar} 4/414--415](https://shamela.ws/book/10641/2346)]
 Some grammarians are of the opinion that
 [لَمْ]{.ar} directly governs the ø-case mudarie verb
 while [إِنْ]{.ar} governs the verbal sentences which contain the caseful verb.
@@ -884,7 +914,7 @@ On the other hand [آتيك في البيت]{.ar} is similar to [آتيك عند
 Having said all the above,
 there is no problem if we refer to such a sentence,
 loosely speaking and for convenience,
-as an inverted conditional sentence.^[[النحو الوافي]{.ar} citing [كتاب سيبويه]{.ar}]
+as an inverted conditional sentence.
 As long as we understand that the true condition-response is deleted and virtually modeled after the condition in sentence word order.
 
 Here are some more examples of inverted conditional sentences:
@@ -902,6 +932,9 @@ Here are some more examples of inverted conditional sentences:
     [[[شرح ابن يعيش على المفصل]{.ar} 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
     [I [will be] a wrongdoer if I did [some action].]{.trans}  
 
+(@) [لاَ يَقُلْ أَحَدُكُمُ **اللَّهُمَّ اغْفِرْ لِي إِنْ شِئْتَ ارْحَمْنِي إِنْ شِئْتَ ارْزُقْنِي إِنْ شِئْتَ** وَلْيَعْزِمْ مَسْأَلَتَهُ إِنَّهُ يَفْعَلُ مَا يَشَاءُ لاَ مُكْرِهَ لَهُ]{.ar}
+    [[[صحيح البخاري]{.ar} :7477](https://sunnah.com/bukhari:7477)]{.citex}  
+    [Let not any of you say, **"O Allāh, forgive me if You wish, have mercy on me if You wish, provide sustenance me if You wish."** [Rather,] let him be resolved in his asking. Indeed He does what He wills, there is no one to compel Him.]{.trans}
 
 In examples () and () above,
 the "inverted" condition-responses
@@ -911,13 +944,6 @@ and
 [أَنَا ظَالِمٌ]{.ar})
 , not verbal sentences.
 We will discuss such condition-responses in section\ (ref), if Allāh wills.
-
-[find [إن شئت]{.ar} at the end of a sentence in hadith]
-
-<!--
-(@) [وإن أتاه خليلٌ يومَ مسألةٍ ... يقولُ لا غائبٌ مالي ولا حَرِمُ]{.ar}
-    [[كتاب سيبويه]{.ar} 3/66]{.citex}  
--->
 
 
 Note that all the examples
@@ -940,18 +966,19 @@ another
 after it as the condition-response-verb.
 So the following example is not preferred:
 
-(@) [آتيك إن تأتني]{.ar}
-    [[كتاب سيبويه]{.ar} 3/68]{.citex}  
+(@) [آتِيكَ إِنْ تَأْتِنِي]{.ar}
+    [[[كتاب سيبويه]{.ar} 3/68](https://shamela.ws/book/23018/921); [[شرح ابن يعيش على المفصل]{.ar} 5/118](https://shamela.ws/book/13301/2056)]{.citex}  
+    [I will come to you, if you come to me.]{.trans}  
 
 This is because
 [يَقْتُلْ]{.ar}
 in the condition
-([إن تأتني]{.ar})
+([إِنْ تَأْتِنِي]{.ar})
 prefers 
 that it have another [يَقْتُلْ]{.ar}
 in the condition-response,
 and that its condition-response
-not be deleted.^[ibn ya3ish, sibawayhi 3/66]
+not be deleted.^[[[كتاب سيبويه]{.ar} 3/68](https://shamela.ws/book/23018/921); [[شرح ابن يعيش على المفصل]{.ar} 5/118](https://shamela.ws/book/13301/2056)]
 
 Having said that, an inverted
 [إِنْ يَقْتُلْ]{.ar}
@@ -1003,7 +1030,7 @@ That is, a caseful condition-response-verb is in the u-case,
 not the ø-case.
 For example:
 
-(@) [إن أتيتني آتيك]{.ar}
+(@) [إِنْ أَتَيْتَنِي آتِيكَ]{.ar}
     [[[كتاب سيبويه]{.ar} 3/66](https://shamela.ws/book/23018/919#p1)]{.citex}  
     [If you come to me, I come to you.]{.trans}  
 
@@ -1021,7 +1048,7 @@ in the ø-case.
 One way the grammarians work around this problem is by modeling example ()
 to originally be an inverted conditional sentence, thus:
 
-(@) [آتيك إن أتيتني [آتك]]{.ar}  
+(@) [آتِيكَ إِنْ أَتَيْتَنِي [آتِكَ]]{.ar}  
     [I come to you if you come to me [I come to you].]{.trans}  
 
 Once the original condition-response
@@ -1032,26 +1059,27 @@ then the independent sentence
 is (optionally)
 moved to after the condition to take the place of
 the original condition-response
-[آتِكَ]{.ar}.^[[النحو الوافي]{.ar} 4/475--476 (footnotes)]
+[آتِكَ]{.ar}.^[[[النحو الوافي]{.ar} 4/475--476 (footnotes)](https://shamela.ws/book/10641/2402) citing [كتاب سيبويه]{.ar}]
 
 There is also another technique to analyze such conditional sentences,
 and that is to assume a deleted [فَ]{.ar}
 (and also possibly a deleted subject)
-before the condition-response.^[usool fi al-nahw 2/194; rummani 949; [معاني النحو]{.ar} 4/104]
+before the condition-response.^[[[شرح كتاب سيبويه للرماني - جزء منه]{.ar} 949](https://shamela.ws/book/18282/784#p1)]
 With the
 deleted elements restored,
 restored, the sentence is:
 
-(@) [إن أتيتني فآتيك]{.ar}  
+(@) [إِنْ أَتَيْتَنِي فَآتِيكَ]{.ar}  
     or  
-    [إن أتيتني فأنا آتيك]{.ar}  
+    [إِنْ أَتَيْتَنِي فَأَنا آتِيكَ]{.ar}  
+    [[[شرح كتاب سيبويه للرماني - جزء منه]{.ar} 949](https://shamela.ws/book/18282/784#p1)]{.citex}  
     [If you come to me **then** I will come to you.]{.trans}  
 
 Condition-responses that begin with [فَ]{.ar} will be treated in section\ (ref) below, if Allāh wills.
 
 Here are some more examples of this kind of conditional sentence:
 
-(@) [**وإن أتاه** خليلٌ يومَ مسألةٍ ... **يقولُ** لا غائبٌ مالي ولا حَرِمُ]{.ar}
+(@) [**وإن أتاه** خليلٌ يومَ مسألةٍ **يقولُ** لا غائبٌ مالي ولا حَرِمُ]{.ar}
     [[[كتاب سيبويه]{.ar} 3/66](https://shamela.ws/book/23018/919#p1)]{.citex}  
     [And if a friend came to him on a day of asking, he says, "My wealth is neither absent nor denied."]{.trans}
 
@@ -1107,18 +1135,20 @@ The addition of [مَا]{.ar} to [إِنْ]{.ar}
 can emphasize the meaning of the condition-response.
 Example:
 
-(@) [إمّا تأتني آتِك]{.ar}
+(@) [إمّا تَأْتِنِي آتِكَ]{.ar}
     [[[شرح ابن يعيش على المفصل]{.ar} 5/115](https://shamela.ws/book/13301/2053)]{.citex}  
     [If you come to me, I will come to you.]{.trans}  
 
-[يَقْتُلْ]{.ar} is only used with [إِمَّا]{.ar} uncommonly or by poetic license.^[[[النحو الوافي]{.ar} 4/174](https://shamela.ws/book/10641/2106)]
+[يَقْتُلْ]{.ar},
+as a ;fi3l_shart,
+is only used with [إِمَّا]{.ar} uncommonly or by poetic license.^[[[النحو الوافي]{.ar} 4/174](https://shamela.ws/book/10641/2106)]
 Instead, the condition-verb with [إِمَّا]{.ar} is usually a emphatic verb
 ([يَقْتُلَنَّ]{.ar}).
 For example:
 
 (@) [فَإِمَّا تَرَیِنَّ مِنَ ٱلۡبَشَرِ أَحَدࣰا فَقُولِیۤ إِنِّی نَذَرۡتُ لِلرَّحۡمَـٰنِ صَوۡمࣰا فَلَنۡ أُكَلِّمَ ٱلۡیَوۡمَ إِنسِیࣰّا]{.quran}
-    [[[سورة مريم]{.ar} 19:26](https://quran.com/19/26) cited by [[[شرح ابن يعيش على المفصل]{.ar} 5/115](https://shamela.ws/book/13301/2053)]{.citex}  
-    [And if you see from among humanity anyone, say, 'Indeed, I have vowed to the Most Merciful abstention, so I will not speak today to [any] man.'"]{.ar}  
+    [[[سورة مريم]{.ar} 19:26](https://quran.com/19/26) cited by [[شرح ابن يعيش على المفصل]{.ar} 5/115](https://shamela.ws/book/13301/2053)]{.citex}  
+    [And if you see from among humanity anyone, say, 'Indeed, I have vowed to the Most Merciful abstention, so I will not speak today to [any] man.'"]{.trans}  
     ([فَ]{.ar} introducing the condition-response is discussed in section () below.)
 
 ## The [إِذَا]{.ar} conditional sentence
@@ -1304,6 +1334,22 @@ depicts the government of example ().
 
 Here are some more examples of conditional sentences with [إِذَا]{.ar}:
 
+(@) [إِذَا صَلَحَتْ صَلَحَ الْجَسَدُ كُلُّهُ وَإِذَا فَسَدَتْ فَسَدَ الْجَسَدُ كُلُّهُ]{.ar}
+    [[[صحيح البخاري]{.ar} :52](https://sunnah.com/bukhari:52)]{.citex}  
+    [When it is upright, the whole body is upright. And when it is corrupt, the whole body is corrupt.]{.trans}  
+
+(@) [كَانَ رَسُولُ اللهِ صلى الله عليه وسلم إِذَا سَجَدَ جَافَى حَتَّى يُرَى بَيَاضُ إِبْطَيْهِ]{.ar}
+    [[[مسند أحمد]{.ar} :14138](https://hadithunlocked.com/ahmad:14138)]{.citex}  
+    [When the Messenger of Allāh would prostrate, he would put his upper arms apart from his sides until the whiteness of his underarms could be seen.]{.trans}  
+
+(@) [كَانَ إِذَا خَرَجَ أَقْرَعَ بَيْنَ نِسَائِهِ]{.ar}
+    [[[صحيح البخاري]{.ar} :5211](https://hadithunlocked.com/bukhari:5211)]{.citex}  
+    [When he would go out (on a journey), he would draw lots among his wives.]{.trans}  
+
+(@) [إِذَا دَخَلَ أَهْلُ الْجَنَّةِ الْجَنَّةَ، نُودُوا ...]{.ar}
+    [[[مسند أحمد]{.ar} :18935](https://hadithunlocked.com/ahmad:18935)]{.citex}  
+    [When the people of Paradise enter Paradise, they will be called ...]{.trans}  
+
 ### Caseful verbs in the [إِذَا]{.ar} conditional sentence
 
 We learned
@@ -1419,9 +1465,17 @@ as an inverted conditional sentence.
 if contains the _meaning_ of a condition.
 For example:
 
+(@) [وَتَوَفَّنِي إِذَا كَانَتِ الْوَفَاةُ خَيْرًا لِي]{.ar}
+    [[[صحيح البخاري]{.ar} :5671](https://sunnah.com/bukhari:5671)]{.citex}  
+    [And take my soul if death is better for me.]{.trans}
+
 (@) [فَأَقْبَلَ رَجُلٌ غَائِرُ الْعَيْنَيْنِ مُشْرِفُ الْوَجْنَتَيْنِ نَاتِئُ الْجَبِينِ كَثُّ اللِّحْيَةِ مَحْلُوقٌ فَقَالَ اتَّقِ اللَّهَ يَا مُحَمَّدُ فَقَالَ  **مَنْ يُطِعِ اللَّهَ إِذَا عَصَيْتُ** أَيَأْمَنُنِي اللَّهُ عَلَى أَهْلِ الأَرْضِ فَلاَ تَأْمَنُونِي]{.ar}^[It is not clear to us why [يُطِع]{.ar} is in the ø-case from this source. Peled's source [الجامع الصحيح]{.ar}, ed.\ L.\ Krehl, Leiden: Brill, 1864, II, 337 l:9 has [يُطِيعُ]{.ar} in the u-case.]  
     [[[صحيح البخاري]{.ar} :3344](https://sunnah.com/bukhari:3344) cited by Peled, _Conditional structures in Classical Arabic_ 142]{.citex}  
     [Then a man with sunken eyes, prominent checks, a raised forehead, a thick beard and a shaven head, came in front [of the Prophet [ﷺ]{.aralt}] and said, "Be afraid of Allāh, O [#muHammad]{.trn2}!" The Prophet [ﷺ]{.aralt} said, "**Who would obey Allah if I disobeyed [Him]?** (Is it fair that) Allāh has trusted all the people of the earth to me while you do not trust me?"]{.trans}  
+
+(@) [لِلْمُسْلِمِ عَلَى الْمُسْلِمِ سِتٌّ بِالْمَعْرُوفِ يُسَلِّمُ عَلَيْهِ إِذَا لَقِيَهُ وَيُجِيبُهُ إِذَا دَعَاهُ وَيُشَمِّتُهُ إِذَا عَطَسَ وَيَعُودُهُ إِذَا مَرِضَ وَيَتْبَعُ جَنَازَتَهُ إِذَا مَاتَ وَيُحِبُّ لَهُ مَا يُحِبُّ لِنَفْسِهِ]{.ar}
+    [[[جامع الترمذي]{.ar} :2736](https://hadithunlocked.com/tirmidhi:2736)]{.citex}  
+    [There are six courtesies due to a Muslim from another Muslim: he gives the greeting of peace when he sees him, he responds to him when he invites him, he [says [يرحمك الله]{.ar}] when he sneezes, he visits him when he is ill, he follows his funeral when he dies, and he loves for him what he loves for himself.]{.trans}  
 
 ### Certainty of the event indicated by [إِذَا]{.ar}
 
@@ -1507,7 +1561,9 @@ For example:
 -->
 
 [إِذَا مَا]{.ar} is more common than [إِذَا]{.ar}
-as a ø-case-izing conditional-device.^[[[شرح ابن يعيش على المفصل]{.ar} 4/272](https://shamela.ws/book/13301/1636)]
+when the condition-verb and/or the condition-response-verb
+are [يَقْتُلْ]{.ar} instead of [قَتَلَ]{.ar}
+(see examples () and () above).^[[[شرح ابن يعيش على المفصل]{.ar} 4/272](https://shamela.ws/book/13301/1636)]
 Examples:
 
 (@) [إذا ما **تأتني أُحسِنْ** إليك]{.ar}
@@ -1548,8 +1604,8 @@ all of the following conditional sentences will typically have a future meaning:
 
 As for the distinction in meaning between using [يَقْتُلْ]{.ar} vs. [قَتَلَ]{.ar},
 the most we can say is that
-the caseless verb signifies more certainty.
-Whereas a ø-case caseful verb signifies potentiality.^[see [التأويل الزمني للجملة الشرطية في اللغة العربية لعارف الدين]{.ar} 49]
+the caseless verb signifies the completion of an action.
+Whereas a ø-case caseful verb signifies the potentiality of an action.^[see [التأويل الزمني للجملة الشرطية في اللغة العربية لعارف الدين]{.ar} 49]
 And perhaps these aspects have some influence on which of the two is chosen in a conditional sentence.
 
 Having said all of the above,
@@ -1573,6 +1629,10 @@ Examples:
 (@) [أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ إِذَا أُتِيَ بِطَعَامٍ سَأَلَ عَنْهُ **فَإِنْ قِيلَ** هَدِيَّةٌ **أَكَلَ** مِنْهَا **وَإِنْ قِيلَ** صَدَقَةٌ **لَمْ يَأْكُلْ** مِنْهَا]{.ar}
     [[[صحيح مسلم]{.ar} :1077](https://sunnah.com/muslim:1077)]{.citex}  
     [that the Prophet [ﷺ]{.aralt} would, when he was brought some food, ask about it. If it **was said** [that it was] a gift, he **ate** from it, and if it **was said** [that it was] charity, he **did not eat** from it.]{.trans}  
+
+(@) [مَا عَابَ النَّبِيُّ صلى الله عليه وسلم طَعَامًا قَطُّ إِنِ **اشْتَهَاهُ أَكَلَهُ** وَإِنْ **كَرِهَهُ تَرَكَهُ**]{.ar}
+    [[[صحيح البخاري]{.ar} :5409](https://sunnah.com/bukhari:5409)]{.citex}  
+    [The Prophet [ﷺ]{.aralt} never criticized any food whatsoever. If **he liked it, he ate** it. And if **he disliked it, he left** it.]{.trans}
 
 ### With [فَ]{.ar} as the condition-response-link
 
@@ -2005,6 +2065,10 @@ Examples:
     [[[سورة النساء]{.ar} 4:123](https://quran.com/4/123) cited by [[شرح ابن عقيل على الألفية]{.ar} 4/27](https://shamela.ws/book/9904/1034)]{.citex}  
     [Whoever does a wrong will be recompensed for it]{.trans}  
 
+(@) [مَنِ اتَّبَعَ عَوْرَاتِهِمْ يَتَّبِعِ اللَّهُ عَوْرَتَهُ]{.ar}
+    [[[سنن أبي داود]{.ar} :4880](https://sunnah.com/abudawud:4880)]{.citex}  
+    [Whoever trails [them for] their faults, Allāh will trail [him for] his fault.]{.trans}  
+
 (@) [مَا يُعْجِبْكَ يُعْجِبْنِي]{.ar}
     [[[شرح الفارضي على ألفية ابن مالك]{.ar} 4/15](https://shamela.ws/book/174/1707)]{.citex}  
     [Whatever pleases you, it will please me.]{.trans}  
@@ -2212,7 +2276,14 @@ Besides those, there are others that can be
 loosely be considered conditional-devices.
 Unlike
 ø-case-izing conditional-devices,
-this is a loosely defined category.
+this is a loosely defined category,
+with some
+ø-case-izing conditional-devices
+having only a whiff of,
+or only partial
+conditionality
+in their meaning.
+
 We will consider a word to be
 a non-ø-case-izing conditional-device
 if it establishes a dependent relationship between two clauses,
@@ -2935,7 +3006,7 @@ we repeat here the examples we had given there:
     [[[كتاب سيبويه]{.ar} 3/66](https://shamela.ws/book/23018/919#p1)]{.citex}  
     [If you come to me, I come to you.]{.trans}  
 
-(@) [**وإن أتاه** خليلٌ يومَ مسألةٍ ... **يقولُ** لا غائبٌ مالي ولا حَرِمُ]{.ar}
+(@) [**وإن أتاه** خليلٌ يومَ مسألةٍ **يقولُ** لا غائبٌ مالي ولا حَرِمُ]{.ar}
     [[[كتاب سيبويه]{.ar} 3/66](https://shamela.ws/book/23018/919#p1)]{.citex}  
     [And if a friend came to him on a day of asking, he says, "My wealth is neither absent nor denied."]{.trans}
 
@@ -2977,7 +3048,7 @@ For example:
 
 ## Alternate condition-response-links
 
-### sudden-[إِذَا]{.ar}
+### Sudden-[إِذَا]{.ar}
 
 
 When the condition-response begins with [فَ]{.ar},
@@ -3016,7 +3087,7 @@ so it can be used in conditional sentences which don't allow [فَ]{.ar} as a co
 For example:
 
 (@) [إِنْ تَزُرْنِي إِذَنْ أُكْرِمْكَ]{.ar}
-    [[ارتشاف الضرب من لسان العرب]{.ar} 4/1652](https://shamela.ws/book/16595/1649)]{.citex}  
+    [[[ارتشاف الضرب من لسان العرب]{.ar} 4/1652](https://shamela.ws/book/16595/1649)]{.citex}  
     [If you visit me, in that case I will honor you.]{.trans}
 
 
@@ -3482,12 +3553,14 @@ Here are some more examples of [لَوْلَا]{.ar} and [لَوْمَا]{.ar}
 
 #### [لَوْلَا]{.ar} as a question-device {.unnumbered}
 
-Not a condition. Treated in chapter (istifham).
-
-FIXME: move to istifham chapter:
+[لَوْلَا]{.ar} is also used as a question-device to me [why not]{.trans}.
+For example:
 
 (@) [لَوْلاَ مَتَّعْتَنَا بِهِ]{.ar}
     [[[صحيح البخاري]{.ar} :6331](https://sunnah.com/bukhari:6331)]{.citex}  
+    [Why didn't you let us enjoy him?]{.trans}  
+
+In this case we won't consider it a conditional-device.
 
 <!--
 ### A condition-core beginning with a noun
@@ -3539,9 +3612,14 @@ Here are some examples:
 A ø-case caseful condition-verb is exceedingly rare with [لَوْ]{.ar} but it is occasionally found.
 For example:
 
-(@) [لَوْ تَعُذْ حِينَ فَرَّ قَوْمُكَ بِي كُنْتَ مِنَ الأَمْنِ فِي أَعَزِّ مَكَانٍ]{.ar}
+(@) [لَوْ **تَعُذْ** حِينَ فَرَّ قَوْمُكَ بِي كُنْتَ مِنَ الأَمْنِ فِي أَعَزِّ مَكَانٍ]{.ar}
     [[[شواهد التوضيح لابن مالك]{.ar} 72](https://shamela.ws/book/98123/69#p1)]{.citex}  
     [Had you taken refuge, when your people fled, with me, you would have been, with regards to security, in the mightiest place.]{.trans}  
+
+<!--
+(@) [لو **يشأ** طار به ذو مَيعةٍ ْلاحقُ الآطالِ نهدٌ ذو خُصل]{.ar}
+    [[[شواهد التوضيح لابن مالك]{.ar} 72](https://shamela.ws/book/98123/69#p1)]{.citex}
+-->
 
 ### [لَوْ]{.ar} expressing a wish or hope
 
@@ -3617,17 +3695,6 @@ Very rarely, a nounal sentence has been found to directly occur in the condition
 Some grammarians have analyzed [لَمَثُوبَةٌ مِنَ اللهِ خَيرٌ]{.ar} to directly be the condition-response.
 Whereas others have used virtual modeling.^[[[هل يقع جواب (لو) جملة اسمية؟]{.ar}, jamharah.net](https://jamharah.net/showthread.php?p=51540&__cf_chl_f_tk=olodL9o4qULPBi9qm4OZtgPe9o9jplpGgBKAcNjX6h0-1783293637-1.0.1.1-OL1LLUhK27d_zCqCdL3yEJVDwEpQsBIyUVPqNO7aG5c)]
 
-### ø-case-izing [لَوْ]{.ar}
-
-Rarely, [لَوْ]{.ar} may behave like [إِنْ]{.ar},
-in that it may govern its condition-verb in the ø-case.
-For examples:
-
-(@) [لوتعذ حين فَر قومك بي كنت من الأمن في أعز مكان]{.ar}
-    [[[شواهد التوضيح لابن مالك]{.ar} 72](https://shamela.ws/book/98123/69#p1)]{.citex}
-
-(@) [لو يشأ طار به ذو مَيعةٍ ْلاحقُ الآطالِ نهدٌ ذو خُصل]{.ar}
-    [[[شواهد التوضيح لابن مالك]{.ar} 72](https://shamela.ws/book/98123/69#p1)]{.citex}
 
 ## Deletion in the conditional sentence
 
@@ -3748,6 +3815,10 @@ Examples:
 (@) [أَنَا زَعِيمٌ بِبَيْتٍ فِي رَبَضِ الْجَنَّةِ لِمَنْ تَرَكَ الْمِرَاءَ **وَإِنْ كَانَ مُحِقًّا**]{.ar}
     [[[سنن أبي داود]{.ar} :4800](https://sunnah.com/abudawud:4800)]{.citex}  
     [I guarantee a house in the surroundings of Paradise for a man who avoids arguing even if he were in the right.]{.trans}
+
+(@) [قُلْتُ وَإِنْ زَنَى وَإِنْ سَرَقَ قَالَ وَإِنْ زَنَى وَإِنْ سَرَقَ]{.ar}
+    [[[صحيح مسلم]{.ar} :94b](https://sunnah.com/muslim:94b)]{.citex}  
+    [I said, "Even if he fornicated and even if he stole?".  He said, "Even if he fornicated and even if he stole."]{.trans}  
 
 The condition-response is also obligatorily deleted for parenthetical conditions.
 For example:
@@ -4274,11 +4345,8 @@ is valid.
 
 ## The conditional sentence within a larger sentence
 
-Al-Saad, _Conditional structure in Classical Arabic_ chapter 6
 
-[الجملة الشرطية عند النحاة العرب للشمسان]{.ar} [430--440](https://archive.org/details/aljomla-ashrtia.g/page/n431/mode/2up), [455ff](https://archive.org/details/aljomla-ashrtia.g/page/n455/mode/2up)
-
-The conditional sentence can occur as an element within a larger compound sentence.
+The conditional sentence can occur as an element within a larger compound sentence.^[Al-Saad, _Conditional structure in Classical Arabic_ chapter 6; [الجملة الشرطية عند النحاة العرب للشمسان]{.ar} [430--440](https://archive.org/details/aljomla-ashrtia.g/page/n431/mode/2up), [455ff](https://archive.org/details/aljomla-ashrtia.g/page/n455/mode/2up)]
 It may occur in different capacities.
 We will discuss some of them below.
 
@@ -4929,6 +4997,12 @@ The verbal sentence
 is a [HAl]{.trn2}.
 And that is why its verb is in the u-case.
 
+Here is another example:
+
+(@) [وَإِنْ أَتَانِي **يَمْشِي** أَتَيْتُهُ هَرْوَلَةً]{.ar}
+    [[[صحيح مسلم]{.ar} :2675a](https://sunnah.com/muslim:2675a)]{.citex}  
+    [And if he comes to Me walking, I come to him rushing.]{.trans}  
+
 ### A condition-verb or condition-response-verb with a sub
 
 The condition-verb or condition-response-verb may be followed by a verbal sentence
@@ -4945,7 +5019,7 @@ Examples:
     [If you come to use, we will be good to you, we will give to you and we will protect you.]{.trans}  
     [نُعْطِكَ]{.ar} is a sub of [نُحْسِنْ إِلَيْكَ]{.ar}.
 
-(@) [وَمَن **یَفۡعَلۡ** ذَ ٰ⁠لِكَ یَلۡقَ أَثَامࣰا۝ **یُضَـٰعَفۡ** لَهُ ٱلۡعَذَابُ یَوۡمَ ٱلۡقِیَـٰمَةِ وَیَخۡلُدۡ فِیهِۦ مُهَانًا]{.quran}
+(@) [وَمَن یَفۡعَلۡ ذَ ٰ⁠لِكَ **یَلۡقَ** أَثَامࣰا۝ **یُضَـٰعَفۡ** لَهُ ٱلۡعَذَابُ یَوۡمَ ٱلۡقِیَـٰمَةِ وَیَخۡلُدۡ فِیهِۦ مُهَانًا]{.quran}
     [[[سورة الفرقان]{.ar} 25:68-69](https://quran.com/25/68-69) cited by [[كتاب سيبويه]{.ar} 3/87](https://shamela.ws/book/23018/940)]{.citex}  
     [And whoever should do that will meet a penalty. Multiplied for him is the punishment on the Day of Resurrection, and he will abide therein humiliated]{.trans}  
     [يُضَاعَفْ]{.ar},
