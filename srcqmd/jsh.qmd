@@ -1072,7 +1072,7 @@ restored, the sentence is:
 
 Here are some more examples of this kind of ;j_sh;:
 
-(@) [**وإن أتاه** خليلٌ يومَ مسألةٍ ... **يقولُ** لا غائبٌ مالي ولا حَرِمُ]{.ar}
+(@) [**وإن أتاه** خليلٌ يومَ مسألةٍ **يقولُ** لا غائبٌ مالي ولا حَرِمُ]{.ar}
     [[@sibawayhi@ 3/66](https://shamela.ws/book/23018/919#p1)]{.citex}  
     [And if a friend came to him on a day of asking, he says, "My wealth is neither absent nor denied."]{.trans}
 
@@ -1554,7 +1554,9 @@ For example:
 -->
 
 ;idhaamaa; is more common than ;idha;
-as a ;0case;-izing ;adat_shart;.^[[@ibn_ya3ish_mufassal@ 4/272](https://shamela.ws/book/13301/1636)]
+when the ;fi3l_shart; and/or the ;fi3l_jawab_shart;
+are ;yaqtul; instead of ;qatala;
+(see examples () and () above).^[[@ibn_ya3ish_mufassal@ 4/272](https://shamela.ws/book/13301/1636)]
 Examples:
 
 (@) [إذا ما **تأتني أُحسِنْ** إليك]{.ar}
@@ -2997,7 +2999,7 @@ we repeat here the examples we had given there:
     [[@sibawayhi@ 3/66](https://shamela.ws/book/23018/919#p1)]{.citex}  
     [If you come to me, I come to you.]{.trans}  
 
-(@) [**وإن أتاه** خليلٌ يومَ مسألةٍ ... **يقولُ** لا غائبٌ مالي ولا حَرِمُ]{.ar}
+(@) [**وإن أتاه** خليلٌ يومَ مسألةٍ **يقولُ** لا غائبٌ مالي ولا حَرِمُ]{.ar}
     [[@sibawayhi@ 3/66](https://shamela.ws/book/23018/919#p1)]{.citex}  
     [And if a friend came to him on a day of asking, he says, "My wealth is neither absent nor denied."]{.trans}
 
@@ -3039,7 +3041,7 @@ For example:
 
 ## Alternate ;jawab_shart_intro;s
 
-### ;idha_fj;
+### #;idha_fj;
 
 
 When the ;jawab_shart; begins with ;fa;,
@@ -3078,7 +3080,7 @@ so it can be used in ;j_sh;s which don't allow ;fa; as a ;jawab_shart_intro;.
 For example:
 
 (@) [إِنْ تَزُرْنِي إِذَنْ أُكْرِمْكَ]{.ar}
-    [@irtishaaf@ 4/1652](https://shamela.ws/book/16595/1649)]{.citex}  
+    [[@irtishaaf@ 4/1652](https://shamela.ws/book/16595/1649)]{.citex}  
     [If you visit me, in that case I will honor you.]{.trans}
 
 
@@ -3544,12 +3546,14 @@ Here are some more examples of ;law_laa; and ;law_maa;
 
 #### ;law_laa; as a ;adat_istifham; {.unnumbered}
 
-Not a ;shart;. Treated in chapter (istifham).
-
-FIXME: move to istifham chapter:
+;law_laa; is also used as a ;adat_istifham; to me [why not]{.trans}.
+For example:
 
 (@) [لَوْلاَ مَتَّعْتَنَا بِهِ]{.ar}
     [@https://sunnah.com/bukhari:6331@]{.citex}  
+    [Why didn't you let us enjoy him?]{.trans}  
+
+In this case we won't consider it a ;adat_shart;.
 
 <!--
 ### A ;shart_int; beginning with a noun
@@ -3601,9 +3605,14 @@ Here are some examples:
 A ;0case; ;mudarie; ;fi3l_shart; is exceedingly rare with ;law; but it is occasionally found.
 For example:
 
-(@) [لَوْ تَعُذْ حِينَ فَرَّ قَوْمُكَ بِي كُنْتَ مِنَ الأَمْنِ فِي أَعَزِّ مَكَانٍ]{.ar}
+(@) [لَوْ **تَعُذْ** حِينَ فَرَّ قَوْمُكَ بِي كُنْتَ مِنَ الأَمْنِ فِي أَعَزِّ مَكَانٍ]{.ar}
     [[@shawahid_tawdeeh@ 72](https://shamela.ws/book/98123/69#p1)]{.citex}  
     [Had you taken refuge, when your people fled, with me, you would have been, with regards to security, in the mightiest place.]{.trans}  
+
+<!--
+(@) [لو **يشأ** طار به ذو مَيعةٍ ْلاحقُ الآطالِ نهدٌ ذو خُصل]{.ar}
+    [[@shawahid_tawdeeh@ 72](https://shamela.ws/book/98123/69#p1)]{.citex}
+-->
 
 ### ;law; expressing a wish or hope
 
@@ -3679,17 +3688,6 @@ Very rarely, a ;j_ism; has been found to directly occur in the ;jawab_shart;:
 Some grammarians have analyzed [لَمَثُوبَةٌ مِنَ اللهِ خَيرٌ]{.ar} to directly be the ;jawab_shart;.
 Whereas others have used ;taqdiring;.^[[[هل يقع جواب (لو) جملة اسمية؟]{.ar}, jamharah.net](https://jamharah.net/showthread.php?p=51540&__cf_chl_f_tk=olodL9o4qULPBi9qm4OZtgPe9o9jplpGgBKAcNjX6h0-1783293637-1.0.1.1-OL1LLUhK27d_zCqCdL3yEJVDwEpQsBIyUVPqNO7aG5c)]
 
-### ;0case;-izing ;law;
-
-Rarely, ;law; may behave like ;in;,
-in that it may govern its ;fi3l_shart; in the ;0case;.
-For examples:
-
-(@) [لوتعذ حين فَر قومك بي كنت من الأمن في أعز مكان]{.ar}
-    [[@shawahid_tawdeeh@ 72](https://shamela.ws/book/98123/69#p1)]{.citex}
-
-(@) [لو يشأ طار به ذو مَيعةٍ ْلاحقُ الآطالِ نهدٌ ذو خُصل]{.ar}
-    [[@shawahid_tawdeeh@ 72](https://shamela.ws/book/98123/69#p1)]{.citex}
 
 ## #;hazf; in the ;j_sh;
 
@@ -4340,11 +4338,8 @@ is valid.
 
 ## The ;j_sh; within a larger sentence
 
-@saad_cond@ chapter 6
 
-@shamsan_jsh@ [430--440](https://archive.org/details/aljomla-ashrtia.g/page/n431/mode/2up), [455ff](https://archive.org/details/aljomla-ashrtia.g/page/n455/mode/2up)
-
-The ;j_sh; can occur as an element within a larger compound sentence.
+The ;j_sh; can occur as an element within a larger compound sentence.^[@saad_cond@ chapter 6; @shamsan_jsh@ [430--440](https://archive.org/details/aljomla-ashrtia.g/page/n431/mode/2up), [455ff](https://archive.org/details/aljomla-ashrtia.g/page/n455/mode/2up)]
 It may occur in different capacities.
 We will discuss some of them below.
 
