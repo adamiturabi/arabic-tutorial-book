@@ -102,7 +102,7 @@ model of
 ;arch; ;j_sh; with ;in;.
 -->
 
-### The ;arch; ;in; ;j_sh;
+### The ;arch; ;in; ;j_sh; {#sec-jsh_arch_in}
 
 Here is an example of an ;arch;,
 or most basic, 
@@ -209,7 +209,7 @@ Here are some more examples of the archetypal conditional sentence:
     [[@sibawayhi@ 3/63](https://shamela.ws/book/23018/916)]{.citex}  
     [If you will beat, I will beat.]{.trans}
 
-### The ;madi; verb with ;in;
+### The ;madi; verb with ;in; {#sec-jsh_qatala}
 
 A ;madi; verb can be used instead of one or both of the ;0case; verbs in a ;j_sh;.
 So, for example, instead of saying:
@@ -232,7 +232,7 @@ in ;j_sh;s.^[@peled_cst@ 14--15. See also footnote\ 5 on p.\ 15]
 
 In general, all four options will have more-or-less the same meaning:
 [If you come to me, I will come to you]{.trans}.
-In section\ () below,
+In @sec-jsh_tense below,
 we will discuss the ;tense; indicated by ;j_sh;s in more detail.
 But for now we can generally consider
 the ;madi; verb in a ;j_sh; to lose its past ;tense;.
@@ -405,7 +405,7 @@ in ;j_sh;s:
     [If they know that I have accepted ;islam;, they will say about me that which is not [true].]{.trans}  
 
 
-### Negating the ;shart; or ;jawab_shart;
+### Negating the ;shart; or ;jawab_shart; {#sec-jsh_negating_fil_shart}
 
 When either of
 the ;fi3l_shart; or the ;fi3l_jawab_shart;
@@ -428,7 +428,7 @@ are not used when negating
 the ;fi3l_shart; or the ;fi3l_jawab_shart;.^[[@nahw_wafi@ 4/445](https://shamela.ws/book/10641/2372#p1)]
 (They can however be used when negating a verb
 which is not directly
-the ;fi3l_shart; or the ;fi3l_jawab_shart;, as we will see in section\ (), ;ia;.)
+the ;fi3l_shart; or the ;fi3l_jawab_shart;, as we will see in @sec-jsh_examples_of_iqtiran_fa, ;ia;.)
 
 [;_laa; ;_yaqtul;]{.ar}
 is considered the negative counterpart of
@@ -479,7 +479,7 @@ For example:
 
 But as with the combination
 [;_in; ;_yaqtul;  ;_qatala;]{.ar}
-in section\ () above,
+in @sec-jsh_qatala above,
 the combination
 [;_in; ;_yaqtul;  ;_lam; ;_yaqtul;]{.ar}
 is uncommon.
@@ -514,7 +514,7 @@ Here are some examples:
 (@ex001180) [**إِنْ لَا تَكُنْ** هِنْدٌ بَكَتْهُ فَقَدْ بَكَتْ عَلَيْهِ الثُّرَيَّا]{.ar}
     [@reckendorf_1921@ 487]{.citex}  
     [If Hind did not weep [for] him, then the Pleiades have wept over him]{.trans}  
-    (The ;jawab_shart; in this example begins with [فَ]{.ar}. We will discuss this in section\ () below.)  
+    (The ;jawab_shart; in this example begins with [فَ]{.ar}. We will discuss this in @sec-j_sh_msc below.)  
 
 (@ex001181) [اللهُمّ إنْ تَظْهَرْ عَلَيّ هَذِهِ الْعِصَابَةُ يَظْهَرْ الشّرْكُ، **وَلَا يَقُمْ** لَك دِين]{.ar}
     [[@maghazi_waqidi@ 1/67](https://shamela.ws/book/23680/108) cited by @peled_cst@ 15]{.citex}  
@@ -694,7 +694,7 @@ This is depicted in
 
 :::
 
-### The inverted conditional sentence
+### The inverted conditional sentence {#sec-jsh_inverted_in}
 
 <!--
 [@nahw_wafi@ 4/450-451 (footnote); @peled_cst@ 139--140; @ibn_ya3ish_mufassal@ 5/118]
@@ -865,7 +865,7 @@ are the ;j_ism;s
 ([أَنْتِ طَالِقٌ]{.ar}
 and
 [أَنَا ظَالِمٌ]{.ar}), not ;j_f3l;s.
-We will discuss such ;jawab_shart;s in section\ (), ;ia;.
+We will discuss such ;jawab_shart;s in @sec-jsh_examples_of_iqtiran_fa, ;ia;.
 
 
 Note that all the examples
@@ -877,7 +877,7 @@ in the ;shart;
 and not
 [;_in; ;_yaqtul;]{.ar}.
 This is because,
-as we mentioned in section\ () above,
+as we mentioned in @sec-jsh_qatala above,
 when the
 ;fi3l_shart;
 is
@@ -997,7 +997,7 @@ restored, the sentence is:
     [[@rummani_sibawayhi@ 949](https://shamela.ws/book/18282/784#p1)]{.citex}  
     [If you come to me **then** I will come to you.]{.trans}  
 
-#;jawab_shart;s that begin with ;fa; will be treated in section\ () below, ;ia;.
+#;jawab_shart;s that begin with ;fa; will be treated in @sec-j_sh_msc below, ;ia;.
 
 Here are some more examples of this kind of ;j_sh;:
 
@@ -1010,7 +1010,7 @@ Note again,
 that the ;fi3l_shart; in these examples has been ;qatala;,
 not ;yaqtul;.
 This is again consistent
-with what we mentioned in sections\ () and (),
+with what we mentioned in @sec-jsh_qatala,
 that when the ;fi3l_shart; is ;yaqtul;
 then it prefers the presence of another ;yaqtul; as the ;fi3l_jawab_shart;.
 
@@ -1071,9 +1071,9 @@ For example:
 (@ex001207) [فَإِمَّا تَرَیِنَّ مِنَ ٱلۡبَشَرِ أَحَدࣰا فَقُولِیۤ إِنِّی نَذَرۡتُ لِلرَّحۡمَـٰنِ صَوۡمࣰا فَلَنۡ أُكَلِّمَ ٱلۡیَوۡمَ إِنسِیࣰّا]{.quran}
     [@https://quran.com/19/26@ cited by [@ibn_ya3ish_mufassal@ 5/115](https://shamela.ws/book/13301/2053)]{.citex}  
     [And if you see from among humanity anyone, say, 'Indeed, I have vowed to the Most Merciful abstention, so I will not speak today to [any] man.'"]{.trans}  
-    (;fa; introducing the ;jawab_shart; is discussed in section () below.)
+    (;fa; introducing the ;jawab_shart; is discussed in @sec-j_sh_msc below.)
 
-## The ;idha; ;j_sh;
+## The ;idha; ;j_sh; {#sec-jsh_idha}
 
 ### The original temporal signification of ;idha;
 
@@ -1275,7 +1275,7 @@ Here are some more examples of ;j_sh;s with ;idha;:
 ### #;mudarie; verbs in the ;idha; ;j_sh;
 
 We learned
-in section\ () above,
+in @sec-jsh_arch_in above,
 that the ;adat_shart; ;in;
 governs the ;fi3l_shart; and the ;fi3l_jawab_shart; in the ;0case;.
 
@@ -1514,7 +1514,7 @@ Fischer 236
 (@ex001241) [كانت العجوز إذا كلمها تسكت عنه]{.ar}
 
 
-## The ;tense; of the ;j_sh;
+## The ;tense; of the ;j_sh; {#sec-jsh_tense}
 
 ### The ;tense; of the simple ;j_sh;
 
@@ -1569,9 +1569,9 @@ Examples:
     [@https://sunnah.com/bukhari:5409@]{.citex}  
     [The Prophet ;pbuh; never criticized any food whatsoever. If **he liked it, he ate** it. And if **he disliked it, he left** it.]{.trans}
 
-### With ;fa; as the ;jawab_shart_intro;
+### With ;fa; as the ;jawab_shart_intro; {#sec-jsh_tense_fa}
 
-In section () below we will that
+In @sec-j_sh_msc below we will that
 ;fa; is sometimes used as a ;jawab_shart_intro;.
 And we will learn the rules of when ;fa; is required to introduce the ;jawab_shart;.
 In this section, we will only note that when
@@ -1723,8 +1723,10 @@ Here are some more examples of ;j_sh;s with ;kaana; as the ;fi3l_shart;:
     [[@maghazi_waqidi@ 1/68](https://shamela.ws/book/23680/109)]{.citex}  
     [If you are a match for us we will fight you.]{.trans}
 
+<!--
 Consistent with what we stated in section\ () above,
-if the ;shart;'s sentence already has [كَانَ]{.ar}
+-->
+If the ;shart;'s sentence already has [كَانَ]{.ar}
 to indicate the past tense, then another ;kaana; is not added.
 For example:
 
@@ -1740,8 +1742,10 @@ For example:
 
 
 The ;0case; ;mudarie; verb ;yakun; can also be used in this manner.
+<!--
 Consistent with what we learned in section\ () above,
-it may indicate potentiality or possibility.
+-->
+It may indicate potentiality or possibility.
 For example:
 
 (@ex001272) [فَإِن **يكن قد علا رَأْسِي** وَغَيره ... صرف الزَّمَان وتغيير من الشّعْر]{.ar}
@@ -1760,7 +1764,7 @@ For example:
     [@https://sunnah.com/abudawud:2116@]{.citex}  
     [If this **be** correct then [it is] from ;Allah;, and if it **be** erroneous then [it is] from me and from Satan. And ;Allah; and His Messenger are free [from it].]{.trans}  
 
-Remember from section\ ()
+Remember from @sec-maani_ism_fail_future
 that the ;ism_fail; can be used to indicate an intention to do a future action.
 This use of the ;ism_fail; can carry over to its use in a ;shart;.
 For example:
@@ -1842,11 +1846,11 @@ For example:
     [If you **wish**, I will give her to you]{.trans}  
 
 
-## Other ;adat_shart;s
+## Other ;adat_shart;s {#sec-jsh_other_adats}
 
 In addition to ;in; and ;idha;,
 there are other ;adat_shart;s as well.
-The main other ;adat_shart; is ;law; but we will treate it separately in section () below.
+The main other ;adat_shart; is ;law; but we will treate it separately in @sec-jsh_law below.
 Besides ;law;, the additional ;adat_shart;s can be split into two categories:
 
  i. ;0case;-izing ;adat_shart;s like ;in;: these govern a ;fi3l_shart; and a ;fi3l_jawab_shart; in the ;0case;.
@@ -2030,7 +2034,7 @@ then they are analyzed in the ;acase; as a ;mafulb;.
 (@ex001293) [آتِي مَنْ أَتَانِي]{.ar}
     [[@sibawayhi@ 3/70](https://shamela.ws/book/23018/923)]{.citex}  
     [I will come to who will come to me.]{.trans}  
-    (This is an inverted ;j_sh; with a deleted ;jawab_shart;. See section () above and also example (@ex001324) below.)
+    (This is an inverted ;j_sh; with a deleted ;jawab_shart;. See @sec-jsh_inverted_in above and also example (@ex001324) below.)
 
 In such cases, the ;shart_int; and/or the ;jawab_shart_int;
 may include a pronoun that refers back to the ;adat_shart;.
@@ -2155,7 +2159,7 @@ As a ;mafulb;:
 (@ex001314) [أَیࣰّا مَّا تَدۡعُوا۟ فَلَهُ ٱلۡأَسۡمَاۤءُ ٱلۡحُسۡنَىٰۚ]{.quran}
     [@https://quran.com/17/110@ cited by [@faaridi_alfiyyah@ 4/16](https://shamela.ws/book/174/1708)]{.citex}  
     [Whichever [name] you call - to Him belong the best names.]{.trans}  
-    (;fa; introducing the ;jawab_shart; is discussed in section () below.)
+    (;fa; introducing the ;jawab_shart; is discussed in @sec-j_sh_msc below.)
 
 
 ;maa; can be added between ;ayy; and its ;mudafil;.
@@ -2196,9 +2200,9 @@ And like ;in; it will then mean [if]{.trans}, not [when]{.trans}.^[[@azhari_shar
 
 The main non-;0case;-izing ;adat_shart;s
 are ;idha;
-(which we treated in section () above),
+(which we treated in @sec-jsh_idha above),
 and ;law;
-(which we will treat in section () below.)
+(which we will treat in @sec-jsh_law below.)
 Besides those, there are others that can be
 loosely be considered ;adat_shart;s.
 Unlike
@@ -2423,7 +2427,7 @@ future-shifting influence
 of the ;adat_shart;
 and its direct government (if applicable).
 So,
-as we learned in section () above,
+as we learned in @sec-jsh_tense_fa above,
 the ;tense; of the ;jawab_shart; introduced by ;fa;
 is evaluated independently.
 
@@ -2578,7 +2582,7 @@ related to the occurrence of the ;shart;.
 ### Types of ;jawab_shart;s requiring ;fa;
 -->
 
-### Situations where ;fa; is used as a ;jawab_shart_intro;
+### Situations where ;fa; is used as a ;jawab_shart_intro; {#sec-jsh_examples_of_iqtiran_fa}
 
 Here is a (non-exhaustive) list of cases where
 ;fa; is used to introduce the ;jawab_shart;:
@@ -2801,7 +2805,7 @@ For example:
 
 By the way, once ;fa; is used as a ;jawab_shart_intro;,
 then ;maa; may freely be used to negate a verb directly after it in the ;jawab_shart;.
-Remember from section () above, that ;maa; may not be used to negate
+Remember from @sec-jsh_negating_fil_shart above, that ;maa; may not be used to negate
 the ;fi3l_jawab_shart; (when there is no ;fa;).
 Here is an example of ;maa; negating a verb in the ;jawab_shart; that is introduced by ;fa;:
 
@@ -2833,7 +2837,7 @@ So ;fa; makes it obvious.
 
 ### Flexibility of allowing or dropping ;fa;
 
-In section () above, we listed the main scenarios where ;fa;
+In @sec-jsh_examples_of_iqtiran_fa above, we listed the main scenarios where ;fa;
 is used as a ;jawab_shart_intro;.
 In this section,
 we will give some examples
@@ -2865,7 +2869,7 @@ there is no ;fa; before
 [إِنَّكُمۡ لَمُشۡرِكُونَ]{.quran}.
 In order to reconcile this,
 some have ;qaddared; a deleted ;qasam;
-(see section () below),
+(see @sec-jsh_qasam below),
 such that
 [إِنَّكُمۡ لَمُشۡرِكُونَ]{.quran}
 is not the ;jawab_shart; but a ;jawab_qasam;.^[@https://tafsir.app/albahr-almuheet/6/121@]
@@ -3018,7 +3022,7 @@ For example:
     [If you visit me, in that case I will honor you.]{.trans}
 
 
-## The ;law; ;j_sh;
+## The ;law; ;j_sh; {#sec-jsh_law}
 
 The third main ;adat_shart; used,
 after ;in; and ;idha;,
@@ -3174,7 +3178,7 @@ For negating the ;fi3l_shart;, ;lam; is used thus:
 
 (@ex001411) [لَوْ لَمْ يَقْتُلْ ...]{.ar}
 
-[لَوْلَا]{.ar} and [لَوْمَا]{.ar} are also used in negative ;j_sh;s but we will treat them separately in section () below.
+[لَوْلَا]{.ar} and [لَوْمَا]{.ar} are also used in negative ;j_sh;s but we will treat them separately in @sec-jsh_law_laa below.
 
 Here are some examples of the ;fi3l_shart; being negated with [لَمْ]{.ar}:
 
@@ -3391,7 +3395,7 @@ Here are some more examples of ;law_anna;:
     [@https://sunnah.com/muslim:2540@]{.citex}  
     [If one of you should spend [the measure of] [#uHud]{.trn2} in gold, it would not reach [the measure of] one of them's [spending] one _mudd_, nor [would it reach] its half.]{.trans}  
 
-### ;law_laa; and ;law_maa;
+### ;law_laa; and ;law_maa; {#sec-jsh_law_laa}
 
 ;law_laa; is a special ;adat_shart; that almost always^[@peled_cst@ 61 cites exceptions in poetry]
 precedes a noun in the ;shart_int;.
@@ -3548,7 +3552,7 @@ For example:
     [[@shawahid_tawdeeh@ 72](https://shamela.ws/book/98123/69#p1)]{.citex}
 -->
 
-### ;law; expressing a wish or hope
+### ;law; expressing a wish or hope {#sec-jsh_law_tamannii}
 
 A special use of ;law; is for expressing a wish or hope.
 These are of two types^[@peled_cst@ 53]:
@@ -3570,7 +3574,7 @@ For example:
 
 One way of analyzing these types of sentences is
 that the true ;jawab_shart; of ;law; is deleted^[[@hama3@ 2/574](https://shamela.ws/book/6975/1146); [@mughni@ 1/267](https://ketabonline.com/ar/books/57084/read?part=1&page=265&index=3271127)]
-(see section () below).
+(see @sec-jsh_hazf below).
 And the clause beginning with ;fa; takes the place of the true ;jawab_shart;.
 
 Occasionally the true ;jawab_shart; is not deleted.
@@ -3623,7 +3627,7 @@ Some grammarians have analyzed [لَمَثُوبَةٌ مِنَ اللهِ خَ�
 Whereas others have used ;taqdiring;.^[[[هل يقع جواب (لو) جملة اسمية؟]{.ar}, jamharah.net](https://jamharah.net/showthread.php?p=51540&__cf_chl_f_tk=olodL9o4qULPBi9qm4OZtgPe9o9jplpGgBKAcNjX6h0-1783293637-1.0.1.1-OL1LLUhK27d_zCqCdL3yEJVDwEpQsBIyUVPqNO7aG5c)]
 
 
-## #;hazf; in the ;j_sh;
+## #;hazf; in the ;j_sh; {#sec-jsh_hazf}
 
 For reasons of economy, emphasis, or style,
 part of the ;j_sh; may be omitted (i.e. ;mahzoof;) in speech.
@@ -3717,13 +3721,13 @@ The ;j_sh; with the ;mahzoof; ;shart_int; restored is:
 We have already seen some cases of the ;jawab_shart; being deleted.
 For example:
 
-In an inverted ;j_sh; (see section () above). Example:
+In an inverted ;j_sh; (see @sec-jsh_inverted_in above). Example:
 
 (@ex001486) [هُوَ ظَالِمٌ إِنْ فَعَلَ]{.ar}
     [[@mughni@ 2/647](https://ketabonline.com/ar/books/57084/read?part=2&page=643&index=3271128) cited by @saad_cond@ 213]{.citex}  
     [He is a wrong-doer if he does it.]{.trans}  
 
-In the case of ;law; expressing a wish or a hope (see section () above). Example:
+In the case of ;law; expressing a wish or a hope (see @sec-jsh_law_tamannii above). Example:
 
 (@ex001487) [لو أعطاني ووَهَبَني]{.ar}
     [[@ibn_ya3ish_mufassal@ 5/124](https://shamela.ws/book/13301/2062)]{.citex}  
@@ -3764,7 +3768,7 @@ For example:
     [@https://quran.com/2/70@ cited by [@mughni@ 2/647](https://ketabonline.com/ar/books/57084/read?part=2&page=643&index=3271128); @saad_cond@ 213]{.citex}  
     [And indeed we, if Allāh wills, will be guided.]{.trans}
 
-We will consider an additional case of obligatory ;mahzoof; ;jawab_shart; in section (oath_and_cond) below.
+We will consider an additional case of obligatory ;mahzoof; ;jawab_shart; in @sec-jsh_qasam below.
 
 In addition to obligatory or regular ;hazf;,
 the ;jawab_shart; may also be optionally ;mahzoof; for stylistic reasons.
@@ -4332,7 +4336,7 @@ the inverted ;j_sh; (with a ;mahzoof; ;jawab_shart;)
 is analyzed as a ;hal;.^[[@ibn_aqil_musaa3id@ 2/43](https://shamela.ws/book/133358/639)]
 
 
-In section () above for example (@ex001190),
+In @sec-jsh_inverted_in above for example (@ex001190),
 we saw that some grammarians may treat such a ;j_sh; as something akin to a ;dharf;.^[[@ibn_ya3ish_mufassal@ 5/118](https://shamela.ws/book/13301/2056)]
 For example:
 
@@ -4383,7 +4387,7 @@ and they
 have ;ism_of;s and ;xabar;s.
 It is possible for their ;ism_of;s to be
 ;man;, ;maa;, and ;ayy;,
-which, as we know from section () above,
+which, as we know from @sec-jsh_other_adats above,
 can also be ;adat_shart;s.
 
 But when these nouns
@@ -4568,7 +4572,7 @@ For example:
     [It is not that whoever will come to you, you will give to him.]{.trans}
     
 
-## The ;shart; combined with an ;qasam;
+## The ;shart; combined with an ;qasam; {#sec-jsh_qasam}
 
 We know from chapter ()
 that the ;j_qasam;,
@@ -4702,7 +4706,7 @@ be of the form ;qatala;
 (or its equivalent [;_lam; ;_yaqtul;]{.ar})
 and not ;yaqtul;.
 This is because
-(as we also mentioned in section () above)
+(as we also mentioned in @sec-jsh_qatala above)
 when the ;fi3l_shart; is ;yaqtul;,
 then it strongly prefers
 that a ;jawab_shart;,
