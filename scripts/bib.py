@@ -1516,17 +1516,25 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "wilmsen_croft"
     , cit_type = "ws_ref"
-    , cit_text = 'Wilmsen, D., "Another Croft cycle in Arabic: The _laysa_ negative existential cycle,"'
+    , cit_text = 'Wilmsen,, "Another Croft cycle in Arabic: The _laysa_ negative existential cycle,"'
     , bib_text = 'Wilmsen, D., "Another Croft cycle in Arabic: The _laysa_ negative existential cycle," _Folia Orientalia_, 2016. <https://www.academia.edu/32873897>'
     , sort_key = "wilmsen 2016"
     ))
   resource_list.append(BibResource(
     "hapselmath_existential"
     , cit_type = "ws_ref"
-    , cit_text = 'Haspelmath, M., "What do we mean by existential clause?"'
+    , cit_text = 'Haspelmath,, "What do we mean by existential clause?"'
     , bib_text = 'Haspelmath, M., "What do we mean by existential clause?" _Diversity Linguistics Comment_, 2021. <https://doi.org/10.58079/nswb>'
     , sort_key = "hapsel 2021"
     ))
+  resource_list.append(BibResource(
+    "mohtanick_balagha"
+    , cit_type = "ws_ref"
+    , cit_text = 'Jamil, "Arabic rhetoric made simple"'
+    , bib_text = 'Jamil, M., "Arabic rhetoric made simple" _Learn Arabic Online_. <https://www.learnarabiconline.com/arabic-rhetoric/ilm-ul-maani/>'
+    , sort_key = "jamil balagha"
+    ))
+
 
   return resource_list
 
