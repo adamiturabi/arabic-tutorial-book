@@ -299,7 +299,7 @@ map_table["nasibah"] = map_table["acase"] + "-izing"
 map_table["noon_wiq"] = "guarding-[ن]{.ar}"
 
 map_table["participle"] = "participle"
-map_table["pbuh"] = "[ﷺ]{.aralt}"
+map_table["pbuh"] = "[ﷺ]{.areng}"
 map_table["qasam"] = "oath"
 map_table["j_qasam"] = map_table["qasam"] + "-sentence"
 map_table["jawab_qasam"] = map_table["qasam"] + "-" + map_table["jawab"]
