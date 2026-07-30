@@ -332,8 +332,14 @@ def populate_resource_list():
     , sort_key = "جدول في اعراب القران لمحمود صافي"
     ))
 
-
-
+  resource_list.append(BibResource(
+    "alrazi"
+    , cit_type = "ar_ref"
+    , cit_text = "[تفسير الرازي]{.ar}"
+    , bib_text = "تفسير الرازي، " + format_url_ar("https://tafsir.app")
+    , sort_key = "تفسير الرازي"
+    ))
+ 
   # General
   resource_list.append(BibResource(
     "nahw_wafi"
