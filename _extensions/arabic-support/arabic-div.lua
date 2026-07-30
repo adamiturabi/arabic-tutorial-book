@@ -10,6 +10,11 @@ Div = function(el)
           contents, 1,
           pandoc.RawInline('latex', '\\altfamily ')
         )
+      elseif el.classes:includes 'areng' then
+        table.insert(
+          contents, 1,
+          pandoc.RawInline('latex', '\\arengfamily ')
+        )
       elseif el.classes:includes 'quran' then
         table.insert(
           contents, 1,
@@ -23,6 +28,8 @@ Div = function(el)
       classval = 'reg-ar-div'
       if el.classes:includes 'aralt' then
         classval = 'alt-ar-div'
+      elseif el.classes:includes 'areng' then
+        classval = 'areng-ar-div'
       elseif el.classes:includes 'quran' then
         classval = 'quran-ar-div'
       end

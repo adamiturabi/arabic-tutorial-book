@@ -169,6 +169,11 @@ li {
   unicode-bidi: isolate;
   */
 }
+.areng-ar-span {
+  font-family: Kitab, serif;
+  font-size: 1.0em; 
+  line-height: 100%;
+}
 .alt-ar-span {
   font-family: AmiriWeb, serif;
   font-size: 1.2em; 
@@ -188,6 +193,11 @@ li {
   direction: rtl;
   unicode-bidi: isolate;
   */
+}
+.areng-ar-div {
+  font-family: Kitab, serif;
+  font-size: 1.0em; 
+  line-height: 100%;
 }
 .alt-ar-div {
   font-family: AmiriWeb, serif;

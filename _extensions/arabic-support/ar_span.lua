@@ -19,6 +19,12 @@ function ar_span.ArabicSpan(el)
           contents, 1,
           pandoc.RawInline('latex', '\\quranfamily ')
         )
+      elseif el.classes:includes 'areng' then
+        -- can't seem to use string concatenate directly. Have to use RawInline
+        table.insert(
+          contents, 1,
+          pandoc.RawInline('latex', '\\arengfamily ')
+        )
  
       end
       -- no dir needed for babel and throws error if it sees dir attribute. was previously needed for polyglossia
@@ -27,6 +33,8 @@ function ar_span.ArabicSpan(el)
       classval = 'reg-ar-span'
       if el.classes:includes 'aralt' then
         classval = 'alt-ar-span'
+      elseif el.classes:includes 'areng' then
+        classval = 'areng-ar-span'
       elseif el.classes:includes 'quran' then
         classval = 'quran-ar-span'
       end
