@@ -59,6 +59,7 @@ def main():
 
         ex_count = dump_db['ex_count']
         sec_count = dump_db['sec_count']
+        print("Previous last ex_count=", ex_count)
         
     in_dir = os.fsencode("srcqmd")
     out_dir = os.fsencode("srcqmd")
@@ -80,6 +81,7 @@ def main():
 
     with open(dump_file_path, 'w') as dump_file:
 
+        print("New last ex_count=", ex_count)
         assert('ex_count' in dump_db.keys())
         assert('sec_count' in dump_db.keys())
         dump_db['ex_count']  = ex_count
