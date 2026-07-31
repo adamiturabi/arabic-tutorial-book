@@ -30,9 +30,9 @@ Here is an example of a ;j_sh; in English:
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-5.south east)
       node [midway, below, text centered,text width=1.5cm, yshift=0em] {\scriptsize ;shart_int;};
-\draw [decoration={brace, mirror, raise=2em}, decorate] 
+\draw [decoration={brace, mirror, raise=2.5em}, decorate] 
    (word-1.south west) -- (word-5.south east)
-      node [midway, below, text centered,text width=1cm, yshift=-2.1em] {\scriptsize ;shart;};
+      node [midway, below, text centered,text width=1cm, yshift=-2.6em] {\scriptsize ;shart;};
 
 \draw [decoration={brace}, decorate] 
    (word-6.north west) -- (word-6.north east)
@@ -40,13 +40,13 @@ Here is an example of a ;j_sh; in English:
 \draw [decoration={brace, mirror}, decorate] 
    (word-7.south west) -- (word-10.south east)
       node [midway, below, text centered,text width=1.5cm, yshift=0em] {\scriptsize ;jawab_shart_int;};
-\draw [decoration={brace, mirror, raise=2em}, decorate] 
+\draw [decoration={brace, mirror, raise=2.5em}, decorate] 
    (word-6.south west) -- (word-10.south east)
-      node [midway, below, text centered,text width=2cm, yshift=-2.1em] {\scriptsize ;jawab_shart;};
+      node [midway, below, text centered,text width=2cm, yshift=-2.6em] {\scriptsize ;jawab_shart;};
 
-\draw [dashed] (word-6.south west) -- ([yshift=-2em]word-6.south west);
-\draw [dashed] (word-1.south west) -- ([yshift=-2em]word-1.south west);
-\draw [dashed] (word-10.south east) -- ([yshift=-2em]word-10.south east);
+\draw [dashed] (word-6.south west) -- ([yshift=-2.5em]word-6.south west);
+\draw [dashed] (word-1.south west) -- ([yshift=-2.5em]word-1.south west);
+\draw [dashed] (word-10.south east) -- ([yshift=-2.5em]word-10.south east);
 
 \end{tikzpicture}
 ```
