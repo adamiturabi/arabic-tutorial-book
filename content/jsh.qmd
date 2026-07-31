@@ -37,9 +37,9 @@ Here is an example of a conditional sentence in English:
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-5.south east)
       node [midway, below, text centered,text width=1.5cm, yshift=0em] {\scriptsize condition-core};
-\draw [decoration={brace, mirror, raise=2em}, decorate] 
+\draw [decoration={brace, mirror, raise=2.5em}, decorate] 
    (word-1.south west) -- (word-5.south east)
-      node [midway, below, text centered,text width=1cm, yshift=-2.1em] {\scriptsize condition};
+      node [midway, below, text centered,text width=1cm, yshift=-2.6em] {\scriptsize condition};
 
 \draw [decoration={brace}, decorate] 
    (word-6.north west) -- (word-6.north east)
@@ -47,13 +47,13 @@ Here is an example of a conditional sentence in English:
 \draw [decoration={brace, mirror}, decorate] 
    (word-7.south west) -- (word-10.south east)
       node [midway, below, text centered,text width=1.5cm, yshift=0em] {\scriptsize condition-response-core};
-\draw [decoration={brace, mirror, raise=2em}, decorate] 
+\draw [decoration={brace, mirror, raise=2.5em}, decorate] 
    (word-6.south west) -- (word-10.south east)
-      node [midway, below, text centered,text width=2cm, yshift=-2.1em] {\scriptsize condition-response};
+      node [midway, below, text centered,text width=2cm, yshift=-2.6em] {\scriptsize condition-response};
 
-\draw [dashed] (word-6.south west) -- ([yshift=-2em]word-6.south west);
-\draw [dashed] (word-1.south west) -- ([yshift=-2em]word-1.south west);
-\draw [dashed] (word-10.south east) -- ([yshift=-2em]word-10.south east);
+\draw [dashed] (word-6.south west) -- ([yshift=-2.5em]word-6.south west);
+\draw [dashed] (word-1.south west) -- ([yshift=-2.5em]word-1.south west);
+\draw [dashed] (word-10.south east) -- ([yshift=-2.5em]word-10.south east);
 
 \end{tikzpicture}
 ```
@@ -1004,7 +1004,7 @@ restored, the sentence is:
 (@ex001201) [إِنْ أَتَيْتَنِي فَآتِيكَ]{.ar}  
     or  
     [إِنْ أَتَيْتَنِي فَأَنا آتِيكَ]{.ar}
-    [[[شرح كتاب سيبويه للرماني - جزء منه]{.ar} 949](https://shamela.ws/book/18282/784#p1)]{.citex}  
+    [composed from [[شرح كتاب سيبويه للرماني - جزء منه]{.ar} 949](https://shamela.ws/book/18282/784#p1)]{.citex}  
     [If you come to me **then** I will come to you.]{.trans}  
 
 Condition-responses that begin with [فَ]{.ar} will be treated in @sec-j_sh_msc below, if Allāh wills.
@@ -1338,7 +1338,7 @@ For example:
     [When you go to bed, you magnify thirty-four times, and glorify thirty-three times, and praise thirty-three times.]{.trans}  
 
 (@ex001221) [إِذَا **تُصِبْكَ** خَصَاصَةٌ  فَتَجَمَّلِ]{.ar}
-    [[[شرح الفارضي على ألفية ابن مالك]{.ar} 4/18](https://shamela.ws/book/174/1710); [Wright 2/12B]{.citex}  
+    [[[شرح الفارضي على ألفية ابن مالك]{.ar} 4/18](https://shamela.ws/book/174/1710); Wright 2/12B]{.citex}  
     [When poverty befalls you then bear it patiently.]{.trans}  
     ([تَجَمَّلِ]{.ar} in rhyme for [تَجَمَّلْ]{.ar}.)  
 
@@ -1940,6 +1940,7 @@ So the syntax of the two clauses is not restricted to be a verbal sentence.
 (@ex001320) [أَقُولُ مَا تَقُولُ]{.ar}
     [[[كتاب سيبويه]{.ar} 3/70](https://shamela.ws/book/23018/923)]{.citex}  
     [I will say what you say.]{.trans}  
+    This sentence has little conditional meaning, if any, but we have included it as the inverse of example (@ex001319) above.
 
 (@ex001321) [الَّذِي تَقُولُ أَقُولُ]{.ar}
     [[[كتاب سيبويه]{.ar} 3/69](https://shamela.ws/book/23018/922)]{.citex}  
@@ -2059,11 +2060,11 @@ the caseful verb can be used to signify a continual action.
 Whereas [قَتَلَ]{.ar} can be used to signify a single action.^[[[معاني النحو]{.ar} 4/58](https://shamela.ws/book/17801/1163)]
 For example:
 
-(@) [فَإِنَّمَا **یَشۡكُرُ** لِنَفۡسِهِۦۖ وَمَن **كَفَرَ** فَإِنَّ ٱللَّهَ غَنِیٌّ حَمِیدࣱ]{.quran}
+(@jsh_ex_quran_31_12) [وَمَن **یَشۡكُرۡ** فَإِنَّمَا یَشۡكُرُ لِنَفۡسِهِۦۖ وَمَن **كَفَرَ** فَإِنَّ ٱللَّهَ غَنِیٌّ حَمِیدࣱ]{.quran}
     [[[سورة لقمان]{.ar} 31:12](https://quran.com/31/12)]{.citex}  
     [And whoever is grateful is grateful for [the benefit of] himself. And whoever denies [His favor] - then indeed, Allāh is Free of need and Praiseworthy.]{.trans}  
 
-In example () above,
+In example (@jsh_ex_quran_31_12) above,
 [يَشْكُرْ]{.ar} uses the [يَقْتُلْ]{.ar} form,
 whereas
 [كَفَرَ]{.ar} uses the [قَتَلَ]{.ar} form.
@@ -2071,14 +2072,14 @@ One interpretation is that gratitute is a continual action whereas even only one
 
 By the way, [شَكَرَ]{.ar} in the [قَتَلَ]{.ar} form is also found as a condition-verb:
 
-(@) [قَالَ ٱلَّذِی عِندَهُۥ عِلۡمࣱ مِّنَ ٱلۡكِتَـٰبِ أَنَا۠ ءَاتِیكَ بِهِۦ قَبۡلَ أَن یَرۡتَدَّ إِلَیۡكَ طَرۡفُكَۚ فَلَمَّا رَءَاهُ مُسۡتَقِرًّا عِندَهُۥ قَالَ هَـٰذَا مِن فَضۡلِ رَبِّی لِیَبۡلُوَنِیۤ ءَأَشۡكُرُ أَمۡ أَكۡفُرُۖ وَمَن **شَكَرَ** فَإِنَّمَا یَشۡكُرُ لِنَفۡسِهِۦۖ وَمَن **كَفَرَ** فَإِنَّ رَبِّی غَنِیࣱّ كَرِیمࣱ]{.quran}
+(@) [وَمَن **شَكَرَ** فَإِنَّمَا یَشۡكُرُ لِنَفۡسِهِۦۖ وَمَن **كَفَرَ** فَإِنَّ رَبِّی غَنِیࣱّ كَرِیمࣱ]{.quran}
     [[[سورة النمل]{.ar} 27:40](https://quran.com/27/40)]{.citex}  
     [And whoever is grateful - his gratitude is only for [the benefit of] himself. And whoever is ungrateful - then indeed, my Lord is Free of need and Generous.]{.trans}  
 
 #### [قَتَلَ]{.ar} can be used to signify a generic action {.unnumbered}
 
 [قَتَلَ]{.ar} can be used to signify a generic action.^[Peled, _Conditional structures in Classical Arabic_ 17--18]
-The implication is that is is proven through past experience.^[[[معاني النحو]{.ar} 4/63](https://shamela.ws/book/17801/1168)]
+The implication is that it is proven through past experience.^[[[معاني النحو]{.ar} 4/63](https://shamela.ws/book/17801/1168)]
 For example:
 
 (@) [مَنْ صَبَرَ ظَفَرَ]{.ar}
@@ -2095,7 +2096,7 @@ For example:
 #### [قَتَلَ]{.ar} can be used to signify a future completed action {.unnumbered}
 
 In some contexts,
-[قَتَلَ]{.ar} could be used to make a future even seem like it would be completed.^[[Jamil, "Arabic rhetoric made simple" Conditionals, part 2](https://www.learnarabiconline.com/arabic-rhetoric/ilm-ul-maani/conditionals-part-2/)]
+[قَتَلَ]{.ar} could be used to make a future event seem like it would be completed.^[[Jamil, "Arabic rhetoric made simple" Conditionals, part 2](https://www.learnarabiconline.com/arabic-rhetoric/ilm-ul-maani/conditionals-part-2/)]
 For example:
 
 (@) [إِنْ دَخَلَ الْجَنَّةَ\ ...]{.ar}
@@ -2408,9 +2409,9 @@ in the context of conditional sentences to be one of the following^[from Peled, 
 
 Here are some examples of conditional sentences with a static verb as the condition-verb:
 
-(@ex001277) [عَنِ ابْنِ مَسْعُودٍ أَنَّ النَّبِيَّ ﷺ قَالَ الرِّبَا **وَإِنْ كَثُرَ** فَإِنَّ عَاقِبَتَهُ تَصِيرُ إِلَى قُلٍّ]{.ar}
+(@ex001277) [الرِّبَا **وَإِنْ كَثُرَ** فَإِنَّ عَاقِبَتَهُ تَصِيرُ إِلَى قُلٍّ]{.ar}
     [[[مسند أحمد]{.ar} :3754](https://hadithunlocked.com/ahmad:3754)]{.citex}  
-    [On the authority of Ibn [#maseUd]{.trn2} that the Messenger of Allāh [ﷺ]{.areng} said, "Interest, even if it **is much**, its outcome becomes less."]{.trans}  
+    [Interest, even if it **is much**, its outcome becomes less.]{.trans}  
 
 (@ex001278) [فَإِن طَلَّقَهَا فَلَا جُنَاحَ عَلَیۡهِمَاۤ أَن یَتَرَاجَعَاۤ **إِن ظَنَّاۤ** أَن یُقِیمَا حُدُودَ ٱللَّهِۗ]{.quran}
     [[[سورة البقرة]{.ar} 2:230](https://quran.com/2/230)]{.citex}  
@@ -3127,11 +3128,11 @@ Here are examples of such conditional sentences in English:
 
 (@ex001392) [If you had been awake, you would have heard the coyote.]{.trans}
     [Peled, _Conditional structures in Classical Arabic_ 40]{.citex}  
-    This is a past counterfactual. The implication is that you were not awake. So your being awake is counter to fact.
+    This is a past counterfactual. The implication is that the addressed person was not awake. So his being awake is counter to fact.
 
 (@ex001393) [If I were a boy, I would have curls.]{.trans}
     [Peled, _Conditional structures in Classical Arabic_ 40]{.citex}  
-    This is a present counterfactual. The implication is that I am not a boy. So my being a boy is counter to fact.
+    This is a present counterfactual. The implication is that the speaker is not a boy. So her being a boy is counter to fact.
 
 (@ex001394) [If he ate all those doughnuts, he would be ill.]{.trans}
     [Peled, _Conditional structures in Classical Arabic_ 40]{.citex}  
@@ -3549,10 +3550,6 @@ Here are some more examples of [لَوْلَا]{.ar} and [لَوْمَا]{.ar}
     [[[صحيح البخاري]{.ar} :4236](https://sunnah.com/bukhari:4236)]{.citex}  
     [Were it not for the latter Muslims, never would a town be conquered except that I would have divided it like the Prophet [ﷺ]{.areng} divided [#xaybar]{.trn2}]{.trans}  
 
-(@ex001454) [لَوْلاَ أَنَّ النَّبِيَّ صلى الله عليه وسلم نَهَانَا أَنْ نَدْعُوَ بِالْمَوْتِ لَدَعَوْتُ بِهِ]{.ar}
-    [[[صحيح البخاري]{.ar} :6350](https://sunnah.com/bukhari:6350)]{.citex}  
-    [Were it not that the Prophet [ﷺ]{.areng} had forbidden us to invoke [Allāh] for death, I would have invoked [Allāh] for it.]{.trans}
-
 (@ex001455) [لَوْلاَ أَنِّي رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم قَبَّلَكَ مَا قَبَّلْتُكَ]{.ar}
     [[[صحيح البخاري]{.ar} :1610](https://sunnah.com/bukhari:1610)]{.citex}  
     [Were it not that I saw the Messenger of Allāh had kissed you, I would not have kissed you.]{.trans}  
@@ -3568,6 +3565,12 @@ Here are some more examples of [لَوْلَا]{.ar} and [لَوْمَا]{.ar}
 (@ex001458) [لَوْلاَ أَنْ أَشُقَّ عَلَى أُمَّتِي لأَمَرْتُهُمْ بِالسِّوَاكِ]{.ar}
     [[[صحيح البخاري]{.ar} :7240](https://sunnah.com/bukhari:7240)]{.citex}  
     [Were it not that I may make it hard on my nation, I would have ordered them to use the [siwAk]{.trn2}.]{.trans}
+
+(@ex001454) [لَوْلاَ أَنَّ النَّبِيَّ صلى الله عليه وسلم نَهَانَا أَنْ نَدْعُوَ بِالْمَوْتِ لَدَعَوْتُ بِهِ]{.ar}
+    [[[صحيح البخاري]{.ar} :6350](https://sunnah.com/bukhari:6350)]{.citex}  
+    [Were it not that the Prophet [ﷺ]{.areng} had forbidden us to invoke [Allāh] for death, I would have invoked [Allāh] for it.]{.trans}
+
+Here is an example with [لَوْمَا]{.ar}:
 
 (@ex001459) [لَوْمَا أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَانَا أَنْ نَدْعُوَ بِالْمَوْتِ لَدَعَوْتُ بِهِ]{.ar}
     [[[صحيح مسلم]{.ar} :2681a](https://sunnah.com/muslim:2681a)]{.citex}  
@@ -4418,7 +4421,7 @@ Some grammarians have said that a conditional sentence can occur as a [HAl]{.trn
 One example given is:
 
 (@ex001545) [أفعلُ هذا إن جاء زيدٌ]{.ar}
-    [[[المساعد على تسهيل الفوائد لابن عقيل]{.ar} 2/43](https://shamela.ws/book/133358/639)]{.citex}
+    [[[المساعد على تسهيل الفوائد لابن عقيل]{.ar} 2/43](https://shamela.ws/book/133358/639)]{.citex}  
     [I will do this if Zayd comes.]{.trans}
 
 In example (@ex001545) above,
@@ -4843,7 +4846,7 @@ the response in such cases can be the condition-response,
 not the oath-response.
 For example:
 
-(@ex001585) [لَئِنْ كَانَ حُدِّثْتُهُ الْيَوْمَ صَادِقًا أَصُمْ فِي نَهَارِ الْقَيْظِ لِلشَّمْسِ بَادِيًا]{.ar}
+(@ex001585) [لَئِنْ كَانَ حُدِّثْتُهُ الْيَوْمَ صَادِقًا **أَصُمْ** فِي نَهَارِ الْقَيْظِ لِلشَّمْسِ بَادِيًا]{.ar}
     [[النحو العربي: أحكام ومعان]{.ar} 2/476]{.citex}  
     [If what I have been told today is true, I will fast in the heat of the day out in the sun.]{.trans}  
     [أَصُمْ]{.ar} in the ø-case indicates that it is the condition-response not the oath-response.
