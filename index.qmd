@@ -146,6 +146,43 @@ The typeset output is published at
 [adamiturabi.github.io/arabic-tutorial-book/](https://adamiturabi.github.io/arabic-tutorial-book/).
 -->
 
+#### Transcription and translation format {.unnumbered}
+
+* Translation is enclosed in  _guillemets_ ([]{.trans}). For example:
+
+  [جَاءَ زَيْدٌ]{.ar}  
+  [Zayd came.]{.trans}
+
+* Transcription is in _italics_. For example:
+
+  [جَاءَ زَيْدٌ]{.ar}  
+  [jAEa zaydun]{.trn}
+
+* Word-initial [sukUn]{.trn2} and connecting-hamzah are transcripted using a hyphen. For example:
+
+  [زَيْدُ بْنُ عَمْرٍو]{.ar}  
+  [zaydu -bnu eamrin]{.trn}
+
+* Names in the translation are not italicized. For example:
+
+  [زَيْدُ بْنُ عَمْرٍو]{.ar}  
+  [[#zayd ibn #eamr]{.trn2}]{.trans}
+
+* For Arabic names in translations and running English text:
+
+  + The definite article always starts with a [a]{.trans},
+    is not capitalized,
+    is followed by a hyphen,
+    and is not assimilated for "sun-letters."
+  + Word final [ي]{.ar}-of-affiliation is transliterated with [I]{.trn2} instead of [iyy]{.trn}.
+  + Word-initial hamzah is not transliterated.
+
+  For example:
+
+  [رضي الدين الأستراباذي]{.ar}  
+  [raDiyyu -ddIni -lEastarAbApiyyu]{.trn}  
+  [[#raDiyy al-#dIn al-#astarAbApI]{.trn2}]{.trans}
+
 #### Miscellaneous {.unnumbered}
 
 * This book is produced using the [Quarto](https://quarto.org/) authoring and publishing framework and set in the Charis, Vazirmatn, Kitab, and Amiri typefaces.
