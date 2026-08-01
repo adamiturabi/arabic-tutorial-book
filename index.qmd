@@ -148,27 +148,11 @@ The typeset output is published at
 
 #### Transcription and translation format {.unnumbered}
 
-* Translation is enclosed in  _guillemets_ ([]{.trans}). For example:
-
-  [جَاءَ زَيْدٌ]{.ar}  
-  [Zayd came.]{.trans}
-
-* Transcription is in _italics_. For example:
-
-  [جَاءَ زَيْدٌ]{.ar}  
-  [jAEa zaydun]{.trn}
-
-* Word-initial [sukUn]{.trn2} and connecting-hamzah are transcripted using a hyphen. For example:
-
-  [زَيْدُ بْنُ عَمْرٍو]{.ar}  
-  [zaydu -bnu eamrin]{.trn}
-
-* Names in the translation are not italicized. For example:
-
-  [زَيْدُ بْنُ عَمْرٍو]{.ar}  
-  [[#zayd ibn #eamr]{.trn2}]{.trans}
-
-* For Arabic names in translations and within running English text:
+* Transcription is in _italics_.
+  Word-initial [sukUn]{.trn2} and connecting-hamzah are transcripted using a hyphen.
+* Translation is enclosed in  _guillemets_ ([]{.trans}).
+  Names in the translation are not italicized.
+  For Arabic names in translations and within running English text:
 
   + The definite article always starts with a [a]{.trans},
     is not capitalized,
@@ -177,11 +161,15 @@ The typeset output is published at
   + Word final [ي]{.ar}-of-affiliation is transliterated with [[I]{.trn2}]{.trans} instead of [[iyy]{.trn2}]{.trans}.
   + Word-initial hamzah is not transliterated.
 
-  For example:
+For example:
 
-  [رضي الدين الأستراباذي]{.ar}  
-  [raDiyyu -ddIni -lEastarAbApiyyu]{.trn}  
-  [[#raDiyy al-#dIn al-#astarAbApI]{.trn2}]{.trans}
+(@) [رضي الدين الأستراباذي]{.ar}  
+    [raDiyyu -ddIni -lEastarAbApiyyu]{.trn}  
+    [[#raDiyy al-#dIn al-#astarAbApI]{.trn2}]{.trans}
+
+(@) [جَاءَ زَيْدُ بْنُ عَمْرٍو]{.ar}  
+    [jAEa zaydu -bnu eamrin]{.trn}  
+    [[#zayd ibn #eamr came.]{.trn2}]{.trans}
 
 #### Miscellaneous {.unnumbered}
 
