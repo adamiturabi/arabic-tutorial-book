@@ -204,8 +204,8 @@ map_table["fi3l_qalb"] = "verb of perception"
 map_table["af3aal_quloob"] = "verbs of perception"
 map_table["amr"] = "command"
 
-map_table["badal"] = "sub" # replacement, substitute
-map_table["mubdalb"] = "subbee" # replacee, substitutee
+map_table["badal"] = "re-render" # replacement, substitute, sub, rehash, restate, reword, do-over, re-word, re-render
+map_table["mubdalb"] = "pre-render" # replacee, substitutee, done-over
 
 map_table["damir_fasl"] = "separating-pronoun"
 map_table["damir_shan"] = "state-of-affairs pronoun" # pronoun-of-fact, pronoun of s͡haʾn
