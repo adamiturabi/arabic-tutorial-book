@@ -1554,6 +1554,13 @@ def populate_resource_list():
     , bib_text = 'Sadan, A., "Which verbal nouns can function as adverbial accusatives of state or condition (ḥāl) according to Sībawayhi and later grammarians?" in _The foundations of Arabic linguistics IV: The evolution of theory_, Brill 2019. <https://doi.org/10.1163/9789004389694>'
     , sort_key = "sadan 2019"
     ))
+  resource_list.append(BibResource(
+    "giolfo_conditionality"
+    , cit_type = "ws_ref"
+    , cit_text = 'Giolfo and Hodges, "Conditionality: Syntax and meaning in al-Sīrāfī and Ibn Sīnā'
+    , bib_text = 'Giolfo, M. and W. Hodges, "Conditionality: Syntax and meaning in al-Sīrāfī and Ibn Sīnā" in _The foundations of Arabic linguistics IV: The evolution of theory_, Brill 2019. <https://doi.org/10.1163/9789004389694>'
+    , sort_key = "giolfo 2019"
+    ))
 
   return resource_list
 
