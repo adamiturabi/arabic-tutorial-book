@@ -1232,15 +1232,15 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "sadan_subj"
     , cit_type = "ws_ref"
-    , cit_text = "Sadan,\\ A., _The subjunctive mood in Arabic grammatical thought_"
+    , cit_text = "Sadan, _The subjunctive mood in Arabic grammatical thought_"
     , bib_text = "Sadan,\\ A., _The subjunctive mood in Arabic grammatical thought_, Brill, 2012. <https://doi.org/10.1163/9789004234239>"
-    , sort_key = "Sadan A Subjunctive Mood in Arabic Grammatical Thought"
+    , sort_key = "Sadan 2012"
     ))
 
   resource_list.append(BibResource(
     "jallad_wawation"
     , cit_type = "ws_ref"
-    , cit_text = 'Al-Jallad,\\ A., "One wāw to rule them all: The origins and fate of wawation in Arabic and its orthography"'
+    , cit_text = 'Al-Jallad, "One wāw to rule them all: The origins and fate of wawation in Arabic and its orthography"'
     , bib_text = 'Al-Jallad,\\ A., "One wāw to rule them all: The origins and fate of wawation in Arabic and its orthography," in: _Scripts and scripture: Writing and religion in Arabia circa 500--700\\ [ce]{.smallcaps}_, pp.\\ 87--104. The Oriental Institute of the University of Chicago, 2022. <https://www.academia.edu/33017695>'
     , sort_key = "Jallad A One waw to rule them all"
     ))
@@ -1248,7 +1248,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "hallberg_thesis"
     , cit_type = "ws_ref"
-    , cit_text = 'Hallberg,\\ A., _Case endings in Spoken Standard Arabic_'
+    , cit_text = 'Hallberg, _Case endings in Spoken Standard Arabic_'
     , bib_text = 'Hallberg,\\ A., _Case endings in Spoken Standard Arabic_. Doctoral thesis, Lund University, 2016. <https://lup.lub.lu.se/record/8524489>'
     , sort_key = "Hallberg A Case endings in Spoken Standard Arabic"
     ))
@@ -1256,7 +1256,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "cantarino_smap"
     , cit_type = "ws_ref"
-    , cit_text = 'Cantarino,\\ V., _Syntax of modern Arabic prose_'
+    , cit_text = 'Cantarino, _Syntax of modern Arabic prose_'
     , bib_text = 'Cantarino,\\ V., _Syntax of modern Arabic prose_, Indiana University Press, 1974--1975.'
     , sort_key = 'Cantarino V Syntax of modern Arabic prose'
     ))
@@ -1272,7 +1272,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "liheibi_sentence"
     , cit_type = "ws_ref"
-    , cit_text = 'Al-Liheibi,\\ F.\\ M.\\ M.\\, _Aspects of sentence analysis in the Arabic linguistic tradition_'
+    , cit_text = 'Al-Liheibi, _Aspects of sentence analysis in the Arabic linguistic tradition_'
     , bib_text = 'Al-Liheibi,\\ F.\\ M.\\ M.\\, _Aspects of sentence analysis in the Arabic linguistic tradition, with particular reference to ellipsis_, Doctoral dissertation, Durham University, 1999. <https://etheses.dur.ac.uk/1494/>'
     , sort_key = 'Liheibi F M M Aspects of sentence analysis in the Arabic linguistic tradition'
     ))
@@ -1280,7 +1280,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "owens_foundations_grammar"
     , cit_type = "ws_ref"
-    , cit_text = 'Owens,\\ J., _The foundations of grammar_'
+    , cit_text = 'Owens, _The foundations of grammar_'
     , bib_text = 'Owens,\\ J., _The foundations of grammar: An introduction to medieval Arabic grammatical theory_, John Benjamins Publishing, 1988.'
     , sort_key = 'Owens J The foundations of grammar'
     ))
@@ -1288,7 +1288,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "kasher_intransitive_verb"
     , cit_type = "ws_ref"
-    , cit_text = 'Kasher,\\ A., "The term _al-fiʿl al-mutaʿaddī bi-ḥarf jarr_"'
+    , cit_text = 'Kasher, "The term _al-fiʿl al-mutaʿaddī bi-ḥarf jarr_"'
     , bib_text = 'Kasher,\\ A., "The term _al-fiʿl al-mutaʿaddī bi-ḥarf jarr_ (lit. “the verb which ‘passes over’ through a preposition”) in medieval Arabic grammatical tradition", in _Journal of Arabic and Islamic Studies_, 13, pp. 115--145, 2013. <https://doi.org/10.5617/jais.4630>'
     , sort_key = 'Kasher A The term alfil almutaaddi biharf jarr'
     ))
@@ -1312,49 +1312,49 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "marmor_tense"
     , cit_type = "ws_ref"
-    , cit_text = 'Marmorstein,\\ M., _Tense and text in Classical Arabic_'
+    , cit_text = 'Marmorstein, _Tense and text in Classical Arabic_'
     , bib_text = 'Marmorstein,\\ M., _Tense and text in Classical Arabic_, Brill, 2016. <https://doi.org/10.1163/9789004310483>'
     , sort_key = 'marmorstein m tense and text in classical arabic'
     ))
   resource_list.append(BibResource(
     "odilavadze_participle"
     , cit_type = "ws_ref"
-    , cit_text = """Odilavadze, N., _Western scholars' opinions on rendering the tense by means of the participle in Arabic_"""
+    , cit_text = """Odilavadze, _Western scholars' opinions on rendering the tense by means of the participle in Arabic_"""
     , bib_text = """Odilavadze, N., "Western scholars' opinions on rendering the tense by means of the participle in Arabic", _IBSU Scientific Journal_ 2010, 4(1), 63-80. <https://journal.ibsu.edu.ge/index.php/ibsusj/article/download/143/120/0>"""
     , sort_key = 'odilavadze n western scholars opinions on rendering the tense by means of the participle in arabic'
     ))
   resource_list.append(BibResource(
     "putten_participles"
     , cit_type = "ws_ref"
-    , cit_text = 'van Putten, M., _The morphosyntax of objects to participles in the Qurʾān_'
+    , cit_text = 'van Putten, _The morphosyntax of objects to participles in the Qurʾān_'
     , bib_text = 'van Putten, M., "The morphosyntax of objects to participles in the Qurʾān," _Journal of Semitic Studies LXIX/1 Spring 2024_ <https://doi.org/10.1093/jss/fgad029>'
     , sort_key = 'putten 2024'
     ))
   resource_list.append(BibResource(
     "kinberg_participal"
     , cit_type = "ws_ref"
-    , cit_text = 'Kinberg, N., _Semi-imperfectives and imperfectives: A case study of aspect and tense in Arabic participal clauses_'
+    , cit_text = 'Kinberg, _Semi-imperfectives and imperfectives: A case study of aspect and tense in Arabic participal clauses_'
     , bib_text = 'Kinberg, N., "Semi-imperfectives and imperfectives: A case study of aspect and tense in Arabic participal clauses," _Lingua 86_ (1992) pp.\\ 301--330'
     , sort_key = 'kinberg n semiimperfectives and imperfectives a case study of aspect and tense in arabic participal clauses'
     ))
   resource_list.append(BibResource(
     "waltisberg_satzkomplex"
     , cit_type = "ws_ref"
-    , cit_text = 'Waltisberg, M., _Satzkomplex und funktion_'
+    , cit_text = 'Waltisberg, _Satzkomplex und funktion_'
     , bib_text = 'Waltisberg, M., _Satzkomplex und funktion: Syndese und asyndese im Althocharabischen_, Harrassowitz Verlag, 2009. <https://doi.org/10.2307/j.ctvbnm2b2>'
     , sort_key = 'waltisberg m satzkomplex und funktion'
     ))
   resource_list.append(BibResource(
     "owens_participle"
     , cit_type = "ws_ref"
-    , cit_text = 'Owens, J., and M. Yavrumyan,  _The participle_'
+    , cit_text = 'Owens and Yavrumyan,  _The participle_'
     , bib_text = 'Owens, J., and M. Yavrumyan,  "The participle" in _Encyclopedia of Arabic language and linguistics_, (2007) pp.\\ 541-46, Brill.'
     , sort_key = 'owens j and m yavrumyan the participle'
     ))
   resource_list.append(BibResource(
     "youssef_partizip"
     , cit_type = "ws_ref"
-    , cit_text = 'Youssef, Z., _Das partizip im Arabischen_'
+    , cit_text = 'Youssef, _Das partizip im Arabischen_'
     , bib_text = 'Youssef, Z., _Das partizip im Arabischen_, Ph.D. diss., University Erlangen-Nürnberg, 1990.'
     , sort_key = 'youssef z das partizip im arabischen'
     ))
@@ -1540,7 +1540,20 @@ def populate_resource_list():
     , bib_text = 'Jamil, M., "Arabic rhetoric made simple" _Learn Arabic Online_. <https://www.learnarabiconline.com/arabic-rhetoric/ilm-ul-maani/>'
     , sort_key = "jamil balagha"
     ))
-
+  resource_list.append(BibResource(
+    "aliane_sibawayhi"
+    , cit_type = "ws_ref"
+    , cit_text = 'Aliane, "Contribution to a modern reading of Sībawayhi"'
+    , bib_text = 'Aliane, H., "Contribution to a modern reading of Sībawayhi" in _The foundations of Arabic linguistics IV: The evolution of theory_, Brill 2019. <https://doi.org/10.1163/9789004389694>'
+    , sort_key = "aliane 2019"
+    ))
+  resource_list.append(BibResource(
+    "sadan_mmutlaq_haal"
+    , cit_type = "ws_ref"
+    , cit_text = 'Sadan, "Which verbal nouns can function as adverbial accusatives of state or condition (ḥāl) according to Sībawayhi and later grammarians?"'
+    , bib_text = 'Sadan, A., "Which verbal nouns can function as adverbial accusatives of state or condition (ḥāl) according to Sībawayhi and later grammarians?" in _The foundations of Arabic linguistics IV: The evolution of theory_, Brill 2019. <https://doi.org/10.1163/9789004389694>'
+    , sort_key = "sadan 2019"
+    ))
 
   return resource_list
 
