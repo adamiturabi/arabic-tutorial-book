@@ -31,7 +31,7 @@ Here are some rules and examples of writing hamzah in the above four ways:
 
 + When unseated hamzah is followed by an [alif]{.trn2}: [ءا]{.aralt},  the combination of hamzah and [alif]{.trn2} is usually written as [آ]{.aralt} as a convention. Examples: [آمَنَ]{.aralt} [EAmana]{.trn}, [ظَمْآن]{.aralt} [PamEAn]{.trn}, [شَنَآن]{.aralt} [canaEAn]{.trn}. However, when the [alif]{.trn2} is a suffix or part of a suffix, or the hamzah is doubled, or there is an [alif]{.trn2} before the hamzah then we will write [ءا]{.aralt}, not [آ]{.aralt}. Examples: [شَيْءَانِ]{.aralt} [cayEAni]{.trn}, [سَءَّال]{.aralt} [saEEAl]{.trn}, [قِرَاءَات]{.aralt} [qirAEAt]{.trn}. 
 
-+ When hamzah is seated on [alif]{.trn2}, if it has an [kasrah]{.trn2}, it is written below the [alif]{.trn2}: [إِ]{.aralt}. Otherwise, it is written above the [alif]{.trn2}: [أَ]{.aralt}, [أُ]{.aralt}, [أْ]{.aralt}.
++ When hamzah is seated on [alif]{.trn2}, if it has an [kasrah]{.trn2}, it is written below the [alif]{.trn2}: [إِ]{.aralt}. Otherwise, it is written above the [alif]{.trn2}: [أَ]{.aralt}, [أُ]{.aralt}, [أْ]{.aralt}. See also @sec-hamazrules_end for additional details when hamzah seated on [alif]{.trn2} occurs at the end of a word.
 
 + When hamzah is seated on [yAE]{.trn2} [ئ]{.aralt} the dots of the [yAE]{.trn2} are no longer written.^[But see also van Putten, "When did faṣīḥ become qabīḥ? Rehabilitating classical phonological and morphological features" 8--9 footnote 6]
   Here's how it will appear in different positions:
@@ -141,7 +141,7 @@ Examples:
 |\vphantom{\huge J} [لَءَّال]{.aralt} [laEEAl]{.trn}     | [a]{.trn}  | [A]{.trn}  | [A]{.trn}  | [ء]{.aralt} |
 |\vphantom{\huge J} [رَأَىٰ]{.aralt} [raEA]{.trn}        | [a]{.trn}  | [A]{.trn}  | [A]{.trn}  | [أ]{.aralt} (using exception) |
 
-### Hamzah in the end of the word
+### Hamzah in the end of the word {#sec-hamazrules_end}
 
 When hamzah occurs at the end of a word, disregard the vowel on hamzah itself, and consider only the vowel on preceding consonant.
 Plug it into the precedence table as above to determine the seat of hamzah.

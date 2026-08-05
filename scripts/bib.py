@@ -1282,7 +1282,7 @@ def populate_resource_list():
     , cit_type = "ws_ref"
     , cit_text = 'Owens, _The foundations of grammar_'
     , bib_text = 'Owens,\\ J., _The foundations of grammar: An introduction to medieval Arabic grammatical theory_, John Benjamins Publishing, 1988.'
-    , sort_key = 'Owens J The foundations of grammar'
+    , sort_key = 'owens 1988'
     ))
 
   resource_list.append(BibResource(
@@ -1349,7 +1349,7 @@ def populate_resource_list():
     , cit_type = "ws_ref"
     , cit_text = 'Owens and Yavrumyan,  _The participle_'
     , bib_text = 'Owens, J., and M. Yavrumyan,  "The participle" in _Encyclopedia of Arabic language and linguistics_, (2007) pp.\\ 541-46, Brill.'
-    , sort_key = 'owens j and m yavrumyan the participle'
+    , sort_key = 'owens 2007'
     ))
   resource_list.append(BibResource(
     "youssef_partizip"
@@ -1565,16 +1565,22 @@ def populate_resource_list():
     "giolfo_real_irreal"
     , cit_type = "ws_ref"
     , cit_text = 'Giolfo, "Real and irreal conditionals in Arabic grammar: From al-ʾAstarābāḏī to Sībawayhi"'
-    , bib_text = 'Giolfo, M.\\ E.\\ B., "Real and irreal conditionals in Arabic grammar: From al-ʾAstarābāḏī to Sībawayhi", in _The foundations of Arabic linguistics II_, Brill. <https://doi.org/10.1163/9789004302662_007>'
+    , bib_text = 'Giolfo, M.\\ E.\\ B., "Real and irreal conditionals in Arabic grammar: From al-ʾAstarābāḏī to Sībawayhi", in _The foundations of Arabic linguistics II_, Brill, 2015. <https://doi.org/10.1163/9789004302662_007>'
     , sort_key = "giolfo 2015"
     ))
   resource_list.append(BibResource(
     "sadan_hadith"
     , cit_type = "ws_ref"
     , cit_text = """Sadan, "Sībawayhi’s and later grammarians' usage of ḥadīṯs as a grammatical tool"""
-    , bib_text = """Sadan, A., "Sībawayhi’s and later grammarians' usage of ḥadīṯs as a grammatical tool," in _The Foundations of Arabic linguistics II_, Brill. <https://doi.org/10.1163/9789004302662_011>"""
+    , bib_text = """Sadan, A., "Sībawayhi’s and later grammarians' usage of ḥadīṯs as a grammatical tool," in _The Foundations of Arabic linguistics II_, Brill, 2015. <https://doi.org/10.1163/9789004302662_011>"""
     , sort_key = "sadan 2015"
     ))
-
+  resource_list.append(BibResource(
+    "owens_agt_mod"
+    , cit_type = "ws_ref"
+    , cit_text = 'Owens, "Structure, class and dependency: Modern linguistic theory and the Arabic grammatical tradition"'
+    , bib_text = """Owens, J. "Structure, class and dependency: Modern linguistic theory and the Arabic grammatical tradition," in _Lingua_, Volume 64, Issue 1, 1984, pp.\ 25--62, <https://doi.org/10.1016/0024-3841(84)90047-0>."""
+    , sort_key = "owens 1984"
+    ))
   return resource_list
 
