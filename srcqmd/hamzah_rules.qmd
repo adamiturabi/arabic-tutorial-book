@@ -134,7 +134,7 @@ Examples:
 |\vphantom{\huge J} [لَءَّال]{.aralt} [laEEAl]{.trn}     | [a]{.trn}  | [A]{.trn}  | [A]{.trn}  | [ء]{.aralt} |
 |\vphantom{\huge J} [رَأَىٰ]{.aralt} [raEA]{.trn}        | [a]{.trn}  | [A]{.trn}  | [A]{.trn}  | [أ]{.aralt} (using exception) |
 
-### Hamzah in the end of the word {#@sec-hamazrules_end}
+### Hamzah in the end of the word {#sec-hamazrules_end}
 
 When hamzah occurs at the end of a word, disregard the vowel on hamzah itself, and consider only the vowel on preceding consonant.
 Plug it into the precedence table as above to determine the seat of hamzah.
