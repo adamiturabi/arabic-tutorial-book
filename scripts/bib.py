@@ -1565,8 +1565,15 @@ def populate_resource_list():
     "giolfo_real_irreal"
     , cit_type = "ws_ref"
     , cit_text = 'Giolfo, "Real and irreal conditionals in Arabic grammar: From al-ʾAstarābāḏī to Sībawayhi"'
-    , bib_text = 'Giolfo, M., "Real and irreal conditionals in Arabic grammar: From al-ʾAstarābāḏī to Sībawayhi", In The foundations of Arabic linguistics II, Brill. <https://doi.org/10.1163/9789004302662_007>'
+    , bib_text = 'Giolfo, M., "Real and irreal conditionals in Arabic grammar: From al-ʾAstarābāḏī to Sībawayhi", in _The foundations of Arabic linguistics II_, Brill. <https://doi.org/10.1163/9789004302662_007>'
     , sort_key = "giolfo 2015"
+    ))
+  resource_list.append(BibResource(
+    "sadan_hadith"
+    , cit_type = "ws_ref"
+    , cit_text = """Sadan, "Sībawayhi’s and later grammarians' usage of ḥadīṯs as a grammatical tool"""
+    , bib_text = """Sadan, A., "Sībawayhi’s and later grammarians' usage of ḥadīṯs as a grammatical tool," in _The Foundations of Arabic linguistics II_, Brill. <https://doi.org/10.1163/9789004302662_011>"""
+    , sort_key = "sadan 2015"
     ))
 
   return resource_list
