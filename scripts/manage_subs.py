@@ -221,7 +221,7 @@ map_table["fi3l_amr"] = "verb of command"
 map_table["fi3l_muakkad"] = "emphatic verb"
 
 map_table["haal"] = "[HAl]{.trn2}"
-map_table["waw_hal"] = "[و]{.ar} of " + map_table["hal"]
+map_table["waw_haal"] = "[و]{.ar} of " + map_table["haal"]
 
 map_table["i3timaad"] = "governing support"
 map_table["idaafah"] = "annexation"
@@ -307,8 +307,8 @@ map_table["jawab_qasam"] = map_table["qasam"] + "-" + map_table["jawab"]
 map_table["rabt"] = "link"
 
 map_table["sababi"] = "sababi" # takeover
-map_table["sahib_hal"] = "person of ḥāl"
-map_table["sahibs_hal"] = "persons of ḥāl"
+map_table["sahib_haal"] = "person of ḥāl"
+map_table["sahibs_haal"] = "persons of ḥāl"
 map_table["sifah"] = "adjectival noun"
 map_table["sifah_mush"] = "static " + map_table["sifah"] # "participle-like adjective" # {"participlish adjectival noun", nil} # "participle-like", static-adjectival noun.
 map_table["sighah_mub"] = "emphatic noun" # {"participlish adjectival noun", nil} # "participle-like"?
