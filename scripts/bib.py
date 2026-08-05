@@ -1558,8 +1558,22 @@ def populate_resource_list():
     "giolfo_conditionality"
     , cit_type = "ws_ref"
     , cit_text = 'Giolfo and Hodges, "Conditionality: Syntax and meaning in al-Sīrāfī and Ibn Sīnā"'
-    , bib_text = 'Giolfo, M. and W. Hodges, "Conditionality: Syntax and meaning in al-Sīrāfī and Ibn Sīnā," in _The foundations of Arabic linguistics IV: The evolution of theory_, Brill 2019. <https://doi.org/10.1163/9789004389694>'
+    , bib_text = 'Giolfo, M.\\ E.\\ B. and W. Hodges, "Conditionality: Syntax and meaning in al-Sīrāfī and Ibn Sīnā," in _The foundations of Arabic linguistics IV: The evolution of theory_, Brill 2019. <https://doi.org/10.1163/9789004389694>'
     , sort_key = "giolfo 2019"
+    ))
+  resource_list.append(BibResource(
+    "giolfo_real_irreal"
+    , cit_type = "ws_ref"
+    , cit_text = 'Giolfo, "Real and irreal conditionals in Arabic grammar: From al-ʾAstarābāḏī to Sībawayhi"'
+    , bib_text = 'Giolfo, M.\\ E.\\ B., "Real and irreal conditionals in Arabic grammar: From al-ʾAstarābāḏī to Sībawayhi", in _The foundations of Arabic linguistics II_, Brill. <https://doi.org/10.1163/9789004302662_007>'
+    , sort_key = "giolfo 2015"
+    ))
+  resource_list.append(BibResource(
+    "sadan_hadith"
+    , cit_type = "ws_ref"
+    , cit_text = """Sadan, "Sībawayhi’s and later grammarians' usage of ḥadīṯs as a grammatical tool"""
+    , bib_text = """Sadan, A., "Sībawayhi’s and later grammarians' usage of ḥadīṯs as a grammatical tool," in _The Foundations of Arabic linguistics II_, Brill. <https://doi.org/10.1163/9789004302662_011>"""
+    , sort_key = "sadan 2015"
     ))
 
   return resource_list
