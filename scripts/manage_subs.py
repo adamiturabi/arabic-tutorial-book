@@ -220,7 +220,7 @@ map_table["faa3il"] = "doer"
 map_table["fi3l_amr"] = "verb of command"
 map_table["fi3l_muakkad"] = "emphatic verb"
 
-map_table["hal"] = "[HAl]{.trn2}"
+map_table["haal"] = "[HAl]{.trn2}"
 map_table["waw_hal"] = "[و]{.ar} of " + map_table["hal"]
 
 map_table["i3timaad"] = "governing support"
