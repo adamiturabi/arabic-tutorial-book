@@ -1578,7 +1578,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "owens_agt_mod"
     , cit_type = "ws_ref"
-    , cit_text = 'Owens, "Structure, class and dependency: Modern linguistic theory and the Arabic grammatical tradition,"'
+    , cit_text = 'Owens, "Structure, class and dependency: Modern linguistic theory and the Arabic grammatical tradition"'
     , bib_text = """Owens, J. "Structure, class and dependency: Modern linguistic theory and the Arabic grammatical tradition," in _Lingua_, Volume 64, Issue 1, 1984, pp.\ 25--62, <https://doi.org/10.1016/0024-3841(84)90047-0>."""
     , sort_key = "owens 1984"
     ))
