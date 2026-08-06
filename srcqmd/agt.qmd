@@ -1578,18 +1578,18 @@ Nevertheless, a good model is indispensable
 because it helps systematize language and make it amenable to analysis.
 Importantly, it also helps guide non-native users of a language
 to interpret the meaning of a text correctly.
-There is a famous quote which may be somewhat applicable here:
-
-<!--
-> The fact that the polynomial is an approximation does not necessarily detract from its usefulness because all models are approximations.  Essentially, **all models are wrong, but some are useful**.^[Box, George E. P. and Draper, Norman Richard, _Empirical model-building and response surfaces_, New York: Wiley, p.\ 424, 1987, cited by ["All models are wrong" in _Wikipedia_](https://en.wikipedia.org/wiki/All_models_are_wrong).]
--->
+There is a famous aphorism which may be somewhat applicable here:
 
 > All models are wrong, but some are useful.^[["All models are wrong"](https://en.wikipedia.org/wiki/All_models_are_wrong) in _Wikipedia_]
 
-The term "wrong" in the above quotation may be a bit too harsh here.
-It is perhaps better to say that all models, by nature,
-simplify reality.
-But when designed well, and applied judiciously, models can still provide valuable insight.^[["All models are wrong"](https://en.wikipedia.org/wiki/All_models_are_wrong) in _Wikipedia_]
+The term "wrong" in the above quotation may be a bit too harsh.
+In fact,
+we should be careful to not run away with the above aphorism
+to the point that it leads us to think that there is no reality.
+It is perhaps better to say that models
+abstract reality.
+And when designed well, and applied judiciously,
+models can provide valuable insight into reality.^[["All models are wrong"](https://en.wikipedia.org/wiki/All_models_are_wrong) in _Wikipedia_]
 
 Here is an example where
 the model developed in
@@ -1637,7 +1637,7 @@ there has been much research in linguistics in Western academia since the 20th c
 resulting in the development of models within the Western linguistic tradition,
 targeting, for example, generative and cognitive grammar approaches.
 Then there are _large language models (LLMs)_, developed using artificial intelligence,
-whose typical purpose is to program machines to generate human-like language.^[["Large language model"](https://en.wikipedia.org/wiki/Large_language_model) in _Wikipedia_]
+whose typical purpose is for machines to generate human-like language.^[["Large language model"](https://en.wikipedia.org/wiki/Large_language_model) in _Wikipedia_]
 Some researchers have tried fitting
 these newer models
 to the Arabic language.^[@aliane_sibawayhi@ 11; See, for example, @owens_agt_mod@]
