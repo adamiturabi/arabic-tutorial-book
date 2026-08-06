@@ -8,6 +8,8 @@ IT IS NOT YET READY TO BE STUDIED FROM.**
 :::
 """
 
+map_table["waw"] = "[و]{.ar}"
+
 # symbols
 map_table["x"] = "✗"
 map_table["v"] = "✓"
