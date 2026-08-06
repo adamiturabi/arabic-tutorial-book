@@ -1579,11 +1579,16 @@ because it helps systematize language and make it amenable to analysis.
 Importantly, it also helps guide us to interpret the meaning of a text correctly.
 There is a famous quote which may be somewhat applicable here:
 
+<!--
 > The fact that the polynomial is an approximation does not necessarily detract from its usefulness because all models are approximations.  Essentially, **all models are wrong, but some are useful**.^[Box, George E. P. and Draper, Norman Richard, _Empirical model-building and response surfaces_, New York: Wiley, p.\ 424, 1987, cited by ["All models are wrong" in _Wikipedia_](https://en.wikipedia.org/wiki/All_models_are_wrong).]
+-->
+
+> All models are wrong, but some are useful.^[["All models are wrong" in _Wikipedia_](https://en.wikipedia.org/wiki/All_models_are_wrong) citing David Cox]
 
 The term "wrong" in the above quotation may be a bit too harsh here.
 It is perhaps better to say that all models, by nature,
-simplify reality.^[["All models are wrong" in _Wikipedia_](https://en.wikipedia.org/wiki/All_models_are_wrong) citing David Cox]
+simplify reality.
+But when applied judiciously, models can still provide valuable insight.^[["All models are wrong" in _Wikipedia_](https://en.wikipedia.org/wiki/All_models_are_wrong)]
 
 By the way,
 the theoretical framework developed within the 
@@ -1600,11 +1605,17 @@ Some researchers have tried fitting
 these newer models
 to the Arabic language.^[@aliane_sibawayhi@ 11; See, for example, @owens_agt_mod@]
 
+<!--
 For our requirement,
 which is
 a tool
 that aids in teaching
 the student ;sca;,
+-->
+Our goal is to teach the student ;sca;,
+and to enable him to be able to venture into ;islam;ic works written in
+;sca;.
+For this purpose,
 we find the model developed within
 the Arabic grammatical tradition
 suitable and
