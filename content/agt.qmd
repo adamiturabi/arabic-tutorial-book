@@ -1580,7 +1580,7 @@ that Classical Arabic could be molded to.
 
 We should understand that a model
 is probably not going to be able to characterize
-every single aspect of natural speech.
+every single aspect of natural speech completely.
 Nevertheless, a good model is indispensable
 because it helps systematize language and make it amenable to analysis.
 Importantly, it also helps guide us to interpret the meaning of a text correctly.
@@ -1590,23 +1590,57 @@ There is a famous quote which may be somewhat applicable here:
 > The fact that the polynomial is an approximation does not necessarily detract from its usefulness because all models are approximations.  Essentially, **all models are wrong, but some are useful**.^[Box, George E. P. and Draper, Norman Richard, _Empirical model-building and response surfaces_, New York: Wiley, p.\ 424, 1987, cited by ["All models are wrong" in _Wikipedia_](https://en.wikipedia.org/wiki/All_models_are_wrong).]
 -->
 
-> All models are wrong, but some are useful.^[["All models are wrong" in _Wikipedia_](https://en.wikipedia.org/wiki/All_models_are_wrong) citing David Cox]
+> All models are wrong, but some are useful.^[["All models are wrong" in _Wikipedia_](https://en.wikipedia.org/wiki/All_models_are_wrong)]
 
 The term "wrong" in the above quotation may be a bit too harsh here.
 It is perhaps better to say that all models, by nature,
 simplify reality.
 But when applied judiciously, models can still provide valuable insight.^[["All models are wrong" in _Wikipedia_](https://en.wikipedia.org/wiki/All_models_are_wrong)]
 
+Here is an example where
+the model developed in
+the Arabic grammatical tradition
+is not completely accurate in a particular situation.
+The standard model developed by the grammarians
+states the following rules regarding the relationship between a verb and its doer:
+
+1. A verb must have a doer.
+1. A verb cannot have more than one doer.
+2. The doer of a verb must follow it in sentence word order.
+3. When the verb has a pronoun doer, and it has extra sounds/letters after the verb, some of those can be considered the doer.
+
+These rules are sufficient to anaylze sentences like
+example (@ex001100) [قَرَأَ زَيْدٌ]{.ar}
+[Zayd read]{.trans}
+and (through virtual modeling)
+example (@ex001107) [ذَهَبَ]{.ar}
+[He went]{.trans}.
+But it falls short when we try to apply it to the dialectal usage
+in example (@ex001089) [ضَرَبُونِي قَوْمُكَ]{.ar} [Your people beat me]{.trans}.
+This is because the verb [ضَرَبَ]{.ar}
+has a doer noun
+[قَوْم]{.ar}
+[people]{.trans}
+after it.
+But it also has
+the letter
+[و]{.ar}
+which is normally considered
+a doer pronoun for [they]{.trans}.
+This results in two doers which is not permissible.
+Therefore, in order to accurately model this dialectal usage,
+the standard model would need to be modified.
+
 By the way,
 the theoretical framework developed within the 
 Arabic grammatical tradition
 is not necessarily
 the only way to model the Arabic language.
-Furthermore, models of language may be developed for different purposes,
+Also, different models may be developed for different purposes,
 depending on the issues that researchers may be investigating.
 For example,
 there has been much research in linguistics in Western academia since the 20th century\ [ce]{.smallcaps},
-resulting in the development of language models within the Western linguistic tradition,
+resulting in the development of grammatical frameworks within the Western linguistic tradition,
 not to mention _large language models (LLMs)_ developed using artificial intelligence.
 Some researchers have tried fitting
 these newer models
