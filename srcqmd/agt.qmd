@@ -545,7 +545,7 @@ attempting to conform to ;sca;,
 then he knows that
 he will have to put the verb's ;faa3il; in the ;ucase;.
 
-## #;shaadh; ([الشَّاذّ]{.ar})
+## #;shaadh; ([الشَّاذّ]{.ar}) {#sec-agt_shaadh}
 
 Sometimes a pattern occurs often enough in ;samaa3; that a rule is built upon it using
 ;qiyaas;.
@@ -729,10 +729,10 @@ instead of the more normative:
 
 (@ex001090) [ضَرَبَنِي قَوْمُكَ]{.ar}
 
-The dialectal feature used in example ()
+The dialectal feature used in example (@ex001089)
 is graded by the grammarians as rare.^[[@sibawayhi@ 2/40](https://shamela.ws/book/23018/475)]
 It did not make its way into ;sca;.
-Instead, the more common usage in example () became the standard.
+Instead, the more common usage in example (@ex001090) became the standard.
 
 #### Elision of the hamzah {.unnumbered}
 
@@ -1069,7 +1069,7 @@ We will further explain ;taqdiring; by going through some examples in the sectio
 
 ### Examples of ;taqdiring;
 
-#### A ;taqdir; of ;mustatir; ;faa3il; pronouns
+#### A ;taqdir; of ;mustatir; ;faa3il; pronouns  {#sec-agt_taqdir_mustatir}
 
 Let's say that a hypothetical grammarian goes through some data in ;samaa3;,
 and he finds surface speech samples like the following:
@@ -1168,28 +1168,28 @@ Because his informant tells him that he still understands these samples,
 in context, to have a complete meaning.
 The ;faa3il; of each action is again a person who is not named but who is known to the informant.
 
-So, evidently, samples () through () are complete sentences with pronoun ;faa3il;s,
-just like samples () through ().
+So, evidently, samples (@ex001107) through (@ex001110) are complete sentences with pronoun ;faa3il;s,
+just like samples (@ex001103) through (@ex001106).
 But the problem is that there are no apparent extra sounds/letters after the verbs
 which can be considered the ;faa3il;.
 
 Some of the verbs in these sentences,
-like in examples () and (),
+like in examples (@ex001109) and (@ex001110),
 have extra sounds, but they are before the verb.
 But some verbs,
-like in example (),
+like in example (@ex001107),
 don't even have that.
-Example () [رَجَعَتْ]{.ar}
+Example (@ex001108) [رَجَعَتْ]{.ar}
 does have an extra [تْ]{.ar} after the verb,
 but that letter is kept when there is an ;zaahir; ;faa3il; noun,
-like in example () [رَجَعَتْ هِنْدٌ]{.ar}
+like in example (@ex001101) [رَجَعَتْ هِنْدٌ]{.ar}
 above.
 So the [تْ]{.ar} doesn't seem like it can be the ;faa3il;.
 So what is the grammarian to do?
 
 In order to keep the principle consistent,
 the grammarian ;qaddars; _;mustatir;_ ;faa3il;s for these sentences.
-For example () above, the ;mustatir; ;faa3il; is ;qaddared; as [[هُوَ]{.ar}], thus:
+For example (@ex001107) above, the ;mustatir; ;faa3il; is ;qaddared; as [[هُوَ]{.ar}], thus:
 
 (@ex001111) [ذَهَبَ [هُوَ]]{.ar}  
     [He went.]{.trans}  
@@ -1213,7 +1213,7 @@ Here are the other examples with their ;qaddared; ;faa3il;s:
 In this way, a grammarian was able to formulate a ;qiyaas;-based grammatical principle
 based on observation of ;samaa3; and theorization of a ;taqdir;.
 
-#### A ;taqdir; of ;an; before ;acase; ;mudarie; verbs
+#### A ;taqdir; of ;an; before ;acase; ;mudarie; verbs {#sec-agt_taqdir_lian}
 
 We present another example of where ;taqdiring; is useful for coming up with grammatical principles.
 In chapter\ (ref),
@@ -1266,14 +1266,14 @@ to a preposition that only precedes nouns,
 then this can be seen when we apply a second level of ;taqdiring;:
 and that is to interpret (a surface or ;qaddared;)
 ;an; and the following ;acase; ;mudarie; verb as a ;masdar; construction.
-So the ;taqdir; of () [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}
+So the ;taqdir; of (@ex001118) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}
 is:
 
 (@ex001119) [دَرَسْتُ لِنَجَاحِي]{.ar}  
     [I studied for the reason of my success.]{.trans}  
     (i.e. [in order to achieve success]{.trans}.)  
 
-In the ;taqdir; in example (),
+In the ;taqdir; in example (@ex001119),
 we can see how
 [لِ]{.ar}
 is a preposition before the ;icase; noun
@@ -1296,12 +1296,12 @@ regarding ;taqdiring;,
 is that 
 the ;taqdir; representation of a surface speech is often not actually correct as surface speech.^[@baalbaki_bab_al_fa@ 190; @versteegh_taqdir@ 278]
 
-If we take the ;taqdir; in () [ذَهَبَ [هُوَ]]{.ar} as an example,
+If we take the ;taqdir; in (@ex001111) [ذَهَبَ [هُوَ]]{.ar} as an example,
 then what we mean is that
 we don't actually say (in surface speech)
 [ذَهَبَ هُوَ]{.ar}
 when we intend to mean [He went]{.trans}.
-The surface speech () [ذَهَبَ]{.ar} is the only correct way to express this intended meaning.
+The surface speech (@ex001107) [ذَهَبَ]{.ar} is the only correct way to express this intended meaning.
 The representation [ذَهَبَ [هُوَ]]{.ar}
 is only a _;taqdir;_ of the surface speech [ذَهَبَ]{.ar}
 that elucidates the grammar of the sentence.
@@ -1316,7 +1316,7 @@ for example,
 when the ;taqdir; restores a word or expression which is implied and was optionally deleted.
 For example,
 we saw that
-the ;qaddared; ;an; in example () [دَرَسْتُ لِأَنْجَحَ]{.ar}
+the ;qaddared; ;an; in example (@ex001116) [دَرَسْتُ لِأَنْجَحَ]{.ar}
 can actually be expressed in surface speech, thus:
 
 (@ex001120) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}  
@@ -1347,7 +1347,7 @@ the ;qaddared; ;faa3il;s,
 [[أَنَا]{.ar}],
 and
 [[نَحْنُ]{.ar}]
-in examples () through () above)
+in examples (@ex001111) through (@ex001114) above)
 are not "real" representations of the ;mustatir; ;faa3il; pronouns.
 They are only written as such because,
 for his analysis,
@@ -1414,7 +1414,7 @@ The ;taqdir; for this analysis is:
 Grammarians also sometimes used ;taqdiring; as a tool to make ;shaadh;
 fit coherently
 into their grammatical framework.^[@qiyaas_husain@ 42]
-For example, if we consider the line of poetry that we discussed in section\ (ref) above:
+For example, if we consider the line of poetry that we discussed in @sec-agt_shaadh above:
 
 (@ex001125) [جَارِيَةٌ فِي دِرْعِهَا الفَضْفَاضِ ~ **أَبْيَضُ** مِنْ أُخْتِ بَنِي إِبَاضِ]{.ar}
     [@qiyaas_husain@ 42]{.citex}  
@@ -1452,25 +1452,25 @@ Here is another example of using ;taqdiring; with ;shaadh;:
 In order to fit a surface speech into ;qiyaas;,
 there can be multiple 'levels' of ;taqdiring; done.
 As an example,
-we saw in section\ (ref) above that
-in the sentence () [دَرَسْتُ لِأَنْجَحَ]{.ar},
+we saw in @sec-agt_taqdir_lian above that
+in example (@ex001116) [دَرَسْتُ لِأَنْجَحَ]{.ar},
 first an ;an; was ;qaddared; between
 [لِ]{.ar}
 and the
-;acase; ;mudarie; thus: () [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}.
+;acase; ;mudarie; thus: (@ex001117) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}.
 
 And then a further level of ;taqdiring; was done,
 where
 ;an; and the following ;acase; ;mudarie; verb
 was reinterpreted
-as a ;masdar; construction: () [دَرَسْتُ لِنَجَاحِي]{.ar}.
+as a ;masdar; construction: (@ex001119) [دَرَسْتُ لِنَجَاحِي]{.ar}.
 
 Sometimes a ;taqdir; mainly details the meaning of a sentence,
 rather than its syntactic structure.
 At all layers, however,
 ;taqdiring; serves to explain the grammar of the sentence.
 
-### Benefits and risks of ;taqdiring;
+### Benefits and risks of ;taqdiring; {#sec-agt_taqdir_benefits_risks}
 
 #;taqdiring; is an analytic tool that allows the grammarian to discover
 and reconstruct
@@ -1504,10 +1504,10 @@ One way to do this is
 by basing the ;taqdir; on
 the meaning that
 a native speaker understands from the surface speech,
-like our hypothetical grammarian did for ;mustatir; ;faa3il; pronouns in section\ (ref) above.
+like our hypothetical grammarian did for ;mustatir; ;faa3il; pronouns in @sec-agt_taqdir_mustatir} above.
 
 Another way is to attempt to find traces of the ;taqdir; in the surface speech,
-as was done in section\ (ref) above,
+as was done in @sec-agt_taqdir_lian above,
 for the ;taqdiring; of ;an; between
 [لِ]{.ar}
 and a following ;acase; ;mudarie; verb.
@@ -1676,7 +1676,7 @@ Having said that,
 we also don't mean to imply a
 free-for-all, anything-goes
 plurality for the validity of different models.
-A researcher must take pains to validate his model to whatever degree possible.
+A researcher must take pains to validate his model to whatever degree possible (see, for example, @sec-agt_taqdir_benefits_risks above).
 And if two different models give contradictory outputs for the same inputs and bounds,
 then they both shouldn't be right (for that particular case).
 
