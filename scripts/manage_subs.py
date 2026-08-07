@@ -8,6 +8,8 @@ IT IS NOT YET READY TO BE STUDIED FROM.**
 :::
 """
 
+map_table["waw"] = "[و]{.ar}"
+
 # symbols
 map_table["x"] = "✗"
 map_table["v"] = "✓"
@@ -17,6 +19,7 @@ map_table["larr"] = "←"
 # text terms
 map_table["Allah"] = "Allāh"
 map_table["3amr"] = "[#eamr]{.trn2}"
+map_table["agt"] = "Arabic grammatical tradition"
 map_table["arch"] = "archetypal"
 map_table["archly"] = "archetypically"
 map_table["ia"] = "if Allāh wills"
