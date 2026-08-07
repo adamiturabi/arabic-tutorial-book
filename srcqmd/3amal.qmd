@@ -653,7 +653,7 @@ These include:
 * The ;3atf_bayan; (see chapter\ (ref))
 -->
 
-## Refining the definitions of the ;j_ism; and the ;j_f3l;
+## Refining the definitions of the ;j_ism; and the ;j_f3l; {#3amal-refine_defs}
 
 We know that there are two basic types of Arabic sentences:
 
@@ -662,13 +662,9 @@ ii. The ;j_f3l;
 
 Previously we had said that a ;j_ism; is one that begins with a noun.
 And a ;j_ism; is one that begins with a verb.
-We will now refine these definitions:
+We will now refine these definitions,
+from the perspective of sentence completion:
 
-<!--
-A _;j_ism;_ is one whose first ;3umdah; element is a noun.
-And
-a _;j_f3l;_ is one whose first ;3umdah; element is a verb.
--->
 A _;j_ism;_ is one whose ;3umdah; elements are two nouns: a ;ism_of; (as the ;muxbar3;) and an ;xabar; (as the ;muxbar;).
 And
 a _;j_f3l;_ is one whose ;3umdah; elements are a verb (as the ;muxbar;) and and its ;faa3il; (as the ;muxbar3;).
@@ -700,96 +696,17 @@ Stripping the sentence of this ;fadlah; element, we are left with
 This is a ;j_f3l;.
 The verb [رَأى]{.ar} is the ;muxbar; and its ;faa3il;, the pronoun [تُ]{.ar}, is the ;muxbar3;.
 
-<!--
+#### Traditional definitions of the ;j_ism; and the ;j_f3l; {.unnumbered}
 
-## The hybrid sentence
+The above re-definitions of the ;j_ism; and the ;j_f3l;
+are from the perspective of sentence completion.
+There is no problem if we continue to use the original definitions in other spheres
+(as for example in @sec-jsh-kaana-shart).
+But we will still refine the traditional definitions to say:
 
-Some sentences do not fall neatly into the categories of a ;j_ism; or a ;j_f3l;.
-We will refer to such sentences as hybrid sentences.
-
-One example of a hybrid sentence is one that has the verb [كَانَ]{.ar}.
-Example:
-
-(@kaana_zaydun_qaaiman) [كَانَ زَيْدٌ قَائِمًا]{.ar}
-    [@peled_sentence_types@ 171]{.citex}  
-    [Zayd was standing]{.trans}
-
-On the surface, 
-example (@kaana_zaydun_qaaiman) above
-looks like a verbal sentence because it begins with
-[كَانَ]{.ar}, which is a verb.
-Its ;faa3il;
-[زَيْدٌ]{.ar}
-is the ;muxbar3;, as usual.
-But
-[كَانَ]{.ar}, as used above,
-is a ;naqis; verb
-(see chapter\ (ref).)
-This means that it does not have sufficient meaning to ;isnaad_comp; the sentence by itself.
-So it cannot be a ;3umdah; ;muxbar;.
-Instead,
-[كَانَ]{.ar}
-requires a ;xabar; 
-([قَائِمًا]{.ar} above)
-to be the ;muxbar;.
-
-In such a sentence,
-[كَانَ]{.ar}
-can be considered to be the ;pregov;, and the sentence may be considered a ;j_ism;.
-
-Similarly consider the sentence:
-
-(@ex000569) [لَمْ يَكُنْ زَيْدٌ قَائِمًا]{.ar}  
-    [Zayd was not standing.]{.trans}
-
-In the example above,
-the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the ;0case;.
-The verb [يَكُنْ]{.ar}, being a ;naqis; verb, is not an ;3umdah; element.
-But [يَكُنْ]{.ar} governs the ;muxbar3; [زَيْدٌ]{.ar} in the ;ucase;
-and the ;muxbar; [قَائِمًا]{.ar} in the ;acase;.
-Therefore both [لَمْ]{.ar} and [يَكُنْ]{.ar} form the ;pregov;.
-
-[كَانَ]{.ar} and its sisters are discussed in more detail in chapters\ (ref).
--->
-<!--
-Similarly, consider the sentence:
-
-(@ex000570) [ظَنَنْتُ زَيْدًا قَائِمًا]{.ar}
-    [@peled_sentence_types@ 171]{.citex}  
-    [I believed him [to be] standing.]{.trans}
-
-The sentence above begins with the verb [ظَنَّ]{.ar},
-which would normally make this a ;j_f3l;.
-But the sentence with just the verb and its ;faa3il; 
-[ظَنَنْتُ]{.ar}
-[I believed]{.trans}
-seems incomplete.
-
-[ظَنَّ]{.ar} and its sisters are discussed in more detail in chapters\ (ref).
--->
-<!--
-We will see another example of a hybrid sentence in section\ (aqaaimun zaydun).
--->
-
-
-<!--
-## Identifying the ;3umdah; elements
-
-### Identifying the ;3umdah; elements in a ;j_f3l;
-
-Identifying the ;3umdah; elements in a ;j_f3l; is relatively straightforward.
-The ;muxbar3; is always the ;faa3il; of the verb.
-And 
-except in the case of a ;naqis; verb,
-the ;muxbar; is usually the verb.
-We saw an example of the ;3umdah; elements of a ;j_f3l; in example (@3amal_qaama_zaydun) above.
-
-In the case of a ;naqis; verb,
-like [كَانَ]{.ar},
-the verb does not complete the sentence grammatically.
-So the ;mafulb; of the verb becomes the ;muxbar;.
-We saw an example of the ;3umdah; elements of a ;j_f3l; with a ;naqis; verb in example (@kaana_zaydun_qaaiman) above.
--->
+A _;j_ism;_ is one whose first _;3umdah;_ element is a noun.
+And
+a _;j_f3l;_ is one whose first _;3umdah;_ element is a verb.
 
 ## Identifying the ;3umdah; elements in a ;j_ism;
 
@@ -863,43 +780,6 @@ Another special case is when the ;mubtada; is an indefinite ;af3al; in sentences
     [Better than you is Zayd]{.trans}
 
 In the above sentence, [خَيْرٌ]{.ar} is considered the ;mubtada; of the sentence.
-<!--
-Typically, an indefinite ;af3al; would be a ;xabar; instead of a ;mubtada;.
-For example: zaydun xayrun minka.
-But imagine a scenario where someone says:
-3amrun xayrun minni.
-In response to this, another person may reply
-xayrun minka zaydun.
-The given information is xayrun minka.
-And the new information is zayd.
--->
-<!--
-Besides these two special cases,
-there are words like
-[حَسْب]{.ar},
-[مِثْل]{.ar},
-[نَحْو]{.ar}, etc.
-We will see in chapter\ (ref) that these words (exceptionally) remain indefinite when annexed to a definite noun.
-So, for example, these words (as ;mudaf;s to definite ;mudafil;s) may be used as ;na3t;s to an indefinite noun.
-For example:
-
-(@ex000574) [مَرَرْتُ بِرَجُلٍ حَسْبِكَ ِمْن َرُجٍل]{.ar}
-    [@ibn_hisham_awdah_almasaalik@ 3/139]{.citex}
-
-There is some debate amongst the grammarians with regards to whether these indefinite noun may occur as a ;mubtada; to a definite ;xabar;.^[@sabban@ 1/277]
-So if we have a sentence: 
-
-(@ex000575) [حسبُك زَيْدٌ]{.ar}  
-    [Sufficient for you is Zayd.]{.trans}
-
-then one may deem zayd as the ;mubtada; because it is more definite than hasbuka.
-
-But see also the ;tafsir;s of the following ;ayah;s:
-
-(@ex000576) faHasbuhu jahannamu
-
-(@ex000577) Hasbuhum jahannamu yaSlawnahA
--->
 
 ### Both ;3umdah; elements are definite
 

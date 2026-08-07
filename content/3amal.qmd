@@ -660,7 +660,7 @@ These include:
 * The clarifying follower (see chapter\ (ref))
 -->
 
-## Refining the definitions of the nounal sentence and the verbal sentence
+## Refining the definitions of the nounal sentence and the verbal sentence {#3amal-refine_defs}
 
 We know that there are two basic types of Arabic sentences:
 
@@ -669,13 +669,9 @@ ii. The verbal sentence
 
 Previously we had said that a nounal sentence is one that begins with a noun.
 And a nounal sentence is one that begins with a verb.
-We will now refine these definitions:
+We will now refine these definitions,
+from the perspective of sentence completion:
 
-<!--
-A _nounal sentence_ is one whose first indispensable element is a noun.
-And
-a _verbal sentence_ is one whose first indispensable element is a verb.
--->
 A _nounal sentence_ is one whose indispensable elements are two nouns: a subject (as the leaned-against element) and an info (as the leaning element).
 And
 a _verbal sentence_ is one whose indispensable elements are a verb (as the leaning element) and and its doer (as the leaned-against element).
@@ -707,96 +703,17 @@ Stripping the sentence of this dispensable element, we are left with
 This is a verbal sentence.
 The verb [رَأى]{.ar} is the leaning element and its doer, the pronoun [تُ]{.ar}, is the leaned-against element.
 
-<!--
+#### Traditional definitions of the nounal sentence and the verbal sentence {.unnumbered}
 
-## The hybrid sentence
+The above re-definitions of the nounal sentence and the verbal sentence
+are from the perspective of sentence completion.
+There is no problem if we continue to use the original definitions in other spheres
+(as for example in @sec-jsh-kaana-shart).
+But we will still refine the traditional definitions to say:
 
-Some sentences do not fall neatly into the categories of a nounal sentence or a verbal sentence.
-We will refer to such sentences as hybrid sentences.
-
-One example of a hybrid sentence is one that has the verb [كَانَ]{.ar}.
-Example:
-
-(@kaana_zaydun_qaaiman) [كَانَ زَيْدٌ قَائِمًا]{.ar}
-    [Peled, _Sentence types_ 171]{.citex}  
-    [Zayd was standing]{.trans}
-
-On the surface, 
-example (@kaana_zaydun_qaaiman) above
-looks like a verbal sentence because it begins with
-[كَانَ]{.ar}, which is a verb.
-Its doer
-[زَيْدٌ]{.ar}
-is the leaned-against element, as usual.
-But
-[كَانَ]{.ar}, as used above,
-is a deficient verb
-(see chapter\ (ref).)
-This means that it does not have sufficient meaning to structurally complete the sentence by itself.
-So it cannot be a indispensable leaning element.
-Instead,
-[كَانَ]{.ar}
-requires a info 
-([قَائِمًا]{.ar} above)
-to be the leaning element.
-
-In such a sentence,
-[كَانَ]{.ar}
-can be considered to be the foundational government, and the sentence may be considered a nounal sentence.
-
-Similarly consider the sentence:
-
-(@ex000569) [لَمْ يَكُنْ زَيْدٌ قَائِمًا]{.ar}  
-    [Zayd was not standing.]{.trans}
-
-In the example above,
-the particle [لَمْ]{.ar} governs the verb [يَكُنْ]{.ar} in the ø-case.
-The verb [يَكُنْ]{.ar}, being a deficient verb, is not an indispensable element.
-But [يَكُنْ]{.ar} governs the leaned-against element [زَيْدٌ]{.ar} in the u-case
-and the leaning element [قَائِمًا]{.ar} in the a-case.
-Therefore both [لَمْ]{.ar} and [يَكُنْ]{.ar} form the foundational government.
-
-[كَانَ]{.ar} and its sisters are discussed in more detail in chapters\ (ref).
--->
-<!--
-Similarly, consider the sentence:
-
-(@ex000570) [ظَنَنْتُ زَيْدًا قَائِمًا]{.ar}
-    [Peled, _Sentence types_ 171]{.citex}  
-    [I believed him [to be] standing.]{.trans}
-
-The sentence above begins with the verb [ظَنَّ]{.ar},
-which would normally make this a verbal sentence.
-But the sentence with just the verb and its doer 
-[ظَنَنْتُ]{.ar}
-[I believed]{.trans}
-seems incomplete.
-
-[ظَنَّ]{.ar} and its sisters are discussed in more detail in chapters\ (ref).
--->
-<!--
-We will see another example of a hybrid sentence in section\ (aqaaimun zaydun).
--->
-
-
-<!--
-## Identifying the indispensable elements
-
-### Identifying the indispensable elements in a verbal sentence
-
-Identifying the indispensable elements in a verbal sentence is relatively straightforward.
-The leaned-against element is always the doer of the verb.
-And 
-except in the case of a deficient verb,
-the leaning element is usually the verb.
-We saw an example of the indispensable elements of a verbal sentence in example (@3amal_qaama_zaydun) above.
-
-In the case of a deficient verb,
-like [كَانَ]{.ar},
-the verb does not complete the sentence grammatically.
-So the direct doee of the verb becomes the leaning element.
-We saw an example of the indispensable elements of a verbal sentence with a deficient verb in example (@kaana_zaydun_qaaiman) above.
--->
+A _nounal sentence_ is one whose first _indispensable_ element is a noun.
+And
+a _verbal sentence_ is one whose first _indispensable_ element is a verb.
 
 ## Identifying the indispensable elements in a nounal sentence
 
@@ -870,43 +787,6 @@ Another special case is when the subject is an indefinite comparative noun in se
     [Better than you is Zayd]{.trans}
 
 In the above sentence, [خَيْرٌ]{.ar} is considered the subject of the sentence.
-<!--
-Typically, an indefinite comparative noun would be a info instead of a subject.
-For example: zaydun xayrun minka.
-But imagine a scenario where someone says:
-3amrun xayrun minni.
-In response to this, another person may reply
-xayrun minka zaydun.
-The given information is xayrun minka.
-And the new information is zayd.
--->
-<!--
-Besides these two special cases,
-there are words like
-[حَسْب]{.ar},
-[مِثْل]{.ar},
-[نَحْو]{.ar}, etc.
-We will see in chapter\ (ref) that these words (exceptionally) remain indefinite when annexed to a definite noun.
-So, for example, these words (as annexed nouns to definite annexed-to nouns) may be used as attributes to an indefinite noun.
-For example:
-
-(@ex000574) [مَرَرْتُ بِرَجُلٍ حَسْبِكَ ِمْن َرُجٍل]{.ar}
-    [[أوضح المسالك لابن هشام]{.ar} 3/139]{.citex}
-
-There is some debate amongst the grammarians with regards to whether these indefinite noun may occur as a subject to a definite info.^[[حاشية الصبان على شرح الأشمونى لألفية ابن مالك]{.ar} 1/277]
-So if we have a sentence: 
-
-(@ex000575) [حسبُك زَيْدٌ]{.ar}  
-    [Sufficient for you is Zayd.]{.trans}
-
-then one may deem zayd as the subject because it is more definite than hasbuka.
-
-But see also the [tafsIr]{.trn2}s of the following [Ayah]{.trn2}s:
-
-(@ex000576) faHasbuhu jahannamu
-
-(@ex000577) Hasbuhum jahannamu yaSlawnahA
--->
 
 ### Both indispensable elements are definite
 
