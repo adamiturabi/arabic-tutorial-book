@@ -1677,8 +1677,11 @@ we also don't mean to imply a
 free-for-all, anything-goes
 plurality for the validity of different models.
 A researcher must take pains to validate his model to whatever degree possible (see, for example, @sec-agt_taqdir_benefits_risks above).
-And if two different models give contradictory outputs for the same inputs and bounds,
-then they both shouldn't be right (for that particular case).
+And if two different models give contradictory
+(but not necessarily different)
+outputs for the same inputs and bounds,
+then at least one of them is inaccurate
+(for that particular case).
 
 <!--
 For our requirement,
