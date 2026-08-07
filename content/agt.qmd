@@ -1586,11 +1586,11 @@ Nevertheless, a good model is indispensable
 because it helps systematize language and make it amenable to analysis.
 Importantly, it also helps guide non-native users of a language
 to interpret the meaning of a text correctly.
-There is a famous aphorism which may be of some relevance here:
+There is a famous catchy aphorism which may be of some relevance here:
 
 > All models are wrong, but some are useful.^[["All models are wrong"](https://en.wikipedia.org/wiki/All_models_are_wrong) in _Wikipedia_]
 
-The term "wrong" in the above quotation is a bit too harsh.
+The term "wrong" in the above quotation is a bit harsh.
 In fact,
 we should be careful to not run away with the above aphorism
 to the point that it leads us to think that 
@@ -1605,11 +1605,11 @@ Commenting on the [Ayah]{.trn2}:
 
 Ibn al-Qayyim says:
 
-> There is also [found] in a [HadIv]{.trn2}: [إِنَّ هَذَا لَحَقٌّ كَمَا أَنَّكَ هَا هُنَا]{.ar} [[[سنن أبي داود]{.ar} :4294](https://sunnah.com/abudawud:4294)]{.citex} [Indeed this is true just as [sure as] you are here]{.trans}.
+> There is also [found] in a [HadIv]{.trn2}: [إِنَّ هَذَا لَحَقٌّ كَمَا أَنَّكَ هَا هُنَا]{.ar} [[[سنن أبي داود]{.ar} :4294](https://sunnah.com/abudawud:4294)]{.citex} [Indeed this is true just as [sure as] it is that you are here]{.trans}.
 >
 > So [Allāh], may He be glorified, likened the reality of what He informed about with the reality of human speech and its existence.
 > Any one of us knows that he speaks, by necessity.
-> His ability to speak does not need evidence of its existence.
+> His speech does not need evidence of its existence.
 > Nor does any doubt preoccupy him regarding [the fact] that he speaks.
 > Thus, what Allāh has informed about regarding [His] oneness, the [Prophet [#muHammad]{.trn2} [ﷺ]{.areng}'s] prophethood, the resurrection, and His names and attributes is [all] true and actual, in and of itself, in a manner which is similar to the actuality of your speech and its existence.
 > This is the kind of thing that people recognize in their parlance.
@@ -1619,34 +1619,35 @@ Ibn al-Qayyim says:
 > [وليس يصح في الأذهان شيء ~ إذا احتاج النهار إلى دليل]{.ar}  
 > [And not a thing would be [left] correct in the minds, if the day [itself] required evidence [of existence].]{.trans}^[[[تفسير ابن القيم]{.ar}](https://tafsir.app/ibn-alqayyim/51/23) for [سورة الذاريات]{.ar} 51:23]
 
-Coming back to the aphorism
+Coming back to the phrase
 _all models are wrong_,
 it is perhaps better to say that models
-are attempts at abstractions of reality.
+are attempts at abstract representations of reality, within bounds.
 And when designed well, and applied judiciously,
-models can provide valuable insight into reality.^[["All models are wrong"](https://en.wikipedia.org/wiki/All_models_are_wrong) in _Wikipedia_]
+models can provide valuable insight into the real phenomena that are being investigated.^[["All models are wrong"](https://en.wikipedia.org/wiki/All_models_are_wrong) in _Wikipedia_]
 
 Here is an example where
 the theortetical framework developed in
 the Arabic grammatical tradition
-does not completely model actual speech
-in a particular situation.
+does not accurately model actual speech
+that is outside the bounds of the model.
 The standard model developed by the grammarians
 states the following rules regarding the relationship between a verb and its doer:
 
-1. A verb must have a doer (element).
-1. A verb cannot have more than one doer.
+1. A verb must have a doer.
+1. A verb cannot have more than one doer (element).
 2. The doer of a verb must follow it in sentence word order.
-3. When the verb has a pronoun doer, and it has extra sounds/letters after the verb, some of those can be considered the doer.
+3. When the verb has a pronoun doer, and it has extra sounds/letters after the verb, some of those are considered the doer, like alif for the dual and [و]{.ar} for plural, of the absentee participant.
 
-These rules are sufficient to anaylze sentences like
+This model is sufficient to anaylze sentences like
 example (@ex001100) [قَرَأَ زَيْدٌ]{.ar}
 [Zayd read]{.trans}
 and (through virtual modeling)
 example (@ex001107) [ذَهَبَ]{.ar}
 [He went]{.trans}.
-But it does not accommodate the dialectal usage
-in example (@ex001089) [ضَرَبُونِي قَوْمُكَ]{.ar} [Your people beat me]{.trans}.
+But it is not able to accurately model dialectal usage outside its bounds.
+Like
+example (@ex001089) [ضَرَبُونِي قَوْمُكَ]{.ar} [Your people beat me]{.trans}.
 This is because the verb [ضَرَبَ]{.ar}
 has a doer noun
 [قَوْم]{.ar}
@@ -1657,7 +1658,7 @@ the letter
 [و]{.ar}
 which is normally considered
 a doer pronoun for [they]{.trans}.
-This results in two doers which is not permissible.
+This results in two doer elements which is not permissible.
 Therefore, in order to accommodate this dialectal usage,
 a slightly different model would be needed.
 
@@ -1677,6 +1678,13 @@ whose typical purpose is for machines to generate human-like language.^[["Large 
 Some researchers have tried fitting
 these newer models
 to the Arabic language.^[Aliane, "Contribution to a modern reading of Sībawayhi" 11; See, for example, Owens, "Structure, class and dependency: Modern linguistic theory and the Arabic grammatical tradition"]
+
+Also, by the way, we also don't mean to imply a
+free-for-all, anything-goes
+plurality in the validity of different models.
+A researcher must take pains to validate his model to whatever degree possible.
+And if two different models give contradictory outputs for the same inputs and bounds,
+then they both shouldn't be right (for that particular case).
 
 <!--
 For our requirement,
