@@ -552,7 +552,7 @@ attempting to conform to [sca]{.smallcaps},
 then he knows that
 he will have to put the verb's doer in the u-case.
 
-## Anomalous usage ([الشَّاذّ]{.ar})
+## Anomalous usage ([الشَّاذّ]{.ar}) {#sec-agt_shaadh}
 
 Sometimes a pattern occurs often enough in attested usage that a rule is built upon it using
 analogy.
@@ -736,10 +736,10 @@ instead of the more normative:
 
 (@ex001090) [ضَرَبَنِي قَوْمُكَ]{.ar}
 
-The dialectal feature used in example ()
+The dialectal feature used in example (@ex001089)
 is graded by the grammarians as rare.^[[[كتاب سيبويه]{.ar} 2/40](https://shamela.ws/book/23018/475)]
 It did not make its way into [sca]{.smallcaps}.
-Instead, the more common usage in example () became the standard.
+Instead, the more common usage in example (@ex001090) became the standard.
 
 #### Elision of the hamzah {.unnumbered}
 
@@ -1076,7 +1076,7 @@ We will further explain virtual modeling by going through some examples in the s
 
 ### Examples of virtual modeling
 
-#### A virtual model of latent doer pronouns
+#### A virtual model of latent doer pronouns  {#sec-agt_taqdir_mustatir}
 
 Let's say that a hypothetical grammarian goes through some data in attested usage,
 and he finds surface speech samples like the following:
@@ -1175,28 +1175,28 @@ Because his informant tells him that he still understands these samples,
 in context, to have a complete meaning.
 The doer of each action is again a person who is not named but who is known to the informant.
 
-So, evidently, samples () through () are complete sentences with pronoun doers,
-just like samples () through ().
+So, evidently, samples (@ex001107) through (@ex001110) are complete sentences with pronoun doers,
+just like samples (@ex001103) through (@ex001106).
 But the problem is that there are no apparent extra sounds/letters after the verbs
 which can be considered the doer.
 
 Some of the verbs in these sentences,
-like in examples () and (),
+like in examples (@ex001109) and (@ex001110),
 have extra sounds, but they are before the verb.
 But some verbs,
-like in example (),
+like in example (@ex001107),
 don't even have that.
-Example () [رَجَعَتْ]{.ar}
+Example (@ex001108) [رَجَعَتْ]{.ar}
 does have an extra [تْ]{.ar} after the verb,
 but that letter is kept when there is an overt doer noun,
-like in example () [رَجَعَتْ هِنْدٌ]{.ar}
+like in example (@ex001101) [رَجَعَتْ هِنْدٌ]{.ar}
 above.
 So the [تْ]{.ar} doesn't seem like it can be the doer.
 So what is the grammarian to do?
 
 In order to keep the principle consistent,
 the grammarian virtually models _latent_ doers for these sentences.
-For example () above, the latent doer is virtually modeled as [[هُوَ]{.ar}], thus:
+For example (@ex001107) above, the latent doer is virtually modeled as [[هُوَ]{.ar}], thus:
 
 (@ex001111) [ذَهَبَ [هُوَ]]{.ar}  
     [He went.]{.trans}  
@@ -1220,7 +1220,7 @@ Here are the other examples with their virtually modeled doers:
 In this way, a grammarian was able to formulate a analogy-based grammatical principle
 based on observation of attested usage and theorization of a virtual model.
 
-#### A virtual model of [أَنْ]{.ar} before a-case caseful verbs
+#### A virtual model of [أَنْ]{.ar} before a-case caseful verbs {#sec-agt_taqdir_lian}
 
 We present another example of where virtual modeling is useful for coming up with grammatical principles.
 In chapter\ (ref),
@@ -1273,14 +1273,14 @@ to a preposition that only precedes nouns,
 then this can be seen when we apply a second level of virtual modeling:
 and that is to interpret (a surface or virtually modeled)
 [أَنْ]{.ar} and the following a-case caseful verb as a [maSdar]{.trn2} construction.
-So the virtual model of () [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}
+So the virtual model of (@ex001118) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}
 is:
 
 (@ex001119) [دَرَسْتُ لِنَجَاحِي]{.ar}  
     [I studied for the reason of my success.]{.trans}  
     (i.e. [in order to achieve success]{.trans}.)  
 
-In the virtual model in example (),
+In the virtual model in example (@ex001119),
 we can see how
 [لِ]{.ar}
 is a preposition before the i-case noun
@@ -1303,12 +1303,12 @@ regarding virtual modeling,
 is that 
 the virtual model representation of a surface speech is often not actually correct as surface speech.^[Baalbaki, "Bāb al-fāʾ" 190; Versteegh, "The notion of underlying levels" 278]
 
-If we take the virtual model in () [ذَهَبَ [هُوَ]]{.ar} as an example,
+If we take the virtual model in (@ex001111) [ذَهَبَ [هُوَ]]{.ar} as an example,
 then what we mean is that
 we don't actually say (in surface speech)
 [ذَهَبَ هُوَ]{.ar}
 when we intend to mean [He went]{.trans}.
-The surface speech () [ذَهَبَ]{.ar} is the only correct way to express this intended meaning.
+The surface speech (@ex001107) [ذَهَبَ]{.ar} is the only correct way to express this intended meaning.
 The representation [ذَهَبَ [هُوَ]]{.ar}
 is only a _virtual model_ of the surface speech [ذَهَبَ]{.ar}
 that elucidates the grammar of the sentence.
@@ -1323,7 +1323,7 @@ for example,
 when the virtual model restores a word or expression which is implied and was optionally deleted.
 For example,
 we saw that
-the virtually modeled [أَنْ]{.ar} in example () [دَرَسْتُ لِأَنْجَحَ]{.ar}
+the virtually modeled [أَنْ]{.ar} in example (@ex001116) [دَرَسْتُ لِأَنْجَحَ]{.ar}
 can actually be expressed in surface speech, thus:
 
 (@ex001120) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}  
@@ -1354,7 +1354,7 @@ the virtually modeled doers,
 [[أَنَا]{.ar}],
 and
 [[نَحْنُ]{.ar}]
-in examples () through () above)
+in examples (@ex001111) through (@ex001114) above)
 are not "real" representations of the latent doer pronouns.
 They are only written as such because,
 for his analysis,
@@ -1421,7 +1421,7 @@ The virtual model for this analysis is:
 Grammarians also sometimes used virtual modeling as a tool to make anomalous usage
 fit coherently
 into their grammatical framework.^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 42]
-For example, if we consider the line of poetry that we discussed in section\ (ref) above:
+For example, if we consider the line of poetry that we discussed in @sec-agt_shaadh above:
 
 (@ex001125) [جَارِيَةٌ فِي دِرْعِهَا الفَضْفَاضِ ~ **أَبْيَضُ** مِنْ أُخْتِ بَنِي إِبَاضِ]{.ar}
     [[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 42]{.citex}  
@@ -1459,25 +1459,25 @@ Here is another example of using virtual modeling with anomalous usage:
 In order to fit a surface speech into analogy,
 there can be multiple 'levels' of virtual modeling done.
 As an example,
-we saw in section\ (ref) above that
-in the sentence () [دَرَسْتُ لِأَنْجَحَ]{.ar},
+we saw in @sec-agt_taqdir_lian above that
+in example (@ex001116) [دَرَسْتُ لِأَنْجَحَ]{.ar},
 first an [أَنْ]{.ar} was virtually modeled between
 [لِ]{.ar}
 and the
-a-case caseful thus: () [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}.
+a-case caseful thus: (@ex001117) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}.
 
 And then a further level of virtual modeling was done,
 where
 [أَنْ]{.ar} and the following a-case caseful verb
 was reinterpreted
-as a [maSdar]{.trn2} construction: () [دَرَسْتُ لِنَجَاحِي]{.ar}.
+as a [maSdar]{.trn2} construction: (@ex001119) [دَرَسْتُ لِنَجَاحِي]{.ar}.
 
 Sometimes a virtual model mainly details the meaning of a sentence,
 rather than its syntactic structure.
 At all layers, however,
 virtual modeling serves to explain the grammar of the sentence.
 
-### Benefits and risks of virtual modeling
+### Benefits and risks of virtual modeling {#sec-agt_taqdir_benefits_risks}
 
 Virtual modeling is an analytic tool that allows the grammarian to discover
 and reconstruct
@@ -1511,10 +1511,10 @@ One way to do this is
 by basing the virtual model on
 the meaning that
 a native speaker understands from the surface speech,
-like our hypothetical grammarian did for latent doer pronouns in section\ (ref) above.
+like our hypothetical grammarian did for latent doer pronouns in @sec-agt_taqdir_mustatir} above.
 
 Another way is to attempt to find traces of the virtual model in the surface speech,
-as was done in section\ (ref) above,
+as was done in @sec-agt_taqdir_lian above,
 for the virtual modeling of [أَنْ]{.ar} between
 [لِ]{.ar}
 and a following a-case caseful verb.
@@ -1572,7 +1572,7 @@ and
 virtual modeling
 on the part of the [#baSr]{.trn2}ans.^[See also Carter, "Arabic grammar" 126--127]
 
-## Utilizing the theoretical framework developed by the Arabic grammatical tradition
+## Utilizing grammatical models {#sec-agt_using_models}
 
 The Arabic grammarians
 developed
@@ -1683,7 +1683,7 @@ Having said that,
 we also don't mean to imply a
 free-for-all, anything-goes
 plurality for the validity of different models.
-A researcher must take pains to validate his model to whatever degree possible.
+A researcher must take pains to validate his model to whatever degree possible (see, for example, @sec-agt_taqdir_benefits_risks above).
 And if two different models give contradictory outputs for the same inputs and bounds,
 then they both shouldn't be right (for that particular case).
 
