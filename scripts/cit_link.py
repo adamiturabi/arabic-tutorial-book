@@ -26,6 +26,7 @@ def get_quran_cit_text(end_str, link):
   # if still not split then it is whole surah
   if len(surah_and_ayah) > 1:
     ayah_index_str = surah_and_ayah[1]
+    ayah_index_str = ayah_index_str.replace("-", "–")
     cit_text += ' ' + surah_index_str + ':' + ayah_index_str
 
   return "quran", "[" + cit_text + "](" + link + ")", True
