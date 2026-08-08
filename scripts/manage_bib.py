@@ -38,10 +38,11 @@ def get_cite_text(match):
         cited_resource_list.append(val)
       ret_text = ''
       if has_link and not link_added:
-        if 'tafsir.app' in link:
-          ret_text = "[" + val.cit_text + "](" + link + ")" + cit_appended_text
-        else:
-          ret_text = "[" + val.cit_text + cit_appended_text + "](" + link + ")"
+        #if 'tafsir.app' in link:
+        #  ret_text = "[" + val.cit_text + "](" + link + ")" + cit_appended_text
+        #else:
+        #  ret_text = "[" + val.cit_text + cit_appended_text + "](" + link + ")"
+        ret_text = "[" + val.cit_text + cit_appended_text + "](" + link + ")"
       else:
         ret_text = val.cit_text + cit_appended_text
       return ret_text

@@ -1018,7 +1018,7 @@ that directs the structure of both surface speech utterances.
 
 In order to describe the language using a minimal set of grammatical principles,
 the grammarians theorized
-a _virtual model_
+a _virtual model_^[The Arabic grammatical tradition's _virtual model_ has parallels in the Western linguistic tradition, like _deep structure_, _ghost_ and _null_ segments. We are not re-using those terms because they may have baggage that could not be reconciled with the Arabic grammatical tradition's concept of virtual model. See, for example, Versteegh, "The notion of underlying levels" 287ff.]
 of the surface speech.
 This virtual model would exist only in the mind of the speaker,^[Levin, "The theory of al-taqdīr and its terminology." 142--143]
 under the level of surface speech.
@@ -1394,7 +1394,7 @@ is a subject whose info is deleted.
 The virtual model for this analysis is:
 
 (@ex001122) [صَبْرٌ جَمِيلٌ أَمْثَلُ]{.ar}
-    [[[الدر المصون للسمين الحلبي]{.ar}](https://tafsir.app/aldur-almasoon/12/18) for [سورة يوسف]{.ar} 12:18]{.citex}  
+    [[[الدر المصون للسمين الحلبي]{.ar} for [سورة يوسف]{.ar} 12:18](https://tafsir.app/aldur-almasoon/12/18)]{.citex}  
     [A beautiful patience is exemplary.]{.trans}  
 
 The second analysis is that
@@ -1403,7 +1403,7 @@ is a info whose subject is deleted.
 The virtual model for this analysis is:
 
 (@ex001123) [أَمْرِي صَبْرٌ جَمِيلٌ]{.ar}
-    [[[الدر المصون للسمين الحلبي]{.ar}](https://tafsir.app/aldur-almasoon/12/18) for [سورة يوسف]{.ar} 12:18]{.citex}  
+    [[[الدر المصون للسمين الحلبي]{.ar} for [سورة يوسف]{.ar} 12:18](https://tafsir.app/aldur-almasoon/12/18)]{.citex}  
     [My affair is a beautiful patience.]{.trans}  
 
 A third analysis is that
@@ -1413,7 +1413,7 @@ in a command to oneself.
 The virtual model for this analysis is:
 
 (@ex001124) [اصْبِرْ صَبْرًا جَمِيلًا]{.ar}
-    [[[تفسير ابن عاشور]{.ar}](https://tafsir.app/ibn-aashoor/12/18) for [سورة يوسف]{.ar} 12:18]{.citex}  
+    [[[تفسير ابن عاشور]{.ar} for [سورة يوسف]{.ar} 12:18](https://tafsir.app/ibn-aashoor/12/18)]{.citex}  
     [Be patient [with] a beautiful patience!]{.trans}  
 
 #### Virtual modeling can be used to interpret anomalous usage
@@ -1454,10 +1454,10 @@ Here is another example of using virtual modeling with anomalous usage:
 فالمتبادر إلى فهم سامع هذا البيت تعليق من نوالكم بيأسا، وهو غير جائز كما ذكرت، بل يتعلق بيئست مضمرا]{.ar}  
 [[[شرح التسهيل لابن مالك]{.ar} 3/108--109](https://shamela.ws/book/13257/924#p1)]{.citex}]
 
-#### There can be multiple 'levels' of virtual modeling
+#### There can be multiple levels and types of virtual modeling
 
 In order to fit a surface speech into analogy,
-there can be multiple 'levels' of virtual modeling done.
+there can be multiple levels of virtual modeling done.
 As an example,
 we saw in @sec-agt_taqdir_lian above that
 in example (@ex001116) [دَرَسْتُ لِأَنْجَحَ]{.ar},
@@ -1472,10 +1472,16 @@ where
 was reinterpreted
 as a [maSdar]{.trn2} construction: (@ex001119) [دَرَسْتُ لِنَجَاحِي]{.ar}.
 
-Sometimes a virtual model mainly details the meaning of a sentence,
-rather than its syntactic structure.
-At all layers, however,
-virtual modeling serves to explain the grammar of the sentence.
+Sometimes a virtual model
+is used to explain
+irregular sounds,
+or a meaning which can only be arrived at by assuming an underlying interpretation.^[Versteegh, "The notion of underlying levels" 283ff]
+
+However,
+all types and layers of
+virtual modeling 
+are used to explain surface speech
+according to a set of basic principles.
 
 ### Benefits and risks of virtual modeling {#sec-agt_taqdir_benefits_risks}
 
@@ -1617,7 +1623,7 @@ Ibn al-Qayyim says:
 > And a poet has been eloquent, regarding this [theme], by his saying:
 >
 > [وليس يصح في الأذهان شيء ~ إذا احتاج النهار إلى دليل]{.ar}  
-> [And not a thing would be [left] correct in the minds, if the day [itself] required evidence [of existence].]{.trans}^[[[تفسير ابن القيم]{.ar}](https://tafsir.app/ibn-alqayyim/51/23) for [سورة الذاريات]{.ar} 51:23]
+> [And not a thing would be [left] correct in the minds, if the day [itself] required evidence [of existence].]{.trans}^[[[تفسير ابن القيم]{.ar} for [سورة الذاريات]{.ar} 51:23](https://tafsir.app/ibn-alqayyim/51/23)]
 
 Coming back to the phrase
 _all models are wrong_,
