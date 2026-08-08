@@ -998,7 +998,7 @@ on its basis,
 pronounce judgement on a non-conforming feature
 that is found in attested usage.
 
-## Virtual modeling ([التَّقْدِير]{.ar})
+## Virtual imagining ([التَّقْدِير]{.ar})
 
 When the grammarians were analyzing attested usage, they observed that
 there is an underlying harmony and order in the Classical Arabic language,^[ Baalbaki, "Some aspects of harmony and hierarchy in Sībawayhi's grammatical analysis"  7ff]
@@ -1006,44 +1006,50 @@ such that it could be described with a set of
 coherent and comprehensive
 basic principles.
 But
-these principles often will not describe surface speech directly.
-(_Surface speech_ is defined as the literal utterance that is spoken by the speaker and heard by the listener.)
-This is because surface speech,
+these principles often will not describe real speech directly.
+_Real speech_ is defined as the actual utterance that is spoken by the speaker and heard by the listener.
+This is because real speech,
 even when not anomalous usage,
 has too much variation and complexity to be wrangled
 into a minimalist framework of grammatical principles directly.
-Oftentimes, two surface speech utterances can differ in their apparent form.
+Oftentimes, two real speech utterances can differ in their apparent form.
 But there would seem to be a common grammatical principle at work
-that directs the structure of both surface speech utterances.
+that directs the structure of both real speech utterances.
 
 In order to describe the language using a minimal set of grammatical principles,
 the grammarians theorized
-a _virtual model_^[The Arabic grammatical tradition's _virtual model_ has parallels in the Western linguistic tradition, like _deep structure_, _ghost_ and _null_ segments. We are not re-using those terms because they may have baggage that could not be reconciled with the Arabic grammatical tradition's concept of virtual model. See, for example, Versteegh, "The notion of underlying levels" 287ff.]
-of the surface speech.
-This virtual model would exist only in the mind of the speaker,^[Levin, "The theory of al-taqdīr and its terminology." 142--143]
-under the level of surface speech.
-The links between inter-related linguisitic phenomena would be more evident in the virtual model
-than in surface speech.
-The virtual model would be simpler in its structure, and have less variation, than surface speech.
+a _virtual image_^[The Arabic grammatical tradition's _virtual image_ has parallels in the Western linguistic tradition, like _deep structure_, _ghost_ and _null_ segments. We are not re-using those terms because they may have baggage that could not be reconciled with the Arabic grammatical tradition's concept of virtual image. See, for example, Versteegh, "The notion of underlying levels" 287ff.]
+of the real speech.
+This virtual image would exist only in the mind of the speaker,^[Levin, "The theory of al-taqdīr and its terminology." 142--143]
+under the level of real speech.
+The links between inter-related linguisitic phenomena would be more evident in the virtual image
+than in real speech.
+The virtual image would be simpler in its structure, and have less variation, than real speech.
 It would thus
 be
 more amenable to being described by a set of basic principles.
+
+Essentially,
+the virtual image of real speech
+is not actually uttered.
+But supposing it allows us to build a framework that captures real speech more fully
+than would have been practical, had we not supposed it.
 
 <!--
 Based on the above observations,
 the grammarians' goal was to come up with a set of basic principles for Classical Arabic
 that was coherent and comprehensive.
 In doing so,
-they would theorize a _virtual model_
-of the surface speech,
+they would theorize a _virtual image_
+of the real speech,
 when needed,
-and build their grammatical system based on the virtual model.
+and build their grammatical system based on the virtual image.
 -->
 
 
 <!--
 that exists only in the speech unit of mind of the speaker.^[Levin, "The theory of al-taqdīr and its terminology." 142--143]
-This _virtual model_
+This _virtual image_
 was more amenable to being wrangled into 
 organized rules.
 
@@ -1058,28 +1064,28 @@ compactly.
 But
 they also realized that
 under the literally uttered speech
-(termed _surface speech_),
+(termed _real speech_),
 there could be modeled a _virtual_ utterance
 that existed only in the mind of the speaker.^[Levin, "The theory of al-taqdīr and its terminology." 142--143]
-This _virtual model_
+This _virtual image_
 was more amenable to being wrangled into 
 organized rules.
 
 The grammarians then 
-considered it their role to theorize a virtual model,
+considered it their role to theorize a virtual image,
 when needed,
-under the surface speech,
-and to build their grammatical framework based on the virtual model.
+under the real speech,
+and to build their grammatical framework based on the virtual image.
 -->
 
-We will further explain virtual modeling by going through some examples in the section below:
+We will further explain virtual imagining by going through some examples in the section below:
 
-### Examples of virtual modeling
+### Examples of virtual imagining
 
-#### A virtual model of latent doer pronouns  {#sec-agt_taqdir_mustatir}
+#### A virtual image of latent doer pronouns  {#sec-agt_taqdir_mustatir}
 
 Let's say that a hypothetical grammarian goes through some data in attested usage,
-and he finds surface speech samples like the following:
+and he finds real speech samples like the following:
 
 (@ex001100) [قَرَأَ زَيْدٌ]{.ar}  
     [Zayd read.]{.trans}  
@@ -1113,7 +1119,7 @@ a verb, followed by its doer (noun).
 
 The grammarian 
 then continues going through attested usage
-and finds surface speech samples like the following:
+and finds real speech samples like the following:
 
 (@ex001103) [تَصَدَّقْنَ]{.ar}  
     [They~f~ gave charity.]{.trans}  
@@ -1156,7 +1162,7 @@ Now
 the sentences can be considered to have two parts: a verb followed by its doer.
 So far so good.
 
-But now the grammarian comes across surface speech samples like the following:
+But now the grammarian comes across real speech samples like the following:
 
 (@ex001107) [ذَهَبَ]{.ar}  
     [He went.]{.trans}  
@@ -1195,18 +1201,18 @@ So the [تْ]{.ar} doesn't seem like it can be the doer.
 So what is the grammarian to do?
 
 In order to keep the principle consistent,
-the grammarian virtually models _latent_ doers for these sentences.
-For example (@ex001107) above, the latent doer is virtually modeled as [[هُوَ]{.ar}], thus:
+the grammarian virtually imagines _latent_ doers for these sentences.
+For example (@ex001107) above, the latent doer is virtually imagined as [[هُوَ]{.ar}], thus:
 
 (@ex001111) [ذَهَبَ [هُوَ]]{.ar}  
     [He went.]{.trans}  
 
 Now the sentence has two parts:
 the verb
-[ذَهَبَ]{.ar}, followed by it's doer, the virtually modeled [[هُوَ]{.ar}].
+[ذَهَبَ]{.ar}, followed by it's doer, the virtually imagined [[هُوَ]{.ar}].
 Thus it is compliant with the above stated principle that the grammarian developed for verbal sentences.
 
-Here are the other examples with their virtually modeled doers:
+Here are the other examples with their virtually imagined doers:
 
 (@ex001112) [رَجَعَتْ [هِيَ]]{.ar}  
     [She returned.]{.trans}  
@@ -1218,11 +1224,11 @@ Here are the other examples with their virtually modeled doers:
     [We give charity.]{.trans}  
 
 In this way, a grammarian was able to formulate a analogy-based grammatical principle
-based on observation of attested usage and theorization of a virtual model.
+based on observation of attested usage and theorization of a virtual image.
 
-#### A virtual model of [أَنْ]{.ar} before a-case caseful verbs {#sec-agt_taqdir_lian}
+#### A virtual image of [أَنْ]{.ar} before a-case caseful verbs {#sec-agt_taqdir_lian}
 
-We present another example of where virtual modeling is useful for coming up with grammatical principles.
+We present another example of where virtual imagining is useful for coming up with grammatical principles.
 In chapter\ (ref),
 we studied how a a-case caseful verb can occur after the particle [لِ]{.ar}.
 For example:
@@ -1244,24 +1250,24 @@ between the
 and the
 a-case caseful
 [أَنْجَحَ]{.ar},
-there existed a virtually modeled [أَنْ]{.ar}, thus:
+there existed a virtually imagined [أَنْ]{.ar}, thus:
 
 (@ex001117) [دَرَسْتُ لِ[أَنْ] أَنْجَحَ]{.ar}  
     [I studied for the reason [that] I may succeed.]{.trans}  
 
 And it was this [أَنْ]{.ar} that actually caused the caseful verb to be in the a-case.
-This virtual modeling
+This virtual imagining
 allowed them to
 reduce the definition of
 [لِ]{.ar}
 to a preposition that only precedes nouns.
 And it granted to [أَنْ]{.ar} the (more-or-less) sole privilege of causing a caseful verb to be in the a-case.^[Baalbaki, "Bāb al-fāʾ" 186--189]
 
-The virtual modeling of [أَنْ]{.ar}
+The virtual imagining of [أَنْ]{.ar}
 between
 [لِ]{.ar}
 and a following a-case caseful verb is also supported by the fact that
-the surface speech can actually have an [أَنْ]{.ar} in that position, for the same meaning.
+the real speech can actually have an [أَنْ]{.ar} in that position, for the same meaning.
 So we can actually also say:
 
 (@ex001118) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}  
@@ -1270,61 +1276,61 @@ So we can actually also say:
 As for the restriction of
 [لِ]{.ar}
 to a preposition that only precedes nouns,
-then this can be seen when we apply a second level of virtual modeling:
-and that is to interpret (a surface or virtually modeled)
+then this can be seen when we apply a second level of virtual imagining:
+and that is to interpret (a real or virtually imagined)
 [أَنْ]{.ar} and the following a-case caseful verb as a [maSdar]{.trn2} construction.
-So the virtual model of (@ex001118) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}
+So the virtual image of (@ex001118) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}
 is:
 
 (@ex001119) [دَرَسْتُ لِنَجَاحِي]{.ar}  
     [I studied for the reason of my success.]{.trans}  
     (i.e. [in order to achieve success]{.trans}.)  
 
-In the virtual model in example (@ex001119),
+In the virtual image in example (@ex001119),
 we can see how
 [لِ]{.ar}
 is a preposition before the i-case noun
 [نَجَاح]{.ar}.
 
-We will see more examples of virtual modeling for the a-case caseful verb in chapter\ (ref), if Allāh wills.
+We will see more examples of virtual imagining for the a-case caseful verb in chapter\ (ref), if Allāh wills.
 
-#### A virtual model of a warning statement
+#### A virtual image of a warning statement
 
 [إِيَّاكَ وَالشَّرَّ]{.ar}
 
 TODO. Get from [[شرح ابن عثيمين]{.ar} 59/4](https://shamela.ws/book/36954/636)
 
-### Some aspects regarding virtual modeling
+### Some aspects regarding virtual imagining
 
-#### The virtual model is not actually uttered
+#### The virtual image is not actually uttered
 
 One point to note,
-regarding virtual modeling,
+regarding virtual imagining,
 is that 
-the virtual model representation of a surface speech is often not actually correct as surface speech.^[Baalbaki, "Bāb al-fāʾ" 190; Versteegh, "The notion of underlying levels" 278]
+the virtual image representation of a real speech is often not actually correct as real speech.^[Baalbaki, "Bāb al-fāʾ" 190; Versteegh, "The notion of underlying levels" 278]
 
-If we take the virtual model in (@ex001111) [ذَهَبَ [هُوَ]]{.ar} as an example,
+If we take the virtual image in (@ex001111) [ذَهَبَ [هُوَ]]{.ar} as an example,
 then what we mean is that
-we don't actually say (in surface speech)
+we don't actually say (in real speech)
 [ذَهَبَ هُوَ]{.ar}
 when we intend to mean [He went]{.trans}.
-The surface speech (@ex001107) [ذَهَبَ]{.ar} is the only correct way to express this intended meaning.
+The real speech (@ex001107) [ذَهَبَ]{.ar} is the only correct way to express this intended meaning.
 The representation [ذَهَبَ [هُوَ]]{.ar}
-is only a _virtual model_ of the surface speech [ذَهَبَ]{.ar}
+is only a _virtual image_ of the real speech [ذَهَبَ]{.ar}
 that elucidates the grammar of the sentence.
 
 Sometimes,
 however,
-a virtual model representation is actually correct as surface speech,
+a virtual image representation is actually correct as real speech,
 for more-or-less the same,
 or a similar meaning.
 This can be,
 for example,
-when the virtual model restores a word or expression which is implied and was optionally deleted.
+when the virtual image restores a word or expression which is implied and was optionally deleted.
 For example,
 we saw that
-the virtually modeled [أَنْ]{.ar} in example (@ex001116) [دَرَسْتُ لِأَنْجَحَ]{.ar}
-can actually be expressed in surface speech, thus:
+the virtually imagined [أَنْ]{.ar} in example (@ex001116) [دَرَسْتُ لِأَنْجَحَ]{.ar}
+can actually be expressed in real speech, thus:
 
 (@ex001120) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}  
     [I studied for the reason that I may succeed.]{.trans}  
@@ -1339,16 +1345,16 @@ but it has a different meaning than the intended
 [He went]{.trans}.
 It uses the pronoun [هُوَ]{.ar} as an _emphatic follower_ (see chapter\ (ref)).
 
-#### The literal representation used in the virtual model may not be real
+#### The literal representation used in the virtual image may not be real
 
 Another point
 is that
 the grammarians' representation
-of the virtual model
+of the virtual image
 may not necessarily be real.
 
 In the example of latent doer pronouns,
-the virtually modeled doers,
+the virtually imagined doers,
 ([[هُوَ]{.ar}],
 [[هِيَ]{.ar}],
 [[أَنَا]{.ar}],
@@ -1359,23 +1365,23 @@ are not "real" representations of the latent doer pronouns.
 They are only written as such because,
 for his analysis,
 the grammarian needs some words to represent the
-latent doer pronouns in the virtual model.
+latent doer pronouns in the virtual image.
 And because there are no real words to denote the latent doer pronouns,
 the grammarian borrows the words that denote the detached pronouns to do so.
 
 As it happens,
-the virtually modeled latent pronouns are theorized to be (invisible/inaudible) _attached_ pronouns,^[[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar}, [تمهيد ز--ط]{.ar}]
+the virtually imagined latent pronouns are theorized to be (invisible/inaudible) _attached_ pronouns,^[[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar}, [تمهيد ز--ط]{.ar}]
 just like the overt doer pronouns
 [تُ]{.ar} [I]{.trans},
 [نَا]{.ar} [we]{.trans},
 [نَ]{.ar} [they~3f~]{.trans},
 etc.
-Virtually modeling the latent doer pronouns
+Virtually imagining the latent doer pronouns
 as attached pronouns has benefits that keeps the grammatical framework coherent
 across different grammatical topics.
 We will see one such benefit in chapter\ (ref), when we discuss the emphatic follower.
 
-#### Virtual modeling may be required to correctly interpret a text
+#### Virtual imagining may be required to correctly interpret a text
 
 Consider the following [Ayah]{.trn2} from the Qurʾān:
 
@@ -1387,11 +1393,11 @@ The part
 [صَبْرٌ جَمِيلٌ]{.ar}
 has been analyzed
 as being able to be bear multiple interpretations,
-all requiring virtual modeling.
+all requiring virtual imagining.
 One analysis is that
 [صَبْرٌ جَمِيلٌ]{.ar}
 is a subject whose info is deleted.
-The virtual model for this analysis is:
+The virtual image for this analysis is:
 
 (@ex001122) [صَبْرٌ جَمِيلٌ أَمْثَلُ]{.ar}
     [[[الدر المصون للسمين الحلبي]{.ar} for [سورة يوسف]{.ar} 12:18](https://tafsir.app/aldur-almasoon/12/18)]{.citex}  
@@ -1400,7 +1406,7 @@ The virtual model for this analysis is:
 The second analysis is that
 [صَبْرٌ جَمِيلٌ]{.ar}
 is a info whose subject is deleted.
-The virtual model for this analysis is:
+The virtual image for this analysis is:
 
 (@ex001123) [أَمْرِي صَبْرٌ جَمِيلٌ]{.ar}
     [[[الدر المصون للسمين الحلبي]{.ar} for [سورة يوسف]{.ar} 12:18](https://tafsir.app/aldur-almasoon/12/18)]{.citex}  
@@ -1410,15 +1416,15 @@ A third analysis is that
 [صَبْرٌ جَمِيلٌ]{.ar}
 is used as a deputy to a verb (see section\ (maf3ool mutlaq))
 in a command to oneself.
-The virtual model for this analysis is:
+The virtual image for this analysis is:
 
 (@ex001124) [اصْبِرْ صَبْرًا جَمِيلًا]{.ar}
     [[[تفسير ابن عاشور]{.ar} for [سورة يوسف]{.ar} 12:18](https://tafsir.app/ibn-aashoor/12/18)]{.citex}  
     [Be patient [with] a beautiful patience!]{.trans}  
 
-#### Virtual modeling can be used to interpret anomalous usage
+#### Virtual imagining can be used to interpret anomalous usage
 
-Grammarians also sometimes used virtual modeling as a tool to make anomalous usage
+Grammarians also sometimes used virtual imagining as a tool to make anomalous usage
 fit coherently
 into their grammatical framework.^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 42]
 For example, if we consider the line of poetry that we discussed in @sec-agt_shaadh above:
@@ -1436,97 +1442,97 @@ not as a comparative noun,
 but as a adjectival noun
 synonymous to [مُبْيَضَّ]{.ar} [white]{.trans}.
 An implied noun [جَسَد]{.ar} [body]{.trans} is also inserted.^[[[الإنصاف للأنباري]{.ar} 1/123](https://shamela.ws/book/7362/119#p1)]
-Such that the virtual model is:
+Such that the virtual image is:
 
 (@ex001126) [فِي دِرْعِهَا جَسَدٌ مُبْيَضٌّ مِنْ أُخْتِ بَنِي إِبَاضِ]{.ar}
     [[[الإنصاف للأنباري]{.ar} 1/123](https://shamela.ws/book/7362/119#p1)]{.citex}  
     [... in her shirt is a white body from [a woman of the tribe] of [#banU #ibAD]{.trn2}]{.trans}  
 
-Needless to say, this is pretty convoluted virtual modeling.
+Needless to say, this is pretty convoluted virtual imagining.
 Some grammarians would prefer to let such anomalous usage be,
-and they wouldn't attempt to force such complicated virtual modeling
+and they wouldn't attempt to force such complicated virtual imagining
 to make the anomalous usage fit into their
 analogy-based
 grammatical system.^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 42  
-Here is another example of using virtual modeling with anomalous usage:  
+Here is another example of using virtual imagining with anomalous usage:  
 [ولا يتقدم نعت المصدر على معموله فلا يقال عرفت سوقك العنيف الإبل، لأن معمول المصدر منه بمنزلة الصلة من الموصول، فلا يتقدم نعت المصدر على معموله، كما لا يتقدم نعت الموصول على صلته، فإن ورد ما يوهم خلاف ذلك قدر فعل بعد النعت يتعلق به المعمول المتأخر. فمن ذلك قول الحطيئة:  
 أزمَعْتُ يأسًا مُبِينا من نَوالكم ~ ولنْ ترى طارِدًا للحُرِّ كاليأسِ  
 فالمتبادر إلى فهم سامع هذا البيت تعليق من نوالكم بيأسا، وهو غير جائز كما ذكرت، بل يتعلق بيئست مضمرا]{.ar}  
 [[[شرح التسهيل لابن مالك]{.ar} 3/108--109](https://shamela.ws/book/13257/924#p1)]{.citex}]
 
-#### There can be multiple levels and types of virtual modeling
+#### There can be multiple levels and types of virtual imagining
 
-In order to fit a surface speech into analogy,
-there can be multiple levels of virtual modeling done.
+In order to fit a real speech into analogy,
+there can be multiple levels of virtual imagining done.
 As an example,
 we saw in @sec-agt_taqdir_lian above that
 in example (@ex001116) [دَرَسْتُ لِأَنْجَحَ]{.ar},
-first an [أَنْ]{.ar} was virtually modeled between
+first an [أَنْ]{.ar} was virtually imagined between
 [لِ]{.ar}
 and the
 a-case caseful thus: (@ex001117) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}.
 
-And then a further level of virtual modeling was done,
+And then a further level of virtual imagining was done,
 where
 [أَنْ]{.ar} and the following a-case caseful verb
 was reinterpreted
 as a [maSdar]{.trn2} construction: (@ex001119) [دَرَسْتُ لِنَجَاحِي]{.ar}.
 
-Sometimes a virtual model
+Sometimes a virtual image
 is used to explain
 irregular sounds,
 or a meaning which can only be arrived at by assuming an underlying interpretation.^[Versteegh, "The notion of underlying levels" 283ff]
 
 However,
 all types and layers of
-virtual modeling 
-are used to explain surface speech
+virtual imagining 
+are used to explain real speech
 according to a set of basic principles.
 
-### Benefits and risks of virtual modeling {#sec-agt_taqdir_benefits_risks}
+### Benefits and risks of virtual imagining {#sec-agt_taqdir_benefits_risks}
 
-Virtual modeling is an analytic tool that allows the grammarian to discover
+Virtual imagining is an analytic tool that allows the grammarian to discover
 and reconstruct
-a theorized structure that underlies surface speech.^[Baalbaki, "Bāb al-fāʾ" 188]
-This theorized underlying structure is more basic than the surface structure,
+a theorized structure that underlies real speech.^[Baalbaki, "Bāb al-fāʾ" 188]
+This theorized underlying structure is more basic than the real structure,
 and more easily described with a set of rules.^[Baalbaki, "Bāb al-fāʾ" 190]
 Without
-virtual modeling,
+virtual imagining,
 the set of rules, which the grammarian would have to formulate,
-would increase greatly to capture all the different variations in surface speech.
+would increase greatly to capture all the different variations in real speech.
 Furthermore, the rules would be disparate,
 and would not readily indicate the links
 between related linguistic phenomena.
-Those links are more obvious in the virtual model.
+Those links are more obvious in the virtual image.
 
 Having said that,
-virtual modeling is essentially a speculative exercise which is done by the grammarian.
+virtual imagining is essentially a speculative exercise which is done by the grammarian.
 Because
-the virtual model,
+the virtual image,
 by its very definition,
-does not manifest in surface speech,
+does not manifest in real speech,
 the grammarian can only theorize its existence and formulation.
-As such, virtual modeling entails risks because it is based on the grammarian's
+As such, virtual imagining entails risks because it is based on the grammarian's
 subjective reasoning.^[Baalbaki, "Bāb al-fāʾ" 190]
 
 Therefore, the grammarian does,
 or should,
-attempt to validate his virtual modeling approach,
+attempt to validate his virtual imagining approach,
 to whatever degree possible.
 One way to do this is
-by basing the virtual model on
+by basing the virtual image on
 the meaning that
-a native speaker understands from the surface speech,
+a native speaker understands from the real speech,
 like our hypothetical grammarian did for latent doer pronouns in @sec-agt_taqdir_mustatir above.
 
-Another way is to attempt to find traces of the virtual model in the surface speech,
+Another way is to attempt to find traces of the virtual image in the real speech,
 as was done in @sec-agt_taqdir_lian above,
-for the virtual modeling of [أَنْ]{.ar} between
+for the virtual imagining of [أَنْ]{.ar} between
 [لِ]{.ar}
 and a following a-case caseful verb.
 
-At the very least, any virtual model should be subservient to, and not contradict,
-the intended meaning of the surface speech.^[See also Baalbaki, "Bāb al-fāʾ" 188]
+At the very least, any virtual image should be subservient to, and not contradict,
+the intended meaning of the real speech.^[See also Baalbaki, "Bāb al-fāʾ" 188]
 
 ## Difference of opinion between the grammarians
 
@@ -1559,12 +1565,12 @@ Some more differences between the two schools are that
 the [#kUf]{.trn2}ans are regarded as more lax in forming analogy-based rules
 based on anomalous usage.^[[[التذييل والتكميل لأبي حيان]{.ar} 11/75](https://shamela.ws/book/17116/3610)]
 Whereas the [#baSr]{.trn2}ans liked to keep their rules more taut,
-attempting to interpret rare and anomalous usages through virtual modeling^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 41--42]
+attempting to interpret rare and anomalous usages through virtual imagining^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 41--42]
 so that most everything aligned with a minimal set of basic grammatical principles.
 Both, however, as a general rule, accepted the anomalous usage as valid attested usage.
 The [#kUf]{.trn2}ans are also thought to be more grounded in that they tried to stay
-closer to surface speech,
-rather than venturing into too much virtual modeling.
+closer to real speech,
+rather than venturing into too much virtual imagining.
 
 Generally speaking,
 the [#baSr]{.trn2}ans formed their terminology and opinions
@@ -1575,7 +1581,7 @@ the [#kUf]{.trn2}an view is often brought in as a reality check against
 what may sometimes be deemed to be excessive
 rule strictness
 and
-virtual modeling
+virtual imagining
 on the part of the [#baSr]{.trn2}ans.^[See also Carter, "Arabic grammar" 126--127]
 
 ## Utilizing grammatical models {#sec-agt_using_models}
@@ -1648,7 +1654,7 @@ states the following rules regarding the relationship between a verb and its doe
 This model is sufficient to anaylze sentences like
 example (@ex001100) [قَرَأَ زَيْدٌ]{.ar}
 [Zayd read]{.trans}
-and (through virtual modeling)
+and (through virtual imagining)
 example (@ex001107) [ذَهَبَ]{.ar}
 [He went]{.trans}.
 But it is not able to accurately model dialectal usage outside its bounds.
@@ -1708,7 +1714,7 @@ and to enable him to be able to venture into [#islAm]{.trn2}ic works written in
 [sca]{.smallcaps}.
 For this purpose,
 we find the standard model
-(including virtual modeling)
+(including virtual imagining)
 developed within
 the Arabic grammatical tradition
 suitable and
