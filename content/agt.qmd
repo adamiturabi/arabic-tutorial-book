@@ -998,7 +998,7 @@ on its basis,
 pronounce judgement on a non-conforming feature
 that is found in attested usage.
 
-## Reckoning ([التَّقْدِير]{.ar})
+## Virtualization ([التَّقْدِير]{.ar})
 
 When the grammarians were analyzing attested usage, they observed that
 there is an underlying harmony and order in the Classical Arabic language,^[ Baalbaki, "Some aspects of harmony and hierarchy in Sībawayhi's grammatical analysis"  7ff]
@@ -1006,88 +1006,44 @@ such that it could be described with a set of
 coherent and comprehensive
 basic principles.
 But
-these principles often will not describe apparent speech directly.
-_Apparent speech_ is defined as the actual utterance that is spoken by the speaker and heard by the listener.
-This is because apparent speech,
+these principles often will not describe realspeech directly.
+_Realspeech_ is defined as the actual utterance that is spoken by the speaker and heard by the listener.
+This is because realspeech,
 even when not anomalous usage,
 has too much variation and complexity to be wrangled
 into a minimalist framework of grammatical principles directly.
-Oftentimes, two apparent speech utterances can differ in their apparent form.
+Oftentimes, two realspeech utterances can differ in their apparent form.
 But there would seem to be a common grammatical principle at work
-that directs the structure of both apparent speech utterances.
+that directs the structure of both realspeech utterances.
 
 In order to describe the language using a minimal set of grammatical principles,
 the grammarians theorized
-a _reckoned representation_^[We chose the term _reckoned representation_ and _reckoning_ for [التقدير]{.ar} because we wanted a combination of the meanings of "estimating" and "imagining." The Arabic grammatical tradition's _reckoned representation_ has parallels in the Western linguistic tradition, like _deep structure_, _ghost_ and _null_ segments. We are not re-using those terms because they may have baggage that could not be reconciled with the Arabic grammatical tradition's concept of reckoned representation. See, for example, Versteegh, "The notion of underlying levels" 287ff.]
-of the apparent speech.
-This reckoned representation would exist only in the mind of the speaker,^[Levin, "The theory of al-taqdīr and its terminology." 142--143]
-under the level of apparent speech.
-The links between inter-related linguisitic phenomena would be more evident in the reckoned representation
-than in apparent speech.
-The reckoned representation would be simpler in its structure, and have less variation, than apparent speech.
+a _virtualization_^[The Arabic grammatical tradition's _virtualization_ has parallels in the Western linguistic tradition, like _deep structure_, _ghost_ and _null_ segments. We are not re-using those terms because they may have baggage that could not be reconciled with the Arabic grammatical tradition's concept of virtualization. See, for example, Versteegh, "The notion of underlying levels" 287ff.]
+of the realspeech.
+This virtualization would exist only in the mind of the speaker,^[Levin, "The theory of al-taqdīr and its terminology." 142--143]
+under the level of realspeech.
+The links between inter-related linguisitic phenomena would be more evident in the virtualization
+than in realspeech.
+The virtualization would be simpler in its structure, and have less variation, than realspeech.
 It would thus
 be
 more amenable to being described by a set of basic principles.
 
 So,
-the reckoned representation of apparent speech
+the virtualization of realspeech
 is not actually uttered.
-But supposing it allows us to build a framework that captures apparent speech more fully
+But supposing it allows us to build a framework that captures realspeech more fully
 than would have been practical, had we not supposed it.
 
+_Virtualization_ is also the grammarian's analytical activity of coming up with a suitable virtual representation of realspeech.
+We will further explain virtualization by going through some examples in the section below:
 
-<!--
-Based on the above observations,
-the grammarians' goal was to come up with a set of basic principles for Classical Arabic
-that was coherent and comprehensive.
-In doing so,
-they would theorize a _reckoned representation_
-of the apparent speech,
-when needed,
-and build their grammatical system based on the reckoned representation.
--->
+### Examples of virtualization
 
-
-<!--
-that exists only in the speech unit of mind of the speaker.^[Levin, "The theory of al-taqdīr and its terminology." 142--143]
-This _reckoned representation_
-was more amenable to being wrangled into 
-organized rules.
-
-
-In analyzing attested usage,
-the grammarians were
-attempting to build a comprehensive and coherent grammar of Classical Arabic.
-During this process, they saw that natural speech,
-even when not anomalous usage,
-was often too complex to be codified
-compactly.
-But
-they also realized that
-under the literally uttered speech
-(termed _apparent speech_),
-there could be modeled a _virtual_ utterance
-that existed only in the mind of the speaker.^[Levin, "The theory of al-taqdīr and its terminology." 142--143]
-This _reckoned representation_
-was more amenable to being wrangled into 
-organized rules.
-
-The grammarians then 
-considered it their role to theorize a reckoned representation,
-when needed,
-under the apparent speech,
-and to build their grammatical framework based on the reckoned representation.
--->
-
-_Reckoning_ is the grammarian's analytical activity of coming up with a suitable reckoned representation of apparent speech.
-We will further explain reckoning by going through some examples in the section below:
-
-### Examples of reckoning
-
-#### A reckoned representation of latent doer pronouns  {#sec-agt_taqdir_mustatir}
+#### A virtualization of latent doer pronouns  {#sec-agt_taqdir_mustatir}
 
 Let's say that a hypothetical grammarian goes through some data in attested usage,
-and he finds apparent speech samples like the following:
+and he finds realspeech samples like the following:
 
 (@ex001100) [قَرَأَ زَيْدٌ]{.ar}  
     [Zayd read.]{.trans}  
@@ -1121,7 +1077,7 @@ a verb, followed by its doer (noun).
 
 The grammarian 
 then continues going through attested usage
-and finds apparent speech samples like the following:
+and finds realspeech samples like the following:
 
 (@ex001103) [تَصَدَّقْنَ]{.ar}  
     [They~f~ gave charity.]{.trans}  
@@ -1164,7 +1120,7 @@ Now
 the sentences can be considered to have two parts: a verb followed by its doer.
 So far so good.
 
-But now the grammarian comes across apparent speech samples like the following:
+But now the grammarian comes across realspeech samples like the following:
 
 (@ex001107) [ذَهَبَ]{.ar}  
     [He went.]{.trans}  
@@ -1203,18 +1159,18 @@ So the [تْ]{.ar} doesn't seem like it can be the doer.
 So what is the grammarian to do?
 
 In order to keep the principle consistent,
-the grammarian reckons _latent_ doers for these sentences.
-For example (@ex001107) above, the latent doer is reckoned as [[هُوَ]{.ar}], thus:
+the grammarian virtualizes _latent_ doers for these sentences.
+For example (@ex001107) above, the latent doer is virtualized as [[هُوَ]{.ar}], thus:
 
 (@ex001111) [ذَهَبَ [هُوَ]]{.ar}  
     [He went.]{.trans}  
 
 Now the sentence has two parts:
 the verb
-[ذَهَبَ]{.ar}, followed by it's doer, the reckoned [[هُوَ]{.ar}].
+[ذَهَبَ]{.ar}, followed by it's doer, the virtual [[هُوَ]{.ar}].
 Thus it is compliant with the above stated principle that the grammarian developed for verbal sentences.
 
-Here are the other examples with their reckoned doers:
+Here are the other examples with their virtual doers:
 
 (@ex001112) [رَجَعَتْ [هِيَ]]{.ar}  
     [She returned.]{.trans}  
@@ -1226,11 +1182,11 @@ Here are the other examples with their reckoned doers:
     [We give charity.]{.trans}  
 
 In this way, a grammarian was able to formulate a analogy-based grammatical principle
-based on observation of attested usage and theorization of a reckoned representation.
+based on observation of attested usage and theorization of a virtualization.
 
-#### A reckoned representation of [أَنْ]{.ar} before a-case caseful verbs {#sec-agt_taqdir_lian}
+#### A virtualization of [أَنْ]{.ar} before a-case caseful verbs {#sec-agt_taqdir_lian}
 
-We present another example of where reckoning is useful for coming up with grammatical principles.
+We present another example of where virtualization is useful for coming up with grammatical principles.
 In chapter\ (ref),
 we studied how a a-case caseful verb can occur after the particle [لِ]{.ar}.
 For example:
@@ -1252,24 +1208,24 @@ between the
 and the
 a-case caseful
 [أَنْجَحَ]{.ar},
-there existed a reckoned [أَنْ]{.ar}, thus:
+there existed a virtualized [أَنْ]{.ar}, thus:
 
 (@ex001117) [دَرَسْتُ لِ[أَنْ] أَنْجَحَ]{.ar}  
     [I studied for the reason [that] I may succeed.]{.trans}  
 
 And it was this [أَنْ]{.ar} that actually caused the caseful verb to be in the a-case.
-This reckoning
+This virtualization
 allowed them to
 reduce the definition of
 [لِ]{.ar}
 to a preposition that only precedes nouns.
 And it granted to [أَنْ]{.ar} the (more-or-less) sole privilege of causing a caseful verb to be in the a-case.^[Baalbaki, "Bāb al-fāʾ" 186--189]
 
-The reckoning of [أَنْ]{.ar}
+The virtualization of [أَنْ]{.ar}
 between
 [لِ]{.ar}
 and a following a-case caseful verb is also supported by the fact that
-the apparent speech can actually have an [أَنْ]{.ar} in that position, for the same meaning.
+the realspeech can actually have an [أَنْ]{.ar} in that position, for the same meaning.
 So we can actually also say:
 
 (@ex001118) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}  
@@ -1278,31 +1234,31 @@ So we can actually also say:
 As for the restriction of
 [لِ]{.ar}
 to a preposition that only precedes nouns,
-then this can be seen when we apply a second level of reckoning:
-and that is to interpret (a apparent or reckoned)
+then this can be seen when we apply a second level of virtualization:
+and that is to interpret (a real or virtual)
 [أَنْ]{.ar} and the following a-case caseful verb as a [maSdar]{.trn2} construction.
-So the reckoned representation of (@ex001118) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}
+So the virtualization of (@ex001118) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}
 is:
 
 (@ex001119) [دَرَسْتُ لِنَجَاحِي]{.ar}  
     [I studied for the reason of my success.]{.trans}  
     (i.e. [in order to achieve success]{.trans}.)  
 
-In the reckoned representation in example (@ex001119),
+In the virtualization in example (@ex001119),
 we can see how
 [لِ]{.ar}
 is a preposition before the i-case noun
 [نَجَاح]{.ar}.
 
-We will see more examples of reckoning for the a-case caseful verb in chapter\ (ref), if Allāh wills.
+We will see more examples of virtualization for the a-case caseful verb in chapter\ (ref), if Allāh wills.
 
-#### The reckoned representation of a warning statement
+#### The virtualization of a warning statement
 
 [إِيَّاكَ وَالشَّرَّ]{.ar}
 
 TODO. Get from [[شرح ابن عثيمين]{.ar} 59/4](https://shamela.ws/book/36954/636)
 
-#### Reckoned case-endings
+#### Virtual case-endings
 
 As we know, the vowel at the end of
 nouns and verbs that end with weak letters
@@ -1316,42 +1272,42 @@ So, for example, we will say:
 In (@ex_judge_decrees) above,
 [يَقْضِي]{.ar} is a u-case caseful verb.
 But it is not able to have a [Dammah]{.trn2} at its end because of its weak root letter [ي]{.ar}.
-So we will say that its u-case is indicated by a _reckoned_ [Dammah]{.trn2} at its end.
+So we will say that its u-case is indicated by a _virtual_ [Dammah]{.trn2} at its end.
 [قَاضٍ]{.ar} is a doer in the u-case.
 It too is not able to have a [Dammah]{.trn2} at its end because of its weak root letter [ي]{.ar}.
-So, again, we will say that its u-case is indicated by a _reckoned_ [Dammah]{.trn2} at its end.
+So, again, we will say that its u-case is indicated by a _virtual_ [Dammah]{.trn2} at its end.
 
-### Some aspects regarding reckoning
+### Some aspects regarding virtualization
 
-#### The reckoned representation is not actually uttered
+#### The virtualization is not actually uttered
 
 One point to note,
-regarding reckoning,
+regarding virtualization,
 is that 
-the reckoned representation representation of a apparent speech is often not actually correct as apparent speech.^[Baalbaki, "Bāb al-fāʾ" 190; Versteegh, "The notion of underlying levels" 278]
+the virtualization representation of a realspeech is often not actually correct as realspeech.^[Baalbaki, "Bāb al-fāʾ" 190; Versteegh, "The notion of underlying levels" 278]
 
-If we take the reckoned representation in (@ex001111) [ذَهَبَ [هُوَ]]{.ar} as an example,
+If we take the virtualization in (@ex001111) [ذَهَبَ [هُوَ]]{.ar} as an example,
 then what we mean is that
-we don't actually say (in apparent speech)
+we don't actually say (in realspeech)
 [ذَهَبَ هُوَ]{.ar}
 when we intend to mean [He went]{.trans}.
-The apparent speech (@ex001107) [ذَهَبَ]{.ar} is the only correct way to express this intended meaning.
+The realspeech (@ex001107) [ذَهَبَ]{.ar} is the only correct way to express this intended meaning.
 The representation [ذَهَبَ [هُوَ]]{.ar}
-is only a _reckoned representation_ of the apparent speech [ذَهَبَ]{.ar}
+is only a _virtualization_ of the realspeech [ذَهَبَ]{.ar}
 that elucidates the grammar of the sentence.
 
 Sometimes,
 however,
-a reckoned representation representation is actually correct as apparent speech,
+a virtualization representation is actually correct as realspeech,
 for more-or-less the same,
 or a similar meaning.
 This can be,
 for example,
-when the reckoned representation restores a word or expression which is implied and was optionally deleted.
+when the virtualization restores a word or expression which is implied and was optionally deleted.
 For example,
 we saw that
-the reckoned [أَنْ]{.ar} in example (@ex001116) [دَرَسْتُ لِأَنْجَحَ]{.ar}
-can actually be expressed in apparent speech, thus:
+the virtual [أَنْ]{.ar} in example (@ex001116) [دَرَسْتُ لِأَنْجَحَ]{.ar}
+can actually be expressed in realspeech, thus:
 
 (@ex001120) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}  
     [I studied for the reason that I may succeed.]{.trans}  
@@ -1366,16 +1322,16 @@ but it has a different meaning than the intended
 [He went]{.trans}.
 It uses the pronoun [هُوَ]{.ar} as an _emphatic follower_ (see chapter\ (ref)).
 
-#### The literal representation used in the reckoned representation may not be real
+#### The literal representation used in the virtualization may not be real
 
 Another point
 is that
 the grammarians' representation
-of the reckoned representation
+of the virtualization
 may not necessarily be real.
 
 In the example of latent doer pronouns,
-the reckoned doers,
+the virtual doers,
 ([[هُوَ]{.ar}],
 [[هِيَ]{.ar}],
 [[أَنَا]{.ar}],
@@ -1386,23 +1342,23 @@ are not "real" representations of the latent doer pronouns.
 They are only written as such because,
 for his analysis,
 the grammarian needs some words to represent the
-latent doer pronouns in the reckoned representation.
+latent doer pronouns in the virtualization.
 And because there are no real words to denote the latent doer pronouns,
 the grammarian borrows the words that denote the detached pronouns to do so.
 
 As it happens,
-the reckoned latent pronouns are theorized to be (invisible/inaudible) _attached_ pronouns,^[[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar}, [تمهيد ز--ط]{.ar}]
+the virtual latent pronouns are theorized to be (invisible/inaudible) _attached_ pronouns,^[[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar}, [تمهيد ز--ط]{.ar}]
 just like the overt doer pronouns
 [تُ]{.ar} [I]{.trans},
 [نَا]{.ar} [we]{.trans},
 [نَ]{.ar} [they~3f~]{.trans},
 etc.
-Reckoning the latent doer pronouns
+Virtualizing the latent doer pronouns
 as attached pronouns has benefits that keeps the grammatical framework coherent
 across different grammatical topics.
 We will see one such benefit in chapter\ (ref), when we discuss the emphatic follower.
 
-#### Reckoning may be required to correctly interpret a text
+#### Virtualization may be required to correctly interpret a text
 
 Consider the following [Ayah]{.trn2} from the Qurʾān:
 
@@ -1414,11 +1370,11 @@ The part
 [صَبْرٌ جَمِيلٌ]{.ar}
 has been analyzed
 as being able to be bear multiple interpretations,
-all requiring reckoning.
+all requiring virtualization.
 One analysis is that
 [صَبْرٌ جَمِيلٌ]{.ar}
 is a subject whose info is deleted.
-The reckoned representation for this analysis is:
+The virtualization for this analysis is:
 
 (@ex001122) [صَبْرٌ جَمِيلٌ أَمْثَلُ]{.ar}
     [[[الدر المصون للسمين الحلبي]{.ar} for [سورة يوسف]{.ar} 12:18](https://tafsir.app/aldur-almasoon/12/18)]{.citex}  
@@ -1427,7 +1383,7 @@ The reckoned representation for this analysis is:
 The second analysis is that
 [صَبْرٌ جَمِيلٌ]{.ar}
 is a info whose subject is deleted.
-The reckoned representation for this analysis is:
+The virtualization for this analysis is:
 
 (@ex001123) [أَمْرِي صَبْرٌ جَمِيلٌ]{.ar}
     [[[الدر المصون للسمين الحلبي]{.ar} for [سورة يوسف]{.ar} 12:18](https://tafsir.app/aldur-almasoon/12/18)]{.citex}  
@@ -1437,15 +1393,15 @@ A third analysis is that
 [صَبْرٌ جَمِيلٌ]{.ar}
 is used as a deputy to a verb (see section\ (maf3ool mutlaq))
 in a command to oneself.
-The reckoned representation for this analysis is:
+The virtualization for this analysis is:
 
 (@ex001124) [اصْبِرْ صَبْرًا جَمِيلًا]{.ar}
     [[[تفسير ابن عاشور]{.ar} for [سورة يوسف]{.ar} 12:18](https://tafsir.app/ibn-aashoor/12/18)]{.citex}  
     [Be patient [with] a beautiful patience!]{.trans}  
 
-#### Reckoning can be used to interpret anomalous usage
+#### Virtualization can be used to interpret anomalous usage
 
-Grammarians also sometimes used reckoning as a tool to make anomalous usage
+Grammarians also sometimes used virtualization as a tool to make anomalous usage
 fit coherently
 into their grammatical framework.^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 42]
 For example, if we consider the line of poetry that we discussed in @sec-agt_shaadh above:
@@ -1463,97 +1419,97 @@ not as a comparative noun,
 but as a adjectival noun
 synonymous to [مُبْيَضَّ]{.ar} [white]{.trans}.
 An implied noun [جَسَد]{.ar} [body]{.trans} is also inserted.^[[[الإنصاف للأنباري]{.ar} 1/123](https://shamela.ws/book/7362/119#p1)]
-Such that the reckoned representation is:
+Such that the virtualization is:
 
 (@ex001126) [فِي دِرْعِهَا جَسَدٌ مُبْيَضٌّ مِنْ أُخْتِ بَنِي إِبَاضِ]{.ar}
     [[[الإنصاف للأنباري]{.ar} 1/123](https://shamela.ws/book/7362/119#p1)]{.citex}  
     [... in her shirt is a white body from [a woman of the tribe] of [#banU #ibAD]{.trn2}]{.trans}  
 
-Needless to say, this is pretty convoluted reckoning.
+Needless to say, this is pretty convoluted virtualization.
 Some grammarians would prefer to let such anomalous usage be,
-and they wouldn't attempt to force such complicated reckoning
+and they wouldn't attempt to force such complicated virtualization
 to make the anomalous usage fit into their
 analogy-based
 grammatical system.^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 42  
-Here is another example of using reckoning with anomalous usage:  
+Here is another example of using virtualization with anomalous usage:  
 [ولا يتقدم نعت المصدر على معموله فلا يقال عرفت سوقك العنيف الإبل، لأن معمول المصدر منه بمنزلة الصلة من الموصول، فلا يتقدم نعت المصدر على معموله، كما لا يتقدم نعت الموصول على صلته، فإن ورد ما يوهم خلاف ذلك قدر فعل بعد النعت يتعلق به المعمول المتأخر. فمن ذلك قول الحطيئة:  
 أزمَعْتُ يأسًا مُبِينا من نَوالكم ~ ولنْ ترى طارِدًا للحُرِّ كاليأسِ  
 فالمتبادر إلى فهم سامع هذا البيت تعليق من نوالكم بيأسا، وهو غير جائز كما ذكرت، بل يتعلق بيئست مضمرا]{.ar}  
 [[[شرح التسهيل لابن مالك]{.ar} 3/108--109](https://shamela.ws/book/13257/924#p1)]{.citex}]
 
-#### There can be multiple levels and types of reckoning
+#### There can be multiple levels and types of virtualization
 
-In order to fit a apparent speech into analogy,
-there can be multiple levels of reckoning done.
+In order to fit a realspeech into analogy,
+there can be multiple levels of virtualization done.
 As an example,
 we saw in @sec-agt_taqdir_lian above that
 in example (@ex001116) [دَرَسْتُ لِأَنْجَحَ]{.ar},
-first an [أَنْ]{.ar} was reckoned between
+first an [أَنْ]{.ar} was virtualized between
 [لِ]{.ar}
 and the
 a-case caseful thus: (@ex001117) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}.
 
-And then a further level of reckoning was done,
+And then a further level of virtualization was done,
 where
 [أَنْ]{.ar} and the following a-case caseful verb
 was reinterpreted
 as a [maSdar]{.trn2} construction: (@ex001119) [دَرَسْتُ لِنَجَاحِي]{.ar}.
 
-Sometimes a reckoned representation
+Sometimes a virtualization
 is used to explain
 irregular sounds,
 or a meaning which can only be arrived at by assuming an underlying interpretation.^[Versteegh, "The notion of underlying levels" 283ff]
 
 However,
 all types and layers of
-reckoning 
-are used to explain apparent speech
-according to a grammatical framework that can not address all aspects of apparent speech directly.
+virtualization 
+are used to explain realspeech
+according to a grammatical framework that can not address all aspects of realspeech directly.
 
-### Benefits and risks of reckoning {#sec-agt_taqdir_benefits_risks}
+### Benefits and risks of virtualization {#sec-agt_taqdir_benefits_risks}
 
-Reckoning is an analytic tool that allows the grammarian to discover
+Virtualization is an analytic tool that allows the grammarian to discover
 and reconstruct
-a theorized structure that underlies apparent speech.^[Baalbaki, "Bāb al-fāʾ" 188]
-This theorized underlying structure is more basic than the apparent structure,
+a theorized structure that underlies realspeech.^[Baalbaki, "Bāb al-fāʾ" 188]
+This theorized underlying structure is more basic than the real structure,
 and more easily described with a set of rules.^[Baalbaki, "Bāb al-fāʾ" 190]
 Without
-reckoning,
+virtualization,
 the set of rules, which the grammarian would have to formulate,
-would increase greatly to capture all the different variations in apparent speech.
+would increase greatly to capture all the different variations in realspeech.
 Furthermore, the rules would be disparate,
 and would not readily indicate the links
 between related linguistic phenomena.
-Those links are more obvious in the reckoned representation.
+Those links are more obvious in the virtualization.
 
 Having said that,
-reckoning is essentially a speculative exercise which is done by the grammarian.
+virtualization is essentially a speculative exercise which is done by the grammarian.
 Because
-the reckoned representation,
+the virtualization,
 by its very definition,
-does not manifest in apparent speech,
+does not manifest in realspeech,
 the grammarian can only theorize its existence and formulation.
-As such, reckoning entails risks because it is based on the grammarian's
+As such, virtualization entails risks because it is based on the grammarian's
 subjective reasoning.^[Baalbaki, "Bāb al-fāʾ" 190]
 
 Therefore, the grammarian does,
 or should,
-attempt to validate his reckoning approach,
+attempt to validate his virtualization approach,
 to whatever degree possible.
 One way to do this is
-by basing the reckoned representation on
+by basing the virtualization on
 the meaning that
-a native speaker understands from the apparent speech,
+a native speaker understands from the realspeech,
 like our hypothetical grammarian did for latent doer pronouns in @sec-agt_taqdir_mustatir above.
 
-Another way is to attempt to find traces of the reckoned representation in the apparent speech,
+Another way is to attempt to find traces of the virtualization in the realspeech,
 as was done in @sec-agt_taqdir_lian above,
-for the reckoning of [أَنْ]{.ar} between
+for the virtualization of [أَنْ]{.ar} between
 [لِ]{.ar}
 and a following a-case caseful verb.
 
-At the very least, any reckoned representation should be subservient to, and not contradict,
-the intended meaning of the apparent speech.^[See also Baalbaki, "Bāb al-fāʾ" 188]
+At the very least, any virtualization should be subservient to, and not contradict,
+the intended meaning of the realspeech.^[See also Baalbaki, "Bāb al-fāʾ" 188]
 
 ## Difference of opinion between the grammarians
 
@@ -1586,12 +1542,12 @@ Some more differences between the two schools are that
 the [#kUf]{.trn2}ans are regarded as more lax in forming analogy-based rules
 based on anomalous usage.^[[[التذييل والتكميل لأبي حيان]{.ar} 11/75](https://shamela.ws/book/17116/3610)]
 Whereas the [#baSr]{.trn2}ans liked to keep their rules more taut,
-attempting to interpret rare and anomalous usages through reckoning^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 41--42]
+attempting to interpret rare and anomalous usages through virtualization^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 41--42]
 so that most everything aligned with a minimal set of basic grammatical principles.
 Both, however, as a general rule, accepted the anomalous usage as valid attested usage.
 The [#kUf]{.trn2}ans are also thought to be more grounded in that they tried to stay
-closer to apparent speech,
-rather than venturing into too much reckoning.
+closer to realspeech,
+rather than venturing into too much virtualization.
 
 Generally speaking,
 the [#baSr]{.trn2}ans formed their terminology and opinions
@@ -1602,7 +1558,7 @@ the [#kUf]{.trn2}an view is often brought in as a reality check against
 what may sometimes be deemed to be excessive
 rule strictness
 and
-reckoning
+virtualization
 on the part of the [#baSr]{.trn2}ans.^[See also Carter, "Arabic grammar" 126--127]
 
 ## Utilizing grammatical models {#sec-agt_using_models}
@@ -1675,7 +1631,7 @@ states the following rules regarding the relationship between a verb and its doe
 This model is sufficient to anaylze sentences like
 example (@ex001100) [قَرَأَ زَيْدٌ]{.ar}
 [Zayd read]{.trans}
-and (through reckoning)
+and (through virtualization)
 example (@ex001107) [ذَهَبَ]{.ar}
 [He went]{.trans}.
 But it is not able to accurately model dialectal usage outside its bounds.
@@ -1735,7 +1691,7 @@ and to enable him to be able to venture into [#islAm]{.trn2}ic works written in
 [sca]{.smallcaps}.
 For this purpose,
 we find the standard model
-(including reckoning)
+(including virtualization)
 developed within
 the Arabic grammatical tradition
 suitable and
