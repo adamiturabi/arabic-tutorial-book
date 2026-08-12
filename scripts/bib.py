@@ -1215,7 +1215,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "rasaif"
     , cit_type = "ar_ref"
-    , cit_text = "[خزانة الرصائف للغامدي]{.ar}"
+    , cit_text = "[خزانة الرصائف لأحمد حسن الغامدي]{.ar}"
     , bib_text = """
       الغامديّ، أحمد حسن. الرصائف: خزانةُ تراجمِ الإنجليز لكتب العرب. خزانةٌ على الشبكة، ١٤٤٧هـ / ٢٠٢٦م. 
       """ + format_url_ar("https://ahmedhsalghamdi.github.io/arabic-english-rasaif-corpus/")
