@@ -107,6 +107,7 @@ map_table["lammaa"] = "[لَمَّا]{.ar}"
 map_table["kullamaa"] = "[كُلَّمَا]{.ar}"
 map_table["immaa"] = "[إِمَّا]{.ar}"
 map_table["alladhi"] = "[الَّذِي]{.ar}"
+map_table["hunaaka"] = "[هُنَاكَ]{.ar}"
 
 map_table["_in"] = "إِنْ"
 map_table["_idha"] = "إِذَا"
