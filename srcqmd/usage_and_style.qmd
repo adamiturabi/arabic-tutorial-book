@@ -155,22 +155,44 @@ Similarly:
     [Is there one seeking forgiveness? Is there a penitent? Is there an asker? Is there a caller?]{.trans}
 
 
-### Negative and past existential sentences
+### Negative existential sentences
 
-English also uses the word "there" with this existential meaning for sentences like:
-
-+ "There was a king."
-+ "There is no hope."
-
-These sentences can be expressed in Arabic without indefinite ;mubtada;s. For example:
-
-(@ex001072) [كَانَ مَلِكٌ.]{.ar}  
-    [There was a king.]{.trans}  
-    This uses the _self-sufficient_ [كَانَ]{.ar}. (See section\ \@ref(self-sufficient-kaana).)
+For a negative existential sentence,
+we can conveniently use [لا النافية للجنس]{.ar}.
+For example:
 
 (@ex001073) [لَا أَمَلَ.]{.ar}  
     [There is no hope.]{.trans}  
-    This uses the [nAfiyah lil-jins]{.trn2} [لَا]{.ar}. (See section\ \@ref(la-nafiyah-lil-jins).)
+
+### Using ;kaana; to express the existential
+
+As we know,
+[يَكُونُ]{.ar}
+is not normally used as the equivalent of the English [is]{.trans}.
+But ;kaana; is used for [was]{.trans} with no problem.
+This helps us solve the problem of expressing the existential for the past tense.
+For example:
+
+(@ex001072) [كَانَ مَلِكٌ]{.ar}  
+    [There was a king.]{.trans}  
+    This uses the ;taamm; ;kaana;. (See @sec-kaana_taammah).
+
+;kaana; and ;yakun; can also be used to express the existential in ;j_sh;s and similar sentences,
+where the tense is determined from context.
+For example:
+
+(@) [وإن **كَانَ** ملك فالملك ملككم]{.ar}
+    [[@tarikh_tabari@ 3/269](https://shamela.ws/book/9783/1542) accessed via @rasaif@]{.citex}  
+    [And if **there is** [to be] any sovereignty it shall be yours.]{.trans}
+
+(@) [دَعُوهُ، فَإِنْ **يَكُ** فِيهِ خَيْرٌ فَسَيُلْحِقُهُ اللَّهُ بِكُمْ]{.ar}
+    [[@tarikh_tabari@ 3/107](https://shamela.ws/book/9783/1381) accessed via @rasaif@]{.citex}  
+    [Leave him be, for if **there is** any good in him, then ;Allah; will join him to you.]{.trans}
+
+(@) [فَوَاللَّهِ لَقَلَّمَا **كَانَتِ** امْرَأَةٌ قَطُّ وَضِيئَةٌ عِنْدَ رَجُلٍ يُحِبُّهَا وَلَهَا ضَرَائِرُ إِلاَّ كَثَّرْنَ عَلَيْهَا]{.ar}
+    [@https://sunnah.com/muslim:2770a@]{.citex}  
+    [Rarely **is there** a woman at all, fair to a man who loves her, and she has co-wives, except that say much against her.]{.trans}
+
 
 ### Legitimate use of [هُنَاكَ]{.ar}, ;thamma; and [يُوجَدُ]{.ar}
 
