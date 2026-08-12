@@ -29,7 +29,7 @@ iv.  "A god exists."
 -->
 
 Expressing such sentences in Arabic can sometimes be tricky.
-There is a modern tendency to use the [Parf makan]{.trn2} [هُنَاكَ]{.ar} and the [majhUl]{.trn2} verb [يُوجَدُ]{.ar}. <!-- as direct equivalents of the English "there" and "exists".-->
+There is a modern tendency to use the ;dharf_makan; [هُنَاكَ]{.ar} and the passive verb [يُوجَدُ]{.ar}. <!-- as direct equivalents of the English "there" and "exists".-->
 So one might find:
 
 (@ex001060) [هُنَاكَ حَزَنٌ فِي ٱلْبَيتِ.]{.ar} or  
@@ -53,11 +53,14 @@ So one might find:
     [Is there food?]{.trans}  
 
 Sometimes in place of [هُنَاكَ]{.ar}, its synonyms [ثَمَّ]{.ar} or [ثَمَّةَ]{.ar} is used.
+
+[هُنَاكَ]{.ar}, [ثَمَّ]{.ar}/[ثَمَّةَ]{.ar}, and [يُوجَدُ]{.ar} are not generally (see @sec-usage_legit_hunaaka below) used in ;sca; to express the existential.
+<!--
 These usages of [هُنَاكَ]{.ar}, [ثَمَّ]{.ar}/[ثَمَّةَ]{.ar}, and [يُوجَدُ]{.ar} are foreign to Arabic and should generally be avoided.
 
 In Classical Arabic, expressing such sentences falls under the category of sentences with indefinite ;mubtada;s.
 We have discussed this topic in chapter\ \@ref(chap-indef-subjects).
-
+-->
 There are various strategies for expressing such sentences:
 
 ### Using or manufacturing scope
@@ -162,11 +165,23 @@ Similarly:
 ### Negative existential sentences
 
 For a negative existential sentence,
-we can conveniently use [لا النافية للجنس]{.ar}.
+we can conveniently use ;laa;, ;maa; and ;laysa;.
 For example:
 
-(@ex001073) [لَا أَمَلَ.]{.ar}  
+(@ex001073) [لَا أَمَلَ]{.ar}  
     [There is no hope.]{.trans}  
+
+(@) [ما في المحفظة ريال]{.ar}
+    [@earanjiyyah@ 171]{.citex}  
+    [There are no [#riyAl]{.trn2}s in the wallet.]{.trans}  
+
+(@) [فلان ما بقلبه رحمة]{.ar}
+    [@earanjiyyah@ 171]{.citex}  
+    [There is no mercy in so-and-so's heart.]{.trans}  
+
+(@) [يَا أُمَّ سَلَمَةَ إِنَّهُ **لَيْسَ آدَمِيٌّ** إِلاَّ وَقَلْبُهُ بَيْنَ أُصْبُعَيْنِ مِنْ أَصَابِعِ اللَّهِ فَمَنْ شَاءَ أَقَامَ وَمَنْ شَاءَ أَزَاغَ]{.ar}
+    [@https://sunnah.com/tirmidhi:3522@]{.citex}  
+    [O Umm Salamah], indeed **there is no human** except that his heart is between the two fingers from the fingers of ;Allah;. Whomsoever He wills He makes steadfast. And whomsoever he wills, he causes to deviate.]{.trans}  
 
 ### Using ;kaana; to express the existential
 
@@ -235,6 +250,17 @@ Similarly, [يُوجَدُ]{.ar} may be used with no problem if the meaning "is 
     [@https://sunnah.com/bukhari:3166@]{.citex}  
     [Whoever killed a person having a treaty with the Muslims, shall not smell the smell of Paradise though its smell is perceived from a distance of forty years.]{.trans}  
 
+### Possible use of ;hunaaka; used existentially {#sec-usage_legit_hunaaka}
+
+Some researchers have found ;hunaaka; being used existentially in older works not influenced by European languages.
+For example:
+
+(@) [وَقَالَ الْكُوفِيُّونَ مِنْ أَصْحَابِ الرَّأْيِ الْوُضُوءُ وَالْغُسْلُ جَائِزَانِ وَإِنْ  لَمْ يَكُنْ **هُنَاكَ** نِيَّةٌ]{.ar}
+    [[[الطهور (ت مشهور) لأبي عبيد القاسم بن سلام]{.ar} 200](https://shamela.ws/book/262/147) cited by @earanjiyyah@ 170]{.citex}  
+
+(@) [وهناك خيانات في صلب الملك، أو في بعض الحرم، فلا يستطيع الملك أن يكشف للعامة موضع العورة في الملك]{.ar}
+    [[[البيان والتبيين للجاحظ]{.ar} 3/246](https://shamela.ws/book/10614/797) cited by @earanjiyyah@ 170]{.citex}  
+
 ### Technical and scientific use of [يوجَد]{.ar}
 
 Our above directive to avoid the use of [يوجد]{.ar} to mean "there is" holds for normal sentences.
@@ -243,7 +269,7 @@ Sometimes, however, a more technical meaning of "exists" is intended, especially
 However, scholars, in developing branches of science, need to define terminology and use it in the precise manner which their science demands.
 Historically, scholars have added on scientific meanings to existing words. There is no problem with this if done carefully and discriminately.
 -->
-In this case, [يوجد]{.ar} and its [ism mafeUl]{.trn2} [موجود]{.ar} may be used when needing to discuss the existence of something in a scientific text.
+In this case, [يوجد]{.ar} and its ;ism_maful; [موجود]{.ar} may be used when needing to discuss the existence of something in a scientific text.
 But such usage should be restricted to its domain, and should not, ideally, spill over to normal sentences, where a simple "there is" is intended.
 
 By the way, the disused verb [أَيْسَ]{.ar} [to be]{.trans},
