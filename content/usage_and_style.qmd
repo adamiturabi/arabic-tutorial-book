@@ -9,8 +9,12 @@ IT IS NOT YET READY TO BE STUDIED FROM.**
 :::
 
 
+[msa]{.smallcaps} today is considerably influenced by poor translations from English into Arabic.
+This has resulted in a usage and style that is often far removed from [sca]{.smallcaps}.
+This appendix aims to highlight some poor usages and styles that the learner would be advised to guard against.
+For more detailed works on this topic see the list of works in @sec-usage_further_reading below.
 
-## "There is a ..." sentences.
+## Existential sentences
 
 In English the plain existence of an indefinite subject is expressed using the word "there". For example:
 
@@ -32,7 +36,7 @@ iv.  "A god exists."
 -->
 
 Expressing such sentences in Arabic can sometimes be tricky.
-There is a modern tendency to use the [Parf makan]{.trn2} [هُنَاكَ]{.ar} and the [majhUl]{.trn2} verb [يُوجَدُ]{.ar}. <!-- as direct equivalents of the English "there" and "exists".-->
+There is a modern tendency to use the adverb of place [هُنَاكَ]{.ar} and the passive verb [يُوجَدُ]{.ar}. <!-- as direct equivalents of the English "there" and "exists".-->
 So one might find:
 
 (@ex001060) [هُنَاكَ حَزَنٌ فِي ٱلْبَيتِ.]{.ar} or  
@@ -56,22 +60,25 @@ So one might find:
     [Is there food?]{.trans}  
 
 Sometimes in place of [هُنَاكَ]{.ar}, its synonyms [ثَمَّ]{.ar} or [ثَمَّةَ]{.ar} is used.
+
+[هُنَاكَ]{.ar}, [ثَمَّ]{.ar}/[ثَمَّةَ]{.ar}, and [يُوجَدُ]{.ar} are not generally (see @sec-usage_legit_hunaaka below) used in [sca]{.smallcaps} to express the existential.
+<!--
 These usages of [هُنَاكَ]{.ar}, [ثَمَّ]{.ar}/[ثَمَّةَ]{.ar}, and [يُوجَدُ]{.ar} are foreign to Arabic and should generally be avoided.
 
 In Classical Arabic, expressing such sentences falls under the category of sentences with indefinite subjects.
 We have discussed this topic in chapter\ \@ref(chap-indef-subjects).
-
+-->
 There are various strategies for expressing such sentences:
 
 ### Using or manufacturing scope
 
-If, for example, there is a [jArr wa-majrUr]{.trn2}, or other [cibh jumlah]{.trn2} then it can readily be used as a [xabar]{.trn2} that precedes the [mubtadaE]{.trn2}. For example:
+If, for example, there is a [jArr wa-majrUr]{.trn2}, or other [cibh jumlah]{.trn2} then it can readily be used as a info that precedes the subject. For example:
 
 (@ex001065) [فِي ٱلْبَيتِ حَزَنٌ.]{.ar}  
     [In the house is gloom.]{.trans}
 
 Sometimes, a [jArr wa-majrUr]{.trn2}, or other [cibh jumlah]{.trn2} is not original, but can readily be manufactured. 
-For example, in the sentence, "There are reasons." the reasons must be for something, and that something can be used as a [xabar]{.trn2}:
+For example, in the sentence, "There are reasons." the reasons must be for something, and that something can be used as a info:
 
 (@ex001066) [لِلْأَمْرِ أَسْبَابٌ.]{.ar}  
     [For the situation, are reasons.]{.trans}
@@ -102,23 +109,23 @@ A pointing noun,
 like [هَذَا]{.ar},
 can sometimes be used when English would use
 "there is"
-to offer and option.
+to offer an option.
 For example:
 
 (@) [فقال: ارى أن تنزل القرية، قَالَ: أكرهها، قَالَ: **فهذا الهزيم**.  قَالَ: أكره اسمه، قَالَ: فهذا البخراء، قصر النعمان بْن بشير]{.ar}
-    [[[تاريخ الطبري]{.ar} 7/244](https://shamela.ws/book/9783/3940) accessed via [خزانة الرصائف للغامدي]{.ar}]{.citex}  
-    [So he said, "I think that you should stop at a settlement." He said, "I dislike [doing so]." He said, "**Then there is [al-#hazIm]{.trn2}**. He said, "Then there is [al-#baxrAE]{.trn2}, the palace of [al-#nuemAn ibn #bacIr]{.trn2}.]{.trans}
+    [[[تاريخ الطبري]{.ar} 7/244](https://shamela.ws/book/9783/3940) accessed via [خزانة الرصائف لأحمد حسن الغامدي]{.ar}]{.citex}  
+    [So he said, "I think that you should stop at a settlement." He said, "I dislike [doing so]." He said, "**Then there is [al-#hazIm]{.trn2}**. He said, "I dislike its name." He said, "Then there is [al-#baxrAE]{.trn2}, the palace of [al-#nuemAn ibn #bacIr]{.trn2}.]{.trans}
 
 ### Using a suitable verbal expression
 
 For example:
 
 (@) [**وَاخْتُلِفَ** فِيمَنْ حَجَّ بِالنَّاسِ فِي هَذِهِ السَّنَةِ]{.ar}
-    [[[تاريخ الطبري]{.ar} 4/249](https://shamela.ws/book/9783/2140) accessed via [خزانة الرصائف للغامدي]{.ar}]{.citex}  
-    [There is a disagreement regarding who led the [#Hajj]{.trn2} that year.]{.trans}
+    [[[تاريخ الطبري]{.ar} 4/249](https://shamela.ws/book/9783/2140) accessed via [خزانة الرصائف لأحمد حسن الغامدي]{.ar}]{.citex}  
+    [**There is a disagreement** regarding who led the [#Hajj]{.trn2} in this year.]{.trans}
 
 (@) [فان **فضل فضل** نقلته إلى البلد الذي يليه، ممن هو أحوج إليه]{.ar}
-    [[[تاريخ الطبري]{.ar} 7/269](https://shamela.ws/book/9783/3965) accessed via [خزانة الرصائف للغامدي]{.ar}]{.citex}  
+    [[[تاريخ الطبري]{.ar} 7/269](https://shamela.ws/book/9783/3965) accessed via [خزانة الرصائف لأحمد حسن الغامدي]{.ar}]{.citex}  
     [If **there is any surplus**, I will transfer it to the country next to it which is in more need of it.]{.trans}  
 
 ### Using an interjection
@@ -162,22 +169,56 @@ Similarly:
     [Is there one seeking forgiveness? Is there a penitent? Is there an asker? Is there a caller?]{.trans}
 
 
-### Negative and past existential sentences
+### Negative existential sentences
 
-English also uses the word "there" with this existential meaning for sentences like:
+For a negative existential sentence,
+we can conveniently use [لَا]{.ar}, [مَا]{.ar} and [لَيْسَ]{.ar}.
+For example:
 
-+ "There was a king."
-+ "There is no hope."
-
-These sentences can be expressed in Arabic without indefinite subjects. For example:
-
-(@ex001072) [كَانَ مَلِكٌ.]{.ar}  
-    [There was a king.]{.trans}  
-    This uses the _self-sufficient_ [كَانَ]{.ar}. (See section\ \@ref(self-sufficient-kaana).)
-
-(@ex001073) [لَا أَمَلَ.]{.ar}  
+(@ex001073) [لَا أَمَلَ]{.ar}  
     [There is no hope.]{.trans}  
-    This uses the [nAfiyah lil-jins]{.trn2} [لَا]{.ar}. (See section\ \@ref(la-nafiyah-lil-jins).)
+
+(@) [ما في المحفظة ريال]{.ar}
+    [[العرنجية لأحمد الغامدي]{.ar} 171]{.citex}  
+    [There are no [#riyAl]{.trn2}s in the wallet.]{.trans}  
+
+(@) [فلان ما بقلبه رحمة]{.ar}
+    [[العرنجية لأحمد الغامدي]{.ar} 171]{.citex}  
+    [There is no mercy in so-and-so's heart.]{.trans}  
+
+(@) [يَا أُمَّ سَلَمَةَ إِنَّهُ **لَيْسَ آدَمِيٌّ** إِلاَّ وَقَلْبُهُ بَيْنَ أُصْبُعَيْنِ مِنْ أَصَابِعِ اللَّهِ فَمَنْ شَاءَ أَقَامَ وَمَنْ شَاءَ أَزَاغَ]{.ar}
+    [[[جامع الترمذي]{.ar} :3522](https://sunnah.com/tirmidhi:3522)]{.citex}  
+    [O Umm Salamah], indeed **there is no human** except that his heart is between the two fingers from the fingers of Allāh. Whomsoever He wills He makes steadfast. And whomsoever he wills, he causes to deviate.]{.trans}  
+
+### Using [كَانَ]{.ar} to express the existential
+
+As we know,
+[يَكُونُ]{.ar}
+is not normally used as the equivalent of the English [is]{.trans}.
+But [كَانَ]{.ar} is used for [was]{.trans} with no problem.
+This helps us solve the problem of expressing the existential for the past tense.
+For example:
+
+(@ex001072) [كَانَ مَلِكٌ]{.ar}  
+    [There was a king.]{.trans}  
+    This uses the sufficient [كَانَ]{.ar}. (See @sec-kaana_taammah).
+
+[كَانَ]{.ar} and [يَكُنْ]{.ar} can also be used to express the existential in conditional sentences and similar sentences,
+where the tense is determined from context.
+For example:
+
+(@) [وإن **كَانَ** ملك فالملك ملككم]{.ar}
+    [[[تاريخ الطبري]{.ar} 3/269](https://shamela.ws/book/9783/1542) accessed via [خزانة الرصائف لأحمد حسن الغامدي]{.ar}]{.citex}  
+    [And if **there is** [to be] any sovereignty it shall be yours.]{.trans}
+
+(@) [دَعُوهُ، فَإِنْ **يَكُ** فِيهِ خَيْرٌ فَسَيُلْحِقُهُ اللَّهُ بِكُمْ]{.ar}
+    [[[تاريخ الطبري]{.ar} 3/107](https://shamela.ws/book/9783/1381) accessed via [خزانة الرصائف لأحمد حسن الغامدي]{.ar}]{.citex}  
+    [Leave him be, for if **there is** any good in him, then Allāh will join him to you.]{.trans}
+
+(@) [فَوَاللَّهِ لَقَلَّمَا **كَانَتِ** امْرَأَةٌ قَطُّ وَضِيئَةٌ عِنْدَ رَجُلٍ يُحِبُّهَا وَلَهَا ضَرَائِرُ إِلاَّ كَثَّرْنَ عَلَيْهَا]{.ar}
+    [[[صحيح مسلم]{.ar} :2770a](https://sunnah.com/muslim:2770a)]{.citex}  
+    [Rarely **is there** a woman at all, fair to a man who loves her, and she has co-wives, except that say much against her.]{.trans}
+
 
 ### Legitimate use of [هُنَاكَ]{.ar}, [ثَمَّ]{.ar} and [يُوجَدُ]{.ar}
 
@@ -216,6 +257,17 @@ Similarly, [يُوجَدُ]{.ar} may be used with no problem if the meaning "is 
     [[[صحيح البخاري]{.ar} :3166](https://sunnah.com/bukhari:3166)]{.citex}  
     [Whoever killed a person having a treaty with the Muslims, shall not smell the smell of Paradise though its smell is perceived from a distance of forty years.]{.trans}  
 
+### Possible use of [هُنَاكَ]{.ar} used existentially {#sec-usage_legit_hunaaka}
+
+Some researchers have found [هُنَاكَ]{.ar} being used existentially in older works not influenced by European languages.
+For example:
+
+(@) [وَقَالَ الْكُوفِيُّونَ مِنْ أَصْحَابِ الرَّأْيِ الْوُضُوءُ وَالْغُسْلُ جَائِزَانِ وَإِنْ  لَمْ يَكُنْ **هُنَاكَ** نِيَّةٌ]{.ar}
+    [[[الطهور (ت مشهور) لأبي عبيد القاسم بن سلام]{.ar} 200](https://shamela.ws/book/262/147) cited by [العرنجية لأحمد الغامدي]{.ar} 170]{.citex}  
+
+(@) [وهناك خيانات في صلب الملك، أو في بعض الحرم، فلا يستطيع الملك أن يكشف للعامة موضع العورة في الملك]{.ar}
+    [[[البيان والتبيين للجاحظ]{.ar} 3/246](https://shamela.ws/book/10614/797) cited by [العرنجية لأحمد الغامدي]{.ar} 170]{.citex}  
+
 ### Technical and scientific use of [يوجَد]{.ar}
 
 Our above directive to avoid the use of [يوجد]{.ar} to mean "there is" holds for normal sentences.
@@ -224,7 +276,7 @@ Sometimes, however, a more technical meaning of "exists" is intended, especially
 However, scholars, in developing branches of science, need to define terminology and use it in the precise manner which their science demands.
 Historically, scholars have added on scientific meanings to existing words. There is no problem with this if done carefully and discriminately.
 -->
-In this case, [يوجد]{.ar} and its [ism mafeUl]{.trn2} [موجود]{.ar} may be used when needing to discuss the existence of something in a scientific text.
+In this case, [يوجد]{.ar} and its doee participle [موجود]{.ar} may be used when needing to discuss the existence of something in a scientific text.
 But such usage should be restricted to its domain, and should not, ideally, spill over to normal sentences, where a simple "there is" is intended.
 
 By the way, the disused verb [أَيْسَ]{.ar} [to be]{.trans},
@@ -241,120 +293,151 @@ While this concession can be granted to [يوجد]{.ar}, we find no such justify
 
 In later writing we find the following forms:
 
-[مَنْ هِيَ زَيْنَب؟]{.ar}  
-Who is Zaynab?
+(@) [مَنْ هِيَ زَيْنَب؟]{.ar}  
+    [Who is Zaynab?]{.trans}
 
-[مَا هُوَ ٱلْإِسْلَامُ؟]{.ar}  
-What is [#islAm]{.trn2}?
+(@) [مَا هُوَ ٱلْإِسْلَامُ؟]{.ar}  
+    [What is [#islAm]{.trn2}?]{.trans}
 
-[لِمَاذَا هُوَ حَزِينٌ؟]{.ar}  
-Why is he sad?
+(@) [لِمَاذَا هُوَ حَزِينٌ؟]{.ar}  
+    [Why is he sad?]{.trans}
 
 The insertion of the pronoun of separation ([هُوَ]{.ar}, [هِيَ]{.ar}, etc.) after question nouns is best avoided.
 So it is better to say:
 
-[مَنْ زَيْنَب؟]{.ar}  
-Who is Zaynab?
+(@) [مَنْ زَيْنَب؟]{.ar}  
+    [Who is Zaynab?]{.trans}
 
-[مَا ٱلْإِسْلَامُ؟]{.ar}  
-What is [#islAm]{.trn2}?
+(@) [مَا ٱلْإِسْلَامُ؟]{.ar}  
+    [What is [#islAm]{.trn2}?]{.trans}
 
 As for "why" sentences, Arabic has a native expression using [مَا لِ]{.ar} followed by a noun or pronoun in the i-case and then an adjective in the a-case.
 For example:
 
-[مَا لَهُ حَزِينًا؟]{.ar}  
-Why is he sad?
+(@) [مَا لَهُ حَزِينًا؟]{.ar}  
+    [Why is he sad?]{.trans}
 
 Another option,
 that is sometimes possible,
 is to convert the "why" question into a "what" question, thus:
 
-[مَا أَحْزَنَهُ]{.ar}  
-Why is he sad?
-(literally: What has made him sad?)
+(@) [مَا أَحْزَنَهُ]{.ar}  
+    [Why is he sad?]{.trans}
+    (literally: What has made him sad?)
 
 ## "What happened to ..."
 
 When asking the question, "What happened to a person/thing?" the verbs [فَعَلَ]{.ar} and [صَنَعَ]{.ar} are used and the person or thing asked about is made the doer.
 For example:
 
-[يَا أَبَا عُمَيْرٍ مَا فَعَلَ النُّغَيْرُ]{.ar}  
-What happened to [al-nugayr]{.trn2}  
-bukhari:6129
+(@) [يَا أَبَا عُمَيْرٍ مَا فَعَلَ النُّغَيْرُ]{.ar}  
+    [[[صحيح البخاري]{.ar} :6129](https://sunnah.com/bukhari:6129)]{.citex}  
+    [What happened to [al-nugayr]{.trn2}  ]{.trans}
 
-[ما فعل أصحابك]{.ar}  
-What happened to your companions?  
-riyadussalihin:30
+(@) [ما فعل أصحابك]{.ar}  
+    [[[رياض الصالحين]{.ar} :30](https://sunnah.com/riyadussalihin:30)]{.citex}  
+    [What happened to your companions?  ]{.trans}
 
-[مَا فَعَلَتِ الرَّيْطَةُ]{.ar}  
-What happened to the thin cloak?  
-ibnmajah:3603
+(@) [مَا فَعَلَتِ الرَّيْطَةُ]{.ar}  
+    [[[سنن ابن ماجه]{.ar} :3603](https://sunnah.com/ibnmajah:3603)]{.citex}  
+    [What happened to the thin cloak?  ]{.trans}
 
-[فَيَسْأَلُونَهُ مَاذَا فَعَلَ فُلاَنٌ مَاذَا فَعَلَ فُلاَنٌ]{.ar}  
-So they ask him: What happened to so-and-so? What happened to so-and-so?  
-nasai:1833
+(@) [فَيَسْأَلُونَهُ مَاذَا فَعَلَ فُلاَنٌ مَاذَا فَعَلَ فُلاَنٌ]{.ar}  
+    [[[سنن النسائي]{.ar} :1833](https://sunnah.com/nasai:1833)]{.citex}  
+    [So they ask him: What happened to so-and-so? What happened to so-and-so?  ]{.trans}
 
-## about
+## About
 
 The word "about" is often indiscriminately translated as [عَنْ]{.ar}.
-[عَنْ]{.ar} is to be used, but only in specific circumstances.
-For example, with  the verb [سَأَلَ]{.ar}.
+[عَنْ]{.ar} can be used as such. But more care is required.
 
-[سَأَلَهُ عَنْ أَمْرٍ.]{.ar}  
-He asked him about a matter.
+[عَنْ]{.ar} is normally with  the verb [سَأَلَ]{.ar}.
+For example:
 
-We have also found [عَنْ]{.ar} in the narration:
+(@) [سَأَلَهُ عَنْ أَمْرٍ.]{.ar}  
+    [He asked him about a matter.]{.trans}
 
-[ مَا هَذَا الَّذِي يَذْكُرُونَ عَنِ الْحَسَنِ]{.ar}  
-abudawud:4621
+[عَنْ]{.ar} can also sometimes be used generically.
+For example:
 
-Usually, though, the preposition [فِي]{.ar} should be used instead. For example:
+(@) [مَا هَذَا الَّذِي يَذْكُرُونَ **عَنِ** الْحَسَنِ]{.ar}  
+    [[[سنن أبي داود]{.ar} :4621](https://sunnah.com/abudawud:4621)]{.citex}  
+    [What is this that they are mentioning **about** [al-#Hasan]{.trn2}?]{.trans}
 
+(@) [فأخبره **عنهم**]{.ar}
+    [[تاريخ الطبري]{.ar}  accessed via [خزانة الرصائف لأحمد حسن الغامدي]{.ar}]{.citex}  
+    [So he informed him **about them**.]{.trans}
 
+(@) [بلغني أشياء **عن** الحرشي]{.ar}
+    [[تاريخ الطبري]{.ar}  accessed via [خزانة الرصائف لأحمد حسن الغامدي]{.ar}]{.citex}  
+    [Certain things have reached me **about** [al-#HaracI]{.trn2}.]{.trans}
+
+Usually, though, the preposition depends on the verb used.
+For example:
+
+(@) [فسأله **عن** دينه فأخبره **به**]{.ar}
+    [[تاريخ الطبري]{.ar}  accessed via [خزانة الرصائف لأحمد حسن الغامدي]{.ar}]{.citex}  
+    [He asked him **about** his religion and he told him **about it**.]{.trans}
+
+(@) [وَكَانَ عالما بأمر طليحة]{.ar}
+    [[تاريخ الطبري]{.ar}  accessed via [خزانة الرصائف لأحمد حسن الغامدي]{.ar}]{.citex}  
+    [He was knowledgable about the affairs of [#TulayHah]{.trn2}.]{.trans}
+
+(@) [فاكتب إلي **بالأمر** على وجهه لأخبر **به** أمير المؤمنين]{.ar}
+    [[تاريخ الطبري]{.ar}  accessed via [خزانة الرصائف لأحمد حسن الغامدي]{.ar}]{.citex}  
+    [So write to me **about the matter** properly, so that I may inform the Commander of the Faithful **about it**.]{.trans}
+
+(@) [قد قيل **في** ذلك أقوال]{.ar}
+    [[تاريخ الطبري]{.ar}  accessed via [خزانة الرصائف لأحمد حسن الغامدي]{.ar}]{.citex}  
+    [[Sundry] statements have been given **about** that.]{.trans}
+
+(@) [واختلفوا **فِي** أمره]{.ar}
+    [[تاريخ الطبري]{.ar}  accessed via [خزانة الرصائف لأحمد حسن الغامدي]{.ar}]{.citex}  
+    [[Authorities] have differed **about** his affair.]{.trans}
 
 ## "What about ..."
 
 Avoid 
 [مَاذَا عَنْ]{.ar}
-when asking "What about someone/something?"
+when asking [What about someone/something?]{.trans}
 
 Instead use 
 [مَا بَالُ]{.ar}.
 
 For example:
 
-[حَتَّى إِذَا فَرَغَ مَشَيْتُ، فَقُلْتُ مَا بَالُ الْعَظْمِ وَالرَّوْثَةِ ]{.ar}  
-bukhari:3860
+(@) [حَتَّى إِذَا فَرَغَ مَشَيْتُ، فَقُلْتُ **مَا بَالُ** الْعَظْمِ وَالرَّوْثَةِ ]{.ar}  
+    [[[صحيح البخاري]{.ar} :3860](https://sunnah.com/bukhari:3860)]{.citex}  
 
-[إِذَا تَوَاجَهَ الْمُسْلِمَانِ بِسَيْفَيْهِمَا فَكِلاَهُمَا مِنْ أَهْلِ النَّارِ ". قِيلَ فَهَذَا الْقَاتِلُ، فَمَا بَالُ الْمَقْتُولِ]{.ar}  
-bukhari:7083
+(@) [إِذَا تَوَاجَهَ الْمُسْلِمَانِ بِسَيْفَيْهِمَا فَكِلاَهُمَا مِنْ أَهْلِ النَّارِ ". قِيلَ فَهَذَا الْقَاتِلُ، **فَمَا بَالُ** الْمَقْتُولِ]{.ar}  
+    [[[صحيح البخاري]{.ar} :7083](https://sunnah.com/bukhari:7083)]{.citex}  
 
-[عَنْ عَائِشَةَ، أَنَّهَا قَالَتْ يَا رَسُولَ اللَّهِ مَا الشَّىْءُ الَّذِي لاَ يَحِلُّ مَنْعُهُ قَالَ الْمَاءُ وَالْمِلْحُ وَالنَّارُ " . قَالَتْ قُلْتُ يَا رَسُولَ اللَّهِ هَذَا الْمَاءُ قَدْ عَرَفْنَاهُ فَمَا بَالُ الْمِلْحِ وَالنَّارِ]{.ar}  
-ibnmajah:2474
+(@) [عَنْ عَائِشَةَ، أَنَّهَا قَالَتْ يَا رَسُولَ اللَّهِ مَا الشَّىْءُ الَّذِي لاَ يَحِلُّ مَنْعُهُ قَالَ الْمَاءُ وَالْمِلْحُ وَالنَّارُ " . قَالَتْ قُلْتُ يَا رَسُولَ اللَّهِ هَذَا الْمَاءُ قَدْ عَرَفْنَاهُ **فَمَا بَالُ** الْمِلْحِ وَالنَّارِ]{.ar}  
+    [[[سنن ابن ماجه]{.ar} :2474](https://sunnah.com/ibnmajah:2474)]{.citex}  
 
-When the question "What about ...?" is asked as a follow-up to a previous statement then the asked about person/thing can be asked by itself in a single word.
+When the question [What about ...?]{.trans} is asked as a follow-up to a previous statement then the asked about person/thing can be asked by itself in a single word.
 For example:
 
-[عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ نَهَى أَنْ يَشْرَبَ الرَّجُلُ قَائِمًا . قَتَادَةُ فَقُلْنَا فَالأَكْلُ فَقَالَ ذَاكَ أَشَرُّ أَوْ أَخْبَثُة]{.ar}
-"what about eating?"
-muslim:2024b
+(@) [عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ نَهَى أَنْ يَشْرَبَ الرَّجُلُ قَائِمًا . قَتَادَةُ فَقُلْنَا **فَالأَكْلُ** فَقَالَ ذَاكَ أَشَرُّ أَوْ أَخْبَثُة]{.ar}
+    [[[صحيح مسلم]{.ar} :2024b](https://sunnah.com/muslim:2024b)]{.citex}  
+    ["What about eating?"]{.trans}
 
-[قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم لِلْمُتَلاَعِنَيْنِ " حِسَابُكُمَا عَلَى اللَّهِ أَحَدُكُمَا كَاذِبٌ لاَ سَبِيلَ لَكَ عَلَيْهَا " . قَالَ يَا رَسُولَ اللَّهِ مَالِي]{.ar}  
-"What about my wealth?"
-abudawud:2257
+(@) [قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم لِلْمُتَلاَعِنَيْنِ " حِسَابُكُمَا عَلَى اللَّهِ أَحَدُكُمَا كَاذِبٌ لاَ سَبِيلَ لَكَ عَلَيْهَا " . قَالَ يَا رَسُولَ اللَّهِ **مَالِي**]{.ar}  
+    [[[سنن أبي داود]{.ar} :2257](https://sunnah.com/abudawud:2257)]{.citex}  
+    ["What about my wealth?"]{.trans}
 
 ## To make someone do something
 
 In order to express the meaning: to make someone do something, we have a few options:
 
-1. To use a causative verb, like form\ 4, if one is available with this meaning.
+1. To use a causative verb, like form\ 4, if one is available with this meaning^[[العرنجية لأحمد الغامدي]{.ar} 65].
    For example:
 
    (@) [أَدْخَلْتُهُ ٱلدَّارَ]{.ar}
        [[المقتضب للمبرد]{.ar} 2/104]{.citex}  
 
 
-2. To use the expression [حَمَلَهُ عَلَى أَنْ يَفْعَلَ]{.ar}.
+2. To use the expression [حَمَلَهُ عَلَى أَنْ يَفْعَلَ]{.ar} or [حَمَلَهُ عَلَى الفعل]{.ar}.
    For example
 
    (@) [وَقَالُوا شَيَّأْتُهُ ; أَيْ حَمَلْتُهُ عَلَى أَنْ يَشَاءَ]{.ar}
@@ -369,9 +452,17 @@ In order to express the meaning: to make someone do something, we have a few opt
    (@) [مَا حَمَلَكَ عَلَى مَا صَنَعْتَ]{.ar}
        [[[سنن أبي داود]{.ar} :2221](https://sunnah.com/abudawud:2221)]{.citex}  
 
-3. To use the verb [جَعَلَ]{.ar}.
+3. To use the verb [جَعَلَ]{.ar}. This isn't as preferred as the other options above.
    For example:
 
    (@) [جَعَلْتُهُ يَدْخُلَهَا]{.ar}
        [[المقتضب للمبرد]{.ar} 2/104]{.citex}  
+
+## Further reading {#sec-usage_further_reading}
+
+1. [العرنجية لأحمد الغامدي]{.ar}
+2. [معجم أخطاء الكتاب لصلاح الدين الزعبلاوي]{.ar}
+3. [معجم الأخطاء الشائعة لمحمد العدناني]{.ar}
+4. [معجم الأغلاط اللغوية المعاصرة لمحمد العدناني]{.ar}
+5. [أخطاء لغوية شائعة لخالد بن هلال بن ناصر العبري]{.ar}
 

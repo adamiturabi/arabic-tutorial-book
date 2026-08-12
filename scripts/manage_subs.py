@@ -54,6 +54,7 @@ map_table["basran"] = "[#baSr]{.trn2}an"
 
 
 # inna and its sisters
+map_table["ean"] = "[عَنْ]{.ar}"
 map_table["la"] = "[لَ]{.ar}"
 map_table["lan"] = "[لَنْ]{.ar}"
 map_table["lam"] = "[لَمْ]{.ar}"
@@ -106,6 +107,7 @@ map_table["lammaa"] = "[لَمَّا]{.ar}"
 map_table["kullamaa"] = "[كُلَّمَا]{.ar}"
 map_table["immaa"] = "[إِمَّا]{.ar}"
 map_table["alladhi"] = "[الَّذِي]{.ar}"
+map_table["hunaaka"] = "[هُنَاكَ]{.ar}"
 
 map_table["_in"] = "إِنْ"
 map_table["_idha"] = "إِذَا"
