@@ -1212,6 +1212,15 @@ def populate_resource_list():
       """ + format_url_ar("https://archive.org/details/aljomla-ashrtia.g")
     , sort_key = "جملة الشرطية عند"
     ))
+  resource_list.append(BibResource(
+    "rasaif"
+    , cit_type = "ar_ref"
+    , cit_text = "[خزانة الرصائف للغامدي]{.ar}"
+    , bib_text = """
+      الغامديّ، أحمد حسن. الرصائف: خزانةُ تراجمِ الإنجليز لكتب العرب. خزانةٌ على الشبكة، ١٤٤٧هـ / ٢٠٢٦م. 
+      """ + format_url_ar("https://ahmedhsalghamdi.github.io/arabic-english-rasaif-corpus/")
+    , sort_key = "رصايف"
+    ))
 
   # Western
 
