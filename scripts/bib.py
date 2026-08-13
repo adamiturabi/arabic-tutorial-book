@@ -1538,7 +1538,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "hapselmath_existential"
     , cit_type = "ws_ref"
-    , cit_text = 'Haspelmath,, "What do we mean by existential clause?"'
+    , cit_text = 'Haspelmath, "What do we mean by existential clause?"'
     , bib_text = 'Haspelmath, M., "What do we mean by existential clause?" _Diversity Linguistics Comment_, 2021. <https://doi.org/10.58079/nswb>'
     , sort_key = "hapsel 2021"
     ))
