@@ -56,7 +56,9 @@ map_table["basran"] = "[#baSr]{.trn2}an"
 # shorthand
 map_table["bi"] = "[بِ]{.ar}"
 map_table["fii"] = "[فِي]{.ar}"
+map_table["al"] = "[ال]{.ar}"
 map_table["ean"] = "[عَنْ]{.ar}"
+map_table["min"] = "[مِنْ]{.ar}"
 map_table["la"] = "[لَ]{.ar}"
 map_table["lan"] = "[لَنْ]{.ar}"
 map_table["lam"] = "[لَمْ]{.ar}"
@@ -312,6 +314,7 @@ map_table["mutaddi"] = "transitive"
 map_table["mawsuf"] = "described noun"
 
 map_table["naib"] = "deputy"
+map_table["naib_faa3il"] = map_table["naib"] + " " + map_table["faa3il"]
 map_table["na3t"] = "attribute"
 map_table["nahy"] = "prohibition"
 map_table["nidaa"] = "vocative"
