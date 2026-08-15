@@ -15,12 +15,12 @@ IT IS NOT YET READY TO BE STUDIED FROM.**
 The _[HAl]{.trn2}_ 
 ([ٱلْحَال]{.ar})
 is a kind of adverb,
-case-ized typically by a verb,
+governed typically by a verb,
 that describes the state
 of the _person of ḥāl_ 
-during the time that the [HAl]{.trn2}'s case-izing verb is taking place.
+during the time that the [HAl]{.trn2}'s governing verb is taking place.
 <!--
-during the action of the [HAl]{.trn2}'s case-izer.
+during the action of the [HAl]{.trn2}'s governor.
 -->
 Here is an example of a [HAl]{.trn2}:
 
@@ -45,7 +45,7 @@ Here is an example of a [HAl]{.trn2}:
 
 \draw [decoration={brace}, decorate] 
    (word-3.north west) -- (word-3.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize case-izer};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize governor};
 
 \path (0,0) node [midway, below=3ex, right=-1ex, align=left] {``Zayd came riding''};
 
@@ -69,7 +69,7 @@ It is a temporary state because Zayd is only described as angry while he is comi
 
 <!--
 Note that, like adverbs in general, the [HAl]{.trn2} is in the a-case.
-Typically, the [HAl]{.trn2} is an adjectival noun, its case-izer is a verb, and the [HAl]{.trn2} describes the person of ḥāl.
+Typically, the [HAl]{.trn2} is an adjectival noun, its governor is a verb, and the [HAl]{.trn2} describes the person of ḥāl.
 But, as we will see later in this chapter if Allāh wills, sometimes the [HAl]{.trn2} may have differing behavior.
 -->
 
@@ -120,13 +120,13 @@ For example:
 (@ex000006) [صَالَتِ ٱلْأُسُودُ عَلَى ٱلْفَرِيسَةِ فَاتِكَةً]{.ar}  
     "The lions pounced on the prey slaying"
 
-## The case-izer of the [HAl]{.trn2}
+## The governor of the [HAl]{.trn2}
 
-The case-izer of the [HAl]{.trn2} may be one of the following:
+The governor of the [HAl]{.trn2} may be one of the following:
 
 ##### A verb {.unnumbered}
 
-The verb is the typical case-izer of the [HAl]{.trn2}.
+The verb is the typical governor of the [HAl]{.trn2}.
 For example:
 
 (@ex000007) [جَاءَ زَيْدٌ رَاكِبًا]{.ar}
@@ -203,10 +203,10 @@ Examples:
     [[النحو العربي: أحكام ومعان]{.ar} 2/52]{.citex}  
     "Zayd is beaten standing."
 
-##### The existential verb "is" as the case-izer of the [HAl]{.trn2} {.unnumbered}
+##### The existential verb "is" as the governor of the [HAl]{.trn2} {.unnumbered}
 
 Arabic does not usually express the existential verb "is".
-However, it is implicit and may be the case-ize the [HAl]{.trn2}.
+However, it is implicit and may be the govern the [HAl]{.trn2}.
 For example,
 
 (@ex000019) [هَـٰذَا كِتَابُكَ جَمِيلًا]{.ar}
@@ -229,7 +229,7 @@ This is frequently the case in questions like:
 
 ## Valid persons of ḥāl
 
-The person of ḥāl may be the doer of the case-izing verb
+The person of ḥāl may be the doer of the governing verb
 but it may also be the direct doee,
 or even other nouns in a sentence.
 
@@ -264,7 +264,7 @@ Let's see some examples.
     "The fruit is delicious (when it is) fresh."
 
 <!--
-(The case-izer in the above (and also in the below) example is not apparent but is implied. See section\ (ref) later in this chapter.)
+(The governor in the above (and also in the below) example is not apparent but is implied. See section\ (ref) later in this chapter.)
 -->
 
 #### The person of ḥāl as a info {.unnumbered}
@@ -287,23 +287,23 @@ Let's see some examples.
 
 The annexed-to noun in an annexation is permitted to be a person of ḥāl if it satisfies any one of the following conditions:
 
-  i. When the annexed noun is naturally capable of being the case-izer of the [HAl]{.trn2} (as a [maSdar]{.trn2} or doer participle, etc.).
+  i. When the annexed noun is naturally capable of being the governor of the [HAl]{.trn2} (as a [maSdar]{.trn2} or doer participle, etc.).
      For example:
 
      (@) [أَعْجَبَنِي قِيَامُ زَيْدٍ مُسْرِعًا]{.ar}
          [Wright 2/119C]{.citex}  
          "Zayd's standing speedily pleased me."  
-         (The case-izer is the annexed noun [قِيَام]{.ar} which is a [maSdar]{.trn2})
+         (The governor is the annexed noun [قِيَام]{.ar} which is a [maSdar]{.trn2})
 
      (@) [إِلَى ٱللَّـٰهِ مَرْجِعُكمْ جَمِيعًا]{.ar}
          [[[سورة المائدة]{.ar} 5:105](https://quran.com/5/105)]{.citex}  
          "To Allāh is your return all together"  
-         (The case-izer is the annexed noun [مَرْجِع]{.ar} which is a [maSdar]{.trn2})
+         (The governor is the annexed noun [مَرْجِع]{.ar} which is a [maSdar]{.trn2})
 
      (@) [أَنْتَ شَارِبُ ٱلْمَاءِ صَافِيًا]{.ar}
          [[النحو العربي: أحكام ومعان]{.ar} 2/50]{.citex}  
          "You are drinking the water clear."
-         (The case-izer is the annexed noun [شَارِب]{.ar} which is a doer participle)
+         (The governor is the annexed noun [شَارِب]{.ar} which is a doer participle)
 
  ii. When the annexed noun is a real part of the annexed-to noun.
      For example:
@@ -408,8 +408,8 @@ For example:
 
 However, if these verbs are mere verbs of sense,
 i.e. they express nothing but acts of the external organs of sense,
-then they may still have two case-izees in the a-case
-but the second case-izee will no longer be a direct doee
+then they may still have two governees in the a-case
+but the second governee will no longer be a direct doee
 but a [HAl]{.trn2}.^[Wright 2/50B]
 For example:
 
@@ -615,15 +615,15 @@ For example:
     [[[صحيح البخاري]{.ar} :1113](https://sunnah.com/bukhari:1113)]{.citex}  
     "and [some] people prayed behind him standing"
 
-## The order of the [HAl]{.trn2}, the person of ḥāl and the case-izer
+## The order of the [HAl]{.trn2}, the person of ḥāl and the governor
 
-The normal order is: first the case-izer, then the person of ḥāl, then the [HAl]{.trn2}.
+The normal order is: first the governor, then the person of ḥāl, then the [HAl]{.trn2}.
 However, there is much variability permitted, subject to certain rules.
 
-### The [HAl]{.trn2} preceding the case-izer
+### The [HAl]{.trn2} preceding the governor
 
-The [HAl]{.trn2} may precede the case-izer if
-the case-izer is an verb
+The [HAl]{.trn2} may precede the governor if
+the governor is an verb
 or quasi-verb
 that flexes based on the doer.
 
@@ -641,11 +641,11 @@ So we can say:
 (@ex000061) [مُخْلِصًا زَيْدٌ دَعَا]{.ar}
     [add ref to alfiyyah ibn malik]  
     "Sincerely did Zayd supplicate."  
-    (The [HAl]{.trn2} [مُخْلِصًا]{.ar} precedes not just its case-izer in the info [دَعَا]{.ar}, but also the subject [زَيْدٌ]{.ar}.)
+    (The [HAl]{.trn2} [مُخْلِصًا]{.ar} precedes not just its governor in the info [دَعَا]{.ar}, but also the subject [زَيْدٌ]{.ar}.)
 
-If the case-izer is a verb or adjectival noun that is rigid (does not flex based on the doer),
-then the [HAl]{.trn2} rarely^[ibn uthaymeen], if ever^[wright], precedes the case-izer.
-Examples of such case-izers are the verb of wonder and the comparative noun.
+If the governor is a verb or adjectival noun that is rigid (does not flex based on the doer),
+then the [HAl]{.trn2} rarely^[ibn uthaymeen], if ever^[wright], precedes the governor.
+Examples of such governors are the verb of wonder and the comparative noun.
 For example:
 
 (@ex000062) [مَا أَحْسَنَ زَيْدٌ ضَاحِكًا]{.ar}
@@ -659,7 +659,7 @@ For example:
     "Zayd is more handsome than [#eamr]{.trn2} (when) laughing."
 
 An exception is permitted when a noun, in one [HAl]{.trn2}, is compared with itself or another noun in another [HAl]{.trn2}.
-In this case, the [HAl]{.trn2} regularly precedes its comparative noun case-izer.
+In this case, the [HAl]{.trn2} regularly precedes its comparative noun governor.
 For example:
 
 (@ex000064) [زَيْدٌ قَائِمًا أَحْسَنُ مِنْهُ قَاعِدًا]{.ar}
@@ -670,8 +670,8 @@ For example:
     [Wright 2/118C]{.citex}  
     "Zayd when alone is more useful than [#eamr]{.trn2} when assisted (by others)."
 
-If the case-izer is not a verb or a quasi-verb but an expression that has verbal force,
-then the [HAl]{.trn2} usually does not precede the case-izer.^[See, however, [[البحر المحيط لأبي حيان]{.ar} for [سورة الزمر]{.ar} 39:67](https://tafsir.app/albahr-almuheet/39/67) for the recitation [والسماوات مطوياتٍ بيمينه]{.ar}. Also mentioned by Wright 2/118D]
+If the governor is not a verb or a quasi-verb but an expression that has verbal force,
+then the [HAl]{.trn2} usually does not precede the governor.^[See, however, [[البحر المحيط لأبي حيان]{.ar} for [سورة الزمر]{.ar} 39:67](https://tafsir.app/albahr-almuheet/39/67) for the recitation [والسماوات مطوياتٍ بيمينه]{.ar}. Also mentioned by Wright 2/118D]
 
 (@ex000066) [كَأَنَّ زَيْدٌ رَاكِبًا أَسَدٌ]{.ar}
     [Wright 2/118D]{.citex}  
@@ -739,7 +739,7 @@ For example:
 ### Reasons for varying the normal order
 
 The natural order, as we have mentioned, is:
-first the case-izer, then the person of ḥāl, then the [HAl]{.trn2}.
+first the governor, then the person of ḥāl, then the [HAl]{.trn2}.
 So normally we would say:
 
 (@ex000076) [حَضَرَ مُحَمَّدٌ مَاشِيًا]{.ar}
@@ -817,7 +817,7 @@ For example:
     "She gave birth to him blue-eyed (and) snub-nosed"
 
 The [HAl]{.trn2} may also have a more permanent meaning in the sense that
-while it describes the person of ḥāl linked in time to the case-izer,
+while it describes the person of ḥāl linked in time to the governor,
 its meaning also applies more permanently to the person of ḥāl.
 For example:
 
@@ -874,7 +874,7 @@ For example, in the scenario when all the following conditions are satisfied:
 * the [HAl]{.trn2} has a transitory meaning,
 * the meaning of the [HAl]{.trn2} is a description of motion or posture (like "sitting", "standing", "sleeping", "running", etc.),
 * the person of ḥāl is indefinite,
-* the case-izer is an expression that has verbal force (see section\ (ref)).
+* the governor is an expression that has verbal force (see section\ (ref)).
 
 In such a case, the adjectival noun used as a attribute may have a somewhat similar meaning to it being used a [HAl]{.trn2}.
 For example:
@@ -1095,14 +1095,14 @@ comprising of the verb itself and the doer
 which, in this case, is the hidden pronoun "he".
 So the [HAl]{.trn2} here is a sentence.
 
-As we know, the [HAl]{.trn2} describes the person of ḥāl during time of [HAl]{.trn2}'s case-izing verb.
+As we know, the [HAl]{.trn2} describes the person of ḥāl during time of [HAl]{.trn2}'s governing verb.
 The use of the caseful verb
 [يَضْحَكُ]{.ar}
-signifies that Zayd's action of laughing was ongoing during the time of the case-izer [جَاءَ]{.ar}.
+signifies that Zayd's action of laughing was ongoing during the time of the governor [جَاءَ]{.ar}.
 So [يَضْحَكُ]{.ar} has a past meaning because of the caseless verb [جَاءَ]{.ar}.
 An additional verb like [كَانَ]{.ar} is not needed to transport the verb
 [يَضْحَكُ]{.ar} to the past.
-Similarly, if the case-izer was in the present or the future, the caseful verb in the [HAl]{.trn2} would automatically be transported to the present or future as well.
+Similarly, if the governor was in the present or the future, the caseful verb in the [HAl]{.trn2} would automatically be transported to the present or future as well.
 For example:
 
 (@ex000115) [سَيَأْتِي زَيْدٌ يَضْحَكُ]{.ar}  
@@ -1165,7 +1165,7 @@ a special [و]{.ar}, called the
 [و]{.ar}\ _of [HAl]{.trn2}_,
 may be used.
 The [و]{.ar} of [HAl]{.trn2}
-signifies that the sentence [HAl]{.trn2} occurred _while_ the case-izing verb took place.
+signifies that the sentence [HAl]{.trn2} occurred _while_ the governing verb took place.
 Here are some examples of the
 the [و]{.ar} of [HAl]{.trn2}:
 
@@ -1192,7 +1192,7 @@ For example:
 In the example above,
 the [HAl]{.trn2}'s
 description of the person of ḥāl is only circumstantial,
-in that it alludes to the time in which the action of the case-izing verb occurred.
+in that it alludes to the time in which the action of the governing verb occurred.
 In such cases
 the meaning of the [HAl]{.trn2} approaches that of the adverb of time.
 This is another of the cases where the lines between different types of adverbs get blurred.
@@ -1575,7 +1575,7 @@ For example:
 
 The
 [و]{.ar} of [HAl]{.trn2}
-essentially distances the [HAl]{.trn2} from the influence of the case-izing verb.^[[دلائل الإعجاز للجرجاني]{.ar} 1/213--214 cited by [معاني النحو]{.ar} 357--358]
+essentially distances the [HAl]{.trn2} from the influence of the governing verb.^[[دلائل الإعجاز للجرجاني]{.ar} 1/213--214 cited by [معاني النحو]{.ar} 357--358]
 For example, consider the expression:
 
 (@ex000123) [جَاءَنِي زَيْدٌ يُسْرِعُ]{.ar}
@@ -1584,7 +1584,7 @@ For example, consider the expression:
 
 The above example is almost equivalent to saying
 [جَاءَنِي زَيْدٌ مُسْرِعًا]{.ar}.
-The [HAl]{.trn2} [يُسْرِعُ]{.ar} is tightly bound to the case-izer [جَاءَ]{.ar}.
+The [HAl]{.trn2} [يُسْرِعُ]{.ar} is tightly bound to the governor [جَاءَ]{.ar}.
 So the expression asserts Zayd's coming and his hastening as one assertion.
 <!--
 Zayd's hastening is contained within his action of coming.
@@ -1599,8 +1599,8 @@ Consider now the expression with the [و]{.ar} of [HAl]{.trn2}:
 Here the [HAl]{.trn2} sentence
 [وَهُوَ يُسْرِعُ]{.ar}
 is a more independent assertion.
-Now, the only link between the [HAl]{.trn2} and its case-izing verb is
-that the [HAl]{.trn2} expresses the state of the person of ḥāl when the action of the case-izing verb took place.
+Now, the only link between the [HAl]{.trn2} and its governing verb is
+that the [HAl]{.trn2} expresses the state of the person of ḥāl when the action of the governing verb took place.
 
 <!--This distancing effect of the [و]{.ar} of [HAl]{.trn2} can be used for several purposes.-->
 The [و]{.ar} of [HAl]{.trn2} can be used for a different purposes.
@@ -1719,13 +1719,13 @@ is a [HAl]{.trn2}, not just
 [بَيْنَ]{.ar}.
 Secondly, we say that the quasi-sentence is a [HAl]{.trn2} only loosely speaking.
 
-Remember that an adverb of time or place is case-ized by a verb.
+Remember that an adverb of time or place is governed by a verb.
 And the adverb of time or place indicates the time or place where the action of the verb occurred.
 In a sentence like (@haal-shibh-jumlah-crescent) [رَأَيْتُ ٱلْهِلَالَ بَيْنَ ٱلسَّحَابِ]{.ar},
 the crescent was between the clouds before the action of seeing took place.
 So, in this case, we say that
 [بَيْنَ]{.ar}
-is an adverb of place, but it is case-ized,
+is an adverb of place, but it is governed,
 not by the verb
 [رَأَىٰ]{.ar},
 but by an implied general beingness (see section\ (ref))
@@ -1747,7 +1747,7 @@ Similarly,
 in example (@haal-shibh-jumlah-sparrow) [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar},
 the prepositional phrase
 [عَلَى ٱلْغُصْنِ]{.ar}
-is case-ized, not by the verb
+is governed, not by the verb
 [نَظَرَ]{.ar}
 but by an implied verb "being" which is the true [HAl]{.trn2}.
 But, loosely speaking, we may say that the quasi-sentence
@@ -1794,8 +1794,8 @@ Here is an example of where the quasi-sentence does not work as a [HAl]{.trn2}:
 
 In the above example,
 the stone went in the pit due to the action of the verb [وَقَعَ]{.ar}.
-So the preposition [فِي]{.ar} is case-ized by the verb [وَقَعَ]{.ar}.
-Because [فِي]{.ar} is not case-ized by an implied case-izer meaning "being",
+So the preposition [فِي]{.ar} is governed by the verb [وَقَعَ]{.ar}.
+Because [فِي]{.ar} is not governed by an implied governor meaning "being",
 therefore, the quasi-sentence
 [فِي ٱلْحُفْرَةِ]{.ar}
 is not a [HAl]{.trn2}.
@@ -1825,8 +1825,8 @@ Let's use this test on some of the examples above.
     (This retains the meaning of the original [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar}. So the quasi-sentence in the original example is valid as a [HAl]{.trn2}.)
 
 There may be examples where a quasi-sentence could be validly interpreted either as a [HAl]{.trn2} 
-(case-ized by an implied case-izer meaning "being"),
-or as case-ized by an overt verb.^[See also, for example, the [tafsIr]{.trn2} of [تَحْتَ ٱلشَّجَرَةِ]{.ar} in [[البحر المحيط لأبي حيان]{.ar} for [سورة الفتح]{.ar} 48:18](https://tafsir.app/albahr-almuheet/48/18)]
+(governed by an implied governor meaning "being"),
+or as governed by an overt verb.^[See also, for example, the [tafsIr]{.trn2} of [تَحْتَ ٱلشَّجَرَةِ]{.ar} in [[البحر المحيط لأبي حيان]{.ar} for [سورة الفتح]{.ar} 48:18](https://tafsir.app/albahr-almuheet/48/18)]
 For example:
 
 (@ex000131) [رأيتُ زيدًا في الدار]{.ar}
@@ -1835,13 +1835,13 @@ For example:
 
 Without context, the prepositional phrase
 [في الدار]{.ar}
-could either be case-ized by [رَأَىٰ]{.ar}, signifying that the act of seeing was done in the house.
-Or it could be case-ized by the implication of general beingness, as a [HAl]{.trn2} for [زَيْد]{.ar}.^[[الأصول في النحو لابن السراج]{.ar} 2/52]
+could either be governed by [رَأَىٰ]{.ar}, signifying that the act of seeing was done in the house.
+Or it could be governed by the implication of general beingness, as a [HAl]{.trn2} for [زَيْد]{.ar}.^[[الأصول في النحو لابن السراج]{.ar} 2/52]
 
-A quasi-sentence can only be a [HAl]{.trn2} if it is case-ized by an implied (unexpressed) case-izer.
-This implicated case-izer will typically be general beingness, as in the examples above.^[[أوضح المسالك لابن هشام]{.ar} 2/285, [شرح ابن عقيل على الألفية]{.ar} 1/213]
-In fact, some grammarians insist that the implied case-izer can only be general beingness.^[[[البحر المحيط لأبي حيان]{.ar} for [سورة آل عمران]{.ar} 3:194](https://tafsir.app/albahr-almuheet/3/194) ([مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ]{.ar})]
-However, it is conceivable that the implied case-izer of the preposition be interpreted, if not formally then at least in meaning, as some other verb (or verbal noun).^[[النحو الوافي]{.ar} 2/447 footnote]
+A quasi-sentence can only be a [HAl]{.trn2} if it is governed by an implied (unexpressed) governor.
+This implicated governor will typically be general beingness, as in the examples above.^[[أوضح المسالك لابن هشام]{.ar} 2/285, [شرح ابن عقيل على الألفية]{.ar} 1/213]
+In fact, some grammarians insist that the implied governor can only be general beingness.^[[[البحر المحيط لأبي حيان]{.ar} for [سورة آل عمران]{.ar} 3:194](https://tafsir.app/albahr-almuheet/3/194) ([مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ]{.ar})]
+However, it is conceivable that the implied governor of the preposition be interpreted, if not formally then at least in meaning, as some other verb (or verbal noun).^[[النحو الوافي]{.ar} 2/447 footnote]
 For example:
 
 (@ex000132) [رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ]{.ar}
@@ -1856,7 +1856,7 @@ prepositional phrase
 has been analyzed as [HAl]{.trn2} of
 [مَا وَعَدتَّنَا]{.ar}
 "what You promised us"
-The meaning with the implicated case-izer has been explained as
+The meaning with the implicated governor has been explained as
 [مُنَزَّلًا عَلَيْهِمْ]{.ar}
 "_sent down_ on [Your messengers]."^[[[تفسير ابن عاشور]{.ar} for [سورة آل عمران]{.ar} 3:194](https://tafsir.app/ibn-aashoor/3/194)]
 
@@ -2017,21 +2017,21 @@ Here is an example:
     [[[سورة القصص]{.ar} 28:21](https://quran.com/28/21)]{.citex}  
     "So he left it, fearful and anticipating [apprehension]."
 
-## Suppressing the case-izer of the [HAl]{.trn2}
+## Suppressing the governor of the [HAl]{.trn2}
 
 The 
-case-izer of the [HAl]{.trn2}
+governor of the [HAl]{.trn2}
 may be suppressed
 (i.e. omitted)
 in some cases optionally,
 and in other cases necessarily.
 We will discuss these cases below
 
-### Optional suppressing of the case-izer of the [HAl]{.trn2}
+### Optional suppressing of the governor of the [HAl]{.trn2}
 
-### Necessary suppressing of the case-izer of the [HAl]{.trn2}
+### Necessary suppressing of the governor of the [HAl]{.trn2}
 
-The case-izer is also omitted when it is conceptual with the meaning "existing" or "being".
+The governor is also omitted when it is conceptual with the meaning "existing" or "being".
 We have seen this in section\ (ref) above.
 
 ## TODO topics
