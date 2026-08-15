@@ -53,7 +53,9 @@ map_table["kufan"] = "[#kUf]{.trn2}an"
 map_table["basran"] = "[#baSr]{.trn2}an"
 
 
-# inna and its sisters
+# shorthand
+map_table["bi"] = "[بِ]{.ar}"
+map_table["fii"] = "[فِي]{.ar}"
 map_table["ean"] = "[عَنْ]{.ar}"
 map_table["la"] = "[لَ]{.ar}"
 map_table["lan"] = "[لَنْ]{.ar}"
@@ -187,6 +189,11 @@ map_table["3amiling"] = "case-izing"
 map_table["i3timaad"] = map_table["3amal"] + " support"
 map_table["pregov"] = "foundational " + map_table["3amal"]# initial gov, pre-gov, foundational gov
 
+map_table["ta3alluq"] = "pertinence"
+map_table["muta3alliqbi"] = "pertinent to"
+map_table["muta3allaqbih"] = "pertinentee"
+
+
 
 map_table["3umdah"] = "indispensable" # indispensable, foundational, basic, load-bearing, structural
 map_table["fadlah"] = "dispensable" # dispensable, redundant, extra
@@ -243,6 +250,7 @@ map_table["idaafah"] = "annexation"
 map_table["idh_sudden"] = "[إِذَا]{.ar} or suddenness"
 map_table["indir_mafulb"] = "indirect doee"
 map_table["ism_fail"] = "doer participle"
+map_table["ism_fi3l"] = "ism_fi3l"
 map_table["ism_isharah"] = "pointing noun"
 map_table["ism_of"] = "subject"
 map_table["ism_maful"] = "doee participle"
