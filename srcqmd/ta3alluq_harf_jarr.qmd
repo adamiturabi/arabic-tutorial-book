@@ -1,9 +1,91 @@
-# The ;3amal; of the preposition
+# The ;ta3alluq; of the preposition
 
 ;wip_warn;
 
 
 ## The need for ;3amiling; the preposition
+
+In the Arabic grammatical model, 
+in order to bring a ;fadlah; ;case;ful element into a sentence, a suitable element of the original sentence must act as ;3aamil; of the new ;fadlah; element.
+For example, consider the sentence:
+
+(@ex_ta3alluq_darab_zayd_3amr) [ضَرَبَ زَيْدٌ عَمْرًا]{.ar}  
+    [Zayd beat ;3amr;.]{.trans}  
+
+In example (@ex_ta3alluq_darab_zayd_3amr) above,
+the basic sentence, with only
+;3umdah; elements is
+[ضَرَبَ زَيْدٌ]{.ar}.
+The ;case;ful noun [عَمْرًا]{.ar} is a ;mafulb;, which is a ;fadlah; element.
+And it can only be added to the basic sentence because it is ;3amiled; by the verb
+[ضَرَبَ]{.ar}.
+
+Prepositions are particles, not ;case;ful elements.
+But they can only be added to sentence when they are _;muta3alliqbi;_ a
+verb,
+or a verb-like element,
+like a ;masdar;, ;ism_fail;, etc..
+Consider the sentence:
+
+(@ex_ta3alluq_marartu_bizayd) [مَرَرْتُ بِزَيْدٍ]{.ar}  
+    [I passed by Zayd.]{.trans}  
+
+In example (@ex_ta3alluq_marartu_bizayd) above,
+the preposition [بِ]{.ar}
+(or the entire prepositional phrase
+[بِزَيْدٍ]{.ar})
+is ;muta3alliqbi; the verb
+[مَرَّ]{.ar}.
+And we will say that the verb
+[مَرَّ]{.ar}
+is the
+_;muta3allaqbih;_
+of the preposition
+(or prepositional phrase).
+
+In this sense, a prepositional phrase can be treated like pseudo-;case;ful element.
+And the verb it is ;muta3alliqbi;,
+its ;muta3allaqbih;,
+can (loosely) be considered its
+;3aamil;.^[See also @owens_foundations_grammar@ 177]
+This similitude between
+;ta3alluq; and ;3amal;
+can be seen in the following example:
+
+(@ex000143) [مَرَرْتُ بِزَيْدٍ وَعَمْرًا]{.ar}
+    ^[Not all grammarians permit this. See @ali_hani_ta3alluq@ footnote 34 for details.]  
+    [composed from [@ibn_ya3ish_mufassal@ 4/300](https://shamela.ws/book/13301/1664)]{.citex}  
+    "I passed by Zayd and [#eamr]{.trn2}."
+
+In example (@ex000143) above,
+the preposition [ب]{.ar}
+is ;muta3alliqbi; the verb
+[مَرَّ]{.ar}.
+And once it is added,
+the second ;maful; [عَمْرو]{.ar} can (optionally) be added as a ;mafulb;
+(in the ;acase;).
+So we can say that
+the prepositional phrase
+[بِزَيْدٍ]{.ar}
+is like a pseudo-;mafulb;,
+And that
+the verb
+[مَرَّ]{.ar}
+;3amils;
+the prepositional phrase
+[بِزَيْدٍ]{.ar}
+in the ;acase;.^[See also @kasher_intransitive_verb@ §3.1 124 citing [ابن جني]{.ar}; @nahw_wafi@ 2/439; @owens_foundations_grammar@ 176 citing [المبرد]{.ar}, [ابن جني]{.ar}, [الزجاجي]{.ar}.]
+
+Of course the more usual 
+[مَرَرْتُ بِزَيْدٍ وَعَمْرٍو]{.ar}
+and
+[مَرَرْتُ بِزَيْدٍ وَبِعَمْرٍو]{.ar}
+are also permitted.
+
+<!--
+And they ;3amil; the noun following them in the ;icase;.
+However, they,
+can be treated as pseudo-;acase; elements
 
 In the Arabic grammatical model, prepositional phrases are ;fadlah; elements.
 In order to bring a ;fadlah; ;case;ful element into a sentence, a suitable element of the original sentence must act as ;3aamil; of the new ;fadlah; element.
@@ -35,13 +117,6 @@ This is a valid objection.
 _#;3amiling;_ a preposition is definitively problematic.^[@owens_foundations_grammar@ 177]
 However, we can work around this problem with the following reasoning:
 
-<!--
-The preposition
-[عَلَىٰ]{.ar}
-is followed by the
-[ٱلْأَرْضِ]{.ar}
-in the ;icase;.
--->
 The noun
 [ٱلْأَرْضِ]{.ar}
 is ;3amiled; by the preposition
@@ -94,7 +169,7 @@ So we can consider the verb as ;3amiling; the entire prepositional phrase in the
 And within the prepositional phrase, the preposition ;3amils; its following noun in the ;icase;.
 
 ADD DIAGRAM
-
+-->
 
 
 <!--
