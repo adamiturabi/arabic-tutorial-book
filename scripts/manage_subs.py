@@ -180,14 +180,15 @@ map_table["jamid_noun"] = "primitive noun"
 map_table["active"] = "active" # "known-doer" verb?
 map_table["passive"] = "passive" # "unknown-doer" verb?
 
-# government
-map_table["3amal"] = "case-izement"
-map_table["3aamil"] = "case-izer"
-map_table["ma3mul"] = "case-izee"
-map_table["3amil"] = "case-ize"
-map_table["3amiled"] = "case-ized"
-map_table["3amils"] = "case-izes"
-map_table["3amiling"] = "case-izing"
+# government, casify, case-ize , operate
+map_table["3amal"] = "government"
+map_table["3aamil"] = "governor"
+map_table["ma3mul"] = "governee"
+map_table["3amil"] = "govern"
+map_table["3amiled"] = "governed"
+map_table["3amils"] = "governs"
+map_table["3amiling"] = "governing"
+
 map_table["i3timaad"] = map_table["3amal"] + " support"
 map_table["pregov"] = "foundational " + map_table["3amal"]# initial gov, pre-gov, foundational gov
 
