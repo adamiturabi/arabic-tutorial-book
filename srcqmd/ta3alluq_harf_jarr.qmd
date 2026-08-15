@@ -190,16 +190,16 @@ allows us to have a (necessarily) unbroken dependency of ;3aamil;ns to add the ;
 [ٱلْأَرْض]{.ar}.
 -->
 
-## Prepositions not needing a ;3aamil;
+## Prepositions not needing a ;muta3allaqbih;
 
-What we have just said regarding a preposition requiring a ;3aamil; is true of _essential_ prepositions.
+What we have just said regarding a preposition requiring a ;muta3allaqbih; is true of _essential_ prepositions.
 An essential preposition is that which, by its addition, gives a distinctly new meaning to the sentence.
 They are also used to connect an indirect ;maful; to its ;3amiling; verb.
 The preposition [ب]{.ar} in (@sentence-pass-zayd) [مَرَرْتُ بِزَيْدٍ]{.ar} is an example of an essential preposition.
 
 There also exist _non-essential_ prepositions.
 These merely give emphasis to an existing meaning in the sentence.
-Non-essential prepositions do not need a ;3aamil;.
+Non-essential prepositions do not need a ;muta3allaqbih;.
 Here is an example of a non-essential preposition:
 
 (@ex000144) [ما جاء من رجلٍ]{.ar}
@@ -444,7 +444,7 @@ is ;muta3alliqbi; the verb
 not the verb
 [كَفَرَ]{.ar}.^[@https://tafsir.app/aldur-almasoon/5/3@]
 
-## The combination of verbs with prepostions: the indirect ;maful;
+## The intransitive verb with a preposition: the indirect ;maful;
 
 In theory,
 prepositions impart their own meanings.^[@kasher_intransitive_verb@ §2.7 124]
@@ -521,7 +521,7 @@ For example:
 In such cases, the preposition almost seems to lose some of its independent meaning.
 Instead, the meaning of the expression is obtained from the combination of the verb with the prepostion.
 
-## The ;taqdir; of ;kawn_3aam;
+## #;kawn_3aam;
 
 Consider the sentence:
 
@@ -530,17 +530,21 @@ Consider the sentence:
     [Zayd is in the house.]{.trans}
 
 We mentioned in section\ (ref) above,
-that the ;3aamil; of a preposition must be a verb, or what has the effect of a verb.
-But we find no such word in the sentence above.
-So what then is the ;3aamil; of the preposition [فِي]{.ar}?
+that a preposition 
+needs to be ;muta3alliqbi;
+a verb (or a verb-like noun).
+But we find no such ;muta3allaqbih; in the sentence above.
+So how then can the preposition [فِي]{.ar} be justified?
 
 In order to remain consistent with the Arabic grammatical model,
-we _;qaddar;_
-a ;3aamil;.
-This ;muqaddar; ;3aamil; has the meaning given by the verb [is]{.trans} or its verbal noun [being]{.trans}.
-We will refer to it as _;kawn_3aam;_.
+we 
+;qaddar;
+a ;muta3allaqbih;.
+This ;muqaddar; ;muta3allaqbih; is
+called
+_;kawn_3aam;_.
 
-In Arabic grammatical terminology,
+In the ;agt;,
 ;kawn_3aam; is represented by the verb
 [ٱسْتَقَرَّ]{.ar}
 or its ;ism_fail;
@@ -551,9 +555,8 @@ which is the ;ism_fail; of the verb
 [كَانَ]{.ar}.
 
 Using these representations of ;kawn_3aam;,
-we can explicate
-(one interpretation of)
-example (@sentence-zayd-in-house) [زَيْدٌ فِي ٱلدَّارِ]{.ar} as:
+the ;taqdir; of
+example (@sentence-zayd-in-house) above is:
 
 (@sentence-zayd-in-house-explicit) [زَيْدٌ [مُسْتَقِرٌّ] فِي ٱلدَّارِ]{.ar}  
     [Zayd is [being] in the house.]{.trans}
@@ -569,32 +572,34 @@ is not same as if the words
 [مُسْتَقِرّ]{.ar} [settled]{.trans},
 or
 [كَائِن]{.ar} [being]{.trans}
-were actually expressed.
-When expressed, they impart their own meaning.
+were actually expressed in ;surfsp;.
+When expressed in ;surfsp;, they impart their own meaning.
 For example
 
 (@ex000165) [زَيْدٌ مُسْتَقِرٌّ فِي ٱلدَّارِ]{.ar}  
     [Zayd is settled in the house.]{.trans}
 
-When ;qaddaring; ;kawn_3aam; we only use the words
+When using
 [ٱسْتَقَرَّ]{.ar},
 [مُسْتَقِرّ]{.ar},
 and
 [كَائِن]{.ar}
-terminologically.
+to represent ;kawn_3aam;,
+we only do so because we need some words to express this concept and
+these words give a meaning which is near enough.
+(see @sec-agt_taqdir_representation_not_real).
 In fact, according to the prevalent opinion among the grammarians,
 ;kawn_3aam; can only be ;muqaddar;.^[@nahw_wafi@ 1/477]
 If one of these (or any other) words is actually expressed,
 then it will impart a specific meaning, not the meaning of ;kawn_3aam;.
-Having said that, some grammarians did permit ;kawn_3aam; to be expressed.^[@ibn_aqil_alfiyyah@ 2/211 footnote]
+Having said that, some grammarians did permit ;kawn_3aam; to be expressed in ;surfsp;.^[@ibn_aqil_alfiyyah@ 2/211 footnote]
 
-## #;muqaddar; ;kawn_3aam; as the ;xabar; of a sentence
+## #;kawn_3aam; as the ;xabar; of a sentence
 
 The ;taqdir; of ;kawn_3aam; in the sentence
 in example (@sentence-zayd-in-house) [زَيْدٌ فِي ٱلدَّارِ]{.ar}
 solves another problem for us.
-Remember how we said that, in the Arabic grammatical model,
-the preposition is a ;fadlah; element.
+The preposition is a ;fadlah; element.
 So if we remove it (and the following ;icase; noun [ٱلدَّار]{.ar}) from the sentence,
 we should still be left with a complete sentence.
 Let's try doing that:
@@ -602,24 +607,24 @@ Let's try doing that:
 (@ex000166) [زَيْدٌ [مُسْتَقِرٌّ]]{.ar}  
     [Zayd is [being].]{.trans}
 
-See how the ;muqaddar; ;kawn_3aam; serves as the ;3umdah; ;musnad;: the ;xabar;.
+See how the ;kawn_3aam; serves as the ;3umdah; ;musnad;: the ;xabar;.
 If we were to not ;qaddar; ;kawn_3aam;, we would be left with a grammatically incomplete sentence.
 
 We also take this opportunity to explain an apparent inconsistency.
 Back in chapter\ (ref),
 we had said that a prepositional phrase can be the ;xabar; of a sentence.
-We now state that, strictly speaking, it is the (;muqaddar;) ;3aamil; of the prepostion which is the ;xabar;.
+We now state that, strictly speaking, it is the (;muqaddar;) ;muta3allaqbih; of the prepostion which is the ;xabar;.
 But because the actual ;xabar; is ;muqaddar; and is not expressed, we can say, loosely speaking,
 that the prepositional phrase is the ;xabar;.
 
 This approach of applying a terminological label differently when loosely speaking vs when strictly speaking is common.^[@nahw_wafi@ 1/215, 2/118, 2/442]
 We will see other examples of it in sections\ (refs) ;ia;.
 
-## Other ;muqaddar; ;3aamil;s besides ;kawn_3aam;
+## Other ;muqaddar; ;muta3allaqbih;s besides ;kawn_3aam;
 
 While ;kawn_3aam; is necessarily ;muqaddar; and never expressed (see section\ (ref) above),
-other ;3aamil;s of prepositions too may be optionally suppressed.
-This is done on the condition that that the overall meaning or context supplies the meaning of the suppressed ;3aamil;.^[@nahw_wafi@ 2/447 footnote]
+other ;muta3allaqbih;s of prepositions too may be optionally ;muqaddar;.
+This is done on the condition that that the overall meaning or context supplies the meaning of the ;muqaddar; ;muta3allaqbih;.^[@nahw_wafi@ 2/447 footnote]
 For example:
 
 (@ex000167) [ٱلۡحُرُّ بِٱلۡحُرِّ]{.quran}
@@ -627,7 +632,7 @@ For example:
     [the free for the free]{.trans}
 
 In the above example,
-the ;xabar; has been analyzed as the ;muqaddar; ;3aamil;
+the ;xabar; has been analyzed as the ;muqaddar; ;muta3allaqbih;
 [يَقْتَصُّ]{.ar} [is retributed against]{.trans}
 or
 [يُقْتَلُ]{.ar} [is killed]{.trans}.
@@ -645,21 +650,21 @@ Consider the sentence
     [@ali_hani_ta3alluq@]{.citex}  
     [I saw a bird on the branch.]{.trans}
 
-Now the logical assumption is that the bird was on the branch, not that my act of seeing was done on a branch.
+Now the logical assumption is that the bird was on the branch, not that I was seeing on a branch.
 So this means that the preposition [عَلَىٰ]{.ar} is not meaningfully connected with the verb [رَأَىٰ]{.ar}.
-Therefore, [رَأَىٰ]{.ar} is not the ;3aamil; of the preposition [عَلَىٰ]{.ar}.^[@ali_hani_ta3alluq@]
-So what then is ;3amiling; the preposition [عَلَىٰ]{.ar}.
+Therefore, ;3alaa; cannot be ;muta3alliqbi; [رَأَىٰ]{.ar}.^[@ali_hani_ta3alluq@]
+So what then is the ;muta3allaqbih; the preposition [عَلَىٰ]{.ar}.
 
-Here again, we ;qaddar; the ;3aamil; of ;kawn_3aam;, as if to say:
+Here again, we use ;kawn_3aam;, as if to say:
 
 (@ex000168) [رأيتُ طائرًا [مُسْتَقِرًّا] على الغصن]{.ar}  
     [I saw a bird [being] on the branch.]{.trans}
 
+The preposition [عَلَىٰ]{.ar}
+is ;muta3alliqbi;
 ;kawn_3aam;
-[[مُسْتَقِرًّا]]{.ar}
-is ;qaddared; as the ;3aamil; of
-the preposition [عَلَىٰ]{.ar}.
-The ;muqaddar; ;kawn_3aam; is also a ;na3t; to the ;mafulb; 
+[[مُسْتَقِرًّا]]{.ar}.
+#;kawn_3aam; is also a ;na3t; to the ;mafulb; 
 [طَائِرًا]{.ar}.
 But because 
 the ;muqaddar; ;kawn_3aam; is not expressed, we may say, loosely speaking,
@@ -702,18 +707,19 @@ Here are some more examples of prepositional phrases as ;na3t;s:
 
 
 When a prepositional phrase is, loosely speaking, a ;na3t;,
-its ;3aamil; is typically the ;muqaddar; ;kawn_3aam;.^[@ibn_hisham_awdah_almasaalik@ 2/285, @ibn_aqil_alfiyyah@ 1/213].
+it is typically ;muta3alliqbi;
+;kawn_3aam;.^[@ibn_hisham_awdah_almasaalik@ 2/285, @ibn_aqil_alfiyyah@ 1/213].
 <!--
 In fact, some grammarians insist that the ;muqaddar; ;3aamil; can only be ;kawn_3aam;.^[@https://tafsir.app/albahr-almuheet/3/194@ ([مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ]{.ar})]
 -->
-However, it is conceivable that the ;muqaddar; ;3aamil; of the preposition be interpreted, if not formally then at least in meaning, as some other verb (or verbal noun).^[@nahw_wafi@ 2/447 footnote]
+However, it is conceivable that the ;muta3allaqbih;; of the preposition be analyzed, if not formally, then at least in meaning, as some other verb (or v-like noun).^[@nahw_wafi@ 2/447 footnote]
 For example:
 
 (@sentence-quran-27-12) [فِی تِسۡعِ ءَایَـٰتٍ إِلَىٰ فِرۡعَوۡنَ وَقَوۡمِهِۦۤۚ]{.quran}
     [@https://quran.com/27/12@]{.citex}  
     [[These are] among the nine signs [you will take] to Pharaoh and his people.]{.trans}
 
-In one interpretation of the above [Ayah]{.trn2},
+In one interpretation of the above ;ayah;,
 the 
 prepositional phrase
 [إِلَىٰ فِرْعَوْنَ]{.ar}
@@ -733,7 +739,7 @@ Here is another example:
     [@https://quran.com/9/125@]{.citex}  
     [it has [only] increased them in evil [in addition] to their evil]{.trans}
 
-In the above [Ayah]{.trn2},
+In the above ;ayah;,
 the 
 prepositional phrase
 [إِلَىٰ رِجْسِهِمْ]{.ar}
@@ -812,16 +818,16 @@ TODO: move to word order chapter:
 @nahw_wafi@ 2/54
 -->
 
-## Word order of the preposition and its ;3aamil;
+## Word order of the preposition and its ;muta3allaqbih;
 
 <!--
 As a general tendency, a ;3aamil; will typically precede its ;ma3mul;(s) in sentence word order.
 This is rule is more strict for some ;3aamil;-;ma3mul; relationships than for others.
 -->
-A prepositional phrase may freely precede its ;3aamil;.^[@nahw_wafi@ 2/444A]
+A prepositional phrase may freely precede its ;muta3allaqbih;.^[@nahw_wafi@ 2/444A]
 This may be done for a number of purposes:
 
-##### To limit and particularize the effect of the ;3aamil; to the noun following the preposition.^[@maani_nahw@ 3/121] {.unnumbered}
+##### To limit and particularize the effect of the ;muta3allaqbih; to the noun following the preposition.^[@maani_nahw@ 3/121] {.unnumbered}
 
 For example:
 
@@ -846,11 +852,11 @@ For example:
 (@ex000180) [وَبِٱلۡأَسۡحَارِ هُمۡ یَسۡتَغۡفِرُونَ]{.quran}
     [@https://quran.com/51/18@]{.citex}  
     [And in the hours before dawn they would ask forgiveness]{.trans}  
-    (The prepositional phrase [بِٱلْأَسْحَارِ]{.ar} is placed not just before its ;3aamil; in the ;xabar; [يَسْتَغْفِرُونَ]{.ar}, but also before the ;mubtada; [هُمْ]{.ar}.)
+    (The prepositional phrase [بِٱلْأَسْحَارِ]{.ar} is placed not just before its ;muta3allaqbih; in the ;xabar; [يَسْتَغْفِرُونَ]{.ar}, but also before the ;mubtada; [هُمْ]{.ar}.)
 
 
-When ;3amiling; the preposition (and also the adverbs of time and place (section\ ref)),
-the placement of the ;ma3mul; is especially flexible.^[@radiy_kafiyah@ 1/289D--290A]
+The placement of preposition (and also the adverbs of time and place (section\ ref)),
+is especially flexible compared to other ;ma3mul;s.^[@radiy_kafiyah@ 1/289D--290A]
 Even when the placement of the ;ma3mul;s of a ;3aamil; might be restricted in general,
 a license is often given to prepositions.
 For example, we saw in section\ (ref), that when a ;ism_fail; is prefixed with [ال]{.ar}, then its ;ma3mul;s may not precede it.
@@ -858,7 +864,7 @@ So for example, we cannot say
 ;x; [هذا زيدا الضارب]{.ar}.
 We have to say instead
 ;v; [هذا الضارب زيدا]{.ar}.
-But an exception is made for the preposition which is ;3amiled; by the ;ism_fail;.
+But an exception is made for the preposition which is ;muta3alliqbi; the ;ism_fail;.
 So we can say:
 
 (@ex000181) [أنا لك المرافق]{.ar}

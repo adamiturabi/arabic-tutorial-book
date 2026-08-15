@@ -56,6 +56,7 @@ map_table["basran"] = "[#baSr]{.trn2}an"
 # shorthand
 map_table["bi"] = "[بِ]{.ar}"
 map_table["fii"] = "[فِي]{.ar}"
+map_table["3alaa"] = "[عَلَىٰ]{.ar}"
 map_table["al"] = "[ال]{.ar}"
 map_table["ean"] = "[عَنْ]{.ar}"
 map_table["min"] = "[مِنْ]{.ar}"
@@ -279,7 +280,7 @@ map_table["fi3l_jawab_shart"] = map_table["jawab_shart"] + "-verb" # "condition-
 map_table["j_ism"] = "nounal sentence"
 map_table["j_f3l"] = "verbal sentence"
 
-map_table["kawn_3aam"] = "general beingness"
+map_table["kawn_3aam"] = map_table["muqaddar"] + " being"
 
 map_table["laam_ibt"] = "[لَ]{.ar} of beginning"
 map_table["laam_frq"] = "differentiator [لَ]{.ar}"
