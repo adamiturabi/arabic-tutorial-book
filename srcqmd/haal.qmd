@@ -8,10 +8,10 @@
 The _;haal;_ 
 ([ٱلْحَال]{.ar})
 is a kind of adverb,
-governed typically by a verb,
+;3amiled; typically by a verb,
 that describes the state
 of the _;sahib_haal;_ 
-during the time that the ;haal;'s governing verb is taking place.
+during the time that the ;haal;'s ;3amiling; verb is taking place.
 <!--
 during the action of the ;haal;'s ;3aamil;.
 -->
@@ -38,7 +38,7 @@ Here is an example of a ;haal;:
 
 \draw [decoration={brace}, decorate] 
    (word-3.north west) -- (word-3.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize governor};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize ;3aamil;};
 
 \path (0,0) node [midway, below=3ex, right=-1ex, align=left] {``Zayd came riding''};
 
@@ -199,7 +199,7 @@ Examples:
 ##### The existential verb "is" as the ;3aamil; of the ;haal; {.unnumbered}
 
 Arabic does not usually express the existential verb "is".
-However, it is implicit and may be the govern the ;haal;.
+However, it is implicit and may be the ;3amil; the ;haal;.
 For example,
 
 (@ex000019) [هَـٰذَا كِتَابُكَ جَمِيلًا]{.ar}
@@ -222,7 +222,7 @@ This is frequently the case in questions like:
 
 ## Valid ;sahibs_haal;
 
-The ;sahib_haal; may be the ;faa3il; of the governing verb
+The ;sahib_haal; may be the ;faa3il; of the ;3amiling; verb
 but it may also be the ;mafulb;,
 or even other nouns in a sentence.
 
@@ -1088,7 +1088,7 @@ comprising of the verb itself and the ;faa3il;
 which, in this case, is the hidden pronoun "he".
 So the ;haal; here is a sentence.
 
-As we know, the ;haal; describes the ;sahib_haal; during time of ;haal;'s governing verb.
+As we know, the ;haal; describes the ;sahib_haal; during time of ;haal;'s ;3amiling; verb.
 The use of the ;mudarie; verb
 [يَضْحَكُ]{.ar}
 signifies that Zayd's action of laughing was ongoing during the time of the ;3aamil; [جَاءَ]{.ar}.
@@ -1158,7 +1158,7 @@ a special [و]{.ar}, called the
 [و]{.ar}\ _of ;haal;_,
 may be used.
 The [و]{.ar} of ;haal;
-signifies that the sentence ;haal; occurred _while_ the governing verb took place.
+signifies that the sentence ;haal; occurred _while_ the ;3amiling; verb took place.
 Here are some examples of the
 the [و]{.ar} of ;haal;:
 
@@ -1185,7 +1185,7 @@ For example:
 In the example above,
 the ;haal;'s
 description of the ;sahib_haal; is only circumstantial,
-in that it alludes to the time in which the action of the governing verb occurred.
+in that it alludes to the time in which the action of the ;3amiling; verb occurred.
 In such cases
 the meaning of the ;haal; approaches that of the adverb of time.
 This is another of the cases where the lines between different types of adverbs get blurred.
@@ -1568,7 +1568,7 @@ For example:
 
 The
 [و]{.ar} of ;haal;
-essentially distances the ;haal; from the influence of the governing verb.^[@dalaail_jurjani@ 1/213--214 cited by @maani_nahw@ 357--358]
+essentially distances the ;haal; from the influence of the ;3amiling; verb.^[@dalaail_jurjani@ 1/213--214 cited by @maani_nahw@ 357--358]
 For example, consider the expression:
 
 (@ex000123) [جَاءَنِي زَيْدٌ يُسْرِعُ]{.ar}
@@ -1592,8 +1592,8 @@ Consider now the expression with the [و]{.ar} of ;haal;:
 Here the ;haal; sentence
 [وَهُوَ يُسْرِعُ]{.ar}
 is a more independent assertion.
-Now, the only link between the ;haal; and its governing verb is
-that the ;haal; expresses the state of the ;sahib_haal; when the action of the governing verb took place.
+Now, the only link between the ;haal; and its ;3amiling; verb is
+that the ;haal; expresses the state of the ;sahib_haal; when the action of the ;3amiling; verb took place.
 
 <!--This distancing effect of the [و]{.ar} of ;haal; can be used for several purposes.-->
 The [و]{.ar} of ;haal; can be used for a different purposes.
@@ -1712,13 +1712,13 @@ is a ;haal;, not just
 [بَيْنَ]{.ar}.
 Secondly, we say that the ;shibh_jumlah; is a ;haal; only loosely speaking.
 
-Remember that an adverb of time or place is governed by a verb.
+Remember that an adverb of time or place is ;3amiled; by a verb.
 And the adverb of time or place indicates the time or place where the action of the verb occurred.
 In a sentence like (@haal-shibh-jumlah-crescent) [رَأَيْتُ ٱلْهِلَالَ بَيْنَ ٱلسَّحَابِ]{.ar},
 the crescent was between the clouds before the action of seeing took place.
 So, in this case, we say that
 [بَيْنَ]{.ar}
-is an adverb of place, but it is governed,
+is an adverb of place, but it is ;3amiled;,
 not by the verb
 [رَأَىٰ]{.ar},
 but by an implied general beingness (see section\ (ref))
@@ -1740,7 +1740,7 @@ Similarly,
 in example (@haal-shibh-jumlah-sparrow) [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar},
 the prepositional phrase
 [عَلَى ٱلْغُصْنِ]{.ar}
-is governed, not by the verb
+is ;3amiled;, not by the verb
 [نَظَرَ]{.ar}
 but by an implied verb "being" which is the true ;haal;.
 But, loosely speaking, we may say that the ;shibh_jumlah;
@@ -1787,8 +1787,8 @@ Here is an example of where the ;shibh_jumlah; does not work as a ;haal;:
 
 In the above example,
 the stone went in the pit due to the action of the verb [وَقَعَ]{.ar}.
-So the preposition [فِي]{.ar} is governed by the verb [وَقَعَ]{.ar}.
-Because [فِي]{.ar} is not governed by an implied ;3aamil; meaning "being",
+So the preposition [فِي]{.ar} is ;3amiled; by the verb [وَقَعَ]{.ar}.
+Because [فِي]{.ar} is not ;3amiled; by an implied ;3aamil; meaning "being",
 therefore, the ;shibh_jumlah;
 [فِي ٱلْحُفْرَةِ]{.ar}
 is not a ;haal;.
@@ -1818,8 +1818,8 @@ Let's use this test on some of the examples above.
     (This retains the meaning of the original [نَظَرْتُ ٱلْعُصْفُورَ عَلَى ٱلْغُصْنِ]{.ar}. So the ;shibh_jumlah; in the original example is valid as a ;haal;.)
 
 There may be examples where a ;shibh_jumlah; could be validly interpreted either as a ;haal; 
-(governed by an implied ;3aamil; meaning "being"),
-or as governed by an overt verb.^[See also, for example, the [tafsIr]{.trn2} of [تَحْتَ ٱلشَّجَرَةِ]{.ar} in @https://tafsir.app/albahr-almuheet/48/18@]
+(;3amiled; by an implied ;3aamil; meaning "being"),
+or as ;3amiled; by an overt verb.^[See also, for example, the [tafsIr]{.trn2} of [تَحْتَ ٱلشَّجَرَةِ]{.ar} in @https://tafsir.app/albahr-almuheet/48/18@]
 For example:
 
 (@ex000131) [رأيتُ زيدًا في الدار]{.ar}
@@ -1828,13 +1828,13 @@ For example:
 
 Without context, the prepositional phrase
 [في الدار]{.ar}
-could either be governed by [رَأَىٰ]{.ar}, signifying that the act of seeing was done in the house.
-Or it could be governed by the implication of general beingness, as a ;haal; for [زَيْد]{.ar}.^[@sarraj_usool@ 2/52]
+could either be ;3amiled; by [رَأَىٰ]{.ar}, signifying that the act of seeing was done in the house.
+Or it could be ;3amiled; by the implication of general beingness, as a ;haal; for [زَيْد]{.ar}.^[@sarraj_usool@ 2/52]
 
-A ;shibh_jumlah; can only be a ;haal; if it is governed by an implied (unexpressed) ;3aamil;.
+A ;shibh_jumlah; can only be a ;haal; if it is ;3amiled; by an implied (unexpressed) ;3aamil;.
 This implicated ;3aamil; will typically be general beingness, as in the examples above.^[@ibn_hisham_awdah_almasaalik@ 2/285, @ibn_aqil_alfiyyah@ 1/213]
-In fact, some grammarians insist that the implied governor can only be general beingness.^[@https://tafsir.app/albahr-almuheet/3/194@ ([مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ]{.ar})]
-However, it is conceivable that the implied governor of the preposition be interpreted, if not formally then at least in meaning, as some other verb (or verbal noun).^[@nahw_wafi@ 2/447 footnote]
+In fact, some grammarians insist that the implied ;3aamil; can only be general beingness.^[@https://tafsir.app/albahr-almuheet/3/194@ ([مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ]{.ar})]
+However, it is conceivable that the implied ;3aamil; of the preposition be interpreted, if not formally then at least in meaning, as some other verb (or verbal noun).^[@nahw_wafi@ 2/447 footnote]
 For example:
 
 (@ex000132) [رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ]{.ar}
@@ -1849,7 +1849,7 @@ prepositional phrase
 has been analyzed as ;haal; of
 [مَا وَعَدتَّنَا]{.ar}
 "what You promised us"
-The meaning with the implicated governor has been explained as
+The meaning with the implicated ;3aamil; has been explained as
 [مُنَزَّلًا عَلَيْهِمْ]{.ar}
 "_sent down_ on [Your messengers]."^[@https://tafsir.app/ibn-aashoor/3/194@]
 

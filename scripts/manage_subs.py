@@ -177,9 +177,17 @@ map_table["active"] = "active" # "known-doer" verb?
 map_table["passive"] = "passive" # "unknown-doer" verb?
 
 # government
-map_table["3aamil"] = "governor"
-map_table["ma3mul"] = "governee"
-map_table["3amal"] = "government"
+map_table["3amal"] = "case-izement"
+map_table["3aamil"] = "case-izer"
+map_table["ma3mul"] = "case-izee"
+map_table["3amil"] = "case-ize"
+map_table["3amiled"] = "case-ized"
+map_table["3amils"] = "case-izes"
+map_table["3amiling"] = "case-izing"
+map_table["i3timaad"] = map_table["3amal"] + " support"
+map_table["pregov"] = "foundational " + map_table["3amal"]# initial gov, pre-gov, foundational gov
+
+
 map_table["3umdah"] = "indispensable" # indispensable, foundational, basic, load-bearing, structural
 map_table["fadlah"] = "dispensable" # dispensable, redundant, extra
 
@@ -231,11 +239,9 @@ map_table["fi3l_muakkad"] = "emphatic verb"
 map_table["haal"] = "[HAl]{.trn2}"
 map_table["waw_haal"] = "[و]{.ar} of " + map_table["haal"]
 
-map_table["i3timaad"] = "governing support"
 map_table["idaafah"] = "annexation"
 map_table["idh_sudden"] = "[إِذَا]{.ar} or suddenness"
 map_table["indir_mafulb"] = "indirect doee"
-map_table["pregov"] = "foundational government" # initial gov, pre-gov, foundational gov
 map_table["ism_fail"] = "doer participle"
 map_table["ism_isharah"] = "pointing noun"
 map_table["ism_of"] = "subject"
