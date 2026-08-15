@@ -1,6 +1,6 @@
 <!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
 
-# The government of the preposition
+# The pertinence of the preposition
 
 
 ::: {.callout-warning}
@@ -10,21 +10,103 @@ IT IS NOT YET READY TO BE STUDIED FROM.**
 
 
 
-## The need for governing the preposition
+## Pertinence vs government
+
+In the Arabic grammatical model, 
+in order to bring a dispensable caseful element into a sentence, a suitable element of the original sentence must act as governor of the new dispensable element.
+For example, consider the sentence:
+
+(@ex_ta3alluq_darab_zayd_3amr) [ضَرَبَ زَيْدٌ عَمْرًا]{.ar}  
+    [Zayd beat [#eamr]{.trn2}.]{.trans}  
+
+In example (@ex_ta3alluq_darab_zayd_3amr) above,
+the basic sentence, with only
+indispensable elements is
+[ضَرَبَ زَيْدٌ]{.ar}.
+The caseful noun [عَمْرًا]{.ar} is a direct doee, which is a dispensable element.
+And it can only be added to the basic sentence because it is governed by the verb
+[ضَرَبَ]{.ar}.
+
+Prepositions are particles, not caseful elements.
+But they can only be added to sentence when they are _pertinent to_ a
+verb,
+or a verb-like element,
+like a [maSdar]{.trn2}, doer participle, etc..
+Consider the sentence:
+
+(@ex_ta3alluq_marartu_bizayd) [مَرَرْتُ بِزَيْدٍ]{.ar}  
+    [I passed by Zayd.]{.trans}  
+
+In example (@ex_ta3alluq_marartu_bizayd) above,
+the preposition [بِ]{.ar}
+(or the entire prepositional phrase
+[بِزَيْدٍ]{.ar})
+is pertinent to the verb
+[مَرَّ]{.ar}.
+And we will say that the verb
+[مَرَّ]{.ar}
+is the
+_pertinentee_
+of the preposition
+(or prepositional phrase).
+
+In this sense, a prepositional phrase can be treated like pseudo-caseful dispensable element.
+And the verb it is pertinent to,
+its pertinentee,
+can (loosely) be considered its
+governor.^[[[النحو الوافي]{.ar} 2/437](https://shamela.ws/book/10641/1168); [[معاني النحو]{.ar} 3/116](https://shamela.ws/book/17801/841); See also Owens, _The foundations of grammar_ 177]
+This similitude between
+pertinence and government
+can be seen in the following example:
+
+(@ex000143) [مَرَرْتُ بِزَيْدٍ وَعَمْرًا]{.ar}
+    ^[Not all grammarians permit this. See [استيفاء حالات تعلق الجار والمجرور و الظرف وأثره في المعنى لعلي هاني]{.ar} footnote 34 for details.]  
+    [composed from [[شرح ابن يعيش على المفصل]{.ar} 4/300](https://shamela.ws/book/13301/1664)]{.citex}  
+    [I passed by Zayd and [#eamr]{.trn2}.]{.trans}
+
+In example (@ex000143) above,
+the preposition [ب]{.ar}
+is pertinent to the verb
+[مَرَّ]{.ar}.
+And once it is added,
+the second doee [عَمْرو]{.ar} can (optionally) be added as a direct doee
+(in the a-case).
+So we can say that
+the prepositional phrase
+[بِزَيْدٍ]{.ar}
+is like a pseudo-direct doee,
+And that
+the verb
+[مَرَّ]{.ar}
+governs
+the prepositional phrase
+[بِزَيْدٍ]{.ar}
+in the a-case.^[See also Kasher, "The term _al-fiʿl al-mutaʿaddī bi-ḥarf jarr_" §3.1 124 citing [ابن جني]{.ar}; [النحو الوافي]{.ar} 2/439; Owens, _The foundations of grammar_ 176 citing [المبرد]{.ar}, [ابن جني]{.ar}, [الزجاجي]{.ar}.]
+
+Of course the more usual 
+[مَرَرْتُ بِزَيْدٍ وَعَمْرٍو]{.ar}
+and
+[مَرَرْتُ بِزَيْدٍ وَبِعَمْرٍو]{.ar}
+are also permitted.
+
+<!--
+And they govern the noun following them in the i-case.
+However, they,
+can be treated as pseudo-a-case elements
 
 In the Arabic grammatical model, prepositional phrases are dispensable elements.
 In order to bring a dispensable caseful element into a sentence, a suitable element of the original sentence must act as governor of the new dispensable element.
 For example, consider the sentence
 
 (@ex000142) [جَلَسَ زَيْدٌ]{.ar}  
-    "Zayd sat."
+    [Zayd sat.]{.trans}
 
 We would like to add the prepositional phrase
 [عَلَى ٱلْأَرْضِ]{.ar}
-"on the ground" to the sentence, thus:
+[on the ground]{.trans} to the sentence, thus:
 
 (@sentence-verb-gov-prep-zayd-sat-ground) [جَلَسَ زَيْدٌ عَلَى ٱلْأَرْضِ]{.ar}  
-    "Zayd sat on the ground."
+    [Zayd sat on the ground.]{.trans}
 
 In order to do this, a suitable element in the original sentence 
 ([جَلَسَ زَيْدٌ]{.ar})
@@ -39,16 +121,9 @@ we introduced the concept of government for determining the case of an element.
 But prepositions don't have case. So why should they need to be governed, and in what manner may they be governed?
 
 This is a valid objection. 
-"Governing" a preposition is definitively problematic.^[Owens, _The foundations of grammar_ 177]
+_Governing_ a preposition is definitively problematic.^[Owens, _The foundations of grammar_ 177]
 However, we can work around this problem with the following reasoning:
 
-<!--
-The preposition
-[عَلَىٰ]{.ar}
-is followed by the
-[ٱلْأَرْضِ]{.ar}
-in the i-case.
--->
 The noun
 [ٱلْأَرْضِ]{.ar}
 is governed by the preposition
@@ -81,7 +156,7 @@ Another way to look at this is that a prepositional phrase may be parsed (virtua
 Consider the example:
 
 (@sentence-pass-zayd) [مَرَرْتُ بِزَيْدٍ]{.ar}  
-    "I passed by Zayd."
+    [I passed by Zayd.]{.trans}
 
 In the above example, the prepositional phrase
 [بِزَيْدٍ]{.ar}
@@ -91,7 +166,7 @@ For example:
 
 (@ex000143) [مَرَرْتُ بِزَيْدٍ وَعَمْرًا]{.ar}
     ^[Not all grammarians permit this. See [استيفاء حالات تعلق الجار والمجرور و الظرف وأثره في المعنى لعلي هاني]{.ar} footnote 34 for details.]  
-    "I passed by Zayd and [#eamr]{.trn2}."
+    [I passed by Zayd and [#eamr]{.trn2}.]{.trans}
 
 Of course the more usual 
 [مَرَرْتُ بِزَيْدٍ وَعَمْرٍو]{.ar}
@@ -101,7 +176,7 @@ So we can consider the verb as governing the entire prepositional phrase in the 
 And within the prepositional phrase, the preposition governs its following noun in the i-case.
 
 ADD DIAGRAM
-
+-->
 
 
 <!--
@@ -122,28 +197,28 @@ allows us to have a (necessarily) unbroken dependency of governorns to add the d
 [ٱلْأَرْض]{.ar}.
 -->
 
-## Prepositions not needing a governor
+## Prepositions not needing a pertinentee
 
-What we have just said regarding a preposition requiring a governor is true of _essential_ prepositions.
+What we have just said regarding a preposition requiring a pertinentee is true of _essential_ prepositions.
 An essential preposition is that which, by its addition, gives a distinctly new meaning to the sentence.
 They are also used to connect an indirect doee to its governing verb.
-The preposition [ب]{.ar} in (@sentence-pass-zayd) [مَرَرْتُ بِزَيْدٍ]{.ar} is an example of an essential preposition.
+The preposition [ب]{.ar} in (@ex_ta3alluq_marartu_bizayd) [مَرَرْتُ بِزَيْدٍ]{.ar} is an example of an essential preposition.
 
 There also exist _non-essential_ prepositions.
 These merely give emphasis to an existing meaning in the sentence.
-Non-essential prepositions do not need a governor.
+Non-essential prepositions do not need a pertinentee.
 Here is an example of a non-essential preposition:
 
 (@ex000144) [ما جاء من رجلٍ]{.ar}
     [[استيفاء حالات تعلق الجار والمجرور و الظرف وأثره في المعنى لعلي هاني]{.ar}]{.citex}  
-    "Not a man came."
+    [Not a man came.]{.trans}
 
 The preposition [مِنْ]{.ar} only emphasizes the meaning of the sentence.
-If we drop if the basic meaning would remain the same:
+If we drop it the basic meaning would remain the same:
 
 (@ex000145) [ما جاء رجلٌ]{.ar}
     [[استيفاء حالات تعلق الجار والمجرور و الظرف وأثره في المعنى لعلي هاني]{.ar}]{.citex}  
-    "Not a man came."
+    [Not a man came.]{.trans}
 
 By the way,
 [مِنْ]{.ar} happens to be a non-essential preposition in the example above.
@@ -151,28 +226,94 @@ But it may be an essential preposition in other sentences.
 For example:
 
 (@ex000146) [خَرَجَ زَيْدٌ مِنَ ٱلْبَيْتِ]{.ar}  
-    "Zayd came out from the house."
+    [Zayd came out from the house.]{.trans}
 
-## Valid governors of the preposition
+## Valid pertinentees of the preposition
 
-The verb is the typical governor of the preposition.
-We have already given an example of a verb governing a prepostion: (@sentence-verb-gov-prep-zayd-sat-ground) [جَلَسَ زَيْدٌ عَلَى ٱلْأَرْضِ]{.ar}.
-Besides the verb, nouns that have the effect of a verb may also govern the preposition.
+The preposition is usually pertinent to a verb,
+as in example (@ex_ta3alluq_marartu_bizayd) above.
+Besides the verb,
+the preposition can also be pertinent to verb-like nouns.
 Such nouns include:
+
+##### The ism_fi3l {.unnumbered}
+
+For example:
+
+(@) [نَزَالِ فِي الْبَاخِرَةِ]{.ar}
+    [[[النحو الوافي]{.ar} 2/440](https://shamela.ws/book/10641/1171)]{.citex}  
+    [Descend into the steamship!]{.trans}  
+    The preposition [فِي]{.ar} is pertinent to the ism_fi3l [نَزَالِ]{.ar}.
+
 
 ##### The [maSdar]{.trn2} {.unnumbered}
 
-Also included are deverbal nouns like:
+For example:
 
-##### The doer participle {.unnumbered}
+(@) [السُّكُوت عَنِ السَّفِيهِ جَوَابٌ]{.ar}
+    [[[النحو الوافي]{.ar} 2/440](https://shamela.ws/book/10641/1171)]{.citex}  
+    [Being quiet with the foolish one is an answer.]{.trans}  
+    The preposition [عَنْ]{.ar} is pertinent to the [maSdar]{.trn2} [السُّكُوت]{.ar}.  
 
-##### The doee participle {.unnumbered}
+The one-time noun,
+noun of manner,
+[mImi maSdar]{.trn2},
+and
+manufactured [maSdar]{.trn2}
+are also included in this category.^[[[النحو الوافي]{.ar} 2/440 footnote 1](https://shamela.ws/book/10641/1171)]
 
-##### The static adjectival noun {.unnumbered}
+##### The deverbal nouns {.unnumbered}
 
-##### The emphatic nouns {.unnumbered}
+The deverbal nouns include
+the doer participle,
+doee participle,
+static adjectival noun, etc.
+Here are some examples:
 
-##### The comparative noun {.unnumbered}
+(@) [أَنا سَائِرٌ فِي الطَّرِيقِ]{.ar}
+    [[[معاني النحو]{.ar} 3/113](https://shamela.ws/book/17801/838)]{.citex}  
+    [I am travelling in the path.]{.trans}  
+    The preposition [فِي]{.ar} is pertinent to the doer participle [سَائِر]{.ar}.  
+
+(@) [فَرِحِینَ بِمَاۤ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضۡلِهِۦ]{.quran}
+    [[[سورة آل عمران]{.ar} 3:170](https://quran.com/3/170)]{.citex}  
+    [Rejoicing in what Allāh has bestowed upon them of His bounty.]{.trans}  
+    The preposition [بِ]{.ar} is analyzed to be pertinent to the static adjectival noun [فَرِحِينَ]{.ar}.^[[[الجدول في إعراب القرآن لمحمود صافي]{.ar} for [سورة آل عمران]{.ar} 3:170](https://tafsir.app/aljadwal/3/170)]
+
+By the way,
+one of the conditions that allow
+deverbal nouns
+(not defined by [ال]{.ar})
+to govern a a-case governee
+is that they must signify an imperfect (progressive or future) aspect,
+not a perfect aspect
+(see @sec-shuroot_i3maal_ism_faa3il).
+So, for example,
+we cannot say:
+
+(@) ✗ [هَذَا ضَارِبٌ زَيْدًا أَمْسِ]{.ar}
+    [[شرح ابن عقيل على الألفية]{.ar} 3/106]{.citex}  
+    [This [person] beat Zayd yesterday.]{.trans}  
+    (See @sec-dharf_i3maal_mushtaqq_perfect for how [أَمْسِ]{.ar} is governed.)  
+
+
+However, in the case of a preposition being pertinent to a deverbal noun,
+it seems that it can do so with a perfect aspect.
+For example:
+
+(@) [أَتَانِي اللَّيْلَةَ آتِيَانِ فَابْتَعَثَانِي، فَانْتَهَيْنَا إِلَى مَدِينَةٍ **مَبْنِيَّةٍ بِلَبِنِ ذَهَبٍ** وَلَبِنِ فِضَّةٍ]{.ar}
+    [[[صحيح البخاري]{.ar} :4674](https://sunnah.com/bukhari:4674)]{.citex}  
+    [Two [persons] came to me last night (in my dream) and they took me. We came to a city **built with gold bricks** and silver bricks.]{.trans}  
+    [مَبْنِيَّة]{.ar} has a perfective aspect, yet [بِ]{.ar} is pertinent to it.
+
+Similarly, in the [Ayah]{.trn2}:
+
+(@) [أَتَعۡلَمُونَ أَنَّ صَـٰلِحࣰا **مُّرۡسَلࣱ مِّن** رَّبِّهِۦۚ]{.quran}
+    [[[سورة الأعراف]{.ar} 7:75](https://quran.com/7/75)]{.citex}  
+    [Do you [actually] know that Ṣāliḥ is **sent from** his Lord?]{.trans}
+
+the preposition [مِنْ]{.ar} is analyzed to be pertinent to the doee participle [مُرْسَلٌ]{.ar}.^[[[الجدول في إعراب القرآن لمحمود صافي]{.ar} for [سورة الأعراف]{.ar} 7:75](https://tafsir.app/aljadwal/7/75)]
+
 
 <!--
 Even deverbal nouns that don't typically govern a direct doee 
@@ -180,120 +321,137 @@ Even deverbal nouns that don't typically govern a direct doee
 are permitted to govern a preposition^[[النحو الوافي]{.ar} 2/440 citing [حاشية الصبان على شرح الأشمونى لألفية ابن مالك]{.ar} 2/443. But [#abU #HayyAn]{.trn2} did not allow this (see ).]:
 -->
 
-Grammarians differ regarding whether the 
-the noun of time and the noun of place
-are permitted to govern a preposition.
-Some grammarians allow them to govern prepositions.^[[النحو الوافي]{.ar} 2/440 citing [حاشية الصبان على شرح الأشمونى لألفية ابن مالك]{.ar} 2/443]
-Others disagree.^[[الخصائص لابن جني]{.ar} 2/209]
-Here are examples (considering them permissible) as governors:
+Some deverbal nouns do not govern a a-case governee,
+like
+the noun of time and the noun of place.
+However, some grammarians
+still allowed prepositions to be pertinent to them.^[[النحو الوافي]{.ar} 2/440 citing [حاشية الصبان على شرح الأشمونى لألفية ابن مالك]{.ar} 2/443]
+Others disagreed and did not permit them to do so.^[[الخصائص لابن جني]{.ar} 2/209]
+Examples:
 
 ##### The noun of time {.unnumbered}
 
 (@ex000147) [انقضى مسعاك لتأييد الحق]{.ar}
     [[النحو الوافي]{.ar} 2/440]{.citex}  
-    "Your [period of] effort for aiding the truth has ended."
+    [Your [period of] effort for aiding the truth has ended.]{.trans}
 
 ##### The noun of place {.unnumbered}
 
 (@ex000148) [رأيت مدخلك إلى الدار]{.ar}
     [[حاشية الصبان على شرح الأشمونى لألفية ابن مالك]{.ar} 2/443]{.citex}  
-    "I saw your [place of] entrance to the house."
+    [I saw your [place of] entrance to the house.]{.trans}
 
+##### A primitive noun when used metaphorically {.unnumbered}
 
-Also permitted as governorns are primitive nouns used with an adjectival meaning.
+A preposition may also be pertinent to a non-deverbal noun
+if it is used methaphorically with an adjectival meaning.
 For example:
 
-## One governor governing multiple prepositions
+(@) [هُوَ أَسَدٌ فِي الْمَعْرَكَةِ]{.ar}
+    [[[معاني النحو]{.ar} 3/113](https://shamela.ws/book/17801/838)]{.citex}  
+    [He is a lion in the battle.]{.trans}  
+    The preposition [فِي]{.ar} is pertinent to [أَسَدٌ]{.ar} because it means [brave]{.trans} here.
 
-One governor can govern multiple different prepositions with no problems.
+## Multiple prepositions pertinent to the same pertinentee
+
+Multiple prepositions,
+as long as they are different,
+can all be pertinent to the same pertinentee with no problem.
 For example:
 
-But if the multiple governees are the same prepositon, then in general they may not be governed by the same governor.^[[النحو الوافي]{.ar} 2/444 footnote 3]
+(@ex_ta3alluq_marartu_bizaydin_filbaadiyah) [مَرَرْتُ بِزَيْدٍ فِي ٱلْبَادِيَةِ]{.ar}  
+    [I passed by Zayd in the desert.]{.trans}
+
+In example (@ex_ta3alluq_marartu_bizaydin_filbaadiyah) above,
+both [فِي]{.ar} and [بِ]{.ar} are pertinent to the verb [مَرَّ]{.ar}.
+
+If the multiple prepositions are the same, then in general they may not be pertinent to the same pertinentee.^[[النحو الوافي]{.ar} 2/444 footnote 3]
 So we can't say:
 
 (@ex000149) ✗ [مَرَرْتُ بِزَيْدٍ بِعَمْرٍو]{.ar}
     [[شرح التصريح وحاشية ياسين]{.ar} 1/378]{.citex}  
-    "I passed by Zayd by [#eamr]{.trn2}"  
+    [I passed by Zayd by [#eamr]{.trn2}.]{.trans}  
     (although, separting the second preposition with a conjunction is of course allowed: [مَرَرْتُ بِزَيْدٍ وَبِعَمْرٍو]{.ar}.)
 
-But if the same preposition is used with different meanings then it is permissible to have them being governed by the same governor.
+But if the same preposition is used with different meanings then it is permissible for them all to be pertinent to the same pertinentee.
 For example:
 
 (@ex000150) [مَرَرْتُ بِزَيْدٍ بِٱلْبَادِيَةِ]{.ar}
     [[شرح التصريح وحاشية ياسين]{.ar} 1/378]{.citex}  
-    "I passed _by_ Zayd _in_ the desert."
+    [I passed _by_ Zayd _in_ the desert.]{.trans}
 
 If the first preposition restricts the verb, and the second preposition is applied after the verb has been restricted, then too may the multiple same prepositions be used.^[[النحو الوافي]{.ar} 2/444 footnote 3]
 For example:
 
 (@ex000151) [كُلَّمَا رُزِقُوا۟ مِنۡهَا مِن ثَمَرَةࣲ رِّزۡقࣰا]{.quran}
     [[[سورة البقرة]{.ar} 2:25](https://quran.com/2/25)]{.citex}  
-    (The first [مِنْ]{.ar} restricts the governing verb [رُزِقُوا]{.ar} to [ٱلْجَنًّات]{.ar} "the gardens". And the second [مِنْ]{.ar} is restricted to "from the fruit from the gardens."^[[[الكشاف للزمخشري]{.ar} for [سورة البقرة]{.ar} 2:25](https://tafsir.app/kashaf/2/25)])
+    [Whenever they are provided with a provision of fruit therefrom]{.trans}  
+    (The first [مِنْ]{.ar} restricts the pertinentee verb [رُزِقُوا]{.ar} to [ٱلْجَنًّات]{.ar} [the gardens]{.trans}. And the second [مِنْ]{.ar} is restricted to [the fruit of the gardens.]{.trans}^[[[الكشاف للزمخشري]{.ar} for [سورة البقرة]{.ar} 2:25](https://tafsir.app/kashaf/2/25)])
 
-## A meaningful connection between the preposition and its governor
+## A meaningful connection between the preposition and its pertinentee
 
-In order for a preposition to be governed by a governor,
-there needs to be a meaningful connection between the governor and the governed prepositional phrase.^[[النحو الوافي]{.ar} 2/442D--445, [معاني النحو]{.ar} 3/131--133]
+In order for a prepositional phrase to be pertinent to a pertinentee,
+there needs to be a meaningful connection between them.^[[النحو الوافي]{.ar} 2/442D--445, [معاني النحو]{.ar} 3/131--133]
 
 Consider the following example:
 
 (@ex000152) [شَبَّهْتُ خَالِدًا وَهُوَ يَجُودُ بِمَالِهِ بِٱلْبَحْرِ]{.ar}
     [[معاني النحو]{.ar} 3/131]{.citex}  
-    "I likened [#xAlid]{.trn2}, while he (was) being generous with his wealth, with the sea."  
-    (The [و]{.ar} in [وَهُوَ يَجُودُ]{.ar} is translated as "while." See section\ (ref).)
+    [I likened [#xAlid]{.trn2}, while he (was) being generous with his wealth, with the ocean.]{.trans}  
+    (The [و]{.ar} in [وَهُوَ يَجُودُ]{.ar} is translated as [while]{.trans}. See section\ (ref).)
 
 In the above example,
 the prepositional phrase
-[بِٱلبَحْرِ]{.ar} "with the sea"
+[بِٱلبَحْرِ]{.ar} [with the ocean]{.trans}
 is meaningfully connected to the verb
-[شَبَّهَ]{.ar} "to liken,"
+[شَبَّهَ]{.ar} [to liken]{.trans}
 not with the verb 
-[يَجُودُ]{.ar} "to be generous."
-Therefore, it is
-[شَبَّهَ]{.ar}
-that governs
-the preposition in
+[يَجُودُ]{.ar} [to be generous]{.trans}.
+Therefore,
+the prepositional phrase
 [بِٱلبَحْرِ]{.ar},
-not
+is pertinent to the verb
+[شَبَّهَ]{.ar},
+not the verb
 [يَجُودُ]{.ar}.
 
 Similarly,
 the prepositional phrase
-[بِمَالِهِ]{.ar} "with his wealth"
+[بِمَالِهِ]{.ar} [with his wealth]{.trans}
 is meaningfully connected to the verb
-[يَجُودُ]{.ar} "to be generous,"
+[يَجُودُ]{.ar} [to be generous]{.trans},
 not with the verb
-[شَبَّهَ]{.ar} "to liken."
-Therefore, it is
-[يَجُودُ]{.ar}
-that governs
-the preposition in
+[شَبَّهَ]{.ar} [to liken]{.trans}.
+Therefore,
+the prepositional phrase
 [بِمَالِهِ]{.ar},
-not
+is pertinent to the verb
+[يَجُودُ]{.ar},
+not the verb
 [شَبَّهَ]{.ar}.
 
 Here is another example:
 
 (@ex000153) [ٱلۡیَوۡمَ یَىِٕسَ ٱلَّذِینَ كَفَرُوا۟ مِن دِینِكُمۡ]{.quran}
     [[[سورة المائدة]{.ar} 5:3](https://quran.com/5/3) cited by [معاني النحو]{.ar} 3/131]{.citex}  
-    "This day those who disbelieve have despaired of [defeating] your religion;"
+    [This day those who disbelieve have despaired of [defeating] your religion;]{.trans}
 
 In the above example,
 the prepositional phrase
 [مِنْ دِينِكُمْ]{.ar} "of your religion
 is meaningfully connected to the verb
-[يَئِسَ]{.ar} "to despair,"
+[يَئِسَ]{.ar} [to despair]{.trans},
 not with the verb 
-[كَفَرَ]{.ar} "to disbelieve"
-Therefore, it is
-[يَئِسَ]{.ar}
-that governs
-the preposition in
+[كَفَرَ]{.ar} [to disbelieve]{.trans}
+Therefore,
+the prepositional phrase
 [مِنْ دِينِكُمْ]{.ar}
-not
+is pertinent to the verb
+[يَئِسَ]{.ar},
+not the verb
 [كَفَرَ]{.ar}.^[[[الدر المصون للسمين الحلبي]{.ar} for [سورة المائدة]{.ar} 5:3](https://tafsir.app/aldur-almasoon/5/3)]
 
-## The combination of verbs with prepostions: the indirect doee
+## The intransitive verb with a preposition: the indirect doee
 
 In theory,
 prepositions impart their own meanings.^[Kasher, "The term _al-fiʿl al-mutaʿaddī bi-ḥarf jarr_" §2.7 124]
@@ -301,40 +459,40 @@ And there is no restriction on which prepositions may be used with a given gover
 as long as the prepositional phrase be meaningfully connected with its governor.^[[النحو الوافي]{.ar} 2/161]
 
 The following examples show a possible set of prepositions that are meaningfully governed by the verb
-[ٱنْصَرَفَ]{.ar} "to turn around, leave":
+[ٱنْصَرَفَ]{.ar} [to turn around, leave]{.trans}:
 
 (@ex000154) [ٱنْصَرَفَ إِلَىٰ مَصْنَعِهِ]{.ar}
     [[النحو الوافي]{.ar} 2/161]{.citex}  
-    "He left to his workplace."
+    [He left to his workplace.]{.trans}
 
 (@ex000155) [ٱنْصَرَفَ مِنَ ٱلْمَصْنَعِ إِلَىٰ بَيْتِهِ]{.ar}
     [[النحو الوافي]{.ar} 2/161]{.citex}  
-    "He left from the workplace to his house."
+    [He left from the workplace to his house.]{.trans}
 
 (@ex000156) [ٱنْصَرَفَ ٱلْعَالِمُ عَنِ ٱلْهَزْلِ]{.ar}
     [[النحو الوافي]{.ar} 2/161]{.citex}^[See also [لَمَّا كَانَ يَوْمَ أُحُدٍ انْهَزَمَ النَّاسُ عَنِ النَّبِيِّ صلى الله عليه وسلم]{.ar} [[[صحيح البخاري]{.ar} :4064](https://sunnah.com/bukhari:4064)]{.citex}]  
-    "The scholar left off joking."
+    [The scholar left off joking.]{.trans}
 
 (@ex000157) [ٱنْصَرَفَ فِي سَيَّارَتِهِ]{.ar}
     [[النحو الوافي]{.ar} 2/161]{.citex}  
-    "He left in his caravan."
+    [He left in his caravan.]{.trans}
 
 Having said that,
 in practice,
 certain verbs are more meaningfully connected with certain prepositions, sometimes almost to the exclusion of others.^[Kasher, "The term _al-fiʿl al-mutaʿaddī bi-ḥarf jarr_" §3.3]
 For example, the verb
-[أَقْسَمَ]{.ar} "to swear"
+[أَقْسَمَ]{.ar} [to swear]{.trans}
 requires the preposition [بِ]{.ar} in order to transit to what is being sworn by.^[Kasher, "The term _al-fiʿl al-mutaʿaddī bi-ḥarf jarr_" §3.3 129 citing [ابن الأنباري]{.ar}]
 For example,
 
 (@ex000158) [أقسم بالله]{.ar}
     [[أسرار العربية للأنباري]{.ar} 203]{.citex}  
-    "I swear by [#allAh]{.trn2}"
+    [I swear by [#allAh]{.trn2}]{.trans}
 
 The combination of a verb and its governed preposition can even acquire a specific meaning.
 Consider, for example, the verb
 [وَجَدَ]{.ar}.
-It's basic meaning is "to find."
+It's basic meaning is [to find]{.trans}.
 It may be used with prepositions like
 [بِ]{.ar},
 [عَلَىٰ]{.ar},
@@ -343,13 +501,13 @@ with this basic meaning.
 For example:
 
 (@ex000159) [وَجَدْتُ ٱلْكِتَابَ بِجَهْدٍ]{.ar}  
-    "I found the book with effort."
+    [I found the book with effort.]{.trans}
 
 (@ex000160) [وَجَدْتُ ٱلْكِتَابَ فِي ٱلْبَيْتِ]{.ar}  
-    "I found the book in the house."
+    [I found the book in the house.]{.trans}
 
 (@ex000161) [وَجَدْتُ ٱلْكِتَابَ عَلَى ٱلْخِزَانَةِ]{.ar}  
-    "I found the book on the cupboard."
+    [I found the book on the cupboard.]{.trans}
 
 But this verb also has specific meanings when used with these prepositions and certain indirect doees
 (albeit possibly with different [maSdar]{.trn2}s).
@@ -357,40 +515,44 @@ For example:
 
 (@ex000162) [وَجَدَ عَلَيْهِ]{.ar}
     [Lane: root [وجد]{.ar}]{.citex}  
-    "He was angry with him."
+    [He was angry with him.]{.trans}
 
 (@ex000163) [وَجَدَ بِهَا]{.ar}
     [Lane: root [وجد]{.ar}]{.citex}  
-    "He loved her."
+    [He loved her.]{.trans}
 
 (@ex000164) [قَدْ وَجَدَ فِي نَفْسِهِ عَلَىَّ]{.ar}
     [[[صحيح مسلم]{.ar} :1649b](https://sunnah.com/muslim:1649b)]{.citex}  
-    "he may have some feelings against me"
+    [he may have some feelings against me]{.trans}
 
 In such cases, the preposition almost seems to lose some of its independent meaning.
 Instead, the meaning of the expression is obtained from the combination of the verb with the prepostion.
 
-## The virtualization of general beingness
+## Virtual being
 
 Consider the sentence:
 
 (@sentence-zayd-in-house) [زَيْدٌ فِي ٱلدَّارِ]{.ar}
     [[شرح ابن عقيل على الألفية]{.ar} 2/211]{.citex}  
-    "Zayd is in the house."
+    [Zayd is in the house.]{.trans}
 
 We mentioned in section\ (ref) above,
-that the governor of a preposition must be a verb, or what has the effect of a verb.
-But we find no such word in the sentence above.
-So what then is the governor of the preposition [فِي]{.ar}?
+that a preposition 
+needs to be pertinent to
+a verb (or a verb-like noun).
+But we find no such pertinentee in the sentence above.
+So how then can the preposition [فِي]{.ar} be justified?
 
 In order to remain consistent with the Arabic grammatical model,
-we _virtualize_
-a governor.
-This virtual governor has the meaning given by the verb "is" or its verbal noun "being".
-We will refer to it as _general beingness_.
+we 
+virtualize
+a pertinentee.
+This virtual pertinentee is
+called
+_virtual being_.
 
-In Arabic grammatical terminology,
-general beingness is represented by the verb
+In the Arabic grammatical tradition,
+virtual being is represented by the verb
 [ٱسْتَقَرَّ]{.ar}
 or its doer participle
 [مُسْتَقِرّ]{.ar},
@@ -399,87 +561,88 @@ or by the word
 which is the doer participle of the verb
 [كَانَ]{.ar}.
 
-Using these representations of general beingness,
-we can explicate
-(one interpretation of)
-example (@sentence-zayd-in-house) [زَيْدٌ فِي ٱلدَّارِ]{.ar} as:
+Using these representations of virtual being,
+the virtualization of
+example (@sentence-zayd-in-house) above is:
 
 (@sentence-zayd-in-house-explicit) [زَيْدٌ [مُسْتَقِرٌّ] فِي ٱلدَّارِ]{.ar}  
-    "Zayd is [being] in the house."
+    [Zayd is [being] in the house.]{.trans}
 
-The word "being" is not really needed in the translation because the verb "is" conveys the same concept.
-But we have added it to explicate the involvement of general beingness in the grammar of the sentence.
+The word [being]{.trans} is not really needed in the translation because the verb [is]{.trans} conveys the same concept.
+But we have added it to explicate the involvement of virtual being in the grammar of the sentence.
 
 Note that
-virtualizing general beingness in a sentence 
+virtualizing virtual being in a sentence 
 as we did in example (@sentence-zayd-in-house-explicit) above
 is not same as if the words
-[ٱسْتَقَرَّ]{.ar} "to settle",
-[مُسْتَقِرّ]{.ar} "settled",
+[ٱسْتَقَرَّ]{.ar} [to settle]{.trans},
+[مُسْتَقِرّ]{.ar} [settled]{.trans},
 or
-[كَائِن]{.ar} "being"
-were actually expressed.
-When expressed, they impart their own meaning.
+[كَائِن]{.ar} [being]{.trans}
+were actually expressed in real speech.
+When expressed in real speech, they impart their own meaning.
 For example
 
 (@ex000165) [زَيْدٌ مُسْتَقِرٌّ فِي ٱلدَّارِ]{.ar}  
-    "Zayd is settled in the house."
+    [Zayd is settled in the house.]{.trans}
 
-When virtualizing general beingness we only use the words
+When using
 [ٱسْتَقَرَّ]{.ar},
 [مُسْتَقِرّ]{.ar},
 and
 [كَائِن]{.ar}
-terminologically.
+to represent virtual being,
+we only do so because we need some words to express this concept and
+these words give a meaning which is near enough
+(see @sec-agt_taqdir_representation_not_real).
 In fact, according to the prevalent opinion among the grammarians,
-general beingness can only be virtual.^[[النحو الوافي]{.ar} 1/477]
+virtual being can only be virtual.^[[النحو الوافي]{.ar} 1/477]
 If one of these (or any other) words is actually expressed,
-then it will impart a specific meaning, not the meaning of general beingness.
-Having said that, some grammarians did permit general beingness to be expressed.^[[شرح ابن عقيل على الألفية]{.ar} 2/211 footnote]
+then it will impart a specific meaning, not the meaning of virtual being.
+Having said that, some grammarians did permit virtual being to be expressed in real speech.^[[شرح ابن عقيل على الألفية]{.ar} 2/211 footnote]
 
-## Virtual general beingness as the info of a sentence
+## Virtual being as the info of a sentence
 
-The virtualization of general beingness in the sentence
+The virtualization of virtual being in the sentence
 in example (@sentence-zayd-in-house) [زَيْدٌ فِي ٱلدَّارِ]{.ar}
 solves another problem for us.
-Remember how we said that, in the Arabic grammatical model,
-the preposition is a dispensable element.
+The preposition is a dispensable element.
 So if we remove it (and the following i-case noun [ٱلدَّار]{.ar}) from the sentence,
 we should still be left with a complete sentence.
 Let's try doing that:
 
 (@ex000166) [زَيْدٌ [مُسْتَقِرٌّ]]{.ar}  
-    "Zayd is [being]."
+    [Zayd is [being].]{.trans}
 
-See how the virtual general beingness serves as the indispensable leaning element: the info.
-If we were to not virtualize general beingness, we would be left with a grammatically incomplete sentence.
+See how the virtual being serves as the indispensable leaning element: the info.
+If we were to not virtualize virtual being, we would be left with a grammatically incomplete sentence.
 
 We also take this opportunity to explain an apparent inconsistency.
 Back in chapter\ (ref),
 we had said that a prepositional phrase can be the info of a sentence.
-We now state that, strictly speaking, it is the (virtual) governor of the prepostion which is the info.
+We now state that, strictly speaking, it is the (virtual) pertinentee of the prepostion which is the info.
 But because the actual info is virtual and is not expressed, we can say, loosely speaking,
 that the prepositional phrase is the info.
 
 This approach of applying a terminological label differently when loosely speaking vs when strictly speaking is common.^[[النحو الوافي]{.ar} 1/215, 2/118, 2/442]
 We will see other examples of it in sections\ (refs) if Allāh wills.
 
-## Other virtual governors besides general beingness
+## Other virtual pertinentees besides virtual being
 
-While general beingness is necessarily virtual and never expressed (see section\ (ref) above),
-other governors of prepositions too may be optionally suppressed.
-This is done on the condition that that the overall meaning or context supplies the meaning of the suppressed governor.^[[النحو الوافي]{.ar} 2/447 footnote]
+While virtual being is necessarily virtual and never expressed (see section\ (ref) above),
+other pertinentees of prepositions too may be optionally virtual.
+This is done on the condition that that the overall meaning or context supplies the meaning of the virtual pertinentee.^[[النحو الوافي]{.ar} 2/447 footnote]
 For example:
 
 (@ex000167) [ٱلۡحُرُّ بِٱلۡحُرِّ]{.quran}
     [[[سورة البقرة]{.ar} 2:178](https://quran.com/2/178) cited by [النحو الوافي]{.ar} 2/447]{.citex}  
-    "the free for the free"
+    [the free for the free]{.trans}
 
 In the above example,
-the info has been analyzed as the virtual governor
-[يَقْتَصُّ]{.ar} "is retributed against"
+the info has been analyzed as the virtual pertinentee
+[يَقْتَصُّ]{.ar} [is retributed against]{.trans}
 or
-[يُقْتَلُ]{.ar} "is killed".
+[يُقْتَلُ]{.ar} [is killed]{.trans}.
 So the virtualization of example (@ex000167) is:
 
 (@) [الحُرُّ يَقْتَصُّ أوْ يُقْتَلُ بِالحُرِّ]{.ar}
@@ -492,26 +655,26 @@ Consider the sentence
 
 (@sentence-prep-phrase-na3t) [رأيتُ طائرًا على الغصن]{.ar}
     [[استيفاء حالات تعلق الجار والمجرور و الظرف وأثره في المعنى لعلي هاني]{.ar}]{.citex}  
-    "I saw a bird on the branch."
+    [I saw a bird on the branch.]{.trans}
 
-Now the logical assumption is that the bird was on the branch, not that my act of seeing was done on a branch.
+Now the logical assumption is that the bird was on the branch, not that I was seeing on a branch.
 So this means that the preposition [عَلَىٰ]{.ar} is not meaningfully connected with the verb [رَأَىٰ]{.ar}.
-Therefore, [رَأَىٰ]{.ar} is not the governor of the preposition [عَلَىٰ]{.ar}.^[[استيفاء حالات تعلق الجار والمجرور و الظرف وأثره في المعنى لعلي هاني]{.ar}]
-So what then is governing the preposition [عَلَىٰ]{.ar}.
+Therefore, [عَلَىٰ]{.ar} cannot be pertinent to [رَأَىٰ]{.ar}.^[[استيفاء حالات تعلق الجار والمجرور و الظرف وأثره في المعنى لعلي هاني]{.ar}]
+So what then is the pertinentee the preposition [عَلَىٰ]{.ar}.
 
-Here again, we virtualize the governor of general beingness, as if to say:
+Here again, we use virtual being, as if to say:
 
 (@ex000168) [رأيتُ طائرًا [مُسْتَقِرًّا] على الغصن]{.ar}  
-    "I saw a bird [being] on the branch."
+    [I saw a bird [being] on the branch.]{.trans}
 
-general beingness
-[[مُسْتَقِرًّا]]{.ar}
-is virtualized as the governor of
-the preposition [عَلَىٰ]{.ar}.
-The virtual general beingness is also a attribute to the direct doee 
+The preposition [عَلَىٰ]{.ar}
+is pertinent to
+virtual being
+[[مُسْتَقِرًّا]]{.ar}.
+Virtual being is also a attribute to the direct doee 
 [طَائِرًا]{.ar}.
 But because 
-the virtual general beingness is not expressed, we may say, loosely speaking,
+the virtual virtual being is not expressed, we may say, loosely speaking,
 that the prepositional phrase is the attribute.
 
 In order for a prepositional phrase to be a attribute,
@@ -529,47 +692,48 @@ Here are some more examples of prepositional phrases as attributes:
 <!--
 (@ex000169) [لَقَدْ جَاءَكُمْ رَسُولٌ مِنْ أَنْفُسِكُمْ]{.ar}
     [[[سورة التوبة]{.ar} 9:128](https://quran.com/9/128)]{.citex}  
-    "There has certainly come to you a Messenger from among yourselves."  
+    [There has certainly come to you a Messenger from among yourselves.]{.trans}  
     ([مِنْ أَنْفُسِكُمْ]{.ar} is analyzed as a attribute^[])
 -->
 
 (@ex000170) [كَمَثَلِ جَنَّةِۭ بِرَبۡوَةٍ]{.quran}
     [[[سورة البقرة]{.ar} 2:265](https://quran.com/2/265)]{.citex}  
-    "like a garden on high ground"  
+    [like a garden on high ground]{.trans}  
     ([بِرَبْوَةٍ]{.ar} is analyzed as a attribute.^[[[البحر المحيط لأبي حيان]{.ar} for [سورة البقرة]{.ar} 2:265](https://tafsir.app/albahr-almuheet/2/265)])
 
 (@ex000171) [رَبَّنَا وَٱبۡعَثۡ فِیهِمۡ رَسُولࣰا مِّنۡهُمۡ]{.quran}
     [[[سورة البقرة]{.ar} 2:129](https://quran.com/2/129)]{.citex}  
-    "Our Lord, and send among them a messenger from themselves"  
+    [Our Lord, and send among them a messenger from themselves]{.trans}  
     ([مِنْهُمْ]{.ar} is analyzed as a attribute.^[[[البحر المحيط لأبي حيان]{.ar} for [سورة البقرة]{.ar} 2:129](https://tafsir.app/albahr-almuheet/2/129)])
 
 <!--
 (@ex000172) [وَقَالُوا لَوْلَا نُزِّلَ هَـٰذَا ٱلْقُرْءَانُ عَلَىٰ رَجُلٍ مِنَ ٱلْقَرْيَتَيْنِ عَظِيمٍ]{.ar}
     [[[سورة الزخرف]{.ar} 43:31](https://quran.com/43/31)]{.citex}  
-    And they said, "Why was this Qur’ān not sent down upon a great man from [one of] the two cities?"  
+    And they said, [Why was this Qur’ān not sent down upon a great man from [one of] the two cities?]{.trans}  
 -->
 
 
 When a prepositional phrase is, loosely speaking, a attribute,
-its governor is typically the virtual general beingness.^[[أوضح المسالك لابن هشام]{.ar} 2/285, [شرح ابن عقيل على الألفية]{.ar} 1/213].
+it is typically pertinent to
+virtual being.^[[أوضح المسالك لابن هشام]{.ar} 2/285, [شرح ابن عقيل على الألفية]{.ar} 1/213].
 <!--
-In fact, some grammarians insist that the virtual governor can only be general beingness.^[[[البحر المحيط لأبي حيان]{.ar} for [سورة آل عمران]{.ar} 3:194](https://tafsir.app/albahr-almuheet/3/194) ([مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ]{.ar})]
+In fact, some grammarians insist that the virtual governor can only be virtual being.^[[[البحر المحيط لأبي حيان]{.ar} for [سورة آل عمران]{.ar} 3:194](https://tafsir.app/albahr-almuheet/3/194) ([مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ]{.ar})]
 -->
-However, it is conceivable that the virtual governor of the preposition be interpreted, if not formally then at least in meaning, as some other verb (or verbal noun).^[[النحو الوافي]{.ar} 2/447 footnote]
+However, it is conceivable that the pertinentee of the preposition be analyzed, if not formally, then at least in meaning, as some other verb (or verb-like noun).^[[النحو الوافي]{.ar} 2/447 footnote]
 For example:
 
 (@sentence-quran-27-12) [فِی تِسۡعِ ءَایَـٰتٍ إِلَىٰ فِرۡعَوۡنَ وَقَوۡمِهِۦۤۚ]{.quran}
     [[[سورة النمل]{.ar} 27:12](https://quran.com/27/12)]{.citex}  
-    "[These are] among the nine signs [you will take] to Pharaoh and his people."
+    [[These are] among the nine signs [you will take] to Pharaoh and his people.]{.trans}
 
 In one interpretation of the above [Ayah]{.trn2},
 the 
 prepositional phrase
 [إِلَىٰ فِرْعَوْنَ]{.ar}
-"to Pharoah"
-has been analyzed as attribute of
+[to Pharoah]{.trans}
+has been analyzed as a attribute of
 [ءَایَاتٍ]{.ar}
-"signs".
+[signs]{.trans}.
 The virtualization is:
 
 (@) [وَاصِلَةٌ إِلَى فِرْعَوْنَ]{.ar}^[But see also [[الدر المصون للسمين الحلبي]{.ar} for [سورة النمل]{.ar} 27:12](https://tafsir.app/aldur-almasoon/27/12) where this interpretation is critiqued.]
@@ -580,16 +744,16 @@ Here is another example:
 
 (@sentence-quran-9-125) [فَزَادَتۡهُمۡ رِجۡسًا إِلَىٰ رِجۡسِهِمۡ]{.quran}
     [[[سورة التوبة]{.ar} 9:125](https://quran.com/9/125)]{.citex}  
-    "it has [only] increased them in evil [in addition] to their evil"
+    [it has [only] increased them in evil [in addition] to their evil]{.trans}
 
 In the above [Ayah]{.trn2},
 the 
 prepositional phrase
 [إِلَىٰ رِجْسِهِمْ]{.ar}
-"to their evil"
+[to their evil]{.trans}
 has been analyzed as attribute of
 [رِجْسًا]{.ar}
-"evil".
+[evil]{.trans}.
 The virtualization is:
 
 (@) [كُفْرًاً مَضْمُومًا إِلَىٰ كُفْرِهِمْ]{.ar}
@@ -615,7 +779,7 @@ By default, the governor will precede its governee.
 For example:
 
 (@sentence-zayd-beat-3amr) [ضَرَبَ زَيْدٌ عَمْرًا]{.ar}  
-    "Zayd beat [#eamr]{.trn2}."
+    [Zayd beat [#eamr]{.trn2}.]{.trans}
 
 In example (@sentence-zayd-beat-3amr) above,
 the governing verb
@@ -630,7 +794,7 @@ However, this order is often varied in order to convey a desired meaning.
 For example:
 
 (@sentence-zayd-beat-3amr-object-first) [عَمْرًا ضَرَبَ زَيْدٌ]{.ar}  
-    "Zayd beat _[#eamr]{.trn2}_."
+    [Zayd beat _[#eamr]{.trn2}_.]{.trans}
 
 In example (@sentence-zayd-beat-3amr-object-first) above,
 the direct doee
@@ -661,45 +825,45 @@ TODO: move to word order chapter:
 [النحو الوافي]{.ar} 2/54
 -->
 
-## Word order of the preposition and its governor
+## Word order of the preposition and its pertinentee
 
 <!--
 As a general tendency, a governor will typically precede its governee(s) in sentence word order.
 This is rule is more strict for some governor-governee relationships than for others.
 -->
-A prepositional phrase may freely precede its governor.^[[النحو الوافي]{.ar} 2/444A]
+A prepositional phrase may freely precede its pertinentee.^[[النحو الوافي]{.ar} 2/444A]
 This may be done for a number of purposes:
 
-##### To limit and particularize the effect of the governor to the noun following the preposition.^[[معاني النحو]{.ar} 3/121] {.unnumbered}
+##### To limit and particularize the effect of the pertinentee to the noun following the preposition.^[[معاني النحو]{.ar} 3/121] {.unnumbered}
 
 For example:
 
 (@ex000176) [وَمِنْهُ تَفَجَّرُ أَنْهَارُ الْجَنَّةِ]{.ar}
     [[[صحيح البخاري]{.ar} :2790](https://sunnah.com/bukhari:2790)]{.citex}  
-    "and from it originate the rivers of Paradise"
+    [and from it originate the rivers of Paradise]{.trans}
 
 (@ex000177) [وَعَلَى ٱللَّهِ فَلۡیَتَوَكَّلِ ٱلۡمُؤۡمِنُونَ]{.quran}
     [[[سورة آل عمران]{.ar} 3:122](https://quran.com/3/122) cited by [معاني النحو]{.ar} 3/121]{.citex}  
-    "and upon Allāh the believers should rely."  
+    [and upon Allāh the believers should rely.]{.trans}  
 
 ##### For drawing attention to the noun following the preposition^[[معاني النحو]{.ar} 3/121] {.unnumbered}
 
 (@ex000178) [وَٱللَّهُ بِمَا تَعۡمَلُونَ خَبِیرࣱ]{.quran}
     [[[سورة آل عمران]{.ar} 3:180](https://quran.com/3/180) cited by [معاني النحو]{.ar} 3/123]{.citex}  
-    "And Allāh, of what you do, is [fully] Aware."
+    [And Allāh, of what you do, is [fully] Aware.]{.trans}
 
 (@ex000179) [أَلِهَـٰذَا جَمَعْتَنَا]{.ar}
     [[[صحيح البخاري]{.ar} :4770](https://sunnah.com/bukhari:4770)]{.citex}  
-    "Is it for _this_ (that) you have gathered us?"
+    [Is it for _this_ (that) you have gathered us?]{.trans}
 
 (@ex000180) [وَبِٱلۡأَسۡحَارِ هُمۡ یَسۡتَغۡفِرُونَ]{.quran}
     [[[سورة الذاريات]{.ar} 51:18](https://quran.com/51/18)]{.citex}  
-    "And in the hours before dawn they would ask forgiveness"  
-    (The prepositional phrase [بِٱلْأَسْحَارِ]{.ar} is placed not just before its governor in the info [يَسْتَغْفِرُونَ]{.ar}, but also before the subject [هُمْ]{.ar}.)
+    [And in the hours before dawn they would ask forgiveness]{.trans}  
+    (The prepositional phrase [بِٱلْأَسْحَارِ]{.ar} is placed not just before its pertinentee in the info [يَسْتَغْفِرُونَ]{.ar}, but also before the subject [هُمْ]{.ar}.)
 
 
-When governing the preposition (and also the adverbs of time and place (section\ ref)),
-the placement of the governee is especially flexible.^[[شرح الرضي على الكافية]{.ar} 1/289D--290A]
+The placement of preposition (and also the adverbs of time and place (section\ ref)),
+is especially flexible compared to other governees.^[[شرح الرضي على الكافية]{.ar} 1/289D--290A]
 Even when the placement of the governees of a governor might be restricted in general,
 a license is often given to prepositions.
 For example, we saw in section\ (ref), that when a doer participle is prefixed with [ال]{.ar}, then its governees may not precede it.
@@ -707,7 +871,7 @@ So for example, we cannot say
 ✗ [هذا زيدا الضارب]{.ar}.
 We have to say instead
 ✓ [هذا الضارب زيدا]{.ar}.
-But an exception is made for the preposition which is governed by the doer participle.
+But an exception is made for the preposition which is pertinent to the doer participle.
 So we can say:
 
 (@ex000181) [أنا لك المرافق]{.ar}
@@ -752,7 +916,7 @@ Examples:
 Consider example (@sentence-zayd-beat-3amr) again:
 
 (@sentence-zayd-beat-3amr) [ضَرَبَ زَيْدٌ عَمْرًا]{.ar}  
-    "Zayd beat [#eamr]{.trn2}."
+    [Zayd beat [#eamr]{.trn2}.]{.trans}
 
 There are six possible permutations of word-order of the above example.
 

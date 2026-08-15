@@ -53,8 +53,13 @@ map_table["kufan"] = "[#kUf]{.trn2}an"
 map_table["basran"] = "[#baSr]{.trn2}an"
 
 
-# inna and its sisters
+# shorthand
+map_table["bi"] = "[بِ]{.ar}"
+map_table["fii"] = "[فِي]{.ar}"
+map_table["3alaa"] = "[عَلَىٰ]{.ar}"
+map_table["al"] = "[ال]{.ar}"
 map_table["ean"] = "[عَنْ]{.ar}"
+map_table["min"] = "[مِنْ]{.ar}"
 map_table["la"] = "[لَ]{.ar}"
 map_table["lan"] = "[لَنْ]{.ar}"
 map_table["lam"] = "[لَمْ]{.ar}"
@@ -176,10 +181,24 @@ map_table["jamid_noun"] = "primitive noun"
 map_table["active"] = "active" # "known-doer" verb?
 map_table["passive"] = "passive" # "unknown-doer" verb?
 
-# government
+# government, casify, case-ize , operate
+map_table["3amal"] = "government"
 map_table["3aamil"] = "governor"
 map_table["ma3mul"] = "governee"
-map_table["3amal"] = "government"
+map_table["3amil"] = "govern"
+map_table["3amiled"] = "governed"
+map_table["3amils"] = "governs"
+map_table["3amiling"] = "governing"
+
+map_table["i3timaad"] = map_table["3amal"] + " support"
+map_table["pregov"] = "foundational " + map_table["3amal"]# initial gov, pre-gov, foundational gov
+
+map_table["ta3alluq"] = "pertinence"
+map_table["muta3alliqbi"] = "pertinent to"
+map_table["muta3allaqbih"] = "pertinentee"
+
+
+
 map_table["3umdah"] = "indispensable" # indispensable, foundational, basic, load-bearing, structural
 map_table["fadlah"] = "dispensable" # dispensable, redundant, extra
 
@@ -231,12 +250,11 @@ map_table["fi3l_muakkad"] = "emphatic verb"
 map_table["haal"] = "[HAl]{.trn2}"
 map_table["waw_haal"] = "[و]{.ar} of " + map_table["haal"]
 
-map_table["i3timaad"] = "governing support"
 map_table["idaafah"] = "annexation"
 map_table["idh_sudden"] = "[إِذَا]{.ar} or suddenness"
 map_table["indir_mafulb"] = "indirect doee"
-map_table["pregov"] = "foundational government" # initial gov, pre-gov, foundational gov
 map_table["ism_fail"] = "doer participle"
+map_table["ism_fi3l"] = "ism_fi3l"
 map_table["ism_isharah"] = "pointing noun"
 map_table["ism_of"] = "subject"
 map_table["ism_maful"] = "doee participle"
@@ -262,7 +280,7 @@ map_table["fi3l_jawab_shart"] = map_table["jawab_shart"] + "-verb" # "condition-
 map_table["j_ism"] = "nounal sentence"
 map_table["j_f3l"] = "verbal sentence"
 
-map_table["kawn_3aam"] = "general beingness"
+map_table["kawn_3aam"] = map_table["muqaddar"] + " being"
 
 map_table["laam_ibt"] = "[لَ]{.ar} of beginning"
 map_table["laam_frq"] = "differentiator [لَ]{.ar}"
@@ -298,6 +316,7 @@ map_table["mutaddi"] = "transitive"
 map_table["mawsuf"] = "described noun"
 
 map_table["naib"] = "deputy"
+map_table["naib_faa3il"] = map_table["naib"] + " " + map_table["faa3il"]
 map_table["na3t"] = "attribute"
 map_table["nahy"] = "prohibition"
 map_table["nidaa"] = "vocative"

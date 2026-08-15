@@ -1,50 +1,125 @@
-# The government of the preposition
+# The ;ta3alluq; of the preposition
 
 ;wip_warn;
 
 
-## The need for governing the preposition
+## #;ta3alluq; vs ;3amal;
+
+In the Arabic grammatical model, 
+in order to bring a ;fadlah; ;case;ful element into a sentence, a suitable element of the original sentence must act as ;3aamil; of the new ;fadlah; element.
+For example, consider the sentence:
+
+(@ex_ta3alluq_darab_zayd_3amr) [ضَرَبَ زَيْدٌ عَمْرًا]{.ar}  
+    [Zayd beat ;3amr;.]{.trans}  
+
+In example (@ex_ta3alluq_darab_zayd_3amr) above,
+the basic sentence, with only
+;3umdah; elements is
+[ضَرَبَ زَيْدٌ]{.ar}.
+The ;case;ful noun [عَمْرًا]{.ar} is a ;mafulb;, which is a ;fadlah; element.
+And it can only be added to the basic sentence because it is ;3amiled; by the verb
+[ضَرَبَ]{.ar}.
+
+Prepositions are particles, not ;case;ful elements.
+But they can only be added to sentence when they are _;muta3alliqbi;_ a
+verb,
+or a verb-like element,
+like a ;masdar;, ;ism_fail;, etc..
+Consider the sentence:
+
+(@ex_ta3alluq_marartu_bizayd) [مَرَرْتُ بِزَيْدٍ]{.ar}  
+    [I passed by Zayd.]{.trans}  
+
+In example (@ex_ta3alluq_marartu_bizayd) above,
+the preposition [بِ]{.ar}
+(or the entire prepositional phrase
+[بِزَيْدٍ]{.ar})
+is ;muta3alliqbi; the verb
+[مَرَّ]{.ar}.
+And we will say that the verb
+[مَرَّ]{.ar}
+is the
+_;muta3allaqbih;_
+of the preposition
+(or prepositional phrase).
+
+In this sense, a prepositional phrase can be treated like pseudo-;case;ful ;fadlah; element.
+And the verb it is ;muta3alliqbi;,
+its ;muta3allaqbih;,
+can (loosely) be considered its
+;3aamil;.^[[@nahw_wafi@ 2/437](https://shamela.ws/book/10641/1168); [@maani_nahw@ 3/116](https://shamela.ws/book/17801/841); See also @owens_foundations_grammar@ 177]
+This similitude between
+;ta3alluq; and ;3amal;
+can be seen in the following example:
+
+(@ex000143) [مَرَرْتُ بِزَيْدٍ وَعَمْرًا]{.ar}
+    ^[Not all grammarians permit this. See @ali_hani_ta3alluq@ footnote 34 for details.]  
+    [composed from [@ibn_ya3ish_mufassal@ 4/300](https://shamela.ws/book/13301/1664)]{.citex}  
+    [I passed by Zayd and [#eamr]{.trn2}.]{.trans}
+
+In example (@ex000143) above,
+the preposition [ب]{.ar}
+is ;muta3alliqbi; the verb
+[مَرَّ]{.ar}.
+And once it is added,
+the second ;maful; [عَمْرو]{.ar} can (optionally) be added as a ;mafulb;
+(in the ;acase;).
+So we can say that
+the prepositional phrase
+[بِزَيْدٍ]{.ar}
+is like a pseudo-;mafulb;,
+And that
+the verb
+[مَرَّ]{.ar}
+;3amils;
+the prepositional phrase
+[بِزَيْدٍ]{.ar}
+in the ;acase;.^[See also @kasher_intransitive_verb@ §3.1 124 citing [ابن جني]{.ar}; @nahw_wafi@ 2/439; @owens_foundations_grammar@ 176 citing [المبرد]{.ar}, [ابن جني]{.ar}, [الزجاجي]{.ar}.]
+
+Of course the more usual 
+[مَرَرْتُ بِزَيْدٍ وَعَمْرٍو]{.ar}
+and
+[مَرَرْتُ بِزَيْدٍ وَبِعَمْرٍو]{.ar}
+are also permitted.
+
+<!--
+And they ;3amil; the noun following them in the ;icase;.
+However, they,
+can be treated as pseudo-;acase; elements
 
 In the Arabic grammatical model, prepositional phrases are ;fadlah; elements.
-In order to bring a ;fadlah; ;case;ful element into a sentence, a suitable element of the original sentence must act as governor of the new ;fadlah; element.
+In order to bring a ;fadlah; ;case;ful element into a sentence, a suitable element of the original sentence must act as ;3aamil; of the new ;fadlah; element.
 For example, consider the sentence
 
 (@ex000142) [جَلَسَ زَيْدٌ]{.ar}  
-    "Zayd sat."
+    [Zayd sat.]{.trans}
 
 We would like to add the prepositional phrase
 [عَلَى ٱلْأَرْضِ]{.ar}
-"on the ground" to the sentence, thus:
+[on the ground]{.trans} to the sentence, thus:
 
 (@sentence-verb-gov-prep-zayd-sat-ground) [جَلَسَ زَيْدٌ عَلَى ٱلْأَرْضِ]{.ar}  
-    "Zayd sat on the ground."
+    [Zayd sat on the ground.]{.trans}
 
 In order to do this, a suitable element in the original sentence 
 ([جَلَسَ زَيْدٌ]{.ar})
-must act as the governor for the preposition
+must act as the ;3aamil; for the preposition
 [عَلَىٰ]{.ar}.
 The verb
 [جَلَسَ]{.ar}
 is this suitable element.
 
 Now, you may be thinking:
-we introduced the concept of government for determining the ;case; of an element.
-But prepositions don't have ;case;. So why should they need to be governed, and in what manner may they be governed?
+we introduced the concept of ;3amal; for determining the ;case; of an element.
+But prepositions don't have ;case;. So why should they need to be ;3amiled;, and in what manner may they be ;3amiled;?
 
 This is a valid objection. 
-"Governing" a preposition is definitively problematic.^[@owens_foundations_grammar@ 177]
+_#;3amiling;_ a preposition is definitively problematic.^[@owens_foundations_grammar@ 177]
 However, we can work around this problem with the following reasoning:
 
-<!--
-The preposition
-[عَلَىٰ]{.ar}
-is followed by the
-[ٱلْأَرْضِ]{.ar}
-in the ;icase;.
--->
 The noun
 [ٱلْأَرْضِ]{.ar}
-is governed by the preposition
+is ;3amiled; by the preposition
 [عَلَىٰ]{.ar}
 and not directly by the verb
 [جَلَسَ]{.ar}
@@ -52,19 +127,19 @@ This is because it is the preposition which _causes_ the noun following it to be
 In order to bring the ;fadlah; (;case;ful) element
 [ٱلْأَرْض]{.ar}
 in the sentence,
-we have to establish an unbroken chain of ;3aamil;-;ma3mul; dependencies that links back to a governing element in the original sentence.
+we have to establish an unbroken chain of ;3aamil;-;ma3mul; dependencies that links back to a ;3amiling; element in the original sentence.
 Saying that
 [عَلَىٰ]{.ar}
-is governed by
+is ;3amiled; by
 [جَلَسَ]{.ar}
 allows us to accomplish this.
 So
 [جَلَسَ]{.ar}
-will govern
+will ;3amil;
 [عَلَىٰ]{.ar}.
 And
 [عَلَىٰ]{.ar}
-will govern
+will ;3amil;
 [ٱلْأَرْض]{.ar}.
 
 
@@ -74,7 +149,7 @@ Another way to look at this is that a prepositional phrase may be parsed (virtua
 Consider the example:
 
 (@sentence-pass-zayd) [مَرَرْتُ بِزَيْدٍ]{.ar}  
-    "I passed by Zayd."
+    [I passed by Zayd.]{.trans}
 
 In the above example, the prepositional phrase
 [بِزَيْدٍ]{.ar}
@@ -84,59 +159,59 @@ For example:
 
 (@ex000143) [مَرَرْتُ بِزَيْدٍ وَعَمْرًا]{.ar}
     ^[Not all grammarians permit this. See @ali_hani_ta3alluq@ footnote 34 for details.]  
-    "I passed by Zayd and [#eamr]{.trn2}."
+    [I passed by Zayd and [#eamr]{.trn2}.]{.trans}
 
 Of course the more usual 
 [مَرَرْتُ بِزَيْدٍ وَعَمْرٍو]{.ar}
 is also permitted.
 
-So we can consider the verb as governing the entire prepositional phrase in the ;acase;.
-And within the prepositional phrase, the preposition governs its following noun in the ;icase;.
+So we can consider the verb as ;3amiling; the entire prepositional phrase in the ;acase;.
+And within the prepositional phrase, the preposition ;3amils; its following noun in the ;icase;.
 
 ADD DIAGRAM
-
+-->
 
 
 <!--
 ([جَلَسَ زَيْدٌ]{.ar}).
-it has to be by means of its governor
+it has to be by means of its ;3aamil;
 [عَلَىٰ]{.ar}.
 So if we say that
 [عَلَىٰ]{.ar}
-is governed by
+is ;3amiled; by
 [جَلَسَ]{.ar}
 then this allows us to establish the necessary link of dependencies
 
 So saying that
 [عَلَىٰ]{.ar}
-is governed by
+is ;3amiled; by
 [جَلَسَ]{.ar}
-allows us to have a (necessarily) unbroken dependency of governorns to add the ;fadlah; (and ;case;ful) element 
+allows us to have a (necessarily) unbroken dependency of ;3aamil;ns to add the ;fadlah; (and ;case;ful) element 
 [ٱلْأَرْض]{.ar}.
 -->
 
-## Prepositions not needing a governor
+## Prepositions not needing a ;muta3allaqbih;
 
-What we have just said regarding a preposition requiring a governor is true of _essential_ prepositions.
+What we have just said regarding a preposition requiring a ;muta3allaqbih; is true of _essential_ prepositions.
 An essential preposition is that which, by its addition, gives a distinctly new meaning to the sentence.
-They are also used to connect an indirect ;maful; to its governing verb.
-The preposition [ب]{.ar} in (@sentence-pass-zayd) [مَرَرْتُ بِزَيْدٍ]{.ar} is an example of an essential preposition.
+They are also used to connect an indirect ;maful; to its ;3amiling; verb.
+The preposition [ب]{.ar} in (@ex_ta3alluq_marartu_bizayd) [مَرَرْتُ بِزَيْدٍ]{.ar} is an example of an essential preposition.
 
 There also exist _non-essential_ prepositions.
 These merely give emphasis to an existing meaning in the sentence.
-Non-essential prepositions do not need a governor.
+Non-essential prepositions do not need a ;muta3allaqbih;.
 Here is an example of a non-essential preposition:
 
 (@ex000144) [ما جاء من رجلٍ]{.ar}
     [@ali_hani_ta3alluq@]{.citex}  
-    "Not a man came."
+    [Not a man came.]{.trans}
 
 The preposition [مِنْ]{.ar} only emphasizes the meaning of the sentence.
-If we drop if the basic meaning would remain the same:
+If we drop it the basic meaning would remain the same:
 
 (@ex000145) [ما جاء رجلٌ]{.ar}
     [@ali_hani_ta3alluq@]{.citex}  
-    "Not a man came."
+    [Not a man came.]{.trans}
 
 By the way,
 [مِنْ]{.ar} happens to be a non-essential preposition in the example above.
@@ -144,190 +219,273 @@ But it may be an essential preposition in other sentences.
 For example:
 
 (@ex000146) [خَرَجَ زَيْدٌ مِنَ ٱلْبَيْتِ]{.ar}  
-    "Zayd came out from the house."
+    [Zayd came out from the house.]{.trans}
 
-## Valid governors of the preposition
+## Valid ;muta3allaqbih;s of the preposition
 
-The verb is the typical governor of the preposition.
-We have already given an example of a verb governing a prepostion: (@sentence-verb-gov-prep-zayd-sat-ground) [جَلَسَ زَيْدٌ عَلَى ٱلْأَرْضِ]{.ar}.
-Besides the verb, nouns that have the effect of a verb may also govern the preposition.
+The preposition is usually ;muta3alliqbi; a verb,
+as in example (@ex_ta3alluq_marartu_bizayd) above.
+Besides the verb,
+the preposition can also be ;muta3alliqbi; verb-like nouns.
 Such nouns include:
+
+##### The ;ism_fi3l; {.unnumbered}
+
+For example:
+
+(@) [نَزَالِ فِي الْبَاخِرَةِ]{.ar}
+    [[@nahw_wafi@ 2/440](https://shamela.ws/book/10641/1171)]{.citex}  
+    [Descend into the steamship!]{.trans}  
+    The preposition ;fii; is ;muta3alliqbi; the ;ism_fi3l; [نَزَالِ]{.ar}.
+
 
 ##### The ;masdar; {.unnumbered}
 
-Also included are ;mushtaqq; nouns like:
+For example:
 
-##### The ;ism_fail; {.unnumbered}
+(@) [السُّكُوت عَنِ السَّفِيهِ جَوَابٌ]{.ar}
+    [[@nahw_wafi@ 2/440](https://shamela.ws/book/10641/1171)]{.citex}  
+    [Being quiet with the foolish one is an answer.]{.trans}  
+    The preposition ;ean; is ;muta3alliqbi; the ;masdar; [السُّكُوت]{.ar}.  
 
-##### The ;ism_maful; {.unnumbered}
+The ;ism_marrah;,
+;ism_hay2ah;,
+;mmimi;,
+and
+;msinai;
+are also included in this category.^[[@nahw_wafi@ 2/440 footnote 1](https://shamela.ws/book/10641/1171)]
 
-##### The ;sifah_mush; {.unnumbered}
+##### The ;mushtaqq; nouns {.unnumbered}
 
-##### The ;sighah_mub;s {.unnumbered}
+The ;mushtaqq; nouns include
+the ;ism_fail;,
+;ism_maful;,
+;sifah_mush;, etc.
+Here are some examples:
 
-##### The ;af3al; {.unnumbered}
+(@) [أَنا سَائِرٌ فِي الطَّرِيقِ]{.ar}
+    [[@maani_nahw@ 3/113](https://shamela.ws/book/17801/838)]{.citex}  
+    [I am travelling in the path.]{.trans}  
+    The preposition ;fii; is ;muta3alliqbi; the ;ism_fail; [سَائِر]{.ar}.  
+
+(@) [فَرِحِینَ بِمَاۤ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضۡلِهِۦ]{.quran}
+    [@https://quran.com/3/170@]{.citex}  
+    [Rejoicing in what Allāh has bestowed upon them of His bounty.]{.trans}  
+    The preposition ;bi; is analyzed to be ;muta3alliqbi; the ;sifah_mush; [فَرِحِينَ]{.ar}.^[@https://tafsir.app/aljadwal/3/170@]
+
+By the way,
+one of the conditions that allow
+;mushtaqq; nouns
+(not defined by ;al;)
+to ;3amil; a ;acase; ;ma3mul;
+is that they must signify an imperfect (progressive or future) aspect,
+not a perfect aspect
+(see @sec-shuroot_i3maal_ism_faa3il).
+So, for example,
+we cannot say:
+
+(@) ;x; [هَذَا ضَارِبٌ زَيْدًا أَمْسِ]{.ar}
+    [@ibn_aqil_alfiyyah@ 3/106]{.citex}  
+    [This [person] beat Zayd yesterday.]{.trans}  
+    (See @sec-dharf_i3maal_mushtaqq_perfect for how [أَمْسِ]{.ar} is ;3amiled;.)  
+
+
+However, in the case of a preposition being ;muta3alliqbi; a ;mushtaqq; noun,
+it seems that it can do so with a perfect aspect.
+For example:
+
+(@) [أَتَانِي اللَّيْلَةَ آتِيَانِ فَابْتَعَثَانِي، فَانْتَهَيْنَا إِلَى مَدِينَةٍ **مَبْنِيَّةٍ بِلَبِنِ ذَهَبٍ** وَلَبِنِ فِضَّةٍ]{.ar}
+    [@https://sunnah.com/bukhari:4674@]{.citex}  
+    [Two [persons] came to me last night (in my dream) and they took me. We came to a city **built with gold bricks** and silver bricks.]{.trans}  
+    [مَبْنِيَّة]{.ar} has a perfective aspect, yet ;bi; is ;muta3alliqbi; it.
+
+Similarly, in the ;ayah;:
+
+(@) [أَتَعۡلَمُونَ أَنَّ صَـٰلِحࣰا **مُّرۡسَلࣱ مِّن** رَّبِّهِۦۚ]{.quran}
+    [@https://quran.com/7/75@]{.citex}  
+    [Do you [actually] know that Ṣāliḥ is **sent from** his Lord?]{.trans}
+
+the preposition ;min; is analyzed to be ;muta3alliqbi; the ;ism_maful; [مُرْسَلٌ]{.ar}.^[@https://tafsir.app/aljadwal/7/75@]
+
 
 <!--
-Even ;mushtaqq; nouns that don't typically govern a ;mafulb; 
+Even ;mushtaqq; nouns that don't typically ;3amil; a ;mafulb; 
 (like the ;ism_zaman; and the ;ism_makan;)
-are permitted to govern a preposition^[@nahw_wafi@ 2/440 citing @sabban@ 2/443. But [#abU #HayyAn]{.trn2} did not allow this (see ).]:
+are permitted to ;3amil; a preposition^[@nahw_wafi@ 2/440 citing @sabban@ 2/443. But [#abU #HayyAn]{.trn2} did not allow this (see ).]:
 -->
 
-Grammarians differ regarding whether the 
-the ;ism_zaman; and the ;ism_makan;
-are permitted to govern a preposition.
-Some grammarians allow them to govern prepositions.^[@nahw_wafi@ 2/440 citing @sabban@ 2/443]
-Others disagree.^[@ibn_jinni_khasaais@ 2/209]
-Here are examples (considering them permissible) as governors:
+Some ;mushtaqq; nouns do not ;3amil; a ;acase; ;ma3mul;,
+like
+the ;ism_zaman; and the ;ism_makan;.
+However, some grammarians
+still allowed prepositions to be ;muta3alliqbi; them.^[@nahw_wafi@ 2/440 citing @sabban@ 2/443]
+Others disagreed and did not permit them to do so.^[@ibn_jinni_khasaais@ 2/209]
+Examples:
 
 ##### The ;ism_zaman; {.unnumbered}
 
 (@ex000147) [انقضى مسعاك لتأييد الحق]{.ar}
     [@nahw_wafi@ 2/440]{.citex}  
-    "Your [period of] effort for aiding the truth has ended."
+    [Your [period of] effort for aiding the truth has ended.]{.trans}
 
 ##### The ;ism_makan; {.unnumbered}
 
 (@ex000148) [رأيت مدخلك إلى الدار]{.ar}
     [@sabban@ 2/443]{.citex}  
-    "I saw your [place of] entrance to the house."
+    [I saw your [place of] entrance to the house.]{.trans}
 
+##### A ;jamid_noun; when used metaphorically {.unnumbered}
 
-Also permitted as governorns are ;jamid_noun;s used with an adjectival meaning.
+A preposition may also be ;muta3alliqbi; a non-;mushtaqq; noun
+if it is used methaphorically with an adjectival meaning.
 For example:
 
-## One governor governing multiple prepositions
+(@) [هُوَ أَسَدٌ فِي الْمَعْرَكَةِ]{.ar}
+    [[@maani_nahw@ 3/113](https://shamela.ws/book/17801/838)]{.citex}  
+    [He is a lion in the battle.]{.trans}  
+    The preposition ;fii; is ;muta3alliqbi; [أَسَدٌ]{.ar} because it means [brave]{.trans} here.
 
-One governor can govern multiple different prepositions with no problems.
+## Multiple prepositions ;muta3alliqbi; the same ;muta3allaqbih;
+
+Multiple prepositions,
+as long as they are different,
+can all be ;muta3alliqbi; the same ;muta3allaqbih; with no problem.
 For example:
 
-But if the multiple governees are the same prepositon, then in general they may not be governed by the same governor.^[@nahw_wafi@ 2/444 footnote 3]
+(@ex_ta3alluq_marartu_bizaydin_filbaadiyah) [مَرَرْتُ بِزَيْدٍ فِي ٱلْبَادِيَةِ]{.ar}  
+    [I passed by Zayd in the desert.]{.trans}
+
+In example (@ex_ta3alluq_marartu_bizaydin_filbaadiyah) above,
+both ;fii; and ;bi; are ;muta3alliqbi; the verb [مَرَّ]{.ar}.
+
+If the multiple prepositions are the same, then in general they may not be ;muta3alliqbi; the same ;muta3allaqbih;.^[@nahw_wafi@ 2/444 footnote 3]
 So we can't say:
 
 (@ex000149) ;x; [مَرَرْتُ بِزَيْدٍ بِعَمْرٍو]{.ar}
     [@tasreeh_hashiyat_yasin@ 1/378]{.citex}  
-    "I passed by Zayd by [#eamr]{.trn2}"  
+    [I passed by Zayd by [#eamr]{.trn2}.]{.trans}  
     (although, separting the second preposition with a ;3atf; is of course allowed: [مَرَرْتُ بِزَيْدٍ وَبِعَمْرٍو]{.ar}.)
 
-But if the same preposition is used with different meanings then it is permissible to have them being governed by the same governor.
+But if the same preposition is used with different meanings then it is permissible for them all to be ;muta3alliqbi; the same ;muta3allaqbih;.
 For example:
 
 (@ex000150) [مَرَرْتُ بِزَيْدٍ بِٱلْبَادِيَةِ]{.ar}
     [@tasreeh_hashiyat_yasin@ 1/378]{.citex}  
-    "I passed _by_ Zayd _in_ the desert."
+    [I passed _by_ Zayd _in_ the desert.]{.trans}
 
 If the first preposition restricts the verb, and the second preposition is applied after the verb has been restricted, then too may the multiple same prepositions be used.^[@nahw_wafi@ 2/444 footnote 3]
 For example:
 
 (@ex000151) [كُلَّمَا رُزِقُوا۟ مِنۡهَا مِن ثَمَرَةࣲ رِّزۡقࣰا]{.quran}
     [@https://quran.com/2/25@]{.citex}  
-    (The first [مِنْ]{.ar} restricts the governing verb [رُزِقُوا]{.ar} to [ٱلْجَنًّات]{.ar} "the gardens". And the second [مِنْ]{.ar} is restricted to "from the fruit from the gardens."^[@https://tafsir.app/kashaf/2/25@])
+    [Whenever they are provided with a provision of fruit therefrom]{.trans}  
+    (The first [مِنْ]{.ar} restricts the ;muta3allaqbih; verb [رُزِقُوا]{.ar} to [ٱلْجَنًّات]{.ar} [the gardens]{.trans}. And the second [مِنْ]{.ar} is restricted to [the fruit of the gardens.]{.trans}^[@https://tafsir.app/kashaf/2/25@])
 
-## A meaningful connection between the preposition and its governor
+## A meaningful connection between the preposition and its ;muta3allaqbih;
 
-In order for a preposition to be governed by a governor,
-there needs to be a meaningful connection between the governor and the governed prepositional phrase.^[@nahw_wafi@ 2/442D--445, @maani_nahw@ 3/131--133]
+In order for a prepositional phrase to be ;muta3alliqbi; a ;muta3allaqbih;,
+there needs to be a meaningful connection between them.^[@nahw_wafi@ 2/442D--445, @maani_nahw@ 3/131--133]
 
 Consider the following example:
 
 (@ex000152) [شَبَّهْتُ خَالِدًا وَهُوَ يَجُودُ بِمَالِهِ بِٱلْبَحْرِ]{.ar}
     [@maani_nahw@ 3/131]{.citex}  
-    "I likened [#xAlid]{.trn2}, while he (was) being generous with his wealth, with the sea."  
-    (The [و]{.ar} in [وَهُوَ يَجُودُ]{.ar} is translated as "while." See section\ (ref).)
+    [I likened [#xAlid]{.trn2}, while he (was) being generous with his wealth, with the ocean.]{.trans}  
+    (The [و]{.ar} in [وَهُوَ يَجُودُ]{.ar} is translated as [while]{.trans}. See section\ (ref).)
 
 In the above example,
 the prepositional phrase
-[بِٱلبَحْرِ]{.ar} "with the sea"
+[بِٱلبَحْرِ]{.ar} [with the ocean]{.trans}
 is meaningfully connected to the verb
-[شَبَّهَ]{.ar} "to liken,"
+[شَبَّهَ]{.ar} [to liken]{.trans}
 not with the verb 
-[يَجُودُ]{.ar} "to be generous."
-Therefore, it is
-[شَبَّهَ]{.ar}
-that governs
-the preposition in
+[يَجُودُ]{.ar} [to be generous]{.trans}.
+Therefore,
+the prepositional phrase
 [بِٱلبَحْرِ]{.ar},
-not
+is ;muta3alliqbi; the verb
+[شَبَّهَ]{.ar},
+not the verb
 [يَجُودُ]{.ar}.
 
 Similarly,
 the prepositional phrase
-[بِمَالِهِ]{.ar} "with his wealth"
+[بِمَالِهِ]{.ar} [with his wealth]{.trans}
 is meaningfully connected to the verb
-[يَجُودُ]{.ar} "to be generous,"
+[يَجُودُ]{.ar} [to be generous]{.trans},
 not with the verb
-[شَبَّهَ]{.ar} "to liken."
-Therefore, it is
-[يَجُودُ]{.ar}
-that governs
-the preposition in
+[شَبَّهَ]{.ar} [to liken]{.trans}.
+Therefore,
+the prepositional phrase
 [بِمَالِهِ]{.ar},
-not
+is ;muta3alliqbi; the verb
+[يَجُودُ]{.ar},
+not the verb
 [شَبَّهَ]{.ar}.
 
 Here is another example:
 
 (@ex000153) [ٱلۡیَوۡمَ یَىِٕسَ ٱلَّذِینَ كَفَرُوا۟ مِن دِینِكُمۡ]{.quran}
     [@https://quran.com/5/3@ cited by @maani_nahw@ 3/131]{.citex}  
-    "This day those who disbelieve have despaired of [defeating] your religion;"
+    [This day those who disbelieve have despaired of [defeating] your religion;]{.trans}
 
 In the above example,
 the prepositional phrase
 [مِنْ دِينِكُمْ]{.ar} "of your religion
 is meaningfully connected to the verb
-[يَئِسَ]{.ar} "to despair,"
+[يَئِسَ]{.ar} [to despair]{.trans},
 not with the verb 
-[كَفَرَ]{.ar} "to disbelieve"
-Therefore, it is
-[يَئِسَ]{.ar}
-that governs
-the preposition in
+[كَفَرَ]{.ar} [to disbelieve]{.trans}
+Therefore,
+the prepositional phrase
 [مِنْ دِينِكُمْ]{.ar}
-not
+is ;muta3alliqbi; the verb
+[يَئِسَ]{.ar},
+not the verb
 [كَفَرَ]{.ar}.^[@https://tafsir.app/aldur-almasoon/5/3@]
 
-## The combination of verbs with prepostions: the indirect ;maful;
+## The intransitive verb with a preposition: the indirect ;maful;
 
 In theory,
 prepositions impart their own meanings.^[@kasher_intransitive_verb@ §2.7 124]
-And there is no restriction on which prepositions may be used with a given governing verb (or verbal noun),
-as long as the prepositional phrase be meaningfully connected with its governor.^[@nahw_wafi@ 2/161]
+And there is no restriction on which prepositions may be used with a given ;3amiling; verb (or verbal noun),
+as long as the prepositional phrase be meaningfully connected with its ;3aamil;.^[@nahw_wafi@ 2/161]
 
-The following examples show a possible set of prepositions that are meaningfully governed by the verb
-[ٱنْصَرَفَ]{.ar} "to turn around, leave":
+The following examples show a possible set of prepositions that are meaningfully ;3amiled; by the verb
+[ٱنْصَرَفَ]{.ar} [to turn around, leave]{.trans}:
 
 (@ex000154) [ٱنْصَرَفَ إِلَىٰ مَصْنَعِهِ]{.ar}
     [@nahw_wafi@ 2/161]{.citex}  
-    "He left to his workplace."
+    [He left to his workplace.]{.trans}
 
 (@ex000155) [ٱنْصَرَفَ مِنَ ٱلْمَصْنَعِ إِلَىٰ بَيْتِهِ]{.ar}
     [@nahw_wafi@ 2/161]{.citex}  
-    "He left from the workplace to his house."
+    [He left from the workplace to his house.]{.trans}
 
 (@ex000156) [ٱنْصَرَفَ ٱلْعَالِمُ عَنِ ٱلْهَزْلِ]{.ar}
     [@nahw_wafi@ 2/161]{.citex}^[See also [لَمَّا كَانَ يَوْمَ أُحُدٍ انْهَزَمَ النَّاسُ عَنِ النَّبِيِّ صلى الله عليه وسلم]{.ar} [@https://sunnah.com/bukhari:4064@]{.citex}]  
-    "The scholar left off joking."
+    [The scholar left off joking.]{.trans}
 
 (@ex000157) [ٱنْصَرَفَ فِي سَيَّارَتِهِ]{.ar}
     [@nahw_wafi@ 2/161]{.citex}  
-    "He left in his caravan."
+    [He left in his caravan.]{.trans}
 
 Having said that,
 in practice,
 certain verbs are more meaningfully connected with certain prepositions, sometimes almost to the exclusion of others.^[@kasher_intransitive_verb@ §3.3]
 For example, the verb
-[أَقْسَمَ]{.ar} "to swear"
+[أَقْسَمَ]{.ar} [to swear]{.trans}
 requires the preposition [بِ]{.ar} in order to transit to what is being sworn by.^[@kasher_intransitive_verb@ §3.3 129 citing [ابن الأنباري]{.ar}]
 For example,
 
 (@ex000158) [أقسم بالله]{.ar}
     [@anbari_asrar@ 203]{.citex}  
-    "I swear by [#allAh]{.trn2}"
+    [I swear by [#allAh]{.trn2}]{.trans}
 
-The combination of a verb and its governed preposition can even acquire a specific meaning.
+The combination of a verb and its ;3amiled; preposition can even acquire a specific meaning.
 Consider, for example, the verb
 [وَجَدَ]{.ar}.
-It's basic meaning is "to find."
+It's basic meaning is [to find]{.trans}.
 It may be used with prepositions like
 [بِ]{.ar},
 [عَلَىٰ]{.ar},
@@ -336,13 +494,13 @@ with this basic meaning.
 For example:
 
 (@ex000159) [وَجَدْتُ ٱلْكِتَابَ بِجَهْدٍ]{.ar}  
-    "I found the book with effort."
+    [I found the book with effort.]{.trans}
 
 (@ex000160) [وَجَدْتُ ٱلْكِتَابَ فِي ٱلْبَيْتِ]{.ar}  
-    "I found the book in the house."
+    [I found the book in the house.]{.trans}
 
 (@ex000161) [وَجَدْتُ ٱلْكِتَابَ عَلَى ٱلْخِزَانَةِ]{.ar}  
-    "I found the book on the cupboard."
+    [I found the book on the cupboard.]{.trans}
 
 But this verb also has specific meanings when used with these prepositions and certain indirect ;maful;s
 (albeit possibly with different ;masdar;s).
@@ -350,39 +508,43 @@ For example:
 
 (@ex000162) [وَجَدَ عَلَيْهِ]{.ar}
     [Lane: root [وجد]{.ar}]{.citex}  
-    "He was angry with him."
+    [He was angry with him.]{.trans}
 
 (@ex000163) [وَجَدَ بِهَا]{.ar}
     [Lane: root [وجد]{.ar}]{.citex}  
-    "He loved her."
+    [He loved her.]{.trans}
 
 (@ex000164) [قَدْ وَجَدَ فِي نَفْسِهِ عَلَىَّ]{.ar}
     [@https://sunnah.com/muslim:1649b@]{.citex}  
-    "he may have some feelings against me"
+    [he may have some feelings against me]{.trans}
 
 In such cases, the preposition almost seems to lose some of its independent meaning.
 Instead, the meaning of the expression is obtained from the combination of the verb with the prepostion.
 
-## The ;taqdir; of ;kawn_3aam;
+## #;kawn_3aam;
 
 Consider the sentence:
 
 (@sentence-zayd-in-house) [زَيْدٌ فِي ٱلدَّارِ]{.ar}
     [@ibn_aqil_alfiyyah@ 2/211]{.citex}  
-    "Zayd is in the house."
+    [Zayd is in the house.]{.trans}
 
 We mentioned in section\ (ref) above,
-that the governor of a preposition must be a verb, or what has the effect of a verb.
-But we find no such word in the sentence above.
-So what then is the governor of the preposition [فِي]{.ar}?
+that a preposition 
+needs to be ;muta3alliqbi;
+a verb (or a verb-like noun).
+But we find no such ;muta3allaqbih; in the sentence above.
+So how then can the preposition [فِي]{.ar} be justified?
 
 In order to remain consistent with the Arabic grammatical model,
-we _;qaddar;_
-a governor.
-This ;muqaddar; governor has the meaning given by the verb "is" or its verbal noun "being".
-We will refer to it as _;kawn_3aam;_.
+we 
+;qaddar;
+a ;muta3allaqbih;.
+This ;muqaddar; ;muta3allaqbih; is
+called
+_;kawn_3aam;_.
 
-In Arabic grammatical terminology,
+In the ;agt;,
 ;kawn_3aam; is represented by the verb
 [ٱسْتَقَرَّ]{.ar}
 or its ;ism_fail;
@@ -393,86 +555,87 @@ which is the ;ism_fail; of the verb
 [كَانَ]{.ar}.
 
 Using these representations of ;kawn_3aam;,
-we can explicate
-(one interpretation of)
-example (@sentence-zayd-in-house) [زَيْدٌ فِي ٱلدَّارِ]{.ar} as:
+the ;taqdir; of
+example (@sentence-zayd-in-house) above is:
 
 (@sentence-zayd-in-house-explicit) [زَيْدٌ [مُسْتَقِرٌّ] فِي ٱلدَّارِ]{.ar}  
-    "Zayd is [being] in the house."
+    [Zayd is [being] in the house.]{.trans}
 
-The word "being" is not really needed in the translation because the verb "is" conveys the same concept.
+The word [being]{.trans} is not really needed in the translation because the verb [is]{.trans} conveys the same concept.
 But we have added it to explicate the involvement of ;kawn_3aam; in the grammar of the sentence.
 
 Note that
 ;qaddaring; ;kawn_3aam; in a sentence 
 as we did in example (@sentence-zayd-in-house-explicit) above
 is not same as if the words
-[ٱسْتَقَرَّ]{.ar} "to settle",
-[مُسْتَقِرّ]{.ar} "settled",
+[ٱسْتَقَرَّ]{.ar} [to settle]{.trans},
+[مُسْتَقِرّ]{.ar} [settled]{.trans},
 or
-[كَائِن]{.ar} "being"
-were actually expressed.
-When expressed, they impart their own meaning.
+[كَائِن]{.ar} [being]{.trans}
+were actually expressed in ;surfsp;.
+When expressed in ;surfsp;, they impart their own meaning.
 For example
 
 (@ex000165) [زَيْدٌ مُسْتَقِرٌّ فِي ٱلدَّارِ]{.ar}  
-    "Zayd is settled in the house."
+    [Zayd is settled in the house.]{.trans}
 
-When ;qaddaring; ;kawn_3aam; we only use the words
+When using
 [ٱسْتَقَرَّ]{.ar},
 [مُسْتَقِرّ]{.ar},
 and
 [كَائِن]{.ar}
-terminologically.
+to represent ;kawn_3aam;,
+we only do so because we need some words to express this concept and
+these words give a meaning which is near enough
+(see @sec-agt_taqdir_representation_not_real).
 In fact, according to the prevalent opinion among the grammarians,
 ;kawn_3aam; can only be ;muqaddar;.^[@nahw_wafi@ 1/477]
 If one of these (or any other) words is actually expressed,
 then it will impart a specific meaning, not the meaning of ;kawn_3aam;.
-Having said that, some grammarians did permit ;kawn_3aam; to be expressed.^[@ibn_aqil_alfiyyah@ 2/211 footnote]
+Having said that, some grammarians did permit ;kawn_3aam; to be expressed in ;surfsp;.^[@ibn_aqil_alfiyyah@ 2/211 footnote]
 
-## #;muqaddar; ;kawn_3aam; as the ;xabar; of a sentence
+## #;kawn_3aam; as the ;xabar; of a sentence
 
 The ;taqdir; of ;kawn_3aam; in the sentence
 in example (@sentence-zayd-in-house) [زَيْدٌ فِي ٱلدَّارِ]{.ar}
 solves another problem for us.
-Remember how we said that, in the Arabic grammatical model,
-the preposition is a ;fadlah; element.
+The preposition is a ;fadlah; element.
 So if we remove it (and the following ;icase; noun [ٱلدَّار]{.ar}) from the sentence,
 we should still be left with a complete sentence.
 Let's try doing that:
 
 (@ex000166) [زَيْدٌ [مُسْتَقِرٌّ]]{.ar}  
-    "Zayd is [being]."
+    [Zayd is [being].]{.trans}
 
-See how the ;muqaddar; ;kawn_3aam; serves as the ;3umdah; ;musnad;: the ;xabar;.
+See how the ;kawn_3aam; serves as the ;3umdah; ;musnad;: the ;xabar;.
 If we were to not ;qaddar; ;kawn_3aam;, we would be left with a grammatically incomplete sentence.
 
 We also take this opportunity to explain an apparent inconsistency.
 Back in chapter\ (ref),
 we had said that a prepositional phrase can be the ;xabar; of a sentence.
-We now state that, strictly speaking, it is the (;muqaddar;) governor of the prepostion which is the ;xabar;.
+We now state that, strictly speaking, it is the (;muqaddar;) ;muta3allaqbih; of the prepostion which is the ;xabar;.
 But because the actual ;xabar; is ;muqaddar; and is not expressed, we can say, loosely speaking,
 that the prepositional phrase is the ;xabar;.
 
 This approach of applying a terminological label differently when loosely speaking vs when strictly speaking is common.^[@nahw_wafi@ 1/215, 2/118, 2/442]
 We will see other examples of it in sections\ (refs) ;ia;.
 
-## Other ;muqaddar; governors besides ;kawn_3aam;
+## Other ;muqaddar; ;muta3allaqbih;s besides ;kawn_3aam;
 
 While ;kawn_3aam; is necessarily ;muqaddar; and never expressed (see section\ (ref) above),
-other governors of prepositions too may be optionally suppressed.
-This is done on the condition that that the overall meaning or context supplies the meaning of the suppressed governor.^[@nahw_wafi@ 2/447 footnote]
+other ;muta3allaqbih;s of prepositions too may be optionally ;muqaddar;.
+This is done on the condition that that the overall meaning or context supplies the meaning of the ;muqaddar; ;muta3allaqbih;.^[@nahw_wafi@ 2/447 footnote]
 For example:
 
 (@ex000167) [ٱلۡحُرُّ بِٱلۡحُرِّ]{.quran}
     [@https://quran.com/2/178@ cited by @nahw_wafi@ 2/447]{.citex}  
-    "the free for the free"
+    [the free for the free]{.trans}
 
 In the above example,
-the ;xabar; has been analyzed as the ;muqaddar; governor
-[يَقْتَصُّ]{.ar} "is retributed against"
+the ;xabar; has been analyzed as the ;muqaddar; ;muta3allaqbih;
+[يَقْتَصُّ]{.ar} [is retributed against]{.trans}
 or
-[يُقْتَلُ]{.ar} "is killed".
+[يُقْتَلُ]{.ar} [is killed]{.trans}.
 So the ;taqdir; of example (@ex000167) is:
 
 (@) [الحُرُّ يَقْتَصُّ أوْ يُقْتَلُ بِالحُرِّ]{.ar}
@@ -485,23 +648,23 @@ Consider the sentence
 
 (@sentence-prep-phrase-na3t) [رأيتُ طائرًا على الغصن]{.ar}
     [@ali_hani_ta3alluq@]{.citex}  
-    "I saw a bird on the branch."
+    [I saw a bird on the branch.]{.trans}
 
-Now the logical assumption is that the bird was on the branch, not that my act of seeing was done on a branch.
+Now the logical assumption is that the bird was on the branch, not that I was seeing on a branch.
 So this means that the preposition [عَلَىٰ]{.ar} is not meaningfully connected with the verb [رَأَىٰ]{.ar}.
-Therefore, [رَأَىٰ]{.ar} is not the governor of the preposition [عَلَىٰ]{.ar}.^[@ali_hani_ta3alluq@]
-So what then is governing the preposition [عَلَىٰ]{.ar}.
+Therefore, ;3alaa; cannot be ;muta3alliqbi; [رَأَىٰ]{.ar}.^[@ali_hani_ta3alluq@]
+So what then is the ;muta3allaqbih; the preposition [عَلَىٰ]{.ar}.
 
-Here again, we ;qaddar; the governor of ;kawn_3aam;, as if to say:
+Here again, we use ;kawn_3aam;, as if to say:
 
 (@ex000168) [رأيتُ طائرًا [مُسْتَقِرًّا] على الغصن]{.ar}  
-    "I saw a bird [being] on the branch."
+    [I saw a bird [being] on the branch.]{.trans}
 
+The preposition [عَلَىٰ]{.ar}
+is ;muta3alliqbi;
 ;kawn_3aam;
-[[مُسْتَقِرًّا]]{.ar}
-is ;qaddared; as the governor of
-the preposition [عَلَىٰ]{.ar}.
-The ;muqaddar; ;kawn_3aam; is also a ;na3t; to the ;mafulb; 
+[[مُسْتَقِرًّا]]{.ar}.
+#;kawn_3aam; is also a ;na3t; to the ;mafulb; 
 [طَائِرًا]{.ar}.
 But because 
 the ;muqaddar; ;kawn_3aam; is not expressed, we may say, loosely speaking,
@@ -522,47 +685,48 @@ Here are some more examples of prepositional phrases as ;na3t;s:
 <!--
 (@ex000169) [لَقَدْ جَاءَكُمْ رَسُولٌ مِنْ أَنْفُسِكُمْ]{.ar}
     [@https://quran.com/9/128@]{.citex}  
-    "There has certainly come to you a Messenger from among yourselves."  
+    [There has certainly come to you a Messenger from among yourselves.]{.trans}  
     ([مِنْ أَنْفُسِكُمْ]{.ar} is analyzed as a ;na3t;^[])
 -->
 
 (@ex000170) [كَمَثَلِ جَنَّةِۭ بِرَبۡوَةٍ]{.quran}
     [@https://quran.com/2/265@]{.citex}  
-    "like a garden on high ground"  
+    [like a garden on high ground]{.trans}  
     ([بِرَبْوَةٍ]{.ar} is analyzed as a ;na3t;.^[@https://tafsir.app/albahr-almuheet/2/265@])
 
 (@ex000171) [رَبَّنَا وَٱبۡعَثۡ فِیهِمۡ رَسُولࣰا مِّنۡهُمۡ]{.quran}
     [@https://quran.com/2/129@]{.citex}  
-    "Our Lord, and send among them a messenger from themselves"  
+    [Our Lord, and send among them a messenger from themselves]{.trans}  
     ([مِنْهُمْ]{.ar} is analyzed as a ;na3t;.^[@https://tafsir.app/albahr-almuheet/2/129@])
 
 <!--
 (@ex000172) [وَقَالُوا لَوْلَا نُزِّلَ هَـٰذَا ٱلْقُرْءَانُ عَلَىٰ رَجُلٍ مِنَ ٱلْقَرْيَتَيْنِ عَظِيمٍ]{.ar}
     [@https://quran.com/43/31@]{.citex}  
-    And they said, "Why was this Qur’ān not sent down upon a great man from [one of] the two cities?"  
+    And they said, [Why was this Qur’ān not sent down upon a great man from [one of] the two cities?]{.trans}  
 -->
 
 
 When a prepositional phrase is, loosely speaking, a ;na3t;,
-its governor is typically the ;muqaddar; ;kawn_3aam;.^[@ibn_hisham_awdah_almasaalik@ 2/285, @ibn_aqil_alfiyyah@ 1/213].
+it is typically ;muta3alliqbi;
+;kawn_3aam;.^[@ibn_hisham_awdah_almasaalik@ 2/285, @ibn_aqil_alfiyyah@ 1/213].
 <!--
-In fact, some grammarians insist that the ;muqaddar; governor can only be ;kawn_3aam;.^[@https://tafsir.app/albahr-almuheet/3/194@ ([مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ]{.ar})]
+In fact, some grammarians insist that the ;muqaddar; ;3aamil; can only be ;kawn_3aam;.^[@https://tafsir.app/albahr-almuheet/3/194@ ([مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ]{.ar})]
 -->
-However, it is conceivable that the ;muqaddar; governor of the preposition be interpreted, if not formally then at least in meaning, as some other verb (or verbal noun).^[@nahw_wafi@ 2/447 footnote]
+However, it is conceivable that the ;muta3allaqbih; of the preposition be analyzed, if not formally, then at least in meaning, as some other verb (or verb-like noun).^[@nahw_wafi@ 2/447 footnote]
 For example:
 
 (@sentence-quran-27-12) [فِی تِسۡعِ ءَایَـٰتٍ إِلَىٰ فِرۡعَوۡنَ وَقَوۡمِهِۦۤۚ]{.quran}
     [@https://quran.com/27/12@]{.citex}  
-    "[These are] among the nine signs [you will take] to Pharaoh and his people."
+    [[These are] among the nine signs [you will take] to Pharaoh and his people.]{.trans}
 
-In one interpretation of the above [Ayah]{.trn2},
+In one interpretation of the above ;ayah;,
 the 
 prepositional phrase
 [إِلَىٰ فِرْعَوْنَ]{.ar}
-"to Pharoah"
-has been analyzed as ;na3t; of
+[to Pharoah]{.trans}
+has been analyzed as a ;na3t; of
 [ءَایَاتٍ]{.ar}
-"signs".
+[signs]{.trans}.
 The ;taqdir; is:
 
 (@) [وَاصِلَةٌ إِلَى فِرْعَوْنَ]{.ar}^[But see also @https://tafsir.app/aldur-almasoon/27/12@ where this interpretation is critiqued.]
@@ -573,16 +737,16 @@ Here is another example:
 
 (@sentence-quran-9-125) [فَزَادَتۡهُمۡ رِجۡسًا إِلَىٰ رِجۡسِهِمۡ]{.quran}
     [@https://quran.com/9/125@]{.citex}  
-    "it has [only] increased them in evil [in addition] to their evil"
+    [it has [only] increased them in evil [in addition] to their evil]{.trans}
 
-In the above [Ayah]{.trn2},
+In the above ;ayah;,
 the 
 prepositional phrase
 [إِلَىٰ رِجْسِهِمْ]{.ar}
-"to their evil"
+[to their evil]{.trans}
 has been analyzed as ;na3t; of
 [رِجْسًا]{.ar}
-"evil".
+[evil]{.trans}.
 The ;taqdir; is:
 
 (@) [كُفْرًاً مَضْمُومًا إِلَىٰ كُفْرِهِمْ]{.ar}
@@ -602,18 +766,18 @@ When a ;manut; is described by more than one ;na3t; and
 Besides the ;xabar; and the ;na3t; a prepositional phrase may also occur as a ;haal; and a ;silah;.^[@nahw_wafi@ 2/441--442]
 We will cover these two remaining topics in their respective chapters in sections\ (ref) and (ref) respectively.
 <!--
-## Word-order of the governor and its governee
+## Word-order of the ;3aamil; and its ;ma3mul;
 
-By default, the governor will precede its governee.
+By default, the ;3aamil; will precede its ;ma3mul;.
 For example:
 
 (@sentence-zayd-beat-3amr) [ضَرَبَ زَيْدٌ عَمْرًا]{.ar}  
-    "Zayd beat [#eamr]{.trn2}."
+    [Zayd beat [#eamr]{.trn2}.]{.trans}
 
 In example (@sentence-zayd-beat-3amr) above,
-the governing verb
+the ;3amiling; verb
 [ضَرَبَ]{.ar}
-precedes its governees:
+precedes its ;ma3mul;s:
 the ;faa3il;
 [زَيْدٌ]{.ar},
 and the ;mafulb;
@@ -623,24 +787,24 @@ However, this order is often varied in order to convey a desired meaning.
 For example:
 
 (@sentence-zayd-beat-3amr-object-first) [عَمْرًا ضَرَبَ زَيْدٌ]{.ar}  
-    "Zayd beat _[#eamr]{.trn2}_."
+    [Zayd beat _[#eamr]{.trn2}_.]{.trans}
 
 In example (@sentence-zayd-beat-3amr-object-first) above,
 the ;mafulb;
 [عَمْرًا]{.ar}
-has been placed before its governor
+has been placed before its ;3aamil;
 [ضَرَبَ]{.ar},
 possibly to emphasize it.
 
 This varying of the order of the words of the sentence is subject to certain rules, depending on:
 
-* the type of the governor (whether it is a verb, or a verbal noun, etc.)
-* the type of the governee (whether it is a preposition, or an adverb, etc.)
+* the type of the ;3aamil; (whether it is a verb, or a verbal noun, etc.)
+* the type of the ;ma3mul; (whether it is a preposition, or an adverb, etc.)
 * the desired meaning of the expression.
 
 We will discuss
-the word-order rules for some governees here.
-For new types of governees, we will discuss their word-order in their respective chapters, ;ia;.
+the word-order rules for some ;ma3mul;s here.
+For new types of ;ma3mul;s, we will discuss their word-order in their respective chapters, ;ia;.
 And we will discuss sentence word-order generally in chapter\ (ref) ;ia;.
 
 TODO: move to word order chapter:
@@ -654,53 +818,53 @@ TODO: move to word order chapter:
 @nahw_wafi@ 2/54
 -->
 
-## Word order of the preposition and its governor
+## Word order of the preposition and its ;muta3allaqbih;
 
 <!--
-As a general tendency, a governor will typically precede its governee(s) in sentence word order.
-This is rule is more strict for some governor-governee relationships than for others.
+As a general tendency, a ;3aamil; will typically precede its ;ma3mul;(s) in sentence word order.
+This is rule is more strict for some ;3aamil;-;ma3mul; relationships than for others.
 -->
-A prepositional phrase may freely precede its governor.^[@nahw_wafi@ 2/444A]
+A prepositional phrase may freely precede its ;muta3allaqbih;.^[@nahw_wafi@ 2/444A]
 This may be done for a number of purposes:
 
-##### To limit and particularize the effect of the governor to the noun following the preposition.^[@maani_nahw@ 3/121] {.unnumbered}
+##### To limit and particularize the effect of the ;muta3allaqbih; to the noun following the preposition.^[@maani_nahw@ 3/121] {.unnumbered}
 
 For example:
 
 (@ex000176) [وَمِنْهُ تَفَجَّرُ أَنْهَارُ الْجَنَّةِ]{.ar}
     [@https://sunnah.com/bukhari:2790@]{.citex}  
-    "and from it originate the rivers of Paradise"
+    [and from it originate the rivers of Paradise]{.trans}
 
 (@ex000177) [وَعَلَى ٱللَّهِ فَلۡیَتَوَكَّلِ ٱلۡمُؤۡمِنُونَ]{.quran}
     [@https://quran.com/3/122@ cited by @maani_nahw@ 3/121]{.citex}  
-    "and upon Allāh the believers should rely."  
+    [and upon Allāh the believers should rely.]{.trans}  
 
 ##### For drawing attention to the noun following the preposition^[@maani_nahw@ 3/121] {.unnumbered}
 
 (@ex000178) [وَٱللَّهُ بِمَا تَعۡمَلُونَ خَبِیرࣱ]{.quran}
     [@https://quran.com/3/180@ cited by @maani_nahw@ 3/123]{.citex}  
-    "And Allāh, of what you do, is [fully] Aware."
+    [And Allāh, of what you do, is [fully] Aware.]{.trans}
 
 (@ex000179) [أَلِهَـٰذَا جَمَعْتَنَا]{.ar}
     [@https://sunnah.com/bukhari:4770@]{.citex}  
-    "Is it for _this_ (that) you have gathered us?"
+    [Is it for _this_ (that) you have gathered us?]{.trans}
 
 (@ex000180) [وَبِٱلۡأَسۡحَارِ هُمۡ یَسۡتَغۡفِرُونَ]{.quran}
     [@https://quran.com/51/18@]{.citex}  
-    "And in the hours before dawn they would ask forgiveness"  
-    (The prepositional phrase [بِٱلْأَسْحَارِ]{.ar} is placed not just before its governor in the ;xabar; [يَسْتَغْفِرُونَ]{.ar}, but also before the ;mubtada; [هُمْ]{.ar}.)
+    [And in the hours before dawn they would ask forgiveness]{.trans}  
+    (The prepositional phrase [بِٱلْأَسْحَارِ]{.ar} is placed not just before its ;muta3allaqbih; in the ;xabar; [يَسْتَغْفِرُونَ]{.ar}, but also before the ;mubtada; [هُمْ]{.ar}.)
 
 
-When governing the preposition (and also the adverbs of time and place (section\ ref)),
-the placement of the governee is especially flexible.^[@radiy_kafiyah@ 1/289D--290A]
-Even when the placement of the governees of a governor might be restricted in general,
+The placement of preposition (and also the adverbs of time and place (section\ ref)),
+is especially flexible compared to other ;ma3mul;s.^[@radiy_kafiyah@ 1/289D--290A]
+Even when the placement of the ;ma3mul;s of a ;3aamil; might be restricted in general,
 a license is often given to prepositions.
-For example, we saw in section\ (ref), that when a ;ism_fail; is prefixed with [ال]{.ar}, then its governees may not precede it.
+For example, we saw in section\ (ref), that when a ;ism_fail; is prefixed with [ال]{.ar}, then its ;ma3mul;s may not precede it.
 So for example, we cannot say
 ;x; [هذا زيدا الضارب]{.ar}.
 We have to say instead
 ;v; [هذا الضارب زيدا]{.ar}.
-But an exception is made for the preposition which is governed by the ;ism_fail;.
+But an exception is made for the preposition which is ;muta3alliqbi; the ;ism_fail;.
 So we can say:
 
 (@ex000181) [أنا لك المرافق]{.ar}
@@ -708,8 +872,8 @@ So we can say:
     [I am, for you, the travelling companion.]{.trans}
 
 
-We will see, in sections\ (refs) ;ia; that the governee, in this case,
-are permitted to be placed where other types of governees are not.
+We will see, in sections\ (refs) ;ia; that the ;ma3mul;, in this case,
+are permitted to be placed where other types of ;ma3mul;s are not.
 
 TODO: Add content to:
 
@@ -718,34 +882,34 @@ TODO: Add content to:
 * [#HijAzi]{.trn2} [مَا]{.ar}:  sharh uthaymeen 22/4 ([مكا بي أنت معينا]{.ar})
 
 <!--
-When the prepositional phrase (and adverb of time and place) is governed by the ;xabar;
+When the prepositional phrase (and adverb of time and place) is ;3amiled; by the ;xabar;
 of a ;j_ism;,
 then
 the prepositional phrase may even precede the ;mubtada;.
 For example,
 
 
-It is rare, or even impermissible, for other types of governees of the ;xabar; to precede the ;mubtada;.
+It is rare, or even impermissible, for other types of ;ma3mul;s of the ;xabar; to precede the ;mubtada;.
 (See the discussion on (@some-ref) [عمرا زيد ضرب]{.ar} in section\ (ref).)
 
-In fact, when the governor of the prepositional phrase (and adverb of time and place) is the ;xabar;
+In fact, when the ;3aamil; of the prepositional phrase (and adverb of time and place) is the ;xabar;
 of [إِنَّ]{.ar} (or its sisters),
 or of [كَانَ]{.ar} (or its sisters),
 or of the [#HijAzi]{.trn2} [مَا]{.ar},
 even
 then may the prepositional phrase be placed before the subject.
 This latitude is expressly granted only to prepositional phrases and adverbs of time and place,
-and not to other types of governees.
+and not to other types of ;ma3mul;s.
 Examples:
 -->
 
 <!--
-### Word-order of the ;mafulb; and its governor
+### Word-order of the ;mafulb; and its ;3aamil;
 
 Consider example (@sentence-zayd-beat-3amr) again:
 
 (@sentence-zayd-beat-3amr) [ضَرَبَ زَيْدٌ عَمْرًا]{.ar}  
-    "Zayd beat [#eamr]{.trn2}."
+    [Zayd beat [#eamr]{.trn2}.]{.trans}
 
 There are six possible permutations of word-order of the above example.
 
@@ -753,13 +917,13 @@ There are six possible permutations of word-order of the above example.
 
 (@ex000182) [عمرا زيد ضرب]{.ar}
 
-In examples ... the ;maful; [عمرا]{.ar} precedes its governor [ضرب]{.ar}.
+In examples ... the ;maful; [عمرا]{.ar} precedes its ;3aamil; [ضرب]{.ar}.
 This is generally permitted for stylistic (?) aspects, as we will discuss in chapter (ref).
 
 Lets consider exaple ... in more detail.
-This is because the ;maful; is governed by ضرب in the ;xabar;. 
+This is because the ;maful; is ;3amiled; by ضرب in the ;xabar;. 
 But it precedes, not just its ;3aamil; but also the ;mubtada; of the outer sentence.
-This is normal for some types of governees (like the prep).
+This is normal for some types of ;ma3mul;s (like the prep).
 But for the mafulb some grammarians consider it impermissible.
 Others allow it, but consider it rare or weak in its structure.
 
