@@ -60,7 +60,7 @@ Here it is as a ;mafulb;:
 The way that we can tell when a noun is an adevrb of time or place is if it satisfies the following conditions:
 
 1. The noun is in the ;acase;.
-2. The noun is extra, such that the sentence is complete, albeit more vague, without it.
+2. The noun is ;fadlah;, such that the sentence is complete, albeit more vague, without it.
 3. The noun signifies the time or place in which the verb occurred.
 
 In the sentence [أَنْتَظِرُ يَوْمًا سَهْلًا]{.ar}, the noun [يَوْم]{.ar} is not signify the time in which the verb [أَنْتَظِرُ]{.ar} is ocurring.
@@ -841,8 +841,112 @@ Here are some more examples:
 
 The words [أَوَّل]{.ar} and [أَسْفَل]{.ar} also have some rules that are specific to them and we will treat them separately in section\ (ref).
 
+## Similarity between ;dharfs; and prepositions
 
-## The ;3aamil; of the adverb of time and place
+Move to after following section
+
+## The ;3aamil; of the adverb of time and place {#sec-dharf_i3maal}
+
+The ;dharf; is a ;acase; ;fadlah; element.
+As such, it needs to be ;3amiled; by a verb,
+or a verb-like noun like a ;masdar;,
+;ism_fail;, or any of the other ;mushtaqq; nouns.
+
+So, for example, if we say:
+
+(@) [سَافَرْتُ الْيَوْمَ]{.ar}  
+    [I travelled today.]{.trans}
+
+then, the ;dharf_zaman;
+[الْيَوْمَ]{.ar}
+[today]{.trans}
+is ;3amiled; by the verb
+[سَافَرَ]{.ar}
+[travelled]{.trans}.
+
+Essentially the ;dharf; is an ;acase; ;maful; of a verb.
+As such, if it is governed by a ;mushtaqq; noun,
+like an ;ism_fail;,
+then the conditions for governing a ;maful; need to be satisfied.
+We discussed such conditions for the ;ism_fail; in
+@sec-shuroot_i3maal_ism_faa3il,
+and the ;ism_maful; in
+@sec-shuroot_i3maal_ism_maful.
+
+One of those conditions,
+for the the ;mushtaqq; nouns in general,
+is that they must signify an imperfect aspect,
+not a perfect aspect.
+One of the examples we gave,
+was that we cannot say:
+
+(@) ;x; [هَذَا ضَارِبٌ زَيْدًا أَمْسِ]{.ar}
+    [@ibn_aqil_alfiyyah@ 3/106]{.citex}  
+    [This [person] beat Zayd yesterday.]{.trans}
+
+Instead, we have to say:
+
+(@ex_dharf_hadha_daaribu_zaydin_amsi) [هَذَا ضَارِبُ زَيدٍ أَمْسِ]{.ar}
+    [@ibn_aqil_alfiyyah@ 3/106]{.citex}  
+    [This [person] was the beater of Zayd yesterday.]{.trans}  
+
+These examples show that the ;ism_fail; [ضَارِب]{.ar}
+can not ;3amil; [زَيْد]{.ar} as a ;mafulb;,
+if it signifies a perfect aspect.
+But the question is:
+how is
+the ;dharf;
+[أَمْسِ]{.ar}
+in example (@ex_dharf_hadha_daaribu_zaydin_amsi)
+then ;3amiled;?
+
+The way to analyze this,
+while remaining consistent with the established conditions,
+is to assume a ;muqaddar; verb which matches the ;ism_fail;.
+And it is this ;muqaddar; verb which will ;3amil;
+the ;dharf;
+[أَمْسِ]{.ar}, thus:
+
+(@) [هَذَا ضَارِبُ زَيدٍ [ضَرَبَهُ] أَمْسِ]{.ar}
+    [@ibn_aqil_alfiyyah@ 3/106]{.citex}  
+    [This [person] was the beater of Zayd. [He beat him] yesterday.]{.trans}  
+
+In general,
+much flexibility is afforded to ;dharfs;,
+compared to other ;maful;s,
+and ;3aamil;s for them,
+if not expressed in ;surfsp;,
+are readily ;qaddared;.
+
+Here are some more scenarios where the ;dharf; has a ;muqaddar; ;3aamil;:
+
+#### In response to a question {.unnumbered}
+
+Consider the following question and answer sequences:
+
+(@ex_dharf_when_fast) [---مَتَى صُمْتَ---يَوْمَ الْجُمُعَةِ]{.ar}
+    [[@azhari_sharh_tasreeh@ 1/521](https://shamela.ws/book/9985/533)]{.citex}  
+    [---When did you fast?---The day of Friday.]{.trans}
+
+(@ex_dharf_how_much_travel) [---كَمْ سِرْتَ---فَرْسَخَيْنِ]{.ar}
+    [[@azhari_sharh_tasreeh@ 1/521](https://shamela.ws/book/9985/533)]{.citex}  
+    [---How much did you travel?---Two parasangs.]{.trans}
+
+In examples (@ex_dharf_when_fast) and (@ex_dharf_how_much_travel) above,
+The answers are ;dharfs; by themselves.
+Their ;3aamil;s are (optionally) ;mahzoof; verbs
+which match the verbs in the questions.
+The ;taqdir;s for the answers are:
+
+(@) [[صُمْتُ] يَوْمَ الْجُمُعَةِ]{.ar}
+    [[@azhari_sharh_tasreeh@ 1/521](https://shamela.ws/book/9985/533)]{.citex}  
+    [[I fasted] the day of Friday.]{.trans}
+
+(@) [[سِرْتُ] فَرْسَخَيْنِ]{.ar}
+    [[@azhari_sharh_tasreeh@ 1/521](https://shamela.ws/book/9985/533)]{.citex}  
+    [[I travelled] two parasangs.]{.trans}
+
+
 
 (TODO)
 
