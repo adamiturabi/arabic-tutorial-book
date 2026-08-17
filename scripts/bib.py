@@ -749,6 +749,19 @@ def populate_resource_list():
     , sort_key = "شرح كتاب سيبويه للرماني"
     ))
   resource_list.append(BibResource(
+    "faarisi_sibawayhi"
+    , cit_type = "ar_ref"
+    , cit_text = "[التعليقة على كتاب سيبويه للفارسي]{.ar}"
+    , bib_text = """
+      الكتاب: التعليقة على كتاب سيبويه  
+      المؤلف: الحسن بن أحمد بن عبد الغفار الفارسيّ الأصل، أبو علي (ت ٣٧٧هـ)  
+      المحقق: د. عوض بن حمد القوزي (الأستاذ المشارك بكلية الآداب)  
+      الطبعة: الأولى، ١٤١٠هـ - ١٩٩٠م  
+      عدد الأجزاء: ٦  
+      """ + format_url_ar("https://shamela.ws/book/13245")
+    , sort_key = "تعليقة"
+    ))
+  resource_list.append(BibResource(
     "azhari_sharh_tasreeh"
     , cit_type = "ar_ref"
     , cit_text = "[شرح التصريح على التوضيح]{.ar}"
