@@ -853,13 +853,13 @@ etc.)
 and prepositions have much similarity.
 For example, if we say
 
-(@ex_dharf_sirtu_fawqa_alard) [سِرْتُ فَوْقَ الْأَرْضِ]{.ar}  
-    [I travelled above the ground]{.trans}
+(@ex_dharf_sirtu_fawqa_alard) [بُنِيَ فَوْقَ قَوَاعِدَ]{.ar}  
+    [It was built above foundations.]{.trans}
 
 and
 
-(@ex_dharf_sirtu_3alaa_alard) [سِرْتُ عَلَى الْأَرْضِ]{.ar}  
-    [I travelled on the ground]{.trans}
+(@ex_dharf_sirtu_3alaa_alard) [بُنِيَ  عَلى قَوَاعِدَ]{.ar}  
+    [It was built on foundations.]{.trans}
 
 they are very similar in construction and also in meaning.
 The main difference is that
@@ -881,7 +881,7 @@ above,
 and
 [عَلَى]{.ar}
 are ;muta3alliqbi; the verb
-[سَارَ]{.ar} [to travel]{.trans}.
+[بُنِيَ]{.ar} [to be built]{.trans}.
 
 The ;muta3allaqbih; of a ;dharf; is also its ;3aamil;,
 as we will see in @sec-dharf_i3maal below.
@@ -988,6 +988,125 @@ The ;taqdir;s for the answers are:
     [[I travelled] two parasangs.]{.trans}
 
 #### When the ;dharf; is a ;na3t; {.unnumbered}
+
+Consider the following sentence:
+
+(@ex_dharf_marartu_bitaair) [مَرَرْتُ بِطَائِرٍ فَوْقَ غُصْنٍ]{.ar}
+    [[@azhari_sharh_tasreeh@ 1/521](https://shamela.ws/book/9985/533)]{.citex}  
+    [I passed by a bird above a branch.]{.trans}
+
+In 
+example (@ex_dharf_marartu_bitaair) above,
+the ;dharf_makan;
+[فَوْقَ]{.ar}
+is not ;muta3alliqbi;/;3amiled; by
+the verb
+[مَرَّ]{.ar}.
+This is because it is the
+the bird which was above the branch,
+not that my action of passing was above the branch.
+So who then is the ;3aamil; of the ;dharf_makan; [فَوْقَ]{.ar}?
+
+In such cases, we assume
+the ;kawn_3aam;
+(represented by [مُسْتَقِرّ]{.ar}
+or [كَائِن]{.ar})
+as the ;3aamil;
+of the ;dharf_makan; [فَوْقَ]{.ar}.
+The ;taqdir; of
+example (@ex_dharf_marartu_bitaair) above
+is:
+
+(@) [مَرَرْتُ بِطَائِرٍ [مُسْتَقِرٍّ] فَوْقَ غُصْنٍ]{.ar}  
+    [I passed by a bird [being] above a branch.]{.trans}
+
+The ;kawn_3aam; 
+[مُسْتَقِرّ]{.ar}
+is, strictly speaking, the ;na3t; of [طَائِر]{.ar}.
+This is the typical analysis when the noun
+([طَائِر]{.ar})
+is indefinite.
+
+Loosely speaking, however,
+we can say that the ;dharf_makan;
+[فَوْقَ]{.ar}
+or the entire
+adverbial phrase
+[فَوْقَ غُصْنٍ]{.ar}
+is a 
+;na3t; of [طَائِر]{.ar}.
+
+Compare the above analysis with
+@sec-ta3alluq_prep_as_na3t
+which discussed the prepositional phrase as a ;na3t;.
+
+#### When the ;dharf; is a ;haal; {.unnumbered}
+
+(@ex_dharf_ra2aytu_alhilaala_bayna) [رأيت الهلال بين السحاب]{.ar}
+    [[@azhari_sharh_tasreeh@ 1/521](https://shamela.ws/book/9985/533)]{.citex}  
+    [I saw the crescent between the clouds]{.trans}
+
+In example (@ex_dharf_ra2aytu_alhilaala_bayna)
+above,
+the ;3aamil; of the ;dharf_makan; [بَيْنَ]{.ar}
+is considered ;kawn_3aam;
+[[مُسْتَقِرٌّ]]{.ar},
+as a ;haal;.
+This is discussed in more detail in section ().
+
+#### When the ;dharf; is a ;xabar; {.unnumbered}
+
+Consider example (@ex_dharf_zaydun_3indak) below:
+
+(@ex_dharf_zaydun_3indak) [زَيْدٌ عِنْدَكَ]{.ar}
+    [[@azhari_sharh_tasreeh@ 1/521](https://shamela.ws/book/9985/533)]{.citex}  
+    [Zayd is at your [house].]{.trans}
+
+[عِنْدَ]{.ar} is ;dharf_makan;.
+It's ;3aamil; is 
+;kawn_3aam;
+[[مُسْتَقِرٌّ]]{.ar},
+which, technically, is also the ;xabar;.
+The ;taqdir; is:
+
+(@) [زَيْدٌ [مُسْتَقِرٌّ] عِنْدَكَ]{.ar}  
+    [Zayd is [being] at your [place].]{.trans}
+
+Loosely speaking,
+we will say that the
+;dharf_makan;
+[عِنْدَ]{.ar}
+is the ;xabar;.
+
+Compare the above analysis with
+@sec-ta3alluq_kawn_3aam_xabar
+which discussed the prepositional phrase as a ;na3t;.
+
+#### When the ;dharf; is a ;silah; {.unnumbered}
+
+Consider example (@ex_dharf_ra2aytu_alladhi_3indak) below:
+
+(@ex_dharf_ra2aytu_alladhi_3indak) [رَأَيْتُ الَّذِي عِنْدَكَ]{.ar}
+    [[@azhari_sharh_tasreeh@ 1/521](https://shamela.ws/book/9985/533)]{.citex}  
+    [I saw the one at your [place].]{.trans}
+
+[عِنْدَ]{.ar} is ;dharf_makan;.
+It's ;3aamil; is 
+;kawn_3aam;
+[[اسْتَقَرَّ]]{.ar},
+which, technically, is also the ;silah;.
+The ;taqdir; is:
+
+(@) [زَيْدٌ [اسْتَقَرَّ] عِنْدَكَ]{.ar}  
+    [I saw the one [who was being] at your [place].]{.trans}
+
+Loosely speaking,
+we will say that the
+;dharf_makan;
+[عِنْدَ]{.ar}
+is the ;silah;.
+
+---
 
 Consider the following sentence:
 
