@@ -1713,3 +1713,43 @@ more-or-less sufficient.
 But we should realize its scope and limitations,
 and try not to get too bogged down in theoretical ideals.
 
+## Understanding grammar rules
+
+In this book, we provide rules of Arabic grammar.
+Strictly speaking,
+these rules should be understood,
+not as rules for how the learner should speak Arabic,
+but as rules for how the learner can analyze,
+and thereby understand,
+Arabic.
+
+Let's explain this difference by an example.
+Let's say that we give a rule that a sentence needs two elements to be a complete sentence: either a verb and its doer, or a subject and its info.
+For example:
+
+(@) [زَيْدٌ جَاءَ]{.ar}  
+    [Zayd came.]{.trans}  
+
+Now consider the following question-answer sequence:
+
+(@ex_agt_who_came_zayd) [---مَنْ جَاءَ ---زَيْدٌ]{.ar}  
+    [---Who came? ---Zayd.]{.trans}  
+
+The answer in example (@ex_agt_who_came_zayd)
+is a single word [زَيْدٌ]{.ar}.
+Yet it is a complete sentence.
+This is by assuming an implied verbal sentence [جَاءَ]{.ar} after 
+[زَيْدٌ]{.ar}, thus:
+
+(@) [زَيْدٌ [جَاءَ]]{.ar}
+    [Zayd came.]{.trans}  
+
+This gives the sentence two elements and makes it consistent with the rule.
+Notably, the rule still stands and is needed for the correct understanding of the text.
+Also, if we take only the rule we have given, we wouldn't know that we could drop one of the elements of a sentence when forming a sentence of our own.
+
+So, in summary, rules will tell us how to analyze and understand texts.
+And each rule, individually,
+is not necessarily dictating to us how we should be forming our own spoken sentences.
+
+

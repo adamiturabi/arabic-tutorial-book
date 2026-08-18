@@ -2265,6 +2265,17 @@
     ]
   },
   {
+    "objectID": "content/agt.html#understanding-grammar-rules",
+    "href": "content/agt.html#understanding-grammar-rules",
+    "title": "25  The Arabic grammatical tradition",
+    "section": "25.10 Understanding grammar rules",
+    "text": "25.10 Understanding grammar rules\nIn this book, we provide rules of Arabic grammar. Strictly speaking, these rules should be understood, not as rules for how the learner should speak Arabic, but as rules for how the learner can analyze, and thereby understand, Arabic.\nLet’s explain this difference by an example. Let’s say that we give a rule that a sentence needs two elements to be a complete sentence: either a verb and its doer, or a subject and its info. For example:\n\nزَيْدٌ جَاءَ\n« Zayd came. »\n\nNow consider the following question-answer sequence:\n\n—مَنْ جَاءَ —زَيْدٌ\n« —Who came? —Zayd. »\n\nThe answer in example (48) is a single word زَيْدٌ. Yet it is a complete sentence. This is by assuming an implied verbal sentence جَاءَ after زَيْدٌ, thus:\n\nزَيْدٌ [جَاءَ] « Zayd came. »\n\nThis gives the sentence two elements and makes it consistent with the rule. Notably, the rule still stands and is needed for the correct understanding of the text. Also, if we take only the rule we have given, we wouldn’t know that we could drop one of the elements of a sentence when forming a sentence of our own.\nSo, in summary, rules will tell us how to analyze and understand texts. And each rule, individually, is not necessarily dictating to us how we should be forming our own spoken sentences.",
+    "crumbs": [
+      "Advanced",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>The Arabic grammatical tradition</span>"
+    ]
+  },
+  {
     "objectID": "content/agt.html#footnotes",
     "href": "content/agt.html#footnotes",
     "title": "25  The Arabic grammatical tradition",
@@ -2423,7 +2434,7 @@
     "href": "content/3amal.html#deletion",
     "title": "26  Sentence and government theory",
     "section": "26.13 Deletion",
-    "text": "26.13 Deletion\nAl-Liheibi, Aspects of sentence analysis in the Arabic linguistic tradition Chapter 5\nIn Arabic, a part of a sentence may be deleted. There are three types of deletion:\n\nMandatory deletion\nRegular deletion\nOptional deletion\n\nLines are blurred. حتى أن is shaadh.",
+    "text": "26.13 Deletion\nAl-Liheibi, Aspects of sentence analysis in the Arabic linguistic tradition Chapter 5\nIn Arabic, a part of a sentence may be deleted. There are three types of deletion:\n\nMandatory deletion\nRegular deletion\nOptional deletion\n\nLines are blurred. حتى أن is shaadh.\nGeneral rule: optional deletion only allowed when listener can reconstruct the deleted elements.",
     "crumbs": [
       "Advanced",
       "<span class='chapter-number'>26</span>  <span class='chapter-title'>Sentence and government theory</span>"
