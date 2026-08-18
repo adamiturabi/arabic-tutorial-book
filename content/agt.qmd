@@ -1054,7 +1054,7 @@ We will further explain virtualization by going through some examples in the sec
 
 ### Examples of virtualization
 
-#### A virtualization of latent doer pronouns  {#sec-agt_taqdir_mustatir}
+#### The virtualization of latent doer pronouns  {#sec-agt_taqdir_mustatir}
 
 Let's say that a hypothetical grammarian goes through some data in attested usage,
 and he finds real speech samples like the following:
@@ -1198,7 +1198,7 @@ Here are the other examples with their virtual doers:
 In this way, a grammarian was able to formulate a analogy-based grammatical principle
 based on observation of attested usage and theorization of a virtualization.
 
-#### A virtualization of [أَنْ]{.ar} before a-case [muDArie]{.trn2} verbs {#sec-agt_taqdir_lian}
+#### The virtualization of [أَنْ]{.ar} before a-case [muDArie]{.trn2} verbs {#sec-agt_taqdir_lian}
 
 We present another example of where virtualization is useful for coming up with grammatical principles.
 In chapter\ (ref),
@@ -1712,4 +1712,44 @@ suitable and
 more-or-less sufficient.
 But we should realize its scope and limitations,
 and try not to get too bogged down in theoretical ideals.
+
+## Understanding grammar rules
+
+The Arabic grammatical tradition provides rules for Arabic grammar.
+Strictly speaking,
+these rules should be understood,
+not as rules for how the learner should speak Arabic,
+but as rules for how the learner can analyze,
+and thereby understand,
+Arabic.
+
+Let's explain this difference by an example.
+Let's say that we give a rule that a sentence needs two elements to be a complete sentence: either a verb and its doer, or a subject and its info.
+For example:
+
+(@) [زَيْدٌ جَاءَ]{.ar}  
+    [Zayd came.]{.trans}  
+
+Now consider the following question-answer sequence:
+
+(@ex_agt_who_came_zayd) [---مَنْ جَاءَ ---زَيْدٌ]{.ar}  
+    [---Who came? ---Zayd.]{.trans}  
+
+The answer in example (@ex_agt_who_came_zayd)
+is a single word [زَيْدٌ]{.ar}.
+Yet it is a complete sentence.
+This is by assuming an implied verbal sentence [جَاءَ]{.ar} after 
+[زَيْدٌ]{.ar}, thus:
+
+(@) [زَيْدٌ [جَاءَ]]{.ar}  
+    [Zayd came.]{.trans}  
+
+This gives the sentence two elements and makes it consistent with the rule.
+Notably, the rule still stands and is needed for the correct understanding of the text.
+Also, if we take only the rule we have given, we wouldn't know that we could drop one of the elements of a sentence when forming a sentence of our own.
+
+So, in summary, rules will tell us how to analyze and understand texts.
+And each rule, individually,
+is not necessarily dictating to us how we should be forming our own sentences in real speech.
+
 

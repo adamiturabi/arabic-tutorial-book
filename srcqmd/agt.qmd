@@ -1047,7 +1047,7 @@ We will further explain ;taqdiring; by going through some examples in the sectio
 
 ### Examples of ;taqdiring;
 
-#### A ;taqdir; of ;mustatir; ;faa3il; pronouns  {#sec-agt_taqdir_mustatir}
+#### The ;taqdir; of ;mustatir; ;faa3il; pronouns  {#sec-agt_taqdir_mustatir}
 
 Let's say that a hypothetical grammarian goes through some data in ;samaa3;,
 and he finds ;surfsp; samples like the following:
@@ -1191,7 +1191,7 @@ Here are the other examples with their ;muqaddar; ;faa3il;s:
 In this way, a grammarian was able to formulate a ;qiyaas;-based grammatical principle
 based on observation of ;samaa3; and theorization of a ;taqdir;.
 
-#### A ;taqdir; of ;an; before ;acase; ;mudarie; verbs {#sec-agt_taqdir_lian}
+#### The ;taqdir; of ;an; before ;acase; ;mudarie; verbs {#sec-agt_taqdir_lian}
 
 We present another example of where ;taqdiring; is useful for coming up with grammatical principles.
 In chapter\ (ref),
@@ -1705,4 +1705,44 @@ suitable and
 more-or-less sufficient.
 But we should realize its scope and limitations,
 and try not to get too bogged down in theoretical ideals.
+
+## Understanding grammar rules
+
+The ;agt; provides rules for Arabic grammar.
+Strictly speaking,
+these rules should be understood,
+not as rules for how the learner should speak Arabic,
+but as rules for how the learner can analyze,
+and thereby understand,
+Arabic.
+
+Let's explain this difference by an example.
+Let's say that we give a rule that a sentence needs two elements to be a complete sentence: either a verb and its ;faa3il;, or a ;mubtada; and its ;xabar;.
+For example:
+
+(@) [زَيْدٌ جَاءَ]{.ar}  
+    [Zayd came.]{.trans}  
+
+Now consider the following question-answer sequence:
+
+(@ex_agt_who_came_zayd) [---مَنْ جَاءَ ---زَيْدٌ]{.ar}  
+    [---Who came? ---Zayd.]{.trans}  
+
+The answer in example (@ex_agt_who_came_zayd)
+is a single word [زَيْدٌ]{.ar}.
+Yet it is a complete sentence.
+This is by assuming an implied ;j_f3l; [جَاءَ]{.ar} after 
+[زَيْدٌ]{.ar}, thus:
+
+(@) [زَيْدٌ [جَاءَ]]{.ar}  
+    [Zayd came.]{.trans}  
+
+This gives the sentence two elements and makes it consistent with the rule.
+Notably, the rule still stands and is needed for the correct understanding of the text.
+Also, if we take only the rule we have given, we wouldn't know that we could drop one of the elements of a sentence when forming a sentence of our own.
+
+So, in summary, rules will tell us how to analyze and understand texts.
+And each rule, individually,
+is not necessarily dictating to us how we should be forming our own sentences in ;surfsp;.
+
 
