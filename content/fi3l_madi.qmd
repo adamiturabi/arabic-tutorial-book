@@ -16,15 +16,15 @@ IT IS NOT YET READY TO BE STUDIED FROM.**
 |||
 |:---|---:|
 |Verb               | [الفِعْلِ]{.ar}         |
-|Verbal sentence           | [الجُمْلة الفِعْلِيّة]{.ar}|
-|[#mADI]{.trn2} verb       | [الفِعْل المَاضِي]{.ar}  |
+|[#mADI]{.trn2} verb       | [الفِعْل الماضِي]{.ar}  |
 |[#muDArie]{.trn2} verb    | [الفِعْل المُضَارِع]{.ar} |
-|Past tense         | [المُضِيّ]{.ar}   |
+|Verbal sentence           | [الجُمْلة الفِعْلِيّة]{.ar}|
+|Past tense         | [الماضِي/المُضِيّ]{.ar}   |
 |Present tense      | [الحال]{.ar}   |
 |Future tense       | [الاسْتِقْبال]{.ar}|
 |Doer          | [الفاعِل]{.ar}|
-|Direct doee          | [المَفْعُول بِهِ]{.ar}|
-|Latent        | [المُسْتَتِر]{.ar}|
+|Direct doee          | [المَفْعُول بِه]{.ar}|
+|Latent doer | [الفاعِل المُسْتَتِر]{.ar}|
 
 :::
 
@@ -35,15 +35,23 @@ Verbs are action words.
 In terms of their form,
 Arabic has two main kinds of verbs:
 
-1. The _[mADI]{.trn2}_ verb, for example [ذَهَبَ]{.ar} [to go]{.trans}
-2. The _[muDArie]{.trn2}_ verb, for example [يَذْهَب]{.ar} [to go]{.trans}
+1. The _[mADI]{.trn2}_ verb.
+2. The _[muDArie]{.trn2}_ verb.
+
+Here is the [mADI]{.trn2}-[muDArie]{.trn2} verb pair for the Arabic equivalent of the English verb [to go]{.trans}:
+
+|[#mADI]{.trn2} |[#muDArie]{.trn2} |
+|:---|:---|
+|[ذَهَبَ]{.ar} |[يَذْهَب]{.ar} |
 
 <!--
 3. The _verb of command_. This is used for commands.
 -->
 
-The same verb will typically have a [mADI]{.trn2} form and a [muDArie]{.trn2} form,
-as shown for the verb [to go]{.trans} in the examples above.
+
+A [mADI]{.trn2} and [muDArie]{.trn2} form pair
+exists for (almost) all verbs.
+
 In this chapter we will study the [mADI]{.trn2} form of the verb.
 
 <!--
@@ -70,15 +78,15 @@ _Tense_ is a concept that tells us the time reference in which the action of a v
 _Aspect_ is a concept that expresses how the action of a verb flows over time.
 A _perfect_ aspect expresses that the action of a verb was completed, e.g.
 
-(@) [He will have eaten.]{.trans}
+(@ex_madi_he_will_have_eaten) [He will have eaten.]{.trans}
 
-Example () above shows a perfect aspect combined with a future tense.
+Example (@ex_madi_he_will_have_eaten) above shows a perfect aspect combined with a future tense.
 
 An _imperfect_ aspect expresses that the action of a verb is not completed, e.g.
 
-(@) [He was eating.]{.trans}
+(@ex_madi_he_was_eating) [He was eating.]{.trans}
 
-Example () above shows an imperfect aspect combined with the past tense.
+Example (@ex_madi_he_was_eating) above shows an imperfect aspect combined with the past tense.
 
 Further distinctions can be made:
 
@@ -101,7 +109,7 @@ By the way, [mADI]{.trn2} literally means _past_ in Arabic.
 And it is very often used for the past tense.
 But when we use it terminologically to denote the verb form,
 then we don't intend by it to mean the past tense per se.
-(See @sec-jsh, for example, where the [mADI]{.trn2} verb is used very commonly for a future tense meaning.)
+(See @sec-jsh, for example, where the [mADI]{.trn2} verb is used very commonly in a future tense.)
 
 ## Arabic word roots
 
