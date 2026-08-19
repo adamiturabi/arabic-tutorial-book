@@ -6,19 +6,75 @@
 ## Introduction
 
 Verbs are action words. 
-With regard to their structure,
-Arabic has three kinds of verbs:
+In terms of their form,
+Arabic has two main kinds of verbs:
 
-1. The _;madi;_ verb. This typically signifies the past tense.
-2. The _;mudarie;_ verb. This usually signifies the present or future tenses, but in some formations, it can be used for the past tense as well.
+1. The _;madi;_ verb, for example [ذَهَبَ]{.ar} [to go]{.trans}
+2. The _;mudarie;_ verb, for example [يَذْهَب]{.ar} [to go]{.trans}
+
+<!--
 3. The _verb of command_. This is used for commands.
+-->
 
-In this chapter we will study the ;madi; verb.
+The same verb will typically have a ;madi; form and a ;mudarie; form,
+as shown for the verb [to go]{.trans} in the examples above.
+In this chapter we will study the ;madi; form of the verb.
+
+<!--
 We will study the ;mudarie; verb and the verb of command in later chapters, ;ia;.
-
+-->
 <!--
 Verbs can be either _;madi;_ verbs where the action of the verb has been completed, e.g., "The boy went." or _;mudarie;_ verbs where the action of the verb is on-going or not yet completed, e.g., "The boy goes." In this chapter we will study _;madi;_ verbs.
 -->
+
+## Tense and aspect
+
+You may be wondering why the same verb in Arabic will have both
+a ;madi; form and a ;mudarie; form.
+In order to explain this we will give a short introduction to the concepts of _tense_ and _aspect_.
+
+_Tense_ is a concept that tells us the time reference in which the action of a verb was done. Here are some examples of tense in English:
+
+|Example|Tense|
+|:---|:---|
+| [He went.]{.trans} | past tense |
+| [He goes.]{.trans} | present tense |
+| [He will go.]{.trans} | future tense |
+
+_Aspect_ is a concept that expresses how the action of a verb flows over time.
+A _perfect_ aspect expresses that the action of a verb was completed, e.g.
+
+(@) [He will have eaten.]{.trans}
+
+Example () above shows a perfect aspect combined with a future tense.
+
+An _imperfect_ aspect expresses that the action of a verb is not completed, e.g.
+
+(@) [He was eating.]{.trans}
+
+Example () above shows an imperfect aspect combined with the past tense.
+
+Further distinctions can be made:
+
+A _habitual_ aspect indicates that an action is done repetitively but not necessarily continuously. For example:
+
+(@) [He smokes.]{.trans}
+
+_Progressive_ and _continuous_ aspects express that a verbal action is, was, or will be, in progress and on-going, e.g. 
+
+(@) [He is reading]{.trans}.
+
+In Arabic, the ;madi; form verb is typically used to express the perfect aspect.
+And the ;mudarie; verb is typically used to express the imperfect aspect.
+
+But we would like to keep our terminology for these verb forms separate from any tense or aspect that a sentence using them may signify.
+That is why we are calling them ;madi; and ;mudarie;,
+instead of _perfect_ and _imperfect_, respectively.
+
+By the way, ;madi; literally means _past_ in Arabic,
+but when we use it terminologically,
+then we don't intend it to mean the past tense.
+(See @sec-jsh, for example, where the ;madi; verb is used very commonly for a future tense meaning.)
 
 ## Arabic word roots
 
@@ -38,21 +94,21 @@ Not only nouns, but verbs, too, are derived from roots. All verbs are derived fr
 
 Here are some examples of ;madi; form 1 verbs in Arabic:
 
-Root | #;madi; form 1 verb| Meaning
-:----|:----|:----
-[فعل]{.ar} |[فَعَلَ]{.ar} [faeala]{.trn} |"did"
-[ذهب]{.ar} |[ذَهَبَ]{.ar} [pahaba]{.trn} |"went"
-[كتب]{.ar} |[كَتَبَ]{.ar} [kataba]{.trn} |"wrote"
-[قرء]{.ar} |[قَرَأَ]{.ar} [qaraEa]{.trn} |"read"
-[جلس]{.ar} |[جَلَسَ]{.ar} [jalasa]{.trn} |"sat"
-[سءل]{.ar} |[سَأَلَ]{.ar} [saEala]{.trn} |"questioned"
-[سكت]{.ar} |[سَكَتَ]{.ar} [sakata]{.trn} |"became quiet"
-[جعل]{.ar} |[جَعَلَ]{.ar} [jaeala]{.trn} |"made"
-[علم]{.ar} |[عَلِمَ]{.ar} [ealima]{.trn} |"knew"
-[عمل]{.ar} |[عَمِلَ]{.ar} [eamila]{.trn} |"worked"
-[كبر]{.ar} |[كَبُرَ]{.ar} [kabura]{.trn} |"grew"
+|Root | #;madi; form 1 verb| Meaning|
+|:----|:----|:----|
+|[فعل]{.ar} |[فَعَلَ]{.ar} [faeala]{.trn} |[to do]{.trans} |
+|[ذهب]{.ar} |[ذَهَبَ]{.ar} [pahaba]{.trn} |[to go]{.trans} |
+|[كتب]{.ar} |[كَتَبَ]{.ar} [kataba]{.trn} |[to write]{.trans} |
+|[قرء]{.ar} |[قَرَأَ]{.ar} [qaraEa]{.trn} |[to read]{.trans} |
+|[جلس]{.ar} |[جَلَسَ]{.ar} [jalasa]{.trn} |[to sit]{.trans} |
+|[سءل]{.ar} |[سَأَلَ]{.ar} [saEala]{.trn} |[to question]{.trans} |
+|[سكت]{.ar} |[سَكَتَ]{.ar} [sakata]{.trn} |[to be quiet]{.trans} |
+|[جعل]{.ar} |[جَعَلَ]{.ar} [jaeala]{.trn} |[to make]{.trans} |
+|[علم]{.ar} |[عَلِمَ]{.ar} [ealima]{.trn} |[to know]{.trans} |
+|[عمل]{.ar} |[عَمِلَ]{.ar} [eamila]{.trn} |[to work]{.trans} |
+|[كبر]{.ar} |[كَبُرَ]{.ar} [kabura]{.trn} |[to grow]{.trans} |
 
-Note that [فعل]{.ar}, in addition to being used as a paradigm root, also has a verb in its own right: [فَعَلَ]{.ar} [faeala]{.trn} "did".
+Note that [فعل]{.ar}, in addition to being used as a paradigm root, also has a verb in its own right: [فَعَلَ]{.ar} [faeala]{.trn} [to do]{.trans}.
 
 Note, also, that the ;madi; form 1 verb consists only of the three letters of the root. The first and the final letter always have an ;amark; while the middle letter's vowel is variable. It may have an ;amark;, ;imark;, or an ;umark;, depending on the verb. Using the paradigm root [فعل]{.ar}, we can say that the form 1 verb occurs in the patterns [فَعَلَ]{.ar}, [فَعِلَ]{.ar}, and [فَعُلَ]{.ar}. 
 
@@ -60,10 +116,10 @@ A good dictionary will tell us the middle vowel mark of a particular verb. Howev
 
 Interestingly, there can exist multiple verbs from the same root, each with its own distinct meaning, that differ only in the vowel mark on the middle letter. An example of two such verbs is:
 
-+ [حَسَبَ]{.ar} [Hasaba]{.trn} "calculated"
-+ [حَسِبَ]{.ar} [Hasiba]{.trn} "deemed"
++ [حَسَبَ]{.ar} [Hasaba]{.trn} "to calculate"
++ [حَسِبَ]{.ar} [Hasiba]{.trn} "to deem"
 
-You can see above how the verb [كَتَبَ]{.ar} [kataba]{.trn} "wrote" is derived from the root [كتب]{.ar}. We have already, by the way, learned another word derived from this root: the noun [كِتَاب]{.ar} [kitAb]{.trn} "a book", which is on the pattern [فِعَال]{.ar} [fieAl]{.trn}. Note how both the verb and the noun derived from this root have a meaning that is common and has to do with writing or of something written. 
+You can see above how the verb [كَتَبَ]{.ar} [kataba]{.trn} [to write]{.trans} is derived from the root [كتب]{.ar}. We have already, by the way, learned another word derived from this root: the noun [كِتَاب]{.ar} [kitAb]{.trn} "a book", which is on the pattern [فِعَال]{.ar} [fieAl]{.trn}. Note how both the verb and the noun derived from this root have a meaning that is common and has to do with writing or of something written. 
 In a similar manner, you will often see that words derived from the same root generally share some common meaning, although this common meaning may not always be obvious or straightforward.
 
 ## Verbal sentences
@@ -74,17 +130,18 @@ When a verb is in a sentence, it requires a ;faa3il;. The ;faa3il; is a noun whi
 
 ### Verbs with a masculine ;faa3il; noun
 
-Consider the sentence:
+Consider this sentence that has the simple past tense:
 
-"The boy went." 
+(@) [The boy went.]{.trans}  
 
-In order to express this sentence in Arabic, we will say:
+In order to express a simple past tense sentence in Arabic,
+we will use the ;madi; verb, thus:
 
-[ذَهَبَ ٱلْغُلَامُ.]{.ar}  
-[pahaba -lgulAm.]{.trn}  
-"The boy went." 
+(@) [ذَهَبَ ٱلْغُلَامُ]{.ar}  
+    [pahaba -lgulAmu]{.trn}  
+    [The boy went.]{.trans}
 
-[ذَهَبَ]{.ar} [pahaba]{.trn} "went" is the verb and [ٱلْغُلَامُ]{.ar} [algulAmu]{.trn} "the boy" is the ;faa3il;. Note how the ;faa3il; is in the ;ucase;. Also note that in English the ;faa3il; comes before the verb whereas in Arabic the ;faa3il; comes after the verb in sentence word order. We can state this as a rule of Arabic grammar: 
+[ذَهَبَ]{.ar} [pahaba]{.trn} [went]{.ar} is the verb and [ٱلْغُلَامُ]{.ar} [algulAmu]{.trn} "the boy" is the ;faa3il;. Note how the ;faa3il; is in the ;ucase;. Also note that in English the ;faa3il; comes before the verb whereas in Arabic the ;faa3il; comes after the verb in sentence word order. We can state this as a rule of Arabic grammar: 
 
 **In Arabic, every verb in a sentence shall have a ;faa3il; noun. The ;faa3il; noun shall be in the ;ucase; and shall come after the verb in sentence word order.**
 
