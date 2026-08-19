@@ -287,7 +287,7 @@ map_table["fi3l_jawab_shart"] = map_table["jawab_shart"] + "-verb" # "condition-
 map_table["j_ism"] = "nounal sentence"
 map_table["j_f3l"] = "verbal sentence"
 
-map_table["kawn_3aam"] = map_table["muqaddar"] + " being"
+map_table["kawn_3aam"] = "general existence" # map_table["muqaddar"] + " being"
 
 map_table["laam_ibt"] = "[لَ]{.ar} of beginning"
 map_table["laam_frq"] = "differentiator [لَ]{.ar}"
