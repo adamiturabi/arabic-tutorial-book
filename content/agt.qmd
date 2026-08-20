@@ -19,7 +19,7 @@ IT IS NOT YET READY TO BE STUDIED FROM.**
 |  Anomalous usage |[الشّاذّ]{.ar}  |
 |  Attested usage |[السّماع]{.ar} |
 |  Grammatical reason |[العِلّة]{.ar}  |
-|  Virtualization |[التَّقْدِير]{.ar}|
+|  [#taqdIr]{.trn2} |[التَّقْدِير]{.ar}|
 
 :::
 
@@ -1012,7 +1012,7 @@ on its basis,
 pronounce judgement on a non-conforming feature
 that is found in attested usage.
 
-## Virtualization
+## [#taqdIr]{.trn2}
 
 When the grammarians were analyzing attested usage, they observed that
 there is an underlying harmony and order in the Classical Arabic language,^[ Baalbaki, "Some aspects of harmony and hierarchy in Sībawayhi's grammatical analysis"  7ff]
@@ -1020,44 +1020,48 @@ such that it could be described with a set of
 coherent and comprehensive
 basic principles.
 But
-these principles often will not describe real speech directly.
-_Real speech_ is defined as the actual utterance that is spoken by the speaker and heard by the listener.
-This is because real speech,
+these principles often will not describe surface speech directly.
+_Surface speech_ is defined as the actual utterance that is spoken by the speaker and heard by the listener.
+This is because surface speech,
 even when not anomalous usage,
 has too much variation and complexity to be wrangled
 into a minimalist framework of grammatical principles directly.
-Oftentimes, two real speech utterances can differ in their apparent form.
+Oftentimes, two surface speech utterances can differ in their apparent form.
 But there would seem to be a common grammatical principle at work
-that directs the structure of both real speech utterances.
+that directs the structure of both surface speech utterances.
 
 In order to describe the language using a minimal set of grammatical principles,
 the grammarians theorized
-a _virtualization_^[The Arabic grammatical tradition's _virtualization_ has parallels in the Western linguistic tradition, like _deep structure_, _ghost_ and _null_ segments. We are not re-using those terms because they may have baggage that could not be reconciled with the Arabic grammatical tradition's concept of virtualization. See, for example, Versteegh, "The notion of underlying levels" 287ff.]
-of the real speech.
-This virtualization would exist only in the mind of the speaker,^[Levin, "The theory of al-taqdīr and its terminology." 142--143]
-under the level of real speech.
-The links between inter-related linguisitic phenomena would be more evident in the virtualization
-than in real speech.
-The virtualization would be simpler in its structure, and have less variation, than real speech.
+a _[taqdIr]{.trn2}_,
+i.e. underlying representation,
+of the surface speech.^[_[#taqdIr]{.trn2}_ literally means [estimation]{.trans} or [reckoning]{.trans}. The Arabic grammatical tradition's [taqdIr]{.trn2} has parallels in the Western linguistic tradition, like _deep structure_, and _ghost_ and _null_ segments. We are not re-using those terms because they may have baggage that would not reconcile with the Arabic grammatical tradition's concept of [taqdIr]{.trn2}. See, for example, Versteegh, "The notion of underlying levels" 287ff.]
+This [taqdIr]{.trn2} would exist only in the mind of the speaker,^[Levin, "The theory of al-taqdīr and its terminology." 142--143]
+under the level of surface speech.
+The links between inter-related linguisitic phenomena would be more evident in the [taqdIr]{.trn2}
+than in surface speech.
+The [taqdIr]{.trn2} would be simpler in its structure, and have less variation, than surface speech.
 It would thus
 be
 more amenable to being described by a set of basic principles.
 
 So,
-the virtualization of real speech
+the [taqdIr]{.trn2} of surface speech
 is not actually uttered.
-But supposing it allows us to build a framework that captures real speech more fully
+But supposing it allows us to build a framework that captures surface speech more fully
 than would have been practical, had we not supposed it.
 
-_Virtualization_ is also the grammarian's analytical activity of coming up with a suitable virtual representation of real speech.
-We will further explain virtualization by going through some examples in the section below:
+In grammatical discourse,
+in addition to using _[taqdIr]{.trn2}_ as a noun to mean the underlying representation of surface speech,
+[taqdIr]{.trn2} is also used verbally to signify the grammarian's analytical activity of coming up with a suitable [taqdIr]{.trn2}ed representation of surface speech.
 
-### Examples of virtualization
+We will further explain [taqdIr]{.trn2} by going through some examples in the section below:
 
-#### The virtualization of latent doer pronouns  {#sec-agt_taqdir_mustatir}
+### Examples of [taqdIr]{.trn2}
+
+#### The [taqdIr]{.trn2} of latent doer pronouns  {#sec-agt_taqdir_mustatir}
 
 Let's say that a hypothetical grammarian goes through some data in attested usage,
-and he finds real speech samples like the following:
+and he finds surface speech samples like the following:
 
 (@ex001100) [قَرَأَ زَيْدٌ]{.ar}  
     [Zayd read.]{.trans}  
@@ -1091,7 +1095,7 @@ a verb, followed by its doer (noun).
 
 The grammarian 
 then continues going through attested usage
-and finds real speech samples like the following:
+and finds surface speech samples like the following:
 
 (@ex001103) [تَصَدَّقْنَ]{.ar}  
     [They~f~ gave charity.]{.trans}  
@@ -1134,7 +1138,7 @@ Now
 the sentences can be considered to have two parts: a verb followed by its doer.
 So far so good.
 
-But now the grammarian comes across real speech samples like the following:
+But now the grammarian comes across surface speech samples like the following:
 
 (@ex001107) [ذَهَبَ]{.ar}  
     [He went.]{.trans}  
@@ -1173,18 +1177,18 @@ So the [تْ]{.ar} doesn't seem like it can be the doer.
 So what is the grammarian to do?
 
 In order to keep the principle consistent,
-the grammarian virtualizes _latent_ doers for these sentences.
-For example (@ex001107) above, the latent doer is virtualized as [[هُوَ]{.ar}], thus:
+the grammarian [taqdIr]{.trn2}s _latent_ doers for these sentences.
+For example (@ex001107) above, the latent doer is [taqdIr]{.trn2}ed as [[هُوَ]{.ar}], thus:
 
 (@ex001111) [ذَهَبَ [هُوَ]]{.ar}  
     [He went.]{.trans}  
 
 Now the sentence has two parts:
 the verb
-[ذَهَبَ]{.ar}, followed by it's doer, the virtual [[هُوَ]{.ar}].
+[ذَهَبَ]{.ar}, followed by it's doer, the [taqdIr]{.trn2}ed [[هُوَ]{.ar}].
 Thus it is compliant with the above stated principle that the grammarian developed for verbal sentences.
 
-Here are the other examples with their virtual doers:
+Here are the other examples with their [taqdIr]{.trn2}ed doers:
 
 (@ex001112) [رَجَعَتْ [هِيَ]]{.ar}  
     [She returned.]{.trans}  
@@ -1196,11 +1200,11 @@ Here are the other examples with their virtual doers:
     [We give charity.]{.trans}  
 
 In this way, a grammarian was able to formulate a analogy-based grammatical principle
-based on observation of attested usage and theorization of a virtualization.
+based on observation of attested usage and theorization of a [taqdIr]{.trn2}.
 
-#### The virtualization of [أَنْ]{.ar} before a-case [muDArie]{.trn2} verbs {#sec-agt_taqdir_lian}
+#### The [taqdIr]{.trn2} of [أَنْ]{.ar} before a-case [muDArie]{.trn2} verbs {#sec-agt_taqdir_lian}
 
-We present another example of where virtualization is useful for coming up with grammatical principles.
+We present another example of where [taqdIr]{.trn2} is useful for coming up with grammatical principles.
 In chapter\ (ref),
 we studied how a a-case [muDArie]{.trn2} verb can occur after the particle [لِ]{.ar}.
 For example:
@@ -1222,24 +1226,24 @@ between the
 and the
 a-case [muDArie]{.trn2}
 [أَنْجَحَ]{.ar},
-there existed a virtualized [أَنْ]{.ar}, thus:
+there existed a [taqdIr]{.trn2}ed [أَنْ]{.ar}, thus:
 
 (@ex001117) [دَرَسْتُ لِ[أَنْ] أَنْجَحَ]{.ar}  
     [I studied for the reason [that] I may succeed.]{.trans}  
 
 And it was this [أَنْ]{.ar} that actually caused the [muDArie]{.trn2} verb to be in the a-case.
-This virtualization
+This [taqdIr]{.trn2}
 allowed them to
 reduce the definition of
 [لِ]{.ar}
 to a preposition that only precedes nouns.
 And it granted to [أَنْ]{.ar} the (more-or-less) sole privilege of causing a [muDArie]{.trn2} verb to be in the a-case.^[Baalbaki, "Bāb al-fāʾ" 186--189]
 
-The virtualization of [أَنْ]{.ar}
+The [taqdIr]{.trn2} of [أَنْ]{.ar}
 between
 [لِ]{.ar}
 and a following a-case [muDArie]{.trn2} verb is also supported by the fact that
-the real speech can actually have an [أَنْ]{.ar} in that position, for the same meaning.
+the surface speech can actually have an [أَنْ]{.ar} in that position, for the same meaning.
 So we can actually also say:
 
 (@ex001118) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}  
@@ -1248,31 +1252,31 @@ So we can actually also say:
 As for the restriction of
 [لِ]{.ar}
 to a preposition that only precedes nouns,
-then this can be seen when we apply a second level of virtualization:
-and that is to interpret (a real or virtual)
+then this can be seen when we apply a second level of [taqdIr]{.trn2}:
+and that is to interpret (a surface or [taqdIr]{.trn2}ed)
 [أَنْ]{.ar} and the following a-case [muDArie]{.trn2} verb as a [maSdar]{.trn2} construction.
-So the virtualization of (@ex001118) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}
+So the [taqdIr]{.trn2} of (@ex001118) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}
 is:
 
 (@ex001119) [دَرَسْتُ لِنَجَاحِي]{.ar}  
     [I studied for the reason of my success.]{.trans}  
     (i.e. [in order to achieve success]{.trans}.)  
 
-In the virtualization in example (@ex001119),
+In the [taqdIr]{.trn2} in example (@ex001119),
 we can see how
 [لِ]{.ar}
 is a preposition before the i-case noun
 [نَجَاح]{.ar}.
 
-We will see more examples of virtualization for the a-case [muDArie]{.trn2} verb in chapter\ (ref), if Allāh wills.
+We will see more examples of [taqdIr]{.trn2} for the a-case [muDArie]{.trn2} verb in chapter\ (ref), if Allāh wills.
 
-#### The virtualization of a warning statement
+#### The [taqdIr]{.trn2} of a warning statement
 
 [إِيَّاكَ وَالشَّرَّ]{.ar}
 
 TODO. Get from [[شرح ابن عثيمين]{.ar} 59/4](https://shamela.ws/book/36954/636)
 
-#### Virtual case-endings
+#### [taqdIr]{.trn2}ed case-endings
 
 As we know, the vowel at the end of
 nouns and verbs that end with weak letters
@@ -1286,42 +1290,42 @@ So, for example, we will say:
 In (@ex_judge_decrees) above,
 [يَقْضِي]{.ar} is a u-case [muDArie]{.trn2} verb.
 But it is not able to have a [Dammah]{.trn2} at its end because of its weak root letter [ي]{.ar}.
-So we will say that its u-case is indicated by a _virtual_ [Dammah]{.trn2} at its end.
+So we will say that its u-case is indicated by a _[taqdIr]{.trn2}ed_ [Dammah]{.trn2} at its end.
 [قَاضٍ]{.ar} is a doer in the u-case.
 It too is not able to have a [Dammah]{.trn2} at its end because of its weak root letter [ي]{.ar}.
-So, again, we will say that its u-case is indicated by a _virtual_ [Dammah]{.trn2} at its end.
+So, again, we will say that its u-case is indicated by a _[taqdIr]{.trn2}ed_ [Dammah]{.trn2} at its end.
 
-### Some notes regarding virtualization
+### Some notes regarding [taqdIr]{.trn2}
 
-#### The virtualization is not actually uttered
+#### The [taqdIr]{.trn2} is not actually uttered
 
 One point to note,
-regarding virtualization,
+regarding [taqdIr]{.trn2},
 is that 
-the virtualization representation of a real speech is often not actually correct as real speech.^[Baalbaki, "Bāb al-fāʾ" 190; Versteegh, "The notion of underlying levels" 278]
+the [taqdIr]{.trn2} representation of a surface speech is often not actually correct as surface speech.^[Baalbaki, "Bāb al-fāʾ" 190; Versteegh, "The notion of underlying levels" 278]
 
-If we take the virtualization in (@ex001111) [ذَهَبَ [هُوَ]]{.ar} as an example,
+If we take the [taqdIr]{.trn2} in (@ex001111) [ذَهَبَ [هُوَ]]{.ar} as an example,
 then what we mean is that
-we don't actually say (in real speech)
+we don't actually say (in surface speech)
 [ذَهَبَ هُوَ]{.ar}
 when we intend to mean [He went]{.trans}.
-The real speech (@ex001107) [ذَهَبَ]{.ar} is the only correct way to express this intended meaning.
+The surface speech (@ex001107) [ذَهَبَ]{.ar} is the only correct way to express this intended meaning.
 The representation [ذَهَبَ [هُوَ]]{.ar}
-is only a _virtualization_ of the real speech [ذَهَبَ]{.ar}
+is only a _[taqdIr]{.trn2}_ of the surface speech [ذَهَبَ]{.ar}
 that elucidates the grammar of the sentence.
 
 Sometimes,
 however,
-a virtualization representation is actually correct as real speech,
+a [taqdIr]{.trn2} representation is actually correct as surface speech,
 for more-or-less the same,
 or a similar meaning.
 This can be,
 for example,
-when the virtualization restores a word or expression which is implied and was optionally deleted.
+when the [taqdIr]{.trn2} restores a word or expression which is implied and was optionally deleted.
 For example,
 we saw that
-the virtual [أَنْ]{.ar} in example (@ex001116) [دَرَسْتُ لِأَنْجَحَ]{.ar}
-can actually be expressed in real speech, thus:
+the [taqdIr]{.trn2}ed [أَنْ]{.ar} in example (@ex001116) [دَرَسْتُ لِأَنْجَحَ]{.ar}
+can actually be expressed in surface speech, thus:
 
 (@ex001120) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}  
     [I studied for the reason that I may succeed.]{.trans}  
@@ -1336,16 +1340,16 @@ but it has a different meaning than the intended
 [He went]{.trans}.
 It uses the pronoun [هُوَ]{.ar} as an _emphatic follower_ (see chapter\ (ref)).
 
-#### The literal representation used in the virtualization may not be real {#sec-agt_taqdir_representation_not_real}
+#### The literal representation used in the [taqdIr]{.trn2} may not be real {#sec-agt_taqdir_representation_not_real}
 
 Another point
 is that
 the grammarians' representation
-of the virtualization
+of the [taqdIr]{.trn2}
 may not necessarily be real.
 
 In the example of latent doer pronouns,
-the virtual doers,
+the [taqdIr]{.trn2}ed doers,
 ([[هُوَ]{.ar}],
 [[هِيَ]{.ar}],
 [[أَنَا]{.ar}],
@@ -1356,23 +1360,23 @@ are not "real" representations of the latent doer pronouns.
 They are only written as such because,
 for his analysis,
 the grammarian needs some words to represent the
-latent doer pronouns in the virtualization.
+latent doer pronouns in the [taqdIr]{.trn2}.
 And because there are no real words to denote the latent doer pronouns,
 the grammarian borrows the words that denote the detached pronouns to do so.
 
 As it happens,
-the virtual latent pronouns are theorized to be (invisible/inaudible) _attached_ pronouns,^[[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar}, [تمهيد ز--ط]{.ar}]
+the [taqdIr]{.trn2}ed latent pronouns are theorized to be (invisible/inaudible) _attached_ pronouns,^[[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar}, [تمهيد ز--ط]{.ar}]
 just like the overt doer pronouns
 [تُ]{.ar} [I]{.trans},
 [نَا]{.ar} [we]{.trans},
 [نَ]{.ar} [they~3f~]{.trans},
 etc.
-Virtualizing the latent doer pronouns
+[taqdIr]{.trn2}ing the latent doer pronouns
 as attached pronouns has benefits that keeps the grammatical framework coherent
 across different grammatical topics.
 We will see one such benefit in chapter\ (ref), when we discuss the emphatic follower.
 
-#### Virtualization may be required to correctly interpret a text
+#### [#taqdIr]{.trn2} may be required to correctly interpret a text
 
 Consider the following [Ayah]{.trn2} from the Qurʾān:
 
@@ -1384,11 +1388,11 @@ The part
 [صَبْرٌ جَمِيلٌ]{.ar}
 has been analyzed
 as being able to be bear multiple interpretations,
-all requiring virtualization.
+all requiring [taqdIr]{.trn2}.
 One analysis is that
 [صَبْرٌ جَمِيلٌ]{.ar}
 is a subject whose info is deleted.
-The virtualization for this analysis is:
+The [taqdIr]{.trn2} for this analysis is:
 
 (@ex001122) [صَبْرٌ جَمِيلٌ أَمْثَلُ]{.ar}
     [[[الدر المصون للسمين الحلبي]{.ar} for [سورة يوسف]{.ar} 12:18](https://tafsir.app/aldur-almasoon/12/18)]{.citex}  
@@ -1397,7 +1401,7 @@ The virtualization for this analysis is:
 The second analysis is that
 [صَبْرٌ جَمِيلٌ]{.ar}
 is a info whose subject is deleted.
-The virtualization for this analysis is:
+The [taqdIr]{.trn2} for this analysis is:
 
 (@ex001123) [أَمْرِي صَبْرٌ جَمِيلٌ]{.ar}
     [[[الدر المصون للسمين الحلبي]{.ar} for [سورة يوسف]{.ar} 12:18](https://tafsir.app/aldur-almasoon/12/18)]{.citex}  
@@ -1407,15 +1411,15 @@ A third analysis is that
 [صَبْرٌ جَمِيلٌ]{.ar}
 is used as a deputy to a verb (see section\ (maf3ool mutlaq))
 in a command to oneself.
-The virtualization for this analysis is:
+The [taqdIr]{.trn2} for this analysis is:
 
 (@ex001124) [اصْبِرْ صَبْرًا جَمِيلًا]{.ar}
     [[[تفسير ابن عاشور]{.ar} for [سورة يوسف]{.ar} 12:18](https://tafsir.app/ibn-aashoor/12/18)]{.citex}  
     [Be patient [with] a beautiful patience!]{.trans}  
 
-#### Virtualization can be used to interpret anomalous usage
+#### [#taqdIr]{.trn2} can be used to interpret anomalous usage
 
-Grammarians also sometimes used virtualization as a tool to make anomalous usage
+Grammarians also sometimes used [taqdIr]{.trn2} as a tool to make anomalous usage
 fit coherently
 into their grammatical framework.^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 42]
 For example, if we consider the line of poetry that we discussed in @sec-agt_shaadh above:
@@ -1433,97 +1437,97 @@ not as a comparative noun,
 but as a adjectival noun
 synonymous to [مُبْيَضَّ]{.ar} [white]{.trans}.
 An implied noun [جَسَد]{.ar} [body]{.trans} is also inserted.^[[[الإنصاف للأنباري]{.ar} 1/123](https://shamela.ws/book/7362/119#p1)]
-Such that the virtualization is:
+Such that the [taqdIr]{.trn2} is:
 
 (@ex001126) [فِي دِرْعِهَا جَسَدٌ مُبْيَضٌّ مِنْ أُخْتِ بَنِي إِبَاضِ]{.ar}
     [[[الإنصاف للأنباري]{.ar} 1/123](https://shamela.ws/book/7362/119#p1)]{.citex}  
     [... in her shirt is a white body from [a woman of the tribe] of [#banU #ibAD]{.trn2}]{.trans}  
 
-Needless to say, this is pretty convoluted virtualization.
+Needless to say, this is pretty convoluted [taqdIr]{.trn2}.
 Some grammarians would prefer to let such anomalous usage be,
-and they wouldn't attempt to force such complicated virtualization
+and they wouldn't attempt to force such complicated [taqdIr]{.trn2}
 to make the anomalous usage fit into their
 analogy-based
 grammatical system.^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 42  
-Here is another example of using virtualization with anomalous usage:  
+Here is another example of using [taqdIr]{.trn2} with anomalous usage:  
 [ولا يتقدم نعت المصدر على معموله فلا يقال عرفت سوقك العنيف الإبل، لأن معمول المصدر منه بمنزلة الصلة من الموصول، فلا يتقدم نعت المصدر على معموله، كما لا يتقدم نعت الموصول على صلته، فإن ورد ما يوهم خلاف ذلك قدر فعل بعد النعت يتعلق به المعمول المتأخر. فمن ذلك قول الحطيئة:  
 أزمَعْتُ يأسًا مُبِينا من نَوالكم ~ ولنْ ترى طارِدًا للحُرِّ كاليأسِ  
 فالمتبادر إلى فهم سامع هذا البيت تعليق من نوالكم بيأسا، وهو غير جائز كما ذكرت، بل يتعلق بيئست مضمرا]{.ar}  
 [[[شرح التسهيل لابن مالك]{.ar} 3/108--109](https://shamela.ws/book/13257/924#p1)]{.citex}]
 
-#### There can be multiple levels and types of virtualization
+#### There can be multiple levels and types of [taqdIr]{.trn2}
 
-In order to fit a real speech into analogy,
-there can be multiple levels of virtualization done.
+In order to fit a surface speech into analogy,
+there can be multiple levels of [taqdIr]{.trn2} done.
 As an example,
 we saw in @sec-agt_taqdir_lian above that
 in example (@ex001116) [دَرَسْتُ لِأَنْجَحَ]{.ar},
-first an [أَنْ]{.ar} was virtualized between
+first an [أَنْ]{.ar} was [taqdIr]{.trn2}ed between
 [لِ]{.ar}
 and the
 a-case [muDArie]{.trn2} thus: (@ex001117) [دَرَسْتُ لِأَنْ أَنْجَحَ]{.ar}.
 
-And then a further level of virtualization was done,
+And then a further level of [taqdIr]{.trn2} was done,
 where
 [أَنْ]{.ar} and the following a-case [muDArie]{.trn2} verb
 was reinterpreted
 as a [maSdar]{.trn2} construction: (@ex001119) [دَرَسْتُ لِنَجَاحِي]{.ar}.
 
-Sometimes a virtualization
+Sometimes a [taqdIr]{.trn2}
 is used to explain
 irregular sounds,
 or a meaning which can only be arrived at by assuming an underlying interpretation.^[Versteegh, "The notion of underlying levels" 283ff]
 
 However,
 all types and layers of
-virtualization 
-are used to explain real speech
-according to a grammatical framework that can not address all aspects of real speech directly.
+[taqdIr]{.trn2} 
+are used to explain surface speech
+according to a grammatical framework that can not address all aspects of surface speech directly.
 
-### Benefits and risks of virtualization {#sec-agt_taqdir_benefits_risks}
+### Benefits and risks of [taqdIr]{.trn2} {#sec-agt_taqdir_benefits_risks}
 
-Virtualization is an analytic tool that allows the grammarian to discover
+[#taqdIr]{.trn2} is an analytic tool that allows the grammarian to discover
 and reconstruct
-a theorized structure that underlies real speech.^[Baalbaki, "Bāb al-fāʾ" 188]
-This theorized underlying structure is more basic than the real structure,
+a theorized structure that underlies surface speech.^[Baalbaki, "Bāb al-fāʾ" 188]
+This theorized underlying structure is more basic than the surface structure,
 and more easily described with a set of rules.^[Baalbaki, "Bāb al-fāʾ" 190]
 Without
-virtualization,
+[taqdIr]{.trn2},
 the set of rules, which the grammarian would have to formulate,
-would increase greatly to capture all the different variations in real speech.
+would increase greatly to capture all the different variations in surface speech.
 Furthermore, the rules would be disparate,
 and would not readily indicate the links
 between related linguistic phenomena.
-Those links are more obvious in the virtualization.
+Those links are more obvious in the [taqdIr]{.trn2}.
 
 Having said that,
-virtualization is essentially a speculative exercise which is done by the grammarian.
+[taqdIr]{.trn2} is essentially a speculative exercise which is done by the grammarian.
 Because
-the virtualization,
+the [taqdIr]{.trn2},
 by its very definition,
-does not manifest in real speech,
+does not manifest in surface speech,
 the grammarian can only theorize its existence and formulation.
-As such, virtualization entails risks because it is based on the grammarian's
+As such, [taqdIr]{.trn2} entails risks because it is based on the grammarian's
 subjective reasoning.^[Baalbaki, "Bāb al-fāʾ" 190]
 
 Therefore, the grammarian does,
 or should,
-attempt to validate his virtualization approach,
+attempt to validate his [taqdIr]{.trn2} approach,
 to whatever degree possible.
 One way to do this is
-by basing the virtualization on
+by basing the [taqdIr]{.trn2} on
 the meaning that
-a native speaker understands from the real speech,
+a native speaker understands from the surface speech,
 like our hypothetical grammarian did for latent doer pronouns in @sec-agt_taqdir_mustatir above.
 
-Another way is to attempt to find traces of the virtualization in the real speech,
+Another way is to attempt to find traces of the [taqdIr]{.trn2} in the surface speech,
 as was done in @sec-agt_taqdir_lian above,
-for the virtualization of [أَنْ]{.ar} between
+for the [taqdIr]{.trn2} of [أَنْ]{.ar} between
 [لِ]{.ar}
 and a following a-case [muDArie]{.trn2} verb.
 
-At the very least, any virtualization should be subservient to, and not contradict,
-the intended meaning of the real speech.^[See also Baalbaki, "Bāb al-fāʾ" 188]
+At the very least, any [taqdIr]{.trn2} should be subservient to, and not contradict,
+the intended meaning of the surface speech.^[See also Baalbaki, "Bāb al-fāʾ" 188]
 
 ## Difference of opinion between the grammarians
 
@@ -1556,12 +1560,12 @@ Some more differences between the two schools are that
 the [#kUf]{.trn2}ans are regarded as more lax in forming analogy-based rules
 based on anomalous usage.^[[[التذييل والتكميل لأبي حيان]{.ar} 11/75](https://shamela.ws/book/17116/3610)]
 Whereas the [#baSr]{.trn2}ans liked to keep their rules more taut,
-attempting to interpret rare and anomalous usages through virtualization^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 41--42]
+attempting to interpret rare and anomalous usages through [taqdIr]{.trn2}^[[القياس في اللغة العربية لمحمد الخضر حسين]{.ar} 41--42]
 so that most everything aligned with a minimal set of basic grammatical principles.
 Both, however, as a general rule, accepted the anomalous usage as valid attested usage.
 The [#kUf]{.trn2}ans are also thought to be more grounded in that they tried to stay
-closer to real speech,
-rather than venturing into too much virtualization.
+closer to surface speech,
+rather than venturing into too much [taqdIr]{.trn2}.
 
 Generally speaking,
 the [#baSr]{.trn2}ans formed their terminology and opinions
@@ -1572,7 +1576,7 @@ the [#kUf]{.trn2}an view is often brought in as a reality check against
 what may sometimes be deemed to be excessive
 rule strictness
 and
-virtualization
+[taqdIr]{.trn2}
 on the part of the [#baSr]{.trn2}ans.^[See also Carter, "Arabic grammar" 126--127]
 
 ## Utilizing grammatical models {#sec-agt_using_models}
@@ -1614,13 +1618,13 @@ Ibn al-Qayyim says:
 > Any one of us knows, by necessity, that he speaks.
 > His speech does not need evidence of its existence.
 > Nor does any doubt preoccupy him regarding [the fact] that he speaks.
-> Thus, what Allāh has informed about regarding [His] oneness, the [Prophet [#muHammad]{.trn2} [ﷺ]{.areng}'s] prophethood, the resurrection, and His names and attributes is [all] true and actual, in and of itself, in a manner which is similar to the actuality of your speech and its existence.
+> Thus, what Allāh has informed about, regarding [His] oneness, the [Prophet [#muHammad]{.trn2} [ﷺ]{.areng}'s] prophethood, the resurrection, and His names and attributes is [all] true and actual, in and of itself, in a manner which is similar to the actuality of your speech and its existence.
 > This is the kind of thing that people recognize in their parlance.
 > Someone may say, "This is true like the sun."
-> And a poet has been eloquent, regarding this [theme], by his saying:
+> A poet [too] has eloquently dealt with this [theme] by saying:
 >
 > [وليس يصح في الأذهان شيء ~ إذا احتاج النهار إلى دليل]{.ar}  
-> [And not a thing would be [left] correct in the minds, if the day [itself] required evidence [of existence].]{.trans}^[[[تفسير ابن القيم]{.ar} for [سورة الذاريات]{.ar} 51:23](https://tafsir.app/ibn-alqayyim/51/23)]
+> [And not a thing would [remain] sound in the minds, if the day [itself] required evidence [of its existence].]{.trans}^[[[تفسير ابن القيم]{.ar} for [سورة الذاريات]{.ar} 51:23](https://tafsir.app/ibn-alqayyim/51/23)]
 
 Coming back to the phrase
 _all models are wrong_,
@@ -1647,7 +1651,7 @@ states the following rules regarding the relationship between a verb and its doe
 This model is sufficient to anaylze sentences like
 example (@ex001100) [قَرَأَ زَيْدٌ]{.ar}
 [Zayd read]{.trans}
-and (through virtualization)
+and (through [taqdIr]{.trn2})
 example (@ex001107) [ذَهَبَ]{.ar}
 [He went]{.trans}.
 But it is not able to accurately model dialectal usage outside its bounds.
@@ -1707,7 +1711,7 @@ and to enable him to be able to venture into [#islAm]{.trn2}ic works written in
 [sca]{.smallcaps}.
 For this purpose,
 we find the standard model^[typified by, let's say, [ألفية ابن مالك]{.ar}]
-(including virtualization)
+(including [taqdIr]{.trn2})
 developed within
 the Arabic grammatical tradition
 suitable and
@@ -1752,6 +1756,6 @@ Also, if we take only the rule we have given, we wouldn't know that we could dro
 
 So, in summary, rules will tell us how to analyze and understand texts.
 And each rule, individually,
-is not necessarily dictating to us how we should be forming our own sentences in real speech.
+is not necessarily dictating to us how we should be forming our own sentences in surface speech.
 
 

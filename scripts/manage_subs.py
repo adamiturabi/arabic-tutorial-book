@@ -40,15 +40,18 @@ map_table["qiyaas"] = "analogy"
 map_table["3illah"] = "grammatical reason" #"theoretical cause"
 map_table["ta3leel"] = "grammatical reasoning" #"theoretical cause"
 map_table["shaadh"] = "anomalous usage"
-map_table["surf"] = "real" # apparent
+map_table["surf"] = "surface" # apparent, real, surface
 map_table["surfsp"] = map_table["surf"] + " speech"
-map_table["taqdir"] = "virtualization" # virtual model, "theoretical model" imaginary utterance, virtual, implication, virtual representation, virtual image, reckoned representation
-map_table["taqdiring"] = "virtualization" # "theoretical model" imaginary utterance, virtual, implication, reckoning
-map_table["qaddar"] = "virtualize"
-map_table["qaddars"] = "virtualizes"
-map_table["qaddaring"] = "virtualizing"
-map_table["qaddared"] = "virtualized"
-map_table["muqaddar"] = "virtual"
+
+# taqdir
+map_table["taqdir"] = "[taqdIr]{.trn2}" # virtual model, "theoretical model" imaginary utterance, virtual, implication, virtual representation, virtual image, reckoned representation
+map_table["taqdiring"] = map_table["taqdir"] # "theoretical model" imaginary utterance, virtual, implication, reckoning
+map_table["qaddar"] = map_table["taqdir"]
+map_table["qaddars"] = map_table["taqdir"] + "s"
+map_table["qaddaring"] = map_table["taqdir"] + "ing"
+map_table["qaddared"] = map_table["taqdir"] + "ed"
+map_table["muqaddar"] = map_table["taqdir"] + "ed"
+
 map_table["kufan"] = "[#kUf]{.trn2}an"
 map_table["basran"] = "[#baSr]{.trn2}an"
 
