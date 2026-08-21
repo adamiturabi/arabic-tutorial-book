@@ -3779,7 +3779,7 @@ part of the ;j_sh; may be omitted (i.e. ;mahzoof;) in speech.
 From context, the listener is able to restore the ;mahzoof; part when understanding the ;j_sh;.^[@saad_cond@ 198 quoting Crystal, _A dictionary of linguistics and phonetics_.]
 In this section, we will give examples of ;hazf; in the ;j_sh;.^[The discussion follows @saad_cond@ Chapter V, and re-uses many of the same examples.]
 
-### Part of the ;shart; or the ;jawab_shart; is ;mahzoof;
+### Part of the ;shart; or the ;jawab_shart; is ;mahzoof; {#sec-jsh_hazf_within_shart}
 
 Consider the following examples:
 
@@ -3881,6 +3881,7 @@ In the case of ;law; expressing a wish or a hope (see @sec-jsh_law_tamannii abov
 
 The above can be considered cases of obligatory and regular ;hazf; respectively.
 
+<!--
 Similarly, the ;jawab_shart; is obligatorily ;mahzoof; when 
 it imparts the meaning [even if]{.trans}.
 This occurs when ;adat_shart; is preceded by [وَ]{.ar} and is not followed by a ;jawab_shart;.
@@ -3897,6 +3898,7 @@ Examples:
 (@ex001490) [قُلْتُ وَإِنْ زَنَى وَإِنْ سَرَقَ قَالَ وَإِنْ زَنَى وَإِنْ سَرَقَ]{.ar}
     [@https://sunnah.com/muslim:94b@]{.citex}  
     [I said, "Even if he fornicated and even if he stole?".  He said, "Even if he fornicated and even if he stole."]{.trans}  
+-->
 
 The ;jawab_shart; is also obligatorily ;mahzoof; for parenthetical ;shart;s.
 For example:
@@ -3905,9 +3907,11 @@ For example:
     [[@mughni@ 2/647](https://ketabonline.com/ar/books/57084/read?part=2&page=643&index=3271128)]{.citex}  
     [He, if he does it, is a wrong-doer.]{.trans}  
 
+<!--
 (@ex001492) [زَيْدٌ **وَإِنْ كَثُرَ مَالُهُ** زَعِيمٌ]{.ar}
     [@wright@ 2/40]{.citex}  
     [Zayd, even if his wealth be much, is stingy.]{.trans}
+-->
 
 (@ex001493) [وَإِنَّاۤ **إِن شَاۤءَ ٱللَّهُ** لَمُهۡتَدُونَ]{.quran}
     [@https://quran.com/2/70@ cited by [@mughni@ 2/647](https://ketabonline.com/ar/books/57084/read?part=2&page=643&index=3271128); @saad_cond@ 213]{.citex}  
@@ -3928,6 +3932,75 @@ For example:
 
 Wright 2/8 rem a; 2/17 Rem b
 -->
+
+### [Even if]{.trans}
+
+A special case of a ;mahzoof; ;jawab_shart; is when the ;shart;
+imparts the meaning
+[even if]{.trans}.
+This occurs when ;adat_shart; is preceded by [وَ]{.ar} and is not followed by a ;jawab_shart;.
+Examples:
+
+(@ex001489) [أَنَا زَعِيمٌ بِبَيْتٍ فِي رَبَضِ الْجَنَّةِ لِمَنْ تَرَكَ الْمِرَاءَ **وَإِنْ كَانَ مُحِقًّا**]{.ar}
+    [@https://sunnah.com/abudawud:4800@]{.citex}  
+    [I guarantee a house in the surroundings of Paradise for a man who avoids arguing even if he were in the right.]{.trans}
+
+(@ex001490) [قُلْتُ وَإِنْ زَنَى وَإِنْ سَرَقَ قَالَ وَإِنْ زَنَى وَإِنْ سَرَقَ]{.ar}
+    [@https://sunnah.com/muslim:94b@]{.citex}  
+    [I said, "Even if he fornicated and even if he stole?".  He said, "Even if he fornicated and even if he stole."]{.trans}  
+
+Here is [even if]{.trans} as a parenthetical clause:
+
+(@ex001492) [زَيْدٌ **وَإِنْ كَثُرَ مَالُهُ** زَعِيمٌ]{.ar}
+    [@wright@ 2/40]{.citex}  
+    [Zayd, even if his wealth be much, is stingy.]{.trans}
+
+Frequently, the ;shart; in an [even if]{.trans} may contain only a noun.
+For example:
+
+(@ex001488) [بَلِّغُوا عَنِّي **وَلَوْ آيَةً**]{.ar}
+    [@https://sunnah.com/bukhari:3461@]{.citex}  
+    [Convey from me (my teachings) even if one ;ayah;.]{.trans}  
+
+In such cases, as in @sec-jsh_hazf_within_shart above,
+there may be multiple ways to analyze the ;shart;.
+Consider the following sentence:
+
+(@) [وَأْتِنِى بِدَابَّةٍ وَلَوْ حِمَارًا]{.ar}
+    [[@sibawayhi@ 1/269](https://shamela.ws/book/23018/267)]{.citex}  
+    [And bring me a beast, even if a donkey.]{.trans}
+
+The ;acase; of
+[جِمَار]{.ar}
+is justified using the ;taqdir;:
+
+(@) [وَلَوْ [كَانَ] حِمَارًا]{.ar}  
+    [even if [it were] a donkey.]{.trans}
+
+Instead of the ;acase; for
+[جِمَار]{.ar},
+the ;icase; may also be used:
+
+(@) [وَأْتِنِى بِدَابَّةٍ وَلَوْ حِمَارٍ]{.ar}
+    [composed from [@sibawayhi@ 1/269](https://shamela.ws/book/23018/267)]{.citex}  
+    [And bring me a beast, even if a donkey.]{.trans}
+
+In this case the ;taqdir; is:
+
+(@) [وَلَوْ [أَتَيْتَنِي بِ] حِمَارٍ]{.ar}  
+    [even if [you brought me] a donkey.]{.trans}
+
+The ;ucase; is also possible, though not as preferred:
+
+(@) [وَأْتِنِى بِدَابَّةٍ وَلَوْ حِمَارٌٍ]{.ar}
+    [composed from [@sibawayhi@ 1/269](https://shamela.ws/book/23018/267)]{.citex}  
+    [And bring me a beast, even if a donkey.]{.trans}
+
+In this case, the ;taqdir; would be:
+
+(@) [وَلَوْ [يَكُونُ مِمَّا تَأْتِينِي بِهِ] حِمَارٌ]{.ar}  
+    [composed from [@sibawayhi@ 1/269](https://shamela.ws/book/23018/267)]{.citex}  
+    [even if a donkey [is what you bring me].]{.trans}
 
 ### Both the ;shart_int; and the ;jawab_shart; are ;mahzoof;
 
