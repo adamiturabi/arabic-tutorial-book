@@ -204,7 +204,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     % bar
     %\fill [color=#1!10!\mixcolor]
     %\fill [color=#1!20]
-    \fill [pattern=#1,pattern color=black!14!white]
+    \fill [pattern=#1,pattern color=black!10!white]
     ({#2-1},#4) rectangle (#3,#5);
     % label
     \node [black!35, #7, font=\bfseries\sffamily] 
