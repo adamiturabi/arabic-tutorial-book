@@ -1894,47 +1894,41 @@ The main non-;0case;-izing ;adat_shart;s
 are ;idha;
 (which we treated in @sec-jsh_idha above),
 and ;law;
-(which we will treat in @sec-jsh_law below.)
-Besides those, there are others that can be
-loosely be considered ;adat_shart;s.
-Unlike
+(which we treat in @sec-jsh_law below.)
+
+For some background regarding
+non-;0case;-izing ;adat_shart;s,
+for the earlier grammarians,
+conditionality was strongly associated with the syntax of a
+;0case; ;fi3l_shart;.
+So much so that even ;idha; and ;law; may not have been treated under the heading of ;j_sh;s.
+As grammar developed, semantic considerations allowed
+them to be discussed with ;in; as ;adat_shart;s.^[@giolfo_conditionality@; @giolfo_real_irreal@]
+
+Even so,
+unlike
 ;0case;-izing ;adat_shart;s,
-this is a loosely defined category and an open set,
+non-;0case;-izing ;adat_shart;s,
+are loosely defined set,
 with some
 ;0case;-izing ;adat_shart;s
-having only a whiff of,
+imparting only a whiff of,
 or only partial
-conditionality
-in their meaning.
-In fact, many of
-these non-;0case;-izing ;adat_shart;s
-are not considered
-"true" ;adat_shart;s.
-Because, traditionally,
-conditionality was equated with
-only
-;0case;-izing ;adat_shart;s.^[@giolfo_real_irreal@]
+conditionality.
 
-But for our purposes,
-we will consider a word to be
-a non-;0case;-izing ;adat_shart;
-if it introduces a ";shart;" clause,
-and the sentence is only meaningfully complete when it is followed by a ";jawab_shart;" clause.
-Furthermore,
-if there is any tense-shifting in the meaning of either of the two clauses,
-then that strengthens the case for it to be a ;j_sh;.
+There are some indicators,
+such that if one or more are present,
+they can allow a sentence to have a conditional meaning, in varying degrees.
+These are:
 
-<!--
-In addition to the 
-;0case;-izing ;adat_shart;s that we discussed in section () above,
-there are
-non-;0case;-izing ;adat_shart;s.
-The main ones are ;idha;
-(which we treated in section () above),
-and ;law;
-(which we will treat in section () below.)
-But besides those, there are secondary ones as well which we will discuss here.
--->
++ There are two clauses where the execution of the event in one (;jawab_shart;) clause is dependent on the fulfilment of the execution of an event in the other (;shart;) clause.
++ The ;shart; clause occurs before the ;jawab_shart; clause in sentence word order.
++ The ;shart; clause has a verb which can be considered (loosely) the ;fi3l_shart;. Same goes for the ;jawab_shart; clause.
++ The tense of the ;fi3l_shart; and/or ;fi3l_jawab_shart; (if ;madi;) is shifted to the future.
+
+We discuss some of these
+non-;0case;-izing ;adat_shart;s
+below:
 
 #### #;adat_istifham;s and ;dharfs; {.unnumbered}
 
@@ -1942,20 +1936,23 @@ The same
 ;adat_istifham;s the ;dharfs; 
 which we discussed as 
 ;0case;-izing ;adat_shart;s
-can also be used as
-non-;0case;-izing ;adat_shart;s.
-But now they revert back to their original functions
+can also impart a conditional meaning
+when used with their original functions
 as ;ism_mawsul;s and ;dharfs;.
-The ;ism_mawsul;s ;alladhi;, etc. can also be used as 
-non-;0case;-izing ;adat_shart;s.
+
+As discussed above,
+when used as such,
+they may technically not be considered ";j_sh;s"
+because of the lack of an (either ;zaahir; or ;mahall;) ;0case; ;fi3l_shart;.
+
 We list some examples below.
 Note that the verbs in the ;shart; and ;jawab_shart; are in the ;ucase;,
 and there is no tense-shifting.
-Technically, there is also no
+Technically, they won't be called the
 ";fi3l_shart;"
 and ";fi3l_jawab_shart;".
-So the syntax of the two clauses is not restricted to be a ;j_f3l;.
-
+Furthermore, the structure of the ";shart_int;" and ";jawab_shart_int;"
+could technically not have to be a ;j_f3l;.
 
 (@ex001319) [مَا تَقُولُ أَقُولُ]{.ar}
     [[@sibawayhi@ 3/69](https://shamela.ws/book/23018/922)]{.citex}  
@@ -1985,6 +1982,9 @@ So the syntax of the two clauses is not restricted to be a ;j_f3l;.
     ;0case;-izing ;adat_shart;, like in example (@ex001293) above. In which case [أَتَانِي]{.ar} is a true ;fi3l_shart;
     in place of [يَأْتِنِي]{.ar}, and there is a ;mahzoof; ;jawab_shart; after it.
     And the meaning will be [I will come to who **will come** to me]{.trans}.^[[@sibawayhi@ 3/70](https://shamela.ws/book/23018/923)])
+
+(@) [ومَنْ يَمِيلُ أَمَالَ السَّيْفُ ذِرْوَتَهُ ~ حَيْثُ الْتَقَى من حفا فِي رَأْسِهِ الشَّعَرُ]{.ar}
+    [[@sibawayhi@ 3/70](https://shamela.ws/book/23018/923)]{.citex}  
 
 (@ex001325) [بِمَنْ تَمُرُّ بِهِ أَمُرُّ]{.ar}
     [[@sibawayhi@ 3/80](https://shamela.ws/book/23018/933)]{.citex}  
@@ -3779,7 +3779,7 @@ part of the ;j_sh; may be omitted (i.e. ;mahzoof;) in speech.
 From context, the listener is able to restore the ;mahzoof; part when understanding the ;j_sh;.^[@saad_cond@ 198 quoting Crystal, _A dictionary of linguistics and phonetics_.]
 In this section, we will give examples of ;hazf; in the ;j_sh;.^[The discussion follows @saad_cond@ Chapter V, and re-uses many of the same examples.]
 
-### Part of the ;shart; or the ;jawab_shart; is ;mahzoof;
+### Part of the ;shart; or the ;jawab_shart; is ;mahzoof; {#sec-jsh_hazf_within_shart}
 
 Consider the following examples:
 
@@ -3881,6 +3881,7 @@ In the case of ;law; expressing a wish or a hope (see @sec-jsh_law_tamannii abov
 
 The above can be considered cases of obligatory and regular ;hazf; respectively.
 
+<!--
 Similarly, the ;jawab_shart; is obligatorily ;mahzoof; when 
 it imparts the meaning [even if]{.trans}.
 This occurs when ;adat_shart; is preceded by [وَ]{.ar} and is not followed by a ;jawab_shart;.
@@ -3897,6 +3898,7 @@ Examples:
 (@ex001490) [قُلْتُ وَإِنْ زَنَى وَإِنْ سَرَقَ قَالَ وَإِنْ زَنَى وَإِنْ سَرَقَ]{.ar}
     [@https://sunnah.com/muslim:94b@]{.citex}  
     [I said, "Even if he fornicated and even if he stole?".  He said, "Even if he fornicated and even if he stole."]{.trans}  
+-->
 
 The ;jawab_shart; is also obligatorily ;mahzoof; for parenthetical ;shart;s.
 For example:
@@ -3905,9 +3907,11 @@ For example:
     [[@mughni@ 2/647](https://ketabonline.com/ar/books/57084/read?part=2&page=643&index=3271128)]{.citex}  
     [He, if he does it, is a wrong-doer.]{.trans}  
 
+<!--
 (@ex001492) [زَيْدٌ **وَإِنْ كَثُرَ مَالُهُ** زَعِيمٌ]{.ar}
     [@wright@ 2/40]{.citex}  
     [Zayd, even if his wealth be much, is stingy.]{.trans}
+-->
 
 (@ex001493) [وَإِنَّاۤ **إِن شَاۤءَ ٱللَّهُ** لَمُهۡتَدُونَ]{.quran}
     [@https://quran.com/2/70@ cited by [@mughni@ 2/647](https://ketabonline.com/ar/books/57084/read?part=2&page=643&index=3271128); @saad_cond@ 213]{.citex}  
@@ -3928,6 +3932,75 @@ For example:
 
 Wright 2/8 rem a; 2/17 Rem b
 -->
+
+### [Even if]{.trans}
+
+A special case of a ;mahzoof; ;jawab_shart; is when the ;shart;
+imparts the meaning
+[even if]{.trans}.
+This occurs when ;adat_shart; is preceded by [وَ]{.ar} and is not followed by a ;jawab_shart;.
+Examples:
+
+(@ex001489) [أَنَا زَعِيمٌ بِبَيْتٍ فِي رَبَضِ الْجَنَّةِ لِمَنْ تَرَكَ الْمِرَاءَ **وَإِنْ كَانَ مُحِقًّا**]{.ar}
+    [@https://sunnah.com/abudawud:4800@]{.citex}  
+    [I guarantee a house in the surroundings of Paradise for a man who avoids arguing even if he were in the right.]{.trans}
+
+(@ex001490) [قُلْتُ وَإِنْ زَنَى وَإِنْ سَرَقَ قَالَ وَإِنْ زَنَى وَإِنْ سَرَقَ]{.ar}
+    [@https://sunnah.com/muslim:94b@]{.citex}  
+    [I said, "Even if he fornicated and even if he stole?".  He said, "Even if he fornicated and even if he stole."]{.trans}  
+
+Here is [even if]{.trans} as a parenthetical clause:
+
+(@ex001492) [زَيْدٌ **وَإِنْ كَثُرَ مَالُهُ** زَعِيمٌ]{.ar}
+    [@wright@ 2/40]{.citex}  
+    [Zayd, even if his wealth be much, is stingy.]{.trans}
+
+Frequently, the ;shart; in an [even if]{.trans} may contain only a noun.
+For example:
+
+(@ex001488) [بَلِّغُوا عَنِّي **وَلَوْ آيَةً**]{.ar}
+    [@https://sunnah.com/bukhari:3461@]{.citex}  
+    [Convey from me (my teachings) even if one ;ayah;.]{.trans}  
+
+In such cases, as in @sec-jsh_hazf_within_shart above,
+there may be multiple ways to analyze the ;shart;.
+Consider the following sentence:
+
+(@) [وَأْتِنِى بِدَابَّةٍ وَلَوْ حِمَارًا]{.ar}
+    [[@sibawayhi@ 1/269](https://shamela.ws/book/23018/267)]{.citex}  
+    [And bring me a beast of burden, even if a donkey.]{.trans}
+
+The ;acase; of
+[حِمَار]{.ar}
+is justified using the ;taqdir;:
+
+(@) [وَلَوْ [كَانَ] حِمَارًا]{.ar}  
+    [even if [it were] a donkey.]{.trans}
+
+Instead of the ;acase; for
+[حِمَار]{.ar},
+the ;icase; may also be used:
+
+(@) [وَأْتِنِى بِدَابَّةٍ وَلَوْ حِمَارٍ]{.ar}
+    [composed from [@sibawayhi@ 1/269](https://shamela.ws/book/23018/267)]{.citex}  
+    [And bring me a beast of burden, even if a donkey.]{.trans}
+
+In this case the ;taqdir; is:
+
+(@) [وَلَوْ [أَتَيْتَنِي بِ] حِمَارٍ]{.ar}  
+    [even if [you brought me] a donkey.]{.trans}
+
+The ;ucase; is also possible, though not as preferred:
+
+(@) [وَأْتِنِى بِدَابَّةٍ وَلَوْ حِمَارٌٍ]{.ar}
+    [composed from [@sibawayhi@ 1/269](https://shamela.ws/book/23018/267)]{.citex}  
+    [And bring me a beast of burden, even if a donkey.]{.trans}
+
+In this case, the ;taqdir; would be:
+
+(@) [وَلَوْ [يَكُونُ مِمَّا تَأْتِينِي بِهِ] حِمَارٌ]{.ar}  
+    [composed from [@sibawayhi@ 1/269](https://shamela.ws/book/23018/267)]{.citex}  
+    [even if a donkey [is what you bring me].]{.trans}
 
 ### Both the ;shart_int; and the ;jawab_shart; are ;mahzoof;
 

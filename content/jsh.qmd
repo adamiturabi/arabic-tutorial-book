@@ -1901,47 +1901,41 @@ The main non-ø-case-izing conditional-devices
 are [إِذَا]{.ar}
 (which we treated in @sec-jsh_idha above),
 and [لَوْ]{.ar}
-(which we will treat in @sec-jsh_law below.)
-Besides those, there are others that can be
-loosely be considered conditional-devices.
-Unlike
+(which we treat in @sec-jsh_law below.)
+
+For some background regarding
+non-ø-case-izing conditional-devices,
+for the earlier grammarians,
+conditionality was strongly associated with the syntax of a
+ø-case condition-verb.
+So much so that even [إِذَا]{.ar} and [لَوْ]{.ar} may not have been treated under the heading of conditional sentences.
+As grammar developed, semantic considerations allowed
+them to be discussed with [إِنْ]{.ar} as conditional-devices.^[Giolfo and Hodges, "Conditionality: Syntax and meaning in al-Sīrāfī and Ibn Sīnā"; Giolfo, "Real and irreal conditionals in Arabic grammar: From al-ʾAstarābāḏī to Sībawayhi"]
+
+Even so,
+unlike
 ø-case-izing conditional-devices,
-this is a loosely defined category and an open set,
+non-ø-case-izing conditional-devices,
+are loosely defined set,
 with some
 ø-case-izing conditional-devices
-having only a whiff of,
+imparting only a whiff of,
 or only partial
-conditionality
-in their meaning.
-In fact, many of
-these non-ø-case-izing conditional-devices
-are not considered
-"true" conditional-devices.
-Because, traditionally,
-conditionality was equated with
-only
-ø-case-izing conditional-devices.^[Giolfo, "Real and irreal conditionals in Arabic grammar: From al-ʾAstarābāḏī to Sībawayhi"]
+conditionality.
 
-But for our purposes,
-we will consider a word to be
-a non-ø-case-izing conditional-device
-if it introduces a "condition" clause,
-and the sentence is only meaningfully complete when it is followed by a "condition-response" clause.
-Furthermore,
-if there is any tense-shifting in the meaning of either of the two clauses,
-then that strengthens the case for it to be a conditional sentence.
+There are some indicators,
+such that if one or more are present,
+they can allow a sentence to have a conditional meaning, in varying degrees.
+These are:
 
-<!--
-In addition to the 
-ø-case-izing conditional-devices that we discussed in section () above,
-there are
-non-ø-case-izing conditional-devices.
-The main ones are [إِذَا]{.ar}
-(which we treated in section () above),
-and [لَوْ]{.ar}
-(which we will treat in section () below.)
-But besides those, there are secondary ones as well which we will discuss here.
--->
++ There are two clauses where the execution of the event in one (condition-response) clause is dependent on the fulfilment of the execution of an event in the other (condition) clause.
++ The condition clause occurs before the condition-response clause in sentence word order.
++ The condition clause has a verb which can be considered (loosely) the condition-verb. Same goes for the condition-response clause.
++ The tense of the condition-verb and/or condition-response-verb (if [mADI]{.trn2}) is shifted to the future.
+
+We discuss some of these
+non-ø-case-izing conditional-devices
+below:
 
 #### Question-devices and adverbs of time/place {.unnumbered}
 
@@ -1949,20 +1943,23 @@ The same
 question-devices the adverbs of time/place 
 which we discussed as 
 ø-case-izing conditional-devices
-can also be used as
-non-ø-case-izing conditional-devices.
-But now they revert back to their original functions
+can also impart a conditional meaning
+when used with their original functions
 as connected nouns and adverbs of time/place.
-The connected nouns [الَّذِي]{.ar}, etc. can also be used as 
-non-ø-case-izing conditional-devices.
+
+As discussed above,
+when used as such,
+they may technically not be considered "conditional sentences"
+because of the lack of an (either overt or positional) ø-case condition-verb.
+
 We list some examples below.
 Note that the verbs in the condition and condition-response are in the u-case,
 and there is no tense-shifting.
-Technically, there is also no
+Technically, they won't be called the
 "condition-verb"
 and "condition-response-verb".
-So the syntax of the two clauses is not restricted to be a verbal sentence.
-
+Furthermore, the structure of the "condition-core" and "condition-response-core"
+could technically not have to be a verbal sentence.
 
 (@ex001319) [مَا تَقُولُ أَقُولُ]{.ar}
     [[[كتاب سيبويه]{.ar} 3/69](https://shamela.ws/book/23018/922)]{.citex}  
@@ -1992,6 +1989,9 @@ So the syntax of the two clauses is not restricted to be a verbal sentence.
     ø-case-izing conditional-device, like in example (@ex001293) above. In which case [أَتَانِي]{.ar} is a true condition-verb
     in place of [يَأْتِنِي]{.ar}, and there is a deleted condition-response after it.
     And the meaning will be [I will come to who **will come** to me]{.trans}.^[[[كتاب سيبويه]{.ar} 3/70](https://shamela.ws/book/23018/923)])
+
+(@) [ومَنْ يَمِيلُ أَمَالَ السَّيْفُ ذِرْوَتَهُ ~ حَيْثُ الْتَقَى من حفا فِي رَأْسِهِ الشَّعَرُ]{.ar}
+    [[[كتاب سيبويه]{.ar} 3/70](https://shamela.ws/book/23018/923)]{.citex}  
 
 (@ex001325) [بِمَنْ تَمُرُّ بِهِ أَمُرُّ]{.ar}
     [[[كتاب سيبويه]{.ar} 3/80](https://shamela.ws/book/23018/933)]{.citex}  
@@ -3786,7 +3786,7 @@ part of the conditional sentence may be omitted (i.e. deleted) in speech.
 From context, the listener is able to restore the deleted part when understanding the conditional sentence.^[Al-Saad, _Conditional structure in Classical Arabic_ 198 quoting Crystal, _A dictionary of linguistics and phonetics_.]
 In this section, we will give examples of deletion in the conditional sentence.^[The discussion follows Al-Saad, _Conditional structure in Classical Arabic_ Chapter V, and re-uses many of the same examples.]
 
-### Part of the condition or the condition-response is deleted
+### Part of the condition or the condition-response is deleted {#sec-jsh_hazf_within_shart}
 
 Consider the following examples:
 
@@ -3888,6 +3888,7 @@ In the case of [لَوْ]{.ar} expressing a wish or a hope (see @sec-jsh_law_tam
 
 The above can be considered cases of obligatory and regular deletion respectively.
 
+<!--
 Similarly, the condition-response is obligatorily deleted when 
 it imparts the meaning [even if]{.trans}.
 This occurs when conditional-device is preceded by [وَ]{.ar} and is not followed by a condition-response.
@@ -3904,6 +3905,7 @@ Examples:
 (@ex001490) [قُلْتُ وَإِنْ زَنَى وَإِنْ سَرَقَ قَالَ وَإِنْ زَنَى وَإِنْ سَرَقَ]{.ar}
     [[[صحيح مسلم]{.ar} :94b](https://sunnah.com/muslim:94b)]{.citex}  
     [I said, "Even if he fornicated and even if he stole?".  He said, "Even if he fornicated and even if he stole."]{.trans}  
+-->
 
 The condition-response is also obligatorily deleted for parenthetical conditions.
 For example:
@@ -3912,9 +3914,11 @@ For example:
     [[[مغني اللبيب لابن هشام]{.ar} 2/647](https://ketabonline.com/ar/books/57084/read?part=2&page=643&index=3271128)]{.citex}  
     [He, if he does it, is a wrong-doer.]{.trans}  
 
+<!--
 (@ex001492) [زَيْدٌ **وَإِنْ كَثُرَ مَالُهُ** زَعِيمٌ]{.ar}
     [Wright 2/40]{.citex}  
     [Zayd, even if his wealth be much, is stingy.]{.trans}
+-->
 
 (@ex001493) [وَإِنَّاۤ **إِن شَاۤءَ ٱللَّهُ** لَمُهۡتَدُونَ]{.quran}
     [[[سورة البقرة]{.ar} 2:70](https://quran.com/2/70) cited by [[مغني اللبيب لابن هشام]{.ar} 2/647](https://ketabonline.com/ar/books/57084/read?part=2&page=643&index=3271128); Al-Saad, _Conditional structure in Classical Arabic_ 213]{.citex}  
@@ -3935,6 +3939,75 @@ For example:
 
 Wright 2/8 rem a; 2/17 Rem b
 -->
+
+### [Even if]{.trans}
+
+A special case of a deleted condition-response is when the condition
+imparts the meaning
+[even if]{.trans}.
+This occurs when conditional-device is preceded by [وَ]{.ar} and is not followed by a condition-response.
+Examples:
+
+(@ex001489) [أَنَا زَعِيمٌ بِبَيْتٍ فِي رَبَضِ الْجَنَّةِ لِمَنْ تَرَكَ الْمِرَاءَ **وَإِنْ كَانَ مُحِقًّا**]{.ar}
+    [[[سنن أبي داود]{.ar} :4800](https://sunnah.com/abudawud:4800)]{.citex}  
+    [I guarantee a house in the surroundings of Paradise for a man who avoids arguing even if he were in the right.]{.trans}
+
+(@ex001490) [قُلْتُ وَإِنْ زَنَى وَإِنْ سَرَقَ قَالَ وَإِنْ زَنَى وَإِنْ سَرَقَ]{.ar}
+    [[[صحيح مسلم]{.ar} :94b](https://sunnah.com/muslim:94b)]{.citex}  
+    [I said, "Even if he fornicated and even if he stole?".  He said, "Even if he fornicated and even if he stole."]{.trans}  
+
+Here is [even if]{.trans} as a parenthetical clause:
+
+(@ex001492) [زَيْدٌ **وَإِنْ كَثُرَ مَالُهُ** زَعِيمٌ]{.ar}
+    [Wright 2/40]{.citex}  
+    [Zayd, even if his wealth be much, is stingy.]{.trans}
+
+Frequently, the condition in an [even if]{.trans} may contain only a noun.
+For example:
+
+(@ex001488) [بَلِّغُوا عَنِّي **وَلَوْ آيَةً**]{.ar}
+    [[[صحيح البخاري]{.ar} :3461](https://sunnah.com/bukhari:3461)]{.citex}  
+    [Convey from me (my teachings) even if one [Ayah]{.trn2}.]{.trans}  
+
+In such cases, as in @sec-jsh_hazf_within_shart above,
+there may be multiple ways to analyze the condition.
+Consider the following sentence:
+
+(@) [وَأْتِنِى بِدَابَّةٍ وَلَوْ حِمَارًا]{.ar}
+    [[[كتاب سيبويه]{.ar} 1/269](https://shamela.ws/book/23018/267)]{.citex}  
+    [And bring me a beast of burden, even if a donkey.]{.trans}
+
+The a-case of
+[حِمَار]{.ar}
+is justified using the [taqdIr]{.trn2}:
+
+(@) [وَلَوْ [كَانَ] حِمَارًا]{.ar}  
+    [even if [it were] a donkey.]{.trans}
+
+Instead of the a-case for
+[حِمَار]{.ar},
+the i-case may also be used:
+
+(@) [وَأْتِنِى بِدَابَّةٍ وَلَوْ حِمَارٍ]{.ar}
+    [composed from [[كتاب سيبويه]{.ar} 1/269](https://shamela.ws/book/23018/267)]{.citex}  
+    [And bring me a beast of burden, even if a donkey.]{.trans}
+
+In this case the [taqdIr]{.trn2} is:
+
+(@) [وَلَوْ [أَتَيْتَنِي بِ] حِمَارٍ]{.ar}  
+    [even if [you brought me] a donkey.]{.trans}
+
+The u-case is also possible, though not as preferred:
+
+(@) [وَأْتِنِى بِدَابَّةٍ وَلَوْ حِمَارٌٍ]{.ar}
+    [composed from [[كتاب سيبويه]{.ar} 1/269](https://shamela.ws/book/23018/267)]{.citex}  
+    [And bring me a beast of burden, even if a donkey.]{.trans}
+
+In this case, the [taqdIr]{.trn2} would be:
+
+(@) [وَلَوْ [يَكُونُ مِمَّا تَأْتِينِي بِهِ] حِمَارٌ]{.ar}  
+    [composed from [[كتاب سيبويه]{.ar} 1/269](https://shamela.ws/book/23018/267)]{.citex}  
+    [even if a donkey [is what you bring me].]{.trans}
 
 ### Both the condition-core and the condition-response are deleted
 
