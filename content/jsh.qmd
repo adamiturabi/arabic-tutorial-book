@@ -1901,47 +1901,41 @@ The main non-ø-case-izing conditional-devices
 are [إِذَا]{.ar}
 (which we treated in @sec-jsh_idha above),
 and [لَوْ]{.ar}
-(which we will treat in @sec-jsh_law below.)
-Besides those, there are others that can be
-loosely be considered conditional-devices.
-Unlike
+(which we treat in @sec-jsh_law below.)
+
+For some background regarding
+non-ø-case-izing conditional-devices,
+for the earlier grammarians,
+conditionality was strongly associated with the syntax of a
+ø-case condition-verb.
+So much so that even [إِذَا]{.ar} and [لَوْ]{.ar} may not have been treated under the heading of conditional sentences.
+As grammar developed, semantic considerations allowed
+them to be discussed with [إِنْ]{.ar} as conditional-devices.^[Giolfo and Hodges, "Conditionality: Syntax and meaning in al-Sīrāfī and Ibn Sīnā"; Giolfo, "Real and irreal conditionals in Arabic grammar: From al-ʾAstarābāḏī to Sībawayhi"]
+
+Even so,
+unlike
 ø-case-izing conditional-devices,
-this is a loosely defined category and an open set,
+non-ø-case-izing conditional-devices,
+are loosely defined set,
 with some
 ø-case-izing conditional-devices
-having only a whiff of,
+imparting only a whiff of,
 or only partial
-conditionality
-in their meaning.
-In fact, many of
-these non-ø-case-izing conditional-devices
-are not considered
-"true" conditional-devices.
-Because, traditionally,
-conditionality was equated with
-only
-ø-case-izing conditional-devices.^[Giolfo, "Real and irreal conditionals in Arabic grammar: From al-ʾAstarābāḏī to Sībawayhi"]
+conditionality.
 
-But for our purposes,
-we will consider a word to be
-a non-ø-case-izing conditional-device
-if it introduces a "condition" clause,
-and the sentence is only meaningfully complete when it is followed by a "condition-response" clause.
-Furthermore,
-if there is any tense-shifting in the meaning of either of the two clauses,
-then that strengthens the case for it to be a conditional sentence.
+There are some indicators,
+such that if one or more are present,
+they can allow a sentence to have a conditional meaning, in varying degrees.
+These are:
 
-<!--
-In addition to the 
-ø-case-izing conditional-devices that we discussed in section () above,
-there are
-non-ø-case-izing conditional-devices.
-The main ones are [إِذَا]{.ar}
-(which we treated in section () above),
-and [لَوْ]{.ar}
-(which we will treat in section () below.)
-But besides those, there are secondary ones as well which we will discuss here.
--->
++ There are two clauses where the execution of the event in one (condition-response) clause is dependent on the fulfilment of the execution of an event in the other (condition) clause.
++ The condition clause occurs before the condition-response clause in sentence word order.
++ The condition clause has a verb which can be considered (loosely) the condition-verb. Same goes for the condition-response clause.
++ The tense of the condition-verb and/or condition-response-verb (if [mADI]{.trn2}) is shifted to the future.
+
+We discuss some of these
+non-ø-case-izing conditional-devices
+below:
 
 #### Question-devices and adverbs of time/place {.unnumbered}
 
@@ -1949,20 +1943,23 @@ The same
 question-devices the adverbs of time/place 
 which we discussed as 
 ø-case-izing conditional-devices
-can also be used as
-non-ø-case-izing conditional-devices.
-But now they revert back to their original functions
+can also impart a conditional meaning
+when used with their original functions
 as connected nouns and adverbs of time/place.
-The connected nouns [الَّذِي]{.ar}, etc. can also be used as 
-non-ø-case-izing conditional-devices.
+
+As discussed above,
+when used as such,
+they may technically not be considered "conditional sentences"
+because of the lack of an (either overt or positional) ø-case condition-verb.
+
 We list some examples below.
 Note that the verbs in the condition and condition-response are in the u-case,
 and there is no tense-shifting.
-Technically, there is also no
+Technically, they won't be called the
 "condition-verb"
 and "condition-response-verb".
-So the syntax of the two clauses is not restricted to be a verbal sentence.
-
+Furthermore, the structure of the "condition-core" and "condition-response-core"
+could technically not have to be a verbal sentence.
 
 (@ex001319) [مَا تَقُولُ أَقُولُ]{.ar}
     [[[كتاب سيبويه]{.ar} 3/69](https://shamela.ws/book/23018/922)]{.citex}  
