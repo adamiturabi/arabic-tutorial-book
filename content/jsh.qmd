@@ -1993,6 +1993,9 @@ So the syntax of the two clauses is not restricted to be a verbal sentence.
     in place of [يَأْتِنِي]{.ar}, and there is a deleted condition-response after it.
     And the meaning will be [I will come to who **will come** to me]{.trans}.^[[[كتاب سيبويه]{.ar} 3/70](https://shamela.ws/book/23018/923)])
 
+(@) [ومَنْ يَمِيلُ أَمَالَ السَّيْفُ ذِرْوَتَهُ ~ حَيْثُ الْتَقَى من حفا فِي رَأْسِهِ الشَّعَرُ]{.ar}
+    [[[كتاب سيبويه]{.ar} 3/70](https://shamela.ws/book/23018/923)]{.citex}  
+
 (@ex001325) [بِمَنْ تَمُرُّ بِهِ أَمُرُّ]{.ar}
     [[[كتاب سيبويه]{.ar} 3/80](https://shamela.ws/book/23018/933)]{.citex}  
     [By whom you pass, I pass.]{.trans}
@@ -3786,7 +3789,7 @@ part of the conditional sentence may be omitted (i.e. deleted) in speech.
 From context, the listener is able to restore the deleted part when understanding the conditional sentence.^[Al-Saad, _Conditional structure in Classical Arabic_ 198 quoting Crystal, _A dictionary of linguistics and phonetics_.]
 In this section, we will give examples of deletion in the conditional sentence.^[The discussion follows Al-Saad, _Conditional structure in Classical Arabic_ Chapter V, and re-uses many of the same examples.]
 
-### Part of the condition or the condition-response is deleted
+### Part of the condition or the condition-response is deleted {#sec-jsh_hazf_within_shart}
 
 Consider the following examples:
 
@@ -3888,6 +3891,7 @@ In the case of [لَوْ]{.ar} expressing a wish or a hope (see @sec-jsh_law_tam
 
 The above can be considered cases of obligatory and regular deletion respectively.
 
+<!--
 Similarly, the condition-response is obligatorily deleted when 
 it imparts the meaning [even if]{.trans}.
 This occurs when conditional-device is preceded by [وَ]{.ar} and is not followed by a condition-response.
@@ -3904,6 +3908,7 @@ Examples:
 (@ex001490) [قُلْتُ وَإِنْ زَنَى وَإِنْ سَرَقَ قَالَ وَإِنْ زَنَى وَإِنْ سَرَقَ]{.ar}
     [[[صحيح مسلم]{.ar} :94b](https://sunnah.com/muslim:94b)]{.citex}  
     [I said, "Even if he fornicated and even if he stole?".  He said, "Even if he fornicated and even if he stole."]{.trans}  
+-->
 
 The condition-response is also obligatorily deleted for parenthetical conditions.
 For example:
@@ -3912,9 +3917,11 @@ For example:
     [[[مغني اللبيب لابن هشام]{.ar} 2/647](https://ketabonline.com/ar/books/57084/read?part=2&page=643&index=3271128)]{.citex}  
     [He, if he does it, is a wrong-doer.]{.trans}  
 
+<!--
 (@ex001492) [زَيْدٌ **وَإِنْ كَثُرَ مَالُهُ** زَعِيمٌ]{.ar}
     [Wright 2/40]{.citex}  
     [Zayd, even if his wealth be much, is stingy.]{.trans}
+-->
 
 (@ex001493) [وَإِنَّاۤ **إِن شَاۤءَ ٱللَّهُ** لَمُهۡتَدُونَ]{.quran}
     [[[سورة البقرة]{.ar} 2:70](https://quran.com/2/70) cited by [[مغني اللبيب لابن هشام]{.ar} 2/647](https://ketabonline.com/ar/books/57084/read?part=2&page=643&index=3271128); Al-Saad, _Conditional structure in Classical Arabic_ 213]{.citex}  
@@ -3935,6 +3942,75 @@ For example:
 
 Wright 2/8 rem a; 2/17 Rem b
 -->
+
+### [Even if]{.trans}
+
+A special case of a deleted condition-response is when the condition
+imparts the meaning
+[even if]{.trans}.
+This occurs when conditional-device is preceded by [وَ]{.ar} and is not followed by a condition-response.
+Examples:
+
+(@ex001489) [أَنَا زَعِيمٌ بِبَيْتٍ فِي رَبَضِ الْجَنَّةِ لِمَنْ تَرَكَ الْمِرَاءَ **وَإِنْ كَانَ مُحِقًّا**]{.ar}
+    [[[سنن أبي داود]{.ar} :4800](https://sunnah.com/abudawud:4800)]{.citex}  
+    [I guarantee a house in the surroundings of Paradise for a man who avoids arguing even if he were in the right.]{.trans}
+
+(@ex001490) [قُلْتُ وَإِنْ زَنَى وَإِنْ سَرَقَ قَالَ وَإِنْ زَنَى وَإِنْ سَرَقَ]{.ar}
+    [[[صحيح مسلم]{.ar} :94b](https://sunnah.com/muslim:94b)]{.citex}  
+    [I said, "Even if he fornicated and even if he stole?".  He said, "Even if he fornicated and even if he stole."]{.trans}  
+
+Here is [even if]{.trans} as a parenthetical clause:
+
+(@ex001492) [زَيْدٌ **وَإِنْ كَثُرَ مَالُهُ** زَعِيمٌ]{.ar}
+    [Wright 2/40]{.citex}  
+    [Zayd, even if his wealth be much, is stingy.]{.trans}
+
+Frequently, the condition in an [even if]{.trans} may contain only a noun.
+For example:
+
+(@ex001488) [بَلِّغُوا عَنِّي **وَلَوْ آيَةً**]{.ar}
+    [[[صحيح البخاري]{.ar} :3461](https://sunnah.com/bukhari:3461)]{.citex}  
+    [Convey from me (my teachings) even if one [Ayah]{.trn2}.]{.trans}  
+
+In such cases, as in @sec-jsh_hazf_within_shart above,
+there may be multiple ways to analyze the condition.
+Consider the following sentence:
+
+(@) [وَأْتِنِى بِدَابَّةٍ وَلَوْ حِمَارًا]{.ar}
+    [[[كتاب سيبويه]{.ar} 1/269](https://shamela.ws/book/23018/267)]{.citex}  
+    [And bring me a beast of burden, even if a donkey.]{.trans}
+
+The a-case of
+[حِمَار]{.ar}
+is justified using the [taqdIr]{.trn2}:
+
+(@) [وَلَوْ [كَانَ] حِمَارًا]{.ar}  
+    [even if [it were] a donkey.]{.trans}
+
+Instead of the a-case for
+[حِمَار]{.ar},
+the i-case may also be used:
+
+(@) [وَأْتِنِى بِدَابَّةٍ وَلَوْ حِمَارٍ]{.ar}
+    [composed from [[كتاب سيبويه]{.ar} 1/269](https://shamela.ws/book/23018/267)]{.citex}  
+    [And bring me a beast of burden, even if a donkey.]{.trans}
+
+In this case the [taqdIr]{.trn2} is:
+
+(@) [وَلَوْ [أَتَيْتَنِي بِ] حِمَارٍ]{.ar}  
+    [even if [you brought me] a donkey.]{.trans}
+
+The u-case is also possible, though not as preferred:
+
+(@) [وَأْتِنِى بِدَابَّةٍ وَلَوْ حِمَارٌٍ]{.ar}
+    [composed from [[كتاب سيبويه]{.ar} 1/269](https://shamela.ws/book/23018/267)]{.citex}  
+    [And bring me a beast of burden, even if a donkey.]{.trans}
+
+In this case, the [taqdIr]{.trn2} would be:
+
+(@) [وَلَوْ [يَكُونُ مِمَّا تَأْتِينِي بِهِ] حِمَارٌ]{.ar}  
+    [composed from [[كتاب سيبويه]{.ar} 1/269](https://shamela.ws/book/23018/267)]{.citex}  
+    [even if a donkey [is what you bring me].]{.trans}
 
 ### Both the condition-core and the condition-response are deleted
 
