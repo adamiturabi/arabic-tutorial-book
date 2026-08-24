@@ -20,12 +20,9 @@ end
 
 -- Intercept custom Div containers
 function OrderedList(ol)
-    if ol.style == "Example" then -- don't modify sub-lists. those will be alpha or roman
+    if ol.style == "Example" and FORMAT:match 'latex' then
       -- Modify the ordered list here
-      if FORMAT:match 'latex' then
-        ol.start = example_counter
-        print("count=", example_counter)
-      end
+      ol.start = example_counter
 
       -- Increment our internal tracking counter
       example_counter = example_counter + 1
