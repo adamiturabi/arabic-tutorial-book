@@ -214,39 +214,34 @@ li {
   font-size: 0.95em; 
 }
 /* for numbered example lists */
+/* Style only the top-level items of the .example list */
 ol.example {
-  list-style: none;
-  padding-left: 0;
+  list-style-type: none; /* Removes default numbers */
+  padding-left: 2rem; /* Adds space for the numbers */
 }
 
-ol.example li {
+ol.example > li {
+  counter-increment: my-counter; /* Increments counter per item */
   position: relative;
-  padding-left: 3em;
 }
 
-ol.example li::before {
+ol.example > li::before {
   content: "(" counter(list-item) ") ";
   position: absolute;
-  left: 0;
-  width: 3em;
-  text-align: left;
+  left: -2rem; /* Aligns numbers to the left */
+  width: 1.5rem;
+  text-align: right;
 }
 
-ol.example ol {
-  list-style: none;
-  padding-left: 0;
+/* Reset ALL sub-lists (both ol and ul) back to default browser behavior */
+ol.example li ol,
+ol.example li ul {
+  list-style-type: lower-alpha; /* Automatically restores correct nested style */
+  padding-left: 2rem;
 }
 
-ol.example ol li {
-  position: relative;
-  padding-left: 3em;
-}
-
-ol.example ol li::before {
-  /*content: "(" counter(list-item) ") ";*/
-  position: absolute;
-  left: 0;
-  width: 3em;
-  text-align: left;
+ol.example li ol li::before,
+ol.example li ul li::before {
+  content: none; /* Prevents parentheses from inheriting */
 }
 

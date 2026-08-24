@@ -101,7 +101,7 @@ filters:
   - filters/footnotesize.lua
   - filters/citex.lua
   - filters/translation.lua
-  #- filters/subs.lua
+  - filters/reset-examples.lua
 
 tikz:
   cache: false
