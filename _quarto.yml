@@ -97,7 +97,7 @@ filters:
   - arabic-support
   - adamiturabi/tikz
   #- filters/autoref-link.lua
-  - filters/lingex.lua
+  #- filters/lingex.lua
   - filters/footnotesize.lua
   - filters/citex.lua
   - filters/translation.lua
