@@ -217,27 +217,28 @@ li {
 /* Style only the top-level items of the .example list */
 ol.example {
   list-style-type: none; /* Removes default numbers */
-  padding-left: 2rem; /* Adds space for the numbers */
+  padding-left: 0; /* Adds space for the numbers */
 }
 
 ol.example > li {
   counter-increment: my-counter; /* Increments counter per item */
   position: relative;
+  padding-left: 3em;
 }
 
 ol.example > li::before {
   content: "(" counter(list-item) ") ";
   position: absolute;
-  left: -2rem; /* Aligns numbers to the left */
-  width: 1.5rem;
-  text-align: right;
+  left: 0; /* Aligns numbers to the left */
+  width: 3em;
+  text-align: left;
 }
 
 /* Reset ALL sub-lists (both ol and ul) back to default browser behavior */
 ol.example li ol,
 ol.example li ul {
   list-style-type: lower-alpha; /* Automatically restores correct nested style */
-  padding-left: 2rem;
+  padding-left: 1em;
 }
 
 ol.example li ol li::before,
