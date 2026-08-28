@@ -34,7 +34,8 @@ format:
     #backgroundcolor: "#FDFBF7" # ultra light ivory
     #backgroundcolor: "#FCFBF9" # soft powder
     #backgroundcolor: "#FAF9F5" # alabaster
-    backgroundcolor: "#F7F6F0" # warm linen
+    #backgroundcolor: "#F7F6F0" # warm linen
+    backgroundcolor: "#F7F4F0" # warm linen less green
 
 tikz:
   template: srctex/tikz-template-html.tex
