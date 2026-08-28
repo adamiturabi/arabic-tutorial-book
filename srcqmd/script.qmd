@@ -61,7 +61,13 @@ So it is not traditionally considered part of the 28-letter script. Instead it i
 
 The above order of the letters in alphabetical sequence is currently used today. There is an alternative order that was more used in the past (from right to left):
 
+<!--
 [ا ب ج د ه و ز ح ط ي ك ل م ن س ع ف ص ق ر ش ت ث خ ذ ض ظ غ]{.ar}
+-->
+
+::: {.ar}
+ابجد هوز حطي كلمن سعفص قرشت ثخذ ضظغ
+:::
 
 This alternative order is discussed more in appendix\ \@ref(abjad-order).
 (TODO: add appendix for [أبجد]{.ar} order, discuss its use in lists and numerical value.)

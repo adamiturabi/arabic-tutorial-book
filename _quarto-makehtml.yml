@@ -26,11 +26,16 @@ format:
     sansfont: "CharisW"
     monofont: "DejaVu Sans Mono" # set size in CSS using class "sourceCode"
     #fontsize: 10pt
-    theme: cosmo
+    theme: cosmo # body text is a little grey which is good.
     css: srchtml/styles.css
-    include-before-body: srchtml/watermark.html
+    #include-before-body: srchtml/watermark.html
     linkcolor: "hsl(210,10.3448275862%,47.7450980392%)" # obtained by inspecting webpage
     toc-title: "Chapter contents"
+    #backgroundcolor: "#FDFBF7" # ultra light ivory
+    #backgroundcolor: "#FCFBF9" # soft powder
+    #backgroundcolor: "#FAF9F5" # alabaster
+    #backgroundcolor: "#F7F6F0" # warm linen
+    backgroundcolor: "#F7F4F0" # warm linen less green
 
 tikz:
   template: srctex/tikz-template-html.tex

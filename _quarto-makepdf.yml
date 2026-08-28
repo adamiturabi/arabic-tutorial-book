@@ -41,9 +41,13 @@ format:
     number-sections: true
     colorlinks: true
     mainfont: "Charis"
-    mainfontoptions: Numbers=OldStyle
+    mainfontoptions:
+      - Numbers=OldStyle
+      - BoldFont="Charis SemiBold"
     sansfont: "Charis"
-    sansfontoptions: Numbers=OldStyle
+    sansfontoptions:
+      - Numbers=OldStyle
+      - BoldFont="Charis SemiBold"
     monofont: "DejaVu Sans Mono"
     monofontoptions: "Scale=0.7"
     fontsize: 9pt
