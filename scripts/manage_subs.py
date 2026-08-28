@@ -241,6 +241,7 @@ map_table["af3al"] = "comparative noun"
 map_table["fi3l_qalb"] = "verb of perception"
 map_table["af3aal_quloob"] = "verbs of perception"
 map_table["amr"] = "command"
+map_table["fi3l_shuroo3"] = "verb of beginning"
 
 map_table["badal"] = "re-specifier" # replacement, substitute, sub, rehash, restate, reword, do-over, re-word, re-render, sequel
 map_table["mubdalb"] = "pre-specifier" # replacee, substitutee, done-over, pre-render, prequel
