@@ -34,11 +34,11 @@ format:
     linkcolor: "hsl(210,10.3448275862%,47.7450980392%)" # obtained by inspecting webpage
     toc-title: "Chapter contents"
     # background color. see also srchtml/custom.scss
-    #backgroundcolor: "#FDFBF7" # ultra light ivory
+    backgroundcolor: "#FDFBF7" # ultra light ivory
     #backgroundcolor: "#FCFBF9" # soft powder
     #backgroundcolor: "#FAF9F5" # alabaster
     #backgroundcolor: "#F7F6F0" # warm linen
-    backgroundcolor: "#F7F4F0" # warm linen less green
+    #backgroundcolor: "#F7F4F0" # warm linen less green
 
 tikz:
   template: srctex/tikz-template-html.tex
