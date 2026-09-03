@@ -82,6 +82,8 @@ function romanize.RomanizeMapping(text2, is_italic)
     myucase["p"] = "D" .. utf8.char(0x0361) .. "h"
     mylcase["P"] = "d" .. utf8.char(0x0323) .. utf8.char(0x0361) .. "h"
     myucase["P"] = "D" .. utf8.char(0x0323) .. utf8.char(0x0361) .. "h"
+    mylcase["D"] = "d" .. utf8.char(0x0324) .. utf8.char(0x0361) .. "h"
+    myucase["D"] = "D" .. utf8.char(0x0324) .. utf8.char(0x0361) .. "h"
 
     --mylcase["P"] = "d͟͏̣h"
     --myucase["P"] = "D͟͏̣h"
