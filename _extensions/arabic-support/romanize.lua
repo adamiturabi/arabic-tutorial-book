@@ -17,10 +17,10 @@ function romanize.RomanizeMapping(text2, is_italic)
   mylcase["j"] = "j" -- "ǧ" -- jeem
   mylcase["H"] = "ḥ"
   mylcase["x"] = "ḵ" -- Khaa
-  mylcase["p"] = "z" .. utf8.char(0x0331)  -- "ḏ" -- dhal
+  mylcase["p"] = "d" .. utf8.char(0x0331)  -- "ḏ" -- dhal
   mylcase["c"] = "š" -- sheen
   mylcase["S"] = "ṣ"
-  mylcase["D"] = mylcase["p"] .. utf8.char(0x0324)  --"ḏ̣" -- DHaa
+  mylcase["D"] = "d" .. utf8.char(0x0323)  --"ḏ̣" -- DHaa
   mylcase["T"] = "ṭ"
   mylcase["P"] = mylcase["p"] .. utf8.char(0x0323)  --"ḏ̣" -- DHaa
   mylcase["e"] = "ɛ" -- 3ayn
@@ -40,10 +40,10 @@ function romanize.RomanizeMapping(text2, is_italic)
   myucase["j"] = "J" -- "Ǧ"
   myucase["H"] = "Ḥ"
   myucase["x"] = "Ḵ"
-  myucase["p"] = "Z" .. utf8.char(0x0331)  -- "ḏ" -- dhal
+  myucase["p"] = "D" .. utf8.char(0x0331)  -- "ḏ" -- dhal
   myucase["c"] = "Š"
   myucase["S"] = "Ṣ"
-  myucase["D"] = myucase["p"] .. utf8.char(0x0324)  --"ḏ̣" -- DHaa
+  myucase["D"] = "D" .. utf8.char(0x0323)  --"ḏ̣" -- DHaa
   myucase["T"] = "Ṭ"
   myucase["P"] = myucase["p"] .. utf8.char(0x0323)  --"ḏ̣" -- DHaa
   myucase["e"] = "Ɛ"
@@ -78,12 +78,12 @@ function romanize.RomanizeMapping(text2, is_italic)
     myucase["x"] = "K" .. utf8.char(0x0361) .. "h"
     mylcase["g"] = "g" .. utf8.char(0x0361) .. "h"
     myucase["g"] = "G" .. utf8.char(0x0361) .. "h"
-    --mylcase["p"] = "d" .. utf8.char(0x0361) .. "h"
-    --myucase["p"] = "D" .. utf8.char(0x0361) .. "h"
-    --mylcase["P"] = "d" .. utf8.char(0x0323) .. utf8.char(0x0361) .. "h"
-    --myucase["P"] = "D" .. utf8.char(0x0323) .. utf8.char(0x0361) .. "h"
-    mylcase["D"] = "d" .. utf8.char(0x0323) .. utf8.char(0x0361) .. "h"
-    myucase["D"] = "D" .. utf8.char(0x0323) .. utf8.char(0x0361) .. "h"
+    mylcase["p"] = "d" .. utf8.char(0x0361) .. "h"
+    myucase["p"] = "D" .. utf8.char(0x0361) .. "h"
+    mylcase["P"] = "d" .. utf8.char(0x0323) .. utf8.char(0x0361) .. "h"
+    myucase["P"] = "D" .. utf8.char(0x0323) .. utf8.char(0x0361) .. "h"
+    --mylcase["D"] = "d" .. utf8.char(0x0323) .. utf8.char(0x0361) .. "h"
+    --myucase["D"] = "D" .. utf8.char(0x0323) .. utf8.char(0x0361) .. "h"
 
     --mylcase["P"] = "d͟͏̣h"
     --myucase["P"] = "D͟͏̣h"
