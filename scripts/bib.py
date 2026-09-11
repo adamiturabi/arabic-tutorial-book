@@ -1607,14 +1607,14 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "dobaian_tense_aspect"
     , cit_type = "ws_ref"
-    , cit_text = 'Al-Dobaian, "A Syntactic Analysis of Arabic Tense and Aspect,"'
+    , cit_text = 'Al-Dobaian, "A Syntactic Analysis of Arabic Tense and Aspect"'
     , bib_text = """Al-Dobaian, A. S. "A Syntactic Analysis of Arabic Tense and Aspect," _Advances in Language and Literary Studies_, 2018."""
     , sort_key = "dobaian 2018"
     ))
   resource_list.append(BibResource(
     "weigelt_la"
     , cit_type = "ws_ref"
-    , cit_text = 'Weigelt, F. "The particle _la-_ in Classical Arabic,"'
+    , cit_text = 'Weigelt, F. "The particle _la-_ in Classical Arabic"'
     , bib_text = 'Weigelt, F. "The particle _la-_ in Classical Arabic," _Quaderni di Studi Arabi_, 15(1-2), 67-108, 2020.  <https://doi.org/10.1163/2667016X-15010202>'
     , sort_key = "weigelt 2020"
     ))
