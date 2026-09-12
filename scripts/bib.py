@@ -1601,8 +1601,23 @@ def populate_resource_list():
     "owens_agt_mod"
     , cit_type = "ws_ref"
     , cit_text = 'Owens, "Structure, class and dependency: Modern linguistic theory and the Arabic grammatical tradition"'
-    , bib_text = """Owens, J. "Structure, class and dependency: Modern linguistic theory and the Arabic grammatical tradition," in _Lingua_, Volume 64, Issue 1, 1984, pp.\ 25--62, <https://doi.org/10.1016/0024-3841(84)90047-0>."""
+    , bib_text = """Owens, J. "Structure, class and dependency: Modern linguistic theory and the Arabic grammatical tradition," in _Lingua_, Volume 64, Issue 1, 1984, pp.\\ 25--62, <https://doi.org/10.1016/0024-3841(84)90047-0>."""
     , sort_key = "owens 1984"
     ))
+  resource_list.append(BibResource(
+    "dobaian_tense_aspect"
+    , cit_type = "ws_ref"
+    , cit_text = 'Al-Dobaian, "A Syntactic Analysis of Arabic Tense and Aspect"'
+    , bib_text = """Al-Dobaian, A. S. "A Syntactic Analysis of Arabic Tense and Aspect," _Advances in Language and Literary Studies_, 2018."""
+    , sort_key = "dobaian 2018"
+    ))
+  resource_list.append(BibResource(
+    "weigelt_la"
+    , cit_type = "ws_ref"
+    , cit_text = 'Weigelt, F. "The particle _la-_ in Classical Arabic"'
+    , bib_text = 'Weigelt, F. "The particle _la-_ in Classical Arabic," _Quaderni di Studi Arabi_, 15(1-2), 67-108, 2020.  <https://doi.org/10.1163/2667016X-15010202>'
+    , sort_key = "weigelt 2020"
+    ))
+
   return resource_list
 
