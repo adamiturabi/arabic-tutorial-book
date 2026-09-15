@@ -7,7 +7,7 @@ alif/hamzah
 ([أ]{.ar}),
 ;waw;,
 and
-;yaa;
+;yaa2;
 are considered weak letters.
 When any of these letters are part of the root of a verb,
 then that verb is called a _weak verb_.
@@ -19,9 +19,9 @@ Of the weak letters, hamzah is the strongest (in pronunciation, though it is wea
 And it will usually (though not always) retain its pronunciation when a verb with hamzah in its root is conjugated.
 So we will treat it separately at the end.
 
-## The weak-middle-letter verb
+## The weak middle-letter verb
 
-### ;waw; as the weak-middle-letter
+### ;waw; as the weak middle-letter
 
 Consider the root
 [قول]{.ar} with the meaning [to say]{.trans}.
@@ -114,7 +114,7 @@ So we get:
     [qAlatA]{.trn}  
     [They~du.f.~ said]{.trans}
 
-For [you~du~ said]{.trans},
+For [you~du.~ said]{.trans},
 we use
 [قُلْتُ]{.ar}
 [I said]{.trans}
@@ -122,12 +122,12 @@ as our starting point and replace the ;faa3il; pronoun [تُ]{.ar}
 [I]{.trans}
 with
 [تُمَا]{.ar}
-[you~du~]{.trans}.
+[you~du.~]{.trans}.
 So we say
 
 (@) [قُلْتُمَا]{.ar}  
     [qultumA]{.trn}  
-    [You~du~ said]{.trans}  
+    [You~du.~ said]{.trans}  
 
 Now let's move on to the plurals.
 For strong verbs we modify
@@ -191,7 +191,7 @@ Here is the complete verb conjugation table:
 |[I said]{.trans} | [قُلْتُ]{.ar} |
 |[They~du.m.~ said]{.trans} | [قَالَا]{.ar} |
 |[They~du.f.~ said]{.trans} | [قَالَتَا]{.ar} |
-|[You~du~ said]{.trans} | [قُلْتُمَا]{.ar} |
+|[You~du.~ said]{.trans} | [قُلْتُمَا]{.ar} |
 |[They~pl.m.~ said]{.trans} | [قَالُوا]{.ar} |
 |[They~pl.f.~ said]{.trans} | [قُلْنَ]{.ar} |
 |[You~pl.m.~ said]{.trans} | [قُلْتُمْ]{.ar} |
@@ -243,7 +243,7 @@ Here is the complete conjugation table:
 |[I feared]{.trans} | [خِفْتُ]{.ar} |
 |[They~du.m.~ feared]{.trans} | [خَافَا]{.ar} |
 |[They~du.f.~ feared]{.trans} | [خَافَتَا]{.ar} |
-|[You~du~ feared]{.trans} | [خِفْتُمَا]{.ar} |
+|[You~du.~ feared]{.trans} | [خِفْتُمَا]{.ar} |
 |[They~pl.m.~ feared]{.trans} | [خَافُوا]{.ar} |
 |[They~pl.f.~ feared]{.trans} | [خِفْنَ]{.ar} |
 |[You~pl.m.~ feared]{.trans} | [خِفْتُمْ]{.ar} |
@@ -256,4 +256,65 @@ Here are some examples of these verbs in sentences:
 
 (TODO)
 See [[@utheymeen_alfiyyah@ 31/7ff](https://shamela.ws/book/36954/310)] for handling ambiguity in passive.
+
+### ;yaa2; as the weak middle-letter
+
+When ;yaa2; is the 
+weak middle-letter,
+as in the verb root [بيع]{.ar} [to sell]{.trans},
+then we follow pretty much the same procedure as for [قَالَ]{.ar}.
+So:
+
+(@) [بَيَعَ]{.ar} ;rarr; [بَاعَ]{.ar}  
+    [bayaea]{.trn} ;rarr; [bAea]{.trn}  
+    [He sold]{.trans}  
+
+But when the ;yaa2; is eliminated, it is replaced with a ;imark; on the first root letter,
+because the ;imark; is the closer vowel to ;yaa2;.
+
+(@) [بَيَعْتُ]{.ar} ;rarr; [بِعْتُ]{.ar}  
+    [bayaetu]{.trn} ;rarr; [bietu]{.trn}  
+    [I sold]{.trans}  
+
+
+Here is the complete verb conjugation table:
+
+|#;faa3il; pronoun | Conjugation |
+|:-----|:---|
+|[He sold]{.trans} | [بَاعَ]{.ar} |
+|[She sold]{.trans} | [بَاعَتْ]{.ar} |
+|[You~sing.m.~ sold]{.trans} | [بِعْتَ]{.ar} |
+|[You~sing.f.~ sold]{.trans} | [بِعْتِ]{.ar} |
+|[I sold]{.trans} | [بِعْتُ]{.ar} |
+|[They~du.m.~ sold]{.trans} | [بَاعَا]{.ar} |
+|[They~du.f.~ sold]{.trans} | [بَاعَتَا]{.ar} |
+|[You~du.~ sold]{.trans} | [بِعْتُمَا]{.ar} |
+|[They~pl.m.~ sold]{.trans} | [بَاعُوا]{.ar} |
+|[They~pl.f.~ sold]{.trans} | [بِعْنَ]{.ar} |
+|[You~pl.m.~ sold]{.trans} | [بِعْتُمْ]{.ar} |
+|[You~pl.f.~ sold]{.trans} | [بِعْتُنَّ]{.ar} |
+|[We sold]{.trans} | [بِعْنَا]{.ar} |
+
+
+## The weak final-letter verb
+
+### ;waw; as the weak final-letter
+
+Consider the verb root [دعو]{.ar} [to call]{.trans}.
+
+When we form the ;madi; verb from roots with ;waw; as the middle root letter,
+we usually assume a ;amark; on the middle root letter.
+
+Therefore, we would expect the verb for the ;faa3il; [he]{.trans}
+to be
+[دَعَوَ]{.ar}
+[daeawa]{.trn}.
+Instead, however,
+the sequence [عَوَ]{.ar} [eawa]{.trn} is modified to [عَا]{.ar} [eA]{.trn},
+and we will actually say:
+
+(@) [دَعَا]{.ar}  
+    [daeA]{.trn}  
+    [He called]{.trans}
+
 
