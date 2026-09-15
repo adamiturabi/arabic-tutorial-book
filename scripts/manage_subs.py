@@ -9,6 +9,7 @@ IT IS NOT YET READY TO BE STUDIED FROM.**
 """
 
 map_table["waw"] = "[و]{.ar}"
+map_table["yaa2"] = "[ي]{.ar}"
 
 # symbols
 map_table["x"] = "✗"
