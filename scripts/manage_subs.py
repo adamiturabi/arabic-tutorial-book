@@ -119,6 +119,7 @@ map_table["kullamaa"] = "[كُلَّمَا]{.ar}"
 map_table["immaa"] = "[إِمَّا]{.ar}"
 map_table["alladhi"] = "[الَّذِي]{.ar}"
 map_table["hunaaka"] = "[هُنَاكَ]{.ar}"
+map_table["dhanna"] = "[ظَنَّ]{.ar}"
 
 map_table["_in"] = "إِنْ"
 map_table["_idha"] = "إِذَا"
@@ -226,7 +227,8 @@ map_table["jawab"] = "response"  # outcome, result, consequence, condition-respo
 # ishtighaal
 map_table["ishtighaal"] = "preoccupation" 
 map_table["mushtaghal"] = "preoccupied" 
-map_table["mushtaghal_3anh"] = "preoccupied from" 
+map_table["mushtaghal_3anh"] = "preoccupied-from" 
+map_table["mushtaghal_bih"] = "preoccupied-with" 
 
 
 # alphabetical
