@@ -1014,6 +1014,18 @@ def populate_resource_list():
     , sort_key = "شرح الفية ابن مالك للعثيمين"
     ))
   resource_list.append(BibResource(
+    "farraa"
+    , cit_type = "ar_ref"
+    , cit_text = "[معاني القرآن للفراء]{.ar}"
+    , bib_text = """
+      الكتاب: معاني القرآن  
+      المؤلف: أبو زكريا يحيى بن زياد بن عبد الله بن منظور الديلمي الفراء (ت ٢٠٧ هـ)  
+      المحقق: أحمد يوسف النجاتي - محمد علي النجار [ت ١٣٨٥ هـ]- عبد الفتاح إسماعيل الشلبي  
+      الناشر: دار المصرية للتأليف والترجمة - مصر  
+      """ + format_url_ar("https://shamela.ws/book/23634")
+    , sort_key = "معاني القران"
+    ))
+  resource_list.append(BibResource(
     "afghani"
     , cit_type = "ar_ref"
     , cit_text = "[من تاريخ النحو العربي لسعيد الأفعاني]{.ar}"
