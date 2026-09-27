@@ -2,8 +2,44 @@
 
 ;wip_warn;
 
-[تقديم المستفهم عنه]{.ar}:
-[@maani_nahw@ 4/270](https://shamela.ws/book/17801/1375)
+
+## Introduction
+
+<!--
+In chapter (connected nouns) we studied the use of
+[مَا]{.ar} "what",
+[مَنْ]{.ar} "who",
+and
+[أَيّ]{.ar} "which"
+as the general connected nouns.
+In this chapter, we will study the use of these same nouns as _question nouns_.
+
+There are other question nouns besides the ones above, like
+[كَيْفَ]{.ar} "how",
+[أَيْنَ]{.ar} "where"
+[مَتَىٰ]{.ar} "when".
+There are also question words which are particles, not nouns, like
+[أَ]{.ar}
+and
+[هَلْ]{.ar}.
+We will study all these elsewhere, ;ia;.
+-->
+
+Questions in Arabic are introduced by
+_question words_.
+Examples of question words are:
+
++ [أَ]{.ar} and [هَلْ]{.ar}: particles used to introduce yes/no questions
++ [مَا]{.ar} [what]{.trans}
++ [مَنْ]{.ar} [who]{.trans}
++ [أَيّ]{.ar} [which]{.trans}
++ [كَيْفَ]{.ar} [how]{.trans}
++ [أَيْنَ]{.ar} [where]{.trans}
++ [مَتَىٰ]{.ar} [when]{.trans}
+
+Question words occur in the beginnning of a question sentence.
+We will study these and other question words in this chapter, ;ia;.
+
 
 ## ;2a; and ;hal;
 
@@ -350,30 +386,58 @@ For example:
 
 TODO: [هَلْ لَكَ فِي]{.ar}
 
+## Sentence word order
 
-## Introduction
+In a question sentence,
+the noun being asked about is typically put first in sentence word order.
+So, for example,
+if the question sentence is led with a verb,
+then it is the action of the verb which is being asked about:
 
-In chapter (connected nouns) we studied the use of
-[مَا]{.ar} "what",
-[مَنْ]{.ar} "who",
+(@) [أَحَضَرَ مُحَمَّدٌ]{.ar}
+    [[@maani_nahw@ 4/270](https://shamela.ws/book/17801/1375)]{.citex}  
+    [Did [#muHammad]{.trn2} attend?]{.trans}  
+    (i.e. did [#muHammad]{.trn2}'s attending occur?)
+
+But if the noun comes first,
+then the identity of the person attending is being asked about:
+
+(@) [أَمُحَمَّدٌ حَضَرَ]{.ar}
+    [[@maani_nahw@ 4/270](https://shamela.ws/book/17801/1375)]{.citex}  
+    [Is it [#muHammad]{.trn2} who attended?]{.trans}  
+
+Similarly,
+
+<!--
+(@) [قَالُوۤا۟ ءَأَنتَ فَعَلۡتَ هَـٰذَا بِـَٔالِهَتِنَا یَـٰۤإِبۡرَ ٰ⁠هِیمُ]{.quran}
+    [@https://quran.com/21/62@ cited by [@maani_nahw@ 4/270](https://shamela.ws/book/17801/1375)]{.citex}  
+    [They said, "Have you done this to our gods, O Abraham?"]{.trans}  
+-->
+
+(@) [أَأَكْرَمْتَ مُحَمَّدًا]{.ar}
+    [[@maani_nahw@ 4/271](https://shamela.ws/book/17801/1376)]{.citex}  
+    [Did you honor [#muHammad]{.trn2}?]{.trans}  
+
+(@) [أَمُحَمَّدًا أَكْرَمْتَ]{.ar}
+    [[@maani_nahw@ 4/271](https://shamela.ws/book/17801/1376)]{.citex}  
+    [Is it [#muHammad]{.trn2} you honored?]{.trans}  
+
 and
-[أَيّ]{.ar} "which"
-as the general connected nouns.
-In this chapter, we will study the use of these same nouns as _question nouns_.
 
-There are other question nouns besides the ones above, like
-[كَيْفَ]{.ar} "how",
-[أَيْنَ]{.ar} "where"
-[مَتَىٰ]{.ar} "when".
-There are also question words which are particles, not nouns, like
-[أَ]{.ar}
-and
-[هَلْ]{.ar}.
-We will study all these elsewhere, ;ia;.
+(@) [أَسَافَرَ خَالِدٌ يَوْمَ الْجُمُعَةِ]{.ar}
+    [[@maani_nahw@ 4/271](https://shamela.ws/book/17801/1376)]{.citex}  
+    [Did [#xAlid]{.trn2} journey on Friday?]{.trans}  
+
+(@) [أَيَوْمَ الْجُمُعَةِ سَافَرَ خَالِدٌ]{.ar}
+    [[@maani_nahw@ 4/271](https://shamela.ws/book/17801/1376)]{.citex}  
+    [Id it on Friday [#xAlid]{.trn2} journeyed?]{.trans}  
+
+
+
 
 ## [مَا]{.ar} and [مَنْ]{.ar}
 
-### Position of question words in the beginning of the sentence
+### Position in the beginning of the question sentence
 
 All question words typically occur in the beginning of the question sentence.
 (Particles like [وَ]{.ar}, [فَ]{.ar}, etc. are allowed to precede them.)
