@@ -1,0 +1,454 @@
+<!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
+
+# Weak and doubled roots
+
+## Introduction
+
+The letters
+alif/hamzah
+([أ]{.ar}),
+[و]{.ar},
+and
+[ي]{.ar}
+are considered weak letters.
+When any of these letters are part of the root of a verb,
+then that verb is called a _weak verb_.
+When weak verbs are conjugated for different doers,
+then the weak letters can modify the appearance of the conjugated verb
+in different ways.
+
+Of the weak letters, hamzah is the strongest (in pronunciation, though it is weak in writing).
+And it will usually (though not always) retain its pronunciation when a verb with hamzah in its root is conjugated.
+So we will treat it separately at the end.
+
+## The weak middle-letter verb
+
+### [و]{.ar} as the weak middle-letter
+
+Consider the root
+[قول]{.ar} with the meaning [to say]{.trans}.
+
+When we form the [mADI]{.trn2} verb from roots with [و]{.ar} as the middle root letter,
+we usually assume a [fatHah]{.trn2} on the middle root letter.
+
+Therefore, we would expect the verb for the doer [he]{.trans}
+to be
+[قَوَلَ]{.ar}
+[qawala]{.trn}.^[[[شرح ألفية ابن مالك للعثيمين]{.ar} 31/7](https://shamela.ws/book/36954/310)]
+Instead, however,
+the sequence [قَوَ]{.ar} [qawa]{.trn} is modified to [قَا]{.ar} [qA]{.trn},
+and we will actually say:
+
+(@) [قَالَ]{.ar}  
+    [qAla]{.trn}  
+    [He said]{.trans}
+
+Similarly, when we conjugate for the doer
+[she]{.trans},
+we would expect to say
+[قَوَلَتْ]{.ar}
+[qawalat]{.trn},
+but we actually say:
+
+(@) [قَالَتْ]{.ar}
+    [qAlat]{.trn}  
+    [She said]{.trans}
+
+Continuing on, when we conjugate for the doer [I]{.trans},
+we would expect to say
+[قَوَلْتُ]{.ar}
+[qawaltu]{.trn}.
+In this case, we don't convert
+[قَوَ]{.ar} [qawa]{.trn} to [قَا]{.ar} [qA]{.trn}
+because
+then we would end up with
+[قَالْتُ]{.ar}
+[qAltu]{.trn}.
+But a long vowel followed by a [sukUn]{.trn2} is disallowed phonologically
+in Arabic
+(except when pausing at the end of an utterance).
+So we cannot say ✗\ [قَالْتُ]{.ar} [qAltu]{.trn}.
+
+Instead, we eliminiate the middle letter altogether,
+and place a [Dammah]{.trn2} on the [ق]{.ar} because it is the closest vowel to the original root letter [و]{.ar}.
+So we say:
+
+(@) [قُلْتُ]{.ar}  
+    [qultu]{.trn}  
+    [I said]{.trans}  
+
+Similarly we will say
+
+(@) [قُلْتَ]{.ar}  
+    [qulta]{.trn}  
+    [You~sing.m.~ said]{.trans}  
+
+(@) [قُلْتِ]{.ar}  
+    [qulti]{.trn}  
+    [You~sing.f.~ said]{.trans}  
+
+Moving on to the duals,
+for strong verbs we simply add an alif to
+[ذَهَبَ]{.ar}
+[he went]{.trans}
+to get
+[ذَهَبَا]{.ar}
+[they~du.m.~ went]{.trans}.
+And from
+[ذَهَبَتْ]{.ar}
+[she went]{.trans}
+we get
+[ذَهَبَتَا]{.ar}
+[they~du.f.~ went]{.trans}.
+
+We will do the same thing to
+[قَالَ]{.ar}
+and
+[قَالَتْ]{.ar}
+respectively.
+So we get:
+
+(@) [قَالَا]{.ar}  
+    [qAlA]{.trn}  
+    [They~du.m.~ said]{.trans}
+
+(@) [قَالَتَا]{.ar}  
+    [qAlatA]{.trn}  
+    [They~du.f.~ said]{.trans}
+
+For [you~du.~ said]{.trans},
+we use
+[قُلْتُ]{.ar}
+[I said]{.trans}
+as our starting point and replace the doer pronoun [تُ]{.ar}
+[I]{.trans}
+with
+[تُمَا]{.ar}
+[you~du.~]{.trans}.
+So we say
+
+(@) [قُلْتُمَا]{.ar}  
+    [qultumA]{.trn}  
+    [You~du.~ said]{.trans}  
+
+Now let's move on to the plurals.
+For strong verbs we modify
+[ذَهَبَ]{.ar}
+[he went]{.trans}
+by adding the doer pronoun [ـُوا]{.ar} [they~pl.m.~]{.trans}
+and we get
+[ذَهَبُوا]{.ar}
+[they~pl.m.~ went]{.trans}.
+We will do the same thing to [قَالَ]{.ar}
+[he said]{.trans}
+to get:
+
+(@) [قَالُوا]{.ar}  
+    [qAlU]{.trn}  
+    [They~pl.m.~ said]{.trans}  
+
+For [they~pl.f.~]{.ar},
+there is a [sukUn]{.trn2} on the final root letter
+(e.g. [ذَهَبْنَ]{.ar} [they~pl.f~ went]{.trans}).
+So now we use the pattern
+[قُلْتُ]{.ar} I said]{.ar},
+and replace the doer pronoun [تُ]{.ar} [I]{.trans}
+with [نَ]{.ar} [they~pl.f.~]{.trans}.
+So we will say:
+
+(@) [قُلْنَ]{.ar}  
+    [qulna]{.trn}  
+    [They~pl.f.~ said]{.trans}  
+
+Similarly, for [you~pl.m~]{.trans}
+we will say:
+
+(@) [قُلْتُمْ]{.ar}  
+    [qultum]{.trn}  
+    [You~pl.m.~ said]{.trans}  
+
+and
+for [you~pl.f~]{.trans}
+we will say:
+
+(@) [قُلْتُنَّ]{.ar}  
+    [qultunna]{.trn}  
+    [You~pl.f.~ said]{.trans}  
+
+Lastly, for [we]{.trans},
+we will do the same thing and say:
+
+(@) [قُلْنَا]{.ar}
+    [qulnA]{.trn}  
+    [We said]{.trans}  
+
+Here is the complete verb conjugation table:
+
+|Doer pronoun | Conjugation |
+|:-----|:---|
+|[He said]{.trans} | [قَالَ]{.ar} |
+|[She said]{.trans} | [قَالَتْ]{.ar} |
+|[You~sing.m.~ said]{.trans} | [قُلْتَ]{.ar} |
+|[You~sing.f.~ said]{.trans} | [قُلْتِ]{.ar} |
+|[I said]{.trans} | [قُلْتُ]{.ar} |
+|[They~du.m.~ said]{.trans} | [قَالَا]{.ar} |
+|[They~du.f.~ said]{.trans} | [قَالَتَا]{.ar} |
+|[You~du.~ said]{.trans} | [قُلْتُمَا]{.ar} |
+|[They~pl.m.~ said]{.trans} | [قَالُوا]{.ar} |
+|[They~pl.f.~ said]{.trans} | [قُلْنَ]{.ar} |
+|[You~pl.m.~ said]{.trans} | [قُلْتُمْ]{.ar} |
+|[You~pl.f.~ said]{.trans} | [قُلْتُنَّ]{.ar} |
+|[We said]{.trans} | [قُلْنَا]{.ar} |
+
+
+
+
+And here are some examples of similar verbs in sentences:
+
+### [#kasrah]{.trn2} on the middle [و]{.ar} letter
+
+Most verbs that have [و]{.ar} as the middle root letter behave as above,
+with an original [fatHah]{.trn2} on the [و]{.ar} becoming an alif:
+
+(@) [قَوَلَ]{.ar} → [قَالَ]{.ar}  
+    [qawala]{.trn} → [qAla]{.trn}  
+    [He said]{.trans}  
+
+And when the [و]{.ar} is eliminated, it is replaced with a [Dammah]{.trn2} on the first root letter:
+
+(@) [قَوَلْتُ]{.ar} → [قُلْتُ]{.ar}  
+    [qawaltu]{.trn} → [qultu]{.trn}  
+    [I said]{.trans}  
+
+A few verbs, however, take a [kasrah]{.trn2} on the middle [و]{.ar}.
+For example, the root [خوف]{.ar} [to fear]{.trans}.
+In this case, the [و]{.ar} still becomes an alif:
+
+(@) [خَوِفَ]{.ar} → [خَافَ]{.ar}  
+    [xawifa]{.trn} → [xAfa]{.trn}  
+    [He feared]{.trans}  
+
+But when the [و]{.ar} is eliminated, it is replaced with a [kasrah]{.trn2} on the first root letter:
+
+(@) [خَوِفْتُ]{.ar} → [خِفْتُ]{.ar}  
+    [xawiftu]{.trn} → [xiftu]{.trn}  
+    [He feared]{.trans}  
+
+Here is the complete conjugation table:
+
+|Doer pronoun | Conjugation |
+|:-----|:---|
+|[He feared]{.trans} | [خَافَ]{.ar} |
+|[She feared]{.trans} | [خَافَتْ]{.ar} |
+|[You~sing.m.~ feared]{.trans} | [خِفْتَ]{.ar} |
+|[You~sing.f.~ feared]{.trans} | [خِفْتِ]{.ar} |
+|[I feared]{.trans} | [خِفْتُ]{.ar} |
+|[They~du.m.~ feared]{.trans} | [خَافَا]{.ar} |
+|[They~du.f.~ feared]{.trans} | [خَافَتَا]{.ar} |
+|[You~du.~ feared]{.trans} | [خِفْتُمَا]{.ar} |
+|[They~pl.m.~ feared]{.trans} | [خَافُوا]{.ar} |
+|[They~pl.f.~ feared]{.trans} | [خِفْنَ]{.ar} |
+|[You~pl.m.~ feared]{.trans} | [خِفْتُمْ]{.ar} |
+|[You~pl.f.~ feared]{.trans} | [خِفْتُنَّ]{.ar} |
+|[We feared]{.trans} | [خِفْنَا]{.ar} |
+
+The verb [نَامَ]{.ar} [to sleep]{.trans} from the root [نوم]{.ar} behaves similarly.
+
+Here are some examples of these verbs in sentences:
+
+(TODO)
+See [[[شرح ألفية ابن مالك للعثيمين]{.ar} 31/7ff](https://shamela.ws/book/36954/310)] for handling ambiguity in passive.
+
+### [ي]{.ar} as the weak middle-letter
+
+When [ي]{.ar} is the 
+weak middle-letter,
+as in the verb root [بيع]{.ar} [to sell]{.trans},
+then we follow pretty much the same procedure as for [قَالَ]{.ar}.
+So:
+
+(@) [بَيَعَ]{.ar} → [بَاعَ]{.ar}  
+    [bayaea]{.trn} → [bAea]{.trn}  
+    [He sold]{.trans}  
+
+But when the [ي]{.ar} is eliminated, it is replaced with a [kasrah]{.trn2} on the first root letter,
+because the [kasrah]{.trn2} is the closer vowel to [ي]{.ar}.
+
+(@) [بَيَعْتُ]{.ar} → [بِعْتُ]{.ar}  
+    [bayaetu]{.trn} → [bietu]{.trn}  
+    [I sold]{.trans}  
+
+
+Here is the complete verb conjugation table:
+
+|Doer pronoun | Conjugation |
+|:-----|:---|
+|[He sold]{.trans} | [بَاعَ]{.ar} |
+|[She sold]{.trans} | [بَاعَتْ]{.ar} |
+|[You~sing.m.~ sold]{.trans} | [بِعْتَ]{.ar} |
+|[You~sing.f.~ sold]{.trans} | [بِعْتِ]{.ar} |
+|[I sold]{.trans} | [بِعْتُ]{.ar} |
+|[They~du.m.~ sold]{.trans} | [بَاعَا]{.ar} |
+|[They~du.f.~ sold]{.trans} | [بَاعَتَا]{.ar} |
+|[You~du.~ sold]{.trans} | [بِعْتُمَا]{.ar} |
+|[They~pl.m.~ sold]{.trans} | [بَاعُوا]{.ar} |
+|[They~pl.f.~ sold]{.trans} | [بِعْنَ]{.ar} |
+|[You~pl.m.~ sold]{.trans} | [بِعْتُمْ]{.ar} |
+|[You~pl.f.~ sold]{.trans} | [بِعْتُنَّ]{.ar} |
+|[We sold]{.trans} | [بِعْنَا]{.ar} |
+
+
+## The weak final-letter verb
+
+### [و]{.ar} as the weak final-letter
+
+Consider the verb root [دعو]{.ar} [to call]{.trans}.
+
+When we form the [mADI]{.trn2} verb from roots with [و]{.ar} as the middle root letter,
+we usually assume a [fatHah]{.trn2} on the middle root letter.
+
+Therefore, we would expect the verb for the doer [he]{.trans}
+to be
+[دَعَوَ]{.ar}
+[daeawa]{.trn}.
+Instead, however,
+the sequence [عَوَ]{.ar} [eawa]{.trn} is modified to [عَا]{.ar} [eA]{.trn},
+and we will actually say:
+
+(@) [دَعَا]{.ar}  
+    [daeA]{.trn}  
+    [He called]{.trans}
+
+
+Similarly, when we conjugate for the doer
+[she]{.trans},
+we would expect to say
+[دَعَوَتْ]{.ar}
+[daeawat]{.trn},
+but we actually say:
+
+(@) [دَعَتْ]{.ar}
+    [daeat]{.trn}  
+    [She called]{.trans}
+
+Continuing on, there is no modification of the root [و]{.ar} when we conjugate for the doer [I]{.trans}.
+
+(@) [دَعَوْتُ]{.ar}  
+    [daeawtu]{.trn}  
+    [I called]{.trans}  
+
+Similarly we will say:
+
+(@) [دَعَوْتَ]{.ar}  
+    [daeawta]{.trn}  
+    [You~sing.m.~ called]{.trans}  
+
+(@) [دَعَوْتِ]{.ar}  
+    [daeawti]{.trn}  
+    [You~sing.f.~ called]{.trans}  
+
+Moving on to the duals,
+we add back the [و]{.ar} to the verb when we add on the alif for the [they~du.m.~]{.trans}.
+So we get:
+
+(@) [دَعَوَا]{.ar}  
+    [daeawA]{.trn}  
+    [They~du.m.~ called]{.trans}
+
+For
+[they~du.m.~]{.trans},
+we simply add an alif to [دَعَتْ]{.ar} [she called]{.trans},
+and we get:
+
+(@) [دَعَتَا]{.ar}  
+    [daeatA]{.trn}  
+    [They~du.f.~ called]{.trans}
+
+For [you~du.~ called]{.trans},
+there is again no modification of the root [و]{.ar}.
+So we say:
+
+(@) [دَعَوْتُمَا]{.ar}  
+    [daeawtumA]{.trn}  
+    [You~du.~ called]{.trans}  
+
+Now let's move on to the plurals.
+For [they~pl.m.~]{.trans},
+we need to add a [ـُوا]{.ar},
+but because there is already a [و]{.ar} in the root,
+we don't add another one.
+Instead we put a [sukUn]{.trn2} on it
+to get:
+
+(@) [دَعَوْا]{.ar}  
+    [daeaw]{.trn}  
+    [They~pl.m.~ called]{.trans}  
+
+When 
+[دَعَوْا]{.ar}
+is to be connected to a following connecting-hamzah,
+then we will put a [Dammah]{.trn2} on the [و]{.ar}.
+For example:
+
+(@) [دَعَوُا ٱلرَّجُلَ]{.ar}  
+    [daeawu -rrajula]{.trn}  
+    [They~pl.m.~ called the man.]{.trans}  
+
+For [they~pl.f.~]{.ar},
+there is again no modification of the root [و]{.ar}.
+So we say:
+
+(@) [دَعَوْنَ]{.ar}  
+    [daeawna]{.trn}  
+    [They~pl.f.~ called]{.trans}  
+
+Similarly, for [you~pl.m~]{.trans}
+we will say:
+
+(@) [دَعَوْتُمْ]{.ar}  
+    [daeawtum]{.trn}  
+    [You~pl.m.~ called]{.trans}  
+
+and
+for [you~pl.f~]{.trans}
+we will say:
+
+(@) [دَعَوْتُنَّ]{.ar}  
+    [daeawtunna]{.trn}  
+    [You~pl.f.~ called]{.trans}  
+
+Lastly, for [we]{.trans},
+we will do the same thing and say:
+
+(@) [دَعَوْنَا]{.ar}
+    [daeawnA]{.trn}  
+    [We called]{.trans}  
+
+Here is the complete verb conjugation table:
+
+|Doer pronoun | Conjugation |
+|:-----|:---|
+|[He said]{.trans} | [دَعَا]{.ar} |
+|[She said]{.trans} | [دَعَتْ]{.ar} |
+|[You~sing.m.~ said]{.trans} | [دَعَوْتَ]{.ar} |
+|[You~sing.f.~ said]{.trans} | [دَعَوْتِ]{.ar} |
+|[I said]{.trans} | [دَعَوْتُ]{.ar} |
+|[They~du.m.~ said]{.trans} | [دَعَوَا]{.ar} |
+|[They~du.f.~ said]{.trans} | [دَعَتَا]{.ar} |
+|[You~du.~ said]{.trans} | [دَعَوْتُمَا]{.ar} |
+|[They~pl.m.~ said]{.trans} | [دَعَوْا]{.ar} |
+|[They~pl.f.~ said]{.trans} | [دَعَوْنَ]{.ar} |
+|[You~pl.m.~ said]{.trans} | [دَعَوْتُمْ]{.ar} |
+|[You~pl.f.~ said]{.trans} | [دَعَوْتُنَّ]{.ar} |
+|[We said]{.trans} | [دَعَوْنَا]{.ar} |
+
+
+
+
+And here are some examples of similar verbs in sentences:
+
+## The doubled verb
+
+
+## [كَانَ]{.ar}
+

@@ -1606,7 +1606,7 @@ def populate_resource_list():
     "sadan_hadith"
     , cit_type = "ws_ref"
     , cit_text = """Sadan, "Sībawayhi’s and later grammarians' usage of ḥadīṯs as a grammatical tool"""
-    , bib_text = """Sadan, A., "Sībawayhi’s and later grammarians' usage of ḥadīṯs as a grammatical tool," in _The Foundations of Arabic linguistics II_, Brill, 2015. <https://doi.org/10.1163/9789004302662_011>"""
+    , bib_text = """Sadan, A., "Sībawayhi’s and later grammarians' usage of ḥadīṯs as a grammatical tool," in _The foundations of Arabic linguistics II_, Brill, 2015. <https://doi.org/10.1163/9789004302662_011>"""
     , sort_key = "sadan 2015"
     ))
   resource_list.append(BibResource(
@@ -1619,22 +1619,22 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "dobaian_tense_aspect"
     , cit_type = "ws_ref"
-    , cit_text = 'Al-Dobaian, "A Syntactic Analysis of Arabic Tense and Aspect"'
-    , bib_text = """Al-Dobaian, A. S. "A Syntactic Analysis of Arabic Tense and Aspect," _Advances in Language and Literary Studies_, 2018."""
+    , cit_text = 'Al-Dobaian, "A syntactic analysis of Arabic tense and aspect"'
+    , bib_text = """Al-Dobaian, A. S. "A syntactic analysis of Arabic tense and aspect," _Advances in language and literary studies_, 2018."""
     , sort_key = "dobaian 2018"
     ))
   resource_list.append(BibResource(
     "weigelt_la"
     , cit_type = "ws_ref"
     , cit_text = 'Weigelt, "The particle _la-_ in Classical Arabic"'
-    , bib_text = 'Weigelt, F., "The particle _la-_ in Classical Arabic," _Quaderni di Studi Arabi_, 15(1-2), 67-108, 2020.  <https://doi.org/10.1163/2667016X-15010202>'
+    , bib_text = 'Weigelt, F., "The particle _la-_ in Classical Arabic," _Quaderni di studi Arabi_, 15(1-2), 67-108, 2020.  <https://doi.org/10.1163/2667016X-15010202>'
     , sort_key = "weigelt 2020"
     ))
   resource_list.append(BibResource(
     "pat_el_2017"
     , cit_type = "ws_ref"
     , cit_text = """Pat-El, "Digging up archaic features: 'Neo-Arabic' and Comparative Semitic in the quest for Proto Arabic." """
-    , bib_text = """Pat-El, N., "Digging up archaic features: 'Neo-Arabic' and Comparative Semitic in the quest for Proto Arabic." In Arabic in Context, pp.\\ 441--475. Brill, Leiden, 2017"""
+    , bib_text = """Pat-El, N., "Digging up archaic features: 'Neo-Arabic' and Comparative Semitic in the quest for Proto Arabic." In _Arabic in context_, pp.\\ 441--475. Brill, Leiden, 2017"""
     , sort_key = "patel 2017"
     ))
   resource_list.append(BibResource(
