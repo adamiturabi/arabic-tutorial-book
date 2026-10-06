@@ -9,6 +9,7 @@ IT IS NOT YET READY TO BE STUDIED FROM.**
 """
 
 map_table["waw"] = "[و]{.ar}"
+map_table["yaa2"] = "[ي]{.ar}"
 
 # symbols
 map_table["x"] = "✗"
@@ -36,6 +37,7 @@ map_table["sca"] = "[sca]{.smallcaps}"
 map_table["ca"] = "Classical Arabic"
 map_table["msa"] = "[msa]{.smallcaps}"
 map_table["ah"] = "[ah]{.smallcaps}"
+map_table["otoh"] = "on the other hand"
 
 map_table["samaa3"] = "attested usage"
 map_table["qiyaas"] = "analogy"
@@ -59,6 +61,9 @@ map_table["basran"] = "[#baSr]{.trn2}an"
 
 
 # shorthand
+map_table["2a"] = "[أَ]{.ar}"
+map_table["am"] = "[أَمْ]{.ar}"
+map_table["aw"] = "[أَوْ]{.ar}"
 map_table["bi"] = "[بِ]{.ar}"
 map_table["fii"] = "[فِي]{.ar}"
 map_table["3alaa"] = "[عَلَىٰ]{.ar}"
@@ -70,6 +75,8 @@ map_table["lan"] = "[لَنْ]{.ar}"
 map_table["lam"] = "[لَمْ]{.ar}"
 map_table["laa"] = "[لَا]{.ar}"
 map_table["idhan"] = "[إِذَنْ]{.ar}"
+map_table["hal"] = "[هَلْ]{.ar}"
+map_table["hallaa"] = "[هَلَّا]{.ar}"
 map_table["hatta"] = "[حَتَّى]{.ar}"
 map_table["kay"] = "[كَيْ]{.ar}"
 map_table["inna"] = "[إِنَّ]{.ar}"
@@ -99,6 +106,7 @@ map_table["fa"] = "[فَ]{.ar}"
 map_table["wa"] = "[وَ]{.ar}"
 map_table["qad"] = "[قَدْ]{.ar}"
 map_table["thamma"] = "[ثَمَّ]{.ar}"
+map_table["thumma"] = "[ثُمَّ]{.ar}"
 map_table["mahmaa"]      = "[مَهْمَا]{.ar}"
 map_table["mataa"]       = "[مَتَى]{.ar}"
 map_table["mataamaa"]       = "[مَتَى مَا]{.ar}"
@@ -118,6 +126,7 @@ map_table["kullamaa"] = "[كُلَّمَا]{.ar}"
 map_table["immaa"] = "[إِمَّا]{.ar}"
 map_table["alladhi"] = "[الَّذِي]{.ar}"
 map_table["hunaaka"] = "[هُنَاكَ]{.ar}"
+map_table["dhanna"] = "[ظَنَّ]{.ar}"
 
 map_table["_in"] = "إِنْ"
 map_table["_idha"] = "إِذَا"
@@ -225,7 +234,8 @@ map_table["jawab"] = "response"  # outcome, result, consequence, condition-respo
 # ishtighaal
 map_table["ishtighaal"] = "preoccupation" 
 map_table["mushtaghal"] = "preoccupied" 
-map_table["mushtaghal_3anh"] = "preoccupied from" 
+map_table["mushtaghal_3anh"] = "preoccupied-from" 
+map_table["mushtaghal_bih"] = "preoccupied-with" 
 
 
 # alphabetical
@@ -261,6 +271,7 @@ map_table["fi3l_muakkad"] = "emphatic verb"
 
 map_table["haal"] = "[HAl]{.trn2}"
 map_table["waw_haal"] = "[و]{.ar} of " + map_table["haal"]
+map_table["hamza_wasl"] = "connecting hamzah"
 
 map_table["idaafah"] = "annexation"
 map_table["idh_sudden"] = "[إِذَا]{.ar} or suddenness"

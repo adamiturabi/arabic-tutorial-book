@@ -33,6 +33,7 @@ book:
       - content/dual.qmd
       - content/sound_plural.qmd
       - content/broken_plural.qmd
+      - content/weak_verb.qmd
       - content/idafah.qmd
       - content/numbers.qmd
       - content/irregular_nouns.qmd
@@ -62,6 +63,7 @@ book:
       - content/haal.qmd
       - content/ism_mawsuul.qmd
       - content/istifhaam.qmd
+      - content/dhanna.qmd
       - content/jsh.qmd
     - part: "Backmatter"
       chapters:
@@ -76,7 +78,6 @@ book:
     - content/vern.qmd
 
     # Unused:
-    #- content/dhanna.qmd
     #- content/agreement.qmd
     #- content/elatives.qmd
     #- content/group_nouns.qmd
