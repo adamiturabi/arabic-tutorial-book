@@ -1246,6 +1246,17 @@ def populate_resource_list():
       """ + format_url_ar("https://ahmedhsalghamdi.github.io/arabic-english-rasaif-corpus/")
     , sort_key = "رصايف"
     ))
+  resource_list.append(BibResource(
+    "afghani_taareekh"
+    , cit_type = "ar_ref"
+    , cit_text = "[من تاريخ النحو العربي لسعيد الأفغاني]{.ar}"
+    , bib_text = """
+      الكتاب: من تاريخ النحو العربي  
+      المؤلف: سعيد بن محمد بن أحمد الأفغاني (ت ١٤١٧هـ)  
+      الناشر: مكتبة الفلاح  
+      """ + format_url_ar("https://shamela.ws/book/9937")
+    , sort_key = "1418"
+    ))
 
   # Western
 
