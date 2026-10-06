@@ -1644,6 +1644,13 @@ def populate_resource_list():
     , bib_text = """Versteegh, K., _The Arabic language_, 2nd. ed., Edinburgh University Press, 2014."""
     , sort_key = "versteegh 2014"
     ))
+  resource_list.append(BibResource(
+    "sharkawi_hist_arabic"
+    , cit_type = "ws_ref"
+    , cit_text = """Al-Sharkawi, _History and development of the Arabic language_"""
+    , bib_text = """Al-Sharkawi, M., _History and development of the Arabic language: From pre-Islamic times to the age of conquests_, Routledge, 2017"""
+    , sort_key = "sharkawi 2017"
+    ))
 
 
 
