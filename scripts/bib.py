@@ -1626,10 +1626,26 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "weigelt_la"
     , cit_type = "ws_ref"
-    , cit_text = 'Weigelt, F. "The particle _la-_ in Classical Arabic"'
-    , bib_text = 'Weigelt, F. "The particle _la-_ in Classical Arabic," _Quaderni di Studi Arabi_, 15(1-2), 67-108, 2020.  <https://doi.org/10.1163/2667016X-15010202>'
+    , cit_text = 'Weigelt, "The particle _la-_ in Classical Arabic"'
+    , bib_text = 'Weigelt, F., "The particle _la-_ in Classical Arabic," _Quaderni di Studi Arabi_, 15(1-2), 67-108, 2020.  <https://doi.org/10.1163/2667016X-15010202>'
     , sort_key = "weigelt 2020"
     ))
+  resource_list.append(BibResource(
+    "pat_el_2017"
+    , cit_type = "ws_ref"
+    , cit_text = """Pat-El, "Digging up archaic features: 'Neo-Arabic' and Comparative Semitic in the quest for Proto Arabic." """
+    , bib_text = """Pat-El, N., "Digging up archaic features: 'Neo-Arabic' and Comparative Semitic in the quest for Proto Arabic." In Arabic in Context, pp.\\ 441--475. Brill, Leiden, 2017"""
+    , sort_key = "patel 2017"
+    ))
+  resource_list.append(BibResource(
+    "versteegh_arabic_lang"
+    , cit_type = "ws_ref"
+    , cit_text = """Versteegh, _The Arabic language_"""
+    , bib_text = """Versteegh, K., _The Arabic language_, 2nd. ed., Edinburgh University Press, 2014."""
+    , sort_key = "versteegh 2014"
+    ))
+
+
 
   return resource_list
 
