@@ -39,7 +39,7 @@ format:
     #  #- textheight=170.8mm          # = 244 * 0.7
     #  - twoside
     number-sections: true
-    colorlinks: true
+    colorlinks: false
     mainfont: "Charis"
     mainfontoptions:
       - Numbers=OldStyle
