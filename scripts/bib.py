@@ -1673,8 +1673,16 @@ def populate_resource_list():
     "rabin_classical"
     , cit_type = "ws_ref"
     , cit_text = 'Rabin, "The Beginnings of Classical Arabic"'
-    , bib_text = """Rabin, C. "The Beginnings of Classical Arabic," in _Studia Islamica_, no.\\ 4, 1955, pp.\ 19--37. JSTOR, <https://doi.org/10.2307/1595049>"""
+    , bib_text = """Rabin, C. "The Beginnings of Classical Arabic," in _Studia Islamica_, no.\\ 4, 1955, pp.\\ 19--37, JSTOR. <https://doi.org/10.2307/1595049>"""
     , sort_key = "rabin 1955"
+    ))
+  resource_list.append(BibResource(
+    "holes_dialect"
+    , cit_type = "ws_ref"
+    , cit_text = 'Holes, _Arabic historical dialectology: Linguistic and sociolinguistic approaches_'
+    , bib_text = """Holes, C., _Arabic historical dialectology: Linguistic and sociolinguistic approaches_, Oxford University Press, 2018. <https://doi.org/10.1093/oso/9780198701378.001.0001>
+"""
+    , sort_key = "holes 2018"
     ))
 
   return resource_list
