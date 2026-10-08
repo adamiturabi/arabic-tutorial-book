@@ -1672,8 +1672,8 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "rabin_classical"
     , cit_type = "ws_ref"
-    , cit_text = 'Rabin, "The Beginnings of Classical Arabic"'
-    , bib_text = """Rabin, C. "The Beginnings of Classical Arabic," in _Studia Islamica_, no.\\ 4, 1955, pp.\\ 19--37, JSTOR. <https://doi.org/10.2307/1595049>"""
+    , cit_text = 'Rabin, "The beginnings of Classical Arabic"'
+    , bib_text = """Rabin, C. "The beginnings of Classical Arabic," in _Studia Islamica_, no.\\ 4, 1955, pp.\\ 19--37, JSTOR. <https://doi.org/10.2307/1595049>"""
     , sort_key = "rabin 1955"
     ))
   resource_list.append(BibResource(

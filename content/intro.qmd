@@ -170,6 +170,7 @@ presents a simplified view the historical development of the different varieties
 \draw [->,>=stealth,thick,postaction={decorate,decoration={text along path,raise=2.5pt,text align=center,text={|\sffamily|SCA}}}] ([xshift=-0.34cm]class.north east) to [bend left=25] (sca);
 %\draw [->,>=stealth,postaction={decorate,decoration={text along path,raise=-6.5pt,text align=center,text={|\sffamily\small|other varieties}}}] ([xshift=0cm,yshift=0cm]old.south east) to [bend right=15] ([xshift=1.6cm,yshift=-0.3cm]old.south east);
 \draw [->,>=stealth,thick] ([xshift=0cm,yshift=0cm]old.south) to [bend right=15] (other.west);
+\draw [dashedarrow,postaction={decorate,decoration={text along path,raise=0pt,text align=center,text={|\sffamily\small|?}}}] (other) -- ([yshift=-0.6cm]vern.west);
 
 %\draw [dashedarrow] ([xshift=-1.65cm]msa.south west) -- ([xshift=0.65cm]vern.north west);
 %\draw [dashedarrow] ([xshift=-1cm]vern.north west) -- (msa.south west);
