@@ -1287,7 +1287,7 @@ def populate_resource_list():
     , cit_type = "ws_ref"
     , cit_text = 'Al-Jallad, "One wāw to rule them all: The origins and fate of wawation in Arabic and its orthography"'
     , bib_text = 'Al-Jallad,\\ A., "One wāw to rule them all: The origins and fate of wawation in Arabic and its orthography," in: _Scripts and scripture: Writing and religion in Arabia circa 500--700\\ [ce]{.smallcaps}_, pp.\\ 87--104. The Oriental Institute of the University of Chicago, 2022. <https://www.academia.edu/33017695>'
-    , sort_key = "Jallad A One waw to rule them all"
+    , sort_key = "jallad 2022"
     ))
 
   resource_list.append(BibResource(
@@ -1662,8 +1662,20 @@ def populate_resource_list():
     , bib_text = """Al-Sharkawi, M., _History and development of the Arabic language: From pre-Islamic times to the age of conquests_, Routledge, 2017"""
     , sort_key = "sharkawi 2017"
     ))
-
-
+  resource_list.append(BibResource(
+    "jallad_psalm"
+    , cit_type = "ws_ref"
+    , cit_text = """Al-Jallad, _The Damascus psalm fragment: Middle Arabic and the legacy of Old Ḥigāzī_"""
+    , bib_text = """Al-Jallad, A., _The Damascus psalm fragment: Middle Arabic and the legacy of Old Ḥigāzī_, The Oriental Institute of the University of Chicago, 2020. <https://doi.org/10.83354/6ymk-sx56>"""
+    , sort_key = "jallad 2020"
+    ))
+  resource_list.append(BibResource(
+    "rabin_classical"
+    , cit_type = "ws_ref"
+    , cit_text = 'Rabin, "The Beginnings of Classical Arabic"'
+    , bib_text = """Rabin, C. "The Beginnings of Classical Arabic," in _Studia Islamica_, no.\\ 4, 1955, pp.\ 19--37. JSTOR, <https://doi.org/10.2307/1595049>"""
+    , sort_key = "rabin 1955"
+    ))
 
   return resource_list
 
