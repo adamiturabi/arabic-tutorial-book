@@ -1407,7 +1407,7 @@ def populate_resource_list():
     "lane"
     , cit_type = "ws_ref"
     , cit_text = "Lane's Lexicon"
-    , bib_text = 'Lane, E.\\ W., _An Arabic-English Lexicon_, <https://ejtaal.net/aa>'
+    , bib_text = 'Lane, E.\\ W., _An Arabic-English lexicon_, <https://ejtaal.net/aa>'
     , sort_key = 'lanes lexicon'
     ))
   resource_list.append(BibResource(
@@ -1477,7 +1477,7 @@ def populate_resource_list():
     "carter_arabic_grammar"
     , cit_type = "ws_ref"
     , cit_text = 'Carter, "Arabic grammar"'
-    , bib_text = 'Carter, M.\\ G., "Arabic grammar". In: Young et al (eds.) _Religion, Learning and Science in the ʿAbbasid Period_. Cambridge University Press; 1990.'
+    , bib_text = 'Carter, M.\\ G., "Arabic grammar". In: Young et al (eds.) _Religion, learning and science in the ʿAbbasid period_. Cambridge University Press; 1990.'
     , sort_key = "carter arabic grammar"
     ))
   resource_list.append(BibResource(
