@@ -1,6 +1,6 @@
 <!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
 
-# The [mADI]{.trn2} verb
+# The [sc]{.smallcaps} verb
 
 
 ::: {.callout-warning}
@@ -16,8 +16,8 @@ IT IS NOT YET READY TO BE STUDIED FROM.**
 |||
 |:---|---:|
 |Verb               | [الفِعْل]{.ar}         |
-|[#mADI]{.trn2} verb       | [الفِعْل الماضِي]{.ar}  |
-|[#muDArie]{.trn2} verb    | [الفِعْل المُضارِع]{.ar} |
+|[sc]{.smallcaps} verb       | [الفِعْل الماضِي]{.ar}  |
+|[pc]{.smallcaps} verb    | [الفِعْل المُضارِع]{.ar} |
 |Verbal sentence           | [الجُمْلة الفِعْلِيّة]{.ar}|
 |Past tense         | [الماضِي/المُضِيّ]{.ar}   |
 |Present tense      | [الحال]{.ar}   |
@@ -35,12 +35,12 @@ Verbs are action words.
 In terms of their form,
 Arabic has two main kinds of verbs:
 
-1. The _[mADI]{.trn2}_ verb.
-2. The _[muDArie]{.trn2}_ verb.
+1. The _[sc]{.smallcaps}_ verb.
+2. The _[pc]{.smallcaps}_ verb.
 
-Here is the [mADI]{.trn2}-[muDArie]{.trn2} verb pair for the Arabic equivalent of the English verb [to go]{.trans}:
+Here is the [sc]{.smallcaps}-[pc]{.smallcaps} verb pair for the Arabic equivalent of the English verb [to go]{.trans}:
 
-|[#mADI]{.trn2} |[#muDArie]{.trn2} |
+|[sc]{.smallcaps} |[pc]{.smallcaps} |
 |:---|:---|
 |[ذَهَبَ]{.ar} |[يَذْهَب]{.ar} |
 
@@ -49,22 +49,22 @@ Here is the [mADI]{.trn2}-[muDArie]{.trn2} verb pair for the Arabic equivalent o
 -->
 
 
-A [mADI]{.trn2} and [muDArie]{.trn2} form pair
+A [sc]{.smallcaps} and [pc]{.smallcaps} form pair
 exists for (almost) all verbs.
 
-In this chapter we will study the [mADI]{.trn2} form of the verb.
+In this chapter we will study the [sc]{.smallcaps} form of the verb.
 
 <!--
-We will study the [muDArie]{.trn2} verb and the verb of command in later chapters, if Allāh wills.
+We will study the [pc]{.smallcaps} verb and the verb of command in later chapters, if Allāh wills.
 -->
 <!--
-Verbs can be either _[mADI]{.trn2}_ verbs where the action of the verb has been completed, e.g., "The boy went." or _[muDArie]{.trn2}_ verbs where the action of the verb is on-going or not yet completed, e.g., "The boy goes." In this chapter we will study _[mADI]{.trn2}_ verbs.
+Verbs can be either _[sc]{.smallcaps}_ verbs where the action of the verb has been completed, e.g., "The boy went." or _[pc]{.smallcaps}_ verbs where the action of the verb is on-going or not yet completed, e.g., "The boy goes." In this chapter we will study _[sc]{.smallcaps}_ verbs.
 -->
 
 ## Tense and aspect
 
 You may be wondering why the same verb in Arabic will have both
-a [mADI]{.trn2} form and a [muDArie]{.trn2} form.
+a [sc]{.smallcaps} form and a [pc]{.smallcaps} form.
 In order to explain this we will give a short introduction to the concepts of _tense_ and _aspect_.
 
 _Tense_ is a concept that tells us the time reference in which the action of a verb was done. Here are some examples of tense in English:
@@ -98,18 +98,18 @@ _Progressive_ and _continuous_ aspects express that a verbal action is, was, or 
 
 (@) [He is reading]{.trans}.
 
-In Arabic, the [mADI]{.trn2} form verb is typically used to express the perfect aspect.
-And the [muDArie]{.trn2} verb is typically used to express the imperfect aspect.^[Al-Dobaian, "A syntactic analysis of Arabic tense and aspect"]
+In Arabic, the [sc]{.smallcaps} form verb is typically used to express the perfect aspect.
+And the [pc]{.smallcaps} verb is typically used to express the imperfect aspect.^[Al-Dobaian, "A syntactic analysis of Arabic tense and aspect"]
 
 But we would like to keep our terminology for these verb forms separate from any tense or aspect that a sentence using them may signify.^[Weigelt, "The particle _la-_ in Classical Arabic"]
-That is why we are calling them [mADI]{.trn2} and [muDArie]{.trn2},
+That is why we are calling them [sc]{.smallcaps} and [pc]{.smallcaps},
 instead of _perfect_ and _imperfect_, respectively.
 
-By the way, [mADI]{.trn2} literally means _past_ in Arabic.
+By the way, [sc]{.smallcaps} literally means _past_ in Arabic.
 And it is very often used for the past tense.
 But when we use it terminologically to denote the verb form,
 then we don't intend by it to mean the past tense per se.
-(See @sec-jsh, for example, where the [mADI]{.trn2} verb is used very commonly in a future tense.)
+(See @sec-jsh, for example, where the [sc]{.smallcaps} verb is used very commonly in a future tense.)
 
 ## Arabic word roots
 
@@ -123,13 +123,13 @@ The [أَمْر]{.ar} [Eamr]{.trn} "a matter" is derived from the root [ءمر]{
 
 Similarly, the word [مَكْتَب]{.ar} [maktab]{.trn} "a library" is derived from the root [كتب]{.ar}. And [مَلْعَب]{.ar} [maleab]{.trn} "a playground" is derived from the root [لعب]{.ar}. Using the paradigm root [فعل]{.ar}, we can see that the pattern of both these words is [مَفْعَل]{.ar} [mafeal]{.trn}. Here, the letter [م]{.ar} [m]{.trn} is an extraneous letter added to form the words and is not part of their roots.
 
-Not only nouns, but verbs, too, are derived from roots. All verbs are derived from their roots in a fixed set of patterns called _forms_ which are numbered 1 onward. For example, the [mADI]{.trn2} form 2 verb pattern is [فَعَّلَ]{.ar} [faeeala]{.trn} and the [mADI]{.trn2} form 3 verb pattern is [فَاعَلَ]{.ar} [fAeala]{.trn}. There are approximately 9-10 forms that are in common usage. In addition, there are a few higher order forms (11 onward) that are less common. In this chapter will study the [mADI]{.trn2} form 1 verb only.
+Not only nouns, but verbs, too, are derived from roots. All verbs are derived from their roots in a fixed set of patterns called _forms_ which are numbered 1 onward. For example, the [sc]{.smallcaps} form 2 verb pattern is [فَعَّلَ]{.ar} [faeeala]{.trn} and the [sc]{.smallcaps} form 3 verb pattern is [فَاعَلَ]{.ar} [fAeala]{.trn}. There are approximately 9-10 forms that are in common usage. In addition, there are a few higher order forms (11 onward) that are less common. In this chapter will study the [sc]{.smallcaps} form 1 verb only.
 
-## The form 1 [mADI]{.trn2} verb
+## The form 1 [sc]{.smallcaps} verb
 
-Here are some examples of [mADI]{.trn2} form 1 verbs in Arabic:
+Here are some examples of [sc]{.smallcaps} form 1 verbs in Arabic:
 
-|Root | [#mADI]{.trn2} form 1 verb| Meaning|
+|Root | [sc]{.smallcaps} form 1 verb| Meaning|
 |:----|:----|:----|
 |[فعل]{.ar} |[فَعَلَ]{.ar} [faeala]{.trn} |[to do]{.trans} |
 |[ذهب]{.ar} |[ذَهَبَ]{.ar} [pahaba]{.trn} |[to go]{.trans} |
@@ -145,7 +145,7 @@ Here are some examples of [mADI]{.trn2} form 1 verbs in Arabic:
 
 Note that [فعل]{.ar}, in addition to being used as a paradigm root, also has a verb in its own right: [فَعَلَ]{.ar} [faeala]{.trn} [to do]{.trans}.
 
-Note, also, that the [mADI]{.trn2} form 1 verb consists only of the three letters of the root. The first and the final letter always have an [fatHah]{.trn2} while the middle letter's vowel is variable. It may have an [fatHah]{.trn2}, [kasrah]{.trn2}, or an [Dammah]{.trn2}, depending on the verb. Using the paradigm root [فعل]{.ar}, we can say that the form 1 verb occurs in the patterns [فَعَلَ]{.ar}, [فَعِلَ]{.ar}, and [فَعُلَ]{.ar}. 
+Note, also, that the [sc]{.smallcaps} form 1 verb consists only of the three letters of the root. The first and the final letter always have an [fatHah]{.trn2} while the middle letter's vowel is variable. It may have an [fatHah]{.trn2}, [kasrah]{.trn2}, or an [Dammah]{.trn2}, depending on the verb. Using the paradigm root [فعل]{.ar}, we can say that the form 1 verb occurs in the patterns [فَعَلَ]{.ar}, [فَعِلَ]{.ar}, and [فَعُلَ]{.ar}. 
 
 A good dictionary will tell us the middle vowel mark of a particular verb. However, as a trend, the [fatHah]{.trn2} is the most common for the middle vowel mark, followed by the [kasrah]{.trn2}, while the [Dammah]{.trn2} is the least common.
 
@@ -170,7 +170,7 @@ Consider this sentence that has the simple past tense:
 (@) [The boy went.]{.trans}  
 
 In order to express a simple past tense sentence in Arabic,
-we will use the [mADI]{.trn2} verb, thus:
+we will use the [sc]{.smallcaps} verb, thus:
 
 (@) [ذَهَبَ ٱلْغُلَامُ]{.ar}  
     [pahaba -lgulAmu]{.trn}  
@@ -340,7 +340,7 @@ we would like to say:
 
 "He went."
 
-For this we will have to learn a third category of pronoun pronouns called _doer pronouns_ for [mADI]{.trn2} verbs.
+For this we will have to learn a third category of pronoun pronouns called _doer pronouns_ for [sc]{.smallcaps} verbs.
 doer pronouns are of two types: (i) expressed and  (ii) implied.
 
 Here we list the singular doer pronouns in Arabic. 
@@ -404,7 +404,7 @@ If we are able to make this a rule, then we will see, if [#allAh]{.trn2} wills, 
 
 ### Doer pronouns for the singular addressee ("you~1~") and speaker ("I") participants
 
-It is only the doer pronouns for the singular absentee participant that are implied for [mADI]{.trn2} verbs. The doer pronouns for the singular addressee and speaker participants are expressed.
+It is only the doer pronouns for the singular absentee participant that are implied for [sc]{.smallcaps} verbs. The doer pronouns for the singular addressee and speaker participants are expressed.
 The expressed doer pronouns are attached to the verb.
 
 Here we show how the expressed doer pronouns are attached to the verb using the root paradigm [فعل]{.ar}. The middle root letter ([ع]{.ar}) has an [fatHah]{.trn2} [◌َ]{.ar} here but this vowel will vary for other verbs.
@@ -552,7 +552,7 @@ http://www.alfaseeh.com/vb/showthread.php?t=93064A-->
 
 In this section we will use the verbs:
 
-Root | [#mADI]{.trn2} form 1 verb| Meaning
+Root | [sc]{.smallcaps} form 1 verb| Meaning
 :----|:----|:----
 [دخل]{.ar} |[دَخَلَ]{.ar} [daxala]{.trn} |"entered"
 [خرج]{.ar} |[خَرَجَ]{.ar} [xaraja]{.trn} |"exited"
@@ -689,9 +689,9 @@ This is because the pronoun [هَا]{.ar} [-hA]{.trn} "it" is stronger in defini
 
 This ordering of words due to the attractive pull of the verb is largely learned by experience. The more you read Arabic, the better feel you will get for it, if [#allAh]{.trn2} wills.
 
-## Negating [mADI]{.trn2} verbs
+## Negating [sc]{.smallcaps} verbs
 
-In order to negate a [mADI]{.trn2} verb, the particle [مَا]{.ar} [mA]{.trn} is placed before it. This gives the meaning of the action of the verb did not get, or has not got, done. So for example:
+In order to negate a [sc]{.smallcaps} verb, the particle [مَا]{.ar} [mA]{.trn} is placed before it. This gives the meaning of the action of the verb did not get, or has not got, done. So for example:
 
 [مَا ذَهَبَ ٱلرَّجُلُ.]{.ar}  
 [mA pahaba -rrajulu.]{.trn}  
@@ -700,7 +700,7 @@ In order to negate a [mADI]{.trn2} verb, the particle [مَا]{.ar} [mA]{.trn} i
 
 ## The particle [قَدْ]{.ar} [qad]{.trn}
 
-The particle [قَدْ]{.ar} [qad]{.trn}, when placed before a [mADI]{.trn2} verb emphasizes that the action of the verb has already or definitely occured.
+The particle [قَدْ]{.ar} [qad]{.trn}, when placed before a [sc]{.smallcaps} verb emphasizes that the action of the verb has already or definitely occured.
 
 [قَدْ ذَهَبَ ٱلرَّجُلُ.]{.ar}  
 [qad pahaba -rrajulu.]{.trn}  
