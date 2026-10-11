@@ -1318,7 +1318,7 @@ def populate_resource_list():
     "liheibi_sentence"
     , cit_type = "ws_ref"
     , cit_text = 'Al-Liheibi, _Aspects of sentence analysis in the Arabic linguistic tradition_'
-    , bib_text = 'Al-Liheibi,\\ F.\\ M.\\ M.\\, _Aspects of sentence analysis in the Arabic linguistic tradition, with particular reference to ellipsis_, Doctoral dissertation, Durham University, 1999. <https://etheses.dur.ac.uk/1494/>'
+    , bib_text = 'Al-Liheibi,\\ F.\\ M.\\ M.\\, _Aspects of sentence analysis in the Arabic linguistic tradition, with particular reference to ellipsis_, Doctoral thesis, Durham University, 1999. <https://etheses.dur.ac.uk/1494/>'
     , sort_key = 'Liheibi F M M Aspects of sentence analysis in the Arabic linguistic tradition'
     ))
 
