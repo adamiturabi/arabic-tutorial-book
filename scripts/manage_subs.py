@@ -286,7 +286,8 @@ map_table["ism_hay2ah"] = "noun of manner" # style, form, guise, manner
 map_table["ism_makan"] = "noun of place"
 map_table["ism_mawsul"] = "connected noun"
 map_table["ism_zaman"] = "noun of time"
-map_table["isnaad_comp"] = "structurally complete"
+map_table["isnaad"] = "lean"
+map_table["isnaad_comp"] = "leaned"
 map_table["ittisaa3"] = "latitude" 
 
 
