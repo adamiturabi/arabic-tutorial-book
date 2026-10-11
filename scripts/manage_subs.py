@@ -250,6 +250,7 @@ map_table["adat_istifham"] = "question-device"
 map_table["af3al"] = "comparative noun"
 map_table["fi3l_qalb"] = "verb of perception"
 map_table["af3aal_quloob"] = "verbs of perception"
+map_table["af3aal_tasyeer"] = "verbs of rendering"
 map_table["amr"] = "command"
 map_table["fi3l_shuroo3"] = "verb of beginning"
 
