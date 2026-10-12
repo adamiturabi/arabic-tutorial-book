@@ -211,7 +211,10 @@ map_table["ta3alluq"] = "pertinence"
 map_table["muta3alliqbi"] = "pertinent to"
 map_table["muta3allaqbih"] = "pertinentee"
 
-
+map_table["ta3leeq"] = "suspension"
+map_table["mu3allaq"] = "suspended"
+map_table["ilghaa"] = "cancelation"
+map_table["mulghaa"] = "canceled"
 
 map_table["3umdah"] = "indispensable" # indispensable, foundational, basic, load-bearing, structural
 map_table["fadlah"] = "dispensable" # dispensable, redundant, extra
@@ -250,6 +253,7 @@ map_table["adat_istifham"] = "question-device"
 map_table["af3al"] = "comparative noun"
 map_table["fi3l_qalb"] = "verb of perception"
 map_table["af3aal_quloob"] = "verbs of perception"
+map_table["af3aal_tasyeer"] = "verbs of rendering"
 map_table["amr"] = "command"
 map_table["fi3l_shuroo3"] = "verb of beginning"
 
@@ -286,7 +290,8 @@ map_table["ism_hay2ah"] = "noun of manner" # style, form, guise, manner
 map_table["ism_makan"] = "noun of place"
 map_table["ism_mawsul"] = "connected noun"
 map_table["ism_zaman"] = "noun of time"
-map_table["isnaad_comp"] = "structurally complete"
+map_table["isnaad"] = "lean"
+map_table["isnaad_comp"] = "leaned"
 map_table["ittisaa3"] = "latitude" 
 
 

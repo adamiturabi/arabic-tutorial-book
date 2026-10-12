@@ -1,9 +1,285 @@
 # ;dhanna; and its sisters
 
-ta3leeq, ilghaa2: Peled <https://www.academia.edu/101820592/Amal_and_ibtid%C4%81_in_Medieval_Arabic_Grammatical_Tradition>
-
 ;wip_warn;
 
 ## Introduction
 
-The basic ;j_ism; consists of a ;mubtada; and a ;xabar;
+There are some verbs that,
+in addition to a ;faa3il;,
+also
+generally require two ;mafulb;s.
+;dhanna; is one of these verbs.
+For example:
+
+(@) [ظَنَنْتُ زَيْدًا أَخَاكَ]{.ar}
+    [@peled_sentence_types@ 188]{.citex}  
+    [I thought Zayd to be your brother.]{.trans}  
+
+There are other verbs similar to ;dhanna;.
+We will study them collectively as ";dhanna; and its sisters."
+
+## The ;isnaad; of the ;dhanna; sentence
+
+The basic ;j_ism; consists of a ;mubtada; and a ;xabar;.
+For example:
+
+(@) [زَيْدٌ أَخُوكَ]{.ar}  
+    [Zayd is your brother.]{.trans}  
+
+In example () above,
+[زَيْدٌ]{.ar}
+is the ;mubtada;
+and
+[أَخُوكَ]{.ar}
+is its ;xabar;.
+Both are in the ;ucase; because it is a basic ;j_ism;.
+In terms of its ;isnaad;,
+[زَيْدٌ]{.ar}
+is the ;musnadi;
+and
+[أَخُوكَ]{.ar}
+is the ;musnad;.
+(Technically, the ;musnad; is [أَخ]{.ar}. And it in turn is a ;mudaf; to the ;mudafil; [كَ]{.ar}.
+But loosely speaking, we can say that the ;musnad; is the bundled [أَخُوكَ]{.ar}.)
+With the ;musnadi; and the ;musnad; in place, the sentence is ;isnaad_comp;.
+
+Now consider the following sentence:
+
+(@) [ظَنَنْتُ زَيْدًا أَخَاكَ]{.ar}
+    [@peled_sentence_types@ 188]{.citex}  
+    [I thought Zayd to be your brother.]{.trans}  
+
+In example () above,
+the verb ;dhanna;
+takes the ;mubtada; and ;xabar; of example (),
+and makes them into ;mafulb;s.
+The verb ;dhanna;
+requires a ;faa3il; (as usual),
+which is the pronoun [تُ]{.ar} [I]{.trans}.
+And it also requires two ;mafulb;s:
+[زَيْدًا]{.ar}
+is the first ;mafulb;
+and
+[أَخَاكَ]{.ar}
+is the second ;mafulb;.
+
+This sentence is peculiar in its ;isnaad;.
+This is because the ;3umdah; elements are the two ;mafulb;s.
+[زَيْدًا]{.ar}
+is the ;musnadi;
+and
+[أَخَاكَ]{.ar}
+is the ;musnad;.^[@baseet_ibn_abi_rabee3@ 433]
+The sentence is only ;isnaad_comp; when both ;mafulb;s are in place.
+Unlike normal ;j_f3l;s,
+the verb ;dhanna; and its ;faa3il; are not the ;3umdah; elements of the sentence.
+Rather ;dhanna; is the ;pregov;.
+Figure () depicts the ;3amal; of example ().
+
+DIAGRAM
+
+If one or both of the ;mafulb;s are missing,
+then the sentence is not (generally) sufficiently ;isnaad_comp;:
+
+(@) ;x; [ظَنَنْتُ زَيْدًا]{.ar}  
+    [I thought Zayd]{.trans}  
+
+(@) ;x; [ظَنَنْتُ]{.ar}  
+    [I thought]{.trans}  
+
+In examples () and () above, depending on context,
+the listener may be left wondering,
+"You thought Zayd to be what?"
+and
+"You thought what?",
+respectively.
+However, as we will see in the examples, sometimes, some of these verbs
+that fall in ;dhanna; and its sisters
+don't require two ;mafulb;s.
+In which cases the sentence will be ;isnaad_comp; without them.
+
+Parallels of the ;isnaad; of the ;dhanna; sentence
+may be found in the ;kaana; and ;inna; sentences:
+
+(@) [كَانَ زَيْدٌ أَخَاكَ]{.ar}
+    [@peled_sentence_types@ 188]{.citex}  
+    [Zayd was your brother.]{.trans}  
+    ([زَيْدٌ]{.ar}, the ;faa3il;/;ism_of;, is the ;musnadi;.
+    [أَخَاكَ]{.ar}, the ;mafulb;/;xabar;, is the ;musnad;.
+    ;kaana; is the ;pregov;.)
+
+
+(@) [إِنَّ زَيْدًا أَخُوكَ]{.ar}
+    [@peled_sentence_types@ 188]{.citex}  
+    [Indeed Zayd is your brother.]{.trans}  
+    ([زَيْدًا]{.ar}, the ;ism_of;, is the ;musnadi;.
+    [أَخُوكَ]{.ar}, the ;xabar;, is the ;musnad;.
+    ;inna; is the ;pregov;.)
+
+Similar to (;naqis;) ;kaana; sentences,
+the ;dhanna; sentence may be categorized as a ;j_f3l;.
+And, like in the case of ;naqis; ;kaana;,
+the verb and its ;faa3il; don't make the sentence ;isnaad_comp;.
+
+
+
+## Categories of ;dhanna; and its sisters
+
+There are many verbs that behave similar to ;dhanna;,
+in that they require two ;mafulb;s.
+
+In this chapter, we will refer to the first ;mafulb;,
+(the one which is the ;mubtada; in the basic ;j_ism;)
+as _x_.
+And we will refer to the second ;mafulb;,
+(the one which is the ;xabar; in the basic ;j_ism;)
+as _y_.
+
+These verbs constituting ;dhanna; and its sisters may be sub-categorized into:
+
+1. *#;af3aal_quloob;*. These verbs indicate that the ;faa3il; believes the first ;mafulb; to be something that is indicated by the second ;mafulb;.
+   For example:
+   [ظَنَّ]{.ar} [to think, conjecture _x_ to be _y_]{.trans},
+   [عَلِمَ]{.ar} [to know _x_ to be _y_]{.trans},
+   [حَسِبَ]{.ar} [to deem, reckon _x_ to be _y_]{.trans},
+   [خَالَ]{.ar} [to imagine _x_ to be _y_]{.trans},
+   [زَعَمَ]{.ar} [to claim _x_ to be _y_]{.trans},
+   [رَأَىٰ]{.ar} [to opine _x_ to be _y_]{.trans},
+   and more.
+
+2. *#;af3aal_tasyeer;*. These verbs indicate that the ;faa3il; changes or leaves the ;mafulb; in a state that is indicated by the second ;mafulb;.
+   For example:
+   [صَيَّرَ]{.ar} [to make _x_ become _y_]{.trans},
+   [اتَّخَذَ]{.ar} [to take _x_ for oneself as _y_]{.trans},
+   [تَرَكَ]{.ar} [to leave _x_ as _y_]{.trans},
+   [جَعَلَ]{.ar} [to make _x_ into _y_]{.trans},
+   and more.
+
+Some verbs, like [جَعَلَ]{.ar} can fall into both categories, where [جَعَلَ]{.ar} can also mean [to believe _x_ to be _y_]{.trans}, in addition to [to make _x_ into _y_]{.trans}.
+
+We will discuss these verbs individually in section\ () below.
+
+## ;dhanna; and its sisters in passive voice
+
+When ;dhanna; and its sisters are used in the passive voice,
+the first ;mafulb;
+(the one which is the ;mubtada; in the basic ;j_ism;)
+is made the ;naib_faa3il; in the ;ucase;.
+And the second ;mafulb;
+(the one which is the ;xabar; in the basic ;j_ism;)
+remains a ;mafulb; in the ;acase;.
+So, example () above, becomes in the passive voice:
+
+(@) [ظُنَّ زَيْدٌ أَخَاكَ]{.ar}  
+    [Zayd was thought to be your brother.]{.trans}
+
+Similarly,
+
+(@) [زَيْدٌ مَظْنُونٌ شُجَاعًا]{.ar}
+    [@wright@ 2/52D]{.citex}  
+    [Zayd is thought to be brave.]{.trans}  
+
+## Example sentences of ;dhanna; and its sisters
+
+### ;dhanna; {.unnumbered}
+
+The basic meaning of ;dhanna; is to believe,
+with a variable range of conviction,
+_x_ to be _y_.
+Due to the conjectural nature of this meaning,
+it can be used in a range of circumstances from
+where its ;faa3il; believes something to be certain,
+to cases where he is doubtful.
+
+Here are some examples:
+
+(@) [وَإِنِّی لَأَظُنُّكَ یَـٰفِرۡعَوۡنُ مَثۡبُورࣰا]{.quran}
+    [@https://quran.com/17/102@ cited by @nahw_arabi@ 1/331]{.citex}  
+    [and indeed I think, O Pharaoh, that you are destroyed.]{.trans}  
+
+(@) [قُلۡتُم مَّا نَدۡرِی مَا ٱلسَّاعَةُ إِن نَّظُنُّ إِلَّا ظَنࣰّا وَمَا نَحۡنُ بِمُسۡتَیۡقِنِینَ]{.quran}
+    [@https://quran.com/45/32@ cited by @nahw_arabi@ 1/331]{.citex}  
+    [you said, 'We know not what is the Hour. We assume only assumption, and we are not convinced.']{.trans}  
+
+(@) [ظَنَنْتُكَ إِنْ شَبَّتْ لَظَى الْحَرْبِ صَالِيًا]{.ar}
+    [cited by @nahw_arabi@ 1/331]{.citex}  
+    [I thought you, if the blaze of war is kindled, to be entering (therein)]{.trans}  
+
+;dhanna; following examples is interpreted to have certainty in its meaning:
+
+(@) [قَالَ ٱلَّذِینَ یَظُنُّونَ أَنَّهُم مُّلَـٰقُوا۟ ٱللَّهِ كَم مِّن فِئَةࣲ قَلِیلَةٍ غَلَبَتۡ فِئَةࣰ كَثِیرَةَۢ بِإِذۡنِ ٱللَّهِۗ وَٱللَّهُ مَعَ ٱلصَّـٰبِرِینَ]{.quran}^[See @https://tafsir.app/ibn-uthaymeen/2/249@]
+    [@https://quran.com/2/249@ cited by @nahw_arabi@ 1/332]{.citex}  
+    [But those who were certain that they would meet Allāh said, "How many a small company has overcome a large company by permission of Allāh. And Allāh is with the patient."]{.trans}
+
+(@) [إِنِّی ظَنَنتُ أَنِّی مُلَـٰقٍ حِسَابِیَهۡ]{.quran}
+    [@https://quran.com/69/20@ cited by @nahw_arabi@ 1/332]{.citex}  
+    [Indeed, I was certain that I would be meeting my account."]{.trans}  
+
+(@) [وَرَءَا ٱلۡمُجۡرِمُونَ ٱلنَّارَ فَظَنُّوۤا۟ أَنَّهُم مُّوَاقِعُوهَا وَلَمۡ یَجِدُوا۟ عَنۡهَا مَصۡرِفࣰا]{.quran}^[See @https://tafsir.app/ibn-uthaymeen/18/53@]
+    [@https://quran.com/18/53@ cited by @nahw_arabi@ 1/332]{.citex}  
+    [And the criminals will see the Fire and will be certain that they are to fall therein. And they will not find from it a way elsewhere.]{.trans}  
+
+;dhanna; can also have the meaning of [to suspect (someone)]{.trans}.
+With this meaning, it is no longer a ;fi3l_qalb;,
+and will only need one ;mafulb;.
+For example:
+
+(@) [ظَنَّ القَاضِي فُلَانًا]{.ar}
+    [@nahw_arabi@ 1/331]{.citex}  
+    [The judge suspected so-and-so.]{.trans}  
+
+### [عَلِمَ]{.ar} {.unnumbered}
+
+[عَلِمَ]{.ar} means [to know]{.trans}.
+Examples:
+
+(@) [عَلِمْتُكَ الْبَاذِلَ الْمَعْرُوفَ]{.ar}
+    [@wright@ 2/49B]{.citex}  
+    [I have known you to be liberal in the exercise of bounty.]{.trans}  
+
+(@) [فَإِنۡ **عَلِمۡتُمُوهُنَّ مُؤۡمِنَـٰتࣲ** فَلَا تَرۡجِعُوهُنَّ إِلَى ٱلۡكُفَّارِۖ]{.quran}
+    [@https://quran.com/60/10@ cited by @nahw_arabi@ 1/325]{.citex}  
+    [And if **you know them to be believers**, then do not return them to the disbelievers;]{.trans}  
+
+When [عَلِمَ]{.ar} has only the meaning
+[to know (something)]{.trans}
+and not
+[to know (something) to be (something)]{.trans}
+then it may take only one ;mafulb;.
+For example:
+
+(@) [وَٱللَّهُ أَخۡرَجَكُم مِّنۢ بُطُونِ أُمَّهَـٰتِكُمۡ **لَا تَعۡلَمُونَ شَیۡـࣰٔا**]{.quran}
+    [@https://quran.com/16/78@ cited by @nahw_arabi@ 1/236]{.citex}  
+    [And Allāh has extracted you from the wombs of your mothers **not knowing a thing**]{.trans}  
+
+(@) [لَقَدْ **عَلِمْتُ النَّظَائِرَ** الَّتِي كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَقْرَأُ بِهِنَّ سُورَتَيْنِ فِي رَكْعَةٍ]{.ar}
+    [@https://sunnah.com/muslim:822e@]{.citex}  
+    [**I know the manners** in which the Messenger of ;Allah; ;pbuh; recited two ;surah;s in one [rakeah]{.trn2}.]{.trans}  
+
+### [رَأَىٰ]{.ar} {.unnumbered}
+
+
+## Second ;mafulb; can be a prepositional phrase or sentence
+
+baseet 443
+
+(@) [مَا عَلِمْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم نَكَحَ شَيْئًا مِنْ نِسَائِهِ وَلاَ أَنْكَحَ شَيْئًا مِنْ بَنَاتِهِ عَلَى أَكْثَرَ مِنْ ثِنْتَىْ عَشْرَةَ أُوقِيَّةً]{.ar}
+    [@https://sunnah.com/tirmidhi:1114b@]{.citex}  
+
+@https://sunnah.com/muslim:1156b@
+
+## one maful 
+
+baseet 445ff
+
+## No maful?
+
+[إن هم إلا يظنون]{.ar}
+
+[إن ظن خيرا]{.ar}
+
+## #;ta3leeq; of ;3amal;
+
+## #;ilghaa; of ;3amal;
+
+@peled_3amal@

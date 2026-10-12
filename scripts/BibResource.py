@@ -1,6 +1,6 @@
 class BibResource:
 
-  alphabet = "اأإبتثجحخدذرزسشصضطظعغفقكلمنهةوؤيىئabcdefghijklmnopqrstuvwxyz0123456789"
+  alphabet = "0123456789اأإبتثجحخدذرزسشصضطظعغفقكلمنهةوؤيىئabcdefghijklmnopqrstuvwxyz"
 
   def __init__(self, cit_key, cit_type, cit_text, bib_text=None, sort_key=None):
     if bib_text is None:
