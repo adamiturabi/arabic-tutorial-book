@@ -54,9 +54,8 @@ def get_bib_str():
 
 # References {.unnumbered #chap-references}
 
-The list of references (below) is alphabetized.
-Arabic works are alphabetized according to the cited term.
-Western works are alphabetized according to author last name and occur after the Arabic works.
+Arabic works are sorted according to first date of publication, or by year of death of the author.
+Western works are sorted according to author last name and occur after the Arabic works.
 
 """
 

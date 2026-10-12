@@ -11,7 +11,7 @@ def populate_resource_list():
     , cit_type = "corpus"
     , cit_text = ""
     , bib_text = "القرآن، " + format_url_ar("https://quran.com")
-    , sort_key = "اااااا"
+    , sort_key = "0001"
     ))
 
   # Hadith collections
@@ -19,150 +19,164 @@ def populate_resource_list():
     "bukhari"
     , cit_type = "corpus"
     , cit_text = "[صحيح البخاري]{.ar}"
-    , bib_text = "صحيح البخاري، " + format_url_ar("https://sunnah.com/bukhari")
+    , bib_text = "صحيح البخاري (ت ٢٥٦ هـ) " + format_url_ar("https://sunnah.com/bukhari")
+    , sort_key = "0256"
     ))
 
   resource_list.append(BibResource(
     "muslim"
     , cit_type = "corpus"
     , cit_text = "[صحيح مسلم]{.ar}"
-    , bib_text = "صحيح مسلم، " + format_url_ar("https://sunnah.com/muslim")
+    , bib_text = "صحيح مسلم (ت ٢٦١ هـ) " + format_url_ar("https://sunnah.com/muslim")
+    , sort_key = "0261"
     ))
 
   resource_list.append(BibResource(
     "nasai"
     , cit_type = "corpus"
     , cit_text = "[سنن النسائي]{.ar}"
-    , bib_text = "سنن النسائي، " + format_url_ar("https://sunnah.com/nasai")
-    , sort_key = "سنن النسايي"
+    , bib_text = "سنن النسائي (ت ٣٠٣ هـ) " + format_url_ar("https://sunnah.com/nasai")
+    , sort_key = "0303"
     ))
  
   resource_list.append(BibResource(
     "abudawud"
     , cit_type = "corpus"
     , cit_text = "[سنن أبي داود]{.ar}"
-    , bib_text = "سنن أبي داود، " + format_url_ar("https://sunnah.com/abudawud")
-    , sort_key = "سنن ابي داود"
+    , bib_text = "سنن أبي داود (ت ٢٧٥ هـ) " + format_url_ar("https://sunnah.com/abudawud")
+    , sort_key = "0275"
     ))
  
   resource_list.append(BibResource(
     "tirmidhi"
     , cit_type = "corpus"
     , cit_text = "[جامع الترمذي]{.ar}"
-    , bib_text = "جامع الترمذي، " + format_url_ar("https://sunnah.com/tirmidhi")
+    , bib_text = "جامع الترمذي (ت ٢٧٩ هـ) " + format_url_ar("https://sunnah.com/tirmidhi")
+    , sort_key = "0279"
     ))
  
   resource_list.append(BibResource(
     "ibnmajah"
     , cit_type = "corpus"
     , cit_text = "[سنن ابن ماجه]{.ar}"
-    , bib_text = "سنن ابن ماجه، " + format_url_ar("https://sunnah.com/ibnmajah")
+    , bib_text = "سنن ابن ماجه (ت ٢٧٣ هـ) " + format_url_ar("https://sunnah.com/ibnmajah")
+    , sort_key = "0273"
     ))
  
   resource_list.append(BibResource(
     "malik"
     , cit_type = "corpus"
     , cit_text = "[موطأ مالك]{.ar}"
-    , bib_text = "موطأ مالك، " + format_url_ar("https://sunnah.com/malik")
-    , sort_key = "موطا مالك"
+    , bib_text = "موطأ مالك (ت ١٧٩ هـ) " + format_url_ar("https://sunnah.com/malik")
+    , sort_key = "0179"
     ))
  
   resource_list.append(BibResource(
     "ahmad"
     , cit_type = "corpus"
     , cit_text = "[مسند أحمد]{.ar}"
-    , bib_text = "مسند أحمد، " + format_url_ar("https://hadithunlocked.com/ahmad")
-    , sort_key = "مسند احمد"
+    , bib_text = "مسند أحمد (ت ٢٤١ هـ) " + format_url_ar("https://hadithunlocked.com/ahmad")
+    , sort_key = "0241"
     ))
  
   resource_list.append(BibResource(
     "darimi"
     , cit_type = "corpus"
     , cit_text = "[سنن الدارمي]{.ar}"
-    , bib_text = "سنن الدارمي، " + format_url_ar("https://hadithunlocked.com/darimi")
+    , bib_text = "سنن الدارمي (ت ٢٥٥ هـ) " + format_url_ar("https://hadithunlocked.com/darimi")
+    , sort_key = "0255"
     ))
   resource_list.append(BibResource(
     "ibnhibban"
     , cit_type = "corpus"
     , cit_text = "[صحيح ابن حبان]{.ar}"
-    , bib_text = "صحيح ابن حبان، " + format_url_ar("https://hadithunlocked.com/ibnhibban")
+    , bib_text = "صحيح ابن حبان (ت ٣٥٤ هـ) " + format_url_ar("https://hadithunlocked.com/ibnhibban")
+    , sort_key = "0354"
     ))
   resource_list.append(BibResource(
     "ibnkhuzaymah"
     , cit_type = "corpus"
     , cit_text = "[صحيح ابن خزيمة]{.ar}"
-    , bib_text = "صحيح ابن خزيمة، " + format_url_ar("https://hadithunlocked.com/ibnkhuzaymah")
+    , bib_text = "صحيح ابن خزيمة (ت ٣١١ هـ) " + format_url_ar("https://hadithunlocked.com/ibnkhuzaymah")
+    , sort_key = "0311"
     ))
   resource_list.append(BibResource(
     "tabarani"
     , cit_type = "corpus"
     , cit_text = "[المعجم الكبير للطبراني]{.ar}"
-    , bib_text = "المعجم الكبير للطبراني، " + format_url_ar("https://hadithunlocked.com/tabarani")
+    , bib_text = "المعجم الكبير للطبراني (ت ٣٦٠ هـ) " + format_url_ar("https://hadithunlocked.com/tabarani")
+    , sort_key = "0360"
     ))
   resource_list.append(BibResource(
     "bazzar"
     , cit_type = "corpus"
     , cit_text = "[مسند البزار]{.ar}"
-    , bib_text = "مسند البزار، " + format_url_ar("https://hadithunlocked.com/bazzar")
+    , bib_text = "مسند البزار (ت ٢٩٢ هـ) " + format_url_ar("https://hadithunlocked.com/bazzar")
+    , sort_key = "0292"
     ))
   resource_list.append(BibResource(
     "hakim"
     , cit_type = "corpus"
     , cit_text = "[مستدرك الحاكم]{.ar}"
-    , bib_text = "مستدرك الحاكم، " + format_url_ar("https://hadithunlocked.com/hakim")
+    , bib_text = "مستدرك الحاكم (ت ٤٠٥ هـ) " + format_url_ar("https://hadithunlocked.com/hakim")
+    , sort_key = "0405"
     ))
   resource_list.append(BibResource(
     "nasai-kubra"
     , cit_type = "corpus"
     , cit_text = "[الكبرى للنسائي]{.ar}"
-    , bib_text = "الكبرى للنسائي، " + format_url_ar("https://hadithunlocked.com/nasai-kubra")
-    , sort_key = "كبرى النسايي"
+    , bib_text = "الكبرى للنسائي (ت ٣٠٣ هـ) " + format_url_ar("https://hadithunlocked.com/nasai-kubra")
+    , sort_key = "0303"
     ))
   resource_list.append(BibResource(
     "bayhaqi"
     , cit_type = "corpus"
     , cit_text = "[السنن الكبير للبيهقي]{.ar}"
-    , bib_text = "السنن الكبير للبيهقي، " + format_url_ar("https://hadithunlocked.com/bayhaqi")
+    , bib_text = "السنن الكبير للبيهقي (ت ٤٥٨ هـ) " + format_url_ar("https://hadithunlocked.com/bayhaqi")
+    , sort_key = "0458"
     ))
   resource_list.append(BibResource(
     "ahmad-zuhd"
     , cit_type = "corpus"
     , cit_text = "[الزهد لأحمد]{.ar}"
-    , bib_text = "الزهد لأحمد، " + format_url_ar("https://hadithunlocked.com/ahmad-zuhd")
+    , bib_text = "الزهد لأحمد (ت ٢٤١ هـ) " + format_url_ar("https://hadithunlocked.com/ahmad-zuhd")
+    , sort_key = "0241"
     ))
   resource_list.append(BibResource(
     "daraqutni"
     , cit_type = "corpus"
     , cit_text = "[سنن الدارقطني]{.ar}"
-    , bib_text = "سنن الدارقطني، " + format_url_ar("https://hadithunlocked.com/daraqutni")
+    , bib_text = "سنن الدارقطني (ت ٣٨٥ هـ) " + format_url_ar("https://hadithunlocked.com/daraqutni")
+    , sort_key = "0385"
     ))
   resource_list.append(BibResource(
     "suyuti"
     , cit_type = "corpus"
     , cit_text = "[جمع الجوامع للسيوطي]{.ar}"
-    , bib_text = "جمع الجوامع للسيوطي، " + format_url_ar("https://hadithunlocked.com/suyuti")
+    , bib_text = "جمع الجوامع للسيوطي (ت ٩١١ هـ) " + format_url_ar("https://hadithunlocked.com/suyuti")
+    , sort_key = "0911"
     ))
  
   resource_list.append(BibResource(
     "nawawi40"
     , cit_type = "corpus"
     , cit_text = "[الأربعون النووية]{.ar}"
-    , bib_text = "الأربعون النووية، " + format_url_ar("https://sunnah.com/nawawi40")
-    , sort_key = "اربعون النووية"
+    , bib_text = "الأربعون النووية (ت ٦٧٦ هـ) " + format_url_ar("https://sunnah.com/nawawi40")
+    , sort_key = "0676"
     ))
  
   resource_list.append(BibResource(
     "riyadussalihin"
     , cit_type = "corpus"
     , cit_text = "[رياض الصالحين]{.ar}"
-    , bib_text = "رياض الصالحين، " + format_url_ar("https://sunnah.com/riyadussalihin")
+    , bib_text = "رياض الصالحين " + format_url_ar("https://sunnah.com/riyadussalihin")
     ))
  
   resource_list.append(BibResource(
     "adab"
     , cit_type = "corpus"
     , cit_text = "[الأدب المفرد]{.ar}"
-    , bib_text = "الأدب المفرد، " + format_url_ar("https://sunnah.com/adab")
+    , bib_text = "الأدب المفرد " + format_url_ar("https://sunnah.com/adab")
     , sort_key = "ادب المفرد"
     ))
  
@@ -346,7 +360,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[النحو الوافي]{.ar}"
     , bib_text = "النحو الوافي، تأليف: عباس حسن، دار المعارف.  \n      " + format_url_ar("https://shamela.ws/book/10641")
-    , sort_key = "نحو الوافي"
+    , sort_key = "1398"
     ))
   
   resource_list.append(BibResource(
@@ -354,6 +368,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[معاني النحو]{.ar}"
     , bib_text = "معاني النحو، تأليف: فاضل صالح السامرائي. الطبعة الثالثة، دار ابن كثير، 2022\\ م."
+    , sort_key = "1420"
     ))
   
   resource_list.append(BibResource(
@@ -361,7 +376,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[النحو العربي: أحكام ومعان]{.ar}"
     , bib_text = "النحو العربي: أحكام ومعان، تأليف: فاضل صالح السامرائي. الطبعة الأولى، دار ابن كثير، 2014\\ م."
-    , sort_key = "نحو العربي احكام ومعان"
+    , sort_key = "1435"
     ))
   
   resource_list.append(BibResource(
@@ -369,7 +384,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[المقتضب للمبرد]{.ar}"
     , bib_text = "المقتضب للمبرد، " +format_url_ar("https://shamela.ws/book/6965")
-    , sort_key = "مقتضب للمبرد"
+    , sort_key = "0285"
     ))
 
   resource_list.append(BibResource(
@@ -377,7 +392,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[معاني القرآن وإعرابه للزجاج]{.ar}"
     , bib_text = "معاني القرآن وإعرابه للزجاج" +format_url_ar("https://shamela.ws/book/922")
-    , sort_key = "[معاني القران واعرابه للزجاج]{.ar}"
+    , sort_key = "0311"
     ))
 
   resource_list.append(BibResource(
@@ -385,6 +400,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[شرح الرضي على الكافية]{.ar}"
     , bib_text = "شرح الرضي على الكافية، تأليف: الرضي الأستراباذي، تحقيق يوسف حسن عمر، جامعة قار يونس، ليبيا، 1395\\ هـ/1975\\ م  \n      " +format_url_ar("https://ketabonline.com/ar/books/23090")
+    , sort_key = "0686"
     ))
 
   resource_list.append(BibResource(
@@ -392,6 +408,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[شرح ابن يعيش على المفصل]{.ar}"
     , bib_text = "شرح ابن يعيش على المفصل، " + format_url_ar("https://shamela.ws/book/13301")
+    , sort_key = "0643"
     ))
 
   resource_list.append(BibResource(
@@ -399,7 +416,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[شرح شيخ زاده على قواعد الإعراب]{.ar}"
     , bib_text = "شرح قواعد الإعراب، تأليف: محمد بن مصطفى القُوجَوي المعروف بشيخ زاده  \n      " + format_url_ar("https://shamela.ws/book/19236")
-    , sort_key = "شرح شيخ زاده على قواعد الاعراب"
+    , sort_key = "0950"
     ))
 
   resource_list.append(BibResource(
@@ -407,7 +424,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[شرح ابن عقيل على الألفية]{.ar}"
     , bib_text = "شرح ابن عقيل على الألفية، "+format_url_ar("https://shamela.ws/book/9904")
-    , sort_key = "شرح ابن عقيل على الالفية"
+    , sort_key = "0769"
     ))
 
   resource_list.append(BibResource(
@@ -415,7 +432,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[أوضح المسالك لابن هشام]{.ar}"
     , bib_text = "أوضح المسالك إلى ألفية ابن مالك لابن هشام  \n      "+format_url_ar("https://shamela.ws/book/11825")
-    , sort_key = "اوضح المسالك الى الفية ابن مالك لابن هشام"
+    , sort_key = "0761"
     ))
 
   resource_list.append(BibResource(
@@ -423,7 +440,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[الأصول في النحو لابن السراج]{.ar}"
     , bib_text = "الأصول في النحو لابن السراج  \n      "+format_url_ar("https://shamela.ws/book/7365")
-    , sort_key = "اصول في النحو لابن السراج"
+    , sort_key = "0316"
     ))
 
   resource_list.append(BibResource(
@@ -431,7 +448,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[حاشية الصبان على شرح الأشمونى لألفية ابن مالك]{.ar}"
     , bib_text = "حاشية الصبان على شرح الأشمونى لألفية ابن مالك  \n      "+format_url_ar("https://shamela.ws/book/11539")
-    , sort_key = "حاشيه الصبان على شرح الاشمونى لالفية ابن مالك"
+    , sort_key = "1206"
     ))
 
   resource_list.append(BibResource(
@@ -439,7 +456,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[الخصائص لابن جني]{.ar}"
     , bib_text = "الخصائص لابن جني  \n      "+format_url_ar("https://shamela.ws/book/9986")
-    , sort_key = "خصايص لابن جني"
+    , sort_key = "0392"
     ))
 
   resource_list.append(BibResource(
@@ -447,7 +464,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[دراسات في النحو للزعبلاوي]{.ar}"
     , bib_text = "دراسات في النحو، تأليف: صلاح الدين الزعبلاوي، "+format_url_ar("https://shamela.ws/book/2120")
-    , sort_key = "دراسات في النحو للزعبلاوي"
+    , sort_key = "1419"
     ))
 
   resource_list.append(BibResource(
@@ -455,7 +472,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[الكليات للكفوي]{.ar}"
     , bib_text = "الكليات، تأليف: أبو البقاء الكفوي "+format_url_ar("https://shamela.ws/book/7037")
-    , sort_key = "كليات للكفوي"
+    , sort_key = "1094"
     ))
 
   resource_list.append(BibResource(
@@ -463,7 +480,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[مجموع مقالات فيصل المنصور]{.ar}"
     , bib_text = "مجموع مقالات الدكتور فيصل بن علي المنصور في علوم العربية، النسخة الأولى، ١٤٤٢\\ هـ.  \n      "+format_url_ar("https://archive.org/details/riga2")
-    , sort_key = "مجموع مقالات فيصل المنصور"
+    , sort_key = "1442"
     ))
 
   resource_list.append(BibResource(
@@ -471,6 +488,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[وجوب الربط بالواو لعبد الجبار فتحي زيدان]{.ar}"
     , bib_text = "وجوب الربط بالواو لعبد الجبار فتحي زيدان  \n      " + format_url_ar("https://www.alukah.net/literature_language/0/173870")
+    , sort_key = "1446"
     ))
 
   resource_list.append(BibResource(
@@ -478,6 +496,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[حالات الربط بواو الحال الجبار فتحي زيدان]{.ar}"
     , bib_text = "حالات الربط بواو الحال الجبار فتحي زيدان  \n      " + format_url_ar("https://www.alukah.net/literature_language/0/173759")
+    , sort_key = "1446"
     ))
 
   resource_list.append(BibResource(
@@ -485,14 +504,14 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[دلائل الإعجاز للجرجاني]{.ar}"
     , bib_text = "دلائل الإعجاز للجرجاني  \n      " + format_url_ar("https://shamela.ws/book/12055")
-    , sort_key = "دلايل الاعجاز للجرجاني"
+    , sort_key = "0471"
     ))
   resource_list.append(BibResource(
     "jurjani_muqtasid"
     , cit_type = "ar_ref"
     , cit_text = "[المقتصد للجرجاني]{.ar}"
     , bib_text = "المقتصد في شرح الإيضاح للجرجاني  \n      " + format_url_ar("https://archive.org/details/2271pdf_201912")
-    , sort_key = "مقتصد في شرح الايضاح للجرجاني"
+    , sort_key = "0471"
     ))
 
   resource_list.append(BibResource(
@@ -500,7 +519,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[التذييل والتكميل لأبي حيان]{.ar}"
     , bib_text = "التذييل والتكميل في شرح كتاب التسهيل لأبي حيان الأندلسي  \n      " + format_url_ar("https://shamela.ws/book/17116")
-    , sort_key = "تذييل والتكميل لابي حيان"
+    , sort_key = "0745"
     ))
 
   resource_list.append(BibResource(
@@ -508,7 +527,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[مغني اللبيب لابن هشام]{.ar}"
     , bib_text = "مغني اللبيب عن كتب الأعاريب لابن هشام  \n      " + format_url_ar("https://shamela.ws/book/6972")
-    , sort_key = "مغني اللبيب لابن هشام"
+    , sort_key = "0761"
     ))
 
   resource_list.append(BibResource(
@@ -516,7 +535,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[شرح التصريح وحاشية ياسين]{.ar}"
     , bib_text = "شرح التصريح وحاشية ياسين  \n      " + format_url_ar("https://archive.org/details/hmmt00291/")
-    , sort_key = "شرح التصريح وحاشية ياسين"
+    , sort_key = "1061"
     ))
 
   resource_list.append(BibResource(
@@ -524,7 +543,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[التبيان في إعراب القرآن للعكبري]{.ar}"
     , bib_text = "التبيان في إعراب القرآن للعكبري  \n      " + format_url_ar("https://shamela.ws/book/22928")
-    , sort_key = "تبيان في اعراب القران للعكبري"
+    , sort_key = "0616"
     ))
 
   resource_list.append(BibResource(
@@ -532,7 +551,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[أسرار العربية للأنباري]{.ar}"
     , bib_text = "أسرار العربية للأنباري  \n      " + format_url_ar("https://shamela.ws/book/7502")
-    , sort_key = "اسرار العربية للانباري"
+    , sort_key = "0577"
     ))
 
   resource_list.append(BibResource(
@@ -540,7 +559,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[جامع الدروس العربية لمصطفى الغلاييني]{.ar}"
     , bib_text = "جامع الدروس العربية لمصطفى الغلاييني  \n      " + format_url_ar("https://shamela.ws/book/6972")
-    , sort_key = "جامع الدروس العربيه لمصطفي الغلاييني"
+    , sort_key = "1364"
     ))
 
   resource_list.append(BibResource(
@@ -548,7 +567,7 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[من الفرق بين بعد ومن بعد في اللفظ القرآني لعلي هاني]{.ar}"
     , bib_text = "من الفرق بين بعد ومن بعد في اللفظ القرآني لعلي هاني"
-    , sort_key = "من الفرق بين بعد ومن بعد في اللفظ القراني لعلي هاني"
+    , sort_key = "1436"
     ))
 
   resource_list.append(BibResource(
@@ -556,21 +575,21 @@ def populate_resource_list():
     , cit_type = "ar_ref"
     , cit_text = "[استيفاء حالات تعلق الجار والمجرور و الظرف وأثره في المعنى لعلي هاني]{.ar}"
     , bib_text = "استيفاء حالات تعلق الجار والمجرور و الظرف وأثره في المعنى لعلي هاني"
-    , sort_key = "استيفا حالات تعلق الجار والمجرور و الظرف واثره في المعنى لعلي هاني"
+    , sort_key = "1436"
     ))
   resource_list.append(BibResource(
     "ibn_qayyim_juyoosh"
     , cit_type = "ar_ref"
     , cit_text = "[اجتماع الجيوش الإسلامية لابن القيم]{.ar}"
     , bib_text = "اجتماع الجيوش الإسلامية لابن القيم  \n      " + format_url_ar("https://shamela.ws/book/18632/80")
-    , sort_key = "اجتماع الجيوش الاسلامية لابن القيم"
+    , sort_key = "0751"
     ))
   resource_list.append(BibResource(
     "ibn_3usfoor_sharh_jumal"
     , cit_type = "ar_ref"
     , cit_text = "[شرح جمل الزجاجي لابن عصفور]{.ar}"
     , bib_text = "الكتاب : شرح جمل الزجاجي تأليف : ابن عصفور الإشبيلي"
-    , sort_key = "شرح جمل الزجاجي لابن عصفور"
+    , sort_key = "0699"
     ))
   resource_list.append(BibResource(
     "farisi_idah"
@@ -582,7 +601,7 @@ def populate_resource_list():
       المحقق: د. حسن شاذلي فرهود (كلية الآداب - جامعة الرياض)  
       الطبعة: الأولى، ١٣٨٩ هـ - ١٩٦٩ م.  
       """ + format_url_ar("https://shamela.ws/book/20961")
-    , sort_key = "ايضاح للفارسي"
+    , sort_key = "0377"
     ))
   resource_list.append(BibResource(
     "shadi_ism_faa3il"
@@ -594,7 +613,7 @@ def populate_resource_list():
       رسالة درجة الماجستر  
       جامعة الشرق الأوسط  
       """
-    , sort_key = "دلالة سياق اسم الفاعل في الحديث النبوي الشريف صحيح مسلم"
+    , sort_key = "1433"
     ))
   resource_list.append(BibResource(
     "samarrai_jumlah"
@@ -627,7 +646,7 @@ def populate_resource_list():
       الناشر: دار الفكر - قم  
       الطبعة: الأولى، 1411 هـ  
       """ + format_url_ar("https://ketabonline.com/ar/books/16360")
-    , sort_key = "مختصر المعاني للتفتازاني"
+    , sort_key = "0793"
     ))
   resource_list.append(BibResource(
     "suyooti_ashbaah"
@@ -638,7 +657,7 @@ def populate_resource_list():
       المؤلف: جلال الدين عبد الرحمن السيوطي (ت ٩١١ هـ)  
       الناشر: دار الكتب العلمية  
       """ + format_url_ar("https://lib.eshia.ir/71585/1/2")
-    , sort_key = "اشباه والنظاير للسيوطي"
+    , sort_key = "0911"
     ))
   resource_list.append(BibResource(
     "hama3"
@@ -651,7 +670,7 @@ def populate_resource_list():
       الناشر: المكتبة التوفيقية - مصر  
       عدد الأجزاء: ٣  
       """ + format_url_ar("https://shamela.ws/book/6975")
-    , sort_key = "همع الهوامع في شرح جمع الجوامع للسيوطي"
+    , sort_key = "0911"
     ))
   resource_list.append(BibResource(
     "baseet_ibn_abi_rabee3"
@@ -661,7 +680,7 @@ def populate_resource_list():
       البسيط في شرح جُمَل الزجاجي
       ابن أبي الربيع
       """ + format_url_ar("https://archive.org/details/0969pdf_201912/")
-    , sort_key = "البسيط لابن ابي الربيع"
+    , sort_key = "0688"
     ))
   resource_list.append(BibResource(
     "su3ood_dameer_mustatir"
@@ -674,7 +693,7 @@ def populate_resource_list():
       جامعة أم القرى  
       ١٤٣٠ هـ - ٢٠٠٩ م
       """
-    , sort_key = "ضمير المستتر لسعود بن عبيد الله الصاعدي"
+    , sort_key = "1430"
     ))
 
   resource_list.append(BibResource(
@@ -689,7 +708,7 @@ def populate_resource_list():
       الطبعة: الأولى (١٤١٠ هـ - ١٩٩٠ م)  
       عدد الأجزاء: ٤  
       """ + format_url_ar("https://shamela.ws/book/13257")
-    , sort_key = "شرح التسهيل لابن مالك"
+    , sort_key = "0672"
     ))
   resource_list.append(BibResource(
     "ibn_aqil_musaa3id"
@@ -703,7 +722,7 @@ def populate_resource_list():
       الطبعة: الأولى، (١٤٠٠ - ١٤٠٥ هـ)  
       عدد الأجزاء: ٤  
       """ + format_url_ar("https://shamela.ws/book/133358")
-    , sort_key = "مساعد على تسهيل الفوايد لابن عقيل"
+    , sort_key = "0769"
     ))
   resource_list.append(BibResource(
     "sibawayhi"
@@ -717,7 +736,7 @@ def populate_resource_list():
       الطبعة: الثالثة، ١٤٠٨ هـ - ١٩٨٨ م  
       عدد الأجزاء: ٤  
       """ + format_url_ar("https://shamela.ws/book/23018")
-    , sort_key = "كتاب سيبويه"
+    , sort_key = "0180"
     ))
   resource_list.append(BibResource(
     "sirafi_sibawayhi"
@@ -731,7 +750,7 @@ def populate_resource_list():
       الطبعة: الأولى، ٢٠٠٨ م  
       عدد الأجزاء: ٥  
       """ + format_url_ar("https://shamela.ws/book/17726")
-    , sort_key = "شرح كتاب سيبويه للسيرافي"
+    , sort_key = "0368"
     ))
   resource_list.append(BibResource(
     "rummani_sibawayhi"
@@ -746,7 +765,7 @@ def populate_resource_list():
       عام: ١٤١٨ هـ - ١٩٩٨ م  
       عدد الصفحات: ١٠٧٣  
       """ + format_url_ar("https://shamela.ws/book/18282")
-    , sort_key = "شرح كتاب سيبويه للرماني"
+    , sort_key = "0384"
     ))
   resource_list.append(BibResource(
     "faarisi_sibawayhi"
@@ -759,7 +778,7 @@ def populate_resource_list():
       الطبعة: الأولى، ١٤١٠هـ - ١٩٩٠م  
       عدد الأجزاء: ٦  
       """ + format_url_ar("https://shamela.ws/book/13245")
-    , sort_key = "تعليقة"
+    , sort_key = "0377"
     ))
   resource_list.append(BibResource(
     "azhari_sharh_tasreeh"
@@ -772,7 +791,7 @@ def populate_resource_list():
       الطبعة: الأولى ١٤٢١هـ- ٢٠٠٠م  
       عدد الأجزاء: ٢  
       """ + format_url_ar("https://shamela.ws/book/9985")
-    , sort_key = "شرح التصريح على التوضيح"
+    , sort_key = "0905"
     ))
   resource_list.append(BibResource(
     "shatibi_sharf_alfiyyah"
@@ -785,7 +804,7 @@ def populate_resource_list():
       الطبعة: الأولى، ١٤٢٨ هـ - ٢٠٠٧ م.  
       عدد الأجزاء: ١٠ (الأخير فهارس)  
       """ + format_url_ar("https://shamela.ws/book/20562")
-    , sort_key = "شرح الفية ابن مالك للشاطبي"
+    , sort_key = "0790"
     ))
   resource_list.append(BibResource(
     "sharh_shudhoor_aldhahab"
@@ -800,7 +819,7 @@ def populate_resource_list():
       الطبعة: الأولى، ١٤٢٣ هـ/٢٠٠٤ م  
       عدد الأجزاء: ٢  
       """ + format_url_ar("https://shamela.ws/book/9134")
-    , sort_key = "شرح شذور الذهب للجوجري"
+    , sort_key = "0889"
     ))
   resource_list.append(BibResource(
     "sharh_ibn_naazim_alfiyyah"
@@ -814,7 +833,7 @@ def populate_resource_list():
       الطبعة: الأولى، ١٤٢٠ هـ - ٢٠٠٠ م  
       عدد الصفحات: ٦٢١  
       """ + format_url_ar("https://shamela.ws/book/18115")
-    , sort_key = "شرح ابن الناظم على الفية ابن مالك"
+    , sort_key = "0686"
     ))
   resource_list.append(BibResource(
     "sharh_qatr_alnada"
@@ -829,7 +848,7 @@ def populate_resource_list():
       طبع: مطبعة السعادة بمصر  
       عدد الصفحات: ٣٣٥  
       """ + format_url_ar("https://shamela.ws/book/6970")
-    , sort_key = "شرح قطر الندى وبل الصدى"
+    , sort_key = "0761"
     ))
   #resource_list.append(BibResource(
   #  "hama3"
@@ -856,7 +875,7 @@ def populate_resource_list():
       الطبعة: الأولى، ١٤٢٨ هـ  
       عدد الأجزاء: ١١ (متسلسلة الترقيم) (١٠ ومجلد للفهارس)  
       """ + format_url_ar("https://shamela.ws/book/16826")
-    , sort_key = "تمهيد القواعد بشرح تسهيل"
+    , sort_key = "0778"
     ))
   resource_list.append(BibResource(
     "mughni"
@@ -869,7 +888,7 @@ def populate_resource_list():
       الناشر: منشورات مكتبة الصادق للمطبوعات  
       عدد الأجزاء: ٢  
       """ + format_url_ar("https://ketabonline.com/ar/books/57084")
-    , sort_key = "مغني"
+    , sort_key = "0761"
     ))
   resource_list.append(BibResource(
     "ibn_malik_sharh_alkafiya"
@@ -883,7 +902,7 @@ def populate_resource_list():
       الطبعة: الأولى، ١٤٠٢ هـ - ١٩٨٢ م  
       عدد الأجزاء: ٥ (متسلسلة الترقيم) (الأخير فهارس)  
       """ + format_url_ar("https://shamela.ws/book/12024")
-    , sort_key = "شرح الكافية الشافية لابن مالك"
+    , sort_key = "0682"
     ))
   resource_list.append(BibResource(
     "ibn_alanbaari_mudhakkar"
@@ -898,7 +917,7 @@ def populate_resource_list():
       سنة النشر: ١٤٠١ هـ - ١٩٨١ م  
       عدد الأجزاء: ٢  
       """ + format_url_ar("https://shamela.ws/book/17819")
-    , sort_key = "مذكر والمونث لابن الانباري"
+    , sort_key = "0328"
     ))
   resource_list.append(BibResource(
     "seerah_ibn_hisham"
@@ -912,7 +931,7 @@ def populate_resource_list():
       الطبعة: الثانية، ١٣٧٥ هـ - ١٩٥٥ م  
       عدد الأجزاء: ٢  
       """ + format_url_ar("https://shamela.ws/book/23833")
-    , sort_key = "سيرة ابن هشام"
+    , sort_key = "0213"
     ))
   resource_list.append(BibResource(
     "maghazi_waqidi"
@@ -926,7 +945,7 @@ def populate_resource_list():
       (وصورته دور نشر مثل دار الأعلمي، وعالم الكتب)  
       عدد الأجزاء: ٣ (متسلسلة الترقيم)  
       """ + format_url_ar("https://shamela.ws/book/23680")
-    , sort_key = "مغازي الواقدي"
+    , sort_key = "0207"
     ))
   resource_list.append(BibResource(
     "tarikh_tabari"
@@ -943,7 +962,7 @@ def populate_resource_list():
       الطبعة: الثانية ١٣٨٧ هـ - ١٩٦٧ م  
       عدد الأجزاء: ١١  
       """ + format_url_ar("https://shamela.ws/book/9783")
-    , sort_key = "تاريخ الطبري"
+    , sort_key = "0310"
     ))
   resource_list.append(BibResource(
     "sharh_ashmooni"
@@ -956,7 +975,7 @@ def populate_resource_list():
       الطبعة: الأولى ١٤١٩هـ- ١٩٩٨مـ  
       عدد الأجزاء: ٤  
       """ + format_url_ar("https://shamela.ws/book/11742")
-    , sort_key = "شرح الاشمونى لافية ابن مالك"
+    , sort_key = "0900"
     ))
   resource_list.append(BibResource(
     "aljani_aldani"
@@ -969,7 +988,7 @@ def populate_resource_list():
       الناشر: دار الكتب العلمية، بيروت - لبنان  
       الطبعة: الأولى، ١٤١٣ هـ - ١٩٩٢ م  
     """ + format_url_ar("https://shamela.ws/book/26099")
-    , sort_key = "جنى الداني"
+    , sort_key = "0749"
     ))
   resource_list.append(BibResource(
     "irtishaaf"
@@ -984,7 +1003,7 @@ def populate_resource_list():
       الطبعة: الأولى، ١٤١٨ هـ - ١٩٩٨ م  
       عدد الأجزاء: ٥ (متسلسلة الترقيم)  
     """ + format_url_ar("https://shamela.ws/book/16595")
-    , sort_key = "ارتشاف الضرب من لسان العرب"
+    , sort_key = "0745"
     ))
   resource_list.append(BibResource(
     "mu3allimi"
@@ -999,7 +1018,7 @@ def populate_resource_list():
       الناشر: دار عالم الفوائد للنشر والتوزيع  
       الطبعة: الأولى، ١٤٣٤ هـ  
       """ + format_url_ar("https://shamela.ws/book/328")
-    , sort_key = "تحقيق الكلام في المسايل الثلاث ضمن اثار المعلمي"
+    , sort_key = "1386"
     ))
   resource_list.append(BibResource(
     "utheymeen_alfiyyah"
@@ -1011,7 +1030,7 @@ def populate_resource_list():
       مصدر الكتاب: دروس صوتية قام بتفريغها موقع الشبكة الإسلامية  
       http://www.islamweb.net  
       """ + format_url_ar("https://shamela.ws/book/36954")
-    , sort_key = "شرح الفية ابن مالك للعثيمين"
+    , sort_key = "1421"
     ))
   resource_list.append(BibResource(
     "farraa"
@@ -1023,7 +1042,7 @@ def populate_resource_list():
       المحقق: أحمد يوسف النجاتي - محمد علي النجار [ت ١٣٨٥ هـ]- عبد الفتاح إسماعيل الشلبي  
       الناشر: دار المصرية للتأليف والترجمة - مصر  
       """ + format_url_ar("https://shamela.ws/book/23634")
-    , sort_key = "معاني القران"
+    , sort_key = "0207"
     ))
   resource_list.append(BibResource(
     "afghani"
@@ -1035,7 +1054,7 @@ def populate_resource_list():
       الناشر: مكتبة الفلاح  
       عدد الصفحات: ٢١٤  
       """ + format_url_ar("https://shamela.ws/book/9937")
-    , sort_key = "من تاريخ النحو العربي لسعيد الافعاني"
+    , sort_key = "1417"
     ))
   resource_list.append(BibResource(
     "haazimi"
@@ -1045,7 +1064,7 @@ def populate_resource_list():
       الكتاب: شرح ألفية ابن مالك  
       المؤلف: أبو عبد الله، أحمد بن عمر بن مساعد الحازمي  
       """ + format_url_ar("https://shamela.ws/book/36130")
-    , sort_key = "شرح الفية ابن مالك للحازمي"
+    , sort_key = "1430"
     ))
   resource_list.append(BibResource(
     "hayyani_jam3_masdar"
@@ -1056,7 +1075,7 @@ def populate_resource_list():
       المؤلف: عبد الله محمد عبد الله حياني  
       الناشر: مجلة العلوم العربية، العدد ٧٥، ١٤٤٦هـ، الجزء الثاني  
       """ + format_url_ar("https://imamjournals.org/index.php/jas/article/view/3160")
-    , sort_key = "جمع المصدر واحكامه لحياني"
+    , sort_key = "1446"
     ))
   resource_list.append(BibResource(
     "faaridi_alfiyyah"
@@ -1070,7 +1089,7 @@ def populate_resource_list():
       الطبعة: الأولى، ١٤٣٩ هـ - ٢٠١٨ م  
       عدد الأجزاء: ٤  
       """ + format_url_ar("https://shamela.ws/book/174")
-    , sort_key = "شرح الفارضي على الفية ابن مالك"
+    , sort_key = "0981"
     ))
   resource_list.append(BibResource(
     "qiyaas_amsha"
@@ -1080,7 +1099,7 @@ def populate_resource_list():
       الكتاب: القياس النحوي  
       المؤلف: لخالد حسين ابو عمشة  
       """ + format_url_ar("https://ketabonline.com/ar/books/97698")
-    , sort_key = "القياس النحوي لخالد حسين ابو عمشة"
+    , sort_key = "1436"
     ))
   resource_list.append(BibResource(
     "qiyaas_husain"
@@ -1092,7 +1111,7 @@ def populate_resource_list():
       الناشر: المطبعة السلفية، القاهرة  
       الطبعة: ١٣٥٣ هـ - ١٩٣٥ م  
       """
-    , sort_key = "القياس في اللغة العربية لمحمد الخضر حسين"
+    , sort_key = "1353"
     ))
   resource_list.append(BibResource(
     "intisaar_ibn_walaad"
@@ -1106,7 +1125,7 @@ def populate_resource_list():
       الطبعة: الأولى، ١٤١٦ هـ - ١٩٩٦ م  
       عدد الصفحات: ٢٧١  
       """ + format_url_ar("https://shamela.ws/book/29555")
-    , sort_key = "الانتصار لسيبويه على المبرد لابن ولاد"
+    , sort_key = "0332"
     ))
   resource_list.append(BibResource(
     "insaaf_anbari"
@@ -1120,7 +1139,7 @@ def populate_resource_list():
       الطبعة: الأولى ١٤٢٤ هـ - ٢٠٠٣ م  
       عدد الأجزاء: ٢  
       """ + format_url_ar("https://shamela.ws/book/7362")
-    , sort_key = "انصاف للانباري"
+    , sort_key = "0577"
     ))
   resource_list.append(BibResource(
     "shawahid_tawdeeh"
@@ -1134,7 +1153,7 @@ def populate_resource_list():
       الطبعة: الأولى، ١٤٠٥ هـ  
       عدد الصفحات: ٢٨٣  
       """ + format_url_ar("https://shamela.ws/book/98123")
-    , sort_key = "شواهد التوضيح"
+    , sort_key = "0672"
     ))
   resource_list.append(BibResource(
     "idah_qazwini"
@@ -1148,7 +1167,7 @@ def populate_resource_list():
       الطبعة: الثالثة  
       عدد الأجزاء: ٣  
       """ + format_url_ar("https://shamela.ws/book/7380")
-    , sort_key = "ايضاح في علوم البلاغة للقزويني"
+    , sort_key = "0739"
     ))
   resource_list.append(BibResource(
     "3aarif_zaman"
@@ -1159,7 +1178,7 @@ def populate_resource_list():
       المؤلفون: عارف الدين عارف الدين، شمس الهادي ، سوهاندانو سوهاندانو  
       الناشر:  مجلة دراسات: العلوم الإنسانية والاجتماعية،  الجامعة الأردنية, ٢٠٢٢
       """ + format_url_ar("https://doi.org/10.35516/hum.v49i3.1333")
-    , sort_key = "تاويل الزمني للجملة الشرطية في اللغة العربية"
+    , sort_key = "1443"
     ))
   resource_list.append(BibResource(
     "sharh_muqaddimah_babashaadh"
@@ -1173,7 +1192,7 @@ def populate_resource_list():
       الطبعة: الأولى، ١٩٧٧ م  
       عدد الأجزاء: ٢ (متسلسلة الترقيم)  
       """ + format_url_ar("https://shamela.ws/book/18278")
-    , sort_key = "شرح المقدمة المحسبة لابن بابشاذ"
+    , sort_key = "0469"
     ))
   resource_list.append(BibResource(
     "husain_hadith"
@@ -1188,7 +1207,7 @@ def populate_resource_list():
       الطبعة: الأولى، ١٤٣١ هـ - ٢٠١٠ م  
       عدد الأجزاء: ١٥  
       """ + format_url_ar("https://shamela.ws/book/14579")
-    , sort_key = "استشهاد بالحديث في اللغة لمحمد الخضر حسين"
+    , sort_key = "1377"
     ))
   resource_list.append(BibResource(
     "earanjiyyah"
@@ -1200,15 +1219,15 @@ def populate_resource_list():
       الناشر: مؤسسة التكوين
       الطبعة: الأولى، ١٤٤٣ هـ - ٢٠٢١ م  
       """ + format_url_ar("https://archive.org/details/0_20240122_20240122_1346/page/n1/mode/2up")
-    , sort_key = "عرنجية"
+    , sort_key = "1443"
     ))
   resource_list.append(BibResource(
     "iqtiran"
     , cit_type = "ar_ref"
     , cit_text = "[اقتران الفاء في جواب الشرط وعدمها في التعبير القراني]{.ar}"
     , bib_text = """
-المقالة: اقتران الفاء في جواب الشرط وعدمها في التعبير القراني
-المؤلفان: عناد مخلف مهبش الهيتي، قصي جدوع رضا الهيتي
+      المقالة: اقتران الفاء في جواب الشرط وعدمها في التعبير القراني  
+      المؤلفان: عناد مخلف مهبش الهيتي، قصي جدوع رضا الهيتي  
       """ + format_url_ar("https://www.researchgate.net/publication/333642765_aqtran_alfa_fy_jwab_alshrt_wdmha_fy_altbyr_alqrany")
     , sort_key = "قتران"
     ))
@@ -1235,7 +1254,7 @@ def populate_resource_list():
       الناشر: مطابع الدجوى عابدين  
       الطبعة: الأولى، ١٤٠١ هـ - ١٩٨١ م    
       """ + format_url_ar("https://archive.org/details/aljomla-ashrtia.g")
-    , sort_key = "جملة الشرطية عند"
+    , sort_key = "1401"
     ))
   resource_list.append(BibResource(
     "rasaif"

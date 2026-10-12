@@ -256,9 +256,11 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
 
 %    % Basrah
-    \person{7.5}{69}{above}{south}{27}{-26}{[Abu l‑Aswad al‑Duʾalī (\textsc{b})]}
-    \person{7.5}{149}{right}{west}{-20}{14}{[Ɛīsā b. Ɛumar (\textsc{b})]}
-    \person{7.5}{182}{right}{west}{-20}{7}{[Yūnus b. Ḥabīb (\textsc{b})]}
+    \person{7.5}{69}{above}{south}{-7}{-20}{[Abu l‑Aswad al‑Duʾalī (\textsc{b})]}
+    \person{7.5}{117}{right}{west}{-20}{16}{[Ɛabd Allāh b. Abī Is·ḥāq (\textsc{b})]}
+    \person{7.5}{154}{right}{west}{-20}{14}{[Abū Ɛamr b. al-Ɛalāʾ (\textsc{b})]}
+    %\person{7.5}{149}{right}{west}{-20}{14}{[Ɛīsā b. Ɛumar (\textsc{b})]}
+    %\person{7.5}{182}{right}{west}{-20}{7}{[Yūnus b. Ḥabīb (\textsc{b})]}
     \person{7.5}{170}{right}{west}{-20}{11}{al-K͡halīl (\textsc{b})}
     \person{7.5}{180}{right}{west}{-20}{-4}{Sībawayh (\textsc{b})}
     %\draw [dashed, ->, -{Latex}] (8.5,170) -- (7.5, 180);
@@ -282,10 +284,10 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \person{6.5}{384}{left} {east}{ 16}{-15}{al-Rummānī}
     \person{6.5}{392}{left} {east}{ 16}{-19}{Ibn Jinnī}
     \person{6.5}{577}{right} {west}{-16}{-1}{Abu l-Barakāt al-Anbārī}
-    %\person{5.5}{684}{right} {west}{-16}{-9}{al-Raḍiyy al-Astarābād͡hī}
+    %\person{5.5}{684}{right} {west}{-16}{-9}{al-Rad̤͡hiyy al-Astarābād͡hī}
 
     % Hijaz
-    \person{4.5}{684}{right} {west}{-15}{-10}{al-Raḍiyy al-Astarābād͡hī}
+    \person{4.5}{684}{right} {west}{-15}{-10}{al-Rad̤͡hiyy al-Astarābād͡hī}
     \draw [dashed, ->, -{Latex}] (8.5,664) -- (4.5, 684);
 
     % Syria
@@ -310,7 +312,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \person{8.5}{395}{left} {east}{ 20}{-12}{Ibn Fāris}
 
     % Andalus
-    \person{0.5}{592}{left}{east}{16}{-9}{Ibn Maḍāʾ}
+    \person{0.5}{592}{left}{east}{16}{-9}{Ibn Mad̤͡hāʾ}
     \person{0.5}{790}{below}{north}{-13}{22}{Abū Is·ḥāq al-S͡hāṭibī}
     \person{0.5}{645}{left}{east}{24}{-3}{al-S͡halawbīn}
 

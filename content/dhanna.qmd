@@ -2,8 +2,6 @@
 
 # [ظَنَّ]{.ar} and its sisters
 
-ta3leeq, ilghaa2: Peled <https://www.academia.edu/101820592/Amal_and_ibtid%C4%81_in_Medieval_Arabic_Grammatical_Tradition>
-
 
 ::: {.callout-warning}
 **THIS BOOK IS A WORK IN PROGRESS. IT IS INCOMPLETE AND MAY HAVE TYPOGRAPHICAL AND OTHER ERRORS.
@@ -13,4 +11,282 @@ IT IS NOT YET READY TO BE STUDIED FROM.**
 
 ## Introduction
 
-The basic nounal sentence consists of a subject and a info
+There are some verbs that,
+in addition to a doer,
+also
+generally require two direct doees.
+[ظَنَّ]{.ar} is one of these verbs.
+For example:
+
+(@) [ظَنَنْتُ زَيْدًا أَخَاكَ]{.ar}
+    [Peled, _Sentence types_ 188]{.citex}  
+    [I thought Zayd to be your brother.]{.trans}  
+
+There are other verbs similar to [ظَنَّ]{.ar}.
+We will study them collectively as "[ظَنَّ]{.ar} and its sisters."
+
+## The lean of the [ظَنَّ]{.ar} sentence
+
+The basic nounal sentence consists of a subject and a info.
+For example:
+
+(@) [زَيْدٌ أَخُوكَ]{.ar}  
+    [Zayd is your brother.]{.trans}  
+
+In example () above,
+[زَيْدٌ]{.ar}
+is the subject
+and
+[أَخُوكَ]{.ar}
+is its info.
+Both are in the u-case because it is a basic nounal sentence.
+In terms of its lean,
+[زَيْدٌ]{.ar}
+is the leaned-against element
+and
+[أَخُوكَ]{.ar}
+is the leaning element.
+(Technically, the leaning element is [أَخ]{.ar}. And it in turn is a annexed noun to the annexed-to noun [كَ]{.ar}.
+But loosely speaking, we can say that the leaning element is the bundled [أَخُوكَ]{.ar}.)
+With the leaned-against element and the leaning element in place, the sentence is leaned.
+
+Now consider the following sentence:
+
+(@) [ظَنَنْتُ زَيْدًا أَخَاكَ]{.ar}
+    [Peled, _Sentence types_ 188]{.citex}  
+    [I thought Zayd to be your brother.]{.trans}  
+
+In example () above,
+the verb [ظَنَّ]{.ar}
+takes the subject and info of example (),
+and makes them into direct doees.
+The verb [ظَنَّ]{.ar}
+requires a doer (as usual),
+which is the pronoun [تُ]{.ar} [I]{.trans}.
+And it also requires two direct doees:
+[زَيْدًا]{.ar}
+is the first direct doee
+and
+[أَخَاكَ]{.ar}
+is the second direct doee.
+
+This sentence is peculiar in its lean.
+This is because the indispensable elements are the two direct doees.
+[زَيْدًا]{.ar}
+is the leaned-against element
+and
+[أَخَاكَ]{.ar}
+is the leaning element.^[[البسيط لابن أبي الربيع]{.ar} 433]
+The sentence is only leaned when both direct doees are in place.
+Unlike normal verbal sentences,
+the verb [ظَنَّ]{.ar} and its doer are not the indispensable elements of the sentence.
+Rather [ظَنَّ]{.ar} is the foundational government.
+Figure () depicts the government of example ().
+
+DIAGRAM
+
+If one or both of the direct doees are missing,
+then the sentence is not (generally) sufficiently leaned:
+
+(@) ✗ [ظَنَنْتُ زَيْدًا]{.ar}  
+    [I thought Zayd]{.trans}  
+
+(@) ✗ [ظَنَنْتُ]{.ar}  
+    [I thought]{.trans}  
+
+In examples () and () above, depending on context,
+the listener may be left wondering,
+"You thought Zayd to be what?"
+and
+"You thought what?",
+respectively.
+However, as we will see in the examples, sometimes, some of these verbs
+that fall in [ظَنَّ]{.ar} and its sisters
+don't require two direct doees.
+In which cases the sentence will be leaned without them.
+
+Parallels of the lean of the [ظَنَّ]{.ar} sentence
+may be found in the [كَانَ]{.ar} and [إِنَّ]{.ar} sentences:
+
+(@) [كَانَ زَيْدٌ أَخَاكَ]{.ar}
+    [Peled, _Sentence types_ 188]{.citex}  
+    [Zayd was your brother.]{.trans}  
+    ([زَيْدٌ]{.ar}, the doer/subject, is the leaned-against element.
+    [أَخَاكَ]{.ar}, the direct doee/info, is the leaning element.
+    [كَانَ]{.ar} is the foundational government.)
+
+
+(@) [إِنَّ زَيْدًا أَخُوكَ]{.ar}
+    [Peled, _Sentence types_ 188]{.citex}  
+    [Indeed Zayd is your brother.]{.trans}  
+    ([زَيْدًا]{.ar}, the subject, is the leaned-against element.
+    [أَخُوكَ]{.ar}, the info, is the leaning element.
+    [إِنَّ]{.ar} is the foundational government.)
+
+Similar to (deficient) [كَانَ]{.ar} sentences,
+the [ظَنَّ]{.ar} sentence may be categorized as a verbal sentence.
+And, like in the case of deficient [كَانَ]{.ar},
+the verb and its doer don't make the sentence leaned.
+
+
+
+## Categories of [ظَنَّ]{.ar} and its sisters
+
+There are many verbs that behave similar to [ظَنَّ]{.ar},
+in that they require two direct doees.
+
+In this chapter, we will refer to the first direct doee,
+(the one which is the subject in the basic nounal sentence)
+as _x_.
+And we will refer to the second direct doee,
+(the one which is the info in the basic nounal sentence)
+as _y_.
+
+These verbs constituting [ظَنَّ]{.ar} and its sisters may be sub-categorized into:
+
+1. *Verbs of perception*. These verbs indicate that the doer believes the first direct doee to be something that is indicated by the second direct doee.
+   For example:
+   [ظَنَّ]{.ar} [to think, conjecture _x_ to be _y_]{.trans},
+   [عَلِمَ]{.ar} [to know _x_ to be _y_]{.trans},
+   [حَسِبَ]{.ar} [to deem, reckon _x_ to be _y_]{.trans},
+   [خَالَ]{.ar} [to imagine _x_ to be _y_]{.trans},
+   [زَعَمَ]{.ar} [to claim _x_ to be _y_]{.trans},
+   [رَأَىٰ]{.ar} [to opine _x_ to be _y_]{.trans},
+   and more.
+
+2. *Verbs of rendering*. These verbs indicate that the doer changes or leaves the direct doee in a state that is indicated by the second direct doee.
+   For example:
+   [صَيَّرَ]{.ar} [to make _x_ become _y_]{.trans},
+   [اتَّخَذَ]{.ar} [to take _x_ for oneself as _y_]{.trans},
+   [تَرَكَ]{.ar} [to leave _x_ as _y_]{.trans},
+   [جَعَلَ]{.ar} [to make _x_ into _y_]{.trans},
+   and more.
+
+Some verbs, like [جَعَلَ]{.ar} can fall into both categories, where [جَعَلَ]{.ar} can also mean [to believe _x_ to be _y_]{.trans}, in addition to [to make _x_ into _y_]{.trans}.
+
+We will discuss these verbs individually in section\ () below.
+
+## [ظَنَّ]{.ar} and its sisters in passive voice
+
+When [ظَنَّ]{.ar} and its sisters are used in the passive voice,
+the first direct doee
+(the one which is the subject in the basic nounal sentence)
+is made the deputy doer in the u-case.
+And the second direct doee
+(the one which is the info in the basic nounal sentence)
+remains a direct doee in the a-case.
+So, example () above, becomes in the passive voice:
+
+(@) [ظُنَّ زَيْدٌ أَخَاكَ]{.ar}  
+    [Zayd was thought to be your brother.]{.trans}
+
+Similarly,
+
+(@) [زَيْدٌ مَظْنُونٌ شُجَاعًا]{.ar}
+    [Wright 2/52D]{.citex}  
+    [Zayd is thought to be brave.]{.trans}  
+
+## Example sentences of [ظَنَّ]{.ar} and its sisters
+
+### [ظَنَّ]{.ar} {.unnumbered}
+
+The basic meaning of [ظَنَّ]{.ar} is to believe,
+with a variable range of conviction,
+_x_ to be _y_.
+Due to the conjectural nature of this meaning,
+it can be used in a range of circumstances from
+where its doer believes something to be certain,
+to cases where he is doubtful.
+
+Here are some examples:
+
+(@) [وَإِنِّی لَأَظُنُّكَ یَـٰفِرۡعَوۡنُ مَثۡبُورࣰا]{.quran}
+    [[[سورة الإسراء]{.ar} 17:102](https://quran.com/17/102) cited by [النحو العربي: أحكام ومعان]{.ar} 1/331]{.citex}  
+    [and indeed I think, O Pharaoh, that you are destroyed.]{.trans}  
+
+(@) [قُلۡتُم مَّا نَدۡرِی مَا ٱلسَّاعَةُ إِن نَّظُنُّ إِلَّا ظَنࣰّا وَمَا نَحۡنُ بِمُسۡتَیۡقِنِینَ]{.quran}
+    [[[سورة الجاثية]{.ar} 45:32](https://quran.com/45/32) cited by [النحو العربي: أحكام ومعان]{.ar} 1/331]{.citex}  
+    [you said, 'We know not what is the Hour. We assume only assumption, and we are not convinced.']{.trans}  
+
+(@) [ظَنَنْتُكَ إِنْ شَبَّتْ لَظَى الْحَرْبِ صَالِيًا]{.ar}
+    [cited by [النحو العربي: أحكام ومعان]{.ar} 1/331]{.citex}  
+    [I thought you, if the blaze of war is kindled, to be entering (therein)]{.trans}  
+
+[ظَنَّ]{.ar} following examples is interpreted to have certainty in its meaning:
+
+(@) [قَالَ ٱلَّذِینَ یَظُنُّونَ أَنَّهُم مُّلَـٰقُوا۟ ٱللَّهِ كَم مِّن فِئَةࣲ قَلِیلَةٍ غَلَبَتۡ فِئَةࣰ كَثِیرَةَۢ بِإِذۡنِ ٱللَّهِۗ وَٱللَّهُ مَعَ ٱلصَّـٰبِرِینَ]{.quran}^[See [[تفسير ابن عثيمين]{.ar} for [سورة البقرة]{.ar} 2:249](https://tafsir.app/ibn-uthaymeen/2/249)]
+    [[[سورة البقرة]{.ar} 2:249](https://quran.com/2/249) cited by [النحو العربي: أحكام ومعان]{.ar} 1/332]{.citex}  
+    [But those who were certain that they would meet Allāh said, "How many a small company has overcome a large company by permission of Allāh. And Allāh is with the patient."]{.trans}
+
+(@) [إِنِّی ظَنَنتُ أَنِّی مُلَـٰقٍ حِسَابِیَهۡ]{.quran}
+    [[[سورة الحاقة]{.ar} 69:20](https://quran.com/69/20) cited by [النحو العربي: أحكام ومعان]{.ar} 1/332]{.citex}  
+    [Indeed, I was certain that I would be meeting my account."]{.trans}  
+
+(@) [وَرَءَا ٱلۡمُجۡرِمُونَ ٱلنَّارَ فَظَنُّوۤا۟ أَنَّهُم مُّوَاقِعُوهَا وَلَمۡ یَجِدُوا۟ عَنۡهَا مَصۡرِفࣰا]{.quran}^[See [[تفسير ابن عثيمين]{.ar} for [سورة الكهف]{.ar} 18:53](https://tafsir.app/ibn-uthaymeen/18/53)]
+    [[[سورة الكهف]{.ar} 18:53](https://quran.com/18/53) cited by [النحو العربي: أحكام ومعان]{.ar} 1/332]{.citex}  
+    [And the criminals will see the Fire and will be certain that they are to fall therein. And they will not find from it a way elsewhere.]{.trans}  
+
+[ظَنَّ]{.ar} can also have the meaning of [to suspect (someone)]{.trans}.
+With this meaning, it is no longer a verb of perception,
+and will only need one direct doee.
+For example:
+
+(@) [ظَنَّ القَاضِي فُلَانًا]{.ar}
+    [[النحو العربي: أحكام ومعان]{.ar} 1/331]{.citex}  
+    [The judge suspected so-and-so.]{.trans}  
+
+### [عَلِمَ]{.ar} {.unnumbered}
+
+[عَلِمَ]{.ar} means [to know]{.trans}.
+Examples:
+
+(@) [عَلِمْتُكَ الْبَاذِلَ الْمَعْرُوفَ]{.ar}
+    [Wright 2/49B]{.citex}  
+    [I have known you to be liberal in the exercise of bounty.]{.trans}  
+
+(@) [فَإِنۡ **عَلِمۡتُمُوهُنَّ مُؤۡمِنَـٰتࣲ** فَلَا تَرۡجِعُوهُنَّ إِلَى ٱلۡكُفَّارِۖ]{.quran}
+    [[[سورة الممتحنة]{.ar} 60:10](https://quran.com/60/10) cited by [النحو العربي: أحكام ومعان]{.ar} 1/325]{.citex}  
+    [And if **you know them to be believers**, then do not return them to the disbelievers;]{.trans}  
+
+When [عَلِمَ]{.ar} has only the meaning
+[to know (something)]{.trans}
+and not
+[to know (something) to be (something)]{.trans}
+then it may take only one direct doee.
+For example:
+
+(@) [وَٱللَّهُ أَخۡرَجَكُم مِّنۢ بُطُونِ أُمَّهَـٰتِكُمۡ **لَا تَعۡلَمُونَ شَیۡـࣰٔا**]{.quran}
+    [[[سورة النحل]{.ar} 16:78](https://quran.com/16/78) cited by [النحو العربي: أحكام ومعان]{.ar} 1/236]{.citex}  
+    [And Allāh has extracted you from the wombs of your mothers **not knowing a thing**]{.trans}  
+
+(@) [لَقَدْ **عَلِمْتُ النَّظَائِرَ** الَّتِي كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَقْرَأُ بِهِنَّ سُورَتَيْنِ فِي رَكْعَةٍ]{.ar}
+    [[[صحيح مسلم]{.ar} :822e](https://sunnah.com/muslim:822e)]{.citex}  
+    [**I know the manners** in which the Messenger of Allāh [ﷺ]{.areng} recited two [sUrah]{.trn2}s in one [rakeah]{.trn2}.]{.trans}  
+
+### [رَأَىٰ]{.ar} {.unnumbered}
+
+
+## Second direct doee can be a prepositional phrase or sentence
+
+baseet 443
+
+(@) [مَا عَلِمْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم نَكَحَ شَيْئًا مِنْ نِسَائِهِ وَلاَ أَنْكَحَ شَيْئًا مِنْ بَنَاتِهِ عَلَى أَكْثَرَ مِنْ ثِنْتَىْ عَشْرَةَ أُوقِيَّةً]{.ar}
+    [[[جامع الترمذي]{.ar} :1114b](https://sunnah.com/tirmidhi:1114b)]{.citex}  
+
+[[صحيح مسلم]{.ar} :1156b](https://sunnah.com/muslim:1156b)
+
+## one maful 
+
+baseet 445ff
+
+## No maful?
+
+[إن هم إلا يظنون]{.ar}
+
+[إن ظن خيرا]{.ar}
+
+## Suspension of government
+
+## Cancelation of government
+
+Peled, "ʿAmal and ʾibtidāʾ in medieval Arabic grammatical tradition"
