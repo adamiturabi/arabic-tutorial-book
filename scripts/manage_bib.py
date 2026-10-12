@@ -54,7 +54,7 @@ def get_bib_str():
 
 # References {.unnumbered #chap-references}
 
-Arabic works are sorted according to first date of publication, or by year of death of the author.
+Arabic works are sorted according more or less chronologically.
 Western works are sorted according to author last name and occur after the Arabic works.
 
 """
