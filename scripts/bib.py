@@ -1684,6 +1684,14 @@ def populate_resource_list():
 """
     , sort_key = "holes 2018"
     ))
+  resource_list.append(BibResource(
+    "peled_3amal"
+    , cit_type = "ws_ref"
+    , cit_text = 'Peled, "ʿAmal and ʾibtidāʾ in medieval Arabic grammatical tradition"'
+    , bib_text = """Peled, Y., "ʿAmal and ʾibtidāʾ in medieval Arabic grammatical tradition", _Ancient Near Eastern Studies_, vol.\\ 30, pp.\\ 146--171, 1992. <https://doi.org/10.2143/ANES.30.0.525729>
+"""
+    , sort_key = "peled 1992"
+    ))
 
   return resource_list
 
