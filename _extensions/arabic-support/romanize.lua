@@ -123,7 +123,23 @@ function romanize.RomanizeMapping(text2, is_italic)
         end
         caps = false
       else
-        if digraph_en and (charv == 'h' or charv == 'H') and prev_charv ~= '=' and (prev_charv == 't' or prev_charv == 's' or prev_charv == 'k' or prev_charv == 'd' or prev_charv == 'p' or prev_charv == 'P' or prev_charv == 'D' or prev_charv == 'c' or prev_charv == 'v' or prev_charv == 'x' or prev_charv == 'g') then
+        if digraph_en and (charv == 'h' or charv == 'H') and prev_charv ~= '=' and
+            (prev_charv == 't' -- t·h
+          or prev_charv == 'v' -- t͡h·h
+          or prev_charv == 'T' -- ṭ·h
+          or prev_charv == 's' -- s·h
+          or prev_charv == 'c' -- s͡h·h
+          or prev_charv == 'S' -- ṣ·h
+          or prev_charv == 'd' -- d·h
+          or prev_charv == 'p' -- d͡h·h
+          or prev_charv == 'P' -- ḍ͡h·h
+          or prev_charv == 'D' -- d̤͡h·h
+          or prev_charv == 'k' -- k·h
+          or prev_charv == 'x' -- k͡h·h
+          or prev_charv == 'g' -- g͡h·h
+          or (prev_charv == 'H' and charv == 'h') -- ḥ·h
+          or (prev_charv == 'h' and charv == 'H') -- h·ḥ
+          ) then
           text3 = text3 .. "·"
         end
         if mylcase[charv] == nil then
