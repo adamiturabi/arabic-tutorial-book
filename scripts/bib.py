@@ -1711,9 +1711,12 @@ def populate_resource_list():
 """
     , sort_key = "peled 1992"
     ))
+
+  return resource_list
+
 #"Druel, J. N., _Numerals in Arabic grammatical theory: An impossible quest for consistency?_"
 #"K. Versteegh, Freedom of the Speaker?: The Term Ittisā' and Related Notions in Arabic Grammar"
 #"Kasher, Semantic and Formal Underlying Levels in Arabic Grammatical Tradition: The Case of Exceptive Sentences"
 #"Kasher Aspects of syntactic effect (ʿamal) in Arabic grammatical tradition: The term šuġl in Sībawayhi's al-Kitāb and beyond"
-  return resource_list
+# Abdelkader Fassi Fehri, Number and Gender Convergence: The Arabic Plurative
 
