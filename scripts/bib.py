@@ -1707,13 +1707,21 @@ def populate_resource_list():
     "peled_3amal"
     , cit_type = "ws_ref"
     , cit_text = 'Peled, "ʿAmal and ʾibtidāʾ in medieval Arabic grammatical tradition"'
-    , bib_text = """Peled, Y., "ʿAmal and ʾibtidāʾ in medieval Arabic grammatical tradition", _Ancient Near Eastern Studies_, vol.\\ 30, pp.\\ 146--171, 1992. <https://doi.org/10.2143/ANES.30.0.525729>
-"""
+    , bib_text = """Peled, Y., "ʿAmal and ʾibtidāʾ in medieval Arabic grammatical tradition", _Ancient Near Eastern Studies_, vol.\\ 30, pp.\\ 146--171, 1992. <https://doi.org/10.2143/ANES.30.0.525729>"""
     , sort_key = "peled 1992"
     ))
+  resource_list.append(BibResource(
+    "hassan_tense_aspect"
+    , cit_type = "ws_ref"
+    , cit_text = 'Hassan, _A contrastive study of tense and aspect in English and Arabic with special reference to translation_'
+    , bib_text = """Hassan, H. M., _A contrastive study of tense and aspect in English and Arabic with special reference to translation_, Doctoral Thesis, University of Bath, 1990. <https://researchportal.bath.ac.uk/files/240179816/H_M_Hassan_thesis.pdf>"""
+    , sort_key = "hassan 1990"
+    ))
+  return resource_list
+
 #"Druel, J. N., _Numerals in Arabic grammatical theory: An impossible quest for consistency?_"
 #"K. Versteegh, Freedom of the Speaker?: The Term Ittisā' and Related Notions in Arabic Grammar"
 #"Kasher, Semantic and Formal Underlying Levels in Arabic Grammatical Tradition: The Case of Exceptive Sentences"
 #"Kasher Aspects of syntactic effect (ʿamal) in Arabic grammatical tradition: The term šuġl in Sībawayhi's al-Kitāb and beyond"
-  return resource_list
-
+# Abdelkader Fassi Fehri, Number and Gender Convergence: The Arabic Plurative
+# Less Familiar Types of ʾan according to Arabic Grammarians Arik Sadan

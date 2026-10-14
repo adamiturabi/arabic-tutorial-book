@@ -272,6 +272,8 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \draw [dashed, ->, -{Latex}] (5.5,179) -- (6.5, 189);
     \person{6.5}{207}{left} {east}{ 16}{-2}{al-Farrāʾ (\textsc{k})}
     \draw [dashed, ->, -{Latex}] (5.5,197) -- (6.5, 207);
+    \person{5.25}{684}{right} {west}{-15}{-10}{al-Rad̤͡hiyy al-Astarābād͡hī}
+    \draw [dashed, ->, -{Latex}] (8.5,664) -- (5.25, 684);
 
     % Baghdad
     \draw [dashed, ->, -{Latex}] (7.5,270) -- (6.5, 285);
@@ -287,8 +289,8 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     %\person{5.5}{684}{right} {west}{-16}{-9}{al-Rad̤͡hiyy al-Astarābād͡hī}
 
     % Hijaz
-    \person{4.5}{684}{right} {west}{-15}{-10}{al-Rad̤͡hiyy al-Astarābād͡hī}
-    \draw [dashed, ->, -{Latex}] (8.5,664) -- (4.5, 684);
+    %\person{4.5}{684}{right} {west}{-15}{-10}{al-Rad̤͡hiyy al-Astarābād͡hī}
+    %\draw [dashed, ->, -{Latex}] (8.5,664) -- (4.5, 684);
 
     % Syria
     \person{3.5}{643}{right} {west}{-16}{3}{Ibn Yaɛīs͡h}
@@ -1554,8 +1556,8 @@ attempting to interpret rare and ;shaadh;s through ;taqdiring;^[@qiyaas_husain@ 
 so that most everything aligned with a minimal set of basic grammatical principles.
 Both, however, as a general rule, accepted the ;shaadh; as valid ;samaa3;.
 The ;kufan;s are also thought to be more grounded in that they tried to stay
-closer to ;surfsp;,
-rather than venturing into too much ;taqdiring;.
+closer to ;samaa3;,
+rather than venturing into too much ";3illah; hunting" like the ;basran;s.^[@hassan_tense_aspect@ 109]
 
 Generally speaking,
 the ;basran;s formed their terminology and opinions
