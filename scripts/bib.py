@@ -1716,6 +1716,7 @@ def populate_resource_list():
     , cit_text = 'Hassan, _A contrastive study of tense and aspect in English and Arabic with special reference to translation_'
     , bib_text = """Hassan, H. M., _A contrastive study of tense and aspect in English and Arabic with special reference to translation_, Doctoral Thesis, 1990."""
     , sort_key = "hassan 1990"
+    ))
   return resource_list
 
 #"Druel, J. N., _Numerals in Arabic grammatical theory: An impossible quest for consistency?_"
