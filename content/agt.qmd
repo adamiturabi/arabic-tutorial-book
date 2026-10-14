@@ -279,6 +279,8 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \draw [dashed, ->, -{Latex}] (5.5,179) -- (6.5, 189);
     \person{6.5}{207}{left} {east}{ 16}{-2}{al-Farrāʾ (\textsc{k})}
     \draw [dashed, ->, -{Latex}] (5.5,197) -- (6.5, 207);
+    \person{5.25}{684}{right} {west}{-15}{-10}{al-Rad̤͡hiyy al-Astarābād͡hī}
+    \draw [dashed, ->, -{Latex}] (8.5,664) -- (5.25, 684);
 
     % Baghdad
     \draw [dashed, ->, -{Latex}] (7.5,270) -- (6.5, 285);
@@ -294,8 +296,8 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     %\person{5.5}{684}{right} {west}{-16}{-9}{al-Rad̤͡hiyy al-Astarābād͡hī}
 
     % Hijaz
-    \person{4.5}{684}{right} {west}{-15}{-10}{al-Rad̤͡hiyy al-Astarābād͡hī}
-    \draw [dashed, ->, -{Latex}] (8.5,664) -- (4.5, 684);
+    %\person{4.5}{684}{right} {west}{-15}{-10}{al-Rad̤͡hiyy al-Astarābād͡hī}
+    %\draw [dashed, ->, -{Latex}] (8.5,664) -- (4.5, 684);
 
     % Syria
     \person{3.5}{643}{right} {west}{-16}{3}{Ibn Yaɛīs͡h}
@@ -1561,8 +1563,8 @@ attempting to interpret rare and anomalous usages through [taqdIr]{.trn2}^[[ال
 so that most everything aligned with a minimal set of basic grammatical principles.
 Both, however, as a general rule, accepted the anomalous usage as valid attested usage.
 The [#kUf]{.trn2}ans are also thought to be more grounded in that they tried to stay
-closer to surface speech,
-rather than venturing into too much [taqdIr]{.trn2}.
+closer to attested usage,
+rather than venturing into too much "grammatical reason hunting" like the [#baSr]{.trn2}ans.^[Hassan, _A contrastive study of tense and aspect in English and Arabic with special reference to translation_ 109]
 
 Generally speaking,
 the [#baSr]{.trn2}ans formed their terminology and opinions
