@@ -1719,4 +1719,4 @@ def populate_resource_list():
 #"Kasher, Semantic and Formal Underlying Levels in Arabic Grammatical Tradition: The Case of Exceptive Sentences"
 #"Kasher Aspects of syntactic effect (ʿamal) in Arabic grammatical tradition: The term šuġl in Sībawayhi's al-Kitāb and beyond"
 # Abdelkader Fassi Fehri, Number and Gender Convergence: The Arabic Plurative
-
+# Less Familiar Types of ʾan according to Arabic Grammarians Arik Sadan
