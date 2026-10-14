@@ -1714,7 +1714,7 @@ def populate_resource_list():
     "hassan_tense_aspect"
     , cit_type = "ws_ref"
     , cit_text = 'Hassan, _A contrastive study of tense and aspect in English and Arabic with special reference to translation_'
-    , bib_text = """Hassan, H. M., _A contrastive study of tense and aspect in English and Arabic with special reference to translation_, Doctoral Thesis, 1990."""
+    , bib_text = """Hassan, H. M., _A contrastive study of tense and aspect in English and Arabic with special reference to translation_, Doctoral Thesis, University of Bath, 1990. <https://researchportal.bath.ac.uk/files/240179816/H_M_Hassan_thesis.pdf>"""
     , sort_key = "hassan 1990"
     ))
   return resource_list
