@@ -1720,8 +1720,8 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "howell"
     , cit_type = "ws_ref"
-    , cit_text = 'Howell, _A grammar of the Classical Arabic language_'
-    , bib_text = """Howell, M. S., _A grammar of the Classical Arabic language_, North-Western Provinces and Oudh Government Press, Allahabad, 1883. <https://archive.org/details/howellarabicgrammar2013>"""
+    , cit_text = 'Howell'
+    , bib_text = """Howell, M. S., _A grammar of the Classical Arabic language_, North-Western Provinces and Oudh Government Press, Allahabad, 1880--1911. <https://adamiturabi.github.io/howell-navigator>"""
     , sort_key = "howell"
     ))
   return resource_list
