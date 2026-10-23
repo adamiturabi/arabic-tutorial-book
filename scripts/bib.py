@@ -1717,6 +1717,13 @@ def populate_resource_list():
     , bib_text = """Hassan, H. M., _A contrastive study of tense and aspect in English and Arabic with special reference to translation_, Doctoral Thesis, University of Bath, 1990. <https://researchportal.bath.ac.uk/files/240179816/H_M_Hassan_thesis.pdf>"""
     , sort_key = "hassan 1990"
     ))
+  resource_list.append(BibResource(
+    "howell"
+    , cit_type = "ws_ref"
+    , cit_text = 'Howell'
+    , bib_text = """Howell, M. S., _A grammar of the Classical Arabic language_, North-Western Provinces and Oudh Government Press, Allahabad, 1880--1911. <https://adamiturabi.github.io/howell-navigator>"""
+    , sort_key = "howell"
+    ))
   return resource_list
 
 #"Druel, J. N., _Numerals in Arabic grammatical theory: An impossible quest for consistency?_"
