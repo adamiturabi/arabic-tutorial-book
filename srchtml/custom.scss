@@ -15,9 +15,11 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: none !important;
 }
 
+/* Moved below to filters/rubrication.lua */
 /* Use rubric-red font color in normal weight instead of bold */
+/*
 strong {
   font-weight: normal;
   color: $rubric-red;
 }
-
+*/
