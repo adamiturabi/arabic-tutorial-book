@@ -213,8 +213,8 @@ map_table["muta3allaqbih"] = "pertinentee"
 
 map_table["ta3leeq"] = "suspension"
 map_table["mu3allaq"] = "suspended"
-map_table["ilghaa"] = "cancelation"
-map_table["mulghaa"] = "canceled"
+map_table["ilghaa"] = "neutralization"
+map_table["mulghaa"] = "neutralized"
 
 map_table["3umdah"] = "indispensable" # indispensable, foundational, basic, load-bearing, structural
 map_table["fadlah"] = "dispensable" # dispensable, redundant, extra
