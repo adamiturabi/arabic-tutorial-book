@@ -78,6 +78,7 @@ Figure () depicts the ;3amal; of example ().
 
 DIAGRAM
 
+<!--
 If one or both of the ;mafulb;s are missing,
 then the sentence is not (generally) sufficiently ;isnaad_comp;:
 
@@ -97,6 +98,7 @@ However, as we will see in the examples, sometimes, some of these verbs
 that fall in ;dhanna; and its sisters
 don't require two ;mafulb;s.
 In which cases the sentence will be ;isnaad_comp; without them.
+-->
 
 Parallels of the ;isnaad; of the ;dhanna; sentence
 may be found in the ;kaana; and ;inna; sentences:
@@ -121,9 +123,27 @@ the ;dhanna; sentence may be categorized as a ;j_f3l;.
 And, like in the case of ;naqis; ;kaana;,
 the verb and its ;faa3il; don't make the sentence ;isnaad_comp;.
 
+## ;dhanna; and its sisters in passive voice
 
+When ;dhanna; and its sisters are used in the passive voice,
+the first ;mafulb;
+(the one which is the ;mubtada; in the basic ;j_ism;)
+is made the ;naib_faa3il; in the ;ucase;.
+And the second ;mafulb;
+(the one which is the ;xabar; in the basic ;j_ism;)
+remains a ;mafulb; in the ;acase;.
+So, example () above, becomes in the passive voice:
 
-## Categories of ;dhanna; and its sisters
+(@) [ظُنَّ زَيْدٌ أَخَاكَ]{.ar}  
+    [Zayd was thought to be your brother.]{.trans}
+
+Similarly,
+
+(@) [زَيْدٌ مَظْنُونٌ شُجَاعًا]{.ar}
+    [@wright@ 2/52D]{.citex}  
+    [Zayd is thought to be brave.]{.trans}  
+
+##  The sisters of ;dhanna;
 
 There are many verbs that behave similar to ;dhanna;,
 in that they require two ;mafulb;s.
@@ -157,29 +177,7 @@ These verbs constituting ;dhanna; and its sisters may be sub-categorized into:
 
 Some verbs, like [جَعَلَ]{.ar} can fall into both categories, where [جَعَلَ]{.ar} can also mean [to believe _x_ to be _y_]{.trans}, in addition to [to make _x_ into _y_]{.trans}.
 
-We will discuss these verbs individually in section\ () below.
-
-## ;dhanna; and its sisters in passive voice
-
-When ;dhanna; and its sisters are used in the passive voice,
-the first ;mafulb;
-(the one which is the ;mubtada; in the basic ;j_ism;)
-is made the ;naib_faa3il; in the ;ucase;.
-And the second ;mafulb;
-(the one which is the ;xabar; in the basic ;j_ism;)
-remains a ;mafulb; in the ;acase;.
-So, example () above, becomes in the passive voice:
-
-(@) [ظُنَّ زَيْدٌ أَخَاكَ]{.ar}  
-    [Zayd was thought to be your brother.]{.trans}
-
-Similarly,
-
-(@) [زَيْدٌ مَظْنُونٌ شُجَاعًا]{.ar}
-    [@wright@ 2/52D]{.citex}  
-    [Zayd is thought to be brave.]{.trans}  
-
-## Example sentences of ;dhanna; and its sisters
+We will give examples of these verbs below:
 
 ### ;dhanna; {.unnumbered}
 
@@ -218,6 +216,8 @@ Here are some examples:
 (@) [وَرَءَا ٱلۡمُجۡرِمُونَ ٱلنَّارَ فَظَنُّوۤا۟ أَنَّهُم مُّوَاقِعُوهَا وَلَمۡ یَجِدُوا۟ عَنۡهَا مَصۡرِفࣰا]{.quran}^[See @https://tafsir.app/ibn-uthaymeen/18/53@]
     [@https://quran.com/18/53@ cited by @nahw_arabi@ 1/332]{.citex}  
     [And the criminals will see the Fire and will be certain that they are to fall therein. And they will not find from it a way elsewhere.]{.trans}  
+
+As to the usage of ;anna; in the examples above, see @sec:ta3leeq below.
 
 ;dhanna; can also have the meaning of [to suspect (someone)]{.trans}.
 With this meaning, it is no longer a ;fi3l_qalb;,
@@ -269,6 +269,62 @@ baseet 443
 @https://sunnah.com/muslim:1156b@
 
 ## Suppressing one or both ;mafulb;s
+
+Generally speaking,
+for verbs
+not in ;dhanna; and its sisters
+that take two ;mafulb;s,
+we may restrict ourselves to only one ;mafulb;.
+So, for example, instead of saying:
+
+(@) [أَعْطَيْتُ زَيْدًا دِرْهَمًا]{.ar}  
+    [I gave Zayd a dirham.]{.trans}
+
+we can say both:
+
+(@) [أَعْطَيْتُ دِرْهَمًا]{.ar}  
+    [[@howell@ §443 2/152](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=213)]{.citex}
+    [I gave a dirham.]{.trans}
+
+(@) [أَعْطَيْتُ زَيْدًا]{.ar}  
+    [[@howell@ §443 2/152](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=213)]{.citex}
+    [I gave Zayd.]{.trans}
+
+But if the verb is one of ;dhanna; or its sisters,
+then both mafulbs are generally required.
+So, for example, instead of saying:
+
+(@) [ظَنَنْتُ زَيْدًا قَائِمًا]{.ar}
+    [[@howell@ §443 2/154](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=215)]{.citex}  
+    [I thought Zayd to be standing.]{.trans}
+
+we cannot say (generally):
+
+(@) ;x; [ظَنَنْتُ زَيْدًا]{.ar}
+    [[@howell@ §443 2/154](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=215)]{.citex}
+
+(@) ;x; [ظَنَنْتُ قَائِمًا]{.ar}
+    [[@howell@ §443 2/154](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=215)]{.citex}
+
+However, it is possible to omit one of the two ;mafulb;s
+if its meaning is implied and is indicated by context.
+For example,
+
+(@) [وَلَا یَحۡسَبَنَّ ٱلَّذِینَ یَبۡخَلُونَ بِمَاۤ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضۡلِهِۦ **هُوَ خَیۡرࣰا لَّهُمۖ**]{.quran}
+    [@https://quran.com/3/180@ cited by [@howell@ §443 2/153--154](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=214)^[cited as III. 175]]{.citex}  
+    [And let not those who [greedily] withhold what Allāh has given them of His bounty ever think that it is better for them.]{.trans}
+
+In the ;ayah; above,
+the first ;mafulb; is interpreted
+(in one interpretation of this reading)
+to be a suppressed [بُخْلَهُمْ]{.ar},
+and [هُوَ]{.ar} is a ;damir_fasl;.
+Such that the meaning is:
+
+(@) [ولا يَحْسَبَنَّ الباخِلون **بُخْلَهم** هو خيراً لهم]{.ar}
+    [@https://tafsir.app/aldur-almasoon/3/180@]{.citex}  
+    [And let not the misers think **their miserliness** to be good for them.]{.trans}
+
 
 [@howell@ §443 2/152](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=213)
 
