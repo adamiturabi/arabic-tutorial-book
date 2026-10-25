@@ -364,6 +364,7 @@ map_table["jawab_qasam"] = map_table["qasam"] + "-" + map_table["jawab"]
 map_table["rabt"] = "link"
 
 map_table["sababi"] = "sababi" # takeover
+map_table["sadd_masadd"] = "fulfils the role"
 map_table["sahib_haal"] = "person of ḥāl"
 map_table["sahibs_haal"] = "persons of ḥāl"
 map_table["sifah"] = "adjectival noun"
