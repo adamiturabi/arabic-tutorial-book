@@ -253,9 +253,12 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
 \foreach [count=\i] \x in \regions {
     %\node[label={\x}] (\i) at (\i-0.5, 0) {};
-    \node[rotate=60,align=left,anchor=west] () at (\i-0.7, -7) {\small \x};
+    %\node[rotate=60,align=left,anchor=west] () at (\i-0.7, -7) {\small \x};
+    \node[align=left, anchor=base] () at (\i-0.5, -8) {\small \x};
 }
-
+\node[rotate=90,align=left,anchor=west] at (5.2, -15) {\scriptsize ←al-Kūfah};
+\node[rotate=90,align=left,anchor=west] at (5.5, -15) {\scriptsize ←Bag͡hdād};
+\node[rotate=90,align=left,anchor=west] at (5.8, -15) {\scriptsize ←al-Baṣrah};
 
 
 %    % Basrah
@@ -327,6 +330,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \person{1.5}{669}{right}{west}{-16}{-3}{Ibn Ɛuṣfūr}
     \draw [dashed, ->, -{Latex}] (0.7,650) -- (1.5, 669);
 
+    % Kind of a mess. Need to fix coordinate system
     \dynasty    {bricks}            {5}    {5}      {0}     {11}  {}{} % Prophet pbuh
     \dynasty    {bricks}            {2.5}  {6.5}    {11}    {41}  {\large RASHIDUN}{xshift=38pt}
     \dynasty    {vertical lines}    {2}    {7}      {41}    {132} {\large UMAYYADS}{xshift=-20,yshift=-3pt}
@@ -334,6 +338,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {crosshatch}        {3}    {7}      {132}             {\cetoah{945}} {\large ABBASIDS}{xshift=30pt,yshift=-9pt}
     \dynasty    {crosshatch}        {2}    {2}      {132}             {\cetoah{909}} {}{}% Abbasids % North Africa
     \dynasty    {crosshatch}        {3}    {5}      {\cetoah{945}}    {\cetoah{969}} {}{}% Abbasids % egypt, syria, hijaz
+    \dynasty    {crosshatch}        {6.4}  {5.6}    {\cetoah{945}}    {\cetoah{1194}} {}{}% Abbasids % Baghdad
     \dynasty    {dots}              {2}    {1.5}    {\cetoah{788}}    {\cetoah{909}} {\footnotesize IDRISIDS}{rotate=90}
     \dynasty    {dots}              {2.5}  {2}      {\cetoah{800}}    {\cetoah{909}} {\footnotesize AGHLABIDS}{rotate=90}
     \dynasty    {dots}              {3}    {4}      {\cetoah{872}}    {\cetoah{904}} {\footnotesize TULUNIDS}{}
@@ -345,7 +350,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {north east lines}  {3}    {5}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
     %\dynasty    {crosshatch}        {5}    {5}      {600}             {\cetoah{1250}} {}{}
     \dynasty    {grid}              {6}    {7}      {\cetoah{1055}}   {\cetoah{1194}} {SELJUKS}{xshift=25pt}
-    \dynasty    {crosshatch}        {6}    {6}      {\cetoah{1194}}   {\cetoah{1258}} {\small ABBASIDS}{}% Abbasids % North Africa
+    \dynasty    {crosshatch}        {6}    {6}      {\cetoah{1194}}   {\cetoah{1258}} {\small ABBASIDS}{}% Abbasids % Iraq
     \dynasty    {grid}              {4}    {5}      {\cetoah{1154}}   {\cetoah{1175}} {\footnotesize ZENGIDS}{}
     \dynasty    {grid}              {3}    {3}      {\cetoah{1167}}   {\cetoah{1175}} {}{}
     \dynasty    {dots}              {7}    {7}      {\cetoah{1194}}   {\cetoah{1258}} {\small KHWARAZM}{xshift=9pt}% Abbasids % North Africa
