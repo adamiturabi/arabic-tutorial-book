@@ -259,22 +259,22 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
 
 %    % Basrah
-    \person{5.5}{69}{above}{south}{-7}{-20}{[Abu l‑Aswad al‑Duʾalī (\textsc{b})]}
-    \person{5.5}{117}{above}{south}{-7}{-21}{[Ɛabd Allāh ibn Abī Is·ḥāq (\textsc{b})]}
-    \person{5.5}{154}{above}{south}{9}{-24}{[Abū Ɛamr ibn al-Ɛalāʾ (\textsc{b})]}
+    \person{5.75}{69}{above}{south}{-7}{-20}{[Abu l‑Aswad al‑Duʾalī (\textsc{b})]}
+    \person{5.75}{117}{above}{south}{-7}{-21}{[Ɛabd Allāh ibn Abī Is·ḥāq (\textsc{b})]}
+    \person{5.75}{154}{above}{south}{9}{-24}{[Abū Ɛamr ibn al-Ɛalāʾ (\textsc{b})]}
     %\person{5.5}{149}{right}{west}{-20}{14}{[Ɛīsā ibn Ɛumar (\textsc{b})]}
     %\person{5.5}{182}{right}{west}{-20}{7}{[Yūnus b. Ḥabīb (\textsc{b})]}
-    \person{5.5}{170}{right}{west}{-20}{4}{al-K͡halīl (\textsc{b})}
-    \person{5.5}{180}{right}{west}{-20}{-4}{Sībawayh (\textsc{b})}
+    \person{5.75}{170}{right}{west}{-20}{4}{al-K͡halīl (\textsc{b})}
+    \person{5.75}{180}{right}{west}{-20}{-4}{Sībawayh (\textsc{b})}
     %\draw [dashed, ->, -{Latex}] (8.5,170) -- (7.5, 180);
-    \person{5.5}{215}{below}{north}{30}{25}{al-Ak͡hfas͡h al-Awsaṭ (\textsc{b})}
+    \person{5.75}{215}{below}{north}{30}{25}{al-Ak͡hfas͡h al-Awsaṭ (\textsc{b})}
 
     % Kufah
-    \person{5.5}{187}{left} {east}{16}{8}{[Abū Jaɛfar al‑Ruʾāsī (\textsc{k})]}
-    \person{5.5}{189}{left} {east}{16}{2}{al-Kisāʾī (\textsc{k})}
-    %\draw [dashed, ->, -{Latex}] (5.5,179) -- (6.5, 189);
-    \person{5.5}{207}{left} {east}{ 16}{-2}{al-Farrāʾ (\textsc{k})}
-    %\draw [dashed, ->, -{Latex}] (5.5,197) -- (6.5, 207);
+    \person{5.25}{187}{left} {east}{16}{8}{[Abū Jaɛfar al‑Ruʾāsī (\textsc{k})]}
+    \person{5.5}{189}{left} {east}{16}{-4}{al-Kisāʾī (\textsc{k})}
+    %\draw [dashed, ->, -{Latex}] (5.25,189) -- (5.5, 189);
+    \person{5.5}{207}{left} {east}{ 16}{-6}{al-Farrāʾ (\textsc{k})}
+    %\draw [dashed, ->, -{Latex}] (5.25,207) -- (5.5, 207);
     \person{5.5}{684}{below} {north}{-13}{19}{al-Rad̤͡hiyy al-Astarābād͡hī}
     %\draw [dashed, ->, -{Latex}] (8.5,664) -- (5.25, 684);
 
