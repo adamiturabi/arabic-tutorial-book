@@ -275,8 +275,8 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     %\draw [dashed, ->, -{Latex}] (5.25,189) -- (5.5, 189);
     \person{5.5}{207}{left} {east}{ 16}{-6}{al-Farrāʾ (\textsc{k})}
     %\draw [dashed, ->, -{Latex}] (5.25,207) -- (5.5, 207);
-    \person{5.5}{684}{below} {north}{-13}{19}{al-Rad̤͡hiyy al-Astarābād͡hī}
-    %\draw [dashed, ->, -{Latex}] (8.5,664) -- (5.25, 684);
+    \person{5.25}{684}{below} {north}{-13}{19}{al-Rad̤͡hiyy al-Astarābād͡hī}
+    \draw [dashed, ->, -{Latex}] (6.5,664) -- (5.25, 684);
 
     % Baghdad
     %\draw [dashed, ->, -{Latex}] (5.5,270) -- (6.5, 285);
@@ -350,17 +350,17 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {grid}              {3}    {3}      {\cetoah{1167}}   {\cetoah{1175}} {}{}
     \dynasty    {dots}              {7}    {7}      {\cetoah{1194}}   {\cetoah{1258}} {\small KHWARAZMS}{xshift=9pt}% Abbasids % North Africa
     \dynasty    {fivepointed stars} {6}    {7}      {\cetoah{945}}    {\cetoah{1055}} {BUYIDS}{xshift=10pt}
-    \dynasty    {checkerboard}      {6}    {7}      {\cetoah{1258}}   {\cetoah{1335}} {\small MONGOLS}{}
-    \dynasty    {horizontal lines}  {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {\large MAMLUKS}{xshift=-18pt,yshift=22pt}
+    \dynasty    {checkerboard}      {6}    {7}      {\cetoah{1258}}   {\cetoah{1335}} {MONGOLS}{}
+    \dynasty    {horizontal lines}  {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {\large MAMLUKS}{xshift=-32,yshift=32pt}
     \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1056}}   {\cetoah{1140}} {\footnotesize ALMORAVIDS}{rotate=60}
     \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1140}}   {\cetoah{1269}} {\footnotesize ALMOHADS}{rotate=60}
     %\dynasty    {dots}              {6}    {7}      {\cetoah{1335}}   {\cetoah{1508}} {\small TURKIC DYNASTIES}{}
     \dynasty    {dots}              {6}    {6}      {\cetoah{1335}}   {\cetoah{1400}} {\footnotesize JALAYRIDS}{}
     \dynasty    {dots}              {7}    {7}      {\cetoah{1335}}   {\cetoah{1400}} {\footnotesize MUZAFFARIDS}{xshift=5pt}
-    \dynasty    {dots}              {6}    {7}      {\cetoah{1400}}   {\cetoah{1450}} {\small TIMURIDS}{}
+    \dynasty    {dots}              {6}    {7}      {\cetoah{1400}}   {\cetoah{1450}} {TIMURIDS}{}
     \dynasty    {dots}              {6}    {7}      {\cetoah{1450}}   {\cetoah{1501}} {\footnotesize TURKOMAN CONFEDERATIONS}{}
     \dynasty    {fivepointed stars} {6}    {7}      {\cetoah{1501}}   {\cetoah{1533}} {}{} % safavids
-    \dynasty    {fivepointed stars} {7}    {7}      {\cetoah{1533}}   {1000} {\small SAFAVIDS}{xshift=8pt, yshift=2pt} % safavids
+    \dynasty    {fivepointed stars} {7}    {7}      {\cetoah{1533}}   {1000} {SAFAVIDS}{xshift=8pt, yshift=2pt} % safavids
     \dynasty    {north west lines}  {6}    {6}      {\cetoah{1533}}   {1000} {}{}
     \dynasty    {north west lines}  {2}    {5}      {\cetoah{1517}}   {1000} {\large OTTOMANS}{xshift=0pt}
 
