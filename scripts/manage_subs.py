@@ -213,8 +213,10 @@ map_table["muta3allaqbih"] = "pertinentee"
 
 map_table["ta3leeq"] = "suspension"
 map_table["mu3allaq"] = "suspended"
-map_table["ilghaa"] = "cancelation"
-map_table["mulghaa"] = "canceled"
+map_table["yu3alliq"] = "suspend"
+map_table["ilghaa"] = "neutralization"
+map_table["mulghaa"] = "neutralized"
+map_table["ulghee"] = "neutralize"
 
 map_table["3umdah"] = "indispensable" # indispensable, foundational, basic, load-bearing, structural
 map_table["fadlah"] = "dispensable" # dispensable, redundant, extra
@@ -314,6 +316,7 @@ map_table["kawn_3aam"] = "general existence" # map_table["muqaddar"] + " being"
 map_table["laam_ibt"] = "[لَ]{.ar} of beginning"
 map_table["laam_frq"] = "differentiator [لَ]{.ar}"
 map_table["laam_taqwiya"] = "strengthening-[لِ]{.ar}"
+map_table["laam_qasam"] = "[لَ]{.ar} of oath"
 map_table["lazim"] = "intransitive"
 map_table["lnj"] = {"لا النافية للجنس", "ar"}
 
@@ -364,6 +367,7 @@ map_table["jawab_qasam"] = map_table["qasam"] + "-" + map_table["jawab"]
 map_table["rabt"] = "link"
 
 map_table["sababi"] = "sababi" # takeover
+map_table["sadd_masadd"] = "fulfils the role"
 map_table["sahib_haal"] = "person of ḥāl"
 map_table["sahibs_haal"] = "persons of ḥāl"
 map_table["sifah"] = "adjectival noun"

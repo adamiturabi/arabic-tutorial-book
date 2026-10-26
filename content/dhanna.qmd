@@ -85,6 +85,7 @@ Figure () depicts the government of example ().
 
 DIAGRAM
 
+<!--
 If one or both of the direct doees are missing,
 then the sentence is not (generally) sufficiently leaned:
 
@@ -104,6 +105,7 @@ However, as we will see in the examples, sometimes, some of these verbs
 that fall in [ظَنَّ]{.ar} and its sisters
 don't require two direct doees.
 In which cases the sentence will be leaned without them.
+-->
 
 Parallels of the lean of the [ظَنَّ]{.ar} sentence
 may be found in the [كَانَ]{.ar} and [إِنَّ]{.ar} sentences:
@@ -128,9 +130,27 @@ the [ظَنَّ]{.ar} sentence may be categorized as a verbal sentence.
 And, like in the case of deficient [كَانَ]{.ar},
 the verb and its doer don't make the sentence leaned.
 
+## [ظَنَّ]{.ar} and its sisters in passive voice
 
+When [ظَنَّ]{.ar} and its sisters are used in the passive voice,
+the first direct doee
+(the one which is the subject in the basic nounal sentence)
+is made the deputy doer in the u-case.
+And the second direct doee
+(the one which is the info in the basic nounal sentence)
+remains a direct doee in the a-case.
+So, example () above, becomes in the passive voice:
 
-## Categories of [ظَنَّ]{.ar} and its sisters
+(@) [ظُنَّ زَيْدٌ أَخَاكَ]{.ar}  
+    [Zayd was thought to be your brother.]{.trans}
+
+Similarly,
+
+(@) [زَيْدٌ مَظْنُونٌ شُجَاعًا]{.ar}
+    [Wright 2/52D]{.citex}  
+    [Zayd is thought to be brave.]{.trans}  
+
+##  The sisters of [ظَنَّ]{.ar}
 
 There are many verbs that behave similar to [ظَنَّ]{.ar},
 in that they require two direct doees.
@@ -164,29 +184,7 @@ These verbs constituting [ظَنَّ]{.ar} and its sisters may be sub-categorize
 
 Some verbs, like [جَعَلَ]{.ar} can fall into both categories, where [جَعَلَ]{.ar} can also mean [to believe _x_ to be _y_]{.trans}, in addition to [to make _x_ into _y_]{.trans}.
 
-We will discuss these verbs individually in section\ () below.
-
-## [ظَنَّ]{.ar} and its sisters in passive voice
-
-When [ظَنَّ]{.ar} and its sisters are used in the passive voice,
-the first direct doee
-(the one which is the subject in the basic nounal sentence)
-is made the deputy doer in the u-case.
-And the second direct doee
-(the one which is the info in the basic nounal sentence)
-remains a direct doee in the a-case.
-So, example () above, becomes in the passive voice:
-
-(@) [ظُنَّ زَيْدٌ أَخَاكَ]{.ar}  
-    [Zayd was thought to be your brother.]{.trans}
-
-Similarly,
-
-(@) [زَيْدٌ مَظْنُونٌ شُجَاعًا]{.ar}
-    [Wright 2/52D]{.citex}  
-    [Zayd is thought to be brave.]{.trans}  
-
-## Example sentences of [ظَنَّ]{.ar} and its sisters
+We will give examples of these verbs below:
 
 ### [ظَنَّ]{.ar} {.unnumbered}
 
@@ -225,6 +223,8 @@ Here are some examples:
 (@) [وَرَءَا ٱلۡمُجۡرِمُونَ ٱلنَّارَ فَظَنُّوۤا۟ أَنَّهُم مُّوَاقِعُوهَا وَلَمۡ یَجِدُوا۟ عَنۡهَا مَصۡرِفࣰا]{.quran}^[See [[تفسير ابن عثيمين]{.ar} for [سورة الكهف]{.ar} 18:53](https://tafsir.app/ibn-uthaymeen/18/53)]
     [[[سورة الكهف]{.ar} 18:53](https://quran.com/18/53) cited by [النحو العربي: أحكام ومعان]{.ar} 1/332]{.citex}  
     [And the criminals will see the Fire and will be certain that they are to fall therein. And they will not find from it a way elsewhere.]{.trans}  
+
+As to the usage of [أَنَّ]{.ar} in the examples above, see @sec:ta3leeq below.
 
 [ظَنَّ]{.ar} can also have the meaning of [to suspect (someone)]{.trans}.
 With this meaning, it is no longer a verb of perception,
@@ -265,19 +265,514 @@ For example:
 
 ### [رَأَىٰ]{.ar} {.unnumbered}
 
+### [حَسِبَ]{.ar} {.unnumbered}
 
-## Second direct doee can be a prepositional phrase or sentence
+(@) [صَنَعْنَا لِرَسُولِ اللهِ ﷺ فَخَّارَةً ، فَأَتَيْتُهُ بِهَا ، فَوَضَعْتُهَا بَيْنَ يَدَيْهِ ، فَاطَّلَعَ فِيهَا ، فَقَالَ : **حَسِبْتُهُ لَحْمًا**]{.ar}
+    [[[مسند أحمد]{.ar} :14581](https://hadithunlocked.com/ahmad:14581)]{.citex}  
+    [We made a (clay) pot (of food) for the Messenger of Allāh [ﷺ]{.areng} and I brought it to him. He peered into it and said, "**I thought it was meat.**"]{.trans}  
 
-baseet 443
+## The second direct doee can be a sentence or phrase
 
-(@) [مَا عَلِمْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم نَكَحَ شَيْئًا مِنْ نِسَائِهِ وَلاَ أَنْكَحَ شَيْئًا مِنْ بَنَاتِهِ عَلَى أَكْثَرَ مِنْ ثِنْتَىْ عَشْرَةَ أُوقِيَّةً]{.ar}
+Because [ظَنَّ]{.ar} and its sisters govern
+what was originally a subject-info sentence,
+the first direct doee may be anything which is allowed to be a subject,
+and
+the second direct doee may be anything which is allowed to be a info.
+Thus, the second direct doee
+may be a complete sentence in the positional a-case,
+or an adverbial or prepositional phrase.^[[@baseet_ibn_abi_rabee3 443](https://archive.org/details/0969pdf_201912/page/n441/mode/2up)]
+
+Here are some examples
+where the second direct doee is a complete sentence:
+
+(@) [**مَا عَلِمْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم نَكَحَ** شَيْئًا مِنْ نِسَائِهِ وَلاَ أَنْكَحَ شَيْئًا مِنْ بَنَاتِهِ عَلَى أَكْثَرَ مِنْ ثِنْتَىْ عَشْرَةَ أُوقِيَّةً]{.ar}
     [[[جامع الترمذي]{.ar} :1114b](https://sunnah.com/tirmidhi:1114b)]{.citex}  
+    [**I did not know the Messenger of Allāh [ﷺ]{.areng} to marry** any of his women, nor to give any of his daughters in marriage, for more than twelve [#Uqiyah]{.trn2}s.]{.trans}  
+    (First direct doee is [رَسُول الله]{.ar} [the Messenger of Allāh]{.trans}, second direct doee is [نَكَحَ]{.ar} [he married]{.trans}.)
 
-[[صحيح مسلم]{.ar} :1156b](https://sunnah.com/muslim:1156b)
+(@) [**مَا عَلِمْتُهُ صَامَ** شَهْرًا كُلَّهُ إِلاَّ رَمَضَانَ]{.ar}
+    [[[صحيح مسلم]{.ar} :1156b](https://sunnah.com/muslim:1156b)]{.citex}  
+    [**I did not know him to fast** any complete month except [#ramaDAn]{.trn2}.]{.trans}  
+    (First direct doee is [هُ]{.ar} [him]{.trans}, second direct doee is [صَامَ]{.ar} [he fasted]{.trans}.)
+
+(@) [**ظَنَنْتُهُ يَدْعُو** فِي الِاسْتِسْقَاءِ]{.ar}
+    [[[صحيح ابن خزيمة]{.ar} :1595](https://hadithunlocked.com/ibnkhuzaymah:1595)]{.citex}
+    [**I thought him to be supplicating** in the rain prayer.]{.trans}  
+    (First direct doee is [هُ]{.ar} [him]{.trans}, second direct doee is [يَدْعُو]{.ar} [supplicating]{.trans}.)
+
+Here is an example
+where the second direct doee is a prepositional phrase:
+
+(@) [قَالَ أَمَا وَاللَّهِ إِنَّ ذَلِكَ لِتَغَيُّرِ ثَائِرَةٍ كَانَتْ مِنِّي إِلَيْهِمْ وَلَكِنِّي **أَرَاهُمْ عَلَى ضَلَالَةٍ**]{.ar}
+    [[[مستدرك الحاكم]{.ar} :4956](https://hadithunlocked.com/hakim:4956)]{.citex}  
+    [He said, "By Allāh, indeed that is because of a change in a matter between me and them, but **I think them to be on misguidance**."]{.trans}  
+    (First direct doee is [هُمْ]{.ar} [them]{.trans}, second direct doee is [عَلَى ضَلَالٍ]{.ar} [on misguidance]{.trans}.)
+
+## When two direct doees are not required
+
+Many of the verbs in [ظَنَّ]{.ar} and its sisters
+may be used with meanings
+such that they don't govern
+what was originally a subject-info sentence.
+In such cases, the two indispensable elements are
+the verb and its doer,
+and the verb does not require two direct doees to be the indispensable elements.
+
+For example,
+[ظَنَّ]{.ar} can have the meaning
+[to suspect (someone)]{.trans}.
+With this meaning,
+can take one direct doee.
+For example:
+
+(@) [ظَنَّ القَاضِي فُلَانًا]{.ar}
+    [[النحو العربي: أحكام ومعان]{.ar} 1/331]{.citex}  
+    [The judge suspected so-and-so.]{.trans}  
+
+(@) [عُدِمَ لِي مَالٌ فَظَنَنْتُ زَيْدًا]{.ar}
+    [[Howell §442 2/150](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=211)]{.citex}  
+    [Some property of mine was missing so I suspected Zayd.]{.trans}  
+
+Similarly
+[عَلِمَ]{.ar}
+can be used with the meaning
+[to know _x_]{.trans}
+and not necessarily
+[to know _x_ to be _y_]{.trans}.
+For example:
+
+(@) [وَٱللَّهُ أَخۡرَجَكُم مِّنۢ بُطُونِ أُمَّهَـٰتِكُمۡ **لَا تَعۡلَمُونَ شَیۡـࣰٔا**]{.quran}
+    [[[سورة النحل]{.ar} 16:78](https://quran.com/16/78) cited by [النحو العربي: أحكام ومعان]{.ar} 1/236]{.citex}  
+    [And Allāh has extracted you from the wombs of your mothers **not knowing a thing**]{.trans}  
+
+(@) [لَقَدْ **عَلِمْتُ النَّظَائِرَ** الَّتِي كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَقْرَأُ بِهِنَّ سُورَتَيْنِ فِي رَكْعَةٍ]{.ar}
+    [[[صحيح مسلم]{.ar} :822e](https://sunnah.com/muslim:822e)]{.citex}  
+    [**I know the manners** in which the Messenger of Allāh [ﷺ]{.areng} recited two [sUrah]{.trn2}s in one [rakeah]{.trn2}.]{.trans}  
+
+[رَأَىٰ]{.ar}
+can mean
+[to opine _x_]{.trans}
+and not necessarily
+[to opine _x_ to be _y_]{.trans}.
+For example:
+
+(@) [رَأَىٰ أَبُو حَنِيفَةَ حِلَّ كَذَا]{.ar}
+    [[Howell §442 2/150](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=211)]{.citex}  
+    [[#abU #HanIfah]{.trn2} held (the opinion of) the lawfulness of such a thing.]{.trans}
+
+[رَأَىٰ]{.ar}
+can also simply mean [to see _x_]{.trans}.
+For example:
+
+(@) [رَأَيْتُهُ]{.ar}
+    [[Howell §442 2/150](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=211)]{.citex}  
+    [I saw him]{.trans}  
+
+When [رَأَىٰ]{.ar} has the meaning [to see]{.trans},
+then there may be a second a-case (indefinite) governee as a [HAl]{.trn2}.^[[البسيط لابن أبي الربيع]{.ar} 445]
+For example:
+
+(@) [رَأَيْتُ زَيْدًا ضَاحِكًا]{.ar}
+    [[البسيط لابن أبي الربيع]{.ar} 445]{.citex}  
+    [I saw Zayd laughing.]{.trans}  
+
+<!--
+If,
+[رَأَىٰ]{.ar} has the meaning [to see]{.trans},
+but it also includes the meaning [to know]{.trans}
+then [رَأَى]{.ar} can take two direct doees.^[[البسيط لابن أبي الربيع]{.ar} 447; [[شرح التسهيل لابن مالك]{.ar} 2/327](https://shamela.ws/book/13257/723); [[الدر المصون للسمين الحلبي]{.ar} for [سورة يوسف]{.ar} 12:4](https://tafsir.app/aldur-almasoon/12/4)]
+-->
+If, however,
+[رَأَىٰ]{.ar} has the meaning [to see _x_ to be _y_]{.trans},
+then it will take two direct doees.^[See also [البسيط لابن أبي الربيع]{.ar} 447; [[شرح التسهيل لابن مالك]{.ar} 2/327](https://shamela.ws/book/13257/723); [[الدر المصون للسمين الحلبي]{.ar} for [سورة يوسف]{.ar} 12:4](https://tafsir.app/aldur-almasoon/12/4)]
+For example:
+
+(@) [يَا مَعْشَرَ النِّسَاءِ تَصَدَّقْنَ وَأَكْثِرْنَ فَإِنِّي **رَأَيْتُكُنَّ أَكْثَرَ أَهْلِ النَّارِ** لِكَثْرَةِ اللَّعْنِ وَكُفْرِ الْعَشِيرِ]{.ar}
+    [[[مسند أحمد]{.ar} :5343](https://hadithunlocked.com/ahmad:5343) cited by [البسيط لابن أبي الربيع]{.ar} 447 footnote 1]{.citex}  
+    [O women, give charity and do a lot of it, for indeed **I saw you to be the majority of the people of the Fire**, because of much cursing [on your part] and being ungrateful to the husband.]{.trans}  
+
+Besides the above,
+other sisters of [ظَنَّ]{.ar} may have similar meanings as well.
 
 ## Suppressing one or both direct doees
 
-[Howell §443 2/152](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=213)
+Generally speaking,
+for verbs
+that take two direct doees,
+but are
+not in [ظَنَّ]{.ar} and its sisters,
+we may restrict ourselves to only one direct doee.
+So, for example, instead of saying:
+
+(@) [أَعْطَيْتُ زَيْدًا دِرْهَمًا]{.ar}  
+    [I gave Zayd a dirham.]{.trans}
+
+we can say both:
+
+(@) [أَعْطَيْتُ دِرْهَمًا]{.ar}  
+    [[Howell §443 2/152](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=213)]{.citex}  
+    [I gave a dirham.]{.trans}
+
+(@) [أَعْطَيْتُ زَيْدًا]{.ar}  
+    [[Howell §443 2/152](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=213)]{.citex}  
+    [I gave Zayd.]{.trans}
+
+But if the verb is one of [ظَنَّ]{.ar} or its sisters,
+and they govern what was originally a subject-info sentence,
+then both mafulbs are generally required.
+So, for example, instead of saying:
+
+(@) [ظَنَنْتُ زَيْدًا قَائِمًا]{.ar}
+    [[Howell §443 2/154](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=215)]{.citex}  
+    [I thought Zayd to be standing.]{.trans}
+
+we cannot say (generally):
+
+(@) ✗ [ظَنَنْتُ زَيْدًا]{.ar}
+    [[Howell §443 2/154](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=215)]{.citex}
+
+(@) ✗ [ظَنَنْتُ قَائِمًا]{.ar}
+    [[Howell §443 2/154](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=215)]{.citex}
+
+However, it is possible to omit one of the two direct doees
+if its meaning is implied and is indicated by context.^[[Howell §443 2/153](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=214)]
+For example,
+
+(@) [وَلَا **یَحۡسَبَنَّ** ٱلَّذِینَ یَبۡخَلُونَ بِمَاۤ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضۡلِهِۦ **هُوَ خَیۡرࣰا لَّهُمۖ**]{.quran}
+    [[[سورة آل عمران]{.ar} 3:180](https://quran.com/3/180) cited by [Howell §443 2/153--154](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=214)^[cited as III. 175]]{.citex}  
+    [And let not those who [greedily] withhold what Allāh has given them of His bounty **ever think that it is better for them**.]{.trans}
+
+In the [Ayah]{.trn2} above,
+the first direct doee of
+[يَحْسَبَنَّ]{.ar}
+is interpreted
+(in one interpretation of this reading)
+to be a suppressed [بُخْلَهُمْ]{.ar}
+[their miserliness]{.trans},
+and [هُوَ]{.ar} is a separating-pronoun.
+Such that the meaning is:
+
+(@) [ولا يَحْسَبَنَّ الباخِلون **بُخْلَهم** هو خيرًا لهم]{.ar}
+    [[[الدر المصون للسمين الحلبي]{.ar} for [سورة آل عمران]{.ar} 3:180](https://tafsir.app/aldur-almasoon/3/180)]{.citex}  
+    [And let not the misers think **their miserliness** to be good for them.]{.trans}
+
+Both direct doees can also be omitted together.
+For example:
+
+(@) [وَظَنَنتُمۡ ظَنَّ ٱلسَّوۡءِ]{.quran}
+    [[[سورة الفتح]{.ar} 48:12](https://quran.com/48/12) cited by [Howell §443 2/153](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=214)]{.citex}  
+    [And you assumed an assumption of evil]{.trans}  
+    ([ظَنَّ]{.ar} is analyzed to be a absolute doee.^[[[إعراب القرآن للدرويش]{.ar} for [سورة الفتح]{.ar} 48:12](https://tafsir.app/iraab-aldarweesh/48/12)])  
+
+(@) [ظَنَنْتُ ذَاكَ]{.ar}
+    [[Howell §443 2/154](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=215)]{.citex}  
+    [I thought that.]{.trans}  
+    ([ذَاكَ]{.ar} is a deputy to the [maSdar]{.trn2} as the absolute doee.)
+
+(@) [مَنْ يَسْمَعْ يَخَلْ]{.ar}
+    [[Howell §443 2/153](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=214)]{.citex}  
+    [Whoso hears, will think.]{.trans}  
+
+The preposition [بِ]{.ar} may be used with [ظَنَّ]{.ar} to mean [about]{.trans}.
+In this case as well, no direct doee is needed.
+For example:
+
+(@) [ظَنَنْتُ بِهِ]{.ar}
+    [[Howell §443 2/154](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=215)]{.citex}  
+    [I thought about him.]{.trans}
+
+Even in such cases where both direct doees are omitted,
+their meaning may be implied.
+For example:
+
+(@) [وَیَوۡمَ یُنَادِیهِمۡ فَیَقُولُ أَیۡنَ شُرَكَاۤءِیَ ٱلَّذِینَ **كُنتُمۡ تَزۡعُمُونَ**]{.quran}
+    [[[سورة القصص]{.ar} 28:62](https://quran.com/28/62) cited by [Howell §443 2/153](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=214)]{.citex}  
+    [And [warn of] the Day He will call them and say, "Where are My 'partners' which **you used to claim**?"]{.trans}  
+
+In the [Ayah]{.trn2} above, the two suppressed direct doees of [تَزْعُمُونَ]{.ar}
+are interpreted to be thus:
+
+(@) [تَزْعُمُونَهُمْ شُرَكَاءَ]{.ar}
+    [[Howell §443 2/153](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=214)]{.citex}  
+    [...\ you claim them to be partners]{.trans}
+
+
+## Suspension of government
+
+There are sentences in which
+the verbs of perception were to exercise their
+governing effect
+on a subject and info.
+But their direct government
+is _suspended_ due to the presence of a _preventer_
+which exercises its own effect
+on the subject and info.
+This phenomenon is called
+_suspension_ of government.
+Let's take a look at an example.
+Consider a sentence where [ظَنَّ]{.ar} exercises it governing effect.
+
+(@) [ظَنَنْتُ زَيْدًا قَائِمًا]{.ar}
+    [I thought Zayd to be standing.]{.trans}  
+
+Now let's see what happens when the
+original
+subject
+([زَيْد]{.ar})
+and info
+([قَائِم]{.ar})
+are preceded by a [لَ]{.ar} of beginning.
+The sentence becomes:
+
+(@) [ظَنَنْتُ لَزَيْدٌ قَائِمٌ]{.ar}
+    [[Howell §445 2/158](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=219)]{.citex}  
+    [I thought, assuredly Zayd is standing.]{.trans}  
+
+As you can see,
+the
+original
+subject
+([زَيْد]{.ar})
+and info
+([قَائِم]{.ar})
+are now both in the u-case.
+This is because the effect of the [لَ]{.ar} of beginning
+is to cause a
+subject
+and info
+to be in the u-case.
+The government of [ظَنَّ]{.ar} is thus suspended.
+The inner sentence
+[لَزَيْدٌ قَائِمٌ]{.ar}
+is said to be in the positional a-case
+as a direct doee of [ظَنَّ]{.ar} that fulfils the role of two direct doees.
+
+The proof that the inner sentence
+[لَزَيْدٌ قَائِمٌ]{.ar}
+is in the positional a-case
+and that the government of [ظَنَّ]{.ar} is suspended,
+is that if we were to put a conjunction after this sentence,
+then the governing effect of [ظَنَّ]{.ar} would resume.
+For example:
+
+(@) [ظَنَنْتُ لَزَيْدٌ قَائِمٌ **وَعَمْرًا مُنْطَلِقًا**]{.ar}
+    [[Howell §445 2/158](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=219)]{.citex}  
+    [I thought, assuredly Zayd is standing **and [#eamr]{.trn2} is setting out**.]{.trans}  
+
+The preventers that suspend the government of
+the verbs of perception are discussed in the subsections below:
+
+### The negaters [مَا]{.ar}, [إِنْ]{.ar}, and [لَا]{.ar}
+
+Examples:
+
+(@) [لَقَدۡ عَلِمۡتَ مَا هَـٰۤؤُلَاۤءِ یَنطِقُونَ]{.quran}
+    [[[سورة الأنبياء]{.ar} 21:65](https://quran.com/21/65) cited by [النحو العربي: أحكام ومعان]{.ar} 1/346; [Howell §445 2/160](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=221)]{.citex}  
+    ["You have already known that these do not speak!"]{.trans}  
+
+In example () above, the negater [مَا]{.ar} prevents [عَلِمْتَ]{.ar} from
+directly governing two direct doees. Instead,
+the sentence
+[مَا هَؤُلَاءِ يَنْطِقُونَ]{.ar}
+is in the positional a-case as a direct doee
+that fulfils the role two direct doees.
+
+(@) [عَلِمْتُ وَاللهِ إِنْ زَيْدٌ قَائِمٌ]{.ar}
+    [[Howell §445 2/160](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=221)]{.citex}  
+    [I knew, by Allāh, Zayd is not standing.]{.trans}  
+
+(@) [عَلِمْتُ وَاللهِ لَا زَيْدٌ فِي الدَّارِ ولَا عَمْرٌو]{.ar}
+    [[Howell §445 2/160](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=221)]{.citex}  
+    [I knew, by Allāh, Zayd is not in the house, nor [#eamr]{.trn2}.]{.trans}  
+
+
+### [لَ]{.ar} of beginning
+
+We have already seen in example () above, how [لَ]{.ar} of beginning suspends
+the direct government of a verb of perception.
+Here is another example:
+
+(@) [وَلَقَدۡ **عَلِمُوا۟ لَمَنِ** ٱشۡتَرَىٰهُ مَا لَهُۥ فِی ٱلۡـَٔاخِرَةِ مِنۡ خَلَـٰقࣲۚ]{.quran}
+    [[[سورة البقرة]{.ar} 2:102](https://quran.com/2/102) cited by [Howell §445 2/160](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=221)]{.citex}  
+    [But **they [i.e., the Children of Israel] certainly knew that whoever** purchased it [i.e., magic] would not have in the Hereafter any share.]{.trans}  
+
+
+### [لَ]{.ar} of oath
+
+(@) [لَقدْ عَلِمْتُ لَتَأْتِيَنَّ مَنِيَّتِي ~ إِنَّ الْمَنَايًا لَا تَطِيشُ سِهَامُهَا]{.ar}
+    [[النحو العربي: أحكام ومعان]{.ar} 1/346; [Howell §445 2/158](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=219)]{.citex}  
+    [And assuredly, I have known (by God) verily my fate will come. Verily the fates---their arrows do not miss.]{.trans}  
+
+The presence of the [لَ]{.ar} of oath in 
+[لَتَأْتِيَنَّ]{.ar}
+suspends the direct government of [عَلِمْتُ]{.ar}.
+Otherwise the sentence would have been:
+
+(@) [عَلِمْتُ مَنِيَّتِي آتِيَةً]{.ar}
+    [[النحو العربي: أحكام ومعان]{.ar} 1/436]{.citex}  
+    [I have known my fate to be coming.]{.trans}  
+
+### A question sentence
+
+A question sentence can follow
+a verb of perception
+and in such a case
+the government of the verb of perception
+is suspended
+if the entire question sentence
+is its direct doee.
+
+Here is an example:
+
+(@) [عَلِمْتُ أَزَيْدٌ فِي الدَّارِ أَمْ عَمْرٌو]{.ar}
+    [[Howell §445 2/159](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=220)]{.citex}  
+    [I knew whether Zayd was in the house or [#eamr]{.trn2}.]{.trans}  
+
+In example () above,
+the entire question sentence
+[أَزَيْدٌ فِي الدَّارِ أَمْ عَمْرٌو]{.ar}
+is in the a-case
+and it fulfils the role the two direct doees of [عَلِمْتُ]{.ar}.
+That is the traditional explanation.
+However, it is also possible that
+[عَلِمَ]{.ar} here is with the meaning [to know _x_]{.trans}
+in which case the question sentence
+fulfils the role the one required direct doee.
+
+Another point to note is that the question sentence
+is now no longer a question to the listener.
+That is why we have not puntuated the translation with a question mark (?).
+Rather, the entire example sentence
+is signifying that the speaker knows the answer to the question.
+
+Here is another example:
+
+(@) [وَلَتَعۡلَمُنَّ أَیُّنَاۤ أَشَدُّ عَذَابࣰا وَأَبۡقَىٰ]{.quran}
+    [[[سورة طه]{.ar} 20:71](https://quran.com/20/71) cited by [Howell §445 2/159](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=220)]{.citex}  
+    [and you will surely know which of us is more severe in [giving] punishment and more enduring]{.trans}
+
+In example () above,
+there are three possible interpretations^[[[الدر المصون للسمين الحلبي]{.ar} for [سورة طه]{.ar} 20:71](https://tafsir.app/aldur-almasoon/20/71)]:
+
+a. The first interpretation, and the one relevant to our discussion here,
+   is that [أَيّ]{.ar} is a subject and [أَشَدّ]{.ar} is its info.
+   The question sentence
+   [أَیُّنَا أَشَدُّ عَذَابًا وَأَبْقَىٰ]{.ar}
+   fulfils the role the two direct doees of [تَعْلَمُنَّ]{.ar}.
+b. Another interpretation is [تَعْلَمُنَّ]{.ar} here only requires one direct doee
+   and the question sentence is that (positional) direct doee.
+c. A third interpretation is that [أَيّ]{.ar} is a connected noun.
+   [أَيّ]{.ar} itself (not the entire question sentence) is the direct doee of
+   [تَعْلَمُنَّ]{.ar}.
+   And [أَيّ]{.ar} is inflexible ending with a [Dammah]{.trn2} because of a phenomenon described in @sec:mabny_ayy.
+
+Here are some more examples:
+
+(@) [عَلِمْتُ مَتَىٰ السَّفَرُ]{.ar}
+    [[Howell §445 2/159](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=220)]{.citex}  
+    [I knew when the journey was (or would be).]{.trans}
+
+(@) [عَلِمْتُ أَبُو مَنْ زَيْدٌ]{.ar}
+    [[Howell §445 2/159](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=220)]{.citex}  
+    [I knew whose father was Zayd.]{.trans}
+
+(@) [عَلِمْتُ صَبِيحَةَ أَيِّ يَوْمٍ سَفَرُكَ]{.ar}
+    [[Howell §445 2/159](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=220)]{.citex}  
+    [I knew the morning of which day your journey was (or will be).]{.trans}
+
+(@) [وَسَیَعۡلَمُ ٱلَّذِینَ ظَلَمُوۤا۟ أَیَّ مُنقَلَبࣲ یَنقَلِبُونَ]{.quran}
+    [[[سورة الشعراء]{.ar} 26:227](https://quran.com/26/227) cited by [Howell §445 2/159](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=220)]{.citex}  
+    [And those who have wronged are going to know to what [kind of] return they will be returned.]{.trans}  
+
+In example () above, [أَيّ]{.ar} is a question-device in the a-case as a absolute doee, governed by [يَنْقَلِبُونَ]{.ar}.^[[[الدر المصون للسمين الحلبي]{.ar} for [سورة الشعراء]{.ar} 26:227](https://tafsir.app/aldur-almasoon/26/227)]
+The entire question sentence is in the a-case governed by [سَيَعْلَمُ]{.ar}.
+
+FIXME: move following sections to to istifham chapter.
+
+#### Which verbs can precede question questions {.unnumbered}
+
+verbs of knowledge: get examples from howell §445.
+
+سأل and نظر etc. nahw_arabi 1/347
+
+#### Interpretating a question-device vs a connected noun {.unnumbered}
+
+We saw in example () above that
+[أَيّ]{.ar} could be interpreted as a question-device
+or as a connected noun.
+This can be done with the other general connected nouns as well
+like [مَنْ]{.ar} and [مَا]{.ar}.
+But there can be a difference in meaning when one interpretation is chosen over the other.^[[[معاني النحو]{.ar} 2/37](https://shamela.ws/book/17801/420)]
+Consider the following sentence:
+
+(@) [عَلِمْتُ مَنْ قَامَ]{.ar}
+    [[[معاني النحو]{.ar} 2/37](https://shamela.ws/book/17801/420) citing [شرح الرضي على الكافية]{.ar}]{.citex}  
+    [I knew who stood.]{.trans}
+
+If you choose to interpret [مَنْ]{.ar} as an connected noun,
+then you are saying that the person who stood was known to you.
+As if to say, "I am familiar with the person who stood."
+[مَنْ]{.ar} in this case is (itself) the direct doee of [عَلِمْتُ]{.ar}.
+
+And
+if you choose to interpret [مَنْ]{.ar} as an question-device,
+then you are saying that you knew the answer of the question, "Who stood?"
+So you could pick him out of a line-up.
+But you are not necessarily saying that you know, or are familiar with, that person.
+The entire question sentence in this case is the direct doee of [عَلِمْتُ]{.ar}.
+
+FIXME: move to istifham chapter:
+
+Similarly, consider:
+
+(@) [سَلْ أَيُّهُمْ قَامَ]{.ar}
+    [[النحو العربي: أحكام ومعان]{.ar} 1/347]{.citex}  
+    [Ask: which of them stood?]{.trans}  
+
+When [أَيّ]{.ar} is a question-device then
+you are commanding someone to ask the question, "Which of them stood?"
+But if you say, with [أَيّ]{.ar} in the a-case:
+
+(@) [سَلْ أَيَّهُمْ قَامَ]{.ar}
+    [[النحو العربي: أحكام ومعان]{.ar} 1/347]{.citex}  
+    [Ask the one of them who stood.]{.trans}  
+
+then you are commanding someone to interrogate the person (amongst a group of people) who stood.^[[النحو العربي: أحكام ومعان]{.ar} 1/347]
+
+### Which verbs' government is subject to suspension?
+
+From the verbs which comprise [ظَنَّ]{.ar} and its sisters,
+suspension of government is limited to the flexible of the verbs of perception.
+So the verbs of rendering like ... do not undergo suspension,
+nor the rigid of the verbs of perception like ...
+
+Additional verbs:
+Howell §445 2/164
+
+## Neutralization of government
+
+Consider the following sentence:
+
+(@) [ظَنَنْتُ زَيْدًا عَالِمًا]{.ar}
+    [[Howell §444 2/155](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=216)]{.citex}  
+    [I thought Zayd to be knowledgeable.]{.trans}  
+
+In example () above,
+[ظَنَّ]{.ar} is governing the subject ([زَيْد]{.ar})
+and info ([عَالِم]{.ar})
+as usual.
+
+Now
+
+Sometimes
+[ظَنَّ]{.ar} (or its sisters)
+occur in a sentence that has a subject and info,
+and the meaning is of a verb of perception,
+i.e. [to think _x_ to be _y_]{.trans},
+but [ظَنَّ]{.ar}
+(in such a sentence) does not directly govern the subject and info.
+
+## Three direct doees
 
 ## one maful 
 
@@ -291,7 +786,7 @@ baseet 445ff
 
 ## Suspension of government
 
-## Cancelation of government
+## Neutralization of government
 
 Peled, "ʿAmal and ʾibtidāʾ in medieval Arabic grammatical tradition"
 
@@ -314,7 +809,7 @@ then [ظَنَّ]{.ar} and its sisters do not require two direct doees.
 
 [[تفسير ابن عاشور]{.ar} for [سورة الأحزاب]{.ar} 33:10](https://tafsir.app/ibn-aashoor/33/10)
 
-##  suspension and cancelation
+##  suspension and neutralization
 
 [ظَنَّ]{.ar} and its sisters are often found in sentences,
 where there are two two nouns that have a subject-info relationship,
