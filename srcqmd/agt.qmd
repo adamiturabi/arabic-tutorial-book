@@ -328,10 +328,10 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \draw [dashed, ->, -{Latex}] (0.7,650) -- (1.5, 669);
 
     \dynasty    {bricks}            {5}    {5}      {0}     {11}  {}{} % Prophet pbuh
-    \dynasty    {bricks}            {2.5}  {6.5}    {11}    {41}  {RASHIDUN}{}
-    \dynasty    {north east lines}  {2}    {7}      {41}    {132} {UMAYYADS}{xshift=-40pt,yshift=-3pt}
+    \dynasty    {bricks}            {2.5}  {6.5}    {11}    {41}  {\large RASHIDUN}{}
+    \dynasty    {north east lines}  {2}    {7}      {41}    {132} {\large UMAYYADS}{xshift=-40pt,yshift=-3pt}
     \dynasty    {north east lines}  {1}    {1}      {\cetoah{711}}    {\cetoah{1031}} {UMAYYADS}{rotate=90}
-    \dynasty    {vertical lines}    {3}    {7}      {132}             {\cetoah{945}} {ABBASIDS}{xshift=30pt,yshift=-9pt}
+    \dynasty    {vertical lines}    {3}    {7}      {132}             {\cetoah{945}} {\large ABBASIDS}{xshift=30pt,yshift=-9pt}
     \dynasty    {vertical lines}    {2}    {2}      {132}             {\cetoah{909}} {}{}% Abbasids % North Africa
     \dynasty    {vertical lines}    {3}    {5}      {\cetoah{945}}    {\cetoah{969}} {}{}% Abbasids % egypt, syria, hijaz
     \dynasty    {dots}              {2}    {1.5}    {\cetoah{788}}    {\cetoah{909}} {\footnotesize IDRISIDS}{rotate=90}
@@ -340,7 +340,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {dots}              {3}    {4}      {\cetoah{934}}    {\cetoah{969}} {\footnotesize IKHSHIDIDS}{}
     \dynasty    {dots}              {7}    {7}      {\cetoah{870}}    {\cetoah{912}} {\footnotesize SAFFARIDS}{}
     \dynasty    {sixpointed stars}  {4}    {5}      {\cetoah{969}}    {\cetoah{1154}} {}{} % Fatimids %  syria and Hijaz
-    \dynasty    {sixpointed stars}  {3}    {3}      {\cetoah{969}}    {\cetoah{1167}} {FATIMIDS}{xshift=10pt}
+    \dynasty    {sixpointed stars}  {3}    {3}      {\cetoah{969}}    {\cetoah{1167}} {\large FATIMIDS}{xshift=10pt}
     \dynasty    {sixpointed stars}  {2}    {2}      {\cetoah{909}}    {\cetoah{1050}} {}{} % Fatimids % North Africa
     \dynasty    {crosshatch}        {3}    {5}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
     %\dynasty    {crosshatch}        {5}    {5}      {600}             {\cetoah{1250}} {}{}
@@ -351,7 +351,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {dots}              {7}    {7}      {\cetoah{1194}}   {\cetoah{1258}} {\small KHWARAZMS}{xshift=9pt}% Abbasids % North Africa
     \dynasty    {fivepointed stars} {6}    {7}      {\cetoah{945}}    {\cetoah{1055}} {BUYIDS}{xshift=10pt}
     \dynasty    {checkerboard}      {6}    {7}      {\cetoah{1258}}   {\cetoah{1335}} {\small MONGOLS}{}
-    \dynasty    {horizontal lines}  {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {MAMLUKS}{xshift=-18pt,yshift=22pt}
+    \dynasty    {horizontal lines}  {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {\large MAMLUKS}{xshift=-18pt,yshift=22pt}
     \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1056}}   {\cetoah{1140}} {\footnotesize ALMORAVIDS}{rotate=60}
     \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1140}}   {\cetoah{1269}} {\footnotesize ALMOHADS}{rotate=60}
     %\dynasty    {dots}              {6}    {7}      {\cetoah{1335}}   {\cetoah{1508}} {\small TURKIC DYNASTIES}{}
@@ -362,7 +362,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {fivepointed stars} {6}    {7}      {\cetoah{1501}}   {\cetoah{1533}} {}{} % safavids
     \dynasty    {fivepointed stars} {7}    {7}      {\cetoah{1533}}   {1000} {\small SAFAVIDS}{xshift=8pt, yshift=2pt} % safavids
     \dynasty    {north west lines}  {6}    {6}      {\cetoah{1533}}   {1000} {}{}
-    \dynasty    {north west lines}  {2}    {5}      {\cetoah{1517}}   {1000} {OTTOMANS}{xshift=0pt}
+    \dynasty    {north west lines}  {2}    {5}      {\cetoah{1517}}   {1000} {\large OTTOMANS}{xshift=0pt}
 
 % Phases
 % Data collection, formation, theroeticlaelaboration, consolidiation, degeneration
