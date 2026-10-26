@@ -329,11 +329,11 @@ depicts a (year of death) timeline and geographical distribution of some of the 
 
     \dynasty    {bricks}            {5}    {5}      {0}     {11}  {}{} % Prophet pbuh
     \dynasty    {bricks}            {2.5}  {6.5}    {11}    {41}  {\large RASHIDUN}{xshift=38pt}
-    \dynasty    {north east lines}  {2}    {7}      {41}    {132} {\large UMAYYADS}{xshift=-20,yshift=-3pt}
-    \dynasty    {north east lines}  {1}    {1}      {\cetoah{711}}    {\cetoah{1031}} {UMAYYADS}{rotate=90}
-    \dynasty    {vertical lines}    {3}    {7}      {132}             {\cetoah{945}} {\large ABBASIDS}{xshift=30pt,yshift=-9pt}
-    \dynasty    {vertical lines}    {2}    {2}      {132}             {\cetoah{909}} {}{}% Abbasids % North Africa
-    \dynasty    {vertical lines}    {3}    {5}      {\cetoah{945}}    {\cetoah{969}} {}{}% Abbasids % egypt, syria, hijaz
+    \dynasty    {vertical lines}    {2}    {7}      {41}    {132} {\large UMAYYADS}{xshift=-20,yshift=-3pt}
+    \dynasty    {vertical lines}    {1}    {1}      {\cetoah{711}}    {\cetoah{1031}} {UMAYYADS}{rotate=90}
+    \dynasty    {crosshatch}        {3}    {7}      {132}             {\cetoah{945}} {\large ABBASIDS}{xshift=30pt,yshift=-9pt}
+    \dynasty    {crosshatch}        {2}    {2}      {132}             {\cetoah{909}} {}{}% Abbasids % North Africa
+    \dynasty    {crosshatch}        {3}    {5}      {\cetoah{945}}    {\cetoah{969}} {}{}% Abbasids % egypt, syria, hijaz
     \dynasty    {dots}              {2}    {1.5}    {\cetoah{788}}    {\cetoah{909}} {\footnotesize IDRISIDS}{rotate=90}
     \dynasty    {dots}              {2.5}  {2}      {\cetoah{800}}    {\cetoah{909}} {\footnotesize AGHLABIDS}{rotate=90}
     \dynasty    {dots}              {3}    {4}      {\cetoah{872}}    {\cetoah{904}} {\footnotesize TULUNIDS}{}
@@ -342,16 +342,16 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {sixpointed stars}  {4}    {5}      {\cetoah{969}}    {\cetoah{1154}} {}{} % Fatimids %  syria and Hijaz
     \dynasty    {sixpointed stars}  {3}    {3}      {\cetoah{969}}    {\cetoah{1167}} {\large FATIMIDS}{xshift=10pt}
     \dynasty    {sixpointed stars}  {2}    {2}      {\cetoah{909}}    {\cetoah{1050}} {}{} % Fatimids % North Africa
-    \dynasty    {crosshatch}        {3}    {5}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
+    \dynasty    {north east lines}  {3}    {5}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
     %\dynasty    {crosshatch}        {5}    {5}      {600}             {\cetoah{1250}} {}{}
     \dynasty    {grid}              {6}    {7}      {\cetoah{1055}}   {\cetoah{1194}} {SELJUKS}{xshift=25pt}
-    \dynasty    {vertical lines}    {6}    {6}      {\cetoah{1194}}   {\cetoah{1258}} {\small ABBASIDS}{}% Abbasids % North Africa
+    \dynasty    {crosshatch}        {6}    {6}      {\cetoah{1194}}   {\cetoah{1258}} {\small ABBASIDS}{}% Abbasids % North Africa
     \dynasty    {grid}              {4}    {5}      {\cetoah{1154}}   {\cetoah{1175}} {\footnotesize ZENGIDS}{}
     \dynasty    {grid}              {3}    {3}      {\cetoah{1167}}   {\cetoah{1175}} {}{}
     \dynasty    {dots}              {7}    {7}      {\cetoah{1194}}   {\cetoah{1258}} {\small KHWARAZMS}{xshift=9pt}% Abbasids % North Africa
     \dynasty    {fivepointed stars} {6}    {7}      {\cetoah{945}}    {\cetoah{1055}} {BUYIDS}{xshift=10pt}
     \dynasty    {checkerboard}      {6}    {7}      {\cetoah{1258}}   {\cetoah{1335}} {MONGOLS}{}
-    \dynasty    {horizontal lines}  {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {\large MAMLUKS}{xshift=-32,yshift=32pt}
+    \dynasty    {horizontal lines}  {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {\large MAMLUKS}{xshift=-32pt,yshift=32pt}
     \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1056}}   {\cetoah{1140}} {\footnotesize ALMORAVIDS}{rotate=60}
     \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1140}}   {\cetoah{1269}} {\footnotesize ALMOHADS}{rotate=60}
     %\dynasty    {dots}              {6}    {7}      {\cetoah{1335}}   {\cetoah{1508}} {\small TURKIC DYNASTIES}{}
@@ -363,6 +363,7 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {fivepointed stars} {7}    {7}      {\cetoah{1533}}   {1000} {SAFAVIDS}{xshift=8pt, yshift=2pt} % safavids
     \dynasty    {north west lines}  {6}    {6}      {\cetoah{1533}}   {1000} {}{}
     \dynasty    {north west lines}  {2}    {5}      {\cetoah{1517}}   {1000} {\large OTTOMANS}{xshift=0pt}
+
 
 % Phases
 % Data collection, formation, theroeticlaelaboration, consolidiation, degeneration
