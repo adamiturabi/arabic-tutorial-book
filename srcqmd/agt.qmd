@@ -347,7 +347,9 @@ depicts a (year of death) timeline and geographical distribution of some of the 
     \dynasty    {sixpointed stars}  {4}    {5}      {\cetoah{969}}    {\cetoah{1154}} {}{} % Fatimids %  syria and Hijaz
     \dynasty    {sixpointed stars}  {3}    {3}      {\cetoah{969}}    {\cetoah{1167}} {\large FATIMIDS}{xshift=10pt}
     \dynasty    {sixpointed stars}  {2}    {2}      {\cetoah{909}}    {\cetoah{1050}} {}{} % Fatimids % North Africa
+    \dynasty    {checkerboard}      {4.2}  {3.4}    {\cetoah{1099}}    {\cetoah{1250}} {}{} % crusaders
     \dynasty    {north east lines}  {3}    {5}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
+    \dynasty    {checkerboard}      {4}    {3.2}    {\cetoah{1099}}    {\cetoah{1187}} {\scriptsize CRUSADERS}{xshift=5pt,rotate=90}
     %\dynasty    {crosshatch}        {5}    {5}      {600}             {\cetoah{1250}} {}{}
     \dynasty    {grid}              {6}    {7}      {\cetoah{1055}}   {\cetoah{1194}} {SELJUKS}{xshift=25pt}
     \dynasty    {crosshatch}        {6}    {6}      {\cetoah{1194}}   {\cetoah{1258}} {\small ABBASIDS}{}% Abbasids % Iraq
