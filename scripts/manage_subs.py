@@ -426,7 +426,8 @@ def get_sub_text(match):
 
     subbed_text = map_table[key] 
     if capitalize and len(subbed_text) > 1:
-      if subbed_text[0] == '[' and len(subbed_text) > 7 and (subbed_text[-7:] == '{.trn2}' or subbed_text[-6:] == '{.trn}'):
+      #if subbed_text[0] == '[' and len(subbed_text) > 7 and (subbed_text[-7:] == '{.trn2}' or subbed_text[-6:] == '{.trn}'):
+      if subbed_text[0] == '[' and len(subbed_text) > 7 and ('{.trn2}' in subbed_text or '{.trn}' in subbed_text):
         subbed_text = subbed_text[0] + '#' + subbed_text[1:]
       else:
         subbed_text = subbed_text[0].upper() + subbed_text[1:] if len(subbed_text) > 1 else ""
