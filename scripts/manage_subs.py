@@ -207,9 +207,9 @@ map_table["3amiling"] = "governing"
 map_table["i3timaad"] = map_table["3amal"] + " support"
 map_table["pregov"] = "foundational " + map_table["3amal"]# initial gov, pre-gov, foundational gov
 
-map_table["ta3alluq"] = "pertinence"
-map_table["muta3alliqbi"] = "pertinent to"
-map_table["muta3allaqbih"] = "pertinentee"
+map_table["ta3alluq"] = "dependence"
+map_table["muta3alliqbi"] = "dependent on"
+map_table["muta3allaqbih"] = "dependee"
 
 map_table["ta3leeq"] = "suspension"
 map_table["mu3allaq"] = "suspended"

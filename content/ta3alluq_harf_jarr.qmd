@@ -1,6 +1,6 @@
 <!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->
 
-# The pertinence of the preposition
+# The dependence of the preposition
 
 
 ::: {.callout-warning}
@@ -10,7 +10,7 @@ IT IS NOT YET READY TO BE STUDIED FROM.
 
 
 
-## Pertinence vs government {#sec-ta3alluq_vs3amal}
+## Dependence vs government {#sec-ta3alluq_vs3amal}
 
 In the Arabic grammatical model, 
 in order to bring a dispensable caseful element into a sentence, a suitable element of the original sentence must act as governor of the new dispensable element.
@@ -28,7 +28,7 @@ And it can only be added to the basic sentence because it is governed by the ver
 [ضَرَبَ]{.ar}.
 
 Prepositions are particles, not caseful elements.
-But they can only be added to sentence when they are _pertinent to_ a
+But they can only be added to sentence when they are _dependent on_ a
 verb,
 or a verb-like element,
 like a [maSdar]{.trn2}, doer participle, etc..
@@ -41,22 +41,22 @@ In example (@ex_ta3alluq_marartu_bizayd) above,
 the preposition [بِ]{.ar}
 (or the entire prepositional phrase
 [بِزَيْدٍ]{.ar})
-is pertinent to the verb
+is dependent on the verb
 [مَرَّ]{.ar}.
 And we will say that the verb
 [مَرَّ]{.ar}
 is the
-_pertinentee_
+_dependee_
 of the preposition
 (or prepositional phrase).
 
 In this sense, a prepositional phrase can be treated like pseudo-caseful dispensable element.
-And the verb it is pertinent to,
-its pertinentee,
+And the verb it is dependent on,
+its dependee,
 can (loosely) be considered its
 governor.^[[[النحو الوافي]{.ar} 2/437](https://shamela.ws/book/10641/1168); [[معاني النحو]{.ar} 3/116](https://shamela.ws/book/17801/841); See also Owens, _The foundations of grammar_ 177]
 This similitude between
-pertinence and government
+dependence and government
 can be seen in the following example:
 
 (@ex000143) [مَرَرْتُ بِزَيْدٍ وَعَمْرًا]{.ar}
@@ -66,7 +66,7 @@ can be seen in the following example:
 
 In example (@ex000143) above,
 the preposition [ب]{.ar}
-is pertinent to the verb
+is dependent on the verb
 [مَرَّ]{.ar}.
 And once it is added,
 the second doee [عَمْرو]{.ar} can (optionally) be added as a direct doee
@@ -197,16 +197,16 @@ allows us to have a (necessarily) unbroken dependency of governorns to add the d
 [ٱلْأَرْض]{.ar}.
 -->
 
-## Prepositions not needing a pertinentee
+## Prepositions not needing a dependee
 
-What we have just said regarding a preposition requiring a pertinentee is true of _essential_ prepositions.
+What we have just said regarding a preposition requiring a dependee is true of _essential_ prepositions.
 An essential preposition is that which, by its addition, gives a distinctly new meaning to the sentence.
 They are also used to connect an indirect doee to its governing verb.
 The preposition [ب]{.ar} in (@ex_ta3alluq_marartu_bizayd) [مَرَرْتُ بِزَيْدٍ]{.ar} is an example of an essential preposition.
 
 There also exist _non-essential_ prepositions.
 These merely give emphasis to an existing meaning in the sentence.
-Non-essential prepositions do not need a pertinentee.
+Non-essential prepositions do not need a dependee.
 Here is an example of a non-essential preposition:
 
 (@ex000144) [ما جاء من رجلٍ]{.ar}
@@ -228,12 +228,12 @@ For example:
 (@ex000146) [خَرَجَ زَيْدٌ مِنَ ٱلْبَيْتِ]{.ar}  
     [Zayd came out from the house.]{.trans}
 
-## Valid pertinentees of the preposition
+## Valid dependees of the preposition
 
-The preposition is usually pertinent to a verb,
+The preposition is usually dependent on a verb,
 as in example (@ex_ta3alluq_marartu_bizayd) above.
 Besides the verb,
-the preposition can also be pertinent to verb-like nouns.
+the preposition can also be dependent on verb-like nouns.
 Such nouns include:
 
 ##### The ism_fi3l {.unnumbered}
@@ -243,7 +243,7 @@ For example:
 (@) [نَزَالِ فِي الْبَاخِرَةِ]{.ar}
     [[[النحو الوافي]{.ar} 2/440](https://shamela.ws/book/10641/1171)]{.citex}  
     [Descend into the steamship!]{.trans}  
-    The preposition [فِي]{.ar} is pertinent to the ism_fi3l [نَزَالِ]{.ar}.
+    The preposition [فِي]{.ar} is dependent on the ism_fi3l [نَزَالِ]{.ar}.
 
 
 ##### The [maSdar]{.trn2} {.unnumbered}
@@ -253,7 +253,7 @@ For example:
 (@) [السُّكُوت عَنِ السَّفِيهِ جَوَابٌ]{.ar}
     [[[النحو الوافي]{.ar} 2/440](https://shamela.ws/book/10641/1171)]{.citex}  
     [Being quiet with the foolish one is an answer.]{.trans}  
-    The preposition [عَنْ]{.ar} is pertinent to the [maSdar]{.trn2} [السُّكُوت]{.ar}.  
+    The preposition [عَنْ]{.ar} is dependent on the [maSdar]{.trn2} [السُّكُوت]{.ar}.  
 
 The one-time noun,
 noun of manner,
@@ -273,12 +273,12 @@ Here are some examples:
 (@) [أَنا سَائِرٌ فِي الطَّرِيقِ]{.ar}
     [[[معاني النحو]{.ar} 3/113](https://shamela.ws/book/17801/838)]{.citex}  
     [I am travelling in the path.]{.trans}  
-    The preposition [فِي]{.ar} is pertinent to the doer participle [سَائِر]{.ar}.  
+    The preposition [فِي]{.ar} is dependent on the doer participle [سَائِر]{.ar}.  
 
 (@) [فَرِحِینَ بِمَاۤ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضۡلِهِۦ]{.quran}
     [[[سورة آل عمران]{.ar} 3:170](https://quran.com/3/170)]{.citex}  
     [Rejoicing in what Allāh has bestowed upon them of His bounty.]{.trans}  
-    The preposition [بِ]{.ar} is analyzed to be pertinent to the static adjectival noun [فَرِحِينَ]{.ar}.^[[[الجدول في إعراب القرآن لمحمود صافي]{.ar} for [سورة آل عمران]{.ar} 3:170](https://tafsir.app/aljadwal/3/170)]
+    The preposition [بِ]{.ar} is analyzed to be dependent on the static adjectival noun [فَرِحِينَ]{.ar}.^[[[الجدول في إعراب القرآن لمحمود صافي]{.ar} for [سورة آل عمران]{.ar} 3:170](https://tafsir.app/aljadwal/3/170)]
 
 By the way,
 one of the conditions that allow
@@ -296,14 +296,14 @@ we cannot say:
     [This [person] beat Zayd yesterday.]{.trans}  
 
 
-However, in the case of a preposition being pertinent to a deverbal noun,
+However, in the case of a preposition being dependent on a deverbal noun,
 it seems that it can do so with a perfect aspect.
 For example:
 
 (@) [أَتَانِي اللَّيْلَةَ آتِيَانِ فَابْتَعَثَانِي، فَانْتَهَيْنَا إِلَى مَدِينَةٍ **مَبْنِيَّةٍ بِلَبِنِ ذَهَبٍ** وَلَبِنِ فِضَّةٍ]{.ar}
     [[[صحيح البخاري]{.ar} :4674](https://sunnah.com/bukhari:4674)]{.citex}  
     [Two [persons] came to me last night (in my dream) and they took me. We came to a city **built with gold bricks** and silver bricks.]{.trans}  
-    [مَبْنِيَّة]{.ar} has a perfective aspect, yet [بِ]{.ar} is pertinent to it.
+    [مَبْنِيَّة]{.ar} has a perfective aspect, yet [بِ]{.ar} is dependent on it.
 
 Similarly, in the [Ayah]{.trn2}:
 
@@ -311,7 +311,7 @@ Similarly, in the [Ayah]{.trn2}:
     [[[سورة الأعراف]{.ar} 7:75](https://quran.com/7/75)]{.citex}  
     [Do you [actually] know that Ṣāliḥ is **sent from** his Lord?]{.trans}
 
-the preposition [مِنْ]{.ar} is analyzed to be pertinent to the doee participle [مُرْسَلٌ]{.ar}.^[[[الجدول في إعراب القرآن لمحمود صافي]{.ar} for [سورة الأعراف]{.ar} 7:75](https://tafsir.app/aljadwal/7/75)]
+the preposition [مِنْ]{.ar} is analyzed to be dependent on the doee participle [مُرْسَلٌ]{.ar}.^[[[الجدول في إعراب القرآن لمحمود صافي]{.ar} for [سورة الأعراف]{.ar} 7:75](https://tafsir.app/aljadwal/7/75)]
 
 
 <!--
@@ -324,7 +324,7 @@ Some deverbal nouns do not govern a a-case governee,
 like
 the noun of time and the noun of place.
 However, some grammarians
-still allowed prepositions to be pertinent to them.^[[النحو الوافي]{.ar} 2/440 citing [حاشية الصبان على شرح الأشمونى لألفية ابن مالك]{.ar} 2/443]
+still allowed prepositions to be dependent on them.^[[النحو الوافي]{.ar} 2/440 citing [حاشية الصبان على شرح الأشمونى لألفية ابن مالك]{.ar} 2/443]
 Others disagreed and did not permit them to do so.^[[الخصائص لابن جني]{.ar} 2/209]
 Examples:
 
@@ -342,29 +342,29 @@ Examples:
 
 ##### A primitive noun when used metaphorically {.unnumbered}
 
-A preposition may also be pertinent to a non-deverbal noun
+A preposition may also be dependent on a non-deverbal noun
 if it is used methaphorically with an adjectival meaning.
 For example:
 
 (@) [هُوَ أَسَدٌ فِي الْمَعْرَكَةِ]{.ar}
     [[[معاني النحو]{.ar} 3/113](https://shamela.ws/book/17801/838)]{.citex}  
     [He is a lion in the battle.]{.trans}  
-    The preposition [فِي]{.ar} is pertinent to [أَسَدٌ]{.ar} because it means [brave]{.trans} here.
+    The preposition [فِي]{.ar} is dependent on [أَسَدٌ]{.ar} because it means [brave]{.trans} here.
 
-## Multiple prepositions pertinent to the same pertinentee
+## Multiple prepositions dependent on the same dependee
 
 Multiple prepositions,
 as long as they are different,
-can all be pertinent to the same pertinentee with no problem.
+can all be dependent on the same dependee with no problem.
 For example:
 
 (@ex_ta3alluq_marartu_bizaydin_filbaadiyah) [مَرَرْتُ بِزَيْدٍ فِي ٱلْبَادِيَةِ]{.ar}  
     [I passed by Zayd in the desert.]{.trans}
 
 In example (@ex_ta3alluq_marartu_bizaydin_filbaadiyah) above,
-both [فِي]{.ar} and [بِ]{.ar} are pertinent to the verb [مَرَّ]{.ar}.
+both [فِي]{.ar} and [بِ]{.ar} are dependent on the verb [مَرَّ]{.ar}.
 
-If the multiple prepositions are the same, then in general they may not be pertinent to the same pertinentee.^[[النحو الوافي]{.ar} 2/444 footnote 3]
+If the multiple prepositions are the same, then in general they may not be dependent on the same dependee.^[[النحو الوافي]{.ar} 2/444 footnote 3]
 So we can't say:
 
 (@ex000149) ✗ [مَرَرْتُ بِزَيْدٍ بِعَمْرٍو]{.ar}
@@ -372,7 +372,7 @@ So we can't say:
     [I passed by Zayd by [#eamr]{.trn2}.]{.trans}  
     (although, separting the second preposition with a conjunction is of course allowed: [مَرَرْتُ بِزَيْدٍ وَبِعَمْرٍو]{.ar}.)
 
-But if the same preposition is used with different meanings then it is permissible for them all to be pertinent to the same pertinentee.
+But if the same preposition is used with different meanings then it is permissible for them all to be dependent on the same dependee.
 For example:
 
 (@ex000150) [مَرَرْتُ بِزَيْدٍ بِٱلْبَادِيَةِ]{.ar}
@@ -385,11 +385,11 @@ For example:
 (@ex000151) [كُلَّمَا رُزِقُوا۟ مِنۡهَا مِن ثَمَرَةࣲ رِّزۡقࣰا]{.quran}
     [[[سورة البقرة]{.ar} 2:25](https://quran.com/2/25)]{.citex}  
     [Whenever they are provided with a provision of fruit therefrom]{.trans}  
-    (The first [مِنْ]{.ar} restricts the pertinentee verb [رُزِقُوا]{.ar} to [ٱلْجَنًّات]{.ar} [the gardens]{.trans}. And the second [مِنْ]{.ar} is restricted to [the fruit of the gardens.]{.trans}^[[[الكشاف للزمخشري]{.ar} for [سورة البقرة]{.ar} 2:25](https://tafsir.app/kashaf/2/25)])
+    (The first [مِنْ]{.ar} restricts the dependee verb [رُزِقُوا]{.ar} to [ٱلْجَنًّات]{.ar} [the gardens]{.trans}. And the second [مِنْ]{.ar} is restricted to [the fruit of the gardens.]{.trans}^[[[الكشاف للزمخشري]{.ar} for [سورة البقرة]{.ar} 2:25](https://tafsir.app/kashaf/2/25)])
 
-## A meaningful connection between the preposition and its pertinentee
+## A meaningful connection between the preposition and its dependee
 
-In order for a prepositional phrase to be pertinent to a pertinentee,
+In order for a prepositional phrase to be dependent on a dependee,
 there needs to be a meaningful connection between them.^[[النحو الوافي]{.ar} 2/442D--445, [معاني النحو]{.ar} 3/131--133]
 
 Consider the following example:
@@ -409,7 +409,7 @@ not with the verb
 Therefore,
 the prepositional phrase
 [بِٱلبَحْرِ]{.ar},
-is pertinent to the verb
+is dependent on the verb
 [شَبَّهَ]{.ar},
 not the verb
 [يَجُودُ]{.ar}.
@@ -424,7 +424,7 @@ not with the verb
 Therefore,
 the prepositional phrase
 [بِمَالِهِ]{.ar},
-is pertinent to the verb
+is dependent on the verb
 [يَجُودُ]{.ar},
 not the verb
 [شَبَّهَ]{.ar}.
@@ -445,7 +445,7 @@ not with the verb
 Therefore,
 the prepositional phrase
 [مِنْ دِينِكُمْ]{.ar}
-is pertinent to the verb
+is dependent on the verb
 [يَئِسَ]{.ar},
 not the verb
 [كَفَرَ]{.ar}.^[[[الدر المصون للسمين الحلبي]{.ar} for [سورة المائدة]{.ar} 5:3](https://tafsir.app/aldur-almasoon/5/3)]
@@ -537,16 +537,16 @@ Consider the sentence:
 
 We mentioned in section\ (ref) above,
 that a preposition 
-needs to be pertinent to
+needs to be dependent on
 a verb (or a verb-like noun).
-But we find no such pertinentee in the sentence above.
+But we find no such dependee in the sentence above.
 So how then can the preposition [فِي]{.ar} be justified?
 
 In order to remain consistent with the Arabic grammatical model,
 we 
 [taqdIr]{.trn2}
-a pertinentee.
-This [taqdIr]{.trn2}ed pertinentee is
+a dependee.
+This [taqdIr]{.trn2}ed dependee is
 called
 _general existence_.
 
@@ -620,18 +620,18 @@ If we were to not [taqdIr]{.trn2} general existence, we would be left with a gra
 We also take this opportunity to explain an apparent inconsistency.
 Back in chapter\ (ref),
 we had said that a prepositional phrase can be the info of a sentence.
-We now state that, strictly speaking, it is the ([taqdIr]{.trn2}ed) pertinentee of the prepostion which is the info.
+We now state that, strictly speaking, it is the ([taqdIr]{.trn2}ed) dependee of the prepostion which is the info.
 But because the actual info is [taqdIr]{.trn2}ed and is not expressed, we can say, loosely speaking,
 that the prepositional phrase is the info.
 
 This approach of applying a terminological label differently when loosely speaking vs when strictly speaking is common.^[[النحو الوافي]{.ar} 1/215, 2/118, 2/442]
 We will see other examples of it in sections\ (refs) if Allāh wills.
 
-## Other [taqdIr]{.trn2}ed pertinentees besides general existence
+## Other [taqdIr]{.trn2}ed dependees besides general existence
 
 While general existence is necessarily [taqdIr]{.trn2}ed and never expressed (see section\ (ref) above),
-other pertinentees of prepositions too may be optionally [taqdIr]{.trn2}ed.
-This is done on the condition that that the overall meaning or context supplies the meaning of the [taqdIr]{.trn2}ed pertinentee.^[[النحو الوافي]{.ar} 2/447 footnote]
+other dependees of prepositions too may be optionally [taqdIr]{.trn2}ed.
+This is done on the condition that that the overall meaning or context supplies the meaning of the [taqdIr]{.trn2}ed dependee.^[[النحو الوافي]{.ar} 2/447 footnote]
 For example:
 
 (@ex000167) [ٱلۡحُرُّ بِٱلۡحُرِّ]{.quran}
@@ -639,7 +639,7 @@ For example:
     [the free for the free]{.trans}
 
 In the above example,
-the info has been analyzed as the [taqdIr]{.trn2}ed pertinentee
+the info has been analyzed as the [taqdIr]{.trn2}ed dependee
 [يَقْتَصُّ]{.ar} [is retributed against]{.trans}
 or
 [يُقْتَلُ]{.ar} [is killed]{.trans}.
@@ -659,8 +659,8 @@ Consider the sentence
 
 Now the logical assumption is that the bird was on the branch, not that I was seeing on a branch.
 So this means that the preposition [عَلَىٰ]{.ar} is not meaningfully connected with the verb [رَأَىٰ]{.ar}.
-Therefore, [عَلَىٰ]{.ar} cannot be pertinent to [رَأَىٰ]{.ar}.^[[استيفاء حالات تعلق الجار والمجرور و الظرف وأثره في المعنى لعلي هاني]{.ar}]
-So what then is the pertinentee the preposition [عَلَىٰ]{.ar}.
+Therefore, [عَلَىٰ]{.ar} cannot be dependent on [رَأَىٰ]{.ar}.^[[استيفاء حالات تعلق الجار والمجرور و الظرف وأثره في المعنى لعلي هاني]{.ar}]
+So what then is the dependee the preposition [عَلَىٰ]{.ar}.
 
 Here again, we use general existence, as if to say:
 
@@ -668,7 +668,7 @@ Here again, we use general existence, as if to say:
     [I saw a bird [being] on the branch.]{.trans}
 
 The preposition [عَلَىٰ]{.ar}
-is pertinent to
+is dependent on
 general existence
 [[مُسْتَقِرًّا]]{.ar}.
 General existence is also a attribute to the direct doee 
@@ -714,12 +714,12 @@ Here are some more examples of prepositional phrases as attributes:
 
 
 When a prepositional phrase is, loosely speaking, a attribute,
-it is typically pertinent to
+it is typically dependent on
 general existence.^[[أوضح المسالك لابن هشام]{.ar} 2/285, [شرح ابن عقيل على الألفية]{.ar} 1/213].
 <!--
 In fact, some grammarians insist that the [taqdIr]{.trn2}ed governor can only be general existence.^[[[البحر المحيط لأبي حيان]{.ar} for [سورة آل عمران]{.ar} 3:194](https://tafsir.app/albahr-almuheet/3/194) ([مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ]{.ar})]
 -->
-However, it is conceivable that the pertinentee of the preposition be analyzed, if not formally, then at least in meaning, as some other verb (or verb-like noun).^[[النحو الوافي]{.ar} 2/447 footnote]
+However, it is conceivable that the dependee of the preposition be analyzed, if not formally, then at least in meaning, as some other verb (or verb-like noun).^[[النحو الوافي]{.ar} 2/447 footnote]
 For example:
 
 (@sentence-quran-27-12) [فِی تِسۡعِ ءَایَـٰتٍ إِلَىٰ فِرۡعَوۡنَ وَقَوۡمِهِۦۤۚ]{.quran}
@@ -825,16 +825,16 @@ TODO: move to word order chapter:
 [النحو الوافي]{.ar} 2/54
 -->
 
-## Word order of the preposition and its pertinentee
+## Word order of the preposition and its dependee
 
 <!--
 As a general tendency, a governor will typically precede its governee(s) in sentence word order.
 This is rule is more strict for some governor-governee relationships than for others.
 -->
-A prepositional phrase may freely precede its pertinentee.^[[النحو الوافي]{.ar} 2/444A]
+A prepositional phrase may freely precede its dependee.^[[النحو الوافي]{.ar} 2/444A]
 This may be done for a number of purposes:
 
-##### To limit and particularize the effect of the pertinentee to the noun following the preposition.^[[معاني النحو]{.ar} 3/121] {.unnumbered}
+##### To limit and particularize the effect of the dependee to the noun following the preposition.^[[معاني النحو]{.ar} 3/121] {.unnumbered}
 
 For example:
 
@@ -859,7 +859,7 @@ For example:
 (@ex000180) [وَبِٱلۡأَسۡحَارِ هُمۡ یَسۡتَغۡفِرُونَ]{.quran}
     [[[سورة الذاريات]{.ar} 51:18](https://quran.com/51/18)]{.citex}  
     [And in the hours before dawn they would ask forgiveness]{.trans}  
-    (The prepositional phrase [بِٱلْأَسْحَارِ]{.ar} is placed not just before its pertinentee in the info [يَسْتَغْفِرُونَ]{.ar}, but also before the subject [هُمْ]{.ar}.)
+    (The prepositional phrase [بِٱلْأَسْحَارِ]{.ar} is placed not just before its dependee in the info [يَسْتَغْفِرُونَ]{.ar}, but also before the subject [هُمْ]{.ar}.)
 
 
 The placement of preposition (and also the adverbs of time and place (section\ ref)),
@@ -871,7 +871,7 @@ So for example, we cannot say
 ✗ [هذا زيدا الضارب]{.ar}.
 We have to say instead
 ✓ [هذا الضارب زيدا]{.ar}.
-But an exception is made for the preposition which is pertinent to the doer participle.
+But an exception is made for the preposition which is dependent on the doer participle.
 So we can say:
 
 (@ex000181) [أنا لك المرافق]{.ar}
