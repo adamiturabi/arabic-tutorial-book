@@ -167,223 +167,14 @@ Many famous later grammarians operated out of
 depicts a (year of death) timeline and geographical distribution of some of the more well-known Arabic grammarians.
 
 ::: {#fig-gramtimeline .test-class}
-```{.tikz}
-% The following code is adapted from adapted from Andreas Hallberg’s https://andreasmhallberg.github.io/documents/alt-timeline.tex
-\usetikzlibrary{patterns}
-\usetikzlibrary{calc, backgrounds}
-\usetikzlibrary{arrows.meta, decorations.text}
-\usetikzlibrary{shapes,positioning,intersections,quotes}
 
-\newcommand\cetoah[1]{
-  \fpeval{((#1) - 622) * (365.25/(29.5*12))}
-}
-\newcommand\ceaxis[1]{
-    \draw (7, \cetoah{#1}) -- (7.2, \cetoah{#1}) node [anchor=west] {\footnotesize #1};
-}
+::: {.content-visible when-format="pdf"}
+![](../srctex/gram-timeline/timeline_en_bw.pdf){width=100%}
+:::
 
-% Constants
-\def\begah{0}
-\def\endah{1000}
-\def\beglong{0}
-\def\endlong{7}
-%\def\regions{al-Andalus, North Africa, Egypt, Syria, al-Ḥijāz, al-Kūfah, Bag͡hdād, al-Baṣrah, Persia}
-%\def\regions{al-Andalus, North Africa, Egypt, Syria, al-Ḥijāz, al-Ɛirāq, Persia}
-\def\regions{Spain, North Africa, Egypt, Syria, Arabia, Iraq, Persia}
-
-\def\mixcolor{gray}
-
-\IfPackageLoadedTF{xcolor}{
-\definecolor{GramNameColor}{RGB}{102, 0, 51}
-}{}
-
-\newcommand\condcolor[1]{
-\IfPackageLoadedTF{xcolor}{\textcolor{GramNameColor}{#1}}{#1}
-}
-
-
-%\dynasty{<color>}{<begregion>}{<endregion>}{<begyear ah>}{<endyear ah>}{<name>}{<yshift>}
-\newcommand\dynasty[7]{%
-\begin{pgfonlayer}{background}
-    % bar
-    %\fill [color=#1!10!\mixcolor]
-    %\fill [color=#1!20]
-    \fill [pattern=#1,pattern color=black!10!white]
-    ({#2-1},#4) rectangle (#3,#5);
-    % label
-    \node [black!35, #7, font=\bfseries\sffamily] 
-    at ({#2-1+(#3-#2+1)/2},{#4+(#5-#4)/2}) {#6};
-\end{pgfonlayer}
-}
-%x,y,xshift,yshift,label
-\newcommand\person[7]{%
-    \coordinate (pointnode)  at (#1,#2) {};
-    \node [fill, draw, circle, minimum width=2pt, inner sep=0] at (#1,#2) {};
-    \node (labelnode)  [inner sep=0, outer sep=0, #3 of=pointnode, xshift=#5, yshift=#6,anchor=#4] {\footnotesize \condcolor{#7}};
-    \draw (pointnode)  -- (labelnode.#4);
-}
-
-% phases
-% \phase{<name>}{<begin>}{<end>}
-\newcommand{\phase}[3]{
-    \draw [thin] (-0.8,#2+2) -- (-1,#2+2) -- (-1, #3-2) node [midway, above, rotate=90,align=center, font=\sffamily] {#1} -- (-0.8,#3-2);
-}
-
-\begin{tikzpicture}[x=1.5cm,y=0.15mm, yscale=-1]
-
-
-\draw [help lines, xstep=1.5cm, ystep=1.5cm] (\beglong,\begah) grid (\endlong,\endah+1);
-
-% Axis
-%\draw [->, very thick] (\beglong,0) -- (\endlong+0.2,0);
-%\draw [->, very thick] (0,\begah) -- (0,\endah+20);
-\draw [] (\beglong,0) -- (\endlong,0);
-
-% Axis ticks
-\foreach \y in {100,200,...,\endah} {
-  \draw (0, \y) -- (-.2, \y) node [anchor=east] {\footnotesize \y};
-}
-\draw (0, 0) -- (-.2, 0) node [anchor=east] {\footnotesize 1}; % 1AH
-\node  at (-0.5,50) {\footnotesize \textsc{ah}};
-\node  at (7.5,30) {\footnotesize  \textsc{ce}};
-
-\foreach \y in {600,700,...,1600} {
-  \ceaxis{\y}
-}
-
-
-\foreach [count=\i] \x in \regions {
-    %\node[label={\x}] (\i) at (\i-0.5, 0) {};
-    %\node[rotate=60,align=left,anchor=west] () at (\i-0.7, -7) {\small \x};
-    \node[align=left, anchor=base] () at (\i-0.5, -8) {\small \x};
-}
-\node[rotate=90,align=left,anchor=west] at (5.2, -15) {\scriptsize ←al-Kūfah};
-\node[rotate=90,align=left,anchor=west] at (5.5, -15) {\scriptsize ←Bag͡hdād};
-\node[rotate=90,align=left,anchor=west] at (5.8, -15) {\scriptsize ←al-Baṣrah};
-
-
-%    % Basrah
-    \person{5.75}{69}{above}{south}{-7}{-20}{[Abu l‑Aswad al‑Duʾalī (\textsc{b})]}
-    \person{5.75}{117}{above}{south}{-7}{-21}{[Ɛabd Allāh ibn Abī Is·ḥāq (\textsc{b})]}
-    \person{5.75}{154}{above}{south}{9}{-24}{[Abū Ɛamr ibn al-Ɛalāʾ (\textsc{b})]}
-    %\person{5.5}{149}{right}{west}{-20}{14}{[Ɛīsā ibn Ɛumar (\textsc{b})]}
-    %\person{5.5}{182}{right}{west}{-20}{7}{[Yūnus b. Ḥabīb (\textsc{b})]}
-    \person{5.75}{170}{right}{west}{-20}{4}{al-K͡halīl (\textsc{b})}
-    \person{5.75}{180}{right}{west}{-20}{-4}{Sībawayh (\textsc{b})}
-    %\draw [dashed, ->, -{Latex}] (8.5,170) -- (7.5, 180);
-    \person{5.75}{215}{below}{north}{30}{25}{al-Ak͡hfas͡h al-Awsaṭ (\textsc{b})}
-
-    % Kufah
-    \person{5.25}{187}{left} {east}{16}{8}{[Abū Jaɛfar al‑Ruʾāsī (\textsc{k})]}
-    \person{5.5}{189}{left} {east}{16}{-4}{al-Kisāʾī (\textsc{k})}
-    %\draw [dashed, ->, -{Latex}] (5.25,189) -- (5.5, 189);
-    \person{5.5}{207}{left} {east}{ 16}{-6}{al-Farrāʾ (\textsc{k})}
-    %\draw [dashed, ->, -{Latex}] (5.25,207) -- (5.5, 207);
-    \person{5.25}{684}{below} {north}{-13}{19}{al-Rad̤͡hiyy al-Astarābād͡hī}
-    \draw [dashed, ->, -{Latex}] (6.5,664) -- (5.25, 684);
-
-    % Baghdad
-    %\draw [dashed, ->, -{Latex}] (5.5,270) -- (6.5, 285);
-    \person{5.5}{285}{left} {east}{ 16}{-1}{al-Mubarrad (\textsc{b})}
-    \person{5.5}{291}{left} {east}{ 16}{-6}{T͡haɛlab (\textsc{k})}
-    \person{5.5}{316}{left} {east}{ 16}{-5}{Ibn al-Sarrāj (\textsc{b})}
-    \person{5.5}{337}{left} {east}{ 16}{-6}{al-Zajjājī}
-    \person{5.5}{368}{left} {east}{ 16}{-3}{al-Sīrāfī (\textsc{b})}
-    \person{5.5}{377}{left} {east}{ 16}{-7}{Abū Ɛaliyy al-Fārisī (\textsc{b})}
-    \person{5.5}{384}{left} {east}{ 16}{-12}{al-Rummānī}
-    \person{5.5}{392}{left} {east}{ 16}{-16}{Ibn Jinnī}
-    \person{5.5}{577}{right} {west}{-16}{-1}{Abu l-Barakāt al-Anbārī}
-    %\person{5.5}{684}{right} {west}{-16}{-9}{al-Rad̤͡hiyy al-Astarābād͡hī}
-
-    % Hijaz
-    %\person{4.5}{684}{right} {west}{-15}{-10}{al-Rad̤͡hiyy al-Astarābād͡hī}
-    %\draw [dashed, ->, -{Latex}] (8.5,664) -- (4.5, 684);
-
-    % Syria
-    \person{3.5}{643}{right} {west}{-16}{3}{Ibn Yaɛīs͡h}
-    \person{3.5}{672}{right} {west}{-16}{3}{Ibn Mālik}
-    \draw [dashed, ->, -{Latex}] (0.5,627) -- (3.5, 672);
-
-    % Egypt
-    %\person{2.5}{204}{right} {west}{-16}{0}{al-Shafiei}
-    \person{2.5}{646}{above} {south}{-10}{-8}{Ibn al-Ḥājib}
-    \person{2.5}{745}{right} {west}{-16}{-4}{Abū Ḥayyān}
-    \draw [dashed, ->, -{Latex}] (0.5,674) -- (2.5, 745);
-    \person{2.5}{761}{right} {west}{-16}{-7}{Ibn His͡hām al-Anṣārī}
-    \person{2.5}{769}{right} {west}{-16}{-13}{Ibn Ɛaqīl}
-    \person{2.5}{900}{right} {west}{-16}{5}{al-Us͡hmūnī}
-    \person{2.5}{905}{right} {west}{-16}{-2}{K͡hālid al-Azharī}
-    \person{2.5}{911}{right} {west}{-16}{-9}{al-Suyūṭī}
-
-    % Persia
-    \person{6.5}{471}{left} {east}{ 16}{0}{al-Jurjānī}
-    \person{7}{538}{left} {east}{ 16}{-6}{al-Zamak͡hs͡harī}
-    \draw [dashed, <->, >=Latex] (4.5,538) -- (7, 538);
-    \person{6.5}{395}{left} {east}{ 20}{-12}{Ibn Fāris}
-
-    % Andalus
-    \person{0.5}{592}{left}{east}{20}{-9}{Ibn Mad̤͡hāʾ}
-    \person{0.5}{790}{below}{north}{-13}{22}{Abū Is·ḥāq al-S͡hāṭibī}
-    \person{0.5}{645}{left}{east}{24}{-3}{al-S͡halawbīn}
-
-    % North Africa
-    \person{1.5}{723}{left}{east}{10}{-5}{Ibn Ājurrūm}
-    \person{1.5}{669}{right}{west}{-16}{-3}{Ibn Ɛuṣfūr}
-    \draw [dashed, ->, -{Latex}] (0.7,650) -- (1.5, 669);
-
-    % Kind of a mess. Need to fix coordinate system
-    \dynasty    {bricks}            {5}    {5}      {0}     {11}  {}{} % Prophet pbuh
-    \dynasty    {bricks}            {2.5}  {6.5}    {11}    {41}  {\large RASHIDUN}{xshift=38pt}
-    \dynasty    {vertical lines}    {2}    {7}      {41}    {132} {\large UMAYYADS}{xshift=-20,yshift=-3pt}
-    \dynasty    {vertical lines}    {1}    {1}      {\cetoah{711}}    {\cetoah{1031}} {UMAYYADS}{rotate=90}
-    \dynasty    {crosshatch}        {3}    {7}      {132}             {\cetoah{945}} {\large ABBASIDS}{xshift=30pt,yshift=-9pt}
-    \dynasty    {crosshatch}        {2}    {2}      {132}             {\cetoah{909}} {}{}% Abbasids % North Africa
-    \dynasty    {crosshatch}        {3}    {5}      {\cetoah{945}}    {\cetoah{969}} {}{}% Abbasids % egypt, syria, hijaz
-    \dynasty    {crosshatch}        {6.4}  {5.6}    {\cetoah{945}}    {\cetoah{1194}} {}{}% Abbasids % Baghdad
-    \dynasty    {dots}              {2}    {1.5}    {\cetoah{788}}    {\cetoah{909}} {\footnotesize IDRISIDS}{rotate=90}
-    \dynasty    {dots}              {2.5}  {2}      {\cetoah{800}}    {\cetoah{909}} {\footnotesize AGHLABIDS}{rotate=90}
-    \dynasty    {dots}              {3}    {4}      {\cetoah{872}}    {\cetoah{904}} {\footnotesize TULUNIDS}{}
-    \dynasty    {dots}              {3}    {4}      {\cetoah{934}}    {\cetoah{969}} {\footnotesize IKHSHIDIDS}{}
-    \dynasty    {dots}              {7}    {7}      {\cetoah{870}}    {\cetoah{912}} {\footnotesize SAFFARIDS}{}
-    \dynasty    {sixpointed stars}  {4}    {5}      {\cetoah{969}}    {\cetoah{1154}} {}{} % Fatimids %  syria and Hijaz
-    \dynasty    {sixpointed stars}  {3}    {3}      {\cetoah{969}}    {\cetoah{1167}} {\large FATIMIDS}{xshift=10pt}
-    \dynasty    {sixpointed stars}  {2}    {2}      {\cetoah{909}}    {\cetoah{1050}} {}{} % Fatimids % North Africa
-    \dynasty    {checkerboard}      {4.2}  {3.4}    {\cetoah{1099}}    {\cetoah{1250}} {}{} % crusaders
-    \dynasty    {north east lines}  {3}    {5}      {\cetoah{1171}}   {\cetoah{1250}} {AYYUBIDS}{}
-    \dynasty    {checkerboard}      {4}    {3.2}    {\cetoah{1099}}    {\cetoah{1187}} {\scriptsize CRUSADERS}{xshift=5pt,rotate=90}
-    %\dynasty    {crosshatch}        {5}    {5}      {600}             {\cetoah{1250}} {}{}
-    \dynasty    {grid}              {6}    {7}      {\cetoah{1055}}   {\cetoah{1194}} {SELJUKS}{xshift=25pt}
-    \dynasty    {crosshatch}        {6}    {6}      {\cetoah{1194}}   {\cetoah{1258}} {\small ABBASIDS}{}% Abbasids % Iraq
-    \dynasty    {grid}              {4}    {5}      {\cetoah{1154}}   {\cetoah{1175}} {\footnotesize ZENGIDS}{}
-    \dynasty    {grid}              {3}    {3}      {\cetoah{1167}}   {\cetoah{1175}} {}{}
-    \dynasty    {dots}              {7}    {7}      {\cetoah{1194}}   {\cetoah{1258}} {\small KHWARAZM}{xshift=9pt}% Abbasids % North Africa
-    \dynasty    {fivepointed stars} {6}    {7}      {\cetoah{945}}    {\cetoah{1055}} {BUYIDS}{xshift=10pt}
-    \dynasty    {checkerboard}      {6}    {7}      {\cetoah{1258}}   {\cetoah{1335}} {MONGOLS}{}
-    \dynasty    {horizontal lines}  {3}    {5}      {\cetoah{1250}}   {\cetoah{1517}} {\large MAMLUKS}{xshift=-32pt,yshift=32pt}
-    \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1056}}   {\cetoah{1140}} {\footnotesize ALMORAVIDS}{rotate=60}
-    \dynasty    {crosshatch dots}   {1.5}  {1.5}    {\cetoah{1140}}   {\cetoah{1269}} {\footnotesize ALMOHADS}{rotate=60}
-    %\dynasty    {dots}              {6}    {7}      {\cetoah{1335}}   {\cetoah{1508}} {\small TURKIC DYNASTIES}{}
-    \dynasty    {dots}              {6}    {6}      {\cetoah{1335}}   {\cetoah{1400}} {\footnotesize JALAYRIDS}{}
-    \dynasty    {dots}              {7}    {7}      {\cetoah{1335}}   {\cetoah{1400}} {\footnotesize MUZAFFARIDS}{xshift=5pt}
-    \dynasty    {dots}              {6}    {7}      {\cetoah{1400}}   {\cetoah{1450}} {TIMURIDS}{}
-    \dynasty    {dots}              {6}    {7}      {\cetoah{1450}}   {\cetoah{1501}} {\footnotesize TURKOMAN CONFEDERATIONS}{}
-    \dynasty    {fivepointed stars} {6}    {7}      {\cetoah{1501}}   {\cetoah{1533}} {}{} % safavids
-    \dynasty    {fivepointed stars} {7}    {7}      {\cetoah{1533}}   {1000} {SAFAVIDS}{xshift=8pt, yshift=2pt} % safavids
-    \dynasty    {north west lines}  {6}    {6}      {\cetoah{1533}}   {1000} {}{}
-    \dynasty    {north west lines}  {2}    {5}      {\cetoah{1517}}   {1000} {\large OTTOMANS}{xshift=0pt}
-
-
-% Phases
-% Data collection, formation, theroeticlaelaboration, consolidiation, degeneration
-% \phase{Pre-theoretical\\grammar}{650}{780}
-    \phase{\footnotesize Precursors}                           {\cetoah{660}} {\cetoah{770}}
-    \phase{\footnotesize Early\\\footnotesize grammar}                        {\cetoah{770}} {\cetoah{920}}
-    \phase{\footnotesize Codification and\\\footnotesize systematization}    {\cetoah{920}} {\cetoah{1100}}
-    \phase{\footnotesize Elaboration of forms\\\footnotesize of presentation}{\cetoah{1100}}{\cetoah{1520}}
-
-
-\end{tikzpicture}
-
-```
+::: {.content-visible when-format="html"}
+![](../srctex/gram-timeline/timeline_en_color.svg){fig-alt="Timeline of Arabic grammarians" width=100%}
+:::
 
 A (year of death) timeline and geographical distribution of the more well-known Arabic grammarians.^[Adapted from Andreas Hallberg's figure (and TikZ code) [[`andreasmhallberg.github.io/timeline-of-arab-grammarians`](https://andreasmhallberg.github.io/timeline-of-arab-grammarians)]{.citex}, and from Ovamir Anjum's presentation "Revival, rejuvenation & reform in Islam" [[`youtu.be/cZ6RoRMF-kI`](https://youtu.be/cZ6RoRMF-kI)]{.citex}.]
 [(b)]{.smallcaps}
@@ -1382,7 +1173,7 @@ just like the ;zaahir; ;faa3il; pronouns
 [نَ]{.ar} [they~3f~]{.trans},
 etc.
 #;qaddaring; the ;mustatir; ;faa3il; pronouns
-as attached pronouns has benefits that keeps the grammatical framework coherent
+as attached pronouns has benefits that keeps the grammatical framework consistent
 across different grammatical topics.
 We will see one such benefit in chapter\ (ref), when we discuss the ;tawkeed;.
 
@@ -1574,7 +1365,7 @@ rather than venturing into too much ";3illah; hunting" like the ;basran;s.^[@has
 
 Generally speaking,
 the ;basran;s formed their terminology and opinions
-with a view to building a comprehensive and coherent grammatical framework..
+with a view to building a comprehensive and coherent grammatical framework.
 And it is their terminology and opinions that became the standard with later grammarians.
 Nevertheless,
 the ;kufan; view is often brought in as a reality check against

@@ -1,6 +1,7 @@
 /*-- scss:defaults --*/
-$navbar-bg: #FDFBF7;
-$sidebar-bg: #FDFBF7;
+$body-bg: #f5f5f5;
+$navbar-bg: $body-bg;
+$sidebar-bg: $body-bg;
 
 /*$rubric-red: #b32424; */
 $rubric-red: #9b111e; 
