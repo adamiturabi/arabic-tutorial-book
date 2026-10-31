@@ -1318,6 +1318,22 @@ def populate_resource_list():
     ))
 
   resource_list.append(BibResource(
+    "hallberg_timeline"
+    , cit_type = "ws_ref"
+    , cit_text = 'Hallberg, "Timeline of Arab grammarians"'
+    , bib_text = 'Hallberg, A., "Timeline of Arab grammarians," _Uppercase Alif_ <https://andreasmhallberg.github.io/timeline-of-arab-grammarians>'
+    , sort_key = "Hallberg timeline"
+    ))
+
+  resource_list.append(BibResource(
+    "anjum_revival"
+    , cit_type = "ws_ref"
+    , cit_text = 'Anjum, "Revival, rejuvenation & reform in Islam"'
+    , bib_text = 'Anjum, O., "Revival, rejuvenation & reform in Islam" <https://youtu.be/cZ6RoRMF-kI>'
+    , sort_key = "anjum revival"
+    ))
+
+  resource_list.append(BibResource(
     "cantarino_smap"
     , cit_type = "ws_ref"
     , cit_text = 'Cantarino, _Syntax of modern Arabic prose_'
