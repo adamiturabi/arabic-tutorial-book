@@ -280,6 +280,7 @@ map_table["waw_haal"] = "[و]{.ar} of " + map_table["haal"]
 map_table["hamza_wasl"] = "connecting hamzah"
 
 map_table["idaafah"] = "annexation"
+map_table["yudaaf"] = "annex"
 map_table["idh_sudden"] = "[إِذَا]{.ar} or suddenness"
 map_table["indir_mafulb"] = "indirect doee"
 map_table["ism_fail"] = "doer participle"
