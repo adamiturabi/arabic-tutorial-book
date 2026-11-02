@@ -398,8 +398,16 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "radiy_kafiyah"
     , cit_type = "ar_ref"
-    , cit_text = "[شرح الرضي على الكافية]{.ar}"
+    , cit_text = "[شرح الرضي على الكافية (قار يونس)]{.ar}"
     , bib_text = "شرح الرضي على الكافية، تأليف: الرضي الأستراباذي، تحقيق يوسف حسن عمر، جامعة قار يونس، ليبيا، 1395\\ هـ/1975\\ م  \n      " +format_url_ar("https://ketabonline.com/ar/books/23090")
+    , sort_key = "0686"
+    ))
+
+  resource_list.append(BibResource(
+    "radiy_kafiyah_imam"
+    , cit_type = "ar_ref"
+    , cit_text = "[شرح الرضي على الكافية (الإمام)]{.ar}"
+    , bib_text = "شرح الرضي على الكافية، تأليف: الرضي الأستراباذي، تحقيق حسن الحفظي وي يحيى مصري، جامعة الإمام محمد، الرياض، 1414\\ هـ/1993\\ م  1417\\ هـ/1996\\ م  \n      " +format_url_ar("https://archive.org/details/waq97971")
     , sort_key = "0686"
     ))
 
