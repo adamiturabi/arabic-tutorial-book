@@ -64,7 +64,7 @@ as two ;mafulb;s.
 For example:
 
 (@) [ظَنَنْتُ زَيْدًا قَائِمًا]{.ar}  
-    [I thought Zayd to be standing.]{.trans}  
+    [I assumed Zayd to be standing.]{.trans}  
 
 Note that 
 [زَيْدًا]{.ar}
@@ -90,8 +90,114 @@ the sentence
 in example () above
 is not saying that Zayd is standing.
 Rather it is saying that _I thought_ Zayd to be standing.
-So Zayd's standing-ness is only established via my assumption of it.
+So Zayd's "standing-ness" is only established via my assumption of it.
 
+## ;anna; and ;an; with ;af3aal_quloob;
+
+Consider again the sentence:
+
+(@) [ظَنَنْتُ زَيْدًا قَائِمًا]{.ar}  
+    [I assumed Zayd to be standing.]{.trans}  
+
+Literally
+[زَيْدًا]{.ar}
+and
+[قَائِمًا]{.ar}
+are both,
+individually,
+the ;mafulb;s of ;dhanna;.
+However,
+in terms of meaning,
+the ;taqdir; of the sentence is:
+
+(@) [ظَنَنْتُ قِيَامَ زَيْدٍ]{.ar}  
+    [I assumed Zayd to be standing.]{.trans}  
+
+That is,
+in the ;taqdir; of the sentence,
+;dhanna; has one ;mafulb; which is the
+;masdar;
+([قِيَام]{.ar})
+of the second ;mafulb;
+([قَائِم]{.ar})
+;yudaaf;ed to the first ;mafulb;
+([زَيْد]{.ar}).
+
+We have seen
+;masdar;s as a ;taqdir; before
+in the analysis of
+;anna; and ;an;.
+And this similarity allows
+;anna; and ;an; (with their clauses)
+to optionally occur as the ;mafulb; of ;af3aal_quloob;.
+So instead of saying
+[ظَنَنْتُ زَيْدًا قَائِمًا]{.ar},
+we can instead say:
+
+(@) [ظَنَنْتُ **أَنَّ** زَيْدًا قَائِمٌا]{.ar}  
+    [I assumed **that** Zayd is standing.]{.trans}  
+
+(@) [ظَنَنْتُ **أَنْ** يَقُومَ زَيْدٌ]{.ar}  
+    [I assumed **that** Zayd would stand.]{.trans}  
+
+Now the ;anna; and ;an; clauses, respectively,
+are, formally,
+the single ;mafulb; of ;dhanna;.
+This substitution of the two ;mafulb;s
+of ;af3aal_quloob;
+can be considered a form of _;ta3leeq;_,^[utheymeen, haazimi]
+which we will discuss in @sec-ta3leeq below.
+
+In terms of meaning,
+example () above is more assertive than
+the original example ().
+Whereas,
+example () is less assertive and more doubtful than
+the original example ().
+
+Here is another example of substituting tho
+;mafulb;s of a ;fi3l_qalb;
+with an ;anna; clause:
+
+(@) [عَلِمْتُ زَيْدًا قَائِمًا]{.ar}  
+    [I knew Zayd to be standing.]{.trans}  
+
+(@) [عَلِمْتُ **أَنَّ** زَيْدًا قَائِمٌا]{.ar}  
+    [I knew **that** Zayd is standing.]{.trans}  
+
+In this case, we will only use ;anna;
+and not ;an;
+because,
+as we learned in section\ (),
+only ;anna; is used in cases of certainty,
+which is what the verb [عَلِمَ]{.ar} implies.
+
+In examples () and (),
+it was easy to come up with a ;masdari; equivalence of the
+two ;mafulb;s of the ;af3aal_quloob;.
+This is because the second ;mafulb;
+([قَائِم]{.ar})
+was a ;mushtaqq; noun.
+But what if the
+the second ;mafulb; was a ;jamid_noun;?
+For example:
+
+(@) [عَلِمْتُ أَخَاكَ زَيْدًا]{.ar}
+    [[@radiy_kafiyah@ 3/152](https://ketabonline.com/ar/books/23090/read?page=1587&part=4#p-23090-1587-2)]{.citex}  
+    [I knew your brother to be Zayd.]{.trans}  
+
+In this case we can manufacture a ;masdar; from the ;jamid_noun;,
+and still retain the ;taqdir;, thus:
+
+(@) [عَلِمْتُ **زَيْدِيَّةَ** أَخِيكَ]{.ar}
+    [[@radiy_kafiyah@ 3/152](https://ketabonline.com/ar/books/23090/read?page=1587&part=4#p-23090-1587-2)]{.citex}  
+    [I knew the **Zayd-ness** of your brother.]{.trans}  
+
+And using this ;masdari; equivalence,
+we can substitute it with ;anna;, thus:
+
+(@) [عَلِمْتُ **أَنَّ** أَخَاكَ زَيْدٌ]{.ar}  
+    [I knew **that** your brother is Zayd.]{.trans}  
 
 
 ## Introduction
@@ -309,7 +415,7 @@ Here are some examples:
     [@https://quran.com/18/53@ cited by @nahw_arabi@ 1/332]{.citex}  
     [And the criminals will see the Fire and will be certain that they are to fall therein. And they will not find from it a way elsewhere.]{.trans}  
 
-As to the usage of ;anna; in the examples above, see @sec:ta3leeq below.
+As to the usage of ;anna; in the examples above, see @sec-ta3leeq below.
 
 ;dhanna; can also have the meaning of [to suspect (someone)]{.trans}.
 With this meaning, it is no longer a ;fi3l_qalb;,
@@ -642,7 +748,7 @@ are interpreted to be thus:
     [...\ you claim them to be partners]{.trans}
 
 
-## #;ta3leeq; of government
+## #;ta3leeq; of government {#sec-ta3leeq}
 
 There are sentences in which
 the ;af3aal_quloob; were to exercise their
@@ -814,7 +920,7 @@ b. Another interpretation is [تَعْلَمُنَّ]{.ar} here only requires on
 c. A third interpretation is that [أَيّ]{.ar} is a ;ism_mawsul;.
    ;ayy; itself (not the entire ;istifham; sentence) is the ;mafulb; of
    [تَعْلَمُنَّ]{.ar}.
-   And ;ayy; is ;mabny; ending with a ;umark; because of a phenomenon described in @sec:mabny_ayy.
+   And ;ayy; is ;mabny; ending with a ;umark; because of a phenomenon described in @sec-mabny_ayy.
 
 Here are some more examples:
 
