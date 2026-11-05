@@ -11,19 +11,108 @@ IT IS NOT YET READY TO BE STUDIED FROM.
 
 ## Introduction
 
-There are some verbs that,
-in addition to a doer,
-also
-generally require two direct doees.
-[ظَنَّ]{.ar} is one of these verbs.
+Consider the sentence:
+
+(@) [زَيْدٌ قَائِمٌ]{.ar}  
+    [Zayd is standing.]{.trans}  
+
+This entire sentence can be the inner sentence of a compound sentence as the direct doee of the verb
+[قَالَ]{.ar}.
+So we can say:
+
+(@) [قُلْتُ زَيْدٌ قَائِمٌ]{.ar}  
+    [I said, "Zayd is standing."]{.trans}  
+
+In example () above, the verb
+[قَالَ]{.ar}
+does not exercise its government _within_ the inner sentence
+[زَيْدٌ قَائِمٌ]{.ar}.
+Rather, the inner sentence is,
+as a whole,
+the (positional) direct doee.
+This is because the verb
+[قَالَ]{.ar}
+does not have a meaningful connection with the
+_content_ of the inner sentence.
+It is simply relating the sentence as direct speech.
+
+In addition to a nounal sentence like
+[زَيْدٌ قَائِمٌ]{.ar},
+a verbal sentence too can be the direct doee of
+[قَالَ]{.ar}.
+So, for example,
+we can say:
+
+(@) [قُلْتُ ضَرَبَ زَيْدٌ]{.ar}
+    [[شرح الرضي على الكافية (قار يونس)]{.ar}]{.citex}  
+    [I said, "Zayd beat."]{.trans}  
+
+Now let's consider what happens when a
+nounal sentence is made the direct doee of a class of verbs
+called _perceptive verbs_.
+
+_Perceptive verbs_ are a class
+of verbs that signify actions taking place within the mind.
+Some examples of perceptive verbs are:
+
++ [ظَنَّ]{.ar} [to conjecture, assume]{.trans}
++ [عَلِمَ]{.ar} [to know]{.trans}
++ [حَسِبَ]{.ar} [to deem]{.trans}
++ [خَالَ]{.ar} [to imagine]{.trans}
+
+These verbs can take a inner nounal sentence
+as a direct doee,
+but instead of taking the entire inner sentence as one direct doee,
+the perceptive verb
+exercises its government within the inner sentence
+and governs the
+original subject and info of the inner sentence individually
+as two direct doees.
 For example:
 
-(@) [ظَنَنْتُ زَيْدًا أَخَاكَ]{.ar}
-    [Peled, _Sentence types_ 188]{.citex}  
-    [I thought Zayd to be your brother.]{.trans}  
+(@) [ظَنَنْتُ زَيْدًا قَائِمًا]{.ar}  
+    [I assumed Zayd to be standing.]{.trans}  
 
-There are other verbs similar to [ظَنَّ]{.ar}.
-We will study them collectively as "[ظَنَّ]{.ar} and its sisters."
+Note that 
+[زَيْدًا]{.ar}
+and
+[قَائِمًا]{.ar}
+are both in the a-case
+because they are,
+individually,
+the direct doees of [ظَنَّ]{.ar}.
+The verb [ظَنَّ]{.ar}
+is able to break up the original
+nounal sentence
+[زَيْدٌ قَائِمٌ]{.ar}
+and govern its constituents individually
+because it has a meaningful connection with the
+content of the inner sentence.
+This is because
+the original subject ([زَيْد]{.ar})'s relationship with
+the original info ([قَائِم]{.ar})
+is only established via the meaning of the verb [ظَنَّ]{.ar}.
+That is,
+the sentence
+in example () above
+is not saying that Zayd is standing.
+Rather it is saying that _I thought_ Zayd to be standing.
+So Zayd's "standing-ness" is only established via my assumption of it.
+
+The perceptive verb thus describes the
+nature of speaker's belief
+of the actuality of the
+original
+info
+ocurring from the original subject.^[[[شرح الرضي على الكافية (قار يونس)]{.ar} 4/153](https://ketabonline.com/ar/books/23090/read?page=1588&part=4#p-23090-1588-2)]
+
+So, for example,
+[ظَنَنْتُ زَيْدًا قَائِمًا]{.ar}
+signifies my _assumption_ of Zayd's standing.
+And
+[عَلِمْتُ زَيْدًا قَائِمًا]{.ar}
+signifies my _knowledge_ of Zayd's standing.
+
 
 ## The lean of the [ظَنَّ]{.ar} sentence
 
@@ -150,7 +239,136 @@ Similarly,
     [Wright 2/52D]{.citex}  
     [Zayd is thought to be brave.]{.trans}  
 
-##  The sisters of [ظَنَّ]{.ar}
+
+## [أَنَّ]{.ar} and [أَنْ]{.ar} with perceptive verbs
+
+Consider again the sentence:
+
+(@) [ظَنَنْتُ زَيْدًا قَائِمًا]{.ar}  
+    [I assumed Zayd to be standing.]{.trans}  
+
+Literally
+[زَيْدًا]{.ar}
+and
+[قَائِمًا]{.ar}
+are both,
+individually,
+the direct doees of [ظَنَّ]{.ar}.
+However,
+in terms of meaning,
+the [taqdIr]{.trn2} of the sentence is:
+
+(@) [ظَنَنْتُ قِيَامَ زَيْدٍ]{.ar}  
+    [I assumed Zayd to be standing.]{.trans}  
+
+That is,
+in the [taqdIr]{.trn2} of the sentence,
+[ظَنَّ]{.ar} has one direct doee which is the
+[maSdar]{.trn2}
+([قِيَام]{.ar})
+of the second direct doee
+([قَائِم]{.ar})
+annexed to the first direct doee
+([زَيْد]{.ar}).
+
+We have seen
+[maSdar]{.trn2}s as a [taqdIr]{.trn2} before
+in the analysis of
+[أَنَّ]{.ar} and [أَنْ]{.ar}.
+And this similarity allows
+[أَنَّ]{.ar} and [أَنْ]{.ar} (with their clauses)
+to optionally occur as the direct doee of perceptive verbs.^[[شرح الرضي على الكافية (قار يونس)]{.ar}; [النحو الوافي]{.ar} 2/43]
+So instead of saying
+[ظَنَنْتُ زَيْدًا قَائِمًا]{.ar},
+we can instead say:
+
+(@) [ظَنَنْتُ **أَنَّ** زَيْدًا قَائِمٌ]{.ar}  
+    [I assumed **that** Zayd is standing.]{.trans}  
+
+or:
+
+(@) [ظَنَنْتُ **أَنْ** يَقُومَ زَيْدٌ]{.ar}  
+    [I assumed **that** Zayd would stand.]{.trans}  
+
+Now the [أَنَّ]{.ar} and [أَنْ]{.ar} clauses, respectively,
+are, formally,
+the single direct doee of [ظَنَّ]{.ar}.
+This substitution of the two direct doees
+of perceptive verbs
+can be considered a form of _suspension_,^[utheymeen, haazimi]
+but is really more basic than it.
+We will study suspension in @sec-ta3leeq below, if Allāh wills.
+
+In terms of meaning,
+example () above is more assertive than
+the original example ().
+Whereas,
+example () is less assertive and more doubtful than
+the original example ().
+
+Here is another example of substituting the
+direct doees of a perceptive verb
+with an [أَنَّ]{.ar} clause:
+
+(@) [عَلِمْتُ زَيْدًا قَائِمًا]{.ar}  
+    [I knew Zayd to be standing.]{.trans}  
+
+(@) [عَلِمْتُ **أَنَّ** زَيْدًا قَائِمٌ]{.ar}  
+    [I knew **that** Zayd is standing.]{.trans}  
+
+In this case, we will only use [أَنَّ]{.ar}
+and not [أَنْ]{.ar}
+because,
+as we learned in section\ (),
+only [أَنَّ]{.ar} is used in cases of certainty,
+which is what the verb [عَلِمَ]{.ar} implies.
+
+In examples () and (),
+it was easy to come up with a [maSdar]{.trn2}i equivalence of the
+two direct doees of the perceptive verbs.
+This is because the second direct doee
+([قَائِم]{.ar})
+was a deverbal noun.
+But what if the
+the second direct doee was a primitive noun?
+For example:
+
+(@) [عَلِمْتُ أَخَاكَ زَيْدًا]{.ar}
+    [[[شرح الرضي على الكافية (قار يونس)]{.ar} 3/152](https://ketabonline.com/ar/books/23090/read?page=1587&part=4#p-23090-1587-2)]{.citex}  
+    [I knew your brother to be Zayd.]{.trans}  
+
+In this case we can manufacture a [maSdar]{.trn2} from the primitive noun,
+and still retain the [taqdIr]{.trn2}, thus:
+
+(@) [عَلِمْتُ **زَيْدِيَّةَ** أَخِيكَ]{.ar}
+    [[[شرح الرضي على الكافية (قار يونس)]{.ar} 3/152](https://ketabonline.com/ar/books/23090/read?page=1587&part=4#p-23090-1587-2)]{.citex}  
+    [I knew the **Zayd-ness** of your brother.]{.trans}  
+
+And using this [maSdar]{.trn2}i equivalence,
+we can substitute it with [أَنَّ]{.ar}, thus:
+
+(@) [عَلِمْتُ **أَنَّ** أَخَاكَ زَيْدٌ]{.ar}  
+    [I knew **that** your brother is Zayd.]{.trans}  
+
+<!--
+## Introduction
+
+There are some verbs that,
+in addition to a doer,
+also
+generally require two direct doees.
+[ظَنَّ]{.ar} is one of these verbs.
+For example:
+
+(@) [ظَنَنْتُ زَيْدًا أَخَاكَ]{.ar}
+    [Peled, _Sentence types_ 188]{.citex}  
+    [I thought Zayd to be your brother.]{.trans}  
+
+There are other verbs similar to [ظَنَّ]{.ar}.
+We will study them collectively as "[ظَنَّ]{.ar} and its sisters."
+-->
+
+##  The verbs that comprise [ظَنَّ]{.ar} and its sisters
 
 There are many verbs that behave similar to [ظَنَّ]{.ar},
 in that they require two direct doees.
@@ -164,7 +382,7 @@ as _y_.
 
 These verbs constituting [ظَنَّ]{.ar} and its sisters may be sub-categorized into:
 
-1. *Verbs of perception*. These verbs indicate that the doer believes the first direct doee to be something that is indicated by the second direct doee.
+1. *Perceptive verbs*. These verbs indicate that the doer believes the first direct doee to be something that is indicated by the second direct doee.
    For example:
    [ظَنَّ]{.ar} [to think, conjecture _x_ to be _y_]{.trans},
    [عَلِمَ]{.ar} [to know _x_ to be _y_]{.trans},
@@ -224,10 +442,10 @@ Here are some examples:
     [[[سورة الكهف]{.ar} 18:53](https://quran.com/18/53) cited by [النحو العربي: أحكام ومعان]{.ar} 1/332]{.citex}  
     [And the criminals will see the Fire and will be certain that they are to fall therein. And they will not find from it a way elsewhere.]{.trans}  
 
-As to the usage of [أَنَّ]{.ar} in the examples above, see @sec:ta3leeq below.
+As to the usage of [أَنَّ]{.ar} in the examples above, see @sec-ta3leeq below.
 
 [ظَنَّ]{.ar} can also have the meaning of [to suspect (someone)]{.trans}.
-With this meaning, it is no longer a verb of perception,
+With this meaning, it is no longer a perceptive verb,
 and will only need one direct doee.
 For example:
 
@@ -289,12 +507,28 @@ For example:
     [[[مسند أحمد]{.ar} :5343](https://hadithunlocked.com/ahmad:5343) cited by [البسيط لابن أبي الربيع]{.ar} 447 footnote 1]{.citex}  
     [O women, give charity and do a lot of it, for indeed **I saw you to be the majority of the people of the Fire**, because of much cursing [on your part] and being ungrateful to the husband.]{.trans}  
 
+Similarly, seeing someting in a dream is
+also considered as including the meaning of [to know]{.trans}.
+And so [رَأَى]{.trans}
+with the meaning of
+[to see (in a dream)]{.trans}
+can also take two direct doees.^[[[شرح الرضي على الكافية (قار يونس)]{.ar} 4/151](https://ketabonline.com/ar/books/23090/read?page=1586&part=4#p-23090-1586-2)]
+For example:
+
+(@) [رَأَیۡتُهُمۡ لِی سَـٰجِدِینَ]{.quran}
+    [[[سورة يوسف]{.ar} 12:4](https://quran.com/12/4) cited by [[شرح الرضي على الكافية (قار يونس)]{.ar} 4/151](https://ketabonline.com/ar/books/23090/read?page=1586&part=4#p-23090-1586-2)]{.citex}  
+    [I saw them prostrating to me.]{.trans}  
+
+### [أُرَى]{.ar}
+
+nahw_wafi
+
 
 ### [سَمِعَ]{.ar} {.unnumbered}
 
 [سَمِعَ]{.ar}
 [to hear]{.trans}
-is a sensory verb, not a verb of perception.
+is a sensory verb, not a perceptive verb.
 When the direct doee is the thing heard,
 then
 [سَمِعَ]{.ar} will take only one direct doee.
@@ -356,6 +590,129 @@ where the second direct doee is a prepositional phrase:
     [[[مستدرك الحاكم]{.ar} :4956](https://hadithunlocked.com/hakim:4956)]{.citex}  
     [He said, "By Allāh, indeed that is because of a change in a matter between me and them, but **I think them to be on misguidance**."]{.trans}  
     (First direct doee is [هُمْ]{.ar} [them]{.trans}, second direct doee is [عَلَى ضَلَالٍ]{.ar} [on misguidance]{.trans}.)
+
+## The first direct doee may be a state-of-affairs pronoun
+
+Just like the second direct doee may be a complete sentence,
+similarly,
+the first direct doee may be a state-of-affairs pronoun
+because a state-of-affairs pronoun can regularly be the subject of a nounal sentence.
+So we can say:
+
+(@) [حَسِبْتُ يَقُولُ زَيْدٌ]{.ar}
+    [[[شرح الرضي على الكافية (قار يونس)]{.ar} 3/152](https://ketabonline.com/ar/books/23090/read?page=1587&part=4#p-23090-1587-2)]{.citex}  
+    [I deemed [the state-of-affairs to be] Zayd is saying.]{.trans}
+
+In example () above,
+the first direct doee of [حَسِبَ]{.ar}
+is a deleted state-of-affairs pronoun,
+as if to say:
+[حَسِبْتُهُ يَقُولُ زَيْدٌ]{.ar}.^[[[شرح الرضي على الكافية (قار يونس)]{.ar} 3/152](https://ketabonline.com/ar/books/23090/read?page=1587&part=4#p-23090-1587-2)]
+
+However, such usage will be rare.^[footnote]
+
+## Perceptive verbs with only one direct doee
+
+We have alread seen that [عَلِمَ]{.ar},
+while remaining a perceptive verb,
+can take only one direct doee.
+For example,
+we may say:
+
+(@) [عَلِمْتُ زَيْدًا]{.ar}
+    [[شرح الرضي على الكافية (الإمام)]{.ar} 2/988]{.citex}  
+    [I knew Zayd.]{.trans}  
+
+(@) [عَلِمْتُ خُرُوجَ زَيْدٍ]{.ar}
+    [[شرح الرضي على الكافية (الإمام)]{.ar} 2/988]{.citex}  
+    [I knew Zayd's going out.]{.trans}  
+
+Other perceptive verbs,
+like [ظَنَّ]{.ar}
+usually require two direct doees.^[[شرح الرضي على الكافية (الإمام)]{.ar} 2/988]
+Even so,
+sometimes they may take only one direct doee
+when that direct doee refers to
+the thought being perceived.
+This is because, as we discussed in section () above, 
+even when the perceptive verb takes two direct doees,
+their [taqdIr]{.trn2} is a single direct doee.^[[[شرح الرضي على الكافية (قار يونس)]{.ar} 4/153](https://ketabonline.com/ar/books/23090/read?page=1588&part=4#p-23090-1588-1)]
+Here is an example of [ظَنَّ]{.ar} with one direct doee:
+
+(@) [وَلَقَدْ نَزَلْتِ فَلَا **تَظُنِّي غَيْرَهُ** مِنِّي بِمَنْزِلَةً الْمُحَبِّ الْمُكْرَمِ]{.ar}
+    [[شرح الرضي على الكافية (الإمام)]{.ar} 2/988]{.citex}  
+    [And surely you have alighted, so don't **assume other than it** from me, in the place of alighting of the honored beloved.]{.trans}  
+
+[ظَنَّ]{.ar} in example () above has only one direct doee [غَيْرَهُ]{.ar}.
+Similarly, the single direct doee of [ظَنَّ]{.ar}
+can be a pronoun or pointing noun referring to the 
+the thought being perceived.
+For example:
+
+(@) [ظَنَنْتُ ذَاكَ]{.ar}
+    [[[كتاب سيبويه]{.ar} 3/120](https://shamela.ws/book/23018/973)]{.citex}  
+    [I thought that.]{.trans}  
+
+In example () above,
+[ذَاكَ]{.ar} can be the single direct doee of [ظَنَّ]{.ar},
+that refers to some thought.^[[شرح الرضي على الكافية (قار يونس)]{.ar} citing [الفراء]{.ar}]
+The reason why [ذَاكَ]{.ar}
+can be a direct doee, and not necessarily refer to the [maSdar]{.trn2} as a absolute doee
+(as we will see shortly),
+is because one can add the [maSdar]{.trn2} separately as the absolute doee.
+For example:
+
+(@) [خِلْتُ ذَاكَ إِخَالُـ**ـهُ خَالًا**]{.ar}
+    [[[شرح التسهيل لابن مالك]{.ar} 2/65](https://shamela.ws/book/13257/471)]{.citex}  
+    [I imagined that, imagining **it [with] an imagining**.]{.trans}  
+    ([خَالًا]{.ar} is the absolute doee while [إِخَالُهُ]{.ar} is taking the pronoun [هُ]{.ar} as a direct doee.)
+
+Similarly, if someone says:
+
+(@) [أَظُنُّ زَيْدًا قَائِمًا]{.ar}
+    [[شرح الرضي على الكافية (قار يونس)]{.ar}]{.citex}  
+    [I assume Zayd to be standing.]{.trans}
+
+then the reply to this can be:
+
+(@) [أَنَا أَيْضًا أَظُنُّـ**ـهُ**]{.ar}
+    [[شرح الرضي على الكافية (قار يونس)]{.ar}]{.citex}  
+    [I too assume **it**.]{.trans}  
+    (The pronoun [هُ]{.ar} is a direct doee and refers to the thought "Zayd is standing".)
+
+Having said this,
+some grammarians were of the opinion that
+a single pronoun or pointing noun governed by [ظَنَّ]{.ar} can only
+refer to the [maSdar]{.trn2} of [ظَنَّ]{.ar},
+such that it is a deputy
+to the [maSdar]{.trn2} as the absolute doee.^[See [[التذييل والتكميل لأبي حيان]{.ar} 6/19](https://shamela.ws/book/17116/1710)]
+
+[ظَنَّ]{.ar} can also occur with an indirect doee,
+which signifies the thing being thought _about_.
+For example:
+
+(@) [ظَنَنْتُ **بِهِ**]{.ar}
+    [[[شرح الرضي على الكافية (قار يونس)]{.ar} 4/153](https://ketabonline.com/ar/books/23090/read?page=1588&part=4#p-23090-1588-2)]{.citex}  
+    [I thought **about him**.]{.trans}  
+
+
+Consider also the following [Ayah]{.trn2}:
+
+(@) [وَطَاۤىِٕفَةࣱ قَدۡ أَهَمَّتۡهُمۡ أَنفُسُهُمۡ **یَظُنُّونَ بِٱللَّهِ غَیۡرَ ٱلۡحَقِّ ظَنَّ ٱلۡجَـٰهِلِیَّةِۖ**]{.quran}  
+    [[[سورة آل عمران]{.ar} 3:154](https://quran.com/3/154) cited by [[شرح الرضي على الكافية (قار يونس)]{.ar} 4/153](https://ketabonline.com/ar/books/23090/read?page=1588&part=4#p-23090-1588-2)]{.citex}  
+    [while another faction worried about themselves, thinking of Allāh other than the truth - the thought of ignorance]{.trans}
+
+There are a few different analyses of [ظَنَّ]{.ar} and its
+governees:
+
+  i. [غَيْرَ الْحَقِّ]{.ar} is the direct doee and [بِاللهِ]{.ar} is indicating who is being thought about,^[[[شرح الرضي على الكافية (قار يونس)]{.ar} 4/153](https://ketabonline.com/ar/books/23090/read?page=1588&part=4#p-23090-1588-2)] like:
+     (@) [ظَنَنْتُ بِزَيْدٍ]{.ar}
+         [[[الدر المصون للسمين الحلبي]{.ar} for [سورة آل عمران]{.ar} 3:154](https://tafsir.app/aldur-almasoon/3/154)]{.citex}  
+         [I thought about Zayd]{.trans}
+
+ ii. [غَيْرَ الْحَقِّ]{.ar} is the first direct doee and [بِاللهِ]{.ar} is the second direct doee.^[[[التبيان في إعراب القرآن للعكبري]{.ar} 1/303](https://shamela.ws/book/22928/304)]
+iii. [غَيْرَ الْحَقِّ]{.ar} is the a deputy to the [maSdar]{.trn2} as a absolute doee, and [ظَنَّ الْجَاهِلِيَّةِ]{.ar} is its re-specifier.^[[[الكشاف للزمخشري]{.ar} for [سورة آل عمران]{.ar} 3:154](https://tafsir.app/kashaf/3/154)]
+
 
 ## When two direct doees are not required
 
@@ -546,10 +903,10 @@ are interpreted to be thus:
     [...\ you claim them to be partners]{.trans}
 
 
-## Suspension of government
+## Suspension of government {#sec-ta3leeq}
 
 There are sentences in which
-the verbs of perception were to exercise their
+the perceptive verbs were to exercise their
 governing effect
 on a subject and info.
 But their direct government
@@ -609,7 +966,7 @@ For example:
     [I thought, assuredly Zayd is standing **and [#eamr]{.trn2} is setting out**.]{.trans}  
 
 The preventers that suspend the government of
-the verbs of perception are discussed in the subsections below:
+the perceptive verbs are discussed in the subsections below:
 
 ### The negaters [مَا]{.ar}, [إِنْ]{.ar}, and [لَا]{.ar}
 
@@ -643,7 +1000,7 @@ Similarly:
 ### [لَ]{.ar} of beginning
 
 We have already seen in example () above, how [لَ]{.ar} of beginning suspends
-the direct government of a verb of perception.
+the direct government of a perceptive verb.
 Here is another example:
 
 (@) [وَلَقَدۡ **عَلِمُوا۟ لَمَنِ** ٱشۡتَرَىٰهُ مَا لَهُۥ فِی ٱلۡـَٔاخِرَةِ مِنۡ خَلَـٰقࣲۚ]{.quran}
@@ -669,9 +1026,9 @@ Otherwise the sentence would have been:
 ### A question sentence
 
 A question sentence can follow
-a verb of perception
+a perceptive verb
 and in such a case
-the government of the verb of perception
+the government of the perceptive verb
 is suspended
 if the entire question sentence
 is its direct doee.
@@ -718,7 +1075,7 @@ b. Another interpretation is [تَعْلَمُنَّ]{.ar} here only requires on
 c. A third interpretation is that [أَيّ]{.ar} is a connected noun.
    [أَيّ]{.ar} itself (not the entire question sentence) is the direct doee of
    [تَعْلَمُنَّ]{.ar}.
-   And [أَيّ]{.ar} is inflexible ending with a [Dammah]{.trn2} because of a phenomenon described in @sec:mabny_ayy.
+   And [أَيّ]{.ar} is inflexible ending with a [Dammah]{.trn2} because of a phenomenon described in @sec-mabny_ayy.
 
 Here are some more examples:
 
@@ -760,7 +1117,7 @@ But there can be a difference in meaning when one interpretation is chosen over 
 Consider the following sentence:
 
 (@) [عَلِمْتُ مَنْ قَامَ]{.ar}
-    [[[معاني النحو]{.ar} 2/37](https://shamela.ws/book/17801/420) citing [شرح الرضي على الكافية]{.ar}]{.citex}  
+    [[[معاني النحو]{.ar} 2/37](https://shamela.ws/book/17801/420) citing [شرح الرضي على الكافية (قار يونس)]{.ar}]{.citex}  
     [I knew who stood.]{.trans}
 
 If you choose to interpret [مَنْ]{.ar} as an connected noun,
@@ -840,12 +1197,12 @@ The same goes for [أَنْ]{.ar}. For example:
 
 Suspension of government is possible for the following categories of verbs:
 
-#### The flexible verbs of perception from [ظَنَّ]{.ar} and its sisters {.unnumbered}
+#### The flexible perceptive verbs from [ظَنَّ]{.ar} and its sisters {.unnumbered}
 
-We have seen examples of suspension with verbs of perception that take two direct doees like [ظَنَّ]{.ar}, [عَلِمَ]{.ar}, [حَسِبَ]{.ar}, etc.
+We have seen examples of suspension with perceptive verbs that take two direct doees like [ظَنَّ]{.ar}, [عَلِمَ]{.ar}, [حَسِبَ]{.ar}, etc.
 above.
 
-verbs of perception that are rigid
+perceptive verbs that are rigid
 like
 [هَبْ]{.ar} [grant]{.trans}
 and
@@ -860,9 +1217,9 @@ like
 etc.,
 are also excluded.
 
-#### Any other verb of perception even if it is not from [ظَنَّ]{.ar} and its sisters {.unnumbered}
+#### Any other perceptive verb even if it is not from [ظَنَّ]{.ar} and its sisters {.unnumbered}
 
-Some verbs of perception may take only one direct doee, like
+Some perceptive verbs may take only one direct doee, like
 [عَرَفَ]{.ar} [to recognize, know _x_]{.trans}.
 These too are subject to suspension.
 So, for example, we can say:
@@ -878,17 +1235,17 @@ and so the entire question sentence
 [مَنْ أَبُوكَ]{.ar}
 fulfils the role of its direct doee.
 
-Other verbs of perception that take only only one direct doee
+Other perceptive verbs that take only only one direct doee
 (like [عَلِمَ]{.ar} when used to mean [to know _x_]{.trans}),
 or that take an indirect direct doee 
 (like [تَفَكَّرَ فِي]{.ar} [to think (about _x_)]{.trans}),
 are also similarly subject to suspension.^[[Howell §445 2/164](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=225)]
 
-#### Causatives of the verbs of perception {.unnumbered}
+#### Causatives of the perceptive verbs {.unnumbered}
 
-There are some verbs that are not verbs of perception per se,
+There are some verbs that are not perceptive verbs per se,
 but they are
-causatives of the verbs of perception.
+causatives of the perceptive verbs.
 These verbs too may be subject to suspension.^[[[البسيط لابن أبي الربيع]{.ar} 446](https://archive.org/details/0969pdf_201912/page/n445/mode/2up)]
 Let's explain what we mean with some examples.
 
@@ -896,7 +1253,7 @@ Let's explain what we mean with some examples.
 The verb
 [سَمِعَ]{.ar}
 [to hear]{.trans}
-is a sensory verb, not a verb of perception.
+is a sensory verb, not a perceptive verb.
 But hearing enables one to _know_.
 [سَمِعَ]{.ar}
 can even take two direct doees, for example:
