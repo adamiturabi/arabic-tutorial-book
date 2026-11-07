@@ -164,6 +164,8 @@ map_table["acase"] = "a-case"  # propped-case
 map_table["icase"] = "i-case"  # lowered-case
 map_table["0"] = "ø"  # clipped-case
 map_table["0case"] = map_table["0"] + "-case"  # clipped-case
+map_table["naasib"] = map_table["acase"] + "-izing"
+map_table["jaazim"] = map_table["0case"] + "-izing"
 
 # diacritics
 map_table["amark"] = "[fatHah]{.trn2}"
@@ -253,8 +255,8 @@ map_table["3atf_bayan"] = "clarifying follower"
 map_table["istifham"] = "question"
 map_table["adat_istifham"] = "question-device"
 map_table["af3al"] = "comparative noun"
-map_table["fi3l_qalb"] = "perceptive verb"
-map_table["af3aal_quloob"] = "perceptive verbs"
+map_table["fi3l_qalb"] = "cognitive verb"
+map_table["af3aal_quloob"] = map_table["fi3l_qalb"] + "s"
 map_table["af3aal_tasyeer"] = "verbs of rendering"
 map_table["amr"] = "command"
 map_table["fi3l_shuroo3"] = "verb of beginning"
