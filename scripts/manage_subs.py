@@ -215,6 +215,7 @@ map_table["muta3allaqbih"] = "dependee"
 
 map_table["ta3leeq"] = "suspension"
 map_table["mu3allaq"] = "suspended"
+map_table["mu3alliq"] = "suspender"
 map_table["yu3alliq"] = "suspend"
 map_table["ilghaa"] = "neutralization"
 map_table["mulghaa"] = "neutralized"
