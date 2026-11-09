@@ -156,6 +156,13 @@ def populate_resource_list():
     , bib_text = "جمع الجوامع للسيوطي (ت ٩١١ هـ) " + format_url_ar("https://hadithunlocked.com/suyuti")
     , sort_key = "0911"
     ))
+  resource_list.append(BibResource(
+    "ibnabishaybah"
+    , cit_type = "corpus"
+    , cit_text = "[مصنف ابن أبي شيبة]{.ar}"
+    , bib_text = "مصنف ابن أبي شيبة (ت ٩١١ هـ) " + format_url_ar("https://hadithunlocked.com/ibnabishaybah")
+    , sort_key = "0235"
+    ))
  
   resource_list.append(BibResource(
     "nawawi40"
@@ -398,7 +405,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "radiy_kafiyah"
     , cit_type = "ar_ref"
-    , cit_text = "[شرح الرضي على الكافية (قار يونس)]{.ar}"
+    , cit_text = "[شرح الرضي على الكافية]{.ar}"
     , bib_text = "شرح الرضي على الكافية، تأليف: الرضي الأستراباذي، تحقيق يوسف حسن عمر، جامعة قار يونس، ليبيا، 1395\\ هـ/1975\\ م  \n      " +format_url_ar("https://ketabonline.com/ar/books/23090")
     , sort_key = "0686"
     ))
@@ -406,7 +413,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "radiy_kafiyah_imam"
     , cit_type = "ar_ref"
-    , cit_text = "[شرح الرضي على الكافية (الإمام)]{.ar}"
+    , cit_text = "[شرح الرضي على الكافية (جامعة الإمام محمد)]{.ar}"
     , bib_text = "شرح الرضي على الكافية، تأليف: الرضي الأستراباذي، تحقيق حسن الحفظي وي يحيى مصري، جامعة الإمام محمد، الرياض، 1414\\ هـ/1993\\ م  1417\\ هـ/1996\\ م  \n      " +format_url_ar("https://archive.org/details/waq97971")
     , sort_key = "0686"
     ))
