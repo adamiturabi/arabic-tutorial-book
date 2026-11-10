@@ -23,7 +23,7 @@ In example (@ex_ta3alluq_darab_zayd_3amr) above,
 the basic sentence, with only
 indispensable elements is
 [ضَرَبَ زَيْدٌ]{.ar}.
-The caseful noun [عَمْرًا]{.ar} is a direct doee, which is a dispensable element.
+The caseful noun [عَمْرًا]{.ar} is a direct object, which is a dispensable element.
 And it can only be added to the basic sentence because it is governed by the verb
 [ضَرَبَ]{.ar}.
 
@@ -69,12 +69,12 @@ the preposition [ب]{.ar}
 is dependent on the verb
 [مَرَّ]{.ar}.
 And once it is added,
-the second doee [عَمْرو]{.ar} can (optionally) be added as a direct doee
+the second done-to [عَمْرو]{.ar} can (optionally) be added as a direct object
 (in the a-case).
 So we can say that
 the prepositional phrase
 [بِزَيْدٍ]{.ar}
-is like a pseudo-direct doee,
+is like a pseudo-direct object,
 And that
 the verb
 [مَرَّ]{.ar}
@@ -152,7 +152,7 @@ will govern
 
 ADD DIAGRAM
 
-Another way to look at this is that a prepositional phrase may be parsed (virtually) as a direct doee.^[Kasher, "The term _al-fiʿl al-mutaʿaddī bi-ḥarf jarr_" §3.1 124 citing [ابن جني]{.ar}; [النحو الوافي]{.ar} 2/439; Owens, _The foundations of grammar_ 176 citing [المبرد]{.ar}, [ابن جني]{.ar}, [الزجاجي]{.ar}.]
+Another way to look at this is that a prepositional phrase may be parsed (virtually) as a direct object.^[Kasher, "The term _al-fiʿl al-mutaʿaddī bi-ḥarf jarr_" §3.1 124 citing [ابن جني]{.ar}; [النحو الوافي]{.ar} 2/439; Owens, _The foundations of grammar_ 176 citing [المبرد]{.ar}, [ابن جني]{.ar}, [الزجاجي]{.ar}.]
 Consider the example:
 
 (@sentence-pass-zayd) [مَرَرْتُ بِزَيْدٍ]{.ar}  
@@ -160,8 +160,8 @@ Consider the example:
 
 In the above example, the prepositional phrase
 [بِزَيْدٍ]{.ar}
-may be parsed (virtually) as in the a-case as a direct doee.
-So much so, that if we wish to add a second doee using a conjunction then it may be added in the a-case.
+may be parsed (virtually) as in the a-case as a direct object.
+So much so, that if we wish to add a second done-to using a conjunction then it may be added in the a-case.
 For example:
 
 (@ex000143) [مَرَرْتُ بِزَيْدٍ وَعَمْرًا]{.ar}
@@ -201,7 +201,7 @@ allows us to have a (necessarily) unbroken dependency of governorns to add the d
 
 What we have just said regarding a preposition requiring a dependee is true of _essential_ prepositions.
 An essential preposition is that which, by its addition, gives a distinctly new meaning to the sentence.
-They are also used to connect an indirect doee to its governing verb.
+They are also used to connect an indirect done-to to its governing verb.
 The preposition [ب]{.ar} in (@ex_ta3alluq_marartu_bizayd) [مَرَرْتُ بِزَيْدٍ]{.ar} is an example of an essential preposition.
 
 There also exist _non-essential_ prepositions.
@@ -266,7 +266,7 @@ are also included in this category.^[[[النحو الوافي]{.ar} 2/440 footn
 
 The deverbal nouns include
 the doer participle,
-doee participle,
+object participle,
 static adjectival noun, etc.
 Here are some examples:
 
@@ -311,11 +311,11 @@ Similarly, in the [Ayah]{.trn2}:
     [[[سورة الأعراف]{.ar} 7:75](https://quran.com/7/75)]{.citex}  
     [Do you [actually] know that Ṣāliḥ is **sent from** his Lord?]{.trans}
 
-the preposition [مِنْ]{.ar} is analyzed to be dependent on the doee participle [مُرْسَلٌ]{.ar}.^[[[الجدول في إعراب القرآن لمحمود صافي]{.ar} for [سورة الأعراف]{.ar} 7:75](https://tafsir.app/aljadwal/7/75)]
+the preposition [مِنْ]{.ar} is analyzed to be dependent on the object participle [مُرْسَلٌ]{.ar}.^[[[الجدول في إعراب القرآن لمحمود صافي]{.ar} for [سورة الأعراف]{.ar} 7:75](https://tafsir.app/aljadwal/7/75)]
 
 
 <!--
-Even deverbal nouns that don't typically govern a direct doee 
+Even deverbal nouns that don't typically govern a direct object 
 (like the noun of time and the noun of place)
 are permitted to govern a preposition^[[النحو الوافي]{.ar} 2/440 citing [حاشية الصبان على شرح الأشمونى لألفية ابن مالك]{.ar} 2/443. But [#abU #HayyAn]{.trn2} did not allow this (see ).]:
 -->
@@ -450,7 +450,7 @@ is dependent on the verb
 not the verb
 [كَفَرَ]{.ar}.^[[[الدر المصون للسمين الحلبي]{.ar} for [سورة المائدة]{.ar} 5:3](https://tafsir.app/aldur-almasoon/5/3)]
 
-## The intransitive verb with a preposition: the indirect doee
+## The intransitive verb with a preposition: the indirect done-to
 
 In theory,
 prepositions impart their own meanings.^[Kasher, "The term _al-fiʿl al-mutaʿaddī bi-ḥarf jarr_" §2.7 124]
@@ -508,7 +508,7 @@ For example:
 (@ex000161) [وَجَدْتُ ٱلْكِتَابَ عَلَى ٱلْخِزَانَةِ]{.ar}  
     [I found the book on the cupboard.]{.trans}
 
-But this verb also has specific meanings when used with these prepositions and certain indirect doees
+But this verb also has specific meanings when used with these prepositions and certain indirect done-tos
 (albeit possibly with different [maSdar]{.trn2}s).
 For example:
 
@@ -671,14 +671,14 @@ The preposition [عَلَىٰ]{.ar}
 is dependent on
 general existence
 [[مُسْتَقِرًّا]]{.ar}.
-General existence is also a attribute to the direct doee 
+General existence is also a attribute to the direct object 
 [طَائِرًا]{.ar}.
 But because 
 the [taqdIr]{.trn2}ed general existence is not expressed, we may say, loosely speaking,
 that the prepositional phrase is the attribute.
 
 In order for a prepositional phrase to be a attribute,
-its attributee will usually be an indefinite noun,
+its attributed-to will usually be an indefinite noun,
 like 
 [طَائِرًا]{.ar}
 is in example (@sentence-prep-phrase-na3t) above.
@@ -765,7 +765,7 @@ The [taqdIr]{.trn2} is:
 
 TODO
 
-When a attributee is described by more than one attribute and 
+When a attributed-to is described by more than one attribute and 
 [النحو الوافي]{.ar} 3/496
 
 ## The prepositional phrase in other functions
@@ -787,7 +787,7 @@ the governing verb
 precedes its governees:
 the doer
 [زَيْدٌ]{.ar},
-and the direct doee
+and the direct object
 [عَمْرًا]{.ar}.
 
 However, this order is often varied in order to convey a desired meaning.
@@ -797,7 +797,7 @@ For example:
     [Zayd beat _[#eamr]{.trn2}_.]{.trans}
 
 In example (@sentence-zayd-beat-3amr-object-first) above,
-the direct doee
+the direct object
 [عَمْرًا]{.ar}
 has been placed before its governor
 [ضَرَبَ]{.ar},
@@ -863,7 +863,7 @@ For example:
 
 
 The placement of preposition (and also the adverbs of time and place (section\ ref)),
-is especially flexible compared to other governees.^[[شرح الرضي على الكافية (قار يونس)]{.ar} 1/289D--290A]
+is especially flexible compared to other governees.^[[شرح الرضي على الكافية]{.ar} 1/289D--290A]
 Even when the placement of the governees of a governor might be restricted in general,
 a license is often given to prepositions.
 For example, we saw in section\ (ref), that when a doer participle is prefixed with [ال]{.ar}, then its governees may not precede it.
@@ -911,7 +911,7 @@ Examples:
 -->
 
 <!--
-### Word-order of the direct doee and its governor
+### Word-order of the direct object and its governor
 
 Consider example (@sentence-zayd-beat-3amr) again:
 
@@ -924,11 +924,11 @@ There are six possible permutations of word-order of the above example.
 
 (@ex000182) [عمرا زيد ضرب]{.ar}
 
-In examples ... the doee [عمرا]{.ar} precedes its governor [ضرب]{.ar}.
+In examples ... the done-to [عمرا]{.ar} precedes its governor [ضرب]{.ar}.
 This is generally permitted for stylistic (?) aspects, as we will discuss in chapter (ref).
 
 Lets consider exaple ... in more detail.
-This is because the doee is governed by ضرب in the info. 
+This is because the done-to is governed by ضرب in the info. 
 But it precedes, not just its governor but also the subject of the outer sentence.
 This is normal for some types of governees (like the prep).
 But for the mafulb some grammarians consider it impermissible.

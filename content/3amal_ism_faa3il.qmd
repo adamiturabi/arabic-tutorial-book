@@ -11,7 +11,7 @@ IT IS NOT YET READY TO BE STUDIED FROM.
 
 ## Introduction
 
-The verb is the basic, and strongest, governor of a doer or doee.
+The verb is the basic, and strongest, governor of a doer or done-to.
 Deverbal nouns, because they are derived from the verb, can also govern in a verb-like manner.
 In this chapter
 we will discuss the rules of how such nouns may act as verb-like governors.
@@ -152,7 +152,7 @@ can act like one.
 When acting with verbal force,
 it can govern a doer.
 It can also, as we will see soon, if Allāh wills,
-govern a direct doee.
+govern a direct object.
 
 The doer of the doer participle is,
 by default,
@@ -214,12 +214,12 @@ In the verbs
 the alif in [انِ]{.ar} and the [و]{.ar} in [ونَ]{.ar} are, themselves, considered the doer pronouns.
 And these pronouns are _overt_, not latent.
 
-## The doer participle as the governor of a direct doee
+## The doer participle as the governor of a direct object
 
 We have seen that the doer participle,
 when acting with verbal force, governs a doer.
 In a similar manner,
-the doer participle for transitive verbs can, optionally, govern a direct doee.
+the doer participle for transitive verbs can, optionally, govern a direct object.
 In order to introduce this behavior,
 we use again, as our starting point, the u-case [pc]{.smallcaps} verb.
 Consider the following example:
@@ -233,7 +233,7 @@ Example (@3amal_mush_zaydun_yadribu_3amran) above is parsed as follows:
 * [يَضْرِبُ]{.ar} is a [pc]{.smallcaps} verb in the u-case.
   It governs a latent pronoun (implicated as [هُوَ]{.ar}) in the u-case as its doer. 
   The latent doer pronoun [هُوَ]{.ar} refers back to its referent: the subject [زَيْدٌ]{.ar}.
-* [عَمْرًا]{.ar} is a direct doee, governed in the a-case by  the verb [يَضْرِبُ]{.ar}.
+* [عَمْرًا]{.ar} is a direct object, governed in the a-case by  the verb [يَضْرِبُ]{.ar}.
 * [يَضْرِبُ عَمْرًا]{.ar} is an inner sentence which is in place of a u-case noun as the info of the subject [زَيْدٌ]{.ar}.
 
 Instead of using the verb [يَضْرِبُ]{.ar} in example (@3amal_mush_zaydun_yadribu_3amran) above
@@ -249,15 +249,15 @@ Example (@3amal_mush_zaydun_daaribun_3amran) is parsed as follows:
 * [ضَارِبٌ]{.ar} is the info of the subject [زَيْدٌ]{.ar}.
   It governs a latent pronoun (implicated as [هُوَ]{.ar}) in the u-case as its doer. 
   The latent doer pronoun [هُوَ]{.ar} refers back to the subject [زَيْدٌ]{.ar}.
-* [عَمْرًا]{.ar} is a direct doee, governed in the a-case by the doer participle [ضَارِبٌ]{.ar}.
+* [عَمْرًا]{.ar} is a direct object, governed in the a-case by the doer participle [ضَارِبٌ]{.ar}.
 
 As you can see,
 the doer participle
-[ضَارِبٌ]{.ar} can govern a direct doee just like 
+[ضَارِبٌ]{.ar} can govern a direct object just like 
 the verb [يَضْرِبُ]{.ar}.
 
-However, while a transitive verb can govern a direct doee unconditionally,
-a doer participle can only govern a direct doee if certain conditions are satisfied.
+However, while a transitive verb can govern a direct object unconditionally,
+a doer participle can only govern a direct object if certain conditions are satisfied.
 We will discuss these conditions in section\ (ref) below.
 
 By the way,
@@ -272,11 +272,11 @@ Whereas,
 the doer participle
 [ضَارِبٌ]{.ar} does not form a new sentence with its doer.
 
-### A doer participle defined by [ٱل]{.ar} as the governor of a direct doee
+### A doer participle defined by [ٱل]{.ar} as the governor of a direct object
 
-Example (@3amal_mush_zaydun_daaribun_3amran) shows the government of a direct doee by an doer participle that is not defined by [ٱل]{.ar}.
+Example (@3amal_mush_zaydun_daaribun_3amran) shows the government of a direct object by an doer participle that is not defined by [ٱل]{.ar}.
 In a similar manner,
-an doer participle that _is_ defined by [ٱل]{.ar}, can also govern a direct doee.
+an doer participle that _is_ defined by [ٱل]{.ar}, can also govern a direct object.
 For example:
 
 (@hadha_aldaaribu_zaydan) [هَذَا الضَّارِبُ زَيْدًا]{.ar}
@@ -291,25 +291,25 @@ and if we had used an annexation thus:
 
 This is touched upon in section\ (ma3aani_ism_faa3il).
 
-### Word order of the direct doee and its governing doer participle
+### Word order of the direct object and its governing doer participle
 
-As with verbs, the direct doee usually follows its governing doer participle
+As with verbs, the direct object usually follows its governing doer participle
 (as in the examples above).
 But 
 when an doer participle is not prefixed by [ال]{.ar}, then its
-direct doee is allowed to precede it.
+direct object is allowed to precede it.
 So we can say:
 
 (@ex000188) [هذا زيدا ضارب]{.ar}
     [[[شرح كتاب سيبويه للسيرافي]{.ar} 1/259](https://shamela.ws/book/17726/257)]{.citex}  
     [This [person] is beating Zayd.]{.trans}
 
-While the direct doee is permitted 
+While the direct object is permitted 
 to precede its governing doer participle
 (as above),
 it is very common,
 in such a case,
-for a strengthening-[لِ]{.ar} to be used with an indirect doee instead, thus:
+for a strengthening-[لِ]{.ar} to be used with an indirect object instead, thus:
 
 (@ex000189) [هذا لِزيدٍ ضارب]{.ar}  
     [This [person], to Zayd, is beating.]{.trans}
@@ -324,7 +324,7 @@ The strengthening-[لِ]{.ar} is discussed in more detail in section\ (later cha
 Also,
 the freedom for the governee of a doer participle to precede it is only given to the doer participle not prefixed by [ال]{.ar}.
 When an doer participle is prefixed by [ال]{.ar}, then its
-direct doee is not allowed to precede it.^[[[النحو الوافي]{.ar} 3/263](https://shamela.ws/book/10641/1489#p1)]
+direct object is not allowed to precede it.^[[[النحو الوافي]{.ar} 3/263](https://shamela.ws/book/10641/1489#p1)]
 So we cannot say:
 
 (@ex000191) ✗ [هذا زيدا الضارب]{.ar}
@@ -334,11 +334,11 @@ We would have to say instead
 (@ex000192) ✓ [هذا الضارب زيدا]{.ar}
 
 
-TODO: Fronting the direct doee is not permitted for static adjectival noun. See link in example above. Add to section on static adjectival noun
+TODO: Fronting the direct object is not permitted for static adjectival noun. See link in example above. Add to section on static adjectival noun
 
-### A dual or plural doer participle as the governor of a direct doee
+### A dual or plural doer participle as the governor of a direct object
 
-A dual or plural doer participle may govern a direct doee just like the singular.
+A dual or plural doer participle may govern a direct object just like the singular.
 So we can say:
 
 (@ex000193) [هذان ضاربان زيدًا]{.ar}
@@ -398,10 +398,10 @@ Flexible word order is again permitted for the dual and the plural as it was for
     [[[شرح ابن يعيش على المفصل]{.ar} 4/97](https://shamela.ws/book/13301/1461#p1)]{.citex}  
     [The Hinds are beating [#eamr]{.trn2}.]{.trans}
 
-## Conditions for the doer participle to govern a direct doee {#sec-shuroot_i3maal_ism_faa3il}
+## Conditions for the doer participle to govern a direct object {#sec-shuroot_i3maal_ism_faa3il}
 
 As we mentioned above,
-there are conditions that must be satisfied in order for an doer participle to be able to govern a direct doee in this manner.
+there are conditions that must be satisfied in order for an doer participle to be able to govern a direct object in this manner.
 The conditions are different for when the doer participle is defined by [ٱلْ]{.ar},
 and when it is not defined by [ٱلْ]{.ar}.
 We will discuss each of these cases separately below:
@@ -438,7 +438,7 @@ then two conditions must be satisfied:
          [This [person] will beat Zayd tomorrow.]{.trans}
 
    If the verbal aspect indicated by the doer participle is perfect,
-   then the doer participle may not govern a direct doee.
+   then the doer participle may not govern a direct object.
    So, for example, we cannot say:
 
    (@) ✗ [هَذَا ضَارِبٌ **زَيْدًا** أَمْسِ]{.ar}
@@ -446,7 +446,7 @@ then two conditions must be satisfied:
        [This [person] beat Zayd yesterday.]{.trans}
 
    If we desire to use the doer participle, then it will not have verbal force.
-   And [زَيْد]{.ar} will have to be a annexed-to noun in a  annexation.
+   And [زَيْد]{.ar} will have to be a annexed-to in a  annexation.
    Furthermore, this annexation will be _real_ (see chapter\ (ref)).
 
    (@3amal_mush_hadha_daaribu_zaydin_amsi) [هَذَا ضَارِبُ زَيدٍ أَمْسِ]{.ar}
@@ -455,10 +455,10 @@ then two conditions must be satisfied:
        (See @sec-dharf_i3maal for how [أَمْسِ]{.ar} is governed.)  
 
    An exception is made for
-   for transitive verbs that take more than one direct doee,
+   for transitive verbs that take more than one direct object,
    like [جعل]{.ar}, [أَعطى]{.ar}, etc.
-   When the doer participle of such a verb is annexed to what would have been the first direct doee,
-   then second direct doee is permitted to be in the a-case, 
+   When the doer participle of such a verb is annexed to what would have been the first direct object,
+   then second direct object is permitted to be in the a-case, 
    even if the aspect is perfect.^[See also [[البحر المحيط لأبي حيان]{.ar} for [سورة فاطر]{.ar} 35:1](https://tafsir.app/albahr-almuheet/35/1) and [[الدر المصون للسمين الحلبي]{.ar} for [سورة فاطر]{.ar} 35:1](https://tafsir.app/aldur-almasoon/35/1)]
    For example:
    
@@ -467,7 +467,7 @@ then two conditions must be satisfied:
        [This [person] was the giver of Zayd, yesterday, a dirham.]{.trans}  
 
    
-   Even the first direct doee may remain in the a-case, if separated from the doer participle.
+   Even the first direct object may remain in the a-case, if separated from the doer participle.
    For example:
    
    (@) [هذا ظان أمس زيدا فاضلا]{.ar}
@@ -581,7 +581,7 @@ then two conditions must be satisfied:
 ### When the doer participle is defined by [ٱلْ]{.ar}
 
 When the doer participle is defined by [ٱلْ]{.ar},
-then it is permitted to govern a direct doee for a perfect or imperfect aspect.
+then it is permitted to govern a direct object for a perfect or imperfect aspect.
 <!--
 So we can say:
 
@@ -614,8 +614,8 @@ This grammar is parsed as follows:
 
 * [الْفَارِسُ]{.ar} is the subject of the outer sentence.
 * [الْحِصَانُ]{.ar} is a second subject. It is the subject of the inner sentence.
-* [مُتْبِع]{.ar} is the info of the inner sentence. It is also a annexed noun.
-* The pronoun [هُ]{.ar} is a annexed-to noun.
+* [مُتْبِع]{.ar} is the info of the inner sentence. It is also a annexe.
+* The pronoun [هُ]{.ar} is a annexed-to.
 * The inner sentence [الْحِصَانُ مُتْبِعُهُ]{.ar} is the info of the subject ([الْفَارِسُ]{.ar}) of outer sentence.
 
 The info of the inner sentence [مُتْبِع]{.ar} [one who makes tired]{.trans}
@@ -732,7 +732,7 @@ and say:
 
 [أَبُوهُ]{.ar} is the (overt) doer of the doer participle
 [ضَارِبٌ]{.ar}.
-And [عَمْرًا]{.ar} is its direct doee.
+And [عَمْرًا]{.ar} is its direct object.
 So just like a verb can have an overt noun as its doer instead of a latent pronoun,
 so too can the doer participle have an overt noun as its doer instead of a latent pronoun.
 
@@ -859,16 +859,16 @@ Here are some examples of sababi infos from the [#qurEAn]{.trn2}:
     [and they thought that their fortresses would protect them from Allāh]{.trans}  
     (Another analysis is also possible: [حُصُونُهُمْ]{.ar} can be a subject, and [مَانِعَتُهُمْ]{.ar} is its fronted info.^[[[الدر المصون للسمين الحلبي]{.ar} for [سورة الحشر]{.ar} 59:2](https://tafsir.app/aldur-almasoon/59/2)])
 
-### Word order of the doer and the direct doee in a sababi info
+### Word order of the doer and the direct object in a sababi info
 
-If the doer participle is transitive, then the normal word order is doer participle, doer, direct doee.
+If the doer participle is transitive, then the normal word order is doer participle, doer, direct object.
 For example:
 
 (@ex000218) [هَذَا ضَارب أَبوهُ زيدا]{.ar}
     [[همع الهوامع للسيوطي]{.ar} 3/89]{.citex}  
     [This [person] -- his father is beating Zayd.]{.trans}  
 
-But the direct doee can be made to precede the doer thus:
+But the direct object can be made to precede the doer thus:
 
 (@ex000219) [هذا ضارب زيدا أبوه]{.ar}
     [[[حاشية الصبان على شرح الأشمونى لألفية ابن مالك]{.ar} 2/453](https://shamela.ws/book/11539/883)]{.citex}  
@@ -887,30 +887,30 @@ Consider the following example:
 
 The doer participle 
 [مُنْطَلِقٍ]{.ar}
-is a attribute of the attributee
+is a attribute of the attributed-to
 [رَجُلٍ]{.ar}.
 Because it is a sababi attribute,
 it has a doer
 [أَب]{.ar}
 that is annexed to a pronoun
 [هُ]{.ar}
-which refers to the attributee
+which refers to the attributed-to
 [رَجُلٍ]{.ar}.
 
 We know that,
 in general,
-a attribute will match its attributee in four aspects:
+a attribute will match its attributed-to in four aspects:
 
   i. case
  ii. definiteness
 iii. gender
  iv. number (singular/dual/plural)
 
-The sababi attribute will also match its preceding attributee
+The sababi attribute will also match its preceding attributed-to
 in case and definiteness.
 (You can see the attribute
 [مُنْطَلِقٍ]{.ar}
-matches its attributee
+matches its attributed-to
 [رَجُلٍ]{.ar}
 in the i-case and in being indefinite.)
 But in matching gender and number the sababi attribute has different rules.
@@ -954,7 +954,7 @@ Examples:
 (@ex000229) [مَرَرْت برجل قعُود غلمانه]{.ar}
     [[[شرح قطر الندى وبل الصدى]{.ar} 288](https://shamela.ws/book/6970/263)]{.citex}  
     [I passed by a man whose slave-boys are sitting]{.trans}  
-    (Note that the attributee [رَجُل]{.ar} is singular in this case.)
+    (Note that the attributed-to [رَجُل]{.ar} is singular in this case.)
 
 Some more aspects of gender agreement of the sababi doer with its governing deverbal noun will be discussed in section\ (sifah_mush sababi na3t), if Allāh wills.
 
@@ -981,7 +981,7 @@ therefore it is not a sababi doer.
 
 In section\ (ref) above,
 we discussed the
-conditions for the doer participle to govern a direct doee.
+conditions for the doer participle to govern a direct object.
 Correspondingly, there exist
 conditions for the doer participle to govern a doer.
 
@@ -993,7 +993,7 @@ We will treat each of these separately below:
 
 The grammarians differed with regard to the
 conditions under which the doer participle is allowed to govern an overt doer.
-According to some, the same conditions are applicable as for governing a direct doee,
+According to some, the same conditions are applicable as for governing a direct object,
 namely that 
 when an doer participle is not defined by [ٱل]{.ar},
 then
@@ -1061,7 +1061,7 @@ Consider the following [Ayah]{.trn2} that we discussed in section\ (ref) above:
 We had discussed this as a case of a sababi info.
 But another analysis is also possible:
 The doer participle [آثِمٌ]{.ar} is governing a latent doer pronoun, and
-[قَلْبُهُ]{.ar} is a re-specifier for the latent doer pronoun.^[[[الدر المصون للسمين الحلبي]{.ar} for [سورة البقرة]{.ar} 2:283](https://tafsir.app/aldur-almasoon/2/283)]
+[قَلْبُهُ]{.ar} is a substitute for the latent doer pronoun.^[[[الدر المصون للسمين الحلبي]{.ar} for [سورة البقرة]{.ar} 2:283](https://tafsir.app/aldur-almasoon/2/283)]
 
 #### The doer participle is already governing an overt doer pronoun {.unnumbered}
 
@@ -1073,12 +1073,12 @@ Because the doer is now overt the doer participle will not govern an additional 
     [Zayd -- Hind -- [he] is beating her.]{.trans}  
     (i.e. [Zayd is beating Hind.]{.trans})
 
-#### The doer participle is the annexed noun in a real annexation {.unnumbered}
+#### The doer participle is the annexe in a real annexation {.unnumbered}
 
-When doer participle is the annexed noun in a real annexation,
+When doer participle is the annexe in a real annexation,
 then it will not govern a latent doer pronoun.^[[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar} 142]
 This can happen when the doer participle indicates a perfective aspect.
-We saw an example of this in the conditions for governing a direct doee above:
+We saw an example of this in the conditions for governing a direct object above:
 
 @3amal_mush_hadha_daaribu_zaydin_amsi) [هذا ضارب زيد أمس]{.ar}
    [[شرح ابن عقيل على الألفية]{.ar} 3/106]{.citex}  
@@ -1139,10 +1139,10 @@ Consider again the sentence:
 
 The doer participle 
 [ضَارِبٌ]{.ar}
-has a [tanwIn]{.trn2} which is pronounced before pronouncing the direct doee
+has a [tanwIn]{.trn2} which is pronounced before pronouncing the direct object
 [عَمْرًا]{.ar}.
 In an effort to make the pronunciation easier, this [tanwIn]{.trn2} is often eliminated and replaced with an annexation.
-The direct doee is then made into a annexed-to noun in the i-case.
+The direct object is then made into a annexed-to in the i-case.
 The meaning remains the same.
 So the above sentence then becomes:
 
@@ -1159,10 +1159,10 @@ not in meaning.
 Regarding terminology,
 [عَمْرٍو]{.ar}
 syntactically
-becomes a annexed-to noun in the superficial annexation.
-But in meaning, it is still the direct doee of the doer participle
+becomes a annexed-to in the superficial annexation.
+But in meaning, it is still the direct object of the doer participle
 [ضَارِب]{.ar}.
-We will refer to it as the _semantic direct doee_.
+We will refer to it as the _semantic direct object_.
 
 By the way, the sentence
 [زَيْدٌ ضَارِبُ عَمْرٍو]{.ar}
@@ -1205,16 +1205,16 @@ Examples:
 #### Definiteness of the superficial annexation {.unnumbered}
 
 Because this is a superficial and not a real annexation,
-the annexed noun 
-is not made definite  by a definite annexed-to noun.
-In the examples so far, the annexed-to nouns have been proper nouns 
+the annexe 
+is not made definite  by a definite annexed-to.
+In the examples so far, the annexed-tos have been proper nouns 
 ([زَيْد]{.ar}, [عَمْرو]{.ar})
 which are definite.
 But the doer participles
 ([ضَارِب]{.ar},
 [ضَارِبَا]{.ar},
 etc.)
-remain indefinite, because they did not originally have [ٱل]{.ar} when governing a direct doee.
+remain indefinite, because they did not originally have [ٱل]{.ar} when governing a direct object.
 This example proves the above claim:
 
 (@3amal_mush_hadyan_baaligha_lka3bati) [هَدۡیَۢا بَـٰلِغَ ٱلۡكَعۡبَةِ]{.quran}
@@ -1223,7 +1223,7 @@ This example proves the above claim:
 
 In  example (@3amal_mush_hadyan_baaligha_lka3bati) above,
 the doer participle
-[بَالِغ]{.ar} is a annexed noun to the definite annexed-to noun [الْكَعْبَة]{.ar}.
+[بَالِغ]{.ar} is a annexe to the definite annexed-to [الْكَعْبَة]{.ar}.
 But this is a superficial annexation. So
 [بَالِغ]{.ar}
 does not become definite.
@@ -1244,14 +1244,14 @@ For example:
     [[[سورة الحج]{.ar} 22:35](https://quran.com/22/35) cited by [[شرح ابن يعيش على المفصل]{.ar} 2/132](https://shamela.ws/book/13301/582#p1)]{.citex}  
     [and the establishers of prayer]{.trans}
 
-Adding [ٱل]{.ar} to the annexed noun is particular to a superficial annexation.
+Adding [ٱل]{.ar} to the annexe is particular to a superficial annexation.
 As we know, it is not permitted in a real annexation.
 So when we see
-[ٱل]{.ar} with a annexed noun, then we will know that the annexation has to be a superficial one.
+[ٱل]{.ar} with a annexe, then we will know that the annexation has to be a superficial one.
 
 #### When the doer participle does not have [tanwIn]{.trn2} or a suffixed [ن]{.ar} {.unnumbered}
 
-Consider the following case of a doer participle governing a direct doee:
+Consider the following case of a doer participle governing a direct object:
 
 (@ex000245) [الضَّارِبُ زَيْدًا]{.ar}  
     [the beater of Zayd]{.trans}  
@@ -1276,8 +1276,8 @@ The following are similarly not permitted:
     [Wright 2/66B]{.citex}
     [the beater of his slave]{.trans}  
 
-If, however, the direct doee is defined by [ٱل]{.ar},
-or is itself a annexed noun to a annexed-to noun
+If, however, the direct object is defined by [ٱل]{.ar},
+or is itself a annexe to a annexed-to
 that is defined by [ٱل]{.ar},
 then,
 as an exception,
@@ -1310,9 +1310,9 @@ For example:
     [[[شرح ابن عقيل على الألفية]{.ar} 3/47](https://shamela.ws/book/9904/726)]{.citex}  
     [the beaters of the slave-boy of the man]{.trans}
 
-#### Two or more direct doees connected by [وَ]{.ar} or [أَوْ]{.ar} {.unnumbered}
+#### Two or more direct objects connected by [وَ]{.ar} or [أَوْ]{.ar} {.unnumbered}
 
-When a doer participle governs two or more direct doees connected by [وَ]{.ar} or [أَوْ]{.ar}
+When a doer participle governs two or more direct objects connected by [وَ]{.ar} or [أَوْ]{.ar}
 then, if the first is in a superficial annexation then the second may either be in the i-case or the a-case.
 For example
 
@@ -1320,14 +1320,14 @@ For example
     [[[شرح ابن يعيش على المفصل]{.ar} 4/81](https://shamela.ws/book/13301/1445)]{.citex}  
     [This [person] is beating Zayd and [#eamr]{.trn2}]{.trans}  
 
-By the way, if the first direct doee is in the a-case, then it is not an annexation and the second direct doee would follow in the a-case.
+By the way, if the first direct object is in the a-case, then it is not an annexation and the second direct object would follow in the a-case.
 
 (@ex000256) [هذا ضاربٌ زيدًا وعمرًا]{.ar}  
     [This [person] is beating Zayd and [#eamr]{.trn2}]{.trans}  
 
 #### Superficial annexation with a overt doer {.unnumbered}
 
-Consider an doer participle that has a overt doer and is governing a direct doee thus:
+Consider an doer participle that has a overt doer and is governing a direct object thus:
 
 <!--
 (@ex000257) [هَذَا ضَارب أَبوهُ زيدا]{.ar}
@@ -1339,7 +1339,7 @@ Consider an doer participle that has a overt doer and is governing a direct doee
     [[[شرح كتاب سيبويه للسيرافي]{.ar} 2/458](https://shamela.ws/book/17726/956)]{.citex}  
     [I passed by a man whose father [was] beating Zayd.]{.trans}  
 
-If we wish to use a superficial annexation, then the doer participle can only be annexed to its direct doee and not to its doer.
+If we wish to use a superficial annexation, then the doer participle can only be annexed to its direct object and not to its doer.
 So we can say:
 
 (@ex000259) [مررت برجل ضارب زيد أبوه]{.ar}
@@ -1352,19 +1352,19 @@ We cannot say:
 (@ex000260) ✗ [مررت برجل ضارب أَبِيهِ زيدا]{.ar}
     [[[التذييل والتكميل لأبي حيان]{.ar} 10/359](https://shamela.ws/book/17116/3534)]{.citex}
 
-## The doer participle with a pronoun as its direct doee
+## The doer participle with a pronoun as its direct object
 
-When the doer participle governs a direct doee that is a pronoun,
+When the doer participle governs a direct object that is a pronoun,
 there is considerable variation seen
 
-One possibility is is to separate the doer participle from its doee pronoun using the prefix [إِيَّا]{.ar}, thus:
+One possibility is is to separate the doer participle from its done-to pronoun using the prefix [إِيَّا]{.ar}, thus:
 
 (@ex000261) [ضَارِبٌ إِيَّاكَ]{.ar}
-    [[شرح الرضي على الكافية (قار يونس)]{.ar} 2/434]{.citex}  
+    [[شرح الرضي على الكافية]{.ar} 2/434]{.citex}  
     [beating you]{.trans}  
 
 (@ex000262) [الضَارِبُ إِيَّاكَ]{.ar}
-    [[شرح الرضي على الكافية (قار يونس)]{.ar} 2/434]{.citex}  
+    [[شرح الرضي على الكافية]{.ar} 2/434]{.citex}  
     [the beater of you]{.trans}  
 
 (@ex000263) [الضَارِبُونَ إِيَّاهُ]{.ar}
@@ -1374,11 +1374,11 @@ One possibility is is to separate the doer participle from its doee pronoun usin
 The second possibility, and by far the more common usage, is to use a superficial annexation, thus:
 
 (@ex000264) [ضَارِبُكَ]{.ar}
-    [[شرح الرضي على الكافية (قار يونس)]{.ar} 2/434]{.citex}  
+    [[شرح الرضي على الكافية]{.ar} 2/434]{.citex}  
     [beating you]{.trans}  
 
 (@ex000265) [الضَارِبُكَ]{.ar}
-    [[شرح الرضي على الكافية (قار يونس)]{.ar} 2/434]{.citex}  
+    [[شرح الرضي على الكافية]{.ar} 2/434]{.citex}  
     [the beater of you]{.trans}  
 
 (@ex000266) [الضارِبِي]{.ar}
@@ -1434,8 +1434,8 @@ So we will say:
 
 Occasionally
 a [ن]{.ar} is inserted
-between the doer participle annexed noun
-and the pronoun annexed-to noun.
+between the doer participle annexe
+and the pronoun annexed-to.
 This would permit words like:
 [ضَارِبُنِي]{.ar},
 [الضَّارِبُونِي]{.ar},
@@ -1452,7 +1452,7 @@ But some grammarians permit this usage
 by poetic license,
 or as a rare usage.^[See for more details [[شرح كتاب سيبويه للسيرافي]{.ar} 2/44](https://shamela.ws/book/17726/542); [[النحو الوافي]{.ar} 1/285](https://shamela.ws/book/10641/284); [[شرح ابن يعيش على المفصل]{.ar} 2/137](https://shamela.ws/book/13301/587#p1); Wright 2/67AB]
 
-## The doee participle as a verb-like governor
+## The object participle as a verb-like governor
 
 <https://shamela.ws/book/17116/3534>
 

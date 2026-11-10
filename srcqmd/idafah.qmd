@@ -18,7 +18,11 @@ Arabic expresses this meaning using a construction called _;idaafah;_. In this c
 <!--
 The word ";idaafah;" means the addition of a new _;mudaf;_ item to an existing _;mudafil;_ item. 
 -->
+<!--
 We use the term _;idaafah;_ in Arabic grammar when a new _;mudaf;_ is annexed to a _;mudafil;_ by being placed right before it. Here is an example of an ;idaafah;:
+-->
+
+The following is an example of a ;idaafah; in Arabic:
 
 ```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -43,7 +47,7 @@ We use the term _;idaafah;_ in Arabic grammar when a new _;mudaf;_ is annexed to
    (word-1.south west) -- (word-2.south east)
       node [midway, below] {\scriptsize ;idaafah;};
 
-\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``the boy's book''};
+\path (0,0) node [midway, below=7ex, right=0ex, align=left] {``the boy's book''};
 
 \end{tikzpicture}
 ```

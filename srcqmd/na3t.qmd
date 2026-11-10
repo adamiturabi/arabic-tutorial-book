@@ -14,7 +14,7 @@ In this chapter we will study *;sifah;s*. #;sifah;s are a class of nouns that do
 
 In English we usually use adjectives to describe nouns. For example, the word "big" is an adjective. It can be used in a couple of different ways:
 
-1. It can be used to describe a noun in an ;manut;-;na3t; phrase. For example:
+1. It can be used to describe a noun in an _attributive_ phrase. For example:
 
    "a big car"
 
@@ -34,10 +34,8 @@ instead.
 
 ## Terminology: the _;na3t;_ and the _;manut;_
 
-We take this opportunity to introduce some grammatical terminology. The ;manut;-;na3t; phrase "a big car" consists of two parts:
-
-i. The adjective "big". It is describing the car. We will call it the _;na3t;_ in the noun-phrase.
-ii. The common noun "a car": It is being described by the ;na3t;. We will call it the _;manut;_.
+We take this opportunity to introduce some grammatical terminology. 
+Consider the following attributive phrase:
 
 ```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -61,7 +59,14 @@ ii. The common noun "a car": It is being described by the ;na3t;. We will call i
 \end{tikzpicture}
 ```
 
-We will reserve this terminology of _;na3t;_ and _;manut;_ only for the noun and adjective in an ;manut;-;na3t; phrase. So we won't use this terminology for the sentence: "The car is big."
+This attributive phrase consists of two parts:
+
+i. The adjective "big". It is describing the car. We will call it the _;na3t;_ in the noun-phrase.
+ii. The common noun "a car": It is being ;na3t;d by the ;na3t;. We will call it the _;manut;_.
+
+
+
+We will reserve this terminology of _;na3t;_ and _;manut;_ only for the noun and adjective in an attributive phrase. So we won't use this terminology for the sentence: "The car is big."
 
 Instead, here we will continue to use the existing terminology of _;mubtada;_ and _;xabar;_. The definite noun "the car" is the ;mubtada; of this sentence, and the adjective "big" is the ;xabar;.
 
@@ -161,16 +166,16 @@ Arabic ;sifah;    | Meaning
 [عَرَبِيّ]{.ar}    [earabiyy]{.trn} | an Arab
 [مَشْهُور]{.ar}   [machUr]{.trn} | a famous one
 
-## The ;na3t; and the ;manut; in ;manut;-;na3t; phrases
+## The ;na3t; and the ;manut; in attributive phrases
 
-Let's learn how ;manut;-;na3t; phrases are formed in Arabic.
+Let's learn how attributive phrases are formed in Arabic.
 
 We learned in section\ \@ref(terminology-the-;na3t;-and-the-;manut;)
-above that ;manut;-;na3t; phrases consist of a ;na3t; and a ;manut;. 
+above that attributive phrases consist of a ;na3t; and a ;manut;. 
 
-In English ;manut;-;na3t; phrases, like "the small house", the adjective ;na3t; ("small") comes before the ;manut; ("house"). Also, only one definite article ("the") is used before the entire noun-phrase.
+In English attributive phrases, like "the small house", the adjective ;na3t; ("small") comes before the ;manut; ("house"). Also, only one definite article ("the") is used before the entire noun-phrase.
 
-Here is the equivalent Arabic ;manut;-;na3t; phrase:
+Here is the equivalent Arabic attributive phrase:
 
 ```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -193,7 +198,7 @@ Here is the equivalent Arabic ;manut;-;na3t; phrase:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
-      node [midway, below] {\scriptsize ;manut;-;na3t; phrase};
+      node [midway, below] {\scriptsize attributive phrase};
 
 \path (0,0) node [midway, below=10ex, right=0ex, align=left] {``the small house''\\(literally: ``the small-one house'')};
 
@@ -212,7 +217,7 @@ Note the following:
 + Both the ;sifah; ;na3t; [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" and the ;manut; [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" get the definite article [ٱَلْ]{.ar} "the".
 + The ;sifah; ;na3t; [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" is genderized to match the ;manut; [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" in gender.
 + The ;sifah; ;na3t; [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" matches the ;manut; [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" in ;case;. In this example, they were both in the ;ucase; but we will see examples in the other ;case;s as well.
-+ The word-for-word equivalence of the above ;manut;-;na3t; phrase is "the small-one house" but we will usually give the more natural translation: "the small house"
++ The word-for-word equivalence of the above attributive phrase is "the small-one house" but we will usually give the more natural translation: "the small house"
 
 Let's try another example: let's try to translate the sentence: "The little girl took a new book from the good mother."
 
@@ -222,25 +227,25 @@ Here is the sentence in Arabic:
 [Eaxapati -ljAriyatu -SSagIratu kitaban jadIdan mina -lEummi -TTayyibah.]{.trn}  
 "The little girl took a new book from the good mother."
 
-This sentence has three ;manut;-;na3t; phrases. We will analyze each one individually:
+This sentence has three attributive phrases. We will analyze each one individually:
 
 i. [ٱَلْجَارِيَةُ ٱلصَّغِيرَةُ]{.ar}  
    [EaljAriyatu -SSagIratu]{.trn}  
    "the little girl"
 
-   In this phrase the definite feminine noun [ٱلْجَارِيَةُ]{.ar} [EaljAriyatu]{.trn} is the ;faa3il; of the verb [أَخَذَ]{.ar} [Eaxapa]{.trn} "took". Therefore it is in the ;ucase;. It is also the ;manut; in the ;manut;-;na3t; phrase. Its ;na3t; [ٱَلصَّغِيرَةُ]{.ar} [EaSSagIratu]{.trn} follows the ;manut; and is made to match the ;manut; in ;case; (;ucase;), gender (feminine), and definiteness (definite).
+   In this phrase the definite feminine noun [ٱلْجَارِيَةُ]{.ar} [EaljAriyatu]{.trn} is the ;faa3il; of the verb [أَخَذَ]{.ar} [Eaxapa]{.trn} "took". Therefore it is in the ;ucase;. It is also the ;manut; in the attributive phrase. Its ;na3t; [ٱَلصَّغِيرَةُ]{.ar} [EaSSagIratu]{.trn} follows the ;manut; and is made to match the ;manut; in ;case; (;ucase;), gender (feminine), and definiteness (definite).
 
 ii. [كِتَابًا جَدِيدًا]{.ar}  
     [kitAban jadIdan]{.trn}  
     "a new book"
 
-    In this phrase the indefinite masculine noun [كِتَابًا]{.ar} [kitAban]{.trn} is the ;mafulb; of the verb [أَخَذَ]{.ar} [Eaxapa]{.trn} "took". Therefore it is in the ;acase;. It is also the ;manut; in the ;manut;-;na3t; phrase. Its ;na3t; [جَدِيدًا]{.ar} [jadIdan]{.trn} follows the ;manut; and is made to match the ;manut; in ;case; (;acase;), gender (masculine), and definiteness (indefinite).
+    In this phrase the indefinite masculine noun [كِتَابًا]{.ar} [kitAban]{.trn} is the ;mafulb; of the verb [أَخَذَ]{.ar} [Eaxapa]{.trn} "took". Therefore it is in the ;acase;. It is also the ;manut; in the attributive phrase. Its ;na3t; [جَدِيدًا]{.ar} [jadIdan]{.trn} follows the ;manut; and is made to match the ;manut; in ;case; (;acase;), gender (masculine), and definiteness (indefinite).
 
 iii. [ٱَلْأُمِّ ٱلطَّيِّبَةِ]{.ar}  
      [EalEummi -TTayyibati]{.trn}  
      "the good mother"
 
-      In this phrase the definite feminine noun [ٱلْأُمِّ]{.ar} [EalEummi]{.trn} is following the preposition [مِنْ]{.ar} [min]{.trn} "from". Therefore it is in the ;icase;. It is also the ;manut; in the ;manut;-;na3t; phrase. Its ;na3t; [ٱَلطَيِّبَةِ]{.ar} [EaTTayyibati]{.trn} follows the ;manut; and is made to match the ;manut; in ;case; (;icase;), gender (feminine), and definiteness (definite). 
+      In this phrase the definite feminine noun [ٱلْأُمِّ]{.ar} [EalEummi]{.trn} is following the preposition [مِنْ]{.ar} [min]{.trn} "from". Therefore it is in the ;icase;. It is also the ;manut; in the attributive phrase. Its ;na3t; [ٱَلطَيِّبَةِ]{.ar} [EaTTayyibati]{.trn} follows the ;manut; and is made to match the ;manut; in ;case; (;icase;), gender (feminine), and definiteness (definite). 
 
       Note carefully that the ;na3t; matches the ;manut; in gender, not necessarily in having the same [ة]{.ar} ending. The feminine ;sifah; ;na3t; [ٱَلطَيِّبَة]{.ar} [EaTTayyibah]{.trn} is still formed using the feminine marker [ة]{.ar}, despite the feminine ;manut; [ٱَلْأُمّ]{.ar} not having the [ة]{.ar} feminine marker.
 
@@ -404,7 +409,7 @@ Context would be needed to tell us which meaning is intended.
 
 ## Common-nouns used as ;na3t;s in a noun-phrase
 
-Usually, ;sifah;s are used as the ;na3t; in an ;manut;-;na3t; phrase. However, we also often find a common noun used as a ;na3t;. For example,
+Usually, ;sifah;s are used as the ;na3t; in an attributive phrase. However, we also often find a common noun used as a ;na3t;. For example,
 
 [هُوَ رَجُلٌ مُعَلِّمٌ.]{.ar}  
 [huwa rajulun mueallim.]{.trn}  
@@ -421,7 +426,7 @@ In English we can have a noun described by multiple adjectives separated by comm
 [EalbinAEu kabIrun waTawIlun wawAsiEun]{.trn}  
 "The building is big and tall and wide."
 
-In an English ;manut;-;na3t; phrase, multiple ;na3t;s may describe the same ;manut;, without being separated by the word "and". For example, "The man is a famous Arab writer." In Arabic, we can do the same, except the ;manut;s will be in the reverse order:
+In an English attributive phrase, multiple ;na3t;s may describe the same ;manut;, without being separated by the word "and". For example, "The man is a famous Arab writer." In Arabic, we can do the same, except the ;manut;s will be in the reverse order:
 
 [ٱَلرَّجُلُ كَاتِبٌ عَرَبِيٌّ مَشْهُورٌ.]{.ar}  
 [Earrujulu kAtibun earabiyyun machUr.]{.trn}  

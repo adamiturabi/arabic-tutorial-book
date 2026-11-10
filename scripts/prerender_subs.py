@@ -13,6 +13,7 @@ def read_file(filename):
         #out_str = re.sub('(#*);([a-zA-Z0-9_]+);', r'[\1\2]{.subs}', in_str, flags = re.M)
         import manage_subs
         line_count = 1
+        reset_numbered_example_list = False
         for in_line in in_lines:
             out_line = ""
             try:
@@ -29,6 +30,18 @@ def read_file(filename):
                 print(in_line)
                 raise
 
+            #if not reset_numbered_example_list:
+            #    try:
+            #        new_line = re.sub(r'\(@(\w*)\)', r'(1@\1)', out_line, count=1)
+            #        if new_line != out_line:
+            #            reset_numbered_example_list = True
+            #        out_line = new_line
+            #    except TypeError:
+            #        print("Reset numbered example list sub error in ", filename, " line number ", line_count);
+            #        print(in_line)
+            #        raise
+
+
             out_str += out_line
             line_count += 1
 
@@ -40,6 +53,9 @@ def read_file(filename):
         #    print(match.group())
         #    replaced_str = manage_bib.get_cite_text(match.group())
         #    out_str = out_str[:match.start()] + replaced_str + out_str[match.end():]
+
+        # replace first instance of (@foo) with (1@foo)
+        #out_str = re.sub(r"\(@\w+\)", r'(1@\1)', out_str, count=1)
         
         warning_str = "<!--!!! THIS FILE IS AUTO-GENERATED. DO NOT EDIT DIRECTLY. EDIT THE FILES IN THE SRCQMD DIR !!!-->\n\n"
 

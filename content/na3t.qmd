@@ -21,7 +21,7 @@ In this chapter we will study *adjectival nouns*. Adjectival nouns are a class o
 
 In English we usually use adjectives to describe nouns. For example, the word "big" is an adjective. It can be used in a couple of different ways:
 
-1. It can be used to describe a noun in an attributee-attribute phrase. For example:
+1. It can be used to describe a noun in an _attributive_ phrase. For example:
 
    "a big car"
 
@@ -39,12 +39,10 @@ We would have to say something like:
 
 instead.
 
-## Terminology: the _attribute_ and the _attributee_
+## Terminology: the _attribute_ and the _attributed-to_
 
-We take this opportunity to introduce some grammatical terminology. The attributee-attribute phrase "a big car" consists of two parts:
-
-i. The adjective "big". It is describing the car. We will call it the _attribute_ in the noun-phrase.
-ii. The common noun "a car": It is being described by the attribute. We will call it the _attributee_.
+We take this opportunity to introduce some grammatical terminology. 
+Consider the following attributive phrase:
 
 ```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -63,12 +61,19 @@ ii. The common noun "a car": It is being described by the attribute. We will cal
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-3.south east)
-      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize attributee};
+      node [midway, below=0.5ex, left=0.2ex, rotate=90] {\scriptsize attributed-to};
 
 \end{tikzpicture}
 ```
 
-We will reserve this terminology of _attribute_ and _attributee_ only for the noun and adjective in an attributee-attribute phrase. So we won't use this terminology for the sentence: "The car is big."
+This attributive phrase consists of two parts:
+
+i. The adjective "big". It is describing the car. We will call it the _attribute_ in the noun-phrase.
+ii. The common noun "a car": It is being attributed by the attribute. We will call it the _attributed-to_.
+
+
+
+We will reserve this terminology of _attribute_ and _attributed-to_ only for the noun and adjective in an attributive phrase. So we won't use this terminology for the sentence: "The car is big."
 
 Instead, here we will continue to use the existing terminology of _subject_ and _info_. The definite noun "the car" is the subject of this sentence, and the adjective "big" is the info.
 
@@ -168,16 +173,16 @@ Arabic adjectival noun    | Meaning
 [عَرَبِيّ]{.ar}    [earabiyy]{.trn} | an Arab
 [مَشْهُور]{.ar}   [machUr]{.trn} | a famous one
 
-## The attribute and the attributee in attributee-attribute phrases
+## The attribute and the attributed-to in attributive phrases
 
-Let's learn how attributee-attribute phrases are formed in Arabic.
+Let's learn how attributive phrases are formed in Arabic.
 
-We learned in section\ \@ref(terminology-the-attribute-and-the-attributee)
-above that attributee-attribute phrases consist of a attribute and a attributee. 
+We learned in section\ \@ref(terminology-the-attribute-and-the-attributed-to)
+above that attributive phrases consist of a attribute and a attributed-to. 
 
-In English attributee-attribute phrases, like "the small house", the adjective attribute ("small") comes before the attributee ("house"). Also, only one definite article ("the") is used before the entire noun-phrase.
+In English attributive phrases, like "the small house", the adjective attribute ("small") comes before the attributed-to ("house"). Also, only one definite article ("the") is used before the entire noun-phrase.
 
-Here is the equivalent Arabic attributee-attribute phrase:
+Here is the equivalent Arabic attributive phrase:
 
 ```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -196,11 +201,11 @@ Here is the equivalent Arabic attributee-attribute phrase:
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize attributee};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize attributed-to};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
-      node [midway, below] {\scriptsize attributee-attribute phrase};
+      node [midway, below] {\scriptsize attributive phrase};
 
 \path (0,0) node [midway, below=10ex, right=0ex, align=left] {``the small house''\\(literally: ``the small-one house'')};
 
@@ -215,11 +220,11 @@ Here is the equivalent Arabic attributee-attribute phrase:
 
 Note the following:
 
-+ The adjectival noun attribute [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" comes after the attributee [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house".
-+ Both the adjectival noun attribute [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" and the attributee [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" get the definite article [ٱَلْ]{.ar} "the".
-+ The adjectival noun attribute [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" is genderized to match the attributee [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" in gender.
-+ The adjectival noun attribute [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" matches the attributee [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" in case. In this example, they were both in the u-case but we will see examples in the other cases as well.
-+ The word-for-word equivalence of the above attributee-attribute phrase is "the small-one house" but we will usually give the more natural translation: "the small house"
++ The adjectival noun attribute [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" comes after the attributed-to [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house".
++ Both the adjectival noun attribute [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" and the attributed-to [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" get the definite article [ٱَلْ]{.ar} "the".
++ The adjectival noun attribute [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" is genderized to match the attributed-to [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" in gender.
++ The adjectival noun attribute [ٱَلصَّغِير]{.ar} [EaSSagIr]{.trn} "the small one~m~" matches the attributed-to [ٱَلْبَيْت]{.ar} [Ealbayt]{.trn} "the house" in case. In this example, they were both in the u-case but we will see examples in the other cases as well.
++ The word-for-word equivalence of the above attributive phrase is "the small-one house" but we will usually give the more natural translation: "the small house"
 
 Let's try another example: let's try to translate the sentence: "The little girl took a new book from the good mother."
 
@@ -229,27 +234,27 @@ Here is the sentence in Arabic:
 [Eaxapati -ljAriyatu -SSagIratu kitaban jadIdan mina -lEummi -TTayyibah.]{.trn}  
 "The little girl took a new book from the good mother."
 
-This sentence has three attributee-attribute phrases. We will analyze each one individually:
+This sentence has three attributive phrases. We will analyze each one individually:
 
 i. [ٱَلْجَارِيَةُ ٱلصَّغِيرَةُ]{.ar}  
    [EaljAriyatu -SSagIratu]{.trn}  
    "the little girl"
 
-   In this phrase the definite feminine noun [ٱلْجَارِيَةُ]{.ar} [EaljAriyatu]{.trn} is the doer of the verb [أَخَذَ]{.ar} [Eaxapa]{.trn} "took". Therefore it is in the u-case. It is also the attributee in the attributee-attribute phrase. Its attribute [ٱَلصَّغِيرَةُ]{.ar} [EaSSagIratu]{.trn} follows the attributee and is made to match the attributee in case (u-case), gender (feminine), and definiteness (definite).
+   In this phrase the definite feminine noun [ٱلْجَارِيَةُ]{.ar} [EaljAriyatu]{.trn} is the doer of the verb [أَخَذَ]{.ar} [Eaxapa]{.trn} "took". Therefore it is in the u-case. It is also the attributed-to in the attributive phrase. Its attribute [ٱَلصَّغِيرَةُ]{.ar} [EaSSagIratu]{.trn} follows the attributed-to and is made to match the attributed-to in case (u-case), gender (feminine), and definiteness (definite).
 
 ii. [كِتَابًا جَدِيدًا]{.ar}  
     [kitAban jadIdan]{.trn}  
     "a new book"
 
-    In this phrase the indefinite masculine noun [كِتَابًا]{.ar} [kitAban]{.trn} is the direct doee of the verb [أَخَذَ]{.ar} [Eaxapa]{.trn} "took". Therefore it is in the a-case. It is also the attributee in the attributee-attribute phrase. Its attribute [جَدِيدًا]{.ar} [jadIdan]{.trn} follows the attributee and is made to match the attributee in case (a-case), gender (masculine), and definiteness (indefinite).
+    In this phrase the indefinite masculine noun [كِتَابًا]{.ar} [kitAban]{.trn} is the direct object of the verb [أَخَذَ]{.ar} [Eaxapa]{.trn} "took". Therefore it is in the a-case. It is also the attributed-to in the attributive phrase. Its attribute [جَدِيدًا]{.ar} [jadIdan]{.trn} follows the attributed-to and is made to match the attributed-to in case (a-case), gender (masculine), and definiteness (indefinite).
 
 iii. [ٱَلْأُمِّ ٱلطَّيِّبَةِ]{.ar}  
      [EalEummi -TTayyibati]{.trn}  
      "the good mother"
 
-      In this phrase the definite feminine noun [ٱلْأُمِّ]{.ar} [EalEummi]{.trn} is following the preposition [مِنْ]{.ar} [min]{.trn} "from". Therefore it is in the i-case. It is also the attributee in the attributee-attribute phrase. Its attribute [ٱَلطَيِّبَةِ]{.ar} [EaTTayyibati]{.trn} follows the attributee and is made to match the attributee in case (i-case), gender (feminine), and definiteness (definite). 
+      In this phrase the definite feminine noun [ٱلْأُمِّ]{.ar} [EalEummi]{.trn} is following the preposition [مِنْ]{.ar} [min]{.trn} "from". Therefore it is in the i-case. It is also the attributed-to in the attributive phrase. Its attribute [ٱَلطَيِّبَةِ]{.ar} [EaTTayyibati]{.trn} follows the attributed-to and is made to match the attributed-to in case (i-case), gender (feminine), and definiteness (definite). 
 
-      Note carefully that the attribute matches the attributee in gender, not necessarily in having the same [ة]{.ar} ending. The feminine adjectival noun attribute [ٱَلطَيِّبَة]{.ar} [EaTTayyibah]{.trn} is still formed using the feminine marker [ة]{.ar}, despite the feminine attributee [ٱَلْأُمّ]{.ar} not having the [ة]{.ar} feminine marker.
+      Note carefully that the attribute matches the attributed-to in gender, not necessarily in having the same [ة]{.ar} ending. The feminine adjectival noun attribute [ٱَلطَيِّبَة]{.ar} [EaTTayyibah]{.trn} is still formed using the feminine marker [ة]{.ar}, despite the feminine attributed-to [ٱَلْأُمّ]{.ar} not having the [ة]{.ar} feminine marker.
 
 <!--
 [حَمَلَتِ ٱلْأُمُّ ٱلطَّيِّبُ جَارِيَةً صَغِيرَةً بِيَدٍ قَوِيَّةٍ.]{.ar}  
@@ -261,7 +266,7 @@ Sometimes, a common noun of one gender is used to refer to persons of either gen
 
 + the noun [شَخْص]{.ar} [caxS]{.trn} is itself a masculine noun but it may be used to refer to both male and female persons. 
 
-If such a noun is a attributee, then we will prefer to match the attribute to the grammatical gender of the noun, not the physical gender of the person it is referring to. For example:
+If such a noun is a attributed-to, then we will prefer to match the attribute to the grammatical gender of the noun, not the physical gender of the person it is referring to. For example:
 
 [ٱَلْجَارِيَةُ شَخْصٌ طَيِّبٌ.]{.ar}  
 [EaljAriyatu caxSun Tayyib.]{.trn}  
@@ -411,7 +416,7 @@ Context would be needed to tell us which meaning is intended.
 
 ## Common-nouns used as attributes in a noun-phrase
 
-Usually, adjectival nouns are used as the attribute in an attributee-attribute phrase. However, we also often find a common noun used as a attribute. For example,
+Usually, adjectival nouns are used as the attribute in an attributive phrase. However, we also often find a common noun used as a attribute. For example,
 
 [هُوَ رَجُلٌ مُعَلِّمٌ.]{.ar}  
 [huwa rajulun mueallim.]{.trn}  
@@ -428,14 +433,14 @@ In English we can have a noun described by multiple adjectives separated by comm
 [EalbinAEu kabIrun waTawIlun wawAsiEun]{.trn}  
 "The building is big and tall and wide."
 
-In an English attributee-attribute phrase, multiple attributes may describe the same attributee, without being separated by the word "and". For example, "The man is a famous Arab writer." In Arabic, we can do the same, except the attributees will be in the reverse order:
+In an English attributive phrase, multiple attributes may describe the same attributed-to, without being separated by the word "and". For example, "The man is a famous Arab writer." In Arabic, we can do the same, except the attributed-tos will be in the reverse order:
 
 [ٱَلرَّجُلُ كَاتِبٌ عَرَبِيٌّ مَشْهُورٌ.]{.ar}  
 [Earrujulu kAtibun earabiyyun machUr.]{.trn}  
 "The man is a famous Arab writer." 
 
 
-## A prepositional phrase separating the attribute from the attributee
+## A prepositional phrase separating the attribute from the attributed-to
 
 Consider the phrase:
 
