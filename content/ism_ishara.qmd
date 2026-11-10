@@ -74,7 +74,7 @@ Note the following:
 
 The pointing nouns share some similarities with pronouns [هُوَ]{.ar}, [هِيَ]{.ar}, etc. Just like pronouns, pointing nouns, too, are definite nouns even though they don't have [ٱَلْ]{.ar}.
 
-Remember, however, from section\ \@ref(attributes-with-annexations-to-pronouns), that pronouns may not be attributees.
+Remember, however, from section\ \@ref(attributes-with-annexations-to-pronouns), that pronouns may not be attributed-tos.
 Pointing nouns are different from pronouns in this regard. It is allowed to describe a pointing noun with a attribute in a noun phrase.
 
 Both these facts will prove useful in the next section.
@@ -95,7 +95,7 @@ We will be giving examples throughout this chapter.
 
 ## The pointing noun phrase
 
-Remember from chapter\ \@ref(adjectival nouns-and-descriptive-noun-phrases) that a descriptive noun-phrase consists of a attribute and a attributee. The attribute follows the attribute and matches it in definiteness, case, gender, and number. 
+Remember from chapter\ \@ref(adjectival nouns-and-descriptive-noun-phrases) that a descriptive noun-phrase consists of a attribute and a attributed-to. The attribute follows the attribute and matches it in definiteness, case, gender, and number. 
 
 Here is an example of a descriptive noun-phrase in a sentence.
 
@@ -116,7 +116,7 @@ Here is an example of a descriptive noun-phrase in a sentence.
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize attributee};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize attributed-to};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
@@ -140,7 +140,7 @@ below, we will deal with nouns that are part of an annexation, like [كِتَا�
 Just like an adjectival noun, a pointing noun can be a attribute in a noun-phrase. But remember from 
 section\ \@ref(definiteness-of-pointing nouns)
 above that pointing nouns are definite.
-So, if a pointing noun is a attribute in a noun-phrase, the attributee has to be definite too.
+So, if a pointing noun is a attribute in a noun-phrase, the attributed-to has to be definite too.
 Example:
 
 ```{.tikz}
@@ -160,7 +160,7 @@ Example:
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize attributee};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize attributed-to};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
@@ -171,12 +171,12 @@ Example:
 \end{tikzpicture}
 ```
 
-In the above example, the pointed-to noun noun [ٱَلْكِتَابَيْنِ]{.ar} is the attributee in a descriptive noun-phrase. It is definite, in the a-case, masculine, and dual.
+In the above example, the pointed-to noun noun [ٱَلْكِتَابَيْنِ]{.ar} is the attributed-to in a descriptive noun-phrase. It is definite, in the a-case, masculine, and dual.
 
-The pointing noun [هَـٰذَيْنِ]{.ar} is its attribute. It follows the attributee and matches it being dual, in the a-case, masculine, and dual.
+The pointing noun [هَـٰذَيْنِ]{.ar} is its attribute. It follows the attributed-to and matches it being dual, in the a-case, masculine, and dual.
 
 As a special case, when the pointed-to noun noun has [ٱَلْ]{.ar} (as in this case: [ٱَلْكِتَابَيْنِ]{.ar}), then the order of the pointing noun and the pointed-to noun noun is permitted to be reversed. 
-<!--The pointing noun can be the attributee, and the pointed-to noun noun can be the attribute.-->
+<!--The pointing noun can be the attributed-to, and the pointed-to noun noun can be the attribute.-->
 
 The pointing noun is then a replacee (see section\ \@ref(the-replacement)), and the pointed-to noun noun is its replacement.
 
@@ -280,26 +280,26 @@ and
 [كِتَابُ زَيْدٍ]{.ar}  
 "the book of Zayd"
 
-Note that both the above annexations are definite because their annexed-to nouns are definite.
+Note that both the above annexations are definite because their annexed-tos are definite.
 
 Indefinite annexations like 
 [كِتَاب رَجُلٍ]{.ar} "a man's book"
 cannot be used in pointing noun phrases.
 
-#### The definite annexed-to noun begins with [ٱَلْ]{.ar}
+#### The definite annexed-to begins with [ٱَلْ]{.ar}
 
-We will first consider annexations where the definite annexed-to noun begins with [ٱَلْ]{.ar}, like:
+We will first consider annexations where the definite annexed-to begins with [ٱَلْ]{.ar}, like:
 
 [كِتَابُ ٱلرَّجُلِ]{.ar}  
 "the book of the man"
 
-##### Pointing to the annexed-to noun  
+##### Pointing to the annexed-to  
 
 We would like to express the phrase:
 
 "the book of this man"
 
-In order to point to the annexed-to noun [ٱَلرَّجُل]{.ar} "the man" with the pointing noun [هَـٰذَا]{.ar} "this-one~m~", we can put the pointing noun either before or after the annexed-to noun, thus:
+In order to point to the annexed-to [ٱَلرَّجُل]{.ar} "the man" with the pointing noun [هَـٰذَا]{.ar} "this-one~m~", we can put the pointing noun either before or after the annexed-to, thus:
 
 [كِتَابُ هَـٰذَا ٱلرَّجُلِ]{.ar}  
 [كِتَابُ ٱلرَّجُلِ هَـٰذَا]{.ar}  
@@ -340,11 +340,11 @@ Consider the first pointing noun phrase:
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexed-to noun};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexed-to};
 
 \draw [decoration={brace}, decorate] 
    (word-3.north west) -- (word-3.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexed noun};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
@@ -361,8 +361,8 @@ Consider the first pointing noun phrase:
 
 As you can see the pointing noun
 [هَـٰذَا]{.ar} has taken the place of 
-[ٱَلرَّجُل]{.ar} as the annexed-to noun in the annexation.
-In addition to being the annexed-to noun,
+[ٱَلرَّجُل]{.ar} as the annexed-to in the annexation.
+In addition to being the annexed-to,
 [هَـٰذَا]{.ar} is also a replacee, whose replacement is 
 [ٱَلرَّجُل]{.ar}.
 The literal, word-for-word, translation of this phrase is:
@@ -388,11 +388,11 @@ Consider, now, the second pointing noun phrase:
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexed-to noun};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexed-to};
 
 \draw [decoration={brace}, decorate] 
    (word-3.north west) -- (word-3.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexed noun};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
@@ -400,17 +400,17 @@ Consider, now, the second pointing noun phrase:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-2.south west) -- (word-2.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize attributee};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize attributed-to};
 
 \path (0,0) node [midway, below=15ex, right=0ex, align=left] {``the book of this man''\\(literally: ``the book of the this-one man'')};
 
 \end{tikzpicture}
 ```
 
-[ٱَلرَّجُل]{.ar}, here, keeps its place as the annexed-to noun in the annexation.
-In addition to being the annexed-to noun,
+[ٱَلرَّجُل]{.ar}, here, keeps its place as the annexed-to in the annexation.
+In addition to being the annexed-to,
 [ٱَلرَّجُل]{.ar}
-is also a attributee, whose attribute is the pointing noun
+is also a attributed-to, whose attribute is the pointing noun
 [هَـٰذَا]{.ar}.
 The literal, word-for-word, translation of this phrase is:
 
@@ -420,17 +420,17 @@ The more natural translation is:
 
 "the book of this man"
 
-##### Pointing to the annexed noun  
+##### Pointing to the annexe  
 
 Consider, again, the annexation:
 
 [كِتَابُ ٱلرَّجُلِ]{.ar}  
 "the book of the man"
 
-We have already discussed how to point to the annexed-to noun
+We have already discussed how to point to the annexed-to
 [ٱَلرَّجُل]{.ar}
 in a pointing noun phrase.
-Now, we would like to point to the annexed noun 
+Now, we would like to point to the annexe 
 [كِتَاب]{.ar}
 in a pointing noun phrase.
 
@@ -483,11 +483,11 @@ in detail:
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexed-to noun};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexed-to};
 
 \draw [decoration={brace}, decorate] 
    (word-3.north west) -- (word-3.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexed noun};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
@@ -495,14 +495,14 @@ in detail:
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-3.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize attributee};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize attributed-to};
 
 \path (0,0) node [midway, below=15ex, right=0ex, align=left] {``this book of the man''\\(literally: ``the this-one book of the man'')};
 
 \end{tikzpicture}
 ```
 
-[كِتَاب]{.ar}, here, is both and annexed noun and a attributee.
+[كِتَاب]{.ar}, here, is both and annexe and a attributed-to.
 Its attribute is the pointing noun
 [هَـٰذَا]{.ar}.
 The literal, word-for-word, translation of this phrase is:
@@ -526,12 +526,12 @@ A quick note about the ambiguity of this expression:
 "this book of the man" (usual)  
 "the book of this man" (rare)
 
-The ambiguity of whether the pointing noun [هَـٰذَا]{.ar} points to the annexed noun 
+The ambiguity of whether the pointing noun [هَـٰذَا]{.ar} points to the annexe 
 [كِتَابُ]{.ar}
-or the annexed-to noun
+or the annexed-to
 [ٱلرَّجُلِ]{.ar}
-only exists because the annexed noun and the annexed-to noun match each other in gender and number: singular masculine.
-If the annexed noun and the annexed-to noun were different in gender and number, then there would be no ambiguity. Examples:
+only exists because the annexe and the annexed-to match each other in gender and number: singular masculine.
+If the annexe and the annexed-to were different in gender and number, then there would be no ambiguity. Examples:
 
 [كِتَابَا ٱلرَّجُلِ هَـٰذَانِ]{.ar}  
 "these books~2~ of the man"
@@ -545,16 +545,16 @@ If the annexed noun and the annexed-to noun were different in gender and number,
 [كِتَابُ ٱلْمَرْأَةِ هَـٰذِهِ]{.ar}  
 "the book of this woman"
 
-Here are some more examples of pointing to annexed nouns:
+Here are some more examples of pointing to annexes:
 
-##### The annexed-to noun is a proper noun beginning with [ٱَلْ]{.ar}  
+##### The annexed-to is a proper noun beginning with [ٱَلْ]{.ar}  
 
 Consider the annexation:
 
 [كِتَابُ ٱلزُّبَيْرِ]{.ar}  
 "the book of [al-#zubayr]{.trn2}"
 
-We can apply the preceding discussion of pointing to the annexed noun and annexed-to noun to this annexation as well. So we get:
+We can apply the preceding discussion of pointing to the annexe and annexed-to to this annexation as well. So we get:
 
 [كِتَابُ هَـٰذَا ٱلزُّبَيْرِ]{.ar}  
 "the book of this al-Zubayr"
@@ -563,16 +563,16 @@ We can apply the preceding discussion of pointing to the annexed noun and annexe
 "this book of al-Zubayr" (usual)  
 "the book of this al-Zubayr" (rare)
 
-#### The definite annexed-to noun does not begin with [ٱَلْ]{.ar}
+#### The definite annexed-to does not begin with [ٱَلْ]{.ar}
 
-Consider, now, that the annexed-to noun is definite but does not begin with [ٱَلْ]{.ar}. There are two such types of nouns that we will discuss:
+Consider, now, that the annexed-to is definite but does not begin with [ٱَلْ]{.ar}. There are two such types of nouns that we will discuss:
 
 i. Proper nouns not beginning with [ٱَلْ]{.ar}
 i. Pronouns
 
-##### The annexed-to noun is a proper noun not beginning with [ٱَلْ]{.ar}  
+##### The annexed-to is a proper noun not beginning with [ٱَلْ]{.ar}  
 
-<!--Consider, now, that the annexed-to noun is a proper noun that does not begin with [ٱَلْ]{.ar}, for example:-->
+<!--Consider, now, that the annexed-to is a proper noun that does not begin with [ٱَلْ]{.ar}, for example:-->
 
 We will first deal with proper nouns  that don't begin with [ٱَلْ]{.ar}.
 Consider the annexation:
@@ -580,7 +580,7 @@ Consider the annexation:
 [كِتَابُ زَيْدٍ]{.ar}  
 "the book of Zayd"
 
-Because the annexed-to noun [زَيْد]{.ar} does not begin with [ٱَلْ]{.ar}, any pointing nouns can come only after the entire annexation, thus:
+Because the annexed-to [زَيْد]{.ar} does not begin with [ٱَلْ]{.ar}, any pointing nouns can come only after the entire annexation, thus:
 
 [كِتَابُ زَيْدٍ هَـٰذَا]{.ar}
 
@@ -596,7 +596,7 @@ Pointing to a proper noun in a pointing noun phrase
 ("the book of this Zayd")
 is uncommon, generally.
 
-##### The annexed-to noun is a pronoun
+##### The annexed-to is a pronoun
 
 We have learned, in 
 section\ \@ref(definiteness-of-pronouns),
@@ -604,25 +604,25 @@ that pronouns are always definite, despite not beginning with [ٱَلْ]{.ar}.
 
 We have also learned, in
 section\ \@ref(pronouns-as-base-nouns),
-that a pronoun may be a annexed-to noun in an annexation.
+that a pronoun may be a annexed-to in an annexation.
 Example:
 
 [كِتَابُهُ]{.ar}  
 "his book"
 
-Neither the annexed noun [كِتَاب]{.ar}, nor the attached pronoun [هُ]{.ar} begin with [ٱَلْ]{.ar}.
+Neither the annexe [كِتَاب]{.ar}, nor the attached pronoun [هُ]{.ar} begin with [ٱَلْ]{.ar}.
 So if we want to add the pointing noun [هَـٰذَا]{.ar} to this annexation to form a pointing noun phrase,
 then we have to place it at the end, after the annexation, thus:
 
 [كِتَابُهُ هَـٰذَا]{.ar}  
 
-The pointing noun [هَـٰذَا]{.ar}, here, is a attributee. But what is its attribute?
+The pointing noun [هَـٰذَا]{.ar}, here, is a attributed-to. But what is its attribute?
 
 We have also learned, in
 section\ \@ref(attributes-with-annexations-to-pronouns)
-that pronouns may not be attributees in a descriptive noun phrase.
+that pronouns may not be attributed-tos in a descriptive noun phrase.
 
-So, we are left with only one option: the annexed noun [كِتَاب]{.ar} is the desceibee. And the meaning of the phrase is:
+So, we are left with only one option: the annexe [كِتَاب]{.ar} is the desceibee. And the meaning of the phrase is:
 
 [كِتَابُهُ هَـٰذَا]{.ar}  
 "this book of his"
@@ -640,11 +640,11 @@ So, we are left with only one option: the annexed noun [كِتَاب]{.ar} is th
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexed-to noun};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexed-to};
 
 \draw [decoration={brace}, decorate] 
    (word-3.north west) -- (word-3.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexed noun};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-1.south east)
@@ -652,7 +652,7 @@ So, we are left with only one option: the annexed noun [كِتَاب]{.ar} is th
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-3.south west) -- (word-3.south east)
-      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize attributee};
+      node [midway, rotate=90, anchor=south, left=0ex] {\scriptsize attributed-to};
 
 \path (0,0) node [midway, below=15ex, right=0ex, align=left] {``this book of his''};
 

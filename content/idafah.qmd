@@ -23,9 +23,13 @@ Arabic expresses this meaning using a construction called _annexation_. In this 
 ## Forming the annexation
 
 <!--
-The word "annexation" means the addition of a new _annexed noun_ item to an existing _annexed-to noun_ item. 
+The word "annexation" means the addition of a new _annexe_ item to an existing _annexed-to_ item. 
 -->
-We use the term _annexation_ in Arabic grammar when a new _annexed noun_ is annexed to a _annexed-to noun_ by being placed right before it. Here is an example of an annexation:
+<!--
+We use the term _annexation_ in Arabic grammar when a new _annexe_ is annexed to a _annexed-to_ by being placed right before it. Here is an example of an annexation:
+-->
+
+The following is an example of a annexation in Arabic:
 
 ```{.tikz}
 \usetikzlibrary{decorations.text, decorations.pathreplacing}
@@ -40,17 +44,17 @@ We use the term _annexation_ in Arabic grammar when a new _annexed noun_ is anne
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexed noun};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe};
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexed-to noun};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexed-to};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
       node [midway, below] {\scriptsize annexation};
 
-\path (0,0) node [midway, below=8ex, right=0ex, align=left] {``the boy's book''};
+\path (0,0) node [midway, below=7ex, right=0ex, align=left] {``the boy's book''};
 
 \end{tikzpicture}
 ```
@@ -59,10 +63,10 @@ We use the term _annexation_ in Arabic grammar when a new _annexed noun_ is anne
 
 The annexation construction consists of two nouns:
 
-1. The _annexed noun_: This is the first noun in the annexation.
-1. The _annexed-to noun_: This is the second noun in the annexation.
+1. The _annexe_: This is the first noun in the annexation.
+1. The _annexed-to_: This is the second noun in the annexation.
 
-The annexed noun [كِتَاب]{.ar} is annexed to, and belongs to, the annexed-to noun [ٱَلْغُلَام]{.ar}. 
+The annexe [كِتَاب]{.ar} is annexed to, and belongs to, the annexed-to [ٱَلْغُلَام]{.ar}. 
 <!--
 You can use the alphabetical  order (A,\ B) to help you remember that the **a**nnexe noun comes before the **b**ase noun.
 -->
@@ -70,9 +74,9 @@ You can use the alphabetical  order (A,\ B) to help you remember that the **a**n
 <!--
 Take note of the following points regarding the annexation construction:
 
-+ The annexed-to noun in an annexation shall always be in the i-case.
-+ The case of the annexed noun is variable and shall depend on its function in the sentence.
-+ The annexed noun in an annexation shall neither have an [tanwIn]{.trn2} nor the prefix [ٱَلْ]{.ar}.
++ The annexed-to in an annexation shall always be in the i-case.
++ The case of the annexe is variable and shall depend on its function in the sentence.
++ The annexe in an annexation shall neither have an [tanwIn]{.trn2} nor the prefix [ٱَلْ]{.ar}.
 
 ## Remove
 
@@ -94,9 +98,9 @@ We can identify noun-chains by noting that the first noun in the chain has neith
 
 The first noun in the chain is the noun before "of" and the second noun in the chain is the noun after "of".
 -->
-## Case of the annexed noun and annexed-to noun
+## Case of the annexe and annexed-to
 
-The annexed-to noun in an annexation is always in the i-case. The annexed noun may be in any case, depending on its function in the sentence. For example,
+The annexed-to in an annexation is always in the i-case. The annexe may be in any case, depending on its function in the sentence. For example,
 <!--
    + [أُمُّ ٱلْغُلَامِ مُعَلِّمَةٌ.]{.ar}  
      [Eummu -lgulAmi mueallimatun.]{.trn}  
@@ -111,15 +115,15 @@ The annexed-to noun in an annexation is always in the i-case. The annexed noun m
 
 [كِتَابُ ٱلْغُلَامِ ثَقِيلٌ.]{.ar}  
 "The boy's book is heavy."  
-(The annexed noun is in the u-case.)
+(The annexe is in the u-case.)
 
 [أَخَذَتِ ٱلْجَارِيَةُ كِتَابَ ٱلْغُلَامِ.]{.ar}  
 "The girl took the boy's book."  
-(The annexed noun is in the a-case.)
+(The annexe is in the a-case.)
 
 [كَتَبَ ٱلْمُعَلِّمُ فِي كِتَابِ ٱلْغُلَامِ.]{.ar}  
 "The teacher~m~ wrote in the boy's book."  
-(The annexed noun is in the i-case.)
+(The annexe is in the i-case.)
 
 ## Definiteness of the annexation
 
@@ -128,29 +132,29 @@ Consider again the annexation expression we have been using so far:
 [كِتَابُ ٱلْغُلَامِ]{.ar}  
 "the boy's book"  
 
-The annexed-to noun [ٱَلْغُلَام]{.ar} is definite because it is prefixed by [ٱَلْ]{.ar} "the".
+The annexed-to [ٱَلْغُلَام]{.ar} is definite because it is prefixed by [ٱَلْ]{.ar} "the".
 Therefore we have translated it as "the boy".
-The annexed noun [كِتَاب]{.ar} is not made definite by [ٱَلْ]{.ar}.
+The annexe [كِتَاب]{.ar} is not made definite by [ٱَلْ]{.ar}.
 Nor is it made indefinite by [tanwIn]{.trn2}. 
-<!--Its definiteness is determined by the annexed-to noun. -->
-Rather, its definiteness is determined by the annexed-to noun.
-Because the annexed-to noun [ٱَلْغُلَام]{.ar} is definite, therefore the annexed noun [كِتَاب]{.ar} is also definite.
+<!--Its definiteness is determined by the annexed-to. -->
+Rather, its definiteness is determined by the annexed-to.
+Because the annexed-to [ٱَلْغُلَام]{.ar} is definite, therefore the annexe [كِتَاب]{.ar} is also definite.
 The entire annexation is definite.
-<!--If the annexed-to noun is definite (as it is above) then the annexed noun shall also be definite.
-And if the annexed-to noun is indefinite (as below) then the annexed noun shall also be indefinite.-->
+<!--If the annexed-to is definite (as it is above) then the annexe shall also be definite.
+And if the annexed-to is indefinite (as below) then the annexe shall also be indefinite.-->
 
-Consider now the case when the annexed-to noun is indefinite.
+Consider now the case when the annexed-to is indefinite.
 
 [كِتَابُ غُلَامٍ]{.ar}  
 "a boy's book"  
 
-In the above example, the annexed-to noun [غُلَامٍ]{.ar} is indefinite because it is [tanwIn]{.trn2}ed and because it does not prefixed by [ٱَلْ]{.ar}. Therefore we have translated it as "a boy".
-The annexed noun [كِتَاب]{.ar} is neither [tanwIn]{.trn2}ed, nor does it have [ٱَلْ]{.ar}.
-Its definiteness is, again, determined by the annexed-to noun.
-Because the annexed-to noun [غُلَامٍ]{.ar} is indefinite, therefore the annexed noun [كِتَاب]{.ar} is also indefinite.
+In the above example, the annexed-to [غُلَامٍ]{.ar} is indefinite because it is [tanwIn]{.trn2}ed and because it does not prefixed by [ٱَلْ]{.ar}. Therefore we have translated it as "a boy".
+The annexe [كِتَاب]{.ar} is neither [tanwIn]{.trn2}ed, nor does it have [ٱَلْ]{.ar}.
+Its definiteness is, again, determined by the annexed-to.
+Because the annexed-to [غُلَامٍ]{.ar} is indefinite, therefore the annexe [كِتَاب]{.ar} is also indefinite.
 The entire annexation is indefinite.
 
-We will see soon, if [#allAh]{.trn2} wills, why the definiteness of the annexed noun is important.
+We will see soon, if [#allAh]{.trn2} wills, why the definiteness of the annexe is important.
 
 <!--
 
@@ -161,9 +165,9 @@ ii. using "of"
 
 Sometimes both of the above constructs will fit for the translation, and sometimes only one will fit. For convenience, we will often translate with only one of them.
 
-The annexed noun in an annexation can have neither an [tanwIn]{.trn2}, nor an [ٱَلْ]{.ar}. 
-The annexed-to noun is permitted to have an [tanwIn]{.trn2} or an [ٱَلْ]{.ar} prefix. 
-The definiteness of the annexed-to noun then determines the definiteness of the annexation. If the second noun is definite, then both the annexed noun and the annexed-to nouns be definite. And if the annexed-to noun is indefinite, then both the nouns in the chain will be indefinite. 
+The annexe in an annexation can have neither an [tanwIn]{.trn2}, nor an [ٱَلْ]{.ar}. 
+The annexed-to is permitted to have an [tanwIn]{.trn2} or an [ٱَلْ]{.ar} prefix. 
+The definiteness of the annexed-to then determines the definiteness of the annexation. If the second noun is definite, then both the annexe and the annexed-tos be definite. And if the annexed-to is indefinite, then both the nouns in the chain will be indefinite. 
 
 [بَيْتُ مُحَمَّدٍ]{.ar}  
 [baytu muHammadin]{.trn}  
@@ -207,7 +211,7 @@ Instead of using "'s" we may use "of" as well. For example:
 [بَيْتُ ٱلرَّجُلِ]{.ar}  
 "a/the house of the man"
 
-Note that the annexed noun "house" may be prefixed with either "a" or "the". This will depend on what is more natural in English. Often time both will fit. Here are some examples:
+Note that the annexe "house" may be prefixed with either "a" or "the". This will depend on what is more natural in English. Often time both will fit. Here are some examples:
 
 [لَبِسَ ٱلطِّفْلُ قَمِيصَ رَجُلٍ.]{.ar}  
 "The child wore a/the shirt of a man."
@@ -221,15 +225,15 @@ Note that the annexed noun "house" may be prefixed with either "a" or "the". Thi
 [فَتَحَ ٱللِّصُّ شُبَّاكَ ٱلْبَيْتِ وَدَخَلَ ٱلْبَيْتَ.]{.ar}  
 "The thief opened _a/the_ window of the house and entered the house."
 
-It is important to understand that translating the annexed noun into English with "a" or "the" is purely for the reason of obtaining a natural translation. This does not affect whether or not the annexed noun is grammatically considered definite in Arabic.
+It is important to understand that translating the annexe into English with "a" or "the" is purely for the reason of obtaining a natural translation. This does not affect whether or not the annexe is grammatically considered definite in Arabic.
 
-As we mentioned earlier, the definiteness of the annexed noun in Arabic depends only on the definiteness of the annexed-to noun. 
-If the annexed-to noun is definite then the annexed noun shall be considered definite as well.
-And if the annexed-to noun is indefinite then the annexed noun shall be considered indefinite as well.
+As we mentioned earlier, the definiteness of the annexe in Arabic depends only on the definiteness of the annexed-to. 
+If the annexed-to is definite then the annexe shall be considered definite as well.
+And if the annexed-to is indefinite then the annexe shall be considered indefinite as well.
 
 The need to maintain this distinction will become apparent in the next section.
 
-If the annexed-to noun is definite, and it is desired to make the annexed noun grammatically indefinite, then it is necassary to break the annexation, and use a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
+If the annexed-to is definite, and it is desired to make the annexe grammatically indefinite, then it is necassary to break the annexation, and use a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتٍ لِلرَّجُلِ.]{.ar}  
 "The boy went to a house of the man."
@@ -259,7 +263,7 @@ Contrary to broken plurals and [At]{.trn} plurals, duals and [Un]{.trn} sound pl
 
 ## Attributes in an annexation
 
-### Describing the annexed-to noun
+### Describing the annexed-to
 
 Consider the following expression:
 
@@ -267,15 +271,15 @@ Consider the following expression:
 "the girl's book"
 
 Now say that we want to form an descriptive noun-phrase "the small girl's book". 
-Basically, we want to describe the annexed-to noun [ٱَلْجَارِيَة]{.ar} "the girl" with the adjectival noun [صَغِير]{.ar} "a small one". 
+Basically, we want to describe the annexed-to [ٱَلْجَارِيَة]{.ar} "the girl" with the adjectival noun [صَغِير]{.ar} "a small one". 
 Here is how we will express this in Arabic:
 
 [كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرَةِ]{.ar}  
 "the small girl's book"
 
-In the manner we are already familiar with, we place the attribute [صَغِير]{.ar} "a small one" after the attributee
+In the manner we are already familiar with, we place the attribute [صَغِير]{.ar} "a small one" after the attributed-to
 [ٱَلْجَارِيَة]{.ar} "the girl"
-and match the attribute with the attributee in definiteness, case, gender and number (singular, dual, or plural).
+and match the attribute with the attributed-to in definiteness, case, gender and number (singular, dual, or plural).
 
 Similarly, if we had an indefinite annexation, we would get:
 
@@ -293,28 +297,28 @@ Here are some more examples:
 [جَلَسَ ٱلرَّجُلُ فِي ظِلِّ شَجَرَةٍ عَرِيضَةٍ وَسِيعَةٍ.]{.ar}  
 "The man sat in the shade of a wide broad tree."
 
-### Describing the annexed noun
+### Describing the annexe
 
 Consider, again, the same annexation:
 
 [كِتَابُ ٱلْجَارِيَةِ]{.ar}  
 "the girl's book"
 
-Say, now, that we want to describe the annexed noun [كِتَاب]{.ar} "book" with the adjectival noun [صَغِير]{.ar} "a small one". Normally, nothing can come between the annexed noun and the annexed-to noun in an annexation. So, the attribute needs to be placed, again, after the annexed-to noun.
-However, this time it will match the annexed noun, not the annexed-to noun, in case, definiteness, gender, and number. So we get:
+Say, now, that we want to describe the annexe [كِتَاب]{.ar} "book" with the adjectival noun [صَغِير]{.ar} "a small one". Normally, nothing can come between the annexe and the annexed-to in an annexation. So, the attribute needs to be placed, again, after the annexed-to.
+However, this time it will match the annexe, not the annexed-to, in case, definiteness, gender, and number. So we get:
 
 [كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرُ]{.ar}  
 "the girl's small book"
 
 Note how the attribute 
-[ٱَلصَّغِيرُ]{.ar} matches the annexed noun [كِتَابُ]{.ar} in case and gender.
-Note also how the attribute is definite with an [ٱَلْ]{.ar}. This is because it is matching the annexed noun [كِتَابُ]{.ar} in definiteness.
-The annexed noun [كِتَاب]{.ar} is definite, not with [ٱَلْ]{.ar}, but rather because of the definite annexed-to noun [ٱَلْجَارِيَةِ]{.ar} "the girl".
+[ٱَلصَّغِيرُ]{.ar} matches the annexe [كِتَابُ]{.ar} in case and gender.
+Note also how the attribute is definite with an [ٱَلْ]{.ar}. This is because it is matching the annexe [كِتَابُ]{.ar} in definiteness.
+The annexe [كِتَاب]{.ar} is definite, not with [ٱَلْ]{.ar}, but rather because of the definite annexed-to [ٱَلْجَارِيَةِ]{.ar} "the girl".
 We've already learned this rule in 
 section\ \@ref(definiteness-of-the-annexation)
 above.
 
-Similarly, if we describe the annexed noun [كِتَاب]{.ar} in an indefinite annexation, we get:
+Similarly, if we describe the annexe [كِتَاب]{.ar} in an indefinite annexation, we get:
 
 [كِتَابُ جَارِيَةٍ صَغِيرٌ]{.ar}  
 "a girl's small book"
@@ -324,17 +328,17 @@ the attribute
 [صَغِيرٌ]{.ar}
 is indefinite with a [tanwIn]{.trn2}ed [Dammah]{.trn2} [◌ٌ]{.ar}. 
 This is because 
-the annexed noun [كِتَابُ]{.ar} is indefinite. It is indefinite because annexed-to noun [جَارِيَةٍ]{.ar} "a girl" is indefinite.
+the annexe [كِتَابُ]{.ar} is indefinite. It is indefinite because annexed-to [جَارِيَةٍ]{.ar} "a girl" is indefinite.
 
-Now, you might be foreseeing a problem. What if the annexed noun and the annexed-to noun have the same gender, and the annexed noun too is in the i-case? For example, in the sentence:
+Now, you might be foreseeing a problem. What if the annexe and the annexed-to have the same gender, and the annexe too is in the i-case? For example, in the sentence:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ ٱلرَّجُلِ ٱلْكَبِيرِ.]{.ar}  
 "The boy went to the big/old man's house."  
 or  
 "The boy went to the man's big house."  
 
-How do we know whether the attribute [كَبِير]{.ar} is meant to describe the annexed noun [بَيْتِ]{.ar} or the annexed-to noun [ٱَلرَّجُل]{.ar}?
-The annexed noun [بَيْتِ]{.ar} and the annexed-to noun [ٱَلرَّجُل]{.ar} are both masculine, singular, definite, and in the i-case.
+How do we know whether the attribute [كَبِير]{.ar} is meant to describe the annexe [بَيْتِ]{.ar} or the annexed-to [ٱَلرَّجُل]{.ar}?
+The annexe [بَيْتِ]{.ar} and the annexed-to [ٱَلرَّجُل]{.ar} are both masculine, singular, definite, and in the i-case.
 
 The answer is that in such cases, context will have to be clear to tell us which of the two meanings is intended.
 If the context makes it clear then there is no harm in using such a sentence for either of the two meanings.
@@ -348,12 +352,12 @@ Also, sometimes, the meaning of the attribute is such that it will likely apply 
 
 In the sentence above the attribute [كَرِيم]{.ar} "noble/generous" is likely to apply to a man, and not to a house.
 
-If, however, the context is not clear, and the meaning of the attribute can apply to both the annexed noun and the annexed-to noun, then the attribute is likely to apply to the annexed-to noun and not to the annexed noun. So then, this interpretation is more likely:
+If, however, the context is not clear, and the meaning of the attribute can apply to both the annexe and the annexed-to, then the attribute is likely to apply to the annexed-to and not to the annexe. So then, this interpretation is more likely:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ بَيْتِ ٱلرَّجُلِ ٱلْكَبِيرِ.]{.ar}  
 "The boy went to the big/old man's house."  
 
-In order to apply a attribute to the annexed noun in such a case, it is better to break the annexation and form a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
+In order to apply a attribute to the annexe in such a case, it is better to break the annexation and form a prepositional phrase instead, usually with the preposition [لِ]{.ar}, which, here, will mean "of". Example:
 
 [ذَهَبَ ٱلْغُلَامُ إِلَىٰ ٱلْبَيْتِ ٱلْكَبِيرِ لِلرَّجُلِ .]{.ar}  
 "The boy went to the big house of the man."  
@@ -398,9 +402,9 @@ i-case| [صَحْرَاءَ]{.ar} | [ٱَلصَّحْرَاءِ]{.ar}
 
 We will now see how semi-flexible nouns behave in an annexation.
 
-### A semi-flexible noun as the annexed-to noun
+### A semi-flexible noun as the annexed-to
 
-Here are examples of the semi-flexible noun ^2^[صَحْرَاء]{.ar} "a desert" as the annexed-to noun in an annexation:
+Here are examples of the semi-flexible noun ^2^[صَحْرَاء]{.ar} "a desert" as the annexed-to in an annexation:
 
 [ٱَلْقَرْيَةُ فِي وَسَطِ ٱلصَّحْرَاءِ.]{.ar}  
 "The village is in the middle of the desert."
@@ -416,15 +420,15 @@ its i-case is indicate by an [fatHah]{.trn2} [◌َ]{.ar}.
 
 This is consistent with the general behavior of semi-flexible nouns that we are familiar with.
 
-### A semi-flexible noun as the annexed noun
+### A semi-flexible noun as the annexe
 
-Contrary from expected behavior, a semi-flexible annexed noun, even when indefinite, takes an [kasrah]{.trn2}\ [◌ِ]{.ar} in the i-case instead of an [fatHah]{.trn2}\ [◌َ]{.ar}. Example,
+Contrary from expected behavior, a semi-flexible annexe, even when indefinite, takes an [kasrah]{.trn2}\ [◌ِ]{.ar} in the i-case instead of an [fatHah]{.trn2}\ [◌َ]{.ar}. Example,
 
 [قَدِمَ ٱلْأَعْرَابِيُّ مِنْ صَحْرَاءِ أَرْضٍ بَعِيدَةٍ.]{.ar}  
 "The bedouin came from the desert of a far land."
 
 In the above example,
-^2^[صَحْرَاء]{.ar} "a desert" is indefinite because it is the annexed noun to an indefinite annexed-to noun [أَرْض]{.ar} "a land". 
+^2^[صَحْرَاء]{.ar} "a desert" is indefinite because it is the annexe to an indefinite annexed-to [أَرْض]{.ar} "a land". 
 It is in the i-case because it is preceded by the preposition [مِنْ]{.ar} "from". 
 Nevertheless, it takes an [kasrah]{.trn2} [مِنْ صَحْرَاءِ أَرْضٍ]{.ar}, not an [fatHah]{.trn2}, which would be incorrect: $\times$\ [مِنْ صَحْرَاءَ أَرْضٍ]{.ar}.
 
@@ -482,29 +486,29 @@ So far we have seen annexations with two nouns. Annexations may be arbitrarily l
 
 The above annexation consists of three nouns. It may be divided into two sub-annexations:
 
-i. [مِفْتَاحُ بَابِ]{.ar} "door's key". Its annexed noun $a_1$\ is [مِفْتَاح]{.ar} and its annexed-to noun\ $b_1$ is [بَابِ]{.ar}.
-i. [بَابِ ٱلْبَيْتِ]{.ar} "the house's door". Its annexed noun $a_2$\ is [بَابِ]{.ar} and its annexed-to noun\ $b_2$ is [ٱلْبَيْتِ]{.ar}.
+i. [مِفْتَاحُ بَابِ]{.ar} "door's key". Its annexe $a_1$\ is [مِفْتَاح]{.ar} and its annexed-to\ $b_1$ is [بَابِ]{.ar}.
+i. [بَابِ ٱلْبَيْتِ]{.ar} "the house's door". Its annexe $a_2$\ is [بَابِ]{.ar} and its annexed-to\ $b_2$ is [ٱلْبَيْتِ]{.ar}.
 
-The noun [بَاب]{.ar} "door" is common to both sub-annexations. It is the annexed-to noun of the first sub-annexation
+The noun [بَاب]{.ar} "door" is common to both sub-annexations. It is the annexed-to of the first sub-annexation
 [مِفْتَاحُ بَابِ]{.ar} "door's key".
-At the same time, it is also the annexed noun of the second sub-annexation
+At the same time, it is also the annexe of the second sub-annexation
 [بَابِ ٱلْبَيْتِ]{.ar} "the house's door".
 
-Only the final annexed-to noun may have [ٱَلْ]{.ar} or be [tanwIn]{.trn2}ed. If the final annexed-to noun has [ٱَلْ]{.ar} (as above) then all the nouns in the annexation are definite. 
+Only the final annexed-to may have [ٱَلْ]{.ar} or be [tanwIn]{.trn2}ed. If the final annexed-to has [ٱَلْ]{.ar} (as above) then all the nouns in the annexation are definite. 
 
-And if the final annexed-to noun is indefinite, as in the example below, then all the nouns in the annexation are indefinite.
+And if the final annexed-to is indefinite, as in the example below, then all the nouns in the annexation are indefinite.
 
 [مِفْتَاحُ بَابِ بَيْتٍ]{.ar}  
 "a house's door's key"
 
-All the nouns except the first annexed noun must be in the i-case. Consistent with 
+All the nouns except the first annexe must be in the i-case. Consistent with 
 section\ \@ref(a-semi-flexible-noun-as-the-annexe-noun)
-if a semi-flexible noun is any of the annexed nouns and is in the i-case, then its i-case is indicated by an [fatHah]{.trn2} [◌َ]{.ar}. Example:
+if a semi-flexible noun is any of the annexes and is in the i-case, then its i-case is indicated by an [fatHah]{.trn2} [◌َ]{.ar}. Example:
 
 [مِنْ بِئْرِ صَحْرَاءِ أَرْضٍ]{.ar}  
 "from the well of the desert of a land"
 
-## Pronouns as annexed-to nouns
+## Pronouns as annexed-tos
 
 Consider the expression:
 
@@ -515,15 +519,15 @@ This expression is very similar to the annexation:
 [كِتَابُ ٱلْغُلَامِ]{.ar}  
 "the boy's book" 
 
-The difference is that we would like to replace the annexed-to noun [ٱَلْغُلَام]{.ar} "the boy" with the pronoun "his". For this we use the attached pronoun [هُ]{.ar}. When we place this pronoun as the annexed-to noun, we get:
+The difference is that we would like to replace the annexed-to [ٱَلْغُلَام]{.ar} "the boy" with the pronoun "his". For this we use the attached pronoun [هُ]{.ar}. When we place this pronoun as the annexed-to, we get:
 
 [كِتَابُهُ]{.ar}  
 "his book"
 
 This annexation follows the same rules as the other annexations we have been studying so far:
 
-+ The annexed noun may be in any case, depending on its function in the sentence.
-+ The annexed-to noun is in the i-case. But because the annexed-to noun is a pronoun, and pronouns are rigid nouns (see section\ \@ref(rigidity-of-pronouns) that don't change their ending based on their case, therefore it's i-case will not be apparent.
++ The annexe may be in any case, depending on its function in the sentence.
++ The annexed-to is in the i-case. But because the annexed-to is a pronoun, and pronouns are rigid nouns (see section\ \@ref(rigidity-of-pronouns) that don't change their ending based on their case, therefore it's i-case will not be apparent.
 
 Here are some examples of this annexation used in sentences:
 
@@ -536,7 +540,7 @@ Here are some examples of this annexation used in sentences:
 [كَتَبَ ٱلْمُعَلِّمُ فِي كِتَابهِ.]{.ar}  
 "The teacher~m~ wrote in his book."
 
-If the annexed noun ends with [ة]{.ar} then it is converted to a [ت]{.ar} when annexing it to an attached pronoun. For example:
+If the annexe ends with [ة]{.ar} then it is converted to a [ت]{.ar} when annexing it to an attached pronoun. For example:
 
 [ذَهَبُوا إِلَىٰ مَدْرَسَتِهِمْ.]{.ar}  
 "They went to their school."
@@ -555,12 +559,12 @@ Here are some more examples of annexing to the different attached pronouns:
 [هُوَ إِمَامُ مَسْجِدِنَا.]{.ar}  
 "He is the [E#imAm]{.trn2} of our mosque."
 
-If the annexed noun is semi-flexible then it gets a [◌ِ]{.ar} in the i-case, as we've already learned. Example with the semi-flexible broken plural ^2^[حَدَائِق]{.ar} "gardens".
+If the annexe is semi-flexible then it gets a [◌ِ]{.ar} in the i-case, as we've already learned. Example with the semi-flexible broken plural ^2^[حَدَائِق]{.ar} "gardens".
 
 [لَعِبْنَ فِي حَدَائِقِهِنَّ.]{.ar}  
 "They~3,f~ played in their~3,f~ gardens."
 
-If an annexed noun ends with [ىٰ]{.ar} then it gets converted to an [alif]{.trn2} when annexing it to an attached pronoun. Example with ^2^[فَتَاوَىٰ]{.ar} "legal opinions":
+If an annexe ends with [ىٰ]{.ar} then it gets converted to an [alif]{.trn2} when annexing it to an attached pronoun. Example with ^2^[فَتَاوَىٰ]{.ar} "legal opinions":
 
 [كَتَبَ تَلَامِذَةُ ٱلشَّيْخِ فَتَاوَاهُ فِي كُتُبِهِمْ.]{.ar}  
 "The pupils of the religious scholar wrote down his legal opinions in their books."
@@ -578,7 +582,7 @@ The first ([ي]{.ar} [-I]{.trn}) is more commonly used. Example:
 [أَقْلَامِي قَصِيرَة.]{.ar}  
 "My pens are short."
 
-If, however, the annexed noun ends in a long vowel or a semi-vowel then 
+If, however, the annexe ends in a long vowel or a semi-vowel then 
 ([ي]{.ar} [-I]{.trn}) is disallowed and only
 ([يَ]{.ar} [-ya]{.trn}) shall be used. 
 Example with the semi-flexible broken plural ^2^[هَدَايَا]{.ar} "gifts":
@@ -593,12 +597,12 @@ Consider the annexation:
 [كِتَابُهُ]{.ar}  
 "his book"
 
-The annexed noun is [كِتَاب]{.ar} and the annexed-to noun is the pronoun [ه]{.ar}.
+The annexe is [كِتَاب]{.ar} and the annexed-to is the pronoun [ه]{.ar}.
 We would like add a attribute to this expression.
-Remember from section\ \@ref(definiteness-of-pronouns) that pronouns are definite nouns. That makes the annexed noun [كِتَاب]{.ar} also definite.
+Remember from section\ \@ref(definiteness-of-pronouns) that pronouns are definite nouns. That makes the annexe [كِتَاب]{.ar} also definite.
 Therefore, any attribute for this annexation will need to be definite too.
 
-Here is a new rule: Pronouns may not be attributees. That is: they are not allowed to have attributes.
+Here is a new rule: Pronouns may not be attributed-tos. That is: they are not allowed to have attributes.
 Even in English you may say:
 
 "The good boy went."
@@ -607,7 +611,7 @@ but you can't say:
 
 $\times$\ "The good _he_ went."
 
-So, any attributes for the annexation must necessarily only describe the annexed noun, not the pronoun which is the annexed-to noun. Example:
+So, any attributes for the annexation must necessarily only describe the annexe, not the pronoun which is the annexed-to. Example:
 
 [كِتَابُهُ الأَحْمَرُ]{.ar}  
 "his red book"
@@ -629,9 +633,9 @@ section\ \@ref(broken-plurals-and-at-sound-plurals-in-annexations).
 In this section we will deal with 
 duals and [Un]{.trn} sound plurals in annexations.
 
-### Duals and [Un]{.trn} sound plurals as annexed-to nouns
+### Duals and [Un]{.trn} sound plurals as annexed-tos
 
-As annexed-to noun, duals and [Un]{.trn} sound plurals behave no differently than other nouns. Being annexed-to nouns they will be in the i-case and this shall be indicated by:
+As annexed-to, duals and [Un]{.trn} sound plurals behave no differently than other nouns. Being annexed-tos they will be in the i-case and this shall be indicated by:
 
 i. [◌َيْنِ]{.ar} [-ayni]{.trn} for duals
 i. [◌ِينَ]{.ar} [-Ina]{.trn} for [Un]{.trn} sound plurals
@@ -647,22 +651,22 @@ Here are some examples:
 [هِيَ طَالِبَةُ مُعَلِّمَتَيْنِ كَرِيمَتَيْنِ.]{.ar}  
 "She is the student~f~ of noble teachers~2,f~."
 
-### Duals and [Un]{.trn} sound plurals as annexed nouns
+### Duals and [Un]{.trn} sound plurals as annexes
 
-When duals and [Un]{.trn} sound plurals are annexed nouns, then their final [ن]{.ar} is treated as a sort of [tanwIn]{.trn2} and is, therefore, deleted before annexing them to a annexed-to noun. For example:
+When duals and [Un]{.trn} sound plurals are annexes, then their final [ن]{.ar} is treated as a sort of [tanwIn]{.trn2} and is, therefore, deleted before annexing them to a annexed-to. For example:
 
 [بَيْتَا ٱلرَّجُلِ]{.ar}  
 "the man's houses~2~"  
 not  
 $\times$\ [بَيْتَانِ ٱلرَّجُلِ]{.ar}
 
-Note, also, that because the annexed-to noun [ٱَلرَّجُلِ]{.ar} begins with a connecting [hamzah]{.trn2} [ٱ]{.ar}, therefore the long vowel [A]{.trn} at the end of [بَيْتَا]{.ar} is pronounced as a short vowel [a]{.trn}, thus:
+Note, also, that because the annexed-to [ٱَلرَّجُلِ]{.ar} begins with a connecting [hamzah]{.trn2} [ٱ]{.ar}, therefore the long vowel [A]{.trn} at the end of [بَيْتَا]{.ar} is pronounced as a short vowel [a]{.trn}, thus:
 
 [bayta -rrajuli]{.trn}  
 not  
 $\times$\ [baytA -rrajuli]{.trn}
 
-If the dual annexed noun were in the i-case then the final [ي]{.ar} gets an [kasrah]{.trn2} [◌ِ]{.trn} if there is following connecting [hamzah]{.trn2}. Example:
+If the dual annexe were in the i-case then the final [ي]{.ar} gets an [kasrah]{.trn2} [◌ِ]{.trn} if there is following connecting [hamzah]{.trn2}. Example:
 
 [قَرَأْتُ كِتَابَيِ ٱلرَّجُلِ.]{.ar}  
 [qaraEtu kitAbayi -rrajul]{.trn}  
@@ -700,7 +704,7 @@ There are also two special cases in this category and we will examine them below
 
 ##### Annexing an [Un]{.trn} sound plural to the singular speaker participant pronoun {-} 
 
-When an [Un]{.trn} sound plural is annexed to the singular speaker participant pronoun, then again, only the [يَ]{.ar} variant can be used. However, in addition, the expression will appear the same regardless of the case of the annexed noun. So for all cases (u-case, a-case, and i-case), we will get:
+When an [Un]{.trn} sound plural is annexed to the singular speaker participant pronoun, then again, only the [يَ]{.ar} variant can be used. However, in addition, the expression will appear the same regardless of the case of the annexe. So for all cases (u-case, a-case, and i-case), we will get:
 
 [مُعَلِّمِيَّ]{.ar}
 
@@ -721,7 +725,7 @@ We don't say $\times$\ [مُعَلِّمُويَ]{.ar} for the u-case. Examples:
 ##### Annexing an dual noun to a dual pronoun {-} 
 
 <!-- see فقد صغت قلوبكما-->
-When a dual noun is to be annexed to a dual pronoun, then the dual annexed noun is often converted to a plural. For example, instead of saying 
+When a dual noun is to be annexed to a dual pronoun, then the dual annexe is often converted to a plural. For example, instead of saying 
 
 [نَظَرْتُ إِلَىٰ رَأْسَيْهِمَا]{.ar}
 "I looked at their~2~ heads~2~."
@@ -735,13 +739,13 @@ Although the former is also correct. This is because the annexation of a dual to
 
 <!--
 
-Compare this with describing the annexed-to noun with the same adjectival noun.
+Compare this with describing the annexed-to with the same adjectival noun.
 
 [كِتَابُ ٱلْجَارِيَةِ ٱلصَّغِيرَةِ]{.ar}  
 "the girl's small book"
 
-As you can see, the adjectival noun [صَغِير]{.ar} "a small one" is in the same location, but its gender and case are different in both expressions because they match a different attributee. 
-The definiteness, however, is the same in the two expressions because the annexed noun has the same definiteness as the annexed-to noun.
+As you can see, the adjectival noun [صَغِير]{.ar} "a small one" is in the same location, but its gender and case are different in both expressions because they match a different attributed-to. 
+The definiteness, however, is the same in the two expressions because the annexe has the same definiteness as the annexed-to.
 
 
 
@@ -1055,9 +1059,9 @@ Here are some notes regarding the use of pronouns in noun-chains.
 
 ## Annexations with "and"
 
-### Multiple annexed nouns and one annexed-to noun
+### Multiple annexes and one annexed-to
 
-In English we can have an expression like "the pen and the book of the boy" = "the boy's pen and book". In this sentence there are two annexed nouns and one annexed-to noun.
+In English we can have an expression like "the pen and the book of the boy" = "the boy's pen and book". In this sentence there are two annexes and one annexed-to.
 
 In order to express this in Arabic, we will say:
 
@@ -1077,15 +1081,15 @@ This second method is not considered as eloquent. Some even consider it incorrec
 
 #### With pronouns
 
-If the annexed-to noun in the first annexation is replaced with a pronoun then only the first method is allowed. For example,
+If the annexed-to in the first annexation is replaced with a pronoun then only the first method is allowed. For example,
 
 [قَلَمُهُ وَكِتَابُهُ]{.ar}  
 [qalamuhu wakitAbuhu]{.trn}  
 "his pen and his book"
 
-### One annexed noun and multiple annexed-to nouns
+### One annexe and multiple annexed-tos
 
-We can also have expressions like "the house of the boy and the girl". In this sentence there is one annexed noun and two annexed-to nouns.
+We can also have expressions like "the house of the boy and the girl". In this sentence there is one annexe and two annexed-tos.
 
 To express this in Arabic we will say:
 
@@ -1094,11 +1098,11 @@ To express this in Arabic we will say:
 "the house of the boy and the girl"
 
 Note that both 
-[ٱلْغُلَامِ]{.ar} [EalgulAmi]{.trn} and [ٱَلْجَارِيَةِ]{.ar} [EaljAriyati]{.trn} are in the i-case because they are both annexed-to nouns in the annexation.
+[ٱلْغُلَامِ]{.ar} [EalgulAmi]{.trn} and [ٱَلْجَارِيَةِ]{.ar} [EaljAriyati]{.trn} are in the i-case because they are both annexed-tos in the annexation.
 
 #### With pronouns
 
-If one or both of the annexed-to nouns in the annexation is replaced with a pronoun then the first noun must be repeated. For example,
+If one or both of the annexed-tos in the annexation is replaced with a pronoun then the first noun must be repeated. For example,
 
 [بَيْتُ ٱلْغُلَامِ وَبَيْتُهَا]{.ar}  
 "the boy's house and her house"
@@ -1121,8 +1125,8 @@ piece of bread, man of wealth, rule of law, nahru -lEurdunn
 
 ## Annexation to a sentence
 
-So far we have studied the annexation of an annexed noun to a annexed-to noun.
-It is also possible to have an annnexation where the annexed-to noun is replaced by a sentence or a clause.
+So far we have studied the annexation of an annexe to a annexed-to.
+It is also possible to have an annnexation where the annexed-to is replaced by a sentence or a clause.
 For example,
 
 <!--
@@ -1143,11 +1147,11 @@ For example,
 
 \draw [decoration={brace}, decorate] 
    (word-2.north west) -- (word-2.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexed noun};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize annexe};
 
 \draw [decoration={brace}, decorate] 
    (word-1.north west) -- (word-1.north east)
-      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize sentence in place of annexed-to noun};
+      node [midway, rotate=90, anchor=south, right=0ex] {\scriptsize sentence in place of annexed-to};
 
 \draw [decoration={brace, mirror}, decorate] 
    (word-1.south west) -- (word-2.south east)
@@ -1158,10 +1162,10 @@ For example,
 \end{tikzpicture}
 ```
 
-The word [يَوْم]{.ar} is the annexed noun and is used as an adverb or time.
+The word [يَوْم]{.ar} is the annexe and is used as an adverb or time.
 The entire sentence
 [خَرَجْنَا مِنَ ٱلْمَدِينَةِ.]{.ar}
-occupies the place of the annexed-to noun.
+occupies the place of the annexed-to.
 We will study the adverb of time in chapter\ (give ref),
 if [#allAh]{.trn2} wills,
 where such annexations are common.
