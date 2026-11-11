@@ -1049,8 +1049,8 @@ For example:
 
 In the example above,
 the sentence with the link restored is 
-[ٱلسَّمْنُ مَنَوَانِ **مِنْهُ** بِدِرْهَمٍ]{.ar} 
-[two [manA]{.trn2}s **of it** for a dirham.]{.trans}
+[ٱلسَّمْنُ مَنَوَانِ [مِنْهُ]{.eghl} بِدِرْهَمٍ]{.ar} 
+[two [manA]{.trn2}s [of it]{.eghl} for a dirham.]{.trans}
 
 
 
@@ -1182,7 +1182,7 @@ For example:
 
 The implied link
 is the pronoun [ه]{.ar} in an implied [فِيهِ]{.ar},
-i.e. [لَا تَجْزِی **فِيهِ**]{.ar}.
+i.e. [لَا تَجْزِی [فِيهِ]{.eghl}]{.ar}.
 
 #### The sentence-attribute should be truth-evaluable {.unnumbered}
 
@@ -1313,11 +1313,11 @@ if the subject of the following sentence is feminine,
 then the state-of-affairs pronoun is generally the feminine pronoun [هِيَ]{.ar}.
 Examples:
 
-(@ex000602) [**هُوَ** زَيْدٌ قَائِمٌ]{.ar}
+(@ex000602) [[هُوَ]{.eghl} زَيْدٌ قَائِمٌ]{.ar}
     [[البسيط لابن أبي الربيع]{.ar} 745]{.citex}  
     [[The state of affairs] is: Zayd is standing.]{.trans}
 
-(@ex000603) [**هِيَ** هِنْدٌ قَائِمَةٌ]{.ar}
+(@ex000603) [[هِيَ]{.eghl} هِنْدٌ قَائِمَةٌ]{.ar}
     [[البسيط لابن أبي الربيع]{.ar} 745]{.citex}  
     [[The state of affairs] is: Hind is standing.]{.trans}
 
@@ -1330,11 +1330,11 @@ Sometimes, however,
 the gender of the state-of-affairs pronoun can mismatch the gender of the following subject.
 For example:
 
-(@ex000604) [**هِيَ** زَيْدٌ قَائِمٌ]{.ar}
+(@ex000604) [[هِيَ]{.eghl} زَيْدٌ قَائِمٌ]{.ar}
     [[البسيط لابن أبي الربيع]{.ar} 745]{.citex}  
     [[The state of affairs] is: Zayd is standing.]{.trans}
 
-(@ex000605) [**هُوَ** هِنْدٌ قَائِمَةٌ]{.ar}
+(@ex000605) [[هُوَ]{.eghl} هِنْدٌ قَائِمَةٌ]{.ar}
     [[البسيط لابن أبي الربيع]{.ar} 745--756]{.citex}  
     [[The state of affairs] is: Hind is standing.]{.trans}
 
@@ -1342,10 +1342,10 @@ For example:
 
 The state-of-affairs pronoun is always a singular pronoun, regardless of whether the subject of the following subject is singular, dual, or plural.^[[[معاني النحو]{.ar} 1/59](https://shamela.ws/book/17801/58#p1)]
 
-(@ex000606) [**هُوَ** الزَّيْدَانِ قَائِمَانِ]{.ar}  
+(@ex000606) [[هُوَ]{.eghl} الزَّيْدَانِ قَائِمَانِ]{.ar}  
     [[The state of affairs] is: the two Zayds are standing.]{.trans}
 
-(@ex000607) [**هِيَ** الْهِنْدَاتُ قَائِمَاتٌ]{.ar}  
+(@ex000607) [[هِيَ]{.eghl} الْهِنْدَاتُ قَائِمَاتٌ]{.ar}  
     [[The state of affairs] is: the Hinds are standing.]{.trans}
 
 #### The state-of-affairs pronoun is always a pronoun for the absentee person {.unnumbered}

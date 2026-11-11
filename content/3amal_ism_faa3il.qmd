@@ -136,7 +136,7 @@ This is because the doer participle, as a single element, is already a member of
 In contrast, a verb always forms a sentence (as the leaning element) with its doer (as the leaned-against element).
 If we replace the doer participle [قَائِمًا]{.ar} with the verb [يَقُومُ]{.ar} thus:
 
-(@ex000185) [رَأَيْتُ رَجُلًا **يَقُومُ**]{.ar}  
+(@ex000185) [رَأَيْتُ رَجُلًا [يَقُومُ]{.eghl}]{.ar}  
 
 then [يَقُومُ]{.ar} is a complete sentence with the verb and its latent doer pronoun as indispensable elements.
 This complete sentence is the attribute of [رَجُلًا]{.ar}.
@@ -441,7 +441,7 @@ then two conditions must be satisfied:
    then the doer participle may not govern a direct object.
    So, for example, we cannot say:
 
-   (@) ✗ [هَذَا ضَارِبٌ **زَيْدًا** أَمْسِ]{.ar}
+   (@) ✗ [هَذَا ضَارِبٌ [زَيْدًا]{.eghl} أَمْسِ]{.ar}
        [[شرح ابن عقيل على الألفية]{.ar} 3/106]{.citex}  
        [This [person] beat Zayd yesterday.]{.trans}
 
@@ -600,7 +600,7 @@ So we can say:
 
 ## The doer participle as the governor of an overt doer pronoun
 
-FIXME: The latent doer pronoun does not **become** overt. Rather, a overt noun can replace it. Or a overt pronoun can occur after it as tawkeed.  See Saa3idi tamheed.
+FIXME: The latent doer pronoun does not [become]{.eghl} overt. Rather, a overt noun can replace it. Or a overt pronoun can occur after it as tawkeed.  See Saa3idi tamheed.
 
 The latent doer pronoun becomes overt in some circumstances.
 In this section,
@@ -652,7 +652,7 @@ Both meanings are possible.
 If only the second meaning is desired,
 then the latent doer pronoun [[هُوَ]{.ar}] can be made overt and added after the doer participle [مُتْبِع]{.ar}, thus:
 
-(@ex000208) [الفارس الحصانُ مُتْعِبُه **هُوَ**]{.ar}
+(@ex000208) [الفارس الحصانُ مُتْعِبُه [هُوَ]{.eghl}]{.ar}
     [[النحو الوافي]{.ar} 1/464]{.citex}  
     [The horseman -- the horse -- [he] makes him tired.]{.trans}  
     (i.e. [The horseman makes the horse tired.]{.trans})
@@ -676,7 +676,7 @@ if the info is to refer to the subject of the outer sentence,
 then the doer pronoun of the doer participle in the info should be made overt.
 For example:
 
-(@3amal_mush_zaydun_hindun_daaribuhaa_huwa) [زَيْدٌ هِنْدٌ ضَارِبُهَا **هُوَ**]{.ar}
+(@3amal_mush_zaydun_hindun_daaribuhaa_huwa) [زَيْدٌ هِنْدٌ ضَارِبُهَا [هُوَ]{.eghl}]{.ar}
     [[[شرح ابن عقيل على الألفية]{.ar} 1/207](https://shamela.ws/book/9904/206#p1)]{.citex}  
     [Zayd -- Hind -- [he] is beating her.]{.trans}  
     (i.e. [Zayd is beating Hind.]{.trans})
@@ -800,7 +800,7 @@ The overt doer of the [مُنْطَلِقًا]{.ar} is the singular masculine no
 Let's see what happens when
 we vary the number or gender of this overt doer of the sababi info.
 
-(@3amal_mush_kaana_alzaydaani_muntaliqan_abawaahuma) [كَانَ الزَيْدَانِ **مُنْطَلِقًا** أَبَوَاهُمَا]{.ar}
+(@3amal_mush_kaana_alzaydaani_muntaliqan_abawaahuma) [كَانَ الزَيْدَانِ [مُنْطَلِقًا]{.eghl} أَبَوَاهُمَا]{.ar}
     [Peled, _Sentence types_ 208]{.citex}  
     [The two Zayds -- their fathers were setting out.]{.trans}
 
@@ -813,16 +813,16 @@ even though its doer is the dual
 
 This is analagous to a verb, which remains in the singular for dual and plural doers.
 For example
-[كَانَ الزَيْدَانِ **يَنْطَلِقُ** أَبَوَاهُمَا]{.ar}, etc.
+[كَانَ الزَيْدَانِ [يَنْطَلِقُ]{.eghl} أَبَوَاهُمَا]{.ar}, etc.
 
 If the gender of the doer participle's doer is feminine,
 then the doer participle remains in the singular but it is feminized.
 For example:
 
-(@ex000212) [زَيْدٌ **مُنْطَلِقَةٌ** أُمُّهُ]{.ar}  
+(@ex000212) [زَيْدٌ [مُنْطَلِقَةٌ]{.eghl} أُمُّهُ]{.ar}  
     [Zayd -- his mother is setting out.]{.trans}
 
-(@ex000213) [كَانَتْ هِنْدٌ **مُنْطَلِقَةً** خَالَتَاهَا]{.ar}  
+(@ex000213) [كَانَتْ هِنْدٌ [مُنْطَلِقَةً]{.eghl} خَالَتَاهَا]{.ar}  
     [Hind -- her two maternal aunts were setting out.]{.trans}
 
 This again is analagous to the feminizing a verb that has a feminine doer.
@@ -832,10 +832,10 @@ If the doer of the doer participle is a plural, then we have an choice:
 If the doer participle has a sound plural, then, again, it is not used and the doer participle remains in the singular.
 For example:
 
-(@ex000214) [كَانَ الزَيْدُونَ **مُنْطَلِقًا** آبَاؤُهُمْ]{.ar}  
+(@ex000214) [كَانَ الزَيْدُونَ [مُنْطَلِقًا]{.eghl} آبَاؤُهُمْ]{.ar}  
     [The Zayds -- their fathers were setting out.]{.trans}
 
-(@ex000215) [زَيْدٌ **مُنْطَلِقَةٌ** خَالَاتُهُ]{.ar}  
+(@ex000215) [زَيْدٌ [مُنْطَلِقَةٌ]{.eghl} خَالَاتُهُ]{.ar}  
     [Zayd -- his maternal aunts are setting out.]{.trans}
 
 But if
@@ -844,17 +844,17 @@ when the doer is a plural.
 
 For example:
 
-(@ex000216) [كَانَ الزَّيْدُونَ **قِيَامًا** آبَاؤُهُمْ]{.ar}  
+(@ex000216) [كَانَ الزَّيْدُونَ [قِيَامًا]{.eghl} آبَاؤُهُمْ]{.ar}  
     [The Zayds -- their fathers were standing]{.trans}
 
 Here are some examples of sababi infos from the [#qurEAn]{.trn2}:
 
-(@3amal_mush_aathimun_qalbuhu) [فَإِنَّهُۥۤ **ءَاثِمࣱ** قَلۡبُهُۥۗ]{.quran}
+(@3amal_mush_aathimun_qalbuhu) [فَإِنَّهُۥۤ [ءَاثِمࣱ]{.eghl} قَلۡبُهُۥۗ]{.quran}
     [[[سورة البقرة]{.ar} 2:283](https://quran.com/2/283)]{.citex}  
     [his heart is indeed sinful]{.trans}  
     (Other analyses besides a sababi info are also possible.^[[[الدر المصون للسمين الحلبي]{.ar} for [سورة البقرة]{.ar} 2:283](https://tafsir.app/aldur-almasoon/2/283)] One such differing analysis is discussed in section\ (ref) below.)
 
-(@ex000217) [وَظَنُّوۤا۟ أَنَّهُم **مَّانِعَتُهُمۡ** حُصُونُهُم مِّنَ ٱللَّهِ]{.quran}
+(@ex000217) [وَظَنُّوۤا۟ أَنَّهُم [مَّانِعَتُهُمۡ]{.eghl} حُصُونُهُم مِّنَ ٱللَّهِ]{.quran}
     [[[سورة الحشر]{.ar} 59:2](https://quran.com/59/2)]{.citex}  
     [and they thought that their fortresses would protect them from Allāh]{.trans}  
     (Another analysis is also possible: [حُصُونُهُمْ]{.ar} can be a subject, and [مَانِعَتُهُمْ]{.ar} is its fronted info.^[[[الدر المصون للسمين الحلبي]{.ar} for [سورة الحشر]{.ar} 59:2](https://tafsir.app/aldur-almasoon/59/2)])
@@ -1054,7 +1054,7 @@ Beware though, that sometimes it may appear that an doer participle is governing
 but actually another interpretation may also be possible.
 Consider the following [Ayah]{.trn2} that we discussed in section\ (ref) above:
 
-(@3amal_mush_aathimun_qalbuhu) [فَإِنَّهُۥۤ **ءَاثِمࣱ** قَلۡبُهُۥۗ]{.quran}
+(@3amal_mush_aathimun_qalbuhu) [فَإِنَّهُۥۤ [ءَاثِمࣱ]{.eghl} قَلۡبُهُۥۗ]{.quran}
     [[[سورة البقرة]{.ar} 2:283](https://quran.com/2/283)]{.citex}  
     [his heart is indeed sinful]{.trans}
 
@@ -1102,7 +1102,7 @@ it does not govern a latent doer pronoun.^[See citations in [الضمير الم
 For example:
 
 <!--
-(@ex000236) [قَامَ **عَاقِلٌ** مِنْ بَنِي فُلَانٍ]{.ar}
+(@ex000236) [قَامَ [عَاقِلٌ]{.eghl} مِنْ بَنِي فُلَانٍ]{.ar}
     [[الضمير المستتر لسعود بن عبيد الله الصاعدي]{.ar} 154]{.citex}  
     [An intelligent one from [such-and-such tribe] stood up.]{.trans}
 -->
