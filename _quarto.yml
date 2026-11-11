@@ -103,7 +103,8 @@ filters:
   - filters/citex.lua
   - filters/translation.lua
   #- filters/reset-examples.lua
-  - filters/rubrication.lua
+  #- filters/rubrication.lua
+  - mcanouil/highlight-text
 
 tikz:
   cache: false
@@ -118,4 +119,5 @@ tikz:
   #  content: "**Alert** - this book is a work in progress and is not yet ready for study."
   #  type: primary
   #  position: below-navbar
+
 

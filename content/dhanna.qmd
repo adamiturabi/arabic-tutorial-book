@@ -285,13 +285,13 @@ So instead of saying
 [ظَنَنْتُ زَيْدًا قَائِمًا]{.ar},
 we can instead say:
 
-(@) [ظَنَنْتُ **أَنَّ** زَيْدًا قَائِمٌ]{.ar}  
-    [I assumed **that** Zayd is standing.]{.trans}  
+(@) [ظَنَنْتُ [أَنَّ]{.eghl} زَيْدًا قَائِمٌ]{.ar}  
+    [I assumed [that]{.eghl} Zayd is standing.]{.trans}  
 
 or:
 
-(@) [ظَنَنْتُ **أَنْ** يَقُومَ زَيْدٌ]{.ar}  
-    [I assumed **that** Zayd would stand.]{.trans}  
+(@) [ظَنَنْتُ [أَنْ]{.eghl} يَقُومَ زَيْدٌ]{.ar}  
+    [I assumed [that]{.eghl} Zayd would stand.]{.trans}  
 
 Now the [أَنَّ]{.ar} and [أَنْ]{.ar} clauses, respectively,
 are, formally,
@@ -316,8 +316,8 @@ with an [أَنَّ]{.ar} clause:
 (@) [عَلِمْتُ زَيْدًا قَائِمًا]{.ar}  
     [I knew Zayd to be standing.]{.trans}  
 
-(@) [عَلِمْتُ **أَنَّ** زَيْدًا قَائِمٌ]{.ar}  
-    [I knew **that** Zayd is standing.]{.trans}  
+(@) [عَلِمْتُ [أَنَّ]{.eghl} زَيْدًا قَائِمٌ]{.ar}  
+    [I knew [that]{.eghl} Zayd is standing.]{.trans}  
 
 In this case, we will only use [أَنَّ]{.ar}
 and not [أَنْ]{.ar}
@@ -343,15 +343,15 @@ For example:
 In this case we can manufacture a [maSdar]{.trn2} from the primitive noun,
 and still retain the [taqdIr]{.trn2}, thus:
 
-(@) [عَلِمْتُ **زَيْدِيَّةَ** أَخِيكَ]{.ar}
+(@) [عَلِمْتُ [زَيْدِيَّةَ]{.eghl} أَخِيكَ]{.ar}
     [[[شرح الرضي على الكافية]{.ar} 3/152](https://ketabonline.com/ar/books/23090/read?page=1587&part=4#p-23090-1587-2)]{.citex}  
-    [I knew the **Zayd-ness** of your brother.]{.trans}  
+    [I knew the [Zayd-ness]{.eghl} of your brother.]{.trans}  
 
 And using this [maSdar]{.trn2}i equivalence,
 we can substitute it with [أَنَّ]{.ar}, thus:
 
-(@) [عَلِمْتُ **أَنَّ** أَخَاكَ زَيْدٌ]{.ar}  
-    [I knew **that** your brother is Zayd.]{.trans}  
+(@) [عَلِمْتُ [أَنَّ]{.eghl} أَخَاكَ زَيْدٌ]{.ar}  
+    [I knew [that]{.eghl} your brother is Zayd.]{.trans}  
 
 <!--
 ## Introduction
@@ -423,7 +423,7 @@ Here are some examples:
 and the a-case-izing [أَنْ]{.ar}.
 Here is an example with the a-case-izing [أَنْ]{.ar}:
 
-(@) [تَظُنُّ **أَن** یُفۡعَلَ بِهَا فَاقِرَةࣱ]{.quran}
+(@) [تَظُنُّ [أَن]{.eghl} یُفۡعَلَ بِهَا فَاقِرَةࣱ]{.quran}
     [[[سورة القيامة]{.ar} 75:25](https://quran.com/75/25)]{.citex}
 
 Even so, example () above is interpreted to have certitude,
@@ -434,7 +434,7 @@ meaning.^[[[البحر المحيط لأبي حيان]{.ar} for [سورة الق
 The lightened [أَنْ]{.ar} can also be used.
 For example:
 
-(@) [وَظَنُّوۤا۟ **أَن** لَّا مَلۡجَأَ مِنَ ٱللَّهِ إِلَّاۤ إِلَیۡهِ]{.quran}
+(@) [وَظَنُّوۤا۟ [أَن]{.eghl} لَّا مَلۡجَأَ مِنَ ٱللَّهِ إِلَّاۤ إِلَیۡهِ]{.quran}
     [[[سورة التوبة]{.ar} 9:118](https://quran.com/9/118)]{.citex}  
 
 [أَنْ]{.ar} in example () above is interpreted to be
@@ -466,17 +466,17 @@ Here are some examples of its usage:
     [Wright 2/49B]{.citex}  
     [I have known you to be liberal in the exercise of bounty.]{.trans}  
 
-(@) [فَإِنۡ **عَلِمۡتُمُوهُنَّ مُؤۡمِنَـٰتࣲ** فَلَا تَرۡجِعُوهُنَّ إِلَى ٱلۡكُفَّارِۖ]{.quran}
+(@) [فَإِنۡ [عَلِمۡتُمُوهُنَّ مُؤۡمِنَـٰتࣲ]{.eghl} فَلَا تَرۡجِعُوهُنَّ إِلَى ٱلۡكُفَّارِۖ]{.quran}
     [[[سورة الممتحنة]{.ar} 60:10](https://quran.com/60/10) cited by [النحو العربي: أحكام ومعان]{.ar} 1/325]{.citex}  
-    [And if **you know them to be believers**, then do not return them to the disbelievers;]{.trans}  
+    [And if [you know them to be believers]{.eghl}, then do not return them to the disbelievers;]{.trans}  
 
-(@) [عَنِ ابْنِ عَبَّاسٍ، وَالْحَسَنِ بْنِ عَلِيٍّ ، مَرَّتْ بِهِمَا جَنَازَةٌ فَقَامَ أَحَدُهُمَا وَقَعَدَ الآخَرُ فَقَالَ الَّذِي قَامَ أَمَا وَاللَّهِ لَقَدْ **عَلِمْتُ أَنَّ** رَسُولَ اللَّهِ صلى الله عليه وسلم قَدْ قَامَ قَالَ لَهُ الَّذِي جَلَسَ لَقَدْ **عَلِمْتُ أَنَّ** رَسُولَ اللَّهِ صلى الله عليه وسلم قَدْ جَلَسَ]{.ar}
+(@) [عَنِ ابْنِ عَبَّاسٍ، وَالْحَسَنِ بْنِ عَلِيٍّ ، مَرَّتْ بِهِمَا جَنَازَةٌ فَقَامَ أَحَدُهُمَا وَقَعَدَ الآخَرُ فَقَالَ الَّذِي قَامَ أَمَا وَاللَّهِ لَقَدْ [عَلِمْتُ أَنَّ]{.eghl} رَسُولَ اللَّهِ صلى الله عليه وسلم قَدْ قَامَ قَالَ لَهُ الَّذِي جَلَسَ لَقَدْ [عَلِمْتُ أَنَّ]{.eghl} رَسُولَ اللَّهِ صلى الله عليه وسلم قَدْ جَلَسَ]{.ar}
     [[[سنن النسائي]{.ar} :1926](https://sunnah.com/nasai:1926)]{.citex}  
-    [[It was narrated] from Ibn [#eabbAs]{.trn2} and [al-#Hasan ibn #ealiyy]{.trn2}: A funeral passed by them and one of them stood and the other [stayed] seated. The one who stood up said, "By Allāh, **I know that** the Messenger of Allāh [ﷺ]{.areng} had stood up." The one who [stayed] seated said to him, "Indeed **I know that** the Messenger of Allāh [ﷺ]{.areng} had [stayed] seated."]{.trans}
+    [[It was narrated] from Ibn [#eabbAs]{.trn2} and [al-#Hasan ibn #ealiyy]{.trn2}: A funeral passed by them and one of them stood and the other [stayed] seated. The one who stood up said, "By Allāh, [I know that]{.eghl} the Messenger of Allāh [ﷺ]{.areng} had stood up." The one who [stayed] seated said to him, "Indeed [I know that]{.eghl} the Messenger of Allāh [ﷺ]{.areng} had [stayed] seated."]{.trans}
 
-(@) [إِنَّ رَبَّكَ **یَعۡلَمُ أَنَّكَ تَقُومُ** أَدۡنَىٰ مِن ثُلُثَیِ ٱلَّیۡلِ وَنِصۡفَهُۥ وَثُلُثَهُۥ وَطَاۤىِٕفَةࣱ مِّنَ ٱلَّذِینَ مَعَكَۚ وَٱللَّهُ یُقَدِّرُ ٱلَّیۡلَ وَٱلنَّهَارَۚ **عَلِمَ أَن لَّن تُحۡصُوهُ** فَتَابَ عَلَیۡكُمۡۖ فَٱقۡرَءُوا۟ مَا تَیَسَّرَ مِنَ ٱلۡقُرۡءَانِۚ **عَلِمَ أَن سَیَكُونُ مِنكُم مَّرۡضَىٰ** وَءَاخَرُونَ یَضۡرِبُونَ فِی ٱلۡأَرۡضِ یَبۡتَغُونَ مِن فَضۡلِ ٱللَّهِ وَءَاخَرُونَ یُقَـٰتِلُونَ فِی سَبِیلِ ٱللَّهِۖ فَٱقۡرَءُوا۟ مَا تَیَسَّرَ مِنۡهُۚ وَأَقِیمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقۡرِضُوا۟ ٱللَّهَ قَرۡضًا حَسَنࣰاۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنۡ خَیۡرࣲ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَیۡرࣰا وَأَعۡظَمَ أَجۡرࣰاۚ وَٱسۡتَغۡفِرُوا۟ ٱللَّهَۖ إِنَّ ٱللَّهَ غَفُورࣱ رَّحِیمُۢ]{.quran}
+(@) [إِنَّ رَبَّكَ [یَعۡلَمُ أَنَّكَ تَقُومُ]{.eghl} أَدۡنَىٰ مِن ثُلُثَیِ ٱلَّیۡلِ وَنِصۡفَهُۥ وَثُلُثَهُۥ وَطَاۤىِٕفَةࣱ مِّنَ ٱلَّذِینَ مَعَكَۚ وَٱللَّهُ یُقَدِّرُ ٱلَّیۡلَ وَٱلنَّهَارَۚ [عَلِمَ أَن لَّن تُحۡصُوهُ]{.eghl} فَتَابَ عَلَیۡكُمۡۖ فَٱقۡرَءُوا۟ مَا تَیَسَّرَ مِنَ ٱلۡقُرۡءَانِۚ [عَلِمَ أَن سَیَكُونُ مِنكُم مَّرۡضَىٰ]{.eghl} وَءَاخَرُونَ یَضۡرِبُونَ فِی ٱلۡأَرۡضِ یَبۡتَغُونَ مِن فَضۡلِ ٱللَّهِ وَءَاخَرُونَ یُقَـٰتِلُونَ فِی سَبِیلِ ٱللَّهِۖ فَٱقۡرَءُوا۟ مَا تَیَسَّرَ مِنۡهُۚ وَأَقِیمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقۡرِضُوا۟ ٱللَّهَ قَرۡضًا حَسَنࣰاۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنۡ خَیۡرࣲ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَیۡرࣰا وَأَعۡظَمَ أَجۡرࣰاۚ وَٱسۡتَغۡفِرُوا۟ ٱللَّهَۖ إِنَّ ٱللَّهَ غَفُورࣱ رَّحِیمُۢ]{.quran}
     [[[سورة المزمل]{.ar} 73:20](https://quran.com/73/20)]{.citex}  
-    [Indeed, **your Lord knows, [O Muḥammad], that you stand [in prayer]** almost two thirds of the night or half of it or a third of it, and [so do] a group of those with you. And Allāh determines [the extent of] the night and the day. **He has known that you [Muslims] will not be able to do it** and has turned to you in forgiveness, so recite what is easy [for you] of the Qur’ān. **He has known that there will be among you those who are ill** and others traveling throughout the land seeking [something] of the bounty of Allāh and others fighting for the cause of Allāh. So recite what is easy from it and establish prayer and give zakāh and loan Allāh a goodly loan. And whatever good you put forward for yourselves - you will find it with Allāh. It is better and greater in reward. And seek forgiveness of Allāh. Indeed, Allāh is Forgiving and Merciful.]{.trans}  
+    [Indeed, [your Lord knows, [O Muḥammad], that you stand [in prayer]]{.eghl} almost two thirds of the night or half of it or a third of it, and [so do] a group of those with you. And Allāh determines [the extent of] the night and the day. [He has known that you [Muslims] will not be able to do it]{.eghl} and has turned to you in forgiveness, so recite what is easy [for you] of the Qur’ān. [He has known that there will be among you those who are ill]{.eghl} and others traveling throughout the land seeking [something] of the bounty of Allāh and others fighting for the cause of Allāh. So recite what is easy from it and establish prayer and give zakāh and loan Allāh a goodly loan. And whatever good you put forward for yourselves - you will find it with Allāh. It is better and greater in reward. And seek forgiveness of Allāh. Indeed, Allāh is Forgiving and Merciful.]{.trans}  
     ([أَنْ]{.ar} in [أَنْ لَنْ]{.ar} and [أَنْ سيكونُ]{.ar} is the lightened [أَنْ]{.ar},^[[[الدر المصون للسمين الحلبي]{.ar} for [سورة المزمل]{.ar} 73:20](https://tafsir.app/aldur-almasoon/73/20)] whose subject is a deleted state-of-affairs pronoun.^[[[إعراب القرآن للدرويش]{.ar} for [سورة المزمل]{.ar} 73:20](https://tafsir.app/iraab-aldarweesh/73/20)])  
 
 <!--
@@ -560,9 +560,9 @@ when the mind takes what it sees
 and regards it to be something.^[See [البسيط لابن أبي الربيع]{.ar} 447; [[شرح التسهيل لابن مالك]{.ar} 2/327](https://shamela.ws/book/13257/723); [[الدر المصون للسمين الحلبي]{.ar} for [سورة يوسف]{.ar} 12:4](https://tafsir.app/aldur-almasoon/12/4); [[شرح الرضي على الكافية]{.ar} 4/151](https://ketabonline.com/ar/books/23090/read?page=1586&part=4#p-23090-1586-2)]
 For example:
 
-(@) [يَا مَعْشَرَ النِّسَاءِ تَصَدَّقْنَ وَأَكْثِرْنَ فَإِنِّي **رَأَيْتُكُنَّ أَكْثَرَ أَهْلِ النَّارِ** لِكَثْرَةِ اللَّعْنِ وَكُفْرِ الْعَشِيرِ]{.ar}
+(@) [يَا مَعْشَرَ النِّسَاءِ تَصَدَّقْنَ وَأَكْثِرْنَ فَإِنِّي [رَأَيْتُكُنَّ أَكْثَرَ أَهْلِ النَّارِ]{.eghl} لِكَثْرَةِ اللَّعْنِ وَكُفْرِ الْعَشِيرِ]{.ar}
     [[[مسند أحمد]{.ar} :5343](https://hadithunlocked.com/ahmad:5343) cited by [البسيط لابن أبي الربيع]{.ar} 447 footnote 1]{.citex}  
-    [O women, give charity and do a lot of it, for indeed **I saw you to be the majority of the people of the Fire**, because of much cursing [on your part] and being ungrateful to the husband.]{.trans}  
+    [O women, give charity and do a lot of it, for indeed [I saw you to be the majority of the people of the Fire]{.eghl}, because of much cursing [on your part] and being ungrateful to the husband.]{.trans}  
 
 (@) [رَأَیۡتُهُمۡ لِی سَـٰجِدِینَ]{.quran}
     [[[سورة يوسف]{.ar} 12:4](https://quran.com/12/4) cited by [[شرح الرضي على الكافية]{.ar} 4/151](https://ketabonline.com/ar/books/23090/read?page=1586&part=4#p-23090-1586-2)]{.citex}  
@@ -584,13 +584,13 @@ Here are some examples:
     [[[سورة آل عمران]{.ar} 3:169](https://quran.com/3/169) cited by Wright 2/49C]{.citex}  
     [And never think of those who have been killed in the cause of Allāh as dead.]{.trans}  
 
-(@) [صَنَعْنَا لِرَسُولِ اللهِ ﷺ فَخَّارَةً ، فَأَتَيْتُهُ بِهَا ، فَوَضَعْتُهَا بَيْنَ يَدَيْهِ ، فَاطَّلَعَ فِيهَا ، فَقَالَ : **حَسِبْتُهُ لَحْمًا**]{.ar}
+(@) [صَنَعْنَا لِرَسُولِ اللهِ ﷺ فَخَّارَةً ، فَأَتَيْتُهُ بِهَا ، فَوَضَعْتُهَا بَيْنَ يَدَيْهِ ، فَاطَّلَعَ فِيهَا ، فَقَالَ : [حَسِبْتُهُ لَحْمًا]{.eghl}]{.ar}
     [[[مسند أحمد]{.ar} :14581](https://hadithunlocked.com/ahmad:14581)]{.citex}  
-    [We made a (clay) pot (of food) for the Messenger of Allāh [ﷺ]{.areng} and I brought it to him. He peered into it and said, "**I thought it was meat.**"]{.trans}  
+    [We made a (clay) pot (of food) for the Messenger of Allāh [ﷺ]{.areng} and I brought it to him. He peered into it and said, "[I thought it was meat.]{.eghl}"]{.trans}  
 
-(@) [أَحَسِبَ ٱلنَّاسُ **أَن یُتۡرَكُوۤا۟** أَن یَقُولُوۤا۟ ءَامَنَّا وَهُمۡ لَا یُفۡتَنُونَ]{.quran}
+(@) [أَحَسِبَ ٱلنَّاسُ [أَن یُتۡرَكُوۤا۟]{.eghl} أَن یَقُولُوۤا۟ ءَامَنَّا وَهُمۡ لَا یُفۡتَنُونَ]{.quran}
     [[[سورة العنكبوت]{.ar} 29:2](https://quran.com/29/2) cited by [[شرح ألفية ابن مالك للحازمي]{.ar} 43/2](https://shamela.ws/book/36130/789)]{.citex}  
-    [Do the people think **that they will be left** to say, "We believe" and they will not be tried?]{.trans}  
+    [Do the people think [that they will be left]{.eghl} to say, "We believe" and they will not be tried?]{.trans}  
     (The [maSdar]{.trn2} from [أَنْ يُتْرَكُوا]{.ar} fulfils the role of the two direct objects.^[[[شرح ألفية ابن مالك للحازمي]{.ar} 43/2](https://shamela.ws/book/36130/789); [[الدر المصون للسمين الحلبي]{.ar} for [سورة العنكبوت]{.ar} 29:2](https://tafsir.app/aldur-almasoon/29/2)])
 
 ### [وَجَدَ]{.ar}
@@ -608,9 +608,9 @@ Examples:
     ([أَكْثَرَهُمْ]{.ar} and [لَفَاسِقِينَ]{.ar} are both analyzed to be direct objects.)  
 
 
-(@) [كُنَّا مَعْشَرُ قُرَيْشٍ قَوْمًا نَغْلِبُ النِّسَاءَ فَلَمَّا قَدِمْنَا الْمَدِينَةَ **وَجَدْنَاهُمْ قَوْمًا** تَغْلِبُهُمْ نِسَاؤُهُمْ]{.ar}
+(@) [كُنَّا مَعْشَرُ قُرَيْشٍ قَوْمًا نَغْلِبُ النِّسَاءَ فَلَمَّا قَدِمْنَا الْمَدِينَةَ [وَجَدْنَاهُمْ قَوْمًا]{.eghl} تَغْلِبُهُمْ نِسَاؤُهُمْ]{.ar}
     [[[صحيح ابن حبان]{.ar} :4268a](https://hadithunlocked.com/ibnhibban:4268a)]{.citex}  
-    [We, the people of [#qurayc]{.trn2}, were a people who were dominant over the women. But when we came to [al-#madInah]{.trn2}, **we found them to be a people** whose women dominated them.]{.trans}  
+    [We, the people of [#qurayc]{.trn2}, were a people who were dominant over the women. But when we came to [al-#madInah]{.trn2}, [we found them to be a people]{.eghl} whose women dominated them.]{.trans}  
 
 As with
 [رَأَى]{.ar},
@@ -621,16 +621,16 @@ then it will take only one direct object.
 A second a-case noun with it will then be construed as a [HAl]{.trn2}.^[Wright 2/50C]
 For example:
 
-(@) [وَجَدْتُهُ **مَرِيضًا**]{.ar}
+(@) [وَجَدْتُهُ [مَرِيضًا]{.eghl}]{.ar}
     [Wright 2/50C]{.citex}  
-    [I found him **sick**.]{.trans}  
+    [I found him [sick]{.eghl}.]{.trans}  
     ([مَرِيضًا]{.ar} is a [HAl]{.trn2}.)
 
 Similarly:
 
-(@) [أَلَمۡ یَجِدۡكَ **یَتِیمࣰا** فَـَٔاوَىٰ۝ وَوَجَدَكَ **ضَاۤلࣰّا** فَهَدَىٰ۝ وَوَجَدَكَ **عَاۤىِٕلࣰا** فَأَغۡنَىٰ۝]{.quran}
+(@) [أَلَمۡ یَجِدۡكَ [یَتِیمࣰا]{.eghl} فَـَٔاوَىٰ۝ وَوَجَدَكَ [ضَاۤلࣰّا]{.eghl} فَهَدَىٰ۝ وَوَجَدَكَ [عَاۤىِٕلࣰا]{.eghl} فَأَغۡنَىٰ۝]{.quran}
     [[[سورة الضحى]{.ar} 93:6–8](https://quran.com/93/6-8)]{.citex}  
-    [Did He not find you **an orphan** and give [you] refuge?  And He found you **lost** and guided [you], And He found you **poor** and made [you] self-sufficient.]{.trans}  
+    [Did He not find you [an orphan]{.eghl} and give [you] refuge?  And He found you [lost]{.eghl} and guided [you], And He found you [poor]{.eghl} and made [you] self-sufficient.]{.trans}  
     ([يَتِيمًا]{.ar}, [ضَالًّا]{.ar}, and [عَائِلًا]{.ar} are analyzed as [HAl]{.trn2}s.^[[[تفسير ابن عاشور]{.ar} for [سورة الضحى]{.ar} 93:6](https://tafsir.app/ibn-aashoor/93/6)] Although, a direct object interpretation for at least one of them also seems to be possible.^[[[إعراب القرآن للدرويش]{.ar} for [سورة الضحى]{.ar} 93:6](https://tafsir.app/iraab-aldarweesh/93/6)])  
 
 ### [خَالَ]{.ar}
@@ -643,11 +643,11 @@ speaker participant singular for the
 [pc]{.smallcaps} verb
 ([I imagine]{.trans})
 is more commonly
-[**إِ**خَالُ]{.ar}
-[**Ei**xAlu]{.trn}
+[[إِ]{.eghl}خَالُ]{.ar}
+[[Ei]{.eghl}xAlu]{.trn}
 instead of
-[**أَ**خَالُ]{.ar}
-[**Ea**xAlu]{.trn}.
+[[أَ]{.eghl}خَالُ]{.ar}
+[[Ea]{.eghl}xAlu]{.trn}.
 For example,
 
 (@) [إِخَالُ زَيْدًا أَخَاكَ]{.ar}
@@ -750,9 +750,9 @@ the listener would be left wondering, "You heard Zayd doing what?"
 So a second direct object has to be added which gives the action that Zayd was doing which produced a sound.^[[[الدر المصون للسمين الحلبي]{.ar} for [سورة الأنبياء]{.ar} 21:60](https://tafsir.app/aldur-almasoon/21/60)]
 Similarly,
 
-(@) [قَالُوا۟ **سَمِعۡنَا فَتࣰى یَذۡكُرُهُمۡ** یُقَالُ لَهُۥۤ إِبۡرَ ٰ⁠هِیمُ]{.quran}
+(@) [قَالُوا۟ [سَمِعۡنَا فَتࣰى یَذۡكُرُهُمۡ]{.eghl} یُقَالُ لَهُۥۤ إِبۡرَ ٰ⁠هِیمُ]{.quran}
     [[[سورة الأنبياء]{.ar} 21:60](https://quran.com/21/60)]{.citex}  
-    [They said, "**We heard a young man mention them** who is called Abraham."]{.trans}  
+    [They said, "[We heard a young man mention them]{.eghl} who is called Abraham."]{.trans}  
     ([يَذْكُرُهُمْ]{.ar} is analyzed to be the second direct object of [سَمِعَ]{.ar}.^[[[الدر المصون للسمين الحلبي]{.ar} for [سورة الأنبياء]{.ar} 21:60](https://tafsir.app/aldur-almasoon/21/60)])
 
 ## The second direct object can be a sentence or phrase
@@ -769,27 +769,27 @@ or an adverbial or prepositional phrase.^[[[البسيط لابن أبي الر�
 Here are some examples
 where the second direct object is a complete sentence:
 
-(@) [**مَا عَلِمْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم نَكَحَ** شَيْئًا مِنْ نِسَائِهِ وَلاَ أَنْكَحَ شَيْئًا مِنْ بَنَاتِهِ عَلَى أَكْثَرَ مِنْ ثِنْتَىْ عَشْرَةَ أُوقِيَّةً]{.ar}
+(@) [[مَا عَلِمْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم نَكَحَ]{.eghl} شَيْئًا مِنْ نِسَائِهِ وَلاَ أَنْكَحَ شَيْئًا مِنْ بَنَاتِهِ عَلَى أَكْثَرَ مِنْ ثِنْتَىْ عَشْرَةَ أُوقِيَّةً]{.ar}
     [[[جامع الترمذي]{.ar} :1114b](https://sunnah.com/tirmidhi:1114b)]{.citex}  
-    [**I did not know the Messenger of Allāh [ﷺ]{.areng} to marry** any of his women, nor to give any of his daughters in marriage, for more than twelve [#Uqiyah]{.trn2}s.]{.trans}  
+    [[I did not know the Messenger of Allāh [ﷺ]{.areng} to marry]{.eghl} any of his women, nor to give any of his daughters in marriage, for more than twelve [#Uqiyah]{.trn2}s.]{.trans}  
     (First direct object is [رَسُول الله]{.ar} [the Messenger of Allāh]{.trans}, second direct object is [نَكَحَ]{.ar} [he married]{.trans}.)
 
-(@) [**مَا عَلِمْتُهُ صَامَ** شَهْرًا كُلَّهُ إِلاَّ رَمَضَانَ]{.ar}
+(@) [[مَا عَلِمْتُهُ صَامَ]{.eghl} شَهْرًا كُلَّهُ إِلاَّ رَمَضَانَ]{.ar}
     [[[صحيح مسلم]{.ar} :1156b](https://sunnah.com/muslim:1156b)]{.citex}  
-    [**I did not know him to fast** any complete month except [#ramaDAn]{.trn2}.]{.trans}  
+    [[I did not know him to fast]{.eghl} any complete month except [#ramaDAn]{.trn2}.]{.trans}  
     (First direct object is [هُ]{.ar} [him]{.trans}, second direct object is [صَامَ]{.ar} [he fasted]{.trans}.)
 
-(@) [**ظَنَنْتُهُ يَدْعُو** فِي الِاسْتِسْقَاءِ]{.ar}
+(@) [[ظَنَنْتُهُ يَدْعُو]{.eghl} فِي الِاسْتِسْقَاءِ]{.ar}
     [[[صحيح ابن خزيمة]{.ar} :1595](https://hadithunlocked.com/ibnkhuzaymah:1595)]{.citex}
-    [**I thought him to be supplicating** in the rain prayer.]{.trans}  
+    [[I thought him to be supplicating]{.eghl} in the rain prayer.]{.trans}  
     (First direct object is [هُ]{.ar} [him]{.trans}, second direct object is [يَدْعُو]{.ar} [supplicating]{.trans}.)
 
 Here is an example
 where the second direct object is a prepositional phrase:
 
-(@) [قَالَ أَمَا وَاللَّهِ إِنَّ ذَلِكَ لِتَغَيُّرِ ثَائِرَةٍ كَانَتْ مِنِّي إِلَيْهِمْ وَلَكِنِّي **أَرَاهُمْ عَلَى ضَلَالَةٍ**]{.ar}
+(@) [قَالَ أَمَا وَاللَّهِ إِنَّ ذَلِكَ لِتَغَيُّرِ ثَائِرَةٍ كَانَتْ مِنِّي إِلَيْهِمْ وَلَكِنِّي [أَرَاهُمْ عَلَى ضَلَالَةٍ]{.eghl}]{.ar}
     [[[مستدرك الحاكم]{.ar} :4956](https://hadithunlocked.com/hakim:4956)]{.citex}  
-    [He said, "By Allāh, indeed that is because of a change in a matter between me and them, but **I think them to be on misguidance**."]{.trans}  
+    [He said, "By Allāh, indeed that is because of a change in a matter between me and them, but [I think them to be on misguidance]{.eghl}."]{.trans}  
     (First direct object is [هُمْ]{.ar} [them]{.trans}, second direct object is [عَلَى ضَلَالٍ]{.ar} [on misguidance]{.trans}.)
 
 ## The first direct object may be a state-of-affairs pronoun
@@ -848,13 +848,13 @@ we may say:
 
 Similarly:
 
-(@) [وَٱللَّهُ أَخۡرَجَكُم مِّنۢ بُطُونِ أُمَّهَـٰتِكُمۡ **لَا تَعۡلَمُونَ شَیۡـࣰٔا**]{.quran}
+(@) [وَٱللَّهُ أَخۡرَجَكُم مِّنۢ بُطُونِ أُمَّهَـٰتِكُمۡ [لَا تَعۡلَمُونَ شَیۡـࣰٔا]{.eghl}]{.quran}
     [[[سورة النحل]{.ar} 16:78](https://quran.com/16/78) cited by [النحو العربي: أحكام ومعان]{.ar} 1/236]{.citex}  
-    [And Allāh has extracted you from the wombs of your mothers **not knowing a thing**]{.trans}  
+    [And Allāh has extracted you from the wombs of your mothers [not knowing a thing]{.eghl}]{.trans}  
 
-(@) [لَقَدْ **عَلِمْتُ النَّظَائِرَ** الَّتِي كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَقْرَأُ بِهِنَّ سُورَتَيْنِ فِي رَكْعَةٍ]{.ar}
+(@) [لَقَدْ [عَلِمْتُ النَّظَائِرَ]{.eghl} الَّتِي كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَقْرَأُ بِهِنَّ سُورَتَيْنِ فِي رَكْعَةٍ]{.ar}
     [[[صحيح مسلم]{.ar} :822e](https://sunnah.com/muslim:822e)]{.citex}  
-    [**I know the manners** in which the Messenger of Allāh [ﷺ]{.areng} recited two [sUrah]{.trn2}s in one [rakeah]{.trn2}.]{.trans}  
+    [[I know the manners]{.eghl} in which the Messenger of Allāh [ﷺ]{.areng} recited two [sUrah]{.trn2}s in one [rakeah]{.trn2}.]{.trans}  
 
 
 Other mental verbs,
@@ -869,9 +869,9 @@ even when the mental verb takes two direct objects,
 their [taqdIr]{.trn2} is a single direct object.^[[[شرح الرضي على الكافية]{.ar} 4/153](https://ketabonline.com/ar/books/23090/read?page=1588&part=4#p-23090-1588-1)]
 Here is an example of [ظَنَّ]{.ar} with one direct object:
 
-(@) [وَلَقَدْ نَزَلْتِ فَلَا **تَظُنِّي غَيْرَهُ** مِنِّي بِمَنْزِلَةً الْمُحَبِّ الْمُكْرَمِ]{.ar}
+(@) [وَلَقَدْ نَزَلْتِ فَلَا [تَظُنِّي غَيْرَهُ]{.eghl} مِنِّي بِمَنْزِلَةً الْمُحَبِّ الْمُكْرَمِ]{.ar}
     [[شرح الرضي على الكافية (جامعة الإمام محمد)]{.ar} 2/988]{.citex}  
-    [And surely you have alighted, so don't **assume other than it** from me, in the place of alighting of the honored beloved.]{.trans}  
+    [And surely you have alighted, so don't [assume other than it]{.eghl} from me, in the place of alighting of the honored beloved.]{.trans}  
 
 [ظَنَّ]{.ar} in example () above has only one direct object [غَيْرَهُ]{.ar}.
 Similarly, the single direct object of [ظَنَّ]{.ar}
@@ -892,9 +892,9 @@ can be a direct object, and not necessarily refer to the [maSdar]{.trn2} as a ab
 is because one can add the [maSdar]{.trn2} separately as the absolute object.
 For example:
 
-(@) [خِلْتُ ذَاكَ إِخَالُـ**ـهُ خَالًا**]{.ar}
+(@) [خِلْتُ ذَاكَ إِخَالُـ[ـهُ خَالًا]{.eghl}]{.ar}
     [[[شرح التسهيل لابن مالك]{.ar} 2/65](https://shamela.ws/book/13257/471)]{.citex}  
-    [I imagined that, imagining **it [with] an imagining**.]{.trans}  
+    [I imagined that, imagining [it [with] an imagining]{.eghl}.]{.trans}  
     ([خَالًا]{.ar} is the absolute object while [إِخَالُهُ]{.ar} is taking the pronoun [هُ]{.ar} as a direct object.)
 
 Similarly, if someone says:
@@ -905,9 +905,9 @@ Similarly, if someone says:
 
 then the reply to this can be:
 
-(@) [أَنَا أَيْضًا أَظُنُّـ**ـهُ**]{.ar}
+(@) [أَنَا أَيْضًا أَظُنُّـ[ـهُ]{.eghl}]{.ar}
     [[شرح الرضي على الكافية]{.ar}]{.citex}  
-    [I too assume **it**.]{.trans}  
+    [I too assume [it]{.eghl}.]{.trans}  
     (The pronoun [هُ]{.ar} is a direct object and refers to the thought "Zayd is standing".)
 
 Having said this,
@@ -921,14 +921,14 @@ to the [maSdar]{.trn2} as the absolute object.^[See [[التذييل والتك�
 which signifies the thing being thought _about_.
 For example:
 
-(@) [ظَنَنْتُ **بِهِ**]{.ar}
+(@) [ظَنَنْتُ [بِهِ]{.eghl}]{.ar}
     [[[شرح الرضي على الكافية]{.ar} 4/153](https://ketabonline.com/ar/books/23090/read?page=1588&part=4#p-23090-1588-2)]{.citex}  
-    [I thought **about him**.]{.trans}  
+    [I thought [about him]{.eghl}.]{.trans}  
 
 
 Consider also the following [Ayah]{.trn2}:
 
-(@) [وَطَاۤىِٕفَةࣱ قَدۡ أَهَمَّتۡهُمۡ أَنفُسُهُمۡ **یَظُنُّونَ بِٱللَّهِ غَیۡرَ ٱلۡحَقِّ ظَنَّ ٱلۡجَـٰهِلِیَّةِۖ**]{.quran}  
+(@) [وَطَاۤىِٕفَةࣱ قَدۡ أَهَمَّتۡهُمۡ أَنفُسُهُمۡ [یَظُنُّونَ بِٱللَّهِ غَیۡرَ ٱلۡحَقِّ ظَنَّ ٱلۡجَـٰهِلِیَّةِۖ]{.eghl}]{.quran}  
     [[[سورة آل عمران]{.ar} 3:154](https://quran.com/3/154) cited by [[شرح الرضي على الكافية]{.ar} 4/153](https://ketabonline.com/ar/books/23090/read?page=1588&part=4#p-23090-1588-2)]{.citex}  
     [while another faction worried about themselves, thinking of Allāh other than the truth - the thought of ignorance]{.trans}
 
@@ -985,9 +985,9 @@ However, it is possible to omit one of the two direct objects
 if its meaning is implied and is indicated by context.^[[Howell §443 2/153](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=214)]
 For example,
 
-(@) [وَلَا **یَحۡسَبَنَّ** ٱلَّذِینَ یَبۡخَلُونَ بِمَاۤ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضۡلِهِۦ **هُوَ خَیۡرࣰا لَّهُمۖ**]{.quran}
+(@) [وَلَا [یَحۡسَبَنَّ]{.eghl} ٱلَّذِینَ یَبۡخَلُونَ بِمَاۤ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضۡلِهِۦ [هُوَ خَیۡرࣰا لَّهُمۖ]{.eghl}]{.quran}
     [[[سورة آل عمران]{.ar} 3:180](https://quran.com/3/180) cited by [Howell §443 2/153--154](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=214)^[cited as III. 175]]{.citex}  
-    [And let not those who [greedily] withhold what Allāh has given them of His bounty **ever think that it is better for them**.]{.trans}
+    [And let not those who [greedily] withhold what Allāh has given them of His bounty [ever think that it is better for them]{.eghl}.]{.trans}
 
 In the [Ayah]{.trn2} above,
 the first direct object of
@@ -999,9 +999,9 @@ to be a suppressed [بُخْلَهُمْ]{.ar}
 and [هُوَ]{.ar} is a separating-pronoun.
 Such that the meaning is:
 
-(@) [ولا يَحْسَبَنَّ الباخِلون **بُخْلَهم** هو خيرًا لهم]{.ar}
+(@) [ولا يَحْسَبَنَّ الباخِلون [بُخْلَهم]{.eghl} هو خيرًا لهم]{.ar}
     [[[الدر المصون للسمين الحلبي]{.ar} for [سورة آل عمران]{.ar} 3:180](https://tafsir.app/aldur-almasoon/3/180)]{.citex}  
-    [And let not the misers think **their miserliness** to be good for them.]{.trans}
+    [And let not the misers think [their miserliness]{.eghl} to be good for them.]{.trans}
 
 Both direct objects can also be omitted together.
 For example:
@@ -1034,9 +1034,9 @@ Even in such cases where both direct objects are omitted,
 their meaning may be implied.
 For example:
 
-(@) [وَیَوۡمَ یُنَادِیهِمۡ فَیَقُولُ أَیۡنَ شُرَكَاۤءِیَ ٱلَّذِینَ **كُنتُمۡ تَزۡعُمُونَ**]{.quran}
+(@) [وَیَوۡمَ یُنَادِیهِمۡ فَیَقُولُ أَیۡنَ شُرَكَاۤءِیَ ٱلَّذِینَ [كُنتُمۡ تَزۡعُمُونَ]{.eghl}]{.quran}
     [[[سورة القصص]{.ar} 28:62](https://quran.com/28/62) cited by [Howell §443 2/153](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=214)]{.citex}  
-    [And [warn of] the Day He will call them and say, "Where are My 'partners' which **you used to claim**?"]{.trans}  
+    [And [warn of] the Day He will call them and say, "Where are My 'partners' which [you used to claim]{.eghl}?"]{.trans}  
 
 In the [Ayah]{.trn2} above, the two suppressed direct objects of [تَزْعُمُونَ]{.ar}
 are interpreted to be thus:
@@ -1130,9 +1130,9 @@ is that if we were to put a conjunction after this sentence,
 then the governing effect of [ظَنَّ]{.ar} would resume.
 For example:
 
-(@) [ظَنَنْتُ لَزَيْدٌ قَائِمٌ **وَعَمْرًا مُنْطَلِقًا**]{.ar}
+(@) [ظَنَنْتُ لَزَيْدٌ قَائِمٌ [وَعَمْرًا مُنْطَلِقًا]{.eghl}]{.ar}
     [[Howell §445 2/158](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=219)]{.citex}  
-    [I thought, assuredly Zayd is standing **and [#eamr]{.trn2} is setting out**.]{.trans}  
+    [I thought, assuredly Zayd is standing [and [#eamr]{.trn2} is setting out]{.eghl}.]{.trans}  
 
 The suspenders that suspend the government of
 the mental verbs are discussed in the subsections below:
@@ -1172,9 +1172,9 @@ We have already seen in example () above, how [لَ]{.ar} of beginning suspends
 the direct government of a mental verb.
 Here is another example:
 
-(@) [وَلَقَدۡ **عَلِمُوا۟ لَمَنِ** ٱشۡتَرَىٰهُ مَا لَهُۥ فِی ٱلۡـَٔاخِرَةِ مِنۡ خَلَـٰقࣲۚ]{.quran}
+(@) [وَلَقَدۡ [عَلِمُوا۟ لَمَنِ]{.eghl} ٱشۡتَرَىٰهُ مَا لَهُۥ فِی ٱلۡـَٔاخِرَةِ مِنۡ خَلَـٰقࣲۚ]{.quran}
     [[[سورة البقرة]{.ar} 2:102](https://quran.com/2/102) cited by [Howell §445 2/160](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=221)]{.citex}  
-    [But **they [i.e., the Children of Israel] certainly knew that whoever** purchased it [i.e., magic] would not have in the Hereafter any share.]{.trans}  
+    [But [they [i.e., the Children of Israel] certainly knew that whoever]{.eghl} purchased it [i.e., magic] would not have in the Hereafter any share.]{.trans}  
 
 
 ### [لَ]{.ar} of oath
@@ -1277,15 +1277,15 @@ We will list some of them below:
 
 Example:
 
-(@) [وَإِنۡ أَدۡرِی **لَعَلَّهُۥ** فِتۡنَةࣱ لَّكُمۡ وَمَتَـٰعٌ إِلَىٰ حِینࣲ]{.quran}
+(@) [وَإِنۡ أَدۡرِی [لَعَلَّهُۥ]{.eghl} فِتۡنَةࣱ لَّكُمۡ وَمَتَـٰعٌ إِلَىٰ حِینࣲ]{.quran}
     [[[سورة الأنبياء]{.ar} 21:111](https://quran.com/21/111) cited by [Howell §445 2/160](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=221)]{.citex}  
-    [And I know not; **perhaps** it is a trial for you and enjoyment for a time."]{.trans}  
+    [And I know not; [perhaps]{.eghl} it is a trial for you and enjoyment for a time."]{.trans}  
 
 #### The conditional-device [لَوْ]{.ar} {.unnumbered}
 
 For example:
 
-(@) [وَلَقَدْ عَلِمَ الْأَقْوَامُ **لَوْ** أَنَّ حَاتِمًا ~ أَرَادَ ثَرَاءَ الْمَالِ كَانَ لَهُ وَفْرٌ]{.ar}
+(@) [وَلَقَدْ عَلِمَ الْأَقْوَامُ [لَوْ]{.eghl} أَنَّ حَاتِمًا ~ أَرَادَ ثَرَاءَ الْمَالِ كَانَ لَهُ وَفْرٌ]{.ar}
     [[Howell §445 2/160](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=221)]{.citex}  
     [And the peoples have known that had [#HAtim]{.trn2} desired abundance of property, he would have had affluence.]{.trans}  
 
@@ -1430,13 +1430,13 @@ and original info ([عَالِم]{.ar})
 can remain direct objects.
 So we can say:
 
-(@) [زَيْدًا **ظَنَنْتُ** عَالِمًا]{.ar}
+(@) [زَيْدًا [ظَنَنْتُ]{.eghl} عَالِمًا]{.ar}
     [[Howell §444 2/155](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=216)]{.citex}  
-    [Zayd **I thought** to be knowledgeable.]{.trans}  
+    [Zayd [I thought]{.eghl} to be knowledgeable.]{.trans}  
 
-(@) [زَيْدًا عَالِمً **اظَنَنْتُ**]{.ar}
+(@) [زَيْدًا عَالِمً [اظَنَنْتُ]{.eghl}]{.ar}
     [[Howell §444 2/155](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=216)]{.citex}  
-    [Zayd to be knowledgeable **I thought**.]{.trans}  
+    [Zayd to be knowledgeable [I thought]{.eghl}.]{.trans}  
 
 However, 
 when the verb is moved from its initial position to an intervening or final position,
@@ -1451,12 +1451,12 @@ and info,
 in the u-case.
 So we can say:
 
-(@) [زَيْدٌ **ظَنَنْتُ** عَالِمٌ]{.ar}
-    [Zayd **I thought** to be knowledgeable.]{.trans}  
+(@) [زَيْدٌ [ظَنَنْتُ]{.eghl} عَالِمٌ]{.ar}
+    [Zayd [I thought]{.eghl} to be knowledgeable.]{.trans}  
 
-(@) [زَيْدٌ عَالِمٌ **اظَنَنْتُ**]{.ar}
+(@) [زَيْدٌ عَالِمٌ [اظَنَنْتُ]{.eghl}]{.ar}
     [[Howell §444 2/156](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=217)]{.citex}  
-    [Zayd to be knowledgeable **I thought**.]{.trans}  
+    [Zayd to be knowledgeable [I thought]{.eghl}.]{.trans}  
 
 
 The difference between
@@ -1504,7 +1504,7 @@ remain in the u-case.
 These are then explained away using [taqdIr]{.trn2}.
 For example:
 
-(@) [أَرْجُو وَآمُلُ أَنْ بَدْنُو مَوَدَّتُهَا * وَمَا **إِخَالُ لَدَيْنَا مِنْكَ تَنْوِيلُ**]{.ar}
+(@) [أَرْجُو وَآمُلُ أَنْ بَدْنُو مَوَدَّتُهَا * وَمَا [إِخَالُ لَدَيْنَا مِنْكَ تَنْوِيلُ]{.eghl}]{.ar}
     [[Howell §444 2/156](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=217)]{.citex}  
     [I hope and faintly expect that her love may approach; but I fancy not a bestowal of favor from you to us.]{.trans}  
 
@@ -1515,11 +1515,11 @@ a deleted state-of-affairs pronoun is [taqdIr]{.trn2}ed as the first direct obje
 The second (positional) direct object is then the following sentence.
 The complete [taqdIr]{.trn2} is:
 
-(@) [إِخَالُـ**ـهُ** لَدَيْنَا مِنْكَ تَنْوِيلُ]{.ar}
+(@) [إِخَالُـ[ـهُ]{.eghl} لَدَيْنَا مِنْكَ تَنْوِيلُ]{.ar}
 
 Similarly:
 
-(@) [كَذَاكَ أُدِّبْتُ حَتَّى صَارَ مِنْ خُلُقِي * أَنِّي **وَجَدْتُ مِلَاكُ الشِّيمَةِ الْأَدَبُ**]{.ar}
+(@) [كَذَاكَ أُدِّبْتُ حَتَّى صَارَ مِنْ خُلُقِي * أَنِّي [وَجَدْتُ مِلَاكُ الشِّيمَةِ الْأَدَبُ]{.eghl}]{.ar}
     [[Howell §444 2/157](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=218)]{.citex}  
     [Thus was I trained to good behavior until it became [a part] of my nature, that I perceived the basis of character to be training.]{.trans}  
 
@@ -1533,7 +1533,7 @@ To reconcile this,
 a deleted [لَ]{.ar} of beginning is [taqdIr]{.trn2}ed, 
 suspending the government of [وَجَدْتُ]{.ar}, thus:
 
-(@) [وَجَدْتُ **لَـ**ـمِلَاكُ الشِّيمَةِ الْأَدَبُ]{.ar}
+(@) [وَجَدْتُ [لَـ]{.eghl}ـمِلَاكُ الشِّيمَةِ الْأَدَبُ]{.ar}
 
 Some grammarians allowed neutralization even when the verb is in the initial position.
 They then do not require [taqdIr]{.trn2} to explain the above verses.^[[Howell §444 2/157](https://adamiturabi.github.io/howell-navigator/content/2-07-0.html?page=218)]

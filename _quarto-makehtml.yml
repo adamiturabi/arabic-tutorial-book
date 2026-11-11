@@ -44,3 +44,11 @@ tikz:
   template: srctex/tikz-template-html.tex
   svg-engine: scripts/pdf2svg.py
   scale: 1.83
+
+extensions:
+  highlight-text:
+    styles:
+      eghl:
+        #bg: "#bfbfbf"
+        fg: "#9b111e"
+

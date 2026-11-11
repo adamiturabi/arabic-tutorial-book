@@ -16,6 +16,7 @@ def read_file(filename):
         reset_numbered_example_list = False
         for in_line in in_lines:
             out_line = ""
+            # substitution for terms
             try:
                 out_line = re.sub('(#*);([a-zA-Z0-9_]+);', manage_subs.get_sub_text, in_line, flags = re.M)
             except TypeError:
@@ -23,6 +24,15 @@ def read_file(filename):
                 print(in_line)
                 raise
 
+            # highlighted text in examples
+            try:
+                out_line = re.sub(r'!!([^!]+)!!', r'[\1]{.eghl}', out_line)
+            except TypeError:
+                print("Term sub error in ", filename, " line number ", line_count);
+                print(in_line)
+                raise
+
+            # citation look up
             try:
                 out_line = re.sub('@[^ \n]+@', manage_bib.get_cite_text, out_line, flags = re.M)
             except TypeError:
