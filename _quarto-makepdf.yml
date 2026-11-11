@@ -64,3 +64,9 @@ format:
 tikz:
   template: srctex/tikz-template-pdf.tex
 
+extensions:
+  highlight-text:
+    styles:
+      eghl:
+        bg: "#dfdfdf"
+
