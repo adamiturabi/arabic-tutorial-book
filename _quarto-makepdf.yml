@@ -57,6 +57,7 @@ format:
     monofontoptions: "Scale=0.7"
     fontsize: 10pt
     indent: true # indent first line of paragraph. Also seems to disable extra paragraph vertical spacing.
+    linestretch: 1.16 # line spacing
     #pdf-engine: xelatex
     include-in-header:
       - file: srctex/include_in_header.tex
