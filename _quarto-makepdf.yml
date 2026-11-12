@@ -25,19 +25,19 @@ format:
     # inner margin should be 1/2 of outer margin + binding offset = 1.0625/2 + 0.2 = 0.73125
     # So paper width = inner + textwidth + outer = 0.73125 + 4.3125 + 1.0625 = 6.10625in.
     # Selecting 6.14in x 9.21in as closest industry size
-    #geometry:
+    geometry:
     #  # A4 2 pages per sheet draft
     #  #- paper=a5paper               # a5: 148.5 by 210mm
-    #  - paperwidth=6.14in
-    #  - paperheight=9.21in
-    #  - inner=0.73125in
-    #  - outer=1.0625in
-    #  - top=0.84375in
-    #  - bottom=1.0625in
+      - paperwidth=6.69in
+      - paperheight=9.61in
+      - inner=0.6875in
+      - outer=1.125in
+      - top=0.875in
+      - bottom=0.875in
     #  #- bindingoffset=6mm
     #  #- textwidth=114.8mm           # = (170 - 6)*0.7
     #  #- textheight=170.8mm          # = 244 * 0.7
-    #  - twoside
+      - twoside
     number-sections: true
     colorlinks: false
     mainfont: "Charis"
@@ -50,7 +50,7 @@ format:
       - BoldFont="Charis SemiBold"
     monofont: "DejaVu Sans Mono"
     monofontoptions: "Scale=0.7"
-    fontsize: 9pt
+    fontsize: 10pt
     indent: true # indent first line of paragraph. Also seems to disable extra paragraph vertical spacing.
     #pdf-engine: xelatex
     include-in-header:
