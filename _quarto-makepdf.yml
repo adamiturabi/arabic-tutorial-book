@@ -27,7 +27,12 @@ format:
     # Selecting 6.14in x 9.21in as closest industry size
     geometry:
     #  # A4 2 pages per sheet draft
-    #  #- paper=a5paper               # a5: 148.5 by 210mm
+      #- paper=a4paper               # a5: 148.5 by 210mm
+      #- layoutwidth=6.69in
+      #- layoutheight=9.61in
+      #- layoutvoffset=1.25in
+      #- layouthoffset=1in
+      #- showcrop
       - paperwidth=6.69in
       - paperheight=9.61in
       - inner=0.6875in
