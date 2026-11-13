@@ -18,6 +18,11 @@ book:
   page-footer: "Copyright 2025, The Author. All Rights Reserved."
   page-navigation: true
   search: true
+  navbar:
+    search: true
+    right:
+      - text: Home
+        href: https://adamiturabi.github.io
 
 format:
   html:
