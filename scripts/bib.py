@@ -1062,7 +1062,7 @@ def populate_resource_list():
   resource_list.append(BibResource(
     "afghani"
     , cit_type = "ar_ref"
-    , cit_text = "[من تاريخ النحو العربي لسعيد الأفعاني]{.ar}"
+    , cit_text = "[من تاريخ النحو العربي لسعيد الأفغاني]{.ar}"
     , bib_text = """
       الكتاب: من تاريخ النحو العربي  
       المؤلف: سعيد بن محمد بن أحمد الأفغاني (ت ١٤١٧هـ)  
