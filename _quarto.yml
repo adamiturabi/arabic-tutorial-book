@@ -95,7 +95,7 @@ book:
 
 #keep-md: true
 filters:
-  - arabic-support
+  - adamiturabi/arabic-support
   - adamiturabi/tikz
   #- filters/autoref-link.lua
   #- filters/lingex.lua
